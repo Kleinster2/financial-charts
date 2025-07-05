@@ -42,6 +42,10 @@ document.addEventListener('DOMContentLoaded', () => {
             this.colorPalette = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
             this.colorIndex = 0;
             this.chartSeries = {};
+            if (this.averageSeries) {
+                this.chart.removeSeries(this.averageSeries);
+            }
+            this.averageSeries = null;
 
             this.element = document.getElementById('chart-card-template').content.cloneNode(true).firstElementChild;
             this.element.dataset.id = this.id;
@@ -171,6 +175,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.chart.removeSeries(this.chartSeries[ticker]);
             }
             this.chartSeries = {};
+            if (this.averageSeries) {
+                this.chart.removeSeries(this.averageSeries);
+            }
+            this.averageSeries = null;
             this.raw_data = {};
             this.colorIndex = 0;
         }
@@ -208,14 +216,44 @@ document.addEventListener('DOMContentLoaded', () => {
                 }, []);
             }
 
-
-
             for (const ticker in this.chartSeries) {
                 this.chartSeries[ticker].setData(allRebasedData[ticker] || []);
             }
+
+            // --- Compute and set average series ---
+            const timeMap = new Map();
+            Object.values(allRebasedData).forEach(seriesArr => {
+                seriesArr.forEach(pt => {
+                    if (!timeMap.has(pt.time)) {
+                        timeMap.set(pt.time, { sum: 0, count: 0 });
+                    }
+                    const obj = timeMap.get(pt.time);
+                    obj.sum += pt.value;
+                    obj.count += 1;
+                });
+            });
+            const avgData = Array.from(timeMap.entries()).map(([time, { sum, count }]) => ({ time, value: sum / count }));
+            avgData.sort((a, b) => a.time - b.time);
+
+            if (!this.averageSeries) {
+                this.averageSeries = this.chart.addLineSeries({
+                    title: 'AVG',
+                    color: '#000000',
+                    lastValueVisible: true,
+                    priceLineVisible: false,
+                    priceFormat: {
+                        type: 'custom',
+                        minMove: 1,
+                        formatter: (price) => {
+                            const diff = price - 100;
+                            const sign = diff > 0 ? '+' : '';
+                            return `${sign}${diff.toFixed(0)}%`;
+                        },
+                    },
+                });
+            }
+            this.averageSeries.setData(avgData);
         }
-
-
 
         destroy() {
             this.chart.remove();
