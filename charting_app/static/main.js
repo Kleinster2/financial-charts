@@ -41,7 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // Color palette for distinct series lines
             this.colorPalette = ['#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf'];
             this.colorIndex = 0;
+            this.diffChartSeries = {};
             this.chartSeries = {};
+            // Remove diff chart series
+            for (const t in this.diffChartSeries) { this.diffChart.removeSeries(this.diffChartSeries[t]); }
+            this.diffChartSeries = {};
             if (this.averageSeries) {
                 this.chart.removeSeries(this.averageSeries);
             }
@@ -69,6 +73,21 @@ document.addEventListener('DOMContentLoaded', () => {
                      return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
                  } 
              },
+            });
+
+            // Create diff chart for deviations from average
+            this.diffChartContainer = this.element.querySelector('.diff-chart-container');
+            this.diffChart = LightweightCharts.createChart(this.diffChartContainer, {
+                width: this.diffChartContainer.clientWidth,
+                height: 120,
+                layout: { background: { type: 'solid', color: '#ffffff' }, textColor: 'rgba(0, 0, 0, 0.8)' },
+                grid: { vertLines: { color: 'rgba(197, 203, 206, 0.2)' }, horzLines: { color: 'rgba(197, 203, 206, 0.2)' } },
+                crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+                timeScale: { borderColor: 'rgba(197, 203, 206, 0.8)' },
+            });
+            // Keep sub-chart horizontally in sync with main chart
+            this.chart.timeScale().subscribeVisibleLogicalRangeChange(range => {
+                if (range) this.diffChart.timeScale().setVisibleLogicalRange(range);
             });
 
             // Ensure right price scale is logarithmic
@@ -177,12 +196,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.chart.removeSeries(this.chartSeries[ticker]);
             }
             this.chartSeries = {};
+            // Remove diff chart series
+            for (const t in this.diffChartSeries) { this.diffChart.removeSeries(this.diffChartSeries[t]); }
+            this.diffChartSeries = {};
             if (this.averageSeries) {
                 this.chart.removeSeries(this.averageSeries);
             }
             this.averageSeries = null;
             this.raw_data = {};
             this.colorIndex = 0;
+            this.diffChartSeries = {};
         }
 
         rebaseAndSetData() {
@@ -256,6 +279,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
             this.averageSeries.setData(avgData);
+
+            // --- Compute and plot per-ticker deviations from average ---
+            const avgLookup = new Map(avgData.map(d => [d.time, d.value]));
+            for (const ticker in this.chartSeries) {
+                const baseArr = allRebasedData[ticker] || [];
+                const diffArr = baseArr.map(pt => ({ time: pt.time, value: pt.value - (avgLookup.get(pt.time) ?? 0) }));
+                if (!this.diffChartSeries[ticker]) {
+                    this.diffChartSeries[ticker] = this.diffChart.addLineSeries({
+                        color: this.chartSeries[ticker].options().color,
+                        lastValueVisible: false,
+                        priceLineVisible: false,
+                        priceFormat: {
+                            type: 'custom',
+                            minMove: 0.1,
+                            formatter: (v) => {
+                                const sign = v > 0 ? '+' : v < 0 ? '-' : '';
+                                const decimals = Math.abs(v) >= 100 ? 0 : 1;
+                                return `${sign}${Math.abs(v).toFixed(decimals)}%`;
+                            },
+                        },
+                    });
+                }
+                this.diffChartSeries[ticker].setData(diffArr);
+            }
         }
 
         destroy() {
