@@ -1,0 +1,10 @@
+# Ignore SQLite databases and other large or generated data files
+sp500_data.db
+*.db
+*.csv
+# Python cache
+__pycache__/
+# VSCode settings
+.vscode/
+# Environment files
+.env
