@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (!this.averageSeries) {
                 this.averageSeries = this.chart.addLineSeries({
-                    title: 'AVG',
+                    title: '⌀ AVG',
                     color: '#000000',
                     lastValueVisible: true,
                     priceLineVisible: false,
