@@ -25,10 +25,13 @@
     </div>
     <div id="workspace-container"></div>
 
+    <!-- Global datalist for ticker autocomplete -->
+    <datalist id="ticker-list"></datalist>
+
     <template id="chart-card-template">
         <div class="chart-card">
             <div class="controls">
-                <input type="text" class="ticker-input" placeholder="e.g., AAPL">
+                <input type="text" class="ticker-input" list="ticker-list" placeholder="e.g., AAPL">
                 <button class="add-btn">Add</button>
                 <button class="plot-btn">Plot All</button>
                 <button class="clear-btn">Clear All</button>

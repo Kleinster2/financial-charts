@@ -15,6 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('/api/tickers');
             availableTickers = await response.json();
+            // Populate the global datalist for ticker autocomplete
+            const datalist = document.getElementById('ticker-list');
+            if (datalist) {
+                datalist.innerHTML = '';
+                availableTickers.forEach(ticker => {
+                    const opt = document.createElement('option');
+                    opt.value = ticker;
+                    datalist.appendChild(opt);
+                });
+            }
         } catch (error) {
             console.error('Failed to fetch tickers:', error);
             alert('Could not load ticker list.');
