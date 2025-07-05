@@ -7,7 +7,19 @@ from datetime import datetime, timedelta
 START_DATE = "2023-12-29"
 END_DATE = datetime.today().strftime("%Y-%m-%d")
 DB_PATH = "sp500_data.db"
-ETF_TICKERS = ["SPY", "RSP", "VTI", "QQQ", "DIA", "IWM", "AGG", "GLD"]  # ETFs to always include
+ETF_TICKERS = [
+    "SPY", "RSP", "VTI", "QQQ", "DIA", "IWM", "AGG", "GLD",  # core market benchmarks
+    # U.S. style / factor ETFs
+    "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
+    # Sector ETFs (GICS)
+    "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
+    # International equity
+    "EFA", "EEM", "IEFA", "VWO", "EWJ", "EWU", "EWG", "FXI",
+    # Fixed income & alternatives
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL",
+    # Commodities & currencies
+    "SLV", "USO", "DBA", "UUP"
+]  # ETFs to always include
 
 # --- Main function to orchestrate the download ---
 def update_sp500_data():
