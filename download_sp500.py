@@ -21,7 +21,7 @@ ETF_TICKERS = [
     "EFA", "EEM", "IEFA", "VWO",
 
     # Single-country developed market ETFs
-    "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP",
+    "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWR", "EWM",
 
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
