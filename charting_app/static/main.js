@@ -58,7 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 rightPriceScale: { 
                  mode: LightweightCharts.PriceScaleMode.Logarithmic,
                  borderColor: 'rgba(197, 203, 206, 0.8)',
-                 formatter: (price) => `${(price - 100).toFixed(0)}%` 
+                 formatter: (price) => {
+                     const diff = price - 100;
+                     const sign = diff > 0 ? '+' : '';
+                     return `${sign}${diff.toFixed(0)}%`;
+                 } 
              },
             });
 
@@ -126,7 +130,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.log(`Processing ${ticker}, data points:`, data.length);
                     this.raw_data[ticker] = data;
                     const color = this.colorPalette[this.colorIndex % this.colorPalette.length];
-                this.chartSeries[ticker] = this.chart.addLineSeries({ title: ticker, color, lastValueVisible: true, priceLineVisible: false });
+                this.chartSeries[ticker] = this.chart.addLineSeries({
+                        title: ticker,
+                        color,
+                        lastValueVisible: true,
+                        priceLineVisible: false,
+                        priceFormat: {
+                            type: 'custom',
+                            minMove: 1,
+                            formatter: (price) => {
+                                const diff = price - 100;
+                                const sign = diff > 0 ? '+' : '';
+                                return `${sign}${diff.toFixed(0)}%`;
+                            },
+                        },
+                    });
                 this.colorIndex++;
                     console.log(`Series created for ${ticker}:`, this.chartSeries[ticker]);
                 });
