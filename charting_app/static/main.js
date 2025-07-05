@@ -64,8 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
                  borderColor: 'rgba(197, 203, 206, 0.8)',
                  formatter: (price) => {
                      const diff = price - 100;
-                     const sign = diff > 0 ? '+' : '';
-                     return `${sign}${diff.toFixed(0)}%`;
+                     const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                     const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                     return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
                  } 
              },
             });
@@ -141,11 +142,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         priceLineVisible: false,
                         priceFormat: {
                             type: 'custom',
-                            minMove: 1,
+                            minMove: 0.1,
                             formatter: (price) => {
                                 const diff = price - 100;
-                                const sign = diff > 0 ? '+' : '';
-                                return `${sign}${diff.toFixed(0)}%`;
+                                const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                                const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                                return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
                             },
                         },
                     });
@@ -243,11 +245,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     priceLineVisible: false,
                     priceFormat: {
                         type: 'custom',
-                        minMove: 1,
+                        minMove: 0.1,
                         formatter: (price) => {
                             const diff = price - 100;
-                            const sign = diff > 0 ? '+' : '';
-                            return `${sign}${diff.toFixed(0)}%`;
+                            const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                            const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                                return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
                         },
                     },
                 });
