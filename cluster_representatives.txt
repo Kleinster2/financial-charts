@@ -1,0 +1,81 @@
+--- Cluster Representatives (Closest to Centroid) ---
+
+Cluster 0: (71 stocks)
+  1. NWS (Distance: 0.0441)
+  2. NWSA (Distance: 0.0488)
+  3. TTWO (Distance: 0.0517)
+
+  Members:
+  ACN, ADBE, ABNB, AKAM, GOOGL, GOOG, MO, AMZN, AAPL, ADSK, ADP, AXON, BKNG, BSX, BR, CHTR, CMG, CSCO, CTSH, COST, CRWD, DAY, DXCM, DPZ, DASH, EA, EPAM, EFX, FFIV, FDS, FICO, FTNT, IT, GEN, GDDY, HWM, IBM, INTU, ISRG, JNPR, LYV, MA, META, MSFT, MNST, MCO, MSCI, NDAQ, NFLX, NWSA, NWS, PLTR, PANW, PAYX, PAYC, PM, PTC, ROP, SPGI, CRM, NOW, TTWO, TSLA, TKO, TYL, VRSN, VRSK, V, WMT, WBD, WDAY
+
+Cluster 1: (32 stocks)
+  1. DOC (Distance: 0.0573)
+  2. PLD (Distance: 0.0609)
+  3. VTR (Distance: 0.0637)
+
+  Members:
+  ARE, AMT, AVB, BXP, CHRW, CPT, CBRE, CCI, DLR, EQIX, EQR, ESS, EXR, FRT, DOC, PODD, ICE, INVH, IRM, KIM, MAA, PLD, PSA, O, REG, SBAC, SPG, UDR, VTR, VICI, WELL, WY
+
+Cluster 2: (69 stocks)
+  1. AXP (Distance: 0.0448)
+  2. STT (Distance: 0.0451)
+  3. BK (Distance: 0.0516)
+
+  Members:
+  ALGN, AXP, AMP, APO, BAC, BLK, BX, BK, BA, CZR, COF, KMX, CCL, SCHW, C, CFG, COIN, CMCSA, CPAY, DRI, DAL, EXPE, FDX, FITB, FI, FOXA, FOX, BEN, GRMN, GM, GPN, GS, HLT, HST, HBAN, IP, IVZ, JPM, KEY, KKR, MTB, MAR, MTCH, MET, MS, NTRS, NCLH, PARA, PYPL, PNC, PFG, PRU, RL, RJF, RF, RCL, SW, LUV, STT, SYF, TROW, TPR, TRMB, TFC, USB, UAL, DIS, WFC, ZBRA
+
+Cluster 3: (70 stocks)
+  1. STZ (Distance: 0.0337)
+  2. SJM (Distance: 0.0524)
+  3. BF-B (Distance: 0.0540)
+
+  Members:
+  APD, ALB, APTV, ADM, AVY, BALL, BBY, BF-B, CPB, CBOE, CHD, CLX, KO, CL, CAG, STZ, DVA, DG, DLTR, DOW, DD, EBAY, ECL, ENPH, EL, FIS, F, GIS, HAS, HSIC, HSY, HON, HRL, IFF, JKHY, K, KVUE, KDP, KMB, KHC, KR, LW, LVS, LIN, LKQ, LULU, MKC, MCD, MGM, TAP, MDLZ, NKE, PEP, PPG, PG, ROL, ROST, SJM, SBUX, SYY, TMUS, TGT, TJX, TSCO, TSN, ULTA, UPS, VZ, WYNN, YUM
+
+Cluster 4: (33 stocks)
+  1. DTE (Distance: 0.0377)
+  2. D (Distance: 0.0444)
+  3. CNP (Distance: 0.0460)
+
+  Members:
+  AES, LNT, AEE, AEP, AWK, T, ATO, CNP, CMS, ED, D, DTE, DUK, EIX, ETR, EQT, EVRG, ES, EXC, FE, KMI, NEM, NEE, NI, PCG, PNW, PPL, PEG, SRE, SO, WEC, WMB, XEL
+
+Cluster 5: (43 stocks)
+  1. CAH (Distance: 0.0587)
+  2. BRO (Distance: 0.0595)
+  3. AON (Distance: 0.0609)
+
+  Members:
+  AFL, ALL, AIG, AON, ACGL, AJG, AIZ, BRK-B, BRO, CAH, COR, CB, CINF, CTAS, CME, ERIE, EG, GE, GD, GL, HIG, HCA, HII, LHX, LDOS, LLY, LMT, L, MMC, MCK, MSI, NOC, ORLY, PGR, RTX, RSG, TDY, TDG, TRV, UHS, WRB, WM, WTW
+
+Cluster 6: (24 stocks)
+  1. SLB (Distance: 0.0364)
+  2. HAL (Distance: 0.0421)
+  3. APA (Distance: 0.0452)
+
+  Members:
+  APA, BKR, BG, CF, CVX, COP, CTRA, DVN, FANG, EOG, EXE, XOM, HAL, HES, LYB, MPC, MOS, OXY, OKE, PSX, SLB, TRGP, TPL, VLO
+
+Cluster 7: (45 stocks)
+  1. LH (Distance: 0.0434)
+  2. STE (Distance: 0.0564)
+  3. DHR (Distance: 0.0565)
+
+  Members:
+  ABT, ABBV, A, AMGN, BAX, BDX, TECH, BIIB, BMY, CNC, CRL, COO, CSGP, DHR, ELV, GEHC, GILD, HOLX, HUM, IDXX, INCY, IQV, JNJ, LH, MDT, MRK, MTD, MRNA, MOH, PFE, DGX, REGN, RMD, RVTY, SOLV, STE, SYK, TMO, UNH, VRTX, VTRS, WAT, WST, ZBH, ZTS
+
+Cluster 8: (47 stocks)
+  1. NTAP (Distance: 0.0296)
+  2. DELL (Distance: 0.0377)
+  3. MU (Distance: 0.0521)
+
+  Members:
+  AMD, APH, ADI, ANSS, AMAT, ANET, AVGO, CDNS, CDW, CEG, GLW, DELL, ETN, EW, FSLR, FCX, GEV, HPE, HPQ, INTC, JBL, JCI, KEYS, KLAC, LRCX, MCHP, MU, MPWR, NTAP, NRG, NVDA, NXPI, ON, ORCL, PWR, QCOM, STX, SWKS, SMCI, SNPS, TEL, TER, TXN, TT, UBER, VST, WDC
+
+Cluster 9: (69 stocks)
+  1. NDSN (Distance: 0.0454)
+  2. J (Distance: 0.0560)
+  3. IEX (Distance: 0.0576)
+
+  Members:
+  MMM, AOS, ALLE, AMCR, AME, AZO, BLDR, CARR, CAT, CI, CPRT, CTVA, CSX, CMI, CVS, DECK, DE, DOV, DHI, EMN, EMR, EXPD, FAST, FTV, GNRC, GPC, HD, HUBB, IEX, ITW, IR, IPG, JBHT, J, LEN, LII, LOW, MKTX, MLM, MAS, MHK, NDSN, NSC, NUE, NVR, ODFL, OMC, OTIS, PCAR, PKG, PH, PNR, POOL, PHM, ROK, SHW, SNA, SWK, STLD, TXT, UNP, URI, VLTO, VMC, GWW, WAB, WBA, WSM, XYL

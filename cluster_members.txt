@@ -1,0 +1,542 @@
+S&P 500 Stock Clusters and Their Members
+=========================================
+
+--- Tech/Growth (Cluster 0) ---
+Proxy Stocks: PHM, NVR, LEN
+
+1. PHM - PulteGroup (Proxy)
+2. NVR - NVR, Inc. (Proxy)
+3. LEN - Lennar (Proxy)
+4. DHI - D. R. Horton
+5. POOL - Pool Corporation
+6. MHK - Mohawk Industries
+7. BLDR - Builders FirstSource
+8. WSM - Williams-Sonoma, Inc.
+9. COIN - Coinbase
+
+--- Defensive/Utilities (Cluster 1) ---
+Proxy Stocks: PRU, AMP, PNC
+
+1. PRU - Prudential Financial (Proxy)
+2. AMP - Ameriprise Financial (Proxy)
+3. PNC - PNC Financial Services (Proxy)
+4. PFG - Principal Financial Group
+5. MET - MetLife
+6. RF - Regions Financial Corporation
+7. BAC - Bank of America
+8. HBAN - Huntington Bancshares
+9. GS - Goldman Sachs
+10. BLK - BlackRock
+11. HLT - Hilton Worldwide
+12. STT - State Street Corporation
+13. PH - Parker Hannifin
+14. FITB - Fifth Third Bancorp
+15. TFC - Truist Financial
+16. JPM - JPMorgan Chase
+17. BK - BNY Mellon
+18. MS - Morgan Stanley
+19. AXP - American Express
+20. RJF - Raymond James Financial
+21. MTB - M&T Bank
+22. MAR - Marriott International
+23. USB - U.S. Bancorp
+24. NWSA - News Corp (Class A)
+25. CFG - Citizens Financial Group
+26. C - Citigroup
+27. MCO - Moody's Corporation
+28. WAB - Wabtec
+29. NWS - News Corp (Class B)
+30. NTRS - Northern Trust
+31. TRMB - Trimble Inc.
+32. EMR - Emerson Electric
+33. WFC - Wells Fargo
+34. KEY - KeyCorp
+35. JCI - Johnson Controls
+36. COF - Capital One
+37. CBRE - CBRE Group
+38. SCHW - Charles Schwab Corporation
+39. IVZ - Invesco
+40. SYF - Synchrony Financial
+41. BX - Blackstone Inc.
+42. CPAY - Corpay
+43. DIS - Walt Disney Company (The)
+44. APO - Apollo Global Management
+45. GLW - Corning Inc.
+46. GRMN - Garmin
+47. ZBRA - Zebra Technologies
+48. KKR - KKR & Co.
+49. LYV - Live Nation Entertainment
+50. URI - United Rentals
+51. FI - Fiserv
+52. GPN - Global Payments
+53. BEN - Franklin Resources
+54. RL - Ralph Lauren Corporation
+55. GM - General Motors
+56. RCL - Royal Caribbean Group
+57. DAL - Delta Air Lines
+58. PYPL - PayPal
+59. TPR - Tapestry, Inc.
+60. IP - International Paper
+61. TKO - TKO Group Holdings
+62. LUV - Southwest Airlines
+63. BA - Boeing
+64. CCL - Carnival
+65. EXPE - Expedia Group
+66. UAL - United Airlines Holdings
+67. NCLH - Norwegian Cruise Line Holdings
+68. GL - Globe Life
+
+--- Financials (Cluster 2) ---
+Proxy Stocks: ATO, KO, PPL
+
+1. ATO - Atmos Energy (Proxy)
+2. KO - Coca-Cola Company (The) (Proxy)
+3. PPL - PPL Corporation (Proxy)
+4. CMS - CMS Energy
+5. LIN - Linde plc
+6. RSG - Republic Services
+7. AEE - Ameren
+8. LNT - Alliant Energy
+9. DUK - Duke Energy
+10. MMC - Marsh McLennan
+11. EVRG - Evergy
+12. DTE - DTE Energy
+13. NI - NiSource
+14. WEC - WEC Energy Group
+15. SO - Southern Company
+16. L - Loews Corporation
+17. BRK-B - Berkshire Hathaway
+18. ADP - Automatic Data Processing
+19. PG - Procter & Gamble
+20. O - Realty Income
+21. REG - Regency Centers
+22. PNW - Pinnacle West Capital
+23. ED - Consolidated Edison
+24. ICE - Intercontinental Exchange
+25. AEP - American Electric Power
+26. VICI - Vici Properties
+27. EXC - Exelon
+28. FE - FirstEnergy
+29. ROP - Roper Technologies
+30. SPGI - S&P Global
+31. AVB - AvalonBay Communities
+32. WM - Waste Management
+33. BR - Broadridge Financial Solutions
+34. PEP - PepsiCo
+35. INVH - Invitation Homes
+36. CL - Colgate-Palmolive
+37. WTW - Willis Towers Watson
+38. HIG - Hartford (The)
+39. KMB - Kimberly-Clark
+40. EQR - Equity Residential
+41. UDR - UDR, Inc.
+42. VRSK - Verisk Analytics
+43. MO - Altria
+44. YUM - Yum! Brands
+45. JNJ - Johnson & Johnson
+46. JKHY - Jack Henry & Associates
+47. OTIS - Otis Worldwide
+48. CB - Chubb Limited
+49. MAA - Mid-America Apartment Communities
+50. MA - Mastercard
+51. CHD - Church & Dwight
+52. MDLZ - Mondelez International
+53. CNP - CenterPoint Energy
+54. GD - General Dynamics
+55. ECL - Ecolab
+56. HON - Honeywell
+57. AWK - American Water Works
+58. KDP - Keurig Dr Pepper
+59. BRO - Brown & Brown
+60. AFL - Aflac
+61. NDAQ - Nasdaq, Inc.
+62. FRT - Federal Realty Investment Trust
+63. MCD - McDonald's
+64. MDT - Medtronic
+65. WELL - Welltower
+66. V - Visa Inc.
+67. ETR - Entergy
+68. SYK - Stryker Corporation
+69. TJX - TJX Companies
+70. AJG - Arthur J. Gallagher & Co.
+71. CSCO - Cisco
+72. PEG - Public Service Enterprise Group
+73. LHX - L3Harris
+74. KIM - Kimco Realty
+75. MSI - Motorola Solutions
+76. ABT - Abbott Laboratories
+77. PAYX - Paychex
+78. STE - Steris
+79. AON - Aon plc
+80. CME - CME Group
+81. KMI - Kinder Morgan
+82. SYY - Sysco
+83. XEL - Xcel Energy
+84. PM - Philip Morris International
+85. DGX - Quest Diagnostics
+86. COR - Cencora
+87. GIS - General Mills
+88. LH - Labcorp
+89. AIZ - Assurant
+90. PSA - Public Storage
+91. ESS - Essex Property Trust
+92. CPT - Camden Property Trust
+93. ORLY - O’Reilly Automotive
+94. CLX - Clorox
+95. KHC - Kraft Heinz
+96. CTAS - Cintas
+97. ROL - Rollins, Inc.
+98. VTR - Ventas
+99. AIG - American International Group
+100. CINF - Cincinnati Financial
+101. D - Dominion Energy
+102. VRSN - Verisign
+103. T - AT&T
+104. FDS - FactSet
+105. DOC - Healthpeak Properties
+106. LMT - Lockheed Martin
+107. TDY - Teledyne Technologies
+108. ALL - Allstate
+109. WRB - W. R. Berkley Corporation
+110. VZ - Verizon
+111. WMT - Walmart
+112. TRV - Travelers Companies (The)
+113. ACGL - Arch Capital Group
+114. PGR - Progressive Corporation
+115. CCI - Crown Castle
+116. RTX - RTX Corporation
+117. EXR - Extra Space Storage
+118. BDX - Becton Dickinson
+119. AMT - American Tower
+120. TYL - Tyler Technologies
+121. TMUS - T-Mobile US
+122. CAG - Conagra Brands
+123. TAP - Molson Coors Beverage Company
+124. ES - Eversource Energy
+125. MNST - Monster Beverage
+126. EG - Everest Group
+127. AZO - AutoZone
+128. TSN - Tyson Foods
+129. HOLX - Hologic
+130. FOX - Fox Corporation (Class B)
+131. CBOE - Cboe Global Markets
+132. SRE - Sempra
+133. MKC - McCormick & Company
+134. CPB - Campbell's Company (The)
+135. PFE - Pfizer
+136. CAH - Cardinal Health
+137. ABBV - AbbVie
+138. FOXA - Fox Corporation (Class A)
+139. CMCSA - Comcast
+140. STZ - Constellation Brands
+141. PCG - PG&E Corporation
+142. IBM - IBM
+143. SBAC - SBA Communications
+144. NOC - Northrop Grumman
+145. ZTS - Zoetis
+146. FIS - Fidelity National Information Services
+147. CI - Cigna
+148. ZBH - Zimmer Biomet
+149. K - Kellanova
+150. MRK - Merck & Co.
+151. HRL - Hormel Foods
+152. HCA - HCA Healthcare
+153. KR - Kroger
+154. MCK - McKesson Corporation
+155. IRM - Iron Mountain
+156. ELV - Elevance Health
+157. KVUE - Kenvue
+158. AMGN - Amgen
+159. VRTX - Vertex Pharmaceuticals
+160. NEE - NextEra Energy
+161. HSY - Hershey Company (The)
+162. MSCI - MSCI Inc.
+163. GILD - Gilead Sciences
+164. SJM - J.M. Smucker Company (The)
+165. EIX - Edison International
+166. BMY - Bristol Myers Squibb
+167. DRI - Darden Restaurants
+168. EQIX - Equinix
+169. EA - Electronic Arts
+170. ACN - Accenture
+171. EBAY - eBay Inc.
+172. LDOS - Leidos
+173. BG - Bunge Global
+174. UHS - Universal Health Services
+175. DVA - DaVita
+176. ERIE - Erie Indemnity
+177. HII - Huntington Ingalls Industries
+178. BF-B - Brown–Forman
+179. MKTX - MarketAxess
+180. ADM - Archer Daniels Midland
+181. INCY - Incyte
+182. CVS - CVS Health
+183. CHTR - Charter Communications
+184. NEM - Newmont
+185. MOH - Molina Healthcare
+186. CNC - Centene Corporation
+187. UNH - UnitedHealth Group
+188. HUM - Humana
+189. DG - Dollar General
+
+--- Healthcare (Cluster 3) ---
+Proxy Stocks: ENPH
+
+1. ENPH - Enphase Energy (Proxy)
+
+--- Industrials/Manufacturing (Cluster 4) ---
+Proxy Stocks: CVX, XOM, HES
+
+1. CVX - Chevron Corporation (Proxy)
+2. XOM - ExxonMobil (Proxy)
+3. HES - Hess Corporation (Proxy)
+4. EOG - EOG Resources
+5. COP - ConocoPhillips
+6. OXY - Occidental Petroleum
+7. DVN - Devon Energy
+8. OKE - Oneok
+9. CTRA - Coterra
+10. FANG - Diamondback Energy
+11. BKR - Baker Hughes
+12. HAL - Halliburton
+13. TRGP - Targa Resources
+14. WMB - Williams Companies
+15. SLB - Schlumberger
+16. PSX - Phillips 66
+17. EXE - Expand Energy
+18. MPC - Marathon Petroleum
+19. VLO - Valero Energy
+20. APA - APA Corporation
+21. CF - CF Industries
+22. EQT - EQT Corporation
+23. TPL - Texas Pacific Land Corporation
+
+--- Consumer Discretionary (Cluster 5) ---
+Proxy Stocks: FTV
+
+1. FTV - Fortive (Proxy)
+
+--- Energy (Cluster 6) ---
+Proxy Stocks: QCOM, ADI, KLAC
+
+1. QCOM - Qualcomm (Proxy)
+2. ADI - Analog Devices (Proxy)
+3. KLAC - KLA Corporation (Proxy)
+4. LRCX - Lam Research
+5. NXPI - NXP Semiconductors
+6. AMAT - Applied Materials
+7. TXN - Texas Instruments
+8. TER - Teradyne
+9. WDC - Western Digital
+10. MCHP - Microchip Technology
+11. SWKS - Skyworks Solutions
+12. STX - Seagate Technology
+13. JBL - Jabil
+14. MPWR - Monolithic Power Systems
+15. AMD - Advanced Micro Devices
+16. ON - ON Semiconductor
+17. MU - Micron Technology
+18. HPE - Hewlett Packard Enterprise
+19. NVDA - Nvidia
+20. AVGO - Broadcom
+21. DELL - Dell Technologies
+22. INTC - Intel
+
+--- Real Estate/REITs (Cluster 7) ---
+Proxy Stocks: SMCI
+
+1. SMCI - Supermicro (Proxy)
+
+--- Materials/Commodities (Cluster 8) ---
+Proxy Stocks: ITW, DOV, IEX
+
+1. ITW - Illinois Tool Works (Proxy)
+2. DOV - Dover Corporation (Proxy)
+3. IEX - IDEX Corporation (Proxy)
+4. PPG - PPG Industries
+5. ALLE - Allegion
+6. XYL - Xylem Inc.
+7. TROW - T. Rowe Price
+8. AVY - Avery Dennison
+9. AME - Ametek
+10. UNP - Union Pacific Corporation
+11. LOW - Lowe's
+12. TEL - TE Connectivity
+13. HD - Home Depot (The)
+14. J - Jacobs Solutions
+15. MAS - Masco
+16. CSX - CSX Corporation
+17. CAT - Caterpillar Inc.
+18. VLTO - Veralto
+19. SHW - Sherwin-Williams
+20. SPG - Simon Property Group
+21. CTSH - Cognizant
+22. TXT - Textron
+23. TMO - Thermo Fisher Scientific
+24. LYB - LyondellBasell
+25. GWW - W. W. Grainger
+26. WY - Weyerhaeuser
+27. AMCR - Amcor
+28. PNR - Pentair
+29. PKG - Packaging Corporation of America
+30. HST - Host Hotels & Resorts
+31. NDSN - Nordson Corporation
+32. A - Agilent Technologies
+33. EMN - Eastman Chemical Company
+34. IR - Ingersoll Rand
+35. CMI - Cummins
+36. SNA - Snap-on
+37. NSC - Norfolk Southern
+38. IPG - Interpublic Group of Companies (The)
+39. MLM - Martin Marietta Materials
+40. EXPD - Expeditors International
+41. BALL - Ball Corporation
+42. AOS - A. O. Smith
+43. DOW - Dow Inc.
+44. FAST - Fastenal
+45. CDW - CDW Corporation
+46. PLD - Prologis
+47. OMC - Omnicom Group
+48. DE - Deere & Company
+49. VMC - Vulcan Materials Company
+50. DD - DuPont
+51. IFF - International Flavors & Fragrances
+52. PCAR - Paccar
+53. ROST - Ross Stores
+54. DHR - Danaher Corporation
+55. CTVA - Corteva
+56. SWK - Stanley Black & Decker
+57. CARR - Carrier Global
+58. RVTY - Revvity
+59. HSIC - Henry Schein
+60. LKQ - LKQ Corporation
+61. ARE - Alexandria Real Estate Equities
+62. IDXX - Idexx Laboratories
+63. MMM - 3M
+64. IQV - IQVIA
+65. LII - Lennox International
+66. KEYS - Keysight Technologies
+67. JBHT - J.B. Hunt
+68. GEHC - GE HealthCare
+69. APD - Air Products
+70. TSCO - Tractor Supply
+71. GEN - Gen Digital
+72. WAT - Waters Corporation
+73. BAX - Baxter International
+74. BIIB - Biogen
+75. HAS - Hasbro
+76. ROK - Rockwell Automation
+77. EFX - Equifax
+78. MTD - Mettler Toledo
+79. GPC - Genuine Parts Company
+80. UPS - United Parcel Service
+81. CHRW - C.H. Robinson
+82. CSGP - CoStar Group
+83. COO - Cooper Companies (The)
+84. BXP - BXP, Inc.
+85. F - Ford Motor Company
+86. MGM - MGM Resorts
+87. KMX - CarMax
+88. TECH - Bio-Techne
+89. VTRS - Viatris
+90. PAYC - Paycom
+91. ODFL - Old Dominion
+92. FDX - FedEx
+93. DPZ - Domino's
+94. STLD - Steel Dynamics
+95. LVS - Las Vegas Sands
+96. WYNN - Wynn Resorts
+97. NUE - Nucor
+98. APTV - Aptiv
+99. HPQ - HP Inc.
+100. BBY - Best Buy
+101. GNRC - Generac
+102. DAY - Dayforce
+103. ALGN - Align Technology
+104. MOS - Mosaic Company (The)
+105. AKAM - Akamai Technologies
+106. REGN - Regeneron Pharmaceuticals
+107. TGT - Target Corporation
+108. SBUX - Starbucks
+109. MTCH - Match Group
+110. FCX - Freeport-McMoRan
+111. NKE - Nike, Inc.
+112. CRL - Charles River Laboratories
+113. ULTA - Ulta Beauty
+114. CZR - Caesars Entertainment
+115. EL - Estée Lauder Companies (The)
+116. AES - AES Corporation
+117. EPAM - EPAM Systems
+118. WST - West Pharmaceutical Services
+119. LW - Lamb Weston
+120. LULU - Lululemon Athletica
+121. DLTR - Dollar Tree
+122. WBD - Warner Bros. Discovery
+123. PARA - Paramount Global
+124. ALB - Albemarle Corporation
+125. WBA - Walgreens Boots Alliance
+126. FSLR - First Solar
+127. MRNA - Moderna
+
+--- Communication Services (Cluster 9) ---
+Proxy Stocks: MSFT, PTC, ANSS
+
+1. MSFT - Microsoft (Proxy)
+2. PTC - PTC Inc. (Proxy)
+3. ANSS - Ansys (Proxy)
+4. BSX - Boston Scientific
+5. TT - Trane Technologies
+6. ETN - Eaton Corporation
+7. APH - Amphenol
+8. COST - Costco
+9. ADSK - Autodesk
+10. IT - Gartner
+11. TDG - TransDigm Group
+12. FFIV - F5, Inc.
+13. AMZN - Amazon
+14. HUBB - Hubbell Incorporated
+15. BKNG - Booking Holdings
+16. DLR - Digital Realty
+17. GDDY - GoDaddy
+18. CPRT - Copart
+19. ISRG - Intuitive Surgical
+20. INTU - Intuit
+21. PWR - Quanta Services
+22. AAPL - Apple Inc.
+23. HWM - Howmet Aerospace
+24. NOW - ServiceNow
+25. GE - GE Aerospace
+26. GOOG - Alphabet Inc. (Class C)
+27. CRM - Salesforce
+28. GOOGL - Alphabet Inc. (Class A)
+29. NFLX - Netflix
+30. CDNS - Cadence Design Systems
+31. META - Meta Platforms
+32. SNPS - Synopsys
+33. NTAP - NetApp
+34. TTWO - Take-Two Interactive
+35. CMG - Chipotle Mexican Grill
+36. DASH - DoorDash
+37. ABNB - Airbnb
+38. FTNT - Fortinet
+39. EW - Edwards Lifesciences
+40. WDAY - Workday, Inc.
+41. ORCL - Oracle Corporation
+42. LLY - Lilly (Eli)
+43. RMD - ResMed
+44. NRG - NRG Energy
+45. ADBE - Adobe Inc.
+46. ANET - Arista Networks
+47. FICO - Fair Isaac
+48. UBER - Uber
+49. PANW - Palo Alto Networks
+50. AXON - Axon Enterprise
+51. CRWD - CrowdStrike
+52. PODD - Insulet Corporation
+53. DECK - Deckers Brands
+54. DXCM - Dexcom
+55. CEG - Constellation Energy
+56. VST - Vistra Corp.
+57. PLTR - Palantir Technologies
+58. TSLA - Tesla, Inc.
+
