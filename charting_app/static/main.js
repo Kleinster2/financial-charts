@@ -98,7 +98,11 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             // Ensure right price scale is logarithmic
-            this.chart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
+            this.chart.priceScale('right').applyOptions({
+                mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                entireTextOnly: true,      // reserve enough width for full label text
+                alignLabels: true          // align series labels with price scale values
+            });
 
             this.chart.timeScale().subscribeVisibleLogicalRangeChange(() => this.rebaseAndSetData());
 
