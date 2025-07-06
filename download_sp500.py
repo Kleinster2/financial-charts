@@ -29,8 +29,15 @@ ETF_TICKERS = [
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL",
 
-    # Commodities & currencies
-    "SLV", "USO", "DBA", "UUP"
+    # Commodities, currencies & volatility
+    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF",
+    # Volatility indices (Yahoo '^' symbols) and ETNs
+    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^RVX", "^VOLQ", "^VVIX", "^SKEW", "^SPXHV", "^SPXRV",
+    "VXX", "UVXY", "SVXY",
+    # Additional fixed-income ETFs
+    "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    # Treasury yield index symbols (yields, not prices)
+    "^IRX", "^FVX", "^TNX", "^TYX"
 ]
 
 
