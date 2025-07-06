@@ -32,7 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- ChartCard Class ---
-    class ChartCard {
+    const BASE_HEIGHT = 400; // px
+const EXTRA_PER_TICKER = 25; // px per ticker beyond threshold
+const HEIGHT_THRESHOLD = 6;  // start enlarging at 7th ticker
+
+class ChartCard {
         constructor(container, id, tickers = []) {
             this.container = container;
             this.id = id;
@@ -65,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.chartContainer = this.element.querySelector('.chart-container');
             this.chart = LightweightCharts.createChart(this.chartContainer, {
                 width: this.chartContainer.clientWidth,
-                height: 300,
+            
                 layout: { background: { type: 'solid', color: '#ffffff' }, textColor: 'rgba(0, 0, 0, 0.9)' },
                 grid: { vertLines: { color: 'rgba(197, 203, 206, 0.5)' }, horzLines: { color: 'rgba(197, 203, 206, 0.5)' } },
                 crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
@@ -86,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             this.diffChartContainer = this.element.querySelector('.diff-chart-container');
             this.diffChart = LightweightCharts.createChart(this.diffChartContainer, {
                 width: this.diffChartContainer.clientWidth,
-                height: 120,
+            
                 layout: { background: { type: 'solid', color: '#ffffff' }, textColor: 'rgba(0, 0, 0, 0.8)' },
                 grid: { vertLines: { color: 'rgba(197, 203, 206, 0.2)' }, horzLines: { color: 'rgba(197, 203, 206, 0.2)' } },
                 crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
@@ -130,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.tickers.add(ticker);
                 this.tickerInputElement.value = '';
                 this.updateSelectedTickersUI();
+                this.adjustHeight();
                 saveWorkspace();
             }
         }
@@ -189,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.chart.timeScale().fitContent();
 
                 this.rebaseAndSetData();
+                this.adjustHeight();
                 saveWorkspace();
             } catch (error) {
                 console.error('Error in plotData:', error);
@@ -197,6 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         clearChart() {
             this.tickers.clear();
+            this.adjustHeight();
             this.clearSeries();
             this.updateSelectedTickersUI();
             saveWorkspace();
@@ -217,6 +224,14 @@ document.addEventListener('DOMContentLoaded', () => {
             this.raw_data = {};
             this.colorIndex = 0;
             this.diffChartSeries = {};
+        }
+
+        adjustHeight() {
+            const n = this.tickers.size;
+            const extra = n > HEIGHT_THRESHOLD ? (n - HEIGHT_THRESHOLD) * EXTRA_PER_TICKER : 0;
+            const newH = BASE_HEIGHT + extra;
+            this.chartContainer.style.height = `${newH}px`;
+            this.chart.resize(this.chartContainer.clientWidth, newH);
         }
 
         rebaseAndSetData() {
