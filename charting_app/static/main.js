@@ -66,6 +66,12 @@ class ChartCard {
             this.element.dataset.id = this.id;
             this.container.appendChild(this.element);
 
+            // Create crosshair legend overlay
+            this.legendDiv = document.createElement('div');
+            this.legendDiv.className = 'crosshair-legend';
+            this.legendDiv.style.display = 'none';
+            this.element.appendChild(this.legendDiv);
+
             this.chartContainer = this.element.querySelector('.chart-container');
             this.chart = LightweightCharts.createChart(this.chartContainer, {
                 width: this.chartContainer.clientWidth,
@@ -109,6 +115,41 @@ class ChartCard {
             });
 
             this.chart.timeScale().subscribeVisibleLogicalRangeChange(() => this.rebaseAndSetData());
+
+            // Subscribe to crosshair movement to update legend
+            this.chart.subscribeCrosshairMove(param => {
+                if (!param || param.time === undefined) {
+                    this.legendDiv.style.display = 'none';
+                    return;
+                }
+                let entries = [];
+                // Include each series' value at crosshair
+                for (const ticker in this.chartSeries) {
+                    const series = this.chartSeries[ticker];
+                    const point = param.seriesData.get(series);
+                    const val = point && typeof point === 'object' ? point.value : point;
+                    if (val !== undefined && val !== null) {
+                        entries.push({ticker, val, color: series.options().color});
+                    }
+                }
+                // AVG series
+                if (this.averageSeries) {
+                    const pointAvg = param.seriesData.get(this.averageSeries);
+                    const valAvg = pointAvg && typeof pointAvg === 'object' ? pointAvg.value : pointAvg;
+                    if (valAvg !== undefined && valAvg !== null && !isNaN(valAvg)) {
+                        entries.push({ticker: 'AVG', val: valAvg, color: this.averageSeries.options().color});
+                    }
+                }
+                                entries.sort((a, b) => b.val - a.val);
+                const html = entries.map(e => `<div style=\"color:${e.color}\">${e.ticker}: ${this.formatPercent(e.val)}</div>`).join('');
+
+                if (html) {
+                    this.legendDiv.innerHTML = html;
+                    this.legendDiv.style.display = 'block';
+                } else {
+                    this.legendDiv.style.display = 'none';
+                }
+            });
 
             this.selectedTickersElement = this.element.querySelector('.selected-tickers');
             this.tickerInputElement = this.element.querySelector('.ticker-input');
@@ -224,6 +265,13 @@ class ChartCard {
             this.raw_data = {};
             this.colorIndex = 0;
             this.diffChartSeries = {};
+        }
+
+        formatPercent(price) {
+            const diff = price - 100;
+            const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+            const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+            return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
         }
 
         adjustHeight() {
