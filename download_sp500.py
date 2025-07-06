@@ -27,10 +27,10 @@ ETF_TICKERS = [
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
 
     # Fixed income & alternative asset ETFs
-    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL",
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV",
 
     # Commodities, currencies & volatility
-    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "NIB", "JO", "COW", "BEEF", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
+    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "BJO", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
     "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^RVX", "^VOLQ", "^VVIX", "^SKEW", "^SPXHV", "^SPXRV",
     "VXX", "UVXY", "SVXY",
