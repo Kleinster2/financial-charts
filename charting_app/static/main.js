@@ -108,10 +108,52 @@ class ChartCard {
             });
 
             // Ensure right price scale is logarithmic
+            // Right price scale (primary)
             this.chart.priceScale('right').applyOptions({
                 mode: LightweightCharts.PriceScaleMode.Logarithmic,
                 entireTextOnly: true,      // reserve enough width for full label text
                 alignLabels: true          // align series labels with price scale values
+            });
+
+            // Mirror left price scale so grid labels also appear on the left
+            // Add transparent mirror series to keep left scale in sync with right
+            this.mirrorSeries = this.chart.addLineSeries({
+                priceScaleId: 'left',
+                color: 'rgba(0,0,0,0)',
+                lineWidth: 1,
+                lastValueVisible: false,
+                priceLineVisible: false,
+                priceFormat: {
+                    type: 'custom',
+                    minMove: 0.1,
+                    formatter: (price) => {
+                        const diff = price - 100;
+                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                        const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                        return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
+                    },
+                },
+            });
+            this.chart.applyOptions({
+                leftPriceScale: {
+                    visible: true,
+                    mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                    borderColor: 'rgba(197, 203, 206, 0.8)',
+                    entireTextOnly: true,
+                    alignLabels: true,
+
+                }
+
+            });
+
+                        // Format left price scale labels as ± percentages to mirror right scale
+            this.chart.priceScale('left').applyOptions({
+                tickMarkFormatter: (price) => {
+                    const diff = price - 100;
+                    const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                    const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                    return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
+                }
             });
 
             this.chart.timeScale().subscribeVisibleLogicalRangeChange(() => this.rebaseAndSetData());
@@ -335,7 +377,10 @@ class ChartCard {
             avgData.sort((a, b) => a.time - b.time);
 
             if (!this.averageSeries) {
+                // Attach average series to left price scale so it drives left labels
+
                 this.averageSeries = this.chart.addLineSeries({
+                    
                     title: '⌀ AVG',
                     color: '#000000',
                     lastValueVisible: true,
@@ -353,6 +398,23 @@ class ChartCard {
                 });
             }
             this.averageSeries.setData(avgData);
+            // Update mirror series to cover full visible value range so left/right scales match
+            let globalMin = Infinity, globalMax = -Infinity, firstT = null, lastT = null;
+            Object.values(allRebasedData).forEach(arr => {
+                if (!arr || arr.length === 0) return;
+                if (firstT === null) firstT = arr[0].time;
+                lastT = arr[arr.length-1].time;
+                arr.forEach(pt => {
+                    if (pt.value < globalMin) globalMin = pt.value;
+                    if (pt.value > globalMax) globalMax = pt.value;
+                });
+            });
+            if (Number.isFinite(globalMin) && Number.isFinite(globalMax)) {
+                this.mirrorSeries.setData([
+                    { time: firstT, value: globalMin },
+                    { time: lastT || firstT, value: globalMax }
+                ]);
+            }
 
             // --- Compute and plot per-ticker deviations from average ---
             const avgLookup = new Map(avgData.map(d => [d.time, d.value]));
