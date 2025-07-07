@@ -526,10 +526,24 @@ class ChartCard {
                     { time: diffFirstT, value: diffGlobalMin },
                     { time: diffLastT || diffFirstT, value: diffGlobalMax }
                 ]);
+                // Resize diff chart height based on current ticker count
+                this.updateDiffChartHeight();
             }
         }
 
 
+
+        // Dynamically adjust diff chart height based on ticker count
+        updateDiffChartHeight() {
+            const count = Object.keys(this.chartSeries).length;
+            // Base 120px, add 20px per ticker beyond 5
+            const newHeight = Math.max(120, 20 * count + 20);
+            const current = parseInt(this.diffChartContainer.style.height || 0, 10);
+            if (current !== newHeight) {
+                this.diffChartContainer.style.height = `${newHeight}px`;
+                this.diffChart.resize(this.diffChartContainer.clientWidth, newHeight);
+            }
+        }
 
         destroy() {
             this.chart.remove();
