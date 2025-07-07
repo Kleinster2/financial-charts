@@ -6,6 +6,7 @@ import sys
 from flask import Flask, jsonify, render_template, request
 import logging
 import numpy as np
+import json
 
 # Configure logging to output to stdout for easier debugging
 logging.basicConfig(
@@ -103,6 +104,41 @@ def get_data():
             chart_data[ticker] = []
 
     return jsonify(chart_data)
+
+
+# --- Workspace Persistence API ---
+@app.route('/api/workspace', methods=['GET', 'POST'])
+def workspace():
+    """Persist or retrieve the multi-chart workspace layout.
+    The workspace is stored as JSON in a file so it survives server restarts
+    and is shared across browser origins/ports.
+    """
+    workspace_path = os.path.join(basedir, 'workspace.json')
+
+    if request.method == 'POST':
+        try:
+            state = request.get_json(force=True) or []
+            # Write atomically by first dumping to a temp file
+            tmp_path = workspace_path + '.tmp'
+            with open(tmp_path, 'w', encoding='utf-8') as fh:
+                json.dump(state, fh)
+            os.replace(tmp_path, workspace_path)
+            return jsonify({'status': 'saved', 'items': len(state)}), 200
+        except Exception as e:
+            app.logger.error(f"Failed to save workspace: {e}")
+            return jsonify({'error': 'failed to save'}), 500
+
+    # GET
+    if os.path.exists(workspace_path):
+        try:
+            with open(workspace_path, 'r', encoding='utf-8') as fh:
+                state = json.load(fh)
+        except Exception as e:
+            app.logger.error(f"Failed to read workspace file: {e}")
+            state = []
+    else:
+        state = []
+    return jsonify(state)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

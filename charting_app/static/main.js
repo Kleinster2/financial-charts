@@ -399,12 +399,18 @@ class ChartCard {
             }
             this.averageSeries.setData(avgData);
             // Update mirror series to cover full visible value range so left/right scales match
-            let globalMin = Infinity, globalMax = -Infinity, firstT = null, lastT = null;
+            // Determine min/max only for the portion of data currently visible
+            const vis = this.chart.timeScale().getVisibleRange();
+            let globalMin = Infinity, globalMax = -Infinity;
+            let firstT = null, lastT = null;
             Object.values(allRebasedData).forEach(arr => {
                 if (!arr || arr.length === 0) return;
-                if (firstT === null) firstT = arr[0].time;
-                lastT = arr[arr.length-1].time;
-                arr.forEach(pt => {
+                // Filter points to visible range if available
+                const filtered = vis ? arr.filter(p => p.time >= vis.from && p.time <= vis.to) : arr;
+                if (filtered.length === 0) return;
+                if (firstT === null) firstT = filtered[0].time;
+                lastT = filtered[filtered.length - 1].time;
+                filtered.forEach(pt => {
                     if (pt.value < globalMin) globalMin = pt.value;
                     if (pt.value > globalMax) globalMax = pt.value;
                 });
@@ -463,23 +469,47 @@ class ChartCard {
         return chartCard;
     }
 
-    function saveWorkspace() {
+    async function saveWorkspace() {
         const state = chartCards.map(c => c.getState());
+        // Always save to localStorage for quick restore on same origin
         localStorage.setItem('financialChartWorkspace', JSON.stringify(state));
+        // Also persist to backend so state is shared across origins/ports
+        try {
+            await fetch('/api/workspace', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(state)
+            });
+        } catch (err) {
+            console.warn('Workspace POST failed:', err);
+        }
     }
 
-    function loadWorkspace() {
+    async function loadWorkspace() {
+        // First try backend
+        try {
+            const resp = await fetch('/api/workspace');
+            if (resp.ok) {
+                const chartData = await resp.json();
+                if (chartData && chartData.length) {
+                    chartData.forEach(d => createNewChart(d.tickers));
+                    return;
+                }
+            }
+        } catch (err) {
+            console.warn('Workspace GET failed:', err);
+        }
+        // Fallback to localStorage
         const savedState = localStorage.getItem('financialChartWorkspace');
         if (savedState) {
             const chartData = JSON.parse(savedState);
             if (chartData.length > 0) {
                 chartData.forEach(data => createNewChart(data.tickers));
-            } else {
-                createNewChart(['SPY', 'RSP']); // Default chart if workspace is empty
+                return;
             }
-        } else {
-            createNewChart(['SPY', 'RSP']); // Default for first-time users
         }
+        // Final fallback: default chart
+        createNewChart(['SPY', 'RSP']);
     }
 
     initializeWorkspace();
