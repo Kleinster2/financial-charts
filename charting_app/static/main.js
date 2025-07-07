@@ -94,6 +94,7 @@ class ChartCard {
 
             // Create diff chart for deviations from average
             this.diffChartContainer = this.element.querySelector('.diff-chart-container');
+            // --- Diff Chart ---
             this.diffChart = LightweightCharts.createChart(this.diffChartContainer, {
                 width: this.diffChartContainer.clientWidth,
             
@@ -102,10 +103,60 @@ class ChartCard {
                 crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
                 timeScale: { borderColor: 'rgba(197, 203, 206, 0.8)' },
             });
-            // Keep sub-chart horizontally in sync with main chart
-            this.chart.timeScale().subscribeVisibleLogicalRangeChange(range => {
-                if (range) this.diffChart.timeScale().setVisibleLogicalRange(range);
+            // Configure right price scale for diffChart
+            this.diffChart.priceScale('right').applyOptions({
+                entireTextOnly: true,
+                alignLabels: true,
+                tickMarkFormatter: (v) => {
+                    const sign = v > 0 ? '+' : v < 0 ? '-' : '';
+                    const decimals = Math.abs(v) >= 100 ? 0 : 1;
+                    return `${sign}${Math.abs(v).toFixed(decimals)}%`;
+                }
             });
+
+            // Mirror left price scale for diffChart using transparent series
+            this.diffMirrorSeries = this.diffChart.addLineSeries({
+                priceScaleId: 'left',
+                color: 'rgba(0,0,0,0)',
+                lineWidth: 1,
+                lastValueVisible: false,
+                priceLineVisible: false,
+                priceFormat: {
+                    type: 'custom',
+                    minMove: 0.1,
+                    formatter: (v) => {
+                        const sign = v > 0 ? '+' : v < 0 ? '-' : '';
+                        const decimals = Math.abs(v) >= 100 ? 0 : 1;
+                        return `${sign}${Math.abs(v).toFixed(decimals)}%`;
+                    },
+                },
+            });
+            this.diffChart.applyOptions({
+                leftPriceScale: {
+                    visible: true,
+                    borderColor: 'rgba(197, 203, 206, 0.8)',
+                    alignLabels: true,
+                    entireTextOnly: true,
+                }
+            });
+            this.diffChart.priceScale('left').applyOptions({
+                tickMarkFormatter: (v) => {
+                    const sign = v > 0 ? '+' : v < 0 ? '-' : '';
+                    const decimals = Math.abs(v) >= 100 ? 0 : 1;
+                    return `${sign}${Math.abs(v).toFixed(decimals)}%`;
+                }
+            });
+
+            // Keep sub-chart horizontally in sync with main chart
+            // --- Synchronize time scales between main and diff charts (both directions) ---
+            const syncLogicalRange = (source, target) => (range) => {
+                if (!range || this._syncingRangeUpdate) return;
+                this._syncingRangeUpdate = true;
+                target.timeScale().setVisibleLogicalRange(range);
+                this._syncingRangeUpdate = false;
+            };
+            this.chart.timeScale().subscribeVisibleLogicalRangeChange(syncLogicalRange(this.chart, this.diffChart));
+            this.diffChart.timeScale().subscribeVisibleLogicalRangeChange(syncLogicalRange(this.diffChart, this.chart));
 
             // Ensure right price scale is logarithmic
             // Right price scale (primary)
@@ -424,13 +475,24 @@ class ChartCard {
 
             // --- Compute and plot per-ticker deviations from average ---
             const avgLookup = new Map(avgData.map(d => [d.time, d.value]));
+            // Prepare variables for diff mirror series alignment
+            let diffGlobalMin = Infinity, diffGlobalMax = -Infinity;
+            let diffFirstT = null, diffLastT = null;
             for (const ticker in this.chartSeries) {
                 const baseArr = allRebasedData[ticker] || [];
-                const diffArr = baseArr.map(pt => ({ time: pt.time, value: pt.value - (avgLookup.get(pt.time) ?? 0) }));
+                const diffArr = baseArr.map(pt => {
+                    const avgVal = avgLookup.get(pt.time);
+                    if (avgVal && avgVal !== 0) {
+                        // deviation = (1+rebased)/(1+avg) - 1  => (rebased/avg) -1, then *100 for pct points
+                        return { time: pt.time, value: ((pt.value / avgVal) - 1) * 100 };
+                    }
+                    return { time: pt.time, value: 0 };
+                });
                 if (!this.diffChartSeries[ticker]) {
                     this.diffChartSeries[ticker] = this.diffChart.addLineSeries({
                         color: this.chartSeries[ticker].options().color,
-                        lastValueVisible: false,
+                        title: ticker,
+                        lastValueVisible: true,
                         priceLineVisible: false,
                         priceFormat: {
                             type: 'custom',
@@ -443,9 +505,31 @@ class ChartCard {
                         },
                     });
                 }
+                // Ensure ticker label and last value box are visible even if series already existed
+                this.diffChartSeries[ticker].applyOptions({ title: ticker, lastValueVisible: true });
                 this.diffChartSeries[ticker].setData(diffArr);
+                // Track global min/max for diff mirror series within visible range
+                const vis = this.chart.timeScale().getVisibleRange();
+                const filtered = vis ? diffArr.filter(p => p.time >= vis.from && p.time <= vis.to) : diffArr;
+                filtered.forEach(pt => {
+                    if (pt.value < diffGlobalMin) diffGlobalMin = pt.value;
+                    if (pt.value > diffGlobalMax) diffGlobalMax = pt.value;
+                });
+                if (filtered.length) {
+                    if (diffFirstT === null) diffFirstT = filtered[0].time;
+                    diffLastT = filtered[filtered.length - 1].time;
+                }
+            }
+            // Push data to diffChart mirror series so left y-axis can show labels
+            if (Number.isFinite(diffGlobalMin) && Number.isFinite(diffGlobalMax)) {
+                this.diffMirrorSeries.setData([
+                    { time: diffFirstT, value: diffGlobalMin },
+                    { time: diffLastT || diffFirstT, value: diffGlobalMax }
+                ]);
             }
         }
+
+
 
         destroy() {
             this.chart.remove();
