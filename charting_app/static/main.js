@@ -185,6 +185,16 @@ class ChartCard {
                     },
                 },
             });
+            // Add 0% baseline horizontal line at value 100 (represents 0% change)
+            this.mirrorSeries.createPriceLine({
+                price: 100,
+                color: 'rgba(0, 0, 0, 0.5)',
+                lineWidth: 1,
+                lineStyle: LightweightCharts.LineStyle.Dashed,
+                axisLabelVisible: true,
+                title: '0%'
+            });
+
             this.chart.applyOptions({
                 leftPriceScale: {
                     visible: true,
