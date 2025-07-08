@@ -191,8 +191,8 @@ class ChartCard {
                 color: 'rgba(0, 0, 0, 0.5)',
                 lineWidth: 1,
                 lineStyle: LightweightCharts.LineStyle.Dashed,
+                priceLabelVisible: false,
                 axisLabelVisible: true,
-                title: '0%'
             });
 
             this.chart.applyOptions({
