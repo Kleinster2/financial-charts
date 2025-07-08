@@ -467,8 +467,16 @@ class ChartCard {
                 });
             });
             if (Number.isFinite(globalMin) && Number.isFinite(globalMax)) {
-                const forcedMin = Math.min(globalMin, 100);
-                const forcedMax = Math.max(globalMax, 100);
+                let forcedMin = Math.min(globalMin, 100);
+                let forcedMax = Math.max(globalMax, 100);
+                // If baseline 100 coincides with min or max, expand the range by a small epsilon
+                if (forcedMin === forcedMax) {
+                    forcedMin -= 0.1;
+                    forcedMax += 0.1;
+                } else {
+                    if (forcedMin === 100) forcedMin -= 0.1;
+                    if (forcedMax === 100) forcedMax += 0.1;
+                }
                 this.mirrorSeries.setData([
                     { time: firstT, value: forcedMin },
                     { time: lastT || firstT, value: forcedMax }
