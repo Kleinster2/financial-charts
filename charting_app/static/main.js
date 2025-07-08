@@ -522,9 +522,11 @@ class ChartCard {
             }
             // Push data to diffChart mirror series so left y-axis can show labels
             if (Number.isFinite(diffGlobalMin) && Number.isFinite(diffGlobalMax)) {
+                const forcedMin = Math.min(diffGlobalMin, 0);
+                const forcedMax = Math.max(diffGlobalMax, 0);
                 this.diffMirrorSeries.setData([
-                    { time: diffFirstT, value: diffGlobalMin },
-                    { time: diffLastT || diffFirstT, value: diffGlobalMax }
+                    { time: diffFirstT, value: forcedMin },
+                    { time: diffLastT || diffFirstT, value: forcedMax }
                 ]);
                 // Resize diff chart height based on current ticker count
                 this.updateDiffChartHeight();
