@@ -467,9 +467,11 @@ class ChartCard {
                 });
             });
             if (Number.isFinite(globalMin) && Number.isFinite(globalMax)) {
+                const forcedMin = Math.min(globalMin, 100);
+                const forcedMax = Math.max(globalMax, 100);
                 this.mirrorSeries.setData([
-                    { time: firstT, value: globalMin },
-                    { time: lastT || firstT, value: globalMax }
+                    { time: firstT, value: forcedMin },
+                    { time: lastT || firstT, value: forcedMax }
                 ]);
             }
 
