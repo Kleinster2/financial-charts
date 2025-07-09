@@ -8,3 +8,6 @@ __pycache__/
 .vscode/
 # Environment files
 .env
+# Front-end workspace state
+workspace.json
+charting_app/workspace.json

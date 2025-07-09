@@ -4,7 +4,8 @@ import sqlite3
 from datetime import datetime, timedelta
 
 # --- CONFIG ---
-START_DATE = "2023-12-29"
+# Include data starting from December 30th, 2022
+START_DATE = "2022-12-30"
 END_DATE = datetime.today().strftime("%Y-%m-%d")
 DB_PATH = "sp500_data.db"
 ETF_TICKERS = [

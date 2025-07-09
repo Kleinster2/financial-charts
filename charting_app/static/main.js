@@ -260,11 +260,26 @@ class ChartCard {
             this.plotButton = this.element.querySelector('.plot-btn');
             this.clearButton = this.element.querySelector('.clear-btn');
             this.removeButton = this.element.querySelector('.remove-chart-btn');
+            this.addBelowButton = this.element.querySelector('.add-below-chart-btn');
 
             this.addButton.addEventListener('click', () => this.addTicker(this.tickerInputElement.value));
             this.plotButton.addEventListener('click', () => this.plotData());
             this.clearButton.addEventListener('click', () => this.clearChart());
             this.removeButton.addEventListener('click', () => this.destroy());
+            // Insert a new empty chart card directly below this one
+            this.addBelowButton.addEventListener('click', () => {
+                const newCard = createNewChart();
+                // Move DOM node just after current card
+                this.container.insertBefore(newCard.element, this.element.nextSibling);
+                // Reorder internal array so workspace save order matches visual order
+                const currentIdx = chartCards.findIndex(c => c.id === this.id);
+                if (currentIdx > -1) {
+                    // Remove from end where it was pushed and insert after current index
+                    chartCards.splice(chartCards.length - 1, 1);
+                    chartCards.splice(currentIdx + 1, 0, newCard);
+                }
+                saveWorkspace();
+            });
 
             this.updateSelectedTickersUI();
             if (this.tickers.size > 0) {
