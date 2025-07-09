@@ -284,7 +284,51 @@ class ChartCard {
         }
 
         updateSelectedTickersUI() {
-            this.selectedTickersElement.textContent = `Selected: ${[...this.tickers].join(', ')}`;
+            // Build ticker chips with individual remove buttons
+            this.selectedTickersElement.innerHTML = '';
+            if (this.tickers.size === 0) {
+                this.selectedTickersElement.textContent = 'Selected: (none)';
+                return;
+            }
+            const label = document.createElement('span');
+            label.textContent = 'Selected: ';
+            this.selectedTickersElement.appendChild(label);
+
+            this.tickers.forEach(ticker => {
+                const chip = document.createElement('span');
+                chip.className = 'ticker-chip';
+                chip.textContent = ticker;
+
+                const btn = document.createElement('button');
+                btn.className = 'delete-ticker-btn';
+                btn.textContent = '×';
+                btn.title = 'Remove';
+                btn.addEventListener('click', () => this.removeTicker(ticker));
+
+                chip.appendChild(btn);
+                this.selectedTickersElement.appendChild(chip);
+            });
+        }
+
+        removeTicker(ticker) {
+            ticker = ticker.trim().toUpperCase();
+            if (!this.tickers.has(ticker)) return;
+            this.tickers.delete(ticker);
+
+            if (this.chartSeries[ticker]) {
+                this.chart.removeSeries(this.chartSeries[ticker]);
+                delete this.chartSeries[ticker];
+            }
+            if (this.diffChartSeries && this.diffChartSeries[ticker]) {
+                this.diffChart.removeSeries(this.diffChartSeries[ticker]);
+                delete this.diffChartSeries[ticker];
+            }
+            delete this.raw_data[ticker];
+
+            this.adjustHeight();
+            this.rebaseAndSetData();
+            this.updateSelectedTickersUI();
+            saveWorkspace();
         }
 
         async plotData() {
