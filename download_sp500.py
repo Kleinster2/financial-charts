@@ -7,6 +7,13 @@ from datetime import datetime, timedelta
 # Include data starting from December 30th, 2022
 START_DATE = "2022-12-30"
 END_DATE = datetime.today().strftime("%Y-%m-%d")
+# Actively traded ADR tickers (large-cap, high liquidity)
+ADR_TICKERS = [
+    "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
+    "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "CAJ", "SSNLF", "SKM", "KB",
+    "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY"
+]
+
 DB_PATH = "sp500_data.db"
 ETF_TICKERS = [
     # Core U.S. market benchmarks
@@ -50,7 +57,7 @@ def update_sp500_data():
         sp500 = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")[0]
         sp500['Symbol'] = sp500['Symbol'].str.replace('.', '-', regex=False)
         sp500.rename(columns={'Symbol': 'ticker', 'Security': 'name', 'GICS Sector': 'sector'}, inplace=True)
-        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ETF_TICKERS)))
+        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ETF_TICKERS + ADR_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
 
