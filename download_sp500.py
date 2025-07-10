@@ -10,7 +10,7 @@ END_DATE = datetime.today().strftime("%Y-%m-%d")
 # Actively traded ADR tickers (large-cap, high liquidity)
 ADR_TICKERS = [
     "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
-    "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "CAJ", "SSNLF", "SKM", "KB",
+    "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY"
 ]
 
@@ -38,9 +38,9 @@ ETF_TICKERS = [
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV",
 
     # Commodities, currencies & volatility
-    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "BJO", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
+    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^RVX", "^VOLQ", "^VVIX", "^SKEW", "^SPXHV", "^SPXRV",
+    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^VOLQ", "^VVIX", "^SKEW", 
     "VXX", "UVXY", "SVXY",
     # Additional fixed-income ETFs
     "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
