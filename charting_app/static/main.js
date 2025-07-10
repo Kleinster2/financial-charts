@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const workspaceContainer = document.getElementById('workspace-container');
+    // Top-level "Add New Chart" button may be absent
     const addChartBtn = document.getElementById('add-chart-btn');
     let chartCards = []; // Global list of chart card instances
     let availableTickers = [];
@@ -8,7 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     async function initializeWorkspace() {
         await fetchAvailableTickers();
         loadWorkspace();
-        addChartBtn.addEventListener('click', () => createNewChart());
+        if (addChartBtn) {
+            addChartBtn.addEventListener('click', () => createNewChart());
+        }
     }
 
     async function fetchAvailableTickers() {
