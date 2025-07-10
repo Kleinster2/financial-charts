@@ -113,6 +113,9 @@ def update_sp500_data():
         else:
             combined_df = new_data_df
 
+        # 6b. Restrict to current ticker universe only
+        combined_df = combined_df.reindex(columns=all_tickers)
+
         # 7. Save to database
         print("Saving data to database...")
         combined_df.to_sql("stock_prices_daily", conn, if_exists="replace")
