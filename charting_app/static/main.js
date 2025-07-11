@@ -84,15 +84,17 @@ class ChartCard {
                 crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
                 timeScale: { borderColor: 'rgba(197, 203, 206, 0.8)', timeVisible: true, secondsVisible: false },
                 rightPriceScale: { 
-                 mode: LightweightCharts.PriceScaleMode.Logarithmic,
-                 borderColor: 'rgba(197, 203, 206, 0.8)',
-                 formatter: (price) => {
-                     const diff = price - 100;
-                     const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                     const decimals = Math.abs(diff) >= 100 ? 0 : 1;
-                     return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
-                 } 
-             },
+                    mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                    borderColor: 'rgba(197, 203, 206, 0.8)',
+                    entireTextOnly: true,
+                    alignLabels: false, // This is the key to hiding the labels
+                    formatter: (price) => {
+                        const diff = price - 100;
+                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                        const decimals = Math.abs(diff) >= 100 ? 0 : 1;
+                        return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
+                    }
+                },
             });
 
             // Create diff chart for deviations from average
@@ -109,7 +111,6 @@ class ChartCard {
             // Configure right price scale for diffChart
             this.diffChart.priceScale('right').applyOptions({
                 entireTextOnly: true,
-                alignLabels: true,
                 tickMarkFormatter: (v) => {
                     const sign = v > 0 ? '+' : v < 0 ? '-' : '';
                     const decimals = Math.abs(v) >= 100 ? 0 : 1;
@@ -161,13 +162,7 @@ class ChartCard {
             this.chart.timeScale().subscribeVisibleLogicalRangeChange(syncLogicalRange(this.chart, this.diffChart));
             this.diffChart.timeScale().subscribeVisibleLogicalRangeChange(syncLogicalRange(this.diffChart, this.chart));
 
-            // Ensure right price scale is logarithmic
-            // Right price scale (primary)
-            this.chart.priceScale('right').applyOptions({
-                mode: LightweightCharts.PriceScaleMode.Logarithmic,
-                entireTextOnly: true,      // reserve enough width for full label text
-                alignLabels: true          // align series labels with price scale values
-            });
+
 
             // Mirror left price scale so grid labels also appear on the left
             // Add transparent mirror series to keep left scale in sync with right
@@ -195,7 +190,7 @@ class ChartCard {
                 lineWidth: 1,
                 lineStyle: LightweightCharts.LineStyle.Dashed,
                 priceLabelVisible: false,
-                axisLabelVisible: true,
+                axisLabelVisible: false,
             });
 
             this.chart.applyOptions({
@@ -377,9 +372,9 @@ class ChartCard {
                     this.raw_data[ticker] = data;
                     const color = this.colorPalette[this.colorIndex % this.colorPalette.length];
                 this.chartSeries[ticker] = this.chart.addLineSeries({
-                        title: ticker,
-                        color,
-                        lastValueVisible: true,
+                        color: color,
+                        lastValueVisible: false,
+                        axisLabelVisible: false,
                         priceLineVisible: false,
                         priceFormat: {
                             type: 'custom',
@@ -505,10 +500,9 @@ class ChartCard {
                 // Attach average series to left price scale so it drives left labels
 
                 this.averageSeries = this.chart.addLineSeries({
-                    
-                    title: '⌀ AVG',
                     color: '#000000',
-                    lastValueVisible: true,
+                    lastValueVisible: false,
+                    axisLabelVisible: false,
                     priceLineVisible: false,
                     priceFormat: {
                         type: 'custom',
@@ -517,7 +511,7 @@ class ChartCard {
                             const diff = price - 100;
                             const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
                             const decimals = Math.abs(diff) >= 100 ? 0 : 1;
-                                return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
+                            return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
                         },
                     },
                 });
@@ -575,8 +569,8 @@ class ChartCard {
                 if (!this.diffChartSeries[ticker]) {
                     this.diffChartSeries[ticker] = this.diffChart.addLineSeries({
                         color: this.chartSeries[ticker].options().color,
-                        title: ticker,
-                        lastValueVisible: true,
+                        lastValueVisible: false,
+                        axisLabelVisible: false,
                         priceLineVisible: false,
                         priceFormat: {
                             type: 'custom',
@@ -589,8 +583,8 @@ class ChartCard {
                         },
                     });
                 }
-                // Ensure ticker label and last value box are visible even if series already existed
-                this.diffChartSeries[ticker].applyOptions({ title: ticker, lastValueVisible: true });
+                // Ensure ticker label is set but last value box is hidden even if series already existed
+                this.diffChartSeries[ticker].applyOptions({ lastValueVisible: false, priceLineVisible: false });
                 this.diffChartSeries[ticker].setData(diffArr);
                 // Track global min/max for diff mirror series within visible range
                 const vis = this.chart.timeScale().getVisibleRange();
