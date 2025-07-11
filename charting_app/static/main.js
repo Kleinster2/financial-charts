@@ -190,7 +190,7 @@ class ChartCard {
                 lineWidth: 1,
                 lineStyle: LightweightCharts.LineStyle.Dashed,
                 priceLabelVisible: false,
-                axisLabelVisible: false,
+                axisLabelVisible: true,
             });
 
             this.chart.applyOptions({
@@ -199,7 +199,7 @@ class ChartCard {
                     mode: LightweightCharts.PriceScaleMode.Logarithmic,
                     borderColor: 'rgba(197, 203, 206, 0.8)',
                     entireTextOnly: true,
-                    alignLabels: true,
+                    alignLabels: false,
 
                 }
 
