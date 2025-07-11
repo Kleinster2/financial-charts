@@ -396,6 +396,8 @@ class ChartCard {
                     console.log(`Series created for ${ticker}:`, this.chartSeries[ticker]);
                 });
 
+                this.rebaseAndSetData();
+
                 // Fit the time scale so the full series is visible by default
                 this.chart.timeScale().fitContent();
 
