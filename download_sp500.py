@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
-START_DATE = "2020-12-31"
+START_DATE = "2019-12-31"
 END_DATE = datetime.today().strftime("%Y-%m-%d")
 # Actively traded ADR tickers (large-cap, high liquidity)
 ADR_TICKERS = [
