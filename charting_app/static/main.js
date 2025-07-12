@@ -257,12 +257,14 @@ class ChartCard {
             this.addButton = this.element.querySelector('.add-btn');
             this.plotButton = this.element.querySelector('.plot-btn');
             this.clearButton = this.element.querySelector('.clear-btn');
+            this.ytdButton = this.element.querySelector('.ytd-btn');
             this.removeButton = this.element.querySelector('.remove-chart-btn');
             this.addBelowButton = this.element.querySelector('.add-below-chart-btn');
 
             this.addButton.addEventListener('click', () => this.addTicker(this.tickerInputElement.value));
             this.plotButton.addEventListener('click', () => this.plotData());
             this.clearButton.addEventListener('click', () => this.clearChart());
+            this.ytdButton.addEventListener('click', () => this.setYTDView());
             this.removeButton.addEventListener('click', () => this.destroy());
             // Insert a new empty chart card directly below this one
             this.addBelowButton.addEventListener('click', () => {
@@ -297,27 +299,47 @@ class ChartCard {
         }
 
         updateSelectedTickersUI() {
-            // Build ticker chips with individual remove buttons
             this.selectedTickersElement.innerHTML = '';
             if (this.tickers.size === 0) {
                 this.selectedTickersElement.textContent = 'Selected: (none)';
                 return;
             }
+        
             const label = document.createElement('span');
             label.textContent = 'Selected: ';
             this.selectedTickersElement.appendChild(label);
-
+        
             this.tickers.forEach(ticker => {
                 const chip = document.createElement('span');
                 chip.className = 'ticker-chip';
                 chip.textContent = ticker;
-
+        
+                // Color the chip to match its series color
+                if (this.chartSeries[ticker]) {
+                    const seriesColor = this.chartSeries[ticker].options().color;
+                    chip.style.backgroundColor = seriesColor;
+                    chip.style.color = 'white'; // Set text color for contrast
+                    chip.style.padding = '2px 8px';
+                    chip.style.borderRadius = '12px';
+                    chip.style.margin = '0 4px';
+                    chip.style.display = 'inline-flex';
+                    chip.style.alignItems = 'center';
+                }
+        
                 const btn = document.createElement('button');
                 btn.className = 'delete-ticker-btn';
                 btn.textContent = '×';
                 btn.title = 'Remove';
-                btn.addEventListener('click', () => this.removeTicker(ticker));
-
+                btn.style.marginLeft = '5px';
+                btn.style.border = 'none';
+                btn.style.background = 'none';
+                btn.style.color = 'white';
+                btn.style.cursor = 'pointer';
+                btn.addEventListener('click', (e) => {
+                    e.stopPropagation(); // Prevent other click events
+                    this.removeTicker(ticker);
+                });
+        
                 chip.appendChild(btn);
                 this.selectedTickersElement.appendChild(chip);
             });
@@ -392,6 +414,7 @@ class ChartCard {
                 });
 
                 this.rebaseAndSetData();
+                this.updateSelectedTickersUI(); // Update UI to color the new ticker chips
 
                 // Fit the time scale so the full series is visible by default
                 this.chart.timeScale().fitContent();
@@ -410,6 +433,55 @@ class ChartCard {
             this.clearSeries();
             this.updateSelectedTickersUI();
             saveWorkspace();
+        }
+
+        setYTDView() {
+            if (!this.chart || Object.keys(this.raw_data).length === 0) return;
+
+            const timeScale = this.chart.timeScale();
+
+            // The target start date for YTD view, as a UTC timestamp in seconds.
+            const ytdStartTimestamp = Date.UTC(2024, 11, 31) / 1000;
+
+            let firstDataTimestamp = null;
+
+            // Find the earliest data point across all series that is on or after the YTD start date.
+            // `point.time` is already a UTC timestamp in seconds.
+            for (const ticker in this.raw_data) {
+                const seriesData = this.raw_data[ticker];
+                for (const point of seriesData) {
+                    if (point.time >= ytdStartTimestamp) {
+                        if (firstDataTimestamp === null || point.time < firstDataTimestamp) {
+                            firstDataTimestamp = point.time;
+                        }
+                    }
+                }
+            }
+
+            if (firstDataTimestamp === null) {
+                console.warn('No data found on or after the YTD start date.');
+                return;
+            }
+
+            // Find the latest time across all plotted series to set the 'to' range.
+            let latestTimestamp = 0;
+            for (const ticker in this.raw_data) {
+                const data = this.raw_data[ticker];
+                if (data.length > 0) {
+                    const lastDataPoint = data[data.length - 1];
+                    if (lastDataPoint.time > latestTimestamp) {
+                        latestTimestamp = lastDataPoint.time;
+                    }
+                }
+            }
+
+            if (latestTimestamp === 0) return; // No data to determine the end range.
+
+            // Use setVisibleRange with the timestamps directly.
+            timeScale.setVisibleRange({
+                from: firstDataTimestamp,
+                to: latestTimestamp,
+            });
         }
 
         clearSeries() {
