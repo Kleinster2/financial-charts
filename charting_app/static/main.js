@@ -265,6 +265,8 @@ class ChartCard {
             this.plotButton.addEventListener('click', () => this.plotData());
             this.clearButton.addEventListener('click', () => this.clearChart());
             this.ytdButton.addEventListener('click', () => this.setYTDView());
+            this.element.querySelector('.range-2024-25-button').addEventListener('click', () => this.set2024_25View());
+            this.element.querySelector('.show-all-button').addEventListener('click', () => this.chart.timeScale().fitContent());
             this.removeButton.addEventListener('click', () => this.destroy());
             // Insert a new empty chart card directly below this one
             this.addBelowButton.addEventListener('click', () => {
@@ -424,6 +426,35 @@ class ChartCard {
                 saveWorkspace();
             } catch (error) {
                 console.error('Error in plotData:', error);
+            }
+        }
+
+        set2024_25View() {
+            if (!this.chart || Object.keys(this.raw_data).length === 0) return;
+
+            const timeScale = this.chart.timeScale();
+
+            // The target start date for 2024-25 view, as a UTC timestamp in seconds.
+            const viewStartTimestamp = Date.UTC(2023, 11, 29) / 1000;
+
+            let firstDataTimestamp = null;
+
+            // Find the earliest data point across all series to ensure we don't pan to an empty region
+            for (const ticker in this.raw_data) {
+                if (this.raw_data[ticker].length > 0) {
+                    const seriesStart = this.raw_data[ticker][0].time;
+                    if (firstDataTimestamp === null || seriesStart < firstDataTimestamp) {
+                        firstDataTimestamp = seriesStart;
+                    }
+                }
+            }
+
+            if (firstDataTimestamp) {
+                const from = Math.max(viewStartTimestamp, firstDataTimestamp);
+                timeScale.setVisibleRange({
+                    from: from,
+                    to: Date.now() / 1000, // Use current time as the end of the range
+                });
             }
         }
 
