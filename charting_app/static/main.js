@@ -5,6 +5,52 @@ document.addEventListener('DOMContentLoaded', () => {
     let chartCards = []; // Global list of chart card instances
     let availableTickers = [];
 
+    // --- Tabs State ---
+    let tabs = [];
+    let currentTabIndex = 0;
+
+    function renderTabs() {
+        const tabsBar = document.getElementById('tabs-bar');
+        if (!tabsBar) return;
+        tabsBar.innerHTML = '';
+        tabs.forEach((tab, idx) => {
+            const li = document.createElement('li');
+            li.textContent = tab.title || `Tab ${idx + 1}`;
+            li.className = 'tab' + (idx === currentTabIndex ? ' active' : '');
+            li.addEventListener('click', () => switchTab(idx));
+            tabsBar.appendChild(li);
+        });
+    }
+
+    function switchTab(index) {
+        if (index === currentTabIndex) return;
+        // Persist current tab charts
+        if (tabs[currentTabIndex]) {
+            tabs[currentTabIndex].charts = chartCards.map(c => c.getState());
+        }
+        currentTabIndex = index;
+        // Clear workspace
+        workspaceContainer.innerHTML = '';
+        chartCards = [];
+        // Build charts for new tab
+        const chartsData = (tabs[currentTabIndex] && tabs[currentTabIndex].charts) || [];
+        if (chartsData.length) {
+            chartsData.forEach(d => createNewChart(d.tickers));
+        } else {
+            createNewChart();
+        }
+        renderTabs();
+        saveWorkspace();
+    }
+
+    function addTab() {
+        tabs.push({ title: `Tab ${tabs.length + 1}`, charts: [] });
+        renderTabs();
+        switchTab(tabs.length - 1);
+    }
+
+    document.getElementById('add-tab-btn')?.addEventListener('click', addTab);
+
     // --- Main Setup ---
     async function initializeWorkspace() {
         await fetchAvailableTickers();
@@ -295,7 +341,7 @@ class ChartCard {
             // Support comma-separated or whitespace-separated lists of tickers
             const tickers = tickerInput
                 .split(/[\s,]+/) // split on any whitespace or comma
-                .map(t => t.trim().toUpperCase())
+                .map(t => t.replace(/^["']+|["']+$/g, '').trim().toUpperCase())
                 .filter(t => t.length > 0);
 
             let added = false;
@@ -764,47 +810,62 @@ class ChartCard {
     }
 
     async function saveWorkspace() {
-        const state = chartCards.map(c => c.getState());
-        // Always save to localStorage for quick restore on same origin
-        localStorage.setItem('financialChartWorkspace', JSON.stringify(state));
-        // Also persist to backend so state is shared across origins/ports
+        // Ensure current tab exists
+        if (!tabs.length) {
+            tabs = [{ title: 'Tab 1', charts: [] }];
+        }
+        // Update current tab's charts before persisting
+        tabs[currentTabIndex].charts = chartCards.map(c => c.getState());
+        const payload = { active: currentTabIndex, tabs };
+        // Local persistence
+        localStorage.setItem('financialChartWorkspace', JSON.stringify(payload));
+        // Backend persistence
         try {
             await fetch('/api/workspace', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(state)
+                body: JSON.stringify(payload)
             });
         } catch (err) {
             console.warn('Workspace POST failed:', err);
         }
     }
 
+        
+    
     async function loadWorkspace() {
-        // First try backend
+        let payload = null;
+        // Try backend first
         try {
             const resp = await fetch('/api/workspace');
-            if (resp.ok) {
-                const chartData = await resp.json();
-                if (chartData && chartData.length) {
-                    chartData.forEach(d => createNewChart(d.tickers));
-                    return;
-                }
-            }
+            if (resp.ok) payload = await resp.json();
         } catch (err) {
             console.warn('Workspace GET failed:', err);
         }
         // Fallback to localStorage
-        const savedState = localStorage.getItem('financialChartWorkspace');
-        if (savedState) {
-            const chartData = JSON.parse(savedState);
-            if (chartData.length > 0) {
-                chartData.forEach(data => createNewChart(data.tickers));
-                return;
+        if (!payload) {
+            const saved = localStorage.getItem('financialChartWorkspace');
+            if (saved) {
+                try { payload = JSON.parse(saved); } catch {}
             }
         }
-        // Final fallback: default chart
-        createNewChart(['SPY', 'RSP']);
+        if (payload && Array.isArray(payload.tabs)) {
+            tabs = payload.tabs;
+            currentTabIndex = Math.min(payload.active || 0, tabs.length - 1);
+        } else {
+            // Default single tab
+            tabs = [{ title: 'Tab 1', charts: [] }];
+            currentTabIndex = 0;
+        }
+        renderTabs();
+        const chartsData = tabs[currentTabIndex].charts || [];
+        if (chartsData.length) {
+            chartsData.forEach(d => createNewChart(d.tickers));
+        } else {
+            createNewChart(['SPY', 'RSP']);
+        }
     }
+        
 
     initializeWorkspace();
 });
