@@ -289,11 +289,27 @@ class ChartCard {
             }
         }
 
-        addTicker(ticker) {
-            ticker = ticker.trim().toUpperCase();
-            if (ticker && !this.tickers.has(ticker)) {
-                this.tickers.add(ticker);
-                this.tickerInputElement.value = '';
+        addTicker(tickerInput) {
+            if (!tickerInput) return;
+
+            // Support comma-separated or whitespace-separated lists of tickers
+            const tickers = tickerInput
+                .split(/[\s,]+/) // split on any whitespace or comma
+                .map(t => t.trim().toUpperCase())
+                .filter(t => t.length > 0);
+
+            let added = false;
+            tickers.forEach(ticker => {
+                if (!this.tickers.has(ticker)) {
+                    this.tickers.add(ticker);
+                    added = true;
+                }
+            });
+
+            // Clear the input box
+            this.tickerInputElement.value = '';
+
+            if (added) {
                 this.updateSelectedTickersUI();
                 this.adjustHeight();
                 saveWorkspace();
