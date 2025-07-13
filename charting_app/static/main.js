@@ -303,13 +303,10 @@ class ChartCard {
         updateSelectedTickersUI() {
             this.selectedTickersElement.innerHTML = '';
             if (this.tickers.size === 0) {
-                this.selectedTickersElement.textContent = 'Selected: (none)';
+                this.selectedTickersElement.textContent = '(none)';
                 return;
             }
         
-            const label = document.createElement('span');
-            label.textContent = 'Selected: ';
-            this.selectedTickersElement.appendChild(label);
         
             this.tickers.forEach(ticker => {
                 const chip = document.createElement('span');
