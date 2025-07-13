@@ -140,5 +140,53 @@ def workspace():
         state = []
     return jsonify(state)
 
+
+# --- Lightweight commentary endpoint ---
+@app.route('/api/commentary')
+def commentary():
+    """Return rule-based text summary for each requested ticker.
+    Query params:
+        tickers: comma-separated symbols
+        from, to: unix seconds (optional)
+    """
+    tickers_param = request.args.get('tickers', '')
+    if not tickers_param:
+        return jsonify({}), 400
+
+    tickers = [t.strip().upper() for t in tickers_param.split(',') if t.strip()]
+    try:
+        t_from = int(request.args.get('from', 0))
+    except ValueError:
+        t_from = 0
+    try:
+        t_to = int(request.args.get('to', 10**12))
+    except ValueError:
+        t_to = 10**12
+
+    conn = get_db_connection()
+    safe_cols = '"' + '", "'.join(tickers) + '"'
+    query = f'SELECT Date, {safe_cols} FROM stock_prices_daily ORDER BY Date ASC'
+    df = pd.read_sql_query(query, conn, parse_dates=['Date'])
+    conn.close()
+
+    # Limit range
+    ts = (df['Date'].astype(int) // 10**9)
+    df = df[(ts >= t_from) & (ts <= t_to)].set_index('Date')
+
+    out = {}
+    for t in tickers:
+        series = df[t].dropna()
+        if series.empty:
+            out[t] = 'No data for selected period.'
+            continue
+        start, end = series.iloc[[0, -1]]
+        pct = (end / start - 1) * 100
+        peak_date = series.idxmax().date()
+        trough_date = series.idxmin().date()
+        direction = 'rose' if pct > 0 else 'fell'
+        out[t] = (f'From {series.index[0].date()} to {series.index[-1].date()}, '
+                  f'{t} {direction} {pct:+.1f} %. Peak on {peak_date}, low on {trough_date}.')
+    return jsonify(out)
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

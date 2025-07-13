@@ -306,6 +306,12 @@ class ChartCard {
             this.ytdButton = this.element.querySelector('.ytd-btn');
             this.removeButton = this.element.querySelector('.remove-chart-btn');
             this.addBelowButton = this.element.querySelector('.add-below-chart-btn');
+            this.commentaryDiv = this.element.querySelector('.commentary');
+            this.commentaryToggle = this.element.querySelector('.toggle-commentary');
+            this.commentaryToggle.style.display = 'none';
+            this.commentaryToggle.addEventListener('click', () => {
+                this.commentaryDiv.classList.toggle('hidden');
+            });
 
             this.addButton.addEventListener('click', () => this.addTicker(this.tickerInputElement.value));
             this.plotButton.addEventListener('click', () => this.plotData());
@@ -482,6 +488,7 @@ class ChartCard {
 
                 this.rebaseAndSetData();
                 this.adjustHeight();
+                await this.fetchCommentary();
                 saveWorkspace();
             } catch (error) {
                 console.error('Error in plotData:', error);
@@ -596,6 +603,25 @@ class ChartCard {
             const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
             const decimals = Math.abs(diff) >= 100 ? 0 : 1;
             return `${sign}${Math.abs(diff).toFixed(decimals)}%`;
+        }
+
+        async fetchCommentary() {
+            if (this.tickers.size === 0) return;
+            try {
+                const url = `/api/commentary?tickers=${[...this.tickers].join(',')}`;
+                const resp = await fetch(url);
+                if (!resp.ok) throw new Error(resp.statusText);
+                const data = await resp.json();
+                this.commentaryDiv.innerHTML = Object.values(data).map(p => `<p>${p}</p>`).join('');
+                if (this.commentaryDiv.innerHTML) {
+                    this.commentaryToggle.style.display = 'inline-block';
+                } else {
+                    this.commentaryToggle.style.display = 'none';
+                }
+            } catch (err) {
+                console.warn('Commentary fetch failed:', err);
+                this.commentaryToggle.style.display = 'none';
+            }
         }
 
         adjustHeight() {

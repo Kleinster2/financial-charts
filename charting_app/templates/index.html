@@ -22,12 +22,26 @@
         .ticker-chip .delete-ticker-btn { background: none; border: none; color: #666; margin-left: 4px; cursor: pointer; font-weight: bold; line-height: 1; padding: 0; }
         .ticker-chip .delete-ticker-btn:hover { color: #d62728; }
         .crosshair-legend { position: absolute; top: 8px; left: 8px; background: rgba(255,255,255,0.9); border: 1px solid #ccc; border-radius: 4px; padding: 4px 6px; font-size: 12px; pointer-events: none; z-index: 10; }
+            /* --- Tabs --- */
+        .tabs-container { display:flex; align-items:center; gap:8px; justify-content:center; margin-bottom:10px; }
+        #tabs-bar { display:flex; list-style:none; padding:0; margin:0; }
+        #tabs-bar .tab { padding:6px 12px; cursor:pointer; border:1px solid #ccc; border-bottom:none; background:#e8e8e8; margin-right:2px; border-top-left-radius:4px; border-top-right-radius:4px; }
+        #tabs-bar .tab.active { background:#fff; font-weight:600; }
+        #add-tab-btn { padding:6px 12px; cursor:pointer; }
+            /* Commentary panel */
+        .commentary { margin-top:8px; font-family:sans-serif; font-size:0.9em; }
+        .commentary.hidden { display:none; }
+        .toggle-commentary { background:#eee; border:1px solid #bbb; cursor:pointer; font-size:13px; padding:4px 6px; margin-top:4px; }
     </style>
 </head>
 <body>
     <div class="main-controls">
                     <h1>Multi-Chart Workspace</h1>
 
+    </div>
+    <div class="tabs-container">
+        <ul id="tabs-bar"></ul>
+        <button id="add-tab-btn">+ Tab</button>
     </div>
     <div id="workspace-container"></div>
 
@@ -50,6 +64,8 @@
             <div class="selected-tickers"></div>
             <div class="chart-container"></div>
             <div class="diff-chart-container" style="height:120px;margin-top:4px;"></div>
+            <button class="toggle-commentary">Commentary ▼</button>
+            <div class="commentary hidden"></div>
         </div>
     </template>
 
