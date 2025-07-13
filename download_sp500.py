@@ -49,6 +49,47 @@ ETF_TICKERS = [
 ]
 
 
+# --- Utility: Fetch Brazilian Ibovespa tickers ---
+
+def get_ibovespa_tickers():
+    """Return a list of Ibovespa constituent tickers formatted for Yahoo Finance (ending with '.SA').
+    Tries to scrape the Wikipedia Ibovespa page; if that fails, falls back to a static list captured July 2025.
+    """
+    try:
+        tables = pd.read_html("https://en.wikipedia.org/wiki/Ibovespa")
+        for tbl in tables:
+            # The column may be named either 'Ticker' or 'Code' depending on Wiki revision
+            candidate_cols = [col for col in tbl.columns if str(col).lower() in ("ticker", "code")]
+            if candidate_cols:
+                col = candidate_cols[0]
+                tickers = (
+                    tbl[col]
+                    .astype(str)
+                    .str.strip()
+                    .str.upper()
+                    .str.replace(r"\\.B3$", "", regex=True)
+                    + ".SA"
+                )
+                # Filter out invalid entries such as nan or ''
+                tickers = [t for t in tickers.unique().tolist() if t and t != "NAN.SA"]
+                if tickers:
+                    return tickers
+    except Exception as e:
+        print(f"Warning: Could not scrape Ibovespa constituents: {e}. Falling back to static list.")
+
+    # Static fallback list (Ibovespa July 2025)
+    return [
+        "ABEV3.SA","AZUL4.SA","B3SA3.SA","BBAS3.SA","BBDC3.SA","BBDC4.SA","BBSE3.SA","BEEF3.SA","BPAC11.SA",
+        "BRAP4.SA","BRFS3.SA","BRKM5.SA","BRML3.SA","CCRO3.SA","CIEL3.SA","CMIG4.SA","COGN3.SA","CPFE3.SA",
+        "CPLE6.SA","CSAN3.SA","CSNA3.SA","CVCB3.SA","CYRE3.SA","EGIE3.SA","ELET3.SA","ELET6.SA","EMBR3.SA",
+        "ENBR3.SA","ENEV3.SA","ENGI11.SA","EQTL3.SA","FLRY3.SA","GGBR4.SA","GOAU4.SA","GOLL4.SA","HAPV3.SA",
+        "HGTX3.SA","HYPE3.SA","IGTI11.SA","IRBR3.SA","ITSA4.SA","ITUB4.SA","JBSS3.SA","JHSF3.SA","KLBN11.SA",
+        "LREN3.SA","MGLU3.SA","MRFG3.SA","MRVE3.SA","MULT3.SA","NEOE3.SA","PETR3.SA","PETR4.SA","PRIO3.SA",
+        "QUAL3.SA","RAIL3.SA","RENT3.SA","SANB11.SA","SBSP3.SA","SULA11.SA","SUZB3.SA","TAEE11.SA","TIMP3.SA",
+        "TOTS3.SA","UGPA3.SA","USIM5.SA","VALE3.SA","VIVT3.SA","WEGE3.SA","YDUQ3.SA",
+    ]
+
+
 # --- Main function to orchestrate the download ---
 def update_sp500_data():
     # 1. Get S&P 500 list and combine with ETFs
@@ -57,7 +98,10 @@ def update_sp500_data():
         sp500 = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")[0]
         sp500['Symbol'] = sp500['Symbol'].str.replace('.', '-', regex=False)
         sp500.rename(columns={'Symbol': 'ticker', 'Security': 'name', 'GICS Sector': 'sector'}, inplace=True)
-        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ETF_TICKERS + ADR_TICKERS)))
+        # 1b. Get Ibovespa tickers (Brazil)
+        ibov_tickers = get_ibovespa_tickers()
+        print(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
+        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
 
