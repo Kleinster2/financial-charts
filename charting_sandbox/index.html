@@ -11,7 +11,7 @@
     button{padding:4px 10px;margin-left:6px;font-size:1rem;}
   </style>
   <!-- Latest Lightweight Charts build -->
-  <script src="https://unpkg.com/lightweight-charts@latest/dist/lightweight-charts.standalone.production.js"></script>
+  <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.development.js"></script>
 </head>
 <body>
   <h2>Lightweight Charts Sandbox</h2>
@@ -26,19 +26,21 @@
 
   <script>
     const chartContainer = document.getElementById('chart');
-    const chart = LightweightCharts.createChart(chartContainer, {
+    const lwcChart = LightweightCharts.createChart(chartContainer, {
+      // chart options below
       layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
       grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
       timeScale: { secondsVisible: false, rightOffset: 5 },
     });
+    console.log('lwcChart instance', lwcChart);
     const seriesMap = new Map();
 
     async function plot() {
       const tickersRaw = document.getElementById('tickers-input').value.trim();
       if (!tickersRaw) return;
       const tickers = tickersRaw.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase());
-      // fetch data from existing backend
-      const resp = await fetch(`/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
+      // fetch data from main backend running on port 5000
+      const resp = await fetch(`http://localhost:5000/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
       if (!resp.ok) {
         alert('API error');
         return;
@@ -46,12 +48,14 @@
       const data = await resp.json();
       tickers.forEach(ticker => {
         if (!data[ticker] || !data[ticker].length) return;
-        const series = seriesMap.get(ticker) || chart.addLineSeries({ title: ticker });
-        const formatted = data[ticker].map(pt => ({ time: pt.time, value: pt.value }));
+        const series = seriesMap.get(ticker) || lwcChart.addSeries(LightweightCharts.LineSeries, { title: ticker });
+        const formatted = data[ticker]
+          .filter(pt => pt.value !== null && pt.value !== undefined)
+          .map(pt => ({ time: pt.time, value: pt.value }));
         series.setData(formatted);
         seriesMap.set(ticker, series);
       });
-      chart.timeScale().fitContent();
+      lwcChart.timeScale().fitContent();
     }
 
     document.getElementById('plot-btn').addEventListener('click', plot);
