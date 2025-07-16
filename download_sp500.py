@@ -37,6 +37,9 @@ ETF_TICKERS = [
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV",
 
+    # Multi-asset / risk parity ETFs
+    "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
+
     # Commodities, currencies & volatility
     "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs

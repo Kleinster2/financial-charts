@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Charting Sandbox (Lightweight Charts vLatest)</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
+    #controls{margin-bottom:1rem;}
+    #chart{width:100%;height:600px;border:1px solid #ccc;background:#fff;}
+    input[type=text]{width:300px;padding:4px;font-size:1rem;}
+    button{padding:4px 10px;margin-left:6px;font-size:1rem;}
+  </style>
+  <!-- Latest Lightweight Charts build -->
+  <script src="https://unpkg.com/lightweight-charts@latest/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+  <h2>Lightweight Charts Sandbox</h2>
+  <div id="controls">
+    <label>
+      Tickers (comma-separated):
+      <input id="tickers-input" type="text" value="SPY">
+    </label>
+    <button id="plot-btn">Plot</button>
+  </div>
+  <div id="chart"></div>
+
+  <script>
+    const chartContainer = document.getElementById('chart');
+    const chart = LightweightCharts.createChart(chartContainer, {
+      layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
+      grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
+      timeScale: { secondsVisible: false, rightOffset: 5 },
+    });
+    const seriesMap = new Map();
+
+    async function plot() {
+      const tickersRaw = document.getElementById('tickers-input').value.trim();
+      if (!tickersRaw) return;
+      const tickers = tickersRaw.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase());
+      // fetch data from existing backend
+      const resp = await fetch(`/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
+      if (!resp.ok) {
+        alert('API error');
+        return;
+      }
+      const data = await resp.json();
+      tickers.forEach(ticker => {
+        if (!data[ticker] || !data[ticker].length) return;
+        const series = seriesMap.get(ticker) || chart.addLineSeries({ title: ticker });
+        const formatted = data[ticker].map(pt => ({ time: pt.time, value: pt.value }));
+        series.setData(formatted);
+        seriesMap.set(ticker, series);
+      });
+      chart.timeScale().fitContent();
+    }
+
+    document.getElementById('plot-btn').addEventListener('click', plot);
+    plot();
+  </script>
+</body>
+</html>

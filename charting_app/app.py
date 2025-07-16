@@ -59,11 +59,25 @@ def get_tickers():
     app.logger.info("Request received for /api/tickers")
     try:
         conn = get_db_connection()
-        cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
-        all_columns = cursor.fetchall()
-        tickers = [row['name'] for row in all_columns if row['name'] != 'Date']
+        tickers_set = set()
+
+        # Collect columns from stock table
+        try:
+            cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
+            tickers_set.update(row['name'] for row in cursor.fetchall() if row['name'] != 'Date')
+        except sqlite3.OperationalError:
+            app.logger.warning("Table 'stock_prices_daily' not found.")
+
+        # Collect columns from futures table
+        try:
+            cursor = conn.execute("PRAGMA table_info(futures_prices_daily)")
+            tickers_set.update(row['name'] for row in cursor.fetchall() if row['name'] != 'Date')
+        except sqlite3.OperationalError:
+            app.logger.warning("Table 'futures_prices_daily' not found.")
+
         conn.close()
-        app.logger.info(f"Found {len(tickers)} tickers.")
+        tickers = sorted(tickers_set)
+        app.logger.info(f"Found {len(tickers)} tickers across stock and futures tables.")
         if not tickers:
             app.logger.warning("WARNING: Ticker list is empty. Check if table 'stock_prices_daily' exists and is populated.")
         return jsonify(sorted(tickers))
@@ -78,15 +92,45 @@ def get_data():
     if not tickers_str:
         return jsonify({'error': 'At least one ticker is required'}), 400
 
-    tickers = [ticker.strip().upper() for ticker in tickers_str.split(',')]
+    tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
     
     conn = get_db_connection()
-    # Ensure ticker names are quoted to handle potential special characters
-    safe_tickers = '", "'.join(tickers)
-    # Fetch all data for the requested tickers, ordered by date
-    query = f'SELECT Date, "{safe_tickers}" FROM stock_prices_daily ORDER BY Date ASC'
-    df = pd.read_sql_query(query, conn, index_col='Date', parse_dates=['Date'])
+
+    # Determine which tickers belong to which table
+    stock_cols, futures_cols = set(), set()
+    try:
+        cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
+        stock_cols = {row['name'] for row in cursor.fetchall()}
+    except sqlite3.OperationalError:
+        pass
+    try:
+        cursor = conn.execute("PRAGMA table_info(futures_prices_daily)")
+        futures_cols = {row['name'] for row in cursor.fetchall()}
+    except sqlite3.OperationalError:
+        pass
+
+    stock_sel = [t for t in tickers if t in stock_cols]
+    futures_sel = [t for t in tickers if t in futures_cols]
+
+    df_list = []
+    if stock_sel:
+        cols = '\", \"'.join(stock_sel)
+        q = f'SELECT Date, "{cols}" FROM stock_prices_daily ORDER BY Date ASC'
+        df_stock = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
+        df_list.append(df_stock)
+    if futures_sel:
+        cols = '\", \"'.join(futures_sel)
+        q = f'SELECT Date, "{cols}" FROM futures_prices_daily ORDER BY Date ASC'
+        df_fut = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
+        df_list.append(df_fut)
+
     conn.close()
+
+    if not df_list:
+        # Return empty arrays for requested tickers when no data is found
+        return jsonify({t: [] for t in tickers}), 200
+
+    df = pd.concat(df_list, axis=1)
 
     # The frontend now expects raw data. It also expects 'time' as a UNIX timestamp.
     df['time'] = (df.index.astype(int) / 10**9).astype(int)
