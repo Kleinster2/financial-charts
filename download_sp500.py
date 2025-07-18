@@ -18,28 +18,20 @@ DB_PATH = "sp500_data.db"
 ETF_TICKERS = [
     # Core U.S. market benchmarks
     "SPY", "RSP", "VTI", "QQQ", "DIA", "IWM", "AGG", "GLD",
-
     # U.S. style / factor ETFs
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
-
     # Sector ETFs (GICS)
     "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
-
     # Broad international equity baskets
     "EFA", "EEM", "IEFA", "VWO",
-
     # Single-country developed market ETFs
     "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM",
-
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
-
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV",
-
     # Multi-asset / risk parity ETFs
     "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
-
     # Commodities, currencies & volatility
     "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
@@ -49,6 +41,42 @@ ETF_TICKERS = [
     "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
     # Treasury yield index symbols (yields, not prices)
     "^IRX", "^FVX", "^TNX", "^TYX"
+]
+
+# --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
+FX_TICKERS = [
+    # Major USD pairs
+    "EURUSD=X", "GBPUSD=X", "USDJPY=X", "USDCHF=X", "AUDUSD=X", "NZDUSD=X", "USDCAD=X",
+    # Major crosses
+    "EURJPY=X", "EURGBP=X", "EURCHF=X", "GBPJPY=X",
+    # Emerging-market USD pairs
+    "USDBRL=X", "USDMXN=X", "USDZAR=X", "USDTRY=X", "USDINR=X", "USDIDR=X", "USDCNY=X", "USDHKD=X", 
+    "USDKRW=X", "USDRUB=X", "USDCOP=X", "USDCLP=X", "USDPHP=X", "USDTHB=X", "USDPLN=X", "USDHUF=X", 
+    "USDCZK=X", "USDRON=X", "USDILS=X",
+    # Precious metals as currencies
+    "XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X",
+    # Crypto spot rates (Yahoo crypto tickers)
+    "BTC-USD", "ETH-USD", "LTC-USD", "BCH-USD", "DOGE-USD", "ADA-USD", "SOL-USD", "XRP-USD"
+]
+
+# --- Additional FX-like tickers (extra crosses, indices) ---
+ADDITIONAL_FX_TICKERS = [
+    # Extra USD crosses
+    "USDSGD=X", "USDSEK=X", "USDNOK=X", "USDISK=X", "USDTWD=X", "USDARS=X", "USDSAR=X", "USDAED=X",
+    "USDKZT=X", "USDVND=X", "USDKWD=X",
+    # Non-USD major crosses
+    "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
+    # Currency indices
+    "^DXY", "^BXY", "^EURUSD"
+]
+
+# --- Top-50 crypto tickers (approximate) ---
+CRYPTO_TICKERS = [
+    "BTC-USD", "ETH-USD", "USDT-USD", "USDC-USD", "BNB-USD", "XRP-USD", "SOL-USD", "ADA-USD", "DOGE-USD", "TON-USD",
+    "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "MATIC-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI-USD",
+    "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "APT-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
+    "OP-USD", "IMX-USD", "KAS-USD", "RNDR-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
+    "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "GRT-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD"
 ]
 
 
@@ -104,7 +132,7 @@ def update_sp500_data():
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
         print(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
-        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS)))
+        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS + FX_TICKERS + ADDITIONAL_FX_TICKERS + CRYPTO_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
 
