@@ -645,10 +645,22 @@ class ChartCard {
                 }
 
                 let baseValue = null;
-                for (let i = firstVisibleIndex; i < tickerData.length; i++) {
-                    if (tickerData[i] && tickerData[i].value !== null && tickerData[i].value > 0) {
-                        baseValue = tickerData[i].value;
-                        break;
+                const visibleTimeRange = this.chart.timeScale().getVisibleRange();
+                if (visibleTimeRange) {
+                    // If a visible range is set (e.g., after panning/zooming), find the first valid point in that range.
+                    for (const point of tickerData) {
+                        if (point.time >= visibleTimeRange.from && point.value !== null && point.value > 0) {
+                            baseValue = point.value;
+                            break;
+                        }
+                    }
+                } else if (tickerData.length > 0) {
+                    // Fallback for initial load: use the first valid data point of the entire series.
+                    for (const point of tickerData) {
+                        if (point.value !== null && point.value > 0) {
+                            baseValue = point.value;
+                            break;
+                        }
                     }
                 }
 
