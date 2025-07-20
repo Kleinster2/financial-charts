@@ -58,7 +58,6 @@
       const resp = await fetch(`http://localhost:5000/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
       if (!resp.ok) { alert('API error'); return; }
       const rawData = await resp.json();
-      console.log('1. Fetched Raw Data:', rawData);
 
       // 3. Normalize Data (Rebase to 100)
       const rebasedData = {};
@@ -69,7 +68,6 @@
         if (baseValue === 0) continue; // Avoid division by zero
         rebasedData[ticker] = tickerData.map(p => ({ time: p.time, value: (p.value / baseValue) * 100 }));
       }
-      console.log('2. Rebased Data:', rebasedData);
 
       // 4. Calculate Average and Diff Series
       const timeMap = new Map();
@@ -95,7 +93,6 @@
 
       // 5. Plot Series on Correct Panes
       for (const ticker in rebasedData) {
-        console.log(`3. Plotting ${ticker}...`);
         // Plot normalized price on top pane (pane 0)
         const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { title: ticker, pane: 0 });
         priceSeries.setData(rebasedData[ticker]);
