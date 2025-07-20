@@ -26,40 +26,95 @@
 
   <script>
     const chartContainer = document.getElementById('chart');
-    const lwcChart = LightweightCharts.createChart(chartContainer, {
-      // chart options below
+    // --- Chart Setup ---
+    const chart = LightweightCharts.createChart(chartContainer, {
       layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
       grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
-      timeScale: { secondsVisible: false, rightOffset: 5 },
+      timeScale: { secondsVisible: false, rightOffset: 10, fixLeftEdge: true },
+      rightPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } },
+      // Create a second price scale for the bottom pane
+      leftPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } }, 
     });
-    console.log('lwcChart instance', lwcChart);
-    const seriesMap = new Map();
 
+    // Create two panes. The top pane (pane 0) is created by default.
+    // The bottom pane (pane 1) will be for the diff series.
+    const bottomPane = chart.addPane();
+
+    const priceSeriesMap = new Map();
+    const diffSeriesMap = new Map();
+
+    // --- Plotting Logic ---
     async function plot() {
+      // 1. Clear existing series
+      for (const series of priceSeriesMap.values()) chart.removeSeries(series);
+      for (const series of diffSeriesMap.values()) chart.removeSeries(series);
+      priceSeriesMap.clear();
+      diffSeriesMap.clear();
+
+      // 2. Fetch Data
       const tickersRaw = document.getElementById('tickers-input').value.trim();
       if (!tickersRaw) return;
-      const tickers = tickersRaw.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase());
-      // fetch data from main backend running on port 5000
+      const tickers = tickersRaw.split(/[\s,]+/).filter(Boolean).map(t => t.toUpperCase());
       const resp = await fetch(`http://localhost:5000/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
-      if (!resp.ok) {
-        alert('API error');
-        return;
+      if (!resp.ok) { alert('API error'); return; }
+      const rawData = await resp.json();
+
+      // 3. Normalize Data (Rebase to 100)
+      const rebasedData = {};
+      for (const ticker of tickers) {
+        const tickerData = rawData[ticker]?.filter(p => p.value != null) || [];
+        if (tickerData.length === 0) continue;
+        const baseValue = tickerData[0].value;
+        if (baseValue === 0) continue; // Avoid division by zero
+        rebasedData[ticker] = tickerData.map(p => ({ time: p.time, value: (p.value / baseValue) * 100 }));
       }
-      const data = await resp.json();
-      tickers.forEach(ticker => {
-        if (!data[ticker] || !data[ticker].length) return;
-        const series = seriesMap.get(ticker) || lwcChart.addSeries(LightweightCharts.LineSeries, { title: ticker });
-        const formatted = data[ticker]
-          .filter(pt => pt.value !== null && pt.value !== undefined)
-          .map(pt => ({ time: pt.time, value: pt.value }));
-        series.setData(formatted);
-        seriesMap.set(ticker, series);
+
+      // 4. Calculate Average and Diff Series
+      const timeMap = new Map();
+      Object.values(rebasedData).forEach(series => {
+        series.forEach(pt => {
+          if (!timeMap.has(pt.time)) timeMap.set(pt.time, { sum: 0, count: 0 });
+          const entry = timeMap.get(pt.time);
+          entry.sum += pt.value;
+          entry.count++;
+        });
       });
-      lwcChart.timeScale().fitContent();
+      const avgData = Array.from(timeMap.entries()).map(([time, { sum, count }]) => ({ time, value: sum / count }));
+      const avgLookup = new Map(avgData.map(p => [p.time, p.value]));
+
+      const diffData = {};
+      for (const ticker in rebasedData) {
+        diffData[ticker] = rebasedData[ticker].map(p => {
+          const avgVal = avgLookup.get(p.time);
+          const diff = avgVal ? ((p.value / avgVal) - 1) * 100 : 0;
+          return { time: p.time, value: diff };
+        });
+      }
+
+      // 5. Plot Series on Correct Panes
+      for (const ticker in rebasedData) {
+        // Plot normalized price on top pane (pane 0)
+        const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { title: ticker, pane: 0 });
+        priceSeries.setData(rebasedData[ticker]);
+        priceSeriesMap.set(ticker, priceSeries);
+
+        // Plot diff from average on bottom pane (pane 1)
+        const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { 
+          title: `${ticker} Diff`, 
+          pane: 1, 
+          color: priceSeries.options().color, // Match color
+          lineWidth: 1,
+          lineStyle: LightweightCharts.LineStyle.Dotted,
+        });
+        diffSeries.setData(diffData[ticker]);
+        diffSeriesMap.set(ticker, diffSeries);
+      }
+
+      chart.timeScale().fitContent();
     }
 
     document.getElementById('plot-btn').addEventListener('click', plot);
-    plot();
+    plot(); // Initial plot on load
   </script>
 </body>
 </html>
