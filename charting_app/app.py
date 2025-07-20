@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import sys
 from flask import Flask, jsonify, render_template, request
+from flask_cors import CORS
 import logging
 import numpy as np
 import json
@@ -16,6 +17,7 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
+CORS(app)
 
 @app.after_request
 def add_header(response):
