@@ -47,6 +47,9 @@
 
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
+    // PriceLine handles to keep single 0% reference lines per pane
+    let zeroLineTop = null;
+    let zeroLineBottom = null;
     // Store original (rebased-to-100-at-start) data for each ticker to enable dynamic rebasing
     const originalNormalizedData = {};
 
@@ -54,17 +57,36 @@
     const colors = ['#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26a69a', '#D10CE8'];
     let colorIndex = 0;
 
+    const STORAGE_KEY = 'sandbox_tickers';
+
+    // Restore saved tickers on load
+    const storedTickers = localStorage.getItem(STORAGE_KEY);
+    if (storedTickers) {
+      document.getElementById('tickers-input').value = storedTickers;
+      // plot will run later after event listeners are wired
+      setTimeout(() => plot(), 0);
+    }
+
     // --- Plotting Logic ---
     async function plot() {
       // 1. Clear existing series
       for (const series of priceSeriesMap.values()) chart.removeSeries(series);
       for (const series of diffSeriesMap.values()) chart.removeSeries(series);
+      // Remove existing zero lines before replotting
+      if (zeroLineTop) { zeroLineTop.remove(); zeroLineTop = null; }
+      if (zeroLineBottom) { zeroLineBottom.remove(); zeroLineBottom = null; }
+
       priceSeriesMap.clear();
       diffSeriesMap.clear();
       colorIndex = 0;
 
-      // 2. Fetch Data
+      // 2. Fetch Data & persist selections
       const tickersRaw = document.getElementById('tickers-input').value.trim();
+      if (tickersRaw) {
+        localStorage.setItem(STORAGE_KEY, tickersRaw);
+      } else {
+        localStorage.removeItem(STORAGE_KEY);
+      }
       if (!tickersRaw) return;
       const tickers = tickersRaw.split(/[\s,]+/).filter(Boolean).map(t => t.toUpperCase());
       const resp = await fetch(`http://localhost:5000/api/data?tickers=${tickers.join(',')}`);
@@ -114,6 +136,17 @@
         const color = colors[colorIndex % colors.length];
         const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { color, priceFormat: { type: 'percent', precision: 2, minMove: 0.01 } });
         priceSeries.setData(rebasedData[ticker]);
+        // Add zero reference line once for top pane
+        if (!zeroLineTop) {
+          zeroLineTop = priceSeries.createPriceLine({
+            price: 0,
+            color: '#888',
+            lineWidth: 1,
+            lineStyle: LightweightCharts.LineStyle.Dotted,
+            axisLabelVisible: true,
+            title: '0%'
+          });
+        }
         originalNormalizedData[ticker] = rebasedData[ticker];
         priceSeriesMap.set(ticker, priceSeries);
 
@@ -121,6 +154,17 @@
         const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { color, lineWidth: 1, lineStyle: LightweightCharts.LineStyle.Dotted, priceFormat: { type: 'percent', precision: 2, minMove: 0.01 } }, bottomPaneIndex);
 
         diffSeries.setData(diffData[ticker]);
+        // Add zero reference line once for bottom pane
+        if (!zeroLineBottom) {
+          zeroLineBottom = diffSeries.createPriceLine({
+            price: 0,
+            color: '#888',
+            lineWidth: 1,
+            lineStyle: LightweightCharts.LineStyle.Dotted,
+            axisLabelVisible: true,
+            title: '0%'
+          });
+        }
         diffSeriesMap.set(ticker, diffSeries);
         colorIndex++;
       }
@@ -148,7 +192,11 @@
     }
 
     document.getElementById('plot-btn').addEventListener('click', plot);
-    plot(); // Initial plot on load
+    // Also plot when Enter pressed in input
+    document.getElementById('tickers-input').addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') plot();
+    });
+    if (!storedTickers) plot(); // Initial plot only when nothing restored
   </script>
 </body>
 </html>
