@@ -5,7 +5,7 @@
   <title>Charting Sandbox (Lightweight Charts vLatest)</title>
   <style>
     body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
-    #controls{margin-bottom:1rem;}
+    #controls{margin-bottom:1rem;display:flex;flex-wrap:wrap;align-items:center;gap:8px;} #ticker-chips{width:100%;display:flex;justify-content:flex-end;flex-wrap:wrap;margin-top:4px;}
     #chart{width:100%;height:600px;border:1px solid #ccc;background:#fff;}
     input[type=text]{width:300px;padding:4px;font-size:1rem;}
     button{padding:4px 10px;margin-left:6px;font-size:1rem;}
@@ -124,7 +124,7 @@
       }
       if (!tickersRaw) return;
       const tickers = tickersRaw.split(/[\s,]+/).filter(Boolean).map(t => t.toUpperCase());
-      renderChips(tickers);
+      // will render chips after data fetch to allow ordering
       const resp = await fetch(`http://localhost:5000/api/data?tickers=${tickers.join(',')}`);
       if (!resp.ok) { alert('API error'); return; }
       const rawData = await resp.json();
@@ -144,6 +144,13 @@
       }
 
       console.log('rebased keys', Object.keys(rebasedData));
+      // Order tickers by latest value (descending)
+      const sortedTickers = [...tickers].sort((a,b)=>{
+        const aval = (rebasedData[a]?.slice(-1)[0]?.value) ?? 0;
+        const bval = (rebasedData[b]?.slice(-1)[0]?.value) ?? 0;
+        return bval - aval;
+      });
+      renderChips(sortedTickers);
       // 4. Calculate Average and Diff Series
       const timeMap = new Map();
       Object.values(rebasedData).forEach(series => {
@@ -158,7 +165,7 @@
       const avgLookup = new Map(avgData.map(p => [p.time, p.value]));
 
       const diffData = {};
-      for (const ticker in rebasedData) {
+      for (const ticker of sortedTickers) {
         diffData[ticker] = rebasedData[ticker].map(p => {
           const avgVal = avgLookup.get(p.time);
           const diff = avgVal !== undefined ? (p.value - avgVal) : 0;
@@ -167,7 +174,7 @@
       }
 
       // 5. Plot Series on Correct Panes
-      for (const ticker in rebasedData) {
+      for (const ticker of sortedTickers) {
         // Plot normalized price on top pane (pane 0)
         const color = colors[colorIndex % colors.length];
         const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { color, priceFormat: { type: 'custom', minMove: 0.1, formatter: (v)=>{ const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const decimals=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(decimals)}%`; } } });
