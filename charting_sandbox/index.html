@@ -71,9 +71,12 @@
       const container=document.getElementById('ticker-chips');
       if(!container) return;
       container.innerHTML='';
-      tickers.forEach(t=>{
+      tickers.forEach((t, idx)=>{
         const chip=document.createElement('span');
         chip.className='chip';
+        const color=colors[idx % colors.length];
+        chip.style.backgroundColor=color;
+        chip.style.color='#fff';
         chip.textContent=t;
         const close=document.createElement('span');
         close.className='close';
