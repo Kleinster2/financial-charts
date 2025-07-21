@@ -11,6 +11,7 @@
     button{padding:4px 10px;margin-left:6px;font-size:1rem;}
     .chip{display:inline-block;background:#e0e0e0;border-radius:4px;padding:2px 6px;margin:2px;font-size:0.9rem;}
     .chip .close{margin-left:4px;cursor:pointer;font-weight:bold;}
+    .chip.off{opacity:0.4;}
   </style>
   <!-- Latest Lightweight Charts build -->
   <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.development.js"></script>
@@ -78,10 +79,21 @@
         chip.style.backgroundColor=color;
         chip.style.color='#fff';
         chip.textContent=t;
+        // Toggle visibility on chip click
+        chip.addEventListener('click',()=>{
+          const priceSeries=priceSeriesMap.get(t);
+          if(!priceSeries) return;
+          const currentlyOff=chip.classList.toggle('off');
+          priceSeries.applyOptions({ visible: !currentlyOff });
+          const diffSeries=diffSeriesMap.get(t);
+          if(diffSeries){ diffSeries.applyOptions({ visible: !currentlyOff }); }
+        });
+
         const close=document.createElement('span');
         close.className='close';
         close.textContent='×';
-        close.addEventListener('click',()=>{
+        close.addEventListener('click',(e)=>{
+          e.stopPropagation();
           const current=document.getElementById('tickers-input').value.split(/[\s,]+/).filter(Boolean).map(x=>x.toUpperCase());
           const updated=current.filter(x=>x!==t);
           document.getElementById('tickers-input').value=updated.join(', ');
