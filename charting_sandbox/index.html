@@ -37,11 +37,20 @@
     });
 
     // Create two panes. The top pane (pane 0) is created by default.
-    // The bottom pane (pane 1) will be for the diff series.
-    const bottomPane = chart.addPane();
+    // The bottom pane for diff series
+    const bottomPane = chart.addPane({ height: 120 });
+    const bottomPaneIndex = bottomPane.paneIndex ? bottomPane.paneIndex() : 1; // fallback 1
+
+      // Show an independent right-hand price scale for the bottom pane
+
+      
 
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
+
+    // Color palette for multiple tickers
+    const colors = ['#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26a69a', '#D10CE8'];
+    let colorIndex = 0;
 
     // --- Plotting Logic ---
     async function plot() {
@@ -50,25 +59,31 @@
       for (const series of diffSeriesMap.values()) chart.removeSeries(series);
       priceSeriesMap.clear();
       diffSeriesMap.clear();
+      colorIndex = 0;
 
       // 2. Fetch Data
       const tickersRaw = document.getElementById('tickers-input').value.trim();
       if (!tickersRaw) return;
       const tickers = tickersRaw.split(/[\s,]+/).filter(Boolean).map(t => t.toUpperCase());
-      const resp = await fetch(`http://localhost:5000/api/data?tickers=${encodeURIComponent(tickers.join(','))}`);
+      const resp = await fetch(`http://localhost:5000/api/data?tickers=${tickers.join(',')}`);
       if (!resp.ok) { alert('API error'); return; }
       const rawData = await resp.json();
+      console.log('raw keys', Object.keys(rawData));
 
       // 3. Normalize Data (Rebase to 100)
       const rebasedData = {};
       for (const ticker of tickers) {
-        const tickerData = rawData[ticker]?.filter(p => p.value != null) || [];
+        let tickerData = rawData[ticker]?.filter(p => p.value != null) || [];
+        // Ensure data is sorted by time ascending (Lightweight Charts requirement)
+        tickerData = tickerData.sort((a, b) => a.time - b.time);
         if (tickerData.length === 0) continue;
-        const baseValue = tickerData[0].value;
-        if (baseValue === 0) continue; // Avoid division by zero
+        const firstValid = tickerData.find(p => p.value !== 0);
+        if (!firstValid) continue;
+        const baseValue = firstValid.value;
         rebasedData[ticker] = tickerData.map(p => ({ time: p.time, value: (p.value / baseValue) * 100 }));
       }
 
+      console.log('rebased keys', Object.keys(rebasedData));
       // 4. Calculate Average and Diff Series
       const timeMap = new Map();
       Object.values(rebasedData).forEach(series => {
@@ -94,20 +109,17 @@
       // 5. Plot Series on Correct Panes
       for (const ticker in rebasedData) {
         // Plot normalized price on top pane (pane 0)
-        const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { title: ticker, pane: 0 });
+        const color = colors[colorIndex % colors.length];
+        const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { color });
         priceSeries.setData(rebasedData[ticker]);
         priceSeriesMap.set(ticker, priceSeries);
 
         // Plot diff from average on bottom pane (pane 1)
-        const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { 
-          title: `${ticker} Diff`, 
-          pane: 1, 
-          color: priceSeries.options().color, // Match color
-          lineWidth: 1,
-          lineStyle: LightweightCharts.LineStyle.Dotted,
-        });
+        const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { color, lineWidth: 1, lineStyle: LightweightCharts.LineStyle.Dotted }, bottomPaneIndex);
+
         diffSeries.setData(diffData[ticker]);
         diffSeriesMap.set(ticker, diffSeries);
+        colorIndex++;
       }
 
       chart.timeScale().fitContent();
