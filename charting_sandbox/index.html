@@ -21,6 +21,7 @@
       <input id="tickers-input" type="text" value="SPY">
     </label>
     <button id="plot-btn">Plot</button>
+    <button id="toggle-diff-btn">Hide Diff Pane</button>
   </div>
   <div id="chart"></div>
 
@@ -36,14 +37,10 @@
       leftPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } }, 
     });
 
-    // Create two panes. The top pane (pane 0) is created by default.
-    // The bottom pane for diff series
-    const bottomPane = chart.addPane({ height: 120 });
-    const bottomPaneIndex = bottomPane.paneIndex ? bottomPane.paneIndex() : 1; // fallback 1
-
-      // Show an independent right-hand price scale for the bottom pane
-
-      
+    // Pane management
+    let bottomPane = chart.addPane({ height: 120 });
+    let bottomPaneIndex = bottomPane.paneIndex ? bottomPane.paneIndex() : 1; // fallback 1
+    let showDiff = true;
 
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
@@ -72,11 +69,21 @@
       // 1. Clear existing series
       for (const series of priceSeriesMap.values()) chart.removeSeries(series);
       for (const series of diffSeriesMap.values()) chart.removeSeries(series);
-      // Remove existing zero lines before replotting
-      if (zeroLineTop) { zeroLineTop.remove(); zeroLineTop = null; }
-      if (zeroLineBottom) { zeroLineBottom.remove(); zeroLineBottom = null; }
+      // Reset zero line handles (they are auto-removed with their series)
+      zeroLineTop = null;
+      zeroLineBottom = null;
 
       priceSeriesMap.clear();
+      // Ensure pane exists or removed based on showDiff flag
+      if (showDiff && !bottomPane) {
+        bottomPane = chart.addPane({ height: 120 });
+        bottomPaneIndex = bottomPane.paneIndex ? bottomPane.paneIndex() : 1;
+      }
+      if (!showDiff && bottomPane) {
+        chart.removePane(bottomPane);
+        bottomPane = null;
+        bottomPaneIndex = null;
+      }
       diffSeriesMap.clear();
       colorIndex = 0;
 
@@ -150,10 +157,12 @@
         originalNormalizedData[ticker] = rebasedData[ticker];
         priceSeriesMap.set(ticker, priceSeries);
 
-        // Plot diff from average on bottom pane (pane 1)
+        if (showDiff && bottomPane) {
+         // Plot diff from average on bottom pane
+
         const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { color, lineWidth: 1, lineStyle: LightweightCharts.LineStyle.Dotted, priceFormat: { type: 'percent', precision: 2, minMove: 0.01 } }, bottomPaneIndex);
 
-        diffSeries.setData(diffData[ticker]);
+                 diffSeries.setData(diffData[ticker]);
         // Add zero reference line once for bottom pane
         if (!zeroLineBottom) {
           zeroLineBottom = diffSeries.createPriceLine({
@@ -165,7 +174,8 @@
             title: '0%'
           });
         }
-        diffSeriesMap.set(ticker, diffSeries);
+                 diffSeriesMap.set(ticker, diffSeries);
+       }
         colorIndex++;
       }
 
@@ -192,6 +202,13 @@
     }
 
     document.getElementById('plot-btn').addEventListener('click', plot);
+    // Toggle diff pane button
+    document.getElementById('toggle-diff-btn').addEventListener('click', () => {
+      showDiff = !showDiff;
+      const btn = document.getElementById('toggle-diff-btn');
+      btn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
+      plot();
+    });
     // Also plot when Enter pressed in input
     document.getElementById('tickers-input').addEventListener('keyup', (e) => {
       if (e.key === 'Enter') plot();
