@@ -82,7 +82,7 @@
         const firstValid = tickerData.find(p => p.value !== 0);
         if (!firstValid) continue;
         const baseValue = firstValid.value;
-        rebasedData[ticker] = tickerData.map(p => ({ time: p.time, value: (p.value / baseValue) * 100 }));
+        rebasedData[ticker] = tickerData.map(p => ({ time: p.time, value: (Math.log(p.value) - Math.log(baseValue)) * 100 }));
       }
 
       console.log('rebased keys', Object.keys(rebasedData));
@@ -103,7 +103,7 @@
       for (const ticker in rebasedData) {
         diffData[ticker] = rebasedData[ticker].map(p => {
           const avgVal = avgLookup.get(p.time);
-          const diff = avgVal ? ((p.value / avgVal) - 1) * 100 : 0;
+          const diff = avgVal !== undefined ? (p.value - avgVal) : 0;
           return { time: p.time, value: diff };
         });
       }
@@ -112,13 +112,13 @@
       for (const ticker in rebasedData) {
         // Plot normalized price on top pane (pane 0)
         const color = colors[colorIndex % colors.length];
-        const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { color });
+        const priceSeries = chart.addSeries(LightweightCharts.LineSeries, { color, priceFormat: { type: 'percent', precision: 2, minMove: 0.01 } });
         priceSeries.setData(rebasedData[ticker]);
         originalNormalizedData[ticker] = rebasedData[ticker];
         priceSeriesMap.set(ticker, priceSeries);
 
         // Plot diff from average on bottom pane (pane 1)
-        const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { color, lineWidth: 1, lineStyle: LightweightCharts.LineStyle.Dotted }, bottomPaneIndex);
+        const diffSeries = chart.addSeries(LightweightCharts.LineSeries, { color, lineWidth: 1, lineStyle: LightweightCharts.LineStyle.Dotted, priceFormat: { type: 'percent', precision: 2, minMove: 0.01 } }, bottomPaneIndex);
 
         diffSeries.setData(diffData[ticker]);
         diffSeriesMap.set(ticker, diffSeries);
@@ -138,8 +138,8 @@
             // Find first point >= fromTime
             const first = dataArr.find(p => p.time >= fromTime);
             if (!first || first.value === 0) continue;
-            const factor = 100 / first.value;
-            const adjusted = dataArr.map(pt => ({ time: pt.time, value: pt.value * factor }));
+            const shift = -first.value;
+            const adjusted = dataArr.map(pt => ({ time: pt.time, value: pt.value + shift }));
             series.setData(adjusted);
           }
         });
