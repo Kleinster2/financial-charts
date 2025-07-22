@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <title>Charting Sandbox (Multi-Card)</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
+    #top-controls{margin-bottom:1rem;}
+    button{padding:4px 10px;font-size:1rem;}
+    .chart-box{width:100%;height:600px;border:1px solid #ccc;background:#fff;margin-top:1rem;}
+    .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
+    .controls .ticker-chips{margin-left:auto;display:flex;flex-wrap:wrap;gap:4px;}
+    .chip{display:inline-block;border-radius:4px;padding:2px 6px;font-size:0.9rem;background:#e0e0e0;color:#fff;}
+    .chip.off{opacity:0.4;}
+    .chip .close{margin-left:4px;cursor:pointer;font-weight:bold;}
+  </style>
+  <!-- Lightweight Charts -->
+  <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.development.js"></script>
+</head>
+<body>
+  <h2>Lightweight Charts Sandbox</h2>
+  <div id="top-controls">
+    <button id="add-chart-btn">Add Chart</button>
+  </div>
+  <div id="charts-wrapper"></div>
+
+  <script src="card.js"></script>
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
   <title>Charting Sandbox (Lightweight Charts vLatest)</title>
   <style>
     body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
     #controls{margin-bottom:1rem;display:flex;flex-wrap:wrap;align-items:center;gap:8px;} #ticker-chips{width:100%;display:flex;justify-content:flex-end;flex-wrap:wrap;margin-top:4px;}
-    #chart{width:100%;height:600px;border:1px solid #ccc;background:#fff;}
+    .chart-box{width:100%;height:600px;border:1px solid #ccc;background:#fff;margin-top:1rem;}
     input[type=text]{width:300px;padding:4px;font-size:1rem;}
     button{padding:4px 10px;margin-left:6px;font-size:1rem;}
     .chip{display:inline-block;background:#e0e0e0;border-radius:4px;padding:2px 6px;margin:2px;font-size:0.9rem;}
@@ -18,19 +46,19 @@
 </head>
 <body>
   <h2>Lightweight Charts Sandbox</h2>
-  <div id="controls">
-    <label>
-      Tickers (comma-separated):
-      <input id="tickers-input" type="text" value="SPY">
-    </label>
-    <button id="plot-btn">Plot</button>
-    <button id="toggle-diff-btn">Hide Diff Pane</button>
-    <div id="ticker-chips"></div>
+  <div id="top-controls" style="margin-bottom:1rem;">
+    <button id="add-chart-btn">Add Chart</button>
   </div>
-  <div id="chart"></div>
+    
+    <button id="add-chart-btn">Add Chart</button>
+    
+  </div>
+  <div id="charts-wrapper">
+      
+    </div>
 
-  <script>
-    const chartContainer = document.getElementById('chart');
+  <script src="card.js"></script>
+  
     // --- Chart Setup ---
     const chart = LightweightCharts.createChart(chartContainer, {
       layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
@@ -261,6 +289,21 @@
     }
 
     document.getElementById('plot-btn').addEventListener('click', plot);
+    // Add new empty chart button
+    document.getElementById('add-chart-btn').addEventListener('click', () => {
+      const wrapper=document.getElementById('charts-wrapper');
+      const box=document.createElement('div');
+      box.className='chart-box';
+      wrapper.appendChild(box);
+      const newChart=LightweightCharts.createChart(box, {
+        layout:{ background:{ type:'solid', color:'#ffffff'}, textColor:'#333'},
+        grid:{ vertLines:{ color:'#eee'}, horzLines:{ color:'#eee'}},
+        timeScale:{ secondsVisible:false, rightOffset:10, fixLeftEdge:true },
+        rightPriceScale:{ visible:true, scaleMargins:{ top:0.1, bottom:0.1 } }
+      });
+      // Logarithmic percent axis like main chart
+      newChart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
+    });
     // Toggle diff pane button
     document.getElementById('toggle-diff-btn').addEventListener('click', () => {
       showDiff = !showDiff;
@@ -273,6 +316,5 @@
       if (e.key === 'Enter') plot();
     });
     if (!storedTickers) plot(); // Initial plot only when nothing restored
-  </script>
-</body>
+  </body>
 </html>
