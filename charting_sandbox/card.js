@@ -19,7 +19,8 @@
           <input type="text" class="tickers-input" value="${initialTickers}">
         </label>
         <button class="plot-btn">Plot</button>
-        <button class="toggle-diff-btn">Hide Diff Pane</button>
+        <button class="toggle-diff-btn">Show Diff Pane</button>
+        <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
         <div class="ticker-chips"></div>
       </div>
@@ -29,7 +30,7 @@
     wrapper.appendChild(card);
 
     // ---------------- State ----------------
-    let showDiff = true;
+    let showDiff = false;
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
     let bottomPane = null;
@@ -198,6 +199,13 @@
 
     // ---------------- Event Wiring ----------------
     plotBtn.addEventListener('click', plot);
+    const addChartBtn = card.querySelector('.add-chart-btn');
+    addChartBtn.addEventListener('click', () => {
+      const newCard = createChartCard('');
+      if(card.nextSibling){
+        wrapper.insertBefore(newCard, card.nextSibling);
+      }
+    });
     inputEl.addEventListener('keyup',e=>{ if(e.key==='Enter') plot(); });
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card); });
