@@ -9,12 +9,13 @@
   function saveCards(){
     const cards = Array.from(document.querySelectorAll('.chart-card')).map(card=>({
       tickers: Array.from(card._selectedTickers||[]),
-      showDiff: !!card._showDiff
+      showDiff: !!card._showDiff,
+      showAvg: !!card._showAvg
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false) {
     const wrapper = document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -28,6 +29,7 @@
         <button class="add-ticker-btn">Add</button>
         <button class="plot-btn">Plot</button>
         <button class="toggle-diff-btn">Show Diff Pane</button>
+        <button class="toggle-avg-btn">Show Avg</button>
         <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
         <div class="ticker-chips"></div>
@@ -40,9 +42,13 @@
 
     // ---------------- State ----------------
     let showDiff = initialShowDiff;
+    let showAvg = initialShowAvg;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
+    let avgSeries = null;
+    let latestRebasedData = {};
+    const hiddenTickers = new Set();
     const tickerColorMap = new Map();
     let bottomPane = null;
     let bottomPaneIndex = null;
@@ -58,6 +64,8 @@
     inputEl.addEventListener('keyup', e=>{ if(e.key==='Enter') addTicker(); });
     const plotBtn = card.querySelector('.plot-btn');
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
+    const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
+    toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
      toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
     const chipsContainer = card.querySelector('.ticker-chips');
     const chartBox = card.querySelector('.chart-box');
@@ -96,12 +104,15 @@
 
         // Toggle visibility
         chip.addEventListener('click', () => {
+           const currentlyOff = chip.classList.contains('off');
           const priceSeries = priceSeriesMap.get(t);
           if (!priceSeries) return;
           const off = chip.classList.toggle('off');
-          priceSeries.applyOptions({ visible: !off });
+           if(off){ hiddenTickers.add(t); } else { hiddenTickers.delete(t); }
+           priceSeries.applyOptions({ visible: !off });
           const diffSeries = diffSeriesMap.get(t);
           if (diffSeries) diffSeries.applyOptions({ visible: !off });
+           if(showAvg) updateAverageSeries();
         });
 
         // Remove ticker
@@ -111,6 +122,7 @@
         close.addEventListener('click', (e) => {
           e.stopPropagation();
           selectedTickers.delete(t);
+           hiddenTickers.delete(t);
           renderChips(Array.from(selectedTickers));
           card._selectedTickers = new Set(selectedTickers);
           saveCards();
@@ -122,6 +134,27 @@
     }
 
     // add ticker helper
+    function drawAverage(sortedTickers){
+      const active = sortedTickers.filter(t=>!hiddenTickers.has(t));
+      if(active.length===0){ if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; } return; }
+      const timeMap = new Map();
+      active.forEach(t=>{
+        (latestRebasedData[t]||[]).forEach(pt=>{
+          if(!timeMap.has(pt.time)) timeMap.set(pt.time,{sum:0,count:0});
+          const e=timeMap.get(pt.time); e.sum+=pt.value; e.count++;
+        });
+      });
+      const avgData = Array.from(timeMap.entries()).map(([time,{sum,count}])=>({time,value:sum/count}));
+      if(!avgSeries){ avgSeries = chart.addSeries(LightweightCharts.LineSeries,{ color:'#000', lineWidth:2 }); }
+      avgSeries.setData(avgData);
+    }
+
+    function updateAverageSeries(){
+      if(!showAvg) return;
+      const sortedTickersList = Array.from(selectedTickers).sort();
+      drawAverage(sortedTickersList);
+    }
+
     function addTicker(){
       const raw = inputEl.value.trim();
       if(!raw) return;
@@ -142,6 +175,8 @@
       for (const s of diffSeriesMap.values()) chart.removeSeries(s);
       priceSeriesMap.clear();
       diffSeriesMap.clear();
+      if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
+      hiddenTickers.clear();
       tickerColorMap.clear();
       zeroLineTop = zeroLineBottom = null;
       colorIndex = 0;
@@ -155,6 +190,7 @@
 
       // Normalize
       const rebasedData = {};
+       latestRebasedData = rebasedData;
       tickers.forEach(ticker => {
         let data = (rawData[ticker] || []).filter(p => p.value != null);
         data = data.sort((a,b)=>a.time-b.time);
@@ -208,11 +244,15 @@
         colorIndex++;
       });
 
+      if(showAvg){
+        drawAverage(sortedTickers);
+      }
       // now chips with correct colors
       renderChips(sortedTickers);
       // persist state
       card._selectedTickers = new Set(selectedTickers);
       card._showDiff = showDiff;
+      card._showAvg = showAvg;
       saveCards();
 
       chart.timeScale().fitContent();
@@ -239,7 +279,7 @@
     plotBtn.addEventListener('click', plot);
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff);
+      const newCard = createChartCard('', showDiff, showAvg);
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -247,6 +287,7 @@
     });
     
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
+    toggleAvgBtn.addEventListener('click',()=>{ showAvg=!showAvg; toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg'; card._showAvg = showAvg; saveCards(); plot(); });
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card);
      saveCards(); });
 
@@ -272,7 +313,7 @@
     // create first card automatically using any preset tickers in localStorage or default
     const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
      if(stored.length){
-       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff));
+       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg));
      }else{
        createChartCard('SPY');
      }
