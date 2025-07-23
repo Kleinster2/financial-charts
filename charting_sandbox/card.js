@@ -279,14 +279,35 @@
         if(!zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
-        // volatility data
-        const src = rebasedData[ticker]||[];
+        // rolling volatility (20-day standard deviation of daily % returns)
+        const src = rebasedData[ticker] || [];
         const volData = [];
-        for (let i=1;i<src.length;i++){
-          const pct = ((src[i].value/src[i-1].value)-1)*100;
-          volData.push({time:src[i].time, value:pct});
+        const returns = [];
+        for (let i = 1; i < src.length; i++) {
+          const pct = ((src[i].value / src[i - 1].value) - 1) * 100; // daily % return
+          returns.push(pct);
+          if (returns.length >= 20) {
+            const window = returns.slice(-20);
+            const mean = window.reduce((a, b) => a + b, 0) / 20;
+            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / 20;
+            const sd = Math.sqrt(variance); // already in % units
+            volData.push({ time: src[i].time, value: sd });
+          }
         }
-        const volSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1, priceLineVisible:false }, volPaneIndex);
+        const volSeries = chart.addSeries(
+          LightweightCharts.LineSeries,
+          {
+            color,
+            lineWidth: 1,
+            priceLineVisible: false,
+            priceFormat: {
+              type: 'custom',
+              minMove: 0.1,
+              formatter: (v) => v.toFixed(2) + '%',
+            },
+          },
+          volPaneIndex
+        );
         volSeries.setData(volData);
         volSeriesMap.set(ticker, volSeries);
 
