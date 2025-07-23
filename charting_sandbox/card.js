@@ -281,19 +281,19 @@
         priceSeriesMap.set(ticker, priceSeries);
 
         // rolling volatility (100-day standard deviation of daily % returns)
-        const src = rebasedData[ticker] || [];
+        const originalSrc = (rawData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
         const volData = [];
         const returns = [];
-        for (let i = 1; i < src.length; i++) {
-          const pct = ((src[i].value / src[i - 1].value) - 1) * 100; // daily % return
+        for (let i = 1; i < originalSrc.length; i++) {
+          const pct = (originalSrc[i].value / originalSrc[i-1].value) - 1;
           returns.push(pct);
           if (returns.length >= VOL_WINDOW) {
             const window = returns.slice(-VOL_WINDOW);
-                        const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
-            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / VOL_WINDOW;
-            // annualized volatility (%): daily std dev * sqrt(252)
-            const sd = Math.sqrt(variance) * Math.sqrt(252);
-            volData.push({ time: src[i].time, value: sd });
+            const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
+            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / (VOL_WINDOW - 1); // Sample variance
+            const dailyStdDev = Math.sqrt(variance);
+            const annualizedVol = dailyStdDev * Math.sqrt(252) * 100; // annualize and convert to %
+            volData.push({ time: originalSrc[i].time, value: annualizedVol });
           }
         }
         const volSeries = chart.addSeries(
