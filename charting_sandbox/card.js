@@ -8,6 +8,7 @@
     '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'
   ];
   let globalCardCounter = 0;
+  const VOL_WINDOW = 100; // rolling volatility window (days)
 
   // Save all chart states to localStorage
   function saveCards(){
@@ -279,17 +280,17 @@
         if(!zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
-        // rolling volatility (20-day standard deviation of daily % returns)
+        // rolling volatility (100-day standard deviation of daily % returns)
         const src = rebasedData[ticker] || [];
         const volData = [];
         const returns = [];
         for (let i = 1; i < src.length; i++) {
           const pct = ((src[i].value / src[i - 1].value) - 1) * 100; // daily % return
           returns.push(pct);
-          if (returns.length >= 20) {
-            const window = returns.slice(-20);
-                        const mean = window.reduce((a, b) => a + b, 0) / 20;
-            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / 20;
+          if (returns.length >= VOL_WINDOW) {
+            const window = returns.slice(-VOL_WINDOW);
+                        const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
+            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / VOL_WINDOW;
             // annualized volatility (%): daily std dev * sqrt(252)
             const sd = Math.sqrt(variance) * Math.sqrt(252);
             volData.push({ time: src[i].time, value: sd });
