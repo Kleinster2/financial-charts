@@ -5,7 +5,16 @@
   const colors = ['#008FFB','#00E396','#FEB019','#FF4560','#775DD0','#546E7A','#26a69a','#D10CE8'];
   let globalCardCounter = 0;
 
-  function createChartCard(initialTickers = 'SPY') {
+  // Save all chart states to localStorage
+  function saveCards(){
+    const cards = Array.from(document.querySelectorAll('.chart-card')).map(card=>({
+      tickers: Array.from(card._selectedTickers||[]),
+      showDiff: !!card._showDiff
+    }));
+    localStorage.setItem('sandbox_cards', JSON.stringify(cards));
+  }
+
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false) {
     const wrapper = document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -30,7 +39,7 @@
     wrapper.appendChild(card);
 
     // ---------------- State ----------------
-    let showDiff = false;
+    let showDiff = initialShowDiff;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
@@ -49,6 +58,7 @@
     inputEl.addEventListener('keyup', e=>{ if(e.key==='Enter') addTicker(); });
     const plotBtn = card.querySelector('.plot-btn');
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
+     toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
     const chipsContainer = card.querySelector('.ticker-chips');
     const chartBox = card.querySelector('.chart-box');
 
@@ -102,6 +112,8 @@
           e.stopPropagation();
           selectedTickers.delete(t);
           renderChips(Array.from(selectedTickers));
+          card._selectedTickers = new Set(selectedTickers);
+          saveCards();
           plot();
         });
         chip.appendChild(close);
@@ -119,6 +131,8 @@
       });
       inputEl.value='';
       renderChips(Array.from(selectedTickers));
+      card._selectedTickers = new Set(selectedTickers);
+      saveCards();
     }
 
     // ---------------- Plot Logic ----------------
@@ -196,6 +210,10 @@
 
       // now chips with correct colors
       renderChips(sortedTickers);
+      // persist state
+      card._selectedTickers = new Set(selectedTickers);
+      card._showDiff = showDiff;
+      saveCards();
 
       chart.timeScale().fitContent();
       chart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
@@ -221,14 +239,16 @@
     plotBtn.addEventListener('click', plot);
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('');
+      const newCard = createChartCard('', showDiff);
+      saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
       }
     });
     
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
-    card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card); });
+    card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card);
+     saveCards(); });
 
     // initial plot
     plot();
@@ -250,6 +270,11 @@
       .catch(()=>{});
 
     // create first card automatically using any preset tickers in localStorage or default
-    createChartCard(localStorage.getItem('sandbox_tickers') || 'SPY');
+    const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
+     if(stored.length){
+       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff));
+     }else{
+       createChartCard('SPY');
+     }
   });
 })();
