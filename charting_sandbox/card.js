@@ -2,7 +2,11 @@
 // Creates self-contained chart cards with independent state.
 (() => {
   const WRAPPER_ID = 'charts-wrapper';
-  const colors = ['#008FFB','#00E396','#FEB019','#FF4560','#775DD0','#546E7A','#26a69a','#D10CE8'];
+  const colors = [
+    '#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26a69a', '#D10CE8',
+    '#FF66C3', '#FF8633', '#2B908F', '#F0E442', '#3D85C6', '#A52A2A', '#FFD700', '#00BFFF',
+    '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'
+  ];
   let globalCardCounter = 0;
 
   // Save all chart states to localStorage
