@@ -28,6 +28,13 @@
         <input type="text" class="ticker-input" list="ticker-list" placeholder="e.g. AAPL">
         <button class="add-ticker-btn">Add</button>
         <button class="plot-btn">Plot</button>
+        <!-- Quick range buttons -->
+        <button class="range-btn" data-range="ytd">YTD</button>
+        <button class="range-btn" data-range="2024">2024-</button>
+        <button class="range-btn" data-range="2023">2023-</button>
+        <button class="range-btn" data-range="2022">2022-</button>
+        <button class="range-btn" data-range="2021">2021-</button>
+        <button class="range-btn" data-range="2020">2020-</button>
         <button class="toggle-diff-btn">Show Diff Pane</button>
         <button class="toggle-avg-btn">Show Avg</button>
         <button class="add-chart-btn">Add Chart</button>
@@ -65,6 +72,7 @@
     const plotBtn = card.querySelector('.plot-btn');
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
+    const rangeBtns = card.querySelectorAll('.range-btn');
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
      toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
     const chipsContainer = card.querySelector('.ticker-chips');
@@ -277,6 +285,22 @@
 
     // ---------------- Event Wiring ----------------
     plotBtn.addEventListener('click', plot);
+    // Attach range buttons for quick date ranges
+    card.querySelectorAll('.range-btn').forEach(btn=>{
+      btn.addEventListener('click', ()=>{
+        const range = btn.dataset.range;
+        const now = new Date();
+        const toSec = Math.floor(now.getTime()/1000);
+        let fromSec;
+        if(range === 'ytd'){
+          fromSec = Math.floor(new Date(now.getFullYear(), 0, 1).getTime()/1000);
+        } else {
+          const year = parseInt(range, 10);
+          fromSec = Math.floor(new Date(year, 0, 1).getTime()/1000);
+        }
+        chart.timeScale().setVisibleRange({ from: fromSec, to: toSec });
+      });
+    });
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
       const newCard = createChartCard('', showDiff, showAvg);
@@ -288,6 +312,19 @@
     
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
     toggleAvgBtn.addEventListener('click',()=>{ showAvg=!showAvg; toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg'; card._showAvg = showAvg; saveCards(); plot(); });
+    rangeBtns.forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        let startYear;
+        if(btn.dataset.range==='ytd'){
+          startYear = new Date().getUTCFullYear();
+        } else {
+          startYear = parseInt(btn.dataset.range,10);
+        }
+        const from = Date.UTC(startYear,0,1)/1000;
+        const to = Math.floor(Date.now()/1000);
+        chart.timeScale().setVisibleRange({from,to});
+      });
+    });
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card);
      saveCards(); });
 
