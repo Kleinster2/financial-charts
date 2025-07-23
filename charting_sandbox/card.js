@@ -288,9 +288,10 @@
           returns.push(pct);
           if (returns.length >= 20) {
             const window = returns.slice(-20);
-            const mean = window.reduce((a, b) => a + b, 0) / 20;
+                        const mean = window.reduce((a, b) => a + b, 0) / 20;
             const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / 20;
-            const sd = Math.sqrt(variance); // already in % units
+            // annualized volatility (%): daily std dev * sqrt(252)
+            const sd = Math.sqrt(variance) * Math.sqrt(252);
             volData.push({ time: src[i].time, value: sd });
           }
         }
