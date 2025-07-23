@@ -142,14 +142,26 @@
     }
 
     // add ticker helper
-    function drawAverage(sortedTickers){
+    function drawAverage(sortedTickers, timeRange=null){
       const active = sortedTickers.filter(t=>!hiddenTickers.has(t));
       if(active.length===0){ if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; } return; }
       const timeMap = new Map();
       active.forEach(t=>{
-        (latestRebasedData[t]||[]).forEach(pt=>{
+        const series = latestRebasedData[t] || [];
+        if(series.length===0) return;
+        // determine rebasing factor based on first point within visible range (or 1 if no range)
+        let factor = 1;
+        if(timeRange){
+          const firstVisible = series.find(pt=>pt.time>=timeRange.from && pt.time<=timeRange.to);
+          if(!firstVisible) return; // no data in range
+          factor = 100/firstVisible.value;
+        }
+        series.forEach(pt=>{
+          if(timeRange && (pt.time<timeRange.from || pt.time>timeRange.to)) return;
+          const val = pt.value * factor;
           if(!timeMap.has(pt.time)) timeMap.set(pt.time,{sum:0,count:0});
-          const e=timeMap.get(pt.time); e.sum+=pt.value; e.count++;
+          const e=timeMap.get(pt.time);
+          e.sum += val; e.count++;
         });
       });
       const avgData = Array.from(timeMap.entries()).map(([time,{sum,count}])=>({time,value:sum/count}));
@@ -157,10 +169,11 @@
       avgSeries.setData(avgData);
     }
 
-    function updateAverageSeries(){
+    function updateAverageSeries(visibleRange=null){
       if(!showAvg) return;
       const sortedTickersList = Array.from(selectedTickers).sort();
-      drawAverage(sortedTickersList);
+      const range = visibleRange || chart.timeScale().getVisibleRange();
+      drawAverage(sortedTickersList, range);
     }
 
     function addTicker(){
@@ -282,6 +295,7 @@
             const factor = 100/first.value;
             series.setData(data.map(pt=>({time:pt.time,value:pt.value*factor})));
           });
+          if(showAvg) updateAverageSeries(visible);
         });
         plot._rebasingAttached=true;
       }
@@ -289,22 +303,7 @@
 
     // ---------------- Event Wiring ----------------
     plotBtn.addEventListener('click', plot);
-    // Attach range buttons for quick date ranges
-    card.querySelectorAll('.range-btn').forEach(btn=>{
-      btn.addEventListener('click', ()=>{
-        const range = btn.dataset.range;
-        const now = new Date();
-        const toSec = Math.floor(now.getTime()/1000);
-        let fromSec;
-        if(range === 'ytd'){
-          fromSec = Math.floor(new Date(now.getFullYear(), 0, 1).getTime()/1000);
-        } else {
-          const year = parseInt(range, 10);
-          fromSec = Math.floor(new Date(year, 0, 1).getTime()/1000);
-        }
-        chart.timeScale().setVisibleRange({ from: fromSec, to: toSec });
-      });
-    });
+
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
       const newCard = createChartCard('', showDiff, showAvg);
@@ -315,7 +314,17 @@
     });
     
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
-    toggleAvgBtn.addEventListener('click',()=>{ showAvg=!showAvg; toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg'; card._showAvg = showAvg; saveCards(); plot(); });
+    toggleAvgBtn.addEventListener('click',()=>{
+      showAvg=!showAvg;
+      toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg';
+      card._showAvg = showAvg;
+      saveCards();
+      if(showAvg){
+        updateAverageSeries();
+      } else {
+        if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
+      }
+    });
     rangeBtns.forEach(btn=>{
       btn.addEventListener('click',()=>{
         let startYear;
