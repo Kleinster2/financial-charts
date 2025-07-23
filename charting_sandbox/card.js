@@ -185,9 +185,9 @@
       diffSeriesMap.clear();
       if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
       hiddenTickers.clear();
-      tickerColorMap.clear();
+      // keep existing color mapping so colors stay stable
+// tickerColorMap is not cleared anymore to preserve assigned colors
       zeroLineTop = zeroLineBottom = null;
-      colorIndex = 0;
       ensureBottomPane();
 
       const tickers = Array.from(selectedTickers);
@@ -233,8 +233,12 @@
 
       // Plot loops
       sortedTickers.forEach(ticker=>{
-        const color = colors[colorIndex % colors.length];
-        tickerColorMap.set(ticker, color);
+        let color = tickerColorMap.get(ticker);
+        if(!color){
+          color = colors[colorIndex % colors.length];
+           tickerColorMap.set(ticker, color);
+           colorIndex++; // advance only when assigning a new color
+         }
         const priceSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,
           priceFormat:{ type:'custom', minMove:0.1, formatter:(v)=>{
             const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } } });
@@ -249,7 +253,7 @@
           diffSeriesMap.set(ticker,diffSeries);
         }
         originalNormalizedData[ticker] = rebasedData[ticker];
-        colorIndex++;
+
       });
 
       if(showAvg){
