@@ -57,12 +57,15 @@
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
+    const volSeriesMap = new Map();
     let avgSeries = null;
     let latestRebasedData = {};
     const hiddenTickers = new Set();
     const tickerColorMap = new Map();
     let bottomPane = null;
+    let volPane = null;
     let bottomPaneIndex = null;
+    let volPaneIndex = null;
     let zeroLineTop = null;
     let zeroLineBottom = null;
     const originalNormalizedData = {};
@@ -103,6 +106,14 @@
       }
     };
 
+    // Initialize volatility pane (always present once any ticker plotted)
+    const ensureVolPane = () => {
+      if (!volPane) {
+        volPane = chart.addPane({ height: 120 });
+        volPaneIndex = volPane.paneIndex ? volPane.paneIndex() : (bottomPaneIndex != null ? bottomPaneIndex + 1 : 1);
+      }
+    };
+
     // ---------------- Helpers ----------------
     function renderChips(tickers) {
       chipsContainer.innerHTML = '';
@@ -124,6 +135,8 @@
            priceSeries.applyOptions({ visible: !off });
           const diffSeries = diffSeriesMap.get(t);
           if (diffSeries) diffSeries.applyOptions({ visible: !off });
+          const volSeries = volSeriesMap.get(t);
+          if (volSeries) volSeries.applyOptions({ visible: !off });
            if(showAvg) updateAverageSeries();
         });
 
@@ -198,14 +211,17 @@
       // Clear existing series
       for (const s of priceSeriesMap.values()) chart.removeSeries(s);
       for (const s of diffSeriesMap.values()) chart.removeSeries(s);
+      for (const s of volSeriesMap.values()) chart.removeSeries(s);
       priceSeriesMap.clear();
       diffSeriesMap.clear();
+      volSeriesMap.clear();
       if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
       hiddenTickers.clear();
       // keep existing color mapping so colors stay stable
 // tickerColorMap is not cleared anymore to preserve assigned colors
       zeroLineTop = zeroLineBottom = null;
       ensureBottomPane();
+      ensureVolPane();
 
       const tickers = Array.from(selectedTickers);
       if (!tickers.length) return;
@@ -262,6 +278,17 @@
         priceSeries.setData(rebasedData[ticker]);
         if(!zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
+
+        // volatility data
+        const src = rebasedData[ticker]||[];
+        const volData = [];
+        for (let i=1;i<src.length;i++){
+          const pct = ((src[i].value/src[i-1].value)-1)*100;
+          volData.push({time:src[i].time, value:pct});
+        }
+        const volSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1, priceLineVisible:false }, volPaneIndex);
+        volSeries.setData(volData);
+        volSeriesMap.set(ticker, volSeries);
 
         if(showDiff && bottomPane){
           const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
