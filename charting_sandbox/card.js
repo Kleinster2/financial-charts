@@ -15,14 +15,14 @@
 
     card.innerHTML = `
       <div class="controls">
-        <label>Tickers (comma-separated):
-          <input type="text" class="tickers-input" value="${initialTickers}">
-        </label>
+        <input type="text" class="ticker-input" list="ticker-list" placeholder="e.g. AAPL">
+        <button class="add-ticker-btn">Add</button>
         <button class="plot-btn">Plot</button>
         <button class="toggle-diff-btn">Show Diff Pane</button>
         <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
         <div class="ticker-chips"></div>
+        
       </div>
       <div class="chart-box"></div>
     `;
@@ -31,8 +31,10 @@
 
     // ---------------- State ----------------
     let showDiff = false;
+    const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
+    const tickerColorMap = new Map();
     let bottomPane = null;
     let bottomPaneIndex = null;
     let zeroLineTop = null;
@@ -41,7 +43,10 @@
     let colorIndex = 0;
 
     // Elements
-    const inputEl = card.querySelector('.tickers-input');
+    const inputEl = card.querySelector('.ticker-input');
+    const addTickerBtn = card.querySelector('.add-ticker-btn');
+    addTickerBtn.addEventListener('click', addTicker);
+    inputEl.addEventListener('keyup', e=>{ if(e.key==='Enter') addTicker(); });
     const plotBtn = card.querySelector('.plot-btn');
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
     const chipsContainer = card.querySelector('.ticker-chips');
@@ -74,7 +79,7 @@
       tickers.forEach((t, idx) => {
         const chip = document.createElement('span');
         chip.className = 'chip';
-        const color = colors[idx % colors.length];
+        const color = tickerColorMap.get(t) || colors[idx % colors.length];
         chip.style.backgroundColor = color;
         chip.style.color = '#fff';
         chip.textContent = t;
@@ -95,13 +100,25 @@
         close.textContent = '×';
         close.addEventListener('click', (e) => {
           e.stopPropagation();
-          const list = inputEl.value.split(/[\s,]+/).filter(Boolean).map(s => s.toUpperCase());
-          inputEl.value = list.filter(x => x !== t).join(', ');
+          selectedTickers.delete(t);
+          renderChips(Array.from(selectedTickers));
           plot();
         });
         chip.appendChild(close);
         chipsContainer.appendChild(chip);
       });
+    }
+
+    // add ticker helper
+    function addTicker(){
+      const raw = inputEl.value.trim();
+      if(!raw) return;
+      raw.split(/[\s,]+/).forEach(tok=>{
+        const t = tok.toUpperCase();
+        if(t) selectedTickers.add(t);
+      });
+      inputEl.value='';
+      renderChips(Array.from(selectedTickers));
     }
 
     // ---------------- Plot Logic ----------------
@@ -111,14 +128,13 @@
       for (const s of diffSeriesMap.values()) chart.removeSeries(s);
       priceSeriesMap.clear();
       diffSeriesMap.clear();
+      tickerColorMap.clear();
       zeroLineTop = zeroLineBottom = null;
       colorIndex = 0;
       ensureBottomPane();
 
-      const rawTickers = inputEl.value.trim();
-      if (!rawTickers) return;
-      const tickers = rawTickers.split(/[\s,]+/).filter(Boolean).map(t => t.toUpperCase());
-
+      const tickers = Array.from(selectedTickers);
+      if (!tickers.length) return;
       const resp = await fetch(`http://localhost:5000/api/data?tickers=${tickers.join(',')}`);
       if (!resp.ok) { alert('API error'); return; }
       const rawData = await resp.json();
@@ -140,7 +156,7 @@
         const bval = rebasedData[b]?.slice(-1)[0]?.value ?? 0;
         return bval - aval;
       });
-      renderChips(sortedTickers);
+      renderChips(Array.from(selectedTickers));
 
       // Average + diff
       const timeMap = new Map();
@@ -160,6 +176,7 @@
       // Plot loops
       sortedTickers.forEach(ticker=>{
         const color = colors[colorIndex % colors.length];
+        tickerColorMap.set(ticker, color);
         const priceSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,
           priceFormat:{ type:'custom', minMove:0.1, formatter:(v)=>{
             const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } } });
@@ -176,6 +193,9 @@
         originalNormalizedData[ticker] = rebasedData[ticker];
         colorIndex++;
       });
+
+      // now chips with correct colors
+      renderChips(sortedTickers);
 
       chart.timeScale().fitContent();
       chart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
@@ -206,7 +226,7 @@
         wrapper.insertBefore(newCard, card.nextSibling);
       }
     });
-    inputEl.addEventListener('keyup',e=>{ if(e.key==='Enter') plot(); });
+    
     toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card); });
 
@@ -220,6 +240,15 @@
     if(addBtn){
       addBtn.addEventListener('click', () => createChartCard(''));
     }
+    // populate autocomplete list
+    fetch('http://localhost:5000/api/tickers')
+      .then(r=>r.json())
+      .then(list=>{
+        const dl=document.getElementById('ticker-list');
+        if(dl){ dl.innerHTML=''; list.forEach(t=>{ const opt=document.createElement('option'); opt.value=t; dl.appendChild(opt);}); }
+      })
+      .catch(()=>{});
+
     // create first card automatically using any preset tickers in localStorage or default
     createChartCard(localStorage.getItem('sandbox_tickers') || 'SPY');
   });
