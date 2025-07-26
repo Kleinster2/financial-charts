@@ -15,12 +15,13 @@
     const cards = Array.from(document.querySelectorAll('.chart-card')).map(card=>({
       tickers: Array.from(card._selectedTickers||[]),
       showDiff: !!card._showDiff,
-      showAvg: !!card._showAvg
+      showAvg: !!card._showAvg,
+      showVol: !!card._showVol
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true) {
     const wrapper = document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -41,6 +42,7 @@
         <button class="range-btn" data-range="2021">2021-</button>
         <button class="range-btn" data-range="2020">2020-</button>
         <button class="toggle-diff-btn">Show Diff Pane</button>
+        <button class="toggle-vol-btn">Hide Vol Pane</button>
         <button class="toggle-avg-btn">Show Avg</button>
         <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
@@ -55,6 +57,7 @@
     // ---------------- State ----------------
     let showDiff = initialShowDiff;
     let showAvg = initialShowAvg;
+    let showVolPane = initialShowVol;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
@@ -76,6 +79,7 @@
     card._selectedTickers = new Set(selectedTickers);
     card._showDiff = showDiff;
     card._showAvg = showAvg;
+    card._showVol = showVolPane;
 
     // Elements
     const inputEl = card.querySelector('.ticker-input');
@@ -84,6 +88,7 @@
     inputEl.addEventListener('keyup', e=>{ if(e.key==='Enter') addTicker(); });
     const plotBtn = card.querySelector('.plot-btn');
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
+    const toggleVolBtn = card.querySelector('.toggle-vol-btn');
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
     const rangeBtns = card.querySelectorAll('.range-btn');
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
@@ -114,9 +119,17 @@
 
     // Initialize volatility pane (always present once any ticker plotted)
     const ensureVolPane = () => {
-      if (!volPane) {
-        volPane = chart.addPane({ height: 120 });
-        volPaneIndex = volPane.paneIndex ? volPane.paneIndex() : (bottomPaneIndex != null ? bottomPaneIndex + 1 : 1);
+      if (showVolPane) {
+        if (!volPane) {
+          volPane = chart.addPane({ height: 120 });
+          volPaneIndex = volPane.paneIndex ? volPane.paneIndex() : (bottomPaneIndex != null ? bottomPaneIndex + 1 : 1);
+        }
+      } else {
+        if (volPane) {
+          chart.removePane(volPane);
+          volPane = null;
+          volSeriesMap.clear();
+        }
       }
     };
 
@@ -229,11 +242,12 @@
       ensureBottomPane();
 
       // --- Volatility Pane ---
-      if (volPane) {
-        volSeriesMap.forEach(series => chart.removeSeries(series));
-        volSeriesMap.clear();
-      }
-      ensureVolPane();
+      if (volPane && !showVolPane) {
+         chart.removePane(volPane);
+         volPane = null;
+         volSeriesMap.clear();
+       }
+       ensureVolPane();
 
       const tickers = Array.from(selectedTickers);
       if (!tickers.length) return;
@@ -292,6 +306,7 @@
         priceSeriesMap.set(ticker, priceSeries);
 
         // rolling volatility (100-day standard deviation of daily % returns)
+          if (showVolPane) {
           const originalSrc = (rawData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
           const volData = [];
           const returns = [];
@@ -323,6 +338,7 @@
           );
           volSeries.setData(volData);
           volSeriesMap.set(ticker, volSeries);
+          }
 
         if(showDiff && bottomPane){
           const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceLineVisible:false, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
@@ -343,6 +359,7 @@
       card._selectedTickers = new Set(selectedTickers);
       card._showDiff = showDiff;
       card._showAvg = showAvg;
+      card._showVol = showVolPane;
       saveCards();
 
       chart.timeScale().fitContent();
@@ -371,7 +388,7 @@
 
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff, showAvg);
+      const newCard = createChartCard('', showDiff, showAvg, showVolPane);
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -385,6 +402,14 @@
       saveCards();
       plot();
     });
+    toggleVolBtn.addEventListener('click',()=>{
+      showVolPane = !showVolPane;
+      card._showVol = showVolPane;
+      toggleVolBtn.textContent = showVolPane ? 'Hide Vol Pane' : 'Show Vol Pane';
+      saveCards();
+      if (showVolPane) { plot(); } else { if (volPane){ chart.removePane(volPane); volPane=null; volSeriesMap.clear(); } }
+    });
+
     toggleAvgBtn.addEventListener('click',()=>{
       showAvg=!showAvg;
       toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg';
@@ -434,7 +459,7 @@
     // create first card automatically using any preset tickers in localStorage or default
     const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
      if(stored.length){
-       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg));
+       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol));
      }else{
        createChartCard('SPY');
      }
