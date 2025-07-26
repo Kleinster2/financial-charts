@@ -488,7 +488,7 @@
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
       }
-    });
+    }); 
     
     toggleDiffBtn.addEventListener('click',()=>{
       showDiff = !showDiff;
@@ -534,6 +534,9 @@
 
     // initial plot
     plot();
+
+    // return DOM element for callers (e.g., Add Chart button)
+    return card;
   }
 
   document.addEventListener('DOMContentLoaded', () => {
