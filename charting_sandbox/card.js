@@ -122,6 +122,7 @@
     });
     chartBox.appendChild(legendEl);
 
+    const formatPct = (val)=>{ const diff=val-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; };
     chart.subscribeCrosshairMove(param => {
       // DEBUG: log param once per move (can remove later)
       // console.debug('crosshair', param);
@@ -137,47 +138,42 @@
         ? (cb) => param.seriesPrices.forEach((v, s) => cb(s, v))
         : (cb) => { if(param.seriesPrices){ for (const key in param.seriesPrices) cb(key, param.seriesPrices[key]); } };
       iterate((series, val) => {
-        const tickerEntry = Array.from(priceSeriesMap.entries()).find(([, s]) => s === series);
-        if (!tickerEntry) return;
-        const [t] = tickerEntry;
+        // Determine ticker (t) and price series object (ps)
+        let t;
+        let ps;
+        if (series && typeof series.priceScale === 'function') {
+          // Map form: series is Lightweight Chart series object
+          const entry = Array.from(priceSeriesMap.entries()).find(([, s]) => s === series);
+          if (!entry) return;
+          [t, ps] = entry;
+        } else {
+          // Object form: key is ticker string, need to get series from map
+          t = series;
+          ps = priceSeriesMap.get(t);
+          if (!ps) return;
+        }
         if (hiddenTickers.has(t)) return;
         let price = typeof val === 'object' ? (val.close ?? val.value ?? val.open ?? val.high ?? val.low) : val;
         if (price == null || isNaN(price)) return;
         const color = tickerColorMap.get(t) || '#000';
-        html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${price.toFixed(2)}</div>`;
+        const formatted = formatPct(price);
+        html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${formatted}</div>`;
       });
-      if (param.seriesPrices && param.seriesPrices.forEach) {
-        param.seriesPrices.forEach((val, series) => {
-          // Find ticker for this series
-          const tickerEntry = Array.from(priceSeriesMap.entries()).find(([, s]) => s === series);
-          if (!tickerEntry) return;
-          const [t] = tickerEntry;
-          if (hiddenTickers.has(t)) return;
-          let price;
-          if (val == null) return;
-          if (typeof val === 'object') {
-            price = val.close ?? val.value ?? val.open ?? val.high ?? val.low;
-          } else {
-            price = val;
-          }
-          if (price == null || isNaN(price)) return;
-          const color = tickerColorMap.get(t) || '#000';
-          html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${price.toFixed(2)}</div>`;
-        });
-      }
       if (!html && time!=null) {
-        // Fallback: look up values directly from stored data arrays
+        // Fallback: look up rebased values directly from stored data arrays (so legend matches chart scale)
         selectedTickers.forEach(t=>{
           if (hiddenTickers.has(t)) return;
-          const arr = originalNormalizedData[t];
+          const arr = latestRebasedData[t];
           if(!arr) return;
           // find nearest point equal to time
           const idx = arr.findIndex(p=>p.time===time);
           if(idx===-1) return;
           const price = arr[idx].value;
           if(price==null||isNaN(price)) return;
-          const color = tickerColorMap.get(t)||'#000';
-          html += `<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${price.toFixed(2)}</div>`;
+          const color = tickerColorMap.get(t) || '#000';
+          const ps = priceSeriesMap.get(t);
+          const formatted = formatPct(price);
+          html += `<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${formatted}</div>`;
         });
       }
       if (!html) {
