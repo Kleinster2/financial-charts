@@ -104,6 +104,101 @@
       rightPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } },
     });
 
+    // Floating legend element for cursor values
+    chartBox.style.position = 'relative';
+    const legendEl = document.createElement('div');
+    legendEl.className = 'floating-legend';
+    Object.assign(legendEl.style, {
+      position: 'absolute',
+      pointerEvents: 'none',
+      background: 'rgba(255,255,255,0.85)',
+      border: '1px solid #ccc',
+      borderRadius: '4px',
+      padding: '2px 4px',
+      fontSize: '12px',
+      display: 'none',
+      zIndex: 1000,
+      whiteSpace: 'nowrap',
+    });
+    chartBox.appendChild(legendEl);
+
+    chart.subscribeCrosshairMove(param => {
+      // DEBUG: log param once per move (can remove later)
+      // console.debug('crosshair', param);
+
+      if (!param || !param.point || param.time === undefined) {
+        legendEl.style.display = 'none';
+        return;
+      }
+      let html = '';
+      const time = param.time !== undefined ? (typeof param.time === 'string' ? Date.parse(param.time)/1000 : param.time) : null;
+      const isMap = param.seriesPrices && typeof param.seriesPrices.forEach === 'function';
+      const iterate = isMap
+        ? (cb) => param.seriesPrices.forEach((v, s) => cb(s, v))
+        : (cb) => { if(param.seriesPrices){ for (const key in param.seriesPrices) cb(key, param.seriesPrices[key]); } };
+      iterate((series, val) => {
+        const tickerEntry = Array.from(priceSeriesMap.entries()).find(([, s]) => s === series);
+        if (!tickerEntry) return;
+        const [t] = tickerEntry;
+        if (hiddenTickers.has(t)) return;
+        let price = typeof val === 'object' ? (val.close ?? val.value ?? val.open ?? val.high ?? val.low) : val;
+        if (price == null || isNaN(price)) return;
+        const color = tickerColorMap.get(t) || '#000';
+        html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${price.toFixed(2)}</div>`;
+      });
+      if (param.seriesPrices && param.seriesPrices.forEach) {
+        param.seriesPrices.forEach((val, series) => {
+          // Find ticker for this series
+          const tickerEntry = Array.from(priceSeriesMap.entries()).find(([, s]) => s === series);
+          if (!tickerEntry) return;
+          const [t] = tickerEntry;
+          if (hiddenTickers.has(t)) return;
+          let price;
+          if (val == null) return;
+          if (typeof val === 'object') {
+            price = val.close ?? val.value ?? val.open ?? val.high ?? val.low;
+          } else {
+            price = val;
+          }
+          if (price == null || isNaN(price)) return;
+          const color = tickerColorMap.get(t) || '#000';
+          html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${price.toFixed(2)}</div>`;
+        });
+      }
+      if (!html && time!=null) {
+        // Fallback: look up values directly from stored data arrays
+        selectedTickers.forEach(t=>{
+          if (hiddenTickers.has(t)) return;
+          const arr = originalNormalizedData[t];
+          if(!arr) return;
+          // find nearest point equal to time
+          const idx = arr.findIndex(p=>p.time===time);
+          if(idx===-1) return;
+          const price = arr[idx].value;
+          if(price==null||isNaN(price)) return;
+          const color = tickerColorMap.get(t)||'#000';
+          html += `<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${price.toFixed(2)}</div>`;
+        });
+      }
+      if (!html) {
+        legendEl.style.display = 'none';
+        return;
+      }
+      legendEl.innerHTML = html;
+      legendEl.style.display = 'block';
+      const offset = 10;
+      let x = param.point.x + offset;
+      let y = param.point.y + offset;
+      const boxW = chartBox.clientWidth;
+      const boxH = chartBox.clientHeight;
+      const legendW = legendEl.offsetWidth;
+      const legendH = legendEl.offsetHeight;
+      if (x + legendW > boxW) x = param.point.x - legendW - offset;
+      if (y + legendH > boxH) y = param.point.y - legendH - offset;
+      legendEl.style.left = x + 'px';
+      legendEl.style.top = y + 'px';
+    });
+
     // Initialize bottom diff pane (optional)
     const ensureBottomPane = () => {
       if (showDiff && !bottomPane) {
