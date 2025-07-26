@@ -17,7 +17,7 @@ ADR_TICKERS = [
 DB_PATH = "sp500_data.db"
 ETF_TICKERS = [
     # Core U.S. market benchmarks
-    "SPY", "RSP", "VTI", "QQQ", "DIA", "IWM", "AGG", "GLD",
+    "SPY", "RSP", "VTI", "QQQ", "DIA", "IWM",
     # U.S. style / factor ETFs
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
     # Sector ETFs (GICS)
@@ -25,20 +25,17 @@ ETF_TICKERS = [
     # Broad international equity baskets
     "EFA", "EEM", "IEFA", "VWO",
     # Single-country developed market ETFs
-    "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM",
+    "EWZ", "EWW", "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM", "EDEN", "EFNL", "EIRL", "EIS", "ENZL", "ENOR",
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
     # Fixed income & alternative asset ETFs
-    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV",
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
     # Multi-asset / risk parity ETFs
     "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
     # Commodities, currencies & volatility
-    "SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
+    "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^VOLQ", "^VVIX", "^SKEW", 
-    "VXX", "UVXY", "SVXY",
-    # Additional fixed-income ETFs
-    "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY",
     # Treasury yield index symbols (yields, not prices)
     "^IRX", "^FVX", "^TNX", "^TYX"
 ]
