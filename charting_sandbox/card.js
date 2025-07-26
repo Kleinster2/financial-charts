@@ -72,6 +72,11 @@
     const originalNormalizedData = {};
     let colorIndex = 0;
 
+    // Persist initial card state for localStorage
+    card._selectedTickers = new Set(selectedTickers);
+    card._showDiff = showDiff;
+    card._showAvg = showAvg;
+
     // Elements
     const inputEl = card.querySelector('.ticker-input');
     const addTickerBtn = card.querySelector('.add-ticker-btn');
@@ -373,7 +378,13 @@
       }
     });
     
-    toggleDiffBtn.addEventListener('click',()=>{ showDiff=!showDiff; toggleDiffBtn.textContent = showDiff?'Hide Diff Pane':'Show Diff Pane'; plot(); });
+    toggleDiffBtn.addEventListener('click',()=>{
+      showDiff = !showDiff;
+      card._showDiff = showDiff;
+      toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
+      saveCards();
+      plot();
+    });
     toggleAvgBtn.addEventListener('click',()=>{
       showAvg=!showAvg;
       toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg';
