@@ -3,7 +3,7 @@ import time
 import pandas as pd
 import os
 import sys
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, redirect, send_from_directory
 from flask_cors import CORS
 import logging
 import numpy as np
@@ -56,8 +56,15 @@ def get_db_connection():
 
 @app.route('/')
 def index():
-    """Serves the main HTML page."""
-    return render_template('index.html')
+    """Redirect root to sandbox UI"""
+    return redirect('/sandbox/')
+
+# Sandbox static serving
+@app.route('/sandbox/')
+@app.route('/sandbox/<path:filename>')
+def sandbox_static(filename='index.html'):
+    sandbox_dir = os.path.abspath(os.path.join(basedir, '..', 'charting_sandbox'))
+    return send_from_directory(sandbox_dir, filename)
 
 @app.route('/api/tickers')
 def get_tickers():
