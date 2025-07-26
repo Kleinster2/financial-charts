@@ -279,7 +279,7 @@
            tickerColorMap.set(ticker, color);
            colorIndex++; // advance only when assigning a new color
          }
-        const priceSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,
+        const priceSeries = chart.addSeries(LightweightCharts.LineSeries,{ color, priceLineVisible:false,
           priceFormat:{ type:'custom', minMove:0.1, formatter:(v)=>{
             const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } } });
         priceSeries.setData(rebasedData[ticker]);
@@ -320,7 +320,7 @@
           volSeriesMap.set(ticker, volSeries);
 
         if(showDiff && bottomPane){
-          const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
+          const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceLineVisible:false, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
           diffSeries.setData(diffData[ticker]);
           if(!zeroLineBottom){ zeroLineBottom = diffSeries.createPriceLine({ price:0,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
           diffSeriesMap.set(ticker,diffSeries);
