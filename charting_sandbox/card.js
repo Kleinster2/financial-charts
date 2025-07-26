@@ -82,7 +82,7 @@
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
     const rangeBtns = card.querySelectorAll('.range-btn');
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
-     toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
+    toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
     const chipsContainer = card.querySelector('.ticker-chips');
     const chartBox = card.querySelector('.chart-box');
 
@@ -195,7 +195,7 @@
     }
 
     function addTicker(){
-      const raw = inputEl.value.trim();
+      const raw = inputEl.value.trim().replace(/['"]/g, '');
       if(!raw) return;
       raw.split(/[\s,]+/).forEach(tok=>{
         const t = tok.toUpperCase();
@@ -203,7 +203,7 @@
       });
       inputEl.value='';
       renderChips(Array.from(selectedTickers));
-      card._selectedTickers = new Set(selectedTickers);
+            card._selectedTickers = new Set(selectedTickers);
       saveCards();
     }
 
@@ -222,6 +222,12 @@
 // tickerColorMap is not cleared anymore to preserve assigned colors
       zeroLineTop = zeroLineBottom = null;
       ensureBottomPane();
+
+      // --- Volatility Pane ---
+      if (volPane) {
+        volSeriesMap.forEach(series => chart.removeSeries(series));
+        volSeriesMap.clear();
+      }
       ensureVolPane();
 
       const tickers = Array.from(selectedTickers);
@@ -281,37 +287,37 @@
         priceSeriesMap.set(ticker, priceSeries);
 
         // rolling volatility (100-day standard deviation of daily % returns)
-        const originalSrc = (rawData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
-        const volData = [];
-        const returns = [];
-        for (let i = 1; i < originalSrc.length; i++) {
-          const pct = (originalSrc[i].value / originalSrc[i-1].value) - 1;
-          returns.push(pct);
-          if (returns.length >= VOL_WINDOW) {
-            const window = returns.slice(-VOL_WINDOW);
-            const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
-            const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / (VOL_WINDOW - 1); // Sample variance
-            const dailyStdDev = Math.sqrt(variance);
-            const annualizedVol = dailyStdDev * Math.sqrt(252) * 100; // annualize and convert to %
-            volData.push({ time: originalSrc[i].time, value: annualizedVol });
+          const originalSrc = (rawData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
+          const volData = [];
+          const returns = [];
+          for (let i = 1; i < originalSrc.length; i++) {
+            const pct = (originalSrc[i].value / originalSrc[i-1].value) - 1;
+            returns.push(pct);
+            if (returns.length >= VOL_WINDOW) {
+              const window = returns.slice(-VOL_WINDOW);
+              const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
+              const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / (VOL_WINDOW - 1); // Sample variance
+              const dailyStdDev = Math.sqrt(variance);
+              const annualizedVol = dailyStdDev * Math.sqrt(252) * 100; // annualize and convert to %
+              volData.push({ time: originalSrc[i].time, value: annualizedVol });
+            }
           }
-        }
-        const volSeries = chart.addSeries(
-          LightweightCharts.LineSeries,
-          {
-            color,
-            lineWidth: 1,
-            priceLineVisible: false,
-            priceFormat: {
-              type: 'custom',
-              minMove: 0.1,
-              formatter: (v) => v.toFixed(2) + '%',
+          const volSeries = chart.addSeries(
+            LightweightCharts.LineSeries,
+            {
+              color,
+              lineWidth: 1,
+              priceLineVisible: false,
+              priceFormat: {
+                type: 'custom',
+                minMove: 0.1,
+                formatter: (v) => v.toFixed(2) + '%',
+              },
             },
-          },
-          volPaneIndex
-        );
-        volSeries.setData(volData);
-        volSeriesMap.set(ticker, volSeries);
+            volPaneIndex
+          );
+          volSeries.setData(volData);
+          volSeriesMap.set(ticker, volSeries);
 
         if(showDiff && bottomPane){
           const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
