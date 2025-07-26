@@ -132,6 +132,7 @@
         return;
       }
       let html = '';
+      const rows = []; // {t, price, color} objects to sort later
       const time = param.time !== undefined ? (typeof param.time === 'string' ? Date.parse(param.time)/1000 : param.time) : null;
       const isMap = param.seriesPrices && typeof param.seriesPrices.forEach === 'function';
       const iterate = isMap
@@ -156,8 +157,7 @@
         let price = typeof val === 'object' ? (val.close ?? val.value ?? val.open ?? val.high ?? val.low) : val;
         if (price == null || isNaN(price)) return;
         const color = tickerColorMap.get(t) || '#000';
-        const formatted = formatPct(price);
-        html += `<div><span style="color:${color};font-weight:bold">${t}</span>: ${formatted}</div>`;
+        rows.push({t, price, color});
       });
       if (!html && time!=null) {
         // Fallback: look up rebased values directly from stored data arrays (so legend matches chart scale)
@@ -172,9 +172,13 @@
           if(price==null||isNaN(price)) return;
           const color = tickerColorMap.get(t) || '#000';
           const ps = priceSeriesMap.get(t);
-          const formatted = formatPct(price);
-          html += `<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${formatted}</div>`;
+          rows.push({t, price, color});
         });
+      }
+      // Build legend HTML sorted by price descending
+      if(rows.length){
+        rows.sort((a,b)=>b.price - a.price);
+        html = rows.map(({t,price,color})=>`<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${formatPct(price)}</div>`).join('');
       }
       if (!html) {
         legendEl.style.display = 'none';
