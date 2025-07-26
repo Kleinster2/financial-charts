@@ -21,8 +21,8 @@
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true) {
-    const wrapper = document.getElementById(WRAPPER_ID);
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, wrapperEl = null) {
+    const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
     // ---------------- Build DOM ----------------
@@ -554,12 +554,21 @@
       })
       .catch(()=>{});
 
-    // create first card automatically using any preset tickers in localStorage or default
-    const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
-     if(stored.length){
-       stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol));
-     }else{
-       createChartCard('SPY');
-     }
+    // Decide whether to restore previous cards or start blank based on URL param
+    const urlParams = new URLSearchParams(window.location.search);
+    const startBlank = urlParams.has('blank');
+
+    if(startBlank){
+      createChartCard('');
+    } else {
+      // create first card automatically using any preset tickers in localStorage or default
+      const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
+      if(stored.length){
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol));
+      }else{
+        createChartCard('SPY');
+      }
+    }
   });
+  window.createChartCard = createChartCard;
 })();

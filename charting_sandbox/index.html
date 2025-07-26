@@ -17,14 +17,23 @@
     .chip{display:inline-block;border-radius:4px;padding:2px 6px;margin:2px;font-size:0.9rem;color:#fff;}
     .chip.off{opacity:0.4;}
     .chip .close{margin-left:4px;cursor:pointer;font-weight:bold;}
+    .tab-bar{display:inline-flex;align-items:center;gap:4px;margin-left:12px;}
+    .tab-bar .tab{padding:4px 8px;border:1px solid #666;border-radius:4px;background:#eee;cursor:pointer;font-size:0.9rem;}
+    .tab-bar .tab.active{background:#666;color:#fff;}
   </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.development.js"></script>
 </head>
 <body>
   <h2>Lightweight Charts Sandbox</h2>
-  <div id="charts-wrapper"></div>
+  <div id="top-controls"><button id="new-page-btn">New Page</button><div id="tab-bar" class="tab-bar"></div></div>
+  <div id="pages-container">
+    <div class="page" data-page="1">
+      <div id="charts-wrapper"></div>
+    </div>
+  </div>
   <datalist id="ticker-list"></datalist>
-  <script src="card.js?v=3"></script>
+  <script src="card.js?v=4"></script>
+  <script src="pages.js?v=1"></script>
 </body>
 </html>
