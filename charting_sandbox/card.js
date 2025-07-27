@@ -65,6 +65,7 @@
     let showAvg = initialShowAvg;
     let showVolPane = initialShowVol;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
+    const multiplierMap = new Map(); // ticker -> beta multiplier (default 1)
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
     const volSeriesMap = new Map();
@@ -240,10 +241,37 @@
       tickers.forEach((t, idx) => {
         const chip = document.createElement('span');
         chip.className = 'chip';
+        chip.style.position='relative';
         const color = tickerColorMap.get(t) || colors[idx % colors.length];
         chip.style.backgroundColor = color;
         chip.style.color = '#fff';
-        chip.textContent = t;
+        const mult = multiplierMap.get(t) || 1;
+        const updateLabel = ()=>{ chip.childNodes[0].textContent = `${t} × ${multiplierMap.get(t)?.toFixed(1)||'1.0'}`};
+        const labelSpan=document.createElement('span');
+        labelSpan.textContent=`${t} × ${mult.toFixed(1)}`;
+        chip.appendChild(labelSpan);
+
+        // multiplier slider
+        const slider=document.createElement('input');
+        slider.type='range';
+        slider.min='0.1';
+        slider.max='3';
+        slider.step='0.1';
+        slider.value=mult;
+        slider.className='mult-slider';
+        Object.assign(slider.style,{position:'absolute',left:'0',right:'0',bottom:'-18px',display:'none',width:'100px'});
+        chip.appendChild(slider);
+        chip.addEventListener('mouseenter',()=>{slider.style.display='block';});
+        chip.addEventListener('mouseleave',()=>{slider.style.display='none';});
+        slider.addEventListener('input',e=>{
+          const val=parseFloat(e.target.value);
+          multiplierMap.set(t,val);
+          updateLabel();
+        });
+        slider.addEventListener('change',()=>{ // replot on commit
+          plot();
+          saveCards();
+        });
 
         // Toggle visibility
         chip.addEventListener('click', () => {
@@ -365,7 +393,12 @@
         if (!data.length) return;
         const base = data.find(p=>p.value!==0)?.value;
         if (!base) return;
-        rebasedData[ticker] = data.map(p=>({time:p.time, value:(p.value/base)*100}));
+        const mult = multiplierMap.get(ticker) || 1;
+        rebasedData[ticker] = data.map(p=>{
+          const norm = p.value/base; // 1 at t0
+          const scaled = 1 + (norm - 1) * mult;
+          return {time:p.time, value:scaled*100};
+        });
       });
 
       // Sort by latest
