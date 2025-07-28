@@ -35,7 +35,7 @@ ETF_TICKERS = [
     # Commodities, currencies & volatility
     "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX3M", "^VIX6M", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY",
+    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
     # Treasury yield index symbols (yields, not prices)
     "^IRX", "^FVX", "^TNX", "^TYX"
 ]
