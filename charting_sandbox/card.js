@@ -526,7 +526,9 @@
             const first = data.find(p=>p.time>=from);
             if(!first||first.value===0) return;
             const factor = 100/first.value;
-            series.setData(data.map(pt=>({time:pt.time,value:pt.value*factor})));
+            const rebased = data.map(pt=>({time:pt.time,value:pt.value*factor}));
+            series.setData(rebased);
+            latestRebasedData[ticker] = rebased; // keep legend data aligned
           });
           if(showAvg) updateAverageSeries(visible);
         });
