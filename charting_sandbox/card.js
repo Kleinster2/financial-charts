@@ -23,12 +23,13 @@
       showDiff: !!card._showDiff,
       showAvg: !!card._showAvg,
       showVol: !!card._showVol,
-      multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : [])
+      multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
+      hidden: Array.from(card._hiddenTickers || [])
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, wrapperEl = null) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], wrapperEl = null) {
     const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -79,7 +80,7 @@
     const volSeriesMap = new Map();
     let avgSeries = null;
     let latestRebasedData = {};
-    const hiddenTickers = new Set();
+    const hiddenTickers = new Set(initialHidden ? initialHidden.map(t=>t.toUpperCase()) : []);
     const tickerColorMap = new Map();
     let bottomPane = null;
     let volPane = null;
@@ -96,6 +97,7 @@
     card._showAvg = showAvg;
     card._showVol = showVolPane;
     card._multiplierMap = multiplierMap;
+    card._hiddenTickers = hiddenTickers;
 
     // Elements
     const inputEl = card.querySelector('.ticker-input');
@@ -251,6 +253,7 @@
         const chip = document.createElement('span');
         chip.className = 'chip';
         chip.style.position='relative';
+        if(hiddenTickers.has(t)){ chip.classList.add('off'); }
         const color = tickerColorMap.get(t) || colors[idx % colors.length];
         chip.style.backgroundColor = color;
         chip.style.color = '#fff';
@@ -289,6 +292,8 @@
           if (!priceSeries) return;
           const off = chip.classList.toggle('off');
            if(off){ hiddenTickers.add(t); } else { hiddenTickers.delete(t); }
+          card._hiddenTickers = hiddenTickers;
+          saveCards();
            priceSeries.applyOptions({ visible: !off });
           const diffSeries = diffSeriesMap.get(t);
           if (diffSeries) diffSeries.applyOptions({ visible: !off });
@@ -373,7 +378,7 @@
       diffSeriesMap.clear();
       volSeriesMap.clear();
       if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
-      hiddenTickers.clear();
+      // hiddenTickers.clear(); // keep hidden tickers for persistence
       // keep existing color mapping so colors stay stable
 // tickerColorMap is not cleared anymore to preserve assigned colors
       zeroLineTop = zeroLineBottom = null;
@@ -445,6 +450,7 @@
           priceFormat:{ type:'custom', minMove:0.1, formatter:(v)=>{
             const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } } });
         priceSeries.setData(rebasedData[ticker]);
+        if(hiddenTickers.has(ticker)) priceSeries.applyOptions({visible:false});
         if(!zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
@@ -480,12 +486,14 @@
             volPaneIndex
           );
           volSeries.setData(volData);
+          if(hiddenTickers.has(ticker)) volSeries.applyOptions({visible:false});
           volSeriesMap.set(ticker, volSeries);
           }
 
         if(showDiff && bottomPane){
           const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceLineVisible:false, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
           diffSeries.setData(diffData[ticker]);
+          if(hiddenTickers.has(ticker)) diffSeries.applyOptions({visible:false});
           if(!zeroLineBottom){ zeroLineBottom = diffSeries.createPriceLine({ price:0,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
           diffSeriesMap.set(ticker,diffSeries);
         }
@@ -531,7 +539,7 @@
 
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff, showAvg, showVolPane);
+      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers));
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -622,7 +630,7 @@
       // create first card automatically using any preset tickers in localStorage or default
       const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
       if(stored.length){
-        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers));
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden));
       }else{
         createChartCard('SPY');
       }
