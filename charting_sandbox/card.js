@@ -81,6 +81,7 @@
     const volSeriesMap = new Map();
     let avgSeries = null;
     let latestRebasedData = {};
+    const rawPriceMap = new Map(); // ticker -> raw price array
     const hiddenTickers = new Set(initialHidden ? initialHidden.map(t=>t.toUpperCase()) : []);
     let savedRange = initialRange; // {from,to} epoch seconds
     const tickerColorMap = new Map();
@@ -406,6 +407,7 @@
        latestRebasedData = rebasedData;
       tickers.forEach(ticker => {
         let data = (rawData[ticker] || []).filter(p => p.value != null);
+         rawPriceMap.set(ticker, data);
         data = data.sort((a,b)=>a.time-b.time);
         if (!data.length) return;
         const base = data.find(p=>p.value!==0)?.value;
@@ -525,12 +527,18 @@
           if(!visible||!visible.from) return;
           const from = Math.round(visible.from);
           priceSeriesMap.forEach((series,ticker)=>{
-            const data = originalNormalizedData[ticker];
-            if(!data?.length) return;
-            const first = data.find(p=>p.time>=from);
+            const raw = rawPriceMap.get(ticker);
+            if(!raw?.length) return;
+            
+            const first = raw.find(p=>p.time>=from);
             if(!first||first.value===0) return;
-            const factor = 100/first.value;
-            const rebased = data.map(pt=>({time:pt.time,value:pt.value*factor}));
+            const base = first.value;
+            const mult = multiplierMap.get(ticker) || 1;
+            const rebased = raw.map(pt=>{
+              const norm = pt.value / base;
+              const scaled = 1 + (norm - 1) * mult;
+              return {time: pt.time, value: scaled * 100};
+            });
             series.setData(rebased);
             latestRebasedData[ticker] = rebased; // keep legend data aligned
           });
