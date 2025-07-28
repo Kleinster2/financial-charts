@@ -22,12 +22,13 @@
       tickers: Array.from(card._selectedTickers||[]),
       showDiff: !!card._showDiff,
       showAvg: !!card._showAvg,
-      showVol: !!card._showVol
+      showVol: !!card._showVol,
+      multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : [])
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, wrapperEl = null) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, wrapperEl = null) {
     const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -66,6 +67,13 @@
     let showVolPane = initialShowVol;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const multiplierMap = new Map(); // ticker -> beta multiplier (default 1)
+    // Apply initial multipliers if provided
+    if(initialMultipliers && typeof initialMultipliers === 'object'){
+      Object.entries(initialMultipliers).forEach(([t,v])=>{
+        const num = parseFloat(v);
+        if(!isNaN(num)) multiplierMap.set(t.toUpperCase(), num);
+      });
+    }
     const priceSeriesMap = new Map();
     const diffSeriesMap = new Map();
     const volSeriesMap = new Map();
@@ -87,6 +95,7 @@
     card._showDiff = showDiff;
     card._showAvg = showAvg;
     card._showVol = showVolPane;
+    card._multiplierMap = multiplierMap;
 
     // Elements
     const inputEl = card.querySelector('.ticker-input');
@@ -571,6 +580,16 @@
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card);
      saveCards(); });
 
+    // Add event listener to save multipliers
+    card.querySelectorAll('.multiplier-input').forEach(input => {
+      input.addEventListener('input', () => {
+        const ticker = input.dataset.ticker;
+        const value = parseFloat(input.value);
+        multiplierMap.set(ticker, value);
+        localStorage.setItem('multipliers', JSON.stringify(Object.fromEntries(multiplierMap)));
+      });
+    });
+
     // initial plot
     plot();
 
@@ -603,7 +622,7 @@
       // create first card automatically using any preset tickers in localStorage or default
       const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
       if(stored.length){
-        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol));
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers));
       }else{
         createChartCard('SPY');
       }
