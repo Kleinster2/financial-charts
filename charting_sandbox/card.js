@@ -24,12 +24,13 @@
       showAvg: !!card._showAvg,
       showVol: !!card._showVol,
       multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
-      hidden: Array.from(card._hiddenTickers || [])
+      hidden: Array.from(card._hiddenTickers || []),
+      range: card._visibleRange || null
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], wrapperEl = null) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], initialRange = null, wrapperEl = null) {
     const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -81,6 +82,7 @@
     let avgSeries = null;
     let latestRebasedData = {};
     const hiddenTickers = new Set(initialHidden ? initialHidden.map(t=>t.toUpperCase()) : []);
+    let savedRange = initialRange; // {from,to} epoch seconds
     const tickerColorMap = new Map();
     let bottomPane = null;
     let volPane = null;
@@ -97,6 +99,7 @@
     card._showAvg = showAvg;
     card._showVol = showVolPane;
     card._multiplierMap = multiplierMap;
+    card._visibleRange = savedRange;
     card._hiddenTickers = hiddenTickers;
 
     // Elements
@@ -513,11 +516,12 @@
       card._showVol = showVolPane;
       saveCards();
 
-      chart.timeScale().fitContent();
+      if(savedRange && savedRange.from && savedRange.to){ chart.timeScale().setVisibleRange(savedRange);} else { chart.timeScale().fitContent(); }
       chart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
 
       if(!plot._rebasingAttached){
         chart.timeScale().subscribeVisibleTimeRangeChange((visible)=>{
+          if(visible && visible.from){ card._visibleRange = visible; saveCards(); }
           if(!visible||!visible.from) return;
           const from = Math.round(visible.from);
           priceSeriesMap.forEach((series,ticker)=>{
@@ -541,7 +545,7 @@
 
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers));
+      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers), card._visibleRange);
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -632,7 +636,7 @@
       // create first card automatically using any preset tickers in localStorage or default
       const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
       if(stored.length){
-        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden));
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden, c.range));
       }else{
         createChartCard('SPY');
       }
