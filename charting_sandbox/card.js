@@ -25,12 +25,13 @@
       showVol: !!card._showVol,
       multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
       hidden: Array.from(card._hiddenTickers || []),
-      range: card._visibleRange || null
+      range: card._visibleRange || null,
+      title: card._title || ''
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], initialRange = null, wrapperEl = null) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], initialRange = null, initialTitle = '', wrapperEl = null) {
     const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -55,9 +56,11 @@
         <button class="toggle-avg-btn">Show Avg</button>
         <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
+        <input type="text" class="title-input" placeholder="Chart title..." style="margin-left:8px;width:140px;">
         <div class="ticker-chips"></div>
         
       </div>
+      <div class="card-title" style="font-weight:bold;font-size:16px;margin:6px 0;">${initialTitle}</div>
       <div class="chart-box"></div>
     `;
 
@@ -101,6 +104,7 @@
     card._showVol = showVolPane;
     card._multiplierMap = multiplierMap;
     card._visibleRange = savedRange;
+    card._title = initialTitle || '';
     card._hiddenTickers = hiddenTickers;
 
     // Elements
@@ -109,6 +113,14 @@
     addTickerBtn.addEventListener('click', addTicker);
     inputEl.addEventListener('keyup', e=>{ if(e.key==='Enter') addTicker(); });
     const plotBtn = card.querySelector('.plot-btn');
+    const titleInput = card.querySelector('.title-input');
+    const titleDisplay = card.querySelector('.card-title');
+    if(titleInput){
+      titleInput.value = initialTitle || '';
+      const updateTitle=()=>{ titleDisplay.textContent = titleInput.value; };
+      updateTitle();
+      titleInput.addEventListener('input',()=>{ card._title = titleInput.value; updateTitle(); saveCards(); });
+    }
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
     const toggleVolBtn = card.querySelector('.toggle-vol-btn');
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
@@ -553,7 +565,7 @@
 
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers), card._visibleRange);
+      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers), card._visibleRange, '', null);
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -644,7 +656,7 @@
       // create first card automatically using any preset tickers in localStorage or default
       const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
       if(stored.length){
-        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden, c.range));
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden, c.range, c.title||''));
       }else{
         createChartCard('SPY');
       }
