@@ -26,12 +26,13 @@
       multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
       hidden: Array.from(card._hiddenTickers || []),
       range: card._visibleRange || null,
+      useRaw: card._useRaw || false,
       title: card._title || ''
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
   }
 
-  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialMultipliers = {}, initialHidden = [], initialRange = null, initialTitle = '', wrapperEl = null) {
+  function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialUseRaw = false, initialMultipliers = {}, initialHidden = [], initialRange = null, initialTitle = '', wrapperEl = null) {
     const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
     if (!wrapper) { console.error('Missing charts wrapper'); return; }
 
@@ -54,6 +55,7 @@
         <button class="toggle-diff-btn">Show Diff Pane</button>
         <button class="toggle-vol-btn">Hide Vol Pane</button>
         <button class="toggle-avg-btn">Show Avg</button>
+        <button class="toggle-raw-btn">Show Raw</button>
         <button class="add-chart-btn">Add Chart</button>
         <button class="remove-card-btn">Remove</button>
         <input type="text" class="title-input" placeholder="Chart title..." style="margin-left:8px;width:140px;">
@@ -70,6 +72,7 @@
     let showDiff = initialShowDiff;
     let showAvg = initialShowAvg;
     let showVolPane = initialShowVol;
+    let useRaw = initialUseRaw;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
     const multiplierMap = new Map(); // ticker -> beta multiplier (default 1)
     // Apply initial multipliers if provided
@@ -124,8 +127,10 @@
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
     const toggleVolBtn = card.querySelector('.toggle-vol-btn');
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
+    const toggleRawBtn = card.querySelector('.toggle-raw-btn');
     const rangeBtns = card.querySelectorAll('.range-btn');
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
+    toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
     toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
     const chipsContainer = card.querySelector('.ticker-chips');
     const chartBox = card.querySelector('.chart-box');
@@ -157,7 +162,9 @@
     chartBox.appendChild(legendEl);
 
     const formatPct = (val)=>{ const diff=val-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; };
+    const formatPrice = (v)=>{ if(v>=1000) return v.toFixed(0); if(v>=100) return v.toFixed(1); return v.toFixed(2); };
     chart.subscribeCrosshairMove(param => {
+      if(useRaw){ legendEl.style.display='none'; return; }
       // DEBUG: log param once per move (can remove later)
       // console.debug('crosshair', param);
 
@@ -422,14 +429,18 @@
          rawPriceMap.set(ticker, data);
         data = data.sort((a,b)=>a.time-b.time);
         if (!data.length) return;
-        const base = data.find(p=>p.value!==0)?.value;
-        if (!base) return;
-        const mult = multiplierMap.get(ticker) || 1;
-        rebasedData[ticker] = data.map(p=>{
-          const norm = p.value/base; // 1 at t0
-          const scaled = 1 + (norm - 1) * mult;
-          return {time:p.time, value:scaled*100};
-        });
+        if (useRaw) {
+          rebasedData[ticker] = data.map(p => ({ time: p.time, value: p.value }));
+        } else {
+          const base = data.find(p => p.value !== 0)?.value;
+          if (!base) return;
+          const mult = multiplierMap.get(ticker) || 1;
+          rebasedData[ticker] = data.map(p => {
+            const norm = p.value / base; // 1 at t0
+            const scaled = 1 + (norm - 1) * mult;
+            return { time: p.time, value: scaled * 100 };
+          });
+        }
       });
 
       // Sort by latest
@@ -467,8 +478,9 @@
           priceFormat:{ type:'custom', minMove:0.1, formatter:(v)=>{
             const diff=v-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } } });
         priceSeries.setData(rebasedData[ticker]);
+        if(useRaw){ priceSeries.applyOptions({ priceFormat:{ type:'custom', minMove:0.01, formatter:formatPrice } }); }
         if(hiddenTickers.has(ticker)) priceSeries.applyOptions({visible:false});
-        if(!zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
+        if(!useRaw && !zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
         // rolling volatility (100-day standard deviation of daily % returns)
@@ -535,6 +547,7 @@
 
       if(!plot._rebasingAttached){
         chart.timeScale().subscribeVisibleTimeRangeChange((visible)=>{
+           if(useRaw) return;
           if(visible && visible.from){ card._visibleRange = visible; saveCards(); }
           if(!visible||!visible.from) return;
           const from = Math.round(visible.from);
@@ -565,7 +578,7 @@
 
     const addChartBtn = card.querySelector('.add-chart-btn');
     addChartBtn.addEventListener('click', () => {
-      const newCard = createChartCard('', showDiff, showAvg, showVolPane, Object.fromEntries(multiplierMap), Array.from(hiddenTickers), card._visibleRange, '', null);
+      const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, Object.fromEntries(multiplierMap), Array.from(hiddenTickers), card._visibleRange, '', null);
       saveCards();
       if(card.nextSibling){
         wrapper.insertBefore(newCard, card.nextSibling);
@@ -587,7 +600,15 @@
       if (showVolPane) { plot(); } else { if (volPane){ chart.removePane(volPane); volPane=null; volSeriesMap.clear(); } }
     });
 
-    toggleAvgBtn.addEventListener('click',()=>{
+    toggleRawBtn.addEventListener('click',()=>{
+       useRaw = !useRaw;
+       card._useRaw = useRaw;
+       toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
+       saveCards();
+       plot();
+     });
+
+     toggleAvgBtn.addEventListener('click',()=>{
       showAvg=!showAvg;
       toggleAvgBtn.textContent = showAvg?'Hide Avg':'Show Avg';
       card._showAvg = showAvg;
@@ -656,7 +677,7 @@
       // create first card automatically using any preset tickers in localStorage or default
       const stored = JSON.parse(localStorage.getItem('sandbox_cards')||'[]');
       if(stored.length){
-        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.multipliers, c.hidden, c.range, c.title||''));
+        stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.useRaw||false, c.multipliers, c.hidden, c.range, c.title||''));
       }else{
         createChartCard('SPY');
       }
