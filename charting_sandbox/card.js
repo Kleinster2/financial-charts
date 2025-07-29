@@ -164,7 +164,7 @@
     const formatPct = (val)=>{ const diff=val-100; const sign=diff>0?'+':diff<0?'-':''; const dec=Math.abs(diff)>=100?0:1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; };
     const formatPrice = (v)=>{ if(v>=1000) return v.toFixed(0); if(v>=100) return v.toFixed(1); return v.toFixed(2); };
     chart.subscribeCrosshairMove(param => {
-      if(useRaw){ legendEl.style.display='none'; return; }
+      const formatter = useRaw ? formatPrice : formatPct;
       // DEBUG: log param once per move (can remove later)
       // console.debug('crosshair', param);
 
@@ -204,7 +204,7 @@
         // Fallback: look up rebased values directly from stored data arrays (so legend matches chart scale)
         selectedTickers.forEach(t=>{
           if (hiddenTickers.has(t)) return;
-          const arr = latestRebasedData[t];
+          const arr = useRaw ? rawPriceMap.get(t) : latestRebasedData[t];
           if(!arr) return;
           // find nearest point equal to time
           const idx = arr.findIndex(p=>p.time===time);
@@ -219,7 +219,7 @@
       // Build legend HTML sorted by price descending
       if(rows.length){
         rows.sort((a,b)=>b.price - a.price);
-        html = rows.map(({t,price,color})=>`<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${formatPct(price)}</div>`).join('');
+        html = rows.map(({t,price,color})=>`<div><span style=\"color:${color};font-weight:bold\">${t}</span>: ${formatter(price)}</div>`).join('');
       }
       if (!html) {
         legendEl.style.display = 'none';
