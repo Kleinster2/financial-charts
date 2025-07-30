@@ -141,6 +141,17 @@
       grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
       timeScale: { secondsVisible: false, rightOffset: 10, fixLeftEdge: true },
       rightPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } },
+      // Disable horizontal crosshair and its Y-axis label while keeping vertical crosshair & X-axis label
+      crosshair: {
+        horzLine: {
+          visible: false,
+          labelVisible: false,
+        },
+        vertLine: {
+          visible: true,
+          labelVisible: true,
+        },
+      }
     });
 
     // Floating legend element for cursor values
