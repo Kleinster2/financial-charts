@@ -41,11 +41,11 @@ ETF_TICKERS = [
 ]
 
 # --- High-profile non-S&P 500 U.S. stocks to track ---
-OTHER_US_STOCKS = [
+OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
     "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST",
     # Data Centers
-    "CONE", "QTS", "DBRG",
+    "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS",
 ]
 
 # --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
@@ -60,8 +60,6 @@ FX_TICKERS = [
     "USDCZK=X", "USDRON=X", "USDILS=X",
     # Precious metals as currencies
     "XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X",
-    # Crypto spot rates (Yahoo crypto tickers)
-    "BTC-USD", "ETH-USD", "LTC-USD", "BCH-USD", "DOGE-USD", "ADA-USD", "SOL-USD", "XRP-USD"
 ]
 
 # --- Additional FX-like tickers (extra crosses, indices) ---
@@ -137,7 +135,7 @@ def update_sp500_data():
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
         print(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
-        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS + OTHER_US_STOCKS + FX_TICKERS + ADDITIONAL_FX_TICKERS + CRYPTO_TICKERS)))
+        all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS + OTHER_HIGH_PROFILE_STOCKS + FX_TICKERS + ADDITIONAL_FX_TICKERS + CRYPTO_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
 
