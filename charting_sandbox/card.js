@@ -45,13 +45,16 @@
         <input type="text" class="ticker-input" list="ticker-list" placeholder="e.g. AAPL">
         <button class="add-ticker-btn">Add</button>
         <button class="plot-btn">Plot</button>
-        <!-- Quick range buttons -->
-        <button class="range-btn" data-range="ytd">YTD</button>
-        <button class="range-btn" data-range="2024">2024-</button>
-        <button class="range-btn" data-range="2023">2023-</button>
-        <button class="range-btn" data-range="2022">2022-</button>
-        <button class="range-btn" data-range="2021">2021-</button>
-        <button class="range-btn" data-range="2020">2020-</button>
+        <!-- Range dropdown -->
+        <select class="range-select">
+          <option value="" disabled selected>Range</option>
+          <option value="ytd">YTD</option>
+          <option value="2024">2024-</option>
+          <option value="2023">2023-</option>
+          <option value="2022">2022-</option>
+          <option value="2021">2021-</option>
+          <option value="2020">2020-</option>
+        </select>
         <button class="toggle-diff-btn">Show Diff Pane</button>
         <button class="toggle-vol-btn">Hide Vol Pane</button>
         <button class="toggle-avg-btn">Show Avg</button>
@@ -128,7 +131,7 @@
     const toggleVolBtn = card.querySelector('.toggle-vol-btn');
     const toggleAvgBtn = card.querySelector('.toggle-avg-btn');
     const toggleRawBtn = card.querySelector('.toggle-raw-btn');
-    const rangeBtns = card.querySelectorAll('.range-btn');
+    const rangeSelect = card.querySelector('.range-select');
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
     toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
     toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -266,16 +269,15 @@
 
     // Initialize volatility pane (always present once any ticker plotted)
     const ensureVolPane = () => {
-      if (showVolPane) {
+      if (volPane && !showVolPane) {
+         chart.removePane(volPane);
+         volPane = null;
+         volSeriesMap.clear();
+       }
+       if (showVolPane) {
         if (!volPane) {
           volPane = chart.addPane({ height: 120 });
           volPaneIndex = volPane.paneIndex ? volPane.paneIndex() : (bottomPaneIndex != null ? bottomPaneIndex + 1 : 1);
-        }
-      } else {
-        if (volPane) {
-          chart.removePane(volPane);
-          volPane = null;
-          volSeriesMap.clear();
         }
       }
     };
@@ -630,19 +632,21 @@
         if(avgSeries){ chart.removeSeries(avgSeries); avgSeries=null; }
       }
     });
-    rangeBtns.forEach(btn=>{
-      btn.addEventListener('click',()=>{
+    if(rangeSelect){
+      rangeSelect.addEventListener('change', () => {
+        const val = rangeSelect.value;
+        if(!val) return;
         let startYear;
-        if(btn.dataset.range==='ytd'){
+        if(val === 'ytd'){
           startYear = new Date().getUTCFullYear();
         } else {
-          startYear = parseInt(btn.dataset.range,10);
+          startYear = parseInt(val, 10);
         }
-        const from = Date.UTC(startYear,0,1)/1000;
-        const to = Math.floor(Date.now()/1000);
-        chart.timeScale().setVisibleRange({from,to});
+        const from = Date.UTC(startYear, 0, 1) / 1000;
+        const to = Math.floor(Date.now() / 1000);
+        chart.timeScale().setVisibleRange({ from, to });
       });
-    });
+    }
     card.querySelector('.remove-card-btn').addEventListener('click',()=>{ wrapper.removeChild(card);
      saveCards(); });
 
