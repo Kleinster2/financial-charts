@@ -14,6 +14,24 @@
     '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'
   ];
   let globalCardCounter = 0;
+
+  // --- Company name cache (ticker -> name) ---
+  const nameCache = {};
+  function ensureNames(tickers){
+    const missing = tickers.filter(t=>!(t in nameCache));
+    if(!missing.length) return;
+    fetch(`http://localhost:5000/api/metadata?tickers=${missing.join(',')}`)
+      .then(r=>r.json())
+      .then(map=>{
+        Object.assign(nameCache,map);
+        // refresh titles on existing chips
+        document.querySelectorAll('.chip').forEach(ch=>{
+          const t = ch.dataset.ticker;
+          if(nameCache[t]) ch.title = nameCache[t];
+        });
+      })
+      .catch(()=>{});
+  }
   const VOL_WINDOW = 100; // rolling volatility window (days)
 
   // Save all chart states to localStorage
@@ -284,15 +302,19 @@
 
     // ---------------- Helpers ----------------
     function renderChips(tickers) {
+      ensureNames(tickers);
       chipsContainer.innerHTML = '';
       tickers.forEach((t, idx) => {
         const chip = document.createElement('span');
+         chip.dataset.ticker = t;
         chip.className = 'chip';
         chip.style.position='relative';
         if(hiddenTickers.has(t)){ chip.classList.add('off'); }
         const color = tickerColorMap.get(t) || colors[idx % colors.length];
         chip.style.backgroundColor = color;
         chip.style.color = '#fff';
+         if(nameCache[t]) chip.title = nameCache[t];
+         chip.style.cursor='help';
         const mult = multiplierMap.get(t) || 1;
         const updateLabel = ()=>{ chip.childNodes[0].textContent = `${t} × ${multiplierMap.get(t)?.toFixed(1)||'1.0'}`};
         const labelSpan=document.createElement('span');

@@ -98,6 +98,29 @@ def get_tickers():
         app.logger.error(f"An error occurred in get_tickers: {e}")
         return jsonify([]), 500
 
+@app.route('/api/metadata')
+def get_metadata():
+    """Return a mapping of ticker -> company name for provided tickers"""
+    tickers_str = request.args.get('tickers', '')
+    tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
+    # Empty query → empty JSON
+    if not tickers:
+        return jsonify({})
+
+    try:
+        conn = get_db_connection()
+        placeholders = ','.join(['?'] * len(tickers))
+        query = f"SELECT ticker, name FROM stock_metadata WHERE ticker IN ({placeholders})"
+        df = pd.read_sql(query, conn, params=tickers)
+        conn.close()
+        # Build dict; if name NULL fallback to ticker
+        mapping = {row['ticker']: (row['name'] or row['ticker']) for _, row in df.iterrows()}
+        return jsonify(mapping)
+    except Exception as e:
+        app.logger.error(f"/api/metadata error: {e}")
+        return jsonify({}), 500
+
+
 @app.route('/api/data')
 def get_data():
     """Provides raw historical price data for a list of tickers."""
