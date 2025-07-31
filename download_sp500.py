@@ -43,7 +43,9 @@ ETF_TICKERS = [
 # --- High-profile non-S&P 500 U.S. stocks to track ---
 OTHER_US_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
-    "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST"
+    "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST",
+    # Data Centers
+    "CONE", "QTS", "DBRG",
 ]
 
 # --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
