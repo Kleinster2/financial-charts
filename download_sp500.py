@@ -146,9 +146,15 @@ def update_sp500_data():
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stock_prices_daily';")
         table_exists = cursor.fetchone() is not None
 
+        # Load existing data (if any) from the daily prices table
         existing_df = pd.DataFrame()
         if table_exists:
-            existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn, parse_dates=['Date']).set_index('Date')
+            # Read without date parsing first so that an empty table doesn’t raise a KeyError
+            existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
+            if not existing_df.empty and 'Date' in existing_df.columns:
+                # Only parse dates and set the index when data actually exists and has a 'Date' column
+                existing_df['Date'] = pd.to_datetime(existing_df['Date'])
+                existing_df.set_index('Date', inplace=True)
 
         # 3. Download data in a fault-tolerant way
         print(f"Downloading/updating data for {len(all_tickers)} securities...")
@@ -196,7 +202,7 @@ def update_sp500_data():
 
         # 7. Save to database
         print("Saving data to database...")
-        combined_df.to_sql("stock_prices_daily", conn, if_exists="replace")
+        combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace")
         sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
         print(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
 
