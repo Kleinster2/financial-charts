@@ -46,6 +46,14 @@ FUTURES_TICKERS: list[str] = [
     "HG=F",  # Copper
     "PL=F",  # Platinum
     "PA=F",  # Palladium
+    "TIO=F", # Iron Ore 62%, CFR China (TSI)
+    "AL=F",  # Aluminum
+    "ZI=F",  # Zinc
+    "NI=F",  # Nickel
+    "HRN00", # HRC Steel (Hot-Rolled Coil) Futures
+    "HRC00", # HRC Steel (Hot-Rolled Coil) Futures
+    "HRE00", # HRC Steel (Hot-Rolled Coil) Futures
+    "DBB",   # Invesco DB Base Metals Fund
 
     # US Treasuries
     "ZB=F",  # 30-Year Bond
