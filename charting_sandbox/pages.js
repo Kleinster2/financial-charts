@@ -57,7 +57,7 @@
 
     // create a blank chart card inside this wrapper
     if (typeof createChartCard === 'function') {
-      createChartCard('', false, false, true, wrapper);
+      createChartCard('', false, false, true, false, {}, [], null, '', wrapper);
     } else {
       console.error('pages.js: createChartCard is not available yet.');
     }

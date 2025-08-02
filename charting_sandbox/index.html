@@ -20,6 +20,11 @@
     .tab-bar{display:inline-flex;align-items:center;gap:4px;margin-left:12px;}
     .tab-bar .tab{padding:4px 8px;border:1px solid #666;border-radius:4px;background:#eee;cursor:pointer;font-size:0.9rem;}
     .tab-bar .tab.active{background:#666;color:#fff;}
+      /* sticky chart navigation */
+    #chart-nav{position:sticky;top:0;z-index:200;background:#fff;padding:4px 8px;border-bottom:1px solid #ddd;margin-bottom:8px;}
+    #chart-nav a{margin-right:8px;text-decoration:none;color:#007bff;font-size:0.95rem;}
+    #chart-nav a:hover{text-decoration:underline;}
+    #chart-nav a.active{font-weight:bold;}
   </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.8/dist/lightweight-charts.standalone.development.js"></script>
@@ -27,6 +32,7 @@
 <body>
   <h2>Lightweight Charts Sandbox</h2>
   <div id="top-controls"><button id="new-page-btn">New Page</button><div id="tab-bar" class="tab-bar"></div></div>
+  <nav id="chart-nav"></nav>
   <div id="pages-container">
     <div class="page" data-page="1">
       <div id="charts-wrapper"></div>

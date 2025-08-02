@@ -48,6 +48,12 @@
       title: card._title || ''
     }));
     localStorage.setItem('sandbox_cards', JSON.stringify(cards));
+  // Sync to backend for stronger persistence
+  fetch('http://localhost:5000/api/workspace', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(cards)
+  }).catch(() => {});
   }
 
   function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialUseRaw = false, initialMultipliers = {}, initialHidden = [], initialRange = null, initialTitle = '', wrapperEl = null) {
@@ -56,6 +62,10 @@
 
     // ---------------- Build DOM ----------------
     const card = document.createElement('div');
+  // Assign a unique id so navigation links can target this card
+  globalCardCounter += 1;
+  const cardId = `chart-${globalCardCounter}`;
+  card.id = cardId;
     card.className = 'chart-card';
 
     card.innerHTML = `
@@ -87,14 +97,28 @@
       <div class="chart-box"></div>
     `;
 
-    wrapper.appendChild(card);
-
     // ---------------- State ----------------
     let showDiff = initialShowDiff;
     let showAvg = initialShowAvg;
     let showVolPane = initialShowVol;
     let useRaw = initialUseRaw;
     const selectedTickers = new Set(initialTickers ? initialTickers.split(/[,\s]+/).filter(Boolean).map(t=>t.toUpperCase()) : []);
+
+    // ---------- Navigation link ----------
+    const nav = document.getElementById('chart-nav');
+    let navLabel = initialTitle || (selectedTickers.size ? Array.from(selectedTickers)[0] : `Card ${globalCardCounter}`);
+    let navLink = null;
+    if(nav){
+      navLink = document.createElement('a');
+      navLink.href = `#${cardId}`;
+      navLink.textContent = navLabel;
+      nav.appendChild(navLink);
+    }
+
+    // Append the card to DOM
+    wrapper.appendChild(card);
+
+    // ---------------- More State ----------------
     const multiplierMap = new Map(); // ticker -> beta multiplier (default 1)
     // Apply initial multipliers if provided
     if(initialMultipliers && typeof initialMultipliers === 'object'){
@@ -143,7 +167,12 @@
       titleInput.value = initialTitle || '';
       const updateTitle=()=>{ titleDisplay.textContent = titleInput.value; };
       updateTitle();
-      titleInput.addEventListener('input',()=>{ card._title = titleInput.value; updateTitle(); saveCards(); });
+      titleInput.addEventListener('input',()=>{ 
+        card._title = titleInput.value; 
+        updateTitle(); 
+        if(navLink){ navLink.textContent = titleInput.value || navLabel; }
+        saveCards(); 
+      });
     }
     const toggleDiffBtn = card.querySelector('.toggle-diff-btn');
     const toggleVolBtn = card.querySelector('.toggle-vol-btn');
@@ -153,7 +182,16 @@
     toggleAvgBtn.textContent = showAvg ? 'Hide Avg':'Show Avg';
     toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
     toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
+    const removeBtn = card.querySelector('.remove-card-btn');
     const chipsContainer = card.querySelector('.ticker-chips');
+
+    if(removeBtn){
+      removeBtn.addEventListener('click', ()=>{
+        if(navLink && navLink.parentElement){ navLink.parentElement.removeChild(navLink); }
+        card.remove();
+        saveCards();
+      });
+    }
     const chartBox = card.querySelector('.chart-box');
 
     // Create chart instance
@@ -716,7 +754,18 @@
       if(stored.length){
         stored.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.useRaw||false, c.multipliers, c.hidden, c.range, c.title||''));
       }else{
-        createChartCard('SPY');
+        // attempt to restore from backend workspace file
+        fetch('http://localhost:5000/api/workspace')
+          .then(r=>r.json())
+          .then(ws=>{
+            if(Array.isArray(ws) && ws.length){
+              ws.forEach(c=>createChartCard(c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, c.useRaw||false, c.multipliers, c.hidden, c.range, c.title||''));
+              localStorage.setItem('sandbox_cards', JSON.stringify(ws));
+            } else {
+              createChartCard('SPY');
+            }
+          })
+          .catch(()=>createChartCard('SPY'));
       }
     }
   });
