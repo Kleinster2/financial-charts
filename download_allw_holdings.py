@@ -211,15 +211,43 @@ def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connecti
 # -----------------------------------------------------------------------------
 
 def main() -> None:
+    # Usage:
+    #   python download_allw_holdings.py             -> fetch today from web
+    #   python download_allw_holdings.py YYYY-MM-DD -> fetch given date from web (for re-runs)
+    #   python download_allw_holdings.py YYYY-MM-DD path/to/file.xlsx -> ingest local file
+    #
+    # A bare 2-arg call where the 2nd arg is a *.xlsx file will treat that as the local file
+
     as_of = _dt.date.today().strftime("%Y-%m-%d")
+    local_file: str | None = None
+
     if len(sys.argv) == 2:
-        as_of = sys.argv[1]  # allow override date YYYY-MM-DD
+        # Could be either a snapshot date or a file path
+        candidate = sys.argv[1]
+        if candidate.lower().endswith(".xlsx"):
+            local_file = candidate
+        else:
+            as_of = candidate
+    elif len(sys.argv) == 3:
+        as_of = sys.argv[1]
+        local_file = sys.argv[2]
 
-    print(f"⏬ Downloading ALLW holdings for {as_of}…")
+    if local_file:
+        print(f"📂 Loading local XLSX: {local_file}")
+        try:
+            xlsx_bytes = Path(local_file).read_bytes()
+        except Exception as exc:
+            print(f"ERROR: could not read file – {exc}")
+            sys.exit(1)
+    else:
+        print("📥 Downloading XLSX file from State Street...")
+        try:
+            xlsx_bytes = _fetch_holdings_xlsx(HOLDINGS_URL)
+        except Exception as exc:
+            print(f"ERROR: failed to download holdings – {exc}")
+            sys.exit(1)
+
     try:
-        print("📥 Downloading XLSX file...")
-        xlsx_bytes = _fetch_holdings_xlsx(HOLDINGS_URL)
-
         print("🔄 Parsing holdings file...")
         holdings_df = _parse_holdings(xlsx_bytes)
 
