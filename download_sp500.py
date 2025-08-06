@@ -12,6 +12,7 @@ ADR_TICKERS = [
     "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
     "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
+    "CRWV", "FIG",
 ]
 
 DB_PATH = "sp500_data.db"
@@ -29,7 +30,7 @@ ETF_TICKERS = [
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
     # Fixed income & alternative asset ETFs
-    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "CRWV", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
     # Multi-asset / risk parity ETFs
     "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
     # Commodities, currencies & volatility
