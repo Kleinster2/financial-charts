@@ -60,6 +60,7 @@ FUTURES_TICKERS: list[str] = [
     "ZN=F",  # 10-Year Note
     "ZF=F",  # 5-Year Note
     "ZT=F",  # 2-Year Note
+    "FGBL=F",  # Euro-Bund (Germany 10Y)
 
     # Agriculture
     "ZC=F",  # Corn

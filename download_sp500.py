@@ -17,17 +17,17 @@ ADR_TICKERS = [
 DB_PATH = "sp500_data.db"
 ETF_TICKERS = [
     # Core U.S. market benchmarks
-    "SPY", "RSP", "VTI", "QQQ", "DIA", "IWM",
+    "SPY", "RSP", "SPLG", "VTI", "QQQ", "DIA", "IWM",  # added SPLG for ALLW
     # U.S. style / factor ETFs
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
     # Sector ETFs (GICS)
     "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
     # Broad international equity baskets
-    "EFA", "EEM", "IEFA", "VWO",
+    "EFA", "EEM", "IEFA", "VWO", "SPEM",  # added SPEM for ALLW
     # Single-country developed market ETFs
     "EWZ", "EWW", "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM", "EDEN", "EFNL", "EIRL", "EIS", "ENZL", "ENOR",
     # Single-country emerging market ETFs
-    "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI",
+    "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
     # Multi-asset / risk parity ETFs
