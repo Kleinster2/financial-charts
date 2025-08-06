@@ -60,47 +60,114 @@ def _fetch_holdings_xlsx(url: str) -> bytes:
 
 
 def _parse_holdings(xlsx_data: bytes) -> pd.DataFrame:
-    """Parse XLSX binary into a DataFrame with canonical columns."""
+    """Parse XLSX binary into a DataFrame with canonical columns.
 
-    # State Street places the holdings on the first sheet starting at row 5.
-    # But _pandas_ will usually auto-detect the header row, so just read.
-    df = pd.read_excel(io.BytesIO(xlsx_data), engine="openpyxl")
+    State Street's file sometimes includes several preamble rows before the real
+    header.  We therefore scan dynamically for the row that contains the word
+    *Ticker* and use that as the header row.
+    """
 
-    # Expect columns like: "Ticker", "Name", "Weight (%)", "Shares", "Market Value ($)".
-    # Standardise column names.
-    rename_map = {
-        col: col.strip().lower().replace(" (% )", "").replace(" ($)", "")
-        for col in df.columns
+    raw_df = pd.read_excel(
+        io.BytesIO(xlsx_data), engine="openpyxl", header=None, dtype=str
+    )
+
+    # Locate header row – the first row whose first 5 cells contain 'Ticker'
+    header_idx = None
+    for i in range(min(20, len(raw_df))):  # scan top rows for header
+        row_vals = (
+            raw_df.iloc[i].astype(str).str.strip().str.lower().tolist()
+        )
+        contains_ticker = any("ticker" in v or "identifier" in v for v in row_vals)
+        contains_other = any(
+            any(key in v for key in ("weight", "shares", "market value"))
+            for v in row_vals
+        )
+        if contains_ticker and contains_other:
+            header_idx = i
+            break
+
+    if header_idx is None:
+        raise ValueError("Could not locate header row containing 'Ticker' in XLSX")
+
+    df = pd.read_excel(
+        io.BytesIO(xlsx_data),
+        engine="openpyxl",
+        header=header_idx,
+    )
+
+    # Standardise column names
+    def _clean(col: str) -> str:
+        col = col.strip().lower()
+        col = col.replace("(%)", "").replace("($)", "")
+        col = col.replace("( %)", "").replace("( %) ", "")
+        return col
+
+    df.columns = [_clean(c) for c in df.columns]
+
+    # DEBUG: print columns list once
+    print("Columns detected in holdings file:", list(df.columns)[:20])
+
+    expected_map = {
+        "ticker": "ticker",
+        "identifier": "ticker",  # fallback col label sometimes used
+        "name": "name",
+        "security name": "name",
+        "weight": "weight",
+        "weight %": "weight",
+        "shares": "shares",
+        "market value": "market_value",
+        "market value ": "market_value",
     }
-    df.rename(columns=rename_map, inplace=True)
 
-    # Keep only required cols; some ETFs report extra internal columns.
-    expected = {
+    # Build cleaned dict selecting the first matching column for each canonical field
+    # Map canonical fields to list of acceptable substrings that may appear in column headers
+    patterns = {
+        "ticker": ["ticker", "identifier"],
+        "name": ["name", "security name", "company name"],
+        "weight": ["weight"],
+        "shares": ["shares"],
+        "market_value": ["market value", "marketvalue", "market value usd", "market value $"],
+    }
+
+    cleaned = {}
+    for canonical, pats in patterns.items():
+        match_cols = [c for c in df.columns if any(p in c for p in pats)]
+        if not match_cols:
+            raise ValueError(f"Expected a column containing one of {pats} but none found in XLSX")
+        cleaned[canonical] = df[match_cols[0]]
+    for key, canonical in {
         "ticker": "ticker",
         "name": "name",
         "weight": "weight",
         "shares": "shares",
         "market value": "market_value",
-    }
-    cleaned = {}
-    for col_lower, canonical in expected.items():
-        # find first col that startswith expected string
-        match = next((c for c in df.columns if c.lower().startswith(col_lower)), None)
-        if match is None:
-            raise ValueError(f"Expected column starting with '{col_lower}' not found in XLSX")
-        cleaned[canonical] = df[match]
+    }.items():
+        match_cols = [c for c in df.columns if c.startswith(key)]
+        if not match_cols:
+            # Try alternate labels
+            alt_matches = [c for k, c in expected_map.items() if k.startswith(key)]
+            match_cols = [c for c in df.columns if c in alt_matches]
+        if not match_cols:
+            raise ValueError(f"Expected column starting with '{key}' not found in XLSX")
+        cleaned[canonical] = df[match_cols[0]]
 
     out = pd.DataFrame(cleaned)
 
     # Convert weights to decimal fractions (0.0234 instead of 2.34)
-    if out["weight"].dtype == object:
-        out["weight"] = (
-            out["weight"].astype(str)
-            .str.replace("%", "", regex=False)
-            .str.strip()
-            .astype(float)
-            / 100.0
-        )
+    out["weight"] = (
+        out["weight"].astype(str)
+        .str.replace("%", "", regex=False)
+        .str.strip()
+        .astype(float)
+        .div(100.0)
+    )
+
+    # Remove rows without a valid ticker (e.g., summary lines like 'Total')
+    # Drop rows where ticker is NaN or empty after stripping
+    out = out[out["ticker"].notna()]
+    out["ticker"] = out["ticker"].astype(str).str.strip()
+    out = out[out["ticker"].str.len() > 0]
+    out = out[~out["ticker"].str.lower().isin(["total", "cash", "nan"])]
 
     return out
 
@@ -152,23 +219,21 @@ def main() -> None:
     try:
         print("📥 Downloading XLSX file...")
         xlsx_bytes = _fetch_holdings_xlsx(HOLDINGS_URL)
-        with open("temp_holdings.xlsx", "wb") as f:
-            f.write(xlsx_bytes)
-        print("✅ Saved holdings to temp_holdings.xlsx for inspection.")
-        print("Exiting now. Please check the file and then remove the debug code.")
-        sys.exit(0)
+
+        print("🔄 Parsing holdings file...")
+        holdings_df = _parse_holdings(xlsx_bytes)
+
+        with sqlite3.connect(DB_PATH) as conn:
+            _store_holdings(holdings_df, as_of, conn)
+            rows = conn.execute(
+                f"SELECT COUNT(*) FROM {TABLE_NAME} WHERE snapshot_date=? AND etf=?",
+                (as_of, ETF_SYMBOL),
+            ).fetchone()[0]
+
+        print(f"✅ Stored {rows} holdings rows for {ETF_SYMBOL} on {as_of}.")
     except Exception as exc:
-        print(f"ERROR: failed to download holdings – {exc}")
+        print(f"ERROR: failed to process holdings – {exc}")
         sys.exit(1)
-
-    with sqlite3.connect(DB_PATH) as conn:
-        _store_holdings(holdings_df, as_of, conn)
-        rows = conn.execute(
-            f"SELECT COUNT(*) FROM {TABLE_NAME} WHERE snapshot_date=? AND etf=?",
-            (as_of, ETF_SYMBOL),
-        ).fetchone()[0]
-
-    print(f"✅ Stored {rows} holdings rows for {ETF_SYMBOL} on {as_of}.")
 
 
 if __name__ == "__main__":

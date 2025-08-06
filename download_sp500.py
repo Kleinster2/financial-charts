@@ -12,7 +12,6 @@ ADR_TICKERS = [
     "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
     "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
-    "CRWV", "FIG",
 ]
 
 DB_PATH = "sp500_data.db"
@@ -44,7 +43,7 @@ ETF_TICKERS = [
 # --- High-profile non-S&P 500 U.S. stocks to track ---
 OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
-    "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST",
+    "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST", "CRWV", "FIG",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS",
 ]
@@ -71,7 +70,7 @@ ADDITIONAL_FX_TICKERS = [
     # Non-USD major crosses
     "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
     # Currency indices
-    "^DXY", "^BXY", "^EURUSD"
+    "^DXY", "^BXY", "^EURUSD", "^EURJPY"
 ]
 
 # --- Top-50 crypto tickers (approximate) ---
