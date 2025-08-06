@@ -150,10 +150,15 @@ def main() -> None:
 
     print(f"⏬ Downloading ALLW holdings for {as_of}…")
     try:
+        print("📥 Downloading XLSX file...")
         xlsx_bytes = _fetch_holdings_xlsx(HOLDINGS_URL)
-        holdings_df = _parse_holdings(xlsx_bytes)
+        with open("temp_holdings.xlsx", "wb") as f:
+            f.write(xlsx_bytes)
+        print("✅ Saved holdings to temp_holdings.xlsx for inspection.")
+        print("Exiting now. Please check the file and then remove the debug code.")
+        sys.exit(0)
     except Exception as exc:
-        print(f"ERROR: failed to download or parse holdings – {exc}")
+        print(f"ERROR: failed to download holdings – {exc}")
         sys.exit(1)
 
     with sqlite3.connect(DB_PATH) as conn:
