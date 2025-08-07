@@ -59,17 +59,48 @@ def _fetch_holdings_xlsx(url: str) -> bytes:
     return resp.content
 
 
-def _parse_holdings(xlsx_data: bytes) -> pd.DataFrame:
+def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
     """Parse XLSX binary into a DataFrame with canonical columns.
 
     State Street's file sometimes includes several preamble rows before the real
     header.  We therefore scan dynamically for the row that contains the word
     *Ticker* and use that as the header row.
+
+    Returns:
+        Tuple of (holdings_dataframe, as_of_date_string)
     """
 
     raw_df = pd.read_excel(
         io.BytesIO(xlsx_data), engine="openpyxl", header=None, dtype=str
     )
+
+    # Extract the "As of" date from the file
+    as_of_date = None
+    for i in range(min(20, len(raw_df))):
+        for j in range(min(5, len(raw_df.columns))):
+            val = raw_df.iloc[i, j]
+            if pd.notna(val) and "as of" in str(val).lower():
+                # Try to extract date from format like "As of 05-Aug-2025"
+                import re
+                date_match = re.search(r'(\d{1,2})-(\w{3})-(\d{4})', str(val))
+                if date_match:
+                    day, month_str, year = date_match.groups()
+                    # Convert month abbreviation to number
+                    month_map = {
+                        'jan': '01', 'feb': '02', 'mar': '03', 'apr': '04',
+                        'may': '05', 'jun': '06', 'jul': '07', 'aug': '08',
+                        'sep': '09', 'oct': '10', 'nov': '11', 'dec': '12'
+                    }
+                    month = month_map.get(month_str.lower(), '01')
+                    as_of_date = f"{year}-{month}-{day.zfill(2)}"
+                    break
+        if as_of_date:
+            break
+
+    if not as_of_date:
+        # Fallback to today if we can't find the date
+        as_of_date = _dt.date.today().strftime("%Y-%m-%d")
+        print("⚠️ Could not extract 'As of' date from file, using today's date")
 
     # Locate header row – the first row whose first 5 cells contain 'Ticker'
     header_idx = None
@@ -169,11 +200,25 @@ def _parse_holdings(xlsx_data: bytes) -> pd.DataFrame:
     out = out[out["ticker"].str.len() > 0]
     out = out[~out["ticker"].str.lower().isin(["total", "cash", "nan"])]
 
-    return out
+    return out, as_of_date
 
 
-def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connection) -> None:
-    """Insert/replace the day's holdings into SQLite."""
+def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connection) -> bool:
+    """Insert/replace the day's holdings into SQLite.
+    
+    Returns:
+        True if data was stored, False if snapshot already exists
+    """
+    # Check if this snapshot already exists
+    existing = conn.execute(
+        f"SELECT COUNT(*) FROM {TABLE_NAME} WHERE etf = ? AND snapshot_date = ?",
+        (ETF_SYMBOL, snapshot_date)
+    ).fetchone()[0]
+    
+    if existing > 0:
+        print(f"⏭️ Snapshot for {snapshot_date} already exists, skipping")
+        return False
+    
     df = df.copy()
     df.insert(0, "snapshot_date", snapshot_date)
     df.insert(1, "etf", ETF_SYMBOL)
@@ -249,16 +294,20 @@ def main() -> None:
 
     try:
         print("🔄 Parsing holdings file...")
-        holdings_df = _parse_holdings(xlsx_bytes)
+        holdings_df, extracted_date = _parse_holdings(xlsx_bytes)
+        
+        # Use the extracted date from the file if not manually specified via CLI
+        if local_file and len(sys.argv) >= 2 and not sys.argv[1].lower().endswith('.xlsx'):
+            # User specified a date explicitly, use that
+            actual_date = as_of
+        else:
+            # Use the date extracted from the file
+            actual_date = extracted_date
+            if actual_date != as_of:
+                print(f"📅 Using 'As of' date from file: {actual_date}")
 
         with sqlite3.connect(DB_PATH) as conn:
-            _store_holdings(holdings_df, as_of, conn)
-            rows = conn.execute(
-                f"SELECT COUNT(*) FROM {TABLE_NAME} WHERE snapshot_date=? AND etf=?",
-                (as_of, ETF_SYMBOL),
-            ).fetchone()[0]
-
-        print(f"✅ Stored {rows} holdings rows for {ETF_SYMBOL} on {as_of}.")
+            _store_holdings(holdings_df, actual_date, conn)
     except Exception as exc:
         print(f"ERROR: failed to process holdings – {exc}")
         sys.exit(1)
