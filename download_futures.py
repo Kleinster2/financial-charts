@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import sqlite3
 from datetime import datetime
+import sys
 
 import pandas as pd
 import yfinance as yf
@@ -82,14 +83,18 @@ TABLE_NAME = "futures_prices_daily"  # New destination table
 # Main update routine
 # -----------------------------------------------------------------------------
 
-def update_futures_data() -> None:
+def update_futures_data(verbose: bool = True) -> None:
     """Download/refresh daily settlement prices for the tickers in
     `FUTURES_TICKERS` and persist them to the SQLite database.
     Existing data (if any) is merged with new downloads so that previously
     collected series are preserved.
     """
 
-    print("Connecting to database…")
+    def vprint(*args, **kwargs):
+        if verbose:
+            print(*args, **kwargs)
+
+    vprint("Connecting to database…")
     conn = sqlite3.connect(DB_PATH)
     try:
         cursor = conn.cursor()
@@ -101,14 +106,14 @@ def update_futures_data() -> None:
 
         existing_df = pd.DataFrame()
         if table_exists:
-            print("Reading existing futures table…")
+            vprint("Reading existing futures table…")
             existing_df = (
                 pd.read_sql(f"SELECT * FROM {TABLE_NAME}", conn, parse_dates=["Date"])
                 .set_index("Date")
                 .sort_index()
             )
 
-        print(f"Downloading data for {len(FUTURES_TICKERS)} futures contracts…")
+        vprint(f"Downloading data for {len(FUTURES_TICKERS)} futures contracts…")
         # Futures are quoted as *prices* (no dividends) so auto_adjust=False is fine.
         raw = yf.download(
             FUTURES_TICKERS,
@@ -147,15 +152,15 @@ def update_futures_data() -> None:
         else:
             combined_df = new_df
 
-        print("Writing combined dataset to database…")
+        vprint("Writing combined dataset to database…")
         combined_df.to_sql(TABLE_NAME, conn, if_exists="replace")
-        print(
+        vprint(
             f"Success: {TABLE_NAME} now contains "
             f"{combined_df.shape[1]} contracts × {combined_df.shape[0]} dates."
         )
     finally:
         conn.close()
-        print("Database connection closed.")
+        vprint("Database connection closed.")
 
 
 # -----------------------------------------------------------------------------
@@ -163,4 +168,10 @@ def update_futures_data() -> None:
 # -----------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    update_futures_data()
+    argv = sys.argv[1:]
+    verbose = True
+    if any(a in ("--quiet", "-q") for a in argv):
+        verbose = False
+    if any(a in ("--verbose", "-v") for a in argv):
+        verbose = True
+    update_futures_data(verbose=verbose)

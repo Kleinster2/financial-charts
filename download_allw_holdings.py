@@ -59,7 +59,7 @@ def _fetch_holdings_xlsx(url: str) -> bytes:
     return resp.content
 
 
-def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
+def _parse_holdings(xlsx_data: bytes, verbose: bool = False) -> tuple[pd.DataFrame, str]:
     """Parse XLSX binary into a DataFrame with canonical columns.
 
     State Street's file sometimes includes several preamble rows before the real
@@ -98,9 +98,10 @@ def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
             break
 
     if not as_of_date:
-        # Fallback to today if we can't find the date
-        as_of_date = _dt.date.today().strftime("%Y-%m-%d")
-        print("⚠️ Could not extract 'As of' date from file, using today's date")
+        msg = "Could not extract 'As of' date from file; aborting."
+        if verbose:
+            print(f"❌ {msg}")
+        raise ValueError(msg)
 
     # Locate header row – the first row whose first 5 cells contain 'Ticker'
     header_idx = None
@@ -119,6 +120,8 @@ def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
 
     if header_idx is None:
         raise ValueError("Could not locate header row containing 'Ticker' in XLSX")
+    if verbose:
+        print(f"Header row detected at index {header_idx}")
 
     df = pd.read_excel(
         io.BytesIO(xlsx_data),
@@ -134,9 +137,8 @@ def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
         return col
 
     df.columns = [_clean(c) for c in df.columns]
-
-    # DEBUG: print columns list once
-    print("Columns detected in holdings file:", list(df.columns)[:20])
+    if verbose:
+        print("Columns detected in holdings file:", list(df.columns)[:20])
 
     expected_map = {
         "ticker": "ticker",
@@ -183,6 +185,7 @@ def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
         cleaned[canonical] = df[match_cols[0]]
 
     out = pd.DataFrame(cleaned)
+    before_rows = len(out)
 
     # Convert weights to decimal fractions (0.0234 instead of 2.34)
     out["weight"] = (
@@ -200,10 +203,14 @@ def _parse_holdings(xlsx_data: bytes) -> tuple[pd.DataFrame, str]:
     out = out[out["ticker"].str.len() > 0]
     out = out[~out["ticker"].str.lower().isin(["total", "cash", "nan"])]
 
+    if verbose:
+        after_rows = len(out)
+        print(f"Rows parsed: {before_rows}; after filtering invalid rows: {after_rows}; removed: {before_rows - after_rows}")
+
     return out, as_of_date
 
 
-def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connection) -> bool:
+def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connection, verbose: bool = False) -> bool:
     """Insert/replace the day's holdings into SQLite.
     
     Returns:
@@ -216,9 +223,11 @@ def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connecti
     ).fetchone()[0]
     
     if existing > 0:
-        print(f"⏭️ Snapshot for {snapshot_date} already exists, skipping")
+        if verbose:
+            print(f"⏭️ Snapshot for {snapshot_date} already exists, skipping")
         return False
     
+    row_count = len(df)
     df = df.copy()
     df.insert(0, "snapshot_date", snapshot_date)
     df.insert(1, "etf", ETF_SYMBOL)
@@ -249,6 +258,9 @@ def _store_holdings(df: pd.DataFrame, snapshot_date: str, conn: sqlite3.Connecti
             """
         )
         conn.execute("DROP TABLE _tmp_holdings;")
+    if verbose:
+        print(f"✅ Inserted {row_count} holdings for {snapshot_date} into {TABLE_NAME}")
+    return True
 
 
 # -----------------------------------------------------------------------------
@@ -266,26 +278,44 @@ def main() -> None:
     as_of = _dt.date.today().strftime("%Y-%m-%d")
     local_file: str | None = None
 
-    if len(sys.argv) == 2:
-        # Could be either a snapshot date or a file path
-        candidate = sys.argv[1]
+    # Verbosity flags (verbose by default)
+    verbose = True
+    argv = sys.argv[1:]
+    if any(a in ("--quiet", "-q") for a in argv):
+        verbose = False
+    if any(a in ("--verbose", "-v") for a in argv):
+        verbose = True
+
+    # Helper for conditional printing
+    def vprint(*args, **kwargs):
+        if verbose:
+            print(*args, **kwargs)
+
+    # Parse positionals (date and/or local file), ignoring flags
+    positionals = [a for a in argv if not a.startswith("-")]
+    explicit_date: str | None = None
+    if len(positionals) == 1:
+        candidate = positionals[0]
         if candidate.lower().endswith(".xlsx"):
             local_file = candidate
         else:
-            as_of = candidate
-    elif len(sys.argv) == 3:
-        as_of = sys.argv[1]
-        local_file = sys.argv[2]
+            explicit_date = candidate
+    elif len(positionals) >= 2:
+        explicit_date = positionals[0]
+        local_file = positionals[1]
+
+    if explicit_date:
+        as_of = explicit_date
 
     if local_file:
-        print(f"📂 Loading local XLSX: {local_file}")
+        vprint(f"📂 Loading local XLSX: {local_file}")
         try:
             xlsx_bytes = Path(local_file).read_bytes()
         except Exception as exc:
             print(f"ERROR: could not read file – {exc}")
             sys.exit(1)
     else:
-        print("📥 Downloading XLSX file from State Street...")
+        vprint("📥 Downloading XLSX file from State Street...")
         try:
             xlsx_bytes = _fetch_holdings_xlsx(HOLDINGS_URL)
         except Exception as exc:
@@ -293,21 +323,16 @@ def main() -> None:
             sys.exit(1)
 
     try:
-        print("🔄 Parsing holdings file...")
-        holdings_df, extracted_date = _parse_holdings(xlsx_bytes)
+        vprint("🔄 Parsing holdings file...")
+        holdings_df, extracted_date = _parse_holdings(xlsx_bytes, verbose=verbose)
         
-        # Use the extracted date from the file if not manually specified via CLI
-        if local_file and len(sys.argv) >= 2 and not sys.argv[1].lower().endswith('.xlsx'):
-            # User specified a date explicitly, use that
-            actual_date = as_of
-        else:
-            # Use the date extracted from the file
-            actual_date = extracted_date
-            if actual_date != as_of:
-                print(f"📅 Using 'As of' date from file: {actual_date}")
+        # Determine the snapshot date: prefer explicit date, else use the file's "As of"
+        actual_date = explicit_date if explicit_date else extracted_date
+        if not explicit_date and actual_date != as_of:
+            vprint(f"📅 Using 'As of' date from file: {actual_date}")
 
         with sqlite3.connect(DB_PATH) as conn:
-            _store_holdings(holdings_df, actual_date, conn)
+            _store_holdings(holdings_df, actual_date, conn, verbose=verbose)
     except Exception as exc:
         print(f"ERROR: failed to process holdings – {exc}")
         sys.exit(1)

@@ -2,6 +2,7 @@ import yfinance as yf
 import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
+import sys
 
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
@@ -125,16 +126,20 @@ def get_ibovespa_tickers():
 
 
 # --- Main function to orchestrate the download ---
-def update_sp500_data():
+def update_sp500_data(verbose: bool = True):
     # 1. Get S&P 500 list and combine with ETFs
-    print("Fetching S&P 500 company list...")
+    def vprint(*args, **kwargs):
+        if verbose:
+            print(*args, **kwargs)
+
+    vprint("Fetching S&P 500 company list...")
     try:
         sp500 = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")[0]
         sp500['Symbol'] = sp500['Symbol'].str.replace('.', '-', regex=False)
         sp500.rename(columns={'Symbol': 'ticker', 'Security': 'name', 'GICS Sector': 'sector'}, inplace=True)
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
-        print(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
+        vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
         all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS + OTHER_HIGH_PROFILE_STOCKS + FX_TICKERS + ADDITIONAL_FX_TICKERS + CRYPTO_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
@@ -157,7 +162,7 @@ def update_sp500_data():
                 existing_df.set_index('Date', inplace=True)
 
         # 3. Download data in a fault-tolerant way
-        print(f"Downloading/updating data for {len(all_tickers)} securities...")
+        vprint(f"Downloading/updating data for {len(all_tickers)} securities...")
         # Use yfinance's grouping to handle failed downloads gracefully
         data = yf.download(all_tickers, start=START_DATE, end=END_DATE, auto_adjust=True, group_by='ticker')
 
@@ -201,13 +206,19 @@ def update_sp500_data():
         combined_df = combined_df.reindex(columns=all_tickers)
 
         # 7. Save to database
-        print("Saving data to database...")
+        vprint("Saving data to database...")
         combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace")
         sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
-        print(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
+        vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
 
     finally:
         conn.close()
 
 if __name__ == "__main__":
-    update_sp500_data()
+    argv = sys.argv[1:]
+    verbose = True
+    if any(a in ("--quiet", "-q") for a in argv):
+        verbose = False
+    if any(a in ("--verbose", "-v") for a in argv):
+        verbose = True
+    update_sp500_data(verbose=verbose)
