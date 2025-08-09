@@ -77,6 +77,7 @@ FUTURES_TICKERS: list[str] = [
 
 DB_PATH = "sp500_data.db"  # Re-use the existing database in the project root
 TABLE_NAME = "futures_prices_daily"  # New destination table
+VOL_TABLE_NAME = "futures_volumes_daily"
 
 
 # -----------------------------------------------------------------------------
@@ -104,11 +105,26 @@ def update_futures_data(verbose: bool = True) -> None:
         )
         table_exists = cursor.fetchone() is not None
 
+        # Check if the volumes table already exists
+        cursor.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name=?;",
+            (VOL_TABLE_NAME,),
+        )
+        vol_table_exists = cursor.fetchone() is not None
+
         existing_df = pd.DataFrame()
+        existing_vol_df = pd.DataFrame()
         if table_exists:
             vprint("Reading existing futures table…")
             existing_df = (
                 pd.read_sql(f"SELECT * FROM {TABLE_NAME}", conn, parse_dates=["Date"])
+                .set_index("Date")
+                .sort_index()
+            )
+        if vol_table_exists:
+            vprint("Reading existing futures volume table…")
+            existing_vol_df = (
+                pd.read_sql(f"SELECT * FROM {VOL_TABLE_NAME}", conn, parse_dates=["Date"])
                 .set_index("Date")
                 .sort_index()
             )
@@ -128,10 +144,15 @@ def update_futures_data(verbose: bool = True) -> None:
             return
 
         processed: list[pd.DataFrame] = []
+        processed_vol: list[pd.DataFrame] = []
         for ticker in FUTURES_TICKERS:
             if ticker in raw and not raw[ticker].empty:
                 close = raw[ticker][["Close"]].rename(columns={"Close": ticker})
                 processed.append(close)
+                # Volume may be present for many futures; collect where available
+                if "Volume" in raw[ticker].columns:
+                    vol = raw[ticker][["Volume"]].rename(columns={"Volume": ticker})
+                    processed_vol.append(vol)
             else:
                 print(f"Warning: {ticker} returned no data and will be skipped.")
 
@@ -143,6 +164,13 @@ def update_futures_data(verbose: bool = True) -> None:
         new_df.index = pd.to_datetime(new_df.index)
         new_df.sort_index(inplace=True)
 
+        # Assemble volume dataframe if any were collected
+        new_vol_df = pd.DataFrame()
+        if processed_vol:
+            new_vol_df = pd.concat(processed_vol, axis=1)
+            new_vol_df.index = pd.to_datetime(new_vol_df.index)
+            new_vol_df.sort_index(inplace=True)
+
         # Merge with existing data, giving precedence to freshly downloaded values
         if not existing_df.empty:
             all_cols = sorted(set(existing_df.columns) | set(new_df.columns))
@@ -152,12 +180,35 @@ def update_futures_data(verbose: bool = True) -> None:
         else:
             combined_df = new_df
 
+        # Merge volume with existing, if any
+        combined_vol_df = pd.DataFrame()
+        if not new_vol_df.empty or not existing_vol_df.empty:
+            if new_vol_df.empty:
+                combined_vol_df = existing_vol_df.copy()
+            elif existing_vol_df.empty:
+                combined_vol_df = new_vol_df.copy()
+            else:
+                vol_cols = sorted(set(existing_vol_df.columns) | set(new_vol_df.columns))
+                existing_vol_df = existing_vol_df.reindex(columns=vol_cols)
+                new_vol_df = new_vol_df.reindex(columns=vol_cols)
+                combined_vol_df = new_vol_df.combine_first(existing_vol_df)
+
         vprint("Writing combined dataset to database…")
-        combined_df.to_sql(TABLE_NAME, conn, if_exists="replace")
+        # Ensure index label is 'Date' for consistency
+        combined_df.index.name = combined_df.index.name or "Date"
+        combined_df.to_sql(TABLE_NAME, conn, if_exists="replace", index=True, index_label=combined_df.index.name)
+        if not combined_vol_df.empty:
+            combined_vol_df.index.name = combined_vol_df.index.name or "Date"
+            combined_vol_df.to_sql(VOL_TABLE_NAME, conn, if_exists="replace", index=True, index_label=combined_vol_df.index.name)
         vprint(
             f"Success: {TABLE_NAME} now contains "
             f"{combined_df.shape[1]} contracts × {combined_df.shape[0]} dates."
         )
+        if not combined_vol_df.empty:
+            vprint(
+                f"Success: {VOL_TABLE_NAME} now contains "
+                f"{combined_vol_df.shape[1]} contracts × {combined_vol_df.shape[0]} dates."
+            )
     finally:
         conn.close()
         vprint("Database connection closed.")

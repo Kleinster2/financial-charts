@@ -202,24 +202,40 @@ def get_volume():
 
     conn = get_db_connection()
 
-    # Determine which requested tickers are present in the volumes table
+    # Determine which requested tickers are present in the stock and futures volume tables
     try:
-        cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_volumes_daily)").fetchall()}
+        stock_cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_volumes_daily)").fetchall()}
     except sqlite3.OperationalError:
-        cols = set()
+        stock_cols = set()
+    try:
+        fut_cols = {row['name'] for row in conn.execute("PRAGMA table_info(futures_volumes_daily)").fetchall()}
+    except sqlite3.OperationalError:
+        fut_cols = set()
 
-    selected = [t for t in tickers if t in cols]
+    selected_stock = [t for t in tickers if t in stock_cols]
+    selected_fut = [t for t in tickers if t in fut_cols]
 
     # Initialize default empty arrays for all requested tickers
     out = {t: [] for t in tickers}
 
-    if selected:
-        safe_cols = '\", \"'.join(selected)
+    if selected_stock:
+        safe_cols = '\", \"'.join(selected_stock)
         q = f'SELECT Date, "{safe_cols}" FROM stock_volumes_daily ORDER BY Date ASC'
         df = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
         # Convert index to unix seconds
-        df['time'] = (df.index.astype(int) // 10**9).astype(int)
-        for t in selected:
+        df['time'] = (df.index.astype('int64') // 10**9).astype(int)
+        for t in selected_stock:
+            tmp = df[['time', t]].copy()
+            tmp.rename(columns={t: 'value'}, inplace=True)
+            tmp['value'] = tmp['value'].replace({np.nan: None})
+            out[t] = tmp.to_dict(orient='records')
+
+    if selected_fut:
+        safe_cols = '\", \"'.join(selected_fut)
+        q = f'SELECT Date, "{safe_cols}" FROM futures_volumes_daily ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
+        df['time'] = (df.index.astype('int64') // 10**9).astype(int)
+        for t in selected_fut:
             tmp = df[['time', t]].copy()
             tmp.rename(columns={t: 'value'}, inplace=True)
             tmp['value'] = tmp['value'].replace({np.nan: None})
