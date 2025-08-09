@@ -270,5 +270,118 @@ def commentary():
                   f'{t} {direction} {pct:+.1f} %. Peak on {peak_date}, low on {trough_date}.')
     return jsonify(out)
 
+
+# --- ETF series endpoint (Option A) ---
+@app.route('/api/etf/series')
+def etf_series():
+    """Return derived ETF series like portfolio value and shares outstanding.
+    Query params:
+        etf: e.g., 'ALLW' (required)
+        metrics: comma-separated subset of ['value','shares'] (default 'value,shares')
+        from: ISO date YYYY-MM-DD (optional)
+        to: ISO date YYYY-MM-DD (optional)
+    Response JSON keys present only for requested metrics.
+    Each series is a list of {time: <unix_sec>, value: <number>}.
+    """
+    try:
+        etf = (request.args.get('etf', '') or '').strip().upper()
+        if not etf:
+            return jsonify({'error': 'etf is required'}), 400
+
+        metrics_param = request.args.get('metrics', 'value,shares')
+        allowed = {'value', 'shares'}
+        metrics = {m.strip().lower() for m in metrics_param.split(',') if m.strip().lower() in allowed}
+        if not metrics:
+            metrics = {'value'}
+
+        from_str = request.args.get('from')
+        to_str = request.args.get('to')
+
+        conn = get_db_connection()
+
+        # Aggregate portfolio value by snapshot_date
+        q_hold = (
+            "SELECT snapshot_date as Date, SUM(market_value) as total_value "
+            "FROM etf_holdings_daily "
+            "WHERE etf = ? "
+            "GROUP BY snapshot_date "
+            "ORDER BY snapshot_date ASC"
+        )
+        df_hold = pd.read_sql_query(q_hold, conn, params=[etf], parse_dates=['Date'])
+
+        # Filter by date range if provided
+        if not df_hold.empty and (from_str or to_str):
+            if from_str:
+                try:
+                    start_ts = pd.to_datetime(from_str)
+                    df_hold = df_hold[df_hold['Date'] >= start_ts]
+                except Exception:
+                    pass
+            if to_str:
+                try:
+                    end_ts = pd.to_datetime(to_str)
+                    df_hold = df_hold[df_hold['Date'] <= end_ts]
+                except Exception:
+                    pass
+
+        result = {}
+
+        # Metric: portfolio value over time
+        if 'value' in metrics:
+            if df_hold.empty:
+                result['value'] = []
+            else:
+                tmp = df_hold.copy()
+                tmp['time'] = (tmp['Date'].astype(int) // 10**9).astype(int)
+                result['value'] = (
+                    tmp[['time', 'total_value']]
+                    .rename(columns={'total_value': 'value'})
+                    .to_dict(orient='records')
+                )
+
+        # Metric: shares outstanding = total_value / price
+        if 'shares' in metrics:
+            shares_series = []
+            if not df_hold.empty:
+                # Check price column exists for ETF
+                try:
+                    cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
+                except sqlite3.OperationalError:
+                    cols = set()
+                if etf in cols:
+                    q_price = f'SELECT Date, "{etf}" as price FROM stock_prices_daily ORDER BY Date ASC'
+                    df_price = pd.read_sql_query(q_price, conn, parse_dates=['Date'])
+                    if not df_price.empty:
+                        if from_str or to_str:
+                            if from_str:
+                                try:
+                                    start_ts = pd.to_datetime(from_str)
+                                    df_price = df_price[df_price['Date'] >= start_ts]
+                                except Exception:
+                                    pass
+                            if to_str:
+                                try:
+                                    end_ts = pd.to_datetime(to_str)
+                                    df_price = df_price[df_price['Date'] <= end_ts]
+                                except Exception:
+                                    pass
+                        df_m = pd.merge(df_hold[['Date', 'total_value']], df_price[['Date', 'price']], on='Date', how='inner')
+                        df_m = df_m[df_m['price'].notna()]
+                        if not df_m.empty:
+                            df_m['shares'] = df_m['total_value'] / df_m['price']
+                            df_m['time'] = (df_m['Date'].astype(int) // 10**9).astype(int)
+                            shares_series = (
+                                df_m[['time', 'shares']]
+                                .rename(columns={'shares': 'value'})
+                                .to_dict(orient='records')
+                            )
+            result['shares'] = shares_series
+
+        conn.close()
+        return jsonify(result)
+    except Exception as e:
+        app.logger.error(f"/api/etf/series error: {e}")
+        return jsonify({'error': 'failed to compute series'}), 500
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
