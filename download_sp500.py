@@ -167,9 +167,12 @@ def update_sp500_data(verbose: bool = True):
         cursor = conn.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stock_prices_daily';")
         table_exists = cursor.fetchone() is not None
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stock_volumes_daily';")
+        vol_table_exists = cursor.fetchone() is not None
 
         # Load existing data (if any) from the daily prices table
         existing_df = pd.DataFrame()
+        existing_vol_df = pd.DataFrame()
         if table_exists:
             # Read without date parsing first so that an empty table doesn’t raise a KeyError
             existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
@@ -177,6 +180,11 @@ def update_sp500_data(verbose: bool = True):
                 # Only parse dates and set the index when data actually exists and has a 'Date' column
                 existing_df['Date'] = pd.to_datetime(existing_df['Date'])
                 existing_df.set_index('Date', inplace=True)
+        if vol_table_exists:
+            existing_vol_df = pd.read_sql("SELECT * FROM stock_volumes_daily", conn)
+            if not existing_vol_df.empty and 'Date' in existing_vol_df.columns:
+                existing_vol_df['Date'] = pd.to_datetime(existing_vol_df['Date'])
+                existing_vol_df.set_index('Date', inplace=True)
 
         # 3. Download data in a fault-tolerant way
         vprint(f"Downloading/updating data for {len(all_tickers)} securities...")
@@ -189,11 +197,16 @@ def update_sp500_data(verbose: bool = True):
 
         # 4. Process downloaded data ticker by ticker
         processed_dfs = []
+        processed_vol_dfs = []
         for ticker in all_tickers:
             if ticker in data and not data[ticker].empty:
                 # Extract just the 'Close' price and rename the series to the ticker
                 close_series = data[ticker][['Close']].rename(columns={'Close': ticker})
                 processed_dfs.append(close_series)
+                # Extract 'Volume' where available
+                if 'Volume' in data[ticker].columns:
+                    vol_series = data[ticker][['Volume']].rename(columns={'Volume': ticker})
+                    processed_vol_dfs.append(vol_series)
             else:
                 print(f"- Warning: Could not download data for {ticker}. It will be skipped.")
 
@@ -201,11 +214,16 @@ def update_sp500_data(verbose: bool = True):
             print("Data processing failed for all tickers.")
             return
 
-        # 5. Combine all processed dataframes into one
+        # 5. Combine all processed dataframes into one (prices)
         new_data_df = pd.concat(processed_dfs, axis=1)
         new_data_df.index = pd.to_datetime(new_data_df.index)
+        # 5b. Combine volumes (if any)
+        new_vol_df = pd.DataFrame()
+        if processed_vol_dfs:
+            new_vol_df = pd.concat(processed_vol_dfs, axis=1)
+            new_vol_df.index = pd.to_datetime(new_vol_df.index)
 
-        # 6. Merge with existing data, giving precedence to new data
+        # 6. Merge with existing data, giving precedence to new data (prices)
         if not existing_df.empty:
             # Align columns to ensure safe combination
             existing_cols = existing_df.columns
@@ -219,12 +237,33 @@ def update_sp500_data(verbose: bool = True):
         else:
             combined_df = new_data_df
 
-        # 6b. Restrict to current ticker universe only
+        # 6b. Restrict to current ticker universe only (prices)
         combined_df = combined_df.reindex(columns=all_tickers)
+
+        # 6c. Merge volumes with existing (if available), giving precedence to new volume data
+        combined_vol_df = pd.DataFrame()
+        if not new_vol_df.empty or not existing_vol_df.empty:
+            if new_vol_df.empty:
+                combined_vol_df = existing_vol_df.copy()
+            elif existing_vol_df.empty:
+                combined_vol_df = new_vol_df.copy()
+            else:
+                existing_vol_cols = existing_vol_df.columns
+                new_vol_cols = new_vol_df.columns
+                combined_vol_cols = sorted(list(set(existing_vol_cols) | set(new_vol_cols)))
+                existing_vol_df = existing_vol_df.reindex(columns=combined_vol_cols)
+                new_vol_df = new_vol_df.reindex(columns=combined_vol_cols)
+                combined_vol_df = new_vol_df.combine_first(existing_vol_df)
+            # Restrict to current ticker universe only
+            combined_vol_df = combined_vol_df.reindex(columns=all_tickers)
 
         # 7. Save to database
         vprint("Saving data to database...")
-        combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace")
+        # Ensure index name for proper DB column naming
+        index_label = combined_df.index.name or 'Date'
+        combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace", index=True, index_label=index_label)
+        if not combined_vol_df.empty:
+            combined_vol_df.astype(float).to_sql("stock_volumes_daily", conn, if_exists="replace", index=True, index_label=index_label)
         sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
         vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
 

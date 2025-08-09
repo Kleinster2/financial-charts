@@ -37,7 +37,7 @@ def main():
         return
     conn = sqlite3.connect(DB_PATH)
     try:
-        for t in ['stock_prices_daily', 'etf_holdings_daily']:
+        for t in ['stock_prices_daily', 'stock_volumes_daily', 'etf_holdings_daily']:
             status = 'missing'
             if table_exists(conn, t):
                 status = get_latest_date(conn, t)
