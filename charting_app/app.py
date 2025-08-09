@@ -348,9 +348,11 @@ def etf_series():
                     cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
                 except sqlite3.OperationalError:
                     cols = set()
+                app.logger.info(f"/api/etf/series shares: df_hold rows={len(df_hold)}; price_col_exists={etf in cols}")
                 if etf in cols:
                     q_price = f'SELECT Date, "{etf}" as price FROM stock_prices_daily ORDER BY Date ASC'
                     df_price = pd.read_sql_query(q_price, conn, parse_dates=['Date'])
+                    app.logger.info(f"/api/etf/series shares: df_price rows={len(df_price)}")
                     if not df_price.empty:
                         if from_str or to_str:
                             if from_str:
@@ -365,8 +367,22 @@ def etf_series():
                                     df_price = df_price[df_price['Date'] <= end_ts]
                                 except Exception:
                                     pass
-                        df_m = pd.merge(df_hold[['Date', 'total_value']], df_price[['Date', 'price']], on='Date', how='inner')
+                        # Use asof merge to tolerate non-trading-day snapshots; align to previous available price (up to 5 days back)
+                        df_hold_sorted = df_hold[['Date', 'total_value']].sort_values('Date')
+                        df_price_sorted = df_price[['Date', 'price']].sort_values('Date')
+                        try:
+                            df_m = pd.merge_asof(
+                                df_hold_sorted,
+                                df_price_sorted,
+                                on='Date',
+                                direction='backward',
+                                tolerance=pd.Timedelta('5D')
+                            )
+                        except Exception as me:
+                            app.logger.warning(f"/api/etf/series shares: merge_asof failed ({me}); falling back to inner merge")
+                            df_m = pd.merge(df_hold_sorted, df_price_sorted, on='Date', how='inner')
                         df_m = df_m[df_m['price'].notna()]
+                        app.logger.info(f"/api/etf/series shares: merged rows={len(df_m)}")
                         if not df_m.empty:
                             df_m['shares'] = df_m['total_value'] / df_m['price']
                             df_m['time'] = (df_m['Date'].astype(int) // 10**9).astype(int)
@@ -375,6 +391,7 @@ def etf_series():
                                 .rename(columns={'shares': 'value'})
                                 .to_dict(orient='records')
                             )
+                            app.logger.info(f"/api/etf/series shares: output points={len(shares_series)}")
             result['shares'] = shares_series
 
         conn.close()
