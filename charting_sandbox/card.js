@@ -464,6 +464,47 @@
       saveCards();
     }
 
+    // Futures notional multipliers (price units × contract size)
+    // Only include contracts with well-known specs; others default to 1.
+    const FUTURES_MULTIPLIERS = Object.freeze({
+      // Equity index
+      'ES=F': 50,   // S&P 500 E-mini: $50 × index
+      'NQ=F': 20,   // Nasdaq-100 E-mini: $20 × index
+      'YM=F': 5,    // Dow mini: $5 × index
+      'RTY=F': 50,  // Russell 2000: $50 × index
+      // Energy
+      'CL=F': 1000,   // Crude Oil: $/bbl × 1000 bbl
+      'BZ=F': 1000,   // Brent: $/bbl × 1000 bbl
+      'NG=F': 10000,  // Nat Gas: $/mmBtu × 10,000 mmBtu
+      'RB=F': 42000,  // RBOB: $/gal × 42,000 gal
+      // Metals
+      'GC=F': 100,    // Gold: $/oz × 100 oz
+      'SI=F': 5000,   // Silver: $/oz × 5,000 oz
+      'HG=F': 25000,  // Copper: $/lb × 25,000 lb
+      'PL=F': 50,     // Platinum: $/oz × 50 oz
+      'PA=F': 100,    // Palladium: $/oz × 100 oz
+      // Rates (price in points; notional ≈ price/100 × face)
+      'ZB=F': 1000,   // 30Y Bond: $100k face ⇒ $1000 per point
+      'ZN=F': 1000,   // 10Y Note: $1000 per point
+      'ZF=F': 1000,   // 5Y Note: $1000 per point
+      'ZT=F': 2000,   // 2Y Note: $2000 per point (face $200k)
+      'FGBL=F': 1000, // Euro-Bund: €1000 per point (no FX adjustment)
+      // Ags/Softs
+      'ZC=F': 5000,   // Corn: $/bu × 5,000 bu
+      'ZS=F': 5000,   // Soybeans
+      'ZW=F': 5000,   // Wheat (Chicago)
+      'KE=F': 5000,   // Wheat (KC)
+      'SB=F': 112000, // Sugar No.11: $/lb × 112,000 lb
+      'KC=F': 37500,  // Coffee: $/lb × 37,500 lb
+      'CC=F': 10,     // Cocoa: $/metric ton × 10 t
+      'CT=F': 50000,  // Cotton: $/lb × 50,000 lb
+      'OJ=F': 15000,  // Orange Juice: $/lb solids × 15,000 lb
+    });
+
+    function getFuturesContractMultiplier(ticker){
+      return FUTURES_MULTIPLIERS[ticker] || 1;
+    }
+
     // ---------------- Plot Logic ----------------
     async function plot() {
       // Clear existing series
@@ -607,7 +648,9 @@
           const dollarVolRaw = volSrcRaw
             .map(p => {
               const price = priceByTime.get(p.time);
-              return price != null ? { time: p.time, value: p.value * price } : null;
+              if (price == null) return null;
+              const contractMult = getFuturesContractMultiplier(ticker);
+              return { time: p.time, value: p.value * price * contractMult };
             })
             .filter(x => x && isFinite(x.value));
           // Log scale cannot display non-positive values; clamp to 1 for zeros/negatives
