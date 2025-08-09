@@ -490,9 +490,37 @@
 
       const tickers = Array.from(selectedTickers);
       if (!tickers.length) return;
-      const resp = await fetch(`http://localhost:5000/api/data?tickers=${tickers.join(',')}`);
-      if (!resp.ok) { alert('API error'); return; }
-      const rawData = await resp.json();
+      // Split normal tickers and ETF metric tokens (e.g., ALLW_VALUE, ALLW_SHARES)
+      const etfTokens = tickers.filter(t => /_VALUE$|_SHARES$/.test(t));
+      const normalTickers = tickers.filter(t => !/_VALUE$|_SHARES$/.test(t));
+      const rawData = {};
+      // Fetch normal tickers through /api/data
+      if (normalTickers.length) {
+        const resp = await fetch(`http://localhost:5000/api/data?tickers=${normalTickers.join(',')}`);
+        if (!resp.ok) { alert('API error'); return; }
+        Object.assign(rawData, await resp.json());
+      }
+      // Fetch ETF metric tokens via /api/etf/series
+      if (etfTokens.length) {
+        const group = new Map(); // etf -> Set(metrics)
+        etfTokens.forEach(tok => {
+          const m = tok.match(/^([A-Z]+)_(VALUE|SHARES)$/);
+          if (!m) return;
+          const etf = m[1];
+          const metric = m[2].toLowerCase(); // 'value' | 'shares'
+          if (!group.has(etf)) group.set(etf, new Set());
+          group.get(etf).add(metric);
+        });
+        for (const [etf, metricsSet] of group.entries()) {
+          const metrics = Array.from(metricsSet).join(',');
+          const url = `http://localhost:5000/api/etf/series?etf=${etf}&metrics=${metrics}`;
+          const r = await fetch(url);
+          if (!r.ok) { alert('API error'); return; }
+          const js = await r.json();
+          if (js.value) rawData[`${etf}_VALUE`] = js.value;
+          if (js.shares) rawData[`${etf}_SHARES`] = js.shares;
+        }
+      }
 
       // Normalize
       const rebasedData = {};
@@ -738,7 +766,12 @@
       .then(r=>r.json())
       .then(list=>{
         const dl=document.getElementById('ticker-list');
-        if(dl){ dl.innerHTML=''; list.forEach(t=>{ const opt=document.createElement('option'); opt.value=t; dl.appendChild(opt);}); }
+        if(dl){
+          dl.innerHTML='';
+          list.forEach(t=>{ const opt=document.createElement('option'); opt.value=t; dl.appendChild(opt);});
+          // Add ETF metric series as regular options
+          ['ALLW_VALUE','ALLW_SHARES'].forEach(x=>{ const opt=document.createElement('option'); opt.value=x; dl.appendChild(opt); });
+        }
       })
       .catch(()=>{});
 
