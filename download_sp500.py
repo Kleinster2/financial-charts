@@ -51,24 +51,24 @@ OTHER_HIGH_PROFILE_STOCKS = [
 
 # --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
 FX_TICKERS = [
-    # Major Currencies vs USD pairs
+    # Major Currencies vs USD
     "EURUSD=X", "GBPUSD=X", "AUDUSD=X", "NZDUSD=X", "CADUSD=X", "CHFUSD=X", "JPYUSD=X",
     # USD vs Major Currencies
     "USDEUR=X", "USDGBP=X", "USDJPY=X", "USDCHF=X", "USDAUD=X", "USDNZD=X", "USDCAD=X",
     # EUR vs Major Currencies
     "EURUSD=X", "EURGBP=X", "EURJPY=X", "EURCHF=X", "EURAUD=X", "EURNZD=X", "EURCAD=X",
     # JPY vs Major Currencies
-    "JPYUSD=X", "JPYGBP=X", "JPYCHF=X", "JPYAUD=X", "JPYNZD=X", "JPYCAD=X",
+    "JPYUSD=X", "JPYEUR=X", "JPYGBP=X", "JPYCHF=X", "JPYAUD=X", "JPYNZD=X", "JPYCAD=X",
     # GBP vs Major Currencies
-    "GBPUSD=X", "GBPJPY=X", "GBPCHF=X", "GBPAUD=X", "GBPNZD=X", "GBPCAD=X",
+    "GBPUSD=X", "GBPEUR=X", "GBPGBP=X", "GBPJPY=X", "GBPCHF=X", "GBPAUD=X", "GBPNZD=X", "GBPCAD=X",
     # CHF vs Major Currencies
-    "CHFUSD=X", "CHFGBP=X", "CHFJPY=X", "CHFAUD=X", "CHFNZD=X", "CHFCAD=X",
+    "CHFUSD=X", "CHFEUR=X", "CHFGBP=X", "CHFJPY=X", "CHFAUD=X", "CHFNZD=X", "CHFCAD=X",
     # AUD vs Major Currencies
-    "AUDUSD=X", "AUDGBP=X", "AUDJPY=X", "AUDCHF=X", "AUDNZD=X", "AUDCAD=X",
+    "AUDUSD=X", "AUDEUR=X", "AUDGBP=X", "AUDJPY=X", "AUDCHF=X", "AUDNZD=X", "AUDCAD=X",
     # NZD vs Major Currencies
-    "NZDUSD=X", "NZDGBP=X", "NZDJPY=X", "NZDCHF=X", "NZDAUD=X", "NZDCAD=X",
+    "NZDUSD=X", "NZDEUR=X", "NZDGBP=X", "NZDJPY=X", "NZDCHF=X", "NZDAUD=X", "NZDCAD=X",
     # CAD vs Major Currencies
-    "CADUSD=X", "CADGBP=X", "CADJPY=X", "CADCHF=X", "CADAUD=X", "CADNZD=X",
+    "CADUSD=X", "CADEUR=X", "CADGBP=X", "CADJPY=X", "CADCHF=X", "CADAUD=X", "CADNZD=X",
 
     # Emerging-market USD pairs
     "USDBRL=X", "USDMXN=X", "USDZAR=X", "USDTRY=X", "USDINR=X", "USDIDR=X", "USDCNY=X", "USDHKD=X", 
