@@ -598,11 +598,20 @@
         if(!useRaw && !zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
-        // Trading volume line pane
+        // Trading dollar volume (price * shares) line pane
         if (showVolPane) {
           const volSrcRaw = (volumeData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
+          // Join with raw price by timestamp to compute dollar volume
+          const priceArr = rawPriceMap.get(ticker) || [];
+          const priceByTime = new Map(priceArr.map(pt => [pt.time, pt.value]));
+          const dollarVolRaw = volSrcRaw
+            .map(p => {
+              const price = priceByTime.get(p.time);
+              return price != null ? { time: p.time, value: p.value * price } : null;
+            })
+            .filter(x => x && isFinite(x.value));
           // Log scale cannot display non-positive values; clamp to 1 for zeros/negatives
-          const volSrc = volSrcRaw.map(p => ({ time: p.time, value: (p.value > 0 ? p.value : 1) }));
+          const volSrc = dollarVolRaw.map(p => ({ time: p.time, value: (p.value > 0 ? p.value : 1) }));
           const volSeries = chart.addSeries(
             LightweightCharts.LineSeries,
             {
@@ -612,7 +621,15 @@
               priceFormat: {
                 type: 'custom',
                 minMove: 1,
-                formatter: (v) => (v==null?'' : Math.round(v).toLocaleString()),
+                formatter: (v) => {
+                  if (v == null) return '';
+                  const abs = Math.abs(v);
+                  if (abs >= 1e12) return `$${(v/1e12).toFixed(2)}T`;
+                  if (abs >= 1e9)  return `$${(v/1e9).toFixed(2)}B`;
+                  if (abs >= 1e6)  return `$${(v/1e6).toFixed(2)}M`;
+                  if (abs >= 1e3)  return `$${(v/1e3).toFixed(0)}K`;
+                  return `$${Math.round(v)}`;
+                },
               },
             },
             volPaneIndex
