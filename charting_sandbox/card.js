@@ -494,11 +494,25 @@
       const etfTokens = tickers.filter(t => /_VALUE$|_SHARES$/.test(t));
       const normalTickers = tickers.filter(t => !/_VALUE$|_SHARES$/.test(t));
       const rawData = {};
+      const volumeData = {};
       // Fetch normal tickers through /api/data
       if (normalTickers.length) {
         const resp = await fetch(`http://localhost:5000/api/data?tickers=${normalTickers.join(',')}`);
         if (!resp.ok) { alert('API error'); return; }
         Object.assign(rawData, await resp.json());
+      }
+      // Fetch volume for normal tickers through /api/volume
+      if (normalTickers.length) {
+        try {
+          const vresp = await fetch(`http://localhost:5000/api/volume?tickers=${normalTickers.join(',')}`);
+          if (vresp.ok) {
+            Object.assign(volumeData, await vresp.json());
+          } else {
+            console.warn('Volume API error');
+          }
+        } catch (e) {
+          console.warn('Volume fetch failed', e);
+        }
       }
       // Fetch ETF metric tokens via /api/etf/series
       if (etfTokens.length) {
@@ -584,23 +598,11 @@
         if(!useRaw && !zeroLineTop){ zeroLineTop = priceSeries.createPriceLine({ price:100,color:'#888',lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted,axisLabelVisible:true,title:'0%' }); }
         priceSeriesMap.set(ticker, priceSeries);
 
-        // rolling volatility (100-day standard deviation of daily % returns)
-          if (showVolPane) {
-          const originalSrc = (rawData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
-          const volData = [];
-          const returns = [];
-          for (let i = 1; i < originalSrc.length; i++) {
-            const pct = (originalSrc[i].value / originalSrc[i-1].value) - 1;
-            returns.push(pct);
-            if (returns.length >= VOL_WINDOW) {
-              const window = returns.slice(-VOL_WINDOW);
-              const mean = window.reduce((a, b) => a + b, 0) / VOL_WINDOW;
-              const variance = window.reduce((s, r) => s + Math.pow(r - mean, 2), 0) / (VOL_WINDOW - 1); // Sample variance
-              const dailyStdDev = Math.sqrt(variance);
-              const annualizedVol = dailyStdDev * Math.sqrt(252) * 100; // annualize and convert to %
-              volData.push({ time: originalSrc[i].time, value: annualizedVol });
-            }
-          }
+        // Trading volume line pane
+        if (showVolPane) {
+          const volSrcRaw = (volumeData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
+          // Log scale cannot display non-positive values; clamp to 1 for zeros/negatives
+          const volSrc = volSrcRaw.map(p => ({ time: p.time, value: (p.value > 0 ? p.value : 1) }));
           const volSeries = chart.addSeries(
             LightweightCharts.LineSeries,
             {
@@ -609,16 +611,23 @@
               priceLineVisible: false,
               priceFormat: {
                 type: 'custom',
-                minMove: 0.1,
-                formatter: (v) => v.toFixed(2) + '%',
+                minMove: 1,
+                formatter: (v) => (v==null?'' : Math.round(v).toLocaleString()),
               },
             },
             volPaneIndex
           );
-          volSeries.setData(volData);
+          // Set logarithmic scale for the volume pane via the series' price scale
+          try {
+            const volScale = typeof volSeries.priceScale === 'function' ? volSeries.priceScale() : null;
+            if (volScale && typeof volScale.applyOptions === 'function') {
+              volScale.applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
+            }
+          } catch (_) { /* noop */ }
+          volSeries.setData(volSrc);
           if(hiddenTickers.has(ticker)) volSeries.applyOptions({visible:false});
           volSeriesMap.set(ticker, volSeries);
-          }
+        }
 
         if(showDiff && bottomPane){
           const diffSeries = chart.addSeries(LightweightCharts.LineSeries,{ color,lineWidth:1,lineStyle:LightweightCharts.LineStyle.Dotted, priceLineVisible:false, priceFormat:{ type:'custom',minMove:0.1,formatter:(v)=>{const sign=v>0?'+':v<0?'-':'';const dec=Math.abs(v)>=100?0:1;return `${sign}${Math.abs(v).toFixed(dec)}%`;}} }, bottomPaneIndex);
