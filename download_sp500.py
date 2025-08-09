@@ -50,33 +50,37 @@ OTHER_HIGH_PROFILE_STOCKS = [
 ]
 
 # --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
-FX_TICKERS = [
-    # Major Currencies vs USD
-    "EURUSD=X", "GBPUSD=X", "AUDUSD=X", "NZDUSD=X", "CADUSD=X", "CHFUSD=X", "JPYUSD=X",
-    # USD vs Major Currencies
-    "USDEUR=X", "USDGBP=X", "USDJPY=X", "USDCHF=X", "USDAUD=X", "USDNZD=X", "USDCAD=X",
-    # EUR vs Major Currencies
-    "EURUSD=X", "EURGBP=X", "EURJPY=X", "EURCHF=X", "EURAUD=X", "EURNZD=X", "EURCAD=X",
-    # JPY vs Major Currencies
-    "JPYUSD=X", "JPYEUR=X", "JPYGBP=X", "JPYCHF=X", "JPYAUD=X", "JPYNZD=X", "JPYCAD=X",
-    # GBP vs Major Currencies
-    "GBPUSD=X", "GBPEUR=X", "GBPGBP=X", "GBPJPY=X", "GBPCHF=X", "GBPAUD=X", "GBPNZD=X", "GBPCAD=X",
-    # CHF vs Major Currencies
-    "CHFUSD=X", "CHFEUR=X", "CHFGBP=X", "CHFJPY=X", "CHFAUD=X", "CHFNZD=X", "CHFCAD=X",
-    # AUD vs Major Currencies
-    "AUDUSD=X", "AUDEUR=X", "AUDGBP=X", "AUDJPY=X", "AUDCHF=X", "AUDNZD=X", "AUDCAD=X",
-    # NZD vs Major Currencies
-    "NZDUSD=X", "NZDEUR=X", "NZDGBP=X", "NZDJPY=X", "NZDCHF=X", "NZDAUD=X", "NZDCAD=X",
-    # CAD vs Major Currencies
-    "CADUSD=X", "CADEUR=X", "CADGBP=X", "CADJPY=X", "CADCHF=X", "CADAUD=X", "CADNZD=X",
-
-    # Emerging-market USD pairs
-    "USDBRL=X", "USDMXN=X", "USDZAR=X", "USDTRY=X", "USDINR=X", "USDIDR=X", "USDCNY=X", "USDHKD=X", 
-    "USDKRW=X", "USDRUB=X", "USDCOP=X", "USDCLP=X", "USDPHP=X", "USDTHB=X", "USDPLN=X", "USDHUF=X", 
-    "USDCZK=X", "USDRON=X", "USDILS=X",
-    # Precious metals as currencies
-    "XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X",
+MAJOR_CCY = ["USD","EUR","JPY","GBP","CHF","AUD","NZD","CAD"]
+EM_CCY = [
+    "BRL","MXN","ZAR","TRY","INR","IDR","CNY","HKD","KRW","RUB",
+    "COP","CLP","PHP","THB","PLN","HUF","CZK","RON","ILS",
 ]
+
+def make_pairs(bases, quotes, suffix="=X"):
+    """Generate Yahoo FX tickers like 'EURUSD=X' for all base-quote combos where base != quote."""
+    return [f"{b}{q}{suffix}" for b in bases for q in quotes if b != q]
+
+def unique_preserve(seq):
+    seen = set()
+    out = []
+    for s in seq:
+        if s not in seen:
+            seen.add(s)
+            out.append(s)
+    return out
+
+def build_fx_tickers():
+    fx = []
+    # All major crosses, both directions (excludes self-crosses automatically)
+    fx += make_pairs(MAJOR_CCY, MAJOR_CCY)
+    # USD-EM pairs, both directions
+    fx += make_pairs(["USD"], EM_CCY)
+    fx += make_pairs(EM_CCY, ["USD"])
+    # Precious metals as currencies
+    fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
+    return unique_preserve(fx)
+
+FX_TICKERS = build_fx_tickers()
 
 # --- Additional FX-like tickers (extra crosses, indices) ---
 ADDITIONAL_FX_TICKERS = [
@@ -86,7 +90,7 @@ ADDITIONAL_FX_TICKERS = [
     # Non-USD major crosses
     "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
     # Currency indices
-    "^DXY", "^BXY", "^EURUSD", "^EURJPY"
+    "^DXY", "^BXY"
 ]
 
 # --- Top-crypto tickers ---
@@ -157,6 +161,7 @@ def update_sp500_data(verbose: bool = True):
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
         vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
+        vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
         all_tickers = sorted(list(set(sp500['ticker'].tolist() + ibov_tickers + ETF_TICKERS + ADR_TICKERS + OTHER_HIGH_PROFILE_STOCKS + FX_TICKERS + ADDITIONAL_FX_TICKERS + CRYPTO_TICKERS)))
     except Exception as e:
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
