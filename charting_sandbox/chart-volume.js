@@ -57,7 +57,7 @@ window.ChartVolumeManager = {
     /**
      * Add volume series to the pane
      */
-    addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap) {
+    addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible = true) {
         console.log(`[VolumeManager] Adding volume series for ${ticker}`);
         
         let volSeries = volSeriesMap.get(ticker);
@@ -67,12 +67,13 @@ window.ChartVolumeManager = {
                 lineWidth: 1,
                 pane: volPane,
                 priceLineVisible: false,
+                lastValueVisible: lastLabelVisible,
                 priceScaleId: 'volume',
                 priceFormat: { type: 'price', precision: 1 }
             });
             volSeriesMap.set(ticker, volSeries);
         } else {
-            volSeries.applyOptions({ color: color });
+            volSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
         }
         
         volSeries.setData(volData);
@@ -100,7 +101,7 @@ window.ChartVolumeManager = {
     /**
      * Update all volume series with new data
      */
-    updateAllVolumeSeries(chart, volPane, selectedTickers, rawPriceMap, tickerColorMap, volSeriesMap, hiddenTickers) {
+    updateAllVolumeSeries(chart, volPane, selectedTickers, rawPriceMap, tickerColorMap, volSeriesMap, hiddenTickers, lastLabelVisible = true) {
         if (!volPane) {
             console.warn('[VolumeManager] No volume pane to update');
             return;
@@ -115,14 +116,14 @@ window.ChartVolumeManager = {
             const volData = this.calculateVolume(rawData);
             const color = tickerColorMap.get(ticker) || '#000000';
             
-            this.addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap);
+            this.addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible);
         });
     },
 
     /**
      * Handle volume data fetching from API
      */
-    async fetchAndPlotVolume(ticker, color, chart, volPane, volSeriesMap) {
+    async fetchAndPlotVolume(ticker, color, chart, volPane, volSeriesMap, lastLabelVisible = true) {
         try {
             console.log(`[VolumeManager] Fetching volume data for ${ticker}`);
             const volData = await window.DataFetcher.getVolumeData(ticker);
@@ -137,7 +138,7 @@ window.ChartVolumeManager = {
                 value: volData.value[i]
             }));
 
-            this.addVolumeSeries(chart, volPane, ticker, formattedData, color, volSeriesMap);
+            this.addVolumeSeries(chart, volPane, ticker, formattedData, color, volSeriesMap, lastLabelVisible);
         } catch (error) {
             console.error(`[VolumeManager] Failed to fetch volume for ${ticker}:`, error);
         }

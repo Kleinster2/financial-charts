@@ -7,7 +7,7 @@ window.ChartSeriesManager = {
     /**
      * Create or update a price series for a ticker
      */
-    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap) {
+    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap, lastLabelVisible = true) {
         console.log(`[SeriesManager] Creating/updating series for ${ticker}`);
         
         let series = priceSeriesMap.get(ticker);
@@ -16,6 +16,7 @@ window.ChartSeriesManager = {
                 color: color,
                 lineWidth: 2,
                 priceLineVisible: false,
+                lastValueVisible: lastLabelVisible,
                 priceScaleId: 'right',
                 priceFormat: { type: 'price', precision: 2, minMove: 0.01 }
             });
@@ -47,7 +48,7 @@ window.ChartSeriesManager = {
     /**
      * Update average series from multiple tickers
      */
-    updateAverageSeries(chart, avgSeries, priceSeriesMap, hiddenTickers, visibleRange) {
+    updateAverageSeries(chart, avgSeries, priceSeriesMap, hiddenTickers, visibleRange, lastLabelVisible = true) {
         const visibleSeries = Array.from(priceSeriesMap.entries())
             .filter(([t]) => !hiddenTickers.has(t));
         
@@ -89,6 +90,7 @@ window.ChartSeriesManager = {
                 color: '#000000',
                 lineWidth: 3,
                 priceLineVisible: false,
+                lastValueVisible: lastLabelVisible,
                 priceScaleId: 'right',
                 title: 'Average',
                 lineStyle: 2 // Dashed line

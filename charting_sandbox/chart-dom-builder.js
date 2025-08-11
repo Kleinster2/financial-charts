@@ -31,6 +31,7 @@ window.ChartDomBuilder = {
                 <button class="toggle-vol-btn">Hide Vol Pane</button>
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
+                <button class="toggle-lastlabel-btn">Hide Last Label</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
@@ -122,6 +123,7 @@ window.ChartDomBuilder = {
             toggleVolBtn: card.querySelector('.toggle-vol-btn'),
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
+            toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             rangeSelect: card.querySelector('.range-select'),
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),
@@ -135,8 +137,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleRawBtn, toggleAvgBtn } = elements;
-        const { showDiff, showVol, useRaw, showAvg } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn } = elements;
+        const { showDiff, showVol, useRaw, showAvg, lastLabelVisible } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -149,6 +151,9 @@ window.ChartDomBuilder = {
         }
         if (toggleAvgBtn) {
             toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';
+        }
+        if (toggleLastLabelBtn) {
+            toggleLastLabelBtn.textContent = lastLabelVisible ? 'Hide Last Label' : 'Show Last Label';
         }
     },
 

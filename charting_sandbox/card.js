@@ -49,7 +49,8 @@
             hidden: Array.from(card._hiddenTickers || []),
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
-            title: card._title || ''
+            title: card._title || '',
+            lastLabelVisible: card._lastLabelVisible !== false
         }));
         
         if (window.StateManager) {
@@ -69,6 +70,7 @@
         initialHidden = [],
         initialRange = null,
         initialTitle = '',
+        initialLastLabelVisible = true,
         wrapperEl = null
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
@@ -86,13 +88,14 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
         let showAvg = initialShowAvg;
         let showVolPane = initialShowVol;
         let useRaw = initialUseRaw;
+        let lastLabelVisible = initialLastLabelVisible;
         let chart = null;
         let volPane = null;
         let avgSeries = null;
@@ -118,10 +121,11 @@
         card._hiddenTickers = hiddenTickers;
         card._visibleRange = initialRange;
         card._title = initialTitle;
+        card._lastLabelVisible = lastLabelVisible;
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, useRaw, showAvg
+            showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
         });
 
         // Initialize tickers
@@ -218,7 +222,7 @@
                     }
 
                     window.ChartSeriesManager.createOrUpdateSeries(
-                        chart, ticker, plotData, color, priceSeriesMap
+                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible
                     );
                 }
 
@@ -234,7 +238,7 @@
                         const color = tickerColorMap.get(ticker);
                         
                         window.ChartVolumeManager.addVolumeSeries(
-                            chart, volPane, ticker, volData, color, volSeriesMap
+                            chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
                         );
                     }
                 }
@@ -242,7 +246,7 @@
                 // Average series
                 if (showAvg && !useRaw) {
                     avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                        chart, avgSeries, priceSeriesMap, hiddenTickers
+                        chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
                     );
                 }
 
@@ -260,7 +264,7 @@
                         updateAverageSeries: () => {
                             if (showAvg) {
                                 avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                                    chart, avgSeries, priceSeriesMap, hiddenTickers
+                                    chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
                                 );
                             }
                         },
@@ -317,13 +321,31 @@
             saveCards();
             if (showAvg && !useRaw) {
                 avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                    chart, avgSeries, priceSeriesMap, hiddenTickers
+                    chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
                 );
             } else if (avgSeries) {
                 chart.removeSeries(avgSeries);
                 avgSeries = null;
             }
         });
+
+        if (toggleLastLabelBtn) {
+            toggleLastLabelBtn.addEventListener('click', () => {
+                lastLabelVisible = !lastLabelVisible;
+                card._lastLabelVisible = lastLabelVisible;
+                console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
+                });
+                // Apply to all existing series
+                priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                if (avgSeries) avgSeries.applyOptions({ lastValueVisible: lastLabelVisible });
+                if (volPane && volSeriesMap) {
+                    volSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
+                saveCards();
+            });
+        }
 
         if (rangeSelect) {
             rangeSelect.addEventListener('change', () => {
@@ -349,7 +371,7 @@
         elements.addChartBtn.addEventListener('click', () => {
             const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
                 Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                card._visibleRange, '', null);
+                card._visibleRange, '', lastLabelVisible, null);
             saveCards();
             if (card.nextSibling) {
                 wrapper.insertBefore(newCard, card.nextSibling);
@@ -444,7 +466,7 @@
             if (stored.length) {
                 stored.forEach(c => createChartCard(
                     c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || ''
+                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true
                 ));
             } else {
                 // Try to restore from backend
@@ -454,7 +476,7 @@
                         if (Array.isArray(ws) && ws.length) {
                             ws.forEach(c => createChartCard(
                                 c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || ''
+                                c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true
                             ));
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));
                         } else {
