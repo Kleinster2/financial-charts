@@ -15,6 +15,7 @@ window.ChartSeriesManager = {
             series = chart.addSeries(LightweightCharts.LineSeries, {
                 color: color,
                 lineWidth: 2,
+                priceLineVisible: false,
                 priceScaleId: 'right',
                 priceFormat: { type: 'price', precision: 2, minMove: 0.01 }
             });
@@ -87,6 +88,7 @@ window.ChartSeriesManager = {
             avgSeries = chart.addSeries(LightweightCharts.LineSeries, {
                 color: '#000000',
                 lineWidth: 3,
+                priceLineVisible: false,
                 priceScaleId: 'right',
                 title: 'Average',
                 lineStyle: 2 // Dashed line

@@ -66,6 +66,7 @@ window.ChartVolumeManager = {
                 color: color,
                 lineWidth: 1,
                 pane: volPane,
+                priceLineVisible: false,
                 priceScaleId: 'volume',
                 priceFormat: { type: 'price', precision: 1 }
             });
