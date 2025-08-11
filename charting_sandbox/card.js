@@ -17,24 +17,26 @@
 
   // --- Company name cache (ticker -> name) ---
   const nameCache = {};
-  function ensureNames(tickers){
+  async function ensureNames(tickers){
     const missing = tickers.filter(t=>!(t in nameCache));
     if(!missing.length) return;
-    fetch(`http://localhost:5000/api/metadata?tickers=${missing.join(',')}`)
-      .then(r=>r.json())
-      .then(map=>{
-        Object.assign(nameCache,map);
-        // refresh titles on existing chips
-        document.querySelectorAll('.chip').forEach(ch=>{
-          const t = ch.dataset.ticker;
-          if(nameCache[t]) ch.title = nameCache[t];
-        });
-      })
-      .catch(()=>{});
+    
+    try {
+      const metadata = await window.DataFetcher.getMetadata(missing);
+      Object.assign(nameCache, metadata);
+      
+      // refresh titles on existing chips
+      document.querySelectorAll('.chip').forEach(ch=>{
+        const t = ch.dataset.ticker;
+        if(nameCache[t]) ch.title = nameCache[t];
+      });
+    } catch (error) {
+      console.error('Failed to fetch metadata:', error);
+    }
   }
   const VOL_WINDOW = 100; // rolling volatility window (days)
 
-  // Save all chart states to localStorage
+  // Save all chart states using StateManager
   function saveCards(){
     const cards = Array.from(document.querySelectorAll('.chart-card')).map(card=>({
       tickers: Array.from(card._selectedTickers||[]),
@@ -47,13 +49,14 @@
       useRaw: card._useRaw || false,
       title: card._title || ''
     }));
-    localStorage.setItem('sandbox_cards', JSON.stringify(cards));
-  // Sync to backend for stronger persistence
-  fetch('http://localhost:5000/api/workspace', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(cards)
-  }).catch(() => {});
+    
+    // Use StateManager for persistence (includes debouncing)
+    if (window.StateManager) {
+      window.StateManager.saveCardsDebounced(cards);
+    } else {
+      // Fallback to direct localStorage
+      localStorage.setItem('sandbox_cards', JSON.stringify(cards));
+    }
   }
 
   function createChartCard(initialTickers = 'SPY', initialShowDiff = false, initialShowAvg = false, initialShowVol = true, initialUseRaw = false, initialMultipliers = {}, initialHidden = [], initialRange = null, initialTitle = '', wrapperEl = null) {
@@ -531,32 +534,26 @@
 
       const tickers = Array.from(selectedTickers);
       if (!tickers.length) return;
+      
       // Split normal tickers and ETF metric tokens (e.g., ALLW_VALUE, ALLW_SHARES)
       const etfTokens = tickers.filter(t => /_VALUE$|_SHARES$/.test(t));
       const normalTickers = tickers.filter(t => !/_VALUE$|_SHARES$/.test(t));
+      
+      // Fetch data for normal tickers
       const rawData = {};
-      const volumeData = {};
-      // Fetch normal tickers through /api/data
-      if (normalTickers.length) {
-        const resp = await fetch(`http://localhost:5000/api/data?tickers=${normalTickers.join(',')}`);
-        if (!resp.ok) { alert('API error'); return; }
-        Object.assign(rawData, await resp.json());
-      }
-      // Fetch volume for normal tickers through /api/volume
-      if (normalTickers.length) {
+      if (normalTickers.length > 0) {
         try {
-          const vresp = await fetch(`http://localhost:5000/api/volume?tickers=${normalTickers.join(',')}`);
-          if (vresp.ok) {
-            Object.assign(volumeData, await vresp.json());
-          } else {
-            console.warn('Volume API error');
-          }
-        } catch (e) {
-          console.warn('Volume fetch failed', e);
+          const data = await DataFetcher.getPriceData(normalTickers);
+          Object.assign(rawData, data);
+        } catch (error) {
+          console.error('Error fetching price data:', error);
+          alert('Failed to fetch price data');
+          return;
         }
       }
-      // Fetch ETF metric tokens via /api/etf/series
-      if (etfTokens.length) {
+      
+      // Fetch ETF metric data
+      if (etfTokens.length > 0) {
         const group = new Map(); // etf -> Set(metrics)
         etfTokens.forEach(tok => {
           const m = tok.match(/^([A-Z]+)_(VALUE|SHARES)$/);
@@ -566,14 +563,16 @@
           if (!group.has(etf)) group.set(etf, new Set());
           group.get(etf).add(metric);
         });
+        
         for (const [etf, metricsSet] of group.entries()) {
-          const metrics = Array.from(metricsSet).join(',');
-          const url = `http://localhost:5000/api/etf/series?etf=${etf}&metrics=${metrics}`;
-          const r = await fetch(url);
-          if (!r.ok) { alert('API error'); return; }
-          const js = await r.json();
-          if (js.value) rawData[`${etf}_VALUE`] = js.value;
-          if (js.shares) rawData[`${etf}_SHARES`] = js.shares;
+          try {
+            const metrics = Array.from(metricsSet);
+            const data = await DataFetcher.getETFSeries(etf, metrics);
+            if (data.value) rawData[`${etf}_VALUE`] = data.value;
+            if (data.shares) rawData[`${etf}_SHARES`] = data.shares;
+          } catch (error) {
+            console.error(`Error fetching ETF data for ${etf}:`, error);
+          }
         }
       }
 
@@ -622,8 +621,9 @@
         diffData[t] = (rebasedData[t]||[]).map(p=>({time:p.time, value:(p.value - (avgLookup.get(p.time)??0))}));
       });
 
-      // Plot loops
-      sortedTickers.forEach(ticker=>{
+      // Plot loops - using for...of to handle async operations
+      const volumeData = {};
+      for (const ticker of sortedTickers) {
         let color = tickerColorMap.get(ticker);
         if(!color){
           color = colors[colorIndex % colors.length];
@@ -641,6 +641,16 @@
 
         // Trading dollar volume (price * shares) line pane
         if (showVolPane) {
+          // Fetch volume data if not already available
+          if (!volumeData[ticker]) {
+            try {
+              const volData = await DataFetcher.getVolumeData([ticker]);
+              volumeData[ticker] = volData[ticker] || [];
+            } catch (error) {
+              console.error(`Failed to fetch volume data for ${ticker}:`, error);
+              volumeData[ticker] = [];
+            }
+          }
           const volSrcRaw = (volumeData[ticker] || []).filter(p => p.value != null).sort((a,b)=>a.time-b.time);
           // Join with raw price by timestamp to compute dollar volume
           const priceArr = rawPriceMap.get(ticker) || [];
@@ -698,7 +708,7 @@
         }
         originalNormalizedData[ticker] = rebasedData[ticker];
 
-      });
+      }
 
       if(showAvg){
         drawAverage(sortedTickers);
@@ -716,9 +726,35 @@
       chart.priceScale('right').applyOptions({ mode: LightweightCharts.PriceScaleMode.Logarithmic });
 
       if(!plot._rebasingAttached){
+        // Create a debounced rebase function using ChartUtils
+        const debouncedRebase = window.ChartUtils ? 
+          window.ChartUtils.debounce(() => {
+            if(useRaw) return;
+            console.log('Rebasing data to visible range...', visible);
+            // Rebase logic will be implemented here
+            // For now, just save the range
+            if(visible && visible.from){ 
+              card._visibleRange = visible; 
+              saveCards(); 
+            }
+          }, 500) : 
+          // Fallback if ChartUtils not available
+          ((fn, delay) => {
+            let timeoutId;
+            return (...args) => {
+              clearTimeout(timeoutId);
+              timeoutId = setTimeout(() => fn(...args), delay);
+            };
+          })(() => {
+            if(visible && visible.from){ 
+              card._visibleRange = visible; 
+              saveCards(); 
+            }
+          }, 500);
+        
         chart.timeScale().subscribeVisibleTimeRangeChange((visible)=>{
-           if(useRaw) return;
-          if(visible && visible.from){ card._visibleRange = visible; saveCards(); }
+          if(useRaw) return;
+          debouncedRebase(visible);
           if(!visible||!visible.from) return;
           const from = Math.round(visible.from);
           priceSeriesMap.forEach((series,ticker)=>{

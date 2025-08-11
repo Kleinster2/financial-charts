@@ -5,9 +5,11 @@ import os
 import sys
 from flask import Flask, jsonify, render_template, request, redirect, send_from_directory
 from flask_cors import CORS
+from flask_compress import Compress
 import logging
 import numpy as np
 import json
+from functools import lru_cache
 
 # Configure logging to output to stdout for easier debugging
 logging.basicConfig(
@@ -18,6 +20,7 @@ logging.basicConfig(
 
 app = Flask(__name__)
 CORS(app)
+Compress(app)  # Enable gzip compression for responses
 
 @app.after_request
 def add_header(response):
@@ -39,6 +42,11 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 # Construct the absolute path to the database in the parent directory
 DB_PATH = os.path.join(basedir, '..', 'sp500_data.db')
 
+# Schema cache for performance
+_schema_cache = {}
+_schema_cache_time = 0
+SCHEMA_CACHE_TTL = 3600  # 1 hour in seconds
+
 # --- Start of Diagnostic Logging ---
 app.logger.info(f"SCRIPT_DIR: {basedir}")
 app.logger.info(f"DB_PATH: {DB_PATH}")
@@ -47,6 +55,95 @@ if not os.path.exists(DB_PATH):
 else:
     app.logger.info("SUCCESS: Database file was found at the path.")
 # --- End of Diagnostic Logging ---
+
+# --- Helper Functions ---
+def get_table_columns(table_name, conn=None, force_refresh=False):
+    """Get column names for a table with caching."""
+    global _schema_cache, _schema_cache_time
+    
+    # Check if cache needs refresh
+    if force_refresh or time.time() - _schema_cache_time > SCHEMA_CACHE_TTL:
+        _schema_cache = {}
+        _schema_cache_time = time.time()
+        app.logger.info(f"Schema cache refreshed")
+    
+    # Return cached result if available
+    if table_name in _schema_cache:
+        return _schema_cache[table_name]
+    
+    # Fetch and cache column names
+    close_conn = False
+    if conn is None:
+        conn = get_db_connection()
+        close_conn = True
+    
+    try:
+        cursor = conn.execute(f"PRAGMA table_info({table_name})")
+        columns = {row['name'] for row in cursor.fetchall()}
+        _schema_cache[table_name] = columns
+        app.logger.info(f"Cached schema for table {table_name}: {len(columns)} columns")
+        return columns
+    except sqlite3.OperationalError:
+        _schema_cache[table_name] = set()
+        return set()
+    finally:
+        if close_conn:
+            conn.close()
+
+def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=None, conn=None):
+    """Fetch ticker data from any table with consistent interface.
+    
+    Args:
+        table_name: Name of the table to query
+        tickers: List of ticker symbols
+        date_column: Name of the date column (default: 'Date')
+        value_columns: List of columns to fetch (defaults to tickers)
+        conn: Database connection (will create if None)
+    
+    Returns:
+        dict: {ticker: DataFrame} mapping
+    """
+    close_conn = False
+    if conn is None:
+        conn = get_db_connection()
+        close_conn = True
+    
+    if value_columns is None:
+        value_columns = tickers
+    
+    result = {}
+    try:
+        # Get available columns
+        table_cols = get_table_columns(table_name, conn)
+        valid_tickers = [t for t in value_columns if t in table_cols]
+        
+        if not valid_tickers:
+            return result
+        
+        # Build query
+        columns_str = f"{date_column}, " + ", ".join([f'"{t}"' for t in valid_tickers])
+        query = f"SELECT {columns_str} FROM {table_name} ORDER BY {date_column}"
+        
+        # Log slow queries
+        start_time = time.time()
+        df = pd.read_sql(query, conn, parse_dates=[date_column], index_col=date_column)
+        query_time = time.time() - start_time
+        
+        if query_time > 1.0:  # Log queries taking more than 1 second
+            app.logger.warning(f"Slow query ({query_time:.2f}s): {table_name} for {len(valid_tickers)} tickers")
+        
+        # Split into per-ticker DataFrames
+        for ticker in valid_tickers:
+            if ticker in df.columns:
+                result[ticker] = df[[ticker]].dropna()
+    
+    except Exception as e:
+        app.logger.error(f"Error fetching from {table_name}: {e}")
+    finally:
+        if close_conn:
+            conn.close()
+    
+    return result
 
 def get_db_connection():
     """Establishes a connection to the SQLite database."""
@@ -58,6 +155,32 @@ def get_db_connection():
 def index():
     """Redirect root to sandbox UI"""
     return redirect('/sandbox/')
+
+@app.route('/api/health')
+def health():
+    """Health check endpoint for monitoring."""
+    try:
+        # Test database connection
+        conn = get_db_connection()
+        cursor = conn.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table'")
+        table_count = cursor.fetchone()[0]
+        conn.close()
+        
+        return jsonify({
+            'status': 'healthy',
+            'timestamp': time.time(),
+            'database': 'connected',
+            'table_count': table_count,
+            'cache_size': len(_schema_cache),
+            'cache_age': time.time() - _schema_cache_time if _schema_cache_time > 0 else None
+        }), 200
+    except Exception as e:
+        app.logger.error(f"Health check failed: {e}")
+        return jsonify({
+            'status': 'unhealthy',
+            'timestamp': time.time(),
+            'error': str(e)
+        }), 503
 
 # Sandbox static serving
 @app.route('/sandbox/')
@@ -169,7 +292,7 @@ def get_data():
     df = pd.concat(df_list, axis=1)
 
     # The frontend now expects raw data. It also expects 'time' as a UNIX timestamp.
-    df['time'] = (df.index.astype(int) / 10**9).astype(int)
+    df['time'] = (df.index.astype('int64') / 10**9).astype(int)
 
     chart_data = {}
     for ticker in tickers:
@@ -310,7 +433,7 @@ def commentary():
     conn.close()
 
     # Limit range
-    ts = (df['Date'].astype(int) // 10**9)
+    ts = (df['Date'].astype('int64') // 10**9)
     df = df[(ts >= t_from) & (ts <= t_to)].set_index('Date')
 
     out = {}
@@ -390,7 +513,7 @@ def etf_series():
                 result['value'] = []
             else:
                 tmp = df_hold.copy()
-                tmp['time'] = (tmp['Date'].astype(int) // 10**9).astype(int)
+                tmp['time'] = (tmp['Date'].astype('int64') // 10**9).astype(int)
                 result['value'] = (
                     tmp[['time', 'total_value']]
                     .rename(columns={'total_value': 'value'})
@@ -443,7 +566,7 @@ def etf_series():
                         app.logger.info(f"/api/etf/series shares: merged rows={len(df_m)}")
                         if not df_m.empty:
                             df_m['shares'] = df_m['total_value'] / df_m['price']
-                            df_m['time'] = (df_m['Date'].astype(int) // 10**9).astype(int)
+                            df_m['time'] = (df_m['Date'].astype('int64') // 10**9).astype(int)
                             shares_series = (
                                 df_m[['time', 'shares']]
                                 .rename(columns={'shares': 'value'})

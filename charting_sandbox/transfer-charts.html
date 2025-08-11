@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chart Transfer Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        h1 { color: #333; }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover { background: #0056b3; }
+        textarea {
+            width: 100%;
+            height: 200px;
+            margin: 10px 0;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+        .instructions {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chart Transfer Tool</h1>
+    
+    <div class="section">
+        <h2>Step 1: Export from Edge Browser</h2>
+        <div class="instructions">
+            <p>1. Open this page in Microsoft Edge where your charts are saved</p>
+            <p>2. Click the "Export Charts" button below</p>
+            <p>3. Copy the generated JSON data</p>
+        </div>
+        <button onclick="exportCharts()">Export Charts from Current Browser</button>
+        <div id="exportStatus"></div>
+        <textarea id="exportData" placeholder="Exported chart data will appear here..."></textarea>
+    </div>
+    
+    <div class="section">
+        <h2>Step 2: Import to Target Browser</h2>
+        <div class="instructions">
+            <p>1. Open this page in your target browser (Chrome/Windsurf)</p>
+            <p>2. Paste the JSON data from Edge in the text area below</p>
+            <p>3. Click "Import Charts"</p>
+        </div>
+        <textarea id="importData" placeholder="Paste your exported chart data here..."></textarea>
+        <button onclick="importCharts()">Import Charts to Current Browser</button>
+        <div id="importStatus"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Step 3: Save to Backend (Optional)</h2>
+        <button onclick="saveToBackend()">Save Current Charts to Backend</button>
+        <div id="backendStatus"></div>
+    </div>
+
+    <script>
+        function exportCharts() {
+            try {
+                const charts = localStorage.getItem('sandbox_cards');
+                if (!charts) {
+                    document.getElementById('exportStatus').innerHTML = '<span class="error">No charts found in localStorage!</span>';
+                    return;
+                }
+                
+                const parsed = JSON.parse(charts);
+                document.getElementById('exportData').value = JSON.stringify(parsed, null, 2);
+                document.getElementById('exportStatus').innerHTML = 
+                    `<span class="success">✓ Exported ${parsed.length} charts successfully! Copy the data below.</span>`;
+                
+                // Auto-select the text for easy copying
+                document.getElementById('exportData').select();
+            } catch (error) {
+                document.getElementById('exportStatus').innerHTML = 
+                    `<span class="error">Export failed: ${error.message}</span>`;
+            }
+        }
+        
+        function importCharts() {
+            try {
+                const importText = document.getElementById('importData').value.trim();
+                if (!importText) {
+                    document.getElementById('importStatus').innerHTML = 
+                        '<span class="error">Please paste the exported chart data first!</span>';
+                    return;
+                }
+                
+                const charts = JSON.parse(importText);
+                if (!Array.isArray(charts)) {
+                    throw new Error('Invalid chart data format');
+                }
+                
+                // Save to localStorage
+                localStorage.setItem('sandbox_cards', JSON.stringify(charts));
+                
+                document.getElementById('importStatus').innerHTML = 
+                    `<span class="success">✓ Successfully imported ${charts.length} charts! Refresh the sandbox page to see them.</span>`;
+                
+                // Show chart titles for confirmation
+                const titles = charts.map(c => c.title || 'Untitled').join(', ');
+                document.getElementById('importStatus').innerHTML += 
+                    `<br><small>Charts: ${titles}</small>`;
+                    
+            } catch (error) {
+                document.getElementById('importStatus').innerHTML = 
+                    `<span class="error">Import failed: ${error.message}</span>`;
+            }
+        }
+        
+        function saveToBackend() {
+            try {
+                const charts = localStorage.getItem('sandbox_cards');
+                if (!charts) {
+                    document.getElementById('backendStatus').innerHTML = 
+                        '<span class="error">No charts found in localStorage!</span>';
+                    return;
+                }
+                
+                fetch('http://localhost:5000/api/workspace', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: charts
+                })
+                .then(response => {
+                    if (response.ok) {
+                        document.getElementById('backendStatus').innerHTML = 
+                            '<span class="success">✓ Charts saved to backend successfully!</span>';
+                    } else {
+                        throw new Error('Server returned error');
+                    }
+                })
+                .catch(error => {
+                    document.getElementById('backendStatus').innerHTML = 
+                        `<span class="error">Failed to save to backend: ${error.message}</span>`;
+                });
+                
+            } catch (error) {
+                document.getElementById('backendStatus').innerHTML = 
+                    `<span class="error">Error: ${error.message}</span>`;
+            }
+        }
+        
+        // Check current browser on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const ua = navigator.userAgent;
+            let browserInfo = '';
+            if (ua.includes('Edg')) {
+                browserInfo = '🔷 Microsoft Edge detected';
+            } else if (ua.includes('Chrome')) {
+                browserInfo = '🔶 Chrome/Chromium detected';
+            } else {
+                browserInfo = '❓ Unknown browser';
+            }
+            
+            const charts = localStorage.getItem('sandbox_cards');
+            let chartInfo = '';
+            if (charts) {
+                try {
+                    const parsed = JSON.parse(charts);
+                    chartInfo = ` - ${parsed.length} charts found in localStorage`;
+                } catch (e) {
+                    chartInfo = ' - Invalid chart data in localStorage';
+                }
+            } else {
+                chartInfo = ' - No charts in localStorage';
+            }
+            
+            document.body.insertAdjacentHTML('afterbegin', 
+                `<div style="background: #e7f3ff; padding: 10px; margin-bottom: 20px; border-radius: 5px;">
+                    ${browserInfo}${chartInfo}
+                </div>`);
+        });
+    </script>
+</body>
+</html>
