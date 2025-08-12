@@ -21,7 +21,8 @@
     const VOL_WINDOW = 100;
 
     // Company name fetching
-    async function ensureNames(tickers) {
+    // Fetch company names for tickers; optionally pass in chipNodes to avoid global DOM scan
+    async function ensureNames(tickers, chipNodes = null) {
         const missing = tickers.filter(t => !(t in nameCache));
         if (!missing.length) return;
         
@@ -29,7 +30,8 @@
             const metadata = await window.DataFetcher.getMetadata(missing);
             Object.assign(nameCache, metadata);
             
-            document.querySelectorAll('.chip').forEach(ch => {
+                    const chips = chipNodes ? Array.from(chipNodes) : document.querySelectorAll('.chip');
+                chips.forEach(ch => {
                 const t = ch.dataset.ticker;
                 if (nameCache[t]) ch.title = nameCache[t];
             });
@@ -207,7 +209,8 @@
             avgSeries = null;
 
             // Ensure company names
-            ensureNames(Array.from(selectedTickers));
+            // Pass chip nodes to avoid global DOM scan
+            ensureNames(Array.from(selectedTickers), selectedTickersDiv.querySelectorAll('.chip'));
 
             // Fetch price data
             try {
