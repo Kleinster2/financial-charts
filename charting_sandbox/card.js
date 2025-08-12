@@ -222,7 +222,7 @@
                     }
 
                     window.ChartSeriesManager.createOrUpdateSeries(
-                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible
+                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw
                     );
                 }
 

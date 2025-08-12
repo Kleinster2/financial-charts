@@ -7,10 +7,13 @@ window.ChartSeriesManager = {
     /**
      * Create or update a price series for a ticker
      */
-    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap, lastLabelVisible = true) {
+    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap, lastLabelVisible = true, formatAsPercent = false) {
         console.log(`[SeriesManager] Creating/updating series for ${ticker}`);
         
         let series = priceSeriesMap.get(ticker);
+        const priceFormat = formatAsPercent
+            ? { type: 'custom', minMove: 0.1, formatter: (v) => { const diff = v - 100; const sign = diff > 0 ? '+' : diff < 0 ? '-' : ''; const dec = Math.abs(diff) >= 100 ? 0 : 1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } }
+            : { type: 'price', precision: 2, minMove: 0.01 };
         if (!series) {
             series = chart.addSeries(LightweightCharts.LineSeries, {
                 color: color,
@@ -18,11 +21,11 @@ window.ChartSeriesManager = {
                 priceLineVisible: false,
                 lastValueVisible: lastLabelVisible,
                 priceScaleId: 'right',
-                priceFormat: { type: 'price', precision: 2, minMove: 0.01 }
+                priceFormat
             });
             priceSeriesMap.set(ticker, series);
         } else {
-            series.applyOptions({ color: color });
+            series.applyOptions({ color: color, priceFormat });
         }
         
         series.setData(data);
@@ -93,6 +96,7 @@ window.ChartSeriesManager = {
                 lastValueVisible: lastLabelVisible,
                 priceScaleId: 'right',
                 title: 'Average',
+                priceFormat: { type: 'custom', minMove: 0.1, formatter: (v) => { const diff = v - 100; const sign = diff > 0 ? '+' : diff < 0 ? '-' : ''; const dec = Math.abs(diff) >= 100 ? 0 : 1; return `${sign}${Math.abs(diff).toFixed(dec)}%`; } },
                 lineStyle: 2 // Dashed line
             });
         }
