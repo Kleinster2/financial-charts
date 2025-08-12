@@ -60,8 +60,6 @@ window.ChartDomBuilder = {
             border-radius: 4px;
             font-size: 12px;
             cursor: pointer;
-            opacity: ${isHidden ? 0.4 : 1};
-            text-decoration: ${isHidden ? 'line-through' : 'none'};
         `;
 
         // Create chip content
@@ -108,6 +106,9 @@ window.ChartDomBuilder = {
         };
         chip.appendChild(removeBtn);
 
+                if (isHidden) {
+            chip.classList.add('chip--hidden');
+        }
         return chip;
     },
 

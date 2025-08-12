@@ -11,12 +11,10 @@
       const ticker = chip.dataset.ticker;
       if (hiddenTickers.has(ticker)) {
         hiddenTickers.delete(ticker);
-        chip.style.opacity = '1';
-        chip.style.textDecoration = 'none';
+        chip.classList.remove('chip--hidden');
       } else {
         hiddenTickers.add(ticker);
-        chip.style.opacity = '0.4';
-        chip.style.textDecoration = 'line-through';
+        chip.classList.add('chip--hidden');
       }
       // let the parent card store updated set
       if (typeof syncHiddenCb === 'function') syncHiddenCb();
