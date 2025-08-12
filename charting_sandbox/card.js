@@ -219,8 +219,9 @@
                     return;
                 }
 
-                // Process each ticker
+                // Process each ticker, skip hidden ones
                 for (const ticker of tickerList) {
+                    if (hiddenTickers.has(ticker)) continue;
                     const tickerData = data[ticker];
                     if (!tickerData) continue;
 
