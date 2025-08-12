@@ -113,7 +113,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -124,6 +124,9 @@
         let chart = null;
         let volPane = null;
         let avgSeries = null;
+        
+        let crosshairHandler = null;
+        let debouncedRebase = null;
         let diffChart = null;
 
         const selectedTickers = new Set();
@@ -197,7 +200,7 @@
 
                 // Add legend
                 const legendEl = window.ChartLegend.createLegendElement(chartBox);
-                window.ChartLegend.subscribeToCrosshair(chart, legendEl, {
+                crosshairHandler = window.ChartLegend.subscribeToCrosshair(chart, legendEl, {
                     useRaw,
                     priceSeriesMap,
                     hiddenTickers,
@@ -277,12 +280,15 @@
                     );
                 }
 
+                
+
+
                 // Fit content
                 chart.timeScale().fitContent();
 
                 // Setup range-based rebasing
                 if (!useRaw) {
-                    window.ChartSeriesManager.setupRangeBasedRebasing(chart, {
+                    debouncedRebase = window.ChartSeriesManager.setupRangeBasedRebasing(chart, {
                         priceSeriesMap,
                         rawPriceMap,
                         multiplierMap,
@@ -390,7 +396,19 @@
             });
         }
 
-        elements.removeCardBtn.addEventListener('click', () => {
+        removeCardBtn.addEventListener('click', () => {
+            // Cleanup event listeners and timers to prevent memory leaks
+            if (chart) {
+                try {
+                    if (crosshairHandler) chart.unsubscribeCrosshairMove(crosshairHandler);
+                    if (debouncedRebase) {
+                        chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
+                        if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
+                    }
+                    
+                    window.ChartSeriesManager.clearAllSeries(chart);
+                } catch (e) { console.warn('[CardCleanup] Error during cleanup', e); }
+            }
             wrapper.removeChild(card);
             if (navLink) navLink.remove();
             saveCards();

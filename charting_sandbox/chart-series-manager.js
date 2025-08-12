@@ -161,6 +161,8 @@ window.ChartSeriesManager = {
             };
             clearTimeout(timeout);
             timeout = setTimeout(later, wait);
+            // allow external cancellation
+            executedFunction.cancel = () => clearTimeout(timeout);
         };
     },
 

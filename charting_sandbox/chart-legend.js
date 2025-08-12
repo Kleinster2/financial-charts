@@ -84,7 +84,7 @@ window.ChartLegend = {
 
         const formatter = useRaw ? this.formatPrice : this.formatPct;
 
-        chart.subscribeCrosshairMove(param => {
+        const handler = (param) => {
             if (!param || !param.point || param.time === undefined) {
                 legendEl.style.display = 'none';
                 return;
@@ -179,6 +179,9 @@ window.ChartLegend = {
             
             legendEl.style.left = `${left}px`;
             legendEl.style.top = `${top}px`;
-        });
+        };
+        // attach handler and expose for cleanup
+        chart.subscribeCrosshairMove(handler);
+        return handler;
     }
 };
