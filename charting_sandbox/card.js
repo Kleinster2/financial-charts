@@ -163,7 +163,7 @@
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
                     timeScale: { secondsVisible: false, rightOffset: 10, fixLeftEdge: true },
-                    rightPriceScale: { visible: true, scaleMargins: { top: 0.1, bottom: 0.1 } },
+                    rightPriceScale: { visible: true, mode: LightweightCharts.PriceScaleMode.Logarithmic, scaleMargins: { top: 0.1, bottom: 0.1 } },
                     crosshair: {
                         horzLine: { visible: false, labelVisible: false },
                         vertLine: { visible: true, labelVisible: true }
