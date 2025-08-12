@@ -407,39 +407,25 @@
             });
         }
 
-        // Handle chip interactions
-        selectedTickersDiv.addEventListener('click', e => {
-            const chip = e.target.closest('.chip');
-            if (!chip) return;
-            
-            const ticker = chip.dataset.ticker;
-            if (hiddenTickers.has(ticker)) {
-                hiddenTickers.delete(ticker);
-                chip.style.opacity = '1';
-                chip.style.textDecoration = 'none';
-            } else {
-                hiddenTickers.add(ticker);
-                chip.style.opacity = '0.4';
-                chip.style.textDecoration = 'line-through';
-            }
-            card._hiddenTickers = hiddenTickers;
-            saveCards();
-            plot();
-        });
+        // Bind chip toggle & multiplier events via helper
+        window.CardEventBinder.bindTickerInteractions(
+            selectedTickersDiv,
+            hiddenTickers,
+            multiplierMap,
+            () => { card._hiddenTickers = hiddenTickers; },
+            () => plot(),
+            saveCards,
+            () => useRaw
+        );
 
-        // Handle multiplier changes
-        selectedTickersDiv.addEventListener('input', e => {
-            if (e.target.classList.contains('multiplier-input')) {
-                const ticker = e.target.dataset.ticker;
-                const value = parseFloat(e.target.value);
-                if (!isNaN(value) && value > 0) {
-                    multiplierMap.set(ticker, value);
-                    card._multiplierMap = multiplierMap;
-                    saveCards();
-                    if (!useRaw) plot();
-                }
-            }
-        });
+
+
+
+            
+            
+            
+            
+
 
         // Auto-plot if we have initial tickers
         if (selectedTickers.size > 0) {
