@@ -418,15 +418,6 @@
             () => useRaw
         );
 
-
-
-
-            
-            
-            
-            
-
-
         // Auto-plot if we have initial tickers
         if (selectedTickers.size > 0) {
             setTimeout(plot, 100);
