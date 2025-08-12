@@ -4,7 +4,8 @@
  */
 (() => {
     const WRAPPER_ID = 'charts-wrapper';
-    const colors = [
+    const SETTINGS = {
+        COLORS: [
         '#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf',
         '#393b79','#637939','#8c6d31','#843c39','#7b4173','#3182bd','#31a354','#756bb1','#636363','#e6550d',
         '#e31a1c','#6baed6','#9ecae1','#c6dbef','#fd8d3c','#fdd0a2','#fdae6b','#a1d99b','#74c476','#31a354',
@@ -13,12 +14,17 @@
         '#006837','#004529','#990099','#ff0099','#00bfff','#ffa500','#ff0000','#00ff00','#008FFB','#00E396',
         '#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26a69a', '#D10CE8',
         '#FF66C3', '#FF8633', '#2B908F', '#F0E442', '#3D85C6', '#A52A2A', '#FFD700', '#00BFFF',
-        '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'
-    ];
+        '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'],
+        VOL_WINDOW: 100,          // bars for volume SMA
+        PLOT_DEFER_MS: 100        // delay before initial plot
+    };
+    // convenient local aliases
+    const colors = SETTINGS.COLORS;
+    const { VOL_WINDOW, PLOT_DEFER_MS } = SETTINGS;
     
     let globalCardCounter = 0;
     const nameCache = {};
-    const VOL_WINDOW = 100;
+    
 
     // Company name fetching
     // Fetch company names for tickers; optionally pass in chipNodes to avoid global DOM scan
@@ -423,7 +429,7 @@
 
         // Auto-plot if we have initial tickers
         if (selectedTickers.size > 0) {
-            setTimeout(plot, 100);
+            setTimeout(plot, PLOT_DEFER_MS);
         }
 
         return card;
