@@ -120,6 +120,7 @@ window.ChartSeriesManager = {
         } = options;
 
         const debouncedRebase = this.debounce((visible) => {
+            try {
             if (useRaw || !visible || !visible.from) return;
 
             const from = Math.round(visible.from);
@@ -138,6 +139,9 @@ window.ChartSeriesManager = {
 
             if (showAvg) {
                 updateAverageSeries(visible);
+            }
+                    } catch (error) {
+                console.warn('[SeriesManager] Rebase callback error:', error);
             }
         }, 500);
 
