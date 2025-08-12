@@ -11,19 +11,41 @@ window.ChartLegend = {
         chartBox.style.position = 'relative';
         const legendEl = document.createElement('div');
         legendEl.className = 'floating-legend';
+        // Create a container for the legend that will handle overflow
+        const legendContainer = document.createElement('div');
+        Object.assign(legendContainer.style, {
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            width: '100%',
+            height: '100%',
+            pointerEvents: 'none',
+            overflow: 'visible',
+            zIndex: '1000'
+        });
+        
+        // Style the legend element
         Object.assign(legendEl.style, {
             position: 'absolute',
             pointerEvents: 'none',
-            background: 'rgba(255,255,255,0.85)',
+            background: 'rgba(255,255,255,0.95)',
             border: '1px solid #ccc',
             borderRadius: '4px',
             padding: '2px 4px',
             fontSize: '12px',
             display: 'none',
-            zIndex: 1000,
             whiteSpace: 'nowrap',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+            maxHeight: '90vh',
+            overflowY: 'auto',
+            zIndex: '1001',
+            transform: 'translateZ(0)' // Force hardware acceleration
         });
-        chartBox.appendChild(legendEl);
+        
+        // Add legend to container, and container to chart box
+        legendContainer.appendChild(legendEl);
+        chartBox.appendChild(legendContainer);
+
         return legendEl;
     },
 
@@ -132,7 +154,8 @@ window.ChartLegend = {
             legendEl.style.display = 'block';
             
             // Position legend
-            const rect = chartBox.getBoundingClientRect();
+            const container = legendEl.closest('.chart-box') || legendEl.parentElement;
+            const rect = container.getBoundingClientRect();
             const x = param.point.x;
             const y = param.point.y;
             const legendWidth = 150;
@@ -141,12 +164,17 @@ window.ChartLegend = {
             let left = x + 10;
             let top = y - legendHeight / 2;
             
+            // Constrain legend to stay within chart boundaries with a buffer
+            const buffer = 20; // pixels from edges
+            
             if (left + legendWidth > rect.width) {
-                left = x - legendWidth - 10;
+                left = rect.width - legendWidth - buffer;
             }
-            if (top < 0) top = 10;
-            if (top + legendHeight > rect.height) {
-                top = rect.height - legendHeight - 10;
+            if (left < buffer) left = buffer;
+            
+            if (top < buffer) top = buffer;
+            if (top + legendHeight > rect.height - buffer) {
+                top = rect.height - legendHeight - buffer;
             }
             
             legendEl.style.left = `${left}px`;
