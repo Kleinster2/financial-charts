@@ -161,6 +161,8 @@ window.ChartDomBuilder = {
     /**
      * Add ticker chips to the selected tickers div
      */
+    normalizeTicker(t){ return t.trim().toUpperCase(); },
+
     addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers) {
         selectedTickersDiv.innerHTML = '';
         tickers.forEach(ticker => {
@@ -180,7 +182,7 @@ window.ChartDomBuilder = {
         
         // Split by comma or space, trim, uppercase, and filter empty
         return input.split(/[,\s]+/)
-            .map(t => t.trim().toUpperCase())
+            .map(t => this.normalizeTicker(t))
             .filter(t => t.length > 0);
     }
 };

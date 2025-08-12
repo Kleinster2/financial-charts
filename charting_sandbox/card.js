@@ -167,7 +167,7 @@
 
         // Add ticker function
         const addTicker = () => {
-            const input = tickerInput.value.trim().toUpperCase();
+            const input = window.ChartDomBuilder.normalizeTicker(tickerInput.value);
             if (!input || selectedTickers.has(input)) return;
             
             selectedTickers.add(input);
