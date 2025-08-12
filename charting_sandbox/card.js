@@ -84,6 +84,23 @@
         const cardId = `chart-${globalCardCounter}`;
         const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle);
         wrapper.appendChild(card);
+        // --- navigation link ---
+        const nav = document.getElementById('chart-nav');
+        let navLabel = initialTitle || '';
+        if (!navLabel) {
+            const firstTicker = initialTickers && typeof initialTickers === 'string'
+                ? initialTickers.split(/[,\s]+/).filter(Boolean)[0]
+                : '';
+            navLabel = firstTicker || `Card ${globalCardCounter}`;
+        }
+        let navLink = null;
+        if (nav) {
+            navLink = document.createElement('a');
+            navLink.href = `#${cardId}`;
+            navLink.textContent = navLabel;
+            nav.appendChild(navLink);
+        }
+        card._navLink = navLink;
 
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
@@ -365,6 +382,7 @@
 
         elements.removeCardBtn.addEventListener('click', () => {
             wrapper.removeChild(card);
+            if (navLink) navLink.remove();
             saveCards();
         });
 
@@ -381,6 +399,9 @@
         if (titleInput) {
             titleInput.addEventListener('input', () => {
                 card._title = titleInput.value;
+                if (navLink) {
+                    navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
+                }
                 saveCards();
             });
         }
