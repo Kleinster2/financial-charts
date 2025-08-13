@@ -44,7 +44,7 @@ ETF_TICKERS = [
 # --- High-profile non-S&P 500 U.S. stocks to track ---
 OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
-    "BYND","CELH","CPNG","DASH","FSR","LCID","NU","RIVN","TOST","U","UPST", "CRWV", "FIG",
+    "BYND","CELH","CPNG","DASH","FSR","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS",
 ]
