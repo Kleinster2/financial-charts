@@ -255,7 +255,7 @@ def get_data():
     
     conn = get_db_connection()
 
-    # Determine which tickers belong to which table
+        # --- Determine which tickers belong to which table ---
     stock_cols, futures_cols = set(), set()
     try:
         cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
@@ -268,43 +268,28 @@ def get_data():
     except sqlite3.OperationalError:
         pass
 
-    stock_sel = [t for t in tickers if t in stock_cols]
-    futures_sel = [t for t in tickers if t in futures_cols]
-
-    df_list = []
-    if stock_sel:
-        cols = '\", \"'.join(stock_sel)
-        q = f'SELECT Date, "{cols}" FROM stock_prices_daily ORDER BY Date ASC'
-        df_stock = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
-        df_list.append(df_stock)
-    if futures_sel:
-        cols = '\", \"'.join(futures_sel)
-        q = f'SELECT Date, "{cols}" FROM futures_prices_daily ORDER BY Date ASC'
-        df_fut = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
-        df_list.append(df_fut)
-
-    conn.close()
-
-    if not df_list:
-        # Return empty arrays for requested tickers when no data is found
-        return jsonify({t: [] for t in tickers}), 200
-
-    df = pd.concat(df_list, axis=1)
-
-    # The frontend now expects raw data. It also expects 'time' as a UNIX timestamp.
-    df['time'] = (df.index.astype('int64') / 10**9).astype(int)
-
+    # Assign each requested ticker to *exactly one* source table to prevent
+    # duplicate column names that break pd.concat (InvalidIndexError).
+    # Build chart_data per ticker to avoid column duplication issues entirely
     chart_data = {}
     for ticker in tickers:
-        if ticker in df.columns:
-            temp_df = df[['time', ticker]].copy()
-            temp_df.rename(columns={ticker: 'value'}, inplace=True)
-            # Convert NaN to None, which becomes JSON's `null`.
-            # This allows the chart to render gaps for missing data.
-            temp_df['value'] = temp_df['value'].replace({np.nan: None})
-            chart_data[ticker] = temp_df.to_dict(orient='records')
+        if ticker in stock_cols:
+            table = 'stock_prices_daily'
+        elif ticker in futures_cols:
+            table = 'futures_prices_daily'
         else:
             chart_data[ticker] = []
+            continue
+
+        q = f'SELECT Date, "{ticker}" as value FROM {table} WHERE "{ticker}" IS NOT NULL ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, parse_dates=['Date'])
+        if df.empty:
+            chart_data[ticker] = []
+            continue
+        df['time'] = (df['Date'].astype("int64") // 10**9).astype(int)
+        chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+
+    conn.close()
 
     return jsonify(chart_data)
 
