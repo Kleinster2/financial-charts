@@ -13,13 +13,50 @@
   function activateTab(pageNum){
     Array.from(tabBar.children).forEach(t=>t.classList.toggle('active', t.dataset.page==pageNum+''));
   }
-  function switchTo(pageEl){
-    // hide all pages then show selected
-    Array.from(pagesContainer.children).forEach(p=>p.style.display='none');
-    pageEl.style.display='block';
+  function switchTo(pageEl) {
+    if (!pageEl) return;
+    
+    // Hide all pages
+    Array.from(pagesContainer.children).forEach(p => {
+      p.style.display = 'none';
+    });
+    
+    // Show the target page
+    pageEl.style.display = 'block';
     activateTab(pageEl.dataset.page);
+    
+    // Trigger plot for all charts on the newly visible page if they haven't been plotted
+    // Use a small delay to ensure cards are fully initialized
+    setTimeout(() => {
+      // Charts are inside the wrapper div, not directly under the page
+      const wrapper = pageEl.querySelector('[id^="charts-wrapper"]');
+      const charts = wrapper ? wrapper.querySelectorAll('.chart-card') : [];
+      console.log(`[PageManager] Switching to page ${pageEl.dataset.page}, found ${charts.length} charts`);
+      
+      charts.forEach((card, idx) => {
+        const hasTickers = card._selectedTickers && card._selectedTickers.size > 0;
+        const chartBox = card.querySelector('.chart-box');
+        const hasCanvas = chartBox && chartBox.querySelector('canvas');
+        
+        console.log(`[PageManager] Chart ${idx + 1} on page ${pageEl.dataset.page}: hasTickers=${hasTickers}, hasCanvas=${hasCanvas}`);
+        
+        // Check if card has tickers but no chart (not plotted yet)
+        if (hasTickers && chartBox && !hasCanvas) {
+          // Chart hasn't been rendered yet, trigger plot
+          const plotBtn = card.querySelector('.plot-btn');
+          if (plotBtn) {
+            console.log(`[PageManager] Auto-plotting uninitialized chart ${idx + 1} on page ${pageEl.dataset.page}`);
+            plotBtn.click();
+          } else {
+            console.error(`[PageManager] Plot button not found for chart ${idx + 1} on page ${pageEl.dataset.page}`);
+          }
+        }
+      });
+    }, 100); // Small delay to ensure cards are initialized
+    
+    // Save active page
+    savePages();
   }
-
 
   // create initial tab for page 1
   function createTab(num){
@@ -122,6 +159,20 @@
       console.error('pages.js: createChartCard is not available yet.');
     }
   });
+  // Expose PageManager functions to window for cross-module access
+  window.PageManager = {
+    getActivePage: getActivePage,
+    ensurePage: function(pageNum) {
+      ensurePage(pageNum);
+      // Return the wrapper element for the page
+      const pageEl = pagesContainer.querySelector(`[data-page="${pageNum}"]`);
+      if (pageEl) {
+        return pageEl.querySelector('[id^="charts-wrapper"]');
+      }
+      return document.getElementById('charts-wrapper');
+    }
+  };
+
   // Signal readiness for listeners that depend on PageManager
   try { document.dispatchEvent(new Event('PageManagerReady')); } catch(e) {}
 })();

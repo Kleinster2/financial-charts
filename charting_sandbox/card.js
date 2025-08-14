@@ -114,7 +114,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -415,15 +415,26 @@
             saveCards();
         });
 
-        elements.addChartBtn.addEventListener('click', () => {
-            const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
-                Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                card._visibleRange, '', lastLabelVisible, null);
-            saveCards();
-            if (card.nextSibling) {
-                wrapper.insertBefore(newCard, card.nextSibling);
-            }
-        });
+        // Add Chart button - creates new chart on the currently active page
+        if (addChartBtn) {
+            addChartBtn.addEventListener('click', () => {
+                // Get the current active page wrapper
+                let targetWrapper = null;
+                if (window.PageManager && window.PageManager.getActivePage) {
+                    const activePage = window.PageManager.getActivePage();
+                    targetWrapper = window.PageManager.ensurePage(activePage);
+                }
+                // Create new chart on the active page (or default wrapper if no pages)
+                const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
+                    Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
+                    card._visibleRange, '', lastLabelVisible, targetWrapper);
+                saveCards();
+                // Insert new card after the current card (within the same page)
+                if (card.nextSibling) {
+                    (targetWrapper || wrapper).insertBefore(newCard, card.nextSibling);
+                }
+            });
+        }
 
         if (titleInput) {
             titleInput.addEventListener('input', () => {
@@ -446,9 +457,14 @@
             () => useRaw
         );
 
-        // Auto-plot if we have initial tickers
+        // Auto-plot if we have initial tickers and the page is visible
         if (selectedTickers.size > 0) {
-            setTimeout(plot, PLOT_DEFER_MS);
+            // Check if this card's page is currently visible
+            const page = card.closest('.page');
+            if (page && page.style.display !== 'none') {
+                setTimeout(plot, PLOT_DEFER_MS);
+            }
+            // If page is hidden, pages.js will trigger plot when it becomes visible
         }
 
         return card;
