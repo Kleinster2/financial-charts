@@ -62,10 +62,9 @@
             lastLabelVisible: card._lastLabelVisible !== false
         }));
         
-        if (window.StateManager) {
-            window.StateManager.saveCardsDebounced(cards);
-        } else {
-            localStorage.setItem('sandbox_cards', JSON.stringify(cards));
+        localStorage.setItem('sandbox_cards', JSON.stringify(cards));
+        if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
+            window.StateManager.saveCards(cards);
         }
     }
     window.saveCards = saveCards;

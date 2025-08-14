@@ -25,34 +25,30 @@ window.StateManager = {
         PREFERENCES: 'chart_preferences'
     },
     
-    // Save state with debouncing
-    saveCardsDebounced: null,
-    
-    /**
-     * Initialize the state manager
-     */
-    init() {
-        // Create debounced save function (300ms delay)
-        this.saveCardsDebounced = debounce(this.saveCards.bind(this), 300);
-    },
+    // internal timer for backend saves
+    _saveTimeout: null,
     
     /**
      * Save cards to localStorage and backend
      */
     async saveCards(cards) {
-        this.saveCardsDebounced(cards);
-    },
-    
-    saveCardsDebounced(cards) {
         // Save to localStorage immediately
-        localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(cards));
-        
+        try {
+            localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(cards));
+        } catch (e) {
+            console.error('[StateManager] Failed to write localStorage', e);
+        }
+
         // Debounce saving to backend
         clearTimeout(this._saveTimeout);
         this._saveTimeout = setTimeout(() => {
-            console.log('[StateManager] Auto-saving to backend...');
-            this.saveToBackend(cards);
-        }, 2000); // 2 second debounce for backend saves
+            try {
+                console.log('[StateManager] Auto-saving to backend...');
+                this.saveToBackend(cards);
+            } catch (e) {
+                console.error('[StateManager] Backend save scheduling failed', e);
+            }
+        }, 2000);
     },
     
     /**
@@ -260,8 +256,4 @@ window.StateManager = {
     }
 };
 
-// Initialize on load
-StateManager.init();
-
-// Export for use in other modules
-window.StateManager = StateManager;
+// No-op footer: StateManager is already exposed as window.StateManager above.
