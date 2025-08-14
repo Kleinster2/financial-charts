@@ -49,6 +49,7 @@
     // Save all chart states
     function saveCards() {
         const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => ({
+            page: card.closest('.page')?.dataset.page || '1',
             tickers: Array.from(card._selectedTickers || []),
             showDiff: !!card._showDiff,
             showAvg: !!card._showAvg,
@@ -67,6 +68,7 @@
             localStorage.setItem('sandbox_cards', JSON.stringify(cards));
         }
     }
+    window.saveCards = saveCards;
 
     function createChartCard(
         initialTickers = 'SPY',
@@ -490,20 +492,26 @@
         } else {
             const stored = JSON.parse(localStorage.getItem('sandbox_cards') || '[]');
             if (stored.length) {
-                stored.forEach(c => createChartCard(
-                    c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true
-                ));
+                stored.forEach(c => {
+                    const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
+                    createChartCard(
+                        c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
+                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                    );
+                });
             } else {
                 // Try to restore from backend
                 fetch('http://localhost:5000/api/workspace')
                     .then(r => r.json())
                     .then(ws => {
                         if (Array.isArray(ws) && ws.length) {
-                            ws.forEach(c => createChartCard(
-                                c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true
-                            ));
+                            ws.forEach(c => {
+                                const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
+                                createChartCard(
+                                    c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
+                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                                );
+                            });
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));
                         } else {
                             createChartCard('SPY');

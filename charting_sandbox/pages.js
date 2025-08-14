@@ -39,6 +39,24 @@
   // ensure first page visible only
   switchTo(pagesContainer.querySelector('[data-page="1"]'));
 
+  function ensurePage(num){
+    let pageEl = pagesContainer.querySelector(`[data-page="${num}"]`);
+    if(!pageEl){
+      pageCounter = Math.max(pageCounter, num);
+      // create page and wrapper
+      pageEl = document.createElement('div');
+      pageEl.className='page';
+      pageEl.dataset.page=num;
+      const wrapper=document.createElement('div');
+      wrapper.id = num === 1 ? 'charts-wrapper' : `charts-wrapper-${num}`;
+      pageEl.appendChild(wrapper);
+      pagesContainer.appendChild(pageEl);
+      createTab(num);
+    }
+    return pageEl.querySelector('[id^="charts-wrapper"]');
+  }
+  window.PageManager = { ensurePage };
+
   newPageBtn.addEventListener('click', () => {
     pageCounter += 1;
     // create page container
@@ -58,6 +76,7 @@
     // create a blank chart card inside this wrapper
     if (typeof createChartCard === 'function') {
       createChartCard('', false, false, true, false, {}, [], null, '', true, wrapper);
+      if(window.saveCards) window.saveCards();
     } else {
       console.error('pages.js: createChartCard is not available yet.');
     }
