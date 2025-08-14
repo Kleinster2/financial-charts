@@ -289,6 +289,17 @@
 
                 // Setup range-based rebasing
                 if (!useRaw) {
+                    // Debug: Log when setting up rebasing
+                    const pageNum = card.closest('[data-page]')?.dataset?.page || '1';
+                    const isVisible = card.closest('.page')?.classList?.contains('visible');
+                    console.log(`[Rebasing Setup] Chart on page ${pageNum}, visible: ${isVisible}, tickers: ${Array.from(selectedTickers).join(',')}`);
+                    
+                    // Clear any existing subscription before setting up new one
+                    if (debouncedRebase) {
+                        chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
+                        if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
+                    }
+                    
                     debouncedRebase = window.ChartSeriesManager.setupRangeBasedRebasing(chart, {
                         priceSeriesMap,
                         rawPriceMap,
@@ -304,6 +315,17 @@
                         },
                         useRaw
                     });
+                    
+                    // Force an initial rebase after a small delay if page is not visible
+                    if (!isVisible) {
+                        setTimeout(() => {
+                            const visible = chart.timeScale().getVisibleRange();
+                            if (visible && debouncedRebase) {
+                                console.log(`[Rebasing] Forcing initial rebase for hidden chart on page ${pageNum}`);
+                                debouncedRebase(visible);
+                            }
+                        }, 100);
+                    }
                 }
 
             } catch (error) {
