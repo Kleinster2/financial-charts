@@ -182,8 +182,15 @@ def update_sp500_data(verbose: bool = True):
             # Read without date parsing first so that an empty table doesn’t raise a KeyError
             existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
             if not existing_df.empty and 'Date' in existing_df.columns:
-                # Only parse dates and set the index when data actually exists and has a 'Date' column
-                existing_df['Date'] = pd.to_datetime(existing_df['Date'])
+                # Robust date parsing to handle mixed formats (e.g., "YYYY-MM-DD" and locale-specific)
+                def _safe_parse(s):
+                    try:
+                        return pd.to_datetime(s, format="%Y-%m-%d", errors="raise")
+                    except Exception:
+                        # Fallback: let pandas infer or treat dayfirst as needed; coerce invalid to NaT
+                        return pd.to_datetime(s, errors="coerce", dayfirst=False)
+                existing_df['Date'] = existing_df['Date'].apply(_safe_parse)
+                existing_df.dropna(subset=['Date'], inplace=True)
                 existing_df.set_index('Date', inplace=True)
         if vol_table_exists:
             existing_vol_df = pd.read_sql("SELECT * FROM stock_volumes_daily", conn)
