@@ -223,7 +223,9 @@ def get_tickers():
 
 @app.route('/api/metadata')
 def get_metadata():
-    """Return a mapping of ticker -> company name for provided tickers"""
+    """Return a mapping of ticker -> display name for provided tickers.
+    Priority: ticker_metadata.name → stock_metadata.name → ticker itself.
+    """
     tickers_str = request.args.get('tickers', '')
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
     # Empty query → empty JSON
@@ -233,11 +235,43 @@ def get_metadata():
     try:
         conn = get_db_connection()
         placeholders = ','.join(['?'] * len(tickers))
-        query = f"SELECT ticker, name FROM stock_metadata WHERE ticker IN ({placeholders})"
-        df = pd.read_sql(query, conn, params=tickers)
+        names = {}
+
+        # 1) Try unified ticker_metadata first (if present)
+        try:
+            q1 = f"SELECT ticker, name FROM ticker_metadata WHERE ticker IN ({placeholders})"
+            df1 = pd.read_sql(q1, conn, params=tickers)
+            for _, row in df1.iterrows():
+                n = (row['name'] or '').strip()
+                if n:
+                    names[row['ticker']] = n
+            app.logger.info(f"/api/metadata: ticker_metadata hits={len(names)}")
+        except Exception as e:
+            app.logger.warning(f"/api/metadata: ticker_metadata lookup skipped/failed: {e}")
+
+        # 2) Fallback to legacy stock_metadata for any missing
+        missing = [t for t in tickers if t not in names]
+        if missing:
+            try:
+                ph = ','.join(['?'] * len(missing))
+                q2 = f"SELECT ticker, name FROM stock_metadata WHERE ticker IN ({ph})"
+                df2 = pd.read_sql(q2, conn, params=missing)
+                add = 0
+                for _, row in df2.iterrows():
+                    n = (row['name'] or '').strip()
+                    if n and row['ticker'] not in names:
+                        names[row['ticker']] = n
+                        add += 1
+                app.logger.info(f"/api/metadata: stock_metadata hits={add}")
+            except Exception as e:
+                app.logger.warning(f"/api/metadata: stock_metadata lookup failed: {e}")
+
         conn.close()
-        # Build dict; if name NULL fallback to ticker
-        mapping = {row['ticker']: (row['name'] or row['ticker']) for _, row in df.iterrows()}
+
+        # 3) Final mapping: fallback to ticker itself for any missing
+        mapping = {t: names.get(t, t) for t in tickers}
+        resolved = sum(1 for t in tickers if mapping[t] != t)
+        app.logger.info(f"/api/metadata: requested={len(tickers)} resolved={resolved} missing={len(tickers)-resolved}")
         return jsonify(mapping)
     except Exception as e:
         app.logger.error(f"/api/metadata error: {e}")
