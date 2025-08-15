@@ -39,6 +39,8 @@ ETF_TICKERS = [
     "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
     # Treasury yield index symbols (yields, not prices)
     "^IRX", "^FVX", "^TNX", "^TYX"
+    # Crytpto ETFs
+    "BITO", "BTCB", "ETHB", "ETHD", "ETHU", "ETHZ",
 ]
 
 # --- High-profile non-S&P 500 U.S. stocks to track ---
@@ -46,7 +48,9 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
     "BYND","CELH","CPNG","DASH","FSR","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG",
     # Data Centers
-    "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS",
+    "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
+    # Crypto / Blockchain
+    "CRCL", "CRON",
 ]
 
 # --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
