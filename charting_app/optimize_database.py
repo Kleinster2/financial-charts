@@ -32,13 +32,14 @@ def create_indexes(conn):
         ("idx_stock_volumes_date", "stock_volumes_daily", "Date"),
         ("idx_futures_volumes_date", "futures_volumes_daily", "Date"),
         
-        # ETF data indexes
-        ("idx_etf_holdings_date", "etf_holdings", "Date"),
-        ("idx_etf_holdings_etf", "etf_holdings", "etf"),
-        ("idx_etf_holdings_composite", "etf_holdings", "Date, etf"),
+        # ETF data indexes (daily holdings)
+        ("idx_etf_holdings_daily_date", "etf_holdings_daily", "snapshot_date"),
+        ("idx_etf_holdings_daily_etf", "etf_holdings_daily", "etf"),
+        ("idx_etf_holdings_daily_composite", "etf_holdings_daily", "snapshot_date, etf"),
         
         # Metadata indexes
         ("idx_stock_metadata_ticker", "stock_metadata", "ticker"),
+        ("idx_ticker_metadata_ticker", "ticker_metadata", "ticker"),
     ]
     
     for index_name, table_name, columns in indexes:
@@ -164,15 +165,15 @@ def populate_ticker_metadata(conn):
     
     # Add ETF metadata
     try:
-        cursor.execute("SELECT DISTINCT etf FROM etf_holdings")
+        cursor.execute("SELECT DISTINCT etf FROM etf_holdings_daily")
         etfs = cursor.fetchall()
         for (etf,) in etfs:
             cursor.execute("""
                 SELECT 
-                    MIN(Date) as first_date,
-                    MAX(Date) as last_date,
-                    COUNT(DISTINCT Date) as data_points
-                FROM etf_holdings
+                    MIN(snapshot_date) as first_date,
+                    MAX(snapshot_date) as last_date,
+                    COUNT(DISTINCT snapshot_date) as data_points
+                FROM etf_holdings_daily
                 WHERE etf = ?
             """, (etf,))
             
@@ -182,7 +183,7 @@ def populate_ticker_metadata(conn):
                     INSERT OR REPLACE INTO ticker_metadata 
                     (ticker, table_name, data_type, first_date, last_date, data_points)
                     VALUES (?, ?, ?, ?, ?, ?)
-                """, (etf, 'etf_holdings', 'etf', result[0], result[1], result[2]))
+                """, (etf, 'etf_holdings_daily', 'etf', result[0], result[1], result[2]))
                 
                 logging.info(f"Added metadata for ETF {etf}: {result[2]} data points")
     
