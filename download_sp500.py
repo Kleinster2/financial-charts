@@ -38,9 +38,14 @@ ETF_TICKERS = [
     # Volatility indices (Yahoo '^' symbols) and ETNs
     "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
     # Treasury yield index symbols (yields, not prices)
-    "^IRX", "^FVX", "^TNX", "^TYX"
-    # Crytpto ETFs
-    "BITO", "BTCB", "ETHB", "ETHD", "ETHU", "ETHZ",
+    "^IRX", "^FVX", "^TNX", "^TYX",  # added comma after TYX
+    # Crypto ETFs (spot, futures, blockchain)
+    # -- Bitcoin spot ETFs
+    "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
+    # -- Bitcoin futures/inverse ETFs
+    "BITO", "BTF", "XBTF", "BITI",
+    # -- Blockchain/crypto industry ETFs
+    "BLOK", "DAPP", "BKCH", "BITQ",
 ]
 
 # --- High-profile non-S&P 500 U.S. stocks to track ---
