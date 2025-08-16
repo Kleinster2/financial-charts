@@ -129,6 +129,8 @@
         let crosshairHandler = null;
         let debouncedRebase = null;
         let diffChart = null;
+        let rangeSaveHandler = null;
+        const debouncedSaveCards = (window.ChartUtils && window.ChartUtils.debounce) ? window.ChartUtils.debounce(saveCards, 300) : saveCards;
 
         const selectedTickers = new Set();
         const hiddenTickers = new Set(initialHidden);
@@ -283,9 +285,20 @@
 
                 
 
-
-                // Fit content
-                chart.timeScale().fitContent();
+                // Subscribe to save visible range changes (debounced)
+                if (rangeSaveHandler) {
+                    chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                }
+                rangeSaveHandler = (visible) => {
+                    if (visible && visible.from && visible.to) {
+                        const from = Math.round(visible.from);
+                        const to = Math.round(visible.to);
+                        card._visibleRange = { from, to };
+                        console.log(`[RangeSave:${cardId}] Visible time range changed => from ${from}, to ${to}`);
+                        debouncedSaveCards();
+                    }
+                };
+                chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
 
                 // Setup range-based rebasing
                 if (!useRaw) {
@@ -326,6 +339,19 @@
                             }
                         }, 100);
                     }
+                }
+
+                // Apply saved or default visible range
+                const saved = card._visibleRange || initialRange;
+                if (saved && saved.from && saved.to) {
+                    try {
+                        chart.timeScale().setVisibleRange(saved);
+                        console.log(`[RangeApply:${cardId}] Applied saved time range => from ${saved.from}, to ${saved.to}`);
+                    } catch (e) {
+                        chart.timeScale().fitContent();
+                    }
+                } else {
+                    chart.timeScale().fitContent();
                 }
 
             } catch (error) {
@@ -416,28 +442,12 @@
                 const from = Date.UTC(startYear, 0, 1) / 1000;
                 const to = Math.floor(Date.now() / 1000);
                 chart.timeScale().setVisibleRange({ from, to });
+                // persist selection
+                card._visibleRange = { from, to };
+                saveCards();
             });
         }
 
-        removeCardBtn.addEventListener('click', () => {
-            // Cleanup event listeners and timers to prevent memory leaks
-            if (chart) {
-                try {
-                    if (crosshairHandler) chart.unsubscribeCrosshairMove(crosshairHandler);
-                    if (debouncedRebase) {
-                        chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
-                        if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
-                    }
-                    
-                    window.ChartSeriesManager.clearAllSeries(chart);
-                } catch (e) { console.warn('[CardCleanup] Error during cleanup', e); }
-            }
-            wrapper.removeChild(card);
-            if (navLink) navLink.remove();
-            saveCards();
-        });
-
-        // Add Chart button - creates new chart on the currently active page
         if (addChartBtn) {
             addChartBtn.addEventListener('click', () => {
                 // Get the current active page wrapper

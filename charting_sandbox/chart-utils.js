@@ -314,4 +314,4 @@ window.ChartUtils = {
 };
 
 // Export for use in other modules
-window.ChartUtils = ChartUtils;
+try { console.log('[ChartUtils] Loaded'); } catch(e) {}
