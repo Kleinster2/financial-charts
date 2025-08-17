@@ -286,7 +286,34 @@ def get_data():
         return jsonify({'error': 'At least one ticker is required'}), 400
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
-    
+
+    # Optional filters
+    start_str = request.args.get('start')
+    end_str = request.args.get('end')
+    tf = (request.args.get('tf') or '1d').lower()
+
+    # Normalize timeframe
+    tf_map = {
+        '1d': '1d', 'd': '1d', '1day': '1d',
+        '1w': '1w', '1wk': '1w', 'w': '1w', '1week': '1w',
+        '1mo': '1mo', '1mth': '1mo', '1month': '1mo', 'mo': '1mo',
+    }
+    tf = tf_map.get(tf, '1d')
+
+    # Validate dates to YYYY-MM-DD
+    def _norm_date(s):
+        if not s:
+            return None
+        try:
+            return pd.to_datetime(s).strftime('%Y-%m-%d')
+        except Exception:
+            return None
+
+    start_sql = _norm_date(start_str)
+    end_sql = _norm_date(end_str)
+
+    app.logger.info(f"/api/data params: start={start_sql}, end={end_sql}, tf={tf}, tickers={len(tickers)}")
+
     conn = get_db_connection()
 
         # --- Determine which tickers belong to which table ---
@@ -315,13 +342,32 @@ def get_data():
             chart_data[ticker] = []
             continue
 
-        q = f'SELECT Date, "{ticker}" as value FROM {table} WHERE "{ticker}" IS NOT NULL ORDER BY Date ASC'
-        df = pd.read_sql_query(q, conn, parse_dates=['Date'])
+        conditions = [f'"{ticker}" IS NOT NULL']
+        params = []
+        if start_sql:
+            conditions.append('Date >= ?')
+            params.append(start_sql)
+        if end_sql:
+            conditions.append('Date <= ?')
+            params.append(end_sql)
+        where_clause = ' AND '.join(conditions)
+        q = f'SELECT Date, "{ticker}" as value FROM {table} WHERE {where_clause} ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, params=params, parse_dates=['Date'])
         if df.empty:
             chart_data[ticker] = []
             continue
-        df['time'] = (df['Date'].astype("int64") // 10**9).astype(int)
-        chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+        # Set index for resampling
+        df = df.set_index('Date').sort_index()
+        # Resample (prices: last)
+        if tf != '1d':
+            freq = 'W-FRI' if tf == '1w' else 'M'
+            df = df.resample(freq).last().dropna(how='all')
+        if df.empty:
+            chart_data[ticker] = []
+            continue
+        out = df[['value']].copy()
+        out['time'] = (out.index.astype('int64') // 10**9).astype(int)
+        chart_data[ticker] = out[['time', 'value']].to_dict(orient='records')
 
     conn.close()
 
@@ -341,6 +387,31 @@ def get_volume():
         return jsonify({'error': 'At least one ticker is required'}), 400
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
+
+    # Optional filters
+    start_str = request.args.get('start')
+    end_str = request.args.get('end')
+    tf = (request.args.get('tf') or '1d').lower()
+
+    tf_map = {
+        '1d': '1d', 'd': '1d', '1day': '1d',
+        '1w': '1w', '1wk': '1w', 'w': '1w', '1week': '1w',
+        '1mo': '1mo', '1mth': '1mo', '1month': '1mo', 'mo': '1mo',
+    }
+    tf = tf_map.get(tf, '1d')
+
+    def _norm_date(s):
+        if not s:
+            return None
+        try:
+            return pd.to_datetime(s).strftime('%Y-%m-%d')
+        except Exception:
+            return None
+
+    start_sql = _norm_date(start_str)
+    end_sql = _norm_date(end_str)
+
+    app.logger.info(f"/api/volume params: start={start_sql}, end={end_sql}, tf={tf}, tickers={len(tickers)}")
 
     conn = get_db_connection()
 
@@ -362,26 +433,55 @@ def get_volume():
 
     if selected_stock:
         safe_cols = '\", \"'.join(selected_stock)
-        q = f'SELECT Date, "{safe_cols}" FROM stock_volumes_daily ORDER BY Date ASC'
-        df = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
+        conds = []
+        params = []
+        if start_sql:
+            conds.append('Date >= ?')
+            params.append(start_sql)
+        if end_sql:
+            conds.append('Date <= ?')
+            params.append(end_sql)
+        where_clause = (" WHERE " + " AND ".join(conds)) if conds else ""
+        q = f'SELECT Date, "{safe_cols}" FROM stock_volumes_daily{where_clause} ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, params=params, parse_dates=['Date']).set_index('Date')
+        # Resample (volumes: sum)
+        if tf != '1d' and not df.empty:
+            freq = 'W-FRI' if tf == '1w' else 'M'
+            df = df.resample(freq).sum()
         # Convert index to unix seconds
-        df['time'] = (df.index.astype('int64') // 10**9).astype(int)
-        for t in selected_stock:
-            tmp = df[['time', t]].copy()
-            tmp.rename(columns={t: 'value'}, inplace=True)
-            tmp['value'] = tmp['value'].replace({np.nan: None})
-            out[t] = tmp.to_dict(orient='records')
+        if not df.empty:
+            df['time'] = (df.index.astype('int64') // 10**9).astype(int)
+            for t in selected_stock:
+                if t in df.columns:
+                    tmp = df[['time', t]].copy()
+                    tmp.rename(columns={t: 'value'}, inplace=True)
+                    tmp['value'] = tmp['value'].replace({np.nan: None})
+                    out[t] = tmp.to_dict(orient='records')
 
     if selected_fut:
         safe_cols = '\", \"'.join(selected_fut)
-        q = f'SELECT Date, "{safe_cols}" FROM futures_volumes_daily ORDER BY Date ASC'
-        df = pd.read_sql_query(q, conn, parse_dates=['Date']).set_index('Date')
-        df['time'] = (df.index.astype('int64') // 10**9).astype(int)
-        for t in selected_fut:
-            tmp = df[['time', t]].copy()
-            tmp.rename(columns={t: 'value'}, inplace=True)
-            tmp['value'] = tmp['value'].replace({np.nan: None})
-            out[t] = tmp.to_dict(orient='records')
+        conds = []
+        params = []
+        if start_sql:
+            conds.append('Date >= ?')
+            params.append(start_sql)
+        if end_sql:
+            conds.append('Date <= ?')
+            params.append(end_sql)
+        where_clause = (" WHERE " + " AND ".join(conds)) if conds else ""
+        q = f'SELECT Date, "{safe_cols}" FROM futures_volumes_daily{where_clause} ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, params=params, parse_dates=['Date']).set_index('Date')
+        if tf != '1d' and not df.empty:
+            freq = 'W-FRI' if tf == '1w' else 'M'
+            df = df.resample(freq).sum()
+        if not df.empty:
+            df['time'] = (df.index.astype('int64') // 10**9).astype(int)
+            for t in selected_fut:
+                if t in df.columns:
+                    tmp = df[['time', t]].copy()
+                    tmp.rename(columns={t: 'value'}, inplace=True)
+                    tmp['value'] = tmp['value'].replace({np.nan: None})
+                    out[t] = tmp.to_dict(orient='records')
 
     conn.close()
     return jsonify(out)
