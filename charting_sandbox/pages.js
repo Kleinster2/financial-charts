@@ -9,6 +9,13 @@
   }
 
   let pageCounter = 1; // page 1 exists
+  let pageNames = {};  // page number -> name mapping
+  let hasRestored = false; // delay saving until after restore
+  let saveDebounceTimer = null;
+  function debounceSave(){
+    if (saveDebounceTimer) clearTimeout(saveDebounceTimer);
+    saveDebounceTimer = setTimeout(() => { try { savePages(); } catch(_){} }, 300);
+  }
 
   function removePage(num){
     if (num === 1) {
@@ -36,6 +43,7 @@
 
     if (pageEl) pageEl.remove();
     if (tabEl) tabEl.remove();
+    try { delete pageNames[num]; } catch(_) {}
 
     // Determine next page to activate if needed
     const remaining = Array.from(pagesContainer.children)
@@ -54,6 +62,19 @@
   function activateTab(pageNum){
     Array.from(tabBar.children).forEach(t=>t.classList.toggle('active', t.dataset.page==pageNum+''));
   }
+
+  function renamePage(num, newName){
+    const name = (newName || '').trim() || `Page ${num}`;
+    pageNames[num] = name;
+    const tab = tabBar.querySelector(`.tab[data-page="${num}"]`);
+    if (tab) {
+      const labelEl = tab.querySelector('.tab-label');
+      if (labelEl) labelEl.textContent = name;
+      tab.title = name;
+    }
+    savePages();
+  }
+
   function switchTo(pageEl) {
     if (!pageEl) return;
     
@@ -95,8 +116,8 @@
       });
     }, 100); // Small delay to ensure cards are initialized
     
-    // Save active page
-    savePages();
+    // Save active page (only after initial restore to avoid clobbering)
+    if (hasRestored) savePages();
   }
 
   // create initial tab for page 1
@@ -105,7 +126,36 @@
     tab.className='tab';
     tab.dataset.page=num;
     const label = document.createElement('span');
-    label.textContent = `Page ${num}`;
+    label.className = 'tab-label';
+    label.textContent = pageNames[num] || `Page ${num}`;
+    label.title = 'Double-click to rename';
+    label.addEventListener('dblclick', (e) => {
+      e.stopPropagation();
+      label.contentEditable = 'true';
+      label.focus();
+      // select all text (fallback safe)
+      try {
+        const range = document.createRange();
+        range.selectNodeContents(label);
+        const sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+      } catch(_) {}
+    });
+    label.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); label.blur(); }
+      if (e.key === 'Escape') { e.preventDefault(); label.textContent = pageNames[num] || `Page ${num}`; label.blur(); }
+      e.stopPropagation();
+    });
+    // Update live as user types so persistence works even without blur
+    label.addEventListener('input', () => {
+      pageNames[num] = label.textContent.trim();
+      debounceSave();
+    });
+    label.addEventListener('blur', () => {
+      label.contentEditable = 'false';
+      renamePage(num, label.textContent);
+    });
     tab.appendChild(label);
     const closer = document.createElement('span');
     closer.className = 'tab-close';
@@ -138,8 +188,17 @@
 
   function savePages(){
     const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+    const active = getActivePage();
+    const names = {};
+    // Harvest names from DOM to catch un-blurred edits
+    pages.forEach(n => {
+      const labelEl = tabBar.querySelector(`.tab[data-page="${n}"] .tab-label`);
+      const text = labelEl ? labelEl.textContent.trim() : (pageNames[n] || `Page ${n}`);
+      names[n] = text || `Page ${n}`;
+      pageNames[n] = names[n];
+    });
     try {
-      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage() }));
+      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active, names }));
     } catch(e) { console.warn('pages.js: failed to save pages', e); }
   }
 
@@ -166,19 +225,37 @@
   }
   window.PageManager = { ensurePage, showPage };
 
-  // Restore saved pages (so empty pages persist too)
+  // Restore saved pages (so empty pages persist too) and names
   try {
     const raw = localStorage.getItem('sandbox_pages');
     if (raw) {
       const parsed = JSON.parse(raw);
       if (parsed && Array.isArray(parsed.pages)) {
+        if (parsed.names && typeof parsed.names === 'object') {
+          pageNames = parsed.names;
+        } else {
+          // initialize default names
+          parsed.pages.forEach(n => { pageNames[n] = `Page ${n}`; });
+        }
         parsed.pages.filter(n => n !== 1).forEach(n => ensurePage(n));
+        // Update tab labels to saved names
+        Object.entries(pageNames).forEach(([num, name]) => {
+          const tab = tabBar.querySelector(`.tab[data-page="${num}"]`);
+          if (tab) {
+            const lbl = tab.querySelector('.tab-label');
+            if (lbl) lbl.textContent = name;
+            tab.title = name;
+          }
+        });
         if (parsed.active && parsed.active !== 1) {
           const target = pagesContainer.querySelector(`[data-page="${parsed.active}"]`);
           if (target) switchTo(target);
         }
       }
     }
+    // Mark restore complete and persist final state now
+    hasRestored = true;
+    savePages();
   } catch(e) { console.warn('pages.js: failed to restore pages', e); }
 
   window.addEventListener('beforeunload', () => {
@@ -199,6 +276,8 @@
     pagesContainer.appendChild(pageEl);
 
         // add tab and switch focus
+    // default page name
+    pageNames[pageCounter] = `Page ${pageCounter}`;
     createTab(pageCounter);
     switchTo(pageEl);
 
@@ -214,6 +293,7 @@
   // Expose PageManager functions to window for cross-module access
   window.PageManager = {
     getActivePage: getActivePage,
+    renamePage: renamePage,
     removePage: removePage,
     ensurePage: function(pageNum) {
       ensurePage(pageNum);
