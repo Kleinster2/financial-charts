@@ -566,6 +566,70 @@
             });
         }
 
+        // Remove card handler
+        if (removeCardBtn) {
+            removeCardBtn.addEventListener('click', () => {
+                console.log(`[Card:${cardId}] Removing card`);
+                try {
+                    if (chart) {
+                        // Unsubscribe range listeners
+                        try {
+                            if (rangeSaveHandler) {
+                                chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                                rangeSaveHandler = null;
+                            }
+                            if (rangeFetchHandler) {
+                                chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeFetchHandler);
+                                rangeFetchHandler = null;
+                            }
+                            if (debouncedRebase) {
+                                chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
+                                if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
+                                debouncedRebase = null;
+                            }
+                        } catch (subErr) {
+                            console.warn(`[Card:${cardId}] Unsubscribe error:`, subErr);
+                        }
+
+                        // Clear volume pane & series first
+                        try {
+                            if (volPane) {
+                                volPane = window.ChartVolumeManager.clearVolumeSeries(chart, volPane, volSeriesMap);
+                            }
+                        } catch (vErr) {
+                            console.warn(`[Card:${cardId}] Volume clear error:`, vErr);
+                        }
+
+                        // Clear price and avg series
+                        try {
+                            window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, null, avgSeries);
+                            avgSeries = null;
+                        } catch (pErr) {
+                            console.warn(`[Card:${cardId}] Series clear error:`, pErr);
+                        }
+                    }
+                } catch (err) {
+                    console.warn(`[Card:${cardId}] Error during cleanup:`, err);
+                }
+
+                // Remove nav link
+                try {
+                    if (navLink && navLink.parentElement) {
+                        navLink.parentElement.removeChild(navLink);
+                    }
+                } catch (navErr) {
+                    console.warn(`[Card:${cardId}] Nav removal error:`, navErr);
+                }
+
+                // Remove card from DOM
+                const parent = card.parentElement;
+                if (parent) parent.removeChild(card);
+                
+                // Persist updated state
+                saveCards();
+            });
+        }
+
         if (titleInput) {
             titleInput.addEventListener('input', () => {
                 card._title = titleInput.value;
