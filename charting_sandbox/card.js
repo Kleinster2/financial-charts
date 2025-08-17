@@ -238,7 +238,19 @@
                 });
             }
 
-            if (selectedTickers.size === 0) return;
+            if (selectedTickers.size === 0) {
+                // No tickers selected: clear any existing series and volume pane to avoid "ghost" remnants
+                try {
+                    window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries);
+                    avgSeries = null;
+                } catch (e) { console.warn(`[Plot:${cardId}] Clear series on empty selection failed`, e); }
+                try {
+                    if (volPane) {
+                        volPane = window.ChartVolumeManager.clearVolumeSeries(chart, volPane, volSeriesMap);
+                    }
+                } catch (e) { console.warn(`[Plot:${cardId}] Clear volume on empty selection failed`, e); }
+                return;
+            }
 
             // Clear existing series
             window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries);
@@ -720,6 +732,42 @@
             saveCards,
             () => useRaw
         );
+
+        // Handle chip removal (X button) via custom event from chip DOM
+        selectedTickersDiv.addEventListener('chip:remove', (e) => {
+            const t = e && e.detail ? e.detail.ticker : null;
+            if (!t) return;
+            console.log(`[Card:${cardId}] Removing ticker ${t}`);
+            // Update sets/maps
+            selectedTickers.delete(t);
+            hiddenTickers.delete(t);
+            multiplierMap.delete(t);
+            // Remove existing series if present
+            const s = priceSeriesMap.get(t);
+            if (s) { try { chart.removeSeries(s); } catch (err) { console.warn(`[Card:${cardId}] Failed to remove price series for ${t}:`, err); } priceSeriesMap.delete(t); }
+            const vs = volSeriesMap.get(t);
+            if (vs) { try { chart.removeSeries(vs); } catch (err) { console.warn(`[Card:${cardId}] Failed to remove volume series for ${t}:`, err); } volSeriesMap.delete(t); }
+            rawPriceMap.delete(t);
+            try { delete latestRebasedData[t]; } catch(_) {}
+            // Rebuild chips UI
+            window.ChartDomBuilder.addTickerChips(
+                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers
+            );
+            // Update nav link label
+            if (navLink) {
+                navLink.textContent = card._title || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
+            }
+            saveCards();
+            // If nothing remains, clear chart; else replot remaining
+            if (selectedTickers.size === 0) {
+                if (chart) {
+                    try { window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries); avgSeries = null; } catch (e1) { console.warn(`[Card:${cardId}] Clear series after last removal failed`, e1); }
+                    try { if (volPane) { volPane = window.ChartVolumeManager.clearVolumeSeries(chart, volPane, volSeriesMap); } } catch (e2) { console.warn(`[Card:${cardId}] Clear vol after last removal failed`, e2); }
+                }
+            } else {
+                plot();
+            }
+        });
 
         // Auto-plot if we have initial tickers and the page is visible
         if (selectedTickers.size > 0) {

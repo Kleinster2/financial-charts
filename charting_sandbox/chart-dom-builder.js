@@ -94,6 +94,7 @@ window.ChartDomBuilder = {
 
         // Add remove button
         const removeBtn = document.createElement('span');
+        removeBtn.className = 'chip-remove';
         removeBtn.innerHTML = '×';
         removeBtn.style.cssText = `
             margin-left: 5px;
@@ -104,7 +105,9 @@ window.ChartDomBuilder = {
         `;
         removeBtn.onclick = (e) => {
             e.stopPropagation();
-            chip.remove();
+            // Bubble a custom event so binder/card can update state and re-render
+            const ev = new CustomEvent('chip:remove', { bubbles: true, detail: { ticker } });
+            chip.dispatchEvent(ev);
         };
         chip.appendChild(removeBtn);
 
