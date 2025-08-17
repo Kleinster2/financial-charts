@@ -10,6 +10,47 @@
 
   let pageCounter = 1; // page 1 exists
 
+  function removePage(num){
+    if (num === 1) {
+      console.warn('pages.js: Page 1 cannot be removed');
+      return;
+    }
+    const pageEl = pagesContainer.querySelector(`[data-page="${num}"]`);
+    const tabEl = tabBar.querySelector(`.tab[data-page="${num}"]`);
+    if (!pageEl && !tabEl) return;
+
+    // Remove any chart nav links for cards on this page
+    try {
+      if (pageEl) {
+        const cards = pageEl.querySelectorAll('.chart-card');
+        cards.forEach(card => {
+          const navLink = card && card._navLink;
+          if (navLink && navLink.parentElement) {
+            navLink.parentElement.removeChild(navLink);
+          }
+        });
+      }
+    } catch (e) { console.warn('pages.js: failed cleaning nav links for page', num, e); }
+
+    const wasActive = (tabBar.querySelector('.tab.active')?.dataset?.page === String(num));
+
+    if (pageEl) pageEl.remove();
+    if (tabEl) tabEl.remove();
+
+    // Determine next page to activate if needed
+    const remaining = Array.from(pagesContainer.children)
+      .map(p => parseInt(p.dataset.page, 10))
+      .sort((a,b)=>a-b);
+    if (wasActive && remaining.length) {
+      const next = remaining.find(n => n > num) || remaining[remaining.length - 1];
+      const nextEl = pagesContainer.querySelector(`[data-page="${next}"]`);
+      if (nextEl) switchTo(nextEl);
+    }
+
+    if (window.saveCards) window.saveCards();
+    savePages();
+  }
+
   function activateTab(pageNum){
     Array.from(tabBar.children).forEach(t=>t.classList.toggle('active', t.dataset.page==pageNum+''));
   }
@@ -63,7 +104,18 @@
     const tab=document.createElement('div');
     tab.className='tab';
     tab.dataset.page=num;
-    tab.textContent=`Page ${num}`;
+    const label = document.createElement('span');
+    label.textContent = `Page ${num}`;
+    tab.appendChild(label);
+    const closer = document.createElement('span');
+    closer.className = 'tab-close';
+    closer.textContent = '×';
+    closer.style.cssText = 'margin-left:6px;cursor:pointer;font-weight:bold;';
+    closer.addEventListener('click', (e) => {
+      e.stopPropagation();
+      removePage(num);
+    });
+    tab.appendChild(closer);
     tab.addEventListener('click', ()=>{
       const target=pagesContainer.querySelector(`[data-page="${num}"]`);
       if(target) {
@@ -162,6 +214,7 @@
   // Expose PageManager functions to window for cross-module access
   window.PageManager = {
     getActivePage: getActivePage,
+    removePage: removePage,
     ensurePage: function(pageNum) {
       ensurePage(pageNum);
       // Return the wrapper element for the page
