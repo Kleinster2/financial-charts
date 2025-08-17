@@ -59,7 +59,7 @@
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
             title: card._title || '',
-            lastLabelVisible: card._lastLabelVisible !== false
+            lastLabelVisible: card._lastLabelVisible === true
         }));
         
         localStorage.setItem('sandbox_cards', JSON.stringify(cards));
@@ -79,7 +79,7 @@
         initialHidden = [],
         initialRange = null,
         initialTitle = '',
-        initialLastLabelVisible = true,
+        initialLastLabelVisible = false,
         wrapperEl = null
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
@@ -130,6 +130,9 @@
         let debouncedRebase = null;
         let diffChart = null;
         let rangeSaveHandler = null;
+        let rangeFetchHandler = null;
+        let debouncedFetch = null;
+        
         const debouncedSaveCards = (window.ChartUtils && window.ChartUtils.debounce) ? window.ChartUtils.debounce(saveCards, 300) : saveCards;
 
         const selectedTickers = new Set();
@@ -224,10 +227,20 @@
             // Pass chip nodes to avoid global DOM scan
             ensureNames(Array.from(selectedTickers), selectedTickersDiv.querySelectorAll('.chip'));
 
-            // Fetch price data
+            // Fetch price data (range-aware)
             try {
                 const tickerList = Array.from(selectedTickers);
-                const data = await window.DataFetcher.getPriceData(tickerList);
+                // Determine fetch range: saved -> initial -> default 1Y
+                const savedRange = card._visibleRange || initialRange;
+                const presets = window.ChartUtils && typeof window.ChartUtils.getPresetRanges === 'function'
+                    ? window.ChartUtils.getPresetRanges() : null;
+                const defaultRange = presets ? presets['1Y'] : null;
+                const fetchRange = savedRange || defaultRange;
+
+                const from = fetchRange && fetchRange.from ? Math.floor(fetchRange.from) : null;
+                const to = fetchRange && fetchRange.to ? Math.floor(fetchRange.to) : null;
+
+                const data = await window.DataFetcher.getPriceData(tickerList, from, to, '1d');
                 
                 if (!data || Object.keys(data).length === 0) {
                     console.warn('No price data received');
@@ -262,17 +275,34 @@
                 // Volume pane
                 if (showVolPane) {
                     volPane = window.ChartVolumeManager.createVolumePaneIfNeeded(chart, volPane);
-                    
-                    for (const ticker of tickerList) {
-                        if (hiddenTickers.has(ticker)) continue;
-                        
-                        const rawData = rawPriceMap.get(ticker);
-                        const volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
-                        const color = tickerColorMap.get(ticker);
-                        
-                        window.ChartVolumeManager.addVolumeSeries(
-                            chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
-                        );
+                    try {
+                        const volResp = await window.DataFetcher.getVolumeData(tickerList, from, to, '1d');
+                        for (const ticker of tickerList) {
+                            if (hiddenTickers.has(ticker)) continue;
+                            const color = tickerColorMap.get(ticker);
+                            const apiArr = Array.isArray(volResp?.[ticker]) ? volResp[ticker].filter(d => d && d.value != null) : [];
+                            let volData;
+                            if (apiArr.length) {
+                                volData = apiArr;
+                            } else {
+                                const rawData = rawPriceMap.get(ticker);
+                                volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
+                            }
+                            window.ChartVolumeManager.addVolumeSeries(
+                                chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
+                            );
+                        }
+                    } catch (e) {
+                        console.warn('[Volume] API fetch failed, falling back to derived:', e);
+                        for (const ticker of tickerList) {
+                            if (hiddenTickers.has(ticker)) continue;
+                            const rawData = rawPriceMap.get(ticker);
+                            const volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
+                            const color = tickerColorMap.get(ticker);
+                            window.ChartVolumeManager.addVolumeSeries(
+                                chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
+                            );
+                        }
                     }
                 }
 
@@ -299,6 +329,74 @@
                     }
                 };
                 chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+
+                // Subscribe to fetch data on visible range change (debounced)
+                if (rangeFetchHandler) {
+                    chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeFetchHandler);
+                }
+                const fetchDebounce = (window.ChartUtils && typeof window.ChartUtils.debounce === 'function')
+                    ? window.ChartUtils.debounce : (fn) => fn;
+                debouncedFetch = fetchDebounce(async (visible) => {
+                    try {
+                        if (!visible || !visible.from || !visible.to) return;
+                        const fromTs = Math.round(visible.from);
+                        const toTs = Math.round(visible.to);
+                        const list = Array.from(selectedTickers);
+                        console.log(`[RangeFetch:${cardId}] Fetching range ${fromTs} -> ${toTs} for ${list.join(',')}`);
+                        const fresh = await window.DataFetcher.getPriceData(list, fromTs, toTs, '1d');
+
+                        for (const t of list) {
+                            const tData = fresh[t] || [];
+                            const clean = Array.isArray(tData) ? tData.filter(d => d.value != null) : [];
+                            rawPriceMap.set(t, clean);
+                            const color = tickerColorMap.get(t);
+                            const mult = multiplierMap.get(t) || 1;
+                            const plotData = useRaw ? clean : window.ChartSeriesManager.rebaseData(clean, mult);
+                            if (!useRaw) {
+                                latestRebasedData[t] = plotData;
+                            }
+                            const series = window.ChartSeriesManager.createOrUpdateSeries(
+                                chart, t, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw
+                            );
+                        }
+
+                        // Update avg if enabled
+                        if (showAvg && !useRaw) {
+                            avgSeries = window.ChartSeriesManager.updateAverageSeries(
+                                chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
+                            );
+                        }
+
+                        // Update volume pane if enabled (API preferred)
+                        if (showVolPane && volPane) {
+                            try {
+                                const volResp = await window.DataFetcher.getVolumeData(list, fromTs, toTs, '1d');
+                                for (const t of list) {
+                                    if (hiddenTickers.has(t)) continue;
+                                    const color = tickerColorMap.get(t) || '#000000';
+                                    const apiArr = Array.isArray(volResp?.[t]) ? volResp[t].filter(d => d && d.value != null) : [];
+                                    const volData = apiArr.length ? apiArr : window.ChartVolumeManager.calculateVolume(rawPriceMap.get(t), VOL_WINDOW);
+                                    window.ChartVolumeManager.addVolumeSeries(
+                                        chart, volPane, t, volData, color, volSeriesMap, lastLabelVisible
+                                    );
+                                }
+                            } catch (e) {
+                                console.warn(`[RangeFetch:${cardId}] Volume API fetch failed; fallback to derived`, e);
+                                window.ChartVolumeManager.updateAllVolumeSeries(
+                                    chart, volPane, selectedTickers, rawPriceMap, tickerColorMap, volSeriesMap, hiddenTickers, lastLabelVisible
+                                );
+                            }
+                        }
+                    } catch (err) {
+                        console.warn(`[RangeFetch:${cardId}] Error during fetch:`, err);
+                    }
+                }, 500);
+                rangeFetchHandler = (visible) => {
+                    if (visible && visible.from && visible.to) {
+                        debouncedFetch(visible);
+                    }
+                };
+                chart.timeScale().subscribeVisibleTimeRangeChange(rangeFetchHandler);
 
                 // Setup range-based rebasing
                 if (!useRaw) {
@@ -342,7 +440,7 @@
                 }
 
                 // Apply saved or default visible range
-                const saved = card._visibleRange || initialRange;
+                const saved = card._visibleRange || initialRange || (defaultRange || null);
                 if (saved && saved.from && saved.to) {
                     try {
                         chart.timeScale().setVisibleRange(saved);
@@ -510,8 +608,7 @@
         }
 
         // Populate autocomplete
-        fetch('http://localhost:5000/api/tickers')
-            .then(r => r.json())
+        window.DataFetcher.getTickers()
             .then(list => {
                 const dl = document.getElementById('ticker-list');
                 if (dl) {
@@ -528,7 +625,7 @@
                     });
                 }
             })
-            .catch(() => {});
+            .catch((e) => { console.warn('Ticker list load failed:', e); });
 
         // Restore or create cards
         const urlParams = new URLSearchParams(window.location.search);
@@ -548,15 +645,14 @@
                 });
             } else {
                 // Try to restore from backend
-                fetch('http://localhost:5000/api/workspace')
-                    .then(r => r.json())
+                window.DataFetcher.loadWorkspace()
                     .then(ws => {
                         if (Array.isArray(ws) && ws.length) {
                             ws.forEach(c => {
                                 const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                                 createChartCard(
                                     c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, wrapper
                                 );
                             });
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));

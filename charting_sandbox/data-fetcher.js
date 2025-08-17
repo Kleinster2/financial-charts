@@ -3,8 +3,8 @@
  * Handles all backend API calls with error handling and retry logic
  */
 
-// Base URL configuration
-const API_BASE_URL = 'http://localhost:5000';
+// Base URL configuration (use same origin as the page/server)
+const API_BASE_URL = window.location.origin;
 
 // Utility function for fetch with retry
 async function fetchWithRetry(url, options = {}, retries = 2) {
@@ -46,38 +46,55 @@ window.DataFetcher = {
     /**
      * Get historical price data
      */
-    async getPriceData(tickers, fromDate = null, toDate = null) {
-        if (!tickers || tickers.length === 0) return {};
-        
-        let url = `${API_BASE_URL}/api/data?tickers=${tickers.join(',')}`;
-        
-        // Add date range parameters if provided
+    async getPriceData(tickers, fromDate = null, toDate = null, tf = '1d') {
+        if (!tickers || (Array.isArray(tickers) && tickers.length === 0)) return {};
+        const list = Array.isArray(tickers) ? tickers : [tickers];
+
+        let url = `${API_BASE_URL}/api/data?tickers=${list.join(',')}`;
+
+        // Convert unix seconds to YYYY-MM-DD for server params
+        const tsToDate = (ts) => {
+            const d = new Date(Math.floor(ts) * 1000);
+            return d.toISOString().slice(0, 10);
+        };
+
         if (fromDate) {
-            url += `&from=${Math.floor(fromDate)}`;
+            url += `&start=${tsToDate(fromDate)}`;
         }
         if (toDate) {
-            url += `&to=${Math.floor(toDate)}`;
+            url += `&end=${tsToDate(toDate)}`;
         }
-        
+        if (tf) {
+            url += `&tf=${encodeURIComponent(tf)}`;
+        }
+
         return fetchWithRetry(url);
     },
     
     /**
      * Get volume data
      */
-    async getVolumeData(tickers, fromDate = null, toDate = null) {
-        if (!tickers || tickers.length === 0) return {};
-        
-        let url = `${API_BASE_URL}/api/volume?tickers=${tickers.join(',')}`;
-        
-        // Add date range parameters if provided
+    async getVolumeData(tickers, fromDate = null, toDate = null, tf = '1d') {
+        if (!tickers || (Array.isArray(tickers) && tickers.length === 0)) return {};
+        const list = Array.isArray(tickers) ? tickers : [tickers];
+
+        let url = `${API_BASE_URL}/api/volume?tickers=${list.join(',')}`;
+
+        const tsToDate = (ts) => {
+            const d = new Date(Math.floor(ts) * 1000);
+            return d.toISOString().slice(0, 10);
+        };
+
         if (fromDate) {
-            url += `&from=${Math.floor(fromDate)}`;
+            url += `&start=${tsToDate(fromDate)}`;
         }
         if (toDate) {
-            url += `&to=${Math.floor(toDate)}`;
+            url += `&end=${tsToDate(toDate)}`;
         }
-        
+        if (tf) {
+            url += `&tf=${encodeURIComponent(tf)}`;
+        }
+
         try {
             return await fetchWithRetry(url);
         } catch (error) {
@@ -156,5 +173,4 @@ window.DataFetcher = {
     }
 };
 
-// Export for use in other modules
-window.DataFetcher = DataFetcher;
+// DataFetcher is attached to window above.

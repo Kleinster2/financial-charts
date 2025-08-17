@@ -56,18 +56,12 @@ window.StateManager = {
      */
     async saveToBackend(cards) {
         try {
-            const response = await fetch('http://localhost:5000/api/workspace', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(cards)
-            });
-            
-            if (response.ok) {
+            if (window.DataFetcher && typeof window.DataFetcher.saveWorkspace === 'function') {
+                await window.DataFetcher.saveWorkspace(cards);
                 console.log('[StateManager] ✓ Charts auto-saved to backend');
-                // Show subtle notification (optional)
                 this.showSaveNotification('Saved to server');
             } else {
-                console.error('[StateManager] Failed to save to backend:', response.status);
+                console.warn('[StateManager] DataFetcher not available; skipping backend save');
             }
         } catch (error) {
             console.error('[StateManager] Backend save error:', error);

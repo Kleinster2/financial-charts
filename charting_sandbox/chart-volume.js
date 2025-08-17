@@ -57,7 +57,7 @@ window.ChartVolumeManager = {
     /**
      * Add volume series to the pane
      */
-    addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible = true) {
+    addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible = false) {
         console.log(`[VolumeManager] Adding volume series for ${ticker}`);
         
         let volSeries = volSeriesMap.get(ticker);
@@ -121,26 +121,22 @@ window.ChartVolumeManager = {
     },
 
     /**
-     * Handle volume data fetching from API
+     * Handle volume data fetching from API (range-aware)
      */
-    async fetchAndPlotVolume(ticker, color, chart, volPane, volSeriesMap, lastLabelVisible = true) {
+    async fetchAndPlotVolume(ticker, color, chart, volPane, volSeriesMap, { from = null, to = null, tf = '1d', lastLabelVisible = false } = {}) {
         try {
-            console.log(`[VolumeManager] Fetching volume data for ${ticker}`);
-            const volData = await window.DataFetcher.getVolumeData(ticker);
-            
-            if (!volData || !volData.time || !volData.value) {
-                console.warn(`[VolumeManager] No volume data received for ${ticker}`);
-                return;
+            console.log(`[VolumeManager] Fetching API volume for ${ticker} from=${from} to=${to} tf=${tf}`);
+            const resp = await window.DataFetcher.getVolumeData([ticker], from, to, tf);
+            const seriesData = Array.isArray(resp?.[ticker]) ? resp[ticker].filter(d => d && d.value != null) : [];
+            if (!seriesData.length) {
+                console.warn(`[VolumeManager] No API volume data for ${ticker}`);
+                return false;
             }
-
-            const formattedData = volData.time.map((t, i) => ({
-                time: t,
-                value: volData.value[i]
-            }));
-
-            this.addVolumeSeries(chart, volPane, ticker, formattedData, color, volSeriesMap, lastLabelVisible);
+            this.addVolumeSeries(chart, volPane, ticker, seriesData, color, volSeriesMap, lastLabelVisible);
+            return true;
         } catch (error) {
-            console.error(`[VolumeManager] Failed to fetch volume for ${ticker}:`, error);
+            console.error(`[VolumeManager] Failed to fetch API volume for ${ticker}:`, error);
+            return false;
         }
     }
 };
