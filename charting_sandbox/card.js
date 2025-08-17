@@ -607,6 +607,16 @@
                         } catch (pErr) {
                             console.warn(`[Card:${cardId}] Series clear error:`, pErr);
                         }
+
+                        // Dispose chart instance
+                        try {
+                            if (typeof chart.remove === 'function') {
+                                chart.remove();
+                            }
+                            chart = null;
+                        } catch (rmErr) {
+                            console.warn(`[Card:${cardId}] Chart dispose error:`, rmErr);
+                        }
                     }
                 } catch (err) {
                     console.warn(`[Card:${cardId}] Error during cleanup:`, err);
@@ -704,7 +714,7 @@
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
                         c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, wrapper
                     );
                 });
             } else {
