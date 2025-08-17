@@ -59,7 +59,12 @@
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
             title: card._title || '',
-            lastLabelVisible: card._lastLabelVisible === true
+            lastLabelVisible: card._lastLabelVisible === true,
+            height: (typeof card._height === 'number' ? card._height : (function(){
+                const box = card.querySelector('.chart-box');
+                const h = box ? parseInt(box.style.height || '0', 10) : 0;
+                return isNaN(h) || h <= 0 ? null : h;
+            })())
         }));
         
         localStorage.setItem('sandbox_cards', JSON.stringify(cards));
@@ -80,6 +85,7 @@
         initialRange = null,
         initialTitle = '',
         initialLastLabelVisible = false,
+        initialHeight = null,
         wrapperEl = null
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
@@ -114,7 +120,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, heightIncBtn, heightDecBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -162,6 +168,15 @@
             showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
         });
 
+        // Initialize height
+        const HEIGHT_MIN = 200;
+        const HEIGHT_MAX = 1400;
+        const HEIGHT_STEP = 100;
+        let currentHeight = parseInt(initialHeight || chartBox.style.height || '400', 10);
+        if (isNaN(currentHeight) || currentHeight < HEIGHT_MIN) currentHeight = 400;
+        chartBox.style.height = currentHeight + 'px';
+        card._height = currentHeight;
+
         // Initialize tickers
         if (initialTickers) {
             const tickers = window.ChartDomBuilder.parseTickerInput(initialTickers);
@@ -203,6 +218,12 @@
                         vertLine: { visible: true, labelVisible: true }
                     }
                 });
+                // Ensure chart matches container size
+                try {
+                    const w = chartBox.clientWidth;
+                    const h = card._height || chartBox.clientHeight;
+                    if (w && h) chart.resize(w, h);
+                } catch(e) { console.warn(`[Card:${cardId}] initial resize skipped`, e); }
 
                 // Add legend
                 const legendEl = window.ChartLegend.createLegendElement(chartBox);
@@ -465,6 +486,27 @@
         
         plotBtn.addEventListener('click', plot);
 
+        // Height controls
+        function applyHeight(newH){
+            const clamped = Math.max(HEIGHT_MIN, Math.min(HEIGHT_MAX, newH|0));
+            card._height = clamped;
+            chartBox.style.height = clamped + 'px';
+            try {
+                if (chart) {
+                    const w = chartBox.clientWidth || (chartBox.parentElement ? chartBox.parentElement.clientWidth : undefined);
+                    chart.resize(w || 0, clamped);
+                }
+            } catch(e) { console.warn(`[Card:${cardId}] resize error`, e); }
+            saveCards();
+            console.log(`[Card:${cardId}] Height set to ${clamped}px`);
+        }
+        if (heightIncBtn) {
+            heightIncBtn.addEventListener('click', () => applyHeight((card._height||chartBox.clientHeight||400) + HEIGHT_STEP));
+        }
+        if (heightDecBtn) {
+            heightDecBtn.addEventListener('click', () => applyHeight((card._height||chartBox.clientHeight||400) - HEIGHT_STEP));
+        }
+
         toggleDiffBtn.addEventListener('click', () => {
             showDiff = !showDiff;
             card._showDiff = showDiff;
@@ -557,7 +599,7 @@
                 // Create new chart on the active page (or default wrapper if no pages)
                 const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
                     Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                    card._visibleRange, '', lastLabelVisible, targetWrapper);
+                    card._visibleRange, '', lastLabelVisible, card._height ?? null, targetWrapper);
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {
@@ -714,7 +756,7 @@
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
                         c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, wrapper
+                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, c.height ?? null, wrapper
                     );
                 });
             } else {
@@ -726,7 +768,7 @@
                                 const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                                 createChartCard(
                                     c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, wrapper
+                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? false, c.height ?? null, wrapper
                                 );
                             });
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));

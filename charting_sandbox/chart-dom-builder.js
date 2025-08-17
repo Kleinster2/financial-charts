@@ -32,6 +32,8 @@ window.ChartDomBuilder = {
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
+                <button class="height-dec-btn">- Height</button>
+                <button class="height-inc-btn">+ Height</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
@@ -130,7 +132,9 @@ window.ChartDomBuilder = {
             chartBox: card.querySelector('.chart-box'),
             titleInput: card.querySelector('.title-input'),
             removeCardBtn: card.querySelector('.remove-card-btn'),
-            addChartBtn: card.querySelector('.add-chart-btn')
+            addChartBtn: card.querySelector('.add-chart-btn'),
+            heightIncBtn: card.querySelector('.height-inc-btn'),
+            heightDecBtn: card.querySelector('.height-dec-btn')
         };
     },
 

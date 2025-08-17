@@ -152,7 +152,7 @@
 
     // create a blank chart card inside this wrapper
     if (typeof createChartCard === 'function') {
-      createChartCard('', false, false, true, false, {}, [], null, '', false, wrapper);
+      createChartCard('', false, false, true, false, {}, [], null, '', false, null, wrapper);
       if(window.saveCards) window.saveCards();
       savePages();
     } else {
