@@ -116,7 +116,8 @@ window.ChartSeriesManager = {
             latestRebasedData,
             showAvg,
             updateAverageSeries,
-            useRaw
+            useRaw,
+            hiddenTickers
         } = options;
 
         const debouncedRebase = this.debounce((visible) => {
@@ -125,6 +126,9 @@ window.ChartSeriesManager = {
 
             const from = Math.round(visible.from);
             priceSeriesMap.forEach((series, ticker) => {
+                if (hiddenTickers && hiddenTickers.has(ticker)) {
+                    return; // skip hidden tickers during rebase
+                }
                 const raw = rawPriceMap.get(ticker);
                 if (!raw?.length) return;
                 

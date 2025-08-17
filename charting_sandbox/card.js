@@ -367,6 +367,16 @@
                         const fresh = await window.DataFetcher.getPriceData(list, fromTs, toTs, '1d');
 
                         for (const t of list) {
+                            // Respect hidden tickers during range updates
+                            if (hiddenTickers.has(t)) {
+                                const existing = priceSeriesMap.get(t);
+                                if (existing) {
+                                    try { chart.removeSeries(existing); } catch (e) { console.warn(`[RangeFetch:${cardId}] Failed removing hidden series ${t}:`, e); }
+                                    priceSeriesMap.delete(t);
+                                }
+                                console.log(`[RangeFetch:${cardId}] Skipping hidden ${t}`);
+                                continue;
+                            }
                             const tData = fresh[t] || [];
                             const clean = Array.isArray(tData) ? tData.filter(d => d.value != null) : [];
                             rawPriceMap.set(t, clean);
@@ -393,7 +403,14 @@
                             try {
                                 const volResp = await window.DataFetcher.getVolumeData(list, fromTs, toTs, '1d');
                                 for (const t of list) {
-                                    if (hiddenTickers.has(t)) continue;
+                                    if (hiddenTickers.has(t)) {
+                                        const existingVol = volSeriesMap.get(t);
+                                        if (existingVol) {
+                                            try { chart.removeSeries(existingVol); } catch (e) { console.warn(`[RangeFetch:${cardId}] Failed removing hidden volume series ${t}:`, e); }
+                                            volSeriesMap.delete(t);
+                                        }
+                                        continue;
+                                    }
                                     const color = tickerColorMap.get(t) || '#000000';
                                     const apiArr = Array.isArray(volResp?.[t]) ? volResp[t].filter(d => d && d.value != null) : [];
                                     const volData = apiArr.length ? apiArr : window.ChartVolumeManager.calculateVolume(rawPriceMap.get(t), VOL_WINDOW);
@@ -445,7 +462,8 @@
                                 );
                             }
                         },
-                        useRaw
+                        useRaw,
+                        hiddenTickers
                     });
                     
                     // Force an initial rebase after a small delay if page is not visible
