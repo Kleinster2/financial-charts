@@ -120,7 +120,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, heightIncBtn, heightDecBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, heightIncBtn, heightDecBtn, fitBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -162,6 +162,7 @@
         card._visibleRange = initialRange;
         card._title = initialTitle;
         card._lastLabelVisible = lastLabelVisible;
+        card._hasPlottedOnce = false;
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
@@ -263,16 +264,24 @@
             // Fetch price data (range-aware)
             try {
                 const tickerList = Array.from(selectedTickers);
-                // Determine fetch range: saved -> initial -> default 1Y
+                // Visible range (for view); not necessarily used for initial fetch
                 const savedRange = card._visibleRange || initialRange;
                 const presets = window.ChartUtils && typeof window.ChartUtils.getPresetRanges === 'function'
                     ? window.ChartUtils.getPresetRanges() : null;
                 const defaultRange = presets ? presets['1Y'] : null;
-                const fetchRange = savedRange || defaultRange;
+                const isFirstPlot = card._hasPlottedOnce !== true;
 
-                const from = fetchRange && fetchRange.from ? Math.floor(fetchRange.from) : null;
-                const to = fetchRange && fetchRange.to ? Math.floor(fetchRange.to) : null;
+                // Fetch strategy: first plot => full history (no start/end); subsequent plots => use saved/current range if available
+                let from = null, to = null;
+                if (!isFirstPlot) {
+                    const fr = savedRange;
+                    if (fr && fr.from && fr.to) {
+                        from = Math.floor(fr.from);
+                        to = Math.floor(fr.to);
+                    }
+                }
 
+                console.log(`[Plot:${cardId}] Fetching ${from ? from : 'ALL'} -> ${to ? to : 'ALL'} for ${tickerList.join(',')}`);
                 const data = await window.DataFetcher.getPriceData(tickerList, from, to, '1d');
                 
                 if (!data || Object.keys(data).length === 0) {
@@ -503,6 +512,9 @@
                     chart.timeScale().fitContent();
                 }
 
+                // Mark initial plot complete
+                card._hasPlottedOnce = true;
+
             } catch (error) {
                 console.error('Plot error:', error);
             }
@@ -603,6 +615,15 @@
             rangeSelect.addEventListener('change', () => {
                 const val = rangeSelect.value;
                 if (!val) return;
+                if (val === 'max') {
+                    // Clear persisted range and force a full-history refetch
+                    card._visibleRange = null;
+                    card._hasPlottedOnce = false;
+                    console.log(`[RangeSelect:${cardId}] Max selected -> clearing range and refetching full history`);
+                    saveCards();
+                    plot();
+                    return;
+                }
                 let startYear;
                 if (val === 'ytd') {
                     startYear = new Date().getUTCFullYear();
@@ -614,6 +635,15 @@
                 chart.timeScale().setVisibleRange({ from, to });
                 // persist selection
                 card._visibleRange = { from, to };
+                saveCards();
+            });
+        }
+
+        if (fitBtn) {
+            fitBtn.addEventListener('click', () => {
+                try { if (chart) chart.timeScale().fitContent(); } catch(_) {}
+                card._visibleRange = null;
+                console.log(`[Card:${cardId}] Fit content applied; cleared persisted visibleRange`);
                 saveCards();
             });
         }

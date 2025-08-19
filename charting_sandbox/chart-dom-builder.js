@@ -20,6 +20,7 @@ window.ChartDomBuilder = {
                 <!-- Range dropdown -->
                 <select class="range-select">
                     <option value="">Range</option>
+                    <option value="max">Max</option>
                     <option value="ytd">YTD</option>
                     <option value="2024">2024</option>
                     <option value="2023">2023</option>
@@ -27,6 +28,7 @@ window.ChartDomBuilder = {
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
                 </select>
+                <button class="fit-btn">Fit</button>
                 <button class="toggle-diff-btn">Show Diff Pane</button>
                 <button class="toggle-vol-btn">Hide Vol Pane</button>
                 <button class="toggle-raw-btn">Show Raw</button>
@@ -131,6 +133,7 @@ window.ChartDomBuilder = {
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             rangeSelect: card.querySelector('.range-select'),
+            fitBtn: card.querySelector('.fit-btn'),
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),
             titleInput: card.querySelector('.title-input'),
