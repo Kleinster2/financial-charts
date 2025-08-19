@@ -1,15 +1,23 @@
 import sqlite3
 import time
-import pandas as pd
+import json
 import os
 import sys
-from flask import Flask, jsonify, render_template, request, redirect, send_from_directory
+import logging
+import traceback
+from flask import Flask, jsonify, request, Response, redirect, send_from_directory
 from flask_cors import CORS
 from flask_compress import Compress
-import logging
+import pandas as pd
 import numpy as np
-import json
-from functools import lru_cache
+from datetime import datetime
+
+# Add parent directory to path for imports
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from constants import (DB_FILENAME, SCHEMA_CACHE_TTL, DEFAULT_PORT, 
+                      CACHE_CONTROL_MAX_AGE, WORKSPACE_FILENAME, 
+                      WORKSPACE_TEMP_SUFFIX, HTTP_OK, HTTP_BAD_REQUEST,
+                      HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR)
 
 # Configure logging to output to stdout for easier debugging
 logging.basicConfig(
@@ -24,18 +32,14 @@ Compress(app)  # Enable gzip compression for responses
 
 @app.after_request
 def add_header(response):
-    response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, post-check=0, pre-check=0, max-age=0'
+    response.headers['Cache-Control'] = f'max-age={CACHE_CONTROL_MAX_AGE}, no-store, must-revalidate'
     response.headers['Pragma'] = 'no-cache'
-    response.headers['Expires'] = '-1'
+    response.headers['Expires'] = '0'
     # Allow cross-origin requests (e.g., sandbox running on :5500)
     response.headers['Access-Control-Allow-Origin'] = '*'
     response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
     response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
     return response
-
-@app.context_processor
-def inject_now():
-    return {'now': time.time()}
 
 # Get the absolute path of the directory containing this script (charting_app)
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -45,7 +49,6 @@ DB_PATH = os.path.join(basedir, '..', 'sp500_data.db')
 # Schema cache for performance
 _schema_cache = {}
 _schema_cache_time = 0
-SCHEMA_CACHE_TTL = 3600  # 1 hour in seconds
 
 # --- Start of Diagnostic Logging ---
 app.logger.info(f"SCRIPT_DIR: {basedir}")
@@ -146,8 +149,8 @@ def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=Non
     return result
 
 def get_db_connection():
-    """Establishes a connection to the SQLite database."""
-    conn = sqlite3.connect(DB_PATH)
+    """Get database connection with optimized settings"""
+    conn = sqlite3.connect(f'../{DB_FILENAME}')
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -395,16 +398,16 @@ def workspace():
     The workspace is stored as JSON in a file so it survives server restarts
     and is shared across browser origins/ports.
     """
-    workspace_path = os.path.join(basedir, 'workspace.json')
+    workspace_path = os.path.join(basedir, WORKSPACE_FILENAME)
 
     if request.method == 'POST':
         try:
             state = request.get_json(force=True) or []
             # Write atomically by first dumping to a temp file
-            tmp_path = workspace_path + '.tmp'
-            with open(tmp_path, 'w', encoding='utf-8') as fh:
+            temp_file = WORKSPACE_FILENAME + WORKSPACE_TEMP_SUFFIX
+            with open(temp_file, 'w', encoding='utf-8') as fh:
                 json.dump(state, fh)
-            os.replace(tmp_path, workspace_path)
+            os.replace(temp_file, workspace_path)
             return jsonify({'status': 'saved', 'items': len(state)}), 200
         except Exception as e:
             app.logger.error(f"Failed to save workspace: {e}")

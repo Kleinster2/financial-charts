@@ -2,63 +2,102 @@ import yfinance as yf
 import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
-import sys
+import time
+import requests
+from bs4 import BeautifulSoup
+
+# Import constants
+from constants import (DB_FILENAME, DEFAULT_START_DATE, BATCH_SIZE, 
+                      RETRY_LIMIT, RETRY_DELAY, TICKER_CATEGORIES,
+                      FUTURES_SYMBOLS)
 
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
-START_DATE = "2019-12-31"
+START_DATE = DEFAULT_START_DATE
 END_DATE = datetime.today().strftime("%Y-%m-%d")
-# Actively traded ADR tickers (large-cap, high liquidity)
+
+# These lists should be maintained separately as they're not static
+# For now we'll keep them here but could move to a config file later
 ADR_TICKERS = [
-    "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
-    "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
-    "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
+    'BABA', 'TSM', 'NVO', 'ASML', 'TCEHY', 'TM', 'SAP', 'PDD', 'SHEL',
+    'HDBNY', 'AZN', 'BHP', 'SNY', 'HMC', 'NVS', 'TD', 'TTE', 'UL', 'RY',
+    'MUFG', 'BP', 'GSK', 'SONY', 'RIO', 'BTI', 'HSBC', 'ENB', 'CNI', 'DEO',
+    'SMFG', 'CP', 'SHOP', 'SE', 'IBKR', 'CHKP', 'NICE', 'GLBE', 'CPNG',
+    'NU', 'STLA', 'FSLR', 'GRAB', 'ZIM', 'MBAVU', 'OZON', 'XPEV', 'LI', 'NIO',
+    'BILI', 'NTES', 'JD', 'BIDU', 'BGNE', 'VIPS', 'IQ', 'WB', 'TME', 'TAL',
+    'EDU', 'BZ', 'GOTU', 'YMM', 'DADA', 'SOHU', 'LU', 'FINV', 'API', 'QFIN',
+    'ATHM', 'GOOG', 'MSFT', 'AAPL', 'AMZN', 'META', 'NVDA', 'SPY', 'QQQ', 'BTC-USD',
+    'ETH-USD', 'LTC-USD'
 ]
 
-DB_PATH = "sp500_data.db"
 ETF_TICKERS = [
-    # Core U.S. market benchmarks
-    "SPY", "RSP", "SPLG", "VTI", "QQQ", "DIA", "IWM",  # added SPLG for ALLW
-    # U.S. style / factor ETFs
-    "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
-    # Sector ETFs (GICS)
-    "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
-    # Broad international equity baskets
-    "EFA", "EEM", "IEFA", "VWO", "SPEM",  # added SPEM for ALLW
-    # Single-country developed market ETFs
-    "EWZ", "EWW", "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM", "EDEN", "EFNL", "EIRL", "EIS", "ENZL", "ENOR",
-    # Single-country emerging market ETFs
-    "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
-    # Fixed income & alternative asset ETFs
-    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
-    # Multi-asset / risk parity ETFs
-    "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
-    # Commodities, currencies & volatility
-    "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
-    # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
-    # Treasury yield index symbols (yields, not prices)
-    "^IRX", "^FVX", "^TNX", "^TYX",  # added comma after TYX
-    # Crypto ETFs (spot, futures, blockchain)
-    # -- Bitcoin spot ETFs
-    "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
-    # -- Bitcoin futures/inverse ETFs
-    "BITO", "BTF", "XBTF", "BITI",
-    # -- Blockchain/crypto industry ETFs
-    "BLOK", "DAPP", "BKCH", "BITQ",
+    'XLF', 'XLE', 'XLU', 'XLI', 'XLV', 'XLY', 'XLP', 'XLK', 'XLRE', 'XLB', 'XLC',
+    'VIG', 'VUG', 'VTV', 'VYM', 'VGT', 'VNQ', 'VB', 'VBR', 'VOO', 'IVV', 'VTI',
+    'VWO', 'VEA', 'VXUS', 'VT', 'AGG', 'BND', 'TLT', 'IEF', 'SHY', 'LQD', 'HYG',
+    'MUB', 'TIP', 'GLD', 'IAU', 'SLV', 'PDBC', 'DBC', 'USO', 'UNG', 'GDX', 'GDXJ',
+    'EWJ', 'EWZ', 'EWY', 'EWG', 'EWU', 'EWC', 'EWA', 'EWT', 'EWH', 'EWW', 'EWP',
+    'EWI', 'EWS', 'FXI', 'INDA', 'RSX', 'ARKG', 'ARKK', 'ARKW', 'ARKQ', 'ARKF',
+    'ICLN', 'TAN', 'LIT', 'QCLN', 'PBW', 'FAN', 'SOXX', 'SMH', 'PAVE', 'MJ',
+    'DIA', 'IWM', 'IWF', 'IWD', 'IWO', 'IWN', 'MDY', 'VEU', 'SCZ', 'DXJ', 'HEDJ',
+    'ASHR', 'VGK', 'VPL', 'VNQI', 'VIGI', 'VSS', 'IEMG', 'EEM', 'EMQQ', 'FM',
+    'EEMV', 'DGS', 'DGRO', 'DTD', 'DVY', 'NOBL', 'PFF', 'IGSB', 'IGIB', 'EMB',
+    'EMLC', 'GOVT', 'IAGG', 'QLD', 'SSO', 'UPRO', 'TQQQ', 'SOXL', 'SPXL', 'TMF',
+    'TNA', 'FAS', 'ERX', 'LABU', 'NUGT', 'JNUG', 'UGAZ', 'UCO', 'BOIL', 'KOLD',
+    'PSQ', 'SH', 'SDS', 'SPXU', 'SPXS', 'SQQQ', 'SDOW', 'SRTY', 'TZA', 'FAZ',
+    'ERY', 'LABD', 'DRIP', 'DUST', 'JDST', 'DGAZ', 'SCO', 'VXX', 'VIXY', 'UVXY',
+    'SVXY', 'SPX', 'NDX', 'RUT', 'DJI', 'GSPC', 'IXIC', 'RUI', 'VIX'
 ]
 
-# --- High-profile non-S&P 500 U.S. stocks to track ---
+# Core indices with the ^prefix
+core_indices = TICKER_CATEGORIES['CORE_INDICES']
+# Volatility indices
+volatility_indices = TICKER_CATEGORIES['VOLATILITY_INDICES']
+# Other indices and rates
+other_indices = TICKER_CATEGORIES['TREASURY_YIELDS']
+# Additional FX tickers (extra crosses, indices)
+ADDITIONAL_FX_TICKERS = [
+    # Extra USD crosses
+    "USDSGD=X", "USDSEK=X", "USDNOK=X", "USDISK=X", "USDTWD=X", "USDARS=X", "USDSAR=X", "USDAED=X",
+    "USDKZT=X", "USDVND=X", "USDKWD=X",
+    # Non-USD major crosses
+    "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
+    # Currency indices
+    "^DXY", "^BXY"
+]
+
+# Top-crypto tickers
+CRYPTO_TICKERS = [
+    "BTC-USD", "ETH-USD", "BNB-USD", "XRP-USD", "SOL-USD", "ADA-USD", "DOGE-USD", "TON-USD",
+    "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "MATIC-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI-USD",
+    "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "APT-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
+    "OP-USD", "IMX-USD", "KAS-USD", "RNDR-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
+    "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "GRT-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD", "HYPE-USD"
+]
+
+# High-profile non-S&P 500 U.S. stocks to track
 OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
     "BYND","CELH","CPNG","DASH","FSR","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
-    # Crypto / Blockchainx
+    # Crypto / Blockchain
     "CRCL", "CRON",
 ]
 
-# --- Crypto-exposed equities (miners, exchanges, infrastructure) ---
+# Crypto ETFs (spot, futures, blockchain)
+# -- Bitcoin spot ETFs
+bitcoin_spot_etfs = [
+    "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
+]
+# -- Bitcoin futures/inverse ETFs
+bitcoin_futures_etfs = [
+    "BITO", "BTF", "XBTF", "BITI",
+]
+# -- Blockchain/crypto industry ETFs
+blockchain_etfs = [
+    "BLOK", "DAPP", "BKCH", "BITQ",
+]
+# Crypto-exposed equities (miners, exchanges, infrastructure)
 CRYPTO_STOCKS = [
     # Miners
     "RIOT", "MARA", "HUT", "HIVE", "BITF", "CIFR", "CORZ", "IREN", "WULF", "CLSK", "BTBT", "SDIG", "CAN",
@@ -66,12 +105,19 @@ CRYPTO_STOCKS = [
     "BKKT",
 ]
 
-# --- Foreign exchange tickers (major + EM pairs via Yahoo '=X') ---
-MAJOR_CCY = ["USD","EUR","JPY","GBP","CHF","AUD","NZD","CAD"]
-EM_CCY = [
-    "BRL","MXN","ZAR","TRY","INR","IDR","CNY","HKD","KRW","RUB",
-    "COP","CLP","PHP","THB","PLN","HUF","CZK","RON","ILS",
-]
+# Foreign exchange tickers (major + EM pairs)
+def build_fx_tickers():
+    major_currencies = TICKER_CATEGORIES['MAJOR_CURRENCIES']
+    emerging_currencies = TICKER_CATEGORIES['EMERGING_CURRENCIES']
+    fx = []
+    # All major crosses, both directions (excludes self-crosses automatically)
+    fx += make_pairs(major_currencies, major_currencies)
+    # USD-EM pairs, both directions
+    fx += make_pairs(["USD"], emerging_currencies)
+    fx += make_pairs(emerging_currencies, ["USD"])
+    # Precious metals as currencies
+    fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
+    return unique_preserve(fx)
 
 def make_pairs(bases, quotes, suffix="=X"):
     """Generate Yahoo FX tickers like 'EURUSD=X' for all base-quote combos where base != quote."""
@@ -85,44 +131,6 @@ def unique_preserve(seq):
             seen.add(s)
             out.append(s)
     return out
-
-def build_fx_tickers():
-    fx = []
-    # All major crosses, both directions (excludes self-crosses automatically)
-    fx += make_pairs(MAJOR_CCY, MAJOR_CCY)
-    # USD-EM pairs, both directions
-    fx += make_pairs(["USD"], EM_CCY)
-    fx += make_pairs(EM_CCY, ["USD"])
-    # Precious metals as currencies
-    fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
-    return unique_preserve(fx)
-
-FX_TICKERS = build_fx_tickers()
-
-# --- Additional FX-like tickers (extra crosses, indices) ---
-ADDITIONAL_FX_TICKERS = [
-    # Extra USD crosses
-    "USDSGD=X", "USDSEK=X", "USDNOK=X", "USDISK=X", "USDTWD=X", "USDARS=X", "USDSAR=X", "USDAED=X",
-    "USDKZT=X", "USDVND=X", "USDKWD=X",
-    # Non-USD major crosses
-    "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
-    # Currency indices
-    "^DXY", "^BXY"
-]
-
-# --- Top-crypto tickers ---
-STABLECOIN_TICKERS = ["USDT-USD", "USDC-USD", "DAI-USD"]
-
-CRYPTO_TICKERS = [
-    "BTC-USD", "ETH-USD", "BNB-USD", "XRP-USD", "SOL-USD", "ADA-USD", "DOGE-USD", "TON-USD",
-    "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "MATIC-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI-USD",
-    "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "APT-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
-    "OP-USD", "IMX-USD", "KAS-USD", "RNDR-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
-    "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "GRT-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD", "HYPE-USD"
-]
-
-
-# --- Utility: Fetch Brazilian Ibovespa tickers ---
 
 def get_ibovespa_tickers():
     """Return a list of Ibovespa constituent tickers formatted for Yahoo Finance (ending with '.SA').
@@ -162,7 +170,6 @@ def get_ibovespa_tickers():
         "TOTS3.SA","UGPA3.SA","USIM5.SA","VALE3.SA","VIVT3.SA","WEGE3.SA","YDUQ3.SA",
     ]
 
-
 # --- Main function to orchestrate the download ---
 def update_sp500_data(verbose: bool = True):
     # 1. Get S&P 500 list and combine with ETFs
@@ -178,7 +185,7 @@ def update_sp500_data(verbose: bool = True):
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
         vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
-        vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
+        vprint(f"FX tickers generated: {len(build_fx_tickers())}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
         all_tickers = sorted(list(set(
             sp500['ticker'].tolist()
             + ibov_tickers
@@ -186,7 +193,7 @@ def update_sp500_data(verbose: bool = True):
             + ADR_TICKERS
             + OTHER_HIGH_PROFILE_STOCKS
             + CRYPTO_STOCKS
-            + FX_TICKERS
+            + build_fx_tickers()
             + ADDITIONAL_FX_TICKERS
             + CRYPTO_TICKERS
         )))
@@ -194,7 +201,7 @@ def update_sp500_data(verbose: bool = True):
         raise SystemExit(f"Failed to fetch S&P 500 list: {e}")
 
     # 2. Determine what needs to be downloaded
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_FILENAME)
     try:
         cursor = conn.cursor()
         cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stock_prices_daily';")
@@ -310,6 +317,7 @@ def update_sp500_data(verbose: bool = True):
         conn.close()
 
 if __name__ == "__main__":
+    import sys
     argv = sys.argv[1:]
     verbose = True
     if any(a in ("--quiet", "-q") for a in argv):

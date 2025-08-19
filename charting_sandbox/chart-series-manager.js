@@ -67,6 +67,7 @@ window.ChartSeriesManager = {
         visibleSeries.forEach(([ticker, series]) => {
             try {
                 // Get data from series (this is a placeholder - actual implementation depends on chart library)
+                const lineWidth = ticker.includes('average') ? window.ChartConfig.SERIES.LINE_WIDTH.AVERAGE : window.ChartConfig.SERIES.LINE_WIDTH.PRICE;
                 const data = series.data ? series.data() : [];
                 data.forEach(pt => {
                     if (!dataByTime.has(pt.time)) {
@@ -143,7 +144,7 @@ window.ChartSeriesManager = {
                     } catch (error) {
                 console.warn('[SeriesManager] Rebase callback error:', error);
             }
-        }, 500);
+        }, window.ChartConfig.DEBOUNCE_MS.REBASE);
 
         chart.timeScale().subscribeVisibleTimeRangeChange(debouncedRebase);
         return debouncedRebase;

@@ -19,7 +19,7 @@ function debounce(func, wait) {
 // Export the StateManager
 window.StateManager = {
     // Constants
-    STORAGE_KEYS: {
+    STORAGE_KEYS: window.ChartConfig ? window.ChartConfig.STORAGE_KEYS : {
         CARDS: 'sandbox_cards',
         MULTIPLIERS: 'multipliers',
         PREFERENCES: 'chart_preferences'
@@ -54,6 +54,8 @@ window.StateManager = {
     /**
      * Save charts to backend workspace
      */
+    saveCards: debounce(cards => StateManager.saveToBackend(cards), window.ChartConfig ? window.ChartConfig.DEBOUNCE_MS.SAVE : 2000),
+    
     async saveToBackend(cards) {
         try {
             const response = await fetch('http://localhost:5000/api/workspace', {
