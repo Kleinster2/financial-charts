@@ -7,7 +7,7 @@ window.ChartDomBuilder = {
     /**
      * Create the main chart card element with all controls
      */
-    createChartCard(cardId, initialTitle = '') {
+    createChartCard(cardId, initialTitle = '', initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)) {
         const card = document.createElement('div');
         card.id = cardId;
         card.className = 'chart-card';
@@ -32,12 +32,14 @@ window.ChartDomBuilder = {
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
+                <button class="height-decrease-btn">Height -</button>
+                <button class="height-increase-btn">Height +</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
             </div>
             <div class="selected-tickers"></div>
-            <div class="chart-box" style="height: 400px;"></div>
+            <div class="chart-box" style="height: ${initialHeight}px;"></div>
         `;
 
         return card;
@@ -125,6 +127,8 @@ window.ChartDomBuilder = {
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
+            heightDownBtn: card.querySelector('.height-decrease-btn'),
+            heightUpBtn: card.querySelector('.height-increase-btn'),
             rangeSelect: card.querySelector('.range-select'),
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),

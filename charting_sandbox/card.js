@@ -1,4 +1,4 @@
-/**
+        /**
  * Lightweight Charts Card Module (Refactored)
  * Main orchestrator that uses modular components for chart functionality
  */
@@ -47,7 +47,8 @@
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
             title: card._title || '',
-            lastLabelVisible: card._lastLabelVisible !== false
+            lastLabelVisible: card._lastLabelVisible !== false,
+            height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })()
         }));
         
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -68,7 +69,8 @@
         initialRange = null,
         initialTitle = '',
         initialLastLabelVisible = true,
-        wrapperEl = null
+        wrapperEl = null,
+        initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -79,7 +81,7 @@
         // Create card DOM
         globalCardCounter += 1;
         const cardId = `chart-${globalCardCounter}`;
-        const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle);
+        const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle, initialHeight);
         wrapper.appendChild(card);
         // --- navigation link ---
         const nav = document.getElementById('chart-nav');
@@ -102,7 +104,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, heightDownBtn, heightUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -141,6 +143,34 @@
         card._visibleRange = initialRange;
         card._title = initialTitle;
         card._lastLabelVisible = lastLabelVisible;
+        card._height = initialHeight;
+
+        // Height adjust helpers (scoped per card)
+        const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
+        const HEIGHT_MAX = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MAX_HEIGHT) || 800;
+        const HEIGHT_STEP = 50;
+
+        function applyResize(newH) {
+            if (!chartBox) return;
+            chartBox.style.height = `${newH}px`;
+            if (chart && typeof chart.resize === 'function') {
+                const width = chartBox.clientWidth || chartBox.getBoundingClientRect().width || 800;
+                console.log(`[Card:${cardId}] Resizing chart to ${width} x ${newH}`);
+                try { chart.resize(width, newH); } catch (e) { console.warn(`[Card:${cardId}] chart.resize failed`, e); }
+            }
+        }
+
+        function adjustHeight(delta) {
+            const current = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
+            const next = Math.max(HEIGHT_MIN, Math.min(HEIGHT_MAX, current + delta));
+            console.log(`[Card:${cardId}] Height change: ${current} -> ${next} (delta ${delta})`);
+            card._height = next;
+            applyResize(next);
+            saveCards();
+        }
+
+        if (heightUpBtn) heightUpBtn.addEventListener('click', () => adjustHeight(+HEIGHT_STEP));
+        if (heightDownBtn) heightDownBtn.addEventListener('click', () => adjustHeight(-HEIGHT_STEP));
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
@@ -188,6 +218,9 @@
                         vertLine: { visible: true, labelVisible: true }
                     }
                 });
+
+                // Ensure initial size reflects stored height
+                applyResize(card._height || initialHeight);
 
                 // Add legend
                 const legendEl = window.ChartLegend.createLegendElement(chartBox);
@@ -384,21 +417,7 @@
             plot();
         });
 
-        toggleAvgBtn.addEventListener('click', () => {
-            showAvg = !showAvg;
-            card._showAvg = showAvg;
-            toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';
-            saveCards();
-            if (showAvg && !useRaw) {
-                avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                    chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
-                );
-            } else if (avgSeries) {
-                chart.removeSeries(avgSeries);
-                avgSeries = null;
-            }
-        });
-
+        // Toggle last value label visibility
         if (toggleLastLabelBtn) {
             toggleLastLabelBtn.addEventListener('click', () => {
                 lastLabelVisible = !lastLabelVisible;
@@ -416,6 +435,23 @@
                 saveCards();
             });
         }
+
+        toggleAvgBtn.addEventListener('click', () => {
+            showAvg = !showAvg;
+            card._showAvg = showAvg;
+            toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';
+            saveCards();
+            if (showAvg && !useRaw) {
+                avgSeries = window.ChartSeriesManager.updateAverageSeries(
+                    chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
+                );
+            } else if (avgSeries) {
+                chart.removeSeries(avgSeries);
+                avgSeries = null;
+            }
+        });
+
+        
 
         if (rangeSelect) {
             rangeSelect.addEventListener('change', () => {
@@ -447,7 +483,7 @@
                 // Create new chart on the active page (or default wrapper if no pages)
                 const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
                     Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                    card._visibleRange, '', lastLabelVisible, targetWrapper);
+                    card._visibleRange, '', lastLabelVisible, targetWrapper, card._height || initialHeight);
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {
@@ -531,7 +567,7 @@
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
                         c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
                     );
                 });
             } else {
@@ -544,7 +580,7 @@
                                 const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                                 createChartCard(
                                     c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper
+                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
                                 );
                             });
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));
