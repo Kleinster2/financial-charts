@@ -82,7 +82,8 @@ def get_table_columns(table_name, conn=None, force_refresh=False):
     
     try:
         cursor = conn.execute(f"PRAGMA table_info({table_name})")
-        columns = {row['name'] for row in cursor.fetchall()}
+        # PRAGMA returns tuples: (cid, name, type, notnull, dflt_value, pk)
+        columns = {row[1] for row in cursor.fetchall()}
         _schema_cache[table_name] = columns
         app.logger.info(f"Cached schema for table {table_name}: {len(columns)} columns")
         return columns
@@ -150,7 +151,7 @@ def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=Non
 
 def get_db_connection():
     """Get database connection with optimized settings"""
-    conn = sqlite3.connect(f'../{DB_FILENAME}')
+    conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -203,14 +204,16 @@ def get_tickers():
         # Collect columns from stock table
         try:
             cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
-            tickers_set.update(row['name'] for row in cursor.fetchall() if row['name'] != 'Date')
+            # PRAGMA returns tuples: (cid, name, type, notnull, dflt_value, pk)
+            tickers_set.update(row[1] for row in cursor.fetchall() if row[1] != 'Date')
         except sqlite3.OperationalError:
             app.logger.warning("Table 'stock_prices_daily' not found.")
 
         # Collect columns from futures table
         try:
             cursor = conn.execute("PRAGMA table_info(futures_prices_daily)")
-            tickers_set.update(row['name'] for row in cursor.fetchall() if row['name'] != 'Date')
+            # PRAGMA returns tuples: (cid, name, type, notnull, dflt_value, pk)
+            tickers_set.update(row[1] for row in cursor.fetchall() if row[1] != 'Date')
         except sqlite3.OperationalError:
             app.logger.warning("Table 'futures_prices_daily' not found.")
 

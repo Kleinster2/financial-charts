@@ -19,33 +19,63 @@ END_DATE = datetime.today().strftime("%Y-%m-%d")
 # These lists should be maintained separately as they're not static
 # For now we'll keep them here but could move to a config file later
 ADR_TICKERS = [
-    'BABA', 'TSM', 'NVO', 'ASML', 'TCEHY', 'TM', 'SAP', 'PDD', 'SHEL',
-    'HDBNY', 'AZN', 'BHP', 'SNY', 'HMC', 'NVS', 'TD', 'TTE', 'UL', 'RY',
-    'MUFG', 'BP', 'GSK', 'SONY', 'RIO', 'BTI', 'HSBC', 'ENB', 'CNI', 'DEO',
-    'SMFG', 'CP', 'SHOP', 'SE', 'IBKR', 'CHKP', 'NICE', 'GLBE', 'CPNG',
-    'NU', 'STLA', 'FSLR', 'GRAB', 'ZIM', 'MBAVU', 'OZON', 'XPEV', 'LI', 'NIO',
-    'BILI', 'NTES', 'JD', 'BIDU', 'BGNE', 'VIPS', 'IQ', 'WB', 'TME', 'TAL',
-    'EDU', 'BZ', 'GOTU', 'YMM', 'DADA', 'SOHU', 'LU', 'FINV', 'API', 'QFIN',
-    'ATHM', 'GOOG', 'MSFT', 'AAPL', 'AMZN', 'META', 'NVDA', 'SPY', 'QQQ', 'BTC-USD',
-    'ETH-USD', 'LTC-USD'
+    "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
+    "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
+    "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG"
 ]
 
 ETF_TICKERS = [
-    'XLF', 'XLE', 'XLU', 'XLI', 'XLV', 'XLY', 'XLP', 'XLK', 'XLRE', 'XLB', 'XLC',
-    'VIG', 'VUG', 'VTV', 'VYM', 'VGT', 'VNQ', 'VB', 'VBR', 'VOO', 'IVV', 'VTI',
-    'VWO', 'VEA', 'VXUS', 'VT', 'AGG', 'BND', 'TLT', 'IEF', 'SHY', 'LQD', 'HYG',
-    'MUB', 'TIP', 'GLD', 'IAU', 'SLV', 'PDBC', 'DBC', 'USO', 'UNG', 'GDX', 'GDXJ',
-    'EWJ', 'EWZ', 'EWY', 'EWG', 'EWU', 'EWC', 'EWA', 'EWT', 'EWH', 'EWW', 'EWP',
-    'EWI', 'EWS', 'FXI', 'INDA', 'RSX', 'ARKG', 'ARKK', 'ARKW', 'ARKQ', 'ARKF',
-    'ICLN', 'TAN', 'LIT', 'QCLN', 'PBW', 'FAN', 'SOXX', 'SMH', 'PAVE', 'MJ',
-    'DIA', 'IWM', 'IWF', 'IWD', 'IWO', 'IWN', 'MDY', 'VEU', 'SCZ', 'DXJ', 'HEDJ',
-    'ASHR', 'VGK', 'VPL', 'VNQI', 'VIGI', 'VSS', 'IEMG', 'EEM', 'EMQQ', 'FM',
-    'EEMV', 'DGS', 'DGRO', 'DTD', 'DVY', 'NOBL', 'PFF', 'IGSB', 'IGIB', 'EMB',
-    'EMLC', 'GOVT', 'IAGG', 'QLD', 'SSO', 'UPRO', 'TQQQ', 'SOXL', 'SPXL', 'TMF',
-    'TNA', 'FAS', 'ERX', 'LABU', 'NUGT', 'JNUG', 'UGAZ', 'UCO', 'BOIL', 'KOLD',
-    'PSQ', 'SH', 'SDS', 'SPXU', 'SPXS', 'SQQQ', 'SDOW', 'SRTY', 'TZA', 'FAZ',
-    'ERY', 'LABD', 'DRIP', 'DUST', 'JDST', 'DGAZ', 'SCO', 'VXX', 'VIXY', 'UVXY',
-    'SVXY', 'SPX', 'NDX', 'RUT', 'DJI', 'GSPC', 'IXIC', 'RUI', 'VIX'
+    # Core U.S. market benchmarks
+    "SPY", "RSP", "SPLG", "VTI", "QQQ", "DIA", "IWM",  # added SPLG for ALLW
+    # U.S. style / factor ETFs
+    "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
+    # Sector ETFs (GICS)
+    "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
+    # Broad international equity baskets
+    "EFA", "EEM", "IEFA", "VWO", "SPEM",  # added SPEM for ALLW
+    # Single-country developed market ETFs
+    "EWZ", "EWW", "EWJ", "EWU", "EWG", "EWQ", "EWC", "EWA", "EWL", "EWS", "EWI", "EWP", "EWN", "EWD", "EWO", "EWH", "EWK", "EWM", "EDEN", "EFNL", "EIRL", "EIS", "ENZL", "ENOR",
+    # Single-country emerging market ETFs
+    "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
+    # Fixed income & alternative asset ETFs
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    # Multi-asset / risk parity ETFs
+    "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
+    # Commodities, currencies & volatility
+    "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
+    # Volatility indices (Yahoo '^' symbols) and ETNs
+    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
+    # Treasury yield index symbols (yields, not prices)
+    "^IRX", "^FVX", "^TNX", "^TYX",  # added comma after TYX
+    # Additional Vanguard ETFs
+    "VIG", "VUG", "VTV", "VYM", "VGT", "VNQ", "VB", "VBR", "VOO", "IVV",
+    "VEA", "VXUS", "VT", "VEU", "SCZ", "DXJ", "HEDJ",
+    "ASHR", "VGK", "VPL", "VNQI", "VIGI", "VSS", "IEMG", "EMQQ",
+    "EEMV", "DGS", "DGRO", "DTD", "DVY", "NOBL", "PFF", "IGSB", "IGIB",
+    "EMLC", "GOVT", "IAGG", "MUB",
+    # iShares ETFs
+    "IWF", "IWD", "IWO", "IWN",
+    # ARK ETFs
+    "ARKG", "ARKK", "ARKW", "ARKQ", "ARKF",
+    # Clean energy ETFs
+    "ICLN", "TAN", "LIT", "QCLN", "PBW", "FAN",
+    # Technology ETFs
+    "SOXX", "SMH", "PAVE", "MJ",
+    # International ETFs
+    "RSX", "INDA",
+    # Leveraged ETFs
+    "QLD", "SSO", "UPRO", "TQQQ", "SOXL", "SPXL", "TMF",
+    "TNA", "FAS", "ERX", "LABU", "NUGT", "JNUG", "UGAZ", "UCO", "BOIL",
+    # Inverse ETFs
+    "PSQ", "SH", "SDS", "SPXU", "SPXS", "SQQQ", "SDOW", "SRTY", "TZA", "FAZ",
+    "ERY", "LABD", "DRIP", "DUST", "JDST", "DGAZ", "SCO", "VIXY",
+    # Crypto ETFs (spot, futures, blockchain)
+    # -- Bitcoin spot ETFs
+    "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
+    # -- Bitcoin futures/inverse ETFs
+    "BITO", "BTF", "XBTF", "BITI",
+    # -- Blockchain/crypto industry ETFs
+    "BLOK", "DAPP", "BKCH", "BITQ"
 ]
 
 # Core indices with the ^prefix
@@ -54,6 +84,7 @@ core_indices = TICKER_CATEGORIES['CORE_INDICES']
 volatility_indices = TICKER_CATEGORIES['VOLATILITY_INDICES']
 # Other indices and rates
 other_indices = TICKER_CATEGORIES['TREASURY_YIELDS']
+
 # Additional FX tickers (extra crosses, indices)
 ADDITIONAL_FX_TICKERS = [
     # Extra USD crosses
@@ -64,6 +95,9 @@ ADDITIONAL_FX_TICKERS = [
     # Currency indices
     "^DXY", "^BXY"
 ]
+
+# Stablecoins
+STABLECOIN_TICKERS = ["USDT-USD", "USDC-USD", "DAI-USD"]
 
 # Top-crypto tickers
 CRYPTO_TICKERS = [
@@ -84,19 +118,6 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "CRCL", "CRON",
 ]
 
-# Crypto ETFs (spot, futures, blockchain)
-# -- Bitcoin spot ETFs
-bitcoin_spot_etfs = [
-    "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
-]
-# -- Bitcoin futures/inverse ETFs
-bitcoin_futures_etfs = [
-    "BITO", "BTF", "XBTF", "BITI",
-]
-# -- Blockchain/crypto industry ETFs
-blockchain_etfs = [
-    "BLOK", "DAPP", "BKCH", "BITQ",
-]
 # Crypto-exposed equities (miners, exchanges, infrastructure)
 CRYPTO_STOCKS = [
     # Miners
@@ -106,15 +127,19 @@ CRYPTO_STOCKS = [
 ]
 
 # Foreign exchange tickers (major + EM pairs)
+MAJOR_CCY = ["USD","EUR","JPY","GBP","CHF","AUD","NZD","CAD"]
+EM_CCY = [
+    "BRL","MXN","ZAR","TRY","INR","IDR","CNY","HKD","KRW","RUB",
+    "COP","CLP","PHP","THB","PLN","HUF","CZK","RON","ILS",
+]
+
 def build_fx_tickers():
-    major_currencies = TICKER_CATEGORIES['MAJOR_CURRENCIES']
-    emerging_currencies = TICKER_CATEGORIES['EMERGING_CURRENCIES']
     fx = []
     # All major crosses, both directions (excludes self-crosses automatically)
-    fx += make_pairs(major_currencies, major_currencies)
+    fx += make_pairs(MAJOR_CCY, MAJOR_CCY)
     # USD-EM pairs, both directions
-    fx += make_pairs(["USD"], emerging_currencies)
-    fx += make_pairs(emerging_currencies, ["USD"])
+    fx += make_pairs(["USD"], EM_CCY)
+    fx += make_pairs(EM_CCY, ["USD"])
     # Precious metals as currencies
     fx += ["XAUUSD=X", "XAGUSD=X", "XPTUSD=X", "XPDUSD=X"]
     return unique_preserve(fx)
@@ -185,7 +210,8 @@ def update_sp500_data(verbose: bool = True):
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
         vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
-        vprint(f"FX tickers generated: {len(build_fx_tickers())}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
+        FX_TICKERS = build_fx_tickers()
+        vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
         all_tickers = sorted(list(set(
             sp500['ticker'].tolist()
             + ibov_tickers
@@ -193,7 +219,7 @@ def update_sp500_data(verbose: bool = True):
             + ADR_TICKERS
             + OTHER_HIGH_PROFILE_STOCKS
             + CRYPTO_STOCKS
-            + build_fx_tickers()
+            + FX_TICKERS
             + ADDITIONAL_FX_TICKERS
             + CRYPTO_TICKERS
         )))
