@@ -29,32 +29,20 @@ window.StateManager = {
     _saveTimeout: null,
     
     /**
-     * Save cards to localStorage and backend
+     * Save cards to localStorage only (immediate)
      */
-    async saveCards(cards) {
-        // Save to localStorage immediately
+    saveCardsLocal(cards) {
         try {
             localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(cards));
         } catch (e) {
             console.error('[StateManager] Failed to write localStorage', e);
         }
-
-        // Debounce saving to backend
-        clearTimeout(this._saveTimeout);
-        this._saveTimeout = setTimeout(() => {
-            try {
-                console.log('[StateManager] Auto-saving to backend...');
-                this.saveToBackend(cards);
-            } catch (e) {
-                console.error('[StateManager] Backend save scheduling failed', e);
-            }
-        }, 2000);
     },
     
     /**
-     * Save charts to backend workspace
+     * Debounced backend save
      */
-    saveCards: debounce(cards => StateManager.saveToBackend(cards), window.ChartConfig ? window.ChartConfig.DEBOUNCE_MS.SAVE : 2000),
+    saveToBackendDebounced: debounce(cards => StateManager.saveToBackend(cards), window.ChartConfig ? window.ChartConfig.DEBOUNCE_MS.SAVE : 2000),
     
     async saveToBackend(cards) {
         try {
@@ -75,6 +63,14 @@ window.StateManager = {
             console.error('[StateManager] Backend save error:', error);
             // Silently fail - don't interrupt user experience
         }
+    },
+
+    /**
+     * Public save: local immediately, backend debounced
+     */
+    saveCards(cards) {
+        this.saveCardsLocal(cards);
+        this.saveToBackendDebounced(cards);
     },
     
     /**

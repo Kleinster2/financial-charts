@@ -193,10 +193,16 @@
             console.log(`[Card:${cardId}] Font size change: ${current} -> ${next} (delta ${delta})`);
             card._fontSize = next;
             applyFont(next);
+            // Disable/enable controls at bounds
+            if (fontDownBtn) fontDownBtn.disabled = (next <= FONT_MIN);
+            if (fontUpBtn) fontUpBtn.disabled = (next >= FONT_MAX);
             saveCards();
         }
         if (fontUpBtn) fontUpBtn.addEventListener('click', () => adjustFont(+FONT_STEP));
         if (fontDownBtn) fontDownBtn.addEventListener('click', () => adjustFont(-FONT_STEP));
+        // Initialize font button disabled state
+        if (fontDownBtn) fontDownBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) <= FONT_MIN);
+        if (fontUpBtn) fontUpBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) >= FONT_MAX);
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
