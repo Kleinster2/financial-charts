@@ -70,7 +70,12 @@ window.ChartConfig = {
     UI: {
         MAX_TICKERS_PER_CHART: 30,
         DEFAULT_TICKER: 'SPY',
-        NOTIFICATION_DURATION: 3000  // How long to show notifications
+        NOTIFICATION_DURATION: 3000,  // How long to show notifications
+        // Chart font controls
+        FONT_DEFAULT: 12,
+        FONT_MIN: 8,
+        FONT_MAX: 24,
+        FONT_STEP: 1
     }
 };
 

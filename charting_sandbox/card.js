@@ -48,7 +48,8 @@
             useRaw: card._useRaw || false,
             title: card._title || '',
             lastLabelVisible: card._lastLabelVisible !== false,
-            height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })()
+            height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
+            fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
         }));
         
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -70,7 +71,8 @@
         initialTitle = '',
         initialLastLabelVisible = true,
         wrapperEl = null,
-        initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
+        initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+        initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -104,7 +106,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, heightDownBtn, heightUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -144,11 +146,18 @@
         card._title = initialTitle;
         card._lastLabelVisible = lastLabelVisible;
         card._height = initialHeight;
+        card._fontSize = initialFontSize;
 
         // Height adjust helpers (scoped per card)
         const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
         const HEIGHT_MAX = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MAX_HEIGHT) || 800;
         const HEIGHT_STEP = 50;
+
+        // Font size controls (axis font only)
+        const UI = (window.ChartConfig && window.ChartConfig.UI) || {};
+        const FONT_MIN = UI.FONT_MIN || 8;
+        const FONT_MAX = UI.FONT_MAX || 24;
+        const FONT_STEP = UI.FONT_STEP || 1;
 
         function applyResize(newH) {
             if (!chartBox) return;
@@ -171,6 +180,23 @@
 
         if (heightUpBtn) heightUpBtn.addEventListener('click', () => adjustHeight(+HEIGHT_STEP));
         if (heightDownBtn) heightDownBtn.addEventListener('click', () => adjustHeight(-HEIGHT_STEP));
+
+        function applyFont(newSize) {
+            if (chart && typeof chart.applyOptions === 'function') {
+                console.log(`[Card:${cardId}] Applying axis font size ${newSize}`);
+                try { chart.applyOptions({ layout: { fontSize: newSize } }); } catch (e) { console.warn(`[Card:${cardId}] chart.applyOptions(layout.fontSize) failed`, e); }
+            }
+        }
+        function adjustFont(delta) {
+            const current = card._fontSize || (UI.FONT_DEFAULT || 12);
+            const next = Math.max(FONT_MIN, Math.min(FONT_MAX, current + delta));
+            console.log(`[Card:${cardId}] Font size change: ${current} -> ${next} (delta ${delta})`);
+            card._fontSize = next;
+            applyFont(next);
+            saveCards();
+        }
+        if (fontUpBtn) fontUpBtn.addEventListener('click', () => adjustFont(+FONT_STEP));
+        if (fontDownBtn) fontDownBtn.addEventListener('click', () => adjustFont(-FONT_STEP));
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
@@ -209,7 +235,7 @@
         async function plot() {
             if (!chart) {
                 chart = LightweightCharts.createChart(chartBox, {
-                    layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333' },
+                    layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
                     timeScale: { secondsVisible: false, rightOffset: 10, fixLeftEdge: true },
                     rightPriceScale: { visible: true, mode: LightweightCharts.PriceScaleMode.Logarithmic, scaleMargins: { top: 0.1, bottom: 0.1 } },
@@ -483,7 +509,7 @@
                 // Create new chart on the active page (or default wrapper if no pages)
                 const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
                     Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                    card._visibleRange, '', lastLabelVisible, targetWrapper, card._height || initialHeight);
+                    card._visibleRange, '', lastLabelVisible, targetWrapper, card._height || initialHeight, card._fontSize || (UI.FONT_DEFAULT || 12));
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {
@@ -567,7 +593,7 @@
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
                         c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
+                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400), c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                     );
                 });
             } else {
@@ -580,7 +606,7 @@
                                 const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                                 createChartCard(
                                     c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)
+                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400), c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                                 );
                             });
                             localStorage.setItem('sandbox_cards', JSON.stringify(ws));
