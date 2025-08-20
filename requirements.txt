@@ -1,3 +1,5 @@
 pandas
 yfinance
 lxml
+requests
+beautifulsoup4
