@@ -523,6 +523,48 @@
                 }
             });
         }
+        if (removeCardBtn) {
+            removeCardBtn.addEventListener('click', () => {
+                try {
+                    // Remove nav link
+                    if (navLink && navLink.parentElement) {
+                        navLink.parentElement.removeChild(navLink);
+                    }
+                    // Unsubscribe handlers and clear series
+                    if (chart) {
+                        try {
+                            if (crosshairHandler && typeof chart.unsubscribeCrosshairMove === 'function') {
+                                chart.unsubscribeCrosshairMove(crosshairHandler);
+                            }
+                        } catch (_) {}
+                        try {
+                            if (debouncedRebase && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
+                                chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
+                                if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
+                            }
+                        } catch (_) {}
+                        try {
+                            if (rangeSaveHandler && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
+                                chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                            }
+                        } catch (_) {}
+                        try { window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries); } catch (_) {}
+                        try {
+                            if (volPane && chart && typeof chart.removePane === 'function') {
+                                chart.removePane(volPane);
+                            }
+                        } catch (_) {}
+                    }
+                } catch (e) {
+                    console.warn('Cleanup on remove failed:', e);
+                }
+                // Remove card from DOM and persist
+                if (card && card.parentElement) {
+                    card.parentElement.removeChild(card);
+                }
+                saveCards();
+            });
+        }
 
         if (titleInput) {
             titleInput.addEventListener('input', () => {
