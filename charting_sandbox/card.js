@@ -580,43 +580,62 @@
             })
             .catch(() => {});
 
-        // Restore or create cards
+        // Restore or create cards (backend-first for cross-browser persistence)
         const urlParams = new URLSearchParams(window.location.search);
         const startBlank = urlParams.has('blank');
-
         if (startBlank) {
             createChartCard('');
-        } else {
-            const stored = JSON.parse(localStorage.getItem('sandbox_cards') || '[]');
-            if (stored.length) {
+            return;
+        }
+
+        (async () => {
+            try {
+                const resp = await fetch('http://localhost:5000/api/workspace');
+                const ws = await resp.json();
+                if (Array.isArray(ws) && ws.length) {
+                    console.log('[Restore] Loaded workspace from server');
+                    ws.forEach(c => {
+                        const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
+                        createChartCard(
+                            Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                            !!c.showDiff, !!c.showAvg, !!c.showVol,
+                            c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
+                            c.title || '', c.lastLabelVisible ?? true, wrapper,
+                            c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                        );
+                    });
+                    try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
+                    return;
+                } else {
+                    console.log('[Restore] Server returned empty workspace; checking localStorage');
+                }
+            } catch (e) {
+                console.warn('[Restore] Server load failed, falling back to localStorage', e);
+            }
+            const stored = JSON.parse(localStorage.getItem(window.ChartConfig.STORAGE_KEYS.CARDS) || '[]');
+            if (Array.isArray(stored) && stored.length) {
+                console.log('[Restore] Loaded workspace from localStorage fallback');
                 stored.forEach(c => {
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
-                        c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol, 
-                        c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400), c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                        Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                        !!c.showDiff, !!c.showAvg, !!c.showVol,
+                        c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
+                        c.title || '', c.lastLabelVisible ?? true, wrapper,
+                        c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                        c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                     );
                 });
+                // Push local state to server to sync
+                if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
+                    window.StateManager.saveCards(stored);
+                }
             } else {
-                // Try to restore from backend
-                fetch('http://localhost:5000/api/workspace')
-                    .then(r => r.json())
-                    .then(ws => {
-                        if (Array.isArray(ws) && ws.length) {
-                            ws.forEach(c => {
-                                const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                                createChartCard(
-                                    c.tickers.join(', '), c.showDiff, c.showAvg, c.showVol,
-                                    c.useRaw || false, c.multipliers, c.hidden, c.range, c.title || '', c.lastLabelVisible ?? true, wrapper, c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400), c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
-                                );
-                            });
-                            localStorage.setItem('sandbox_cards', JSON.stringify(ws));
-                        } else {
-                            createChartCard('SPY');
-                        }
-                    })
-                    .catch(() => createChartCard('SPY'));
+                console.log('[Restore] No stored workspace found; creating default card');
+                createChartCard('SPY');
             }
-        }
+        })();
     });
 
     window.createChartCard = createChartCard;
