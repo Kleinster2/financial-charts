@@ -11,3 +11,9 @@ __pycache__/
 # Front-end workspace state
 workspace.json
 charting_app/workspace.json
+
+# Local debug/testing scripts
+check_db_issue.py
+debug_flask_db.py
+temp_old.py
+test_api.py
