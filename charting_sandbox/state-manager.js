@@ -46,14 +46,31 @@ window.StateManager = {
     
     async saveToBackend(cards) {
         try {
+            // Read page metadata (names, active, pages) from localStorage to persist cross-browser
+            let pagesMeta = null;
+            try {
+                const raw = localStorage.getItem('sandbox_pages');
+                if (raw) {
+                    const parsed = JSON.parse(raw);
+                    if (parsed && typeof parsed === 'object') pagesMeta = parsed;
+                }
+            } catch (e) {
+                console.warn('[StateManager] Could not read sandbox_pages for workspace save:', e);
+            }
+
+            const payload = { cards, pages: pagesMeta };
+
             const response = await fetch('http://localhost:5000/api/workspace', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(cards)
+                body: JSON.stringify(payload)
             });
             
             if (response.ok) {
-                console.log('[StateManager] ✓ Charts auto-saved to backend');
+                const info = await response.json().catch(() => ({}));
+                const cardCount = Array.isArray(cards) ? cards.length : 0;
+                const nameCount = pagesMeta && pagesMeta.names ? Object.keys(pagesMeta.names).length : 0;
+                console.log(`[StateManager] ✓ Workspace saved to backend (cards=${cardCount}, pageNames=${nameCount})`, info);
                 // Show subtle notification (optional)
                 this.showSaveNotification('Saved to server');
             } else {
@@ -117,22 +134,44 @@ window.StateManager = {
      */
     async loadCards() {
         try {
-            // Try localStorage first
-            const localData = localStorage.getItem(this.STORAGE_KEYS.CARDS);
-            if (localData) {
-                return JSON.parse(localData);
-            }
-            
-            // Try backend if no local data
+            // Backend-first restore for cross-browser persistence
             if (window.DataFetcher) {
                 const remoteData = await window.DataFetcher.loadWorkspace();
                 if (remoteData) {
-                    // Cache locally
-                    localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(remoteData));
-                    return remoteData;
+                    // Two schema possibilities: legacy array or new object {cards, pages}
+                    if (Array.isArray(remoteData)) {
+                        if (remoteData.length > 0) {
+                            localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(remoteData));
+                            console.log('[StateManager] Loaded legacy workspace (array) from backend');
+                            return remoteData;
+                        }
+                    } else if (typeof remoteData === 'object') {
+                        const cards = Array.isArray(remoteData.cards) ? remoteData.cards : [];
+                        // Restore pages metadata for PageManager
+                        if (remoteData.pages && typeof remoteData.pages === 'object') {
+                            try {
+                                localStorage.setItem('sandbox_pages', JSON.stringify(remoteData.pages));
+                                const nameCount = remoteData.pages.names ? Object.keys(remoteData.pages.names).length : 0;
+                                console.log(`[StateManager] Restored page metadata from backend (pageNames=${nameCount})`);
+                            } catch (e) {
+                                console.warn('[StateManager] Failed to cache sandbox_pages from backend:', e);
+                            }
+                        }
+                        localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(cards));
+                        console.log('[StateManager] Loaded workspace (object) from backend, cards=', cards.length);
+                        if (cards.length > 0) return cards;
+                    }
                 }
             }
-            
+
+            // Fallback: localStorage
+            const localData = localStorage.getItem(this.STORAGE_KEYS.CARDS);
+            if (localData) {
+                const parsed = JSON.parse(localData);
+                console.log('[StateManager] Loaded workspace from localStorage (fallback)');
+                return parsed;
+            }
+
             return [];
         } catch (error) {
             console.error('Failed to load cards:', error);

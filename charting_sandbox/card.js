@@ -641,7 +641,7 @@
                 const resp = await fetch('http://localhost:5000/api/workspace');
                 const ws = await resp.json();
                 if (Array.isArray(ws) && ws.length) {
-                    console.log('[Restore] Loaded workspace from server');
+                    console.log('[Restore] Loaded legacy workspace (array) from server');
                     ws.forEach(c => {
                         const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                         createChartCard(
@@ -655,6 +655,43 @@
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
                     return;
+                } else if (ws && typeof ws === 'object') {
+                    const cards = Array.isArray(ws.cards) ? ws.cards : [];
+                    const pagesMeta = (ws.pages && typeof ws.pages === 'object') ? ws.pages : null;
+                    if (pagesMeta) {
+                        try { localStorage.setItem('sandbox_pages', JSON.stringify(pagesMeta)); } catch (_) {}
+                        const nameCount = pagesMeta.names ? Object.keys(pagesMeta.names).length : 0;
+                        console.log(`[Restore] Loaded workspace (object) from server; pages meta present (pageNames=${nameCount})`);
+                        if (window.PageManager) {
+                            if (Array.isArray(pagesMeta.pages)) {
+                                pagesMeta.pages.filter(n => n !== 1).forEach(n => window.PageManager.ensurePage(n));
+                            }
+                            if (pagesMeta.names && typeof pagesMeta.names === 'object') {
+                                Object.entries(pagesMeta.names).forEach(([num, name]) => {
+                                    window.PageManager.renamePage(Number(num), String(name));
+                                });
+                            }
+                            if (pagesMeta.active) {
+                                window.PageManager.showPage(pagesMeta.active);
+                            }
+                        }
+                    } else {
+                        console.log('[Restore] Workspace object has no pages meta');
+                    }
+                    cards.forEach(c => {
+                        const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
+                        createChartCard(
+                            Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                            !!c.showDiff, !!c.showAvg, !!c.showVol,
+                            c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
+                            c.title || '', c.lastLabelVisible ?? true, wrapper,
+                            c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                        );
+                    });
+                    try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
+                    if (cards.length > 0) return;
+                    console.log('[Restore] Workspace object had no cards; checking localStorage');
                 } else {
                     console.log('[Restore] Server returned empty workspace; checking localStorage');
                 }

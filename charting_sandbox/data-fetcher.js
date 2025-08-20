@@ -107,10 +107,23 @@ window.DataFetcher = {
      */
     async saveWorkspace(cards) {
         const url = `${API_BASE_URL}/api/workspace`;
+        // Include page metadata so renames persist cross-browser
+        let pagesMeta = null;
+        try {
+            const raw = localStorage.getItem('sandbox_pages');
+            if (raw) {
+                const parsed = JSON.parse(raw);
+                if (parsed && typeof parsed === 'object') pagesMeta = parsed;
+            }
+        } catch (e) {
+            console.warn('[DataFetcher] Could not read sandbox_pages for workspace save:', e);
+        }
+        const payload = { cards, pages: pagesMeta };
+        console.log(`[DataFetcher] Saving workspace to backend (cards=${Array.isArray(cards) ? cards.length : 0}, pageNames=${pagesMeta && pagesMeta.names ? Object.keys(pagesMeta.names).length : 0})`);
         return fetchWithRetry(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(cards)
+            body: JSON.stringify(payload)
         }, 0); // No retry for saves
     },
     

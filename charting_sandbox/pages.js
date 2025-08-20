@@ -9,6 +9,18 @@
   }
 
   let pageCounter = 1; // page 1 exists
+  let pageNames = {};
+
+  // Preload saved names before creating initial tab so Page 1 label is correct
+  try {
+    const rawInit = localStorage.getItem('sandbox_pages');
+    if (rawInit) {
+      const parsedInit = JSON.parse(rawInit);
+      if (parsedInit && parsedInit.names && typeof parsedInit.names === 'object') {
+        pageNames = parsedInit.names;
+      }
+    }
+  } catch (e) { /* noop */ }
 
   function activateTab(pageNum){
     Array.from(tabBar.children).forEach(t=>t.classList.toggle('active', t.dataset.page==pageNum+''));
@@ -63,13 +75,25 @@
     const tab=document.createElement('div');
     tab.className='tab';
     tab.dataset.page=num;
-    tab.textContent=`Page ${num}`;
+    const name = pageNames[num] || `Page ${num}`;
+    tab.textContent = name;
+    tab.title = 'Double-click to rename';
     tab.addEventListener('click', ()=>{
       const target=pagesContainer.querySelector(`[data-page="${num}"]`);
       if(target) {
         switchTo(target);
         savePages();
       }
+    });
+    tab.addEventListener('dblclick', () => {
+      const current = pageNames[num] || `Page ${num}`;
+      const newName = prompt('Rename page', current);
+      if (newName === null) return; // cancelled
+      const trimmed = newName.trim();
+      if (!trimmed) return;
+      pageNames[num] = trimmed;
+      tab.textContent = trimmed;
+      savePages();
     });
     tabBar.appendChild(tab);
     return tab;
@@ -87,7 +111,18 @@
   function savePages(){
     const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
     try {
-      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage() }));
+      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage(), names: pageNames }));
+      // Also persist to backend (debounced) so changes sync across browsers
+      try {
+        const cardsKey = (window.StateManager && window.StateManager.STORAGE_KEYS && window.StateManager.STORAGE_KEYS.CARDS) || 'sandbox_cards';
+        const raw = localStorage.getItem(cardsKey) || '[]';
+        const cards = JSON.parse(raw);
+        if (window.StateManager && typeof window.StateManager.saveToBackendDebounced === 'function') {
+          window.StateManager.saveToBackendDebounced(Array.isArray(cards) ? cards : []);
+        }
+      } catch (e) {
+        console.warn('[PageManager] Failed to trigger backend save after pages change', e);
+      }
     } catch(e) { console.warn('pages.js: failed to save pages', e); }
   }
 
@@ -112,7 +147,16 @@
     const el = pagesContainer.querySelector(`[data-page="${num}"]`);
     if (el) switchTo(el);
   }
-  window.PageManager = { ensurePage, showPage };
+  function renamePage(num, newName){
+    const trimmed = (newName || '').toString().trim();
+    if (!trimmed) return false;
+    pageNames[num] = trimmed;
+    const tab = Array.from(tabBar.children).find(t => t.dataset.page === String(num));
+    if (tab) tab.textContent = trimmed;
+    savePages();
+    return true;
+  }
+  window.PageManager = { ensurePage, showPage, renamePage };
 
   // Restore saved pages (so empty pages persist too)
   try {
@@ -120,6 +164,16 @@
     if (raw) {
       const parsed = JSON.parse(raw);
       if (parsed && Array.isArray(parsed.pages)) {
+        // Restore names first so any newly created tabs use saved names
+        if (parsed.names && typeof parsed.names === 'object') {
+          pageNames = parsed.names;
+          // Update any existing tabs (e.g., Page 1) to reflect saved name
+          Array.from(tabBar.children).forEach(tab => {
+            const num = tab.dataset.page;
+            tab.textContent = pageNames[num] || `Page ${num}`;
+            tab.title = 'Double-click to rename';
+          });
+        }
         parsed.pages.filter(n => n !== 1).forEach(n => ensurePage(n));
         if (parsed.active && parsed.active !== 1) {
           const target = pagesContainer.querySelector(`[data-page="${parsed.active}"]`);
@@ -162,6 +216,8 @@
   // Expose PageManager functions to window for cross-module access
   window.PageManager = {
     getActivePage: getActivePage,
+    showPage: showPage,
+    renamePage: renamePage,
     ensurePage: function(pageNum) {
       ensurePage(pageNum);
       // Return the wrapper element for the page

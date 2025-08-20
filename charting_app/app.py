@@ -406,12 +406,22 @@ def workspace():
     if request.method == 'POST':
         try:
             state = request.get_json(force=True) or []
+            # Determine schema and counts
+            if isinstance(state, dict) and 'cards' in state:
+                items = len(state.get('cards') or [])
+                schema = 'object'
+            else:
+                # Legacy: array of cards
+                items = len(state) if isinstance(state, list) else 0
+                schema = 'array'
+            app.logger.info(f"/api/workspace POST schema={schema} items={items}")
+
             # Write atomically by first dumping to a temp file
             temp_file = WORKSPACE_FILENAME + WORKSPACE_TEMP_SUFFIX
             with open(temp_file, 'w', encoding='utf-8') as fh:
                 json.dump(state, fh)
             os.replace(temp_file, workspace_path)
-            return jsonify({'status': 'saved', 'items': len(state)}), 200
+            return jsonify({'status': 'saved', 'items': items, 'schema': schema}), 200
         except Exception as e:
             app.logger.error(f"Failed to save workspace: {e}")
             return jsonify({'error': 'failed to save'}), 500
