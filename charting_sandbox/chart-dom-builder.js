@@ -50,7 +50,7 @@ window.ChartDomBuilder = {
     /**
      * Create a ticker chip element
      */
-    createTickerChip(ticker, color, multiplier = 1, isHidden = false) {
+    createTickerChip(ticker, color, multiplier = 1, isHidden = false, onRemove = null) {
         const chip = document.createElement('span');
         chip.className = 'chip';
         chip.dataset.ticker = ticker;
@@ -96,6 +96,7 @@ window.ChartDomBuilder = {
 
         // Add remove button
         const removeBtn = document.createElement('span');
+        removeBtn.className = 'close';
         removeBtn.innerHTML = '×';
         removeBtn.style.cssText = `
             margin-left: 5px;
@@ -106,7 +107,11 @@ window.ChartDomBuilder = {
         `;
         removeBtn.onclick = (e) => {
             e.stopPropagation();
-            chip.remove();
+            if (typeof onRemove === 'function') {
+                try { onRemove(ticker, chip); } catch (_) { /* noop */ }
+            } else {
+                chip.remove();
+            }
         };
         chip.appendChild(removeBtn);
 
@@ -171,13 +176,13 @@ window.ChartDomBuilder = {
      */
     normalizeTicker(t){ return t.trim().toUpperCase(); },
 
-    addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers) {
+    addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers, onRemove = null) {
         selectedTickersDiv.innerHTML = '';
         tickers.forEach(ticker => {
             const color = colorMap.get(ticker) || '#000000';
             const multiplier = multiplierMap.get(ticker) || 1;
             const isHidden = hiddenTickers.has(ticker);
-            const chip = this.createTickerChip(ticker, color, multiplier, isHidden);
+            const chip = this.createTickerChip(ticker, color, multiplier, isHidden, onRemove);
             selectedTickersDiv.appendChild(chip);
         });
     },

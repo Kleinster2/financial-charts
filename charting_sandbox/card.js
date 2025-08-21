@@ -209,6 +209,63 @@
             showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
         });
 
+        // Remove ticker handler: updates state and removes corresponding series
+        function handleChipRemove(ticker, chipEl) {
+            try {
+                if (!selectedTickers.has(ticker)) {
+                    if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
+                    return;
+                }
+                selectedTickers.delete(ticker);
+                hiddenTickers.delete(ticker);
+                multiplierMap.delete(ticker);
+                tickerColorMap.delete(ticker);
+                rawPriceMap.delete(ticker);
+                try { delete latestRebasedData[ticker]; } catch (_) {}
+
+                // Remove price series
+                const s = priceSeriesMap.get(ticker);
+                if (s && chart) {
+                    try { chart.removeSeries(s); } catch (_) {}
+                }
+                priceSeriesMap.delete(ticker);
+
+                // Remove volume series (if present)
+                if (volSeriesMap && chart) {
+                    const vs = volSeriesMap.get(ticker);
+                    if (vs) {
+                        try { chart.removeSeries(vs); } catch (_) {}
+                        volSeriesMap.delete(ticker);
+                    }
+                    // If no volume series remain, remove the pane
+                    if (volPane && volSeriesMap.size === 0) {
+                        try { volPane = window.ChartVolumeManager.clearVolumeSeries(chart, volPane, volSeriesMap); } catch (_) {}
+                    }
+                }
+
+                // Update average series
+                if (showAvg && !useRaw) {
+                    try {
+                        avgSeries = window.ChartSeriesManager.updateAverageSeries(
+                            chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
+                        );
+                    } catch (_) {}
+                }
+
+                // Remove chip element
+                if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
+
+                // Update nav label if title empty
+                if (navLink && titleInput && !titleInput.value) {
+                    navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
+                }
+
+                saveCards();
+            } catch (e) {
+                console.warn('[Card] handleChipRemove failed:', e);
+            }
+        }
+
         // Initialize tickers
         if (initialTickers) {
             const tickers = window.ChartDomBuilder.parseTickerInput(initialTickers);
@@ -217,7 +274,7 @@
                 tickerColorMap.set(t, colors[colorIndex++ % colors.length]);
             });
             window.ChartDomBuilder.addTickerChips(
-                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers
+                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
             );
         }
 
@@ -230,7 +287,7 @@
             tickerColorMap.set(input, colors[colorIndex++ % colors.length]);
             
             window.ChartDomBuilder.addTickerChips(
-                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers
+                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
             );
             
             tickerInput.value = '';
