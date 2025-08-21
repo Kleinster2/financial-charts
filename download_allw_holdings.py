@@ -43,7 +43,7 @@ HOLDINGS_URL: Final[str] = (
     "fund-data/etfs/us/holdings-daily-us-en-allw.xlsx"
 )
 
-DB_PATH: Final[Path] = Path(__file__).with_name("sp500_data.db")
+from constants import DB_PATH, get_db_connection
 ETF_SYMBOL: Final[str] = "ALLW"
 TABLE_NAME: Final[str] = "etf_holdings_daily"
 
@@ -331,7 +331,8 @@ def main() -> None:
         if not explicit_date and actual_date != as_of:
             vprint(f"📅 Using 'As of' date from file: {actual_date}")
 
-        with sqlite3.connect(DB_PATH) as conn:
+        print(f"Using database: {DB_PATH}")
+        with get_db_connection() as conn:
             _store_holdings(holdings_df, actual_date, conn, verbose=verbose)
     except Exception as exc:
         print(f"ERROR: failed to process holdings – {exc}")

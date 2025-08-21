@@ -13,7 +13,8 @@ workspace.json
 charting_app/workspace.json
 
 # Local debug/testing scripts
-check_db_issue.py
-debug_flask_db.py
-temp_old.py
-test_api.py
+ # Temporarily unignored for refactor
+ # check_db_issue.py
+ # debug_flask_db.py
+ # temp_old.py
+ # test_api.py

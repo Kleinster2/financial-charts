@@ -7,16 +7,18 @@ Prints the total market value and number of holdings for the latest snapshot.
 
 import sqlite3
 from pathlib import Path
+from constants import DB_PATH, get_db_connection
 
 def get_allw_value():
-    db_path = Path(__file__).parent / "sp500_data.db"
-    
+    db_path = Path(DB_PATH)
+    print(f"Using database: {db_path}")
+
     if not db_path.exists():
         print(f"Error: Database not found at {db_path}")
         return
     
     try:
-        conn = sqlite3.connect(str(db_path))
+        conn = get_db_connection(row_factory=None)
         cursor = conn.cursor()
         
         # Get the two most recent snapshot dates

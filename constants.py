@@ -3,12 +3,16 @@ Global Constants and Configuration
 Centralizes magic numbers and configuration values for the entire project
 """
 
+import os
+import logging
+import sqlite3
+
 # Date Constants
 DEFAULT_START_DATE = "2019-12-31"
 TRADING_DAYS_PER_YEAR = 252
 
 # Database Configuration
-DB_FILENAME = "sp500_data.db"
+DB_FILENAME = "market_data.db"
 SCHEMA_CACHE_TTL = 3600  # 1 hour in seconds
 
 # API Configuration
@@ -123,3 +127,43 @@ COMMENTARY_THRESHOLDS = {
     'STRONG_DOWN': -0.03, # 3% daily loss
     'MODERATE_DOWN': -0.01 # 1% daily loss
 }
+
+# --- Database Path Resolver -------------------------------------------------
+_logger = logging.getLogger(__name__)
+
+def resolve_db_path() -> str:
+    """Resolve absolute SQLite database path with legacy fallback.
+
+    Order of precedence:
+    1) market_data.db (current, from DB_FILENAME) in project root
+    2) sp500_data.db (legacy) in project root, with a deprecation warning
+    3) return path to market_data.db even if missing (callers can create it)
+    """
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    default_db = os.path.join(basedir, DB_FILENAME)
+    legacy_db = os.path.join(basedir, 'sp500_data.db')
+
+    if os.path.exists(default_db):
+        return default_db
+    if os.path.exists(legacy_db):
+        _logger.warning(
+            "Using legacy database 'sp500_data.db'. Please migrate to 'market_data.db'."
+        )
+        return legacy_db
+    # Prefer default path even if not present; callers may create the DB
+    return default_db
+
+# Absolute path to the active database file
+DB_PATH = resolve_db_path()
+
+# Centralized database connection helper
+def get_db_connection(row_factory=sqlite3.Row):
+    """Return a sqlite3 connection to the active DB.
+
+    Args:
+        row_factory: Optional sqlite3 row factory (defaults to sqlite3.Row). Set to None to skip.
+    """
+    conn = sqlite3.connect(DB_PATH)
+    if row_factory is not None:
+        conn.row_factory = row_factory
+    return conn

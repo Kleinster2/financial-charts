@@ -3,6 +3,7 @@ Populate ETF names in ticker_metadata table for tooltip display
 """
 import sqlite3
 import os
+from constants import DB_PATH, get_db_connection
 
 # Common ETF names mapping
 ETF_NAMES = {
@@ -54,12 +55,12 @@ ETF_NAMES = {
 def main():
     print("=== Populating ETF metadata ===")
     
-    db_path = 'sp500_data.db'
-    if not os.path.exists(db_path):
-        print(f"Database not found: {db_path}")
+    print(f"Using database: {DB_PATH}")
+    if not os.path.exists(DB_PATH):
+        print(f"Database not found: {DB_PATH}")
         return
     
-    conn = sqlite3.connect(db_path)
+    conn = get_db_connection()
     cursor = conn.cursor()
     
     # First, check what ETFs exist in stock_prices_daily

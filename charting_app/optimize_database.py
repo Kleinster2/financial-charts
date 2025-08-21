@@ -1,6 +1,6 @@
 """
 Database migration script to add indexes and metadata table for improved performance.
-Run this script to optimize the sp500_data.db database.
+Run this script to optimize the SQLite market data database.
 """
 
 import sqlite3
@@ -15,9 +15,10 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Get database path
+# Import centralized DB helpers
 basedir = os.path.abspath(os.path.dirname(__file__))
-DB_PATH = os.path.join(basedir, '..', 'sp500_data.db')
+sys.path.append(os.path.join(basedir, '..'))
+from constants import DB_PATH, get_db_connection
 
 def create_indexes(conn):
     """Create indexes for commonly queried columns."""
@@ -45,13 +46,13 @@ def create_indexes(conn):
     for index_name, table_name, columns in indexes:
         try:
             # Check if table exists
-            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?", (table_name,))
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name= ?", (table_name,))
             if not cursor.fetchone():
                 logging.warning(f"Table {table_name} does not exist, skipping index {index_name}")
                 continue
             
             # Check if index already exists
-            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='index' AND name=?", (index_name,))
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='index' AND name= ?", (index_name,))
             if cursor.fetchone():
                 logging.info(f"Index {index_name} already exists, skipping")
                 continue
@@ -118,7 +119,7 @@ def populate_ticker_metadata(conn):
     for table_name, data_type in tables_info:
         try:
             # Check if table exists
-            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?", (table_name,))
+            cursor.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name= ?", (table_name,))
             if not cursor.fetchone():
                 continue
             
@@ -214,8 +215,7 @@ def main():
     
     try:
         # Connect to database
-        conn = sqlite3.connect(DB_PATH)
-        conn.row_factory = sqlite3.Row
+        conn = get_db_connection(row_factory=sqlite3.Row)
         
         # Run migrations
         logging.info("Creating indexes...")

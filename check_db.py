@@ -1,8 +1,11 @@
 import sqlite3
 import pandas as pd
+from constants import DB_PATH, get_db_connection
+
+print(f"Using database: {DB_PATH}")
 
 # Connect to the database
-conn = sqlite3.connect('sp500_data.db')
+conn = get_db_connection()
 
 # --- Verify futures_prices_daily table ---
 table_to_inspect = 'futures_prices_daily'

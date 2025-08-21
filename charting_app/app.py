@@ -14,7 +14,7 @@ from datetime import datetime
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from constants import (DB_FILENAME, SCHEMA_CACHE_TTL, DEFAULT_PORT, 
+from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT, 
                       CACHE_CONTROL_MAX_AGE, WORKSPACE_FILENAME, 
                       WORKSPACE_TEMP_SUFFIX, HTTP_OK, HTTP_BAD_REQUEST,
                       HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR)
@@ -43,8 +43,8 @@ def add_header(response):
 
 # Get the absolute path of the directory containing this script (charting_app)
 basedir = os.path.abspath(os.path.dirname(__file__))
-# Construct the absolute path to the database in the parent directory
-DB_PATH = os.path.join(basedir, '..', 'sp500_data.db')
+# Using centralized DB_PATH and get_db_connection() from constants.py
+# DB_PATH comes from constants.resolve_db_path(), which prefers market_data.db and falls back to sp500_data.db.
 
 # Schema cache for performance
 _schema_cache = {}
@@ -148,12 +148,6 @@ def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=Non
             conn.close()
     
     return result
-
-def get_db_connection():
-    """Get database connection with optimized settings"""
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    return conn
 
 @app.route('/')
 def index():
@@ -617,4 +611,4 @@ def etf_series():
         return jsonify({'error': 'failed to compute series'}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=DEFAULT_PORT)

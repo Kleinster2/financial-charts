@@ -15,8 +15,8 @@ from __future__ import annotations
 import os
 import sqlite3
 from typing import Dict
+from constants import DB_PATH, get_db_connection
 
-DB_PATH = "sp500_data.db"
 
 CRYPTO_STOCK_NAMES: Dict[str, str] = {
     # Exchanges / software
@@ -61,11 +61,12 @@ CREATE TABLE IF NOT EXISTS ticker_metadata (
 def main() -> None:
     print("=== Populating crypto-exposed stock metadata ===")
 
+    print(f"Using database: {DB_PATH}")
     if not os.path.exists(DB_PATH):
         print(f"Database not found: {DB_PATH}")
         return
 
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_db_connection()
     cur = conn.cursor()
 
     # Ensure table exists (no-op if already created by optimizer)

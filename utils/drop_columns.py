@@ -1,11 +1,10 @@
 import sys
 import sqlite3
 import pandas as pd
-from pathlib import Path
+import os
+from constants import DB_PATH, get_db_connection
 
-DB_PATH = Path(__file__).resolve().parents[1] / 'sp500_data.db'
-
-if not DB_PATH.exists():
+if not os.path.exists(DB_PATH):
     print(f'Database not found at {DB_PATH}')
     sys.exit(1)
 
@@ -15,7 +14,8 @@ if len(sys.argv) < 2:
 
 cols_to_drop = [c.upper() for c in sys.argv[1:]]
 
-conn = sqlite3.connect(DB_PATH)
+print(f"Using database: {DB_PATH}")
+conn = get_db_connection(row_factory=None)
 try:
     df = pd.read_sql('SELECT * FROM stock_prices_daily', conn, parse_dates=['Date'])
     existing = [c for c in cols_to_drop if c in df.columns]

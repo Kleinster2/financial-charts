@@ -1,6 +1,9 @@
 import sqlite3
+from constants import DB_PATH, get_db_connection
 
-conn = sqlite3.connect('sp500_data.db')
+print(f"Using database: {DB_PATH}")
+
+conn = get_db_connection()
 cursor = conn.cursor()
 
 # Check ETF metadata

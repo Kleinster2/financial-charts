@@ -3,11 +3,13 @@
 
 import sqlite3
 import pandas as pd
+from constants import DB_PATH, get_db_connection
 
 def compare_allw_snapshots(date1: str, date2: str):
     """Compare ALLW holdings between two snapshot dates."""
     
-    conn = sqlite3.connect('sp500_data.db')
+    print(f"Using database: {DB_PATH}")
+    conn = get_db_connection(row_factory=None)
     
     # Query holdings for both dates (including shares to detect flows)
     query = 'SELECT ticker, name, weight, shares FROM etf_holdings_daily WHERE etf = ? AND snapshot_date = ?'

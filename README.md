@@ -1,19 +1,19 @@
-# S&P 500 Data Downloader
+# Market Data Workbench
 
-This script downloads historical stock price data for all S&P 500 companies and stores it in a SQLite database.
+This project collects and serves multi-asset daily market data (stocks, ETFs, futures, FX, crypto) into a SQLite database, exposes a Flask API, and includes a charting sandbox UI.
 
 ## Steps
 
-1.  **Fetches S&P 500 Companies**: Retrieves the list of S&P 500 companies from Wikipedia.
-2.  **Downloads Price Data**: Downloads daily historical stock prices for each company from Yahoo Finance.
+1.  **Builds instrument universes**: Curates lists across indices, ETFs, futures, FX, and crypto.
+2.  **Downloads Price Data**: Pulls daily historical prices/volumes from Yahoo Finance.
 3.  **Data Cleaning**: Processes the data, handles missing values, and filters out tickers with insufficient data.
-4.  **Stores Data**: Saves the cleaned price data and company metadata into an SQLite database file (`sp500_data.db`).
+4.  **Stores Data**: Saves the cleaned data and metadata into a SQLite database file (`market_data.db`).
 
 ## Project Overview
 
 This repo includes three components:
 
--  __Data Collection__ (`download_sp500.py`): Builds/updates the SQLite DB `sp500_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
+-  __Data Collection__ (`update_market_data.py`, formerly `download_sp500.py`): Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
 -  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
 -  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
 
@@ -32,7 +32,7 @@ pip install -r charting_app\requirements.txt
 
 1.  __Download data (creates DB file)__
     ```powershell
-    python download_sp500.py
+    python update_market_data.py
     ```
 2.  __Start the API server__
     ```powershell
@@ -42,7 +42,7 @@ pip install -r charting_app\requirements.txt
     - Visit: http://localhost:5000/sandbox/
 
 Default paths and ports:
--  Database: `sp500_data.db` at repo root (server resolves `../sp500_data.db` from `charting_app/`)
+-  Database: resolved via `constants.DB_PATH` in the repo root. If `market_data.db` is missing but a legacy `sp500_data.db` exists, the resolver will use it and log a deprecation warning.
 -  Port: `5000` (see `charting_app/app.py`)
 
 ## API Endpoints (selected)
@@ -78,7 +78,7 @@ Open at `http://localhost:5000/sandbox/` once the server is running.
 
 2.  **Run the script:**
     ```bash
-    python download_sp500.py
+    python update_market_data.py
     ```
 
-This will create the `sp500_data.db` file in the same directory.
+This will create the `market_data.db` file in the same directory.

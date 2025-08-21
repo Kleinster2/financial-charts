@@ -1,7 +1,7 @@
 import sqlite3
 import os
+from constants import DB_PATH, get_db_connection
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'sp500_data.db')
 
 def table_exists(conn, name: str) -> bool:
     cur = conn.cursor()
@@ -32,10 +32,11 @@ def get_latest_date(conn, table: str) -> str:
 
 
 def main():
+    print(f"Using database: {DB_PATH}")
     if not os.path.exists(DB_PATH):
         print(f'Database not found: {DB_PATH}')
         return
-    conn = sqlite3.connect(DB_PATH)
+    conn = get_db_connection()
     try:
         for t in ['stock_prices_daily', 'stock_volumes_daily', 'etf_holdings_daily']:
             status = 'missing'

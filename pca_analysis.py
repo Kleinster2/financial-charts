@@ -5,12 +5,13 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+from constants import DB_PATH, get_db_connection
 
-DB_PATH = "sp500_data.db"
 N_COMPONENTS = 10  # number of principal components to keep
 
 # 1. Load prices
-df = pd.read_sql("SELECT * FROM stock_prices_daily", sqlite3.connect(DB_PATH), parse_dates=["Date"]).set_index("Date")
+print(f"Loading prices from database: {DB_PATH}")
+df = pd.read_sql("SELECT * FROM stock_prices_daily", get_db_connection(), parse_dates=["Date"]).set_index("Date")
 
 # 2. Compute daily log-returns
 returns = np.log(df).diff().dropna()

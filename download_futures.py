@@ -1,7 +1,7 @@
 """Download daily futures prices via yfinance and store them in the existing SQLite
-`sp500_data.db` database. The data is saved in a dedicated table `futures_prices_daily`.
+database resolved via constants.DB_PATH. The data is saved in a dedicated table `futures_prices_daily`.
 
-This script mirrors the behaviour of `download_sp500.py` but targets a curated list
+This script mirrors the behaviour of the main updater `update_market_data.py` but targets a curated list
 of liquid futures contracts that are available on Yahoo Finance (yfinance uses the
 same symbols). If you would like to broaden, shrink or otherwise customise the list,
 modify the `FUTURES_TICKERS` constant below.
@@ -18,6 +18,7 @@ import sys
 
 import pandas as pd
 import yfinance as yf
+from constants import DB_PATH, get_db_connection
 
 # -----------------------------------------------------------------------------
 # Config
@@ -75,7 +76,6 @@ FUTURES_TICKERS: list[str] = [
     "OJ=F",  # Orange Juice
 ]
 
-DB_PATH = "sp500_data.db"  # Re-use the existing database in the project root
 TABLE_NAME = "futures_prices_daily"  # New destination table
 VOL_TABLE_NAME = "futures_volumes_daily"
 
@@ -95,8 +95,8 @@ def update_futures_data(verbose: bool = True) -> None:
         if verbose:
             print(*args, **kwargs)
 
-    vprint("Connecting to database…")
-    conn = sqlite3.connect(DB_PATH)
+    vprint(f"Connecting to database… Using {DB_PATH}")
+    conn = get_db_connection()
     try:
         cursor = conn.cursor()
         cursor.execute(

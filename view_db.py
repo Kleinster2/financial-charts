@@ -1,10 +1,10 @@
 import sqlite3
 import pandas as pd
 
-DB_PATH = "sp500_data.db"
+from constants import DB_PATH, get_db_connection
 
 print(f"Connecting to {DB_PATH}...")
-with sqlite3.connect(DB_PATH) as conn:
+with get_db_connection(row_factory=None) as conn:
     # Get a list of tables
     cursor = conn.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")

@@ -5,9 +5,11 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+from constants import DB_PATH, get_db_connection
+
+print(f"Using database: {DB_PATH}")
 
 # --- CONFIG ---
-DB_PATH = "sp500_data.db"
 N_COMPONENTS = 10  # Use top 10 PCs as features for clustering
 MAX_CLUSTERS = 20  # Max number of clusters for elbow plot
 FINAL_N_CLUSTERS = 10 # Default number of clusters to use
@@ -16,7 +18,7 @@ FINAL_N_CLUSTERS = 10 # Default number of clusters to use
 print("Loading and processing stock returns...")
 df_prices = pd.read_sql(
     "SELECT * FROM stock_prices_daily",
-    sqlite3.connect(DB_PATH),
+    get_db_connection(row_factory=None),
     parse_dates=["Date"],
 ).set_index("Date")
 

@@ -9,6 +9,11 @@ import sqlite3
 import pandas as pd
 import yfinance as yf
 from datetime import datetime
+import os
+
+# Allow importing constants from repo root when run from anywhere
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from constants import DB_PATH, get_db_connection
 
 def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> None:
     """Download a single ticker and save it to the database."""
@@ -26,8 +31,9 @@ def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> Non
         idx = idx.tz_convert(None)
     data = data.loc[idx >= pd.to_datetime(start_date)]
     
-    # Connect to the database
-    conn = sqlite3.connect("sp500_data.db")
+    # Connect to the database in the project root
+    print(f"Using database: {DB_PATH}")
+    conn = get_db_connection(row_factory=None)
     
     try:
         # Prepare data for database

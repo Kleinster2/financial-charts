@@ -4,9 +4,9 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+from constants import DB_PATH, get_db_connection
 
 # --- CONFIG ---
-DB_PATH = "sp500_data.db"
 N_CLUSTERS = 10
 N_PROXY_STOCKS = 3
 CLUSTER_NAMES = {
@@ -17,9 +17,9 @@ CLUSTER_NAMES = {
 }
 
 # --- FUNCTIONS ---
-def get_sp500_info(db_path):
+def get_sp500_info():
     """Fetches S&P 500 metadata from the database and filters by tickers present in price data."""
-    with sqlite3.connect(db_path) as conn:
+    with get_db_connection() as conn:
         sp500_info = pd.read_sql("SELECT ticker, name, sector FROM stock_metadata", conn)
         price_tickers_df = pd.read_sql("PRAGMA table_info(stock_prices_daily);", conn)
         price_tickers = set(price_tickers_df['name']) - {'Date'}
@@ -28,13 +28,13 @@ def get_sp500_info(db_path):
 
 # --- SCRIPT ---
 # 1. Load All Data from Database
-print("Loading price data from database...")
-conn = sqlite3.connect(DB_PATH)
+print(f"Loading price data from database... Using {DB_PATH}")
+conn = get_db_connection()
 prices = pd.read_sql("SELECT * FROM stock_prices_daily", conn, index_col='Date', parse_dates=['Date'])
 conn.close()
 
 # 2. Separate Stocks for Clustering from Benchmarks
-sp500_info = get_sp500_info(DB_PATH)
+sp500_info = get_sp500_info()
 stock_tickers = sp500_info.index.tolist()
 # Ensure we only use tickers that are actually in the prices dataframe
 stock_tickers = [t for t in stock_tickers if t in prices.columns]

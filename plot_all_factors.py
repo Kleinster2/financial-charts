@@ -6,9 +6,9 @@ import yfinance as yf
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+from constants import DB_PATH, get_db_connection
 
 # --- CONFIG ---
-DB_PATH = "sp500_data.db"
 START_DATE = "2023-12-29"
 END_DATE = "2025-07-01"
 ETF_TICKERS = ["SPY", "RSP"]
@@ -25,10 +25,10 @@ etf_prices = yf.download(
 )["Close"]
 
 # 2. Load S&P 500 price table from SQLite
-print("Loading database prices …")
+print(f"Loading database prices … Using {DB_PATH}")
 df_prices = pd.read_sql(
     "SELECT * FROM stock_prices_daily",
-    sqlite3.connect(DB_PATH),
+    get_db_connection(),
     parse_dates=["Date"],
 ).set_index("Date")
 
