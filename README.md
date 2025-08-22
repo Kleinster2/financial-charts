@@ -45,6 +45,60 @@ Default paths and ports:
 -  Database: resolved via `constants.DB_PATH` in the repo root. If `market_data.db` is missing but a legacy `sp500_data.db` exists, the resolver will use it and log a deprecation warning.
 -  Port: `5000` (see `charting_app/app.py`)
 
+## Orchestrator CLI: asset selection and verbosity
+
+The orchestrator `update_market_data.py` supports selecting asset groups and controlling log verbosity.
+
+- __Assets__: `--assets` chooses which groups to update. Options include: `stocks`, `etfs`, `adrs`, `fx`, `crypto`, `futures`.
+- __Verbosity__: `--verbose` for detailed logs, `--quiet` to reduce output.
+
+Examples (Windows PowerShell):
+
+```powershell
+# Full update (all assets)
+python update_market_data.py --verbose
+
+# Only futures
+python update_market_data.py --assets futures
+
+# Stocks + ETFs only (skip futures)
+python update_market_data.py --assets stocks etfs --verbose
+
+# Quiet mode
+python update_market_data.py --quiet
+```
+
+Notes:
+- Futures are handled via a dedicated module (`download_futures.py`), invoked by the orchestrator when `--assets futures` is selected.
+- For non-futures groups, the orchestrator routes to `download_sp500.update_sp500_data(assets=...)` and preserves existing DB columns on partial updates.
+
+## ETF metadata population and auto-fill
+
+Populate human-readable names for ETFs in `ticker_metadata` for tooltips/labels. Run from the repo root:
+
+```powershell
+# Populate names for known ETFs from the built-in map
+python populate_etf_metadata.py
+
+# Auto-fill missing names using yfinance (limit requests to avoid rate limits)
+python populate_etf_metadata.py --auto --limit 200
+
+# Restrict to specific tickers (space or comma separated)
+python populate_etf_metadata.py --auto --tickers "EWZ EWW DTCR"
+```
+
+Details:
+- __Auto-fill__ uses `yfinance` to fetch names for unknown tickers. If yfinance doesn’t return a name, it falls back to `stock_metadata.name` when available.
+- __Optional dependency__: `yfinance` is listed in root `requirements.txt`. If you run the script with a different interpreter (e.g., a separate API venv), ensure `yfinance` is installed there too.
+
+Verification via API once the server is running:
+
+```text
+/api/metadata?tickers=EWZ,EWW,DTCR
+```
+
+The API prioritizes `ticker_metadata.name`, then falls back to `stock_metadata.name`, then the ticker itself.
+
 ## API Endpoints (selected)
 
 -  __GET__ `/api/health` → basic server/DB health
