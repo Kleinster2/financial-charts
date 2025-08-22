@@ -196,7 +196,10 @@ def get_ibovespa_tickers():
     ]
 
 # --- Main function to orchestrate the download ---
-def update_sp500_data(verbose: bool = True):
+def update_sp500_data(verbose: bool = True, assets=None):
+    """Update daily market data for selected asset groups.
+    assets: list like ['stocks','etfs','adrs','fx','crypto'] or None for all.
+    """
     # 1. Get S&P 500 list and combine with ETFs
     def vprint(*args, **kwargs):
         if verbose:
@@ -212,17 +215,27 @@ def update_sp500_data(verbose: bool = True):
         vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
         FX_TICKERS = build_fx_tickers()
         vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
-        all_tickers = sorted(list(set(
-            sp500['ticker'].tolist()
-            + ibov_tickers
-            + ETF_TICKERS
-            + ADR_TICKERS
-            + OTHER_HIGH_PROFILE_STOCKS
-            + CRYPTO_STOCKS
-            + FX_TICKERS
-            + ADDITIONAL_FX_TICKERS
-            + CRYPTO_TICKERS
-        )))
+        # Build asset groups
+        groups = {
+            'stocks': sorted(list(set(
+                sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS
+            ))),
+            'etfs': ETF_TICKERS,
+            'adrs': ADR_TICKERS,
+            'fx': sorted(list(set(FX_TICKERS + ADDITIONAL_FX_TICKERS))),
+            'crypto': CRYPTO_TICKERS,
+        }
+        selected = list(groups.keys()) if not assets else [a.lower() for a in assets]
+        unknown = [a for a in selected if a not in groups]
+        if unknown:
+            vprint(f"Warning: ignoring unknown asset groups: {', '.join(unknown)}")
+            selected = [a for a in selected if a in groups]
+        if not selected:
+            selected = list(groups.keys())
+            vprint("No valid asset groups selected; defaulting to all groups.")
+        vprint(f"Selected asset groups: {', '.join(selected)}")
+        # Expand tickers based on selection
+        all_tickers = sorted(list(set(sum((groups[a] for a in selected), []))))
     except Exception as e:
         raise SystemExit(f"Failed to fetch US large-cap list: {e}")
 
@@ -310,8 +323,12 @@ def update_sp500_data(verbose: bool = True):
         else:
             combined_df = new_data_df
 
-        # 6b. Restrict to current ticker universe only (prices)
-        combined_df = combined_df.reindex(columns=all_tickers)
+        # 6b. Restrict to current ticker universe only if we're running a full refresh
+        # For partial asset updates, preserve existing columns to avoid dropping data.
+        all_groups = {'stocks','etfs','adrs','fx','crypto'}
+        selected_set = set(selected)
+        if selected_set == all_groups:
+            combined_df = combined_df.reindex(columns=all_tickers)
 
         # 6c. Merge volumes with existing (if available), giving precedence to new volume data
         combined_vol_df = pd.DataFrame()
@@ -327,8 +344,9 @@ def update_sp500_data(verbose: bool = True):
                 existing_vol_df = existing_vol_df.reindex(columns=combined_vol_cols)
                 new_vol_df = new_vol_df.reindex(columns=combined_vol_cols)
                 combined_vol_df = new_vol_df.combine_first(existing_vol_df)
-            # Restrict to current ticker universe only
-            combined_vol_df = combined_vol_df.reindex(columns=all_tickers)
+            # Restrict to current ticker universe only for full refresh
+            if selected_set == all_groups:
+                combined_vol_df = combined_vol_df.reindex(columns=all_tickers)
 
         # 7. Save to database
         vprint("Saving data to database...")
@@ -337,15 +355,18 @@ def update_sp500_data(verbose: bool = True):
         combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace", index=True, index_label=index_label)
         if not combined_vol_df.empty:
             combined_vol_df.astype(float).to_sql("stock_volumes_daily", conn, if_exists="replace", index=True, index_label=index_label)
-        sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
+        if 'stocks' in selected_set:
+            sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
+        else:
+            vprint("Skipping stock_metadata update (stocks not selected).")
         vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
 
     finally:
         conn.close()
 
-def update_market_data(verbose: bool = True):
+def update_market_data(verbose: bool = True, assets=None):
     """Compatibility alias for broader project scope."""
-    return update_sp500_data(verbose=verbose)
+    return update_sp500_data(verbose=verbose, assets=assets)
 
 if __name__ == "__main__":
     import sys
