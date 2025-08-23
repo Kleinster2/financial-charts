@@ -79,7 +79,8 @@ window.ChartLegend = {
             tickerColorMap,
             selectedTickers,
             rawPriceMap,
-            latestRebasedData
+            latestRebasedData,
+            getName
         } = options;
 
         const formatter = useRaw ? this.formatPrice : this.formatPct;
@@ -140,9 +141,10 @@ window.ChartLegend = {
             // Build legend HTML sorted by price descending
             if (rows.length) {
                 rows.sort((a, b) => b.price - a.price);
-                html = rows.map(({t, price, color}) => 
-                    `<div><span style="color:${color};font-weight:bold">${t}</span>: ${formatter(price)}</div>`
-                ).join('');
+                html = rows.map(({t, price, color}) => {
+                    const label = typeof getName === 'function' ? (getName(t) || t) : t;
+                    return `<div><span style="color:${color};font-weight:bold">${label}</span>: ${formatter(price)}</div>`;
+                }).join('');
             }
 
             if (!html) {

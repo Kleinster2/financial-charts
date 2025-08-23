@@ -320,7 +320,8 @@
                     tickerColorMap,
                     selectedTickers,
                     rawPriceMap,
-                    latestRebasedData
+                    latestRebasedData,
+                    getName: (t) => nameCache[t]
                 });
             }
 

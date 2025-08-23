@@ -31,14 +31,74 @@ FIXED_NAMES = {
     "^RVX": "Cboe Russell 2000 Volatility Index",
     "^VXMT": "Cboe S&P 500 6-Month Volatility Index",
     "^VXST": "Cboe S&P 500 9-Day Volatility Index",
+    # --- Stable names for continuous futures (avoid month-specific labels) ---
+    # Equity indices
+    "ES=F": "S&P 500 E-Mini (Continuous)",
+    "NQ=F": "Nasdaq-100 E-Mini (Continuous)",
+    "YM=F": "Dow Jones E-Mini (Continuous)",
+    "RTY=F": "Russell 2000 E-Mini (Continuous)",
+    # Energy
+    "CL=F": "WTI Crude Oil (Continuous)",
+    "BZ=F": "Brent Crude Oil (Continuous)",
+    "NG=F": "Natural Gas (Continuous)",
+    "RB=F": "RBOB Gasoline (Continuous)",
+    # Metals
+    "GC=F": "Gold (Continuous)",
+    "SI=F": "Silver (Continuous)",
+    "HG=F": "Copper (Continuous)",
+    "PL=F": "Platinum (Continuous)",
+    "PA=F": "Palladium (Continuous)",
+    "TIO=F": "Iron Ore 62% (TSI) (Continuous)",
+    "AL=F": "Aluminum (Continuous)",
+    "ZI=F": "Zinc (Continuous)",
+    "NI=F": "Nickel (Continuous)",
+    # Rates
+    "ZB=F": "US 30Y Bond (Continuous)",
+    "ZN=F": "US 10Y Note (Continuous)",
+    "ZF=F": "US 5Y Note (Continuous)",
+    "ZT=F": "US 2Y Note (Continuous)",
+    "FGBL=F": "Euro-Bund 10Y (Continuous)",
+    # Agriculture / Softs
+    "ZC=F": "Corn (Continuous)",
+    "ZS=F": "Soybeans (Continuous)",
+    "ZW=F": "Wheat (Chicago) (Continuous)",
+    "KE=F": "Wheat (Kansas City) (Continuous)",
+    "SB=F": "Sugar #11 (Continuous)",
+    "KC=F": "Coffee (Continuous)",
+    "CC=F": "Cocoa (Continuous)",
+    "CT=F": "Cotton (Continuous)",
+    "OJ=F": "Orange Juice (Continuous)",
+    # Steel (continuous roll series on Yahoo)
+    "HRN00": "Hot-Rolled Coil Steel (Continuous)",
+    "HRC00": "Hot-Rolled Coil Steel (Continuous)",
+    "HRE00": "Hot-Rolled Coil Steel (Continuous)",
 }
 
 
-def _get_data_range(cursor: sqlite3.Cursor, ticker: str, dtype: Optional[str]):
-    """Return (first_date, last_date, data_points) for ticker from the appropriate table.
-    Uses futures_prices_daily for futures; stock_prices_daily for everything else.
+def _detect_source_table(cursor: sqlite3.Cursor, ticker: str) -> str:
+    """Detect which price table contains the ticker column.
+    Preference: futures_prices_daily if present, else stock_prices_daily.
     """
-    table = 'futures_prices_daily' if (dtype and dtype.lower() == 'future') else 'stock_prices_daily'
+    try:
+        cursor.execute("PRAGMA table_info(futures_prices_daily)")
+        fut_cols = {r[1] for r in cursor.fetchall()}
+    except Exception:
+        fut_cols = set()
+    if ticker in fut_cols:
+        return 'futures_prices_daily'
+    try:
+        cursor.execute("PRAGMA table_info(stock_prices_daily)")
+        spot_cols = {r[1] for r in cursor.fetchall()}
+    except Exception:
+        spot_cols = set()
+    return 'stock_prices_daily' if ticker in spot_cols else 'stock_prices_daily'
+
+
+def _get_data_range(cursor: sqlite3.Cursor, ticker: str, dtype: Optional[str]):
+    """Return (first_date, last_date, data_points) for ticker from the proper table.
+    Detects the source table by column presence.
+    """
+    table = _detect_source_table(cursor, ticker)
     cursor.execute(
         f"""
         SELECT MIN(Date) AS first_date,
@@ -246,7 +306,7 @@ def main():
             print(f"Updated {t}: {name} ({dtype})")
         else:
             if (data_points and data_points > 0) or args.allow_empty:
-                table_name = 'futures_prices_daily' if dtype == 'future' else 'stock_prices_daily'
+                table_name = _detect_source_table(cur, t)
                 cur.execute(
                     """
                     INSERT INTO ticker_metadata
