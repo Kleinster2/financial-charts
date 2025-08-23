@@ -111,7 +111,7 @@ CRYPTO_TICKERS = [
 # High-profile non-S&P 500 U.S. stocks to track
 OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
-    "BYND","CELH","CPNG","DASH","FSR","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
+    "BYND","CELH","CPNG","DASH","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
     # Crypto / Blockchain
@@ -145,9 +145,17 @@ ADTECH_STOCKS = [
     "CRTO",  # Criteo
     "ZETA",  # Zeta Global
     "TBLA",  # Taboola
-    "OB",    # Outbrain
     "SSTK",  # Shutterstock
     "ROKU"   # Roku (CTV ad platform)
+]
+
+# Tickers that consistently fail to download (excluded from universe)
+EXCLUDED_TICKERS = [
+    "JBSS3.SA",  # No Yahoo data
+    "GOLL4.SA",  # No Yahoo data
+    "SULA11.SA", # No Yahoo data
+    "OB",        # Removed from static lists
+    "FSR",       # Removed from static lists
 ]
 
 # Foreign exchange tickers (major + EM pairs)
@@ -241,9 +249,9 @@ def update_sp500_data(verbose: bool = True, assets=None):
         vprint(f"FX tickers generated: {len(FX_TICKERS)}; additional FX-like: {len(ADDITIONAL_FX_TICKERS)}")
         # Build asset groups
         groups = {
-            'stocks': sorted(list(set(
+            'stocks': [t for t in sorted(list(set(
                 sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS + ADTECH_STOCKS
-            ))),
+            ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
             'adrs': ADR_TICKERS,
             'fx': sorted(list(set(FX_TICKERS + ADDITIONAL_FX_TICKERS))),
