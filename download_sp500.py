@@ -60,7 +60,7 @@ ETF_TICKERS = [
     # Clean energy ETFs
     "ICLN", "TAN", "LIT", "QCLN", "PBW", "FAN",
     # Technology ETFs
-    "SOXX", "SMH", "PAVE", "MJ",
+    "SOXX", "SMH", "PAVE", "MJ", "QTUM",
     # International ETFs
     "RSX", "INDA",
     # Leveraged ETFs
@@ -124,6 +124,11 @@ CRYPTO_STOCKS = [
     "RIOT", "MARA", "HUT", "HIVE", "BITF", "CIFR", "CORZ", "IREN", "WULF", "CLSK", "BTBT", "SDIG", "CAN",
     # Platforms / infra
     "BKKT",
+]
+
+# Quantum computing and quantum tech-related equities
+QUANTUM_STOCKS = [
+    "IONQ", "RGTI", "QBTS", "ARQQ", "QUBT"
 ]
 
 # Foreign exchange tickers (major + EM pairs)
@@ -218,7 +223,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Build asset groups
         groups = {
             'stocks': sorted(list(set(
-                sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS
+                sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS
             ))),
             'etfs': ETF_TICKERS,
             'adrs': ADR_TICKERS,

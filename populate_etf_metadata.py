@@ -169,6 +169,7 @@ ETF_NAMES = {
     'SMH': 'VanEck Semiconductor ETF',
     'PAVE': 'Global X U.S. Infrastructure Development ETF',
     'MJ': 'ETFMG Alternative Harvest ETF',
+    'QTUM': 'Defiance Quantum ETF',
     'XME': 'SPDR S&P Metals & Mining ETF',
     'PICK': 'iShares MSCI Global Metals & Mining Producers ETF',
     'GDX': 'VanEck Gold Miners ETF',
