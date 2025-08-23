@@ -131,6 +131,25 @@ QUANTUM_STOCKS = [
     "IONQ", "RGTI", "QBTS", "ARQQ", "QUBT"
 ]
 
+# Adtech / app monetization / measurement and programmatic advertising equities
+ADTECH_STOCKS = [
+    "APP",   # AppLovin
+    "TTD",   # The Trade Desk
+    "MGNI",  # Magnite
+    "PUBM",  # PubMatic
+    "IAS",   # Integral Ad Science
+    "DV",    # DoubleVerify
+    "PERI",  # Perion Network
+    "APPS",  # Digital Turbine
+    "RAMP",  # LiveRamp
+    "CRTO",  # Criteo
+    "ZETA",  # Zeta Global
+    "TBLA",  # Taboola
+    "OB",    # Outbrain
+    "SSTK",  # Shutterstock
+    "ROKU"   # Roku (CTV ad platform)
+]
+
 # Foreign exchange tickers (major + EM pairs)
 MAJOR_CCY = ["USD","EUR","JPY","GBP","CHF","AUD","NZD","CAD"]
 EM_CCY = [
@@ -223,7 +242,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Build asset groups
         groups = {
             'stocks': sorted(list(set(
-                sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS
+                sp500['ticker'].tolist() + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS + ADTECH_STOCKS
             ))),
             'etfs': ETF_TICKERS,
             'adrs': ADR_TICKERS,
