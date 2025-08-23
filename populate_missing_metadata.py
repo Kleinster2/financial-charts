@@ -26,19 +26,25 @@ except Exception:
 # Stable manual names for special tickers that often 404 on APIs
 FIXED_NAMES = {
     "^DXY": "US Dollar Index",
+    "DX-Y.NYB": "US Dollar Index (ICE)",
+    "DX=F": "US Dollar Index Futures",
     "^RVX": "Cboe Russell 2000 Volatility Index",
     "^VXMT": "Cboe S&P 500 6-Month Volatility Index",
     "^VXST": "Cboe S&P 500 9-Day Volatility Index",
 }
 
 
-def _get_data_range(cursor: sqlite3.Cursor, ticker: str):
+def _get_data_range(cursor: sqlite3.Cursor, ticker: str, dtype: Optional[str]):
+    """Return (first_date, last_date, data_points) for ticker from the appropriate table.
+    Uses futures_prices_daily for futures; stock_prices_daily for everything else.
+    """
+    table = 'futures_prices_daily' if (dtype and dtype.lower() == 'future') else 'stock_prices_daily'
     cursor.execute(
         f"""
         SELECT MIN(Date) AS first_date,
                MAX(Date) AS last_date,
                COUNT(*)   AS data_points
-        FROM stock_prices_daily
+        FROM {table}
         WHERE "{ticker}" IS NOT NULL
         """
     )
@@ -51,6 +57,8 @@ def _infer_type_by_pattern(t: str) -> Optional[str]:
         return "fx"
     if re.search(r"-(USD|USDT|EUR|BTC)$", t):
         return "crypto"
+    if t.endswith("=F"):
+        return "future"
     return None
 
 
@@ -137,9 +145,31 @@ def main():
     conn = get_db_connection()
     cur = conn.cursor()
 
-    # Gather universe
-    cur.execute("PRAGMA table_info(stock_prices_daily)")
-    columns = [r[1] for r in cur.fetchall() if r[1] != "Date"]
+    # Gather universe from both spot and futures price tables (if they exist)
+    columns: list[str] = []
+    price_tables = []
+    try:
+        cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='stock_prices_daily'")
+        if cur.fetchone():
+            price_tables.append('stock_prices_daily')
+    except Exception:
+        pass
+    try:
+        cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='futures_prices_daily'")
+        if cur.fetchone():
+            price_tables.append('futures_prices_daily')
+    except Exception:
+        pass
+
+    for tbl in price_tables:
+        try:
+            cur.execute(f"PRAGMA table_info({tbl})")
+            cols = [r[1] for r in cur.fetchall() if r[1] != 'Date']
+            columns.extend(cols)
+        except Exception:
+            continue
+    # Deduplicate
+    columns = sorted(set(columns))
 
     # Find unknowns
     placeholders = ",".join(["?"] * len(columns)) if columns else None
@@ -178,7 +208,8 @@ def main():
         # Fixed names first (indices, etc.)
         if t in FIXED_NAMES:
             name = FIXED_NAMES[t]
-            dtype = dtype or "stock"
+            # Prefer inferred type for fixed-name tickers (e.g., DX=F -> future)
+            dtype = dtype or _infer_type_by_pattern(t) or "stock"
         
         # Try yfinance next
         if not name:
@@ -201,7 +232,7 @@ def main():
         # Update or insert
         cur.execute("SELECT ticker FROM ticker_metadata WHERE ticker = ?", (t,))
         exists = cur.fetchone()
-        first_date, last_date, data_points = _get_data_range(cur, t)
+        first_date, last_date, data_points = _get_data_range(cur, t, dtype)
         if exists:
             cur.execute(
                 """
@@ -215,13 +246,14 @@ def main():
             print(f"Updated {t}: {name} ({dtype})")
         else:
             if (data_points and data_points > 0) or args.allow_empty:
+                table_name = 'futures_prices_daily' if dtype == 'future' else 'stock_prices_daily'
                 cur.execute(
                     """
                     INSERT INTO ticker_metadata
                     (ticker, name, table_name, data_type, first_date, last_date, data_points)
                     VALUES (?, ?, ?, ?, ?, ?, ?)
                     """,
-                    (t, name, 'stock_prices_daily', dtype, first_date, last_date, data_points),
+                    (t, name, table_name, dtype, first_date, last_date, data_points),
                 )
                 inserted += 1
                 print(f"Inserted {t}: {name} ({dtype})")

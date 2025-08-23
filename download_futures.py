@@ -64,6 +64,9 @@ FUTURES_TICKERS: list[str] = [
     "ZT=F",  # 2-Year Note
     "FGBL=F",  # Euro-Bund (Germany 10Y)
 
+    # Currency index
+    "DX=F",  # US Dollar Index Futures (ICE)
+
     # Agriculture
     "ZC=F",  # Corn
     "ZS=F",  # Soybeans

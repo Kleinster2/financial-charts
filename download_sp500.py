@@ -93,7 +93,7 @@ ADDITIONAL_FX_TICKERS = [
     # Non-USD major crosses
     "AUDJPY=X", "CADJPY=X", "CHFJPY=X", "EURCAD=X", "EURAUD=X", "EURNOK=X", "EURNZD=X", "EURSEK=X", "GBPCAD=X", "GBPAUD=X",
     # Currency indices
-    "^DXY", "^BXY"
+    "DX-Y.NYB", "^BXY"
 ]
 
 # Stablecoins
