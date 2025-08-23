@@ -76,6 +76,13 @@ window.ChartConfig = {
         FONT_MIN: 8,
         FONT_MAX: 24,
         FONT_STEP: 1
+    },
+
+    // Range behavior
+    RANGE: {
+        // If a saved visible range covers less than this fraction of the data width
+        // on initial plot, auto-fit to full data and persist the new range.
+        FIT_MIN_COVERAGE: 0.35
     }
 };
 
@@ -90,5 +97,6 @@ Object.freeze(window.ChartConfig.SERIES);
 Object.freeze(window.ChartConfig.SERIES.LINE_WIDTH);
 Object.freeze(window.ChartConfig.SERIES.PRICE_FORMAT);
 Object.freeze(window.ChartConfig.UI);
+Object.freeze(window.ChartConfig.RANGE);
 
 console.log('[Config] Global configuration loaded');

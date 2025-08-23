@@ -27,6 +27,7 @@ window.ChartDomBuilder = {
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
                 </select>
+                <button class="fit-btn">Fit</button>
                 <button class="toggle-diff-btn">Show Diff Pane</button>
                 <button class="toggle-vol-btn">Hide Vol Pane</button>
                 <button class="toggle-raw-btn">Show Raw</button>
@@ -129,6 +130,7 @@ window.ChartDomBuilder = {
             tickerInput: card.querySelector('.ticker-input'),
             addBtn: card.querySelector('.add-ticker-btn'),
             plotBtn: card.querySelector('.plot-btn'),
+            fitBtn: card.querySelector('.fit-btn'),
             toggleDiffBtn: card.querySelector('.toggle-diff-btn'),
             toggleVolBtn: card.querySelector('.toggle-vol-btn'),
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),

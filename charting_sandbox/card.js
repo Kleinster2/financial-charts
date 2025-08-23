@@ -105,7 +105,7 @@
 
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
-        const { tickerInput, addBtn, plotBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
+        const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
                 toggleAvgBtn, toggleLastLabelBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
@@ -147,6 +147,23 @@
         card._lastLabelVisible = lastLabelVisible;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
+
+        // Compute min/max time across currently visible tickers with loaded data
+        function getCurrentDataRange() {
+            let minT = Infinity;
+            let maxT = -Infinity;
+            let has = false;
+            selectedTickers.forEach(t => {
+                if (hiddenTickers.has(t)) return;
+                const arr = rawPriceMap.get(t);
+                if (!arr || !arr.length) return;
+                has = true;
+                // raw data is sorted ASC by time
+                minT = Math.min(minT, arr[0].time);
+                maxT = Math.max(maxT, arr[arr.length - 1].time);
+            });
+            return has ? { from: minT, to: maxT } : null;
+        }
 
         // Height adjust helpers (scoped per card)
         const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
@@ -452,15 +469,43 @@
                     }
                 }
 
-                // Apply saved or default visible range
+                // Apply saved or smart default visible range
                 const saved = card._visibleRange || initialRange;
-                if (saved && saved.from && saved.to) {
+                const dataRange = getCurrentDataRange();
+                const minCoverage = (window.ChartConfig && window.ChartConfig.RANGE && typeof window.ChartConfig.RANGE.FIT_MIN_COVERAGE === 'number')
+                    ? window.ChartConfig.RANGE.FIT_MIN_COVERAGE : 0;
+                const applyRange = (rng, reason = 'saved') => {
                     try {
-                        chart.timeScale().setVisibleRange(saved);
-                        console.log(`[RangeApply:${cardId}] Applied saved time range => from ${saved.from}, to ${saved.to}`);
+                        chart.timeScale().setVisibleRange(rng);
+                        console.log(`[RangeApply:${cardId}] Applied ${reason} range => from ${rng.from}, to ${rng.to}`);
                     } catch (e) {
                         chart.timeScale().fitContent();
                     }
+                };
+
+                if (saved && saved.from && saved.to) {
+                    let shouldFit = false;
+                    if (dataRange) {
+                        const dataW = dataRange.to - dataRange.from;
+                        const savedW = saved.to - saved.from;
+                        if (dataW > 0 && savedW >= 0) {
+                            const coverage = savedW / dataW;
+                            if (coverage < minCoverage) {
+                                shouldFit = true;
+                            }
+                        }
+                    }
+                    if (shouldFit && dataRange) {
+                        applyRange(dataRange, 'auto-fit');
+                        card._visibleRange = dataRange;
+                        saveCards();
+                    } else {
+                        applyRange(saved, 'saved');
+                    }
+                } else if (dataRange) {
+                    applyRange(dataRange, 'data');
+                    card._visibleRange = dataRange;
+                    saveCards();
                 } else {
                     chart.timeScale().fitContent();
                 }
@@ -477,6 +522,25 @@
         });
         
         plotBtn.addEventListener('click', plot);
+
+        // Manual fit button: fit chart to full data range and persist
+        if (fitBtn) {
+            fitBtn.addEventListener('click', () => {
+                if (!chart) return;
+                const dataRange = getCurrentDataRange();
+                if (dataRange) {
+                    try {
+                        chart.timeScale().setVisibleRange(dataRange);
+                        card._visibleRange = dataRange;
+                        saveCards();
+                    } catch (e) {
+                        chart.timeScale().fitContent();
+                    }
+                } else {
+                    chart.timeScale().fitContent();
+                }
+            });
+        }
 
         toggleDiffBtn.addEventListener('click', () => {
             showDiff = !showDiff;
