@@ -53,9 +53,20 @@ def parse_args() -> argparse.Namespace:
 def _fmt_dt(x: Any) -> str:
     if x is None:
         return "-"
-    if isinstance(x, (pd.Timestamp, datetime, date)):
-        return pd.Timestamp(x).strftime("%Y-%m-%d")
-    return str(x)
+    # Handle pandas NaT/NaN early
+    try:
+        if pd.isna(x):
+            return "-"
+    except Exception:
+        pass
+    # Coerce to datetime safely; fallback to string if not a date
+    try:
+        ts = pd.to_datetime(x, errors="coerce")
+        if pd.isna(ts):
+            return "-"
+        return pd.Timestamp(ts).strftime("%Y-%m-%d")
+    except Exception:
+        return str(x)
 
 
 def probe_ticker(ticker: str, start: str | None, end: str | None, verbose: bool) -> Dict[str, Any]:
