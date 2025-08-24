@@ -320,7 +320,21 @@ def get_data():
         if df.empty:
             chart_data[ticker] = []
             continue
-        df['time'] = (df['Date'].astype("int64") // 10**9).astype(int)
+        # Coerce any invalid dates to NaT and drop rows with invalid date or value
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+        before = len(df)
+        df = df.dropna(subset=['Date', 'value'])
+        dropped = before - len(df)
+        if dropped:
+            app.logger.warning(f"/api/data: dropped {dropped} invalid rows for {ticker} due to NaT/NaN")
+        # Ensure sorted by date
+        df = df.sort_values('Date')
+        # Compute unix seconds; guard against negative epochs from NaT
+        df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+        neg = int((df['time'] < 0).sum())
+        if neg:
+            app.logger.warning(f"/api/data: filtered {neg} rows with negative epoch for {ticker}")
+        df = df[df['time'] >= 0]
         chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
 
     conn.close()

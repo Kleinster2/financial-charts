@@ -38,8 +38,10 @@ window.DataFetcher = {
      */
     async getMetadata(tickers) {
         if (!tickers || tickers.length === 0) return {};
-        
-        const url = `${API_BASE_URL}/api/metadata?tickers=${tickers.join(',')}`;
+
+        const params = new URLSearchParams();
+        params.set('tickers', tickers.join(','));
+        const url = `${API_BASE_URL}/api/metadata?${params.toString()}`;
         return fetchWithRetry(url);
     },
     
@@ -48,17 +50,12 @@ window.DataFetcher = {
      */
     async getPriceData(tickers, fromDate = null, toDate = null) {
         if (!tickers || tickers.length === 0) return {};
-        
-        let url = `${API_BASE_URL}/api/data?tickers=${tickers.join(',')}`;
-        
-        // Add date range parameters if provided
-        if (fromDate) {
-            url += `&from=${Math.floor(fromDate)}`;
-        }
-        if (toDate) {
-            url += `&to=${Math.floor(toDate)}`;
-        }
-        
+
+        const params = new URLSearchParams();
+        params.set('tickers', tickers.join(','));
+        if (fromDate) params.set('from', Math.floor(fromDate));
+        if (toDate) params.set('to', Math.floor(toDate));
+        const url = `${API_BASE_URL}/api/data?${params.toString()}`;
         return fetchWithRetry(url);
     },
     
@@ -67,17 +64,12 @@ window.DataFetcher = {
      */
     async getVolumeData(tickers, fromDate = null, toDate = null) {
         if (!tickers || tickers.length === 0) return {};
-        
-        let url = `${API_BASE_URL}/api/volume?tickers=${tickers.join(',')}`;
-        
-        // Add date range parameters if provided
-        if (fromDate) {
-            url += `&from=${Math.floor(fromDate)}`;
-        }
-        if (toDate) {
-            url += `&to=${Math.floor(toDate)}`;
-        }
-        
+
+        const params = new URLSearchParams();
+        params.set('tickers', tickers.join(','));
+        if (fromDate) params.set('from', Math.floor(fromDate));
+        if (toDate) params.set('to', Math.floor(toDate));
+        const url = `${API_BASE_URL}/api/volume?${params.toString()}`;
         try {
             return await fetchWithRetry(url);
         } catch (error) {
@@ -144,12 +136,13 @@ window.DataFetcher = {
      * Get commentary for a ticker
      */
     async getCommentary(ticker, fromDate = null, toDate = null) {
-        let url = `${API_BASE_URL}/api/commentary?ticker=${ticker}`;
-        
+        const params = new URLSearchParams();
+        params.set('ticker', ticker);
         if (fromDate && toDate) {
-            url += `&from=${Math.floor(fromDate)}&to=${Math.floor(toDate)}`;
+            params.set('from', Math.floor(fromDate));
+            params.set('to', Math.floor(toDate));
         }
-        
+        const url = `${API_BASE_URL}/api/commentary?${params.toString()}`;
         return fetchWithRetry(url);
     },
     
