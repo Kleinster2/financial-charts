@@ -18,6 +18,10 @@ import os
 import sqlite3
 from typing import Dict, List
 
+# Ensure repo root is on sys.path so we can import constants when executed from scripts/
+import sys
+BASE_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+sys.path.append(BASE_DIR)
 from constants import DB_PATH, get_db_connection
 
 # Canonical names from Cboe dashboards
