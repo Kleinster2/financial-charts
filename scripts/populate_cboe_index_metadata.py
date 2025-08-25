@@ -32,6 +32,7 @@ CBOE_INDEX_NAMES: Dict[str, str] = {
     "^PUT": "Cboe S&P 500 PutWrite Index",
     "^PPUT": "Cboe S&P 500 5% OTM PutWrite Index",
     "^VVIX": "Cboe VVIX Index",
+    "^VIX": "Cboe Volatility Index",
     "^VIX1D": "Cboe 1-Day Volatility Index",
     "^VIX3M": "Cboe 3-Month Volatility Index",
     "^VIX9D": "Cboe 9-Day Volatility Index",
