@@ -37,6 +37,29 @@ CBOE_INDEX_URLS = {
     '^VXD': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXD_History.csv',
 }
 
+# Known bad points overrides for Cboe CSV (symbol -> { 'YYYY-MM-DD': corrected_value })
+KNOWN_CBOE_VALUE_OVERRIDES = {
+    '^VXD': {
+        # Official Cboe CSV lists CLOSE=2.71 for 2021-07-13 which is a clear misquote.
+        # Use a stable replacement (mid of neighbors 2021-07-12 and 2021-07-14): (14.86 + 15.51)/2 = 15.19
+        '2021-07-13': 15.19,
+    },
+}
+
+def _apply_value_overrides(df: pd.DataFrame, ticker: str) -> pd.DataFrame:
+    """Apply per-date value overrides for known upstream misquotes.
+    df is expected to have columns ['Date', ticker] with Date formatted 'YYYY-MM-DD'.
+    """
+    overrides = KNOWN_CBOE_VALUE_OVERRIDES.get(ticker)
+    if not overrides:
+        return df
+    for d, val in overrides.items():
+        mask = df['Date'] == d
+        if mask.any():
+            df.loc[mask, ticker] = float(val)
+            print(f"Applied override for {ticker} on {d}: {val}")
+    return df
+
 def _cboe_candidate_urls(ticker: str) -> list[str]:
     base = ticker.lstrip('^').upper()
     # Primary known pattern
@@ -96,6 +119,8 @@ def _try_fetch_cboe_csv(ticker: str, start_date: str) -> pd.DataFrame:
             df = df[df['Date'] >= pd.to_datetime(start_date)]
             # Standardize date format
             df['Date'] = df['Date'].dt.strftime('%Y-%m-%d')
+            # Apply known overrides after standardization
+            df = _apply_value_overrides(df, ticker)
             print(f"Cboe CSV parsed for {ticker}: rows={len(df)}, cols={list(df.columns)}")
             return df[['Date', ticker]].copy()
         except Exception as e:

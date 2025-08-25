@@ -94,6 +94,50 @@ def get_table_columns(table_name, conn=None, force_refresh=False):
         if close_conn:
             conn.close()
 
+# Diagnostic: run the same transform as /api/data for a single ticker
+@app.route('/api/diag_reduce')
+def diag_reduce():
+    ticker = (request.args.get('ticker') or '^VXD').strip().upper()
+    conn = get_db_connection()
+    try:
+        # Detect table
+        try:
+            stock_cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            stock_cols = set()
+        try:
+            fut_cols = {row['name'] for row in conn.execute("PRAGMA table_info(futures_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            fut_cols = set()
+        if ticker in stock_cols:
+            table = 'stock_prices_daily'
+        elif ticker in fut_cols:
+            table = 'futures_prices_daily'
+        else:
+            return jsonify({'error': 'ticker not found', 'db_path': DB_PATH}), 404
+        q = (
+            f'SELECT date(Date) AS Date, MAX("{ticker}") as value '
+            f'FROM {table} '
+            f'WHERE "{ticker}" IS NOT NULL '
+            f'GROUP BY date(Date) '
+            f'ORDER BY date(Date) ASC'
+        )
+        df = pd.read_sql_query(q, conn, parse_dates=['Date'])
+        if df.empty:
+            return jsonify({'ticker': ticker, 'records': []})
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+        df = df.dropna(subset=['Date', 'value'])
+        df['value'] = pd.to_numeric(df['value'], errors='coerce')
+        df = df.dropna(subset=['value'])
+        df = df.sort_values('Date')
+        day = df['Date'].dt.normalize()
+        df = df.assign(Date=day).groupby('Date', as_index=False)['value'].median()
+        df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+        records = df[['time', 'value']].to_dict(orient='records')
+        return jsonify({'ticker': ticker, 'records': records, 'db_path': DB_PATH})
+    finally:
+        conn.close()
+
 def fetch_ticker_data(table_name, tickers, date_column='Date', value_columns=None, conn=None):
     """Fetch ticker data from any table with consistent interface.
     
@@ -179,6 +223,65 @@ def health():
             'timestamp': time.time(),
             'error': str(e)
         }), 503
+
+# --- Diagnostic endpoint to inspect active DB and a specific ticker/date ---
+@app.route('/api/diag')
+def diag():
+    """Return DB path and the server-observed value for a given ticker/date.
+    Query params:
+        ticker: symbol (default '^VXD')
+        date: YYYY-MM-DD (default '2021-07-13')
+    """
+    ticker = (request.args.get('ticker') or '^VXD').strip().upper()
+    date = (request.args.get('date') or '2021-07-13').strip()
+
+    conn = None
+    try:
+        conn = get_db_connection()
+        # Column presence
+        try:
+            stock_cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            stock_cols = set()
+        try:
+            futures_cols = {row['name'] for row in conn.execute("PRAGMA table_info(futures_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            futures_cols = set()
+
+        table = None
+        if ticker in stock_cols:
+            table = 'stock_prices_daily'
+        elif ticker in futures_cols:
+            table = 'futures_prices_daily'
+
+        value = None
+        row_count = None
+        all_vals = []
+        if table:
+            row = conn.execute(f'SELECT "{ticker}" FROM {table} WHERE Date = ?', (date,)).fetchone()
+            value = row[0] if row else None
+            try:
+                row_count = conn.execute(f'SELECT COUNT(1) FROM {table} WHERE Date = ?', (date,)).fetchone()[0]
+                all_vals = [r[0] for r in conn.execute(f'SELECT "{ticker}" FROM {table} WHERE Date = ?', (date,)).fetchall()]
+            except Exception:
+                pass
+
+        return jsonify({
+            'db_path': DB_PATH,
+            'ticker': ticker,
+            'date': date,
+            'table': table,
+            'stock_has_col': ticker in stock_cols,
+            'futures_has_col': ticker in futures_cols,
+            'value': value,
+            'row_count_for_date': row_count,
+            'all_values_for_date': all_vals
+        }), 200
+    except Exception as e:
+        return jsonify({'error': str(e), 'db_path': DB_PATH}), 500
+    finally:
+        if conn is not None:
+            conn.close()
 
 # Sandbox static serving
 @app.route('/sandbox/')
@@ -315,7 +418,13 @@ def get_data():
             chart_data[ticker] = []
             continue
 
-        q = f'SELECT Date, "{ticker}" as value FROM {table} WHERE "{ticker}" IS NOT NULL ORDER BY Date ASC'
+        q = (
+            f'SELECT date(Date) AS Date, MAX("{ticker}") as value '
+            f'FROM {table} '
+            f'WHERE "{ticker}" IS NOT NULL '
+            f'GROUP BY date(Date) '
+            f'ORDER BY date(Date) ASC'
+        )
         df = pd.read_sql_query(q, conn, parse_dates=['Date'])
         if df.empty:
             chart_data[ticker] = []
@@ -324,11 +433,27 @@ def get_data():
         df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
         before = len(df)
         df = df.dropna(subset=['Date', 'value'])
+        # Coerce 'value' to numeric in case of mixed types from SQLite/pandas parsing
+        try:
+            df['value'] = pd.to_numeric(df['value'], errors='coerce')
+        except Exception as e:
+            app.logger.warning(f"/api/data: to_numeric failed for {ticker}: {e}")
+        df = df.dropna(subset=['value'])
         dropped = before - len(df)
         if dropped:
             app.logger.warning(f"/api/data: dropped {dropped} invalid rows for {ticker} due to NaT/NaN")
         # Ensure sorted by date
         df = df.sort_values('Date')
+        # Normalize to calendar day and collapse by median for each day (always)
+        # This protects against mixed 'YYYY-MM-DD' vs 'YYYY-MM-DD 00:00:00' rows
+        # and duplicated ingests for the same day.
+        day = df['Date'].dt.normalize()
+        before_rows = len(df)
+        df = df.assign(Date=day).groupby('Date', as_index=False)['value'].median()
+        after_rows = len(df)
+        dropped_dup = before_rows - after_rows
+        if dropped_dup:
+            app.logger.warning(f"/api/data: collapsed duplicate day rows for {ticker}: {dropped_dup} rows dropped")
         # Compute unix seconds; guard against negative epochs from NaT
         df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
         neg = int((df['time'] < 0).sum())
@@ -342,6 +467,52 @@ def get_data():
     return jsonify(chart_data)
 
 
+
+# Diagnostic: return raw rows for a single ticker between dates using same SQL as /api/data
+@app.route('/api/diag_series')
+def diag_series():
+    ticker = (request.args.get('ticker') or '^VXD').strip().upper()
+    frm = (request.args.get('from') or '2021-07-09').strip()
+    to = (request.args.get('to') or '2021-07-16').strip()
+
+    conn = get_db_connection()
+    try:
+        # Detect table
+        try:
+            stock_cols = {row['name'] for row in conn.execute("PRAGMA table_info(stock_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            stock_cols = set()
+        try:
+            fut_cols = {row['name'] for row in conn.execute("PRAGMA table_info(futures_prices_daily)").fetchall()}
+        except sqlite3.OperationalError:
+            fut_cols = set()
+
+        if ticker in stock_cols:
+            table = 'stock_prices_daily'
+        elif ticker in fut_cols:
+            table = 'futures_prices_daily'
+        else:
+            return jsonify({'error': 'ticker not found in DB', 'db_path': DB_PATH}), 404
+
+        q = f'SELECT Date, "{ticker}" as value FROM {table} WHERE "{ticker}" IS NOT NULL ORDER BY Date ASC'
+        df = pd.read_sql_query(q, conn, parse_dates=['Date'])
+        df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+        df = df.dropna(subset=['Date'])
+        mask = (df['Date'] >= pd.to_datetime(frm)) & (df['Date'] <= pd.to_datetime(to))
+        sub = df.loc[mask].copy()
+        # Return all rows as strings for Date
+        sub['Date'] = sub['Date'].dt.strftime('%Y-%m-%d')
+        return jsonify({
+            'db_path': DB_PATH,
+            'ticker': ticker,
+            'table': table,
+            'from': frm,
+            'to': to,
+            'rows': sub.to_dict(orient='records'),
+            'row_count': int(len(sub))
+        })
+    finally:
+        conn.close()
 
 
 @app.route('/api/volume')
