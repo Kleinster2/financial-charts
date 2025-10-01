@@ -82,7 +82,8 @@ window.ChartConfig = {
     RANGE: {
         // If a saved visible range covers less than this fraction of the data width
         // on initial plot, auto-fit to full data and persist the new range.
-        FIT_MIN_COVERAGE: 0.35
+        // Set to 0 to always honor saved ranges, or very low (0.01) for minimal override
+        FIT_MIN_COVERAGE: 0.01
     }
 };
 

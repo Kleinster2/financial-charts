@@ -44,7 +44,7 @@ ETF_TICKERS = [
     # Commodities, currencies & volatility
     "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXMT", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "^VXST", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEEM", "^VXEFA", "^VXEWZ", "^VXFXI", "^VXAZN", "^VXAPL", "^VXGOG", "^VXIBM", "^VXGS", "^VXXLE", "^VXSLV", "^VXTLT", "^VXHYG",
+    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEFA", "^VXEWZ",
     # Treasury yield index symbols (yields, not prices)
     "^IRX", "^FVX", "^TNX", "^TYX",  # added comma after TYX
     # Additional Vanguard ETFs
@@ -147,6 +147,22 @@ ADTECH_STOCKS = [
     "TBLA",  # Taboola
     "SSTK",  # Shutterstock
     "ROKU"   # Roku (CTV ad platform)
+]
+
+# Biotech, pharmaceutical, and life sciences equities
+BIOTECH_STOCKS = [
+    # Vaccine & COVID-related
+    "NVAX", "BNTX", "VXRT", "INO", "MRNA",
+    # Established large pharma/biotech  
+    "GILD", "BIIB", "AMGN", "REGN", "VRTX", "ILMN",
+    # Specialty pharmaceutical
+    "BMRN", "ALNY", "TECH", "SRPT", "RARE",
+    # Gene editing & cell therapy
+    "CRSP", "EDIT", "NTLA", "BEAM",
+    # Biotech tools & diagnostics
+    "EXAS", "PACB", "TWST", "CDNA",
+    # Emerging biotech
+    "ZLAB", "HALO", "FOLD", "AGEN", "SAVA", "AXSM", "JAZZ", "PTCT"
 ]
 
 # Tickers that consistently fail to download (excluded from universe)
@@ -282,7 +298,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Build asset groups
         groups = {
             'stocks': [t for t in sorted(list(set(
-                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS + ADTECH_STOCKS
+                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS + ADTECH_STOCKS + BIOTECH_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
             'adrs': ADR_TICKERS,

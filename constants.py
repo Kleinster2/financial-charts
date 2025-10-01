@@ -43,7 +43,7 @@ TICKER_CATEGORIES = {
     
     'VOLATILITY_INDICES': [
         '^VIX', '^VIX9D', '^VIX1D', '^VIX3M', '^VIX6M', '^VXV', 
-        '^VXMT', '^VXD', '^VOLQ', '^VVIX', '^SKEW', '^VXST'
+        '^VXD', '^VOLQ', '^VVIX', '^SKEW', '^VXN', '^RVX', '^GVZ', '^OVX'
     ],
     
     'TREASURY_YIELDS': [
