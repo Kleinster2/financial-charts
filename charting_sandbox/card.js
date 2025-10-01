@@ -99,6 +99,39 @@
             navLink = document.createElement('a');
             navLink.href = `#${cardId}`;
             navLink.textContent = navLabel;
+            
+            // Add click handler to switch pages and scroll to chart
+            navLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Find which page contains this card
+                const targetCard = document.getElementById(cardId);
+                if (!targetCard) {
+                    console.warn(`[Navigation] Card ${cardId} not found`);
+                    return;
+                }
+                
+                // Find the page that contains this card
+                const pageEl = targetCard.closest('.page');
+                if (!pageEl) {
+                    console.warn(`[Navigation] No page found for card ${cardId}`);
+                    return;
+                }
+                
+                const pageNum = pageEl.dataset.page;
+                console.log(`[Navigation] Switching to page ${pageNum} for card ${cardId}`);
+                
+                // Switch to the correct page
+                if (window.PageManager && window.PageManager.showPage) {
+                    window.PageManager.showPage(parseInt(pageNum, 10));
+                }
+                
+                // Scroll to the chart after a brief delay to ensure page switch completes
+                setTimeout(() => {
+                    targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 100);
+            });
+            
             nav.appendChild(navLink);
         }
         card._navLink = navLink;
