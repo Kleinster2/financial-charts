@@ -48,6 +48,7 @@
             useRaw: card._useRaw || false,
             title: card._title || '',
             lastLabelVisible: card._lastLabelVisible !== false,
+            showZeroLine: !!card._showZeroLine,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
         }));
@@ -70,6 +71,7 @@
         initialRange = null,
         initialTitle = '',
         initialLastLabelVisible = true,
+        initialShowZeroLine = false,
         wrapperEl = null,
         initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
         initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
@@ -139,7 +141,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
-                toggleAvgBtn, toggleLastLabelBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -147,9 +149,11 @@
         let showVolPane = initialShowVol;
         let useRaw = initialUseRaw;
         let lastLabelVisible = initialLastLabelVisible;
+        let showZeroLine = initialShowZeroLine;
         let chart = null;
         let volPane = null;
         let avgSeries = null;
+        let zeroLineSeries = null;
         
         let crosshairHandler = null;
         let debouncedRebase = null;
@@ -256,7 +260,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
+            showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible, showZeroLine
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -545,6 +549,9 @@
 
             } catch (error) {
                 console.error('Plot error:', error);
+            } finally {
+                // Update zero line if it's enabled
+                setTimeout(() => updateZeroLine(), 100);
             }
         }
 
@@ -602,6 +609,8 @@
             toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
             saveCards();
             plot();
+            // Update zero line after mode change
+            setTimeout(() => updateZeroLine(), 100);
         });
 
         // Toggle last value label visibility
@@ -621,6 +630,72 @@
                 }
                 saveCards();
             });
+        }
+
+        // Toggle zero line visibility
+        if (toggleZeroLineBtn) {
+            toggleZeroLineBtn.addEventListener('click', () => {
+                showZeroLine = !showZeroLine;
+                card._showZeroLine = showZeroLine;
+                console.log(`[Card:${cardId}] Zero line ${showZeroLine ? 'enabled' : 'disabled'}`);
+                
+                updateZeroLine();
+                
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible, showZeroLine
+                });
+                saveCards();
+            });
+        }
+
+        // Function to update zero line visibility and data
+        function updateZeroLine() {
+            if (!chart) return;
+            
+            if (showZeroLine) {
+                if (!zeroLineSeries) {
+                    zeroLineSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                        color: '#666666',
+                        lineWidth: 1,
+                        lineStyle: LightweightCharts.LineStyle.Dashed,
+                        lastValueVisible: false,
+                        priceLineVisible: false,
+                        crosshairMarkerVisible: false,
+                        title: ''
+                    });
+                }
+                
+                // Update zero line data based on current mode
+                const zeroValue = useRaw ? 0 : 100; // 0 for raw prices, 100 for percentage (rebased to 100)
+                
+                // Get visible time range
+                const timeScale = chart.timeScale();
+                const visibleRange = timeScale.getVisibleRange();
+                
+                if (visibleRange) {
+                    // Create a simple horizontal line across the visible range
+                    const lineData = [
+                        { time: visibleRange.from, value: zeroValue },
+                        { time: visibleRange.to, value: zeroValue }
+                    ];
+                    zeroLineSeries.setData(lineData);
+                } else {
+                    // Fallback: use a wide time range
+                    const now = Math.floor(Date.now() / 1000);
+                    const tenYearsAgo = now - (10 * 365 * 24 * 60 * 60);
+                    const lineData = [
+                        { time: tenYearsAgo, value: zeroValue },
+                        { time: now, value: zeroValue }
+                    ];
+                    zeroLineSeries.setData(lineData);
+                }
+            } else {
+                // Remove zero line
+                if (zeroLineSeries) {
+                    chart.removeSeries(zeroLineSeries);
+                    zeroLineSeries = null;
+                }
+            }
         }
 
         toggleAvgBtn.addEventListener('click', () => {
@@ -670,7 +745,7 @@
                 // Create new chart on the active page (or default wrapper if no pages)
                 const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
                     Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
-                    card._visibleRange, '', lastLabelVisible, targetWrapper, card._height || initialHeight, card._fontSize || (UI.FONT_DEFAULT || 12));
+                    card._visibleRange, '', lastLabelVisible, showZeroLine, targetWrapper, card._height || initialHeight, card._fontSize || (UI.FONT_DEFAULT || 12));
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {
@@ -803,7 +878,7 @@
                             Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
                             !!c.showDiff, !!c.showAvg, !!c.showVol,
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                            c.title || '', c.lastLabelVisible ?? true, wrapper,
+                            c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                         );
@@ -839,7 +914,7 @@
                             Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
                             !!c.showDiff, !!c.showAvg, !!c.showVol,
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                            c.title || '', c.lastLabelVisible ?? true, wrapper,
+                            c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                         );
@@ -862,7 +937,7 @@
                         Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
                         !!c.showDiff, !!c.showAvg, !!c.showVol,
                         c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                        c.title || '', c.lastLabelVisible ?? true, wrapper,
+                        c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                         c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                         c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
                     );

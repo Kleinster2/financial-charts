@@ -33,6 +33,7 @@ window.ChartDomBuilder = {
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
+                <button class="toggle-zeroline-btn">Show 0% Line</button>
                 <button class="height-decrease-btn">Height -</button>
                 <button class="height-increase-btn">Height +</button>
                 <button class="font-decrease-btn">Font -</button>
@@ -136,6 +137,7 @@ window.ChartDomBuilder = {
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
+            toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             heightDownBtn: card.querySelector('.height-decrease-btn'),
             heightUpBtn: card.querySelector('.height-increase-btn'),
             fontDownBtn: card.querySelector('.font-decrease-btn'),
@@ -153,8 +155,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn } = elements;
-        const { showDiff, showVol, useRaw, showAvg, lastLabelVisible } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn } = elements;
+        const { showDiff, showVol, useRaw, showAvg, lastLabelVisible, showZeroLine } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -170,6 +172,9 @@ window.ChartDomBuilder = {
         }
         if (toggleLastLabelBtn) {
             toggleLastLabelBtn.textContent = lastLabelVisible ? 'Hide Last Label' : 'Show Last Label';
+        }
+        if (toggleZeroLineBtn) {
+            toggleZeroLineBtn.textContent = showZeroLine ? 'Hide 0% Line' : 'Show 0% Line';
         }
     },
 

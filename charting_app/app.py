@@ -327,7 +327,7 @@ def get_tickers():
 @app.route('/api/metadata')
 def get_metadata():
     """Return a mapping of ticker -> display name for provided tickers.
-    Priority: ticker_metadata.name → stock_metadata.name → ticker itself.
+    Priority: ticker_metadata.name → stock_metadata.name → futures_metadata → ticker itself.
     """
     tickers_str = request.args.get('tickers', '')
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
@@ -369,9 +369,60 @@ def get_metadata():
             except Exception as e:
                 app.logger.warning(f"/api/metadata: stock_metadata lookup failed: {e}")
 
+        # 3) Check for futures metadata for any remaining missing
+        missing = [t for t in tickers if t not in names]
+        if missing:
+            # Futures metadata hardcoded from download_futures.py
+            futures_metadata = {
+                "ES=F": "S&P 500 E-Mini",
+                "NQ=F": "Nasdaq-100 E-Mini", 
+                "YM=F": "Dow Jones 30 E-Mini",
+                "RTY=F": "Russell 2000 E-Mini",
+                "CL=F": "WTI Crude Oil",
+                "BZ=F": "Brent Crude Oil", 
+                "NG=F": "Natural Gas",
+                "RB=F": "RBOB Gasoline",
+                "GC=F": "Gold",
+                "SI=F": "Silver",
+                "HG=F": "Copper", 
+                "PL=F": "Platinum",
+                "PA=F": "Palladium",
+                "TIO=F": "Iron Ore 62%, CFR China (TSI)",
+                "AL=F": "Aluminum",
+                "ZI=F": "Zinc",
+                "NI=F": "Nickel", 
+                "HRN00": "HRC Steel (Hot-Rolled Coil) Futures",
+                "HRC00": "HRC Steel (Hot-Rolled Coil) Futures",
+                "HRE00": "HRC Steel (Hot-Rolled Coil) Futures",
+                "DBB": "Invesco DB Base Metals Fund",
+                "ZB=F": "30-Year Bond",
+                "ZN=F": "10-Year Note", 
+                "ZF=F": "5-Year Note",
+                "ZT=F": "2-Year Note",
+                "FGBL=F": "Euro-Bund (Germany 10Y)",
+                "DX=F": "US Dollar Index Futures (ICE)",
+                "ZC=F": "Corn",
+                "ZS=F": "Soybeans",
+                "ZW=F": "Wheat (Chicago)", 
+                "KE=F": "Wheat (Kansas City)",
+                "SB=F": "Sugar #11",
+                "KC=F": "Coffee",
+                "CC=F": "Cocoa",
+                "CT=F": "Cotton",
+                "OJ=F": "Orange Juice",
+            }
+            
+            futures_hits = 0
+            for ticker in missing:
+                if ticker in futures_metadata:
+                    names[ticker] = futures_metadata[ticker]
+                    futures_hits += 1
+            
+            app.logger.info(f"/api/metadata: futures_metadata hits={futures_hits}")
+
         conn.close()
 
-        # 3) Final mapping: fallback to ticker itself for any missing
+        # 4) Final mapping: fallback to ticker itself for any missing
         mapping = {t: names.get(t, t) for t in tickers}
         resolved = sum(1 for t in tickers if mapping[t] != t)
         app.logger.info(f"/api/metadata: requested={len(tickers)} resolved={resolved} missing={len(tickers)-resolved}")
