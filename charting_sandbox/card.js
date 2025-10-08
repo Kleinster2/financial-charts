@@ -355,7 +355,7 @@
                 chart = LightweightCharts.createChart(chartBox, {
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
-                    timeScale: { secondsVisible: false, rightOffset: 20, fixLeftEdge: true },
+                    timeScale: { secondsVisible: false, rightOffset: 3, fixLeftEdge: true },
                     rightPriceScale: { visible: true, mode: LightweightCharts.PriceScaleMode.Logarithmic, scaleMargins: { top: 0.1, bottom: 0.1 } },
                     crosshair: {
                         horzLine: { visible: false, labelVisible: false },
@@ -365,6 +365,11 @@
 
                 // Ensure initial size reflects stored height
                 applyResize(card._height || initialHeight);
+
+                // Apply rightOffset dynamically (in case chart already exists)
+                chart.applyOptions({
+                    timeScale: { rightOffset: 3 }
+                });
 
                 // Add legend
                 const legendEl = window.ChartLegend.createLegendElement(chartBox);
@@ -620,6 +625,13 @@
                         }
                     }
                     skipRangeApplication = false;  // Reset flag
+                }
+
+                // Ensure rightOffset is applied
+                if (chart && chart.applyOptions) {
+                    chart.applyOptions({
+                        timeScale: { rightOffset: 3 }
+                    });
                 }
 
             } catch (error) {
