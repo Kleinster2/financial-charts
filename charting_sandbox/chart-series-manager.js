@@ -122,7 +122,9 @@ window.ChartSeriesManager = {
 
         const debouncedRebase = this.debounce((visible) => {
             try {
-            if (useRaw || !visible || !visible.from) return;
+            // useRaw might be a function that returns current state
+            const isRawMode = typeof useRaw === 'function' ? useRaw() : useRaw;
+            if (isRawMode || !visible || !visible.from) return;
 
             const from = Math.round(visible.from);
             priceSeriesMap.forEach((series, ticker) => {

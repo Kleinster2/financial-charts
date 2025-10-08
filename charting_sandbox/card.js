@@ -491,7 +491,7 @@
                                 );
                             }
                         },
-                        useRaw
+                        useRaw: () => useRaw  // Pass as function to get current value
                     });
                     
                     // Force an initial rebase after a small delay if page is not visible
