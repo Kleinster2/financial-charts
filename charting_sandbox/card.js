@@ -159,6 +159,7 @@
         let debouncedRebase = null;
         let diffChart = null;
         let rangeSaveHandler = null;
+        let skipRangeApplication = false;  // Flag to skip automatic range application
         const debouncedSaveCards = (window.ChartUtils && window.ChartUtils.debounce) ? window.ChartUtils.debounce(saveCards, 300) : saveCards;
 
         const selectedTickers = new Set();
@@ -354,7 +355,7 @@
                 chart = LightweightCharts.createChart(chartBox, {
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
-                    timeScale: { secondsVisible: false, rightOffset: 10, fixLeftEdge: true },
+                    timeScale: { secondsVisible: false, rightOffset: 20, fixLeftEdge: true },
                     rightPriceScale: { visible: true, mode: LightweightCharts.PriceScaleMode.Logarithmic, scaleMargins: { top: 0.1, bottom: 0.1 } },
                     crosshair: {
                         horzLine: { visible: false, labelVisible: false },
@@ -381,9 +382,22 @@
 
             if (selectedTickers.size === 0) return;
 
-            // Clear existing series
+            // Clear existing series first
             window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries);
             avgSeries = null;
+
+            // Remove volume pane if hiding it (do this AFTER clearing series)
+            if (!showVolPane && volPane) {
+                try {
+                    console.log('[Plot] Attempting to remove volume pane');
+                    chart.removePane(volPane);
+                    console.log('[Plot] Volume pane removed successfully');
+                } catch (e) {
+                    console.warn('[Plot] Could not remove volume pane:', e);
+                }
+                volPane = null;
+                volSeriesMap.clear();
+            }
 
             // Ensure company names
             // Pass chip nodes to avoid global DOM scan
@@ -426,18 +440,63 @@
 
                 // Volume pane
                 if (showVolPane) {
-                    volPane = window.ChartVolumeManager.createVolumePaneIfNeeded(chart, volPane);
-                    
+                    // Use saved range from card._visibleRange (already saved before chart recreation)
+                    let rangeBeforeVol = card._visibleRange;
+                    if (rangeBeforeVol) {
+                        console.log(`[Plot] Using saved range for volume ops: from ${rangeBeforeVol.from}, to ${rangeBeforeVol.to}`);
+                    }
+
+                    // Temporarily unsubscribe from range changes during volume operations
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+
+                    volPane = window.ChartVolumeManager.createVolumePaneIfNeeded(chart, volPane, rangeBeforeVol);
+
                     for (const ticker of tickerList) {
                         if (hiddenTickers.has(ticker)) continue;
-                        
+
                         const rawData = rawPriceMap.get(ticker);
+                        if (!rawData || rawData.length < 2) {
+                            console.warn(`[Plot] Insufficient data for volume calculation: ${ticker}`);
+                            continue;
+                        }
+
                         const volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
+                        console.log(`[Plot] Calculated ${volData.length} volume points for ${ticker}`);
+
+                        if (volData.length === 0) {
+                            console.warn(`[Plot] No volume data calculated for ${ticker}`);
+                            continue;
+                        }
+
                         const color = tickerColorMap.get(ticker);
-                        
-                        window.ChartVolumeManager.addVolumeSeries(
-                            chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
-                        );
+
+                        try {
+                            window.ChartVolumeManager.addVolumeSeries(
+                                chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
+                            );
+                            console.log(`[Plot] Successfully added volume series for ${ticker}`);
+                        } catch (e) {
+                            console.error(`[Plot] Failed to add volume series for ${ticker}:`, e);
+                        }
+                    }
+
+                    // Final range restoration after all volume operations
+                    if (rangeBeforeVol) {
+                        try {
+                            chart.timeScale().setVisibleRange(rangeBeforeVol);
+                            console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVol.from + ', to ' + rangeBeforeVol.to);
+                        } catch (_) {}
+                    }
+
+                    // Resubscribe to range changes
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
                     }
                 }
 
@@ -506,45 +565,61 @@
                     }
                 }
 
-                // Apply saved or smart default visible range
-                const saved = card._visibleRange || initialRange;
-                const dataRange = getCurrentDataRange();
-                const minCoverage = (window.ChartConfig && window.ChartConfig.RANGE && typeof window.ChartConfig.RANGE.FIT_MIN_COVERAGE === 'number')
-                    ? window.ChartConfig.RANGE.FIT_MIN_COVERAGE : 0;
-                const applyRange = (rng, reason = 'saved') => {
-                    try {
-                        chart.timeScale().setVisibleRange(rng);
-                        console.log(`[RangeApply:${cardId}] Applied ${reason} range => from ${rng.from}, to ${rng.to}`);
-                    } catch (e) {
-                        chart.timeScale().fitContent();
-                    }
-                };
+                // Apply saved or smart default visible range (unless skipped)
+                if (!skipRangeApplication) {
+                    const saved = card._visibleRange || initialRange;
+                    const dataRange = getCurrentDataRange();
+                    const minCoverage = (window.ChartConfig && window.ChartConfig.RANGE && typeof window.ChartConfig.RANGE.FIT_MIN_COVERAGE === 'number')
+                        ? window.ChartConfig.RANGE.FIT_MIN_COVERAGE : 0;
+                    const applyRange = (rng, reason = 'saved') => {
+                        try {
+                            chart.timeScale().setVisibleRange(rng);
+                            console.log(`[RangeApply:${cardId}] Applied ${reason} range => from ${rng.from}, to ${rng.to}`);
+                        } catch (e) {
+                            chart.timeScale().fitContent();
+                        }
+                    };
 
-                if (saved && saved.from && saved.to) {
-                    let shouldFit = false;
-                    if (dataRange) {
-                        const dataW = dataRange.to - dataRange.from;
-                        const savedW = saved.to - saved.from;
-                        if (dataW > 0 && savedW >= 0) {
-                            const coverage = savedW / dataW;
-                            if (coverage < minCoverage) {
-                                shouldFit = true;
+                    if (saved && saved.from && saved.to) {
+                        let shouldFit = false;
+                        if (dataRange) {
+                            const dataW = dataRange.to - dataRange.from;
+                            const savedW = saved.to - saved.from;
+                            if (dataW > 0 && savedW >= 0) {
+                                const coverage = savedW / dataW;
+                                if (coverage < minCoverage) {
+                                    shouldFit = true;
+                                }
                             }
                         }
-                    }
-                    if (shouldFit && dataRange) {
-                        applyRange(dataRange, 'auto-fit');
+                        if (shouldFit && dataRange) {
+                            applyRange(dataRange, 'auto-fit');
+                            card._visibleRange = dataRange;
+                            saveCards();
+                        } else {
+                            applyRange(saved, 'saved');
+                        }
+                    } else if (dataRange) {
+                        applyRange(dataRange, 'data');
                         card._visibleRange = dataRange;
                         saveCards();
                     } else {
-                        applyRange(saved, 'saved');
+                        chart.timeScale().fitContent();
                     }
-                } else if (dataRange) {
-                    applyRange(dataRange, 'data');
-                    card._visibleRange = dataRange;
-                    saveCards();
                 } else {
-                    chart.timeScale().fitContent();
+                    // Manual range application when skipping automatic logic
+                    console.log(`[RangeApply:${cardId}] Skipping automatic range application`);
+                    const saved = card._visibleRange;
+                    if (saved && saved.from && saved.to) {
+                        try {
+                            chart.timeScale().setVisibleRange(saved);
+                            console.log(`[RangeApply:${cardId}] Manually applied saved range => from ${saved.from}, to ${saved.to}`);
+                        } catch (e) {
+                            console.warn(`[RangeApply:${cardId}] Could not apply saved range:`, e);
+                            chart.timeScale().fitContent();
+                        }
+                    }
+                    skipRangeApplication = false;  // Reset flag
                 }
 
             } catch (error) {
@@ -594,13 +669,65 @@
             showVolPane = !showVolPane;
             card._showVol = showVolPane;
             toggleVolBtn.textContent = showVolPane ? 'Hide Vol Pane' : 'Show Vol Pane';
-            saveCards();
-            if (showVolPane) {
-                plot();
-            } else if (volPane) {
-                window.ChartVolumeManager.clearVolumeSeries(chart, volPane, volSeriesMap);
-                volPane = null;
+
+            // Save current visible range before destroying chart
+            let savedRange = null;
+            if (chart && chart.timeScale) {
+                try {
+                    const visible = chart.timeScale().getVisibleRange();
+                    if (visible && visible.from && visible.to) {
+                        savedRange = { from: Math.round(visible.from), to: Math.round(visible.to) };
+                        card._visibleRange = savedRange;
+                        console.log(`[VolToggle] Saving range before recreate: from ${savedRange.from}, to ${savedRange.to}`);
+                    }
+                } catch (_) {}
             }
+
+            // Adjust chartBox height to accommodate volume pane
+            const VOL_PANE_HEIGHT = 120; // Height of volume pane in pixels
+            const currentHeight = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
+
+            if (showVolPane) {
+                // Add height for volume pane
+                const newHeight = currentHeight + VOL_PANE_HEIGHT;
+                card._height = newHeight;
+                chartBox.style.height = `${newHeight}px`;
+                console.log(`[VolToggle] Increasing chart height from ${currentHeight} to ${newHeight}`);
+            } else {
+                // Remove height for volume pane
+                const newHeight = Math.max(HEIGHT_MIN, currentHeight - VOL_PANE_HEIGHT);
+                card._height = newHeight;
+                chartBox.style.height = `${newHeight}px`;
+                console.log(`[VolToggle] Decreasing chart height from ${currentHeight} to ${newHeight}`);
+            }
+
+            saveCards();
+
+            // Destroy and recreate chart to properly remove volume pane
+            if (chart) {
+                try {
+                    if (crosshairHandler && chart.unsubscribeCrosshairMove) {
+                        chart.unsubscribeCrosshairMove(crosshairHandler);
+                    }
+                } catch (_) {}
+                try {
+                    if (rangeSaveHandler && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
+                        chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                    }
+                } catch (_) {}
+                try {
+                    chart.remove();
+                } catch (_) {}
+                chart = null;
+                volPane = null;
+                priceSeriesMap.clear();
+                volSeriesMap.clear();
+            }
+
+            // Skip automatic range application since we're preserving the range manually
+            skipRangeApplication = true;
+
+            plot();
         });
 
         toggleRawBtn.addEventListener('click', () => {

@@ -43,13 +43,23 @@ window.ChartVolumeManager = {
     /**
      * Create or update volume pane
      */
-    createVolumePaneIfNeeded(chart, volPane) {
+    createVolumePaneIfNeeded(chart, volPane, preserveRange = null) {
         if (!volPane) {
             volPane = chart.addPane({
                 height: 100,
                 horzGridLines: { visible: true },
                 vertGridLines: { visible: true }
             });
+
+            // Restore range if provided
+            if (preserveRange && preserveRange.from && preserveRange.to) {
+                try {
+                    chart.timeScale().setVisibleRange(preserveRange);
+                    console.log('[VolumeManager] Restored range after pane creation: from ' + preserveRange.from + ', to ' + preserveRange.to);
+                } catch (e) {
+                    console.warn('[VolumeManager] Could not restore range:', e);
+                }
+            }
         }
         return volPane;
     },
@@ -58,25 +68,44 @@ window.ChartVolumeManager = {
      * Add volume series to the pane
      */
     addVolumeSeries(chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible = true) {
-        console.log(`[VolumeManager] Adding volume series for ${ticker}`);
-        
+        console.log(`[VolumeManager] Adding volume series for ${ticker}, data points: ${volData.length}`);
+
         let volSeries = volSeriesMap.get(ticker);
         if (!volSeries) {
-            volSeries = chart.addSeries(LightweightCharts.LineSeries, {
-                color: color,
-                lineWidth: 1,
-                pane: volPane,
-                priceLineVisible: false,
-                lastValueVisible: lastLabelVisible,
-                priceScaleId: 'volume',
-                priceFormat: { type: 'price', precision: 1 }
-            });
-            volSeriesMap.set(ticker, volSeries);
+            console.log(`[VolumeManager] Creating new volume series for ${ticker}`);
+            try {
+                // Create series on the volume pane directly using pane.addSeries()
+                if (volPane && typeof volPane.addSeries === 'function') {
+                    volSeries = volPane.addSeries(LightweightCharts.LineSeries, {
+                        color: color,
+                        lineWidth: 1,
+                        priceLineVisible: false,
+                        lastValueVisible: lastLabelVisible,
+                        priceFormat: { type: 'price', precision: 1 }
+                    });
+                    console.log(`[VolumeManager] Series created on pane for ${ticker}`);
+                } else {
+                    console.error(`[VolumeManager] volPane does not have addSeries method`);
+                    throw new Error('Invalid volPane object');
+                }
+                volSeriesMap.set(ticker, volSeries);
+            } catch (e) {
+                console.error(`[VolumeManager] Failed to create series for ${ticker}:`, e);
+                throw e;
+            }
         } else {
+            console.log(`[VolumeManager] Updating existing volume series for ${ticker}`);
             volSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
         }
-        
-        volSeries.setData(volData);
+
+        try {
+            volSeries.setData(volData);
+            console.log(`[VolumeManager] Data set successfully for ${ticker}`);
+        } catch (e) {
+            console.error(`[VolumeManager] Failed to set data for ${ticker}:`, e);
+            throw e;
+        }
+
         return volSeries;
     },
 
@@ -84,17 +113,21 @@ window.ChartVolumeManager = {
      * Clear all volume series
      */
     clearVolumeSeries(chart, volPane, volSeriesMap) {
+        // Remove pane first - this automatically removes all series on it
+        if (volPane) {
+            try {
+                chart.removePane(volPane);
+                console.log('[VolumeManager] Volume pane removed');
+            } catch (e) {
+                console.warn('[VolumeManager] Could not remove pane (may already be removed):', e);
+            }
+        }
+
+        // Clear the map regardless
         if (volSeriesMap) {
-            volSeriesMap.forEach(series => {
-                chart.removeSeries(series);
-            });
             volSeriesMap.clear();
         }
-        
-        if (volPane) {
-            chart.removePane(volPane);
-        }
-        
+
         return null; // Return null for volPane
     },
 

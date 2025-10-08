@@ -172,7 +172,7 @@ window.ChartSeriesManager = {
     /**
      * Clear all series from chart
      */
-    clearAllSeries(chart, priceSeriesMap, volSeriesMap = null, avgSeries = null) {
+    clearAllSeries(chart, priceSeriesMap, volSeriesMap = null, avgSeries = null, volPane = null) {
         priceSeriesMap.forEach(series => {
             chart.removeSeries(series);
         });
@@ -188,5 +188,7 @@ window.ChartSeriesManager = {
         if (avgSeries) {
             chart.removeSeries(avgSeries);
         }
+
+        // Don't try to remove pane here - it will be handled by ChartVolumeManager
     }
 };

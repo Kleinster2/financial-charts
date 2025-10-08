@@ -138,8 +138,9 @@ window.ChartLegend = {
                 });
             }
 
-            // Build legend HTML sorted by price descending
+            // Build legend HTML sorted by visual order (top to bottom at cursor)
             if (rows.length) {
+                // Sort by price descending to match visual stacking order on chart
                 rows.sort((a, b) => b.price - a.price);
                 html = rows.map(({t, price, color}) => {
                     const label = typeof getName === 'function' ? (getName(t) || t) : t;
