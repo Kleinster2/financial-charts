@@ -29,7 +29,8 @@ window.ChartDomBuilder = {
                 </select>
                 <button class="fit-btn">Fit</button>
                 <button class="toggle-diff-btn">Show Diff Pane</button>
-                <button class="toggle-vol-btn">Hide Vol Pane</button>
+                <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
+                <button class="toggle-volume-btn">Show Volume Pane</button>
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
@@ -134,6 +135,7 @@ window.ChartDomBuilder = {
             fitBtn: card.querySelector('.fit-btn'),
             toggleDiffBtn: card.querySelector('.toggle-diff-btn'),
             toggleVolBtn: card.querySelector('.toggle-vol-btn'),
+            toggleVolumeBtn: card.querySelector('.toggle-volume-btn'),
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
@@ -155,14 +157,17 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn } = elements;
-        const { showDiff, showVol, useRaw, showAvg, lastLabelVisible, showZeroLine } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn } = elements;
+        const { showDiff, showVol, showVolume, useRaw, showAvg, lastLabelVisible, showZeroLine } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
         }
         if (toggleVolBtn) {
-            toggleVolBtn.textContent = showVol ? 'Hide Vol Pane' : 'Show Vol Pane';
+            toggleVolBtn.textContent = showVol ? 'Hide Vol (σ) Pane' : 'Show Vol (σ) Pane';
+        }
+        if (toggleVolumeBtn) {
+            toggleVolumeBtn.textContent = showVolume ? 'Hide Volume Pane' : 'Show Volume Pane';
         }
         if (toggleRawBtn) {
             toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';

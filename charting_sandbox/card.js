@@ -42,6 +42,7 @@
             showDiff: !!card._showDiff,
             showAvg: !!card._showAvg,
             showVol: !!card._showVol,
+            showVolume: !!card._showVolume,
             multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
             hidden: Array.from(card._hiddenTickers || []),
             range: card._visibleRange || null,
@@ -65,6 +66,7 @@
         initialShowDiff = false,
         initialShowAvg = false,
         initialShowVol = true,
+        initialShowVolume = false,
         initialUseRaw = false,
         initialMultipliers = {},
         initialHidden = [],
@@ -140,18 +142,20 @@
 
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
-        const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleRawBtn, 
+        const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
                 toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
         let showAvg = initialShowAvg;
-        let showVolPane = initialShowVol;
+        let showVolPane = initialShowVol;  // Volatility pane
+        let showVolumePane = initialShowVolume;  // Trading volume pane
         let useRaw = initialUseRaw;
         let lastLabelVisible = initialLastLabelVisible;
         let showZeroLine = initialShowZeroLine;
         let chart = null;
-        let volPane = null;
+        let volPane = null;  // Volatility pane
+        let volumePane = null;  // Trading volume pane
         let avgSeries = null;
         let zeroLineSeries = null;
         
@@ -168,6 +172,7 @@
         const tickerColorMap = new Map();
         const priceSeriesMap = new Map();
         const volSeriesMap = new Map();
+        const volumeSeriesMap = new Map();
         const rawPriceMap = new Map();
         const latestRebasedData = {};
         let colorIndex = 0;
@@ -177,6 +182,7 @@
         card._showDiff = showDiff;
         card._showAvg = showAvg;
         card._showVol = showVolPane;
+        card._showVolume = showVolumePane;
         card._useRaw = useRaw;
         card._multiplierMap = multiplierMap;
         card._hiddenTickers = hiddenTickers;
@@ -261,7 +267,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible, showZeroLine
+            showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -505,6 +511,117 @@
                     }
                 }
 
+                // Trading Volume pane
+                if (showVolumePane) {
+                    // Use saved range from card._visibleRange (already saved before chart recreation)
+                    let rangeBeforeVolume = card._visibleRange;
+                    if (rangeBeforeVolume) {
+                        console.log(`[Plot] Using saved range for trading volume ops: from ${rangeBeforeVolume.from}, to ${rangeBeforeVolume.to}`);
+                    }
+
+                    // Temporarily unsubscribe from range changes during volume operations
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+
+                    // Create volume pane
+                    if (!volumePane) {
+                        volumePane = chart.addPane({
+                            height: 100,
+                            horzGridLines: { visible: true },
+                            vertGridLines: { visible: true }
+                        });
+
+                        // Restore range if provided
+                        if (rangeBeforeVolume && rangeBeforeVolume.from && rangeBeforeVolume.to) {
+                            try {
+                                chart.timeScale().setVisibleRange(rangeBeforeVolume);
+                                console.log('[VolumePane] Restored range after pane creation: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
+                            } catch (e) {
+                                console.warn('[VolumePane] Could not restore range:', e);
+                            }
+                        }
+                    }
+
+                    // Fetch and plot trading volume data for each ticker
+                    const volumePromises = tickerList
+                        .filter(ticker => !hiddenTickers.has(ticker))
+                        .map(async (ticker) => {
+                            try {
+                                console.log(`[VolumePane] Fetching trading volume data for ${ticker}`);
+
+                                // Fetch volume data from API
+                                const volumeData = await window.DataFetcher.getVolumeData([ticker]);
+
+                                if (!volumeData || !volumeData[ticker]) {
+                                    console.warn(`[VolumePane] No volume data received for ${ticker}`);
+                                    return;
+                                }
+
+                                const tickerVolumeData = volumeData[ticker];
+
+                                // API returns array of {time, value} objects, similar to price data
+                                if (!Array.isArray(tickerVolumeData) || tickerVolumeData.length === 0) {
+                                    console.warn(`[VolumePane] Invalid or empty volume data for ${ticker}`);
+                                    return;
+                                }
+
+                                // Filter out null values
+                                const formattedData = tickerVolumeData.filter(d => d.value != null);
+
+                                const color = tickerColorMap.get(ticker) || '#000000';
+
+                                // Create or update volume series
+                                let volumeSeries = volumeSeriesMap.get(ticker);
+                                if (!volumeSeries) {
+                                    console.log(`[VolumePane] Creating new volume series for ${ticker}`);
+                                    if (volumePane && typeof volumePane.addSeries === 'function') {
+                                        volumeSeries = volumePane.addSeries(LightweightCharts.LineSeries, {
+                                            color: color,
+                                            lineWidth: 1,
+                                            priceLineVisible: false,
+                                            lastValueVisible: false,
+                                            priceFormat: { type: 'volume' }
+                                        });
+                                        volumeSeriesMap.set(ticker, volumeSeries);
+                                        console.log(`[VolumePane] Series created for ${ticker}`);
+                                    } else {
+                                        console.error(`[VolumePane] volumePane does not have addSeries method`);
+                                        return;
+                                    }
+                                } else {
+                                    console.log(`[VolumePane] Updating existing volume series for ${ticker}`);
+                                    volumeSeries.applyOptions({ color: color, lastValueVisible: false });
+                                }
+
+                                volumeSeries.setData(formattedData);
+                                console.log(`[VolumePane] Data set successfully for ${ticker}, ${formattedData.length} points`);
+                            } catch (error) {
+                                console.error(`[VolumePane] Failed to fetch/plot volume for ${ticker}:`, error);
+                            }
+                        });
+
+                    // Wait for all volume data to be fetched and plotted
+                    await Promise.all(volumePromises);
+
+                    // Final range restoration after all volume operations
+                    if (rangeBeforeVolume) {
+                        try {
+                            chart.timeScale().setVisibleRange(rangeBeforeVolume);
+                            console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
+                        } catch (_) {}
+                    }
+
+                    // Resubscribe to range changes
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+                }
+
                 // Average series
                 if (showAvg && !useRaw) {
                     avgSeries = window.ChartSeriesManager.updateAverageSeries(
@@ -512,7 +629,7 @@
                     );
                 }
 
-                
+
 
                 // Subscribe to save visible range changes (debounced)
                 if (rangeSaveHandler) {
@@ -680,7 +797,7 @@
         toggleVolBtn.addEventListener('click', () => {
             showVolPane = !showVolPane;
             card._showVol = showVolPane;
-            toggleVolBtn.textContent = showVolPane ? 'Hide Vol Pane' : 'Show Vol Pane';
+            toggleVolBtn.textContent = showVolPane ? 'Hide Vol (σ) Pane' : 'Show Vol (σ) Pane';
 
             // Save current visible range before destroying chart
             let savedRange = null;
@@ -732,13 +849,64 @@
                 } catch (_) {}
                 chart = null;
                 volPane = null;
+                volumePane = null;
                 priceSeriesMap.clear();
                 volSeriesMap.clear();
+                volumeSeriesMap.clear();
             }
 
             // Skip automatic range application since we're preserving the range manually
             skipRangeApplication = true;
 
+            plot();
+        });
+
+        toggleVolumeBtn.addEventListener('click', () => {
+            showVolumePane = !showVolumePane;
+            card._showVolume = showVolumePane;
+            toggleVolumeBtn.textContent = showVolumePane ? 'Hide Volume Pane' : 'Show Volume Pane';
+
+            // Save current visible range
+            let savedRange = null;
+            if (chart && chart.timeScale) {
+                const visible = chart.timeScale().getVisibleRange();
+                if (visible && visible.from && visible.to) {
+                    savedRange = { from: Math.round(visible.from), to: Math.round(visible.to) };
+                    card._visibleRange = savedRange;
+                }
+            }
+
+            // Adjust height for volume pane
+            const VOLUME_PANE_HEIGHT = 120;
+            const currentHeight = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
+            if (showVolumePane) {
+                card._height = currentHeight + VOLUME_PANE_HEIGHT;
+            } else {
+                card._height = Math.max(HEIGHT_MIN, currentHeight - VOLUME_PANE_HEIGHT);
+            }
+
+            // Destroy and recreate chart
+            if (chart) {
+                // Explicitly remove volume pane if it exists
+                if (volumePane) {
+                    try {
+                        chart.removePane(volumePane);
+                    } catch (e) {
+                        console.warn('[Card] Could not remove volume pane:', e);
+                    }
+                }
+
+                chart.remove();
+                chart = null;
+                volumePane = null;
+                volPane = null;
+                priceSeriesMap.clear();
+                volSeriesMap.clear();
+                volumeSeriesMap.clear();
+            }
+
+            skipRangeApplication = true;
+            saveCards();
             plot();
         });
 
@@ -759,7 +927,7 @@
                 card._lastLabelVisible = lastLabelVisible;
                 console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible
                 });
                 // Apply to all existing series
                 priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
@@ -767,6 +935,7 @@
                 if (volPane && volSeriesMap) {
                     volSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
                 }
+                // Volume pane series always have labels disabled
                 saveCards();
             });
         }
@@ -779,9 +948,9 @@
                 console.log(`[Card:${cardId}] Zero line ${showZeroLine ? 'enabled' : 'disabled'}`);
                 
                 updateZeroLine();
-                
+
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, useRaw, showAvg, lastLabelVisible, showZeroLine
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine
                 });
                 saveCards();
             });
@@ -882,8 +1051,8 @@
                     targetWrapper = window.PageManager.ensurePage(activePage);
                 }
                 // Create new chart on the active page (or default wrapper if no pages)
-                const newCard = createChartCard('', showDiff, showAvg, showVolPane, useRaw, 
-                    Object.fromEntries(multiplierMap), Array.from(hiddenTickers), 
+                const newCard = createChartCard('', showDiff, showAvg, showVolPane, showVolumePane, useRaw,
+                    Object.fromEntries(multiplierMap), Array.from(hiddenTickers),
                     card._visibleRange, '', lastLabelVisible, showZeroLine, targetWrapper, card._height || initialHeight, card._fontSize || (UI.FONT_DEFAULT || 12));
                 saveCards();
                 // Insert new card after the current card (within the same page)
@@ -1015,7 +1184,7 @@
                         const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                         createChartCard(
                             Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            !!c.showDiff, !!c.showAvg, !!c.showVol,
+                            !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
                             c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
@@ -1051,7 +1220,7 @@
                         const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                         createChartCard(
                             Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            !!c.showDiff, !!c.showAvg, !!c.showVol,
+                            !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
                             c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
