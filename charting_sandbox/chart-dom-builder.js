@@ -37,6 +37,8 @@ window.ChartDomBuilder = {
                 <button class="toggle-zeroline-btn">Show 0% Line</button>
                 <button class="height-decrease-btn">Height -</button>
                 <button class="height-increase-btn">Height +</button>
+                <button class="volpane-height-decrease-btn">Vol Height -</button>
+                <button class="volpane-height-increase-btn">Vol Height +</button>
                 <button class="font-decrease-btn">Font -</button>
                 <button class="font-increase-btn">Font +</button>
                 <button class="add-chart-btn">Add Chart</button>
@@ -142,6 +144,8 @@ window.ChartDomBuilder = {
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             heightDownBtn: card.querySelector('.height-decrease-btn'),
             heightUpBtn: card.querySelector('.height-increase-btn'),
+            volPaneHeightDownBtn: card.querySelector('.volpane-height-decrease-btn'),
+            volPaneHeightUpBtn: card.querySelector('.volpane-height-increase-btn'),
             fontDownBtn: card.querySelector('.font-decrease-btn'),
             fontUpBtn: card.querySelector('.font-increase-btn'),
             rangeSelect: card.querySelector('.range-select'),

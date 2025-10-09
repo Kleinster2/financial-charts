@@ -143,7 +143,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, heightDownBtn, heightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -191,6 +191,7 @@
         card._lastLabelVisible = lastLabelVisible;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
+        card._volumePaneStretchFactor = 4.0;  // Default stretch factor for volume pane
 
         // Compute min/max time across currently visible tickers with loaded data
         function getCurrentDataRange() {
@@ -241,6 +242,24 @@
 
         if (heightUpBtn) heightUpBtn.addEventListener('click', () => adjustHeight(+HEIGHT_STEP));
         if (heightDownBtn) heightDownBtn.addEventListener('click', () => adjustHeight(-HEIGHT_STEP));
+
+        // Volume pane height adjustment
+        function adjustVolumePaneHeight(delta) {
+            const current = card._volumePaneStretchFactor || 4.0;
+            const next = Math.max(1.0, Math.min(10.0, current + delta));
+            console.log(`[Card:${cardId}] Volume pane stretch factor change: ${current} -> ${next} (delta ${delta})`);
+            card._volumePaneStretchFactor = next;
+
+            // Apply to existing volume pane if it exists
+            if (volumePane && typeof volumePane.setStretchFactor === 'function') {
+                volumePane.setStretchFactor(next);
+                console.log(`[Card:${cardId}] Applied stretch factor ${next} to volume pane`);
+            }
+
+            saveCards();
+        }
+        if (volPaneHeightUpBtn) volPaneHeightUpBtn.addEventListener('click', () => adjustVolumePaneHeight(+0.5));
+        if (volPaneHeightDownBtn) volPaneHeightDownBtn.addEventListener('click', () => adjustVolumePaneHeight(-0.5));
 
         function applyFont(newSize) {
             if (chart && typeof chart.applyOptions === 'function') {
@@ -528,11 +547,18 @@
 
                     // Create volume pane
                     if (!volumePane) {
-                        volumePane = chart.addPane({
-                            height: 100,
-                            horzGridLines: { visible: true },
-                            vertGridLines: { visible: true }
-                        });
+                        const stretchFactor = card._volumePaneStretchFactor || 4.0;
+                        console.log(`[VolumePane] Creating pane with stretch factor: ${stretchFactor}`);
+                        volumePane = chart.addPane();
+
+                        // Set stretch factor to make this pane taller (default is 1.0)
+                        // Higher values = taller pane relative to other panes
+                        if (typeof volumePane.setStretchFactor === 'function') {
+                            volumePane.setStretchFactor(stretchFactor);
+                            console.log(`[VolumePane] Set stretch factor to ${stretchFactor}`);
+                        } else {
+                            console.warn('[VolumePane] setStretchFactor not available');
+                        }
 
                         // Restore range if provided
                         if (rangeBeforeVolume && rangeBeforeVolume.from && rangeBeforeVolume.to) {
@@ -582,18 +608,32 @@
                                             color: color,
                                             lineWidth: 1,
                                             priceLineVisible: false,
-                                            lastValueVisible: false,
-                                            priceFormat: { type: 'volume' }
+                                            lastValueVisible: true,
+                                            priceScaleId: 'right',
+                                            priceFormat: {
+                                                type: 'volume'
+                                            }
                                         });
+
+                                        // Configure the price scale for logarithmic mode with better visibility
+                                        volumeSeries.priceScale().applyOptions({
+                                            mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                                            autoScale: true,
+                                            scaleMargins: {
+                                                top: 0.1,
+                                                bottom: 0.1
+                                            }
+                                        });
+
                                         volumeSeriesMap.set(ticker, volumeSeries);
-                                        console.log(`[VolumePane] Series created for ${ticker}`);
+                                        console.log(`[VolumePane] Series created for ${ticker} with logarithmic scale`);
                                     } else {
                                         console.error(`[VolumePane] volumePane does not have addSeries method`);
                                         return;
                                     }
                                 } else {
                                     console.log(`[VolumePane] Updating existing volume series for ${ticker}`);
-                                    volumeSeries.applyOptions({ color: color, lastValueVisible: false });
+                                    volumeSeries.applyOptions({ color: color, lastValueVisible: true });
                                 }
 
                                 volumeSeries.setData(formattedData);
@@ -877,7 +917,7 @@
             }
 
             // Adjust height for volume pane
-            const VOLUME_PANE_HEIGHT = 120;
+            const VOLUME_PANE_HEIGHT = 800;
             const currentHeight = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
             if (showVolumePane) {
                 card._height = currentHeight + VOLUME_PANE_HEIGHT;
