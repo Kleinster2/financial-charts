@@ -65,7 +65,7 @@
         initialTickers = 'SPY',
         initialShowDiff = false,
         initialShowAvg = false,
-        initialShowVol = true,
+        initialShowVol = false,
         initialShowVolume = false,
         initialUseRaw = false,
         initialMultipliers = {},
@@ -191,7 +191,7 @@
         card._lastLabelVisible = lastLabelVisible;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
-        card._volumePaneStretchFactor = 4.0;  // Default stretch factor for volume pane
+        card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
 
         // Compute min/max time across currently visible tickers with loaded data
         function getCurrentDataRange() {
@@ -245,7 +245,7 @@
 
         // Volume pane height adjustment
         function adjustVolumePaneHeight(delta) {
-            const current = card._volumePaneStretchFactor || 4.0;
+            const current = card._volumePaneStretchFactor || 1.0;
             const next = Math.max(1.0, Math.min(10.0, current + delta));
             console.log(`[Card:${cardId}] Volume pane stretch factor change: ${current} -> ${next} (delta ${delta})`);
             card._volumePaneStretchFactor = next;
@@ -547,7 +547,7 @@
 
                     // Create volume pane
                     if (!volumePane) {
-                        const stretchFactor = card._volumePaneStretchFactor || 4.0;
+                        const stretchFactor = card._volumePaneStretchFactor || 1.0;
                         console.log(`[VolumePane] Creating pane with stretch factor: ${stretchFactor}`);
                         volumePane = chart.addPane();
 
@@ -852,23 +852,7 @@
                 } catch (_) {}
             }
 
-            // Adjust chartBox height to accommodate volume pane
-            const VOL_PANE_HEIGHT = 120; // Height of volume pane in pixels
-            const currentHeight = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
-
-            if (showVolPane) {
-                // Add height for volume pane
-                const newHeight = currentHeight + VOL_PANE_HEIGHT;
-                card._height = newHeight;
-                chartBox.style.height = `${newHeight}px`;
-                console.log(`[VolToggle] Increasing chart height from ${currentHeight} to ${newHeight}`);
-            } else {
-                // Remove height for volume pane
-                const newHeight = Math.max(HEIGHT_MIN, currentHeight - VOL_PANE_HEIGHT);
-                card._height = newHeight;
-                chartBox.style.height = `${newHeight}px`;
-                console.log(`[VolToggle] Decreasing chart height from ${currentHeight} to ${newHeight}`);
-            }
+            // Keep the same total height - stretch factor will allocate space between panes
 
             saveCards();
 
@@ -916,26 +900,10 @@
                 }
             }
 
-            // Adjust height for volume pane
-            const VOLUME_PANE_HEIGHT = 800;
-            const currentHeight = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
-            if (showVolumePane) {
-                card._height = currentHeight + VOLUME_PANE_HEIGHT;
-            } else {
-                card._height = Math.max(HEIGHT_MIN, currentHeight - VOLUME_PANE_HEIGHT);
-            }
+            // Keep the same total height - stretch factor will allocate space between panes
 
-            // Destroy and recreate chart
+            // Destroy and recreate chart (panes are automatically destroyed with the chart)
             if (chart) {
-                // Explicitly remove volume pane if it exists
-                if (volumePane) {
-                    try {
-                        chart.removePane(volumePane);
-                    } catch (e) {
-                        console.warn('[Card] Could not remove volume pane:', e);
-                    }
-                }
-
                 chart.remove();
                 chart = null;
                 volumePane = null;
@@ -1090,10 +1058,10 @@
                     const activePage = window.PageManager.getActivePage();
                     targetWrapper = window.PageManager.ensurePage(activePage);
                 }
-                // Create new chart on the active page (or default wrapper if no pages)
-                const newCard = createChartCard('', showDiff, showAvg, showVolPane, showVolumePane, useRaw,
-                    Object.fromEntries(multiplierMap), Array.from(hiddenTickers),
-                    card._visibleRange, '', lastLabelVisible, showZeroLine, targetWrapper, card._height || initialHeight, card._fontSize || (UI.FONT_DEFAULT || 12));
+                // Create new chart on the active page with default settings (all panes off)
+                const newCard = createChartCard('', false, false, false, false, false,
+                    {}, [],
+                    null, '', true, false, targetWrapper, 500, (UI.FONT_DEFAULT || 12));
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {

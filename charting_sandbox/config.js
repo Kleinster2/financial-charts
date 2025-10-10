@@ -33,7 +33,9 @@ window.ChartConfig = {
     
     // Chart Dimensions
     DIMENSIONS: {
-        VOLUME_PANE_HEIGHT: 100,  // Height of volume pane in pixels
+        VOLUME_PANE_HEIGHT: 100,  // Base height of volume pane in pixels
+        VOLUME_PANE_STRETCH_FACTOR: 1.0,  // Default stretch factor for volume pane (1.0 = equal height to main chart)
+        CHART_DEFAULT_HEIGHT: 500,  // Default total chart height
         CHART_MIN_HEIGHT: 400,    // Minimum chart height
         CHART_MAX_HEIGHT: 800     // Maximum chart height
     },

@@ -314,9 +314,18 @@ def get_tickers():
         except sqlite3.OperationalError:
             app.logger.warning("Table 'futures_prices_daily' not found.")
 
+        # Add portfolios
+        try:
+            cursor = conn.execute("SELECT portfolio_id, name FROM portfolios ORDER BY portfolio_id")
+            for row in cursor.fetchall():
+                portfolio_id = row[0]
+                tickers_set.add(f"PORTFOLIO_{portfolio_id}")
+        except sqlite3.OperationalError:
+            app.logger.info("Table 'portfolios' not found - portfolio feature not available.")
+
         conn.close()
         tickers = sorted(tickers_set)
-        app.logger.info(f"Found {len(tickers)} tickers across stock and futures tables.")
+        app.logger.info(f"Found {len(tickers)} tickers across stock, futures, and portfolio tables.")
         if not tickers:
             app.logger.warning("WARNING: Ticker list is empty. Check if table 'stock_prices_daily' exists and is populated.")
         return jsonify(sorted(tickers))
@@ -845,6 +854,14 @@ def etf_series():
     except Exception as e:
         app.logger.error(f"/api/etf/series error: {e}")
         return jsonify({'error': 'failed to compute series'}), 500
+
+# Register portfolio routes
+try:
+    from portfolio_routes import portfolio_bp
+    app.register_blueprint(portfolio_bp)
+    app.logger.info("Portfolio routes registered successfully")
+except ImportError as e:
+    app.logger.warning(f"Portfolio routes not available: {e}")
 
 if __name__ == '__main__':
     app.run(debug=True, port=DEFAULT_PORT)

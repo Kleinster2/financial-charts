@@ -39,10 +39,37 @@ window.DataFetcher = {
     async getMetadata(tickers) {
         if (!tickers || tickers.length === 0) return {};
 
-        const params = new URLSearchParams();
-        params.set('tickers', tickers.join(','));
-        const url = `${API_BASE_URL}/api/metadata?${params.toString()}`;
-        return fetchWithRetry(url);
+        // Separate portfolio tickers from regular tickers
+        const portfolioTickers = tickers.filter(t => t.startsWith('PORTFOLIO_'));
+        const regularTickers = tickers.filter(t => !t.startsWith('PORTFOLIO_'));
+
+        const results = {};
+
+        // Fetch regular ticker metadata
+        if (regularTickers.length > 0) {
+            const params = new URLSearchParams();
+            params.set('tickers', regularTickers.join(','));
+            const url = `${API_BASE_URL}/api/metadata?${params.toString()}`;
+            const regularMetadata = await fetchWithRetry(url);
+            Object.assign(results, regularMetadata);
+        }
+
+        // Add portfolio metadata
+        for (const portfolioTicker of portfolioTickers) {
+            const portfolioId = portfolioTicker.replace('PORTFOLIO_', '');
+            try {
+                const url = `${API_BASE_URL}/api/portfolio/list`;
+                const portfolios = await fetchWithRetry(url);
+                const portfolio = portfolios.find(p => p.portfolio_id === parseInt(portfolioId));
+                if (portfolio) {
+                    results[portfolioTicker] = portfolio.name || `Portfolio ${portfolioId}`;
+                }
+            } catch (error) {
+                results[portfolioTicker] = `Portfolio ${portfolioId}`;
+            }
+        }
+
+        return results;
     },
     
     /**
@@ -51,12 +78,37 @@ window.DataFetcher = {
     async getPriceData(tickers, fromDate = null, toDate = null) {
         if (!tickers || tickers.length === 0) return {};
 
-        const params = new URLSearchParams();
-        params.set('tickers', tickers.join(','));
-        if (fromDate) params.set('from', Math.floor(fromDate));
-        if (toDate) params.set('to', Math.floor(toDate));
-        const url = `${API_BASE_URL}/api/data?${params.toString()}`;
-        return fetchWithRetry(url);
+        // Check for portfolio tickers (format: PORTFOLIO_1, PORTFOLIO_2, etc.)
+        const portfolioTickers = tickers.filter(t => t.startsWith('PORTFOLIO_'));
+        const regularTickers = tickers.filter(t => !t.startsWith('PORTFOLIO_'));
+
+        const results = {};
+
+        // Fetch regular tickers
+        if (regularTickers.length > 0) {
+            const params = new URLSearchParams();
+            params.set('tickers', regularTickers.join(','));
+            if (fromDate) params.set('from', Math.floor(fromDate));
+            if (toDate) params.set('to', Math.floor(toDate));
+            const url = `${API_BASE_URL}/api/data?${params.toString()}`;
+            const regularData = await fetchWithRetry(url);
+            Object.assign(results, regularData);
+        }
+
+        // Fetch portfolio data
+        for (const portfolioTicker of portfolioTickers) {
+            const portfolioId = portfolioTicker.replace('PORTFOLIO_', '');
+            const url = `${API_BASE_URL}/api/portfolio/${portfolioId}/valuations`;
+            try {
+                const portfolioData = await fetchWithRetry(url);
+                // Store in same format as regular tickers
+                results[portfolioTicker] = portfolioData;
+            } catch (error) {
+                console.warn(`Failed to fetch portfolio ${portfolioId}:`, error);
+            }
+        }
+
+        return results;
     },
     
     /**

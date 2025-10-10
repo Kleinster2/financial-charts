@@ -7,7 +7,7 @@ window.ChartDomBuilder = {
     /**
      * Create the main chart card element with all controls
      */
-    createChartCard(cardId, initialTitle = '', initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400)) {
+    createChartCard(cardId, initialTitle = '', initialHeight = 500) {
         const card = document.createElement('div');
         card.id = cardId;
         card.className = 'chart-card';
