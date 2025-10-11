@@ -343,7 +343,7 @@
                 const title = titleInput ? titleInput.value : '';
 
                 try {
-                    const result = await window.ChartExport.exportForLinkedIn(chart, title);
+                    const result = await window.ChartExport.exportForLinkedIn(chart, title, chartBox);
                     if (result.success) {
                         console.log('[Export] Export successful');
                     } else {

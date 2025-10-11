@@ -15,7 +15,8 @@ window.ChartExport = {
             filename = 'chart-export.png',
             includeTitle = false,
             title = '',
-            addWatermark = false
+            addWatermark = false,
+            chartBox = null
         } = options;
 
         try {
@@ -26,10 +27,15 @@ window.ChartExport = {
             // Take screenshot using native API
             const canvas = chart.takeScreenshot();
 
-            // If title is requested, create a composite canvas with title
+            // Composite legend onto canvas if available
             let finalCanvas = canvas;
+            if (chartBox) {
+                finalCanvas = await this._compositeLegend(canvas, chartBox);
+            }
+
+            // If title is requested, create a composite canvas with title
             if (includeTitle && title) {
-                finalCanvas = this._addTitleToCanvas(canvas, title);
+                finalCanvas = this._addTitleToCanvas(finalCanvas, title);
             }
 
             // Add watermark if requested
@@ -61,9 +67,10 @@ window.ChartExport = {
      * Export chart optimized for LinkedIn
      * @param {Object} chart - LightweightCharts chart instance
      * @param {string} title - Chart title
+     * @param {HTMLElement} chartBox - Chart container element for legend capture
      * @returns {Promise<Object>} Result object
      */
-    async exportForLinkedIn(chart, title = '') {
+    async exportForLinkedIn(chart, title = '', chartBox = null) {
         const timestamp = new Date().toISOString().split('T')[0];
         const safeTitle = title.replace(/[^a-z0-9]/gi, '_').toLowerCase() || 'chart';
         const filename = `${safeTitle}_${timestamp}.png`;
@@ -72,7 +79,8 @@ window.ChartExport = {
             filename: filename,
             includeTitle: !!title,
             title: title,
-            addWatermark: false
+            addWatermark: false,
+            chartBox: chartBox
         });
     },
 
@@ -108,6 +116,99 @@ window.ChartExport = {
             console.error('[ChartExport] Copy error:', error);
             return { success: false, message: error.message };
         }
+    },
+
+    /**
+     * Composite legend elements onto canvas
+     * @private
+     */
+    async _compositeLegend(sourceCanvas, chartBox) {
+        // Create new canvas matching source
+        const newCanvas = document.createElement('canvas');
+        newCanvas.width = sourceCanvas.width;
+        newCanvas.height = sourceCanvas.height;
+
+        const ctx = newCanvas.getContext('2d');
+
+        // Draw original chart
+        ctx.drawImage(sourceCanvas, 0, 0);
+
+        // Find visible legend elements (both floating and fixed)
+        const legends = [
+            chartBox.querySelector('.floating-legend'),
+            chartBox.querySelector('.fixed-legend')
+        ].filter(el => el && el.style.display !== 'none' && el.offsetParent !== null);
+
+        for (const legend of legends) {
+            try {
+                // Get legend position and size
+                const legendRect = legend.getBoundingClientRect();
+                const chartRect = chartBox.getBoundingClientRect();
+
+                // Calculate position relative to chart
+                const x = legendRect.left - chartRect.left;
+                const y = legendRect.top - chartRect.top;
+
+                // Get computed styles
+                const styles = window.getComputedStyle(legend);
+                const bgColor = styles.backgroundColor;
+                const borderColor = styles.borderColor;
+                const borderWidth = parseInt(styles.borderWidth) || 1;
+                const borderRadius = parseInt(styles.borderRadius) || 0;
+                const padding = parseInt(styles.padding) || 8;
+
+                // Draw legend background with rounded corners
+                ctx.fillStyle = bgColor;
+                ctx.strokeStyle = borderColor;
+                ctx.lineWidth = borderWidth;
+
+                if (borderRadius > 0) {
+                    this._roundRect(ctx, x, y, legendRect.width, legendRect.height, borderRadius);
+                    ctx.fill();
+                    ctx.stroke();
+                } else {
+                    ctx.fillRect(x, y, legendRect.width, legendRect.height);
+                    ctx.strokeRect(x, y, legendRect.width, legendRect.height);
+                }
+
+                // Draw legend text content
+                const textLines = legend.innerText.split('\n').filter(line => line.trim());
+                ctx.fillStyle = styles.color || '#333';
+                ctx.font = `${styles.fontSize || '12px'} ${styles.fontFamily || 'monospace'}`;
+                ctx.textBaseline = 'top';
+
+                let textY = y + padding;
+                const lineHeight = parseInt(styles.fontSize) * 1.4 || 16;
+
+                textLines.forEach(line => {
+                    ctx.fillText(line, x + padding, textY);
+                    textY += lineHeight;
+                });
+
+            } catch (err) {
+                console.warn('[ChartExport] Failed to composite legend:', err);
+            }
+        }
+
+        return newCanvas;
+    },
+
+    /**
+     * Helper to draw rounded rectangle
+     * @private
+     */
+    _roundRect(ctx, x, y, width, height, radius) {
+        ctx.beginPath();
+        ctx.moveTo(x + radius, y);
+        ctx.lineTo(x + width - radius, y);
+        ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+        ctx.lineTo(x + width, y + height - radius);
+        ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+        ctx.lineTo(x + radius, y + height);
+        ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+        ctx.lineTo(x, y + radius);
+        ctx.quadraticCurveTo(x, y, x + radius, y);
+        ctx.closePath();
     },
 
     /**
