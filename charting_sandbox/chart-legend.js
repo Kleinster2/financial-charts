@@ -28,7 +28,7 @@ window.ChartLegend = {
         Object.assign(legendEl.style, {
             position: 'absolute',
             pointerEvents: 'none',
-            background: 'rgba(255,255,255,0.95)',
+            background: 'rgba(255,255,255,0.85)',
             border: '1px solid #ccc',
             borderRadius: '4px',
             padding: '2px 4px',

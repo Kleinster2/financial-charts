@@ -22,7 +22,7 @@ window.ChartFixedLegend = {
             position: 'absolute',
             left: `${initialX}px`,
             top: `${initialY}px`,
-            background: 'rgba(255, 255, 255, 0.92)',
+            background: 'rgba(255, 255, 255, 0.85)',
             border: '1px solid #999',
             borderRadius: '6px',
             padding: '8px',
