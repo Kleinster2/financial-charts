@@ -184,7 +184,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -330,6 +330,32 @@
         // Initialize font button disabled state
         if (fontDownBtn) fontDownBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) <= FONT_MIN);
         if (fontUpBtn) fontUpBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) >= FONT_MAX);
+
+        // Export button handler
+        if (exportBtn) {
+            exportBtn.addEventListener('click', async () => {
+                if (!chart) {
+                    alert('No chart to export. Please plot a chart first.');
+                    return;
+                }
+
+                console.log('[Export] Exporting chart for LinkedIn');
+                const title = titleInput ? titleInput.value : '';
+
+                try {
+                    const result = await window.ChartExport.exportForLinkedIn(chart, title);
+                    if (result.success) {
+                        console.log('[Export] Export successful');
+                    } else {
+                        console.error('[Export] Export failed:', result.message);
+                        alert(`Export failed: ${result.message}`);
+                    }
+                } catch (error) {
+                    console.error('[Export] Export error:', error);
+                    alert(`Export error: ${error.message}`);
+                }
+            });
+        }
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {

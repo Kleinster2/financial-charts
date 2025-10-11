@@ -42,6 +42,7 @@ window.ChartDomBuilder = {
                 <button class="volpane-height-increase-btn">Vol Height +</button>
                 <button class="font-decrease-btn">Font -</button>
                 <button class="font-increase-btn">Font +</button>
+                <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
@@ -150,6 +151,7 @@ window.ChartDomBuilder = {
             volPaneHeightUpBtn: card.querySelector('.volpane-height-increase-btn'),
             fontDownBtn: card.querySelector('.font-decrease-btn'),
             fontUpBtn: card.querySelector('.font-increase-btn'),
+            exportBtn: card.querySelector('.export-btn'),
             rangeSelect: card.querySelector('.range-select'),
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),
