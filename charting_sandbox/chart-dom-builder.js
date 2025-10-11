@@ -35,6 +35,7 @@ window.ChartDomBuilder = {
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
                 <button class="toggle-zeroline-btn">Show 0% Line</button>
+                <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
                 <button class="height-decrease-btn">Height -</button>
                 <button class="height-increase-btn">Height +</button>
                 <button class="volpane-height-decrease-btn">Vol Height -</button>
@@ -142,6 +143,7 @@ window.ChartDomBuilder = {
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
+            toggleFixedLegendBtn: card.querySelector('.toggle-fixedlegend-btn'),
             heightDownBtn: card.querySelector('.height-decrease-btn'),
             heightUpBtn: card.querySelector('.height-increase-btn'),
             volPaneHeightDownBtn: card.querySelector('.volpane-height-decrease-btn'),
@@ -161,8 +163,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn } = elements;
-        const { showDiff, showVol, showVolume, useRaw, showAvg, lastLabelVisible, showZeroLine } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn } = elements;
+        const { showDiff, showVol, showVolume, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -184,6 +186,9 @@ window.ChartDomBuilder = {
         }
         if (toggleZeroLineBtn) {
             toggleZeroLineBtn.textContent = showZeroLine ? 'Hide 0% Line' : 'Show 0% Line';
+        }
+        if (toggleFixedLegendBtn) {
+            toggleFixedLegendBtn.textContent = showFixedLegend ? 'Hide Fixed Legend' : 'Show Fixed Legend';
         }
     },
 

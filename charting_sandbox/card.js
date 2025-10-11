@@ -50,10 +50,13 @@
             title: card._title || '',
             lastLabelVisible: card._lastLabelVisible !== false,
             showZeroLine: !!card._showZeroLine,
+            showFixedLegend: !!card._showFixedLegend,
+            fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
+            fixedLegendMinimized: !!card._fixedLegendMinimized,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
         }));
-        
+
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
         if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
             window.StateManager.saveCards(cards);
@@ -76,7 +79,10 @@
         initialShowZeroLine = false,
         wrapperEl = null,
         initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-        initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+        initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+        initialShowFixedLegend = false,
+        initialFixedLegendPos = { x: 10, y: 10 },
+        initialFixedLegendMinimized = false
     ) {
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -143,7 +149,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -153,11 +159,13 @@
         let useRaw = initialUseRaw;
         let lastLabelVisible = initialLastLabelVisible;
         let showZeroLine = initialShowZeroLine;
+        let showFixedLegend = initialShowFixedLegend;
         let chart = null;
         let volPane = null;  // Volatility pane
         let volumePane = null;  // Trading volume pane
         let avgSeries = null;
         let zeroLineSeries = null;
+        let fixedLegendEl = null;
         
         let crosshairHandler = null;
         let debouncedRebase = null;
@@ -189,6 +197,10 @@
         card._visibleRange = initialRange;
         card._title = initialTitle;
         card._lastLabelVisible = lastLabelVisible;
+        card._showZeroLine = showZeroLine;
+        card._showFixedLegend = showFixedLegend;
+        card._fixedLegendPos = initialFixedLegendPos;
+        card._fixedLegendMinimized = initialFixedLegendMinimized;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
         card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
@@ -286,7 +298,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine
+            showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -408,6 +420,51 @@
                     latestRebasedData,
                     getName: (t) => nameCache[t]
                 });
+
+                // Subscribe to crosshair for fixed legend dual mode
+                let fixedLegendCrosshairHandler = null;
+                if (chart) {
+                    fixedLegendCrosshairHandler = (param) => {
+                        if (!showFixedLegend || !fixedLegendEl) return;
+
+                        // If hovering, show crosshair values; otherwise show latest
+                        if (param && param.point && param.time !== undefined) {
+                            const legendData = [];
+                            const time = param.time !== undefined ?
+                                (typeof param.time === 'string' ? Date.parse(param.time)/1000 : param.time) : null;
+
+                            selectedTickers.forEach(ticker => {
+                                if (hiddenTickers.has(ticker)) return;
+
+                                // Get value at crosshair time
+                                const dataArray = useRaw ? rawPriceMap.get(ticker) : latestRebasedData[ticker];
+                                if (!dataArray) return;
+
+                                const point = dataArray.find(p => p.time === time);
+                                if (point && point.value != null) {
+                                    legendData.push({
+                                        ticker,
+                                        value: point.value,
+                                        color: tickerColorMap.get(ticker)
+                                    });
+                                }
+                            });
+
+                            if (legendData.length > 0) {
+                                window.ChartFixedLegend.updateContent(fixedLegendEl, legendData, {
+                                    useRaw,
+                                    hiddenTickers,
+                                    tickerColorMap,
+                                    getName: (t) => nameCache[t]
+                                });
+                            }
+                        } else {
+                            // Not hovering, show latest values
+                            updateFixedLegend();
+                        }
+                    };
+                    chart.subscribeCrosshairMove(fixedLegendCrosshairHandler);
+                }
             }
 
             if (selectedTickers.size === 0) return;
@@ -796,6 +853,8 @@
             } finally {
                 // Update zero line if it's enabled
                 setTimeout(() => updateZeroLine(), 100);
+                // Update fixed legend if it's enabled
+                setTimeout(() => updateFixedLegend(), 100);
             }
         }
 
@@ -1032,7 +1091,83 @@
             }
         });
 
-        
+        // Toggle fixed legend visibility
+        if (toggleFixedLegendBtn) {
+            toggleFixedLegendBtn.addEventListener('click', () => {
+                showFixedLegend = !showFixedLegend;
+                card._showFixedLegend = showFixedLegend;
+                console.log(`[Card:${cardId}] Fixed legend ${showFixedLegend ? 'enabled' : 'disabled'}`);
+
+                if (showFixedLegend) {
+                    // Create fixed legend if it doesn't exist
+                    if (!fixedLegendEl) {
+                        fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
+                            initialX: card._fixedLegendPos?.x || 10,
+                            initialY: card._fixedLegendPos?.y || 10,
+                            minimized: card._fixedLegendMinimized || false
+                        });
+
+                        // Setup state change handler
+                        fixedLegendEl._onStateChange = (changes) => {
+                            if (changes.x !== undefined || changes.y !== undefined) {
+                                card._fixedLegendPos = {
+                                    x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
+                                    y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
+                                };
+                            }
+                            if (changes.minimized !== undefined) {
+                                card._fixedLegendMinimized = changes.minimized;
+                            }
+                            debouncedSaveCards();
+                        };
+                    }
+
+                    // Show legend and update with latest values
+                    window.ChartFixedLegend.show(fixedLegendEl);
+                    updateFixedLegend();
+                } else {
+                    // Hide legend
+                    if (fixedLegendEl) {
+                        window.ChartFixedLegend.hide(fixedLegendEl);
+                    }
+                }
+
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
+                });
+                saveCards();
+            });
+        }
+
+        // Function to update fixed legend with latest values
+        function updateFixedLegend() {
+            if (!showFixedLegend || !fixedLegendEl) return;
+
+            const legendData = [];
+            selectedTickers.forEach(ticker => {
+                if (hiddenTickers.has(ticker)) return;
+
+                // Get latest value
+                const dataArray = useRaw ? rawPriceMap.get(ticker) : latestRebasedData[ticker];
+                if (!dataArray || dataArray.length === 0) return;
+
+                const latestPoint = dataArray[dataArray.length - 1];
+                if (latestPoint && latestPoint.value != null) {
+                    legendData.push({
+                        ticker,
+                        value: latestPoint.value,
+                        color: tickerColorMap.get(ticker)
+                    });
+                }
+            });
+
+            window.ChartFixedLegend.updateContent(fixedLegendEl, legendData, {
+                useRaw,
+                hiddenTickers,
+                tickerColorMap,
+                getName: (t) => nameCache[t]
+            });
+        }
 
         if (rangeSelect) {
             rangeSelect.addEventListener('change', () => {
@@ -1199,7 +1334,10 @@
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
                             c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                            !!c.showFixedLegend,
+                            c.fixedLegendPos || { x: 10, y: 10 },
+                            !!c.fixedLegendMinimized
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
@@ -1235,7 +1373,10 @@
                             c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
                             c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                            !!c.showFixedLegend,
+                            c.fixedLegendPos || { x: 10, y: 10 },
+                            !!c.fixedLegendMinimized
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
@@ -1254,11 +1395,14 @@
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
                     createChartCard(
                         Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                        !!c.showDiff, !!c.showAvg, !!c.showVol,
+                        !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
                         c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
                         c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
                         c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                        c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+                        c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                        !!c.showFixedLegend,
+                        c.fixedLegendPos || { x: 10, y: 10 },
+                        !!c.fixedLegendMinimized
                     );
                 });
                 // Push local state to server to sync
