@@ -608,7 +608,7 @@
                                             color: color,
                                             lineWidth: 1,
                                             priceLineVisible: false,
-                                            lastValueVisible: true,
+                                            lastValueVisible: lastLabelVisible,
                                             priceScaleId: 'right',
                                             priceFormat: {
                                                 type: 'volume'
@@ -633,7 +633,7 @@
                                     }
                                 } else {
                                     console.log(`[VolumePane] Updating existing volume series for ${ticker}`);
-                                    volumeSeries.applyOptions({ color: color, lastValueVisible: true });
+                                    volumeSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
                                 }
 
                                 volumeSeries.setData(formattedData);
@@ -943,7 +943,10 @@
                 if (volPane && volSeriesMap) {
                     volSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
                 }
-                // Volume pane series always have labels disabled
+                // Apply to volume pane series (trading volume)
+                if (volumePane && volumeSeriesMap) {
+                    volumeSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
                 saveCards();
             });
         }
