@@ -64,26 +64,61 @@
     }
     window.saveCards = saveCards;
 
-    function createChartCard(
-        initialTickers = 'SPY',
-        initialShowDiff = false,
-        initialShowAvg = false,
-        initialShowVol = false,
-        initialShowVolume = false,
-        initialUseRaw = false,
-        initialMultipliers = {},
-        initialHidden = [],
-        initialRange = null,
-        initialTitle = '',
-        initialLastLabelVisible = true,
-        initialShowZeroLine = false,
-        wrapperEl = null,
-        initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-        initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-        initialShowFixedLegend = false,
-        initialFixedLegendPos = { x: 10, y: 10 },
-        initialFixedLegendMinimized = false
-    ) {
+    /**
+     * Create a chart card with the given options
+     * @param {Object|string} optionsOrTickers - Options object or legacy ticker string
+     * @returns {HTMLElement} The created card element
+     */
+    function createChartCard(optionsOrTickers) {
+        // Handle backward compatibility: if first arg is string, convert to options
+        let options = {};
+        if (typeof optionsOrTickers === 'string') {
+            // Legacy positional parameters
+            options = {
+                tickers: arguments[0] || 'SPY',
+                showDiff: arguments[1] || false,
+                showAvg: arguments[2] || false,
+                showVol: arguments[3] || false,
+                showVolume: arguments[4] || false,
+                useRaw: arguments[5] || false,
+                multipliers: arguments[6] || {},
+                hidden: arguments[7] || [],
+                range: arguments[8] || null,
+                title: arguments[9] || '',
+                lastLabelVisible: arguments[10] !== false,
+                showZeroLine: arguments[11] || false,
+                wrapperEl: arguments[12] || null,
+                height: arguments[13] || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                fontSize: arguments[14] || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                showFixedLegend: arguments[15] || false,
+                fixedLegendPos: arguments[16] || { x: 10, y: 10 },
+                fixedLegendMinimized: arguments[17] || false
+            };
+        } else {
+            options = optionsOrTickers || {};
+        }
+
+        // Destructure with defaults
+        const {
+            tickers: initialTickers = 'SPY',
+            showDiff: initialShowDiff = false,
+            showAvg: initialShowAvg = false,
+            showVol: initialShowVol = false,
+            showVolume: initialShowVolume = false,
+            useRaw: initialUseRaw = false,
+            multipliers: initialMultipliers = {},
+            hidden: initialHidden = [],
+            range: initialRange = null,
+            title: initialTitle = '',
+            lastLabelVisible: initialLastLabelVisible = true,
+            showZeroLine: initialShowZeroLine = false,
+            wrapperEl = null,
+            height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+            fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            showFixedLegend: initialShowFixedLegend = false,
+            fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
+            fixedLegendMinimized: initialFixedLegendMinimized = false
+        } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
             console.error('Missing charts wrapper');
