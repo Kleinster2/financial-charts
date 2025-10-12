@@ -171,19 +171,14 @@ window.ChartExport = {
                     ctx.strokeRect(x, y, legendRect.width, legendRect.height);
                 }
 
-                // Draw legend text content
-                const textLines = legend.innerText.split('\n').filter(line => line.trim());
-                ctx.fillStyle = styles.color || '#333';
-                ctx.font = `${styles.fontSize || '12px'} ${styles.fontFamily || 'monospace'}`;
-                ctx.textBaseline = 'top';
+                // Draw legend content with proper styling
+                const contentElement = legend.classList.contains('fixed-legend')
+                    ? legend.querySelector('.fixed-legend-content')
+                    : legend;
 
-                let textY = y + padding;
-                const lineHeight = parseInt(styles.fontSize) * 1.4 || 16;
-
-                textLines.forEach(line => {
-                    ctx.fillText(line, x + padding, textY);
-                    textY += lineHeight;
-                });
+                if (contentElement) {
+                    this._drawLegendContent(ctx, contentElement, x, y, padding, styles);
+                }
 
             } catch (err) {
                 console.warn('[ChartExport] Failed to composite legend:', err);
@@ -191,6 +186,62 @@ window.ChartExport = {
         }
 
         return newCanvas;
+    },
+
+    /**
+     * Draw legend content with styled text (colors, bold, etc.)
+     * @private
+     */
+    _drawLegendContent(ctx, contentElement, baseX, baseY, padding, legendStyles) {
+        const fontSize = parseInt(legendStyles.fontSize) || 12;
+        const fontFamily = legendStyles.fontFamily || 'monospace';
+        const lineHeight = fontSize * 1.4;
+
+        let textY = baseY + padding;
+
+        // Process each child div element
+        const divs = contentElement.querySelectorAll('div');
+
+        divs.forEach(div => {
+            if (div.textContent.trim() === '') return;
+
+            let textX = baseX + padding;
+            ctx.textBaseline = 'top';
+
+            // Process each child node (text and spans)
+            const processNode = (node) => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    // Plain text
+                    const text = node.textContent;
+                    if (text.trim()) {
+                        ctx.font = `${fontSize}px ${fontFamily}`;
+                        ctx.fillStyle = legendStyles.color || '#333';
+                        ctx.fillText(text, textX, textY);
+                        textX += ctx.measureText(text).width;
+                    }
+                } else if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'SPAN') {
+                    // Styled span (ticker names, etc.)
+                    const spanStyles = window.getComputedStyle(node);
+                    const text = node.textContent;
+
+                    if (text.trim()) {
+                        // Apply span styles
+                        const isBold = spanStyles.fontWeight === 'bold' || parseInt(spanStyles.fontWeight) >= 600;
+                        const fontWeight = isBold ? 'bold' : 'normal';
+                        ctx.font = `${fontWeight} ${fontSize}px ${fontFamily}`;
+                        ctx.fillStyle = spanStyles.color || legendStyles.color || '#333';
+
+                        ctx.fillText(text, textX, textY);
+                        textX += ctx.measureText(text).width;
+                    }
+                }
+            };
+
+            // Process all child nodes in order
+            Array.from(div.childNodes).forEach(processNode);
+
+            textY += lineHeight;
+        });
     },
 
     /**
