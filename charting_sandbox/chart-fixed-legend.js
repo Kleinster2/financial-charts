@@ -10,8 +10,7 @@ window.ChartFixedLegend = {
     createFixedLegend(chartBox, options = {}) {
         const {
             initialX = 10,
-            initialY = 10,
-            minimized = false
+            initialY = 10
         } = options;
 
         // Create fixed legend container
@@ -23,97 +22,23 @@ window.ChartFixedLegend = {
             left: `${initialX}px`,
             top: `${initialY}px`,
             background: 'rgba(255, 255, 255, 0.85)',
-            border: '1px solid #999',
-            borderRadius: '6px',
-            padding: '8px',
+            border: '1px solid #ccc',
+            borderRadius: '4px',
+            padding: '2px 4px',
             fontSize: '12px',
-            fontFamily: 'monospace',
-            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
             zIndex: '2000',
-            minWidth: '120px',
-            maxWidth: '300px',
             cursor: 'move',
             userSelect: 'none',
-            display: 'none'
+            display: 'none',
+            whiteSpace: 'nowrap'
         });
-
-        // Create header with controls
-        const header = document.createElement('div');
-        header.className = 'fixed-legend-header';
-        Object.assign(header.style, {
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginBottom: '6px',
-            paddingBottom: '4px',
-            borderBottom: '1px solid #ddd',
-            cursor: 'move'
-        });
-
-        // Title
-        const title = document.createElement('span');
-        title.textContent = 'Legend';
-        title.style.fontWeight = 'bold';
-        title.style.fontSize = '11px';
-        title.style.color = '#666';
-        header.appendChild(title);
-
-        // Controls container
-        const controls = document.createElement('div');
-        controls.style.display = 'flex';
-        controls.style.gap = '4px';
-
-        // Minimize/maximize button
-        const minimizeBtn = document.createElement('button');
-        minimizeBtn.className = 'legend-minimize-btn';
-        minimizeBtn.textContent = minimized ? '+' : '−';
-        Object.assign(minimizeBtn.style, {
-            background: 'none',
-            border: 'none',
-            cursor: 'pointer',
-            fontSize: '14px',
-            padding: '0 4px',
-            color: '#666',
-            lineHeight: '1'
-        });
-        minimizeBtn.title = minimized ? 'Maximize' : 'Minimize';
-        minimizeBtn.addEventListener('mouseenter', () => minimizeBtn.style.color = '#000');
-        minimizeBtn.addEventListener('mouseleave', () => minimizeBtn.style.color = '#666');
-        controls.appendChild(minimizeBtn);
-
-        header.appendChild(controls);
-        fixedLegend.appendChild(header);
-
-        // Content area
-        const content = document.createElement('div');
-        content.className = 'fixed-legend-content';
-        content.style.display = minimized ? 'none' : 'block';
-        fixedLegend.appendChild(content);
 
         // Add to chart box
         chartBox.appendChild(fixedLegend);
 
         // Make draggable
-        this.makeDraggable(fixedLegend, header, chartBox);
-
-        // Handle minimize/maximize
-        minimizeBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const isMinimized = content.style.display === 'none';
-            content.style.display = isMinimized ? 'block' : 'none';
-            minimizeBtn.textContent = isMinimized ? '−' : '+';
-            minimizeBtn.title = isMinimized ? 'Minimize' : 'Maximize';
-
-            // Store state
-            if (fixedLegend._onStateChange) {
-                fixedLegend._onStateChange({ minimized: !isMinimized });
-            }
-        });
-
-        // Store references
-        fixedLegend._header = header;
-        fixedLegend._content = content;
-        fixedLegend._minimizeBtn = minimizeBtn;
+        this.makeDraggable(fixedLegend, fixedLegend, chartBox);
 
         return fixedLegend;
     },
@@ -188,8 +113,7 @@ window.ChartFixedLegend = {
             getName = (t) => t
         } = options;
 
-        const content = fixedLegend._content;
-        if (!content) return;
+        if (!fixedLegend) return;
 
         const formatter = useRaw ? this.formatPrice : this.formatPct;
 
@@ -211,13 +135,10 @@ window.ChartFixedLegend = {
         rows.sort((a, b) => b.value - a.value);
 
         html = rows.map(({ label, value, color }) => {
-            return `<div style="margin: 2px 0; white-space: nowrap;">
-                <span style="color: ${color}; font-weight: bold;">${label}</span>:
-                <span>${formatter(value)}</span>
-            </div>`;
+            return `<div><span style="color: ${color}; font-weight: bold;">${label}</span>: ${formatter(value)}</div>`;
         }).join('');
 
-        content.innerHTML = html || '<div style="color: #999; font-style: italic;">No data</div>';
+        fixedLegend.innerHTML = html || '<div style="color: #999; font-style: italic;">No data</div>';
     },
 
     /**

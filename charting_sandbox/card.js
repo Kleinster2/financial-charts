@@ -52,7 +52,6 @@
             showZeroLine: !!card._showZeroLine,
             showFixedLegend: !!card._showFixedLegend,
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
-            fixedLegendMinimized: !!card._fixedLegendMinimized,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
         }));
@@ -91,8 +90,7 @@
                 height: arguments[13] || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                 fontSize: arguments[14] || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                 showFixedLegend: arguments[15] || false,
-                fixedLegendPos: arguments[16] || { x: 10, y: 10 },
-                fixedLegendMinimized: arguments[17] || false
+                fixedLegendPos: arguments[16] || { x: 10, y: 10 }
             };
         } else {
             options = optionsOrTickers || {};
@@ -116,8 +114,7 @@
             height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
             fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showFixedLegend: initialShowFixedLegend = false,
-            fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
-            fixedLegendMinimized: initialFixedLegendMinimized = false
+            fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 }
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -235,7 +232,6 @@
         card._showZeroLine = showZeroLine;
         card._showFixedLegend = showFixedLegend;
         card._fixedLegendPos = initialFixedLegendPos;
-        card._fixedLegendMinimized = initialFixedLegendMinimized;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
         card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
@@ -490,6 +486,14 @@
 
                         // If hovering, show crosshair values; otherwise show latest
                         if (param && param.point && param.time !== undefined) {
+                            // Get current visible range
+                            let visibleRange = null;
+                            try {
+                                visibleRange = chart.timeScale().getVisibleRange();
+                            } catch (e) {
+                                console.warn('[FixedLegend] Could not get visible range:', e);
+                            }
+
                             const legendData = [];
                             const time = param.time !== undefined ?
                                 (typeof param.time === 'string' ? Date.parse(param.time)/1000 : param.time) : null;
@@ -497,10 +501,19 @@
                             selectedTickers.forEach(ticker => {
                                 if (hiddenTickers.has(ticker)) return;
 
-                                // Get value at crosshair time
+                                // Get data array
                                 const dataArray = useRaw ? rawPriceMap.get(ticker) : latestRebasedData[ticker];
                                 if (!dataArray) return;
 
+                                // If we have a visible range, check if ticker has any data points in that range
+                                if (visibleRange && visibleRange.from && visibleRange.to) {
+                                    const hasVisibleData = dataArray.some(point =>
+                                        point.time >= visibleRange.from && point.time <= visibleRange.to
+                                    );
+                                    if (!hasVisibleData) return; // Skip this ticker if it has no visible data
+                                }
+
+                                // Get value at crosshair time
                                 const point = dataArray.find(p => p.time === time);
                                 if (point && point.value != null) {
                                     legendData.push({
@@ -800,6 +813,10 @@
                         card._visibleRange = { from, to };
                         console.log(`[RangeSave:${cardId}] Visible time range changed => from ${from}, to ${to}`);
                         debouncedSaveCards();
+                        // Update fixed legend when range changes
+                        if (showFixedLegend) {
+                            updateFixedLegend();
+                        }
                     }
                 };
                 chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
@@ -1164,8 +1181,7 @@
                     if (!fixedLegendEl) {
                         fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
                             initialX: card._fixedLegendPos?.x || 10,
-                            initialY: card._fixedLegendPos?.y || 10,
-                            minimized: card._fixedLegendMinimized || false
+                            initialY: card._fixedLegendPos?.y || 10
                         });
 
                         // Setup state change handler
@@ -1175,9 +1191,6 @@
                                     x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
                                     y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
                                 };
-                            }
-                            if (changes.minimized !== undefined) {
-                                card._fixedLegendMinimized = changes.minimized;
                             }
                             debouncedSaveCards();
                         };
@@ -1204,14 +1217,33 @@
         function updateFixedLegend() {
             if (!showFixedLegend || !fixedLegendEl) return;
 
+            // Get current visible range
+            let visibleRange = null;
+            if (chart && chart.timeScale) {
+                try {
+                    visibleRange = chart.timeScale().getVisibleRange();
+                } catch (e) {
+                    console.warn('[FixedLegend] Could not get visible range:', e);
+                }
+            }
+
             const legendData = [];
             selectedTickers.forEach(ticker => {
                 if (hiddenTickers.has(ticker)) return;
 
-                // Get latest value
+                // Get data array
                 const dataArray = useRaw ? rawPriceMap.get(ticker) : latestRebasedData[ticker];
                 if (!dataArray || dataArray.length === 0) return;
 
+                // If we have a visible range, check if ticker has any data points in that range
+                if (visibleRange && visibleRange.from && visibleRange.to) {
+                    const hasVisibleData = dataArray.some(point =>
+                        point.time >= visibleRange.from && point.time <= visibleRange.to
+                    );
+                    if (!hasVisibleData) return; // Skip this ticker if it has no visible data
+                }
+
+                // Get latest value
                 const latestPoint = dataArray[dataArray.length - 1];
                 if (latestPoint && latestPoint.value != null) {
                     legendData.push({
@@ -1397,8 +1429,7 @@
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                             !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 },
-                            !!c.fixedLegendMinimized
+                            c.fixedLegendPos || { x: 10, y: 10 }
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
@@ -1436,8 +1467,7 @@
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                             !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 },
-                            !!c.fixedLegendMinimized
+                            c.fixedLegendPos || { x: 10, y: 10 }
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
