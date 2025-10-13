@@ -52,6 +52,7 @@
             showZeroLine: !!card._showZeroLine,
             showFixedLegend: !!card._showFixedLegend,
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
+            fixedLegendSize: card._fixedLegendSize || null,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
         }));
@@ -90,7 +91,8 @@
                 height: arguments[13] || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                 fontSize: arguments[14] || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                 showFixedLegend: arguments[15] || false,
-                fixedLegendPos: arguments[16] || { x: 10, y: 10 }
+                fixedLegendPos: arguments[16] || { x: 10, y: 10 },
+                fixedLegendSize: arguments[17] || null
             };
         } else {
             options = optionsOrTickers || {};
@@ -114,7 +116,8 @@
             height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
             fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showFixedLegend: initialShowFixedLegend = false,
-            fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 }
+            fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
+            fixedLegendSize: initialFixedLegendSize = null
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -232,6 +235,7 @@
         card._showZeroLine = showZeroLine;
         card._showFixedLegend = showFixedLegend;
         card._fixedLegendPos = initialFixedLegendPos;
+        card._fixedLegendSize = initialFixedLegendSize;
         card._height = initialHeight;
         card._fontSize = initialFontSize;
         card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
@@ -734,7 +738,7 @@
                                 let volumeSeries = volumeSeriesMap.get(ticker);
                                 if (!volumeSeries) {
                                     console.log(`[VolumePane] Creating new volume series for ${ticker}`);
-                                    if (volumePane && typeof volumePane.addSeries === 'function') {
+                                    if (volumePane && chart) {
                                         volumeSeries = volumePane.addSeries(LightweightCharts.LineSeries, {
                                             color: color,
                                             lineWidth: 1,
@@ -759,7 +763,7 @@
                                         volumeSeriesMap.set(ticker, volumeSeries);
                                         console.log(`[VolumePane] Series created for ${ticker} with logarithmic scale`);
                                     } else {
-                                        console.error(`[VolumePane] volumePane does not have addSeries method`);
+                                        console.error(`[VolumePane] volumePane or chart is not available`);
                                         return;
                                     }
                                 } else {
@@ -931,8 +935,42 @@
             } finally {
                 // Update zero line if it's enabled
                 setTimeout(() => updateZeroLine(), 100);
-                // Update fixed legend if it's enabled
-                setTimeout(() => updateFixedLegend(), 100);
+
+                // Restore/create fixed legend if it was enabled before
+                setTimeout(() => {
+                    if (showFixedLegend && !fixedLegendEl) {
+                        console.log(`[Card:${cardId}] Restoring fixed legend after plot`);
+                        fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
+                            initialX: card._fixedLegendPos?.x || 10,
+                            initialY: card._fixedLegendPos?.y || 10,
+                            initialWidth: card._fixedLegendSize?.width || null,
+                            initialHeight: card._fixedLegendSize?.height || null
+                        });
+
+                        // Setup state change handler
+                        fixedLegendEl._onStateChange = (changes) => {
+                            if (changes.x !== undefined || changes.y !== undefined) {
+                                card._fixedLegendPos = {
+                                    x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
+                                    y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
+                                };
+                            }
+                            if (changes.width !== undefined || changes.height !== undefined) {
+                                card._fixedLegendSize = {
+                                    width: changes.width !== undefined ? changes.width : card._fixedLegendSize?.width || null,
+                                    height: changes.height !== undefined ? changes.height : card._fixedLegendSize?.height || null
+                                };
+                            }
+                            debouncedSaveCards();
+                        };
+
+                        // Show it
+                        window.ChartFixedLegend.show(fixedLegendEl);
+                    }
+
+                    // Update fixed legend if it's enabled
+                    updateFixedLegend();
+                }, 100);
             }
         }
 
@@ -1181,7 +1219,9 @@
                     if (!fixedLegendEl) {
                         fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
                             initialX: card._fixedLegendPos?.x || 10,
-                            initialY: card._fixedLegendPos?.y || 10
+                            initialY: card._fixedLegendPos?.y || 10,
+                            initialWidth: card._fixedLegendSize?.width || null,
+                            initialHeight: card._fixedLegendSize?.height || null
                         });
 
                         // Setup state change handler
@@ -1190,6 +1230,12 @@
                                 card._fixedLegendPos = {
                                     x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
                                     y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
+                                };
+                            }
+                            if (changes.width !== undefined || changes.height !== undefined) {
+                                card._fixedLegendSize = {
+                                    width: changes.width !== undefined ? changes.width : card._fixedLegendSize?.width || null,
+                                    height: changes.height !== undefined ? changes.height : card._fixedLegendSize?.height || null
                                 };
                             }
                             debouncedSaveCards();
@@ -1429,7 +1475,8 @@
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                             !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 }
+                            c.fixedLegendPos || { x: 10, y: 10 },
+                            c.fixedLegendSize || null
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
@@ -1467,7 +1514,8 @@
                             c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
                             c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                             !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 }
+                            c.fixedLegendPos || { x: 10, y: 10 },
+                            c.fixedLegendSize || null
                         );
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
@@ -1493,7 +1541,7 @@
                         c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
                         !!c.showFixedLegend,
                         c.fixedLegendPos || { x: 10, y: 10 },
-                        !!c.fixedLegendMinimized
+                        c.fixedLegendSize || null
                     );
                 });
                 // Push local state to server to sync

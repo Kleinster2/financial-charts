@@ -118,6 +118,133 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "CRCL", "CRON",
 ]
 
+# Mining and rare earth elements equities
+MINING_RARE_EARTH_STOCKS = [
+    "TMC",    # The Metals Company
+    "UAMY",   # United States Antimony Corporation
+    "USAR",   # American Resources Corporation
+    "NB",     # NioCorp Developments
+    "IDR",    # Idaho Strategic Resources
+    "MP",     # MP Materials (rare earths)
+    "UUUU",   # Energy Fuels (uranium & rare earths)
+    "CRML",   # Critical Metals Corp
+    "TMQ",    # Trilogy Metals
+    "AREC",   # American Resources Corporation
+    "TMRC",   # Tectonic Metals
+    "REEMF",  # Rare Element Resources
+    "ERO",    # Ero Copper
+    "PPTA",   # Perpetua Resources
+    "LEU",    # Centrus Energy (uranium enrichment)
+    "DNN",    # Denison Mines (uranium)
+    "GROY",   # Gold Royalty Corp
+    "NOVRF",  # NovaTech
+    "UROY",   # Uranium Royalty Corp
+]
+
+# Battery and energy storage equities
+BATTERY_ENERGY_STORAGE_STOCKS = [
+    # Battery manufacturers & materials
+    "ALB",    # Albemarle (lithium)
+    "SQM",    # Sociedad Quimica y Minera (lithium)
+    "LAC",    # Lithium Americas
+    "LTHM",   # Livent (lithium)
+    "STLHF",  # Standard Lithium
+    "PLL",    # Piedmont Lithium
+    "LTBR",   # Lightbridge Corp
+    "QS",     # QuantumScape (solid-state batteries)
+    "CBAT",   # CBAK Energy Technology
+    "ABML",   # American Battery Technology
+    "FREYR",  # FREYR Battery
+    # Energy storage systems
+    "SEDG",   # SolarEdge Technologies
+    "ENPH",   # Enphase Energy
+    "STEM",   # Stem Inc
+    "FLNC",   # Fluence Energy
+    "ENVX",   # Enovix (battery tech)
+    "EOSE",   # Eos Energy Enterprises
+    # Graphite & battery materials
+    "NOVRF",  # Nouveau Monde Graphite
+    "SYAAF",  # Syrah Resources (graphite)
+    "GPH",    # Graphite One
+]
+
+# Nuclear energy and uranium equities
+NUCLEAR_ENERGY_STOCKS = [
+    # Uranium miners
+    "CCJ",    # Cameco Corporation
+    "UUUU",   # Energy Fuels (also rare earths)
+    "DNN",    # Denison Mines
+    "URG",    # Ur-Energy
+    "UEC",    # Uranium Energy Corp
+    "UROY",   # Uranium Royalty Corp
+    "LEU",    # Centrus Energy (enrichment)
+    "PALAF",  # Paladin Energy
+    "BQSSF",  # Boss Energy
+    "EU",     # enCore Energy
+    # Nuclear technology & SMRs
+    "SMR",    # NuScale Power (small modular reactors)
+    "OKLO",   # Oklo Inc (advanced nuclear)
+    "NNE",    # Nano Nuclear Energy
+    "BWXT",   # BWX Technologies
+    "GE",     # General Electric (nuclear division)
+    "LTBR",   # Lightbridge Corp (nuclear fuel)
+]
+
+# Artificial Intelligence and semiconductor equities (beyond mega caps)
+AI_SEMICONDUCTOR_STOCKS = [
+    "ARM",    # ARM Holdings
+    "AVGO",   # Broadcom (already in S&P probably)
+    "MRVL",   # Marvell Technology
+    "INTC",   # Intel
+    "AMD",    # AMD (already in S&P probably)
+    "QCOM",   # Qualcomm
+    "TSM",    # Taiwan Semiconductor (ADR)
+    "ASML",   # ASML Holding (ADR)
+    "AMAT",   # Applied Materials
+    "LRCX",   # Lam Research
+    "KLAC",   # KLA Corporation
+    "NVDA",   # NVIDIA (already in S&P)
+    "SMCI",   # Super Micro Computer
+    "DELL",   # Dell Technologies
+    "HPE",    # Hewlett Packard Enterprise
+    "SOUN",   # SoundHound AI
+    "AI",     # C3.ai
+    "BBAI",   # BigBear.ai
+    "PATH",   # UiPath
+    "SNOW",   # Snowflake
+]
+
+# Space and aerospace equities
+SPACE_AEROSPACE_STOCKS = [
+    "RKLB",   # Rocket Lab
+    "ASTS",   # AST SpaceMobile
+    "PL",     # Planet Labs
+    "SPIR",   # Spire Global
+    "BKSY",   # BlackSky Technology
+    "LUNR",   # Intuitive Machines
+    "VORB",   # Virgin Orbit (if still trading)
+    "AJRD",   # Aerojet Rocketdyne (now part of L3Harris)
+    "LHX",    # L3Harris Technologies
+    "HEI",    # HEICO Corporation
+    "TDG",    # TransDigm Group
+]
+
+# Defense and military technology equities
+DEFENSE_STOCKS = [
+    "LMT",    # Lockheed Martin
+    "RTX",    # Raytheon Technologies
+    "NOC",    # Northrop Grumman
+    "GD",     # General Dynamics
+    "BA",     # Boeing
+    "HII",    # Huntington Ingalls
+    "LHX",    # L3Harris Technologies
+    "TXT",    # Textron
+    "PLTR",   # Palantir (defense AI)
+    "AVAV",   # AeroVironment (drones)
+    "KTOS",   # Kratos Defense
+    "IRDM",   # Iridium Communications
+]
+
 # Crypto-exposed equities (miners, exchanges, infrastructure)
 CRYPTO_STOCKS = [
     # Miners
@@ -300,7 +427,9 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Build asset groups
         groups = {
             'stocks': [t for t in sorted(list(set(
-                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS + ADTECH_STOCKS + BIOTECH_STOCKS
+                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
+                ADTECH_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
+                NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
             'adrs': ADR_TICKERS,
