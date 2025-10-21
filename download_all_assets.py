@@ -139,6 +139,7 @@ MINING_RARE_EARTH_STOCKS = [
     "GROY",   # Gold Royalty Corp
     "NOVRF",  # NovaTech
     "UROY",   # Uranium Royalty Corp
+    "LYC.AX", # Lynas Rare Earths (Australia)
 ]
 
 # Battery and energy storage equities

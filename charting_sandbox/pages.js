@@ -232,8 +232,13 @@
     switchTo(pageEl);
 
     // create a blank chart card inside this wrapper
-    if (typeof createChartCard === 'function') {
-      createChartCard('', false, false, true, false, {}, [], null, '', true, wrapper);
+    if (typeof window.createChartCard === 'function') {
+      // Create an empty chart with default ticker (SPY)
+      window.createChartCard({
+        tickers: 'SPY',
+        wrapperEl: wrapper,
+        title: ''
+      });
       if(window.saveCards) window.saveCards();
       savePages();
     } else {

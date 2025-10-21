@@ -13,7 +13,7 @@ This project collects and serves multi-asset daily market data (stocks, ETFs, fu
 
 This repo includes three components:
 
--  __Data Collection__ (`update_market_data.py`, formerly `download_sp500.py`): Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
+-  __Data Collection__ (`update_market_data.py`, `download_all_assets.py`): Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
 -  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
 -  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
 
@@ -70,7 +70,7 @@ python update_market_data.py --quiet
 
 Notes:
 - Futures are handled via a dedicated module (`download_futures.py`), invoked by the orchestrator when `--assets futures` is selected.
-- For non-futures groups, the orchestrator routes to `download_sp500.update_sp500_data(assets=...)` and preserves existing DB columns on partial updates.
+- For non-futures groups, the orchestrator routes to `download_all_assets.update_sp500_data(assets=...)` and preserves existing DB columns on partial updates.
 
 ## ETF metadata population and auto-fill
 

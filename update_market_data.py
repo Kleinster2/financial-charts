@@ -5,7 +5,7 @@ Update market data and store it in the SQLite database.
 This script is the stable entry point and orchestrator. It supports selecting
 which asset groups to update via --assets and controls verbosity via --verbose/--quiet.
 It delegates to:
- - download_sp500.update_sp500_data() for stocks/ETFs/ADRs/FX/crypto
+ - download_all_assets.update_sp500_data() for stocks/ETFs/ADRs/FX/crypto
  - download_futures.update_futures_data() for futures
 """
 import argparse
@@ -13,7 +13,7 @@ import time
 from datetime import datetime
 
 from constants import DB_PATH
-from download_sp500 import update_sp500_data
+from download_all_assets import update_sp500_data
 from download_futures import update_futures_data
 
 
