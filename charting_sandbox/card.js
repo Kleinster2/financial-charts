@@ -43,6 +43,9 @@
             showAvg: !!card._showAvg,
             showVol: !!card._showVol,
             showVolume: !!card._showVolume,
+            showRevenue: !!card._showRevenue,
+            showFundamentalsPane: !!card._showFundamentalsPane,
+            fundamentalsMetrics: card._fundamentalsMetrics || ['revenue', 'netincome'],
             multipliers: Object.fromEntries(card._multiplierMap ? Array.from(card._multiplierMap.entries()) : []),
             hidden: Array.from(card._hiddenTickers || []),
             range: card._visibleRange || null,
@@ -54,7 +57,9 @@
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
             fixedLegendSize: card._fixedLegendSize || null,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
-            fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12)
+            fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            showNotes: !!card._showNotes,
+            notes: card._notes || ''
         }));
 
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -105,6 +110,9 @@
             showAvg: initialShowAvg = false,
             showVol: initialShowVol = false,
             showVolume: initialShowVolume = false,
+            showRevenue: initialShowRevenue = false,
+            showFundamentalsPane: initialShowFundamentalsPane = false,
+            fundamentalsMetrics: initialFundamentalsMetrics = ['revenue', 'netincome'],
             useRaw: initialUseRaw = false,
             multipliers: initialMultipliers = {},
             hidden: initialHidden = [],
@@ -117,7 +125,9 @@
             fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showFixedLegend: initialShowFixedLegend = false,
             fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
-            fixedLegendSize: initialFixedLegendSize = null
+            fixedLegendSize: initialFixedLegendSize = null,
+            showNotes: initialShowNotes = false,
+            notes: initialNotes = ''
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -183,14 +193,17 @@
 
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
-        const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn } = elements;
+        const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
         let showAvg = initialShowAvg;
         let showVolPane = initialShowVol;  // Volatility pane
         let showVolumePane = initialShowVolume;  // Trading volume pane
+        let showRevenuePane = initialShowRevenue;  // Revenue pane
+        let showFundamentalsPane = initialShowFundamentalsPane;  // Fundamentals pane
+        let fundamentalsMetrics = initialFundamentalsMetrics;  // Active metrics
         let useRaw = initialUseRaw;
         let lastLabelVisible = initialLastLabelVisible;
         let showZeroLine = initialShowZeroLine;
@@ -198,6 +211,8 @@
         let chart = null;
         let volPane = null;  // Volatility pane
         let volumePane = null;  // Trading volume pane
+        let revenuePane = null;  // Revenue pane
+        let fundamentalsPane = null;  // Fundamentals pane
         let avgSeries = null;
         let zeroLineSeries = null;
         let fixedLegendEl = null;
@@ -216,6 +231,8 @@
         const priceSeriesMap = new Map();
         const volSeriesMap = new Map();
         const volumeSeriesMap = new Map();
+        const revenueSeriesMap = new Map();
+        const fundamentalSeriesMap = new Map();
         const rawPriceMap = new Map();
         const latestRebasedData = {};
         let colorIndex = 0;
@@ -226,6 +243,9 @@
         card._showAvg = showAvg;
         card._showVol = showVolPane;
         card._showVolume = showVolumePane;
+        card._showRevenue = showRevenuePane;
+        card._showFundamentalsPane = showFundamentalsPane;
+        card._fundamentalsMetrics = fundamentalsMetrics;
         card._useRaw = useRaw;
         card._multiplierMap = multiplierMap;
         card._hiddenTickers = hiddenTickers;
@@ -239,6 +259,14 @@
         card._height = initialHeight;
         card._fontSize = initialFontSize;
         card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
+        card._showNotes = initialShowNotes;
+        card._notes = initialNotes;
+
+        // Initialize notes UI
+        if (notesSection && notesTextarea) {
+            notesSection.style.display = initialShowNotes ? 'block' : 'none';
+            notesTextarea.value = initialNotes;
+        }
 
         // Compute min/max time across currently visible tickers with loaded data
         function getCurrentDataRange() {
@@ -359,7 +387,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
+            showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -650,11 +678,13 @@
                     }
 
                     // Final range restoration after all volume operations
-                    if (rangeBeforeVol) {
+                    if (rangeBeforeVol && !card._skipRangeRestoration) {
                         try {
                             chart.timeScale().setVisibleRange(rangeBeforeVol);
                             console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVol.from + ', to ' + rangeBeforeVol.to);
                         } catch (_) {}
+                    } else if (card._skipRangeRestoration) {
+                        console.log('[Plot] Skipping vol pane range restoration (manual range was set)');
                     }
 
                     // Resubscribe to range changes
@@ -782,11 +812,228 @@
                     await Promise.all(volumePromises);
 
                     // Final range restoration after all volume operations
-                    if (rangeBeforeVolume) {
+                    if (rangeBeforeVolume && !card._skipRangeRestoration) {
                         try {
                             chart.timeScale().setVisibleRange(rangeBeforeVolume);
                             console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
                         } catch (_) {}
+                    } else if (card._skipRangeRestoration) {
+                        console.log('[Plot] Skipping volume pane range restoration (manual range was set)');
+                    }
+
+                    // Resubscribe to range changes
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+                }
+
+                // Revenue pane
+                if (showRevenuePane) {
+                    // Use saved range from card._visibleRange
+                    let rangeBeforeRevenue = card._visibleRange;
+                    if (rangeBeforeRevenue) {
+                        console.log(`[Plot] Using saved range for revenue ops: from ${rangeBeforeRevenue.from}, to ${rangeBeforeRevenue.to}`);
+                    }
+
+                    // Temporarily unsubscribe from range changes during revenue operations
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+
+                    // Create revenue pane
+                    if (!revenuePane) {
+                        const stretchFactor = card._revenuePaneStretchFactor || 1.0;
+                        console.log(`[RevenuePane] Creating pane with stretch factor: ${stretchFactor}`);
+                        revenuePane = chart.addPane();
+
+                        // Set stretch factor to make this pane taller
+                        if (typeof revenuePane.setStretchFactor === 'function') {
+                            revenuePane.setStretchFactor(stretchFactor);
+                            console.log(`[RevenuePane] Set stretch factor to ${stretchFactor}`);
+                        } else {
+                            console.warn('[RevenuePane] setStretchFactor not available');
+                        }
+
+                        // Restore range if provided
+                        if (rangeBeforeRevenue && rangeBeforeRevenue.from && rangeBeforeRevenue.to) {
+                            try {
+                                chart.timeScale().setVisibleRange(rangeBeforeRevenue);
+                                console.log('[RevenuePane] Restored range after pane creation: from ' + rangeBeforeRevenue.from + ', to ' + rangeBeforeRevenue.to);
+                            } catch (e) {
+                                console.warn('[RevenuePane] Could not restore range:', e);
+                            }
+                        }
+                    }
+
+                    // Fetch and plot revenue data for each ticker
+                    const revenuePromises = tickerList
+                        .filter(ticker => !hiddenTickers.has(ticker))
+                        .map(async (ticker) => {
+                            try {
+                                console.log(`[RevenuePane] Fetching revenue data for ${ticker}`);
+
+                                // Fetch revenue data from API
+                                const response = await fetch(`/api/revenue?tickers=${ticker}`);
+                                if (!response.ok) {
+                                    console.warn(`[RevenuePane] Failed to fetch revenue for ${ticker}: ${response.status}`);
+                                    return;
+                                }
+
+                                const revenueData = await response.json();
+                                if (!revenueData || !revenueData[ticker]) {
+                                    console.warn(`[RevenuePane] No revenue data received for ${ticker}`);
+                                    return;
+                                }
+
+                                const tickerRevenueData = revenueData[ticker];
+
+                                // API returns array of {time, value} objects
+                                if (!Array.isArray(tickerRevenueData) || tickerRevenueData.length === 0) {
+                                    console.warn(`[RevenuePane] Invalid or empty revenue data for ${ticker}`);
+                                    return;
+                                }
+
+                                // Filter out null values
+                                const formattedData = tickerRevenueData.filter(d => d.value != null);
+
+                                const color = tickerColorMap.get(ticker) || '#000000';
+
+                                // Create or update revenue series
+                                let revenueSeries = revenueSeriesMap.get(ticker);
+                                if (!revenueSeries) {
+                                    console.log(`[RevenuePane] Creating new revenue series for ${ticker}`);
+                                    if (revenuePane && chart) {
+                                        revenueSeries = revenuePane.addSeries(LightweightCharts.LineSeries, {
+                                            color: color,
+                                            lineWidth: 2,
+                                            priceLineVisible: false,
+                                            lastValueVisible: lastLabelVisible,
+                                            priceScaleId: 'right',
+                                            priceFormat: {
+                                                type: 'volume'
+                                            }
+                                        });
+
+                                        // Configure the price scale for logarithmic mode
+                                        revenueSeries.priceScale().applyOptions({
+                                            mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                                            autoScale: true,
+                                            scaleMargins: {
+                                                top: 0.1,
+                                                bottom: 0.1
+                                            }
+                                        });
+
+                                        revenueSeriesMap.set(ticker, revenueSeries);
+                                        console.log(`[RevenuePane] Series created for ${ticker} with logarithmic scale`);
+                                    } else {
+                                        console.error(`[RevenuePane] revenuePane or chart is not available`);
+                                        return;
+                                    }
+                                } else {
+                                    console.log(`[RevenuePane] Updating existing revenue series for ${ticker}`);
+                                    revenueSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+                                }
+
+                                revenueSeries.setData(formattedData);
+                                console.log(`[RevenuePane] Data set successfully for ${ticker}, ${formattedData.length} quarters`);
+                            } catch (error) {
+                                console.error(`[RevenuePane] Failed to fetch/plot revenue for ${ticker}:`, error);
+                            }
+                        });
+
+                    // Wait for all revenue data to be fetched and plotted
+                    await Promise.all(revenuePromises);
+
+                    // Final range restoration after all revenue operations
+                    if (rangeBeforeRevenue && !card._skipRangeRestoration) {
+                        try {
+                            chart.timeScale().setVisibleRange(rangeBeforeRevenue);
+                            console.log('[Plot] Final range restoration after revenue pane operations: from ' + rangeBeforeRevenue.from + ', to ' + rangeBeforeRevenue.to);
+                        } catch (_) {}
+                    } else if (card._skipRangeRestoration) {
+                        console.log('[Plot] Skipping revenue pane range restoration (manual range was set)');
+                    }
+
+                    // Resubscribe to range changes
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+                }
+
+                // Fundamentals pane
+                if (showFundamentalsPane && window.FundamentalsPane) {
+                    // Use saved range from card._visibleRange
+                    let rangeBeforeFundamentals = card._visibleRange;
+                    if (rangeBeforeFundamentals) {
+                        console.log(`[Plot] Using saved range for fundamentals ops: from ${rangeBeforeFundamentals.from}, to ${rangeBeforeFundamentals.to}`);
+                    }
+
+                    // Temporarily unsubscribe from range changes during fundamentals operations
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) {}
+                    }
+
+                    // Create fundamentals pane
+                    if (!fundamentalsPane) {
+                        const stretchFactor = card._fundamentalsPaneStretchFactor || 1.0;
+                        console.log(`[FundamentalsPane] Creating pane with stretch factor: ${stretchFactor}`);
+                        fundamentalsPane = chart.addPane();
+
+                        // Set stretch factor to make this pane taller
+                        if (typeof fundamentalsPane.setStretchFactor === 'function') {
+                            fundamentalsPane.setStretchFactor(stretchFactor);
+                            console.log(`[FundamentalsPane] Set stretch factor to ${stretchFactor}`);
+                        } else {
+                            console.warn('[FundamentalsPane] setStretchFactor not available');
+                        }
+
+                        // Restore range if provided
+                        if (rangeBeforeFundamentals && rangeBeforeFundamentals.from && rangeBeforeFundamentals.to) {
+                            try {
+                                chart.timeScale().setVisibleRange(rangeBeforeFundamentals);
+                                console.log('[FundamentalsPane] Restored range after pane creation');
+                            } catch (e) {
+                                console.warn('[FundamentalsPane] Could not restore range:', e);
+                            }
+                        }
+                    }
+
+                    // Plot fundamentals using the FundamentalsPane module
+                    try {
+                        const hiddenTickersMap = {};
+                        hiddenTickers.forEach(ticker => { hiddenTickersMap[ticker] = true; });
+
+                        await window.FundamentalsPane.plot(
+                            fundamentalsPane,
+                            tickerList,
+                            fundamentalsMetrics,
+                            fundamentalSeriesMap,
+                            hiddenTickersMap
+                        );
+                        console.log(`[FundamentalsPane] Plotted ${tickerList.length} tickers with ${fundamentalsMetrics.length} metrics`);
+                    } catch (error) {
+                        console.error('[FundamentalsPane] Error plotting fundamentals:', error);
+                    }
+
+                    // Final range restoration after all fundamentals operations
+                    // Skip restoration if we just manually set a new range via dropdown
+                    if (rangeBeforeFundamentals && !card._skipRangeRestoration) {
+                        try {
+                            chart.timeScale().setVisibleRange(rangeBeforeFundamentals);
+                            console.log('[Plot] Final range restoration after fundamentals pane operations');
+                        } catch (_) {}
+                    } else if (card._skipRangeRestoration) {
+                        console.log('[Plot] Skipping range restoration (manual range was set)');
+                        card._skipRangeRestoration = false;  // Reset flag
                     }
 
                     // Resubscribe to range changes
@@ -1093,6 +1340,184 @@
             plot();
         });
 
+        toggleRevenueBtn.addEventListener('click', () => {
+            showRevenuePane = !showRevenuePane;
+            card._showRevenue = showRevenuePane;
+            toggleRevenueBtn.textContent = showRevenuePane ? 'Hide Revenue Pane' : 'Show Revenue Pane';
+
+            // Save current visible range
+            let savedRange = null;
+            if (chart && chart.timeScale) {
+                const visible = chart.timeScale().getVisibleRange();
+                if (visible && visible.from && visible.to) {
+                    savedRange = { from: Math.round(visible.from), to: Math.round(visible.to) };
+                    card._visibleRange = savedRange;
+                }
+            }
+
+            // Destroy and recreate chart (panes are automatically destroyed with the chart)
+            if (chart) {
+                chart.remove();
+                chart = null;
+                revenuePane = null;
+                volumePane = null;
+                volPane = null;
+                priceSeriesMap.clear();
+                volSeriesMap.clear();
+                volumeSeriesMap.clear();
+                revenueSeriesMap.clear();
+            }
+
+            skipRangeApplication = true;
+            saveCards();
+            plot();
+        });
+
+        // Toggle Fundamentals Pane button
+        toggleFundamentalsPaneBtn.addEventListener('click', () => {
+            showFundamentalsPane = !showFundamentalsPane;
+            card._showFundamentalsPane = showFundamentalsPane;
+            toggleFundamentalsPaneBtn.textContent = showFundamentalsPane ? 'Hide Fundamentals Pane' : 'Show Fundamentals Pane';
+
+            // Save current visible range
+            let savedRange = null;
+            if (chart && chart.timeScale) {
+                const visible = chart.timeScale().getVisibleRange();
+                if (visible && visible.from && visible.to) {
+                    savedRange = { from: Math.round(visible.from), to: Math.round(visible.to) };
+                    card._visibleRange = savedRange;
+                }
+            }
+
+            // Destroy and recreate chart (panes are automatically destroyed with the chart)
+            if (chart) {
+                chart.remove();
+                chart = null;
+                fundamentalsPane = null;
+                revenuePane = null;
+                volumePane = null;
+                volPane = null;
+                priceSeriesMap.clear();
+                volSeriesMap.clear();
+                volumeSeriesMap.clear();
+                revenueSeriesMap.clear();
+                fundamentalSeriesMap.clear();
+            }
+
+            // Show/hide metric buttons based on pane state
+            const metricButtonsDisplay = showFundamentalsPane ? 'inline-block' : 'none';
+            if (toggleRevenueMetricBtn) toggleRevenueMetricBtn.style.display = metricButtonsDisplay;
+            if (toggleNetIncomeMetricBtn) toggleNetIncomeMetricBtn.style.display = metricButtonsDisplay;
+            if (toggleEpsMetricBtn) toggleEpsMetricBtn.style.display = metricButtonsDisplay;
+            if (toggleFcfMetricBtn) toggleFcfMetricBtn.style.display = metricButtonsDisplay;
+
+            skipRangeApplication = true;
+            saveCards();
+            plot();
+        });
+
+        // Helper function to update metric button states
+        function updateMetricButtonStates() {
+            if (toggleRevenueMetricBtn) {
+                toggleRevenueMetricBtn.style.fontWeight = fundamentalsMetrics.includes('revenue') ? 'bold' : 'normal';
+                toggleRevenueMetricBtn.style.opacity = fundamentalsMetrics.includes('revenue') ? '1' : '0.5';
+            }
+            if (toggleNetIncomeMetricBtn) {
+                toggleNetIncomeMetricBtn.style.fontWeight = fundamentalsMetrics.includes('netincome') ? 'bold' : 'normal';
+                toggleNetIncomeMetricBtn.style.opacity = fundamentalsMetrics.includes('netincome') ? '1' : '0.5';
+            }
+            if (toggleEpsMetricBtn) {
+                toggleEpsMetricBtn.style.fontWeight = fundamentalsMetrics.includes('eps') ? 'bold' : 'normal';
+                toggleEpsMetricBtn.style.opacity = fundamentalsMetrics.includes('eps') ? '1' : '0.5';
+            }
+            if (toggleFcfMetricBtn) {
+                toggleFcfMetricBtn.style.fontWeight = fundamentalsMetrics.includes('fcf') ? 'bold' : 'normal';
+                toggleFcfMetricBtn.style.opacity = fundamentalsMetrics.includes('fcf') ? '1' : '0.5';
+            }
+        }
+
+        // Initialize metric button visibility and states
+        if (showFundamentalsPane) {
+            if (toggleRevenueMetricBtn) toggleRevenueMetricBtn.style.display = 'inline-block';
+            if (toggleNetIncomeMetricBtn) toggleNetIncomeMetricBtn.style.display = 'inline-block';
+            if (toggleEpsMetricBtn) toggleEpsMetricBtn.style.display = 'inline-block';
+            if (toggleFcfMetricBtn) toggleFcfMetricBtn.style.display = 'inline-block';
+        }
+        updateMetricButtonStates();
+
+        // Metric toggle buttons
+        if (toggleRevenueMetricBtn) {
+            toggleRevenueMetricBtn.addEventListener('click', () => {
+                const index = fundamentalsMetrics.indexOf('revenue');
+                if (index > -1) {
+                    fundamentalsMetrics.splice(index, 1);
+                } else {
+                    fundamentalsMetrics.push('revenue');
+                }
+                card._fundamentalsMetrics = fundamentalsMetrics;
+                updateMetricButtonStates();
+                saveCards();
+                if (showFundamentalsPane) plot();
+            });
+        }
+
+        if (toggleNetIncomeMetricBtn) {
+            toggleNetIncomeMetricBtn.addEventListener('click', () => {
+                const index = fundamentalsMetrics.indexOf('netincome');
+                if (index > -1) {
+                    fundamentalsMetrics.splice(index, 1);
+                } else {
+                    fundamentalsMetrics.push('netincome');
+                }
+                card._fundamentalsMetrics = fundamentalsMetrics;
+                updateMetricButtonStates();
+                saveCards();
+                if (showFundamentalsPane) plot();
+            });
+        }
+
+        if (toggleEpsMetricBtn) {
+            toggleEpsMetricBtn.addEventListener('click', () => {
+                const index = fundamentalsMetrics.indexOf('eps');
+                if (index > -1) {
+                    fundamentalsMetrics.splice(index, 1);
+                } else {
+                    fundamentalsMetrics.push('eps');
+                }
+                card._fundamentalsMetrics = fundamentalsMetrics;
+                updateMetricButtonStates();
+                saveCards();
+                if (showFundamentalsPane) plot();
+            });
+        }
+
+        if (toggleFcfMetricBtn) {
+            toggleFcfMetricBtn.addEventListener('click', () => {
+                const index = fundamentalsMetrics.indexOf('fcf');
+                if (index > -1) {
+                    fundamentalsMetrics.splice(index, 1);
+                } else {
+                    fundamentalsMetrics.push('fcf');
+                }
+                card._fundamentalsMetrics = fundamentalsMetrics;
+                updateMetricButtonStates();
+                saveCards();
+                if (showFundamentalsPane) plot();
+            });
+        }
+
+        // Show Fundamentals button
+        const showFundamentalsBtn = card.querySelector('.show-fundamentals-btn');
+        if (showFundamentalsBtn) {
+            showFundamentalsBtn.addEventListener('click', () => {
+                if (window.ChartFundamentals && typeof window.ChartFundamentals.toggle === 'function') {
+                    window.ChartFundamentals.toggle(card);
+                } else {
+                    console.error('[Card] ChartFundamentals module not loaded');
+                }
+            });
+        }
+
         toggleRawBtn.addEventListener('click', () => {
             useRaw = !useRaw;
             card._useRaw = useRaw;
@@ -1110,7 +1535,7 @@
                 card._lastLabelVisible = lastLabelVisible;
                 console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible
                 });
                 // Apply to all existing series
                 priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
@@ -1121,6 +1546,10 @@
                 // Apply to volume pane series (trading volume)
                 if (volumePane && volumeSeriesMap) {
                     volumeSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
+                // Apply to revenue pane series
+                if (revenuePane && revenueSeriesMap) {
+                    revenueSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
                 }
                 saveCards();
             });
@@ -1136,7 +1565,7 @@
                 updateZeroLine();
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine
                 });
                 saveCards();
             });
@@ -1253,8 +1682,31 @@
                 }
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
                 });
+                saveCards();
+            });
+        }
+
+        // Toggle Notes Button
+        if (toggleNotesBtn) {
+            toggleNotesBtn.addEventListener('click', () => {
+                const showNotes = notesSection.style.display !== 'none';
+                notesSection.style.display = showNotes ? 'none' : 'block';
+                card._showNotes = !showNotes;
+                card._notes = notesTextarea.value;
+
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane,
+                    useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend,
+                    showNotes: !showNotes
+                });
+                saveCards();
+            });
+
+            // Auto-save notes on input
+            notesTextarea.addEventListener('input', () => {
+                card._notes = notesTextarea.value;
                 saveCards();
             });
         }
@@ -1312,6 +1764,110 @@
             rangeSelect.addEventListener('change', () => {
                 const val = rangeSelect.value;
                 if (!val) return;
+
+                // Temporarily unsubscribe from range changes to prevent interference
+                if (rangeSaveHandler && chart && chart.timeScale) {
+                    try {
+                        chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        console.log('[RangeSelect] Unsubscribed from range changes');
+                    } catch (_) {}
+                }
+
+                // Special case: if selecting 1995 (or any year before 2000), find earliest data across all series
+                if (val === '1995' || (val !== 'ytd' && parseInt(val, 10) < 2000)) {
+                    // Find earliest timestamp across all series (price + fundamentals)
+                    let earliestTime = null;
+
+                    // Check price series
+                    priceSeriesMap.forEach((series, ticker) => {
+                        try {
+                            const data = rawPriceMap.get(ticker);
+                            if (data && data.length > 0 && data[0].time) {
+                                const firstTime = data[0].time;
+                                if (!earliestTime || firstTime < earliestTime) {
+                                    earliestTime = firstTime;
+                                }
+                            }
+                        } catch (e) { /* ignore */ }
+                    });
+
+                    // Check fundamental series
+                    fundamentalSeriesMap.forEach((series, seriesKey) => {
+                        try {
+                            // Get data from the series - LightweightCharts doesn't expose data directly,
+                            // so we need to track it separately or use a different approach
+                            // For now, if we have fundamentals pane, assume it goes back to ~1996
+                            if (showFundamentalsPane && !earliestTime) {
+                                // Use 1996 as earliest for fundamentals (AAPL data goes back to 1996-04-01)
+                                earliestTime = Date.UTC(1996, 0, 1) / 1000;
+                            }
+                        } catch (e) { /* ignore */ }
+                    });
+
+                    // If we have fundamental data showing, use 1996 as earliest
+                    if (showFundamentalsPane && fundamentalSeriesMap.size > 0) {
+                        earliestTime = Date.UTC(1996, 0, 1) / 1000;
+                    }
+
+                    // Default to price data earliest if no fundamentals
+                    if (!earliestTime) {
+                        chart.timeScale().fitContent();
+                        const timeScale = chart.timeScale();
+                        const visibleRange = timeScale.getVisibleRange();
+                        if (visibleRange) {
+                            card._visibleRange = { from: visibleRange.from, to: visibleRange.to };
+                        }
+                        saveCards();
+
+                        // Resubscribe to range changes
+                        if (rangeSaveHandler) {
+                            try {
+                                chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                            } catch (_) {}
+                        }
+                        return;
+                    }
+
+                    // Set flag to skip range restoration in plot functions
+                    card._skipRangeRestoration = true;
+
+                    // For fundamentals, we know the earliest data is 2005-06-30
+                    // Set explicit range to show all fundamental data
+                    const fundamentalsEarliest = Date.UTC(2005, 5, 30) / 1000;  // June 30, 2005
+                    const from = fundamentalsEarliest;
+                    const to = Math.floor(Date.now() / 1000);
+
+                    console.log(`[RangeSelect] Setting explicit range from ${new Date(from * 1000).toISOString()} to ${new Date(to * 1000).toISOString()}`);
+
+                    // Update card state
+                    card._visibleRange = { from, to };
+
+                    // Set the range
+                    chart.timeScale().setVisibleRange({ from, to });
+
+                    // Verify what range was actually set
+                    setTimeout(() => {
+                        const actualRange = chart.timeScale().getVisibleRange();
+                        if (actualRange) {
+                            console.log(`[RangeSelect] Actual visible range after setting: from ${new Date(actualRange.from * 1000).toISOString()} to ${new Date(actualRange.to * 1000).toISOString()}`);
+                            // Update with actual range if different
+                            card._visibleRange = { from: actualRange.from, to: actualRange.to };
+                            saveCards();
+                        }
+                    }, 100);
+
+                    // Resubscribe to range changes AFTER a delay
+                    setTimeout(() => {
+                        if (rangeSaveHandler) {
+                            try {
+                                chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                                console.log('[RangeSelect] Resubscribed to range changes');
+                            } catch (_) {}
+                        }
+                    }, 500);
+                    return;
+                }
+
                 let startYear;
                 if (val === 'ytd') {
                     startYear = new Date().getUTCFullYear();
@@ -1320,10 +1876,21 @@
                 }
                 const from = Date.UTC(startYear, 0, 1) / 1000;
                 const to = Math.floor(Date.now() / 1000);
-                chart.timeScale().setVisibleRange({ from, to });
-                // persist selection
+
+                // Update card state FIRST
                 card._visibleRange = { from, to };
+
+                // Then set the visual range
+                chart.timeScale().setVisibleRange({ from, to });
+
                 saveCards();
+
+                // Resubscribe to range changes
+                if (rangeSaveHandler) {
+                    try {
+                        chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                    } catch (_) {}
+                }
             });
         }
 
@@ -1467,17 +2034,29 @@
                     console.log('[Restore] Loaded legacy workspace (array) from server');
                     ws.forEach(c => {
                         const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                        createChartCard(
-                            Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
-                            c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                            c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
-                            c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                            !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 },
-                            c.fixedLegendSize || null
-                        );
+                        createChartCard({
+                            tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                            showDiff: !!c.showDiff,
+                            showAvg: !!c.showAvg,
+                            showVol: !!c.showVol,
+                            showVolume: !!c.showVolume,
+                            showRevenue: !!c.showRevenue,
+                            useRaw: c.useRaw || false,
+                            multipliers: c.multipliers || {},
+                            hidden: c.hidden || [],
+                            range: c.range || null,
+                            title: c.title || '',
+                            lastLabelVisible: c.lastLabelVisible ?? true,
+                            showZeroLine: c.showZeroLine || false,
+                            wrapperEl: wrapper,
+                            height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                            fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                            showFixedLegend: !!c.showFixedLegend,
+                            fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
+                            fixedLegendSize: c.fixedLegendSize || null,
+                            showNotes: !!c.showNotes,
+                            notes: c.notes || ''
+                        });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
                     return;
@@ -1506,17 +2085,29 @@
                     }
                     cards.forEach(c => {
                         const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                        createChartCard(
-                            Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
-                            c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                            c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
-                            c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                            !!c.showFixedLegend,
-                            c.fixedLegendPos || { x: 10, y: 10 },
-                            c.fixedLegendSize || null
-                        );
+                        createChartCard({
+                            tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                            showDiff: !!c.showDiff,
+                            showAvg: !!c.showAvg,
+                            showVol: !!c.showVol,
+                            showVolume: !!c.showVolume,
+                            showRevenue: !!c.showRevenue,
+                            useRaw: c.useRaw || false,
+                            multipliers: c.multipliers || {},
+                            hidden: c.hidden || [],
+                            range: c.range || null,
+                            title: c.title || '',
+                            lastLabelVisible: c.lastLabelVisible ?? true,
+                            showZeroLine: c.showZeroLine || false,
+                            wrapperEl: wrapper,
+                            height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                            fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                            showFixedLegend: !!c.showFixedLegend,
+                            fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
+                            fixedLegendSize: c.fixedLegendSize || null,
+                            showNotes: !!c.showNotes,
+                            notes: c.notes || ''
+                        });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
                     if (cards.length > 0) return;
@@ -1532,17 +2123,29 @@
                 console.log('[Restore] Loaded workspace from localStorage fallback');
                 stored.forEach(c => {
                     const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                    createChartCard(
-                        Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                        !!c.showDiff, !!c.showAvg, !!c.showVol, !!c.showVolume,
-                        c.useRaw || false, c.multipliers || {}, c.hidden || [], c.range || null,
-                        c.title || '', c.lastLabelVisible ?? true, c.showZeroLine || false, wrapper,
-                        c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                        c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                        !!c.showFixedLegend,
-                        c.fixedLegendPos || { x: 10, y: 10 },
-                        c.fixedLegendSize || null
-                    );
+                    createChartCard({
+                        tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
+                        showDiff: !!c.showDiff,
+                        showAvg: !!c.showAvg,
+                        showVol: !!c.showVol,
+                        showVolume: !!c.showVolume,
+                        showRevenue: !!c.showRevenue,
+                        useRaw: c.useRaw || false,
+                        multipliers: c.multipliers || {},
+                        hidden: c.hidden || [],
+                        range: c.range || null,
+                        title: c.title || '',
+                        lastLabelVisible: c.lastLabelVisible ?? true,
+                        showZeroLine: c.showZeroLine || false,
+                        wrapperEl: wrapper,
+                        height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+                        fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                        showFixedLegend: !!c.showFixedLegend,
+                        fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
+                        fixedLegendSize: c.fixedLegendSize || null,
+                        showNotes: !!c.showNotes,
+                        notes: c.notes || ''
+                    });
                 });
                 // Push local state to server to sync
                 if (window.StateManager && typeof window.StateManager.saveCards === 'function') {

@@ -26,11 +26,25 @@ window.ChartDomBuilder = {
                     <option value="2022">2022</option>
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2015">2015</option>
+                    <option value="2010">2010</option>
+                    <option value="2005">2005</option>
+                    <option value="2000">2000</option>
+                    <option value="1995">All Data (Fit)</option>
                 </select>
                 <button class="fit-btn">Fit</button>
                 <button class="toggle-diff-btn">Show Diff Pane</button>
                 <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
                 <button class="toggle-volume-btn">Show Volume Pane</button>
+                <button class="toggle-revenue-btn">Show Revenue Pane</button>
+                <button class="toggle-fundamentals-pane-btn">Show Fundamentals Pane</button>
+                <button class="toggle-revenue-metric-btn" style="display:none;">Revenue</button>
+                <button class="toggle-netincome-metric-btn" style="display:none;">Net Income</button>
+                <button class="toggle-eps-metric-btn" style="display:none;">EPS</button>
+                <button class="toggle-fcf-metric-btn" style="display:none;">FCF</button>
+                <button class="show-fundamentals-btn">Show Fundamentals</button>
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
@@ -46,9 +60,13 @@ window.ChartDomBuilder = {
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
+                <button class="toggle-notes-btn">Show Notes</button>
             </div>
             <div class="selected-tickers"></div>
             <div class="chart-box" style="height: ${initialHeight}px;"></div>
+            <div class="notes-section" style="display: none; margin-top: 10px;">
+                <textarea class="notes-textarea" placeholder="Add notes about this chart..." style="width: 100%; min-height: 80px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 12px; resize: vertical;"></textarea>
+            </div>
         `;
 
         return card;
@@ -140,11 +158,18 @@ window.ChartDomBuilder = {
             toggleDiffBtn: card.querySelector('.toggle-diff-btn'),
             toggleVolBtn: card.querySelector('.toggle-vol-btn'),
             toggleVolumeBtn: card.querySelector('.toggle-volume-btn'),
+            toggleRevenueBtn: card.querySelector('.toggle-revenue-btn'),
+            toggleFundamentalsPaneBtn: card.querySelector('.toggle-fundamentals-pane-btn'),
+            toggleRevenueMetricBtn: card.querySelector('.toggle-revenue-metric-btn'),
+            toggleNetIncomeMetricBtn: card.querySelector('.toggle-netincome-metric-btn'),
+            toggleEpsMetricBtn: card.querySelector('.toggle-eps-metric-btn'),
+            toggleFcfMetricBtn: card.querySelector('.toggle-fcf-metric-btn'),
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             toggleFixedLegendBtn: card.querySelector('.toggle-fixedlegend-btn'),
+            toggleNotesBtn: card.querySelector('.toggle-notes-btn'),
             heightDownBtn: card.querySelector('.height-decrease-btn'),
             heightUpBtn: card.querySelector('.height-increase-btn'),
             volPaneHeightDownBtn: card.querySelector('.volpane-height-decrease-btn'),
@@ -157,7 +182,9 @@ window.ChartDomBuilder = {
             chartBox: card.querySelector('.chart-box'),
             titleInput: card.querySelector('.title-input'),
             removeCardBtn: card.querySelector('.remove-card-btn'),
-            addChartBtn: card.querySelector('.add-chart-btn')
+            addChartBtn: card.querySelector('.add-chart-btn'),
+            notesSection: card.querySelector('.notes-section'),
+            notesTextarea: card.querySelector('.notes-textarea')
         };
     },
 
@@ -165,8 +192,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn } = elements;
-        const { showDiff, showVol, showVolume, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn } = elements;
+        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend, showNotes } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -176,6 +203,12 @@ window.ChartDomBuilder = {
         }
         if (toggleVolumeBtn) {
             toggleVolumeBtn.textContent = showVolume ? 'Hide Volume Pane' : 'Show Volume Pane';
+        }
+        if (toggleRevenueBtn) {
+            toggleRevenueBtn.textContent = showRevenue ? 'Hide Revenue Pane' : 'Show Revenue Pane';
+        }
+        if (toggleFundamentalsPaneBtn) {
+            toggleFundamentalsPaneBtn.textContent = showFundamentalsPane ? 'Hide Fundamentals Pane' : 'Show Fundamentals Pane';
         }
         if (toggleRawBtn) {
             toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
@@ -191,6 +224,9 @@ window.ChartDomBuilder = {
         }
         if (toggleFixedLegendBtn) {
             toggleFixedLegendBtn.textContent = showFixedLegend ? 'Hide Fixed Legend' : 'Show Fixed Legend';
+        }
+        if (toggleNotesBtn) {
+            toggleNotesBtn.textContent = showNotes ? 'Hide Notes' : 'Show Notes';
         }
     },
 

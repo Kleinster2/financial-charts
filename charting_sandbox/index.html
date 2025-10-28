@@ -26,6 +26,44 @@
     #chart-nav a:hover{text-decoration:underline;}
     #chart-nav a.active{font-weight:bold;}
     .static-legend{display:none !important;}
+    /* Global search styles */
+    #global-search-container{position:relative;flex:0 0 auto;margin-right:12px;}
+    #global-search-input{padding:6px 10px;font-size:0.95rem;border:1px solid #999;border-radius:4px;width:250px;outline:none;}
+    #global-search-input:focus{border-color:#007bff;box-shadow:0 0 0 2px rgba(0,123,255,0.1);}
+    #search-results{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid #ddd;border-top:none;max-height:400px;overflow-y:auto;z-index:1000;box-shadow:0 4px 6px rgba(0,0,0,0.1);display:none;}
+    #search-results.show{display:block;}
+    .search-result-item{padding:8px 12px;cursor:pointer;border-bottom:1px solid #eee;font-size:0.9rem;}
+    .search-result-item:hover{background:#f0f0f0;}
+    .search-result-item:last-child{border-bottom:none;}
+    .search-result-ticker{font-weight:bold;color:#007bff;margin-right:8px;}
+    .search-result-name{color:#666;margin-right:8px;font-size:0.85rem;}
+    .search-result-location{color:#999;font-size:0.8rem;}
+    .search-no-results{padding:12px;text-align:center;color:#999;font-style:italic;}
+    /* Fundamentals panel styles */
+    .fundamentals-panel{background:#f8f9fa;border:1px solid #dee2e6;border-radius:4px;padding:12px;margin-top:8px;display:none;font-size:0.9rem;}
+    .fundamentals-panel.show{display:block;}
+    .fundamentals-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #007bff;}
+    .fundamentals-title{font-size:1.1rem;font-weight:bold;color:#333;}
+    .fundamentals-close{cursor:pointer;font-size:1.2rem;color:#999;padding:0 6px;}
+    .fundamentals-close:hover{color:#333;}
+    .fundamentals-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:12px;}
+    .fundamentals-section{background:#fff;padding:10px;border-radius:4px;border:1px solid #e0e0e0;}
+    .fundamentals-section-title{font-weight:bold;margin-bottom:8px;color:#007bff;font-size:0.95rem;}
+    .fundamentals-metric{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #f0f0f0;}
+    .fundamentals-metric:last-child{border-bottom:none;}
+    .fundamentals-metric-label{color:#666;}
+    .fundamentals-metric-value{font-weight:bold;color:#333;}
+    .fundamentals-metric-value.positive{color:#28a745;}
+    .fundamentals-metric-value.negative{color:#dc3545;}
+    .fundamentals-earnings{margin-top:12px;}
+    .fundamentals-earnings-title{font-weight:bold;margin-bottom:8px;color:#007bff;}
+    .fundamentals-earnings-table{width:100%;border-collapse:collapse;background:#fff;}
+    .fundamentals-earnings-table th{background:#007bff;color:#fff;padding:8px;text-align:left;font-size:0.85rem;}
+    .fundamentals-earnings-table td{padding:6px 8px;border-bottom:1px solid #e0e0e0;font-size:0.85rem;}
+    .fundamentals-earnings-table tr:last-child td{border-bottom:none;}
+    .fundamentals-earnings-table tr:hover{background:#f8f9fa;}
+    .fundamentals-loading{text-align:center;padding:20px;color:#999;}
+    .fundamentals-error{text-align:center;padding:20px;color:#dc3545;}
   </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.9/dist/lightweight-charts.standalone.development.js"></script>
@@ -34,7 +72,14 @@
 </head>
 <body>
   <h2>Lightweight Charts Sandbox</h2>
-  <div id="top-controls"><button id="new-page-btn">New Page</button><div id="tab-bar" class="tab-bar"></div></div>
+  <div id="top-controls">
+    <div id="global-search-container">
+      <input type="text" id="global-search-input" placeholder="Search tickers or companies...">
+      <div id="search-results"></div>
+    </div>
+    <button id="new-page-btn">New Page</button>
+    <div id="tab-bar" class="tab-bar"></div>
+  </div>
   <nav id="chart-nav"></nav>
   <div id="pages-container">
     <div class="page" data-page="1">
@@ -51,13 +96,16 @@
   <script src="chart-export.js?v=3"></script>
   <script src="chart-series-manager.js?v=4"></script>
   <script src="chart-volume.js?v=4"></script>
-  <script src="chart-dom-builder.js?v=5"></script>
+  <script src="chart-dom-builder.js?v=8"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="card-state.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>
   <script src="chart-event-handlers.js?v=1"></script>
   <script src="pages.js?v=3"></script>
-  <script src="card.js?v=22"></script>
-  
+  <script src="card.js?v=31"></script>
+  <script src="global-search.js?v=7"></script>
+  <script src="chart-fundamentals.js?v=1"></script>
+  <script src="chart-fundamentals-pane.js?v=1"></script>
+
 </body>
 </html>

@@ -130,8 +130,9 @@ def _try_fetch_cboe_csv(ticker: str, start_date: str) -> pd.DataFrame:
 
 def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> None:
     """Download a single ticker and save it to the database."""
-    print(f"Downloading {ticker} data from {start_date} to {datetime.today().strftime('%Y-%m-%d')}...")
-    
+    end_date = datetime.today().strftime('%Y-%m-%d')
+    print(f"Downloading {ticker} data from {start_date} to {end_date}...")
+
     # 1) Try Cboe direct CSV for supported indices (e.g., ^BXY and others)
     data = _try_fetch_cboe_csv(ticker, start_date)
 
@@ -139,7 +140,7 @@ def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> Non
     if data.empty:
         # Prefer yf.download for broader compatibility
         ticker_obj = yf.Ticker(ticker)
-        data_dl = yf.download(ticker, start=start_date, interval="1d", auto_adjust=True, progress=False)
+        data_dl = yf.download(ticker, start=start_date, end=end_date, interval="1d", auto_adjust=True, progress=False)
         if data_dl is None or data_dl.empty:
             # Fallback to Ticker.history for tickers where download fails
             try:
