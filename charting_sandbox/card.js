@@ -59,7 +59,8 @@
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showNotes: !!card._showNotes,
-            notes: card._notes || ''
+            notes: card._notes || '',
+            manualInterval: card._manualInterval || null
         }));
 
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -127,7 +128,8 @@
             fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
             fixedLegendSize: initialFixedLegendSize = null,
             showNotes: initialShowNotes = false,
-            notes: initialNotes = ''
+            notes: initialNotes = '',
+            manualInterval: initialManualInterval = null
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -194,7 +196,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -261,6 +263,7 @@
         card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
         card._showNotes = initialShowNotes;
         card._notes = initialNotes;
+        card._manualInterval = initialManualInterval;  // Manual interval override (null = auto)
 
         // Initialize notes UI
         if (notesSection && notesTextarea) {
@@ -596,10 +599,33 @@
             // Pass chip nodes to avoid global DOM scan
             ensureNames(Array.from(selectedTickers), selectedTickersDiv.querySelectorAll('.chip'));
 
-            // Fetch price data
+            // Fetch price data with auto-interval selection
             try {
                 const tickerList = Array.from(selectedTickers);
-                const data = await window.DataFetcher.getPriceData(tickerList);
+
+                // Determine optimal interval: manual override takes precedence
+                let interval = 'daily';
+                if (card._manualInterval && card._manualInterval !== 'auto') {
+                    interval = card._manualInterval;
+                    console.log(`Using manual interval: ${interval}`);
+                } else if (card._visibleRange) {
+                    const rangeSeconds = card._visibleRange.to - card._visibleRange.from;
+                    const rangeDays = rangeSeconds / (24 * 3600);
+
+                    // Auto-select interval based on range:
+                    // < 5 years (~1825 days): daily
+                    // 5-10 years: weekly
+                    // > 10 years: monthly
+                    if (rangeDays > 3650) {  // > 10 years
+                        interval = 'monthly';
+                        console.log(`Auto-selected monthly interval for ${Math.floor(rangeDays/365)} year range`);
+                    } else if (rangeDays > 1825) {  // > 5 years
+                        interval = 'weekly';
+                        console.log(`Auto-selected weekly interval for ${Math.floor(rangeDays/365)} year range`);
+                    }
+                }
+
+                const data = await window.DataFetcher.getPriceData(tickerList, null, null, interval);
                 
                 if (!data || Object.keys(data).length === 0) {
                     console.warn('No price data received');
@@ -1757,6 +1783,24 @@
                 hiddenTickers,
                 tickerColorMap,
                 getName: (t) => nameCache[t]
+            });
+        }
+
+        if (intervalSelect) {
+            // Set initial value if manual interval is set
+            if (card._manualInterval) {
+                intervalSelect.value = card._manualInterval;
+            }
+
+            intervalSelect.addEventListener('change', () => {
+                const val = intervalSelect.value;
+                card._manualInterval = val === 'auto' ? null : val;
+                console.log(`Interval changed to: ${val}`);
+                debouncedSaveCards();
+                // Replot to fetch data with new interval
+                if (selectedTickers.size > 0) {
+                    plot();
+                }
             });
         }
 

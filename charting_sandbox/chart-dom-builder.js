@@ -34,6 +34,13 @@ window.ChartDomBuilder = {
                     <option value="2000">2000</option>
                     <option value="1995">All Data (Fit)</option>
                 </select>
+                <!-- Interval dropdown -->
+                <select class="interval-select">
+                    <option value="auto">Auto Interval</option>
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
                 <button class="fit-btn">Fit</button>
                 <button class="toggle-diff-btn">Show Diff Pane</button>
                 <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
@@ -178,6 +185,7 @@ window.ChartDomBuilder = {
             fontUpBtn: card.querySelector('.font-increase-btn'),
             exportBtn: card.querySelector('.export-btn'),
             rangeSelect: card.querySelector('.range-select'),
+            intervalSelect: card.querySelector('.interval-select'),
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),
             titleInput: card.querySelector('.title-input'),

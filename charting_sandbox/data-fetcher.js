@@ -74,8 +74,12 @@ window.DataFetcher = {
     
     /**
      * Get historical price data
+     * @param {Array<string>} tickers - Array of ticker symbols
+     * @param {number|null} fromDate - Start date (unix timestamp)
+     * @param {number|null} toDate - End date (unix timestamp)
+     * @param {string} interval - Data interval: 'daily', 'weekly', or 'monthly' (default: 'daily')
      */
-    async getPriceData(tickers, fromDate = null, toDate = null) {
+    async getPriceData(tickers, fromDate = null, toDate = null, interval = 'daily') {
         if (!tickers || tickers.length === 0) return {};
 
         // Check for portfolio tickers (format: PORTFOLIO_1, PORTFOLIO_2, etc.)
@@ -90,6 +94,7 @@ window.DataFetcher = {
             params.set('tickers', regularTickers.join(','));
             if (fromDate) params.set('from', Math.floor(fromDate));
             if (toDate) params.set('to', Math.floor(toDate));
+            if (interval && interval !== 'daily') params.set('interval', interval);
             const url = `${API_BASE_URL}/api/data?${params.toString()}`;
             const regularData = await fetchWithRetry(url);
             Object.assign(results, regularData);
