@@ -128,19 +128,23 @@ def _try_fetch_cboe_csv(ticker: str, start_date: str) -> pd.DataFrame:
             continue
     return pd.DataFrame()
 
-def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> None:
-    """Download a single ticker and save it to the database."""
-    end_date = datetime.today().strftime('%Y-%m-%d')
-    print(f"Downloading {ticker} data from {start_date} to {end_date}...")
+def download_and_save_ticker(ticker: str, start_date: str = "2005-01-01") -> None:
+    """Download a single ticker and save it to the database.
+
+    Args:
+        ticker: Ticker symbol to download
+        start_date: Filter data to only include dates >= start_date (for Cboe CSV filtering)
+    """
+    print(f"Downloading {ticker} data (all available history)...")
 
     # 1) Try Cboe direct CSV for supported indices (e.g., ^BXY and others)
     data = _try_fetch_cboe_csv(ticker, start_date)
 
     # 2) If Cboe not available or failed, try yfinance
     if data.empty:
-        # Prefer yf.download for broader compatibility
+        # Use period="max" to download all available data
         ticker_obj = yf.Ticker(ticker)
-        data_dl = yf.download(ticker, start=start_date, end=end_date, interval="1d", auto_adjust=True, progress=False)
+        data_dl = yf.download(ticker, period="max", interval="1d", auto_adjust=True, progress=False)
         if data_dl is None or data_dl.empty:
             # Fallback to Ticker.history for tickers where download fails
             try:
@@ -157,7 +161,8 @@ def download_and_save_ticker(ticker: str, start_date: str = "2019-12-31") -> Non
         data.index.name = 'Date'
         data = data.reset_index()
         data['Date'] = pd.to_datetime(data['Date']).dt.strftime('%Y-%m-%d')
-    # Data already filtered by start_date via CSV filter or yf.download(start=...)
+        # Filter by start_date for consistency
+        data = data[data['Date'] >= start_date]
     
     # Connect to the database in the project root
     print(f"Using database: {DB_PATH}")
