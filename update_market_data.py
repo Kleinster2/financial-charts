@@ -69,7 +69,7 @@ def main():
             update_futures_data(verbose=verbose)
 
         elapsed = time.time() - start
-        print(f"\n\u2713 Update completed in {elapsed/60:.1f} min")
+        print(f"\nUpdate completed in {elapsed/60:.1f} min")
     except KeyboardInterrupt:
         print("\nUpdate interrupted by user.")
         raise

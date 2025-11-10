@@ -14,10 +14,14 @@ from datetime import datetime
 
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT, 
-                      CACHE_CONTROL_MAX_AGE, WORKSPACE_FILENAME, 
+from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT,
+                      CACHE_CONTROL_MAX_AGE, WORKSPACE_FILENAME,
                       WORKSPACE_TEMP_SUFFIX, HTTP_OK, HTTP_BAD_REQUEST,
                       HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR)
+
+# Import backup functionality
+import subprocess
+from pathlib import Path
 
 # Configure logging to output to stdout for easier debugging
 logging.basicConfig(
@@ -673,6 +677,34 @@ def get_volume():
     return jsonify(out)
 
 
+def trigger_workspace_backup():
+    """Trigger automatic workspace backup via backup_workspace.py script"""
+    try:
+        backup_script = Path(__file__).parent.parent / 'backup_workspace.py'
+        if not backup_script.exists():
+            app.logger.warning(f"Backup script not found at {backup_script}")
+            return False
+
+        result = subprocess.run(
+            [sys.executable, str(backup_script), 'backup'],
+            capture_output=True,
+            text=True,
+            timeout=10
+        )
+
+        if result.returncode == 0:
+            app.logger.info(f"Automatic backup completed: {result.stdout.strip()}")
+            return True
+        else:
+            app.logger.warning(f"Backup script returned error: {result.stderr.strip()}")
+            return False
+    except subprocess.TimeoutExpired:
+        app.logger.error("Backup script timed out")
+        return False
+    except Exception as e:
+        app.logger.error(f"Failed to trigger backup: {e}")
+        return False
+
 
 # --- Workspace Persistence API ---
 @app.route('/api/workspace', methods=['GET', 'POST'])
@@ -701,6 +733,10 @@ def workspace():
             with open(temp_file, 'w', encoding='utf-8') as fh:
                 json.dump(state, fh)
             os.replace(temp_file, workspace_path)
+
+            # Trigger automatic backup after successful save
+            trigger_workspace_backup()
+
             return jsonify({'status': 'saved', 'items': items, 'schema': schema}), 200
         except Exception as e:
             app.logger.error(f"Failed to save workspace: {e}")
