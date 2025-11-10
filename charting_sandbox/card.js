@@ -196,7 +196,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontSlider, fontValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -309,35 +309,68 @@
             }
         }
 
-        function adjustHeight(delta) {
-            const current = card._height || parseInt(getComputedStyle(chartBox).height, 10) || HEIGHT_MIN;
-            const next = Math.max(HEIGHT_MIN, Math.min(HEIGHT_MAX, current + delta));
-            console.log(`[Card:${cardId}] Height change: ${current} -> ${next} (delta ${delta})`);
-            card._height = next;
-            applyResize(next);
+        function setHeight(newHeight) {
+            const height = Math.max(HEIGHT_MIN, Math.min(HEIGHT_MAX, parseInt(newHeight)));
+            console.log(`[Card:${cardId}] Height change to ${height}`);
+            card._height = height;
+            applyResize(height);
+            // Update slider and display
+            if (heightSlider) heightSlider.value = height;
+            if (heightValue) heightValue.textContent = height;
             saveCards();
         }
-
-        if (heightUpBtn) heightUpBtn.addEventListener('click', () => adjustHeight(+HEIGHT_STEP));
-        if (heightDownBtn) heightDownBtn.addEventListener('click', () => adjustHeight(-HEIGHT_STEP));
+        // Height slider event handler
+        if (heightSlider) {
+            heightSlider.addEventListener('input', (e) => {
+                const height = parseInt(e.target.value);
+                card._height = height;
+                applyResize(height);
+                if (heightValue) heightValue.textContent = height;
+            });
+            heightSlider.addEventListener('change', () => {
+                saveCards();
+            });
+            // Initialize slider with current height
+            const currentHeight = card._height || initialHeight;
+            heightSlider.value = currentHeight;
+            if (heightValue) heightValue.textContent = currentHeight;
+        }
 
         // Volume pane height adjustment
-        function adjustVolumePaneHeight(delta) {
-            const current = card._volumePaneStretchFactor || 1.0;
-            const next = Math.max(1.0, Math.min(10.0, current + delta));
-            console.log(`[Card:${cardId}] Volume pane stretch factor change: ${current} -> ${next} (delta ${delta})`);
-            card._volumePaneStretchFactor = next;
+        function setVolumePaneHeight(newFactor) {
+            const factor = Math.max(0.5, Math.min(3.0, parseFloat(newFactor)));
+            console.log(`[Card:${cardId}] Volume pane stretch factor change to ${factor}`);
+            card._volumePaneStretchFactor = factor;
 
             // Apply to existing volume pane if it exists
             if (volumePane && typeof volumePane.setStretchFactor === 'function') {
-                volumePane.setStretchFactor(next);
-                console.log(`[Card:${cardId}] Applied stretch factor ${next} to volume pane`);
+                volumePane.setStretchFactor(factor);
+                console.log(`[Card:${cardId}] Applied stretch factor ${factor} to volume pane`);
             }
 
+            // Update slider and display
+            if (volPaneHeightSlider) volPaneHeightSlider.value = factor;
+            if (volPaneHeightValue) volPaneHeightValue.textContent = factor.toFixed(1);
             saveCards();
         }
-        if (volPaneHeightUpBtn) volPaneHeightUpBtn.addEventListener('click', () => adjustVolumePaneHeight(+0.5));
-        if (volPaneHeightDownBtn) volPaneHeightDownBtn.addEventListener('click', () => adjustVolumePaneHeight(-0.5));
+        // Volume pane height slider event handler
+        if (volPaneHeightSlider) {
+            volPaneHeightSlider.addEventListener('input', (e) => {
+                const factor = parseFloat(e.target.value);
+                card._volumePaneStretchFactor = factor;
+                if (volumePane && typeof volumePane.setStretchFactor === 'function') {
+                    volumePane.setStretchFactor(factor);
+                }
+                if (volPaneHeightValue) volPaneHeightValue.textContent = factor.toFixed(1);
+            });
+            volPaneHeightSlider.addEventListener('change', () => {
+                saveCards();
+            });
+            // Initialize slider with current factor
+            const currentFactor = card._volumePaneStretchFactor || 1.0;
+            volPaneHeightSlider.value = currentFactor;
+            if (volPaneHeightValue) volPaneHeightValue.textContent = currentFactor.toFixed(1);
+        }
 
         function applyFont(newSize) {
             if (chart && typeof chart.applyOptions === 'function') {
@@ -491,11 +524,26 @@
         // Main plot function
         async function plot() {
             if (!chart) {
+                // Set price format based on mode
+                const priceFormat = useRaw
+                    ? { type: 'price', precision: 2, minMove: 0.01 }
+                    : { type: 'custom', minMove: 0.1, formatter: (v) => {
+                        const diff = v - 100;
+                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                        const dec = Math.abs(diff) >= 100 ? 0 : 1;
+                        return `${sign}${Math.abs(diff).toFixed(dec)}%`;
+                    }};
+
                 chart = LightweightCharts.createChart(chartBox, {
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
                     timeScale: { secondsVisible: false, rightOffset: 3, fixLeftEdge: true },
-                    rightPriceScale: { visible: true, mode: LightweightCharts.PriceScaleMode.Logarithmic, scaleMargins: { top: 0.1, bottom: 0.1 } },
+                    rightPriceScale: {
+                        visible: true,
+                        mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                        scaleMargins: { top: 0.1, bottom: 0.1 },
+                        priceFormat
+                    },
                     crosshair: {
                         horzLine: { visible: false, labelVisible: false },
                         vertLine: { visible: true, labelVisible: true }
@@ -1558,6 +1606,25 @@
             useRaw = !useRaw;
             card._useRaw = useRaw;
             toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
+
+            // Update price scale format immediately
+            if (chart && chart.priceScale) {
+                const priceFormat = useRaw
+                    ? { type: 'price', precision: 2, minMove: 0.01 }
+                    : { type: 'custom', minMove: 0.1, formatter: (v) => {
+                        const diff = v - 100;
+                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                        const dec = Math.abs(diff) >= 100 ? 0 : 1;
+                        return `${sign}${Math.abs(diff).toFixed(dec)}%`;
+                    }};
+
+                try {
+                    chart.priceScale('right').applyOptions({ priceFormat });
+                } catch (e) {
+                    console.warn('[Card] Could not update price scale format:', e);
+                }
+            }
+
             saveCards();
             plot();
             // Update zero line after mode change

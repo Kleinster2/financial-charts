@@ -57,10 +57,16 @@ window.ChartDomBuilder = {
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
                 <button class="toggle-zeroline-btn">Show 0% Line</button>
                 <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
-                <button class="height-decrease-btn">Height -</button>
-                <button class="height-increase-btn">Height +</button>
-                <button class="volpane-height-decrease-btn">Vol Height -</button>
-                <button class="volpane-height-increase-btn">Vol Height +</button>
+                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
+                    <span style="font-size: 0.9rem;">Height:</span>
+                    <input type="range" class="height-slider" min="400" max="800" value="500" step="50" style="width: 100px; vertical-align: middle;">
+                    <span class="height-value" style="display: inline-block; min-width: 36px; font-size: 0.9rem; font-weight: bold;">500</span>
+                </label>
+                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
+                    <span style="font-size: 0.9rem;">Vol:</span>
+                    <input type="range" class="volpane-height-slider" min="0.5" max="3.0" value="1.0" step="0.1" style="width: 80px; vertical-align: middle;">
+                    <span class="volpane-height-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">1.0</span>
+                </label>
                 <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
                     <span style="font-size: 0.9rem;">Font:</span>
                     <input type="range" class="font-slider" min="8" max="24" value="12" step="1" style="width: 80px; vertical-align: middle;">
@@ -180,10 +186,10 @@ window.ChartDomBuilder = {
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             toggleFixedLegendBtn: card.querySelector('.toggle-fixedlegend-btn'),
             toggleNotesBtn: card.querySelector('.toggle-notes-btn'),
-            heightDownBtn: card.querySelector('.height-decrease-btn'),
-            heightUpBtn: card.querySelector('.height-increase-btn'),
-            volPaneHeightDownBtn: card.querySelector('.volpane-height-decrease-btn'),
-            volPaneHeightUpBtn: card.querySelector('.volpane-height-increase-btn'),
+            heightSlider: card.querySelector('.height-slider'),
+            heightValue: card.querySelector('.height-value'),
+            volPaneHeightSlider: card.querySelector('.volpane-height-slider'),
+            volPaneHeightValue: card.querySelector('.volpane-height-value'),
             fontSlider: card.querySelector('.font-slider'),
             fontValue: card.querySelector('.font-value'),
             exportBtn: card.querySelector('.export-btn'),
