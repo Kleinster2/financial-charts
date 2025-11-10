@@ -61,8 +61,11 @@ window.ChartDomBuilder = {
                 <button class="height-increase-btn">Height +</button>
                 <button class="volpane-height-decrease-btn">Vol Height -</button>
                 <button class="volpane-height-increase-btn">Vol Height +</button>
-                <button class="font-decrease-btn">Font -</button>
-                <button class="font-increase-btn">Font +</button>
+                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
+                    <span style="font-size: 0.9rem;">Font:</span>
+                    <input type="range" class="font-slider" min="8" max="24" value="12" step="1" style="width: 80px; vertical-align: middle;">
+                    <span class="font-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">12</span>
+                </label>
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
@@ -181,8 +184,8 @@ window.ChartDomBuilder = {
             heightUpBtn: card.querySelector('.height-increase-btn'),
             volPaneHeightDownBtn: card.querySelector('.volpane-height-decrease-btn'),
             volPaneHeightUpBtn: card.querySelector('.volpane-height-increase-btn'),
-            fontDownBtn: card.querySelector('.font-decrease-btn'),
-            fontUpBtn: card.querySelector('.font-increase-btn'),
+            fontSlider: card.querySelector('.font-slider'),
+            fontValue: card.querySelector('.font-value'),
             exportBtn: card.querySelector('.export-btn'),
             rangeSelect: card.querySelector('.range-select'),
             intervalSelect: card.querySelector('.interval-select'),

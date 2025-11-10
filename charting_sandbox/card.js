@@ -196,7 +196,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontDownBtn, fontUpBtn, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightDownBtn, heightUpBtn, volPaneHeightDownBtn, volPaneHeightUpBtn, fontSlider, fontValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -345,22 +345,32 @@
                 try { chart.applyOptions({ layout: { fontSize: newSize } }); } catch (e) { console.warn(`[Card:${cardId}] chart.applyOptions(layout.fontSize) failed`, e); }
             }
         }
-        function adjustFont(delta) {
-            const current = card._fontSize || (UI.FONT_DEFAULT || 12);
-            const next = Math.max(FONT_MIN, Math.min(FONT_MAX, current + delta));
-            console.log(`[Card:${cardId}] Font size change: ${current} -> ${next} (delta ${delta})`);
-            card._fontSize = next;
-            applyFont(next);
-            // Disable/enable controls at bounds
-            if (fontDownBtn) fontDownBtn.disabled = (next <= FONT_MIN);
-            if (fontUpBtn) fontUpBtn.disabled = (next >= FONT_MAX);
+        function setFontSize(newSize) {
+            const size = Math.max(FONT_MIN, Math.min(FONT_MAX, parseInt(newSize)));
+            console.log(`[Card:${cardId}] Font size change to ${size}`);
+            card._fontSize = size;
+            applyFont(size);
+            // Update slider and display
+            if (fontSlider) fontSlider.value = size;
+            if (fontValue) fontValue.textContent = size;
             saveCards();
         }
-        if (fontUpBtn) fontUpBtn.addEventListener('click', () => adjustFont(+FONT_STEP));
-        if (fontDownBtn) fontDownBtn.addEventListener('click', () => adjustFont(-FONT_STEP));
-        // Initialize font button disabled state
-        if (fontDownBtn) fontDownBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) <= FONT_MIN);
-        if (fontUpBtn) fontUpBtn.disabled = ((card._fontSize || (UI.FONT_DEFAULT || 12)) >= FONT_MAX);
+        // Font slider event handler
+        if (fontSlider) {
+            fontSlider.addEventListener('input', (e) => {
+                const size = parseInt(e.target.value);
+                card._fontSize = size;
+                applyFont(size);
+                if (fontValue) fontValue.textContent = size;
+            });
+            fontSlider.addEventListener('change', () => {
+                saveCards();
+            });
+            // Initialize slider with current font size
+            const currentFontSize = card._fontSize || (UI.FONT_DEFAULT || 12);
+            fontSlider.value = currentFontSize;
+            if (fontValue) fontValue.textContent = currentFontSize;
+        }
 
         // Export button handler
         if (exportBtn) {
@@ -2099,7 +2109,8 @@
                             fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
                             fixedLegendSize: c.fixedLegendSize || null,
                             showNotes: !!c.showNotes,
-                            notes: c.notes || ''
+                            notes: c.notes || '',
+                            manualInterval: c.manualInterval || null
                         });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
@@ -2150,7 +2161,8 @@
                             fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
                             fixedLegendSize: c.fixedLegendSize || null,
                             showNotes: !!c.showNotes,
-                            notes: c.notes || ''
+                            notes: c.notes || '',
+                            manualInterval: c.manualInterval || null
                         });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
@@ -2188,7 +2200,8 @@
                         fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
                         fixedLegendSize: c.fixedLegendSize || null,
                         showNotes: !!c.showNotes,
-                        notes: c.notes || ''
+                        notes: c.notes || '',
+                        manualInterval: c.manualInterval || null
                     });
                 });
                 // Push local state to server to sync

@@ -37,8 +37,8 @@ window.ChartFixedLegend = {
             overflow: 'auto',
             minWidth: '100px',
             minHeight: '20px',
-            width: initialWidth ? `${initialWidth}px` : 'auto',
-            height: initialHeight ? `${initialHeight}px` : 'auto'
+            width: (initialWidth != null && initialWidth > 0) ? `${initialWidth}px` : 'auto',
+            height: (initialHeight != null && initialHeight > 0) ? `${initialHeight}px` : 'auto'
         });
 
         // Add to chart box
@@ -94,14 +94,17 @@ window.ChartFixedLegend = {
             requestAnimationFrame(() => {
                 adjustFontSize();
 
-                // Save size when manually resized
+                // Save size when manually resized (but ignore if hidden/zero size)
                 if (fixedLegend._onStateChange) {
                     const width = fixedLegend.offsetWidth;
                     const height = fixedLegend.offsetHeight;
-                    fixedLegend._onStateChange({
-                        width,
-                        height
-                    });
+                    // Only save if element is visible and has actual size
+                    if (width > 0 && height > 0 && fixedLegend.style.display !== 'none') {
+                        fixedLegend._onStateChange({
+                            width,
+                            height
+                        });
+                    }
                 }
             });
         });
