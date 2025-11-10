@@ -72,9 +72,22 @@ Notes:
 - Futures are handled via a dedicated module (`download_futures.py`), invoked by the orchestrator when `--assets futures` is selected.
 - For non-futures groups, the orchestrator routes to `download_all_assets.update_sp500_data(assets=...)` and preserves existing DB columns on partial updates.
 
-## ETF metadata population and auto-fill
+## Metadata Management
 
-Populate human-readable names for ETFs in `ticker_metadata` for tooltips/labels. Run from the repo root:
+### Automatic Metadata Updates (New!)
+
+As of November 2025, metadata is **automatically updated** when running `update_market_data.py` or `download_all_assets.py`. The system:
+
+1. Detects any new tickers in the database without metadata
+2. Fetches company names from yfinance
+3. Automatically cleans names by removing corporate suffixes (Inc., Corp., Ltd., etc.)
+4. Updates the `ticker_metadata` table
+
+No manual intervention needed! Just run the normal data update and metadata will be handled automatically.
+
+### Manual Metadata Population (Legacy)
+
+For manual control or ETF-specific updates, use the legacy scripts:
 
 ```powershell
 # Populate names for known ETFs from the built-in map
@@ -87,14 +100,21 @@ python populate_etf_metadata.py --auto --limit 200
 python populate_etf_metadata.py --auto --tickers "EWZ EWW DTCR"
 ```
 
-Details:
-- __Auto-fill__ uses `yfinance` to fetch names for unknown tickers. If yfinance doesn’t return a name, it falls back to `stock_metadata.name` when available.
-- __Optional dependency__: `yfinance` is listed in root `requirements.txt`. If you run the script with a different interpreter (e.g., a separate API venv), ensure `yfinance` is installed there too.
+### Metadata Cleaning
 
-Verification via API once the server is running:
+The `metadata_utils.py` module automatically cleans company names by removing:
+- Corporate suffixes: Inc., Corp., Corporation, Ltd., Limited, PLC, N.V., SE, AG
+- Business structure terms: Co., Company, Holdings, Group
+- Trailing punctuation and commas
+
+Example: "Apple Inc." → "Apple", "Honda Motor Co., Ltd." → "Honda Motor"
+
+### API Verification
+
+Check metadata via API:
 
 ```text
-/api/metadata?tickers=EWZ,EWW,DTCR
+/api/metadata?tickers=EWZ,EWW,AAPL
 ```
 
 The API prioritizes `ticker_metadata.name`, then falls back to `stock_metadata.name`, then the ticker itself.
@@ -118,10 +138,35 @@ Notes:
 
 Open at `http://localhost:5000/sandbox/` once the server is running.
 
--  __Daily timeframe__ always (no auto-switch to weekly/monthly).
--  __Last-price dotted lines hidden__ on all series.
+### Features
+
+-  __Flexible timeframe selection__: Choose between Daily, Weekly, or Monthly intervals, or use Auto mode which selects based on date range (<5yr = daily, 5-10yr = weekly, >10yr = monthly).
+-  __Interactive sliders__ for real-time chart customization:
+   - **Font size**: 8-24pt with live preview
+   - **Chart height**: 400-800px
+   - **Volume pane height**: 0.5x-3.0x stretch factor
 -  __Dynamic rebase on visible range change__ with debounce (`500ms`).
 -  __Workspace persistence__ via backend-first restore at `/api/workspace` (cross-browser persistence).
+-  __Resizable and draggable fixed legend__ with size/position persistence.
+-  __Percentage-based Y-axis formatting__ showing change from base 100 (e.g., +50%, -25%).
+-  __Multi-page organization__ with 28 themed pages including sectors, countries, asset classes, and specialized topics.
+
+### Recent Improvements (Nov 2025)
+
+#### UI Enhancements
+- Replaced +/- buttons with sliders for Font, Height, and Volume pane controls
+- Added real-time value display next to each slider
+- Consistent slider UI design across all controls
+
+#### Bug Fixes
+- **Fixed interval persistence**: Daily/Weekly/Monthly selection now persists across page refreshes
+- **Fixed legend resize persistence**: Custom legend sizes now save correctly (no more 0x0 resets)
+- **Fixed Y-axis format bug**: Charts now consistently display percentage format instead of base 100 values
+- Price scale format updates correctly when toggling between raw prices and percentage mode
+
+#### Data Expansion
+- **Electric Vehicles**: Added 10 new EV stocks including Chinese leaders (BYD, Li Auto, XPeng, Polestar) and traditional automakers (Honda, Stellantis, Porsche)
+- **Comprehensive EV coverage**: Database now includes pure-play EVs, Chinese manufacturers, and legacy automakers with EV initiatives
 
 ## Usage
 

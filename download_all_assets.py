@@ -3,8 +3,6 @@ import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
 import time
-import requests
-from bs4 import BeautifulSoup
 
 # Import constants
 from constants import (DB_PATH, get_db_connection, DEFAULT_START_DATE, BATCH_SIZE, 
@@ -118,6 +116,23 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "CRCL", "CRON",
 ]
 
+# Electric Vehicle (EV) stocks
+EV_STOCKS = [
+    # Pure EV companies (already in OTHER_HIGH_PROFILE_STOCKS: TSLA, LCID, RIVN)
+    "BYDDY",   # BYD Company (Chinese EV giant - ADR)
+    "LI",      # Li Auto (Chinese EV)
+    "XPEV",    # XPeng (Chinese EV)
+    "PSNY",    # Polestar (Volvo/Geely EV brand)
+    "GOEV",    # Canoo
+    "WKHS",    # Workhorse (EV delivery vans)
+    "HYLN",    # Hyliion (electric powertrains for trucks)
+    # Traditional automakers with major EV push (F, GM already in S&P 500)
+    "HMC",     # Honda Motor Company
+    "STLA",    # Stellantis (Chrysler, Jeep, Peugeot, Fiat)
+    "POAHY",   # Porsche
+    # Delisted/unavailable: FSR (Fisker), LEV, NKLA (Nikola), MULN, RIDE (Lordstown), BMWYY (BMW ADR)
+]
+
 # Mining and rare earth elements equities
 MINING_RARE_EARTH_STOCKS = [
     "TMC",    # The Metals Company
@@ -140,6 +155,8 @@ MINING_RARE_EARTH_STOCKS = [
     "NOVRF",  # NovaTech
     "UROY",   # Uranium Royalty Corp
     "LYC.AX", # Lynas Rare Earths (Australia)
+    "ILU.AX", # Iluka Resources (Australia - rare earths & mineral sands)
+    "ARU.AX", # Arafura Resources (Australia - rare earths)
 ]
 
 # Battery and energy storage equities
@@ -228,6 +245,7 @@ SPACE_AEROSPACE_STOCKS = [
     "LHX",    # L3Harris Technologies
     "HEI",    # HEICO Corporation
     "TDG",    # TransDigm Group
+    "SATS",   # EchoStar Corporation (satellite services)
 ]
 
 # Defense and military technology equities
@@ -275,6 +293,30 @@ ADTECH_STOCKS = [
     "TBLA",  # Taboola
     "SSTK",  # Shutterstock
     "ROKU"   # Roku (CTV ad platform)
+]
+
+# Online gaming, iGaming, and gambling equities
+GAMING_IGAMING_STOCKS = [
+    # Social casino & online gaming
+    "DDI",    # DoubleDown Interactive (South Korea - social casino games)
+    "PLTK",   # Playtika (social casino & casual games)
+    "ZNGA",   # Zynga (now part of Take-Two, but may still trade)
+    # Online gambling & sports betting
+    "DKNG",   # DraftKings (sports betting & iGaming)
+    "PENN",   # Penn Entertainment (casinos & sports betting)
+    "MGM",    # MGM Resorts (casinos & BetMGM)
+    "CZR",    # Caesars Entertainment (casinos & sports betting)
+    "LNW",    # Light & Wonder (gaming equipment & content)
+    "FLUT",   # Flutter Entertainment (FanDuel parent)
+    "BALY",   # Bally's Corporation
+    "GENI",   # Genius Sports (sports data & betting tech)
+    "FUBO",   # fuboTV (streaming with gambling integration)
+    "RSI",    # Rush Street Interactive (online casino)
+    # Video game publishers (related)
+    "EA",     # Electronic Arts
+    "TTWO",   # Take-Two Interactive
+    "RBLX",   # Roblox
+    "U",      # Unity Software
 ]
 
 # Biotech, pharmaceutical, and life sciences equities
@@ -335,19 +377,9 @@ def unique_preserve(seq):
 
 def get_sp500_tickers():
     """Return a list of S&P 500 constituent tickers.
-    Tries to scrape the Wikipedia S&P 500 page; if that fails, falls back to a static list.
+    Uses a static list (S&P 500 as of October 2025 + Recent IPOs).
     """
-    try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
-        sp500 = tables[0]
-        sp500['Symbol'] = sp500['Symbol'].str.replace('.', '-', regex=False)
-        tickers = sp500['Symbol'].tolist()
-        if tickers:
-            return tickers, sp500
-    except Exception as e:
-        print(f"Warning: Could not scrape S&P 500 constituents: {e}. Falling back to static list.")
-    
-    # Static fallback list (S&P 500 August 2025 + Recent IPOs)
+    # Static list (S&P 500 October 2025 + Recent IPOs)
     tickers = [
         "MMM", "AOS", "ABT", "ABBV", "ACN", "ADBE", "AMD", "AAP", "AES", "AFL", "A", "APD", "AKAM", "ALK", "ALB", "ARE", "ALGN", "ALLE", "LNT", "ALL", "GOOGL", "GOOG", "MO", "AMZN", "AMCR", "AEE", "AAL", "AEP", "AXP", "AIG", "AMT", "AWK", "AMP", "ABC", "AME", "AMGN", "APH", "ADI", "ANSS", "AON", "APA", "AAPL", "AMAT", "APTV", "ACGL", "ADM", "ANET", "AJG", "AIZ", "T", "ATO", "ADSK", "ADP", "AZO", "AVB", "AVY", "AXON", "BKR", "BALL", "BAC", "BBWI", "BAX", "BDX", "BRK-B", "BBY", "BIO", "TECH", "BIIB", "BLK", "BK", "BA", "BKNG", "BWA", "BXP", "BSX", "BMY", "AVGO", "BR", "BRO", "BF-B", "BLDR", "BG", "CDNS", "CZR", "CPT", "CPB", "COF", "CAH", "KMX", "CCL", "CARR", "CTLT", "CAT", "CBOE", "CBRE", "CDW", "CE", "CNC", "CNP", "CDAY", "CF", "CRL", "SCHW", "CHTR", "CVX", "CMG", "CB", "CHD", "CI", "CINF", "CTAS", "CSCO", "C", "CFG", "CLX", "CME", "CMS", "KO", "CTSH", "CL", "CMCSA", "CMA", "CAG", "COP", "ED", "STZ", "CEG", "COO", "CPRT", "GLW", "CTVA", "CSGP", "COST", "CTRA", "CCI", "CSX", "CMI", "CVS", "DHI", "DHR", "DRI", "DVA", "DE", "DAL", "XRAY", "DVN", "DXCM", "FANG", "DLR", "DFS", "DIS", "DG", "DLTR", "D", "DPZ", "DOV", "DOW", "DTE", "DUK", "DD", "EMN", "ETN", "EBAY", "ECL", "EIX", "EW", "EA", "ELV", "LLY", "EMR", "ENPH", "ETR", "EOG", "EPAM", "EQT", "EFX", "EQIX", "EQR", "ESS", "EL", "ETSY", "EG", "EVRG", "ES", "EXC", "EXPE", "EXPD", "EXR", "XOM", "FFIV", "FDS", "FICO", "FAST", "FRT", "FDX", "FITB", "FSLR", "FE", "FIS", "FISV", "FLT", "FMC", "F", "FTNT", "FTV", "FOXA", "FOX", "BEN", "FCX", "GRMN", "IT", "GEHC", "GEN", "GNRC", "GD", "GE", "GIS", "GM", "GPC", "GILD", "GL", "GPN", "GS", "HAL", "HIG", "HAS", "HCA", "PEAK", "HSIC", "HSY", "HES", "HPE", "HLT", "HOLX", "HD", "HON", "HRL", "HST", "HWM", "HPQ", "HUBB", "HUM", "HBAN", "HII", "IBM", "IEX", "IDXX", "ITW", "ILMN", "INCY", "IR", "PODD", "INTC", "ICE", "IFF", "IP", "IPG", "INTU", "ISRG", "IVZ", "INVH", "IQV", "IRM", "JBHT", "JKHY", "J", "JNJ", "JCI", "JPM", "JNPR", "K", "KDP", "KEY", "KEYS", "KMB", "KIM", "KMI", "KLAC", "KHC", "KR", "LHX", "LH", "LRCX", "LW", "LVS", "LDOS", "LEN", "LIN", "LYV", "LKQ", "LMT", "L", "LOW", "LULU", "LYB", "MTB", "MRO", "MPC", "MKTX", "MAR", "MMC", "MLM", "MAS", "MA", "MTCH", "MKC", "MCD", "MCK", "MDT", "MRK", "META", "MET", "MTD", "MGM", "MCHP", "MU", "MSFT", "MAA", "MRNA", "MHK", "MOH", "TAP", "MDLZ", "MPWR", "MNST", "MCO", "MS", "MOS", "MSI", "MSCI", "NDAQ", "NTAP", "NFLX", "NWL", "NEM", "NWSA", "NWS", "NEE", "NKE", "NI", "NDSN", "NSC", "NTRS", "NOC", "NCLH", "NRG", "NUE", "NVDA", "NVR", "NXPI", "ORLY", "OXY", "ODFL", "OMC", "ON", "OKE", "ORCL", "OGN", "OTIS", "PCAR", "PKG", "PARA", "PH", "PAYX", "PAYC", "PYPL", "PNR", "PEP", "PKI", "PFE", "PCG", "PM", "PSX", "PNW", "PXD", "PNC", "POOL", "PPG", "PPL", "PFG", "PG", "PGR", "PLD", "PRU", "PEG", "PTC", "PSA", "PHM", "QRVO", "PWR", "QCOM", "DGX", "RL", "RJF", "RTX", "O", "REG", "REGN", "RF", "RSG", "RMD", "RVTY", "RHI", "ROK", "ROL", "ROP", "ROST", "RCL", "SPGI", "CRM", "SBAC", "SLB", "STX", "SEE", "SRE", "NOW", "SHW", "SPG", "SWKS", "SJM", "SNA", "SEDG", "SO", "LUV", "SWK", "SBUX", "STT", "STLD", "STE", "SYK", "SYF", "SNPS", "SYY", "TMUS", "TROW", "TTWO", "TPR", "TRGP", "TGT", "TEL", "TDY", "TFX", "TER", "TSLA", "TXN", "TXT", "TMO", "TJX", "TSCO", "TT", "TDG", "TRV", "TRMB", "TFC", "TYL", "TSN", "USB", "UDR", "ULTA", "UNP", "UAL", "UPS", "URI", "UNH", "UHS", "VLO", "VTR", "VRSN", "VRSK", "VZ", "VRTX", "VTRS", "VICI", "V", "VMC", "WAB", "WBA", "WMT", "WBD", "WM", "WAT", "WEC", "WFC", "WELL", "WST", "WDC", "WRK", "WY", "WHR", "WMB", "WTW", "GWW", "WYNN", "XEL", "XYL", "YUM", "ZBRA", "ZBH", "ZION", "ZTS", 
         # Recent IPOs added October 2025
@@ -365,31 +397,9 @@ def get_sp500_tickers():
 
 def get_ibovespa_tickers():
     """Return a list of Ibovespa constituent tickers formatted for Yahoo Finance (ending with '.SA').
-    Tries to scrape the Wikipedia Ibovespa page; if that fails, falls back to a static list captured July 2025.
+    Uses a static list (Ibovespa as of October 2025).
     """
-    try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/Ibovespa")
-        for tbl in tables:
-            # The column may be named either 'Ticker' or 'Code' depending on Wiki revision
-            candidate_cols = [col for col in tbl.columns if str(col).lower() in ("ticker", "code")]
-            if candidate_cols:
-                col = candidate_cols[0]
-                tickers = (
-                    tbl[col]
-                    .astype(str)
-                    .str.strip()
-                    .str.upper()
-                    .str.replace(r"\\.B3$", "", regex=True)
-                    + ".SA"
-                )
-                # Filter out invalid entries such as nan or ''
-                tickers = [t for t in tickers.unique().tolist() if t and t != "NAN.SA"]
-                if tickers:
-                    return tickers
-    except Exception as e:
-        print(f"Warning: Could not scrape Ibovespa constituents: {e}. Falling back to static list.")
-
-    # Static fallback list (Ibovespa July 2025)
+    # Static list (Ibovespa October 2025)
     return [
         "ABEV3.SA","AZUL4.SA","B3SA3.SA","BBAS3.SA","BBDC3.SA","BBDC4.SA","BBSE3.SA","BEEF3.SA","BPAC11.SA",
         "BRAP4.SA","BRFS3.SA","BRKM5.SA","BRML3.SA","CCRO3.SA","CIEL3.SA","CMIG4.SA","COGN3.SA","CPFE3.SA",
@@ -411,15 +421,15 @@ def update_sp500_data(verbose: bool = True, assets=None):
         if verbose:
             print(*args, **kwargs)
 
-    vprint("Fetching US large-cap index constituents...")
+    vprint("Loading index constituents...")
     try:
-        # Get S&P 500 tickers with fallback to static list
+        # Get S&P 500 tickers from static list
         sp500_tickers, sp500 = get_sp500_tickers()
-        vprint(f"Fetched {len(sp500_tickers)} S&P 500 tickers.")
-        
+        vprint(f"Loaded {len(sp500_tickers)} S&P 500 tickers.")
+
         # 1b. Get Ibovespa tickers (Brazil)
         ibov_tickers = get_ibovespa_tickers()
-        vprint(f"Fetched {len(ibov_tickers)} Ibovespa tickers.")
+        vprint(f"Loaded {len(ibov_tickers)} Ibovespa tickers.")
         
         # Generate FX tickers
         FX_TICKERS = build_fx_tickers()
@@ -428,8 +438,8 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Build asset groups
         groups = {
             'stocks': [t for t in sorted(list(set(
-                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
-                ADTECH_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
+                sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + EV_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
+                ADTECH_STOCKS + GAMING_IGAMING_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
                 NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
@@ -572,6 +582,20 @@ def update_sp500_data(verbose: bool = True, assets=None):
         else:
             vprint("Skipping stock_metadata update (stocks not selected).")
         vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
+
+        # Auto-update ticker metadata for new tickers
+        try:
+            from metadata_utils import auto_update_new_tickers
+            vprint("\n" + "="*60)
+            vprint("Auto-updating metadata for new tickers...")
+            vprint("="*60)
+            stats = auto_update_new_tickers()
+            if stats['successful'] > 0 or stats['failed'] > 0:
+                vprint(f"Metadata update: {stats['successful']} added, {stats['failed']} failed, {stats['skipped']} skipped")
+            else:
+                vprint("All tickers already have metadata")
+        except Exception as e:
+            vprint(f"Warning: Could not auto-update metadata: {e}")
 
     finally:
         conn.close()
