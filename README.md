@@ -17,6 +17,92 @@ This repo includes three components:
 -  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
 -  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
 
+## Project Structure
+
+```
+financial-charts/
+├── market_data.db              # SQLite database (generated)
+├── constants.py                # Shared configuration constants
+├── metadata_utils.py           # Automatic metadata management
+├── update_market_data.py       # Main orchestrator script
+├── download_all_assets.py      # Data download logic (stocks, ETFs, etc.)
+├── download_futures.py         # Futures data download
+├── backup_workspace.py         # Automatic workspace backup utility
+│
+├── charting_app/               # Backend Flask API
+│   ├── app.py                  # Main Flask server (port 5000)
+│   ├── workspace.json          # Persistent chart configurations
+│   └── requirements.txt        # Backend dependencies
+│
+└── charting_sandbox/           # Frontend UI
+    ├── index.html              # Main HTML entry point
+    ├── config.js               # Frontend configuration
+    ├── card.js                 # Core chart card logic
+    ├── chart-*.js              # Chart component modules
+    ├── data-fetcher.js         # API communication
+    ├── state-manager.js        # State management
+    └── pages.js                # Multi-page navigation
+```
+
+## Architecture & Data Flow
+
+```
+┌─────────────────┐
+│  Yahoo Finance  │
+└────────┬────────┘
+         │ yfinance library
+         v
+┌─────────────────────────┐
+│ download_all_assets.py  │ ← Define ticker lists (EV_STOCKS, etc.)
+│ metadata_utils.py       │ ← Auto-fetch & clean company names
+└─────────┬───────────────┘
+          │ writes
+          v
+┌─────────────────────┐
+│  market_data.db     │ ← SQLite database
+│  - stock_prices     │   - Daily OHLCV data (wide format)
+│  - ticker_metadata  │   - Company names, date ranges
+└─────────┬───────────┘
+          │ reads
+          v
+┌─────────────────────┐
+│  Flask API (5000)   │ ← charting_app/app.py
+│  - /api/data        │   - Serves price data
+│  - /api/metadata    │   - Company name lookups
+│  - /api/workspace   │   - Save/restore chart configs
+└─────────┬───────────┘
+          │ HTTP/JSON
+          v
+┌─────────────────────────┐
+│  Frontend Sandbox       │ ← charting_sandbox/
+│  - Lightweight Charts   │   - Interactive charting
+│  - 28 themed pages      │   - Multi-page organization
+│  - workspace.json sync  │   - Config persistence
+└─────────────────────────┘
+```
+
+## Key Files & Their Roles
+
+### Backend Core
+- **`constants.py`** - Shared config: DB_PATH, PORT, asset categories
+- **`update_market_data.py`** - CLI orchestrator for data updates
+- **`download_all_assets.py`** - Main download logic, ticker lists (EV_STOCKS, CRYPTO_STOCKS, etc.)
+- **`metadata_utils.py`** - Auto metadata fetching/cleaning (NEW Nov 2025)
+
+### Frontend Core
+- **`charting_sandbox/card.js`** - Main chart card logic (~2000 lines)
+  - Chart initialization, event handlers, plotting logic
+  - Slider controls, persistence, rebase calculations
+- **`charting_sandbox/chart-dom-builder.js`** - UI construction
+- **`charting_sandbox/data-fetcher.js`** - API communication layer
+- **`charting_sandbox/pages.js`** - Multi-page navigation system
+
+### Configuration & State
+- **`charting_app/workspace.json`** - Persistent chart configurations
+  - All 28 pages with chart definitions
+  - User customizations (height, font, tickers, etc.)
+  - Auto-backed up on each save
+
 ## Setup
 
 Windows PowerShell (recommended):
@@ -181,3 +267,151 @@ Open at `http://localhost:5000/sandbox/` once the server is running.
     ```
 
 This will create the `market_data.db` file in the same directory.
+
+## Common Tasks
+
+### Adding New Tickers
+
+1. **Add ticker to appropriate list** in `download_all_assets.py`:
+   ```python
+   # Example: Adding to EV_STOCKS list
+   EV_STOCKS = [
+       "BYDDY", "LI", "XPEV", "PSNY",  # Existing
+       "NEWTICKER",  # Add here
+   ]
+   ```
+
+2. **Download data**:
+   ```powershell
+   python update_market_data.py --assets stocks
+   ```
+
+3. **Metadata is automatic** - Company names are fetched and cleaned automatically!
+
+### Adding Tickers to a Chart
+
+1. **Edit `charting_app/workspace.json`**:
+   ```python
+   import json
+
+   with open('charting_app/workspace.json', 'r') as f:
+       workspace = json.load(f)
+
+   # Find chart by page and title
+   for chart in workspace['cards']:
+       if chart.get('page') == '28' and 'Electric' in chart.get('title', ''):
+           chart['tickers'].append('NEWTICKER')
+           chart['multipliers']['NEWTICKER'] = 1
+
+   with open('charting_app/workspace.json', 'w') as f:
+       json.dump(workspace, f, indent=2)
+   ```
+
+2. **Refresh browser** - Changes appear immediately
+
+### Creating a New Page
+
+Pages are defined in `charting_app/workspace.json`:
+
+```json
+{
+  "pages": {
+    "1": "Tech",
+    "2": "Finance",
+    "29": "My New Page"  // Add new page
+  },
+  "cards": [
+    {
+      "page": "29",
+      "tickers": ["AAPL", "MSFT"],
+      "title": "My First Chart",
+      "height": 500,
+      // ... other default properties
+    }
+  ]
+}
+```
+
+### Modifying UI Controls
+
+**Backend (API endpoints)** - `charting_app/app.py`
+**Frontend (UI logic)** - `charting_sandbox/card.js`
+
+Example: Adding a new slider
+1. Add HTML in `chart-dom-builder.js`
+2. Add element reference in `getCardElements()`
+3. Add event handlers in `card.js`
+4. Save value to `card._propertyName`
+5. Add to workspace save/load logic
+
+### Database Queries
+
+```python
+import sqlite3
+from constants import DB_PATH
+
+conn = sqlite3.connect(DB_PATH)
+cursor = conn.cursor()
+
+# Get all tickers
+cursor.execute("PRAGMA table_info(stock_prices_daily);")
+tickers = [row[1] for row in cursor.fetchall() if row[1] != 'Date']
+
+# Get price data for a ticker
+cursor.execute("SELECT Date, AAPL FROM stock_prices_daily WHERE AAPL IS NOT NULL")
+data = cursor.fetchall()
+
+# Get metadata
+cursor.execute("SELECT ticker, name FROM ticker_metadata WHERE ticker = 'AAPL'")
+metadata = cursor.fetchone()
+
+conn.close()
+```
+
+## Troubleshooting
+
+### Charts Not Loading
+- **Check Flask server is running** on port 5000
+- **Check browser console** for API errors
+- **Verify database exists**: `ls market_data.db`
+- **Check API health**: Visit `http://localhost:5000/api/health`
+
+### Metadata Not Showing
+- **Run metadata update**: `python -c "from metadata_utils import auto_update_new_tickers; auto_update_new_tickers()"`
+- **Check ticker_metadata table**: `sqlite3 market_data.db "SELECT * FROM ticker_metadata LIMIT 5"`
+
+### Workspace Changes Not Persisting
+- **Check workspace.json permissions** - Should be writable
+- **Check Flask logs** - Shows save success/failure
+- **Automatic backup**: Check `workspace_backups/` folder
+
+### Price Data Missing
+- **Ticker might be delisted** - Check Yahoo Finance manually
+- **Re-download**: `python update_market_data.py --assets stocks --verbose`
+- **Check column exists**: `sqlite3 market_data.db "PRAGMA table_info(stock_prices_daily)" | grep TICKER`
+
+### Hard Refresh Browser
+If frontend changes don't appear:
+- **Windows**: `Ctrl + Shift + R` or `Ctrl + F5`
+- **Mac**: `Cmd + Shift + R`
+- Clears JavaScript cache and reloads all files
+
+## Development Notes
+
+### Database Schema
+- **Wide format**: Each ticker is a column, dates are rows
+- **Efficient for time-series queries** across multiple tickers
+- **stock_prices_daily**: Close prices (adjusted)
+- **stock_volumes_daily**: Trading volumes
+- **ticker_metadata**: Company names, data ranges
+
+### Frontend State Management
+- **Card-level state**: Each chart card maintains its own state (`card._property`)
+- **Workspace sync**: State saved to workspace.json on changes
+- **Auto-save**: Triggered by user interactions (slider release, ticker add/remove)
+- **Backend-first restore**: Loads from server on page load
+
+### Code Organization
+- **Modular JS files**: Each chart feature in separate file (legend, export, volume, etc.)
+- **Event-driven**: User actions trigger state updates → re-render → save
+- **Defensive coding**: Extensive null checks, try-catch blocks for robustness
