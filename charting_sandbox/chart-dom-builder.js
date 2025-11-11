@@ -55,6 +55,7 @@ window.ChartDomBuilder = {
                 <button class="toggle-raw-btn">Show Raw</button>
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
+                <button class="toggle-lastticker-btn">Show Last Ticker</button>
                 <button class="toggle-zeroline-btn">Show 0% Line</button>
                 <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
                 <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
@@ -71,6 +72,11 @@ window.ChartDomBuilder = {
                     <span style="font-size: 0.9rem;">Font:</span>
                     <input type="range" class="font-slider" min="8" max="24" value="12" step="1" style="width: 80px; vertical-align: middle;">
                     <span class="font-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">12</span>
+                </label>
+                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
+                    <span style="font-size: 0.9rem;">Decimals:</span>
+                    <input type="range" class="decimals-slider" min="0" max="6" value="2" step="1" style="width: 80px; vertical-align: middle;">
+                    <span class="decimals-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">2</span>
                 </label>
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
@@ -183,6 +189,7 @@ window.ChartDomBuilder = {
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
+            toggleLastTickerBtn: card.querySelector('.toggle-lastticker-btn'),
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             toggleFixedLegendBtn: card.querySelector('.toggle-fixedlegend-btn'),
             toggleNotesBtn: card.querySelector('.toggle-notes-btn'),
@@ -192,6 +199,8 @@ window.ChartDomBuilder = {
             volPaneHeightValue: card.querySelector('.volpane-height-value'),
             fontSlider: card.querySelector('.font-slider'),
             fontValue: card.querySelector('.font-value'),
+            decimalsSlider: card.querySelector('.decimals-slider'),
+            decimalsValue: card.querySelector('.decimals-value'),
             exportBtn: card.querySelector('.export-btn'),
             rangeSelect: card.querySelector('.range-select'),
             intervalSelect: card.querySelector('.interval-select'),
@@ -209,8 +218,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn } = elements;
-        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend, showNotes } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn } = elements;
+        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showNotes } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -236,6 +245,9 @@ window.ChartDomBuilder = {
         if (toggleLastLabelBtn) {
             toggleLastLabelBtn.textContent = lastLabelVisible ? 'Hide Last Label' : 'Show Last Label';
         }
+        if (toggleLastTickerBtn) {
+            toggleLastTickerBtn.textContent = lastTickerVisible ? 'Hide Last Ticker' : 'Show Last Ticker';
+        }
         if (toggleZeroLineBtn) {
             toggleZeroLineBtn.textContent = showZeroLine ? 'Hide 0% Line' : 'Show 0% Line';
         }
@@ -250,7 +262,15 @@ window.ChartDomBuilder = {
     /**
      * Add ticker chips to the selected tickers div
      */
-    normalizeTicker(t){ return t.trim().toUpperCase(); },
+    normalizeTicker(t){
+        // Extract ticker from "TICKER - Company Name" format
+        const trimmed = t.trim();
+        const dashIndex = trimmed.indexOf(' - ');
+        if (dashIndex > 0) {
+            return trimmed.substring(0, dashIndex).trim().toUpperCase();
+        }
+        return trimmed.toUpperCase();
+    },
 
     addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers, onRemove = null) {
         selectedTickersDiv.innerHTML = '';

@@ -7,17 +7,17 @@ window.ChartConfig = {
     // Trading/Market Constants
     TRADING_DAYS_PER_YEAR: 252,
     
-    // Chart Visual Settings
+    // Chart Visual Settings - Professional Color Palette
+    // Balanced palette: Tableau10 + ColorBrewer Set1 + Dark2 (tested, perceptually distinct)
     COLORS: [
-        '#1f77b4','#ff7f0e','#2ca02c','#d62728','#9467bd','#8c564b','#e377c2','#7f7f7f','#bcbd22','#17becf',
-        '#393b79','#637939','#8c6d31','#843c39','#7b4173','#3182bd','#31a354','#756bb1','#636363','#e6550d',
-        '#e31a1c','#6baed6','#9ecae1','#c6dbef','#fd8d3c','#fdd0a2','#fdae6b','#a1d99b','#74c476','#31a354',
-        '#6baed6','#9e9ac8','#bcbddc','#dadaeb','#fcbba1','#fb6a4a','#ef3b2c','#cb181d','#a50f15','#67000d',
-        '#084594','#4292c6','#6baed6','#9ecae1','#c6dbef','#d9f0a3','#addd8e','#78c679','#41ab5d','#238443',
-        '#006837','#004529','#990099','#ff0099','#00bfff','#ffa500','#ff0000','#00ff00','#008FFB','#00E396',
-        '#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#546E7A', '#26a69a', '#D10CE8',
-        '#FF66C3', '#FF8633', '#2B908F', '#F0E442', '#3D85C6', '#A52A2A', '#FFD700', '#00BFFF',
-        '#FF1493', '#00FA9A', '#9932CC', '#FF4500', '#4B0082'
+        // Tableau10 (10 colors) - Industry standard, colorblind-friendly
+        '#4E79A7', '#F28E2B', '#E15759', '#76B7B2', '#59A14F', '#EDC948', '#B07AA1', '#C71585', '#9C755F', '#BAB0AC',
+        // ColorBrewer Set1 (9 colors) - High contrast, distinct
+        '#E41A1C', '#377EB8', '#4DAF4A', '#984EA3', '#FF7F00', '#FFFF33', '#A65628', '#C2185B', '#999999',
+        // ColorBrewer Dark2 (8 colors) - Darker tones, good separation
+        '#1B9E77', '#D95F02', '#7570B3', '#E7298A', '#66A61E', '#E6AB02', '#A6761D', '#666666',
+        // Additional distinct colors (6 colors)
+        '#8B4513', '#2F4F4F', '#FF6347', '#4682B4', '#DAA520', '#20B2AA'
     ],
     
     // Analysis Settings
@@ -87,6 +87,145 @@ window.ChartConfig = {
         // Set to 0 to always honor saved ranges, or very low (0.01) for minimal override
         FIT_MIN_COVERAGE: 0.01
     }
+};
+
+/**
+ * Convert hex color to RGB
+ */
+window.ChartConfig._hexToRgb = function(hex) {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+};
+
+/**
+ * Calculate perceptual color distance (CIE76 approximation)
+ * Returns a value where higher = more different
+ */
+window.ChartConfig._colorDistance = function(color1, color2) {
+    const rgb1 = this._hexToRgb(color1);
+    const rgb2 = this._hexToRgb(color2);
+
+    if (!rgb1 || !rgb2) return 0;
+
+    // Weighted Euclidean distance (approximates human perception)
+    const rMean = (rgb1.r + rgb2.r) / 2;
+    const dr = rgb1.r - rgb2.r;
+    const dg = rgb1.g - rgb2.g;
+    const db = rgb1.b - rgb2.b;
+
+    return Math.sqrt(
+        (2 + rMean/256) * dr * dr +
+        4 * dg * dg +
+        (2 + (255-rMean)/256) * db * db
+    );
+};
+
+/**
+ * Get a consistent color for a ticker symbol
+ * Uses a simple hash function to ensure the same ticker always gets the same color
+ */
+window.ChartConfig.getTickerColor = function(ticker) {
+    if (!ticker) return this.COLORS[0];
+
+    // Simple hash function for string
+    let hash = 0;
+    for (let i = 0; i < ticker.length; i++) {
+        hash = ((hash << 5) - hash) + ticker.charCodeAt(i);
+        hash = hash & hash; // Convert to 32-bit integer
+    }
+
+    // Use absolute value and modulo to get color index
+    const index = Math.abs(hash) % this.COLORS.length;
+    return this.COLORS[index];
+};
+
+/**
+ * Optimize color assignment for a list of tickers within a chart
+ * Maintains cross-chart consistency while maximizing within-chart contrast
+ *
+ * @param {Array<string>} tickers - List of ticker symbols
+ * @returns {Map<string, string>} Map of ticker to optimized color
+ */
+window.ChartConfig.optimizeChartColors = function(tickers) {
+    if (!tickers || tickers.length === 0) return new Map();
+
+    const colorMap = new Map();
+
+    // Step 1: Hash each ticker to get its "preferred" color indices
+    // We'll create a list of candidate colors for each ticker (primary + alternatives)
+    const tickerCandidates = tickers.map(ticker => {
+        const primaryIndex = Math.abs(this._hashString(ticker)) % this.COLORS.length;
+
+        // Generate alternative indices by rotating through palette
+        const candidates = [];
+        for (let offset = 0; offset < this.COLORS.length; offset++) {
+            const index = (primaryIndex + offset) % this.COLORS.length;
+            candidates.push({
+                ticker,
+                color: this.COLORS[index],
+                index,
+                isPrimary: offset === 0,
+                offset
+            });
+        }
+        return candidates;
+    });
+
+    // Step 2: Greedy assignment - assign colors to maximize minimum distance
+    const usedColors = new Set();
+    const assignments = [];
+
+    for (let i = 0; i < tickers.length; i++) {
+        let bestCandidate = null;
+        let bestScore = -Infinity;
+
+        for (const candidate of tickerCandidates[i]) {
+            // Skip if color already used
+            if (usedColors.has(candidate.color)) continue;
+
+            // Calculate score: prefer primary color, but maximize distance to already assigned
+            let minDistance = Infinity;
+            for (const assigned of assignments) {
+                const distance = this._colorDistance(candidate.color, assigned.color);
+                minDistance = Math.min(minDistance, distance);
+            }
+
+            // Score favors: (1) minimum distance to existing colors, (2) primary color preference
+            const score = (assignments.length === 0 ? 1000 : minDistance) - (candidate.offset * 10);
+
+            if (score > bestScore) {
+                bestScore = score;
+                bestCandidate = candidate;
+            }
+        }
+
+        if (bestCandidate) {
+            usedColors.add(bestCandidate.color);
+            assignments.push(bestCandidate);
+            colorMap.set(bestCandidate.ticker, bestCandidate.color);
+        } else {
+            // Fallback: use hash-based color even if duplicate
+            colorMap.set(tickers[i], this.getTickerColor(tickers[i]));
+        }
+    }
+
+    return colorMap;
+};
+
+/**
+ * Helper: Hash a string to an integer
+ */
+window.ChartConfig._hashString = function(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash = hash & hash;
+    }
+    return hash;
 };
 
 // Freeze the config to prevent accidental modifications

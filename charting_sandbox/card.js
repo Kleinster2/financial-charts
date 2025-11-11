@@ -6,7 +6,6 @@
     const WRAPPER_ID = 'charts-wrapper';
     // Use global config
     const config = window.ChartConfig;
-    const colors = config.COLORS;
     const VOL_WINDOW = config.VOLUME_WINDOW;
     const PLOT_DEFER_MS = config.DEBOUNCE_MS.PLOT;
     
@@ -52,6 +51,7 @@
             useRaw: card._useRaw || false,
             title: card._title || '',
             lastLabelVisible: card._lastLabelVisible !== false,
+            lastTickerVisible: !!card._lastTickerVisible,
             showZeroLine: !!card._showZeroLine,
             showFixedLegend: !!card._showFixedLegend,
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
@@ -60,7 +60,8 @@
             fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showNotes: !!card._showNotes,
             notes: card._notes || '',
-            manualInterval: card._manualInterval || null
+            manualInterval: card._manualInterval || null,
+            decimalPrecision: card._decimalPrecision || 2
         }));
 
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -120,6 +121,7 @@
             range: initialRange = null,
             title: initialTitle = '',
             lastLabelVisible: initialLastLabelVisible = true,
+            lastTickerVisible: initialLastTickerVisible = false,
             showZeroLine: initialShowZeroLine = false,
             wrapperEl = null,
             height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
@@ -129,7 +131,8 @@
             fixedLegendSize: initialFixedLegendSize = null,
             showNotes: initialShowNotes = false,
             notes: initialNotes = '',
-            manualInterval: initialManualInterval = null
+            manualInterval: initialManualInterval = null,
+            decimalPrecision: initialDecimalPrecision = 2
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -196,7 +199,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -208,6 +211,7 @@
         let fundamentalsMetrics = initialFundamentalsMetrics;  // Active metrics
         let useRaw = initialUseRaw;
         let lastLabelVisible = initialLastLabelVisible;
+        let lastTickerVisible = initialLastTickerVisible;
         let showZeroLine = initialShowZeroLine;
         let showFixedLegend = initialShowFixedLegend;
         let chart = null;
@@ -216,6 +220,7 @@
         let revenuePane = null;  // Revenue pane
         let fundamentalsPane = null;  // Fundamentals pane
         let avgSeries = null;
+        let tickerLabelsContainer = null;  // Container for ticker labels on right side
         let zeroLineSeries = null;
         let fixedLegendEl = null;
         
@@ -223,6 +228,7 @@
         let debouncedRebase = null;
         let diffChart = null;
         let rangeSaveHandler = null;
+        let tickerLabelHandler = null;
         let skipRangeApplication = false;  // Flag to skip automatic range application
         const debouncedSaveCards = (window.ChartUtils && window.ChartUtils.debounce) ? window.ChartUtils.debounce(saveCards, 300) : saveCards;
 
@@ -237,7 +243,6 @@
         const fundamentalSeriesMap = new Map();
         const rawPriceMap = new Map();
         const latestRebasedData = {};
-        let colorIndex = 0;
 
         // Store state on card element
         card._selectedTickers = selectedTickers;
@@ -254,6 +259,7 @@
         card._visibleRange = initialRange;
         card._title = initialTitle;
         card._lastLabelVisible = lastLabelVisible;
+        card._lastTickerVisible = lastTickerVisible;
         card._showZeroLine = showZeroLine;
         card._showFixedLegend = showFixedLegend;
         card._fixedLegendPos = initialFixedLegendPos;
@@ -264,6 +270,7 @@
         card._showNotes = initialShowNotes;
         card._notes = initialNotes;
         card._manualInterval = initialManualInterval;  // Manual interval override (null = auto)
+        card._decimalPrecision = initialDecimalPrecision;  // Decimal precision for price display
 
         // Initialize notes UI
         if (notesSection && notesTextarea) {
@@ -377,6 +384,10 @@
                 console.log(`[Card:${cardId}] Applying axis font size ${newSize}`);
                 try { chart.applyOptions({ layout: { fontSize: newSize } }); } catch (e) { console.warn(`[Card:${cardId}] chart.applyOptions(layout.fontSize) failed`, e); }
             }
+            // Update ticker labels font size
+            if (tickerLabelsContainer) {
+                window.ChartTickerLabels.updateFontSize(tickerLabelsContainer, newSize);
+            }
         }
         function setFontSize(newSize) {
             const size = Math.max(FONT_MIN, Math.min(FONT_MAX, parseInt(newSize)));
@@ -403,6 +414,51 @@
             const currentFontSize = card._fontSize || (UI.FONT_DEFAULT || 12);
             fontSlider.value = currentFontSize;
             if (fontValue) fontValue.textContent = currentFontSize;
+        }
+
+        // Decimals slider event handler
+        function updatePriceFormat(precision) {
+            if (chart && chart.priceScale) {
+                const priceFormat = useRaw
+                    ? { type: 'custom', minMove: 0.01, formatter: (price) => {
+                        // Magnitude-based decimals for raw prices, capped by slider maximum
+                        const absPrice = Math.abs(price);
+                        const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
+                        const dec = Math.min(magDecimals, precision);
+                        return price.toFixed(dec);
+                    }}
+                    : { type: 'custom', minMove: 0.1, formatter: (v) => {
+                        const diff = v - 100;
+                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                        // Magnitude-based decimals, capped by slider maximum
+                        const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
+                        const dec = Math.min(magDecimals, precision);
+                        return `${sign}${Math.abs(diff).toFixed(dec)}%`;
+                    }};
+
+                try {
+                    chart.priceScale('right').applyOptions({ priceFormat });
+                    console.log(`[Card:${cardId}] Updated price format precision to ${precision}`);
+                } catch (e) {
+                    console.warn('[Card] Could not update price scale format:', e);
+                }
+            }
+        }
+
+        if (decimalsSlider) {
+            decimalsSlider.addEventListener('input', (e) => {
+                const precision = parseInt(e.target.value);
+                card._decimalPrecision = precision;
+                updatePriceFormat(precision);
+                if (decimalsValue) decimalsValue.textContent = precision;
+            });
+            decimalsSlider.addEventListener('change', () => {
+                saveCards();
+            });
+            // Initialize slider with current precision (default 2)
+            const currentPrecision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
+            decimalsSlider.value = currentPrecision;
+            if (decimalsValue) decimalsValue.textContent = currentPrecision;
         }
 
         // Export button handler
@@ -433,7 +489,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
+            showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -479,6 +535,11 @@
                     } catch (_) {}
                 }
 
+                // Remove ticker label
+                if (tickerLabelsContainer) {
+                    window.ChartTickerLabels.removeLabel(tickerLabelsContainer, ticker);
+                }
+
                 // Remove chip element
                 if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
 
@@ -498,7 +559,11 @@
             const tickers = window.ChartDomBuilder.parseTickerInput(initialTickers);
             tickers.forEach(t => {
                 selectedTickers.add(t);
-                tickerColorMap.set(t, colors[colorIndex++ % colors.length]);
+            });
+            // Use optimized color mapping - maintains cross-chart consistency while avoiding similar colors
+            const optimizedColors = window.ChartConfig.optimizeChartColors(Array.from(selectedTickers));
+            optimizedColors.forEach((color, ticker) => {
+                tickerColorMap.set(ticker, color);
             });
             window.ChartDomBuilder.addTickerChips(
                 selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
@@ -509,14 +574,19 @@
         const addTicker = () => {
             const input = window.ChartDomBuilder.normalizeTicker(tickerInput.value);
             if (!input || selectedTickers.has(input)) return;
-            
+
             selectedTickers.add(input);
-            tickerColorMap.set(input, colors[colorIndex++ % colors.length]);
-            
+
+            // Re-optimize colors for all tickers to avoid similar colors
+            const optimizedColors = window.ChartConfig.optimizeChartColors(Array.from(selectedTickers));
+            optimizedColors.forEach((color, ticker) => {
+                tickerColorMap.set(ticker, color);
+            });
+
             window.ChartDomBuilder.addTickerChips(
                 selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
             );
-            
+
             tickerInput.value = '';
             saveCards();
         };
@@ -524,13 +594,22 @@
         // Main plot function
         async function plot() {
             if (!chart) {
-                // Set price format based on mode
+                // Set price format based on mode and decimal precision
+                const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
                 const priceFormat = useRaw
-                    ? { type: 'price', precision: 2, minMove: 0.01 }
+                    ? { type: 'custom', minMove: 0.01, formatter: (price) => {
+                        // Magnitude-based decimals for raw prices, capped by slider maximum
+                        const absPrice = Math.abs(price);
+                        const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
+                        const dec = Math.min(magDecimals, precision);
+                        return price.toFixed(dec);
+                    }}
                     : { type: 'custom', minMove: 0.1, formatter: (v) => {
                         const diff = v - 100;
                         const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                        const dec = Math.abs(diff) >= 100 ? 0 : 1;
+                        // Magnitude-based decimals, capped by slider maximum
+                        const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
+                        const dec = Math.min(magDecimals, precision);
                         return `${sign}${Math.abs(diff).toFixed(dec)}%`;
                     }};
 
@@ -549,6 +628,9 @@
                         vertLine: { visible: true, labelVisible: true }
                     }
                 });
+
+                // Create ticker labels container
+                tickerLabelsContainer = window.ChartTickerLabels.createLabelsContainer(chartBox);
 
                 // Ensure initial size reflects stored height
                 applyResize(card._height || initialHeight);
@@ -702,16 +784,17 @@
 
                     const color = tickerColorMap.get(ticker);
                     const mult = multiplierMap.get(ticker) || 1;
-                    
-                    const plotData = useRaw ? rawData : 
+
+                    const plotData = useRaw ? rawData :
                         window.ChartSeriesManager.rebaseData(rawData, mult);
-                    
+
                     if (!useRaw) {
                         latestRebasedData[ticker] = plotData;
                     }
 
+                    const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
                     window.ChartSeriesManager.createOrUpdateSeries(
-                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw
+                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw, precision
                     );
                 }
 
@@ -1135,7 +1218,42 @@
                     );
                 }
 
+                // Update ticker labels
+                if (tickerLabelsContainer) {
+                    const currentFontSize = card._fontSize || window.ChartConfig.UI.FONT_DEFAULT || 12;
+                    const tickerData = useRaw ? rawPriceMap : latestRebasedData;
 
+                    // Initial update (only for raw mode or if rebased data exists)
+                    if (useRaw || Object.keys(latestRebasedData).length > 0) {
+                        window.ChartTickerLabels.updateAllLabels(
+                            tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
+                            tickerData, chart, lastTickerVisible, currentFontSize
+                        );
+                    }
+
+                    // Subscribe to range changes to update label positions
+                    // Unsubscribe from previous handler first
+                    if (tickerLabelHandler) {
+                        chart.timeScale().unsubscribeVisibleTimeRangeChange(tickerLabelHandler);
+                    }
+
+                    // In raw mode: update immediately (data doesn't change)
+                    // In percentage mode: skip immediate update (rebasing callback will handle it)
+                    tickerLabelHandler = () => {
+                        if (useRaw && tickerLabelsContainer && chart) {
+                            // Raw mode: just update positions with same data
+                            setTimeout(() => {
+                                const currentFontSize = card._fontSize || window.ChartConfig.UI.FONT_DEFAULT || 12;
+                                window.ChartTickerLabels.updateAllLabels(
+                                    tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
+                                    rawPriceMap, chart, lastTickerVisible, currentFontSize
+                                );
+                            }, 50);
+                        }
+                        // Percentage mode: labels will be updated by rebasing callback (500ms delay)
+                    };
+                    chart.timeScale().subscribeVisibleTimeRangeChange(tickerLabelHandler);
+                }
 
                 // Subscribe to save visible range changes (debounced)
                 if (rangeSaveHandler) {
@@ -1179,6 +1297,16 @@
                             if (showAvg) {
                                 avgSeries = window.ChartSeriesManager.updateAverageSeries(
                                     chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
+                                );
+                            }
+                        },
+                        onRebaseComplete: () => {
+                            // Update ticker labels after rebasing completes
+                            if (tickerLabelsContainer) {
+                                const currentFontSize = card._fontSize || window.ChartConfig.UI.FONT_DEFAULT || 12;
+                                window.ChartTickerLabels.updateAllLabels(
+                                    tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
+                                    latestRebasedData, chart, lastTickerVisible, currentFontSize
                                 );
                             }
                         },
@@ -1609,12 +1737,21 @@
 
             // Update price scale format immediately
             if (chart && chart.priceScale) {
+                const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
                 const priceFormat = useRaw
-                    ? { type: 'price', precision: 2, minMove: 0.01 }
+                    ? { type: 'custom', minMove: 0.01, formatter: (price) => {
+                        // Magnitude-based decimals for raw prices, capped by slider maximum
+                        const absPrice = Math.abs(price);
+                        const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
+                        const dec = Math.min(magDecimals, precision);
+                        return price.toFixed(dec);
+                    }}
                     : { type: 'custom', minMove: 0.1, formatter: (v) => {
                         const diff = v - 100;
                         const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                        const dec = Math.abs(diff) >= 100 ? 0 : 1;
+                        // Magnitude-based decimals, capped by slider maximum
+                        const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
+                        const dec = Math.min(magDecimals, precision);
                         return `${sign}${Math.abs(diff).toFixed(dec)}%`;
                     }};
 
@@ -1638,7 +1775,7 @@
                 card._lastLabelVisible = lastLabelVisible;
                 console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible
                 });
                 // Apply to all existing series
                 priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
@@ -1658,6 +1795,23 @@
             });
         }
 
+        // Toggle last ticker label visibility
+        if (toggleLastTickerBtn) {
+            toggleLastTickerBtn.addEventListener('click', () => {
+                lastTickerVisible = !lastTickerVisible;
+                card._lastTickerVisible = lastTickerVisible;
+                console.log(`[Card:${cardId}] Last ticker label ${lastTickerVisible ? 'enabled' : 'disabled'}`);
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible
+                });
+                // Update ticker labels visibility
+                if (tickerLabelsContainer) {
+                    window.ChartTickerLabels.setLabelsVisibility(tickerLabelsContainer, lastTickerVisible);
+                }
+                saveCards();
+            });
+        }
+
         // Toggle zero line visibility
         if (toggleZeroLineBtn) {
             toggleZeroLineBtn.addEventListener('click', () => {
@@ -1668,7 +1822,7 @@
                 updateZeroLine();
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine
                 });
                 saveCards();
             });
@@ -1785,7 +1939,7 @@
                 }
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend
                 });
                 saveCards();
             });
@@ -1801,7 +1955,7 @@
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
                     showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane,
-                    useRaw, showAvg, lastLabelVisible, showZeroLine, showFixedLegend,
+                    useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend,
                     showNotes: !showNotes
                 });
                 saveCards();
@@ -2118,26 +2272,47 @@
             addBtn.addEventListener('click', () => createChartCard(''));
         }
 
-        // Populate autocomplete
-        fetch('http://localhost:5000/api/tickers')
-            .then(r => r.json())
-            .then(list => {
+        // Populate autocomplete with tickers and metadata
+        (async () => {
+            try {
+                const [tickersResp, metadataResp] = await Promise.all([
+                    fetch('http://localhost:5000/api/tickers'),
+                    fetch('http://localhost:5000/api/metadata?tickers=ALL')
+                ]);
+
+                const tickers = await tickersResp.json();
+                const metadata = await metadataResp.json();
+
                 const dl = document.getElementById('ticker-list');
                 if (dl) {
                     dl.innerHTML = '';
-                    list.forEach(t => {
+
+                    // Add ticker options with company names
+                    tickers.forEach(t => {
                         const opt = document.createElement('option');
-                        opt.value = t;
+
+                        // If we have metadata, create option as "TICKER - Company Name"
+                        // This allows searching by either ticker or company name
+                        if (metadata[t] && metadata[t] !== t) {
+                            opt.value = `${t} - ${metadata[t]}`;
+                        } else {
+                            opt.value = t;
+                        }
+
                         dl.appendChild(opt);
                     });
+
+                    // Add special tickers
                     ['ALLW_VALUE', 'ALLW_SHARES'].forEach(x => {
                         const opt = document.createElement('option');
                         opt.value = x;
                         dl.appendChild(opt);
                     });
                 }
-            })
-            .catch(() => {});
+            } catch (e) {
+                console.warn('Failed to populate autocomplete:', e);
+            }
+        })();
 
         // Restore or create cards (backend-first for cross-browser persistence)
         const urlParams = new URLSearchParams(window.location.search);
@@ -2177,7 +2352,8 @@
                             fixedLegendSize: c.fixedLegendSize || null,
                             showNotes: !!c.showNotes,
                             notes: c.notes || '',
-                            manualInterval: c.manualInterval || null
+                            manualInterval: c.manualInterval || null,
+                            decimalPrecision: c.decimalPrecision || 2
                         });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) {}
@@ -2229,7 +2405,8 @@
                             fixedLegendSize: c.fixedLegendSize || null,
                             showNotes: !!c.showNotes,
                             notes: c.notes || '',
-                            manualInterval: c.manualInterval || null
+                            manualInterval: c.manualInterval || null,
+                            decimalPrecision: c.decimalPrecision || 2
                         });
                     });
                     try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) {}
@@ -2268,7 +2445,8 @@
                         fixedLegendSize: c.fixedLegendSize || null,
                         showNotes: !!c.showNotes,
                         notes: c.notes || '',
-                        manualInterval: c.manualInterval || null
+                        manualInterval: c.manualInterval || null,
+                        decimalPrecision: c.decimalPrecision || 2
                     });
                 });
                 // Push local state to server to sync
