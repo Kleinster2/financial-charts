@@ -28,7 +28,7 @@ window.ChartTickerLabels = {
     },
 
     /**
-     * Create or update ticker label
+     * Create or update ticker label with explicit position
      * @param {HTMLElement} container - Labels container
      * @param {string} ticker - Ticker symbol
      * @param {number} price - Last price value
@@ -36,9 +36,10 @@ window.ChartTickerLabels = {
      * @param {Object} series - Series object for this ticker
      * @param {boolean} visible - Whether label should be visible
      * @param {number} fontSize - Font size in pixels
+     * @param {number} coordinate - Y coordinate for label position
      * @returns {HTMLElement} The label element
      */
-    createOrUpdateLabel(container, ticker, price, color, series, visible, fontSize = 12) {
+    _createOrUpdateLabelWithPosition(container, ticker, price, color, series, visible, fontSize = 12, coordinate = null) {
         let label = container.querySelector(`[data-ticker="${ticker}"]`);
 
         if (!label) {
@@ -64,19 +65,112 @@ window.ChartTickerLabels = {
         label.style.display = visible ? 'block' : 'none';
         label.style.fontSize = `${fontSize}px`;
 
-        // Calculate vertical position using series coordinate conversion
-        try {
-            if (series && typeof series.priceToCoordinate === 'function') {
-                const coordinate = series.priceToCoordinate(price);
-                if (coordinate !== null && coordinate !== undefined) {
-                    label.style.top = `${coordinate - (fontSize / 2)}px`;
+        // Set vertical position
+        // Use provided coordinate if available, otherwise calculate from series
+        if (coordinate !== null && coordinate !== undefined) {
+            label.style.top = `${coordinate - (fontSize / 2)}px`;
+        } else {
+            // Fallback: calculate from series
+            try {
+                if (series && typeof series.priceToCoordinate === 'function') {
+                    const calculatedCoordinate = series.priceToCoordinate(price);
+                    if (calculatedCoordinate !== null && calculatedCoordinate !== undefined) {
+                        label.style.top = `${calculatedCoordinate - (fontSize / 2)}px`;
+                    }
                 }
+            } catch (e) {
+                console.warn(`[TickerLabels] Could not position label for ${ticker}:`, e);
             }
-        } catch (e) {
-            console.warn(`[TickerLabels] Could not position label for ${ticker}:`, e);
         }
 
         return label;
+    },
+
+    /**
+     * Prevent label overlap by adjusting positions
+     * Modifies the adjustedCoordinate property of labelData items in place
+     * @param {Array} labelData - Array of label data objects
+     * @param {number} fontSize - Font size in pixels
+     */
+    _preventLabelOverlap(labelData, fontSize) {
+        // Minimum spacing between labels (in pixels)
+        const minSpacing = fontSize + 4;  // Label height + small gap
+
+        // Sort by target coordinate (top to bottom)
+        labelData.sort((a, b) => a.targetCoordinate - b.targetCoordinate);
+
+        // Greedy algorithm: adjust positions to maintain minimum spacing
+        for (let i = 1; i < labelData.length; i++) {
+            const prev = labelData[i - 1];
+            const curr = labelData[i];
+
+            // Check if current label overlaps with previous
+            const prevBottom = prev.adjustedCoordinate + fontSize;
+            const currTop = curr.adjustedCoordinate;
+
+            if (currTop < prevBottom + 4) {  // 4px gap
+                // Overlap detected - push current label down
+                curr.adjustedCoordinate = prevBottom + 4;
+            }
+        }
+
+        // Second pass: if labels were pushed too far from their targets,
+        // try to redistribute them more evenly
+        this._redistributeLabels(labelData, fontSize);
+    },
+
+    /**
+     * Redistribute labels to minimize total displacement from target positions
+     * @param {Array} labelData - Array of label data objects (sorted)
+     * @param {number} fontSize - Font size in pixels
+     */
+    _redistributeLabels(labelData, fontSize) {
+        if (labelData.length < 2) return;
+
+        const minSpacing = fontSize + 4;
+
+        // Find groups of overlapping labels
+        const groups = [];
+        let currentGroup = [labelData[0]];
+
+        for (let i = 1; i < labelData.length; i++) {
+            const prev = labelData[i - 1];
+            const curr = labelData[i];
+
+            // If current is within clustering distance of previous group
+            if (curr.targetCoordinate - prev.targetCoordinate < minSpacing * 2) {
+                currentGroup.push(curr);
+            } else {
+                // Start new group
+                if (currentGroup.length > 1) {
+                    groups.push(currentGroup);
+                }
+                currentGroup = [curr];
+            }
+        }
+        if (currentGroup.length > 1) {
+            groups.push(currentGroup);
+        }
+
+        // Redistribute each group around its center
+        groups.forEach(group => {
+            // Calculate center of target positions
+            const avgTarget = group.reduce((sum, item) => sum + item.targetCoordinate, 0) / group.length;
+
+            // Total height needed for this group
+            const totalHeight = (group.length - 1) * minSpacing;
+
+            // Start position (centered around average target)
+            let startY = avgTarget - (totalHeight / 2);
+
+            // Ensure group doesn't go above viewport top
+            if (startY < 0) startY = 0;
+
+            // Distribute labels evenly with minimum spacing
+            group.forEach((item, index) => {
+                item.adjustedCoordinate = startY + (index * minSpacing);
+            });
+        });
     },
 
     /**
@@ -89,8 +183,9 @@ window.ChartTickerLabels = {
      * @param {Object} chart - LightweightCharts instance
      * @param {boolean} labelsVisible - Whether labels should be shown
      * @param {number} fontSize - Font size in pixels
+     * @param {boolean} preventOverlap - Whether to adjust positions to prevent overlap (default: true)
      */
-    updateAllLabels(container, priceSeriesMap, tickerColorMap, hiddenTickers, tickerDataSource, chart, labelsVisible, fontSize = 12) {
+    updateAllLabels(container, priceSeriesMap, tickerColorMap, hiddenTickers, tickerDataSource, chart, labelsVisible, fontSize = 12, preventOverlap = true) {
         if (!container || !chart) return;
 
         const existingLabels = new Set();
@@ -114,7 +209,8 @@ window.ChartTickerLabels = {
             console.warn('[TickerLabels] Could not get visible range:', e);
         }
 
-        // Update or create labels for each visible series
+        // First pass: Collect all label data with target positions
+        const labelData = [];
         priceSeriesMap.forEach((series, ticker) => {
             if (hiddenTickers.has(ticker)) return;
 
@@ -138,8 +234,41 @@ window.ChartTickerLabels = {
             const color = tickerColorMap.get(ticker) || '#666';
             const visible = labelsVisible && !hiddenTickers.has(ticker);
 
-            this.createOrUpdateLabel(container, ticker, price, color, series, visible, fontSize);
-            existingLabels.add(ticker);
+            // Get target coordinate from series
+            let targetCoordinate = null;
+            try {
+                if (series && typeof series.priceToCoordinate === 'function') {
+                    targetCoordinate = series.priceToCoordinate(price);
+                }
+            } catch (e) {
+                console.warn(`[TickerLabels] Could not get coordinate for ${ticker}:`, e);
+            }
+
+            if (targetCoordinate !== null && targetCoordinate !== undefined) {
+                labelData.push({
+                    ticker,
+                    price,
+                    color,
+                    series,
+                    visible,
+                    targetCoordinate,
+                    adjustedCoordinate: targetCoordinate  // Initially same as target
+                });
+                existingLabels.add(ticker);
+            }
+        });
+
+        // Apply overlap prevention if enabled
+        if (preventOverlap && labelData.length > 1) {
+            this._preventLabelOverlap(labelData, fontSize);
+        }
+
+        // Second pass: Create/update labels with final positions
+        labelData.forEach(data => {
+            this._createOrUpdateLabelWithPosition(
+                container, data.ticker, data.price, data.color,
+                data.series, data.visible, fontSize, data.adjustedCoordinate
+            );
         });
 
         // Remove labels for tickers no longer in the chart

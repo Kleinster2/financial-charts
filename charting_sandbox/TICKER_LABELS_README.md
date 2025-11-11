@@ -26,27 +26,51 @@ Custom HTML ticker labels that display ticker symbols on the right side of the c
 - Container spans the full chart area with pointer-events disabled
 - Returns the container element
 
-**`createOrUpdateLabel(container, ticker, price, color, series, visible, fontSize)`**
-- Creates or updates an individual ticker label
-- Uses `series.priceToCoordinate(price)` to convert price to pixel Y position
+**`_createOrUpdateLabelWithPosition(container, ticker, price, color, series, visible, fontSize, coordinate)`** *(private)*
+- Creates or updates an individual ticker label with explicit position
+- Uses provided coordinate or calculates from `series.priceToCoordinate(price)`
 - Applies contrasting text color (black/white) based on background
 - Parameters:
   - `container` - Labels container element
   - `ticker` - Ticker symbol string
-  - `price` - Current price value to position at
+  - `price` - Current price value (for reference)
   - `color` - Background color for the label
-  - `series` - LightweightCharts series object (for coordinate conversion)
+  - `series` - LightweightCharts series object (for fallback calculation)
   - `visible` - Boolean to show/hide label
   - `fontSize` - Font size in pixels
+  - `coordinate` - Y coordinate in pixels (if null, calculates from series)
 
-**`updateAllLabels(container, priceSeriesMap, tickerColorMap, hiddenTickers, tickerDataSource, chart, labelsVisible, fontSize)`**
+**`_preventLabelOverlap(labelData, fontSize)`** *(private)*
+- Detects and prevents label overlaps
+- Two-pass algorithm: greedy stacking + group redistribution
+- Modifies `adjustedCoordinate` property in place
+- Parameters:
+  - `labelData` - Array of label data objects with targetCoordinate
+  - `fontSize` - Font size in pixels
+
+**`_redistributeLabels(labelData, fontSize)`** *(private)*
+- Second-pass redistribution for clustered labels
+- Groups nearby labels and centers them around their average target
+- Parameters:
+  - `labelData` - Array of label data objects (must be sorted)
+  - `fontSize` - Font size in pixels
+
+**`updateAllLabels(container, priceSeriesMap, tickerColorMap, hiddenTickers, tickerDataSource, chart, labelsVisible, fontSize, preventOverlap = true)`**
 - Updates all ticker labels in the chart
 - Finds the last visible data point based on chart's visible time range
-- Creates/updates labels for all visible series
+- Applies overlap prevention algorithm (if enabled)
+- Creates/updates labels for all visible series with adjusted positions
 - Removes labels for tickers no longer in the chart
 - Parameters:
+  - `container` - Labels container element
+  - `priceSeriesMap` - Map of ticker to LightweightCharts series
+  - `tickerColorMap` - Map of ticker to color
+  - `hiddenTickers` - Set of hidden ticker symbols
   - `tickerDataSource` - Map or Object containing price data (raw or rebased)
-  - Other parameters control visibility, styling, and data access
+  - `chart` - LightweightCharts instance
+  - `labelsVisible` - Boolean to show/hide all labels
+  - `fontSize` - Font size in pixels
+  - `preventOverlap` - Enable collision detection (default: true)
 
 **`removeLabel(container, ticker)`** - Removes a specific ticker label
 
@@ -191,18 +215,67 @@ Different update strategies for raw vs percentage modes:
 4. New subscriptions created with current `useRaw` value
 5. Labels update with appropriate data source
 
+## Overlap Prevention
+
+When multiple tickers have similar prices, labels can overlap. The module includes automatic collision detection and repositioning:
+
+### Algorithm
+
+**Two-Pass System:**
+1. **First Pass**: Greedy stacking
+   - Sort labels by vertical position (top to bottom)
+   - For each label, check if it overlaps with the previous one
+   - If overlap detected, push current label down by minimum spacing
+   - Minimum spacing = `fontSize + 4px`
+
+2. **Second Pass**: Group redistribution
+   - Identify clusters of labels that were pushed close together
+   - Calculate center point of each cluster
+   - Redistribute cluster labels evenly around the center
+   - Ensures labels stay near their target prices while preventing overlap
+
+### Example
+
+```
+Before (overlapping):          After (adjusted):
+IONQ  ────                     IONQ  ────
+QUBT  ────  (overlap!)         RGTI  ────  (4px gap)
+RGTI  ────                     QUBT  ────  (4px gap)
+QBTS  ────                     QBTS  ────
+```
+
+### Configuration
+
+Overlap prevention is **enabled by default**. To disable:
+
+```javascript
+window.ChartTickerLabels.updateAllLabels(
+    container, priceSeriesMap, tickerColorMap, hiddenTickers,
+    tickerData, chart, labelsVisible, fontSize,
+    false  // preventOverlap = false
+);
+```
+
+### Edge Cases
+
+- **Top boundary**: Labels won't be pushed above Y=0
+- **Small groups**: Labels with distant neighbors are not redistributed
+- **Dynamic updates**: Positions recalculate on every zoom/pan
+
 ## Known Limitations
 
 1. **Performance**: With 20+ tickers, DOM manipulation may cause slight lag
-2. **Overlap**: Labels can overlap if prices are very close together
+2. **Vertical space**: With many tickers in a small price range, labels may extend beyond chart bounds
 3. **Mobile**: Labels may be too small on mobile devices (controlled by font slider)
 4. **Export**: HTML labels don't appear in PNG exports (only chart canvas exports)
+5. **Connector lines**: Adjusted labels don't show visual connectors to actual price (future enhancement)
 
 ## Future Enhancements
 
-- [ ] Auto-adjust label position to prevent overlaps
 - [ ] Option to show price value alongside ticker
 - [ ] Customizable label position (left/right/top/bottom)
-- [ ] Label collision detection
+- [ ] Visual connector lines from adjusted label to actual price level
 - [ ] Include labels in chart exports
 - [ ] Animation when labels move
+- [ ] Smart label hiding when too many tickers
+- [ ] Alternative layout modes (staggered, compact, etc.)
