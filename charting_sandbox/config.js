@@ -11,7 +11,7 @@ window.ChartConfig = {
     // Balanced palette: Tableau10 + ColorBrewer Set1 + Dark2 (tested, perceptually distinct)
     COLORS: [
         // Tableau10 (10 colors) - Industry standard, colorblind-friendly
-        '#4E79A7', '#F28E2B', '#E15759', '#76B7B2', '#59A14F', '#EDC948', '#B07AA1', '#C71585', '#9C755F', '#BAB0AC',
+        '#4E79A7', '#B8860B', '#E15759', '#76B7B2', '#59A14F', '#EDC948', '#B07AA1', '#C71585', '#9C755F', '#BAB0AC',
         // ColorBrewer Set1 (9 colors) - High contrast, distinct
         '#E41A1C', '#377EB8', '#4DAF4A', '#984EA3', '#FF7F00', '#FFFF33', '#A65628', '#C2185B', '#999999',
         // ColorBrewer Dark2 (8 colors) - Darker tones, good separation
