@@ -37,9 +37,10 @@ window.ChartTickerLabels = {
      * @param {boolean} visible - Whether label should be visible
      * @param {number} fontSize - Font size in pixels
      * @param {number} coordinate - Y coordinate for label position
+     * @param {number} rightOffset - Offset from right edge in pixels
      * @returns {HTMLElement} The label element
      */
-    _createOrUpdateLabelWithPosition(container, ticker, price, color, series, visible, fontSize = 12, coordinate = null) {
+    _createOrUpdateLabelWithPosition(container, ticker, price, color, series, visible, fontSize = 12, coordinate = null, rightOffset = 30) {
         let label = container.querySelector(`[data-ticker="${ticker}"]`);
 
         if (!label) {
@@ -47,7 +48,7 @@ window.ChartTickerLabels = {
             label.className = 'ticker-label';
             label.setAttribute('data-ticker', ticker);
             label.style.position = 'absolute';
-            label.style.right = '10px'; // Position near right edge in price scale area
+            label.style.right = `${rightOffset}px`; // Position in price scale area
             label.style.padding = '2px 6px';
             label.style.borderRadius = '3px';
             label.style.fontWeight = 'bold';
@@ -64,6 +65,7 @@ window.ChartTickerLabels = {
         label.style.color = this._getContrastColor(color);
         label.style.display = visible ? 'block' : 'none';
         label.style.fontSize = `${fontSize}px`;
+        label.style.right = `${rightOffset}px`; // Update position for existing labels
 
         // Set vertical position
         // Use provided coordinate if available, otherwise calculate from series
@@ -199,6 +201,10 @@ window.ChartTickerLabels = {
             }
         };
 
+        // Position labels in the price scale area (just outside the plot space)
+        // We'll use a small fixed offset from the right edge to keep them in the price scale
+        const rightOffset = 30; // 30px from right edge, inside price scale area
+
         // Get visible time range to find the last visible point
         let visibleTimeRange = null;
         try {
@@ -267,7 +273,7 @@ window.ChartTickerLabels = {
         labelData.forEach(data => {
             this._createOrUpdateLabelWithPosition(
                 container, data.ticker, data.price, data.color,
-                data.series, data.visible, fontSize, data.adjustedCoordinate
+                data.series, data.visible, fontSize, data.adjustedCoordinate, rightOffset
             );
         });
 
