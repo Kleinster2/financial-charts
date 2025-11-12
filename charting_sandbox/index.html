@@ -22,9 +22,11 @@
     .tab-bar .tab.active{background:#666;color:#fff;}
       /* sticky chart navigation */
     #chart-nav{position:sticky;top:0;z-index:200;background:#fff;padding:4px 8px;border-bottom:1px solid #ddd;margin-bottom:8px;}
+    #chart-nav.hidden{display:none;}
     #chart-nav a{margin-right:8px;text-decoration:none;color:#007bff;font-size:0.95rem;}
     #chart-nav a:hover{text-decoration:underline;}
     #chart-nav a.active{font-weight:bold;}
+    #toggle-chart-nav-btn{margin-left:8px;}
     .static-legend{display:none !important;}
     /* Global search styles */
     #global-search-container{position:relative;flex:0 0 auto;margin-right:12px;}
@@ -78,6 +80,7 @@
       <div id="search-results"></div>
     </div>
     <button id="new-page-btn">New Page</button>
+    <button id="toggle-chart-nav-btn">Hide Chart List</button>
     <div id="tab-bar" class="tab-bar"></div>
   </div>
   <nav id="chart-nav"></nav>
@@ -107,6 +110,7 @@
   <script src="global-search.js?v=7"></script>
   <script src="chart-fundamentals.js?v=1"></script>
   <script src="chart-fundamentals-pane.js?v=1"></script>
+  <script src="chart-nav-toggle.js?v=1"></script>
 
 </body>
 </html>
