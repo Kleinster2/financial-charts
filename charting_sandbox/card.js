@@ -54,6 +54,7 @@
             lastTickerVisible: !!card._lastTickerVisible,
             showZeroLine: !!card._showZeroLine,
             showFixedLegend: !!card._showFixedLegend,
+            showLegendTickers: !!card._showLegendTickers,
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
             fixedLegendSize: card._fixedLegendSize || null,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch(_) { return undefined; } })(),
@@ -127,6 +128,7 @@
             height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
             fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
             showFixedLegend: initialShowFixedLegend = false,
+            showLegendTickers: initialShowLegendTickers = false,
             fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
             fixedLegendSize: initialFixedLegendSize = null,
             showNotes: initialShowNotes = false,
@@ -199,7 +201,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-                toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+                toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // Initialize state
         let showDiff = initialShowDiff;
@@ -214,6 +216,7 @@
         let lastTickerVisible = initialLastTickerVisible;
         let showZeroLine = initialShowZeroLine;
         let showFixedLegend = initialShowFixedLegend;
+        let showLegendTickers = initialShowLegendTickers;
         let chart = null;
         let volPane = null;  // Volatility pane
         let volumePane = null;  // Trading volume pane
@@ -262,6 +265,7 @@
         card._lastTickerVisible = lastTickerVisible;
         card._showZeroLine = showZeroLine;
         card._showFixedLegend = showFixedLegend;
+        card._showLegendTickers = showLegendTickers;
         card._fixedLegendPos = initialFixedLegendPos;
         card._fixedLegendSize = initialFixedLegendSize;
         card._height = initialHeight;
@@ -489,7 +493,7 @@
 
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, {
-            showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend
+            showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
         });
 
         // Remove ticker handler: updates state and removes corresponding series
@@ -560,10 +564,11 @@
             tickers.forEach(t => {
                 selectedTickers.add(t);
             });
-            // Use optimized color mapping - maintains cross-chart consistency while avoiding similar colors
-            const optimizedColors = window.ChartConfig.optimizeChartColors(Array.from(selectedTickers));
-            optimizedColors.forEach((color, ticker) => {
-                tickerColorMap.set(ticker, color);
+            // Assign consistent hash-based colors
+            selectedTickers.forEach(ticker => {
+                if (!tickerColorMap.has(ticker)) {
+                    tickerColorMap.set(ticker, window.ChartConfig.getTickerColor(ticker));
+                }
             });
             window.ChartDomBuilder.addTickerChips(
                 selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
@@ -577,11 +582,10 @@
 
             selectedTickers.add(input);
 
-            // Re-optimize colors for all tickers to avoid similar colors
-            const optimizedColors = window.ChartConfig.optimizeChartColors(Array.from(selectedTickers));
-            optimizedColors.forEach((color, ticker) => {
-                tickerColorMap.set(ticker, color);
-            });
+            // Assign hash-based color for new ticker
+            if (!tickerColorMap.has(input)) {
+                tickerColorMap.set(input, window.ChartConfig.getTickerColor(input));
+            }
 
             window.ChartDomBuilder.addTickerChips(
                 selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
@@ -1775,7 +1779,7 @@
                 card._lastLabelVisible = lastLabelVisible;
                 console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
                 });
                 // Apply to all existing series
                 priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
@@ -1802,12 +1806,55 @@
                 card._lastTickerVisible = lastTickerVisible;
                 console.log(`[Card:${cardId}] Last ticker label ${lastTickerVisible ? 'enabled' : 'disabled'}`);
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
                 });
                 // Update ticker labels visibility
                 if (tickerLabelsContainer) {
                     window.ChartTickerLabels.setLabelsVisibility(tickerLabelsContainer, lastTickerVisible);
                 }
+                saveCards();
+            });
+        }
+
+        // Reshuffle colors button
+        if (reshuffleColorsBtn) {
+            reshuffleColorsBtn.addEventListener('click', () => {
+                console.log(`[Card:${cardId}] Reshuffling colors`);
+
+                // Create shuffled copy of colors array
+                const shuffledColors = [...window.ChartConfig.COLORS].sort(() => Math.random() - 0.5);
+
+                // Reassign random colors to all tickers
+                const tickersArray = Array.from(selectedTickers);
+                tickersArray.forEach((ticker, index) => {
+                    tickerColorMap.set(ticker, shuffledColors[index % shuffledColors.length]);
+                });
+
+                // Update UI
+                window.ChartDomBuilder.addTickerChips(
+                    selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
+                );
+
+                // Update chart series colors
+                priceSeriesMap.forEach((series, ticker) => {
+                    const newColor = tickerColorMap.get(ticker);
+                    if (newColor) {
+                        series.applyOptions({
+                            color: newColor,
+                            lineColor: newColor
+                        });
+                    }
+                });
+
+                // Update ticker labels colors
+                if (tickerLabelsContainer) {
+                    window.ChartTickerLabels.updateAllLabels(
+                        tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
+                        useRaw ? rawPriceMap : latestRebasedData, chart, lastTickerVisible,
+                        card._fontSize || window.ChartConfig.UI.FONT_DEFAULT || 12
+                    );
+                }
+
                 saveCards();
             });
         }
@@ -1822,7 +1869,7 @@
                 updateZeroLine();
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
                 });
                 saveCards();
             });
@@ -1939,7 +1986,26 @@
                 }
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
-                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
+                });
+                saveCards();
+            });
+        }
+
+        // Toggle Legend Tickers
+        if (toggleLegendTickersBtn) {
+            toggleLegendTickersBtn.addEventListener('click', () => {
+                showLegendTickers = !showLegendTickers;
+                card._showLegendTickers = showLegendTickers;
+                console.log(`[Card:${cardId}] Legend tickers ${showLegendTickers ? 'enabled' : 'disabled'}`);
+
+                // Update fixed legend to reflect new setting
+                if (showFixedLegend && fixedLegendEl) {
+                    updateFixedLegend();
+                }
+
+                window.ChartDomBuilder.updateButtonStates(elements, {
+                    showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers
                 });
                 saveCards();
             });
@@ -1955,7 +2021,7 @@
 
                 window.ChartDomBuilder.updateButtonStates(elements, {
                     showDiff, showVol: showVolPane, showVolume: showVolumePane, showRevenue: showRevenuePane, showFundamentalsPane,
-                    useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend,
+                    useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers,
                     showNotes: !showNotes
                 });
                 saveCards();
@@ -2013,7 +2079,8 @@
                 useRaw,
                 hiddenTickers,
                 tickerColorMap,
-                getName: (t) => nameCache[t]
+                getName: (t) => nameCache[t],
+                showTickers: showLegendTickers
             });
         }
 

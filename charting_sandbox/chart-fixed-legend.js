@@ -186,6 +186,35 @@ window.ChartFixedLegend = {
     },
 
     /**
+     * Check if name is similar enough to ticker to show only name
+     */
+    _isSimilarToTicker(ticker, name) {
+        if (!name || !ticker) return false;
+
+        const tickerUpper = ticker.toUpperCase();
+        const nameUpper = name.toUpperCase();
+
+        // Exact match (case-insensitive)
+        if (tickerUpper === nameUpper) return true;
+
+        // Name is just the ticker with common suffixes
+        const suffixes = [' INC', ' CORP', ' LTD', ' PLC', ' AG', ' SE', ' NV'];
+        for (const suffix of suffixes) {
+            if (nameUpper === tickerUpper + suffix) return true;
+        }
+
+        // Ticker is an acronym of the name (e.g., "IBM" for "IBM")
+        // or name starts with ticker (e.g., "AAPL" for "Apple")
+        if (nameUpper.startsWith(tickerUpper)) return true;
+
+        // Check if name contains ticker as whole word
+        const words = nameUpper.split(/\s+/);
+        if (words.some(w => w === tickerUpper)) return true;
+
+        return false;
+    },
+
+    /**
      * Update fixed legend content with latest values
      */
     updateContent(fixedLegend, data, options = {}) {
@@ -193,7 +222,8 @@ window.ChartFixedLegend = {
             useRaw = false,
             hiddenTickers = new Set(),
             tickerColorMap = new Map(),
-            getName = (t) => t
+            getName = (t) => t,
+            showTickers = false
         } = options;
 
         if (!fixedLegend) return;
@@ -209,7 +239,22 @@ window.ChartFixedLegend = {
             if (value == null || isNaN(value)) return;
 
             const displayColor = color || tickerColorMap.get(ticker) || '#000';
-            const label = getName(ticker) || ticker;
+            const name = getName(ticker);
+
+            // Smart label logic
+            let label;
+            if (showTickers) {
+                // If name is same or similar to ticker, show only name
+                if (this._isSimilarToTicker(ticker, name)) {
+                    label = name || ticker;
+                } else {
+                    // Show both: "TICKER - Name"
+                    label = name && name !== ticker ? `${ticker} - ${name}` : ticker;
+                }
+            } else {
+                // Original behavior: just show name (or ticker if no name)
+                label = name || ticker;
+            }
 
             rows.push({ ticker, label, value, color: displayColor });
         });

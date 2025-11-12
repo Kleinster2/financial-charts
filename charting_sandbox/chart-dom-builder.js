@@ -56,8 +56,10 @@ window.ChartDomBuilder = {
                 <button class="toggle-avg-btn">Show Avg</button>
                 <button class="toggle-lastlabel-btn">Hide Last Label</button>
                 <button class="toggle-lastticker-btn">Show Last Ticker</button>
+                <button class="reshuffle-colors-btn">Reshuffle Colors</button>
                 <button class="toggle-zeroline-btn">Show 0% Line</button>
                 <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
+                <button class="toggle-legend-tickers-btn">Show Legend Tickers</button>
                 <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
                     <span style="font-size: 0.9rem;">Height:</span>
                     <input type="range" class="height-slider" min="400" max="800" value="500" step="50" style="width: 100px; vertical-align: middle;">
@@ -190,8 +192,10 @@ window.ChartDomBuilder = {
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             toggleLastTickerBtn: card.querySelector('.toggle-lastticker-btn'),
+            reshuffleColorsBtn: card.querySelector('.reshuffle-colors-btn'),
             toggleZeroLineBtn: card.querySelector('.toggle-zeroline-btn'),
             toggleFixedLegendBtn: card.querySelector('.toggle-fixedlegend-btn'),
+            toggleLegendTickersBtn: card.querySelector('.toggle-legend-tickers-btn'),
             toggleNotesBtn: card.querySelector('.toggle-notes-btn'),
             heightSlider: card.querySelector('.height-slider'),
             heightValue: card.querySelector('.height-value'),
@@ -218,8 +222,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleNotesBtn } = elements;
-        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showNotes } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn } = elements;
+        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers, showNotes } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -253,6 +257,9 @@ window.ChartDomBuilder = {
         }
         if (toggleFixedLegendBtn) {
             toggleFixedLegendBtn.textContent = showFixedLegend ? 'Hide Fixed Legend' : 'Show Fixed Legend';
+        }
+        if (toggleLegendTickersBtn) {
+            toggleLegendTickersBtn.textContent = showLegendTickers ? 'Hide Legend Tickers' : 'Show Legend Tickers';
         }
         if (toggleNotesBtn) {
             toggleNotesBtn.textContent = showNotes ? 'Hide Notes' : 'Show Notes';
