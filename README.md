@@ -17,6 +17,15 @@ This repo includes three components:
 -  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
 -  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
 
+## Documentation
+
+For detailed information on specific topics, refer to these documentation files:
+
+-  **[DATA_SOURCES.md](DATA_SOURCES.md)** - Critical distinction between database (local cache) vs yfinance API (source of truth). Always check yfinance first for data availability.
+-  **[WORKFLOW_CHECKLIST.md](WORKFLOW_CHECKLIST.md)** - Quick reference guide for common data availability checks and workflow patterns.
+-  **[charting_sandbox/REFACTORING_STATUS.md](charting_sandbox/REFACTORING_STATUS.md)** - Code refactoring history and architecture evolution.
+-  **[charting_sandbox/COMPLETION_GUIDE.md](charting_sandbox/COMPLETION_GUIDE.md)** - Step-by-step implementation guides for card.js refactoring.
+
 ## Project Structure
 
 ```
