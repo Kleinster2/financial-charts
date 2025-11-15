@@ -19,7 +19,9 @@ END_DATE = datetime.today().strftime("%Y-%m-%d")
 ADR_TICKERS = [
     "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
     "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
-    "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG"
+    "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
+    # Robotics/Industrial ADRs
+    "ABB", "FANUY", "ABBNY"
 ]
 
 ETF_TICKERS = [
@@ -29,6 +31,8 @@ ETF_TICKERS = [
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
     # Sector ETFs (GICS)
     "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
+    # Additional Energy ETFs
+    "OIH", "XOP", "VDE",
     # Broad international equity baskets
     "EFA", "EEM", "IEFA", "VWO", "SPEM",  # added SPEM for ALLW
     # Single-country developed market ETFs
@@ -59,6 +63,8 @@ ETF_TICKERS = [
     "ICLN", "TAN", "LIT", "QCLN", "PBW", "FAN",
     # Technology ETFs
     "SOXX", "SMH", "PAVE", "MJ", "QTUM",
+    # Robotics & Automation ETFs
+    "BOTZ", "ROBO", "IRBO", "ROBT",
     # International ETFs
     "RSX", "INDA",
     # Leveraged ETFs
@@ -108,7 +114,7 @@ CRYPTO_TICKERS = [
 
 # High-profile non-S&P 500 U.S. stocks to track
 OTHER_HIGH_PROFILE_STOCKS = [
-    "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SQ","UBER","ZM",
+    "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SPOT","SQ","UBER","ZM",
     "BYND","CELH","CPNG","DASH","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
@@ -180,6 +186,8 @@ BATTERY_ENERGY_STORAGE_STOCKS = [
     "FLNC",   # Fluence Energy
     "ENVX",   # Enovix (battery tech)
     "EOSE",   # Eos Energy Enterprises
+    "RUN",    # Sunrun (residential solar)
+    "NOVA",   # Sunnova Energy (residential solar)
     # Graphite & battery materials
     "NOVRF",  # Nouveau Monde Graphite
     "SYAAF",  # Syrah Resources (graphite)
@@ -491,7 +499,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
         if vol_table_exists:
             existing_vol_df = pd.read_sql("SELECT * FROM stock_volumes_daily", conn)
             if not existing_vol_df.empty and 'Date' in existing_vol_df.columns:
-                existing_vol_df['Date'] = pd.to_datetime(existing_vol_df['Date'])
+                existing_vol_df['Date'] = pd.to_datetime(existing_vol_df['Date'], format='mixed')
                 existing_vol_df.set_index('Date', inplace=True)
 
         # 3. Download data in a fault-tolerant way

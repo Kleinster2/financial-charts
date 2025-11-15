@@ -46,6 +46,8 @@ def clean_company_name(name: str) -> str:
         ' S.A.',
         ' Holdings',
         ' Hldgs',
+        ' Hldg.',
+        ' Hldg',
         ' Group',
     ]
 

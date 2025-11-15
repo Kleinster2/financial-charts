@@ -248,8 +248,8 @@ window.ChartFixedLegend = {
                 if (this._isSimilarToTicker(ticker, name)) {
                     label = name || ticker;
                 } else {
-                    // Show both: "TICKER - Name"
-                    label = name && name !== ticker ? `${ticker} - ${name}` : ticker;
+                    // Show both: "Name (TICKER)"
+                    label = name && name !== ticker ? `${name} (${ticker})` : ticker;
                 }
             } else {
                 // Original behavior: just show name (or ticker if no name)
