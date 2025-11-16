@@ -13,7 +13,11 @@ This project collects and serves multi-asset daily market data (stocks, ETFs, fu
 
 This repo includes three components:
 
--  __Data Collection__ (`update_market_data.py`, `download_all_assets.py`): Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
+-  __Data Collection__: Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
+   - `download_single_ticker.py TICKER` - Add individual tickers (~5 sec each)
+   - `update_market_data.py` - Daily updates (~3 min)
+   - `download_all_assets.py` - Full rebuild (~3 min)
+   - See **[WORKFLOW_CHECKLIST.md](WORKFLOW_CHECKLIST.md)** for detailed usage guide
 -  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
 -  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
 
@@ -94,8 +98,9 @@ financial-charts/
 
 ### Backend Core
 - **`constants.py`** - Shared config: DB_PATH, PORT, asset categories
-- **`update_market_data.py`** - CLI orchestrator for data updates
-- **`download_all_assets.py`** - Main download logic, ticker lists (EV_STOCKS, CRYPTO_STOCKS, etc.)
+- **`download_single_ticker.py`** - Fast individual ticker downloads (~5 sec each)
+- **`update_market_data.py`** - Daily price updates for all tickers
+- **`download_all_assets.py`** - Full rebuild with ticker lists (EV_STOCKS, CRYPTO_STOCKS, etc.)
 - **`metadata_utils.py`** - Auto metadata fetching/cleaning (NEW Nov 2025)
 
 ### Frontend Core
