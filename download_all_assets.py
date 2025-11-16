@@ -22,8 +22,9 @@ ADR_TICKERS = [
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
     # Robotics/Industrial ADRs
     "ABB", "FANUY", "ABBNY",
-    # Chinese EV/Auto ADRs
-    "GELYF"  # Geely Automobile Holdings (owns Volvo, Polestar, Lotus)
+    # Chinese EV/Auto ADRs & HK Stocks
+    "GELYF",    # Geely Automobile Holdings (OTC, owns Volvo, Polestar, Lotus)
+    "0175.HK"   # Geely Automobile Holdings (Hong Kong Stock Exchange)
 ]
 
 ETF_TICKERS = [
