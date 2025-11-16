@@ -65,6 +65,8 @@ ETF_TICKERS = [
     "SOXX", "SMH", "PAVE", "MJ", "QTUM",
     # Robotics & Automation ETFs
     "BOTZ", "ROBO", "IRBO", "ROBT",
+    # Electric Vehicle & Autonomous Driving ETFs
+    "DRIV", "IDRV", "KARS",
     # International ETFs
     "RSX", "INDA",
     # Leveraged ETFs
@@ -128,6 +130,7 @@ EV_STOCKS = [
     "BYDDY",   # BYD Company (Chinese EV giant - ADR)
     "LI",      # Li Auto (Chinese EV)
     "XPEV",    # XPeng (Chinese EV)
+    "VFS",     # VinFast (Vietnamese EV maker)
     "PSNY",    # Polestar (Volvo/Geely EV brand)
     "GOEV",    # Canoo
     "WKHS",    # Workhorse (EV delivery vans)
@@ -136,7 +139,12 @@ EV_STOCKS = [
     "HMC",     # Honda Motor Company
     "STLA",    # Stellantis (Chrysler, Jeep, Peugeot, Fiat)
     "POAHY",   # Porsche
-    # Delisted/unavailable: FSR (Fisker), LEV, NKLA (Nikola), MULN, RIDE (Lordstown), BMWYY (BMW ADR)
+    "RACE",    # Ferrari (entering EV market)
+    # EV Charging infrastructure
+    "CHPT",    # ChargePoint (largest charging network)
+    "BLNK",    # Blink Charging
+    "EVGO",    # EVgo (fast charging)
+    # Delisted/unavailable: FSR (Fisker), LEV, NKLA (Nikola), MULN, RIDE (Lordstown), BMWYY (BMW ADR), FFIE (Faraday Future), ARVL (Arrival)
 ]
 
 # Mining and rare earth elements equities
