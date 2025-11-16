@@ -62,7 +62,8 @@
             showNotes: !!card._showNotes,
             notes: card._notes || '',
             manualInterval: card._manualInterval || null,
-            decimalPrecision: card._decimalPrecision || 2
+            decimalPrecision: card._decimalPrecision || 2,
+            tickerColors: Object.fromEntries(card._tickerColorMap ? Array.from(card._tickerColorMap.entries()) : [])
         }));
 
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -118,6 +119,7 @@
             fundamentalsMetrics: initialFundamentalsMetrics = ['revenue', 'netincome'],
             useRaw: initialUseRaw = false,
             multipliers: initialMultipliers = {},
+            tickerColors: initialTickerColors = {},
             hidden: initialHidden = [],
             range: initialRange = null,
             title: initialTitle = '',
@@ -238,7 +240,7 @@
         const selectedTickers = new Set();
         const hiddenTickers = new Set(initialHidden);
         const multiplierMap = new Map(Object.entries(initialMultipliers));
-        const tickerColorMap = new Map();
+        const tickerColorMap = new Map(Object.entries(initialTickerColors));
         const priceSeriesMap = new Map();
         const volSeriesMap = new Map();
         const volumeSeriesMap = new Map();
@@ -258,6 +260,7 @@
         card._fundamentalsMetrics = fundamentalsMetrics;
         card._useRaw = useRaw;
         card._multiplierMap = multiplierMap;
+        card._tickerColorMap = tickerColorMap;
         card._hiddenTickers = hiddenTickers;
         card._visibleRange = initialRange;
         card._title = initialTitle;
@@ -2406,6 +2409,7 @@
                             showRevenue: !!c.showRevenue,
                             useRaw: c.useRaw || false,
                             multipliers: c.multipliers || {},
+                            tickerColors: c.tickerColors || {},
                             hidden: c.hidden || [],
                             range: c.range || null,
                             title: c.title || '',
@@ -2460,6 +2464,7 @@
                             showRevenue: !!c.showRevenue,
                             useRaw: c.useRaw || false,
                             multipliers: c.multipliers || {},
+                            tickerColors: c.tickerColors || {},
                             hidden: c.hidden || [],
                             range: c.range || null,
                             title: c.title || '',
@@ -2501,6 +2506,7 @@
                         showRevenue: !!c.showRevenue,
                         useRaw: c.useRaw || false,
                         multipliers: c.multipliers || {},
+                            tickerColors: c.tickerColors || {},
                         hidden: c.hidden || [],
                         range: c.range || null,
                         title: c.title || '',
