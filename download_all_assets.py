@@ -21,7 +21,9 @@ ADR_TICKERS = [
     "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
     # Robotics/Industrial ADRs
-    "ABB", "FANUY", "ABBNY"
+    "ABB", "FANUY", "ABBNY",
+    # Chinese EV/Auto ADRs
+    "GELYF"  # Geely Automobile Holdings (owns Volvo, Polestar, Lotus)
 ]
 
 ETF_TICKERS = [
