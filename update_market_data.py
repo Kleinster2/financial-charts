@@ -15,6 +15,29 @@ from datetime import datetime
 from constants import DB_PATH
 from download_all_assets import update_sp500_data
 from download_futures import update_futures_data
+from cboe_iv_fetcher import CBOEImpliedVolatilityFetcher
+
+
+def update_iv_data(verbose: bool = True):
+    """Update CBOE volatility indices (VIX, VXN, VXAPL, etc.)."""
+    if verbose:
+        print("\n" + "=" * 70)
+        print("Updating CBOE Volatility Indices")
+        print("=" * 70)
+
+    fetcher = CBOEImpliedVolatilityFetcher()
+    fetcher.init_database()
+
+    # Fetch CBOE indices only (no calculated IV for individual stocks)
+    if verbose:
+        print("Fetching CBOE volatility indices...")
+    cboe_results = fetcher.fetch_and_store_cboe_indices()
+
+    cboe_success = sum(1 for v in cboe_results.values() if v is not None)
+
+    if verbose:
+        print(f"CBOE indices: {cboe_success}/{len(cboe_results)} successful")
+        print("=" * 70)
 
 
 def main():
@@ -30,10 +53,10 @@ def main():
     parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "adrs", "fx", "crypto", "futures"],
+        choices=["all", "stocks", "etfs", "adrs", "fx", "crypto", "futures", "iv"],
         default=["all"],
         help=(
-            "Asset groups to update. Use one or more of: all, stocks, etfs, adrs, fx, crypto, futures. "
+            "Asset groups to update. Use one or more of: all, stocks, etfs, adrs, fx, crypto, futures, iv. "
             "Default: all"
         ),
     )
@@ -44,7 +67,7 @@ def main():
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "adrs", "fx", "crypto", "futures"]
+        assets_to_run = ["stocks", "etfs", "adrs", "fx", "crypto", "futures", "iv"]
     else:
         assets_to_run = chosen
 
@@ -56,7 +79,7 @@ def main():
     start = time.time()
     try:
         # Run equities/FX/crypto updater if requested
-        non_fut_assets = [a for a in assets_to_run if a != "futures"]
+        non_fut_assets = [a for a in assets_to_run if a not in ("futures", "iv")]
         if non_fut_assets:
             if verbose:
                 print(f"\n[Orchestrator] Updating asset groups: {', '.join(non_fut_assets)}")
@@ -67,6 +90,12 @@ def main():
             if verbose:
                 print("\n[Orchestrator] Updating asset group: futures")
             update_futures_data(verbose=verbose)
+
+        # Run implied volatility updater if requested
+        if "iv" in assets_to_run:
+            if verbose:
+                print("\n[Orchestrator] Updating implied volatility data")
+            update_iv_data(verbose=verbose)
 
         elapsed = time.time() - start
         print(f"\nUpdate completed in {elapsed/60:.1f} min")

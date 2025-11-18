@@ -71,7 +71,45 @@ window.DataFetcher = {
 
         return results;
     },
-    
+
+    /**
+     * UNIFIED DATA GETTER - ALL tickers from single source
+     * No routing needed - all tickers (prices and IV) come from same API
+     * Returns uniform format: {ticker: [{time, value}, ...]}
+     *
+     * @param {Array<string>} tickers - Array of ANY ticker symbols (AAPL, ^VXAPL, ^VIX, MSFT, etc.)
+     * @param {number} days - Number of days of history (default: 5475 for 15 years)
+     * @returns {Object} Unified data: {ticker: [{time, value}]}
+     */
+    async getData(tickers, days = 5475) {
+        if (!tickers || tickers.length === 0) return {};
+
+        console.log(`[Unified] Fetching ${tickers.length} tickers: ${tickers.join(', ')}`);
+
+        // ALL tickers go to same endpoint - /api/data handles everything
+        // Backend automatically finds ticker in stock_prices_daily (which now includes IV columns)
+        const results = {};
+
+        try {
+            const priceData = await this.getPriceData(tickers, null, null, 'daily');
+
+            // Normalize: extract just {time, value} from data
+            for (const [ticker, data] of Object.entries(priceData)) {
+                results[ticker] = data.map(d => ({
+                    time: d.time,
+                    value: d.close || d.value || d.price
+                }));
+            }
+
+            console.log(`  ✓ Fetched ${Object.keys(results).length} tickers`);
+        } catch (err) {
+            console.error(`  ✗ Data fetch failed:`, err);
+        }
+
+        console.log(`[Unified] Returning ${Object.keys(results).length} tickers`);
+        return results;
+    },
+
     /**
      * Get historical price data
      * @param {Array<string>} tickers - Array of ticker symbols
@@ -215,6 +253,99 @@ window.DataFetcher = {
         } catch (error) {
             console.error('Health check failed:', error);
             return { status: 'error', error: error.message };
+        }
+    },
+
+    /**
+     * Get implied volatility data for stocks
+     * @param {Array<string>} tickers - Array of ticker symbols
+     * @param {number} days - Number of days of history (default: 365)
+     * @param {string} metric - Which IV metric to use: 'average_iv', 'call_iv', or 'put_iv' (default: 'average_iv')
+     * @returns {Object} Map of ticker to array of {time, value} objects
+     */
+    async getImpliedVolatility(tickers, days = 365, metric = 'average_iv') {
+        if (!tickers || tickers.length === 0) return {};
+
+        const params = new URLSearchParams();
+        params.set('tickers', tickers.join(','));
+        params.set('days', days);
+        const url = `${API_BASE_URL}/api/iv/stock?${params.toString()}`;
+
+        try {
+            const data = await fetchWithRetry(url);
+
+            // Convert IV data to chart format
+            const result = {};
+            for (const [ticker, ivArray] of Object.entries(data)) {
+                if (!Array.isArray(ivArray)) continue;
+
+                result[ticker] = ivArray.map(d => ({
+                    time: d.time,
+                    value: (d[metric] || 0) * 100  // Convert to percentage (0.30 -> 30%)
+                }));
+            }
+
+            console.log(`Fetched IV data for ${Object.keys(result).length} tickers (metric: ${metric})`);
+            return result;
+        } catch (error) {
+            console.warn('IV data fetch failed, returning empty:', error);
+            return {};
+        }
+    },
+
+    /**
+     * Get CBOE volatility indices (VIX, VXN, VXD)
+     * @param {Array<string>} symbols - Array of CBOE symbols (e.g., ['^VIX', '^VXN'])
+     * @param {number} days - Number of days of history (default: 365)
+     * @returns {Object} Map of symbol to array of {time, value} objects
+     */
+    async getCBOEIndices(symbols, days = 365) {
+        if (!symbols || symbols.length === 0) return {};
+
+        const params = new URLSearchParams();
+        params.set('symbols', symbols.join(','));
+        params.set('days', days);
+        const url = `${API_BASE_URL}/api/iv/cboe?${params.toString()}`;
+
+        try {
+            const data = await fetchWithRetry(url);
+
+            // Convert to chart format
+            const result = {};
+            for (const [symbol, dataArray] of Object.entries(data)) {
+                if (!Array.isArray(dataArray)) continue;
+
+                result[symbol] = dataArray.map(d => ({
+                    time: d.time,
+                    value: d.value  // CBOE indices are already in percentage-like scale
+                }));
+            }
+
+            console.log(`Fetched CBOE indices for ${Object.keys(result).length} symbols`);
+            return result;
+        } catch (error) {
+            console.warn('CBOE indices fetch failed, returning empty:', error);
+            return {};
+        }
+    },
+
+    /**
+     * Get latest implied volatility values
+     * @param {Array<string>} tickers - Array of ticker symbols
+     * @returns {Object} Map of ticker to latest IV data
+     */
+    async getLatestIV(tickers) {
+        if (!tickers || tickers.length === 0) return {};
+
+        const params = new URLSearchParams();
+        params.set('tickers', tickers.join(','));
+        const url = `${API_BASE_URL}/api/iv/latest?${params.toString()}`;
+
+        try {
+            return await fetchWithRetry(url);
+        } catch (error) {
+            console.warn('Latest IV fetch failed, returning empty:', error);
+            return {};
         }
     }
 };
