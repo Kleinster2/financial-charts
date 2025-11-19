@@ -105,6 +105,18 @@ window.DataFetcher = {
             console.log(`  ✓ Fetched ${Object.keys(results).length} tickers`);
         } catch (err) {
             console.error(`  ✗ Data fetch failed:`, err);
+
+            // Show user-visible error
+            if (window.Toast) {
+                const errorMsg = err.message || 'Unknown error';
+                if (errorMsg.includes('Failed to fetch') || errorMsg.includes('NetworkError')) {
+                    window.Toast.error('Unable to connect to server. Please check your connection.');
+                } else if (errorMsg.includes('HTTP 500')) {
+                    window.Toast.error('Server error. Please try again later.');
+                } else {
+                    window.Toast.error(`Failed to load chart data: ${errorMsg}`);
+                }
+            }
         }
 
         console.log(`[Unified] Returning ${Object.keys(results).length} tickers`);
@@ -224,6 +236,7 @@ window.DataFetcher = {
             return await fetchWithRetry(url, {}, 1);
         } catch (error) {
             console.warn('Failed to load workspace from server:', error);
+            // Don't show toast here - state-manager will handle it with fallback logic
             return null;
         }
     },

@@ -783,6 +783,8 @@
 
                 if (!data || Object.keys(data).length === 0) {
                     console.warn('No data received');
+                    // Don't show toast here - getData() already showed error if it was API failure
+                    // Empty response could be legitimate (ticker not found in DB)
                     return;
                 }
 

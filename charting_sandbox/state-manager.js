@@ -169,12 +169,29 @@ window.StateManager = {
             if (localData) {
                 const parsed = JSON.parse(localData);
                 console.log('[StateManager] Loaded workspace from localStorage (fallback)');
+
+                // Show info toast that backend failed but localStorage worked
+                if (window.Toast && remoteData === null) {
+                    window.Toast.info('Loaded workspace from local storage (server unavailable)', 3000);
+                }
+
                 return parsed;
+            }
+
+            // Both backend and localStorage failed - show warning
+            if (window.Toast) {
+                window.Toast.warning('Could not load saved workspace. Starting with empty workspace.');
             }
 
             return [];
         } catch (error) {
             console.error('Failed to load cards:', error);
+
+            // Show error toast for unexpected failures
+            if (window.Toast) {
+                window.Toast.error('Error loading workspace. Please refresh the page.');
+            }
+
             return [];
         }
     },
