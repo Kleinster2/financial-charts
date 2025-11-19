@@ -637,7 +637,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
             conn.commit()
             return
 
-        vprint(f"  ✓ Staging table validated ({staging_row_count} rows)")
+        vprint(f"  [OK] Staging table validated ({staging_row_count} rows)")
 
         # Atomic swap: Rename staging -> main
         vprint("  Performing atomic table swap...")
@@ -648,10 +648,10 @@ def update_sp500_data(verbose: bool = True, assets=None):
 
         # Keep old table as backup for one write cycle (will be dropped on next run)
         if table_exists:
-            vprint(f"  ✓ Old table preserved as 'stock_prices_daily_old' (backup)")
+            vprint(f"  [OK] Old table preserved as 'stock_prices_daily_old' (backup)")
 
         conn.commit()
-        vprint(f"  ✓ Prices table updated successfully")
+        vprint(f"  [OK] Prices table updated successfully")
 
         # Same pattern for volumes
         if not combined_vol_df.empty:
@@ -661,14 +661,14 @@ def update_sp500_data(verbose: bool = True, assets=None):
 
             cursor.execute(f"SELECT COUNT(*) FROM {staging_vol_table}")
             staging_vol_row_count = cursor.fetchone()[0]
-            vprint(f"  ✓ Volume staging table validated ({staging_vol_row_count} rows)")
+            vprint(f"  [OK] Volume staging table validated ({staging_vol_row_count} rows)")
 
             cursor.execute("DROP TABLE IF EXISTS stock_volumes_daily_old")
             if vol_table_exists:
                 cursor.execute("ALTER TABLE stock_volumes_daily RENAME TO stock_volumes_daily_old")
             cursor.execute(f"ALTER TABLE {staging_vol_table} RENAME TO stock_volumes_daily")
             conn.commit()
-            vprint(f"  ✓ Volumes table updated successfully")
+            vprint(f"  [OK] Volumes table updated successfully")
         if 'stocks' in selected_set:
             sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
         else:
