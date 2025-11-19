@@ -12,7 +12,8 @@ from constants import (DB_PATH, get_db_connection, DEFAULT_START_DATE, BATCH_SIZ
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
 START_DATE = DEFAULT_START_DATE
-END_DATE = datetime.today().strftime("%Y-%m-%d")
+# Use tomorrow's date as end to ensure today's data is included (yfinance treats end date as exclusive)
+END_DATE = (datetime.today() + timedelta(days=1)).strftime("%Y-%m-%d")
 
 # These lists should be maintained separately as they're not static
 # For now we'll keep them here but could move to a config file later
@@ -564,12 +565,14 @@ def update_sp500_data(verbose: bool = True, assets=None):
         else:
             combined_df = new_data_df
 
-        # 6b. Restrict to current ticker universe only if we're running a full refresh
-        # For partial asset updates, preserve existing columns to avoid dropping data.
+        # 6b. SAFETY: Never delete columns to preserve historical/delisted ticker data
+        # Previously, full refreshes would reindex(columns=all_tickers), deleting any
+        # ticker not in current lists (e.g., delisted companies, manual additions).
+        # This is now disabled to prevent irreversible data loss.
         all_groups = {'stocks','etfs','adrs','fx','crypto'}
         selected_set = set(selected)
-        if selected_set == all_groups:
-            combined_df = combined_df.reindex(columns=all_tickers)
+        # if selected_set == all_groups:
+        #     combined_df = combined_df.reindex(columns=all_tickers)  # ← DANGEROUS: Deletes unlisted tickers!
 
         # 6c. Merge volumes with existing (if available), giving precedence to new volume data
         combined_vol_df = pd.DataFrame()
@@ -585,17 +588,87 @@ def update_sp500_data(verbose: bool = True, assets=None):
                 existing_vol_df = existing_vol_df.reindex(columns=combined_vol_cols)
                 new_vol_df = new_vol_df.reindex(columns=combined_vol_cols)
                 combined_vol_df = new_vol_df.combine_first(existing_vol_df)
-            # Restrict to current ticker universe only for full refresh
-            if selected_set == all_groups:
-                combined_vol_df = combined_vol_df.reindex(columns=all_tickers)
+            # SAFETY: Never delete volume columns (same reasoning as prices)
+            # if selected_set == all_groups:
+            #     combined_vol_df = combined_vol_df.reindex(columns=all_tickers)  # ← DANGEROUS: Deletes unlisted tickers!
 
-        # 7. Save to database
+        # 7. Save to database using STAGING TABLE pattern for safety
         vprint("Saving data to database...")
-        # Ensure index name for proper DB column naming
+
+        # Pre-write validation
+        if combined_df.empty:
+            vprint("ERROR: Combined DataFrame is empty. Aborting write.")
+            return
+
         index_label = combined_df.index.name or 'Date'
-        combined_df.astype(float).to_sql("stock_prices_daily", conn, if_exists="replace", index=True, index_label=index_label)
+
+        # Get existing table info for comparison
+        existing_rows = existing_df.shape[0] if not existing_df.empty else 0
+        existing_cols = existing_df.shape[1] if not existing_df.empty else 0
+        new_rows = combined_df.shape[0]
+        new_cols = combined_df.shape[1]
+
+        vprint(f"  Existing table: {existing_rows} rows × {existing_cols} columns")
+        vprint(f"  New data:       {new_rows} rows × {new_cols} columns")
+
+        # Sanity checks
+        if existing_rows > 0 and new_rows < existing_rows * 0.5:
+            vprint(f"  WARNING: New row count ({new_rows}) is less than 50% of existing ({existing_rows})")
+            vprint(f"  This might indicate a download failure. Proceeding with caution...")
+
+        if existing_cols > 0 and new_cols < existing_cols:
+            vprint(f"  INFO: Column count decreased from {existing_cols} to {new_cols}")
+            vprint(f"  This is expected when not all asset groups are selected.")
+            vprint(f"  Missing columns will be preserved from existing data.")
+
+        # Write to staging table first
+        staging_table = "stock_prices_daily_staging"
+        vprint(f"  Writing to staging table: {staging_table}")
+        combined_df.astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
+
+        # Validate staging table
+        cursor = conn.cursor()
+        cursor.execute(f"SELECT COUNT(*) FROM {staging_table}")
+        staging_row_count = cursor.fetchone()[0]
+
+        if staging_row_count != new_rows:
+            vprint(f"  ERROR: Staging table row count mismatch ({staging_row_count} != {new_rows}). Aborting.")
+            cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
+            conn.commit()
+            return
+
+        vprint(f"  ✓ Staging table validated ({staging_row_count} rows)")
+
+        # Atomic swap: Rename staging -> main
+        vprint("  Performing atomic table swap...")
+        cursor.execute("DROP TABLE IF EXISTS stock_prices_daily_old")
+        if table_exists:
+            cursor.execute("ALTER TABLE stock_prices_daily RENAME TO stock_prices_daily_old")
+        cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
+
+        # Keep old table as backup for one write cycle (will be dropped on next run)
+        if table_exists:
+            vprint(f"  ✓ Old table preserved as 'stock_prices_daily_old' (backup)")
+
+        conn.commit()
+        vprint(f"  ✓ Prices table updated successfully")
+
+        # Same pattern for volumes
         if not combined_vol_df.empty:
-            combined_vol_df.astype(float).to_sql("stock_volumes_daily", conn, if_exists="replace", index=True, index_label=index_label)
+            staging_vol_table = "stock_volumes_daily_staging"
+            vprint(f"  Writing volumes to staging table: {staging_vol_table}")
+            combined_vol_df.astype(float).to_sql(staging_vol_table, conn, if_exists="replace", index=True, index_label=index_label)
+
+            cursor.execute(f"SELECT COUNT(*) FROM {staging_vol_table}")
+            staging_vol_row_count = cursor.fetchone()[0]
+            vprint(f"  ✓ Volume staging table validated ({staging_vol_row_count} rows)")
+
+            cursor.execute("DROP TABLE IF EXISTS stock_volumes_daily_old")
+            if vol_table_exists:
+                cursor.execute("ALTER TABLE stock_volumes_daily RENAME TO stock_volumes_daily_old")
+            cursor.execute(f"ALTER TABLE {staging_vol_table} RENAME TO stock_volumes_daily")
+            conn.commit()
+            vprint(f"  ✓ Volumes table updated successfully")
         if 'stocks' in selected_set:
             sp500.to_sql("stock_metadata", conn, if_exists="replace", index=False)
         else:
