@@ -7,8 +7,8 @@ window.ChartSeriesManager = {
     /**
      * Create or update a price series for a ticker
      */
-    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap, lastLabelVisible = true, formatAsPercent = false, precision = 2) {
-        console.log(`[SeriesManager] Creating/updating series for ${ticker}`);
+    createOrUpdateSeries(chart, ticker, data, color, priceSeriesMap, lastLabelVisible = true, formatAsPercent = false, precision = 2, priceScaleId = 'right') {
+        console.log(`[SeriesManager] Creating/updating series for ${ticker} (priceScaleId: ${priceScaleId})`);
 
         let series = priceSeriesMap.get(ticker);
         const priceFormat = formatAsPercent
@@ -34,7 +34,7 @@ window.ChartSeriesManager = {
                 lineWidth: 2,
                 priceLineVisible: false,
                 lastValueVisible: lastLabelVisible,
-                priceScaleId: 'right',
+                priceScaleId: priceScaleId,
                 priceFormat
             });
             priceSeriesMap.set(ticker, series);

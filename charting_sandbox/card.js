@@ -63,7 +63,8 @@
             notes: card._notes || '',
             manualInterval: card._manualInterval || null,
             decimalPrecision: card._decimalPrecision || 2,
-            tickerColors: Object.fromEntries(card._tickerColorMap ? Array.from(card._tickerColorMap.entries()) : [])
+            tickerColors: Object.fromEntries(card._tickerColorMap ? Array.from(card._tickerColorMap.entries()) : []),
+            priceScaleAssignments: Object.fromEntries(card._priceScaleAssignmentMap ? Array.from(card._priceScaleAssignmentMap.entries()) : [])
         }));
 
         localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
@@ -120,6 +121,7 @@
             useRaw: initialUseRaw = false,
             multipliers: initialMultipliers = {},
             tickerColors: initialTickerColors = {},
+            priceScaleAssignments: initialPriceScaleAssignments = {},
             hidden: initialHidden = [],
             range: initialRange = null,
             title: initialTitle = '',
@@ -246,6 +248,7 @@
         const hiddenTickers = new Set(initialHidden);
         const multiplierMap = new Map(Object.entries(initialMultipliers));
         const tickerColorMap = new Map(Object.entries(initialTickerColors));
+        const priceScaleAssignmentMap = new Map(Object.entries(initialPriceScaleAssignments));
         const priceSeriesMap = new Map();
         const volSeriesMap = new Map();
         const volumeSeriesMap = new Map();
@@ -266,6 +269,7 @@
         card._useRaw = useRaw;
         card._multiplierMap = multiplierMap;
         card._tickerColorMap = tickerColorMap;
+        card._priceScaleAssignmentMap = priceScaleAssignmentMap;
         card._hiddenTickers = hiddenTickers;
         card._visibleRange = initialRange;
         card._title = initialTitle;
@@ -628,6 +632,12 @@
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
                     timeScale: { secondsVisible: false, rightOffset: 3, fixLeftEdge: true },
+                    leftPriceScale: {
+                        visible: true,
+                        mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                        scaleMargins: { top: 0.1, bottom: 0.1 },
+                        priceFormat
+                    },
                     rightPriceScale: {
                         visible: true,
                         mode: LightweightCharts.PriceScaleMode.Logarithmic,
@@ -809,8 +819,9 @@
                     }
 
                     const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
+                    const priceScaleId = priceScaleAssignmentMap.get(ticker) || 'right';
                     window.ChartSeriesManager.createOrUpdateSeries(
-                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw, precision
+                        chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw, precision, priceScaleId
                     );
                 }
 
@@ -2419,6 +2430,7 @@
                             useRaw: c.useRaw || false,
                             multipliers: c.multipliers || {},
                             tickerColors: c.tickerColors || {},
+                            priceScaleAssignments: c.priceScaleAssignments || {},
                             hidden: c.hidden || [],
                             range: c.range || null,
                             title: c.title || '',
@@ -2474,6 +2486,7 @@
                             useRaw: c.useRaw || false,
                             multipliers: c.multipliers || {},
                             tickerColors: c.tickerColors || {},
+                            priceScaleAssignments: c.priceScaleAssignments || {},
                             hidden: c.hidden || [],
                             range: c.range || null,
                             title: c.title || '',
@@ -2516,6 +2529,7 @@
                         useRaw: c.useRaw || false,
                         multipliers: c.multipliers || {},
                             tickerColors: c.tickerColors || {},
+                            priceScaleAssignments: c.priceScaleAssignments || {},
                         hidden: c.hidden || [],
                         range: c.range || null,
                         title: c.title || '',
