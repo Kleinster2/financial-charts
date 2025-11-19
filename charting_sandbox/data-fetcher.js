@@ -79,19 +79,20 @@ window.DataFetcher = {
      *
      * @param {Array<string>} tickers - Array of ANY ticker symbols (AAPL, ^VXAPL, ^VIX, MSFT, etc.)
      * @param {number} days - Number of days of history (default: 5475 for 15 years)
+     * @param {string} interval - Data interval: 'daily', 'weekly', or 'monthly' (default: 'daily')
      * @returns {Object} Unified data: {ticker: [{time, value}]}
      */
-    async getData(tickers, days = 5475) {
+    async getData(tickers, days = 5475, interval = 'daily') {
         if (!tickers || tickers.length === 0) return {};
 
-        console.log(`[Unified] Fetching ${tickers.length} tickers: ${tickers.join(', ')}`);
+        console.log(`[Unified] Fetching ${tickers.length} tickers: ${tickers.join(', ')} (interval: ${interval})`);
 
         // ALL tickers go to same endpoint - /api/data handles everything
         // Backend automatically finds ticker in stock_prices_daily (which now includes IV columns)
         const results = {};
 
         try {
-            const priceData = await this.getPriceData(tickers, null, null, 'daily');
+            const priceData = await this.getPriceData(tickers, null, null, interval);
 
             // Normalize: extract just {time, value} from data
             for (const [ticker, data] of Object.entries(priceData)) {

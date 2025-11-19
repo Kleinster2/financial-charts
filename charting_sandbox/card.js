@@ -144,6 +144,10 @@
             return;
         }
 
+        // Determine which page this card is on
+        const pageEl = wrapper.closest('.page');
+        const targetPage = pageEl ? pageEl.dataset.page : '1';
+
         // Create card DOM
         globalCardCounter += 1;
         const cardId = `chart-${globalCardCounter}`;
@@ -163,7 +167,8 @@
             navLink = document.createElement('a');
             navLink.href = `#${cardId}`;
             navLink.textContent = navLabel;
-            
+            navLink.dataset.page = targetPage;
+
             // Add click handler to switch pages and scroll to chart
             navLink.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -278,7 +283,6 @@
         card._notes = initialNotes;
         card._manualInterval = initialManualInterval;  // Manual interval override (null = auto)
         card._decimalPrecision = initialDecimalPrecision;  // Decimal precision for price display
-
         // Initialize notes UI
         if (notesSection && notesTextarea) {
             notesSection.style.display = initialShowNotes ? 'block' : 'none';
@@ -772,10 +776,13 @@
                     }
                 }
 
-                const data = await window.DataFetcher.getPriceData(tickerList, null, null, interval);
-                
+                // UNIFIED DATA FETCH - handles all tickers the same way
+                // Backend automatically detects if ticker is IV or price data
+                console.log(`Fetching data for ${tickerList.length} tickers: ${tickerList.join(', ')} (interval: ${interval})`);
+                const data = await window.DataFetcher.getData(tickerList, 5475, interval);
+
                 if (!data || Object.keys(data).length === 0) {
-                    console.warn('No price data received');
+                    console.warn('No data received');
                     return;
                 }
 
