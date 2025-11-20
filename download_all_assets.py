@@ -553,15 +553,25 @@ def update_sp500_data(verbose: bool = True, assets=None):
 
         # 6. Merge with existing data, giving precedence to new data (prices)
         if not existing_df.empty:
-            # Align columns to ensure safe combination
-            existing_cols = existing_df.columns
-            new_cols = new_data_df.columns
-            combined_cols = sorted(list(set(existing_cols) | set(new_cols)))
-            
-            existing_df = existing_df.reindex(columns=combined_cols)
-            new_data_df = new_data_df.reindex(columns=combined_cols)
-            
-            combined_df = new_data_df.combine_first(existing_df)
+            # FIXED: Only update columns that were actually downloaded
+            # Previous bug: reindex() added NaN for all non-downloaded tickers, overwriting existing data
+            combined_df = existing_df.copy()
+
+            # Add any new columns from new_data_df
+            for col in new_data_df.columns:
+                if col not in combined_df.columns:
+                    combined_df[col] = pd.NA
+
+            # Combine the dataframes: use concat then drop duplicates, keeping new data
+            # This handles both existing and new dates properly
+            combined_df = pd.concat([combined_df, new_data_df])
+            combined_df = combined_df[~combined_df.index.duplicated(keep='last')]
+            combined_df = combined_df.sort_index()
+
+            # Now update only the columns that were downloaded with their new values
+            for col in new_data_df.columns:
+                for date in new_data_df.index:
+                    combined_df.loc[date, col] = new_data_df.loc[date, col]
         else:
             combined_df = new_data_df
 
@@ -582,12 +592,23 @@ def update_sp500_data(verbose: bool = True, assets=None):
             elif existing_vol_df.empty:
                 combined_vol_df = new_vol_df.copy()
             else:
-                existing_vol_cols = existing_vol_df.columns
-                new_vol_cols = new_vol_df.columns
-                combined_vol_cols = sorted(list(set(existing_vol_cols) | set(new_vol_cols)))
-                existing_vol_df = existing_vol_df.reindex(columns=combined_vol_cols)
-                new_vol_df = new_vol_df.reindex(columns=combined_vol_cols)
-                combined_vol_df = new_vol_df.combine_first(existing_vol_df)
+                # FIXED: Same bug as prices - only update columns that were downloaded
+                combined_vol_df = existing_vol_df.copy()
+
+                # Add any new columns
+                for col in new_vol_df.columns:
+                    if col not in combined_vol_df.columns:
+                        combined_vol_df[col] = pd.NA
+
+                # Combine and handle both existing and new dates
+                combined_vol_df = pd.concat([combined_vol_df, new_vol_df])
+                combined_vol_df = combined_vol_df[~combined_vol_df.index.duplicated(keep='last')]
+                combined_vol_df = combined_vol_df.sort_index()
+
+                # Update only downloaded columns
+                for col in new_vol_df.columns:
+                    for date in new_vol_df.index:
+                        combined_vol_df.loc[date, col] = new_vol_df.loc[date, col]
             # SAFETY: Never delete volume columns (same reasoning as prices)
             # if selected_set == all_groups:
             #     combined_vol_df = combined_vol_df.reindex(columns=all_tickers)  # ← DANGEROUS: Deletes unlisted tickers!
