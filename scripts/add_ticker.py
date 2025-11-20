@@ -49,6 +49,9 @@ def clean_company_name(name):
         r'\s+plc',
         r'\s+N\.V\.',
         r'\s+AG$',
+        r'\s+Technologies',
+        r'\s+Industries',
+        r'\s+International',
         r',\s+Inc\.',
         r',\s+Inc$',
     ]

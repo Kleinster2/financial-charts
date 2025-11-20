@@ -35,6 +35,13 @@
     
     // Show the target page
     pageEl.style.display = 'block';
+    
+    // Update page title
+    const pageTitle = document.getElementById("page-title");
+    if (pageTitle) {
+      const pageNum = pageEl.dataset.page;
+      pageTitle.textContent = pageNames[pageNum] || `Page ${pageNum}`;
+    }
     activateTab(pageEl.dataset.page);
     
     // Trigger plot for all charts on the newly visible page if they haven't been plotted
@@ -77,14 +84,25 @@
   function updateNavigationHighlighting(pageEl) {
     const chartNav = document.getElementById('chart-nav');
     if (!chartNav) return;
-    
-    // Remove active class from all navigation links
-    Array.from(chartNav.children).forEach(link => link.classList.remove('active'));
-    
+
+    const currentPageNum = pageEl.dataset.page;
+
+    // Show/hide navigation links based on current page
+    Array.from(chartNav.children).forEach(link => {
+      link.classList.remove('active');
+
+      // Hide links not on current page, show links on current page
+      if (link.dataset.page === currentPageNum) {
+        link.style.display = '';
+      } else {
+        link.style.display = 'none';
+      }
+    });
+
     // Find all charts on the currently active page
     const wrapper = pageEl.querySelector('[id^="charts-wrapper"]');
     const charts = wrapper ? wrapper.querySelectorAll('.chart-card') : [];
-    
+
     // Highlight navigation links for charts on the active page
     charts.forEach(card => {
       const cardId = card.id;

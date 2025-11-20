@@ -41,6 +41,7 @@ The script performs 4 automated steps:
   - `Ltd.`, `Ltd`, `Limited`, `LLC`, `L.L.C.`
   - `S.A.`, `S.A`, `PLC`, `plc`, `N.V.`, `AG`
   - `Holdings`, `Hldgs.`, `Hldgs`, `Group`, `Company`, `Co.`
+  - `Technologies`, `Industries`, `International`
 - Stores cleaned name in `ticker_metadata` table
 - Records date range and data point count
 
