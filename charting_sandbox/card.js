@@ -12,6 +12,30 @@
     let globalCardCounter = 0;
     const nameCache = {};
 
+    /**
+     * Safely save JSON to localStorage (swallows quota errors)
+     */
+    function safeSetJSON(key, value) {
+        try {
+            localStorage.setItem(key, JSON.stringify(value));
+            return true;
+        } catch (e) {
+            // Quota exceeded or privacy mode
+            return false;
+        }
+    }
+
+    /**
+     * Safely load JSON from localStorage
+     */
+    function safeGetJSON(key, defaultValue = null) {
+        try {
+            const item = localStorage.getItem(key);
+            return item ? JSON.parse(item) : defaultValue;
+        } catch (e) {
+            return defaultValue;
+        }
+    }
 
     // Height adjust helpers
     const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
@@ -112,7 +136,7 @@
             priceScaleAssignments: Object.fromEntries(card._priceScaleAssignmentMap ? Array.from(card._priceScaleAssignmentMap.entries()) : [])
         }));
 
-        localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards));
+        safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
         if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
             window.StateManager.saveCards(cards);
         }
@@ -2459,13 +2483,13 @@
                             decimalPrecision: c.decimalPrecision || 2
                         });
                     });
-                    try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(ws)); } catch (_) { }
+                    safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, ws);
                     return;
                 } else if (ws && typeof ws === 'object') {
                     const cards = Array.isArray(ws.cards) ? ws.cards : [];
                     const pagesMeta = (ws.pages && typeof ws.pages === 'object') ? ws.pages : null;
                     if (pagesMeta) {
-                        try { localStorage.setItem('sandbox_pages', JSON.stringify(pagesMeta)); } catch (_) { }
+                        safeSetJSON('sandbox_pages', pagesMeta);
                         const nameCount = pagesMeta.names ? Object.keys(pagesMeta.names).length : 0;
                         console.log(`[Restore] Loaded workspace (object) from server; pages meta present (pageNames=${nameCount})`);
                         if (window.PageManager) {
@@ -2515,7 +2539,7 @@
                             decimalPrecision: c.decimalPrecision || 2
                         });
                     });
-                    try { localStorage.setItem(window.ChartConfig.STORAGE_KEYS.CARDS, JSON.stringify(cards)); } catch (_) { }
+                    safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
                     if (cards.length > 0) return;
                     console.log('[Restore] Workspace object had no cards; checking localStorage');
                 } else {
@@ -2524,7 +2548,7 @@
             } catch (e) {
                 console.warn('[Restore] Server load failed, falling back to localStorage', e);
             }
-            const stored = JSON.parse(localStorage.getItem(window.ChartConfig.STORAGE_KEYS.CARDS) || '[]');
+            const stored = safeGetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, []);
             if (Array.isArray(stored) && stored.length) {
                 console.log('[Restore] Loaded workspace from localStorage fallback');
                 stored.forEach(c => {
