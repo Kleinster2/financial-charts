@@ -8,6 +8,7 @@ import sys
 import pandas as pd
 from datetime import datetime
 from constants import DB_PATH, get_db_connection
+from fred_utils import download_from_fred
 
 # Mapping of Yahoo Finance tickers to FRED series codes
 FRED_VIXON_MAPPING = {
@@ -17,28 +18,6 @@ FRED_VIXON_MAPPING = {
     '^VXGS': 'VXGSCLS',     # CBOE Equity VIX on Goldman Sachs
     '^VXIBM': 'VXIBMCLS'    # CBOE Equity VIX on IBM
 }
-
-def download_from_fred(fred_code):
-    """Download historical data from FRED."""
-    url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={fred_code}'
-
-    try:
-        # Download CSV from FRED
-        df = pd.read_csv(url)
-
-        # FRED format: DATE, VALUE columns
-        df.columns = ['Date', 'Close']
-        df['Date'] = pd.to_datetime(df['Date'])
-        df.set_index('Date', inplace=True)
-
-        # Remove any NaN values
-        df = df.dropna()
-
-        return df
-
-    except Exception as e:
-        print(f"  ERROR downloading {fred_code}: {str(e)[:50]}")
-        return None
 
 def restore_vixon_indices():
     """Download and restore VIXON indices from FRED."""

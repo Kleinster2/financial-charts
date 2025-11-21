@@ -8,6 +8,7 @@ import sys
 import pandas as pd
 from datetime import datetime, timedelta
 from constants import DB_PATH, get_db_connection
+from fred_utils import download_from_fred
 
 # Indices that need FRED (Yahoo Finance doesn't work for these)
 FRED_INDICES = {
@@ -18,21 +19,6 @@ FRED_INDICES = {
     '^EVZ': 'EVZCLS',      # Discontinued March 2025
     # ^VOLQ removed - FRED series no longer exists (404)
 }
-
-def download_from_fred(fred_code):
-    """Download data from FRED."""
-    url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={fred_code}'
-
-    try:
-        df = pd.read_csv(url)
-        df.columns = ['Date', 'Close']
-        df['Date'] = pd.to_datetime(df['Date'])
-        df.set_index('Date', inplace=True)
-        df = df.dropna()
-        return df
-    except Exception as e:
-        print(f"  ERROR: {str(e)[:50]}")
-        return None
 
 def update_indices_from_fred(lookback_days=30):
     """

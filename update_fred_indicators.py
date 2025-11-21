@@ -8,6 +8,7 @@ import sys
 import pandas as pd
 from datetime import datetime, timedelta
 from constants import DB_PATH, get_db_connection
+from fred_utils import download_from_fred
 
 # FRED economic indicators currently in database
 FRED_INDICATORS = {
@@ -66,21 +67,6 @@ TIER2_INDICATORS = {
     'DEXJPUS': 'JPY/USD',
     'DEXUSEU': 'USD/EUR',
 }
-
-def download_from_fred(fred_code):
-    """Download data from FRED."""
-    url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={fred_code}'
-
-    try:
-        df = pd.read_csv(url)
-        df.columns = ['Date', 'Close']
-        df['Date'] = pd.to_datetime(df['Date'])
-        df.set_index('Date', inplace=True)
-        df = df.dropna()
-        return df
-    except Exception as e:
-        print(f"  ERROR: {str(e)[:50]}")
-        return None
 
 def get_existing_indicators(conn):
     """Check which FRED indicators are already in the database."""

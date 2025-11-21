@@ -8,6 +8,7 @@ import sys
 import pandas as pd
 from datetime import datetime
 from constants import DB_PATH, get_db_connection
+from fred_utils import download_from_fred
 
 # FRED series organized by category
 FRED_INDICATORS = {
@@ -70,21 +71,6 @@ FRED_INDICATORS = {
 
 # Tier 1 essentials (recommended for all users)
 TIER1_CATEGORIES = ['treasury_yields', 'fed_policy', 'inflation', 'credit_spreads']
-
-def download_from_fred(fred_code):
-    """Download historical data from FRED."""
-    url = f'https://fred.stlouisfed.org/graph/fredgraph.csv?id={fred_code}'
-
-    try:
-        df = pd.read_csv(url)
-        df.columns = ['Date', 'Close']
-        df['Date'] = pd.to_datetime(df['Date'])
-        df.set_index('Date', inplace=True)
-        df = df.dropna()
-        return df
-    except Exception as e:
-        print(f"  ERROR: {str(e)[:50]}")
-        return None
 
 def download_fred_indicators(tier='1', categories=None):
     """
