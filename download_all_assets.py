@@ -51,8 +51,15 @@ ETF_TICKERS = [
     "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
     # Volatility indices (Yahoo '^' symbols) and ETNs
     "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEFA", "^VXEWZ",
+    # Single-stock volatility indices
+    "^VXAPL", "^VXAZN", "^VXGOG", "^VXGS", "^VXIBM",
     # Treasury yield index symbols (yields, not prices)
-    "^IRX", "^FVX", "^TNX", "^TYX",  # added comma after TYX
+    "^IRX", "^FVX", "^TNX", "^TYX",
+    # Major market indices (US and International)
+    "^GSPC", "^DJI", "^IXIC", "^RUT",  # US: S&P 500, Dow, Nasdaq, Russell 2000
+    "^N225", "^FTSE", "^GDAXI", "^FCHI", "^STOXX50E", "^IBEX", "^AEX",  # Asia/Europe
+    "^BVSP", "^MXX", "^GSPTSE",  # Americas
+    "^AXJO", "^HSI", "^NSEI", "^BSESN", "^KS11", "^TWII", "^STI",  # Asia-Pacific
     # Additional Vanguard ETFs
     "VIG", "VUG", "VTV", "VYM", "VGT", "VNQ", "VB", "VBR", "VOO", "IVV",
     "VEA", "VXUS", "VT", "VEU", "SCZ", "DXJ", "HEDJ",
