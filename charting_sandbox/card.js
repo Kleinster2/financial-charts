@@ -82,6 +82,43 @@
             };
         }
     }
+
+    /**
+     * Restore a card from saved data
+     * @param {Object} cardData - Saved card configuration
+     */
+    function restoreCard(cardData) {
+        const wrapper = window.PageManager ? window.PageManager.ensurePage(cardData.page || '1') : null;
+        createChartCard({
+            tickers: Array.isArray(cardData.tickers) ? cardData.tickers.join(', ') : (cardData.tickers || ''),
+            showDiff: !!cardData.showDiff,
+            showAvg: !!cardData.showAvg,
+            showVol: !!cardData.showVol,
+            showVolume: !!cardData.showVolume,
+            showRevenue: !!cardData.showRevenue,
+            useRaw: cardData.useRaw || false,
+            multipliers: cardData.multipliers || {},
+            tickerColors: cardData.tickerColors || {},
+            priceScaleAssignments: cardData.priceScaleAssignments || {},
+            hidden: cardData.hidden || [],
+            range: cardData.range || null,
+            title: cardData.title || '',
+            lastLabelVisible: cardData.lastLabelVisible ?? true,
+            lastTickerVisible: !!cardData.lastTickerVisible,
+            showZeroLine: cardData.showZeroLine || false,
+            wrapperEl: wrapper,
+            height: cardData.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
+            fontSize: cardData.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            showFixedLegend: !!cardData.showFixedLegend,
+            fixedLegendPos: cardData.fixedLegendPos || { x: 10, y: 10 },
+            fixedLegendSize: cardData.fixedLegendSize || null,
+            showNotes: !!cardData.showNotes,
+            notes: cardData.notes || '',
+            manualInterval: cardData.manualInterval || null,
+            decimalPrecision: cardData.decimalPrecision || 2
+        });
+    }
+
     // Company name fetching
     // Fetch company names for tickers; optionally pass in chipNodes to avoid global DOM scan
     async function ensureNames(tickers, chipNodes = null) {
@@ -2452,37 +2489,7 @@
                 const ws = await resp.json();
                 if (Array.isArray(ws) && ws.length) {
                     console.log('[Restore] Loaded legacy workspace (array) from server');
-                    ws.forEach(c => {
-                        const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                        createChartCard({
-                            tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            showDiff: !!c.showDiff,
-                            showAvg: !!c.showAvg,
-                            showVol: !!c.showVol,
-                            showVolume: !!c.showVolume,
-                            showRevenue: !!c.showRevenue,
-                            useRaw: c.useRaw || false,
-                            multipliers: c.multipliers || {},
-                            tickerColors: c.tickerColors || {},
-                            priceScaleAssignments: c.priceScaleAssignments || {},
-                            hidden: c.hidden || [],
-                            range: c.range || null,
-                            title: c.title || '',
-                            lastLabelVisible: c.lastLabelVisible ?? true,
-                            lastTickerVisible: !!c.lastTickerVisible,
-                            showZeroLine: c.showZeroLine || false,
-                            wrapperEl: wrapper,
-                            height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                            showFixedLegend: !!c.showFixedLegend,
-                            fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
-                            fixedLegendSize: c.fixedLegendSize || null,
-                            showNotes: !!c.showNotes,
-                            notes: c.notes || '',
-                            manualInterval: c.manualInterval || null,
-                            decimalPrecision: c.decimalPrecision || 2
-                        });
-                    });
+                    ws.forEach(c => restoreCard(c));
                     safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, ws);
                     return;
                 } else if (ws && typeof ws === 'object') {
@@ -2508,37 +2515,7 @@
                     } else {
                         console.log('[Restore] Workspace object has no pages meta');
                     }
-                    cards.forEach(c => {
-                        const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                        createChartCard({
-                            tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                            showDiff: !!c.showDiff,
-                            showAvg: !!c.showAvg,
-                            showVol: !!c.showVol,
-                            showVolume: !!c.showVolume,
-                            showRevenue: !!c.showRevenue,
-                            useRaw: c.useRaw || false,
-                            multipliers: c.multipliers || {},
-                            tickerColors: c.tickerColors || {},
-                            priceScaleAssignments: c.priceScaleAssignments || {},
-                            hidden: c.hidden || [],
-                            range: c.range || null,
-                            title: c.title || '',
-                            lastLabelVisible: c.lastLabelVisible ?? true,
-                            lastTickerVisible: !!c.lastTickerVisible,
-                            showZeroLine: c.showZeroLine || false,
-                            wrapperEl: wrapper,
-                            height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                            fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                            showFixedLegend: !!c.showFixedLegend,
-                            fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
-                            fixedLegendSize: c.fixedLegendSize || null,
-                            showNotes: !!c.showNotes,
-                            notes: c.notes || '',
-                            manualInterval: c.manualInterval || null,
-                            decimalPrecision: c.decimalPrecision || 2
-                        });
-                    });
+                    cards.forEach(c => restoreCard(c));
                     safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
                     if (cards.length > 0) return;
                     console.log('[Restore] Workspace object had no cards; checking localStorage');
@@ -2551,37 +2528,7 @@
             const stored = safeGetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, []);
             if (Array.isArray(stored) && stored.length) {
                 console.log('[Restore] Loaded workspace from localStorage fallback');
-                stored.forEach(c => {
-                    const wrapper = window.PageManager ? window.PageManager.ensurePage(c.page || '1') : null;
-                    createChartCard({
-                        tickers: Array.isArray(c.tickers) ? c.tickers.join(', ') : (c.tickers || ''),
-                        showDiff: !!c.showDiff,
-                        showAvg: !!c.showAvg,
-                        showVol: !!c.showVol,
-                        showVolume: !!c.showVolume,
-                        showRevenue: !!c.showRevenue,
-                        useRaw: c.useRaw || false,
-                        multipliers: c.multipliers || {},
-                        tickerColors: c.tickerColors || {},
-                        priceScaleAssignments: c.priceScaleAssignments || {},
-                        hidden: c.hidden || [],
-                        range: c.range || null,
-                        title: c.title || '',
-                        lastLabelVisible: c.lastLabelVisible ?? true,
-                        lastTickerVisible: !!c.lastTickerVisible,
-                        showZeroLine: c.showZeroLine || false,
-                        wrapperEl: wrapper,
-                        height: c.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                        fontSize: c.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
-                        showFixedLegend: !!c.showFixedLegend,
-                        fixedLegendPos: c.fixedLegendPos || { x: 10, y: 10 },
-                        fixedLegendSize: c.fixedLegendSize || null,
-                        showNotes: !!c.showNotes,
-                        notes: c.notes || '',
-                        manualInterval: c.manualInterval || null,
-                        decimalPrecision: c.decimalPrecision || 2
-                    });
-                });
+                stored.forEach(c => restoreCard(c));
                 // Push local state to server to sync
                 if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
                     window.StateManager.saveCards(stored);
