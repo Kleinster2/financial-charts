@@ -23,6 +23,43 @@ This repo includes three components:
 
 ## Documentation
 
+### **🎯 NEW: FRED Economic Indicators & Macro Analysis (Nov 2025)**
+
+**Start here for macro context and recession analysis:**
+
+1. **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** ⭐ **READ THIS FIRST**
+   - Complete 3-step daily update workflow
+   - Hybrid Yahoo/FRED approach explained
+   - All 49 market indices covered (^VIX, ^RVX, ^N225, etc.)
+   - Troubleshooting guide
+
+2. **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** ⭐ **READ THIS SECOND**
+   - Navigate Pages 49-53 (macro analysis pages)
+   - Recession indicators to watch (T10Y2Y, STLFSI4)
+   - Cross-asset correlation techniques
+   - Historical crisis context (2008, 2020, 2022)
+
+3. **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)**
+   - Deep dive on 31 FRED economic indicators
+   - Treasury yields, Fed policy, inflation, labor market
+   - Usage examples and Python code snippets
+   - Data update frequencies
+
+4. **[INDEX_RESTORATION_SUMMARY.md](INDEX_RESTORATION_SUMMARY.md)**
+   - Historical restoration work (already complete)
+   - 21 international indices restored
+   - 5 single-stock vol indices from FRED
+
+**Quick Stats:**
+- **1,310+ time series** (1,228 Yahoo + 49 indices + 31 FRED)
+- **86 years of data** (1939-2025)
+- **5 macro pages** (Pages 49-53) with 18 charts
+- **3-step daily update** (~3-5 minutes total)
+
+---
+
+### **📚 Original Documentation**
+
 For detailed information on specific topics, refer to these documentation files:
 
 -  **[DATA_SOURCES.md](DATA_SOURCES.md)** - Critical distinction between database (local cache) vs yfinance API (source of truth). Always check yfinance first for data availability.
@@ -130,16 +167,30 @@ pip install -r charting_app\requirements.txt
 
 ## Quickstart
 
-1.  __Download data (creates DB file)__
-    ```powershell
-    python update_market_data.py
-    ```
-2.  __Start the API server__
+### **Data Update (3-Step Workflow - Recommended)**
+
+Complete daily update for all 1,310+ series (~3-5 minutes):
+
+```powershell
+# Step 1: Yahoo Finance (stocks, ETFs, 44 indices) ~3-4 min
+python update_market_data_fixed.py --batch-size 20
+
+# Step 2: FRED indices (^RVX, ^VXV, etc.) ~5 sec
+python update_indices_from_fred.py --lookback 30
+
+# Step 3: FRED macro indicators (31 indicators) ~5-10 sec
+python update_fred_indicators.py --lookback 60
+```
+
+### **Launch Application**
+
+1.  __Start the API server__
     ```powershell
     python charting_app\app.py
     ```
-3.  __Open the sandbox UI__
+2.  __Open the charting UI__
     - Visit: http://localhost:5000/sandbox/
+    - New macro pages: Pages 49-53
 
 Default paths and ports:
 -  Database: resolved via `constants.DB_PATH` in the repo root. If `market_data.db` is missing but a legacy `sp500_data.db` exists, the resolver will use it and log a deprecation warning.
