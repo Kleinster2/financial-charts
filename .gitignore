@@ -8,6 +8,8 @@ __pycache__/
 .vscode/
 # Environment files
 .env
+.venv/
+.claude/
 # Front-end workspace state
 workspace.json
 charting_app/workspace.json
@@ -18,3 +20,89 @@ charting_app/workspace.json
  # debug_flask_db.py
  # temp_old.py
  # test_api.py
+
+# One-off utility scripts (keep locally, don't commit)
+check_*.py
+cleanup_*.py
+verify_*.py
+test_*.py
+identify_*.py
+try_*.py
+patch_*.py
+simple_*.py
+temp_*.py
+backup_*.py
+export_*.py
+fix_*.py
+populate_*.py
+search_*.py
+calculate_*.py
+decompose_*.py
+fetch_*.py
+generate_*.py
+get_*.py
+import_*.py
+refetch*.log
+batch*.log
+
+# Temporary workspace/JS files
+add_apple_bond.js
+add_bond_to_workspace.js
+add_china_charts.js
+add_china_indices_*.js
+restore_and_cleanup.js
+cleanup_*.js
+find_*.js
+create_bonds_page.js
+
+# Config files with potential secrets
+.alphavantage_config.json
+*_config.json
+
+# Log files
+*.log
+nul
+amzn_fetch.log
+fundamental_fetch.log
+
+# Documentation drafts and notes
+allw_replication_portfolio.md
+ANALYTICS_TRACKING.md
+BACKUP_README.md
+BOND_DATA_SOURCES.md
+CODEMAP.md
+CORPORATE_CREDIT_TRACKING_OPTIONS.md
+CREATING_PAGES.md
+DEMO_DEPLOYMENT_GUIDE.md
+DOWNLOAD_BONDS_GUIDE.md
+EODHD_SETUP_GUIDE.md
+FIX_HANGING_ISSUE.md
+FRONTEND_INTEGRATION_COMPLETE.md
+IMPLIED_VOLATILITY_GUIDE.md
+IV_FRONTEND_INTEGRATION.md
+IV_QUICKSTART.md
+IV_SUMMARY.md
+MACROVAR_DATAGRAPPLE_ANALYSIS.md
+PROJECT_README.md
+
+# Backup directories
+workspace_backups/
+.sessions/
+docs/
+
+# Sandbox artifacts
+charting_sandbox/card-backup-*.js
+charting_sandbox/card-original-*.js
+charting_sandbox/card-pre-refactor-*.js
+charting_sandbox/card-refactored-*.js
+charting_sandbox/refactor_*.py
+charting_sandbox/convert_*.py
+charting_sandbox/extracted_*.txt
+charting_sandbox/global-search.js
+charting_sandbox/israel.html
+charting_app/workspace_broken.json
+
+# Miscellaneous data files
+top_100_stocks.txt
+test_bond_api.json
+test_browser.html
