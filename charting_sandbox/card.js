@@ -688,6 +688,49 @@
             saveCards();
         };
 
+        /**
+         * Execute pane operations while preserving visible range
+         * Wraps pane-specific logic with range save/restore and subscription management
+         * @param {string} paneName - Name for logging (e.g., 'volume', 'revenue')
+         * @param {Function} operation - Async function to execute
+         */
+        async function withRangePreservation(paneName, operation) {
+            const rangeBefore = card._visibleRange;
+            if (rangeBefore) {
+                console.log(`[Plot] Using saved range for ${paneName} ops: from ${rangeBefore.from}, to ${rangeBefore.to}`);
+            }
+
+            // Temporarily unsubscribe from range changes
+            if (rangeSaveHandler) {
+                try {
+                    chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                } catch (_) { }
+            }
+
+            // Execute pane-specific operation
+            await operation();
+
+            // Final range restoration
+            if (rangeBefore && !card._skipRangeRestoration) {
+                try {
+                    chart.timeScale().setVisibleRange(rangeBefore);
+                    console.log(`[Plot] Final range restoration after ${paneName} operations`);
+                } catch (_) { }
+            } else if (card._skipRangeRestoration) {
+                console.log(`[Plot] Skipping ${paneName} range restoration (manual range was set)`);
+                if (paneName === 'fundamentals') {
+                    card._skipRangeRestoration = false;  // Reset flag after last pane
+                }
+            }
+
+            // Resubscribe to range changes
+            if (rangeSaveHandler) {
+                try {
+                    chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                } catch (_) { }
+            }
+        }
+
         // Main plot function
         async function plot() {
             if (!chart) {
@@ -894,415 +937,304 @@
 
                 // Volume pane
                 if (showVolPane) {
-                    // Use saved range from card._visibleRange (already saved before chart recreation)
-                    let rangeBeforeVol = card._visibleRange;
-                    if (rangeBeforeVol) {
-                        console.log(`[Plot] Using saved range for volume ops: from ${rangeBeforeVol.from}, to ${rangeBeforeVol.to}`);
-                    }
+                    await withRangePreservation('volume', async () => {
+                        volPane = window.ChartVolumeManager.createVolumePaneIfNeeded(chart, volPane, card._visibleRange);
 
-                    // Temporarily unsubscribe from range changes during volume operations
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                        for (const ticker of tickerList) {
+                            if (hiddenTickers.has(ticker)) continue;
 
-                    volPane = window.ChartVolumeManager.createVolumePaneIfNeeded(chart, volPane, rangeBeforeVol);
+                            const rawData = rawPriceMap.get(ticker);
+                            if (!rawData || rawData.length < 2) {
+                                console.warn(`[Plot] Insufficient data for volume calculation: ${ticker}`);
+                                continue;
+                            }
 
-                    for (const ticker of tickerList) {
-                        if (hiddenTickers.has(ticker)) continue;
+                            const volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
+                            console.log(`[Plot] Calculated ${volData.length} volume points for ${ticker}`);
 
-                        const rawData = rawPriceMap.get(ticker);
-                        if (!rawData || rawData.length < 2) {
-                            console.warn(`[Plot] Insufficient data for volume calculation: ${ticker}`);
-                            continue;
+                            if (volData.length === 0) {
+                                console.warn(`[Plot] No volume data calculated for ${ticker}`);
+                                continue;
+                            }
+
+                            const color = tickerColorMap.get(ticker);
+
+                            try {
+                                window.ChartVolumeManager.addVolumeSeries(
+                                    chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
+                                );
+                                console.log(`[Plot] Successfully added volume series for ${ticker}`);
+                            } catch (e) {
+                                console.error(`[Plot] Failed to add volume series for ${ticker}:`, e);
+                            }
                         }
-
-                        const volData = window.ChartVolumeManager.calculateVolume(rawData, VOL_WINDOW);
-                        console.log(`[Plot] Calculated ${volData.length} volume points for ${ticker}`);
-
-                        if (volData.length === 0) {
-                            console.warn(`[Plot] No volume data calculated for ${ticker}`);
-                            continue;
-                        }
-
-                        const color = tickerColorMap.get(ticker);
-
-                        try {
-                            window.ChartVolumeManager.addVolumeSeries(
-                                chart, volPane, ticker, volData, color, volSeriesMap, lastLabelVisible
-                            );
-                            console.log(`[Plot] Successfully added volume series for ${ticker}`);
-                        } catch (e) {
-                            console.error(`[Plot] Failed to add volume series for ${ticker}:`, e);
-                        }
-                    }
-
-                    // Final range restoration after all volume operations
-                    if (rangeBeforeVol && !card._skipRangeRestoration) {
-                        try {
-                            chart.timeScale().setVisibleRange(rangeBeforeVol);
-                            console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVol.from + ', to ' + rangeBeforeVol.to);
-                        } catch (_) { }
-                    } else if (card._skipRangeRestoration) {
-                        console.log('[Plot] Skipping vol pane range restoration (manual range was set)');
-                    }
-
-                    // Resubscribe to range changes
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                    });
                 }
 
                 // Trading Volume pane
                 if (showVolumePane) {
-                    // Use saved range from card._visibleRange (already saved before chart recreation)
-                    let rangeBeforeVolume = card._visibleRange;
-                    if (rangeBeforeVolume) {
-                        console.log(`[Plot] Using saved range for trading volume ops: from ${rangeBeforeVolume.from}, to ${rangeBeforeVolume.to}`);
-                    }
+                    await withRangePreservation('trading volume', async () => {
+                        // Create volume pane
+                        if (!volumePane) {
+                            const stretchFactor = card._volumePaneStretchFactor || 1.0;
+                            console.log(`[VolumePane] Creating pane with stretch factor: ${stretchFactor}`);
+                            volumePane = chart.addPane();
 
-                    // Temporarily unsubscribe from range changes during volume operations
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                            // Set stretch factor to make this pane taller (default is 1.0)
+                            // Higher values = taller pane relative to other panes
+                            if (typeof volumePane.setStretchFactor === 'function') {
+                                volumePane.setStretchFactor(stretchFactor);
+                                console.log(`[VolumePane] Set stretch factor to ${stretchFactor}`);
+                            } else {
+                                console.warn('[VolumePane] setStretchFactor not available');
+                            }
 
-                    // Create volume pane
-                    if (!volumePane) {
-                        const stretchFactor = card._volumePaneStretchFactor || 1.0;
-                        console.log(`[VolumePane] Creating pane with stretch factor: ${stretchFactor}`);
-                        volumePane = chart.addPane();
-
-                        // Set stretch factor to make this pane taller (default is 1.0)
-                        // Higher values = taller pane relative to other panes
-                        if (typeof volumePane.setStretchFactor === 'function') {
-                            volumePane.setStretchFactor(stretchFactor);
-                            console.log(`[VolumePane] Set stretch factor to ${stretchFactor}`);
-                        } else {
-                            console.warn('[VolumePane] setStretchFactor not available');
-                        }
-
-                        // Restore range if provided
-                        if (rangeBeforeVolume && rangeBeforeVolume.from && rangeBeforeVolume.to) {
-                            try {
-                                chart.timeScale().setVisibleRange(rangeBeforeVolume);
-                                console.log('[VolumePane] Restored range after pane creation: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
-                            } catch (e) {
-                                console.warn('[VolumePane] Could not restore range:', e);
+                            // Restore range if provided
+                            const rangeBeforeVolume = card._visibleRange;
+                            if (rangeBeforeVolume && rangeBeforeVolume.from && rangeBeforeVolume.to) {
+                                try {
+                                    chart.timeScale().setVisibleRange(rangeBeforeVolume);
+                                    console.log('[VolumePane] Restored range after pane creation: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
+                                } catch (e) {
+                                    console.warn('[VolumePane] Could not restore range:', e);
+                                }
                             }
                         }
-                    }
 
-                    // Fetch and plot trading volume data for each ticker
-                    const volumePromises = tickerList
-                        .filter(ticker => !hiddenTickers.has(ticker))
-                        .map(async (ticker) => {
-                            try {
-                                console.log(`[VolumePane] Fetching trading volume data for ${ticker}`);
+                        // Fetch and plot trading volume data for each ticker
+                        const volumePromises = tickerList
+                            .filter(ticker => !hiddenTickers.has(ticker))
+                            .map(async (ticker) => {
+                                try {
+                                    console.log(`[VolumePane] Fetching trading volume data for ${ticker}`);
 
-                                // Fetch volume data from API
-                                const volumeData = await window.DataFetcher.getVolumeData([ticker]);
+                                    // Fetch volume data from API
+                                    const volumeData = await window.DataFetcher.getVolumeData([ticker]);
 
-                                if (!volumeData || !volumeData[ticker]) {
-                                    console.warn(`[VolumePane] No volume data received for ${ticker}`);
-                                    return;
-                                }
-
-                                const tickerVolumeData = volumeData[ticker];
-
-                                // API returns array of {time, value} objects, similar to price data
-                                if (!Array.isArray(tickerVolumeData) || tickerVolumeData.length === 0) {
-                                    console.warn(`[VolumePane] Invalid or empty volume data for ${ticker}`);
-                                    return;
-                                }
-
-                                // Filter out null values
-                                const formattedData = tickerVolumeData.filter(d => d.value != null);
-
-                                const color = tickerColorMap.get(ticker) || '#000000';
-
-                                // Create or update volume series
-                                let volumeSeries = volumeSeriesMap.get(ticker);
-                                if (!volumeSeries) {
-                                    console.log(`[VolumePane] Creating new volume series for ${ticker}`);
-                                    if (volumePane && chart) {
-                                        volumeSeries = volumePane.addSeries(LightweightCharts.LineSeries, {
-                                            color: color,
-                                            lineWidth: 1,
-                                            priceLineVisible: false,
-                                            lastValueVisible: lastLabelVisible,
-                                            priceScaleId: 'right',
-                                            priceFormat: {
-                                                type: 'volume'
-                                            }
-                                        });
-
-                                        // Configure the price scale for logarithmic mode with better visibility
-                                        volumeSeries.priceScale().applyOptions({
-                                            mode: LightweightCharts.PriceScaleMode.Logarithmic,
-                                            autoScale: true,
-                                            scaleMargins: {
-                                                top: 0.1,
-                                                bottom: 0.1
-                                            }
-                                        });
-
-                                        volumeSeriesMap.set(ticker, volumeSeries);
-                                        console.log(`[VolumePane] Series created for ${ticker} with logarithmic scale`);
-                                    } else {
-                                        console.error(`[VolumePane] volumePane or chart is not available`);
+                                    if (!volumeData || !volumeData[ticker]) {
+                                        console.warn(`[VolumePane] No volume data received for ${ticker}`);
                                         return;
                                     }
-                                } else {
-                                    console.log(`[VolumePane] Updating existing volume series for ${ticker}`);
-                                    volumeSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+
+                                    const tickerVolumeData = volumeData[ticker];
+
+                                    // API returns array of {time, value} objects, similar to price data
+                                    if (!Array.isArray(tickerVolumeData) || tickerVolumeData.length === 0) {
+                                        console.warn(`[VolumePane] Invalid or empty volume data for ${ticker}`);
+                                        return;
+                                    }
+
+                                    // Filter out null values
+                                    const formattedData = tickerVolumeData.filter(d => d.value != null);
+
+                                    const color = tickerColorMap.get(ticker) || '#000000';
+
+                                    // Create or update volume series
+                                    let volumeSeries = volumeSeriesMap.get(ticker);
+                                    if (!volumeSeries) {
+                                        console.log(`[VolumePane] Creating new volume series for ${ticker}`);
+                                        if (volumePane && chart) {
+                                            volumeSeries = volumePane.addSeries(LightweightCharts.LineSeries, {
+                                                color: color,
+                                                lineWidth: 1,
+                                                priceLineVisible: false,
+                                                lastValueVisible: lastLabelVisible,
+                                                priceScaleId: 'right',
+                                                priceFormat: {
+                                                    type: 'volume'
+                                                }
+                                            });
+
+                                            // Configure the price scale for logarithmic mode with better visibility
+                                            volumeSeries.priceScale().applyOptions({
+                                                mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                                                autoScale: true,
+                                                scaleMargins: {
+                                                    top: 0.1,
+                                                    bottom: 0.1
+                                                }
+                                            });
+
+                                            volumeSeriesMap.set(ticker, volumeSeries);
+                                            console.log(`[VolumePane] Series created for ${ticker} with logarithmic scale`);
+                                        } else {
+                                            console.error(`[VolumePane] volumePane or chart is not available`);
+                                            return;
+                                        }
+                                    } else {
+                                        console.log(`[VolumePane] Updating existing volume series for ${ticker}`);
+                                        volumeSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+                                    }
+
+                                    volumeSeries.setData(formattedData);
+                                    console.log(`[VolumePane] Data set successfully for ${ticker}, ${formattedData.length} points`);
+                                } catch (error) {
+                                    console.error(`[VolumePane] Failed to fetch/plot volume for ${ticker}:`, error);
                                 }
+                            });
 
-                                volumeSeries.setData(formattedData);
-                                console.log(`[VolumePane] Data set successfully for ${ticker}, ${formattedData.length} points`);
-                            } catch (error) {
-                                console.error(`[VolumePane] Failed to fetch/plot volume for ${ticker}:`, error);
-                            }
-                        });
-
-                    // Wait for all volume data to be fetched and plotted
-                    await Promise.all(volumePromises);
-
-                    // Final range restoration after all volume operations
-                    if (rangeBeforeVolume && !card._skipRangeRestoration) {
-                        try {
-                            chart.timeScale().setVisibleRange(rangeBeforeVolume);
-                            console.log('[Plot] Final range restoration after volume pane operations: from ' + rangeBeforeVolume.from + ', to ' + rangeBeforeVolume.to);
-                        } catch (_) { }
-                    } else if (card._skipRangeRestoration) {
-                        console.log('[Plot] Skipping volume pane range restoration (manual range was set)');
-                    }
-
-                    // Resubscribe to range changes
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                        // Wait for all volume data to be fetched and plotted
+                        await Promise.all(volumePromises);
+                    });
                 }
 
                 // Revenue pane
                 if (showRevenuePane) {
-                    // Use saved range from card._visibleRange
-                    let rangeBeforeRevenue = card._visibleRange;
-                    if (rangeBeforeRevenue) {
-                        console.log(`[Plot] Using saved range for revenue ops: from ${rangeBeforeRevenue.from}, to ${rangeBeforeRevenue.to}`);
-                    }
+                    await withRangePreservation('revenue', async () => {
+                        // Create revenue pane
+                        if (!revenuePane) {
+                            const stretchFactor = card._revenuePaneStretchFactor || 1.0;
+                            console.log(`[RevenuePane] Creating pane with stretch factor: ${stretchFactor}`);
+                            revenuePane = chart.addPane();
 
-                    // Temporarily unsubscribe from range changes during revenue operations
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                            // Set stretch factor to make this pane taller
+                            if (typeof revenuePane.setStretchFactor === 'function') {
+                                revenuePane.setStretchFactor(stretchFactor);
+                                console.log(`[RevenuePane] Set stretch factor to ${stretchFactor}`);
+                            } else {
+                                console.warn('[RevenuePane] setStretchFactor not available');
+                            }
 
-                    // Create revenue pane
-                    if (!revenuePane) {
-                        const stretchFactor = card._revenuePaneStretchFactor || 1.0;
-                        console.log(`[RevenuePane] Creating pane with stretch factor: ${stretchFactor}`);
-                        revenuePane = chart.addPane();
-
-                        // Set stretch factor to make this pane taller
-                        if (typeof revenuePane.setStretchFactor === 'function') {
-                            revenuePane.setStretchFactor(stretchFactor);
-                            console.log(`[RevenuePane] Set stretch factor to ${stretchFactor}`);
-                        } else {
-                            console.warn('[RevenuePane] setStretchFactor not available');
-                        }
-
-                        // Restore range if provided
-                        if (rangeBeforeRevenue && rangeBeforeRevenue.from && rangeBeforeRevenue.to) {
-                            try {
-                                chart.timeScale().setVisibleRange(rangeBeforeRevenue);
-                                console.log('[RevenuePane] Restored range after pane creation: from ' + rangeBeforeRevenue.from + ', to ' + rangeBeforeRevenue.to);
-                            } catch (e) {
-                                console.warn('[RevenuePane] Could not restore range:', e);
+                            // Restore range if provided
+                            const rangeBeforeRevenue = card._visibleRange;
+                            if (rangeBeforeRevenue && rangeBeforeRevenue.from && rangeBeforeRevenue.to) {
+                                try {
+                                    chart.timeScale().setVisibleRange(rangeBeforeRevenue);
+                                    console.log('[RevenuePane] Restored range after pane creation: from ' + rangeBeforeRevenue.from + ', to ' + rangeBeforeRevenue.to);
+                                } catch (e) {
+                                    console.warn('[RevenuePane] Could not restore range:', e);
+                                }
                             }
                         }
-                    }
 
-                    // Fetch and plot revenue data for each ticker
-                    const revenuePromises = tickerList
-                        .filter(ticker => !hiddenTickers.has(ticker))
-                        .map(async (ticker) => {
-                            try {
-                                console.log(`[RevenuePane] Fetching revenue data for ${ticker}`);
+                        // Fetch and plot revenue data for each ticker
+                        const revenuePromises = tickerList
+                            .filter(ticker => !hiddenTickers.has(ticker))
+                            .map(async (ticker) => {
+                                try {
+                                    console.log(`[RevenuePane] Fetching revenue data for ${ticker}`);
 
-                                // Fetch revenue data from API
-                                const response = await fetch(`/api/revenue?tickers=${ticker}`);
-                                if (!response.ok) {
-                                    console.warn(`[RevenuePane] Failed to fetch revenue for ${ticker}: ${response.status}`);
-                                    return;
-                                }
-
-                                const revenueData = await response.json();
-                                if (!revenueData || !revenueData[ticker]) {
-                                    console.warn(`[RevenuePane] No revenue data received for ${ticker}`);
-                                    return;
-                                }
-
-                                const tickerRevenueData = revenueData[ticker];
-
-                                // API returns array of {time, value} objects
-                                if (!Array.isArray(tickerRevenueData) || tickerRevenueData.length === 0) {
-                                    console.warn(`[RevenuePane] Invalid or empty revenue data for ${ticker}`);
-                                    return;
-                                }
-
-                                // Filter out null values
-                                const formattedData = tickerRevenueData.filter(d => d.value != null);
-
-                                const color = tickerColorMap.get(ticker) || '#000000';
-
-                                // Create or update revenue series
-                                let revenueSeries = revenueSeriesMap.get(ticker);
-                                if (!revenueSeries) {
-                                    console.log(`[RevenuePane] Creating new revenue series for ${ticker}`);
-                                    if (revenuePane && chart) {
-                                        revenueSeries = revenuePane.addSeries(LightweightCharts.LineSeries, {
-                                            color: color,
-                                            lineWidth: 2,
-                                            priceLineVisible: false,
-                                            lastValueVisible: lastLabelVisible,
-                                            priceScaleId: 'right',
-                                            priceFormat: {
-                                                type: 'volume'
-                                            }
-                                        });
-
-                                        // Configure the price scale for logarithmic mode
-                                        revenueSeries.priceScale().applyOptions({
-                                            mode: LightweightCharts.PriceScaleMode.Logarithmic,
-                                            autoScale: true,
-                                            scaleMargins: {
-                                                top: 0.1,
-                                                bottom: 0.1
-                                            }
-                                        });
-
-                                        revenueSeriesMap.set(ticker, revenueSeries);
-                                        console.log(`[RevenuePane] Series created for ${ticker} with logarithmic scale`);
-                                    } else {
-                                        console.error(`[RevenuePane] revenuePane or chart is not available`);
+                                    // Fetch revenue data from API
+                                    const response = await fetch(`/api/revenue?tickers=${ticker}`);
+                                    if (!response.ok) {
+                                        console.warn(`[RevenuePane] Failed to fetch revenue for ${ticker}: ${response.status}`);
                                         return;
                                     }
-                                } else {
-                                    console.log(`[RevenuePane] Updating existing revenue series for ${ticker}`);
-                                    revenueSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+
+                                    const revenueData = await response.json();
+                                    if (!revenueData || !revenueData[ticker]) {
+                                        console.warn(`[RevenuePane] No revenue data received for ${ticker}`);
+                                        return;
+                                    }
+
+                                    const tickerRevenueData = revenueData[ticker];
+
+                                    // API returns array of {time, value} objects
+                                    if (!Array.isArray(tickerRevenueData) || tickerRevenueData.length === 0) {
+                                        console.warn(`[RevenuePane] Invalid or empty revenue data for ${ticker}`);
+                                        return;
+                                    }
+
+                                    // Filter out null values
+                                    const formattedData = tickerRevenueData.filter(d => d.value != null);
+
+                                    const color = tickerColorMap.get(ticker) || '#000000';
+
+                                    // Create or update revenue series
+                                    let revenueSeries = revenueSeriesMap.get(ticker);
+                                    if (!revenueSeries) {
+                                        console.log(`[RevenuePane] Creating new revenue series for ${ticker}`);
+                                        if (revenuePane && chart) {
+                                            revenueSeries = revenuePane.addSeries(LightweightCharts.LineSeries, {
+                                                color: color,
+                                                lineWidth: 2,
+                                                priceLineVisible: false,
+                                                lastValueVisible: lastLabelVisible,
+                                                priceScaleId: 'right',
+                                                priceFormat: {
+                                                    type: 'volume'
+                                                }
+                                            });
+
+                                            // Configure the price scale for logarithmic mode
+                                            revenueSeries.priceScale().applyOptions({
+                                                mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                                                autoScale: true,
+                                                scaleMargins: {
+                                                    top: 0.1,
+                                                    bottom: 0.1
+                                                }
+                                            });
+
+                                            revenueSeriesMap.set(ticker, revenueSeries);
+                                            console.log(`[RevenuePane] Series created for ${ticker} with logarithmic scale`);
+                                        } else {
+                                            console.error(`[RevenuePane] revenuePane or chart is not available`);
+                                            return;
+                                        }
+                                    } else {
+                                        console.log(`[RevenuePane] Updating existing revenue series for ${ticker}`);
+                                        revenueSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+                                    }
+
+                                    revenueSeries.setData(formattedData);
+                                    console.log(`[RevenuePane] Data set successfully for ${ticker}, ${formattedData.length} quarters`);
+                                } catch (error) {
+                                    console.error(`[RevenuePane] Failed to fetch/plot revenue for ${ticker}:`, error);
                                 }
+                            });
 
-                                revenueSeries.setData(formattedData);
-                                console.log(`[RevenuePane] Data set successfully for ${ticker}, ${formattedData.length} quarters`);
-                            } catch (error) {
-                                console.error(`[RevenuePane] Failed to fetch/plot revenue for ${ticker}:`, error);
-                            }
-                        });
-
-                    // Wait for all revenue data to be fetched and plotted
-                    await Promise.all(revenuePromises);
-
-                    // Final range restoration after all revenue operations
-                    if (rangeBeforeRevenue && !card._skipRangeRestoration) {
-                        try {
-                            chart.timeScale().setVisibleRange(rangeBeforeRevenue);
-                            console.log('[Plot] Final range restoration after revenue pane operations: from ' + rangeBeforeRevenue.from + ', to ' + rangeBeforeRevenue.to);
-                        } catch (_) { }
-                    } else if (card._skipRangeRestoration) {
-                        console.log('[Plot] Skipping revenue pane range restoration (manual range was set)');
-                    }
-
-                    // Resubscribe to range changes
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                        // Wait for all revenue data to be fetched and plotted
+                        await Promise.all(revenuePromises);
+                    });
                 }
 
                 // Fundamentals pane
                 if (showFundamentalsPane && window.FundamentalsPane) {
-                    // Use saved range from card._visibleRange
-                    let rangeBeforeFundamentals = card._visibleRange;
-                    if (rangeBeforeFundamentals) {
-                        console.log(`[Plot] Using saved range for fundamentals ops: from ${rangeBeforeFundamentals.from}, to ${rangeBeforeFundamentals.to}`);
-                    }
+                    await withRangePreservation('fundamentals', async () => {
+                        // Create fundamentals pane
+                        if (!fundamentalsPane) {
+                            const stretchFactor = card._fundamentalsPaneStretchFactor || 1.0;
+                            console.log(`[FundamentalsPane] Creating pane with stretch factor: ${stretchFactor}`);
+                            fundamentalsPane = chart.addPane();
 
-                    // Temporarily unsubscribe from range changes during fundamentals operations
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                            // Set stretch factor to make this pane taller
+                            if (typeof fundamentalsPane.setStretchFactor === 'function') {
+                                fundamentalsPane.setStretchFactor(stretchFactor);
+                                console.log(`[FundamentalsPane] Set stretch factor to ${stretchFactor}`);
+                            } else {
+                                console.warn('[FundamentalsPane] setStretchFactor not available');
+                            }
 
-                    // Create fundamentals pane
-                    if (!fundamentalsPane) {
-                        const stretchFactor = card._fundamentalsPaneStretchFactor || 1.0;
-                        console.log(`[FundamentalsPane] Creating pane with stretch factor: ${stretchFactor}`);
-                        fundamentalsPane = chart.addPane();
-
-                        // Set stretch factor to make this pane taller
-                        if (typeof fundamentalsPane.setStretchFactor === 'function') {
-                            fundamentalsPane.setStretchFactor(stretchFactor);
-                            console.log(`[FundamentalsPane] Set stretch factor to ${stretchFactor}`);
-                        } else {
-                            console.warn('[FundamentalsPane] setStretchFactor not available');
-                        }
-
-                        // Restore range if provided
-                        if (rangeBeforeFundamentals && rangeBeforeFundamentals.from && rangeBeforeFundamentals.to) {
-                            try {
-                                chart.timeScale().setVisibleRange(rangeBeforeFundamentals);
-                                console.log('[FundamentalsPane] Restored range after pane creation');
-                            } catch (e) {
-                                console.warn('[FundamentalsPane] Could not restore range:', e);
+                            // Restore range if provided
+                            const rangeBeforeFundamentals = card._visibleRange;
+                            if (rangeBeforeFundamentals && rangeBeforeFundamentals.from && rangeBeforeFundamentals.to) {
+                                try {
+                                    chart.timeScale().setVisibleRange(rangeBeforeFundamentals);
+                                    console.log('[FundamentalsPane] Restored range after pane creation');
+                                } catch (e) {
+                                    console.warn('[FundamentalsPane] Could not restore range:', e);
+                                }
                             }
                         }
-                    }
 
-                    // Plot fundamentals using the FundamentalsPane module
-                    try {
-                        const hiddenTickersMap = {};
-                        hiddenTickers.forEach(ticker => { hiddenTickersMap[ticker] = true; });
-
-                        await window.FundamentalsPane.plot(
-                            fundamentalsPane,
-                            tickerList,
-                            fundamentalsMetrics,
-                            fundamentalSeriesMap,
-                            hiddenTickersMap
-                        );
-                        console.log(`[FundamentalsPane] Plotted ${tickerList.length} tickers with ${fundamentalsMetrics.length} metrics`);
-                    } catch (error) {
-                        console.error('[FundamentalsPane] Error plotting fundamentals:', error);
-                    }
-
-                    // Final range restoration after all fundamentals operations
-                    // Skip restoration if we just manually set a new range via dropdown
-                    if (rangeBeforeFundamentals && !card._skipRangeRestoration) {
+                        // Plot fundamentals using the FundamentalsPane module
                         try {
-                            chart.timeScale().setVisibleRange(rangeBeforeFundamentals);
-                            console.log('[Plot] Final range restoration after fundamentals pane operations');
-                        } catch (_) { }
-                    } else if (card._skipRangeRestoration) {
-                        console.log('[Plot] Skipping range restoration (manual range was set)');
-                        card._skipRangeRestoration = false;  // Reset flag
-                    }
+                            const hiddenTickersMap = {};
+                            hiddenTickers.forEach(ticker => { hiddenTickersMap[ticker] = true; });
 
-                    // Resubscribe to range changes
-                    if (rangeSaveHandler) {
-                        try {
-                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        } catch (_) { }
-                    }
+                            await window.FundamentalsPane.plot(
+                                fundamentalsPane,
+                                tickerList,
+                                fundamentalsMetrics,
+                                fundamentalSeriesMap,
+                                hiddenTickersMap
+                            );
+                            console.log(`[FundamentalsPane] Plotted ${tickerList.length} tickers with ${fundamentalsMetrics.length} metrics`);
+                        } catch (error) {
+                            console.error('[FundamentalsPane] Error plotting fundamentals:', error);
+                        }
+                    });
                 }
 
                 // Average series
