@@ -42,6 +42,8 @@ fetch_*.py
 generate_*.py
 get_*.py
 import_*.py
+*_metadata.py
+create_fundamentals_tables.py
 refetch*.log
 batch*.log
 
@@ -85,10 +87,11 @@ IV_SUMMARY.md
 MACROVAR_DATAGRAPPLE_ANALYSIS.md
 PROJECT_README.md
 
-# Backup directories
+# Backup directories and utility scripts
 workspace_backups/
 .sessions/
 docs/
+scripts/extract_*.py
 
 # Sandbox artifacts
 charting_sandbox/card-backup-*.js
