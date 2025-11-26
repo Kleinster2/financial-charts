@@ -12,13 +12,6 @@
     let globalCardCounter = 0;
     const nameCache = {};
 
-    /**
-     * Convert a Map to a plain object (for JSON serialization)
-     */
-    function mapToObject(map) {
-        return Object.fromEntries(map ? Array.from(map.entries()) : []);
-    }
-
     // Height adjust helpers
     const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
     const HEIGHT_MAX = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MAX_HEIGHT) || 800;
@@ -99,7 +92,7 @@
             showRevenue: !!card._showRevenue,
             showFundamentalsPane: !!card._showFundamentalsPane,
             fundamentalsMetrics: card._fundamentalsMetrics || ['revenue', 'netincome'],
-            multipliers: mapToObject(card._multiplierMap),
+            multipliers: window.ChartUtils.mapToObject(card._multiplierMap),
             hidden: Array.from(card._hiddenTickers || []),
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
@@ -117,8 +110,8 @@
             notes: card._notes || '',
             manualInterval: card._manualInterval || null,
             decimalPrecision: card._decimalPrecision || 2,
-            tickerColors: mapToObject(card._tickerColorMap),
-            priceScaleAssignments: mapToObject(card._priceScaleAssignmentMap),
+            tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
+            priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
             settingsPanelOpen: !!(card._state && card._state.settingsPanelOpen)
         }));
 

@@ -36,6 +36,15 @@ window.ChartUtils = {
     },
 
     /**
+     * Convert a Map to a plain object (for JSON serialization)
+     * @param {Map} map - Map to convert
+     * @returns {Object} Plain object with map entries
+     */
+    mapToObject(map) {
+        return Object.fromEntries(map ? Array.from(map.entries()) : []);
+    },
+
+    /**
      * Format price value for display
      */
     formatPrice(value) {
