@@ -273,7 +273,7 @@
   async function initialize() {
     await loadCategoriesFromBackend();
 
-    // Check localStorage for saved active page BEFORE building UI
+    // Restore saved pages from localStorage FIRST (so page elements exist)
     let savedActivePage = 1;
     try {
       const raw = localStorage.getItem('sandbox_pages');
@@ -281,6 +281,20 @@
         const parsed = JSON.parse(raw);
         if (parsed && parsed.active) {
           savedActivePage = parsed.active;
+        }
+        // Restore names so tabs get correct labels
+        if (parsed.names && typeof parsed.names === 'object') {
+          Object.assign(pageNames, parsed.names);
+        }
+        // Restore categories if backend didn't provide any
+        if (parsed.categories && typeof parsed.categories === 'object') {
+          if (Object.keys(pageCategories).length === 0) {
+            pageCategories = parsed.categories;
+          }
+        }
+        // Create page elements for all saved pages
+        if (Array.isArray(parsed.pages)) {
+          parsed.pages.filter(n => n !== 1).forEach(n => ensurePage(n));
         }
       }
     } catch (e) { /* use default */ }
@@ -357,33 +371,6 @@
     return true;
   }
   window.PageManager = { ensurePage, showPage, renamePage };
-
-  // Restore saved pages (so empty pages persist too)
-  try {
-    const raw = localStorage.getItem('sandbox_pages');
-    if (raw) {
-      const parsed = JSON.parse(raw);
-      if (parsed && Array.isArray(parsed.pages)) {
-        // Restore names first so any newly created tabs use saved names
-        if (parsed.names && typeof parsed.names === 'object') {
-          Object.assign(pageNames, parsed.names);
-        }
-        if (parsed.categories && typeof parsed.categories === 'object') {
-          // Only use localStorage categories if backend didn't provide any
-          if (Object.keys(pageCategories).length === 0) {
-            pageCategories = parsed.categories;
-          }
-        }
-        parsed.pages.filter(n => n !== 1).forEach(n => ensurePage(n));
-        // Rebuild tab bar with updated data
-        buildTabBar();
-        if (parsed.active && parsed.active !== 1) {
-          const target = pagesContainer.querySelector(`[data-page="${parsed.active}"]`);
-          if (target) switchTo(target);
-        }
-      }
-    }
-  } catch(e) { console.warn('pages.js: failed to restore pages', e); }
 
   window.addEventListener('beforeunload', () => {
     if(window.saveCards) window.saveCards();
