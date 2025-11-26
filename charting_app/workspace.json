@@ -10679,6 +10679,30 @@
       ],
       "title": "Backup Power & Fuel Cells",
       "useRaw": true
+    },
+    {
+      "page": "55",
+      "tickers": [
+        "UNIT",
+        "LUMN",
+        "CCOI",
+        "TMUS",
+        "VZ"
+      ],
+      "title": "Fiber & Telecom Infrastructure",
+      "useRaw": true
+    },
+    {
+      "page": "55",
+      "tickers": [
+        "PANW",
+        "CRWD",
+        "FTNT",
+        "ZS",
+        "NET"
+      ],
+      "title": "DC Cybersecurity",
+      "useRaw": true
     }
   ],
   "pages": {
