@@ -14,6 +14,7 @@ window.ChartDashboard = {
      * Create a dashboard card
      */
     createDashboardCard(wrapperEl) {
+        console.log('[ChartDashboard] createDashboardCard called, wrapper:', wrapperEl);
         const card = document.createElement('div');
         card.className = 'chart-card dashboard-card';
         card.id = `dashboard-${Date.now()}`;
@@ -61,6 +62,9 @@ window.ChartDashboard = {
             this.loadData(card);
         });
 
+        // Mark as dashboard type for saveCards
+        card._type = 'dashboard';
+
         wrapperEl.appendChild(card);
 
         // Load data
@@ -83,6 +87,7 @@ window.ChartDashboard = {
                 border: 1px solid #ddd;
                 border-radius: 4px;
                 padding: 16px;
+                min-height: 400px;
             }
             .dashboard-header {
                 display: flex;
@@ -233,18 +238,26 @@ window.ChartDashboard = {
      * Load dashboard data from API
      */
     async loadData(card) {
+        console.log('[ChartDashboard] loadData called');
         const tbody = card.querySelector('.dashboard-table tbody');
+        console.log('[ChartDashboard] tbody:', tbody);
         tbody.innerHTML = '<tr><td colspan="12" class="dashboard-loading">Loading data...</td></tr>';
 
         try {
+            console.log('[ChartDashboard] Fetching from API...');
             const response = await fetch('http://localhost:5000/api/dashboard');
+            console.log('[ChartDashboard] Response status:', response.status);
             if (!response.ok) throw new Error('Failed to load dashboard data');
 
             this.data = await response.json();
+            console.log('[ChartDashboard] Data loaded:', this.data.length, 'tickers');
+            console.log('[ChartDashboard] Calling renderStats...');
             this.renderStats(card);
+            console.log('[ChartDashboard] Calling renderTable...');
             this.renderTable(card);
+            console.log('[ChartDashboard] Render complete');
         } catch (error) {
-            console.error('Dashboard load error:', error);
+            console.error('[ChartDashboard] Dashboard load error:', error);
             tbody.innerHTML = `<tr><td colspan="12" class="dashboard-loading">Error loading data: ${error.message}</td></tr>`;
         }
     },

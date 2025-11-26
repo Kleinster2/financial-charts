@@ -29,6 +29,7 @@
 
         // Handle dashboard card type
         if (cardData.type === 'dashboard') {
+            console.log('[Restore] Creating dashboard card on page', cardData.page);
             createChartCard({ type: 'dashboard', wrapperEl: wrapper });
             return;
         }
@@ -88,6 +89,7 @@
     function saveCards() {
         const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => ({
             page: card.closest('.page')?.dataset.page || '1',
+            type: card._type || null,
             tickers: Array.from(card._selectedTickers || []),
             showDiff: !!card._showDiff,
             showAvg: !!card._showAvg,
@@ -134,7 +136,9 @@
     function createChartCard(optionsOrTickers) {
         // Handle dashboard card type
         if (optionsOrTickers && optionsOrTickers.type === 'dashboard') {
+            console.log('[createChartCard] Dashboard type detected');
             const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
+            console.log('[createChartCard] wrapper:', wrapper, 'ChartDashboard:', !!window.ChartDashboard);
             if (wrapper && window.ChartDashboard) {
                 return window.ChartDashboard.createDashboardCard(wrapper);
             }
