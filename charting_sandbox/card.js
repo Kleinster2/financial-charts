@@ -437,7 +437,7 @@
         }
 
         function setHeight(newHeight) {
-            const height = Math.max(HEIGHT_MIN, Math.min(HEIGHT_MAX, parseInt(newHeight)));
+            const height = window.ChartUtils.clamp(parseInt(newHeight), HEIGHT_MIN, HEIGHT_MAX);
             console.log(`[Card:${cardId}] Height change to ${height}`);
             card._height = height;
             applyResize(height);
@@ -454,7 +454,7 @@
 
         // Volume pane height adjustment
         function setVolumePaneHeight(newFactor) {
-            const factor = Math.max(0.5, Math.min(3.0, parseFloat(newFactor)));
+            const factor = window.ChartUtils.clamp(parseFloat(newFactor), 0.5, 3.0);
             console.log(`[Card:${cardId}] Volume pane stretch factor change to ${factor}`);
             card._volumePaneStretchFactor = factor;
 
@@ -492,7 +492,7 @@
             }
         }
         function setFontSize(newSize) {
-            const size = Math.max(FONT_MIN, Math.min(FONT_MAX, parseInt(newSize)));
+            const size = window.ChartUtils.clamp(parseInt(newSize), FONT_MIN, FONT_MAX);
             console.log(`[Card:${cardId}] Font size change to ${size}`);
             card._fontSize = size;
             applyFont(size);

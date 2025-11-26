@@ -45,6 +45,17 @@ window.ChartUtils = {
     },
 
     /**
+     * Clamp a value between min and max
+     * @param {number} value - Value to clamp
+     * @param {number} min - Minimum allowed value
+     * @param {number} max - Maximum allowed value
+     * @returns {number} Clamped value
+     */
+    clamp(value, min, max) {
+        return Math.max(min, Math.min(max, value));
+    },
+
+    /**
      * Format price value for display
      */
     formatPrice(value) {
