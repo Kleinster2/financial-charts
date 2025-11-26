@@ -10703,6 +10703,42 @@
       ],
       "title": "DC Cybersecurity",
       "useRaw": true
+    },
+    {
+      "page": "56",
+      "tickers": [
+        "JOBY",
+        "ACHR",
+        "LILM",
+        "EVTL",
+        "BLDE"
+      ],
+      "title": "eVTOL Pure Plays",
+      "useRaw": true
+    },
+    {
+      "page": "56",
+      "tickers": [
+        "BA",
+        "LMT",
+        "RTX",
+        "GE",
+        "HWM"
+      ],
+      "title": "Aerospace (eVTOL Investors)",
+      "useRaw": true
+    },
+    {
+      "page": "56",
+      "tickers": [
+        "UAVS",
+        "AVAV",
+        "RKLB",
+        "LUNR",
+        "RDW"
+      ],
+      "title": "Drones & Space Tech",
+      "useRaw": true
     }
   ],
   "pages": {
@@ -10812,7 +10848,8 @@
       "52": "Fed Policy",
       "53": "Financial Stress",
       "54": "Hardware",
-      "55": "Data Centers"
+      "55": "Data Centers",
+      "56": "eVTOL & Urban Air Mobility"
     },
     "categories": {
       "Assets": [
@@ -10872,7 +10909,8 @@
         47,
         11,
         21,
-        55
+        55,
+        56
       ]
     }
   }
