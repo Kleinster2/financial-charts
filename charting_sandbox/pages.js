@@ -12,6 +12,7 @@
   let pageNames = {};
   let pageCategories = {}; // { categoryName: [pageNum, ...] }
   let currentActivePage = 1; // Track active page directly
+  let isInitializing = true; // Prevent saves during initial load
 
   // Preload saved names before creating initial tab so Page 1 label is correct
   try {
@@ -320,9 +321,16 @@
   }
 
   function savePages(){
+    // Don't save during initialization to avoid overwriting saved active page
+    if (isInitializing) {
+      console.log('[PageManager] savePages() skipped - still initializing');
+      return;
+    }
     const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+    const activePage = getActivePage();
+    console.log(`[PageManager] savePages() - active page: ${activePage}`);
     try {
-      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage(), names: pageNames, categories: pageCategories }));
+      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: activePage, names: pageNames, categories: pageCategories }));
       // Also persist to backend (debounced) so changes sync across browsers
       try {
         const cardsKey = (window.StateManager && window.StateManager.STORAGE_KEYS && window.StateManager.STORAGE_KEYS.CARDS) || 'sandbox_cards';
@@ -417,6 +425,11 @@
         return pageEl.querySelector('[id^="charts-wrapper"]');
       }
       return document.getElementById('charts-wrapper');
+    },
+    // Called by StateManager after workspace is fully loaded
+    finishInitialization: function() {
+      isInitializing = false;
+      console.log('[PageManager] Initialization complete, saves now enabled');
     }
   };
 

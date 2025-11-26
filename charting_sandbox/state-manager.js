@@ -158,6 +158,10 @@ window.StateManager = {
                                     console.log(`[StateManager] Switching to saved active page: ${remoteData.pages.active}`);
                                     window.PageManager.showPage(remoteData.pages.active);
                                 }
+                                // Signal that initialization is complete - saves are now allowed
+                                if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
+                                    window.PageManager.finishInitialization();
+                                }
                             } catch (e) {
                                 console.warn('[StateManager] Failed to cache sandbox_pages from backend:', e);
                             }
@@ -180,12 +184,22 @@ window.StateManager = {
                     window.Toast.info('Loaded workspace from local storage (server unavailable)', 3000);
                 }
 
+                // Enable saves for fallback path
+                if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
+                    window.PageManager.finishInitialization();
+                }
+
                 return parsed;
             }
 
             // Both backend and localStorage failed - show warning
             if (window.Toast) {
                 window.Toast.warning('Could not load saved workspace. Starting with empty workspace.');
+            }
+
+            // Enable saves even for empty workspace
+            if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
+                window.PageManager.finishInitialization();
             }
 
             return [];
@@ -195,6 +209,11 @@ window.StateManager = {
             // Show error toast for unexpected failures
             if (window.Toast) {
                 window.Toast.error('Error loading workspace. Please refresh the page.');
+            }
+
+            // Enable saves even on error
+            if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
+                window.PageManager.finishInitialization();
             }
 
             return [];
