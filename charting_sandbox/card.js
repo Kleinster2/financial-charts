@@ -13,15 +13,14 @@
     const nameCache = {};
 
     // Height adjust helpers
-    const HEIGHT_MIN = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400;
-    const HEIGHT_MAX = (window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MAX_HEIGHT) || 800;
+    const HEIGHT_MIN = window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400;
+    const HEIGHT_MAX = window.ChartConfig?.DIMENSIONS?.CHART_MAX_HEIGHT || 800;
     const HEIGHT_STEP = 50;
 
     // Font size controls (axis font only)
-    const UI = (window.ChartConfig && window.ChartConfig.UI) || {};
-    const FONT_MIN = UI.FONT_MIN || 8;
-    const FONT_MAX = UI.FONT_MAX || 24;
-    const FONT_STEP = UI.FONT_STEP || 1;
+    const FONT_MIN = window.ChartConfig?.UI?.FONT_MIN || 8;
+    const FONT_MAX = window.ChartConfig?.UI?.FONT_MAX || 24;
+    const FONT_STEP = window.ChartConfig?.UI?.FONT_STEP || 1;
 
     /**
      * Restore a card from saved data
@@ -47,8 +46,8 @@
             lastTickerVisible: !!cardData.lastTickerVisible,
             showZeroLine: cardData.showZeroLine || false,
             wrapperEl: wrapper,
-            height: cardData.height || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-            fontSize: cardData.fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            height: cardData.height || (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
+            fontSize: cardData.fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
             showFixedLegend: !!cardData.showFixedLegend,
             fixedLegendPos: cardData.fixedLegendPos || { x: 10, y: 10 },
             fixedLegendSize: cardData.fixedLegendSize || null,
@@ -105,7 +104,7 @@
             fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
             fixedLegendSize: card._fixedLegendSize || null,
             height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch (_) { return undefined; } })(),
-            fontSize: card._fontSize || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            fontSize: card._fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
             showNotes: !!card._showNotes,
             notes: card._notes || '',
             manualInterval: card._manualInterval || null,
@@ -146,8 +145,8 @@
                 lastLabelVisible: arguments[10] !== false,
                 showZeroLine: arguments[11] || false,
                 wrapperEl: arguments[12] || null,
-                height: arguments[13] || ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-                fontSize: arguments[14] || ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+                height: arguments[13] || (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
+                fontSize: arguments[14] || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
                 showFixedLegend: arguments[15] || false,
                 fixedLegendPos: arguments[16] || { x: 10, y: 10 },
                 fixedLegendSize: arguments[17] || null
@@ -177,8 +176,8 @@
             lastTickerVisible: initialLastTickerVisible = false,
             showZeroLine: initialShowZeroLine = false,
             wrapperEl = null,
-            height: initialHeight = ((window.ChartConfig && window.ChartConfig.DIMENSIONS && window.ChartConfig.DIMENSIONS.CHART_MIN_HEIGHT) || 400),
-            fontSize: initialFontSize = ((window.ChartConfig && window.ChartConfig.UI && window.ChartConfig.UI.FONT_DEFAULT) || 12),
+            height: initialHeight = (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
+            fontSize: initialFontSize = (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
             showFixedLegend: initialShowFixedLegend = false,
             showLegendTickers: initialShowLegendTickers = false,
             fixedLegendPos: initialFixedLegendPos = { x: 10, y: 10 },
@@ -506,7 +505,7 @@
         }
         // Font slider event handler
         window.ChartUtils.bindSliderControl(fontSlider, fontValue, {
-            initialValue: card._fontSize || (UI.FONT_DEFAULT || 12),
+            initialValue: card._fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
             onInput: (v) => { card._fontSize = v; applyFont(v); }
         });
 
@@ -709,7 +708,7 @@
                 const priceFormat = window.ChartUtils.createPriceFormatter(useRaw, precision);
 
                 chart = LightweightCharts.createChart(chartBox, {
-                    layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
+                    layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12)) },
                     grid: { vertLines: { color: '#eee' }, horzLines: { color: '#eee' } },
                     timeScale: { secondsVisible: false, rightOffset: 3, fixLeftEdge: true },
                     leftPriceScale: {
@@ -2065,7 +2064,7 @@
                 // Create new chart on the active page with default settings (all panes off)
                 const newCard = createChartCard('', false, false, false, false, false,
                     {}, [],
-                    null, '', true, false, targetWrapper, 500, (UI.FONT_DEFAULT || 12));
+                    null, '', true, false, targetWrapper, 500, (window.ChartConfig?.UI?.FONT_DEFAULT || 12));
                 saveCards();
                 // Insert new card after the current card (within the same page)
                 if (card.nextSibling) {
