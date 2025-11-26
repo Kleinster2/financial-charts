@@ -15,12 +15,10 @@
     // Height adjust helpers
     const HEIGHT_MIN = window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400;
     const HEIGHT_MAX = window.ChartConfig?.DIMENSIONS?.CHART_MAX_HEIGHT || 800;
-    const HEIGHT_STEP = 50;
 
     // Font size controls (axis font only)
     const FONT_MIN = window.ChartConfig?.UI?.FONT_MIN || 8;
     const FONT_MAX = window.ChartConfig?.UI?.FONT_MAX || 24;
-    const FONT_STEP = window.ChartConfig?.UI?.FONT_STEP || 1;
 
     /**
      * Restore a card from saved data
@@ -111,7 +109,7 @@
             decimalPrecision: card._decimalPrecision || 2,
             tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
             priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
-            settingsPanelOpen: !!(card._state && card._state.settingsPanelOpen)
+            settingsPanelOpen: !!card._state?.settingsPanelOpen
         }));
 
         window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
