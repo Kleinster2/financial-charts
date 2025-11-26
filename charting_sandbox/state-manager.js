@@ -24,9 +24,12 @@ window.StateManager = {
         MULTIPLIERS: 'multipliers',
         PREFERENCES: 'chart_preferences'
     },
-    
+
     // internal timer for backend saves
     _saveTimeout: null,
+
+    // Flag to prevent duplicate page switching
+    _initialLoadComplete: false,
     
     /**
      * Save cards to localStorage only (immediate)
@@ -147,21 +150,20 @@ window.StateManager = {
                         }
                     } else if (typeof remoteData === 'object') {
                         const cards = Array.isArray(remoteData.cards) ? remoteData.cards : [];
-                        // Restore pages metadata for PageManager
-                        if (remoteData.pages && typeof remoteData.pages === 'object') {
+                        // Restore pages metadata for PageManager (only on first load)
+                        // Note: card.js handles the actual page switching and card restore.
+                        // StateManager.loadCards is also called by global-search.js to build search index,
+                        // so we skip page switching here to avoid conflicts.
+                        if (remoteData.pages && typeof remoteData.pages === 'object' && !this._initialLoadComplete) {
                             try {
                                 localStorage.setItem('sandbox_pages', JSON.stringify(remoteData.pages));
                                 const nameCount = remoteData.pages.names ? Object.keys(remoteData.pages.names).length : 0;
                                 console.log(`[StateManager] Restored page metadata from backend (pageNames=${nameCount})`);
-                                // Notify PageManager to switch to the saved active page
-                                if (remoteData.pages.active && window.PageManager && typeof window.PageManager.showPage === 'function') {
-                                    console.log(`[StateManager] Switching to saved active page: ${remoteData.pages.active}`);
-                                    window.PageManager.showPage(remoteData.pages.active);
-                                }
                                 // Signal that initialization is complete - saves are now allowed
                                 if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
                                     window.PageManager.finishInitialization();
                                 }
+                                this._initialLoadComplete = true;
                             } catch (e) {
                                 console.warn('[StateManager] Failed to cache sandbox_pages from backend:', e);
                             }
