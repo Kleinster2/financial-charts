@@ -51,7 +51,7 @@
 
     const menu = document.createElement('div');
     menu.className = 'dropdown-menu';
-    menu.style.cssText = 'display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 1000; min-width: 150px; max-height: 400px; overflow-y: auto;';
+    menu.style.cssText = 'display: none; position: absolute; top: 100%; left: 0; background: #ffffff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); z-index: 1000; min-width: 180px; max-height: 400px; overflow-y: auto;';
 
     // Sort pages alphabetically by name
     const sortedPages = pageNums
@@ -63,9 +63,9 @@
       item.className = 'dropdown-item';
       item.dataset.page = num;
       item.textContent = name;
-      item.style.cssText = 'padding: 8px 12px; cursor: pointer; white-space: nowrap;';
-      item.addEventListener('mouseenter', () => item.style.background = '#f0f0f0');
-      item.addEventListener('mouseleave', () => item.style.background = '');
+      item.style.cssText = 'padding: 8px 12px; cursor: pointer; white-space: nowrap; background: #ffffff;';
+      item.addEventListener('mouseenter', () => item.style.background = '#e8e8e8');
+      item.addEventListener('mouseleave', () => item.style.background = '#ffffff');
       item.addEventListener('click', (e) => {
         e.stopPropagation();
         const target = pagesContainer.querySelector(`[data-page="${num}"]`);
@@ -103,7 +103,9 @@
 
     // If we have categories, use dropdown mode
     if (Object.keys(pageCategories).length > 0) {
-      const categoryOrder = ['Portfolios', 'Sectors', 'Countries', 'Macro', 'Assets'];
+      const knownCategories = ['Portfolios', 'Sectors', 'Countries', 'Macro', 'Assets'];
+      // Include any additional categories from pageCategories
+      const categoryOrder = [...new Set([...knownCategories, ...Object.keys(pageCategories)])];
       const categorizedPages = new Set();
 
       categoryOrder.forEach(cat => {
@@ -382,8 +384,8 @@
     pageEl.appendChild(wrapper);
     pagesContainer.appendChild(pageEl);
 
-        // add tab and switch focus
-    createTab(pageCounter);
+        // add tab and switch focus - rebuild tab bar to include new page
+    buildTabBar();
     switchTo(pageEl);
 
     // create a blank chart card inside this wrapper

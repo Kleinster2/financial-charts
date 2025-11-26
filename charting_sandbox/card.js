@@ -122,7 +122,8 @@
             showNotes: !!cardData.showNotes,
             notes: cardData.notes || '',
             manualInterval: cardData.manualInterval || null,
-            decimalPrecision: cardData.decimalPrecision || 2
+            decimalPrecision: cardData.decimalPrecision || 2,
+            settingsPanelOpen: !!cardData.settingsPanelOpen
         });
     }
 
@@ -177,7 +178,8 @@
             manualInterval: card._manualInterval || null,
             decimalPrecision: card._decimalPrecision || 2,
             tickerColors: mapToObject(card._tickerColorMap),
-            priceScaleAssignments: mapToObject(card._priceScaleAssignmentMap)
+            priceScaleAssignments: mapToObject(card._priceScaleAssignmentMap),
+            settingsPanelOpen: !!(card._state && card._state.settingsPanelOpen)
         }));
 
         safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
