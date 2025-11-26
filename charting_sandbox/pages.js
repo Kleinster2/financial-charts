@@ -11,6 +11,7 @@
   let pageCounter = 1; // page 1 exists
   let pageNames = {};
   let pageCategories = {}; // { categoryName: [pageNum, ...] }
+  let currentActivePage = 1; // Track active page directly
 
   // Preload saved names before creating initial tab so Page 1 label is correct
   try {
@@ -134,22 +135,25 @@
   }
   function switchTo(pageEl) {
     if (!pageEl) return;
-    
+
     // Hide all pages
     Array.from(pagesContainer.children).forEach(p => {
       p.style.display = 'none';
     });
-    
+
     // Show the target page
     pageEl.style.display = 'block';
-    
+
+    // Track the active page
+    const pageNum = parseInt(pageEl.dataset.page, 10);
+    currentActivePage = pageNum;
+
     // Update page title
     const pageTitle = document.getElementById("page-title");
     if (pageTitle) {
-      const pageNum = pageEl.dataset.page;
       pageTitle.textContent = pageNames[pageNum] || `Page ${pageNum}`;
     }
-    activateTab(pageEl.dataset.page);
+    activateTab(pageNum);
     
     // Trigger plot for all charts on the newly visible page if they haven't been plotted
     // Use a small delay to ensure cards are fully initialized
@@ -312,14 +316,7 @@
   initialize();
 
   function getActivePage(){
-    // Check dropdown items first
-    const activeDropdownItem = tabBar.querySelector('.dropdown-item.active');
-    if (activeDropdownItem) {
-      return parseInt(activeDropdownItem.dataset.page, 10);
-    }
-    // Fall back to individual tabs
-    const activeTab = tabBar.querySelector('.tab.active');
-    return activeTab ? parseInt(activeTab.dataset.page, 10) : 1;
+    return currentActivePage;
   }
 
   function savePages(){
