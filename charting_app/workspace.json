@@ -50,7 +50,8 @@
         "KO": "#2F4F4F",
         "PEP": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -102,7 +103,8 @@
         "BA": "#20B2AA",
         "GE": "#666666"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -154,7 +156,8 @@
         "HD": "#66A61E",
         "LOW": "#E15759"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -206,7 +209,8 @@
         "TGT": "#4E79A7",
         "WMT": "#E15759"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -258,7 +262,8 @@
         "FDX": "#F28E2B",
         "UPS": "#20B2AA"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -310,7 +315,8 @@
         "MA": "#E41A1C",
         "V": "#D95F02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -362,7 +368,8 @@
         "ADDYY": "#1B9E77",
         "NKE": "#4E79A7"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -414,7 +421,8 @@
         "CAT": "#E6AB02",
         "DE": "#20B2AA"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -463,7 +471,8 @@
         "MCD": "#377EB8",
         "YUM": "#20B2AA"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "2",
@@ -512,7 +521,8 @@
         "COST": "#2F4F4F",
         "WMT": "#FF7F00"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "3",
@@ -558,8 +568,8 @@
         "y": 4
       },
       "fixedLegendSize": {
-        "width": 300,
-        "height": 101
+        "height": 101,
+        "width": 300
       },
       "height": 450,
       "fontSize": 11,
@@ -574,7 +584,8 @@
         "PETR4.SA": "#999999",
         "VALE3.SA": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "3",
@@ -619,8 +630,8 @@
         "y": 7
       },
       "fixedLegendSize": {
-        "width": 482,
-        "height": 141
+        "height": 141,
+        "width": 482
       },
       "height": 450,
       "fontSize": 11,
@@ -635,7 +646,8 @@
         "RENT3.SA": "#76B7B2",
         "WEGE3.SA": "#1B9E77"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "3",
@@ -680,8 +692,8 @@
         "y": 15
       },
       "fixedLegendSize": {
-        "width": 330,
-        "height": 116
+        "height": 116,
+        "width": 330
       },
       "height": 450,
       "fontSize": 11,
@@ -696,7 +708,8 @@
         "ITUB4.SA": "#4E79A7",
         "SANB11.SA": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "3",
@@ -743,8 +756,8 @@
         "y": 369
       },
       "fixedLegendSize": {
-        "width": 419,
-        "height": 123
+        "height": 123,
+        "width": 419
       },
       "height": 500,
       "fontSize": 11,
@@ -759,7 +772,8 @@
         "PETR4.SA": "#C71585",
         "VALE3.SA": "#F28E2B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "3",
@@ -795,8 +809,8 @@
         "y": 41
       },
       "fixedLegendSize": {
-        "width": 285,
-        "height": 86
+        "height": 86,
+        "width": 285
       },
       "height": 500,
       "fontSize": 12,
@@ -808,7 +822,8 @@
         "FICT3.SA": "#BAB0AC",
         "REAG3.SA": "#B8860B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -872,7 +887,8 @@
         "SOL-USD": "#999999",
         "XRP-USD": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -942,7 +958,8 @@
         "NEAR-USD": "#BAB0AC",
         "SOL-USD": "#F28E2B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -997,7 +1014,8 @@
         "MATIC-USD": "#E6AB02",
         "OP-USD": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1060,7 +1078,8 @@
         "MKR-USD": "#2F4F4F",
         "UNI-USD": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1112,7 +1131,8 @@
         "DOGE-USD": "#66A61E",
         "SHIB-USD": "#F28E2B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1173,7 +1193,8 @@
         "LTC-USD": "#4682B4",
         "XLM-USD": "#1B9E77"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1237,7 +1258,8 @@
         "SAND-USD": "#B8860B",
         "THETA-USD": "#C2185B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1303,7 +1325,8 @@
         "RNDR-USD": "#9C755F",
         "VET-USD": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1370,7 +1393,8 @@
         "MARA": "#C71585",
         "RIOT": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "4",
@@ -1413,7 +1437,8 @@
       "tickerColors": {
         "DAI-USD": "#B8860B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1474,7 +1499,8 @@
         "NTES": "#D95F02",
         "PDD": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1532,7 +1558,8 @@
         "NIO": "#E6AB02",
         "XPEV": "#984EA3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1590,7 +1617,8 @@
         "KWEB": "#B07AA1",
         "MCHI": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1648,7 +1676,8 @@
         "NTES": "#D95F02",
         "TME": "#D95F02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1703,7 +1732,8 @@
         "YUM": "#20B2AA",
         "YUMC": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "5",
@@ -1754,7 +1784,8 @@
         "000300.SS": "#FF7F00",
         "399001.SZ": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "6",
@@ -1822,7 +1853,8 @@
         "^VXD": "#44AA44",
         "^VXN": "#4444FF"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "7",
@@ -1887,7 +1919,8 @@
         "QUBT": "#E6AB02",
         "RGTI": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "15",
@@ -1932,8 +1965,8 @@
         "y": 31
       },
       "fixedLegendSize": {
-        "width": 284,
-        "height": 102
+        "height": 102,
+        "width": 284
       },
       "height": 450,
       "fontSize": 11,
@@ -1948,7 +1981,8 @@
         "MRK": "#7570B3",
         "PFE": "#999999"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "15",
@@ -1991,8 +2025,8 @@
         "y": 43
       },
       "fixedLegendSize": {
-        "width": 233,
-        "height": 88
+        "height": 88,
+        "width": 233
       },
       "height": 500,
       "fontSize": 11,
@@ -2006,7 +2040,8 @@
         "NVS": "#A6761D",
         "RHHBY": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "15",
@@ -2047,8 +2082,8 @@
         "y": 24
       },
       "fixedLegendSize": {
-        "width": 243,
-        "height": 112
+        "height": 112,
+        "width": 243
       },
       "height": 450,
       "fontSize": 11,
@@ -2061,7 +2096,8 @@
         "MRNA": "#C2185B",
         "NVAX": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "15",
@@ -2106,8 +2142,8 @@
         "y": 15
       },
       "fixedLegendSize": {
-        "width": 396,
-        "height": 121
+        "height": 121,
+        "width": 396
       },
       "height": 500,
       "fontSize": 11,
@@ -2122,7 +2158,8 @@
         "REGN": "#999999",
         "VRTX": "#E7298A"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2168,7 +2205,8 @@
       "tickerColors": {
         "ALLW": "#A65628"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2226,7 +2264,8 @@
         "SPEM": "#E6AB02",
         "SPLG": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2269,7 +2308,8 @@
       "tickerColors": {
         "ALLW_VALUE": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2312,7 +2352,8 @@
       "tickerColors": {
         "ALLW_SHARES": "#8B4513"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2367,7 +2408,8 @@
         "SPY": "#4682B4",
         "VOO": "#F28E2B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2422,7 +2464,8 @@
         "SPEM": "#E6AB02",
         "VWO": "#999999"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "19",
@@ -2477,7 +2520,8 @@
         "GXC": "#E41A1C",
         "MCHI": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2542,7 +2586,8 @@
         "EWU": "#999999",
         "SPY": "#4682B4"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2611,7 +2656,8 @@
         "INDA": "#D95F02",
         "THD": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2694,7 +2740,8 @@
         "EWQ": "#FF7F00",
         "EWU": "#984EA3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2761,7 +2808,8 @@
         "EWY": "#666666",
         "THD": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2818,7 +2866,8 @@
         "^STI": "#999999",
         "^TWII": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2869,7 +2918,8 @@
         "^BSESN": "#66A61E",
         "^NSEI": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2926,7 +2976,8 @@
         "^IBEX": "#59A14F",
         "^STOXX50E": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "20",
@@ -2977,7 +3028,8 @@
         "^GSPTSE": "#984EA3",
         "^MXX": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3035,7 +3087,8 @@
         "TEO": "#984EA3",
         "YPF": "#E15759"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3087,7 +3140,8 @@
         "GGAL": "#A6761D",
         "SUPV": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3136,7 +3190,8 @@
         "VISTA": "#DAA520",
         "YPF": "#E15759"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3188,7 +3243,8 @@
         "TEO": "#984EA3",
         "TS": "#FF7F00"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3243,7 +3299,8 @@
         "GLOB": "#C71585",
         "MELI": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "22",
@@ -3295,7 +3352,8 @@
         "IRS": "#984EA3",
         "LOMA": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3329,7 +3387,7 @@
         "ARM"
       ],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3344,8 +3402,8 @@
         "y": 8
       },
       "fixedLegendSize": {
-        "height": 160,
-        "width": 448
+        "height": 164,
+        "width": 456
       },
       "height": 500,
       "fontSize": 12,
@@ -3362,7 +3420,8 @@
         "QCOM": "#999999",
         "SOXX": "#666666"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3389,7 +3448,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736294400,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3404,8 +3463,8 @@
         "y": 24
       },
       "fixedLegendSize": {
-        "height": 156,
-        "width": 415
+        "height": 160,
+        "width": 423
       },
       "height": 450,
       "fontSize": 11,
@@ -3419,7 +3478,8 @@
         "MSFT": "#2F4F4F",
         "ORCL": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3448,7 +3508,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3463,8 +3523,8 @@
         "y": 28
       },
       "fixedLegendSize": {
-        "height": 143,
-        "width": 365
+        "height": 147,
+        "width": 373
       },
       "height": 550,
       "fontSize": 11,
@@ -3479,7 +3539,8 @@
         "META": "#4682B4",
         "MSFT": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3508,7 +3569,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3523,8 +3584,8 @@
         "y": 16
       },
       "fixedLegendSize": {
-        "height": 152,
-        "width": 367
+        "height": 156,
+        "width": 375
       },
       "height": 500,
       "fontSize": 11,
@@ -3539,7 +3600,8 @@
         "NET": "#DAA520",
         "SNOW": "#4682B4"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3566,7 +3628,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3581,8 +3643,8 @@
         "y": 9
       },
       "fixedLegendSize": {
-        "height": 144,
-        "width": 396
+        "height": 148,
+        "width": 404
       },
       "height": 500,
       "fontSize": 11,
@@ -3596,7 +3658,8 @@
         "PLTR": "#B8860B",
         "SOUN": "#377EB8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3625,7 +3688,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3640,8 +3703,8 @@
         "y": 19
       },
       "fixedLegendSize": {
-        "height": 118,
-        "width": 212
+        "height": 122,
+        "width": 220
       },
       "height": 500,
       "fontSize": 11,
@@ -3656,7 +3719,8 @@
         "PDD": "#7570B3",
         "SHOP": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3683,7 +3747,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1735776000,
+        "from": 1736208000,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3698,8 +3762,8 @@
         "y": 18
       },
       "fixedLegendSize": {
-        "height": 134,
-        "width": 321
+        "height": 138,
+        "width": 329
       },
       "height": 500,
       "fontSize": 13,
@@ -3713,7 +3777,8 @@
         "LYFT": "#20B2AA",
         "UBER": "#D95F02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3741,7 +3806,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1634083200,
+        "from": 1634342400,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3756,8 +3821,8 @@
         "y": 17
       },
       "fixedLegendSize": {
-        "height": 154,
-        "width": 468
+        "height": 158,
+        "width": 476
       },
       "height": 500,
       "fontSize": 11,
@@ -3772,7 +3837,8 @@
         "MSTR": "#666666",
         "SQ": "#FF7F00"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "28",
@@ -3798,7 +3864,7 @@
       },
       "hidden": [],
       "range": {
-        "from": 1576627200,
+        "from": 1577059200,
         "to": 1764028800
       },
       "useRaw": false,
@@ -3813,8 +3879,8 @@
         "y": 35
       },
       "fixedLegendSize": {
-        "height": 103,
-        "width": 288
+        "height": 107,
+        "width": 296
       },
       "height": 500,
       "fontSize": 11,
@@ -3828,7 +3894,8 @@
         "RBLX": "#E7298A",
         "SPOT": "#4E79A7"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "29",
@@ -3886,7 +3953,8 @@
         "^TNX": "#4E79A7",
         "^TYX": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "29",
@@ -3943,7 +4011,8 @@
         "SHY": "#984EA3",
         "TLT": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "29",
@@ -4000,7 +4069,8 @@
         "HYG": "#E7298A",
         "LQD": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "30",
@@ -4057,7 +4127,8 @@
         "BWX": "#984EA3",
         "IGOV": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "30",
@@ -4114,7 +4185,8 @@
         "EMLC": "#F28E2B",
         "PCY": "#377EB8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "31",
@@ -4159,8 +4231,8 @@
         "y": 255
       },
       "fixedLegendSize": {
-        "width": 321,
-        "height": 160
+        "height": 160,
+        "width": 321
       },
       "height": 500,
       "fontSize": 12,
@@ -4175,7 +4247,8 @@
         "SLB": "#8B7355",
         "XOM": "#C71585"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "31",
@@ -4218,8 +4291,8 @@
         "y": 287
       },
       "fixedLegendSize": {
-        "width": 529,
-        "height": 137
+        "height": 137,
+        "width": 529
       },
       "height": 500,
       "fontSize": 12,
@@ -4233,7 +4306,8 @@
         "XLE": "#B8860B",
         "XOP": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "31",
@@ -4278,8 +4352,8 @@
         "y": 7
       },
       "fixedLegendSize": {
-        "width": 334,
-        "height": 119
+        "height": 119,
+        "width": 334
       },
       "height": 500,
       "fontSize": 12,
@@ -4294,7 +4368,8 @@
         "NEE": "#A65628",
         "SO": "#4682B4"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "31",
@@ -4339,8 +4414,8 @@
         "y": 302
       },
       "fixedLegendSize": {
-        "width": 340,
-        "height": 103
+        "height": 103,
+        "width": 340
       },
       "height": 500,
       "fontSize": 12,
@@ -4355,7 +4430,8 @@
         "RUN": "#B8860B",
         "SEDG": "#BAB0AC"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "32",
@@ -4400,8 +4476,8 @@
         "y": 34
       },
       "fixedLegendSize": {
-        "width": 353,
-        "height": 109
+        "height": 109,
+        "width": 353
       },
       "height": 500,
       "fontSize": 12,
@@ -4416,7 +4492,8 @@
         "ISRG": "#999999",
         "ROK": "#FF7F00"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "32",
@@ -4459,8 +4536,8 @@
         "y": 36
       },
       "fixedLegendSize": {
-        "width": 507,
-        "height": 122
+        "height": 122,
+        "width": 507
       },
       "height": 500,
       "fontSize": 12,
@@ -4474,7 +4551,8 @@
         "ROBO": "#76B7B2",
         "ROBT": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "32",
@@ -4519,8 +4597,8 @@
         "y": 23
       },
       "fixedLegendSize": {
-        "width": 302,
-        "height": 119
+        "height": 119,
+        "width": 302
       },
       "height": 500,
       "fontSize": 12,
@@ -4535,7 +4613,8 @@
         "LRCX": "#FF6347",
         "TER": "#8B4513"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4590,7 +4669,8 @@
         "RBRK": "#00A4EF",
         "RDDT": "#FF4500"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4651,7 +4731,8 @@
         "CAVA": "#D4AF37",
         "KVUE": "#DC143C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4700,7 +4781,8 @@
       "tickerColors": {
         "TPG": "#1E3A8A"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4764,7 +4846,8 @@
         "TOST": "#E85D04",
         "WEAV": "#059669"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4825,7 +4908,8 @@
         "RIVN": "#FF7F00",
         "RXRX": "#984EA3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4900,7 +4984,8 @@
         "PLTR": "#E6AB02",
         "SNOW": "#BAB0AC"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "33",
@@ -4955,7 +5040,8 @@
         "CRWD": "#E01F3D",
         "HIMS": "#00C2A8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5008,7 +5094,8 @@
         "RTY=F": "#D95F02",
         "YM=F": "#B07AA1"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5061,7 +5148,8 @@
         "NG=F": "#F28E2B",
         "RB=F": "#C71585"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5114,7 +5202,8 @@
         "PL=F": "#7570B3",
         "SI=F": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5163,7 +5252,8 @@
         "ALI=F": "#4DAF4A",
         "HG=F": "#1B9E77"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5218,7 +5308,8 @@
         "ZS=F": "#E7298A",
         "ZW=F": "#B8860B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5271,7 +5362,8 @@
         "KC=F": "#66A61E",
         "SB=F": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5316,7 +5408,8 @@
         "HE=F": "#377EB8",
         "LE=F": "#4DAF4A"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5371,7 +5464,8 @@
         "6E=F": "#66A61E",
         "6J=F": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5426,7 +5520,8 @@
         "ZN=F": "#8B4513",
         "ZT=F": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5467,7 +5562,8 @@
       "tickerColors": {
         "VX=F": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "34",
@@ -5508,7 +5604,8 @@
       "tickerColors": {
         "BTC=F": "#B07AA1"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5572,7 +5669,8 @@
         "USDJPY=X": "#E41A1C",
         "USDSEK=X": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5639,7 +5737,8 @@
         "USDJPY=X": "#8B7355",
         "USDNZD=X": "#FF7F00"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5706,7 +5805,8 @@
         "EURNZD=X": "#B8860B",
         "EURUSD=X": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5770,7 +5870,8 @@
         "GBPNZD=X": "#D95F02",
         "GBPUSD=X": "#A65628"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5834,7 +5935,8 @@
         "NZDJPY=X": "#D95F02",
         "USDJPY=X": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5895,7 +5997,8 @@
         "RUBUSD=X": "#BAB0AC",
         "ZARUSD=X": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -5962,7 +6065,8 @@
         "USDSGD=X": "#8B7355",
         "USDTHB=X": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6020,7 +6124,8 @@
         "MXNUSD=X": "#984EA3",
         "USDARS=X": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6087,7 +6192,8 @@
         "USDPLN=X": "#4E79A7",
         "USDSEK=X": "#666666"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6154,7 +6260,8 @@
         "TRYUSD=X": "#B07AA1",
         "ZARUSD=X": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6209,7 +6316,8 @@
         "USDKWD=X": "#66A61E",
         "USDSAR=X": "#D95F02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6261,7 +6369,8 @@
         "XPDUSD=X": "#9C755F",
         "XPTUSD=X": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6325,7 +6434,8 @@
         "AUDNZD=X": "#984EA3",
         "AUDUSD=X": "#A65628"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6389,7 +6499,8 @@
         "NZDJPY=X": "#D95F02",
         "NZDUSD=X": "#999999"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6453,7 +6564,8 @@
         "CADNZD=X": "#A6761D",
         "CADUSD=X": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "35",
@@ -6520,7 +6632,8 @@
         "CHFNZD=X": "#2F4F4F",
         "CHFUSD=X": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6595,7 +6708,8 @@
         "VFS": "#66A61E",
         "XPEV": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6656,7 +6770,8 @@
         "TM": "#BAB0AC",
         "VWAGY": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6707,7 +6822,8 @@
         "CHPT": "#B07AA1",
         "EVGO": "#666666"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6758,7 +6874,8 @@
         "IDRV": "#B07AA1",
         "KARS": "#9C755F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6807,7 +6924,8 @@
         "HYLN": "#76B7B2",
         "WKHS": "#B8860B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "36",
@@ -6862,7 +6980,8 @@
         "MULN": "#DAA520",
         "NKLA": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -6919,7 +7038,8 @@
         "MS": "#2F4F4F",
         "WFC": "#377EB8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -6982,7 +7102,8 @@
         "TFC": "#C71585",
         "USB": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -7037,7 +7158,8 @@
         "RY": "#FF7F00",
         "TD": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -7098,7 +7220,8 @@
         "SAN": "#E6AB02",
         "UBS": "#4E79A7"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -7151,7 +7274,8 @@
         "KB": "#9C755F",
         "MUFG": "#F28E2B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -7204,7 +7328,8 @@
         "SCHW": "#BAB0AC",
         "SYF": "#666666"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "37",
@@ -7257,7 +7382,8 @@
         "KRE": "#7570B3",
         "XLF": "#E41A1C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "38",
@@ -7308,7 +7434,8 @@
         "MP": "#F28E2B",
         "REMX": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "38",
@@ -7363,7 +7490,8 @@
         "LTHM": "#E6AB02",
         "SQM": "#A65628"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "38",
@@ -7418,7 +7546,8 @@
         "URA": "#76B7B2",
         "UUUU": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "38",
@@ -7475,7 +7604,8 @@
         "TECK": "#377EB8",
         "VALE": "#59A14F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "38",
@@ -7526,7 +7656,8 @@
         "CENX": "#E15759",
         "FCX": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "39",
@@ -7591,7 +7722,8 @@
         "REGN": "#999999",
         "VRTX": "#E7298A"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "39",
@@ -7658,7 +7790,8 @@
         "TMO": "#4682B4",
         "ZBH": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "39",
@@ -7715,7 +7848,8 @@
         "HUM": "#76B7B2",
         "UNH": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "39",
@@ -7778,7 +7912,8 @@
         "VRTX": "#B07AA1",
         "XBI": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "39",
@@ -7833,7 +7968,8 @@
         "XBI": "#7570B3",
         "XLV": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -7884,7 +8020,8 @@
         "CCI": "#BAB0AC",
         "SBAC": "#20B2AA"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -7937,7 +8074,8 @@
         "PSA": "#984EA3",
         "REXR": "#FF6347"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -7988,7 +8126,8 @@
         "DLR": "#8B4513",
         "EQIX": "#66A61E"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -8043,7 +8182,8 @@
         "REG": "#B07AA1",
         "SPG": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -8098,7 +8238,8 @@
         "INVH": "#7570B3",
         "MAA": "#BAB0AC"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -8147,7 +8288,8 @@
         "BXP": "#DAA520",
         "VNO": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -8200,7 +8342,8 @@
         "VTR": "#76B7B2",
         "WELL": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "40",
@@ -8255,7 +8398,8 @@
         "VNQ": "#8B7355",
         "XLRE": "#E6AB02"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "41",
@@ -8299,7 +8443,8 @@
       "tickerColors": {
         "AAPL_3.85_2043": "#999999"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "42",
@@ -8370,7 +8515,8 @@
         "^VXIBM": "#76B7B2",
         "^VXN": "#DAA520"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "42",
@@ -8422,7 +8568,8 @@
       "priceScaleAssignments": {
         "AAPL": "left",
         "^VXAPL": "right"
-      }
+      },
+      "settingsPanelOpen": false
     },
     {
       "page": "42",
@@ -8491,7 +8638,8 @@
         "^VIX": "#B8860B",
         "^VXN": "#984EA3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "42",
@@ -8546,7 +8694,8 @@
         "^VIX6M": "#999999",
         "^VIX9D": "#4E79A7"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "43",
@@ -8604,7 +8753,8 @@
         "NICE": "#D95F02",
         "TEVA": "#7570B3"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "43",
@@ -8662,7 +8812,8 @@
         "MNDY": "#F97316",
         "WIX": "#A855F7"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "44",
@@ -8717,7 +8868,8 @@
         "FLSA": "#C2185B",
         "KSA": "#76B7B2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "44",
@@ -8778,7 +8930,8 @@
         "QAT": "#F28E2B",
         "UAE": "#E15759"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "45",
@@ -8836,7 +8989,8 @@
         "INDY": "#8B4513",
         "SMIN": "#2F4F4F"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "45",
@@ -8897,7 +9051,8 @@
         "RDY": "#9D4EDD",
         "WIT": "#4A90E2"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "46",
@@ -8955,7 +9110,8 @@
         "ISHG": "#00C805",
         "JPGB": "#E01F3D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "46",
@@ -9007,7 +9163,8 @@
         "^TNX": "#4A90E2",
         "^TYX": "#E01F3D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "46",
@@ -9062,7 +9219,8 @@
         "JPY=X": "#E01F3D",
         "YCS": "#FF9933"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "46",
@@ -9126,7 +9284,8 @@
         "TM": "#4A90E2",
         "^N225": "#FF6B6B"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "47",
@@ -9190,7 +9349,8 @@
         "UROY": "#FF8C00",
         "UUUU": "#9370DB"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "47",
@@ -9248,7 +9408,8 @@
         "OKLO": "#377EB8",
         "SMR": "#C71585"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "48",
@@ -9306,7 +9467,8 @@
         "ISHG": "#00C805",
         "JPGB": "#E01F3D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "48",
@@ -9361,7 +9523,8 @@
         "TBF": "#FF9933",
         "TBT": "#E01F3D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "48",
@@ -9419,7 +9582,8 @@
         "^TNX": "#4A90E2",
         "^TYX": "#E01F3D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "48",
@@ -9477,7 +9641,8 @@
         "USDJPY=X": "#2F4F4F",
         "YCS": "#B07AA1"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "49",
@@ -9532,7 +9697,8 @@
         "DGS2": "#E15759",
         "DGS30": "#B07AA1"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "49",
@@ -9581,7 +9747,8 @@
       "tickerColors": {
         "T10Y2Y": "#9B59B6"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "49",
@@ -9636,7 +9803,8 @@
         "CPILFESL": "#F39C12",
         "T5YIE": "#3498DB"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "49",
@@ -9688,7 +9856,8 @@
         "BAMLC0A0CM": "#16A085",
         "BAMLH0A0HYM2": "#E67E22"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "50",
@@ -9740,7 +9909,8 @@
         "U6RATE": "#9B59B6",
         "UNRATE": "#E74C3C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "50",
@@ -9789,7 +9959,8 @@
       "tickerColors": {
         "PAYEMS": "#27AE60"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "50",
@@ -9838,7 +10009,8 @@
       "tickerColors": {
         "CIVPART": "#3498DB"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "51",
@@ -9890,7 +10062,8 @@
         "GDP": "#2ECC71",
         "GDPC1": "#27AE60"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "51",
@@ -9939,7 +10112,8 @@
       "tickerColors": {
         "UMCSENT": "#F39C12"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "51",
@@ -9988,7 +10162,8 @@
       "tickerColors": {
         "RSXFS": "#9B59B6"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "52",
@@ -10043,7 +10218,8 @@
         "DFEDTARU": "#C71585",
         "FEDFUNDS": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "52",
@@ -10092,7 +10268,8 @@
       "tickerColors": {
         "WALCL": "#3498DB"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "52",
@@ -10141,7 +10318,8 @@
       "tickerColors": {
         "RRPONTSYD": "#9B59B6"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "52",
@@ -10190,7 +10368,8 @@
       "tickerColors": {
         "WTREGEN": "#27AE60"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "53",
@@ -10239,7 +10418,8 @@
       "tickerColors": {
         "STLFSI4": "#E74C3C"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "53",
@@ -10291,7 +10471,8 @@
         "BAMLC0A0CM": "#16A085",
         "BAMLH0A0HYM2": "#E67E22"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "53",
@@ -10346,7 +10527,8 @@
       "priceScaleAssignments": {
         "STLFSI4": "right",
         "^VIX": "left"
-      }
+      },
+      "settingsPanelOpen": false
     },
     {
       "page": "53",
@@ -10395,7 +10577,8 @@
       "tickerColors": {
         "TEDRATE": "#F39C12"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "54",
@@ -10441,7 +10624,8 @@
         "HPE": "#20B2AA",
         "HPQ": "#377EB8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "54",
@@ -10489,7 +10673,8 @@
         "HPE": "#20B2AA",
         "HPQ": "#377EB8"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "54",
@@ -10537,7 +10722,8 @@
         "IBM": "#B07AA1",
         "NTAP": "#A6761D"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "54",
@@ -10583,7 +10769,8 @@
         "STX": "#7570B3",
         "WDC": "#8B7355"
       },
-      "priceScaleAssignments": {}
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10594,8 +10781,52 @@
         "CCI",
         "SBAC"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576800000,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "Data Center & Tower REITs",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 117,
+        "y": 8
+      },
+      "fixedLegendSize": {
+        "width": 181,
+        "height": 74
+      },
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "AMT": "#A6761D",
+        "CCI": "#BAB0AC",
+        "DLR": "#59A14F",
+        "EQIX": "#377EB8",
+        "SBAC": "#20B2AA"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10606,8 +10837,52 @@
         "JNPR",
         "FFIV"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576800000,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "DC Infrastructure & Networking",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 168,
+        "y": 40
+      },
+      "fixedLegendSize": {
+        "width": 217,
+        "height": 75
+      },
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "ANET": "#B8860B",
+        "CSCO": "#59A14F",
+        "FFIV": "#20B2AA",
+        "JNPR": "#C2185B",
+        "VRT": "#B07AA1"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10618,20 +10893,52 @@
         "AME",
         "GNRC"
       ],
-      "title": "Power & Cooling Equipment",
-      "useRaw": true
-    },
-    {
-      "page": "55",
-      "tickers": [
-        "AMZN",
-        "MSFT",
-        "GOOGL",
-        "META",
-        "ORCL"
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
       ],
-      "title": "Hyperscalers & Cloud",
-      "useRaw": true
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1574380800,
+        "to": 1764288000
+      },
+      "useRaw": false,
+      "title": "Power & Cooling Equipment",
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 372,
+        "y": 14
+      },
+      "fixedLegendSize": {
+        "width": 225,
+        "height": 103
+      },
+      "height": 450,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "AME": "#F28E2B",
+        "EMR": "#76B7B2",
+        "ETN": "#E7298A",
+        "GNRC": "#4682B4",
+        "ROK": "#8B7355"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10642,8 +10949,52 @@
         "AVGO",
         "MRVL"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576800000,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "DC Chips & Semiconductors",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 132,
+        "y": 23
+      },
+      "fixedLegendSize": {
+        "width": 290,
+        "height": 105
+      },
+      "height": 450,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "AMD": "#59A14F",
+        "AVGO": "#E7298A",
+        "INTC": "#7570B3",
+        "MRVL": "#B8860B",
+        "NVDA": "#FF7F00"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10654,8 +11005,52 @@
         "LUMN",
         "CCOI"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576800000,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "DC Construction & Fiber",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 149,
+        "y": 44
+      },
+      "fixedLegendSize": {
+        "width": 258,
+        "height": 60
+      },
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "CCOI": "#E41A1C",
+        "DY": "#1B9E77",
+        "LUMN": "#1B9E77",
+        "MTZ": "#20B2AA",
+        "PWR": "#4682B4"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10665,8 +11060,51 @@
         "EQIX",
         "DLR"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576195200,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "Global DC Operators",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 120,
+        "y": 238
+      },
+      "fixedLegendSize": {
+        "width": 219,
+        "height": 95
+      },
+      "height": 500,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "DLR": "#E6AB02",
+        "EQIX": "#1B9E77",
+        "GDS": "#C71585",
+        "VNET": "#BAB0AC"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10677,8 +11115,52 @@
         "GNRC",
         "BLDP"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1574380800,
+        "to": 1764288000
+      },
+      "useRaw": true,
       "title": "Backup Power & Fuel Cells",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 87,
+        "y": 42
+      },
+      "fixedLegendSize": {
+        "width": 128,
+        "height": 24
+      },
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "BE": "#76B7B2",
+        "BLDP": "#C2185B",
+        "FCEL": "#BAB0AC",
+        "GNRC": "#E41A1C",
+        "PLUG": "#8B4513"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10689,8 +11171,52 @@
         "TMUS",
         "VZ"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576195200,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "Fiber & Telecom Infrastructure",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 120,
+        "y": 42
+      },
+      "fixedLegendSize": {
+        "width": 192,
+        "height": 32
+      },
+      "height": 450,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "CCOI": "#E41A1C",
+        "LUMN": "#1B9E77",
+        "TMUS": "#377EB8",
+        "UNIT": "#20B2AA",
+        "VZ": "#C2185B"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "55",
@@ -10701,8 +11227,49 @@
         "ZS",
         "NET"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1574380800,
+        "to": 1764288000
+      },
+      "useRaw": true,
       "title": "DC Cybersecurity",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": false,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 10,
+        "y": 10
+      },
+      "fixedLegendSize": null,
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "CRWD": "#A65628",
+        "FTNT": "#F28E2B",
+        "NET": "#8B4513",
+        "PANW": "#984EA3",
+        "ZS": "#E15759"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "56",
@@ -10711,10 +11278,48 @@
         "ACHR",
         "LILM",
         "EVTL",
-        "BLDE"
+        "SRTA"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": null,
+      "useRaw": true,
       "title": "eVTOL Pure Plays",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": false,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 10,
+        "y": 10
+      },
+      "fixedLegendSize": null,
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "ACHR": "#A65628",
+        "BLDE": "#B07AA1",
+        "EVTL": "#4682B4",
+        "JOBY": "#377EB8",
+        "LILM": "#B8860B"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "56",
@@ -10725,8 +11330,52 @@
         "GE",
         "HWM"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1576800000,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "Aerospace (eVTOL Investors)",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": true,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 167,
+        "y": 20
+      },
+      "fixedLegendSize": {
+        "width": 256,
+        "height": 107
+      },
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "BA": "#D95F02",
+        "GE": "#E15759",
+        "HWM": "#BAB0AC",
+        "LMT": "#7570B3",
+        "RTX": "#E6AB02"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     },
     {
       "page": "56",
@@ -10737,8 +11386,49 @@
         "LUNR",
         "RDW"
       ],
+      "showDiff": false,
+      "showAvg": false,
+      "showVol": false,
+      "showVolume": false,
+      "showRevenue": false,
+      "showFundamentalsPane": false,
+      "fundamentalsMetrics": [
+        "revenue",
+        "netincome"
+      ],
+      "multipliers": {},
+      "hidden": [],
+      "range": {
+        "from": 1639699200,
+        "to": 1764288000
+      },
+      "useRaw": false,
       "title": "Drones & Space Tech",
-      "useRaw": true
+      "lastLabelVisible": true,
+      "lastTickerVisible": false,
+      "showZeroLine": false,
+      "showFixedLegend": false,
+      "showLegendTickers": false,
+      "fixedLegendPos": {
+        "x": 10,
+        "y": 10
+      },
+      "fixedLegendSize": null,
+      "height": 400,
+      "fontSize": 12,
+      "showNotes": false,
+      "notes": "",
+      "manualInterval": null,
+      "decimalPrecision": 2,
+      "tickerColors": {
+        "AVAV": "#377EB8",
+        "LUNR": "#7570B3",
+        "RDW": "#8B7355",
+        "RKLB": "#D95F02",
+        "UAVS": "#1B9E77"
+      },
+      "priceScaleAssignments": {},
+      "settingsPanelOpen": false
     }
   ],
   "pages": {
@@ -10790,7 +11480,9 @@
       51,
       52,
       53,
-      54
+      54,
+      55,
+      56
     ],
     "active": 1,
     "names": {
