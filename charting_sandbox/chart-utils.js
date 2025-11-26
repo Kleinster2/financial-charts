@@ -5,6 +5,37 @@
 
 window.ChartUtils = {
     /**
+     * Safely save JSON to localStorage (swallows quota errors)
+     * @param {string} key - localStorage key
+     * @param {*} value - Value to serialize and store
+     * @returns {boolean} true if successful, false on error
+     */
+    safeSetJSON(key, value) {
+        try {
+            localStorage.setItem(key, JSON.stringify(value));
+            return true;
+        } catch (e) {
+            // Quota exceeded or privacy mode
+            return false;
+        }
+    },
+
+    /**
+     * Safely load JSON from localStorage
+     * @param {string} key - localStorage key
+     * @param {*} defaultValue - Value to return if key doesn't exist or parse fails
+     * @returns {*} Parsed value or defaultValue
+     */
+    safeGetJSON(key, defaultValue = null) {
+        try {
+            const item = localStorage.getItem(key);
+            return item ? JSON.parse(item) : defaultValue;
+        } catch (e) {
+            return defaultValue;
+        }
+    },
+
+    /**
      * Format price value for display
      */
     formatPrice(value) {

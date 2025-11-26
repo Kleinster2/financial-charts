@@ -13,31 +13,6 @@
     const nameCache = {};
 
     /**
-     * Safely save JSON to localStorage (swallows quota errors)
-     */
-    function safeSetJSON(key, value) {
-        try {
-            localStorage.setItem(key, JSON.stringify(value));
-            return true;
-        } catch (e) {
-            // Quota exceeded or privacy mode
-            return false;
-        }
-    }
-
-    /**
-     * Safely load JSON from localStorage
-     */
-    function safeGetJSON(key, defaultValue = null) {
-        try {
-            const item = localStorage.getItem(key);
-            return item ? JSON.parse(item) : defaultValue;
-        } catch (e) {
-            return defaultValue;
-        }
-    }
-
-    /**
      * Convert a Map to a plain object (for JSON serialization)
      */
     function mapToObject(map) {
@@ -147,7 +122,7 @@
             settingsPanelOpen: !!(card._state && card._state.settingsPanelOpen)
         }));
 
-        safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
+        window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
         if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
             window.StateManager.saveCards(cards);
         }
@@ -2251,13 +2226,13 @@
                 if (Array.isArray(ws) && ws.length) {
                     console.log('[Restore] Loaded legacy workspace (array) from server');
                     ws.forEach(c => restoreCard(c));
-                    safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, ws);
+                    window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, ws);
                     return;
                 } else if (ws && typeof ws === 'object') {
                     const cards = Array.isArray(ws.cards) ? ws.cards : [];
                     const pagesMeta = (ws.pages && typeof ws.pages === 'object') ? ws.pages : null;
                     if (pagesMeta) {
-                        safeSetJSON('sandbox_pages', pagesMeta);
+                        window.ChartUtils.safeSetJSON('sandbox_pages', pagesMeta);
                         const nameCount = pagesMeta.names ? Object.keys(pagesMeta.names).length : 0;
                         console.log(`[Restore] Loaded workspace (object) from server; pages meta present (pageNames=${nameCount})`);
                         if (window.PageManager) {
@@ -2277,7 +2252,7 @@
                         console.log('[Restore] Workspace object has no pages meta');
                     }
                     cards.forEach(c => restoreCard(c));
-                    safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
+                    window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
                     if (cards.length > 0) return;
                     console.log('[Restore] Workspace object had no cards; checking localStorage');
                 } else {
@@ -2286,7 +2261,7 @@
             } catch (e) {
                 console.warn('[Restore] Server load failed, falling back to localStorage', e);
             }
-            const stored = safeGetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, []);
+            const stored = window.ChartUtils.safeGetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, []);
             if (Array.isArray(stored) && stored.length) {
                 console.log('[Restore] Loaded workspace from localStorage fallback');
                 stored.forEach(c => restoreCard(c));
