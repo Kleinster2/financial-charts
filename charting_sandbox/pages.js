@@ -28,6 +28,31 @@
     }
   } catch (e) { /* noop */ }
 
+  // Clean up deleted pages from localStorage (one-time cleanup)
+  const deletedPages = [10, 16, 18, 23, 24, 26];
+  deletedPages.forEach(pageNum => {
+    delete pageNames[pageNum];
+    // Remove from all categories
+    Object.keys(pageCategories).forEach(cat => {
+      if (Array.isArray(pageCategories[cat])) {
+        pageCategories[cat] = pageCategories[cat].filter(p => p !== pageNum);
+      }
+    });
+  });
+  // Save cleaned data back to localStorage
+  try {
+    const existingRaw = localStorage.getItem('sandbox_pages');
+    if (existingRaw) {
+      const existing = JSON.parse(existingRaw);
+      if (existing.pages) {
+        existing.pages = existing.pages.filter(p => !deletedPages.includes(p));
+      }
+      existing.names = pageNames;
+      existing.categories = pageCategories;
+      localStorage.setItem('sandbox_pages', JSON.stringify(existing));
+    }
+  } catch (e) { /* noop */ }
+
   function activateTab(pageNum){
     // Update dropdown button active states
     tabBar.querySelectorAll('.category-dropdown').forEach(dropdown => {
@@ -119,7 +144,7 @@
       });
 
       // Add any uncategorized pages as individual tabs
-      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10)).filter(p => !isNaN(p));
       const uncategorized = allPages.filter(p => !categorizedPages.has(p));
       uncategorized.forEach(num => {
         const tab = createTab(num);
@@ -127,7 +152,7 @@
       });
     } else {
       // Fallback: show all pages as individual tabs
-      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10)).filter(p => !isNaN(p));
       allPages.sort((a, b) => a - b).forEach(num => {
         const tab = createTab(num);
         tabBar.appendChild(tab);
@@ -326,7 +351,7 @@
       console.log('[PageManager] savePages() skipped - still initializing');
       return;
     }
-    const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+    const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10)).filter(p => !isNaN(p));
     const activePage = getActivePage();
     console.log(`[PageManager] savePages() - active page: ${activePage}`);
     try {

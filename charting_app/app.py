@@ -1595,6 +1595,23 @@ def get_latest_iv():
     return jsonify(result)
 
 
+# FRED/Macro indicators list - all-caps series from FRED
+# Used by both /api/dashboard (to exclude) and /api/macro-dashboard (to include)
+FRED_INDICATORS = [
+    'DGS2', 'DGS10', 'DGS30', 'FEDFUNDS', 'EFFR', 'SOFR',
+    'CPIAUCSL', 'CPILFESL', 'PCEPI', 'PCE',
+    'T5YIE', 'T10YIE', 'T5YIFR',
+    'UNRATE', 'PAYEMS', 'ICSA', 'CCSA', 'JTSJOL',
+    'GDP', 'GDPC1', 'INDPRO',
+    'UMCSENT', 'RSXFS', 'HOUST', 'PERMIT',
+    'M2SL', 'WALCL', 'RRPONTSYD',
+    'MORTGAGE30US', 'BAMLH0A0HYM2', 'BAMLC0A0CM',
+    'DTWEXBGS', 'DEXUSEU', 'DEXJPUS', 'DEXCHUS',
+    'WTI', 'DCOILWTICO', 'GASREGW',
+    'T10Y2Y', 'T10Y3M'
+]
+
+
 @app.route('/api/dashboard')
 def get_dashboard_data():
     """
@@ -1653,7 +1670,8 @@ def get_dashboard_data():
 
         # Get column names from stock_prices_daily
         columns = get_table_columns('stock_prices_daily', conn)
-        valid_tickers = [t for t in all_tickers if t in columns]
+        # Exclude FRED indicators - they go in the Macro Dashboard
+        valid_tickers = [t for t in all_tickers if t in columns and t not in FRED_INDICATORS]
 
         if not valid_tickers:
             conn.close()
@@ -1689,16 +1707,21 @@ def get_dashboard_data():
             for i, row in enumerate(rows):
                 price = row[idx]
                 if price is not None:
+                    # Convert to float if it's a string
+                    try:
+                        price = float(price)
+                    except (TypeError, ValueError):
+                        continue
                     if latest_price is None:
                         latest_price = price
                         latest_date = row[0]
                     elif prev_price is None:
                         prev_price = price
-                    if i >= 4 and week_ago_price is None and price is not None:
+                    if i >= 4 and week_ago_price is None:
                         week_ago_price = price
-                    if i >= 20 and month_ago_price is None and price is not None:
+                    if i >= 20 and month_ago_price is None:
                         month_ago_price = price
-                    if i >= 250 and year_ago_price is None and price is not None:
+                    if i >= 250 and year_ago_price is None:
                         year_ago_price = price
                         break
 
@@ -1712,7 +1735,14 @@ def get_dashboard_data():
             yearly_change = ((latest_price - year_ago_price) / year_ago_price * 100) if year_ago_price else None
 
             # Get 52-week high/low from the data we have
-            prices_52w = [row[idx] for row in rows[:252] if row[idx] is not None]
+            prices_52w = []
+            for row in rows[:252]:
+                p = row[idx]
+                if p is not None:
+                    try:
+                        prices_52w.append(float(p))
+                    except (TypeError, ValueError):
+                        pass
             high_52w = max(prices_52w) if prices_52w else None
             low_52w = min(prices_52w) if prices_52w else None
 
@@ -1746,6 +1776,139 @@ def get_dashboard_data():
 
     except Exception as e:
         app.logger.error(f"/api/dashboard: Error: {e}")
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
+
+
+@app.route('/api/macro-dashboard')
+def get_macro_dashboard():
+    """
+    Get macro/FRED dashboard data.
+    Returns: Array of FRED indicator data with values and changes.
+    """
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+
+        # Get column names from stock_prices_daily
+        columns = get_table_columns('stock_prices_daily', conn)
+        valid_indicators = [t for t in FRED_INDICATORS if t in columns]
+
+        if not valid_indicators:
+            conn.close()
+            return jsonify([])
+
+        # Get metadata for names
+        placeholders = ','.join(['?' for _ in valid_indicators])
+        cursor.execute(f"SELECT ticker, name FROM ticker_metadata WHERE ticker IN ({placeholders})", valid_indicators)
+        metadata = {row['ticker']: row['name'] for row in cursor.fetchall()}
+
+        # Get price data
+        indicator_cols = ', '.join([f'"{t}"' for t in valid_indicators])
+        query = f'''
+            SELECT Date, {indicator_cols}
+            FROM stock_prices_daily
+            ORDER BY Date DESC
+            LIMIT 252
+        '''
+        cursor.execute(query)
+        rows = cursor.fetchall()
+
+        result = []
+        for indicator in valid_indicators:
+            idx = valid_indicators.index(indicator) + 1  # +1 for Date column
+
+            # Find latest value and changes
+            latest_value = None
+            latest_date = None
+            prev_value = None
+            week_ago_value = None
+            month_ago_value = None
+            year_ago_value = None
+            high_52w = None
+            low_52w = None
+
+            for i, row in enumerate(rows):
+                value = row[idx]
+                if value is not None:
+                    if latest_value is None:
+                        latest_value = value
+                        latest_date = row[0]
+                        high_52w = value
+                        low_52w = value
+                    elif prev_value is None:
+                        prev_value = value
+                    if i >= 4 and week_ago_value is None and value is not None:
+                        week_ago_value = value
+                    if i >= 20 and month_ago_value is None and value is not None:
+                        month_ago_value = value
+                    if i >= 250 and year_ago_value is None and value is not None:
+                        year_ago_value = value
+                    # Track 52-week high/low
+                    if high_52w is not None and value > high_52w:
+                        high_52w = value
+                    if low_52w is not None and value < low_52w:
+                        low_52w = value
+
+            # Calculate changes (absolute for rates/indices, not percentage)
+            daily_change = None
+            weekly_change = None
+            monthly_change = None
+            yearly_change = None
+
+            if latest_value is not None:
+                if prev_value is not None:
+                    daily_change = latest_value - prev_value
+                if week_ago_value is not None:
+                    weekly_change = latest_value - week_ago_value
+                if month_ago_value is not None:
+                    monthly_change = latest_value - month_ago_value
+                if year_ago_value is not None:
+                    yearly_change = latest_value - year_ago_value
+
+            # Categorize the indicator
+            category = 'Other'
+            if indicator in ['DGS2', 'DGS10', 'DGS30', 'FEDFUNDS', 'EFFR', 'SOFR', 'T10Y2Y', 'T10Y3M']:
+                category = 'Interest Rates'
+            elif indicator in ['CPIAUCSL', 'CPILFESL', 'PCEPI', 'PCE', 'T5YIE', 'T10YIE', 'T5YIFR']:
+                category = 'Inflation'
+            elif indicator in ['UNRATE', 'PAYEMS', 'ICSA', 'CCSA', 'JTSJOL']:
+                category = 'Labor Market'
+            elif indicator in ['GDP', 'GDPC1', 'INDPRO', 'UMCSENT', 'RSXFS', 'HOUST', 'PERMIT']:
+                category = 'Economic Activity'
+            elif indicator in ['M2SL', 'WALCL', 'RRPONTSYD']:
+                category = 'Money Supply'
+            elif indicator in ['MORTGAGE30US', 'BAMLH0A0HYM2', 'BAMLC0A0CM']:
+                category = 'Credit Spreads'
+            elif indicator in ['DTWEXBGS', 'DEXUSEU', 'DEXJPUS', 'DEXCHUS']:
+                category = 'Currencies'
+            elif indicator in ['WTI', 'DCOILWTICO', 'GASREGW']:
+                category = 'Energy'
+
+            result.append({
+                'ticker': indicator,
+                'name': metadata.get(indicator, indicator),
+                'category': category,
+                'latest_value': round(latest_value, 4) if latest_value else None,
+                'latest_date': latest_date,
+                'daily_change': round(daily_change, 4) if daily_change is not None else None,
+                'weekly_change': round(weekly_change, 4) if weekly_change is not None else None,
+                'monthly_change': round(monthly_change, 4) if monthly_change is not None else None,
+                'yearly_change': round(yearly_change, 4) if yearly_change is not None else None,
+                'high_52w': round(high_52w, 4) if high_52w else None,
+                'low_52w': round(low_52w, 4) if low_52w else None
+            })
+
+        conn.close()
+
+        # Sort by category then ticker
+        result.sort(key=lambda x: (x['category'], x['ticker']))
+
+        app.logger.info(f"/api/macro-dashboard: Returned {len(result)} indicators")
+        return jsonify(result)
+
+    except Exception as e:
+        app.logger.error(f"/api/macro-dashboard: Error: {e}")
         traceback.print_exc()
         return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 

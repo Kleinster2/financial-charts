@@ -317,16 +317,32 @@ window.ChartDashboard = {
         }
 
         // Sort data
+        const numericColumns = ['latest_price', 'daily_change', 'weekly_change', 'monthly_change', 'yearly_change', 'high_52w', 'low_52w', 'data_points'];
+        const isNumeric = numericColumns.includes(this.sortColumn);
+
         filteredData = [...filteredData].sort((a, b) => {
             let aVal = a[this.sortColumn];
             let bVal = b[this.sortColumn];
 
-            // Handle nulls
-            if (aVal === null || aVal === undefined) aVal = this.sortDirection === 'asc' ? Infinity : -Infinity;
-            if (bVal === null || bVal === undefined) bVal = this.sortDirection === 'asc' ? Infinity : -Infinity;
+            // Special handling for pages column - sort by count
+            if (this.sortColumn === 'pages') {
+                aVal = (aVal && Array.isArray(aVal)) ? aVal.length : 0;
+                bVal = (bVal && Array.isArray(bVal)) ? bVal.length : 0;
+            }
 
-            // String comparison
-            if (typeof aVal === 'string') {
+            // Handle nulls - put them at the end regardless of sort direction
+            const aNull = aVal === null || aVal === undefined;
+            const bNull = bVal === null || bVal === undefined;
+            if (aNull && bNull) return 0;
+            if (aNull) return 1;
+            if (bNull) return -1;
+
+            // Numeric comparison
+            if (isNumeric || this.sortColumn === 'pages') {
+                aVal = Number(aVal) || 0;
+                bVal = Number(bVal) || 0;
+            } else if (typeof aVal === 'string') {
+                // String comparison
                 aVal = aVal.toLowerCase();
                 bVal = (bVal || '').toLowerCase();
             }
