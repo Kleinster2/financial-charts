@@ -99,27 +99,27 @@ with open('hierarchical_clusters.txt', 'w') as f:
 
 print("Cluster assignments saved to hierarchical_clusters.txt")
 
-# 6. Generate full dendrogram (truncated for readability)
+# 6. Generate full dendrogram (truncated for readability) - VERTICAL orientation
 print("\nGenerating dendrogram...")
-plt.figure(figsize=(20, 10))
+fig_height = max(15, 50 * 0.3)  # Estimate based on number of clusters shown
+plt.figure(figsize=(12, fig_height))
 dendrogram(
     Z,
     labels=corr_matrix.columns.tolist(),
-    leaf_rotation=90,
-    leaf_font_size=6,
+    orientation='right',
+    leaf_font_size=7,
     truncate_mode='lastp',
     p=50,  # Show last 50 merges
     show_contracted=True
 )
-plt.title(f'Stock Dendrogram (Ward\'s Method) - Top 50 Clusters\n{len(returns.columns)} stocks')
-plt.xlabel('Stock / Cluster')
-plt.ylabel('Distance (1 - Correlation)')
+plt.title(f'Stock Dendrogram (Ward\'s Method) - Top 50 Clusters ({len(returns.columns)} stocks)')
+plt.xlabel('Distance (1 - Correlation)')
 plt.tight_layout()
 plt.savefig('dendrogram_truncated.png', dpi=150)
 plt.close()
 print("Truncated dendrogram saved to dendrogram_truncated.png")
 
-# 7. Generate dendrogram for top correlated stocks subset
+# 7. Generate dendrogram for top correlated stocks subset - VERTICAL orientation
 # Select most liquid/important stocks for readable dendrogram
 print("\nGenerating detailed dendrogram for subset...")
 
@@ -134,17 +134,17 @@ np.fill_diagonal(dist_subset.values, 0)
 dist_condensed_subset = squareform(dist_subset.values)
 Z_subset = linkage(dist_condensed_subset, method='ward')
 
-plt.figure(figsize=(25, 12))
+fig_height = max(12, len(top_tickers) * 0.15)
+plt.figure(figsize=(12, fig_height))
 dendrogram(
     Z_subset,
     labels=top_tickers,
-    leaf_rotation=90,
-    leaf_font_size=8,
+    orientation='right',
+    leaf_font_size=9,
     color_threshold=0.7 * max(Z_subset[:, 2])
 )
 plt.title(f'Stock Dendrogram (Ward\'s Method) - Top {MAX_TICKERS_FULL} Most Connected Stocks')
-plt.xlabel('Stock Ticker')
-plt.ylabel('Distance (1 - Correlation)')
+plt.xlabel('Distance (1 - Correlation)')
 plt.tight_layout()
 plt.savefig('dendrogram_detailed.png', dpi=150)
 plt.close()

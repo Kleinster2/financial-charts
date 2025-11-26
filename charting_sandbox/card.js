@@ -34,6 +34,20 @@
             return;
         }
 
+        // Handle macro-dashboard card type
+        if (cardData.type === 'macro-dashboard') {
+            console.log('[Restore] Creating macro dashboard card on page', cardData.page);
+            createChartCard({ type: 'macro-dashboard', wrapperEl: wrapper });
+            return;
+        }
+
+        // Handle dendrograms card type
+        if (cardData.type === 'dendrograms') {
+            console.log('[Restore] Creating dendrograms card on page', cardData.page);
+            createChartCard({ type: 'dendrograms', wrapperEl: wrapper });
+            return;
+        }
+
         createChartCard({
             tickers: Array.isArray(cardData.tickers) ? cardData.tickers.join(', ') : (cardData.tickers || ''),
             showDiff: !!cardData.showDiff,
@@ -143,6 +157,28 @@
                 return window.ChartDashboard.createDashboardCard(wrapper);
             }
             console.error('Dashboard module not loaded');
+            return null;
+        }
+
+        // Handle macro-dashboard card type
+        if (optionsOrTickers && optionsOrTickers.type === 'macro-dashboard') {
+            console.log('[createChartCard] Macro Dashboard type detected');
+            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
+            if (wrapper && window.ChartMacroDashboard) {
+                return window.ChartMacroDashboard.createMacroDashboardCard(wrapper);
+            }
+            console.error('Macro Dashboard module not loaded');
+            return null;
+        }
+
+        // Handle dendrograms card type
+        if (optionsOrTickers && optionsOrTickers.type === 'dendrograms') {
+            console.log('[createChartCard] Dendrograms type detected');
+            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
+            if (wrapper && window.ChartDendrograms) {
+                return window.ChartDendrograms.createDendrogramCard(wrapper);
+            }
+            console.error('Dendrograms module not loaded');
             return null;
         }
 
