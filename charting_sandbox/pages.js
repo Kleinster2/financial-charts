@@ -272,9 +272,27 @@
   // Initialize: load from backend then build UI
   async function initialize() {
     await loadCategoriesFromBackend();
+
+    // Check localStorage for saved active page BEFORE building UI
+    let savedActivePage = 1;
+    try {
+      const raw = localStorage.getItem('sandbox_pages');
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed && parsed.active) {
+          savedActivePage = parsed.active;
+        }
+      }
+    } catch (e) { /* use default */ }
+
     buildTabBar();
-    // ensure first page visible only
-    switchTo(pagesContainer.querySelector('[data-page="1"]'));
+
+    // Switch to saved active page (or page 1 if not found)
+    const targetPage = pagesContainer.querySelector(`[data-page="${savedActivePage}"]`)
+                    || pagesContainer.querySelector('[data-page="1"]');
+    if (targetPage) {
+      switchTo(targetPage);
+    }
   }
 
   initialize();
