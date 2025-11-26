@@ -10644,6 +10644,41 @@
       ],
       "title": "DC Chips & Semiconductors",
       "useRaw": true
+    },
+    {
+      "page": "55",
+      "tickers": [
+        "PWR",
+        "DY",
+        "MTZ",
+        "LUMN",
+        "CCOI"
+      ],
+      "title": "DC Construction & Fiber",
+      "useRaw": true
+    },
+    {
+      "page": "55",
+      "tickers": [
+        "GDS",
+        "VNET",
+        "EQIX",
+        "DLR"
+      ],
+      "title": "Global DC Operators",
+      "useRaw": true
+    },
+    {
+      "page": "55",
+      "tickers": [
+        "BE",
+        "PLUG",
+        "FCEL",
+        "GNRC",
+        "BLDP"
+      ],
+      "title": "Backup Power & Fuel Cells",
+      "useRaw": true
     }
   ],
   "pages": {
