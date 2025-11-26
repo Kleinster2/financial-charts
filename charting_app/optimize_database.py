@@ -7,6 +7,7 @@ import sqlite3
 import os
 import sys
 import logging
+import time
 from datetime import datetime
 
 # Setup logging
@@ -198,12 +199,36 @@ def populate_ticker_metadata(conn):
     for count, dtype in cursor.fetchall():
         logging.info(f"Added {count} {dtype} tickers to metadata")
 
-def analyze_database(conn):
-    """Run ANALYZE to update SQLite statistics."""
-    cursor = conn.cursor()
-    cursor.execute("ANALYZE")
-    logging.info("Updated database statistics with ANALYZE")
-    conn.commit()
+def optimize_storage(conn):
+    """Run VACUUM, ANALYZE, and WAL checkpoint to optimize storage and statistics."""
+    try:
+        # VACUUM cannot run inside a transaction
+        # We need to set isolation_level to None (autocommit mode)
+        old_isolation = conn.isolation_level
+        conn.isolation_level = None
+
+        logging.info("Running VACUUM to reclaim unused space...")
+        start = time.time()
+        conn.execute("VACUUM")
+        logging.info(f"VACUUM completed in {time.time() - start:.1f}s")
+
+        logging.info("Running ANALYZE to update statistics...")
+        start = time.time()
+        conn.execute("ANALYZE")
+        logging.info(f"ANALYZE completed in {time.time() - start:.1f}s")
+
+        logging.info("Running WAL checkpoint (TRUNCATE)...")
+        start = time.time()
+        conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+        logging.info(f"WAL checkpoint completed in {time.time() - start:.1f}s")
+
+        # Restore isolation level
+        conn.isolation_level = old_isolation
+
+        logging.info("Storage optimization completed")
+
+    except sqlite3.Error as e:
+        logging.error(f"Storage optimization failed: {e}")
 
 def main():
     """Main migration function."""
@@ -224,8 +249,8 @@ def main():
         logging.info("Creating ticker metadata table...")
         create_ticker_metadata_table(conn)
         
-        logging.info("Analyzing database...")
-        analyze_database(conn)
+        logging.info("Optimizing storage and statistics...")
+        optimize_storage(conn)
         
         # Get database size
         cursor = conn.cursor()

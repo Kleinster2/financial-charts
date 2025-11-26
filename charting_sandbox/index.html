@@ -66,6 +66,10 @@
     .fundamentals-earnings-table tr:hover{background:#f8f9fa;}
     .fundamentals-loading{text-align:center;padding:20px;color:#999;}
     .fundamentals-error{text-align:center;padding:20px;color:#dc3545;}
+    /* Settings panel styles */
+    .settings-panel{display:none;}
+    .settings-panel.settings-panel--open{display:block;}
+    .settings-toggle-btn.active{background:#007bff;color:#fff;}
   </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.9/dist/lightweight-charts.standalone.development.js"></script>
@@ -102,7 +106,7 @@
   <script src="chart-series-manager.js?v=5"></script>
   <script src="chart-ticker-labels.js?v=1"></script>
   <script src="chart-volume.js?v=4"></script>
-  <script src="chart-dom-builder.js?v=10"></script>
+  <script src="chart-dom-builder.js?v=12"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="card-state.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>

@@ -42,49 +42,70 @@ window.ChartDomBuilder = {
                     <option value="monthly">Monthly</option>
                 </select>
                 <button class="fit-btn">Fit</button>
-                <button class="toggle-diff-btn">Show Diff Pane</button>
-                <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
-                <button class="toggle-volume-btn">Show Volume Pane</button>
-                <button class="toggle-revenue-btn">Show Revenue Pane</button>
-                <button class="toggle-fundamentals-pane-btn">Show Fundamentals Pane</button>
-                <button class="toggle-revenue-metric-btn" style="display:none;">Revenue</button>
-                <button class="toggle-netincome-metric-btn" style="display:none;">Net Income</button>
-                <button class="toggle-eps-metric-btn" style="display:none;">EPS</button>
-                <button class="toggle-fcf-metric-btn" style="display:none;">FCF</button>
-                <button class="show-fundamentals-btn">Show Fundamentals</button>
-                <button class="toggle-raw-btn">Show Raw</button>
-                <button class="toggle-avg-btn">Show Avg</button>
-                <button class="toggle-lastlabel-btn">Hide Last Label</button>
-                <button class="toggle-lastticker-btn">Show Last Ticker</button>
-                <button class="reshuffle-colors-btn">Reshuffle Colors</button>
-                <button class="toggle-zeroline-btn">Show 0% Line</button>
-                <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
-                <button class="toggle-legend-tickers-btn">Show Legend Tickers</button>
-                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
-                    <span style="font-size: 0.9rem;">Height:</span>
-                    <input type="range" class="height-slider" min="400" max="800" value="500" step="50" style="width: 100px; vertical-align: middle;">
-                    <span class="height-value" style="display: inline-block; min-width: 36px; font-size: 0.9rem; font-weight: bold;">500</span>
-                </label>
-                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
-                    <span style="font-size: 0.9rem;">Vol:</span>
-                    <input type="range" class="volpane-height-slider" min="0.5" max="3.0" value="1.0" step="0.1" style="width: 80px; vertical-align: middle;">
-                    <span class="volpane-height-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">1.0</span>
-                </label>
-                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
-                    <span style="font-size: 0.9rem;">Font:</span>
-                    <input type="range" class="font-slider" min="8" max="24" value="12" step="1" style="width: 80px; vertical-align: middle;">
-                    <span class="font-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">12</span>
-                </label>
-                <label style="display: inline-flex; align-items: center; gap: 6px; margin-left: 8px;">
-                    <span style="font-size: 0.9rem;">Decimals:</span>
-                    <input type="range" class="decimals-slider" min="0" max="6" value="2" step="1" style="width: 80px; vertical-align: middle;">
-                    <span class="decimals-value" style="display: inline-block; min-width: 28px; font-size: 0.9rem; font-weight: bold;">2</span>
-                </label>
+                <button class="settings-toggle-btn" title="Toggle Settings Panel">⚙️</button>
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
                 <button class="remove-card-btn">Remove</button>
                 <input type="text" class="title-input" placeholder="Chart Title" value="${initialTitle}" style="margin-left: 10px; padding: 4px; border: 1px solid #ccc; border-radius: 3px;">
                 <button class="toggle-notes-btn">Show Notes</button>
+            </div>
+            <div class="settings-panel" style="padding: 12px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; margin: 5px 0;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px;">
+                    <!-- Column 1: Panes -->
+                    <div style="display: flex; flex-direction: column; gap: 6px;">
+                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Panes</strong>
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                            <button class="toggle-diff-btn">Show Diff Pane</button>
+                            <button class="toggle-vol-btn">Hide Vol (σ) Pane</button>
+                            <button class="toggle-volume-btn">Show Volume Pane</button>
+                            <button class="toggle-revenue-btn">Show Revenue Pane</button>
+                            <button class="toggle-fundamentals-pane-btn">Show Fundamentals Pane</button>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                            <button class="toggle-revenue-metric-btn" style="display:none;">Revenue</button>
+                            <button class="toggle-netincome-metric-btn" style="display:none;">Net Income</button>
+                            <button class="toggle-eps-metric-btn" style="display:none;">EPS</button>
+                            <button class="toggle-fcf-metric-btn" style="display:none;">FCF</button>
+                        </div>
+                        <button class="show-fundamentals-btn">Show Fundamentals</button>
+                    </div>
+                    <!-- Column 2: Data & Display -->
+                    <div style="display: flex; flex-direction: column; gap: 6px;">
+                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Data & Display</strong>
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                            <button class="toggle-raw-btn">Show Raw</button>
+                            <button class="toggle-avg-btn">Show Avg</button>
+                            <button class="toggle-zeroline-btn">Show 0% Line</button>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                            <button class="toggle-lastlabel-btn">Hide Last Label</button>
+                            <button class="toggle-lastticker-btn">Show Last Ticker</button>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; gap: 4px;">
+                            <button class="reshuffle-colors-btn">Reshuffle Colors</button>
+                            <button class="toggle-fixedlegend-btn">Show Fixed Legend</button>
+                            <button class="toggle-legend-tickers-btn">Show Legend Tickers</button>
+                        </div>
+                    </div>
+                    <!-- Column 3: Appearance -->
+                    <div style="display: flex; flex-direction: column; gap: 6px;">
+                        <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Appearance</strong>
+                        <div style="display: grid; grid-template-columns: 55px 1fr 32px; align-items: center; gap: 6px; font-size: 0.85rem;">
+                            <span>Height</span>
+                            <input type="range" class="height-slider" min="400" max="800" value="500" step="50">
+                            <span class="height-value" style="font-weight: bold;">500</span>
+                            <span>Vol H</span>
+                            <input type="range" class="volpane-height-slider" min="0.5" max="3.0" value="1.0" step="0.1">
+                            <span class="volpane-height-value" style="font-weight: bold;">1.0</span>
+                            <span>Font</span>
+                            <input type="range" class="font-slider" min="8" max="24" value="12" step="1">
+                            <span class="font-value" style="font-weight: bold;">12</span>
+                            <span>Decimals</span>
+                            <input type="range" class="decimals-slider" min="0" max="6" value="2" step="1">
+                            <span class="decimals-value" style="font-weight: bold;">2</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="selected-tickers"></div>
             <div class="chart-box" style="height: ${initialHeight}px;"></div>
@@ -92,6 +113,46 @@ window.ChartDomBuilder = {
                 <textarea class="notes-textarea" placeholder="Add notes about this chart..." style="width: 100%; min-height: 80px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; font-size: 12px; resize: vertical;"></textarea>
             </div>
         `;
+
+        // Set up settings panel toggle
+        const settingsToggleBtn = card.querySelector('.settings-toggle-btn');
+        const settingsPanel = card.querySelector('.settings-panel');
+
+        // Initialize state object if not present (ensures persistence works immediately)
+        if (!card._state) {
+            card._state = {};
+        }
+
+        if (settingsToggleBtn && settingsPanel) {
+            // Helper to persist state
+            const persistState = (isOpen) => {
+                card._state.settingsPanelOpen = isOpen;
+                if (typeof window.saveCards === 'function') window.saveCards();
+            };
+
+            settingsToggleBtn.addEventListener('click', () => {
+                const isOpen = settingsPanel.classList.toggle('settings-panel--open');
+                settingsToggleBtn.classList.toggle('active', isOpen);
+                persistState(isOpen);
+            });
+
+            // Close on Escape key - scoped to this card only
+            const escapeHandler = (e) => {
+                if (e.key === 'Escape' && settingsPanel.classList.contains('settings-panel--open')) {
+                    // Only handle if focus is within this card or no specific element is focused
+                    const activeEl = document.activeElement;
+                    if (!activeEl || activeEl === document.body || card.contains(activeEl)) {
+                        settingsPanel.classList.remove('settings-panel--open');
+                        settingsToggleBtn.classList.remove('active');
+                        persistState(false);
+                    }
+                }
+            };
+
+            // Store handler for cleanup later
+            card._escapeHandler = escapeHandler;
+            document.addEventListener('keydown', escapeHandler);
+        }
 
         return card;
     },
@@ -179,6 +240,8 @@ window.ChartDomBuilder = {
             addBtn: card.querySelector('.add-ticker-btn'),
             plotBtn: card.querySelector('.plot-btn'),
             fitBtn: card.querySelector('.fit-btn'),
+            settingsToggleBtn: card.querySelector('.settings-toggle-btn'),
+            settingsPanel: card.querySelector('.settings-panel'),
             toggleDiffBtn: card.querySelector('.toggle-diff-btn'),
             toggleVolBtn: card.querySelector('.toggle-vol-btn'),
             toggleVolumeBtn: card.querySelector('.toggle-volume-btn'),

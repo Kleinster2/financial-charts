@@ -310,6 +310,39 @@ window.ChartUtils = {
                 setTimeout(() => inThrottle = false, limit);
             }
         };
+    },
+
+    /**
+     * Bind a slider control with live preview and save-on-release
+     * @param {HTMLInputElement} slider - The slider input element
+     * @param {HTMLElement} displayEl - Element to show current value (optional)
+     * @param {Object} options - Configuration options
+     * @param {Function} options.onInput - Called during drag with current value
+     * @param {Function} options.onCommit - Called on release (default: window.saveCards)
+     * @param {number} options.initialValue - Initial slider value
+     * @param {Function} options.formatDisplay - Format value for display (default: String)
+     */
+    bindSliderControl(slider, displayEl, options) {
+        if (!slider) return;
+
+        const {
+            onInput,
+            onCommit = () => { if (window.saveCards) window.saveCards(); },
+            initialValue,
+            formatDisplay = String
+        } = options;
+
+        slider.addEventListener('input', (e) => {
+            const value = parseFloat(e.target.value);
+            if (onInput) onInput(value);
+            if (displayEl) displayEl.textContent = formatDisplay(value);
+        });
+
+        slider.addEventListener('change', onCommit);
+
+        // Initialize
+        slider.value = initialValue;
+        if (displayEl) displayEl.textContent = formatDisplay(initialValue);
     }
 };
 

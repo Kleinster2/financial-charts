@@ -1,71 +1,20 @@
 # Market Data Workbench
 
-This project collects and serves multi-asset daily market data (stocks, ETFs, futures, FX, crypto) into a SQLite database, exposes a Flask API, and includes a charting sandbox UI.
+Interactive financial charting application for visualizing stock prices, fundamentals, and technical indicators across 1,300+ time series.
 
-## Steps
+## Quick Stats
 
-1.  **Builds instrument universes**: Curates lists across indices, ETFs, futures, FX, and crypto.
-2.  **Downloads Price Data**: Pulls daily historical prices/volumes from Yahoo Finance.
-3.  **Data Cleaning**: Processes the data, handles missing values, and filters out tickers with insufficient data.
-4.  **Stores Data**: Saves the cleaned data and metadata into a SQLite database file (`market_data.db`).
-
-## Project Overview
-
-This repo includes three components:
-
--  __Data Collection__: Builds/updates the SQLite DB `market_data.db` with daily prices and volumes for stocks, ETFs, futures, FX, and more.
-   - `download_single_ticker.py TICKER` - Add individual tickers (~5 sec each)
-   - `update_market_data.py` - Daily updates (~3 min)
-   - `download_all_assets.py` - Full rebuild (~3 min)
-   - See **[WORKFLOW_CHECKLIST.md](WORKFLOW_CHECKLIST.md)** for detailed usage guide
--  __Web API__ (`charting_app/app.py`): Flask server exposing REST endpoints to read data from the DB and serve the sandbox UI.
--  __Frontend Sandbox__ (`charting_sandbox/`): Lightweight Charts-based UI for multi-ticker charting, averages, and workspace persistence.
-
-## Documentation
-
-### **🎯 NEW: FRED Economic Indicators & Macro Analysis (Nov 2025)**
-
-**Start here for macro context and recession analysis:**
-
-1. **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** ⭐ **READ THIS FIRST**
-   - Complete 3-step daily update workflow
-   - Hybrid Yahoo/FRED approach explained
-   - All 49 market indices covered (^VIX, ^RVX, ^N225, etc.)
-   - Troubleshooting guide
-
-2. **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** ⭐ **READ THIS SECOND**
-   - Navigate Pages 49-53 (macro analysis pages)
-   - Recession indicators to watch (T10Y2Y, STLFSI4)
-   - Cross-asset correlation techniques
-   - Historical crisis context (2008, 2020, 2022)
-
-3. **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)**
-   - Deep dive on 31 FRED economic indicators
-   - Treasury yields, Fed policy, inflation, labor market
-   - Usage examples and Python code snippets
-   - Data update frequencies
-
-4. **[INDEX_RESTORATION_SUMMARY.md](INDEX_RESTORATION_SUMMARY.md)**
-   - Historical restoration work (already complete)
-   - 21 international indices restored
-   - 5 single-stock vol indices from FRED
-
-**Quick Stats:**
-- **1,310+ time series** (1,228 Yahoo + 49 indices + 31 FRED)
+- **1,310+ time series** (stocks, ETFs, futures, FX, crypto, FRED indicators)
 - **86 years of data** (1939-2025)
-- **5 macro pages** (Pages 49-53) with 18 charts
-- **3-step daily update** (~3-5 minutes total)
+- **53 themed pages** (sectors, countries, macro analysis)
+- **~3 minute daily update**
 
----
+## Technology Stack
 
-### **📚 Original Documentation**
-
-For detailed information on specific topics, refer to these documentation files:
-
--  **[DATA_SOURCES.md](DATA_SOURCES.md)** - Critical distinction between database (local cache) vs yfinance API (source of truth). Always check yfinance first for data availability.
--  **[WORKFLOW_CHECKLIST.md](WORKFLOW_CHECKLIST.md)** - Quick reference guide for common data availability checks and workflow patterns.
--  **[charting_sandbox/REFACTORING_STATUS.md](charting_sandbox/REFACTORING_STATUS.md)** - Code refactoring history and architecture evolution.
--  **[charting_sandbox/COMPLETION_GUIDE.md](charting_sandbox/COMPLETION_GUIDE.md)** - Step-by-step implementation guides for card.js refactoring.
+- **Frontend**: Vanilla JavaScript with [LightweightCharts](https://tradingview.github.io/lightweight-charts/) v5.0.9
+- **Backend**: Flask (Python)
+- **Database**: SQLite with wide-column schema (~311 MB)
+- **Data Sources**: yfinance, FRED, Alpha Vantage (fundamentals)
 
 ## Project Structure
 
@@ -74,10 +23,9 @@ financial-charts/
 ├── market_data.db              # SQLite database (generated)
 ├── constants.py                # Shared configuration constants
 ├── metadata_utils.py           # Automatic metadata management
-├── update_market_data.py       # Main orchestrator script
-├── download_all_assets.py      # Data download logic (stocks, ETFs, etc.)
-├── download_futures.py         # Futures data download
-├── backup_workspace.py         # Automatic workspace backup utility
+├── update_market_data_fixed.py # Main data update script
+├── download_all_assets.py      # Ticker lists and download logic
+├── download_single_ticker.py   # Single ticker updates
 │
 ├── charting_app/               # Backend Flask API
 │   ├── app.py                  # Main Flask server (port 5000)
@@ -87,7 +35,7 @@ financial-charts/
 └── charting_sandbox/           # Frontend UI
     ├── index.html              # Main HTML entry point
     ├── config.js               # Frontend configuration
-    ├── card.js                 # Core chart card logic
+    ├── card.js                 # Core chart card logic (~2500 lines)
     ├── chart-*.js              # Chart component modules
     ├── data-fetcher.js         # API communication
     ├── state-manager.js        # State management
@@ -97,317 +45,281 @@ financial-charts/
 ## Architecture & Data Flow
 
 ```
-┌─────────────────┐
-│  Yahoo Finance  │
-└────────┬────────┘
-         │ yfinance library
-         v
-┌─────────────────────────┐
-│ download_all_assets.py  │ ← Define ticker lists (EV_STOCKS, etc.)
-│ metadata_utils.py       │ ← Auto-fetch & clean company names
-└─────────┬───────────────┘
-          │ writes
-          v
-┌─────────────────────┐
-│  market_data.db     │ ← SQLite database
-│  - stock_prices     │   - Daily OHLCV data (wide format)
-│  - ticker_metadata  │   - Company names, date ranges
-└─────────┬───────────┘
-          │ reads
-          v
-┌─────────────────────┐
-│  Flask API (5000)   │ ← charting_app/app.py
-│  - /api/data        │   - Serves price data
-│  - /api/metadata    │   - Company name lookups
-│  - /api/workspace   │   - Save/restore chart configs
-└─────────┬───────────┘
-          │ HTTP/JSON
-          v
-┌─────────────────────────┐
-│  Frontend Sandbox       │ ← charting_sandbox/
-│  - Lightweight Charts   │   - Interactive charting
-│  - 28 themed pages      │   - Multi-page organization
-│  - workspace.json sync  │   - Config persistence
-└─────────────────────────┘
+┌─────────────────┐     ┌─────────────────┐
+│  Yahoo Finance  │     │      FRED       │
+└────────┬────────┘     └────────┬────────┘
+         │ yfinance              │ fredapi
+         v                       v
+┌─────────────────────────────────────────┐
+│  update_market_data_fixed.py            │
+│  update_indices_from_fred.py            │
+│  update_fred_indicators.py              │
+└─────────────────┬───────────────────────┘
+                  │ writes
+                  v
+┌─────────────────────────────────────────┐
+│  market_data.db (SQLite)                │
+│  - stock_prices_daily (wide format)     │
+│  - stock_volumes_daily                  │
+│  - ticker_metadata                      │
+│  - company_overview, earnings, etc.     │
+└─────────────────┬───────────────────────┘
+                  │ reads
+                  v
+┌─────────────────────────────────────────┐
+│  Flask API (localhost:5000)             │
+│  - /api/data, /api/volume               │
+│  - /api/metadata, /api/fundamentals     │
+│  - /api/workspace                       │
+└─────────────────┬───────────────────────┘
+                  │ HTTP/JSON
+                  v
+┌─────────────────────────────────────────┐
+│  Frontend Sandbox                       │
+│  - Lightweight Charts rendering         │
+│  - 53 themed pages                      │
+│  - Workspace persistence                │
+└─────────────────────────────────────────┘
 ```
-
-## Key Files & Their Roles
-
-### Backend Core
-- **`constants.py`** - Shared config: DB_PATH, PORT, asset categories
-- **`download_single_ticker.py`** - Fast individual ticker downloads (~5 sec each)
-- **`update_market_data.py`** - Daily price updates for all tickers
-- **`download_all_assets.py`** - Full rebuild with ticker lists (EV_STOCKS, CRYPTO_STOCKS, etc.)
-- **`metadata_utils.py`** - Auto metadata fetching/cleaning (NEW Nov 2025)
-
-### Frontend Core
-- **`charting_sandbox/card.js`** - Main chart card logic (~2000 lines)
-  - Chart initialization, event handlers, plotting logic
-  - Slider controls, persistence, rebase calculations
-- **`charting_sandbox/chart-dom-builder.js`** - UI construction
-- **`charting_sandbox/data-fetcher.js`** - API communication layer
-- **`charting_sandbox/pages.js`** - Multi-page navigation system
-
-### Configuration & State
-- **`charting_app/workspace.json`** - Persistent chart configurations
-  - All 28 pages with chart definitions
-  - User customizations (height, font, tickers, etc.)
-  - Auto-backed up on each save
 
 ## Setup
 
-Windows PowerShell (recommended):
-
 ```powershell
+# Create virtual environment
 python -m venv .venv
-. .venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
+
+# Install dependencies
 pip install -r requirements.txt
 pip install -r charting_app\requirements.txt
 ```
 
 ## Quickstart
 
-### **Data Update (3-Step Workflow - Recommended)**
-
-Complete daily update for all 1,310+ series (~3-5 minutes):
+### Update Data (3-Step Workflow)
 
 ```powershell
-# Step 1: Yahoo Finance (stocks, ETFs, 44 indices) ~3-4 min
+# Step 1: Yahoo Finance (stocks, ETFs, futures) ~2 min
 python update_market_data_fixed.py --batch-size 20
 
 # Step 2: FRED indices (^RVX, ^VXV, etc.) ~5 sec
 python update_indices_from_fred.py --lookback 30
 
-# Step 3: FRED macro indicators (31 indicators) ~5-10 sec
+# Step 3: FRED macro indicators (31 indicators) ~10 sec
 python update_fred_indicators.py --lookback 60
 ```
 
-### **Launch Application**
-
-1.  __Start the API server__
-    ```powershell
-    python charting_app\app.py
-    ```
-2.  __Open the charting UI__
-    - Visit: http://localhost:5000/sandbox/
-    - New macro pages: Pages 49-53
-
-Default paths and ports:
--  Database: resolved via `constants.DB_PATH` in the repo root. If `market_data.db` is missing but a legacy `sp500_data.db` exists, the resolver will use it and log a deprecation warning.
--  Port: `5000` (see `charting_app/app.py`)
-
-## Orchestrator CLI: asset selection and verbosity
-
-The orchestrator `update_market_data.py` supports selecting asset groups and controlling log verbosity.
-
-- __Assets__: `--assets` chooses which groups to update. Options include: `stocks`, `etfs`, `adrs`, `fx`, `crypto`, `futures`.
-- __Verbosity__: `--verbose` for detailed logs, `--quiet` to reduce output.
-
-Examples (Windows PowerShell):
+### Launch Application
 
 ```powershell
-# Full update (all assets)
-python update_market_data.py --verbose
+# Start the API server
+python charting_app\app.py
 
-# Only futures
-python update_market_data.py --assets futures
-
-# Stocks + ETFs only (skip futures)
-python update_market_data.py --assets stocks etfs --verbose
-
-# Quiet mode
-python update_market_data.py --quiet
+# Open browser to http://localhost:5000/sandbox/
 ```
 
-Notes:
-- Futures are handled via a dedicated module (`download_futures.py`), invoked by the orchestrator when `--assets futures` is selected.
-- For non-futures groups, the orchestrator routes to `download_all_assets.update_sp500_data(assets=...)` and preserves existing DB columns on partial updates.
+## Key Features
 
-## Metadata Management
+### Dynamic Interval Selection
+Charts automatically adjust data granularity based on visible date range:
+- **< 5 years**: Daily prices
+- **5-10 years**: Weekly prices (Friday close)
+- **> 10 years**: Monthly prices (month-end close)
 
-### Automatic Metadata Updates (New!)
+Manual override available via dropdown (Auto/Daily/Weekly/Monthly).
 
-As of November 2025, metadata is **automatically updated** when running `update_market_data.py` or `download_all_assets.py`. The system:
+### Multiple Visualization Modes
+- **Percentage basis**: Rebase all series to 100% at first visible date
+- **Raw prices**: Display absolute price values
+- **Diff pane**: Show delta from first visible point
+- **Volume pane**: Trading volume with SMA overlay
+- **Revenue pane**: Fundamental revenue data overlay
 
-1. Detects any new tickers in the database without metadata
-2. Fetches company names from yfinance
-3. Automatically cleans names by removing corporate suffixes (Inc., Corp., Ltd., etc.)
-4. Updates the `ticker_metadata` table
+### Fundamentals Integration
+- Revenue, Net Income, EPS, Free Cash Flow
+- Quarterly and annual data from Alpha Vantage
+- Overlay on price charts or separate pane
 
-No manual intervention needed! Just run the normal data update and metadata will be handled automatically.
+### Multi-page Workspace
+- 53 themed pages (Tech, Finance, Brazil, Crypto, Macro, etc.)
+- Persistent workspace via backend API
+- Resizable/draggable legend with position persistence
 
-### Manual Metadata Population (Legacy)
+## Database Schema
 
-For manual control or ETF-specific updates, use the legacy scripts:
+### Price and Volume Data (Wide-Column Format)
 
-```powershell
-# Populate names for known ETFs from the built-in map
-python populate_etf_metadata.py
+```sql
+-- One column per ticker for efficient multi-ticker queries
+CREATE TABLE stock_prices_daily (
+    Date TEXT PRIMARY KEY,
+    AAPL REAL,
+    MSFT REAL,
+    SPY REAL,
+    ... (1,300+ columns)
+);
 
-# Auto-fill missing names using yfinance (limit requests to avoid rate limits)
-python populate_etf_metadata.py --auto --limit 200
-
-# Restrict to specific tickers (space or comma separated)
-python populate_etf_metadata.py --auto --tickers "EWZ EWW DTCR"
+CREATE TABLE stock_volumes_daily (
+    Date TEXT PRIMARY KEY,
+    AAPL REAL,
+    MSFT REAL,
+    ...
+);
 ```
 
-### Metadata Cleaning
+### Fundamental Data (Normalized Format)
 
-The `metadata_utils.py` module automatically cleans company names by removing:
-- Corporate suffixes: Inc., Corp., Corporation, Ltd., Limited, PLC, N.V., SE, AG
-- Business structure terms: Co., Company, Holdings, Group
-- Trailing punctuation and commas
+```sql
+CREATE TABLE company_overview (
+    ticker TEXT PRIMARY KEY,
+    name TEXT,
+    sector TEXT,
+    industry TEXT,
+    ...
+);
 
-Example: "Apple Inc." → "Apple", "Honda Motor Co., Ltd." → "Honda Motor"
-
-### API Verification
-
-Check metadata via API:
-
-```text
-/api/metadata?tickers=EWZ,EWW,AAPL
+CREATE TABLE earnings_quarterly (
+    ticker TEXT,
+    fiscal_date_ending TEXT,
+    reported_eps REAL,
+    estimated_eps REAL,
+    surprise REAL,
+    PRIMARY KEY (ticker, fiscal_date_ending)
+);
 ```
 
-The API prioritizes `ticker_metadata.name`, then falls back to `stock_metadata.name`, then the ticker itself.
+### Other Tables
+- `ticker_metadata` - Ticker symbols and company names
+- `etf_holdings_daily` - ETF composition tracking
+- `futures_prices_daily` / `futures_volumes_daily` - Futures data
+- `cboe_indices` - Volatility indices (VIX, VXN, etc.)
 
-## API Endpoints (selected)
+## API Endpoints
 
--  __GET__ `/api/health` → basic server/DB health
--  __GET__ `/api/tickers` → array of available tickers
--  __GET__ `/api/data?tickers=SPY,QQQ` → per-ticker price series: `{ "SPY": [{time,value}, ...], ... }`
--  __GET__ `/api/volume?tickers=SPY,QQQ` → per-ticker volume series
--  __GET__ `/api/metadata?tickers=AAPL,MSFT` → `{ "AAPL": "Apple Inc.", ... }`
--  __GET__ `/api/commentary?tickers=SPY&from=1700000000&to=1800000000` → simple rule-based summaries
--  __GET/POST__ `/api/workspace` → persist/restore sandbox layout (accepts object schema or legacy array)
--  __GET__ `/api/etf/series?etf=ALLW&metrics=value,shares&from=YYYY-MM-DD&to=YYYY-MM-DD` → derived series
+### `/api/data`
+Get historical price data with interval support.
 
-Notes:
--  Current server endpoints operate on __daily__ data.
--  CORS is enabled; responses are gzip-compressed.
+```
+GET /api/data?tickers=AAPL,MSFT&interval=weekly&from=1609459200&to=1704067200
+```
 
-## Frontend Sandbox
+**Response:**
+```json
+{
+  "AAPL": [
+    {"time": "2021-01-08", "value": 132.05},
+    {"time": "2021-01-15", "value": 127.14}
+  ],
+  "MSFT": [...]
+}
+```
 
-Open at `http://localhost:5000/sandbox/` once the server is running.
+### `/api/volume`
+Get trading volume data.
 
-### Features
+```
+GET /api/volume?tickers=SPY,QQQ
+```
 
--  __Flexible timeframe selection__: Choose between Daily, Weekly, or Monthly intervals, or use Auto mode which selects based on date range (<5yr = daily, 5-10yr = weekly, >10yr = monthly).
--  __Interactive sliders__ for real-time chart customization:
-   - **Font size**: 8-24pt with live preview
-   - **Chart height**: 400-800px
-   - **Volume pane height**: 0.5x-3.0x stretch factor
--  __Dynamic rebase on visible range change__ with debounce (`500ms`).
--  __Workspace persistence__ via backend-first restore at `/api/workspace` (cross-browser persistence).
--  __Resizable and draggable fixed legend__ with size/position persistence.
--  __Percentage-based Y-axis formatting__ showing change from base 100 (e.g., +50%, -25%).
--  __Multi-page organization__ with 28 themed pages including sectors, countries, asset classes, and specialized topics.
+### `/api/metadata`
+Get company names for tickers.
 
-### Recent Improvements (Nov 2025)
+```
+GET /api/metadata?tickers=AAPL,MSFT
+```
 
-#### UI Enhancements
-- Replaced +/- buttons with sliders for Font, Height, and Volume pane controls
-- Added real-time value display next to each slider
-- Consistent slider UI design across all controls
+**Response:**
+```json
+{"AAPL": "Apple", "MSFT": "Microsoft"}
+```
 
-#### Bug Fixes
-- **Fixed interval persistence**: Daily/Weekly/Monthly selection now persists across page refreshes
-- **Fixed legend resize persistence**: Custom legend sizes now save correctly (no more 0x0 resets)
-- **Fixed Y-axis format bug**: Charts now consistently display percentage format instead of base 100 values
-- Price scale format updates correctly when toggling between raw prices and percentage mode
+### `/api/fundamentals/{type}`
+Get fundamental data (overview, earnings, income, balance, cashflow).
 
-#### Data Expansion
-- **Electric Vehicles**: Added 10 new EV stocks including Chinese leaders (BYD, Li Auto, XPeng, Polestar) and traditional automakers (Honda, Stellantis, Porsche)
-- **Comprehensive EV coverage**: Database now includes pure-play EVs, Chinese manufacturers, and legacy automakers with EV initiatives
+```
+GET /api/fundamentals/earnings?ticker=AAPL
+```
 
-## Usage
+### `/api/workspace`
+- **GET**: Load saved workspace configuration
+- **POST**: Save current workspace
 
-1.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+### `/api/health`
+Basic server and database health check.
 
-2.  **Run the script:**
-    ```bash
-    python update_market_data.py
-    ```
+## Configuration
 
-This will create the `market_data.db` file in the same directory.
+### Frontend (`charting_sandbox/config.js`)
+
+```javascript
+window.ChartConfig = {
+    TRADING_DAYS_PER_YEAR: 252,
+    COLORS: [...],              // 24-color palette
+    VOLUME_WINDOW: 100,         // Rolling volume SMA window
+    DEBOUNCE_MS: {
+        REBASE: 500,
+        SAVE: 2000,
+        PLOT: 100
+    },
+    MAX_TICKERS_PER_CHART: 30,
+    FONT_SIZE: { MIN: 8, MAX: 24, DEFAULT: 12 },
+};
+```
+
+### Backend (`constants.py`)
+
+```python
+DB_PATH = "market_data.db"
+TRADING_DAYS_PER_YEAR = 252
+BATCH_SIZE = 50
+MAX_RETRIES = 3
+```
 
 ## Common Tasks
 
 ### Adding New Tickers
 
-1. **Add ticker to appropriate list** in `download_all_assets.py`:
+1. Add ticker to appropriate list in `download_all_assets.py`:
    ```python
-   # Example: Adding to EV_STOCKS list
-   EV_STOCKS = [
-       "BYDDY", "LI", "XPEV", "PSNY",  # Existing
-       "NEWTICKER",  # Add here
-   ]
+   EV_STOCKS = ["TSLA", "RIVN", "NEWTICKER"]
    ```
 
-2. **Download data**:
+2. Download data:
    ```powershell
-   python update_market_data.py --assets stocks
+   python download_single_ticker.py NEWTICKER
+   # or full update:
+   python update_market_data_fixed.py --batch-size 20
    ```
 
-3. **Metadata is automatic** - Company names are fetched and cleaned automatically!
+3. Metadata is fetched and cleaned automatically.
 
-### Adding Tickers to a Chart
+### Adding a Chart Feature
 
-1. **Edit `charting_app/workspace.json`**:
-   ```python
-   import json
-
-   with open('charting_app/workspace.json', 'r') as f:
-       workspace = json.load(f)
-
-   # Find chart by page and title
-   for chart in workspace['cards']:
-       if chart.get('page') == '28' and 'Electric' in chart.get('title', ''):
-           chart['tickers'].append('NEWTICKER')
-           chart['multipliers']['NEWTICKER'] = 1
-
-   with open('charting_app/workspace.json', 'w') as f:
-       json.dump(workspace, f, indent=2)
-   ```
-
-2. **Refresh browser** - Changes appear immediately
+1. **UI Controls**: Add to `chart-dom-builder.js:createChartCard()`
+2. **State**: Add variable to `card.js` (line ~130-170)
+3. **Event Handler**: Bind in `card.js` (line ~1700+)
+4. **Plot Logic**: Implement in `plot()` function
+5. **Persistence**: Add to `saveCards()` and load logic
+6. **Cache Bust**: Increment version in `index.html`
 
 ### Creating a New Page
 
-Pages are defined in `charting_app/workspace.json`:
+Edit `charting_app/workspace.json`:
 
 ```json
 {
   "pages": {
-    "1": "Tech",
-    "2": "Finance",
-    "29": "My New Page"  // Add new page
+    "54": "My New Page"
   },
   "cards": [
     {
-      "page": "29",
+      "page": "54",
       "tickers": ["AAPL", "MSFT"],
-      "title": "My First Chart",
-      "height": 500,
-      // ... other default properties
+      "title": "My Chart"
     }
   ]
 }
 ```
-
-### Modifying UI Controls
-
-**Backend (API endpoints)** - `charting_app/app.py`
-**Frontend (UI logic)** - `charting_sandbox/card.js`
-
-Example: Adding a new slider
-1. Add HTML in `chart-dom-builder.js`
-2. Add element reference in `getCardElements()`
-3. Add event handlers in `card.js`
-4. Save value to `card._propertyName`
-5. Add to workspace save/load logic
 
 ### Database Queries
 
@@ -422,61 +334,161 @@ cursor = conn.cursor()
 cursor.execute("PRAGMA table_info(stock_prices_daily);")
 tickers = [row[1] for row in cursor.fetchall() if row[1] != 'Date']
 
-# Get price data for a ticker
+# Get price data
 cursor.execute("SELECT Date, AAPL FROM stock_prices_daily WHERE AAPL IS NOT NULL")
 data = cursor.fetchall()
 
-# Get metadata
-cursor.execute("SELECT ticker, name FROM ticker_metadata WHERE ticker = 'AAPL'")
-metadata = cursor.fetchone()
-
 conn.close()
+```
+
+## Data Update Procedure
+
+### Current Workflow
+
+The update requires 3 separate commands run in sequence:
+
+```powershell
+python update_market_data_fixed.py --batch-size 20  # ~2 min
+python update_indices_from_fred.py --lookback 30    # ~5 sec
+python update_fred_indicators.py --lookback 60      # ~10 sec
+```
+
+### What's Working Well
+
+| Aspect | Implementation |
+|--------|----------------|
+| **Error handling** | Batch downloads with fallback to individual ticker retry |
+| **Data safety** | Atomic updates using staging table + rename |
+| **Logging** | Progress tracking with failure summaries |
+| **Parallelization** | Threaded downloads via yfinance |
+| **Metadata** | Automatic company name fetching |
+
+### Known Issues
+
+1. **Three manual steps** - Easy to forget one
+2. **~47 expected failures** - Delisted tickers that always fail (noise)
+3. **Inefficient DB updates** - Full table read/write for incremental changes
+4. **No verification** - No check that SPY/QQQ/AAPL have today's data
+
+### Delisted Tickers to Exclude
+
+Add to `EXCLUDED_TICKERS` in `download_all_assets.py`:
+
+```python
+# Acquired/delisted US stocks
+'ABC', 'ABB', 'ABML', 'AJBU', 'AJRD', 'ANSS', 'CDAY', 'CONE', 'CTLT',
+'DFS', 'FLT', 'FREYR', 'GIGA', 'HES', 'JNPR', 'LTHM', 'MRO', 'NOVA',
+'PARA', 'PEAK', 'PKI', 'PLL', 'PXD', 'QTS', 'SDIG', 'SQ', 'WBA', 'WRK', 'ZNGA',
+
+# Brazilian delistings
+'BRFS3.SA', 'BRML3.SA', 'CCRO3.SA', 'CIEL3.SA', 'ENBR3.SA', 'HGTX3.SA', 'MRFG3.SA', 'TIMP3.SA',
+
+# Yahoo removed precious metals FX
+'XAGUSD=X', 'XAUUSD=X', 'XPDUSD=X', 'XPTUSD=X', 'VX=F',
 ```
 
 ## Troubleshooting
 
 ### Charts Not Loading
-- **Check Flask server is running** on port 5000
-- **Check browser console** for API errors
-- **Verify database exists**: `ls market_data.db`
-- **Check API health**: Visit `http://localhost:5000/api/health`
+- Check Flask server is running on port 5000
+- Check browser console for errors
+- Verify database exists: `ls market_data.db`
+- Check API health: `http://localhost:5000/api/health`
 
-### Metadata Not Showing
-- **Run metadata update**: `python -c "from metadata_utils import auto_update_new_tickers; auto_update_new_tickers()"`
-- **Check ticker_metadata table**: `sqlite3 market_data.db "SELECT * FROM ticker_metadata LIMIT 5"`
+### No Data Showing
+- Verify data exists: `sqlite3 market_data.db "SELECT Date, AAPL FROM stock_prices_daily ORDER BY Date DESC LIMIT 5;"`
+- Check network tab for API errors
+- Ensure ticker is uppercase
 
-### Workspace Changes Not Persisting
-- **Check workspace.json permissions** - Should be writable
-- **Check Flask logs** - Shows save success/failure
-- **Automatic backup**: Check `workspace_backups/` folder
+### Workspace Not Persisting
+- Check `charting_app/workspace.json` permissions
+- Check Flask logs for save errors
+- Backups in `workspace_backups/`
 
-### Price Data Missing
-- **Ticker might be delisted** - Check Yahoo Finance manually
-- **Re-download**: `python update_market_data.py --assets stocks --verbose`
-- **Check column exists**: `sqlite3 market_data.db "PRAGMA table_info(stock_prices_daily)" | grep TICKER`
-
-### Hard Refresh Browser
-If frontend changes don't appear:
-- **Windows**: `Ctrl + Shift + R` or `Ctrl + F5`
+### Cache Issues
+Hard refresh to clear JavaScript cache:
+- **Windows**: `Ctrl + Shift + R`
 - **Mac**: `Cmd + Shift + R`
-- Clears JavaScript cache and reloads all files
 
-## Development Notes
+## Development Tips
 
-### Database Schema
-- **Wide format**: Each ticker is a column, dates are rows
-- **Efficient for time-series queries** across multiple tickers
-- **stock_prices_daily**: Close prices (adjusted)
-- **stock_volumes_daily**: Trading volumes
-- **ticker_metadata**: Company names, data ranges
+### Debugging
+1. **Browser Console**: JavaScript errors
+2. **Network Tab**: API calls and responses
+3. **Flask Logs**: Backend errors (printed to console)
+4. **Database**: `sqlite3 market_data.db` for direct queries
 
-### Frontend State Management
-- **Card-level state**: Each chart card maintains its own state (`card._property`)
-- **Workspace sync**: State saved to workspace.json on changes
-- **Auto-save**: Triggered by user interactions (slider release, ticker add/remove)
-- **Backend-first restore**: Loads from server on page load
+### Cache Busting
+When modifying JS files, increment version in `index.html`:
+```html
+<script src="card.js?v=34"></script>
+```
 
-### Code Organization
-- **Modular JS files**: Each chart feature in separate file (legend, export, volume, etc.)
-- **Event-driven**: User actions trigger state updates → re-render → save
-- **Defensive coding**: Extensive null checks, try-catch blocks for robustness
+### State Management
+- Card-level state: `card._property` pattern
+- Auto-save: Debounced (2000ms) on user interactions
+- Backend-first restore: Loads from `/api/workspace` on page load
+
+## Performance Considerations
+
+- **Data Density**: LightweightCharts needs ~1 pixel per bar minimum
+- **Interval Selection**: Auto-switching prevents rendering thousands of bars
+- **Wide-Column Schema**: Single query fetches multiple tickers
+- **Debouncing**: Range changes debounced to reduce re-renders
+
+## Future Enhancements
+
+### High Priority
+- **Error boundaries in UI** - Show retry button when chart fails
+- **Health dashboard** - Show data freshness per category
+- **Single update command** - Combine 3 steps into `update_all.py`
+
+### Medium Priority
+- **Batch API requests** - Single endpoint for multiple charts
+- **Database indexes** - Speed up queries as data grows
+- **Keyboard shortcuts** - `Ctrl+S` save, `R` reset zoom, `D/W/M` intervals
+
+### Lower Priority
+- **Web Worker** - Offload rebasing/SMA calculations
+- **DuckDB migration** - If SQLite becomes a bottleneck
+- **Options data integration**
+- **Drawing tools** - Trendlines, Fibonacci retracements
+
+### card.js Refactoring Roadmap
+
+Current state: ~2,333 lines with closure-based module pattern. Recent refactors extracted:
+- `mapToObject()` - Map→Object serialization
+- `destroyChartAndReplot()` - Pane toggle cleanup
+- `toggleMetric()` - Fundamentals metric toggling
+- `getCurrentFontSize()` - Font size with fallback
+
+**Next refactoring steps (increasing complexity):**
+
+1. **Extract Event Handler Setup** (Medium effort)
+   - Move ~30 `addEventListener` calls into `bindCardEvents(card, elements, handlers)`
+   - Reduces `createChartCard()` by ~400 lines
+   - Enables event handler unit testing
+
+2. **State Object Pattern** (Medium-High effort)
+   - Replace ~40 individual `let` variables with single state object
+   - Enables easier state debugging and serialization
+   - Requires updating ~200 references
+
+3. **Extract Plot Pane Logic** (High effort)
+   - Each pane (volume, revenue, fundamentals) has ~50-80 lines of similar setup
+   - Extract to `plotPane(paneType, config)` pattern
+   - Reduces `plot()` function from ~400 to ~150 lines
+
+4. **Class-Based Refactor** (High effort)
+   - Convert closure to `ChartCard` class
+   - Enables proper unit testing and inheritance
+   - Significant rewrite (~500+ lines touched)
+
+## Additional Documentation
+
+- **[ADDING_TICKERS.md](ADDING_TICKERS.md)** - Detailed guide for adding new tickers
+- **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** - IV tracking and CBOE indices
+- **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** - Portfolio management and ALLW replication
+- **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** - 31 economic indicators explained
+- **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** - Recession indicators and macro analysis
+- **[DATA_SOURCES.md](DATA_SOURCES.md)** - Database vs yfinance API
