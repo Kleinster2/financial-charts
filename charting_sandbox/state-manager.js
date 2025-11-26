@@ -153,6 +153,11 @@ window.StateManager = {
                                 localStorage.setItem('sandbox_pages', JSON.stringify(remoteData.pages));
                                 const nameCount = remoteData.pages.names ? Object.keys(remoteData.pages.names).length : 0;
                                 console.log(`[StateManager] Restored page metadata from backend (pageNames=${nameCount})`);
+                                // Notify PageManager to switch to the saved active page
+                                if (remoteData.pages.active && window.PageManager && typeof window.PageManager.showPage === 'function') {
+                                    console.log(`[StateManager] Switching to saved active page: ${remoteData.pages.active}`);
+                                    window.PageManager.showPage(remoteData.pages.active);
+                                }
                             } catch (e) {
                                 console.warn('[StateManager] Failed to cache sandbox_pages from backend:', e);
                             }
