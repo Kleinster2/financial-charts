@@ -94,6 +94,14 @@ window.DataFetcher = {
         try {
             const priceData = await this.getPriceData(tickers, null, null, interval);
 
+            if (!priceData || Object.keys(priceData).length === 0) {
+                console.warn(`  ✗ No data returned for tickers: ${tickers.join(', ')}`);
+                if (window.Toast) {
+                    window.Toast.error(`No data found for: ${tickers.join(', ')}`);
+                }
+                return {};
+            }
+
             // Normalize: extract just {time, value} from data
             for (const [ticker, data] of Object.entries(priceData)) {
                 results[ticker] = data.map(d => ({

@@ -56,41 +56,6 @@
     const FONT_STEP = UI.FONT_STEP || 1;
 
     /**
-     * Create a price formatter based on mode and precision
-     * @param {boolean} useRaw - Whether to use raw prices or percentage
-     * @param {number} precision - Number of decimal places
-     * @returns {Object} LightweightCharts price format object
-     */
-    function createPriceFormatter(useRaw, precision) {
-        if (useRaw) {
-            return {
-                type: 'custom',
-                minMove: 0.01,
-                formatter: (price) => {
-                    // Magnitude-based decimals for raw prices, capped by slider maximum
-                    const absPrice = Math.abs(price);
-                    const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
-                    const dec = Math.min(magDecimals, precision);
-                    return price.toFixed(dec);
-                }
-            };
-        } else {
-            return {
-                type: 'custom',
-                minMove: 0.1,
-                formatter: (v) => {
-                    const diff = v - 100;
-                    const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                    // Magnitude-based decimals, capped by slider maximum
-                    const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
-                    const dec = Math.min(magDecimals, precision);
-                    return `${sign}${Math.abs(diff).toFixed(dec)}%`;
-                }
-            };
-        }
-    }
-
-    /**
      * Restore a card from saved data
      * @param {Object} cardData - Saved card configuration
      */
@@ -580,7 +545,7 @@
         // Decimals slider event handler
         function updatePriceFormat(precision) {
             if (chart && chart.priceScale) {
-                const priceFormat = createPriceFormatter(useRaw, precision);
+                const priceFormat = window.ChartUtils.createPriceFormatter(useRaw, precision);
 
                 try {
                     chart.priceScale('right').applyOptions({ priceFormat });
@@ -773,7 +738,7 @@
             if (!chart) {
                 // Set price format based on mode and decimal precision
                 const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
-                const priceFormat = createPriceFormatter(useRaw, precision);
+                const priceFormat = window.ChartUtils.createPriceFormatter(useRaw, precision);
 
                 chart = LightweightCharts.createChart(chartBox, {
                     layout: { background: { type: 'solid', color: '#ffffff' }, textColor: '#333', fontSize: (card._fontSize || (UI.FONT_DEFAULT || 12)) },
