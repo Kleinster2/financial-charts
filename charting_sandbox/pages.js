@@ -10,6 +10,7 @@
 
   let pageCounter = 1; // page 1 exists
   let pageNames = {};
+  let pageCategories = {}; // { categoryName: [pageNum, ...] }
 
   // Preload saved names before creating initial tab so Page 1 label is correct
   try {
@@ -19,11 +20,115 @@
       if (parsedInit && parsedInit.names && typeof parsedInit.names === 'object') {
         pageNames = parsedInit.names;
       }
+      if (parsedInit && parsedInit.categories && typeof parsedInit.categories === 'object') {
+        pageCategories = parsedInit.categories;
+      }
     }
   } catch (e) { /* noop */ }
 
   function activateTab(pageNum){
-    Array.from(tabBar.children).forEach(t=>t.classList.toggle('active', t.dataset.page==pageNum+''));
+    // Update dropdown button active states
+    tabBar.querySelectorAll('.category-dropdown').forEach(dropdown => {
+      const hasActivePage = dropdown.querySelector(`.dropdown-item[data-page="${pageNum}"]`);
+      dropdown.querySelector('.category-btn').classList.toggle('active', !!hasActivePage);
+    });
+    // Update individual tab active states (for uncategorized)
+    tabBar.querySelectorAll('.tab').forEach(t => {
+      t.classList.toggle('active', t.dataset.page == pageNum + '');
+    });
+  }
+
+  // Create category dropdown
+  function createCategoryDropdown(categoryName, pageNums) {
+    const dropdown = document.createElement('div');
+    dropdown.className = 'category-dropdown';
+    dropdown.style.cssText = 'position: relative; display: inline-block;';
+
+    const btn = document.createElement('button');
+    btn.className = 'category-btn';
+    btn.textContent = categoryName + ' ▼';
+    btn.style.cssText = 'padding: 4px 10px; font-size: 0.9rem; cursor: pointer; border: 1px solid #666; border-radius: 4px; background: #eee;';
+
+    const menu = document.createElement('div');
+    menu.className = 'dropdown-menu';
+    menu.style.cssText = 'display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); z-index: 1000; min-width: 150px; max-height: 400px; overflow-y: auto;';
+
+    // Sort pages alphabetically by name
+    const sortedPages = pageNums
+      .map(num => ({ num, name: pageNames[num] || `Page ${num}` }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    sortedPages.forEach(({ num, name }) => {
+      const item = document.createElement('div');
+      item.className = 'dropdown-item';
+      item.dataset.page = num;
+      item.textContent = name;
+      item.style.cssText = 'padding: 8px 12px; cursor: pointer; white-space: nowrap;';
+      item.addEventListener('mouseenter', () => item.style.background = '#f0f0f0');
+      item.addEventListener('mouseleave', () => item.style.background = '');
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const target = pagesContainer.querySelector(`[data-page="${num}"]`);
+        if (target) {
+          switchTo(target);
+          savePages();
+        }
+        menu.style.display = 'none';
+      });
+      menu.appendChild(item);
+    });
+
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // Close other dropdowns
+      tabBar.querySelectorAll('.dropdown-menu').forEach(m => {
+        if (m !== menu) m.style.display = 'none';
+      });
+      menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    });
+
+    dropdown.appendChild(btn);
+    dropdown.appendChild(menu);
+    return dropdown;
+  }
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', () => {
+    tabBar.querySelectorAll('.dropdown-menu').forEach(m => m.style.display = 'none');
+  });
+
+  // Build the tab bar with category dropdowns
+  function buildTabBar() {
+    tabBar.innerHTML = '';
+
+    // If we have categories, use dropdown mode
+    if (Object.keys(pageCategories).length > 0) {
+      const categoryOrder = ['Portfolios', 'Sectors', 'Countries', 'Macro', 'Assets'];
+      const categorizedPages = new Set();
+
+      categoryOrder.forEach(cat => {
+        if (pageCategories[cat] && pageCategories[cat].length > 0) {
+          const dropdown = createCategoryDropdown(cat, pageCategories[cat]);
+          tabBar.appendChild(dropdown);
+          pageCategories[cat].forEach(p => categorizedPages.add(p));
+        }
+      });
+
+      // Add any uncategorized pages as individual tabs
+      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+      const uncategorized = allPages.filter(p => !categorizedPages.has(p));
+      uncategorized.forEach(num => {
+        const tab = createTab(num);
+        tabBar.appendChild(tab);
+      });
+    } else {
+      // Fallback: show all pages as individual tabs
+      const allPages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
+      allPages.sort((a, b) => a - b).forEach(num => {
+        const tab = createTab(num);
+        tabBar.appendChild(tab);
+      });
+    }
   }
   function switchTo(pageEl) {
     if (!pageEl) return;
@@ -115,7 +220,7 @@
     });
   }
 
-  // create initial tab for page 1
+  // create individual tab (for uncategorized pages)
   function createTab(num){
     const tab=document.createElement('div');
     tab.className='tab';
@@ -140,15 +245,45 @@
       tab.textContent = trimmed;
       savePages();
     });
-    tabBar.appendChild(tab);
     return tab;
   }
-  createTab(1);
 
-  // ensure first page visible only
-  switchTo(pagesContainer.querySelector('[data-page="1"]'));
+  // Load categories from backend workspace.json
+  async function loadCategoriesFromBackend() {
+    try {
+      const resp = await fetch('/api/workspace');
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.pages && data.pages.names) {
+          // Merge backend names with local (backend takes precedence)
+          Object.assign(pageNames, data.pages.names);
+        }
+        if (data.pages && data.pages.categories) {
+          pageCategories = data.pages.categories;
+        }
+      }
+    } catch (e) {
+      console.warn('[PageManager] Failed to load categories from backend', e);
+    }
+  }
+
+  // Initialize: load from backend then build UI
+  async function initialize() {
+    await loadCategoriesFromBackend();
+    buildTabBar();
+    // ensure first page visible only
+    switchTo(pagesContainer.querySelector('[data-page="1"]'));
+  }
+
+  initialize();
 
   function getActivePage(){
+    // Check dropdown items first
+    const activeDropdownItem = tabBar.querySelector('.dropdown-item.active');
+    if (activeDropdownItem) {
+      return parseInt(activeDropdownItem.dataset.page, 10);
+    }
+    // Fall back to individual tabs
     const activeTab = tabBar.querySelector('.tab.active');
     return activeTab ? parseInt(activeTab.dataset.page, 10) : 1;
   }
@@ -156,7 +291,7 @@
   function savePages(){
     const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10));
     try {
-      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage(), names: pageNames }));
+      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: getActivePage(), names: pageNames, categories: pageCategories }));
       // Also persist to backend (debounced) so changes sync across browsers
       try {
         const cardsKey = (window.StateManager && window.StateManager.STORAGE_KEYS && window.StateManager.STORAGE_KEYS.CARDS) || 'sandbox_cards';
@@ -211,15 +346,17 @@
       if (parsed && Array.isArray(parsed.pages)) {
         // Restore names first so any newly created tabs use saved names
         if (parsed.names && typeof parsed.names === 'object') {
-          pageNames = parsed.names;
-          // Update any existing tabs (e.g., Page 1) to reflect saved name
-          Array.from(tabBar.children).forEach(tab => {
-            const num = tab.dataset.page;
-            tab.textContent = pageNames[num] || `Page ${num}`;
-            tab.title = 'Double-click to rename';
-          });
+          Object.assign(pageNames, parsed.names);
+        }
+        if (parsed.categories && typeof parsed.categories === 'object') {
+          // Only use localStorage categories if backend didn't provide any
+          if (Object.keys(pageCategories).length === 0) {
+            pageCategories = parsed.categories;
+          }
         }
         parsed.pages.filter(n => n !== 1).forEach(n => ensurePage(n));
+        // Rebuild tab bar with updated data
+        buildTabBar();
         if (parsed.active && parsed.active !== 1) {
           const target = pagesContainer.querySelector(`[data-page="${parsed.active}"]`);
           if (target) switchTo(target);
