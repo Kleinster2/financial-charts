@@ -1595,6 +1595,161 @@ def get_latest_iv():
     return jsonify(result)
 
 
+@app.route('/api/dashboard')
+def get_dashboard_data():
+    """
+    Get comprehensive dashboard data for all tickers in workspace.
+    Returns: Array of ticker data with prices, changes, metadata, and page info.
+    """
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+
+        # Load workspace to get page/chart info
+        workspace_path = os.path.join(basedir, WORKSPACE_FILENAME)
+        page_info = {}  # ticker -> [{page, chart_title}, ...]
+        page_names = {}
+
+        if os.path.exists(workspace_path):
+            with open(workspace_path, 'r') as f:
+                workspace = json.load(f)
+
+            # Get page names
+            if 'pages' in workspace and 'names' in workspace['pages']:
+                page_names = workspace['pages']['names']
+
+            # Build ticker -> page/chart mapping
+            cards = workspace.get('cards', [])
+            for card in cards:
+                page_num = str(card.get('page', 1))
+                page_name = page_names.get(page_num, f'Page {page_num}')
+                chart_title = card.get('title', '')
+                tickers = card.get('tickers', [])
+
+                for ticker in tickers:
+                    if ticker not in page_info:
+                        page_info[ticker] = []
+                    page_info[ticker].append({
+                        'page': int(page_num),
+                        'page_name': page_name,
+                        'chart_title': chart_title
+                    })
+
+        # Get all tickers with data
+        all_tickers = set(page_info.keys())
+
+        # Also get tickers from metadata table
+        cursor.execute("SELECT ticker, name, first_date, last_date, data_points FROM ticker_metadata")
+        metadata = {}
+        for row in cursor.fetchall():
+            ticker, name, first_date, last_date, data_points = row
+            metadata[ticker] = {
+                'name': name,
+                'first_date': first_date,
+                'last_date': last_date,
+                'data_points': data_points
+            }
+            all_tickers.add(ticker)
+
+        # Get column names from stock_prices_daily
+        columns = get_table_columns('stock_prices_daily', conn)
+        valid_tickers = [t for t in all_tickers if t in columns]
+
+        if not valid_tickers:
+            conn.close()
+            return jsonify([])
+
+        # Get latest prices and previous day prices for all tickers
+        # Build dynamic SQL for selected tickers
+        ticker_cols = ', '.join([f'"{t}"' for t in valid_tickers])
+
+        # Get last 2 rows for each ticker to calculate daily change
+        query = f'''
+            SELECT Date, {ticker_cols}
+            FROM stock_prices_daily
+            ORDER BY Date DESC
+            LIMIT 252
+        '''
+        cursor.execute(query)
+        rows = cursor.fetchall()
+
+        # Process price data
+        result = []
+        for ticker in valid_tickers:
+            idx = valid_tickers.index(ticker) + 1  # +1 for Date column
+
+            # Find latest price
+            latest_price = None
+            latest_date = None
+            prev_price = None
+            week_ago_price = None
+            month_ago_price = None
+            year_ago_price = None
+
+            for i, row in enumerate(rows):
+                price = row[idx]
+                if price is not None:
+                    if latest_price is None:
+                        latest_price = price
+                        latest_date = row[0]
+                    elif prev_price is None:
+                        prev_price = price
+                    if i >= 4 and week_ago_price is None and price is not None:
+                        week_ago_price = price
+                    if i >= 20 and month_ago_price is None and price is not None:
+                        month_ago_price = price
+                    if i >= 250 and year_ago_price is None and price is not None:
+                        year_ago_price = price
+                        break
+
+            if latest_price is None:
+                continue
+
+            # Calculate changes
+            daily_change = ((latest_price - prev_price) / prev_price * 100) if prev_price else None
+            weekly_change = ((latest_price - week_ago_price) / week_ago_price * 100) if week_ago_price else None
+            monthly_change = ((latest_price - month_ago_price) / month_ago_price * 100) if month_ago_price else None
+            yearly_change = ((latest_price - year_ago_price) / year_ago_price * 100) if year_ago_price else None
+
+            # Get 52-week high/low from the data we have
+            prices_52w = [row[idx] for row in rows[:252] if row[idx] is not None]
+            high_52w = max(prices_52w) if prices_52w else None
+            low_52w = min(prices_52w) if prices_52w else None
+
+            meta = metadata.get(ticker, {})
+            pages = page_info.get(ticker, [])
+
+            result.append({
+                'ticker': ticker,
+                'name': meta.get('name', ticker),
+                'latest_price': round(latest_price, 2) if latest_price else None,
+                'latest_date': latest_date,
+                'daily_change': round(daily_change, 2) if daily_change is not None else None,
+                'weekly_change': round(weekly_change, 2) if weekly_change is not None else None,
+                'monthly_change': round(monthly_change, 2) if monthly_change is not None else None,
+                'yearly_change': round(yearly_change, 2) if yearly_change is not None else None,
+                'high_52w': round(high_52w, 2) if high_52w else None,
+                'low_52w': round(low_52w, 2) if low_52w else None,
+                'first_date': meta.get('first_date'),
+                'last_date': meta.get('last_date'),
+                'data_points': meta.get('data_points'),
+                'pages': pages
+            })
+
+        conn.close()
+
+        # Sort by ticker
+        result.sort(key=lambda x: x['ticker'])
+
+        app.logger.info(f"/api/dashboard: Returned {len(result)} tickers")
+        return jsonify(result)
+
+    except Exception as e:
+        app.logger.error(f"/api/dashboard: Error: {e}")
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
+
+
 # Register portfolio routes
 try:
     from portfolio_routes import portfolio_bp

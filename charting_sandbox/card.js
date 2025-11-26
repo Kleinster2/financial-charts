@@ -26,6 +26,13 @@
      */
     function restoreCard(cardData) {
         const wrapper = window.PageManager ? window.PageManager.ensurePage(cardData.page || '1') : null;
+
+        // Handle dashboard card type
+        if (cardData.type === 'dashboard') {
+            createChartCard({ type: 'dashboard', wrapperEl: wrapper });
+            return;
+        }
+
         createChartCard({
             tickers: Array.isArray(cardData.tickers) ? cardData.tickers.join(', ') : (cardData.tickers || ''),
             showDiff: !!cardData.showDiff,
@@ -125,6 +132,16 @@
      * @returns {HTMLElement} The created card element
      */
     function createChartCard(optionsOrTickers) {
+        // Handle dashboard card type
+        if (optionsOrTickers && optionsOrTickers.type === 'dashboard') {
+            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
+            if (wrapper && window.ChartDashboard) {
+                return window.ChartDashboard.createDashboardCard(wrapper);
+            }
+            console.error('Dashboard module not loaded');
+            return null;
+        }
+
         // Handle backward compatibility: if first arg is string, convert to options
         let options = {};
         if (typeof optionsOrTickers === 'string') {
