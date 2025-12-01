@@ -484,11 +484,61 @@ Current state: ~2,333 lines with closure-based module pattern. Recent refactors 
    - Enables proper unit testing and inheritance
    - Significant rewrite (~500+ lines touched)
 
+## Dendrogram System
+
+### Overview
+`hierarchical_analysis.py` generates correlation dendrograms and clustermaps for stock groups.
+
+### Regeneration
+```powershell
+python hierarchical_analysis.py
+```
+Outputs PNGs to root directory (gitignored with `*.png`), served via Flask at `/sandbox/dendrograms/`.
+
+### Supported Groups
+- US sectors: ai, tech, consumer, crypto, defense, energy, financials, reits, top50
+- International: brazil, china, countries
+- China sub-sectors: china_tech, china_consumer, china_energy, china_ev, china_financials, china_healthcare, china_industrials, china_realestate
+
+### File Naming Convention
+```
+dendrogram_{group}.png           # Full history (2+ years)
+dendrogram_{group}_2024.png      # Yearly
+dendrogram_{group}_2024_Q1.png   # Quarterly
+dendrogram_{group}_2024_01.png   # Monthly
+clustermap_{group}_*.png         # Same pattern for clustermaps
+```
+
+### Name Mappings
+Name mappings convert tickers to human-readable display names:
+```python
+BRAZIL_NAMES = {
+    'PETR4.SA': 'Petrobras',
+    'VALE3.SA': 'Vale',
+    ...
+}
+```
+Functions accept `name_map` parameter to override default ticker labels.
+
+### Data Threshold
+- Requires **30% of trading days** in the period to include a ticker
+- For 2024 (~365 days), need ~109 data points minimum
+- Sparse data causes empty dendrograms - run `update_market_data.py` to backfill
+
+### Frontend
+`charting_sandbox/chart-dendrograms.js` displays dendrograms via dropdown with time period selection.
+
+---
+
 ## Additional Documentation
 
 - **[ADDING_TICKERS.md](ADDING_TICKERS.md)** - Detailed guide for adding new tickers
-- **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** - IV tracking and CBOE indices
-- **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** - Portfolio management and ALLW replication
-- **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** - 31 economic indicators explained
-- **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** - Recession indicators and macro analysis
+- **[BOND_DATA_GUIDE.md](BOND_DATA_GUIDE.md)** - Bond data sources and integration
+- **[CREATING_PAGES.md](CREATING_PAGES.md)** - How to create new themed pages
 - **[DATA_SOURCES.md](DATA_SOURCES.md)** - Database vs yfinance API
+- **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** - 31 economic indicators explained
+- **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** - IV tracking and CBOE indices
+- **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** - Index data update procedures
+- **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** - Recession indicators and macro analysis
+- **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** - Portfolio management and ALLW replication
+- **[UNIFIED_ARCHITECTURE.md](UNIFIED_ARCHITECTURE.md)** - System architecture overview

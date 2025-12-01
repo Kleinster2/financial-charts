@@ -150,10 +150,7 @@ window.StateManager = {
                         }
                     } else if (typeof remoteData === 'object') {
                         const cards = Array.isArray(remoteData.cards) ? remoteData.cards : [];
-                        // Restore pages metadata for PageManager (only on first load)
-                        // Note: card.js handles the actual page switching and card restore.
-                        // StateManager.loadCards is also called by global-search.js to build search index,
-                        // so we skip page switching here to avoid conflicts.
+                        // Restore pages metadata and switch to saved active page (only on first load)
                         if (remoteData.pages && typeof remoteData.pages === 'object' && !this._initialLoadComplete) {
                             try {
                                 localStorage.setItem('sandbox_pages', JSON.stringify(remoteData.pages));
@@ -162,6 +159,11 @@ window.StateManager = {
                                 // Signal that initialization is complete - saves are now allowed
                                 if (window.PageManager && typeof window.PageManager.finishInitialization === 'function') {
                                     window.PageManager.finishInitialization();
+                                }
+                                // Switch to the saved active page from backend
+                                if (remoteData.pages.active && window.PageManager && typeof window.PageManager.showPage === 'function') {
+                                    console.log(`[StateManager] Switching to saved active page: ${remoteData.pages.active}`);
+                                    window.PageManager.showPage(remoteData.pages.active);
                                 }
                                 this._initialLoadComplete = true;
                             } catch (e) {
