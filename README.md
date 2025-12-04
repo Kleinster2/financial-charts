@@ -96,7 +96,20 @@ pip install -r charting_app\requirements.txt
 
 ## Quickstart
 
-### Update Data (3-Step Workflow)
+### Update Data (Unified Command)
+
+```powershell
+# Full update: prices + FRED + fundamentals (~15 min)
+python update_all.py
+
+# Quick update: prices + FRED only (~3 min)
+python update_all.py --quick
+
+# Check data freshness
+python update_all.py --status
+```
+
+### Manual Steps (if needed)
 
 ```powershell
 # Step 1: Yahoo Finance (stocks, ETFs, futures) ~2 min
@@ -107,6 +120,9 @@ python update_indices_from_fred.py --lookback 30
 
 # Step 3: FRED macro indicators (31 indicators) ~10 sec
 python update_fred_indicators.py --lookback 60
+
+# Step 4: Alpha Vantage fundamentals (priority tickers) ~12 min
+python fetch_fundamentals.py --refresh --priority
 ```
 
 ### Launch Application

@@ -48,6 +48,13 @@
             return;
         }
 
+        // Handle thesis-performance card type
+        if (cardData.type === 'thesis-performance') {
+            console.log('[Restore] Creating thesis performance card on page', cardData.page);
+            createChartCard({ type: 'thesis-performance', wrapperEl: wrapper, thesisId: cardData.thesisId });
+            return;
+        }
+
         createChartCard({
             tickers: Array.isArray(cardData.tickers) ? cardData.tickers.join(', ') : (cardData.tickers || ''),
             showDiff: !!cardData.showDiff,
@@ -104,6 +111,7 @@
         const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => ({
             page: card.closest('.page')?.dataset.page || '1',
             type: card._type || null,
+            thesisId: card._thesisId || null,
             tickers: Array.from(card._selectedTickers || []),
             showDiff: !!card._showDiff,
             showAvg: !!card._showAvg,
@@ -179,6 +187,19 @@
                 return window.ChartDendrograms.createDendrogramCard(wrapper);
             }
             console.error('Dendrograms module not loaded');
+            return null;
+        }
+
+        // Handle thesis-performance card type
+        if (optionsOrTickers && optionsOrTickers.type === 'thesis-performance') {
+            console.log('[createChartCard] Thesis Performance type detected');
+            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
+            if (wrapper && window.ChartThesisPerformance) {
+                return window.ChartThesisPerformance.createThesisPerformanceCard(wrapper, {
+                    thesisId: optionsOrTickers.thesisId
+                });
+            }
+            console.error('Thesis Performance module not loaded');
             return null;
         }
 

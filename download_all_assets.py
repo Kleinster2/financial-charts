@@ -21,6 +21,8 @@ ADR_TICKERS = [
     "BABA", "TSM", "JD", "PDD", "NIO", "MELI", "TM", "SONY", "SAP", "ASML", "BP", "SHEL", "RIO", "TTE", "AZN", "VWAGY",
     "VALE", "PBR", "ITUB", "SHOP", "BNS", "BIDU", "NTES", "SE", "QFIN", "MUFG", "SKM", "KB",
     "INFY", "WIT", "IBN", "HDB", "ABEV", "UL", "HSBC", "NVS", "RHHBY", "UBS", "NXPI", "PHG", "DB", "SIEGY", "NSRGY", "FIG",
+    # Canadian banks, Pharma ADRs, Mining
+    "RY", "TD", "NVO", "SNY", "DEO", "BHP",
     # Robotics/Industrial ADRs
     "ABB", "FANUY", "ABBNY",
     # Chinese EV/Auto ADRs & HK Stocks
@@ -304,6 +306,145 @@ QUANTUM_STOCKS = [
     "IONQ", "RGTI", "QBTS", "ARQQ", "QUBT"
 ]
 
+# China A-Shares (Shanghai .SS and Shenzhen .SZ exchanges)
+# Major constituents of CSI 300 and other key stocks
+CHINA_A_SHARES = [
+    # Financial Services (Banks, Insurance)
+    "601318.SS",  # Ping An Insurance
+    "600036.SS",  # China Merchants Bank
+    "601166.SS",  # Industrial Bank
+    "600000.SS",  # Shanghai Pudong Development Bank
+    "601398.SS",  # ICBC
+    "601939.SS",  # China Construction Bank
+    "600016.SS",  # Minsheng Bank
+    "601328.SS",  # Bank of Communications
+    "601288.SS",  # Agricultural Bank of China
+    "601601.SS",  # China Pacific Insurance
+    # Consumer/Retail (Baijiu, Food, Beverages)
+    "600519.SS",  # Kweichow Moutai (most valuable A-share)
+    "000858.SZ",  # Wuliangye Yibin
+    "000568.SZ",  # Luzhou Laojiao
+    "600809.SS",  # Shanxi Fenjiu
+    "000596.SZ",  # Gujing Distillery
+    "603369.SS",  # Jiangsu King's Luck Brewery
+    "002304.SZ",  # Yanghe Brewery
+    "600887.SS",  # Inner Mongolia Yili
+    "000895.SZ",  # Henan Shuanghui
+    "603288.SS",  # Foshan Haitian
+    # Technology/Electronics
+    "000725.SZ",  # BOE Technology
+    "002415.SZ",  # Hikvision
+    "000063.SZ",  # ZTE Corporation
+    "600703.SS",  # SenseTime
+    "002230.SZ",  # iFlytek
+    # Electric Vehicles & Batteries
+    "300750.SZ",  # CATL (Contemporary Amperex)
+    "002594.SZ",  # BYD (A-share)
+    "002460.SZ",  # Ganfeng Lithium
+    "002466.SZ",  # Tianqi Lithium
+    "300014.SZ",  # EVE Energy
+    # Semiconductors & AI Chips
+    "688012.SS",  # AMEC (Advanced Micro-Fabrication Equipment)
+    "688981.SS",  # SMIC (Semiconductor Manufacturing International)
+    "002371.SZ",  # Naura Technology (semiconductor equipment)
+    "300223.SZ",  # Beijing Huafeng Test
+    "688256.SS",  # Cambricon Technologies (AI chips)
+    "688041.SS",  # Hygon Information Technology (x86 CPUs)
+    "300474.SZ",  # Jingjia Micro (GPU)
+    "688368.SS",  # Shanghai Fullhan Microelectronics
+    "603986.SS",  # GigaDevice Semiconductor (flash memory)
+    "688521.SS",  # VeriSilicon (IP/design services)
+    "688095.SS",  # Empyrean Technology (EDA software)
+    "600584.SS",  # JCET Group (packaging/testing)
+    # Healthcare/Pharma
+    "600276.SS",  # Jiangsu Hengrui Medicine
+    "000538.SZ",  # Yunnan Baiyao
+    "300122.SZ",  # Zhifei Biological
+    "300015.SZ",  # Aier Eye Hospital
+    "002007.SZ",  # Hualan Biological
+    # Energy & Resources
+    "601857.SS",  # PetroChina
+    "600028.SS",  # Sinopec
+    "601088.SS",  # China Shenhua Energy
+    "601899.SS",  # Zijin Mining
+    "600547.SS",  # Shandong Gold
+    # Industrials/Manufacturing
+    "600031.SS",  # Sany Heavy Industry
+    "000333.SZ",  # Midea Group
+    "000651.SZ",  # Gree Electric
+    "600690.SS",  # Haier Smart Home
+    "601012.SS",  # LONGi Green Energy
+    "600438.SS",  # Tongwei
+    # Real Estate (major developers)
+    "600048.SS",  # Poly Developments
+    "001979.SZ",  # Merchants Shekou
+    "000002.SZ",  # China Vanke
+    # Infrastructure/Utilities
+    "600900.SS",  # China Yangtze Power
+    "601669.SS",  # China Power Construction
+    # Index ETFs (for reference)
+    "510300.SS",  # CSI 300 ETF
+    "510050.SS",  # SSE 50 ETF
+]
+
+# South Korea (KRX - Korea Exchange, .KS suffix)
+# Major constituents of KOSPI and key Korean companies
+KOREA_STOCKS = [
+    # Semiconductors & Electronics
+    "005930.KS",  # Samsung Electronics
+    "000660.KS",  # SK Hynix
+    "009150.KS",  # Samsung Electro-Mechanics
+    "034730.KS",  # SK Inc
+    "066570.KS",  # LG Electronics
+    "003550.KS",  # LG Corp
+    # Internet & Tech
+    "035420.KS",  # NAVER
+    "035720.KS",  # Kakao
+    "259960.KS",  # Krafton (gaming)
+    "263750.KS",  # Pearl Abyss (gaming)
+    "251270.KS",  # Netmarble (gaming)
+    "036570.KS",  # NCsoft (gaming)
+    # Batteries & EV
+    "006400.KS",  # Samsung SDI
+    "051910.KS",  # LG Chem
+    "373220.KS",  # LG Energy Solution
+    "096770.KS",  # SK Innovation
+    # Automotive
+    "005380.KS",  # Hyundai Motor
+    "000270.KS",  # Kia
+    "012330.KS",  # Hyundai Mobis
+    "011210.KS",  # Hyundai Wia
+    # Biotech & Pharma
+    "068270.KS",  # Celltrion
+    "207940.KS",  # Samsung Biologics
+    "128940.KS",  # Hanmi Pharm
+    "326030.KS",  # SK Biopharmaceuticals
+    # Financial Services
+    "105560.KS",  # KB Financial Group
+    "055550.KS",  # Shinhan Financial
+    "086790.KS",  # Hana Financial
+    "316140.KS",  # Woori Financial
+    "000810.KS",  # Samsung Fire & Marine
+    # Telecom
+    "017670.KS",  # SK Telecom
+    "030200.KS",  # KT Corp
+    "032640.KS",  # LG Uplus
+    # Steel & Chemicals
+    "005490.KS",  # POSCO Holdings
+    "010130.KS",  # Korea Zinc
+    "051900.KS",  # LG H&H (household/cosmetics)
+    # Shipbuilding & Heavy Industry
+    "009540.KS",  # Hyundai Heavy Industries
+    "010140.KS",  # Samsung Heavy Industries
+    "042660.KS",  # Daewoo Shipbuilding
+    # Trading & Conglomerates
+    "028260.KS",  # Samsung C&T
+    "000100.KS",  # Yuhan Corp (pharma)
+    "018260.KS",  # Samsung SDS
+    # Index ETF
+    "069500.KS",  # KODEX 200 (KOSPI 200 ETF)
+]
+
 # Adtech / app monetization / measurement and programmatic advertising equities
 ADTECH_STOCKS = [
     "APP",   # AppLovin
@@ -410,7 +551,9 @@ def get_sp500_tickers():
     tickers = [
         "MMM", "AOS", "ABT", "ABBV", "ACN", "ADBE", "AMD", "AAP", "AES", "AFL", "A", "APD", "AKAM", "ALK", "ALB", "ARE", "ALGN", "ALLE", "LNT", "ALL", "GOOGL", "GOOG", "MO", "AMZN", "AMCR", "AEE", "AAL", "AEP", "AXP", "AIG", "AMT", "AWK", "AMP", "ABC", "AME", "AMGN", "APH", "ADI", "ANSS", "AON", "APA", "AAPL", "AMAT", "APTV", "ACGL", "ADM", "ANET", "AJG", "AIZ", "T", "ATO", "ADSK", "ADP", "AZO", "AVB", "AVY", "AXON", "BKR", "BALL", "BAC", "BBWI", "BAX", "BDX", "BRK-B", "BBY", "BIO", "TECH", "BIIB", "BLK", "BK", "BA", "BKNG", "BWA", "BXP", "BSX", "BMY", "AVGO", "BR", "BRO", "BF-B", "BLDR", "BG", "CDNS", "CZR", "CPT", "CPB", "COF", "CAH", "KMX", "CCL", "CARR", "CTLT", "CAT", "CBOE", "CBRE", "CDW", "CE", "CNC", "CNP", "CDAY", "CF", "CRL", "SCHW", "CHTR", "CVX", "CMG", "CB", "CHD", "CI", "CINF", "CTAS", "CSCO", "C", "CFG", "CLX", "CME", "CMS", "KO", "CTSH", "CL", "CMCSA", "CMA", "CAG", "COP", "ED", "STZ", "CEG", "COO", "CPRT", "GLW", "CTVA", "CSGP", "COST", "CTRA", "CCI", "CSX", "CMI", "CVS", "DHI", "DHR", "DRI", "DVA", "DE", "DAL", "XRAY", "DVN", "DXCM", "FANG", "DLR", "DFS", "DIS", "DG", "DLTR", "D", "DPZ", "DOV", "DOW", "DTE", "DUK", "DD", "EMN", "ETN", "EBAY", "ECL", "EIX", "EW", "EA", "ELV", "LLY", "EMR", "ENPH", "ETR", "EOG", "EPAM", "EQT", "EFX", "EQIX", "EQR", "ESS", "EL", "ETSY", "EG", "EVRG", "ES", "EXC", "EXPE", "EXPD", "EXR", "XOM", "FFIV", "FDS", "FICO", "FAST", "FRT", "FDX", "FITB", "FSLR", "FE", "FIS", "FISV", "FLT", "FMC", "F", "FTNT", "FTV", "FOXA", "FOX", "BEN", "FCX", "GRMN", "IT", "GEHC", "GEN", "GNRC", "GD", "GE", "GIS", "GM", "GPC", "GILD", "GL", "GPN", "GS", "HAL", "HIG", "HAS", "HCA", "PEAK", "HSIC", "HSY", "HES", "HPE", "HLT", "HOLX", "HD", "HON", "HRL", "HST", "HWM", "HPQ", "HUBB", "HUM", "HBAN", "HII", "IBM", "IEX", "IDXX", "ITW", "ILMN", "INCY", "IR", "PODD", "INTC", "ICE", "IFF", "IP", "IPG", "INTU", "ISRG", "IVZ", "INVH", "IQV", "IRM", "JBHT", "JKHY", "J", "JNJ", "JCI", "JPM", "JNPR", "K", "KDP", "KEY", "KEYS", "KMB", "KIM", "KMI", "KLAC", "KHC", "KR", "LHX", "LH", "LRCX", "LW", "LVS", "LDOS", "LEN", "LIN", "LYV", "LKQ", "LMT", "L", "LOW", "LULU", "LYB", "MTB", "MRO", "MPC", "MKTX", "MAR", "MMC", "MLM", "MAS", "MA", "MTCH", "MKC", "MCD", "MCK", "MDT", "MRK", "META", "MET", "MTD", "MGM", "MCHP", "MU", "MSFT", "MAA", "MRNA", "MHK", "MOH", "TAP", "MDLZ", "MPWR", "MNST", "MCO", "MS", "MOS", "MSI", "MSCI", "NDAQ", "NTAP", "NFLX", "NWL", "NEM", "NWSA", "NWS", "NEE", "NKE", "NI", "NDSN", "NSC", "NTRS", "NOC", "NCLH", "NRG", "NUE", "NVDA", "NVR", "NXPI", "ORLY", "OXY", "ODFL", "OMC", "ON", "OKE", "ORCL", "OGN", "OTIS", "PCAR", "PKG", "PARA", "PH", "PAYX", "PAYC", "PYPL", "PNR", "PEP", "PKI", "PFE", "PCG", "PM", "PSX", "PNW", "PXD", "PNC", "POOL", "PPG", "PPL", "PFG", "PG", "PGR", "PLD", "PRU", "PEG", "PTC", "PSA", "PHM", "QRVO", "PWR", "QCOM", "DGX", "RL", "RJF", "RTX", "O", "REG", "REGN", "RF", "RSG", "RMD", "RVTY", "RHI", "ROK", "ROL", "ROP", "ROST", "RCL", "SPGI", "CRM", "SBAC", "SLB", "STX", "SEE", "SRE", "NOW", "SHW", "SPG", "SWKS", "SJM", "SNA", "SEDG", "SO", "LUV", "SWK", "SBUX", "STT", "STLD", "STE", "SYK", "SYF", "SNPS", "SYY", "TMUS", "TROW", "TTWO", "TPR", "TRGP", "TGT", "TEL", "TDY", "TFX", "TER", "TSLA", "TXN", "TXT", "TMO", "TJX", "TSCO", "TT", "TDG", "TRV", "TRMB", "TFC", "TYL", "TSN", "USB", "UDR", "ULTA", "UNP", "UAL", "UPS", "URI", "UNH", "UHS", "VLO", "VTR", "VRSN", "VRSK", "VZ", "VRTX", "VTRS", "VICI", "V", "VMC", "WAB", "WBA", "WMT", "WBD", "WM", "WAT", "WEC", "WFC", "WELL", "WST", "WDC", "WRK", "WY", "WHR", "WMB", "WTW", "GWW", "WYNN", "XEL", "XYL", "YUM", "ZBRA", "ZBH", "ZION", "ZTS", 
         # Recent IPOs added October 2025
-        "NTSK", "STUB", "KLAR", "ALH", "FRMI", "APACU", "CBK", "AGRZ", "NP", "KNRX", "KDK", "MGN", "BTQ"
+        "NTSK", "STUB", "KLAR", "ALH", "FRMI", "APACU", "CBK", "AGRZ", "NP", "KNRX", "KDK", "MGN", "BTQ",
+        # Social media
+        "SNAP"
     ]
     
     # Create a minimal DataFrame with just the tickers
@@ -473,6 +616,9 @@ def update_sp500_data(verbose: bool = True, assets=None):
             'adrs': ADR_TICKERS,
             'fx': sorted(list(set(FX_TICKERS + ADDITIONAL_FX_TICKERS))),
             'crypto': CRYPTO_TICKERS,
+            'china': CHINA_A_SHARES,  # Shanghai (.SS) and Shenzhen (.SZ) A-shares
+            'korea': KOREA_STOCKS,  # Korea Exchange (.KS) stocks
+            'brazil': get_ibovespa_tickers(),  # B3 exchange (.SA) stocks
         }
         selected = list(groups.keys()) if not assets else [a.lower() for a in assets]
         unknown = [a for a in selected if a not in groups]

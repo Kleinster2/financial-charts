@@ -198,6 +198,77 @@ BRAZIL_NAMES = {
     'YDUQ3.SA': 'YDUQ3 Yduqs',
 }
 
+# China A-Shares ticker to name mapping
+CHINA_NAMES = {
+    # Financial Services
+    "601318.SS": "Ping An Insurance",
+    "600036.SS": "China Merchants Bank",
+    "601166.SS": "Industrial Bank",
+    "600000.SS": "Shanghai Pudong Bank",
+    "601398.SS": "ICBC",
+    "601939.SS": "China Construction Bank",
+    "600016.SS": "Minsheng Bank",
+    "601328.SS": "Bank of Communications",
+    "601288.SS": "Agricultural Bank",
+    "601601.SS": "China Pacific Insurance",
+    # Consumer/Baijiu
+    "600519.SS": "Kweichow Moutai",
+    "000858.SZ": "Wuliangye",
+    "000568.SZ": "Luzhou Laojiao",
+    "600809.SS": "Shanxi Fenjiu",
+    "000596.SZ": "Gujing Distillery",
+    "603369.SS": "King's Luck Brewery",
+    "002304.SZ": "Yanghe Brewery",
+    "600887.SS": "Inner Mongolia Yili",
+    "000895.SZ": "Henan Shuanghui",
+    "603288.SS": "Foshan Haitian",
+    # Technology
+    "000725.SZ": "BOE Technology",
+    "002415.SZ": "Hikvision",
+    "000063.SZ": "ZTE Corporation",
+    "600703.SS": "SenseTime",
+    "002230.SZ": "iFlytek",
+    "688981.SS": "Zhongwang Technology",
+    # EV/Batteries/Solar
+    "300750.SZ": "CATL",
+    "002594.SZ": "BYD",
+    "002460.SZ": "Ganfeng Lithium",
+    "002466.SZ": "Tianqi Lithium",
+    "300014.SZ": "EVE Energy",
+    "601012.SS": "LONGi Green Energy",
+    "600438.SS": "Tongwei",
+    # Semiconductors
+    "688012.SS": "SMIC",
+    "002371.SZ": "Naura Technology",
+    "300223.SZ": "Beijing Huafeng Test",
+    # Healthcare
+    "600276.SS": "Jiangsu Hengrui",
+    "000538.SZ": "Yunnan Baiyao",
+    "300122.SZ": "Zhifei Biological",
+    "300015.SZ": "Aier Eye Hospital",
+    "002007.SZ": "Hualan Biological",
+    # Energy
+    "601857.SS": "PetroChina",
+    "600028.SS": "Sinopec",
+    "601088.SS": "China Shenhua Energy",
+    "601899.SS": "Zijin Mining",
+    "600547.SS": "Shandong Gold",
+    "600900.SS": "Yangtze Power",
+    # Industrials
+    "600031.SS": "Sany Heavy Industry",
+    "000333.SZ": "Midea Group",
+    "000651.SZ": "Gree Electric",
+    "600690.SS": "Haier Smart Home",
+    # Real Estate/Infrastructure
+    "600048.SS": "Poly Developments",
+    "001979.SZ": "Merchants Shekou",
+    "000002.SZ": "China Vanke",
+    "601669.SS": "Power Construction",
+    # ETFs
+    "510300.SS": "CSI 300 ETF",
+    "510050.SS": "SSE 50 ETF",
+}
+
 # China A-Shares - All tickers for full dendrogram
 CHINA_ALL_TICKERS = [
     # Financial Services
@@ -527,15 +598,15 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
     generate_sector_dendrogram(BRAZIL_TICKERS, 'Brazil', f'dendrogram_brazil{suffix}.png', name_map=BRAZIL_NAMES)
     generate_sector_dendrogram(COUNTRY_INDEX_TICKERS, 'Country Indexes', f'dendrogram_countries{suffix}.png')
     # China A-Shares
-    generate_sector_dendrogram(CHINA_ALL_TICKERS, 'China A-Shares (All)', f'dendrogram_china{suffix}.png')
-    generate_sector_dendrogram(CHINA_FINANCIALS, 'China Financials', f'dendrogram_china_financials{suffix}.png')
-    generate_sector_dendrogram(CHINA_CONSUMER, 'China Consumer/Baijiu', f'dendrogram_china_consumer{suffix}.png')
-    generate_sector_dendrogram(CHINA_TECH, 'China Technology', f'dendrogram_china_tech{suffix}.png')
-    generate_sector_dendrogram(CHINA_EV_BATTERY, 'China EV & Battery', f'dendrogram_china_ev{suffix}.png')
-    generate_sector_dendrogram(CHINA_HEALTHCARE, 'China Healthcare', f'dendrogram_china_healthcare{suffix}.png')
-    generate_sector_dendrogram(CHINA_ENERGY, 'China Energy', f'dendrogram_china_energy{suffix}.png')
-    generate_sector_dendrogram(CHINA_INDUSTRIALS, 'China Industrials', f'dendrogram_china_industrials{suffix}.png')
-    generate_sector_dendrogram(CHINA_REAL_ESTATE, 'China Real Estate', f'dendrogram_china_realestate{suffix}.png')
+    generate_sector_dendrogram(CHINA_ALL_TICKERS, 'China A-Shares (All)', f'dendrogram_china{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_FINANCIALS, 'China Financials', f'dendrogram_china_financials{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_CONSUMER, 'China Consumer/Baijiu', f'dendrogram_china_consumer{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_TECH, 'China Technology', f'dendrogram_china_tech{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_EV_BATTERY, 'China EV & Battery', f'dendrogram_china_ev{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_HEALTHCARE, 'China Healthcare', f'dendrogram_china_healthcare{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_ENERGY, 'China Energy', f'dendrogram_china_energy{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_INDUSTRIALS, 'China Industrials', f'dendrogram_china_industrials{suffix}.png', name_map=CHINA_NAMES)
+    generate_sector_dendrogram(CHINA_REAL_ESTATE, 'China Real Estate', f'dendrogram_china_realestate{suffix}.png', name_map=CHINA_NAMES)
 
     print(f"  Completed {period_name} analysis")
     return corr_matrix

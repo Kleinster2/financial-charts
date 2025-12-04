@@ -1921,5 +1921,13 @@ try:
 except ImportError as e:
     app.logger.warning(f"Portfolio routes not available: {e}")
 
+# Register thesis routes
+try:
+    from thesis_routes import thesis_bp
+    app.register_blueprint(thesis_bp)
+    app.logger.info("Thesis routes registered successfully")
+except ImportError as e:
+    app.logger.warning(f"Thesis routes not available: {e}")
+
 if __name__ == '__main__':
     app.run(debug=True, port=DEFAULT_PORT)
