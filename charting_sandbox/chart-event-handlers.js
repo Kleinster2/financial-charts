@@ -5,58 +5,60 @@
 
 window.ChartEventHandlers = {
     /**
-     * Bind all toggle button events
+     * Bind toggle button events using a handlers dictionary.
+     * @param {Object} elements - DOM elements containing toggle buttons
+     * @param {Object} handlers - Dictionary mapping handler names to callbacks:
+     *   { diff, vol, volume, revenue, fundamentalsPane, raw, avg,
+     *     lastLabel, lastTicker, zeroLine, fixedLegend, legendTickers, notes, reshuffleColors }
      */
-    bindToggleButtons(card, elements, state, callbacks) {
-        const {
-            toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRawBtn,
-            toggleAvgBtn, toggleLastLabelBtn, toggleZeroLineBtn, toggleFixedLegendBtn
-        } = elements;
+    bindToggleButtons(elements, handlers) {
+        // Map of button element keys to handler keys
+        const buttonMap = {
+            toggleDiffBtn: 'diff',
+            toggleVolBtn: 'vol',
+            toggleVolumeBtn: 'volume',
+            toggleRevenueBtn: 'revenue',
+            toggleFundamentalsPaneBtn: 'fundamentalsPane',
+            toggleRawBtn: 'raw',
+            toggleAvgBtn: 'avg',
+            toggleLastLabelBtn: 'lastLabel',
+            toggleLastTickerBtn: 'lastTicker',
+            toggleZeroLineBtn: 'zeroLine',
+            toggleFixedLegendBtn: 'fixedLegend',
+            toggleLegendTickersBtn: 'legendTickers',
+            toggleNotesBtn: 'notes',
+            reshuffleColorsBtn: 'reshuffleColors'
+        };
 
-        const {
-            onToggleDiff, onToggleVol, onToggleVolume, onToggleRaw,
-            onToggleAvg, onToggleLastLabel, onToggleZeroLine, onToggleFixedLegend
-        } = callbacks;
+        // Bind each button to its handler
+        Object.entries(buttonMap).forEach(([btnKey, handlerKey]) => {
+            const btn = elements[btnKey];
+            const handler = handlers[handlerKey];
+            if (btn && handler) {
+                btn.addEventListener('click', handler);
+            }
+        });
+    },
 
-        // Toggle Diff Pane
-        if (toggleDiffBtn && onToggleDiff) {
-            toggleDiffBtn.addEventListener('click', onToggleDiff);
-        }
+    /**
+     * Bind metric toggle buttons (revenue, netincome, eps, fcf)
+     * @param {Object} elements - DOM elements containing metric buttons
+     * @param {Function} toggleMetric - Function that takes metric name and toggles it
+     */
+    bindMetricToggles(elements, toggleMetric) {
+        const metricMap = {
+            toggleRevenueMetricBtn: 'revenue',
+            toggleNetIncomeMetricBtn: 'netincome',
+            toggleEpsMetricBtn: 'eps',
+            toggleFcfMetricBtn: 'fcf'
+        };
 
-        // Toggle Volatility Pane
-        if (toggleVolBtn && onToggleVol) {
-            toggleVolBtn.addEventListener('click', onToggleVol);
-        }
-
-        // Toggle Volume Pane
-        if (toggleVolumeBtn && onToggleVolume) {
-            toggleVolumeBtn.addEventListener('click', onToggleVolume);
-        }
-
-        // Toggle Raw/Percentage Mode
-        if (toggleRawBtn && onToggleRaw) {
-            toggleRawBtn.addEventListener('click', onToggleRaw);
-        }
-
-        // Toggle Average Series
-        if (toggleAvgBtn && onToggleAvg) {
-            toggleAvgBtn.addEventListener('click', onToggleAvg);
-        }
-
-        // Toggle Last Label Visibility
-        if (toggleLastLabelBtn && onToggleLastLabel) {
-            toggleLastLabelBtn.addEventListener('click', onToggleLastLabel);
-        }
-
-        // Toggle Zero Line
-        if (toggleZeroLineBtn && onToggleZeroLine) {
-            toggleZeroLineBtn.addEventListener('click', onToggleZeroLine);
-        }
-
-        // Toggle Fixed Legend
-        if (toggleFixedLegendBtn && onToggleFixedLegend) {
-            toggleFixedLegendBtn.addEventListener('click', onToggleFixedLegend);
-        }
+        Object.entries(metricMap).forEach(([btnKey, metricName]) => {
+            const btn = elements[btnKey];
+            if (btn) {
+                btn.addEventListener('click', () => toggleMetric(metricName));
+            }
+        });
     },
 
     /**
@@ -157,10 +159,21 @@ window.ChartEventHandlers = {
     },
 
     /**
-     * Bind all events at once
+     * Bind all events at once (legacy signature for backward compatibility)
      */
     bindAll(card, elements, callbacks) {
-        this.bindToggleButtons(card, elements, null, callbacks);
+        // Convert old callback format to new handlers format if needed
+        const handlers = callbacks.toggleHandlers || {
+            diff: callbacks.onToggleDiff,
+            vol: callbacks.onToggleVol,
+            volume: callbacks.onToggleVolume,
+            raw: callbacks.onToggleRaw,
+            avg: callbacks.onToggleAvg,
+            lastLabel: callbacks.onToggleLastLabel,
+            zeroLine: callbacks.onToggleZeroLine,
+            fixedLegend: callbacks.onToggleFixedLegend
+        };
+        this.bindToggleButtons(elements, handlers);
         this.bindSizeControls(card, elements, callbacks);
         this.bindTickerControls(card, elements, callbacks);
         this.bindCardControls(card, elements, callbacks);

@@ -63,6 +63,7 @@
             showVolume: !!cardData.showVolume,
             showRevenue: !!cardData.showRevenue,
             useRaw: cardData.useRaw || false,
+            useLogScale: cardData.useLogScale || false,
             multipliers: cardData.multipliers || {},
             tickerColors: cardData.tickerColors || {},
             priceScaleAssignments: cardData.priceScaleAssignments || {},
@@ -124,6 +125,7 @@
             hidden: Array.from(card._hiddenTickers || []),
             range: card._visibleRange || null,
             useRaw: card._useRaw || false,
+            useLogScale: card._useLogScale || false,
             title: card._title || '',
             lastLabelVisible: card._lastLabelVisible !== false,
             lastTickerVisible: !!card._lastTickerVisible,
@@ -242,6 +244,7 @@
             showFundamentalsPane: initialShowFundamentalsPane = false,
             fundamentalsMetrics: initialFundamentalsMetrics = ['revenue', 'netincome'],
             useRaw: initialUseRaw = false,
+            useLogScale: initialUseLogScale = false,
             multipliers: initialMultipliers = {},
             tickerColors: initialTickerColors = {},
             priceScaleAssignments: initialPriceScaleAssignments = {},
@@ -335,81 +338,105 @@
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
             toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
-        // Initialize state
-        let showDiff = initialShowDiff;
-        let showAvg = initialShowAvg;
-        let showVolPane = initialShowVol;  // Volatility pane
-        let showVolumePane = initialShowVolume;  // Trading volume pane
-        let showRevenuePane = initialShowRevenue;  // Revenue pane
-        let showFundamentalsPane = initialShowFundamentalsPane;  // Fundamentals pane
-        let fundamentalsMetrics = initialFundamentalsMetrics;  // Active metrics
-        let useRaw = initialUseRaw;
-        let lastLabelVisible = initialLastLabelVisible;
-        let lastTickerVisible = initialLastTickerVisible;
-        let showZeroLine = initialShowZeroLine;
-        let showFixedLegend = initialShowFixedLegend;
-        let showLegendTickers = initialShowLegendTickers;
+        // ═══════════════════════════════════════════════════════════════
+        // CONTEXT INITIALIZATION (State Object Pattern)
+        // ═══════════════════════════════════════════════════════════════
+        const ctx = window.ChartCardContext.create(card, elements, {
+            initialTickers,
+            initialShowDiff,
+            initialShowAvg,
+            initialShowVol,
+            initialShowVolume,
+            initialShowRevenue,
+            initialShowFundamentalsPane,
+            initialFundamentalsMetrics,
+            initialUseRaw,
+            initialMultipliers,
+            initialTickerColors,
+            initialPriceScaleAssignments,
+            initialHidden,
+            initialRange,
+            initialTitle,
+            initialLastLabelVisible,
+            initialLastTickerVisible,
+            initialShowZeroLine,
+            initialShowFixedLegend,
+            initialShowLegendTickers,
+            initialFixedLegendPos,
+            initialFixedLegendSize,
+            initialHeight,
+            initialFontSize,
+            initialShowNotes,
+            initialNotes,
+            initialManualInterval,
+            initialDecimalPrecision,
+            cardId,
+            targetPage,
+            saveCards
+        });
+        card._ctx = ctx;
+
+        // ═══════════════════════════════════════════════════════════════
+        // STATE VARIABLES (aliased from context for backward compatibility)
+        // These will be removed once all code migrates to ctx.xxx
+        // ═══════════════════════════════════════════════════════════════
+        let showDiff = ctx.showDiff;
+        let showAvg = ctx.showAvg;
+        let showVolPane = ctx.showVolPane;
+        let showVolumePane = ctx.showVolumePane;
+        let showRevenuePane = ctx.showRevenuePane;
+        let showFundamentalsPane = ctx.showFundamentalsPane;
+        let fundamentalsMetrics = ctx.fundamentalsMetrics;
+        let useRaw = ctx.useRaw;
+        let useLogScale = ctx.useLogScale || false;
+        let lastLabelVisible = ctx.lastLabelVisible;
+        let lastTickerVisible = ctx.lastTickerVisible;
+        let showZeroLine = ctx.showZeroLine;
+        let showFixedLegend = ctx.showFixedLegend;
+        let showLegendTickers = ctx.showLegendTickers;
+
+        // Chart instances (will be set on ctx after creation)
         let chart = null;
-        let volPane = null;  // Volatility pane
-        let volumePane = null;  // Trading volume pane
-        let revenuePane = null;  // Revenue pane
-        let fundamentalsPane = null;  // Fundamentals pane
+        let volPane = null;
+        let volumePane = null;
+        let revenuePane = null;
+        let fundamentalsPane = null;
         let avgSeries = null;
-        let tickerLabelsContainer = null;  // Container for ticker labels on right side
+        let tickerLabelsContainer = null;
         let zeroLineSeries = null;
         let fixedLegendEl = null;
+        let diffChart = null;
 
+        // Event handlers
         let crosshairHandler = null;
         let debouncedRebase = null;
-        let diffChart = null;
         let rangeSaveHandler = null;
         let tickerLabelHandler = null;
-        let skipRangeApplication = false;  // Flag to skip automatic range application
-        const debouncedSaveCards = (window.ChartUtils && window.ChartUtils.debounce) ? window.ChartUtils.debounce(saveCards, 300) : saveCards;
+        let skipRangeApplication = false;
 
-        const selectedTickers = new Set();
-        const hiddenTickers = new Set(initialHidden);
-        const multiplierMap = new Map(Object.entries(initialMultipliers));
-        const tickerColorMap = new Map(Object.entries(initialTickerColors));
-        const priceScaleAssignmentMap = new Map(Object.entries(initialPriceScaleAssignments));
-        const priceSeriesMap = new Map();
-        const volSeriesMap = new Map();
-        const volumeSeriesMap = new Map();
-        const revenueSeriesMap = new Map();
-        const fundamentalSeriesMap = new Map();
-        const rawPriceMap = new Map();
-        const latestRebasedData = {};
+        // Debounced save (reference ctx version)
+        const debouncedSaveCards = ctx.debouncedSaveCards;
 
-        // Store state on card element
-        card._selectedTickers = selectedTickers;
-        card._showDiff = showDiff;
-        card._showAvg = showAvg;
-        card._showVol = showVolPane;
-        card._showVolume = showVolumePane;
-        card._showRevenue = showRevenuePane;
-        card._showFundamentalsPane = showFundamentalsPane;
-        card._fundamentalsMetrics = fundamentalsMetrics;
-        card._useRaw = useRaw;
-        card._multiplierMap = multiplierMap;
-        card._tickerColorMap = tickerColorMap;
-        card._priceScaleAssignmentMap = priceScaleAssignmentMap;
-        card._hiddenTickers = hiddenTickers;
-        card._visibleRange = initialRange;
-        card._title = initialTitle;
-        card._lastLabelVisible = lastLabelVisible;
-        card._lastTickerVisible = lastTickerVisible;
-        card._showZeroLine = showZeroLine;
-        card._showFixedLegend = showFixedLegend;
-        card._showLegendTickers = showLegendTickers;
-        card._fixedLegendPos = initialFixedLegendPos;
-        card._fixedLegendSize = initialFixedLegendSize;
-        card._height = initialHeight;
-        card._fontSize = initialFontSize;
-        card._volumePaneStretchFactor = 1.0;  // Default stretch factor for volume pane
-        card._showNotes = initialShowNotes;
-        card._notes = initialNotes;
-        card._manualInterval = initialManualInterval;  // Manual interval override (null = auto)
-        card._decimalPrecision = initialDecimalPrecision;  // Decimal precision for price display
+        // ═══════════════════════════════════════════════════════════════
+        // COLLECTION REFERENCES (shared with context - auto-sync!)
+        // ═══════════════════════════════════════════════════════════════
+        const selectedTickers = ctx.selectedTickers;
+        const hiddenTickers = ctx.hiddenTickers;
+        const multiplierMap = ctx.multiplierMap;
+        const tickerColorMap = ctx.tickerColorMap;
+        const priceScaleAssignmentMap = ctx.priceScaleAssignmentMap;
+        const priceSeriesMap = ctx.priceSeriesMap;
+        const volSeriesMap = ctx.volSeriesMap;
+        const volumeSeriesMap = ctx.volumeSeriesMap;
+        const revenueSeriesMap = ctx.revenueSeriesMap;
+        const fundamentalSeriesMap = ctx.fundamentalSeriesMap;
+        const rawPriceMap = ctx.rawPriceMap;
+        const latestRebasedData = ctx.latestRebasedData;
+
+        // ═══════════════════════════════════════════════════════════════
+        // SYNC STATE TO CARD ELEMENT (for persistence via saveCards)
+        // ═══════════════════════════════════════════════════════════════
+        window.ChartCardContext.syncToCard(ctx)
         // Initialize notes UI
         if (notesSection && notesTextarea) {
             notesSection.style.display = initialShowNotes ? 'block' : 'none';
@@ -1531,34 +1558,35 @@
             });
         }
 
-        toggleDiffBtn.addEventListener('click', () => {
-            showDiff = !showDiff;
-            card._showDiff = showDiff;
-            toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
-            saveCards();
-            // Diff pane implementation would go here
-        });
-
-        toggleVolBtn.addEventListener('click', () => {
-            showVolPane = !showVolPane;
-            card._showVol = showVolPane;
-            toggleVolBtn.textContent = showVolPane ? 'Hide Vol (σ) Pane' : 'Show Vol (σ) Pane';
-            destroyChartAndReplot();
-        });
-
-        toggleVolumeBtn.addEventListener('click', () => {
-            showVolumePane = !showVolumePane;
-            card._showVolume = showVolumePane;
-            toggleVolumeBtn.textContent = showVolumePane ? 'Hide Volume Pane' : 'Show Volume Pane';
-            destroyChartAndReplot();
-        });
-
-        toggleRevenueBtn.addEventListener('click', () => {
-            showRevenuePane = !showRevenuePane;
-            card._showRevenue = showRevenuePane;
-            toggleRevenueBtn.textContent = showRevenuePane ? 'Hide Revenue Pane' : 'Show Revenue Pane';
-            destroyChartAndReplot();
-        });
+        // Phase 1: Simple toggle handlers using dictionary pattern
+        const toggleHandlers = {
+            diff: () => {
+                showDiff = !showDiff;
+                card._showDiff = showDiff;
+                toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
+                saveCards();
+            },
+            vol: () => {
+                showVolPane = !showVolPane;
+                card._showVol = showVolPane;
+                toggleVolBtn.textContent = showVolPane ? 'Hide Vol (σ) Pane' : 'Show Vol (σ) Pane';
+                destroyChartAndReplot();
+            },
+            volume: () => {
+                showVolumePane = !showVolumePane;
+                card._showVolume = showVolumePane;
+                toggleVolumeBtn.textContent = showVolumePane ? 'Hide Volume Pane' : 'Show Volume Pane';
+                destroyChartAndReplot();
+            },
+            revenue: () => {
+                showRevenuePane = !showRevenuePane;
+                card._showRevenue = showRevenuePane;
+                toggleRevenueBtn.textContent = showRevenuePane ? 'Hide Revenue Pane' : 'Show Revenue Pane';
+                destroyChartAndReplot();
+            }
+        };
+        // Bind Phase 1 toggle buttons
+        window.ChartEventHandlers.bindToggleButtons(elements, toggleHandlers);
 
         // Toggle Fundamentals Pane button
         toggleFundamentalsPaneBtn.addEventListener('click', () => {
@@ -1678,6 +1706,24 @@
             // Update zero line after mode change
             setTimeout(() => updateZeroLine(), 100);
         });
+        // Log Scale toggle
+        const toggleLogScaleBtn = elements.toggleLogScaleBtn;
+        if (toggleLogScaleBtn) {
+            toggleLogScaleBtn.addEventListener('click', () => {
+                useLogScale = !useLogScale;
+                card._useLogScale = useLogScale;
+                toggleLogScaleBtn.textContent = useLogScale ? 'Linear Scale' : 'Log Scale';
+
+                // Apply log scale to chart
+                if (chart && chart.priceScale) {
+                    chart.priceScale('right').applyOptions({
+                        mode: useLogScale ? 1 : 0  // 0=Normal, 1=Logarithmic
+                    });
+                }
+
+                saveCards();
+            });
+        }
 
         // Toggle last value label visibility
         if (toggleLastLabelBtn) {

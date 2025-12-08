@@ -1,13 +1,25 @@
 import yfinance as yf
 import pandas as pd
 import sqlite3
+import os
 from datetime import datetime, timedelta
 import time
 
 # Import constants
-from constants import (DB_PATH, get_db_connection, DEFAULT_START_DATE, BATCH_SIZE, 
+from constants import (DB_PATH, get_db_connection, DEFAULT_START_DATE, BATCH_SIZE,
                       RETRY_LIMIT, RETRY_DELAY, TICKER_CATEGORIES,
                       FUTURES_SYMBOLS)
+
+# DuckDB support - imports USE_DUCKDB from constants (set via USE_DUCKDB=1 env var)
+from constants import USE_DUCKDB, duckdb_available
+if USE_DUCKDB:
+    try:
+        from duckdb_writer import write_stock_prices
+        DUCKDB_AVAILABLE = duckdb_available()
+    except ImportError:
+        DUCKDB_AVAILABLE = False
+else:
+    DUCKDB_AVAILABLE = False
 
 # --- CONFIG ---
 # Include data starting from December 30th, 2022
@@ -184,6 +196,7 @@ MINING_RARE_EARTH_STOCKS = [
     "LYC.AX", # Lynas Rare Earths (Australia)
     "ILU.AX", # Iluka Resources (Australia - rare earths & mineral sands)
     "ARU.AX", # Arafura Resources (Australia - rare earths)
+    "ARA.TO", # Aclara Resources (Canada - rare earths, Brazil project, Hochschild spin-off)
 ]
 
 # Battery and energy storage equities
@@ -351,6 +364,7 @@ CHINA_A_SHARES = [
     "688256.SS",  # Cambricon Technologies (AI chips)
     "688041.SS",  # Hygon Information Technology (x86 CPUs)
     "300474.SZ",  # Jingjia Micro (GPU)
+    "688439.SS",  # Moore Threads (GPU/AI chips - "China's Nvidia")
     "688368.SS",  # Shanghai Fullhan Microelectronics
     "603986.SS",  # GigaDevice Semiconductor (flash memory)
     "688521.SS",  # VeriSilicon (IP/design services)
@@ -443,6 +457,137 @@ KOREA_STOCKS = [
     "018260.KS",  # Samsung SDS
     # Index ETF
     "069500.KS",  # KODEX 200 (KOSPI 200 ETF)
+]
+
+
+# Canada (TSX - Toronto Stock Exchange, .TO suffix)
+# Major constituents of S&P/TSX Composite and key Canadian companies
+CANADA_STOCKS = [
+    # Banks (Big Five + National Bank)
+    "RY.TO",     # Royal Bank of Canada
+    "TD.TO",     # Toronto-Dominion Bank
+    "BNS.TO",    # Bank of Nova Scotia (Scotiabank)
+    "BMO.TO",    # Bank of Montreal
+    "CM.TO",     # Canadian Imperial Bank of Commerce (CIBC)
+    "NA.TO",     # National Bank of Canada
+    # Insurance & Diversified Financials
+    "MFC.TO",    # Manulife Financial
+    "SLF.TO",    # Sun Life Financial
+    "IFC.TO",    # Intact Financial
+    "GWO.TO",    # Great-West Lifeco
+    "POW.TO",    # Power Corporation
+    "FFH.TO",    # Fairfax Financial Holdings
+    "BN.TO",     # Brookfield Corporation
+    "BAM.TO",    # Brookfield Asset Management
+    "BIP-UN.TO", # Brookfield Infrastructure Partners
+    "BEP-UN.TO", # Brookfield Renewable Partners
+    # Energy - Oil & Gas
+    "CNQ.TO",    # Canadian Natural Resources
+    "SU.TO",     # Suncor Energy
+    "IMO.TO",    # Imperial Oil
+    "CVE.TO",    # Cenovus Energy
+    "TOU.TO",    # Tourmaline Oil
+    "ARX.TO",    # ARC Resources
+    "OVV.TO",    # Ovintiv
+    "MEG.TO",    # MEG Energy
+    "WCP.TO",    # Whitecap Resources
+    "TVE.TO",    # Tamarack Valley Energy
+    # Energy - Pipelines & Midstream
+    "ENB.TO",    # Enbridge
+    "TRP.TO",    # TC Energy
+    "PPL.TO",    # Pembina Pipeline
+    "KEY.TO",    # Keyera Corp
+    "IPL.TO",    # Inter Pipeline (now Pembina)
+    # Mining - Gold
+    "ABX.TO",    # Barrick Gold
+    "NEM.TO",    # Newmont (dual-listed)
+    "AEM.TO",    # Agnico Eagle Mines
+    "K.TO",      # Kinross Gold
+    "ELD.TO",    # Eldorado Gold
+    "YRI.TO",    # Yamana Gold (now Agnico)
+    "WPM.TO",    # Wheaton Precious Metals
+    "FNV.TO",    # Franco-Nevada
+    # Mining - Base Metals & Diversified
+    "FM.TO",     # First Quantum Minerals
+    "TECK-B.TO", # Teck Resources
+    "LUN.TO",    # Lundin Mining
+    "HBM.TO",    # Hudbay Minerals
+    "IVN.TO",    # Ivanhoe Mines
+    "CS.TO",     # Capstone Copper
+    # Mining - Uranium & Rare Earths
+    "CCO.TO",    # Cameco (uranium)
+    "NXE.TO",    # NexGen Energy (uranium)
+    "DML.TO",    # Denison Mines (uranium)
+    "U.TO",      # Sprott Physical Uranium Trust
+    "ARA.TO",    # Aclara Resources (rare earths, Brazil)
+    # Materials - Fertilizers & Chemicals
+    "NTR.TO",    # Nutrien (potash/fertilizers)
+    "MOS.TO",    # Mosaic (dual-listed)
+    # Telecom
+    "BCE.TO",    # BCE Inc (Bell Canada)
+    "T.TO",      # TELUS
+    "RCI-B.TO",  # Rogers Communications
+    "QBR-B.TO",  # Quebecor
+    # Technology
+    "SHOP.TO",   # Shopify
+    "CSU.TO",    # Constellation Software
+    "OTEX.TO",   # Open Text
+    "DCBO.TO",   # Docebo
+    "LSPD.TO",   # Lightspeed Commerce
+    "NVEI.TO",   # Nuvei Corporation
+    "KXS.TO",    # Kinaxis
+    "DSG.TO",    # Descartes Systems
+    "TOI.TO",    # Topicus.com (Constellation spin-off)
+    # Industrials - Rail & Transportation
+    "CNR.TO",    # Canadian National Railway
+    "CP.TO",     # Canadian Pacific Kansas City
+    "WJA.TO",    # WestJet (if public)
+    "AC.TO",     # Air Canada
+    "TFI.TO",    # TFI International
+    # Industrials - Diversified
+    "CAE.TO",    # CAE Inc (flight simulators)
+    "WSP.TO",    # WSP Global (engineering)
+    "STN.TO",    # Stantec
+    "NFI.TO",    # NFI Group (buses)
+    "TFII.TO",   # TFI International (trucking)
+    # Consumer & Retail
+    "ATD.TO",    # Alimentation Couche-Tard
+    "L.TO",      # Loblaw Companies
+    "MRU.TO",    # Metro Inc
+    "DOL.TO",    # Dollarama
+    "EMP-A.TO",  # Empire Company (Sobeys)
+    "CTC-A.TO",  # Canadian Tire
+    "GIL.TO",    # Gildan Activewear
+    "GOOS.TO",   # Canada Goose
+    "QSR.TO",    # Restaurant Brands International
+    # Cannabis (major players)
+    "WEED.TO",   # Canopy Growth
+    "ACB.TO",    # Aurora Cannabis
+    "TLRY.TO",   # Tilray
+    "CRON.TO",   # Cronos Group
+    # Real Estate (REITs)
+    "REI-UN.TO", # RioCan REIT
+    "HR-UN.TO",  # H&R REIT
+    "CAR-UN.TO", # Canadian Apartment Properties REIT
+    "AP-UN.TO",  # Allied Properties REIT
+    "GRT-UN.TO", # Granite REIT
+    "DIR-UN.TO", # Dream Industrial REIT
+    # Healthcare & Life Sciences
+    "BHC.TO",    # Bausch Health
+    "WELL.TO",   # WELL Health Technologies
+    "DOC.TO",    # CloudMD Software
+    # Utilities
+    "FTS.TO",    # Fortis Inc
+    "EMA.TO",    # Emera
+    "H.TO",      # Hydro One
+    "AQN.TO",    # Algonquin Power & Utilities
+    "CPX.TO",    # Capital Power
+    "TA.TO",     # TransAlta
+    "NPI.TO",    # Northland Power
+    # Index ETFs
+    "XIU.TO",    # iShares S&P/TSX 60 ETF
+    "XIC.TO",    # iShares Core S&P/TSX Capped Composite ETF
+    "ZCN.TO",    # BMO S&P/TSX Capped Composite ETF
 ]
 
 # Adtech / app monetization / measurement and programmatic advertising equities
@@ -582,9 +727,11 @@ def get_ibovespa_tickers():
     ]
 
 # --- Main function to orchestrate the download ---
-def update_sp500_data(verbose: bool = True, assets=None):
+def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = None):
     """Update daily market data for selected asset groups.
     assets: list like ['stocks','etfs','adrs','fx','crypto'] or None for all.
+    lookback_days: If set, only download data from (today - lookback_days) instead of full history.
+                   Use None or 0 for full history download. Default is full history for backward compat.
     """
     # 1. Get S&P 500 list and combine with ETFs
     def vprint(*args, **kwargs):
@@ -618,6 +765,7 @@ def update_sp500_data(verbose: bool = True, assets=None):
             'crypto': CRYPTO_TICKERS,
             'china': CHINA_A_SHARES,  # Shanghai (.SS) and Shenzhen (.SZ) A-shares
             'korea': KOREA_STOCKS,  # Korea Exchange (.KS) stocks
+            'canada': CANADA_STOCKS,  # Toronto Stock Exchange (.TO) stocks
             'brazil': get_ibovespa_tickers(),  # B3 exchange (.SA) stocks
         }
         selected = list(groups.keys()) if not assets else [a.lower() for a in assets]
@@ -668,9 +816,17 @@ def update_sp500_data(verbose: bool = True, assets=None):
                 existing_vol_df.set_index('Date', inplace=True)
 
         # 3. Download data in a fault-tolerant way
+        # Use lookback_days for incremental updates (e.g., --lookback 10 for daily updates)
+        if lookback_days and lookback_days > 0:
+            download_start = (datetime.today() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
+            vprint(f"Incremental update: downloading last {lookback_days} days (from {download_start})")
+        else:
+            download_start = START_DATE
+            vprint(f"Full history download from {START_DATE}")
+        
         vprint(f"Downloading/updating data for {len(all_tickers)} securities...")
         # Use yfinance's grouping to handle failed downloads gracefully
-        data = yf.download(all_tickers, start=START_DATE, end=END_DATE, auto_adjust=True, group_by='ticker')
+        data = yf.download(all_tickers, start=download_start, end=END_DATE, auto_adjust=True, group_by='ticker')
 
         if data.empty:
             print("No data returned from Yahoo Finance.")
@@ -798,6 +954,10 @@ def update_sp500_data(verbose: bool = True, assets=None):
         # Write to staging table first
         staging_table = "stock_prices_daily_staging"
         vprint(f"  Writing to staging table: {staging_table}")
+        # Clean up any leftover staging artifacts (indexes from previous failed runs)
+        cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
+        cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_table}_Date")
+        conn.commit()
         combined_df.astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
 
         # Validate staging table
@@ -831,7 +991,14 @@ def update_sp500_data(verbose: bool = True, assets=None):
         if not combined_vol_df.empty:
             staging_vol_table = "stock_volumes_daily_staging"
             vprint(f"  Writing volumes to staging table: {staging_vol_table}")
-            combined_vol_df.astype(float).to_sql(staging_vol_table, conn, if_exists="replace", index=True, index_label=index_label)
+            # Clean up any leftover staging artifacts
+            cursor.execute(f"DROP TABLE IF EXISTS {staging_vol_table}")
+            cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_vol_table}_Date")
+            conn.commit()
+            # Convert NA to NaN before astype to avoid TypeError
+            vol_df_clean = combined_vol_df.fillna(pd.NA).infer_objects(copy=False)
+            vol_df_clean = vol_df_clean.apply(pd.to_numeric, errors='coerce')
+            vol_df_clean.to_sql(staging_vol_table, conn, if_exists="replace", index=True, index_label=index_label)
 
             cursor.execute(f"SELECT COUNT(*) FROM {staging_vol_table}")
             staging_vol_row_count = cursor.fetchone()[0]
@@ -848,6 +1015,17 @@ def update_sp500_data(verbose: bool = True, assets=None):
         else:
             vprint("Skipping stock_metadata update (stocks not selected).")
         vprint(f"Database updated. Now contains {combined_df.shape[1]} securities with {combined_df.shape[0]} daily prices.")
+
+        # Write to DuckDB if enabled (Phase 1: shadow database)
+        if USE_DUCKDB and DUCKDB_AVAILABLE:
+            vprint("\n" + "="*60)
+            vprint("[DuckDB] Writing to shadow database...")
+            vprint("="*60)
+            try:
+                write_stock_prices(combined_df, combined_vol_df, verbose=verbose)
+                vprint("[DuckDB] Shadow database updated successfully")
+            except Exception as e:
+                vprint(f"[DuckDB] Warning: Failed to write to DuckDB: {e}")
 
         # Auto-update ticker metadata for new tickers
         try:
@@ -866,16 +1044,27 @@ def update_sp500_data(verbose: bool = True, assets=None):
     finally:
         conn.close()
 
-def update_market_data(verbose: bool = True, assets=None):
+def update_market_data(verbose: bool = True, assets=None, lookback_days: int = None):
     """Compatibility alias for broader project scope."""
-    return update_sp500_data(verbose=verbose, assets=assets)
+    return update_sp500_data(verbose=verbose, assets=assets, lookback_days=lookback_days)
 
 if __name__ == "__main__":
     import sys
-    argv = sys.argv[1:]
-    verbose = True
-    if any(a in ("--quiet", "-q") for a in argv):
-        verbose = False
-    if any(a in ("--verbose", "-v") for a in argv):
-        verbose = True
-    update_market_data(verbose=verbose)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Download/update market data from Yahoo Finance')
+    parser.add_argument('-v', '--verbose', action='store_true', default=True, help='Verbose output')
+    parser.add_argument('-q', '--quiet', action='store_true', help='Suppress output')
+    parser.add_argument('--lookback', type=int, default=None,
+                        help='Days to look back for incremental updates (default: full history). Use 10 for daily updates.')
+    parser.add_argument('--full', action='store_true', help='Force full history download (ignore --lookback)')
+    parser.add_argument('--assets', nargs='+', 
+                        choices=['stocks', 'etfs', 'adrs', 'fx', 'crypto', 'china', 'korea', 'canada', 'brazil'],
+                        help='Asset groups to update (default: all)')
+    
+    args = parser.parse_args()
+    
+    verbose = not args.quiet
+    lookback = None if args.full else args.lookback
+    
+    update_market_data(verbose=verbose, assets=args.assets, lookback_days=lookback)

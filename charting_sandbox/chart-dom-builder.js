@@ -74,6 +74,7 @@ window.ChartDomBuilder = {
                         <strong style="font-size: 0.8rem; color: #666; text-transform: uppercase;">Data & Display</strong>
                         <div style="display: flex; flex-wrap: wrap; gap: 4px;">
                             <button class="toggle-raw-btn">Show Raw</button>
+                            <button class="toggle-logscale-btn">Log Scale</button>
                             <button class="toggle-avg-btn">Show Avg</button>
                             <button class="toggle-zeroline-btn">Show 0% Line</button>
                         </div>
@@ -252,6 +253,7 @@ window.ChartDomBuilder = {
             toggleEpsMetricBtn: card.querySelector('.toggle-eps-metric-btn'),
             toggleFcfMetricBtn: card.querySelector('.toggle-fcf-metric-btn'),
             toggleRawBtn: card.querySelector('.toggle-raw-btn'),
+            toggleLogScaleBtn: card.querySelector('.toggle-logscale-btn'),
             toggleAvgBtn: card.querySelector('.toggle-avg-btn'),
             toggleLastLabelBtn: card.querySelector('.toggle-lastlabel-btn'),
             toggleLastTickerBtn: card.querySelector('.toggle-lastticker-btn'),
@@ -285,8 +287,8 @@ window.ChartDomBuilder = {
      * Update button text based on state
      */
     updateButtonStates(elements, states) {
-        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn } = elements;
-        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers, showNotes } = states;
+        const { toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRawBtn, toggleLogScaleBtn, toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn } = elements;
+        const { showDiff, showVol, showVolume, showRevenue, showFundamentalsPane, useRaw, useLogScale, showAvg, lastLabelVisible, lastTickerVisible, showZeroLine, showFixedLegend, showLegendTickers, showNotes } = states;
 
         if (toggleDiffBtn) {
             toggleDiffBtn.textContent = showDiff ? 'Hide Diff Pane' : 'Show Diff Pane';
@@ -305,6 +307,9 @@ window.ChartDomBuilder = {
         }
         if (toggleRawBtn) {
             toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
+        }
+        if (toggleLogScaleBtn) {
+            toggleLogScaleBtn.textContent = useLogScale ? 'Linear Scale' : 'Log Scale';
         }
         if (toggleAvgBtn) {
             toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';

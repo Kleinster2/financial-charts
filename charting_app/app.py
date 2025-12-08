@@ -19,6 +19,21 @@ from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_POR
                       WORKSPACE_TEMP_SUFFIX, HTTP_OK, HTTP_BAD_REQUEST,
                       HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR)
 
+# DuckDB support - imports USE_DUCKDB from constants (set via USE_DUCKDB=1 env var)
+from constants import USE_DUCKDB
+if USE_DUCKDB:
+    try:
+        from duckdb_queries import (
+            check_duckdb_available, get_price_data, get_volume_data,
+            get_all_tickers_list, get_available_tickers, get_futures_tickers,
+            get_bond_tickers, get_metadata, get_dashboard_prices
+        )
+        DUCKDB_AVAILABLE = check_duckdb_available()
+    except ImportError:
+        DUCKDB_AVAILABLE = False
+else:
+    DUCKDB_AVAILABLE = False
+
 # Import backup functionality
 import subprocess
 from pathlib import Path
@@ -57,6 +72,7 @@ _schema_cache_time = 0
 # --- Start of Diagnostic Logging ---
 app.logger.info(f"SCRIPT_DIR: {basedir}")
 app.logger.info(f"DB_PATH: {DB_PATH}")
+app.logger.info(f"USE_DUCKDB: {USE_DUCKDB}, DUCKDB_AVAILABLE: {DUCKDB_AVAILABLE}")
 if not os.path.exists(DB_PATH):
     app.logger.error("FATAL: DATABASE NOT FOUND AT THE CALCULATED PATH!")
 else:
@@ -299,6 +315,23 @@ def get_tickers():
     """Provides a sorted list of all available tickers from the database."""
     app.logger.info("Request received for /api/tickers")
     try:
+        # Use DuckDB if enabled
+        if USE_DUCKDB and DUCKDB_AVAILABLE:
+            tickers = get_all_tickers_list()
+            # Add portfolios from SQLite (portfolio data not migrated yet)
+            conn = get_db_connection()
+            try:
+                cursor = conn.execute("SELECT portfolio_id FROM portfolios ORDER BY portfolio_id")
+                for row in cursor.fetchall():
+                    tickers.append(f"PORTFOLIO_{row[0]}")
+            except sqlite3.OperationalError:
+                pass
+            conn.close()
+            tickers = sorted(set(tickers))
+            app.logger.info(f"[DuckDB] Found {len(tickers)} tickers")
+            return jsonify(tickers)
+
+        # SQLite fallback
         conn = get_db_connection()
         tickers_set = set()
 
@@ -490,7 +523,33 @@ def get_data():
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
     interval = request.args.get('interval', 'daily').lower()
-    
+
+    # Use DuckDB if enabled
+    if USE_DUCKDB and DUCKDB_AVAILABLE:
+        chart_data = get_price_data(tickers)
+
+        # Apply interval resampling if needed
+        if interval in ('weekly', 'monthly'):
+            for ticker in chart_data:
+                if not chart_data[ticker]:
+                    continue
+                # Convert to DataFrame for resampling
+                df = pd.DataFrame(chart_data[ticker])
+                df['Date'] = pd.to_datetime(df['time'], unit='s')
+                df = df.set_index('Date')
+
+                if interval == 'weekly':
+                    df = df.resample('W-FRI')['value'].last().dropna().reset_index()
+                else:  # monthly
+                    df = df.resample('M')['value'].last().dropna().reset_index()
+
+                df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+                chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+
+        app.logger.info(f"[DuckDB] /api/data: returned {len(chart_data)} tickers")
+        return jsonify(chart_data)
+
+    # SQLite fallback
     conn = get_db_connection()
 
         # --- Determine which tickers belong to which table ---
@@ -647,6 +706,13 @@ def get_volume():
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
 
+    # Use DuckDB if enabled
+    if USE_DUCKDB and DUCKDB_AVAILABLE:
+        out = get_volume_data(tickers)
+        app.logger.info(f"[DuckDB] /api/volume: returned {len(out)} tickers")
+        return jsonify(out)
+
+    # SQLite fallback
     conn = get_db_connection()
 
     # Determine which requested tickers are present in the stock and futures volume tables

@@ -88,12 +88,31 @@
             { file: 'dendrogram_brazil_consumer', title: 'Consumer', description: 'Ambev, Renner, Magazine Luiza' },
             { file: 'dendrogram_brazil_industrial', title: 'Industrial', description: 'WEG, Embraer, Rumo, Localiza' },
         ],
+        'Canada': [
+            { file: 'dendrogram_canada', title: 'All', description: 'All Canadian stocks (TSX exchange)' },
+            { file: 'dendrogram_canada_banks', title: 'Banks', description: 'Big Six: RBC, TD, Scotiabank, BMO, CIBC, National' },
+            { file: 'dendrogram_canada_financials', title: 'Financials', description: 'Banks, insurance, Brookfield' },
+            { file: 'dendrogram_canada_energy', title: 'Energy', description: 'Oil, gas, pipelines' },
+            { file: 'dendrogram_canada_oil', title: 'Oil & Gas', description: 'CNQ, Suncor, Cenovus, Tourmaline' },
+            { file: 'dendrogram_canada_pipelines', title: 'Pipelines', description: 'Enbridge, TC Energy, Pembina' },
+            { file: 'dendrogram_canada_mining', title: 'Mining', description: 'Gold, base metals, uranium' },
+            { file: 'dendrogram_canada_gold', title: 'Gold', description: 'Barrick, Agnico, Franco-Nevada' },
+            { file: 'dendrogram_canada_uranium', title: 'Uranium', description: 'Cameco, NexGen, Denison, Aclara' },
+            { file: 'dendrogram_canada_tech', title: 'Tech', description: 'Shopify, Constellation, Open Text' },
+            { file: 'dendrogram_canada_telecom', title: 'Telecom', description: 'BCE, TELUS, Rogers' },
+            { file: 'dendrogram_canada_rail', title: 'Rail', description: 'CN Rail, CP Kansas City' },
+            { file: 'dendrogram_canada_consumer', title: 'Consumer', description: 'Couche-Tard, Loblaw, Dollarama' },
+            { file: 'dendrogram_canada_cannabis', title: 'Cannabis', description: 'Canopy, Aurora, Tilray, Cronos' },
+            { file: 'dendrogram_canada_reits', title: 'REITs', description: 'RioCan, CAPREIT, Granite' },
+            { file: 'dendrogram_canada_utilities', title: 'Utilities', description: 'Fortis, Emera, Hydro One' },
+        ],
         'International': [
             { file: 'dendrogram_countries', title: 'Country ETFs', description: 'iShares country ETFs (EWJ, EWZ, FXI)' },
         ],
         'Overview': [
             { file: 'dendrogram_truncated', title: 'All (Truncated)', description: 'Overview with truncated branches' },
             { file: 'dendrogram_detailed', title: 'All (Detailed)', description: 'Full dendrogram of top 100 stocks' },
+            { file: 'dendrogram_q3_2025_vertical', title: 'All Tickers Vertical (Q3 2025)', description: '1477 tickers with company names, vertical layout' },
         ],
     };
 
@@ -139,6 +158,14 @@
             { file: 'clustermap_brazil_utilities', title: 'Utilities', description: 'Electric utilities correlations' },
             { file: 'clustermap_brazil_consumer', title: 'Consumer', description: 'Consumer stocks correlations' },
             { file: 'clustermap_brazil_industrial', title: 'Industrial', description: 'Industrial stocks correlations' },
+        ],
+        'Canada': [
+            { file: 'clustermap_canada', title: 'All', description: 'All Canadian stocks correlation' },
+            { file: 'clustermap_canada_banks', title: 'Banks', description: 'Big Six banks correlation' },
+            { file: 'clustermap_canada_financials', title: 'Financials', description: 'Banks & insurance correlation' },
+            { file: 'clustermap_canada_energy', title: 'Energy', description: 'Oil, gas, pipelines correlation' },
+            { file: 'clustermap_canada_mining', title: 'Mining', description: 'Gold, uranium, base metals correlation' },
+            { file: 'clustermap_canada_tech', title: 'Tech', description: 'Tech stocks correlation' },
         ],
         'International': [
             { file: 'clustermap_countries', title: 'Country ETFs', description: 'iShares country ETFs' },

@@ -66,6 +66,17 @@ TIER2_INDICATORS = {
     'DEXCHUS': 'CNY/USD',
     'DEXJPUS': 'JPY/USD',
     'DEXUSEU': 'USD/EUR',
+
+    # Brazil interest rates (monthly)
+    'INTDSRBRM193N': 'Brazil SELIC Rate',
+    'IRSTCI01BRM156N': 'Brazil CDI Rate',
+    'INTGSTBRM193N': 'Brazil T-Bill Rate',
+
+    # ECB/Euro rates (daily)
+    'ECBDFR': 'ECB Deposit Rate',
+    'ECBESTRVOLWGTTRMDMNRT': 'Euro STR (overnight)',
+    'ECBMRRFR': 'ECB Main Refi Rate',
+    'ECBMLFR': 'ECB Marginal Lending Rate',
 }
 
 def get_existing_indicators(conn):
@@ -199,14 +210,50 @@ def update_fred_indicators(lookback_days=60):
         conn.close()
         return False
 
+def update_b3_yield_curve(lookback_days=10):
+    """Update B3 DI yield curve data (incremental)."""
+    try:
+        from fetch_b3_yield_curve import fetch_historical_curves, update_database
+        from datetime import datetime, timedelta
+
+        print("\nUpdating B3 DI Yield Curve")
+        print("="*60)
+
+        end_date = datetime.now()
+        start_date = end_date - timedelta(days=lookback_days)
+
+        df = fetch_historical_curves(start_date, end_date, verbose=True)
+
+        if not df.empty:
+            update_database(df, verbose=True)
+            return True
+        else:
+            print("No new B3 data available")
+            return True
+    except ImportError:
+        print("B3 yield curve module not available (fetch_b3_yield_curve.py)")
+        return True
+    except Exception as e:
+        print(f"ERROR updating B3: {e}")
+        return False
+
+
 if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description='Update FRED economic indicators')
     parser.add_argument('--lookback', type=int, default=60,
                        help='Days to look back for updates (default: 60 for monthly data)')
+    parser.add_argument('--skip-b3', action='store_true',
+                       help='Skip B3 yield curve update')
 
     args = parser.parse_args()
 
     success = update_fred_indicators(lookback_days=args.lookback)
+
+    # Also update B3 yield curve (daily data, shorter lookback)
+    if not args.skip_b3:
+        b3_success = update_b3_yield_curve(lookback_days=min(args.lookback, 10))
+        success = success and b3_success
+
     sys.exit(0 if success else 1)

@@ -16,6 +16,12 @@ Interactive financial charting application for visualizing stock prices, fundame
 - **Database**: SQLite with wide-column schema (~311 MB)
 - **Data Sources**: yfinance, FRED, Alpha Vantage (fundamentals)
 
+## Data Notes
+
+- **FX prices** use the 4pm EST close (NY market close) for alignment with US equity prices
+- **Stock prices** are adjusted for splits and dividends (yfinance `auto_adjust=True`)
+- **FRED indicators** update with varying lags (employment: monthly, GDP: quarterly)
+
 ## Project Structure
 
 ```
@@ -546,15 +552,31 @@ Functions accept `name_map` parameter to override default ticker labels.
 
 ---
 
-## Additional Documentation
+## Documentation
 
-- **[ADDING_TICKERS.md](ADDING_TICKERS.md)** - Detailed guide for adding new tickers
-- **[BOND_DATA_GUIDE.md](BOND_DATA_GUIDE.md)** - Bond data sources and integration
-- **[CREATING_PAGES.md](CREATING_PAGES.md)** - How to create new themed pages
-- **[DATA_SOURCES.md](DATA_SOURCES.md)** - Database vs yfinance API
-- **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** - 31 economic indicators explained
-- **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** - IV tracking and CBOE indices
-- **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** - Index data update procedures
-- **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** - Recession indicators and macro analysis
-- **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** - Portfolio management and ALLW replication
-- **[UNIFIED_ARCHITECTURE.md](UNIFIED_ARCHITECTURE.md)** - System architecture overview
+### Core Reference
+| Document | Purpose |
+|----------|---------|
+| **[CODEMAP.md](CODEMAP.md)** | Code architecture, line references, common patterns |
+| **[UNIFIED_ARCHITECTURE.md](UNIFIED_ARCHITECTURE.md)** | Single-table design philosophy |
+
+### How-To Guides
+| Document | Purpose |
+|----------|---------|
+| **[CREATING_PAGES.md](CREATING_PAGES.md)** | Add pages, charts, dropdown categories |
+| **[ADDING_TICKERS.md](ADDING_TICKERS.md)** | Add new tickers to database |
+| **[BACKUP_README.md](BACKUP_README.md)** | Workspace backup system |
+
+### Data Sources
+| Document | Purpose |
+|----------|---------|
+| **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** | 31 economic indicators reference |
+| **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** | Recession signals, macro interpretation |
+| **[BOND_DATA_GUIDE.md](BOND_DATA_GUIDE.md)** | Bond data sources |
+| **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** | CBOE IV indices |
+
+### Design Docs
+| Document | Purpose |
+|----------|---------|
+| **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** | Index update procedures |
+| **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** | Portfolio management, ALLW replication |

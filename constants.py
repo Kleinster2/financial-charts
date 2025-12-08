@@ -13,7 +13,11 @@ TRADING_DAYS_PER_YEAR = 252
 
 # Database Configuration
 DB_FILENAME = "market_data.db"
+DUCKDB_FILENAME = "market_data.duckdb"
 SCHEMA_CACHE_TTL = 3600  # 1 hour in seconds
+
+# DuckDB toggle - set USE_DUCKDB=1 environment variable to enable
+USE_DUCKDB = os.environ.get('USE_DUCKDB', '0') == '1'
 
 # API Configuration
 DEFAULT_PORT = 5000
@@ -167,3 +171,48 @@ def get_db_connection(row_factory=sqlite3.Row):
     if row_factory is not None:
         conn.row_factory = row_factory
     return conn
+
+
+# --- DuckDB Path and Connection (Shadow Phase) --------------------------------
+def resolve_duckdb_path() -> str:
+    """Resolve absolute DuckDB database path.
+
+    Returns path to market_data.duckdb in project root.
+    """
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    return os.path.join(basedir, DUCKDB_FILENAME)
+
+
+# Absolute path to the DuckDB database file
+DUCKDB_PATH = resolve_duckdb_path()
+
+
+def get_duckdb_connection(read_only: bool = True):
+    """Return a DuckDB connection.
+
+    Args:
+        read_only: If True, open in read-only mode (default for queries).
+                   Set to False for write operations.
+
+    Returns:
+        duckdb.DuckDBPyConnection
+
+    Raises:
+        ImportError: If duckdb is not installed
+        FileNotFoundError: If database doesn't exist and read_only=True
+    """
+    import duckdb
+
+    if read_only and not os.path.exists(DUCKDB_PATH):
+        raise FileNotFoundError(f"DuckDB database not found: {DUCKDB_PATH}")
+
+    return duckdb.connect(DUCKDB_PATH, read_only=read_only)
+
+
+def duckdb_available() -> bool:
+    """Check if DuckDB is available and the database exists."""
+    try:
+        import duckdb
+        return os.path.exists(DUCKDB_PATH)
+    except ImportError:
+        return False

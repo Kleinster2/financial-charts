@@ -11,7 +11,17 @@ from datetime import datetime, timedelta
 from typing import List, Dict, Any
 import pandas as pd
 import yfinance as yf
-from constants import DB_PATH, get_db_connection
+from constants import DB_PATH, get_db_connection, USE_DUCKDB
+
+# DuckDB support - enabled via USE_DUCKDB=1 environment variable
+if USE_DUCKDB:
+    try:
+        from duckdb_writer import write_stock_prices
+        DUCKDB_ENABLED = True
+    except ImportError:
+        DUCKDB_ENABLED = False
+else:
+    DUCKDB_ENABLED = False
 
 # Configure logging
 logging.basicConfig(
@@ -291,6 +301,14 @@ class MarketDataUpdater:
                 # Similar process for volumes (simplified here)
                 logger.info("Updating volume data...")
                 # ... (volume update logic similar to prices)
+
+            # Update DuckDB if enabled
+            if DUCKDB_ENABLED:
+                try:
+                    logger.info("Updating DuckDB...")
+                    write_stock_prices(combined_df, new_vol_df if not new_vol_df.empty else None, verbose=True)
+                except Exception as e:
+                    logger.warning(f"DuckDB update failed (non-fatal): {e}")
 
             # Auto-update metadata
             try:
