@@ -15,6 +15,7 @@
     // Height adjust helpers
     const HEIGHT_MIN = window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400;
     const HEIGHT_MAX = window.ChartConfig?.DIMENSIONS?.CHART_MAX_HEIGHT || 800;
+    const PANE_HEIGHT = window.ChartConfig?.DIMENSIONS?.PANE_HEIGHT || 100; // Height to add per active pane
 
     // Font size controls (axis font only)
     const FONT_MIN = window.ChartConfig?.UI?.FONT_MIN || 8;
@@ -83,7 +84,8 @@
             notes: cardData.notes || '',
             manualInterval: cardData.manualInterval || null,
             decimalPrecision: cardData.decimalPrecision || 2,
-            settingsPanelOpen: !!cardData.settingsPanelOpen
+            settingsPanelOpen: !!cardData.settingsPanelOpen,
+            starred: !!cardData.starred
         });
     }
 
@@ -142,7 +144,8 @@
             decimalPrecision: card._decimalPrecision || 2,
             tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
             priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
-            settingsPanelOpen: !!card._state?.settingsPanelOpen
+            settingsPanelOpen: !!card._state?.settingsPanelOpen,
+            starred: !!card._starred
         }));
 
         window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
@@ -336,7 +339,7 @@
         // Get DOM elements
         const elements = window.ChartDomBuilder.getCardElements(card);
         const { tickerInput, addBtn, plotBtn, fitBtn, toggleDiffBtn, toggleVolBtn, toggleVolumeBtn, toggleRevenueBtn, toggleFundamentalsPaneBtn, toggleRevenueMetricBtn, toggleNetIncomeMetricBtn, toggleEpsMetricBtn, toggleFcfMetricBtn, toggleRawBtn,
-            toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
+            toggleAvgBtn, toggleLastLabelBtn, toggleLastTickerBtn, reshuffleColorsBtn, toggleZeroLineBtn, toggleFixedLegendBtn, toggleLegendTickersBtn, toggleNotesBtn, starBtn, heightSlider, heightValue, volPaneHeightSlider, volPaneHeightValue, fontSlider, fontValue, decimalsSlider, decimalsValue, exportBtn, rangeSelect, intervalSelect, selectedTickersDiv, chartBox, titleInput, removeCardBtn, addChartBtn, notesSection, notesTextarea } = elements;
 
         // ═══════════════════════════════════════════════════════════════
         // CONTEXT INITIALIZATION (State Object Pattern)
@@ -375,6 +378,7 @@
             saveCards
         });
         card._ctx = ctx;
+        card._starred = initialStarred;
 
         // ═══════════════════════════════════════════════════════════════
         // STATE VARIABLES (aliased from context for backward compatibility)
@@ -531,13 +535,20 @@
             plot();
         }
 
-        function applyResize(newH) {
+        function applyResize(baseH) {
             if (!chartBox) return;
-            chartBox.style.height = `${newH}px`;
+            // Calculate total height: base + active panes
+            let paneCount = 0;
+            if (showVolumePane) paneCount++;
+            if (showRevenuePane) paneCount++;
+            if (showFundamentalsPane) paneCount++;
+            if (showVolPane) paneCount++; // Volatility pane
+            const totalH = baseH + (paneCount * PANE_HEIGHT);
+            chartBox.style.height = `${totalH}px`;
             if (chart && typeof chart.resize === 'function') {
                 const width = chartBox.clientWidth || chartBox.getBoundingClientRect().width || 800;
-                console.log(`[Card:${cardId}] Resizing chart to ${width} x ${newH}`);
-                try { chart.resize(width, newH); } catch (e) { console.warn(`[Card:${cardId}] chart.resize failed`, e); }
+                console.log(`[Card:${cardId}] Resizing chart to ${width} x ${totalH} (base: ${baseH}, panes: ${paneCount})`);
+                try { chart.resize(width, totalH); } catch (e) { console.warn(`[Card:${cardId}] chart.resize failed`, e); }
             }
         }
 
@@ -1962,7 +1973,21 @@
                 card._showNotes = !showNotes;
                 card._notes = notesTextarea.value;
 
-                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes });
+                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes }
+
+        // Star button click handler
+        if (starBtn) {
+            // Set initial star state
+            starBtn.textContent = card._starred ? '★' : '☆';
+            starBtn.style.color = card._starred ? '#f5a623' : '#666';
+
+            starBtn.addEventListener('click', () => {
+                card._starred = !card._starred;
+                starBtn.textContent = card._starred ? '★' : '☆';
+                starBtn.style.color = card._starred ? '#f5a623' : '#666';
+                saveCards();
+            });
+        });
                 saveCards();
             });
 

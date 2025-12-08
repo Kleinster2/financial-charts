@@ -37,7 +37,8 @@ window.ChartConfig = {
         VOLUME_PANE_STRETCH_FACTOR: 1.0,  // Default stretch factor for volume pane (1.0 = equal height to main chart)
         CHART_DEFAULT_HEIGHT: 500,  // Default total chart height
         CHART_MIN_HEIGHT: 400,    // Minimum chart height
-        CHART_MAX_HEIGHT: 800     // Maximum chart height
+        CHART_MAX_HEIGHT: 800,    // Maximum chart height
+        PANE_HEIGHT: 100          // Height to add per active pane (additive mode)
     },
     
     // API Settings

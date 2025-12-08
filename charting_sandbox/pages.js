@@ -13,6 +13,39 @@
   let pageCategories = {}; // { categoryName: [pageNum, ...] }
   let currentActivePage = 1; // Track active page directly
   let isInitializing = true; // Prevent saves during initial load
+  let highlightsMode = false; // Show only starred charts
+
+  // Toggle highlights mode - show only starred charts across all pages
+  function toggleHighlightsMode() {
+    highlightsMode = !highlightsMode;
+    const btn = document.querySelector('.highlights-toggle-btn');
+    if (btn) {
+      btn.textContent = highlightsMode ? String.fromCharCode(9733) + ' Highlights ON' : String.fromCharCode(9734) + ' Highlights';
+      btn.style.background = highlightsMode ? '#f5a623' : '';
+      btn.style.color = highlightsMode ? '#fff' : '';
+    }
+    applyHighlightsFilter();
+  }
+
+  // Apply highlights filter - show starred charts, hide others
+  function applyHighlightsFilter() {
+    const cards = document.querySelectorAll('.chart-card');
+    cards.forEach(card => {
+      if (highlightsMode) {
+        // In highlights mode: show starred, hide non-starred
+        card.style.display = card._starred ? '' : 'none';
+      } else {
+        // Normal mode: show all on active page
+        const page = card.closest('.page');
+        if (page && page.classList.contains('active')) {
+          card.style.display = '';
+        }
+      }
+    });
+  }
+
+  window.toggleHighlightsMode = toggleHighlightsMode;
+  window.applyHighlightsFilter = applyHighlightsFilter;
 
   // Preload saved names before creating initial tab so Page 1 label is correct
   try {
