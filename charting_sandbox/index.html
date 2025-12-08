@@ -101,6 +101,25 @@
         vertical-align: super;
     }
     
+
+    /* Tag system styles */
+    .tag-container { display: flex; flex-wrap: wrap; gap: 3px; margin-left: 8px; align-items: center; }
+    .tag { display: inline-flex; align-items: center; background: #e0e0e0; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #333; }
+    .tag .tag-remove { margin-left: 4px; cursor: pointer; font-weight: bold; opacity: 0.6; }
+    .tag .tag-remove:hover { opacity: 1; }
+    .tag-add-btn { background: none; border: 1px dashed #999; border-radius: 12px; padding: 2px 8px; font-size: 0.75rem; color: #666; cursor: pointer; }
+    .tag-add-btn:hover { border-color: #007bff; color: #007bff; }
+    .tag-input-container { position: relative; display: inline-block; }
+    .tag-input { padding: 2px 6px; font-size: 0.75rem; border: 1px solid #007bff; border-radius: 12px; width: 80px; outline: none; }
+    .tag-suggestions { position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 4px; max-height: 150px; overflow-y: auto; z-index: 1000; min-width: 120px; display: none; }
+    .tag-suggestions.show { display: block; }
+    .tag-suggestion { padding: 4px 8px; cursor: pointer; font-size: 0.8rem; }
+    .tag-suggestion:hover { background: #f0f0f0; }
+    /* Tag filter in top controls */
+    #tag-filter-container { display: flex; align-items: center; gap: 4px; margin-left: 8px; }
+    #tag-filter-container label { font-size: 0.85rem; color: #666; }
+    #tag-filter-select { padding: 4px 8px; font-size: 0.85rem; border: 1px solid #999; border-radius: 4px; }
+
 </style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.9/dist/lightweight-charts.standalone.development.js"></script>
@@ -115,7 +134,13 @@
       <div id="search-results"></div>
     </div>
     <button class="highlights-toggle-btn" onclick="toggleHighlightsMode()" style="margin-right: 10px; padding: 5px 10px; cursor: pointer; border-radius: 4px; border: 1px solid #ccc;">☆ Highlights</button>
-            <button id="new-page-btn">New Page</button>
+            <div id="tag-filter-container">
+      <label for="tag-filter-select">Tag:</label>
+      <select id="tag-filter-select">
+        <option value="">All</option>
+      </select>
+    </div>
+    <button id="new-page-btn">New Page</button>
     <button id="toggle-chart-nav-btn">Hide Chart List</button>
     <div id="tab-bar" class="tab-bar"></div>
   </div>
@@ -138,14 +163,14 @@
   <script src="chart-series-manager.js?v=5"></script>
   <script src="chart-ticker-labels.js?v=1"></script>
   <script src="chart-volume.js?v=4"></script>
-  <script src="chart-dom-builder.js?v=15"></script>
+  <script src="chart-dom-builder.js?v=16"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="card-state.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>
   <script src="chart-event-handlers.js?v=3"></script>
   <script src="chart-card-context.js?v=1"></script>
-  <script src="pages.js?v=12"></script>
-  <script src="card.js?v=57"></script>
+  <script src="pages.js?v=13"></script>
+  <script src="card.js?v=58"></script>
   <script src="global-search.js?v=8"></script>
   <script src="chart-fundamentals.js?v=1"></script>
   <script src="chart-fundamentals-pane.js?v=1"></script>

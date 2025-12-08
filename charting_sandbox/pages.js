@@ -13,11 +13,13 @@
   let pageCategories = {}; // { categoryName: [pageNum, ...] }
   let currentActivePage = 1; // Track active page directly
   let isInitializing = true; // Prevent saves during initial load
-  let highlightsMode = false; // Show only starred charts
+  let highlightsMode = false;
+    window.highlightsMode = false; // Show only starred charts
 
   // Toggle highlights mode - show only starred charts across all pages
   function toggleHighlightsMode() {
     highlightsMode = !highlightsMode;
+        window.highlightsMode = highlightsMode;
     const btn = document.querySelector('.highlights-toggle-btn');
     if (btn) {
       btn.textContent = highlightsMode ? String.fromCharCode(9733) + ' Highlights ON' : String.fromCharCode(9734) + ' Highlights';

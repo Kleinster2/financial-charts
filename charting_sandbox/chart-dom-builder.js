@@ -43,6 +43,7 @@ window.ChartDomBuilder = {
                 </select>
                 <button class="fit-btn">Fit</button>
                 <button class="star-btn" title="Add to Highlights">☆</button>
+                <div class="tag-container"></div>
                 <button class="settings-toggle-btn" title="Toggle Settings Panel">⚙️</button>
                 <button class="export-btn" title="Export chart as PNG for LinkedIn">📸 Export</button>
                 <button class="add-chart-btn">Add Chart</button>
@@ -311,6 +312,7 @@ window.ChartDomBuilder = {
             selectedTickersDiv: card.querySelector('.selected-tickers'),
             chartBox: card.querySelector('.chart-box'),
             starBtn: card.querySelector('.star-btn'),
+            tagContainer: card.querySelector('.tag-container'),
             titleInput: card.querySelector('.title-input'),
             removeCardBtn: card.querySelector('.remove-card-btn'),
             addChartBtn: card.querySelector('.add-chart-btn'),

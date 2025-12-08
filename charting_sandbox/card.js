@@ -183,7 +183,8 @@
             tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
             priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
             settingsPanelOpen: !!card._state?.settingsPanelOpen,
-            starred: !!card._starred
+            starred: !!card._starred,
+            tags: card._tags || []
         }));
 
         window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
@@ -192,6 +193,64 @@
         }
     }
     window.saveCards = saveCards;
+    // Global tag management
+    window._allTags = new Set();
+
+    function getAllTags() {
+        const tags = new Set();
+        document.querySelectorAll('.chart-card').forEach(card => {
+            (card._tags || []).forEach(tag => tags.add(tag));
+        });
+        window._allTags = tags;
+        return Array.from(tags).sort();
+    }
+
+    function updateTagFilterDropdown() {
+        const select = document.getElementById('tag-filter-select');
+        if (!select) return;
+        const currentValue = select.value;
+        const tags = getAllTags();
+        select.innerHTML = '<option value="">All</option>' +
+            tags.map(t => `<option value="${t}"${t === currentValue ? ' selected' : ''}>${t}</option>`).join('');
+    }
+
+    function applyTagFilter() {
+        const select = document.getElementById('tag-filter-select');
+        if (!select) return;
+        const filterTag = select.value;
+        const highlightsMode = window.highlightsMode || false;
+
+        document.querySelectorAll('.chart-card').forEach(card => {
+            const page = card.closest('.page');
+            const isActivePage = page && page.classList.contains('active');
+            const hasTag = !filterTag || (card._tags || []).includes(filterTag);
+            const isStarred = !highlightsMode || card._starred;
+
+            if (isActivePage && hasTag && isStarred) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    // Initialize tag filter
+    document.addEventListener('DOMContentLoaded', () => {
+        const select = document.getElementById('tag-filter-select');
+        if (select) {
+            select.addEventListener('change', applyTagFilter);
+        }
+        // Update tag filter after cards are loaded (delayed to ensure cards exist)
+        setTimeout(() => {
+            if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
+        }, 1000);
+    });
+
+    window.updateTagFilterDropdown = updateTagFilterDropdown;
+    window.applyTagFilter = applyTagFilter;
+    window.getAllTags = getAllTags;
+
+
 
     /**
      * Create a chart card with the given options
@@ -305,7 +364,9 @@
             showNotes: initialShowNotes = false,
             notes: initialNotes = '',
             manualInterval: initialManualInterval = null,
-            decimalPrecision: initialDecimalPrecision = 2
+            decimalPrecision: initialDecimalPrecision = 2,
+            starred: initialStarred = false,
+            tags: initialTags = []
         } = options;
         const wrapper = wrapperEl || document.getElementById(WRAPPER_ID);
         if (!wrapper) {
@@ -417,6 +478,7 @@
         });
         card._ctx = ctx;
         card._starred = initialStarred;
+        card._tags = initialTags || [];
 
         // ═══════════════════════════════════════════════════════════════
         // STATE VARIABLES (aliased from context for backward compatibility)
@@ -2025,7 +2087,122 @@
                 starBtn.style.color = card._starred ? '#f5a623' : '#666';
                 saveCards();
             });
-        });
+        }
+
+        // Tag management
+        const { tagContainer } = elements;
+        if (tagContainer) {
+            card._tags = card._tags || [];
+
+            function renderTags() {
+                tagContainer.innerHTML = '';
+                card._tags.forEach(tag => {
+                    const tagEl = document.createElement('span');
+                    tagEl.className = 'tag';
+                    tagEl.innerHTML = `${tag}<span class="tag-remove" data-tag="${tag}">&times;</span>`;
+                    tagContainer.appendChild(tagEl);
+                });
+
+                // Add "+" button
+                const addBtn = document.createElement('button');
+                addBtn.className = 'tag-add-btn';
+                addBtn.textContent = '+';
+                addBtn.title = 'Add tag';
+                addBtn.addEventListener('click', showTagInput);
+                tagContainer.appendChild(addBtn);
+
+                // Remove tag handler
+                tagContainer.querySelectorAll('.tag-remove').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const tagToRemove = e.target.dataset.tag;
+                        card._tags = card._tags.filter(t => t !== tagToRemove);
+                        renderTags();
+                        saveCards();
+                        if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
+                    });
+                });
+            }
+
+            function showTagInput() {
+                const inputContainer = document.createElement('div');
+                inputContainer.className = 'tag-input-container';
+
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.className = 'tag-input';
+                input.placeholder = 'Tag...';
+
+                const suggestions = document.createElement('div');
+                suggestions.className = 'tag-suggestions';
+
+                inputContainer.appendChild(input);
+                inputContainer.appendChild(suggestions);
+
+                // Replace add button with input
+                const addBtn = tagContainer.querySelector('.tag-add-btn');
+                if (addBtn) addBtn.style.display = 'none';
+                tagContainer.appendChild(inputContainer);
+                input.focus();
+
+                function updateSuggestions() {
+                    const val = input.value.toLowerCase().trim();
+                    const allTags = window.getAllTags ? window.getAllTags() : [];
+                    const matches = allTags.filter(t =>
+                        t.toLowerCase().includes(val) && !card._tags.includes(t)
+                    );
+
+                    if (matches.length > 0 && val) {
+                        suggestions.innerHTML = matches.map(t =>
+                            `<div class="tag-suggestion" data-tag="${t}">${t}</div>`
+                        ).join('');
+                        suggestions.classList.add('show');
+
+                        suggestions.querySelectorAll('.tag-suggestion').forEach(el => {
+                            el.addEventListener('click', () => {
+                                addTag(el.dataset.tag);
+                            });
+                        });
+                    } else {
+                        suggestions.classList.remove('show');
+                    }
+                }
+
+                function addTag(tag) {
+                    tag = tag.trim();
+                    if (tag && !card._tags.includes(tag)) {
+                        card._tags.push(tag);
+                        renderTags();
+                        saveCards();
+                        if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
+                    } else {
+                        inputContainer.remove();
+                        if (addBtn) addBtn.style.display = '';
+                    }
+                }
+
+                input.addEventListener('input', updateSuggestions);
+
+                input.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter') {
+                        addTag(input.value);
+                    } else if (e.key === 'Escape') {
+                        inputContainer.remove();
+                        if (addBtn) addBtn.style.display = '';
+                    }
+                });
+
+                input.addEventListener('blur', () => {
+                    setTimeout(() => {
+                        if (document.activeElement !== input) {
+                            inputContainer.remove();
+                            if (addBtn) addBtn.style.display = '';
+                        }
+                    }, 200);
+                });
+            }
+
+            renderTags();
+        }
                 saveCards();
             });
 
