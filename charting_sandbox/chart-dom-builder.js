@@ -162,7 +162,7 @@ window.ChartDomBuilder = {
     /**
      * Create a ticker chip element
      */
-    createTickerChip(ticker, color, multiplier = 1, isHidden = false, onRemove = null) {
+    createTickerChip(ticker, color, multiplier = 1, isHidden = false, onRemove = null, axis = "right", onAxisChange = null) {
         const chip = document.createElement('span');
         chip.className = 'chip';
         chip.dataset.ticker = ticker;
@@ -181,8 +181,18 @@ window.ChartDomBuilder = {
         // Create chip content
         const tickerSpan = document.createElement('span');
         tickerSpan.textContent = ticker;
-        tickerSpan.style.marginRight = '5px';
+        tickerSpan.style.marginRight = '2px';
         chip.appendChild(tickerSpan);
+
+        // Axis indicator (L for left, empty for right which is default)
+        const axisIndicator = document.createElement('span');
+        axisIndicator.className = 'chip-axis-indicator';
+        axisIndicator.textContent = axis === 'left' ? 'L' : '';
+        axisIndicator.style.marginRight = '3px';
+        chip.appendChild(axisIndicator);
+        chip._axisIndicator = axisIndicator;
+        chip._currentAxis = axis;
+        chip._onAxisChange = onAxisChange;
 
         // Add multiplier input
         const multInput = document.createElement('input');
@@ -230,6 +240,30 @@ window.ChartDomBuilder = {
                 if (isHidden) {
             chip.classList.add('chip--hidden');
         }
+
+        // Right-click context menu
+        chip.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const menu = document.getElementById('chip-context-menu');
+            if (menu) {
+                // Position menu at click location
+                menu.style.left = e.clientX + 'px';
+                menu.style.top = e.clientY + 'px';
+                menu.classList.add('visible');
+                menu._targetChip = chip;
+                menu._targetTicker = ticker;
+
+                // Update active state
+                menu.querySelectorAll('.chip-context-menu-item').forEach(item => {
+                    item.classList.remove('active');
+                    if (item.dataset.action === 'axis-' + chip._currentAxis) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+        });
+
         return chip;
     },
 
@@ -355,7 +389,8 @@ window.ChartDomBuilder = {
             const color = colorMap.get(ticker) || '#000000';
             const multiplier = multiplierMap.get(ticker) || 1;
             const isHidden = hiddenTickers.has(ticker);
-            const chip = this.createTickerChip(ticker, color, multiplier, isHidden, onRemove);
+            const axis = (typeof getAxis === 'function') ? getAxis(ticker) : 'right';
+            const chip = this.createTickerChip(ticker, color, multiplier, isHidden, onRemove, axis, onAxisChange);
             selectedTickersDiv.appendChild(chip);
         });
     },

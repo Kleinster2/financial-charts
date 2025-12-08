@@ -73,7 +73,35 @@
     /* Category dropdown styles */
     .category-btn.active{background:#666;color:#fff;}
     .category-dropdown{margin-right:4px;}
-  </style>
+  
+    /* Context menu for ticker chips */
+    .chip-context-menu {
+        position: fixed;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        z-index: 10000;
+        min-width: 150px;
+        display: none;
+    }
+    .chip-context-menu.visible { display: block; }
+    .chip-context-menu-item {
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 13px;
+    }
+    .chip-context-menu-item:hover { background: #f0f0f0; }
+    .chip-context-menu-item.active { background: #e0e0e0; font-weight: bold; }
+    .chip-context-menu-divider { border-top: 1px solid #eee; margin: 4px 0; }
+    .chip-axis-indicator {
+        font-size: 9px;
+        margin-left: 3px;
+        opacity: 0.8;
+        vertical-align: super;
+    }
+    
+</style>
   <!-- Lightweight Charts library -->
   <script src="https://unpkg.com/lightweight-charts@5.0.9/dist/lightweight-charts.standalone.development.js"></script>
   <!-- Configuration -->
@@ -110,14 +138,14 @@
   <script src="chart-series-manager.js?v=5"></script>
   <script src="chart-ticker-labels.js?v=1"></script>
   <script src="chart-volume.js?v=4"></script>
-  <script src="chart-dom-builder.js?v=14"></script>
+  <script src="chart-dom-builder.js?v=15"></script>
   <script src="card-event-binder.js?v=1"></script>
   <script src="card-state.js?v=1"></script>
   <script src="chart-updaters.js?v=1"></script>
   <script src="chart-event-handlers.js?v=3"></script>
   <script src="chart-card-context.js?v=1"></script>
   <script src="pages.js?v=12"></script>
-  <script src="card.js?v=55"></script>
+  <script src="card.js?v=57"></script>
   <script src="global-search.js?v=8"></script>
   <script src="chart-fundamentals.js?v=1"></script>
   <script src="chart-fundamentals-pane.js?v=1"></script>
@@ -126,6 +154,15 @@
   <script src="chart-macro-dashboard.js?v=1"></script>
   <script src="chart-dendrograms.js?v=3"></script>
   <script src="chart-thesis-performance.js?v=1"></script>
+
+
+    <!-- Context menu for ticker chips -->
+    <div id="chip-context-menu" class="chip-context-menu">
+        <div class="chip-context-menu-item" data-action="axis-right">Move to Right Axis</div>
+        <div class="chip-context-menu-item" data-action="axis-left">Move to Left Axis</div>
+        <div class="chip-context-menu-divider"></div>
+        <div class="chip-context-menu-item" data-action="hide">Hide/Show</div>
+    </div>
 
 </body>
 </html>

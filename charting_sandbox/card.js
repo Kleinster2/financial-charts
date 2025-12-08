@@ -21,6 +21,44 @@
     const FONT_MIN = window.ChartConfig?.UI?.FONT_MIN || 8;
     const FONT_MAX = window.ChartConfig?.UI?.FONT_MAX || 24;
 
+    // Global context menu handler for ticker chips
+    document.addEventListener('click', () => {
+        const menu = document.getElementById('chip-context-menu');
+        if (menu) menu.classList.remove('visible');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const menu = document.getElementById('chip-context-menu');
+        if (menu) {
+            menu.addEventListener('click', (e) => {
+                const item = e.target.closest('.chip-context-menu-item');
+                if (\!item) return;
+
+                const action = item.dataset.action;
+                const chip = menu._targetChip;
+                const ticker = menu._targetTicker;
+
+                if (\!chip || \!ticker) return;
+
+                if (action === 'axis-left' || action === 'axis-right') {
+                    const newAxis = action === 'axis-left' ? 'left' : 'right';
+                    chip._currentAxis = newAxis;
+                    if (chip._axisIndicator) {
+                        chip._axisIndicator.textContent = newAxis === 'left' ? 'L' : '';
+                    }
+                    if (typeof chip._onAxisChange === 'function') {
+                        chip._onAxisChange(ticker, newAxis);
+                    }
+                } else if (action === 'hide') {
+                    // Toggle hidden state via chip click
+                    chip.click();
+                }
+
+                menu.classList.remove('visible');
+            });
+        }
+    });
+
     /**
      * Restore a card from saved data
      * @param {Object} cardData - Saved card configuration
