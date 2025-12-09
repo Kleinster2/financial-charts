@@ -423,6 +423,11 @@
     return pageEl.querySelector('[id^="charts-wrapper"]');
   }
   function showPage(num){
+    // Skip if already on this page to avoid race conditions
+    if (currentActivePage === num) {
+      console.log(`[PageManager] showPage(${num}) skipped - already on this page`);
+      return;
+    }
     const el = pagesContainer.querySelector(`[data-page="${num}"]`);
     if (el) switchTo(el);
   }
