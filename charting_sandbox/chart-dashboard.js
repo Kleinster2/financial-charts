@@ -9,6 +9,9 @@ window.ChartDashboard = {
     sortDirection: 'asc',
     viewMode: 'flat', // 'flat' or 'grouped'
     filterText: '',
+    filterExact: false, // true when trailing space = exact ticker match
+    columnOrder: null, // Will be initialized with default order
+    hiddenColumns: new Set(), // Columns to hide
 
     /**
      * Create a dashboard card
@@ -28,6 +31,10 @@ window.ChartDashboard = {
                         <option value="flat">Flat View</option>
                         <option value="grouped">Grouped by Page</option>
                     </select>
+                    <div class="dashboard-columns-dropdown">
+                        <button class="dashboard-columns-btn">Columns ▼</button>
+                        <div class="dashboard-columns-menu"></div>
+                    </div>
                     <button class="dashboard-refresh-btn">Refresh</button>
                 </div>
             </div>
@@ -49,7 +56,10 @@ window.ChartDashboard = {
         const refreshBtn = card.querySelector('.dashboard-refresh-btn');
 
         filterInput.addEventListener('input', (e) => {
-            this.filterText = e.target.value.toLowerCase();
+            const raw = e.target.value;
+            // Trailing space = exact ticker match
+            this.filterExact = raw.endsWith(' ') && raw.trim().length > 0;
+            this.filterText = raw.trim().toLowerCase();
             this.renderTable(card);
         });
 
@@ -61,6 +71,11 @@ window.ChartDashboard = {
         refreshBtn.addEventListener('click', () => {
             this.loadData(card);
         });
+
+        // Columns dropdown
+        const columnsBtn = card.querySelector('.dashboard-columns-btn');
+        const columnsMenu = card.querySelector('.dashboard-columns-menu');
+        this.initColumnsDropdown(card, columnsBtn, columnsMenu);
 
         // Mark as dashboard type for saveCards
         card._type = 'dashboard';
@@ -129,6 +144,51 @@ window.ChartDashboard = {
             .dashboard-refresh-btn:hover {
                 background: #0056b3;
             }
+            .dashboard-columns-dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dashboard-columns-btn {
+                padding: 6px 12px;
+                background: #6c757d;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .dashboard-columns-btn:hover {
+                background: #5a6268;
+            }
+            .dashboard-columns-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+                z-index: 1000;
+                min-width: 180px;
+                max-height: 300px;
+                overflow-y: auto;
+            }
+            .dashboard-columns-menu.show {
+                display: block;
+            }
+            .dashboard-columns-menu label {
+                display: flex;
+                align-items: center;
+                padding: 8px 12px;
+                cursor: pointer;
+                font-size: 0.9rem;
+            }
+            .dashboard-columns-menu label:hover {
+                background: #f0f0f0;
+            }
+            .dashboard-columns-menu input[type="checkbox"] {
+                margin-right: 8px;
+            }
             .dashboard-stats {
                 display: flex;
                 gap: 24px;
@@ -161,6 +221,13 @@ window.ChartDashboard = {
                 width: 100%;
                 border-collapse: collapse;
                 font-size: 0.85rem;
+                table-layout: fixed;
+            }
+            .dashboard-table th,
+            .dashboard-table td {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
             .dashboard-table th {
                 position: sticky;
@@ -170,8 +237,39 @@ window.ChartDashboard = {
                 text-align: left;
                 border-bottom: 2px solid #ddd;
                 cursor: pointer;
-                white-space: nowrap;
                 user-select: none;
+                position: relative;
+            }
+            .dashboard-table th .resize-handle {
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 5px;
+                cursor: col-resize;
+                background: transparent;
+            }
+            .dashboard-table th .resize-handle:hover,
+            .dashboard-table th .resize-handle.resizing {
+                background: #007bff;
+            }
+            .dashboard-table.resizing {
+                cursor: col-resize;
+                user-select: none;
+            }
+            .dashboard-table th.dragging {
+                opacity: 0.5;
+                background: #007bff;
+                color: white;
+            }
+            .dashboard-table th.drag-over {
+                border-left: 3px solid #007bff;
+            }
+            .dashboard-table th[draggable="true"] {
+                cursor: grab;
+            }
+            .dashboard-table th[draggable="true"]:active {
+                cursor: grabbing;
             }
             .dashboard-table th:hover {
                 background: #e2e6ea;
@@ -309,11 +407,19 @@ window.ChartDashboard = {
         // Filter data
         let filteredData = this.data;
         if (this.filterText) {
-            filteredData = this.data.filter(d =>
-                d.ticker.toLowerCase().includes(this.filterText) ||
-                (d.name && d.name.toLowerCase().includes(this.filterText)) ||
-                (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(this.filterText)))
-            );
+            if (this.filterExact) {
+                // Trailing space = exact ticker match
+                filteredData = this.data.filter(d =>
+                    d.ticker.toLowerCase() === this.filterText
+                );
+            } else {
+                // Normal contains match
+                filteredData = this.data.filter(d =>
+                    d.ticker.toLowerCase().includes(this.filterText) ||
+                    (d.name && d.name.toLowerCase().includes(this.filterText)) ||
+                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(this.filterText)))
+                );
+            }
         }
 
         // Sort data
@@ -352,8 +458,8 @@ window.ChartDashboard = {
             return 0;
         });
 
-        // Render header
-        const columns = [
+        // Default column definitions
+        const defaultColumns = [
             { key: 'ticker', label: 'Ticker' },
             { key: 'name', label: 'Name' },
             { key: 'latest_price', label: 'Price' },
@@ -367,16 +473,33 @@ window.ChartDashboard = {
             { key: 'pages', label: 'Pages' }
         ];
 
+        // Initialize column order if not set
+        if (!this.columnOrder) {
+            this.columnOrder = defaultColumns.map(c => c.key);
+        }
+
+        // Build columns array in current order
+        const columnMap = {};
+        defaultColumns.forEach(c => columnMap[c.key] = c);
+        const columns = this.columnOrder.map(key => columnMap[key]);
+
+        // Get saved column widths
+        const savedWidths = this.columnWidths || {};
+
         thead.innerHTML = `<tr>${columns.map(col => {
             const sortClass = this.sortColumn === col.key
                 ? (this.sortDirection === 'asc' ? 'sorted-asc' : 'sorted-desc')
                 : '';
-            return `<th class="${sortClass}" data-column="${col.key}">${col.label}</th>`;
+            const widthStyle = savedWidths[col.key] ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px;"` : '';
+            return `<th class="${sortClass}" data-column="${col.key}" draggable="true" ${widthStyle}>${col.label}<span class="resize-handle"></span></th>`;
         }).join('')}</tr>`;
 
         // Add sort handlers
         thead.querySelectorAll('th').forEach(th => {
-            th.addEventListener('click', () => {
+            th.addEventListener('click', (e) => {
+                // Don't sort if clicking on resize handle
+                if (e.target.classList.contains('resize-handle')) return;
+
                 const col = th.dataset.column;
                 if (this.sortColumn === col) {
                     this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
@@ -388,12 +511,184 @@ window.ChartDashboard = {
             });
         });
 
+        // Add resize handlers
+        this.initColumnResize(card, thead);
+
+        // Add drag handlers for column reordering
+        this.initColumnDrag(card, thead);
+
         // Render body
         if (this.viewMode === 'grouped') {
             this.renderGroupedBody(tbody, filteredData, columns);
         } else {
             this.renderFlatBody(tbody, filteredData, columns);
         }
+    },
+
+    /**
+     * Initialize column resize functionality
+     */
+    initColumnResize(card, thead) {
+        const table = card.querySelector('.dashboard-table');
+        const handles = thead.querySelectorAll('.resize-handle');
+
+        handles.forEach(handle => {
+            handle.addEventListener('mousedown', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+
+                const th = handle.parentElement;
+                const startX = e.pageX;
+                const startWidth = th.offsetWidth;
+                const colKey = th.dataset.column;
+
+                handle.classList.add('resizing');
+                table.classList.add('resizing');
+
+                const onMouseMove = (moveEvent) => {
+                    const newWidth = Math.max(50, startWidth + (moveEvent.pageX - startX));
+                    th.style.width = newWidth + 'px';
+                    th.style.minWidth = newWidth + 'px';
+
+                    // Save width
+                    if (!this.columnWidths) this.columnWidths = {};
+                    this.columnWidths[colKey] = newWidth;
+                };
+
+                const onMouseUp = () => {
+                    handle.classList.remove('resizing');
+                    table.classList.remove('resizing');
+                    document.removeEventListener('mousemove', onMouseMove);
+                    document.removeEventListener('mouseup', onMouseUp);
+                };
+
+                document.addEventListener('mousemove', onMouseMove);
+                document.addEventListener('mouseup', onMouseUp);
+            });
+        });
+    },
+
+    /**
+     * Initialize columns dropdown for showing/hiding columns
+     */
+    initColumnsDropdown(card, btn, menu) {
+        // Default column definitions for building the menu
+        const defaultColumns = [
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+
+        // Build checkboxes for each column
+        menu.innerHTML = defaultColumns.map(col => `
+            <label>
+                <input type="checkbox" data-column="${col.key}" ${!this.hiddenColumns.has(col.key) ? 'checked' : ''}>
+                ${col.label}
+            </label>
+        `).join('');
+
+        // Toggle menu visibility
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            menu.classList.toggle('show');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && e.target !== btn) {
+                menu.classList.remove('show');
+            }
+        });
+
+        // Handle checkbox changes
+        menu.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', (e) => {
+                const colKey = e.target.dataset.column;
+                if (e.target.checked) {
+                    this.hiddenColumns.delete(colKey);
+                    // Add back to column order if not present
+                    if (!this.columnOrder.includes(colKey)) {
+                        this.columnOrder.push(colKey);
+                    }
+                } else {
+                    this.hiddenColumns.add(colKey);
+                    // Remove from column order
+                    const idx = this.columnOrder.indexOf(colKey);
+                    if (idx !== -1) {
+                        this.columnOrder.splice(idx, 1);
+                    }
+                }
+                this.renderTable(card);
+            });
+        });
+    },
+
+    /**
+     * Initialize column drag-and-drop reordering
+     */
+    initColumnDrag(card, thead) {
+        let draggedColumn = null;
+
+        thead.querySelectorAll('th').forEach(th => {
+            th.addEventListener('dragstart', (e) => {
+                // Don't start drag from resize handle
+                if (e.target.classList.contains('resize-handle')) {
+                    e.preventDefault();
+                    return;
+                }
+                draggedColumn = th.dataset.column;
+                th.classList.add('dragging');
+                e.dataTransfer.effectAllowed = 'move';
+                e.dataTransfer.setData('text/plain', draggedColumn);
+            });
+
+            th.addEventListener('dragend', () => {
+                th.classList.remove('dragging');
+                thead.querySelectorAll('th').forEach(h => h.classList.remove('drag-over'));
+                draggedColumn = null;
+            });
+
+            th.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                e.dataTransfer.dropEffect = 'move';
+                if (th.dataset.column !== draggedColumn) {
+                    th.classList.add('drag-over');
+                }
+            });
+
+            th.addEventListener('dragleave', () => {
+                th.classList.remove('drag-over');
+            });
+
+            th.addEventListener('drop', (e) => {
+                e.preventDefault();
+                th.classList.remove('drag-over');
+
+                const targetColumn = th.dataset.column;
+                if (draggedColumn && draggedColumn !== targetColumn) {
+                    // Reorder columns
+                    const fromIndex = this.columnOrder.indexOf(draggedColumn);
+                    const toIndex = this.columnOrder.indexOf(targetColumn);
+
+                    if (fromIndex !== -1 && toIndex !== -1) {
+                        // Remove from old position and insert at new
+                        this.columnOrder.splice(fromIndex, 1);
+                        this.columnOrder.splice(toIndex, 0, draggedColumn);
+
+                        // Re-render table
+                        this.renderTable(card);
+                    }
+                }
+            });
+        });
     },
 
     /**
@@ -441,7 +736,7 @@ window.ChartDashboard = {
     },
 
     /**
-     * Render a single row
+     * Render a single row based on current column order
      */
     renderRow(row) {
         const formatChange = (val) => {
@@ -460,21 +755,25 @@ window.ChartDashboard = {
             ? row.pages.map(p => `<a class="page-link" data-page="${p.page}">${p.page_name}</a>`).join(', ')
             : '-';
 
-        return `
-            <tr data-ticker="${row.ticker}">
-                <td class="ticker-cell">${row.ticker}</td>
-                <td>${row.name || '-'}</td>
-                <td class="price-cell">${formatPrice(row.latest_price)}</td>
-                <td class="price-cell">${formatChange(row.daily_change)}</td>
-                <td class="price-cell">${formatChange(row.weekly_change)}</td>
-                <td class="price-cell">${formatChange(row.monthly_change)}</td>
-                <td class="price-cell">${formatChange(row.yearly_change)}</td>
-                <td class="price-cell">${formatPrice(row.high_52w)}</td>
-                <td class="price-cell">${formatPrice(row.low_52w)}</td>
-                <td class="price-cell">${row.data_points ? row.data_points.toLocaleString() : '-'}</td>
-                <td>${pagesHtml}</td>
-            </tr>
-        `;
+        // Cell renderers for each column
+        const cellRenderers = {
+            ticker: () => `<td class="ticker-cell">${row.ticker}</td>`,
+            name: () => `<td>${row.name || '-'}</td>`,
+            latest_price: () => `<td class="price-cell">${formatPrice(row.latest_price)}</td>`,
+            daily_change: () => `<td class="price-cell">${formatChange(row.daily_change)}</td>`,
+            weekly_change: () => `<td class="price-cell">${formatChange(row.weekly_change)}</td>`,
+            monthly_change: () => `<td class="price-cell">${formatChange(row.monthly_change)}</td>`,
+            yearly_change: () => `<td class="price-cell">${formatChange(row.yearly_change)}</td>`,
+            high_52w: () => `<td class="price-cell">${formatPrice(row.high_52w)}</td>`,
+            low_52w: () => `<td class="price-cell">${formatPrice(row.low_52w)}</td>`,
+            data_points: () => `<td class="price-cell">${row.data_points ? row.data_points.toLocaleString() : '-'}</td>`,
+            pages: () => `<td>${pagesHtml}</td>`
+        };
+
+        // Render cells in column order
+        const cells = this.columnOrder.map(key => cellRenderers[key]()).join('');
+
+        return `<tr data-ticker="${row.ticker}">${cells}</tr>`;
     },
 
     /**

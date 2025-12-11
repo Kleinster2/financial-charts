@@ -13,7 +13,7 @@ Interactive financial charting application for visualizing stock prices, fundame
 
 - **Frontend**: Vanilla JavaScript with [LightweightCharts](https://tradingview.github.io/lightweight-charts/) v5.0.9
 - **Backend**: Flask (Python)
-- **Database**: SQLite with wide-column schema (~311 MB)
+- **Database**: SQLite with wide-column schema (~311 MB), optional DuckDB backend
 - **Data Sources**: yfinance, FRED, Alpha Vantage (fundamentals)
 
 ## Data Notes
@@ -215,6 +215,104 @@ CREATE TABLE earnings_quarterly (
 - `etf_holdings_daily` - ETF composition tracking
 - `futures_prices_daily` / `futures_volumes_daily` - Futures data
 - `cboe_indices` - Volatility indices (VIX, VXN, etc.)
+
+## DuckDB Backend (Optional)
+
+An optional DuckDB backend provides faster queries using a normalized long-format schema.
+
+**This is opt-in.** SQLite is always used by default. DuckDB is only enabled when:
+1. Environment variable `USE_DUCKDB=1` is set
+2. The `market_data.duckdb` file exists (created via migration)
+
+### Why DuckDB?
+
+| Aspect | SQLite (Wide) | DuckDB (Long) |
+|--------|---------------|---------------|
+| **Adding tickers** | `ALTER TABLE ADD COLUMN` | Just `INSERT` |
+| **Query style** | Row-oriented (OLTP) | Columnar (OLAP) |
+| **Aggregations** | Slower on wide tables | Optimized |
+| **Compression** | Sparse columns waste space | Compact long format |
+
+**When to use DuckDB:**
+- Adding many new tickers frequently
+- Running analytical queries (correlations, aggregations across tickers)
+- If SQLite queries become slow as data grows
+
+**When SQLite is fine:**
+- Current scale (~1300 tickers, 311 MB) performs well
+- Simple date-range queries on known tickers
+- No need for complex analytics
+
+### Schema Comparison
+
+| Aspect | SQLite (Primary) | DuckDB (Optional) |
+|--------|------------------|-------------------|
+| **Format** | Wide (1 column per ticker) | Long (Date, Ticker, Value) |
+| **Schema** | `stock_prices_daily.AAPL` | `prices WHERE Ticker='AAPL'` |
+| **File** | `market_data.db` (~311 MB) | `market_data.duckdb` |
+| **Queries** | Simple column select | PIVOT for wide format |
+
+### DuckDB Tables
+
+```sql
+-- Long format with composite primary keys
+prices:         (Date DATE, Ticker VARCHAR, Close DOUBLE, PRIMARY KEY (Date, Ticker))
+volumes:        (Date DATE, Ticker VARCHAR, Volume DOUBLE, PRIMARY KEY (Date, Ticker))
+futures_prices: (Date DATE, Ticker VARCHAR, Close DOUBLE, PRIMARY KEY (Date, Ticker))
+futures_volumes:(Date DATE, Ticker VARCHAR, Volume DOUBLE, PRIMARY KEY (Date, Ticker))
+
+-- Indexes for fast lookups
+idx_prices_ticker, idx_prices_date, idx_volumes_ticker, idx_volumes_date
+```
+
+### Setup
+
+```powershell
+# 1. Install DuckDB
+pip install duckdb
+
+# 2. Initial migration from SQLite (one-time, ~30 seconds)
+python migrate_to_duckdb.py
+
+# 3. Enable DuckDB for the app
+$env:USE_DUCKDB = "1"
+python charting_app\app.py
+
+# Or in one line (PowerShell)
+$env:USE_DUCKDB="1"; python charting_app\app.py
+
+# Unix/bash
+USE_DUCKDB=1 python charting_app/app.py
+```
+
+### Dual-Write Mode
+
+When `USE_DUCKDB=1`, data updates write to both databases:
+
+```
+update_market_data.py
+    ├── SQLite (primary) - wide format
+    └── DuckDB (shadow)  - long format via duckdb_writer.py
+```
+
+### Files
+
+| File | Purpose |
+|------|---------|
+| `migrate_to_duckdb.py` | One-time SQLite → DuckDB migration |
+| `duckdb_writer.py` | Write helpers for dual-write during updates |
+| `charting_app/duckdb_queries.py` | Query layer with PIVOT for API compatibility |
+| `constants.py` | `USE_DUCKDB`, `DUCKDB_PATH`, connection helpers |
+
+### Checking Status
+
+```powershell
+# Check DuckDB stats
+python duckdb_writer.py
+
+# Test queries
+python charting_app\duckdb_queries.py
+```
 
 ## API Endpoints
 
@@ -472,7 +570,6 @@ When modifying JS files, increment version in `index.html`:
 
 ### Lower Priority
 - **Web Worker** - Offload rebasing/SMA calculations
-- **DuckDB migration** - If SQLite becomes a bottleneck
 - **Options data integration**
 - **Drawing tools** - Trendlines, Fibonacci retracements
 

@@ -151,7 +151,10 @@
         // Search on input
         searchInput.addEventListener('input', (e) => {
             clearTimeout(searchTimeout);
-            const query = e.target.value.trim();
+            const rawValue = e.target.value;
+            const query = rawValue.trim();
+            // Trailing space = exact ticker match
+            const exactMatch = rawValue.endsWith(' ') && query.length > 0;
 
             if (query.length === 0) {
                 hideSearchResults(searchResults);
@@ -160,7 +163,7 @@
 
             // Debounce search
             searchTimeout = setTimeout(() => {
-                performSearch(query, searchResults);
+                performSearch(query, searchResults, exactMatch);
             }, 200);
         });
 
@@ -173,9 +176,11 @@
 
         // Show results when focusing on input with value
         searchInput.addEventListener('focus', (e) => {
-            const query = e.target.value.trim();
+            const rawValue = e.target.value;
+            const query = rawValue.trim();
+            const exactMatch = rawValue.endsWith(' ') && query.length > 0;
             if (query.length > 0) {
-                performSearch(query, searchResults);
+                performSearch(query, searchResults, exactMatch);
             }
         });
 
@@ -191,21 +196,31 @@
     /**
      * Perform search and display results
      */
-    function performSearch(query, searchResults) {
+    function performSearch(query, searchResults, exactMatch = false) {
+        query = query.trim();
         const queryUpper = query.toUpperCase();
         const queryLower = query.toLowerCase();
 
-        // Search pages first
-        const pageResults = pageIndex.filter(item => {
+        // Search pages (not affected by exact match)
+        const pageResults = exactMatch ? [] : pageIndex.filter(item => {
             return item.pageName.toLowerCase().includes(queryLower);
         }).slice(0, 10);
 
         // Search ticker and name
-        const tickerResults = searchIndex.filter(item => {
-            const tickerMatch = item.ticker.toUpperCase().includes(queryUpper);
-            const nameMatch = item.name.toLowerCase().includes(queryLower);
-            return tickerMatch || nameMatch;
-        });
+        let tickerResults;
+        if (exactMatch) {
+            // Trailing space = exact ticker match only
+            tickerResults = searchIndex.filter(item =>
+                item.ticker.toUpperCase() === queryUpper
+            );
+        } else {
+            // Normal contains match
+            tickerResults = searchIndex.filter(item => {
+                const tickerMatch = item.ticker.toUpperCase().includes(queryUpper);
+                const nameMatch = item.name.toLowerCase().includes(queryLower);
+                return tickerMatch || nameMatch;
+            });
+        }
 
         // Limit to top 40 ticker results (leave room for pages)
         const limitedTickerResults = tickerResults.slice(0, 40);
@@ -364,7 +379,6 @@
 
     // Re-build index when workspace changes
     window.addEventListener('workspace-updated', () => {
-        console.log('[GlobalSearch] Rebuilding search index');
         buildSearchIndex();
     });
 
