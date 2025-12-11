@@ -364,7 +364,7 @@ CHINA_A_SHARES = [
     "688256.SS",  # Cambricon Technologies (AI chips)
     "688041.SS",  # Hygon Information Technology (x86 CPUs)
     "300474.SZ",  # Jingjia Micro (GPU)
-    "688439.SS",  # Moore Threads (GPU/AI chips - "China's Nvidia")
+    "688795.SS",  # Moore Threads (GPU/AI chips - "China's Nvidia")
     "688368.SS",  # Shanghai Fullhan Microelectronics
     "603986.SS",  # GigaDevice Semiconductor (flash memory)
     "688521.SS",  # VeriSilicon (IP/design services)
@@ -951,6 +951,31 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             vprint(f"  This is expected when not all asset groups are selected.")
             vprint(f"  Missing columns will be preserved from existing data.")
 
+        # DATA INTEGRITY CHECK: Verify historical data wasn't corrupted
+        # Sample known-good reference points that should never be NULL
+        if not existing_df.empty and 'SPY' in existing_df.columns and 'SPY' in combined_df.columns:
+            integrity_failed = False
+            # Check random historical dates that should have SPY data
+            check_dates = ['2024-01-03', '2023-01-03', '2022-01-03', '2021-01-04', '2020-01-02']
+            for check_date in check_dates:
+                check_dt = pd.to_datetime(check_date)
+                if check_dt in existing_df.index:
+                    old_val = existing_df.loc[check_dt, 'SPY']
+                    if check_dt in combined_df.index:
+                        new_val = combined_df.loc[check_dt, 'SPY']
+                        if pd.notna(old_val) and pd.isna(new_val):
+                            vprint(f"  INTEGRITY ERROR: SPY on {check_date} was {old_val:.2f}, now NULL!")
+                            integrity_failed = True
+                        elif pd.notna(old_val) and pd.notna(new_val) and abs(old_val - new_val) > 0.01:
+                            # Value changed - this is OK for recent dates but suspicious for old ones
+                            if lookback_days and (datetime.today() - check_dt).days > lookback_days + 5:
+                                vprint(f"  INTEGRITY WARNING: SPY on {check_date} changed from {old_val:.2f} to {new_val:.2f}")
+
+            if integrity_failed:
+                vprint("  ABORTING: Historical data integrity check failed!")
+                vprint("  The merge would corrupt historical data. Please investigate.")
+                return
+
         # Write to staging table first
         staging_table = "stock_prices_daily_staging"
         vprint(f"  Writing to staging table: {staging_table}")
@@ -973,16 +998,32 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
 
         vprint(f"  [OK] Staging table validated ({staging_row_count} rows)")
 
-        # Atomic swap: Rename staging -> main
+        # Atomic swap: Rename staging -> main with VERSIONED BACKUPS
         vprint("  Performing atomic table swap...")
+
+        # Keep last 3 backups with timestamps instead of just _old
+        backup_timestamp = datetime.today().strftime('%Y%m%d_%H%M%S')
+        backup_table = f"stock_prices_daily_backup_{backup_timestamp}"
+
+        if table_exists:
+            # Create timestamped backup
+            cursor.execute(f"ALTER TABLE stock_prices_daily RENAME TO {backup_table}")
+            vprint(f"  [OK] Backup created: {backup_table}")
+
+            # Clean up old backups, keep only last 3
+            cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_prices_daily_backup_%' ORDER BY name DESC")
+            backup_tables = [row[0] for row in cursor.fetchall()]
+            if len(backup_tables) > 3:
+                for old_backup in backup_tables[3:]:
+                    cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
+                    vprint(f"  [OK] Removed old backup: {old_backup}")
+
+        # Also keep _old for backward compatibility (points to most recent backup)
         cursor.execute("DROP TABLE IF EXISTS stock_prices_daily_old")
         if table_exists:
-            cursor.execute("ALTER TABLE stock_prices_daily RENAME TO stock_prices_daily_old")
-        cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
+            cursor.execute(f"CREATE TABLE stock_prices_daily_old AS SELECT * FROM {backup_table}")
 
-        # Keep old table as backup for one write cycle (will be dropped on next run)
-        if table_exists:
-            vprint(f"  [OK] Old table preserved as 'stock_prices_daily_old' (backup)")
+        cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
 
         conn.commit()
         vprint(f"  [OK] Prices table updated successfully")
@@ -1004,9 +1045,21 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             staging_vol_row_count = cursor.fetchone()[0]
             vprint(f"  [OK] Volume staging table validated ({staging_vol_row_count} rows)")
 
+            # Versioned backup for volumes too
+            vol_backup_table = f"stock_volumes_daily_backup_{backup_timestamp}"
+            if vol_table_exists:
+                cursor.execute(f"ALTER TABLE stock_volumes_daily RENAME TO {vol_backup_table}")
+                # Clean up old volume backups
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name LIKE 'stock_volumes_daily_backup_%' ORDER BY name DESC")
+                vol_backup_tables = [row[0] for row in cursor.fetchall()]
+                if len(vol_backup_tables) > 3:
+                    for old_backup in vol_backup_tables[3:]:
+                        cursor.execute(f"DROP TABLE IF EXISTS [{old_backup}]")
+
             cursor.execute("DROP TABLE IF EXISTS stock_volumes_daily_old")
             if vol_table_exists:
-                cursor.execute("ALTER TABLE stock_volumes_daily RENAME TO stock_volumes_daily_old")
+                cursor.execute(f"CREATE TABLE stock_volumes_daily_old AS SELECT * FROM {vol_backup_table}")
+
             cursor.execute(f"ALTER TABLE {staging_vol_table} RENAME TO stock_volumes_daily")
             conn.commit()
             vprint(f"  [OK] Volumes table updated successfully")
