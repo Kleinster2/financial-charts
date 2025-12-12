@@ -113,11 +113,28 @@ window.ChartFixedLegend = {
         fixedLegend._resizeObserver = resizeObserver;
         fixedLegend._adjustFontSize = adjustFontSize;
 
+        // Attach cleanup method (document listeners added by makeDraggable)
+        fixedLegend._cleanup = () => {
+            if (fixedLegend._resizeObserver) {
+                fixedLegend._resizeObserver.disconnect();
+                fixedLegend._resizeObserver = null;
+            }
+            if (fixedLegend._docMouseMove) {
+                document.removeEventListener('mousemove', fixedLegend._docMouseMove);
+                fixedLegend._docMouseMove = null;
+            }
+            if (fixedLegend._docMouseUp) {
+                document.removeEventListener('mouseup', fixedLegend._docMouseUp);
+                fixedLegend._docMouseUp = null;
+            }
+        };
+
         return fixedLegend;
     },
 
     /**
      * Make element draggable within container
+     * Stores document listener refs on element for cleanup
      */
     makeDraggable(element, handle, container) {
         let isDragging = false;
@@ -149,7 +166,7 @@ window.ChartFixedLegend = {
             e.preventDefault();
         });
 
-        document.addEventListener('mousemove', (e) => {
+        const onMouseMove = (e) => {
             if (!isDragging) return;
 
             const dx = e.clientX - startX;
@@ -167,9 +184,9 @@ window.ChartFixedLegend = {
 
             element.style.left = `${newLeft}px`;
             element.style.top = `${newTop}px`;
-        });
+        };
 
-        document.addEventListener('mouseup', () => {
+        const onMouseUp = () => {
             if (isDragging) {
                 isDragging = false;
                 handle.style.cursor = 'move';
@@ -182,7 +199,14 @@ window.ChartFixedLegend = {
                     });
                 }
             }
-        });
+        };
+
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
+
+        // Store refs for cleanup
+        element._docMouseMove = onMouseMove;
+        element._docMouseUp = onMouseUp;
     },
 
     /**

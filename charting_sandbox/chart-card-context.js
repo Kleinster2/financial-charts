@@ -29,6 +29,7 @@ window.ChartCardContext = {
             initialShowFundamentalsPane = false,
             initialFundamentalsMetrics = ['revenue', 'netincome'],
             initialUseRaw = false,
+            initialUseLogScale = false,
             initialMultipliers = {},
             initialTickerColors = {},
             initialPriceScaleAssignments = {},
@@ -48,6 +49,11 @@ window.ChartCardContext = {
             initialNotes = '',
             initialManualInterval = null,
             initialDecimalPrecision = 2,
+            initialVolumePaneStretchFactor = 1.0,
+            initialRevenuePaneStretchFactor = 1.0,
+            initialFundamentalsPaneStretchFactor = 1.0,
+            initialStarred = false,
+            initialTags = [],
             cardId = null,
             targetPage = '1',
             saveCards = () => {}
@@ -68,40 +74,7 @@ window.ChartCardContext = {
             chartBox: elements.chartBox,
 
             // ═══════════════════════════════════════════════════════════════
-            // CHART INSTANCES (mutable - set after chart creation)
-            // ═══════════════════════════════════════════════════════════════
-            chart: null,
-            volPane: null,           // Volatility (σ) pane
-            volumePane: null,        // Trading volume pane
-            revenuePane: null,       // Revenue pane
-            fundamentalsPane: null,  // Fundamentals pane
-            diffChart: null,         // Diff pane chart
-
-            // ═══════════════════════════════════════════════════════════════
-            // SERIES REFERENCES (mutable)
-            // ═══════════════════════════════════════════════════════════════
-            avgSeries: null,
-            zeroLineSeries: null,
-            tickerLabelsContainer: null,
-            fixedLegendEl: null,
-
-            // ═══════════════════════════════════════════════════════════════
-            // SERIES MAPS (ticker -> series)
-            // ═══════════════════════════════════════════════════════════════
-            priceSeriesMap: new Map(),
-            volSeriesMap: new Map(),
-            volumeSeriesMap: new Map(),
-            revenueSeriesMap: new Map(),
-            fundamentalSeriesMap: new Map(),
-
-            // ═══════════════════════════════════════════════════════════════
-            // DATA MAPS
-            // ═══════════════════════════════════════════════════════════════
-            rawPriceMap: new Map(),
-            latestRebasedData: {},
-
-            // ═══════════════════════════════════════════════════════════════
-            // TICKER STATE
+            // TICKER STATE (persisted)
             // ═══════════════════════════════════════════════════════════════
             selectedTickers: new Set(),
             hiddenTickers: new Set(initialHidden),
@@ -127,6 +100,7 @@ window.ChartCardContext = {
             // DISPLAY OPTIONS
             // ═══════════════════════════════════════════════════════════════
             useRaw: initialUseRaw,
+            useLogScale: initialUseLogScale,
             lastLabelVisible: initialLastLabelVisible,
             lastTickerVisible: initialLastTickerVisible,
             fundamentalsMetrics: [...initialFundamentalsMetrics],
@@ -136,7 +110,9 @@ window.ChartCardContext = {
             // ═══════════════════════════════════════════════════════════════
             height: initialHeight,
             fontSize: initialFontSize,
-            volumePaneStretchFactor: 1.0,
+            volumePaneStretchFactor: initialVolumePaneStretchFactor,
+            revenuePaneStretchFactor: initialRevenuePaneStretchFactor,
+            fundamentalsPaneStretchFactor: initialFundamentalsPaneStretchFactor,
             decimalPrecision: initialDecimalPrecision,
             fixedLegendPos: { ...initialFixedLegendPos },
             fixedLegendSize: initialFixedLegendSize ? { ...initialFixedLegendSize } : null,
@@ -148,32 +124,21 @@ window.ChartCardContext = {
             notes: initialNotes,
             visibleRange: initialRange,
             manualInterval: initialManualInterval,
+            starred: initialStarred,
+            tags: [...initialTags],
 
             // ═══════════════════════════════════════════════════════════════
             // INTERNAL FLAGS
             // ═══════════════════════════════════════════════════════════════
-            skipRangeApplication: false,
+            skipRangeRestoration: false,  // Skip range restoration in pane operations (vs local skipRangeApplication for initial plot)
 
             // ═══════════════════════════════════════════════════════════════
-            // HANDLERS (set after creation)
-            // ═══════════════════════════════════════════════════════════════
-            crosshairHandler: null,
-            debouncedRebase: null,
-            rangeSaveHandler: null,
-            tickerLabelHandler: null,
-
-            // ═══════════════════════════════════════════════════════════════
-            // CALLBACKS
+            // CALLBACKS (for persistence)
             // ═══════════════════════════════════════════════════════════════
             saveCards,
             debouncedSaveCards: (window.ChartUtils?.debounce)
                 ? window.ChartUtils.debounce(saveCards, 300)
-                : saveCards,
-
-            // ═══════════════════════════════════════════════════════════════
-            // NAVIGATION
-            // ═══════════════════════════════════════════════════════════════
-            navLink: null
+                : saveCards
         };
 
         return ctx;
@@ -194,6 +159,7 @@ window.ChartCardContext = {
         card._showFundamentalsPane = ctx.showFundamentalsPane;
         card._fundamentalsMetrics = ctx.fundamentalsMetrics;
         card._useRaw = ctx.useRaw;
+        card._useLogScale = ctx.useLogScale;
         card._multiplierMap = ctx.multiplierMap;
         card._tickerColorMap = ctx.tickerColorMap;
         card._priceScaleAssignmentMap = ctx.priceScaleAssignmentMap;
@@ -210,10 +176,14 @@ window.ChartCardContext = {
         card._height = ctx.height;
         card._fontSize = ctx.fontSize;
         card._volumePaneStretchFactor = ctx.volumePaneStretchFactor;
+        card._revenuePaneStretchFactor = ctx.revenuePaneStretchFactor;
+        card._fundamentalsPaneStretchFactor = ctx.fundamentalsPaneStretchFactor;
         card._showNotes = ctx.showNotes;
         card._notes = ctx.notes;
         card._manualInterval = ctx.manualInterval;
         card._decimalPrecision = ctx.decimalPrecision;
+        card._starred = ctx.starred;
+        card._tags = ctx.tags;
     },
 
     /**
@@ -229,6 +199,7 @@ window.ChartCardContext = {
             showRevenue: ctx.showRevenuePane,
             showFundamentalsPane: ctx.showFundamentalsPane,
             useRaw: ctx.useRaw,
+            useLogScale: ctx.useLogScale,
             showAvg: ctx.showAvg,
             lastLabelVisible: ctx.lastLabelVisible,
             lastTickerVisible: ctx.lastTickerVisible,
@@ -246,24 +217,5 @@ window.ChartCardContext = {
      */
     getCurrentFontSize(ctx) {
         return ctx.fontSize || window.ChartConfig?.UI?.FONT_DEFAULT || 12;
-    },
-
-    /**
-     * Get current data range from chart
-     * @param {Object} ctx - The context object
-     * @returns {Object|null} Visible range or null
-     */
-    getCurrentDataRange(ctx) {
-        if (!ctx.chart) return null;
-        try {
-            const timeScale = ctx.chart.timeScale();
-            const visibleRange = timeScale.getVisibleRange();
-            if (visibleRange && visibleRange.from && visibleRange.to) {
-                return visibleRange;
-            }
-        } catch (e) {
-            console.warn('[ChartCardContext] Could not get data range:', e);
-        }
-        return null;
     }
 };

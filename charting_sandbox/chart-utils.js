@@ -485,6 +485,41 @@ window.ChartUtils = {
         // Ensure path starts with /
         const normalizedPath = path.startsWith('/') ? path : `/${path}`;
         return `${base}${normalizedPath}`;
+    },
+
+    // Shared ticker alias cache (fetched once, used by card.js and chart-fundamentals.js)
+    _aliasCache: null,
+    _aliasFetchPromise: null,
+
+    /**
+     * Get ticker aliases (cached globally)
+     * @returns {Promise<Object>} Map of aliased ticker -> canonical ticker
+     */
+    async getAliases() {
+        // Return cached result
+        if (this._aliasCache !== null) return this._aliasCache;
+
+        // Return in-flight promise if already fetching
+        if (this._aliasFetchPromise) return this._aliasFetchPromise;
+
+        // Fetch and cache
+        this._aliasFetchPromise = (async () => {
+            try {
+                const resp = await fetch(this.apiUrl('/api/ticker-aliases'));
+                if (resp.ok) {
+                    this._aliasCache = await resp.json();
+                    console.log('[ChartUtils] Loaded ticker aliases:', Object.keys(this._aliasCache).length);
+                } else {
+                    this._aliasCache = {};
+                }
+            } catch (e) {
+                console.warn('[ChartUtils] Failed to fetch ticker aliases:', e);
+                this._aliasCache = {};
+            }
+            return this._aliasCache;
+        })();
+
+        return this._aliasFetchPromise;
     }
 };
 

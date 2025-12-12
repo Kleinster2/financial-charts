@@ -46,6 +46,17 @@
     }
 
     /**
+     * Build title with optional alias hint
+     */
+    function buildTitle(ticker, aliases) {
+        const canonical = aliases[ticker];
+        if (canonical) {
+            return `Fundamentals: ${ticker} <span class="alias-hint">(→ ${canonical})</span>`;
+        }
+        return `Fundamentals: ${ticker}`;
+    }
+
+    /**
      * Fetch fundamental overview for a ticker
      */
     async function fetchOverview(ticker) {
@@ -211,7 +222,7 @@
             chartCard.appendChild(panel);
         }
 
-        // Show loading state
+        // Show loading state (plain title initially)
         panel.innerHTML = `
             <div class="fundamentals-header">
                 <div class="fundamentals-title">Fundamentals: ${ticker}</div>
@@ -226,17 +237,21 @@
             panel.classList.remove('show');
         });
 
-        // Fetch data in parallel
-        const [overview, earnings] = await Promise.all([
+        // Fetch data and aliases in parallel (uses shared ChartUtils cache)
+        const [overview, earnings, aliases] = await Promise.all([
             fetchOverview(ticker),
-            fetchEarnings(ticker, 'quarterly')
+            fetchEarnings(ticker, 'quarterly'),
+            window.ChartUtils.getAliases()
         ]);
+
+        // Build title with alias hint if applicable
+        const titleHtml = buildTitle(ticker, aliases);
 
         // Check if we got data
         if (!overview && (!earnings || earnings.length === 0)) {
             panel.innerHTML = `
                 <div class="fundamentals-header">
-                    <div class="fundamentals-title">Fundamentals: ${ticker}</div>
+                    <div class="fundamentals-title">${titleHtml}</div>
                     <span class="fundamentals-close">×</span>
                 </div>
                 <div class="fundamentals-error">
@@ -254,7 +269,7 @@
         // Build panel content
         let content = `
             <div class="fundamentals-header">
-                <div class="fundamentals-title">Fundamentals: ${ticker}</div>
+                <div class="fundamentals-title">${titleHtml}</div>
                 <span class="fundamentals-close">×</span>
             </div>
         `;

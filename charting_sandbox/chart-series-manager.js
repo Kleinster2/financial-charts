@@ -190,6 +190,47 @@ window.ChartSeriesManager = {
     },
 
     /**
+     * Setup price series for all tickers from API data
+     * High-level helper that processes fetched data and creates/updates series
+     *
+     * @param {Object} chart - LightweightCharts instance
+     * @param {Array} tickerList - Tickers to process
+     * @param {Object} data - API response data { ticker: [{time, value}, ...] }
+     * @param {Map} priceSeriesMap - Series map (mutated in place)
+     * @param {Map} rawPriceMap - Raw data map (mutated in place)
+     * @param {Object} latestRebasedData - Rebased data object (mutated in place)
+     * @param {Object} dataRefs - { hiddenTickers, tickerColorMap, multiplierMap, priceScaleAssignmentMap, useRaw, lastLabelVisible, decimalPrecision }
+     */
+    setupPriceSeries(chart, tickerList, data, priceSeriesMap, rawPriceMap, latestRebasedData, dataRefs) {
+        const { hiddenTickers, tickerColorMap, multiplierMap, priceScaleAssignmentMap, useRaw, lastLabelVisible, decimalPrecision } = dataRefs;
+
+        for (const ticker of tickerList) {
+            if (hiddenTickers.has(ticker)) continue;
+            const tickerData = data[ticker];
+            if (!tickerData) continue;
+
+            // API already returns objects with time (in seconds) and value properties
+            const rawData = tickerData.filter(d => d.value != null);
+            rawPriceMap.set(ticker, rawData);
+
+            const color = tickerColorMap.get(ticker);
+            const mult = multiplierMap.get(ticker) || 1;
+
+            const plotData = useRaw ? rawData : this.rebaseData(rawData, mult);
+
+            if (!useRaw) {
+                latestRebasedData[ticker] = plotData;
+            }
+
+            const precision = decimalPrecision !== undefined ? decimalPrecision : 2;
+            const priceScaleId = priceScaleAssignmentMap.get(ticker) || 'right';
+            this.createOrUpdateSeries(
+                chart, ticker, plotData, color, priceSeriesMap, lastLabelVisible, !useRaw, precision, priceScaleId
+            );
+        }
+    },
+
+    /**
      * Clear all series from chart
      */
     clearAllSeries(chart, priceSeriesMap, volSeriesMap = null, avgSeries = null, volPane = null) {

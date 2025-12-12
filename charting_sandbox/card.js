@@ -131,20 +131,33 @@
     // Fetch company names for tickers; optionally pass in chipNodes to avoid global DOM scan
     async function ensureNames(tickers, chipNodes = null) {
         const missing = tickers.filter(t => !(t in nameCache));
-        if (!missing.length) return;
+        // Fetch aliases in parallel with metadata (uses shared ChartUtils cache)
+        const aliasPromise = window.ChartUtils.getAliases();
 
-        try {
-            const metadata = await window.DataFetcher.getMetadata(missing);
-            Object.assign(nameCache, metadata);
-
-            const chips = chipNodes ? Array.from(chipNodes) : document.querySelectorAll('.chip');
-            chips.forEach(ch => {
-                const t = ch.dataset.ticker;
-                if (nameCache[t]) ch.title = nameCache[t];
-            });
-        } catch (error) {
-            console.error('Failed to fetch metadata:', error);
+        if (missing.length) {
+            try {
+                const metadata = await window.DataFetcher.getMetadata(missing);
+                Object.assign(nameCache, metadata);
+            } catch (error) {
+                console.error('Failed to fetch metadata:', error);
+            }
         }
+
+        // Wait for aliases before updating tooltips
+        const aliases = await aliasPromise;
+
+        // Update chip tooltips with company name + alias hint
+        const chips = chipNodes ? Array.from(chipNodes) : document.querySelectorAll('.chip');
+        chips.forEach(ch => {
+            const t = ch.dataset.ticker;
+            let tooltip = nameCache[t] || '';
+            // Add alias hint if this ticker is aliased
+            if (aliases[t]) {
+                const hint = `${t} → ${aliases[t]} (fundamentals)`;
+                tooltip = tooltip ? `${tooltip}\n${hint}` : hint;
+            }
+            if (tooltip) ch.title = tooltip;
+        });
     }
 
     // Save all chart states
