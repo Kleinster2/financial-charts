@@ -389,6 +389,16 @@ Get fundamental data (overview, earnings, income, balance, cashflow).
 GET /api/fundamentals/earnings?ticker=AAPL
 ```
 
+### `/api/ticker-aliases`
+Returns ticker alias mapping for share classes with identical financials.
+
+```
+GET /api/ticker-aliases
+→ { "GOOGL": "GOOG", "BRK-B": "BRK-A", ... }
+```
+
+Fundamentals endpoints automatically resolve aliases (e.g., GOOGL queries use GOOG data). The UI shows hints like "GOOGL → GOOG (fundamentals)" in chip tooltips and modal headers.
+
 ### `/api/workspace`
 - **GET**: Load saved workspace configuration
 - **POST**: Save current workspace
