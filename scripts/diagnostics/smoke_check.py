@@ -27,6 +27,33 @@ def fetch_data(base_url: str, tickers: list, timeout: float):
     return resp.json()
 
 
+def fetch_revenue(base_url: str, tickers: list, timeout: float):
+    """Fetch revenue data for given tickers."""
+    url = base_url.rstrip("/") + "/api/revenue"
+    resp = requests.get(url, params={"tickers": ",".join(tickers)}, timeout=timeout)
+    if resp.status_code != 200:
+        raise RuntimeError(f"/api/revenue returned {resp.status_code}: {resp.text[:200]}")
+    return resp.json()
+
+
+def check_ticker_aliases(base_url: str, timeout: float):
+    """Check that aliased tickers (e.g., GOOGL→GOOG) return identical data."""
+    # Test GOOGL and GOOG - should return identical revenue data
+    data = fetch_revenue(base_url, ["GOOG", "GOOGL"], timeout)
+
+    goog_data = data.get("GOOG", [])
+    googl_data = data.get("GOOGL", [])
+
+    if not goog_data:
+        raise RuntimeError("GOOG revenue data is empty")
+    if not googl_data:
+        raise RuntimeError("GOOGL revenue data is empty")
+    if goog_data != googl_data:
+        raise RuntimeError(f"GOOG ({len(goog_data)} pts) != GOOGL ({len(googl_data)} pts) - alias resolution broken")
+
+    return len(goog_data)
+
+
 def trading_days_ago(n: int) -> datetime:
     """Return date n trading days ago (rough estimate: skip weekends)."""
     today = datetime.now()
@@ -129,6 +156,15 @@ def main():
     except Exception as e:
         errors.append(f"/api/data failed: {e}")
         print(f"[FAIL] /api/data: {e}")
+
+    # Check ticker alias resolution (GOOGL → GOOG)
+    try:
+        count = check_ticker_aliases(args.base_url, args.timeout)
+        if not args.quiet:
+            print(f"[OK] Ticker aliases: GOOGL=GOOG ({count} revenue points)")
+    except Exception as e:
+        errors.append(f"Ticker alias check failed: {e}")
+        print(f"[FAIL] Ticker aliases: {e}")
 
     # Summary
     if errors:
