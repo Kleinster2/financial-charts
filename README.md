@@ -22,6 +22,23 @@ Interactive financial charting application for visualizing stock prices, fundame
 - **Stock prices** are adjusted for splits and dividends (yfinance `auto_adjust=True`)
 - **FRED indicators** update with varying lags (employment: monthly, GDP: quarterly)
 
+## Critical Data Warning
+
+Some data in `market_data.db` is **irreplaceable** and cannot be re-downloaded:
+
+| Data | Description |
+|------|-------------|
+| **B3 DI Yield Curve** | 5,445 days of manually cleaned Brazilian interest rates (2003-present) |
+| **Bond prices** | Corporate bond prices (no bulk API) |
+| **Portfolio data** | User-created portfolios and transactions |
+
+**See [DATABASE_GUIDE.md](DATABASE_GUIDE.md) for full documentation on data classification and backup procedures.**
+
+Before running updates, use incremental mode to protect historical data:
+```bash
+python update_market_data.py  # Select option 1: Incremental (10 days)
+```
+
 ## Project Structure
 
 ```
@@ -32,6 +49,10 @@ financial-charts/
 ├── update_market_data_fixed.py # Main data update script
 ├── download_all_assets.py      # Ticker lists and download logic
 ├── download_single_ticker.py   # Single ticker updates
+│
+├── scripts/                    # Auxiliary scripts (see scripts/README.md)
+│   ├── one_off/                # Migrations, backfills, one-time setup
+│   └── diagnostics/            # Audits, health checks
 │
 ├── charting_app/               # Backend Flask API
 │   ├── app.py                  # Main Flask server (port 5000)
@@ -95,10 +116,18 @@ financial-charts/
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-# Install dependencies
+# Core install (daily updates + charting app)
 pip install -r requirements.txt
 pip install -r charting_app\requirements.txt
+
+# Optional: dendrograms, DuckDB, JGB APIs
+pip install -r requirements-optional.txt
 ```
+
+**Dependency breakdown:**
+- `requirements.txt` - Daily data updates (yfinance, pandas, python-dotenv, pytz)
+- `charting_app/requirements.txt` - Flask API server
+- `requirements-optional.txt` - Analysis tools (scipy, matplotlib, duckdb, fredapi)
 
 ## Quickstart
 
@@ -272,7 +301,7 @@ idx_prices_ticker, idx_prices_date, idx_volumes_ticker, idx_volumes_date
 pip install duckdb
 
 # 2. Initial migration from SQLite (one-time, ~30 seconds)
-python migrate_to_duckdb.py
+python scripts/one_off/migrate_to_duckdb.py
 
 # 3. Enable DuckDB for the app
 $env:USE_DUCKDB = "1"
@@ -299,7 +328,7 @@ update_market_data.py
 
 | File | Purpose |
 |------|---------|
-| `migrate_to_duckdb.py` | One-time SQLite → DuckDB migration |
+| `scripts/one_off/migrate_to_duckdb.py` | One-time SQLite → DuckDB migration |
 | `duckdb_writer.py` | Write helpers for dual-write during updates |
 | `charting_app/duckdb_queries.py` | Query layer with PIVOT for API compatibility |
 | `constants.py` | `USE_DUCKDB`, `DUCKDB_PATH`, connection helpers |

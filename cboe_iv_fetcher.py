@@ -11,6 +11,7 @@ import logging
 import yfinance as yf
 import pandas as pd
 import numpy as np
+from constants import DB_PATH
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -21,7 +22,7 @@ class CBOEImpliedVolatilityFetcher:
     """Fetcher for implied volatility data using yfinance"""
 
     def __init__(self, db_path: Optional[str] = None):
-        self.db_path = db_path or 'market_data.db'
+        self.db_path = db_path or DB_PATH
 
     def get_stock_iv(self, symbol: str) -> Dict:
         """

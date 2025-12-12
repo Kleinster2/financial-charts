@@ -11,8 +11,7 @@ import sqlite3
 import yfinance as yf
 import pandas as pd
 from datetime import datetime
-
-DB_PATH = 'market_data.db'
+from constants import DB_PATH
 
 # Map of desired ticker -> possible variants to try
 DELISTED_EV_TICKERS = {

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Canada TSX Markets - Charts</title>
+
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:1rem;background:#fafafa;}
+    h1{color:#c41e3a;margin:0 0 0.5rem 0;padding:0.5rem 0;border-bottom:3px solid #c41e3a;}
+    h2{color:#333;font-size:1.3rem;margin:1.5rem 0 0.5rem 0;}
+    .subtitle{color:#666;font-size:0.95rem;margin-bottom:1.5rem;}
+    #top-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:1rem;}
+    button{padding:4px 10px;font-size:1rem;}
+    .chart-box{width:100%;height:600px;border:1px solid #ccc;background:#fff;margin-top:1rem;position:relative;}
+    .chart-card{margin-bottom:3rem;}
+    .controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:4px;}
+    .ticker-chips{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end;width:100%;margin-top:4px;}
+    .chip{display:inline-block;border-radius:4px;padding:2px 6px;margin:2px;font-size:0.9rem;color:#fff;}
+    .chip--hidden{opacity:0.4;text-decoration:line-through;}
+    .chip .close{margin-left:4px;cursor:pointer;font-weight:bold;}
+    .tab-bar{display:flex;flex-wrap:wrap;gap:4px;margin-left:12px;flex:1 1 auto;}
+    .tab-bar .tab{padding:4px 8px;border:1px solid #666;border-radius:4px;background:#eee;cursor:pointer;font-size:0.9rem;}
+    .tab-bar .tab.active{background:#666;color:#fff;}
+    #chart-nav{position:sticky;top:0;z-index:200;background:#fff;padding:4px 8px;border-bottom:1px solid #ddd;margin-bottom:8px;}
+    #chart-nav.hidden{display:none;}
+    #chart-nav a{margin-right:8px;text-decoration:none;color:#007bff;font-size:0.95rem;}
+    #chart-nav a:hover{text-decoration:underline;}
+    #chart-nav a.active{font-weight:bold;}
+    #toggle-chart-nav-btn{margin-left:8px;}
+    .static-legend{display:none !important;}
+    #global-search-container{position:relative;flex:0 0 auto;margin-right:12px;}
+    #global-search-input{padding:6px 10px;font-size:0.95rem;border:1px solid #999;border-radius:4px;width:250px;outline:none;}
+    #global-search-input:focus{border-color:#c41e3a;box-shadow:0 0 0 2px rgba(196,30,58,0.1);}
+    #search-results{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid #ddd;border-top:none;max-height:400px;overflow-y:auto;z-index:1000;box-shadow:0 4px 6px rgba(0,0,0,0.1);display:none;}
+    #search-results.show{display:block;}
+    .search-result-item{padding:8px 12px;cursor:pointer;border-bottom:1px solid #eee;font-size:0.9rem;}
+    .search-result-item:hover{background:#f0f0f0;}
+    .search-result-item:last-child{border-bottom:none;}
+    .search-result-ticker{font-weight:bold;color:#c41e3a;margin-right:8px;}
+    .search-result-name{color:#666;margin-right:8px;font-size:0.85rem;}
+    .search-result-location{color:#999;font-size:0.8rem;}
+    .search-no-results{padding:12px;text-align:center;color:#999;font-style:italic;}
+    .fundamentals-panel{background:#f8f9fa;border:1px solid #dee2e6;border-radius:4px;padding:12px;margin-top:8px;display:none;font-size:0.9rem;}
+    .fundamentals-panel.show{display:block;}
+    .fundamentals-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;padding-bottom:8px;border-bottom:2px solid #c41e3a;}
+    .fundamentals-title{font-size:1.1rem;font-weight:bold;color:#333;}
+    .fundamentals-close{cursor:pointer;font-size:1.2rem;color:#999;padding:0 6px;}
+    .fundamentals-close:hover{color:#333;}
+    .fundamentals-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:12px;}
+    .fundamentals-section{background:#fff;padding:10px;border-radius:4px;border:1px solid #e0e0e0;}
+    .fundamentals-section-title{font-weight:bold;margin-bottom:8px;color:#c41e3a;font-size:0.95rem;}
+    .fundamentals-metric{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #f0f0f0;}
+    .fundamentals-metric:last-child{border-bottom:none;}
+    .fundamentals-metric-label{color:#666;}
+    .fundamentals-metric-value{font-weight:bold;color:#333;}
+    .fundamentals-metric-value.positive{color:#28a745;}
+    .fundamentals-metric-value.negative{color:#dc3545;}
+    .fundamentals-earnings{margin-top:12px;}
+    .fundamentals-earnings-title{font-weight:bold;margin-bottom:8px;color:#c41e3a;}
+    .fundamentals-earnings-table{width:100%;border-collapse:collapse;background:#fff;}
+    .fundamentals-earnings-table th{background:#c41e3a;color:#fff;padding:8px;text-align:left;font-size:0.85rem;}
+    .fundamentals-earnings-table td{padding:6px 8px;border-bottom:1px solid #e0e0e0;font-size:0.85rem;}
+    .fundamentals-earnings-table tr:last-child td{border-bottom:none;}
+    .fundamentals-earnings-table tr:hover{background:#f8f9fa;}
+    .fundamentals-loading{text-align:center;padding:20px;color:#999;}
+    .fundamentals-error{text-align:center;padding:20px;color:#dc3545;}
+    .info-box{background:#fef0f2;border-left:4px solid #c41e3a;padding:12px;margin:1rem 0;border-radius:4px;}
+    .info-box h3{margin:0 0 8px 0;color:#c41e3a;font-size:1.1rem;}
+    .info-box p{margin:4px 0;color:#333;line-height:1.5;}
+    .ticker-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:1rem 0;}
+    .ticker-card{background:#fff;border:1px solid #ddd;border-radius:4px;padding:12px;cursor:pointer;transition:all 0.2s;}
+    .ticker-card:hover{border-color:#c41e3a;box-shadow:0 2px 8px rgba(196,30,58,0.1);}
+    .ticker-card-symbol{font-weight:bold;font-size:1.1rem;color:#c41e3a;margin-bottom:4px;}
+    .ticker-card-name{color:#666;font-size:0.9rem;}
+    .sector-header{background:#c41e3a;color:#fff;padding:8px 12px;border-radius:4px 4px 0 0;font-weight:bold;margin-top:1.5rem;}
+  </style>
+  <!-- Lightweight Charts library -->
+  <script src="https://unpkg.com/lightweight-charts@5.0.9/dist/lightweight-charts.standalone.development.js"></script>
+  <!-- Configuration -->
+  <script src="config.js"></script>
+</head>
+<body>
+  <h1>Canada TSX Markets</h1>
+  <p class="subtitle">Canadian stocks: Banks, Energy, Mining, Technology, and more</p>
+
+  <div class="info-box">
+    <h3>About Canadian Markets</h3>
+    <p>The Toronto Stock Exchange (TSX) is the largest stock exchange in Canada and among the largest in the world. It is home to major financial institutions, energy companies, mining giants, and growing technology firms.</p>
+    <p>Canada is a global leader in banking, natural resources (oil, gas, gold, uranium), and has emerging strength in technology with companies like Shopify and Constellation Software.</p>
+  </div>
+
+  <h2>Quick Access - Canadian Sectors</h2>
+
+  <div class="sector-header">Big Six Banks</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('RY.TO')">
+      <div class="ticker-card-symbol">RY.TO</div>
+      <div class="ticker-card-name">Royal Bank of Canada</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('TD.TO')">
+      <div class="ticker-card-symbol">TD.TO</div>
+      <div class="ticker-card-name">TD Bank</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('BNS.TO')">
+      <div class="ticker-card-symbol">BNS.TO</div>
+      <div class="ticker-card-name">Scotiabank</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('BMO.TO')">
+      <div class="ticker-card-symbol">BMO.TO</div>
+      <div class="ticker-card-name">Bank of Montreal</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('CM.TO')">
+      <div class="ticker-card-symbol">CM.TO</div>
+      <div class="ticker-card-name">CIBC</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('NA.TO')">
+      <div class="ticker-card-symbol">NA.TO</div>
+      <div class="ticker-card-name">National Bank</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Energy - Oil & Gas</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('CNQ.TO')">
+      <div class="ticker-card-symbol">CNQ.TO</div>
+      <div class="ticker-card-name">Canadian Natural Resources</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('SU.TO')">
+      <div class="ticker-card-symbol">SU.TO</div>
+      <div class="ticker-card-name">Suncor Energy</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('IMO.TO')">
+      <div class="ticker-card-symbol">IMO.TO</div>
+      <div class="ticker-card-name">Imperial Oil</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('CVE.TO')">
+      <div class="ticker-card-symbol">CVE.TO</div>
+      <div class="ticker-card-name">Cenovus Energy</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('ENB.TO')">
+      <div class="ticker-card-symbol">ENB.TO</div>
+      <div class="ticker-card-name">Enbridge</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('TRP.TO')">
+      <div class="ticker-card-symbol">TRP.TO</div>
+      <div class="ticker-card-name">TC Energy</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Mining - Gold & Precious Metals</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('ABX.TO')">
+      <div class="ticker-card-symbol">ABX.TO</div>
+      <div class="ticker-card-name">Barrick Gold</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('AEM.TO')">
+      <div class="ticker-card-symbol">AEM.TO</div>
+      <div class="ticker-card-name">Agnico Eagle Mines</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('K.TO')">
+      <div class="ticker-card-symbol">K.TO</div>
+      <div class="ticker-card-name">Kinross Gold</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('WPM.TO')">
+      <div class="ticker-card-symbol">WPM.TO</div>
+      <div class="ticker-card-name">Wheaton Precious Metals</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('FNV.TO')">
+      <div class="ticker-card-symbol">FNV.TO</div>
+      <div class="ticker-card-name">Franco-Nevada</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Mining - Base Metals & Uranium</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('FM.TO')">
+      <div class="ticker-card-symbol">FM.TO</div>
+      <div class="ticker-card-name">First Quantum Minerals</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('TECK-B.TO')">
+      <div class="ticker-card-symbol">TECK-B.TO</div>
+      <div class="ticker-card-name">Teck Resources</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('CCO.TO')">
+      <div class="ticker-card-symbol">CCO.TO</div>
+      <div class="ticker-card-name">Cameco (Uranium)</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('NXE.TO')">
+      <div class="ticker-card-symbol">NXE.TO</div>
+      <div class="ticker-card-name">NexGen Energy (Uranium)</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('NTR.TO')">
+      <div class="ticker-card-symbol">NTR.TO</div>
+      <div class="ticker-card-name">Nutrien (Fertilizers)</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Technology</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('SHOP.TO')">
+      <div class="ticker-card-symbol">SHOP.TO</div>
+      <div class="ticker-card-name">Shopify</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('CSU.TO')">
+      <div class="ticker-card-symbol">CSU.TO</div>
+      <div class="ticker-card-name">Constellation Software</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('OTEX.TO')">
+      <div class="ticker-card-symbol">OTEX.TO</div>
+      <div class="ticker-card-name">Open Text</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('DSG.TO')">
+      <div class="ticker-card-symbol">DSG.TO</div>
+      <div class="ticker-card-name">Descartes Systems</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('KXS.TO')">
+      <div class="ticker-card-symbol">KXS.TO</div>
+      <div class="ticker-card-name">Kinaxis</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Transportation - Rail</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('CNR.TO')">
+      <div class="ticker-card-symbol">CNR.TO</div>
+      <div class="ticker-card-name">CN Rail</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('CP.TO')">
+      <div class="ticker-card-symbol">CP.TO</div>
+      <div class="ticker-card-name">Canadian Pacific Kansas City</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('AC.TO')">
+      <div class="ticker-card-symbol">AC.TO</div>
+      <div class="ticker-card-name">Air Canada</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Consumer & Retail</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('ATD.TO')">
+      <div class="ticker-card-symbol">ATD.TO</div>
+      <div class="ticker-card-name">Alimentation Couche-Tard</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('L.TO')">
+      <div class="ticker-card-symbol">L.TO</div>
+      <div class="ticker-card-name">Loblaw Companies</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('DOL.TO')">
+      <div class="ticker-card-symbol">DOL.TO</div>
+      <div class="ticker-card-name">Dollarama</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('QSR.TO')">
+      <div class="ticker-card-symbol">QSR.TO</div>
+      <div class="ticker-card-name">Restaurant Brands International</div>
+    </div>
+  </div>
+
+  <div class="sector-header">Telecom</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('BCE.TO')">
+      <div class="ticker-card-symbol">BCE.TO</div>
+      <div class="ticker-card-name">BCE (Bell Canada)</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('T.TO')">
+      <div class="ticker-card-symbol">T.TO</div>
+      <div class="ticker-card-name">TELUS</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('RCI-B.TO')">
+      <div class="ticker-card-symbol">RCI-B.TO</div>
+      <div class="ticker-card-name">Rogers Communications</div>
+    </div>
+  </div>
+
+  <div class="sector-header">ETFs</div>
+  <div class="ticker-grid">
+    <div class="ticker-card" onclick="addToChart('XIU.TO')">
+      <div class="ticker-card-symbol">XIU.TO</div>
+      <div class="ticker-card-name">iShares S&P/TSX 60 ETF</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('XIC.TO')">
+      <div class="ticker-card-symbol">XIC.TO</div>
+      <div class="ticker-card-name">iShares TSX Composite ETF</div>
+    </div>
+    <div class="ticker-card" onclick="addToChart('ZCN.TO')">
+      <div class="ticker-card-symbol">ZCN.TO</div>
+      <div class="ticker-card-name">BMO S&P/TSX Composite ETF</div>
+    </div>
+  </div>
+
+  <h2>Charts</h2>
+  <div id="top-controls">
+    <div id="global-search-container">
+      <input type="text" id="global-search-input" placeholder="Search tickers or companies...">
+      <div id="search-results"></div>
+    </div>
+    <button id="new-page-btn">New Page</button>
+    <button id="toggle-chart-nav-btn">Hide Chart List</button>
+    <div id="tab-bar" class="tab-bar"></div>
+  </div>
+  <h2 id="page-title" style="margin: 0 0 1rem 0; padding: 0.5rem 0; border-bottom: 2px solid #c41e3a; color: #333;">Canadian Market Overview</h2>
+  <nav id="chart-nav"></nav>
+  <div id="pages-container">
+    <div class="page" data-page="1">
+      <div id="charts-wrapper"></div>
+    </div>
+  </div>
+  <datalist id="ticker-list"></datalist>
+
+  <script>
+    // Helper function to add ticker to first chart or create new chart
+    function addToChart(ticker) {
+      const firstChart = document.querySelector('.chart-card');
+      if (firstChart && firstChart._addTicker) {
+        firstChart._addTicker(ticker);
+      } else {
+        // No chart exists, create one with this ticker
+        if (window.createChartCard) {
+          createChartCard([ticker]);
+        }
+      }
+    }
+  </script>
+
+  <!-- Modular JavaScript files -->
+  <script src="toast.js?v=1"></script>
+  <script src="data-fetcher.js?v=4"></script>
+  <script src="state-manager.js?v=3"></script>
+  <script src="chart-utils.js?v=2"></script>
+  <script src="chart-legend.js?v=3"></script>
+  <script src="chart-fixed-legend.js?v=5"></script>
+  <script src="chart-export.js?v=3"></script>
+  <script src="chart-series-manager.js?v=5"></script>
+  <script src="chart-ticker-labels.js?v=1"></script>
+  <script src="chart-volume.js?v=4"></script>
+  <script src="chart-dom-builder.js?v=10"></script>
+  <script src="card-event-binder.js?v=1"></script>
+  <script src="card-state.js?v=1"></script>
+  <script src="chart-updaters.js?v=1"></script>
+  <script src="chart-event-handlers.js?v=1"></script>
+  <script src="pages.js?v=3"></script>
+  <script src="card.js?v=39"></script>
+  <script src="global-search.js?v=7"></script>
+  <script src="chart-fundamentals.js?v=1"></script>
+  <script src="chart-fundamentals-pane.js?v=1"></script>
+  <script src="chart-nav-toggle.js?v=1"></script>
+
+  <script>
+    // Initialize with Canadian companies on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      // Store custom page name
+      const pageNames = {1: 'Canadian Market Overview'};
+      try {
+        localStorage.setItem('sandbox_pages', JSON.stringify({
+          names: pageNames,
+          active: 1
+        }));
+      } catch (e) {
+        console.warn('Could not save page names to localStorage:', e);
+      }
+
+      // Create initial charts with Canadian companies
+      setTimeout(() => {
+        // Chart 1: Big Six Banks
+        createChartCard(['RY.TO', 'TD.TO', 'BNS.TO', 'BMO.TO', 'CM.TO', 'NA.TO']);
+
+        // Chart 2: Energy Giants
+        createChartCard(['CNQ.TO', 'SU.TO', 'ENB.TO', 'TRP.TO']);
+
+        // Chart 3: Mining & Resources
+        createChartCard(['ABX.TO', 'AEM.TO', 'CCO.TO', 'NTR.TO']);
+
+        // Chart 4: Tech Leaders
+        createChartCard(['SHOP.TO', 'CSU.TO', 'DSG.TO']);
+      }, 500);
+    });
+  </script>
+
+</body>
+</html>

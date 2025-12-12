@@ -132,3 +132,131 @@ Price/volume tables use wide format: one row per date, one column per ticker.
 
 Dates are stored as strings: `YYYY-MM-DD` or `YYYY-MM-DD HH:MM:SS`
 - Normalize on read: `pd.to_datetime(df['Date'])`
+
+---
+
+## Bug History and Fixes (December 2025)
+
+### Incident: Database Wiped by Partial Asset Update
+
+**Date:** December 11, 2025
+**Impact:** Complete loss of stock_prices_daily table (8,700+ rows wiped)
+**Root Cause:** Multiple bugs in `download_all_assets.py`
+
+#### Bug 1: Merge Logic Corrupted Non-Downloaded Columns
+
+**Location:** `download_all_assets.py` lines 874-877 (before fix)
+
+**The Bug:**
+```python
+# OLD BUGGY CODE
+combined_df = pd.concat([combined_df, new_data_df])
+combined_df = combined_df[~combined_df.index.duplicated(keep='last')]
+```
+
+**Problem:** When running `--assets china` (or any partial update):
+1. `new_data_df` only contained Chinese ticker columns (~80 columns)
+2. `pd.concat` + `keep='last'` replaced entire rows for overlapping dates
+3. For those dates, ALL non-Chinese columns became NaN
+4. B3 DI data, US stocks, ETFs, etc. were silently corrupted
+
+**The Fix:**
+```python
+# NEW SAFE CODE
+# Only update specific columns that were downloaded
+for col in new_data_df.columns:
+    for date in new_data_df.index:
+        if date in combined_df.index:
+            combined_df.loc[date, col] = new_data_df.loc[date, col]
+```
+
+#### Bug 2: No Safety Check When existing_df Was Empty
+
+**Location:** `download_all_assets.py` line 884-885 (before fix)
+
+**The Bug:**
+```python
+else:
+    combined_df = new_data_df  # DANGEROUS: Replaces entire table!
+```
+
+**Problem:** If `existing_df` was empty for ANY reason (database lock, read failure, date parsing issue), the entire table would be replaced with just the newly downloaded data.
+
+**The Fix:**
+```python
+# CRITICAL SAFETY CHECK: If table exists but we couldn't read data, ABORT
+if table_exists and existing_df.empty and existing_row_count_before_parse > 0:
+    vprint("CRITICAL ERROR: Table exists but existing_df is empty!")
+    vprint("ABORTING to prevent complete data loss.")
+    return
+```
+
+#### Bug 3: No Database Lock Handling
+
+**Location:** `download_all_assets.py` line 800 (before fix)
+
+**The Bug:**
+```python
+existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
+# No try-except, no retry logic
+```
+
+**Problem:** If database was locked by another process (Flask app, concurrent update), `read_sql` could fail or return incomplete data, leading to Bug 2.
+
+**The Fix:**
+```python
+# Read with retry logic for database locks
+max_retries = 3
+retry_delay = 2
+for attempt in range(max_retries):
+    try:
+        existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
+        break
+    except Exception as e:
+        if "locked" in str(e).lower() and attempt < max_retries - 1:
+            time.sleep(retry_delay)
+            retry_delay *= 2  # Exponential backoff
+        else:
+            vprint(f"ERROR: Failed to read existing data. ABORTING.")
+            return
+```
+
+#### Bug 4: Sanity Checks Only Warned, Didn't Abort
+
+**Location:** `download_all_assets.py` lines 945-947 (before fix)
+
+**The Bug:**
+```python
+if existing_rows > 0 and new_rows < existing_rows * 0.5:
+    vprint("WARNING: New row count is less than 50% of existing")
+    vprint("Proceeding with caution...")  # <-- Didn't abort!
+```
+
+**The Fix:**
+```python
+if existing_rows > 0 and new_rows < existing_rows * 0.5:
+    vprint("CRITICAL ERROR: New row count is less than 50% of existing")
+    vprint("ABORTING to prevent data loss.")
+    return  # <-- Now aborts
+```
+
+### Prevention Measures Now in Place
+
+1. **Database lock retry:** 3 attempts with exponential backoff
+2. **Date parsing validation:** Abort if >10% of rows fail to parse
+3. **Empty DataFrame check:** Abort if table exists but can't be read
+4. **Safe merge logic:** Only update downloaded columns, never replace rows
+5. **Row count validation:** Abort if new data is <50% of existing
+6. **Column count validation:** Abort if columns drop by >90%
+7. **Integrity checks:** Sample historical SPY values before write
+
+### Recovery Procedure Used
+
+1. Identified latest valid backup: `stock_prices_daily_backup_20251211_012442`
+2. Restored table from backup:
+   ```sql
+   ALTER TABLE stock_prices_daily RENAME TO stock_prices_daily_corrupted;
+   ALTER TABLE stock_prices_daily_backup_20251211_012442 RENAME TO stock_prices_daily;
+   ```
+3. Verified B3 DI data was intact
+4. Applied fixes to prevent recurrence

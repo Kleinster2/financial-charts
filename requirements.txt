@@ -1,5 +1,8 @@
+# Core dependencies for daily data updates
 pandas
 yfinance
 lxml
 requests
 beautifulsoup4
+python-dotenv  # Alpha Vantage API key loading
+pytz           # Timezone handling for FX NY close

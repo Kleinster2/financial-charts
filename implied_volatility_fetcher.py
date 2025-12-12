@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import logging
+from constants import DB_PATH
 
 # Load environment variables
 load_dotenv()
@@ -35,7 +36,7 @@ class ImpliedVolatilityFetcher:
         if not self.api_key:
             raise ValueError("Alpha Vantage API key not found. Set ALPHA_VANTAGE_API_KEY in .env file")
 
-        self.db_path = db_path or 'market_data.db'
+        self.db_path = db_path or DB_PATH
         self.last_call_time = 0
 
     def _rate_limit(self):

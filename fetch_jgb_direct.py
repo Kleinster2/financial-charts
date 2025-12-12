@@ -9,6 +9,7 @@ import sqlite3
 import requests
 from datetime import datetime
 import sys
+from constants import DB_PATH
 
 def fetch_jgb_yields_direct():
     """
@@ -95,7 +96,7 @@ def store_in_database(yield_data):
         return False
 
     try:
-        conn = sqlite3.connect('market_data.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
 
         # Ensure table exists
@@ -165,7 +166,7 @@ def display_recent_comparison():
     """Show recent JGB yields vs bond ETF prices"""
 
     try:
-        conn = sqlite3.connect('market_data.db')
+        conn = sqlite3.connect(DB_PATH)
 
         # Recent JGB yields
         query_yields = '''

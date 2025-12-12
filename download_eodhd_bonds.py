@@ -11,6 +11,7 @@ import pandas as pd
 import sqlite3
 from datetime import datetime, timedelta
 import time
+from constants import DB_PATH
 
 # EODHD API Configuration
 API_TOKEN = "6919787a7f5c78.39425766"  # EODHD API token
@@ -133,13 +134,14 @@ def get_bond_historical_data(cusip, bond_name, from_date='2020-01-01'):
         print(f"  ✗ Error fetching historical data for {bond_name}: {e}")
         return None
 
-def save_bonds_to_database(bonds_data, db_path='market_data.db'):
+def save_bonds_to_database(bonds_data, db_path=None):
     """
     Save bond data to SQLite database
 
     Creates a new table: bond_prices_daily
     Columns: Date, AAPL_3.25_2029, AAPL_3.85_2043, etc.
     """
+    db_path = db_path or DB_PATH
 
     if not bonds_data:
         print("No bond data to save")
@@ -170,10 +172,11 @@ def save_bonds_to_database(bonds_data, db_path='market_data.db'):
 
     conn.close()
 
-def save_bond_metadata(bonds_info, db_path='market_data.db'):
+def save_bond_metadata(bonds_info, db_path=None):
     """
     Save bond metadata to database
     """
+    db_path = db_path or DB_PATH
 
     if not bonds_info:
         return
@@ -235,7 +238,7 @@ def main():
 
     # Save metadata
     if bonds_info:
-        save_bond_metadata(bonds_info, 'market_data.db')
+        save_bond_metadata(bonds_info)
 
     # Fetch historical data (uses additional API calls)
     print("\n" + "=" * 70)
@@ -261,7 +264,7 @@ def main():
 
     # Save to database
     if bonds_historical:
-        save_bonds_to_database(bonds_historical, 'market_data.db')
+        save_bonds_to_database(bonds_historical)
 
     print("\n" + "=" * 70)
     print("COMPLETE")

@@ -16,31 +16,115 @@
   let highlightsMode = false;
     window.highlightsMode = false; // Show only starred charts
 
-  // Toggle highlights mode - show only starred charts across all pages
+  // Toggle highlights mode - show only starred charts across ALL pages
   function toggleHighlightsMode() {
     highlightsMode = !highlightsMode;
-        window.highlightsMode = highlightsMode;
+    window.highlightsMode = highlightsMode;
     const btn = document.querySelector('.highlights-toggle-btn');
     if (btn) {
       btn.textContent = highlightsMode ? String.fromCharCode(9733) + ' Highlights ON' : String.fromCharCode(9734) + ' Highlights';
       btn.style.background = highlightsMode ? '#f5a623' : '';
       btn.style.color = highlightsMode ? '#fff' : '';
     }
+
+    // Update page title
+    const pageTitle = document.getElementById('page-title');
+    if (pageTitle) {
+      if (highlightsMode) {
+        pageTitle.dataset.originalTitle = pageTitle.textContent;
+        pageTitle.textContent = '★ All Starred Charts';
+        pageTitle.style.color = '#f5a623';
+      } else {
+        pageTitle.textContent = pageTitle.dataset.originalTitle || pageNames[currentActivePage] || `Page ${currentActivePage}`;
+        pageTitle.style.color = '';
+      }
+    }
+
     applyHighlightsFilter();
+
+    // Save highlights mode state
+    savePages();
   }
 
-  // Apply highlights filter - show starred charts, hide others
+  // Apply highlights filter - show starred charts from ALL pages, hide others
   function applyHighlightsFilter() {
-    const cards = document.querySelectorAll('.chart-card');
-    cards.forEach(card => {
-      if (highlightsMode) {
-        // In highlights mode: show starred, hide non-starred
-        card.style.display = card._starred ? '' : 'none';
-      } else {
-        // Normal mode: show all on active page
-        const page = card.closest('.page');
-        if (page && page.classList.contains('active')) {
-          card.style.display = '';
+    const allPages = pagesContainer.querySelectorAll('.page');
+
+    if (highlightsMode) {
+      // HIGHLIGHTS MODE: Show all pages, but only starred charts
+      let starredCount = 0;
+
+      allPages.forEach(page => {
+        // Show the page container
+        page.style.display = 'block';
+
+        // Filter cards within this page
+        const cards = page.querySelectorAll('.chart-card');
+        cards.forEach(card => {
+          if (card._starred) {
+            card.style.display = '';
+            starredCount++;
+
+            // Auto-plot if not yet rendered
+            const chartBox = card.querySelector('.chart-box');
+            const hasCanvas = chartBox && chartBox.querySelector('canvas');
+            const hasTickers = card._selectedTickers && card._selectedTickers.size > 0;
+            if (hasTickers && chartBox && !hasCanvas) {
+              const plotBtn = card.querySelector('.plot-btn');
+              if (plotBtn) {
+                setTimeout(() => plotBtn.click(), 100);
+              }
+            }
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+
+      console.log(`[Highlights] Showing ${starredCount} starred charts across all pages`);
+
+      // Update chart navigation to show all starred charts
+      updateHighlightsNavigation();
+
+    } else {
+      // NORMAL MODE: Show only active page with all its cards
+      allPages.forEach(page => {
+        const pageNum = parseInt(page.dataset.page, 10);
+        if (pageNum === currentActivePage) {
+          page.style.display = 'block';
+          // Show all cards on active page
+          page.querySelectorAll('.chart-card').forEach(card => {
+            card.style.display = '';
+          });
+        } else {
+          page.style.display = 'none';
+        }
+      });
+
+      // Restore normal navigation
+      const pageEl = pagesContainer.querySelector(`[data-page="${currentActivePage}"]`);
+      if (pageEl) {
+        updateNavigationHighlighting(pageEl);
+      }
+    }
+  }
+
+  // Update navigation to show all starred charts across pages
+  function updateHighlightsNavigation() {
+    const chartNav = document.getElementById('chart-nav');
+    if (!chartNav) return;
+
+    // Show all links for starred charts, hide others
+    Array.from(chartNav.children).forEach(link => {
+      link.classList.remove('active');
+      const cardId = link.getAttribute('href')?.replace('#', '');
+      if (cardId) {
+        const card = document.getElementById(cardId);
+        if (card && card._starred) {
+          link.style.display = '';
+          link.classList.add('active');
+        } else {
+          link.style.display = 'none';
         }
       }
     });
@@ -197,6 +281,22 @@
   function switchTo(pageEl) {
     if (!pageEl) return;
 
+    // Exit highlights mode when switching pages
+    if (highlightsMode) {
+      highlightsMode = false;
+      window.highlightsMode = false;
+      const btn = document.querySelector('.highlights-toggle-btn');
+      if (btn) {
+        btn.textContent = String.fromCharCode(9734) + ' Highlights';
+        btn.style.background = '';
+        btn.style.color = '';
+      }
+      const pageTitle = document.getElementById('page-title');
+      if (pageTitle) {
+        pageTitle.style.color = '';
+      }
+    }
+
     // Hide all pages
     Array.from(pagesContainer.children).forEach(p => {
       p.style.display = 'none';
@@ -340,12 +440,16 @@
 
     // Restore saved pages from localStorage FIRST (so page elements exist)
     let savedActivePage = 1;
+    let savedHighlightsMode = false;
     try {
       const raw = localStorage.getItem('sandbox_pages');
       if (raw) {
         const parsed = JSON.parse(raw);
         if (parsed && parsed.active) {
           savedActivePage = parsed.active;
+        }
+        if (parsed && parsed.highlightsMode) {
+          savedHighlightsMode = true;
         }
         // Restore names so tabs get correct labels
         if (parsed.names && typeof parsed.names === 'object') {
@@ -372,6 +476,14 @@
     if (targetPage) {
       switchTo(targetPage);
     }
+
+    // Restore highlights mode if it was active (after a short delay to let cards load)
+    if (savedHighlightsMode) {
+      setTimeout(() => {
+        console.log('[PageManager] Restoring highlights mode from saved state');
+        toggleHighlightsMode();
+      }, 500);
+    }
   }
 
   initialize();
@@ -388,9 +500,9 @@
     }
     const pages = Array.from(pagesContainer.children).map(p => parseInt(p.dataset.page, 10)).filter(p => !isNaN(p));
     const activePage = getActivePage();
-    console.log(`[PageManager] savePages() - active page: ${activePage}`);
+    console.log(`[PageManager] savePages() - active page: ${activePage}, highlightsMode: ${highlightsMode}`);
     try {
-      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: activePage, names: pageNames, categories: pageCategories }));
+      localStorage.setItem('sandbox_pages', JSON.stringify({ pages, active: activePage, names: pageNames, categories: pageCategories, highlightsMode: highlightsMode }));
       // Also persist to backend (debounced) so changes sync across browsers
       try {
         const cardsKey = (window.StateManager && window.StateManager.STORAGE_KEYS && window.StateManager.STORAGE_KEYS.CARDS) || 'sandbox_cards';
@@ -495,6 +607,13 @@
     finishInitialization: function() {
       isInitializing = false;
       console.log('[PageManager] Initialization complete, saves now enabled');
+    },
+    // Refresh navigation filtering for current page (call after cards are loaded)
+    refreshNavigation: function() {
+      const pageEl = pagesContainer.querySelector(`[data-page="${currentActivePage}"]`);
+      if (pageEl) {
+        updateNavigationHighlighting(pageEl);
+      }
     }
   };
 

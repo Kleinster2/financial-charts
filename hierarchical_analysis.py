@@ -2,6 +2,43 @@
 hierarchical_analysis.py - Hierarchical Clustering with Dendrograms
 Uses Ward's method to cluster stocks by correlation distance
 Generates analysis for multiple time periods: Full history, 2024, 2025
+
+DENDROGRAM FORMAT STANDARDS
+===========================
+All dendrograms should follow these conventions:
+
+1. ORIENTATION: Vertical (orientation='right')
+   - Labels appear on the LEFT side
+   - Distance axis on the BOTTOM
+
+2. LABELS: Use company names/metadata, not raw tickers
+   - Format: "TICKER CompanyName" (e.g., "INFY Infosys")
+   - Create a name_map dictionary: ticker -> display_name
+   - Pass name_map to generate_sector_dendrogram()
+
+3. FILE NAMING: dendrogram_{market}_{sector}{suffix}.png
+   - Market: india, china, brazil, korea, canada, etc.
+   - Sector: tech, banks, consumer, energy, etc.
+   - Suffix: '' (full history), '_2024', '_2025'
+   - Examples:
+     - dendrogram_india_tech.png
+     - dendrogram_india_banks_2024.png
+     - dendrogram_china_consumer_2025.png
+
+4. TIME PERIODS: Generate for each period:
+   - Full History (no suffix)
+   - 2024 (_2024 suffix)
+   - 2025 (_2025 suffix)
+   - Quarters: _2024_Q1, _2024_Q2, etc.
+   - Months: _2024_01, _2024_02, etc.
+
+5. FIGURE SIZE: Scale with number of tickers
+   - Height: max(8, num_tickers * 0.25)
+   - Width: 14 (standard)
+
+6. OUTPUT DIRECTORY: charting_sandbox/dendrograms/
+
+See india_dendrograms.py for a complete example implementation.
 """
 
 import sqlite3
@@ -10,9 +47,12 @@ import pandas as pd
 from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 from scipy.spatial.distance import squareform
 import matplotlib.pyplot as plt
-import seaborn as sns
 from constants import DB_PATH, get_db_connection
-import os
+from pathlib import Path
+
+# Output directory for all generated images
+OUTPUT_DIR = Path("charting_sandbox/dendrograms")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 print(f"Using database: {DB_PATH}")
 
@@ -526,7 +566,7 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
     ax.set_title(f'Stock Dendrogram - {period_name} ({len(returns.columns)} stocks)\n{date_range}')
     ax.set_xlabel('Distance (1 - Correlation)')
     plt.tight_layout()
-    plt.savefig(f'dendrogram_truncated{suffix}.png', dpi=150, bbox_inches='tight')
+    plt.savefig(OUTPUT_DIR / f'dendrogram_truncated{suffix}.png', dpi=150, bbox_inches='tight')
     plt.close()
 
     # --- Detailed Dendrogram ---
@@ -554,7 +594,7 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
         xlim = ax.get_xlim()
         ax.set_xlim(max(0.01, xlim[0]), xlim[1])
         plt.tight_layout()
-        plt.savefig(f'dendrogram_detailed{suffix}.png', dpi=150)
+        plt.savefig(OUTPUT_DIR / f'dendrogram_detailed{suffix}.png', dpi=150)
         plt.close()
 
     # --- Sector Dendrograms ---
@@ -583,7 +623,7 @@ def analyze_period(df_prices, period_name, suffix, min_data_points=MIN_DATA_POIN
         plt.title(f'{title} Dendrogram - {period_name}\n{date_range}')
         plt.xlabel('Distance (1 - Correlation)')
         plt.tight_layout()
-        plt.savefig(filename, dpi=150)
+        plt.savefig(OUTPUT_DIR / filename, dpi=150)
         plt.close()
 
     print(f"  Generating sector dendrograms...")
@@ -657,22 +697,9 @@ for period_name, suffix, df_period in periods:
 for period_name, suffix, df_period in monthly_periods:
     analyze_period(df_period, period_name, suffix, min_data_points=15)
 
-# Copy files to sandbox folder
-print("\n" + "=" * 60)
-print("Copying files to charting_sandbox/dendrograms...")
-import shutil
-
-sandbox_dir = 'charting_sandbox/dendrograms'
-os.makedirs(sandbox_dir, exist_ok=True)
-
-for f in os.listdir('.'):
-    if f.startswith('dendrogram_') and f.endswith('.png'):
-        shutil.copy(f, os.path.join(sandbox_dir, f))
-        print(f"  Copied {f}")
-
 print("\n" + "=" * 60)
 print("Analysis complete!")
-print("Generated dendrograms for:")
+print(f"Generated dendrograms in: {OUTPUT_DIR}/")
 print("  - Full History (no suffix)")
 print("  - 2024 (_2024 suffix)")
 print("  - 2025 (_2025 suffix)")

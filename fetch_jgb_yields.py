@@ -13,6 +13,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 from fredapi import Fred
 import os
+from constants import DB_PATH
 
 # FRED API Configuration
 # You need to get a free API key from: https://fred.stlouisfed.org/docs/api/api_key.html
@@ -107,17 +108,18 @@ def fetch_fred_data(api_key=None, start_date='2020-01-01'):
         return None
 
 
-def store_in_database(yield_data, db_path='market_data.db'):
+def store_in_database(yield_data, db_path=None):
     """
     Store JGB yield data in SQLite database
 
     Args:
         yield_data: DataFrame with yield data
-        db_path: Path to SQLite database
+        db_path: Path to SQLite database (defaults to constants.DB_PATH)
 
     Returns:
         Boolean indicating success
     """
+    db_path = db_path or DB_PATH
     if yield_data is None or yield_data.empty:
         print("No data to store")
         return False
@@ -207,7 +209,7 @@ def display_comparison():
     Display comparison between JGB yields and bond ETF prices
     """
     try:
-        conn = sqlite3.connect('market_data.db')
+        conn = sqlite3.connect(DB_PATH)
 
         # Get recent JGB yields
         yields_query = '''

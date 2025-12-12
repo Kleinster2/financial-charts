@@ -385,7 +385,7 @@ window.ChartDomBuilder = {
         return trimmed.toUpperCase();
     },
 
-    addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers, onRemove = null) {
+    addTickerChips(selectedTickersDiv, tickers, colorMap, multiplierMap, hiddenTickers, onRemove = null, getAxis = null, onAxisChange = null) {
         selectedTickersDiv.innerHTML = '';
         tickers.forEach(ticker => {
             const color = colorMap.get(ticker) || '#000000';

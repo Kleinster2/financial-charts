@@ -257,7 +257,7 @@ datetime.datetime(2025, 11, 18).timestamp()  # 1763424000
 
 ```bash
 cd /c/Users/klein/financial-charts
-python add_your_page.py
+python scripts/one_off/add_your_page.py
 ```
 
 ### Step 6: Verify
@@ -593,15 +593,15 @@ with open('charting_app/workspace.json', 'w') as f:
 ## Summary
 
 Creating a new page involves:
-1. ✅ Ensure tickers are in database (`add_ticker.py`)
+1. ✅ Ensure tickers are in database (`scripts/add_ticker.py`)
 2. ✅ Find next page number (currently 44)
-3. ✅ Create script from template (`add_[name]_page.py`)
+3. ✅ Create script from template (`scripts/one_off/add_[name]_page.py`)
 4. ✅ Configure charts (tickers, titles, colors)
 5. ✅ Run script to update `workspace.json`
 6. ✅ Verify page appears in app
 7. ✅ Test charts render correctly
 
-**Standard Template:** Use `add_israel_page.py` as reference
+**Standard Template:** Use `scripts/one_off/add_israel_page.py` as reference
 
 **Time Required:** 10-15 minutes per page
 

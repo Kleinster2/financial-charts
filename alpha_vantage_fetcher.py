@@ -3,12 +3,15 @@ Alpha Vantage API client for fetching fundamental data.
 Handles company financials, earnings, balance sheets, income statements, etc.
 """
 
+import json
 import os
-import requests
 import time
-from typing import Dict, List, Optional
+from typing import Dict, Optional
+
 from dotenv import load_dotenv
 import logging
+
+from http_utils import FetchError, fetch_with_retry
 
 # Load environment variables
 load_dotenv()
@@ -44,15 +47,20 @@ class AlphaVantageClient:
         self.last_call_time = time.time()
 
     def _make_request(self, params: Dict) -> Dict:
-        """Make API request with error handling"""
+        """Make API request with retry/backoff and error handling"""
         self._rate_limit()
 
         params['apikey'] = self.api_key
 
         try:
-            response = requests.get(BASE_URL, params=params, timeout=30)
-            response.raise_for_status()
-            data = response.json()
+            text = fetch_with_retry(
+                BASE_URL,
+                params=params,
+                retries=3,
+                backoff=2.0,
+                timeout=30.0,
+            )
+            data = json.loads(text)
 
             # Check for API errors
             if 'Error Message' in data:
@@ -65,8 +73,11 @@ class AlphaVantageClient:
 
             return data
 
-        except requests.exceptions.RequestException as e:
-            logger.error(f"Request failed: {e}")
+        except FetchError as e:
+            logger.error(f"Request failed after retries: {e}")
+            return {}
+        except json.JSONDecodeError as e:
+            logger.error(f"JSON parse error: {e}")
             return {}
 
     def get_company_overview(self, symbol: str) -> Dict:

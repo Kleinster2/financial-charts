@@ -16,7 +16,7 @@ import sys
 if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8')
 
-DB_PATH = 'market_data.db'
+from constants import DB_PATH
 
 # CBOE indices to download
 CBOE_INDICES = {

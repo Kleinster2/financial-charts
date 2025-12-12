@@ -33,7 +33,8 @@ from pathlib import Path
 from typing import Final
 
 import pandas as pd
-import requests
+
+from http_utils import fetch_with_retry, FetchError
 
 # -----------------------------------------------------------------------------
 # Configuration
@@ -54,9 +55,33 @@ TABLE_NAME: Final[str] = "etf_holdings_daily"
 
 def _fetch_holdings_xlsx(url: str) -> bytes:
     """Download the XLSX file and return its binary content."""
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    return resp.content
+    # fetch_with_retry returns text, but we need bytes for XLSX
+    # Use a direct requests call wrapped in our retry logic
+    import requests
+    from http_utils import FetchError
+
+    last_exc = None
+    for attempt in range(4):  # 3 retries
+        try:
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            return resp.content
+        except requests.Timeout as e:
+            last_exc = e
+        except requests.HTTPError as e:
+            if e.response and e.response.status_code < 500:
+                raise  # Don't retry client errors
+            last_exc = e
+        except requests.RequestException as e:
+            last_exc = e
+
+        if attempt < 3:
+            import time
+            sleep_s = 2 ** attempt
+            print(f"  Retry {attempt + 1}/3 for ALLW XLSX; sleeping {sleep_s}s")
+            time.sleep(sleep_s)
+
+    raise FetchError(url, kind="network", last_exc=last_exc)
 
 
 def _parse_holdings(xlsx_data: bytes, verbose: bool = False) -> tuple[pd.DataFrame, str]:

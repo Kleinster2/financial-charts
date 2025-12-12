@@ -4,7 +4,7 @@ This guide explains how to add new tickers to your financial charts database.
 
 ## Quick Start
 
-Use the standardized `add_ticker.py` script:
+Use the standardized `scripts/add_ticker.py` script:
 
 ```bash
 # Add single ticker

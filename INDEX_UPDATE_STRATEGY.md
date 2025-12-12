@@ -107,13 +107,13 @@ python update_indices_from_fred.py --lookback 30
 - Run after main update
 - Only downloads recent data (default: last 30 days)
 
-### 3. `restore_international_indices.py`
+### 3. `scripts/one_off/restore_international_indices.py`
 **One-time restoration script**
 - Restored 21 international indices with 25-year history
 - Already run - don't need to run again
 - Downloaded full history from Yahoo Finance
 
-### 4. `restore_vixon_from_fred.py`
+### 4. `scripts/one_off/restore_vixon_from_fred.py`
 **One-time restoration script**
 - Restored 5 single-stock vol indices with 15-year history
 - Already run - don't need to run again
@@ -135,7 +135,7 @@ python update_indices_from_fred.py --lookback 30
 Check update success with:
 
 ```bash
-python check_nov20_final.py
+python scripts/diagnostics/check_nov20_final.py
 ```
 
 Or query latest dates for FRED indices:

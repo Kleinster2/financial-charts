@@ -1,0 +1,19 @@
+# Optional dependencies for analysis, dendrograms, and alternative backends
+# Install with: pip install -r requirements-optional.txt
+
+# DuckDB backend (parallel to SQLite)
+duckdb
+
+# Dendrograms and clustering analysis
+scipy
+matplotlib
+seaborn
+scikit-learn
+tabulate
+
+# JGB yields and FRED macro data
+fredapi
+quandl
+
+# ETF holdings (ALLW replication)
+openpyxl

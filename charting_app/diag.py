@@ -20,13 +20,15 @@ except ImportError:
 # Database path check
 basedir = os.path.abspath(os.path.dirname(__file__))
 # Import DB helpers from project root
-sys.path.append(os.path.join(basedir, '..'))
+sys.path.insert(0, os.path.join(basedir, '..'))
 try:
     from constants import DB_PATH, get_db_connection
     print(f"Resolved DB_PATH from constants: {DB_PATH}", flush=True)
 except Exception as e:
     print(f"ERROR: Could not import DB helpers from constants: {e}", flush=True)
+    # Fallback only for diagnostic purposes
     DB_PATH = os.path.join(basedir, '..', 'market_data.db')
+    print(f"Using fallback DB_PATH: {DB_PATH}", flush=True)
 
 print(f"Checking for database at: {DB_PATH}", flush=True)
 if os.path.exists(DB_PATH):

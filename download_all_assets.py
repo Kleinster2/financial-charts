@@ -147,6 +147,12 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
     # Crypto / Blockchain
     "CRCL", "CRON",
+    # Fintech / Recent IPOs
+    "ETOR", "CAI", "HNGE",
+    # Private Equity / Alt Asset Managers
+    "APO", "BX", "KKR", "CG", "ARES", "OWL", "BAM", "TPG",
+    # Cybersecurity
+    "PANW", "ZS", "S", "CRWD", "FTNT",
 ]
 
 # Electric Vehicle (EV) stocks
@@ -276,6 +282,7 @@ AI_SEMICONDUCTOR_STOCKS = [
 
 # Space and aerospace equities
 SPACE_AEROSPACE_STOCKS = [
+    "VG",     # Virgin Galactic
     "RKLB",   # Rocket Lab
     "ASTS",   # AST SpaceMobile
     "PL",     # Planet Labs
@@ -311,7 +318,7 @@ CRYPTO_STOCKS = [
     # Miners
     "RIOT", "MARA", "HUT", "HIVE", "BITF", "CIFR", "CORZ", "IREN", "WULF", "CLSK", "BTBT", "SDIG", "CAN",
     # Platforms / infra
-    "BKKT",
+    "BKKT", "GLXY",
 ]
 
 # Quantum computing and quantum tech-related equities
@@ -645,7 +652,9 @@ BIOTECH_STOCKS = [
     # Biotech tools & diagnostics
     "EXAS", "PACB", "TWST", "CDNA",
     # Emerging biotech
-    "ZLAB", "HALO", "FOLD", "AGEN", "SAVA", "AXSM", "JAZZ", "PTCT"
+    "ZLAB", "HALO", "FOLD", "AGEN", "SAVA", "AXSM", "JAZZ", "PTCT",
+    # Digital health & specialty
+    "CHYM", "OMDA",
 ]
 
 # Tickers that consistently fail to download (excluded from universe)
@@ -793,11 +802,30 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         vol_table_exists = cursor.fetchone() is not None
 
         # Load existing data (if any) from the daily prices table
+        # SAFETY: Use retry logic for database locks and track row count before/after parsing
         existing_df = pd.DataFrame()
         existing_vol_df = pd.DataFrame()
+        existing_row_count_before_parse = 0  # Track to detect date parsing issues
+
         if table_exists:
-            # Read without date parsing first so that an empty table doesn’t raise a KeyError
-            existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
+            # Read with retry logic for database locks
+            max_retries = 3
+            retry_delay = 2
+            for attempt in range(max_retries):
+                try:
+                    existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
+                    existing_row_count_before_parse = len(existing_df)
+                    break
+                except Exception as e:
+                    if "locked" in str(e).lower() and attempt < max_retries - 1:
+                        vprint(f"  Database locked, retrying in {retry_delay}s... (attempt {attempt + 1}/{max_retries})")
+                        time.sleep(retry_delay)
+                        retry_delay *= 2  # Exponential backoff
+                    else:
+                        vprint(f"  ERROR: Failed to read existing data: {e}")
+                        vprint(f"  ABORTING to prevent data loss.")
+                        return
+
             if not existing_df.empty and 'Date' in existing_df.columns:
                 # Robust date parsing to handle mixed formats (e.g., "YYYY-MM-DD" and locale-specific)
                 def _safe_parse(s):
@@ -807,10 +835,29 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                         # Fallback: let pandas infer or treat dayfirst as needed; coerce invalid to NaT
                         return pd.to_datetime(s, errors="coerce", dayfirst=False)
                 existing_df['Date'] = existing_df['Date'].apply(_safe_parse)
+                rows_before_dropna = len(existing_df)
                 existing_df.dropna(subset=['Date'], inplace=True)
+                rows_after_dropna = len(existing_df)
+
+                # SAFETY: If dropna removed more than 10% of rows, something is wrong with date parsing
+                if rows_before_dropna > 0 and rows_after_dropna < rows_before_dropna * 0.9:
+                    vprint(f"  ERROR: Date parsing dropped {rows_before_dropna - rows_after_dropna} of {rows_before_dropna} rows!")
+                    vprint(f"  This indicates a date format issue. ABORTING to prevent data loss.")
+                    return
+
                 existing_df.set_index('Date', inplace=True)
+
         if vol_table_exists:
-            existing_vol_df = pd.read_sql("SELECT * FROM stock_volumes_daily", conn)
+            for attempt in range(max_retries):
+                try:
+                    existing_vol_df = pd.read_sql("SELECT * FROM stock_volumes_daily", conn)
+                    break
+                except Exception as e:
+                    if "locked" in str(e).lower() and attempt < max_retries - 1:
+                        time.sleep(retry_delay)
+                    else:
+                        vprint(f"  Warning: Could not read volume data: {e}")
+                        break
             if not existing_vol_df.empty and 'Date' in existing_vol_df.columns:
                 existing_vol_df['Date'] = pd.to_datetime(existing_vol_df['Date'], format='mixed')
                 existing_vol_df.set_index('Date', inplace=True)
@@ -861,27 +908,42 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             new_vol_df.index = pd.to_datetime(new_vol_df.index)
 
         # 6. Merge with existing data, giving precedence to new data (prices)
+        # CRITICAL SAFETY CHECK: If table exists but we couldn't read data, ABORT
+        if table_exists and existing_df.empty and existing_row_count_before_parse > 0:
+            vprint(f"  CRITICAL ERROR: Table exists with {existing_row_count_before_parse} rows but existing_df is empty!")
+            vprint(f"  This likely means database lock or read failure occurred.")
+            vprint(f"  ABORTING to prevent complete data loss.")
+            return
+
         if not existing_df.empty:
-            # FIXED: Only update columns that were actually downloaded
-            # Previous bug: reindex() added NaN for all non-downloaded tickers, overwriting existing data
+            # FIXED: Properly merge without corrupting non-downloaded columns
+            # Previous bug: concat + keep='last' replaced entire rows, nullifying non-downloaded columns
             combined_df = existing_df.copy()
 
-            # Add any new columns from new_data_df
+            # Add any new columns from new_data_df (new tickers)
             for col in new_data_df.columns:
                 if col not in combined_df.columns:
                     combined_df[col] = pd.NA
 
-            # Combine the dataframes: use concat then drop duplicates, keeping new data
-            # This handles both existing and new dates properly
-            combined_df = pd.concat([combined_df, new_data_df])
-            combined_df = combined_df[~combined_df.index.duplicated(keep='last')]
-            combined_df = combined_df.sort_index()
+            # Add any new dates from new_data_df
+            new_dates = new_data_df.index.difference(combined_df.index)
+            if len(new_dates) > 0:
+                # For new dates, create rows with NA for all existing columns
+                new_rows = pd.DataFrame(index=new_dates, columns=combined_df.columns)
+                combined_df = pd.concat([combined_df, new_rows])
+                combined_df = combined_df.sort_index()
 
-            # Now update only the columns that were downloaded with their new values
+            # SAFE UPDATE: Only update the specific columns that were downloaded
+            # This preserves all other columns (non-downloaded tickers) for overlapping dates
             for col in new_data_df.columns:
                 for date in new_data_df.index:
-                    combined_df.loc[date, col] = new_data_df.loc[date, col]
+                    if date in combined_df.index:
+                        combined_df.loc[date, col] = new_data_df.loc[date, col]
         else:
+            # Only allow creating new table if table doesn't exist
+            if table_exists:
+                vprint(f"  ERROR: Table exists but no data could be read. ABORTING.")
+                return
             combined_df = new_data_df
 
         # 6b. SAFETY: Never delete columns to preserve historical/delisted ticker data
@@ -901,7 +963,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             elif existing_vol_df.empty:
                 combined_vol_df = new_vol_df.copy()
             else:
-                # FIXED: Same bug as prices - only update columns that were downloaded
+                # FIXED: Properly merge without corrupting non-downloaded columns
                 combined_vol_df = existing_vol_df.copy()
 
                 # Add any new columns
@@ -909,15 +971,18 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                     if col not in combined_vol_df.columns:
                         combined_vol_df[col] = pd.NA
 
-                # Combine and handle both existing and new dates
-                combined_vol_df = pd.concat([combined_vol_df, new_vol_df])
-                combined_vol_df = combined_vol_df[~combined_vol_df.index.duplicated(keep='last')]
-                combined_vol_df = combined_vol_df.sort_index()
+                # Add any new dates from new_vol_df
+                new_dates = new_vol_df.index.difference(combined_vol_df.index)
+                if len(new_dates) > 0:
+                    new_rows = pd.DataFrame(index=new_dates, columns=combined_vol_df.columns)
+                    combined_vol_df = pd.concat([combined_vol_df, new_rows])
+                    combined_vol_df = combined_vol_df.sort_index()
 
-                # Update only downloaded columns
+                # SAFE UPDATE: Only update the specific columns that were downloaded
                 for col in new_vol_df.columns:
                     for date in new_vol_df.index:
-                        combined_vol_df.loc[date, col] = new_vol_df.loc[date, col]
+                        if date in combined_vol_df.index:
+                            combined_vol_df.loc[date, col] = new_vol_df.loc[date, col]
             # SAFETY: Never delete volume columns (same reasoning as prices)
             # if selected_set == all_groups:
             #     combined_vol_df = combined_vol_df.reindex(columns=all_tickers)  # ← DANGEROUS: Deletes unlisted tickers!
@@ -941,15 +1006,24 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         vprint(f"  Existing table: {existing_rows} rows × {existing_cols} columns")
         vprint(f"  New data:       {new_rows} rows × {new_cols} columns")
 
-        # Sanity checks
+        # Sanity checks - ABORT on dramatic data loss indicators
         if existing_rows > 0 and new_rows < existing_rows * 0.5:
-            vprint(f"  WARNING: New row count ({new_rows}) is less than 50% of existing ({existing_rows})")
-            vprint(f"  This might indicate a download failure. Proceeding with caution...")
+            vprint(f"  CRITICAL ERROR: New row count ({new_rows}) is less than 50% of existing ({existing_rows})")
+            vprint(f"  This indicates data corruption or download failure.")
+            vprint(f"  ABORTING to prevent data loss. Check database and retry.")
+            return
+
+        if existing_cols > 0 and new_cols < existing_cols * 0.1:
+            # Only abort if columns dropped dramatically (>90% loss)
+            # Small column decreases are expected when updating specific asset groups
+            vprint(f"  CRITICAL ERROR: Column count dropped from {existing_cols} to {new_cols} (>90% loss)")
+            vprint(f"  This indicates a merge failure. ABORTING to prevent data loss.")
+            return
 
         if existing_cols > 0 and new_cols < existing_cols:
-            vprint(f"  INFO: Column count decreased from {existing_cols} to {new_cols}")
+            vprint(f"  INFO: Column count is {new_cols} vs existing {existing_cols}")
             vprint(f"  This is expected when not all asset groups are selected.")
-            vprint(f"  Missing columns will be preserved from existing data.")
+            vprint(f"  Non-downloaded columns are preserved in the merge.")
 
         # DATA INTEGRITY CHECK: Verify historical data wasn't corrupted
         # Sample known-good reference points that should never be NULL

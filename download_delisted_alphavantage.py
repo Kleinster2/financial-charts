@@ -15,8 +15,7 @@ import pandas as pd
 from datetime import datetime
 import time
 import json
-
-DB_PATH = 'market_data.db'
+from constants import DB_PATH
 CONFIG_FILE = '.alphavantage_config.json'
 
 # Delisted EV tickers to download

@@ -32,13 +32,13 @@
         if (menu) {
             menu.addEventListener('click', (e) => {
                 const item = e.target.closest('.chip-context-menu-item');
-                if (\!item) return;
+                if (!item) return;
 
                 const action = item.dataset.action;
                 const chip = menu._targetChip;
                 const ticker = menu._targetTicker;
 
-                if (\!chip || \!ticker) return;
+                if (!chip || !ticker) return;
 
                 if (action === 'axis-left' || action === 'axis-right') {
                     const newAxis = action === 'axis-left' ? 'left' : 'right';
@@ -2073,7 +2073,10 @@
                 card._showNotes = !showNotes;
                 card._notes = notesTextarea.value;
 
-                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes }
+                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes });
+                saveCards();
+            });
+        }
 
         // Star button click handler
         if (starBtn) {
@@ -2203,9 +2206,9 @@
 
             renderTags();
         }
-                saveCards();
-            });
 
+        // Notes section handlers
+        if (notesTextarea) {
             // Auto-save notes on input
             notesTextarea.addEventListener('input', () => {
                 card._notes = notesTextarea.value;
@@ -2607,6 +2610,10 @@
                     }
                     cards.forEach(c => restoreCard(c));
                     window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
+                    // Refresh navigation filtering after cards are loaded
+                    if (window.PageManager && typeof window.PageManager.refreshNavigation === 'function') {
+                        window.PageManager.refreshNavigation();
+                    }
                     if (cards.length > 0) return;
                     console.log('[Restore] Workspace object had no cards; checking localStorage');
                 } else {
@@ -2619,6 +2626,10 @@
             if (Array.isArray(stored) && stored.length) {
                 console.log('[Restore] Loaded workspace from localStorage fallback');
                 stored.forEach(c => restoreCard(c));
+                // Refresh navigation filtering after cards are loaded
+                if (window.PageManager && typeof window.PageManager.refreshNavigation === 'function') {
+                    window.PageManager.refreshNavigation();
+                }
                 // Push local state to server to sync
                 if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
                     window.StateManager.saveCards(stored);

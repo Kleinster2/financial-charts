@@ -47,6 +47,9 @@
 
     // Dendrograms organized by category
     const DENDROGRAM_CATEGORIES = {
+        'All': [
+            { file: 'dendrogram_all', title: 'All Tickers', description: '1500+ tickers correlation clustering (large file)' },
+        ],
         'US Sectors': [
             { file: 'dendrogram_tech', title: 'Technology', description: 'Tech companies hierarchical clustering' },
             { file: 'dendrogram_financials', title: 'Financials', description: 'Financial services clustering' },
@@ -78,6 +81,17 @@
             { file: 'dendrogram_korea_financials', title: 'Financials', description: 'KB, Shinhan, Hana, Woori' },
             { file: 'dendrogram_korea_biotech', title: 'Biotech', description: 'Celltrion, Samsung Biologics' },
             { file: 'dendrogram_korea_industrial', title: 'Industrial', description: 'POSCO, shipbuilding, telecom' },
+        ],
+        'India': [
+            { file: 'dendrogram_india', title: 'All', description: 'All Indian stocks (NSE exchange)' },
+            { file: 'dendrogram_india_tech', title: 'Tech', description: 'Infosys, TCS, Wipro, HCL Tech, Tech Mahindra' },
+            { file: 'dendrogram_india_banks', title: 'Banks', description: 'HDFC, ICICI, SBI, Kotak, Axis, Bajaj Finance' },
+            { file: 'dendrogram_india_industrial', title: 'Industrial', description: 'Reliance, Tata, Adani, L&T, Hindalco' },
+            { file: 'dendrogram_india_consumer', title: 'Consumer', description: 'HUL, ITC, Nestle, Titan, Asian Paints, Maruti' },
+            { file: 'dendrogram_india_pharma', title: 'Pharma', description: 'Sun Pharma, Dr Reddys, Cipla, Apollo Hospitals' },
+            { file: 'dendrogram_india_auto', title: 'Auto', description: 'Maruti, M&M, Tata Motors, Bajaj Auto, Hero' },
+            { file: 'dendrogram_india_energy', title: 'Energy', description: 'ONGC, NTPC, Power Grid, Coal India, GAIL' },
+            { file: 'dendrogram_india_neweco', title: 'New Economy', description: 'Paytm, Nykaa, Dixon, Kaynes Tech' },
         ],
         'Brazil': [
             { file: 'dendrogram_brazil', title: 'All', description: 'All Brazilian stocks (B3 exchange)' },
@@ -149,6 +163,16 @@
             { file: 'clustermap_korea_financials', title: 'Financials', description: 'Korean banks' },
             { file: 'clustermap_korea_biotech', title: 'Biotech', description: 'Biotech stocks' },
             { file: 'clustermap_korea_industrial', title: 'Industrial', description: 'Industrial stocks' },
+        ],
+        'India': [
+            { file: 'clustermap_india', title: 'All', description: 'All Indian stocks correlation' },
+            { file: 'clustermap_india_tech', title: 'Tech', description: 'IT services correlation' },
+            { file: 'clustermap_india_banks', title: 'Banks', description: 'Indian banks & finance correlation' },
+            { file: 'clustermap_india_industrial', title: 'Industrial', description: 'Conglomerates correlation' },
+            { file: 'clustermap_india_consumer', title: 'Consumer', description: 'FMCG & consumer correlation' },
+            { file: 'clustermap_india_pharma', title: 'Pharma', description: 'Pharma & healthcare correlation' },
+            { file: 'clustermap_india_auto', title: 'Auto', description: 'Auto sector correlation' },
+            { file: 'clustermap_india_energy', title: 'Energy', description: 'Energy & utilities correlation' },
         ],
         'Brazil': [
             { file: 'clustermap_brazil', title: 'All', description: 'All Brazilian stocks correlation' },
@@ -267,10 +291,19 @@
                         <span class="zoom-level" style="min-width: 50px; text-align: center; font-size: 0.9rem;">100%</span>
                         <button class="zoom-in-btn" title="Zoom In" style="padding: 4px 12px; font-size: 1.2rem; cursor: pointer;">+</button>
                         <button class="zoom-reset-btn" title="Reset Zoom" style="padding: 4px 8px; font-size: 0.9rem; cursor: pointer;">Reset</button>
+                        <span style="color: #ccc; margin: 0 4px;">|</span>
+                        <button class="annotate-btn" title="Toggle Annotation Mode" style="padding: 4px 10px; font-size: 0.9rem; cursor: pointer;">📝 Annotate</button>
+                        <button class="clear-annotations-btn" title="Clear All Annotations" style="padding: 4px 10px; font-size: 0.9rem; cursor: pointer;">🗑️ Clear</button>
                     </div>
                 </div>
-                <div class="dendrogram-image-wrapper" style="text-align: center; overflow: auto; max-height: 700px; border: 1px solid #eee;">
-                    <img class="dendrogram-image" src="" alt="Dendrogram" style="height: auto; cursor: grab; transform-origin: top left;" />
+                <div class="annotation-hint" style="display: none; background: #fff3cd; padding: 6px 12px; margin-bottom: 8px; border-radius: 4px; font-size: 0.85rem;">
+                    📝 <strong>Annotation Mode:</strong> Click anywhere on the image to add a note. Click a note to edit. Right-click to delete.
+                </div>
+                <div class="dendrogram-image-wrapper" style="text-align: center; overflow: auto; max-height: 700px; border: 1px solid #eee; position: relative;">
+                    <div class="image-annotation-container" style="position: relative; display: inline-block;">
+                        <img class="dendrogram-image" src="" alt="Dendrogram" style="height: auto; cursor: grab; transform-origin: top left; display: block;" />
+                        <div class="annotations-layer" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"></div>
+                    </div>
                 </div>
             </div>
         `;
@@ -325,6 +358,60 @@
                 max-width: none;
                 cursor: zoom-out;
             }
+            .annotate-btn.active {
+                background: #ffc107;
+                border-color: #ffc107;
+                color: #000;
+            }
+            .annotation-note {
+                position: absolute;
+                background: rgba(255,255,255,0.95);
+                border: none;
+                border-radius: 2px;
+                padding: 2px 4px;
+                font-size: 11px;
+                max-width: 200px;
+                cursor: move;
+                pointer-events: auto;
+                z-index: 100;
+                word-wrap: break-word;
+                font-family: Arial, sans-serif;
+                color: #333;
+            }
+            .annotation-note:hover {
+                background: rgba(255,255,200,0.95);
+            }
+            .annotation-note .note-text {
+                outline: none;
+                min-width: 50px;
+                display: block;
+            }
+            .annotation-note .note-delete {
+                position: absolute;
+                top: -8px;
+                right: -8px;
+                width: 18px;
+                height: 18px;
+                background: #dc3545;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                font-size: 12px;
+                cursor: pointer;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                line-height: 1;
+            }
+            .annotation-note:hover .note-delete {
+                display: flex;
+            }
+            .image-annotation-container.annotating {
+                cursor: crosshair;
+            }
+            .image-annotation-container.annotating .dendrogram-image {
+                cursor: crosshair;
+            }
         `;
         if (!document.querySelector('style[data-dendrograms]')) {
             style.setAttribute('data-dendrograms', 'true');
@@ -345,12 +432,19 @@
         const zoomOutBtn = card.querySelector('.zoom-out-btn');
         const zoomResetBtn = card.querySelector('.zoom-reset-btn');
         const zoomLevelEl = card.querySelector('.zoom-level');
+        const annotateBtn = card.querySelector('.annotate-btn');
+        const clearAnnotationsBtn = card.querySelector('.clear-annotations-btn');
+        const annotationHint = card.querySelector('.annotation-hint');
+        const imageContainer = card.querySelector('.image-annotation-container');
+        const annotationsLayer = card.querySelector('.annotations-layer');
 
         // State
         let currentZoom = 100;
         let currentViewType = 'dendrogram';
         let currentPeriodSuffix = '';
         let currentFile = 'dendrogram_tech';
+        let annotationMode = false;
+        let annotations = {}; // Keyed by file+suffix
         const ZOOM_STEP = 25;
         const ZOOM_MIN = 50;
         const ZOOM_MAX = 300;
@@ -493,6 +587,187 @@
                 updateZoom();
             }
         });
+
+        // ========== ANNOTATION FUNCTIONALITY ==========
+
+        // Get storage key for current view
+        function getAnnotationKey() {
+            return `dendro_annotations_${currentFile}${currentPeriodSuffix}`;
+        }
+
+        // Load annotations from localStorage
+        function loadAnnotations() {
+            const key = getAnnotationKey();
+            const stored = localStorage.getItem(key);
+            return stored ? JSON.parse(stored) : [];
+        }
+
+        // Save annotations to localStorage
+        function saveAnnotations(notes) {
+            const key = getAnnotationKey();
+            localStorage.setItem(key, JSON.stringify(notes));
+        }
+
+        // Create a note element
+        function createNoteElement(note) {
+            const noteEl = document.createElement('div');
+            noteEl.className = 'annotation-note';
+            noteEl.style.left = `${note.x}%`;
+            noteEl.style.top = `${note.y}%`;
+            noteEl.dataset.id = note.id;
+
+            const textEl = document.createElement('span');
+            textEl.className = 'note-text';
+            textEl.contentEditable = 'true';
+            textEl.textContent = note.text || 'Click to edit...';
+
+            const deleteBtn = document.createElement('button');
+            deleteBtn.className = 'note-delete';
+            deleteBtn.innerHTML = '×';
+            deleteBtn.title = 'Delete note';
+
+            noteEl.appendChild(textEl);
+            noteEl.appendChild(deleteBtn);
+
+            // Edit handling
+            textEl.addEventListener('blur', () => {
+                const notes = loadAnnotations();
+                const idx = notes.findIndex(n => n.id === note.id);
+                if (idx >= 0) {
+                    notes[idx].text = textEl.textContent;
+                    saveAnnotations(notes);
+                }
+            });
+
+            textEl.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    textEl.blur();
+                }
+            });
+
+            // Delete handling
+            deleteBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const notes = loadAnnotations().filter(n => n.id !== note.id);
+                saveAnnotations(notes);
+                noteEl.remove();
+            });
+
+            // Drag handling
+            let isDragging = false;
+            let startX, startY, startLeft, startTop;
+
+            noteEl.addEventListener('mousedown', (e) => {
+                if (e.target === textEl) return; // Don't drag when editing
+                isDragging = true;
+                startX = e.clientX;
+                startY = e.clientY;
+                startLeft = parseFloat(noteEl.style.left);
+                startTop = parseFloat(noteEl.style.top);
+                noteEl.style.zIndex = '101';
+                e.preventDefault();
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                const containerRect = imageContainer.getBoundingClientRect();
+                const dx = ((e.clientX - startX) / containerRect.width) * 100;
+                const dy = ((e.clientY - startY) / containerRect.height) * 100;
+                noteEl.style.left = `${Math.max(0, Math.min(95, startLeft + dx))}%`;
+                noteEl.style.top = `${Math.max(0, Math.min(95, startTop + dy))}%`;
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (isDragging) {
+                    isDragging = false;
+                    noteEl.style.zIndex = '100';
+                    // Save new position
+                    const notes = loadAnnotations();
+                    const idx = notes.findIndex(n => n.id === note.id);
+                    if (idx >= 0) {
+                        notes[idx].x = parseFloat(noteEl.style.left);
+                        notes[idx].y = parseFloat(noteEl.style.top);
+                        saveAnnotations(notes);
+                    }
+                }
+            });
+
+            return noteEl;
+        }
+
+        // Render all annotations for current view
+        function renderAnnotations() {
+            annotationsLayer.innerHTML = '';
+            const notes = loadAnnotations();
+            notes.forEach(note => {
+                annotationsLayer.appendChild(createNoteElement(note));
+            });
+        }
+
+        // Toggle annotation mode
+        annotateBtn.addEventListener('click', () => {
+            annotationMode = !annotationMode;
+            annotateBtn.classList.toggle('active', annotationMode);
+            annotationHint.style.display = annotationMode ? 'block' : 'none';
+            imageContainer.classList.toggle('annotating', annotationMode);
+            annotationsLayer.style.pointerEvents = annotationMode ? 'auto' : 'none';
+        });
+
+        // Add note on click (when in annotation mode)
+        imageContainer.addEventListener('click', (e) => {
+            if (!annotationMode) return;
+            if (e.target.closest('.annotation-note')) return; // Don't add when clicking existing note
+
+            const rect = imageContainer.getBoundingClientRect();
+            const x = ((e.clientX - rect.left) / rect.width) * 100;
+            const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+            const note = {
+                id: Date.now().toString(),
+                x: x,
+                y: y,
+                text: ''
+            };
+
+            const notes = loadAnnotations();
+            notes.push(note);
+            saveAnnotations(notes);
+
+            const noteEl = createNoteElement(note);
+            annotationsLayer.appendChild(noteEl);
+
+            // Focus the text for immediate editing
+            setTimeout(() => {
+                const textEl = noteEl.querySelector('.note-text');
+                textEl.focus();
+                // Select all text if it's placeholder
+                if (textEl.textContent === 'Click to edit...') {
+                    const range = document.createRange();
+                    range.selectNodeContents(textEl);
+                    const sel = window.getSelection();
+                    sel.removeAllRanges();
+                    sel.addRange(range);
+                }
+            }, 0);
+        });
+
+        // Clear all annotations
+        clearAnnotationsBtn.addEventListener('click', () => {
+            if (confirm('Clear all annotations for this view?')) {
+                saveAnnotations([]);
+                annotationsLayer.innerHTML = '';
+            }
+        });
+
+        // Reload annotations when changing view
+        const originalReloadCurrentView = reloadCurrentView;
+        reloadCurrentView = function() {
+            originalReloadCurrentView();
+            renderAnnotations();
+        };
+
+        // ========== END ANNOTATION FUNCTIONALITY ==========
 
         // Load initial view
         currentFile = dendrogramSelect.value;

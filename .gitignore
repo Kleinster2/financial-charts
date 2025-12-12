@@ -14,6 +14,7 @@ __pycache__/
 .env
 .venv/
 .claude/
+.http_cache/
 # Front-end workspace state
 workspace.json
 charting_app/workspace.json
@@ -120,3 +121,5 @@ dendrograms/
 
 # Temporary JS files
 charting_sandbox/create_china_page.js
+backups/*.csv
+market_data.duckdb
