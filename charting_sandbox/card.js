@@ -743,32 +743,6 @@
             onInput: (v) => { card._decimalPrecision = v; updatePriceFormat(v); }
         });
 
-        // Export button handler
-        if (exportBtn) {
-            exportBtn.addEventListener('click', async () => {
-                if (!chart) {
-                    alert('No chart to export. Please plot a chart first.');
-                    return;
-                }
-
-                console.log('[Export] Exporting chart for LinkedIn');
-                const title = titleInput ? titleInput.value : '';
-
-                try {
-                    const result = await window.ChartExport.exportForLinkedIn(chart, title, chartBox);
-                    if (result.success) {
-                        console.log('[Export] Export successful');
-                    } else {
-                        console.error('[Export] Export failed:', result.message);
-                        alert(`Export failed: ${result.message}`);
-                    }
-                } catch (error) {
-                    console.error('[Export] Export error:', error);
-                    alert(`Export error: ${error.message}`);
-                }
-            });
-        }
-
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
 
@@ -1642,34 +1616,8 @@
             }
         }
 
-        // Event handlers
-        addBtn.addEventListener('click', addTicker);
-        tickerInput.addEventListener('keypress', e => {
-            if (e.key === 'Enter') addTicker();
-        });
-
-        plotBtn.addEventListener('click', plot);
-
-        // Manual fit button: fit chart to full data range and persist
-        if (fitBtn) {
-            fitBtn.addEventListener('click', () => {
-                if (!chart) return;
-                const dataRange = getCurrentDataRange();
-                if (dataRange) {
-                    try {
-                        chart.timeScale().setVisibleRange(dataRange);
-                        card._visibleRange = dataRange;
-                        saveCards();
-                    } catch (e) {
-                        chart.timeScale().fitContent();
-                    }
-                } else {
-                    chart.timeScale().fitContent();
-                }
-            });
-        }
-
         // Phase 1: Simple toggle handlers using dictionary pattern
+        // NOTE: These are now bound via bindAllWithCleanup at the end of createChartCard
         const toggleHandlers = {
             diff: () => {
                 showDiff = !showDiff;
@@ -1694,26 +1642,240 @@
                 card._showRevenue = showRevenuePane;
                 toggleRevenueBtn.textContent = showRevenuePane ? 'Hide Revenue Pane' : 'Show Revenue Pane';
                 destroyChartAndReplot();
+            },
+            fundamentalsPane: () => {
+                showFundamentalsPane = !showFundamentalsPane;
+                card._showFundamentalsPane = showFundamentalsPane;
+                toggleFundamentalsPaneBtn.textContent = showFundamentalsPane ? 'Hide Fundamentals Pane' : 'Show Fundamentals Pane';
+
+                // Show/hide metric buttons based on pane state
+                const metricButtonsDisplay = showFundamentalsPane ? 'inline-block' : 'none';
+                if (toggleRevenueMetricBtn) toggleRevenueMetricBtn.style.display = metricButtonsDisplay;
+                if (toggleNetIncomeMetricBtn) toggleNetIncomeMetricBtn.style.display = metricButtonsDisplay;
+                if (toggleEpsMetricBtn) toggleEpsMetricBtn.style.display = metricButtonsDisplay;
+                if (toggleFcfMetricBtn) toggleFcfMetricBtn.style.display = metricButtonsDisplay;
+
+                destroyChartAndReplot();
+            },
+            raw: () => {
+                useRaw = !useRaw;
+                card._useRaw = useRaw;
+                toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
+
+                // Update price scale format immediately
+                if (chart && chart.priceScale) {
+                    const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
+                    const priceFormat = useRaw
+                        ? {
+                            type: 'custom', minMove: 0.01, formatter: (price) => {
+                                // Magnitude-based decimals for raw prices, capped by slider maximum
+                                const absPrice = Math.abs(price);
+                                const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
+                                const dec = Math.min(magDecimals, precision);
+                                return price.toFixed(dec);
+                            }
+                        }
+                        : {
+                            type: 'custom', minMove: 0.1, formatter: (v) => {
+                                const diff = v - 100;
+                                const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                                // Magnitude-based decimals, capped by slider maximum
+                                const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
+                                const dec = Math.min(magDecimals, precision);
+                                return `${sign}${Math.abs(diff).toFixed(dec)}%`;
+                            }
+                        };
+
+                    try {
+                        chart.priceScale('right').applyOptions({ priceFormat });
+                    } catch (e) {
+                        console.warn('[Card] Could not update price scale format:', e);
+                    }
+                }
+
+                saveCards();
+                plot();
+                // Update zero line after mode change
+                setTimeout(() => updateZeroLine(), 100);
+            },
+            logScale: () => {
+                useLogScale = !useLogScale;
+                card._useLogScale = useLogScale;
+                elements.toggleLogScaleBtn.textContent = useLogScale ? 'Linear Scale' : 'Log Scale';
+
+                // Apply log scale to chart
+                if (chart && chart.priceScale) {
+                    chart.priceScale('right').applyOptions({
+                        mode: useLogScale ? 1 : 0  // 0=Normal, 1=Logarithmic
+                    });
+                }
+
+                saveCards();
+            },
+            lastLabel: () => {
+                lastLabelVisible = !lastLabelVisible;
+                card._lastLabelVisible = lastLabelVisible;
+                console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
+                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
+                // Apply to all existing series
+                priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                if (avgSeries) avgSeries.applyOptions({ lastValueVisible: lastLabelVisible });
+                if (volPane && volSeriesMap) {
+                    volSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
+                // Apply to volume pane series (trading volume)
+                if (volumePane && volumeSeriesMap) {
+                    volumeSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
+                // Apply to revenue pane series
+                if (revenuePane && revenueSeriesMap) {
+                    revenueSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
+                }
+                saveCards();
+            },
+            lastTicker: () => {
+                lastTickerVisible = !lastTickerVisible;
+                card._lastTickerVisible = lastTickerVisible;
+                console.log(`[Card:${cardId}] Last ticker label ${lastTickerVisible ? 'enabled' : 'disabled'}`);
+                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
+                // Update ticker labels visibility
+                if (tickerLabelsContainer) {
+                    window.ChartTickerLabels.setLabelsVisibility(tickerLabelsContainer, lastTickerVisible);
+                }
+                saveCards();
+            },
+            zeroLine: () => {
+                showZeroLine = !showZeroLine;
+                card._showZeroLine = showZeroLine;
+                console.log(`[Card:${cardId}] Zero line ${showZeroLine ? 'enabled' : 'disabled'}`);
+
+                updateZeroLine();
+
+                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
+                saveCards();
+            },
+            reshuffleColors: () => {
+                console.log(`[Card:${cardId}] Reshuffling colors`);
+
+                // Create shuffled copy of colors array
+                const shuffledColors = [...window.ChartConfig.COLORS].sort(() => Math.random() - 0.5);
+
+                // Reassign random colors to all tickers
+                const tickersArray = Array.from(selectedTickers);
+                tickersArray.forEach((ticker, index) => {
+                    tickerColorMap.set(ticker, shuffledColors[index % shuffledColors.length]);
+                });
+
+                // Update UI
+                window.ChartDomBuilder.addTickerChips(
+                    selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
+                );
+
+                // Update chart series colors
+                priceSeriesMap.forEach((series, ticker) => {
+                    const newColor = tickerColorMap.get(ticker);
+                    if (newColor) {
+                        series.applyOptions({
+                            color: newColor,
+                            lineColor: newColor
+                        });
+                    }
+                });
+
+                // Update ticker labels colors
+                if (tickerLabelsContainer) {
+                    window.ChartTickerLabels.updateAllLabels(
+                        tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
+                        useRaw ? rawPriceMap : latestRebasedData, chart, lastTickerVisible,
+                        getCurrentFontSize()
+                    );
+                }
+
+                saveCards();
+            },
+            avg: () => {
+                showAvg = !showAvg;
+                card._showAvg = showAvg;
+                toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';
+                saveCards();
+                if (showAvg && !useRaw) {
+                    avgSeries = window.ChartSeriesManager.updateAverageSeries(
+                        chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
+                    );
+                } else if (avgSeries) {
+                    chart.removeSeries(avgSeries);
+                    avgSeries = null;
+                }
+            },
+            fixedLegend: () => {
+                showFixedLegend = !showFixedLegend;
+                card._showFixedLegend = showFixedLegend;
+                console.log(`[Card:${cardId}] Fixed legend ${showFixedLegend ? 'enabled' : 'disabled'}`);
+
+                if (showFixedLegend) {
+                    // Create fixed legend if it doesn't exist
+                    if (!fixedLegendEl) {
+                        fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
+                            initialX: card._fixedLegendPos?.x || 10,
+                            initialY: card._fixedLegendPos?.y || 10,
+                            initialWidth: card._fixedLegendSize?.width || null,
+                            initialHeight: card._fixedLegendSize?.height || null
+                        });
+
+                        // Setup state change handler
+                        fixedLegendEl._onStateChange = (changes) => {
+                            if (changes.x !== undefined || changes.y !== undefined) {
+                                card._fixedLegendPos = {
+                                    x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
+                                    y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
+                                };
+                            }
+                            if (changes.width !== undefined || changes.height !== undefined) {
+                                card._fixedLegendSize = {
+                                    width: changes.width !== undefined ? changes.width : card._fixedLegendSize?.width || null,
+                                    height: changes.height !== undefined ? changes.height : card._fixedLegendSize?.height || null
+                                };
+                            }
+                            debouncedSaveCards();
+                        };
+                    }
+
+                    // Show legend and update with latest values
+                    window.ChartFixedLegend.show(fixedLegendEl);
+                    updateFixedLegend();
+                } else {
+                    // Hide legend
+                    if (fixedLegendEl) {
+                        window.ChartFixedLegend.hide(fixedLegendEl);
+                    }
+                }
+
+                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
+                saveCards();
+            },
+            legendTickers: () => {
+                showLegendTickers = !showLegendTickers;
+                card._showLegendTickers = showLegendTickers;
+                console.log(`[Card:${cardId}] Legend tickers ${showLegendTickers ? 'enabled' : 'disabled'}`);
+
+                // Update fixed legend to reflect new setting
+                if (showFixedLegend && fixedLegendEl) {
+                    updateFixedLegend();
+                }
+
+                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
+                saveCards();
+            },
+            notes: () => {
+                const showNotes = notesSection.style.display !== 'none';
+                notesSection.style.display = showNotes ? 'none' : 'block';
+                card._showNotes = !showNotes;
+                card._notes = notesTextarea.value;
+
+                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes });
+                saveCards();
             }
         };
-        // Bind Phase 1 toggle buttons
-        window.ChartEventHandlers.bindToggleButtons(elements, toggleHandlers);
-
-        // Toggle Fundamentals Pane button
-        toggleFundamentalsPaneBtn.addEventListener('click', () => {
-            showFundamentalsPane = !showFundamentalsPane;
-            card._showFundamentalsPane = showFundamentalsPane;
-            toggleFundamentalsPaneBtn.textContent = showFundamentalsPane ? 'Hide Fundamentals Pane' : 'Show Fundamentals Pane';
-
-            // Show/hide metric buttons based on pane state
-            const metricButtonsDisplay = showFundamentalsPane ? 'inline-block' : 'none';
-            if (toggleRevenueMetricBtn) toggleRevenueMetricBtn.style.display = metricButtonsDisplay;
-            if (toggleNetIncomeMetricBtn) toggleNetIncomeMetricBtn.style.display = metricButtonsDisplay;
-            if (toggleEpsMetricBtn) toggleEpsMetricBtn.style.display = metricButtonsDisplay;
-            if (toggleFcfMetricBtn) toggleFcfMetricBtn.style.display = metricButtonsDisplay;
-
-            destroyChartAndReplot();
-        });
 
         // Helper function to update metric button states
         function updateMetricButtonStates() {
@@ -1758,12 +1920,6 @@
             if (showFundamentalsPane) plot();
         }
 
-        // Metric toggle buttons
-        if (toggleRevenueMetricBtn) toggleRevenueMetricBtn.addEventListener('click', () => toggleMetric('revenue'));
-        if (toggleNetIncomeMetricBtn) toggleNetIncomeMetricBtn.addEventListener('click', () => toggleMetric('netincome'));
-        if (toggleEpsMetricBtn) toggleEpsMetricBtn.addEventListener('click', () => toggleMetric('eps'));
-        if (toggleFcfMetricBtn) toggleFcfMetricBtn.addEventListener('click', () => toggleMetric('fcf'));
-
         // Show Fundamentals button
         const showFundamentalsBtn = card.querySelector('.show-fundamentals-btn');
         if (showFundamentalsBtn) {
@@ -1773,163 +1929,6 @@
                 } else {
                     console.error('[Card] ChartFundamentals module not loaded');
                 }
-            });
-        }
-
-        toggleRawBtn.addEventListener('click', () => {
-            useRaw = !useRaw;
-            card._useRaw = useRaw;
-            toggleRawBtn.textContent = useRaw ? 'Show % Basis' : 'Show Raw';
-
-            // Update price scale format immediately
-            if (chart && chart.priceScale) {
-                const precision = card._decimalPrecision !== undefined ? card._decimalPrecision : 2;
-                const priceFormat = useRaw
-                    ? {
-                        type: 'custom', minMove: 0.01, formatter: (price) => {
-                            // Magnitude-based decimals for raw prices, capped by slider maximum
-                            const absPrice = Math.abs(price);
-                            const magDecimals = absPrice >= 1000 ? 0 : absPrice >= 100 ? 1 : absPrice >= 1 ? 2 : absPrice >= 0.01 ? 4 : 6;
-                            const dec = Math.min(magDecimals, precision);
-                            return price.toFixed(dec);
-                        }
-                    }
-                    : {
-                        type: 'custom', minMove: 0.1, formatter: (v) => {
-                            const diff = v - 100;
-                            const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                            // Magnitude-based decimals, capped by slider maximum
-                            const magDecimals = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
-                            const dec = Math.min(magDecimals, precision);
-                            return `${sign}${Math.abs(diff).toFixed(dec)}%`;
-                        }
-                    };
-
-                try {
-                    chart.priceScale('right').applyOptions({ priceFormat });
-                } catch (e) {
-                    console.warn('[Card] Could not update price scale format:', e);
-                }
-            }
-
-            saveCards();
-            plot();
-            // Update zero line after mode change
-            setTimeout(() => updateZeroLine(), 100);
-        });
-        // Log Scale toggle
-        const toggleLogScaleBtn = elements.toggleLogScaleBtn;
-        if (toggleLogScaleBtn) {
-            toggleLogScaleBtn.addEventListener('click', () => {
-                useLogScale = !useLogScale;
-                card._useLogScale = useLogScale;
-                toggleLogScaleBtn.textContent = useLogScale ? 'Linear Scale' : 'Log Scale';
-
-                // Apply log scale to chart
-                if (chart && chart.priceScale) {
-                    chart.priceScale('right').applyOptions({
-                        mode: useLogScale ? 1 : 0  // 0=Normal, 1=Logarithmic
-                    });
-                }
-
-                saveCards();
-            });
-        }
-
-        // Toggle last value label visibility
-        if (toggleLastLabelBtn) {
-            toggleLastLabelBtn.addEventListener('click', () => {
-                lastLabelVisible = !lastLabelVisible;
-                card._lastLabelVisible = lastLabelVisible;
-                console.log(`[Card:${cardId}] Last value label ${lastLabelVisible ? 'enabled' : 'disabled'}`);
-                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
-                // Apply to all existing series
-                priceSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
-                if (avgSeries) avgSeries.applyOptions({ lastValueVisible: lastLabelVisible });
-                if (volPane && volSeriesMap) {
-                    volSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
-                }
-                // Apply to volume pane series (trading volume)
-                if (volumePane && volumeSeriesMap) {
-                    volumeSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
-                }
-                // Apply to revenue pane series
-                if (revenuePane && revenueSeriesMap) {
-                    revenueSeriesMap.forEach(s => s.applyOptions({ lastValueVisible: lastLabelVisible }));
-                }
-                saveCards();
-            });
-        }
-
-        // Toggle last ticker label visibility
-        if (toggleLastTickerBtn) {
-            toggleLastTickerBtn.addEventListener('click', () => {
-                lastTickerVisible = !lastTickerVisible;
-                card._lastTickerVisible = lastTickerVisible;
-                console.log(`[Card:${cardId}] Last ticker label ${lastTickerVisible ? 'enabled' : 'disabled'}`);
-                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
-                // Update ticker labels visibility
-                if (tickerLabelsContainer) {
-                    window.ChartTickerLabels.setLabelsVisibility(tickerLabelsContainer, lastTickerVisible);
-                }
-                saveCards();
-            });
-        }
-
-        // Reshuffle colors button
-        if (reshuffleColorsBtn) {
-            reshuffleColorsBtn.addEventListener('click', () => {
-                console.log(`[Card:${cardId}] Reshuffling colors`);
-
-                // Create shuffled copy of colors array
-                const shuffledColors = [...window.ChartConfig.COLORS].sort(() => Math.random() - 0.5);
-
-                // Reassign random colors to all tickers
-                const tickersArray = Array.from(selectedTickers);
-                tickersArray.forEach((ticker, index) => {
-                    tickerColorMap.set(ticker, shuffledColors[index % shuffledColors.length]);
-                });
-
-                // Update UI
-                window.ChartDomBuilder.addTickerChips(
-                    selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
-                );
-
-                // Update chart series colors
-                priceSeriesMap.forEach((series, ticker) => {
-                    const newColor = tickerColorMap.get(ticker);
-                    if (newColor) {
-                        series.applyOptions({
-                            color: newColor,
-                            lineColor: newColor
-                        });
-                    }
-                });
-
-                // Update ticker labels colors
-                if (tickerLabelsContainer) {
-                    window.ChartTickerLabels.updateAllLabels(
-                        tickerLabelsContainer, priceSeriesMap, tickerColorMap, hiddenTickers,
-                        useRaw ? rawPriceMap : latestRebasedData, chart, lastTickerVisible,
-                        getCurrentFontSize()
-                    );
-                }
-
-                saveCards();
-            });
-        }
-
-        // Toggle zero line visibility
-        if (toggleZeroLineBtn) {
-            toggleZeroLineBtn.addEventListener('click', () => {
-                showZeroLine = !showZeroLine;
-                card._showZeroLine = showZeroLine;
-                console.log(`[Card:${cardId}] Zero line ${showZeroLine ? 'enabled' : 'disabled'}`);
-
-                updateZeroLine();
-
-                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
-                saveCards();
             });
         }
 
@@ -1981,101 +1980,6 @@
                     zeroLineSeries = null;
                 }
             }
-        }
-
-        toggleAvgBtn.addEventListener('click', () => {
-            showAvg = !showAvg;
-            card._showAvg = showAvg;
-            toggleAvgBtn.textContent = showAvg ? 'Hide Avg' : 'Show Avg';
-            saveCards();
-            if (showAvg && !useRaw) {
-                avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                    chart, avgSeries, priceSeriesMap, hiddenTickers, undefined, lastLabelVisible
-                );
-            } else if (avgSeries) {
-                chart.removeSeries(avgSeries);
-                avgSeries = null;
-            }
-        });
-
-        // Toggle fixed legend visibility
-        if (toggleFixedLegendBtn) {
-            toggleFixedLegendBtn.addEventListener('click', () => {
-                showFixedLegend = !showFixedLegend;
-                card._showFixedLegend = showFixedLegend;
-                console.log(`[Card:${cardId}] Fixed legend ${showFixedLegend ? 'enabled' : 'disabled'}`);
-
-                if (showFixedLegend) {
-                    // Create fixed legend if it doesn't exist
-                    if (!fixedLegendEl) {
-                        fixedLegendEl = window.ChartFixedLegend.createFixedLegend(chartBox, {
-                            initialX: card._fixedLegendPos?.x || 10,
-                            initialY: card._fixedLegendPos?.y || 10,
-                            initialWidth: card._fixedLegendSize?.width || null,
-                            initialHeight: card._fixedLegendSize?.height || null
-                        });
-
-                        // Setup state change handler
-                        fixedLegendEl._onStateChange = (changes) => {
-                            if (changes.x !== undefined || changes.y !== undefined) {
-                                card._fixedLegendPos = {
-                                    x: changes.x !== undefined ? changes.x : card._fixedLegendPos?.x || 10,
-                                    y: changes.y !== undefined ? changes.y : card._fixedLegendPos?.y || 10
-                                };
-                            }
-                            if (changes.width !== undefined || changes.height !== undefined) {
-                                card._fixedLegendSize = {
-                                    width: changes.width !== undefined ? changes.width : card._fixedLegendSize?.width || null,
-                                    height: changes.height !== undefined ? changes.height : card._fixedLegendSize?.height || null
-                                };
-                            }
-                            debouncedSaveCards();
-                        };
-                    }
-
-                    // Show legend and update with latest values
-                    window.ChartFixedLegend.show(fixedLegendEl);
-                    updateFixedLegend();
-                } else {
-                    // Hide legend
-                    if (fixedLegendEl) {
-                        window.ChartFixedLegend.hide(fixedLegendEl);
-                    }
-                }
-
-                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
-                saveCards();
-            });
-        }
-
-        // Toggle Legend Tickers
-        if (toggleLegendTickersBtn) {
-            toggleLegendTickersBtn.addEventListener('click', () => {
-                showLegendTickers = !showLegendTickers;
-                card._showLegendTickers = showLegendTickers;
-                console.log(`[Card:${cardId}] Legend tickers ${showLegendTickers ? 'enabled' : 'disabled'}`);
-
-                // Update fixed legend to reflect new setting
-                if (showFixedLegend && fixedLegendEl) {
-                    updateFixedLegend();
-                }
-
-                window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
-                saveCards();
-            });
-        }
-
-        // Toggle Notes Button
-        if (toggleNotesBtn) {
-            toggleNotesBtn.addEventListener('click', () => {
-                const showNotes = notesSection.style.display !== 'none';
-                notesSection.style.display = showNotes ? 'none' : 'block';
-                card._showNotes = !showNotes;
-                card._notes = notesTextarea.value;
-
-                window.ChartDomBuilder.updateButtonStates(elements, { ...getButtonStates(), showNotes: !showNotes });
-                saveCards();
-            });
         }
 
         // Star button click handler
@@ -2266,233 +2170,295 @@
             });
         }
 
-        if (intervalSelect) {
-            // Set initial value if manual interval is set
-            if (card._manualInterval) {
-                intervalSelect.value = card._manualInterval;
-            }
+        // ═══════════════════════════════════════════════════════════════
+        // PHASE A EVENT HANDLERS - Named functions for bindAllWithCleanup
+        // ═══════════════════════════════════════════════════════════════
 
-            intervalSelect.addEventListener('change', () => {
-                const val = intervalSelect.value;
-                card._manualInterval = val === 'auto' ? null : val;
-                console.log(`Interval changed to: ${val}`);
-                debouncedSaveCards();
-                // Replot to fetch data with new interval
-                if (selectedTickers.size > 0) {
-                    plot();
+        // Fit button handler: fit chart to full data range and persist
+        function handleFit() {
+            if (!chart) return;
+            const dataRange = getCurrentDataRange();
+            if (dataRange) {
+                try {
+                    chart.timeScale().setVisibleRange(dataRange);
+                    card._visibleRange = dataRange;
+                    saveCards();
+                } catch (e) {
+                    chart.timeScale().fitContent();
                 }
-            });
+            } else {
+                chart.timeScale().fitContent();
+            }
         }
 
-        if (rangeSelect) {
-            rangeSelect.addEventListener('change', () => {
-                const val = rangeSelect.value;
-                if (!val) return;
+        // Interval select handler
+        function handleIntervalChange() {
+            const val = intervalSelect.value;
+            card._manualInterval = val === 'auto' ? null : val;
+            console.log(`Interval changed to: ${val}`);
+            debouncedSaveCards();
+            // Replot to fetch data with new interval
+            if (selectedTickers.size > 0) {
+                plot();
+            }
+        }
 
-                // Temporarily unsubscribe from range changes to prevent interference
-                if (rangeSaveHandler && chart && chart.timeScale) {
+        // Range select handler
+        function handleRangeChange() {
+            const val = rangeSelect.value;
+            if (!val) return;
+
+            // Temporarily unsubscribe from range changes to prevent interference
+            if (rangeSaveHandler && chart && chart.timeScale) {
+                try {
+                    chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                    console.log('[RangeSelect] Unsubscribed from range changes');
+                } catch (_) { }
+            }
+
+            // Special case: if selecting 1995 (or any year before 2000), find earliest data across all series
+            if (val === '1995' || (val !== 'ytd' && parseInt(val, 10) < 2000)) {
+                // Find earliest timestamp across all series (price + fundamentals)
+                let earliestTime = null;
+
+                // Check price series
+                priceSeriesMap.forEach((series, ticker) => {
                     try {
-                        chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                        console.log('[RangeSelect] Unsubscribed from range changes');
-                    } catch (_) { }
+                        const data = rawPriceMap.get(ticker);
+                        if (data && data.length > 0 && data[0].time) {
+                            const firstTime = data[0].time;
+                            if (!earliestTime || firstTime < earliestTime) {
+                                earliestTime = firstTime;
+                            }
+                        }
+                    } catch (e) { /* ignore */ }
+                });
+
+                // Check fundamental series
+                fundamentalSeriesMap.forEach((series, seriesKey) => {
+                    try {
+                        // Get data from the series - LightweightCharts doesn't expose data directly,
+                        // so we need to track it separately or use a different approach
+                        // For now, if we have fundamentals pane, assume it goes back to ~1996
+                        if (showFundamentalsPane && !earliestTime) {
+                            // Use 1996 as earliest for fundamentals (AAPL data goes back to 1996-04-01)
+                            earliestTime = Date.UTC(1996, 0, 1) / 1000;
+                        }
+                    } catch (e) { /* ignore */ }
+                });
+
+                // If we have fundamental data showing, use 1996 as earliest
+                if (showFundamentalsPane && fundamentalSeriesMap.size > 0) {
+                    earliestTime = Date.UTC(1996, 0, 1) / 1000;
                 }
 
-                // Special case: if selecting 1995 (or any year before 2000), find earliest data across all series
-                if (val === '1995' || (val !== 'ytd' && parseInt(val, 10) < 2000)) {
-                    // Find earliest timestamp across all series (price + fundamentals)
-                    let earliestTime = null;
-
-                    // Check price series
-                    priceSeriesMap.forEach((series, ticker) => {
-                        try {
-                            const data = rawPriceMap.get(ticker);
-                            if (data && data.length > 0 && data[0].time) {
-                                const firstTime = data[0].time;
-                                if (!earliestTime || firstTime < earliestTime) {
-                                    earliestTime = firstTime;
-                                }
-                            }
-                        } catch (e) { /* ignore */ }
-                    });
-
-                    // Check fundamental series
-                    fundamentalSeriesMap.forEach((series, seriesKey) => {
-                        try {
-                            // Get data from the series - LightweightCharts doesn't expose data directly,
-                            // so we need to track it separately or use a different approach
-                            // For now, if we have fundamentals pane, assume it goes back to ~1996
-                            if (showFundamentalsPane && !earliestTime) {
-                                // Use 1996 as earliest for fundamentals (AAPL data goes back to 1996-04-01)
-                                earliestTime = Date.UTC(1996, 0, 1) / 1000;
-                            }
-                        } catch (e) { /* ignore */ }
-                    });
-
-                    // If we have fundamental data showing, use 1996 as earliest
-                    if (showFundamentalsPane && fundamentalSeriesMap.size > 0) {
-                        earliestTime = Date.UTC(1996, 0, 1) / 1000;
+                // Default to price data earliest if no fundamentals
+                if (!earliestTime) {
+                    chart.timeScale().fitContent();
+                    const timeScale = chart.timeScale();
+                    const visibleRange = timeScale.getVisibleRange();
+                    if (visibleRange) {
+                        card._visibleRange = { from: visibleRange.from, to: visibleRange.to };
                     }
+                    saveCards();
 
-                    // Default to price data earliest if no fundamentals
-                    if (!earliestTime) {
-                        chart.timeScale().fitContent();
-                        const timeScale = chart.timeScale();
-                        const visibleRange = timeScale.getVisibleRange();
-                        if (visibleRange) {
-                            card._visibleRange = { from: visibleRange.from, to: visibleRange.to };
-                        }
-                        saveCards();
-
-                        // Resubscribe to range changes
-                        if (rangeSaveHandler) {
-                            try {
-                                chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                            } catch (_) { }
-                        }
-                        return;
+                    // Resubscribe to range changes
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        } catch (_) { }
                     }
-
-                    // Set flag to skip range restoration in plot functions
-                    card._skipRangeRestoration = true;
-
-                    // For fundamentals, we know the earliest data is 2005-06-30
-                    // Set explicit range to show all fundamental data
-                    const fundamentalsEarliest = Date.UTC(2005, 5, 30) / 1000;  // June 30, 2005
-                    const from = fundamentalsEarliest;
-                    const to = Math.floor(Date.now() / 1000);
-
-                    console.log(`[RangeSelect] Setting explicit range from ${new Date(from * 1000).toISOString()} to ${new Date(to * 1000).toISOString()}`);
-
-                    // Update card state
-                    card._visibleRange = { from, to };
-
-                    // Set the range
-                    chart.timeScale().setVisibleRange({ from, to });
-
-                    // Verify what range was actually set
-                    setTimeout(() => {
-                        const actualRange = chart.timeScale().getVisibleRange();
-                        if (actualRange) {
-                            console.log(`[RangeSelect] Actual visible range after setting: from ${new Date(actualRange.from * 1000).toISOString()} to ${new Date(actualRange.to * 1000).toISOString()}`);
-                            // Update with actual range if different
-                            card._visibleRange = { from: actualRange.from, to: actualRange.to };
-                            saveCards();
-                        }
-                    }, 100);
-
-                    // Resubscribe to range changes AFTER a delay
-                    setTimeout(() => {
-                        if (rangeSaveHandler) {
-                            try {
-                                chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
-                                console.log('[RangeSelect] Resubscribed to range changes');
-                            } catch (_) { }
-                        }
-                    }, 500);
                     return;
                 }
 
-                let startYear;
-                if (val === 'ytd') {
-                    startYear = new Date().getUTCFullYear();
-                } else {
-                    startYear = parseInt(val, 10);
-                }
-                const from = Date.UTC(startYear, 0, 1) / 1000;
+                // Set flag to skip range restoration in plot functions
+                card._skipRangeRestoration = true;
+
+                // For fundamentals, we know the earliest data is 2005-06-30
+                // Set explicit range to show all fundamental data
+                const fundamentalsEarliest = Date.UTC(2005, 5, 30) / 1000;  // June 30, 2005
+                const from = fundamentalsEarliest;
                 const to = Math.floor(Date.now() / 1000);
 
-                // Update card state FIRST
+                console.log(`[RangeSelect] Setting explicit range from ${new Date(from * 1000).toISOString()} to ${new Date(to * 1000).toISOString()}`);
+
+                // Update card state
                 card._visibleRange = { from, to };
 
-                // Then set the visual range
+                // Set the range
                 chart.timeScale().setVisibleRange({ from, to });
 
-                saveCards();
+                // Verify what range was actually set
+                setTimeout(() => {
+                    const actualRange = chart.timeScale().getVisibleRange();
+                    if (actualRange) {
+                        console.log(`[RangeSelect] Actual visible range after setting: from ${new Date(actualRange.from * 1000).toISOString()} to ${new Date(actualRange.to * 1000).toISOString()}`);
+                        // Update with actual range if different
+                        card._visibleRange = { from: actualRange.from, to: actualRange.to };
+                        saveCards();
+                    }
+                }, 100);
 
-                // Resubscribe to range changes
-                if (rangeSaveHandler) {
+                // Resubscribe to range changes AFTER a delay
+                setTimeout(() => {
+                    if (rangeSaveHandler) {
+                        try {
+                            chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                            console.log('[RangeSelect] Resubscribed to range changes');
+                        } catch (_) { }
+                    }
+                }, 500);
+                return;
+            }
+
+            let startYear;
+            if (val === 'ytd') {
+                startYear = new Date().getUTCFullYear();
+            } else {
+                startYear = parseInt(val, 10);
+            }
+            const from = Date.UTC(startYear, 0, 1) / 1000;
+            const to = Math.floor(Date.now() / 1000);
+
+            // Update card state FIRST
+            card._visibleRange = { from, to };
+
+            // Then set the visual range
+            chart.timeScale().setVisibleRange({ from, to });
+
+            saveCards();
+
+            // Resubscribe to range changes
+            if (rangeSaveHandler) {
+                try {
+                    chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                } catch (_) { }
+            }
+        }
+
+        // Title input handler
+        function handleTitleChange() {
+            card._title = titleInput.value;
+            if (navLink) {
+                navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
+            }
+            saveCards();
+        }
+
+        // Add chart button handler
+        function handleAddChart() {
+            // Get the current active page wrapper
+            let targetWrapper = null;
+            if (window.PageManager && window.PageManager.getActivePage) {
+                const activePage = window.PageManager.getActivePage();
+                targetWrapper = window.PageManager.ensurePage(activePage);
+            }
+            // Create new chart on the active page with default settings (all panes off)
+            const newCard = createChartCard('', false, false, false, false, false,
+                {}, [],
+                null, '', true, false, targetWrapper, 500, (window.ChartConfig?.UI?.FONT_DEFAULT || 12));
+            saveCards();
+            // Insert new card after the current card (within the same page)
+            if (card.nextSibling) {
+                (targetWrapper || wrapper).insertBefore(newCard, card.nextSibling);
+            }
+        }
+
+        // Remove card button handler (includes event cleanup)
+        function handleRemoveCard() {
+            try {
+                // Cleanup bound event listeners first
+                if (card._unbindEvents) {
+                    card._unbindEvents();
+                }
+
+                // Cleanup global keydown listener for settings panel
+                if (card._escapeHandler) {
+                    document.removeEventListener('keydown', card._escapeHandler);
+                }
+
+                // Remove nav link
+                if (navLink && navLink.parentElement) {
+                    navLink.parentElement.removeChild(navLink);
+                }
+                // Unsubscribe handlers and clear series
+                if (chart) {
                     try {
-                        chart.timeScale().subscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        if (crosshairHandler && typeof chart.unsubscribeCrosshairMove === 'function') {
+                            chart.unsubscribeCrosshairMove(crosshairHandler);
+                        }
+                    } catch (_) { }
+                    try {
+                        if (debouncedRebase && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
+                            if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
+                        }
+                    } catch (_) { }
+                    try {
+                        if (rangeSaveHandler && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
+                            chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
+                        }
+                    } catch (_) { }
+                    try { window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries); } catch (_) { }
+                    try {
+                        if (volPane && chart && typeof chart.removePane === 'function') {
+                            chart.removePane(volPane);
+                        }
                     } catch (_) { }
                 }
-            });
+            } catch (e) {
+                console.warn('Cleanup on remove failed:', e);
+            }
+            // Remove card from DOM and persist
+            if (card && card.parentElement) {
+                card.parentElement.removeChild(card);
+            }
+            saveCards();
         }
 
-        if (addChartBtn) {
-            addChartBtn.addEventListener('click', () => {
-                // Get the current active page wrapper
-                let targetWrapper = null;
-                if (window.PageManager && window.PageManager.getActivePage) {
-                    const activePage = window.PageManager.getActivePage();
-                    targetWrapper = window.PageManager.ensurePage(activePage);
-                }
-                // Create new chart on the active page with default settings (all panes off)
-                const newCard = createChartCard('', false, false, false, false, false,
-                    {}, [],
-                    null, '', true, false, targetWrapper, 500, (window.ChartConfig?.UI?.FONT_DEFAULT || 12));
-                saveCards();
-                // Insert new card after the current card (within the same page)
-                if (card.nextSibling) {
-                    (targetWrapper || wrapper).insertBefore(newCard, card.nextSibling);
-                }
-            });
-        }
-        if (removeCardBtn) {
-            removeCardBtn.addEventListener('click', () => {
-                try {
-                    // Cleanup global keydown listener for settings panel
-                    if (card._escapeHandler) {
-                        document.removeEventListener('keydown', card._escapeHandler);
+        // ═══════════════════════════════════════════════════════════════
+        // BIND PHASE A EVENTS via ChartEventHandlers
+        // ═══════════════════════════════════════════════════════════════
+        card._unbindEvents = window.ChartEventHandlers.bindAllWithCleanup(card, elements, {
+            toggles: toggleHandlers,
+            toggleMetric: toggleMetric,
+            ticker: {
+                onAddTicker: addTicker,
+                onPlot: plot,
+                onFit: handleFit,
+                onRangeChange: handleRangeChange,
+                onIntervalChange: handleIntervalChange
+            },
+            card: {
+                onTitleChange: handleTitleChange,
+                onAddChart: handleAddChart,
+                onRemoveCard: handleRemoveCard,
+                onExport: async () => {
+                    if (!chart) {
+                        alert('No chart to export. Please plot a chart first.');
+                        return;
                     }
+                    console.log('[Export] Exporting chart for LinkedIn');
+                    const title = titleInput ? titleInput.value : '';
+                    try {
+                        const result = await window.ChartExport.exportForLinkedIn(chart, title, chartBox);
+                        if (result.success) {
+                            console.log('[Export] Export successful');
+                        } else {
+                            console.error('[Export] Export failed:', result.message);
+                            alert(`Export failed: ${result.message}`);
+                        }
+                    } catch (error) {
+                        console.error('[Export] Export error:', error);
+                        alert(`Export error: ${error.message}`);
+                    }
+                }
+            }
+        });
 
-                    // Remove nav link
-                    if (navLink && navLink.parentElement) {
-                        navLink.parentElement.removeChild(navLink);
-                    }
-                    // Unsubscribe handlers and clear series
-                    if (chart) {
-                        try {
-                            if (crosshairHandler && typeof chart.unsubscribeCrosshairMove === 'function') {
-                                chart.unsubscribeCrosshairMove(crosshairHandler);
-                            }
-                        } catch (_) { }
-                        try {
-                            if (debouncedRebase && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
-                                chart.timeScale().unsubscribeVisibleTimeRangeChange(debouncedRebase);
-                                if (typeof debouncedRebase.cancel === 'function') debouncedRebase.cancel();
-                            }
-                        } catch (_) { }
-                        try {
-                            if (rangeSaveHandler && chart.timeScale && typeof chart.timeScale().unsubscribeVisibleTimeRangeChange === 'function') {
-                                chart.timeScale().unsubscribeVisibleTimeRangeChange(rangeSaveHandler);
-                            }
-                        } catch (_) { }
-                        try { window.ChartSeriesManager.clearAllSeries(chart, priceSeriesMap, volSeriesMap, avgSeries); } catch (_) { }
-                        try {
-                            if (volPane && chart && typeof chart.removePane === 'function') {
-                                chart.removePane(volPane);
-                            }
-                        } catch (_) { }
-                    }
-                } catch (e) {
-                    console.warn('Cleanup on remove failed:', e);
-                }
-                // Remove card from DOM and persist
-                if (card && card.parentElement) {
-                    card.parentElement.removeChild(card);
-                }
-                saveCards();
-            });
-        }
-
-        if (titleInput) {
-            titleInput.addEventListener('input', () => {
-                card._title = titleInput.value;
-                if (navLink) {
-                    navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
-                }
-                saveCards();
-            });
+        // Set initial interval value (handler bound via bindAllWithCleanup)
+        if (intervalSelect && card._manualInterval) {
+            intervalSelect.value = card._manualInterval;
         }
 
         // Bind chip toggle & multiplier events via helper

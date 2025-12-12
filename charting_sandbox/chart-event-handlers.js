@@ -1,17 +1,42 @@
 /**
  * Chart Event Handlers Module
- * Centralizes event binding for chart cards
+ * Centralizes event binding for chart cards with cleanup support
  */
 
 window.ChartEventHandlers = {
     /**
+     * Create a listener tracker for cleanup
+     * @returns {Object} { add, unbindAll }
+     */
+    createListenerTracker() {
+        const listeners = [];
+        return {
+            add(el, type, fn, opts = false) {
+                if (!el) return;
+                el.addEventListener(type, fn, opts);
+                listeners.push({ el, type, fn, opts });
+            },
+            unbindAll() {
+                listeners.forEach(({ el, type, fn, opts }) => {
+                    try { el.removeEventListener(type, fn, opts); } catch (_) {}
+                });
+                listeners.length = 0;
+            },
+            getCount() {
+                return listeners.length;
+            }
+        };
+    },
+
+    /**
      * Bind toggle button events using a handlers dictionary.
      * @param {Object} elements - DOM elements containing toggle buttons
-     * @param {Object} handlers - Dictionary mapping handler names to callbacks:
-     *   { diff, vol, volume, revenue, fundamentalsPane, raw, avg,
-     *     lastLabel, lastTicker, zeroLine, fixedLegend, legendTickers, notes, reshuffleColors }
+     * @param {Object} handlers - Dictionary mapping handler names to callbacks
+     * @param {Object} [tracker] - Optional listener tracker from createListenerTracker()
      */
-    bindToggleButtons(elements, handlers) {
+    bindToggleButtons(elements, handlers, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
+
         // Map of button element keys to handler keys
         const buttonMap = {
             toggleDiffBtn: 'diff',
@@ -27,7 +52,8 @@ window.ChartEventHandlers = {
             toggleFixedLegendBtn: 'fixedLegend',
             toggleLegendTickersBtn: 'legendTickers',
             toggleNotesBtn: 'notes',
-            reshuffleColorsBtn: 'reshuffleColors'
+            reshuffleColorsBtn: 'reshuffleColors',
+            toggleLogScaleBtn: 'logScale'
         };
 
         // Bind each button to its handler
@@ -35,7 +61,7 @@ window.ChartEventHandlers = {
             const btn = elements[btnKey];
             const handler = handlers[handlerKey];
             if (btn && handler) {
-                btn.addEventListener('click', handler);
+                add(btn, 'click', handler);
             }
         });
     },
@@ -44,8 +70,11 @@ window.ChartEventHandlers = {
      * Bind metric toggle buttons (revenue, netincome, eps, fcf)
      * @param {Object} elements - DOM elements containing metric buttons
      * @param {Function} toggleMetric - Function that takes metric name and toggles it
+     * @param {Object} [tracker] - Optional listener tracker
      */
-    bindMetricToggles(elements, toggleMetric) {
+    bindMetricToggles(elements, toggleMetric, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
+
         const metricMap = {
             toggleRevenueMetricBtn: 'revenue',
             toggleNetIncomeMetricBtn: 'netincome',
@@ -56,15 +85,20 @@ window.ChartEventHandlers = {
         Object.entries(metricMap).forEach(([btnKey, metricName]) => {
             const btn = elements[btnKey];
             if (btn) {
-                btn.addEventListener('click', () => toggleMetric(metricName));
+                add(btn, 'click', () => toggleMetric(metricName));
             }
         });
     },
 
     /**
      * Bind height and font control events
+     * @param {Object} elements - DOM elements
+     * @param {Object} callbacks - Handler callbacks
+     * @param {Object} [tracker] - Optional listener tracker
      */
-    bindSizeControls(card, elements, callbacks) {
+    bindSizeControls(elements, callbacks, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
+
         const {
             heightUpBtn, heightDownBtn,
             volPaneHeightUpBtn, volPaneHeightDownBtn,
@@ -77,92 +111,117 @@ window.ChartEventHandlers = {
             onFontUp, onFontDown
         } = callbacks;
 
-        // Height controls
-        if (heightUpBtn && onHeightUp) {
-            heightUpBtn.addEventListener('click', onHeightUp);
-        }
-        if (heightDownBtn && onHeightDown) {
-            heightDownBtn.addEventListener('click', onHeightDown);
-        }
-
-        // Volume pane height controls
-        if (volPaneHeightUpBtn && onVolPaneHeightUp) {
-            volPaneHeightUpBtn.addEventListener('click', onVolPaneHeightUp);
-        }
-        if (volPaneHeightDownBtn && onVolPaneHeightDown) {
-            volPaneHeightDownBtn.addEventListener('click', onVolPaneHeightDown);
-        }
-
-        // Font size controls
-        if (fontUpBtn && onFontUp) {
-            fontUpBtn.addEventListener('click', onFontUp);
-        }
-        if (fontDownBtn && onFontDown) {
-            fontDownBtn.addEventListener('click', onFontDown);
-        }
+        if (heightUpBtn && onHeightUp) add(heightUpBtn, 'click', onHeightUp);
+        if (heightDownBtn && onHeightDown) add(heightDownBtn, 'click', onHeightDown);
+        if (volPaneHeightUpBtn && onVolPaneHeightUp) add(volPaneHeightUpBtn, 'click', onVolPaneHeightUp);
+        if (volPaneHeightDownBtn && onVolPaneHeightDown) add(volPaneHeightDownBtn, 'click', onVolPaneHeightDown);
+        if (fontUpBtn && onFontUp) add(fontUpBtn, 'click', onFontUp);
+        if (fontDownBtn && onFontDown) add(fontDownBtn, 'click', onFontDown);
     },
 
     /**
      * Bind ticker control events
+     * @param {Object} elements - DOM elements
+     * @param {Object} callbacks - Handler callbacks
+     * @param {Object} [tracker] - Optional listener tracker
      */
-    bindTickerControls(card, elements, callbacks) {
-        const { tickerInput, addBtn, plotBtn, fitBtn, rangeSelect } = elements;
-        const { onAddTicker, onPlot, onFit, onRangeChange } = callbacks;
+    bindTickerControls(elements, callbacks, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
 
-        // Add ticker
-        if (addBtn && onAddTicker) {
-            addBtn.addEventListener('click', onAddTicker);
-        }
+        const { tickerInput, addBtn, plotBtn, fitBtn, rangeSelect, intervalSelect } = elements;
+        const { onAddTicker, onPlot, onFit, onRangeChange, onIntervalChange } = callbacks;
+
+        if (addBtn && onAddTicker) add(addBtn, 'click', onAddTicker);
         if (tickerInput && onAddTicker) {
-            tickerInput.addEventListener('keypress', (e) => {
-                if (e.key === 'Enter') onAddTicker();
-            });
+            add(tickerInput, 'keypress', (e) => { if (e.key === 'Enter') onAddTicker(); });
         }
-
-        // Plot button
-        if (plotBtn && onPlot) {
-            plotBtn.addEventListener('click', onPlot);
-        }
-
-        // Fit button
-        if (fitBtn && onFit) {
-            fitBtn.addEventListener('click', onFit);
-        }
-
-        // Range selector
-        if (rangeSelect && onRangeChange) {
-            rangeSelect.addEventListener('change', onRangeChange);
-        }
+        if (plotBtn && onPlot) add(plotBtn, 'click', onPlot);
+        if (fitBtn && onFit) add(fitBtn, 'click', onFit);
+        if (rangeSelect && onRangeChange) add(rangeSelect, 'change', onRangeChange);
+        if (intervalSelect && onIntervalChange) add(intervalSelect, 'change', onIntervalChange);
     },
 
     /**
      * Bind card management events
+     * @param {Object} elements - DOM elements
+     * @param {Object} callbacks - Handler callbacks
+     * @param {Object} [tracker] - Optional listener tracker
      */
-    bindCardControls(card, elements, callbacks) {
-        const { titleInput, addChartBtn, removeCardBtn } = elements;
-        const { onTitleChange, onAddChart, onRemoveCard } = callbacks;
+    bindCardControls(elements, callbacks, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
 
-        // Title input
-        if (titleInput && onTitleChange) {
-            titleInput.addEventListener('input', onTitleChange);
+        const { titleInput, addChartBtn, removeCardBtn, starBtn, notesTextarea, exportBtn } = elements;
+        const { onTitleChange, onAddChart, onRemoveCard, onToggleStar, onNotesInput, onExport } = callbacks;
+
+        if (titleInput && onTitleChange) add(titleInput, 'input', onTitleChange);
+        if (addChartBtn && onAddChart) add(addChartBtn, 'click', onAddChart);
+        if (removeCardBtn && onRemoveCard) add(removeCardBtn, 'click', onRemoveCard);
+        if (starBtn && onToggleStar) add(starBtn, 'click', onToggleStar);
+        if (notesTextarea && onNotesInput) add(notesTextarea, 'input', onNotesInput);
+        if (exportBtn && onExport) add(exportBtn, 'click', onExport);
+    },
+
+    /**
+     * Bind show fundamentals modal button
+     * @param {HTMLElement} card - Card element
+     * @param {Function} handler - Click handler
+     * @param {Object} [tracker] - Optional listener tracker
+     */
+    bindShowFundamentals(card, handler, tracker = null) {
+        const add = tracker ? tracker.add.bind(tracker) : (el, type, fn) => el?.addEventListener(type, fn);
+        const btn = card.querySelector('.show-fundamentals-btn');
+        if (btn && handler) add(btn, 'click', handler);
+    },
+
+    /**
+     * Bind all card events with cleanup support
+     * @param {HTMLElement} card - Card element
+     * @param {Object} elements - DOM elements from ChartDomBuilder
+     * @param {Object} handlers - All handler callbacks organized by category
+     * @returns {Function} unbind - Call to remove all listeners
+     */
+    bindAllWithCleanup(card, elements, handlers) {
+        const tracker = this.createListenerTracker();
+
+        // Toggle buttons (diff, vol, volume, revenue, raw, avg, etc.)
+        if (handlers.toggles) {
+            this.bindToggleButtons(elements, handlers.toggles, tracker);
         }
 
-        // Add chart button
-        if (addChartBtn && onAddChart) {
-            addChartBtn.addEventListener('click', onAddChart);
+        // Metric toggles (revenue, netincome, eps, fcf)
+        if (handlers.toggleMetric) {
+            this.bindMetricToggles(elements, handlers.toggleMetric, tracker);
         }
 
-        // Remove card button
-        if (removeCardBtn && onRemoveCard) {
-            removeCardBtn.addEventListener('click', onRemoveCard);
+        // Size controls (height, font)
+        if (handlers.size) {
+            this.bindSizeControls(elements, handlers.size, tracker);
         }
+
+        // Ticker controls (add, plot, fit, range, interval)
+        if (handlers.ticker) {
+            this.bindTickerControls(elements, handlers.ticker, tracker);
+        }
+
+        // Card controls (title, add/remove, star, notes, export)
+        if (handlers.card) {
+            this.bindCardControls(elements, handlers.card, tracker);
+        }
+
+        // Show fundamentals modal
+        if (handlers.showFundamentals) {
+            this.bindShowFundamentals(card, handlers.showFundamentals, tracker);
+        }
+
+        console.log(`[EventHandlers] Bound ${tracker.getCount()} listeners`);
+
+        return tracker.unbindAll.bind(tracker);
     },
 
     /**
      * Bind all events at once (legacy signature for backward compatibility)
      */
     bindAll(card, elements, callbacks) {
-        // Convert old callback format to new handlers format if needed
         const handlers = callbacks.toggleHandlers || {
             diff: callbacks.onToggleDiff,
             vol: callbacks.onToggleVol,
@@ -174,8 +233,8 @@ window.ChartEventHandlers = {
             fixedLegend: callbacks.onToggleFixedLegend
         };
         this.bindToggleButtons(elements, handlers);
-        this.bindSizeControls(card, elements, callbacks);
-        this.bindTickerControls(card, elements, callbacks);
-        this.bindCardControls(card, elements, callbacks);
+        this.bindSizeControls(elements, callbacks);
+        this.bindTickerControls(elements, callbacks);
+        this.bindCardControls(elements, callbacks);
     }
 };
