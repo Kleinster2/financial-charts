@@ -29,8 +29,8 @@ DELISTED_TICKERS = {
 
 def get_api_key():
     """Get Alpha Vantage API key from env or config file."""
-    # Try environment variable first
-    api_key = os.environ.get('ALPHAVANTAGE_API_KEY')
+    # Try environment variable first (accept both names, prefer ALPHA_VANTAGE_API_KEY)
+    api_key = os.environ.get('ALPHA_VANTAGE_API_KEY') or os.environ.get('ALPHAVANTAGE_API_KEY')
     if api_key:
         return api_key
 

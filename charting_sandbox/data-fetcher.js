@@ -3,30 +3,45 @@
  * Handles all backend API calls with error handling and retry logic
  */
 
-// Base URL configuration
-const API_BASE_URL = 'http://localhost:5000';
+// Derive config from ChartConfig (single source of truth) with fallbacks
+const API_BASE_URL = window.ChartConfig?.API?.BASE_URL || 'http://localhost:5000';
+const API_RETRY_COUNT = window.ChartConfig?.API?.RETRY_COUNT ?? 2;
+const API_RETRY_DELAY_BASE = window.ChartConfig?.API?.RETRY_DELAY_BASE ?? 1000;
+window.API_BASE_URL = API_BASE_URL;
 
-// Utility function for fetch with retry
-async function fetchWithRetry(url, options = {}, retries = 2) {
+// Utility function for fetch with retry and abort support
+async function fetchWithRetry(url, options = {}, retries = API_RETRY_COUNT) {
+    const { signal, ...restOptions } = options;
+
     for (let i = 0; i <= retries; i++) {
         try {
+            // Check if already aborted before starting
+            if (signal?.aborted) {
+                throw new DOMException('Aborted', 'AbortError');
+            }
+
             console.log(`Fetching: ${url}${i > 0 ? ` (retry ${i})` : ''}`);
-            const resp = await fetch(url, options);
-            
+            const resp = await fetch(url, { ...restOptions, signal });
+
             if (!resp.ok) {
                 throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
             }
-            
+
             return await resp.json();
         } catch (error) {
+            // Don't retry on abort
+            if (error.name === 'AbortError') {
+                throw error;
+            }
+
             console.error(`Fetch error: ${error.message}`);
-            
+
             if (i === retries) {
                 throw error;
             }
-            
+
             // Wait before retry (exponential backoff)
-            await new Promise(resolve => setTimeout(resolve, 1000 * Math.pow(2, i)));
+            await new Promise(resolve => setTimeout(resolve, API_RETRY_DELAY_BASE * Math.pow(2, i)));
         }
     }
 }
@@ -80,10 +95,13 @@ window.DataFetcher = {
      * @param {Array<string>} tickers - Array of ANY ticker symbols (AAPL, ^VXAPL, ^VIX, MSFT, etc.)
      * @param {number} days - Number of days of history (default: 5475 for 15 years)
      * @param {string} interval - Data interval: 'daily', 'weekly', or 'monthly' (default: 'daily')
+     * @param {Object} options - Optional settings { signal: AbortSignal }
      * @returns {Object} Unified data: {ticker: [{time, value}]}
      */
-    async getData(tickers, days = 5475, interval = 'daily') {
+    async getData(tickers, days = 5475, interval = 'daily', options = {}) {
         if (!tickers || tickers.length === 0) return {};
+
+        const { signal } = options;
 
         console.log(`[Unified] Fetching ${tickers.length} tickers: ${tickers.join(', ')} (interval: ${interval})`);
 
@@ -92,7 +110,7 @@ window.DataFetcher = {
         const results = {};
 
         try {
-            const priceData = await this.getPriceData(tickers, null, null, interval);
+            const priceData = await this.getPriceData(tickers, null, null, interval, { signal });
 
             if (!priceData || Object.keys(priceData).length === 0) {
                 console.warn(`  ✗ No data returned for tickers: ${tickers.join(', ')}`);
@@ -112,6 +130,12 @@ window.DataFetcher = {
 
             console.log(`  ✓ Fetched ${Object.keys(results).length} tickers`);
         } catch (err) {
+            // Silently return empty on abort (not an error)
+            if (err.name === 'AbortError') {
+                console.log(`[Unified] Fetch aborted for: ${tickers.join(', ')}`);
+                return {};
+            }
+
             console.error(`  ✗ Data fetch failed:`, err);
 
             // Show user-visible error
@@ -137,9 +161,12 @@ window.DataFetcher = {
      * @param {number|null} fromDate - Start date (unix timestamp)
      * @param {number|null} toDate - End date (unix timestamp)
      * @param {string} interval - Data interval: 'daily', 'weekly', or 'monthly' (default: 'daily')
+     * @param {Object} options - Optional settings { signal: AbortSignal }
      */
-    async getPriceData(tickers, fromDate = null, toDate = null, interval = 'daily') {
+    async getPriceData(tickers, fromDate = null, toDate = null, interval = 'daily', options = {}) {
         if (!tickers || tickers.length === 0) return {};
+
+        const { signal } = options;
 
         // Check for portfolio tickers (format: PORTFOLIO_1, PORTFOLIO_2, etc.)
         const portfolioTickers = tickers.filter(t => t.startsWith('PORTFOLIO_'));
@@ -155,19 +182,23 @@ window.DataFetcher = {
             if (toDate) params.set('to', Math.floor(toDate));
             if (interval && interval !== 'daily') params.set('interval', interval);
             const url = `${API_BASE_URL}/api/data?${params.toString()}`;
-            const regularData = await fetchWithRetry(url);
+            const regularData = await fetchWithRetry(url, { signal });
             Object.assign(results, regularData);
         }
 
         // Fetch portfolio data
         for (const portfolioTicker of portfolioTickers) {
+            // Check if aborted before each portfolio fetch
+            if (signal?.aborted) break;
+
             const portfolioId = portfolioTicker.replace('PORTFOLIO_', '');
             const url = `${API_BASE_URL}/api/portfolio/${portfolioId}/valuations`;
             try {
-                const portfolioData = await fetchWithRetry(url);
+                const portfolioData = await fetchWithRetry(url, { signal });
                 // Store in same format as regular tickers
                 results[portfolioTicker] = portfolioData;
             } catch (error) {
+                if (error.name === 'AbortError') throw error;  // Propagate abort
                 console.warn(`Failed to fetch portfolio ${portfolioId}:`, error);
             }
         }

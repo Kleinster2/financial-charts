@@ -43,7 +43,10 @@ window.ChartConfig = {
     
     // API Settings
     API: {
-        BASE_URL: 'http://localhost:5000',
+        // Default to same origin when served via HTTP(S), fallback for file:// protocol
+        BASE_URL: (window.location.protocol !== 'file:' && window.location.origin !== 'null')
+            ? window.location.origin
+            : 'http://localhost:5000',
         RETRY_COUNT: 2,
         RETRY_DELAY_BASE: 1000  // Base delay for exponential backoff
     },

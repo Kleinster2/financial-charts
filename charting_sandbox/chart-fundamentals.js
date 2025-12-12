@@ -50,7 +50,7 @@
      */
     async function fetchOverview(ticker) {
         try {
-            const response = await fetch(`http://localhost:5000/api/fundamentals/overview?tickers=${ticker}`);
+            const response = await fetch(window.ChartUtils.apiUrl(`/api/fundamentals/overview?tickers=${ticker}`));
             if (!response.ok) throw new Error('Failed to fetch overview');
             const data = await response.json();
             return data[ticker];
@@ -65,7 +65,7 @@
      */
     async function fetchEarnings(ticker, period = 'quarterly') {
         try {
-            const response = await fetch(`http://localhost:5000/api/fundamentals/earnings?tickers=${ticker}&period=${period}`);
+            const response = await fetch(window.ChartUtils.apiUrl(`/api/fundamentals/earnings?tickers=${ticker}&period=${period}`));
             if (!response.ok) throw new Error('Failed to fetch earnings');
             const data = await response.json();
             return data[ticker] || [];

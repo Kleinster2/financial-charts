@@ -157,7 +157,7 @@ window.ChartThesisPerformance = {
 
     async loadThesisList(card) {
         try {
-            const response = await fetch('/api/theses');
+            const response = await fetch(window.ChartUtils.apiUrl('/api/theses'));
             const theses = await response.json();
             const selector = card.querySelector('.thesis-selector');
 
@@ -174,7 +174,7 @@ window.ChartThesisPerformance = {
 
     async loadThesisPerformance(card, thesisId) {
         try {
-            const response = await fetch(`/api/theses/${thesisId}/performance`);
+            const response = await fetch(window.ChartUtils.apiUrl(`/api/theses/${thesisId}/performance`));
             if (!response.ok) {
                 const err = await response.json();
                 console.error('Performance API error:', err);

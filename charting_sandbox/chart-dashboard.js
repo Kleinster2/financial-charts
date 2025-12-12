@@ -343,7 +343,7 @@ window.ChartDashboard = {
 
         try {
             console.log('[ChartDashboard] Fetching from API...');
-            const response = await fetch('http://localhost:5000/api/dashboard');
+            const response = await fetch(window.ChartUtils.apiUrl('/api/dashboard'));
             console.log('[ChartDashboard] Response status:', response.status);
             if (!response.ok) throw new Error('Failed to load dashboard data');
 

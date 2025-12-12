@@ -63,7 +63,7 @@ window.StateManager = {
 
             const payload = { cards, pages: pagesMeta };
 
-            const response = await fetch('http://localhost:5000/api/workspace', {
+            const response = await fetch(window.ChartUtils.apiUrl('/api/workspace'), {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
@@ -138,8 +138,9 @@ window.StateManager = {
     async loadCards() {
         try {
             // Backend-first restore for cross-browser persistence
+            let remoteData = null;
             if (window.DataFetcher) {
-                const remoteData = await window.DataFetcher.loadWorkspace();
+                remoteData = await window.DataFetcher.loadWorkspace();
                 if (remoteData) {
                     // Two schema possibilities: legacy array or new object {cards, pages}
                     if (Array.isArray(remoteData)) {

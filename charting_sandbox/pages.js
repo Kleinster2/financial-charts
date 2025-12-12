@@ -418,7 +418,7 @@
   // Load categories from backend workspace.json
   async function loadCategoriesFromBackend() {
     try {
-      const resp = await fetch('/api/workspace');
+      const resp = await fetch(window.ChartUtils.apiUrl('/api/workspace'));
       if (resp.ok) {
         const data = await resp.json();
         if (data.pages && data.pages.names) {

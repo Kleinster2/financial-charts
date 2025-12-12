@@ -41,7 +41,7 @@
      */
     async function loadTickerMetadata() {
         try {
-            const response = await fetch('http://localhost:5000/api/metadata?tickers=ALL');
+            const response = await fetch(window.ChartUtils.apiUrl('/api/metadata?tickers=ALL'));
             if (response.ok) {
                 tickerMetadata = await response.json();
                 console.log('[GlobalSearch] Loaded metadata for', Object.keys(tickerMetadata).length, 'tickers');

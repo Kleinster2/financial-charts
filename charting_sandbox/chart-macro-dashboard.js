@@ -159,7 +159,7 @@ window.ChartMacroDashboard = {
         tbody.innerHTML = '<tr><td colspan="10" class="dashboard-loading">Loading FRED data...</td></tr>';
 
         try {
-            const response = await fetch('http://localhost:5000/api/macro-dashboard');
+            const response = await fetch(window.ChartUtils.apiUrl('/api/macro-dashboard'));
             if (!response.ok) throw new Error('Failed to load macro dashboard data');
 
             this.data = await response.json();

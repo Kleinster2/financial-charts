@@ -132,6 +132,46 @@ COMMENTARY_THRESHOLDS = {
     'MODERATE_DOWN': -0.01 # 1% daily loss
 }
 
+# Ticker Aliases - maps alternative tickers to canonical DB tickers
+# Used for fundamentals/revenue endpoints where share classes have identical financials
+TICKER_ALIASES = {
+    # Google: GOOGL (Class A) -> GOOG (Class C) - same financials
+    'GOOGL': 'GOOG',
+    # Berkshire Hathaway: B shares -> A shares (same financials, different price)
+    'BRK-B': 'BRK-A',
+    'BRK.B': 'BRK-A',
+    # News Corp: Class B -> Class A
+    'NWS': 'NWSA',
+    # Fox Corporation: Class B -> Class A
+    'FOX': 'FOXA',
+    # Zillow: Class C -> Class A
+    'Z': 'ZG',
+    # Under Armour: Class C -> Class A
+    'UA': 'UAA',
+    # Discovery (now Warner Bros Discovery): Class B/C -> Class A
+    'DISCB': 'DISCA',
+    'DISCK': 'DISCA',
+    # Lionsgate: Class B -> Class A
+    'LGF.B': 'LGF.A',
+    'LGF-B': 'LGF-A',
+}
+
+def resolve_ticker_alias(ticker: str) -> str:
+    """Resolve ticker to canonical form for fundamentals lookups."""
+    return TICKER_ALIASES.get(ticker.upper(), ticker.upper())
+
+def resolve_ticker_aliases(tickers: list) -> dict:
+    """
+    Resolve a list of tickers to canonical forms.
+    Returns dict mapping original -> canonical (only for those that changed).
+    """
+    mapping = {}
+    for t in tickers:
+        canonical = resolve_ticker_alias(t)
+        if canonical != t.upper():
+            mapping[t.upper()] = canonical
+    return mapping
+
 # --- Database Path Resolver -------------------------------------------------
 _logger = logging.getLogger(__name__)
 

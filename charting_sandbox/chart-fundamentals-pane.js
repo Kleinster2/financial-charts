@@ -10,17 +10,18 @@
      * Fetch fundamental chart data for tickers
      * @param {Array<string>} tickers - Array of ticker symbols
      * @param {Array<string>} metrics - Array of metric names (revenue, netIncome, eps, fcf)
+     * @param {AbortSignal} signal - Optional abort signal for cancellation
      * @returns {Promise<Object>} - Data for each ticker and metric
      */
-    async function fetchFundamentalsChartData(tickers, metrics = ['revenue', 'netIncome', 'eps', 'fcf']) {
+    async function fetchFundamentalsChartData(tickers, metrics = ['revenue', 'netIncome', 'eps', 'fcf'], signal = null) {
         try {
             const tickersParam = tickers.join(',');
             const metricsParam = metrics.join(',');
-            const url = `http://localhost:5000/api/fundamentals/chart?tickers=${tickersParam}&metrics=${metricsParam}`;
+            const url = window.ChartUtils.apiUrl(`/api/fundamentals/chart?tickers=${tickersParam}&metrics=${metricsParam}`);
 
             console.log(`[FundamentalsPane] Fetching chart data: ${url}`);
 
-            const response = await fetch(url);
+            const response = await fetch(url, signal ? { signal } : {});
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}`);
             }
@@ -30,6 +31,10 @@
             return data;
 
         } catch (error) {
+            if (error.name === 'AbortError') {
+                console.log('[FundamentalsPane] Fetch aborted');
+                return {};
+            }
             console.error('[FundamentalsPane] Error fetching data:', error);
             return {};
         }
@@ -134,12 +139,19 @@
      * @param {Array<string>} activeMetrics - Metrics to display
      * @param {Map} seriesMap - Map to store series
      * @param {Object} hiddenTickers - Map of hidden tickers
+     * @param {AbortSignal} signal - Optional abort signal for cancellation
      */
-    async function plotFundamentalsPane(pane, tickers, activeMetrics, seriesMap, hiddenTickers = {}) {
+    async function plotFundamentalsPane(pane, tickers, activeMetrics, seriesMap, hiddenTickers = {}, signal = null) {
         console.log(`[FundamentalsPane] Plotting ${tickers.length} tickers, ${activeMetrics.length} metrics`);
 
         // Fetch data for all tickers and active metrics
-        const data = await fetchFundamentalsChartData(tickers, activeMetrics);
+        const data = await fetchFundamentalsChartData(tickers, activeMetrics, signal);
+
+        // Check if aborted after fetch
+        if (signal?.aborted) {
+            console.log('[FundamentalsPane] Plot aborted after fetch');
+            return;
+        }
 
         // Plot each ticker's metrics
         tickers.forEach((ticker, tickerIndex) => {
@@ -216,13 +228,168 @@
         console.log('[FundamentalsPane] Cleared all series');
     }
 
+    /**
+     * Setup revenue pane with all series for given tickers
+     * High-level helper that orchestrates pane creation and series plotting
+     *
+     * @param {Object} chart - LightweightCharts instance
+     * @param {Array} tickerList - Tickers to plot
+     * @param {Object} revenuePane - Existing pane or null
+     * @param {Map} revenueSeriesMap - Series map (mutated in place)
+     * @param {Object} dataRefs - { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor, signal }
+     * @param {Function} withRangePreservation - Wrapper to preserve time range
+     * @returns {Promise<Object>} { revenuePane }
+     */
+    async function setupRevenuePane(chart, tickerList, revenuePane, revenueSeriesMap, dataRefs, withRangePreservation) {
+        const { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor, signal } = dataRefs;
+
+        await withRangePreservation('revenue', async () => {
+            revenuePane = window.ChartUtils.createPaneIfNeeded(chart, revenuePane, {
+                name: 'RevenuePane',
+                stretchFactor: stretchFactor ?? 1.0,
+                visibleRange
+            });
+
+            // Filter to visible tickers only
+            const visibleTickers = tickerList.filter(ticker => !hiddenTickers.has(ticker));
+            if (visibleTickers.length === 0) return;
+
+            // Check if aborted before fetching
+            if (signal?.aborted) return;
+
+            // Batch fetch all tickers in single request
+            console.log(`[RevenuePane] Fetching revenue data for ${visibleTickers.length} tickers: ${visibleTickers.join(', ')}`);
+            const url = window.ChartUtils.apiUrl(`/api/revenue?tickers=${visibleTickers.join(',')}`);
+
+            let revenueData;
+            try {
+                const response = await fetch(url, signal ? { signal } : {});
+                if (!response.ok) {
+                    console.warn(`[RevenuePane] Failed to fetch revenue: ${response.status}`);
+                    return;
+                }
+                revenueData = await response.json();
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    console.log('[RevenuePane] Fetch aborted');
+                    return;
+                }
+                console.error('[RevenuePane] Failed to fetch revenue:', error);
+                return;
+            }
+
+            // Check if aborted after fetch
+            if (signal?.aborted) return;
+
+            // Plot each ticker's data
+            for (const ticker of visibleTickers) {
+                const tickerRevenueData = revenueData[ticker];
+                if (!Array.isArray(tickerRevenueData) || tickerRevenueData.length === 0) {
+                    console.warn(`[RevenuePane] No revenue data for ${ticker}`);
+                    continue;
+                }
+
+                // Filter out null values
+                const formattedData = tickerRevenueData.filter(d => d.value != null);
+                const color = tickerColorMap.get(ticker) || '#000000';
+
+                // Create or update revenue series
+                let revenueSeries = revenueSeriesMap.get(ticker);
+                if (!revenueSeries) {
+                    if (revenuePane && chart) {
+                        revenueSeries = revenuePane.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            priceLineVisible: false,
+                            lastValueVisible: lastLabelVisible,
+                            priceScaleId: 'right',
+                            priceFormat: { type: 'volume' }
+                        });
+
+                        revenueSeries.priceScale().applyOptions({
+                            mode: LightweightCharts.PriceScaleMode.Logarithmic,
+                            autoScale: true,
+                            scaleMargins: { top: 0.1, bottom: 0.1 }
+                        });
+
+                        revenueSeriesMap.set(ticker, revenueSeries);
+                        console.log(`[RevenuePane] Created series for ${ticker}`);
+                    } else {
+                        console.error('[RevenuePane] revenuePane or chart is not available');
+                        continue;
+                    }
+                } else {
+                    revenueSeries.applyOptions({ color: color, lastValueVisible: lastLabelVisible });
+                }
+
+                revenueSeries.setData(formattedData);
+                console.log(`[RevenuePane] Set ${formattedData.length} quarters for ${ticker}`);
+            }
+
+            console.log(`[RevenuePane] Plotted ${visibleTickers.length} tickers`);
+        });
+
+        return { revenuePane };
+    }
+
+    /**
+     * Setup fundamentals pane with all series for given tickers
+     * High-level helper that orchestrates pane creation and series plotting
+     *
+     * @param {Object} chart - LightweightCharts instance
+     * @param {Array} tickerList - Tickers to plot
+     * @param {Object} fundamentalsPane - Existing pane or null
+     * @param {Map} fundamentalSeriesMap - Series map (mutated in place)
+     * @param {Object} dataRefs - { hiddenTickers, visibleRange, stretchFactor, activeMetrics, signal }
+     * @param {Function} withRangePreservation - Wrapper to preserve time range
+     * @returns {Promise<Object>} { fundamentalsPane }
+     */
+    async function setupFundamentalsPane(chart, tickerList, fundamentalsPane, fundamentalSeriesMap, dataRefs, withRangePreservation) {
+        const { hiddenTickers, visibleRange, stretchFactor, activeMetrics, signal } = dataRefs;
+
+        await withRangePreservation('fundamentals', async () => {
+            fundamentalsPane = window.ChartUtils.createPaneIfNeeded(chart, fundamentalsPane, {
+                name: 'FundamentalsPane',
+                stretchFactor: stretchFactor ?? 1.0,
+                visibleRange
+            });
+
+            // Build hiddenTickersMap (plot() expects object, not Set)
+            const hiddenTickersMap = {};
+            hiddenTickers.forEach(ticker => { hiddenTickersMap[ticker] = true; });
+
+            // Plot fundamentals
+            try {
+                await plotFundamentalsPane(
+                    fundamentalsPane,
+                    tickerList,
+                    activeMetrics,
+                    fundamentalSeriesMap,
+                    hiddenTickersMap,
+                    signal
+                );
+                console.log(`[FundamentalsPane] Plotted ${tickerList.length} tickers with ${activeMetrics.length} metrics`);
+            } catch (error) {
+                if (error.name === 'AbortError') {
+                    console.log('[FundamentalsPane] Plot aborted');
+                    return;
+                }
+                console.error('[FundamentalsPane] Error plotting fundamentals:', error);
+            }
+        });
+
+        return { fundamentalsPane };
+    }
+
     // Expose functions globally
     window.FundamentalsPane = {
         plot: plotFundamentalsPane,
         toggleMetric: toggleMetric,
         updateVisibility: updateSeriesVisibility,
         clear: clearPane,
-        getDisplayName: getMetricDisplayName
+        getDisplayName: getMetricDisplayName,
+        setupRevenuePane: setupRevenuePane,
+        setupFundamentalsPane: setupFundamentalsPane
     };
 
     console.log('[FundamentalsPane] Module loaded');

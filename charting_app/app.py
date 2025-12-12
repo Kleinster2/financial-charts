@@ -17,7 +17,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT,
                       CACHE_CONTROL_MAX_AGE, WORKSPACE_FILENAME,
                       WORKSPACE_TEMP_SUFFIX, HTTP_OK, HTTP_BAD_REQUEST,
-                      HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR)
+                      HTTP_NOT_FOUND, HTTP_INTERNAL_ERROR,
+                      resolve_ticker_alias, TICKER_ALIASES)
 
 # DuckDB support - imports USE_DUCKDB from constants (set via USE_DUCKDB=1 env var)
 from constants import USE_DUCKDB
@@ -507,6 +508,16 @@ def get_metadata():
     except Exception as e:
         app.logger.error(f"/api/metadata error: {e}")
         return jsonify({}), 500
+
+
+@app.route('/api/ticker-aliases')
+def get_ticker_aliases():
+    """
+    Return the ticker alias mapping.
+    Used for fundamentals where share classes have identical financials.
+    Response: { "GOOGL": "GOOG", "BRK-B": "BRK-A", ... }
+    """
+    return jsonify(TICKER_ALIASES)
 
 
 @app.route('/api/data')
@@ -1020,13 +1031,12 @@ def api_revenue():
     Query params: ?tickers=AAPL,MSFT,TSLA
     Returns: { "AAPL": [{time: unix_ts, value: revenue}, ...], "MSFT": [...], ... }
 
-    Uses Alpha Vantage for historical data (if API key available), falls back to yfinance.
+    DB-first: queries income_statement_quarterly.total_revenue.
+    Falls back to Alpha Vantage (if API key available), then yfinance if DB is empty.
     """
     import yfinance as yf
     from datetime import datetime
     import os
-    import requests
-    import time
 
     ticker_param = request.args.get('tickers', '')
     if not ticker_param:
@@ -1036,33 +1046,94 @@ def api_revenue():
     if not tickers:
         return jsonify({'error': 'No valid tickers'}), HTTP_BAD_REQUEST
 
-    app.logger.info(f"/api/revenue: requested tickers={tickers}")
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG for fundamentals)
+    # Keep mapping to return data under original requested ticker
+    alias_map = {}  # original -> canonical
+    canonical_tickers = []
+    for t in tickers:
+        canonical = resolve_ticker_alias(t)
+        if canonical != t:
+            alias_map[t] = canonical
+            app.logger.info(f"/api/revenue: aliased {t} -> {canonical}")
+        canonical_tickers.append(canonical)
 
-    # Check for Alpha Vantage API key
-    alpha_vantage_key = os.environ.get('ALPHAVANTAGE_API_KEY')
+    # Dedupe canonical tickers (e.g., if user requests both GOOG and GOOGL)
+    unique_canonical = list(dict.fromkeys(canonical_tickers))
+
+    app.logger.info(f"/api/revenue: requested tickers={tickers}, canonical={unique_canonical}")
+
+    # Check for Alpha Vantage API key (accept both env var names, prefer ALPHA_VANTAGE_API_KEY)
+    alpha_vantage_key = os.environ.get('ALPHA_VANTAGE_API_KEY') or os.environ.get('ALPHAVANTAGE_API_KEY')
     use_alpha_vantage = alpha_vantage_key is not None
 
     result = {}
 
-    def fetch_from_alpha_vantage(symbol):
-        """Fetch quarterly revenue from Alpha Vantage (5+ years of history)"""
+    def fetch_all_from_db(symbols):
+        """Batch fetch quarterly revenue from local database for all tickers at once"""
+        db_results = {s: None for s in symbols}
         try:
-            url = f'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol={symbol}&apikey={alpha_vantage_key}'
-            response = requests.get(url, timeout=10)
+            conn = get_db_connection()
+            placeholders = ','.join('?' * len(symbols))
+            query = f"""
+                SELECT ticker, fiscal_date_ending, total_revenue
+                FROM income_statement_quarterly
+                WHERE ticker IN ({placeholders})
+                ORDER BY ticker, fiscal_date_ending ASC
+            """
+            df = pd.read_sql(query, conn, params=symbols)
+            conn.close()
 
-            if response.status_code != 200:
-                app.logger.warning(f"/api/revenue: Alpha Vantage HTTP {response.status_code} for {symbol}")
-                return None
+            if df.empty:
+                return db_results
 
-            data = response.json()
+            # Group by ticker
+            for ticker in symbols:
+                ticker_df = df[df['ticker'] == ticker]
+                if ticker_df.empty:
+                    continue
 
-            # Check for error messages
-            if 'Error Message' in data:
-                app.logger.warning(f"/api/revenue: Alpha Vantage error for {symbol}: {data['Error Message']}")
-                return None
+                data_points = []
+                for _, row in ticker_df.iterrows():
+                    try:
+                        date = pd.to_datetime(row['fiscal_date_ending'])
+                        unix_ts = int(date.timestamp())
+                        value = row['total_revenue']
+                        if pd.notna(value) and value != 0:
+                            data_points.append({'time': unix_ts, 'value': float(value)})
+                    except Exception as e:
+                        app.logger.warning(f"/api/revenue: Error parsing DB row for {ticker}: {e}")
+                        continue
 
-            if 'Note' in data:
-                app.logger.warning(f"/api/revenue: Alpha Vantage rate limit: {data['Note']}")
+                if data_points:
+                    db_results[ticker] = data_points
+                    app.logger.info(f"/api/revenue: {ticker} returned {len(data_points)} quarters from DB")
+
+            return db_results
+
+        except Exception as e:
+            app.logger.error(f"/api/revenue: DB batch error: {e}")
+            return db_results
+
+    # Lazy-initialize Alpha Vantage client (reuses hardened client with proper rate limiting)
+    av_client = None
+    if use_alpha_vantage:
+        try:
+            from alpha_vantage_fetcher import AlphaVantageClient
+            av_client = AlphaVantageClient(api_key=alpha_vantage_key)
+        except Exception as e:
+            app.logger.warning(f"/api/revenue: Could not initialize AlphaVantageClient: {e}")
+
+    def fetch_from_alpha_vantage(symbol):
+        """Fetch quarterly revenue from Alpha Vantage using hardened client (12s rate limit + retry)"""
+        if not av_client:
+            return None
+
+        try:
+            # Use the hardened client which handles rate limiting and retries
+            data = av_client.get_income_statement(symbol)
+
+            if not data:
+                app.logger.warning(f"/api/revenue: No data from Alpha Vantage for {symbol}")
                 return None
 
             quarterly_reports = data.get('quarterlyReports', [])
@@ -1073,7 +1144,7 @@ def api_revenue():
             data_points = []
             for report in quarterly_reports:
                 try:
-                    fiscal_date = report.get('fiscalDateEnding')
+                    fiscal_date = report.get('fiscalDateEnding')  # YYYY-MM-DD string
                     total_revenue = report.get('totalRevenue')
 
                     if not fiscal_date or not total_revenue:
@@ -1084,7 +1155,8 @@ def api_revenue():
                     unix_ts = int(date_obj.timestamp())
                     revenue_val = float(total_revenue)
 
-                    data_points.append({'time': unix_ts, 'value': revenue_val})
+                    # Include original date string for DB persistence (avoids timezone edge cases)
+                    data_points.append({'time': unix_ts, 'value': revenue_val, 'date': fiscal_date})
                 except (ValueError, TypeError) as e:
                     app.logger.warning(f"/api/revenue: Error parsing Alpha Vantage data for {symbol}: {e}")
                     continue
@@ -1120,10 +1192,12 @@ def api_revenue():
                 try:
                     # Convert pandas timestamp to unix timestamp
                     unix_ts = int(date.timestamp())
+                    # Extract date string (YYYY-MM-DD) for DB persistence
+                    date_str = date.strftime('%Y-%m-%d')
                     # Convert value to float, handle None/NaN
                     revenue_val = float(value) if pd.notna(value) else None
                     if revenue_val is not None:
-                        data_points.append({'time': unix_ts, 'value': revenue_val})
+                        data_points.append({'time': unix_ts, 'value': revenue_val, 'date': date_str})
                 except Exception as e:
                     app.logger.warning(f"/api/revenue: Error processing yfinance data for {symbol}: {e}")
                     continue
@@ -1137,23 +1211,72 @@ def api_revenue():
             app.logger.error(f"/api/revenue: yfinance error for {symbol}: {e}")
             return []
 
-    # Fetch data for each ticker
-    for symbol in tickers:
+    # Batch fetch from DB first (single query for canonical tickers)
+    db_data = fetch_all_from_db(unique_canonical)
+
+    # Identify which canonical tickers need external API fallback
+    missing_canonical = [t for t in unique_canonical if db_data.get(t) is None]
+
+    if missing_canonical:
+        app.logger.info(f"/api/revenue: DB hits={len(unique_canonical) - len(missing_canonical)}, misses={len(missing_canonical)}: {missing_canonical}")
+    else:
+        app.logger.info(f"/api/revenue: All {len(unique_canonical)} canonical tickers found in DB")
+
+    def persist_revenue_to_db(symbol, data_points):
+        """Persist fetched revenue data to income_statement_quarterly for future DB hits"""
+        if not data_points:
+            return
+        try:
+            conn = get_db_connection()
+            cursor = conn.cursor()
+            inserted = 0
+            for point in data_points:
+                try:
+                    # Use original date string if available (avoids timezone edge cases)
+                    # Fall back to UTC conversion from timestamp if not present
+                    fiscal_date = point.get('date') or datetime.utcfromtimestamp(point['time']).strftime('%Y-%m-%d')
+                    # INSERT OR IGNORE to avoid duplicates (UNIQUE constraint on ticker, fiscal_date_ending)
+                    cursor.execute('''
+                        INSERT OR IGNORE INTO income_statement_quarterly
+                        (ticker, fiscal_date_ending, total_revenue)
+                        VALUES (?, ?, ?)
+                    ''', (symbol, fiscal_date, point['value']))
+                    if cursor.rowcount > 0:
+                        inserted += 1
+                except Exception as e:
+                    app.logger.warning(f"/api/revenue: Error persisting row for {symbol}: {e}")
+            conn.commit()
+            conn.close()
+            if inserted > 0:
+                app.logger.info(f"/api/revenue: Persisted {inserted} new quarters for {symbol} to DB")
+        except Exception as e:
+            app.logger.error(f"/api/revenue: Error persisting {symbol} to DB: {e}")
+
+    # Fallback to external APIs only for missing canonical tickers
+    for symbol in missing_canonical:
         data = None
 
-        # Try Alpha Vantage first if available
-        if use_alpha_vantage:
+        # Try Alpha Vantage if client available (handles its own 12s rate limiting)
+        if av_client:
             data = fetch_from_alpha_vantage(symbol)
-            # Alpha Vantage rate limit: 5 calls/minute on free tier
-            # Add small delay between requests
-            time.sleep(0.2)
 
-        # Fall back to yfinance if Alpha Vantage fails or unavailable
+        # Fall back to yfinance if still no data
         if data is None or len(data) == 0:
             app.logger.info(f"/api/revenue: Falling back to yfinance for {symbol}")
             data = fetch_from_yfinance(symbol)
 
-        result[symbol] = data if data else []
+        # Persist successful fetches to DB for future cache hits
+        if data and len(data) > 0:
+            persist_revenue_to_db(symbol, data)
+
+        db_data[symbol] = data if data else []
+
+    # Build final result (strip internal 'date' field, return only {time, value})
+    # Map canonical data back to original requested tickers
+    for i, original_ticker in enumerate(tickers):
+        canonical = canonical_tickers[i]
+        raw_data = db_data.get(canonical) or []
+        result[original_ticker] = [{'time': p['time'], 'value': p['value']} for p in raw_data]
 
     return jsonify(result)
 
@@ -1173,16 +1296,23 @@ def get_fundamental_overview():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     conn = get_db_connection()
     result = {}
 
     for ticker in tickers:
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/overview: aliased {ticker} -> {db_ticker}")
+
         try:
             query = "SELECT * FROM company_overview WHERE ticker = ?"
-            df = pd.read_sql(query, conn, params=(ticker,))
+            df = pd.read_sql(query, conn, params=(db_ticker,))
 
             if df.empty:
-                app.logger.warning(f"/api/fundamentals/overview: No data for {ticker}")
+                app.logger.warning(f"/api/fundamentals/overview: No data for {db_ticker}")
                 result[ticker] = None
             else:
                 # Convert to dict, excluding last_updated
@@ -1192,7 +1322,7 @@ def get_fundamental_overview():
                 result[ticker] = data
 
         except Exception as e:
-            app.logger.error(f"/api/fundamentals/overview: Error for {ticker}: {e}")
+            app.logger.error(f"/api/fundamentals/overview: Error for {db_ticker}: {e}")
             result[ticker] = None
 
     conn.close()
@@ -1219,17 +1349,24 @@ def get_fundamental_earnings():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     table_name = f'earnings_{period}'
     conn = get_db_connection()
     result = {}
 
     for ticker in tickers:
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/earnings: aliased {ticker} -> {db_ticker}")
+
         try:
             query = f"SELECT * FROM {table_name} WHERE ticker = ? ORDER BY fiscal_date_ending DESC"
-            df = pd.read_sql(query, conn, params=(ticker,))
+            df = pd.read_sql(query, conn, params=(db_ticker,))
 
             if df.empty:
-                app.logger.warning(f"/api/fundamentals/earnings: No {period} data for {ticker}")
+                app.logger.warning(f"/api/fundamentals/earnings: No {period} data for {db_ticker}")
                 result[ticker] = []
             else:
                 # Convert to list of dicts
@@ -1241,7 +1378,7 @@ def get_fundamental_earnings():
                 result[ticker] = data
 
         except Exception as e:
-            app.logger.error(f"/api/fundamentals/earnings: Error for {ticker}: {e}")
+            app.logger.error(f"/api/fundamentals/earnings: Error for {db_ticker}: {e}")
             result[ticker] = []
 
     conn.close()
@@ -1268,17 +1405,24 @@ def get_fundamental_income():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     table_name = f'income_statement_{period}'
     conn = get_db_connection()
     result = {}
 
     for ticker in tickers:
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/income: aliased {ticker} -> {db_ticker}")
+
         try:
             query = f"SELECT * FROM {table_name} WHERE ticker = ? ORDER BY fiscal_date_ending DESC"
-            df = pd.read_sql(query, conn, params=(ticker,))
+            df = pd.read_sql(query, conn, params=(db_ticker,))
 
             if df.empty:
-                app.logger.warning(f"/api/fundamentals/income: No {period} data for {ticker}")
+                app.logger.warning(f"/api/fundamentals/income: No {period} data for {db_ticker}")
                 result[ticker] = []
             else:
                 data = df.to_dict('records')
@@ -1288,7 +1432,7 @@ def get_fundamental_income():
                 result[ticker] = data
 
         except Exception as e:
-            app.logger.error(f"/api/fundamentals/income: Error for {ticker}: {e}")
+            app.logger.error(f"/api/fundamentals/income: Error for {db_ticker}: {e}")
             result[ticker] = []
 
     conn.close()
@@ -1315,17 +1459,23 @@ def get_fundamental_balance():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     table_name = f'balance_sheet_{period}'
     conn = get_db_connection()
     result = {}
 
     for ticker in tickers:
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/balance: aliased {ticker} -> {db_ticker}")
         try:
             query = f"SELECT * FROM {table_name} WHERE ticker = ? ORDER BY fiscal_date_ending DESC"
-            df = pd.read_sql(query, conn, params=(ticker,))
+            df = pd.read_sql(query, conn, params=(db_ticker,))
 
             if df.empty:
-                app.logger.warning(f"/api/fundamentals/balance: No {period} data for {ticker}")
+                app.logger.warning(f"/api/fundamentals/balance: No {period} data for {db_ticker}")
                 result[ticker] = []
             else:
                 data = df.to_dict('records')
@@ -1335,7 +1485,7 @@ def get_fundamental_balance():
                 result[ticker] = data
 
         except Exception as e:
-            app.logger.error(f"/api/fundamentals/balance: Error for {ticker}: {e}")
+            app.logger.error(f"/api/fundamentals/balance: Error for {db_ticker}: {e}")
             result[ticker] = []
 
     conn.close()
@@ -1362,17 +1512,23 @@ def get_fundamental_cashflow():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     table_name = f'cash_flow_{period}'
     conn = get_db_connection()
     result = {}
 
     for ticker in tickers:
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/cashflow: aliased {ticker} -> {db_ticker}")
         try:
             query = f"SELECT * FROM {table_name} WHERE ticker = ? ORDER BY fiscal_date_ending DESC"
-            df = pd.read_sql(query, conn, params=(ticker,))
+            df = pd.read_sql(query, conn, params=(db_ticker,))
 
             if df.empty:
-                app.logger.warning(f"/api/fundamentals/cashflow: No {period} data for {ticker}")
+                app.logger.warning(f"/api/fundamentals/cashflow: No {period} data for {db_ticker}")
                 result[ticker] = []
             else:
                 data = df.to_dict('records')
@@ -1382,7 +1538,7 @@ def get_fundamental_cashflow():
                 result[ticker] = data
 
         except Exception as e:
-            app.logger.error(f"/api/fundamentals/cashflow: Error for {ticker}: {e}")
+            app.logger.error(f"/api/fundamentals/cashflow: Error for {db_ticker}: {e}")
             result[ticker] = []
 
     conn.close()
@@ -1408,6 +1564,9 @@ def get_fundamentals_chart_data():
     if not tickers:
         return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
 
+    # Resolve ticker aliases (e.g., GOOGL -> GOOG)
+    canonical_map = {t: resolve_ticker_alias(t) for t in tickers}
+
     conn = get_db_connection()
     result = {}
 
@@ -1424,6 +1583,10 @@ def get_fundamentals_chart_data():
     }
 
     for ticker in tickers:
+        # Use canonical ticker for DB query
+        db_ticker = canonical_map[ticker]
+        if db_ticker != ticker:
+            app.logger.info(f"/api/fundamentals/chart: aliased {ticker} -> {db_ticker}")
         ticker_data = {}
 
         for metric in metrics:
@@ -1440,7 +1603,7 @@ def get_fundamentals_chart_data():
                     WHERE ticker = ?
                     ORDER BY fiscal_date_ending ASC
                 """
-                df = pd.read_sql(query, conn, params=(ticker,))
+                df = pd.read_sql(query, conn, params=(db_ticker,))
 
                 if df.empty:
                     ticker_data[metric] = []

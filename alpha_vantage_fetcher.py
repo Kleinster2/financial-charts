@@ -16,9 +16,10 @@ from http_utils import FetchError, fetch_with_retry
 # Load environment variables
 load_dotenv()
 
-# Configure logging
-logging.basicConfig(level=logging.INFO)
+# Configure logging - only set basicConfig if no handlers exist (avoids overriding Flask/app logging)
 logger = logging.getLogger(__name__)
+if not logging.root.handlers:
+    logging.basicConfig(level=logging.INFO)
 
 # API Configuration
 ALPHA_VANTAGE_API_KEY = os.getenv('ALPHA_VANTAGE_API_KEY')

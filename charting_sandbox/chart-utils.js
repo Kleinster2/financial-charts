@@ -429,6 +429,62 @@ window.ChartUtils = {
                 }
             };
         }
+    },
+
+    /**
+     * Create a chart pane if it doesn't exist, with optional stretchFactor and range restore
+     * Shared bootstrap logic for all pane setup helpers
+     *
+     * @param {Object} chart - LightweightCharts instance
+     * @param {Object|null} pane - Existing pane or null
+     * @param {Object} options - Configuration options
+     * @param {string} options.name - Pane name for logging (e.g., 'RevenuePane')
+     * @param {Function} [options.createPane] - Custom pane creation function, defaults to () => chart.addPane()
+     * @param {number|null} [options.stretchFactor] - Pane stretch factor (null = skip)
+     * @param {Object|null} [options.visibleRange] - Range to restore { from, to }
+     * @returns {Object} The pane (existing or newly created)
+     */
+    createPaneIfNeeded(chart, pane, options) {
+        const { name, createPane, stretchFactor, visibleRange } = options;
+
+        if (pane) return pane;
+
+        // Create the pane
+        const newPane = createPane ? createPane() : chart.addPane();
+        console.log(`[${name}] Created pane`);
+
+        // Apply stretch factor if provided
+        if (stretchFactor != null && typeof newPane.setStretchFactor === 'function') {
+            newPane.setStretchFactor(stretchFactor);
+            console.log(`[${name}] Set stretch factor to ${stretchFactor}`);
+        }
+
+        // Restore visible range if provided
+        if (visibleRange && visibleRange.from && visibleRange.to) {
+            try {
+                chart.timeScale().setVisibleRange(visibleRange);
+                console.log(`[${name}] Restored range: from ${visibleRange.from}, to ${visibleRange.to}`);
+            } catch (e) {
+                console.warn(`[${name}] Could not restore range:`, e);
+            }
+        }
+
+        return newPane;
+    },
+
+    /**
+     * Build API URL with consistent base
+     * @param {string} path - API path (e.g., '/api/prices')
+     * @returns {string} Full URL
+     */
+    apiUrl(path) {
+        // Fallback chain: API_BASE_URL (from data-fetcher) -> ChartConfig -> hardcoded default
+        const base = window.API_BASE_URL
+            || window.ChartConfig?.API?.BASE_URL
+            || 'http://localhost:5000';
+        // Ensure path starts with /
+        const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+        return `${base}${normalizedPath}`;
     }
 };
 
