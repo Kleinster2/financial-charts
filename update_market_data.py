@@ -187,7 +187,7 @@ def show_interactive_menu():
     print("    6. Custom selection")
     print("    7. Cancel")
 
-    all_assets = ["stocks", "etfs", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"]
+    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"]
 
     while True:
         choice = input("\nEnter choice [1-7] (default: 1): ").strip()
