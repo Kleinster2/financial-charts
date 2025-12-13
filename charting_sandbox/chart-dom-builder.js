@@ -399,12 +399,18 @@ window.ChartDomBuilder = {
 
     /**
      * Parse ticker input string
+     * Supports formats: "AAPL, MSFT", "AAPL MSFT", "AAPL - Apple Inc., MSFT - Microsoft"
      */
     parseTickerInput(input) {
         if (!input) return [];
-        
-        // Split by comma or space, trim, uppercase, and filter empty
-        return input.split(/[,\s]+/)
+
+        // If input contains " - " (ticker with name), split on comma only
+        // Otherwise split on comma or whitespace for simple ticker lists
+        const segments = input.includes(' - ')
+            ? input.split(',')
+            : input.split(/[,\s]+/);
+
+        return segments
             .map(t => this.normalizeTicker(t))
             .filter(t => t.length > 0);
     }

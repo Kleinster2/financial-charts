@@ -217,5 +217,165 @@ window.ChartCardContext = {
      */
     getCurrentFontSize(ctx) {
         return ctx.fontSize || window.ChartConfig?.UI?.FONT_DEFAULT || 12;
+    },
+
+    /**
+     * Serialize context to a plain object for persistence
+     * Single source of truth for the saved card schema
+     * @param {Object} ctx - The context object
+     * @returns {Object} Serialized card data
+     */
+    serialize(ctx) {
+        const card = ctx?.card;
+        const page = card?.closest('.page')?.dataset?.page || '1';
+
+        return {
+            page,
+            type: card?._type || null,
+            thesisId: card?._thesisId || null,
+            tickers: Array.from(ctx?.selectedTickers || []),
+            showDiff: !!ctx?.showDiff,
+            showAvg: !!ctx?.showAvg,
+            showVol: !!ctx?.showVolPane,
+            showVolume: !!ctx?.showVolumePane,
+            showRevenue: !!ctx?.showRevenuePane,
+            showFundamentalsPane: !!ctx?.showFundamentalsPane,
+            fundamentalsMetrics: ctx?.fundamentalsMetrics || ['revenue', 'netincome'],
+            multipliers: window.ChartUtils.mapToObject(ctx?.multiplierMap),
+            hidden: Array.from(ctx?.hiddenTickers || []),
+            range: ctx?.visibleRange || null,
+            useRaw: !!ctx?.useRaw,
+            useLogScale: !!ctx?.useLogScale,
+            title: ctx?.title || '',
+            lastLabelVisible: ctx?.lastLabelVisible !== false,
+            lastTickerVisible: !!ctx?.lastTickerVisible,
+            showZeroLine: !!ctx?.showZeroLine,
+            showFixedLegend: !!ctx?.showFixedLegend,
+            showLegendTickers: !!ctx?.showLegendTickers,
+            fixedLegendPos: ctx?.fixedLegendPos || { x: 10, y: 10 },
+            fixedLegendSize: ctx?.fixedLegendSize || null,
+            height: ctx?.height || window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400,
+            fontSize: ctx?.fontSize || window.ChartConfig?.UI?.FONT_DEFAULT || 12,
+            showNotes: !!ctx?.showNotes,
+            notes: ctx?.notes || '',
+            manualInterval: ctx?.manualInterval || null,
+            decimalPrecision: ctx?.decimalPrecision ?? 2,
+            tickerColors: window.ChartUtils.mapToObject(ctx?.tickerColorMap),
+            priceScaleAssignments: window.ChartUtils.mapToObject(ctx?.priceScaleAssignmentMap),
+            volumePaneStretchFactor: ctx?.volumePaneStretchFactor ?? 1.0,
+            revenuePaneStretchFactor: ctx?.revenuePaneStretchFactor ?? 1.0,
+            fundamentalsPaneStretchFactor: ctx?.fundamentalsPaneStretchFactor ?? 1.0,
+            starred: !!ctx?.starred,
+            tags: ctx?.tags || []
+        };
+    },
+
+    /**
+     * Apply saved card data to a context object (hydration)
+     * Handles legacy field aliases and defensive defaults
+     * @param {Object} ctx - The context object to hydrate
+     * @param {Object} cardData - Saved card data
+     */
+    applyToCtx(ctx, cardData) {
+        if (!ctx || !cardData) return;
+
+        // ─── Helpers ───────────────────────────────────────────────────────
+        const normalizeTicker = (t) =>
+            typeof t === 'string' ? t.trim().toUpperCase() : String(t).toUpperCase();
+
+        const parseList = (v) => {
+            if (Array.isArray(v)) return v;
+            if (typeof v === 'string' && window.ChartDomBuilder?.parseTickerInput) {
+                // Delegate to ChartDomBuilder for consistent "TICKER - Name" handling
+                return window.ChartDomBuilder.parseTickerInput(v);
+            }
+            return typeof v === 'string' ? v.split(/[,\s]+/).filter(Boolean) : [];
+        };
+
+        const toNumber = (v, fallback) => {
+            const n = Number(v);
+            return Number.isFinite(n) ? n : fallback;
+        };
+
+        const replaceSet = (target, values) => {
+            target.clear();
+            values.forEach(v => target.add(v));
+        };
+
+        const replaceArray = (target, values) => {
+            target.length = 0;
+            target.push(...values);
+        };
+
+        const replaceMap = (target, obj) => {
+            target.clear();
+            if (obj && typeof obj === 'object') {
+                Object.entries(obj).forEach(([k, v]) => target.set(k, v));
+            }
+        };
+
+        // ─── Tickers ───────────────────────────────────────────────────────
+        const rawTickers = cardData.tickers ?? cardData.ticker ?? [];
+        const tickerList = parseList(rawTickers).map(normalizeTicker);
+        replaceSet(ctx.selectedTickers, tickerList);
+
+        // ─── Hidden tickers ────────────────────────────────────────────────
+        const rawHidden = cardData.hidden ?? [];
+        replaceSet(ctx.hiddenTickers, parseList(rawHidden).map(normalizeTicker));
+
+        // ─── Maps ──────────────────────────────────────────────────────────
+        replaceMap(ctx.multiplierMap, cardData.multipliers);
+        replaceMap(ctx.tickerColorMap, cardData.tickerColors);
+        replaceMap(ctx.priceScaleAssignmentMap, cardData.priceScaleAssignments);
+
+        // ─── Booleans ──────────────────────────────────────────────────────
+        ctx.showDiff = !!cardData.showDiff;
+        ctx.showAvg = !!cardData.showAvg;
+        ctx.showVolPane = !!(cardData.showVol ?? cardData.showVolPane);  // legacy alias
+        ctx.showVolumePane = !!cardData.showVolume;
+        ctx.showRevenuePane = !!cardData.showRevenue;
+        ctx.showFundamentalsPane = !!cardData.showFundamentalsPane;
+        ctx.useRaw = !!cardData.useRaw;
+        ctx.useLogScale = !!cardData.useLogScale;
+        ctx.lastLabelVisible = cardData.lastLabelVisible !== false;
+        ctx.lastTickerVisible = !!cardData.lastTickerVisible;
+        ctx.showZeroLine = !!cardData.showZeroLine;
+        ctx.showFixedLegend = !!cardData.showFixedLegend;
+        ctx.showLegendTickers = !!cardData.showLegendTickers;
+        ctx.showNotes = !!cardData.showNotes;
+        ctx.starred = !!cardData.starred;
+
+        // ─── Strings ───────────────────────────────────────────────────────
+        ctx.title = cardData.title ?? '';
+        ctx.notes = cardData.notes ?? '';
+        ctx.manualInterval = cardData.manualInterval ?? null;
+
+        // ─── Numbers ───────────────────────────────────────────────────────
+        ctx.height = toNumber(cardData.height, window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400);
+        ctx.fontSize = toNumber(cardData.fontSize, window.ChartConfig?.UI?.FONT_DEFAULT || 12);
+        ctx.decimalPrecision = toNumber(cardData.decimalPrecision, 2);
+        ctx.volumePaneStretchFactor = toNumber(cardData.volumePaneStretchFactor, 1.0);
+        ctx.revenuePaneStretchFactor = toNumber(cardData.revenuePaneStretchFactor, 1.0);
+        ctx.fundamentalsPaneStretchFactor = toNumber(cardData.fundamentalsPaneStretchFactor, 1.0);
+
+        // ─── Range (legacy alias: range → visibleRange) ────────────────────
+        ctx.visibleRange = cardData.range ?? cardData.visibleRange ?? null;
+
+        // ─── Arrays ────────────────────────────────────────────────────────
+        const defaultMetrics = ['revenue', 'netincome'];
+        const metrics = Array.isArray(cardData.fundamentalsMetrics)
+            ? cardData.fundamentalsMetrics
+            : defaultMetrics;
+        replaceArray(ctx.fundamentalsMetrics, metrics);
+
+        const tags = Array.isArray(cardData.tags) ? cardData.tags : [];
+        replaceArray(ctx.tags, tags);
+
+        // ─── Objects ───────────────────────────────────────────────────────
+        ctx.fixedLegendPos = cardData.fixedLegendPos ?? { x: 10, y: 10 };
+        ctx.fixedLegendSize = cardData.fixedLegendSize ?? null;
+
+        // ─── Sync to card properties ───────────────────────────────────────
+        this.syncToCard(ctx);
     }
 };

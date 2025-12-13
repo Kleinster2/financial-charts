@@ -101,40 +101,12 @@
             return;
         }
 
+        // Normal chart card: pass saved payload through directly
+        // Schema owned by ChartCardContext.serialize/applyToCtx
         createChartCard({
-            tickers: Array.isArray(cardData.tickers) ? cardData.tickers.join(', ') : (cardData.tickers || ''),
-            showDiff: !!cardData.showDiff,
-            showAvg: !!cardData.showAvg,
-            showVol: !!cardData.showVol,
-            showVolume: !!cardData.showVolume,
-            showRevenue: !!cardData.showRevenue,
-            showFundamentalsPane: !!cardData.showFundamentalsPane,
-            fundamentalsMetrics: cardData.fundamentalsMetrics || ['revenue', 'netincome'],
-            useRaw: cardData.useRaw || false,
-            useLogScale: cardData.useLogScale || false,
-            multipliers: cardData.multipliers || {},
-            tickerColors: cardData.tickerColors || {},
-            priceScaleAssignments: cardData.priceScaleAssignments || {},
-            hidden: cardData.hidden || [],
-            range: cardData.range || null,
-            title: cardData.title || '',
-            lastLabelVisible: cardData.lastLabelVisible ?? true,
-            lastTickerVisible: !!cardData.lastTickerVisible,
-            showZeroLine: cardData.showZeroLine || false,
-            showFixedLegend: !!cardData.showFixedLegend,
-            showLegendTickers: !!cardData.showLegendTickers,
-            fixedLegendPos: cardData.fixedLegendPos || { x: 10, y: 10 },
-            fixedLegendSize: cardData.fixedLegendSize || null,
+            ...cardData,
             wrapperEl: wrapper,
-            height: cardData.height || (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
-            fontSize: cardData.fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
-            showNotes: !!cardData.showNotes,
-            notes: cardData.notes || '',
-            manualInterval: cardData.manualInterval || null,
-            decimalPrecision: cardData.decimalPrecision || 2,
-            settingsPanelOpen: !!cardData.settingsPanelOpen,
-            starred: !!cardData.starred,
-            tags: cardData.tags || []
+            hydrateData: cardData
         });
     }
 
@@ -173,43 +145,49 @@
 
     // Save all chart states
     function saveCards() {
-        const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => ({
-            page: card.closest('.page')?.dataset.page || '1',
-            type: card._type || null,
-            thesisId: card._thesisId || null,
-            tickers: Array.from(card._selectedTickers || []),
-            showDiff: !!card._showDiff,
-            showAvg: !!card._showAvg,
-            showVol: !!card._showVol,
-            showVolume: !!card._showVolume,
-            showRevenue: !!card._showRevenue,
-            showFundamentalsPane: !!card._showFundamentalsPane,
-            fundamentalsMetrics: card._fundamentalsMetrics || ['revenue', 'netincome'],
-            multipliers: window.ChartUtils.mapToObject(card._multiplierMap),
-            hidden: Array.from(card._hiddenTickers || []),
-            range: card._visibleRange || null,
-            useRaw: card._useRaw || false,
-            useLogScale: card._useLogScale || false,
-            title: card._title || '',
-            lastLabelVisible: card._lastLabelVisible !== false,
-            lastTickerVisible: !!card._lastTickerVisible,
-            showZeroLine: !!card._showZeroLine,
-            showFixedLegend: !!card._showFixedLegend,
-            showLegendTickers: !!card._showLegendTickers,
-            fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
-            fixedLegendSize: card._fixedLegendSize || null,
-            height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch (_) { return undefined; } })(),
-            fontSize: card._fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
-            showNotes: !!card._showNotes,
-            notes: card._notes || '',
-            manualInterval: card._manualInterval || null,
-            decimalPrecision: card._decimalPrecision || 2,
-            tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
-            priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
-            settingsPanelOpen: !!card._state?.settingsPanelOpen,
-            starred: !!card._starred,
-            tags: card._tags || []
-        }));
+        const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => {
+            // Prefer ctx-based serialization when available
+            if (card._ctx && window.ChartCardContext?.serialize) {
+                return window.ChartCardContext.serialize(card._ctx);
+            }
+            // Fallback for cards without ctx (special types like dashboard, macro, etc.)
+            return {
+                page: card.closest('.page')?.dataset.page || '1',
+                type: card._type || null,
+                thesisId: card._thesisId || null,
+                tickers: Array.from(card._selectedTickers || []),
+                showDiff: !!card._showDiff,
+                showAvg: !!card._showAvg,
+                showVol: !!card._showVol,
+                showVolume: !!card._showVolume,
+                showRevenue: !!card._showRevenue,
+                showFundamentalsPane: !!card._showFundamentalsPane,
+                fundamentalsMetrics: card._fundamentalsMetrics || ['revenue', 'netincome'],
+                multipliers: window.ChartUtils.mapToObject(card._multiplierMap),
+                hidden: Array.from(card._hiddenTickers || []),
+                range: card._visibleRange || null,
+                useRaw: card._useRaw || false,
+                useLogScale: card._useLogScale || false,
+                title: card._title || '',
+                lastLabelVisible: card._lastLabelVisible !== false,
+                lastTickerVisible: !!card._lastTickerVisible,
+                showZeroLine: !!card._showZeroLine,
+                showFixedLegend: !!card._showFixedLegend,
+                showLegendTickers: !!card._showLegendTickers,
+                fixedLegendPos: card._fixedLegendPos || { x: 10, y: 10 },
+                fixedLegendSize: card._fixedLegendSize || null,
+                height: card._height || (() => { try { const el = card.querySelector('.chart-box'); return el ? parseInt(getComputedStyle(el).height, 10) : undefined; } catch (_) { return undefined; } })(),
+                fontSize: card._fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
+                showNotes: !!card._showNotes,
+                notes: card._notes || '',
+                manualInterval: card._manualInterval || null,
+                decimalPrecision: card._decimalPrecision || 2,
+                tickerColors: window.ChartUtils.mapToObject(card._tickerColorMap),
+                priceScaleAssignments: window.ChartUtils.mapToObject(card._priceScaleAssignmentMap),
+                starred: !!card._starred,
+                tags: card._tags || []
+            };
+        });
 
         window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
         if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
@@ -338,6 +316,7 @@
             lastTickerVisible: initialLastTickerVisible = false,
             showZeroLine: initialShowZeroLine = false,
             wrapperEl = null,
+            hydrateData = null,
             height: initialHeight = (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
             fontSize: initialFontSize = (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
             showFixedLegend: initialShowFixedLegend = false,
@@ -439,6 +418,7 @@
             initialShowFundamentalsPane,
             initialFundamentalsMetrics,
             initialUseRaw,
+            initialUseLogScale,
             initialMultipliers,
             initialTickerColors,
             initialPriceScaleAssignments,
@@ -461,13 +441,19 @@
             initialVolumePaneStretchFactor,
             initialRevenuePaneStretchFactor,
             initialFundamentalsPaneStretchFactor,
+            initialStarred,
+            initialTags,
             cardId,
             targetPage,
             saveCards
         });
         card._ctx = ctx;
-        // Initial sync to card._ for persistence (ctx already has starred/tags from options)
-        window.ChartCardContext.syncToCard(ctx);
+        // Hydrate ctx from saved payload (restore), otherwise do initial sync
+        if (hydrateData && window.ChartCardContext?.applyToCtx) {
+            window.ChartCardContext.applyToCtx(ctx, hydrateData);
+        } else {
+            window.ChartCardContext.syncToCard(ctx);
+        }
 
         // ═══════════════════════════════════════════════════════════════
         // All toggle/display state now lives in ctx.* (via ChartCardContext)
