@@ -162,6 +162,21 @@ MUTUAL_FUND_TICKERS = [
     "DODGX",            # Stock
     "DODFX",            # International Stock
     "DODIX",            # Income
+    # Baron Funds
+    "BPTRX",            # Partners Fund
+    "BGRIX",            # Growth Fund
+    "BSCFX",            # Small Cap Fund
+    "BFGFX",            # Focused Growth Fund
+    "BARAX",            # Asset Fund
+    "BDFFX",            # Discovery Fund
+    "BDAFX",            # Durable Advantage Fund
+    "BGAIX",            # Global Advantage Fund
+    "BIGFX",            # International Growth Fund
+    "BREIX",            # Real Estate Fund
+    "BRIFX",            # Real Estate Income Fund
+    "BFTHX",            # Fifth Avenue Growth Fund
+    "BTECX",            # Technology Fund
+    "BFIUX",            # FinTech Fund
 ]
 
 # Core indices with the ^prefix

@@ -18890,7 +18890,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1600387200,
+        "from": 1582588800,
         "to": 1765497600
       },
       "useRaw": false,
@@ -18906,14 +18906,14 @@
         "y": 22
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 300,
+        "height": 98
       },
       "height": 400,
       "fontSize": 11,
       "showNotes": false,
       "notes": "",
-      "manualInterval": null,
+      "manualInterval": "daily",
       "decimalPrecision": 2,
       "tickerColors": {
         "FXAIX": "#E6AB02",
@@ -18949,7 +18949,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1600992000,
+        "from": 1602806400,
         "to": 1765497600
       },
       "useRaw": false,
@@ -18965,8 +18965,8 @@
         "y": 22
       },
       "fixedLegendSize": {
-        "width": 516,
-        "height": 151
+        "width": 524,
+        "height": 155
       },
       "height": 400,
       "fontSize": 11,
@@ -19007,7 +19007,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1065139200,
+        "from": 1066953600,
         "to": 1765497600
       },
       "useRaw": false,
@@ -19023,8 +19023,8 @@
         "y": 23
       },
       "fixedLegendSize": {
-        "width": 427,
-        "height": 102
+        "width": 435,
+        "height": 106
       },
       "height": 400,
       "fontSize": 11,
@@ -19065,7 +19065,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1296172800,
+        "from": 1297987200,
         "to": 1765497600
       },
       "useRaw": false,
@@ -19081,8 +19081,8 @@
         "y": 21
       },
       "fixedLegendSize": {
-        "width": 434,
-        "height": 93
+        "width": 442,
+        "height": 97
       },
       "height": 400,
       "fontSize": 11,
@@ -19123,7 +19123,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582502400,
+        "from": 1582761600,
         "to": 1765411200
       },
       "useRaw": false,
@@ -19139,8 +19139,8 @@
         "y": 16
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 320,
+        "height": 120
       },
       "height": 400,
       "fontSize": 11,
@@ -19180,8 +19180,8 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582761600,
-        "to": 1765411200
+        "from": 1584662400,
+        "to": 1765497600
       },
       "useRaw": false,
       "useLogScale": false,
@@ -19196,8 +19196,8 @@
         "y": 30
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 320,
+        "height": 120
       },
       "height": 400,
       "fontSize": 11,
@@ -19237,8 +19237,8 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582761600,
-        "to": 1765411200
+        "from": 1584662400,
+        "to": 1765497600
       },
       "useRaw": false,
       "useLogScale": false,
@@ -19253,8 +19253,8 @@
         "y": 30
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 320,
+        "height": 120
       },
       "height": 400,
       "fontSize": 11,
@@ -19294,7 +19294,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582588800,
+        "from": 1583798400,
         "to": 1765497600
       },
       "useRaw": false,
@@ -19310,8 +19310,8 @@
         "y": 28
       },
       "fixedLegendSize": {
-        "width": 393,
-        "height": 103
+        "width": 401,
+        "height": 107
       },
       "height": 400,
       "fontSize": 11,
@@ -19352,8 +19352,8 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 959299200,
-        "to": 1765497600
+        "from": 967680000,
+        "to": 1767139200
       },
       "useRaw": false,
       "useLogScale": false,
@@ -19368,8 +19368,8 @@
         "y": 23
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 320,
+        "height": 120
       },
       "height": 400,
       "fontSize": 11,
@@ -19410,8 +19410,8 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582761600,
-        "to": 1765411200
+        "from": 1584662400,
+        "to": 1765497600
       },
       "useRaw": false,
       "useLogScale": false,
@@ -19426,8 +19426,8 @@
         "y": 10
       },
       "fixedLegendSize": {
-        "width": 404,
-        "height": 122
+        "width": 412,
+        "height": 126
       },
       "height": 450,
       "fontSize": 11,
@@ -19468,7 +19468,7 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1582502400,
+        "from": 1583712000,
         "to": 1765411200
       },
       "useRaw": false,
@@ -19484,8 +19484,8 @@
         "y": 23
       },
       "fixedLegendSize": {
-        "width": 312,
-        "height": 116
+        "width": 320,
+        "height": 120
       },
       "height": 500,
       "fontSize": 11,
@@ -19526,8 +19526,8 @@
       "multipliers": {},
       "hidden": [],
       "range": {
-        "from": 1146787200,
-        "to": 1765497600
+        "from": 1156982400,
+        "to": 1767139200
       },
       "useRaw": false,
       "useLogScale": false,
@@ -19542,8 +19542,8 @@
         "y": 26
       },
       "fixedLegendSize": {
-        "width": 424,
-        "height": 76
+        "width": 432,
+        "height": 80
       },
       "height": 500,
       "fontSize": 11,
@@ -19560,6 +19560,112 @@
       "settingsPanelOpen": false,
       "starred": false,
       "tags": []
+    },
+    {
+      "id": "baron_1",
+      "page": 67,
+      "title": "Baron Core Growth Funds",
+      "tickers": [
+        "BPTRX",
+        "BGRIX",
+        "BFGFX",
+        "BFTHX"
+      ]
+    },
+    {
+      "id": "baron_2",
+      "page": 67,
+      "title": "Baron Small/Mid Cap",
+      "tickers": [
+        "BSCFX",
+        "BDFFX",
+        "BARAX"
+      ]
+    },
+    {
+      "id": "baron_3",
+      "page": 67,
+      "title": "Baron Sector Funds",
+      "tickers": [
+        "BTECX",
+        "BFIUX",
+        "BREIX",
+        "BRIFX"
+      ]
+    },
+    {
+      "id": "baron_4",
+      "page": 67,
+      "title": "Baron International",
+      "tickers": [
+        "BGAIX",
+        "BIGFX"
+      ]
+    },
+    {
+      "id": "baron_5",
+      "page": 67,
+      "title": "Baron vs Benchmarks: Growth",
+      "tickers": [
+        "BPTRX",
+        "BGRIX",
+        "SPY",
+        "QQQ"
+      ]
+    },
+    {
+      "id": "baron_6",
+      "page": 67,
+      "title": "Baron vs Benchmarks: Small Cap",
+      "tickers": [
+        "BSCFX",
+        "BDFFX",
+        "IWM",
+        "IJR"
+      ]
+    },
+    {
+      "id": "baron_7",
+      "page": 67,
+      "title": "Baron Tech vs Tech ETFs",
+      "tickers": [
+        "BTECX",
+        "XLK",
+        "QQQ",
+        "SMH"
+      ]
+    },
+    {
+      "id": "baron_8",
+      "page": 67,
+      "title": "Baron Real Estate vs REITs",
+      "tickers": [
+        "BREIX",
+        "BRIFX",
+        "VNQ",
+        "XLRE"
+      ]
+    },
+    {
+      "id": "baron_9",
+      "page": 67,
+      "title": "Baron FinTech vs Financials",
+      "tickers": [
+        "BFIUX",
+        "XLF",
+        "ARKF"
+      ]
+    },
+    {
+      "id": "baron_10",
+      "page": 67,
+      "title": "Baron Durable Advantage",
+      "tickers": [
+        "BDAFX",
+        "SPY",
+        "VIG",
+        "QUAL"
+      ]
     }
   ],
   "pages": {
@@ -19688,7 +19794,8 @@
       "63": "Defense & Weapons",
       "64": "Acquisitions",
       "65": "Media & Entertainment",
-      "66": "Mutual Funds"
+      "66": "Mutual Funds",
+      "67": "Baron Funds"
     },
     "pages": [
       1,
