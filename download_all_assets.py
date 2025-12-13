@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+import numpy as np
 import sqlite3
 import os
 from datetime import datetime, timedelta
@@ -107,6 +108,60 @@ ETF_TICKERS = [
     "BITO", "BTF", "XBTF", "BITI",
     # -- Blockchain/crypto industry ETFs
     "BLOK", "DAPP", "BKCH", "BITQ"
+]
+
+# Mutual Funds - major index funds and popular active funds
+MUTUAL_FUND_TICKERS = [
+    # Vanguard Index Funds (Admiral/Investor shares)
+    "VFIAX", "VFINX",   # S&P 500 Index (Admiral/Investor)
+    "VTSAX", "VTSMX",   # Total Stock Market Index
+    "VTIAX", "VGTSX",   # Total International Stock Index
+    "VBTLX", "VBMFX",   # Total Bond Market Index
+    "VSIAX", "VSCIX",   # Small Cap Index
+    "VIMAX", "VIMSX",   # Mid Cap Index
+    "VIGAX", "VIGIX",   # Growth Index
+    "VVIAX",            # Value Index
+    "VDADX",            # Dividend Appreciation Index
+    "VEXAX",            # Extended Market Index
+    "VTABX",            # Total International Bond Index
+    # Vanguard Active Funds
+    "VWELX", "VWEAX",   # Wellington (balanced)
+    "VWUSX",            # US Growth
+    "VWNFX",            # Windsor II
+    "VPCCX",            # PRIMECAP Core
+    "VHCAX", "VHCOX",   # Health Care
+    # Fidelity Index Funds
+    "FXAIX",            # 500 Index
+    "FSKAX",            # Total Market Index
+    "FTIHX",            # Total International Index
+    "FXNAX",            # US Bond Index
+    "FSMAX",            # Extended Market Index
+    "FSSNX",            # Small Cap Index
+    # Fidelity Active Funds
+    "FCNTX",            # Contrafund
+    "FBALX",            # Balanced
+    "FBGRX",            # Blue Chip Growth
+    "FDGRX",            # Growth Company
+    # Schwab Index Funds
+    "SWPPX",            # S&P 500 Index
+    "SWTSX",            # Total Stock Market Index
+    "SWISX",            # International Index
+    # T. Rowe Price Funds
+    "PRGFX",            # Growth Stock
+    "PRDSX",            # Dividend Growth
+    "PRWCX",            # Capital Appreciation
+    # American Funds
+    "AGTHX",            # Growth Fund of America
+    "AIVSX",            # Investment Company of America
+    "ANCFX",            # Fundamental Investors
+    "AWSHX",            # Washington Mutual
+    # PIMCO Bond Funds
+    "PTTRX", "PTTAX",   # Total Return
+    "PIMIX",            # Income
+    # Dodge & Cox
+    "DODGX",            # Stock
+    "DODFX",            # International Stock
+    "DODIX",            # Income
 ]
 
 # Core indices with the ^prefix
@@ -769,6 +824,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
+            'mutualfunds': MUTUAL_FUND_TICKERS,
             'adrs': ADR_TICKERS,
             'fx': sorted(list(set(FX_TICKERS + ADDITIONAL_FX_TICKERS))),
             'crypto': CRYPTO_TICKERS,
@@ -1057,7 +1113,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
         cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_table}_Date")
         conn.commit()
-        combined_df.astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
+        # Convert NA/None to NaN before casting to float (fixes pandas NAType issue)
+        combined_df.fillna(np.nan).astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
 
         # Validate staging table
         cursor = conn.cursor()

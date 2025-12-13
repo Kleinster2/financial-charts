@@ -339,10 +339,10 @@ def main():
     parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"],
+        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"],
         default=["all"],
         help=(
-            "Asset groups to update. Use one or more of: all, stocks, etfs, adrs, fx, crypto, futures, iv, china, korea, brazil, b3, fxclose, bcb, fred. "
+            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, b3, fxclose, bcb, fred. "
             "Default: all"
         ),
     )
@@ -353,7 +353,7 @@ def main():
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"]
+        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred"]
     else:
         assets_to_run = chosen
 
