@@ -59,6 +59,33 @@
         }
     });
 
+    // ═══════════════════════════════════════════════════════════════════════
+    // CARD TYPE REGISTRY
+    // Extensible registry for special card types (dashboard, dendrograms, etc.)
+    // ═══════════════════════════════════════════════════════════════════════
+    const CARD_TYPE_REGISTRY = {
+        'dashboard': {
+            module: () => window.ChartDashboard,
+            create: (wrapper, opts) => window.ChartDashboard.createDashboardCard(wrapper),
+            restore: (cardData, wrapper) => ({ type: 'dashboard', wrapperEl: wrapper })
+        },
+        'macro-dashboard': {
+            module: () => window.ChartMacroDashboard,
+            create: (wrapper, opts) => window.ChartMacroDashboard.createMacroDashboardCard(wrapper),
+            restore: (cardData, wrapper) => ({ type: 'macro-dashboard', wrapperEl: wrapper })
+        },
+        'dendrograms': {
+            module: () => window.ChartDendrograms,
+            create: (wrapper, opts) => window.ChartDendrograms.createDendrogramCard(wrapper),
+            restore: (cardData, wrapper) => ({ type: 'dendrograms', wrapperEl: wrapper })
+        },
+        'thesis-performance': {
+            module: () => window.ChartThesisPerformance,
+            create: (wrapper, opts) => window.ChartThesisPerformance.createThesisPerformanceCard(wrapper, { thesisId: opts.thesisId }),
+            restore: (cardData, wrapper) => ({ type: 'thesis-performance', wrapperEl: wrapper, thesisId: cardData.thesisId })
+        }
+    };
+
     /**
      * Restore a card from saved data
      * @param {Object} cardData - Saved card configuration
@@ -66,31 +93,11 @@
     function restoreCard(cardData) {
         const wrapper = window.PageManager ? window.PageManager.ensurePage(cardData.page || '1') : null;
 
-        // Handle dashboard card type
-        if (cardData.type === 'dashboard') {
-            console.log('[Restore] Creating dashboard card on page', cardData.page);
-            createChartCard({ type: 'dashboard', wrapperEl: wrapper });
-            return;
-        }
-
-        // Handle macro-dashboard card type
-        if (cardData.type === 'macro-dashboard') {
-            console.log('[Restore] Creating macro dashboard card on page', cardData.page);
-            createChartCard({ type: 'macro-dashboard', wrapperEl: wrapper });
-            return;
-        }
-
-        // Handle dendrograms card type
-        if (cardData.type === 'dendrograms') {
-            console.log('[Restore] Creating dendrograms card on page', cardData.page);
-            createChartCard({ type: 'dendrograms', wrapperEl: wrapper });
-            return;
-        }
-
-        // Handle thesis-performance card type
-        if (cardData.type === 'thesis-performance') {
-            console.log('[Restore] Creating thesis performance card on page', cardData.page);
-            createChartCard({ type: 'thesis-performance', wrapperEl: wrapper, thesisId: cardData.thesisId });
+        // Check type registry for special card types
+        const typeHandler = CARD_TYPE_REGISTRY[cardData.type];
+        if (typeHandler) {
+            console.log(`[Restore] Creating ${cardData.type} card on page`, cardData.page);
+            createChartCard(typeHandler.restore(cardData, wrapper));
             return;
         }
 
@@ -267,83 +274,28 @@
 
     /**
      * Create a chart card with the given options
-     * @param {Object|string} optionsOrTickers - Options object or legacy ticker string
+     * @param {Object} options - Options object with card configuration
      * @returns {HTMLElement} The created card element
      */
-    function createChartCard(optionsOrTickers) {
-        // Handle dashboard card type
-        if (optionsOrTickers && optionsOrTickers.type === 'dashboard') {
-            console.log('[createChartCard] Dashboard type detected');
-            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
-            console.log('[createChartCard] wrapper:', wrapper, 'ChartDashboard:', !!window.ChartDashboard);
-            if (wrapper && window.ChartDashboard) {
-                return window.ChartDashboard.createDashboardCard(wrapper);
+    function createChartCard(options = {}) {
+        // Check type registry for special card types
+        if (options.type && CARD_TYPE_REGISTRY[options.type]) {
+            const typeHandler = CARD_TYPE_REGISTRY[options.type];
+            const wrapper = options.wrapperEl || document.getElementById(WRAPPER_ID);
+            const module = typeHandler.module();
+
+            if (wrapper && module) {
+                console.log(`[createChartCard] ${options.type} type detected`);
+                return typeHandler.create(wrapper, options);
             }
-            console.error('Dashboard module not loaded');
+            console.error(`${options.type} module not loaded`);
             return null;
         }
 
-        // Handle macro-dashboard card type
-        if (optionsOrTickers && optionsOrTickers.type === 'macro-dashboard') {
-            console.log('[createChartCard] Macro Dashboard type detected');
-            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
-            if (wrapper && window.ChartMacroDashboard) {
-                return window.ChartMacroDashboard.createMacroDashboardCard(wrapper);
-            }
-            console.error('Macro Dashboard module not loaded');
-            return null;
-        }
-
-        // Handle dendrograms card type
-        if (optionsOrTickers && optionsOrTickers.type === 'dendrograms') {
-            console.log('[createChartCard] Dendrograms type detected');
-            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
-            if (wrapper && window.ChartDendrograms) {
-                return window.ChartDendrograms.createDendrogramCard(wrapper);
-            }
-            console.error('Dendrograms module not loaded');
-            return null;
-        }
-
-        // Handle thesis-performance card type
-        if (optionsOrTickers && optionsOrTickers.type === 'thesis-performance') {
-            console.log('[createChartCard] Thesis Performance type detected');
-            const wrapper = optionsOrTickers.wrapperEl || document.getElementById(WRAPPER_ID);
-            if (wrapper && window.ChartThesisPerformance) {
-                return window.ChartThesisPerformance.createThesisPerformanceCard(wrapper, {
-                    thesisId: optionsOrTickers.thesisId
-                });
-            }
-            console.error('Thesis Performance module not loaded');
-            return null;
-        }
-
-        // Handle backward compatibility: if first arg is string, convert to options
-        let options = {};
-        if (typeof optionsOrTickers === 'string') {
-            // Legacy positional parameters
-            options = {
-                tickers: arguments[0] || 'SPY',
-                showDiff: arguments[1] || false,
-                showAvg: arguments[2] || false,
-                showVol: arguments[3] || false,
-                showVolume: arguments[4] || false,
-                useRaw: arguments[5] || false,
-                multipliers: arguments[6] || {},
-                hidden: arguments[7] || [],
-                range: arguments[8] || null,
-                title: arguments[9] || '',
-                lastLabelVisible: arguments[10] !== false,
-                showZeroLine: arguments[11] || false,
-                wrapperEl: arguments[12] || null,
-                height: arguments[13] || (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
-                fontSize: arguments[14] || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
-                showFixedLegend: arguments[15] || false,
-                fixedLegendPos: arguments[16] || { x: 10, y: 10 },
-                fixedLegendSize: arguments[17] || null
-            };
-        } else {
-            options = optionsOrTickers || {};
+        // Legacy positional parameters - deprecated, warn once
+        if (typeof options === 'string') {
+            console.warn('[createChartCard] Positional arguments are deprecated. Use options object instead.');
+            options = { tickers: options };
         }
 
         // Destructure with defaults
