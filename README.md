@@ -454,12 +454,20 @@ MAX_RETRIES = 3
 
 ### Adding a Chart Feature
 
-1. **UI Controls**: Add to `chart-dom-builder.js:createChartCard()`
-2. **State**: Add variable to `card.js` (line ~130-170)
-3. **Event Handler**: Bind in `card.js` (line ~1700+)
-4. **Plot Logic**: Implement in `plot()` function
-5. **Persistence**: Add to `saveCards()` and load logic
-6. **Cache Bust**: Increment version in `index.html`
+1. **UI Controls**: Add markup + IDs in `charting_sandbox/chart-dom-builder.js` (`createChartCard()`), then expose them in `getCardElements()`.
+2. **State + Persistence**:
+   - Add defaults + persisted fields in `charting_sandbox/chart-card-context.js` (`create()` + `syncToCard()`).
+   - Read/write runtime state via `ctx.*` in `charting_sandbox/card.js` (use `persistState()` or `syncToCard(ctx)` + `saveCards()`).
+   - Add the field to `saveCards()` in `charting_sandbox/card.js` and to `restoreCard()` so it round-trips through the workspace JSON.
+3. **Event Binding**: Add handlers in `charting_sandbox/card.js`, then bind via `charting_sandbox/chart-event-handlers.js` (`bindAllWithCleanup()`).
+   - Sliders: prefer `ChartUtils.bindSliderControl`.
+   - Ticker chips: keep interactions in `charting_sandbox/card-event-binder.js`.
+4. **Plot / Data**:
+   - If it's a pane, implement a helper next to existing ones (`charting_sandbox/chart-volume.js`, `charting_sandbox/chart-fundamentals-pane.js`) and call it from `plot()`.
+   - If it's price-series behavior, extend `charting_sandbox/chart-series-manager.js` instead of growing `plot()`.
+   - Any API calls: use `ChartUtils.apiUrl()` / `DataFetcher.fetchWithRetry()` and pass an abort `signal` when called from `plot()`.
+5. **UI Updates**: Put "derived UI state" helpers (button text, chip refresh, etc.) in `charting_sandbox/chart-updaters.js`.
+6. **Cache Bust**: Increment `?v=` in `charting_sandbox/index.html` and `charting_sandbox/canada.html` for any changed JS files.
 
 ### Creating a New Page
 
@@ -612,35 +620,31 @@ When modifying JS files, increment version in `index.html`:
 - **Options data integration**
 - **Drawing tools** - Trendlines, Fibonacci retracements
 
-### card.js Refactoring Roadmap
+### card.js Architecture (Current)
 
-Current state: ~2,333 lines with closure-based module pattern. Recent refactors extracted:
-- `mapToObject()` - Map→Object serialization
-- `destroyChartAndReplot()` - Pane toggle cleanup
-- `toggleMetric()` - Fundamentals metric toggling
-- `getCurrentFontSize()` - Font size with fallback
+`charting_sandbox/card.js` is the orchestrator (card lifecycle + plot/teardown + persistence wiring). Most logic is split into modules:
 
-**Next refactoring steps (increasing complexity):**
+- `charting_sandbox/chart-card-context.js` — persistent per-card state (`ctx.*`) + `syncToCard()` bridge to `card._*` for workspace persistence.
+- `charting_sandbox/chart-dom-builder.js` — DOM creation + element lookup + ticker parsing.
+- `charting_sandbox/chart-event-handlers.js` — centralized event binding with cleanup (`bindAllWithCleanup()` returns `unbind()`).
+- `charting_sandbox/chart-updaters.js` — UI-only update helpers.
+- `charting_sandbox/card-event-binder.js` — ticker chip interactions.
+- `charting_sandbox/chart-series-manager.js` — price series setup.
+- `charting_sandbox/chart-volume.js` — volatility + trading volume panes.
+- `charting_sandbox/chart-fundamentals-pane.js` — revenue + fundamentals panes.
+- `charting_sandbox/chart-utils.js` — shared utilities (`apiUrl`, pane bootstrap, alias cache, etc.).
 
-1. **Extract Event Handler Setup** (Medium effort)
-   - Move ~30 `addEventListener` calls into `bindCardEvents(card, elements, handlers)`
-   - Reduces `createChartCard()` by ~400 lines
-   - Enables event handler unit testing
+**Completed refactors:**
+- Context/state-object migration (`ctx` authoritative at runtime; `syncToCard()` keeps persistence fields in sync).
+- Event binding consolidation + teardown symmetry.
+- Pane extraction into helpers + shared pane bootstrap.
+- Abortable fetches (AbortController) to prevent stale async updates.
+- Card type routing via `CARD_TYPE_REGISTRY`.
+- `createChartCard` API normalization (string/array/options supported; positional args deprecated).
 
-2. **State Object Pattern** (Medium-High effort)
-   - Replace ~40 individual `let` variables with single state object
-   - Enables easier state debugging and serialization
-   - Requires updating ~200 references
-
-3. **Extract Plot Pane Logic** (High effort)
-   - Each pane (volume, revenue, fundamentals) has ~50-80 lines of similar setup
-   - Extract to `plotPane(paneType, config)` pattern
-   - Reduces `plot()` function from ~400 to ~150 lines
-
-4. **Class-Based Refactor** (High effort)
-   - Convert closure to `ChartCard` class
-   - Enables proper unit testing and inheritance
-   - Significant rewrite (~500+ lines touched)
+**Optional next steps:**
+- Serialize directly from `ctx` (reduce reliance on `card._*` as the persistence source of truth).
+- Extract `plot()` orchestration into a dedicated plotter module/class (leave `card.js` mostly wiring).
 
 ## Dendrogram System
 
