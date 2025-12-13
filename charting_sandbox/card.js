@@ -292,9 +292,17 @@
             return null;
         }
 
-        // Legacy positional parameters - deprecated, warn once
+        // Handle array shorthand: createChartCard(['SPY', 'QQQ'])
+        if (Array.isArray(options)) {
+            options = { tickers: options.join(', ') };
+        }
+
+        // Handle string shorthand: createChartCard('SPY') - this is fine
+        // Only warn if multiple positional args were passed (deprecated pattern)
         if (typeof options === 'string') {
-            console.warn('[createChartCard] Positional arguments are deprecated. Use options object instead.');
+            if (arguments.length > 1) {
+                console.warn('[createChartCard] Positional arguments are deprecated. Use options object instead.');
+            }
             options = { tickers: options };
         }
 
@@ -2161,9 +2169,12 @@
                 targetWrapper = window.PageManager.ensurePage(activePage);
             }
             // Create new chart on the active page with default settings (all panes off)
-            const newCard = createChartCard('', false, false, false, false, false,
-                {}, [],
-                null, '', true, false, targetWrapper, 500, (window.ChartConfig?.UI?.FONT_DEFAULT || 12));
+            const newCard = createChartCard({
+                tickers: '',
+                wrapperEl: targetWrapper,
+                height: 500,
+                fontSize: window.ChartConfig?.UI?.FONT_DEFAULT || 12
+            });
             saveCards();
             // Insert new card after the current card (within the same page)
             if (card.nextSibling) {
