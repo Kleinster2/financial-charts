@@ -298,12 +298,18 @@
         }
 
         // Handle string shorthand: createChartCard('SPY') - this is fine
-        // Only warn if multiple positional args were passed (deprecated pattern)
+        // Only warn once if multiple positional args were passed (deprecated pattern)
         if (typeof options === 'string') {
-            if (arguments.length > 1) {
+            if (arguments.length > 1 && !createChartCard._warnedPositional) {
+                createChartCard._warnedPositional = true;
                 console.warn('[createChartCard] Positional arguments are deprecated. Use options object instead.');
             }
             options = { tickers: options };
+        }
+
+        // Normalize options.tickers: accept array or string
+        if (Array.isArray(options.tickers)) {
+            options.tickers = options.tickers.join(', ');
         }
 
         // Destructure with defaults
