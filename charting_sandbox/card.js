@@ -108,6 +108,8 @@
             showVol: !!cardData.showVol,
             showVolume: !!cardData.showVolume,
             showRevenue: !!cardData.showRevenue,
+            showFundamentalsPane: !!cardData.showFundamentalsPane,
+            fundamentalsMetrics: cardData.fundamentalsMetrics || ['revenue', 'netincome'],
             useRaw: cardData.useRaw || false,
             useLogScale: cardData.useLogScale || false,
             multipliers: cardData.multipliers || {},
@@ -119,18 +121,20 @@
             lastLabelVisible: cardData.lastLabelVisible ?? true,
             lastTickerVisible: !!cardData.lastTickerVisible,
             showZeroLine: cardData.showZeroLine || false,
+            showFixedLegend: !!cardData.showFixedLegend,
+            showLegendTickers: !!cardData.showLegendTickers,
+            fixedLegendPos: cardData.fixedLegendPos || { x: 10, y: 10 },
+            fixedLegendSize: cardData.fixedLegendSize || null,
             wrapperEl: wrapper,
             height: cardData.height || (window.ChartConfig?.DIMENSIONS?.CHART_MIN_HEIGHT || 400),
             fontSize: cardData.fontSize || (window.ChartConfig?.UI?.FONT_DEFAULT || 12),
-            showFixedLegend: !!cardData.showFixedLegend,
-            fixedLegendPos: cardData.fixedLegendPos || { x: 10, y: 10 },
-            fixedLegendSize: cardData.fixedLegendSize || null,
             showNotes: !!cardData.showNotes,
             notes: cardData.notes || '',
             manualInterval: cardData.manualInterval || null,
             decimalPrecision: cardData.decimalPrecision || 2,
             settingsPanelOpen: !!cardData.settingsPanelOpen,
-            starred: !!cardData.starred
+            starred: !!cardData.starred,
+            tags: cardData.tags || []
         });
     }
 
