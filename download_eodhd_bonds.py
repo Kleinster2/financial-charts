@@ -43,6 +43,12 @@ TECH_BONDS = {
     'GOOGL_2.25_2060': '02079K305',
     'GOOGL_1.90_2040': '02079K396',
     'GOOGL_3.38_2024': '02079K248',
+
+    # Oracle bonds
+    'ORCL_5.5_2064': '68389XCV5',
+    'ORCL_6.15_2029': '68389XCH6',
+    'ORCL_3.6_2050': '68389XCK9',
+    'ORCL_3.85_2060': '68389XCL7',
 }
 
 def get_bond_fundamentals(cusip, bond_name):

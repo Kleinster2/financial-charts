@@ -366,6 +366,13 @@ def get_tickers():
         except sqlite3.OperationalError:
             app.logger.warning("Table 'bond_prices_daily' not found.")
 
+        # Collect columns from FRED series table
+        try:
+            cursor = conn.execute("PRAGMA table_info(fred_series)")
+            tickers_set.update(row[1] for row in cursor.fetchall() if row[1] != 'Date')
+        except sqlite3.OperationalError:
+            app.logger.warning("Table 'fred_series' not found.")
+
         # Add portfolios
         try:
             cursor = conn.execute("SELECT portfolio_id, name FROM portfolios ORDER BY portfolio_id")
@@ -570,7 +577,7 @@ def get_data():
     conn = get_db_connection()
 
         # --- Determine which tickers belong to which table ---
-    stock_cols, futures_cols, bond_cols = set(), set(), set()
+    stock_cols, futures_cols, bond_cols, fred_cols = set(), set(), set(), set()
     try:
         cursor = conn.execute("PRAGMA table_info(stock_prices_daily)")
         stock_cols = {row['name'] for row in cursor.fetchall()}
@@ -584,6 +591,11 @@ def get_data():
     try:
         cursor = conn.execute("PRAGMA table_info(bond_prices_daily)")
         bond_cols = {row['name'] for row in cursor.fetchall()}
+    except sqlite3.OperationalError:
+        pass
+    try:
+        cursor = conn.execute("PRAGMA table_info(fred_series)")
+        fred_cols = {row['name'] for row in cursor.fetchall()}
     except sqlite3.OperationalError:
         pass
 
@@ -601,6 +613,8 @@ def get_data():
             table = 'futures_prices_daily'
         elif ticker in bond_cols:
             table = 'bond_prices_daily'
+        elif ticker in fred_cols:
+            table = 'fred_series'
         else:
             chart_data[ticker] = []
             continue
