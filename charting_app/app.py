@@ -130,7 +130,10 @@ def diag_reduce():
             fut_cols = {row['name'] for row in conn.execute("PRAGMA table_info(futures_prices_daily)").fetchall()}
         except sqlite3.OperationalError:
             fut_cols = set()
-        if ticker in stock_cols:
+        # Check futures table first for =F tickers (has more recent data)
+        if ticker in fut_cols and ticker.endswith('=F'):
+            table = 'futures_prices_daily'
+        elif ticker in stock_cols:
             table = 'stock_prices_daily'
         elif ticker in fut_cols:
             table = 'futures_prices_daily'
@@ -270,7 +273,10 @@ def diag():
             futures_cols = set()
 
         table = None
-        if ticker in stock_cols:
+        # Check futures table first for =F tickers (has more recent data)
+        if ticker in futures_cols and ticker.endswith('=F'):
+            table = 'futures_prices_daily'
+        elif ticker in stock_cols:
             table = 'stock_prices_daily'
         elif ticker in futures_cols:
             table = 'futures_prices_daily'
@@ -586,7 +592,10 @@ def get_data():
     # Build chart_data per ticker to avoid column duplication issues entirely
     chart_data = {}
     for ticker in tickers:
-        if ticker in stock_cols:
+        # Check futures table first for =F tickers (has more recent data)
+        if ticker in futures_cols and ticker.endswith('=F'):
+            table = 'futures_prices_daily'
+        elif ticker in stock_cols:
             table = 'stock_prices_daily'
         elif ticker in futures_cols:
             table = 'futures_prices_daily'
@@ -677,7 +686,10 @@ def diag_series():
         except sqlite3.OperationalError:
             fut_cols = set()
 
-        if ticker in stock_cols:
+        # Check futures table first for =F tickers (has more recent data)
+        if ticker in fut_cols and ticker.endswith('=F'):
+            table = 'futures_prices_daily'
+        elif ticker in stock_cols:
             table = 'stock_prices_daily'
         elif ticker in fut_cols:
             table = 'futures_prices_daily'

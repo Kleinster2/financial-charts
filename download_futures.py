@@ -30,11 +30,17 @@ END_DATE = datetime.today().strftime("%Y-%m-%d")
 # Yahoo Finance uses the suffix "=F" to denote continuous (front-month) futures
 # charts. You can amend this list as needed.
 FUTURES_TICKERS: list[str] = [
-    # Equity index futures
+    # Equity index futures - US
     "ES=F",  # S&P 500 E-Mini
     "NQ=F",  # Nasdaq-100 E-Mini
     "YM=F",  # Dow Jones 30 E-Mini
     "RTY=F",  # Russell 2000 E-Mini
+    "MES=F",  # Micro E-mini S&P 500
+    "MNQ=F",  # Micro E-mini Nasdaq 100
+
+    # Equity index futures - International
+    "NIY=F",  # Nikkei 225 (Yen-denominated)
+    "NKD=F",  # Nikkei 225 (USD-denominated)
 
     # Energy
     "CL=F",  # WTI Crude Oil
@@ -64,12 +70,22 @@ FUTURES_TICKERS: list[str] = [
     "ZT=F",  # 2-Year Note
     "FGBL=F",  # Euro-Bund (Germany 10Y)
 
-    # Currency index
-    "DX=F",  # US Dollar Index Futures (ICE)
+    # Currency futures (CME)
+    "DX=F",   # US Dollar Index Futures (ICE)
+    "6E=F",   # Euro FX
+    "6J=F",   # Japanese Yen
+    "6B=F",   # British Pound
+    "6C=F",   # Canadian Dollar
+    "6A=F",   # Australian Dollar
+    "6S=F",   # Swiss Franc
+    "6N=F",   # New Zealand Dollar
+    "6M=F",   # Mexican Peso
 
-    # Agriculture
+    # Agriculture - Grains & Softs
     "ZC=F",  # Corn
     "ZS=F",  # Soybeans
+    "ZL=F",  # Soybean Oil
+    "ZM=F",  # Soybean Meal
     "ZW=F",  # Wheat (Chicago)
     "KE=F",  # Wheat (Kansas City)
     "SB=F",  # Sugar #11
@@ -77,6 +93,26 @@ FUTURES_TICKERS: list[str] = [
     "CC=F",  # Cocoa
     "CT=F",  # Cotton
     "OJ=F",  # Orange Juice
+
+    # Livestock
+    "LE=F",  # Live Cattle
+    "GF=F",  # Feeder Cattle
+    "HE=F",  # Lean Hogs
+
+    # Energy - Additional
+    "HO=F",  # Heating Oil
+
+    # Volatility
+    "VX=F",  # VIX Futures
+
+    # Lumber
+    "LBR=F",  # Random Length Lumber
+
+    # Dairy (CME)
+    "DC=F",   # Milk Class III
+    "GNF=F",  # Non-Fat Dry Milk
+    "CB=F",   # Cash-Settled Butter
+    "CSC=F",  # Cash-Settled Cheese
 ]
 
 TABLE_NAME = "futures_prices_daily"  # New destination table
