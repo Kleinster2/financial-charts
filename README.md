@@ -59,14 +59,26 @@ financial-charts/
 │   ├── workspace.json          # Persistent chart configurations
 │   └── requirements.txt        # Backend dependencies
 │
-└── charting_sandbox/           # Frontend UI
-    ├── index.html              # Main HTML entry point
-    ├── config.js               # Frontend configuration
-    ├── card.js                 # Core chart card logic (~2500 lines)
-    ├── chart-*.js              # Chart component modules
-    ├── data-fetcher.js         # API communication
-    ├── state-manager.js        # State management
-    └── pages.js                # Multi-page navigation
+├── charting_sandbox/           # Frontend UI
+│   ├── index.html              # Main HTML entry point
+│   ├── config.js               # Frontend configuration
+│   ├── card.js                 # Chart card orchestrator (~1,200 lines)
+│   ├── chart-card-context.js   # Card state + ctx.runtime
+│   ├── chart-card-plot.js      # Plot logic (~760 lines)
+│   ├── chart-card-toggles.js   # Toggle handlers (~330 lines)
+│   ├── chart-*.js              # Other chart component modules
+│   ├── data-fetcher.js         # API communication
+│   ├── state-manager.js        # State management
+│   └── pages.js                # Multi-page navigation
+│
+├── tests/                      # Automated tests
+│   └── playwright/             # Playwright smoke tests
+│       ├── card-smoke.spec.js  # Card functionality tests
+│       ├── helpers/            # Test utilities
+│       └── stubs/              # LightweightCharts stub
+│
+└── .github/workflows/          # CI/CD
+    └── playwright-smoke.yml    # Smoke test workflow
 ```
 
 ## Architecture & Data Flow
@@ -582,6 +594,44 @@ When modifying JS files, increment version in `index.html`:
 - Auto-save: Debounced (2000ms) on user interactions
 - Backend-first restore: Loads from `/api/workspace` on page load
 
+## Testing
+
+### Playwright Smoke Tests
+
+Automated browser tests ensure card.js refactoring doesn't break core functionality.
+
+```powershell
+# Install test dependencies (first time)
+npm install
+npx playwright install chromium
+
+# Run smoke tests
+npm run test:smoke
+```
+
+**Test coverage:**
+- Initial chart rendering on page load
+- Fit button (auto-scales to data range)
+- Range dropdown (preset date ranges)
+- Pane toggles (Vol σ, Volume, Revenue, Fundamentals)
+
+**Test architecture:**
+- Tests run against isolated static server (no Flask backend needed)
+- LightweightCharts stubbed for deterministic behavior
+- API responses mocked with synthetic data
+- `Date.now()` frozen for reproducible timestamps
+
+**Files:**
+| File | Purpose |
+|------|---------|
+| `tests/playwright/card-smoke.spec.js` | Main test file |
+| `tests/playwright/helpers/static-server.js` | Static file server |
+| `tests/playwright/stubs/lightweight-charts-stub.js` | Chart library mock |
+| `playwright.config.js` | Test configuration |
+
+**CI Integration:**
+Tests run automatically on GitHub Actions for all PRs and pushes to `main`. See `.github/workflows/playwright-smoke.yml`.
+
 ## Performance Considerations
 
 - **Data Density**: LightweightCharts needs ~1 pixel per bar minimum
@@ -607,17 +657,46 @@ When modifying JS files, increment version in `index.html`:
 
 ### card.js Architecture (Current)
 
-`charting_sandbox/card.js` is the orchestrator (card lifecycle + plot/teardown + persistence wiring). Most logic is split into modules:
+`charting_sandbox/card.js` is the orchestrator (~1,200 lines) handling card lifecycle, persistence wiring, and delegating to extracted modules. Most logic is split out:
 
-- `charting_sandbox/chart-card-context.js` — persistent per-card state (`ctx.*`) + `syncToCard()` bridge to `card._*` for workspace persistence.
-- `charting_sandbox/chart-dom-builder.js` — DOM creation + element lookup + ticker parsing.
-- `charting_sandbox/chart-event-handlers.js` — centralized event binding with cleanup (`bindAllWithCleanup()` returns `unbind()`).
-- `charting_sandbox/chart-updaters.js` — UI-only update helpers.
-- `charting_sandbox/card-event-binder.js` — ticker chip interactions.
-- `charting_sandbox/chart-series-manager.js` — price series setup.
-- `charting_sandbox/chart-volume.js` — volatility + trading volume panes.
-- `charting_sandbox/chart-fundamentals-pane.js` — revenue + fundamentals panes.
-- `charting_sandbox/chart-utils.js` — shared utilities (`apiUrl`, pane bootstrap, alias cache, etc.).
+**Core modules:**
+- `chart-card-context.js` — Persistent per-card state (`ctx.*`) + `initRuntime()` for mutable runtime state + `syncToCard()` bridge to `card._*` for workspace persistence.
+- `chart-card-plot.js` (~760 lines) — Plot orchestration: `plot(ctx)`, `destroyChart(ctx)`, `destroyChartAndReplot(ctx)`, `applyResize(ctx)`, `updateZeroLine(ctx)`, `updateFixedLegend(ctx)`.
+- `chart-card-toggles.js` (~330 lines) — Pane toggle handlers: `createToggleHandlers(ctx, callbacks)`, `createToggleMetric(ctx)`, `initMetricButtons(ctx)`.
+
+**Supporting modules:**
+- `chart-dom-builder.js` — DOM creation + element lookup + ticker parsing.
+- `chart-event-handlers.js` — Centralized event binding with cleanup (`bindAllWithCleanup()` returns `unbind()`).
+- `chart-updaters.js` — UI-only update helpers.
+- `card-event-binder.js` — Ticker chip interactions.
+- `chart-series-manager.js` — Price series setup.
+- `chart-volume.js` — Volatility + trading volume panes.
+- `chart-fundamentals-pane.js` — Revenue + fundamentals panes.
+- `chart-utils.js` — Shared utilities (`apiUrl`, pane bootstrap, alias cache, etc.).
+
+**ctx.runtime contract:**
+Mutable runtime state lives on `ctx.runtime` (initialized via `ChartCardContext.initRuntime(ctx)`):
+```javascript
+ctx.runtime = {
+    // Chart instances (recreated on toggle)
+    chart, volPane, volumePane, revenuePane, fundamentalsPane,
+
+    // Series references
+    avgSeries, zeroLineSeries, priceSeriesMap, volSeriesMap,
+    volumeSeriesMap, revenueSeriesMap, fundamentalSeriesMap,
+
+    // Data caches
+    rawPriceMap, latestRebasedData,
+
+    // Event handlers (for cleanup)
+    crosshairHandler, rangeSaveHandler, tickerLabelHandler,
+    fixedLegendCrosshairHandler, debouncedRebase,
+
+    // Abort controller for cancelling in-flight fetches
+    plotAbortController
+};
+```
+Persisted state stays on `ctx` directly (e.g., `ctx.showVolPane`, `ctx.visibleRange`).
 
 **Completed refactors:**
 - Context/state-object migration (`ctx` authoritative at runtime; `syncToCard()` keeps persistence fields in sync).
@@ -626,10 +705,11 @@ When modifying JS files, increment version in `index.html`:
 - Abortable fetches (AbortController) to prevent stale async updates.
 - Card type routing via `CARD_TYPE_REGISTRY`.
 - `createChartCard` API normalization (string/array/options supported; positional args deprecated).
+- Plot orchestration extracted to `chart-card-plot.js`.
+- Toggle handlers extracted to `chart-card-toggles.js`.
 
 **Optional next steps:**
 - Serialize directly from `ctx` (reduce reliance on `card._*` as the persistence source of truth).
-- Extract `plot()` orchestration into a dedicated plotter module/class (leave `card.js` mostly wiring).
 
 ## Dendrogram System
 
