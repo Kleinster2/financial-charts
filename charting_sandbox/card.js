@@ -20,43 +20,8 @@
     const FONT_MIN = window.ChartConfig?.UI?.FONT_MIN || 8;
     const FONT_MAX = window.ChartConfig?.UI?.FONT_MAX || 24;
 
-    // Global context menu handler for ticker chips
-    document.addEventListener('click', () => {
-        const menu = document.getElementById('chip-context-menu');
-        if (menu) menu.classList.remove('visible');
-    });
-
-    document.addEventListener('DOMContentLoaded', () => {
-        const menu = document.getElementById('chip-context-menu');
-        if (menu) {
-            menu.addEventListener('click', (e) => {
-                const item = e.target.closest('.chip-context-menu-item');
-                if (!item) return;
-
-                const action = item.dataset.action;
-                const chip = menu._targetChip;
-                const ticker = menu._targetTicker;
-
-                if (!chip || !ticker) return;
-
-                if (action === 'axis-left' || action === 'axis-right') {
-                    const newAxis = action === 'axis-left' ? 'left' : 'right';
-                    chip._currentAxis = newAxis;
-                    if (chip._axisIndicator) {
-                        chip._axisIndicator.textContent = newAxis === 'left' ? 'L' : '';
-                    }
-                    if (typeof chip._onAxisChange === 'function') {
-                        chip._onAxisChange(ticker, newAxis);
-                    }
-                } else if (action === 'hide') {
-                    // Toggle hidden state via chip click
-                    chip.click();
-                }
-
-                menu.classList.remove('visible');
-            });
-        }
-    });
+    // Initialize global chip context menu (delegated to ChartCardTickers)
+    window.ChartCardTickers.initGlobalChipContextMenu();
 
     // Company name fetching - delegated to ChartCardPlot module (single nameCache)
     async function ensureNames(tickers, chipNodes = null) {
@@ -497,105 +462,6 @@
         // Update button states
         window.ChartDomBuilder.updateButtonStates(elements, getButtonStates());
 
-        // Remove ticker handler: updates state and removes corresponding series
-        function handleChipRemove(ticker, chipEl) {
-            try {
-                if (!selectedTickers.has(ticker)) {
-                    if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
-                    return;
-                }
-                selectedTickers.delete(ticker);
-                hiddenTickers.delete(ticker);
-                multiplierMap.delete(ticker);
-                tickerColorMap.delete(ticker);
-                rawPriceMap.delete(ticker);
-                try { delete latestRebasedData[ticker]; } catch (_) { }
-
-                // Remove price series
-                const s = priceSeriesMap.get(ticker);
-                if (s && rt.chart) {
-                    try { rt.chart.removeSeries(s); } catch (_) { }
-                }
-                priceSeriesMap.delete(ticker);
-
-                // Remove volume series (if present)
-                if (volSeriesMap && rt.chart) {
-                    const vs = volSeriesMap.get(ticker);
-                    if (vs) {
-                        try { rt.chart.removeSeries(vs); } catch (_) { }
-                        volSeriesMap.delete(ticker);
-                    }
-                    // If no volume series remain, remove the pane
-                    if (rt.volPane && volSeriesMap.size === 0) {
-                        try { rt.volPane = window.ChartVolumeManager.clearVolumeSeries(rt.chart, rt.volPane, volSeriesMap); } catch (_) { }
-                    }
-                }
-
-                // Update average series
-                if (ctx.showAvg && !ctx.useRaw) {
-                    try {
-                        rt.avgSeries = window.ChartSeriesManager.updateAverageSeries(
-                            rt.chart, rt.avgSeries, priceSeriesMap, hiddenTickers, undefined, ctx.lastLabelVisible
-                        );
-                    } catch (_) { }
-                }
-
-                // Remove ticker label
-                if (rt.tickerLabelsContainer) {
-                    window.ChartTickerLabels.removeLabel(rt.tickerLabelsContainer, ticker);
-                }
-
-                // Remove chip element
-                if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
-
-                // Update nav label if title empty
-                if (navLink && titleInput && !titleInput.value) {
-                    navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
-                }
-
-                saveCards();
-            } catch (e) {
-                console.warn('[Card] handleChipRemove failed:', e);
-            }
-        }
-
-        // Initialize tickers
-        if (initialTickers) {
-            const tickers = window.ChartDomBuilder.parseTickerInput(initialTickers);
-            tickers.forEach(t => {
-                selectedTickers.add(t);
-            });
-            // Assign consistent hash-based colors
-            selectedTickers.forEach(ticker => {
-                if (!tickerColorMap.has(ticker)) {
-                    tickerColorMap.set(ticker, window.ChartConfig.getTickerColor(ticker));
-                }
-            });
-            window.ChartDomBuilder.addTickerChips(
-                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
-            );
-        }
-
-        // Add ticker function
-        const addTicker = () => {
-            const input = window.ChartDomBuilder.normalizeTicker(tickerInput.value);
-            if (!input || selectedTickers.has(input)) return;
-
-            selectedTickers.add(input);
-
-            // Assign hash-based color for new ticker
-            if (!tickerColorMap.has(input)) {
-                tickerColorMap.set(input, window.ChartConfig.getTickerColor(input));
-            }
-
-            window.ChartDomBuilder.addTickerChips(
-                selectedTickersDiv, selectedTickers, tickerColorMap, multiplierMap, hiddenTickers, handleChipRemove
-            );
-
-            tickerInput.value = '';
-            saveCards();
-        };
-
         // ═══════════════════════════════════════════════════════════════
         // PLOT FUNCTION (delegated to ChartCardPlot module)
         // ═══════════════════════════════════════════════════════════════
@@ -605,6 +471,19 @@
 
         // NOTE: Legacy plot_legacy() removed - now delegated to ChartCardPlot.plot(ctx)
         // See chart-card-plot.js for implementation
+
+        // ═══════════════════════════════════════════════════════════════
+        // TICKER HANDLERS (delegated to ChartCardTickers module)
+        // ═══════════════════════════════════════════════════════════════
+        const tickerHandlers = window.ChartCardTickers.createHandlers(ctx, { plot });
+
+        // Initialize tickers and render chips
+        tickerHandlers.initializeTickers(initialTickers);
+        tickerHandlers.bindChipInteractions();
+
+        // Alias for event binding
+        const addTicker = tickerHandlers.addTickerFromInput;
+        const handleChipRemove = tickerHandlers.handleChipRemove;
 
         // ═══════════════════════════════════════════════════════════════
         // TOGGLE HANDLERS (delegated to ChartCardToggles module)
@@ -763,16 +642,7 @@
             intervalSelect.value = ctx.manualInterval;
         }
 
-        // Bind chip toggle & multiplier events via helper
-        window.CardEventBinder.bindTickerInteractions(
-            selectedTickersDiv,
-            hiddenTickers,
-            multiplierMap,
-            () => { ctx.hiddenTickers = hiddenTickers; window.ChartCardContext.syncToCard(ctx); },
-            () => plot(),
-            saveCards,
-            () => ctx.useRaw
-        );
+        // NOTE: Chip toggle & multiplier events now bound via tickerHandlers.bindChipInteractions() above
 
         // Auto-plot if we have initial tickers and the page is visible
         if (selectedTickers.size > 0) {
