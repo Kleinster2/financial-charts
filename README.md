@@ -64,18 +64,26 @@ financial-charts/
 ├── charting_sandbox/           # Frontend UI
 │   ├── index.html              # Main HTML entry point
 │   ├── config.js               # Frontend configuration
-│   ├── card.js                 # Chart card orchestrator (~1,200 lines)
-│   ├── chart-card-context.js   # Card state + ctx.runtime
-│   ├── chart-card-plot.js      # Plot logic (~760 lines)
-│   ├── chart-card-toggles.js   # Toggle handlers (~330 lines)
+│   ├── card.js                 # Chart card orchestrator (~660 lines)
+│   ├── chart-card-context.js   # Card state + ctx.runtime (~450 lines)
+│   ├── chart-card-plot.js      # Plot logic (~860 lines)
+│   ├── chart-card-toggles.js   # Toggle handlers (~380 lines)
+│   ├── chart-card-range.js     # Fit/range/interval handlers
+│   ├── chart-card-meta.js      # Star/tags/notes UI
+│   ├── chart-card-tickers.js   # Ticker chips + axis/context menu
+│   ├── chart-card-registry.js  # Card type registry + restoreCard
+│   ├── sandbox-init.js         # index.html bootstrap (workspace restore)
 │   ├── chart-*.js              # Other chart component modules
 │   ├── data-fetcher.js         # API communication
 │   ├── state-manager.js        # State management
 │   └── pages.js                # Multi-page navigation
 │
 ├── tests/                      # Automated tests
+│   ├── unit/                   # Node unit tests
+│   │   ├── chart-card-context.test.js
+│   │   └── chart-card-registry.test.js
 │   └── playwright/             # Playwright smoke tests
-│       ├── card-smoke.spec.js  # Card functionality tests
+│       ├── card-smoke.spec.js  # Card functionality tests (5 tests)
 │       ├── helpers/            # Test utilities
 │       └── stubs/              # LightweightCharts stub
 │
@@ -598,6 +606,27 @@ When modifying JS files, increment version in `index.html`:
 
 ## Testing
 
+### Unit Tests (Node)
+
+Fast deterministic tests for the extracted modules.
+
+```powershell
+npm run test:unit
+```
+
+**Files:**
+| File | Purpose |
+|------|---------|
+| `tests/unit/chart-card-context.test.js` | Context create/serialize/apply round-trip |
+| `tests/unit/chart-card-registry.test.js` | Card type registration + dispatch |
+| `tests/unit/helpers/browser-stub.js` | Minimal window/document stub |
+| `tests/unit/helpers/load-module.js` | vm-based module loader |
+
+**Test architecture:**
+- Uses Node's built-in test runner (`node --test`)
+- Loads browser modules via `vm` (no jsdom dependency)
+- Tests pure functions: state management, serialization, registry dispatch
+
 ### Playwright Smoke Tests
 
 Automated browser tests ensure card.js refactoring doesn't break core functionality.
@@ -611,11 +640,15 @@ npx playwright install chromium
 npm run test:smoke
 ```
 
-**Test coverage:**
+**Test coverage (5 tests):**
 - Initial chart rendering on page load
 - Fit button (auto-scales to data range)
 - Range dropdown (preset date ranges)
 - Pane toggles (Vol σ, Volume, Revenue, Fundamentals)
+- Workspace restore with saved card state
+- Page switching hides/shows correct pages
+- Tag filtering in normal and highlights mode
+- Nav label updates when removing ticker from untitled card
 
 **Test architecture:**
 - Tests run against isolated static server (no Flask backend needed)
@@ -659,12 +692,17 @@ Tests run automatically on GitHub Actions for all PRs and pushes to `main`. See 
 
 ### card.js Architecture (Current)
 
-`charting_sandbox/card.js` is the orchestrator (~1,200 lines) handling card lifecycle, persistence wiring, and delegating to extracted modules. Most logic is split out:
+`charting_sandbox/card.js` is the orchestrator (~660 lines) handling card lifecycle, persistence wiring, and delegating to extracted modules. Most logic is split out:
 
 **Core modules:**
-- `chart-card-context.js` — Persistent per-card state (`ctx.*`) + `initRuntime()` for mutable runtime state + `syncToCard()` bridge to `card._*` for workspace persistence.
-- `chart-card-plot.js` (~760 lines) — Plot orchestration: `plot(ctx)`, `destroyChart(ctx)`, `destroyChartAndReplot(ctx)`, `applyResize(ctx)`, `updateZeroLine(ctx)`, `updateFixedLegend(ctx)`.
-- `chart-card-toggles.js` (~330 lines) — Pane toggle handlers: `createToggleHandlers(ctx, callbacks)`, `createToggleMetric(ctx)`, `initMetricButtons(ctx)`.
+- `chart-card-context.js` (~450 lines) — Persistent per-card state (`ctx.*`) + `initRuntime()` for mutable runtime state + `syncToCard()` bridge to `card._*` for workspace persistence.
+- `chart-card-plot.js` (~860 lines) — Plot orchestration: `plot(ctx)`, `destroyChart(ctx)`, `destroyChartAndReplot(ctx)`, `applyResize(ctx)`, `updateZeroLine(ctx)`, `updateFixedLegend(ctx)`.
+- `chart-card-toggles.js` (~380 lines) — Pane toggle handlers: `createToggleHandlers(ctx, callbacks)`, `createToggleMetric(ctx)`, `initMetricButtons(ctx)`.
+- `chart-card-range.js` — Fit/range/interval handlers: `createRangeHandlers(ctx, callbacks)`.
+- `chart-card-meta.js` — Star/tags/notes UI: `createMetaHandlers(ctx, callbacks)`.
+- `chart-card-tickers.js` — Ticker chips + axis/context menu: `initGlobalChipContextMenu()`, `createHandlers(ctx, callbacks)`.
+- `chart-card-registry.js` — Card type registry + restoreCard dispatch.
+- `sandbox-init.js` — index.html bootstrap (workspace restore on DOMContentLoaded).
 
 **Supporting modules:**
 - `chart-dom-builder.js` — DOM creation + element lookup + ticker parsing.
