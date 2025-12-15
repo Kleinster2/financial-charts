@@ -20,11 +20,11 @@ Instead of a full class-based rewrite, we took an incremental approach:
 | `chart-card-plot.js` | ~860 | Plot logic, chart lifecycle |
 | `chart-card-toggles.js` | ~380 | Toggle button handlers |
 | `chart-card-context.js` | ~450 | Context + runtime state |
-| `chart-card-range.js` | ~120 | Fit/range/interval handlers |
-| `chart-card-meta.js` | ~180 | Star/tags/notes UI |
+| `chart-card-range.js` | ~230 | Fit/range/interval handlers |
+| `chart-card-meta.js` | ~200 | Star/tags/notes UI |
 | `chart-card-tickers.js` | ~280 | Ticker chips + axis/context menu |
-| `chart-card-registry.js` | ~100 | Card type registry + restoreCard |
-| `sandbox-init.js` | ~50 | Workspace restore on load |
+| `chart-card-registry.js` | ~125 | Card type registry + restoreCard |
+| `sandbox-init.js` | ~180 | Sandbox bootstrap on load |
 
 ---
 
@@ -84,7 +84,7 @@ ctx.runtime = {
 
 ### Why this matters
 
-- Extracted modules (`chart-card-plot.js`, `chart-card-toggles.js`) receive `ctx` and access `ctx.runtime`
+- Extracted modules (`chart-card-plot.js`, `chart-card-toggles.js`, `chart-card-range.js`, `chart-card-meta.js`, `chart-card-tickers.js`) receive `ctx` and access `ctx.runtime`
 - No "parameter hell" - just pass `ctx`
 - Single source of truth for chart state
 - Easier to debug (inspect `card._ctx.runtime` in console)
@@ -97,7 +97,7 @@ ctx.runtime = {
 - Card DOM creation via `ChartDomBuilder`
 - Context initialization via `ChartCardContext`
 - Event binding via `ChartEventHandlers`
-- Delegates plot/toggle logic to extracted modules
+- Delegates most behavior to extracted modules
 
 ### chart-card-plot.js (ChartCardPlot)
 - `plot(ctx, options)` - main plot function
@@ -126,10 +126,10 @@ ctx.runtime = {
 - `applyToCtx(ctx, cardData)` - hydrate from saved data
 
 ### chart-card-range.js (ChartCardRange)
-- `createHandlers(ctx, callbacks)` - returns `{ handleFit, handleRangeChange, handleIntervalChange }`
+- `createRangeHandlers(ctx, callbacks)` - returns `{ handleFit, handleRangeChange, handleIntervalChange }`
 
 ### chart-card-meta.js (ChartCardMeta)
-- `createHandlers(ctx, callbacks)` - returns `{ handleStarToggle, handleTagAdd, handleTagRemove, handleNotesToggle }`
+- `initAll(ctx)` - binds star/tags/notes UI + persistence hooks
 
 ### chart-card-tickers.js (ChartCardTickers)
 - `initGlobalChipContextMenu()` - idempotent global context menu setup
