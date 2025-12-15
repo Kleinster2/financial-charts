@@ -7,20 +7,25 @@ window.ChartCardNav = {
     /**
      * Compute nav label from title, tickers, or cardId fallback
      * @param {string} title - Card title
-     * @param {string|Set} tickers - Ticker string or Set of tickers
+     * @param {string|Array|Set} tickers - Ticker string, Array, or Set
      * @param {string} cardId - Card ID fallback
      * @returns {string} - Label to display
      */
     computeLabel(title, tickers, cardId) {
-        if (title) return title;
+        const trimmedTitle = (title ?? '').toString().trim();
+        if (trimmedTitle) return trimmedTitle;
 
         // Get first ticker
         let firstTicker = '';
         if (tickers instanceof Set) {
-            firstTicker = tickers.size ? Array.from(tickers)[0] : '';
+            firstTicker = tickers.size ? tickers.values().next().value : '';
+        } else if (Array.isArray(tickers)) {
+            firstTicker = tickers.find(t => (t ?? '').toString().trim()) || '';
         } else if (typeof tickers === 'string') {
             firstTicker = tickers.split(/[,\s]+/).filter(Boolean)[0] || '';
         }
+
+        firstTicker = (firstTicker ?? '').toString().trim();
 
         return firstTicker || cardId;
     },
