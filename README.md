@@ -596,7 +596,7 @@ Hard refresh to clear JavaScript cache:
 ### Cache Busting
 When modifying JS files, increment version in `index.html`:
 ```html
-<script src="card.js?v=34"></script>
+<script src="card.js?v=NN"></script>
 ```
 
 ### State Management
