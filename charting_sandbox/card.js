@@ -58,57 +58,6 @@
         }
     });
 
-    // ═══════════════════════════════════════════════════════════════════════
-    // CARD TYPE REGISTRY
-    // Extensible registry for special card types (dashboard, dendrograms, etc.)
-    // ═══════════════════════════════════════════════════════════════════════
-    const CARD_TYPE_REGISTRY = {
-        'dashboard': {
-            module: () => window.ChartDashboard,
-            create: (wrapper, opts) => window.ChartDashboard.createDashboardCard(wrapper),
-            restore: (cardData, wrapper) => ({ type: 'dashboard', wrapperEl: wrapper })
-        },
-        'macro-dashboard': {
-            module: () => window.ChartMacroDashboard,
-            create: (wrapper, opts) => window.ChartMacroDashboard.createMacroDashboardCard(wrapper),
-            restore: (cardData, wrapper) => ({ type: 'macro-dashboard', wrapperEl: wrapper })
-        },
-        'dendrograms': {
-            module: () => window.ChartDendrograms,
-            create: (wrapper, opts) => window.ChartDendrograms.createDendrogramCard(wrapper),
-            restore: (cardData, wrapper) => ({ type: 'dendrograms', wrapperEl: wrapper })
-        },
-        'thesis-performance': {
-            module: () => window.ChartThesisPerformance,
-            create: (wrapper, opts) => window.ChartThesisPerformance.createThesisPerformanceCard(wrapper, { thesisId: opts.thesisId }),
-            restore: (cardData, wrapper) => ({ type: 'thesis-performance', wrapperEl: wrapper, thesisId: cardData.thesisId })
-        }
-    };
-
-    /**
-     * Restore a card from saved data
-     * @param {Object} cardData - Saved card configuration
-     */
-    function restoreCard(cardData) {
-        const wrapper = window.PageManager ? window.PageManager.ensurePage(cardData.page || '1') : null;
-
-        // Check type registry for special card types
-        const typeHandler = CARD_TYPE_REGISTRY[cardData.type];
-        if (typeHandler) {
-            console.log(`[Restore] Creating ${cardData.type} card on page`, cardData.page);
-            createChartCard(typeHandler.restore(cardData, wrapper));
-            return;
-        }
-
-        // Normal chart card: pass saved payload through directly
-        // Schema owned by ChartCardContext.serialize/applyToCtx
-        createChartCard({
-            ...cardData,
-            wrapperEl: wrapper,
-            hydrateData: cardData
-        });
-    }
-
     // Company name fetching - delegated to ChartCardPlot module (single nameCache)
     async function ensureNames(tickers, chipNodes = null) {
         return window.ChartCardPlot.ensureNames(tickers, chipNodes);
@@ -177,18 +126,10 @@
      * @returns {HTMLElement} The created card element
      */
     function createChartCard(options = {}) {
-        // Check type registry for special card types
-        if (options.type && CARD_TYPE_REGISTRY[options.type]) {
-            const typeHandler = CARD_TYPE_REGISTRY[options.type];
+        // Check type registry for special card types (delegated to ChartCardRegistry)
+        if (options.type && window.ChartCardRegistry && window.ChartCardRegistry.hasType(options.type)) {
             const wrapper = options.wrapperEl || document.getElementById(WRAPPER_ID);
-            const module = typeHandler.module();
-
-            if (wrapper && module) {
-                console.log(`[createChartCard] ${options.type} type detected`);
-                return typeHandler.create(wrapper, options);
-            }
-            console.error(`${options.type} module not loaded`);
-            return null;
+            return window.ChartCardRegistry.dispatchCreate(options.type, wrapper, options);
         }
 
         // Handle array shorthand: createChartCard(['SPY', 'QQQ'])
@@ -846,127 +787,7 @@
         return card;
     }
 
-    // Initialize on DOM ready
-    document.addEventListener('DOMContentLoaded', () => {
-        const addBtn = document.getElementById('add-chart-btn');
-        if (addBtn) {
-            addBtn.addEventListener('click', () => createChartCard(''));
-        }
-
-        // Populate autocomplete with tickers and metadata
-        (async () => {
-            try {
-                const [tickersResp, metadataResp] = await Promise.all([
-                    fetch(window.ChartUtils.apiUrl('/api/tickers')),
-                    fetch(window.ChartUtils.apiUrl('/api/metadata?tickers=ALL'))
-                ]);
-
-                const tickers = await tickersResp.json();
-                const metadata = await metadataResp.json();
-
-                const dl = document.getElementById('ticker-list');
-                if (dl) {
-                    dl.innerHTML = '';
-
-                    // Add ticker options with company names
-                    tickers.forEach(t => {
-                        const opt = document.createElement('option');
-
-                        // If we have metadata, create option as "TICKER - Company Name"
-                        // This allows searching by either ticker or company name
-                        if (metadata[t] && metadata[t] !== t) {
-                            opt.value = `${t} - ${metadata[t]}`;
-                        } else {
-                            opt.value = t;
-                        }
-
-                        dl.appendChild(opt);
-                    });
-
-                    // Add special tickers
-                    ['ALLW_VALUE', 'ALLW_SHARES'].forEach(x => {
-                        const opt = document.createElement('option');
-                        opt.value = x;
-                        dl.appendChild(opt);
-                    });
-                }
-            } catch (e) {
-                console.warn('Failed to populate autocomplete:', e);
-            }
-        })();
-
-        // Restore or create cards (backend-first for cross-browser persistence)
-        const urlParams = new URLSearchParams(window.location.search);
-        const startBlank = urlParams.has('blank');
-        if (startBlank) {
-            createChartCard('');
-            return;
-        }
-
-        (async () => {
-            try {
-                const resp = await fetch(window.ChartUtils.apiUrl('/api/workspace'));
-                const ws = await resp.json();
-                if (Array.isArray(ws) && ws.length) {
-                    console.log('[Restore] Loaded legacy workspace (array) from server');
-                    ws.forEach(c => restoreCard(c));
-                    window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, ws);
-                    return;
-                } else if (ws && typeof ws === 'object') {
-                    const cards = Array.isArray(ws.cards) ? ws.cards : [];
-                    const pagesMeta = (ws.pages && typeof ws.pages === 'object') ? ws.pages : null;
-                    if (pagesMeta) {
-                        window.ChartUtils.safeSetJSON('sandbox_pages', pagesMeta);
-                        const nameCount = pagesMeta.names ? Object.keys(pagesMeta.names).length : 0;
-                        console.log(`[Restore] Loaded workspace (object) from server; pages meta present (pageNames=${nameCount})`);
-                        if (window.PageManager) {
-                            if (Array.isArray(pagesMeta.pages)) {
-                                pagesMeta.pages.filter(n => n !== 1).forEach(n => window.PageManager.ensurePage(n));
-                            }
-                            if (pagesMeta.names && typeof pagesMeta.names === 'object') {
-                                Object.entries(pagesMeta.names).forEach(([num, name]) => {
-                                    window.PageManager.renamePage(Number(num), String(name));
-                                });
-                            }
-                            if (pagesMeta.active) {
-                                window.PageManager.showPage(pagesMeta.active);
-                            }
-                        }
-                    } else {
-                        console.log('[Restore] Workspace object has no pages meta');
-                    }
-                    cards.forEach(c => restoreCard(c));
-                    window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
-                    // Refresh navigation filtering after cards are loaded
-                    if (window.PageManager && typeof window.PageManager.refreshNavigation === 'function') {
-                        window.PageManager.refreshNavigation();
-                    }
-                    if (cards.length > 0) return;
-                    console.log('[Restore] Workspace object had no cards; checking localStorage');
-                } else {
-                    console.log('[Restore] Server returned empty workspace; checking localStorage');
-                }
-            } catch (e) {
-                console.warn('[Restore] Server load failed, falling back to localStorage', e);
-            }
-            const stored = window.ChartUtils.safeGetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, []);
-            if (Array.isArray(stored) && stored.length) {
-                console.log('[Restore] Loaded workspace from localStorage fallback');
-                stored.forEach(c => restoreCard(c));
-                // Refresh navigation filtering after cards are loaded
-                if (window.PageManager && typeof window.PageManager.refreshNavigation === 'function') {
-                    window.PageManager.refreshNavigation();
-                }
-                // Push local state to server to sync
-                if (window.StateManager && typeof window.StateManager.saveCards === 'function') {
-                    window.StateManager.saveCards(stored);
-                }
-            } else {
-                console.log('[Restore] No stored workspace found; creating default card');
-                createChartCard('SPY');
-            }
-        })();
-    });
-
+    // Export createChartCard globally
+    // Note: Sandbox-specific initialization (autocomplete, workspace restore) is in sandbox-init.js
     window.createChartCard = createChartCard;
 })();
