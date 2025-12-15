@@ -84,36 +84,42 @@ Custom HTML ticker labels that display ticker symbols on the right side of the c
 
 ### Integration Points
 
-#### Card.js Integration
+#### Module Integration
 
-**State Management**
-- `lastTickerVisible` - Boolean state for ticker label visibility
-- `tickerLabelsContainer` - Container element reference
-- `tickerLabelHandler` - Subscription handler for range changes
+**State Management** (`chart-card-context.js`)
+- `ctx.lastTickerVisible` - Boolean state for ticker label visibility
+- `ctx.runtime.tickerLabelsContainer` - Container element reference
+- `ctx.runtime.tickerLabelHandler` - Subscription handler for range changes
 
-**Lifecycle Events**
+**Lifecycle Events** (`chart-card-plot.js`)
 
-1. **Chart Creation** (line 619)
+1. **Chart Creation** (`chart-card-plot.js:419`)
    ```javascript
-   tickerLabelsContainer = window.ChartTickerLabels.createLabelsContainer(chartBox);
+   rt.tickerLabelsContainer = window.ChartTickerLabels.createLabelsContainer(chartBox);
    ```
 
-2. **Initial Plot** (lines 1221-1232)
+2. **Initial Plot** (`chart-card-plot.js:642-648`)
    - Updates labels after series are created
    - Only updates if in raw mode or rebased data exists
 
-3. **Range Change Subscription** (lines 1234-1255)
+3. **Range Change Subscription** (`chart-card-plot.js:659-663`)
    - Unsubscribes from previous handler to prevent memory leaks
    - In **raw mode**: Updates immediately (50ms delay)
    - In **percentage mode**: Skips update (rebasing callback handles it)
 
-4. **Rebasing Complete** (lines 1303-1312)
+4. **Rebasing Complete** (`chart-card-plot.js:717-720`)
    - Updates labels after dynamic rebasing completes (500ms delay)
    - Called via `onRebaseComplete` callback
 
-5. **Toggle Button** (lines 1790-1805)
-   - Shows/hides all labels
-   - Persists state to workspace
+**Toggle Button** (`chart-card-toggles.js:151-152, 205-208`)
+   - Shows/hides all labels via `setLabelsVisibility()`
+   - Updates labels after mode switch via `updateAllLabels()`
+
+**Chip Remove** (`chart-card-tickers.js:165-166`)
+   - Removes label when ticker chip is deleted
+
+**Font Size Wiring** (`card.js:421-422`)
+   - Updates label font size via slider
 
 #### Timing Strategy
 

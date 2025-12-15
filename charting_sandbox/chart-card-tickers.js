@@ -170,11 +170,9 @@ window.ChartCardTickers = (() => {
                 if (chipEl && chipEl.parentElement) chipEl.parentElement.removeChild(chipEl);
 
                 // Update nav label if title empty
-                const navLink = ctx.card?._navLink;
                 const { titleInput } = ctx.elements;
-                if (navLink && titleInput && !titleInput.value) {
-                    navLink.textContent = selectedTickers.size ? Array.from(selectedTickers)[0] : ctx.cardId;
-                }
+                const title = titleInput ? titleInput.value : '';
+                window.ChartCardNav.updateNavLabel(ctx.card?._navLink, title, selectedTickers, ctx.cardId);
 
                 ctx.saveCards();
             } catch (e) {
