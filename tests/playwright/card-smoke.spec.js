@@ -703,4 +703,50 @@ test.describe('Chart card smoke', () => {
 
     expect(consoleErrors).toEqual([]);
   });
+
+  test('nav label updates when removing ticker from untitled card', async ({ page }) => {
+    if (!serverInfo) throw new Error('Static server not started');
+
+    const consoleErrors = [];
+    // Card with multiple tickers but no title - nav label should show first ticker
+    const workspace = {
+      cards: [
+        { id: 'chart-nav-test', page: 1, tickers: ['SPY', 'QQQ'], title: '' },
+      ],
+    };
+
+    await setupPage(page, { workspace, consoleErrors });
+    await page.goto(`${serverInfo.baseURL}/index.html`, { waitUntil: 'domcontentloaded' });
+
+    await page.waitForSelector('.chart-card');
+    await page.waitForFunction(() => {
+      const card = document.querySelector('.chart-card');
+      return card && card._ctx && card._ctx.runtime && card._ctx.runtime.priceSeriesMap.size > 0;
+    });
+
+    // Nav label should show first ticker (SPY) since title is empty
+    const navLabelBefore = await page.evaluate(() => {
+      const card = document.querySelector('.chart-card');
+      return card._navLink ? card._navLink.textContent : null;
+    });
+    expect(navLabelBefore).toBe('SPY');
+
+    // Click the close button on the first chip (SPY)
+    await page.click('.chart-card .chip .close');
+
+    // Wait for chip to be removed
+    await page.waitForFunction(() => {
+      const chips = document.querySelectorAll('.chart-card .chip');
+      return chips.length === 1;
+    });
+
+    // Nav label should now show QQQ
+    const navLabelAfter = await page.evaluate(() => {
+      const card = document.querySelector('.chart-card');
+      return card._navLink ? card._navLink.textContent : null;
+    });
+    expect(navLabelAfter).toBe('QQQ');
+
+    expect(consoleErrors).toEqual([]);
+  });
 });
