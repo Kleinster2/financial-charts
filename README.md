@@ -1,5 +1,7 @@
 # Market Data Workbench
 
+[![Playwright Smoke](https://github.com/Kleinster2/financial-charts/actions/workflows/playwright-smoke.yml/badge.svg)](https://github.com/Kleinster2/financial-charts/actions/workflows/playwright-smoke.yml)
+
 Interactive financial charting application for visualizing stock prices, fundamentals, and technical indicators across 1,300+ time series.
 
 ## Quick Stats
