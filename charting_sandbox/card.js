@@ -166,64 +166,10 @@
         }
     }
     window.saveCards = saveCards;
-    // Global tag management
-    window._allTags = new Set();
 
-    function getAllTags() {
-        const tags = new Set();
-        document.querySelectorAll('.chart-card').forEach(card => {
-            (card._tags || []).forEach(tag => tags.add(tag));
-        });
-        window._allTags = tags;
-        return Array.from(tags).sort();
-    }
-
-    function updateTagFilterDropdown() {
-        const select = document.getElementById('tag-filter-select');
-        if (!select) return;
-        const currentValue = select.value;
-        const tags = getAllTags();
-        select.innerHTML = '<option value="">All</option>' +
-            tags.map(t => `<option value="${t}"${t === currentValue ? ' selected' : ''}>${t}</option>`).join('');
-    }
-
-    function applyTagFilter() {
-        const select = document.getElementById('tag-filter-select');
-        if (!select) return;
-        const filterTag = select.value;
-        const highlightsMode = window.highlightsMode || false;
-
-        document.querySelectorAll('.chart-card').forEach(card => {
-            const page = card.closest('.page');
-            const isActivePage = page && page.classList.contains('active');
-            const hasTag = !filterTag || (card._tags || []).includes(filterTag);
-            const isStarred = !highlightsMode || card._starred;
-
-            if (isActivePage && hasTag && isStarred) {
-                card.style.display = '';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    }
-
-    // Initialize tag filter
-    document.addEventListener('DOMContentLoaded', () => {
-        const select = document.getElementById('tag-filter-select');
-        if (select) {
-            select.addEventListener('change', applyTagFilter);
-        }
-        // Update tag filter after cards are loaded (delayed to ensure cards exist)
-        setTimeout(() => {
-            if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
-        }, 1000);
-    });
-
-    window.updateTagFilterDropdown = updateTagFilterDropdown;
-    window.applyTagFilter = applyTagFilter;
-    window.getAllTags = getAllTags;
-
-
+    // Tag filtering is now centralized in pages.js
+    // The following globals are provided by pages.js:
+    //   window.getAllTags, window.updateTagFilterDropdown, window.applyFilters, window.applyTagFilter
 
     /**
      * Create a chart card with the given options
@@ -805,6 +751,7 @@
                         renderTags();
                         saveCards();
                         if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
+                        if (window.applyFilters) window.applyFilters();
                     });
                 });
             }
@@ -861,6 +808,7 @@
                         renderTags();
                         saveCards();
                         if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
+                        if (window.applyFilters) window.applyFilters();
                     } else {
                         inputContainer.remove();
                         if (addBtn) addBtn.style.display = '';

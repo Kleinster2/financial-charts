@@ -14,8 +14,32 @@
   let currentActivePage = 1; // Track active page directly
   let isInitializing = true; // Prevent saves during initial load
   let highlightsMode = false;
-    window.highlightsMode = false; // Show only starred charts
+  window.highlightsMode = false; // Show only starred charts
 
+  // ─── Tag filtering (centralized here to combine with highlights) ─────────
+  function getAllTags() {
+    const tags = new Set();
+    document.querySelectorAll('.chart-card').forEach(card => {
+      (card._tags || []).forEach(tag => tags.add(tag));
+    });
+    return Array.from(tags).sort();
+  }
+
+  function updateTagFilterDropdown() {
+    const select = document.getElementById('tag-filter-select');
+    if (!select) return;
+    const currentValue = select.value;
+    const tags = getAllTags();
+    select.innerHTML = '<option value="">All</option>' +
+      tags.map(t => `<option value="${t}"${t === currentValue ? ' selected' : ''}>${t}</option>`).join('');
+  }
+
+  function getTagFilter() {
+    const select = document.getElementById('tag-filter-select');
+    return select ? select.value : '';
+  }
+
+  // ─── Combined filter logic ───────────────────────────────────────────────
   // Toggle highlights mode - show only starred charts across ALL pages
   function toggleHighlightsMode() {
     highlightsMode = !highlightsMode;
@@ -40,73 +64,100 @@
       }
     }
 
-    applyHighlightsFilter();
+    applyFilters();
 
     // Save highlights mode state
     savePages();
   }
 
-  // Apply highlights filter - show starred charts from ALL pages, hide others
-  function applyHighlightsFilter() {
+  // Apply combined filters - highlights mode + tag filter
+  // This is the single source of truth for card/page visibility
+  function applyFilters() {
     const allPages = pagesContainer.querySelectorAll('.page');
+    const tagFilter = getTagFilter();
+
+    // Helper to check if card passes tag filter
+    const passesTagFilter = (card) => {
+      if (!tagFilter) return true;
+      return (card._tags || []).includes(tagFilter);
+    };
+
+    // Helper to auto-plot unrendered cards
+    const autoPlotIfNeeded = (card) => {
+      const chartBox = card.querySelector('.chart-box');
+      const hasCanvas = chartBox && chartBox.querySelector('canvas');
+      const hasTickers = card._selectedTickers && card._selectedTickers.size > 0;
+      if (hasTickers && chartBox && !hasCanvas) {
+        const plotBtn = card.querySelector('.plot-btn');
+        if (plotBtn) {
+          setTimeout(() => plotBtn.click(), 100);
+        }
+      }
+    };
 
     if (highlightsMode) {
-      // HIGHLIGHTS MODE: Show all pages, but only starred charts
-      let starredCount = 0;
+      // HIGHLIGHTS MODE: Show all pages, filter cards by (starred AND tag)
+      let visibleCount = 0;
 
       allPages.forEach(page => {
-        // Show the page container
         page.style.display = 'block';
 
-        // Filter cards within this page
         const cards = page.querySelectorAll('.chart-card');
         cards.forEach(card => {
-          if (card._starred) {
-            card.style.display = '';
-            starredCount++;
+          const isStarred = card._starred;
+          const passesTag = passesTagFilter(card);
 
-            // Auto-plot if not yet rendered
-            const chartBox = card.querySelector('.chart-box');
-            const hasCanvas = chartBox && chartBox.querySelector('canvas');
-            const hasTickers = card._selectedTickers && card._selectedTickers.size > 0;
-            if (hasTickers && chartBox && !hasCanvas) {
-              const plotBtn = card.querySelector('.plot-btn');
-              if (plotBtn) {
-                setTimeout(() => plotBtn.click(), 100);
-              }
-            }
+          if (isStarred && passesTag) {
+            card.style.display = '';
+            visibleCount++;
+            autoPlotIfNeeded(card);
           } else {
             card.style.display = 'none';
           }
         });
       });
 
-      console.log(`[Highlights] Showing ${starredCount} starred charts across all pages`);
-
-      // Update chart navigation to show all starred charts
+      console.log(`[Filters] Highlights mode: showing ${visibleCount} charts (starred${tagFilter ? ` + tag:${tagFilter}` : ''})`);
       updateHighlightsNavigation();
 
     } else {
-      // NORMAL MODE: Show only active page with all its cards
+      // NORMAL MODE: Show only active page, filter cards by tag
+      let visibleCount = 0;
+
       allPages.forEach(page => {
         const pageNum = parseInt(page.dataset.page, 10);
+
         if (pageNum === currentActivePage) {
           page.style.display = 'block';
-          // Show all cards on active page
+
           page.querySelectorAll('.chart-card').forEach(card => {
-            card.style.display = '';
+            if (passesTagFilter(card)) {
+              card.style.display = '';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
           });
         } else {
           page.style.display = 'none';
         }
       });
 
-      // Restore normal navigation
+      if (tagFilter) {
+        console.log(`[Filters] Normal mode: showing ${visibleCount} charts with tag:${tagFilter} on page ${currentActivePage}`);
+      }
+
+      // Update navigation for current page
       const pageEl = pagesContainer.querySelector(`[data-page="${currentActivePage}"]`);
       if (pageEl) {
         updateNavigationHighlighting(pageEl);
       }
     }
+  }
+
+  // Legacy alias for backward compatibility
+  function applyHighlightsFilter() {
+    applyFilters();
   }
 
   // Update navigation to show all starred charts across pages
@@ -131,7 +182,11 @@
   }
 
   window.toggleHighlightsMode = toggleHighlightsMode;
-  window.applyHighlightsFilter = applyHighlightsFilter;
+  window.applyHighlightsFilter = applyHighlightsFilter; // Legacy alias
+  window.applyFilters = applyFilters;
+  window.getAllTags = getAllTags;
+  window.updateTagFilterDropdown = updateTagFilterDropdown;
+  window.applyTagFilter = applyFilters; // Legacy alias for card.js compatibility
 
   // Preload saved names before creating initial tab so Page 1 label is correct
   try {
@@ -484,6 +539,17 @@
         toggleHighlightsMode();
       }, 500);
     }
+
+    // Bind tag filter dropdown (centralized here instead of card.js)
+    const tagSelect = document.getElementById('tag-filter-select');
+    if (tagSelect) {
+      tagSelect.addEventListener('change', applyFilters);
+    }
+
+    // Update tag filter dropdown after cards are loaded
+    setTimeout(() => {
+      updateTagFilterDropdown();
+    }, 1000);
   }
 
   initialize();
