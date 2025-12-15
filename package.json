@@ -5,6 +5,7 @@
     "@playwright/test": "^1.51.0"
   },
   "scripts": {
+    "test:unit": "node --test tests/unit/*.test.js",
     "test:smoke": "playwright test --project=chromium",
     "test:smoke:ui": "playwright test --project=chromium --ui"
   }
