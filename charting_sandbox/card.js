@@ -411,12 +411,6 @@
             saveCards();
         }
 
-        // Initialize notes UI
-        if (notesSection && notesTextarea) {
-            notesSection.style.display = initialShowNotes ? 'block' : 'none';
-            notesTextarea.value = initialNotes;
-        }
-
         // Helper to get current button states for updateButtonStates()
         function getButtonStates() {
             return {
@@ -705,149 +699,10 @@
             window.ChartCardPlot.updateZeroLine(ctx);
         }
 
-        // Star button click handler
-        if (starBtn) {
-            // Set initial star state
-            starBtn.textContent = ctx.starred ? '★' : '☆';
-            starBtn.style.color = ctx.starred ? '#f5a623' : '#666';
-
-            starBtn.addEventListener('click', () => {
-                ctx.starred = !ctx.starred;
-                window.ChartCardContext.syncToCard(ctx);
-                starBtn.textContent = ctx.starred ? '★' : '☆';
-                starBtn.style.color = ctx.starred ? '#f5a623' : '#666';
-                saveCards();
-            });
-        }
-
-        // Tag management
-        const { tagContainer } = elements;
-        if (tagContainer) {
-            if (!ctx.tags) ctx.tags = [];
-
-            function renderTags() {
-                tagContainer.innerHTML = '';
-                ctx.tags.forEach(tag => {
-                    const tagEl = document.createElement('span');
-                    tagEl.className = 'tag';
-                    tagEl.innerHTML = `${tag}<span class="tag-remove" data-tag="${tag}">&times;</span>`;
-                    tagContainer.appendChild(tagEl);
-                });
-
-                // Add "+" button
-                const addBtn = document.createElement('button');
-                addBtn.className = 'tag-add-btn';
-                addBtn.textContent = '+';
-                addBtn.title = 'Add tag';
-                addBtn.addEventListener('click', showTagInput);
-                tagContainer.appendChild(addBtn);
-
-                // Remove tag handler
-                tagContainer.querySelectorAll('.tag-remove').forEach(btn => {
-                    btn.addEventListener('click', (e) => {
-                        const tagToRemove = e.target.dataset.tag;
-                        ctx.tags = ctx.tags.filter(t => t !== tagToRemove);
-                        window.ChartCardContext.syncToCard(ctx);
-                        renderTags();
-                        saveCards();
-                        if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
-                        if (window.applyFilters) window.applyFilters();
-                    });
-                });
-            }
-
-            function showTagInput() {
-                const inputContainer = document.createElement('div');
-                inputContainer.className = 'tag-input-container';
-
-                const input = document.createElement('input');
-                input.type = 'text';
-                input.className = 'tag-input';
-                input.placeholder = 'Tag...';
-
-                const suggestions = document.createElement('div');
-                suggestions.className = 'tag-suggestions';
-
-                inputContainer.appendChild(input);
-                inputContainer.appendChild(suggestions);
-
-                // Replace add button with input
-                const addBtn = tagContainer.querySelector('.tag-add-btn');
-                if (addBtn) addBtn.style.display = 'none';
-                tagContainer.appendChild(inputContainer);
-                input.focus();
-
-                function updateSuggestions() {
-                    const val = input.value.toLowerCase().trim();
-                    const allTags = window.getAllTags ? window.getAllTags() : [];
-                    const matches = allTags.filter(t =>
-                        t.toLowerCase().includes(val) && !ctx.tags.includes(t)
-                    );
-
-                    if (matches.length > 0 && val) {
-                        suggestions.innerHTML = matches.map(t =>
-                            `<div class="tag-suggestion" data-tag="${t}">${t}</div>`
-                        ).join('');
-                        suggestions.classList.add('show');
-
-                        suggestions.querySelectorAll('.tag-suggestion').forEach(el => {
-                            el.addEventListener('click', () => {
-                                addTag(el.dataset.tag);
-                            });
-                        });
-                    } else {
-                        suggestions.classList.remove('show');
-                    }
-                }
-
-                function addTag(tag) {
-                    tag = tag.trim();
-                    if (tag && !ctx.tags.includes(tag)) {
-                        ctx.tags.push(tag);
-                        window.ChartCardContext.syncToCard(ctx);
-                        renderTags();
-                        saveCards();
-                        if (window.updateTagFilterDropdown) window.updateTagFilterDropdown();
-                        if (window.applyFilters) window.applyFilters();
-                    } else {
-                        inputContainer.remove();
-                        if (addBtn) addBtn.style.display = '';
-                    }
-                }
-
-                input.addEventListener('input', updateSuggestions);
-
-                input.addEventListener('keydown', (e) => {
-                    if (e.key === 'Enter') {
-                        addTag(input.value);
-                    } else if (e.key === 'Escape') {
-                        inputContainer.remove();
-                        if (addBtn) addBtn.style.display = '';
-                    }
-                });
-
-                input.addEventListener('blur', () => {
-                    setTimeout(() => {
-                        if (document.activeElement !== input) {
-                            inputContainer.remove();
-                            if (addBtn) addBtn.style.display = '';
-                        }
-                    }, 200);
-                });
-            }
-
-            renderTags();
-        }
-
-        // Notes section handlers
-        if (notesTextarea) {
-            // Auto-save notes on input
-            notesTextarea.addEventListener('input', () => {
-                ctx.notes = notesTextarea.value;
-                window.ChartCardContext.syncToCard(ctx);
-                saveCards();
-            });
-        }
+        // ═══════════════════════════════════════════════════════════════
+        // META UI (star, tags, notes) - delegated to ChartCardMeta module
+        // ═══════════════════════════════════════════════════════════════
+        window.ChartCardMeta.initAll(ctx);
 
         // Function to update fixed legend with latest values (delegated to module)
         function updateFixedLegend() {
@@ -855,176 +710,9 @@
         }
 
         // ═══════════════════════════════════════════════════════════════
-        // PHASE A EVENT HANDLERS - Named functions for bindAllWithCleanup
+        // RANGE HANDLERS (delegated to ChartCardRange module)
         // ═══════════════════════════════════════════════════════════════
-
-        // Fit button handler: fit chart to full data range and persist
-        function handleFit() {
-            if (!rt.chart) return;
-            const dataRange = getCurrentDataRange();
-            if (dataRange) {
-                try {
-                    rt.chart.timeScale().setVisibleRange(dataRange);
-                    ctx.visibleRange = dataRange;
-                    window.ChartCardContext.syncToCard(ctx);
-                    saveCards();
-                } catch (e) {
-                    rt.chart.timeScale().fitContent();
-                }
-            } else {
-                rt.chart.timeScale().fitContent();
-            }
-        }
-
-        // Interval select handler
-        function handleIntervalChange() {
-            const val = intervalSelect.value;
-            ctx.manualInterval = val === 'auto' ? null : val;
-            window.ChartCardContext.syncToCard(ctx);
-            console.log(`Interval changed to: ${val}`);
-            debouncedSaveCards();
-            // Replot to fetch data with new interval
-            if (selectedTickers.size > 0) {
-                plot();
-            }
-        }
-
-        // Range select handler
-        function handleRangeChange() {
-            const val = rangeSelect.value;
-            if (!val) return;
-
-            // Temporarily unsubscribe from range changes to prevent interference
-            if (rt.rangeSaveHandler && rt.chart && rt.chart.timeScale) {
-                try {
-                    rt.chart.timeScale().unsubscribeVisibleTimeRangeChange(rt.rangeSaveHandler);
-                    console.log('[RangeSelect] Unsubscribed from range changes');
-                } catch (_) { }
-            }
-
-            // Special case: if selecting 1995 (or any year before 2000), find earliest data across all series
-            if (val === '1995' || (val !== 'ytd' && parseInt(val, 10) < 2000)) {
-                // Find earliest timestamp across all series (price + fundamentals)
-                let earliestTime = null;
-
-                // Check price series
-                priceSeriesMap.forEach((series, ticker) => {
-                    try {
-                        const data = rawPriceMap.get(ticker);
-                        if (data && data.length > 0 && data[0].time) {
-                            const firstTime = data[0].time;
-                            if (!earliestTime || firstTime < earliestTime) {
-                                earliestTime = firstTime;
-                            }
-                        }
-                    } catch (e) { /* ignore */ }
-                });
-
-                // Check fundamental series
-                fundamentalSeriesMap.forEach((series, seriesKey) => {
-                    try {
-                        // Get data from the series - LightweightCharts doesn't expose data directly,
-                        // so we need to track it separately or use a different approach
-                        // For now, if we have fundamentals pane, assume it goes back to ~1996
-                        if (ctx.showFundamentalsPane && !earliestTime) {
-                            // Use 1996 as earliest for fundamentals (AAPL data goes back to 1996-04-01)
-                            earliestTime = Date.UTC(1996, 0, 1) / 1000;
-                        }
-                    } catch (e) { /* ignore */ }
-                });
-
-                // If we have fundamental data showing, use 1996 as earliest
-                if (ctx.showFundamentalsPane && fundamentalSeriesMap.size > 0) {
-                    earliestTime = Date.UTC(1996, 0, 1) / 1000;
-                }
-
-                // Default to price data earliest if no fundamentals
-                if (!earliestTime) {
-                    rt.chart.timeScale().fitContent();
-                    const timeScale = rt.chart.timeScale();
-                    const visibleRange = timeScale.getVisibleRange();
-                    if (visibleRange) {
-                        ctx.visibleRange = { from: visibleRange.from, to: visibleRange.to };
-                        window.ChartCardContext.syncToCard(ctx);
-                    }
-                    saveCards();
-
-                    // Resubscribe to range changes
-                    if (rt.rangeSaveHandler) {
-                        try {
-                            rt.chart.timeScale().subscribeVisibleTimeRangeChange(rt.rangeSaveHandler);
-                        } catch (_) { }
-                    }
-                    return;
-                }
-
-                // Set flag to skip range restoration in pane operations
-                ctx.skipRangeRestoration = true;
-
-                // For fundamentals, we know the earliest data is 2005-06-30
-                // Set explicit range to show all fundamental data
-                const fundamentalsEarliest = Date.UTC(2005, 5, 30) / 1000;  // June 30, 2005
-                const from = fundamentalsEarliest;
-                const to = Math.floor(Date.now() / 1000);
-
-                console.log(`[RangeSelect] Setting explicit range from ${new Date(from * 1000).toISOString()} to ${new Date(to * 1000).toISOString()}`);
-
-                // Update ctx state
-                ctx.visibleRange = { from, to };
-                window.ChartCardContext.syncToCard(ctx);
-
-                // Set the range
-                rt.chart.timeScale().setVisibleRange({ from, to });
-
-                // Verify what range was actually set
-                setTimeout(() => {
-                    const actualRange = rt.chart.timeScale().getVisibleRange();
-                    if (actualRange) {
-                        console.log(`[RangeSelect] Actual visible range after setting: from ${new Date(actualRange.from * 1000).toISOString()} to ${new Date(actualRange.to * 1000).toISOString()}`);
-                        // Update with actual range if different
-                        ctx.visibleRange = { from: actualRange.from, to: actualRange.to };
-                        window.ChartCardContext.syncToCard(ctx);
-                        saveCards();
-                    }
-                }, 100);
-
-                // Resubscribe to range changes AFTER a delay
-                setTimeout(() => {
-                    if (rt.rangeSaveHandler) {
-                        try {
-                            rt.chart.timeScale().subscribeVisibleTimeRangeChange(rt.rangeSaveHandler);
-                            console.log('[RangeSelect] Resubscribed to range changes');
-                        } catch (_) { }
-                    }
-                }, 500);
-                return;
-            }
-
-            let startYear;
-            if (val === 'ytd') {
-                startYear = new Date().getUTCFullYear();
-            } else {
-                startYear = parseInt(val, 10);
-            }
-            const from = Date.UTC(startYear, 0, 1) / 1000;
-            const to = Math.floor(Date.now() / 1000);
-
-            // Update ctx state FIRST
-            ctx.visibleRange = { from, to };
-            window.ChartCardContext.syncToCard(ctx);
-
-            // Then set the visual range
-            rt.chart.timeScale().setVisibleRange({ from, to });
-
-            saveCards();
-
-            // Resubscribe to range changes
-            if (rt.rangeSaveHandler) {
-                try {
-                    rt.chart.timeScale().subscribeVisibleTimeRangeChange(rt.rangeSaveHandler);
-                } catch (_) { }
-            }
-        }
+        const rangeHandlers = window.ChartCardRange.createRangeHandlers(ctx, { plot });
 
         // Title input handler
         function handleTitleChange() {
@@ -1098,9 +786,9 @@
             ticker: {
                 onAddTicker: addTicker,
                 onPlot: plot,
-                onFit: handleFit,
-                onRangeChange: handleRangeChange,
-                onIntervalChange: handleIntervalChange
+                onFit: rangeHandlers.handleFit,
+                onRangeChange: rangeHandlers.handleRangeChange,
+                onIntervalChange: rangeHandlers.handleIntervalChange
             },
             card: {
                 onTitleChange: handleTitleChange,
