@@ -130,20 +130,17 @@ python update_fred_indicators.py --lookback 90
 
 ## Daily Update Workflow
 
-### Recommended Sequence:
+### Recommended: Single Unified Command
 
 ```bash
-# Step 1: Update stocks, ETFs, indices via Yahoo Finance
-python update_market_data_fixed.py --batch-size 20
+# Update everything including FRED indicators
+python update_market_data.py --assets all --lookback 10
 
-# Step 2: Update FRED-only indices (^RVX, etc.)
-python update_indices_from_fred.py --lookback 30
-
-# Step 3: Update FRED economic indicators
-python update_fred_indicators.py --lookback 60
+# Or check data freshness first
+python update_market_data.py --status
 ```
 
-**Total time:** ~3-6 minutes for all 1,290+ series
+**Total time:** ~5 minutes for all 1,290+ series
 
 ## Available Tier 2 Indicators
 

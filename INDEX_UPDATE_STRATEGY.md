@@ -15,7 +15,7 @@ Your database has **49 index tickers** (^ prefix) tracking market volatility, in
 - **Single-stock volatility indices** (^VXAPL, ^VXAZN, ^VXGOG, ^VXGS, ^VXIBM)
 - Treasury yields (^IRX, ^FVX, ^TNX, ^TYX)
 
-**Script:** `update_market_data_fixed.py --assets etfs`
+**Script:** `python update_market_data.py --assets etfs --lookback 10`
 
 ### Secondary Source: FRED (5 of 49 indices)
 
@@ -26,35 +26,28 @@ Your database has **49 index tickers** (^ prefix) tracking market volatility, in
 4. **^VXV** - 3-Month VIX (discontinued July 2020)
 5. **^EVZ** - Euro Currency Volatility (last updated March 2025)
 
-**Script:** `update_indices_from_fred.py`
+**Script:** `python update_market_data.py --assets fredindices --lookback 30`
 
 ## Daily Update Workflow
 
-### Recommended Sequence:
+### Recommended: Single Unified Command
 
 ```bash
-# Step 1: Update all tickers via Yahoo Finance (includes 44 of 49 indices)
-python update_market_data_fixed.py --batch-size 20 --verbose
+# Update everything: stocks, ETFs, futures, FRED indices, FRED indicators (~5 min)
+python update_market_data.py --assets all --lookback 10
 
-# Step 2: Update the 5 FRED-only indices (especially ^RVX which is active)
-python update_indices_from_fred.py --lookback 30
-
-# Step 3: Update FRED economic indicators (yields, Fed policy, inflation, credit spreads)
-python update_fred_indicators.py --lookback 60
+# Or check data freshness first
+python update_market_data.py --status
 ```
 
-**Total time:** ~3-6 minutes for complete update (1,290+ series)
+**Total time:** ~5 minutes for complete update (1,290+ series)
 
 ### Alternative: ETFs Only
 
 If you only want to update indices and ETFs (not stocks):
 
 ```bash
-# Step 1: Update ETFs and most indices
-python update_market_data_fixed.py --assets etfs --batch-size 20
-
-# Step 2: Update FRED indices
-python update_indices_from_fred.py --lookback 30
+python update_market_data.py --assets etfs fredindices --lookback 10
 ```
 
 ## Why This Hybrid Approach?
@@ -93,21 +86,19 @@ python update_indices_from_fred.py --lookback 30
 
 ## Scripts Reference
 
-### 1. `update_market_data_fixed.py`
-**Primary daily update script**
-- Uses Yahoo Finance API
-- Updates stocks, ETFs, futures, FX, crypto
-- Includes 44 of 49 indices
-- Fast and reliable
+### 1. `update_market_data.py` (Unified Script)
+**Single command for all data updates**
+- Supports 19 asset types: stocks, etfs, futures, fredindices, fred, fredbonds, fundamentals, etc.
+- `--status` flag for data freshness dashboard
+- `--lookback N` for incremental updates (recommended: 10 days)
+- Interactive mode when run without arguments
 
-### 2. `update_indices_from_fred.py`
-**Supplemental index updater**
-- Uses FRED (St. Louis Federal Reserve)
-- Updates 5 indices blocked by Yahoo
-- Run after main update
-- Only downloads recent data (default: last 30 days)
+```bash
+python update_market_data.py --assets all --lookback 10  # Daily update
+python update_market_data.py --status                     # Check freshness
+```
 
-### 3. `scripts/one_off/restore_international_indices.py`
+### 2. `scripts/one_off/restore_international_indices.py`
 **One-time restoration script**
 - Restored 21 international indices with 25-year history
 - Already run - don't need to run again

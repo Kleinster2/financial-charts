@@ -247,7 +247,7 @@ ORDER BY weight DESC;
 
 ### "No price for ticker on date"
 ```bash
-python update_market_data_fixed.py --batch-size 20
+python update_market_data.py --assets all --lookback 10
 ```
 
 ### "Cannot sell X shares, only Y available"

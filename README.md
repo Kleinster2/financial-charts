@@ -46,7 +46,7 @@ financial-charts/
 ├── market_data.db              # SQLite database (generated)
 ├── constants.py                # Shared configuration constants
 ├── metadata_utils.py           # Automatic metadata management
-├── update_market_data_fixed.py # Main data update script
+├── update_market_data.py       # Main data update script (unified)
 ├── download_all_assets.py      # Ticker lists and download logic
 ├── download_single_ticker.py   # Single ticker updates
 │
@@ -78,9 +78,8 @@ financial-charts/
          │ yfinance              │ fredapi
          v                       v
 ┌─────────────────────────────────────────┐
-│  update_market_data_fixed.py            │
-│  update_indices_from_fred.py            │
-│  update_fred_indicators.py              │
+│  update_market_data.py                  │
+│  (unified: stocks, futures, FRED, etc.) │
 └─────────────────┬───────────────────────┘
                   │ writes
                   v
@@ -134,30 +133,18 @@ pip install -r requirements-optional.txt
 ### Update Data (Unified Command)
 
 ```powershell
-# Full update: prices + FRED + fundamentals (~15 min)
-python update_all.py
+# Interactive mode (menu-driven)
+python update_market_data.py
 
-# Quick update: prices + FRED only (~3 min)
-python update_all.py --quick
+# Daily update: all assets, last 10 days (~5 min)
+python update_market_data.py --assets all --lookback 10
 
 # Check data freshness
-python update_all.py --status
-```
+python update_market_data.py --status
 
-### Manual Steps (if needed)
-
-```powershell
-# Step 1: Yahoo Finance (stocks, ETFs, futures) ~2 min
-python update_market_data_fixed.py --batch-size 20
-
-# Step 2: FRED indices (^RVX, ^VXV, etc.) ~5 sec
-python update_indices_from_fred.py --lookback 30
-
-# Step 3: FRED macro indicators (31 indicators) ~10 sec
-python update_fred_indicators.py --lookback 60
-
-# Step 4: Alpha Vantage fundamentals (priority tickers) ~12 min
-python fetch_fundamentals.py --refresh --priority
+# Specific asset types only
+python update_market_data.py --assets futures fredindices --lookback 10
+python update_market_data.py --assets fundamentals
 ```
 
 ### Launch Application
@@ -515,27 +502,26 @@ conn.close()
 The update requires 3 separate commands run in sequence:
 
 ```powershell
-python update_market_data_fixed.py --batch-size 20  # ~2 min
-python update_indices_from_fred.py --lookback 30    # ~5 sec
-python update_fred_indicators.py --lookback 60      # ~10 sec
+python update_market_data.py --assets all --lookback 10
 ```
 
 ### What's Working Well
 
 | Aspect | Implementation |
 |--------|----------------|
+| **Unified script** | Single command for all 19 asset types |
 | **Error handling** | Batch downloads with fallback to individual ticker retry |
 | **Data safety** | Atomic updates using staging table + rename |
 | **Logging** | Progress tracking with failure summaries |
 | **Parallelization** | Threaded downloads via yfinance |
 | **Metadata** | Automatic company name fetching |
+| **Diagnostics** | `--status` for freshness, `--smoke-check` for API verification |
 
 ### Known Issues
 
-1. **Three manual steps** - Easy to forget one
-2. **~47 expected failures** - Delisted tickers that always fail (noise)
-3. **Inefficient DB updates** - Full table read/write for incremental changes
-4. **No verification** - No check that SPY/QQQ/AAPL have today's data
+1. **~47 expected failures** - Delisted tickers that always fail (noise)
+2. **Inefficient DB updates** - Full table read/write for incremental changes
+3. **No verification** - No check that SPY/QQQ/AAPL have today's data
 
 ### Delisted Tickers to Exclude
 
@@ -608,7 +594,6 @@ When modifying JS files, increment version in `index.html`:
 ### High Priority
 - **Error boundaries in UI** - Show retry button when chart fails
 - **Health dashboard** - Show data freshness per category
-- **Single update command** - Combine 3 steps into `update_all.py`
 
 ### Medium Priority
 - **Batch API requests** - Single endpoint for multiple charts
