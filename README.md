@@ -641,14 +641,11 @@ npm run test:smoke
 ```
 
 **Test coverage (5 tests):**
-- Initial chart rendering on page load
-- Fit button (auto-scales to data range)
-- Range dropdown (preset date ranges)
-- Pane toggles (Vol σ, Volume, Revenue, Fundamentals)
+- Initial plot, Fit, range dropdown, and pane toggles
 - Workspace restore with saved card state
 - Page switching hides/shows correct pages
 - Tag filtering in normal and highlights mode
-- Nav label updates when removing ticker from untitled card
+- Nav label updates when removing ticker from an untitled card
 
 **Test architecture:**
 - Tests run against isolated static server (no Flask backend needed)
@@ -699,7 +696,7 @@ Tests run automatically on GitHub Actions for all PRs and pushes to `main`. See 
 - `chart-card-plot.js` (~860 lines) — Plot orchestration: `plot(ctx)`, `destroyChart(ctx)`, `destroyChartAndReplot(ctx)`, `applyResize(ctx)`, `updateZeroLine(ctx)`, `updateFixedLegend(ctx)`.
 - `chart-card-toggles.js` (~380 lines) — Pane toggle handlers: `createToggleHandlers(ctx, callbacks)`, `createToggleMetric(ctx)`, `initMetricButtons(ctx)`.
 - `chart-card-range.js` — Fit/range/interval handlers: `createRangeHandlers(ctx, callbacks)`.
-- `chart-card-meta.js` — Star/tags/notes UI: `createMetaHandlers(ctx, callbacks)`.
+- `chart-card-meta.js` — Star/tags/notes UI: `initAll(ctx)`.
 - `chart-card-tickers.js` — Ticker chips + axis/context menu: `initGlobalChipContextMenu()`, `createHandlers(ctx, callbacks)`.
 - `chart-card-registry.js` — Card type registry + restoreCard dispatch.
 - `sandbox-init.js` — index.html bootstrap (workspace restore on DOMContentLoaded).
@@ -743,10 +740,15 @@ Persisted state stays on `ctx` directly (e.g., `ctx.showVolPane`, `ctx.visibleRa
 - Event binding consolidation + teardown symmetry.
 - Pane extraction into helpers + shared pane bootstrap.
 - Abortable fetches (AbortController) to prevent stale async updates.
-- Card type routing via `CARD_TYPE_REGISTRY`.
+- Card type routing via `ChartCardRegistry`.
 - `createChartCard` API normalization (string/array/options supported; positional args deprecated).
 - Plot orchestration extracted to `chart-card-plot.js`.
 - Toggle handlers extracted to `chart-card-toggles.js`.
+- Range/interval handlers extracted to `chart-card-range.js`.
+- Star/tags/notes UI extracted to `chart-card-meta.js`.
+- Ticker/chip management extracted to `chart-card-tickers.js`.
+- Registry + bootstrap extracted (`chart-card-registry.js`, `sandbox-init.js`).
+- Regression coverage added (unit + Playwright smoke tests).
 
 **Optional next steps:**
 - Serialize directly from `ctx` (reduce reliance on `card._*` as the persistence source of truth).
