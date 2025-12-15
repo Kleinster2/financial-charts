@@ -172,55 +172,8 @@
         const card = window.ChartDomBuilder.createChartCard(cardId, initialTitle, initialHeight);
         wrapper.appendChild(card);
         // --- navigation link ---
-        const nav = document.getElementById('chart-nav');
-        let navLabel = initialTitle || '';
-        if (!navLabel) {
-            const firstTicker = initialTickers && typeof initialTickers === 'string'
-                ? initialTickers.split(/[,\s]+/).filter(Boolean)[0]
-                : '';
-            navLabel = firstTicker || `Card ${globalCardCounter}`;
-        }
-        let navLink = null;
-        if (nav) {
-            navLink = document.createElement('a');
-            navLink.href = `#${cardId}`;
-            navLink.textContent = navLabel;
-            navLink.dataset.page = targetPage;
-
-            // Add click handler to switch pages and scroll to chart
-            navLink.addEventListener('click', (e) => {
-                e.preventDefault();
-
-                // Find which page contains this card
-                const targetCard = document.getElementById(cardId);
-                if (!targetCard) {
-                    console.warn(`[Navigation] Card ${cardId} not found`);
-                    return;
-                }
-
-                // Find the page that contains this card
-                const pageEl = targetCard.closest('.page');
-                if (!pageEl) {
-                    console.warn(`[Navigation] No page found for card ${cardId}`);
-                    return;
-                }
-
-                const pageNum = pageEl.dataset.page;
-                console.log(`[Navigation] Switching to page ${pageNum} for card ${cardId}`);
-
-                // Switch to the correct page
-                if (window.PageManager && window.PageManager.showPage) {
-                    window.PageManager.showPage(parseInt(pageNum, 10));
-                }
-
-                // Scroll to the chart after a brief delay to ensure page switch completes
-                setTimeout(() => {
-                    targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }, 100);
-            });
-
-            nav.appendChild(navLink);
-        }
+        // Create nav link via ChartCardNav module
+        const navLink = window.ChartCardNav.createNavLink(cardId, initialTitle, initialTickers, targetPage);
         card._navLink = navLink;
 
         // Get DOM elements
@@ -538,9 +491,7 @@
         function handleTitleChange() {
             ctx.title = titleInput.value;
             window.ChartCardContext.syncToCard(ctx);
-            if (navLink) {
-                navLink.textContent = titleInput.value || (selectedTickers.size ? Array.from(selectedTickers)[0] : cardId);
-            }
+            window.ChartCardNav.updateNavLabel(navLink, titleInput.value, selectedTickers, cardId);
             saveCards();
         }
 
@@ -580,9 +531,7 @@
                 }
 
                 // Remove nav link
-                if (navLink && navLink.parentElement) {
-                    navLink.parentElement.removeChild(navLink);
-                }
+                window.ChartCardNav.removeNavLink(navLink);
 
                 // Destroy chart (unsubscribes all handlers, removes chart, clears series)
                 destroyChart();

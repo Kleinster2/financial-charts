@@ -8,6 +8,7 @@ Instead of a full class-based rewrite, we took an incremental approach:
 - Extracted range/interval handlers to `chart-card-range.js`
 - Extracted star/tags/notes UI to `chart-card-meta.js`
 - Extracted ticker chips + context menu to `chart-card-tickers.js`
+- Extracted nav link handling to `chart-card-nav.js`
 - Extracted card type registry to `chart-card-registry.js`
 - Extracted workspace restore to `sandbox-init.js`
 - Added `ctx.runtime` to `ChartCardContext` for shared mutable state
@@ -16,13 +17,14 @@ Instead of a full class-based rewrite, we took an incremental approach:
 
 | File | Lines | Purpose |
 |------|-------|---------|
-| `card.js` | ~660 | Orchestrator (down from ~2,400) |
+| `card.js` | ~610 | Orchestrator (down from ~2,400) |
 | `chart-card-plot.js` | ~860 | Plot logic, chart lifecycle |
 | `chart-card-toggles.js` | ~380 | Toggle button handlers |
 | `chart-card-context.js` | ~450 | Context + runtime state |
 | `chart-card-range.js` | ~230 | Fit/range/interval handlers |
 | `chart-card-meta.js` | ~200 | Star/tags/notes UI |
 | `chart-card-tickers.js` | ~280 | Ticker chips + axis/context menu |
+| `chart-card-nav.js` | ~100 | Nav link create/update/remove |
 | `chart-card-registry.js` | ~125 | Card type registry + restoreCard |
 | `sandbox-init.js` | ~180 | Sandbox bootstrap on load |
 
@@ -135,6 +137,12 @@ ctx.runtime = {
 - `initGlobalChipContextMenu()` - idempotent global context menu setup
 - `createHandlers(ctx, callbacks)` - returns `{ addTickerFromInput, handleChipRemove, bindChipInteractions, ... }`
 
+### chart-card-nav.js (ChartCardNav)
+- `createNavLink(cardId, title, tickers, page)` - create nav link with click handler
+- `updateNavLabel(navLink, title, tickers, cardId)` - update label text
+- `removeNavLink(navLink)` - remove from DOM
+- `computeLabel(title, tickers, cardId)` - shared label logic
+
 ### chart-card-registry.js (ChartCardRegistry)
 - `register(type, handler)` - register card type handler
 - `hasType(type)` - check if type registered
@@ -157,6 +165,7 @@ ctx.runtime = {
 <script src="chart-card-range.js"></script>
 <script src="chart-card-meta.js"></script>
 <script src="chart-card-tickers.js"></script>
+<script src="chart-card-nav.js"></script>
 <!-- ... other modules ... -->
 <script src="chart-card-registry.js"></script>
 <script src="card.js"></script>
@@ -169,5 +178,5 @@ ctx.runtime = {
 
 1. ~~**Extract event handlers** - Move `handleFit`, `handleRangeChange`, etc. to a dedicated module~~ ✓ Done (`chart-card-range.js`)
 2. ~~**Extract chip management** - `handleChipRemove`, `addTicker` could be `chart-card-tickers.js`~~ ✓ Done (`chart-card-tickers.js`)
-3. **Dashboard consolidation** - Create `DashboardBase` for shared table/sort/filter logic across `chart-dashboard.js`, `chart-macro-dashboard.js`, `chart-thesis-performance.js`
-4. **Extract nav link handling** - Centralize `updateNavLabel(ctx)` to replace duplicate callsites in `card.js` and `chart-card-tickers.js`
+3. ~~**Extract nav link handling** - Centralize `updateNavLabel(ctx)` to replace duplicate callsites in `card.js` and `chart-card-tickers.js`~~ ✓ Done (`chart-card-nav.js`)
+4. **Dashboard consolidation** - Create `DashboardBase` for shared table/sort/filter logic across `chart-dashboard.js`, `chart-macro-dashboard.js`, `chart-thesis-performance.js`

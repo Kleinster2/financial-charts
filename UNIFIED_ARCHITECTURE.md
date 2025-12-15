@@ -33,9 +33,9 @@
 async getData(tickers, days = 5475, interval = 'daily', options = {}) {
     // ALL tickers go to the same endpoint (/api/data).
     // Returns uniform format: {ticker: [{time, value}, ...]}
-    // (days is currently a frontend hint; interval is passed through)
+    // (days param unused; fromDate/toDate passed as null to getPriceData)
     const { signal } = options;
-    return await this.getPriceData(tickers, days, interval, { signal });
+    return await this.getPriceData(tickers, null, null, interval, { signal });
 }
 ```
 
