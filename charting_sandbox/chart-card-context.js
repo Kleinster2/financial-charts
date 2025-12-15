@@ -138,10 +138,76 @@ window.ChartCardContext = {
             saveCards,
             debouncedSaveCards: (window.ChartUtils?.debounce)
                 ? window.ChartUtils.debounce(saveCards, 300)
-                : saveCards
+                : saveCards,
+
+            // ═══════════════════════════════════════════════════════════════
+            // RUNTIME STATE (not persisted, used by plot/toggle modules)
+            // Initialized via initRuntime() after card creation
+            // ═══════════════════════════════════════════════════════════════
+            runtime: null
         };
 
         return ctx;
+    },
+
+    /**
+     * Initialize runtime state on context (chart instances, series maps, handlers)
+     * Call this after card creation but before first plot()
+     * @param {Object} ctx - The context object
+     */
+    initRuntime(ctx) {
+        ctx.runtime = {
+            // Chart instances
+            chart: null,
+            volPane: null,
+            volumePane: null,
+            revenuePane: null,
+            fundamentalsPane: null,
+            diffChart: null,
+
+            // Series references
+            avgSeries: null,
+            zeroLineSeries: null,
+            tickerLabelsContainer: null,
+            fixedLegendEl: null,
+
+            // Series maps (ticker -> series)
+            priceSeriesMap: new Map(),
+            volSeriesMap: new Map(),
+            volumeSeriesMap: new Map(),
+            revenueSeriesMap: new Map(),
+            fundamentalSeriesMap: new Map(),
+
+            // Data maps
+            rawPriceMap: new Map(),
+            latestRebasedData: {},
+
+            // Event handlers (for cleanup)
+            crosshairHandler: null,
+            debouncedRebase: null,
+            rangeSaveHandler: null,
+            tickerLabelHandler: null,
+            fixedLegendCrosshairHandler: null,
+
+            // Abort controller for cancelling in-flight fetches
+            plotAbortController: null,
+
+            // Flags
+            skipRangeApplication: false
+        };
+        return ctx.runtime;
+    },
+
+    /**
+     * Get runtime state, initializing if needed
+     * @param {Object} ctx - The context object
+     * @returns {Object} Runtime state object
+     */
+    getRuntime(ctx) {
+        if (!ctx.runtime) {
+            this.initRuntime(ctx);
+        }
+        return ctx.runtime;
     },
 
     /**

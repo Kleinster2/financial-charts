@@ -1,170 +1,136 @@
 # Card.js Refactoring Status
 
-## Project Goal
-Convert the 2,534-line closure-based `createChartCard()` function into a clean, maintainable `ChartCard` class.
+## Completed: Incremental Module Extraction (Dec 2024)
 
-## What We Accomplished
+Instead of a full class-based rewrite, we took an incremental approach:
+- Extracted `plot()` and related functions to `chart-card-plot.js`
+- Extracted toggle handlers to `chart-card-toggles.js`
+- Added `ctx.runtime` to `ChartCardContext` for shared mutable state
 
-### ✅ Analysis Phase (Complete)
-- **Deep architectural analysis** of closure structure
-- **Identified all 30+ state variables** to convert to `this.*`
-- **Mapped all 17 nested functions** to class methods
-- **Identified circular dependencies** and scope issues
-- **Validated** that class-based approach avoids "parameter hell"
+### Results
 
-### ✅ Planning Phase (Complete)
-- **Detailed refactoring plan** with 3-phase approach
-- **Risk assessment** and mitigation strategies
-- **Method organization strategy** (6 logical sections, ~60 methods)
-- **Backward compatibility plan** (factory function pattern)
+| File | Lines | Purpose |
+|------|-------|---------|
+| `card.js` | ~1,180 | Orchestrator (down from ~2,400) |
+| `chart-card-plot.js` | ~760 | Plot logic, chart lifecycle |
+| `chart-card-toggles.js` | ~330 | Toggle button handlers |
+| `chart-card-context.js` | ~400 | Context + runtime state |
 
-### ✅ Tooling Phase (Complete)
-- **Created class skeleton** (556 lines) with proper structure
-- **Built automated extraction script** (`refactor_card.py`)
-- **Extracted methods** with 80% accuracy (`extracted_methods.txt`)
-- **Identified conversion issues** (function signatures, object literals, scope)
+---
 
-## Current Status: Minimal Working Version Ready
+## ctx.runtime Contract
 
-### What's Implemented
-The skeleton (`card-refactored-temp.js`) includes:
-- ✓ Complete class structure with proper sections
-- ✓ Constructor with all state initialization
-- ✓ `normalizeOptions()` - backward compatibility
-- ✓ `initialize()` - proper initialization flow
-- ✓ `getState()` - state serialization
-- ✓ `saveState()` - debounced persistence
-- ✓ Factory function for backward compat
+**IMPORTANT**: All chart instance state lives in `ctx.runtime`, not as closure variables.
 
-### What Needs Implementation
-Core methods marked as TODO:
-- `plot()` - main plotting logic (~800 lines)
-- `setupEventHandlers()` - wire all buttons (~400 lines)
-- `renderTickerChips()` - ticker chip UI
-- `addTicker()` / `removeTicker()` - ticker management
-- UI control methods (height, font, volume pane)
-- Advanced features (export, panes, zero line, etc.)
+### What belongs in ctx.runtime
 
-## Files Created
-
-| File | Purpose | Lines | Status |
-|------|---------|-------|--------|
-| `card-backup-refactor.js` | Original backup | 2,534 | ✓ Safe |
-| `card-refactored-temp.js` | Class skeleton | 556 | ✓ Ready |
-| `refactor_card.py` | Extraction script | ~200 | ✓ Works |
-| `extracted_methods.txt` | Converted methods | ~50KB | ⚠️ Needs fixes |
-| `conversion_report.txt` | Analysis report | - | ✓ Complete |
-
-## Next Steps
-
-### Option 1: Complete the Minimal Version (Recommended)
-**Time: 2-3 hours**
-
-1. Fill in the TODO methods in `card-refactored-temp.js`:
-   - Copy core logic from `extracted_methods.txt`
-   - Fix syntax issues (object literals, function refs)
-   - Test each method as added
-
-2. Test basic functionality:
-   - Create card
-   - Add/remove tickers
-   - Plot data
-   - Save/restore workspace
-
-3. Deploy:
-   ```bash
-   cp card.js card-original-backup.js
-   cp card-refactored-temp.js card.js
-   # Test in browser
-   ```
-
-### Option 2: Incremental Migration (Lower Risk)
-**Time: Ongoing over multiple sessions**
-
-1. Keep original `card.js` as-is
-2. Add new class alongside: `window.ChartCard = ChartCard;`
-3. Gradually convert one method at a time
-4. Test after each conversion
-5. Switch factory function when complete
-
-### Option 3: Automated Refinement
-**Time: 1-2 hours + testing**
-
-1. Improve `refactor_card.py` to fix:
-   - Function signature parsing
-   - Object literal syntax
-   - Scope resolution for callbacks
-
-2. Re-run extraction
-3. Manual review and fixes
-4. Testing
-
-## Benefits Already Achieved
-
-Even with the skeleton:
-- **Clear structure**: 6 logical sections with ~60 methods
-- **Navigable code**: IDE can jump to methods
-- **Testable**: Can instantiate `new ChartCard()` in tests
-- **Encapsulated state**: All `this.*` instead of closure vars
-- **Foundation for extension**: Easy to add new methods
-
-## Architecture Improvements
-
-### Before (Closure Anti-pattern)
 ```javascript
-function createChartCard() {
-  let chart = null;
-  let selectedTickers = new Set();
-  // ... 28 more variables
+ctx.runtime = {
+    // Chart instances (LightweightCharts objects)
+    chart: null,
+    volPane: null,
+    volumePane: null,
+    revenuePane: null,
+    fundamentalsPane: null,
 
-  function plot() { /* 840 lines */ }
-  function handleExport() { /* ... */ }
-  // ... 15 more nested functions
+    // Series references
+    avgSeries: null,
+    zeroLineSeries: null,
+    tickerLabelsContainer: null,
+    fixedLegendEl: null,
 
-  // 2,250 lines of tangle
-}
+    // Series maps (ticker -> series)
+    priceSeriesMap: new Map(),
+    volSeriesMap: new Map(),
+    volumeSeriesMap: new Map(),
+    revenueSeriesMap: new Map(),
+    fundamentalSeriesMap: new Map(),
+
+    // Data maps
+    rawPriceMap: new Map(),
+    latestRebasedData: {},
+
+    // Event handlers (for cleanup)
+    crosshairHandler: null,
+    debouncedRebase: null,
+    rangeSaveHandler: null,
+    tickerLabelHandler: null,
+    fixedLegendCrosshairHandler: null,
+
+    // Abort controller for cancelling in-flight fetches
+    plotAbortController: null,
+
+    // Flags
+    skipRangeApplication: false
+};
 ```
 
-### After (Clean Class)
-```javascript
-class ChartCard {
-  constructor() {
-    this.chart = null;
-    this.selectedTickers = new Set();
-    // Clear property initialization
-  }
+### Rules
 
-  async plot() { /* Organized method */ }
-  handleExport() { /* Clear responsibility */ }
-  // 60 well-organized methods
-}
+1. **Never add new closure `let` variables** for chart/series/handler state in `card.js`
+2. **Always use `rt.xxx`** (where `const rt = ctx.runtime`) for mutable runtime state
+3. **Persisted state stays on `ctx`** (e.g., `ctx.showVolPane`, `ctx.visibleRange`)
+4. **Runtime state stays on `ctx.runtime`** (chart instances, series maps, handlers)
+
+### Why this matters
+
+- Extracted modules (`chart-card-plot.js`, `chart-card-toggles.js`) receive `ctx` and access `ctx.runtime`
+- No "parameter hell" - just pass `ctx`
+- Single source of truth for chart state
+- Easier to debug (inspect `card._ctx.runtime` in console)
+
+---
+
+## Module Responsibilities
+
+### card.js
+- Card DOM creation via `ChartDomBuilder`
+- Context initialization via `ChartCardContext`
+- Event binding via `ChartEventHandlers`
+- Delegates plot/toggle logic to extracted modules
+
+### chart-card-plot.js (ChartCardPlot)
+- `plot(ctx, options)` - main plot function
+- `destroyChart(ctx)` - cleanup chart instance
+- `destroyChartAndReplot(ctx, plotFn)` - save range, destroy, replot
+- `applyResize(ctx, baseH)` - resize chart box
+- `updateZeroLine(ctx)` - zero line visibility
+- `updateFixedLegend(ctx)` - fixed legend content
+- `getCurrentDataRange(ctx)` - compute data time range
+- `ensureNames(tickers, chipNodes)` - company name cache
+- `nameCache` - shared name cache
+
+### chart-card-toggles.js (ChartCardToggles)
+- `createToggleHandlers(ctx, callbacks)` - returns toggle handler dictionary
+- `createToggleMetric(ctx, plot)` - metric toggle helper
+- `initMetricButtons(ctx)` - initialize metric button visibility
+- `updateMetricButtonStates(ctx)` - update metric button styles
+
+### chart-card-context.js (ChartCardContext)
+- `create(card, elements, options)` - create context with persisted state
+- `initRuntime(ctx)` - initialize `ctx.runtime` with mutable state
+- `getRuntime(ctx)` - get or init runtime
+- `syncToCard(ctx)` - sync context to card element properties
+- `getButtonStates(ctx)` - get button states for UI
+- `serialize(ctx)` - serialize for persistence
+- `applyToCtx(ctx, cardData)` - hydrate from saved data
+
+---
+
+## Script Load Order (index.html)
+
+```html
+<script src="chart-card-context.js"></script>
+<script src="chart-card-plot.js"></script>
+<script src="chart-card-toggles.js"></script>
+<!-- ... other modules ... -->
+<script src="card.js"></script>  <!-- Must be last -->
 ```
 
-## Recommendation
+---
 
-**Start with Option 1** (complete the minimal version):
-1. The hard analysis work is done
-2. The structure is proven sound
-3. Just need to fill in the methods
-4. Can test incrementally
-5. Gets you immediate benefits
+## Future Improvements (Optional)
 
-The refactoring script has done the heavy lifting. Now it's methodical implementation work - copy, fix, test, repeat.
-
-## Files to Review
-
-1. **`card-refactored-temp.js`** - Your starting point (has structure)
-2. **`extracted_methods.txt`** - Source for method implementations (needs fixes)
-3. **`card-backup-refactor.js`** - Reference for complex logic
-
-## Success Criteria
-
-Minimal version works when:
-- ✓ Page loads without errors
-- ✓ Can create a card
-- ✓ Can add/remove tickers
-- ✓ Chart displays data
-- ✓ Height/font sliders work
-- ✓ Workspace saves/restores
-
-Advanced features (volume panes, export, etc.) can be added incrementally after core works.
+1. **Extract event handlers** - Move `handleFit`, `handleRangeChange`, etc. to a dedicated module
+2. **Extract chip management** - `handleChipRemove`, `addTicker` could be `chart-card-tickers.js`
+3. **Dashboard consolidation** - Create `DashboardBase` for shared table/sort/filter logic across `chart-dashboard.js`, `chart-macro-dashboard.js`, `chart-thesis-performance.js`
