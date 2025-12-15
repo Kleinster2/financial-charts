@@ -15,6 +15,8 @@ import sys
 import time
 from datetime import datetime
 
+import subprocess
+
 from constants import DB_PATH
 from download_all_assets import update_sp500_data
 from download_futures import update_futures_data
@@ -23,6 +25,7 @@ from fetch_b3_yield_curve import fetch_historical_curves, update_database as upd
 from update_fx_ny_close import get_fx_tickers_from_db, download_fx_at_ny_close, update_database as update_fx_database
 from fetch_bcb_rates import fetch_all_bcb_rates, update_database as update_bcb_database
 from update_fred_indicators import update_fred_indicators
+from update_indices_from_fred import update_indices_from_fred
 
 
 def update_fred_bonds(verbose: bool = True):
@@ -244,6 +247,48 @@ def update_fred_data(verbose: bool = True):
         print("=" * 70)
 
 
+def update_fred_indices_data(verbose: bool = True, lookback_days: int = 30):
+    """Update FRED volatility indices (RVX, VXV, VXO, EVZ)."""
+    if verbose:
+        print("\n" + "=" * 70)
+        print("Updating FRED Volatility Indices")
+        print("=" * 70)
+
+    update_indices_from_fred(lookback_days=lookback_days)
+
+    if verbose:
+        print("=" * 70)
+
+
+def update_fundamentals_data(verbose: bool = True):
+    """Update Alpha Vantage fundamentals (priority tickers)."""
+    if verbose:
+        print("\n" + "=" * 70)
+        print("Updating Alpha Vantage Fundamentals")
+        print("=" * 70)
+
+    try:
+        result = subprocess.run(
+            [sys.executable, "fetch_fundamentals.py", "--refresh", "--priority", "--force"],
+            timeout=900,  # 15 min timeout for rate-limited API
+            capture_output=not verbose
+        )
+        if result.returncode != 0 and verbose:
+            print("  Fundamentals update failed")
+    except subprocess.TimeoutExpired:
+        if verbose:
+            print("  Fundamentals update timed out (15 min limit)")
+    except FileNotFoundError:
+        if verbose:
+            print("  fetch_fundamentals.py not found")
+    except Exception as e:
+        if verbose:
+            print(f"  Fundamentals update error: {e}")
+
+    if verbose:
+        print("=" * 70)
+
+
 def show_interactive_menu():
     """Show interactive menu and return (mode, lookback_days, assets) or None to cancel."""
     print("\n" + "=" * 70)
@@ -295,7 +340,7 @@ def show_interactive_menu():
     print("    6. Custom selection")
     print("    7. Cancel")
 
-    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds"]
+    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
 
     while True:
         choice = input("\nEnter choice [1-7] (default: 1): ").strip()
@@ -366,7 +411,7 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
     start = time.time()
     try:
         # Run equities/FX/crypto updater if requested
-        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds")
+        special_assets = ("futures", "iv", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals")
         non_special_assets = [a for a in assets_to_run if a not in special_assets]
         if non_special_assets:
             if verbose:
@@ -421,6 +466,18 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
                 print("\n[Orchestrator] Updating EODHD corporate bonds")
             update_eodhd_bonds(verbose=verbose)
 
+        # Run FRED volatility indices updater if requested (RVX, VXV, etc.)
+        if "fredindices" in assets_to_run:
+            if verbose:
+                print("\n[Orchestrator] Updating FRED volatility indices")
+            update_fred_indices_data(verbose=verbose, lookback_days=lookback_days or 30)
+
+        # Run Alpha Vantage fundamentals updater if requested (rate-limited)
+        if "fundamentals" in assets_to_run:
+            if verbose:
+                print("\n[Orchestrator] Updating Alpha Vantage fundamentals")
+            update_fundamentals_data(verbose=verbose)
+
         elapsed = time.time() - start
         print(f"\nUpdate completed in {elapsed/60:.1f} min")
     except KeyboardInterrupt:
@@ -429,6 +486,18 @@ def run_update(assets_to_run: list, lookback_days: int = None, verbose: bool = T
     except Exception as e:
         print(f"\nError during update: {e}")
         raise
+
+
+def run_status_report():
+    """Run the data freshness status report."""
+    result = subprocess.run([sys.executable, "scripts/diagnostics/status_report.py"])
+    return result.returncode
+
+
+def run_smoke_check():
+    """Run the API smoke check (requires Flask server running)."""
+    result = subprocess.run([sys.executable, "scripts/diagnostics/smoke_check.py"], timeout=30)
+    return result.returncode
 
 
 def main():
@@ -457,27 +526,54 @@ def main():
         help="Incremental update: only download last N days (recommended: 10)"
     )
     parser.add_argument(
+        "--status", action="store_true",
+        help="Show data freshness status only (no update)"
+    )
+    parser.add_argument(
+        "--smoke-check", action="store_true",
+        help="Run API smoke check after update (requires Flask server running)"
+    )
+    parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds"],
+        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"],
         default=["all"],
         help=(
-            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, b3, fxclose, bcb, fred, fredbonds, eodhdbonds. "
+            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, fundamentals. "
             "Default: all"
         ),
     )
     args = parser.parse_args()
+
+    # Handle --status mode (no update, just report)
+    if args.status:
+        sys.exit(run_status_report())
 
     verbose = args.verbose or (not args.quiet)
 
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds"]
+        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
     else:
         assets_to_run = chosen
 
     run_update(assets_to_run, lookback_days=args.lookback, verbose=verbose)
+
+    # Run smoke check if requested
+    if args.smoke_check:
+        print("\n" + "=" * 70)
+        print("Running API Smoke Check")
+        print("=" * 70)
+        try:
+            returncode = run_smoke_check()
+            if returncode != 0:
+                print("Smoke check failed!")
+                sys.exit(1)
+        except subprocess.TimeoutExpired:
+            print("Smoke check timed out (is the Flask server running?)")
+        except FileNotFoundError:
+            print("smoke_check.py not found")
 
 
 if __name__ == "__main__":
