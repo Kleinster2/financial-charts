@@ -1,0 +1,11 @@
+{
+  "name": "financial-charts",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.51.0"
+  },
+  "scripts": {
+    "test:smoke": "playwright test --project=chromium",
+    "test:smoke:ui": "playwright test --project=chromium --ui"
+  }
+}

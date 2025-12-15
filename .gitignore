@@ -123,3 +123,8 @@ dendrograms/
 charting_sandbox/create_china_page.js
 backups/*.csv
 market_data.duckdb
+
+# Node / Playwright
+node_modules/
+test-results/
+playwright-report/
