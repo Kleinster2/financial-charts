@@ -30,24 +30,21 @@
 
 **data-fetcher.js:**
 ```javascript
-async getData(tickers) {
-    // ALL tickers go to same endpoint
-    const data = await this.getPriceData(tickers);
-
-    // Returns uniform format
-    return data;  // {ticker: [{time, value}]}
+async getData(tickers, days = 5475, interval = 'daily', options = {}) {
+    // ALL tickers go to the same endpoint (/api/data).
+    // Returns uniform format: {ticker: [{time, value}, ...]}
+    // (days is currently a frontend hint; interval is passed through)
+    const { signal } = options;
+    return await this.getPriceData(tickers, days, interval, { signal });
 }
 ```
 
-**card.js:**
+**chart-card-plot.js (ChartCardPlot):**
 ```javascript
-// Simple! Just get data for all tickers
-const data = await DataFetcher.getData(tickerList);
+const data = await DataFetcher.getData(tickerList, 5475, interval, { signal });
 
-// Chart them all the same way
-for (const ticker of tickerList) {
-    lineSeries.setData(data[ticker]);
-}
+// Series setup is uniform (no per-ticker routing)
+ChartSeriesManager.setupPriceSeries(chart, tickerList, data, /* ... */);
 ```
 
 ## Available Tickers
@@ -126,11 +123,11 @@ For stocks without dedicated CBOE indices, use sector/market proxies:
 
 ## Key Files
 
-- **`charting_sandbox/data-fetcher.js`**: `getData()` method (lines 84-111) - unified fetching
-- **`charting_sandbox/card.js`**: Uses getData() uniformly (line 786)
-- **`charting_app/app.py`**: `/api/data` endpoint (line 479) - queries stock_prices_daily
+- **`charting_sandbox/data-fetcher.js`**: `DataFetcher.getData()` - unified fetching
+- **`charting_sandbox/chart-card-plot.js`**: `ChartCardPlot.plot()` calls `DataFetcher.getData()` for all tickers
+- **`charting_app/app.py`**: `/api/data` endpoint - queries `stock_prices_daily`
 - **`charting_app/workspace.json`**: Clean ticker-only configuration
-- **`cboe_iv_fetcher.py`**: Updates stock_prices_daily columns (line 353)
+- **`cboe_iv_fetcher.py`**: Updates `stock_prices_daily` IV columns
 
 ## Database Schema
 
