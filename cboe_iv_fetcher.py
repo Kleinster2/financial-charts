@@ -11,6 +11,8 @@ import logging
 import yfinance as yf
 import pandas as pd
 import numpy as np
+import requests
+from io import StringIO
 from constants import DB_PATH
 
 # Configure logging
@@ -190,6 +192,86 @@ class CBOEImpliedVolatilityFetcher:
 
         return results
 
+    def fetch_cboe_csv_history(self, lookback_days: int = 30) -> Dict[str, pd.DataFrame]:
+        """
+        Fetch historical data from CBOE CSV files for stock VIX indices.
+        Yahoo Finance only provides 1-5 days for these, but CBOE has full history.
+
+        Returns dict mapping symbol to DataFrame with Date index and OHLC columns.
+        """
+        # CBOE CSV URLs for stock VIX indices
+        cboe_csv_urls = {
+            '^VXAPL': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXAPL_History.csv',
+            '^VXAZN': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXAZN_History.csv',
+            '^VXGOG': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXGOG_History.csv',
+            '^VXIBM': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXIBM_History.csv',
+            '^VXGS': 'https://cdn.cboe.com/api/global/us_indices/daily_prices/VXGS_History.csv',
+        }
+
+        results = {}
+        cutoff_date = (datetime.now() - timedelta(days=lookback_days)).strftime('%Y-%m-%d')
+
+        for symbol, url in cboe_csv_urls.items():
+            try:
+                logger.info(f"Fetching {symbol} from CBOE...")
+                r = requests.get(url, timeout=30)
+
+                if r.status_code != 200:
+                    logger.warning(f"Failed to fetch {symbol}: HTTP {r.status_code}")
+                    continue
+
+                df = pd.read_csv(StringIO(r.text))
+
+                # Parse dates (MM/DD/YYYY format)
+                df['DATE'] = pd.to_datetime(df['DATE'], format='%m/%d/%Y')
+                df = df.set_index('DATE')
+                df.index = df.index.strftime('%Y-%m-%d')
+
+                # Filter to lookback period
+                df = df[df.index >= cutoff_date]
+
+                results[symbol] = df
+                logger.info(f"✓ {symbol}: {len(df)} days from CBOE CSV")
+
+            except Exception as e:
+                logger.error(f"Error fetching {symbol} from CBOE: {e}")
+
+        return results
+
+    def update_stock_vix_from_cboe(self, lookback_days: int = 30) -> int:
+        """
+        Update stock VIX indices in stock_prices_daily from CBOE CSV files.
+        Returns number of tickers updated.
+        """
+        csv_data = self.fetch_cboe_csv_history(lookback_days)
+
+        if not csv_data:
+            logger.warning("No CBOE CSV data fetched")
+            return 0
+
+        conn = sqlite3.connect(self.db_path)
+        prices_df = pd.read_sql('SELECT * FROM stock_prices_daily', conn, index_col='Date')
+        prices_df.index = pd.to_datetime(prices_df.index).strftime('%Y-%m-%d')
+
+        updated = 0
+        for symbol, df in csv_data.items():
+            if symbol not in prices_df.columns:
+                prices_df[symbol] = np.nan
+
+            # Use CLOSE column
+            series = df['CLOSE']
+            matching = prices_df.index.intersection(series.index)
+            prices_df.loc[matching, symbol] = series.loc[matching].values
+
+            non_null = prices_df[symbol].notna().sum()
+            logger.info(f"Updated {symbol}: {len(matching)} new values, {non_null} total")
+            updated += 1
+
+        prices_df.to_sql('stock_prices_daily', conn, if_exists='replace', index=True, index_label='Date')
+        conn.close()
+
+        return updated
+
     def init_database(self):
         """Initialize database tables for implied volatility data"""
         conn = sqlite3.connect(self.db_path)
@@ -331,9 +413,10 @@ class CBOEImpliedVolatilityFetcher:
 
         return results
 
-    def fetch_and_store_cboe_indices(self) -> Dict[str, Dict]:
+    def fetch_and_store_cboe_indices(self, lookback_days: int = 30) -> Dict[str, Dict]:
         """
         Fetch CBOE volatility indices and store in database.
+        Uses CBOE CSV files for stock VIX indices (better historical data).
         Returns dict mapping symbol to index data.
         """
         # Mapping from CBOE index symbols to stock tickers
@@ -345,6 +428,10 @@ class CBOEImpliedVolatilityFetcher:
             '^VXIBM': 'IBM'
         }
 
+        # First, update stock VIX indices from CBOE CSV (full history)
+        self.update_stock_vix_from_cboe(lookback_days)
+
+        # Then fetch current values via yfinance for the main indices
         indices_data = self.get_cboe_indices()
 
         for symbol, data in indices_data.items():
