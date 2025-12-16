@@ -247,6 +247,8 @@ window.ChartMacroDashboard = {
      * Render the data table
      */
     renderTable(card) {
+        const endTiming = window.ChartUtils?.perf?.start('macroDashboardRender');
+
         const thead = card.querySelector('.dashboard-table thead');
         const tbody = card.querySelector('.dashboard-table tbody');
 
@@ -294,6 +296,8 @@ window.ChartMacroDashboard = {
         } else {
             this.renderFlatBody(tbody, filteredData);
         }
+
+        if (endTiming) endTiming();
     },
 
     /**
