@@ -211,7 +211,7 @@ CRYPTO_TICKERS = [
 
 # High-profile non-S&P 500 U.S. stocks to track
 OTHER_HIGH_PROFILE_STOCKS = [
-    "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SPOT","SQ","UBER","ZM",
+    "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SPOT","XYZ","UBER","ZM",  # XYZ = Block (formerly SQ)
     "BYND","CELH","CPNG","DASH","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
     # Data Centers
     "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
