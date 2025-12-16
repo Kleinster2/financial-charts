@@ -17,6 +17,8 @@ window.ChartDashboard = {
     totalCount: 0,
     isLoading: false,
     hasMore: false,
+    // Keyboard navigation state
+    focusedRowIndex: -1,
 
     /**
      * Create a dashboard card
@@ -126,6 +128,9 @@ window.ChartDashboard = {
         // Infinite scroll - auto-load when near bottom
         const tableContainer = card.querySelector('.dashboard-table-container');
         this._setupInfiniteScroll(card, tableContainer);
+
+        // Keyboard navigation
+        this._setupKeyboardNavigation(card, tableContainer);
 
         // Columns dropdown
         const columnsBtn = card.querySelector('.dashboard-columns-btn');
@@ -273,6 +278,135 @@ window.ChartDashboard = {
 
         // Store reference for potential cleanup
         container._infiniteScrollCheck = checkScroll;
+    },
+
+    /**
+     * Setup keyboard navigation for dashboard rows
+     * @param {HTMLElement} card - Dashboard card element
+     * @param {HTMLElement} container - Table container element
+     */
+    _setupKeyboardNavigation(card, container) {
+        if (!container) return;
+
+        const tbody = card.querySelector('.dashboard-table tbody');
+
+        // Make container focusable
+        container.setAttribute('tabindex', '0');
+
+        container.addEventListener('keydown', (e) => {
+            // Only handle if we have data rows
+            const rows = tbody.querySelectorAll('tr:not(.virtual-spacer-top):not(.virtual-spacer-bottom):not(.dashboard-group-header):not(.dashboard-loading)');
+            if (rows.length === 0) return;
+
+            switch (e.key) {
+                case 'ArrowDown':
+                    e.preventDefault();
+                    this._moveFocus(card, container, 1, rows);
+                    break;
+                case 'ArrowUp':
+                    e.preventDefault();
+                    this._moveFocus(card, container, -1, rows);
+                    break;
+                case 'Enter':
+                    e.preventDefault();
+                    this._selectFocusedRow(card, rows);
+                    break;
+                case 'Home':
+                    e.preventDefault();
+                    this._setFocusedRow(card, container, 0, rows);
+                    break;
+                case 'End':
+                    e.preventDefault();
+                    this._setFocusedRow(card, container, rows.length - 1, rows);
+                    break;
+                case 'Escape':
+                    this._clearFocus(card);
+                    break;
+            }
+        });
+
+        // Focus first row when clicking into table (if no row focused)
+        container.addEventListener('focus', () => {
+            if (this.focusedRowIndex === -1) {
+                const rows = tbody.querySelectorAll('tr:not(.virtual-spacer-top):not(.virtual-spacer-bottom):not(.dashboard-group-header):not(.dashboard-loading)');
+                if (rows.length > 0) {
+                    this._setFocusedRow(card, container, 0, rows);
+                }
+            }
+        });
+
+        // Clear focus when clicking outside
+        container.addEventListener('blur', () => {
+            // Delay to allow click events to fire first
+            setTimeout(() => {
+                if (!container.contains(document.activeElement)) {
+                    this._clearFocus(card);
+                }
+            }, 100);
+        });
+    },
+
+    /**
+     * Move focus by delta rows
+     */
+    _moveFocus(card, container, delta, rows) {
+        let newIndex = this.focusedRowIndex + delta;
+
+        // Wrap around or clamp
+        if (newIndex < 0) newIndex = 0;
+        if (newIndex >= rows.length) newIndex = rows.length - 1;
+
+        this._setFocusedRow(card, container, newIndex, rows);
+    },
+
+    /**
+     * Set focused row by index
+     */
+    _setFocusedRow(card, container, index, rows) {
+        // Clear previous focus
+        const prevFocused = card.querySelector('.dashboard-row-focused');
+        if (prevFocused) prevFocused.classList.remove('dashboard-row-focused');
+
+        // Set new focus
+        this.focusedRowIndex = index;
+        const row = rows[index];
+        if (row) {
+            row.classList.add('dashboard-row-focused');
+
+            // Scroll into view if needed
+            const containerRect = container.getBoundingClientRect();
+            const rowRect = row.getBoundingClientRect();
+
+            if (rowRect.top < containerRect.top + 40) {
+                // Row is above visible area (account for sticky header)
+                row.scrollIntoView({ block: 'start', behavior: 'smooth' });
+            } else if (rowRect.bottom > containerRect.bottom) {
+                // Row is below visible area
+                row.scrollIntoView({ block: 'end', behavior: 'smooth' });
+            }
+        }
+    },
+
+    /**
+     * Select the currently focused row (trigger ticker action)
+     */
+    _selectFocusedRow(card, rows) {
+        if (this.focusedRowIndex < 0 || this.focusedRowIndex >= rows.length) return;
+
+        const row = rows[this.focusedRowIndex];
+        const ticker = row?.dataset?.ticker;
+        if (ticker) {
+            window.DashboardBase.setGlobalSearchTicker(ticker);
+        }
+    },
+
+    /**
+     * Clear row focus
+     */
+    _clearFocus(card) {
+        const prevFocused = card.querySelector('.dashboard-row-focused');
+        if (prevFocused) prevFocused.classList.remove('dashboard-row-focused');
+        this.focusedRowIndex = -1;
     },
 
     /**
