@@ -117,11 +117,15 @@ window.ChartDashboard = {
             this.exportCSV();
         });
 
-        // Load More button
+        // Load More button (fallback for infinite scroll)
         const loadMoreBtn = card.querySelector('.dashboard-load-more-btn');
         loadMoreBtn.addEventListener('click', () => {
             this.loadMoreData(card);
         });
+
+        // Infinite scroll - auto-load when near bottom
+        const tableContainer = card.querySelector('.dashboard-table-container');
+        this._setupInfiniteScroll(card, tableContainer);
 
         // Columns dropdown
         const columnsBtn = card.querySelector('.dashboard-columns-btn');
@@ -166,6 +170,11 @@ window.ChartDashboard = {
 
         if (this.isLoading) return;
         this.isLoading = true;
+
+        // Show loading status for infinite scroll
+        if (append && loadStatus) {
+            loadStatus.textContent = 'Loading more...';
+        }
 
         try {
             const offset = append ? this.data.length : 0;
@@ -226,6 +235,44 @@ window.ChartDashboard = {
             loadMoreBtn.textContent = originalText;
             loadMoreBtn.disabled = false;
         }
+    },
+
+    /**
+     * Setup infinite scroll for auto-loading more data
+     * @param {HTMLElement} card - Dashboard card element
+     * @param {HTMLElement} container - Scroll container element
+     */
+    _setupInfiniteScroll(card, container) {
+        if (!container) return;
+
+        // Threshold: load more when within 200px of bottom
+        const SCROLL_THRESHOLD = 200;
+
+        // Debounce scroll checks to avoid excessive calls
+        let scrollTimeout = null;
+
+        const checkScroll = () => {
+            if (this.isLoading || !this.hasMore) return;
+
+            const { scrollTop, scrollHeight, clientHeight } = container;
+            const distanceFromBottom = scrollHeight - scrollTop - clientHeight;
+
+            if (distanceFromBottom < SCROLL_THRESHOLD) {
+                console.log('[ChartDashboard] Infinite scroll triggered, distance:', distanceFromBottom);
+                this.loadMoreData(card);
+            }
+        };
+
+        container.addEventListener('scroll', () => {
+            if (scrollTimeout) return;  // Throttle: one check per frame
+            scrollTimeout = requestAnimationFrame(() => {
+                scrollTimeout = null;
+                checkScroll();
+            });
+        });
+
+        // Store reference for potential cleanup
+        container._infiniteScrollCheck = checkScroll;
     },
 
     /**
