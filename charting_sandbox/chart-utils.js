@@ -631,6 +631,97 @@ window.ChartUtils = {
         getThresholds() {
             return { ...this.thresholds };
         }
+    },
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // API RESPONSE CACHE
+    // TTL-based caching to reduce redundant API fetches
+    // ═══════════════════════════════════════════════════════════════════════
+
+    cache: {
+        _store: new Map(),
+
+        // Default TTL values in milliseconds
+        TTL: {
+            dashboard: 60000,      // 1 minute - data changes infrequently
+            metadata: 300000,      // 5 minutes - rarely changes
+            tickers: 300000,       // 5 minutes - list rarely changes
+            workspace: 30000,      // 30 seconds - may change across tabs
+            default: 60000         // 1 minute default
+        },
+
+        /**
+         * Get cached value if not expired
+         * @param {string} key - Cache key
+         * @returns {*} Cached value or undefined if expired/missing
+         */
+        get(key) {
+            const entry = this._store.get(key);
+            if (!entry) return undefined;
+
+            if (Date.now() > entry.expires) {
+                this._store.delete(key);
+                return undefined;
+            }
+
+            console.log(`[Cache] HIT: ${key}`);
+            return entry.value;
+        },
+
+        /**
+         * Store value with TTL
+         * @param {string} key - Cache key
+         * @param {*} value - Value to cache
+         * @param {number} [ttl] - TTL in ms (uses default based on key prefix)
+         */
+        set(key, value, ttl) {
+            // Auto-detect TTL from key prefix
+            if (!ttl) {
+                const prefix = key.split('?')[0].split('/').pop();
+                ttl = this.TTL[prefix] || this.TTL.default;
+            }
+
+            this._store.set(key, {
+                value,
+                expires: Date.now() + ttl
+            });
+            console.log(`[Cache] SET: ${key} (TTL: ${ttl}ms)`);
+        },
+
+        /**
+         * Invalidate specific key or all keys matching prefix
+         * @param {string} [keyOrPrefix] - Key or prefix to invalidate (all if omitted)
+         */
+        invalidate(keyOrPrefix) {
+            if (!keyOrPrefix) {
+                const size = this._store.size;
+                this._store.clear();
+                console.log(`[Cache] CLEAR: ${size} entries`);
+                return;
+            }
+
+            let count = 0;
+            for (const key of this._store.keys()) {
+                if (key === keyOrPrefix || key.startsWith(keyOrPrefix)) {
+                    this._store.delete(key);
+                    count++;
+                }
+            }
+            console.log(`[Cache] INVALIDATE: ${keyOrPrefix} (${count} entries)`);
+        },
+
+        /**
+         * Get cache stats for debugging
+         */
+        stats() {
+            const now = Date.now();
+            let valid = 0, expired = 0;
+            for (const entry of this._store.values()) {
+                if (now > entry.expires) expired++;
+                else valid++;
+            }
+            return { valid, expired, total: this._store.size };
+        }
     }
 };
 
