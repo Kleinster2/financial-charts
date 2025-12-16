@@ -13,6 +13,14 @@ window.API_BASE_URL = API_BASE_URL;
 async function fetchWithRetry(url, options = {}, retries = API_RETRY_COUNT) {
     const { signal, ...restOptions } = options;
 
+    // Extract endpoint name for timing (e.g., "/api/data" -> "apiData")
+    const endpoint = url.replace(API_BASE_URL, '').split('?')[0]
+        .replace(/^\/api\//, '')
+        .replace(/\//g, '_') || 'unknown';
+    const timingName = `api_${endpoint}`;
+
+    const startTime = performance.now();
+
     for (let i = 0; i <= retries; i++) {
         try {
             // Check if already aborted before starting
@@ -27,7 +35,15 @@ async function fetchWithRetry(url, options = {}, retries = API_RETRY_COUNT) {
                 throw new Error(`HTTP ${resp.status}: ${resp.statusText}`);
             }
 
-            return await resp.json();
+            const result = await resp.json();
+
+            // Report successful timing
+            const duration = performance.now() - startTime;
+            if (window.ChartUtils?.perf) {
+                window.ChartUtils.perf._report(timingName, duration);
+            }
+
+            return result;
         } catch (error) {
             // Don't retry on abort
             if (error.name === 'AbortError') {
@@ -37,6 +53,11 @@ async function fetchWithRetry(url, options = {}, retries = API_RETRY_COUNT) {
             console.error(`Fetch error: ${error.message}`);
 
             if (i === retries) {
+                // Report failed timing
+                const duration = performance.now() - startTime;
+                if (window.ChartUtils?.perf?.verbose) {
+                    console.warn(`[Perf] ${timingName}: ${duration.toFixed(1)}ms (FAILED)`);
+                }
                 throw error;
             }
 
