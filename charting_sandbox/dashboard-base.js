@@ -239,6 +239,31 @@ window.DashboardBase = (() => {
                 padding: 40px;
                 color: #666;
             }
+            .dashboard-load-more-container {
+                border-top: 1px solid #ddd;
+                background: #f8f9fa;
+            }
+            .dashboard-load-more-btn {
+                padding: 8px 24px;
+                background: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 0.9rem;
+            }
+            .dashboard-load-more-btn:hover {
+                background: #0056b3;
+            }
+            .dashboard-load-more-btn:disabled {
+                background: #6c757d;
+                cursor: not-allowed;
+            }
+            .dashboard-load-status {
+                margin-left: 12px;
+                color: #666;
+                font-size: 0.85rem;
+            }
     `;
 
     function ensureStyles() {
