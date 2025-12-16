@@ -375,6 +375,8 @@ window.ChartCardPlot = (() => {
      * @param {Object} options - Additional options (initialHeight, initialRange)
      */
     async function plot(ctx, options = {}) {
+        const endTiming = window.ChartUtils?.perf?.start('chartPlot');
+
         const rt = window.ChartCardContext.getRuntime(ctx);
         const config = getConfig();
         const { initialHeight, initialRange } = options;
@@ -841,6 +843,8 @@ window.ChartCardPlot = (() => {
                 updateFixedLegend(ctx);
             }, 100);
         }
+
+        if (endTiming) endTiming();
     }
 
     // Public API

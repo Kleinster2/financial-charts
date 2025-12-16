@@ -204,6 +204,8 @@ window.ChartDashboard = {
      * Render the data table
      */
     renderTable(card) {
+        const endTiming = window.ChartUtils?.perf?.start('dashboardRender');
+
         const thead = card.querySelector('.dashboard-table thead');
         const tbody = card.querySelector('.dashboard-table tbody');
 
@@ -295,6 +297,8 @@ window.ChartDashboard = {
         } else {
             this.renderFlatBody(tbody, filteredData, columns);
         }
+
+        if (endTiming) endTiming();
     },
 
     /**

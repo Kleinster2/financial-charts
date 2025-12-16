@@ -533,6 +533,97 @@ window.ChartUtils = {
         })();
 
         return this._aliasFetchPromise;
+    },
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // PERFORMANCE TELEMETRY
+    // Lightweight timing utilities for catching performance regressions
+    // ═══════════════════════════════════════════════════════════════════════
+
+    perf: {
+        // Thresholds in ms - warn if exceeded
+        thresholds: {
+            dashboardRender: 100,
+            macroDashboardRender: 100,
+            chartPlot: 500,
+            apiCall: 2000
+        },
+
+        // Enable/disable logging (can be toggled via console)
+        enabled: true,
+        verbose: false,  // Set to true to log all timings, not just slow ones
+
+        /**
+         * Measure sync function execution time
+         * @param {string} name - Operation name for logging
+         * @param {Function} fn - Function to measure
+         * @returns {*} Result of fn()
+         */
+        measure(name, fn) {
+            if (!this.enabled) return fn();
+
+            const start = performance.now();
+            try {
+                return fn();
+            } finally {
+                const duration = performance.now() - start;
+                this._report(name, duration);
+            }
+        },
+
+        /**
+         * Measure async function execution time
+         * @param {string} name - Operation name for logging
+         * @param {Function} fn - Async function to measure
+         * @returns {Promise<*>} Result of fn()
+         */
+        async measureAsync(name, fn) {
+            if (!this.enabled) return fn();
+
+            const start = performance.now();
+            try {
+                return await fn();
+            } finally {
+                const duration = performance.now() - start;
+                this._report(name, duration);
+            }
+        },
+
+        /**
+         * Start a manual timing (for cases where measure() doesn't fit)
+         * @param {string} name - Operation name
+         * @returns {Function} Call to end timing and report
+         */
+        start(name) {
+            const startTime = performance.now();
+            return () => {
+                const duration = performance.now() - startTime;
+                this._report(name, duration);
+                return duration;
+            };
+        },
+
+        /**
+         * Report timing result
+         * @private
+         */
+        _report(name, duration) {
+            const threshold = this.thresholds[name] || 100;
+            const isSlowStr = duration > threshold ? ' ⚠️ SLOW' : '';
+
+            if (duration > threshold) {
+                console.warn(`[Perf] ${name}: ${duration.toFixed(1)}ms (threshold: ${threshold}ms)${isSlowStr}`);
+            } else if (this.verbose) {
+                console.log(`[Perf] ${name}: ${duration.toFixed(1)}ms`);
+            }
+        },
+
+        /**
+         * Get a summary of recent timings (for debugging)
+         */
+        getThresholds() {
+            return { ...this.thresholds };
+        }
     }
 };
 
