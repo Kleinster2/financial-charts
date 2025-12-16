@@ -17,13 +17,32 @@ window.ChartCardRegistry = (() => {
     const registry = {
         'dashboard': {
             module: () => window.ChartDashboard,
-            create: (wrapper, opts) => window.ChartDashboard.createDashboardCard(wrapper),
-            restore: (cardData, wrapper) => ({ type: 'dashboard', wrapperEl: wrapper })
+            create: (wrapper, opts) => window.ChartDashboard.createDashboardCard(wrapper, opts),
+            restore: (cardData, wrapper) => ({
+                type: 'dashboard',
+                wrapperEl: wrapper,
+                sortColumn: cardData.sortColumn,
+                sortDirection: cardData.sortDirection,
+                viewMode: cardData.viewMode,
+                filterText: cardData.filterText,
+                columnOrder: cardData.columnOrder,
+                hiddenColumns: cardData.hiddenColumns,
+                columnWidths: cardData.columnWidths
+            }),
+            serialize: (card) => window.ChartDashboard?.serializeCard?.(card)
         },
         'macro-dashboard': {
             module: () => window.ChartMacroDashboard,
-            create: (wrapper, opts) => window.ChartMacroDashboard.createMacroDashboardCard(wrapper),
-            restore: (cardData, wrapper) => ({ type: 'macro-dashboard', wrapperEl: wrapper })
+            create: (wrapper, opts) => window.ChartMacroDashboard.createMacroDashboardCard(wrapper, opts),
+            restore: (cardData, wrapper) => ({
+                type: 'macro-dashboard',
+                wrapperEl: wrapper,
+                sortColumn: cardData.sortColumn,
+                sortDirection: cardData.sortDirection,
+                viewMode: cardData.viewMode,
+                filterText: cardData.filterText
+            }),
+            serialize: (card) => window.ChartMacroDashboard?.serializeCard?.(card)
         },
         'dendrograms': {
             module: () => window.ChartDendrograms,

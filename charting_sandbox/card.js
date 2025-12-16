@@ -31,11 +31,19 @@
     // Save all chart states
     function saveCards() {
         const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => {
-            // Prefer ctx-based serialization when available
+            // Prefer ctx-based serialization when available (normal chart cards)
             if (card._ctx && window.ChartCardContext?.serialize) {
                 return window.ChartCardContext.serialize(card._ctx);
             }
-            // Fallback for cards without ctx (special types like dashboard, macro, etc.)
+            // Check registry for type-specific serialize (dashboard, macro-dashboard, etc.)
+            if (card._type && window.ChartCardRegistry) {
+                const handler = window.ChartCardRegistry.getHandler(card._type);
+                if (handler?.serialize) {
+                    const serialized = handler.serialize(card);
+                    if (serialized) return serialized;
+                }
+            }
+            // Fallback for cards without ctx or registry serialize
             return {
                 page: card.closest('.page')?.dataset.page || '1',
                 type: card._type || null,
