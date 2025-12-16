@@ -55,6 +55,16 @@ window.DashboardBase = (() => {
             .dashboard-refresh-btn:hover {
                 background: #0056b3;
             }
+            .dashboard-refresh-indicator {
+                font-size: 12px;
+                color: #6c757d;
+                font-style: italic;
+                animation: dashboard-pulse 1.5s ease-in-out infinite;
+            }
+            @keyframes dashboard-pulse {
+                0%, 100% { opacity: 0.5; }
+                50% { opacity: 1; }
+            }
             .dashboard-columns-dropdown {
                 position: relative;
                 display: inline-block;

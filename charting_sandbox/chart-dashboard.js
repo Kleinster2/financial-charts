@@ -54,6 +54,7 @@ window.ChartDashboard = {
                         <div class="dashboard-columns-menu"></div>
                     </div>
                     <button class="dashboard-refresh-btn">Refresh</button>
+                    <span class="dashboard-refresh-indicator" style="display:none;">Updating...</span>
                     <button class="dashboard-reset-btn">Reset Layout</button>
                     <button class="dashboard-export-btn">Export CSV</button>
                 </div>
@@ -172,10 +173,31 @@ window.ChartDashboard = {
         const tbody = card.querySelector('.dashboard-table tbody');
         const loadMoreContainer = card.querySelector('.dashboard-load-more-container');
         const loadStatus = card.querySelector('.dashboard-load-status');
+        const refreshIndicator = card.querySelector('.dashboard-refresh-indicator');
 
-        if (!append) {
+        const offset = append ? this.data.length : 0;
+        // Build URL with filter parameter for server-side filtering
+        let url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
+        if (this.filterText) {
+            url += `&filter=${encodeURIComponent(this.filterText)}`;
+        }
+        const cacheKey = url;
+
+        // Stale-While-Revalidate: show cached data immediately if available
+        let cachedResult = null;
+        if (!append && !skipCache && window.ChartUtils?.cache) {
+            cachedResult = window.ChartUtils.cache.get(cacheKey);
+            if (cachedResult) {
+                console.log('[ChartDashboard] SWR: Showing cached data immediately');
+                this._applyResult(card, cachedResult, append);
+                // Show refresh indicator for background fetch
+                if (refreshIndicator) refreshIndicator.style.display = 'inline';
+            }
+        }
+
+        // Show skeleton only if no cached data
+        if (!append && !cachedResult) {
             this.data = [];
-            // Show skeleton loading rows for better UX
             window.DashboardBase.renderSkeletonRows(tbody, 10, 12);
         }
 
@@ -188,60 +210,66 @@ window.ChartDashboard = {
         }
 
         try {
-            const offset = append ? this.data.length : 0;
-            // Build URL with filter parameter for server-side filtering
-            let url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
-            if (this.filterText) {
-                url += `&filter=${encodeURIComponent(this.filterText)}`;
-            }
-            const cacheKey = url;
+            console.log('[ChartDashboard] Fetching:', url);
+            // Use deduplicated fetch to prevent duplicate requests on rapid clicks
+            const result = await window.ChartUtils.requests.fetchJSON(url);
 
-            // Check cache for initial loads (not appending)
-            let result;
-            if (!append && !skipCache && window.ChartUtils?.cache) {
-                result = window.ChartUtils.cache.get(cacheKey);
+            // Cache the result (only for initial loads, not append)
+            if (!append && window.ChartUtils?.cache) {
+                window.ChartUtils.cache.set(cacheKey, result);
             }
 
-            if (!result) {
-                console.log('[ChartDashboard] Fetching:', url);
-                // Use deduplicated fetch to prevent duplicate requests on rapid clicks
-                result = await window.ChartUtils.requests.fetchJSON(url);
+            // Apply fresh data (even if we showed cached data first)
+            this._applyResult(card, result, append);
 
-                // Cache the result (only for paginated requests, not append)
-                if (!append && window.ChartUtils?.cache) {
-                    window.ChartUtils.cache.set(cacheKey, result);
-                }
-            }
-
-            // Handle paginated response format
-            const newData = result.data || result;  // Support both formats
-            this.totalCount = result.total || newData.length;
-
-            if (append) {
-                this.data = [...this.data, ...newData];
-            } else {
-                this.data = newData;
-            }
-
-            this.hasMore = this.data.length < this.totalCount;
-
-            console.log('[ChartDashboard] Loaded:', newData.length, 'tickers, total:', this.data.length, '/', this.totalCount);
-
-            this.renderStats(card);
-            this.renderTable(card);
-
-            // Show/hide Load More button
-            if (this.hasMore) {
-                loadMoreContainer.style.display = 'block';
-                loadStatus.textContent = `Showing ${this.data.length} of ${this.totalCount}`;
-            } else {
-                loadMoreContainer.style.display = 'none';
+            if (cachedResult) {
+                console.log('[ChartDashboard] SWR: Updated with fresh data');
             }
         } catch (error) {
             console.error('[ChartDashboard] Dashboard load error:', error);
-            window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: `Error loading data: ${error.message}` });
+            // Only show error if we didn't have cached data
+            if (!cachedResult) {
+                window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: `Error loading data: ${error.message}` });
+            }
         } finally {
             this.isLoading = false;
+            if (refreshIndicator) refreshIndicator.style.display = 'none';
+        }
+    },
+
+    /**
+     * Apply fetched result to the dashboard (shared by initial load and SWR refresh)
+     * @param {HTMLElement} card - Dashboard card
+     * @param {Object} result - API response with data and total
+     * @param {boolean} append - Whether to append to existing data
+     */
+    _applyResult(card, result, append) {
+        const loadMoreContainer = card.querySelector('.dashboard-load-more-container');
+        const loadStatus = card.querySelector('.dashboard-load-status');
+
+        // Handle paginated response format
+        const newData = result.data || result;
+        this.totalCount = result.total || newData.length;
+
+        if (append) {
+            this.data = [...this.data, ...newData];
+        } else {
+            this.data = newData;
+        }
+
+        this.hasMore = this.data.length < this.totalCount;
+
+        console.log('[ChartDashboard] Applied:', newData.length, 'tickers, total:', this.data.length, '/', this.totalCount);
+
+        this.renderStats(card);
+        this.renderTable(card);
+
+        // Show/hide Load More button
+        if (this.hasMore) {
+            loadMoreContainer.style.display = 'block';
+            loadStatus.textContent = `Showing ${this.data.length} of ${this.totalCount}`;
+        } else {
+            loadMoreContainer.style.display = 'none';
         }
     },
 
