@@ -208,6 +208,39 @@ window.DashboardBase = (() => {
             .dashboard-table .ticker-cell:hover {
                 text-decoration: underline;
             }
+            /* Pinned/frozen first column */
+            .dashboard-table th:first-child,
+            .dashboard-table td:first-child {
+                position: sticky;
+                left: 0;
+                z-index: 1;
+                background: #f8f9fa;
+            }
+            .dashboard-table th:first-child {
+                z-index: 3;
+                background: #e9ecef;
+            }
+            .dashboard-table td:first-child {
+                background: #fff;
+            }
+            .dashboard-table tr:hover td:first-child {
+                background: #f8f9fa;
+            }
+            .dashboard-row-focused td:first-child {
+                background: #e3f2fd !important;
+            }
+            /* Shadow to indicate frozen column edge */
+            .dashboard-table th:first-child::after,
+            .dashboard-table td:first-child::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 4px;
+                background: linear-gradient(to right, rgba(0,0,0,0.08), transparent);
+                pointer-events: none;
+            }
             .dashboard-table .price-cell {
                 text-align: right;
                 font-family: monospace;
