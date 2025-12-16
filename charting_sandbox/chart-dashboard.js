@@ -83,18 +83,19 @@ window.ChartDashboard = {
         if (this.filterText) filterInput.value = this.filterText;
         if (this.viewMode) viewSelect.value = this.viewMode;
 
-        // Debounced filter render for better performance during typing
-        const debouncedFilterRender = window.ChartUtils.debounce(() => {
-            this.renderTable(card);
+        // Debounced server-side filter for better performance during typing
+        const debouncedServerFilter = window.ChartUtils.debounce(() => {
+            // Reset to first page when filter changes, skip cache for fresh results
+            this.loadData(card, false, true);
             if (window.saveCards) window.saveCards();
-        }, 150);
+        }, 300);
 
         filterInput.addEventListener('input', (e) => {
             const raw = e.target.value;
             // Trailing space = exact ticker match
             this.filterExact = raw.endsWith(' ') && raw.trim().length > 0;
             this.filterText = raw.trim().toLowerCase();
-            debouncedFilterRender();
+            debouncedServerFilter();
         });
 
         viewSelect.addEventListener('change', (e) => {
@@ -187,7 +188,11 @@ window.ChartDashboard = {
 
         try {
             const offset = append ? this.data.length : 0;
-            const url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
+            // Build URL with filter parameter for server-side filtering
+            let url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
+            if (this.filterText) {
+                url += `&filter=${encodeURIComponent(this.filterText)}`;
+            }
             const cacheKey = url;
 
             // Check cache for initial loads (not appending)
