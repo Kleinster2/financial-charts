@@ -169,6 +169,15 @@ async function setupPage(page, { consoleErrors, workspace }) {
       return json(route, out);
     }
 
+    // Dashboard API mock
+    if (url.pathname === '/api/dashboard') {
+      return json(route, [
+        { ticker: 'SPY', name: 'SPDR S&P 500', latest_price: 450.5, daily_change: 1.2, weekly_change: 2.5, monthly_change: 5.0, yearly_change: 15.0, high_52w: 480, low_52w: 380, data_points: 1000, pages: [] },
+        { ticker: 'QQQ', name: 'Invesco QQQ', latest_price: 380.25, daily_change: -0.5, weekly_change: 1.8, monthly_change: 4.2, yearly_change: 20.0, high_52w: 420, low_52w: 300, data_points: 1000, pages: [] },
+        { ticker: 'AAPL', name: 'Apple Inc', latest_price: 175.0, daily_change: 0.8, weekly_change: 3.1, monthly_change: 6.5, yearly_change: 25.0, high_52w: 200, low_52w: 140, data_points: 1000, pages: [{ page_num: 1, page_name: 'Tech' }] },
+      ]);
+    }
+
     return json(route, {});
   });
 }
@@ -746,6 +755,77 @@ test.describe('Chart card smoke', () => {
       return card._navLink ? card._navLink.textContent : null;
     });
     expect(navLabelAfter).toBe('QQQ');
+
+    expect(consoleErrors).toEqual([]);
+  });
+
+  test('dashboard Reset Layout and Export CSV buttons', async ({ page }) => {
+    if (!serverInfo) throw new Error('Static server not started');
+
+    const consoleErrors = [];
+    // Dashboard card with custom sort state
+    const workspace = {
+      cards: [
+        {
+          type: 'dashboard',
+          page: 1,
+          sortColumn: 'daily_change',
+          sortDirection: 'desc',
+          viewMode: 'flat',
+          filterText: 'spy',
+        },
+      ],
+    };
+
+    await setupPage(page, { workspace, consoleErrors });
+    await page.goto(`${serverInfo.baseURL}/index.html`, { waitUntil: 'domcontentloaded' });
+
+    // Wait for dashboard to render
+    await page.waitForSelector('.dashboard-card');
+    await page.waitForSelector('.dashboard-table tbody tr');
+
+    // Verify initial state was restored (sorted by daily_change desc, filtered by spy)
+    const initialState = await page.evaluate(() => {
+      const dashboard = window.ChartDashboard;
+      return {
+        sortColumn: dashboard.sortColumn,
+        sortDirection: dashboard.sortDirection,
+        filterText: dashboard.filterText,
+      };
+    });
+    expect(initialState.sortColumn).toBe('daily_change');
+    expect(initialState.sortDirection).toBe('desc');
+    expect(initialState.filterText).toBe('spy');
+
+    // Click Reset Layout button
+    await page.click('.dashboard-reset-btn');
+
+    // Verify state is reset to defaults
+    const resetState = await page.evaluate(() => {
+      const dashboard = window.ChartDashboard;
+      return {
+        sortColumn: dashboard.sortColumn,
+        sortDirection: dashboard.sortDirection,
+        viewMode: dashboard.viewMode,
+        filterText: dashboard.filterText,
+      };
+    });
+    expect(resetState.sortColumn).toBe('ticker');
+    expect(resetState.sortDirection).toBe('asc');
+    expect(resetState.viewMode).toBe('flat');
+    expect(resetState.filterText).toBe('');
+
+    // Verify filter input is cleared
+    const filterValue = await page.$eval('.dashboard-filter', (el) => el.value);
+    expect(filterValue).toBe('');
+
+    // Test Export CSV - listen for download
+    const downloadPromise = page.waitForEvent('download');
+    await page.click('.dashboard-export-btn');
+    const download = await downloadPromise;
+
+    // Verify download filename
+    expect(download.suggestedFilename()).toMatch(/^dashboard_export_\d{4}-\d{2}-\d{2}\.csv$/);
 
     expect(consoleErrors).toEqual([]);
   });

@@ -79,11 +79,15 @@ financial-charts/
 │   └── pages.js                # Multi-page navigation
 │
 ├── tests/                      # Automated tests
-│   ├── unit/                   # Node unit tests
+│   ├── unit/                   # Node unit tests (74 tests)
 │   │   ├── chart-card-context.test.js
-│   │   └── chart-card-registry.test.js
-│   └── playwright/             # Playwright smoke tests
-│       ├── card-smoke.spec.js  # Card functionality tests (5 tests)
+│   │   ├── chart-card-registry.test.js
+│   │   ├── chart-dashboard.test.js
+│   │   ├── chart-macro-dashboard.test.js
+│   │   ├── chart-utils.test.js
+│   │   └── dashboard-base.test.js
+│   └── playwright/             # Playwright smoke tests (6 tests)
+│       ├── card-smoke.spec.js  # Card + dashboard tests
 │       ├── helpers/            # Test utilities
 │       └── stubs/              # LightweightCharts stub
 │
@@ -204,6 +208,15 @@ Manual override available via dropdown (Auto/Daily/Weekly/Monthly).
 - 53 themed pages (Tech, Finance, Brazil, Crypto, Macro, etc.)
 - Persistent workspace via backend API
 - Resizable/draggable legend with position persistence
+
+### Data Dashboard
+- Spreadsheet view of all 1,300+ tickers with prices, changes, and metadata
+- **Sortable columns**: Click headers to sort by ticker, price, day/week/month/year change
+- **Filter**: Type to filter by ticker, name, or page name
+- **Column visibility**: Show/hide columns via dropdown
+- **Reset Layout**: One click to restore default sort, filter, and column settings
+- **Export CSV**: Download filtered/sorted data with visible columns
+- **State persistence**: Dashboard layout (sort, filter, columns) persists across sessions
 
 ## Database Schema
 
@@ -619,13 +632,17 @@ npm run test:unit
 |------|---------|
 | `tests/unit/chart-card-context.test.js` | Context create/serialize/apply round-trip |
 | `tests/unit/chart-card-registry.test.js` | Card type registration + dispatch |
+| `tests/unit/chart-dashboard.test.js` | Dashboard serialize/restore round-trip |
+| `tests/unit/chart-macro-dashboard.test.js` | Macro dashboard serialize/restore |
+| `tests/unit/chart-utils.test.js` | ensureStyleTag idempotency, mapToObject |
+| `tests/unit/dashboard-base.test.js` | filterAndSortData, escapeHtml |
 | `tests/unit/helpers/browser-stub.js` | Minimal window/document stub |
 | `tests/unit/helpers/load-module.js` | vm-based module loader |
 
 **Test architecture:**
 - Uses Node's built-in test runner (`node --test`)
 - Loads browser modules via `vm` (no jsdom dependency)
-- Tests pure functions: state management, serialization, registry dispatch
+- Tests pure functions: state management, serialization, registry dispatch, dashboard filtering/sorting
 
 ### Playwright Smoke Tests
 
@@ -640,12 +657,13 @@ npx playwright install chromium
 npm run test:smoke
 ```
 
-**Test coverage (5 tests):**
+**Test coverage (6 tests):**
 - Initial plot, Fit, range dropdown, and pane toggles
 - Workspace restore with saved card state
 - Page switching hides/shows correct pages
 - Tag filtering in normal and highlights mode
 - Nav label updates when removing ticker from an untitled card
+- Dashboard Reset Layout and Export CSV buttons
 
 **Test architecture:**
 - Tests run against isolated static server (no Flask backend needed)
