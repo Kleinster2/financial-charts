@@ -104,7 +104,8 @@ window.ChartDashboard = {
         });
 
         refreshBtn.addEventListener('click', () => {
-            this.loadData(card);
+            // Skip cache on manual refresh
+            this.loadData(card, false, true);
         });
 
         // Reset Layout button
@@ -160,10 +161,13 @@ window.ChartDashboard = {
     },
 
     /**
-     * Load dashboard data from API
+     * Load dashboard data from API (with caching)
+     * @param {HTMLElement} card - Dashboard card
+     * @param {boolean} append - Whether to append to existing data
+     * @param {boolean} skipCache - Force fresh fetch (e.g., on refresh button)
      */
-    async loadData(card, append = false) {
-        console.log('[ChartDashboard] loadData called, append:', append);
+    async loadData(card, append = false, skipCache = false) {
+        console.log('[ChartDashboard] loadData called, append:', append, 'skipCache:', skipCache);
         const tbody = card.querySelector('.dashboard-table tbody');
         const loadMoreContainer = card.querySelector('.dashboard-load-more-container');
         const loadStatus = card.querySelector('.dashboard-load-status');
@@ -184,12 +188,25 @@ window.ChartDashboard = {
         try {
             const offset = append ? this.data.length : 0;
             const url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
-            console.log('[ChartDashboard] Fetching:', url);
+            const cacheKey = url;
 
-            const response = await fetch(url);
-            if (!response.ok) throw new Error('Failed to load dashboard data');
+            // Check cache for initial loads (not appending)
+            let result;
+            if (!append && !skipCache && window.ChartUtils?.cache) {
+                result = window.ChartUtils.cache.get(cacheKey);
+            }
 
-            const result = await response.json();
+            if (!result) {
+                console.log('[ChartDashboard] Fetching:', url);
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Failed to load dashboard data');
+                result = await response.json();
+
+                // Cache the result (only for paginated requests, not append)
+                if (!append && window.ChartUtils?.cache) {
+                    window.ChartUtils.cache.set(cacheKey, result);
+                }
+            }
 
             // Handle paginated response format
             const newData = result.data || result;  // Support both formats
