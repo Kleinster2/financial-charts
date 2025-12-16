@@ -87,7 +87,10 @@
             window.StateManager.saveCards(cards);
         }
     }
-    window.saveCards = saveCards;
+
+    // Expose both immediate and debounced versions
+    window.saveCardsImmediate = saveCards;
+    window.saveCards = window.ChartUtils.debounce(saveCards, 300);
 
     // Tag filtering is now centralized in pages.js
     // The following globals are provided by pages.js:

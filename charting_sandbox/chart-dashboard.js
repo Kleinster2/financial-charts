@@ -47,6 +47,8 @@ window.ChartDashboard = {
                         <div class="dashboard-columns-menu"></div>
                     </div>
                     <button class="dashboard-refresh-btn">Refresh</button>
+                    <button class="dashboard-reset-btn">Reset Layout</button>
+                    <button class="dashboard-export-btn">Export CSV</button>
                 </div>
             </div>
             <div class="dashboard-stats"></div>
@@ -70,13 +72,18 @@ window.ChartDashboard = {
         if (this.filterText) filterInput.value = this.filterText;
         if (this.viewMode) viewSelect.value = this.viewMode;
 
+        // Debounced filter render for better performance during typing
+        const debouncedFilterRender = window.ChartUtils.debounce(() => {
+            this.renderTable(card);
+            if (window.saveCards) window.saveCards();
+        }, 150);
+
         filterInput.addEventListener('input', (e) => {
             const raw = e.target.value;
             // Trailing space = exact ticker match
             this.filterExact = raw.endsWith(' ') && raw.trim().length > 0;
             this.filterText = raw.trim().toLowerCase();
-            this.renderTable(card);
-            if (window.saveCards) window.saveCards();
+            debouncedFilterRender();
         });
 
         viewSelect.addEventListener('change', (e) => {
@@ -87,6 +94,18 @@ window.ChartDashboard = {
 
         refreshBtn.addEventListener('click', () => {
             this.loadData(card);
+        });
+
+        // Reset Layout button
+        const resetBtn = card.querySelector('.dashboard-reset-btn');
+        resetBtn.addEventListener('click', () => {
+            this.resetLayout(card, filterInput, viewSelect);
+        });
+
+        // Export CSV button
+        const exportBtn = card.querySelector('.dashboard-export-btn');
+        exportBtn.addEventListener('click', () => {
+            this.exportCSV();
         });
 
         // Columns dropdown
@@ -533,27 +552,160 @@ window.ChartDashboard = {
     },
 
     /**
-     * Attach click handlers to rows
+     * Attach click handlers to tbody using event delegation
+     * Single handler for all rows instead of per-row handlers
      */
     attachRowHandlers(tbody) {
-        // Ticker click - put ticker in global search
-        tbody.querySelectorAll('.ticker-cell').forEach(cell => {
-            cell.addEventListener('click', () => {
-                const ticker = cell.closest('tr').dataset.ticker;
-                window.DashboardBase.setGlobalSearchTicker(ticker);
-            });
-        });
+        // Remove any existing delegated handler
+        if (tbody._delegatedHandler) {
+            tbody.removeEventListener('click', tbody._delegatedHandler);
+        }
 
-        // Page link click - navigate to page
-        tbody.querySelectorAll('.page-link').forEach(link => {
-            link.addEventListener('click', (e) => {
+        // Single delegated click handler for all tbody interactions
+        tbody._delegatedHandler = (e) => {
+            const target = e.target;
+
+            // Ticker cell click - put ticker in global search
+            const tickerCell = target.closest('.ticker-cell');
+            if (tickerCell) {
+                const ticker = tickerCell.closest('tr')?.dataset.ticker;
+                if (ticker) {
+                    window.DashboardBase.setGlobalSearchTicker(ticker);
+                }
+                return;
+            }
+
+            // Page link click - navigate to page
+            const pageLink = target.closest('.page-link');
+            if (pageLink) {
                 e.preventDefault();
-                const pageNum = parseInt(link.dataset.page, 10);
+                const pageNum = parseInt(pageLink.dataset.page, 10);
                 if (window.PageManager && typeof window.PageManager.showPage === 'function') {
                     window.PageManager.showPage(pageNum);
                 }
-            });
+                return;
+            }
+        };
+
+        tbody.addEventListener('click', tbody._delegatedHandler);
+    },
+
+    /**
+     * Reset layout to defaults
+     * @param {HTMLElement} card - The dashboard card element
+     * @param {HTMLInputElement} filterInput - Filter input element
+     * @param {HTMLSelectElement} viewSelect - View mode select element
+     */
+    resetLayout(card, filterInput, viewSelect) {
+        // Reset all state to defaults
+        this.sortColumn = 'ticker';
+        this.sortDirection = 'asc';
+        this.viewMode = 'flat';
+        this.filterText = '';
+        this.filterExact = false;
+        this.columnOrder = null;  // Will be re-initialized on render
+        this.hiddenColumns = new Set();
+        this.columnWidths = {};
+
+        // Update UI
+        filterInput.value = '';
+        viewSelect.value = 'flat';
+
+        // Re-render
+        this.renderTable(card);
+        this.initColumnsDropdown(card, card.querySelector('.dashboard-columns-btn'), card.querySelector('.dashboard-columns-menu'));
+
+        // Save
+        if (window.saveCards) window.saveCards();
+    },
+
+    /**
+     * Export current filtered/sorted data to CSV
+     */
+    exportCSV() {
+        // Get current filtered/sorted data using same logic as renderTable
+        const numericColumns = [
+            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
+            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
+        ];
+
+        const filteredData = window.DashboardBase.filterAndSortData({
+            data: this.data,
+            filterText: this.filterText,
+            filterFn: (d, filterText) => {
+                if (this.filterExact) {
+                    return d.ticker.toLowerCase() === filterText;
+                }
+                return d.ticker.toLowerCase().includes(filterText) ||
+                    (d.name && d.name.toLowerCase().includes(filterText)) ||
+                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
+            },
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            numericColumns,
+            getSortValue: (d, sortColumn) => {
+                if (sortColumn === 'pages') {
+                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
+                }
+                return d[sortColumn];
+            }
         });
+
+        // Build CSV header - use visible columns only
+        const defaultColumns = [
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+
+        // Get visible columns in order
+        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const visibleColumns = columnOrder
+            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
+            .map(key => defaultColumns.find(c => c.key === key))
+            .filter(Boolean);
+
+        // Build CSV content
+        const header = visibleColumns.map(c => `"${c.label}"`).join(',');
+        const rows = filteredData.map(row => {
+            return visibleColumns.map(col => {
+                let value = row[col.key];
+                if (col.key === 'pages') {
+                    value = row.pages && Array.isArray(row.pages) ? row.pages.length : 0;
+                }
+                if (value === null || value === undefined) {
+                    return '';
+                }
+                if (typeof value === 'string') {
+                    return `"${value.replace(/"/g, '""')}"`;
+                }
+                if (typeof value === 'number') {
+                    return value.toFixed ? value.toFixed(2) : value;
+                }
+                return value;
+            }).join(',');
+        });
+
+        const csv = [header, ...rows].join('\n');
+
+        // Download
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `dashboard_export_${new Date().toISOString().slice(0, 10)}.csv`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
     },
 
     /**
