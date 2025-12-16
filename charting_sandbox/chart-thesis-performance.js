@@ -55,10 +55,7 @@ window.ChartThesisPerformance = {
     },
 
     addStyles() {
-        if (document.getElementById('thesis-perf-styles')) return;
-        const style = document.createElement('style');
-        style.id = 'thesis-perf-styles';
-        style.textContent = `
+        window.ChartUtils.ensureStyleTag('thesis-perf-styles', `
             .thesis-performance-card {
                 background: #1e1e1e;
                 border-radius: 8px;
@@ -151,8 +148,7 @@ window.ChartThesisPerformance = {
                 height: 3px;
                 border-radius: 1px;
             }
-        `;
-        document.head.appendChild(style);
+        `);
     },
 
     async loadThesisList(card) {

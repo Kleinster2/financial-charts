@@ -7,14 +7,8 @@
  */
 window.DashboardBase = (() => {
     const STYLE_ID = 'dashboard-styles';
-
-    function ensureStyles() {
-        if (document.getElementById(STYLE_ID)) return;
-
-        const style = document.createElement('style');
-        style.id = STYLE_ID;
-        style.textContent = `
-            .dashboard-card {
+    const DASHBOARD_CSS = `
+        .dashboard-card {
                 background: #fff;
                 border: 1px solid #ddd;
                 border-radius: 4px;
@@ -245,8 +239,10 @@ window.DashboardBase = (() => {
                 padding: 40px;
                 color: #666;
             }
-        `;
-        document.head.appendChild(style);
+    `;
+
+    function ensureStyles() {
+        window.ChartUtils.ensureStyleTag(STYLE_ID, DASHBOARD_CSS);
     }
 
     function escapeHtml(value) {

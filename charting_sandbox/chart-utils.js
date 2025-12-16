@@ -492,6 +492,19 @@ window.ChartUtils = {
     _aliasFetchPromise: null,
 
     /**
+     * Idempotent style tag injection
+     * @param {string} id - Unique ID for the style element
+     * @param {string} cssText - CSS content
+     */
+    ensureStyleTag(id, cssText) {
+        if (document.getElementById(id)) return;
+        const style = document.createElement('style');
+        style.id = id;
+        style.textContent = cssText;
+        document.head.appendChild(style);
+    },
+
+    /**
      * Get ticker aliases (cached globally)
      * @returns {Promise<Object>} Map of aliased ticker -> canonical ticker
      */
