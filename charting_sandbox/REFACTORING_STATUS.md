@@ -179,4 +179,4 @@ ctx.runtime = {
 1. ~~**Extract event handlers** - Move `handleFit`, `handleRangeChange`, etc. to a dedicated module~~ ✓ Done (`chart-card-range.js`)
 2. ~~**Extract chip management** - `handleChipRemove`, `addTicker` could be `chart-card-tickers.js`~~ ✓ Done (`chart-card-tickers.js`)
 3. ~~**Extract nav link handling** - Centralize `updateNavLabel(ctx)` to replace duplicate callsites in `card.js` and `chart-card-tickers.js`~~ ✓ Done (`chart-card-nav.js`)
-4. **Dashboard consolidation** - Create `DashboardBase` for shared table/sort/filter logic across `chart-dashboard.js`, `chart-macro-dashboard.js`, `chart-thesis-performance.js`
+4. ~~**Dashboard consolidation** - Create `DashboardBase` for shared table/sort/filter logic across `chart-dashboard.js`, `chart-macro-dashboard.js`~~ ✓ Done (`dashboard-base.js`)

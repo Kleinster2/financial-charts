@@ -77,6 +77,13 @@ window.ChartMacroDashboard = {
      * Add macro dashboard-specific styles
      */
     addStyles() {
+        // Ensure base dashboard styles are loaded first
+        if (!window.DashboardBase || typeof window.DashboardBase.ensureStyles !== 'function') {
+            console.error('[ChartMacroDashboard] DashboardBase not loaded; check index.html script order');
+        } else {
+            window.DashboardBase.ensureStyles();
+        }
+
         if (document.getElementById('macro-dashboard-styles')) return;
 
         const style = document.createElement('style');
@@ -156,7 +163,7 @@ window.ChartMacroDashboard = {
     async loadData(card) {
         console.log('[ChartMacroDashboard] loadData called');
         const tbody = card.querySelector('.dashboard-table tbody');
-        tbody.innerHTML = '<tr><td colspan="10" class="dashboard-loading">Loading FRED data...</td></tr>';
+        window.DashboardBase.renderStatusRow(tbody, { colspan: 10, message: 'Loading FRED data...' });
 
         try {
             const response = await fetch(window.ChartUtils.apiUrl('/api/macro-dashboard'));
@@ -168,7 +175,7 @@ window.ChartMacroDashboard = {
             this.renderTable(card);
         } catch (error) {
             console.error('[ChartMacroDashboard] Load error:', error);
-            tbody.innerHTML = `<tr><td colspan="10" class="dashboard-loading">Error loading data: ${error.message}</td></tr>`;
+            window.DashboardBase.renderStatusRow(tbody, { colspan: 10, message: `Error loading data: ${error.message}` });
         }
     },
 
@@ -234,77 +241,41 @@ window.ChartMacroDashboard = {
         const thead = card.querySelector('.dashboard-table thead');
         const tbody = card.querySelector('.dashboard-table tbody');
 
-        // Filter data
-        let filteredData = this.data;
-        if (this.filterText) {
-            filteredData = this.data.filter(d =>
-                d.ticker.toLowerCase().includes(this.filterText) ||
-                (d.name && d.name.toLowerCase().includes(this.filterText)) ||
-                (d.category && d.category.toLowerCase().includes(this.filterText))
-            );
-        }
-
-        // Sort data
-        const numericColumns = ['latest_value', 'daily_change', 'weekly_change', 'monthly_change', 'yearly_change', 'high_52w', 'low_52w'];
-        const isNumeric = numericColumns.includes(this.sortColumn);
-
-        filteredData = [...filteredData].sort((a, b) => {
-            let aVal = a[this.sortColumn];
-            let bVal = b[this.sortColumn];
-
-            // Handle nulls
-            const aNull = aVal === null || aVal === undefined;
-            const bNull = bVal === null || bVal === undefined;
-            if (aNull && bNull) return 0;
-            if (aNull) return 1;
-            if (bNull) return -1;
-
-            if (isNumeric) {
-                aVal = Number(aVal) || 0;
-                bVal = Number(bVal) || 0;
-            } else if (typeof aVal === 'string') {
-                aVal = aVal.toLowerCase();
-                bVal = (bVal || '').toLowerCase();
-            }
-
-            if (aVal < bVal) return this.sortDirection === 'asc' ? -1 : 1;
-            if (aVal > bVal) return this.sortDirection === 'asc' ? 1 : -1;
-            return 0;
-        });
-
-        // Render header
         const columns = [
             { key: 'ticker', label: 'Indicator' },
             { key: 'name', label: 'Description' },
             { key: 'category', label: 'Category' },
             { key: 'latest_value', label: 'Value' },
-            { key: 'daily_change', label: 'Day Δ' },
-            { key: 'weekly_change', label: 'Week Δ' },
-            { key: 'monthly_change', label: 'Month Δ' },
-            { key: 'yearly_change', label: 'Year Δ' },
+            { key: 'daily_change', label: 'Day \u0394' },
+            { key: 'weekly_change', label: 'Week \u0394' },
+            { key: 'monthly_change', label: 'Month \u0394' },
+            { key: 'yearly_change', label: 'Year \u0394' },
             { key: 'high_52w', label: '52w High' },
             { key: 'low_52w', label: '52w Low' }
         ];
 
-        thead.innerHTML = `<tr>${columns.map(col => {
-            const sortClass = this.sortColumn === col.key
-                ? (this.sortDirection === 'asc' ? 'sorted-asc' : 'sorted-desc')
-                : '';
-            return `<th class="${sortClass}" data-column="${col.key}">${col.label}</th>`;
-        }).join('')}</tr>`;
+        const filteredData = window.DashboardBase.filterAndSortData({
+            data: this.data,
+            filterText: this.filterText,
+            filterFn: (d, filterText) =>
+                d.ticker.toLowerCase().includes(filterText) ||
+                (d.name && d.name.toLowerCase().includes(filterText)) ||
+                (d.category && d.category.toLowerCase().includes(filterText)),
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            numericColumns: ['latest_value', 'daily_change', 'weekly_change', 'monthly_change', 'yearly_change', 'high_52w', 'low_52w']
+        });
 
-        // Add sort handlers
-        thead.querySelectorAll('th').forEach(th => {
-            th.addEventListener('click', () => {
-                const col = th.dataset.column;
-                if (this.sortColumn === col) {
-                    this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
-                } else {
-                    this.sortColumn = col;
-                    this.sortDirection = 'asc';
-                }
+        window.DashboardBase.renderSortableHeader({
+            thead,
+            columns,
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            onSortChange: (col, direction) => {
+                this.sortColumn = col;
+                this.sortDirection = direction;
                 this.renderTable(card);
-            });
+            }
         });
 
         // Render body
@@ -393,11 +364,7 @@ window.ChartMacroDashboard = {
             cell.style.cursor = 'pointer';
             cell.addEventListener('click', () => {
                 const ticker = cell.closest('tr').dataset.ticker;
-                const searchInput = document.getElementById('global-search-input');
-                if (searchInput) {
-                    searchInput.value = ticker;
-                    searchInput.dispatchEvent(new Event('input'));
-                }
+                window.DashboardBase.setGlobalSearchTicker(ticker);
             });
         });
     }
