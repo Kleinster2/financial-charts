@@ -87,7 +87,33 @@
             window.StateManager.saveCards(cards);
         }
     }
-    window.saveCards = saveCards;
+
+    // Immediate save for beforeunload - bypasses all debouncing
+    function saveCardsImmediate() {
+        const cards = Array.from(document.querySelectorAll('.chart-card')).map(card => {
+            if (card._ctx && window.ChartCardContext?.serialize) {
+                return window.ChartCardContext.serialize(card._ctx);
+            }
+            if (card._type && window.ChartCardRegistry) {
+                const handler = window.ChartCardRegistry.getHandler(card._type);
+                if (handler?.serialize) {
+                    const serialized = handler.serialize(card);
+                    if (serialized) return serialized;
+                }
+            }
+            return null;  // Minimal fallback for immediate save
+        }).filter(Boolean);
+
+        window.ChartUtils.safeSetJSON(window.ChartConfig.STORAGE_KEYS.CARDS, cards);
+        // Use immediate backend save (not debounced)
+        if (window.StateManager && typeof window.StateManager.saveCardsImmediate === 'function') {
+            window.StateManager.saveCardsImmediate(cards);
+        }
+    }
+
+    // Expose both immediate and debounced versions
+    window.saveCardsImmediate = saveCardsImmediate;
+    window.saveCards = window.ChartUtils.debounce(saveCards, 300);
 
     // Tag filtering is now centralized in pages.js
     // The following globals are provided by pages.js:

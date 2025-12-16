@@ -621,7 +621,9 @@
   window.PageManager = { ensurePage, showPage, renamePage };
 
   window.addEventListener('beforeunload', () => {
-    if(window.saveCards) window.saveCards();
+    // Use immediate save to ensure data is persisted before page closes
+    if(window.saveCardsImmediate) window.saveCardsImmediate();
+    else if(window.saveCards) window.saveCards();
     savePages();
   });
 

@@ -66,6 +66,31 @@ function createWindowStub() {
     console
   };
 
+  // Document stub with style element support
+  window.document = {
+    addEventListener: () => {},
+    getElementById: (id) => window._elements?.[id] || null,
+    querySelector: () => null,
+    querySelectorAll: () => [],
+    createElement: (tag) => {
+      const el = {
+        tagName: tag.toUpperCase(),
+        id: null,
+        textContent: '',
+        style: {},
+        setAttribute: function(k, v) { this[k] = v; },
+        getAttribute: function(k) { return this[k]; }
+      };
+      return el;
+    },
+    head: {
+      appendChild: (el) => {
+        if (!window._elements) window._elements = {};
+        if (el.id) window._elements[el.id] = el;
+      }
+    }
+  };
+
   return window;
 }
 

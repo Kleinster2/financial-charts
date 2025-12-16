@@ -29,13 +29,8 @@ function loadModule(modulePath, existingWindow = null) {
   const context = vm.createContext({
     window,
     console,
-    // Some modules use these directly
-    document: {
-      addEventListener: () => {},
-      getElementById: () => null,
-      querySelector: () => null,
-      querySelectorAll: () => []
-    },
+    // Use window.document so modules can use document directly
+    document: window.document,
     setTimeout,
     clearTimeout,
     Date,
