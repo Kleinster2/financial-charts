@@ -1871,9 +1871,21 @@ FRED_INDICATORS = [
 def get_dashboard_data():
     """
     Get comprehensive dashboard data for all tickers in workspace.
-    Returns: Array of ticker data with prices, changes, metadata, and page info.
+    Supports pagination via query parameters:
+      - limit: max results per page (default 50, max 500)
+      - offset: starting index (default 0)
+      - sort: column to sort by (default 'ticker')
+      - sortDir: 'asc' or 'desc' (default 'asc')
+      - filter: filter tickers/names containing this string
+    Returns: { data: [...], total: N, limit: N, offset: N }
     """
     try:
+        # Pagination parameters
+        limit = min(int(request.args.get('limit', 50)), 500)
+        offset = int(request.args.get('offset', 0))
+        sort_col = request.args.get('sort', 'ticker')
+        sort_dir = request.args.get('sortDir', 'asc')
+        filter_text = request.args.get('filter', '').lower().strip()
         conn = get_db_connection()
         cursor = conn.cursor()
 
@@ -2023,11 +2035,42 @@ def get_dashboard_data():
 
         conn.close()
 
-        # Sort by ticker
-        result.sort(key=lambda x: x['ticker'])
+        # Apply filter if provided
+        if filter_text:
+            result = [r for r in result if
+                      filter_text in r['ticker'].lower() or
+                      (r['name'] and filter_text in r['name'].lower())]
 
-        app.logger.info(f"/api/dashboard: Returned {len(result)} tickers")
-        return jsonify(result)
+        # Sort results
+        reverse = sort_dir == 'desc'
+        sort_key_map = {
+            'ticker': lambda x: (x['ticker'] or '').lower(),
+            'name': lambda x: (x['name'] or '').lower(),
+            'latest_price': lambda x: x['latest_price'] if x['latest_price'] is not None else (float('inf') if reverse else float('-inf')),
+            'daily_change': lambda x: x['daily_change'] if x['daily_change'] is not None else (float('inf') if reverse else float('-inf')),
+            'weekly_change': lambda x: x['weekly_change'] if x['weekly_change'] is not None else (float('inf') if reverse else float('-inf')),
+            'monthly_change': lambda x: x['monthly_change'] if x['monthly_change'] is not None else (float('inf') if reverse else float('-inf')),
+            'yearly_change': lambda x: x['yearly_change'] if x['yearly_change'] is not None else (float('inf') if reverse else float('-inf')),
+            'high_52w': lambda x: x['high_52w'] if x['high_52w'] is not None else (float('inf') if reverse else float('-inf')),
+            'low_52w': lambda x: x['low_52w'] if x['low_52w'] is not None else (float('inf') if reverse else float('-inf')),
+            'data_points': lambda x: x['data_points'] if x['data_points'] is not None else (float('inf') if reverse else float('-inf')),
+        }
+        sort_key = sort_key_map.get(sort_col, sort_key_map['ticker'])
+        result.sort(key=sort_key, reverse=reverse)
+
+        # Calculate total before pagination
+        total = len(result)
+
+        # Apply pagination
+        paginated = result[offset:offset + limit]
+
+        app.logger.info(f"/api/dashboard: Returned {len(paginated)}/{total} tickers (offset={offset}, limit={limit})")
+        return jsonify({
+            'data': paginated,
+            'total': total,
+            'limit': limit,
+            'offset': offset
+        })
 
     except Exception as e:
         app.logger.error(f"/api/dashboard: Error: {e}")

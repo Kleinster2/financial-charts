@@ -12,6 +12,11 @@ window.ChartDashboard = {
     filterExact: false, // true when trailing space = exact ticker match
     columnOrder: null, // Will be initialized with default order
     hiddenColumns: new Set(), // Columns to hide
+    // Pagination state
+    pageSize: 100,
+    totalCount: 0,
+    isLoading: false,
+    hasMore: false,
 
     /**
      * Create a dashboard card
@@ -57,6 +62,10 @@ window.ChartDashboard = {
                     <thead></thead>
                     <tbody></tbody>
                 </table>
+            </div>
+            <div class="dashboard-load-more-container" style="display:none; text-align:center; padding:12px;">
+                <button class="dashboard-load-more-btn">Load More</button>
+                <span class="dashboard-load-status"></span>
             </div>
         `;
 
@@ -108,6 +117,12 @@ window.ChartDashboard = {
             this.exportCSV();
         });
 
+        // Load More button
+        const loadMoreBtn = card.querySelector('.dashboard-load-more-btn');
+        loadMoreBtn.addEventListener('click', () => {
+            this.loadMoreData(card);
+        });
+
         // Columns dropdown
         const columnsBtn = card.querySelector('.dashboard-columns-btn');
         const columnsMenu = card.querySelector('.dashboard-columns-menu');
@@ -138,28 +153,78 @@ window.ChartDashboard = {
     /**
      * Load dashboard data from API
      */
-    async loadData(card) {
-        console.log('[ChartDashboard] loadData called');
+    async loadData(card, append = false) {
+        console.log('[ChartDashboard] loadData called, append:', append);
         const tbody = card.querySelector('.dashboard-table tbody');
-        console.log('[ChartDashboard] tbody:', tbody);
-        window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: 'Loading data...' });
+        const loadMoreContainer = card.querySelector('.dashboard-load-more-container');
+        const loadStatus = card.querySelector('.dashboard-load-status');
+
+        if (!append) {
+            this.data = [];
+            window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: 'Loading data...' });
+        }
+
+        if (this.isLoading) return;
+        this.isLoading = true;
 
         try {
-            console.log('[ChartDashboard] Fetching from API...');
-            const response = await fetch(window.ChartUtils.apiUrl('/api/dashboard'));
-            console.log('[ChartDashboard] Response status:', response.status);
+            const offset = append ? this.data.length : 0;
+            const url = window.ChartUtils.apiUrl(`/api/dashboard?limit=${this.pageSize}&offset=${offset}`);
+            console.log('[ChartDashboard] Fetching:', url);
+
+            const response = await fetch(url);
             if (!response.ok) throw new Error('Failed to load dashboard data');
 
-            this.data = await response.json();
-            console.log('[ChartDashboard] Data loaded:', this.data.length, 'tickers');
-            console.log('[ChartDashboard] Calling renderStats...');
+            const result = await response.json();
+
+            // Handle paginated response format
+            const newData = result.data || result;  // Support both formats
+            this.totalCount = result.total || newData.length;
+
+            if (append) {
+                this.data = [...this.data, ...newData];
+            } else {
+                this.data = newData;
+            }
+
+            this.hasMore = this.data.length < this.totalCount;
+
+            console.log('[ChartDashboard] Loaded:', newData.length, 'tickers, total:', this.data.length, '/', this.totalCount);
+
             this.renderStats(card);
-            console.log('[ChartDashboard] Calling renderTable...');
             this.renderTable(card);
-            console.log('[ChartDashboard] Render complete');
+
+            // Show/hide Load More button
+            if (this.hasMore) {
+                loadMoreContainer.style.display = 'block';
+                loadStatus.textContent = `Showing ${this.data.length} of ${this.totalCount}`;
+            } else {
+                loadMoreContainer.style.display = 'none';
+            }
         } catch (error) {
             console.error('[ChartDashboard] Dashboard load error:', error);
             window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: `Error loading data: ${error.message}` });
+        } finally {
+            this.isLoading = false;
+        }
+    },
+
+    /**
+     * Load more data (pagination)
+     */
+    async loadMoreData(card) {
+        if (this.isLoading || !this.hasMore) return;
+
+        const loadMoreBtn = card.querySelector('.dashboard-load-more-btn');
+        const originalText = loadMoreBtn.textContent;
+        loadMoreBtn.textContent = 'Loading...';
+        loadMoreBtn.disabled = true;
+
+        try {
+            await this.loadData(card, true);
+        } finally {
+            loadMoreBtn.textContent = originalText;
+            loadMoreBtn.disabled = false;
         }
     },
 
@@ -170,16 +235,24 @@ window.ChartDashboard = {
         const statsEl = card.querySelector('.dashboard-stats');
         const data = this.data;
 
-        const totalTickers = data.length;
+        const loadedTickers = data.length;
+        const totalTickers = this.totalCount || loadedTickers;
         const tickersWithPages = data.filter(d => d.pages && d.pages.length > 0).length;
-        const avgDailyChange = data.reduce((sum, d) => sum + (d.daily_change || 0), 0) / data.length;
+        const avgDailyChange = loadedTickers > 0
+            ? data.reduce((sum, d) => sum + (d.daily_change || 0), 0) / loadedTickers
+            : 0;
         const gainers = data.filter(d => d.daily_change > 0).length;
         const losers = data.filter(d => d.daily_change < 0).length;
 
+        const tickerLabel = this.hasMore ? `Loaded / Total` : `Total Tickers`;
+        const tickerValue = this.hasMore
+            ? `${loadedTickers.toLocaleString()} / ${totalTickers.toLocaleString()}`
+            : totalTickers.toLocaleString();
+
         statsEl.innerHTML = `
             <div class="dashboard-stat">
-                <span class="dashboard-stat-label">Total Tickers</span>
-                <span class="dashboard-stat-value">${totalTickers.toLocaleString()}</span>
+                <span class="dashboard-stat-label">${tickerLabel}</span>
+                <span class="dashboard-stat-value">${tickerValue}</span>
             </div>
             <div class="dashboard-stat">
                 <span class="dashboard-stat-label">In Charts</span>
