@@ -264,6 +264,19 @@ window.DashboardBase = (() => {
                 color: #666;
                 font-size: 0.85rem;
             }
+            /* Keyboard navigation focus styles */
+            .dashboard-table-container:focus {
+                outline: 2px solid #007bff;
+                outline-offset: -2px;
+            }
+            .dashboard-row-focused {
+                background-color: #e3f2fd !important;
+                outline: 2px solid #2196f3;
+                outline-offset: -2px;
+            }
+            .dashboard-row-focused td {
+                background-color: #e3f2fd !important;
+            }
     `;
 
     function ensureStyles() {
