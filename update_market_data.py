@@ -340,7 +340,7 @@ def show_interactive_menu():
     print("    6. Custom selection")
     print("    7. Cancel")
 
-    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
+    all_assets = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
 
     while True:
         choice = input("\nEnter choice [1-7] (default: 1): ").strip()
@@ -536,10 +536,10 @@ def main():
     parser.add_argument(
         "--assets",
         nargs="+",
-        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"],
+        choices=["all", "stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"],
         default=["all"],
         help=(
-            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, fundamentals. "
+            "Asset groups to update. Use one or more of: all, stocks, etfs, mutualfunds, adrs, fx, crypto, futures, iv, china, korea, brazil, canada, b3, fxclose, bcb, fred, fredbonds, eodhdbonds, fredindices, fundamentals. "
             "Default: all"
         ),
     )
@@ -554,7 +554,7 @@ def main():
     # Resolve asset selection
     chosen = [a.lower() for a in args.assets]
     if "all" in chosen:
-        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
+        assets_to_run = ["stocks", "etfs", "mutualfunds", "adrs", "fx", "crypto", "futures", "iv", "china", "korea", "brazil", "canada", "b3", "fxclose", "bcb", "fred", "fredbonds", "eodhdbonds", "fredindices", "fundamentals"]
     else:
         assets_to_run = chosen
 
