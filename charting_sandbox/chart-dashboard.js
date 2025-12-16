@@ -295,7 +295,7 @@ window.ChartDashboard = {
         if (this.viewMode === 'grouped') {
             this.renderGroupedBody(tbody, filteredData, columns);
         } else {
-            this.renderFlatBody(tbody, filteredData, columns);
+            this.renderFlatBody(tbody, filteredData, columns, card);
         }
 
         if (endTiming) endTiming();
@@ -471,11 +471,115 @@ window.ChartDashboard = {
     },
 
     /**
-     * Render flat table body
+     * Render flat table body with optional virtual scrolling
+     * @param {HTMLElement} tbody - Table body element
+     * @param {Array} data - Filtered/sorted data array
+     * @param {Array} columns - Column definitions
+     * @param {HTMLElement} [card] - Card element (needed for scroll handler setup)
      */
-    renderFlatBody(tbody, data, columns) {
-        tbody.innerHTML = data.map(row => this.renderRow(row)).join('');
+    renderFlatBody(tbody, data, columns, card) {
+        const container = tbody.closest('.dashboard-table-container');
+        if (!container) {
+            // Fallback: render all rows
+            tbody.innerHTML = data.map(row => this.renderRow(row)).join('');
+            this.attachRowHandlers(tbody);
+            return;
+        }
+
+        const containerHeight = container.clientHeight || 500;
+        const scrollTop = container.scrollTop || 0;
+
+        const range = window.DashboardBase.calcVisibleRange({
+            scrollTop,
+            containerHeight,
+            totalRows: data.length
+        });
+
+        if (!range.shouldVirtualize) {
+            // Small dataset - render all rows normally
+            tbody.innerHTML = data.map(row => this.renderRow(row)).join('');
+            this.attachRowHandlers(tbody);
+            this._removeScrollHandler(container);
+            return;
+        }
+
+        // Virtual scrolling: render only visible rows with spacers
+        const visibleData = data.slice(range.startIndex, range.endIndex);
+        const rowHeight = window.DashboardBase.VIRTUAL_SCROLL.ROW_HEIGHT;
+
+        // Build HTML with top/bottom spacer rows for scroll height
+        let html = '';
+        if (range.topPadding > 0) {
+            html += `<tr class="virtual-spacer-top"><td colspan="${columns.length}" style="height:${range.topPadding}px;padding:0;border:none;"></td></tr>`;
+        }
+        html += visibleData.map(row => this.renderRow(row)).join('');
+        if (range.bottomPadding > 0) {
+            html += `<tr class="virtual-spacer-bottom"><td colspan="${columns.length}" style="height:${range.bottomPadding}px;padding:0;border:none;"></td></tr>`;
+        }
+
+        tbody.innerHTML = html;
         this.attachRowHandlers(tbody);
+
+        // Setup scroll handler if card provided and not already set
+        if (card && !container._virtualScrollHandler) {
+            this._setupScrollHandler(container, card, data, columns);
+        }
+
+        // Store current data reference for scroll handler
+        container._virtualData = data;
+        container._virtualColumns = columns;
+    },
+
+    /**
+     * Setup scroll handler for virtual scrolling
+     */
+    _setupScrollHandler(container, card, data, columns) {
+        container._virtualScrollHandler = window.DashboardBase.createVirtualScrollHandler((scrollTop) => {
+            // Use stored data/columns (may be updated on filter/sort)
+            const currentData = container._virtualData || data;
+            const currentColumns = container._virtualColumns || columns;
+
+            const tbody = container.querySelector('tbody');
+            if (!tbody) return;
+
+            const containerHeight = container.clientHeight || 500;
+            const range = window.DashboardBase.calcVisibleRange({
+                scrollTop,
+                containerHeight,
+                totalRows: currentData.length
+            });
+
+            if (!range.shouldVirtualize) return;
+
+            // Re-render visible rows
+            const visibleData = currentData.slice(range.startIndex, range.endIndex);
+
+            let html = '';
+            if (range.topPadding > 0) {
+                html += `<tr class="virtual-spacer-top"><td colspan="${currentColumns.length}" style="height:${range.topPadding}px;padding:0;border:none;"></td></tr>`;
+            }
+            html += visibleData.map(row => this.renderRow(row)).join('');
+            if (range.bottomPadding > 0) {
+                html += `<tr class="virtual-spacer-bottom"><td colspan="${currentColumns.length}" style="height:${range.bottomPadding}px;padding:0;border:none;"></td></tr>`;
+            }
+
+            tbody.innerHTML = html;
+            this.attachRowHandlers(tbody);
+        });
+
+        container.addEventListener('scroll', container._virtualScrollHandler);
+    },
+
+    /**
+     * Remove scroll handler when no longer needed
+     */
+    _removeScrollHandler(container) {
+        if (container._virtualScrollHandler) {
+            container.removeEventListener('scroll', container._virtualScrollHandler);
+            container._virtualScrollHandler = null;
+        }
+        container._virtualData = null;
+        container._virtualColumns = null;
     },
 
     /**
