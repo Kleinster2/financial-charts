@@ -546,7 +546,14 @@ window.ChartUtils = {
             dashboardRender: 100,
             macroDashboardRender: 100,
             chartPlot: 500,
-            apiCall: 2000
+            // API endpoints (api_ prefix added automatically)
+            api_data: 2000,
+            api_volume: 2000,
+            api_metadata: 1000,
+            api_dashboard: 3000,
+            api_macro: 2000,
+            api_workspace: 1000,
+            api_fundamentals_chart: 2000
         },
 
         // Enable/disable logging (can be toggled via console)
