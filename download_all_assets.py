@@ -473,6 +473,11 @@ CHINA_A_SHARES = [
     # Infrastructure/Utilities
     "600900.SS",  # China Yangtze Power
     "601669.SS",  # China Power Construction
+    # Additional Tech & EV
+    "688169.SS",  # Beijing Roborock Technology (robot vacuums)
+    "603486.SS",  # Keshun Waterproof Technology
+    # Hong Kong-listed Chinese stocks (supplement to ADRs)
+    "1810.HK",    # Xiaomi Corporation
     # Index ETFs (for reference)
     "510300.SS",  # CSI 300 ETF
     "510050.SS",  # SSE 50 ETF
@@ -532,6 +537,9 @@ KOREA_STOCKS = [
     "028260.KS",  # Samsung C&T
     "000100.KS",  # Yuhan Corp (pharma)
     "018260.KS",  # Samsung SDS
+    # Defense & Aerospace
+    "012450.KS",  # Hanwha Aerospace
+    "047810.KS",  # Korea Aerospace Industries (KAI)
     # Index ETF
     "069500.KS",  # KODEX 200 (KOSPI 200 ETF)
 ]
@@ -713,7 +721,7 @@ GAMING_IGAMING_STOCKS = [
 BIOTECH_STOCKS = [
     # Vaccine & COVID-related
     "NVAX", "BNTX", "VXRT", "INO", "MRNA",
-    # Established large pharma/biotech  
+    # Established large pharma/biotech
     "GILD", "BIIB", "AMGN", "REGN", "VRTX", "ILMN",
     # Specialty pharmaceutical
     "BMRN", "ALNY", "TECH", "SRPT", "RARE",
@@ -725,6 +733,179 @@ BIOTECH_STOCKS = [
     "ZLAB", "HALO", "FOLD", "AGEN", "SAVA", "AXSM", "JAZZ", "PTCT",
     # Digital health & specialty
     "CHYM", "OMDA",
+    # Additional biotech
+    "RXRX",    # Recursion Pharmaceuticals (AI drug discovery)
+    "KROS",    # Keros Therapeutics
+    "LEGN",    # Legend Biotech
+]
+
+# India (NSE - National Stock Exchange, .NS suffix)
+# Major constituents of NIFTY 50 and key Indian companies
+INDIA_STOCKS = [
+    # IT Services
+    "INFY.NS",       # Infosys
+    "TCS.NS",        # Tata Consultancy Services
+    "WIPRO.NS",      # Wipro
+    "HCLTECH.NS",    # HCL Technologies
+    "TECHM.NS",      # Tech Mahindra
+    "LTIM.NS",       # LTIMindtree
+    "MPHASIS.NS",    # Mphasis
+    "COFORGE.NS",    # Coforge
+    "TATAELXSI.NS",  # Tata Elxsi
+    # Banks & Financial Services
+    "HDFCBANK.NS",   # HDFC Bank
+    "ICICIBANK.NS",  # ICICI Bank
+    "SBIN.NS",       # State Bank of India
+    "KOTAKBANK.NS",  # Kotak Mahindra Bank
+    "AXISBANK.NS",   # Axis Bank
+    "INDUSINDBK.NS", # IndusInd Bank
+    "BAJFINANCE.NS", # Bajaj Finance
+    "BAJAJFINSV.NS", # Bajaj Finserv
+    "HDFCLIFE.NS",   # HDFC Life Insurance
+    "SBILIFE.NS",    # SBI Life Insurance
+    # Energy & Industrial Conglomerates
+    "RELIANCE.NS",   # Reliance Industries
+    "TATAMOTORS.NS", # Tata Motors
+    "TATASTEEL.NS",  # Tata Steel
+    "TATAPOWER.NS",  # Tata Power
+    "ADANIENT.NS",   # Adani Enterprises
+    "ADANIPORTS.NS", # Adani Ports
+    "ADANIGREEN.NS", # Adani Green Energy
+    "LT.NS",         # Larsen & Toubro
+    "HINDALCO.NS",   # Hindalco Industries
+    "JSWSTEEL.NS",   # JSW Steel
+    # Consumer & FMCG
+    "HINDUNILVR.NS", # Hindustan Unilever
+    "ITC.NS",        # ITC Limited
+    "NESTLEIND.NS",  # Nestle India
+    "BRITANNIA.NS",  # Britannia Industries
+    "TITAN.NS",      # Titan Company
+    "ASIANPAINT.NS", # Asian Paints
+    "DMART.NS",      # Avenue Supermarts (DMart)
+    "TRENT.NS",      # Trent (Westside)
+    "PIDILITIND.NS", # Pidilite Industries
+    # Pharmaceuticals & Healthcare
+    "SUNPHARMA.NS",  # Sun Pharmaceutical
+    "DRREDDY.NS",    # Dr. Reddy's Laboratories
+    "CIPLA.NS",      # Cipla
+    "DIVISLAB.NS",   # Divi's Laboratories
+    "APOLLOHOSP.NS", # Apollo Hospitals
+    "MAXHEALTH.NS",  # Max Healthcare
+    "BIOCON.NS",     # Biocon
+    # Auto
+    "MARUTI.NS",     # Maruti Suzuki
+    "M&M.NS",        # Mahindra & Mahindra
+    "BAJAJ-AUTO.NS", # Bajaj Auto
+    "HEROMOTOCO.NS", # Hero MotoCorp
+    "EICHERMOT.NS",  # Eicher Motors (Royal Enfield)
+    "TVSMOTOR.NS",   # TVS Motor
+    # Telecom & Media
+    "BHARTIARTL.NS", # Bharti Airtel
+    "IDEA.NS",       # Vodafone Idea
+    "ZEEL.NS",       # Zee Entertainment
+    # Energy & Utilities
+    "ONGC.NS",       # Oil and Natural Gas Corporation
+    "NTPC.NS",       # NTPC Limited
+    "POWERGRID.NS",  # Power Grid Corporation
+    "COALINDIA.NS",  # Coal India
+    "IOC.NS",        # Indian Oil Corporation
+    "BPCL.NS",       # Bharat Petroleum
+    "GAIL.NS",       # GAIL India
+    # New-age Tech & Fintech
+    "PAYTM.NS",      # One97 Communications (Paytm)
+    "NYKAA.NS",      # FSN E-Commerce (Nykaa)
+    "POLICYBZR.NS",  # PB Fintech (Policybazaar)
+    "DIXON.NS",      # Dixon Technologies
+    # Metals & Mining
+    "VEDL.NS",       # Vedanta Limited
+    # Electronics Manufacturing
+    "KAYNES.NS",     # Kaynes Technology
+    "TATACOMM.NS",   # Tata Communications
+    # Defense
+    "HAL.NS",        # Hindustan Aeronautics
+    "BDL.NS",        # Bharat Dynamics
+]
+
+# Japan (TSE - Tokyo Stock Exchange, .T suffix)
+# Major Japanese stocks not already covered by ADRs
+JAPAN_STOCKS = [
+    "6954.T",   # Fanuc (robotics/automation)
+    "6506.T",   # Yaskawa Electric (robotics)
+    "6861.T",   # Keyence (sensors/automation)
+    "7011.T",   # Mitsubishi Heavy Industries
+    "7012.T",   # Kawasaki Heavy Industries
+]
+
+# European Defense Stocks
+EUROPE_DEFENSE_STOCKS = [
+    "BA.L",      # BAE Systems (UK)
+    "RHM.DE",    # Rheinmetall (Germany)
+    "AIR.PA",    # Airbus (France)
+    "HO.PA",     # Thales (France)
+    "SAF.PA",    # Safran (France)
+    "LDO.MI",    # Leonardo (Italy)
+    "SAAB-B.ST", # Saab (Sweden)
+]
+
+# Fintech & Brazil-related ADRs (not in main ADR list)
+FINTECH_LATAM_STOCKS = [
+    "AFRM",   # Affirm (BNPL)
+    "LC",     # LendingClub
+    "PAGS",   # PagSeguro (Brazil payments)
+    "STNE",   # StoneCo (Brazil payments)
+    "XP",     # XP Inc (Brazil brokerage)
+    "BBD",    # Banco Bradesco (Brazil bank ADR)
+    "BSBR",   # Banco Santander Brasil ADR
+]
+
+# Recent IPOs & High-Growth Stocks (not in S&P 500)
+RECENT_IPOS_GROWTH = [
+    "BIRK",   # Birkenstock (footwear)
+    "BRZE",   # Braze (customer engagement)
+    "CART",   # Instacart (Maplebear)
+    "CAVA",   # Cava Group (restaurants)
+    "FRSH",   # Freshworks (SaaS)
+    "GEV",    # GE Vernova (energy spin-off)
+    "GTLB",   # GitLab (DevOps)
+    "HIMS",   # Hims & Hers Health
+    "KVUE",   # Kenvue (J&J consumer spin-off)
+    "RDDT",   # Reddit
+    "RBRK",   # Rubrik (data security)
+    "SRAD",   # Sportradar (sports data)
+    "WEAV",   # Weave Communications
+    "MNSO",   # Miniso (retail)
+    "WMG",    # Warner Music Group
+    "SONO",   # Sonos (audio)
+]
+
+# Robotics & Industrial Automation
+ROBOTICS_INDUSTRIAL = [
+    "IRBT",   # iRobot (consumer robotics)
+    "CGNX",   # Cognex (machine vision)
+]
+
+# Firearms & Ammunition
+FIREARMS_STOCKS = [
+    "RGR",    # Sturm, Ruger & Co
+    "SWBI",   # Smith & Wesson Brands
+    "POWW",   # AMMO Inc
+]
+
+# Additional Defense Contractors (US-based, not in main DEFENSE_STOCKS)
+DEFENSE_CONTRACTORS = [
+    "SAIC",   # Science Applications International
+    "BAH",    # Booz Allen Hamilton
+    "MRCY",   # Mercury Systems
+    "CACI",   # CACI International
+    "PSN",    # Parsons Corporation
+    "ASGN",   # ASGN Incorporated
+    "ESLT",   # Elbit Systems (Israel)
+    "MNTS",   # Momentus (space)
+    "TATT",   # TAT Technologies
+    "MIND",   # MIND C.T.I.
+    "VSEC",   # VSE Corporation
+    "OCS",    # Orasure Technologies
+    "RBOHF",  # RBC Bearings (OTC)
 ]
 
 # Tickers that consistently fail to download (excluded from universe)
@@ -836,7 +1017,9 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             'stocks': [t for t in sorted(list(set(
                 sp500_tickers + ibov_tickers + OTHER_HIGH_PROFILE_STOCKS + EV_STOCKS + CRYPTO_STOCKS + QUANTUM_STOCKS +
                 ADTECH_STOCKS + GAMING_IGAMING_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
-                NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS
+                NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS +
+                FINTECH_LATAM_STOCKS + RECENT_IPOS_GROWTH + ROBOTICS_INDUSTRIAL + FIREARMS_STOCKS + DEFENSE_CONTRACTORS +
+                EUROPE_DEFENSE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
             'mutualfunds': MUTUAL_FUND_TICKERS,
@@ -847,6 +1030,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             'korea': KOREA_STOCKS,  # Korea Exchange (.KS) stocks
             'canada': CANADA_STOCKS,  # Toronto Stock Exchange (.TO) stocks
             'brazil': get_ibovespa_tickers(),  # B3 exchange (.SA) stocks
+            'india': INDIA_STOCKS,  # National Stock Exchange (.NS) stocks
+            'japan': JAPAN_STOCKS,  # Tokyo Stock Exchange (.T) stocks
         }
         selected = list(groups.keys()) if not assets else [a.lower() for a in assets]
         unknown = [a for a in selected if a not in groups]
@@ -1257,8 +1442,8 @@ if __name__ == "__main__":
     parser.add_argument('--lookback', type=int, default=None,
                         help='Days to look back for incremental updates (default: full history). Use 10 for daily updates.')
     parser.add_argument('--full', action='store_true', help='Force full history download (ignore --lookback)')
-    parser.add_argument('--assets', nargs='+', 
-                        choices=['stocks', 'etfs', 'adrs', 'fx', 'crypto', 'china', 'korea', 'canada', 'brazil'],
+    parser.add_argument('--assets', nargs='+',
+                        choices=['stocks', 'etfs', 'mutualfunds', 'adrs', 'fx', 'crypto', 'china', 'korea', 'canada', 'brazil', 'india', 'japan'],
                         help='Asset groups to update (default: all)')
     
     args = parser.parse_args()
