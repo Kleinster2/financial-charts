@@ -84,11 +84,7 @@ window.ChartMacroDashboard = {
             window.DashboardBase.ensureStyles();
         }
 
-        if (document.getElementById('macro-dashboard-styles')) return;
-
-        const style = document.createElement('style');
-        style.id = 'macro-dashboard-styles';
-        style.textContent = `
+        window.ChartUtils.ensureStyleTag('macro-dashboard-styles', `
             .macro-dashboard-card {
                 background: #fff;
                 border: 1px solid #ddd;
@@ -153,8 +149,7 @@ window.ChartMacroDashboard = {
                 font-weight: bold;
                 font-size: 0.9rem;
             }
-        `;
-        document.head.appendChild(style);
+        `);
     },
 
     /**
