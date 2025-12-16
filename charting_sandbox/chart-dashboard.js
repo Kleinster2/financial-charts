@@ -204,9 +204,8 @@ window.ChartDashboard = {
 
             if (!result) {
                 console.log('[ChartDashboard] Fetching:', url);
-                const response = await fetch(url);
-                if (!response.ok) throw new Error('Failed to load dashboard data');
-                result = await response.json();
+                // Use deduplicated fetch to prevent duplicate requests on rapid clicks
+                result = await window.ChartUtils.requests.fetchJSON(url);
 
                 // Cache the result (only for paginated requests, not append)
                 if (!append && window.ChartUtils?.cache) {

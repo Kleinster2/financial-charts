@@ -722,6 +722,78 @@ window.ChartUtils = {
             }
             return { valid, expired, total: this._store.size };
         }
+    },
+
+    // ═══════════════════════════════════════════════════════════════════════
+    // REQUEST DEDUPLICATION
+    // Prevents duplicate in-flight API calls for the same URL
+    // ═══════════════════════════════════════════════════════════════════════
+
+    requests: {
+        _inFlight: new Map(),
+
+        /**
+         * Fetch JSON with deduplication - returns existing promise if request is in-flight
+         * Unlike raw fetch, this caches the parsed JSON so all callers get the same data
+         * @param {string} url - URL to fetch
+         * @param {Object} [options] - Options
+         * @param {boolean} [options.skipDedupe=false] - Force new request even if one is in-flight
+         * @returns {Promise<Object>} Parsed JSON response
+         */
+        fetchJSON(url, options = {}) {
+            const { skipDedupe = false } = options;
+
+            // If skipping deduplication, make direct fetch
+            if (skipDedupe) {
+                return fetch(url).then(response => {
+                    if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+                    return response.json();
+                });
+            }
+
+            // Check for in-flight request
+            const existing = this._inFlight.get(url);
+            if (existing) {
+                console.log(`[Requests] DEDUP: ${url}`);
+                return existing;
+            }
+
+            // Create new request that resolves to parsed JSON
+            const promise = fetch(url)
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+                    return response.json();
+                })
+                .finally(() => {
+                    this._inFlight.delete(url);
+                });
+
+            this._inFlight.set(url, promise);
+            console.log(`[Requests] NEW: ${url}`);
+            return promise;
+        },
+
+        /**
+         * Cancel tracking for a URL (doesn't abort the request)
+         * @param {string} url - URL to cancel tracking for
+         */
+        cancel(url) {
+            this._inFlight.delete(url);
+        },
+
+        /**
+         * Get count of in-flight requests
+         */
+        pending() {
+            return this._inFlight.size;
+        },
+
+        /**
+         * Get list of in-flight URLs (for debugging)
+         */
+        list() {
+            return Array.from(this._inFlight.keys());
+        }
     }
 };
 

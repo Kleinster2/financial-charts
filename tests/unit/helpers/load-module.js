@@ -26,6 +26,7 @@ function loadModule(modulePath, existingWindow = null) {
   const code = fs.readFileSync(fullPath, 'utf8');
 
   // Create context with window as global
+  // Use getter for fetch so it picks up mocks set on window
   const context = vm.createContext({
     window,
     console,
@@ -44,7 +45,8 @@ function loadModule(modulePath, existingWindow = null) {
     JSON,
     Math,
     Promise,
-    Error
+    Error,
+    get fetch() { return window.fetch; }
   });
 
   // Run the module code
