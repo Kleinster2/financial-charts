@@ -92,6 +92,14 @@ window.StateManager = {
         this.saveCardsLocal(cards);
         this.saveToBackendDebounced(cards);
     },
+
+    /**
+     * Public save immediate: local + backend immediately (for beforeunload)
+     */
+    saveCardsImmediate(cards) {
+        this.saveCardsLocal(cards);
+        this.saveToBackend(cards);
+    },
     
     /**
      * Show a subtle save notification
