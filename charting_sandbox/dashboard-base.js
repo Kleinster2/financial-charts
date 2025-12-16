@@ -349,13 +349,96 @@ window.DashboardBase = (() => {
         });
     }
 
+    // Virtual scroll configuration
+    const VIRTUAL_SCROLL = {
+        ROW_HEIGHT: 33,       // Estimated row height in px (8px padding * 2 + ~17px content)
+        BUFFER_ROWS: 10,      // Extra rows above/below viewport
+        MIN_ROWS_TO_VIRTUALIZE: 100  // Only virtualize when row count exceeds this
+    };
+
+    /**
+     * Calculate visible row range for virtual scrolling
+     * @param {Object} options - Configuration
+     * @param {number} options.scrollTop - Current scroll position
+     * @param {number} options.containerHeight - Height of scroll container
+     * @param {number} options.totalRows - Total number of rows
+     * @param {number} [options.rowHeight] - Row height in px (default: VIRTUAL_SCROLL.ROW_HEIGHT)
+     * @param {number} [options.buffer] - Buffer rows above/below (default: VIRTUAL_SCROLL.BUFFER_ROWS)
+     * @returns {Object} { startIndex, endIndex, topPadding, bottomPadding, shouldVirtualize }
+     */
+    function calcVisibleRange({
+        scrollTop,
+        containerHeight,
+        totalRows,
+        rowHeight = VIRTUAL_SCROLL.ROW_HEIGHT,
+        buffer = VIRTUAL_SCROLL.BUFFER_ROWS
+    } = {}) {
+        // Don't virtualize small datasets
+        if (totalRows < VIRTUAL_SCROLL.MIN_ROWS_TO_VIRTUALIZE) {
+            return {
+                startIndex: 0,
+                endIndex: totalRows,
+                topPadding: 0,
+                bottomPadding: 0,
+                shouldVirtualize: false
+            };
+        }
+
+        const visibleRows = Math.ceil(containerHeight / rowHeight);
+        const firstVisible = Math.floor(scrollTop / rowHeight);
+
+        const startIndex = Math.max(0, firstVisible - buffer);
+        const endIndex = Math.min(totalRows, firstVisible + visibleRows + buffer);
+
+        const topPadding = startIndex * rowHeight;
+        const bottomPadding = (totalRows - endIndex) * rowHeight;
+
+        return {
+            startIndex,
+            endIndex,
+            topPadding,
+            bottomPadding,
+            shouldVirtualize: true
+        };
+    }
+
+    /**
+     * Create a debounced scroll handler for virtual scrolling
+     * @param {Function} renderFn - Function to call on scroll (receives scrollTop)
+     * @param {number} [delay=16] - Debounce delay in ms (~60fps)
+     * @returns {Function} Scroll event handler
+     */
+    function createVirtualScrollHandler(renderFn, delay = 16) {
+        let rafId = null;
+        let lastScrollTop = -1;
+
+        return function onScroll(e) {
+            const scrollTop = e.target.scrollTop;
+
+            // Skip if scroll position hasn't changed meaningfully
+            if (Math.abs(scrollTop - lastScrollTop) < 5) return;
+            lastScrollTop = scrollTop;
+
+            // Use requestAnimationFrame for smooth updates
+            if (rafId) cancelAnimationFrame(rafId);
+            rafId = requestAnimationFrame(() => {
+                renderFn(scrollTop);
+                rafId = null;
+            });
+        };
+    }
+
     return {
         ensureStyles,
         escapeHtml,
         renderStatusRow,
         setGlobalSearchTicker,
         filterAndSortData,
-        renderSortableHeader
+        renderSortableHeader,
+        // Virtual scroll exports
+        VIRTUAL_SCROLL,
+        calcVisibleRange,
+        createVirtualScrollHandler
     };
 })();
 

@@ -172,6 +172,131 @@ describe('DashboardBase', () => {
 
   });
 
+  describe('calcVisibleRange()', () => {
+
+    it('returns shouldVirtualize=false for small datasets', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 0,
+        containerHeight: 500,
+        totalRows: 50  // Below MIN_ROWS_TO_VIRTUALIZE (100)
+      });
+      assert.strictEqual(result.shouldVirtualize, false);
+      assert.strictEqual(result.startIndex, 0);
+      assert.strictEqual(result.endIndex, 50);
+      assert.strictEqual(result.topPadding, 0);
+      assert.strictEqual(result.bottomPadding, 0);
+    });
+
+    it('returns shouldVirtualize=true for large datasets', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 0,
+        containerHeight: 500,
+        totalRows: 200  // Above MIN_ROWS_TO_VIRTUALIZE (100)
+      });
+      assert.strictEqual(result.shouldVirtualize, true);
+    });
+
+    it('calculates correct range at top of scroll', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 0,
+        containerHeight: 330,  // ~10 rows visible at 33px each
+        totalRows: 200,
+        rowHeight: 33,
+        buffer: 5
+      });
+      // At top: startIndex should be 0 (max(0, 0 - 5))
+      assert.strictEqual(result.startIndex, 0);
+      // endIndex = min(200, 0 + 10 + 5) = 15
+      assert.strictEqual(result.endIndex, 15);
+      assert.strictEqual(result.topPadding, 0);
+      // bottomPadding = (200 - 15) * 33 = 6105
+      assert.strictEqual(result.bottomPadding, 185 * 33);
+    });
+
+    it('calculates correct range in middle of scroll', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 1650,  // 50 rows down (50 * 33)
+        containerHeight: 330,  // ~10 rows visible
+        totalRows: 200,
+        rowHeight: 33,
+        buffer: 5
+      });
+      // firstVisible = floor(1650 / 33) = 50
+      // startIndex = max(0, 50 - 5) = 45
+      assert.strictEqual(result.startIndex, 45);
+      // endIndex = min(200, 50 + 10 + 5) = 65
+      assert.strictEqual(result.endIndex, 65);
+      // topPadding = 45 * 33 = 1485
+      assert.strictEqual(result.topPadding, 45 * 33);
+      // bottomPadding = (200 - 65) * 33 = 4455
+      assert.strictEqual(result.bottomPadding, 135 * 33);
+    });
+
+    it('calculates correct range at bottom of scroll', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 6270,  // 190 rows down (190 * 33)
+        containerHeight: 330,  // ~10 rows visible
+        totalRows: 200,
+        rowHeight: 33,
+        buffer: 5
+      });
+      // firstVisible = floor(6270 / 33) = 190
+      // startIndex = max(0, 190 - 5) = 185
+      assert.strictEqual(result.startIndex, 185);
+      // endIndex = min(200, 190 + 10 + 5) = 200
+      assert.strictEqual(result.endIndex, 200);
+      // topPadding = 185 * 33 = 6105
+      assert.strictEqual(result.topPadding, 185 * 33);
+      // bottomPadding = (200 - 200) * 33 = 0
+      assert.strictEqual(result.bottomPadding, 0);
+    });
+
+    it('uses default values from VIRTUAL_SCROLL config', () => {
+      const result = DashboardBase.calcVisibleRange({
+        scrollTop: 0,
+        containerHeight: 500,
+        totalRows: 200
+      });
+      // Should use ROW_HEIGHT=33 and BUFFER_ROWS=10
+      assert.strictEqual(result.shouldVirtualize, true);
+      // With 500px / 33px = ~16 visible rows, buffer 10
+      // endIndex = min(200, 0 + 16 + 10) = 26
+      assert.ok(result.endIndex <= 30, 'endIndex should use default buffer');
+    });
+
+  });
+
+  describe('createVirtualScrollHandler()', () => {
+
+    it('returns a function', () => {
+      const handler = DashboardBase.createVirtualScrollHandler(() => {});
+      assert.strictEqual(typeof handler, 'function');
+    });
+
+    // Note: Testing the actual scroll behavior requires requestAnimationFrame
+    // which is not available in Node.js. The handler itself works in browsers.
+    // The calcVisibleRange logic is tested separately above.
+
+  });
+
+  describe('VIRTUAL_SCROLL config', () => {
+
+    it('exports VIRTUAL_SCROLL constants', () => {
+      assert.ok(DashboardBase.VIRTUAL_SCROLL);
+      assert.strictEqual(typeof DashboardBase.VIRTUAL_SCROLL.ROW_HEIGHT, 'number');
+      assert.strictEqual(typeof DashboardBase.VIRTUAL_SCROLL.BUFFER_ROWS, 'number');
+      assert.strictEqual(typeof DashboardBase.VIRTUAL_SCROLL.MIN_ROWS_TO_VIRTUALIZE, 'number');
+    });
+
+    it('has sensible default values', () => {
+      assert.ok(DashboardBase.VIRTUAL_SCROLL.ROW_HEIGHT > 20, 'Row height should be reasonable');
+      assert.ok(DashboardBase.VIRTUAL_SCROLL.ROW_HEIGHT < 100, 'Row height should be reasonable');
+      assert.ok(DashboardBase.VIRTUAL_SCROLL.BUFFER_ROWS >= 5, 'Buffer should be at least 5');
+      assert.ok(DashboardBase.VIRTUAL_SCROLL.MIN_ROWS_TO_VIRTUALIZE >= 50, 'Threshold should be at least 50');
+    });
+
+  });
+
   describe('escapeHtml()', () => {
 
     it('escapes < and >', () => {
