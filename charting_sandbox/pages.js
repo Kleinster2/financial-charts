@@ -620,11 +620,24 @@
   }
   window.PageManager = { ensurePage, showPage, renamePage };
 
-  window.addEventListener('beforeunload', () => {
-    // Use immediate save to ensure data is persisted before page closes
+  // Immediate save helper for page unload scenarios
+  function saveBeforeUnload() {
     if(window.saveCardsImmediate) window.saveCardsImmediate();
     else if(window.saveCards) window.saveCards();
     savePages();
+  }
+
+  // Primary: beforeunload (desktop browsers)
+  window.addEventListener('beforeunload', saveBeforeUnload);
+
+  // Fallback: pagehide (mobile Safari, iOS)
+  window.addEventListener('pagehide', saveBeforeUnload);
+
+  // Extra protection: save when tab becomes hidden (mobile browsers may kill hidden tabs)
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      saveBeforeUnload();
+    }
   });
 
   newPageBtn.addEventListener('click', () => {
