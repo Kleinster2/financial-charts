@@ -310,6 +310,38 @@ window.DashboardBase = (() => {
             .dashboard-row-focused td {
                 background-color: #e3f2fd !important;
             }
+            /* Loading skeleton styles */
+            .dashboard-skeleton-row td {
+                padding: 8px;
+            }
+            .dashboard-skeleton {
+                background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+                background-size: 200% 100%;
+                animation: skeleton-shimmer 1.5s infinite;
+                border-radius: 4px;
+                height: 16px;
+            }
+            .dashboard-skeleton.skeleton-ticker {
+                width: 60px;
+            }
+            .dashboard-skeleton.skeleton-name {
+                width: 120px;
+            }
+            .dashboard-skeleton.skeleton-price {
+                width: 70px;
+                margin-left: auto;
+            }
+            .dashboard-skeleton.skeleton-change {
+                width: 50px;
+                margin-left: auto;
+            }
+            .dashboard-skeleton.skeleton-short {
+                width: 40px;
+            }
+            @keyframes skeleton-shimmer {
+                0% { background-position: 200% 0; }
+                100% { background-position: -200% 0; }
+            }
     `;
 
     function ensureStyles() {
@@ -330,6 +362,42 @@ window.DashboardBase = (() => {
         if (!tbody) return;
         const safeColspan = Number(colspan) > 0 ? Number(colspan) : 1;
         tbody.innerHTML = `<tr><td colspan="${safeColspan}" class="dashboard-loading">${escapeHtml(message)}</td></tr>`;
+    }
+
+    /**
+     * Render skeleton loading rows
+     * @param {HTMLElement} tbody - Table body element
+     * @param {number} rowCount - Number of skeleton rows to render
+     * @param {number} colCount - Number of columns
+     */
+    function renderSkeletonRows(tbody, rowCount = 10, colCount = 12) {
+        if (!tbody) return;
+
+        const skeletonTypes = [
+            'skeleton-ticker',  // Ticker
+            'skeleton-name',    // Name
+            'skeleton-short',   // Pages
+            'skeleton-price',   // Price
+            'skeleton-change',  // Daily
+            'skeleton-change',  // Weekly
+            'skeleton-change',  // Monthly
+            'skeleton-change',  // Yearly
+            'skeleton-price',   // 52w High
+            'skeleton-price',   // 52w Low
+            'skeleton-short',   // First Date
+            'skeleton-short'    // Last Date
+        ];
+
+        let html = '';
+        for (let i = 0; i < rowCount; i++) {
+            html += '<tr class="dashboard-skeleton-row">';
+            for (let j = 0; j < colCount; j++) {
+                const type = skeletonTypes[j] || 'skeleton-short';
+                html += `<td><div class="dashboard-skeleton ${type}"></div></td>`;
+            }
+            html += '</tr>';
+        }
+        tbody.innerHTML = html;
     }
 
     function setGlobalSearchTicker(ticker) {
@@ -503,6 +571,7 @@ window.DashboardBase = (() => {
         ensureStyles,
         escapeHtml,
         renderStatusRow,
+        renderSkeletonRows,
         setGlobalSearchTicker,
         filterAndSortData,
         renderSortableHeader,

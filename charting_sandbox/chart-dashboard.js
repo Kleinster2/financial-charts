@@ -175,7 +175,8 @@ window.ChartDashboard = {
 
         if (!append) {
             this.data = [];
-            window.DashboardBase.renderStatusRow(tbody, { colspan: 12, message: 'Loading data...' });
+            // Show skeleton loading rows for better UX
+            window.DashboardBase.renderSkeletonRows(tbody, 10, 12);
         }
 
         if (this.isLoading) return;
