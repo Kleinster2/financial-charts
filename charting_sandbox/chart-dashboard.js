@@ -15,12 +15,23 @@ window.ChartDashboard = {
 
     /**
      * Create a dashboard card
+     * @param {HTMLElement} wrapperEl - Parent element to append card to
+     * @param {Object} options - Optional saved state to restore
      */
-    createDashboardCard(wrapperEl) {
+    createDashboardCard(wrapperEl, options = {}) {
         console.log('[ChartDashboard] createDashboardCard called, wrapper:', wrapperEl);
         const card = document.createElement('div');
         card.className = 'chart-card dashboard-card';
         card.id = `dashboard-${Date.now()}`;
+
+        // Restore saved state if provided
+        if (options.sortColumn) this.sortColumn = options.sortColumn;
+        if (options.sortDirection) this.sortDirection = options.sortDirection;
+        if (options.viewMode) this.viewMode = options.viewMode;
+        if (options.filterText) this.filterText = options.filterText;
+        if (options.columnOrder) this.columnOrder = options.columnOrder;
+        if (options.hiddenColumns) this.hiddenColumns = new Set(options.hiddenColumns);
+        if (options.columnWidths) this.columnWidths = options.columnWidths;
 
         card.innerHTML = `
             <div class="dashboard-header">
@@ -55,17 +66,23 @@ window.ChartDashboard = {
         const viewSelect = card.querySelector('.dashboard-view-select');
         const refreshBtn = card.querySelector('.dashboard-refresh-btn');
 
+        // Apply saved filter/viewMode to UI
+        if (this.filterText) filterInput.value = this.filterText;
+        if (this.viewMode) viewSelect.value = this.viewMode;
+
         filterInput.addEventListener('input', (e) => {
             const raw = e.target.value;
             // Trailing space = exact ticker match
             this.filterExact = raw.endsWith(' ') && raw.trim().length > 0;
             this.filterText = raw.trim().toLowerCase();
             this.renderTable(card);
+            if (window.saveCards) window.saveCards();
         });
 
         viewSelect.addEventListener('change', (e) => {
             this.viewMode = e.target.value;
             this.renderTable(card);
+            if (window.saveCards) window.saveCards();
         });
 
         refreshBtn.addEventListener('click', () => {
@@ -245,6 +262,7 @@ window.ChartDashboard = {
                 this.sortColumn = col;
                 this.sortDirection = direction;
                 this.renderTable(card);
+                if (window.saveCards) window.saveCards();
             }
         });
 
@@ -295,6 +313,7 @@ window.ChartDashboard = {
                     table.classList.remove('resizing');
                     document.removeEventListener('mousemove', onMouseMove);
                     document.removeEventListener('mouseup', onMouseUp);
+                    if (window.saveCards) window.saveCards();
                 };
 
                 document.addEventListener('mousemove', onMouseMove);
@@ -362,6 +381,7 @@ window.ChartDashboard = {
                     }
                 }
                 this.renderTable(card);
+                if (window.saveCards) window.saveCards();
             });
         });
     },
@@ -420,6 +440,7 @@ window.ChartDashboard = {
 
                         // Re-render table
                         this.renderTable(card);
+                        if (window.saveCards) window.saveCards();
                     }
                 }
             });
@@ -533,6 +554,25 @@ window.ChartDashboard = {
                 }
             });
         });
+    },
+
+    /**
+     * Serialize dashboard state for workspace save
+     * @param {HTMLElement} card - The dashboard card element
+     * @returns {Object} Serialized state
+     */
+    serializeCard(card) {
+        return {
+            type: 'dashboard',
+            page: card.closest('.page')?.dataset.page || '1',
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            viewMode: this.viewMode,
+            filterText: this.filterText,
+            columnOrder: this.columnOrder,
+            hiddenColumns: Array.from(this.hiddenColumns || []),
+            columnWidths: this.columnWidths || {}
+        };
     }
 };
 

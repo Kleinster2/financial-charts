@@ -12,12 +12,20 @@ window.ChartMacroDashboard = {
 
     /**
      * Create a macro dashboard card
+     * @param {HTMLElement} wrapperEl - Parent element to append card to
+     * @param {Object} options - Optional saved state to restore
      */
-    createMacroDashboardCard(wrapperEl) {
+    createMacroDashboardCard(wrapperEl, options = {}) {
         console.log('[ChartMacroDashboard] createMacroDashboardCard called');
         const card = document.createElement('div');
         card.className = 'chart-card macro-dashboard-card';
         card.id = `macro-dashboard-${Date.now()}`;
+
+        // Restore saved state if provided
+        if (options.sortColumn) this.sortColumn = options.sortColumn;
+        if (options.sortDirection) this.sortDirection = options.sortDirection;
+        if (options.viewMode) this.viewMode = options.viewMode;
+        if (options.filterText) this.filterText = options.filterText;
 
         card.innerHTML = `
             <div class="dashboard-header">
@@ -48,14 +56,20 @@ window.ChartMacroDashboard = {
         const viewSelect = card.querySelector('.dashboard-view-select');
         const refreshBtn = card.querySelector('.dashboard-refresh-btn');
 
+        // Apply saved filter/viewMode to UI
+        if (this.filterText) filterInput.value = this.filterText;
+        if (this.viewMode) viewSelect.value = this.viewMode;
+
         filterInput.addEventListener('input', (e) => {
             this.filterText = e.target.value.toLowerCase();
             this.renderTable(card);
+            if (window.saveCards) window.saveCards();
         });
 
         viewSelect.addEventListener('change', (e) => {
             this.viewMode = e.target.value;
             this.renderTable(card);
+            if (window.saveCards) window.saveCards();
         });
 
         refreshBtn.addEventListener('click', () => {
@@ -270,6 +284,7 @@ window.ChartMacroDashboard = {
                 this.sortColumn = col;
                 this.sortDirection = direction;
                 this.renderTable(card);
+                if (window.saveCards) window.saveCards();
             }
         });
 
@@ -362,6 +377,22 @@ window.ChartMacroDashboard = {
                 window.DashboardBase.setGlobalSearchTicker(ticker);
             });
         });
+    },
+
+    /**
+     * Serialize macro dashboard state for workspace save
+     * @param {HTMLElement} card - The dashboard card element
+     * @returns {Object} Serialized state
+     */
+    serializeCard(card) {
+        return {
+            type: 'macro-dashboard',
+            page: card.closest('.page')?.dataset.page || '1',
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            viewMode: this.viewMode,
+            filterText: this.filterText
+        };
     }
 };
 
