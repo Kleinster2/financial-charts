@@ -596,7 +596,10 @@ window.ChartDashboard = {
         this.initColumnDrag(card, thead);
 
         // Render body
+        const container = tbody.closest('.dashboard-table-container');
         if (this.viewMode === 'grouped') {
+            // Disable virtual scrolling for grouped view (complex nested structure)
+            if (container) this._removeScrollHandler(container);
             this.renderGroupedBody(tbody, filteredData, columns);
         } else {
             this.renderFlatBody(tbody, filteredData, columns, card);
