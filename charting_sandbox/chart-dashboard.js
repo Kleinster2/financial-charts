@@ -48,6 +48,7 @@ window.ChartDashboard = {
                     <select class="dashboard-view-select">
                         <option value="flat">Flat View</option>
                         <option value="grouped">Grouped by Page</option>
+                        <option value="grouped-chart">Grouped by Page & Chart</option>
                     </select>
                     <div class="dashboard-columns-dropdown">
                         <button class="dashboard-columns-btn">Columns ▼</button>
@@ -601,6 +602,10 @@ window.ChartDashboard = {
             // Disable virtual scrolling for grouped view (complex nested structure)
             if (container) this._removeScrollHandler(container);
             this.renderGroupedBody(tbody, filteredData, columns);
+        } else if (this.viewMode === 'grouped-chart') {
+            // Disable virtual scrolling for grouped view
+            if (container) this._removeScrollHandler(container);
+            this.renderGroupedByChartBody(tbody, filteredData, columns);
         } else {
             this.renderFlatBody(tbody, filteredData, columns, card);
         }
@@ -918,6 +923,59 @@ window.ChartDashboard = {
 
         if (noPage.length > 0) {
             html += `<tr class="dashboard-group-header"><td colspan="11">Not in Charts (${noPage.length})</td></tr>`;
+            html += noPage.map(row => this.renderRow(row)).join('');
+        }
+
+        tbody.innerHTML = html;
+        this.attachRowHandlers(tbody);
+    },
+
+    /**
+     * Render grouped table body by page and chart
+     */
+    renderGroupedByChartBody(tbody, data, columns) {
+        // Group by page, then by chart within each page
+        const pageGroups = {};  // pageName -> { chartName -> [rows] }
+        const noPage = [];
+
+        data.forEach(row => {
+            if (row.pages && row.pages.length > 0) {
+                // Use first page entry for grouping
+                const pageEntry = row.pages[0];
+                const pageName = pageEntry.page_name;
+                const chartTitle = pageEntry.chart_title || 'Untitled Chart';
+
+                if (!pageGroups[pageName]) pageGroups[pageName] = {};
+                if (!pageGroups[pageName][chartTitle]) pageGroups[pageName][chartTitle] = [];
+                pageGroups[pageName][chartTitle].push(row);
+            } else {
+                noPage.push(row);
+            }
+        });
+
+        // Sort page names
+        const sortedPages = Object.keys(pageGroups).sort();
+
+        let html = '';
+        sortedPages.forEach(pageName => {
+            const charts = pageGroups[pageName];
+            const pageTickerCount = Object.values(charts).reduce((sum, arr) => sum + arr.length, 0);
+
+            // Page header
+            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="11">${pageName} (${pageTickerCount})</td></tr>`;
+
+            // Sort chart names within page
+            const sortedCharts = Object.keys(charts).sort();
+            sortedCharts.forEach(chartTitle => {
+                const rows = charts[chartTitle];
+                // Chart sub-header
+                html += `<tr class="dashboard-group-header dashboard-chart-header"><td colspan="11">&nbsp;&nbsp;${chartTitle} (${rows.length})</td></tr>`;
+                html += rows.map(row => this.renderRow(row)).join('');
+            });
+        });
+
+        if (noPage.length > 0) {
+            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="11">Not in Charts (${noPage.length})</td></tr>`;
             html += noPage.map(row => this.renderRow(row)).join('');
         }
 
