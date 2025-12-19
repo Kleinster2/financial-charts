@@ -277,6 +277,16 @@ window.DashboardBase = (() => {
                 padding: 12px 8px;
                 border-bottom: 2px solid #dee2e6;
             }
+            .dashboard-chart-header {
+                background: #f4f6f8 !important;
+                font-weight: 600;
+            }
+            .dashboard-chart-header td {
+                padding: 8px 8px 8px 24px;
+                border-bottom: 1px solid #dee2e6;
+                font-size: 0.95em;
+                color: #495057;
+            }
             .dashboard-loading {
                 text-align: center;
                 padding: 40px;
