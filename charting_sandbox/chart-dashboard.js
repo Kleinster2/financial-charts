@@ -58,6 +58,7 @@ window.ChartDashboard = {
                     <span class="dashboard-refresh-indicator" style="display:none;">Updating...</span>
                     <button class="dashboard-reset-btn">Reset Layout</button>
                     <button class="dashboard-export-btn">Export CSV</button>
+                    <button class="dashboard-copy-btn" title="Copy as TSV (for Excel/Sheets)">Copy</button>
                 </div>
             </div>
             <div class="dashboard-stats"></div>
@@ -121,6 +122,12 @@ window.ChartDashboard = {
         const exportBtn = card.querySelector('.dashboard-export-btn');
         exportBtn.addEventListener('click', () => {
             this.exportCSV();
+        });
+
+        // Copy to clipboard button
+        const copyBtn = card.querySelector('.dashboard-copy-btn');
+        copyBtn.addEventListener('click', () => {
+            this.copyToClipboard();
         });
 
         // Load More button (fallback for infinite scroll)
@@ -1212,6 +1219,147 @@ window.ChartDashboard = {
         link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
+    },
+
+    /**
+     * Copy current filtered/sorted data to clipboard as TSV
+     */
+    copyToClipboard() {
+        // Get current filtered/sorted data using same logic as renderTable
+        const numericColumns = [
+            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
+            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
+        ];
+
+        const filteredData = window.DashboardBase.filterAndSortData({
+            data: this.data,
+            filterText: this.filterText,
+            filterFn: (d, filterText) => {
+                if (this.filterExact) {
+                    return d.ticker.toLowerCase() === filterText;
+                }
+                return d.ticker.toLowerCase().includes(filterText) ||
+                    (d.name && d.name.toLowerCase().includes(filterText)) ||
+                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
+            },
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            numericColumns,
+            getSortValue: (d, sortColumn) => {
+                if (sortColumn === 'pages') {
+                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
+                }
+                return d[sortColumn];
+            }
+        });
+
+        // Build TSV header - use visible columns only (same as CSV)
+        const defaultColumns = [
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+
+        // Get visible columns in order
+        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const visibleColumns = columnOrder
+            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
+            .map(key => defaultColumns.find(c => c.key === key))
+            .filter(Boolean);
+
+        // Build TSV content (tab-separated)
+        const header = visibleColumns.map(c => c.label).join('\t');
+        const rows = filteredData.map(row => {
+            return visibleColumns.map(col => {
+                let value = row[col.key];
+                // Pages: use page names (more informative) instead of count
+                if (col.key === 'pages') {
+                    if (row.pages && Array.isArray(row.pages) && row.pages.length > 0) {
+                        value = row.pages.map(p => p.page_name).join(', ');
+                    } else {
+                        value = '';
+                    }
+                }
+                if (value === null || value === undefined) {
+                    return '';
+                }
+                if (typeof value === 'number') {
+                    return value.toFixed ? value.toFixed(2) : String(value);
+                }
+                // Replace tabs/newlines in string values to avoid breaking TSV
+                return String(value).replace(/[\t\n\r]/g, ' ');
+            }).join('\t');
+        });
+
+        const rowCount = filteredData.length;
+
+        // Handle empty result
+        if (rowCount === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('Nothing to copy');
+            }
+            return;
+        }
+
+        const tsv = [header, ...rows].join('\n');
+
+        // Copy to clipboard
+        this._writeToClipboard(tsv, rowCount);
+    },
+
+    /**
+     * Write text to clipboard with fallback
+     * @param {string} text - Text to copy
+     * @param {number} rowCount - Number of rows (for toast message)
+     */
+    async _writeToClipboard(text, rowCount) {
+        try {
+            // Modern clipboard API (works on localhost and HTTPS)
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                if (window.Toast?.success) {
+                    window.Toast.success(`Copied ${rowCount} rows to clipboard`);
+                }
+                return;
+            }
+        } catch (err) {
+            console.warn('[ChartDashboard] Clipboard API failed, using fallback:', err);
+        }
+
+        // Fallback: textarea + execCommand
+        try {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.left = '-9999px';
+            textarea.style.top = '0';
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            const success = document.execCommand('copy');
+            document.body.removeChild(textarea);
+
+            if (success) {
+                if (window.Toast?.success) {
+                    window.Toast.success(`Copied ${rowCount} rows to clipboard`);
+                }
+            } else {
+                throw new Error('execCommand copy failed');
+            }
+        } catch (err) {
+            console.error('[ChartDashboard] Clipboard fallback failed:', err);
+            if (window.Toast?.error) {
+                window.Toast.error('Failed to copy to clipboard');
+            }
+        }
     },
 
     /**

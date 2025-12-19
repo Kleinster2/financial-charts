@@ -55,6 +55,21 @@ window.DashboardBase = (() => {
             .dashboard-refresh-btn:hover {
                 background: #0056b3;
             }
+            .dashboard-reset-btn,
+            .dashboard-export-btn,
+            .dashboard-copy-btn {
+                padding: 6px 12px;
+                background: #6c757d;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .dashboard-reset-btn:hover,
+            .dashboard-export-btn:hover,
+            .dashboard-copy-btn:hover {
+                background: #5a6268;
+            }
             .dashboard-refresh-indicator {
                 font-size: 12px;
                 color: #6c757d;
