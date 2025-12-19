@@ -241,6 +241,7 @@ class CBOEImpliedVolatilityFetcher:
     def update_stock_vix_from_cboe(self, lookback_days: int = 30) -> int:
         """
         Update stock VIX indices in stock_prices_daily from CBOE CSV files.
+        Uses safe UPDATE/INSERT statements instead of replacing the entire table.
         Returns number of tickers updated.
         """
         csv_data = self.fetch_cboe_csv_history(lookback_days)
@@ -250,26 +251,51 @@ class CBOEImpliedVolatilityFetcher:
             return 0
 
         conn = sqlite3.connect(self.db_path)
-        prices_df = pd.read_sql('SELECT * FROM stock_prices_daily', conn, index_col='Date')
-        prices_df.index = pd.to_datetime(prices_df.index).strftime('%Y-%m-%d')
+        cursor = conn.cursor()
 
         updated = 0
         for symbol, df in csv_data.items():
-            if symbol not in prices_df.columns:
-                prices_df[symbol] = np.nan
+            # Ensure column exists
+            try:
+                cursor.execute(f'ALTER TABLE stock_prices_daily ADD COLUMN "{symbol}" REAL')
+                conn.commit()
+                logger.info(f"Added column {symbol} to stock_prices_daily")
+            except sqlite3.OperationalError:
+                # Column already exists
+                pass
 
-            # Use CLOSE column
-            series = df['CLOSE']
-            matching = prices_df.index.intersection(series.index)
-            prices_df.loc[matching, symbol] = series.loc[matching].values
+            # Use CLOSE column from CBOE data
+            values_updated = 0
+            for date_str, row in df.iterrows():
+                close_value = row['CLOSE']
+                if pd.isna(close_value):
+                    continue
 
-            non_null = prices_df[symbol].notna().sum()
-            logger.info(f"Updated {symbol}: {len(matching)} new values, {non_null} total")
+                # Try UPDATE first
+                cursor.execute(f'''
+                    UPDATE stock_prices_daily
+                    SET "{symbol}" = ?
+                    WHERE DATE(Date) = ?
+                ''', (float(close_value), date_str))
+
+                if cursor.rowcount == 0:
+                    # Date doesn't exist, try INSERT
+                    try:
+                        cursor.execute(f'''
+                            INSERT INTO stock_prices_daily (Date, "{symbol}")
+                            VALUES (?, ?)
+                        ''', (date_str, float(close_value)))
+                    except sqlite3.IntegrityError:
+                        # Row exists but column was NULL
+                        pass
+
+                values_updated += 1
+
+            conn.commit()
+            logger.info(f"Updated {symbol}: {values_updated} values")
             updated += 1
 
-        prices_df.to_sql('stock_prices_daily', conn, if_exists='replace', index=True, index_label='Date')
         conn.close()
-
         return updated
 
     def init_database(self):
