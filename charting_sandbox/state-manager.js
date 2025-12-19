@@ -30,7 +30,64 @@ window.StateManager = {
 
     // Flag to prevent duplicate page switching
     _initialLoadComplete: false,
-    
+
+    /**
+     * Generate a unique key for a card (for merging)
+     * Uses page + tickers as the identifier
+     */
+    _cardKey(card) {
+        const page = card.page || '1';
+        const tickers = (card.tickers || []).slice().sort().join(',');
+        return `${page}:${tickers}`;
+    },
+
+    /**
+     * Merge local metadata (starred, tags) into backend cards
+     * Preserves stars/tags from localStorage that may not be in backend
+     */
+    _mergeLocalMetadata(backendCards, localCards) {
+        if (!localCards || !localCards.length) return backendCards;
+
+        // Build lookup from local cards
+        const localLookup = new Map();
+        for (const card of localCards) {
+            const key = this._cardKey(card);
+            if (card.starred || (card.tags && card.tags.length)) {
+                localLookup.set(key, { starred: card.starred, tags: card.tags });
+            }
+        }
+
+        if (localLookup.size === 0) return backendCards;
+
+        // Merge into backend cards
+        let mergedCount = 0;
+        for (const card of backendCards) {
+            const key = this._cardKey(card);
+            const localMeta = localLookup.get(key);
+            if (localMeta) {
+                // Preserve starred if local has it and backend doesn't
+                if (localMeta.starred && !card.starred) {
+                    card.starred = true;
+                    mergedCount++;
+                }
+                // Merge tags (union)
+                if (localMeta.tags && localMeta.tags.length) {
+                    const existingTags = new Set(card.tags || []);
+                    for (const tag of localMeta.tags) {
+                        existingTags.add(tag);
+                    }
+                    card.tags = Array.from(existingTags);
+                }
+            }
+        }
+
+        if (mergedCount > 0) {
+            console.log(`[StateManager] Merged ${mergedCount} starred charts from localStorage`);
+        }
+
+        return backendCards;
+    },
+
     /**
      * Save cards to localStorage only (immediate)
      */
@@ -145,6 +202,17 @@ window.StateManager = {
      */
     async loadCards() {
         try {
+            // Read localStorage FIRST (before it might be overwritten)
+            let localCards = null;
+            try {
+                const localData = localStorage.getItem(this.STORAGE_KEYS.CARDS);
+                if (localData) {
+                    localCards = JSON.parse(localData);
+                }
+            } catch (e) {
+                console.warn('[StateManager] Could not read localStorage for merge:', e);
+            }
+
             // Backend-first restore for cross-browser persistence
             let remoteData = null;
             if (window.DataFetcher) {
@@ -153,12 +221,14 @@ window.StateManager = {
                     // Two schema possibilities: legacy array or new object {cards, pages}
                     if (Array.isArray(remoteData)) {
                         if (remoteData.length > 0) {
-                            localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(remoteData));
+                            // Merge local starred/tags into backend cards
+                            const mergedCards = this._mergeLocalMetadata(remoteData, localCards);
+                            localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(mergedCards));
                             console.log('[StateManager] Loaded legacy workspace (array) from backend');
-                            return remoteData;
+                            return mergedCards;
                         }
                     } else if (typeof remoteData === 'object') {
-                        const cards = Array.isArray(remoteData.cards) ? remoteData.cards : [];
+                        let cards = Array.isArray(remoteData.cards) ? remoteData.cards : [];
                         // Restore pages metadata and switch to saved active page (only on first load)
                         if (remoteData.pages && typeof remoteData.pages === 'object' && !this._initialLoadComplete) {
                             try {
@@ -179,6 +249,8 @@ window.StateManager = {
                                 console.warn('[StateManager] Failed to cache sandbox_pages from backend:', e);
                             }
                         }
+                        // Merge local starred/tags into backend cards
+                        cards = this._mergeLocalMetadata(cards, localCards);
                         localStorage.setItem(this.STORAGE_KEYS.CARDS, JSON.stringify(cards));
                         console.log('[StateManager] Loaded workspace (object) from backend, cards=', cards.length);
                         if (cards.length > 0) return cards;
