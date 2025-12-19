@@ -218,30 +218,41 @@ window.DashboardBase = (() => {
             .dashboard-table .ticker-cell:hover {
                 text-decoration: underline;
             }
-            /* Pinned/frozen first column */
-            .dashboard-table th:first-child,
-            .dashboard-table td:first-child {
+            /* Pinned/frozen first two columns (actions + ticker) - scoped to .dashboard-card only */
+            .dashboard-card .dashboard-table th:first-child,
+            .dashboard-card .dashboard-table td:first-child {
                 position: sticky;
                 left: 0;
                 z-index: 1;
                 background: #f8f9fa;
             }
-            .dashboard-table th:first-child {
+            .dashboard-card .dashboard-table th:nth-child(2),
+            .dashboard-card .dashboard-table td:nth-child(2) {
+                position: sticky;
+                left: 32px;
+                z-index: 1;
+                background: #f8f9fa;
+            }
+            .dashboard-card .dashboard-table th:first-child,
+            .dashboard-card .dashboard-table th:nth-child(2) {
                 z-index: 3;
                 background: #e9ecef;
             }
-            .dashboard-table td:first-child {
+            .dashboard-card .dashboard-table td:first-child,
+            .dashboard-card .dashboard-table td:nth-child(2) {
                 background: #fff;
             }
-            .dashboard-table tr:hover td:first-child {
+            .dashboard-card .dashboard-table tr:hover td:first-child,
+            .dashboard-card .dashboard-table tr:hover td:nth-child(2) {
                 background: #f8f9fa;
             }
-            .dashboard-row-focused td:first-child {
+            .dashboard-card .dashboard-row-focused td:first-child,
+            .dashboard-card .dashboard-row-focused td:nth-child(2) {
                 background: #e3f2fd !important;
             }
             /* Shadow to indicate frozen column edge */
-            .dashboard-table th:first-child::after,
-            .dashboard-table td:first-child::after {
+            .dashboard-card .dashboard-table th:nth-child(2)::after,
+            .dashboard-card .dashboard-table td:nth-child(2)::after {
                 content: '';
                 position: absolute;
                 right: 0;
@@ -361,6 +372,64 @@ window.DashboardBase = (() => {
             @keyframes skeleton-shimmer {
                 0% { background-position: 200% 0; }
                 100% { background-position: -200% 0; }
+            }
+            /* Quick Chart button and menu */
+            .actions-cell {
+                width: 32px;
+                min-width: 32px;
+                max-width: 32px;
+                text-align: center;
+                padding: 4px !important;
+            }
+            .quick-chart-btn {
+                width: 24px;
+                height: 24px;
+                padding: 0;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 22px;
+                background: #28a745;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                transition: background 0.15s;
+            }
+            .quick-chart-btn:hover {
+                background: #218838;
+            }
+            .quick-chart-btn:active {
+                background: #1e7e34;
+            }
+            .quick-chart-menu {
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                min-width: 180px;
+                max-width: 280px;
+                overflow: hidden;
+            }
+            .quick-chart-menu-item {
+                padding: 10px 14px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                color: #333;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .quick-chart-menu-item:hover {
+                background: #f0f0f0;
+            }
+            .quick-chart-menu-item:first-child {
+                font-weight: 600;
+                color: #28a745;
+            }
+            .quick-chart-menu-divider {
+                height: 1px;
+                background: #eee;
+                margin: 4px 0;
             }
     `;
 
