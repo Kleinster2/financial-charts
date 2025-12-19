@@ -516,6 +516,7 @@ window.ChartDashboard = {
 
         // Default column definitions
         const defaultColumns = [
+            { key: 'actions', label: '' },
             { key: 'ticker', label: 'Ticker' },
             { key: 'name', label: 'Name' },
             { key: 'latest_price', label: 'Price' },
@@ -529,15 +530,20 @@ window.ChartDashboard = {
             { key: 'pages', label: 'Pages' }
         ];
 
-        // Initialize column order if not set
+        // Initialize column order if not set (exclude actions - always first)
         if (!this.columnOrder) {
-            this.columnOrder = defaultColumns.map(c => c.key);
+            this.columnOrder = defaultColumns.filter(c => c.key !== 'actions').map(c => c.key);
         }
 
-        // Build columns array in current order
+        // Build columns array: actions first (fixed), then user-ordered columns
         const columnMap = {};
         defaultColumns.forEach(c => columnMap[c.key] = c);
-        const columns = this.columnOrder.map(key => columnMap[key]).filter(Boolean);
+        const actionsCol = columnMap['actions'];
+        const orderedCols = this.columnOrder
+            .filter(key => key !== 'actions')  // Ensure actions not duplicated
+            .map(key => columnMap[key])
+            .filter(Boolean);
+        const columns = actionsCol ? [actionsCol, ...orderedCols] : orderedCols;
 
         // Filter + sort data
         const numericColumns = [
@@ -577,6 +583,10 @@ window.ChartDashboard = {
             sortColumn: this.sortColumn,
             sortDirection: this.sortDirection,
             thRenderer: (col, sortClass) => {
+                // Actions column: non-sortable, non-draggable, fixed width (no data-column to prevent sorting)
+                if (col.key === 'actions') {
+                    return `<th class="actions-header" style="width:32px;min-width:32px;cursor:default;"></th>`;
+                }
                 const widthStyle = savedWidths[col.key]
                     ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px;"`
                     : '';
@@ -661,7 +671,7 @@ window.ChartDashboard = {
      * Initialize columns dropdown for showing/hiding columns
      */
     initColumnsDropdown(card, btn, menu) {
-        // Default column definitions for building the menu
+        // Default column definitions for building the menu (exclude actions - always visible)
         const defaultColumns = [
             { key: 'ticker', label: 'Ticker' },
             { key: 'name', label: 'Name' },
@@ -793,7 +803,7 @@ window.ChartDashboard = {
         const container = tbody.closest('.dashboard-table-container');
         if (!container) {
             // Fallback: render all rows
-            tbody.innerHTML = data.map(row => this.renderRow(row)).join('');
+            tbody.innerHTML = data.map(row => this.renderRow(row, columns)).join('');
             this.attachRowHandlers(tbody);
             return;
         }
@@ -809,7 +819,7 @@ window.ChartDashboard = {
 
         if (!range.shouldVirtualize) {
             // Small dataset - render all rows normally
-            tbody.innerHTML = data.map(row => this.renderRow(row)).join('');
+            tbody.innerHTML = data.map(row => this.renderRow(row, columns)).join('');
             this.attachRowHandlers(tbody);
             this._removeScrollHandler(container);
             return;
@@ -824,7 +834,7 @@ window.ChartDashboard = {
         if (range.topPadding > 0) {
             html += `<tr class="virtual-spacer-top"><td colspan="${columns.length}" style="height:${range.topPadding}px;padding:0;border:none;"></td></tr>`;
         }
-        html += visibleData.map(row => this.renderRow(row)).join('');
+        html += visibleData.map(row => this.renderRow(row, columns)).join('');
         if (range.bottomPadding > 0) {
             html += `<tr class="virtual-spacer-bottom"><td colspan="${columns.length}" style="height:${range.bottomPadding}px;padding:0;border:none;"></td></tr>`;
         }
@@ -846,6 +856,7 @@ window.ChartDashboard = {
      * Setup scroll handler for virtual scrolling
      */
     _setupScrollHandler(container, card, data, columns) {
+        const self = this;
         container._virtualScrollHandler = window.DashboardBase.createVirtualScrollHandler((scrollTop) => {
             // Use stored data/columns (may be updated on filter/sort)
             const currentData = container._virtualData || data;
@@ -870,13 +881,13 @@ window.ChartDashboard = {
             if (range.topPadding > 0) {
                 html += `<tr class="virtual-spacer-top"><td colspan="${currentColumns.length}" style="height:${range.topPadding}px;padding:0;border:none;"></td></tr>`;
             }
-            html += visibleData.map(row => this.renderRow(row)).join('');
+            html += visibleData.map(row => self.renderRow(row, currentColumns)).join('');
             if (range.bottomPadding > 0) {
                 html += `<tr class="virtual-spacer-bottom"><td colspan="${currentColumns.length}" style="height:${range.bottomPadding}px;padding:0;border:none;"></td></tr>`;
             }
 
             tbody.innerHTML = html;
-            this.attachRowHandlers(tbody);
+            self.attachRowHandlers(tbody);
         });
 
         container.addEventListener('scroll', container._virtualScrollHandler);
@@ -901,6 +912,8 @@ window.ChartDashboard = {
         // Group by first page
         const groups = {};
         const noPage = [];
+        const colCount = columns.length;
+        const escape = window.DashboardBase.escapeHtml;
 
         data.forEach(row => {
             if (row.pages && row.pages.length > 0) {
@@ -917,13 +930,13 @@ window.ChartDashboard = {
 
         let html = '';
         sortedGroups.forEach(groupName => {
-            html += `<tr class="dashboard-group-header"><td colspan="11">${groupName} (${groups[groupName].length})</td></tr>`;
-            html += groups[groupName].map(row => this.renderRow(row)).join('');
+            html += `<tr class="dashboard-group-header"><td colspan="${colCount}">${escape(groupName)} (${groups[groupName].length})</td></tr>`;
+            html += groups[groupName].map(row => this.renderRow(row, columns)).join('');
         });
 
         if (noPage.length > 0) {
-            html += `<tr class="dashboard-group-header"><td colspan="11">Not in Charts (${noPage.length})</td></tr>`;
-            html += noPage.map(row => this.renderRow(row)).join('');
+            html += `<tr class="dashboard-group-header"><td colspan="${colCount}">Not in Charts (${noPage.length})</td></tr>`;
+            html += noPage.map(row => this.renderRow(row, columns)).join('');
         }
 
         tbody.innerHTML = html;
@@ -937,6 +950,8 @@ window.ChartDashboard = {
         // Group by page, then by chart within each page
         const pageGroups = {};  // pageName -> { chartName -> [rows] }
         const noPage = [];
+        const colCount = columns.length;
+        const escape = window.DashboardBase.escapeHtml;
 
         data.forEach(row => {
             if (row.pages && row.pages.length > 0) {
@@ -962,21 +977,21 @@ window.ChartDashboard = {
             const pageTickerCount = Object.values(charts).reduce((sum, arr) => sum + arr.length, 0);
 
             // Page header
-            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="11">${pageName} (${pageTickerCount})</td></tr>`;
+            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="${colCount}">${escape(pageName)} (${pageTickerCount})</td></tr>`;
 
             // Sort chart names within page
             const sortedCharts = Object.keys(charts).sort();
             sortedCharts.forEach(chartTitle => {
                 const rows = charts[chartTitle];
                 // Chart sub-header
-                html += `<tr class="dashboard-group-header dashboard-chart-header"><td colspan="11">&nbsp;&nbsp;${chartTitle} (${rows.length})</td></tr>`;
-                html += rows.map(row => this.renderRow(row)).join('');
+                html += `<tr class="dashboard-group-header dashboard-chart-header"><td colspan="${colCount}">&nbsp;&nbsp;${escape(chartTitle)} (${rows.length})</td></tr>`;
+                html += rows.map(row => this.renderRow(row, columns)).join('');
             });
         });
 
         if (noPage.length > 0) {
-            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="11">Not in Charts (${noPage.length})</td></tr>`;
-            html += noPage.map(row => this.renderRow(row)).join('');
+            html += `<tr class="dashboard-group-header dashboard-page-header"><td colspan="${colCount}">Not in Charts (${noPage.length})</td></tr>`;
+            html += noPage.map(row => this.renderRow(row, columns)).join('');
         }
 
         tbody.innerHTML = html;
@@ -984,9 +999,11 @@ window.ChartDashboard = {
     },
 
     /**
-     * Render a single row based on current column order
+     * Render a single row based on provided columns
+     * @param {Object} row - Row data
+     * @param {Array} columns - Column definitions array
      */
-    renderRow(row) {
+    renderRow(row, columns) {
         const formatChange = (val) => {
             if (val === null || val === undefined) return '-';
             const cls = val >= 0 ? 'change-positive' : 'change-negative';
@@ -1000,13 +1017,14 @@ window.ChartDashboard = {
         };
 
         const pagesHtml = row.pages && row.pages.length > 0
-            ? row.pages.map(p => `<a class="page-link" data-page="${p.page}">${p.page_name}</a>`).join(', ')
+            ? row.pages.map(p => `<a class="page-link" data-page="${p.page}">${window.DashboardBase.escapeHtml(p.page_name)}</a>`).join(', ')
             : '-';
 
         // Cell renderers for each column
         const cellRenderers = {
-            ticker: () => `<td class="ticker-cell">${row.ticker}</td>`,
-            name: () => `<td>${row.name || '-'}</td>`,
+            actions: () => `<td class="actions-cell"><button class="quick-chart-btn" data-ticker="${row.ticker}" title="Add to chart">+</button></td>`,
+            ticker: () => `<td class="ticker-cell">${window.DashboardBase.escapeHtml(row.ticker)}</td>`,
+            name: () => `<td>${window.DashboardBase.escapeHtml(row.name) || '-'}</td>`,
             latest_price: () => `<td class="price-cell">${formatPrice(row.latest_price)}</td>`,
             daily_change: () => `<td class="price-cell">${formatChange(row.daily_change)}</td>`,
             weekly_change: () => `<td class="price-cell">${formatChange(row.weekly_change)}</td>`,
@@ -1018,8 +1036,11 @@ window.ChartDashboard = {
             pages: () => `<td>${pagesHtml}</td>`
         };
 
-        // Render cells in column order
-        const cells = this.columnOrder.map(key => cellRenderers[key]()).join('');
+        // Render cells in column order from provided columns array
+        const cells = columns.map(col => {
+            const renderer = cellRenderers[col.key];
+            return renderer ? renderer() : '<td>-</td>';
+        }).join('');
 
         return `<tr data-ticker="${row.ticker}">${cells}</tr>`;
     },
@@ -1037,6 +1058,18 @@ window.ChartDashboard = {
         // Single delegated click handler for all tbody interactions
         tbody._delegatedHandler = (e) => {
             const target = e.target;
+
+            // Quick chart button click - show dropdown
+            const quickChartBtn = target.closest('.quick-chart-btn');
+            if (quickChartBtn) {
+                e.preventDefault();
+                e.stopPropagation();
+                const ticker = quickChartBtn.dataset.ticker;
+                if (ticker) {
+                    this.showQuickChartMenu(quickChartBtn, ticker);
+                }
+                return;
+            }
 
             // Ticker cell click - put ticker in global search
             const tickerCell = target.closest('.ticker-cell');
@@ -1179,6 +1212,281 @@ window.ChartDashboard = {
         link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
+    },
+
+    /**
+     * Show quick chart dropdown menu
+     * @param {HTMLElement} btn - The button element clicked
+     * @param {string} ticker - The ticker symbol
+     */
+    showQuickChartMenu(btn, ticker) {
+        // Remove any existing menu
+        const existing = document.querySelector('.quick-chart-menu');
+        if (existing) existing.remove();
+
+        // Get existing charts on the active page
+        const activePage = window.PageManager?.getActivePage?.() || '1';
+        const existingCharts = this.getChartsOnPage(activePage);
+        const escape = window.DashboardBase.escapeHtml;
+
+        // Build menu using DOM nodes (safer than innerHTML for user content)
+        const menu = document.createElement('div');
+        menu.className = 'quick-chart-menu';
+
+        // "New chart" item
+        const newItem = document.createElement('div');
+        newItem.className = 'quick-chart-menu-item';
+        newItem.dataset.action = 'new';
+        newItem.dataset.ticker = ticker;
+        newItem.textContent = 'New chart';
+        menu.appendChild(newItem);
+
+        if (existingCharts.length > 0) {
+            const divider = document.createElement('div');
+            divider.className = 'quick-chart-menu-divider';
+            menu.appendChild(divider);
+
+            existingCharts.forEach((chart, idx) => {
+                const label = chart.title || chart.tickers?.slice(0, 3).join(', ') || `Chart ${idx + 1}`;
+                const truncatedLabel = label.length > 25 ? label.slice(0, 22) + '...' : label;
+
+                const item = document.createElement('div');
+                item.className = 'quick-chart-menu-item';
+                item.dataset.action = 'add';
+                item.dataset.ticker = ticker;
+                item.dataset.cardId = chart.id;
+                item.textContent = `Add to: ${truncatedLabel}`;
+                menu.appendChild(item);
+            });
+        }
+
+        // Position menu below button
+        const btnRect = btn.getBoundingClientRect();
+        menu.style.position = 'fixed';
+        menu.style.left = `${btnRect.left}px`;
+        menu.style.top = `${btnRect.bottom + 2}px`;
+        menu.style.zIndex = '10001';
+
+        // Close on click outside
+        let clickHandler, scrollHandler, resizeHandler;
+
+        // Close menu helper - cleans up all event listeners
+        const closeMenu = () => {
+            if (menu.parentNode) {
+                menu.remove();
+            }
+            document.removeEventListener('click', clickHandler);
+            document.removeEventListener('scroll', scrollHandler, true);
+            window.removeEventListener('resize', resizeHandler);
+        };
+
+        clickHandler = (e) => {
+            if (!menu.contains(e.target) && e.target !== btn) {
+                closeMenu();
+            }
+        };
+
+        // Close on scroll (use capture to catch scroll on any element)
+        scrollHandler = () => closeMenu();
+
+        // Close on resize
+        resizeHandler = () => closeMenu();
+
+        // Add click handlers for menu items
+        menu.addEventListener('click', (e) => {
+            const item = e.target.closest('.quick-chart-menu-item');
+            if (!item) return;
+
+            const action = item.dataset.action;
+            const tickerVal = item.dataset.ticker;
+
+            if (action === 'new') {
+                this.createNewChart(tickerVal);
+            } else if (action === 'add') {
+                const cardId = item.dataset.cardId;
+                this.addToExistingChart(tickerVal, cardId);
+            }
+
+            closeMenu();
+        });
+
+        // Register close handlers after a tick (to avoid immediate close from the button click)
+        setTimeout(() => {
+            document.addEventListener('click', clickHandler);
+            document.addEventListener('scroll', scrollHandler, true);
+            window.addEventListener('resize', resizeHandler);
+        }, 0);
+
+        document.body.appendChild(menu);
+    },
+
+    /**
+     * Get list of chart cards on a given page
+     * @param {string} pageNum - Page number
+     * @returns {Array} Array of {id, title, tickers}
+     */
+    getChartsOnPage(pageNum) {
+        const pageEl = document.querySelector(`.page[data-page="${pageNum}"]`);
+        if (!pageEl) return [];
+
+        const charts = [];
+        pageEl.querySelectorAll('.chart-card').forEach(card => {
+            // Skip dashboard cards
+            if (card._type === 'dashboard' || card._type === 'macro-dashboard') return;
+
+            const ctx = card._ctx;
+            charts.push({
+                id: card.id,
+                title: ctx?.title || card._title || '',
+                tickers: ctx ? Array.from(ctx.selectedTickers || []) : Array.from(card._selectedTickers || [])
+            });
+        });
+
+        return charts;
+    },
+
+    /**
+     * Create a new chart with the given ticker
+     * @param {string} ticker - Ticker symbol
+     */
+    createNewChart(ticker) {
+        const activePage = window.PageManager?.getActivePage?.() || '1';
+
+        // Get or create the page wrapper element
+        const wrapper = window.PageManager?.ensurePage?.(activePage);
+        if (!wrapper) {
+            console.error('[ChartDashboard] Could not get page wrapper for page:', activePage);
+            return;
+        }
+
+        // Switch to the page first (ensures it's visible for proper sizing)
+        if (window.PageManager?.showPage) {
+            window.PageManager.showPage(activePage);
+        }
+
+        // Create the chart card with explicit wrapper
+        if (window.createChartCard) {
+            window.createChartCard({ tickers: [ticker], wrapperEl: wrapper });
+
+            // Save cards after creation
+            if (window.saveCards) {
+                window.saveCards();
+            }
+
+            // Show toast notification
+            if (window.Toast?.success) {
+                window.Toast.success(`Created new chart with ${ticker}`);
+            }
+        }
+    },
+
+    /**
+     * Add ticker to an existing chart
+     * @param {string} ticker - Ticker symbol
+     * @param {string} cardId - Card element ID
+     */
+    addToExistingChart(ticker, cardId) {
+        const card = document.getElementById(cardId);
+        if (!card) {
+            console.error('[ChartDashboard] Card not found:', cardId);
+            return;
+        }
+
+        const ctx = card._ctx;
+        if (!ctx) {
+            console.error('[ChartDashboard] Card has no context:', cardId);
+            return;
+        }
+
+        // Check if ticker already exists
+        if (ctx.selectedTickers.has(ticker)) {
+            if (window.Toast?.info) {
+                window.Toast.info(`${ticker} is already in this chart`);
+            }
+            return;
+        }
+
+        // Check max tickers limit
+        const maxTickers = window.ChartConfig?.UI?.MAX_TICKERS_PER_CHART || 30;
+        if (ctx.selectedTickers.size >= maxTickers) {
+            if (window.Toast?.warning) {
+                window.Toast.warning(`Chart already has ${maxTickers} tickers (maximum)`);
+            }
+            return;
+        }
+
+        // Switch to the page containing the chart FIRST (ensures visible for proper width)
+        const pageEl = card.closest('.page');
+        if (pageEl && window.PageManager?.showPage) {
+            window.PageManager.showPage(pageEl.dataset.page);
+        }
+
+        // Add the ticker
+        ctx.selectedTickers.add(ticker);
+
+        // Assign color
+        if (!ctx.tickerColorMap.has(ticker)) {
+            ctx.tickerColorMap.set(ticker, window.ChartConfig.getTickerColor(ticker));
+        }
+
+        // Re-render chips with proper handlers
+        const selectedTickersDiv = ctx.elements?.selectedTickersDiv;
+        if (selectedTickersDiv && window.ChartDomBuilder?.addTickerChips) {
+            // Get handlers from ChartCardTickers if available
+            const plotFn = () => window.ChartCardPlot?.plot?.(ctx);
+            let handleChipRemove = null;
+            let getAxis = null;
+            let onAxisChange = null;
+
+            if (window.ChartCardTickers?.createHandlers) {
+                const handlers = window.ChartCardTickers.createHandlers(ctx, { plot: plotFn });
+                handleChipRemove = handlers.handleChipRemove;
+                getAxis = handlers.getAxis;
+                onAxisChange = handlers.onAxisChange;
+            }
+
+            window.ChartDomBuilder.addTickerChips(
+                selectedTickersDiv,
+                ctx.selectedTickers,
+                ctx.tickerColorMap,
+                ctx.multiplierMap,
+                ctx.hiddenTickers,
+                handleChipRemove,
+                getAxis,
+                onAxisChange
+            );
+
+            // Re-bind chip interactions for click/multiplier handling
+            if (window.CardEventBinder?.bindTickerInteractions) {
+                window.CardEventBinder.bindTickerInteractions(
+                    selectedTickersDiv,
+                    ctx.hiddenTickers,
+                    ctx.multiplierMap,
+                    () => window.ChartCardContext?.syncToCard?.(ctx),
+                    plotFn,
+                    () => window.saveCards?.(),
+                    () => ctx.useRaw
+                );
+            }
+        }
+
+        // Sync and save
+        if (window.ChartCardContext?.syncToCard) {
+            window.ChartCardContext.syncToCard(ctx);
+        }
+        if (window.saveCards) {
+            window.saveCards();
+        }
+
+        // Trigger replot (direct call, not debounced)
+        if (window.ChartCardPlot?.plot) {
+            window.ChartCardPlot.plot(ctx);
+        }
+
+        // Show toast
+        if (window.Toast?.success) {
+            window.Toast.success(`Added ${ticker} to chart`);
+        }
     },
 
     /**

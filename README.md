@@ -843,5 +843,6 @@ Functions accept `name_map` parameter to override default ticker labels.
 ### Design Docs
 | Document | Purpose |
 |----------|---------|
+| **[Color Assignment System](docs/color-assignment-system.md)** | Hybrid color algorithm for chart series |
 | **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** | Index update procedures |
 | **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** | Portfolio management, ALLW replication |
