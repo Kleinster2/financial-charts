@@ -12,6 +12,7 @@ window.ChartDashboard = {
     filterExact: false, // true when trailing space = exact ticker match
     columnOrder: null, // Will be initialized with default order
     hiddenColumns: new Set(), // Columns to hide
+    conditionalFormatting: false, // Toggle for background shading on % columns
     // Pagination state
     pageSize: 100,
     totalCount: 0,
@@ -39,6 +40,7 @@ window.ChartDashboard = {
         if (options.columnOrder) this.columnOrder = options.columnOrder;
         if (options.hiddenColumns) this.hiddenColumns = new Set(options.hiddenColumns);
         if (options.columnWidths) this.columnWidths = options.columnWidths;
+        if (options.conditionalFormatting !== undefined) this.conditionalFormatting = options.conditionalFormatting;
 
         card.innerHTML = `
             <div class="dashboard-header">
@@ -56,6 +58,7 @@ window.ChartDashboard = {
                     </div>
                     <button class="dashboard-refresh-btn">Refresh</button>
                     <span class="dashboard-refresh-indicator" style="display:none;">Updating...</span>
+                    <button class="dashboard-conditional-btn" title="Toggle background shading for % columns">Conditional</button>
                     <button class="dashboard-reset-btn">Reset Layout</button>
                     <button class="dashboard-export-btn">Export CSV</button>
                     <button class="dashboard-copy-btn" title="Copy as TSV (for Excel/Sheets)">Copy</button>
@@ -110,6 +113,16 @@ window.ChartDashboard = {
         refreshBtn.addEventListener('click', () => {
             // Skip cache on manual refresh
             this.loadData(card, false, true);
+        });
+
+        // Conditional formatting toggle
+        const conditionalBtn = card.querySelector('.dashboard-conditional-btn');
+        this._updateConditionalButton(conditionalBtn);
+        conditionalBtn.addEventListener('click', () => {
+            this.conditionalFormatting = !this.conditionalFormatting;
+            this._updateConditionalButton(conditionalBtn);
+            this.renderTable(card);
+            if (window.saveCards) window.saveCards();
         });
 
         // Reset Layout button
@@ -168,6 +181,20 @@ window.ChartDashboard = {
             return;
         }
         window.DashboardBase.ensureStyles();
+    },
+
+    /**
+     * Update conditional formatting button appearance
+     */
+    _updateConditionalButton(btn) {
+        if (!btn) return;
+        if (this.conditionalFormatting) {
+            btn.classList.add('active');
+            btn.textContent = 'Conditional ✓';
+        } else {
+            btn.classList.remove('active');
+            btn.textContent = 'Conditional';
+        }
     },
 
     /**
@@ -1011,11 +1038,19 @@ window.ChartDashboard = {
      * @param {Array} columns - Column definitions array
      */
     renderRow(row, columns) {
+        const conditional = this.conditionalFormatting;
+
         const formatChange = (val) => {
-            if (val === null || val === undefined) return '-';
-            const cls = val >= 0 ? 'change-positive' : 'change-negative';
-            const sign = val >= 0 ? '+' : '';
-            return `<span class="${cls}">${sign}${val.toFixed(2)}%</span>`;
+            if (val === null || val === undefined) return { html: '-', bgClass: '' };
+            const isPositive = val >= 0;
+            const textCls = isPositive ? 'change-positive' : 'change-negative';
+            const sign = isPositive ? '+' : '';
+            const arrow = conditional ? (isPositive ? '▲ ' : '▼ ') : '';
+            const bgClass = conditional ? (isPositive ? 'cond-bg-positive' : 'cond-bg-negative') : '';
+            return {
+                html: `<span class="${textCls}">${arrow}${sign}${val.toFixed(2)}%</span>`,
+                bgClass
+            };
         };
 
         const formatPrice = (val) => {
@@ -1027,16 +1062,22 @@ window.ChartDashboard = {
             ? row.pages.map(p => `<a class="page-link" data-page="${p.page}">${window.DashboardBase.escapeHtml(p.page_name)}</a>`).join(', ')
             : '-';
 
+        // Pre-compute change values for cell renderers
+        const dailyChange = formatChange(row.daily_change);
+        const weeklyChange = formatChange(row.weekly_change);
+        const monthlyChange = formatChange(row.monthly_change);
+        const yearlyChange = formatChange(row.yearly_change);
+
         // Cell renderers for each column
         const cellRenderers = {
             actions: () => `<td class="actions-cell"><button class="quick-chart-btn" data-ticker="${row.ticker}" title="Add to chart">+</button></td>`,
             ticker: () => `<td class="ticker-cell">${window.DashboardBase.escapeHtml(row.ticker)}</td>`,
             name: () => `<td>${window.DashboardBase.escapeHtml(row.name) || '-'}</td>`,
             latest_price: () => `<td class="price-cell">${formatPrice(row.latest_price)}</td>`,
-            daily_change: () => `<td class="price-cell">${formatChange(row.daily_change)}</td>`,
-            weekly_change: () => `<td class="price-cell">${formatChange(row.weekly_change)}</td>`,
-            monthly_change: () => `<td class="price-cell">${formatChange(row.monthly_change)}</td>`,
-            yearly_change: () => `<td class="price-cell">${formatChange(row.yearly_change)}</td>`,
+            daily_change: () => `<td class="price-cell ${dailyChange.bgClass}">${dailyChange.html}</td>`,
+            weekly_change: () => `<td class="price-cell ${weeklyChange.bgClass}">${weeklyChange.html}</td>`,
+            monthly_change: () => `<td class="price-cell ${monthlyChange.bgClass}">${monthlyChange.html}</td>`,
+            yearly_change: () => `<td class="price-cell ${yearlyChange.bgClass}">${yearlyChange.html}</td>`,
             high_52w: () => `<td class="price-cell">${formatPrice(row.high_52w)}</td>`,
             low_52w: () => `<td class="price-cell">${formatPrice(row.low_52w)}</td>`,
             data_points: () => `<td class="price-cell">${row.data_points ? row.data_points.toLocaleString() : '-'}</td>`,
@@ -1652,7 +1693,8 @@ window.ChartDashboard = {
             filterText: this.filterText,
             columnOrder: this.columnOrder,
             hiddenColumns: Array.from(this.hiddenColumns || []),
-            columnWidths: this.columnWidths || {}
+            columnWidths: this.columnWidths || {},
+            conditionalFormatting: this.conditionalFormatting
         };
     }
 };

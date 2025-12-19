@@ -57,7 +57,8 @@ window.DashboardBase = (() => {
             }
             .dashboard-reset-btn,
             .dashboard-export-btn,
-            .dashboard-copy-btn {
+            .dashboard-copy-btn,
+            .dashboard-conditional-btn {
                 padding: 6px 12px;
                 background: #6c757d;
                 color: white;
@@ -67,8 +68,22 @@ window.DashboardBase = (() => {
             }
             .dashboard-reset-btn:hover,
             .dashboard-export-btn:hover,
-            .dashboard-copy-btn:hover {
+            .dashboard-copy-btn:hover,
+            .dashboard-conditional-btn:hover {
                 background: #5a6268;
+            }
+            .dashboard-conditional-btn.active {
+                background: #28a745;
+            }
+            .dashboard-conditional-btn.active:hover {
+                background: #218838;
+            }
+            /* Conditional formatting background colors */
+            .cond-bg-positive {
+                background-color: rgba(40, 167, 69, 0.15) !important;
+            }
+            .cond-bg-negative {
+                background-color: rgba(220, 53, 69, 0.15) !important;
             }
             .dashboard-refresh-indicator {
                 font-size: 12px;
