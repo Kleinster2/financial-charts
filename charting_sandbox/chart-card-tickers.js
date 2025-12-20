@@ -189,8 +189,8 @@ window.ChartCardTickers = (() => {
             const tickers = window.ChartDomBuilder.parseTickerInput(tickerInput.value);
             if (!tickers.length) return;
 
-            // Filter out already-selected tickers
-            let newTickers = tickers.filter(t => !ctx.selectedTickers.has(t));
+            // Filter out already-selected tickers and dedupe input
+            let newTickers = [...new Set(tickers.filter(t => !ctx.selectedTickers.has(t)))];
             if (!newTickers.length) {
                 tickerInput.value = '';
                 return;
