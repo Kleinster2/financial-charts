@@ -187,10 +187,9 @@ window.DashboardBase = (() => {
                 border-radius: 4px;
             }
             .dashboard-table {
-                width: 100%;
+                min-width: 1200px;
                 border-collapse: collapse;
                 font-size: 0.85rem;
-                table-layout: fixed;
             }
             .dashboard-table th,
             .dashboard-table td {
