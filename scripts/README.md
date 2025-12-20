@@ -6,6 +6,8 @@ Auxiliary scripts moved out of repo root for cleaner organization.
 
 ```
 scripts/
+├── create_sample_db.py  # Generate sample_data.db for demo mode (10 tickers, 45 days)
+│
 ├── one_off/      # Migrations, backfills, one-time setup
 │                 # add_*, restore_*, migrate_*, cleanup_*, etc.
 │                 # These ran once and are kept for reference
