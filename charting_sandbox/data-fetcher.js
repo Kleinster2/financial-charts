@@ -436,6 +436,3 @@ window.DataFetcher = {
         }
     }
 };
-
-// Export for use in other modules
-window.DataFetcher = DataFetcher;
