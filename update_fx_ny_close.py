@@ -156,6 +156,12 @@ def update_database(fx_df, db_path=None, verbose=True):
     if verbose:
         print(f"Existing data: {existing.shape}")
 
+    # Safety check: don't proceed if existing data appears corrupted/empty
+    if existing.empty or len(existing) < 1000:
+        print("ERROR: Existing stock_prices_daily table appears empty or corrupted. Aborting FX update.")
+        conn.close()
+        return
+
     # Update FX columns with new NY close data
     updated_count = 0
     for ticker in fx_df.columns:
@@ -164,11 +170,20 @@ def update_database(fx_df, db_path=None, verbose=True):
                 if date in existing.index and pd.notna(fx_df.loc[date, ticker]):
                     old_val = existing.loc[date, ticker]
                     new_val = fx_df.loc[date, ticker]
+                    # Ensure scalar values (handle potential duplicate indices)
+                    if isinstance(old_val, pd.Series):
+                        old_val = old_val.iloc[0]
+                    if isinstance(new_val, pd.Series):
+                        new_val = new_val.iloc[0]
                     if pd.isna(old_val) or abs(old_val - new_val) > 0.0001:
                         existing.loc[date, ticker] = new_val
                         updated_count += 1
 
-    # Save back
+    # Save back - drop orphaned index first if exists
+    try:
+        conn.execute("DROP INDEX IF EXISTS ix_stock_prices_daily_Date")
+    except Exception:
+        pass
     existing.to_sql('stock_prices_daily', conn, if_exists='replace', index=True)
     conn.close()
 
