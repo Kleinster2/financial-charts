@@ -22,10 +22,14 @@ window.ChartDashboard = {
     hasMore: false,
     // Keyboard navigation state
     focusedRowIndex: -1,
-    // Sparkline state
+    // Sparkline state (30D)
     sparklineCache: new Map(), // ticker -> { data: [...], pctChange: number }
     sparklineAbortController: null, // AbortController for in-flight requests
     sparklinePendingTickers: new Set(), // Tickers awaiting sparkline fetch
+    // Sparkline state (1Y)
+    sparkline1yCache: new Map(),
+    sparkline1yAbortController: null,
+    sparkline1yPendingTickers: new Set(),
 
     /**
      * Create a dashboard card
@@ -623,6 +627,7 @@ window.ChartDashboard = {
             { key: 'actions', label: '' },
             { key: 'ticker', label: 'Ticker' },
             { key: 'sparkline', label: '30D', noSort: true },
+            { key: 'sparkline1y', label: '1Y', noSort: true },
             { key: 'name', label: 'Name' },
             { key: 'latest_price', label: 'Price' },
             { key: 'daily_change', label: 'Day %' },
@@ -810,6 +815,7 @@ window.ChartDashboard = {
         const defaultColumns = [
             { key: 'ticker', label: 'Ticker' },
             { key: 'sparkline', label: '30D' },
+            { key: 'sparkline1y', label: '1Y' },
             { key: 'name', label: 'Name' },
             { key: 'latest_price', label: 'Price' },
             { key: 'daily_change', label: 'Day %' },
@@ -1173,7 +1179,7 @@ window.ChartDashboard = {
         // Check if this row is selected
         const isSelected = this.selectedTickers.has(row.ticker);
 
-        // Sparkline renderer
+        // Sparkline renderer (30D)
         const renderSparkline = () => {
             const cached = this.sparklineCache.get(row.ticker);
             if (!cached) {
@@ -1190,12 +1196,28 @@ window.ChartDashboard = {
             return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
         };
 
+        // Sparkline renderer (1Y)
+        const renderSparkline1y = () => {
+            const cached = this.sparkline1yCache.get(row.ticker);
+            if (!cached) {
+                this.sparkline1yPendingTickers.add(row.ticker);
+                return `<td class="sparkline-cell" data-ticker-1y="${row.ticker}"><span class="sparkline-loading">...</span></td>`;
+            }
+            const { data, pctChange } = cached;
+            const svg = this._renderSparklineSVG(data, pctChange);
+            const sign = pctChange >= 0 ? '+' : '';
+            const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
+            const title = `1Y: ${sign}${pctChange.toFixed(1)}%`;
+            return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
+        };
+
         // Cell renderers for each column
         const cellRenderers = {
             select: () => `<td class="select-cell"><input type="checkbox" class="row-select-checkbox" data-ticker="${row.ticker}" ${isSelected ? 'checked' : ''}></td>`,
             actions: () => `<td class="actions-cell"><button class="quick-chart-btn" data-ticker="${row.ticker}" title="Add to chart">+</button></td>`,
             ticker: () => `<td class="ticker-cell">${window.DashboardBase.escapeHtml(row.ticker)}</td>`,
             sparkline: renderSparkline,
+            sparkline1y: renderSparkline1y,
             name: () => `<td>${window.DashboardBase.escapeHtml(row.name) || '-'}</td>`,
             latest_price: () => `<td class="price-cell">${formatPrice(row.latest_price)}</td>`,
             daily_change: () => `<td class="price-cell ${dailyChange.bgClass}">${dailyChange.html}</td>`,
@@ -1415,7 +1437,66 @@ window.ChartDashboard = {
         }
         this._sparklineFetchTimeout = setTimeout(() => {
             this._fetchSparklines(card);
+            this._fetchSparklines1y(card);
         }, 100);
+    },
+
+    /**
+     * Fetch 1Y sparklines for pending tickers
+     * @param {HTMLElement} card - Dashboard card element
+     */
+    async _fetchSparklines1y(card) {
+        if (this.sparkline1yPendingTickers.size === 0) return;
+
+        // Abort any in-flight request
+        if (this.sparkline1yAbortController) {
+            this.sparkline1yAbortController.abort();
+        }
+        this.sparkline1yAbortController = new AbortController();
+
+        // Get tickers to fetch (limit to 50)
+        const tickers = Array.from(this.sparkline1yPendingTickers).slice(0, 50);
+        this.sparkline1yPendingTickers.clear();
+
+        try {
+            const url = `${window.API_BASE_URL || ''}/api/dashboard/sparklines?tickers=${encodeURIComponent(tickers.join(','))}&days=365`;
+            const response = await fetch(url, { signal: this.sparkline1yAbortController.signal });
+
+            if (!response.ok) {
+                console.warn('[Dashboard] 1Y Sparkline fetch failed:', response.status);
+                return;
+            }
+
+            const data = await response.json();
+
+            // Cache results and update cells
+            for (const [ticker, points] of Object.entries(data)) {
+                if (points && points.length >= 2) {
+                    const firstVal = points[0].value;
+                    const lastVal = points[points.length - 1].value;
+                    const pctChange = ((lastVal - firstVal) / firstVal) * 100;
+                    this.sparkline1yCache.set(ticker, { data: points, pctChange });
+
+                    // Update the cell in the DOM
+                    const cell = card.querySelector(`.sparkline-cell[data-ticker-1y="${ticker}"]`);
+                    if (cell) {
+                        const svg = this._renderSparklineSVG(points, pctChange);
+                        const sign = pctChange >= 0 ? '+' : '';
+                        const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
+                        const title = `1Y: ${sign}${pctChange.toFixed(1)}%`;
+                        cell.className = `sparkline-cell ${colorClass}`;
+                        cell.title = title;
+                        cell.setAttribute('aria-label', title);
+                        cell.innerHTML = svg;
+                    }
+                }
+            }
+
+            console.log(`[Dashboard] Fetched ${Object.keys(data).length} 1Y sparklines`);
+        } catch (err) {
+            if (err.name === 'AbortError') return;
+            console.error('[Dashboard] 1Y Sparkline fetch error:', err);
+        }
     },
 
     /**
