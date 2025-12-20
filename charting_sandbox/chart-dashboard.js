@@ -103,7 +103,7 @@ window.ChartDashboard = {
                 }
                 return d.ticker.toLowerCase().includes(filterText) ||
                     (d.name && d.name.toLowerCase().includes(filterText)) ||
-                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
+                    (d.pages && d.pages.some(p => String(p.page_name ?? '').toLowerCase().includes(filterText)));
             },
             sortColumn: this.sortColumn,
             sortDirection: this.sortDirection,
@@ -2290,9 +2290,14 @@ window.ChartDashboard = {
     _escapeCsvField(value, delimiter) {
         if (value === null || value === undefined) return '';
 
+        // Numbers pass through without formula injection protection
+        if (typeof value === 'number') {
+            return String(value);
+        }
+
         let strVal = String(value);
 
-        // Formula injection protection: prefix with ' if starts with dangerous char
+        // Formula injection protection: prefix with ' if string starts with dangerous char
         if (strVal.length > 0 && '=+-@'.includes(strVal[0])) {
             strVal = "'" + strVal;
         }
