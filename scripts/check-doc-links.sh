@@ -25,31 +25,32 @@ for file in $FILES; do
   dir=$(dirname "$file")
 
   # Extract markdown links: [text](path.md) or [text](path.md#anchor)
-  grep -oE '\[[^]]*\]\([^)]+\.md[^)]*\)' "$file" 2>/dev/null | \
-    sed 's/.*](//' | sed 's/)$//' | sed 's/#.*//' | \
-    while read -r link; do
-      # Skip external links
-      if [[ "$link" == http* ]]; then
-        continue
-      fi
+  links=$(grep -oE '\[[^]]*\]\([^)]+\.md[^)]*\)' "$file" 2>/dev/null | \
+    sed 's/.*](//' | sed 's/)$//' | sed 's/#.*//')
 
-      # Resolve relative path from the file's directory
-      if [[ "$link" == ./* ]] || [[ "$link" == ../* ]]; then
-        resolved="$dir/$link"
-      else
-        resolved="$link"
-      fi
+  for link in $links; do
+    # Skip external links
+    if [[ "$link" == http* ]]; then
+      continue
+    fi
 
-      # Normalize path (remove ./ and resolve ../)
-      resolved=$(cd "$(dirname "$resolved")" 2>/dev/null && pwd)/$(basename "$resolved")
-      resolved=${resolved#$(pwd)/}
+    # All relative links resolve from the file's directory
+    if [[ "$link" != /* ]]; then
+      resolved="$dir/$link"
+    else
+      resolved="$link"
+    fi
 
-      # Check if file exists
-      if [ ! -f "$resolved" ]; then
-        echo "BROKEN in $file: $link"
-        BROKEN=1
-      fi
-    done
+    # Normalize path (remove ./ and resolve ../)
+    resolved=$(cd "$(dirname "$resolved")" 2>/dev/null && pwd)/$(basename "$resolved")
+    resolved=${resolved#$(pwd)/}
+
+    # Check if file exists
+    if [ ! -f "$resolved" ]; then
+      echo "BROKEN in $file: $link"
+      BROKEN=1
+    fi
+  done
 done
 
 if [ $BROKEN -eq 1 ]; then
