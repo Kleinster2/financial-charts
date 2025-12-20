@@ -58,7 +58,9 @@ window.DashboardBase = (() => {
             .dashboard-reset-btn,
             .dashboard-export-btn,
             .dashboard-copy-btn,
-            .dashboard-conditional-btn {
+            .dashboard-conditional-btn,
+            .dashboard-export-all-btn,
+            .dashboard-copy-all-btn {
                 padding: 6px 12px;
                 background: #6c757d;
                 color: white;
@@ -69,8 +71,24 @@ window.DashboardBase = (() => {
             .dashboard-reset-btn:hover,
             .dashboard-export-btn:hover,
             .dashboard-copy-btn:hover,
-            .dashboard-conditional-btn:hover {
+            .dashboard-conditional-btn:hover,
+            .dashboard-export-all-btn:hover,
+            .dashboard-copy-all-btn:hover {
                 background: #5a6268;
+            }
+            /* Highlight Export All / Copy All buttons when visible */
+            .dashboard-export-all-btn,
+            .dashboard-copy-all-btn {
+                background: #17a2b8;
+            }
+            .dashboard-export-all-btn:hover,
+            .dashboard-copy-all-btn:hover {
+                background: #138496;
+            }
+            .dashboard-copy-all-btn:disabled {
+                background: #6c757d;
+                cursor: wait;
+                opacity: 0.7;
             }
             .dashboard-conditional-btn.active {
                 background: #28a745;
@@ -460,6 +478,168 @@ window.DashboardBase = (() => {
                 height: 1px;
                 background: #eee;
                 margin: 4px 0;
+            }
+            /* Multi-select checkbox column */
+            .select-cell {
+                width: 32px;
+                min-width: 32px;
+                max-width: 32px;
+                text-align: center;
+                padding: 4px !important;
+            }
+            .select-header {
+                width: 32px;
+                min-width: 32px;
+                max-width: 32px;
+                text-align: center;
+                cursor: default !important;
+            }
+            .row-select-checkbox,
+            .select-all-checkbox {
+                width: 16px;
+                height: 16px;
+                cursor: pointer;
+                accent-color: #007bff;
+            }
+            /* Floating action bar */
+            .dashboard-action-bar {
+                position: sticky;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 12px 16px;
+                background: #2c3e50;
+                color: white;
+                border-radius: 0 0 4px 4px;
+                box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+                z-index: 100;
+            }
+            .action-bar-count {
+                font-weight: 600;
+                font-size: 0.95rem;
+                padding-right: 8px;
+                border-right: 1px solid rgba(255,255,255,0.3);
+            }
+            .action-bar-compare,
+            .action-bar-clear {
+                padding: 6px 14px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                font-weight: 500;
+                transition: background 0.15s;
+            }
+            .action-bar-compare {
+                background: #28a745;
+                color: white;
+            }
+            .action-bar-compare:hover {
+                background: #218838;
+            }
+            .action-bar-clear {
+                background: #6c757d;
+                color: white;
+            }
+            .action-bar-clear:hover {
+                background: #5a6268;
+            }
+            /* Action bar dropdown */
+            .action-bar-add-dropdown {
+                position: relative;
+            }
+            .action-bar-add-btn {
+                padding: 6px 14px;
+                background: #007bff;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                font-weight: 500;
+                transition: background 0.15s;
+            }
+            .action-bar-add-btn:hover {
+                background: #0056b3;
+            }
+            .action-bar-add-menu {
+                display: none;
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                margin-bottom: 4px;
+                background: white;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                min-width: 200px;
+                max-width: 300px;
+                max-height: 250px;
+                overflow-y: auto;
+                z-index: 101;
+            }
+            .action-bar-add-menu.show {
+                display: block;
+            }
+            .action-bar-menu-item {
+                padding: 10px 14px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                color: #333;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .action-bar-menu-item:hover {
+                background: #f0f0f0;
+            }
+            .action-bar-menu-item.disabled {
+                color: #999;
+                cursor: not-allowed;
+            }
+            .action-bar-menu-item.disabled:hover {
+                background: transparent;
+            }
+            /* Update pinned columns for select + actions + ticker */
+            .dashboard-card .dashboard-table th:nth-child(3),
+            .dashboard-card .dashboard-table td:nth-child(3) {
+                position: sticky;
+                left: 64px;
+                z-index: 1;
+                background: #f8f9fa;
+            }
+            .dashboard-card .dashboard-table th:nth-child(3) {
+                z-index: 3;
+                background: #e9ecef;
+            }
+            .dashboard-card .dashboard-table td:nth-child(3) {
+                background: #fff;
+            }
+            .dashboard-card .dashboard-table tr:hover td:nth-child(3) {
+                background: #f8f9fa;
+            }
+            .dashboard-card .dashboard-row-focused td:nth-child(3) {
+                background: #e3f2fd !important;
+            }
+            /* Shadow after third column (ticker) */
+            .dashboard-card .dashboard-table th:nth-child(3)::after,
+            .dashboard-card .dashboard-table td:nth-child(3)::after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 4px;
+                background: linear-gradient(to right, rgba(0,0,0,0.08), transparent);
+                pointer-events: none;
+            }
+            /* Remove shadow from second column now that third is pinned */
+            .dashboard-card .dashboard-table th:nth-child(2)::after,
+            .dashboard-card .dashboard-table td:nth-child(2)::after {
+                display: none;
             }
     `;
 
