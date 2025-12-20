@@ -713,7 +713,7 @@ window.ChartDashboard = {
                 if (col.key === 'actions') {
                     return `<th class="actions-header" style="width:32px;min-width:32px;cursor:default;"></th>`;
                 }
-                const widthStyle = savedWidths[col.key]
+                const widthStyle = savedWidths.hasOwnProperty(col.key)
                     ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px;"`
                     : '';
                 const label = window.DashboardBase.escapeHtml(col.label);
