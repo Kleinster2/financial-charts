@@ -16,6 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check documentation links
+        run: bash scripts/check-doc-links.sh
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
