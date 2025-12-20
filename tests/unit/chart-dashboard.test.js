@@ -329,4 +329,199 @@ describe('ChartDashboard', () => {
 
   });
 
+  describe('batch export methods', () => {
+
+    describe('_escapeCsvField()', () => {
+
+      it('returns empty string for null/undefined', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField(null, ','), '');
+        assert.strictEqual(ChartDashboard._escapeCsvField(undefined, ','), '');
+      });
+
+      it('converts numbers to strings', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField(123.45, ','), '123.45');
+        assert.strictEqual(ChartDashboard._escapeCsvField(0, ','), '0');
+      });
+
+      it('applies formula injection protection for =', () => {
+        // Prefixes with ' but doesn't quote since no special chars
+        assert.strictEqual(ChartDashboard._escapeCsvField('=SUM(A1)', ','), "'=SUM(A1)");
+      });
+
+      it('applies formula injection protection for +', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('+1234', ','), "'+1234");
+      });
+
+      it('applies formula injection protection for -', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('-5.5%', ','), "'-5.5%");
+      });
+
+      it('applies formula injection protection for @', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('@user', ','), "'@user");
+      });
+
+      it('combines formula injection with CSV quoting when needed', () => {
+        // Contains comma, so needs quoting, plus formula injection
+        assert.strictEqual(ChartDashboard._escapeCsvField('=A,B', ','), "\"'=A,B\"");
+      });
+
+      it('quotes CSV values with commas', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('a,b,c', ','), '"a,b,c"');
+      });
+
+      it('escapes quotes in CSV', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('say "hello"', ','), '"say ""hello"""');
+      });
+
+      it('handles newlines in CSV', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('line1\nline2', ','), '"line1\nline2"');
+      });
+
+      it('replaces tabs with spaces in TSV', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('a\tb', '\t'), 'a b');
+      });
+
+      it('replaces newlines with spaces in TSV', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('a\nb', '\t'), 'a b');
+      });
+
+    });
+
+    describe('_getSelectedRowsData()', () => {
+
+      it('returns empty array when no selection', () => {
+        ChartDashboard.selectedTickers = new Set();
+        ChartDashboard.data = [
+          { ticker: 'AAPL', name: 'Apple' },
+          { ticker: 'MSFT', name: 'Microsoft' }
+        ];
+
+        const result = ChartDashboard._getSelectedRowsData();
+        assert.ok(Array.isArray(result), 'Result should be an array');
+        assert.strictEqual(result.length, 0, 'Result should be empty');
+      });
+
+      it('returns selected rows in filtered+sorted order', () => {
+        // Set data in arbitrary order
+        ChartDashboard.data = [
+          { ticker: 'MSFT', name: 'Microsoft', daily_change: 2.0 },
+          { ticker: 'AAPL', name: 'Apple', daily_change: -1.0 },
+          { ticker: 'GOOGL', name: 'Alphabet', daily_change: 0.5 },
+          { ticker: 'TSLA', name: 'Tesla', daily_change: 3.0 }
+        ];
+
+        // Select in "random" insertion order: GOOGL, AAPL, TSLA
+        ChartDashboard.selectedTickers = new Set(['GOOGL', 'AAPL', 'TSLA']);
+
+        // Sort by ticker ascending (default)
+        ChartDashboard.sortColumn = 'ticker';
+        ChartDashboard.sortDirection = 'asc';
+        ChartDashboard.filterText = '';
+
+        const result = ChartDashboard._getSelectedRowsData();
+
+        // Should be sorted alphabetically: AAPL, GOOGL, TSLA
+        assert.strictEqual(result.length, 3);
+        assert.strictEqual(result[0].ticker, 'AAPL');
+        assert.strictEqual(result[1].ticker, 'GOOGL');
+        assert.strictEqual(result[2].ticker, 'TSLA');
+      });
+
+      it('respects sort direction', () => {
+        ChartDashboard.data = [
+          { ticker: 'AAPL', daily_change: 1.0 },
+          { ticker: 'MSFT', daily_change: 3.0 },
+          { ticker: 'GOOGL', daily_change: 2.0 }
+        ];
+
+        ChartDashboard.selectedTickers = new Set(['AAPL', 'MSFT', 'GOOGL']);
+        ChartDashboard.sortColumn = 'daily_change';
+        ChartDashboard.sortDirection = 'desc';
+        ChartDashboard.filterText = '';
+
+        const result = ChartDashboard._getSelectedRowsData();
+
+        // Should be sorted by daily_change descending: MSFT(3), GOOGL(2), AAPL(1)
+        assert.strictEqual(result[0].ticker, 'MSFT');
+        assert.strictEqual(result[1].ticker, 'GOOGL');
+        assert.strictEqual(result[2].ticker, 'AAPL');
+      });
+
+      it('respects filter', () => {
+        ChartDashboard.data = [
+          { ticker: 'AAPL', name: 'Apple' },
+          { ticker: 'MSFT', name: 'Microsoft' },
+          { ticker: 'GOOGL', name: 'Alphabet' }
+        ];
+
+        ChartDashboard.selectedTickers = new Set(['AAPL', 'MSFT', 'GOOGL']);
+        ChartDashboard.sortColumn = 'ticker';
+        ChartDashboard.sortDirection = 'asc';
+        ChartDashboard.filterText = 'app'; // Matches AAPL (ticker) and also tests name filter
+
+        const result = ChartDashboard._getSelectedRowsData();
+
+        // Only AAPL matches filter
+        assert.strictEqual(result.length, 1);
+        assert.strictEqual(result[0].ticker, 'AAPL');
+      });
+
+    });
+
+    describe('_formatRowsForExport()', () => {
+
+      it('returns header and rows', () => {
+        ChartDashboard.columnOrder = ['ticker', 'name', 'latest_price'];
+        ChartDashboard.hiddenColumns = new Set();
+
+        const data = [
+          { ticker: 'AAPL', name: 'Apple', latest_price: 195.50 }
+        ];
+
+        const { header, rows } = ChartDashboard._formatRowsForExport(data, ',');
+
+        assert.ok(header.includes('Ticker'));
+        assert.ok(header.includes('Name'));
+        assert.ok(header.includes('Price'));
+        assert.strictEqual(rows.length, 1);
+        assert.ok(rows[0].includes('AAPL'));
+        assert.ok(rows[0].includes('Apple'));
+      });
+
+      it('excludes hidden columns', () => {
+        ChartDashboard.columnOrder = ['ticker', 'name', 'latest_price'];
+        ChartDashboard.hiddenColumns = new Set(['name']);
+
+        const data = [
+          { ticker: 'AAPL', name: 'Apple', latest_price: 195.50 }
+        ];
+
+        const { header, rows } = ChartDashboard._formatRowsForExport(data, ',');
+
+        assert.ok(!header.includes('Name'));
+        assert.ok(!rows[0].includes('Apple'));
+      });
+
+      it('formats pages array as comma-separated names', () => {
+        ChartDashboard.columnOrder = ['ticker', 'pages'];
+        ChartDashboard.hiddenColumns = new Set();
+
+        const data = [
+          {
+            ticker: 'AAPL',
+            pages: [{ page_name: 'Tech' }, { page_name: 'Growth' }]
+          }
+        ];
+
+        const { rows } = ChartDashboard._formatRowsForExport(data, ',');
+
+        // Pages should be formatted as "Tech, Growth"
+        assert.ok(rows[0].includes('Tech'));
+        assert.ok(rows[0].includes('Growth'));
+      });
+
+    });
+
+  });
+
 });

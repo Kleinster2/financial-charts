@@ -13,8 +13,12 @@ TRADING_DAYS_PER_YEAR = 252
 
 # Database Configuration
 DB_FILENAME = "market_data.db"
+SAMPLE_DB_FILENAME = "sample_data.db"
 DUCKDB_FILENAME = "market_data.duckdb"
 SCHEMA_CACHE_TTL = 3600  # 1 hour in seconds
+
+# Demo mode - set DEMO_MODE=1 to use sample database (for demos/testing without full DB)
+DEMO_MODE = os.environ.get('DEMO_MODE', '0') == '1'
 
 # DuckDB toggle - set USE_DUCKDB=1 environment variable to enable
 USE_DUCKDB = os.environ.get('USE_DUCKDB', '0') == '1'
@@ -176,14 +180,27 @@ def resolve_ticker_aliases(tickers: list) -> dict:
 _logger = logging.getLogger(__name__)
 
 def resolve_db_path() -> str:
-    """Resolve absolute SQLite database path with legacy fallback.
+    """Resolve absolute SQLite database path with demo mode and legacy fallback.
 
     Order of precedence:
-    1) market_data.db (current, from DB_FILENAME) in project root
-    2) sp500_data.db (legacy) in project root, with a deprecation warning
-    3) return path to market_data.db even if missing (callers can create it)
+    1) If DEMO_MODE=1: sample_data.db in project root (for demos without full DB)
+    2) market_data.db (current, from DB_FILENAME) in project root
+    3) sp500_data.db (legacy) in project root, with a deprecation warning
+    4) return path to market_data.db even if missing (callers can create it)
     """
     basedir = os.path.abspath(os.path.dirname(__file__))
+
+    # Demo mode: use sample database if available
+    if DEMO_MODE:
+        sample_db = os.path.join(basedir, SAMPLE_DB_FILENAME)
+        if os.path.exists(sample_db):
+            _logger.info("DEMO_MODE: Using sample database 'sample_data.db'")
+            return sample_db
+        _logger.warning(
+            "DEMO_MODE enabled but sample_data.db not found. "
+            "Run 'python scripts/create_sample_db.py' to create it."
+        )
+
     default_db = os.path.join(basedir, DB_FILENAME)
     legacy_db = os.path.join(basedir, 'sp500_data.db')
 

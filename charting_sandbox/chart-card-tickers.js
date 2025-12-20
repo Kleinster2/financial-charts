@@ -181,23 +181,53 @@ window.ChartCardTickers = (() => {
         }
 
         /**
-         * Add ticker from input field
+         * Add ticker(s) from input field
+         * Supports comma/space separated lists: "AAPL, MSFT, GOOG" or "AAPL MSFT GOOG"
          */
         function addTickerFromInput() {
-            const { tickerInput, selectedTickersDiv } = ctx.elements;
-            const input = window.ChartDomBuilder.normalizeTicker(tickerInput.value);
-            if (!input || ctx.selectedTickers.has(input)) return;
+            const { tickerInput } = ctx.elements;
+            const tickers = window.ChartDomBuilder.parseTickerInput(tickerInput.value);
+            if (!tickers.length) return;
 
-            ctx.selectedTickers.add(input);
-
-            // Assign hash-based color for new ticker
-            if (!ctx.tickerColorMap.has(input)) {
-                ctx.tickerColorMap.set(input, window.ChartConfig.getTickerColor(input));
+            // Filter out already-selected tickers and dedupe input
+            let newTickers = [...new Set(tickers.filter(t => !ctx.selectedTickers.has(t)))];
+            if (!newTickers.length) {
+                tickerInput.value = '';
+                return;
             }
+
+            // Enforce max tickers per chart
+            const maxTickers = window.ChartConfig?.UI?.MAX_TICKERS_PER_CHART || 30;
+            const currentCount = ctx.selectedTickers.size;
+            const availableSlots = maxTickers - currentCount;
+
+            if (availableSlots <= 0) {
+                if (window.Toast?.warning) {
+                    window.Toast.warning(`Chart already has maximum ${maxTickers} tickers`);
+                }
+                tickerInput.value = '';
+                return;
+            }
+
+            if (newTickers.length > availableSlots) {
+                const skipped = newTickers.length - availableSlots;
+                newTickers = newTickers.slice(0, availableSlots);
+                if (window.Toast?.warning) {
+                    window.Toast.warning(`Added ${availableSlots} tickers, skipped ${skipped} (max ${maxTickers})`);
+                }
+            }
+
+            // Batch add all new tickers
+            newTickers.forEach(ticker => {
+                ctx.selectedTickers.add(ticker);
+                if (!ctx.tickerColorMap.has(ticker)) {
+                    ctx.tickerColorMap.set(ticker, window.ChartConfig.getTickerColor(ticker));
+                }
+            });
 
             renderChips();
             tickerInput.value = '';
-            ctx.saveCards();
+            ctx.saveCards(); // Single save after all tickers added
         }
 
         /**

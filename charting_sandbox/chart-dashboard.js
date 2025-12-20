@@ -1590,152 +1590,6 @@ window.ChartDashboard = {
     },
 
     /**
-     * Copy selected rows to clipboard as TSV
-     * Uses same column visibility/order as current table
-     */
-    copySelected() {
-        const selectedData = this._getSelectedRowsData();
-        if (selectedData.length === 0) {
-            if (window.Toast?.info) {
-                window.Toast.info('No rows selected');
-            }
-            return;
-        }
-
-        const { header, rows } = this._formatRowsForExport(selectedData, '\t');
-        const tsv = [header, ...rows].join('\n');
-
-        this._writeToClipboard(tsv, selectedData.length);
-    },
-
-    /**
-     * Export selected rows as CSV download
-     * Uses same column visibility/order as current table
-     */
-    exportSelected() {
-        const selectedData = this._getSelectedRowsData();
-        if (selectedData.length === 0) {
-            if (window.Toast?.info) {
-                window.Toast.info('No rows selected');
-            }
-            return;
-        }
-
-        const { header, rows } = this._formatRowsForExport(selectedData, ',');
-        const csv = [header, ...rows].join('\n');
-
-        // Create blob and trigger download
-        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-        const url = URL.createObjectURL(blob);
-        const anchor = document.createElement('a');
-        anchor.href = url;
-        anchor.download = `selected_tickers_${new Date().toISOString().slice(0, 10)}.csv`;
-        anchor.style.display = 'none';
-        document.body.appendChild(anchor);
-        anchor.click();
-        document.body.removeChild(anchor);
-        URL.revokeObjectURL(url);
-
-        if (window.Toast?.success) {
-            window.Toast.success(`Exported ${selectedData.length} rows`);
-        }
-    },
-
-    /**
-     * Get data rows for selected tickers
-     * @returns {Array} Array of row data objects for selected tickers
-     */
-    _getSelectedRowsData() {
-        if (this.selectedTickers.size === 0) return [];
-
-        // Filter loaded data to selected tickers
-        return this.data.filter(row => this.selectedTickers.has(row.ticker));
-    },
-
-    /**
-     * Format rows for export (CSV or TSV)
-     * Uses current column visibility and order
-     * @param {Array} data - Array of row data
-     * @param {string} delimiter - ',' for CSV, '\t' for TSV
-     * @returns {Object} { header: string, rows: string[] }
-     */
-    _formatRowsForExport(data, delimiter) {
-        // Default column definitions (same as renderTable)
-        const defaultColumns = [
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
-
-        // Get visible columns in order (exclude 'select' and 'actions')
-        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
-        const visibleColumns = columnOrder
-            .filter(key => key !== 'select' && key !== 'actions')
-            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => defaultColumns.find(c => c.key === key))
-            .filter(Boolean);
-
-        // Build header
-        const header = visibleColumns.map(c => this._escapeCsvField(c.label, delimiter)).join(delimiter);
-
-        // Build rows
-        const rows = data.map(row => {
-            return visibleColumns.map(col => {
-                let value = row[col.key];
-
-                // Handle pages specially - join page names
-                if (col.key === 'pages') {
-                    if (row.pages && Array.isArray(row.pages) && row.pages.length > 0) {
-                        value = row.pages.map(p => p.page_name).join(', ');
-                    } else {
-                        value = '';
-                    }
-                }
-
-                if (value === null || value === undefined) {
-                    return '';
-                }
-                if (typeof value === 'number') {
-                    return value.toFixed ? value.toFixed(2) : String(value);
-                }
-
-                return this._escapeCsvField(String(value), delimiter);
-            }).join(delimiter);
-        });
-
-        return { header, rows };
-    },
-
-    /**
-     * Escape a field for CSV/TSV export
-     * @param {string} value - Field value
-     * @param {string} delimiter - ',' or '\t'
-     * @returns {string} Escaped field
-     */
-    _escapeCsvField(value, delimiter) {
-        if (!value) return '';
-
-        // For TSV, just replace tabs/newlines
-        if (delimiter === '\t') {
-            return value.replace(/[\t\n\r]/g, ' ');
-        }
-
-        // For CSV, quote if contains comma, quote, or newline
-        if (value.includes(',') || value.includes('"') || value.includes('\n')) {
-            return '"' + value.replace(/"/g, '""') + '"';
-        }
-        return value;
-    },
-
-    /**
      * Show quick chart dropdown menu
      * @param {HTMLElement} btn - The button element clicked
      * @param {string} ticker - The ticker symbol
@@ -2327,6 +2181,183 @@ window.ChartDashboard = {
 
         // Clear selection after adding
         this.clearSelection(this._dashboardCard);
+    },
+
+    /**
+     * Get selected rows in current filtered+sorted order
+     * @returns {Array} Array of row data objects in table display order
+     */
+    _getSelectedRowsData() {
+        if (this.selectedTickers.size === 0) return [];
+
+        // Apply same filter+sort logic as renderTable to get correct order
+        const numericColumns = [
+            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
+            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
+        ];
+
+        const filteredSortedData = window.DashboardBase.filterAndSortData({
+            data: this.data,
+            filterText: this.filterText,
+            filterFn: (d, filterText) => {
+                if (this.filterExact) {
+                    return d.ticker.toLowerCase() === filterText;
+                }
+                return d.ticker.toLowerCase().includes(filterText) ||
+                    (d.name && d.name.toLowerCase().includes(filterText)) ||
+                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
+            },
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            numericColumns,
+            getSortValue: (d, sortColumn) => {
+                if (sortColumn === 'pages') {
+                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
+                }
+                return d[sortColumn];
+            }
+        });
+
+        // Return only selected rows, preserving filtered+sorted order
+        return filteredSortedData.filter(row => this.selectedTickers.has(row.ticker));
+    },
+
+    /**
+     * Escape a cell value for CSV/TSV export
+     * - Applies formula injection protection (prefix ' for cells starting with = + - @)
+     * - Escapes quotes and handles special characters
+     * @param {*} value - Cell value
+     * @param {string} delimiter - '\t' for TSV or ',' for CSV
+     * @returns {string} Escaped cell value
+     */
+    _escapeCsvField(value, delimiter) {
+        if (value === null || value === undefined) return '';
+
+        let strVal = String(value);
+
+        // Formula injection protection: prefix with ' if starts with dangerous char
+        if (strVal.length > 0 && '=+-@'.includes(strVal[0])) {
+            strVal = "'" + strVal;
+        }
+
+        if (delimiter === ',') {
+            // CSV: quote if contains comma, quote, or newline
+            if (strVal.includes(',') || strVal.includes('"') || strVal.includes('\n') || strVal.includes('\r')) {
+                return '"' + strVal.replace(/"/g, '""') + '"';
+            }
+            return strVal;
+        } else {
+            // TSV: replace tabs/newlines with spaces
+            return strVal.replace(/[\t\n\r]/g, ' ');
+        }
+    },
+
+    /**
+     * Format rows for export
+     * @param {Array} data - Row data array
+     * @param {string} delimiter - '\t' for TSV or ',' for CSV
+     * @returns {Object} { header: string, rows: string[] }
+     */
+    _formatRowsForExport(data, delimiter) {
+        // Column definitions (excluding select and actions)
+        const defaultColumns = [
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+
+        // Use visible columns in order (exclude select/actions)
+        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const visibleColumns = columnOrder
+            .filter(key => key !== 'select' && key !== 'actions')
+            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
+            .map(key => defaultColumns.find(c => c.key === key))
+            .filter(Boolean);
+
+        // Build header
+        const header = visibleColumns.map(c => this._escapeCsvField(c.label, delimiter)).join(delimiter);
+
+        // Build rows
+        const rows = data.map(row => {
+            return visibleColumns.map(col => {
+                let value = row[col.key];
+
+                // Pages: use page names for readability
+                if (col.key === 'pages') {
+                    if (row.pages && Array.isArray(row.pages) && row.pages.length > 0) {
+                        value = row.pages.map(p => p.page_name).join(', ');
+                    } else {
+                        value = '';
+                    }
+                }
+
+                // Format numbers
+                if (typeof value === 'number') {
+                    value = value.toFixed ? value.toFixed(2) : String(value);
+                }
+
+                return this._escapeCsvField(value, delimiter);
+            }).join(delimiter);
+        });
+
+        return { header, rows };
+    },
+
+    /**
+     * Copy selected rows to clipboard as TSV
+     */
+    copySelected() {
+        const selectedData = this._getSelectedRowsData();
+        if (selectedData.length === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('No rows selected');
+            }
+            return;
+        }
+
+        const { header, rows } = this._formatRowsForExport(selectedData, '\t');
+        const tsv = [header, ...rows].join('\n');
+
+        this._writeToClipboard(tsv, selectedData.length);
+    },
+
+    /**
+     * Export selected rows as CSV download
+     */
+    exportSelected() {
+        const selectedData = this._getSelectedRowsData();
+        if (selectedData.length === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('No rows selected');
+            }
+            return;
+        }
+
+        const { header, rows } = this._formatRowsForExport(selectedData, ',');
+        const csv = [header, ...rows].join('\n');
+
+        // Download
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `selected_${selectedData.length}_rows_${new Date().toISOString().slice(0, 10)}.csv`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+
+        if (window.Toast?.success) {
+            window.Toast.success(`Exported ${selectedData.length} rows`);
+        }
     },
 
     /**
