@@ -784,7 +784,7 @@ window.ChartDashboard = {
                 table.classList.add('resizing');
 
                 const onMouseMove = (moveEvent) => {
-                    const newWidth = Math.max(30, startWidth + (moveEvent.pageX - startX));
+                    const newWidth = Math.max(0, startWidth + (moveEvent.pageX - startX));
                     th.style.width = newWidth + 'px';
                     th.style.minWidth = newWidth + 'px';
 
