@@ -1850,6 +1850,9 @@ def get_latest_iv():
     return jsonify(result)
 
 
+import csv
+import io
+
 # FRED/Macro indicators list - all-caps series from FRED
 # Used by both /api/dashboard (to exclude) and /api/macro-dashboard (to include)
 FRED_INDICATORS = [
@@ -1867,26 +1870,21 @@ FRED_INDICATORS = [
 ]
 
 
-@app.route('/api/dashboard')
-def get_dashboard_data():
+def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
     """
-    Get comprehensive dashboard data for all tickers in workspace.
-    Supports pagination via query parameters:
-      - limit: max results per page (default 50, max 500)
-      - offset: starting index (default 0)
-      - sort: column to sort by (default 'ticker')
-      - sortDir: 'asc' or 'desc' (default 'asc')
-      - filter: filter tickers/names containing this string
-    Returns: { data: [...], total: N, limit: N, offset: N }
+    Build dashboard rows for all tickers (excluding FRED indicators).
+    Returns a list of dicts with ticker data, filtered and sorted.
+    Used by both /api/dashboard and /api/dashboard/export.
+
+    Args:
+        filter_text: Filter string for ticker/name/page_name matching
+        sort_col: Column to sort by
+        sort_dir: 'asc' or 'desc'
+    Returns:
+        List of ticker data dicts
     """
+    conn = get_db_connection()
     try:
-        # Pagination parameters
-        limit = min(int(request.args.get('limit', 50)), 500)
-        offset = int(request.args.get('offset', 0))
-        sort_col = request.args.get('sort', 'ticker')
-        sort_dir = request.args.get('sortDir', 'asc')
-        filter_text = request.args.get('filter', '').lower().strip()
-        conn = get_db_connection()
         cursor = conn.cursor()
 
         # Load workspace to get page/chart info
@@ -1941,14 +1939,12 @@ def get_dashboard_data():
         valid_tickers = [t for t in all_tickers if t in columns and t not in FRED_INDICATORS]
 
         if not valid_tickers:
-            conn.close()
-            return jsonify([])
+            return []
 
         # Get latest prices and previous day prices for all tickers
-        # Build dynamic SQL for selected tickers
         ticker_cols = ', '.join([f'"{t}"' for t in valid_tickers])
 
-        # Get last 2 rows for each ticker to calculate daily change
+        # Get last 252 rows for calculating changes
         query = f'''
             SELECT Date, {ticker_cols}
             FROM stock_prices_daily
@@ -1974,7 +1970,6 @@ def get_dashboard_data():
             for i, row in enumerate(rows):
                 price = row[idx]
                 if price is not None:
-                    # Convert to float if it's a string
                     try:
                         price = float(price)
                     except (TypeError, ValueError):
@@ -2001,7 +1996,7 @@ def get_dashboard_data():
             monthly_change = ((latest_price - month_ago_price) / month_ago_price * 100) if month_ago_price else None
             yearly_change = ((latest_price - year_ago_price) / year_ago_price * 100) if year_ago_price else None
 
-            # Get 52-week high/low from the data we have
+            # Get 52-week high/low
             prices_52w = []
             for row in rows[:252]:
                 p = row[idx]
@@ -2032,31 +2027,60 @@ def get_dashboard_data():
                 'data_points': meta.get('data_points'),
                 'pages': pages
             })
-
+    finally:
         conn.close()
 
-        # Apply filter if provided
-        if filter_text:
-            result = [r for r in result if
-                      filter_text in r['ticker'].lower() or
-                      (r['name'] and filter_text in r['name'].lower())]
+    # Apply filter if provided (ticker, name, or page_name)
+    if filter_text:
+        filter_lower = filter_text.lower()
+        result = [r for r in result if
+                  filter_lower in r['ticker'].lower() or
+                  (r['name'] and filter_lower in r['name'].lower()) or
+                  any(filter_lower in p['page_name'].lower() for p in r['pages']) or
+                  any(filter_lower in (p.get('chart_title') or '').lower() for p in r['pages'])]
 
-        # Sort results
-        reverse = sort_dir == 'desc'
-        sort_key_map = {
-            'ticker': lambda x: (x['ticker'] or '').lower(),
-            'name': lambda x: (x['name'] or '').lower(),
-            'latest_price': lambda x: x['latest_price'] if x['latest_price'] is not None else (float('inf') if reverse else float('-inf')),
-            'daily_change': lambda x: x['daily_change'] if x['daily_change'] is not None else (float('inf') if reverse else float('-inf')),
-            'weekly_change': lambda x: x['weekly_change'] if x['weekly_change'] is not None else (float('inf') if reverse else float('-inf')),
-            'monthly_change': lambda x: x['monthly_change'] if x['monthly_change'] is not None else (float('inf') if reverse else float('-inf')),
-            'yearly_change': lambda x: x['yearly_change'] if x['yearly_change'] is not None else (float('inf') if reverse else float('-inf')),
-            'high_52w': lambda x: x['high_52w'] if x['high_52w'] is not None else (float('inf') if reverse else float('-inf')),
-            'low_52w': lambda x: x['low_52w'] if x['low_52w'] is not None else (float('inf') if reverse else float('-inf')),
-            'data_points': lambda x: x['data_points'] if x['data_points'] is not None else (float('inf') if reverse else float('-inf')),
-        }
-        sort_key = sort_key_map.get(sort_col, sort_key_map['ticker'])
-        result.sort(key=sort_key, reverse=reverse)
+    # Sort results
+    reverse = sort_dir == 'desc'
+    sort_key_map = {
+        'ticker': lambda x: (x['ticker'] or '').lower(),
+        'name': lambda x: (x['name'] or '').lower(),
+        'latest_price': lambda x: x['latest_price'] if x['latest_price'] is not None else (float('inf') if reverse else float('-inf')),
+        'daily_change': lambda x: x['daily_change'] if x['daily_change'] is not None else (float('inf') if reverse else float('-inf')),
+        'weekly_change': lambda x: x['weekly_change'] if x['weekly_change'] is not None else (float('inf') if reverse else float('-inf')),
+        'monthly_change': lambda x: x['monthly_change'] if x['monthly_change'] is not None else (float('inf') if reverse else float('-inf')),
+        'yearly_change': lambda x: x['yearly_change'] if x['yearly_change'] is not None else (float('inf') if reverse else float('-inf')),
+        'high_52w': lambda x: x['high_52w'] if x['high_52w'] is not None else (float('inf') if reverse else float('-inf')),
+        'low_52w': lambda x: x['low_52w'] if x['low_52w'] is not None else (float('inf') if reverse else float('-inf')),
+        'data_points': lambda x: x['data_points'] if x['data_points'] is not None else (float('inf') if reverse else float('-inf')),
+    }
+    sort_key = sort_key_map.get(sort_col, sort_key_map['ticker'])
+    result.sort(key=sort_key, reverse=reverse)
+
+    return result
+
+
+@app.route('/api/dashboard')
+def get_dashboard_data():
+    """
+    Get comprehensive dashboard data for all tickers in workspace.
+    Supports pagination via query parameters:
+      - limit: max results per page (default 50, max 500)
+      - offset: starting index (default 0)
+      - sort: column to sort by (default 'ticker')
+      - sortDir: 'asc' or 'desc' (default 'asc')
+      - filter: filter tickers/names containing this string
+    Returns: { data: [...], total: N, limit: N, offset: N }
+    """
+    try:
+        # Pagination parameters
+        limit = min(int(request.args.get('limit', 50)), 500)
+        offset = int(request.args.get('offset', 0))
+        sort_col = request.args.get('sort', 'ticker')
+        sort_dir = request.args.get('sortDir', 'asc')
+        filter_text = request.args.get('filter', '').strip()
+
+        # Build all rows using shared helper
+        result = _build_dashboard_rows(filter_text, sort_col, sort_dir)
 
         # Calculate total before pagination
         total = len(result)
@@ -2074,6 +2098,108 @@ def get_dashboard_data():
 
     except Exception as e:
         app.logger.error(f"/api/dashboard: Error: {e}")
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
+
+
+@app.route('/api/dashboard/export')
+def export_dashboard_data():
+    """
+    Export all filtered dashboard data as CSV or TSV.
+    Query parameters:
+      - format: 'csv' or 'tsv' (default 'tsv')
+      - filter: filter tickers/names/pages containing this string
+      - sort: column to sort by (default 'ticker')
+      - sortDir: 'asc' or 'desc' (default 'asc')
+      - limit: max rows to export (default 5000, max 5000)
+    Returns: Streaming CSV/TSV file with Content-Disposition header.
+    Sets X-Export-Truncated: 1 header if result was capped.
+    """
+    try:
+        export_format = request.args.get('format', 'tsv').lower()
+        filter_text = request.args.get('filter', '').strip()
+        sort_col = request.args.get('sort', 'ticker')
+        sort_dir = request.args.get('sortDir', 'asc')
+        limit = min(int(request.args.get('limit', 5000)), 5000)
+
+        # Build all rows using shared helper
+        result = _build_dashboard_rows(filter_text, sort_col, sort_dir)
+        total = len(result)
+
+        # Apply limit
+        truncated = total > limit
+        result = result[:limit]
+
+        # Define columns for export
+        columns = [
+            ('ticker', 'Ticker'),
+            ('name', 'Name'),
+            ('latest_price', 'Price'),
+            ('daily_change', 'Day %'),
+            ('weekly_change', 'Week %'),
+            ('monthly_change', 'Month %'),
+            ('yearly_change', 'Year %'),
+            ('high_52w', '52w High'),
+            ('low_52w', '52w Low'),
+            ('data_points', 'Data Pts'),
+            ('pages', 'Pages'),
+        ]
+
+        # Set up CSV writer
+        delimiter = '\t' if export_format == 'tsv' else ','
+        file_ext = 'tsv' if export_format == 'tsv' else 'csv'
+        mime_type = 'text/tab-separated-values; charset=utf-8' if export_format == 'tsv' else 'text/csv; charset=utf-8'
+
+        def sanitize_cell(value):
+            """Prevent formula injection in Excel/Sheets by prefixing dangerous characters."""
+            if isinstance(value, str) and value and value[0] in ('=', '+', '-', '@'):
+                return "'" + value
+            return value
+
+        def generate():
+            output = io.StringIO()
+            writer = csv.writer(output, delimiter=delimiter, quoting=csv.QUOTE_MINIMAL)
+
+            # Write header row
+            writer.writerow([col[1] for col in columns])
+            yield output.getvalue()
+            output.seek(0)
+            output.truncate(0)
+
+            # Write data rows
+            for row in result:
+                row_data = []
+                for col_key, _ in columns:
+                    value = row.get(col_key)
+                    if col_key == 'pages':
+                        # Join page names for export
+                        if value and isinstance(value, list):
+                            value = ', '.join(p.get('page_name', '') for p in value)
+                        else:
+                            value = ''
+                    elif value is None:
+                        value = ''
+                    elif isinstance(value, float):
+                        value = f'{value:.2f}'
+                    # Sanitize string values to prevent formula injection
+                    row_data.append(sanitize_cell(value))
+                writer.writerow(row_data)
+                yield output.getvalue()
+                output.seek(0)
+                output.truncate(0)
+
+        # Create response with streaming
+        response = Response(generate(), mimetype=mime_type)
+        response.headers['Content-Disposition'] = f'attachment; filename="dashboard_export_{datetime.now().strftime("%Y%m%d")}.{file_ext}"'
+        if truncated:
+            response.headers['X-Export-Truncated'] = '1'
+            response.headers['X-Export-Total'] = str(total)
+
+        app.logger.info(f"/api/dashboard/export: Exported {len(result)}/{total} tickers (truncated={truncated})")
+        return response
+
+    except Exception as e:
+        app.logger.error(f"/api/dashboard/export: Error: {e}")
         traceback.print_exc()
         return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 

@@ -13,6 +13,8 @@ window.ChartDashboard = {
     columnOrder: null, // Will be initialized with default order
     hiddenColumns: new Set(), // Columns to hide
     conditionalFormatting: false, // Toggle for background shading on % columns
+    // Multi-select state
+    selectedTickers: new Set(), // Selected ticker symbols
     // Pagination state
     pageSize: 100,
     totalCount: 0,
@@ -62,6 +64,8 @@ window.ChartDashboard = {
                     <button class="dashboard-reset-btn">Reset Layout</button>
                     <button class="dashboard-export-btn">Export CSV</button>
                     <button class="dashboard-copy-btn" title="Copy as TSV (for Excel/Sheets)">Copy</button>
+                    <button class="dashboard-export-all-btn" style="display:none;" title="Export all filtered rows to CSV">Export All</button>
+                    <button class="dashboard-copy-all-btn" style="display:none;" title="Copy all filtered rows as TSV">Copy All</button>
                 </div>
             </div>
             <div class="dashboard-stats"></div>
@@ -74,6 +78,15 @@ window.ChartDashboard = {
             <div class="dashboard-load-more-container" style="display:none; text-align:center; padding:12px;">
                 <button class="dashboard-load-more-btn">Load More</button>
                 <span class="dashboard-load-status"></span>
+            </div>
+            <div class="dashboard-action-bar" style="display:none;">
+                <span class="action-bar-count">0 selected</span>
+                <button class="action-bar-compare">Compare</button>
+                <div class="action-bar-add-dropdown">
+                    <button class="action-bar-add-btn">Add to Chart ▼</button>
+                    <div class="action-bar-add-menu"></div>
+                </div>
+                <button class="action-bar-clear">Clear</button>
             </div>
         `;
 
@@ -91,6 +104,8 @@ window.ChartDashboard = {
 
         // Debounced server-side filter for better performance during typing
         const debouncedServerFilter = window.ChartUtils.debounce(() => {
+            // Clear selection when filter changes
+            this.clearSelection(card);
             // Reset to first page when filter changes, skip cache for fresh results
             this.loadData(card, false, true);
             if (window.saveCards) window.saveCards();
@@ -143,6 +158,18 @@ window.ChartDashboard = {
             this.copyToClipboard();
         });
 
+        // Export All button (server-side export)
+        const exportAllBtn = card.querySelector('.dashboard-export-all-btn');
+        exportAllBtn.addEventListener('click', () => {
+            this.exportAll();
+        });
+
+        // Copy All button (server-side export to clipboard)
+        const copyAllBtn = card.querySelector('.dashboard-copy-all-btn');
+        copyAllBtn.addEventListener('click', () => {
+            this.copyAll();
+        });
+
         // Load More button (fallback for infinite scroll)
         const loadMoreBtn = card.querySelector('.dashboard-load-more-btn');
         loadMoreBtn.addEventListener('click', () => {
@@ -160,6 +187,23 @@ window.ChartDashboard = {
         const columnsBtn = card.querySelector('.dashboard-columns-btn');
         const columnsMenu = card.querySelector('.dashboard-columns-menu');
         this.initColumnsDropdown(card, columnsBtn, columnsMenu);
+
+        // Action bar event handlers
+        const actionBar = card.querySelector('.dashboard-action-bar');
+        this._dashboardCard = card;  // Store reference for action bar updates
+
+        const compareBtn = actionBar.querySelector('.action-bar-compare');
+        compareBtn.addEventListener('click', () => this.compareTickers());
+
+        const clearBtn = actionBar.querySelector('.action-bar-clear');
+        clearBtn.addEventListener('click', () => this.clearSelection(card));
+
+        const addDropdownBtn = actionBar.querySelector('.action-bar-add-btn');
+        const addMenu = actionBar.querySelector('.action-bar-add-menu');
+        addDropdownBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this._showAddToChartMenu(addMenu, addDropdownBtn);
+        });
 
         // Mark as dashboard type for saveCards
         card._type = 'dashboard';
@@ -305,6 +349,19 @@ window.ChartDashboard = {
             loadStatus.textContent = `Showing ${this.data.length} of ${this.totalCount}`;
         } else {
             loadMoreContainer.style.display = 'none';
+        }
+
+        // Show/hide Export All / Copy All buttons when there's more data to export
+        const exportAllBtn = card.querySelector('.dashboard-export-all-btn');
+        const copyAllBtn = card.querySelector('.dashboard-copy-all-btn');
+        if (this.hasMore) {
+            exportAllBtn.style.display = 'inline-block';
+            exportAllBtn.textContent = `Export All (${this.totalCount})`;
+            copyAllBtn.style.display = 'inline-block';
+            copyAllBtn.textContent = `Copy All (${this.totalCount})`;
+        } else {
+            exportAllBtn.style.display = 'none';
+            copyAllBtn.style.display = 'none';
         }
     },
 
@@ -550,6 +607,7 @@ window.ChartDashboard = {
 
         // Default column definitions
         const defaultColumns = [
+            { key: 'select', label: '' },
             { key: 'actions', label: '' },
             { key: 'ticker', label: 'Ticker' },
             { key: 'name', label: 'Name' },
@@ -564,20 +622,21 @@ window.ChartDashboard = {
             { key: 'pages', label: 'Pages' }
         ];
 
-        // Initialize column order if not set (exclude actions - always first)
+        // Initialize column order if not set (exclude select/actions - always first)
         if (!this.columnOrder) {
-            this.columnOrder = defaultColumns.filter(c => c.key !== 'actions').map(c => c.key);
+            this.columnOrder = defaultColumns.filter(c => c.key !== 'select' && c.key !== 'actions').map(c => c.key);
         }
 
-        // Build columns array: actions first (fixed), then user-ordered columns
+        // Build columns array: select + actions first (fixed), then user-ordered columns
         const columnMap = {};
         defaultColumns.forEach(c => columnMap[c.key] = c);
+        const selectCol = columnMap['select'];
         const actionsCol = columnMap['actions'];
         const orderedCols = this.columnOrder
-            .filter(key => key !== 'actions')  // Ensure actions not duplicated
+            .filter(key => key !== 'select' && key !== 'actions')  // Ensure fixed cols not duplicated
             .map(key => columnMap[key])
             .filter(Boolean);
-        const columns = actionsCol ? [actionsCol, ...orderedCols] : orderedCols;
+        const columns = [selectCol, actionsCol, ...orderedCols].filter(Boolean);
 
         // Filter + sort data
         const numericColumns = [
@@ -617,6 +676,10 @@ window.ChartDashboard = {
             sortColumn: this.sortColumn,
             sortDirection: this.sortDirection,
             thRenderer: (col, sortClass) => {
+                // Select column: checkbox for select-all
+                if (col.key === 'select') {
+                    return `<th class="select-header" style="width:32px;min-width:32px;cursor:default;"><input type="checkbox" class="select-all-checkbox" title="Select all visible"></th>`;
+                }
                 // Actions column: non-sortable, non-draggable, fixed width (no data-column to prevent sorting)
                 if (col.key === 'actions') {
                     return `<th class="actions-header" style="width:32px;min-width:32px;cursor:default;"></th>`;
@@ -631,6 +694,8 @@ window.ChartDashboard = {
             onSortChange: (col, direction) => {
                 this.sortColumn = col;
                 this.sortDirection = direction;
+                // Clear selection when sort changes
+                this.clearSelection(card);
                 this.renderTable(card);
                 if (window.saveCards) window.saveCards();
             }
@@ -639,6 +704,15 @@ window.ChartDashboard = {
         // ChartDashboard-specific overrides: column resize + drag
         this.initColumnResize(card, thead);
         this.initColumnDrag(card, thead);
+
+        // Setup select-all checkbox handler
+        const selectAllCheckbox = thead.querySelector('.select-all-checkbox');
+        if (selectAllCheckbox) {
+            selectAllCheckbox.addEventListener('change', (e) => {
+                this._handleSelectAll(e.target.checked, filteredData);
+                this._updateActionBar();
+            });
+        }
 
         // Render body
         const container = tbody.closest('.dashboard-table-container');
@@ -1068,8 +1142,12 @@ window.ChartDashboard = {
         const monthlyChange = formatChange(row.monthly_change);
         const yearlyChange = formatChange(row.yearly_change);
 
+        // Check if this row is selected
+        const isSelected = this.selectedTickers.has(row.ticker);
+
         // Cell renderers for each column
         const cellRenderers = {
+            select: () => `<td class="select-cell"><input type="checkbox" class="row-select-checkbox" data-ticker="${row.ticker}" ${isSelected ? 'checked' : ''}></td>`,
             actions: () => `<td class="actions-cell"><button class="quick-chart-btn" data-ticker="${row.ticker}" title="Add to chart">+</button></td>`,
             ticker: () => `<td class="ticker-cell">${window.DashboardBase.escapeHtml(row.ticker)}</td>`,
             name: () => `<td>${window.DashboardBase.escapeHtml(row.name) || '-'}</td>`,
@@ -1106,6 +1184,21 @@ window.ChartDashboard = {
         // Single delegated click handler for all tbody interactions
         tbody._delegatedHandler = (e) => {
             const target = e.target;
+
+            // Row checkbox click - toggle selection
+            if (target.classList.contains('row-select-checkbox')) {
+                const ticker = target.dataset.ticker;
+                if (ticker) {
+                    if (target.checked) {
+                        this.selectedTickers.add(ticker);
+                    } else {
+                        this.selectedTickers.delete(ticker);
+                    }
+                    this._updateActionBar();
+                    this._updateSelectAllCheckbox(tbody);
+                }
+                return;
+            }
 
             // Quick chart button click - show dropdown
             const quickChartBtn = target.closest('.quick-chart-btn');
@@ -1404,6 +1497,91 @@ window.ChartDashboard = {
     },
 
     /**
+     * Build export URL with current filter/sort parameters
+     * @param {string} format - 'csv' or 'tsv'
+     * @returns {string} URL for export endpoint
+     */
+    _buildExportUrl(format) {
+        const params = new URLSearchParams();
+        params.set('format', format);
+        if (this.filterText) params.set('filter', this.filterText);
+        if (this.sortColumn) params.set('sort', this.sortColumn);
+        if (this.sortDirection) params.set('sortDir', this.sortDirection);
+        return window.ChartUtils.apiUrl(`/api/dashboard/export?${params.toString()}`);
+    },
+
+    /**
+     * Export all filtered rows to CSV (server-side export)
+     * Uses anchor download for better popup-blocker compatibility
+     */
+    exportAll() {
+        const url = this._buildExportUrl('csv');
+        // Use anchor with download attribute for popup-blocker-proof download
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = '';  // Let server set filename via Content-Disposition
+        anchor.style.display = 'none';
+        document.body.appendChild(anchor);
+        anchor.click();
+        document.body.removeChild(anchor);
+
+        if (window.Toast?.info) {
+            window.Toast.info(`Exporting ${this.totalCount} rows...`);
+        }
+    },
+
+    /**
+     * Copy all filtered rows to clipboard (server-side fetch + clipboard)
+     * Fetches TSV from server and copies to clipboard
+     */
+    async copyAll() {
+        const card = this._dashboardCard;
+        const copyAllBtn = card?.querySelector('.dashboard-copy-all-btn');
+        const originalText = copyAllBtn?.textContent || '';
+
+        // Disable button and show loading state
+        if (copyAllBtn) {
+            copyAllBtn.disabled = true;
+            copyAllBtn.textContent = 'Copying...';
+        }
+
+        const url = this._buildExportUrl('tsv');
+
+        try {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+
+            const tsv = await response.text();
+            const lineCount = tsv.split('\n').length - 1; // Subtract header
+
+            // Check if result was truncated
+            const truncated = response.headers.get('X-Export-Truncated') === '1';
+            const totalCount = response.headers.get('X-Export-Total');
+
+            await this._writeToClipboard(tsv, lineCount);
+
+            if (truncated && totalCount) {
+                if (window.Toast?.warning) {
+                    window.Toast.warning(`Copied ${lineCount} rows (capped from ${totalCount})`);
+                }
+            }
+        } catch (error) {
+            console.error('[ChartDashboard] Copy all failed:', error);
+            if (window.Toast?.error) {
+                window.Toast.error(`Failed to copy: ${error.message}`);
+            }
+        } finally {
+            // Re-enable button
+            if (copyAllBtn) {
+                copyAllBtn.disabled = false;
+                copyAllBtn.textContent = originalText;
+            }
+        }
+    },
+
+    /**
      * Show quick chart dropdown menu
      * @param {HTMLElement} btn - The button element clicked
      * @param {string} ticker - The ticker symbol
@@ -1676,6 +1854,325 @@ window.ChartDashboard = {
         if (window.Toast?.success) {
             window.Toast.success(`Added ${ticker} to chart`);
         }
+    },
+
+    // ==================== Multi-Select Methods ====================
+
+    /**
+     * Update action bar visibility and count
+     */
+    _updateActionBar() {
+        const card = this._dashboardCard;
+        if (!card) return;
+
+        const actionBar = card.querySelector('.dashboard-action-bar');
+        if (!actionBar) return;
+
+        const count = this.selectedTickers.size;
+        const countEl = actionBar.querySelector('.action-bar-count');
+        countEl.textContent = `${count} selected`;
+
+        actionBar.style.display = count > 0 ? 'flex' : 'none';
+    },
+
+    /**
+     * Update select-all checkbox state based on current selection
+     */
+    _updateSelectAllCheckbox(tbody) {
+        const card = tbody.closest('.dashboard-card');
+        if (!card) return;
+
+        const selectAllCheckbox = card.querySelector('.select-all-checkbox');
+        if (!selectAllCheckbox) return;
+
+        // Get all visible row checkboxes
+        const rowCheckboxes = tbody.querySelectorAll('.row-select-checkbox');
+        const total = rowCheckboxes.length;
+        const checked = Array.from(rowCheckboxes).filter(cb => cb.checked).length;
+
+        if (checked === 0) {
+            selectAllCheckbox.checked = false;
+            selectAllCheckbox.indeterminate = false;
+        } else if (checked === total) {
+            selectAllCheckbox.checked = true;
+            selectAllCheckbox.indeterminate = false;
+        } else {
+            selectAllCheckbox.checked = false;
+            selectAllCheckbox.indeterminate = true;
+        }
+    },
+
+    /**
+     * Handle select-all checkbox toggle
+     * @param {boolean} checked - New checked state
+     * @param {Array} visibleData - Currently visible/filtered data
+     */
+    _handleSelectAll(checked, visibleData) {
+        const card = this._dashboardCard;
+        if (!card) return;
+
+        if (checked) {
+            // Add all visible tickers to selection
+            visibleData.forEach(row => this.selectedTickers.add(row.ticker));
+        } else {
+            // Remove all visible tickers from selection
+            visibleData.forEach(row => this.selectedTickers.delete(row.ticker));
+        }
+
+        // Update all visible checkboxes
+        const tbody = card.querySelector('.dashboard-table tbody');
+        tbody.querySelectorAll('.row-select-checkbox').forEach(cb => {
+            cb.checked = checked;
+        });
+    },
+
+    /**
+     * Clear all selections
+     * @param {HTMLElement} card - Dashboard card element
+     */
+    clearSelection(card) {
+        this.selectedTickers.clear();
+
+        // Update UI
+        const tbody = card.querySelector('.dashboard-table tbody');
+        tbody.querySelectorAll('.row-select-checkbox').forEach(cb => {
+            cb.checked = false;
+        });
+
+        const selectAllCheckbox = card.querySelector('.select-all-checkbox');
+        if (selectAllCheckbox) {
+            selectAllCheckbox.checked = false;
+            selectAllCheckbox.indeterminate = false;
+        }
+
+        this._updateActionBar();
+    },
+
+    /**
+     * Create new chart with all selected tickers
+     */
+    compareTickers() {
+        const tickers = Array.from(this.selectedTickers);
+        if (tickers.length === 0) {
+            if (window.Toast?.warning) {
+                window.Toast.warning('No tickers selected');
+            }
+            return;
+        }
+
+        // Check max tickers limit
+        const maxTickers = window.ChartConfig?.UI?.MAX_TICKERS_PER_CHART || 30;
+        if (tickers.length > maxTickers) {
+            if (window.Toast?.warning) {
+                window.Toast.warning(`Can only compare up to ${maxTickers} tickers at once`);
+            }
+            return;
+        }
+
+        const activePage = window.PageManager?.getActivePage?.() || '1';
+        const wrapper = window.PageManager?.ensurePage?.(activePage);
+        if (!wrapper) {
+            console.error('[ChartDashboard] Could not get page wrapper for page:', activePage);
+            return;
+        }
+
+        if (window.PageManager?.showPage) {
+            window.PageManager.showPage(activePage);
+        }
+
+        if (window.createChartCard) {
+            window.createChartCard({ tickers, wrapperEl: wrapper });
+
+            if (window.saveCards) {
+                window.saveCards();
+            }
+
+            if (window.Toast?.success) {
+                window.Toast.success(`Created chart with ${tickers.length} tickers`);
+            }
+
+            // Clear selection after creating chart
+            this.clearSelection(this._dashboardCard);
+        }
+    },
+
+    /**
+     * Show "Add to Chart" dropdown menu
+     * @param {HTMLElement} menu - Menu element to populate
+     * @param {HTMLElement} btn - Button element for positioning
+     */
+    _showAddToChartMenu(menu, btn) {
+        // Toggle menu visibility
+        if (menu.classList.contains('show')) {
+            menu.classList.remove('show');
+            return;
+        }
+
+        const activePage = window.PageManager?.getActivePage?.() || '1';
+        const existingCharts = this.getChartsOnPage(activePage);
+
+        // Clear and rebuild menu
+        menu.innerHTML = '';
+
+        if (existingCharts.length === 0) {
+            const emptyItem = document.createElement('div');
+            emptyItem.className = 'action-bar-menu-item disabled';
+            emptyItem.textContent = 'No charts on this page';
+            menu.appendChild(emptyItem);
+        } else {
+            existingCharts.forEach((chart, idx) => {
+                const label = chart.title || chart.tickers?.slice(0, 3).join(', ') || `Chart ${idx + 1}`;
+                const truncatedLabel = label.length > 30 ? label.slice(0, 27) + '...' : label;
+
+                const item = document.createElement('div');
+                item.className = 'action-bar-menu-item';
+                item.dataset.cardId = chart.id;
+                item.textContent = truncatedLabel;
+                item.addEventListener('click', () => {
+                    this.addTickersToChart(chart.id);
+                    menu.classList.remove('show');
+                });
+                menu.appendChild(item);
+            });
+        }
+
+        menu.classList.add('show');
+
+        // Close on click outside
+        const closeHandler = (e) => {
+            if (!menu.contains(e.target) && e.target !== btn) {
+                menu.classList.remove('show');
+                document.removeEventListener('click', closeHandler);
+            }
+        };
+        setTimeout(() => document.addEventListener('click', closeHandler), 0);
+    },
+
+    /**
+     * Add all selected tickers to an existing chart
+     * @param {string} cardId - Card element ID
+     */
+    addTickersToChart(cardId) {
+        const card = document.getElementById(cardId);
+        if (!card) {
+            console.error('[ChartDashboard] Card not found:', cardId);
+            return;
+        }
+
+        const ctx = card._ctx;
+        if (!ctx) {
+            console.error('[ChartDashboard] Card has no context:', cardId);
+            return;
+        }
+
+        const tickers = Array.from(this.selectedTickers);
+        if (tickers.length === 0) {
+            if (window.Toast?.warning) {
+                window.Toast.warning('No tickers selected');
+            }
+            return;
+        }
+
+        // Check max tickers limit
+        const maxTickers = window.ChartConfig?.UI?.MAX_TICKERS_PER_CHART || 30;
+        const currentCount = ctx.selectedTickers.size;
+        const available = maxTickers - currentCount;
+
+        if (available <= 0) {
+            if (window.Toast?.warning) {
+                window.Toast.warning(`Chart already has ${maxTickers} tickers (maximum)`);
+            }
+            return;
+        }
+
+        // Filter out already-existing and limit to available slots
+        const newTickers = tickers.filter(t => !ctx.selectedTickers.has(t)).slice(0, available);
+
+        if (newTickers.length === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('All selected tickers are already in this chart');
+            }
+            return;
+        }
+
+        // Switch to the page containing the chart
+        const pageEl = card.closest('.page');
+        if (pageEl && window.PageManager?.showPage) {
+            window.PageManager.showPage(pageEl.dataset.page);
+        }
+
+        // Add each ticker
+        newTickers.forEach(ticker => {
+            ctx.selectedTickers.add(ticker);
+            if (!ctx.tickerColorMap.has(ticker)) {
+                ctx.tickerColorMap.set(ticker, window.ChartConfig.getTickerColor(ticker));
+            }
+        });
+
+        // Re-render chips
+        const selectedTickersDiv = ctx.elements?.selectedTickersDiv;
+        if (selectedTickersDiv && window.ChartDomBuilder?.addTickerChips) {
+            const plotFn = () => window.ChartCardPlot?.plot?.(ctx);
+            let handleChipRemove = null;
+            let getAxis = null;
+            let onAxisChange = null;
+
+            if (window.ChartCardTickers?.createHandlers) {
+                const handlers = window.ChartCardTickers.createHandlers(ctx, { plot: plotFn });
+                handleChipRemove = handlers.handleChipRemove;
+                getAxis = handlers.getAxis;
+                onAxisChange = handlers.onAxisChange;
+            }
+
+            window.ChartDomBuilder.addTickerChips(
+                selectedTickersDiv,
+                ctx.selectedTickers,
+                ctx.tickerColorMap,
+                ctx.multiplierMap,
+                ctx.hiddenTickers,
+                handleChipRemove,
+                getAxis,
+                onAxisChange
+            );
+
+            if (window.CardEventBinder?.bindTickerInteractions) {
+                window.CardEventBinder.bindTickerInteractions(
+                    selectedTickersDiv,
+                    ctx.hiddenTickers,
+                    ctx.multiplierMap,
+                    () => window.ChartCardContext?.syncToCard?.(ctx),
+                    plotFn,
+                    () => window.saveCards?.(),
+                    () => ctx.useRaw
+                );
+            }
+        }
+
+        // Sync and save
+        if (window.ChartCardContext?.syncToCard) {
+            window.ChartCardContext.syncToCard(ctx);
+        }
+        if (window.saveCards) {
+            window.saveCards();
+        }
+
+        // Replot
+        if (window.ChartCardPlot?.plot) {
+            window.ChartCardPlot.plot(ctx);
+        }
+
+        // Show toast with count
+        const skipped = tickers.length - newTickers.length;
+        let message = `Added ${newTickers.length} ticker${newTickers.length !== 1 ? 's' : ''} to chart`;
+        if (skipped > 0) {
+            message += ` (${skipped} already present)`;
+        }
+        if (window.Toast?.success) {
+            window.Toast.success(message);
+        }
+
+        // Clear selection after adding
+        this.clearSelection(this._dashboardCard);
     },
 
     /**
