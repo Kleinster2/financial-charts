@@ -22,14 +22,69 @@ window.ChartDashboard = {
     hasMore: false,
     // Keyboard navigation state
     focusedRowIndex: -1,
-    // Sparkline state (30D)
-    sparklineCache: new Map(), // ticker -> { data: [...], pctChange: number }
-    sparklineAbortController: null, // AbortController for in-flight requests
-    sparklinePendingTickers: new Set(), // Tickers awaiting sparkline fetch
-    // Sparkline state (1Y)
-    sparkline1yCache: new Map(),
-    sparkline1yAbortController: null,
-    sparkline1yPendingTickers: new Set(),
+    // Sparkline configurations (single source of truth)
+    sparklineConfigs: {
+        '30d': { days: 30, label: '30D', selectorAttr: 'data-ticker' },
+        '1y': { days: 365, label: '1Y', selectorAttr: 'data-ticker-1y' }
+    },
+    // Sparkline state (keyed by config name)
+    sparklineState: {
+        '30d': { cache: new Map(), abortController: null, pending: new Set() },
+        '1y': { cache: new Map(), abortController: null, pending: new Set() }
+    },
+    // Legacy accessors for backward compatibility
+    get sparklineCache() { return this.sparklineState['30d'].cache; },
+    get sparklinePendingTickers() { return this.sparklineState['30d'].pending; },
+    get sparkline1yCache() { return this.sparklineState['1y'].cache; },
+    get sparkline1yPendingTickers() { return this.sparklineState['1y'].pending; },
+
+    /**
+     * Get column definitions (single source of truth)
+     * @returns {Array} All column definitions
+     */
+    getColumnDefs() {
+        return [
+            { key: 'select', label: '', fixed: true },
+            { key: 'actions', label: '', fixed: true },
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'sparkline', label: '30D', noSort: true, noExport: true },
+            { key: 'sparkline1y', label: '1Y', noSort: true, noExport: true },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+    },
+
+    /**
+     * Get exportable columns (excludes fixed and non-exportable columns)
+     * @returns {Array} Column definitions suitable for CSV/TSV export
+     */
+    getExportableColumnDefs() {
+        return this.getColumnDefs().filter(c => !c.fixed && !c.noExport);
+    },
+
+    /**
+     * Get orderable columns (excludes fixed columns like select/actions)
+     * @returns {Array} Column definitions that can be reordered
+     */
+    getOrderableColumnDefs() {
+        return this.getColumnDefs().filter(c => !c.fixed);
+    },
+
+    /**
+     * Get default column order (keys only, excludes fixed columns)
+     * @returns {Array<string>} Default column key order
+     */
+    getDefaultColumnOrder() {
+        return this.getOrderableColumnDefs().map(c => c.key);
+    },
 
     /**
      * Create a dashboard card
@@ -621,51 +676,33 @@ window.ChartDashboard = {
         const thead = card.querySelector('.dashboard-table thead');
         const tbody = card.querySelector('.dashboard-table tbody');
 
-        // Default column definitions
-        const defaultColumns = [
-            { key: 'select', label: '' },
-            { key: 'actions', label: '' },
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'sparkline', label: '30D', noSort: true },
-            { key: 'sparkline1y', label: '1Y', noSort: true },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
+        // Use centralized column definitions
+        const allColumns = this.getColumnDefs();
+        const defaultOrder = this.getDefaultColumnOrder();
 
-        // Initialize column order if not set (exclude select/actions - always first)
+        // Initialize column order if not set
         if (!this.columnOrder) {
-            this.columnOrder = defaultColumns.filter(c => c.key !== 'select' && c.key !== 'actions').map(c => c.key);
+            this.columnOrder = [...defaultOrder];
         } else {
             // Add any new columns that were added after the saved state
-            const defaultKeys = defaultColumns.filter(c => c.key !== 'select' && c.key !== 'actions').map(c => c.key);
-            for (const key of defaultKeys) {
+            for (const key of defaultOrder) {
                 if (!this.columnOrder.includes(key)) {
                     // Insert new column at its default position
-                    const defaultIndex = defaultKeys.indexOf(key);
+                    const defaultIndex = defaultOrder.indexOf(key);
                     const insertIndex = Math.min(defaultIndex, this.columnOrder.length);
                     this.columnOrder.splice(insertIndex, 0, key);
                 }
             }
         }
 
-        // Build columns array: select + actions first (fixed), then user-ordered columns
+        // Build columns array: fixed columns first, then user-ordered columns
         const columnMap = {};
-        defaultColumns.forEach(c => columnMap[c.key] = c);
-        const selectCol = columnMap['select'];
-        const actionsCol = columnMap['actions'];
+        allColumns.forEach(c => columnMap[c.key] = c);
+        const fixedCols = allColumns.filter(c => c.fixed);
         const orderedCols = this.columnOrder
-            .filter(key => key !== 'select' && key !== 'actions')  // Ensure fixed cols not duplicated
             .map(key => columnMap[key])
             .filter(Boolean);
-        const columns = [selectCol, actionsCol, ...orderedCols].filter(Boolean);
+        const columns = [...fixedCols, ...orderedCols];
 
         // Filter + sort data
         const numericColumns = [
@@ -812,25 +849,11 @@ window.ChartDashboard = {
      * Initialize columns dropdown for showing/hiding columns
      */
     initColumnsDropdown(card, btn, menu) {
-        // Default column definitions for building the menu (exclude actions - always visible)
-        const defaultColumns = [
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'sparkline', label: '30D' },
-            { key: 'sparkline1y', label: '1Y' },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
+        // Use centralized column definitions (orderable columns for the menu)
+        const orderableColumns = this.getOrderableColumnDefs();
 
         // Build checkboxes for each column
-        menu.innerHTML = defaultColumns.map(col => `
+        menu.innerHTML = orderableColumns.map(col => `
             <label>
                 <input type="checkbox" data-column="${col.key}" ${!this.hiddenColumns.has(col.key) ? 'checked' : ''}>
                 ${col.label}
@@ -1370,28 +1393,33 @@ window.ChartDashboard = {
     },
 
     /**
-     * Fetch sparklines for pending tickers
+     * Fetch sparklines for a specific timeframe
      * @param {HTMLElement} card - Dashboard card element
+     * @param {string} configKey - Key into sparklineConfigs ('30d' or '1y')
      */
-    async _fetchSparklines(card) {
-        if (this.sparklinePendingTickers.size === 0) return;
+    async _fetchSparklineData(card, configKey) {
+        const config = this.sparklineConfigs[configKey];
+        const state = this.sparklineState[configKey];
+        if (!config || !state) return;
+
+        if (state.pending.size === 0) return;
 
         // Abort any in-flight request
-        if (this.sparklineAbortController) {
-            this.sparklineAbortController.abort();
+        if (state.abortController) {
+            state.abortController.abort();
         }
-        this.sparklineAbortController = new AbortController();
+        state.abortController = new AbortController();
 
         // Get tickers to fetch (limit to 50)
-        const tickers = Array.from(this.sparklinePendingTickers).slice(0, 50);
-        this.sparklinePendingTickers.clear();
+        const tickers = Array.from(state.pending).slice(0, 50);
+        state.pending.clear();
 
         try {
-            const url = `${window.API_BASE_URL || ''}/api/dashboard/sparklines?tickers=${encodeURIComponent(tickers.join(','))}&days=30`;
-            const response = await fetch(url, { signal: this.sparklineAbortController.signal });
+            const url = `${window.API_BASE_URL || ''}/api/dashboard/sparklines?tickers=${encodeURIComponent(tickers.join(','))}&days=${config.days}`;
+            const response = await fetch(url, { signal: state.abortController.signal });
 
             if (!response.ok) {
-                console.warn('[Dashboard] Sparkline fetch failed:', response.status);
+                console.warn(`[Dashboard] ${config.label} Sparkline fetch failed:`, response.status);
                 return;
             }
 
@@ -1403,15 +1431,15 @@ window.ChartDashboard = {
                     const firstVal = points[0].value;
                     const lastVal = points[points.length - 1].value;
                     const pctChange = ((lastVal - firstVal) / firstVal) * 100;
-                    this.sparklineCache.set(ticker, { data: points, pctChange });
+                    state.cache.set(ticker, { data: points, pctChange });
 
                     // Update the cell in the DOM
-                    const cell = card.querySelector(`.sparkline-cell[data-ticker="${ticker}"]`);
+                    const cell = card.querySelector(`.sparkline-cell[${config.selectorAttr}="${ticker}"]`);
                     if (cell) {
                         const svg = this._renderSparklineSVG(points, pctChange);
                         const sign = pctChange >= 0 ? '+' : '';
                         const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
-                        const title = `30D: ${sign}${pctChange.toFixed(1)}%`;
+                        const title = `${config.label}: ${sign}${pctChange.toFixed(1)}%`;
                         cell.className = `sparkline-cell ${colorClass}`;
                         cell.title = title;
                         cell.setAttribute('aria-label', title);
@@ -1420,10 +1448,10 @@ window.ChartDashboard = {
                 }
             }
 
-            console.log(`[Dashboard] Fetched ${Object.keys(data).length} sparklines`);
+            console.log(`[Dashboard] Fetched ${Object.keys(data).length} ${config.label} sparklines`);
         } catch (err) {
             if (err.name === 'AbortError') return; // Expected on abort
-            console.error('[Dashboard] Sparkline fetch error:', err);
+            console.error(`[Dashboard] ${config.label} Sparkline fetch error:`, err);
         }
     },
 
@@ -1437,67 +1465,19 @@ window.ChartDashboard = {
             clearTimeout(this._sparklineFetchTimeout);
         }
         this._sparklineFetchTimeout = setTimeout(() => {
-            this._fetchSparklines(card);
-            this._fetchSparklines1y(card);
+            // Fetch all configured sparkline types
+            for (const configKey of Object.keys(this.sparklineConfigs)) {
+                this._fetchSparklineData(card, configKey);
+            }
         }, 100);
     },
 
-    /**
-     * Fetch 1Y sparklines for pending tickers
-     * @param {HTMLElement} card - Dashboard card element
-     */
+    // Legacy methods for backward compatibility
+    async _fetchSparklines(card) {
+        return this._fetchSparklineData(card, '30d');
+    },
     async _fetchSparklines1y(card) {
-        if (this.sparkline1yPendingTickers.size === 0) return;
-
-        // Abort any in-flight request
-        if (this.sparkline1yAbortController) {
-            this.sparkline1yAbortController.abort();
-        }
-        this.sparkline1yAbortController = new AbortController();
-
-        // Get tickers to fetch (limit to 50)
-        const tickers = Array.from(this.sparkline1yPendingTickers).slice(0, 50);
-        this.sparkline1yPendingTickers.clear();
-
-        try {
-            const url = `${window.API_BASE_URL || ''}/api/dashboard/sparklines?tickers=${encodeURIComponent(tickers.join(','))}&days=365`;
-            const response = await fetch(url, { signal: this.sparkline1yAbortController.signal });
-
-            if (!response.ok) {
-                console.warn('[Dashboard] 1Y Sparkline fetch failed:', response.status);
-                return;
-            }
-
-            const data = await response.json();
-
-            // Cache results and update cells
-            for (const [ticker, points] of Object.entries(data)) {
-                if (points && points.length >= 2) {
-                    const firstVal = points[0].value;
-                    const lastVal = points[points.length - 1].value;
-                    const pctChange = ((lastVal - firstVal) / firstVal) * 100;
-                    this.sparkline1yCache.set(ticker, { data: points, pctChange });
-
-                    // Update the cell in the DOM
-                    const cell = card.querySelector(`.sparkline-cell[data-ticker-1y="${ticker}"]`);
-                    if (cell) {
-                        const svg = this._renderSparklineSVG(points, pctChange);
-                        const sign = pctChange >= 0 ? '+' : '';
-                        const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
-                        const title = `1Y: ${sign}${pctChange.toFixed(1)}%`;
-                        cell.className = `sparkline-cell ${colorClass}`;
-                        cell.title = title;
-                        cell.setAttribute('aria-label', title);
-                        cell.innerHTML = svg;
-                    }
-                }
-            }
-
-            console.log(`[Dashboard] Fetched ${Object.keys(data).length} 1Y sparklines`);
-        } catch (err) {
-            if (err.name === 'AbortError') return;
-            console.error('[Dashboard] 1Y Sparkline fetch error:', err);
-        }
+        return this._fetchSparklineData(card, '1y');
     },
 
     /**
@@ -1532,26 +1512,17 @@ window.ChartDashboard = {
             }
         });
 
-        // Build CSV header - use visible columns only
-        const defaultColumns = [
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
+        // Build CSV header - use visible exportable columns only
+        const exportableColumns = this.getExportableColumnDefs();
+        const columnMap = {};
+        exportableColumns.forEach(c => columnMap[c.key] = c);
 
         // Get visible columns in order
-        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const columnOrder = this.columnOrder || exportableColumns.map(c => c.key);
         const visibleColumns = columnOrder
+            .filter(key => columnMap[key]) // Only exportable columns
             .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => defaultColumns.find(c => c.key === key))
+            .map(key => columnMap[key])
             .filter(Boolean);
 
         // Build CSV content
@@ -1621,26 +1592,17 @@ window.ChartDashboard = {
             }
         });
 
-        // Build TSV header - use visible columns only (same as CSV)
-        const defaultColumns = [
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
+        // Build TSV header - use visible exportable columns only
+        const exportableColumns = this.getExportableColumnDefs();
+        const columnMap = {};
+        exportableColumns.forEach(c => columnMap[c.key] = c);
 
         // Get visible columns in order
-        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const columnOrder = this.columnOrder || exportableColumns.map(c => c.key);
         const visibleColumns = columnOrder
+            .filter(key => columnMap[key]) // Only exportable columns
             .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => defaultColumns.find(c => c.key === key))
+            .map(key => columnMap[key])
             .filter(Boolean);
 
         // Build TSV content (tab-separated)
@@ -2485,27 +2447,17 @@ window.ChartDashboard = {
      * @returns {Object} { header: string, rows: string[] }
      */
     _formatRowsForExport(data, delimiter) {
-        // Column definitions (excluding select and actions)
-        const defaultColumns = [
-            { key: 'ticker', label: 'Ticker' },
-            { key: 'name', label: 'Name' },
-            { key: 'latest_price', label: 'Price' },
-            { key: 'daily_change', label: 'Day %' },
-            { key: 'weekly_change', label: 'Week %' },
-            { key: 'monthly_change', label: 'Month %' },
-            { key: 'yearly_change', label: 'Year %' },
-            { key: 'high_52w', label: '52w High' },
-            { key: 'low_52w', label: '52w Low' },
-            { key: 'data_points', label: 'Data Pts' },
-            { key: 'pages', label: 'Pages' }
-        ];
+        // Use centralized exportable column definitions
+        const exportableColumns = this.getExportableColumnDefs();
+        const columnMap = {};
+        exportableColumns.forEach(c => columnMap[c.key] = c);
 
-        // Use visible columns in order (exclude select/actions)
-        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        // Use visible columns in order
+        const columnOrder = this.columnOrder || exportableColumns.map(c => c.key);
         const visibleColumns = columnOrder
-            .filter(key => key !== 'select' && key !== 'actions')
+            .filter(key => columnMap[key]) // Only exportable columns
             .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => defaultColumns.find(c => c.key === key))
+            .map(key => columnMap[key])
             .filter(Boolean);
 
         // Build header
