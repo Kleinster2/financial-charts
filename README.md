@@ -847,6 +847,8 @@ Functions accept `name_map` parameter to override default ticker labels.
 
 ## Documentation
 
+See [docs/README.md](docs/README.md) for the full documentation index.
+
 ### Design & Architecture
 | Document | Purpose |
 |----------|---------|
