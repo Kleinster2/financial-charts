@@ -87,6 +87,49 @@ window.ChartDashboard = {
     },
 
     /**
+     * Get filter/sort configuration object (single source of truth)
+     * @returns {Object} Config for DashboardBase.filterAndSortData()
+     */
+    _getFilterSortConfig() {
+        const numericColumns = [
+            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
+            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
+        ];
+        return {
+            filterText: this.filterText,
+            filterFn: (d, filterText) => {
+                if (this.filterExact) {
+                    return d.ticker.toLowerCase() === filterText;
+                }
+                return d.ticker.toLowerCase().includes(filterText) ||
+                    (d.name && d.name.toLowerCase().includes(filterText)) ||
+                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
+            },
+            sortColumn: this.sortColumn,
+            sortDirection: this.sortDirection,
+            numericColumns,
+            getSortValue: (d, sortColumn) => {
+                if (sortColumn === 'pages') {
+                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
+                }
+                return d[sortColumn];
+            }
+        };
+    },
+
+    /**
+     * Get filtered and sorted data using current settings
+     * @param {Array} data - Data array (defaults to this.data)
+     * @returns {Array} Filtered and sorted data
+     */
+    _getFilteredSortedData(data = this.data) {
+        return window.DashboardBase.filterAndSortData({
+            data,
+            ...this._getFilterSortConfig()
+        });
+    },
+
+    /**
      * Create a dashboard card
      * @param {HTMLElement} wrapperEl - Parent element to append card to
      * @param {Object} options - Optional saved state to restore
@@ -704,33 +747,8 @@ window.ChartDashboard = {
             .filter(Boolean);
         const columns = [...fixedCols, ...orderedCols];
 
-        // Filter + sort data
-        const numericColumns = [
-            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
-            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
-        ];
-
-        const filteredData = window.DashboardBase.filterAndSortData({
-            data: this.data,
-            filterText: this.filterText,
-            filterFn: (d, filterText) => {
-                if (this.filterExact) {
-                    return d.ticker.toLowerCase() === filterText;
-                }
-                return d.ticker.toLowerCase().includes(filterText) ||
-                    (d.name && d.name.toLowerCase().includes(filterText)) ||
-                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
-            },
-            sortColumn: this.sortColumn,
-            sortDirection: this.sortDirection,
-            numericColumns,
-            getSortValue: (d, sortColumn) => {
-                if (sortColumn === 'pages') {
-                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
-                }
-                return d[sortColumn];
-            }
-        });
+        // Filter + sort data using centralized config
+        const filteredData = this._getFilteredSortedData();
 
         // Get saved column widths
         const savedWidths = this.columnWidths || {};
@@ -750,9 +768,11 @@ window.ChartDashboard = {
                 if (col.key === 'actions') {
                     return `<th class="actions-header" style="width:32px;min-width:32px;cursor:default;"></th>`;
                 }
-                const widthStyle = savedWidths.hasOwnProperty(col.key)
-                    ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px; max-width: ${savedWidths[col.key]}px;"`
-                    : '';
+                let widthStyle = '';
+                if (Object.hasOwn(savedWidths, col.key)) {
+                    const w = Math.max(0, Number.isFinite(savedWidths[col.key]) ? savedWidths[col.key] : 0);
+                    widthStyle = `style="width: ${w}px; min-width: ${w}px; max-width: ${w}px;"`;
+                }
                 const label = window.DashboardBase.escapeHtml(col.label);
                 return `<th class="${sortClass}" data-column="${col.key}" draggable="true" ${widthStyle}>${label}<span class="resize-handle"></span></th>`;
             },
@@ -821,7 +841,9 @@ window.ChartDashboard = {
                 table.classList.add('resizing');
 
                 const onMouseMove = (moveEvent) => {
-                    const newWidth = Math.max(0, startWidth + (moveEvent.pageX - startX));
+                    const rawWidth = startWidth + (moveEvent.pageX - startX);
+                    // Clamp to finite >= 0
+                    const newWidth = Number.isFinite(rawWidth) ? Math.max(0, rawWidth) : 0;
                     th.style.width = newWidth + 'px';
                     th.style.minWidth = newWidth + 'px';
                     th.style.maxWidth = newWidth + 'px';
@@ -1484,68 +1506,8 @@ window.ChartDashboard = {
      * Export current filtered/sorted data to CSV
      */
     exportCSV() {
-        // Get current filtered/sorted data using same logic as renderTable
-        const numericColumns = [
-            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
-            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
-        ];
-
-        const filteredData = window.DashboardBase.filterAndSortData({
-            data: this.data,
-            filterText: this.filterText,
-            filterFn: (d, filterText) => {
-                if (this.filterExact) {
-                    return d.ticker.toLowerCase() === filterText;
-                }
-                return d.ticker.toLowerCase().includes(filterText) ||
-                    (d.name && d.name.toLowerCase().includes(filterText)) ||
-                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
-            },
-            sortColumn: this.sortColumn,
-            sortDirection: this.sortDirection,
-            numericColumns,
-            getSortValue: (d, sortColumn) => {
-                if (sortColumn === 'pages') {
-                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
-                }
-                return d[sortColumn];
-            }
-        });
-
-        // Build CSV header - use visible exportable columns only
-        const exportableColumns = this.getExportableColumnDefs();
-        const columnMap = {};
-        exportableColumns.forEach(c => columnMap[c.key] = c);
-
-        // Get visible columns in order
-        const columnOrder = this.columnOrder || exportableColumns.map(c => c.key);
-        const visibleColumns = columnOrder
-            .filter(key => columnMap[key]) // Only exportable columns
-            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => columnMap[key])
-            .filter(Boolean);
-
-        // Build CSV content
-        const header = visibleColumns.map(c => `"${c.label}"`).join(',');
-        const rows = filteredData.map(row => {
-            return visibleColumns.map(col => {
-                let value = row[col.key];
-                if (col.key === 'pages') {
-                    value = row.pages && Array.isArray(row.pages) ? row.pages.length : 0;
-                }
-                if (value === null || value === undefined) {
-                    return '';
-                }
-                if (typeof value === 'string') {
-                    return `"${value.replace(/"/g, '""')}"`;
-                }
-                if (typeof value === 'number') {
-                    return value.toFixed ? value.toFixed(2) : value;
-                }
-                return value;
-            }).join(',');
-        });
-
+        const filteredData = this._getFilteredSortedData();
+        const { header, rows } = this._formatRowsForExport(filteredData, ',');
         const csv = [header, ...rows].join('\n');
 
         // Download
@@ -1564,85 +1526,20 @@ window.ChartDashboard = {
      * Copy current filtered/sorted data to clipboard as TSV
      */
     copyToClipboard() {
-        // Get current filtered/sorted data using same logic as renderTable
-        const numericColumns = [
-            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
-            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
-        ];
-
-        const filteredData = window.DashboardBase.filterAndSortData({
-            data: this.data,
-            filterText: this.filterText,
-            filterFn: (d, filterText) => {
-                if (this.filterExact) {
-                    return d.ticker.toLowerCase() === filterText;
-                }
-                return d.ticker.toLowerCase().includes(filterText) ||
-                    (d.name && d.name.toLowerCase().includes(filterText)) ||
-                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
-            },
-            sortColumn: this.sortColumn,
-            sortDirection: this.sortDirection,
-            numericColumns,
-            getSortValue: (d, sortColumn) => {
-                if (sortColumn === 'pages') {
-                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
-                }
-                return d[sortColumn];
-            }
-        });
-
-        // Build TSV header - use visible exportable columns only
-        const exportableColumns = this.getExportableColumnDefs();
-        const columnMap = {};
-        exportableColumns.forEach(c => columnMap[c.key] = c);
-
-        // Get visible columns in order
-        const columnOrder = this.columnOrder || exportableColumns.map(c => c.key);
-        const visibleColumns = columnOrder
-            .filter(key => columnMap[key]) // Only exportable columns
-            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
-            .map(key => columnMap[key])
-            .filter(Boolean);
-
-        // Build TSV content (tab-separated)
-        const header = visibleColumns.map(c => c.label).join('\t');
-        const rows = filteredData.map(row => {
-            return visibleColumns.map(col => {
-                let value = row[col.key];
-                // Pages: use page names (more informative) instead of count
-                if (col.key === 'pages') {
-                    if (row.pages && Array.isArray(row.pages) && row.pages.length > 0) {
-                        value = row.pages.map(p => p.page_name).join(', ');
-                    } else {
-                        value = '';
-                    }
-                }
-                if (value === null || value === undefined) {
-                    return '';
-                }
-                if (typeof value === 'number') {
-                    return value.toFixed ? value.toFixed(2) : String(value);
-                }
-                // Replace tabs/newlines in string values to avoid breaking TSV
-                return String(value).replace(/[\t\n\r]/g, ' ');
-            }).join('\t');
-        });
-
-        const rowCount = filteredData.length;
+        const filteredData = this._getFilteredSortedData();
 
         // Handle empty result
-        if (rowCount === 0) {
+        if (filteredData.length === 0) {
             if (window.Toast?.info) {
                 window.Toast.info('Nothing to copy');
             }
             return;
         }
 
+        const { header, rows } = this._formatRowsForExport(filteredData, '\t');
         const tsv = [header, ...rows].join('\n');
 
-        // Copy to clipboard
-        this._writeToClipboard(tsv, rowCount);
+        this._writeToClipboard(tsv, filteredData.length);
     },
 
     /**
@@ -2378,36 +2275,8 @@ window.ChartDashboard = {
     _getSelectedRowsData() {
         if (this.selectedTickers.size === 0) return [];
 
-        // Apply same filter+sort logic as renderTable to get correct order
-        const numericColumns = [
-            'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
-            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
-        ];
-
-        const filteredSortedData = window.DashboardBase.filterAndSortData({
-            data: this.data,
-            filterText: this.filterText,
-            filterFn: (d, filterText) => {
-                if (this.filterExact) {
-                    return d.ticker.toLowerCase() === filterText;
-                }
-                return d.ticker.toLowerCase().includes(filterText) ||
-                    (d.name && d.name.toLowerCase().includes(filterText)) ||
-                    (d.pages && d.pages.some(p => p.page_name.toLowerCase().includes(filterText)));
-            },
-            sortColumn: this.sortColumn,
-            sortDirection: this.sortDirection,
-            numericColumns,
-            getSortValue: (d, sortColumn) => {
-                if (sortColumn === 'pages') {
-                    return (d.pages && Array.isArray(d.pages)) ? d.pages.length : 0;
-                }
-                return d[sortColumn];
-            }
-        });
-
         // Return only selected rows, preserving filtered+sorted order
-        return filteredSortedData.filter(row => this.selectedTickers.has(row.ticker));
+        return this._getFilteredSortedData().filter(row => this.selectedTickers.has(row.ticker));
     },
 
     /**
