@@ -72,19 +72,16 @@ nul
 amzn_fetch.log
 fundamental_fetch.log
 
-# Documentation drafts and notes
+# Documentation drafts and notes (root level only)
 allw_replication_portfolio.md
 ANALYTICS_TRACKING.md
-BACKUP_README.md
 BOND_DATA_SOURCES.md
-CODEMAP.md
 CORPORATE_CREDIT_TRACKING_OPTIONS.md
 DEMO_DEPLOYMENT_GUIDE.md
 DOWNLOAD_BONDS_GUIDE.md
 EODHD_SETUP_GUIDE.md
 FIX_HANGING_ISSUE.md
 FRONTEND_INTEGRATION_COMPLETE.md
-IMPLIED_VOLATILITY_GUIDE.md
 IV_FRONTEND_INTEGRATION.md
 IV_QUICKSTART.md
 IV_SUMMARY.md
@@ -94,7 +91,6 @@ PROJECT_README.md
 # Backup directories and utility scripts
 workspace_backups/
 .sessions/
-docs/
 scripts/extract_*.py
 
 # Sandbox artifacts

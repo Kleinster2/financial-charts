@@ -34,7 +34,7 @@ Some data in `market_data.db` is **irreplaceable** and cannot be re-downloaded:
 | **Bond prices** | Corporate bond prices (no bulk API) |
 | **Portfolio data** | User-created portfolios and transactions |
 
-**See [DATABASE_GUIDE.md](DATABASE_GUIDE.md) for full documentation on data classification and backup procedures.**
+**See [docs/data/DATABASE_GUIDE.md](docs/data/DATABASE_GUIDE.md) for full documentation on data classification and backup procedures.**
 
 Before running updates, use incremental mode to protect historical data:
 ```bash
@@ -847,30 +847,38 @@ Functions accept `name_map` parameter to override default ticker labels.
 
 ## Documentation
 
-### Core Reference
+### Design & Architecture
 | Document | Purpose |
 |----------|---------|
-| **[CODEMAP.md](CODEMAP.md)** | Code architecture, line references, common patterns |
-| **[UNIFIED_ARCHITECTURE.md](UNIFIED_ARCHITECTURE.md)** | Single-table design philosophy |
+| [docs/design/CODEMAP.md](docs/design/CODEMAP.md) | Code architecture, line references, common patterns |
+| [docs/design/UNIFIED_ARCHITECTURE.md](docs/design/UNIFIED_ARCHITECTURE.md) | Single-table design philosophy |
+| [docs/design/color-assignment-system.md](docs/design/color-assignment-system.md) | Hybrid color algorithm for chart series |
 
 ### How-To Guides
 | Document | Purpose |
 |----------|---------|
-| **[CREATING_PAGES.md](CREATING_PAGES.md)** | Add pages, charts, dropdown categories |
-| **[ADDING_TICKERS.md](ADDING_TICKERS.md)** | Add new tickers to database |
-| **[BACKUP_README.md](BACKUP_README.md)** | Workspace backup system |
+| [docs/guides/CREATING_PAGES.md](docs/guides/CREATING_PAGES.md) | Add pages, charts, dropdown categories |
+| [docs/guides/ADDING_TICKERS.md](docs/guides/ADDING_TICKERS.md) | Add new tickers to database |
+| [docs/guides/PORTFOLIO_GUIDE.md](docs/guides/PORTFOLIO_GUIDE.md) | Portfolio management, ALLW replication |
+| [docs/guides/MACRO_PAGES_GUIDE.md](docs/guides/MACRO_PAGES_GUIDE.md) | Recession signals, macro interpretation |
+| [docs/guides/IMPLIED_VOLATILITY_GUIDE.md](docs/guides/IMPLIED_VOLATILITY_GUIDE.md) | CBOE IV indices |
 
 ### Data Sources
 | Document | Purpose |
 |----------|---------|
-| **[FRED_INDICATORS_GUIDE.md](FRED_INDICATORS_GUIDE.md)** | 31 economic indicators reference |
-| **[MACRO_PAGES_GUIDE.md](MACRO_PAGES_GUIDE.md)** | Recession signals, macro interpretation |
-| **[BOND_DATA_GUIDE.md](BOND_DATA_GUIDE.md)** | Bond data sources |
-| **[IMPLIED_VOLATILITY_GUIDE.md](IMPLIED_VOLATILITY_GUIDE.md)** | CBOE IV indices |
+| [docs/data/DATABASE_GUIDE.md](docs/data/DATABASE_GUIDE.md) | Database schema, backup procedures |
+| [docs/data/FRED_INDICATORS_GUIDE.md](docs/data/FRED_INDICATORS_GUIDE.md) | 31 economic indicators reference |
+| [docs/data/BOND_DATA_GUIDE.md](docs/data/BOND_DATA_GUIDE.md) | Bond data sources |
 
-### Design Docs
+### Operations
 | Document | Purpose |
 |----------|---------|
-| **[Color Assignment System](docs/color-assignment-system.md)** | Hybrid color algorithm for chart series |
-| **[INDEX_UPDATE_STRATEGY.md](INDEX_UPDATE_STRATEGY.md)** | Index update procedures |
-| **[PORTFOLIO_GUIDE.md](PORTFOLIO_GUIDE.md)** | Portfolio management, ALLW replication |
+| [docs/ops/INDEX_UPDATE_STRATEGY.md](docs/ops/INDEX_UPDATE_STRATEGY.md) | Index update procedures |
+| [docs/ops/BACKUP_README.md](docs/ops/BACKUP_README.md) | Workspace backup system |
+
+### Other
+| Document | Purpose |
+|----------|---------|
+| [docs/PROPOSALS.md](docs/PROPOSALS.md) | Proposed features and future work |
+| [charting_sandbox/README.md](charting_sandbox/README.md) | Frontend architecture |
+| [scripts/README.md](scripts/README.md) | Scripts documentation |
