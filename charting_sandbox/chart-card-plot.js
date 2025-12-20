@@ -569,6 +569,7 @@ window.ChartCardPlot = (() => {
 
             // Volatility (σ) pane
             if (ctx.showVolPane) {
+                if (plotSignal.aborted) return; // Early exit if cancelled
                 const result = await window.ChartVolumeManager.setupVolatilityPane(
                     rt.chart, tickerList, rt.volPane, rt.volSeriesMap,
                     {
@@ -586,6 +587,7 @@ window.ChartCardPlot = (() => {
 
             // Trading Volume pane
             if (ctx.showVolumePane) {
+                if (plotSignal.aborted) return; // Early exit if cancelled
                 const result = await window.ChartVolumeManager.setupTradingVolumePane(
                     rt.chart, tickerList, rt.volumePane, rt.volumeSeriesMap,
                     {
@@ -602,6 +604,7 @@ window.ChartCardPlot = (() => {
 
             // Revenue pane
             if (ctx.showRevenuePane && window.FundamentalsPane) {
+                if (plotSignal.aborted) return; // Early exit if cancelled
                 const result = await window.FundamentalsPane.setupRevenuePane(
                     rt.chart, tickerList, rt.revenuePane, rt.revenueSeriesMap,
                     {
@@ -619,6 +622,7 @@ window.ChartCardPlot = (() => {
 
             // Fundamentals pane
             if (ctx.showFundamentalsPane && window.FundamentalsPane) {
+                if (plotSignal.aborted) return; // Early exit if cancelled
                 const result = await window.FundamentalsPane.setupFundamentalsPane(
                     rt.chart, tickerList, rt.fundamentalsPane, rt.fundamentalSeriesMap,
                     {
