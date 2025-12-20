@@ -239,12 +239,15 @@ window.ChartVolumeManager = {
      * @param {Array} tickerList - Tickers to plot
      * @param {Object} volumePane - Existing pane or null
      * @param {Map} volumeSeriesMap - Series map (mutated in place)
-     * @param {Object} dataRefs - { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor }
+     * @param {Object} dataRefs - { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor, signal }
      * @param {Function} withRangePreservation - Wrapper to preserve time range
      * @returns {Promise<Object>} { volumePane }
      */
     async setupTradingVolumePane(chart, tickerList, volumePane, volumeSeriesMap, dataRefs, withRangePreservation) {
-        const { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor } = dataRefs;
+        const { tickerColorMap, hiddenTickers, visibleRange, lastLabelVisible, stretchFactor, signal } = dataRefs;
+
+        // Early exit if already aborted
+        if (signal?.aborted) return { volumePane };
 
         await withRangePreservation('trading volume', async () => {
             volumePane = window.ChartUtils.createPaneIfNeeded(chart, volumePane, {
@@ -253,14 +256,23 @@ window.ChartVolumeManager = {
                 visibleRange
             });
 
+            // Check abort after pane creation
+            if (signal?.aborted) return;
+
             // Fetch and plot trading volume data for each ticker
             const volumePromises = tickerList
                 .filter(ticker => !hiddenTickers.has(ticker))
                 .map(async (ticker) => {
+                    // Check abort before each fetch
+                    if (signal?.aborted) return;
+
                     try {
                         console.log(`[TradingVolumePane] Fetching volume data for ${ticker}`);
 
-                        const volumeData = await window.DataFetcher.getVolumeData([ticker]);
+                        const volumeData = await window.DataFetcher.getVolumeData([ticker], null, null, { signal });
+
+                        // Check abort after fetch - skip series writes if aborted
+                        if (signal?.aborted) return;
 
                         if (!volumeData || !volumeData[ticker]) {
                             console.warn(`[TradingVolumePane] No volume data received for ${ticker}`);
@@ -312,6 +324,8 @@ window.ChartVolumeManager = {
                         volumeSeries.setData(formattedData);
                         console.log(`[TradingVolumePane] Data set for ${ticker}, ${formattedData.length} points`);
                     } catch (error) {
+                        // Silently ignore AbortError
+                        if (error.name === 'AbortError') return;
                         console.error(`[TradingVolumePane] Failed to fetch/plot volume for ${ticker}:`, error);
                     }
                 });

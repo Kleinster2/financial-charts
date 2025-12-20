@@ -595,7 +595,8 @@ window.ChartCardPlot = (() => {
                         hiddenTickers: ctx.hiddenTickers,
                         visibleRange: ctx.visibleRange,
                         lastLabelVisible: ctx.lastLabelVisible,
-                        stretchFactor: ctx.volumePaneStretchFactor
+                        stretchFactor: ctx.volumePaneStretchFactor,
+                        signal: plotSignal
                     },
                     (paneName, op) => withRangePreservation(ctx, paneName, op)
                 );

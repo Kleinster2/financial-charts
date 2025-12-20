@@ -229,18 +229,31 @@ window.DataFetcher = {
     
     /**
      * Get volume data
+     * @param {string|string[]} tickers - Single ticker or array of tickers
+     * @param {number|null} fromDate - Start timestamp
+     * @param {number|null} toDate - End timestamp
+     * @param {Object} options - { signal: AbortSignal }
      */
-    async getVolumeData(tickers, fromDate = null, toDate = null) {
-        if (!tickers || tickers.length === 0) return {};
+    async getVolumeData(tickers, fromDate = null, toDate = null, options = {}) {
+        // Normalize: string → array
+        const tickerList = typeof tickers === 'string' ? [tickers] : tickers;
+        if (!tickerList || tickerList.length === 0) return {};
+
+        const { signal } = options;
 
         const params = new URLSearchParams();
-        params.set('tickers', tickers.join(','));
+        params.set('tickers', tickerList.join(','));
         if (fromDate) params.set('from', Math.floor(fromDate));
         if (toDate) params.set('to', Math.floor(toDate));
         const url = `${API_BASE_URL}/api/volume?${params.toString()}`;
         try {
-            return await fetchWithRetry(url);
+            return await fetchWithRetry(url, { signal });
         } catch (error) {
+            // Silently return empty on abort (not an error)
+            if (error.name === 'AbortError') {
+                console.log('[Volume] Fetch aborted');
+                return {};
+            }
             console.warn('Volume data fetch failed, returning empty:', error);
             return {};
         }
