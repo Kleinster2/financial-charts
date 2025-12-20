@@ -5,6 +5,13 @@
 
 function createWindowStub() {
   const window = {
+    // Location stub (required by config.js for API.BASE_URL detection)
+    location: {
+      protocol: 'http:',
+      hostname: 'localhost',
+      origin: 'http://localhost:5000'
+    },
+
     // ChartConfig stub - minimal config for tests
     ChartConfig: {
       DIMENSIONS: {

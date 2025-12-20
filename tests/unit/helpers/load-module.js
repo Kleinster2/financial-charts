@@ -46,6 +46,10 @@ function loadModule(modulePath, existingWindow = null) {
     Math,
     Promise,
     Error,
+    URLSearchParams,
+    DOMException,
+    AbortController,
+    performance,
     get fetch() { return window.fetch; }
   });
 
