@@ -652,6 +652,30 @@ window.DashboardBase = (() => {
             .dashboard-card .dashboard-table td:nth-child(2)::after {
                 display: none;
             }
+            /* Sparkline column styles */
+            .sparkline-cell {
+                padding: 4px 6px !important;
+                width: 70px;
+                min-width: 70px;
+                text-align: center;
+            }
+            .sparkline-svg {
+                display: block;
+                margin: 0 auto;
+            }
+            .sparkline-loading {
+                color: #999;
+                font-size: 11px;
+            }
+            .sparkline-up .sparkline-svg path {
+                stroke: #22c55e;
+            }
+            .sparkline-down .sparkline-svg path {
+                stroke: #ef4444;
+            }
+            .sparkline-cell[title] {
+                cursor: help;
+            }
     `;
 
     function ensureStyles() {
