@@ -213,12 +213,6 @@ window.ChartDashboard = {
             this._showAddToChartMenu(addMenu, addDropdownBtn);
         });
 
-        const copySelectedBtn = actionBar.querySelector('.action-bar-copy');
-        copySelectedBtn.addEventListener('click', () => this.copySelected());
-
-        const exportSelectedBtn = actionBar.querySelector('.action-bar-export');
-        exportSelectedBtn.addEventListener('click', () => this.exportSelected());
-
         // Mark as dashboard type for saveCards
         card._type = 'dashboard';
 
