@@ -638,6 +638,17 @@ window.ChartDashboard = {
         // Initialize column order if not set (exclude select/actions - always first)
         if (!this.columnOrder) {
             this.columnOrder = defaultColumns.filter(c => c.key !== 'select' && c.key !== 'actions').map(c => c.key);
+        } else {
+            // Add any new columns that were added after the saved state
+            const defaultKeys = defaultColumns.filter(c => c.key !== 'select' && c.key !== 'actions').map(c => c.key);
+            for (const key of defaultKeys) {
+                if (!this.columnOrder.includes(key)) {
+                    // Insert new column at its default position
+                    const defaultIndex = defaultKeys.indexOf(key);
+                    const insertIndex = Math.min(defaultIndex, this.columnOrder.length);
+                    this.columnOrder.splice(insertIndex, 0, key);
+                }
+            }
         }
 
         // Build columns array: select + actions first (fixed), then user-ordered columns
