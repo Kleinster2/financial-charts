@@ -2290,15 +2290,12 @@ window.ChartDashboard = {
     _escapeCsvField(value, delimiter) {
         if (value === null || value === undefined) return '';
 
-        // Numbers pass through without formula injection protection
-        if (typeof value === 'number') {
-            return String(value);
-        }
-
         let strVal = String(value);
 
         // Formula injection protection: prefix with ' if string starts with dangerous char
-        if (strVal.length > 0 && '=+-@'.includes(strVal[0])) {
+        // Skip for numeric values (including stringified numbers like "-2.50" from toFixed)
+        const isNumericString = /^-?\d+(\.\d+)?$/.test(strVal);
+        if (!isNumericString && strVal.length > 0 && '=+-@'.includes(strVal[0])) {
             strVal = "'" + strVal;
         }
 
