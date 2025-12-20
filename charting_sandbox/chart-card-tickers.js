@@ -190,10 +190,31 @@ window.ChartCardTickers = (() => {
             if (!tickers.length) return;
 
             // Filter out already-selected tickers
-            const newTickers = tickers.filter(t => !ctx.selectedTickers.has(t));
+            let newTickers = tickers.filter(t => !ctx.selectedTickers.has(t));
             if (!newTickers.length) {
                 tickerInput.value = '';
                 return;
+            }
+
+            // Enforce max tickers per chart
+            const maxTickers = window.ChartConfig?.UI?.MAX_TICKERS_PER_CHART || 30;
+            const currentCount = ctx.selectedTickers.size;
+            const availableSlots = maxTickers - currentCount;
+
+            if (availableSlots <= 0) {
+                if (window.Toast?.warning) {
+                    window.Toast.warning(`Chart already has maximum ${maxTickers} tickers`);
+                }
+                tickerInput.value = '';
+                return;
+            }
+
+            if (newTickers.length > availableSlots) {
+                const skipped = newTickers.length - availableSlots;
+                newTickers = newTickers.slice(0, availableSlots);
+                if (window.Toast?.warning) {
+                    window.Toast.warning(`Added ${availableSlots} tickers, skipped ${skipped} (max ${maxTickers})`);
+                }
             }
 
             // Batch add all new tickers
