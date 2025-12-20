@@ -8,8 +8,17 @@ echo "Checking documentation links..."
 
 BROKEN=0
 
-# Find all markdown files to check
-FILES="README.md $(find docs charting_sandbox/README.md scripts/README.md -name '*.md' 2>/dev/null)"
+# Directories to exclude from doc checks
+EXCLUDE_DIRS="node_modules test-results playwright-report .sessions .kiro .git"
+
+# Build find exclusion args
+FIND_EXCLUDES=""
+for dir in $EXCLUDE_DIRS; do
+  FIND_EXCLUDES="$FIND_EXCLUDES -path ./$dir -prune -o"
+done
+
+# Find all markdown files to check (excluding noisy directories)
+FILES="README.md $(find docs charting_sandbox scripts $FIND_EXCLUDES -name '*.md' -print 2>/dev/null)"
 
 for file in $FILES; do
   [ -f "$file" ] || continue
