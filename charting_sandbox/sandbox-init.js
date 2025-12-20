@@ -61,6 +61,21 @@ window.SandboxInit = (() => {
         // Check for ?blank URL param - start with empty card
         const urlParams = new URLSearchParams(window.location.search);
         const startBlank = urlParams.has('blank');
+
+        // Helper to navigate to page from URL param
+        const navigateToUrlPage = () => {
+            const pageParam = urlParams.get('page');
+            if (pageParam && window.PageManager) {
+                const pageNum = parseInt(pageParam, 10);
+                if (!isNaN(pageNum)) {
+                    setTimeout(() => {
+                        window.PageManager.showPage(pageNum);
+                        console.log(`[Restore] Navigated to page ${pageNum} from URL param`);
+                    }, 100);
+                }
+            }
+        };
+
         if (startBlank) {
             window.createChartCard('');
             return;
@@ -115,7 +130,10 @@ window.SandboxInit = (() => {
                     window.PageManager.refreshNavigation();
                 }
 
-                if (cards.length > 0) return;
+                if (cards.length > 0) {
+                    navigateToUrlPage();
+                    return;
+                }
                 console.log('[Restore] Workspace object had no cards; checking localStorage');
             } else {
                 console.log('[Restore] Server returned empty workspace; checking localStorage');
@@ -143,6 +161,8 @@ window.SandboxInit = (() => {
             console.log('[Restore] No stored workspace found; creating default card');
             window.createChartCard('SPY');
         }
+
+        navigateToUrlPage();
     }
 
     /**
