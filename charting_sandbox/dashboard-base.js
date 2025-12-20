@@ -655,8 +655,6 @@ window.DashboardBase = (() => {
             /* Sparkline column styles */
             .sparkline-cell {
                 padding: 4px 6px !important;
-                width: 70px;
-                min-width: 70px;
                 text-align: center;
             }
             .sparkline-svg {
