@@ -86,6 +86,8 @@ window.ChartDashboard = {
                     <button class="action-bar-add-btn">Add to Chart ▼</button>
                     <div class="action-bar-add-menu"></div>
                 </div>
+                <button class="action-bar-copy" title="Copy selected rows as TSV">Copy</button>
+                <button class="action-bar-export" title="Export selected rows as CSV">Export</button>
                 <button class="action-bar-clear">Clear</button>
             </div>
         `;
@@ -197,6 +199,12 @@ window.ChartDashboard = {
 
         const clearBtn = actionBar.querySelector('.action-bar-clear');
         clearBtn.addEventListener('click', () => this.clearSelection(card));
+
+        const copySelectedBtn = actionBar.querySelector('.action-bar-copy');
+        copySelectedBtn.addEventListener('click', () => this.copySelected());
+
+        const exportSelectedBtn = actionBar.querySelector('.action-bar-export');
+        exportSelectedBtn.addEventListener('click', () => this.exportSelected());
 
         const addDropdownBtn = actionBar.querySelector('.action-bar-add-btn');
         const addMenu = actionBar.querySelector('.action-bar-add-menu');
@@ -1579,6 +1587,152 @@ window.ChartDashboard = {
                 copyAllBtn.textContent = originalText;
             }
         }
+    },
+
+    /**
+     * Copy selected rows to clipboard as TSV
+     * Uses same column visibility/order as current table
+     */
+    copySelected() {
+        const selectedData = this._getSelectedRowsData();
+        if (selectedData.length === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('No rows selected');
+            }
+            return;
+        }
+
+        const { header, rows } = this._formatRowsForExport(selectedData, '\t');
+        const tsv = [header, ...rows].join('\n');
+
+        this._writeToClipboard(tsv, selectedData.length);
+    },
+
+    /**
+     * Export selected rows as CSV download
+     * Uses same column visibility/order as current table
+     */
+    exportSelected() {
+        const selectedData = this._getSelectedRowsData();
+        if (selectedData.length === 0) {
+            if (window.Toast?.info) {
+                window.Toast.info('No rows selected');
+            }
+            return;
+        }
+
+        const { header, rows } = this._formatRowsForExport(selectedData, ',');
+        const csv = [header, ...rows].join('\n');
+
+        // Create blob and trigger download
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const anchor = document.createElement('a');
+        anchor.href = url;
+        anchor.download = `selected_tickers_${new Date().toISOString().slice(0, 10)}.csv`;
+        anchor.style.display = 'none';
+        document.body.appendChild(anchor);
+        anchor.click();
+        document.body.removeChild(anchor);
+        URL.revokeObjectURL(url);
+
+        if (window.Toast?.success) {
+            window.Toast.success(`Exported ${selectedData.length} rows`);
+        }
+    },
+
+    /**
+     * Get data rows for selected tickers
+     * @returns {Array} Array of row data objects for selected tickers
+     */
+    _getSelectedRowsData() {
+        if (this.selectedTickers.size === 0) return [];
+
+        // Filter loaded data to selected tickers
+        return this.data.filter(row => this.selectedTickers.has(row.ticker));
+    },
+
+    /**
+     * Format rows for export (CSV or TSV)
+     * Uses current column visibility and order
+     * @param {Array} data - Array of row data
+     * @param {string} delimiter - ',' for CSV, '\t' for TSV
+     * @returns {Object} { header: string, rows: string[] }
+     */
+    _formatRowsForExport(data, delimiter) {
+        // Default column definitions (same as renderTable)
+        const defaultColumns = [
+            { key: 'ticker', label: 'Ticker' },
+            { key: 'name', label: 'Name' },
+            { key: 'latest_price', label: 'Price' },
+            { key: 'daily_change', label: 'Day %' },
+            { key: 'weekly_change', label: 'Week %' },
+            { key: 'monthly_change', label: 'Month %' },
+            { key: 'yearly_change', label: 'Year %' },
+            { key: 'high_52w', label: '52w High' },
+            { key: 'low_52w', label: '52w Low' },
+            { key: 'data_points', label: 'Data Pts' },
+            { key: 'pages', label: 'Pages' }
+        ];
+
+        // Get visible columns in order (exclude 'select' and 'actions')
+        const columnOrder = this.columnOrder || defaultColumns.map(c => c.key);
+        const visibleColumns = columnOrder
+            .filter(key => key !== 'select' && key !== 'actions')
+            .filter(key => !this.hiddenColumns || !this.hiddenColumns.has(key))
+            .map(key => defaultColumns.find(c => c.key === key))
+            .filter(Boolean);
+
+        // Build header
+        const header = visibleColumns.map(c => this._escapeCsvField(c.label, delimiter)).join(delimiter);
+
+        // Build rows
+        const rows = data.map(row => {
+            return visibleColumns.map(col => {
+                let value = row[col.key];
+
+                // Handle pages specially - join page names
+                if (col.key === 'pages') {
+                    if (row.pages && Array.isArray(row.pages) && row.pages.length > 0) {
+                        value = row.pages.map(p => p.page_name).join(', ');
+                    } else {
+                        value = '';
+                    }
+                }
+
+                if (value === null || value === undefined) {
+                    return '';
+                }
+                if (typeof value === 'number') {
+                    return value.toFixed ? value.toFixed(2) : String(value);
+                }
+
+                return this._escapeCsvField(String(value), delimiter);
+            }).join(delimiter);
+        });
+
+        return { header, rows };
+    },
+
+    /**
+     * Escape a field for CSV/TSV export
+     * @param {string} value - Field value
+     * @param {string} delimiter - ',' or '\t'
+     * @returns {string} Escaped field
+     */
+    _escapeCsvField(value, delimiter) {
+        if (!value) return '';
+
+        // For TSV, just replace tabs/newlines
+        if (delimiter === '\t') {
+            return value.replace(/[\t\n\r]/g, ' ');
+        }
+
+        // For CSV, quote if contains comma, quote, or newline
+        if (value.includes(',') || value.includes('"') || value.includes('\n')) {
+            return '"' + value.replace(/"/g, '""') + '"';
+        }
+        return value;
     },
 
     /**

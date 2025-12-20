@@ -524,6 +524,8 @@ window.DashboardBase = (() => {
                 border-right: 1px solid rgba(255,255,255,0.3);
             }
             .action-bar-compare,
+            .action-bar-copy,
+            .action-bar-export,
             .action-bar-clear {
                 padding: 6px 14px;
                 border: none;
@@ -539,6 +541,15 @@ window.DashboardBase = (() => {
             }
             .action-bar-compare:hover {
                 background: #218838;
+            }
+            .action-bar-copy,
+            .action-bar-export {
+                background: #17a2b8;
+                color: white;
+            }
+            .action-bar-copy:hover,
+            .action-bar-export:hover {
+                background: #138496;
             }
             .action-bar-clear {
                 background: #6c757d;
