@@ -2337,6 +2337,118 @@ def get_macro_dashboard():
         return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
 
+# --- Dashboard Sparklines endpoint ---
+@app.route('/api/dashboard/sparklines')
+def dashboard_sparklines():
+    """Get sparkline data for dashboard - rebased to 100 for comparability.
+
+    Query params:
+        tickers: comma-separated list of ticker symbols (required, max 50)
+        days: number of days of history (default: 30, max: 90)
+
+    Response: { TICKER: [{time, value}, ...], ... }
+    Values are rebased so first value = 100, subsequent values show % change.
+    """
+    tickers_str = request.args.get('tickers')
+    if not tickers_str:
+        return jsonify({'error': 'tickers parameter required'}), HTTP_BAD_REQUEST
+
+    # Parse and limit tickers
+    tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
+    MAX_TICKERS = 50
+    if len(tickers) > MAX_TICKERS:
+        tickers = tickers[:MAX_TICKERS]
+        app.logger.warning(f"/api/dashboard/sparklines: truncated to {MAX_TICKERS} tickers")
+
+    if not tickers:
+        return jsonify({}), HTTP_OK
+
+    # Parse and limit days
+    try:
+        days = min(int(request.args.get('days', 30)), 90)
+    except ValueError:
+        days = 30
+
+    # Calculate date cutoff
+    from datetime import timedelta
+    cutoff_date = datetime.now() - timedelta(days=days)
+    cutoff_str = cutoff_date.strftime('%Y-%m-%d')
+
+    conn = get_db_connection()
+    result = {}
+
+    try:
+        # Get available columns from stock_prices_daily
+        stock_cols = get_table_columns('stock_prices_daily', conn)
+
+        # Filter to valid tickers
+        valid_tickers = [t for t in tickers if t in stock_cols]
+
+        if not valid_tickers:
+            conn.close()
+            return jsonify({}), HTTP_OK
+
+        # Fetch data for all valid tickers in one query
+        # Use date() to normalize mixed date formats and filter nulls
+        cols_str = ', '.join([f'MAX("{t}") as "{t}"' for t in valid_tickers])
+        query = f"""
+            SELECT date(Date) as Date, {cols_str}
+            FROM stock_prices_daily
+            WHERE date(Date) >= ?
+            GROUP BY date(Date)
+            ORDER BY date(Date) ASC
+        """
+
+        df = pd.read_sql_query(query, conn, params=[cutoff_str], parse_dates=['Date'])
+
+        if df.empty:
+            conn.close()
+            return jsonify({}), HTTP_OK
+
+        # Process each ticker
+        for ticker in valid_tickers:
+            if ticker not in df.columns:
+                continue
+
+            series = df[['Date', ticker]].dropna()
+            if series.empty or len(series) < 2:
+                continue
+
+            # Get values and rebase to 100
+            values = series[ticker].values
+            first_val = values[0]
+            if first_val == 0 or pd.isna(first_val):
+                continue
+
+            rebased = (values / first_val) * 100
+
+            # Convert to output format
+            times = (series['Date'].astype('int64') // 10**9).astype(int).values
+            result[ticker] = [
+                {'time': int(t), 'value': round(float(v), 2)}
+                for t, v in zip(times, rebased)
+            ]
+
+        conn.close()
+
+        # Add ETag for caching
+        import hashlib
+        etag = hashlib.md5(json.dumps(result, sort_keys=True).encode()).hexdigest()[:16]
+
+        response = jsonify(result)
+        response.headers['ETag'] = f'"{etag}"'
+        response.headers['Cache-Control'] = 'public, max-age=300'  # 5 min cache
+
+        app.logger.info(f"/api/dashboard/sparklines: returned {len(result)} tickers, {days} days")
+        return response
+
+    except Exception as e:
+        conn.close()
+        app.logger.error(f"/api/dashboard/sparklines: Error: {e}")
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
+
+
 # Register portfolio routes
 try:
     from portfolio_routes import portfolio_bp
