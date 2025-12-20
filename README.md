@@ -79,7 +79,7 @@ financial-charts/
 │   └── pages.js                # Multi-page navigation
 │
 ├── tests/                      # Automated tests
-│   ├── unit/                   # Node unit tests (74 tests)
+│   ├── unit/                   # Node unit tests (109 tests)
 │   │   ├── chart-card-context.test.js
 │   │   ├── chart-card-registry.test.js
 │   │   ├── chart-dashboard.test.js
@@ -182,6 +182,27 @@ python charting_app\app.py
 # Open browser to http://localhost:5000/sandbox/
 ```
 
+### Demo Mode
+
+Run the UI without the full `market_data.db` using a lightweight sample database:
+
+```powershell
+# Create sample database (one-time, generates ~36 KB sample_data.db)
+python scripts/create_sample_db.py
+
+# Launch in demo mode
+$env:DEMO_MODE = "1"
+python charting_app\app.py
+
+# Unix/bash
+DEMO_MODE=1 python charting_app/app.py
+```
+
+**Sample database includes:**
+- 10 representative tickers (SPY, AAPL, GOOGL, MSFT, AMZN, TSLA, ^GSPC, ^VIX, BTC-USD, GLD)
+- ~45 days of synthetic price/volume data
+- Useful for demos, testing, and development without 311 MB database
+
 ## Key Features
 
 ### Dynamic Interval Selection
@@ -216,7 +237,14 @@ Manual override available via dropdown (Auto/Daily/Weekly/Monthly).
 - **Column visibility**: Show/hide columns via dropdown
 - **Reset Layout**: One click to restore default sort, filter, and column settings
 - **Export CSV**: Download filtered/sorted data with visible columns
+- **Multi-select**: Checkbox selection for batch operations
+- **Copy/Export selected**: Copy selected rows as TSV (clipboard) or download as CSV
 - **State persistence**: Dashboard layout (sort, filter, columns) persists across sessions
+
+### Bulk Ticker Input
+- Paste comma or space-separated tickers: `AAPL, MSFT, GOOG` or `AAPL MSFT GOOG`
+- Supports "TICKER - Company Name" format from autocomplete
+- Automatic deduplication and max ticker enforcement (30 per chart)
 
 ## Database Schema
 
