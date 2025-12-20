@@ -497,9 +497,9 @@ json.dump(data, open('charting_app/workspace.json', 'w'), indent=2)
 ## Related Documentation
 
 - [ADDING_TICKERS.md](./ADDING_TICKERS.md) - How to add tickers to database
-- [README.md](./README.md) - Project overview
-- [CODEMAP.md](./CODEMAP.md) - Codebase structure
-- [charting_app/workspace.json](./charting_app/workspace.json) - Workspace configuration
+- [README.md](../../README.md) - Project overview
+- [CODEMAP.md](../design/CODEMAP.md) - Codebase structure
+- [charting_app/workspace.json](../../charting_app/workspace.json) - Workspace configuration
 
 ## Quick Reference
 
