@@ -1291,8 +1291,13 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 check_dt = pd.to_datetime(check_date)
                 if check_dt in existing_df.index:
                     old_val = existing_df.loc[check_dt, 'SPY']
+                    # Ensure scalar value (handle potential duplicate indices)
+                    if isinstance(old_val, pd.Series):
+                        old_val = old_val.iloc[0]
                     if check_dt in combined_df.index:
                         new_val = combined_df.loc[check_dt, 'SPY']
+                        if isinstance(new_val, pd.Series):
+                            new_val = new_val.iloc[0]
                         if pd.notna(old_val) and pd.isna(new_val):
                             vprint(f"  INTEGRITY ERROR: SPY on {check_date} was {old_val:.2f}, now NULL!")
                             integrity_failed = True
