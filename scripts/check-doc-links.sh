@@ -34,11 +34,13 @@ for file in $FILES; do
       continue
     fi
 
-    # All relative links resolve from the file's directory
-    if [[ "$link" != /* ]]; then
-      resolved="$dir/$link"
+    # Resolve link path
+    if [[ "$link" == /* ]]; then
+      # Repo-root relative (e.g., /docs/foo.md) - strip leading slash
+      resolved="${link#/}"
     else
-      resolved="$link"
+      # Relative to containing file's directory
+      resolved="$dir/$link"
     fi
 
     # Normalize path (remove ./ and resolve ../)
