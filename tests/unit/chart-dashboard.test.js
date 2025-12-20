@@ -360,6 +360,25 @@ describe('ChartDashboard', () => {
         assert.strictEqual(ChartDashboard._escapeCsvField('@user', ','), "'@user");
       });
 
+      it('skips formula injection for numeric strings (negative)', () => {
+        // Stringified numbers like "-2.50" from toFixed should NOT get ' prefix
+        assert.strictEqual(ChartDashboard._escapeCsvField('-2.50', ','), '-2.50');
+        assert.strictEqual(ChartDashboard._escapeCsvField('-0', ','), '-0');
+        assert.strictEqual(ChartDashboard._escapeCsvField('-123', ','), '-123');
+      });
+
+      it('skips formula injection for numeric strings (positive)', () => {
+        assert.strictEqual(ChartDashboard._escapeCsvField('123.45', ','), '123.45');
+        assert.strictEqual(ChartDashboard._escapeCsvField('0', ','), '0');
+        assert.strictEqual(ChartDashboard._escapeCsvField('999', ','), '999');
+      });
+
+      it('applies formula injection for non-numeric strings starting with -', () => {
+        // '-5.5%' has % so it's not numeric - should get prefix
+        assert.strictEqual(ChartDashboard._escapeCsvField('-abc', ','), "'-abc");
+        assert.strictEqual(ChartDashboard._escapeCsvField('-5.5%', ','), "'-5.5%");
+      });
+
       it('combines formula injection with CSV quoting when needed', () => {
         // Contains comma, so needs quoting, plus formula injection
         assert.strictEqual(ChartDashboard._escapeCsvField('=A,B', ','), "\"'=A,B\"");
