@@ -1268,14 +1268,14 @@ window.ChartDashboard = {
                 return;
             }
 
-            // Page link click - navigate to page
+            // Page link click - open page in new tab
             const pageLink = target.closest('.page-link');
             if (pageLink) {
                 e.preventDefault();
                 const pageNum = parseInt(pageLink.dataset.page, 10);
-                if (window.PageManager && typeof window.PageManager.showPage === 'function') {
-                    window.PageManager.showPage(pageNum);
-                }
+                const url = new URL(window.location.href);
+                url.searchParams.set('page', pageNum);
+                window.open(url.toString(), '_blank');
                 return;
             }
         };
