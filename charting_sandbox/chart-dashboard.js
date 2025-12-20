@@ -714,7 +714,7 @@ window.ChartDashboard = {
                     return `<th class="actions-header" style="width:32px;min-width:32px;cursor:default;"></th>`;
                 }
                 const widthStyle = savedWidths.hasOwnProperty(col.key)
-                    ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px;"`
+                    ? `style="width: ${savedWidths[col.key]}px; min-width: ${savedWidths[col.key]}px; max-width: ${savedWidths[col.key]}px;"`
                     : '';
                 const label = window.DashboardBase.escapeHtml(col.label);
                 return `<th class="${sortClass}" data-column="${col.key}" draggable="true" ${widthStyle}>${label}<span class="resize-handle"></span></th>`;
@@ -787,6 +787,7 @@ window.ChartDashboard = {
                     const newWidth = Math.max(0, startWidth + (moveEvent.pageX - startX));
                     th.style.width = newWidth + 'px';
                     th.style.minWidth = newWidth + 'px';
+                    th.style.maxWidth = newWidth + 'px';
 
                     // Save width
                     if (!this.columnWidths) this.columnWidths = {};
