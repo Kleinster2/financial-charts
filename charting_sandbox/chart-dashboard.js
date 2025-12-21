@@ -25,12 +25,18 @@ window.ChartDashboard = {
     // Sparkline configurations (single source of truth)
     sparklineConfigs: {
         '30d': { days: 30, label: '30D', selectorAttr: 'data-ticker' },
-        '1y': { days: 365, label: '1Y', selectorAttr: 'data-ticker-1y' }
+        '90d': { days: 90, label: '90D', selectorAttr: 'data-ticker-90d' },
+        '180d': { days: 180, label: '180D', selectorAttr: 'data-ticker-180d' },
+        '1y': { days: 365, label: '1Y', selectorAttr: 'data-ticker-1y' },
+        '2y': { days: 730, label: '2Y', selectorAttr: 'data-ticker-2y' }
     },
     // Sparkline state (keyed by config name)
     sparklineState: {
         '30d': { cache: new Map(), abortController: null, pending: new Set() },
-        '1y': { cache: new Map(), abortController: null, pending: new Set() }
+        '90d': { cache: new Map(), abortController: null, pending: new Set() },
+        '180d': { cache: new Map(), abortController: null, pending: new Set() },
+        '1y': { cache: new Map(), abortController: null, pending: new Set() },
+        '2y': { cache: new Map(), abortController: null, pending: new Set() }
     },
     // Legacy accessors for backward compatibility
     get sparklineCache() { return this.sparklineState['30d'].cache; },
@@ -48,7 +54,10 @@ window.ChartDashboard = {
             { key: 'actions', label: '', fixed: true },
             { key: 'ticker', label: 'Ticker' },
             { key: 'sparkline', label: '30D', noSort: true, noExport: true },
+            { key: 'sparkline90d', label: '90D', noSort: true, noExport: true },
+            { key: 'sparkline180d', label: '180D', noSort: true, noExport: true },
             { key: 'sparkline1y', label: '1Y', noSort: true, noExport: true },
+            { key: 'sparkline2y', label: '2Y', noSort: true, noExport: true },
             { key: 'name', label: 'Name' },
             { key: 'latest_price', label: 'Price' },
             { key: 'daily_change', label: 'Day %' },
@@ -1242,6 +1251,36 @@ window.ChartDashboard = {
             return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
         };
 
+        // Sparkline renderer (90D)
+        const renderSparkline90d = () => {
+            const cached = this.sparklineState['90d'].cache.get(row.ticker);
+            if (!cached) {
+                this.sparklineState['90d'].pending.add(row.ticker);
+                return `<td class="sparkline-cell" data-ticker-90d="${row.ticker}"><span class="sparkline-loading">...</span></td>`;
+            }
+            const { data, pctChange } = cached;
+            const svg = this._renderSparklineSVG(data, pctChange);
+            const sign = pctChange >= 0 ? '+' : '';
+            const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
+            const title = `90D: ${sign}${pctChange.toFixed(1)}%`;
+            return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
+        };
+
+        // Sparkline renderer (180D)
+        const renderSparkline180d = () => {
+            const cached = this.sparklineState['180d'].cache.get(row.ticker);
+            if (!cached) {
+                this.sparklineState['180d'].pending.add(row.ticker);
+                return `<td class="sparkline-cell" data-ticker-180d="${row.ticker}"><span class="sparkline-loading">...</span></td>`;
+            }
+            const { data, pctChange } = cached;
+            const svg = this._renderSparklineSVG(data, pctChange);
+            const sign = pctChange >= 0 ? '+' : '';
+            const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
+            const title = `180D: ${sign}${pctChange.toFixed(1)}%`;
+            return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
+        };
+
         // Sparkline renderer (1Y)
         const renderSparkline1y = () => {
             const cached = this.sparkline1yCache.get(row.ticker);
@@ -1257,13 +1296,31 @@ window.ChartDashboard = {
             return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
         };
 
+        // Sparkline renderer (2Y)
+        const renderSparkline2y = () => {
+            const cached = this.sparklineState['2y'].cache.get(row.ticker);
+            if (!cached) {
+                this.sparklineState['2y'].pending.add(row.ticker);
+                return `<td class="sparkline-cell" data-ticker-2y="${row.ticker}"><span class="sparkline-loading">...</span></td>`;
+            }
+            const { data, pctChange } = cached;
+            const svg = this._renderSparklineSVG(data, pctChange);
+            const sign = pctChange >= 0 ? '+' : '';
+            const colorClass = pctChange >= 0 ? 'sparkline-up' : 'sparkline-down';
+            const title = `2Y: ${sign}${pctChange.toFixed(1)}%`;
+            return `<td class="sparkline-cell ${colorClass}" title="${title}" aria-label="${title}">${svg}</td>`;
+        };
+
         // Cell renderers for each column
         const cellRenderers = {
             select: () => `<td class="select-cell"><input type="checkbox" class="row-select-checkbox" data-ticker="${row.ticker}" ${isSelected ? 'checked' : ''}></td>`,
             actions: () => `<td class="actions-cell"><button class="quick-chart-btn" data-ticker="${row.ticker}" title="Add to chart">+</button></td>`,
             ticker: () => `<td class="ticker-cell">${window.DashboardBase.escapeHtml(row.ticker)}</td>`,
             sparkline: renderSparkline,
+            sparkline90d: renderSparkline90d,
+            sparkline180d: renderSparkline180d,
             sparkline1y: renderSparkline1y,
+            sparkline2y: renderSparkline2y,
             name: () => `<td>${window.DashboardBase.escapeHtml(row.name) || '-'}</td>`,
             latest_price: () => `<td class="price-cell">${formatPrice(row.latest_price)}</td>`,
             daily_change: () => `<td class="price-cell ${dailyChange.bgClass}">${dailyChange.html}</td>`,
