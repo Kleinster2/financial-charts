@@ -2365,7 +2365,7 @@ def dashboard_sparklines():
 
     # Parse and limit days
     try:
-        days = min(int(request.args.get('days', 30)), 90)
+        days = min(int(request.args.get('days', 30)), 730)  # Max 2 years for sparklines
     except ValueError:
         days = 30
 
