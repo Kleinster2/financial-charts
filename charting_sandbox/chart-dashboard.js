@@ -67,6 +67,42 @@ window.ChartDashboard = {
             { key: 'high_52w', label: '52w High' },
             { key: 'low_52w', label: '52w Low' },
             { key: 'data_points', label: 'Data Pts' },
+            // Fundamentals - Classification
+            { key: 'sector', label: 'Sector' },
+            { key: 'industry', label: 'Industry' },
+            // Fundamentals - Valuation
+            { key: 'market_cap', label: 'Mkt Cap' },
+            { key: 'pe_ratio', label: 'P/E' },
+            { key: 'forward_pe', label: 'Fwd P/E' },
+            { key: 'trailing_pe', label: 'Trail P/E' },
+            { key: 'peg_ratio', label: 'PEG' },
+            { key: 'price_to_sales', label: 'P/S' },
+            { key: 'price_to_book', label: 'P/B' },
+            { key: 'ev_to_revenue', label: 'EV/Rev' },
+            { key: 'ev_to_ebitda', label: 'EV/EBITDA' },
+            // Fundamentals - Earnings
+            { key: 'eps', label: 'EPS' },
+            { key: 'diluted_eps', label: 'Dil EPS' },
+            { key: 'analyst_target_price', label: 'Target' },
+            // Fundamentals - Profitability
+            { key: 'profit_margin', label: 'Profit %' },
+            { key: 'operating_margin', label: 'Op Margin' },
+            { key: 'return_on_assets', label: 'ROA' },
+            { key: 'return_on_equity', label: 'ROE' },
+            // Fundamentals - Revenue & Income
+            { key: 'revenue', label: 'Revenue' },
+            { key: 'revenue_per_share', label: 'Rev/Share' },
+            { key: 'gross_profit', label: 'Gross Profit' },
+            { key: 'ebitda', label: 'EBITDA' },
+            // Fundamentals - Growth
+            { key: 'quarterly_revenue_growth', label: 'Rev Grth %' },
+            { key: 'quarterly_earnings_growth', label: 'Earn Grth %' },
+            // Fundamentals - Other
+            { key: 'dividend_yield', label: 'Div Yield' },
+            { key: 'beta', label: 'Beta' },
+            { key: 'shares_outstanding', label: 'Shares Out' },
+            { key: 'moving_avg_50', label: 'MA 50' },
+            { key: 'moving_avg_200', label: 'MA 200' },
             { key: 'pages', label: 'Pages' }
         ];
     },
@@ -102,7 +138,15 @@ window.ChartDashboard = {
     _getFilterSortConfig() {
         const numericColumns = [
             'latest_price', 'daily_change', 'weekly_change', 'monthly_change',
-            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages'
+            'yearly_change', 'high_52w', 'low_52w', 'data_points', 'pages',
+            // Fundamentals - numeric columns
+            'market_cap', 'pe_ratio', 'forward_pe', 'trailing_pe', 'peg_ratio',
+            'price_to_sales', 'price_to_book', 'ev_to_revenue', 'ev_to_ebitda',
+            'eps', 'diluted_eps', 'analyst_target_price',
+            'profit_margin', 'operating_margin', 'return_on_assets', 'return_on_equity',
+            'revenue', 'revenue_per_share', 'gross_profit', 'ebitda',
+            'quarterly_revenue_growth', 'quarterly_earnings_growth',
+            'dividend_yield', 'beta', 'shares_outstanding', 'moving_avg_50', 'moving_avg_200'
         ];
         return {
             filterText: this.filterText,
@@ -1221,6 +1265,34 @@ window.ChartDashboard = {
             return val.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         };
 
+        const formatLargeNumber = (val) => {
+            if (val === null || val === undefined) return '-';
+            const num = parseFloat(val);
+            if (isNaN(num)) return '-';
+            if (Math.abs(num) >= 1e12) return (num / 1e12).toFixed(2) + 'T';
+            if (Math.abs(num) >= 1e9) return (num / 1e9).toFixed(2) + 'B';
+            if (Math.abs(num) >= 1e6) return (num / 1e6).toFixed(2) + 'M';
+            if (Math.abs(num) >= 1e3) return (num / 1e3).toFixed(2) + 'K';
+            return num.toFixed(2);
+        };
+
+        const formatRatio = (val) => {
+            if (val === null || val === undefined) return '-';
+            const num = parseFloat(val);
+            if (isNaN(num)) return '-';
+            return num.toFixed(2);
+        };
+
+        const formatPercent = (val) => {
+            if (val === null || val === undefined) return '-';
+            const num = parseFloat(val);
+            if (isNaN(num)) return '-';
+            // If value is already a decimal (e.g., 0.15 for 15%), multiply by 100
+            // Alpha Vantage returns decimals for margins (0.25 = 25%)
+            const pct = Math.abs(num) < 1 ? num * 100 : num;
+            return pct.toFixed(2) + '%';
+        };
+
         const pagesHtml = row.pages && row.pages.length > 0
             ? row.pages.map(p => `<a class="page-link" data-page="${p.page}">${window.DashboardBase.escapeHtml(p.page_name)}</a>`).join(', ')
             : '-';
@@ -1330,6 +1402,42 @@ window.ChartDashboard = {
             high_52w: () => `<td class="price-cell">${formatPrice(row.high_52w)}</td>`,
             low_52w: () => `<td class="price-cell">${formatPrice(row.low_52w)}</td>`,
             data_points: () => `<td class="price-cell">${row.data_points ? row.data_points.toLocaleString() : '-'}</td>`,
+            // Fundamentals - Classification
+            sector: () => `<td>${window.DashboardBase.escapeHtml(row.sector) || '-'}</td>`,
+            industry: () => `<td>${window.DashboardBase.escapeHtml(row.industry) || '-'}</td>`,
+            // Fundamentals - Valuation
+            market_cap: () => `<td class="price-cell">${formatLargeNumber(row.market_cap)}</td>`,
+            pe_ratio: () => `<td class="price-cell">${formatRatio(row.pe_ratio)}</td>`,
+            forward_pe: () => `<td class="price-cell">${formatRatio(row.forward_pe)}</td>`,
+            trailing_pe: () => `<td class="price-cell">${formatRatio(row.trailing_pe)}</td>`,
+            peg_ratio: () => `<td class="price-cell">${formatRatio(row.peg_ratio)}</td>`,
+            price_to_sales: () => `<td class="price-cell">${formatRatio(row.price_to_sales)}</td>`,
+            price_to_book: () => `<td class="price-cell">${formatRatio(row.price_to_book)}</td>`,
+            ev_to_revenue: () => `<td class="price-cell">${formatRatio(row.ev_to_revenue)}</td>`,
+            ev_to_ebitda: () => `<td class="price-cell">${formatRatio(row.ev_to_ebitda)}</td>`,
+            // Fundamentals - Earnings
+            eps: () => `<td class="price-cell">${formatPrice(row.eps)}</td>`,
+            diluted_eps: () => `<td class="price-cell">${formatPrice(row.diluted_eps)}</td>`,
+            analyst_target_price: () => `<td class="price-cell">${formatPrice(row.analyst_target_price)}</td>`,
+            // Fundamentals - Profitability
+            profit_margin: () => `<td class="price-cell">${formatPercent(row.profit_margin)}</td>`,
+            operating_margin: () => `<td class="price-cell">${formatPercent(row.operating_margin)}</td>`,
+            return_on_assets: () => `<td class="price-cell">${formatPercent(row.return_on_assets)}</td>`,
+            return_on_equity: () => `<td class="price-cell">${formatPercent(row.return_on_equity)}</td>`,
+            // Fundamentals - Revenue & Income
+            revenue: () => `<td class="price-cell">${formatLargeNumber(row.revenue)}</td>`,
+            revenue_per_share: () => `<td class="price-cell">${formatPrice(row.revenue_per_share)}</td>`,
+            gross_profit: () => `<td class="price-cell">${formatLargeNumber(row.gross_profit)}</td>`,
+            ebitda: () => `<td class="price-cell">${formatLargeNumber(row.ebitda)}</td>`,
+            // Fundamentals - Growth
+            quarterly_revenue_growth: () => `<td class="price-cell">${formatPercent(row.quarterly_revenue_growth)}</td>`,
+            quarterly_earnings_growth: () => `<td class="price-cell">${formatPercent(row.quarterly_earnings_growth)}</td>`,
+            // Fundamentals - Other
+            dividend_yield: () => `<td class="price-cell">${formatPercent(row.dividend_yield)}</td>`,
+            beta: () => `<td class="price-cell">${formatRatio(row.beta)}</td>`,
+            shares_outstanding: () => `<td class="price-cell">${formatLargeNumber(row.shares_outstanding)}</td>`,
+            moving_avg_50: () => `<td class="price-cell">${formatPrice(row.moving_avg_50)}</td>`,
+            moving_avg_200: () => `<td class="price-cell">${formatPrice(row.moving_avg_200)}</td>`,
             pages: () => `<td>${pagesHtml}</td>`
         };
 

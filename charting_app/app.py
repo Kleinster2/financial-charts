@@ -1933,6 +1933,54 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
             }
             all_tickers.add(ticker)
 
+        # Get fundamentals from company_overview table
+        fundamentals = {}
+        try:
+            cursor.execute("""
+                SELECT ticker, sector, industry, market_cap, pe_ratio, peg_ratio, eps,
+                       dividend_yield, beta, moving_avg_50, moving_avg_200, shares_outstanding,
+                       profit_margin, operating_margin, return_on_assets, return_on_equity,
+                       revenue, revenue_per_share, quarterly_revenue_growth, gross_profit,
+                       ebitda, diluted_eps, quarterly_earnings_growth, analyst_target_price,
+                       trailing_pe, forward_pe, price_to_sales, price_to_book,
+                       ev_to_revenue, ev_to_ebitda
+                FROM company_overview
+            """)
+            for row in cursor.fetchall():
+                fundamentals[row[0]] = {
+                    'sector': row[1],
+                    'industry': row[2],
+                    'market_cap': row[3],
+                    'pe_ratio': row[4],
+                    'peg_ratio': row[5],
+                    'eps': row[6],
+                    'dividend_yield': row[7],
+                    'beta': row[8],
+                    'moving_avg_50': row[9],
+                    'moving_avg_200': row[10],
+                    'shares_outstanding': row[11],
+                    'profit_margin': row[12],
+                    'operating_margin': row[13],
+                    'return_on_assets': row[14],
+                    'return_on_equity': row[15],
+                    'revenue': row[16],
+                    'revenue_per_share': row[17],
+                    'quarterly_revenue_growth': row[18],
+                    'gross_profit': row[19],
+                    'ebitda': row[20],
+                    'diluted_eps': row[21],
+                    'quarterly_earnings_growth': row[22],
+                    'analyst_target_price': row[23],
+                    'trailing_pe': row[24],
+                    'forward_pe': row[25],
+                    'price_to_sales': row[26],
+                    'price_to_book': row[27],
+                    'ev_to_revenue': row[28],
+                    'ev_to_ebitda': row[29],
+                }
+        except Exception as e:
+            app.logger.warning(f"Could not load fundamentals: {e}")
+
         # Get column names from stock_prices_daily
         columns = get_table_columns('stock_prices_daily', conn)
         # Exclude FRED indicators - they go in the Macro Dashboard
@@ -2010,6 +2058,7 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
 
             meta = metadata.get(ticker, {})
             pages = page_info.get(ticker, [])
+            fund = fundamentals.get(ticker, {})
 
             result.append({
                 'ticker': ticker,
@@ -2025,33 +2074,106 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
                 'first_date': meta.get('first_date'),
                 'last_date': meta.get('last_date'),
                 'data_points': meta.get('data_points'),
-                'pages': pages
+                'pages': pages,
+                # Fundamentals data
+                'sector': fund.get('sector'),
+                'industry': fund.get('industry'),
+                'market_cap': fund.get('market_cap'),
+                'pe_ratio': fund.get('pe_ratio'),
+                'peg_ratio': fund.get('peg_ratio'),
+                'eps': fund.get('eps'),
+                'dividend_yield': fund.get('dividend_yield'),
+                'beta': fund.get('beta'),
+                'moving_avg_50': fund.get('moving_avg_50'),
+                'moving_avg_200': fund.get('moving_avg_200'),
+                'shares_outstanding': fund.get('shares_outstanding'),
+                'profit_margin': fund.get('profit_margin'),
+                'operating_margin': fund.get('operating_margin'),
+                'return_on_assets': fund.get('return_on_assets'),
+                'return_on_equity': fund.get('return_on_equity'),
+                'revenue': fund.get('revenue'),
+                'revenue_per_share': fund.get('revenue_per_share'),
+                'quarterly_revenue_growth': fund.get('quarterly_revenue_growth'),
+                'gross_profit': fund.get('gross_profit'),
+                'ebitda': fund.get('ebitda'),
+                'diluted_eps': fund.get('diluted_eps'),
+                'quarterly_earnings_growth': fund.get('quarterly_earnings_growth'),
+                'analyst_target_price': fund.get('analyst_target_price'),
+                'trailing_pe': fund.get('trailing_pe'),
+                'forward_pe': fund.get('forward_pe'),
+                'price_to_sales': fund.get('price_to_sales'),
+                'price_to_book': fund.get('price_to_book'),
+                'ev_to_revenue': fund.get('ev_to_revenue'),
+                'ev_to_ebitda': fund.get('ev_to_ebitda'),
             })
     finally:
         conn.close()
 
-    # Apply filter if provided (ticker, name, or page_name)
+    # Apply filter if provided (ticker, name, sector, industry, or page_name)
     if filter_text:
         filter_lower = filter_text.lower()
         result = [r for r in result if
                   filter_lower in r['ticker'].lower() or
                   (r['name'] and filter_lower in r['name'].lower()) or
+                  (r.get('sector') and filter_lower in r['sector'].lower()) or
+                  (r.get('industry') and filter_lower in r['industry'].lower()) or
                   any(filter_lower in p['page_name'].lower() for p in r['pages']) or
                   any(filter_lower in (p.get('chart_title') or '').lower() for p in r['pages'])]
 
     # Sort results
     reverse = sort_dir == 'desc'
+
+    def numeric_sort_key(field):
+        """Create a sort key function for numeric fields that handles None values."""
+        return lambda x: x[field] if x[field] is not None else (float('inf') if reverse else float('-inf'))
+
+    def string_sort_key(field):
+        """Create a sort key function for string fields."""
+        return lambda x: (x[field] or '').lower()
+
     sort_key_map = {
-        'ticker': lambda x: (x['ticker'] or '').lower(),
-        'name': lambda x: (x['name'] or '').lower(),
-        'latest_price': lambda x: x['latest_price'] if x['latest_price'] is not None else (float('inf') if reverse else float('-inf')),
-        'daily_change': lambda x: x['daily_change'] if x['daily_change'] is not None else (float('inf') if reverse else float('-inf')),
-        'weekly_change': lambda x: x['weekly_change'] if x['weekly_change'] is not None else (float('inf') if reverse else float('-inf')),
-        'monthly_change': lambda x: x['monthly_change'] if x['monthly_change'] is not None else (float('inf') if reverse else float('-inf')),
-        'yearly_change': lambda x: x['yearly_change'] if x['yearly_change'] is not None else (float('inf') if reverse else float('-inf')),
-        'high_52w': lambda x: x['high_52w'] if x['high_52w'] is not None else (float('inf') if reverse else float('-inf')),
-        'low_52w': lambda x: x['low_52w'] if x['low_52w'] is not None else (float('inf') if reverse else float('-inf')),
-        'data_points': lambda x: x['data_points'] if x['data_points'] is not None else (float('inf') if reverse else float('-inf')),
+        # Existing fields
+        'ticker': string_sort_key('ticker'),
+        'name': string_sort_key('name'),
+        'latest_price': numeric_sort_key('latest_price'),
+        'daily_change': numeric_sort_key('daily_change'),
+        'weekly_change': numeric_sort_key('weekly_change'),
+        'monthly_change': numeric_sort_key('monthly_change'),
+        'yearly_change': numeric_sort_key('yearly_change'),
+        'high_52w': numeric_sort_key('high_52w'),
+        'low_52w': numeric_sort_key('low_52w'),
+        'data_points': numeric_sort_key('data_points'),
+        # Fundamental fields - strings
+        'sector': string_sort_key('sector'),
+        'industry': string_sort_key('industry'),
+        # Fundamental fields - numeric
+        'market_cap': numeric_sort_key('market_cap'),
+        'pe_ratio': numeric_sort_key('pe_ratio'),
+        'peg_ratio': numeric_sort_key('peg_ratio'),
+        'eps': numeric_sort_key('eps'),
+        'dividend_yield': numeric_sort_key('dividend_yield'),
+        'beta': numeric_sort_key('beta'),
+        'moving_avg_50': numeric_sort_key('moving_avg_50'),
+        'moving_avg_200': numeric_sort_key('moving_avg_200'),
+        'shares_outstanding': numeric_sort_key('shares_outstanding'),
+        'profit_margin': numeric_sort_key('profit_margin'),
+        'operating_margin': numeric_sort_key('operating_margin'),
+        'return_on_assets': numeric_sort_key('return_on_assets'),
+        'return_on_equity': numeric_sort_key('return_on_equity'),
+        'revenue': numeric_sort_key('revenue'),
+        'revenue_per_share': numeric_sort_key('revenue_per_share'),
+        'quarterly_revenue_growth': numeric_sort_key('quarterly_revenue_growth'),
+        'gross_profit': numeric_sort_key('gross_profit'),
+        'ebitda': numeric_sort_key('ebitda'),
+        'diluted_eps': numeric_sort_key('diluted_eps'),
+        'quarterly_earnings_growth': numeric_sort_key('quarterly_earnings_growth'),
+        'analyst_target_price': numeric_sort_key('analyst_target_price'),
+        'trailing_pe': numeric_sort_key('trailing_pe'),
+        'forward_pe': numeric_sort_key('forward_pe'),
+        'price_to_sales': numeric_sort_key('price_to_sales'),
+        'price_to_book': numeric_sort_key('price_to_book'),
+        'ev_to_revenue': numeric_sort_key('ev_to_revenue'),
+        'ev_to_ebitda': numeric_sort_key('ev_to_ebitda'),
     }
     sort_key = sort_key_map.get(sort_col, sort_key_map['ticker'])
     result.sort(key=sort_key, reverse=reverse)
