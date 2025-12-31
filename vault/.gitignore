@@ -1,0 +1,12 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
