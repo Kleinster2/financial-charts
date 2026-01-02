@@ -45,8 +45,23 @@ Qualcomm has:
 
 ---
 
+## Key events
+
+### NXP acquisition blocked (2018)
+
+Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approval during the US-China trade war. See [[Qualcomm NXP blocked deal]].
+
+**Impact on Qualcomm:**
+- Lost automotive/IoT diversification opportunity
+- Paid $2B breakup fee
+- Remained concentrated in mobile (Apple dependency)
+- Demonstrated vulnerability to [[Weaponized antitrust]]
+
+---
+
 ## Key risks
 
 - Apple modem independence
 - China exposure (Huawei was major customer pre-ban)
 - Licensing model under regulatory pressure
+- Geopolitical risk on future M&A (see [[Weaponized antitrust]])
