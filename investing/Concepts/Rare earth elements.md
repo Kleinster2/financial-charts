@@ -50,16 +50,16 @@ aliases: [REE, REEs, rare earths]
 
 ---
 
-### Terbium (Tb) — The green phosphor
+### [[Terbium]] (Tb) — The dual-role element
 
 | Aspect | Details |
 |--------|---------|
-| Use | Phosphors (green), magnet additive |
-| Applications | LED displays, fuel cells, magnets |
+| Use | Phosphors (green) AND magnet additive |
+| Applications | LED displays, EV magnets, defense |
 | Price | $450-600/kg oxide |
 | China control | ~99% |
 
-**Why it matters**: Just 0.5g produces the green phosphor for a standard LED display. Also substitutes for dysprosium in magnets.
+**Why it matters**: Only REE with critical roles in both magnets (Dy substitute) and phosphors (green). 20x demand growth projected by 2040. See [[Terbium]] for full analysis.
 
 ---
 
@@ -170,6 +170,7 @@ See [[Rare earth leverage]] for full timeline.
 ## Related
 
 - [[Dysprosium]] — The critical bottleneck element (magnets)
+- [[Terbium]] — The dual-role element (magnets + phosphors)
 - [[Europium]] — The red phosphor element (displays, quantum)
 - [[Rare earth leverage]] — Geopolitical dynamics
 - [[China retaliatory toolkit]] — Export control context
