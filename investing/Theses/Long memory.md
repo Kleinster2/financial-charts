@@ -4,7 +4,7 @@
 
 **Status**: Strongly confirmed — shortage unprecedented, margins expanding
 **Created**: 2025-12-29
-**Last reviewed**: 2025-12-30
+**Last reviewed**: 2026-01-02
 
 ---
 
@@ -23,7 +23,8 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 - HBM production cannibalizes DRAM wafer supply
 
 ### Hyperscaler buildout
-- [[AI hyperscalers]] spending $200B+ annually on AI infrastructure
+- [[AI hyperscalers]] spending $620B on AI infrastructure in 2026 (up from $470B in 2025)
+- Morgan Stanley: $2.9T cumulative AI datacenter spend by 2028
 - Each GPU cluster needs massive memory
 - Demand accelerating, not peaking
 
@@ -139,6 +140,11 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 | **2025-12-30** | **NPR: "As AI gobbles up chips, prices for devices may rise"** | **Mainstream narrative shifting** |
 | **2025-12-30** | **Micron +229% YTD** | **Market recognizing thesis** |
 | **2025-12-30** | **Silicon Motion CEO: "Once-in-a-decade simultaneous shortages"** | **Industry confirmation** |
+| **2026-01-02** | **FT: Consumer electronics prices +5-20% due to memory shortage** | **Downstream price passthrough confirmed** |
+| **2026-01-02** | **Citi analyst: "Supply tight until 2027, no additional capacity"** | **Multi-year shortage timeline** |
+| **2026-01-02** | **Macquarie: "Buyers in panic... willing to pay any price"** | **Seller's market extreme** |
+| **2026-01-02** | **Samsung/SK Hynix control 70% of DRAM market** | **Oligopoly pricing power** |
+| **2026-01-02** | **Morgan Stanley: $2.9T AI datacenter spend by 2028** | **Demand runway extends** |
 
 ---
 
