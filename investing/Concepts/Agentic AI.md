@@ -63,11 +63,19 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 
 | Company | Product | Status |
 |---------|---------|--------|
-| Anthropic | Claude Code | Production, proven |
+| [[Anthropic]] | Claude Code | Production, proven |
+| **[[Meta]]** | **Manus** | **Acquired Jan 2026 (~$2B+)** |
 | Cognition Labs | Devin | $4B valuation, Goldman Sachs pilot |
 | GitHub | Copilot | Production, 77M+ developers |
-| OpenAI | GPT agents, Operator | Expanding |
+| [[OpenAI]] | GPT agents, Operator | Expanding |
 | Salesforce | Agentforce | Enterprise focus |
+
+**Meta/Manus acquisition (Jan 2026):**
+- ~$2B+ deal — Meta's 3rd largest ever
+- Chinese-founded, "hailed as the next DeepSeek"
+- ~100 staff, general-purpose autonomous agent
+- Alexandr Wang (ex-Scale AI) now leading Meta AI
+- Signals agents becoming strategic priority for hyperscalers
 
 ---
 
@@ -82,6 +90,16 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 
 ---
 
+## Consolidation wave
+
+Agents now strategic enough that hyperscalers are acquiring rather than building:
+- [[Meta]] → Manus ($2B+, Jan 2026)
+- Expect more: [[Google]], [[Amazon]], [[Microsoft]] watching
+
+**Implication for startups:** Exit path is acquisition, not IPO. Build something strategic and get bought.
+
+---
+
 ## Trade implications
 
 **Bullish:**
@@ -93,6 +111,7 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 **Watch:**
 - Pure-play agent startups (high burn, unproven unit economics)
 - Automation vendors being disrupted
+- Chinese AI talent brain drain to US
 
 **The thesis:**
 Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. Agents do actual work with measurable output.
@@ -109,11 +128,14 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 ## Open questions
 
-- Can agent startups build moats, or do model providers win?
+- Can agent startups build moats, or do model providers/hyperscalers win?
 - Will agents commoditize like inference?
 - How fast does reliability improve?
 - When do agents replace vs augment workers?
+- Will US-China tensions block more acquisitions like Manus?
 
 ---
 
-Related: [[AI Race]], [[Enterprise AI adoption]], [[Anthropic]], [[OpenAI]]
+*Updated 2026-01-01*
+
+Related: [[AI Race]], [[Enterprise AI adoption]], [[Anthropic]], [[OpenAI]], [[Meta]]

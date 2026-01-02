@@ -77,3 +77,33 @@ Example: Intel Magdeburg cancellation → added "Geographic retreat" section to 
 | Events | Discrete happenings worth noting |
 | Daily | Daily notes (inbox/capture) |
 | Meta | Vault conventions and meta-notes |
+
+## Before creating files
+
+**Always check for existing files before batch creation:**
+
+```bash
+git -C "C:/Users/klein/financial-charts/investing" ls-files "Actors/*.md"
+```
+
+This prevents overwriting detailed notes with generic templates. Existing files often have specific data (yield numbers, timelines, capacity figures) that shouldn't be lost.
+
+## Actor conventions
+
+### Cap tables for private companies
+
+Private actors (non-public companies) should include a **cap table / investors section** with:
+
+- Major investors and amounts
+- Funding rounds (date, amount, valuation)
+- Total raised
+- Notable patterns (e.g., "both Google AND Amazon invested")
+
+Public companies don't need cap tables — ownership is public via SEC filings.
+
+**Private actors requiring cap tables:**
+- AI labs: [[Anthropic]], [[OpenAI]], [[xAI]]
+- Startups: [[Groq]] (until acquired)
+- Consortiums: [[Rapidus]] (stakeholder list instead)
+
+**VCs** (Benchmark, Craft Ventures, ZhenFund) track portfolios, not cap tables.

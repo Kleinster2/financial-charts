@@ -1,66 +1,119 @@
-#actor #fabless #asic #networking
+---
+aliases: [MRVL]
+---
+#actor #semiconductor #networking #usa #public
 
-**Marvell Technology (MRVL)** — fabless chip designer, key ASIC partner for [[Amazon]] and others.
+**Marvell** — Custom AI silicon + networking chips. Data center connectivity. Design partner for hyperscalers.
 
 ---
 
-## Role in AI supply chain
+## Why Marvell matters
 
-Custom silicon design for hyperscalers — competes with [[Broadcom]]:
+Key AI infrastructure enabler:
 
-```
-Hyperscaler (spec) → Marvell (design) → TSMC (fab) → Hyperscaler (consume)
-```
-
-Specializes in:
-- Custom AI accelerators (ASICs)
-- Networking silicon
-- Storage controllers
-
----
-
-## Key customers
-
-| Customer | Product | Notes |
-|----------|---------|-------|
-| **[[Amazon]]** | Trainium, Inferentia | Primary ASIC partner |
-| [[Microsoft]] | Maia 300 (Griffin) | Expanding relationship |
-| Data center | Networking | Switching, NICs |
-
-See [[Hyperscaler chip roadmap]] for full customer breakdown.
+| Metric | Value |
+|--------|-------|
+| Ticker | MRVL |
+| Market cap | ~$80B |
+| Revenue | ~$5.5B |
+| Focus | Custom silicon, networking |
+| CEO | Matt Murphy |
 
 ---
 
-## Competitive position
+## Business segments
 
-| vs Competitor | Status |
-|---------------|--------|
-| [[Broadcom]] | Smaller, but strong Amazon relationship |
-| [[MediaTek]] | Different focus (MediaTek = mobile/Google) |
-| In-house teams | Partner, not competitor |
-
-**Strength**: Deep Amazon relationship, networking expertise
-**Weakness**: Smaller scale than Broadcom, less diversified customer base
+| Segment | % Revenue | Products |
+|---------|-----------|----------|
+| Data center | 50%+ | Custom AI, networking |
+| Enterprise | 15% | Switches, storage |
+| Carrier | 15% | 5G infrastructure |
+| Consumer | 10% | Storage controllers |
 
 ---
 
-## Amazon dependency
+## Custom AI silicon
 
-Marvell's AI story is largely Amazon:
-- Trainium v2, v3, v4 designs
-- Inferentia custom silicon
-- Long-term partnership
+**Hyperscaler design partner:**
+- Amazon custom chips
+- Google TPU components
+- Microsoft custom silicon
+- Custom ASIC design services
 
-Risk: Amazon concentration. Opportunity: Amazon scaling massively.
-
----
-
-## For theses
-
-- [[Long Broadcom]] — Marvell is the #2 ASIC player, validates market
-- [[Hyperscaler chip roadmap]] — key Amazon enabler
-- [[Long TSMC]] — Marvell chips go to TSMC
+Not competing with NVIDIA — enabling alternatives.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[Amazon]], [[Broadcom]], [[TSMC]], [[Hyperscaler chip roadmap]]
+## Networking products
+
+| Product | Application |
+|---------|-------------|
+| PAM4 DSPs | 400G/800G optical |
+| Ethernet switches | Data center fabric |
+| PHYs | Connectivity |
+| Interconnects | AI clusters |
+
+---
+
+## Optical DSP leadership
+
+**PAM4 optical technology:**
+- Enables 400G/800G links
+- AI clusters need bandwidth
+- Marvell = #1 in optical DSPs
+- Every hyperscaler uses this
+
+---
+
+## Inphi acquisition
+
+**$10B deal (2021):**
+- Added optical DSP leadership
+- Data center networking
+- High-speed connectivity
+- Transformative acquisition
+
+---
+
+## AI tailwinds
+
+| Driver | Marvell benefit |
+|--------|-----------------|
+| GPU clusters | Optical DSPs, switches |
+| Custom AI chips | Design services |
+| 800G adoption | PAM4 leadership |
+| Interconnect | Networking silicon |
+
+---
+
+## Investment case
+
+**Bull:**
+- Custom silicon partnerships
+- Optical DSP leadership
+- AI infrastructure pick
+- Less NVIDIA-dependent
+
+**Bear:**
+- Broadcom competition
+- Customer concentration
+- Cyclical semiconductor
+- Consumer headwinds
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | MRVL |
+| Market cap | ~$80B |
+| Focus | Custom silicon, networking |
+| Strength | Optical DSPs |
+
+*Updated 2026-01-01*
+
+---
+
+Related: [[NVIDIA]], [[Broadcom]], [[Amazon]], [[Google]], [[Microsoft]]
+

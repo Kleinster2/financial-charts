@@ -1,3 +1,6 @@
+---
+aliases: [COHU]
+---
 #actor #equipment #test
 
 **Cohu (COHU)** — semiconductor test handler company, beneficiary of [[Final test bottleneck]].

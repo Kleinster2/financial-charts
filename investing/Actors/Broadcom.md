@@ -1,8 +1,11 @@
-#actor #fabless #enabler
+---
+aliases: [AVGO]
+---
+#actor #fabless #enabler #interconnect
 
 # Broadcom (AVGO)
 
-Fabless chip designer that enables hyperscaler custom AI silicon.
+Fabless chip designer that enables hyperscaler custom AI silicon. Also major networking and optical player.
 
 ---
 
@@ -61,6 +64,30 @@ Google TPUv8 has two paths:
 - Zebrafish isn't just diversification — it's survival
 
 If volume shifts to Zebrafish, Broadcom loses ASP and margin. This is existential pressure, not just negotiation tactics.
+
+---
+
+## Optical/Interconnect business
+
+**Silicon photonics:**
+- Acquiring silicon photonics technology
+- Alternative to traditional optical (InP)
+- Data center interconnects
+- Competing with [[Coherent]], [[Lumentum]]
+
+**Networking silicon:**
+- Tomahawk switch chips (Ethernet)
+- Jericho routing chips
+- High-speed SerDes
+- Powers [[Arista Networks]] switches
+
+**AI cluster connectivity:**
+- Ethernet fabric silicon
+- Competing with InfiniBand (NVIDIA)
+- NVLink alternatives
+- Scale-out networking
+
+Broadcom is both ASIC designer AND networking/optical player.
 
 ---
 
@@ -136,4 +163,4 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[TSMC]], [[NVIDIA]], [[Anthropic]], [[Long TSMC]], [[Long Broadcom]], [[Hyperscaler chip roadmap]]
+Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[TSMC]], [[NVIDIA]], [[Anthropic]], [[Long TSMC]], [[Long Broadcom]], [[Hyperscaler chip roadmap]], [[Coherent]], [[Lumentum]], [[Arista Networks]]

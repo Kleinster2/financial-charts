@@ -1,53 +1,115 @@
-#actor #ai #inference #nvidia
+---
+aliases: []
+---
+#actor #ai #semiconductor #usa #private
 
-**Groq** — inference-focused chip company, acquired by [[NVIDIA]] for $20B (Dec 2025).
+**Groq** — LPU inference chips. Fastest tokens/sec. Founded by ex-Google TPU architect.
 
 ---
 
-## What they built
+## Why Groq matters
 
-**LPU (Language Processing Unit)** — inference-specific architecture:
-- 10x faster inference than GPUs
-- 1/10th energy consumption
-- Optimized for transformer models
+Inference speed leader:
 
-Not a GPU — purpose-built for inference workloads.
-
----
-
-## The acquisition
-
-**NVIDIA acquired Groq for $20B (Dec 2025)** — largest NVIDIA deal ever.
-
-Why it matters:
-- NVIDIA entering non-GPU inference market
-- Defensive move against inference commoditization
-- Owns potential competitor before it scales
-
-See [[Inference economics]] — inference margins collapsing, NVIDIA needed a play.
+| Metric | Value |
+|--------|-------|
+| Valuation | ~$2.8B (2024) |
+| Raised | $640M+ |
+| Founded | 2016 |
+| Founder | Jonathan Ross (Google TPU) |
 
 ---
 
-## Strategic significance
+## Language Processing Unit (LPU)
 
-**For NVIDIA:**
-- Diversifies beyond CUDA/GPU architecture
-- Captures inference layer before commoditization
-- Blocks competitors from Groq partnership
-
-**For inference market:**
-- Validates that GPUs aren't optimal for inference
-- Specialized silicon has a future
-- But now under NVIDIA umbrella
+**Inference-optimized architecture:**
+- Deterministic execution
+- No HBM dependency (SRAM-based)
+- Predictable latency
+- 500+ tokens/sec on Llama
 
 ---
 
-## For theses
+## Speed advantage
 
-- [[NVIDIA]] — moat expansion via acquisition
-- [[Inference economics]] — validates inference specialization
-- [[Short TSMC long Korea]] — NVIDIA exploring Samsung post-Groq
+| Metric | Groq | GPU comparison |
+|--------|------|----------------|
+| Tokens/sec | 500+ | ~50-100 |
+| Latency | Ultra-low | Variable |
+| Power efficiency | Better | Higher power |
+
+10x+ faster inference than GPUs.
 
 ---
 
-Related: [[NVIDIA]], [[Inference economics]], [[AI Race]], [[CUDA moat]]
+## GroqCloud
+
+**Inference API service:**
+- Pay-per-token pricing
+- Fastest API available
+- Open models (Llama, Mixtral)
+- Developer-friendly
+
+---
+
+## Business model
+
+**Cloud-first:**
+- GroqCloud API (primary)
+- On-prem systems
+- Inference-as-a-service
+- Not selling chips directly
+
+---
+
+## Technical approach
+
+**Tensor Streaming Processor (TSP):**
+- Deterministic dataflow
+- Compiler does scheduling
+- No runtime decisions
+- Predictable performance
+
+---
+
+## Limitations
+
+**Trade-offs:**
+- Inference only (no training)
+- Smaller models preferred
+- SRAM = less memory capacity
+- New ecosystem
+
+---
+
+## Investment case
+
+**Bull:**
+- Fastest inference speeds
+- TPU architect pedigree
+- Inference market growing
+- Differentiated architecture
+
+**Bear:**
+- NVIDIA CUDA ecosystem
+- Training still on GPUs
+- Memory capacity limits
+- Scaling challenges
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | Private |
+| Valuation | ~$2.8B |
+| Approach | LPU inference chips |
+| Founder | Jonathan Ross (ex-Google TPU) |
+
+*Updated 2026-01-01*
+
+---
+
+Related: [[NVIDIA]], [[Cerebras]], [[SambaNova]], [[Google]]
+

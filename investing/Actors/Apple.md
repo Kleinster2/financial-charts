@@ -1,3 +1,6 @@
+---
+aliases: [AAPL]
+---
 #actor #fabless #consumer #design
 
 # Apple (AAPL)

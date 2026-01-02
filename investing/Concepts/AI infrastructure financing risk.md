@@ -92,4 +92,4 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, SoftBank) â€
 
 ---
 
-Related: [[AI Race]], [[AI hyperscalers]], [[Power constraints]], [[Long Anthropic]], [[Model lab economics]]
+Related: [[AI infrastructure financing]], [[AI Race]], [[AI hyperscalers]], [[Power constraints]], [[Long Anthropic]], [[Model lab economics]], [[Blue Owl]], [[CoreWeave]], [[Blackstone]], [[Masayoshi Son]]

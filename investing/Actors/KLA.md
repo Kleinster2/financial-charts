@@ -1,3 +1,6 @@
+---
+aliases: [KLAC]
+---
 #actor #equipment #wfe #inspection #metrology
 
 # KLA (KLAC)

@@ -6,13 +6,33 @@ Japanese national champion for advanced semiconductor manufacturing. Targeting 2
 
 ---
 
+## Stakeholders / Consortium
+
+| Stakeholder | Type | Notes |
+|-------------|------|-------|
+| **Japanese Government** | Funding | ¥920B+ ($6B+) committed |
+| **Toyota** | Founding member | Automotive demand |
+| **Sony** | Founding member | Image sensors, PlayStation |
+| **NTT** | Founding member | Telecom |
+| **Denso** | Founding member | Automotive supplier |
+| **[[Kioxia]]** | Founding member | NAND expertise |
+| **SoftBank** | Founding member | Tech/telecom |
+| **NEC** | Founding member | Enterprise IT |
+| **MUFG Bank** | Founding member | Financing |
+| **IBM** | Technology partner | 2nm GAA process license |
+
+**Structure:** Consortium of 8 Japanese companies + government backing + IBM technology.
+
+**Government commitment:** ¥920B (~$6B) — largest Japanese semiconductor investment since 1980s.
+
+---
+
 ## Background
 
 - **Founded**: 2022
 - **Location**: Hokkaido, Japan
-- **Backing**: Japanese government + consortium (Toyota, Sony, NTT, others)
-- **Technology partner**: IBM (2nm GAA process)
 - **Goal**: Restore Japan's semiconductor manufacturing capability
+- **Model**: Small batch production (different from TSMC/Samsung volume model)
 
 ---
 
@@ -66,4 +86,6 @@ Supplier sentiment at SEMICON Japan 2024: "high confidence" in 2027 timeline.
 
 ---
 
-Related: [[Foundry Wars]], [[Leading edge race]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]]
+*Updated 2026-01-01*
+
+Related: [[Foundry Wars]], [[Leading edge race]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Kioxia]]

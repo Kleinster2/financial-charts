@@ -1,3 +1,6 @@
+---
+aliases: [TSM]
+---
 #actor #foundry #taiwan
 
 **Taiwan Semiconductor Manufacturing Company** — the world's dominant pure-play logic foundry (~60% market share).

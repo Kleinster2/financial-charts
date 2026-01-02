@@ -67,8 +67,37 @@ Weak consumer electronics demand could ease shortage — but only partially. AI/
 ## Timeline
 
 - Q3-Q4 2025: Sharp price increases
-- 2026: Shortage continues, pace may moderate
-- Structural squeeze persists until new capacity comes online
+- 2026: Shortage continues, panic buying
+- 2027: Supply remains tight — no relief expected
+- New fabs take 2-3 years to build
+
+---
+
+## FT/TrendForce data (Jan 2026)
+
+**Pricing:**
+- TrendForce: DRAM prices +50-55% QoQ in Q4 2025
+- Samsung raised some chip prices 60%
+- Consumer electronics prices expected to rise 5-20%
+
+**Capacity:**
+- Samsung/SK Hynix 2026 orders already exceed capacity
+- Supply tight until 2027 — no additional capacity expected
+- SK Hynix $91B chipmaking cluster (announced 2024) — years away
+
+**Demand:**
+- Big tech AI infra spend: $620B in 2026 (up from $470B in 2025)
+- Morgan Stanley: $2.9T AI datacenter spend by 2028
+- "Panic buying" — buyers scrambling regardless of price
+
+**OEM warnings:**
+- Dell COO: "never seen costs move at the rate" they're rising
+- Lenovo: stockpiling memory chips
+- Raspberry Pi: "painful" cost pressures, raised prices Dec 2025
+- Xiaomi: 2026 supply chain pressures "far greater than" 2025
+
+**Analyst quote (Macquarie):**
+> "The market is crazy with buyers in panic as they struggle to secure enough memory no matter how much they are willing to pay."
 
 ---
 
@@ -103,4 +132,6 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 ---
 
-Related: [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[Export controls]], [[CXMT]]
+*Updated 2026-01-01*
+
+Related: [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[Export controls]], [[CXMT]], [[YMTC]]

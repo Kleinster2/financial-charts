@@ -1,3 +1,6 @@
+---
+aliases: [ASML]
+---
 #actor #equipment #wfe #lithography
 
 # ASML (ASML)

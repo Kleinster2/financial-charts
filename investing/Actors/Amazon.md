@@ -1,3 +1,6 @@
+---
+aliases: [AMZN]
+---
 #actor #hyperscaler #usa
 
 # Amazon (AWS)
@@ -110,4 +113,4 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 *Updated 2025-12-30*
 
-Related: [[Anthropic]], [[NVIDIA]], [[Marvell]], [[TSMC]], [[Google]], [[Microsoft]], [[Meta]], [[AI hyperscalers]], [[Hyperscaler chip roadmap]]
+Related: [[Anthropic]], [[NVIDIA]], [[Marvell]], [[TSMC]], [[Google]], [[Microsoft]], [[Meta]], [[AI hyperscalers]], [[Hyperscaler chip roadmap]], [[Nuclear power for AI]]

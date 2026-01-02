@@ -1,3 +1,6 @@
+---
+aliases: [ORCL]
+---
 #actor #hyperscaler #cloud
 
 # Oracle (ORCL)

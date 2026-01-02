@@ -1,3 +1,6 @@
+---
+aliases: [INTC]
+---
 #actor #idm #usa
 
 **Intel** — U.S. semiconductor giant. IDM (integrated device manufacturer) with both design and fabs.

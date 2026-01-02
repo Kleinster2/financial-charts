@@ -54,4 +54,4 @@ See individual actor notes for details.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[TSMC]], [[Samsung]], [[NVIDIA]], [[Power constraints]], [[Broadcom]]
+Related: [[Foundry Wars]], [[AI Race]], [[TSMC]], [[Samsung]], [[NVIDIA]], [[Power constraints]], [[Broadcom]], [[ByteDance]]

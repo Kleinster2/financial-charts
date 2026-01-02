@@ -1,3 +1,6 @@
+---
+aliases: [TSLA]
+---
 #actor #auto #ai #usa
 
 **Tesla** — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer.
@@ -43,4 +46,4 @@ STMicro SiC weakness partly attributed to Tesla inventory correction.
 
 ---
 
-Related: [[xAI]], [[Samsung]], [[TSMC]], [[Automotive semiconductors]], [[AI hyperscalers]]
+Related: [[Elon Musk]], [[xAI]], [[Samsung]], [[TSMC]], [[Automotive semiconductors]], [[AI hyperscalers]]

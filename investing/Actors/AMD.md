@@ -1,3 +1,6 @@
+---
+aliases: [AMD]
+---
 #actor #fabless #cpu #gpu #ai
 
 **AMD** — fabless chip designer competing in CPUs (vs Intel) and GPUs/AI (vs NVIDIA).
@@ -88,4 +91,4 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 
 ---
 
-Related: [[Foundry Wars]], [[NVIDIA]], [[CUDA moat]], [[Samsung]], [[TSMC]], [[Leading edge race]]
+Related: [[Lisa Su]], [[Foundry Wars]], [[NVIDIA]], [[CUDA moat]], [[Samsung]], [[TSMC]], [[Leading edge race]]

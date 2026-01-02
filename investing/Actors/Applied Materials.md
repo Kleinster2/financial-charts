@@ -1,3 +1,6 @@
+---
+aliases: [AMAT]
+---
 #actor #equipment #wfe #deposition #etch
 
 # Applied Materials (AMAT)

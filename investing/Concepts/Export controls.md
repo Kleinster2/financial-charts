@@ -18,6 +18,39 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 
 ---
 
+## China's counter-move: 50% domestic mandate (Dec 2025)
+
+**The rule:** Chipmakers must use at least 50% domestically-made equipment for new capacity.
+
+| Aspect | Details |
+|--------|---------|
+| Enforcement | State approval for fab builds/expansions |
+| Threshold | 50% minimum, authorities prefer higher |
+| Exceptions | Advanced nodes (temporary, lithography gap) |
+| Long-term goal | 100% domestic equipment |
+| Verification | Procurement tenders reviewed |
+
+**Impact on Western WFE:**
+- [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] squeezed from both sides
+- Export controls block sales + demand-side mandate blocks purchases
+- China was largest equipment market — now closing
+
+**China equipment winners:**
+| Company | Segment | 2025 Performance |
+|---------|---------|------------------|
+| [[Naura Technology]] | Etch, deposition, cleaning | Revenue +30% H1, 779 patents filed |
+| [[AMEC]] | Etch | Revenue +44% H1 |
+| Domestic lithography | Exposure | 421 orders, 850M yuan |
+
+**Self-sufficiency progress:**
+- ~50% in cleaning/photoresist removal (was Japanese-dominated)
+- Lithography still major gap (no EUV capability)
+- Etch and deposition catching up
+
+> "Before, domestic fabs like SMIC would prefer U.S. equipment. But that changed starting with the 2023 U.S export restrictions, when Chinese fabs had no choice but to work with domestic suppliers."
+
+---
+
 ## Key mechanisms
 
 ### Entity List
@@ -93,6 +126,12 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 - U.S. fabs subject to tighter export/customer restrictions
 - China fabs (SMIC) cut off from advanced equipment (EUV)
 
+### WFE (equipment makers)
+- Export controls block supply
+- China 50% mandate blocks demand
+- Double squeeze on Western WFE China revenue
+- Benefits [[Naura Technology]], [[AMEC]]
+
 ---
 
 ## Who benefits
@@ -101,6 +140,8 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 |--------|--------|
 | [[SK Hynix]] | China fabs constrained but pricing power improves |
 | [[Samsung]] | Same — memory margins benefit from supply cap |
+| [[Naura Technology]] | China domestic mandate = captive market |
+| [[AMEC]] | Same — etch market share gains |
 | U.S. memory buyers | Pay higher prices (the policy tradeoff) |
 
 ---
@@ -110,6 +151,8 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 | Player | Effect |
 |--------|--------|
 | Chinese fabs | Can't access advanced equipment |
+| [[Applied Materials]], [[Lam Research]], [[KLA]] | Losing China market both ways |
+| [[ASML]] | EUV blocked, DUV shrinking |
 | Consumers | Higher memory prices |
 | Samsung/SK Hynix expansion | Can't grow China capacity |
 
@@ -147,6 +190,7 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 - U.S. policy inadvertently strengthens Korean balance sheets
 - Creates incentive to build capacity outside China (U.S., Korea)
 - AI chip tiering maintains US dominance while allowing managed competition
+- China domestic mandate accelerates indigenous equipment development
 
 ---
 
@@ -159,6 +203,13 @@ Bullish Korea:
 
 ---
 
+## For [[Long WFE]] thesis
+
+Mixed:
+- China 50% mandate = structural China revenue loss
+- But: non-China capacity buildout continues
+- Net effect depends on how much non-China demand offsets
+
 ---
 
 ## What to watch
@@ -168,9 +219,11 @@ Bullish Korea:
 - [ ] Rare earth control escalation risk
 - [ ] H200 uptake under 25% revenue rule
 - [ ] CHIPS Act guardrails enforcement
+- [ ] China 50% mandate enforcement strictness
+- [ ] Naura/AMEC capability progression
 
 ---
 
-*Updated 2025-12-30*
+*Updated 2026-01-01*
 
-Related: [[China]], [[Huawei]], [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[NVIDIA]], [[ASML]], [[N-2 rule]], [[CHIPS Act]]
+Related: [[China]], [[Huawei]], [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[NVIDIA]], [[ASML]], [[N-2 rule]], [[CHIPS Act]], [[Naura Technology]], [[AMEC]], [[Long WFE]]

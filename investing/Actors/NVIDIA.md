@@ -1,3 +1,6 @@
+---
+aliases: [NVDA]
+---
 #actor #fabless #ai #gpu
 
 **NVIDIA** — dominant AI accelerator company with hardware + software moat.
@@ -67,9 +70,12 @@ See [[Export controls]] for full context.
 - Rubin (2026) widens gap further
 - Release old tech while monopolizing cutting edge
 - Build ecosystem defense against Chinese chip makers
+- H200 approved because US expects [[Huawei]] to produce millions of 910C units in 2026
 
 **Chinese competition:**
 - Huawei 910C: 76% of H200 compute, 2/3 memory bandwidth
+- Huawei CloudMatrix 384 performs as well as NVL72 (Blackwell)
+- US estimates Huawei can make millions of Ascend 910C in 2026 (vs 200K in 2025)
 - Cambricon, Hygon even further behind
 - Even "outdated" H200 beats all Chinese alternatives
 
@@ -86,6 +92,8 @@ See [[Export controls]] for full context.
 - Valuation assumes continued dominance
 - Supply constrained by [[TSMC]] and [[Advanced packaging|CoWoS]]
 - China revenue capped by export controls (but H200 provides partial recovery)
+- Jensen admits 3 years to build datacenter — selling more GPUs than can be deployed
+- 36k employees hold $630B in RSUs ($17.5M per person average)
 
 ---
 
@@ -97,13 +105,45 @@ See [[Export controls]] for full context.
 | Primary foundry | [[TSMC]] |
 | Packaging | [[TSMC]] CoWoS (constrained) |
 | **2026 backlog** | **$275B** |
+| **CY2028 Blackwell+Rubin revenue** | **$500B+ booked** |
 | **Stock YTD** | **+37%** (underperforming memory) |
 
-*Updated 2025-12-30*
+*Updated 2026-01-01*
 
 ---
 
 ## Recent developments (Dec 2025)
+
+**Groq acquisition details:**
+- Paid 3X Groq's September valuation (~$20B deal)
+- Non-exclusive licensing agreement — Groq operates independently
+- Jonathan Ross (founder) + Sunny Madra (president) joining NVIDIA
+- Simon Edwards becomes new Groq CEO; GroqCloud continues
+- Strategic hedge against DRAM prices — Groq uses in-chip SRAM, not HBM
+- Political angle: David Sacks promoted Groq, Chamath banking $4B, Jensen got AI Diffusion framework canceled + H200s approved for China
+
+**Revenue dominance (UBS Research):**
+- Hopper (previous gen) generates more revenue than ALL compute peers combined (AMD, Broadcom, Marvell)
+- "Not a cycle. A structural monopoly with a roadmap"
+- Blackwell, Rubin, Feynman not even shipping at scale yet
+- **$500B+** Blackwell + Rubin revenue through CY2028 (booked so far)
+- **5X** Hopper's lifetime revenue
+- 6 million Blackwell GPUs shipped
+- Morgan Stanley: NVDA top stock pick for 2026
+
+**CUDA moat strengthening:**
+- Devs openly admitting they can't reproduce results off CUDA
+- "Once your stack depends on B200 + CUDA + Torch, Google TPU/JAX is a downgrade"
+- Andrew Feldman: CUDA wasn't the moat — the "mental moat" (perception that only NVIDIA works) was
+
+**GPU price increases (Q1 2026):**
+- AMD + NVDA raising graphics card prices 10-20%
+- AMD notified partners: $10 increase per 8GB VRAM
+- Driven by DRAM price explosion ($6 to $30 in 6 months)
+
+**SchedMD acquisition (Dec 15):**
+- Acquired Slurm developer (HPC/AI workload manager)
+- Continuing vendor-neutral open-source distribution
 
 **CES 2026 preview (Jan 6):**
 - Blackwell Ultra ramp update
@@ -112,6 +152,7 @@ See [[Export controls]] for full context.
 
 **Major orders:**
 - **ByteDance $14B** NVIDIA order for 2026 (H200s, HBM3E 8Hi)
+- Oracle RPO increased $68B to $523B — driven by Meta, NVIDIA commitments
 - Continued hyperscaler demand
 
 **Foundry diversification:**
@@ -120,6 +161,12 @@ See [[Export controls]] for full context.
 
 **RTX PRO 5000:**
 - Blackwell workstation GPU: 72GB GDDR7, 2,142 TOPS
+
+**Southeast Asia chip surge:**
+- Taiwan chip exports to Indonesia at all-time high
+- $400M+ of NVIDIA chips to Indonesia in November alone
+- 26,900% growth vs November 2023
+- Indonesia leads SEA imports (~$12B Jan-Oct 2025)
 
 ---
 
@@ -136,9 +183,10 @@ See [[Export controls]] for full context.
 - [[TSMC]] packaging constraints limit shipments
 
 **Market positioning (Dec 2025):**
-- Michael Burry: put positions disclosed Nov 2025
+- Michael Burry: put positions disclosed Nov 2025, calling for pics of warehoused GPUs
 - Insider selling: $496M in 90 days, zero buying
 - Sentiment indicator — insiders cashing out at highs
+- Ed Zitron: questioning why NVIDIA backstopping $26B for Lambda/Oracle/CoreWeave
 - **Stock +37% YTD vs Micron +229%, SK Hynix +220%** — memory outperforming GPU
 
 ---
@@ -151,4 +199,4 @@ See [[Export controls]] for full context.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[CUDA moat]], [[AMD]], [[TSMC]], [[Advanced packaging]], [[SK Hynix]]
+Related: [[Jensen Huang]], [[Foundry Wars]], [[AI Race]], [[CUDA moat]], [[AMD]], [[TSMC]], [[Advanced packaging]], [[SK Hynix]], [[Groq]]

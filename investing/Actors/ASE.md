@@ -1,3 +1,6 @@
+---
+aliases: [ASX]
+---
 #actor #osat #packaging #test
 
 **ASE Technology (ASX)** — world's largest OSAT (Outsourced Semiconductor Assembly and Test), beneficiary of AI packaging/test bottlenecks.

@@ -1,4 +1,4 @@
-#concept #risk #datacenter
+#concept #risk #datacenter #power
 
 Data center power availability is emerging as a hard constraint on AI infrastructure buildout.
 
@@ -36,10 +36,19 @@ This isn't new — hyperscalers and neoclouds were already reducing expansion pl
 - Too much red tape
 - Growing gap to demand
 
-**BYOP (Bring Your Own Power)** is the new paradigm:
-- xAI partnering with Bitcoin miners (TeraWulf, Cipher Mining)
-- Data centers co-locating with power generation
-- Nuclear, gas turbines, solar — whatever's available
+---
+
+## BYOP (Bring Your Own Power)
+
+The new paradigm — hyperscalers securing their own power:
+
+| Company | Strategy |
+|---------|----------|
+| [[xAI]] | Bitcoin miner partnerships (TeraWulf, Cipher Mining) |
+| [[Microsoft]] | [[Constellation Energy]] nuclear restart |
+| [[Amazon]] | Talen Energy nuclear co-location |
+| [[Google]] | Kairos Power SMR development |
+| [[Oracle]] | Nuclear DC permits (Larry Ellison) |
 
 **Alternative providers filling the gap** (SemiAnalysis, Dec 2025):
 - Bloom Energy — fuel cells
@@ -48,7 +57,31 @@ This isn't new — hyperscalers and neoclouds were already reducing expansion pl
 
 > "The grid left them on read" — hyperscalers turning to alternatives because utilities can't deliver.
 
-**Hyperscaler commitments** (Dec 2025):
+---
+
+## Nuclear renaissance
+
+See [[Nuclear power for AI]] for details.
+
+**Why nuclear:**
+- Baseload 24/7 (AI training runs continuously)
+- Density (1GW on small footprint)
+- Carbon-free (ESG commitments)
+- Long-term PPAs match DC investment
+
+**Key deals:**
+| Deal | Capacity |
+|------|----------|
+| Microsoft + Constellation (TMI restart) | 835 MW |
+| Amazon + Talen (Susquehanna) | 960 MW |
+| Google + Kairos Power (SMR) | 500 MW |
+
+**Players:** [[Constellation Energy]], [[Vistra]], [[Oklo]], [[Cameco]], [[Centrus Energy]]
+
+---
+
+## Hyperscaler commitments (Dec 2025)
+
 | Company | New capacity | Investment |
 |---------|--------------|------------|
 | [[Amazon]] | 3.7 GW | $65B+ (Indiana expansion + govt) |
@@ -65,10 +98,25 @@ Efficiency gains provide more compute per MW:
 | Technology | Efficiency gain |
 |------------|-----------------|
 | Photonic interconnects | 2-4x |
-| Specialist inference HW | 2-4x |
+| Specialist inference HW ([[Groq]]) | 2-4x |
 | More efficient cooling | 0.3-0.4x power draw |
+| Advanced nodes ([[TSMC]]) | Better perf/watt |
 
 **But not nearly enough to close the demand gap.**
+
+---
+
+## Geographic winners
+
+Power availability will drive DC location decisions:
+
+| Region | Advantage |
+|--------|-----------|
+| **Tennessee/TVA** | xAI Colossus (TVA power) |
+| **Texas (ERCOT)** | [[Vistra]] nuclear + gas |
+| **Pennsylvania** | TMI restart, Susquehanna |
+| **Middle East** | Cheap gas, sovereign wealth |
+| **Nordics** | Hydro, cheap power |
 
 ---
 
@@ -99,6 +147,10 @@ This is a **demand-side risk** for all AI chip theses:
 - [[Long WFE]] — if DC buildout slows, fab buildout may follow
 - [[AI hyperscalers]] — capex may shift to power infrastructure vs chips
 
+**New angle:** Nuclear as enabling layer for AI infrastructure
+
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[End market demand]], [[xAI]], [[Google]], [[Amazon]], [[Microsoft]], [[Meta]]
+*Updated 2026-01-01*
+
+Related: [[Nuclear power for AI]], [[AI hyperscalers]], [[xAI]], [[Amazon]], [[Microsoft]], [[Meta]], [[Google]], [[Constellation Energy]], [[Vistra]], [[Dominion Energy]], [[NextEra Energy]], [[Bloom Energy]], [[TVA]], [[GE Vernova]], [[Siemens Energy]], [[AI infrastructure financing]]

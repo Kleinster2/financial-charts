@@ -18,6 +18,27 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
+## Investors
+
+| Investor | Amount | Notes |
+|----------|--------|-------|
+| **[[Google]]** | $2B+ | Cloud partner, multiple rounds |
+| **[[Amazon]]** | $4B | AWS partnership, Bedrock distribution |
+| **[[Microsoft]]** | $5B | Late 2025, despite OpenAI relationship |
+| **[[NVIDIA]]** | $10B | Late 2025 |
+| **Salesforce** | $750M | 2023 |
+| **Spark Capital** | — | Early investor, led Series A/B |
+| **Menlo Ventures** | — | Early investor |
+| **Sound Ventures** | — | Ashton Kutcher's fund |
+| **Jaan Tallinn** | — | Skype co-founder, safety-focused |
+| **Eric Yuan** | — | Zoom founder |
+
+**Total raised:** $15B+
+
+**Notable:** Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging).
+
+---
+
 ## Recent developments (Dec 2025)
 
 **IPO prep:**
@@ -62,8 +83,8 @@ All flows to [[TSMC]] — TPUs fabbed there.
 
 ## Strategic dependencies
 
-- **Google** — Cloud partner, investor
-- **Amazon** — Investor, AWS partnership
+- **[[Google]]** — Cloud partner, investor
+- **[[Amazon]]** — Investor, AWS partnership
 - **[[Broadcom]]** — TPU supplier
 
 Less dependent on single partner than OpenAI-Microsoft.
@@ -92,4 +113,6 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-Related: [[AI Race]], [[Long Anthropic]], [[OpenAI]], [[Google]], [[Broadcom]], [[TSMC]], [[Model lab economics]], [[Agentic AI]]
+*Updated 2026-01-01*
+
+Related: [[Dario Amodei]], [[AI Race]], [[Long Anthropic]], [[OpenAI]], [[Google]], [[Amazon]], [[Broadcom]], [[TSMC]], [[Model lab economics]], [[Agentic AI]]

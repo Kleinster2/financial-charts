@@ -1,3 +1,6 @@
+---
+aliases: [MU]
+---
 #actor #memory #usa #dram #nand
 
 **Micron Technology (MU)** — U.S.-based memory company, third of the Big 3 in DRAM/NAND.

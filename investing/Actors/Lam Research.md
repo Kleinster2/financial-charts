@@ -1,3 +1,6 @@
+---
+aliases: [LRCX]
+---
 #actor #equipment #wfe #etch #deposition
 
 # Lam Research (LRCX)

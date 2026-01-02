@@ -1,3 +1,6 @@
+---
+aliases: [GOOGL, GOOG]
+---
 #actor #hyperscaler #usa
 
 **Google (Alphabet)** — Tier 1 AI hyperscaler, TPU pioneer, [[Broadcom]] disintermediation in progress.
@@ -41,4 +44,4 @@ Google attempting to escape Broadcom's margin capture. Must cut ASIC costs to co
 
 ---
 
-Related: [[Broadcom]], [[TSMC]], [[MediaTek]], [[Anthropic]], [[AI hyperscalers]], [[NVIDIA]]
+Related: [[Broadcom]], [[TSMC]], [[MediaTek]], [[Anthropic]], [[AI hyperscalers]], [[NVIDIA]], [[Nuclear power for AI]]
