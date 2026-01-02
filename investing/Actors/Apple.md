@@ -55,6 +55,31 @@ This is [[Customer lock-in via co-design]] in action — accumulated knowledge t
 
 ---
 
+## Rare earth supply chain
+
+Apple is hedging against China's [[Rare earth leverage]]:
+
+### MP Materials partnership (July 2025)
+
+| Aspect | Details |
+|--------|---------|
+| Value | $500M |
+| Partner | [[MP Materials]] |
+| Product | Recycled rare earth magnets |
+| Facility | Fort Worth, Texas |
+| Shipments | Begin 2027 |
+| Volume | Hundreds of millions of devices |
+
+**Recycling innovation**: 5 years of pilot work. Commercial-scale line at Mountain Pass will process end-of-life devices and magnet scrap.
+
+**Strategic logic**: China controls 90%+ of rare earth magnet production. Apple is building domestic supply before a crisis forces it.
+
+### Limitation
+
+[[MP Materials]] does light rare earths (neodymium, praseodymium). [[Dysprosium]] — the critical heavy REE for high-temp magnets — still comes from China. This hedges some risk, not all.
+
+---
+
 ## For theses
 
 **[[Long TSMC]]**: Apple relationship proves co-design moat depth
@@ -63,4 +88,4 @@ This is [[Customer lock-in via co-design]] in action — accumulated knowledge t
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[Customer lock-in via co-design]], [[N-2 rule]], [[NVIDIA]]
+Related: [[Foundry Wars]], [[TSMC]], [[Customer lock-in via co-design]], [[N-2 rule]], [[NVIDIA]], [[MP Materials]], [[Rare earth leverage]]
