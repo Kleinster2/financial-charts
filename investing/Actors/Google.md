@@ -1,5 +1,5 @@
 ---
-aliases: [GOOGL, GOOG]
+aliases: [GOOGL, GOOG, Google DeepMind, DeepMind]
 ---
 #actor #hyperscaler #usa
 

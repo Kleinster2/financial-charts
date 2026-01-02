@@ -1,3 +1,6 @@
+---
+aliases: [Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
+---
 #actor #foundry #korea #conglomerate
 
 **Samsung Electronics** — vertically integrated conglomerate with foundry, memory, and display divisions.

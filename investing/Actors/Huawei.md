@@ -1,3 +1,6 @@
+---
+aliases: [Ascend, HiSilicon]
+---
 #actor #china #fabless
 
 # Huawei
