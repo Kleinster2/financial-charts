@@ -47,11 +47,21 @@ In response to [[Export controls]] on semiconductors:
 - Targeted chip-related materials
 - Signal of escalation capability
 
-### Nexperia retaliation (2025)
+### 2024-2025 escalation
 
-After [[Dutch seizure of Nexperia]]:
-- Tightened rare earth export controls (Oct 9)
-- Part of broader retaliatory package
+| Date | Action |
+|------|--------|
+| Dec 2024 | Banned germanium, gallium, antimony sales to US |
+| Apr 4, 2025 | Restricted 7 REEs (samarium, gadolinium, terbium, dysprosium, lutetium, scandium, yttrium) — response to Trump tariffs |
+| Oct 9, 2025 | Added 5 more REEs (holmium, erbium, thulium, europium, ytterbium) + [[Dutch seizure of Nexperia]] retaliation |
+| Oct 2025 | First Chinese use of FDPR (foreign direct product rule) — extraterritorial controls |
+| Nov 7, 2025 | Suspended controls for 1 year (pause, not reversal) |
+| Dec 1, 2025 | Military-affiliated companies denied all export licenses |
+| Dec 2025 | Announced silver export controls starting 2026 |
+
+**Key escalation**: October 2025 marked China's first use of FDPR — the same extraterritorial mechanism the US uses for semiconductors. Products made outside China now require licenses if they contain Chinese-origin materials.
+
+**Impact**: European rare earth prices reached 6x Chinese domestic prices. US automakers cut production. No US heavy rare earth separation capacity exists.
 
 ---
 
