@@ -34,7 +34,7 @@ aliases: [REE, REEs, rare earths]
 
 ---
 
-### Dysprosium (Dy) — The heat stabilizer
+### [[Dysprosium]] (Dy) — The heat stabilizer
 
 | Aspect | Details |
 |--------|---------|
@@ -46,7 +46,7 @@ aliases: [REE, REEs, rare earths]
 
 **Why it matters**: Without dysprosium, NdFeB magnets lose 50% strength at 150°C. With 6% Dy, only 15% loss. Essential for EV motors.
 
-**The bottleneck**: Most constrained REE. Almost no non-China production. 2025 controls specifically targeted Dy.
+**The bottleneck**: Most constrained REE. Almost no non-China production. 2025 controls specifically targeted Dy. See [[Dysprosium]] for full analysis.
 
 ---
 
@@ -167,6 +167,7 @@ See [[Rare earth leverage]] for full timeline.
 
 ## Related
 
+- [[Dysprosium]] — The critical bottleneck element
 - [[Rare earth leverage]] — Geopolitical dynamics
 - [[China retaliatory toolkit]] — Export control context
 - [[Tesla]], [[GM]], [[BYD]] — EV exposure
