@@ -42,6 +42,17 @@ Terbium can replace dysprosium in NdFeB magnets to improve high-temperature perf
 | Wind turbines | Generator magnets |
 | Defense | Guidance systems, motors |
 | Aerospace | High-temp environments |
+| **Semiconductor equipment** | High-NA EUV stage magnets |
+
+### Semiconductor equipment angle
+
+Terbium (alongside [[Dysprosium]]) is used in precision magnets for [[ASML]] High-NA EUV lithography:
+
+- Wafer/reticle stage positioning
+- Nanometer-precision actuators
+- High-temperature stability in cleanroom operation
+
+**REAlloys deal (Dec 2025)**: $21M SRC investment targets Tb/Dy for semiconductor equipment — scaling North American output 300% by 2027 to support [[1.4nm race]] ramps.
 
 ---
 

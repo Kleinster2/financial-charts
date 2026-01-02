@@ -56,6 +56,24 @@ Every leading edge chip (sub-7nm) requires ASML EUV machines. Period.
 
 ---
 
+## Rare earth supply chain risk
+
+High-NA EUV machines require precision magnets made with [[Dysprosium]] and [[Terbium]]:
+
+| Component | REE dependency |
+|-----------|----------------|
+| Wafer stage | Dy/Tb magnets for nm-precision positioning |
+| Reticle stage | Dy/Tb magnets for mask alignment |
+| Actuators | High-temp stable permanent magnets |
+
+**Risk**: China controls 99% of Dy/Tb processing. Export restrictions could bottleneck ASML's High-NA production — creating a second chokepoint beyond ASML's own monopoly.
+
+**Mitigation (Dec 2025)**: REAlloys $21M SRC deal to scale North American heavy REE output 300% by 2027 — specifically targeting semiconductor equipment magnets.
+
+See [[Rare earth leverage]] for geopolitical context.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
