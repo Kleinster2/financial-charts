@@ -261,7 +261,10 @@ def update_fred_indices_data(verbose: bool = True, lookback_days: int = 30):
 
 
 def update_fundamentals_data(verbose: bool = True):
-    """Update Alpha Vantage fundamentals (priority tickers)."""
+    """Update Alpha Vantage fundamentals (priority tickers).
+
+    Uses --refresh-stale to skip tickers with recent data, saving API calls.
+    """
     if verbose:
         print("\n" + "=" * 70)
         print("Updating Alpha Vantage Fundamentals")
@@ -269,7 +272,7 @@ def update_fundamentals_data(verbose: bool = True):
 
     try:
         result = subprocess.run(
-            [sys.executable, "fetch_fundamentals.py", "--refresh", "--priority", "--force"],
+            [sys.executable, "fetch_fundamentals.py", "--refresh", "--priority", "--refresh-stale"],
             timeout=900,  # 15 min timeout for rate-limited API
             capture_output=not verbose
         )

@@ -55,3 +55,21 @@ Project-specific instructions for Claude Code sessions.
 ## Cache Busting
 
 After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
+
+## Obsidian Vault
+
+The investing vault lives at `investing/` within this project.
+
+**DEPRECATED**: The old "My Vault" at `C:\Users\klein\onedrive\pictures\documents\my vault` is deprecated. All vault work should use `investing/` in this repo.
+
+See `investing/Meta/CLAUDE.md` for vault-specific guidelines.
+
+### Before creating vault files
+
+**Always check for existing files before batch creation:**
+
+```bash
+git -C "C:/Users/klein/financial-charts/investing" ls-files "Actors/*.md"
+```
+
+This prevents overwriting detailed notes with generic templates.
