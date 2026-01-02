@@ -87,13 +87,15 @@ aliases: [REE, REEs, rare earths]
 
 ---
 
-### Europium (Eu) — The red phosphor
+### [[Europium]] (Eu) — The red phosphor
 
 | Aspect | Details |
 |--------|---------|
 | Use | Red phosphor in displays |
-| Applications | Displays, nuclear control rods |
+| Applications | Displays, night vision, quantum dots |
 | China control | ~95% |
+
+See [[Europium]] for full analysis including quantum computing potential.
 
 ---
 
@@ -167,7 +169,8 @@ See [[Rare earth leverage]] for full timeline.
 
 ## Related
 
-- [[Dysprosium]] — The critical bottleneck element
+- [[Dysprosium]] — The critical bottleneck element (magnets)
+- [[Europium]] — The red phosphor element (displays, quantum)
 - [[Rare earth leverage]] — Geopolitical dynamics
 - [[China retaliatory toolkit]] — Export control context
 - [[Tesla]], [[GM]], [[BYD]] — EV exposure
