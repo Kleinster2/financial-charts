@@ -103,6 +103,24 @@ Disrupting Lockheed/Raytheon model.
 
 ---
 
+## Rare earth exposure
+
+Autonomous systems depend on rare earth permanent magnets:
+
+| Product | Rare earth use |
+|---------|----------------|
+| Ghost drones | Motor magnets (Nd, Dy) |
+| Roadrunner | Jet engine components |
+| Sensors | Various REEs |
+
+**Dec 2025 military denial**: China blocks all rare earth exports to military-affiliated buyers. See [[Rare earth leverage]].
+
+**Risk**: As a defense startup, Anduril has less stockpile buffer than [[Lockheed Martin]]. Supply chain disruption could delay production.
+
+**Mitigation**: Smaller product volumes than legacy primes. AUKUS partners (Australia) developing rare earth capacity.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -118,6 +136,7 @@ Disrupting Lockheed/Raytheon model.
 - Competition (legacy + startups)
 - Controversial founder
 - Private = illiquid
+- Rare earth supply vulnerability
 
 ---
 
@@ -134,5 +153,5 @@ Disrupting Lockheed/Raytheon model.
 
 ---
 
-Related: [[Palantir]], [[Shield AI]], [[NVIDIA]]
+Related: [[Palantir]], [[Shield AI]], [[NVIDIA]], [[Lockheed Martin]], [[Rare earth leverage]], [[China retaliatory toolkit]]
 

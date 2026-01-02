@@ -38,6 +38,24 @@ STMicro SiC weakness partly attributed to Tesla inventory correction.
 
 ---
 
+## Rare earth exposure
+
+EV motors require permanent magnets with rare earth elements:
+
+| Element | Use | China control |
+|---------|-----|---------------|
+| Neodymium | Permanent magnets | ~90% |
+| Dysprosium | High-temp stability | ~99% |
+
+**Risk**: China's 2025 rare earth controls directly threaten Tesla's supply chain. See [[Rare earth leverage]].
+
+**Mitigation attempts**:
+- Reducing rare earth content per motor
+- Exploring alternative motor designs
+- Giga Shanghai = potential local sourcing advantage
+
+---
+
 ## For theses
 
 **[[Short TSMC long Korea]]**: If Tesla/xAI anchor Samsung, bullish Korea
@@ -46,4 +64,4 @@ STMicro SiC weakness partly attributed to Tesla inventory correction.
 
 ---
 
-Related: [[Elon Musk]], [[xAI]], [[Samsung]], [[TSMC]], [[Automotive semiconductors]], [[AI hyperscalers]]
+Related: [[Elon Musk]], [[xAI]], [[Samsung]], [[TSMC]], [[Automotive semiconductors]], [[AI hyperscalers]], [[Rare earth leverage]]

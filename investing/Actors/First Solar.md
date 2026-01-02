@@ -82,6 +82,29 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 ---
 
+## Critical minerals exposure
+
+First Solar uses tellurium, not rare earths — different risk profile:
+
+| Material | Use | Supply chain |
+|----------|-----|--------------|
+| Tellurium | CdTe thin-film | China ~60% refining |
+| Cadmium | CdTe thin-film | Byproduct of zinc |
+
+**Better positioned than silicon solar**:
+- Rare earth magnets not required (no motors)
+- Tellurium not on China's 2025 export control list
+- But still some China supply chain exposure
+
+**Vs Chinese silicon panels**:
+- Chinese panels require rare earths (inverters, trackers)
+- First Solar's vertically integrated manufacturing reduces touchpoints
+- IRA domestic content requirements favor US supply chains
+
+See [[Rare earth leverage]] for the broader context.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -90,6 +113,7 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 - China tariff beneficiary
 - AI data center demand
 - Contracted backlog visibility
+- Less rare earth exposed than silicon solar
 
 **Bear:**
 - Technology efficiency gap vs silicon
@@ -97,6 +121,7 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 - Execution on US expansion
 - Chinese competition relentless
 - Commodity pricing pressure
+- Tellurium still partially China-sourced
 
 ---
 
@@ -114,4 +139,4 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 ---
 
-Related: [[NextEra Energy]], [[Power constraints]], [[AI hyperscalers]], [[Amazon]], [[Microsoft]], [[Google]]
+Related: [[NextEra Energy]], [[Power constraints]], [[AI hyperscalers]], [[Amazon]], [[Microsoft]], [[Google]], [[Rare earth leverage]]

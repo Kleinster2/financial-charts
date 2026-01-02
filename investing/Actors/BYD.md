@@ -23,3 +23,23 @@ BYD Semiconductor:
 - Automotive MCUs
 - Reduces reliance on [[Infineon]], [[STMicro]], [[NXP]]
 - Potential IPO candidate
+
+---
+
+## Rare earth advantage
+
+Unlike Western EV makers, BYD benefits from China's rare earth dominance:
+
+| Advantage | Details |
+|-----------|---------|
+| Domestic supply | 90% of rare earth magnets made in China |
+| No export risk | Not subject to China's export controls |
+| Cost advantage | Domestic prices 6x lower than European (2025) |
+
+**Implication**: China's [[Rare earth leverage]] creates structural cost advantage for BYD vs [[Tesla]], [[GM]], European OEMs.
+
+See [[China retaliatory toolkit]] for the broader pattern.
+
+---
+
+Related: [[Tesla]], [[Rare earth leverage]], [[Automotive semiconductors]], [[China]]
