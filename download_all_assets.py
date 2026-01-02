@@ -201,11 +201,13 @@ ADDITIONAL_FX_TICKERS = [
 STABLECOIN_TICKERS = ["USDT-USD", "USDC-USD", "DAI-USD"]
 
 # Top-crypto tickers
+# Note: MATIC-USD rebranded to POL but Yahoo doesn't have POL yet - historical data preserved
+# Note: RNDR-USD rebranded to RENDER-USD, UNI-USD changed to UNI7083-USD
 CRYPTO_TICKERS = [
     "BTC-USD", "ETH-USD", "BNB-USD", "XRP-USD", "SOL-USD", "ADA-USD", "DOGE-USD", "TON-USD",
-    "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "MATIC-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI-USD",
+    "TRX-USD", "AVAX-USD", "SHIB-USD", "DOT-USD", "LINK-USD", "ATOM-USD", "LTC-USD", "BCH-USD", "UNI7083-USD",
     "XLM-USD", "ETC-USD", "FIL-USD", "ICP-USD", "APT-USD", "HBAR-USD", "ARB-USD", "MKR-USD", "VET-USD", "NEAR-USD",
-    "OP-USD", "IMX-USD", "KAS-USD", "RNDR-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
+    "OP-USD", "IMX-USD", "KAS-USD", "RENDER-USD", "AAVE-USD", "LDO-USD", "ALGO-USD", "QNT-USD", "EGLD-USD", "SAND-USD",
     "AXS-USD", "XTZ-USD", "THETA-USD", "MANA-USD", "GRT-USD", "CHZ-USD", "FLOW-USD", "XEC-USD", "DASH-USD", "HYPE-USD"
 ]
 

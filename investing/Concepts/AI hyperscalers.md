@@ -1,0 +1,57 @@
+#concept #demand #ai #datacenter
+
+AI hyperscalers are the demand side of the semiconductor supply chain — they consume the chips that foundries, memory companies, and OSATs produce.
+
+---
+
+## Why they matter
+
+Hyperscaler capex = demand signal for the whole stack:
+
+```
+Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packaging) → Cohu (test)
+```
+
+~$200B+ combined AI infrastructure spend annually and accelerating.
+
+---
+
+## The players
+
+| Tier | Player | Foundry exposure | Notes |
+|------|--------|------------------|-------|
+| 1 | [[Microsoft]] | [[TSMC]] | OpenAI partner, largest spender |
+| 1 | [[Google]] | [[TSMC]] | TPUs, Broadcom disintermediation |
+| 1 | [[Amazon]] | [[TSMC]] | Trainium/Inferentia custom silicon |
+| 1 | [[Meta]] | [[TSMC]] | Heavy NVIDIA buyer, Llama |
+| 2 | [[Anthropic]] | [[TSMC]] | TPU route, not NVIDIA |
+| 2 | [[xAI]] | [[Samsung]]? | Musk ecosystem, potential anchor |
+| 2 | [[Oracle]] | [[TSMC]] | GPU cloud, NVIDIA partner |
+| 2 | [[Tesla]] | [[Samsung]] | Dojo, $16.5B deal |
+
+See individual actor notes for details.
+
+---
+
+## Key dynamics
+
+**TSMC concentration**: Most hyperscalers depend on TSMC. Limited alternatives if Taiwan risk materializes.
+
+**Samsung opportunity**: Musk ecosystem ([[Tesla]] + [[xAI]]) is the beachhead. [[AMD]] 2nm deal could bring others.
+
+**[[Power constraints]]**: 44GW US shortfall. May slow chip deployment even if supply exists. BYOP (Bring Your Own Power) emerging.
+
+**Enabler vs hyperscaler**: [[Broadcom]] designs chips for hyperscalers but isn't one. Sits between hyperscalers and foundries.
+
+---
+
+## For theses
+
+- [[Long TSMC]] — hyperscaler demand locks TSMC capacity
+- [[Short TSMC long Korea]] — Musk ecosystem anchoring Samsung
+- [[Long memory]] — every GPU needs HBM
+- [[Long OSAT and test equipment]] — more chips = more test/packaging
+
+---
+
+Related: [[Foundry Wars]], [[AI Race]], [[TSMC]], [[Samsung]], [[NVIDIA]], [[Power constraints]], [[Broadcom]], [[ByteDance]]
