@@ -46,8 +46,10 @@ CEO Zhang Xuezheng suspended; CFO Stefan Tilger appointed interim.
 
 ## China's response
 
+See [[China retaliatory toolkit]] for the broader pattern.
+
 1. **Export controls**: Blocked Nexperia from exporting components from China
-2. **Rare earth controls**: Tightened restrictions (Oct 9)
+2. **Rare earth controls**: Tightened restrictions (Oct 9) — see [[Rare earth leverage]]
 3. **Diplomatic protest**: Called it "geopolitical bias" and "excessive intervention"
 4. **Market reaction**: Wingtech shares -10% in Shanghai
 
