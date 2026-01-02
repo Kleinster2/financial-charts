@@ -116,6 +116,7 @@ Timeline to reduce dependence: 10+ years minimum.
 
 ## Related
 
+- [[Rare earth elements]] — Individual element profiles and strategic importance
 - [[China retaliatory toolkit]] — Rare earths as one tool among many
 - [[Export controls]] — Western restrictions that trigger retaliation
 - [[Dutch seizure of Nexperia]] — 2025 rare earth escalation example
