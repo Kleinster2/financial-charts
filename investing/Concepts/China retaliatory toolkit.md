@@ -50,12 +50,12 @@ See [[Dutch seizure of Nexperia]] for full timeline.
 | Resource | Global share | Used in |
 |----------|--------------|---------|
 | Rare earths | ~60% mining, ~90% processing | EVs, wind turbines, defense |
-| Gallium | ~98% | Semiconductors, LEDs |
-| Germanium | ~60% | Fiber optics, solar |
+| [[Gallium]] | ~99% refined | Semiconductors, 5G, radar |
+| [[Germanium]] | ~60% refined | Fiber optics, IR, solar |
 | Graphite | ~65% | Batteries |
 | Antimony | ~48% | Flame retardants, ammunition |
 
-See [[Rare earth leverage]] for details.
+See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for semiconductor materials.
 
 ---
 
