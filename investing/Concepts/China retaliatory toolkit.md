@@ -52,8 +52,8 @@ See [[Dutch seizure of Nexperia]] for full timeline.
 | Rare earths | ~60% mining, ~90% processing | EVs, wind turbines, defense |
 | [[Gallium]] | ~99% refined | Semiconductors, 5G, radar |
 | [[Germanium]] | ~60% refined | Fiber optics, IR, solar |
+| [[Antimony]] | ~48% | **Ammunition (no substitute)**, flame retardants |
 | Graphite | ~65% | Batteries |
-| Antimony | ~48% | Flame retardants, ammunition |
 
 See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for semiconductor materials.
 
