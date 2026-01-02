@@ -183,6 +183,25 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 
 ---
 
+## China's countermeasures
+
+See [[China retaliatory toolkit]] for the full pattern.
+
+| Category | 2024-2025 Actions |
+|----------|-------------------|
+| **Critical minerals** | Banned Ga/Ge/Sb sales to US (Dec 2024) |
+| **Rare earths** | 7 REEs restricted (Apr 2025), 5 more added (Oct 2025) |
+| **FDPR adoption** | China now uses extraterritorial controls too (Oct 2025) |
+| **Military denial** | All military-affiliated buyers blocked (Dec 2025) |
+| **Equipment mandate** | 50% domestic equipment requirement |
+| **Targeted retaliation** | [[Dutch seizure of Nexperia]] response |
+
+**Key escalation**: China adopted the FDPR mechanism — products made outside China require licenses if they contain Chinese-origin materials. See [[Rare earth leverage]].
+
+**Quid pro quo**: Affiliate Rule suspended 1 year in exchange for China suspending rare earth controls (Nov 2025). Pause, not resolution.
+
+---
+
 ## Strategic implications
 
 - Memory supply structurally constrained → supports Korean company margins
@@ -226,4 +245,4 @@ Mixed:
 
 *Updated 2026-01-01*
 
-Related: [[China]], [[Huawei]], [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[NVIDIA]], [[ASML]], [[N-2 rule]], [[CHIPS Act]], [[Naura Technology]], [[AMEC]], [[Long WFE]]
+Related: [[China]], [[Huawei]], [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[NVIDIA]], [[ASML]], [[N-2 rule]], [[CHIPS Act]], [[Naura Technology]], [[AMEC]], [[Long WFE]], [[China retaliatory toolkit]], [[Rare earth leverage]], [[Weaponized antitrust]]
