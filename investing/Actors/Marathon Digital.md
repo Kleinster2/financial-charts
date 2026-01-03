@@ -101,4 +101,10 @@ Both underperforming AI-focused peers.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Bitdeer]], [[Riot Platforms]]
+## Related
+
+- [[IREN]] — competitor (outperforming via AI pivot)
+- [[Hut 8]] — competitor (outperforming via AI pivot)
+- [[Bitdeer]] — peer (also underperforming)
+- [[Riot Platforms]] — peer (crypto-focused)
+- [[Crypto-to-AI pivot]] — thesis context (not pivoting)

@@ -98,4 +98,11 @@ Thinking Machines Lab (2025-)
 
 ---
 
-Related: [[Thinking Machines Lab]], [[Mira Murati]], [[OpenAI]], [[Anthropic]], [[Dario Amodei]]
+## Related
+
+- [[Thinking Machines Lab]] — current (Chief Scientist)
+- [[Mira Murati]] — colleague (TML CEO)
+- [[OpenAI]] — former co-founder (left 2024)
+- [[Anthropic]] — brief stint (2024)
+- [[Dario Amodei]] — former colleague
+- [[OpenAI talent exodus]] — context

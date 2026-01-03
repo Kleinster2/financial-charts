@@ -136,4 +136,13 @@ SoftBank cited in [[AI infrastructure financing risk]]:
 
 ---
 
-Related: [[AI infrastructure financing risk]], [[AI infrastructure financing]], [[OpenAI]], [[xAI]], [[Sam Altman]], [[Oracle]]
+## Related
+
+- [[OpenAI]] — major investor ($40B+ Stargate JV)
+- [[xAI]] — investor (Dec 2024 round)
+- [[Arm Holdings]] — 90% owner ($150B+ value)
+- [[Sam Altman]] — partner (Stargate)
+- [[Oracle]] — partner (Stargate JV)
+- [[Helion Energy]] — investor ($425M round)
+- [[AI infrastructure financing risk]] — key risk (ARM concentration)
+- [[AI infrastructure financing]] — major capital source

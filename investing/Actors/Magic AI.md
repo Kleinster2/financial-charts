@@ -147,4 +147,12 @@ Magic = most vertically integrated of AI coding startups.
 
 ---
 
-Related: [[Anysphere]], [[Cognition]], [[Sequoia Capital]], [[NVIDIA]], [[Anthropic]], [[OpenAI]]
+## Related
+
+- [[Anysphere]] — competitor (Cursor)
+- [[Cognition]] — competitor (Devin)
+- [[Sequoia Capital]] — investor
+- [[NVIDIA]] — supplier (8,000+ H100s)
+- [[Google]] — compute partner (Cloud)
+- [[Anthropic]] — competitor (general LLMs)
+- [[OpenAI]] — competitor (general LLMs)

@@ -69,4 +69,15 @@ Memory cyclicality is a risk but HBM demand provides structural tailwind.
 
 ---
 
-Related: [[Foundry Wars]], [[Long WFE]], [[ASML]], [[Applied Materials]], [[KLA]], [[TSMC]], [[Samsung]]
+## Related
+
+- [[ASML]] — peer (WFE equipment)
+- [[Applied Materials]] — peer/competitor (deposition overlap)
+- [[KLA]] — peer (different segment, process control)
+- [[TSMC]] — major customer
+- [[Samsung]] — major customer (memory)
+- [[SK Hynix]] — customer (memory)
+- [[Micron]] — customer (memory)
+- [[Foundry Wars]] — driver of demand
+- [[Long WFE]] — thesis
+- [[Long memory]] — memory capex drives Lam

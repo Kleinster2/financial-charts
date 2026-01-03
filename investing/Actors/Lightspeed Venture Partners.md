@@ -111,4 +111,12 @@ Track their investments for sector signals.
 
 ---
 
-Related: [[Anthropic]], [[xAI]], [[a16z]], [[Sequoia Capital]], [[Benchmark]]
+## Related
+
+- [[Anthropic]] — portfolio company (~$1B commitment)
+- [[xAI]] — portfolio company
+- [[Databricks]] — portfolio company
+- [[Glean]] — portfolio company
+- [[a16z]] — peer VC
+- [[Sequoia Capital]] — peer VC
+- [[Benchmark]] — peer VC

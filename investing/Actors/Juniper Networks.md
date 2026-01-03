@@ -86,5 +86,9 @@ Not a leader in AI data center networking.
 
 ---
 
-Related: [[Cisco]], [[Arista Networks]], [[Broadcom]]
+## Related
+
+- [[Cisco]] — competitor (enterprise/carrier)
+- [[Arista Networks]] — competitor (data center)
+- [[Broadcom]] — competitor (networking silicon)
 

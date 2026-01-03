@@ -118,4 +118,11 @@ See [[Groq]] for details.
 
 ---
 
-Related: [[NVIDIA]], [[TSMC]], [[Groq]], [[AMD]], [[CUDA moat]], [[Export controls]]
+## Related
+
+- [[NVIDIA]] — founder/CEO (since 1993)
+- [[TSMC]] — foundry partner (capacity locks)
+- [[Groq]] — acquired (Dec 2025, $20B)
+- [[AMD]] — competitor (Lisa Su)
+- [[CUDA moat]] — created (2006)
+- [[Export controls]] — navigates China policy

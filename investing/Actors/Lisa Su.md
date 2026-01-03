@@ -120,4 +120,11 @@ AMD invested in [[xAI]] (Dec 2024 round) — strategic relationship with Musk en
 
 ---
 
-Related: [[AMD]], [[NVIDIA]], [[TSMC]], [[CUDA moat]], [[xAI]], [[Intel]]
+## Related
+
+- [[AMD]] — CEO (since 2014, turnaround architect)
+- [[NVIDIA]] — competitor (Jensen Huang)
+- [[TSMC]] — foundry partner (family connection)
+- [[CUDA moat]] — challenger (ROCm)
+- [[xAI]] — AMD invested (strategic partner)
+- [[Intel]] — competitor (taking CPU share)

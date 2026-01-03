@@ -129,5 +129,11 @@ Ambitious but unproven.
 
 ---
 
-Related: [[Rapidus]], [[TSMC]], [[Tokyo Electron]], [[Samsung]]
+## Related
+
+- [[Rapidus]] — key project (2nm moonshot)
+- [[TSMC]] — fab partner (Kumamoto)
+- [[Tokyo Electron]] — equipment beneficiary
+- [[Samsung]] — competitor (Korean alternative)
+- [[Semiconductor incentive programs]] — context
 

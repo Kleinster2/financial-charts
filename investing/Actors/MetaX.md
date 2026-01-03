@@ -121,4 +121,12 @@ MetaX = best performing IPO of the group.
 
 ---
 
-Related: [[Moore Threads]], [[Biren Tech]], [[Enflame]], [[AMD]], [[NVIDIA]], [[Export controls]], [[China]]
+## Related
+
+- [[Moore Threads]] — peer (Four Little Dragons)
+- [[Biren Tech]] — peer (Four Little Dragons)
+- [[Enflame]] — peer (Four Little Dragons)
+- [[AMD]] — founder origin (ex-AMD leadership)
+- [[NVIDIA]] — competitor (54% China share)
+- [[TSMC]] — foundry (still has access)
+- [[Export controls]] — context (not sanctioned)

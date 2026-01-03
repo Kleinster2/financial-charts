@@ -137,5 +137,13 @@ Mexico's richest man is betting big.
 
 ---
 
-Related: [[Amazon]], [[Microsoft]], [[Google]], [[Brazil AI]], [[TSMC]]
+## Related
+
+- [[Amazon]] — investor ($5B AWS region)
+- [[Microsoft]] — investor ($1.3B AI/cloud)
+- [[Google]] — investor (expanding)
+- [[CloudHQ]] — major DC developer ($4.8B Querétaro)
+- [[Querétaro]] — data hub (65% of Mexico DC capacity)
+- [[Brazil AI]] — regional peer (LatAm)
+- [[Nearshoring thesis]] — context
 
