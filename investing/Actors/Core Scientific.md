@@ -122,4 +122,11 @@ All major players staying independent — AI value too high.
 
 ---
 
-Related: [[CoreWeave]], [[IREN]], [[Hut 8]], [[NVIDIA]]
+## Related
+
+- [[CoreWeave]] — anchor customer ($3.5B deal, rejected $9B takeover)
+- [[IREN]] — competitor, peer (crypto-to-AI pivot)
+- [[Hut 8]] — competitor, peer
+- [[Cipher Mining]] — competitor, peer
+- [[NVIDIA]] — GPU supplier
+- [[Crypto-to-AI pivot]] — thesis context

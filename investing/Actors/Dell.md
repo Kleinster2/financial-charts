@@ -109,4 +109,13 @@ Smaller vendors (see [[Corsair]]) hit harder.
 
 ---
 
-Related: [[Memory shortage victims]], [[Lenovo]], [[Memory shortage 2025-2026]], [[NVIDIA]], [[AI hyperscalers]]
+## Related
+
+- [[Memory shortage victims]] — thesis context (example victim)
+- [[Memory shortage 2025-2026]] — crisis context
+- [[Lenovo]] — competitor (same memory squeeze)
+- [[NVIDIA]] — partner (AI server supplier)
+- [[AI hyperscalers]] — customer (AI servers)
+- [[Micron]] — supplier (memory)
+- [[SK Hynix]] — supplier (memory)
+- [[Corsair]] — comparison (smaller vendors hit harder)

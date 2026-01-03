@@ -66,4 +66,11 @@ As AI becomes national security priority:
 
 *Updated 2026-01-01*
 
-Related: [[Meta]], [[Agentic AI]], [[Export controls]], [[China]], [[Craft Ventures]], [[Groq]]
+## Related
+
+- [[Meta]] — acquired portfolio company (Manus)
+- [[Craft Ventures]] — peer VC, similar China controversy
+- [[Groq]] — Craft investment, NVIDIA acquired
+- [[Agentic AI]] — investment thesis (Manus)
+- [[Export controls]] — geopolitical risk for China-adjacent investments
+- [[China]] — investment controversy context

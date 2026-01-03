@@ -122,4 +122,13 @@ Glean = Switzerland (works across ecosystems).
 
 ---
 
-Related: [[Perplexity]], [[Microsoft]], [[Google]], [[Lightspeed Venture Partners]], [[Sequoia Capital]]
+## Related
+
+- [[Perplexity]] — peer (AI search)
+- [[Microsoft]] — potential competitor (Copilot)
+- [[Google]] — potential competitor (Workspace AI)
+- [[Cohere]] — peer (enterprise AI)
+- [[Harvey]] — peer (vertical AI)
+- [[Sequoia Capital]] — investor
+- [[Lightspeed Venture Partners]] — investor
+- [[Agentic AI]] — thesis context (100M+ agent actions)

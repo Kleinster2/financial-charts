@@ -139,5 +139,12 @@ Fortaleza = connectivity; São Paulo = capacity.
 
 ---
 
-Related: [[Brazil AI]], [[São Paulo Data Hub]], [[Rio de Janeiro Data Hub]], [[ByteDance]]
+## Related
+
+- [[Brazil AI]] — sovereign context
+- [[São Paulo Data Hub]] — peer hub (capacity vs connectivity)
+- [[Rio de Janeiro Data Hub]] — peer hub
+- [[ByteDance]] — TikTok DC investor (R$200B)
+- [[EllaLink]] — cable landing (direct Europe)
+- [[Submarine Cables]] — 14 cables (#2 global hub)
 

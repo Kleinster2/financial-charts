@@ -1,7 +1,5 @@
 #concept #chips #architecture
 
-# Training-inference convergence
-
 The distinction between AI training and inference hardware is blurring. Workloads that were once separate now share similar compute requirements.
 
 ---

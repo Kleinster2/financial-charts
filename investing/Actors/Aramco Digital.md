@@ -99,5 +99,10 @@ Applying AI to core business.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[Saudi PIF]], [[Google]]
+## Related
+
+- [[Saudi Arabia Tech]] — sovereign context (Vision 2030)
+- [[Saudi PIF]] — peer sovereign entity
+- [[Google]] — partner (cloud region)
+- [[GCC tech race]] — regional context
 

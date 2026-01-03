@@ -130,5 +130,12 @@ AI/semiconductor punching above weight:
 
 ---
 
-Related: [[NVIDIA]], [[Intel]], [[Mobileye]], [[Google]]
+## Related
+
+- [[NVIDIA]] — major investor ($500M+ DC, "second home")
+- [[Intel]] — declining presence (halted $15B expansion)
+- [[Mobileye]] — key company (Intel subsidiary, MBLY)
+- [[Google]] — investor (acquired Wiz $32B)
+- [[Hailo]] — AI chip startup
+- [[AI21 Labs]] — LLM startup (NVIDIA acquiring)
 

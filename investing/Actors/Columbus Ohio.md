@@ -103,5 +103,14 @@ Ashburn overflow going to Columbus.
 
 ---
 
-Related: [[Ashburn]], [[Intel]], [[Amazon]], [[Google]], [[Phoenix Data Hub]]
+## Related
+
+- [[Ashburn]] — peer hub (overflow going to Columbus)
+- [[Intel]] — adjacent ($20B Ohio fab nearby)
+- [[Amazon]] — hyperscaler presence (AWS)
+- [[Google]] — hyperscaler presence ($1.5B+ campus)
+- [[Meta]] — hyperscaler presence ($1B+ expansion)
+- [[Microsoft]] — hyperscaler presence
+- [[Phoenix Data Hub]] — peer hub (alternative)
+- [[Power constraints]] — advantage (cheap AEP power)
 

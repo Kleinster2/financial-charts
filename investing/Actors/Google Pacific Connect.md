@@ -84,5 +84,10 @@ Australia's connectivity upgrade:
 
 ---
 
-Related: [[Google]], [[Humboldt Cable]], [[Submarine Cables]]
+## Related
+
+- [[Google]] — lead investor
+- [[Humboldt Cable]] — part of Pacific network
+- [[Submarine Cables]] — infrastructure context
+- [[Singapore Tech]] — connectivity destination
 

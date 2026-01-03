@@ -172,5 +172,13 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 ---
 
-Related: [[NVIDIA]], [[Cerebras]], [[SambaNova]], [[Google]], [[Inference disaggregation]], [[Agentic AI]]
+## Related
+
+- [[NVIDIA]] — partner (licensed architecture for Rubin SRAM, Dec 2025)
+- [[Cerebras]] — competitor (alternative inference chip)
+- [[SambaNova]] — competitor (AI inference)
+- [[Google]] — founder origin (Jonathan Ross invented TPU)
+- [[Craft Ventures]] — investor (David Sacks)
+- [[Inference disaggregation]] — thesis context
+- [[Agentic AI]] — use case (fast decode for agents)
 

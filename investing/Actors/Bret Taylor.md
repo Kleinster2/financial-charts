@@ -100,4 +100,9 @@ Building practical enterprise AI.
 
 ---
 
-Related: [[OpenAI]], [[Sam Altman]], [[Sierra]], [[Google]]
+## Related
+
+- [[OpenAI]] — board chairman
+- [[Sam Altman]] — oversight relationship (chairman/CEO)
+- [[Sierra]] — co-founded ($1B AI customer service)
+- [[Google]] — former (co-created Google Maps)

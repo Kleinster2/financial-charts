@@ -127,5 +127,13 @@ Crowded humanoid race.
 
 ---
 
-Related: [[OpenAI]], [[Tesla]], [[NVIDIA]], [[Agility Robotics]], [[Boston Dynamics]]
+## Related
+
+- [[OpenAI]] — partner (AI for robotics)
+- [[Tesla]] — competitor (Optimus)
+- [[NVIDIA]] — investor (embodied AI)
+- [[Microsoft]] — investor
+- [[Agility Robotics]] — competitor (Digit)
+- [[Boston Dynamics]] — competitor (Atlas)
+- [[1X Technologies]] — competitor (OpenAI-backed)
 

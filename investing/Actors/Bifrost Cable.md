@@ -76,5 +76,11 @@ Meta's Asia connectivity:
 
 ---
 
-Related: [[Meta]], [[Echo Cable]], [[Apricot Cable]], [[Submarine Cables]]
+## Related
+
+- [[Meta]] — lead investor, primary beneficiary
+- [[Echo Cable]] — peer (Meta's Singapore-US cable)
+- [[Apricot Cable]] — peer (Meta-Google Asia-Pacific)
+- [[Submarine Cables]] — infrastructure context
+- [[Southeast Asia tech race]] — regional demand driver
 

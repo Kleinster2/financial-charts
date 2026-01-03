@@ -75,5 +75,12 @@ Rare Google-Meta collaboration.
 
 ---
 
-Related: [[Google]], [[Meta]], [[Apricot Cable]], [[Submarine Cables]]
+## Related
+
+- [[Google]] — co-owner
+- [[Meta]] — co-owner
+- [[Apricot Cable]] — peer (same owners, different route)
+- [[Bifrost Cable]] — peer (Meta's SE Asia cable)
+- [[Submarine Cables]] — infrastructure context
+- [[Singapore Tech]] — strategic context (Asia data hub)
 

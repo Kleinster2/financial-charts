@@ -112,5 +112,10 @@ Critical to Saudi digitization.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[Saudi PIF]], [[stc]]
+## Related
+
+- [[Saudi Arabia Tech]] — sovereign context (Vision 2030)
+- [[Saudi PIF]] — majority owner
+- [[stc]] — peer (Saudi tech ecosystem)
+- [[GCC tech race]] — regional context
 

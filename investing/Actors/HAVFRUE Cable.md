@@ -74,5 +74,10 @@ Nordic data center connectivity.
 
 ---
 
-Related: [[Google]], [[Meta]], [[Amitié Cable]], [[Submarine Cables]]
+## Related
+
+- [[Google]] — capacity buyer
+- [[Meta]] — capacity buyer
+- [[Amitié Cable]] — peer (trans-Atlantic)
+- [[Submarine Cables]] — infrastructure context
 

@@ -125,4 +125,11 @@ This is the template for gas-powered AI infrastructure.
 
 ---
 
-Related: [[Power constraints]], [[Crusoe Energy]], [[Siemens Energy]], [[AI hyperscalers]], [[NextEra Energy]], [[AI infrastructure financing]]
+## Related
+
+- [[Crusoe Energy]] — customer (29 LM2500XPRESS turbines)
+- [[NextEra Energy]] — partner (collaboration deal)
+- [[Siemens Energy]] — competitor (oligopoly)
+- [[Power constraints]] — addresses (gas turbines for AI power)
+- [[AI hyperscalers]] — end customers
+- [[AI infrastructure financing]] — thesis context

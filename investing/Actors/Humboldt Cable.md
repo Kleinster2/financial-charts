@@ -99,5 +99,11 @@ Via Pacific, avoiding US routing.
 
 ---
 
-Related: [[Santiago Data Hub]], [[Google]], [[EllaLink]]
+## Related
+
+- [[Google]] — partner (capacity buyer, Pacific Connect)
+- [[Santiago Data Hub]] — beneficiary (Chile as Asia gateway)
+- [[EllaLink]] — peer (LatAm submarine cable)
+- [[Google Pacific Connect]] — part of network
+- [[Submarine Cables]] — infrastructure context
 

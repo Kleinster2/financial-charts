@@ -105,5 +105,13 @@ Duopoly = pricing power.
 
 ---
 
-Related: [[Synopsys]], [[NVIDIA]], [[AMD]], [[TSMC]], [[Intel]]
+## Related
+
+- [[Synopsys]] — competitor, duopoly partner (EDA market)
+- [[Siemens EDA]] — competitor (PCB, automotive)
+- [[NVIDIA]] — customer (AI chip design)
+- [[AMD]] — customer (chip design)
+- [[TSMC]] — customer (foundry design tools)
+- [[Intel]] — customer (chip design)
+- [[AI hyperscalers]] — indirect beneficiaries (custom chip design boom)
 

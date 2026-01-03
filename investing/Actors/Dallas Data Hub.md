@@ -114,5 +114,14 @@ Texas-sized DC growth:
 
 ---
 
-Related: [[Ashburn]], [[Columbus Ohio]], [[Phoenix Data Hub]], [[Vistra]], [[Tesla]]
+## Related
+
+- [[Ashburn]] — peer hub (overflow destination)
+- [[Columbus Ohio]] — peer hub (alternative)
+- [[Phoenix Data Hub]] — peer hub (alternative)
+- [[Vistra]] — power provider (Texas generation)
+- [[Digital Realty]] — major operator
+- [[Tesla]] — adjacent (Austin HQ nearby)
+- [[Oracle]] — adjacent (Austin HQ nearby)
+- [[Power constraints]] — ERCOT has capacity but grid risk
 

@@ -87,4 +87,12 @@ See [[xAI]] for details.
 
 ---
 
-Related: [[xAI]], [[Tesla]], [[Samsung]], [[NVIDIA]], [[Craft Ventures]], [[Short TSMC long Korea]]
+## Related
+
+- [[xAI]] — founder/CEO (100k+ H100s, Colossus)
+- [[Tesla]] — CEO (FSD chips, Optimus)
+- [[Samsung]] — potential anchor customer (Taylor fab)
+- [[NVIDIA]] — customer (massive GPU buyer)
+- [[Craft Ventures]] — ally (David Sacks)
+- [[Short TSMC long Korea]] — thesis context (Samsung anchor)
+- [[Export controls]] — policy influence (DOGE role)

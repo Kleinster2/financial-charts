@@ -124,5 +124,12 @@ Hassabis = most scientific.
 
 ---
 
-Related: [[Google]], [[OpenAI]], [[Anthropic]], [[Sam Altman]]
+## Related
+
+- [[Google]] — employer (DeepMind CEO)
+- [[OpenAI]] — competitor (AI labs)
+- [[Anthropic]] — competitor (AI labs)
+- [[Sam Altman]] — peer (AI leader, different style)
+- [[Dario Amodei]] — peer (AI leader, safety-focused)
+- [[Ilya Sutskever]] — peer (AI researcher)
 

@@ -132,4 +132,13 @@ Signal: Cursor valuable enough for OpenAI interest.
 
 ---
 
-Related: [[Cognition]], [[Magic AI]], [[Microsoft]], [[a16z]], [[Anthropic]], [[OpenAI]]
+## Related
+
+- [[Cognition]] — competitor (Devin AI agent)
+- [[Microsoft]] — competitor (GitHub Copilot)
+- [[Magic AI]] — competitor (AI coding)
+- [[a16z]] — investor
+- [[NVIDIA]] — investor
+- [[Google]] — investor
+- [[Anthropic]] — model provider (Claude)
+- [[OpenAI]] — model provider, tried to acquire

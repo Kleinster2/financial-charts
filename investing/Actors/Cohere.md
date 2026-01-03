@@ -157,4 +157,12 @@ Cohere = enterprise specialist.
 
 ---
 
-Related: [[OpenAI]], [[Anthropic]], [[AMD]], [[NVIDIA]], [[Glean]], [[Harvey]]
+## Related
+
+- [[OpenAI]] — competitor (enterprise AI)
+- [[Anthropic]] — competitor (enterprise AI)
+- [[AMD]] — partner (MI300, NVIDIA alternative)
+- [[NVIDIA]] — investor, supplier
+- [[Glean]] — peer (enterprise AI)
+- [[Harvey]] — peer (vertical AI application)
+- [[Google]] — former employer (Aidan Gomez co-invented Transformers)

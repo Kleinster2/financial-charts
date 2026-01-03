@@ -129,5 +129,11 @@ Southeast Asia's Uber + DoorDash + PayPal.
 
 ---
 
-Related: [[Singapore Tech]], [[Sea Group]], [[Indonesia Tech]], [[GoTo]]
+## Related
+
+- [[Singapore Tech]] — HQ location
+- [[Sea Group]] — competitor (Shopee)
+- [[GoTo]] — competitor (Gojek in Indonesia)
+- [[Indonesia Tech]] — key market
+- [[Southeast Asia tech race]] — regional context
 

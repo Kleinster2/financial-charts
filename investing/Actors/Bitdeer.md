@@ -107,4 +107,10 @@ Not enough to offset mining challenges.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Marathon Digital]], [[Riot Platforms]]
+## Related
+
+- [[IREN]] — peer (outperforming, +300% YTD)
+- [[Hut 8]] — peer (outperforming, +139% YTD)
+- [[Marathon Digital]] — peer (crypto miner)
+- [[Riot Platforms]] — peer (crypto miner)
+- [[Crypto-to-AI pivot]] — what Bitdeer is missing

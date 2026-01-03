@@ -136,4 +136,11 @@ Helion is the most credible fusion-for-AI play:
 
 ---
 
-Related: [[Nuclear power for AI]], [[Sam Altman]], [[Microsoft]], [[OpenAI]], [[TAE Technologies]], [[Power constraints]]
+## Related
+
+- [[Sam Altman]] — chairman, largest investor ($375M)
+- [[Microsoft]] — customer (first fusion PPA, 2028 target)
+- [[OpenAI]] — connected via Altman
+- [[TAE Technologies]] — peer (fusion competitor)
+- [[Nuclear power for AI]] — thesis context
+- [[Power constraints]] — addresses (fusion for AI power)

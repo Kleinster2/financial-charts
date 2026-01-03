@@ -114,5 +114,11 @@ Conservative vs Temasek.
 
 ---
 
-Related: [[Singapore Tech]], [[Temasek]], [[Equinix]], [[Digital Realty]]
+## Related
+
+- [[Singapore Tech]] — sovereign context
+- [[Temasek]] — peer (Singapore's other SWF)
+- [[Equinix]] — investment (DC REIT)
+- [[Digital Realty]] — investment (DC REIT)
+- [[AI infrastructure financing]] — thesis context
 

@@ -139,4 +139,14 @@ Blue Owl is differentiated by scale of AI-specific deals.
 
 ---
 
-Related: [[AI infrastructure financing]], [[Meta]], [[Oracle]], [[Power constraints]], [[AI hyperscalers]]
+## Related
+
+- [[Meta]] — major customer ($27B Hyperion deal)
+- [[Crusoe Energy]] — customer ($15B Abilene deal)
+- [[Oracle]] — former deal partner (pulled out, debt concerns)
+- [[Blackstone]] — competitor (QTS platform)
+- [[Brookfield]] — competitor (infrastructure)
+- [[DigitalBridge]] — competitor (digital infrastructure)
+- [[AI infrastructure financing]] — thesis context
+- [[AI hyperscalers]] — customer base
+- [[Power constraints]] — drives demand for financing solutions

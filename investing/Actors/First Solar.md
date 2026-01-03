@@ -139,4 +139,13 @@ See [[Rare earth leverage]] for the broader context.
 
 ---
 
-Related: [[NextEra Energy]], [[Power constraints]], [[AI hyperscalers]], [[Amazon]], [[Microsoft]], [[Google]], [[Rare earth leverage]]
+## Related
+
+- [[NextEra Energy]] — customer (utility-scale buyer)
+- [[Amazon]] — customer (hyperscaler solar PPA)
+- [[Microsoft]] — customer (hyperscaler solar PPA)
+- [[Google]] — customer (hyperscaler solar PPA)
+- [[Power constraints]] — addresses (solar for data centers)
+- [[AI hyperscalers]] — customers (98.7% of corporate PPAs)
+- [[Array Technologies]] — peer (solar trackers)
+- [[Clean energy for AI]] — thesis context

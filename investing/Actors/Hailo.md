@@ -114,5 +114,10 @@ GenAI moving to edge.
 
 ---
 
-Related: [[NVIDIA]], [[Mobileye]], [[Israel Tech]], [[Qualcomm]]
+## Related
+
+- [[NVIDIA]] — competitor (Jetson edge chips)
+- [[Mobileye]] — peer (Israeli edge AI)
+- [[Israel Tech]] — sovereign context
+- [[Qualcomm]] — competitor (edge AI)
 

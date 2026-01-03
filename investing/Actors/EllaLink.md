@@ -98,5 +98,11 @@ Independent infrastructure.
 
 ---
 
-Related: [[Fortaleza Data Hub]], [[Brazil AI]], [[Humboldt Cable]]
+## Related
+
+- [[Fortaleza Data Hub]] — landing point (Praia do Futuro)
+- [[Brazil AI]] — beneficiary (Europe connectivity)
+- [[Humboldt Cable]] — peer (Latin America submarine cable)
+- [[SACS Cable]] — peer (Africa-Americas cable)
+- [[Submarine Cables]] — infrastructure context
 

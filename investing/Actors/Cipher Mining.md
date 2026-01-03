@@ -92,4 +92,11 @@ Cipher = strong #2 in pivot execution.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Core Scientific]], [[TeraWulf]]
+## Related
+
+- [[IREN]] — competitor, peer (#1 in crypto-AI pivot)
+- [[Hut 8]] — competitor, peer (Google-backed)
+- [[Core Scientific]] — competitor, peer
+- [[TeraWulf]] — competitor, peer
+- [[Crypto-to-AI pivot]] — thesis context
+- [[Power constraints]] — value driver (power assets)

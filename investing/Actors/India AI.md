@@ -115,5 +115,11 @@ Mukesh Ambani's bet.
 
 ---
 
-Related: [[NVIDIA]], [[Google]], [[Microsoft]], [[Amazon]]
+## Related
+
+- [[NVIDIA]] — GPU supplier for IndiaAI Mission
+- [[Google]] — hyperscaler presence
+- [[Microsoft]] — hyperscaler presence
+- [[Amazon]] — hyperscaler presence
+- [[Sovereign AI race]] — context
 

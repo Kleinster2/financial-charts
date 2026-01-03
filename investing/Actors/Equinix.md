@@ -121,4 +121,12 @@ Global footprint = enterprise appeal.
 
 ---
 
-Related: [[Digital Realty]], [[AI infrastructure financing]], [[DigitalBridge]], [[Blackstone]], [[AI hyperscalers]]
+## Related
+
+- [[Digital Realty]] — competitor (DC REIT, wholesale vs retail)
+- [[DigitalBridge]] — adjacent (digital infrastructure investor)
+- [[Blackstone]] — competitor (QTS platform)
+- [[AI hyperscalers]] — customers (interconnection value)
+- [[AI infrastructure financing]] — thesis context
+- [[Ashburn]] — major presence
+- [[Bogotá Data Hub]] — operator (since 2017)

@@ -147,4 +147,11 @@ Harvey = most funded, fastest growing.
 
 ---
 
-Related: [[OpenAI]], [[Sequoia Capital]], [[Glean]], [[Anthropic]]
+## Related
+
+- [[OpenAI]] — investor, AI partner
+- [[Sequoia Capital]] — investor (Series D lead)
+- [[Glean]] — peer (enterprise AI)
+- [[Cohere]] — peer (enterprise AI)
+- [[Anthropic]] — potential AI partner
+- [[Agentic AI]] — thesis context (legal automation)

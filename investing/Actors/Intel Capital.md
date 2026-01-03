@@ -115,4 +115,9 @@ Intel Capital more active than most chip CVCs.
 
 ---
 
-Related: [[Intel]], [[a16z]], [[Lux Capital]], [[NVIDIA]]
+## Related
+
+- [[Intel]] — parent company
+- [[a16z]] — peer VC (AI investments)
+- [[Lux Capital]] — peer VC (deep tech)
+- [[NVIDIA]] — competitor (Intel's main rival in AI)

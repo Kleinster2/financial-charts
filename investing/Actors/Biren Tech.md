@@ -132,4 +132,12 @@ Biren is the only one sanctioned — limits manufacturing options.
 
 ---
 
-Related: [[Moore Threads]], [[MetaX]], [[Enflame]], [[Export controls]], [[NVIDIA]], [[China]], [[TSMC]]
+## Related
+
+- [[Moore Threads]] — peer (Four Little Dragons)
+- [[MetaX]] — peer (Four Little Dragons)
+- [[Enflame]] — peer (Four Little Dragons)
+- [[NVIDIA]] — competitor (what Biren tries to replace)
+- [[TSMC]] — former foundry (blocked by Entity List)
+- [[Export controls]] — constraint (Entity List since Oct 2022)
+- [[China]] — geographic context

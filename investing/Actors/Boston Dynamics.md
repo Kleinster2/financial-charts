@@ -112,5 +112,11 @@ Struggled to commercialize.
 
 ---
 
-Related: [[Figure AI]], [[Agility Robotics]], [[Tesla]], [[NVIDIA]]
+## Related
+
+- [[Figure AI]] — competitor (humanoid robots)
+- [[Agility Robotics]] — competitor (warehouse robots)
+- [[Tesla]] — competitor (Optimus)
+- [[NVIDIA]] — supplier (AI compute)
+- [[1X Technologies]] — competitor (humanoid robots)
 

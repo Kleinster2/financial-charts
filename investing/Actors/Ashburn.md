@@ -117,5 +117,13 @@ Ashburn's constraints = other hubs' opportunity.
 
 ---
 
-Related: [[Equinix]], [[Digital Realty]], [[Amazon]], [[Microsoft]], [[Querétaro]]
+## Related
+
+- [[Equinix]] — major operator (multiple facilities)
+- [[Digital Realty]] — major operator
+- [[Amazon]] — hyperscaler presence (US-East-1 hub)
+- [[Microsoft]] — hyperscaler presence (Azure)
+- [[Google]] — hyperscaler presence (GCP)
+- [[Querétaro]] — alternative hub (LatAm nearshoring)
+- [[Power constraints]] — key challenge (Dominion capacity strained)
 

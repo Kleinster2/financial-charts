@@ -120,5 +120,11 @@ GoTo = Indonesia specialist.
 
 ---
 
-Related: [[Indonesia Tech]], [[Grab]], [[Sea Group]], [[Singapore Tech]]
+## Related
+
+- [[Indonesia Tech]] — sovereign context
+- [[Grab]] — competitor (ride-hailing)
+- [[Sea Group]] — competitor (e-commerce via Shopee)
+- [[ByteDance]] — partner (TikTok Shop + Tokopedia merger)
+- [[Southeast Asia tech race]] — regional context
 

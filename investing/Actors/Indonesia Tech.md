@@ -144,5 +144,12 @@ Not yet a semiconductor hub.
 
 ---
 
-Related: [[GoTo]], [[Singapore Tech]], [[Vietnam Tech]], [[Sea Group]]
+## Related
+
+- [[GoTo]] — domestic champion (Gojek + Tokopedia)
+- [[Singapore Tech]] — regional peer
+- [[Vietnam Tech]] — regional peer
+- [[Sea Group]] — competitor (Shopee, SeaBank)
+- [[Grab]] — competitor (ride-hailing)
+- [[Southeast Asia tech race]] — regional context
 
