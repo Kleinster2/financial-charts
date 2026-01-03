@@ -122,4 +122,10 @@ AEC technology = differentiated interconnect.
 
 ---
 
-Related: [[Astera Labs]], [[NVIDIA]], [[Arista Networks]], [[Coherent]], [[AI hyperscalers]]
+## Related
+
+- [[Astera Labs]] — peer in connectivity ICs, different focus (retimers vs AEC)
+- [[NVIDIA]] — customer, GPU cluster connectivity
+- [[Arista Networks]] — adjacent, switches in AI clusters
+- [[Coherent]] — adjacent, optical for rack-to-rack (Credo = intra-rack)
+- [[AI hyperscalers]] — end customers driving demand

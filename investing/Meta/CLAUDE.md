@@ -107,3 +107,25 @@ Public companies don't need cap tables — ownership is public via SEC filings.
 - Consortiums: [[Rapidus]] (stakeholder list instead)
 
 **VCs** (Benchmark, Craft Ventures, ZhenFund) track portfolios, not cap tables.
+
+## Related section convention
+
+Notes should end with an annotated `## Related` section that explains *why* each note is linked:
+
+```markdown
+## Related
+
+- [[NVIDIA]] — primary customer, GPU ecosystem
+- [[Broadcom]] — competitor in PCIe switches
+- [[AI hyperscalers]] — end customers driving demand
+```
+
+**Relationship types to annotate:**
+- Customer / supplier
+- Competitor / peer
+- Investor / investee
+- Partner
+- Adjacent player (same ecosystem, different layer)
+- Industry context (concept notes)
+
+**Why this matters:** Obsidian's graph shows connections but not context. Annotated links are scannable without reading the full note.

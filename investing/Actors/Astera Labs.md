@@ -136,4 +136,10 @@ Astera = pure-play connectivity IC leader.
 
 ---
 
-Related: [[Credo Semiconductor]], [[NVIDIA]], [[Broadcom]], [[AI hyperscalers]], [[Arista Networks]]
+## Related
+
+- [[Credo Semiconductor]] — peer in connectivity ICs, different focus (AEC vs retimers)
+- [[NVIDIA]] — primary customer, GPU ecosystem
+- [[Broadcom]] — competitor in PCIe switches
+- [[AI hyperscalers]] — end customers driving demand
+- [[Arista Networks]] — adjacent player in cluster networking
