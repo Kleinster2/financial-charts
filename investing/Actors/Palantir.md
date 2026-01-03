@@ -136,4 +136,9 @@ Palantir provides the intelligence layer.
 
 ---
 
-Related: [[Snowflake]], [[Databricks]], [[Scale AI]], [[a16z]]
+## Related
+
+- [[Snowflake]] — partner (data platform integration)
+- [[Databricks]] — competitor (data/AI platform)
+- [[Scale AI]] — peer (AI infrastructure)
+- [[a16z]] — investor (Thiel connections)

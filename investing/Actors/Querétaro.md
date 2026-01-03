@@ -126,5 +126,12 @@ Querétaro = where Ashburn was 20 years ago.
 
 ---
 
-Related: [[Mexico Tech]], [[CloudHQ]], [[Amazon]], [[Ashburn]], [[Brazil AI]]
+## Related
+
+- [[Mexico Tech]] — national context (65% of capacity here)
+- [[CloudHQ]] — major investor ($4.8B)
+- [[Amazon]] — major investor (AWS $5B)
+- [[Ashburn]] — benchmark (Querétaro = Ashburn 20 years ago)
+- [[Brazil AI]] — peer market (LatAm DC competition)
+- [[Nearshoring thesis]] — context (manufacturing + data)
 

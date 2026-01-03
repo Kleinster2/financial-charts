@@ -128,5 +128,13 @@ Powers most ADAS systems globally.
 
 ---
 
-Related: [[Intel]], [[NVIDIA]], [[Tesla]], [[Waymo]], [[Aurora]]
+## Related
+
+- [[Intel]] — parent company (88% owner)
+- [[NVIDIA]] — competitor (Drive platform)
+- [[Tesla]] — competitor (vertical FSD)
+- [[Waymo]] — peer (different market segment)
+- [[Aurora]] — peer (trucking focus)
+- [[Israel Tech]] — context (Israeli company)
+- [[Autonomous vehicles]] — thesis context
 

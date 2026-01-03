@@ -141,5 +141,11 @@ Philippines as AI training data hub.
 
 ---
 
-Related: [[Indonesia Tech]], [[Vietnam Tech]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[Indonesia Tech]] — SEA peer (larger population, different focus)
+- [[Vietnam Tech]] — SEA peer (manufacturing vs BPO)
+- [[OpenAI]] — threat (AI disrupting call centers)
+- [[Anthropic]] — threat (AI disrupting BPO)
+- [[Southeast Asia tech race]] — regional context
 

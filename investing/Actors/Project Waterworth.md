@@ -106,5 +106,11 @@ Waterworth = first fully private mega-cable.
 
 ---
 
-Related: [[Meta]], [[Google]], [[Fortaleza Data Hub]], [[EllaLink]]
+## Related
+
+- [[Meta]] — owner (100% ownership, first solo mega-cable)
+- [[Google]] — peer (also building private cables)
+- [[Fortaleza Data Hub]] — landing (Brazil connection point)
+- [[EllaLink]] — peer (smaller consortium cable)
+- [[Submarine Cables]] — infrastructure context
 

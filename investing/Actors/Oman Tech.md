@@ -86,5 +86,10 @@ Least aggressive on tech.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[UAE Tech]], [[Sovereign AI race]]
+## Related
+
+- [[Saudi Arabia Tech]] — GCC peer (larger, more aggressive)
+- [[UAE Tech]] — GCC peer (most advanced in region)
+- [[Sovereign AI race]] — context (quietest GCC player)
+- [[GCC tech race]] — regional context
 

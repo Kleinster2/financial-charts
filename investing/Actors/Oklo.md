@@ -116,5 +116,11 @@ Smaller than NuScale's design.
 
 ---
 
-Related: [[OpenAI]], [[Sam Altman]], [[NuScale]], [[Constellation Energy]]
+## Related
+
+- [[OpenAI]] — connection (Sam Altman chairs both, AI power demand)
+- [[Sam Altman]] — chairman (invested pre-OpenAI)
+- [[NuScale]] — competitor (SMR peer, further along on NRC)
+- [[Constellation Energy]] — peer (nuclear power)
+- [[Nuclear renaissance]] — thesis context (AI power demand)
 

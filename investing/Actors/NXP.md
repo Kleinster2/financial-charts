@@ -55,3 +55,14 @@ aliases: [NXP Semiconductors]
 - Less exposed to mobile cyclicality than [[Qualcomm]]
 - EV transition tailwind (power management, radar, V2X)
 - Potential future M&A target (with [[Weaponized antitrust]] risk)
+
+---
+
+## Related
+
+- [[Infineon]] — competitor (#1 automotive semi)
+- [[Qualcomm]] — blocked acquirer (2018 $44B deal)
+- [[TSMC]] — foundry (advanced nodes)
+- [[Samsung]] — foundry partner
+- [[Nexperia]] — former subsidiary (spun off 2017)
+- [[Weaponized antitrust]] — context (China blocked Qualcomm deal)

@@ -59,3 +59,12 @@ See [[Dutch seizure of Nexperia]] for full details.
 - [[Weaponized antitrust]] now cuts both ways (West seizing Chinese assets)
 - Automotive supply chain disruption risk
 - Template for future EU interventions
+
+---
+
+## Related
+
+- [[NXP]] — former parent (Nexperia spun off 2017)
+- [[Dutch seizure of Nexperia]] — key event (government seizure)
+- [[Weaponized antitrust]] — context (West seizing Chinese assets)
+- [[Export controls]] — context (Wingtech entity listing)

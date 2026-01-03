@@ -128,4 +128,12 @@ Moore Threads is one of China's "Four Little Dragons" of GPUs:
 
 ---
 
-Related: [[Biren Tech]], [[MetaX]], [[Enflame]], [[NVIDIA]], [[Export controls]], [[China]], [[Huawei]]
+## Related
+
+- [[Biren Tech]] — peer (Four Little Dragons)
+- [[MetaX]] — peer (Four Little Dragons)
+- [[Enflame]] — peer (Four Little Dragons)
+- [[NVIDIA]] — competitor (founder origin, 14 years)
+- [[Huawei]] — competitor (domestic alternative)
+- [[Export controls]] — context (NVIDIA blocked)
+- [[SMIC]] — likely foundry

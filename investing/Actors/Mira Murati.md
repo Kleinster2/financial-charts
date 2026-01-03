@@ -149,4 +149,12 @@ Engineering + product background.
 
 ---
 
-Related: [[Thinking Machines Lab]], [[OpenAI]], [[Ilya Sutskever]], [[Sam Altman]], [[John Schulman]]
+## Related
+
+- [[Thinking Machines Lab]] — founder, CEO ($12B valuation)
+- [[OpenAI]] — former CTO (led ChatGPT)
+- [[Ilya Sutskever]] — former colleague (both left 2024)
+- [[Sam Altman]] — former boss
+- [[John Schulman]] — TML Chief Scientist (recruited)
+- [[a16z]] — investor (led TML $2B seed)
+- [[OpenAI talent exodus]] — context

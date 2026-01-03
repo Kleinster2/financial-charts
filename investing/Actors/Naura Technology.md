@@ -95,4 +95,11 @@ Naura is China's answer to Applied Materials/Lam Research — and now has a capt
 
 ---
 
-Related: [[Export controls]], [[AMEC]], [[China]], [[Applied Materials]], [[Lam Research]], [[Long WFE]]
+## Related
+
+- [[AMEC]] — peer (Chinese etch equipment)
+- [[Applied Materials]] — competitor (deposition)
+- [[Lam Research]] — competitor (etch)
+- [[SMIC]] — customer (50% domestic mandate)
+- [[Export controls]] — context (beneficiary of mandate)
+- [[Long WFE]] — thesis

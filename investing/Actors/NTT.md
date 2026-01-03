@@ -92,5 +92,10 @@ R&D leadership.
 
 ---
 
-Related: [[Nokia]], [[Vodafone]], [[Google]]
+## Related
+
+- [[Nokia]] — partner (telecom infrastructure)
+- [[Vodafone]] — peer (global telecom)
+- [[Google]] — partner (cloud/enterprise)
+- [[Japan Semiconductor Revival]] — context (Japan tech ecosystem)
 

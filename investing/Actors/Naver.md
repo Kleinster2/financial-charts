@@ -122,5 +122,10 @@ Korean alternative to AWS/Azure.
 
 ---
 
-Related: [[South Korea Tech]], [[Google]], [[OpenAI]], [[Samsung]]
+## Related
+
+- [[South Korea Tech]] — sovereign context
+- [[Google]] — competitor (has 30% Korea search)
+- [[OpenAI]] — competitor (ChatGPT vs HyperCLOVA)
+- [[Samsung]] — partner (Korean tech ecosystem)
 

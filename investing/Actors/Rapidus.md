@@ -88,4 +88,11 @@ Supplier sentiment at SEMICON Japan 2024: "high confidence" in 2027 timeline.
 
 *Updated 2026-01-01*
 
-Related: [[Foundry Wars]], [[Leading edge race]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Kioxia]]
+## Related
+
+- [[Foundry Wars]] — context (Japan's 2nm play)
+- [[TSMC]] — competitor (dominant at 2nm)
+- [[Samsung]] — competitor (2nm alternative)
+- [[Intel Foundry Services]] — competitor (US alternative)
+- [[Kioxia]] — founding member (NAND expertise)
+- [[Japan Semiconductor Revival]] — context (national champion)
