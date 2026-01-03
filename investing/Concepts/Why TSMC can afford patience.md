@@ -22,4 +22,10 @@ Comparing Samsung unfavorably to TSMC's discipline ignores asymmetry:
 
 ---
 
-Related: [[Foundry Wars]], [[Why Samsung's aggression may be rational]], [[Customer lock-in via co-design]]
+## Related
+
+- [[TSMC]] — beneficiary (~60% market share enables patience)
+- [[Samsung]] — forced (must be aggressive from #2)
+- [[Intel Foundry Services]] — forced (similar pressure)
+- [[Why Samsung's aggression may be rational]] — counterpoint
+- [[Customer lock-in via co-design]] — enabler (moat protects patience)

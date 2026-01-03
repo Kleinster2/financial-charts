@@ -139,5 +139,14 @@ Backend becoming strategic.
 
 ---
 
-Related: [[Intel]], [[AMD]], [[ASE]], [[Singapore Tech]], [[Vietnam Tech]]
+## Related
+
+- [[Intel]] — major presence (Penang since 1972)
+- [[AMD]] — presence (test facility)
+- [[ASE]] — presence (OSAT operations)
+- [[Microsoft]] — investor ($2.2B AI infrastructure)
+- [[Google]] — investor ($2B data center)
+- [[Singapore Tech]] — regional peer
+- [[Vietnam Tech]] — regional peer
+- [[Advanced packaging]] — thesis context (Penang hub)
 

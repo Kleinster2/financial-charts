@@ -139,5 +139,10 @@ Not yet a semiconductor hub.
 
 ---
 
-Related: [[Vietnam Tech]], [[Malaysia Tech]], [[Indonesia Tech]], [[BYD]]
+## Related
+
+- [[Vietnam Tech]] — SEA peer (manufacturing competition)
+- [[Malaysia Tech]] — SEA peer (semiconductor focus)
+- [[Indonesia Tech]] — SEA peer (population scale)
+- [[Southeast Asia tech race]] — regional context
 

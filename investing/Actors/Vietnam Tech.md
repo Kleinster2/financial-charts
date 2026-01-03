@@ -152,5 +152,12 @@ NVIDIA sees Vietnam opportunity.
 
 ---
 
-Related: [[Samsung]], [[Intel]], [[NVIDIA]], [[Indonesia Tech]], [[Malaysia Tech]]
+## Related
+
+- [[Samsung]] — anchor investor ($20B+)
+- [[Intel]] — anchor investor (test facility)
+- [[NVIDIA]] — partner (AI development)
+- [[Indonesia Tech]] — SEA peer (different focus)
+- [[Malaysia Tech]] — SEA peer (semiconductor focus)
+- [[Southeast Asia tech race]] — regional context
 

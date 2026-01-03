@@ -125,4 +125,13 @@ Solar generation + Battery storage + Data center
 
 ---
 
-Related: [[Google]], [[Silicon Ranch]], [[NextEra Energy]], [[Power constraints]], [[AI hyperscalers]], [[Amazon]], [[Microsoft]]
+## Related
+
+- [[Google]] — acquirer ($4.75B, Dec 2025)
+- [[Silicon Ranch]] — peer (Google solar partnership)
+- [[NextEra Energy]] — peer (utility-scale renewables)
+- [[Power constraints]] — addresses (co-located power + DC)
+- [[AI hyperscalers]] — trend context (vertical integration)
+- [[Amazon]] — peer (similar vertical integration)
+- [[Microsoft]] — peer (nuclear deals similar strategy)
+- [[Clean energy for AI]] — thesis context

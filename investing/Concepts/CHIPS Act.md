@@ -32,4 +32,10 @@ The **CHIPS and Science Act** (2022) provides ~$52.7B to boost U.S. semiconducto
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC Arizona expansion]], [[Samsung Taylor pivot]], [[Intel Foundry Services]]
+## Related
+
+- [[Intel Foundry Services]] — recipient ($8.5B + $11B loans, largest)
+- [[TSMC]] — recipient ($6.6B for Arizona fabs)
+- [[Samsung]] — recipient ($6.4B for Taylor, Texas)
+- [[Taiwan concentration risk]] — driver (why US reshoring)
+- [[Execution risk in foundries]] — limitation (subsidies don't eliminate risk)

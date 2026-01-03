@@ -140,5 +140,11 @@ UAE ahead on execution, Saudi has more capital.
 
 ---
 
-Related: [[Saudi PIF]], [[UAE G42]], [[Sovereign AI race]], [[a16z]]
+## Related
+
+- [[Saudi PIF]] — funder ($930B sovereign fund)
+- [[UAE G42]] — competitor (GCC AI leader)
+- [[Sovereign AI race]] — context (largest AI bet)
+- [[a16z]] — partner (Transcendence JV)
+- [[NEOM]] — showcase project ($500B smart city)
 

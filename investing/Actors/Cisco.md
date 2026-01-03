@@ -106,5 +106,12 @@ Legacy strength, AI weakness.
 
 ---
 
-Related: [[Arista Networks]], [[NVIDIA]], [[Broadcom]], [[Microsoft]]
+## Related
+
+- [[Arista Networks]] — competitor (AI data center networking)
+- [[NVIDIA]] — competitor (InfiniBand vs Ethernet)
+- [[Broadcom]] — competitor (networking silicon)
+- [[Juniper Networks]] — competitor (being acquired by HPE)
+- [[Microsoft]] — customer (enterprise)
+- [[AI hyperscalers]] — lost share to Arista
 

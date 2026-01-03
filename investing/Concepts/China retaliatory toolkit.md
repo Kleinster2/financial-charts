@@ -79,3 +79,15 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 - Rare earth/critical mineral supply chains are investment targets
 - M&A involving China market requires geopolitical scenario planning
 - See [[Export controls]] for the Western side of the equation
+
+---
+
+## Related
+
+- [[Export controls]] — counterpart (Western restrictions)
+- [[Rare earth leverage]] — tool (resource control)
+- [[Gallium]] — tool (99% refined by China)
+- [[Germanium]] — tool (60% refined by China)
+- [[Antimony]] — tool (48% share, no substitute for ammo)
+- [[Nexperia]] — target (Oct 2025 export controls)
+- [[Dutch seizure of Nexperia]] — trigger (China response)

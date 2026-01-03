@@ -38,4 +38,12 @@ This is underpriced tail risk. Arizona fabs are "insurance" but the coverage is 
 
 ---
 
-Related: [[Foundry Wars]], [[Taiwan concentration risk]], [[CHIPS Act]]
+## Related
+
+- [[Taiwan concentration risk]] — core issue (90% advanced production)
+- [[TSMC]] — exposed (core assets at risk)
+- [[Samsung]] — beneficiary (US capacity suddenly strategic)
+- [[Intel Foundry Services]] — beneficiary (domestic premium)
+- [[TSMC Arizona expansion]] — mitigation (only ~5% capacity)
+- [[Samsung Taylor pivot]] — mitigation (first US 2nm)
+- [[CHIPS Act]] — response (subsidize domestic production)

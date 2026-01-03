@@ -109,5 +109,12 @@ Colombia's digital infrastructure center:
 
 ---
 
-Related: [[São Paulo Data Hub]], [[Santiago Data Hub]], [[Querétaro]]
+## Related
+
+- [[São Paulo Data Hub]] — peer hub (LatAm leader)
+- [[Santiago Data Hub]] — peer hub (Chile)
+- [[Querétaro]] — peer hub (Mexico nearshoring)
+- [[Equinix]] — operator (since 2017)
+- [[Digital Realty]] — operator (via Ascenty)
+- [[Nearshoring thesis]] — regional context
 

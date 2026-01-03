@@ -29,4 +29,10 @@ Arizona fabs are framed as "insurance" but:
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC Arizona expansion]], [[CHIPS Act]]
+## Related
+
+- [[TSMC]] — concentrated (~90% of advanced production)
+- [[TSMC Arizona expansion]] — mitigation (only ~5% of capacity)
+- [[Samsung Taylor pivot]] — mitigation (US-based alternative)
+- [[CHIPS Act]] — driver (subsidies for domestic buildout)
+- [[N-2 rule]] — limitation (constrains Arizona to older nodes)

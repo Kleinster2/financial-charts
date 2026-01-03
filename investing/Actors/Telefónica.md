@@ -83,5 +83,10 @@ Cable investments = strategic.
 
 ---
 
-Related: [[MAREA Cable]], [[Vodafone]], [[Meta]], [[Microsoft]]
+## Related
+
+- [[MAREA Cable]] — operator (Telxius manages)
+- [[Vodafone]] — peer (European telecom)
+- [[Meta]] — partner (MAREA cable)
+- [[Microsoft]] — partner (MAREA cable)
 

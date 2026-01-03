@@ -132,4 +132,12 @@ Arm doesn't make chips — it licenses the architecture that others use:
 
 ---
 
-Related: [[Masayoshi Son]], [[NVIDIA]], [[Apple]], [[Amazon]], [[Google]], [[AI infrastructure financing risk]], [[Export controls]]
+## Related
+
+- [[Masayoshi Son]] — owner (SoftBank ~90%)
+- [[Apple]] — customer (A-series, M-series)
+- [[NVIDIA]] — customer (Grace CPU), tried to acquire
+- [[Amazon]] — customer (Graviton)
+- [[Google]] — customer (Axion)
+- [[AI infrastructure financing risk]] — Masa margin call trigger
+- [[Export controls]] — China licensing risk

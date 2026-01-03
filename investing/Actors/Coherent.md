@@ -120,4 +120,11 @@ Coherent + II-VI merger created dominant optical player.
 
 ---
 
-Related: [[Lumentum]], [[Fabrinet]], [[Arista Networks]], [[NVIDIA]], [[AI hyperscalers]]
+## Related
+
+- [[Lumentum]] — competitor, peer (optical components)
+- [[Fabrinet]] — contract manufacturer (major partner)
+- [[Arista Networks]] — customer (network OEM)
+- [[NVIDIA]] — adjacent (GPU clusters need optical)
+- [[AI hyperscalers]] — end customers (800G/1.6T demand)
+- [[Broadcom]] — competitor (silicon photonics)

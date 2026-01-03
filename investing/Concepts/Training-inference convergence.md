@@ -1,7 +1,5 @@
 #concept #chips #architecture
 
-# Training-inference convergence
-
 The distinction between AI training and inference hardware is blurring. Workloads that were once separate now share similar compute requirements.
 
 ---
@@ -78,4 +76,12 @@ Possible explanations:
 
 *Updated 2025-12-30*
 
-Related: [[Hyperscaler chip roadmap]], [[Amazon]], [[NVIDIA]], [[Google]], [[Groq]], [[Inference economics]], [[Long Broadcom]]
+## Related
+
+- [[Amazon]] — example (discontinued Inferentia, Trainium handles both)
+- [[NVIDIA]] — beneficiary (unified architectures win)
+- [[Google]] — example (TPU v7 Ironwood for inference at training scale)
+- [[Groq]] — counter-example (NVIDIA bought inference-specialist for $20B)
+- [[Inference economics]] — context (cost models may be wrong)
+- [[Hyperscaler chip roadmap]] — context (ASIC designs consolidating)
+- [[Inference disaggregation]] — nuance (prefill vs decode still distinct)

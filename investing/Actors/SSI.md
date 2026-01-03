@@ -148,4 +148,11 @@ SSI = smallest team, second-highest $/employee.
 
 ---
 
-Related: [[Ilya Sutskever]], [[OpenAI]], [[Anthropic]], [[Thinking Machines Lab]], [[Google]], [[NVIDIA]]
+## Related
+
+- [[Ilya Sutskever]] — founder (OpenAI co-founder, left for SSI)
+- [[OpenAI]] — origin (Ilya's former company)
+- [[Anthropic]] — peer (frontier lab comparison)
+- [[Thinking Machines Lab]] — peer (high valuation/employee)
+- [[Google]] — investor (TPU partnership)
+- [[NVIDIA]] — investor (compute provider)

@@ -116,4 +116,10 @@ Nintendo committed to Switch 2 launch; others may delay.
 
 ---
 
-Related: [[Memory shortage victims]], [[Memory shortage 2025-2026]], [[Sony]], [[Micron]], [[SK Hynix]]
+## Related
+
+- [[Memory shortage victims]] — thesis (Nintendo = poster child)
+- [[Memory shortage 2025-2026]] — crisis context (Switch 2 impact)
+- [[Sony]] — peer (PS6 may delay due to same issue)
+- [[Micron]] — supplier (Switch 2 memory modules)
+- [[SK Hynix]] — driver (HBM prioritization crowding out LPDDR)

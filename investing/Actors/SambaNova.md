@@ -113,5 +113,10 @@ Not competing for hyperscaler business.
 
 ---
 
-Related: [[NVIDIA]], [[Cerebras]], [[Groq]], [[Tenstorrent]]
+## Related
+
+- [[NVIDIA]] — competitor (GPU dominance)
+- [[Cerebras]] — peer (alternative AI chip)
+- [[Groq]] — peer (inference chip competitor)
+- [[Tenstorrent]] — peer (AI accelerator)
 

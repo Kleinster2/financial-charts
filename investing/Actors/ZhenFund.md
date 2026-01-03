@@ -57,4 +57,8 @@ Export controls cut off chips. Now talent is leaving too.
 
 *Created 2026-01-01*
 
-Related: [[Meta]], [[Agentic AI]], [[China]], [[Benchmark]]
+## Related
+
+- [[Meta]] — acquirer (bought Manus from ZhenFund portfolio)
+- [[Agentic AI]] — thesis (Chinese startups being absorbed)
+- [[China]] — context (AI talent brain drain)

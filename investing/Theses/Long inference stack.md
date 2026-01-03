@@ -114,7 +114,15 @@ This is a basket thesis — multiple exposures:
 
 ---
 
-Related: [[Inference disaggregation]], [[Long NVIDIA]], [[Long memory]], [[Long Broadcom]], [[Agentic AI]]
+## Related
+
+- [[Inference disaggregation]] — mechanism (prefill/decode split)
+- [[Long NVIDIA]] — component (platform benefits most)
+- [[Long memory]] — component (HBM for prefill, memory bandwidth critical)
+- [[Long Broadcom]] — component (interconnect, networking)
+- [[Agentic AI]] — driver (decode-heavy use case)
+- [[SK Hynix]] — beneficiary (HBM leader)
+- [[Vertiv]] — beneficiary (cooling infrastructure)
 
 ---
 

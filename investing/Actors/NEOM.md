@@ -118,5 +118,10 @@ Vision vs execution gap.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[Saudi PIF]], [[Sovereign AI race]]
+## Related
+
+- [[Saudi Arabia Tech]] — sovereign context
+- [[Saudi PIF]] — owner/funder
+- [[Sovereign AI race]] — context (AI-integrated city)
+- [[GCC tech race]] — regional context
 

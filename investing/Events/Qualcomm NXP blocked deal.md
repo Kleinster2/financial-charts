@@ -64,3 +64,13 @@ If approved, Qualcomm-NXP would have been:
 - Dominant in NFC/secure elements
 - Diversified away from mobile modem risk
 - Potentially less vulnerable to Apple's modem efforts
+
+---
+
+## Related
+
+- [[Qualcomm]] — acquirer (lost diversification play)
+- [[NXP]] — target (remained independent)
+- [[Weaponized antitrust]] — precedent (China as M&A gatekeeper)
+- [[CHIPS Act]] — consequence (US realized strategic vulnerability)
+- [[Export controls]] — context (ZTE sanctions were active)

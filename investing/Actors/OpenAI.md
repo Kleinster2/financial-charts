@@ -105,4 +105,12 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 *Updated 2026-01-01*
 
-Related: [[Sam Altman]], [[Jony Ive]], [[AI Race]], [[Anthropic]], [[Microsoft]], [[Model lab economics]], [[Agentic AI]]
+## Related
+
+- [[Sam Altman]] — CEO and founder
+- [[Jony Ive]] — partner (AI device project)
+- [[Anthropic]] — competitor (Claude, more efficient)
+- [[Microsoft]] — investor ($13B+, 49% profit share)
+- [[Model lab economics]] — thesis (bearish on cash burn)
+- [[Agentic AI]] — product direction
+- [[OpenAI talent exodus]] — risk (key researchers leaving)

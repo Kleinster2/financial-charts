@@ -144,4 +144,13 @@ Four Little Dragons fighting for the non-NVIDIA/Huawei share.
 
 ---
 
-Related: [[Moore Threads]], [[Biren Tech]], [[MetaX]], [[Tencent]], [[NVIDIA]], [[Export controls]], [[China]]
+## Related
+
+- [[Tencent]] — strategic investor (21% stake)
+- [[Moore Threads]] — peer (Four Little Dragons)
+- [[Biren Tech]] — peer (Four Little Dragons, sanctioned)
+- [[MetaX]] — peer (Four Little Dragons)
+- [[NVIDIA]] — competitor (dominant in China)
+- [[Huawei]] — competitor (domestic alternative)
+- [[Export controls]] — NOT sanctioned (key advantage)
+- [[TSMC]] — foundry (still has access)

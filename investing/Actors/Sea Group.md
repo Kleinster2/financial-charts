@@ -127,5 +127,11 @@ Refocused on profitable markets.
 
 ---
 
-Related: [[Singapore Tech]], [[Temasek]], [[Indonesia Tech]], [[Vietnam Tech]]
+## Related
+
+- [[Singapore Tech]] — national context (headquarters)
+- [[Temasek]] — investor (Singapore sovereign)
+- [[Indonesia Tech]] — key market (Shopee dominant)
+- [[Vietnam Tech]] — key market
+- [[Southeast Asia tech race]] — context
 

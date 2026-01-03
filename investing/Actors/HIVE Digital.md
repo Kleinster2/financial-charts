@@ -95,4 +95,10 @@ HIVE = more direct GPU exposure.
 
 ---
 
-Related: [[NVIDIA]], [[IREN]], [[Hut 8]], [[Cipher Mining]]
+## Related
+
+- [[NVIDIA]] — supplier ($30M GPU purchase)
+- [[IREN]] — competitor, peer (crypto-to-AI)
+- [[Hut 8]] — competitor, peer (crypto-to-AI)
+- [[Cipher Mining]] — competitor, peer
+- [[Crypto-to-AI pivot]] — thesis context

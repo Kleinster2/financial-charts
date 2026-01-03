@@ -124,5 +124,10 @@ OpenAI hedging with multiple robotics bets.
 
 ---
 
-Related: [[OpenAI]], [[Figure AI]], [[Tesla]], [[Agility Robotics]]
+## Related
+
+- [[OpenAI]] — lead investor (Series A2)
+- [[Figure AI]] — competitor (OpenAI backs both)
+- [[Tesla]] — competitor (Optimus)
+- [[Agility Robotics]] — competitor (warehouse focus)
 

@@ -126,5 +126,12 @@ Aurora = leading AV trucking.
 
 ---
 
-Related: [[Waymo]], [[Tesla]], [[Mobileye]], [[Toyota]]
+## Related
+
+- [[Waymo]] — competitor in AV (robotaxi focus vs Aurora's trucking)
+- [[Tesla]] — competitor (Tesla Semi, FSD)
+- [[Mobileye]] — potential ADAS supplier
+- [[Toyota]] — investor and vehicle partner
+- [[Autonomous trucking]] — industry context
+- [[Autonomous vehicles]] — broader AV landscape
 

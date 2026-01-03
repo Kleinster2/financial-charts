@@ -126,4 +126,10 @@ JPM is #1; others participate in syndicates.
 
 ---
 
-Related: [[AI infrastructure financing]], [[Blue Owl]], [[Blackstone]], [[Crusoe Energy]], [[CoreWeave]]
+## Related
+
+- [[Crusoe Energy]] — customer ($2.3B construction loan)
+- [[Blue Owl]] — partner (co-financier)
+- [[Blackstone]] — partner (co-financier)
+- [[CoreWeave]] — customer (financing)
+- [[AI infrastructure financing]] — thesis context

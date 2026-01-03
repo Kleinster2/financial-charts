@@ -136,4 +136,9 @@ Effectively a Meta subsidiary now.
 
 ---
 
-Related: [[Meta]], [[Palantir]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[Meta]] — owner (49% stake, $14.8B)
+- [[Palantir]] — peer (defense AI)
+- [[OpenAI]] — customer (training data)
+- [[Anthropic]] — customer (training data)

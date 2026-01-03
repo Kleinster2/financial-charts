@@ -111,4 +111,17 @@ MediaTek appearing = Broadcom disintermediation progressing.
 
 Sources: [Google Ironwood](https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads), [AWS Trainium3](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/), [OpenAI-Broadcom](https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/), [Samsung-xAI](https://dataconomy.com/2025/12/19/samsung-xai-ai-chip-deal/)
 
-Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Broadcom]], [[MediaTek]], [[Long TSMC]], [[Long memory]], [[Short TSMC long Korea]]
+## Related
+
+- [[Google]] — customer (TPU v7 Ironwood, Broadcom/MediaTek)
+- [[Amazon]] — customer (Trainium3, Marvell/Alchip)
+- [[Microsoft]] — customer (Maia 200 delayed, GUC)
+- [[Meta]] — customer (MTIA, going in-house with RISC-V)
+- [[OpenAI]] — customer (Titan v.1, Broadcom)
+- [[xAI]] — customer (X1, Samsung Taylor)
+- [[TSMC]] — foundry (dominant for most)
+- [[Samsung]] — foundry (xAI, potentially AMD)
+- [[Intel Foundry Services]] — foundry (Microsoft Maia 2 on 18A)
+- [[Broadcom]] — IC design (dominant, OpenAI $10B)
+- [[MediaTek]] — IC design (emerging, Google TPU v7e)
+- [[Marvell]] — IC design (Amazon relationship)

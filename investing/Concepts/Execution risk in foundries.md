@@ -28,4 +28,11 @@ Execution risk shows up as:
 
 ---
 
-Related: [[Foundry Wars]], [[Yield as competitive moat]], [[Why Samsung's aggression may be rational]]
+## Related
+
+- [[TSMC]] — low risk (trades speed for predictability)
+- [[Samsung]] — high risk (accepts risk for positioning)
+- [[Intel Foundry Services]] — very high risk (unproven external foundry)
+- [[Samsung Taylor pivot]] — example (midstream change)
+- [[Yield as competitive moat]] — related concept
+- [[Why Samsung's aggression may be rational]] — context

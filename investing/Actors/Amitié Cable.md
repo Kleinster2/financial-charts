@@ -75,5 +75,11 @@ US to Europe via UK.
 
 ---
 
-Related: [[Meta]], [[Microsoft]], [[MAREA Cable]], [[Submarine Cables]]
+## Related
+
+- [[Meta]] — capacity buyer, investor
+- [[Microsoft]] — capacity buyer, investor
+- [[Vodafone]] — European partner
+- [[MAREA Cable]] — peer (trans-Atlantic, Microsoft-owned)
+- [[Submarine Cables]] — infrastructure context
 

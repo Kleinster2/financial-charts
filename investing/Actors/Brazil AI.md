@@ -139,5 +139,13 @@ Balancing US and China.
 
 ---
 
-Related: [[Amazon]], [[Microsoft]], [[Google]], [[Saudi PIF]], [[India AI]]
+## Related
+
+- [[Amazon]] — investor ($1.8B AWS expansion)
+- [[Microsoft]] — investor (Azure Brazil)
+- [[Google]] — investor (GCP presence)
+- [[India AI]] — peer (emerging AI sovereign)
+- [[Argentina]] — peer (LATAM AI, Stargate)
+- [[Sovereign AI race]] — context
+- [[Clean energy for AI]] — Brazil advantage (93.6% renewable)
 

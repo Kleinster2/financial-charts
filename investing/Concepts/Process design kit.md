@@ -33,4 +33,9 @@ This is why [[Customer lock-in via co-design]] is so sticky. The PDK is the tech
 
 ---
 
-Related: [[Foundry Wars]], [[Customer lock-in via co-design]], [[TSMC]], [[Yield as competitive moat]]
+## Related
+
+- [[TSMC]] — beneficiary (years of customer learning)
+- [[Samsung]] — disadvantage (switching costs protect TSMC)
+- [[Customer lock-in via co-design]] — mechanism (PDK is technical root)
+- [[CUDA moat]] — analogy (same switching cost dynamic)

@@ -143,4 +143,14 @@ See [[Kunlunxin]] for full details.
 
 ---
 
-Related: [[Alibaba]], [[ByteDance]], [[Tencent]], [[Export controls]], [[China]], [[AI hyperscalers]]
+## Related
+
+- [[Alibaba]] — competitor (China cloud/AI)
+- [[ByteDance]] — competitor (Doubao gaining on Ernie)
+- [[Tencent]] — competitor (China cloud)
+- [[Kunlunxin]] — subsidiary (AI chips, IPO 2027)
+- [[Export controls]] — constraint (H200 only)
+- [[China]] — geographic context
+- [[Waymo]] — competitor (Apollo vs Waymo in AV)
+- [[AI hyperscalers]] — peer category
+- [[Autonomous vehicles]] — Apollo context

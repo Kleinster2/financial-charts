@@ -142,4 +142,9 @@ Perplexity = pure-play AI search.
 
 ---
 
-Related: [[Google]], [[OpenAI]], [[NVIDIA]], [[Glean]]
+## Related
+
+- [[Google]] — competitor (disrupting search)
+- [[OpenAI]] — competitor (ChatGPT search)
+- [[NVIDIA]] — investor (strategic backing)
+- [[Glean]] — peer (AI enterprise search)

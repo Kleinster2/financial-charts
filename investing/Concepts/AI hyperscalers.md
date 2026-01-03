@@ -54,4 +54,11 @@ See individual actor notes for details.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[TSMC]], [[Samsung]], [[NVIDIA]], [[Power constraints]], [[Broadcom]], [[ByteDance]]
+## Related
+
+- [[Foundry Wars]] — context (hyperscalers drive foundry demand)
+- [[TSMC]] — primary foundry (most hyperscalers)
+- [[Samsung]] — alternative foundry (Musk ecosystem)
+- [[NVIDIA]] — supplier (GPU dominant)
+- [[Power constraints]] — constraint (44GW shortfall)
+- [[Broadcom]] — enabler (custom silicon design)

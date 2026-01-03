@@ -125,4 +125,12 @@ One of ~5 people who created modern AI.
 
 ---
 
-Related: [[SSI]], [[OpenAI]], [[Sam Altman]], [[Mira Murati]], [[Anthropic]], [[Dario Amodei]]
+## Related
+
+- [[SSI]] — founder, CEO ($32B valuation)
+- [[OpenAI]] — former co-founder/Chief Scientist
+- [[Sam Altman]] — former colleague (board drama Nov 2023)
+- [[Mira Murati]] — former colleague (also left OpenAI)
+- [[Anthropic]] — peer (safety-focused AI lab)
+- [[Dario Amodei]] — peer (AI safety leader)
+- [[Google]] — SSI cloud partner (TPUs)

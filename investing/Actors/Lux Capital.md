@@ -106,4 +106,10 @@ Josh Wolfe active on X, shapes deep tech narrative.
 
 ---
 
-Related: [[a16z]], [[Unconventional AI]], [[Sequoia Capital]], [[Khosla Ventures]]
+## Related
+
+- [[a16z]] — co-investor (Unconventional AI)
+- [[Unconventional AI]] — portfolio company
+- [[Sequoia Capital]] — peer VC
+- [[Khosla Ventures]] — peer VC (similar deep tech focus)
+- [[Cognition]] — portfolio company

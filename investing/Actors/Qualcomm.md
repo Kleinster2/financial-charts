@@ -65,3 +65,14 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 - China exposure (Huawei was major customer pre-ban)
 - Licensing model under regulatory pressure
 - Geopolitical risk on future M&A (see [[Weaponized antitrust]])
+
+---
+
+## Related
+
+- [[Apple]] — customer/threat (trying to build in-house modems)
+- [[NXP]] — blocked acquisition (2018, China blocked)
+- [[TSMC]] — foundry (fabless, TSMC manufactures)
+- [[MediaTek]] — competitor (mid-range mobile)
+- [[NVIDIA]] — competitor (automotive AI)
+- [[Weaponized antitrust]] — context (China blocked NXP deal)

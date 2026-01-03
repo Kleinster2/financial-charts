@@ -140,7 +140,14 @@ Watch for Meta capex guidance on custom silicon.
 
 ---
 
-Related: [[NVIDIA]], [[Broadcom]], [[Cerebras]], [[Google]], [[Amazon]], [[Inference disaggregation]]
+## Related
+
+- [[NVIDIA]] — winner (platform consolidates ASICs)
+- [[Cerebras]] — survivor (unique wafer-scale niche)
+- [[Google]] — survivor (TPU, vertical integration)
+- [[Amazon]] — survivor (Trainium, vertical integration)
+- [[Broadcom]] — mixed (designs ASICs, but TAM at risk)
+- [[Inference disaggregation]] — mechanism (Rubin variants kill standalone)
 
 ---
 

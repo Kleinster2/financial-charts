@@ -105,4 +105,10 @@ Solar trackers maximize energy output — essential for utility-scale:
 
 ---
 
-Related: [[First Solar]], [[NextEra Energy]], [[Power constraints]], [[AI hyperscalers]]
+## Related
+
+- [[First Solar]] — peer (solar industry)
+- [[NextEra Energy]] — customer (utility-scale solar)
+- [[Power constraints]] — context (solar addresses power gap)
+- [[AI hyperscalers]] — indirect customers (solar PPAs)
+- [[Clean energy for AI]] — thesis context

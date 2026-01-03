@@ -120,4 +120,9 @@ The designer of the iPhone is now designing AI's hardware future:
 
 ---
 
-Related: [[Sam Altman]], [[OpenAI]], [[Apple]], [[TSMC]]
+## Related
+
+- [[Sam Altman]] — partner (OpenAI device collaboration)
+- [[OpenAI]] — employer (via $6.4B io acquisition)
+- [[Apple]] — former employer (1992-2019)
+- [[TSMC]] — potential customer (custom AI SoC)

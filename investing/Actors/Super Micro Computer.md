@@ -136,5 +136,10 @@ High risk/high reward.
 
 ---
 
-Related: [[NVIDIA]], [[Dell]], [[Vertiv]], [[CoreWeave]]
+## Related
+
+- [[NVIDIA]] — partner (first to market with H100 racks)
+- [[Dell]] — competitor (server market)
+- [[Vertiv]] — supplier (DC infrastructure)
+- [[CoreWeave]] — customer type (GPU cloud)
 

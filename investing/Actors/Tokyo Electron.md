@@ -120,4 +120,11 @@ TEL is diversified across WFE, less concentrated than peers.
 
 ---
 
-Related: [[ASML]], [[Applied Materials]], [[Lam Research]], [[Long WFE]], [[Export controls]], [[Rapidus]]
+## Related
+
+- [[ASML]] — partner (coater/developer + lithography)
+- [[Applied Materials]] — competitor (deposition, etch)
+- [[Lam Research]] — competitor (etch)
+- [[Long WFE]] — thesis (beneficiary)
+- [[Export controls]] — constraint (Japan aligned)
+- [[Rapidus]] — customer (Japan semiconductor revival)

@@ -87,3 +87,14 @@ Ironic: Philips semiconductor legacy now a geopolitical flashpoint.
 - [Al Jazeera](https://www.aljazeera.com/news/2025/10/14/why-has-dutch-government-taken-control-of-china-owned-chipmaker-nexperia)
 - [CNBC](https://www.cnbc.com/2025/10/13/dutch-government-takes-control-of-chinese-owned-chipmaker-nexperia.html)
 - [Bloomberg](https://www.bloomberg.com/news/articles/2025-10-14/china-puts-export-controls-on-nexperia-after-dutch-takeover)
+
+---
+
+## Related
+
+- [[Nexperia]] — subject (seized by Netherlands)
+- [[Weaponized antitrust]] — precedent (first Western seizure)
+- [[China retaliatory toolkit]] — response (China retaliated with export controls)
+- [[Rare earth leverage]] — connected (China tightened REE controls same week)
+- [[Export controls]] — trigger (US Entity List started cascade)
+- [[NXP]] — history (Nexperia spun from NXP)

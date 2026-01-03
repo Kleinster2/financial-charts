@@ -113,5 +113,10 @@ São Paulo overflow = interior growth.
 
 ---
 
-Related: [[Brazil AI]], [[Rio de Janeiro Data Hub]], [[Querétaro]], [[Ashburn]]
+## Related
+
+- [[Brazil AI]] — national context (LatAm's largest market)
+- [[Rio de Janeiro Data Hub]] — peer hub (faster growing)
+- [[Querétaro]] — peer hub (Mexico's center)
+- [[Ashburn]] — benchmark (global standard)
 

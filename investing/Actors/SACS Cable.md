@@ -75,5 +75,10 @@ First direct South America to Africa link.
 
 ---
 
-Related: [[Fortaleza Data Hub]], [[EllaLink]], [[Submarine Cables]], [[Brazil AI]]
+## Related
+
+- [[Fortaleza Data Hub]] — landing point (Brazil terminus)
+- [[EllaLink]] — peer cable (connects at Fortaleza)
+- [[Submarine Cables]] — infrastructure context
+- [[Brazil AI]] — national context (South Atlantic route)
 

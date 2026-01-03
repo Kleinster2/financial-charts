@@ -109,4 +109,10 @@ All large OEMs similarly squeezed.
 
 ---
 
-Related: [[Memory shortage victims]], [[Dell]], [[Memory shortage 2025-2026]], [[China]]
+## Related
+
+- [[Memory shortage victims]] — thesis context (example victim)
+- [[Dell]] — competitor (same squeeze)
+- [[Memory shortage 2025-2026]] — crisis context
+- [[Micron]] — supplier (can't get enough)
+- [[SK Hynix]] — supplier (prioritizing elsewhere)

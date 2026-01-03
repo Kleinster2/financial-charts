@@ -130,5 +130,11 @@ Both heavily invested in AI/tech.
 
 ---
 
-Related: [[Temasek]], [[GIC]], [[Sea Group]], [[Grab]], [[GlobalFoundries]]
+## Related
+
+- [[Temasek]] — sovereign investor ($380B+)
+- [[GIC]] — sovereign investor ($770B+)
+- [[Sea Group]] — key company (Shopee, Garena)
+- [[Grab]] — key company (super-app)
+- [[GlobalFoundries]] — semiconductor fab
 

@@ -132,5 +132,10 @@ Huawei bans = Western opportunity.
 
 ---
 
-Related: [[NVIDIA]], [[Arista Networks]], [[Cisco]], [[Marvell]]
+## Related
+
+- [[NVIDIA]] — investor ($1B stake, AI-RAN partnership)
+- [[Arista Networks]] — peer (network infrastructure)
+- [[Cisco]] — competitor (enterprise networking)
+- [[Marvell]] — partner (custom silicon for networking)
 

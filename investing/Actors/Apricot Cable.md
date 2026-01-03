@@ -78,5 +78,12 @@ Redundancy + coverage.
 
 ---
 
-Related: [[Google]], [[Meta]], [[Echo Cable]], [[TSMC]], [[Submarine Cables]]
+## Related
+
+- [[Google]] — co-owner
+- [[Meta]] — co-owner
+- [[Echo Cable]] — peer (same owners, different route)
+- [[Bifrost Cable]] — peer (Meta's SE Asia cable)
+- [[TSMC]] — strategic context (Taiwan landing point)
+- [[Submarine Cables]] — infrastructure context
 

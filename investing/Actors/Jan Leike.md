@@ -108,5 +108,11 @@ Went to the safety lab.
 
 ---
 
-Related: [[Anthropic]], [[OpenAI]], [[Ilya Sutskever]], [[Dario Amodei]]
+## Related
+
+- [[Anthropic]] — current employer
+- [[OpenAI]] — former employer (Superalignment co-lead)
+- [[Ilya Sutskever]] — former colleague (left same week)
+- [[Dario Amodei]] — current boss
+- [[OpenAI talent exodus]] — context
 

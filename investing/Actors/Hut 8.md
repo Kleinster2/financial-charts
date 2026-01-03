@@ -122,4 +122,11 @@ Hut 8 = most complete transformation.
 
 ---
 
-Related: [[Google]], [[IREN]], [[Core Scientific]], [[TeraWulf]], [[NVIDIA]]
+## Related
+
+- [[Google]] — backer (via Fluidstack $7B deal)
+- [[IREN]] — competitor, peer (crypto-to-AI)
+- [[Core Scientific]] — competitor, peer
+- [[TeraWulf]] — competitor, peer
+- [[NVIDIA]] — GPU supplier (1,000+ H100s)
+- [[Crypto-to-AI pivot]] — thesis context

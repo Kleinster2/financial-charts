@@ -131,4 +131,11 @@ See [[Anthropic]] for company details.
 
 ---
 
-Related: [[Anthropic]], [[OpenAI]], [[Amazon]], [[Google]], [[Sam Altman]], [[AI Race]]
+## Related
+
+- [[Anthropic]] — CEO, co-founder
+- [[OpenAI]] — former employer (VP Research, left 2021)
+- [[Amazon]] — major investor ($4B in Anthropic)
+- [[Google]] — investor ($2B+ in Anthropic)
+- [[Sam Altman]] — former colleague, now competitor
+- [[Ilya Sutskever]] — former colleague (safety researchers)

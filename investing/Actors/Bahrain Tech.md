@@ -91,5 +91,10 @@ Small but specialized.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[UAE Tech]], [[Amazon]]
+## Related
+
+- [[Saudi Arabia Tech]] — GCC peer (larger scale)
+- [[UAE Tech]] — GCC peer (execution-focused)
+- [[Amazon]] — AWS first ME region (2019)
+- [[GCC tech race]] — regional context
 

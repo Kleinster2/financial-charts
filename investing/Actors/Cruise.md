@@ -111,5 +111,12 @@ Long road back.
 
 ---
 
-Related: [[Waymo]], [[Tesla]], [[Aurora]], [[Mobileye]]
+## Related
+
+- [[Waymo]] — competitor (gained share from Cruise pause)
+- [[Tesla]] — competitor (FSD approach)
+- [[Aurora]] — competitor (trucking focus)
+- [[Mobileye]] — competitor (ADAS/AV)
+- [[Zoox]] — competitor (Amazon robotaxi)
+- [[Autonomous vehicles]] — industry context
 

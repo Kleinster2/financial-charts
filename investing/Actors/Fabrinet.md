@@ -125,4 +125,11 @@ Thailand location = supply chain diversification benefit.
 
 ---
 
-Related: [[Coherent]], [[Lumentum]], [[Arista Networks]], [[AI hyperscalers]]
+## Related
+
+- [[Coherent]] — customer (optical module manufacturing)
+- [[Lumentum]] — customer (laser manufacturing)
+- [[NVIDIA]] — customer (optical transceivers)
+- [[Arista Networks]] — adjacent (networking OEM)
+- [[AI hyperscalers]] — end customers (transceiver demand)
+- [[Thailand Tech]] — location context

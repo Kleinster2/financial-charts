@@ -115,4 +115,13 @@ Digital Realty owns significant land for expansion:
 
 ---
 
-Related: [[Equinix]], [[AI infrastructure financing]], [[DigitalBridge]], [[Blackstone]], [[AI hyperscalers]], [[Power constraints]]
+## Related
+
+- [[Equinix]] — competitor (DC REIT, retail vs wholesale)
+- [[DigitalBridge]] — competitor (Vantage Data Centers)
+- [[Blackstone]] — competitor (QTS platform)
+- [[AI hyperscalers]] — customers (hyperscale focus)
+- [[AI infrastructure financing]] — thesis context
+- [[Power constraints]] — key challenge (land bank advantage)
+- [[Ashburn]] — major presence
+- [[Columbus Ohio]] — growing presence

@@ -139,4 +139,9 @@ TAE is a lottery ticket, not an investment thesis.
 
 ---
 
-Related: [[Nuclear power for AI]], [[Power constraints]], [[Oklo]], [[Constellation Energy]]
+## Related
+
+- [[Nuclear power for AI]] — context (speculative fusion play)
+- [[Power constraints]] — thesis (if fusion works)
+- [[Oklo]] — peer (fission alternative)
+- [[Constellation Energy]] — peer (existing nuclear)

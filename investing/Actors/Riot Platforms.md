@@ -84,4 +84,10 @@ Riot = late but large.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Core Scientific]], [[Marathon]]
+## Related
+
+- [[IREN]] — peer (leading AI pivot, +300%)
+- [[Hut 8]] — peer (advanced pivot, +139%)
+- [[Core Scientific]] — peer (AI transition)
+- [[Marathon Digital]] — peer (still Bitcoin focused)
+- [[Crypto-to-AI pivot]] — thesis context

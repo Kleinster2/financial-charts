@@ -124,4 +124,12 @@ Political connections may matter for regulatory environment.
 
 ---
 
-Related: [[AI infrastructure financing]], [[Blue Owl]], [[CoreWeave]], [[AI hyperscalers]], [[Power constraints]]
+## Related
+
+- [[Blue Owl]] — peer (AI infrastructure financing)
+- [[Brookfield]] — peer (infrastructure investor)
+- [[DigitalBridge]] — peer (digital infrastructure)
+- [[CoreWeave]] — financed ($7.5B debt)
+- [[AI hyperscalers]] — customers (QTS data centers)
+- [[AI infrastructure financing]] — thesis
+- [[Power constraints]] — context (data center demand)

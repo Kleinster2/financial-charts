@@ -79,4 +79,10 @@ No single provider wins. Commoditization is the outcome.
 
 ---
 
-Related: [[AI Race]], [[Model lab economics]], [[Inference economics]]
+## Related
+
+- [[OpenAI]] — threatened (pricing power eroding)
+- [[Anthropic]] — threatened (API pricing pressure)
+- [[Model lab economics]] — context (margin compression)
+- [[Inference economics]] — mechanism (10-30x price gap)
+- [[Meta]] — enabler (Llama open source)

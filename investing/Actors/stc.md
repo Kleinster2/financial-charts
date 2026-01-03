@@ -114,5 +114,10 @@ Expanding beyond Saudi.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[Saudi PIF]], [[Nokia]], [[T-Mobile]]
+## Related
+
+- [[Saudi Arabia Tech]] — national context
+- [[Saudi PIF]] — owner (64% stake)
+- [[Nokia]] — supplier (network equipment)
+- [[NEOM]] — partner (smart city connectivity)
 

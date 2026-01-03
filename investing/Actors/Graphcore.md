@@ -105,5 +105,12 @@ UK's AI chip contender (cautionary tale):
 
 ---
 
-Related: [[NVIDIA]], [[ARM]], [[Cerebras]], [[Groq]], [[Tenstorrent]]
+## Related
+
+- [[NVIDIA]] — competitor (dominant, why Graphcore struggled)
+- [[Arm Holdings]] — potential acquirer (UK consolidation)
+- [[Cerebras]] — peer (alternative AI chip architecture)
+- [[Groq]] — peer (alternative inference chip)
+- [[Tenstorrent]] — peer (alternative AI chip)
+- [[CUDA moat]] — why Graphcore lost
 

@@ -99,5 +99,12 @@ AI chips are too hot for air:
 
 ---
 
-Related: [[Modine Manufacturing]], [[Vertiv]], [[Super Micro Computer]], [[NVIDIA]]
+## Related
+
+- [[Modine Manufacturing]] — winner (liquid cooling specialist, +150% 2024)
+- [[Vertiv]] — winner (DC infrastructure)
+- [[Super Micro Computer]] — winner (liquid-cooled servers)
+- [[Schneider Electric]] — winner (power + cooling)
+- [[NVIDIA]] — driver (H100 700W, Blackwell 1000W+)
+- [[Power constraints]] — context (cooling part of power equation)
 

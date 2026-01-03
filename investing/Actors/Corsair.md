@@ -117,4 +117,11 @@ Entire DIMM/SO-DIMM aftermarket disrupted.
 
 ---
 
-Related: [[Memory shortage victims]], [[Memory shortage 2025-2026]], [[Micron]], [[SK Hynix]]
+## Related
+
+- [[Memory shortage victims]] — thesis context (example victim)
+- [[Memory shortage 2025-2026]] — crisis context
+- [[Micron]] — supplier (can't get chips)
+- [[SK Hynix]] — supplier (prioritizing large OEMs)
+- [[Dell]] — comparison (large OEMs fare better)
+- [[Lenovo]] — comparison (large OEMs fare better)

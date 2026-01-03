@@ -163,4 +163,17 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[TSMC]], [[NVIDIA]], [[Anthropic]], [[Long TSMC]], [[Long Broadcom]], [[Hyperscaler chip roadmap]], [[Coherent]], [[Lumentum]], [[Arista Networks]]
+## Related
+
+- [[Google]] — major customer (TPU design), disintermediating
+- [[Anthropic]] — customer ($10B TPUv7 purchase)
+- [[Meta]] — customer (custom ASICs)
+- [[OpenAI]] — customer ($10B Titan chip deal)
+- [[TSMC]] — foundry (95% of wafers)
+- [[NVIDIA]] — competitor (GPU vs ASIC)
+- [[MediaTek]] — competitor (Zebrafish threat)
+- [[Coherent]] — competitor (optical)
+- [[Lumentum]] — competitor (optical)
+- [[Arista Networks]] — customer (networking silicon)
+- [[Long Broadcom]] — thesis
+- [[Hyperscaler chip roadmap]] — disintermediation risk context

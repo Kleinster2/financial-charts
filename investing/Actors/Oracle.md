@@ -52,4 +52,9 @@ Flow: `Oracle (infra) + NVIDIA (chips via TSMC) → xAI (training)`
 
 ---
 
-Related: [[AI hyperscalers]], [[NVIDIA]], [[TSMC]], [[xAI]]
+## Related
+
+- [[AI hyperscalers]] — category (tier 2 hyperscaler)
+- [[NVIDIA]] — supplier (GPU customer, no custom silicon)
+- [[TSMC]] — upstream (via NVIDIA GPUs)
+- [[xAI]] — customer (Colossus on OCI)

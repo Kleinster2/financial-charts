@@ -101,5 +101,10 @@ Niche player with specific strengths.
 
 ---
 
-Related: [[Synopsys]], [[Cadence]], [[TSMC]], [[Intel]]
+## Related
+
+- [[Synopsys]] — competitor (#1 EDA)
+- [[Cadence]] — competitor (#2 EDA)
+- [[TSMC]] — customer (Calibre used for verification)
+- [[Intel]] — customer (automotive/industrial)
 

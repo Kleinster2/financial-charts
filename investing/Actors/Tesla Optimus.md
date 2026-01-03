@@ -132,5 +132,11 @@ Can Tesla out-manufacture startups?
 
 ---
 
-Related: [[Tesla]], [[Elon Musk]], [[Figure AI]], [[Agility Robotics]], [[Boston Dynamics]]
+## Related
+
+- [[Tesla]] — parent company
+- [[Elon Musk]] — visionary (calls it most important product)
+- [[Figure AI]] — competitor (humanoid startup)
+- [[Agility Robotics]] — competitor (Digit robot)
+- [[Boston Dynamics]] — competitor (Atlas)
 

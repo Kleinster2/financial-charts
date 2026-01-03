@@ -175,4 +175,13 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ---
 
-Related: [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[Memory shortage 2025-2026]], [[Export controls]], [[CXMT]], [[Long memory]]
+## Related
+
+- [[SK Hynix]] — competitor (#1 HBM, Micron #3)
+- [[Samsung]] — competitor (#2 HBM)
+- [[NVIDIA]] — customer (HBM for GPUs)
+- [[Memory shortage 2025-2026]] — crisis context (beneficiary)
+- [[Export controls]] — less exposed than Korea
+- [[CXMT]] — China competitor (catching up)
+- [[Foundry Wars]] — context
+- [[Long memory]] — thesis

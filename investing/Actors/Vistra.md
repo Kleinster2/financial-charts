@@ -110,5 +110,10 @@ Re-rated as AI infrastructure.
 
 ---
 
-Related: [[Constellation Energy]], [[NuScale]], [[NVIDIA]]
+## Related
+
+- [[Constellation Energy]] — peer (larger nuclear fleet)
+- [[NuScale]] — peer (nuclear power)
+- [[Power constraints]] — thesis (AI power demand)
+- [[xAI]] — potential customer (Texas DC)
 

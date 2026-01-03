@@ -103,5 +103,11 @@ $12M is tiny vs global fabs ($20B+), but it's a start.
 
 ---
 
-Related: [[Mexico Tech]], [[TSMC]], [[Intel]]
+## Related
+
+- [[Mexico Tech]] — national context (first domestic fab)
+- [[TSMC]] — benchmark (global comparison)
+- [[Intel]] — benchmark (global fabs)
+- [[Querétaro]] — location (nearby tech hub)
+- [[Nearshoring thesis]] — context (onshoring supply chain)
 

@@ -116,5 +116,14 @@ Uranium up 3x in 4 years.
 
 ---
 
-Related: [[Constellation Energy]], [[Vistra]], [[NuScale]], [[Oklo]]
+## Related
+
+- [[Constellation Energy]] — customer (nuclear fuel buyer)
+- [[Vistra]] — customer (nuclear fuel buyer)
+- [[NuScale]] — SMR developer (future demand)
+- [[Oklo]] — SMR developer (HALEU demand via Westinghouse)
+- [[Centrus Energy]] — adjacent (HALEU production)
+- [[Brookfield]] — co-investor (Westinghouse acquisition)
+- [[Nuclear power for AI]] — thesis context
+- [[Nuclear renaissance]] — industry context
 

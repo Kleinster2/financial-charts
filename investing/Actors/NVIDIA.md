@@ -199,4 +199,17 @@ See [[Export controls]] for full context.
 
 ---
 
-Related: [[Jensen Huang]], [[Foundry Wars]], [[AI Race]], [[CUDA moat]], [[AMD]], [[TSMC]], [[Advanced packaging]], [[SK Hynix]], [[Groq]]
+## Related
+
+- [[Jensen Huang]] — CEO and founder
+- [[TSMC]] — primary foundry
+- [[SK Hynix]] — HBM supplier
+- [[Samsung]] — secondary foundry, HBM supplier
+- [[AMD]] — competitor (GPU/AI)
+- [[Groq]] — acquired (inference ASICs)
+- [[CUDA moat]] — key competitive advantage
+- [[Advanced packaging]] — constraint (CoWoS)
+- [[Export controls]] — China market constraint
+- [[Long NVIDIA]] — thesis
+- [[Long memory]] — thesis (HBM demand)
+- [[Foundry Wars]] — manufacturing context

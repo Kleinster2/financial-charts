@@ -129,5 +129,12 @@ Data center = growth engine.
 
 ---
 
-Related: [[Vertiv]], [[Schneider Electric]], [[NVIDIA]], [[CoreWeave]]
+## Related
+
+- [[Vertiv]] — competitor (DC infrastructure)
+- [[Schneider Electric]] — competitor (power + cooling)
+- [[NVIDIA]] — driver (GPU heat = cooling demand)
+- [[CoreWeave]] — customer type (GPU cloud)
+- [[Thermal limits]] — thesis context
+- [[Power constraints]] — adjacent (cooling is power)
 

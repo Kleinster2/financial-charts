@@ -137,4 +137,11 @@ TML = enterprise focus, SSI = pure research.
 
 ---
 
-Related: [[Mira Murati]], [[John Schulman]], [[OpenAI]], [[SSI]], [[Anthropic]], [[a16z]]
+## Related
+
+- [[Mira Murati]] — CEO (OpenAI CTO alumna)
+- [[John Schulman]] — Chief Scientist (OpenAI co-founder)
+- [[OpenAI]] — origin (⅔ team from OpenAI)
+- [[SSI]] — peer (Ilya's lab, $32B valuation)
+- [[Anthropic]] — competitor (frontier lab)
+- [[a16z]] — investor (led $2B seed)

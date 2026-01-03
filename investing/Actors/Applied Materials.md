@@ -102,4 +102,13 @@ This is a structural tailwind — more complex transistors = more AMAT tools per
 
 ---
 
-Related: [[Foundry Wars]], [[Long WFE]], [[ASML]], [[Lam Research]], [[KLA]], [[TSMC]], [[Samsung]]
+## Related
+
+- [[ASML]] — peer (litho, AMAT does deposition/etch)
+- [[Lam Research]] — peer/competitor (etch)
+- [[KLA]] — peer (inspection)
+- [[Tokyo Electron]] — peer (Japan equipment)
+- [[TSMC]] — largest customer (~40% of foundry revenue)
+- [[Samsung]] — major customer
+- [[Long WFE]] — thesis
+- [[Foundry Wars]] — demand driver

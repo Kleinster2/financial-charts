@@ -139,5 +139,13 @@ Similar thesis, different profile.
 
 ---
 
-Related: [[ASE]], [[TSMC]], [[Intel]], [[Apple]], [[NVIDIA]], [[Cohu]]
+## Related
+
+- [[ASE]] — competitor (#1 OSAT)
+- [[TSMC]] — competes in advanced packaging (CoWoS)
+- [[Apple]] — major customer (~20% revenue)
+- [[NVIDIA]] — growing customer (AI chips)
+- [[Intel]] — growing customer (US proximity)
+- [[Cohu]] — test equipment supplier
+- [[Long OSAT and test equipment]] — thesis
 

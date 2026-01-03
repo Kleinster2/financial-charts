@@ -128,5 +128,14 @@ Driving demand for clean DC locations.
 
 ---
 
-Related: [[Brazil AI]], [[Santiago Data Hub]], [[Fortaleza Data Hub]], [[HAVFRUE Cable]]
+## Related
+
+- [[Brazil AI]] — leader (93.6% renewable, hydro)
+- [[São Paulo Data Hub]] — location (Brazil clean energy hub)
+- [[Fortaleza Data Hub]] — location (Brazil connectivity + renewables)
+- [[Santiago Data Hub]] — location (Chile hydro + solar)
+- [[HAVFRUE Cable]] — connectivity (Nordics to US)
+- [[Google]] — customer (24/7 carbon-free by 2030)
+- [[Microsoft]] — customer (carbon negative by 2030)
+- [[Amazon]] — customer (net-zero by 2040)
 

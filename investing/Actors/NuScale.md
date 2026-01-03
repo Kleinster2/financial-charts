@@ -123,5 +123,11 @@ High risk/reward.
 
 ---
 
-Related: [[Oklo]], [[Constellation Energy]], [[Vistra]], [[Cameco]]
+## Related
+
+- [[Oklo]] — competitor (SMR peer, Aurora microreactor)
+- [[Constellation Energy]] — peer (nuclear power operator)
+- [[Vistra]] — peer (power generation)
+- [[Cameco]] — upstream (uranium supplier)
+- [[Nuclear renaissance]] — thesis context (AI power demand)
 

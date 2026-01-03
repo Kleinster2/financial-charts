@@ -111,4 +111,10 @@ Multiple vehicles for different stages.
 
 ---
 
-Related: [[OpenAI]], [[a16z]], [[Sequoia Capital]], [[Lightspeed Venture Partners]]
+## Related
+
+- [[OpenAI]] — portfolio company (early backer)
+- [[a16z]] — peer VC
+- [[Sequoia Capital]] — peer VC
+- [[Lightspeed Venture Partners]] — peer VC
+- [[Clean energy for AI]] — investment thesis

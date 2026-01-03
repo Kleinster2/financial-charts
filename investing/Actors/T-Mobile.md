@@ -92,5 +92,11 @@ First to deploy AI-enhanced networks.
 
 ---
 
-Related: [[Deutsche Telekom]], [[Nokia]], [[NVIDIA]], [[AT&T]], [[Verizon]]
+## Related
+
+- [[Deutsche Telekom]] — parent (50%+ ownership)
+- [[Nokia]] — partner (AI-RAN development)
+- [[NVIDIA]] — partner (AI-RAN technology)
+- [[AT&T]] — competitor (US carrier)
+- [[Verizon]] — competitor (US carrier)
 

@@ -67,5 +67,10 @@ First major hyperscaler-owned trans-Atlantic.
 
 ---
 
-Related: [[Meta]], [[Microsoft]], [[Amitié Cable]], [[Submarine Cables]]
+## Related
+
+- [[Meta]] — co-owner
+- [[Microsoft]] — co-owner (Azure traffic)
+- [[Amitié Cable]] — peer (trans-Atlantic)
+- [[Submarine Cables]] — infrastructure context
 

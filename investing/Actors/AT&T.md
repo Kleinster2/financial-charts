@@ -90,5 +90,9 @@ US connectivity backbone:
 
 ---
 
-Related: [[Verizon]], [[T-Mobile]], [[Nokia]]
+## Related
+
+- [[Verizon]] — competitor (US telecom)
+- [[T-Mobile]] — competitor (US wireless)
+- [[Nokia]] — supplier (network equipment)
 

@@ -138,4 +138,10 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 *Updated 2026-01-01*
 
-Related: [[AI Race]], [[Enterprise AI adoption]], [[Anthropic]], [[OpenAI]], [[Meta]]
+## Related
+
+- [[Enterprise AI adoption]] — context (agents = exception to 95% fail)
+- [[Anthropic]] — player (Claude Code = agent product)
+- [[OpenAI]] — player (GPT agents, Operator)
+- [[Meta]] — player (acquired Manus $2B+)
+- [[Model lab economics]] — context (agents drive enterprise revenue)

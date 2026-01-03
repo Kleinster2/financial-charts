@@ -150,4 +150,12 @@ Hugging Face = where models are discovered.
 
 ---
 
-Related: [[OpenAI]], [[Anthropic]], [[NVIDIA]], [[Google]], [[Weights and Biases]]
+## Related
+
+- [[OpenAI]] — models hosted on platform
+- [[Anthropic]] — models hosted on platform
+- [[Meta]] — Llama hosted on platform
+- [[NVIDIA]] — investor
+- [[Google]] — investor
+- [[Amazon]] — investor
+- [[Weights and Biases]] — adjacent (MLOps)

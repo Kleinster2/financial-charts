@@ -110,4 +110,10 @@ Shell backing = capital advantage.
 
 ---
 
-Related: [[Meta]], [[NextEra Energy]], [[Intersect Power]], [[Power constraints]], [[AI hyperscalers]]
+## Related
+
+- [[Meta]] — anchor customer (1.5 GW+ contracted)
+- [[NextEra Energy]] — competitor (renewable developer)
+- [[Intersect Power]] — competitor (TPG/Google backed)
+- [[Power constraints]] — thesis context (AI power needs)
+- [[Clean energy for AI]] — context (renewable PPAs)

@@ -97,5 +97,12 @@ Nokia +22% on NVIDIA investment.
 
 ---
 
-Related: [[NVIDIA]], [[Nokia]], [[Intel]], [[OpenAI]], [[AI21 Labs]], [[Jensen Huang]]
+## Related
+
+- [[NVIDIA]] — the kingmaker (capital deployment as signal)
+- [[Jensen Huang]] — strategist (directing investments)
+- [[Nokia]] — investee ($1B, 6G/telecom)
+- [[Intel]] — investee ($5B, foundry hedge)
+- [[OpenAI]] — investee ($100B commitment)
+- [[AI21 Labs]] — acquired (~$3B)
 

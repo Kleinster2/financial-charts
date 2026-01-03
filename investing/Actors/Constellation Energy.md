@@ -112,5 +112,14 @@ Nuclear + AI = powerful theme.
 
 ---
 
-Related: [[Microsoft]], [[Vistra]], [[NuScale]], [[Oklo]]
+## Related
+
+- [[Microsoft]] — customer ($1.6B TMI restart deal)
+- [[Vistra]] — peer (nuclear operator)
+- [[Cameco]] — supplier (nuclear fuel)
+- [[NuScale]] — adjacent (SMR developer)
+- [[Oklo]] — adjacent (SMR developer)
+- [[Nuclear power for AI]] — thesis context
+- [[Nuclear renaissance]] — industry context
+- [[Power constraints]] — nuclear addresses baseload need
 

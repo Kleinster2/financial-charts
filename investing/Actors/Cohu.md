@@ -98,4 +98,12 @@ Cohu is more specialized in handlers vs. the broader ATE players.
 
 ---
 
-Related: [[Foundry Wars]], [[Final test bottleneck]], [[ASE]], [[Advanced packaging]], [[Long OSAT and test equipment]]
+## Related
+
+- [[ASE]] — customer (OSAT using Cohu handlers)
+- [[Amkor]] — customer (OSAT)
+- [[Intel]] — customer (IDM)
+- [[Final test bottleneck]] — thesis context (AI packages stress test equipment)
+- [[Advanced packaging]] — driver (larger packages need new handlers)
+- [[Foundry Wars]] — context (foundry-agnostic beneficiary)
+- [[Long OSAT and test equipment]] — thesis

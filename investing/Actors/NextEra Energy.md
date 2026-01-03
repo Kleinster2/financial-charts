@@ -111,4 +111,10 @@ NextEra is the dominant US utility and renewable energy leader:
 
 ---
 
-Related: [[Power constraints]], [[AI hyperscalers]], [[Dominion Energy]], [[Constellation Energy]], [[Vistra]]
+## Related
+
+- [[Power constraints]] — thesis context (renewable PPAs for AI)
+- [[AI hyperscalers]] — customers (buying clean energy PPAs)
+- [[Dominion Energy]] — peer (utility with DC exposure)
+- [[Constellation Energy]] — peer (nuclear utility)
+- [[Vistra]] — peer (power for AI play)

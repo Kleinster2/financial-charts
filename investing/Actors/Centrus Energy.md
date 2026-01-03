@@ -105,4 +105,11 @@ If any of these succeed at scale, Centrus benefits.
 
 ---
 
-Related: [[Nuclear power for AI]], [[Cameco]], [[Oklo]], [[Power constraints]]
+## Related
+
+- [[Cameco]] — peer (uranium supply chain)
+- [[Oklo]] — customer (HALEU for Aurora reactor)
+- [[NuScale]] — potential customer (SMR developer)
+- [[Nuclear power for AI]] — thesis context
+- [[Nuclear renaissance]] — industry context
+- [[Power constraints]] — drives nuclear interest

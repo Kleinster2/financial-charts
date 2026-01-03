@@ -67,4 +67,10 @@ This is a "picks and shovels" angle:
 
 ---
 
-Related: [[Foundry Wars]], [[Advanced packaging]], [[NVIDIA]], [[AMD]]
+## Related
+
+- [[Cohu]] — beneficiary (Eclipse platform for AI testing)
+- [[ASE]] — beneficiary (OSAT, capex +$1B 2025)
+- [[Advanced packaging]] — upstream bottleneck
+- [[NVIDIA]] — customer (chips need final test)
+- [[AMD]] — customer (chips need final test)

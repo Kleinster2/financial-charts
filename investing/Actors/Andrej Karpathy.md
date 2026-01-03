@@ -114,5 +114,10 @@ AI to teach AI.
 
 ---
 
-Related: [[OpenAI]], [[Tesla]], [[Elon Musk]], [[Ilya Sutskever]]
+## Related
+
+- [[OpenAI]] — former (founding team, returned 2023)
+- [[Tesla]] — former (AI Director, built Autopilot)
+- [[Elon Musk]] — former boss at Tesla
+- [[Ilya Sutskever]] — peer (OpenAI co-founder)
 

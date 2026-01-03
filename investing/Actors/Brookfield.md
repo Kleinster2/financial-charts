@@ -80,4 +80,12 @@ Brookfield is generalist infrastructure; others more DC-focused.
 
 ---
 
-Related: [[AI infrastructure financing]], [[Blue Owl]], [[Blackstone]], [[DigitalBridge]], [[Power constraints]], [[Cameco]]
+## Related
+
+- [[Blackstone]] — peer (alternative asset manager)
+- [[Blue Owl]] — peer (AI infrastructure financing)
+- [[DigitalBridge]] — peer (digital infrastructure)
+- [[Cameco]] — co-investor (Westinghouse acquisition)
+- [[Power constraints]] — context (owns renewable assets)
+- [[AI infrastructure financing]] — thesis
+- [[Nuclear power for AI]] — exposure via Westinghouse

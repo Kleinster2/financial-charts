@@ -13,3 +13,11 @@ aliases: [Toyota Motor]
 - [[Automotive semiconductors]] demand driver
 - Partner in Japan semiconductor revival efforts
 - Invested in Rapidus consortium
+
+---
+
+## Related
+
+- [[Rapidus]] — investor (Japan semiconductor revival)
+- [[Japan Semiconductor Revival]] — context (participant)
+- [[Tesla]] — competitor (EV market)

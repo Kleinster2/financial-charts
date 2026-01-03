@@ -114,5 +114,12 @@ CloudHQ = largest single project.
 
 ---
 
-Related: [[Mexico Tech]], [[Equinix]], [[Digital Realty]], [[CoreWeave]]
+## Related
+
+- [[Querétaro]] — location (largest DC project in Mexico)
+- [[Mexico Tech]] — sovereign context
+- [[Equinix]] — competitor (data center operator)
+- [[Digital Realty]] — competitor (data center operator)
+- [[CoreWeave]] — peer (AI infrastructure developer)
+- [[Nearshoring thesis]] — demand driver
 

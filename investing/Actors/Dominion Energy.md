@@ -120,5 +120,14 @@ AI demand is bullish for utility capex.
 
 ---
 
-Related: [[Ashburn]], [[Amazon]], [[Microsoft]], [[Equinix]], [[NextEra Energy]]
+## Related
+
+- [[Ashburn]] — powers Data Center Alley
+- [[Amazon]] — customer (AWS US-East-1)
+- [[Microsoft]] — customer (Azure)
+- [[Google]] — customer (GCP)
+- [[Equinix]] — customer (DC operator)
+- [[Digital Realty]] — customer (DC operator)
+- [[NextEra Energy]] — peer (utility)
+- [[Power constraints]] — embodiment of grid limits
 

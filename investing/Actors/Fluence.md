@@ -121,4 +121,12 @@ Fluence = pure-play grid storage leader.
 
 ---
 
-Related: [[Tesla Energy]], [[NextEra Energy]], [[Crusoe Energy]], [[Power constraints]], [[AI hyperscalers]]
+## Related
+
+- [[Tesla Energy]] — competitor (Megapack)
+- [[NextEra Energy]] — customer (utility-scale)
+- [[Crusoe Energy]] — customer example (solar + storage)
+- [[Google]] — customer (312 MW storage capacity)
+- [[Power constraints]] — addresses (storage enables renewables)
+- [[AI hyperscalers]] — customers
+- [[Clean energy for AI]] — thesis context

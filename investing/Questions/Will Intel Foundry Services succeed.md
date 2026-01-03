@@ -39,4 +39,12 @@ More likely to fail than succeed. But if it works, it's transformational for Int
 
 ---
 
-Related: [[Foundry Wars]], [[Intel Foundry Services]], [[Intel]], [[How durable is TSMC's moat]], [[Can Samsung ever catch TSMC]]
+## Related
+
+- [[Intel Foundry Services]] — subject (credible third force?)
+- [[Intel]] — parent (IDM transformation challenge)
+- [[TSMC]] — incumbent (dominant position)
+- [[Samsung]] — peer competitor
+- [[CHIPS Act]] — enabler (US sovereignty angle)
+- [[How durable is TSMC's moat]] — related question
+- [[Can Samsung ever catch TSMC]] — related question

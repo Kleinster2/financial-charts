@@ -245,4 +245,14 @@ Mixed:
 
 *Updated 2026-01-01*
 
-Related: [[China]], [[Huawei]], [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[NVIDIA]], [[ASML]], [[N-2 rule]], [[CHIPS Act]], [[Naura Technology]], [[AMEC]], [[Long WFE]], [[China retaliatory toolkit]], [[Rare earth leverage]], [[Weaponized antitrust]]
+## Related
+
+- [[Huawei]] — target (Entity List)
+- [[SMIC]] — target (Entity List)
+- [[SK Hynix]] — affected (China fabs constrained)
+- [[Samsung]] — affected (China fabs constrained)
+- [[NVIDIA]] — constrained (AI chip sales restricted)
+- [[ASML]] — enforcer (EUV blocked)
+- [[Naura Technology]] — beneficiary (50% domestic mandate)
+- [[AMEC]] — beneficiary (50% domestic mandate)
+- [[China retaliatory toolkit]] — counter-measures

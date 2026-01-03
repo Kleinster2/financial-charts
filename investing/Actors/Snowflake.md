@@ -123,4 +123,10 @@ Burning cash to grow, unlike [[Palantir]].
 
 ---
 
-Related: [[Databricks]], [[Palantir]], [[Google]], [[Amazon]], [[Microsoft]]
+## Related
+
+- [[Databricks]] — competitor (lakehouse vs warehouse)
+- [[Palantir]] — partner (data + AI integration)
+- [[Google]] — competitor (BigQuery) + infra
+- [[Amazon]] — competitor (Redshift) + infra
+- [[Microsoft]] — competitor (Azure) + infra

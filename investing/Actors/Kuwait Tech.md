@@ -90,5 +90,10 @@ Kuwait has money but less tech ambition.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[UAE Tech]], [[Sovereign AI race]]
+## Related
+
+- [[Saudi Arabia Tech]] — GCC peer (more aggressive)
+- [[UAE Tech]] — GCC peer (more advanced)
+- [[Sovereign AI race]] — context (Kuwait lagging)
+- [[GCC tech race]] — regional context
 

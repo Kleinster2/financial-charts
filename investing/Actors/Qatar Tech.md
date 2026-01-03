@@ -96,5 +96,10 @@ Smaller but wealthier per capita.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[UAE G42]], [[Sovereign AI race]]
+## Related
+
+- [[Saudi Arabia Tech]] — GCC peer (larger, more aggressive)
+- [[UAE G42]] — GCC peer (more advanced AI)
+- [[Sovereign AI race]] — context (QIA tech investments)
+- [[GCC tech race]] — regional context
 

@@ -119,4 +119,10 @@ EML technology leadership = differentiated position.
 
 ---
 
-Related: [[Coherent]], [[Fabrinet]], [[Arista Networks]], [[NVIDIA]], [[AI hyperscalers]]
+## Related
+
+- [[Coherent]] — customer (transceiver maker)
+- [[Fabrinet]] — contract manufacturer
+- [[Arista Networks]] — adjacent (network OEM)
+- [[NVIDIA]] — adjacent (GPU clusters need optical)
+- [[AI hyperscalers]] — end customers (800G/1.6T demand)

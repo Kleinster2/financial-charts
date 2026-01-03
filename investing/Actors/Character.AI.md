@@ -121,4 +121,10 @@ Character.AI = character/roleplay specialist.
 
 ---
 
-Related: [[Noam Shazeer]], [[Google]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[Noam Shazeer]] — co-founder (Transformer paper co-author)
+- [[Google]] — former employer (left to start Character.AI)
+- [[OpenAI]] — competitor (ChatGPT)
+- [[Anthropic]] — competitor (Claude)
+- [[Agentic AI]] — adjacent trend (AI companions)

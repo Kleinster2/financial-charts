@@ -92,4 +92,14 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, SoftBank) �
 
 ---
 
-Related: [[AI infrastructure financing]], [[AI Race]], [[AI hyperscalers]], [[Power constraints]], [[Long Anthropic]], [[Model lab economics]], [[Blue Owl]], [[CoreWeave]], [[Blackstone]], [[Masayoshi Son]]
+## Related
+
+- [[AI infrastructure financing]] — mechanism (how the capital flows)
+- [[CoreWeave]] — fragile (CDS 773 bps, 42% default probability)
+- [[Oracle]] — fragile (CDS 124-139 bps, CEO selling)
+- [[Masayoshi Son]] — exposed (54.6% Arm concentration)
+- [[OpenAI]] — exposed ($115B losses through 2029)
+- [[Blue Owl]] — financier (pulling from Oracle deal)
+- [[Blackstone]] — financier (CoreWeave debt)
+- [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)
+- [[AI hyperscalers]] — context (capex sustainability questioned)

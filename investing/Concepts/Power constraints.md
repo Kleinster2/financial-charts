@@ -153,4 +153,13 @@ This is a **demand-side risk** for all AI chip theses:
 
 *Updated 2026-01-01*
 
-Related: [[Nuclear power for AI]], [[AI hyperscalers]], [[xAI]], [[Amazon]], [[Microsoft]], [[Meta]], [[Google]], [[Constellation Energy]], [[Vistra]], [[Dominion Energy]], [[NextEra Energy]], [[Bloom Energy]], [[TVA]], [[GE Vernova]], [[Siemens Energy]], [[AI infrastructure financing]]
+## Related
+
+- [[Nuclear power for AI]] — solution (baseload power)
+- [[AI hyperscalers]] — demand driver (69GW needed)
+- [[xAI]] — example (Colossus 2GW target)
+- [[Constellation Energy]] — beneficiary (TMI restart)
+- [[Vistra]] — beneficiary (Texas nuclear/gas)
+- [[TVA]] — enabler (xAI power source)
+- [[GE Vernova]] — supplier (turbines)
+- [[Thermal limits]] — related constraint (cooling)

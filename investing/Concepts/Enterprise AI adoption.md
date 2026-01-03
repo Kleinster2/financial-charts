@@ -94,4 +94,10 @@ They said the same about 2025. And 2024.
 
 ---
 
-Related: [[AI Race]], [[Model lab economics]], [[AI hyperscalers]]
+## Related
+
+- [[Agentic AI]] — exception (35% adoption, 66% seeing value)
+- [[Model lab economics]] — context (infrastructure vs application spend)
+- [[AI hyperscalers]] — infrastructure (compute, not applications)
+- [[Anysphere]] — beneficiary (Cursor, coding tools)
+- [[Anthropic]] — beneficiary (Claude Code, coding tools)

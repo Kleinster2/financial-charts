@@ -42,4 +42,13 @@ A competitor benefits not by being better than TSMC, but by being **available** 
 
 ---
 
-Related: [[Foundry Wars]], [[Yield as competitive moat]], [[Why TSMC can afford patience]], [[Leading edge race]], [[N-2 rule]]
+## Related
+
+- [[TSMC]] — beneficiary (lock-in through PDKs)
+- [[Process design kit]] — mechanism (technical integration)
+- [[Apple]] — example (A19 co-optimization gains)
+- [[NVIDIA]] — locked-in (designs around TSMC)
+- [[AMD]] — locked-in (designs around TSMC)
+- [[Samsung]] — alternative (gets overflow when TSMC full)
+- [[Yield as competitive moat]] — related concept
+- [[N-2 rule]] — context (capacity constraints)

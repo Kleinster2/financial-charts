@@ -98,4 +98,12 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 ---
 
-Related: [[AI infrastructure financing]], [[Blue Owl]], [[Blackstone]], [[Brookfield]], [[Equinix]], [[Digital Realty]]
+## Related
+
+- [[Blue Owl]] — competitor (AI infrastructure financing)
+- [[Blackstone]] — competitor (QTS, diversified)
+- [[Brookfield]] — competitor (infrastructure, diversified)
+- [[Equinix]] — investee type (DC operator)
+- [[Digital Realty]] — investee type (DC operator)
+- [[AI infrastructure financing]] — thesis context
+- [[Scala Data Centers]] — portfolio company (LatAm)

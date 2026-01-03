@@ -144,7 +144,16 @@ Google defection would be material.
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[Broadcom]], [[TSMC]], [[Hyperscaler chip roadmap]], [[Long TSMC]], [[Long memory]]
+## Related
+
+- [[Broadcom]] — subject (ASIC design dominance)
+- [[TSMC]] — partner (all Broadcom chips fabbed there)
+- [[Google]] — customer ($50B F27E projected)
+- [[OpenAI]] — customer ($10B deal, Titan chip)
+- [[MediaTek]] — risk (emerging disintermediation)
+- [[Hyperscaler chip roadmap]] — context (customer ASIC programs)
+- [[Long TSMC]] — complementary thesis
+- [[Long memory]] — complementary thesis (ASICs need HBM)
 
 ---
 

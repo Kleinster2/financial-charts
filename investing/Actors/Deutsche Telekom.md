@@ -82,5 +82,10 @@ Most valuable asset is American.
 
 ---
 
-Related: [[T-Mobile]], [[Nokia]], [[Vodafone]]
+## Related
+
+- [[T-Mobile]] — subsidiary (50%+, crown jewel)
+- [[Nokia]] — supplier (network equipment)
+- [[Vodafone]] — competitor (European telecom)
+- [[AT&T]] — competitor (US via T-Mobile)
 

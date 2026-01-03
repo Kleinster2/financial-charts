@@ -84,4 +84,11 @@ Clean energy = potential AI customer appeal.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Riot Platforms]], [[Marathon]]
+## Related
+
+- [[IREN]] — competitor, peer (leading pivot)
+- [[Hut 8]] — competitor, peer (advanced pivot)
+- [[Riot Platforms]] — competitor, peer
+- [[Marathon Digital]] — competitor, peer
+- [[Crypto-to-AI pivot]] — thesis context
+- [[Clean energy for AI]] — differentiator (clean power focus)

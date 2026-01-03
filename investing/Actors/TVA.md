@@ -124,4 +124,10 @@ TVA actively recruiting data centers:
 
 ---
 
-Related: [[Power constraints]], [[xAI]], [[Elon Musk]], [[Nuclear power for AI]], [[AI hyperscalers]]
+## Related
+
+- [[Power constraints]] — thesis (TVA has capacity)
+- [[xAI]] — customer (Colossus power source)
+- [[Elon Musk]] — connection (xAI founder)
+- [[Nuclear power for AI]] — context (40% nuclear mix)
+- [[AI hyperscalers]] — customers (recruiting DCs)

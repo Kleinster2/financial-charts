@@ -77,3 +77,14 @@ This was the first nationalization of a Chinese-owned semiconductor company in E
 - Chinese ownership of Western assets now carries seizure risk
 - See [[Export controls]] for technology restrictions
 - See [[Dutch seizure of Nexperia]] for asset seizure precedent
+
+---
+
+## Related
+
+- [[Export controls]] — related tool (technology restrictions)
+- [[Dutch seizure of Nexperia]] — precedent (first EU seizure 2025)
+- [[Nexperia]] — target (seized from Wingtech)
+- [[Qualcomm NXP blocked deal]] — example (China ran out clock)
+- [[China retaliatory toolkit]] — China's response mechanisms
+- [[CHIPS Act]] — Western defensive measure

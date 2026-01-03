@@ -119,4 +119,11 @@ IREN = clear leader in pivot execution.
 
 ---
 
-Related: [[Microsoft]], [[Hut 8]], [[Core Scientific]], [[Cipher Mining]], [[NVIDIA]]
+## Related
+
+- [[Microsoft]] — anchor customer ($9.7B, 5-year deal)
+- [[Hut 8]] — competitor, peer (crypto-to-AI)
+- [[Core Scientific]] — competitor, peer
+- [[Cipher Mining]] — competitor, peer
+- [[NVIDIA]] — GPU supplier (4,300+ deployed)
+- [[Crypto-to-AI pivot]] — thesis context (#1 performer)

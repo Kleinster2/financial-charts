@@ -40,4 +40,12 @@ InP (Indium Phosphide) substrates for optical interconnects:
 
 ---
 
-Related: [[Foundry Wars]], [[Power constraints]], [[Advanced packaging]], [[Memory shortage 2025-2026]], [[Final test bottleneck]], [[TSMC]]
+## Related
+
+- [[Power constraints]] — layer (44GW US shortfall, hardest)
+- [[Advanced packaging]] — layer (CoWoS tight)
+- [[Memory shortage 2025-2026]] — layer (HBM fully contracted)
+- [[Final test bottleneck]] — layer (hidden constraint)
+- [[TSMC]] — layer (sub-3nm capacity tight)
+- [[Gallium]] — material (China export controls)
+- [[Germanium]] — material (China export controls)

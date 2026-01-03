@@ -88,4 +88,13 @@ CoWoS capacity so tight that tier-2 chip makers exploring [[Intel]]'s EMIB:
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[SK Hynix]], [[Customer lock-in via co-design]], [[Leading edge race]]
+## Related
+
+- [[TSMC]] — leader (CoWoS monopoly for AI accelerators)
+- [[SK Hynix]] — challenger (Indiana 2.5D line 2028)
+- [[Intel]] — alternative (EMIB for tier-2 customers)
+- [[Samsung]] — player (packaging but trails integration)
+- [[ASE]] — overflow (if Intel misses window)
+- [[Customer lock-in via co-design]] — mechanism (CoWoS adds switching costs)
+- [[CHIPS Act]] — enabler (US packaging investment)
+- [[N-2 rule]] — context (constraints on TSMC packaging)

@@ -116,4 +116,12 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 
 ---
 
-Related: [[Blue Owl]], [[AI infrastructure financing]], [[Power constraints]], [[CoreWeave]], [[AI hyperscalers]]
+## Related
+
+- [[Blue Owl]] — financing partner ($15B Abilene JV)
+- [[CoreWeave]] — competitor (GPU cloud)
+- [[Lambda Labs]] — competitor (GPU cloud)
+- [[AI infrastructure financing]] — thesis context
+- [[Power constraints]] — competitive advantage (stranded gas = cheap)
+- [[AI hyperscalers]] — compete for same demand
+- [[Crypto-to-AI pivot]] — similar journey (started with Bitcoin)

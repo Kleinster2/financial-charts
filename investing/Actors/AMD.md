@@ -91,4 +91,13 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 
 ---
 
-Related: [[Lisa Su]], [[Foundry Wars]], [[NVIDIA]], [[CUDA moat]], [[Samsung]], [[TSMC]], [[Leading edge race]]
+## Related
+
+- [[Lisa Su]] — CEO
+- [[NVIDIA]] — competitor (GPU/AI)
+- [[Intel]] — competitor (CPU)
+- [[CUDA moat]] — competitive barrier in AI
+- [[Samsung]] — potential 2nm foundry
+- [[TSMC]] — primary foundry
+- [[Foundry Wars]] — manufacturing context
+- [[Leading edge race]] — node competition

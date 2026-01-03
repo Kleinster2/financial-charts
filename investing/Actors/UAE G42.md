@@ -126,5 +126,10 @@ G42 = more operational.
 
 ---
 
-Related: [[Saudi PIF]], [[Microsoft]], [[Cerebras]], [[OpenAI]]
+## Related
+
+- [[Saudi PIF]] — competitor (GCC AI race)
+- [[Microsoft]] — investor ($1.5B, Azure partnership)
+- [[Cerebras]] — partner (Condor Galaxy cluster)
+- [[Sovereign AI race]] — context (leading in GCC)
 

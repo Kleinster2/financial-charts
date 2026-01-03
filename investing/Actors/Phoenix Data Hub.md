@@ -111,5 +111,11 @@ Sun Belt DC expansion:
 
 ---
 
-Related: [[Ashburn]], [[Columbus Ohio]], [[TSMC]], [[Microsoft]]
+## Related
+
+- [[Ashburn]] — peer hub (largest US DC cluster)
+- [[Columbus Ohio]] — peer hub (Midwest alternative)
+- [[TSMC]] — synergy (Arizona fab creates chip+DC cluster)
+- [[Microsoft]] — major player (massive Phoenix expansion)
+- [[Power constraints]] — context (solar advantage)
 

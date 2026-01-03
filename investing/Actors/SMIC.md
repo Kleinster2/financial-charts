@@ -94,4 +94,10 @@ Lost access to most Western customers due to Entity List status.
 
 *Updated 2025-12-30*
 
-Related: [[China]], [[Huawei]], [[Export controls]], [[TSMC]], [[Foundry Wars]], [[ASML]]
+## Related
+
+- [[Huawei]] — customer (Kirin chips)
+- [[Export controls]] — constraint (Entity List)
+- [[TSMC]] — competitor (4-5 years behind)
+- [[Foundry Wars]] — context (China's flagship)
+- [[ASML]] — supplier (EUV blocked, DUV only)

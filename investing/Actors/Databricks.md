@@ -149,4 +149,12 @@ Databricks = Switzerland of data (runs on all clouds).
 
 ---
 
-Related: [[Snowflake]], [[Palantir]], [[Anthropic]], [[OpenAI]], [[a16z]], [[Tiger Global]]
+## Related
+
+- [[Snowflake]] — competitor (data warehouse)
+- [[Palantir]] — competitor (AI applications)
+- [[Anthropic]] — partner (models on platform)
+- [[OpenAI]] — partner (models on platform)
+- [[a16z]] — investor
+- [[Tiger Global]] — investor
+- [[Blackstone]] — investor

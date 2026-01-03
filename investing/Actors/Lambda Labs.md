@@ -104,4 +104,10 @@ Lambda wins on developer experience for small-to-mid workloads.
 
 ---
 
-Related: [[CoreWeave]], [[Crusoe Energy]], [[NVIDIA]], [[AI infrastructure financing]], [[AI hyperscalers]]
+## Related
+
+- [[CoreWeave]] — competitor (GPU cloud)
+- [[Crusoe Energy]] — competitor (GPU cloud)
+- [[NVIDIA]] — supplier (H100, A100)
+- [[AI infrastructure financing]] — thesis context
+- [[AI hyperscalers]] — competes for same workloads

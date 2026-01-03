@@ -120,4 +120,9 @@ See [[CoreWeave]] for combined entity.
 
 ---
 
-Related: [[CoreWeave]], [[OpenAI]], [[Anthropic]], [[Hugging Face]]
+## Related
+
+- [[CoreWeave]] — acquirer ($1.7B, March 2025)
+- [[OpenAI]] — customer (experiment tracking)
+- [[Anthropic]] — customer (ML workflow)
+- [[Hugging Face]] — customer (model development)

@@ -111,4 +111,13 @@ KLA dominates high-end inspection/metrology.
 
 ---
 
-Related: [[Foundry Wars]], [[Long WFE]], [[ASML]], [[Lam Research]], [[Applied Materials]], [[TSMC]]
+## Related
+
+- [[ASML]] — peer (WFE equipment)
+- [[Lam Research]] — peer (deposition/etch vs inspection)
+- [[Applied Materials]] — peer/competitor (growing inspection)
+- [[TSMC]] — major customer
+- [[Samsung]] — customer
+- [[Intel]] — customer
+- [[Foundry Wars]] — driver of inspection demand
+- [[Long WFE]] — thesis

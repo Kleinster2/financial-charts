@@ -116,5 +116,11 @@ Both hardware and IP revenue.
 
 ---
 
-Related: [[NVIDIA]], [[AMD]], [[Cerebras]], [[Groq]], [[SambaNova]]
+## Related
+
+- [[NVIDIA]] — competitor (CUDA lock-in target)
+- [[AMD]] — connection (Jim Keller origin)
+- [[Cerebras]] — peer (alternative AI chip)
+- [[Groq]] — peer (inference chip)
+- [[SambaNova]] — peer (enterprise AI chip)
 

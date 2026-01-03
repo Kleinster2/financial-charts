@@ -106,5 +106,15 @@ Hyperscalers paying premium for powered land.
 
 ---
 
-Related: [[IREN]], [[Hut 8]], [[Core Scientific]], [[CoreWeave]], [[Microsoft]]
+## Related
+
+- [[IREN]] — winner (Microsoft $9.7B deal, +300%)
+- [[Hut 8]] — winner (Fluidstack/Google $7B)
+- [[Core Scientific]] — winner (CoreWeave $3.5B)
+- [[TeraWulf]] — winner (Fluidstack 200MW)
+- [[Cipher Mining]] — pivoting (+230%)
+- [[Marathon Digital]] — loser (Bitcoin pure-play)
+- [[Bitdeer]] — loser (ASIC focus, -50%)
+- [[CoreWeave]] — customer (hyperscaler buying miner capacity)
+- [[Microsoft]] — customer (buying IREN capacity)
 

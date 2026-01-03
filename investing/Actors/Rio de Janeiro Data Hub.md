@@ -100,5 +100,10 @@ Rio = AI specialist; São Paulo = generalist.
 
 ---
 
-Related: [[Brazil AI]], [[São Paulo Data Hub]], [[Scala Data Centers]]
+## Related
+
+- [[Brazil AI]] — national context (emerging AI hub)
+- [[São Paulo Data Hub]] — peer (dominant but slower growth)
+- [[Scala Data Centers]] — developer (Rio AI City project)
+- [[Submarine Cables]] — infrastructure (trans-Atlantic landing)
 

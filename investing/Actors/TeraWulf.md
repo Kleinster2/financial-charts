@@ -99,4 +99,9 @@ TeraWulf = New York power play.
 
 ---
 
-Related: [[Hut 8]], [[IREN]], [[Core Scientific]], [[Cipher Mining]]
+## Related
+
+- [[Hut 8]] — peer (Fluidstack partner)
+- [[IREN]] — peer (leading AI pivot)
+- [[Core Scientific]] — peer (CoreWeave partner)
+- [[Crypto-to-AI pivot]] — thesis context

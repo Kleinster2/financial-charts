@@ -133,4 +133,15 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 
 ---
 
-Related: [[AI infrastructure financing risk]], [[AI infrastructure financing]], [[NVIDIA]], [[Microsoft]], [[Blue Owl]], [[Blackstone]]
+## Related
+
+- [[NVIDIA]] — investor, supplier (strategic backer)
+- [[Microsoft]] — major customer (65% of revenue)
+- [[Core Scientific]] — partner ($3.5B hosting deal)
+- [[Blue Owl]] — financing partner
+- [[Blackstone]] — financing partner ($7.5B+ debt)
+- [[Lambda Labs]] — competitor (GPU cloud)
+- [[Crusoe Energy]] — competitor (GPU cloud)
+- [[AI infrastructure financing risk]] — thesis context (canary in coal mine)
+- [[AI infrastructure financing]] — thesis context
+- [[AI hyperscalers]] — compete for GPU demand

@@ -142,4 +142,11 @@ Enterprise = validation + revenue stability.
 
 ---
 
-Related: [[Anysphere]], [[Magic AI]], [[Lux Capital]], [[Anthropic]], [[OpenAI]]
+## Related
+
+- [[Anysphere]] — competitor (Cursor vs Devin paradigm)
+- [[Magic AI]] — competitor (AI coding)
+- [[Lux Capital]] — investor
+- [[Anthropic]] — potential competitor (Claude for coding)
+- [[OpenAI]] — potential competitor (GPT for coding)
+- [[Agentic AI]] — thesis context (autonomous agents)

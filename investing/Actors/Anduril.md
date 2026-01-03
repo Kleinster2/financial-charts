@@ -153,5 +153,12 @@ Autonomous systems depend on rare earth permanent magnets:
 
 ---
 
-Related: [[Palantir]], [[Shield AI]], [[NVIDIA]], [[Lockheed Martin]], [[Rare earth leverage]], [[China retaliatory toolkit]]
+## Related
+
+- [[Palantir]] — defense tech peer
+- [[Shield AI]] — competitor (autonomous defense)
+- [[Lockheed Martin]] — competitor (legacy defense)
+- [[NVIDIA]] — supplier (AI compute)
+- [[Rare earth leverage]] — supply chain risk (drone magnets)
+- [[China retaliatory toolkit]] — REE military denial risk
 

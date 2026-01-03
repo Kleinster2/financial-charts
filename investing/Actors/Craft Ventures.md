@@ -63,4 +63,10 @@ Portfolio companies benefit from policy decisions he influences.
 
 *Created 2026-01-01*
 
-Related: [[Groq]], [[NVIDIA]], [[Benchmark]], [[Export controls]], [[Elon Musk]]
+## Related
+
+- [[Groq]] — portfolio company (sold to NVIDIA $20B)
+- [[NVIDIA]] — acquired Groq (David Sacks may have influenced)
+- [[Benchmark]] — peer VC (similar China controversy)
+- [[Export controls]] — David Sacks shaping policy as AI Czar
+- [[Elon Musk]] — political ally

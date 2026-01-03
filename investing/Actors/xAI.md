@@ -115,4 +115,14 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 ---
 
-Related: [[Elon Musk]], [[Tesla]], [[Samsung]], [[NVIDIA]], [[TSMC]], [[AI hyperscalers]], [[Microsoft]], [[TVA]], [[Power constraints]]
+## Related
+
+- [[Elon Musk]] — founder and controller
+- [[Tesla]] — Musk connection (Samsung anchor potential)
+- [[Samsung]] — potential foundry (Korea thesis)
+- [[NVIDIA]] — supplier + investor (H100/Blackwell GPUs)
+- [[TSMC]] — upstream (via NVIDIA)
+- [[AI hyperscalers]] — category (tier 2)
+- [[Microsoft]] — competitor (Macrohard jab)
+- [[TVA]] — power source (Colossus location)
+- [[Power constraints]] — context (2GW target)

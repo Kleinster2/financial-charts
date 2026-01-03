@@ -100,5 +100,10 @@ Coordinates national AI efforts.
 
 ---
 
-Related: [[Saudi Arabia Tech]], [[Saudi PIF]], [[Sovereign AI race]]
+## Related
+
+- [[Saudi Arabia Tech]] — national context (shapes ecosystem)
+- [[Saudi PIF]] — partner (capital allocation)
+- [[Sovereign AI race]] — context (regulatory/strategy body)
+- [[NEOM]] — partner (smart city AI)
 

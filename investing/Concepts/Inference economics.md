@@ -84,4 +84,12 @@ Inference becomes like cloud compute — commodity pricing, winner-take-most at 
 
 ---
 
-Related: [[AI Race]], [[Model lab economics]], [[Open source commoditization]], [[NVIDIA]]
+## Related
+
+- [[NVIDIA]] — player (acquired Groq $20B for inference)
+- [[Groq]] — acquired (LPUs for fast inference)
+- [[OpenAI]] — exposed (GPT-5 $30/$60 vs DeepSeek $0.27/$1.10)
+- [[Anthropic]] — exposed (API pricing pressure)
+- [[Open source commoditization]] — driver (DeepSeek, Llama, Mistral)
+- [[Model lab economics]] — context (training vs inference margins)
+- [[CUDA moat]] — context (NVIDIA trying to own inference)

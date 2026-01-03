@@ -111,5 +111,10 @@ Direct Asia connectivity = unique in LatAm.
 
 ---
 
-Related: [[São Paulo Data Hub]], [[Querétaro]], [[Brazil AI]]
+## Related
+
+- [[São Paulo Data Hub]] — peer (LatAm's largest)
+- [[Querétaro]] — peer (Mexico's hub)
+- [[Brazil AI]] — peer market (LatAm competition)
+- [[Submarine Cables]] — infrastructure (Asia-Pacific route)
 

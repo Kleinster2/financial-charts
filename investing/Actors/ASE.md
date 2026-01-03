@@ -86,4 +86,13 @@ ASE is foundry-agnostic. Whoever wins foundry, ASE still gets the packaging/test
 
 ---
 
-Related: [[Foundry Wars]], [[Final test bottleneck]], [[Advanced packaging]], [[TSMC]], [[NVIDIA]], [[Cohu]]
+## Related
+
+- [[TSMC]] — customer (tests/packages TSMC wafers), competitor (CoWoS)
+- [[NVIDIA]] — customer (AI chip packaging/test)
+- [[Amkor]] — competitor (#2 OSAT)
+- [[Cohu]] — test equipment supplier
+- [[Advanced packaging]] — key opportunity
+- [[Final test bottleneck]] — key opportunity
+- [[Long OSAT and test equipment]] — thesis
+- [[Foundry Wars]] — context (foundry-agnostic beneficiary)

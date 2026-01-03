@@ -141,5 +141,12 @@ Complementary semiconductor powers.
 
 ---
 
-Related: [[TSMC]], [[MediaTek]], [[ASE]], [[South Korea Tech]], [[NVIDIA]], [[Apple]]
+## Related
+
+- [[TSMC]] — national champion (foundry leader)
+- [[MediaTek]] — key company (IC design)
+- [[ASE]] — key company (OSAT leader)
+- [[South Korea Tech]] — peer (complementary strengths)
+- [[NVIDIA]] — customer (TSMC dependent)
+- [[Apple]] — customer (TSMC dependent)
 

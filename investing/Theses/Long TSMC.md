@@ -107,7 +107,14 @@ Can hold both views — one is absolute, one is relative.
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[Apple]], [[Customer lock-in via co-design]], [[Short TSMC long Korea]]
+## Related
+
+- [[TSMC]] — subject (co-design moat)
+- [[Apple]] — customer (prime beneficiary, A19 evidence)
+- [[NVIDIA]] — customer (2nm capacity locked)
+- [[Customer lock-in via co-design]] — mechanism (PDKs, accumulated knowledge)
+- [[Process design kit]] — technical detail (switching costs)
+- [[Short TSMC long Korea]] — tension (relative value alternative)
 
 ---
 

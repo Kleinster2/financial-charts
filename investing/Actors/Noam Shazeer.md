@@ -100,4 +100,9 @@ One of ~10 people who created modern AI.
 
 ---
 
-Related: [[Character.AI]], [[Google]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[Character.AI]] — co-founder (current company)
+- [[Google]] — former employer (14 years, Transformer paper)
+- [[OpenAI]] — peer (uses Transformer architecture he co-invented)
+- [[Anthropic]] — peer (uses Transformer architecture)

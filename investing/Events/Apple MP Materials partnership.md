@@ -115,3 +115,14 @@ Apple saw the writing on the wall. See [[Rare earth leverage]], [[China retaliat
 - [MP Materials Investor News](https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-and-Apple-Announce-500-Million-Partnership-to-Produce-Recycled-Rare-Earth-Magnets-in-the-United-States/)
 - [CNBC](https://www.cnbc.com/2025/07/15/apple-mp-materials-magnets-rare-earths.html)
 - [Fortune](https://fortune.com/2025/07/15/apple-mp-materials-rare-earth-deal-china/)
+
+---
+
+## Related
+
+- [[Apple]] — buyer ($500M commitment)
+- [[MP Materials]] — supplier (Mountain Pass + Fort Worth)
+- [[Rare earth leverage]] — driver (China controls prompted deal)
+- [[Rare earth elements]] — context (light REEs only)
+- [[Dysprosium]] — gap (heavy REEs still China-sourced)
+- [[China retaliatory toolkit]] — risk (what Apple hedges against)

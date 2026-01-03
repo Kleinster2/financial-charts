@@ -123,5 +123,10 @@ Amazon = anchor investor.
 
 ---
 
-Related: [[Amazon]], [[Figure AI]], [[Tesla]], [[Boston Dynamics]]
+## Related
+
+- [[Amazon]] — anchor investor and customer
+- [[Figure AI]] — competitor (humanoid robots)
+- [[Tesla]] — competitor (Optimus)
+- [[Boston Dynamics]] — competitor (proven tech)
 

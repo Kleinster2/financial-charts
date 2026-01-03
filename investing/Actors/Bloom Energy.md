@@ -131,4 +131,11 @@ Bloom wins on speed and reliability when grid unavailable.
 
 ---
 
-Related: [[Power constraints]], [[AI hyperscalers]], [[Dominion Energy]], [[Nuclear power for AI]], [[AI infrastructure financing]]
+## Related
+
+- [[Power constraints]] — key thesis (Bloom solves grid gap)
+- [[AI hyperscalers]] — customers (data center power)
+- [[Dominion Energy]] — peer (utility power provider)
+- [[Nuclear power for AI]] — alternative power solution
+- [[AI infrastructure financing]] — context
+- [[Clean energy for AI]] — Bloom = cleaner than diesel
