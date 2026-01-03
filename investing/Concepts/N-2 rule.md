@@ -43,4 +43,11 @@ Will U.S. pressure force Taiwan to relax N-2? Or does Taiwan hold firm as insura
 
 *Updated 2025-12-30*
 
-Related: [[Foundry Wars]], [[Taiwan concentration risk]], [[TSMC Arizona expansion]], [[Leading edge race]], [[Export controls]], [[China]]
+## Related
+
+- [[TSMC]] — constrained (Arizona can't do leading edge)
+- [[TSMC Arizona expansion]] — limited (only N-2 nodes)
+- [[Samsung]] — beneficiary (no N-2 constraint)
+- [[Intel Foundry Services]] — beneficiary (domestic alternative)
+- [[Taiwan concentration risk]] — driver (Taiwan protects leverage)
+- [[Leading edge race]] — context (creates opening for competitors)

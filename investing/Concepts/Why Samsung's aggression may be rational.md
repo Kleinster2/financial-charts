@@ -27,4 +27,10 @@ The [[Samsung Taylor pivot]] looks like recklessness. It may be **rational asymm
 
 ---
 
-Related: [[Foundry Wars]], [[Why TSMC can afford patience]], [[Samsung Taylor pivot]]
+## Related
+
+- [[Samsung]] — subject (~12% vs TSMC's ~60%)
+- [[TSMC]] — incumbent (patience is affordable from #1)
+- [[Samsung Taylor pivot]] — example (leapfrog = rational asymmetric bet)
+- [[Why TSMC can afford patience]] — counterpoint
+- [[Execution risk in foundries]] — trade-off (high variance acceptable)

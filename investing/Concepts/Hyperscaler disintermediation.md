@@ -153,5 +153,15 @@ Wireless 5G/6G = telecom's defensible moat.
 
 ---
 
-Related: [[Submarine Cables]], [[Project Waterworth]], [[Google Pacific Connect]], [[Nokia]], [[T-Mobile]]
+## Related
+
+- [[Submarine Cables]] — infrastructure (hyperscalers building 59+ cables)
+- [[Project Waterworth]] — example (Meta 50,000 km, 100% owned)
+- [[Google Pacific Connect]] — example (42,500 km)
+- [[Google]] — builder (Pacific Connect, global network)
+- [[Meta]] — builder (Waterworth, cable empire)
+- [[Nokia]] — adapter (AI-RAN enables telecom defense)
+- [[T-Mobile]] — adapter (AI-RAN partner with Nokia/NVIDIA)
+- [[Telefónica]] — adapter (Telxius operates for hyperscalers)
+- [[NVIDIA]] — enabler (AI-RAN chips)
 

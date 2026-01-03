@@ -123,5 +123,12 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 
 ---
 
-Related: [[Mexico Tech]], [[Querétaro]], [[CloudHQ]], [[QSM Semiconductor]], [[Amazon]]
+## Related
+
+- [[Mexico Tech]] — beneficiary (biggest winner of US-China tensions)
+- [[Querétaro]] — hub (65% of Mexico DC capacity)
+- [[CloudHQ]] — investor ($4.8B Querétaro)
+- [[Amazon]] — investor ($5B AWS Mexico)
+- [[Microsoft]] — investor ($1.3B+ Mexico)
+- [[QSM Semiconductor]] — player (first Mexico fab)
 

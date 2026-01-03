@@ -28,4 +28,9 @@ Node lag is a **feature**, not a failure. It's deliberate risk management that c
 
 ---
 
-Related: [[Foundry Wars]], [[Why TSMC can afford patience]], [[Execution risk in foundries]]
+## Related
+
+- [[TSMC]] — practitioner (deliberate 1-2 node lag overseas)
+- [[Samsung Taylor pivot]] — contrast (leapfrog to 2nm mid-construction)
+- [[Why TSMC can afford patience]] — context (dominance enables patience)
+- [[Execution risk in foundries]] — rationale (reduces geographic risk)

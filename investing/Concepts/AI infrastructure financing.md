@@ -177,4 +177,17 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 
 *Updated 2026-01-01*
 
-Related: [[AI infrastructure financing risk]], [[Blue Owl]], [[Blackstone]], [[Brookfield]], [[DigitalBridge]], [[CoreWeave]], [[Crusoe Energy]], [[Lambda Labs]], [[Equinix]], [[Digital Realty]], [[AI hyperscalers]], [[Power constraints]]
+## Related
+
+- [[AI infrastructure financing risk]] — counterpoint (circular flows, cascade risk)
+- [[Blue Owl]] — financier ($34B digital infra, Meta $27B deal)
+- [[Blackstone]] — financier (QTS, CoreWeave $7.5B)
+- [[Brookfield]] — financier (infrastructure focus)
+- [[DigitalBridge]] — financier (pure-play digital infra)
+- [[CoreWeave]] — borrower (Blackstone debt)
+- [[Crusoe Energy]] — borrower (JPMorgan $2.3B)
+- [[Equinix]] — REIT (colocation, interconnection)
+- [[Digital Realty]] — REIT (wholesale, hyperscale)
+- [[Constellation Energy]] — beneficiary (power for DCs)
+- [[Vistra]] — beneficiary (power for DCs)
+- [[Power constraints]] — limitation (capital alone isn't enough)

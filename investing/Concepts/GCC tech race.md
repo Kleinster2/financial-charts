@@ -107,5 +107,16 @@ G42 divesting Huawei = template.
 
 ---
 
-Related: [[UAE Tech]], [[Saudi Arabia Tech]], [[Qatar Tech]], [[Sovereign AI race]], [[NVIDIA]]
+## Related
+
+- [[UAE Tech]] — leader (G42, Falcon LLM, Microsoft $1.5B)
+- [[UAE G42]] — executor (most advanced GCC AI)
+- [[Saudi Arabia Tech]] — capital leader ($100B AI fund)
+- [[Saudi PIF]] — funder ($930B sovereign wealth)
+- [[Qatar Tech]] — player (research, Arabic NLP)
+- [[Kuwait Tech]] — player (telecom focus, Zain)
+- [[Bahrain Tech]] — player (fintech niche)
+- [[Oman Tech]] — player (infrastructure, cables)
+- [[Sovereign AI race]] — context (nations as AI actors)
+- [[NVIDIA]] — supplier (sells to all GCC states)
 

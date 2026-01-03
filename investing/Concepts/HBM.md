@@ -51,3 +51,14 @@ Only 3 suppliers:
 - [[TSMC]]: CoWoS packaging for HBM integration
 - Equipment: [[ASE]], testers, advanced packaging tools
 - End demand: [[NVIDIA]], [[AMD]], [[Broadcom]] custom silicon
+
+---
+
+## Related
+
+- [[SK Hynix]] — supplier (#1 HBM)
+- [[Samsung]] — supplier (#2 HBM)
+- [[Micron]] — supplier (#3 HBM)
+- [[Memory shortage 2025-2026]] — context (HBM demand causing shortage)
+- [[Advanced packaging]] — requirement (CoWoS for integration)
+- [[NVIDIA]] — customer (primary HBM buyer)

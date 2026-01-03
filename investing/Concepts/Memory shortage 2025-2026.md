@@ -134,4 +134,11 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 *Updated 2026-01-01*
 
-Related: [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[Export controls]], [[CXMT]], [[YMTC]]
+## Related
+
+- [[SK Hynix]] — beneficiary (HBM leader, pricing power)
+- [[Samsung]] — beneficiary (memory margins expand)
+- [[Micron]] — beneficiary (same dynamics)
+- [[Export controls]] — driver (China fabs constrained)
+- [[Memory shortage victims]] — losers (OEMs, consumers)
+- [[HBM]] — cause (HBM cannibalizes commodity DRAM)

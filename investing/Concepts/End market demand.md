@@ -93,4 +93,11 @@ When inventory normalizes, demand flows through to the supply chain. Bullish for
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[AI hyperscalers]], [[Long TSMC]], [[Long memory]], [[Long WFE]], [[Long OSAT and test equipment]]
+## Related
+
+- [[AI hyperscalers]] — driver (15% of wafers, 50% of incremental demand)
+- [[TSMC]] — prioritizes AI chip customers
+- [[SK Hynix]] — HBM cannibalizes commodity DRAM
+- [[ASML]] — EUV demand from leading edge logic
+- [[ASE]] — expanding AI/HPC packaging
+- [[Automotive semiconductors]] — segment (17%, settling)

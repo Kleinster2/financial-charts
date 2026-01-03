@@ -93,4 +93,9 @@ SLURM acquisition is a defensive move — NVIDIA locking down another layer befo
 
 ---
 
-Related: [[Foundry Wars]], [[AI Race]], [[NVIDIA]], [[AMD]], [[Customer lock-in via co-design]]
+## Related
+
+- [[NVIDIA]] — owner (CUDA software ecosystem)
+- [[AMD]] — challenger (ROCm, NodAI acquisition)
+- [[Customer lock-in via co-design]] — mechanism (same dynamic as foundry PDKs)
+- [[Process design kit]] — analogy (switching costs from accumulated knowledge)

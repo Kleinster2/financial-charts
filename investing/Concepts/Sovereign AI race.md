@@ -90,5 +90,11 @@ G42 divested Huawei to get Microsoft deal.
 
 ---
 
-Related: [[Saudi PIF]], [[UAE G42]], [[Japan Semiconductor Revival]], [[India AI]], [[Brazil AI]], [[NVIDIA]]
+## Related
+
+- [[Saudi PIF]] — player ($100B+ AI investment)
+- [[Saudi Arabia Tech]] — national context
+- [[UAE G42]] — player (most advanced in GCC)
+- [[Japan Semiconductor Revival]] — player (Rapidus)
+- [[NVIDIA]] — enabler (sells to all, kingmaker)
 

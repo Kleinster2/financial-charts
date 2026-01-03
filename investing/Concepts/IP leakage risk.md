@@ -56,4 +56,10 @@ The U.S. can ban EUV machines to China. It cannot ban notebooks.
 
 ---
 
-Related: [[Foundry Wars]], [[Export controls]], [[Samsung]], [[SK Hynix]]
+## Related
+
+- [[Samsung]] — victim (DRAM secrets leaked to CXMT)
+- [[SK Hynix]] — vulnerable (similar China operations)
+- [[TSMC]] — exposed (less China, but Taiwan employees)
+- [[Export controls]] — limitation (controls hardware, not knowledge)
+- [[Short TSMC long Korea]] — context (affects Korea memory advantage)

@@ -151,7 +151,16 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 
 *Updated 2026-01-01*
 
-Related: [[Power constraints]], [[AI hyperscalers]], [[Microsoft]], [[Amazon]], [[Google]], [[Oracle]], [[Sam Altman]], [[Constellation Energy]], [[Oklo]], [[Cameco]], [[TAE Technologies]], [[Helion Energy]]
+## Related
+
+- [[Power constraints]] — context (44GW gap to close)
+- [[Constellation Energy]] — player (TMI restart, largest fleet)
+- [[Vistra]] — player (Texas nuclear/gas)
+- [[Oklo]] — player (Sam Altman SMR bet)
+- [[NuScale]] — player (SMR peer)
+- [[Cameco]] — upstream (uranium)
+- [[Microsoft]] — customer (TMI deal)
+- [[Amazon]] — customer (Talen deal)
 
 ---
 

@@ -97,5 +97,14 @@ Anthropic = OpenAI's safety-focused spinout.
 
 ---
 
-Related: [[OpenAI]], [[Ilya Sutskever]], [[SSI]], [[Mira Murati]], [[Thinking Machines Lab]], [[Anthropic]], [[Jan Leike]]
+## Related
+
+- [[OpenAI]] — source (talent exodus origin)
+- [[Ilya Sutskever]] — departed (May 2024, started SSI)
+- [[SSI]] — destination ($32B valuation, ~20 employees)
+- [[Mira Murati]] — departed (Sept 2024, started TML)
+- [[Thinking Machines Lab]] — destination ($12B, $2B seed)
+- [[Jan Leike]] — departed (May 2024, safety concerns)
+- [[Anthropic]] — destination (safety-focused, Leike joined)
+- [[Dario Amodei]] — precedent (earlier OpenAI→Anthropic founder)
 

@@ -128,5 +128,14 @@ Hyperscalers interested but patient.
 
 ---
 
-Related: [[Constellation Energy]], [[Vistra]], [[NuScale]], [[Oklo]], [[Cameco]], [[Microsoft]]
+## Related
+
+- [[Constellation Energy]] — winner (largest US fleet, +150% in 2024)
+- [[Vistra]] — winner (Texas nuclear + gas, +260% in 2024)
+- [[Cameco]] — upstream (uranium mining, Westinghouse stake)
+- [[Centrus Energy]] — upstream (HALEU enrichment)
+- [[NuScale]] — SMR (only NRC-approved)
+- [[Oklo]] — SMR (Sam Altman backed)
+- [[Microsoft]] — catalyst (TMI restart deal)
+- [[Nuclear power for AI]] — context (detailed analysis)
 

@@ -147,5 +147,15 @@ Singapore has most capital.
 
 ---
 
-Related: [[Singapore Tech]], [[Indonesia Tech]], [[Vietnam Tech]], [[Malaysia Tech]], [[Thailand Tech]], [[Philippines Tech]], [[Grab]], [[Sea Group]], [[GoTo]]
+## Related
+
+- [[Singapore Tech]] — hub (regional HQ, $1.2T SWF capital)
+- [[Indonesia Tech]] — scale (275M population, super-apps)
+- [[Vietnam Tech]] — manufacturing (Samsung, Intel presence)
+- [[Malaysia Tech]] — semiconductor (50+ years backend)
+- [[Thailand Tech]] — automotive (EV production)
+- [[Philippines Tech]] — services (BPO leader)
+- [[Grab]] — champion (Singapore, ride-hailing)
+- [[Sea Group]] — champion (Singapore, e-commerce/gaming)
+- [[GoTo]] — champion (Indonesia depth)
 

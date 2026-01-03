@@ -87,5 +87,14 @@ AI forces geographic diversification.
 
 ---
 
-Related: [[Ashburn]], [[Columbus Ohio]], [[Phoenix Data Hub]], [[Dominion Energy]], [[Querétaro]]
+## Related
+
+- [[Ashburn]] — constrained (Dominion Energy limits, 3+ GW)
+- [[Dominion Energy]] — bottleneck (grid at capacity)
+- [[Columbus Ohio]] — growth (cheap AEP power)
+- [[Phoenix Data Hub]] — growth (solar abundant)
+- [[Dallas Data Hub]] — growth (ERCOT, no state tax)
+- [[Querétaro]] — emerging (nearshoring + power)
+- [[Equinix]] — player (multi-hub diversification)
+- [[Digital Realty]] — player (multi-hub diversification)
 

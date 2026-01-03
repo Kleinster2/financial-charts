@@ -97,4 +97,15 @@ The AI boom has second-order effects. Memory makers win, but their traditional c
 
 ---
 
-Related: [[Memory shortage 2025-2026]], [[SK Hynix]], [[Samsung]], [[Micron]], [[Nintendo]], [[Sony]], [[Dell]], [[Lenovo]], [[Xiaomi]], [[Corsair]]
+## Related
+
+- [[Memory shortage 2025-2026]] — cause (supply side of shortage)
+- [[SK Hynix]] — winner (shifting to HBM, deprioritizing consumer)
+- [[Samsung]] — winner (same dynamic)
+- [[Micron]] — winner (same dynamic)
+- [[Nintendo]] — victim (Switch 2 RAM +41%)
+- [[Sony]] — victim (delaying next-gen)
+- [[Dell]] — victim ("never seen costs escalate this fast")
+- [[Lenovo]] — victim (hoarding, 50% above normal inventory)
+- [[Xiaomi]] — victim (+25% DRAM cost per phone)
+- [[Corsair]] — victim (suspended orders)

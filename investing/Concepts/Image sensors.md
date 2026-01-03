@@ -60,4 +60,7 @@ Not a broken company — uneven execution across segments.
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[TSMC]]
+## Related
+
+- [[Samsung]] — leader (NanoPrism metamaterial tech)
+- [[TSMC]] — competitor (0.43μm quad-photodiode)

@@ -34,7 +34,14 @@ These have AI exposure but aren't clean proxies for "AI is big" thesis.
 
 ---
 
-Related: [[AI Race]], [[Anthropic]], [[NVIDIA]]
+## Related
+
+- [[NVIDIA]] — component (GPU monopoly)
+- [[Oracle]] — component (cloud AI infrastructure)
+- [[Google]] — component (AI capex, cloud, models)
+- [[CoreWeave]] — component (neocloud, GPU-as-a-service)
+- [[Anthropic]] — hedge target (long Anthropic, short AI trade)
+- [[Long Anthropic]] — thesis (uses this as hedge)
 
 ---
 

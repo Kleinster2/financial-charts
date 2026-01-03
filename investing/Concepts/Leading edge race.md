@@ -89,4 +89,13 @@ National champion bet. See [[Rapidus]].
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Rapidus]]
+## Related
+
+- [[TSMC]] — leader (65% yields, Taiwan 2025, Arizona 2028)
+- [[Samsung]] — challenger (40% yields, Taylor 2026-27)
+- [[Intel Foundry Services]] — contender (55% yields, 18A target)
+- [[Rapidus]] — wildcard (2027, small volume, IBM tech)
+- [[Apple]] — customer (TSMC 2nm capacity locked)
+- [[NVIDIA]] — customer (TSMC 2nm capacity locked)
+- [[AMD]] — customer (may turn to Samsung)
+- [[1.4nm race]] — next generation

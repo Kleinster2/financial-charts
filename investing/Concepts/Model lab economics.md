@@ -87,4 +87,10 @@ The counter: Coding tools require trust, integration, support — not just raw m
 
 ---
 
-Related: [[AI Race]], [[Anthropic]], [[OpenAI]], [[Open source commoditization]], [[Enterprise AI adoption]]
+## Related
+
+- [[Anthropic]] — efficient ($9B revenue, 9% burn by 2027)
+- [[OpenAI]] — aggressive ($13B revenue, 57% burn, 2030 target)
+- [[Open source commoditization]] — pressure (erodes pricing power)
+- [[Enterprise AI adoption]] — context (coding works, rest uncertain)
+- [[Long Anthropic]] — thesis (capital efficiency matters)

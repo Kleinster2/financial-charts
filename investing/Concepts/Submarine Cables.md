@@ -112,5 +112,14 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 
 ---
 
-Related: [[Fortaleza Data Hub]], [[EllaLink]], [[Humboldt Cable]], [[Project Waterworth]], [[Google]], [[Meta]]
+## Related
+
+- [[Fortaleza Data Hub]] — hub (14 cables, world #2)
+- [[Project Waterworth]] — project (Meta 50,000 km, 100% owned)
+- [[Humboldt Cable]] — project (first S. America-Asia Pacific)
+- [[EllaLink]] — project (first direct Brazil-Europe)
+- [[Google]] — owner (Humboldt, Echo, Apricot, HAVFRUE)
+- [[Meta]] — owner (Waterworth, MAREA, Amitié, Bifrost)
+- [[Microsoft]] — owner (MAREA, Amitié)
+- [[Hyperscaler disintermediation]] — context (59 cables now hyperscaler-owned)
 

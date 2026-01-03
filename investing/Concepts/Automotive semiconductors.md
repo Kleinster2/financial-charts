@@ -117,4 +117,9 @@ STMicro SiC revenue trajectory tells the story:
 
 ---
 
-Related: [[End market demand]], [[NVIDIA]]
+## Related
+
+- [[End market demand]] — context (17% of wafer share)
+- [[NVIDIA]] — player (Drive platform for ADAS)
+- [[Mobileye]] — player (Intel, ADAS leader)
+- [[Tesla]] — customer (SiC demand driver)
