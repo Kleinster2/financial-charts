@@ -125,4 +125,9 @@ Canary in the growth funding coal mine.
 
 ---
 
-Related: [[a16z]], [[Sequoia Capital]], [[Lightspeed Venture Partners]]
+## Related
+
+- [[a16z]] — peer (growth investor)
+- [[Sequoia Capital]] — peer (but more relationship-driven)
+- [[Lightspeed Venture Partners]] — peer (growth investor)
+- [[Databricks]] — key investment (data+AI)

@@ -118,4 +118,9 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ---
 
-Related: [[Memory shortage victims]], [[Samsung]], [[Memory shortage 2025-2026]], [[China]], [[Apple]]
+## Related
+
+- [[Memory shortage victims]] — thesis (smartphone OEM hit)
+- [[Samsung]] — competitor (has own memory)
+- [[Memory shortage 2025-2026]] — crisis (+25% DRAM cost)
+- [[Apple]] — competitor (premium absorbs cost)

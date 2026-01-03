@@ -124,5 +124,10 @@ Purpose-built = bold but slower.
 
 ---
 
-Related: [[Amazon]], [[Waymo]], [[Cruise]], [[Aurora]]
+## Related
+
+- [[Amazon]] — parent ($1.2B acquisition)
+- [[Waymo]] — competitor (further ahead)
+- [[Cruise]] — competitor (paused)
+- [[Aurora]] — competitor (trucking focus)
 

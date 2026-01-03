@@ -99,5 +99,10 @@ Most tangible AI output in GCC.
 
 ---
 
-Related: [[UAE G42]], [[Saudi Arabia Tech]], [[Sovereign AI race]]
+## Related
+
+- [[UAE G42]] — national champion (AI leader)
+- [[Saudi Arabia Tech]] — GCC rival (more capital, less execution)
+- [[Sovereign AI race]] — context (most advanced in GCC)
+- [[GlobalFoundries]] — asset (Mubadala ownership)
 

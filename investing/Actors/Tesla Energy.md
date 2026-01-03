@@ -134,4 +134,10 @@ See [[Elon Musk]] for full Musk ecosystem.
 
 ---
 
-Related: [[Tesla]], [[Elon Musk]], [[Fluence]], [[Power constraints]], [[NextEra Energy]], [[AI hyperscalers]]
+## Related
+
+- [[Tesla]] — parent company
+- [[Elon Musk]] — CEO of Tesla
+- [[Fluence]] — competitor (grid storage)
+- [[Power constraints]] — thesis (storage enables renewables)
+- [[NextEra Energy]] — customer type (utility)

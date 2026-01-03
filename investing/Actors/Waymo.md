@@ -114,5 +114,11 @@ Waymo = clear leader in robotaxi.
 
 ---
 
-Related: [[Google]], [[Tesla]], [[Cruise]], [[Aurora]], [[Mobileye]]
+## Related
+
+- [[Google]] — parent (Alphabet subsidiary)
+- [[Tesla]] — competitor (FSD approach)
+- [[Cruise]] — competitor (paused after incident)
+- [[Aurora]] — competitor (trucking focus)
+- [[Mobileye]] — competitor (chips + ADAS)
 

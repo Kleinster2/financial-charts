@@ -108,4 +108,11 @@ What consensus assumes (update when you see estimates):
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[Intel Foundry Services]], [[Apple]], [[NVIDIA]], [[Customer lock-in via co-design]]
+## Related
+
+- [[Foundry Wars]] — context (dominant player)
+- [[Samsung]] — competitor (#2 foundry)
+- [[Intel Foundry Services]] — competitor (US alternative)
+- [[Apple]] — customer (largest, exclusive)
+- [[NVIDIA]] — customer (GPU leader)
+- [[Customer lock-in via co-design]] — moat (ecosystem lock-in)

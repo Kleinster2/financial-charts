@@ -120,4 +120,11 @@ Vertiv is the pure-play DC infrastructure leader.
 
 ---
 
-Related: [[AI hyperscalers]], [[Power constraints]], [[NVIDIA]], [[Equinix]], [[Digital Realty]], [[AI infrastructure financing]]
+## Related
+
+- [[AI hyperscalers]] — customers (DC buildout)
+- [[Power constraints]] — context (thermal = power)
+- [[NVIDIA]] — driver (GPU heat creates cooling demand)
+- [[Equinix]] — customer (colocation provider)
+- [[Digital Realty]] — customer (DC operator)
+- [[Modine Manufacturing]] — competitor (liquid cooling)

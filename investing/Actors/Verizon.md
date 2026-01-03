@@ -90,5 +90,9 @@ Premium US network:
 
 ---
 
-Related: [[AT&T]], [[T-Mobile]], [[Nokia]]
+## Related
+
+- [[AT&T]] — competitor (US carrier)
+- [[T-Mobile]] — competitor (US carrier)
+- [[Nokia]] — supplier (network infrastructure)
 

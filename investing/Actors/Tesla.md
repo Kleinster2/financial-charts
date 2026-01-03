@@ -64,4 +64,10 @@ EV motors require permanent magnets with rare earth elements:
 
 ---
 
-Related: [[Elon Musk]], [[xAI]], [[Samsung]], [[TSMC]], [[Automotive semiconductors]], [[AI hyperscalers]], [[Rare earth leverage]]
+## Related
+
+- [[Elon Musk]] — CEO
+- [[xAI]] — Musk connection (potential Samsung anchor)
+- [[Samsung]] — potential foundry (Dojo next-gen)
+- [[TSMC]] — current foundry (Dojo chips)
+- [[STMicro]] — supplier (SiC for EVs)

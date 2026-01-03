@@ -91,5 +91,9 @@ Shrinking to grow.
 
 ---
 
-Related: [[Amitié Cable]], [[Deutsche Telekom]], [[Nokia]]
+## Related
+
+- [[Amitié Cable]] — investor (submarine cable)
+- [[Deutsche Telekom]] — peer (European telecom)
+- [[Nokia]] — supplier (network equipment)
 

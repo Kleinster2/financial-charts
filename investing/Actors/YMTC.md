@@ -78,4 +78,10 @@ China's national champion for memory independence. State-backed effort to break 
 
 *Created 2026-01-01*
 
-Related: [[China]], [[Export controls]], [[Samsung]], [[SK Hynix]], [[Micron]], [[CXMT]]
+## Related
+
+- [[Export controls]] — constraint (Entity List target)
+- [[Samsung]] — competitor (2+ generations ahead)
+- [[SK Hynix]] — competitor (2+ generations ahead)
+- [[Micron]] — competitor (2+ generations ahead)
+- [[CXMT]] — peer (China DRAM champion)

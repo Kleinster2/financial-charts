@@ -133,4 +133,10 @@ Tencent is also a major tech investor, not just operator.
 
 ---
 
-Related: [[Alibaba]], [[ByteDance]], [[Baidu]], [[Export controls]], [[China]], [[AI hyperscalers]]
+## Related
+
+- [[Alibaba]] — competitor (cloud #1 vs #2)
+- [[ByteDance]] — competitor (Doubao vs Hunyuan)
+- [[Baidu]] — competitor (China AI)
+- [[Export controls]] — constraint (GPU access limited)
+- [[AI hyperscalers]] — category (China tier)

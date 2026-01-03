@@ -123,4 +123,10 @@ Most AI runs on GPUs/TPUs today. Unconventional betting on paradigm shift.
 
 ---
 
-Related: [[a16z]], [[Lux Capital]], [[NVIDIA]], [[Lightspeed Venture Partners]], [[Intel]]
+## Related
+
+- [[a16z]] — investor ($475M lead)
+- [[Lux Capital]] — investor
+- [[NVIDIA]] — potential disrupt target (GPU replacement)
+- [[Lightspeed Venture Partners]] — investor
+- [[Intel]] — prior art (Loihi neuromorphic)

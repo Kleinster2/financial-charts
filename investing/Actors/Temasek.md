@@ -116,5 +116,11 @@ Watch Temasek portfolio moves.
 
 ---
 
-Related: [[Singapore Tech]], [[GIC]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[Singapore Tech]] — national context (Singapore champion)
+- [[GIC]] — peer (Singapore's other SWF)
+- [[OpenAI]] — investment (AI portfolio)
+- [[Anthropic]] — investment (AI portfolio)
+- [[Sea Group]] — investment (portfolio company)
 
