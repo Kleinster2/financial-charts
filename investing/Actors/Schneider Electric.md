@@ -122,5 +122,11 @@ Software + hardware integration.
 
 ---
 
-Related: [[Vertiv]], [[Equinix]], [[Digital Realty]], [[NVIDIA]]
+## Related
+
+- [[Vertiv]] — competitor (DC infrastructure, purer play)
+- [[Equinix]] — customer (DC operator)
+- [[Digital Realty]] — customer (DC operator)
+- [[NVIDIA]] — driver (GPU heat = cooling demand)
+- [[Modine Manufacturing]] — competitor (liquid cooling)
 

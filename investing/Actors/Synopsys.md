@@ -108,5 +108,11 @@ Picks and shovels for chip design.
 
 ---
 
-Related: [[Cadence]], [[NVIDIA]], [[AMD]], [[TSMC]], [[Intel]]
+## Related
+
+- [[Cadence]] — competitor (#2 EDA, effective duopoly)
+- [[NVIDIA]] — customer (chip design tools)
+- [[AMD]] — customer (chip design tools)
+- [[TSMC]] — partner (manufacturing flow integration)
+- [[Intel]] — customer (chip design tools)
 

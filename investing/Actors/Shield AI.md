@@ -133,5 +133,9 @@ Future of air combat.
 
 ---
 
-Related: [[Anduril]], [[Palantir]], [[Lockheed Martin]]
+## Related
+
+- [[Anduril]] — peer (defense AI)
+- [[Palantir]] — peer (defense tech)
+- [[Lockheed Martin]] — competitor/partner (primes)
 

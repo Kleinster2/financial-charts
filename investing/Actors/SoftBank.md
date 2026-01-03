@@ -42,3 +42,13 @@ Mixed record — WeWork disaster but also major wins (Coupang, DoorDash).
 - [[Masayoshi Son]] vocal about AGI timeline, wants SoftBank to lead
 - Potential acquirer of AI companies
 - Arm + NVIDIA deal blocked (2022) — would have been transformative
+
+---
+
+## Related
+
+- [[Arm Holdings]] — crown jewel (~90% ownership)
+- [[Masayoshi Son]] — founder/CEO
+- [[NVIDIA]] — blocked acquirer (2022 Arm deal)
+- [[Saudi PIF]] — Vision Fund LP
+- [[OpenAI]] — Vision Fund investment

@@ -95,4 +95,10 @@ What consensus assumes (update when you see estimates):
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[SK Hynix]], [[Memory shortage 2025-2026]], [[Leading edge race]]
+## Related
+
+- [[Foundry Wars]] — context (2nm race with TSMC)
+- [[TSMC]] — competitor (#1 foundry, Samsung #2)
+- [[SK Hynix]] — competitor (HBM leader, Samsung #2)
+- [[Memory shortage 2025-2026]] — thesis (memory division profits)
+- [[Leading edge race]] — context (Taylor fab 2nm bet)

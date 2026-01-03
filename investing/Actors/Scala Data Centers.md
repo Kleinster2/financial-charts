@@ -107,5 +107,10 @@ Pan-LatAm strategy.
 
 ---
 
-Related: [[DigitalBridge]], [[Rio de Janeiro Data Hub]], [[São Paulo Data Hub]], [[Brazil AI]]
+## Related
+
+- [[DigitalBridge]] — owner (PE-backed)
+- [[Rio de Janeiro Data Hub]] — location (Rio AI City project)
+- [[São Paulo Data Hub]] — market (Brazil presence)
+- [[Brazil AI]] — national context (LatAm DC leader)
 

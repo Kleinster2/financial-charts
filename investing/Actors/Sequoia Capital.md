@@ -128,4 +128,10 @@ Their NVIDIA bet = template for long-term thesis investing.
 
 ---
 
-Related: [[NVIDIA]], [[OpenAI]], [[a16z]], [[Lightspeed Venture Partners]], [[Benchmark]]
+## Related
+
+- [[NVIDIA]] — portfolio (early investor, massive return)
+- [[OpenAI]] — portfolio (major position)
+- [[a16z]] — peer (top-tier VC)
+- [[Lightspeed Venture Partners]] — peer (top-tier VC)
+- [[Benchmark]] — peer (top-tier VC)

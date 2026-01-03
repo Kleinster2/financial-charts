@@ -160,5 +160,11 @@ Korea's answer to Google/Meta.
 
 ---
 
-Related: [[Samsung]], [[SK Hynix]], [[HBM]], [[NVIDIA]], [[TSMC]]
+## Related
+
+- [[Samsung]] — national champion (memory, foundry)
+- [[SK Hynix]] — national champion (#1 HBM)
+- [[NVIDIA]] — customer (HBM buyer)
+- [[TSMC]] — competitor (Samsung Foundry vs)
+- [[Long memory]] — thesis (Korea exposure)
 

@@ -108,4 +108,9 @@ Siemens is #2 but benefits from same supply constraints.
 
 ---
 
-Related: [[Power constraints]], [[GE Vernova]], [[AI hyperscalers]], [[AI infrastructure financing]]
+## Related
+
+- [[Power constraints]] — thesis context (gas turbine demand)
+- [[GE Vernova]] — competitor (#1 turbine maker)
+- [[AI hyperscalers]] — customer (power demand)
+- [[AI infrastructure financing]] — context (DC power)

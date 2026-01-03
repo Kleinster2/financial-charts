@@ -31,3 +31,11 @@ aliases: [STMicroelectronics, ST Micro, STM]
 - Long-term SiC supply deal with [[Tesla]]
 - Competes with [[Infineon]], [[NXP]], ON Semi
 - Fabs in Europe (France, Italy) and Asia
+
+---
+
+## Related
+
+- [[Tesla]] — customer (SiC supply deal for EVs)
+- [[Infineon]] — competitor (automotive/power semis)
+- [[NXP]] — competitor (automotive semis)

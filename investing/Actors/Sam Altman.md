@@ -129,4 +129,13 @@ Altman is betting big on nuclear for AI power — both fission and fusion:
 
 ---
 
-Related: [[OpenAI]], [[Microsoft]], [[NVIDIA]], [[Anthropic]], [[AI Race]], [[Helion Energy]], [[Oklo]], [[Nuclear power for AI]], [[Jony Ive]]
+## Related
+
+- [[OpenAI]] — CEO (his company)
+- [[Microsoft]] — partner ($13B+ investment, Azure)
+- [[NVIDIA]] — supplier (largest GPU consumer via Azure)
+- [[Anthropic]] — competitor (spun out from OpenAI)
+- [[Helion Energy]] — investment (chairman, fusion)
+- [[Oklo]] — investment (chairman, SMR fission)
+- [[Nuclear power for AI]] — thesis context
+- [[Jony Ive]] — partner (AI device project)

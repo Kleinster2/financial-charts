@@ -94,4 +94,9 @@ Sierra = AI-first customer service.
 
 ---
 
-Related: [[Bret Taylor]], [[OpenAI]], [[Glean]], [[Google]]
+## Related
+
+- [[Bret Taylor]] — co-founder (OpenAI Chairman)
+- [[OpenAI]] — connection (Taylor chairs OpenAI board)
+- [[Glean]] — peer (enterprise AI)
+- [[Google]] — origin (co-founders from Google)

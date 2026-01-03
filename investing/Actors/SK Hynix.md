@@ -105,4 +105,11 @@ SK Hynix isn't a foundry, but:
 
 ---
 
-Related: [[Foundry Wars]], [[Advanced packaging]], [[TSMC]], [[Samsung]], [[Memory shortage 2025-2026]]
+## Related
+
+- [[Foundry Wars]] — context (challenging TSMC packaging)
+- [[Advanced packaging]] — thesis (2.5D packaging push)
+- [[TSMC]] — dependency/competitor (packaging)
+- [[Samsung]] — competitor (Korean rival in memory)
+- [[Memory shortage 2025-2026]] — thesis (HBM shortage driver)
+- [[NVIDIA]] — customer (HBM for GPUs)

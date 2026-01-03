@@ -112,5 +112,12 @@ AI = post-oil economy.
 
 ---
 
-Related: [[UAE G42]], [[SoftBank]], [[a16z]], [[NVIDIA]]
+## Related
+
+- [[UAE G42]] — competitor (GCC AI leader)
+- [[SoftBank]] — investee (Vision Fund LP)
+- [[a16z]] — partner (Transcendence JV)
+- [[NVIDIA]] — beneficiary (GPU for Saudi AI)
+- [[Saudi Arabia Tech]] — national context
+- [[NEOM]] — portfolio ($500B smart city)
 
