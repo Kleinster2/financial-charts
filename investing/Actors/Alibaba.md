@@ -139,4 +139,10 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 
 ---
 
-Related: [[ByteDance]], [[Export controls]], [[China]], [[NVIDIA]], [[AI hyperscalers]]
+## Related
+
+- [[ByteDance]] — competitor (China AI/cloud)
+- [[Export controls]] — constraint on GPU access
+- [[China]] — geographic context
+- [[NVIDIA]] — supplier (H200, blocked from Blackwell)
+- [[AI hyperscalers]] — peer category

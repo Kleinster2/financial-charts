@@ -124,5 +124,10 @@ Differentiated technical approach.
 
 ---
 
-Related: [[NVIDIA]], [[Israel Tech]], [[OpenAI]], [[Anthropic]]
+## Related
+
+- [[NVIDIA]] — acquirer (~$3B deal reported)
+- [[Israel Tech]] — geographic context
+- [[OpenAI]] — competitor (LLM market)
+- [[Anthropic]] — competitor (enterprise AI)
 

@@ -166,4 +166,14 @@ Contributes to [[Memory shortage 2025-2026]].
 
 ---
 
-Related: [[NVIDIA]], [[Export controls]], [[AI hyperscalers]], [[China]], [[Memory shortage 2025-2026]], [[SK Hynix]], [[Samsung]]
+## Related
+
+- [[NVIDIA]] — GPU supplier ($14B order)
+- [[SK Hynix]] — HBM supplier
+- [[Samsung]] — memory supplier
+- [[Export controls]] — constraint (H200 only, no Blackwell)
+- [[China]] — geographic context
+- [[Alibaba]] — competitor (China AI/cloud)
+- [[AI hyperscalers]] — peer category
+- [[Memory shortage 2025-2026]] — demand driver
+- [[Long memory]] — thesis (HBM demand)

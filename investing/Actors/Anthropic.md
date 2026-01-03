@@ -115,4 +115,16 @@ See [[Long Anthropic]] for full thesis.
 
 *Updated 2026-01-01*
 
-Related: [[Dario Amodei]], [[AI Race]], [[Long Anthropic]], [[OpenAI]], [[Google]], [[Amazon]], [[Broadcom]], [[TSMC]], [[Model lab economics]], [[Agentic AI]]
+## Related
+
+- [[Dario Amodei]] — CEO and co-founder
+- [[OpenAI]] — competitor, origin (founders left OpenAI)
+- [[Google]] — $2B+ investor, cloud partner
+- [[Amazon]] — $8B investor, primary cloud partner
+- [[Microsoft]] — $5B investor (hedging OpenAI)
+- [[NVIDIA]] — $10B investor
+- [[Broadcom]] — TPU supplier via Google
+- [[TSMC]] — foundry for TPUs
+- [[Long Anthropic]] — thesis
+- [[Agentic AI]] — core capability (Claude Code)
+- [[Model lab economics]] — profitability context

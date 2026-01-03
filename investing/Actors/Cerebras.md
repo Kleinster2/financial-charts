@@ -155,5 +155,12 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 
 ---
 
-Related: [[NVIDIA]], [[Groq]], [[SambaNova]], [[Tenstorrent]], [[Inference disaggregation]]
+## Related
+
+- [[NVIDIA]] — competitor, potential acquirer
+- [[Groq]] — former competitor (now NVIDIA-owned)
+- [[SambaNova]] — former competitor (Intel-acquired)
+- [[Tenstorrent]] — AI chip peer
+- [[Inference disaggregation]] — market context (SRAM for decode)
+- [[Long Cerebras]] — thesis (last independent SRAM player)
 

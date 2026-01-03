@@ -113,4 +113,15 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 *Updated 2025-12-30*
 
-Related: [[Anthropic]], [[NVIDIA]], [[Marvell]], [[TSMC]], [[Google]], [[Microsoft]], [[Meta]], [[AI hyperscalers]], [[Hyperscaler chip roadmap]], [[Nuclear power for AI]]
+## Related
+
+- [[Anthropic]] — $8B investor, primary cloud partner
+- [[NVIDIA]] — chip supplier, NVLink Fusion partner
+- [[Marvell]] — Trainium design partner
+- [[TSMC]] — foundry for Trainium3 (3nm)
+- [[Google]] — hyperscaler competitor
+- [[Microsoft]] — hyperscaler competitor
+- [[Meta]] — hyperscaler competitor
+- [[AI hyperscalers]] — peer category
+- [[Hyperscaler chip roadmap]] — custom silicon context
+- [[Nuclear power for AI]] — power strategy

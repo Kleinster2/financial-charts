@@ -93,4 +93,13 @@ See [[Rare earth leverage]] for geopolitical context.
 
 ---
 
-Related: [[Foundry Wars]], [[Long WFE]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Export controls]]
+## Related
+
+- [[TSMC]] — largest customer, priority EUV access
+- [[Samsung]] — major customer
+- [[Intel Foundry Services]] — growing customer (18A ramp)
+- [[Export controls]] — blocks China EUV sales
+- [[Dysprosium]] — REE supply risk for High-NA magnets
+- [[Rare earth leverage]] — China control of magnet materials
+- [[Long WFE]] — thesis (crown jewel position)
+- [[Foundry Wars]] — context (enables leading edge)

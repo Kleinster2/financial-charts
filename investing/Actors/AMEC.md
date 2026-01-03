@@ -93,4 +93,10 @@ Like [[Naura Technology]], AMEC benefits from China's 50% domestic equipment man
 
 ---
 
-Related: [[Export controls]], [[Naura Technology]], [[China]], [[Lam Research]], [[Long WFE]]
+## Related
+
+- [[Lam Research]] — competitor (global etch leader)
+- [[Naura Technology]] — peer (Chinese equipment)
+- [[Export controls]] — beneficiary (50% domestic mandate)
+- [[China]] — geographic context
+- [[Long WFE]] — thesis (equipment demand)

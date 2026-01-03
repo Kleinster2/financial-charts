@@ -89,4 +89,14 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 ---
 
-Related: [[Foundry Wars]], [[Intel Foundry Services]], [[TSMC]], [[Samsung]], [[AMD]], [[NVIDIA]], [[CHIPS Act]]
+## Related
+
+- [[Intel Foundry Services]] — own foundry subsidiary
+- [[TSMC]] — competitor (foundry), also customer
+- [[Samsung]] — competitor (foundry)
+- [[AMD]] — competitor (CPU)
+- [[NVIDIA]] — competitor (AI/GPU)
+- [[CHIPS Act]] — beneficiary (~$8B)
+- [[ASE]] — EMIB competes for packaging
+- [[Foundry Wars]] — manufacturing context
+- [[Mobileye]] — subsidiary (ADAS)

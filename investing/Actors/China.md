@@ -123,4 +123,16 @@ Bulls on China exposure would say:
 
 *Updated 2025-12-30*
 
-Related: [[Export controls]], [[TSMC]], [[Samsung]], [[SK Hynix]], [[NVIDIA]], [[AMD]], [[ASML]], [[Huawei]], [[Long WFE]]
+## Related
+
+- [[Export controls]] — US policy constraining chip access
+- [[TSMC]] — customer (constrained by N-2 rule)
+- [[Samsung]] — has China fabs (VEU risk)
+- [[SK Hynix]] — has China fabs (VEU risk)
+- [[NVIDIA]] — supplier (H200 approved, Blackwell blocked)
+- [[AMD]] — supplier (MI308)
+- [[ASML]] — equipment supplier (no EUV allowed)
+- [[Huawei]] — indigenous chip champion
+- [[SMIC]] — leading domestic foundry
+- [[Rare earth leverage]] — counter-leverage tool
+- [[Long WFE]] — thesis (China drives equipment demand)

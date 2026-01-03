@@ -44,4 +44,15 @@ Google attempting to escape Broadcom's margin capture. Must cut ASIC costs to co
 
 ---
 
-Related: [[Broadcom]], [[TSMC]], [[MediaTek]], [[Anthropic]], [[AI hyperscalers]], [[NVIDIA]], [[Nuclear power for AI]]
+## Related
+
+- [[Broadcom]] — TPU design partner (disintermediating)
+- [[MediaTek]] — alternative chip partner (Zebrafish)
+- [[TSMC]] — foundry (via Broadcom TPUs)
+- [[Anthropic]] — AI competitor, also $2B investor
+- [[NVIDIA]] — competitor (GPUs) and customer
+- [[Microsoft]] — hyperscaler competitor
+- [[Amazon]] — hyperscaler competitor
+- [[AI hyperscalers]] — peer category
+- [[Waymo]] — subsidiary (autonomous driving)
+- [[Nuclear power for AI]] — power strategy

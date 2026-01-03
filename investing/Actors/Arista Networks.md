@@ -121,5 +121,13 @@ Arista benefits from Ethernet adoption in AI.
 
 ---
 
-Related: [[NVIDIA]], [[Microsoft]], [[Meta]], [[Broadcom]], [[Cisco]]
+## Related
+
+- [[Microsoft]] — major customer
+- [[Meta]] — major customer
+- [[NVIDIA]] — competitor (InfiniBand) and adjacent (GPU clusters)
+- [[Broadcom]] — supplier (merchant silicon)
+- [[Cisco]] — competitor (legacy networking)
+- [[Credo Semiconductor]] — adjacent (cables in same clusters)
+- [[AI hyperscalers]] — customer category
 

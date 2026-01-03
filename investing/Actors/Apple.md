@@ -88,4 +88,12 @@ Apple is hedging against China's [[Rare earth leverage]]:
 
 ---
 
-Related: [[Foundry Wars]], [[TSMC]], [[Customer lock-in via co-design]], [[N-2 rule]], [[NVIDIA]], [[MP Materials]], [[Rare earth leverage]]
+## Related
+
+- [[TSMC]] — exclusive foundry partner (A-series, M-series)
+- [[NVIDIA]] — peer locking TSMC 2nm capacity
+- [[MP Materials]] — rare earth supplier ($500M deal)
+- [[Customer lock-in via co-design]] — example of deep foundry relationship
+- [[Rare earth leverage]] — supply chain risk being hedged
+- [[Foundry Wars]] — manufacturing context
+- [[N-2 rule]] — design excellence context
