@@ -62,18 +62,28 @@ Baidu was China's AI first mover and leads in autonomous driving:
 
 ---
 
-## AI chip efforts
+## AI chip efforts — Kunlunxin
 
-**Kunlun (昆仑) chips:**
+**[[Kunlunxin]] (昆仑芯) spin-off:**
 - Custom AI accelerators
-- Reducing NVIDIA dependency
+- Reducing [[NVIDIA]] dependency
 - Multiple generations shipped
-- Still behind NVIDIA performance
+- **Hong Kong IPO filed Jan 2, 2026**
 
-**Export control response:**
-- Custom silicon investment
-- Domestic partnerships
-- But gap remains
+| Metric | Value |
+|--------|-------|
+| Valuation | ~$3B |
+| Revenue (2025) | $500M |
+| Baidu stake | ~59% |
+| IPO timing | Early 2027 |
+
+**Product roadmap:**
+- P800 (current)
+- M100 (inference, 2026)
+- M300 (training + inference, 2027)
+- Goal: Million-chip cluster by 2030
+
+See [[Kunlunxin]] for full details.
 
 ---
 
