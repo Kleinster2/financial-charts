@@ -3,20 +3,21 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**Groq** — LPU inference chips. Fastest tokens/sec. Founded by ex-Google TPU architect.
+**Groq** — LPU inference chips. Fastest tokens/sec. NVIDIA licensed their architecture (Dec 2025). Founded by ex-Google TPU architect.
 
 ---
 
 ## Why Groq matters
 
-Inference speed leader:
+**The NVIDIA validation**: In December 2025, NVIDIA licensed Groq's architecture for "Rubin SRAM" inference chips. This confirms the [[Inference disaggregation]] thesis — decode needs different silicon than prefill.
 
 | Metric | Value |
 |--------|-------|
 | Valuation | ~$2.8B (2024) |
 | Raised | $640M+ |
 | Founded | 2016 |
-| Founder | Jonathan Ross (Google TPU) |
+| Founder | Jonathan Ross (Google TPU inventor) |
+| NVIDIA deal | Non-exclusive license (Dec 2025) |
 
 ---
 
@@ -72,6 +73,50 @@ Inference speed leader:
 
 ---
 
+## NVIDIA licensing deal (Dec 2025)
+
+**The architecture that won NVIDIA over:**
+
+Groq made three contrarian bets a decade ago:
+1. **Older process nodes** — faster iteration, lower yield risk
+2. **Huge on-chip SRAM** — expensive but ultra-low latency
+3. **Deterministic execution** — no scheduling overhead
+
+This made Groq:
+- Bad at training
+- Irrelevant for prefill
+- Exceptional at decode
+
+**Deal structure:**
+
+| Aspect | Details |
+|--------|---------|
+| Type | Non-exclusive licensing |
+| NVIDIA gets | IP + engineers for "Rubin SRAM" variant |
+| Groq gets | Validation + royalties |
+| Independence | GroqCloud continues operating |
+
+**Why NVIDIA licensed vs built:**
+- Re-architecting GPU memory hierarchy = hard
+- Would sacrifice GPU generality
+- Would cannibalize H100/H200 margins
+
+Jensen chose to extend the platform rather than disrupt himself.
+
+---
+
+## Jonathan Ross
+
+**The hidden giant:**
+- Invented Google's TPU
+- Founded Groq 2016
+- Designed V2 → V4 architecture roadmap
+- "A genius of biblical proportions" — Chamath
+
+TPU credibility mattered when NVIDIA evaluated external silicon.
+
+---
+
 ## Limitations
 
 **Trade-offs:**
@@ -85,16 +130,31 @@ Inference speed leader:
 ## Investment case
 
 **Bull:**
-- Fastest inference speeds
-- TPU architect pedigree
+- NVIDIA licensing validates architecture
+- Fastest inference speeds (decode)
+- TPU architect pedigree (Jonathan Ross)
 - Inference market growing
-- Differentiated architecture
+- Royalty stream + independent cloud
+- Positioned for agentic AI workloads
 
 **Bear:**
-- NVIDIA CUDA ecosystem
+- Non-exclusive license = NVIDIA can compete
 - Training still on GPUs
-- Memory capacity limits
-- Scaling challenges
+- Memory capacity limits (SRAM trade-off)
+- [[Cerebras]] ahead on some benchmarks
+
+---
+
+## Post-deal positioning
+
+| Aspect | Groq position |
+|--------|---------------|
+| vs NVIDIA | Partner, not competitor |
+| vs Cerebras | Both SRAM, different integration |
+| Cloud business | Continues independently |
+| Long-term | Royalties from Rubin SRAM |
+
+**Not Slack 2.0**: Chamath emphasizes Groq remains infrastructure layer, not point product. Stack expansion, not displacement.
 
 ---
 
@@ -106,10 +166,11 @@ Inference speed leader:
 | Valuation | ~$2.8B |
 | Approach | LPU inference chips |
 | Founder | Jonathan Ross (ex-Google TPU) |
+| NVIDIA deal | Dec 2025 licensing |
 
-*Updated 2026-01-01*
+*Updated 2026-01-02*
 
 ---
 
-Related: [[NVIDIA]], [[Cerebras]], [[SambaNova]], [[Google]]
+Related: [[NVIDIA]], [[Cerebras]], [[SambaNova]], [[Google]], [[Inference disaggregation]], [[Agentic AI]]
 

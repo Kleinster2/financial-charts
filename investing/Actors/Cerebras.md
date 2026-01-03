@@ -3,13 +3,15 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. IPO filed 2024.
+**Cerebras** — Wafer-scale AI chips. Entire wafer = one chip. Training + inference. **Last independent SRAM player** after NVIDIA-Groq deal.
 
 ---
 
 ## Why Cerebras matters
 
-Radical chip architecture for AI:
+**Post-NVIDIA-Groq positioning** (per Gavin Baker):
+
+> "Cerebras is now in a very interesting and highly strategic position as the last independent SRAM player that was ahead of Groq on all public benchmarks."
 
 | Metric | Value |
 |--------|-------|
@@ -17,6 +19,7 @@ Radical chip architecture for AI:
 | Raised | $720M+ |
 | Founded | 2016 |
 | Approach | Wafer-scale integration |
+| Strategic position | Last independent SRAM player |
 
 ---
 
@@ -86,18 +89,54 @@ Biggest chip ever made.
 
 ---
 
+## Post-NVIDIA-Groq landscape
+
+After NVIDIA licensed [[Groq]]'s architecture (Dec 2025):
+
+| Player | Status |
+|--------|--------|
+| [[Groq]] | NVIDIA partner, continues cloud |
+| [[SambaNova]] | Acquired by Intel |
+| Cerebras | **Last independent SRAM player** |
+
+**Why Cerebras wasn't acquired:**
+
+| Factor | Groq | Cerebras |
+|--------|------|----------|
+| Integration | Many-chip rack, fits NVLink | WSE = independent rack |
+| Architecture | Easier to integrate | Harder to merge |
+| Benchmarks | Strong | Ahead of Groq (public) |
+
+Cerebras's wafer-scale approach makes integration harder — but may preserve independence.
+
+---
+
+## Strategic options
+
+1. **Stay independent** — IPO, compete with Rubin SRAM
+2. **Hyperscaler acquisition** — Google, Amazon, Microsoft
+3. **NVIDIA deal** — Similar to Groq (licensing)
+4. **Sovereign AI focus** — G42 relationship, geopolitics
+
+**The bull case**: Being last independent SRAM player = strategic scarcity value.
+
+---
+
 ## Investment case
 
 **Bull:**
-- Differentiated architecture
-- Inference speed advantage
+- **Last independent SRAM player** — strategic scarcity
+- Ahead of Groq on public benchmarks
+- Differentiated architecture (wafer-scale)
 - Large model specialist
 - IPO = liquidity event
+- Potential acquisition target
 
 **Bear:**
-- NVIDIA ecosystem dominance
+- NVIDIA Rubin SRAM competes directly
 - Customer concentration (G42)
 - High system costs
+- Integration difficulty limits partnerships
 - Unproven at scale
 
 ---
@@ -110,10 +149,11 @@ Biggest chip ever made.
 | Valuation | ~$4B |
 | Approach | Wafer-scale chips |
 | Product | WSE-3, CS-3 |
+| Position | Last independent SRAM player |
 
-*Updated 2026-01-01*
+*Updated 2026-01-02*
 
 ---
 
-Related: [[NVIDIA]], [[Groq]], [[SambaNova]], [[Tenstorrent]]
+Related: [[NVIDIA]], [[Groq]], [[SambaNova]], [[Tenstorrent]], [[Inference disaggregation]]
 

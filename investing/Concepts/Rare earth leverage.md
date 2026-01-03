@@ -110,7 +110,23 @@ Timeline to reduce dependence: 10+ years minimum.
 - EV manufacturers (supply chain vulnerability)
 - Wind turbine producers
 - Defense contractors
+- **Semiconductor equipment** ([[ASML]] High-NA EUV needs Dy/Tb magnets)
 - Any company with rare earth-intensive products
+
+---
+
+## Semiconductor equipment vector
+
+A less obvious but critical dependency:
+
+| Equipment | REE role |
+|-----------|----------|
+| [[ASML]] High-NA EUV | Dy/Tb magnets for wafer/reticle stage positioning |
+| Precision actuators | Nanometer-scale motion control |
+
+**The chain**: China REE controls → ASML production bottleneck → [[1.4nm race]] delays → AI chip supply constrained
+
+**Mitigation (Dec 2025)**: REAlloys $21M SRC deal to scale North American heavy REE output 300% by 2027 — specifically for semiconductor equipment magnets.
 
 ---
 

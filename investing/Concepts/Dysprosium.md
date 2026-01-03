@@ -56,6 +56,21 @@ EV traction motors operate at 150-180°C. Without dysprosium, the magnets fail.
 | Wind turbines | 100-200g/MW | Clean energy |
 | Defense systems | Varies | Geopolitical tension |
 | Industrial motors | Varies | Efficiency mandates |
+| **Semiconductor equipment** | Varies | High-NA EUV ramp |
+
+### Semiconductor equipment angle
+
+Dysprosium is used in precision magnets for [[ASML]] High-NA EUV lithography stages:
+
+| Component | Role |
+|-----------|------|
+| Wafer stage magnets | Ultra-precise positioning |
+| Reticle stage magnets | Mask alignment |
+| Actuators | Nanometer-scale motion control |
+
+**The connection**: High-NA EUV enables [[1.4nm race]]. If China restricts Dy/Tb exports, it could bottleneck the very equipment needed for leading-edge chip manufacturing.
+
+**REAlloys deal (Dec 2025)**: $21M SRC investment to scale North American heavy REE output 300% by 2027 — specifically for semiconductor equipment magnets.
 
 **EV math**: 80M vehicles/year × 40g average = 3,200 tonnes Dy demand from EVs alone. Global production: ~2,000 tonnes/year.
 
