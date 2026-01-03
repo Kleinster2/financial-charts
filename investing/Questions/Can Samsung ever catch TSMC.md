@@ -31,4 +31,12 @@ Unlikely without exogenous shock. Samsung's best realistic outcome is "credible 
 
 ---
 
-Related: [[Foundry Wars]], [[How durable is TSMC's moat]], [[Will Intel Foundry Services succeed]]
+## Related
+
+- [[Samsung]] — subject (realistic path to parity?)
+- [[TSMC]] — incumbent (#1, ~60% share)
+- [[Samsung Taylor pivot]] — test case (asymmetric bet)
+- [[Why Samsung's aggression may be rational]] — context
+- [[Taiwan concentration risk]] — exogenous path (shock could revalue Samsung)
+- [[How durable is TSMC's moat]] — related question
+- [[Will Intel Foundry Services succeed]] — related question

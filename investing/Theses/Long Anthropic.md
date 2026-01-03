@@ -150,7 +150,15 @@ Claude Code isn't autocomplete — it's an orchestrator that reads codebases, ma
 
 ---
 
-Related: [[AI Race]], [[Anthropic]], [[Agentic AI]], [[Enterprise AI adoption]], [[Model lab economics]], [[Open source commoditization]]
+## Related
+
+- [[Anthropic]] — subject (agentic code orchestrator)
+- [[Agentic AI]] — opportunity (highest-value AI segment)
+- [[Enterprise AI adoption]] — context (coding = 55% of enterprise spend)
+- [[Model lab economics]] — comparison (9% burn vs OpenAI 57%)
+- [[Open source commoditization]] — risk (pricing pressure)
+- [[Google]] — investor (major, cloud partner)
+- [[Amazon]] — investor (Bedrock distribution)
 
 ---
 

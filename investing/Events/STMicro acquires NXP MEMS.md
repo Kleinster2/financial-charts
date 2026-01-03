@@ -69,3 +69,11 @@ aliases: [STMicro NXP MEMS deal]
 
 - [ST Newsroom](https://newsroom.st.com/media-center/press-item.html/c3350.html)
 - [GlobeNewswire](https://www.globenewswire.com/news-release/2025/07/24/3121481/0/en/STMicroelectronics-to-strengthen-position-in-sensors-with-acquisition-of-NXP-s-MEMS-sensors-business.html)
+
+---
+
+## Related
+
+- [[STMicro]] — acquirer (#6 → #3 in MEMS)
+- [[NXP]] — seller (focus on core automotive)
+- [[Infineon]] — competitor (European auto semiconductor)

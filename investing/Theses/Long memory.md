@@ -148,7 +148,15 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 
 ---
 
-Related: [[Foundry Wars]], [[SK Hynix]], [[Samsung]], [[Micron]], [[Memory shortage 2025-2026]], [[Export controls]], [[Short TSMC long Korea]]
+## Related
+
+- [[SK Hynix]] — long (HBM leader, 90%+ share, GM 63-67%)
+- [[Samsung]] — long (memory scale, DRAM/NAND breadth)
+- [[Micron]] — long (US-based, CHIPS Act beneficiary)
+- [[Memory shortage 2025-2026]] — catalyst (shortage confirmed)
+- [[Export controls]] — catalyst (VEU revoked, supply constrained)
+- [[Short TSMC long Korea]] — complementary thesis
+- [[HBM]] — driver (AI demand cannibalizing commodity DRAM)
 
 ---
 

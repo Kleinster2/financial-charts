@@ -64,4 +64,10 @@ If want diversified + value angle: **Samsung** memory earnings may surprise, but
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[SK Hynix]], [[Long memory]], [[Memory shortage 2025-2026]]
+## Related
+
+- [[Samsung]] — option (diversified, foundry drag)
+- [[SK Hynix]] — option (HBM leader, concentrated)
+- [[Long memory]] — context (both benefit from shortage)
+- [[Memory shortage 2025-2026]] — driver (pricing power)
+- [[HBM]] — key differentiator (SK Hynix leads)

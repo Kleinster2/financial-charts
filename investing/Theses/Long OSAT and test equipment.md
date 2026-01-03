@@ -137,7 +137,15 @@ Can hold both theses simultaneously. They're not mutually exclusive.
 
 ---
 
-Related: [[Foundry Wars]], [[ASE]], [[Cohu]], [[Final test bottleneck]], [[Advanced packaging]], [[NVIDIA]], [[AMD]]
+## Related
+
+- [[ASE]] — long (#1 OSAT, AI/HPC revenue doubling)
+- [[Cohu]] — long (test handler equipment, Eclipse platform)
+- [[Final test bottleneck]] — catalyst (emerging constraint)
+- [[Advanced packaging]] — related bottleneck
+- [[NVIDIA]] — customer (chips need test)
+- [[AMD]] — customer (chips need test)
+- [[Short TSMC long Korea]] — complementary thesis
 
 ---
 

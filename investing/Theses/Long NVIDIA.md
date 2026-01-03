@@ -131,7 +131,15 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 
 ---
 
-Related: [[NVIDIA]], [[Groq]], [[Cerebras]], [[Inference disaggregation]], [[Long Broadcom]], [[Long memory]]
+## Related
+
+- [[NVIDIA]] — subject (platform dominance)
+- [[Groq]] — absorbed (licensed architecture Dec 2025)
+- [[Cerebras]] — competitor/target (last independent)
+- [[Inference disaggregation]] — opportunity (Rubin SRAM variant)
+- [[Long Broadcom]] — related (but ASIC TAM at risk)
+- [[Long memory]] — complementary (GPUs drive HBM demand)
+- [[Long Anthropic]] — alignment (agentic drives decode demand)
 
 ---
 

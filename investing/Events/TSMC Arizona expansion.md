@@ -43,4 +43,11 @@ Key point: Arizona is ~5% of TSMC's total capacity. It cannot absorb Taiwan's ro
 
 ---
 
-Related: [[Foundry Wars]], [[Node lag as strategy]], [[Taiwan concentration risk]], [[Why TSMC can afford patience]]
+## Related
+
+- [[TSMC]] — subject (Arizona fabs Phase 1-3)
+- [[Node lag as strategy]] — mechanism (Arizona trails Taiwan by 1-2 nodes)
+- [[Taiwan concentration risk]] — driver (insurance against disruption)
+- [[CHIPS Act]] — enabler ($6.6B subsidies)
+- [[Why TSMC can afford patience]] — context (dominance enables patience)
+- [[Samsung Taylor pivot]] — contrast (different philosophy)

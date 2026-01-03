@@ -105,7 +105,12 @@ The Apple-TSMC relationship is mutually reinforcing — both benefit from the ot
 
 ---
 
-Related: [[Foundry Wars]], [[Apple]], [[TSMC]], [[Customer lock-in via co-design]], [[Long TSMC]]
+## Related
+
+- [[Apple]] — subject (silicon design advantage)
+- [[TSMC]] — partner (first access, co-design depth)
+- [[Customer lock-in via co-design]] — mechanism
+- [[Long TSMC]] — complementary thesis (Apple-TSMC mutually reinforcing)
 
 ---
 

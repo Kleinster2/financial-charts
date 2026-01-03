@@ -131,7 +131,16 @@ Taiwan's semiconductor dominance is structurally constrained while Korean player
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[SK Hynix]], [[TSMC]], [[N-2 rule]], [[Advanced packaging]], [[Can Samsung ever catch TSMC]], [[Leading edge race]]
+## Related
+
+- [[Samsung]] — long (foundry improving, xAI deal)
+- [[SK Hynix]] — long (HBM leader, packaging attack)
+- [[TSMC]] — short (high expectations, N-2 constraint)
+- [[N-2 rule]] — catalyst (constrains TSMC overseas)
+- [[Advanced packaging]] — opportunity (SK Hynix 2.5D line)
+- [[Memory shortage 2025-2026]] — tailwind (Korea pricing power)
+- [[Can Samsung ever catch TSMC]] — context question
+- [[Leading edge race]] — context (2nm competition)
 
 ---
 

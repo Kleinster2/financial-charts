@@ -38,4 +38,11 @@ This is the defining test case for [[Why Samsung's aggression may be rational]].
 
 ---
 
-Related: [[Foundry Wars]], [[Why Samsung's aggression may be rational]], [[Execution risk in foundries]], [[Can Samsung ever catch TSMC]]
+## Related
+
+- [[Samsung]] — subject (Taylor, Texas fab pivot)
+- [[Why Samsung's aggression may be rational]] — context (asymmetric bet logic)
+- [[Execution risk in foundries]] — exemplar (midstream node change)
+- [[xAI]] — customer (anchor for Taylor production)
+- [[CHIPS Act]] — driver (qualified for subsidies)
+- [[Can Samsung ever catch TSMC]] — question (Taylor is key test)

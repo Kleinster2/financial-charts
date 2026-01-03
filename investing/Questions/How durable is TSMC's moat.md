@@ -33,4 +33,12 @@ Durable for 5+ years absent Taiwan disruption. 10-year outlook depends on geopol
 
 ---
 
-Related: [[Foundry Wars]], [[Can Samsung ever catch TSMC]], [[Will Intel Foundry Services succeed]]
+## Related
+
+- [[TSMC]] — subject (~60% share, dominant)
+- [[Customer lock-in via co-design]] — moat layer (switching costs)
+- [[Yield as competitive moat]] — moat layer (accumulated learning)
+- [[Why TSMC can afford patience]] — moat layer (positional advantage)
+- [[Taiwan concentration risk]] — threat (geopolitics may override economics)
+- [[Can Samsung ever catch TSMC]] — related question
+- [[Will Intel Foundry Services succeed]] — related question

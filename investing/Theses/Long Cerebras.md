@@ -128,7 +128,14 @@ Cerebras's largest customer is [[G42]] (UAE):
 
 ---
 
-Related: [[Cerebras]], [[Groq]], [[NVIDIA]], [[SambaNova]], [[G42]], [[Inference disaggregation]]
+## Related
+
+- [[Cerebras]] — subject (last independent SRAM player)
+- [[Groq]] — peer (now NVIDIA-licensed)
+- [[SambaNova]] — peer (Intel-acquired)
+- [[NVIDIA]] — acquirer risk (or licensing opportunity)
+- [[G42]] — customer (Condor Galaxy, largest relationship)
+- [[Inference disaggregation]] — context (why SRAM matters)
 
 ---
 

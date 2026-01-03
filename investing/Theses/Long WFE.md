@@ -143,7 +143,17 @@ Current phase: Heavy construction — WFE tailwind.
 
 ---
 
-Related: [[Foundry Wars]], [[Long OSAT and test equipment]], [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[Rapidus]], [[CHIPS Act]]
+## Related
+
+- [[ASML]] — player (EUV monopoly)
+- [[Lam Research]] — player (deposition, etch)
+- [[Applied Materials]] — player (broadest portfolio)
+- [[KLA]] — player (inspection, metrology)
+- [[Long OSAT and test equipment]] — related thesis (different phase)
+- [[CHIPS Act]] — driver (fab construction funding)
+- [[TSMC]] — customer (Arizona buildout)
+- [[Samsung]] — customer (Taylor buildout)
+- [[Rapidus]] — customer (Japan 2nm)
 
 ---
 
