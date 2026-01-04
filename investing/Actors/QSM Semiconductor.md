@@ -90,6 +90,18 @@ $12M is tiny vs global fabs ($20B+), but it's a start.
 
 ---
 
+## Cap table / Investors
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (Mexican company) |
+| Total investment | $12M |
+| Funding | Government grants + private |
+
+**Note:** Limited public disclosure. First Mexican fab is largely symbolic. May have government backing via CONACYT or economic development programs.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -1,48 +1,161 @@
-#actor #memory #japan #nand
+---
+aliases: [Toshiba Memory]
+---
+#actor #memory #japan #nand #semiconductor
 
-**Kioxia** — Japanese NAND flash maker, #3 globally (behind Samsung, SK Hynix).
+**Kioxia** — Japanese NAND flash maker. #2 globally. WD joint venture. IPO stalled. Bain Capital owned.
 
 ---
 
-## Relevance to semis
+## Why Kioxia matters
 
-Part of the memory oligopoly. Benefits from same [[Memory shortage 2025-2026]] dynamics but Japan-based.
+Second-largest NAND producer, but structurally disadvantaged:
+
+| Metric | Value |
+|--------|-------|
+| NAND rank | #2 globally |
+| Ownership | Bain Capital (~56%), Toshiba, others |
+| Status | Private (IPO attempts failed) |
+| JV partner | [[Western Digital]] |
+| HQ | Tokyo, Japan |
 
 ---
 
 ## Market position
 
-| Segment | Position |
-|---------|----------|
-| NAND | #3 (behind Samsung, SK Hynix) |
-| DRAM | Not a player |
-| HBM | Not a player |
+| Segment | Position | Notes |
+|---------|----------|-------|
+| NAND | #2 (behind Samsung) | ~20% market share |
+| DRAM | None | Not a player |
+| HBM | None | Not a player |
+
+**The gap**: No DRAM or HBM means missing the AI memory boom that's driving [[SK Hynix]] and [[Samsung]].
 
 ---
 
-## Key facts
+## Western Digital JV
 
-- Spun off from Toshiba (2018)
-- Bain Capital majority owner
-- JV with Western Digital on NAND fabs
-- IPO attempts have stalled
+| Aspect | Details |
+|--------|---------|
+| Structure | Joint NAND fabs in Japan (Yokkaichi, Kitakami) |
+| Economics | Shared capex, separate products |
+| History | Dates back to SanDisk partnership |
+| Complexity | Coordination on investment timing |
+
+**The arrangement**: WD and Kioxia share fab costs but compete on products. Awkward but capital-efficient.
 
 ---
 
-## Competitive dynamics
+## Origins
 
-| vs Competitor | Status |
-|---------------|--------|
-| [[Samsung]] | Behind on scale and technology |
-| [[SK Hynix]] | Behind, especially no HBM |
-| [[Micron]] | Similar NAND position, but Micron has DRAM |
+| Date | Event |
+|------|-------|
+| 2017 | Toshiba sells memory unit to Bain consortium |
+| 2018 | Renamed "Kioxia" (combination of Japanese 記憶 "kioku" = memory + Greek "axia" = value) |
+| 2019 | IPO planned |
+| 2020 | IPO postponed (COVID, market conditions) |
+| 2021 | WD merger talks collapse |
+| 2023 | IPO attempt again, withdrawn |
+| 2024 | Still private |
+
+**The pattern**: Can't IPO, can't merge. Stuck.
+
+---
+
+## Failed WD merger
+
+**2021 merger talks:**
+- WD proposed acquiring Kioxia
+- Would have created NAND giant
+- Collapsed over valuation, antitrust concerns
+- Kioxia wanted higher price
+- JV continues awkwardly
+
+---
+
+## IPO struggles
+
+| Attempt | Outcome | Reason |
+|---------|---------|--------|
+| 2020 | Postponed | COVID, chip cycle downturn |
+| 2023 | Withdrawn | Weak NAND pricing, investor appetite |
+| 2024+ | Pending | Waiting for cycle improvement |
+
+**Bain's problem**: Need exit. IPO window keeps closing.
+
+---
+
+## Competitive position
+
+| vs Competitor | Assessment |
+|---------------|------------|
+| [[Samsung]] | Behind on scale, technology, no DRAM |
+| [[SK Hynix]] | Far behind (no HBM exposure) |
+| [[Micron]] | Similar NAND, but Micron has DRAM |
+| [[Western Digital]] | Partner/competitor hybrid |
+
+**Structural disadvantage**: Pure NAND play in an era where HBM is the prize.
+
+---
+
+## Technology
+
+| Generation | Status |
+|------------|--------|
+| 162-layer | Production |
+| 218-layer | Ramping |
+| BiCS (3D NAND) | Kioxia's architecture |
+
+Competitive on NAND technology, but technology alone doesn't fix the business model.
+
+---
+
+## Investment case
+
+**Bull:**
+- NAND cycle recovery
+- #2 position has value
+- WD JV provides scale
+- IPO could unlock value
+- Japan government support
+
+**Bear:**
+- No HBM = missing AI boom
+- IPO keeps failing
+- Private equity overhang
+- Commodity NAND margins
+- Samsung/SK Hynix pulling ahead
 
 ---
 
 ## For theses
 
-**[[Long memory]]**: Benefits from NAND shortage but less exposed to HBM upside than Korean players
+**[[Long memory]]**: Partial beneficiary of NAND shortage, but missing HBM upside. Less attractive than Korean memory plays.
+
+**Not a priority**: Pure NAND exposure without DRAM/HBM makes Kioxia a second-tier memory play.
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[SK Hynix]], [[Micron]], [[Memory shortage 2025-2026]]
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Status | Private |
+| HQ | Tokyo, Japan |
+| Founded | 2017 (spun from Toshiba) |
+| Employees | ~15,000 |
+| Fabs | Yokkaichi, Kitakami (Japan) |
+
+*Updated 2026-01-03*
+
+---
+
+## Related
+
+- [[Western Digital]] — JV partner (shared NAND fabs)
+- [[Samsung]] — competitor (#1 NAND)
+- [[SK Hynix]] — competitor (NAND + HBM leader)
+- [[Micron]] — competitor (NAND + DRAM)
+- [[Memory shortage 2025-2026]] — tailwind (NAND pricing)
+- [[Long memory]] — thesis (partial beneficiary)
+- [[Japan Semiconductor Revival]] — context (government support)

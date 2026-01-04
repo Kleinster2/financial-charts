@@ -111,6 +111,17 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | AMZN (NASDAQ) |
+| Market cap | ~$2.4T |
+| Revenue (TTM) | ~$620B |
+| AWS revenue | ~$110B/year |
+| AI capex | $75B+ (2025) |
+| P/E | ~45x |
+
 *Updated 2025-12-30*
 
 ## Related

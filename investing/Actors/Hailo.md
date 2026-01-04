@@ -101,6 +101,31 @@ GenAI moving to edge.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2018 | $12M | — |
+| Series B | 2020 | $60M | — |
+| Series C | 2021 | $136M | ~$1B |
+| Series D | 2023 | $120M | — |
+| **Total** | | **$340M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Poalim Equity | Israeli bank |
+| NTT Finance | Japanese strategic |
+| ABB | Industrial strategic |
+| Qualcomm Ventures | Strategic |
+| Latitude Ventures | Israeli VC |
+| Entropy | Growth |
+
+**Total raised:** $340M+
+
+---
+
 ## Quick stats
 
 | Metric | Value |

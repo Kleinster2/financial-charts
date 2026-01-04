@@ -97,6 +97,42 @@ Every country getting DC investment.
 
 ---
 
+## Chinese DC buildout (post-DeepSeek)
+
+**New pattern:** Chinese tech firms building data centers directly in SEA instead of importing chips to mainland China.
+
+| Company | SEA Activity |
+|---------|--------------|
+| [[ByteDance]] | DCs in Malaysia, Singapore |
+| [[Alibaba]] | Expanding SEA cloud presence |
+| [[Tencent]] | Regional DC expansion |
+| Others | Dozens of Chinese-built DCs |
+
+**Why SEA:**
+- Chips stay "in SEA" technically — not classified as China import
+- SEA governments welcome investment
+- Avoids export control scrutiny
+- Lower regulatory friction than mainland
+
+**Scale of chip flows (Jan-Oct 2025):**
+
+| Country | Taiwan chip imports |
+|---------|---------------------|
+| Malaysia | $12B |
+| Singapore | $7B |
+| Thailand | $3B |
+| Indonesia | $1.2B |
+| **Total** | **$23B** |
+
+**The question:** Does SEA's legitimate AI demand justify $23B in imports? Or is this [[SEA chip diversion]]?
+
+**Geopolitical complexity:**
+- ASEAN countries benefit from investment either way
+- Creates tension with US export control objectives
+- SEA positioned as "neutral ground" for AI compute
+
+---
+
 ## AI opportunity
 
 | Country | AI Strategy |
@@ -152,10 +188,13 @@ Singapore has most capital.
 - [[Singapore Tech]] — hub (regional HQ, $1.2T SWF capital)
 - [[Indonesia Tech]] — scale (275M population, super-apps)
 - [[Vietnam Tech]] — manufacturing (Samsung, Intel presence)
-- [[Malaysia Tech]] — semiconductor (50+ years backend)
+- [[Malaysia Tech]] — semiconductor (50+ years backend, $12B chip imports)
 - [[Thailand Tech]] — automotive (EV production)
 - [[Philippines Tech]] — services (BPO leader)
 - [[Grab]] — champion (Singapore, ride-hailing)
 - [[Sea Group]] — champion (Singapore, e-commerce/gaming)
 - [[GoTo]] — champion (Indonesia depth)
+- [[SEA chip diversion]] — export control leakage route
+- [[Export controls]] — driving Chinese DC buildout in SEA
+- [[ByteDance]], [[Alibaba]], [[Tencent]] — Chinese firms with SEA DC presence
 

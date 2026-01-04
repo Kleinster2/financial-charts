@@ -90,6 +90,20 @@ This prevents overwriting detailed notes with generic templates. Existing files 
 
 ## Actor conventions
 
+### Actors don't need to be investable
+
+Actors include any entity that affects investment outcomes:
+
+| Type | Examples | Why track |
+|------|----------|-----------|
+| Investable | [[NVIDIA]], [[Chevron]] | Direct positions |
+| Policy-makers | [[BIS]], [[OFAC]], [[US Government]] | Drive sector-wide moves |
+| Private companies | [[Anthropic]], [[OpenAI]] | Shape competitive dynamics |
+| Geographies | [[Venezuela]], [[Taiwan]] | Geopolitical risk factors |
+| Individuals | [[Jensen Huang]], [[Sam Altman]] | Key decision-makers |
+
+**Principle:** Non-investable actors that drive investable outcomes are essential context.
+
 ### Cap tables for private companies
 
 Private actors (non-public companies) should include a **cap table / investors section** with:

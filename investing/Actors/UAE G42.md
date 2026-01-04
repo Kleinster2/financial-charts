@@ -113,6 +113,25 @@ G42 = more operational.
 
 ---
 
+## Cap table / Investors
+
+| Transaction | Date | Amount | Details |
+|-------------|------|--------|---------|
+| [[Microsoft]] investment | April 2024 | $1.5B | Strategic stake |
+| Various rounds | 2018-2024 | Undisclosed | UAE sovereign backing |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Microsoft]] | $1.5B (2024), Azure partnership |
+| UAE sovereign funds | Backing via Abu Dhabi |
+| Silver Lake | Co-investor with Microsoft |
+
+**Backing:** G42 is UAE sovereign-backed. Chairman Tahnoun bin Zayed = National Security Advisor and Royal family.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

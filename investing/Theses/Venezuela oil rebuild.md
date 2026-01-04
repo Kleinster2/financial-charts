@@ -1,0 +1,140 @@
+#thesis #oil #latam #2026
+
+**Venezuela oil rebuild** — US capture of Maduro opens path to rebuilding world's largest oil reserves. Multi-year opportunity across majors, services, and refiners.
+
+---
+
+## Thesis summary
+
+Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions rebuilding the industry. If successful:
+
+- 303B barrels unlocked (world's largest reserves)
+- Production could triple from ~1M to 3M bpd
+- Gulf Coast refiners get cheap, nearby heavy crude
+- Oil services get multi-year infrastructure contracts
+
+---
+
+## The opportunity
+
+| Metric | Current | Potential |
+|--------|---------|-----------|
+| Production | ~1M bpd | 2.5-3M bpd |
+| Reserves | 303B barrels | Same (untapped) |
+| Infrastructure | Degraded | Needs $50B+ rebuild |
+| Timeline | — | 3-5+ years |
+
+**Why it collapsed:** Chavez nationalization (2007) drove out expertise. PDVSA became patronage vehicle. US sanctions (2019) accelerated decline.
+
+---
+
+## Investment hierarchy
+
+### Tier 1: Direct exposure
+
+| Company | Angle | Risk/Reward |
+|---------|-------|-------------|
+| [[Chevron]] | Only US operator, positioned but uncertain | Medium risk, first-mover |
+| [[Exxon]] | Could return, won arbitration | Lower risk, late entry |
+
+### Tier 2: Infrastructure rebuild
+
+| Company | Role | Leverage |
+|---------|------|----------|
+| [[Schlumberger]] | Largest services, international | High |
+| [[Halliburton]] | #2 services, historical presence | High |
+| [[Baker Hughes]] | Diversified, equipment | Moderate |
+
+### Tier 3: Heavy crude buyers ([[Gulf Coast refiners]])
+
+| Company | Profile | Venezuela beta |
+|---------|---------|----------------|
+| [[PBF Energy]] | Smallest, pure-play | Highest |
+| [[Valero]] | Largest independent | High |
+| [[Marathon Petroleum]] | Largest overall | High |
+| [[Phillips 66]] | Diversified | Moderate |
+
+---
+
+## Bull case
+
+- Trump committed to US control of oil
+- 303B barrels = decades of supply
+- Gulf Coast refineries purpose-built for Venezuela crude
+- Services companies need new growth markets
+- US energy security priority
+- Transition government cooperates
+
+**Upside:** Multi-year capex cycle, lower oil prices long-term, refiner margin expansion.
+
+---
+
+## Bear case
+
+- Security environment unstable
+- Transition government may not form
+- Russia/China opposition
+- Infrastructure more degraded than expected
+- Oil prices already low (oversupplied)
+- ESG/political backlash on "oil grab"
+- Takes 5+ years to meaningfully increase production
+
+**Risk:** Near-term volatility, companies hesitant without stability.
+
+---
+
+## Signposts to watch
+
+| Signal | Bullish | Bearish |
+|--------|---------|---------|
+| Transition government | Forms, pro-US | Chaos, contested |
+| Chevron operations | Resume, expand | Suspended |
+| Exxon announcement | Returns to Venezuela | Stays out |
+| Services contracts | Awarded | Delayed |
+| Security | Stable | Violence |
+| Russia/China | Accept outcome | Intervene |
+
+---
+
+## How to play it
+
+**Aggressive (high conviction):**
+- PBF Energy (highest refiner beta)
+- Halliburton/SLB (services leverage)
+
+**Moderate:**
+- Valero (largest independent refiner)
+- Marathon Petroleum (largest overall refiner)
+- Chevron (direct but diversified)
+
+**Conservative:**
+- Exxon (optionality, less exposed)
+- Phillips 66 (diversified)
+- Baker Hughes (energy transition hedge)
+
+---
+
+## Timeline
+
+| Phase | Timing | What happens |
+|-------|--------|--------------|
+| Chaos | Now | Transition uncertainty, stock volatility |
+| Stabilization | 3-6 months? | Government forms, contracts awarded |
+| Early rebuild | 1-2 years | Services ramp, drilling restarts |
+| Production growth | 3-5 years | Meaningful volume increase |
+| Full potential | 5-10 years | Approach 3M bpd |
+
+---
+
+## Related
+
+- [[Maduro capture 2026]] — catalyst event
+- [[Venezuela]] — country context
+- [[Chevron]], [[Exxon]] — oil majors
+- [[Schlumberger]], [[Halliburton]], [[Baker Hughes]] — services
+- [[Gulf Coast refiners]] — refining complex
+- [[Valero]], [[Marathon Petroleum]], [[PBF Energy]], [[Phillips 66]] — refiners
+- [[CNPC]], [[Sinopec]] — losers (China)
+- [[Russia]] — loser (ally)
+- [[Power constraints]] — if oil supply grows, energy costs drop
+

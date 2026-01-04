@@ -64,6 +64,21 @@ As AI becomes national security priority:
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private partnership |
+| AUM | ~$3B+ |
+| Fund size | ~$425M per fund |
+| Structure | Equal partnership (no senior/junior) |
+| Style | Early-stage, board seats |
+| Notable exits | Uber, Twitter, Snap, Discord |
+
+**Unique model:** Equal partnership, smaller funds, concentrated bets.
+
+---
+
 *Updated 2026-01-01*
 
 ## Related

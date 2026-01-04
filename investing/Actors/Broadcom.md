@@ -29,11 +29,17 @@ They're not a hyperscaler — they're an **enabler** that provides:
 | Customer | Product | Scale |
 |----------|---------|-------|
 | Google | TPU design | Massive (internal + cloud) |
-| Anthropic | TPUv7 | 1M units (~$10B direct purchase) |
+| **Anthropic** | TPUv7 | **~1M units direct** |
 | Meta | Custom AI silicon | Large |
+| OpenAI | Titan chips | $10B deal |
 | Others | Various ASICs | Varies |
 
-Anthropic deal (Dec 2025): Buying 400k TPUv7 directly from Broadcom for own facilities, plus 600k via Google Cloud.
+**Anthropic deal (Jan 2026, per SemiAnalysis):**
+- ~1,000,000 TPUv7 units purchased directly from Broadcom
+- Deployed in Anthropic-controlled facilities (not Google Cloud)
+- DC infrastructure from [[TeraWulf]], [[Hut 8]], [[Cipher Mining]]
+- [[FluidStack]] handles deployment operations
+- Largest single TPU deployment ever
 
 ---
 
@@ -163,10 +169,24 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | AVGO (NASDAQ) |
+| Market cap | ~$1.1T |
+| Revenue (FY25) | ~$52B |
+| AI revenue (FY25) | ~$14.5B |
+| AI revenue (F27E) | $100B (Citi) |
+| Gross margin | ~65% |
+| Dividend yield | ~1.1% |
+
+---
+
 ## Related
 
 - [[Google]] — major customer (TPU design), disintermediating
-- [[Anthropic]] — customer ($10B TPUv7 purchase)
+- [[Anthropic]] — customer (~1M TPUv7 direct purchase)
 - [[Meta]] — customer (custom ASICs)
 - [[OpenAI]] — customer ($10B Titan chip deal)
 - [[TSMC]] — foundry (95% of wafers)
@@ -175,5 +195,7 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 - [[Coherent]] — competitor (optical)
 - [[Lumentum]] — competitor (optical)
 - [[Arista Networks]] — customer (networking silicon)
+- [[TeraWulf]], [[Hut 8]], [[Cipher Mining]] — DC partners for Anthropic TPUs
+- [[FluidStack]] — deployment partner for Anthropic
 - [[Long Broadcom]] — thesis
 - [[Hyperscaler chip roadmap]] — disintermediation risk context

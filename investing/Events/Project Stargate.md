@@ -41,7 +41,9 @@ aliases: [Stargate, Stargate JV]
 | Power | Gigawatts of capacity |
 | Geography | Global expansion |
 
-**First site**: Already under construction near Abilene, Texas.
+**First site**: Under construction near Abilene, Texas.
+
+**Status (Jan 2026):** Per SemiAnalysis, Abilene "not going BRRR" — progressing slower than OpenAI's UAE Stargate site which uses on-site gas turbines ([[BYOP]]).
 
 ---
 
@@ -202,5 +204,7 @@ Stargate forces all hyperscalers to respond.
 - [[Oracle]] — JV partner
 - [[NVIDIA]] — Primary supplier
 - [[Power constraints]] — Key bottleneck
+- [[BYOP]] — Alternative power strategy (UAE Stargate using on-site gas)
+- [[Ansaldo Energia]] — UAE Stargate turbine supplier
 - [[AI hyperscalers]] — Competitive context
 - [[Memory shortage 2025-2026]] — Demand driver

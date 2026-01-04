@@ -140,6 +140,34 @@ Autonomous systems depend on rare earth permanent magnets:
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2017 | $17M | — |
+| Series B | 2018 | $41M | — |
+| Series C | 2019 | $200M | $1.9B |
+| Series D | 2020 | $200M | $4.6B |
+| Series E | 2022 | $1.5B | $8.5B |
+| Series F | 2024 | $1.5B | $14B |
+| **Total** | | **$2.8B+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[a16z]] | Lead investor (multiple rounds) |
+| Founders Fund | Peter Thiel (early) |
+| General Catalyst | Growth |
+| 8VC | Growth |
+| Valor Equity Partners | Growth |
+| Elad Gil | Angel |
+| Lux Capital | Growth |
+
+**Total raised:** $2.8B+
+
+---
+
 ## Quick stats
 
 | Metric | Value |

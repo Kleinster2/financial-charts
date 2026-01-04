@@ -10,7 +10,7 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 
 ---
 
-## Financial position (Dec 2025)
+## Financial position (Jan 2026)
 
 | Metric | Value |
 |--------|-------|
@@ -18,9 +18,12 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 | Burn rate | 57% of revenue |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
-| Latest valuation | **$157B** (Oct 2024 round) |
+| Seeking valuation | **$500B** (would be most valuable private company) |
+| Previous valuation | $157B (Oct 2024 round) |
 
-Burning 14x more cash than [[Anthropic]].
+Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable private company.
+
+**Tokenization:** Robinhood launched tokenized OpenAI shares in Europe (June 2025). OpenAI publicly did not endorse the move. See [[Tokenized private shares]].
 
 ---
 
@@ -86,6 +89,27 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 ---
 
+## Stargate infrastructure
+
+**UAE Stargate (per SemiAnalysis, Jan 2026):**
+
+| Metric | Value |
+|--------|-------|
+| Location | UAE |
+| Power source | 4x Ansaldo Energia AE94.3 gas turbines |
+| Gross capacity | 1.3GW |
+| Derated capacity | **1GW** (desert heat penalty -23%) |
+| Phase 1 | 200MW by YE2026 |
+| Status | "Going well" |
+
+**Key insight:** On-site gas turbines = BYOP (Bring Your Own Power). Desert heat derates capacity by 23%.
+
+**Texas Abilene (contrast):** "GPUs not going BRRR" — UAE progressing faster than domestic site.
+
+**Turbine supplier:** [[Ansaldo Energia]] (Italian)
+
+---
+
 ## Key risks
 
 - **Cash burn** — $74B losses before profitability
@@ -94,6 +118,7 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 - **Regulatory** — Antitrust, safety regulations
 - **Talent exodus** — Key researchers leaving
 - **Structure transition** — Nonprofit to for-profit messy
+- **Execution variance** — UAE site ahead of Texas
 
 ---
 
@@ -114,3 +139,8 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 - [[Model lab economics]] — thesis (bearish on cash burn)
 - [[Agentic AI]] — product direction
 - [[OpenAI talent exodus]] — risk (key researchers leaving)
+- [[Tokenized private shares]] — retail exposure via Robinhood
+- [[UAE Tech]] — Stargate UAE site (1GW)
+- [[Ansaldo Energia]] — turbine supplier (UAE Stargate)
+- [[BYOP]] — on-site power generation pattern
+- [[Power constraints]] — grid gap context

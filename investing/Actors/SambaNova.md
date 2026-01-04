@@ -100,6 +100,31 @@ Not competing for hyperscaler business.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2017 | $56M | — |
+| Series B | 2018 | $150M | — |
+| Series C | 2020 | $250M | — |
+| Series D | 2021 | $676M | $5.1B |
+| **Total** | | **$1.1B+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| SoftBank Vision Fund | Lead (Series D) |
+| BlackRock | Growth |
+| Intel Capital | Strategic |
+| GV (Google Ventures) | Growth |
+| Walden International | Early |
+| WRVI Capital | Early |
+
+**Total raised:** $1.1B+
+
+---
+
 ## Quick stats
 
 | Metric | Value |

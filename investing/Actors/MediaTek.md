@@ -68,4 +68,11 @@ Primary customer of [[TSMC]]. Taiwan-to-Taiwan supply chain.
 
 ---
 
-Related: [[Foundry Wars]], [[Google]], [[Broadcom]], [[TSMC]], [[AI hyperscalers]]
+## Related
+
+- [[TSMC]] — primary foundry (Taiwan-to-Taiwan)
+- [[Broadcom]] — competitor (hyperscaler custom silicon)
+- [[Google]] — customer (TPU design partner)
+- [[Microsoft]] — potential customer (Maia)
+- [[AI hyperscalers]] — customer base
+- [[Foundry Wars]] — ecosystem context

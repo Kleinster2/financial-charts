@@ -20,26 +20,38 @@ Largest private enterprise software company, AI infrastructure critical:
 
 ---
 
-## December 2025 funding
+## Cap table / Investors
 
-**$4B Series L at $134B:**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2013 | $14M | — |
+| Series B | 2014 | $33M | — |
+| Series C | 2016 | $60M | — |
+| Series D | 2017 | $140M | — |
+| Series E | 2019 | $250M | $2.75B |
+| Series F | 2019 | $400M | $6.2B |
+| Series G | 2021 | $1B | $28B |
+| Series H | 2023 | $500M | $43B |
+| Series I | 2024 | $500M | $55B |
+| Series J | Aug 2025 | — | $100B |
+| Series L | Dec 2025 | $4B+ | $134B |
+| **Total** | | **$10B+** | |
 
-| Metric | Value |
-|--------|-------|
-| Round | Series L |
-| Amount | $4B+ |
-| Valuation | $134B |
-| Prior (Aug 2025) | $100B |
+**Key investors:**
 
-**Investors:**
-- Insight Partners (lead)
-- [[a16z]]
-- Thrive Capital
-- [[Tiger Global]]
-- [[Blackstone]]
-- Fidelity
-- T. Rowe Price
-- JPMorgan Asset Management
+| Investor | Notes |
+|----------|-------|
+| [[a16z]] | Multiple rounds |
+| Insight Partners | Series L lead |
+| Thrive Capital | Growth |
+| [[Tiger Global]] | Growth |
+| [[Blackstone]] | Growth |
+| Fidelity | Crossover |
+| T. Rowe Price | Crossover |
+| JPMorgan Asset Management | Growth |
+| Franklin Templeton | Growth |
+
+**Total raised:** $10B+
 
 ---
 

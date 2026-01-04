@@ -49,6 +49,25 @@ Converting coal country to nuclear — politically significant.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A-C | 2008-2020 | $500M+ | — |
+| Recent | 2022-2024 | $500M+ | ~$4B+ |
+| **Total** | | **$1B+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Bill Gates]] | Founder, $1B+ personal |
+| SK Group | Korean strategic |
+| DOE | $2B+ ARDP funding |
+| Various VCs | Growth |
+
+**Total raised:** $1B+ (private) + $2B+ (DOE grants)
+
 ## Bill Gates involvement
 
 | Role | Details |
@@ -70,6 +89,20 @@ TerraPower's Natrium requires HALEU fuel:
 - DOE accelerating domestic HALEU
 
 This is a supply chain bottleneck for all advanced reactors.
+
+---
+
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private |
+| Total raised | $1B+ |
+| Gates investment | $1B+ personal |
+| DOE funding | $2B+ |
+| Valuation | $4B+ (estimated) |
+| Revenue | $0 (pre-commercial) |
+| First plant target | Late 2020s |
 
 ---
 

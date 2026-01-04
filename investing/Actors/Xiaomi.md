@@ -78,13 +78,38 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ---
 
-## EV business (tangent)
+## EV business
 
-**Xiaomi SU7:**
-- Electric vehicle launched 2024
-- Growing rapidly in China
-- Less memory-intensive than phones
-- Diversification from smartphone squeeze
+**Xiaomi SU7 — faster to profit than Tesla:**
+
+| Metric | Value |
+|--------|-------|
+| 2024 launch | SU7 sedan |
+| 2025 sales | 410,000 units |
+| 2026 target | 550,000 units (+34%) |
+| Profitability | November 2025 (~18 months) |
+| Tesla comparison | Took years to reach profitability |
+
+**Upcoming models:**
+- 5-seat model
+- 7-seat extended-range SUV (small gas engine recharges battery)
+- Up to 4 new launches/refreshes planned
+
+**Industry reaction:**
+- Karl-Thomas Neumann (ex-VW China CEO): SU7 Ultra is "crying loud warning sign" for Western carmakers
+- MKBHD: Software integration "awesome"
+
+**Regulatory pressure:** Two SU7 crashes triggered draft rules on ADAS, door handles, battery safety.
+
+---
+
+## Xring chip
+
+**3nm processor (May 2025):**
+- Xring O1 chip for tablets
+- Targeting Apple/Qualcomm performance levels
+- Xiaomi Tablet 7 Ultra
+- Vertical integration attempt
 
 ---
 
@@ -95,12 +120,14 @@ Non-vertically-integrated Android OEMs hurt most.
 - No vertical integration
 - Competition from Samsung (integrated)
 - China market saturation
+- EV overcapacity, pricing pressure
 
 **Bull:**
-- EV diversification
+- EV profitable faster than Tesla
+- 550K EV target for 2026
 - Strong brand in emerging markets
 - If memory normalizes
-- IoT ecosystem
+- Xring chip = vertical integration step
 
 ---
 
@@ -114,7 +141,7 @@ Non-vertically-integrated Android OEMs hurt most.
 | Smartphone rank | #3 global |
 | Memory cost impact | +25% per phone (2026) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-04*
 
 ---
 
@@ -124,3 +151,5 @@ Non-vertically-integrated Android OEMs hurt most.
 - [[Samsung]] — competitor (has own memory)
 - [[Memory shortage 2025-2026]] — crisis (+25% DRAM cost)
 - [[Apple]] — competitor (premium absorbs cost)
+- [[Tesla]] — EV competitor (Xiaomi profitable faster)
+- [[BYD]] — China EV leader

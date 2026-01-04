@@ -3,45 +3,143 @@ aliases: [SoftBank Group, SBG]
 ---
 #actor #investor #japan
 
-**SoftBank Group** — Japanese conglomerate and tech investor. Led by [[Masayoshi Son]]. Owns [[Arm Holdings]] (~90%), runs Vision Fund.
+**SoftBank Group** — Japanese conglomerate and tech investor. Led by [[Masayoshi Son]]. Owns [[Arm Holdings]] (~90%), leads [[Project Stargate]] ($500B AI infrastructure).
 
 ---
 
-## Why it matters
+## Why SoftBank matters
 
-SoftBank is a leveraged bet on AI/tech through:
-- **Arm Holdings**: Near-monopoly on mobile CPU architecture, expanding to AI
-- **Vision Fund**: $100B+ deployed into tech startups
-- **Sprint/T-Mobile**: Telecom consolidation play (exited)
+SoftBank is making the largest AI infrastructure bet in history:
+
+| Role | Details |
+|------|---------|
+| Stargate lead | $100B+ initial, $500B total commitment |
+| Arm ownership | ~90% of mobile CPU monopoly |
+| Vision Fund | $150B+ deployed |
+| AI ambition | Masa targeting AGI leadership |
 
 ---
 
-## Key holdings
+## Project Stargate (Jan 2025)
 
-| Asset | Stake | Notes |
-|-------|-------|-------|
-| [[Arm Holdings]] | ~90% | Crown jewel, IPO'd 2023 |
-| Vision Fund portfolio | Various | ByteDance, Coupang, DoorDash exits |
-| Alibaba | Reduced | Was largest outside shareholder |
+**Lead investor in $500B AI infrastructure initiative:**
+
+| Metric | Value |
+|--------|-------|
+| Total commitment | $500B over 4 years |
+| Initial investment | $100B |
+| Partners | [[OpenAI]], [[Oracle]], MGX |
+| Role | Lead investor, chairman (Masa) |
+
+**Announced at White House** with Trump administration endorsement.
+
+See [[Project Stargate]] for full details.
+
+---
+
+## Arm Holdings
+
+**Crown jewel (~90% ownership):**
+
+| Metric | Value |
+|--------|-------|
+| Market value | ~$150B+ |
+| Position | Near-monopoly on mobile CPU architecture |
+| AI angle | Expanding to datacenter, AI inference |
+| IPO | September 2023 |
+
+Arm architecture in virtually every smartphone. Now pushing into:
+- Data center CPUs (AWS Graviton, Ampere)
+- AI inference chips
+- Automotive
 
 ---
 
 ## Vision Fund
 
-Two funds totaling $150B+:
-- VF1: Saudi PIF + Abu Dhabi backing
-- VF2: Mostly SoftBank's own capital
+**Two funds totaling $150B+:**
 
-Mixed record — WeWork disaster but also major wins (Coupang, DoorDash).
+| Fund | Size | Backers |
+|------|------|---------|
+| Vision Fund 1 | ~$100B | Saudi PIF, Abu Dhabi |
+| Vision Fund 2 | ~$56B | Mostly SoftBank |
+
+**Track record:**
+- **Wins:** Coupang, DoorDash, ByteDance
+- **Losses:** WeWork, Katerra, Greensill
+- **Mixed:** Many still private
 
 ---
 
-## Relevance to AI/semis
+## Key holdings
 
-- Arm's architecture in every smartphone, expanding to datacenter/AI
-- [[Masayoshi Son]] vocal about AGI timeline, wants SoftBank to lead
-- Potential acquirer of AI companies
-- Arm + NVIDIA deal blocked (2022) — would have been transformative
+| Asset | Stake | Value | Notes |
+|-------|-------|-------|-------|
+| [[Arm Holdings]] | ~90% | ~$150B | Crown jewel |
+| [[OpenAI]] | Minority | — | Via Stargate |
+| ByteDance | ~2% | ~$7B | Early investor |
+| Alibaba | Reduced | ~$10B | Was largest holder |
+| T-Mobile | — | Exited | Sprint merger |
+
+---
+
+## Masayoshi Son's AI vision
+
+**Masa believes:**
+- AGI coming within 10 years
+- SoftBank must lead AI infrastructure buildout
+- Arm + Stargate = foundation for AI future
+- Willing to bet the company on AI
+
+**Risk:** Concentrated bet on one man's vision.
+
+---
+
+## Financial position
+
+| Metric | Value |
+|--------|-------|
+| Ticker | 9984.T (Tokyo) |
+| Market cap | ~$100B |
+| NAV | ~$150B+ |
+| Net debt | ~$40B |
+| LTV ratio | ~15% |
+
+**Discount to NAV:** SoftBank typically trades at 30-50% discount due to:
+- Conglomerate structure
+- Masa execution risk
+- Vision Fund volatility
+
+---
+
+## Investment implications
+
+**Bull case:**
+- Stargate = $500B AI infrastructure play
+- Arm in every AI device (phones, edge, cars)
+- Discount to NAV may close
+- Masa right about AGI timeline
+
+**Bear case:**
+- Execution risk (WeWork, etc.)
+- Concentrated bets
+- Japan conglomerate discount persistent
+- Stargate may not deploy full $500B
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | 9984.T (Tokyo) |
+| Market cap | ~$100B |
+| NAV | ~$150B+ |
+| Arm stake | ~90% (~$150B) |
+| Vision Fund | $150B+ AUM |
+| Stargate role | Lead investor ($100B+) |
+
+*Updated 2026-01-04*
 
 ---
 
@@ -49,6 +147,9 @@ Mixed record — WeWork disaster but also major wins (Coupang, DoorDash).
 
 - [[Arm Holdings]] — crown jewel (~90% ownership)
 - [[Masayoshi Son]] — founder/CEO
-- [[NVIDIA]] — blocked acquirer (2022 Arm deal)
+- [[Project Stargate]] — lead investor ($500B AI infrastructure)
+- [[OpenAI]] — Stargate partner
+- [[Oracle]] — Stargate partner
+- [[NVIDIA]] — GPU supplier (Stargate)
 - [[Saudi PIF]] — Vision Fund LP
-- [[OpenAI]] — Vision Fund investment
+- [[AI hyperscalers]] — Stargate positions SoftBank in this category

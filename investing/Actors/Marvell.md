@@ -115,5 +115,11 @@ Not competing with NVIDIA — enabling alternatives.
 
 ---
 
-Related: [[NVIDIA]], [[Broadcom]], [[Amazon]], [[Google]], [[Microsoft]]
+## Related
+
+- [[Broadcom]] — competitor (custom silicon, networking)
+- [[NVIDIA]] — different market (GPUs vs custom/networking)
+- [[Amazon]], [[Google]], [[Microsoft]] — hyperscaler customers
+- [[TSMC]] — foundry
+- [[AI hyperscalers]] — customer base
 

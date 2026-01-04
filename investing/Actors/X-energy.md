@@ -71,6 +71,40 @@ X-energy also manufactures TRISO fuel:
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A-C | 2016-2021 | $350M+ | — |
+| Recent rounds | 2022-2024 | $250M+ | ~$2B+ |
+| **Total** | | **$600M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Ares Management | Lead |
+| Citadel | Growth |
+| Nimble Partners | Growth |
+| DOE | $1.2B+ (ARDP) |
+
+**Total raised:** $600M+ (private) + $1.2B+ (DOE grants)
+
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private |
+| Total raised | $600M+ |
+| DOE funding | $1.2B+ |
+| Valuation | $2B+ (estimated) |
+| Revenue | $0 (pre-commercial) |
+| Dow deployment | 2030s |
+
+**Note:** X-energy had SPAC deal that fell through. May pursue IPO or new SPAC.
+
+---
+
 ## Investment angle
 
 **Bull:**

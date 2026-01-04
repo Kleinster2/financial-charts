@@ -35,24 +35,30 @@ Betting on ultra-long context as the unlock:
 
 ---
 
-## Funding
+## Cap table / Investors
 
-**$515M total:**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2022 | — | — |
+| Series A | 2023 | $23M | — |
+| Series B | 2024 | $117M | — |
+| Series C | Aug 2024 | $320M | ~$1.5B |
+| **Total** | | **$515M** | |
 
-| Round | Amount | Key investors |
-|-------|--------|---------------|
-| Earlier | $145M | Nat Friedman, Daniel Gross |
-| Aug 2024 | $320M | Eric Schmidt, CapitalG, Sequoia, Atlassian |
+**Key investors:**
 
-**Investors:**
-- Eric Schmidt (ex-Google CEO)
-- [[Sequoia Capital]]
-- CapitalG (Alphabet)
-- Jane Street
-- Atlassian
-- Nat Friedman (ex-GitHub CEO)
-- Daniel Gross
-- Elad Gil
+| Investor | Notes |
+|----------|-------|
+| Eric Schmidt | ex-Google CEO |
+| [[Sequoia Capital]] | Growth |
+| CapitalG | Alphabet/Google |
+| Jane Street | Trading firm |
+| Atlassian | Strategic |
+| Nat Friedman | ex-GitHub CEO |
+| Daniel Gross | Angel/VC |
+| Elad Gil | Angel |
+
+**Total raised:** $515M
 
 ---
 

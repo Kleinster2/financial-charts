@@ -34,24 +34,35 @@ The platform where AI models live:
 
 ---
 
-## Funding
+## Cap table / Investors
 
-**$396M total:**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2017 | $4M | — |
+| Series A | 2019 | $15M | — |
+| Series B | 2021 | $40M | — |
+| Series C | 2022 | $100M | $2B |
+| Series D | 2023 | $235M | $4.5B |
+| **Total** | | **$396M** | |
 
-| Round | Amount | Key investors |
-|-------|--------|---------------|
-| Series D | $235M | Google, NVIDIA, Amazon, Salesforce |
-| Earlier | $161M | Sequoia, Coatue |
+**Key investors:**
 
-**Strategic investors:** Every major AI player invested.
-- [[Google]]
-- [[NVIDIA]]
-- [[Amazon]]
-- Salesforce
-- Intel
-- AMD
-- IBM
-- Qualcomm
+| Investor | Notes |
+|----------|-------|
+| [[Google]] | Strategic (Series D) |
+| [[NVIDIA]] | Strategic (Series D) |
+| [[Amazon]] | Strategic (Series D) |
+| Salesforce | Strategic (Series D) |
+| Intel | Strategic |
+| [[AMD]] | Strategic |
+| IBM | Strategic |
+| Qualcomm | Strategic |
+| [[Sequoia Capital]] | Early rounds |
+| Coatue | Growth |
+
+**Total raised:** $396M
+
+**Strategic investors:** Every major AI/chip player invested — validates platform neutrality.
 
 ---
 

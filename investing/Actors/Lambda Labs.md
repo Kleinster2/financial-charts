@@ -56,6 +56,16 @@ Lambda is the developer-focused alternative to hyperscaler GPU clouds:
 - Benefits from NVIDIA's preference for cloud distribution
 - Competes for allocation with CoreWeave, others
 
+**Part of neocloud financing pattern:**
+Lambda is cited alongside [[CoreWeave]] as part of NVIDIA's demand ecosystem:
+
+- NVIDIA reportedly involved in financing
+- Ed Zitron (Dec 2025): questioned why NVIDIA "backstopping $26B for Lambda/Oracle/CoreWeave"
+- Helps absorb GPU production when quarters need support
+- Creates opacity: NVIDIA → Lambda → End customer
+
+See [[Neocloud financing]] for broader pattern.
+
 ---
 
 ## Funding / Investors
@@ -64,6 +74,7 @@ Lambda is the developer-focused alternative to hyperscaler GPU clouds:
 - Private company
 - NVIDIA reportedly involved in financing
 - Part of broader GPU cloud funding wave
+- Limited financial visibility (private)
 
 ---
 
@@ -108,6 +119,8 @@ Lambda wins on developer experience for small-to-mid workloads.
 
 - [[CoreWeave]] — competitor (GPU cloud)
 - [[Crusoe Energy]] — competitor (GPU cloud)
-- [[NVIDIA]] — supplier (H100, A100)
+- [[NVIDIA]] — supplier + financing (H100, A100)
 - [[AI infrastructure financing]] — thesis context
 - [[AI hyperscalers]] — competes for same workloads
+- [[Neocloud financing]] — demand orchestration pattern
+- [[GPU deployment bottleneck]] — shipped ≠ deployed

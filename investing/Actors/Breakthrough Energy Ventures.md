@@ -125,6 +125,21 @@ BEV positioned at intersection of climate tech and AI infrastructure buildout.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private VC |
+| AUM | $2B+ |
+| Fund life | 20 years (vs 10 typical) |
+| LPs | Tech billionaires |
+| Portfolio | 50+ companies |
+| Public holdings | QS (QuantumScape), LILM (Lilium) |
+
+**Unique structure:** 20-year fund life for patient capital in hard tech.
+
+---
+
 ## Related
 
 - [[Bill Gates]] — Founder

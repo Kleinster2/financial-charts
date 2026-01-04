@@ -36,8 +36,32 @@ GF occupies a strategic niche:
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | GFS (NASDAQ) |
+| Market cap | ~$25B |
+| Revenue (TTM) | ~$7B |
+| Gross margin | ~25% |
+| Capex | ~$1.5B/year |
+| P/E | ~20x |
+| Major shareholder | Mubadala (Abu Dhabi) ~85% |
+
+---
+
 ## Investment angle
 
 - Less sexy than leading-edge but more defensible
 - Automotive semiconductor demand secular tailwind
 - US fab = geopolitical hedge vs [[Taiwan concentration risk]]
+
+---
+
+## Related
+
+- [[TSMC]] — competitor (mature nodes)
+- [[Samsung]] — competitor
+- [[Intel Foundry Services]] — competitor (US foundry)
+- [[CHIPS Act]] — beneficiary (US fab funding)
+- [[AMD]] — former parent (spun off 2009)

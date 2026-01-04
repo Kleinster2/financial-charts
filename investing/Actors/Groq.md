@@ -158,6 +158,27 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 ---
 
+## Cap table / Investors
+
+| Round | Amount | Valuation |
+|-------|--------|-----------|
+| Series A-D | $640M+ total | ~$2.8B (2024) |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Craft Ventures]] | David Sacks (led Series D) |
+| Tiger Global | Growth |
+| D1 Capital | Growth |
+| BlackRock | Growth |
+| Samsung | Strategic |
+| Social Capital | Chamath Palihapitiya |
+
+**Total raised:** $640M+
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -168,7 +189,7 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 | Founder | Jonathan Ross (ex-Google TPU) |
 | NVIDIA deal | Dec 2025 licensing |
 
-*Updated 2026-01-02*
+*Updated 2026-01-04*
 
 ---
 

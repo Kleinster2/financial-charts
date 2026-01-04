@@ -75,8 +75,27 @@ Everything except GPUs.
 | Hut 8 | Fluidstack/Google | $7B |
 | Core Scientific | CoreWeave | $3.5B |
 | TeraWulf | Fluidstack | 200MW |
+| **TeraWulf + Hut 8 + Cipher** | **Anthropic** | **~1M TPUv7 infrastructure** |
 
-Hyperscalers paying premium for powered land.
+Hyperscalers AND AI labs paying premium for powered land.
+
+---
+
+## Anthropic deal (Jan 2026)
+
+**Landmark AI lab deal (per SemiAnalysis):**
+
+| Component | Provider |
+|-----------|----------|
+| TPUv7 chips (~1M) | [[Broadcom]] direct to Anthropic |
+| DC infrastructure | [[TeraWulf]], [[Hut 8]], [[Cipher Mining]] |
+| Deployment/ops | [[FluidStack]] |
+
+**Why this matters:**
+- First major AI lab (not hyperscaler) using crypto miners
+- Validates pivot thesis beyond Microsoft/Google
+- Anthropic controlling own facilities, not renting cloud
+- FluidStack as deployment layer (cabling, burn-in, testing)
 
 ---
 
@@ -109,12 +128,14 @@ Hyperscalers paying premium for powered land.
 ## Related
 
 - [[IREN]] — winner (Microsoft $9.7B deal, +300%)
-- [[Hut 8]] — winner (Fluidstack/Google $7B)
+- [[Hut 8]] — winner (Fluidstack/Google $7B + Anthropic)
 - [[Core Scientific]] — winner (CoreWeave $3.5B)
-- [[TeraWulf]] — winner (Fluidstack 200MW)
-- [[Cipher Mining]] — pivoting (+230%)
+- [[TeraWulf]] — winner (Fluidstack 200MW + Anthropic)
+- [[Cipher Mining]] — winner (+230%, Anthropic deal)
 - [[Marathon Digital]] — loser (Bitcoin pure-play)
 - [[Bitdeer]] — loser (ASIC focus, -50%)
 - [[CoreWeave]] — customer (hyperscaler buying miner capacity)
 - [[Microsoft]] — customer (buying IREN capacity)
+- [[Anthropic]] — customer (~1M TPUv7 infrastructure via miners)
+- [[FluidStack]] — deployment partner (operations for Anthropic)
 

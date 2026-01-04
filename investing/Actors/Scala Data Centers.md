@@ -94,6 +94,23 @@ Pan-LatAm strategy.
 
 ---
 
+## Cap table / Investors
+
+| Transaction | Details |
+|-------------|---------|
+| DigitalBridge acquisition | Majority stake |
+| Investment | Multi-billion LatAm expansion |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[DigitalBridge]] | Majority owner (PE) |
+
+**Indirect exposure:** Invest in DigitalBridge (DBRG) for Scala exposure.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

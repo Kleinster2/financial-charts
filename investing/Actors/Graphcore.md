@@ -82,6 +82,36 @@ UK's AI chip contender (cautionary tale):
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2016 | $30M | — |
+| Series B | 2017 | $30M | — |
+| Series C | 2018 | $50M | — |
+| Series D | 2018 | $200M | $1.7B |
+| Series E | 2020 | $150M | $2.8B |
+| Series F | 2022 | $222M | — |
+| **Total** | | **$700M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Atomico | European VC |
+| Sequoia Capital | Growth |
+| Dell | Strategic |
+| Microsoft | Strategic |
+| Samsung | Strategic |
+| Amadeus Capital | UK VC |
+| Draper Esprit | UK VC |
+
+**Total raised:** $700M+
+
+**Note:** Peak valuation $2.8B (2020). Now seeking sale/restructuring.
+
+---
+
 ## Investment implications
 
 **Cautionary tale:**

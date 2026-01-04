@@ -141,6 +141,32 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 
 ---
 
+## Cap table / Investors
+
+| Round | Amount | Valuation |
+|-------|--------|-----------|
+| Series A | $25M | — |
+| Series B | $60M | — |
+| Series C | $112M | — |
+| Series D | $250M | — |
+| Series E | $250M | ~$4B |
+| **Total** | **$720M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Benchmark | Early (Series A) |
+| Eclipse Ventures | Early |
+| Alpha Wave Global | Growth (Series F) |
+| Altimeter Capital | Growth |
+| Coatue | Growth |
+| [[UAE G42]] | Strategic (Condor Galaxy) |
+
+**G42 relationship:** Strategic partner and customer — built Condor Galaxy supercomputer together.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

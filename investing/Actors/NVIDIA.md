@@ -85,15 +85,142 @@ See [[Export controls]] for full context.
 
 ---
 
+## Ecosystem control (bear case)
+
+**The allegation:** NVIDIA controls both supply AND demand, creating a self-sustaining cycle.
+
+**Supply side:**
+- Locks TSMC wafers before demand exists (like booking airplane before selling tickets)
+- Jensen knows exactly what numbers Wall Street expects
+- "Beat and Raise" requires ever-larger tricks as company grows
+
+**Demand side — Neocloud financing:**
+NVIDIA finances GPU buyers who absorb inventory when needed:
+
+| Company | NVIDIA role | Microsoft ties |
+|---------|-------------|----------------|
+| [[CoreWeave]] | Investor, priority allocation | 65% revenue from MSFT |
+| [[Lambda Labs]] | Financing involved | — |
+| IREN | Deal facilitation | Microsoft ties |
+| Nebius | Deal facilitation | Microsoft ties |
+| [[Scale AI]] | — | Microsoft ties |
+
+**The phone call model:** "Take the chips now — I'll assign you clients later."
+
+**Evidence of idle inventory:**
+- Satya (Nov 2025): "chips sitting in inventory that I can't plug in"
+- Elon Musk: "racks of GPUs waiting for datacenters to be built"
+
+**The question:** Are neoclouds real businesses or NVIDIA inventory management vehicles?
+
+See [[Neocloud financing]] for full analysis.
+
+---
+
+## Gray market China revenue
+
+**The reality:** NVIDIA's "zero China forecast" is public narrative, but Chinese companies are major buyers — this is **current tailwind, future risk**.
+
+**Chinese customers are huge (2024 Hopper shipments, Omdia):**
+
+| Customer | GPUs (000s) | Notes |
+|----------|-------------|-------|
+| Microsoft | ~485K | #1 overall |
+| **ByteDance** | **~250K** | #2 overall, Chinese |
+| **Tencent** | **~220K** | #3 overall, Chinese |
+| Meta | ~200K | |
+| Tesla/xAI | ~170K | |
+| Amazon | ~130K | |
+| Google | ~100K | |
+
+**ByteDance + Tencent = ~470K Hopper GPUs in 2024** — nearly as much as Microsoft, despite "export controls."
+
+**Jensen quotes (Dec 2025 Bloomberg interview):**
+- "Our forecast for China is zero. All of our guidance starts at zero."
+- "The Chinese market is very large this year. My guess is probably about $50 billion."
+
+**SEA chip flows (Jan-Oct 2025):**
+
+| Route | Imports | Notes |
+|-------|---------|-------|
+| Malaysia | $12B | Largest corridor |
+| Singapore | $7B | Removed from geographic reporting |
+| Thailand | $3B | Growing |
+| Indonesia | $1.2B | Growing |
+| **SEA Total** | **$23B** | 17.5% of DC revenue |
+
+**How to interpret this:**
+
+| Lens | Interpretation |
+|------|----------------|
+| **Bull** | Extra ~15-20% revenue; if legalized, converts to clean sales |
+| **Bear** | Revenue NVIDIA can't acknowledge; could vanish if crackdown succeeds |
+| **Neutral** | Legal China sales wouldn't *increase* revenue — just relabel it |
+
+**The "zero forecast" game:** Creates upside surprise optics for investors when gray market revenue is already baked in.
+
+**Embedded risks:**
+- Legal exposure if NVIDIA found complicit (US District Court charges, Jan 2026)
+- Revenue dependent on enforcement staying lax
+- Accounting opacity (geographic reporting changed twice in <1 year)
+- Investor trust risk if it becomes scandal
+
+**Post-DeepSeek shift:** Chinese firms now building DCs directly in SEA instead of smuggling to mainland — dozens of data centers across Malaysia, Thailand, Indonesia. Chips stay "in SEA" technically.
+
+See [[SEA chip diversion]] for full analysis.
+
+---
+
 ## Key vulnerabilities
 
 - CUDA moat eroding if alternatives mature (ROCm, Triton, JAX)
 - Customer concentration in hyperscalers who want alternatives
 - Valuation assumes continued dominance
 - Supply constrained by [[TSMC]] and [[Advanced packaging|CoWoS]]
-- China revenue capped by export controls (but H200 provides partial recovery)
+- China revenue capped by export controls (but H200 + gray market provide partial recovery)
+- **Gray market dependence** — ~15-20% revenue through SEA, legal/reputation risk (see above)
 - Jensen admits 3 years to build datacenter — selling more GPUs than can be deployed
 - 36k employees hold $630B in RSUs ($17.5M per person average)
+- **Ecosystem control** — financing neoclouds to absorb inventory (see above)
+
+---
+
+## Deployment vs shipment risk
+
+**"Shipped" ≠ "Deployed"** — a growing gap between NVIDIA's revenue recognition and actual GPU utilization.
+
+**Key data points:**
+- **Satya (Nov 2025):** Microsoft has "chips sitting in inventory that I can't plug in"
+- **Gavin Baker (Atreides):** Blackwell deployment only truly started Aug-Oct 2025
+- **Jensen (Dec 2025):** Building a major AI DC takes ~3 years (permitting, construction, power)
+
+**The math problem:**
+- 10M+ Blackwell/Rubin chips targeted by end of 2026
+- Requires 17-23GW of power capacity
+- Jensen: 6M GPUs "shipped" by Oct 2025
+- But Blackwell deployment only started 3-4 months prior
+
+**Blackwell deployment challenges:**
+| Factor | Change from Hopper |
+|--------|--------------------|
+| Cooling | Air → liquid |
+| Rack weight | 1,000 lbs → 3,000 lbs |
+| Power per rack | 30 kW → 130 kW |
+| Legacy DC retrofit | Extremely difficult |
+
+**Bear case (Kakashiii analysis):**
+- Bill-and-hold arrangements may allow revenue recognition on undeployed GPUs
+- Customers stockpiling in CIP (Construction in Progress) accounting
+- "Buy Now, Deploy Later" pattern — customers FOMO order GPUs before DCs ready
+- [[Meta]] example: ~400K Blackwell GPUs purchased, stored waiting for Prometheus (1GW, 2026)
+
+**Why it matters:**
+- Revenue quality question — are "shipments" actually utilization?
+- Depreciation spike coming when CIP assets activate
+- If DC buildout slows, GPU demand could hit a wall
+- Creates [[GPU deployment bottleneck]]
+
+See [[GPU deployment bottleneck]] for full analysis.
 
 ---
 
@@ -213,3 +340,12 @@ See [[Export controls]] for full context.
 - [[Long NVIDIA]] — thesis
 - [[Long memory]] — thesis (HBM demand)
 - [[Foundry Wars]] — manufacturing context
+- [[GPU deployment bottleneck]] — demand risk (shipped ≠ deployed)
+- [[Power constraints]] — infrastructure constraint
+- [[Neocloud financing]] — ecosystem control (bear case)
+- [[CoreWeave]] — NVIDIA-backed neocloud
+- [[Lambda Labs]] — NVIDIA-financed neocloud
+- [[SEA chip diversion]] — gray market China revenue (tailwind + risk)
+- [[Southeast Asia tech race]] — Chinese DC buildout destination
+- [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
+- [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)

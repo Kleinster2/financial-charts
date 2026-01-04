@@ -111,6 +111,31 @@ OpenAI hedging with multiple robotics bets.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2022 | $13M | — |
+| Series A2 | 2023 | $23.5M | — |
+| Series B | 2024 | $100M | $480M |
+| **Total** | | **$125M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[OpenAI]] | Lead (Series A2) — strategic |
+| Tiger Global | Growth (Series B) |
+| Samsung Next | Strategic |
+| EQT Ventures | Nordic VC |
+| Skagerak Capital | Nordic VC |
+
+**Total raised:** $125M+
+
+**OpenAI relationship:** Strategic investor — potential ChatGPT integration for embodied AI.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

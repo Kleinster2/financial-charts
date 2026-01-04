@@ -108,6 +108,31 @@ Character.AI = character/roleplay specialist.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2021 | $50M | — |
+| Series A | 2023 | $150M | $1B |
+| Google deal | 2024 | $2.7B (licensing) | — |
+| **Total** | | **$2.9B+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| a16z | Lead (Series A) |
+| [[Google]] | Licensing deal ($2.7B, founders returned) |
+| SVA (SV Angel) | Early |
+| Nat Friedman | Angel |
+| Elad Gil | Angel |
+
+**Total raised:** $200M+ (equity), $2.7B+ (including Google licensing)
+
+**Google deal (2024):** Noam Shazeer returned to Google as part of licensing deal. Character.AI continues independently with Google's non-exclusive license.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -44,6 +44,20 @@ Siemens Energy is the main GE Vernova competitor — same bottleneck dynamics:
 
 ---
 
+## Meta Socrates South deal (Jan 2026)
+
+**Per SemiAnalysis:**
+
+| Turbine model | Quantity | Capacity each | Total |
+|---------------|----------|---------------|-------|
+| SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
+
+Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). Siemens providing ~14% of capacity alongside [[Solar Turbines]] (Caterpillar).
+
+**Significance:** First major hyperscaler BYOP deal for Siemens Energy. Validates DC power strategy.
+
+---
+
 ## Product portfolio
 
 | Turbine | Type | Use case |
@@ -111,6 +125,11 @@ Siemens is #2 but benefits from same supply constraints.
 ## Related
 
 - [[Power constraints]] — thesis context (gas turbine demand)
+- [[BYOP]] — on-site generation pattern
 - [[GE Vernova]] — competitor (#1 turbine maker)
+- [[Ansaldo Energia]] — competitor (OpenAI deal)
+- [[Solar Turbines]] — co-supplier (Meta Socrates South)
+- [[Meta]] — customer (Socrates South)
 - [[AI hyperscalers]] — customer (power demand)
+- [[AI datacenter architecture]] — design context
 - [[AI infrastructure financing]] — context (DC power)

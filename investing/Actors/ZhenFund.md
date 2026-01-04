@@ -55,6 +55,19 @@ Export controls cut off chips. Now talent is leaving too.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private partnership |
+| AUM | ~$1B+ |
+| Founded | 2011 |
+| Founders | Xu Xiaoping, Wang Qiang |
+| Style | Seed/early-stage China |
+| Focus | Tech, AI, consumer |
+
+---
+
 *Created 2026-01-01*
 
 ## Related

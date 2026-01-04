@@ -29,12 +29,35 @@ GCC countries racing to build AI/tech ecosystems:
 - G42 execution
 - Microsoft $1.5B validation
 - Chose US over China
+- **OpenAI Stargate** — 1GW AI datacenter under construction
 
 **Saudi (most capital):**
 - $100B AI fund
 - NEOM mega-project
 - a16z partnership
 - Execution lagging
+
+---
+
+## OpenAI UAE Stargate (Jan 2026)
+
+**Major validation of UAE as AI infrastructure destination:**
+
+| Metric | Value |
+|--------|-------|
+| Partner | [[OpenAI]] |
+| Power | 1GW (derated from 1.3GW, desert heat) |
+| Source | 4x [[Ansaldo Energia]] gas turbines (on-site) |
+| Phase 1 | 200MW by YE2026 |
+| Status | "Going well" |
+
+**Contrast:** UAE site progressing faster than OpenAI's Texas Abilene site ("not going BRRR").
+
+**Why UAE works:**
+- Cheap natural gas
+- Sovereign wealth backing
+- Faster permitting than US
+- US-aligned (post-Huawei divestment)
 
 ---
 
@@ -109,7 +132,7 @@ G42 divesting Huawei = template.
 
 ## Related
 
-- [[UAE Tech]] — leader (G42, Falcon LLM, Microsoft $1.5B)
+- [[UAE Tech]] — leader (G42, Falcon LLM, Microsoft $1.5B, OpenAI Stargate)
 - [[UAE G42]] — executor (most advanced GCC AI)
 - [[Saudi Arabia Tech]] — capital leader ($100B AI fund)
 - [[Saudi PIF]] — funder ($930B sovereign wealth)
@@ -119,4 +142,6 @@ G42 divesting Huawei = template.
 - [[Oman Tech]] — player (infrastructure, cables)
 - [[Sovereign AI race]] — context (nations as AI actors)
 - [[NVIDIA]] — supplier (sells to all GCC states)
+- [[OpenAI]] — partner (UAE Stargate 1GW)
+- [[Ansaldo Energia]] — supplier (gas turbines for Stargate)
 

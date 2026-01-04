@@ -33,6 +33,28 @@ OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC. B
 
 ---
 
+## Azure model-agnostic strategy
+
+Unlike Google (Gemini-focused), Azure positioned as neutral AI facilitator:
+
+| Model | Provider | Available on Azure |
+|-------|----------|-------------------|
+| GPT-4 / ChatGPT | [[OpenAI]] | ✓ (primary) |
+| Claude | [[Anthropic]] | ✓ |
+| Grok | [[xAI]] | ✓ |
+| Llama | [[Meta]] | ✓ |
+| DeepSeek R1 | DeepSeek | ✓ |
+
+**Result:** Azure grew 40% in fiscal Q1 2026 (ended Sep 30).
+
+**Strategic logic:**
+- Customers pick best model for use case
+- Microsoft wins regardless of which model dominates
+- Reduces OpenAI dependency risk
+- Attracts customers wary of vendor lock-in
+
+---
+
 ## AI leadership overhaul (Jan 2026)
 
 Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product focus.
@@ -77,6 +99,26 @@ Startups (Anthropic, Anysphere/Cursor, Replit) eating into Microsoft's coding to
 
 ---
 
+## Fairwater AI campus design
+
+**Specialized DC architecture (per SemiAnalysis satellite analysis):**
+
+| Building Type | Stories | Power | Cooling | Purpose |
+|---------------|---------|-------|---------|---------|
+| **GPU Building** | 2 | 300MW | Liquid | Ultra-dense GPU clusters |
+| **CPU/Storage Building** | 1 | 48MW | Air | Storage, control plane, RL environments |
+
+**Design rationale:**
+- GPUs must be physically close for **network coherence** — drives ultra-dense 2-story design
+- CPU-based RL environments don't strictly need same availability zone
+- Co-location improves developer productivity
+
+**Implication:** Purpose-built AI DCs are fundamentally different from legacy facilities. Validates [[GPU deployment bottleneck]] — can't just retrofit existing DCs for Blackwell-class workloads.
+
+See [[AI datacenter architecture]] for full design patterns.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -85,8 +127,9 @@ Startups (Anthropic, Anysphere/Cursor, Replit) eating into Microsoft's coding to
 | Primary chip | [[NVIDIA]] GPUs |
 | Custom silicon | Maia (AI), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
+| Fairwater GPU building | 300MW, 2-story, liquid-cooled |
 
-*Updated 2026-01-01*
+*Updated 2026-01-04*
 
 ---
 
@@ -97,4 +140,16 @@ Startups (Anthropic, Anysphere/Cursor, Replit) eating into Microsoft's coding to
 
 ---
 
-Related: [[NVIDIA]], [[Google]], [[Amazon]], [[Meta]], [[TSMC]], [[AI hyperscalers]], [[OpenAI]], [[Anthropic]], [[Constellation Energy]], [[Nuclear power for AI]]
+## Related
+
+- [[AI hyperscalers]] — Tier 1 spender
+- [[NVIDIA]] — primary GPU supplier
+- [[TSMC]] — foundry (Maia, Cobalt chips)
+- [[OpenAI]] — exclusive partner (loosening)
+- [[Anthropic]] — Claude on Azure
+- [[Google]], [[Amazon]], [[Meta]] — hyperscaler peers
+- [[Intel Foundry Services]] — Maia 2 potential foundry
+- [[Constellation Energy]] — nuclear PPA for data centers
+- [[Nuclear power for AI]] — energy strategy
+- [[AI datacenter architecture]] — Fairwater campus design
+- [[GPU deployment bottleneck]] — Satya's "can't plug in" quote

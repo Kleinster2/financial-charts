@@ -43,19 +43,26 @@ Most concentrated ex-OpenAI talent outside Anthropic.
 
 ---
 
-## Funding
+## Cap table / Investors
 
-**$2B seed round (July 2025):**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | July 2025 | $2B | $12B |
+| **Total** | | **$2B** | |
+
+**Key investors:**
 
 | Investor | Notes |
 |----------|-------|
 | [[a16z]] | Lead |
 | [[NVIDIA]] | Strategic |
-| [[AMD]] | Strategic |
-| Accel | — |
-| ServiceNow | Enterprise |
-| Cisco | Enterprise |
-| Jane Street | — |
+| [[AMD]] | Strategic (rare NVIDIA + AMD combo) |
+| Accel | Growth |
+| ServiceNow | Enterprise strategic |
+| Cisco | Enterprise strategic |
+| Jane Street | Financial |
+
+**Total raised:** $2B
 
 **Record:** Largest seed round in Silicon Valley history.
 

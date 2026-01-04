@@ -62,6 +62,21 @@ See [[Dutch seizure of Nexperia]] for full details.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (seized by Dutch government) |
+| Former owner | Wingtech (China) |
+| Acquisition price | $3.6B (2018) |
+| Revenue (est.) | ~$2B |
+| Employees | ~15,000 |
+| Fabs | Europe, Asia |
+
+**Current status:** Under Dutch government control pending resolution. Future ownership unclear.
+
+---
+
 ## Related
 
 - [[NXP]] — former parent (Nexperia spun off 2017)

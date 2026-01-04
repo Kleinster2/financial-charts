@@ -21,20 +21,30 @@ Leading humanoid robotics startup:
 
 ---
 
-## Investor syndicate
+## Cap table / Investors
 
-**Mega-round (Feb 2024):**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2022 | $9M | — |
+| Series A | 2023 | $70M | — |
+| Series B | Feb 2024 | $675M | $2.6B |
+| **Total** | | **$750M+** | |
 
-| Investor | Notable |
-|----------|---------|
-| Microsoft | Azure/OpenAI connection |
-| NVIDIA | Embodied AI |
-| OpenAI | AI partnership |
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Microsoft]] | Strategic (Azure/OpenAI) |
+| [[NVIDIA]] | Strategic (embodied AI) |
+| [[OpenAI]] | Strategic (AI partnership) |
 | Jeff Bezos | Personal investment |
-| Intel | Compute |
-| Samsung | Manufacturing? |
+| Intel | Strategic |
+| Samsung | Strategic |
+| Parkway Venture Capital | Early |
 
-Elite backing.
+**Total raised:** $750M+
+
+**Elite syndicate:** Every major AI player invested in Series B.
 
 ---
 

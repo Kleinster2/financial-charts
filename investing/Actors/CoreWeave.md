@@ -45,7 +45,21 @@ CoreWeave is the largest "neocloud" — GPU-focused cloud competing with hypersc
 - CoreWeave helps absorb GPU production
 - Symbiotic: NVIDIA needs buyers, CoreWeave needs GPUs
 
-**The question:** Is CoreWeave a real business or NVIDIA channel stuffing?
+**The demand orchestration allegation:**
+
+CoreWeave is cited as example of NVIDIA controlling both supply AND demand:
+
+> "When a quarter needs a little help, Jensen picks up the phone: 'Take the chips now — I'll assign you the clients later.'"
+
+**Pattern (per Kakashiii analysis):**
+- Recent deals (Scale AI, IREN, Nebius, CoreWeave) share Microsoft ties
+- NVIDIA facilitates relationships between neoclouds and customers
+- Creates opacity: NVIDIA → CoreWeave → End customer
+- Revenue quality question for both companies
+
+**The question:** Is CoreWeave a real business or NVIDIA inventory management vehicle?
+
+See [[Neocloud financing]] for broader pattern.
 
 ---
 
@@ -145,3 +159,5 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 - [[AI infrastructure financing risk]] — thesis context (canary in coal mine)
 - [[AI infrastructure financing]] — thesis context
 - [[AI hyperscalers]] — compete for GPU demand
+- [[Neocloud financing]] — demand orchestration pattern
+- [[GPU deployment bottleneck]] — shipped ≠ deployed

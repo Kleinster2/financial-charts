@@ -9,13 +9,14 @@ aliases: [CIFR]
 
 ## Why Cipher Mining matters
 
-Second-best performer in crypto-to-AI pivot:
+Second-best performer in crypto-to-AI pivot, now with Anthropic deal:
 
 | Metric | Value |
 |--------|-------|
 | Ticker | CIFR |
 | 2025 YTD | +230% |
 | AI partner | Fluidstack |
+| **Anthropic deal** | DC infrastructure for ~1M TPUv7 |
 | Strategy | HPC hosting expansion |
 
 ---
@@ -27,6 +28,12 @@ Second-best performer in crypto-to-AI pivot:
 - HPC infrastructure buildout
 - Leveraging power assets
 - Growing AI revenue
+
+**Anthropic deal (Jan 2026, per SemiAnalysis):**
+- DC infrastructure for [[Anthropic]]'s ~1M TPUv7 deployment
+- Part of consortium with [[TeraWulf]], [[Hut 8]]
+- [[FluidStack]] handles deployment operations
+- Major anchor customer validates strategy
 
 ---
 
@@ -95,8 +102,10 @@ Cipher = strong #2 in pivot execution.
 ## Related
 
 - [[IREN]] — competitor, peer (#1 in crypto-AI pivot)
-- [[Hut 8]] — competitor, peer (Google-backed)
+- [[Hut 8]] — peer (Anthropic consortium)
+- [[TeraWulf]] — peer (Anthropic consortium)
 - [[Core Scientific]] — competitor, peer
-- [[TeraWulf]] — competitor, peer
+- [[Anthropic]] — customer (~1M TPUv7 infrastructure)
+- [[FluidStack]] — deployment partner (operations)
 - [[Crypto-to-AI pivot]] — thesis context
 - [[Power constraints]] — value driver (power assets)

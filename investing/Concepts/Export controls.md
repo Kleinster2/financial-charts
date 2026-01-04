@@ -158,6 +158,35 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 
 ---
 
+## SEA diversion route
+
+Despite controls, chips may be reaching China through Southeast Asia. See [[SEA chip diversion]] for full analysis.
+
+**Taiwan → SEA chip exports (Jan-Oct 2025):**
+
+| Country | Imports | Notes |
+|---------|---------|-------|
+| Malaysia | $12B | Largest corridor |
+| Singapore | $7B | Removed from NVIDIA geographic reporting |
+| Thailand | $3B | Growing |
+| Indonesia | $1.2B | Growing |
+| **Total** | **$23B** | 17.5% of NVIDIA DC revenue |
+
+**Enforcement gap:**
+- Jensen claims "no diversion found" after sampling DCs
+- US District Court (N.D. Cal) charged individuals for GPU smuggling (Jan 2026)
+- NVIDIA changed geographic reporting definition twice in <1 year
+
+**Post-DeepSeek shift:**
+Chinese tech firms now building DCs directly in SEA instead of smuggling to mainland:
+- Dozens of Chinese-built DCs across Malaysia, Thailand, Indonesia
+- Chips stay "in SEA" technically — not classified as diversion
+- SEA governments welcome investment regardless of end use
+
+**Implication:** Export controls may be less effective than assumed. SEA = major leakage route.
+
+---
+
 ## AI chips: Tiered release strategy
 
 [[NVIDIA]] H200 exports to China resuming — but this is strategic, not relaxation:
@@ -240,6 +269,8 @@ Mixed:
 - [ ] CHIPS Act guardrails enforcement
 - [ ] China 50% mandate enforcement strictness
 - [ ] Naura/AMEC capability progression
+- [ ] **SEA diversion enforcement** — Malaysia, Thailand, Indonesia scrutiny
+- [ ] **NVIDIA geographic reporting** — further methodology changes
 
 ---
 
@@ -256,3 +287,5 @@ Mixed:
 - [[Naura Technology]] — beneficiary (50% domestic mandate)
 - [[AMEC]] — beneficiary (50% domestic mandate)
 - [[China retaliatory toolkit]] — counter-measures
+- [[SEA chip diversion]] — leakage route (Malaysia, Singapore, Thailand)
+- [[Southeast Asia tech race]] — destination for Chinese DC buildout

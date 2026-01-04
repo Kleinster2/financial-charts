@@ -81,8 +81,25 @@ GCC's AI leader:
 | Open source models | Falcon 40B/180B |
 | Cerebras cluster | Condor Galaxy |
 | Microsoft deal | $1.5B investment |
+| **OpenAI Stargate** | 1GW AI datacenter |
 
 Most tangible AI output in GCC.
+
+---
+
+## OpenAI Stargate (Jan 2026)
+
+**Major US AI lab building in UAE:**
+
+| Metric | Value |
+|--------|-------|
+| Partner | [[OpenAI]] |
+| Power | 1GW (derated from 1.3GW) |
+| Source | 4x [[Ansaldo Energia]] gas turbines |
+| Phase 1 | 200MW by YE2026 |
+| Status | Progressing faster than US sites |
+
+**Significance:** Validates UAE as AI infrastructure destination. OpenAI chose UAE over expanding domestic capacity.
 
 ---
 
@@ -105,4 +122,7 @@ Most tangible AI output in GCC.
 - [[Saudi Arabia Tech]] — GCC rival (more capital, less execution)
 - [[Sovereign AI race]] — context (most advanced in GCC)
 - [[GlobalFoundries]] — asset (Mubadala ownership)
+- [[OpenAI]] — partner (Stargate 1GW DC)
+- [[Ansaldo Energia]] — supplier (gas turbines)
+- [[GCC tech race]] — regional context
 

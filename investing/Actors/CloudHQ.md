@@ -101,6 +101,18 @@ CloudHQ = largest single project.
 
 ---
 
+## Cap table / Investors
+
+| Metric | Value |
+|--------|-------|
+| Status | Private |
+| Funding | Undisclosed |
+| Major project | $4.8B Mexico investment |
+
+**Note:** Limited public disclosure. Private data center developer. Mexico project may involve JV partners or debt financing.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

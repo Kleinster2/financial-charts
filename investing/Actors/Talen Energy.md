@@ -48,6 +48,19 @@ One of the largest nuclear plants in the US.
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | TLN (NASDAQ) |
+| Market cap | ~$12B |
+| Revenue (TTM) | ~$2B |
+| Nuclear capacity | ~2.5 GW (Susquehanna) |
+| Amazon deal | 960 MW |
+| EV/EBITDA | ~8x |
+
+---
+
 ## Investment angle
 
 **Bull:**

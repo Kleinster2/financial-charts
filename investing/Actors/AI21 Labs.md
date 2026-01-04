@@ -111,6 +111,33 @@ Differentiated technical approach.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2019 | $20M | — |
+| Series B | 2021 | $64M | — |
+| Series C | 2022 | $64M | ~$1.5B |
+| Series D | 2024 | $208M | ~$2.8B |
+| **Total** | | **$350M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Walden Catalyst | Lead (Series D) |
+| Intel Capital | Strategic |
+| Google | Strategic |
+| NVIDIA | Strategic |
+| Comcast Ventures | Growth |
+| Pitango Venture Capital | Israeli VC |
+
+**Total raised:** $350M+
+
+**Note:** NVIDIA acquisition (~$3B) reported in late 2025. If closed, investors exit.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
