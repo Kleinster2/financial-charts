@@ -39,6 +39,43 @@ If Huawei succeeds, it validates China's indigenous chip strategy. If it stagnat
 
 **Adoption**: Alibaba, Baidu, Tencent using for domestic AI training. Not export-competitive but sufficient for China market.
 
+### AI Infrastructure (CloudMatrix / SuperPoD)
+
+Huawei's answer to NVIDIA NVLink — proprietary interconnect for massive Ascend clusters:
+
+**CloudMatrix 384 vs GB200 NVL72:**
+
+| Spec | CloudMatrix 384 | NVIDIA GB200 NVL72 |
+|------|-----------------|-------------------|
+| Chips | 384 Ascend 910C | 72 Blackwell |
+| Performance | 300 petaFLOPS BF16 | ~180 petaFLOPS |
+| Memory | 3x more aggregate | Baseline |
+| Power | 4.1x higher | Baseline |
+| Power/FLOP | 2.5x worse | Baseline |
+
+**The trade-off:** 5x more Ascends offsets each chip being 1/3 the performance. Brute force wins on raw FLOPS.
+
+**Interconnect technology:**
+
+| Feature | Details |
+|---------|---------|
+| Topology | All-to-all optical |
+| Transceivers | 6,912 LPO (800 Gbps each) |
+| Internal bandwidth | 5.5 Pbps (687.5 TB/s) |
+| Claimed vs NVLink | 62x faster than NVLink144 |
+
+**Huawei's edge:** Telecom DNA — decades of carrier-grade networking experience.
+
+**SuperPoD roadmap:**
+
+| System | Timeline | Scale |
+|--------|----------|-------|
+| SuperPoD | 2025 | 15,000 chips |
+| Atlas 950 | Late 2026 | 8,000+ chips |
+| Atlas 960 | 2027 | ~15,500 chips |
+
+**Why it matters:** Combined with [[China power advantage]], Huawei can deploy massive clusters that match NVIDIA on aggregate compute despite per-chip disadvantage.
+
 ### Networking
 - Still major 5G equipment provider (outside US/allies)
 - Banned from US, UK, Australia, others
@@ -106,6 +143,32 @@ If Huawei succeeds, it validates China's indigenous chip strategy. If it stagnat
 
 ---
 
-*Updated 2025-12-30*
+## Financials
 
-Related: [[China]], [[SMIC]], [[Export controls]], [[NVIDIA]], [[TSMC]], [[Ascend]]
+| Metric | Value |
+|--------|-------|
+| Status | Private (employee-owned) |
+| Revenue (2024) | ~$100B |
+| R&D spend | ~$25B/year |
+| Employees | ~200,000 |
+| Smartphone share | Recovering in China |
+| Listed | No (private) |
+
+**Ownership:** Employee stock ownership plan. Not investable directly.
+
+---
+
+*Updated 2026-01-03*
+
+---
+
+## Related
+
+- [[NVIDIA]] — competitor (CloudMatrix vs NVLink)
+- [[SMIC]] — foundry partner (7nm Kirin, Ascend)
+- [[Export controls]] — constraint (Entity List since 2019)
+- [[China power advantage]] — enabler (powers brute force strategy)
+- [[Kunlunxin]] — domestic competitor (Baidu's AI chips)
+- [[ByteDance]] — customer (Ascend adoption)
+- [[Alibaba]] — customer (Ascend for cloud)
+- [[TSMC]] — former foundry (cut off 2020)

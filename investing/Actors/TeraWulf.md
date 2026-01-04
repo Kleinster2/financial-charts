@@ -9,14 +9,15 @@ aliases: [WULF]
 
 ## Why TeraWulf matters
 
-Significant HPC capacity with Google-backed Fluidstack:
+Significant HPC capacity with Google-backed Fluidstack + Anthropic:
 
 | Metric | Value |
 |--------|-------|
 | Ticker | WULF |
 | Fluidstack deals | 200MW (10yr) |
+| **Anthropic deal** | DC infrastructure for ~1M TPUv7 |
 | Location | Lake Mariner, NY |
-| Backer | Google (via Fluidstack) |
+| Backer | Google (via Fluidstack), Anthropic |
 
 ---
 
@@ -53,6 +54,12 @@ Long-term visibility with hyperscaler support.
 - HPC hosting contracts
 - Fluidstack as key partner
 - Leveraging power infrastructure
+
+**Anthropic deal (Jan 2026, per SemiAnalysis):**
+- DC infrastructure for [[Anthropic]]'s ~1M TPUv7 deployment
+- Part of consortium with [[Hut 8]], [[Cipher Mining]]
+- [[FluidStack]] handles deployment operations
+- Validates crypto-to-AI beyond hyperscalers
 
 ---
 
@@ -101,7 +108,10 @@ TeraWulf = New York power play.
 
 ## Related
 
-- [[Hut 8]] — peer (Fluidstack partner)
+- [[Hut 8]] — peer (Fluidstack partner, Anthropic consortium)
+- [[Cipher Mining]] — peer (Anthropic consortium)
 - [[IREN]] — peer (leading AI pivot)
 - [[Core Scientific]] — peer (CoreWeave partner)
+- [[Anthropic]] — customer (~1M TPUv7 infrastructure)
+- [[FluidStack]] — deployment partner (operations)
 - [[Crypto-to-AI pivot]] — thesis context

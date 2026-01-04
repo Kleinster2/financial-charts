@@ -42,4 +42,23 @@ See [[China retaliatory toolkit]] for the escalation pattern.
 
 ---
 
-Related: [[Anduril]], [[Palantir]], [[Rare earth leverage]], [[China retaliatory toolkit]]
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | LMT (NYSE) |
+| Market cap | ~$130B |
+| Revenue (TTM) | ~$70B |
+| Backlog | ~$160B |
+| Operating margin | ~11% |
+| P/E | ~18x |
+| Dividend yield | ~2.5% |
+
+---
+
+## Related
+
+- [[Anduril]] — competitor (defense AI)
+- [[Palantir]] — partner (defense software)
+- [[Rare earth leverage]] — supply chain risk
+- [[China retaliatory toolkit]] — context

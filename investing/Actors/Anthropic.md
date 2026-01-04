@@ -70,12 +70,25 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ## Compute strategy
 
-- **1M+ TPU v7 (Ironwood)** commitment starting 2026 — largest TPU deployment ever
-- Buying 400k TPUv7 (~$10B from [[Broadcom]])
-- Renting 600k TPUv7 through Google Cloud (~$42B)
-- Deploying in own facilities with TeraWulf/Cipher Mining (Bitcoin miners pivoting to AI)
+**~1M TPUv7 commitment** — largest TPU deployment ever, reducing Google dependency.
+
+| Component | Units | Source | Notes |
+|-----------|-------|--------|-------|
+| TPUv7 direct purchase | ~1,000,000 | [[Broadcom]] direct | Anthropic-owned |
+| Deployment facilities | — | TeraWulf, Hut 8, Cipher Mining | Crypto miners pivoting |
+| Operations | — | [[FluidStack]] | Cabling, burn-in, testing |
+
+**Structure (per SemiAnalysis, Jan 2026):**
+- Anthropic buys TPUs directly from Broadcom (not through Google)
+- Deploys in **Anthropic-controlled facilities** (not Google Cloud)
+- Crypto miners ([[TeraWulf]], [[Hut 8]], [[Cipher Mining]]) provide DC infrastructure
+- [[FluidStack]] handles deployment: cabling, burn-in, acceptance testing, remote-hands
+
+**Why this matters:**
+- Independence from Google Cloud
+- Own infrastructure = lower long-term cost
+- Validates crypto-to-AI pivot thesis
 - Going TPU route, not NVIDIA
-- **Over 1GW of TPU capacity** planned
 
 All flows to [[TSMC]] — TPUs fabbed there.
 
@@ -123,8 +136,13 @@ See [[Long Anthropic]] for full thesis.
 - [[Amazon]] — $8B investor, primary cloud partner
 - [[Microsoft]] — $5B investor (hedging OpenAI)
 - [[NVIDIA]] — $10B investor
-- [[Broadcom]] — TPU supplier via Google
+- [[Broadcom]] — TPU supplier (~1M TPUv7 direct)
 - [[TSMC]] — foundry for TPUs
+- [[TeraWulf]] — DC infrastructure partner
+- [[Hut 8]] — DC infrastructure partner
+- [[Cipher Mining]] — DC infrastructure partner
+- [[FluidStack]] — deployment/operations partner
+- [[Crypto-to-AI pivot]] — validates thesis (miners hosting AI)
 - [[Long Anthropic]] — thesis
 - [[Agentic AI]] — core capability (Claude Code)
 - [[Model lab economics]] — profitability context

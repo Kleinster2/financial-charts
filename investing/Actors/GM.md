@@ -36,4 +36,24 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 
 ---
 
-Related: [[Tesla]], [[BYD]], [[Automotive semiconductors]], [[Rare earth leverage]]
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | GM (NYSE) |
+| Market cap | ~$55B |
+| Revenue (TTM) | ~$175B |
+| EV sales | ~100K/year (growing) |
+| Operating margin | ~6% |
+| P/E | ~6x |
+| Dividend yield | ~0.9% |
+
+---
+
+## Related
+
+- [[Tesla]] — competitor (EVs)
+- [[BYD]] — competitor (China EVs)
+- [[Automotive semiconductors]] — demand driver
+- [[Rare earth leverage]] — supply chain risk
+- [[Cruise]] — subsidiary (autonomous driving)

@@ -20,23 +20,31 @@ Enterprise search + AI agents at scale:
 
 ---
 
-## Funding trajectory
+## Cap table / Investors
 
-**Rapid valuation growth:**
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2019 | $10M | — |
+| Series A | 2020 | $15M | — |
+| Series B | 2021 | $55M | — |
+| Series C | 2022 | $100M | $1B |
+| Series D | 2024 | $200M | $2.2B |
+| Series E | Late 2024 | — | $4.6B |
+| Series F | June 2025 | $230M | $7.2B |
+| **Total** | | **$610M** | |
 
-| Date | Round | Valuation |
-|------|-------|-----------|
-| Early 2024 | — | $2.2B |
-| Late 2024 | Series E | $4.6B |
-| June 2025 | Series F | $7.2B |
+**Key investors:**
 
-**Series F investors:**
-- Wellington Management (lead)
-- [[Khosla Ventures]]
-- [[Sequoia Capital]]
-- [[Lightspeed Venture Partners]]
-- Kleiner Perkins
-- General Catalyst
+| Investor | Notes |
+|----------|-------|
+| Wellington Management | Lead (Series F) |
+| [[Khosla Ventures]] | Early investor |
+| [[Sequoia Capital]] | Growth |
+| [[Lightspeed Venture Partners]] | Growth |
+| Kleiner Perkins | Growth |
+| General Catalyst | Growth |
+
+**Total raised:** $610M
 
 ---
 

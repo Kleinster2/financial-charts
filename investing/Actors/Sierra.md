@@ -81,6 +81,28 @@ Sierra = AI-first customer service.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2023 | $85M | — |
+| Series A | 2024 | — | $1B+ |
+| **Total** | | **$110M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Sequoia Capital]] | Lead |
+| Benchmark | Early |
+| ICONIQ | Growth |
+
+**Total raised:** $110M+
+
+**Founder capital:** Bret Taylor and Clay Bavor self-funded initially.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

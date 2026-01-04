@@ -59,6 +59,21 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | QCOM (NASDAQ) |
+| Market cap | ~$180B |
+| Revenue (TTM) | ~$40B |
+| QCT (chips) revenue | ~$33B |
+| QTL (licensing) revenue | ~$6B |
+| Gross margin | ~56% |
+| P/E | ~18x |
+| Dividend yield | ~2% |
+
+---
+
 ## Key risks
 
 - Apple modem independence

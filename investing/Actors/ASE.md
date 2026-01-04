@@ -32,14 +32,18 @@ They don't design or manufacture chips — they package and test what foundries 
 
 ---
 
-## Key stats
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
+| Ticker | ASX (NYSE) |
+| Market cap | ~$22B |
+| Revenue (TTM) | ~$20B |
 | Market position | #1 OSAT globally |
 | 2025 capex increase | +$1B for AI/HPC capacity |
 | AI/HPC revenue | Projected to more than double |
-| Ticker | ASX (NYSE) |
+| Gross margin | ~18% |
+| P/E | ~15x |
 
 ---
 

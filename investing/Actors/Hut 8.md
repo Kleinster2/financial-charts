@@ -9,13 +9,14 @@ aliases: [HUT]
 
 ## Why Hut 8 matters
 
-Major AI infrastructure pivot with Google backing:
+Major AI infrastructure pivot with Google + Anthropic backing:
 
 | Metric | Value |
 |--------|-------|
 | Ticker | HUT |
 | 2025 YTD | +139% |
 | AI deal | $7B (15yr, 245MW) |
+| **Anthropic deal** | DC infrastructure for ~1M TPUv7 |
 | Subsidiary | Highrise AI |
 | GPUs | 1,000+ H100s |
 
@@ -64,6 +65,12 @@ Long-term visibility with hyperscaler backing.
 - Highrise AI = GPU cloud
 - Long-term hyperscaler contracts
 - Power infrastructure leverage
+
+**Anthropic deal (Jan 2026, per SemiAnalysis):**
+- DC infrastructure for [[Anthropic]]'s ~1M TPUv7 deployment
+- Part of consortium with [[TeraWulf]], [[Cipher Mining]]
+- [[FluidStack]] handles deployment operations
+- First major AI lab (not hyperscaler) customer
 
 ---
 
@@ -125,8 +132,11 @@ Hut 8 = most complete transformation.
 ## Related
 
 - [[Google]] — backer (via Fluidstack $7B deal)
+- [[Anthropic]] — customer (~1M TPUv7 infrastructure)
 - [[IREN]] — competitor, peer (crypto-to-AI)
 - [[Core Scientific]] — competitor, peer
-- [[TeraWulf]] — competitor, peer
+- [[TeraWulf]] — peer (Anthropic consortium)
+- [[Cipher Mining]] — peer (Anthropic consortium)
+- [[FluidStack]] — deployment partner (operations)
 - [[NVIDIA]] — GPU supplier (1,000+ H100s)
 - [[Crypto-to-AI pivot]] — thesis context

@@ -42,24 +42,30 @@ Founded June 2024.
 
 ---
 
-## Funding history
+## Cap table / Investors
 
-| Date | Amount | Valuation | Lead |
-|------|--------|-----------|------|
-| Sept 2024 | $1B | $5B | a16z, Sequoia |
-| March 2025 | $2B | $30B | Greenoaks |
-| April 2025 | — | $32B | — |
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | Sept 2024 | $1B | $5B |
+| Series A | March 2025 | $2B | $30B |
+| Extension | April 2025 | — | $32B |
+| **Total** | | **$3B** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[a16z]] | Seed co-lead |
+| [[Sequoia Capital]] | Seed co-lead |
+| Greenoaks | $500M (Series A) |
+| [[Lightspeed Venture Partners]] | Growth |
+| DST Global | Growth |
+| [[Google]] / Alphabet | Strategic (TPU access) |
+| [[NVIDIA]] | Strategic |
 
 **Total raised:** $3B
 
-**Investors:**
-- [[a16z]]
-- [[Sequoia Capital]]
-- [[Lightspeed Venture Partners]]
-- DST Global
-- Greenoaks ($500M)
-- [[Google]] / Alphabet
-- [[NVIDIA]]
+**Google TPU partnership (April 2025):** Major compute access for research.
 
 ---
 

@@ -82,6 +82,20 @@ Kazatomprom sets the floor on uranium prices.
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | KAP (LSE), KAP.KZ (Astana) |
+| Market cap | ~$12B |
+| Revenue (2024) | ~$2.5B |
+| Production | ~22,000 tonnes U/year |
+| Global share | ~25% |
+| Dividend yield | ~5% |
+| P/E | ~10x |
+
+---
+
 ## Investment angle
 
 **Bull:**

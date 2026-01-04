@@ -77,13 +77,31 @@ Both hardware and IP revenue.
 
 ---
 
-## Recent funding
+## Cap table / Investors
 
-**2024-2025:**
-- Hyundai, Samsung investment
-- LG partnership
-- Korean strategic investors
-- Automotive AI angle
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2019 | $25M | — |
+| Series B | 2020 | $60M | — |
+| Series C | 2023 | $100M | ~$1B |
+| Series D | Jan 2025 | $693M | $2.6B |
+| **Total** | | **$700M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| AFG Partners | Lead (Series D) |
+| Hyundai Motor Group | Strategic (automotive AI) |
+| Samsung | Strategic |
+| LG | Strategic |
+| Bezos Expeditions | Jeff Bezos |
+| Eclipse Ventures | Early |
+| Real Ventures | Canadian VC |
+
+**Total raised:** $700M+
+
+**Korean strategic angle:** Hyundai, Samsung, LG invested — automotive AI focus
 
 ---
 

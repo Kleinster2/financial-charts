@@ -74,4 +74,23 @@ CXMT represents China's attempt to build domestic memory capability despite [[Ex
 
 ---
 
-Related: [[Foundry Wars]], [[Samsung]], [[SK Hynix]], [[IP leakage risk]], [[Export controls]]
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (state-backed) |
+| Revenue (est.) | $2-3B |
+| DRAM capacity | ~100K wafers/month |
+| Node | 10nm-class DRAM |
+| Backing | Hefei city government, national funds |
+| Listed | No |
+
+---
+
+## Related
+
+- [[Foundry Wars]] — context (China memory push)
+- [[Samsung]] — competitor (IP source)
+- [[SK Hynix]] — competitor
+- [[IP leakage risk]] — advantage (Samsung leak)
+- [[Export controls]] — constraint

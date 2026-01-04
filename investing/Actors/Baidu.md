@@ -149,8 +149,10 @@ See [[Kunlunxin]] for full details.
 - [[ByteDance]] — competitor (Doubao gaining on Ernie)
 - [[Tencent]] — competitor (China cloud)
 - [[Kunlunxin]] — subsidiary (AI chips, IPO 2027)
+- [[Andrew Ng]] — history (Chief Scientist 2014-2017)
+- [[MSR Asia]] — talent source (many alumni joined)
 - [[Export controls]] — constraint (H200 only)
-- [[China]] — geographic context
+- [[China AI clusters]] — context (Kunlun compute)
 - [[Waymo]] — competitor (Apollo vs Waymo in AV)
 - [[AI hyperscalers]] — peer category
 - [[Autonomous vehicles]] — Apollo context

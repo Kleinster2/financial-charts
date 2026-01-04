@@ -38,13 +38,16 @@ They don't test chips — they make the equipment that OSATs ([[ASE]]) and IDMs 
 
 ---
 
-## Key stats
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | COHU (NASDAQ) |
 | Market cap | ~$1.5B (small cap) |
+| Revenue (TTM) | ~$500M |
 | Segment | Test handlers, contactors |
+| Gross margin | ~45% |
+| P/E | ~25x (cyclical) |
 
 ---
 

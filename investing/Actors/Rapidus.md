@@ -86,6 +86,21 @@ Supplier sentiment at SEMICON Japan 2024: "high confidence" in 2027 timeline.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (consortium) |
+| Government funding | ¥920B+ (~$6B+) |
+| Private investment | ~¥7.3B from 8 founding companies |
+| Target capex | ~$10B+ through 2027 |
+| Revenue | $0 (pre-production) |
+| Production target | 2027 (small batch) |
+
+**Funding model:** Government-backed national champion. Japan's largest semiconductor investment since 1980s.
+
+---
+
 *Updated 2026-01-01*
 
 ## Related

@@ -48,13 +48,26 @@ Google is betting on Kairos over other SMR designs.
 
 ---
 
-## Funding & backers
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Early rounds | 2018-2022 | $250M+ | — |
+| Recent | 2024 | $250M+ | ~$2B+ |
+| **Total** | | **$500M+** | |
+
+**Key investors:**
 
 | Investor | Notes |
 |----------|-------|
-| Google | Strategic partner |
+| [[Google]] | Strategic (500 MW PPA) |
 | DOE | ARDP funding recipient |
-| Private investors | Well-funded |
+| DC Energy | Early investor |
+| Breakthrough Energy | Growth |
+
+**Total raised:** $500M+ (excluding DOE grants)
+
+**DOE support:** ARDP (Advanced Reactor Demonstration Program) recipient.
 
 ---
 
@@ -65,6 +78,21 @@ Google is betting on Kairos over other SMR designs.
 | vs [[NuScale]] | Different tech, Google backing |
 | vs [[TerraPower]] | Further along in licensing |
 | vs [[Oklo]] | Larger scale, more conventional |
+
+---
+
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private |
+| Total raised | $500M+ |
+| Valuation | $2B+ (estimated) |
+| DOE funding | ARDP recipient |
+| Revenue | $0 (pre-commercial) |
+| First reactor | ~2030 |
+
+**Path to liquidity:** IPO possible post-Hermes demonstration (2027-2028). Google partnership validates technology.
 
 ---
 

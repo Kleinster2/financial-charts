@@ -31,20 +31,30 @@ All won gold at International Olympiad in Informatics. Competitive programming e
 
 ---
 
-## Funding history
+## Cap table / Investors
 
-| Date | Amount | Valuation | Lead |
-|------|--------|-----------|------|
-| March 2025 | — | $4B | 8VC |
-| August 2025 | $500M | $9.8B | — |
-| Sept 2025 | $400M | $10.2B | Founders Fund |
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2023 | — | — |
+| Series A | March 2024 | $21M | $350M |
+| Series B | March 2025 | — | $4B |
+| Series C | Aug 2025 | $500M | $9.8B |
+| Series D | Sept 2025 | $400M | $10.2B |
+| **Total** | | **$900M+** | |
 
-**Investors:**
-- Founders Fund (Peter Thiel)
-- [[Lux Capital]]
-- 8VC (Joe Lonsdale)
-- Bain Capital Ventures
-- D1 Capital
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| Founders Fund | Lead (Series D, Peter Thiel) |
+| [[Lux Capital]] | Early investor |
+| 8VC | Joe Lonsdale (Series B lead) |
+| Bain Capital Ventures | Growth |
+| D1 Capital | Growth |
+
+**Total raised:** $900M+
+
+**Windsurf acquisition (July 2025):** Acquired for additional undisclosed amount.
 
 ---
 

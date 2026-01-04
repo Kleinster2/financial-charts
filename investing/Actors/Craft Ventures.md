@@ -61,6 +61,19 @@ Portfolio companies benefit from policy decisions he influences.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private partnership |
+| AUM | ~$2B+ |
+| Founded | 2018 |
+| Founders | David Sacks, Bill Lee |
+| Style | Growth stage, founder-friendly |
+| Notable exits | Groq ($20B to NVIDIA) |
+
+---
+
 *Created 2026-01-01*
 
 ## Related

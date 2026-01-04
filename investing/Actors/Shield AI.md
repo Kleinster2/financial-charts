@@ -120,6 +120,32 @@ Future of air combat.
 
 ---
 
+## Cap table / Investors
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2015 | — | — |
+| Series A | 2018 | $10M | — |
+| Series B | 2019 | $50M | — |
+| Series C | 2021 | $210M | $1.5B |
+| Series D | 2022 | $165M | — |
+| Series E | 2023 | $500M | $2.8B |
+| **Total** | | **$900M+** | |
+
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[a16z]] | Multiple rounds |
+| Point72 Ventures | Growth |
+| Riot Ventures | Defense focus |
+| SVB Capital | Growth |
+| General Catalyst | Growth |
+
+**Total raised:** $900M+
+
+---
+
 ## Quick stats
 
 | Metric | Value |

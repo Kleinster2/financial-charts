@@ -88,6 +88,21 @@ Gates is no longer operationally involved in [[Microsoft]], but:
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Net worth | ~$130B |
+| Cascade Investment | Family office |
+| TerraPower | $1B+ invested |
+| Breakthrough Energy | $2B+ committed |
+| Microsoft stake | ~1% (sold down) |
+| Focus | Climate, health, education |
+
+**Not directly investable** — exposure via portfolio companies (public: QS, LILM; private: TerraPower, CFS).
+
+---
+
 ## Related
 
 - [[TerraPower]] — His nuclear company

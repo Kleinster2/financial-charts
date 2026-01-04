@@ -72,15 +72,27 @@ Starting with warehouses.
 
 ---
 
-## Funding history
+## Cap table / Investors
 
-| Round | Amount |
-|-------|--------|
-| Series A | $8M |
-| Series B | $150M (Amazon led) |
-| 2024 | Additional undisclosed |
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Series A | 2019 | $8M | — |
+| Series B | 2022 | $150M | ~$1B |
+| 2024 | — | Undisclosed | — |
+| **Total** | | **$160M+** | |
 
-Amazon = anchor investor.
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[Amazon]] | Lead (Series B) — anchor customer |
+| DCVC | Deep tech VC |
+| Playground Global | Robotics focus |
+| Industrial Partners | Strategic |
+
+**Total raised:** $160M+
+
+**Amazon relationship:** Anchor investor AND customer — testing Digit in fulfillment centers.
 
 ---
 

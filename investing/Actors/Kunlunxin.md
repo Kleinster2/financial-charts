@@ -9,7 +9,7 @@ aliases: [Kunlun Chip, 昆仑芯]
 
 ## Why Kunlunxin matters
 
-China's most advanced domestic AI chip effort going public:
+China's most advanced domestic AI chip effort going public. Powers [[Baidu]]'s Ernie AI models in production — reducing NVIDIA dependency for inference.
 
 | Metric | Value |
 |--------|-------|
@@ -76,6 +76,8 @@ Started as Baidu's internal project to support search, cloud, and AI workloads.
 
 Kunlunxin advantage: Baidu as captive customer + ecosystem.
 
+**Software strength**: "Instead of forcing users to adopt a closed system, Kunlunxin works well with common AI frameworks and makes it easier to move workloads from NVIDIA." — Counterpoint Research
+
 ### vs NVIDIA
 
 | Aspect | Kunlunxin | NVIDIA |
@@ -109,10 +111,13 @@ Every tightening of US controls is bullish for Kunlunxin TAM.
 | Customer type | Examples |
 |---------------|----------|
 | **Baidu** | Search, Cloud, Ernie AI |
+| **China Mobile** | 1B CNY orders (2025), also investor |
 | **External** | >50% of 2025 revenue |
-| **Enterprise** | China AI workloads |
+| **Enterprise** | Government, telecom, SOE cloud |
 
 External sales exceeding internal is key IPO narrative.
+
+**Use case focus**: Best for inference workloads where supply stability and cost matter more than peak performance. Government, telecom, and state-owned cloud are sweet spots.
 
 ---
 
@@ -146,7 +151,7 @@ External sales exceeding internal is key IPO narrative.
 | Parent | [[Baidu]] (59%) |
 | Founded | 2012 |
 
-*Updated 2026-01-02*
+*Updated 2026-01-03*
 
 ---
 

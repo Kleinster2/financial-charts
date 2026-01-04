@@ -96,6 +96,23 @@ Shell backing = capital advantage.
 
 ---
 
+## Cap table / Investors
+
+| Transaction | Date | Details |
+|-------------|------|---------|
+| Shell acquisition | 2022 | Full ownership |
+| Prior rounds | 2011-2022 | VC-backed growth |
+
+**Owner:**
+
+| Investor | Notes |
+|----------|-------|
+| Shell | 100% owner (2022 acquisition) |
+
+**Indirect exposure:** Shell (SHEL) stock for Silicon Ranch exposure.
+
+---
+
 ## Quick stats
 
 | Metric | Value |

@@ -35,21 +35,31 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ---
 
-## Funding history
+## Cap table / Investors
 
 | Round | Date | Amount | Valuation |
 |-------|------|--------|-----------|
+| Seed | 2022 | — | — |
+| Series A | 2023 | $8M | — |
+| Series B | 2024 | $60M | — |
 | Series C | June 2025 | $900M | $9.9B |
 | Series D | Nov 2025 | $2.3B | $29.3B |
 | **Total** | | **$3.4B** | |
 
-**Investors:**
-- [[a16z]] (Andreessen Horowitz)
-- Thrive Capital
-- Accel
-- Coatue
-- [[NVIDIA]]
-- [[Google]]
+**Key investors:**
+
+| Investor | Notes |
+|----------|-------|
+| [[a16z]] | Multiple rounds |
+| Thrive Capital | Growth (Series D) |
+| Accel | Growth |
+| Coatue | Growth |
+| [[NVIDIA]] | Strategic |
+| [[Google]] | Strategic |
+| Daniel Gross | Early |
+| Nat Friedman | Early |
+
+**Total raised:** $3.4B
 
 ---
 

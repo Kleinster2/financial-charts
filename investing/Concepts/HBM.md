@@ -54,11 +54,63 @@ Only 3 suppliers:
 
 ---
 
+## China HBM gap
+
+China's AI clusters are stuck on HBM2E while NVIDIA uses HBM3E — a structural disadvantage.
+
+> **Key insight:** HBM is the chokepoint that makes [[Export controls]] effective. GPUs can be designed domestically (Ascend, Kunlun). HBM cannot — the oligopoly (SK Hynix, Samsung, Micron) is aligned with US policy. No workaround exists.
+
+### The gap
+
+| Metric | HBM2E (China) | HBM3E (NVIDIA) | Gap |
+|--------|---------------|----------------|-----|
+| Bandwidth | 460 GB/s | 1.15 TB/s | 2.5x |
+| Capacity/stack | 16 GB | 36 GB | 2.25x |
+| Generation | 2022 | 2024 | 2 years |
+
+### Why China can't close it
+
+| Supplier | Status |
+|----------|--------|
+| [[SK Hynix]] | Won't supply (US pressure, export controls) |
+| [[Samsung]] | Won't supply (aligned with US) |
+| [[Micron]] | Won't supply (US company) |
+| Domestic (CXMT) | Years behind, no HBM production |
+
+**The bottleneck:** HBM is an oligopoly. All three suppliers aligned with US export policy. No domestic source.
+
+### Why it matters for AI
+
+| Workload | Bottleneck | HBM impact |
+|----------|------------|------------|
+| **Training** | Compute + memory | Partially offset by more chips |
+| **Inference (prefill)** | Compute | Less affected |
+| **Inference (decode)** | Memory bandwidth | Directly limited by HBM gap |
+
+**The problem:** Decode phase (token generation) is memory-bound. See [[Inference disaggregation]]. More chips can't fix per-chip bandwidth limits.
+
+### Strategic implications
+
+- [[China AI clusters]] can match training FLOPS through brute force
+- Inference speed/quality is structurally disadvantaged
+- [[Export controls]] are effective because HBM is chokepoint
+- No near-term workaround — domestic HBM is years away
+
+---
+
+*Updated 2026-01-03*
+
+---
+
 ## Related
 
-- [[SK Hynix]] — supplier (#1 HBM)
-- [[Samsung]] — supplier (#2 HBM)
-- [[Micron]] — supplier (#3 HBM)
+- [[SK Hynix]] — supplier (#1 HBM, won't supply China)
+- [[Samsung]] — supplier (#2 HBM, aligned with US)
+- [[Micron]] — supplier (#3 HBM, US company)
 - [[Memory shortage 2025-2026]] — context (HBM demand causing shortage)
 - [[Advanced packaging]] — requirement (CoWoS for integration)
 - [[NVIDIA]] — customer (primary HBM buyer)
+- [[China AI clusters]] — affected (stuck on HBM2E)
+- [[Export controls]] — mechanism (HBM as chokepoint)
+- [[Inference disaggregation]] — context (decode is memory-bound)
+- [[Long memory]] — thesis (HBM oligopoly = pricing power)

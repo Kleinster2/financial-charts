@@ -92,6 +92,19 @@ Lost access to most Western customers due to Entity List status.
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | 0981.HK (HK), 688981.SS (Shanghai) |
+| Market cap | ~$30B |
+| Revenue (2024) | ~$8B |
+| Global foundry share | ~6% |
+| Gross margin | ~20% |
+| Status | Entity Listed (US) |
+
+---
+
 *Updated 2025-12-30*
 
 ## Related

@@ -88,6 +88,20 @@ Apple is hedging against China's [[Rare earth leverage]]:
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | AAPL (NASDAQ) |
+| Market cap | ~$3.8T |
+| Revenue (TTM) | ~$390B |
+| Services revenue | ~$100B/year |
+| Gross margin | ~46% |
+| P/E | ~32x |
+| Cash position | ~$160B |
+
+---
+
 ## Related
 
 - [[TSMC]] — exclusive foundry partner (A-series, M-series)

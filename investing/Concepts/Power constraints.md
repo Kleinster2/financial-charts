@@ -49,11 +49,26 @@ The new paradigm — hyperscalers securing their own power:
 | [[Amazon]] | Talen Energy nuclear co-location |
 | [[Google]] | Kairos Power SMR development |
 | [[Oracle]] | Nuclear DC permits (Larry Ellison) |
+| [[OpenAI]] | On-site gas turbines (UAE Stargate) |
+| **[[Meta]]** | Hybrid turbine fleet (Socrates South, 200MW+) |
+
+**OpenAI UAE Stargate example (Jan 2026):**
+- 4x [[Ansaldo Energia]] AE94.3 gas turbines
+- 1.3GW gross → 1GW derated (desert heat penalty -23%)
+- Phase 1: 200MW by YE2026
+- "Going well" vs Texas Abilene "not going BRRR"
+
+**Meta Socrates South example (Jan 2026):**
+- Hybrid fleet: [[Solar Turbines]], [[Siemens Energy]], Caterpillar
+- ~307MW gross → 200MW+ operational (N+1+1 redundancy)
+- 4 different turbine/engine types — diversified supplier approach
+- See [[Meta]] for full breakdown
 
 **Alternative providers filling the gap** (SemiAnalysis, Dec 2025):
 - Bloom Energy — fuel cells
 - Doosan Enerbility — turbines, nuclear
 - Voltagrid — modular power
+- **Ansaldo Energia** — gas turbines (Italian)
 
 > "The grid left them on read" — hyperscalers turning to alternatives because utilities can't deliver.
 
@@ -120,12 +135,73 @@ Power availability will drive DC location decisions:
 
 ---
 
+## China's power advantage
+
+**The asymmetry:**
+
+| Constraint | US | China |
+|------------|-----|-------|
+| **GPU access** | Abundant (Blackwell) | Constrained (H200 only) |
+| **Power access** | Constrained (44 GW gap) | Abundant |
+| **Permitting** | Years of red tape | State-directed, fast |
+| **Buildout pace** | Slow | 212 GW solar added in 2024 alone |
+
+**China's edge:**
+- 212 GW solar installed in one year (vs US ~30 GW)
+- 253 GW planned for desert regions
+- State-directed = no permitting delays
+- Grid expansion keeps pace with demand
+
+**Implication:** Chinese AI labs ([[ByteDance]], [[Baidu]], [[Alibaba]], [[Tencent]]) face GPU constraints but not power constraints. They can build massive clusters of older-gen chips without hitting power walls.
+
+**The trade-off:**
+- US: Best chips, can't power them
+- China: Abundant power, can't get best chips
+
+Power is buildable. Cutting-edge GPUs are blockaded. This may partially offset China's semiconductor disadvantage over time.
+
+See [[China power advantage]] for full details on solar buildout, desert strategy, agrivoltaics, and offshore solar.
+
+---
+
+## GPU deployment bottleneck
+
+Power constraints create a gap between GPU "shipment" and actual deployment:
+
+**Evidence (Jan 2026):**
+- **Satya (Nov 2025):** Microsoft has "chips sitting in inventory that I can't plug in"
+- **Gavin Baker:** Blackwell deployment only started in last 3-4 months
+- **Jensen:** Building major AI DC takes ~3 years
+
+**The math doesn't work:**
+- [[NVIDIA]]: 10M+ Blackwell/Rubin chips by end 2026
+- Power required: 17-23GW
+- Available: Far less (see 44GW gap above)
+- Result: GPUs ship to storage, not data centers
+
+**"Buy Now, Deploy Later" pattern:**
+- Customers FOMO order GPUs before DCs ready
+- GPUs sit in CIP (Construction in Progress) accounting
+- Bill-and-hold arrangements possible
+- Depreciation deferred until deployment
+
+**Case study — [[Meta]]:**
+- ~400K Blackwell GPUs purchased
+- Prometheus DC (1GW, Ohio) not online until 2026
+- $44B in CIP (Q3 2025), ~$30B of that is uninstalled compute
+- 2023 disclosure: "servers stored by our suppliers"
+
+See [[GPU deployment bottleneck]] for full analysis.
+
+---
+
 ## Implications for semis
 
 **Demand risk:**
 - If power isn't available, hyperscalers can't deploy chips
 - May slow AI chip demand even if supply constraints ease
 - Could extend the "shortage" narrative longer (chips available, power not)
+- **Revenue quality question:** NVIDIA "shipments" may be sitting in warehouses
 
 **Geographic shift:**
 - Data centers may move to power-rich locations
@@ -151,7 +227,7 @@ This is a **demand-side risk** for all AI chip theses:
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-03*
 
 ## Related
 
@@ -163,3 +239,11 @@ This is a **demand-side risk** for all AI chip theses:
 - [[TVA]] — enabler (xAI power source)
 - [[GE Vernova]] — supplier (turbines)
 - [[Thermal limits]] — related constraint (cooling)
+- [[GPU deployment bottleneck]] — consequence (shipped ≠ deployed)
+- [[NVIDIA]] — affected (revenue quality risk)
+- [[Ansaldo Energia]] — gas turbine supplier (OpenAI UAE)
+- [[Solar Turbines]] — turbine supplier (Meta Socrates South)
+- [[Siemens Energy]] — turbine supplier (Meta Socrates South)
+- [[Meta]] — BYOP example (Socrates South 200MW+)
+- [[AI datacenter architecture]] — design patterns
+- [[BYOP]] — dedicated concept note

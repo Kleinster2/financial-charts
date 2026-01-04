@@ -20,20 +20,32 @@ Enterprise-focused alternative to OpenAI:
 
 ---
 
-## Funding trajectory
+## Cap table / Investors
 
-| Date | Amount | Valuation |
-|------|--------|-----------|
-| Aug 2025 | $500M | $6.8B |
-| Sept 2025 | +$100M | $7B |
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2019 | $8M | — |
+| Series A | 2021 | $40M | — |
+| Series B | 2022 | $125M | — |
+| Series C | 2023 | $270M | $2.2B |
+| Series D | 2024 | $500M | $5.5B |
+| Series E | Aug 2025 | $500M | $6.8B |
+| Extension | Sept 2025 | $100M | $7B |
+| **Total** | | **$1.6B** | |
 
 **Key investors:**
-- Radical Ventures (lead)
-- Inovia Capital
-- [[AMD]] Ventures
-- [[NVIDIA]]
-- Salesforce Ventures
-- PSP Investments
+
+| Investor | Notes |
+|----------|-------|
+| Radical Ventures | Lead (multiple rounds) |
+| Inovia Capital | Canadian VC |
+| [[AMD]] Ventures | Strategic (MI300 partnership) |
+| [[NVIDIA]] | Strategic |
+| Salesforce Ventures | Enterprise focus |
+| PSP Investments | Canadian pension |
+| Index Ventures | Growth |
+
+**Total raised:** $1.6B
 
 ---
 

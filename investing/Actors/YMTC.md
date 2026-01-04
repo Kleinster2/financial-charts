@@ -76,6 +76,21 @@ China's national champion for memory independence. State-backed effort to break 
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (state-backed) |
+| Revenue (est.) | $1-2B |
+| NAND capacity | ~100K wafers/month |
+| Layers | 232L achieved |
+| Backing | Tsinghua Unigroup, national funds |
+| Listed | No |
+
+**Constrained growth:** Entity List status limits expansion and equipment access.
+
+---
+
 *Created 2026-01-01*
 
 ## Related

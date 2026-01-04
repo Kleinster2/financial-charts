@@ -56,6 +56,19 @@ US has near-zero uranium production historically. UEC is changing that.
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | UEC (NYSE American) |
+| Market cap | ~$3B |
+| Revenue (TTM) | ~$100M (ramping) |
+| Production | ~1M lbs U3O8/year (target) |
+| Cash/inventory | ~$300M uranium inventory |
+| P/E | N/A (growth stage) |
+
+---
+
 ## Investment angle
 
 **Bull:**
