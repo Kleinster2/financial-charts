@@ -3,7 +3,83 @@ aliases: [General Motors]
 ---
 #actor #automotive #usa
 
-**GM (General Motors)** — US automaker pursuing EV transition. Ultium platform, Cruise autonomous unit.
+**GM (General Motors)** — Largest US automaker. Pursuing EV transition via Ultium platform. Cruise autonomous unit paused robotaxi ops. Exposed to [[Rare earth leverage]] and China supply chain.
+
+---
+
+## Why GM matters
+
+GM represents the legacy OEM EV transition challenge:
+
+| Role | Details |
+|------|---------|
+| Position | #1 US automaker (by revenue) |
+| EV strategy | Ultium platform |
+| Autonomy | Cruise (paused) |
+| Challenge | Compete with [[Tesla]], [[BYD]] |
+
+---
+
+## Ultium platform
+
+**GM's EV foundation:**
+
+| Aspect | Details |
+|--------|---------|
+| Battery | Pouch cells, LG partnership |
+| Chemistry | NCMA (nickel-cobalt-manganese-aluminum) |
+| Range | 300-450 miles depending on config |
+| Flexibility | Cars, trucks, SUVs on same platform |
+
+| Vehicle | Segment | Status |
+|---------|---------|--------|
+| Hummer EV | Truck | Production |
+| Cadillac Lyriq | Luxury SUV | Production |
+| Chevy Equinox EV | Mass market | Ramping |
+| Chevy Silverado EV | Truck | Production |
+| Cadillac Celestiq | Ultra-luxury | Limited |
+
+**Challenge:** Scaling production while maintaining profitability.
+
+---
+
+## Cruise autonomous unit
+
+**Troubled robotaxi subsidiary:**
+
+| Event | Date | Impact |
+|-------|------|--------|
+| Pedestrian incident | Oct 2023 | Person dragged under vehicle |
+| Operations paused | Nov 2023 | All robotaxi service stopped |
+| CEO resigned | Nov 2023 | Kyle Vogt out |
+| Layoffs | Dec 2023 | 25% workforce cut |
+| Restart attempts | 2024-25 | Limited supervised testing |
+
+**Investment:**
+- GM invested $10B+ in Cruise
+- Peak valuation ~$30B (2021)
+- Current value uncertain
+
+**Competitors pulling ahead:** [[Waymo]] (Google) expanding, Cruise stalled.
+
+---
+
+## Semiconductor relationships
+
+**Key chip suppliers:**
+
+| Supplier | Components |
+|----------|------------|
+| [[Qualcomm]] | Infotainment (Snapdragon) |
+| [[NXP]] | Radar, body control |
+| [[Infineon]] | Power semiconductors |
+| [[Renesas]] | MCUs |
+| [[NVIDIA]] | Drive platform (some models) |
+
+**Chip shortage impact (2021-23):**
+- Lost millions of units of production
+- Accelerated direct chip relationships
+- Considering vertical integration (like [[Tesla]])
 
 ---
 
@@ -48,12 +124,50 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 | P/E | ~6x |
 | Dividend yield | ~0.9% |
 
+*Updated 2026-01-04*
+
+---
+
+## Competitive position
+
+| vs | GM advantage | GM disadvantage |
+|----|--------------|-----------------|
+| [[Tesla]] | Dealer network, brand legacy | EV cost, software |
+| [[BYD]] | US market access | Cost, integration |
+| [[Ford]] | Scale, trucks | Similar challenges |
+| [[Toyota]] | EV commitment | Hybrid lead, quality |
+
+---
+
+## Investment implications
+
+**Bull case:**
+- Ultium platform scaling
+- Truck/SUV EV leadership potential
+- Legacy ICE cash flow funds transition
+- Cheap valuation (6x P/E)
+- US content benefits from IRA
+
+**Bear case:**
+- Cruise impairment risk
+- EV profitability uncertain
+- Rare earth exposure
+- China JV risk (geopolitics)
+- Competition from [[Tesla]], [[BYD]], new entrants
+
 ---
 
 ## Related
 
 - [[Tesla]] — competitor (EVs)
 - [[BYD]] — competitor (China EVs)
+- [[Ford]] — competitor (US legacy)
+- [[Toyota]] — competitor (global)
 - [[Automotive semiconductors]] — demand driver
 - [[Rare earth leverage]] — supply chain risk
 - [[Cruise]] — subsidiary (autonomous driving)
+- [[Waymo]] — competitor (autonomy)
+- [[NXP]] — supplier (radar, MCUs)
+- [[Infineon]] — supplier (power semis)
+- [[Qualcomm]] — supplier (infotainment)
+- [[LG Energy Solution]] — battery partner
