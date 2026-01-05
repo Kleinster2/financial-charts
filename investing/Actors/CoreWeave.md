@@ -125,18 +125,36 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 
 ---
 
+## Founders (Bloomberg Billionaires, Nov 2025)
+
+| Name | Role | Net worth |
+|------|------|-----------|
+| Mike Intrator | CEO | **$5.0B** |
+| Brian Venturo | CSO | **$3.2B** |
+| Brannin McBee | CDO | **$2.2B** |
+| Jack Cogen | Board (early investor) | **$1.8B** |
+
+**Origin story:** Former Natsource commodities traders started crypto mining in 2017. Stored hardware in Venturo's grandfather's garage. Pivoted to AI after crypto struggled.
+
+**Insider selling:** $1B+ sold since lockup expired Aug 2025.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | CRWV |
 | Founded | 2017 |
-| IPO | March 2025 |
+| IPO | March 2025 ($23B valuation) |
+| Data centers | 33+ (US/Europe) |
+| GPUs | 250,000+ |
+| Stock since IPO | +90% |
 | Key customer | [[Microsoft]] (65%) |
 | Key backer | [[NVIDIA]] |
 | CDS spread | 773 bps |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 

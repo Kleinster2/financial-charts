@@ -91,11 +91,42 @@ One year later, DeepSeek published research validating their efficiency claims:
 
 **Why it matters:** Technical proof behind the efficiency claims that crashed markets a year earlier. Not just a one-off — a systematic approach.
 
+**Builds on:** [[ByteDance]] 2024 research into hyper-connection architectures.
+
 **Industry reaction:**
 - Counterpoint (Wei Sun): "striking breakthrough" that "bypasses compute bottlenecks"
 - Omdia (Lian Jye Su): Publishing shows "newfound confidence in Chinese AI industry"
 
-**What's next:** R2 or V4 expected around Feb 2026 (Spring Festival), continuing pattern of holiday releases.
+**What's next:** R2 model expected around Feb 2026 (Spring Festival), continuing pattern of holiday releases.
+
+---
+
+## LiveBench rankings (Jan 2026)
+
+| Rank tier | Models |
+|-----------|--------|
+| Top 3 | Google Gemini 3 (overtook OpenAI Nov 2025) |
+| Top 15 | **2 Chinese low-cost models** |
+
+**The efficiency story:** China's models developed at fraction of US cost now competitive on global benchmarks.
+
+---
+
+## Humanity's Last Exam (mid-2025)
+
+Rigorous benchmark with thousands of questions across math, science, other subjects:
+
+| Model | Accuracy |
+|-------|----------|
+| OpenAI | >20% |
+| Google | >20% |
+| xAI | >20% |
+| **DeepSeek** | **14%** |
+| Qwen | 11% |
+
+**Sam Altman (May 2025 hearing):** "It is very hard to say how far ahead we are. But I would say not a huge amount of time."
+
+**Implication:** Gap exists but narrowing. Efficiency-focused development closing distance despite chip constraints.
 
 ---
 

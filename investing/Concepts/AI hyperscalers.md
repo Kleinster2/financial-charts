@@ -12,7 +12,13 @@ Hyperscaler capex = demand signal for the whole stack:
 Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packaging) → Cohu (test)
 ```
 
-~$200B+ combined AI infrastructure spend annually and accelerating.
+**2025 spending:**
+
+| Category | Amount |
+|----------|--------|
+| Big 4 capex (Google, Meta, MSFT, AMZN) | **$370B+** |
+| Global AI VC (YTD Oct) | **$193B** (record) |
+| China AI capex | $98B (+48% YoY) |
 
 ---
 

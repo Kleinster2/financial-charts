@@ -91,12 +91,33 @@ aliases: [NBIS, Nebius Group]
 
 ---
 
+## Microsoft deal (Sept 2025)
+
+Stock soared ~50% on announcement of deal worth up to **$19.4B**.
+
+---
+
+## Founder: Arkady Volozh
+
+| Detail | Value |
+|--------|-------|
+| Net worth | **$2.6B** (Bloomberg, Nov 2025) |
+| Background | Yandex founder |
+| Born | Soviet Union, 1964 |
+| Moved to | Tel Aviv (pre-invasion) |
+| EU sanctions | Applied 2022, lifted 2024 |
+
+**2023 statement:** Called Russia's actions in Ukraine "barbaric." Sanctions lifted after full Russia divestiture.
+
+---
+
 ## Financials
 
 | Metric | Value |
 |--------|-------|
 | Ticker | NBIS (NASDAQ) |
 | Market cap | ~$9B |
+| Microsoft deal | Up to $19.4B |
 | Revenue | Growing rapidly |
 | Status | Investment phase |
 

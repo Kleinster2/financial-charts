@@ -162,7 +162,12 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 | Round | Amount | Valuation |
 |-------|--------|-----------|
+| Sept 2025 | $750M | **$6.9B** |
 | Series A-D | $640M+ total | ~$2.8B (2024) |
+
+**Jonathan Ross net worth:** **$1.1B** (Bloomberg Billionaires, Nov 2025)
+
+**Notable:** Ross has no college degree — dropped out before high school. Invented Google TPU as side project while working on ads.
 
 **Key investors:**
 

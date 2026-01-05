@@ -13,11 +13,12 @@ AI pilot for military aircraft:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | $2.8B (2023) |
-| Raised | $900M+ |
+| Valuation | **$5.3B** (Oct 2025) |
+| Raised | **$1.3B** |
 | Founded | 2015 |
 | Focus | Autonomous aircraft |
 | Product | Hivemind AI |
+| Capacity | Thousands of VTOL aircraft/year |
 
 ---
 

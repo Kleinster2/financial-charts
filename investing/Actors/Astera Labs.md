@@ -122,17 +122,31 @@ Astera = pure-play connectivity IC leader.
 
 ---
 
+## Founders (Bloomberg Billionaires, Nov 2025)
+
+| Name | Role | Net worth |
+|------|------|-----------|
+| Jitendra Mohan | CEO | **$1.5B** |
+| Sanjay Gajendra | COO | **$1.5B** |
+
+**Origin story:** Both ex-Texas Instruments engineers. Spotted opportunity: AI would need better data center connectivity. TI wasn't interested — they started Astera in Gajendra's garage (Santa Clara, 2017).
+
+**Mohan on the thesis:** "A new nervous system would be needed for data centers."
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | ALAB |
-| Market cap | ~$15B+ |
+| Market cap | **~$24B** |
+| Valuation growth | 4x since IPO |
 | HQ | Santa Clara, CA |
 | IPO | March 2024 |
 | Key product | PCIe retimers |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 
