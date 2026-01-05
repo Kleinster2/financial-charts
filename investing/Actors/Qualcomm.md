@@ -45,6 +45,36 @@ Qualcomm has:
 
 ---
 
+## Snapdragon X2 (Jan 2026)
+
+**Next-gen PC chip using TSMC N3X:**
+
+| Spec | Details |
+|------|---------|
+| Product | Snapdragon X2 Elite Extreme |
+| Process | TSMC 3nm N3X |
+| Focus | Maximum clock speeds |
+| Trade-off | Power/thermal vs performance |
+
+N3X = high-performance variant of TSMC 3nm, optimized for clock speed over efficiency.
+
+---
+
+## Foundry diversification (Jan 2026)
+
+**Exploring Samsung as alternative to TSMC:**
+
+| Factor | Details |
+|--------|---------|
+| Reason | TSMC capacity constraints |
+| Samsung process | SF2 (2nm) |
+| Status | Exploring (not confirmed) |
+| Category | "Spill-off" customer from TSMC overflow |
+
+See [[Why Samsung's aggression may be rational]] for context on TSMC overflow.
+
+---
+
 ## Key events
 
 ### NXP acquisition blocked (2018)
@@ -83,11 +113,17 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 
 ---
 
+*Updated 2026-01-04*
+
+---
+
 ## Related
 
 - [[Apple]] — customer/threat (trying to build in-house modems)
 - [[NXP]] — blocked acquisition (2018, China blocked)
-- [[TSMC]] — foundry (fabless, TSMC manufactures)
+- [[TSMC]] — foundry (Snapdragon X2 on N3X)
+- [[Samsung]] — potential foundry (exploring SF2)
 - [[MediaTek]] — competitor (mid-range mobile)
 - [[NVIDIA]] — competitor (automotive AI)
 - [[Weaponized antitrust]] — context (China blocked NXP deal)
+- [[Why Samsung's aggression may be rational]] — context (TSMC overflow)

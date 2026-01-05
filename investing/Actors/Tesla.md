@@ -78,6 +78,51 @@ EV motors require permanent magnets with rare earth elements:
 
 ---
 
+## 2025 delivery decline
+
+**Full year 2025: first annual decline**
+
+| Metric | 2025 | 2024 | Change |
+|--------|------|------|--------|
+| Deliveries | 1.64M | 1.79M | -8.6% |
+| Production | 1.65M | 1.77M | -7% |
+
+**Q4 2025 specifically:**
+
+| Metric | Q4 2025 | Q4 2024 | Change |
+|--------|---------|---------|--------|
+| Deliveries | 418,227 | 495,570 | -16% |
+| vs expectations | Miss (426K expected) | — | — |
+
+**Causes:**
+- Boycotts tied to Musk's political views
+- Competition from lower-cost Chinese EVs
+- US market contraction (Trump ended $7,500 credit)
+
+---
+
+## Analyst sentiment (Jan 2026)
+
+**Consensus: Hold** (32 analysts)
+
+| Rating | Count |
+|--------|-------|
+| Buy | 13 |
+| Hold | 10 |
+| Sell | 9 |
+
+**Mean price target: $393.90** (implies ~10% downside from $438)
+
+| Analyst | Rating | Target | View |
+|---------|--------|--------|------|
+| Wedbush (Ives) | Outperform | $600 | AI/autonomy upside |
+| Morgan Stanley | Hold | $425 | Limited near-term upside |
+| Truist | Hold | $439 | Cautious on valuation |
+
+**Investor focus shifting:** From deliveries → FSD/robotaxi execution in 2026.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -86,20 +131,23 @@ EV motors require permanent magnets with rare earth elements:
 | Market cap | ~$1.3T |
 | Revenue (TTM) | ~$100B |
 | Automotive margin | ~17% |
-| Deliveries (2025) | ~1.8M vehicles |
+| Deliveries (2025) | 1.64M vehicles (-8.6% YoY) |
 | P/E | ~100x+ |
-| Energy business | ~$10B/year |
+| Energy business | ~$10B/year (record Q4) |
+| Stock price | ~$438 |
 
 ---
 
 ## Related
 
 - [[Elon Musk]] — CEO
+- [[Tesla Optimus]] — humanoid robot (key narrative)
 - [[BYD]] — competitor (#1 globally)
 - [[Xiaomi]] — China competitor (profitable faster)
 - [[xAI]] — Musk connection (potential Samsung anchor)
 - [[Samsung]] — potential foundry (Dojo next-gen)
 - [[TSMC]] — current foundry (Dojo chips)
 - [[STMicro]] — supplier (SiC for EVs)
+- [[Rare earth leverage]] — supply chain risk
 
 *Updated 2026-01-04*
