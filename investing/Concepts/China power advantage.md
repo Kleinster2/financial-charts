@@ -15,7 +15,8 @@ China's massive energy buildout creates a structural advantage for domestic AI p
 | **GPU access** | Abundant (Blackwell) | Constrained (H200 only) |
 | **Power access** | Constrained (44 GW gap) | Abundant |
 | **Permitting** | Years of red tape | State-directed, fast |
-| **Buildout pace** | ~30 GW solar/year | 212 GW solar in 2024 |
+| **Buildout pace** | ~30 GW solar/year | **429 GW** total new capacity in 2024 |
+| **AI power pricing** | Market rates | **Cut-price** (govt subsidized) |
 
 ---
 
@@ -82,6 +83,22 @@ China's massive energy buildout creates a structural advantage for domestic AI p
 **The constraint that remains:** [[HBM]] gap. China stuck on HBM2E while NVIDIA uses HBM3E. More chips can't fix per-chip memory bandwidth.
 
 See [[China AI clusters]] for detailed analysis.
+
+---
+
+## China AI investment (2025)
+
+| Source | Amount |
+|--------|--------|
+| **Total capex** | **$98B** (+48% YoY) |
+| Government | $56B (57%) |
+| Big tech (Alibaba, Tencent) | $24B |
+| AI Industry Investment Fund | $8.2B (early-stage) |
+| Provincial subsidies | Additional |
+
+**Decade prior:** $912B govt-backed VC → 1.4M AI-related firms (~25% of total).
+
+**NVIDIA CEO Jensen Huang (Nov 2025):** Cited China's low power costs as key competitive advantage despite chip constraints.
 
 ---
 

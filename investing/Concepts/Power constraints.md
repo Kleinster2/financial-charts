@@ -295,7 +295,55 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 
 ---
 
-*Updated 2026-01-04*
+## Political backlash (Jan 2026)
+
+**Senate investigation** into DC power costs:
+
+| Detail | Value |
+|--------|-------|
+| Senators | Warren, Van Hollen, Blumenthal (D) |
+| Targets | Google, Microsoft, Amazon, Meta, CoreWeave, Digital Realty, Equinix |
+| Deadline | Jan 12, 2026 |
+| Demand | DCs pay more upfront for grid infrastructure |
+
+**Bloomberg investigation finding:** Electricity costs up to **267% higher** in areas near significant DC activity (vs 5 years ago).
+
+**Senator criticism:**
+> "Tech companies regularly hide as much information as possible from the communities in which their data centers will be built... failing to pay their fair share of their electricity rates."
+
+**Political context:** Power affordability became major issue in 2025 elections. Democrats won key races on pocketbook messaging.
+
+**Risk:** Regulatory pushback could slow DC buildout, increase costs, or force location shifts.
+
+---
+
+## Blackout risk (NERC, Jan 2026)
+
+**Winter assessment warning:**
+
+| Metric | Value |
+|--------|-------|
+| Load growth vs prior winter | **+20GW** (= 20 nuclear plants) |
+| Cause | Data centers "main contributor" |
+| Risk areas | Northwest, Texas, Carolinas, Southeast, WA, OR |
+
+**NERC:** "Data centers are a main contributor to load growth in those areas where demand has risen substantially since last winter."
+
+**Vulnerable regions:**
+- **Texas** — still fragile after Feb 2021 failures (200+ deaths)
+- **New England** — gas pipeline constraints
+- **Southeast** — newly elevated risk
+
+**Winter factors:**
+- Solar generation reduced (fewer daylight hours)
+- Battery operations affected by cold
+- Gas supply risk from freeze-offs, pipeline constraints
+
+**Context:** US grid already stressed by aging infrastructure, severe storms, wildfires. DC boom adding to strain after two decades of flat demand.
+
+---
+
+*Updated 2026-01-05*
 
 ## Related
 

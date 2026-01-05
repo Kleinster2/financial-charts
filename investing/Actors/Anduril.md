@@ -13,8 +13,8 @@ Leading defense tech startup:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | $14B (2024) |
-| Raised | $2.8B+ |
+| Valuation | **$30.5B** (Oct 2025) |
+| Raised | **$6.84B** |
 | Founded | 2017 |
 | Founder | Palmer Luckey |
 | Revenue | $500M+ |

@@ -109,17 +109,34 @@ Burning cash to grow, unlike [[Palantir]].
 
 ---
 
+## Founders and executives (Bloomberg Billionaires, Nov 2025)
+
+| Name | Role | Net worth |
+|------|------|-----------|
+| Frank Slootman | Former CEO/Chairman | **$3.1B** |
+| Thierry Cruanes | Co-founder | **$1.9B** |
+| Benoit Dageville | Co-founder, President | **$1.5B** |
+| Michael Scarpelli | Former CFO | **$1.0B** |
+
+**Origin story:** Cruanes and Dageville were Oracle architects. Both French, both PhDs from Paris VI. Left Oracle 2012 to build cloud-native data warehouse. Largest software IPO ever (2020).
+
+**Revenue:** $3.6B fiscal 2025 (13x since IPO).
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | SNOW |
-| Market cap | ~$70B |
+| Market cap | **~$85B** |
+| Revenue | $3.6B |
 | HQ | Bozeman, MT |
 | CEO | Sridhar Ramaswamy |
 | Founded | 2012 |
+| IPO | Sept 2020 (largest software IPO) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 

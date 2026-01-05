@@ -231,6 +231,27 @@ See [[China retaliatory toolkit]] for the full pattern.
 
 ---
 
+## US AI Action Plan (July 2025)
+
+Trump administration response to China AI competition:
+
+| Policy | Details |
+|--------|---------|
+| Red tape cuts | Expedited permits for data centers |
+| Power access | New energy sources for AI DCs |
+| Open source | Encouraged as "geostrategic value" |
+| State preemption | Threaten to withhold funds from states with burdensome AI rules |
+
+**Trump:** "The US will do whatever it takes to lead the world in artificial intelligence."
+
+**OpenAI response (Aug 2025):** Released pair of open models — first major open-source move. Lobbying for fair use access to copyrighted training data.
+
+> "If China's developers have unfettered access to data and American companies are left without fair use access, the race for AI is effectively over." — OpenAI
+
+**Xi Jinping counter:** "AI should not be a game of rich countries."
+
+---
+
 ## Strategic implications
 
 - Memory supply structurally constrained → supports Korean company margins
@@ -289,3 +310,4 @@ Mixed:
 - [[China retaliatory toolkit]] — counter-measures
 - [[SEA chip diversion]] — leakage route (Malaysia, Singapore, Thailand)
 - [[Southeast Asia tech race]] — destination for Chinese DC buildout
+- [[US-China AI race]] — broader competition context

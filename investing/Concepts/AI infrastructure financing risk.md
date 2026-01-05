@@ -42,6 +42,41 @@ See [[Power constraints]] for demand-side analysis.
 
 ---
 
+## GPU depreciation risk (Jan 2026)
+
+**The accounting question:** Are 5-6 year depreciation schedules overly optimistic?
+
+| Estimate | Source |
+|----------|--------|
+| Industry standard | 5-6 years |
+| Some debt deals | **10 years** |
+| Burry estimate (understated) | **$176B** (2026-2028) |
+
+**Michael Burry** (of *Big Short* fame) estimates hyperscalers understating depreciation by $176B through 2028.
+
+**Industry defense:**
+- OpenAI CFO Sarah Friar: "confident GPUs useful for at least 5 years"
+- OpenAI still using Ampere chips (released 2020) for inference
+- NVIDIA CFO Colette Kress (Nov 2025): useful life "getting longer," still selling Hopper (2022)
+- CoreWeave CEO: "every data point is telling a different story" — Ampere fully booked
+
+**Counterarguments:**
+- Older chips still useful for inference (not just training)
+- Shortages force customers to take whatever available
+- Secondary market exists (like used cars)
+
+**Risks if wrong:**
+- Write-downs on obsolete equipment
+- Collateralized loans complicated
+- Earlier-than-expected capex needs
+- "Even a small change of several months can change earnings by billions" — Olga Usvyatsky
+
+**SEC under Trump:** "Out to lunch" on scrutinizing aggressive assumptions (Francine McKenna, Montclair State).
+
+**Most exposed:** Neoclouds (CoreWeave, Nebius) — smaller, often unprofitable, higher interest rates, debt-financed.
+
+---
+
 ## Historical parallel
 
 **1999-2001 fiber optic bubble:**
