@@ -49,6 +49,24 @@ Google is the most vertically integrated AI hyperscaler:
 | TPU v5 | Current | Widely available |
 | TPU v6 (Trillium) | Ramping | Latest generation |
 | TPU v7 | Development | Next-gen |
+| TPU v9 | Planned (2027) | Exploring Intel EMIB |
+
+### CoWoS bottleneck (Jan 2026)
+
+**TPU production cut due to TSMC constraints:**
+
+| Metric | Original | Revised |
+|--------|----------|---------|
+| 2026 TPU target | ~4M units | ~3M units |
+| Cause | TSMC CoWoS shortage | — |
+| Problem | NVIDIA locked >50% of CoWoS through 2027 | — |
+
+**Google's response:**
+- Exploring Intel EMIB packaging for TPU v9 (2027)
+- Also sounding out Samsung facilities in Texas
+- Forced to cut production despite strong internal demand
+
+**The allocation problem:** TSMC's packaging capacity now determines who scales AI — Google is constrained by NVIDIA's priority access.
 
 ### Broadcom relationship
 
