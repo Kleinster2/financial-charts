@@ -40,17 +40,27 @@ AI hosting pays more than mining:
 | [[Core Scientific]] | CORZ | Strong | CoreWeave $3.5B |
 | [[Cipher Mining]] | CIFR | +230% | Pivoting |
 | [[TeraWulf]] | WULF | Strong | Fluidstack 200MW |
+| [[Nscale]] | Private | N/A | Microsoft $23B (Jan 2026) |
 
 ---
 
-## Losers
+## Pivoting (late movers)
 
-| Company | Ticker | 2024 Return | Issue |
-|---------|--------|-------------|-------|
-| [[Marathon Digital]] | MARA | Underperforming | Bitcoin pure-play |
-| [[Bitdeer]] | BTDR | -50% | ASIC focus |
+| Company | Ticker | AI Project | Status |
+|---------|--------|------------|--------|
+| [[Bitdeer]] | BTDR | 570MW Clarington, Ohio | H2 2027 |
 
-Pure Bitcoin = underperforming.
+Bitdeer executing later than peers but committing significant capital.
+
+---
+
+## Lagging / Bitcoin pure-play
+
+| Company | Ticker | Issue |
+|---------|--------|-------|
+| [[Marathon Digital]] | MARA | Bitcoin pure-play, no AI deals |
+
+Pure Bitcoin exposure = no hyperscaler validation.
 
 ---
 
@@ -121,7 +131,7 @@ Hyperscalers AND AI labs paying premium for powered land.
 | IREN 2024 | +300% |
 | Bitdeer 2024 | -50% |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 
@@ -132,10 +142,12 @@ Hyperscalers AND AI labs paying premium for powered land.
 - [[Core Scientific]] — winner (CoreWeave $3.5B)
 - [[TeraWulf]] — winner (Fluidstack 200MW + Anthropic)
 - [[Cipher Mining]] — winner (+230%, Anthropic deal)
-- [[Marathon Digital]] — loser (Bitcoin pure-play)
-- [[Bitdeer]] — loser (ASIC focus, -50%)
+- [[Nscale]] — winner (Microsoft $23B, UK crypto pivot)
+- [[Bitdeer]] — pivoting late (570MW Ohio, H2 2027)
+- [[Marathon Digital]] — lagging (Bitcoin pure-play)
 - [[CoreWeave]] — customer (hyperscaler buying miner capacity)
-- [[Microsoft]] — customer (buying IREN capacity)
+- [[Microsoft]] — customer (buying IREN, Nscale capacity)
 - [[Anthropic]] — customer (~1M TPUv7 infrastructure via miners)
 - [[FluidStack]] — deployment partner (operations for Anthropic)
+- [[AI infrastructure financing risk]] — overbuild context
 

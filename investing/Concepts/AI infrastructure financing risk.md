@@ -6,6 +6,38 @@ The $1.4T AI buildout may rely on circular capital flows — each player's solve
 
 ---
 
+## Scale of buildout (Jan 2026)
+
+**Data center credit market:**
+
+| Metric | Value |
+|--------|-------|
+| US data center credit deals (2025) | **$178.5B** |
+| New entrants | Crypto miners, sovereign wealth, PE firms |
+| Off-balance-sheet demand | Growing (Meta $30B via Blue Owl) |
+
+Source: Bloomberg (Jan 2026)
+
+---
+
+## Overbuild warnings
+
+**The bears:**
+
+| Source | Quote |
+|--------|-------|
+| **Howard Marks** (Oaktree) | Warns of potential overbuild |
+| **Charles Fitzgerald** (platformonomics.com) | "Still waiting for a hyperscaler to launch an AI product that needs new data centers" |
+| **Satya Nadella** (Microsoft) | "Excited to be a leaser" — outsourcing risk |
+| **Dario Amodei** (Anthropic) | "Real dilemma" — supply-demand timing uncertainty |
+
+**Nadella's framing:**
+- Called potential "overbuild" a "luxury problem"
+- But also signaling Microsoft wants to lease, not own
+- Suggests hyperscalers cautious on own balance sheet exposure
+
+---
+
 ## The "Ouroboros Protocol"
 
 Capital circulates within ecosystem rather than entering from outside:
@@ -77,6 +109,26 @@ See [[Power constraints]] for demand-side analysis.
 
 ---
 
+## New entrants rushing in (Jan 2026)
+
+**Who's building:**
+
+| Type | Examples | Strategy |
+|------|----------|----------|
+| **Crypto miners** | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
+| **PE/Infrastructure** | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
+| **Newcomers** | [[Adriatic DC]], [[Fermi Inc]] | Greenfield mega-projects |
+| **Sovereign** | GCC funds | National AI ambitions |
+
+**Scale of projects:**
+- Adriatic DC: €50B, 2GW Puglia
+- Fermi Inc: 11GW Texas (Rick Perry)
+- O'Leary Alberta: 17GW Canada
+
+Many lack hyperscaler anchor tenants — speculative buildout risk.
+
+---
+
 ## Historical parallel
 
 **1999-2001 fiber optic bubble:**
@@ -134,7 +186,12 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, SoftBank) �
 - [[Oracle]] — fragile (CDS 124-139 bps, CEO selling)
 - [[Masayoshi Son]] — exposed (54.6% Arm concentration)
 - [[OpenAI]] — exposed ($115B losses through 2029)
-- [[Blue Owl]] — financier (pulling from Oracle deal)
+- [[Blue Owl]] — financier (Meta $30B deal, pulling from Oracle)
 - [[Blackstone]] — financier (CoreWeave debt)
+- [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
+- [[Fermi Inc]] — new entrant (11GW Texas, lost anchor tenant)
+- [[Nscale]] — crypto pivot ($23B Microsoft deal)
+- [[Bitdeer]] — crypto pivot (570MW Ohio)
 - [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)
 - [[AI hyperscalers]] — context (capex sustainability questioned)
+- [[Crypto-to-AI pivot]] — conversion pattern
