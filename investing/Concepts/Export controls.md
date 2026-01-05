@@ -224,6 +224,7 @@ See [[China retaliatory toolkit]] for the full pattern.
 | **Military denial** | All military-affiliated buyers blocked (Dec 2025) |
 | **Equipment mandate** | 50% domestic equipment requirement |
 | **Targeted retaliation** | [[Dutch seizure of Nexperia]] response |
+| **Chip subsidy package** | **$70B** under consideration (Jan 2026) |
 
 **Key escalation**: China adopted the FDPR mechanism — products made outside China require licenses if they contain Chinese-origin materials. See [[Rare earth leverage]].
 
@@ -295,7 +296,7 @@ Mixed:
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ## Related
 

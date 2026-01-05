@@ -63,6 +63,16 @@ SK Hynix isn't a foundry, but:
 
 ---
 
+## New York listing exploration (Jan 2026)
+
+**Potential US listing:**
+- Exploring New York listing
+- Goal: Narrow valuation gap with [[Micron]]
+- Would increase global investor access
+- Part of broader Asia IPO wave (see [[Asia IPO pipeline 2026]])
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -73,8 +83,9 @@ SK Hynix isn't a foundry, but:
 | Q4 2025 gross margin | **63-67%** (exceeding TSMC, first since Q4 2018) |
 | Indiana investment | $3.87B |
 | 2.5D mass production | Targeting 2028 |
+| US listing | Exploring (2026) |
 
-*Updated 2025-12-30*
+*Updated 2026-01-05*
 
 ---
 

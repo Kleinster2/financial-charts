@@ -76,6 +76,20 @@ China's national champion for memory independence. State-backed effort to break 
 
 ---
 
+## IPO consideration (Jan 2026)
+
+**Mainland China IPO:**
+
+| Metric | Value |
+|--------|-------|
+| Valuation | **$40B+** |
+| Exchange | Mainland China (TBD) |
+| Status | Considering |
+
+Part of broader wave of Chinese chip IPOs seeking capital for self-reliance push.
+
+---
+
 ## Financials
 
 | Metric | Value |
@@ -85,7 +99,7 @@ China's national champion for memory independence. State-backed effort to break 
 | NAND capacity | ~100K wafers/month |
 | Layers | 232L achieved |
 | Backing | Tsinghua Unigroup, national funds |
-| Listed | No |
+| Listed | No (IPO mulled at $40B+) |
 
 **Constrained growth:** Entity List status limits expansion and equipment access.
 

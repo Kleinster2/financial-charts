@@ -143,6 +143,13 @@ Moore Threads is one of China's "Four Little Dragons" of GPUs:
 
 ---
 
+## Barclays view (Jan 2026)
+
+> "China is catching up very quickly in the chip war. It wouldn't surprise me if in 2026 or 2027 we have a **DeepSeek moment for chips** where a low-cost competitive chip is being produced by China. This would be disruptive for Nvidia and their supply chain."
+> — Matt Toms, Head of Cash Equity Execution Asia-Pacific, Barclays
+
+---
+
 ## Related
 
 - [[Biren Tech]] — peer (Four Little Dragons)

@@ -129,6 +129,19 @@ See [[Kunlunxin]] for full details.
 
 ---
 
+## Stock performance (2025)
+
+**Kunlunxin IPO catalyst:**
+
+| Metric | Pre-Sept | Post-Sept |
+|--------|----------|-----------|
+| Share price (HK) | ~HK$80 | ~HK$120 |
+| Analyst target (avg) | ~HK$100 | **~HK$155** |
+
+Price target jumped 55% after September AI chip order news / Kunlunxin IPO filing momentum.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -139,7 +152,7 @@ See [[Kunlunxin]] for full details.
 | Search share | ~70% China |
 | AI model | Ernie |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 

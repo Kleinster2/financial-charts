@@ -143,6 +143,29 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 
 ---
 
+## China chip market (2025)
+
+**STAR 50 vs CSI 300 (Bloomberg):**
+
+| Index | 2025 YTD | Peak (Oct) |
+|-------|----------|------------|
+| STAR 50 (chip-focused) | **+30%** | +55% |
+| CSI 300 (benchmark) | +15% | +20% |
+
+Chip sector 2x outperformance reflects policy premium + IPO wave.
+
+**IPO frenzy (Jan 2026):**
+
+| Company | Debut gain | Exchange |
+|---------|------------|----------|
+| [[MetaX]] | **+693%** | Shanghai |
+| [[Moore Threads]] | **+425%** | Shanghai |
+| [[Biren Tech]] | $600M raise | HK (pending) |
+
+**Barclays (Jan 2026):** "It wouldn't surprise me if in 2026 or 2027 we have a **DeepSeek moment for chips** where a low-cost competitive chip is being produced by China."
+
+---
+
 ## Investment implications
 
 **Not a binary outcome.** Both ecosystems will thrive in different ways:

@@ -110,6 +110,17 @@ Perplexity = pure-play AI search.
 
 ---
 
+## Distribution deals
+
+**Samsung CES 2026:**
+- Perplexity AI agent integrated into Samsung TVs
+- Alongside Bixby (Samsung) and Microsoft
+- Major consumer distribution channel — Samsung is #1 TV maker globally
+
+Shows path to consumer distribution beyond mobile/web.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -138,7 +149,7 @@ Perplexity = pure-play AI search.
 | Monthly queries | 780M |
 | CEO | Aravind Srinivas |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 
@@ -148,3 +159,5 @@ Perplexity = pure-play AI search.
 - [[OpenAI]] — competitor (ChatGPT search)
 - [[NVIDIA]] — investor (strategic backing)
 - [[Glean]] — peer (AI enterprise search)
+- [[Samsung]] — partner (TV AI agent integration)
+- [[CES 2026]] — announcement venue
