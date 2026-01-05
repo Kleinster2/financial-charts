@@ -32,7 +32,7 @@ China's most advanced domestic AI chip effort going public. Powers [[Baidu]]'s E
 | Baidu stake post-IPO | ~59% controlling |
 | Expected timing | Early 2027 |
 
-**Market reaction**: Baidu stock +9.4% on announcement.
+**Market reaction**: Baidu stock +9.4% on announcement. Analyst price targets jumped from ~HK$100 to ~HK$155 (Sept 2025).
 
 ---
 

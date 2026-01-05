@@ -50,7 +50,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | CHIPS Act | $6.4B |
 | Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
 
-*Updated 2025-12-30*
+*Updated 2026-01-05*
 
 ---
 
@@ -107,6 +107,31 @@ What consensus assumes (update when you see estimates):
 - **Yields approaching TSMC** — 55-60% vs TSMC ~65%
 
 *Multiple catalysts materializing. Thesis strengthening.*
+
+---
+
+## Consumer electronics / Display (CES 2026)
+
+**Samsung is also world's #1 TV maker.** Non-semiconductor revenue diversification:
+
+**Micro RGB technology (Jan 2026):**
+- New LCD backlighting tech — individual R/G/B backlights vs white/blue
+- Improves color accuracy vs standard LCD
+- 115-inch Micro RGB TV at $30,000
+- Expanding to 55-130 inch range
+
+**OLED competition with LG:**
+- S95H flagship: 35% brighter than prior gen
+- S90H: Added glare-free screen, 15% brighter
+- "Quantum dot" OLED panels from Samsung Display
+- Re-entered OLED in 2022 after years of LCD-only
+
+**AI integration:**
+- Compatible with Bixby, Microsoft, [[Perplexity]] AI agents
+- AI Sound Controller for dialogue/music/effects adjustment
+- Automatic picture/sound optimization
+
+**Market trend:** "Super big screens" (98-130 inch) fastest-growing TV segment, expected to double in 2026.
 
 ---
 

@@ -14,10 +14,10 @@ Advanced China GPU maker, but sanctioned:
 | Metric | Value |
 |--------|-------|
 | Founded | 2019 |
-| Founders | Ex-NVIDIA, Alibaba, ST |
+| Founder | Zhang Wen (ex-SenseTime president) |
 | Key product | BR100 GPU |
 | US status | Entity List (Oct 2022) |
-| IPO | Jan 2, 2026 (HK) |
+| IPO | Jan 3, 2026 (HK) — **+76%** debut |
 
 ---
 
@@ -66,16 +66,28 @@ Optimizing within constraints.
 
 ---
 
-## IPO details
+## IPO results (Jan 3, 2026)
 
-**Hong Kong listing (Jan 2, 2026):**
+**Hong Kong listing — blockbuster debut:**
 
 | Metric | Value |
 |--------|-------|
 | Exchange | HKEX (6082) |
-| Raise | $600-717M |
+| IPO price | HK$19.60 (top of range) |
+| First day close | HK$34.46 |
+| **First day gain** | **+76%** (peaked +119% intraday) |
+| Raised | **$717M** |
+| Retail subscription | **2,300x** oversubscribed |
 | Cornerstone investors | 23 (state-linked funds, PE) |
+
+**Best HK debut since Kuaishou (Feb 2021)** for $700M+ listings. HK listings $700M+ averaged +23% first day (2020-2025).
+
+First GPU-focused stock to list in Hong Kong — "enjoys scarcity value" (China Everbright).
+
+| Financial | Value |
+|-----------|-------|
 | 2024 revenue | 336.8M yuan (~$48M) |
+| H1 2025 net loss | 1.6B yuan ($229M) |
 
 ---
 
@@ -91,14 +103,14 @@ Optimizing within constraints.
 
 ## Four Little Dragons
 
-| Company | US sanctions | Status |
-|---------|-------------|--------|
-| [[Moore Threads]] | Not listed | IPO'd |
-| **Biren Tech** | Entity List | IPO Jan 2026 |
-| [[MetaX]] | Not listed | IPO'd |
-| [[Enflame]] | Not listed | IPO prep |
+| Company | US sanctions | IPO | First-day gain |
+|---------|-------------|-----|----------------|
+| [[Moore Threads]] | No | Shanghai | +425% |
+| [[MetaX]] | No | Shanghai | +693% |
+| **Biren Tech** | Yes (Entity List) | HK | **+76%** |
+| [[Enflame]] | No | STAR prep | — |
 
-Biren is the only one sanctioned — limits manufacturing options.
+Biren is the only one sanctioned — limits manufacturing options but still strong HK debut.
 
 ---
 
@@ -128,7 +140,7 @@ Biren is the only one sanctioned — limits manufacturing options.
 | Key chip | BR100 |
 | US status | Entity List |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 

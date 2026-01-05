@@ -76,11 +76,16 @@ Consistent roadmap execution.
 
 ## IPO preparation
 
-**Status:**
-- CICC engaged as advisor
-- Executive IPO training underway
-- Valuation ~$1.65B (Sept 2024, likely higher now)
-- Timing TBD
+**STAR board IPO (Shanghai):**
+
+| Metric | Value |
+|--------|-------|
+| Target raise | ~2B yuan (~$275M) |
+| Exchange | STAR board (Nasdaq-style) |
+| Status | In preparation |
+| Valuation | ~$1.65B+ (Sept 2024) |
+
+**STAR board advantage:** Friendly to loss-making but fast-growth startups.
 
 Last of Four Little Dragons to IPO.
 

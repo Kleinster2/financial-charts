@@ -18,6 +18,16 @@ CoreWeave is the largest "neocloud" — GPU-focused cloud competing with hypersc
 | CDS spread | 773 bps (42% implied default probability) |
 | Key backer | [[NVIDIA]] |
 | IPO | March 2025 |
+| 2026 revenue forecast | Lowered (Jan 2026) |
+
+---
+
+## Revenue outlook (Jan 2026)
+
+**Lowered forecast:**
+- CoreWeave cut 2026 revenue projections
+- Part of broader AI infrastructure financing concerns
+- Stock pressure despite strong 2025 performance
 
 ---
 

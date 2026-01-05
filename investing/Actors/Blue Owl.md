@@ -16,7 +16,7 @@ Blue Owl is becoming the bank for AI infrastructure:
 | AUM | $273B (Mar 2025) |
 | Digital infrastructure capital | $34B |
 | Facilities | 90+ across 25+ markets |
-| Largest deal | Meta Hyperion $27B |
+| Largest deal | Meta Hyperion **$30B** (off-balance-sheet) |
 
 ---
 
@@ -24,26 +24,25 @@ Blue Owl is becoming the bank for AI infrastructure:
 
 | Deal | Size | Partner | Status |
 |------|------|---------|--------|
-| **Meta Hyperion** | $27B | [[Meta]] | Closed Oct 2025 — largest private credit deal ever |
+| **Meta Hyperion** | **$30B** | [[Meta]] | Closed Oct 2025 — largest private credit deal ever |
 | **Crusoe Abilene** | $15B | Crusoe Energy | 1.2GW, "largest GPU cluster in world" |
 | **Oracle Michigan** | ~$10B | [[Oracle]] | Pulled out — Oracle debt concerns |
 
 ---
 
-## Meta Hyperion deal (Oct 2025)
+## Meta Hyperion deal ($30B)
 
 **Structure:**
-- $27B total financing
+- $30B total financing (largest private credit deal ever)
 - Blue Owl: 80% ownership
 - Meta: 20% ownership
-- Blue Owl cash contribution: ~$7B
 - Location: Richland Parish, Louisiana
 
 **Why it matters:**
-- Largest private credit transaction ever
-- Template for hyperscaler off-balance-sheet financing
+- Template for hyperscaler **off-balance-sheet financing**
 - Blue Owl takes construction/financing risk
 - Meta gets capacity without balance sheet hit
+- Hyperscalers increasingly prefer leasing to owning (Nadella: "excited to be a leaser")
 
 ---
 
@@ -132,10 +131,10 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Ticker | OWL |
 | AUM | $273B |
 | Digital infra capital | $34B |
-| Largest deal | Meta $27B |
+| Largest deal | Meta $30B |
 | HQ | New York |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 

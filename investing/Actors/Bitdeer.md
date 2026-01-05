@@ -3,94 +3,97 @@ aliases: [BTDR]
 ---
 #actor #crypto #usa #public
 
-**Bitdeer** — ASIC-focused miner. -50% YTD. Lagging AI pivot. Custom chip development.
+**Bitdeer** — Singapore-based crypto miner pivoting to AI. 570MW Ohio AI data center by 2027. Bitmain spinoff.
 
 ---
 
-## Why Bitdeer matters (as cautionary tale)
+## Why Bitdeer matters
 
-Worst performer among major miners:
+Crypto miner making aggressive AI pivot:
 
 | Metric | Value |
 |--------|-------|
 | Ticker | BTDR |
-| 2025 YTD | -50% |
-| Strategy | ASIC chip development |
-| AI pivot | Lagging |
+| Origin | Bitmain spinoff |
+| AI strategy | Co-location data centers |
+| Flagship project | 570MW Clarington, Ohio (H2 2027) |
+| Investment | "Hundreds of millions, if not billions" |
 
 ---
 
-## ASIC focus
+## AI pivot strategy
+
+**Infrastructure-first approach:**
+- Converting crypto infrastructure to AI data centers
+- Co-location model — build infrastructure, hyperscalers supply GPUs
+- "Less volatile hedge to Bitcoin" — CSO Haris Basit
+
+---
+
+## Clarington, Ohio project
+
+**Flagship AI data center:**
+
+| Metric | Value |
+|--------|-------|
+| Location | Clarington, Ohio |
+| Capacity | **570MW** |
+| Target | H2 2027 |
+| Investment | "Hundreds of millions, if not billions" |
+| Model | Co-location with hyperscalers |
+
+CSO Haris Basit: "We're looking at this as a less-volatile hedge to bitcoin... We're converting our infrastructure to AI because there's so much demand."
+
+---
+
+## ASIC business
 
 **Custom chip strategy:**
 - Developing own mining ASICs
-- Chip delays hurt performance
-- Different from GPU/AI pivot
-- Bitmain relationship
+- Bitmain spinoff heritage
+- Chip delays in 2024 hurt performance
+- ASIC sales to other miners
 
 ---
 
-## Underperformance
+## Setbacks
 
-**Worst in class:**
+**Massillon, Ohio fire (2025):**
+- 57MW site damaged
+- Resuming operations in 2025
+- Insurance coverage expected
 
-| Company | 2025 YTD | Strategy |
-|---------|----------|----------|
-| [[IREN]] | +300% | AI Microsoft |
-| [[Hut 8]] | +139% | AI Google |
-| [[Marathon]] | Lagging | BTC pure |
-| **Bitdeer** | -50% | ASIC focus |
-
-ASIC strategy not rewarded by market.
-
----
-
-## Why lagging
-
-| Issue | Impact |
-|-------|--------|
-| ASIC delays | Missed timelines |
-| No AI anchor | No hyperscaler deal |
-| Q3 loss | Earnings miss |
-| Bitmain ASIC price cuts | Margin pressure |
+**Market perception:**
+- 2024 stock underperformed peers
+- ASIC focus vs AI pivot debate
+- Catching up to IREN, Hut 8
 
 ---
 
-## AI services (limited)
+## AI services
 
-**Some AI exposure:**
+**Current AI exposure:**
 - AI cloud on NVIDIA DGX SuperPOD
 - Near-full utilization reported
-- But small vs peers
-
-Not enough to offset mining challenges.
+- Growing alongside crypto operations
 
 ---
 
 ## Investment case
 
 **Bull:**
-- ASIC development optionality
-- AI services growing
-- Depressed valuation
-- Turnaround potential
+- 570MW Ohio project = major AI capacity
+- Co-location model proven by peers
+- ASIC business provides diversification
+- Singapore-based (geographic diversification)
+- Bitmain relationship provides optionality
 
 **Bear:**
-- -50% for a reason
-- ASIC strategy not working
-- Peers far ahead on AI
-- Execution issues
-- No major AI deal
-
----
-
-## Lesson
-
-**What Bitdeer shows:**
-- AI pivot matters
-- ASIC focus = wrong bet in 2025
-- Hyperscaler deals = stock performance
-- Pure mining = underperformance
+- Late to AI pivot vs IREN, Hut 8
+- No hyperscaler anchor tenant announced
+- Fire setback at Massillon
+- Execution track record
+- ASIC delays in past
 
 ---
 
@@ -99,18 +102,21 @@ Not enough to offset mining challenges.
 | Metric | Value |
 |--------|-------|
 | Ticker | BTDR |
-| 2025 YTD | -50% |
-| Strategy | ASIC development |
-| AI pivot | Lagging |
+| Origin | Bitmain spinoff |
+| HQ | Singapore |
+| AI project | 570MW Clarington, Ohio |
+| Target | H2 2027 |
 
-*Updated 2026-01-01*
+*Updated 2026-01-05*
 
 ---
 
 ## Related
 
-- [[IREN]] — peer (outperforming, +300% YTD)
-- [[Hut 8]] — peer (outperforming, +139% YTD)
-- [[Marathon Digital]] — peer (crypto miner)
+- [[IREN]] — peer (AI pivot leader)
+- [[Hut 8]] — peer (AI pivot)
+- [[Core Scientific]] — peer (AI pivot)
+- [[Marathon Digital]] — peer (Bitcoin pure-play)
 - [[Riot Platforms]] — peer (crypto miner)
-- [[Crypto-to-AI pivot]] — what Bitdeer is missing
+- [[Crypto-to-AI pivot]] — thesis (Bitdeer executing)
+- [[AI infrastructure financing risk]] — financing context
