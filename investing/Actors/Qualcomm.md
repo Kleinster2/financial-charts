@@ -47,16 +47,35 @@ Qualcomm has:
 
 ## Snapdragon X2 (Jan 2026)
 
-**Next-gen PC chip using TSMC N3X:**
+**Next-gen PC chip — first commercial use of TSMC N3X:**
 
-| Spec | Details |
-|------|---------|
+| Spec | Value |
+|------|-------|
 | Product | Snapdragon X2 Elite Extreme |
-| Process | TSMC 3nm N3X |
-| Focus | Maximum clock speeds |
-| Trade-off | Power/thermal vs performance |
+| Process | **TSMC 3nm N3X** (first commercial chip) |
+| Transistors | 31 billion |
+| Cores | 18 (5.0GHz on 1-2 cores) |
+| Memory bandwidth | 228GB/s |
+| Power | 100W+ unconstrained, 40W sustained |
+| Architecture | SiP (System-in-Package) — unified memory like Apple |
 
-N3X = high-performance variant of TSMC 3nm, optimized for clock speed over efficiency.
+**N3X trade-offs:**
+
+| N3X advantage | N3X disadvantage |
+|---------------|------------------|
+| +5% performance vs N3P | Lower efficiency |
+| Optimized for >1.0V | Lower density |
+| Max clock speeds | Higher power draw |
+
+**vs Apple (early benchmarks):**
+
+| Metric | X2 Elite Extreme | Apple |
+|--------|------------------|-------|
+| Memory bandwidth | 228GB/s | M5: lower, M4 Pro: 273GB/s |
+| Cinebench 2024 | Slower | M4 Max faster |
+| GPU (3DMark) | — | M4 Pro ~45% faster |
+
+**Assessment:** Qualcomm prioritized peak performance over efficiency. Still trailing Apple despite N3X. The SiP architecture is the right direction but execution gap remains.
 
 ---
 

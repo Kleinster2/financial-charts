@@ -4,11 +4,26 @@ This vault tracks the global investable universe. One vault, many sectors, unifi
 
 ---
 
-## Core principle
+## Core principles
 
 **Investment is the purpose. Everything else is a lens.**
 
 Sectors, geographies, macro themes, geopolitics — all are lenses on the same goal: understanding what to own and why.
+
+**Numbers matter. Capture them.**
+
+Hard data enables future analysis. When ingesting news or research:
+
+| Capture | Examples |
+|---------|----------|
+| Financial metrics | Margins, costs, revenue, market share, multiples |
+| Operational data | Capacity, yields, volumes, wafer starts, timelines |
+| Comparisons | vs competitors, vs prior periods, vs expectations |
+| Source/date | Always cite where data came from and when |
+
+Use tables for structured data. Qualitative narrative without quantitative support is opinion. This vault prioritizes data.
+
+**Example:** Don't just say "TSMC's US fabs have lower margins." Capture: Taiwan 62% gross margin vs US 8%, depreciation +386%, labor +100%, total cost per wafer $6,681 vs $16,123 (SemiAnalysis, Nov 2025).
 
 ---
 
@@ -59,6 +74,7 @@ Tags define **what a note is about**. Use multiple tags per note.
 | `#automotive` | Vehicles, autonomy |
 | `#defense` | Defense, aerospace |
 | `#commodities` | Raw materials, mining |
+| `#quantum` | Quantum computing |
 
 Add new sector tags as needed. Keep them flat (not `#sector/semi`).
 

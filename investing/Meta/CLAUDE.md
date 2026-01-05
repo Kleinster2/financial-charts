@@ -10,6 +10,20 @@ This is an Obsidian vault. Follow Obsidian philosophy:
 - **Daily notes as inbox** — capture first, extract atomic notes when ideas mature
 - **No dashboards or indexes** — the graph *is* the dashboard
 
+## Numbers matter
+
+**Never overlook hard data.** When ingesting news or research, capture:
+
+- Financial metrics (margins, costs, revenue, market share)
+- Operational data (capacity, yields, volumes, timelines)
+- Comparisons (vs competitors, vs prior periods)
+- Source and date for all data points
+
+Use tables for structured numeric data. Qualitative narrative without quantitative support is opinion.
+
+**Bad:** "TSMC's US fabs have lower margins"
+**Good:** "Taiwan 62% gross margin vs US 8%, depreciation +386%, labor +100% (SemiAnalysis, Nov 2025)"
+
 ## When creating notes
 
 - Keep notes small and focused
