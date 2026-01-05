@@ -36,7 +36,7 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - Ohio/Arizona fab ramp
 - Activist investor activity
 
-## Recent developments (Dec 2025)
+## Recent developments (Dec 2025 - Jan 2026)
 
 **Wins:**
 - 18A reached high-volume manufacturing — first to combine RibbonFET (GAA) + PowerVia
@@ -52,6 +52,35 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - Operating loss $9.5B for FY2025
 
 **Maia 2 significance**: Microsoft seeking US-based foundry capacity not exposed to TSMC constraints. If deal closes, validates 18A for external customers and opens door to other hyperscalers.
+
+---
+
+## TSMC overflow momentum (Jan 2026)
+
+TSMC's CoWoS bottleneck is creating opportunities for Intel:
+
+**New customer interest:**
+
+| Customer | Product | Intel offering | Status |
+|----------|---------|----------------|--------|
+| [[Google]] | TPU v9 (2027) | EMIB packaging | Exploring |
+| [[Apple]] | Entry-level M-series (2027) | 18A process | Reported interest |
+| [[Broadcom]] | Custom ASICs | Foundry services | Orders placed |
+| [[Microsoft]] | Maia 2 | 18A/18A-P | Reported |
+
+**Why now:**
+- TSMC CoWoS capacity locked up (NVIDIA has >50% through 2027)
+- Google cut TPU production target 4M → 3M due to CoWoS constraint
+- Hyperscalers seeking alternatives
+
+**Intel capacity expansion (New Mexico):**
+
+| Capability | Expansion |
+|------------|-----------|
+| EMIB packaging | +30% capacity |
+| Foveros 3D | +150% capacity |
+
+**The NVIDIA signal:** NVIDIA reviewed Intel facilities but passed — shows Intel is being evaluated seriously, even if not chosen by all.
 
 ---
 

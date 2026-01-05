@@ -75,8 +75,31 @@ What consensus assumes (update when you see estimates):
 - **NVIDIA second foundry** — After Groq licensing deal, industry sources say NVIDIA exploring Samsung as backup to TSMC (Dec 2025)
 - ~~Yields improve faster than expected~~ **CONFIRMED: 55-60% (Dec 2025)**
 - Taiwan disruption revalues Samsung capacity
-- Google/Qualcomm deals
+- **TSMC overflow customers** — Google, Qualcomm, AMD, Amazon exploring Samsung (Jan 2026)
 - **Exynos 2600** — World's first 2nm mobile chip (Galaxy S26), proof point for 2nm viability
+
+---
+
+## Turnkey bundle strategy (Jan 2026)
+
+**Samsung offering integrated solution to hyperscalers:**
+
+| Component | Samsung offering |
+|-----------|------------------|
+| Foundry | SF2 (2nm) process |
+| Advanced packaging | CoWoS alternative |
+| Memory | HBM from Samsung |
+| Integration | Single vendor, Texas facilities |
+
+**Target customers:**
+
+| Customer | Product | Status |
+|----------|---------|--------|
+| [[Google]] | TPU packaging | Exploring |
+| [[AMD]] | GPU/CPU | Exploring |
+| [[Amazon]] | Custom chips | Exploring |
+
+**Why "turnkey" matters:** TSMC doesn't make memory. Samsung can bundle foundry + packaging + HBM as one-stop solution — differentiation vs TSMC's logic-only approach.
 
 **Recently confirmed:**
 - **xAI Taylor deal finalized** (Dec 2025) — Custom AI chips, production early 2026, full scale 2027
