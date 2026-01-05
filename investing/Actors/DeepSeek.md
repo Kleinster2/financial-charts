@@ -21,19 +21,81 @@ China's most prominent open-ish AI lab, known for efficiency:
 
 ---
 
-## DeepSeek R1
+## DeepSeek V3 (Dec 2024)
+
+The early warning that most missed:
 
 | Spec | Details |
 |------|---------|
+| Parameters | 671B total, 37B active per query |
 | Architecture | Mixture of Experts (MoE) |
+| Training compute | 2048 H800s (~2M GPU hours) |
+| Claimed cost | ~$6M (final run only) |
+| Performance | Competitive with GPT-4 Turbo |
+
+**Who noticed:** Some VCs, quant funds, China watchers. Wall Street largely missed it.
+
+---
+
+## The cost/chip debate
+
+**The $6M claim is misleading:**
+
+| What it includes | What it excludes |
+|------------------|------------------|
+| Final training run | Prior experiments, failed runs |
+| Compute only | Infrastructure, salaries, R&D |
+
+**Real investment:** Likely $100M+ over 2+ years. Still far below US labs.
+
+**The chip situation:**
+
+| Question | Answer |
+|----------|--------|
+| What chips? | H800s (China-legal), possibly some H100s |
+| How many? | 10,000-50,000 (estimates vary) |
+| Gray market? | Widely suspected, unconfirmed |
+| The point | Made fewer/weaker chips work through efficiency |
+
+---
+
+## DeepSeek R1 (Jan 2025)
+
+| Spec | Details |
+|------|---------|
+| Type | Reasoning model (like OpenAI o1) |
+| Architecture | MoE with chain-of-thought |
 | Efficiency | Lower cost/token than GPT-4 |
-| Performance | Competitive on benchmarks |
 | Weights | Open (downloadable) |
 | Inference | Runs on consumer hardware |
 
 **Why it matters:** Proves China can build competitive models despite GPU restrictions. Efficiency offsets hardware disadvantage.
 
+**Why R1 hit harder than V3:** Reasoning models are the hardest task — proving efficiency works here meant it works everywhere.
+
 **Market impact:** R1 release triggered [[DeepSeek day]] (Jan 27, 2025) — NVIDIA lost $600B, largest single-day market cap loss in US history.
+
+---
+
+## mHC Research (Jan 2026)
+
+One year later, DeepSeek published research validating their efficiency claims:
+
+| Spec | Details |
+|------|---------|
+| Paper | "Manifold-Constrained Hyper-Connections" (mHC) |
+| Published | January 1, 2026 |
+| Co-author | Liang Wenfeng (founder) |
+| Tested | Models up to 27B parameters |
+| Claim | "Superior scalability with negligible computational overhead" |
+
+**Why it matters:** Technical proof behind the efficiency claims that crashed markets a year earlier. Not just a one-off — a systematic approach.
+
+**Industry reaction:**
+- Counterpoint (Wei Sun): "striking breakthrough" that "bypasses compute bottlenecks"
+- Omdia (Lian Jye Su): Publishing shows "newfound confidence in Chinese AI industry"
+
+**What's next:** R2 or V4 expected around Feb 2026 (Spring Festival), continuing pattern of holiday releases.
 
 ---
 

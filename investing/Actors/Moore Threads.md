@@ -31,6 +31,21 @@ Leading China GPU challenger, founded by NVIDIA veteran:
 
 ---
 
+## Consumer GPU history
+
+**MTT S80 (2022) — first Chinese consumer gaming card:**
+
+| Metric | Value |
+|--------|-------|
+| Milestone | First domestic gaming GPU with PCIe 5.0 |
+| Result | Historic but struggled |
+| Issues | Immature drivers, inconsistent performance |
+| Modern games | Failed to run smoothly |
+
+Paved the way for [[Lisuan]] G100 (Dec 2025).
+
+---
+
 ## Product roadmap
 
 **Huagang architecture (5th gen, announced MDC 2025):**
@@ -133,6 +148,7 @@ Moore Threads is one of China's "Four Little Dragons" of GPUs:
 - [[Biren Tech]] — peer (Four Little Dragons)
 - [[MetaX]] — peer (Four Little Dragons)
 - [[Enflame]] — peer (Four Little Dragons)
+- [[Lisuan]] — peer (consumer gaming GPU)
 - [[NVIDIA]] — competitor (founder origin, 14 years)
 - [[Huawei]] — competitor (domestic alternative)
 - [[Export controls]] — context (NVIDIA blocked)

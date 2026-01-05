@@ -62,8 +62,12 @@ Biggest company in humanoid race:
 | 2021 | Announced at AI Day |
 | 2022 | Prototype demo |
 | 2023 | Gen 2 revealed |
-| 2024 | Factory pilots |
-| 2025+ | External sales? |
+| 2024 | Factory pilots (limited) |
+| 2025 | Gen 3 in development |
+| 2025 | Original factory timeline abandoned |
+| 2026+ | External sales? (TBD) |
+
+**Note:** Tesla abandoned original factory deployment timeline per WSJ.
 
 ---
 
@@ -76,6 +80,59 @@ Biggest company in humanoid race:
 - Training data generation
 
 Tesla is its own first customer.
+
+---
+
+## Reality check (WSJ Jan 2026)
+
+**What demos don't show:**
+
+| Claim | Reality (per WSJ) |
+|-------|-------------------|
+| Autonomous operation | Often teleoperated by engineers in VR suits |
+| Dancing robots (Oct 2024) | Engineers controlling them backstage |
+| Factory-ready | Many engineers doubt usefulness vs task-specific robots |
+| Human-like hands | Still can't match human sensitivity/dexterity |
+| Indoor navigation | Robots frequently fall over, need to be picked up |
+
+**The teleoperation setup:**
+- One engineer operates movements via bodysuit + VR headset
+- One engineer monitors laptop
+- Others watch performance
+- Several engineers per robot
+
+**Training data collection:**
+- Hired people to wear cameras/backpacks 24/7
+- Walking through Tesla offices to collect data
+- Robots still topple frequently
+
+---
+
+## Skeptic voices
+
+| Source | View |
+|--------|------|
+| Some Tesla engineers | Doubt usefulness — task-specific robots better |
+| ARK Invest | Excluded Optimus from 2029 estimates |
+| Ken Goldberg (Berkeley) | "Even a child could clear a dinner table" — shows the gap |
+| Standard Bots CEO | Legs inferior to wheels for factory/warehouse |
+
+**ARK's Tasha Keeney:** "Initial versions will likely have limited set of performable tasks."
+
+---
+
+## Legs vs wheels debate
+
+**The stability problem:**
+
+| Factor | Legs | Wheels |
+|--------|------|--------|
+| Stability | Inherently unstable | Stable |
+| Power loss | Falls on someone | Stops safely |
+| Factory use | Risky | Safer |
+| Versatility | More environments | Flat surfaces |
+
+Standard Bots (wheeled) argues humanoid form is wrong for industrial use.
 
 ---
 
@@ -128,7 +185,7 @@ Can Tesla out-manufacture startups?
 | Target price | <$20K |
 | Status | Development |
 
-*Updated 2026-01-01*
+*Updated 2026-01-04*
 
 ---
 
@@ -139,4 +196,6 @@ Can Tesla out-manufacture startups?
 - [[Figure AI]] — competitor (humanoid startup)
 - [[Agility Robotics]] — competitor (Digit robot)
 - [[Boston Dynamics]] — competitor (Atlas)
+- [[1X Technologies]] — competitor (humanoid)
+- [[Unitree]] — competitor (China, lower cost)
 
