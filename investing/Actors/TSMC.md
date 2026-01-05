@@ -42,7 +42,33 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | U.S. investment | $65-165B (Arizona) |
 | CHIPS Act | $6.6B |
 
-*Updated 2025-12-30*
+*Updated 2026-01-04*
+
+---
+
+## 3nm node family
+
+TSMC's 3nm is not one process — it's a family optimized for different use cases:
+
+| Node | Focus | Trade-offs | Status |
+|------|-------|------------|--------|
+| **N3E** | Baseline 3nm | Balanced PPA | Production |
+| **N3P** | Performance Enhanced | +5% vs N3E, -10% power, +4% density | Production |
+| **N3X** | High-Performance Computing | +5% vs N3P, max clocks, >1.0V | **First commercial: [[Qualcomm]] X2** |
+
+**N3X specifics:**
+- Optimized for clock speed over efficiency
+- Higher voltage operation (>1.0V)
+- Lower density vs N3P
+- Lower efficiency vs N3P
+- Target: desktop/laptop chips that can tolerate power draw
+
+**Who uses what:**
+- [[Apple]]: N3E/N3P (efficiency-first for laptops/phones)
+- [[Qualcomm]]: N3X (Snapdragon X2 Elite Extreme — performance-first)
+- AI accelerators: Likely N3P (balance of performance and density)
+
+**Implications:** TSMC can tune the same node generation for different customers. Not all "3nm" chips are equal.
 
 ---
 
