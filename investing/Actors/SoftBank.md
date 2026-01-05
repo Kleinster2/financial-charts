@@ -37,6 +37,35 @@ See [[Project Stargate]] for full details.
 
 ---
 
+## DigitalBridge acquisition (Dec 2025)
+
+**Acquiring digital infrastructure investor to support AI ambitions:**
+
+| Detail | Value |
+|--------|-------|
+| Target | [[DigitalBridge]] |
+| Price | **$4B** |
+| DigitalBridge AUM | $108B |
+| DC capacity | 5.4GW in development/operation |
+| Expected close | H2 2026 |
+
+**Strategic rationale:**
+- DigitalBridge portfolio company Vantage building Stargate Wisconsin DC (~1GW)
+- Need physical infrastructure to support AI ambitions
+
+**Also in talks to acquire [[Switch]]:**
+
+| Detail | Value |
+|--------|-------|
+| Target | Switch (DigitalBridge portfolio company) |
+| Asking price | **~$50B** (including debt) |
+| 2022 acquisition | $11B (4.5x appreciation) |
+| Flagship | Core Campus Las Vegas (495MW) |
+
+**Funding move:** Sold entire NVIDIA stake (**$5.83B**) to fund OpenAI/AI infrastructure. Masa reportedly said the sale "made him cry."
+
+---
+
 ## Arm Holdings
 
 **Crown jewel (~90% ownership):**
@@ -148,8 +177,10 @@ Arm architecture in virtually every smartphone. Now pushing into:
 - [[Arm Holdings]] — crown jewel (~90% ownership)
 - [[Masayoshi Son]] — founder/CEO
 - [[Project Stargate]] — lead investor ($500B AI infrastructure)
+- [[DigitalBridge]] — acquiring ($4B, Dec 2025)
+- [[Switch]] — in acquisition talks (~$50B)
 - [[OpenAI]] — Stargate partner
 - [[Oracle]] — Stargate partner
-- [[NVIDIA]] — GPU supplier (Stargate)
+- [[NVIDIA]] — GPU supplier (Stargate), sold stake ($5.83B)
 - [[Saudi PIF]] — Vision Fund LP
 - [[AI hyperscalers]] — Stargate positions SoftBank in this category

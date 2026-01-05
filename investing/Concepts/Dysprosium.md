@@ -99,9 +99,43 @@ See [[Rare earth leverage]] for full timeline.
 | Terbium | Also 99% China-controlled |
 | Different motor design | Performance/range penalty |
 | Lower operating temp | Not feasible for EVs |
-| Recycling | <1% of magnets recycled today |
+| Recycling | <1% of magnets recycled today (but changing) |
 
 **Fundamental constraint**: No other element has dysprosium's electron configuration. This is physics, not engineering.
+
+---
+
+## Recycling progress (Jan 2026)
+
+**IonicRE + US Strategic Metals partnership:**
+
+| Detail | Value |
+|--------|-------|
+| Location | Missouri, USA |
+| Site | 1,800 acres, fully permitted |
+| Technology | Hydro-metallurgical magnet recycling |
+| Feedstock | End-of-life NdFeB and SmCo magnets |
+| Status | Operational in UK, US site in development |
+
+**Target outputs:**
+
+| Light rare earths | Heavy rare earths |
+|-------------------|-------------------|
+| Neodymium (Nd) | **Dysprosium (Dy)** |
+| Praseodymium (Pr) | Terbium (Tb) |
+| — | Samarium (Sm) |
+| — | Gadolinium (Gd) |
+| — | Holmium (Ho) |
+
+**Why recycling matters:**
+- "Fastest and lowest-cost pathway to ex-China supply chain" — IonicRE
+- 61% carbon reduction vs primary mining (peer-reviewed)
+- Avoids China's separation monopoly
+- Circular economy model
+
+**Key quote:** "Magnet recycling is the fastest and lowest-cost pathway to developing an ex-China rare earth supply chain in the United States."
+
+**Watch for:** US/Australia critical minerals framework supporting projects like this.
 
 ---
 
@@ -140,6 +174,10 @@ See [[Rare earth leverage]] for full timeline.
 - [ ] Dy content reduction in next-gen EV motors
 - [ ] Strategic stockpile levels (US, EU, Japan)
 - [ ] China domestic vs export pricing spread
+- [ ] IonicRE Missouri site progress (magnet recycling)
+- [ ] REAlloys SRC-backed expansion (300% by 2027)
+
+*Updated 2026-01-04*
 
 ---
 

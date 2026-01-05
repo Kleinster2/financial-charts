@@ -3,7 +3,23 @@ aliases: [DBRG]
 ---
 #actor #finance #infrastructure #usa
 
-**DigitalBridge** — Pure-play digital infrastructure investor. $80B+ AUM. Specialized in data centers, towers, fiber.
+**DigitalBridge** — Pure-play digital infrastructure investor. $108B AUM. **Being acquired by [[SoftBank]] for $4B (Dec 2025).**
+
+---
+
+## SoftBank acquisition (Dec 2025)
+
+| Detail | Value |
+|--------|-------|
+| Acquirer | [[SoftBank]] |
+| Price | **$4B** |
+| Pre-rumor valuation | $1.8B (2.2x premium) |
+| Expected close | H2 2026 |
+| Post-acquisition | Operates as separate platform, Marc Ganzi continues as CEO |
+
+**Strategic rationale:** SoftBank needs DC infrastructure for AI ambitions. DigitalBridge's Vantage is building one of the [[Project Stargate]] data centers (near-GW in Wisconsin).
+
+**SoftBank also:** In talks to acquire Switch separately. Sold entire NVIDIA stake ($5.83B) to fund AI infrastructure.
 
 ---
 
@@ -13,7 +29,8 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 | Metric | Value |
 |--------|-------|
-| AUM | $80B+ |
+| AUM | **$108B** (Sept 2025) |
+| DC capacity | **5.4GW** in development/operation |
 | Focus | 100% digital infrastructure |
 | Segments | Data centers, towers, fiber, edge |
 | Structure | Asset manager (fee income) |
@@ -33,13 +50,18 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 ## Portfolio companies
 
-| Company | Segment |
-|---------|---------|
-| Vantage Data Centers | Hyperscale DC |
-| DataBank | Edge/enterprise DC |
-| Scala Data Centers | Latin America DC |
-| Various tower cos | Cell towers |
-| Fiber assets | Connectivity |
+| Company | Segment | Notes |
+|---------|---------|-------|
+| Vantage Data Centers | Hyperscale DC | Building Stargate Wisconsin (~1GW) |
+| DataBank | Edge/enterprise DC | — |
+| [[Switch]] | Hyperscale DC | **SoftBank in separate talks at ~$50B** (acquired 2022 for $11B = 4.5x) |
+| Scala Data Centers | Latin America DC | — |
+| AtlasEdge | Edge DC | — |
+| AIMS | Asia-Pacific DC | — |
+| Takanock | Japan DC | — |
+| Yondr Group | Hyperscale DC | — |
+| Various tower cos | Cell towers | — |
+| Fiber assets | Connectivity | — |
 
 ---
 
@@ -89,17 +111,21 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 | Metric | Value |
 |--------|-------|
 | Ticker | DBRG |
-| AUM | $80B+ |
+| AUM | **$108B** |
+| DC capacity | **5.4GW** |
 | HQ | Boca Raton, FL |
 | CEO | Marc Ganzi |
-| Focus | 100% digital infra |
+| Status | **Being acquired by SoftBank ($4B)** |
 
-*Updated 2026-01-01*
+*Updated 2026-01-04*
 
 ---
 
 ## Related
 
+- [[SoftBank]] — acquirer ($4B, Dec 2025)
+- [[Project Stargate]] — Vantage building Wisconsin DC
+- [[Masayoshi Son]] — SoftBank CEO driving acquisition
 - [[Blue Owl]] — competitor (AI infrastructure financing)
 - [[Blackstone]] — competitor (QTS, diversified)
 - [[Brookfield]] — competitor (infrastructure, diversified)

@@ -54,6 +54,84 @@ Arm doesn't make chips — it licenses the architecture that others use:
 
 ---
 
+## PC transition
+
+**Arm moving into laptops — historic x86 territory:**
+
+| Player | Product | Status |
+|--------|---------|--------|
+| [[Apple]] | M-series (M1→M5) | Dominant in Mac, proved Arm viability |
+| [[Qualcomm]] | Snapdragon X / X2 | Windows laptops, challenging Intel/AMD |
+| Microsoft | Windows on Arm | OS support improving, translation layer for legacy apps |
+
+**The challenge:** Software ecosystem. x86 has decades of Windows applications. Arm requires recompilation or translation (performance penalty).
+
+**Apple's solution:** Rosetta 2 translation layer enabled smooth transition. Windows ecosystem following similar path.
+
+**Why it matters:** If Arm succeeds in PCs, it opens massive new TAM beyond mobile.
+
+---
+
+## Automotive expansion
+
+**EVs and autonomous driving = computing-intensive:**
+
+| Application | Arm role |
+|-------------|----------|
+| Battery management | Efficient control systems |
+| ADAS (driver assistance) | Real-time sensor processing |
+| Infotainment | Dashboard displays, central computing |
+| Autonomous driving | AI inference at the edge |
+
+**Why Arm wins here:**
+- Power efficiency critical (every watt matters for range)
+- Real-time processing requirements
+- Integration with sensor systems
+- Automakers building custom SoCs on Arm
+
+---
+
+## Robotics expansion
+
+**Emerging market for Arm:**
+
+| Requirement | Arm advantage |
+|-------------|---------------|
+| Real-time control | Low-latency processing |
+| Sensor fusion | Efficient multi-input handling |
+| AI inference | On-device decision making |
+| Power constraints | Battery-powered robots need efficiency |
+
+**Applications:**
+- Humanoid robots ([[Tesla Optimus]], [[Figure AI]], etc.)
+- Industrial automation
+- Warehouse robotics
+- Drones and autonomous systems
+
+**The opportunity:** Every robot needs a brain. Arm's efficiency-first design fits battery-powered, thermally-constrained robotics.
+
+---
+
+## Software ecosystem moat
+
+**The real competitive advantage:**
+
+Arm's technical architecture is only part of the moat. The deeper moat is software:
+
+| Layer | Lock-in |
+|-------|---------|
+| Operating systems | iOS, Android built for Arm |
+| Developer tools | Compilers, SDKs, debuggers |
+| Application base | Billions of mobile apps |
+| Talent pool | Engineers trained on Arm |
+
+**Feedback loop:**
+- More Arm devices → more developers → more software → more devices
+- Switching cost increases with ecosystem size
+- RISC-V must rebuild this from scratch
+
+---
+
 ## SoftBank / Masa connection
 
 **[[Masayoshi Son]]'s key asset:**
@@ -128,16 +206,20 @@ Arm doesn't make chips — it licenses the architecture that others use:
 | HQ | Cambridge, UK |
 | Owner | SoftBank (~90%) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-04*
 
 ---
 
 ## Related
 
 - [[Masayoshi Son]] — owner (SoftBank ~90%)
-- [[Apple]] — customer (A-series, M-series)
+- [[Apple]] — customer (A-series, M-series, PC transition)
+- [[Qualcomm]] — customer (Snapdragon X/X2, PC transition)
 - [[NVIDIA]] — customer (Grace CPU), tried to acquire
 - [[Amazon]] — customer (Graviton)
 - [[Google]] — customer (Axion)
+- [[Tesla Optimus]] — robotics opportunity
+- [[Figure AI]] — robotics opportunity
 - [[AI infrastructure financing risk]] — Masa margin call trigger
 - [[Export controls]] — China licensing risk
+- [[Automotive semiconductors]] — expansion market

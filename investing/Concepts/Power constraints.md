@@ -227,7 +227,75 @@ This is a **demand-side risk** for all AI chip theses:
 
 ---
 
-*Updated 2026-01-03*
+## IEA World Energy Outlook 2025
+
+**"The Age of Electricity" — data centers now outspend oil:**
+
+| Metric | Value |
+|--------|-------|
+| Data center spending 2025 | **$580B** |
+| New oil supply spending 2025 | $540B |
+| Difference | Data centers +$40B over oil |
+
+This is the first time data center investment exceeds oil exploration/production. A "telling marker of the changing nature of modern, highly digitalised economies."
+
+**Global demand projections:**
+
+| Metric | Current | 2030 | 2035 |
+|--------|---------|------|------|
+| AI server electricity | 1x | **5x** | — |
+| Total DC electricity | 1x | **2x** | **3x** |
+| US DC electricity | ~200 TWh | — | **640 TWh** |
+
+**Geographic concentration:**
+
+| Region | Current DC capacity | New capacity share |
+|--------|--------------------|--------------------|
+| US + China + Europe | **82%** | **85%+** |
+| US data center share of demand growth | — | **~50%** through 2030 |
+
+**US energy mix for data centers (2024):**
+
+| Source | Share |
+|--------|-------|
+| Natural gas | **40%+** |
+| Renewables | ~25% |
+| Nuclear | ~20% |
+| Coal | ~15% |
+
+**2035 projection:** Natural gas supplies >50% of US data center electricity. Gas is the bridge fuel for AI.
+
+**Grid connection delays (IEA data):**
+
+| Region | Wait time |
+|--------|-----------|
+| US typical | 1-3 years |
+| Northern Virginia | **7 years** |
+| UK / EU | **7-10 years** |
+| Dublin | **Closed until 2028** |
+
+**Grid investment lag:**
+- Electricity generation investment: +70% since 2015
+- Grid investment: lagging dramatically
+- Result: can't connect new demand to new supply
+
+**Supply chain concentrations:**
+
+| Material | China share |
+|----------|-------------|
+| High-purity silicon | **95%** |
+| Refined gallium | **99%** |
+| Refined copper | **44%** |
+
+Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV lithography. No country controls all pieces — everyone is vulnerable.
+
+**IEA framing:** "Age of Electricity" — nearly half the global economy will depend on electricity as primary energy input by 2035.
+
+*Source: IEA World Energy Outlook 2025, November 2025*
+
+---
+
+*Updated 2026-01-04*
 
 ## Related
 
