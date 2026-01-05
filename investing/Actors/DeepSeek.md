@@ -33,6 +33,8 @@ China's most prominent open-ish AI lab, known for efficiency:
 
 **Why it matters:** Proves China can build competitive models despite GPU restrictions. Efficiency offsets hardware disadvantage.
 
+**Market impact:** R1 release triggered [[DeepSeek day]] (Jan 27, 2025) — NVIDIA lost $600B, largest single-day market cap loss in US history.
+
 ---
 
 ## Available on major platforms
@@ -119,16 +121,20 @@ DeepSeek represents China's response to GPU constraints:
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-01-04*
 
 ---
 
 ## Related
 
+- [[DeepSeek day]] — event (Jan 27, 2025 market crash)
 - [[Hangzhou]] — HQ (China's AI hub)
 - [[Microsoft]] — distribution (Azure)
 - [[Model landscape]] — context (China open models)
 - [[China AI clusters]] — context (compute infrastructure)
 - [[Export controls]] — constraint (GPU restrictions)
+- [[Inference economics]] — thesis (efficiency implications)
+- [[Open source commoditization]] — trend (open weights pressure)
 - [[Alibaba]] — peer (Qwen models)
 - [[ByteDance]] — peer (Doubao)
+- [[NVIDIA]] — affected (largest single-day loss)
