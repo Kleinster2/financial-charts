@@ -62,7 +62,32 @@ See [[Project Stargate]] for full details.
 | 2022 acquisition | $11B (4.5x appreciation) |
 | Flagship | Core Campus Las Vegas (495MW) |
 
-**Funding move:** Sold entire NVIDIA stake (**$5.83B**) to fund OpenAI/AI infrastructure. Masa reportedly said the sale "made him cry."
+**Switch IPO alternative:** If acquisition fails, Switch preparing IPO early 2026 at **~$60B** valuation (including debt) — $10B higher than acquisition ask.
+
+**Bloomberg Intelligence on Stargate (Jan 2026):**
+> Headline $500B but actual SoftBank cash needs closer to **$40B** — adjusting for 40% JV stake and project financing with only 20% equity. SoftBank participation "less active than expected."
+
+---
+
+## 2025 AI shopping spree
+
+**Acquisitions and commitments:**
+
+| Target | Amount | Status |
+|--------|--------|--------|
+| [[OpenAI]] | **~$30B** | Committed |
+| [[Ampere Computing]] | **$6.5B** | Acquired |
+| [[DigitalBridge]] | **$4B** | In talks |
+| ABB robotics unit | **$5.4B** | Proposed |
+| [[Intel]] | Undisclosed | Stake acquired |
+| [[Switch]] | **~$50B** | In talks |
+
+**Funding sources:**
+- Sold entire NVIDIA stake (**$5.83B**) — Masa "cried"
+- Expanded Arm Holdings margin loan
+- SoftBank Corp (telecom) ramping Japan DC spend
+
+**Stock reaction:** SoftBank shares nearly **2x** in 2025.
 
 ---
 

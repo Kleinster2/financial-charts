@@ -13,13 +13,18 @@ aliases: [DBRG]
 |--------|-------|
 | Acquirer | [[SoftBank]] |
 | Price | **$4B** |
-| Pre-rumor valuation | $1.8B (2.2x premium) |
+| Market cap (Jan 2026) | **$2.8B** |
+| Premium | **43%** over market cap |
+| 2025 stock performance | **+35%** YTD |
 | Expected close | H2 2026 |
 | Post-acquisition | Operates as separate platform, Marc Ganzi continues as CEO |
 
-**Strategic rationale:** SoftBank needs DC infrastructure for AI ambitions. DigitalBridge's Vantage is building one of the [[Project Stargate]] data centers (near-GW in Wisconsin).
+**Strategic rationale:**
+- SoftBank needs DC infrastructure for AI ambitions
+- DigitalBridge's Vantage building Stargate Wisconsin (~1GW)
+- Deep LP relationships — SoftBank (proven capital raiser) + DigitalBridge investor network = fundraising synergies
 
-**SoftBank also:** In talks to acquire Switch separately. Sold entire NVIDIA stake ($5.83B) to fund AI infrastructure.
+**SoftBank also:** In talks to acquire Switch separately at ~$50B. Sold entire NVIDIA stake ($5.83B) to fund AI infrastructure.
 
 ---
 

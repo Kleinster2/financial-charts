@@ -13,11 +13,14 @@ aliases: [Switch Inc]
 |--------|-------|
 | Buyer | [[SoftBank]] |
 | Asking price | **~$50B** (including debt) |
+| IPO alternative | **~$60B** valuation (early 2026) |
 | 2022 acquisition price | $11B (by [[DigitalBridge]] + IFM) |
 | Appreciation | **4.5x in 3 years** |
-| Alternative | Working toward IPO |
+| Status | SoftBank conducting due diligence |
 
 **Context:** SoftBank separately acquiring [[DigitalBridge]] for $4B. Switch is DigitalBridge portfolio company but being pursued as separate deal.
+
+**Strategic value:** Switch specializes in **energy-efficient data center design** — a key bottleneck for AI infrastructure buildout.
 
 ---
 
