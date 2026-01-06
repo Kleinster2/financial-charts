@@ -130,6 +130,7 @@ Hyperscalers interested but patient.
 
 ## Related
 
+- [[Uranium]] — fuel commodity
 - [[Constellation Energy]] — winner (largest US fleet, +150% in 2024)
 - [[Vistra]] — winner (Texas nuclear + gas, +260% in 2024)
 - [[Cameco]] — upstream (uranium mining, Westinghouse stake)

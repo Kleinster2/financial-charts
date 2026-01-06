@@ -118,6 +118,7 @@ Uranium up 3x in 4 years.
 
 ## Related
 
+- [[Uranium]] — commodity (Cameco is largest Western producer)
 - [[Constellation Energy]] — customer (nuclear fuel buyer)
 - [[Vistra]] — customer (nuclear fuel buyer)
 - [[NuScale]] — SMR developer (future demand)

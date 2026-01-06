@@ -150,6 +150,8 @@
 
 - [[Silver]] — precious/industrial hybrid
 - [[PGMs]] — platinum, palladium, rhodium
+- [[Uranium]] — energy commodity (nuclear)
+- [[Lithium]] — battery metal
 - [[Wall Street consensus]] — source (2026 forecasts)
 - [[Copper for AI]] — industrial metals contrast
 - [[Rare earth leverage]] — strategic metals

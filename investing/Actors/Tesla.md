@@ -25,6 +25,61 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 - Dojo reportedly fabbed at [[TSMC]]
 - Potential [[Samsung]] customer — Musk (Tesla + [[xAI]]) could anchor Samsung Taylor fab
+- AI5 chip delayed to mid-2027
+
+---
+
+## FSD / Robotaxi (2026 narrative)
+
+**Current status (Jan 2026):**
+
+| Metric | Value |
+|--------|-------|
+| Austin robotaxi launch | June 2025 |
+| Robotaxis in service | ~135 |
+| Safety driver | Still required (human in passenger seat) |
+| Unsupervised testing | Started Dec 2025 (Austin) |
+
+**Cybercab:**
+- Production starts **April 2026** (Giga Texas)
+- No steering wheel or pedals
+- "Less than 10-second cycle time" (Musk)
+- Regulatory approval timing uncertain
+
+**FSD expansion:**
+- Europe demo rides ongoing
+- Supervised FSD Europe launch Q1 2026 (target)
+- Still requires constant driver attention
+
+**Challenges:**
+- Unsupervised FSD not approved yet
+- Early incidents: wrong-side driving, phantom braking
+- Federal regulator scrutiny
+- AI5 chip delayed → Cybercab may launch on AI4 hardware
+
+**Bull thesis:** Robotaxi = $5T+ market opportunity if Tesla solves autonomy
+**Bear thesis:** Perpetually "next year" — FSD promised since 2016
+
+---
+
+## Energy / Megapack
+
+**Tesla Energy = fastest growing, most profitable division:**
+
+| Metric | 2024 | 2025 |
+|--------|------|------|
+| Storage deployed | 31.4 GWh | **46.7 GWh** |
+| Revenue | $10.1B | ~$12.75B |
+| Gross margin | ~26% | **31.4%** |
+| % of Tesla profit | — | **23%** (vs 13% of revenue) |
+
+**Manufacturing capacity:**
+- Lathrop, CA: 40 GWh/year
+- Shanghai: 40 GWh/year
+- Houston (2026): 50 GWh/year (Megablock)
+- **Total: ~133 GWh/year** when Houston operational
+
+**Bull case:** Energy could surpass automotive revenue by 2029. Some project $200B+ by 2030.
 
 ---
 
@@ -123,6 +178,27 @@ EV motors require permanent magnets with rare earth elements:
 
 ---
 
+## Investment thesis
+
+**Bull case:**
+- Robotaxi/FSD = $5T+ TAM if solved
+- Energy business growing 50%+ annually, 31% margins
+- Optimus humanoid robot optionality
+- AI compute (Dojo) differentiator
+- Musk political influence (DOGE, Trump access)
+- Brand loyalty despite headwinds
+
+**Bear case:**
+- 100x+ P/E on declining deliveries
+- FSD perpetually "next year" since 2016
+- BYD, Chinese EVs winning on cost
+- US EV market contracting (-29% forecast)
+- Musk distraction (xAI, SpaceX, DOGE, X)
+- Boycotts from political polarization
+- Analyst mean target implies downside
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -141,13 +217,21 @@ EV motors require permanent magnets with rare earth elements:
 ## Related
 
 - [[Elon Musk]] — CEO
+- [[SpaceX]] — Musk sibling company (2026 IPO)
+- [[xAI]] — Musk sibling company (potential Samsung anchor)
+- [[DOGE]] — Musk political role
 - [[Tesla Optimus]] — humanoid robot (key narrative)
 - [[BYD]] — competitor (#1 globally)
 - [[Xiaomi]] — China competitor (profitable faster)
-- [[xAI]] — Musk connection (potential Samsung anchor)
+- [[NIO]] — China competitor (premium, battery swap)
+- [[Rivian]] — US competitor (R2 launch 2026)
+- [[Lucid]] — US competitor (luxury)
+- [[CATL]] — battery supplier (LFP cells)
+- [[Lithium]] — key battery input
 - [[Samsung]] — potential foundry (Dojo next-gen)
 - [[TSMC]] — current foundry (Dojo chips)
 - [[STMicro]] — supplier (SiC for EVs)
 - [[Rare earth leverage]] — supply chain risk
+- [[Waymo]] — robotaxi competitor
 
-*Updated 2026-01-04*
+*Updated 2026-01-05*

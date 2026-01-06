@@ -157,6 +157,7 @@ Copper rallying alongside gold and silver:
 
 ## Related
 
+- [[Lithium]] — battery metal peer
 - [[Power constraints]] — AI power demand driving grid upgrades
 - [[Clean energy for AI]] — Renewables need copper
 - [[Freeport-McMoRan]] — largest public producer

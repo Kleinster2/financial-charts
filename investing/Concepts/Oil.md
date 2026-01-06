@@ -122,6 +122,8 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 ## Related
 
+- [[Natural gas]] — related energy commodity
+- [[LNG]] — liquefied natural gas
 - [[Venezuela]] — largest reserves, rebuild opportunity
 - [[Chevron]], [[Exxon]] — US majors
 - [[Schlumberger]], [[Halliburton]], [[Baker Hughes]] — services

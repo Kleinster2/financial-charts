@@ -189,6 +189,8 @@ See [[Rare earth leverage]] for China's export control strategy.
 
 - [[Gold]] — precious metal comparison
 - [[PGMs]] — platinum, palladium, rhodium
+- [[Uranium]] — energy commodity
+- [[Lithium]] — battery metal
 - [[Copper for AI]] — industrial metal peer
 - [[Rare earth leverage]] — China export control context
 - [[Southern Copper]] — silver as byproduct
