@@ -58,6 +58,8 @@ Leading humanoid robotics startup:
 
 GPT-powered robots.
 
+See also [[Physical Intelligence]] — competitor in embodied AI.
+
 ---
 
 ## Figure 01 / 02

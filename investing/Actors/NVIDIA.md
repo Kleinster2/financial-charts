@@ -48,7 +48,7 @@ NVIDIA actively acquires infrastructure that competitors also depend on:
 
 | Acquisition | What | Why it matters |
 |-------------|------|----------------|
-| **Groq ($20B, Dec 2025)** | LPU inference chips | Largest deal ever. 10x faster, 1/10th energy for inference. Entering non-GPU market. |
+| **[[Groq]] ($20B, Dec 2025)** | LPU inference chips | Largest deal ever. 10x faster, 1/10th energy for inference. Entering non-GPU market. |
 | SchedMD (Dec 2025) | SLURM workload scheduler | AMD/Intel users rely on it |
 | Run:AI | Kubernetes orchestration | AI cluster management |
 | Mellanox | Networking | AI cluster connectivity |
