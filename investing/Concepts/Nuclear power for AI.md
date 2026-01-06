@@ -79,7 +79,8 @@ If nuclear scales for AI, uranium demand increases:
 | [[Cameco]] | Largest Western uranium miner | CCJ |
 | Kazatomprom | Largest global producer (Kazakhstan) | KAP |
 | [[Centrus Energy]] | US enrichment, HALEU for SMRs | LEU |
-| Uranium Energy Corp | US mining | UEC |
+| [[Uranium Energy Corp]] | US mining | UEC |
+| [[Energy Fuels]] | US uranium + rare earth processing | UUUU |
 
 **HALEU bottleneck:** Advanced SMRs need High-Assay Low-Enriched Uranium. Only Centrus produces it in US. Russia was main supplier — now sanctioned.
 
@@ -158,7 +159,9 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 - [[Vistra]] — player (Texas nuclear/gas)
 - [[Oklo]] — player (Sam Altman SMR bet)
 - [[NuScale]] — player (SMR peer)
+- [[Fermi]] — startup (11GW nuclear DC, Amarillo TX)
 - [[Cameco]] — upstream (uranium)
+- [[Energy Fuels]] — upstream (US uranium + REE)
 - [[Microsoft]] — customer (TMI deal)
 - [[Amazon]] — customer (Talen deal)
 

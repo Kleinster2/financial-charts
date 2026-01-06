@@ -109,7 +109,7 @@ UAE ahead on execution, Saudi has more capital.
 | Entity | Role |
 |--------|------|
 | [[Saudi PIF]] | Capital deployment |
-| SDAIA | AI strategy/governance |
+| [[SDAIA]] | AI strategy/governance |
 | Aramco | Industrial AI, capital |
 | KAUST | Research |
 | NEOM | Showcase project |
@@ -143,6 +143,7 @@ UAE ahead on execution, Saudi has more capital.
 ## Related
 
 - [[Saudi PIF]] — funder ($930B sovereign fund)
+- [[SDAIA]] — governance (Data & AI Authority)
 - [[UAE G42]] — competitor (GCC AI leader)
 - [[Sovereign AI race]] — context (largest AI bet)
 - [[a16z]] — partner (Transcendence JV)

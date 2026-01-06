@@ -14,7 +14,7 @@ AI is becoming national security infrastructure:
 | Country | Investment | Key Move |
 |---------|------------|----------|
 | [[Saudi PIF]] | $100B+ | a16z partnership |
-| [[UAE G42]] | Billions | Falcon LLM, MSFT $1.5B |
+| [[G42]] | $1.5B MSFT | Falcon LLM, severed China ties |
 | [[Japan Semiconductor Revival]] | $50B+ | Rapidus 2nm |
 | [[India AI]] | $1.2B | 10K+ GPUs |
 | [[Brazil AI]] | $4B | Clean energy angle |
@@ -94,7 +94,7 @@ G42 divested Huawei to get Microsoft deal.
 
 - [[Saudi PIF]] — player ($100B+ AI investment)
 - [[Saudi Arabia Tech]] — national context
-- [[UAE G42]] — player (most advanced in GCC)
+- [[G42]] — player (UAE flagship, Microsoft $1.5B, severed Huawei)
 - [[Japan Semiconductor Revival]] — player (Rapidus)
 - [[NVIDIA]] — enabler (sells to all, kingmaker)
 

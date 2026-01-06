@@ -92,6 +92,7 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 ## Related
 
 - [[Intel Foundry Services]] — own foundry subsidiary
+- [[Intel Capital]] — strategic VC arm (AI chips, edge AI)
 - [[TSMC]] — competitor (foundry), also customer
 - [[Samsung]] — competitor (foundry)
 - [[AMD]] — competitor (CPU)

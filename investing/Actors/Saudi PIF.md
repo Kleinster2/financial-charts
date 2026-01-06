@@ -115,6 +115,7 @@ AI = post-oil economy.
 ## Related
 
 - [[Lucid]] — major investment (55% stake, EVs)
+- [[Elm]] — portfolio (govtech, Absher platform)
 - [[UAE G42]] — competitor (GCC AI leader)
 - [[SoftBank]] — investee (Vision Fund LP)
 - [[a16z]] — partner (Transcendence JV)

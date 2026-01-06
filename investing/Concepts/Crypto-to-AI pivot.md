@@ -49,6 +49,8 @@ AI hosting pays more than mining:
 | Company | Ticker | AI Project | Status |
 |---------|--------|------------|--------|
 | [[Bitdeer]] | BTDR | 570MW Clarington, Ohio | H2 2027 |
+| [[CleanSpark]] | CLSK | Clean energy differentiation | In progress |
+| [[HIVE Digital]] | HIVE | $30M NVIDIA GPUs, $100M AI target | Building |
 
 Bitdeer executing later than peers but committing significant capital.
 
@@ -144,10 +146,13 @@ Hyperscalers AND AI labs paying premium for powered land.
 - [[Cipher Mining]] — winner (+230%, Anthropic deal)
 - [[Nscale]] — winner (Microsoft $23B, UK crypto pivot)
 - [[Bitdeer]] — pivoting late (570MW Ohio, H2 2027)
+- [[CleanSpark]] — pivoting (clean energy differentiation)
+- [[HIVE Digital]] — pivoting ($30M NVIDIA GPUs, $100M target)
 - [[Marathon Digital]] — lagging (Bitcoin pure-play)
 - [[CoreWeave]] — customer (hyperscaler buying miner capacity)
 - [[Microsoft]] — customer (buying IREN, Nscale capacity)
 - [[Anthropic]] — customer (~1M TPUv7 infrastructure via miners)
 - [[FluidStack]] — deployment partner (operations for Anthropic)
+- [[Voltage Park]] — GPU cloud (crypto-to-AI lineage)
 - [[AI infrastructure financing risk]] — overbuild context
 

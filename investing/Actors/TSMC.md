@@ -141,4 +141,5 @@ What consensus assumes (update when you see estimates):
 - [[Intel Foundry Services]] — competitor (US alternative)
 - [[Apple]] — customer (largest, exclusive)
 - [[NVIDIA]] — customer (GPU leader)
+- [[Taiwan Tech]] — country context (semiconductor superpower)
 - [[Customer lock-in via co-design]] — moat (ecosystem lock-in)
