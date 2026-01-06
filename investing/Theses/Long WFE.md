@@ -21,10 +21,12 @@ Wafer Fab Equipment = the machines that build chips:
 | Segment | What it does | Key players |
 |---------|--------------|-------------|
 | Lithography | Patterns circuits onto wafers | ASML (EUV monopoly) |
-| Deposition | Deposits thin films | Lam Research, Applied Materials |
+| Deposition | Deposits thin films | Lam Research, Applied Materials, [[ASM International]] (ALD) |
 | Etch | Removes material to create structures | Lam Research, Applied Materials |
 | Inspection | Checks for defects | KLA |
 | Ion implant | Dopes silicon | Applied Materials |
+| Dicing | Cuts wafers into individual dies | [[Disco]] (~80% share) |
+| Die bonding | Attaches dies to substrates/packages | [[BESI]] (hybrid bonding leader) |
 
 ---
 
@@ -149,6 +151,9 @@ Current phase: Heavy construction — WFE tailwind.
 - [[Lam Research]] — player (deposition, etch)
 - [[Applied Materials]] — player (broadest portfolio)
 - [[KLA]] — player (inspection, metrology)
+- [[ASM International]] — player (ALD specialist, ~55% share)
+- [[Disco]] — player (wafer dicing monopoly, ~80% share)
+- [[BESI]] — player (die bonding, hybrid bonding leader)
 - [[Long OSAT and test equipment]] — related thesis (different phase)
 - [[CHIPS Act]] — driver (fab construction funding)
 - [[TSMC]] — customer (Arizona buildout)

@@ -72,7 +72,7 @@ Equinix is the largest publicly traded data center company:
 |------------|-------|-------------------|
 | [[Digital Realty]] | Hyperscale wholesale | Interconnection density |
 | QTS ([[Blackstone]]) | Hyperscale | Global footprint |
-| CoreSite | US regional | Scale |
+| [[Coresite]] | US regional | Scale |
 
 Equinix wins on interconnection and global reach.
 
@@ -124,6 +124,7 @@ Global footprint = enterprise appeal.
 ## Related
 
 - [[Digital Realty]] — competitor (DC REIT, wholesale vs retail)
+- [[Coresite]] — competitor (US regional interconnection)
 - [[DigitalBridge]] — adjacent (digital infrastructure investor)
 - [[Blackstone]] — competitor (QTS platform)
 - [[AI hyperscalers]] — customers (interconnection value)

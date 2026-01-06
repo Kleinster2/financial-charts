@@ -23,6 +23,8 @@ You can have the best GPU and the best HBM, but without packaging to integrate t
 | **2.5D** | Chips sit side-by-side on interposer |
 | **3D** | Chips stacked vertically |
 | **HBM integration** | Memory stacks bonded to logic |
+| **ABF substrate** | [[Ajinomoto]] Build-up Film — critical substrate material (~90% share) |
+| **Hybrid bonding** | Direct Cu-Cu bonding for high-density interconnects — [[BESI]] equipment |
 
 ---
 
@@ -148,6 +150,9 @@ Samsung offering integrated solution to hyperscalers:
 - [[Intel]] — alternative (EMIB +30%, Foveros +150% expansion)
 - [[Samsung]] — turnkey (foundry + packaging + HBM bundle)
 - [[ASE]] — overflow (if Intel misses window)
+- [[Ajinomoto]] — supplier (ABF substrate monopoly ~90%)
+- [[BESI]] — equipment (hybrid bonding leader)
+- [[Disco]] — equipment (wafer dicing ~80% share)
 - [[Customer lock-in via co-design]] — mechanism (CoWoS adds switching costs)
 - [[CHIPS Act]] — enabler (US packaging investment)
 - [[N-2 rule]] — context (constraints on TSMC packaging)

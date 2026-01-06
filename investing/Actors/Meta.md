@@ -51,7 +51,7 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 
 **Geopolitical angle:**
 - Rare US acquisition of cutting-edge Chinese AI
-- Brain drain concerns: "An incredible company and team are being sold to the United States"
+- Brain drain concerns: [[ZhenFund]] partner: "An incredible company and team are being sold to the United States"
 - Could raise hackles in Washington AND Beijing
 
 ---

@@ -312,3 +312,4 @@ Mixed:
 - [[SEA chip diversion]] — leakage route (Malaysia, Singapore, Thailand)
 - [[Southeast Asia tech race]] — destination for Chinese DC buildout
 - [[US-China AI race]] — broader competition context
+- [[Iluvatar CoreX]] — Chinese GPU firm (HK IPO planned)

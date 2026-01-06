@@ -125,6 +125,7 @@ Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 
 ## Related
 
+- [[Yandex]] — origin (spun out post-sanctions)
 - [[CoreWeave]] — US competitor (largest GPU cloud)
 - [[Lambda Labs]] — competitor
 - [[NVIDIA]] — GPU supplier

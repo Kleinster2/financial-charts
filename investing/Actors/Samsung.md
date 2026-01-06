@@ -148,5 +148,7 @@ What consensus assumes (update when you see estimates):
 - [[Foundry Wars]] — context (2nm race with TSMC)
 - [[TSMC]] — competitor (#1 foundry, Samsung #2)
 - [[SK Hynix]] — competitor (HBM leader, Samsung #2)
+- [[Sonos]] — competitor (Wi-Fi speakers, CES 2026)
+- [[Micro RGB]] — display tech (CES 2026 backlighting innovation)
 - [[Memory shortage 2025-2026]] — thesis (memory division profits)
 - [[Leading edge race]] — context (Taylor fab 2nm bet)

@@ -41,7 +41,7 @@ Jan Leike: "Safety has taken a backseat to shiny products."
 | [[SSI]] | Safe Superintelligence (Sutskever) |
 | [[Thinking Machines Lab]] | Fine-tuning/reasoning (Murati) |
 | [[Anthropic]] | Safety-first (Leike) |
-| Independent | Education (Karpathy) |
+| Independent | Education ([[Andrej Karpathy]]) |
 
 ---
 
@@ -107,4 +107,5 @@ Anthropic = OpenAI's safety-focused spinout.
 - [[Jan Leike]] — departed (May 2024, safety concerns)
 - [[Anthropic]] — destination (safety-focused, Leike joined)
 - [[Dario Amodei]] — precedent (earlier OpenAI→Anthropic founder)
+- [[Andrej Karpathy]] — departed (independent, AI education)
 

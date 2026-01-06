@@ -185,6 +185,7 @@ Autonomous systems depend on rare earth permanent magnets:
 
 - [[Palantir]] — defense tech peer
 - [[Shield AI]] — competitor (autonomous defense)
+- [[Helsing]] — competitor (European defense AI, $13.2B)
 - [[Lockheed Martin]] — competitor (legacy defense)
 - [[NVIDIA]] — supplier (AI compute)
 - [[Rare earth leverage]] — supply chain risk (drone magnets)

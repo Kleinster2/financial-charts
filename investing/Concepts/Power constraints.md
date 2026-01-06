@@ -363,4 +363,5 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 - [[Siemens Energy]] — turbine supplier (Meta Socrates South)
 - [[Meta]] — BYOP example (Socrates South 200MW+)
 - [[AI datacenter architecture]] — design patterns
+- [[Power-constrained geography]] — consequence (Ashburn overflow, hub migration)
 - [[BYOP]] — dedicated concept note
