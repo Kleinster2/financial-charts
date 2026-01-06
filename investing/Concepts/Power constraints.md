@@ -49,6 +49,7 @@ The new paradigm — hyperscalers securing their own power:
 | [[Amazon]] | Talen Energy nuclear co-location |
 | [[Google]] | Kairos Power SMR development |
 | [[Oracle]] | Nuclear DC permits (Larry Ellison) |
+| [[Talen Energy]] | Amazon Susquehanna co-location |
 | [[OpenAI]] | On-site gas turbines (UAE Stargate) |
 | **[[Meta]]** | Hybrid turbine fleet (Socrates South, 200MW+) |
 

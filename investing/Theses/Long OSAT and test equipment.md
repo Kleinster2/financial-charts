@@ -141,6 +141,7 @@ Can hold both theses simultaneously. They're not mutually exclusive.
 
 - [[ASE]] — long (#1 OSAT, AI/HPC revenue doubling)
 - [[Cohu]] — long (test handler equipment, Eclipse platform)
+- [[Aehr Test Systems]] — test equipment (SiC wafer-level burn-in)
 - [[Final test bottleneck]] — catalyst (emerging constraint)
 - [[Advanced packaging]] — related bottleneck
 - [[NVIDIA]] — customer (chips need test)

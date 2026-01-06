@@ -22,7 +22,7 @@
 |-------|----------|---------------|
 | **Prefill silicon** | Prompt processing | [[NVIDIA]], Google TPU |
 | **Decode silicon** | Token generation | [[Groq]], [[Cerebras]], Rubin SRAM |
-| **Interconnect** | Chip-to-chip data movement | NVIDIA (NVLink), [[Broadcom]] |
+| **Interconnect** | Chip-to-chip data movement | NVIDIA (NVLink), [[Broadcom]], [[Lightmatter]] |
 | **Memory** | HBM for prefill, SRAM for decode | [[SK Hynix]], [[Samsung]], [[Micron]] |
 | **Networking** | Rack-to-rack | NVIDIA, [[Arista Networks]] |
 | **Storage** | Context caching | WEKA, VAST Data |
@@ -123,6 +123,7 @@ This is a basket thesis — multiple exposures:
 - [[Agentic AI]] — driver (decode-heavy use case)
 - [[SK Hynix]] — beneficiary (HBM leader)
 - [[Vertiv]] — beneficiary (cooling infrastructure)
+- [[Lightmatter]] — optical interconnect (photonics)
 
 ---
 
