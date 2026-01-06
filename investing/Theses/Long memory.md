@@ -157,6 +157,7 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 - [[Export controls]] — catalyst (VEU revoked, supply constrained)
 - [[Short TSMC long Korea]] — complementary thesis
 - [[HBM]] — driver (AI demand cannibalizing commodity DRAM)
+- [[Star Performers]] — tracking (Micron +229% YTD momentum)
 
 ---
 

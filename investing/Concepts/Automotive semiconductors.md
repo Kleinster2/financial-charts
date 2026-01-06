@@ -31,7 +31,8 @@ Automotive was hot during EV hype (2021-2023), now normalizing as EV growth slow
 | #3 | [[Renesas]] | ~$5B | MCUs (#1 globally) |
 | #4 | [[STMicro]] | ~$4B | SiC, power |
 | #5 | [[Texas Instruments]] | ~$3B | Analog |
-| #6 | [[onsemi]] | ~$2B | SiC, image sensors |
+| #6 | [[Analog Devices]] | ~$2.5B | Analog, BMS |
+| #7 | [[onsemi]] | ~$2B | SiC, image sensors |
 
 **Note:** These are automotive-specific revenues; total company revenues are larger.
 
@@ -270,6 +271,7 @@ STMicro SiC revenue trajectory tells the story:
 - [[NXP]] — #2 auto semis (radar, MCUs)
 - [[Renesas]] — #1 auto MCUs globally
 - [[STMicro]] — SiC leader, Tesla supplier
+- [[Analog Devices]] — #2 analog, BMS chips
 - [[onsemi]] — SiC, image sensors
 - [[NVIDIA]] — ADAS compute (Drive platform)
 - [[Qualcomm]] — ADAS, infotainment

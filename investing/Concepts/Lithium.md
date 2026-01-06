@@ -145,6 +145,7 @@ China dominates midstream/downstream — geopolitical risk.
 
 - [[Albemarle]] — #1 Western producer
 - [[SQM]] — Chilean producer (#2 global)
+- [[Rio Tinto]] — diversifying into lithium (Arcadium acquisition)
 - [[BYD]] — major EV/battery producer
 - [[Tesla]] — EV demand driver
 - [[CATL]] — #1 battery maker

@@ -160,6 +160,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 - [[Oklo]] — player (Sam Altman SMR bet)
 - [[NuScale]] — player (SMR peer)
 - [[Fermi]] — startup (11GW nuclear DC, Amarillo TX)
+- [[EDF]] — operator (French nuclear powering EU AI ambitions)
 - [[Cameco]] — upstream (uranium)
 - [[Energy Fuels]] — upstream (US uranium + REE)
 - [[Microsoft]] — customer (TMI deal)
