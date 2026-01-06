@@ -151,5 +151,6 @@ See [[AI datacenter architecture]] for full design patterns.
 - [[Intel Foundry Services]] — Maia 2 potential foundry
 - [[Constellation Energy]] — nuclear PPA for data centers
 - [[Nuclear power for AI]] — energy strategy
+- [[Quantum computing]] — bet (topological qubits, Majorana 1)
 - [[AI datacenter architecture]] — Fairwater campus design
 - [[GPU deployment bottleneck]] — Satya's "can't plug in" quote

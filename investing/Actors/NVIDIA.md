@@ -339,6 +339,9 @@ See [[GPU deployment bottleneck]] for full analysis.
 - [[Export controls]] — China market constraint
 - [[Long NVIDIA]] — thesis
 - [[Long memory]] — thesis (HBM demand)
+- [[NVIDIA as kingmaker]] — concept (strategic investments)
+- [[Jevons Paradox]] — concept (efficiency → more demand)
+- [[Training-inference convergence]] — concept (unified architectures win)
 - [[Foundry Wars]] — manufacturing context
 - [[GPU deployment bottleneck]] — demand risk (shipped ≠ deployed)
 - [[Power constraints]] — infrastructure constraint
