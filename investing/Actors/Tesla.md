@@ -227,6 +227,7 @@ EV motors require permanent magnets with rare earth elements:
 - [[Rivian]] — US competitor (R2 launch 2026)
 - [[Lucid]] — US competitor (luxury)
 - [[CATL]] — battery supplier (LFP cells)
+- [[Panasonic]] — battery supplier (Gigafactory Nevada, 4680)
 - [[Lithium]] — key battery input
 - [[Samsung]] — potential foundry (Dojo next-gen)
 - [[TSMC]] — current foundry (Dojo chips)

@@ -26,7 +26,7 @@ GM represents the legacy OEM EV transition challenge:
 
 | Aspect | Details |
 |--------|---------|
-| Battery | Pouch cells, LG partnership |
+| Battery | Pouch cells, [[LG Energy Solution]] partnership |
 | Chemistry | NCMA (nickel-cobalt-manganese-aluminum) |
 | Range | 300-450 miles depending on config |
 | Flexibility | Cars, trucks, SUVs on same platform |
@@ -161,7 +161,9 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 
 - [[Tesla]] — competitor (EVs)
 - [[BYD]] — competitor (China EVs)
-- [[Ford]] — competitor (US legacy)
+- [[Ford]] — competitor (US legacy, F-150 Lightning)
+- [[Volkswagen]] — competitor (ID.4)
+- [[Rivian]] — competitor (R1T truck)
 - [[Toyota]] — competitor (global)
 - [[Automotive semiconductors]] — demand driver
 - [[Rare earth leverage]] — supply chain risk
