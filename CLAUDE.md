@@ -72,6 +72,14 @@ See `investing/Meta/CLAUDE.md` for vault-specific guidelines.
 cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "name1|name2"
 ```
 
+**Use broad, partial patterns** — names may be stored differently:
+```bash
+# Use partial matches, tickers, abbreviations:
+grep -iE "bank.*america|bofa|bac"    # Bank of America
+grep -iE "servicenow|service.*now"   # ServiceNow
+grep -iE "at&t|att|at.t"             # AT&T
+```
+
 Then explicitly state each result:
 ```
 Honeywell  — NOT FOUND (safe to create)

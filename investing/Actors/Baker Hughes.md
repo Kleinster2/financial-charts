@@ -52,7 +52,9 @@ aliases: [BKR]
 
 **January 2026:** Trump announced US companies to invest billions in Venezuela oil.
 
-See [[Maduro capture 2026]] for context.
+**Market reaction (Jan 5, 2026):** BKR +5%+, rallying with oil services peers on Maduro capture news.
+
+See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 ---
 
