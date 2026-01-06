@@ -94,13 +94,44 @@ Example: Intel Magdeburg cancellation → added "Geographic retreat" section to 
 
 ## Before creating files
 
-**Always check for existing files before batch creation:**
+### CRITICAL: Always verify before creating
+
+**Every time you propose creating actors, you MUST first check if they already exist.**
+
+This is non-negotiable. The vault has 400+ actors. Creating duplicates or overwriting detailed notes with generic templates destroys research work.
+
+### Verification workflow
+
+1. **Before proposing any new actor**, run:
+   ```bash
+   git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "name1|name2|name3"
+   ```
+
+2. **Explicitly state the result** for each proposed actor:
+   ```
+   Honeywell  — NOT FOUND (safe to create)
+   NVIDIA     — EXISTS (do not create)
+   ```
+
+3. **Only then propose creation** of actors confirmed NOT FOUND.
+
+### Why this matters
+
+- Existing files often contain specific data (yield numbers, capacity figures, timelines, cap tables) that took time to research
+- Generic templates would overwrite this detailed work
+- The vault is large enough that memory alone cannot track what exists
+
+### Full actor list check
 
 ```bash
 git -C "C:/Users/klein/financial-charts/investing" ls-files "Actors/*.md"
 ```
 
-This prevents overwriting detailed notes with generic templates. Existing files often have specific data (yield numbers, timelines, capacity figures) that shouldn't be lost.
+### Check specific names
+
+```bash
+cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "search|terms|here"
+```
 
 ## Actor conventions
 
