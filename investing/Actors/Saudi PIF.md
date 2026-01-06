@@ -24,12 +24,12 @@ Largest AI investor nation-state:
 
 **Major positions:**
 
-| Investment | Sector |
-|------------|--------|
-| SoftBank Vision Fund | LP |
-| Lucid Motors | EVs |
-| Various AI startups | Direct |
-| Data centers | Infrastructure |
+| Investment | Sector | Stake |
+|------------|--------|-------|
+| [[Lucid]] | EVs | **55%** |
+| SoftBank Vision Fund | LP | — |
+| Various AI startups | Direct | — |
+| Data centers | Infrastructure | — |
 
 ---
 
@@ -114,6 +114,7 @@ AI = post-oil economy.
 
 ## Related
 
+- [[Lucid]] — major investment (55% stake, EVs)
 - [[UAE G42]] — competitor (GCC AI leader)
 - [[SoftBank]] — investee (Vision Fund LP)
 - [[a16z]] — partner (Transcendence JV)

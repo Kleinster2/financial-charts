@@ -150,6 +150,7 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 
 ## Related
 
+- [[Natural gas]] — Henry Hub pricing, AI power demand
 - [[Baker Hughes]] — LNG equipment leader
 - [[Chevron]] — major LNG exporter
 - [[Exxon]] — major LNG player

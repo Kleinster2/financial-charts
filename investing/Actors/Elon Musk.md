@@ -12,8 +12,8 @@ Musk's combined entities represent significant chip demand and policy influence:
 |--------|------|-----------|
 | [[xAI]] | Founder/CEO | 100k+ H100s (Colossus), 1M+ GPU plans |
 | [[Tesla]] | CEO | FSD chips, potential foundry customer |
-| SpaceX/Starlink | CEO | Custom satellite chips |
-| DOGE | Co-lead | AI policy, export controls influence |
+| [[SpaceX]] | CEO | Custom satellite chips, 2026 IPO |
+| [[DOGE]] | Co-lead (departed) | AI policy, export controls influence |
 
 **Combined leverage:** Tesla + xAI together could anchor [[Samsung]] Taylor fab — one of the bull cases for Korea.
 
@@ -91,6 +91,8 @@ See [[xAI]] for details.
 
 - [[xAI]] — founder/CEO (100k+ H100s, Colossus)
 - [[Tesla]] — CEO (FSD chips, Optimus)
+- [[SpaceX]] — CEO (Starlink, 2026 IPO)
+- [[DOGE]] — co-founder (departed Dec 2025)
 - [[Samsung]] — potential anchor customer (Taylor fab)
 - [[NVIDIA]] — customer (massive GPU buyer)
 - [[Craft Ventures]] — ally (David Sacks)

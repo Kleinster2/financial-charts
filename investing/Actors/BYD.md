@@ -190,7 +190,11 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 - [[Tesla]] — competitor (#2 now)
 - [[Xiaomi]] — China EV competitor (SU7)
+- [[NIO]] — China EV competitor (premium segment)
 - [[CATL]] — battery competitor/supplier
+- [[Rivian]] — US EV competitor (blocked from China)
+- [[Lucid]] — luxury EV competitor
+- [[Lithium]] — key battery input
 - [[Rare earth leverage]] — advantage
 - [[Automotive semiconductors]] — vertical integration
 - [[Infineon]] — competitor (power semis)
