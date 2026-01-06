@@ -103,11 +103,11 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 ## What to watch
 
-- [ ] Trainium3 customer adoption metrics
-- [ ] Trainium4 NVLink Fusion benchmarks
-- [ ] Anthropic IPO and Amazon's stake value
-- [ ] OpenAI investment confirmation
+- [ ] Trainium3 customer adoption beyond Anthropic
+- [ ] Trainium4 NVLink Fusion benchmarks (expected 2026)
+- [ ] Anthropic IPO timing and Amazon's stake value
 - [ ] AWS AI Factories enterprise traction
+- [ ] Project Rainier utilization rates
 
 ---
 
@@ -122,7 +122,7 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 | AI capex | $75B+ (2025) |
 | P/E | ~45x |
 
-*Updated 2025-12-30*
+*Updated 2026-01-05*
 
 ## Related
 

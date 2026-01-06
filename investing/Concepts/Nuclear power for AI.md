@@ -21,7 +21,7 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 | Company | Partner | Deal | Capacity |
 |---------|---------|------|----------|
 | [[Microsoft]] | [[Constellation Energy]] | Three Mile Island restart | 835 MW |
-| [[Amazon]] | Talen Energy | Susquehanna co-location | 960 MW |
+| [[Amazon]] | [[Talen Energy]] | Susquehanna co-location | 960 MW |
 | [[Google]] | Kairos Power | SMR development | 500 MW by 2030 |
 | [[Oracle]] | TBD | Larry Ellison: "already got building permits" for nuclear DCs | 1 GW+ |
 
@@ -66,7 +66,7 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 | [[NuScale]] | Canceled first project, pivoting | Public (SMR) |
 | Kairos Power | Google deal, molten salt design | Google, DOE |
 | TerraPower | Natrium design, Wyoming site | Bill Gates |
-| X-energy | Xe-100 design | DOE, Dow Chemical |
+| [[X-energy]] | Xe-100 design | DOE, Dow Chemical |
 
 ---
 
