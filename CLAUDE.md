@@ -66,10 +66,16 @@ See `investing/Meta/CLAUDE.md` for vault-specific guidelines.
 
 ### Before creating vault files
 
-**Always check for existing files before batch creation:**
+**CRITICAL: Always verify actors exist before proposing creation.**
 
 ```bash
-git -C "C:/Users/klein/financial-charts/investing" ls-files "Actors/*.md"
+cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "name1|name2"
 ```
 
-This prevents overwriting detailed notes with generic templates.
+Then explicitly state each result:
+```
+Honeywell  — NOT FOUND (safe to create)
+NVIDIA     — EXISTS (do not create)
+```
+
+This is non-negotiable. The vault has 400+ actors with detailed research that must not be overwritten.
