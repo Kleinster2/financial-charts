@@ -107,13 +107,31 @@ This is non-negotiable. The vault has 400+ actors. Creating duplicates or overwr
    git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "name1|name2|name3"
    ```
 
-2. **Explicitly state the result** for each proposed actor:
+2. **Use broad, partial patterns** — names may be stored differently:
+   ```bash
+   # Looking for "Bank of America"? Search multiple ways:
+   grep -iE "bank.*america|bofa|bac"
+
+   # Looking for "ServiceNow"? Try partial:
+   grep -iE "servicenow|service.*now|snow"
+
+   # Looking for "AT&T"? Handle special chars:
+   grep -iE "at&t|att|at.t"
+   ```
+
+3. **Check abbreviations, tickers, and variants:**
+   - Full name: "Goldman Sachs"
+   - Ticker: "GS"
+   - Short form: "Goldman"
+   - With spaces/without: "BlackRock" vs "Black Rock"
+
+4. **Explicitly state the result** for each proposed actor:
    ```
    Honeywell  — NOT FOUND (safe to create)
    NVIDIA     — EXISTS (do not create)
    ```
 
-3. **Only then propose creation** of actors confirmed NOT FOUND.
+5. **Only then propose creation** of actors confirmed NOT FOUND.
 
 ### Why this matters
 

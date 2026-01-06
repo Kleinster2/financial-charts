@@ -61,8 +61,10 @@ aliases: [CVX]
 | 2007 | Chavez nationalized — Chevron accepted minority role |
 | 2019 | Trump sanctions — limited wind-down license |
 | 2022 | Biden granted full operating license |
-| 2023+ | Ramping production, ~200K bpd potential |
-| **Jan 2026** | **US captures Maduro — operations uncertain** |
+| 2023+ | Ramping production |
+| **Jan 5, 2026** | **US captures Maduro — stock +6.3%** |
+
+**Current Venezuela production:** 150K bpd (~17% of Venezuela's output)
 
 **Why Chevron stayed:**
 - Bet on eventual normalization
@@ -71,7 +73,11 @@ aliases: [CVX]
 
 **January 2026 development:** US military strike captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions to rebuild industry.
 
-**Chevron's position:** Only US company currently operating — unique positioning but uncertain status during transition.
+**Chevron response (Jan 5):** "Chevron remains focused on the safety and wellbeing of our employees, as well as the integrity of our assets. We continue to operate uninterrupted and in full compliance with all relevant laws and regulations."
+
+**Market reaction:** CVX +6.3% on Jan 5 (largest single-day gain since April).
+
+**Chevron's position:** Only US company currently operating — 150K bpd production, ~17% of Venezuela output.
 
 **Upside:** If transition stabilizes, Chevron best positioned to expand. Trump seeking US company investment.
 

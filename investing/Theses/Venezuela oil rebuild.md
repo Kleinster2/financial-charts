@@ -15,6 +15,25 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 
 ---
 
+## Market reaction (Jan 5, 2026)
+
+**Dow hit all-time high** (+595 pts, +1.23% to 48,977) on Maduro capture news.
+
+| Stock | Move | Exposure |
+|-------|------|----------|
+| Halliburton (HAL) | +10%+ | Services, rebuild |
+| Schlumberger (SLB) | +10%+ | Services, rebuild |
+| Chevron (CVX) | +6.3% | Only US operator |
+| Baker Hughes (BKR) | +5%+ | Services |
+| ConocoPhillips (COP) | +2.6% | Could return |
+| Exxon (XOM) | +2.2% | Could return |
+
+**Oil prices:** WTI +1.4% ($58.13), Brent +1.2% ($61.50)
+
+**Infrastructure status:** Jose port, Amuay refinery, Orinoco Belt operational — no damage from US action.
+
+---
+
 ## The opportunity
 
 | Metric | Current | Potential |
@@ -36,6 +55,36 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 |---------|-------|-------------|
 | [[Chevron]] | Only US operator, positioned but uncertain | Medium risk, first-mover |
 | [[Exxon]] | Could return, won arbitration | Lower risk, late entry |
+
+### Chevron's unique position
+
+**Why Chevron is the primary play:**
+
+| Factor | Chevron | Exxon/Others |
+|--------|---------|--------------|
+| 2007 nationalization | Accepted minority role, stayed | Refused, exited, sued |
+| 2007-2019 | Maintained PDVSA relationships | No presence |
+| 2019 sanctions | Got wind-down license | Locked out |
+| 2022 Biden license | Full operating license | Still locked out |
+| Current status | Only US company operating | Would need new entry |
+| Infrastructure | Never fully abandoned | Would start from scratch |
+
+**15-year bet paid off:** Chevron stayed when Exxon and ConocoPhillips walked away. That patience now gives them:
+- Exclusive US access (no American competition)
+- Existing JV relationships with PDVSA
+- Operational infrastructure still in place
+- Institutional knowledge of Venezuela operations
+
+**Post-Maduro positioning:**
+- Best positioned to expand under US-controlled transition
+- Risk: New regime could invite Exxon/others back
+- Risk: Near-term operational disruption during chaos
+
+**Chevron Venezuela exposure:** Currently 150K bpd (~17% of Venezuela's output, ~5% of Chevron's total).
+
+**Market reaction (Jan 5, 2026):** CVX +6.3%, largest single-day gain since April.
+
+**Chevron statement:** "We continue to operate uninterrupted and in full compliance with all relevant laws and regulations."
 
 ### Tier 2: Infrastructure rebuild
 

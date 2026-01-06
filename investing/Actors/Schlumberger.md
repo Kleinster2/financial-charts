@@ -40,7 +40,9 @@ aliases: [SLB, SLB Ltd]
 
 **January 2026:** Trump announced US companies to invest billions in Venezuela oil. SLB positioned for major contracts.
 
-See [[Maduro capture 2026]] for context.
+**Market reaction (Jan 5, 2026):** SLB +10%+, leading oil services rally on Maduro capture news.
+
+See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 ---
 
