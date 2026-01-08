@@ -43,6 +43,8 @@ Use tables for structured numeric data. Qualitative narrative without quantitati
 
 See [[Thesis conventions]] for how to read thesis names (Long X, Short X, pairs trades).
 
+See [[Taxonomy discussion]] for open questions about hashtag/frontmatter structure as the vault scales globally.
+
 ## Daily note structure
 
 Daily notes follow this structure:
