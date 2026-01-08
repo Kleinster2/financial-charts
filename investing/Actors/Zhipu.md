@@ -1,22 +1,23 @@
 ---
-aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology]
+aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI]
 ---
-#actor #ai #china #models
+#actor #ai #china #models #public
 
-**Zhipu** — Chinese AI model company. Hong Kong IPO next week (Jan 2026). One of China's leading AI labs.
+**Zhipu** — Chinese AI model company. **First major Chinese AI startup to IPO** (Jan 8, 2026). Hong Kong listed.
 
 ---
 
 ## Why Zhipu matters
 
-Major Chinese AI lab going public:
+First Chinese AI lab to go public:
 
 | Metric | Value |
 |--------|-------|
 | Full name | Knowledge Atlas Technology JSC Ltd. |
-| Focus | AI models / foundation models |
-| IPO target | Hong Kong |
-| IPO timing | Week of Jan 6, 2026 |
+| Ticker | Z.AI (HKEX) |
+| Market cap | ~$7.4B (HK$57.9B) |
+| IPO date | January 8, 2026 |
+| Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
 
 ---
 
@@ -32,16 +33,29 @@ Part of China's "rising stars" in AI alongside Moonshot, MiniMax.
 
 ---
 
-## Hong Kong IPO
+## Hong Kong IPO (Jan 8, 2026)
 
-Part of wave of Chinese AI firms listing in HK:
+**First major Chinese AI startup to IPO** — beat OpenAI and Anthropic to public markets.
 
-| Company | Timing | Focus |
-|---------|--------|-------|
-| [[Biren Tech]] | Jan 3 (+76%) | GPU chips |
-| [[MiniMax]] | Next week | AI models |
-| **Zhipu** | Next week | AI models |
-| [[Kunlunxin]] | 2027 | AI chips |
+| Metric | Value |
+|--------|-------|
+| IPO size | $558M |
+| IPO price | HK$116.20 |
+| First day close | HK$131.50 (+13.2%) |
+| Valuation | $7.4B |
+| Retail subscription | **1,159x oversubscribed** |
+
+**Use of proceeds:** 70% to R&D for general-purpose AI models.
+
+**Investors (pre-IPO):** Alibaba, Tencent, Meituan, Xiaomi, Saudi Aramco, Prosperity7
+
+Part of wave of Chinese AI/chip firms listing in HK:
+
+| Company | Date | Performance |
+|---------|------|-------------|
+| [[Biren Tech]] | Jan 3 | +76% |
+| **Zhipu** | Jan 8 | +13.2% |
+| [[MiniMax]] | Jan 9 | — |
 
 ---
 
@@ -77,7 +91,7 @@ Part of wave of Chinese AI firms listing in HK:
 
 ---
 
-*Created 2026-01-05*
+*Created 2026-01-05, updated 2026-01-08 (IPO day)*
 
 ---
 

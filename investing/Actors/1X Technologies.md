@@ -54,13 +54,24 @@ OpenAI's direct robotics exposure.
 
 ## NEO
 
-**Consumer humanoid (future):**
-- Bipedal design
-- Home assistant vision
-- In development
-- Consumer price target
+**CES 2026: Pre-orders live**
 
-Bold home robot bet.
+| Spec | Value |
+|------|-------|
+| Weight | 66 lbs (30 kg) |
+| Lift capacity | 150 lbs |
+| Carry capacity | 55 lbs |
+| Hands | 22 DOF (human-level dexterity) |
+| Noise | 22 dB (quieter than refrigerator) |
+| Body | Custom 3D lattice polymer (soft) |
+| AI | OpenAI customized model + Redwood AI |
+
+**Pricing:**
+- $20,000 (Early Access) or $499/month subscription
+- US shipments: 2026
+- Global expansion: 2027
+
+**EQT deal (Dec 2025):** Up to 10,000 NEO robots to EQT's 300+ portfolio companies (2026-2030) for manufacturing, warehousing, logistics.
 
 ---
 
@@ -145,14 +156,17 @@ OpenAI hedging with multiple robotics bets.
 | Backer | OpenAI |
 | Robots | EVE, NEO |
 
-*Updated 2026-01-01*
+*Updated 2026-01-08*
 
 ---
 
 ## Related
 
-- [[OpenAI]] — lead investor (Series A2)
+- [[OpenAI]] — lead investor (Series A2), AI model provider
 - [[Figure AI]] — competitor (OpenAI backs both)
+- [[Boston Dynamics]] — competitor (Atlas)
+- [[Unitree]] — competitor (Chinese humanoids)
 - [[Tesla]] — competitor (Optimus)
 - [[Agility Robotics]] — competitor (warehouse focus)
+- [[CES 2026]] — NEO unveil
 

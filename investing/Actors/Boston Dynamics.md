@@ -59,12 +59,24 @@ Struggled to commercialize.
 
 ## Atlas
 
-**Humanoid R&D:**
-- Most advanced humanoid demos
-- Parkour, backflips
-- Research platform
+**CES 2026: Production-ready**
+
+| Spec | Value |
+|------|-------|
+| Degrees of freedom | 56 |
+| Reach | 7.5 feet |
+| Lifting capacity | 110 lbs |
+| Battery | 4 hours, hot-swappable |
+| Status | **Production-ready** |
+
+**First deployments (2026):**
+- [[Hyundai]] Metaplant Georgia
+- Google DeepMind (AI partner)
+
+**History:**
+- Most advanced humanoid demos (parkour, backflips)
 - Electric version (2024)
-- Not commercial yet
+- Finally entering production after years of R&D
 
 ---
 
@@ -108,15 +120,18 @@ Struggled to commercialize.
 | Commercial robot | Spot |
 | Status | Subsidiary |
 
-*Updated 2026-01-01*
+*Updated 2026-01-08*
 
 ---
 
 ## Related
 
+- [[Hyundai]] — owner (80%), first Atlas deployment
 - [[Figure AI]] — competitor (humanoid robots)
 - [[Agility Robotics]] — competitor (warehouse robots)
 - [[Tesla]] — competitor (Optimus)
+- [[Unitree]] — competitor (Chinese humanoids)
 - [[NVIDIA]] — supplier (AI compute)
-- [[1X Technologies]] — competitor (humanoid robots)
+- [[Google]] — DeepMind AI partner for Atlas
+- [[CES 2026]] — Atlas production announcement
 
