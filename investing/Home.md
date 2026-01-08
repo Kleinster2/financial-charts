@@ -12,6 +12,7 @@ Personal research vault for investment ideas and market analysis.
 | [[#Concepts]] | 117 | Ideas, trends, frameworks |
 | [[#Theses]] | 17 | Investment theses |
 | [[#Sectors]] | 7 | Sector overviews |
+| [[#Regions]] | 4 | Geographic hubs |
 | [[#Events]] | 11 | Market events |
 | [[#Questions]] | 5 | Research questions |
 | [[#Daily]] | 3 | Daily notes |
@@ -31,6 +32,19 @@ Sector-level analysis and key players:
 | [[Defense]] | Primes, defense AI |
 | [[Cybersecurity]] | Platforms, consolidation |
 | [[Energy and Utilities]] | Power generation, nuclear |
+
+---
+
+## Regions
+
+Geographic hubs for international markets:
+
+| Region | Focus |
+|--------|-------|
+| [[Regions/Asia\|Asia]] | China, Taiwan, Korea, Japan, India, SEA |
+| [[Regions/LATAM\|LATAM]] | Brazil, Mexico, Venezuela, Cuba |
+| [[Regions/GCC\|GCC]] | Saudi Arabia, UAE, Qatar |
+| [[Regions/Europe\|Europe]] | Netherlands, Germany, UK, France |
 
 ---
 
