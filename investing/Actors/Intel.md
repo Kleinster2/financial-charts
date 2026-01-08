@@ -32,6 +32,49 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - [[NVIDIA]] dominates AI, Intel's Gaudi struggling
 - Foundry transformation uncertain post-Gelsinger
 - [[CHIPS Act]] beneficiary (~$8B)
+- **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
+
+---
+
+## NVIDIA partnership (Jan 2026)
+
+**Game-changing deal:**
+
+| Component | Details |
+|-----------|---------|
+| **Investment** | $5B in Intel stock @ $23.28/share |
+| **Shares** | ~217.4 million |
+| **Status** | FTC approved |
+| **Stock reaction** | INTC +6.7% |
+
+**Strategic collaboration:**
+- Joint development of custom data center + PC products
+- NVLink integration with Intel architectures
+- Multi-generation partnership
+
+**Why it matters:**
+- Capital injection during financial stress
+- Jensen backing Intel turnaround
+- Potential foundry relationship (Intel 18A for NVIDIA?)
+- EMIB packaging as CoWoS alternative
+- US manufacturing / CHIPS Act alignment
+
+See [[NVIDIA-Intel partnership]] for full analysis.
+
+---
+
+## CES 2026
+
+| Announcement | Details |
+|--------------|---------|
+| **Panther Lake** | Core Ultra Series 3 — first Intel 18A chips |
+| **iGPU performance** | 77% faster vs Lunar Lake |
+| **Handheld gaming** | New platform announced |
+| **Available** | January 6, 2026 |
+
+**Significance:** First 18A products shipping — key turnaround milestone.
+
+See [[CES 2026]] for event context.
 
 ---
 
@@ -93,11 +136,14 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 - [[Intel Foundry Services]] — own foundry subsidiary
 - [[Intel Capital]] — strategic VC arm (AI chips, edge AI)
+- [[NVIDIA]] — partner ($5B investment, Jan 2026), competitor (AI/GPU)
+- [[NVIDIA-Intel partnership]] — strategic collaboration details
 - [[TSMC]] — competitor (foundry), also customer
 - [[Samsung]] — competitor (foundry)
 - [[AMD]] — competitor (CPU)
-- [[NVIDIA]] — competitor (AI/GPU)
 - [[CHIPS Act]] — beneficiary (~$8B)
 - [[ASE]] — EMIB competes for packaging
 - [[Foundry Wars]] — manufacturing context
 - [[Mobileye]] — subsidiary (ADAS)
+- [[CES 2026]] — Panther Lake (18A) launch
+- [[Lenovo]] — ThinkPad partner (Panther Lake)

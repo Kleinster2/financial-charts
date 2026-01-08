@@ -3,20 +3,59 @@ aliases: [LNVGY, 0992]
 ---
 #actor #pc #china #memory-victim
 
-**Lenovo** — World's largest PC maker. Hoarding memory inventory. "Unprecedented" cost surge.
+**Lenovo** — World's largest PC maker. Owns Motorola. AI PC leader at CES 2026.
 
 ---
 
-## Why Lenovo matters for this vault
+## Why Lenovo matters
 
-Largest PC OEM, fully exposed to memory crisis:
+Largest PC OEM + Motorola smartphones:
 
 | Metric | Value |
 |--------|-------|
 | Position | #1 global PC maker |
-| Memory inventory | 50% above normal (hoarding) |
-| CFO quote | Cost surge "unprecedented" |
-| HQ | Beijing (China exposure) |
+| Ticker | 0992 (HK), LNVGY (ADR) |
+| Market cap | ~$15B |
+| HQ | Beijing, China |
+| Mobile | Motorola (acquired 2014) |
+
+---
+
+## Motorola acquisition
+
+**Acquired from Google (2014) for ~$2.9B:**
+- Google had bought Motorola for $12.5B (2012)
+- Kept patents, sold hardware to Lenovo
+- Moto G, Moto Edge, Razr brands
+- US smartphone presence
+- Synergy with Lenovo AI (Qira)
+
+**CES 2026 Motorola highlights:**
+- Razr Fold (first book-style foldable)
+- Motorola Signature (ultra-thin premium, €999)
+- FIFA World Cup 2026 partnership
+
+See [[Motorola]] for full details.
+
+---
+
+## CES 2026 — "Tech World @ CES"
+
+Major presence — hosted Jensen Huang, Lisa Su, Pat Gelsinger on same stage.
+
+| Announcement | Details |
+|--------------|---------|
+| **Lenovo Qira** | Personal AI super agent (PC/tablet/Motorola phone) |
+| **ThinkPad X1 Carbon Gen 14** | Aura Edition, "Space Frame" design |
+| **ThinkPad X9 15p** | Performance-focused Aura Edition |
+| **Yoga Pro 9i Aura Edition** | $1,899, Q2 2026 |
+| **ThinkBook Plus Gen 7** | Auto Twist (adaptive) |
+| **ThinkPad Rollable XD** | Concept — rollable display |
+| **Intel Panther Lake** | First ThinkPads with 18A chips |
+
+**Qira AI agent:** Works across Lenovo laptops, tablets, and Motorola phones. Summarizes notifications, real-time transcription/translation, coordinates other AI agents.
+
+See [[CES 2026]] for event context.
 
 ---
 
@@ -105,12 +144,17 @@ All large OEMs similarly squeezed.
 | Position | #1 global PC |
 | Strategy | Hoarding memory |
 
-*Updated 2026-01-01*
+*Updated 2026-01-08*
 
 ---
 
 ## Related
 
+- [[Motorola]] — subsidiary (acquired 2014), Razr foldables
+- [[CES 2026]] — Tech World @ CES, Qira unveil
+- [[NVIDIA]] — partner (Jensen at Tech World)
+- [[Intel]] — partner (Panther Lake 18A in ThinkPads)
+- [[AMD]] — partner (Lisa Su at Tech World)
 - [[Memory shortage victims]] — thesis context (example victim)
 - [[Dell]] — competitor (same squeeze)
 - [[Memory shortage 2025-2026]] — crisis context

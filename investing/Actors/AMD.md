@@ -60,6 +60,39 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 
 ---
 
+## CES 2026 — Helios AI Rack
+
+**Lisa Su: "World's best AI rack"** — direct shot at NVIDIA.
+
+| Spec | Value |
+|------|-------|
+| **FP4 performance** | 2.9 exaFLOPS |
+| **FP8 training** | 1.4 exaFLOPS |
+| **GPUs per rack** | 72x Instinct MI455X |
+| **CPUs per rack** | 18x EPYC Venice (Zen 6, 2nm) |
+| **HBM4 memory** | 31TB total |
+| **Bandwidth** | 1.4 PB/s aggregate |
+| **Weight** | 7,000 lbs (double-wide rack) |
+| **Launch** | H2 2026 |
+
+**Architecture:**
+- Built on Meta's 2025 OCP (Open Compute Project) design
+- 18 compute trays, each with 4 MI455X + 1 Venice CPU
+- Liquid cooled throughout
+- AMD Pensando "Vulcano" NICs for networking
+- ROCm software ecosystem
+
+**Venice CPU (Zen 6):**
+- 2nm process
+- Up to 256 cores
+- 2x memory/GPU bandwidth vs prior gen
+
+**Competition:** Goes head-to-head with NVIDIA NVL72 (72 Rubin GPUs).
+
+See [[CES 2026]] for event context.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -67,6 +100,7 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 | Primary foundry | [[TSMC]] |
 | Potential foundry | [[Samsung]] (2nm EPYC) |
 | Key acquisition | NodAI (late 2023) |
+| CES 2026 | Helios rack (2.9 exaFLOPS) |
 
 ---
 
@@ -94,10 +128,13 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 ## Related
 
 - [[Lisa Su]] — CEO
-- [[NVIDIA]] — competitor (GPU/AI)
+- [[NVIDIA]] — competitor (GPU/AI, NVL72 vs Helios)
 - [[Intel]] — competitor (CPU)
 - [[CUDA moat]] — competitive barrier in AI
 - [[Samsung]] — potential 2nm foundry
 - [[TSMC]] — primary foundry
 - [[Foundry Wars]] — manufacturing context
 - [[Leading edge race]] — node competition
+- [[CES 2026]] — Helios unveil, Lisa Su keynote
+- [[Lenovo]] — partner (Tech World @ CES)
+- [[Meta]] — Helios built on Meta OCP design

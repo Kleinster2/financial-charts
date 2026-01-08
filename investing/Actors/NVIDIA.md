@@ -235,7 +235,36 @@ See [[GPU deployment bottleneck]] for full analysis.
 | **CY2028 Blackwell+Rubin revenue** | **$500B+ booked** |
 | **Stock YTD** | **+37%** (underperforming memory) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-08*
+
+---
+
+## Recent developments (Jan 2026)
+
+**NVIDIA hits $5 trillion (Jan 8, 2026):**
+- First company ever to reach $5T market cap
+- Passed Apple, Microsoft, Alphabet
+- AI dominance + strategic dealmaking
+
+**Intel partnership (Jan 2026):**
+- $5B investment in Intel stock @ $23.28/share (~217.4M shares)
+- FTC approved
+- Joint development of custom data center + PC products
+- NVLink integration with Intel architectures
+- Potential Intel Foundry relationship
+- EMIB packaging as CoWoS alternative
+- US manufacturing hedge (reduce TSMC dependency)
+
+See [[NVIDIA-Intel partnership]] for full analysis.
+
+**CES 2026 announcements:**
+- Vera Rubin NVL72: 5x inference vs Blackwell, 10x lower cost/token, H2 2026
+- Alpamayo: Open reasoning models for autonomous vehicles
+- Cosmos AI: Physics simulation foundation model
+- Full-stack robotics platform
+- Mercedes partnership (Alpamayo in 2025 CLA)
+
+See [[CES 2026]] for event details.
 
 ---
 
@@ -330,6 +359,8 @@ See [[GPU deployment bottleneck]] for full analysis.
 
 - [[Jensen Huang]] — CEO and founder
 - [[TSMC]] — primary foundry
+- [[Intel]] — partner ($5B investment, Jan 2026)
+- [[NVIDIA-Intel partnership]] — strategic collaboration
 - [[SK Hynix]] — HBM supplier
 - [[Samsung]] — secondary foundry, HBM supplier
 - [[AMD]] — competitor (GPU/AI)
@@ -352,3 +383,4 @@ See [[GPU deployment bottleneck]] for full analysis.
 - [[Southeast Asia tech race]] — Chinese DC buildout destination
 - [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)
+- [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics
