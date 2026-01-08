@@ -100,6 +100,29 @@ Political connections may matter for regulatory environment.
 - Data center oversupply risk
 - AI capex cycle could turn
 - QTS valuation embedded in BX stock
+- Regulatory risk (see Trump housing ban below)
+
+---
+
+## Single-family rental exposure
+
+**Invitation Homes spin-off:**
+- Blackstone built Invitation Homes (largest US single-family landlord)
+- IPO'd 2017, Blackstone exited
+- Still owns ~230,000 apartment units (largest PE apartment owner)
+- Single-family = ~2% of real estate AUM, ~0.5% of total firm
+
+**Jan 7, 2026 — Trump announcement:**
+
+Trump announced plans to ban institutional investors from buying single-family homes:
+- "People live in homes, not corporations"
+- Details expected at Davos
+- BX stock fell 6% (down 9.3% intraday)
+- Invitation Homes -7%, Apollo and BlackRock also hit
+
+**Blackstone response:** "We have been a net seller of homes over the last decade — holdings down more than one-fifth."
+
+See [[Institutional homebuying ban]] for full context.
 
 ---
 
@@ -113,7 +136,7 @@ Political connections may matter for regulatory environment.
 | CEO | Steve Schwarzman |
 | DC platform | QTS |
 
-*Updated 2026-01-01*
+*Updated 2026-01-08*
 
 ---
 
@@ -134,3 +157,5 @@ Political connections may matter for regulatory environment.
 - [[AI hyperscalers]] — customers (QTS data centers)
 - [[AI infrastructure financing]] — thesis
 - [[Power constraints]] — context (data center demand)
+- [[Institutional homebuying ban]] — Trump policy risk (Jan 2026)
+- [[Invitation Homes]] — former subsidiary (single-family rental)
