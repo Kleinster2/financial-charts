@@ -4,7 +4,7 @@
 
 **Status**: Active — geopolitical tensions accelerating adoption
 **Created**: 2026-01-06
-**Last reviewed**: 2026-01-06
+**Last reviewed**: 2026-01-08
 
 ---
 
@@ -71,7 +71,7 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 - [ ] Anduril IPO (would create public pure-play)
 - [ ] Major contract wins displacing primes
 - [ ] Ukraine success stories continue
-- [ ] DOD budget shift to software/AI accelerates
+- [x] ~~DOD budget shift to software/AI accelerates~~ **Trump $1.5T budget (Jan 2026)**
 - [ ] More nations adopt autonomous systems
 
 ---
@@ -116,6 +116,8 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 | 2025-03 | Palantir NATO contract | European expansion |
 | 2025-06 | Ukraine drone success stories | Technology validated |
 | 2025-12 | Helsing $500M raise | European defense AI growing |
+| **2026-01-07** | **Trump calls for $1.5T defense budget (FY27)** | **Massive budget catalyst — 66% increase** |
+| **2026-01-08** | **NOC +6.8%, LMT +6.7% on budget news** | **Market validating defense spending thesis** |
 
 ---
 
