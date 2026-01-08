@@ -2,9 +2,9 @@
 
 # Long Apple
 
-**Status**: Idea (not active)
+**Status**: Active — silicon advantage compounding
 **Created**: 2025-12-29
-**Last reviewed**: 2025-12-29
+**Last reviewed**: 2026-01-06
 
 ---
 

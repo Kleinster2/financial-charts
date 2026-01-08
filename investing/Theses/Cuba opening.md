@@ -1,6 +1,16 @@
 #thesis #latam #speculative #tourism
 
-**Cuba opening** — Speculative thesis on US-Cuba normalization or regime change. Tourism, telecom, consumer sectors would benefit. 90 miles from Florida = unique proximity.
+# Cuba Opening
+
+**Status**: Speculative — watching for catalyst
+**Created**: 2026-01-02
+**Last reviewed**: 2026-01-06
+
+---
+
+## The thesis
+
+Speculative thesis on US-Cuba normalization or regime change. Tourism, telecom, consumer sectors would benefit. 90 miles from Florida = unique proximity.
 
 ---
 
@@ -144,11 +154,26 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 ---
 
+## Evidence log
+
+| Date | Observation | Implication |
+|------|-------------|-------------|
+| 2026-01-05 | Maduro captured — Venezuela precedent set | Pressure on Cuban regime |
+| 2026-01-05 | Venezuela oil subsidies at risk | Economic pressure on Cuba |
+| — | No cruise line announcements yet | Thesis still speculative |
+
+---
+
 ## Related
 
 - [[Cuba]] — country context
 - [[Venezuela]] — regional parallel
 - [[Maduro capture 2026]] — precedent, pressure
+- [[Monroe Doctrine]] — policy framework
 - [[Carnival]], [[Royal Caribbean]] — cruise lines
 - [[Block]], [[PayPal]] — fintech/remittances
+
+---
+
+*Review quarterly. Watch for Cuba policy signals and cruise line announcements.*
 
