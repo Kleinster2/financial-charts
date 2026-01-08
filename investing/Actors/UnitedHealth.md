@@ -1,9 +1,9 @@
 ---
 aliases: [UNH, UnitedHealthcare, Optum]
 ---
-#actor #healthcare #insurance #usa #public #ai
+#actor #finance #insurance #healthcare #usa #public
 
-**UnitedHealth** — Largest US health insurer + Optum health services. AI for claims processing, care management.
+**UnitedHealth Group** — Largest US health insurer. Optum services giant.
 
 ---
 
@@ -12,52 +12,80 @@ aliases: [UNH, UnitedHealthcare, Optum]
 | Metric | Value |
 |--------|-------|
 | Market cap | ~$450B |
-| Ticker | UNH (NYSE) |
+| Ticker | UNH |
+| Revenue | ~$370B/year |
 | Members | 50M+ |
-| Optum revenue | ~$200B |
 
----
-
-## AI applications
-
-| Area | Application |
-|------|-------------|
-| Claims processing | Automated adjudication |
-| Care management | Predictive analytics |
-| Fraud detection | Pattern recognition |
-| Provider analytics | Optum Insight |
-
-**Optum:** Tech-enabled healthcare services (pharmacy, care delivery, analytics).
+Largest US company by revenue after Walmart.
 
 ---
 
 ## Business segments
 
-| Segment | Description |
-|---------|-------------|
-| UnitedHealthcare | Insurance (employer, Medicare, Medicaid) |
-| Optum Health | Care delivery |
-| Optum Rx | Pharmacy benefits |
-| Optum Insight | Data/analytics |
+| Segment | Revenue | Description |
+|---------|---------|-------------|
+| **UnitedHealthcare** | ~$280B | Insurance (employer, Medicare, Medicaid) |
+| **Optum Health** | ~$100B | Care delivery, 90K+ physicians |
+| **Optum Rx** | ~$120B | PBM, specialty pharmacy |
+| **Optum Insight** | ~$15B | Healthcare analytics, IT |
+
+Optum growing faster than insurance.
+
+---
+
+## Vertical integration
+
+**Full healthcare stack:**
+- Insurance (UnitedHealthcare)
+- Care delivery (Optum Health physicians)
+- Pharmacy benefits (Optum Rx)
+- Data/analytics (Optum Insight)
+
+Controversial but highly profitable.
+
+---
+
+## CEO transition
+
+**Dec 2024 tragedy:**
+- Brian Thompson (UnitedHealthcare CEO) killed
+- Andrew Witty remains Group CEO
+- Increased scrutiny on healthcare industry
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Healthcare spending secular growth
-- Optum diversification
-- AI efficiency gains
+- Scale advantages
 - Medicare Advantage growth
+- Optum diversification
+- Consistent execution
 
 **Bear:**
 - Regulatory/political risk
-- AI claims denial controversy
-- Competition from disruptors
-- Antitrust scrutiny (vertical integration)
+- PBM scrutiny
+- Vertical integration backlash
+- Valuation premium
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | UNH |
+| Market cap | ~$450B |
+| Revenue | ~$370B |
+| CEO | Andrew Witty |
+
+*Created 2026-01-08*
 
 ---
 
 ## Related
 
-- [[Agentic AI]] — claims/admin automation
+- [[CVS Health]] — competitor (Aetna)
+- [[Cigna]] — competitor
+- [[Humana]] — competitor (Medicare)
+

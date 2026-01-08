@@ -1,96 +1,77 @@
 ---
-aliases: [PANW, Palo Alto]
+aliases: [PANW]
 ---
-#actor #cybersecurity #usa #public
+#actor #tech #cybersecurity #usa #public
 
-**Palo Alto Networks** — cybersecurity platform company executing aggressive consolidation strategy under CEO Nikesh Arora.
+**Palo Alto Networks** — Enterprise cybersecurity leader. Platform consolidation strategy.
 
 ---
 
 ## Why Palo Alto matters
 
-Largest pure-play cybersecurity company. Consolidating the fragmented security market through M&A, building an integrated platform vs. point solutions.
-
 | Metric | Value |
 |--------|-------|
 | Market cap | ~$120B |
-| Strategy | Platform consolidation |
+| Ticker | PANW |
+| Revenue | ~$8B/year |
 | CEO | Nikesh Arora |
-| Focus areas | XDR, EDR, cloud security, AI security |
 
 ---
 
-## Consolidation thesis
-
-Arora's strategy: acquire best-of-breed point solutions, integrate into unified platform.
-
-**The logic:**
-- Enterprises have 50+ security vendors — fatigue and gaps
-- Integrated platform reduces complexity
-- AI requires consolidated data across security stack
-- Winners take the whole budget, losers get displaced
-
----
-
-## M&A spree (2024-2026)
-
-| Date | Target | Amount | Category |
-|------|--------|--------|----------|
-| 2025 | [[CyberArk]] | $25B | Identity security |
-| 2025 | Chronosphere | $3.35B | Observability |
-| 2025 | Protect AI | $500M | AI security |
-| Jan 2026 | Koi (reported) | ~$400M | Endpoint/supply chain |
-
-**Koi acquisition (Jan 2026):**
-- Israeli startup, founded 2024
-- 8200 Intelligence Corps alumni
-- Raised $48M ($38M Series A)
-- Investors: Team8, NFX, Battery Ventures, Picture Capital
-- Product: Supply Chain Gateway — software supply chain security
-- 500K+ endpoints protected, Fortune 50 customers
-- Founded after exposing VSCode Marketplace vulnerability
-
-**Strategic fit:** Koi fills endpoint supply chain gap. Arora visited Israel Dec 2025, evaluating startups post-CyberArk close.
-
----
-
-## Product portfolio
+## Products
 
 | Category | Products |
 |----------|----------|
-| Network security | Next-gen firewalls, SASE |
-| Cloud security | Prisma Cloud |
-| Security operations | Cortex XDR, XSIAM |
-| Identity | CyberArk (acquired) |
-| AI security | Protect AI (acquired) |
+| **Network Security** | Next-gen firewall (origin), Prisma SD-WAN |
+| **Cloud Security** | Prisma Cloud, Cortex Cloud |
+| **Security Operations** | Cortex XDR, XSIAM |
+| **AI Security** | Precision AI, AI Access Security |
+
+"Platformization" = consolidate security tools.
 
 ---
 
-## Competitive landscape
+## Competitive position
 
-| Competitor | Position |
-|------------|----------|
-| [[CrowdStrike]] | Endpoint leader, competing on XDR |
-| [[Microsoft]] | Security bundled with enterprise |
-| [[Zscaler]] | Zero trust / SASE |
-| [[Fortinet]] | Network security, more hardware |
-| [[SentinelOne]] | Endpoint, smaller |
+| Company | Focus | Market cap |
+|---------|-------|------------|
+| **Palo Alto** | Enterprise platform | ~$120B |
+| [[CrowdStrike]] | Endpoint, cloud-native | ~$90B |
+| [[Fortinet]] | Mid-market, firewall | ~$75B |
+| Zscaler | Zero trust, cloud | ~$30B |
+
+Largest pure-play cybersecurity company.
+
+---
+
+## Platformization strategy
+
+**Goal:** Become the "one vendor" for enterprise security.
+
+| Approach | Description |
+|----------|-------------|
+| Acquisitions | 15+ deals (Demisto, Expanse, etc.) |
+| Bundling | Multi-product discounts |
+| AI integration | Cortex XSIAM automation |
+| Free trials | "Land and expand" |
+
+Controversial: Q4 2024 free trial announcement hit stock.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Consolidation working — taking share from point solutions
-- AI creates new attack surface = new TAM
-- Platform approach = higher retention, cross-sell
-- Arora executing well
+- Security spend resilient
+- Consolidation leader
+- AI/automation differentiation
+- Enterprise relationships
 
 **Bear:**
-- Valuation assumes continued M&A success
-- Integration risk from rapid acquisitions
-- Microsoft bundling threat
-- Macro sensitivity (security budgets cut last in downturn, but not immune)
+- Platformization execution risk
+- CrowdStrike competition
+- Valuation premium
+- Free trials margin pressure
 
 ---
 
@@ -100,19 +81,17 @@ Arora's strategy: acquire best-of-breed point solutions, integrate into unified 
 |--------|-------|
 | Ticker | PANW |
 | Market cap | ~$120B |
+| Strategy | Platformization |
 | CEO | Nikesh Arora |
-| HQ | Santa Clara, CA |
-| Founded | 2005 |
-| Key thesis | Cybersecurity consolidation |
 
-*Updated 2026-01-04*
+*Created 2026-01-08*
 
 ---
 
 ## Related
 
-- [[CrowdStrike]] — competitor (endpoint, XDR)
-- [[Zscaler]] — competitor (zero trust)
-- [[Microsoft]] — competitor (bundled security)
-- [[CyberArk]] — acquired ($25B, identity)
-- [[Cybersecurity consolidation]] — thesis
+- [[CrowdStrike]] — competitor (endpoint)
+- [[Fortinet]] — competitor (firewall)
+- [[Cisco]] — competitor (networking security)
+- [[Microsoft]] — competitor (enterprise security)
+

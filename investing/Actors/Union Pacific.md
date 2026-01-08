@@ -1,9 +1,9 @@
 ---
 aliases: [UNP]
 ---
-#actor #transportation #railroad #usa #public #ai
+#actor #transport #railroad #usa #public
 
-**Union Pacific** — Largest US railroad. Western US freight network. AI for precision scheduled railroading.
+**Union Pacific** — Second-largest US railroad. Western US freight.
 
 ---
 
@@ -11,56 +11,83 @@ aliases: [UNP]
 
 | Metric | Value |
 |--------|-------|
-| Market cap | ~$140B |
-| Ticker | UNP (NYSE) |
-| Track miles | 32,000+ |
-| Coverage | 23 Western states |
+| Market cap | ~$150B |
+| Ticker | UNP |
+| Track miles | 32,000 |
+| CEO | Jim Vena |
 
 ---
 
-## AI applications
+## Network
 
-| Area | Application |
-|------|-------------|
-| Precision scheduling | AI-optimized train planning |
-| Predictive maintenance | Sensor data + ML |
-| Fuel optimization | Real-time adjustments |
-| Safety | AI defect detection |
-| Demand forecasting | Capacity planning |
+**Western US coverage:**
+- Los Angeles/Long Beach ports
+- Pacific Northwest
+- Gulf Coast
+- Midwest connections
+
+Duopoly with [[BNSF]] in Western US.
 
 ---
 
 ## Freight mix
 
-| Category | % Revenue |
-|----------|-----------|
-| Intermodal | ~25% |
-| Industrial | ~25% |
-| Agricultural | ~20% |
-| Premium (auto, chemicals) | ~30% |
+| Commodity | % Revenue |
+|-----------|-----------|
+| **Premium (intermodal)** | ~25% |
+| **Industrial** | ~25% |
+| **Agricultural** | ~20% |
+| **Energy (coal, petrochem)** | ~15% |
+| **Automotive** | ~10% |
+| **Other** | ~5% |
+
+---
+
+## Competitive position
+
+| Railroad | Region | Owner |
+|----------|--------|-------|
+| **Union Pacific** | Western | Public |
+| [[BNSF]] | Western | [[Berkshire Hathaway]] |
+| CSX | Eastern | Public |
+| Norfolk Southern | Eastern | Public |
+
+Western duopoly = pricing power.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Duopoly in Western US (with BNSF)
-- Pricing power (rail vs truck)
-- AI efficiency gains
-- Dividend growth
-- Nearshoring tailwind
+- Infrastructure moat
+- Intermodal growth (e-commerce)
+- Precision scheduled railroading
+- Dividend aristocrat
 
 **Bear:**
 - Economic sensitivity
-- Regulatory pressure
-- Service reliability issues
+- Coal secular decline
 - Labor relations
-- Truck competition
+- Trucking competition
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | UNP |
+| Market cap | ~$150B |
+| Region | Western US |
+| CEO | Jim Vena |
+
+*Created 2026-01-08*
 
 ---
 
 ## Related
 
-- [[CSX]] — Eastern US peer
-- [[BNSF]] (Berkshire) — Western competitor
-- [[Agentic AI]] — scheduling optimization
+- [[BNSF]] — competitor (Western duopoly)
+- [[Berkshire Hathaway]] — peer (owns BNSF)
+- [[Amazon]] — intermodal customer
+

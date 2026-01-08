@@ -4,7 +4,7 @@
 
 **Status**: Core holding — platform dominance strengthening
 **Created**: 2026-01-02
-**Last reviewed**: 2026-01-02
+**Last reviewed**: 2026-01-08
 
 ---
 
@@ -128,6 +128,9 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 | 2025-12 | NVLink-C2C enables external accelerators | Ecosystem opening from strength |
 | 2025-12 | Gavin Baker: most ASICs will be canceled | Consolidation thesis |
 | 2025-12 | Chamath: "Jensen operates at Elon level" | Platform vision validated |
+| **2026-01-08** | **NVIDIA hits $5 trillion market cap** | **First company ever — dominance validated** |
+| **2026-01-08** | **Intel partnership: $5B investment + NVLink collab** | **Platform expansion to x86, TSMC diversification hedge** |
+| **2026-01-06** | **CES: Vera Rubin 5x Blackwell inference** | **Roadmap execution on track** |
 
 ---
 
