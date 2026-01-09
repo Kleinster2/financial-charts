@@ -54,32 +54,42 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 
 ---
 
-## Cap table / Investors
+## Funding history
 
-| Investor | Round | Notes |
-|----------|-------|-------|
-| **Elon Musk** | Founder | Primary stakeholder |
-| **Valor Equity Partners** | Series B | Led $6B round (May 2024) |
-| **Vy Capital** | Series B | |
-| **a16z** | Series B | Andreessen Horowitz |
-| **Sequoia Capital** | Series B | |
-| **Fidelity** | Series B | |
-| **Kingdom Holding** | Series B, Dec 2024 | Saudi (Prince Alwaleed) |
-| **Saudi PIF** | Dec 2024 | Sovereign wealth |
-| **Blackstone** | Dec 2024 | |
-| **AMD** | Dec 2024 | Strategic |
-| **[[NVIDIA]]** | Dec 2024 | Strategic |
-| **MGX** | Dec 2024 | UAE sovereign wealth |
+| Round | Date | Amount | Valuation | Notes |
+|-------|------|--------|-----------|-------|
+| Series B | May 2024 | $6B | $24B | Valor, Sequoia, a16z led |
+| Series C | Dec 2024 | $6B | $50B | Fidelity, BlackRock, Sequoia |
+| Equity | Sep 2025 | $10B | ~$200B | — |
+| Debt | Oct 2025 | $12.5B | — | Morgan Stanley arranged |
+| **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target |
 
-**Funding rounds:**
-| Round | Date | Amount | Valuation |
-|-------|------|--------|-----------|
-| Series B | May 2024 | $6B | $24B |
-| Dec 2024 | Dec 2024 | $6B | $50B |
+**Total raised:** ~$25B equity + $5B+ debt = **$30B+**
 
-**Total raised:** $12B+
+**Valuation trajectory:** $24B → $50B → $200B → **$230B** (10x in 18 months)
 
-**Notable:** Heavy sovereign wealth (Saudi, UAE). Strategic investments from AMD and NVIDIA (chip supply relationships).
+---
+
+## Key investors
+
+| Investor | Type | Rounds |
+|----------|------|--------|
+| **Elon Musk** | Founder | All |
+| **Valor Equity Partners** | Lead | Series B, E |
+| **Sequoia Capital** | VC | Series B, C |
+| **a16z** | VC | Series B |
+| **Fidelity** | Asset manager | Series C, E |
+| **[[NVIDIA]]** | Strategic | Series C, E |
+| **Cisco** | Strategic | Series E |
+| **BlackRock** | Asset manager | Series C |
+| **Qatar Investment Authority** | Sovereign | Series E |
+| **MGX (Abu Dhabi)** | Sovereign | Series C, E |
+| **Kingdom Holding** | Saudi (Prince Alwaleed) | Series B, C |
+| **Baron Capital** | Asset manager | Series E |
+| **StepStone Group** | PE | Series E |
+| **AMD** | Strategic | Series C |
+
+**35 total investors.** Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, AMD, Cisco).
 
 ---
 
@@ -97,13 +107,13 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 |--------|-------|
 | Founder | Elon Musk |
 | Product | Grok (LLM), Macrohard |
-| Valuation | $50B (Dec 2024) |
-| Total raised | $12B+ |
+| Valuation | **$230B** (Jan 2026) |
+| Total raised | **$30B+** (equity + debt) |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | Target capacity | 2GW |
 | Potential foundry | [[Samsung]] (via Tesla relationship) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-09*
 
 ---
 
@@ -126,3 +136,11 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 - [[Microsoft]] — competitor (Macrohard jab)
 - [[TVA]] — power source (Colossus location)
 - [[Power constraints]] — context (2GW target)
+
+---
+
+## Sources
+
+- [xAI Series E announcement](https://x.ai/news/series-e)
+- [CNBC on $20B raise](https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html)
+- [TechFundingNews on $230B valuation](https://techfundingnews.com/xai-nears-a-230b-valuation-with-20b-funding-from-nvidia-and-others-to-challenge-openai-and-anthropic/)
