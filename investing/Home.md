@@ -11,9 +11,9 @@ Personal research vault for investment ideas and market analysis.
 | [[#Actors]] | 498 | Companies, people, entities |
 | [[#Concepts]] | 117 | Ideas, trends, frameworks |
 | [[#Theses]] | 17 | Investment theses |
-| [[#Sectors]] | 11 | Sector overviews |
+| [[#Sectors]] | 13 | Sector overviews |
 | [[#Regions]] | 4 | Geographic hubs |
-| [[#Events]] | 11 | Market events |
+| [[#Events]] | 12 | Market events |
 | [[#Questions]] | 5 | Research questions |
 | [[#Daily]] | 4 | Daily notes |
 
@@ -36,6 +36,8 @@ Sector-level analysis and key players:
 | [[Healthcare]] | Pharma, biotech, medical devices |
 | [[Consumer]] | Retail, e-commerce, staples |
 | [[Transport]] | Railroads, airlines, logistics, autonomous |
+| [[SaaS]] | Cloud software, enterprise, SMB |
+| [[Biopharma]] | Pharma, biotech, GLP-1, gene therapy |
 
 ---
 
@@ -121,6 +123,7 @@ High-signal concepts to track:
 | Event | Date | Impact |
 |-------|------|--------|
 | [[CES 2026]] | Jan 2026 | NVIDIA Rubin, AMD Helios, robotics |
+| [[JPM Healthcare Conference 2026]] | Jan 12-15 | Biopharma M&A, GLP-1, AI deals |
 | [[Project Stargate]] | Jan 2026 | $500B AI infrastructure |
 | [[Maduro capture 2026]] | Jan 2026 | Venezuela oil catalyst |
 | [[DeepSeek day]] | 2025 | China AI capabilities |

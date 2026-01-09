@@ -158,6 +158,17 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 | [[Marvell]] | Custom chips |
 | [[Arm Holdings]] | Processor IP |
 | Harmonic Drive | Precision gears |
+| [[Sharpa]] | Dexterous hands (SharpaWave) |
+
+### Dexterous manipulation
+
+| Company | Product | Specs |
+|---------|---------|-------|
+| [[Sharpa]] | **SharpaWave** | 22 DOF, 1000+ tactile pixels, CES 2026 Award |
+| Shadow Robot | Dexterous Hand | Industrial, teleoperation |
+| Sanctuary AI | Phoenix hands | Integrated humanoid |
+
+**Key enabler:** Hands are "gateway to general-purpose robots" — enables tool use in human environments.
 
 ---
 
@@ -238,6 +249,7 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 - [[iRobot]] — consumer robotics
 - [[NVIDIA]] — robotics platform
 - [[Hyundai]] — owns Boston Dynamics
+- [[Sharpa]] — dexterous hands
 - [[Agentic AI]] — AI for physical world
 - [[AI Infrastructure]] — compute for training
 
