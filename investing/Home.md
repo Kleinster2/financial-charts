@@ -11,7 +11,7 @@ Personal research vault for investment ideas and market analysis.
 | [[#Actors]] | 498 | Companies, people, entities |
 | [[#Concepts]] | 117 | Ideas, trends, frameworks |
 | [[#Theses]] | 17 | Investment theses |
-| [[#Sectors]] | 16 | Sector overviews |
+| [[#Sectors]] | 18 | Sector overviews |
 | [[#Regions]] | 4 | Geographic hubs |
 | [[#Events]] | 12 | Market events |
 | [[#Questions]] | 5 | Research questions |
@@ -41,6 +41,8 @@ Sector-level analysis and key players:
 | [[Fintech]] | Payments, neobanks, crypto, lending |
 | [[Telecom]] | Wireless, fiber, towers, equipment |
 | [[Data Centers]] | Colocation, GPU clouds, infrastructure |
+| [[REITs]] | Real estate, data centers, towers |
+| [[Space]] | Launch, satellites, Starlink |
 
 ---
 
