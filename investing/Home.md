@@ -11,7 +11,7 @@ Personal research vault for investment ideas and market analysis.
 | [[#Actors]] | 498 | Companies, people, entities |
 | [[#Concepts]] | 117 | Ideas, trends, frameworks |
 | [[#Theses]] | 17 | Investment theses |
-| [[#Sectors]] | 13 | Sector overviews |
+| [[#Sectors]] | 16 | Sector overviews |
 | [[#Regions]] | 4 | Geographic hubs |
 | [[#Events]] | 12 | Market events |
 | [[#Questions]] | 5 | Research questions |
@@ -38,6 +38,9 @@ Sector-level analysis and key players:
 | [[Transport]] | Railroads, airlines, logistics, autonomous |
 | [[SaaS]] | Cloud software, enterprise, SMB |
 | [[Biopharma]] | Pharma, biotech, GLP-1, gene therapy |
+| [[Fintech]] | Payments, neobanks, crypto, lending |
+| [[Telecom]] | Wireless, fiber, towers, equipment |
+| [[Data Centers]] | Colocation, GPU clouds, infrastructure |
 
 ---
 
