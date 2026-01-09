@@ -11,11 +11,11 @@ Personal research vault for investment ideas and market analysis.
 | [[#Actors]] | 498 | Companies, people, entities |
 | [[#Concepts]] | 117 | Ideas, trends, frameworks |
 | [[#Theses]] | 17 | Investment theses |
-| [[#Sectors]] | 7 | Sector overviews |
+| [[#Sectors]] | 11 | Sector overviews |
 | [[#Regions]] | 4 | Geographic hubs |
 | [[#Events]] | 11 | Market events |
 | [[#Questions]] | 5 | Research questions |
-| [[#Daily]] | 3 | Daily notes |
+| [[#Daily]] | 4 | Daily notes |
 
 ---
 
@@ -27,11 +27,15 @@ Sector-level analysis and key players:
 |--------|-------|
 | [[Semiconductors]] | Value chain, NVIDIA, TSMC, memory |
 | [[AI Infrastructure]] | Compute, data centers, power |
+| [[Sectors/Robotics\|Robotics]] | Humanoids, industrial, surgical |
 | [[Banks]] | Big Four, investment banks |
 | [[Insurance]] | P&C, health insurers |
 | [[Defense]] | Primes, defense AI |
 | [[Cybersecurity]] | Platforms, consolidation |
 | [[Energy and Utilities]] | Power generation, nuclear |
+| [[Healthcare]] | Pharma, biotech, medical devices |
+| [[Consumer]] | Retail, e-commerce, staples |
+| [[Transport]] | Railroads, airlines, logistics, autonomous |
 
 ---
 
@@ -108,7 +112,7 @@ High-signal concepts to track:
 | **Supply chain** | [[Advanced packaging]], [[Memory shortage 2025-2026]], [[Export controls]] |
 | **Geopolitics** | [[Taiwan concentration risk]], [[Sovereign AI race]], [[N-2 rule]] |
 | **Energy** | [[Nuclear renaissance]], [[Clean energy for AI]] |
-| **New tech** | [[Robotics]], [[Inference disaggregation]] |
+| **New tech** | [[Sectors/Robotics\|Robotics]], [[Inference disaggregation]] |
 
 ---
 
@@ -125,6 +129,7 @@ High-signal concepts to track:
 
 ## Daily notes
 
+- [[2026-01-08]]
 - [[2026-01-06]]
 - [[2025-12-30]]
 - [[2025-12-29]]
@@ -147,4 +152,4 @@ High-signal concepts to track:
 
 ---
 
-*Last updated: 2026-01-08*
+*Last updated: 2026-01-09*
