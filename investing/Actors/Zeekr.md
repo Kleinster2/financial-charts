@@ -44,6 +44,40 @@ Zeekr uses Geely's SEA platform.
 
 ---
 
+## Manufacturing
+
+### Zeekr Intelligent Factory (Hangzhou Bay)
+
+| Metric | Value |
+|--------|-------|
+| Capacity | 300K vehicles/year |
+| Automation | 300+ robots (welding fully automated) |
+| Tech | 5G-enabled "smart, agile, connected" |
+
+One of the most advanced EV manufacturing facilities globally.
+
+### Other facilities
+
+| Factory | Location | Models |
+|---------|----------|--------|
+| Hangzhou Bay | Ningbo | Zeekr 001, 007 |
+| Chengdu | Sichuan | Various |
+| Chunxiao | Ningbo | Zeekr Mix (100K/year) |
+
+### US production potential
+
+Could use **Volvo's South Carolina plant** (Geely-owned):
+- Currently makes Volvo EX90, Polestar 3
+- $1.3B invested over 10 years
+- Path to avoid China tariffs for US market
+
+### Milestones
+
+- Oct 2021: First vehicle produced
+- Jun 2025: 500,000th vehicle (44 months)
+
+---
+
 ## Competitive position
 
 | Brand | Positioning | Parent |
