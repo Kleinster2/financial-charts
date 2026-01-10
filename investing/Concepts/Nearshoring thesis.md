@@ -131,4 +131,5 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 - [[Amazon]] — investor ($5B AWS Mexico)
 - [[Microsoft]] — investor ($1.3B+ Mexico)
 - [[QSM Semiconductor]] — player (first Mexico fab)
+- [[USMCA]] — trade framework (tariff-free US access)
 

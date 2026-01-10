@@ -103,6 +103,9 @@ See [[Japan Semiconductor Revival]].
 - [[US-China security]] — Japan as key US ally
 - [[Critical minerals]] — China using as weapon
 - [[Toyota]] — largest Japanese company
+- [[EU-Japan EPA]] — EU trade deal (model FTA)
+- [[RCEP]] — Asia trade bloc member
+- [[CPTPP]] — de facto leader post-US withdrawal
 
 ---
 

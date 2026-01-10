@@ -349,12 +349,21 @@ EU-Mercosur could face CETA's fate — years of provisional application with nat
 
 ## Related
 
+### Parties
 - [[Europe]] — EU trade policy
 - [[France]] — key opponent
 - [[Germany]] — key supporter (autos)
 - [[Brazil]] — largest Mercosur economy
 - [[LATAM]] — regional hub
-- [[Trade]] — policy context
+
+### Comparable agreements
+- [[CETA]] — EU-Canada (similar ratification issues)
+- [[EU-Japan EPA]] — EU model (fast ratification)
+- [[USMCA]] — North America (stricter auto rules)
+- [[RCEP]] — Asia (China-led alternative)
+- [[CPTPP]] — Pacific (high standards)
+
+### Other
 - [[BYD]] — Chinese competition in Brazil autos
 
 ---
