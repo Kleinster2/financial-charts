@@ -56,9 +56,34 @@ See [[China retaliatory toolkit]] for the escalation pattern.
 
 ---
 
+## Trump defense policy (Jan 2026)
+
+### Budget ($1.5T) — Jan 7
+
+Stock jumped **+6.7%** on $1.5T budget announcement. F-35, missiles, space all benefit.
+
+### Executive order — Jan 8
+
+Stock fell **-4.8%**, giving back gains.
+
+| Restriction | Impact |
+|-------------|--------|
+| Dividend ban | Until production investment |
+| Buyback ban | Programs paused |
+| Exec pay cap | $5M max |
+
+**F-35 cited:** Trump's order mentioned delivery delays and cost overruns.
+
+See [[Trump defense budget]] for full context.
+
+---
+
 ## Related
 
+- [[Trump defense budget]] — +6.7% then -4.8% on EO
+- [[RTX]], [[Northrop Grumman]], [[General Dynamics]] — peers
+- [[L3Harris]] — electronics peer
 - [[Anduril]] — competitor (defense AI)
 - [[Palantir]] — partner (defense software)
 - [[Rare earth leverage]] — supply chain risk
-- [[China retaliatory toolkit]] — context
+- [[European defense spending]] — contrast

@@ -39,24 +39,48 @@ aliases: [GD]
 
 ---
 
+## Trump defense policy (Jan 2026)
+
+### Budget ($1.5T) — Jan 7
+
+Stock rallied with peers on $1.5T budget announcement. Submarine programs are "must fund."
+
+### Executive order — Jan 8
+
+Stock fell **-4.2%**, giving back gains.
+
+| Restriction | Impact |
+|-------------|--------|
+| Dividend ban | Until production investment |
+| Buyback ban | Programs paused |
+| Exec pay cap | $5M max |
+
+**Shipbuilding cited:** Trump's order mentioned "slow naval shipbuilding timelines." Virginia-class and Columbia-class behind schedule.
+
+See [[Trump defense budget]] for full context.
+
+---
+
 ## Investment case
 
 **Bull:**
+- Columbia-class is "no fail" program (#1 DoD priority)
 - Submarine demand (China threat)
 - Gulfstream business jet cycle
-- Backlog visibility
-- Dividend growth
+- $90B+ backlog visibility
 
 **Bear:**
+- **Executive order restrictions** (Jan 2026)
+- Shipbuilding execution risk
 - Less AI/autonomy exposure than peers
-- Submarine production constraints
 - Business jet cyclicality
-- Lower growth profile
 
 ---
 
 ## Related
 
+- [[Trump defense budget]] — -4.2% on EO, shipbuilding cited
 - [[Long defense AI]] — thesis (less direct)
-- [[Raytheon]], [[Northrop Grumman]] — peers
-- [[Lockheed Martin]] — peer
+- [[RTX]], [[Northrop Grumman]] — peers
+- [[Lockheed Martin]], [[L3Harris]] — peers
+- [[European defense spending]] — contrast

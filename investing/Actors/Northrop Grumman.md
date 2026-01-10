@@ -40,25 +40,29 @@ aliases: [NOC]
 
 ---
 
-## Trump $1.5T defense budget (Jan 7, 2026)
+## Trump defense policy (Jan 2026)
 
-**Massive catalyst — stock +6.8% premarket (Jan 8):**
+### Budget ($1.5T) — Jan 7
+
+Stock jumped **+6.8%** — largest gainer among primes.
 
 | Current (FY26) | Proposed (FY27) | Change |
 |----------------|-----------------|--------|
 | $901B | $1.5T | +66% |
 
-**Key points:**
-- Trump: Build "dream military" in "troubled and dangerous times"
-- Funded by tariff revenue
-- Announced alongside Venezuela operation, Greenland comments
-- Congress must approve — not yet passed
+**Why Northrop jumped most:** B-21 and GBSD are crown jewels of nuclear modernization.
 
-**Northrop exposure:**
-- B-21 Raider could see accelerated production
-- GBSD nuclear modernization priority
-- Autonomous systems funding likely
-- Space systems expansion
+### Executive order — Jan 8
+
+Stock fell **-5.5%** — largest decliner among primes.
+
+| Restriction | Impact |
+|-------------|--------|
+| Dividend ban | Until production investment |
+| Buyback ban | Programs paused |
+| Exec pay cap | $5M max |
+
+**Net:** Gave back most of initial gains on capital return fears.
 
 See [[Trump defense budget]] for full context.
 
@@ -83,8 +87,9 @@ See [[Trump defense budget]] for full context.
 
 ## Related
 
+- [[Trump defense budget]] — +6.8% then -5.5% on EO
 - [[Long defense AI]] — thesis
-- [[Trump defense budget]] — $1.5T proposal (Jan 2026)
-- [[Raytheon]], [[Lockheed Martin]], [[General Dynamics]] — peers
+- [[RTX]], [[Lockheed Martin]], [[General Dynamics]] — peers
+- [[L3Harris]] — electronics peer
 - [[Anduril]] — AI defense disruptor
-- [[Boeing]] — defense peer
+- [[European defense spending]] — contrast

@@ -1,5 +1,5 @@
 ---
-aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI]
+aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI, 2513.HK]
 ---
 #actor #ai #china #models #public
 
