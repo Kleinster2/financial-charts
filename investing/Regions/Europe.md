@@ -8,14 +8,23 @@ Regional hub for European markets.
 
 ## Key markets
 
-| Market | Focus | Key actors |
-|--------|-------|------------|
-| **Netherlands** | Semiconductor equipment | [[ASML]], [[NXP]], [[Nexperia]] |
-| **Germany** | Industrial, auto, chemicals | [[Siemens]], [[SAP]], [[Infineon]], VW, BMW |
-| **UK** | Finance, [[Arm Holdings]], pharma | ARM, GSK, AstraZeneca |
-| **France** | Luxury, defense, nuclear | LVMH, [[EDF]], Dassault |
-| **Ireland** | Tech HQs, pharma | Apple EU, Medtronic |
-| **Nordics** | Telecom, industrials | [[Nokia]], Ericsson, Spotify |
+| Market | Focus | Key actors | Country note |
+|--------|-------|------------|--------------|
+| **Netherlands** | Semiconductor equipment | [[ASML]], [[NXP]], [[Nexperia]] | — |
+| **Germany** | Industrial, auto, defense | [[Infineon]], [[Rheinmetall]], [[Siemens]] | [[Germany]] |
+| **UK** | Finance, tech IP, pharma | [[Arm Holdings]], [[AstraZeneca]], [[BP]] | [[UK]] |
+| **France** | Luxury, defense, nuclear | [[LVMH]], [[EDF]], [[STMicro]] | [[France]] |
+| **Switzerland** | Pharma, finance, luxury | Novartis, Roche, UBS, Nestlé | [[Switzerland]] |
+| **Nordics** | Telecom, industrials | [[Nokia]], Ericsson, Spotify | — |
+
+---
+
+## Key policies
+
+| Policy | Size | Focus |
+|--------|------|-------|
+| [[EU Chips Act]] | €43B | 20% global chip production by 2030 |
+| [[European defense spending]] | €280B+/year | Ukraine-driven rearmament |
 
 ---
 
@@ -38,6 +47,8 @@ Regional hub for European markets.
 
 ## Germany
 
+See [[Germany]] for full country note.
+
 ### Industrial strength
 
 | Company | Sector |
@@ -47,6 +58,16 @@ Regional hub for European markets.
 | [[SAP]] | Enterprise software |
 | Bosch | Auto components |
 | BASF | Chemicals |
+
+### Defense (Zeitenwende)
+
+| Company | Focus |
+|---------|-------|
+| [[Rheinmetall]] | Armor, ammunition (+400% since 2022) |
+| Hensoldt | Sensors, radar |
+| KNDS | Tanks (JV with France) |
+
+See [[European defense spending]].
 
 ### Auto transition
 
@@ -61,6 +82,8 @@ Challenge: [[BYD]] and Chinese EV competition.
 ---
 
 ## UK
+
+See [[UK]] for full country note.
 
 ### Arm Holdings
 
@@ -79,6 +102,8 @@ London = global financial center, but post-Brexit challenges.
 ---
 
 ## France
+
+See [[France]] for full country note.
 
 ### Defense & nuclear
 
@@ -142,23 +167,39 @@ LVMH, Hermès, Kering = global luxury dominance.
 
 | Company | Country | Sector |
 |---------|---------|--------|
-| [[ASML]] | Netherlands | Equipment |
-| [[Siemens]] | Germany | Industrial |
-| [[SAP]] | Germany | Software |
-| [[Arm Holdings]] | UK | IP/design |
-| [[Nokia]] | Finland | Telecom |
-| [[Infineon]] | Germany | Power semis |
-| [[NXP]] | Netherlands | Auto semis |
+| [[ASML]] | Netherlands | Equipment (EUV monopoly) |
+| [[Infineon]] | Germany | Automotive/power semis |
+| [[STMicro]] | France/Italy | SiC, MEMS, automotive |
+| [[Rheinmetall]] | Germany | Defense (+400% since 2022) |
+| [[Arm Holdings]] | UK | CPU architecture |
+| [[LVMH]] | France | Luxury |
+| [[AstraZeneca]] | UK | Pharma |
 | [[EDF]] | France | Nuclear |
+| [[Nokia]] | Finland | Telecom equipment |
 
 ---
 
 ## Related
 
-- [[ASML]] — lithography monopoly
-- [[Arm Holdings]] — CPU architecture
-- [[Siemens]] — industrial conglomerate
-- [[Export controls]] — ASML restrictions
-- [[Dutch seizure of Nexperia]] — event
+### Countries
+- [[Germany]] — largest economy, Zeitenwende
+- [[UK]] — finance, Arm, pharma
+- [[France]] — luxury, defense, nuclear
+- [[Switzerland]] — pharma, banking, watches
 
-*Updated 2026-01-08*
+### Policy
+- [[EU Chips Act]] — semiconductor sovereignty
+- [[European defense spending]] — rearmament cycle
+- [[EU-Mercosur agreement]] — trade deal with LATAM
+
+### Key actors
+- [[ASML]] — lithography monopoly
+- [[Rheinmetall]] — defense champion
+- [[STMicro]] — semiconductor champion
+- [[Arm Holdings]] — CPU architecture
+
+### Events
+- [[Dutch seizure of Nexperia]] — China security
+- [[Export controls]] — ASML restrictions
+
+*Updated 2026-01-10*
