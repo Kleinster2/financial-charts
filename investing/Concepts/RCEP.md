@@ -197,6 +197,8 @@ See [[India]], [[India-China relations]].
 
 ## Related
 
+- [[Trade Agreements]] — comparisons hub
+- [[Trade]] — policy hub
 - [[China]] — key beneficiary
 - [[ASEAN]] — regional hub
 - [[Japan]] — hedging strategy
