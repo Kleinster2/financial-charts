@@ -181,6 +181,10 @@ LVMH, Hermès, Kering = global luxury dominance.
 
 ## Related
 
+### Institutions
+- [[EU]] — European Union (27 members)
+- [[EFTA]] — Switzerland, Norway alternative
+
 ### Countries
 - [[Germany]] — largest economy, Zeitenwende
 - [[UK]] — finance, Arm, pharma

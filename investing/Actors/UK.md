@@ -131,6 +131,8 @@ aliases: [United Kingdom, Britain, Great Britain]
 - [[AstraZeneca]] — pharma champion
 - [[BP]] — energy major
 - [[Defense]] — BAE Systems exposure
+- [[UK post-Brexit FTAs]] — trade strategy (CPTPP, Australia, NZ)
+- [[CPTPP]] — acceded 2023
 
 ---
 
