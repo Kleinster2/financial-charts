@@ -192,7 +192,7 @@ Examples: Roquefort, Prosciutto di Parma, Feta.
 - [[Europe]] — EU trade policy
 - [[Canada]] — counterparty
 - [[France]] — blocking potential
-- [[Trade]] — policy context
+- [[Trade]] — hub
 
 ---
 

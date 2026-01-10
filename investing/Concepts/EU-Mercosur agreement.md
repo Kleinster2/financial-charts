@@ -349,6 +349,8 @@ EU-Mercosur could face CETA's fate — years of provisional application with nat
 
 ## Related
 
+- [[Trade]] — hub
+
 ### Parties
 - [[Europe]] — EU trade policy
 - [[France]] — key opponent
