@@ -59,5 +59,6 @@ aliases: [BA.L, BAE]
 ## Related
 
 - [[Long defense AI]] — thesis
-- [[Raytheon]], [[Northrop Grumman]] — US peers
+- [[European defense spending]] — tailwind
+- [[RTX]], [[Northrop Grumman]], [[Lockheed Martin]] — US peers
 - [[Anduril]] — AI defense disruptor

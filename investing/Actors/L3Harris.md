@@ -56,8 +56,24 @@ aliases: [LHX, L3, Harris]
 
 ---
 
+## Trump defense policy (Jan 2026)
+
+### Budget ($1.5T) — Jan 7
+
+Stock rallied with peers on $1.5T budget announcement. ISR and space systems benefit.
+
+### Executive order — Jan 8
+
+Stock fell with peers, giving back gains. Executive order restricts dividends, buybacks, exec pay until production investment.
+
+See [[Trump defense budget]] for full context.
+
+---
+
 ## Related
 
+- [[Trump defense budget]] — capital return restrictions
 - [[Long defense AI]] — thesis
-- [[Raytheon]], [[Northrop Grumman]] — peers
+- [[RTX]], [[Northrop Grumman]] — peers
+- [[Lockheed Martin]], [[General Dynamics]] — peers
 - [[Palantir]] — AI defense partner

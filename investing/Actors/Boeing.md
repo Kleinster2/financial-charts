@@ -58,5 +58,6 @@ aliases: [BA]
 
 ## Related
 
+- [[Trump defense budget]] — defense exposure
 - [[Long defense AI]] — thesis (limited AI angle)
-- [[Raytheon]], [[Lockheed Martin]] — defense peers
+- [[RTX]], [[Lockheed Martin]], [[Northrop Grumman]] — defense peers
