@@ -34,22 +34,86 @@ aliases: [EU-Mercosul, Mercosur deal, EU-Mercosur FTA]
 
 ---
 
-## What each side gets
+## Key terms
 
-### EU gets
+### Tariff elimination
+
+| Category | Current tariff | New tariff | Phase-out |
+|----------|----------------|------------|-----------|
+| **EU autos → Mercosur** | 35% (Brazil) | 0% | 15 years |
+| **EU auto parts** | 14-18% | 0% | 10 years |
+| **EU machinery** | 14-20% | 0% | 10 years |
+| **EU chemicals** | 10-18% | 0% | 10 years |
+| **EU wine** | 27% | 0% | 8 years |
+| **EU cheese** | 28% | 0% | Quota then phase-out |
+| **Mercosur beef → EU** | 40%+ | 7.5% | Quota (99,000t) |
+| **Mercosur ethanol** | €19.2/hl | Reduced | Quota (650,000t) |
+
+### Agricultural quotas (Mercosur → EU)
+
+| Product | Quota | In-quota tariff | Current tariff |
+|---------|-------|-----------------|----------------|
+| Beef | 99,000 tons | 7.5% | 40%+ |
+| Poultry | 180,000 tons | Reduced | Variable |
+| Sugar | 180,000 tons | Reduced | €339/ton |
+| Ethanol | 650,000 tons | Reduced | €19.2/hl |
+| Rice | 60,000 tons | 0% | €65/ton |
+| Honey | 45,000 tons | 0% | 17.3% |
+
+### Services and investment
+
+| Sector | Access |
+|--------|--------|
+| Financial services | Market access, national treatment |
+| Telecom | Liberalized (with exceptions) |
+| Maritime | Port access |
+| Professional services | Mutual recognition framework |
+| E-commerce | Data flow provisions |
+
+### Government procurement
+
+| Threshold | EU access |
+|-----------|-----------|
+| Central government | Goods/services above thresholds |
+| Sub-central | Limited access |
+| SOEs | Included for first time |
+
+### Intellectual property
+
+| Protection | Coverage |
+|------------|----------|
+| **Geographic indications** | 357 EU GIs protected (Champagne, Prosciutto, etc.) |
+| Patents | TRIPS-plus provisions |
+| Data protection | Pharma data exclusivity |
+| Enforcement | Customs cooperation |
+
+### Rules of origin
+
+| Product | Requirement |
+|---------|-------------|
+| Autos | 50-60% regional content |
+| Textiles | Fabric-forward rule |
+| Processed food | Substantial transformation |
+
+---
+
+## What each side gains
+
+### EU wins
 
 | Sector | Benefit |
 |--------|---------|
-| **Autos** | Tariff elimination (currently 35% in Brazil) |
+| **Autos** | €4.5B+ tariff savings over phase-out |
 | **Machinery** | Industrial equipment access |
 | **Chemicals** | Reduced barriers |
-| **Pharma** | IP protections |
-| **Services** | Financial, telecom access |
-| **Procurement** | Government contracts |
+| **Pharma** | IP protections, data exclusivity |
+| **Services** | Financial, telecom market access |
+| **Procurement** | Government contracts (first time) |
+| **GIs** | 357 protected names |
 
 **Current tariffs saved:** €4B/year in eliminated duties.
 
-### Mercosur gets
+### Mercosur wins
 
 | Sector | Benefit |
 |--------|---------|
@@ -58,7 +122,7 @@ aliases: [EU-Mercosul, Mercosur deal, EU-Mercosur FTA]
 | **Sugar** | 180,000 ton quota |
 | **Ethanol** | 650,000 ton quota |
 | **Orange juice** | Tariff reduction |
-| **Coffee, soy** | Improved access |
+| **Coffee, soy** | Already low tariffs, but simplified |
 
 ---
 
