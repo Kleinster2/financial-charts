@@ -122,6 +122,7 @@ Bulls on China exposure would say:
 ---
 
 *Updated 2025-12-30*
+n- [[US-China relations]] — hub note
 
 ## Related
 

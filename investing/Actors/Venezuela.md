@@ -13,8 +13,8 @@ Venezuela is a cautionary tale and potential swing factor:
 | Proven reserves | ~300B barrels (world's largest) |
 | Peak production | ~3.5M bpd (late 1990s) |
 | Current production | ~900K bpd |
-| State company | PDVSA |
-| Political system | Post-Maduro (captured Jan 2026) |
+| State company | [[PDVSA]] |
+| Political system | US-backed Interim Government (post-Maduro Jan 2026) |
 
 ---
 
@@ -154,10 +154,12 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 
 **Key implications:**
 
+- **Interim Government:** Established with US backing during transition
 - **Regime change:** First US military capture of sitting foreign leader
-- **PDVSA:** To be run by US during transition
+- **[[PDVSA]]:** To be run by US during transition
 - **[[Chevron]]:** Only current US operator — status uncertain
 - **[[Exxon]]:** Could potentially return under new regime
+- **[[Citgo]]:** US refining arm, critical asset, legal limbo
 - **Oil prices:** Near-term volatility, long-term bearish if supply grows
 
 **International reaction:** UN "deeply alarmed," called it "illegal abduction" and dangerous precedent.
@@ -176,14 +178,18 @@ See [[Maduro capture 2026]] for full event details.
 
 **China (~$60B exposure):**
 
-| Actor | Relationship |
-|-------|--------------|
-| [[China]] | ~$60B in loans since 2007 |
-| [[CNPC]] | ~$20B loans, Orinoco JVs |
-| [[Sinopec]] | Oil buyer, refinery feedstock |
-| Repayment | Oil-for-loans arrangements |
+| Actor | Relationship | Debt Type |
+|-------|--------------|-----------|
+| [[China]] | ~$60B total exposure | Mixed |
+| [[CNPC]] | ~$20B loans | **[[PDVSA]] Debt** (Oil-for-loans) |
+| Sovereign | Balance of loans | **Sovereign Debt** (Infrastructure etc) |
+| [[Sinopec]] | Oil buyer | Commercial |
 
-**Post-Maduro:** Chinese debt repayment uncertain. US may displace Chinese oil access. JV status in question.
+**Post-Maduro:** Chinese debt repayment uncertain. US may displace Chinese oil access.
+
+**Legal Battleground:**
+- **Expropriation Claims:** [[Exxon]] ($1.6B) and ConocoPhillips ($8.7B) hold judgments against the **Republic of Venezuela** (Sovereign).
+- **The "Alter Ego" Trap:** Creditors argue [[PDVSA]] is an "alter ego" of the state, allowing them to seize PDVSA assets (like [[Citgo]]) to pay Sovereign debt.
 
 **Russia:**
 
@@ -212,6 +218,7 @@ See [[Maduro capture 2026]] for full event details.
 
 ## Related
 
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 Trump meeting, industry skeptical
 - [[Maduro capture 2026]] — January 2026 US military action
 - [[Chevron]] — only US company with license
 - [[Exxon]] — exited, won arbitration
@@ -219,6 +226,11 @@ See [[Maduro capture 2026]] for full event details.
 - [[Russia]] — political/military ally
 - [[Gulf Coast refiners]] — US refining complex (beneficiaries)
 - [[Venezuela oil rebuild]] — investment thesis
+- [[Venezuela repatriation strategy]] — immigration angle
 - [[Oil]] — global supply context
 - [[Sanctions]] — key policy lever
+- [[Cuba-Venezuela axis]] — Cuba's economic lifeline
+- [[US-China commodity leverage]] — oil access as rare earth bargaining chip
+- [[PDVSA]] — state oil company
+- [[Citgo]] — US refining arm
 

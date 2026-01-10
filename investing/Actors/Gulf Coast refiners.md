@@ -44,7 +44,7 @@ aliases: [PADD 3, Gulf Coast refining complex, USGC refiners]
 | [[Phillips 66]] | ~0.7M bpd (Sweeny, Alliance) | Moderate |
 | [[PBF Energy]] | ~0.2M bpd (Chalmette) | High (pure-play) |
 | [[Marathon Petroleum]] | ~1.2M bpd (Galveston Bay, Garyville) | High |
-| Citgo | ~0.8M bpd | Complicated (PDVSA-owned) |
+| [[Citgo]] | ~0.8M bpd (Lake Charles, Corpus Christi, Lemont) | Complicated (PDVSA-owned, embattled) |
 
 ---
 
@@ -136,4 +136,5 @@ Citgo is the Venezuelan asset *in* the US — could be privatized or seized by c
 - [[CNPC]], [[Sinopec]] — lose Venezuelan crude to Gulf Coast
 - [[Oil]] — commodity context
 - [[LNG]] — Gulf Coast also LNG export hub
+- [[Citgo]] — PDVSA-owned US refiner
 

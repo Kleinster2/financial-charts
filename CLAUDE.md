@@ -62,7 +62,39 @@ The investing vault lives at `investing/` within this project.
 
 **DEPRECATED**: The old "My Vault" at `C:\Users\klein\onedrive\pictures\documents\my vault` is deprecated. All vault work should use `investing/` in this repo.
 
-See `investing/Meta/CLAUDE.md` for vault-specific guidelines.
+See `investing/Meta/CLAUDE.md` for full vault guidelines. Key rules below:
+
+### Philosophy
+
+- **Atomic notes** — one idea per note, no mega-documents
+- **Links over hierarchy** — structure via `[[wikilinks]]`, not folders
+- **Daily notes as inbox** — capture first, extract atomic notes when mature
+- **Numbers matter** — always capture hard data with sources
+
+### Folder structure
+
+| Folder | Purpose |
+|--------|---------|
+| Actors | Companies, orgs, individuals, geographies |
+| Concepts | Ideas, dynamics, phenomena |
+| Theses | Investment theses (Long/Short/Pairs) |
+| Events | Discrete happenings |
+| Daily | Daily notes (inbox) |
+| Sectors | Sector overview hubs |
+| Regions | Geographic hubs |
+
+### Actor conventions
+
+- **Non-investable actors are valid** — policy-makers, private companies, individuals, geographies
+- **Private companies need cap tables** — investors, rounds, valuations
+- **End notes with annotated `## Related`** — explain why each link matters
+
+### Daily note structure
+
+1. Market data (levels, moves)
+2. News by topic
+3. Thesis implications table (Thesis | Evidence | Direction)
+4. Open threads checklist
 
 ### Before creating vault files
 

@@ -22,14 +22,19 @@ Musk's combined entities represent significant chip demand and policy influence:
 ## Political connections
 
 **Trump administration (2025-):**
-- Co-leads Department of Government Efficiency (DOGE)
+- **DOGE:** Former Co-lead (departed Dec 2025), remains highly influential advisor.
 - Direct White House access
-- Influence on AI policy, export controls
+- Influence on AI policy, export controls, space policy.
 
 **Relevant policy wins:**
 - AI Diffusion framework canceled (benefited NVIDIA)
 - H200 approved for China export
 - David Sacks (ally) as AI/crypto czar
+- **Antitrust:** Advocates for deregulation; seen as a beneficiary of [[Lina Khan]]'s departure from FTC.
+
+**Venezuela Role (Post-Maduro Jan 2026):**
+- **Geopolitical:** Strongly anti-Maduro; likely to advocate for digital freedom/connectivity.
+- **Starlink:** Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding Venezuela, especially in remote areas or as an alternative to state-controlled telecom.
 
 ---
 

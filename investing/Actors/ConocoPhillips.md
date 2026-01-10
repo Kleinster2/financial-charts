@@ -65,6 +65,23 @@ Known for shareholder-friendly approach.
 
 ---
 
+## Venezuela — exited, seeking $12B
+
+**ConocoPhillips refused nationalization:**
+
+| Timeline | Event |
+|----------|-------|
+| 2007 | Chavez demanded 60% PDVSA control |
+| 2007 | ConocoPhillips refused, exited Venezuela |
+| 2007+ | Arbitration — seeking $12B award |
+| Jan 2026 | US captured Maduro — potential return |
+
+**Jan 9, 2026:** CEO Ryan Lance attended White House meeting. When Trump noted the $12B claim, Lance quipped: "It's already been written off." Industry remains cautious.
+
+See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meeting 2026-01-09]].
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -100,3 +117,5 @@ Known for shareholder-friendly approach.
 - [[Chevron]] — peer (integrated major)
 - [[Phillips 66]] — spinoff (downstream)
 - [[Occidental]] — peer (Permian E&P)
+- [[Venezuela]] — exited, seeking $12B arbitration
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9, 2026 White House meeting

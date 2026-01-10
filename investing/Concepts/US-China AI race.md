@@ -2,6 +2,8 @@
 
 **US-China AI race** — The defining tech competition of the 2020s. Both nations treating AI as economic, political, and national defense imperative.
 
+Part of [[US-China tech race]] umbrella.
+
 ---
 
 ## The gap (mid-2025)
@@ -198,3 +200,4 @@ Chip sector 2x outperformance reflects policy premium + IPO wave.
 - [[AI hyperscalers]] — capex drivers
 - [[OpenAI]] — US leader
 - [[Alibaba]], [[ByteDance]], [[Baidu]] — China big tech
+- [[US-China relations]] — hub note
