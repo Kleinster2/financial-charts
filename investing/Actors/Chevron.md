@@ -83,7 +83,9 @@ aliases: [CVX]
 
 **Risk:** Near-term operational disruption, potential competition from returning majors (Exxon?).
 
-See [[Venezuela]] and [[Maduro capture 2026]] for full context.
+See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela meeting 2026-01-09]] for full context.
+
+**Jan 9, 2026:** Vice Chairman Mark Nelson attended White House meeting. Trump seeking $100B investment commitment. Industry skeptical but Chevron best positioned as only current operator.
 
 ---
 
@@ -135,4 +137,5 @@ See [[Venezuela]] and [[Maduro capture 2026]] for full context.
 - [[TAE Technologies]] — portfolio investment (fusion)
 - [[Power constraints]] — AI energy demand
 - [[Clean energy for AI]] — transition context
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, best positioned
 

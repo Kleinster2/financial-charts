@@ -212,6 +212,7 @@ See [[Maduro capture 2026]] for full event details.
 
 ## Related
 
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 Trump meeting, industry skeptical
 - [[Maduro capture 2026]] — January 2026 US military action
 - [[Chevron]] — only US company with license
 - [[Exxon]] — exited, won arbitration
@@ -219,6 +220,9 @@ See [[Maduro capture 2026]] for full event details.
 - [[Russia]] — political/military ally
 - [[Gulf Coast refiners]] — US refining complex (beneficiaries)
 - [[Venezuela oil rebuild]] — investment thesis
+- [[Venezuela repatriation strategy]] — immigration angle
 - [[Oil]] — global supply context
 - [[Sanctions]] — key policy lever
+- [[Cuba-Venezuela axis]] — Cuba's economic lifeline
+- [[US-China commodity leverage]] — oil access as rare earth bargaining chip
 

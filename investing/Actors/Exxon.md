@@ -70,7 +70,9 @@ Oil majors have relevance to AI infrastructure:
 
 **January 2026 update:** US captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves, seeking American companies to invest billions. Exxon's 2007 exit could reverse — potential return opportunity under new regime.
 
-See [[Venezuela]] and [[Maduro capture 2026]] for full context.
+See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela meeting 2026-01-09]] for full context.
+
+**Jan 9, 2026:** CEO Darren Woods attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen."
 
 ---
 
@@ -124,4 +126,5 @@ See [[Venezuela]] and [[Maduro capture 2026]] for full context.
 - [[Crusoe Energy]] — gas-to-data-center model
 - [[Power constraints]] — AI energy demand
 - [[Clean energy for AI]] — transition context
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, skeptical on return
 

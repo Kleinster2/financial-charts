@@ -143,6 +143,21 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 | Security | Stable | Violence |
 | Russia/China | Accept outcome | Intervene |
 
+### Jan 9, 2026 — White House oil meeting
+
+**Event:** [[WH oil executives Venezuela meeting 2026-01-09]]
+
+Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep skepticism.**
+
+| Executive | Company | Response |
+|-----------|---------|----------|
+| Darren Woods | [[Exxon]] | "Pretty significant changes" needed |
+| Ryan Lance | [[ConocoPhillips]] | Still owed $12B, cautious |
+| Mike Summers | API | "Must establish rule of law" |
+| Harold Hamm | Continental | Coy, non-committal |
+
+**Implication:** Rebuild thesis intact but timeline may be slower. Industry wants legal framework and security before committing capital.
+
 ---
 
 ## How to play it
@@ -176,6 +191,8 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 ---
 
 ## Related
+
+- [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, industry skeptical
 
 - [[Maduro capture 2026]] — catalyst event
 - [[Venezuela]] — country context
