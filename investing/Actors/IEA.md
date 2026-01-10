@@ -23,7 +23,8 @@ aliases: [International Energy Agency]
 | Metric | Value |
 |--------|-------|
 | Founded | 1974 (response to oil embargo) |
-| Members | 31 countries (OECD-based) |
+| Members | 31 countries |
+| Parent | [[OECD]] autonomous agency |
 | Headquarters | Paris |
 | Head | Fatih Birol |
 
@@ -87,6 +88,7 @@ aliases: [International Energy Agency]
 
 ## Related
 
+- [[OECD]] — parent organization
 - [[OPEC]] — counterpart organization
 - [[US Shale]] — supply IEA tracks
 - [[Chevron]], [[Exxon]] — companies affected by IEA guidance

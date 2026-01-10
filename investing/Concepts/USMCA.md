@@ -164,7 +164,8 @@ See [[Nearshoring thesis]].
 
 ## Related
 
-- [[Trade]] — hub
+- [[Trade Agreements]] — comparisons hub
+- [[Trade]] — policy hub
 - [[Nearshoring thesis]] — Mexico manufacturing shift
 - [[Mexico]] — key beneficiary
 - [[EU-Mercosur agreement]] — comparison (different approach)

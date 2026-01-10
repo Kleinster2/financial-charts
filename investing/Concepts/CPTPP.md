@@ -194,7 +194,8 @@ CPTPP = TPP minus US provisions.
 
 ## Related
 
-- [[Trade]] — hub
+- [[Trade Agreements]] — comparisons hub
+- [[Trade]] — policy hub
 - [[RCEP]] — China-led alternative
 - [[USMCA]] — US regional focus instead
 - [[Japan]] — de facto leader post-US

@@ -186,7 +186,8 @@ Investment chapter deliberately separated to avoid CETA-style ratification delay
 
 ## Related
 
-- [[Trade]] — hub
+- [[Trade Agreements]] — comparisons hub
+- [[Trade]] — policy hub
 - [[Japan]] — counterparty
 - [[Europe]] — EU trade policy
 - [[CETA]] — contrast (mixed agreement)

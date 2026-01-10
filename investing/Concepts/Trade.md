@@ -2,33 +2,9 @@
 
 # Trade
 
-Hub for global trade agreements, policy, and investment implications.
+Hub for trade policy, tools, and geopolitical tensions.
 
----
-
-## Major agreements
-
-### By size
-
-| Agreement | Population | GDP | Status |
-|-----------|------------|-----|--------|
-| [[RCEP]] | 2.2B | $26T | In force (2022) |
-| [[EU-Mercosur agreement]] | 780M | $22T | Pending ratification |
-| [[EU-Japan EPA]] | 580M | $21T | In force (2019) |
-| [[CETA]] | 550M | $20T | Provisional (2017) |
-| [[CPTPP]] | 500M | $13T | In force (2018) |
-| [[USMCA]] | 500M | $28T | In force (2020) |
-
-### By ambition
-
-| Agreement | Tariff coverage | Services | Digital | Ratification |
-|-----------|-----------------|----------|---------|--------------|
-| [[CPTPP]] | 99% | Deep | Strong | Clean |
-| [[EU-Japan EPA]] | 99% | Strong | Strong | Fast (6 mo) |
-| [[USMCA]] | 99% | Deep | Strongest | Clean |
-| [[CETA]] | 98% | Strong | Moderate | Stalled |
-| [[EU-Mercosur agreement]] | 91% | Moderate | Basic | Uncertain |
-| [[RCEP]] | 90% | Modest | Weak | In force |
+For FTA comparisons and terms, see [[Trade Agreements]].
 
 ---
 
@@ -142,6 +118,7 @@ Hub for global trade agreements, policy, and investment implications.
 
 ### Institutions
 - WTO — dispute settlement (paralyzed)
+- [[OECD]] — tax, governance, AI standards
 - EU Commission — trade negotiator
 - USTR — US Trade Representative
 
@@ -149,27 +126,24 @@ Hub for global trade agreements, policy, and investment implications.
 
 ## Related
 
-### Agreements
-- [[USMCA]] — North America
-- [[RCEP]] — Asia (China-led)
-- [[CPTPP]] — Pacific (high-standards)
-- [[CETA]] — EU-Canada
-- [[EU-Japan EPA]] — EU-Japan
-- [[EU-Mercosur agreement]] — EU-LATAM
+- [[Trade Agreements]] — FTA comparisons hub
+- [[OECD]] — tax and trade standards
 
-### Bilateral
+### Bilateral tensions
 - [[US-China trade]] — tariffs, decoupling
 - [[US-China relations]] — umbrella
+- [[China-Japan relations]] — export bans
+- [[India-China relations]] — border, restrictions
 
-### Policy
+### Policy tools
 - [[Export controls]] — technology restrictions
 - [[Entity List]] — US blacklist
 - [[Trump II]] — tariff policy
 - [[EU Chips Act]] — industrial policy
+- [[Critical minerals]] — trade weapon
 
 ### Theses
 - [[Nearshoring thesis]] — Mexico wins
-- [[Critical minerals]] — trade weapon
 
 ---
 

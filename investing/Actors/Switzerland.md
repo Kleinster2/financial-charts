@@ -112,6 +112,7 @@
 ## Related
 
 - [[Europe]] — regional hub (though not EU)
+- [[OECD]] — member (Pillar 2 impacts holding structures)
 - [[Novartis]] — pharma giant
 - [[Roche]] — pharma/diagnostics
 - [[Nestlé]] — consumer staples
