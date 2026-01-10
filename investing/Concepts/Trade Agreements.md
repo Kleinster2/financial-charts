@@ -8,13 +8,46 @@ Hub for major free trade agreements. Comparisons, terms, accession status.
 
 ## Active agreements
 
+### Mega-regionals
+
 | Agreement | Parties | Population | GDP | In force |
 |-----------|---------|------------|-----|----------|
 | [[RCEP]] | 15 (China, ASEAN, Japan, Korea, ANZ) | 2.2B | $26T | 2022 |
+| [[AfCFTA]] | 54 (African Union) | 1.3B | $3.4T | 2021 |
 | [[USMCA]] | 3 (US, Mexico, Canada) | 500M | $28T | 2020 |
-| [[CPTPP]] | 11 (Pacific rim) | 500M | $13T | 2018 |
+| [[CPTPP]] | 11 (Pacific rim + UK) | 500M | $13T | 2018 |
 | [[EU-Japan EPA]] | 28 (EU + Japan) | 580M | $21T | 2019 |
 | [[CETA]] | 28 (EU + Canada) | 550M | $20T | 2017 (provisional) |
+
+### Regional blocs
+
+| Agreement | Members | Population | GDP | Focus |
+|-----------|---------|------------|-----|-------|
+| [[China-ASEAN FTA]] | 11 | 2B+ | $20T | China + Southeast Asia |
+| [[EFTA]] | 4 | 14M | $1.2T | Switzerland, Norway, Iceland |
+| [[Pacific Alliance]] | 4 | 230M | $2T | Chile, Colombia, Mexico, Peru |
+
+### Key bilaterals
+
+| Agreement | Parties | Population | GDP | Notes |
+|-----------|---------|------------|-----|-------|
+| [[KORUS]] | US + Korea | 380M | $28T | Semiconductors, autos |
+| [[UK post-Brexit FTAs]] | UK + various | — | — | Australia, NZ, CPTPP |
+
+---
+
+## Trade blocs
+
+Economic/political unions that negotiate trade collectively:
+
+| Bloc | Members | Population | GDP | Type |
+|------|---------|------------|-----|------|
+| [[EU]] | 27 | 450M | $17T | Deep union, common policy |
+| [[ASEAN]] | 10 | 680M | $3.6T | Economic community |
+| [[Mercosur]] | 4 | 270M | $2.8T | Customs union |
+| [[GCC]] | 6 | 58M | $2T | Customs union, energy |
+| [[African Union]] | 55 | 1.4B | $3T | Political (trade via AfCFTA) |
+| [[Eurasian Economic Union]] | 5 | 185M | $2T | Russia-led customs union |
 
 ---
 
@@ -211,12 +244,24 @@ USMCA = only with real enforcement. Others rely on dialogue.
 - [[Export controls]] — trade restrictions
 
 ### All agreements
-- [[RCEP]]
-- [[USMCA]]
-- [[CPTPP]]
-- [[EU-Japan EPA]]
-- [[CETA]]
-- [[EU-Mercosur agreement]]
+
+**Mega-regionals:**
+- [[RCEP]] — Asia (China-led)
+- [[AfCFTA]] — Africa (54 countries)
+- [[USMCA]] — North America
+- [[CPTPP]] — Pacific (high-standards)
+- [[EU-Japan EPA]] — EU-Japan
+- [[CETA]] — EU-Canada
+
+**Regional:**
+- [[China-ASEAN FTA]] — predates RCEP
+- [[EFTA]] — Switzerland, Norway
+- [[Pacific Alliance]] — LatAm Pacific
+
+**Bilateral:**
+- [[KORUS]] — US-Korea
+- [[UK post-Brexit FTAs]] — UK trade strategy
+- [[EU-Mercosur agreement]] — pending
 
 ---
 

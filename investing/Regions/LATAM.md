@@ -148,5 +148,8 @@ See [[Cuba opening]].
 - [[Petrobras]] — Brazil oil
 - [[B3]] — Brazil exchange
 - [[EU-Mercosur agreement]] — EU trade deal (beef, autos)
+- [[Mercosur]] — Brazil, Argentina customs union
+- [[Pacific Alliance]] — Chile, Colombia, Mexico, Peru bloc
+- [[USMCA]] — Mexico-US-Canada
 
 *Updated 2026-01-10*
