@@ -190,7 +190,11 @@ LVMH, Hermès, Kering = global luxury dominance.
 ### Policy
 - [[EU Chips Act]] — semiconductor sovereignty
 - [[European defense spending]] — rearmament cycle
-- [[EU-Mercosur agreement]] — trade deal with LATAM
+
+### Trade agreements
+- [[EU-Mercosur agreement]] — LATAM (pending ratification)
+- [[CETA]] — Canada (provisional since 2017)
+- [[EU-Japan EPA]] — Japan (model FTA, fast ratification)
 
 ### Key actors
 - [[ASML]] — lithography monopoly
