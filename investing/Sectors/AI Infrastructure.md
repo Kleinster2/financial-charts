@@ -1,3 +1,6 @@
+---
+aliases: [AI infra, AI compute, AI compute infrastructure, AI stack]
+---
 #sector #ai #infrastructure #tech
 
 # AI Infrastructure
@@ -140,5 +143,9 @@ Total hyperscaler capex approaching $300B annually.
 - [[Project Stargate]] — $500B initiative
 - [[CES 2026]] — product announcements
 - [[Robotics]] — next AI infrastructure wave
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

@@ -1,6 +1,6 @@
-#thesis #oil #latam #2026
+#thesis #oil #latam #2026 #rareearths
 
-**Venezuela oil rebuild** — US capture of Maduro opens path to rebuilding world's largest oil reserves. Multi-year opportunity across majors, services, and refiners.
+**Venezuela oil rebuild** — US capture of Maduro opens path to rebuilding world's largest oil reserves plus rare earth potential. Multi-year opportunity across majors, services, refiners, and critical minerals.
 
 ---
 
@@ -144,6 +144,12 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 | Security | Stable | Violence |
 | Russia/China | Accept outcome | Intervene |
 
+### Jan 10, 2026 — Oil transfer announced
+
+Trump on Truth Social: Venezuela interim authorities will hand over **30-50 million barrels** of oil to US. Money "controlled by me, as President" to benefit Venezuela and US.
+
+**Implication:** First concrete deliverable. Shows US taking operational control.
+
 ### Jan 9, 2026 — White House oil meeting
 
 **Event:** [[WH oil executives Venezuela meeting 2026-01-09]]
@@ -191,6 +197,43 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 
 ---
 
+## Rare earths (secondary opportunity)
+
+Beyond oil, Venezuela has rare earth deposits that could reduce US dependence on China. Less developed than oil thesis but part of broader strategic value.
+
+### Jan 10, 2026 — Fox Business report
+
+| Claim | Source | Verification |
+|-------|--------|--------------|
+| ~300,000 metric tons rare earth reserves | Esposito/AscalonVI Capital | Unverified |
+| About half of China's reserves | Same | Unverified |
+| China already moving into Venezuela rare earths | Same | Plausible |
+| Timeline: 3-6 years for infrastructure | Same | Consistent with oil timeline |
+
+**Caveat:** Independent verification limited. Rare Earth Exchanges (Dec 2025) reported Venezuela reserves "do not rival those of China, Australia or the US" — consist of "monazite-bearing sands, carbonatitic and granitic indications, and thorium-associated minerals" in the Guayana Shield.
+
+### Strategic context
+
+| Factor | Implication |
+|--------|-------------|
+| China rare earth dominance | 70% mining, 90% processing |
+| China already in Venezuela | Bottlenecking supply |
+| [[Donroe Doctrine]] | Push China out of Americas |
+| Ukraine deal | Also includes rare earth access |
+| "Mosaic" strategy | Multiple sources to counter China |
+
+### Investment plays (if thesis develops)
+
+| Company | Exposure | Notes |
+|---------|----------|-------|
+| MP Materials (MP) | US rare earths | Domestic beneficiary |
+| Lynas (LYSDY) | Australian rare earths | Non-China processor |
+| REalloys | NA refinery | Building first commercial-scale heavy rare earth refinery (Saskatchewan) |
+
+**Bottom line:** Oil is the primary thesis. Rare earths are optionality — part of larger China decoupling strategy but unproven reserves and longer timeline.
+
+---
+
 ## Related
 
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9 meeting, industry skeptical
@@ -205,4 +248,6 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 - [[Russia]] — loser (ally)
 - [[Power constraints]] — if oil supply grows, energy costs drop
 - [[PDVSA]] — core entity for rebuild
+- [[Critical minerals]] — rare earths secondary opportunity
+- [[Donroe Doctrine]] — push China out of Americas
 

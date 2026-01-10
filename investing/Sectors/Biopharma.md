@@ -1,7 +1,9 @@
 ---
-aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals]
+aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals, Biopharmaceuticals]
 ---
 #sector #healthcare #biotech #pharma
+
+# Biopharma
 
 **Biopharma** — Drug discovery and development. $1.5T+ market. AI transforming R&D. GLP-1 reshaping obesity.
 
@@ -75,14 +77,16 @@ aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals]
 
 ---
 
-## Valuation framework
+## Sector KPIs
 
-| Metric | Application |
-|--------|-------------|
-| **P/E** | Profitable pharma |
-| **EV/Revenue** | Growth biotech |
-| **rNPV** | Pipeline valuation |
-| **Peak sales multiple** | Late-stage assets |
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **R&D Intensity** | R&D Expense / Revenue | **>15-20%** | Fueling the pipeline (Future growth) |
+| **Gross Margin** | (Rev - COGS) / Rev | **>75-80%** | Funding R&D and marketing leverage |
+| **Patent Life** | Years of exclusivity | **>8-10 years** | Cash flow durability (Patent Cliff risk) |
+| **Peak Sales** | Max annual revenue potential | **>$1B** | "Blockbuster" threshold for needle-moving |
+| **Clinical Success** | Phase 1 to Approval rate | **~10% (Ind. Avg)** | Risk assessment (Higher is better) |
+| **EV/Peak Sales** | Valuation vs Potential | **3-5x** | Valuation for late-stage/commercial assets |
 
 ---
 

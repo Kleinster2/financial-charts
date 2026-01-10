@@ -1,3 +1,6 @@
+---
+aliases: [Semis, Chips, Semiconductor industry, Semiconductor sector]
+---
 #sector #semiconductors #tech
 
 # Semiconductors
@@ -36,6 +39,19 @@ Design → Foundry → Packaging → Test → System integration
 | Foundry | 50-55% (TSMC) |
 | Memory | 30-65% (cyclical) |
 | OSAT | 15-25% |
+
+---
+
+## Sector KPIs
+
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **Gross Margin** | (Rev - COGS) / Rev | **>60% (Fabless)** | Pricing power & IP value |
+| **Inventory Days** | Days to sell inventory | **<80-100 days** | Spotting cyclical gluts/shortages |
+| **R&D Intensity** | R&D Expense / Revenue | **>15-20%** | Sustaining innovation lead |
+| **CapEx Intensity** | CapEx / Revenue | **>30% (Foundry/Mem)** | Maintaining capacity scale (High = Barrier to entry) |
+| **Book-to-Bill** | Orders / Shipments | **>1.1x** | Future demand signal (Equipment) |
+| **Yield** | Functional chips / Wafer | **>90% (Mature)** | Manufacturing efficiency (Foundry) |
 
 ---
 
@@ -97,5 +113,9 @@ Design → Foundry → Packaging → Test → System integration
 - [[Advanced packaging]] — key bottleneck
 - [[Memory shortage 2025-2026]] — near-term theme
 - [[Taiwan]] — geographic risk
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

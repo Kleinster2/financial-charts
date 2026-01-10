@@ -1,3 +1,6 @@
+---
+aliases: [Consumer sector, Consumer discretionary, Consumer staples, Retail]
+---
 #sector #consumer #retail
 
 # Consumer
@@ -122,5 +125,9 @@ Overview of consumer sector: retail, e-commerce, consumer goods, and discretiona
 - [[Walmart]] — retail giant
 - [[Costco]] — membership model
 - [[Shein]] — fast fashion disruptor
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

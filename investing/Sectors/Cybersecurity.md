@@ -1,3 +1,6 @@
+---
+aliases: [Cyber security, Cyber, InfoSec, Security software]
+---
 #sector #tech #cybersecurity
 
 # Cybersecurity
@@ -113,5 +116,9 @@ Subscription/recurring = high visibility.
 - [[Fortinet]] — mid-market leader
 - [[Microsoft]] — bundling threat
 - [[Long defense AI]] — government cyber spend
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

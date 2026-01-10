@@ -32,6 +32,15 @@ aliases: [Stargate, Stargate JV]
 
 ---
 
+## Political context
+
+**Beneficiary of [[Trump II]] Deregulation:**
+*   **Permitting:** Prime candidate for fast-tracked NEPA review and streamlined environmental approvals.
+*   **Power:** Likely test case for [[Nuclear renaissance]] regulatory reforms (NRC licensing speed).
+*   **DOGE Influence:** Unofficial advisement from [[Elon Musk]]/[[DOGE]] on cutting red tape to ensure US leads the "Sovereign AI" race against China.
+
+---
+
 ## What they're building
 
 | Component | Scale |

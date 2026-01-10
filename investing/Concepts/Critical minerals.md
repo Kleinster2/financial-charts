@@ -36,12 +36,15 @@ See [[Rare earth leverage]], [[Rare earth elements]].
 
 ## Deployment history
 
-| Date | Action | Context |
-|------|--------|---------|
-| Aug 2023 | Gallium/germanium export controls | Response to US chip restrictions |
-| Oct 2023 | Graphite export permits required | EV battery pressure |
-| Dec 2025 | Ga/Ge controls suspended | Exchange for US Affiliate Rule suspension |
-| — | Can escalate anytime | Trade war intensifies |
+| Date | Action | Target | Context |
+|------|--------|--------|---------|
+| Aug 2023 | Gallium/germanium export controls | Global | Response to US chip restrictions |
+| Oct 2023 | Graphite export permits required | Global | EV battery pressure |
+| Dec 2025 | Ga/Ge controls suspended | US | Exchange for Affiliate Rule suspension |
+| **Jan 2026** | **Dual-use equipment ban** | **Japan** | **PM Takaichi Taiwan comments** |
+| Jan 2026 | Dichlorosilane anti-dumping probe | Japan | Chip manufacturing chemical |
+
+**Jan 2026 Japan escalation:** China banned exports of dual-use equipment including sensors, semiconductors, batteries, chemicals, and items using rare earths. Triggered by PM Takaichi saying Taiwan contingency could necessitate Japan military response. See [[China-Japan relations]].
 
 See [[China retaliatory toolkit]] for full countermeasure list.
 
@@ -61,6 +64,25 @@ See [[China retaliatory toolkit]] for full countermeasure list.
 
 ---
 
+## Emerging non-China sources
+
+### Western Hemisphere
+
+| Country | Potential | Status |
+|---------|-----------|--------|
+| **Venezuela** | ~300K metric tons (claimed) | US control post-Maduro; unverified reserves |
+| **Ukraine** | Rare earths, lithium | Part of US deal structure |
+| **Canada** | Processing capacity | REalloys building first NA heavy rare earth refinery (Saskatchewan) |
+| **Greenland** | Rare earths, uranium | Trump territorial interest |
+
+**Venezuela caveat:** Reserves disputed. Rare Earth Exchanges (Dec 2025) says Venezuela deposits "do not rival China, Australia, or US" — primarily monazite-bearing sands in Guayana Shield. 3-6 year timeline if developed.
+
+**Strategic logic:** "Mosaic" approach — piece together multiple sources to counter China's chokehold. No single source replaces China; diversification is the goal.
+
+See [[Venezuela oil rebuild]] for rare earths section.
+
+---
+
 ## Investment implications
 
 **If China restricts:**
@@ -76,6 +98,7 @@ See [[China retaliatory toolkit]] for full countermeasure list.
 | Lynas | Rare earths | Australia |
 | Perpetua Resources | Antimony | US (Idaho) |
 | Syrah Resources | Graphite | Mozambique |
+| REalloys | Heavy rare earths | Canada (Saskatchewan) — first NA refinery |
 
 ---
 
@@ -84,10 +107,14 @@ See [[China retaliatory toolkit]] for full countermeasure list.
 - [[US-China relations]] — hub note
 - [[US-China commodity leverage]] — weaker US cards (oil, agriculture)
 - [[China retaliatory toolkit]] — deployment strategy
+- [[China-Japan relations]] — Jan 2026 escalation
+- [[Japan]] — target of Jan 2026 restrictions
 - [[Rare earth leverage]], [[Rare earth elements]]
 - [[Gallium]], [[Germanium]], [[Antimony]]
 - [[Export controls]] — US tech leverage (separate category)
+- [[Venezuela oil rebuild]] — rare earths secondary opportunity
+- [[Donroe Doctrine]] — push China out of Americas
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-01-10*

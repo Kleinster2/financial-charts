@@ -1,3 +1,6 @@
+---
+aliases: [Telecommunications, Telco, Telcos, Mobile networks]
+---
 #sector #telecom #wireless #connectivity
 
 # Telecom

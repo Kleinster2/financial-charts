@@ -1,3 +1,6 @@
+---
+aliases: [Banking, Bank sector, Commercial banks, US banks]
+---
 #sector #finance #banks
 
 # Banks
@@ -39,6 +42,19 @@ Major regionals include PNC, US Bancorp, Truist, Fifth Third, etc.
 | **Investment banking** | M&A, underwriting | Fee revenue |
 | **Trading** | FICC, equities | VaR, market share |
 | **Wealth management** | Advisory, AUM | Fee-based revenue |
+
+---
+
+## Sector KPIs
+
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **NIM** (Net Interest Margin) | (Int Income - Int Expense) / Assets | **>3.0%** | Core lending profitability |
+| **Efficiency Ratio** | Non-Int Expense / Revenue | **<55%** | Cost control (Lower is better) |
+| **CET1** | Core capital / Risk-weighted assets | **>11-12%** | Safety buffer (Regulator mandated) |
+| **ROTCE** | Return on Tangible Common Equity | **>15%** | True profitability for shareholders |
+| **NCOs** | Net Charge-Offs (Bad loans) | **<0.5%** | Credit quality check |
+| **LDR** | Loan-to-Deposit Ratio | **80-90%** | Liquidity balance |
 
 ---
 
@@ -111,5 +127,9 @@ Major regionals include PNC, US Bancorp, Truist, Fifth Third, etc.
 - [[Berkshire Hathaway]] — owns BofA stake
 - [[Apollo]], [[Blackstone]] — private credit competition
 - [[Institutional homebuying ban]] — regulatory risk example
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

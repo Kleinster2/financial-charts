@@ -1,3 +1,6 @@
+---
+aliases: [Real Estate Investment Trusts, Real estate trusts, REIT]
+---
 #sector #reit #realestate #income
 
 # REITs
@@ -102,16 +105,16 @@ Real Estate Investment Trusts — tax-advantaged structures for real estate owne
 
 ---
 
-## Key metrics
+## Sector KPIs
 
-| Metric | What it measures |
-|--------|------------------|
-| **FFO** | Funds from operations (cash flow) |
-| **AFFO** | Adjusted FFO (maintenance capex) |
-| **NAV** | Net asset value |
-| **Cap rate** | NOI / property value |
-| **Occupancy** | % leased |
-| **Same-store NOI** | Organic growth |
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **FFO/AFFO** | Funds From Ops (Cash Flow) | **Growth >5-8%** | True earnings for REITs (not Net Income) |
+| **Payout Ratio** | Dividend / AFFO | **<80-90%** | Dividend safety buffer |
+| **Net Debt / EBITDA** | Leverage ratio | **<6.0x** | Balance sheet health |
+| **Occupancy** | % of space leased | **>94-95%** | Asset quality & demand |
+| **Same-Store NOI** | Organic rent growth | **>3-4%** | Pricing power (inflation hedge) |
+| **Cap Rate Spread** | Prop Yield vs 10Y Treasury | **>200 bps** | Valuation attractiveness |
 
 ---
 

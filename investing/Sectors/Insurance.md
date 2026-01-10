@@ -1,3 +1,6 @@
+---
+aliases: [Insurance sector, Property and casualty, Life insurance, Reinsurance]
+---
 #sector #finance #insurance
 
 # Insurance
@@ -120,5 +123,9 @@ Currently in **hard market** (auto, property) due to inflation + cat losses.
 - [[Berkshire Hathaway]] — insurance-funded conglomerate
 - [[BNSF]] — Berkshire subsidiary
 - [[Institutional homebuying ban]] — affects Invitation Homes (tangential)
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

@@ -62,5 +62,7 @@ Not a broken company — uneven execution across segments.
 
 ## Related
 
+- [[Sensors]] — sector overview
 - [[Samsung]] — leader (NanoPrism metamaterial tech)
 - [[TSMC]] — competitor (0.43μm quad-photodiode)
+- [[Sony]] — dominant in high-end image sensors

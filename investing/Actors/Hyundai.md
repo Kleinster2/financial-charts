@@ -14,7 +14,24 @@ aliases: [Hyundai Motor Group, HMG, HYMTF]
 | Market cap | ~$45B |
 | Ticker | 005380 (KRX), HYMTF (OTC) |
 | Auto brands | Hyundai, Kia, Genesis |
+| Global rank | #4 by sales volume |
 | Robotics | Boston Dynamics (80%), Motional (AV JV) |
+
+---
+
+## US performance (2025)
+
+**Record year:** 1,836,172 units (Hyundai + Kia combined)
+
+| Metric | Value |
+|--------|-------|
+| Eco-friendly share | 23.7% of sales |
+| Hybrid growth | +30% YoY |
+| Top sellers | Tucson, Santa Fe, Sportage, Telluride |
+
+**Strategy:** Localization (US production), hybrid emphasis as EV charging infrastructure lags. J.D. Power highlighted hybrid lineup breadth as key advantage.
+
+**2026 outlook:** New pickups, PHEVs, EVs planned to maintain growth.
 
 ---
 
@@ -43,8 +60,9 @@ See [[Boston Dynamics]] for robot details.
 | Automotive | Hyundai, Kia, Genesis brands |
 | Luxury | Genesis |
 | Commercial | Trucks, buses |
-| Robotics | Boston Dynamics |
+| Robotics | [[Boston Dynamics]] (80%) |
 | Autonomous | Motional JV (with Aptiv) |
+| Solar | [[Solarstic]] (ZERO1NE venture) |
 
 ---
 
@@ -56,6 +74,7 @@ See [[Boston Dynamics]] for robot details.
 | E-GMP platform | Dedicated EV architecture |
 | Metaplant Georgia | EV factory (Atlas deployment site) |
 | Solid-state | Development ongoing |
+| Vehicle solar | [[Solarstic]] — 500W, +50 miles/day (1-2 years) |
 
 ---
 
@@ -79,7 +98,12 @@ See [[Boston Dynamics]] for robot details.
 ## Related
 
 - [[Boston Dynamics]] — subsidiary (80%), Atlas humanoid
+- [[Solarstic]] — ZERO1NE venture, vehicle-integrated solar
 - [[Figure AI]] — robotics competitor
 - [[Tesla]] — EV and robotics competitor (Optimus)
 - [[NVIDIA]] — AI partner
 - [[CES 2026]] — AI Robotics Strategy unveiled
+
+---
+
+*Updated 2026-01-10*

@@ -45,6 +45,22 @@ Data centers need reliable, clean power.
 
 ---
 
+## Project Stargate Ecosystem
+
+**[[Project Stargate]] ($500B AI Infra)** is the massive demand shock that validates the nuclear thesis beyond single-reactor restarts.
+
+| Player | Role in Stargate | Thesis Connection |
+|--------|------------------|-------------------|
+| **[[Oklo]]** | **SMR Provider** | Sam Altman (OpenAI CEO) is Chairman. Likely preferred SMR partner for long-term buildout. |
+| **[[Constellation Energy]]** | **Operator** | Only US operator with scale to manage the gigawatt-class nuclear fleet Stargate needs. |
+| **[[Cameco]]** | **Fuel Supplier** | Massive new reactor demand tightens uranium market; owns 49% of Westinghouse (AP1000 tech). |
+| **[[Westinghouse]]** | **Reactor Tech** | AP1000 is the only proven Gen III+ tech for immediate large-scale deployment. |
+| **[[BWX Technologies]]** | **Components** | Key supplier for reactor pressure vessels and SMR components. |
+
+**The Trump II Kicker:** Administration's deregulation push (NRC reform) is essential to meet Stargate's aggressive 2028-2030 timelines.
+
+---
+
 ## 2024 performance
 
 | Stock | 2024 Return | Driver |
@@ -130,6 +146,7 @@ Hyperscalers interested but patient.
 
 ## Related
 
+- [[Project Stargate]] — $500B demand shock
 - [[Uranium]] — fuel commodity
 - [[Constellation Energy]] — winner (largest US fleet, +150% in 2024)
 - [[Vistra]] — winner (Texas nuclear + gas, +260% in 2024)

@@ -1,6 +1,6 @@
 #concept #geopolitics #usa #china #finance #sanctions
 
-**US-China financial war** — The strategic use of financial tools and controls by the Trump II administration to exert pressure on China, beyond tariffs and export controls.
+**US-China finance** — Financial leverage and capital market competition. Dollar system vs renminbi alternatives.
 
 Part of [[US-China relations]] hub.
 
@@ -57,7 +57,8 @@ Part of [[US-China relations]] hub.
 *   [[China retaliatory toolkit]] — countermeasures
 *   [[Digital Yuan]] — China's financial innovation
 *   [[SWIFT]] — global financial messaging
-*   [[Renminbi]] — China's currency
+- [[Renminbi]] — China's currency
+- [[Strategic Bitcoin Reserve]] — US counter-move
 
 ---
 

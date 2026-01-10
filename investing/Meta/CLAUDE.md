@@ -65,6 +65,28 @@ When adding news, always consider which thesis it supports or challenges.
    - Other topic lists: AI, Anthropic, LLMs, Lithium, Macroeconomics, Robotics, Solar, etc.
 3. Add findings to daily note first, extract to actor/concept notes if substantial
 
+## Inputs Folder Workflow (Idea for Exploration)
+
+The concept of an `Inputs/` directory serves as a potential staging ground for raw intelligence (reports, transcripts, articles, links, PDFs) before it is synthesized into atomic notes (`Actors/`, `Concepts/`, `Theses/`). This could formalize an "inbox" function for non-daily inputs and ensure the main vault remains clean and focused on curated knowledge.
+
+**Potential Workflow:**
+1.  **Ingest:** When encountering new, raw information, a new note could be created in `Inputs/` (e.g., `Inputs/Goldman 2026 Energy Outlook.md`), with raw content pasted or linked.
+2.  **Process:** Review the `Inputs/` note, extract relevant data points, insights, or updates to enrich existing `Actors/`, `Concepts/`, `Theses/`, or `Events/` notes, or create new atomic notes.
+3.  **Archive/Delete:** Once value is extracted, the `Inputs/` note could be moved to `Inputs/Archive/` or deleted.
+
+**Potential Benefits:**
+-   **Clarity:** Distinguishes raw data from curated knowledge.
+-   **Cleanliness:** Prevents clutter in core folders.
+-   **Traceability:** Provides a temporary source record for all updates.
+
+---
+
+## Actor Indexing (Idea for Exploration)
+
+Given the growing size of the `Actors/` directory (596 files), the idea of creating "Actor Index" notes (e.g., `Actors/Index - Semi.md`, `Actors/Index - Banks.md`) could be explored to improve browsing and discovery of specific actors within a sector. These would function as curated "Table of Contents" for large actor clusters.
+
+---
+
 ## Key actors to track
 
 Foundry: [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[GlobalFoundries]]

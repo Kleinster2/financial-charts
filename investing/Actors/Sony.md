@@ -108,6 +108,8 @@ Sony may wait for memory normalization (2028+).
 
 ## Related
 
+- [[Sensors]] — sector (#1 in image sensors)
+- [[Image sensors]] — technology deep dive
 - [[Memory shortage victims]] — thesis (PS6 delay risk)
 - [[Nintendo]] — peer (launched Switch 2 anyway)
 - [[Memory shortage 2025-2026]] — crisis context

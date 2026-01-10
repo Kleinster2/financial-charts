@@ -1,3 +1,6 @@
+---
+aliases: [Power and utilities, Utilities, Energy sector, Power sector]
+---
 #sector #energy #utilities #power
 
 # Energy and Utilities
@@ -15,6 +18,19 @@ Overview of power generation and utilities, with focus on AI-driven demand.
 | Nuclear | ~19% | Stable → growing |
 | Renewables | ~22% | Growing |
 | Hydro | ~6% | Stable |
+
+---
+
+## Sector KPIs
+
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **Dividend Yield** | Annual dividend / Share price | **>3-4% (Utilities)** | Income stability, value (Utilities) |
+| **P/E Ratio** | Share price / Earnings per share | **15-20x (Utilities)** | Valuation relative to earnings (Utilities) |
+| **P/FCF** | Price / Free Cash Flow per share | **<10x (Producers)** | Valuation for cash-generative firms (Energy Producers) |
+| **Reserve Life** | Proven Reserves / Annual Production | **>10-15 years (E&P)** | Longevity of resource base (Exploration & Production) |
+| **Capacity Factor** | Actual output / Max possible output | **>90% (Nuclear)**, **>50% (Renewables)** | Operational efficiency of power plants |
+| **AUM Growth** (for fund managers) | Assets Under Management Growth | **>10% annually** | Indicates strong client acquisition (relevant for some energy funds) |
 
 ---
 
@@ -135,5 +151,9 @@ See [[Long nuclear]].
 - [[Constellation Energy]] — largest US nuclear
 - [[Project Stargate]] — $500B AI infra (power needs)
 - [[Clean energy for AI]] — concept
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

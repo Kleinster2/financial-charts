@@ -1,7 +1,9 @@
 ---
-aliases: [Software as a Service, Cloud Software]
+aliases: [Software as a Service, Cloud Software, Software-as-a-service, Subscription software]
 ---
 #sector #software #cloud #technology
+
+# SaaS
 
 **SaaS** — Software as a Service. $400B+ market. 95% of orgs using AI-powered SaaS by 2025.
 
@@ -99,15 +101,16 @@ aliases: [Software as a Service, Cloud Software]
 
 ---
 
-## Business model metrics
+## Sector KPIs
 
-| Metric | Benchmark |
-|--------|-----------|
-| Net Revenue Retention | >120% (best) |
-| Gross margin | 70-80% |
-| LTV/CAC | >3x |
-| Rule of 40 | Growth% + Margin% > 40 |
-| Magic number | >1x (efficient) |
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **NRR** (Net Revenue Retention) | Expansion from existing customers | **>120%** | Growth efficiency (Upsell > Churn) |
+| **Gross Margin** | (Rev - COGS) / Rev | **>75-80%** | Scalability & profitability potential |
+| **Rule of 40** | Rev Growth % + FCF Margin % | **>40%** | Balance of growth and profitability |
+| **Magic Number** | Net New ARR / Sales & Mktg Spend | **>0.75-1.0x** | Sales efficiency (Can you scale spend?) |
+| **CAC Payback** | Months to earn back acq cost | **<12 months** | Cash flow velocity |
+| **LTV/CAC** | Lifetime Value / Acq Cost | **>3x** | Long-term unit economics |
 
 ---
 

@@ -36,20 +36,21 @@ Strategic competition beyond trade. See [[US-China tech race]].
 
 | US leverage | China leverage | Deep dive |
 |-------------|----------------|-----------|
-| Dollar system | T-bill holdings (~$800B) | [[US-China financial war]] |
-| SWIFT access | Manufacturing capacity | [[US-China financial war]] |
-| Reserve currency | CIPS (growing) | [[US-China financial war]] |
+| Dollar system | T-bill holdings (~$800B) | [[US-China finance]] |
+| SWIFT access | Manufacturing capacity | [[US-China finance]] |
+| Reserve currency | CIPS (growing) | [[US-China finance]] |
 
 ---
 
 ## Security
 
+Military competition and flashpoints. See [[US-China security]].
+
 | Flashpoint | Risk | Notes |
 |------------|------|-------|
-| **Taiwan** | High | Semiconductor choke point |
-| **South China Sea** | Medium | Freedom of navigation |
-
-*No dedicated note yet.*
+| **Taiwan** | High | Semiconductor choke point, TSMC |
+| **South China Sea** | Medium | Freedom of navigation, $3.4T trade |
+| **Military balance** | — | China largest navy, US global reach |
 
 ---
 
@@ -65,8 +66,8 @@ Strategic competition beyond trade. See [[US-China tech race]].
 | → Retaliation | [[China retaliatory toolkit]] | How China responds |
 | Technology | [[US-China tech race]] | AI, robotics, EVs, phones, drones |
 | → AI | [[US-China AI race]] | Models, talent, power, deployment |
-| Finance | [[US-China financial war]] | Financial tools, sanctions |
-| Security | — | (no note yet) |
+| Finance | [[US-China finance]] | Financial tools, sanctions |
+| Security | [[US-China security]] | Taiwan, SCS, military balance |
 
 ---
 
@@ -111,9 +112,13 @@ Strategic competition beyond trade. See [[US-China tech race]].
 
 ### Actors
 - [[China]] — country actor
+- [[Japan]] — key US ally, China tensions (Jan 2026)
 - [[Huawei]], [[SMIC]] — indigenous champions
 - [[NVIDIA]], [[AMD]], [[Intel]] — exposed US companies
 - [[CNPC]], [[Sinopec]] — Chinese oil/gas
+
+### Related bilateral
+- [[China-Japan relations]] — escalating (Jan 2026)
 
 ### Resources
 - [[Rare earth leverage]]
@@ -125,4 +130,4 @@ Strategic competition beyond trade. See [[US-China tech race]].
 
 ---
 
-*Updated 2026-01-09*
+*Updated 2026-01-10*

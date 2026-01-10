@@ -1,3 +1,6 @@
+---
+aliases: [Robotics sector, Industrial robotics, Humanoid robots, Service robots]
+---
 #sector #robotics #ai #automation
 
 # Robotics

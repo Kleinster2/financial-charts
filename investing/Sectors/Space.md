@@ -1,3 +1,6 @@
+---
+aliases: [Space economy, Space industry, Space sector, Commercial space]
+---
 #sector #space #aerospace #satellite
 
 # Space
