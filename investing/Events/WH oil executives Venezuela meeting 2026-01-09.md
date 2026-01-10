@@ -12,7 +12,7 @@
 | Location | White House East Room |
 | Attendees | ~20 oil executives |
 | Goal | $100B investment commitment for Venezuela |
-| Outcome | Skepticism, no firm commitments |
+| Outcome | Strong skepticism, no commitments given; Venezuela deemed 'uninvestable' by key players |
 
 ---
 
@@ -80,6 +80,10 @@ Second wave of attacks cancelled — initial operation was "so powerful and so g
 ---
 
 ## Industry response
+
+### Conditional Engagement
+
+Oil executives made **no firm investment commitments**, citing the current environment as a barrier. Exxon CEO Darren Woods assessed that Venezuela has been **"uninvestable"** due to its legal and commercial frameworks, implying that significant reforms are a prerequisite for any future capital deployment.
 
 ### Deep skepticism
 
@@ -155,6 +159,8 @@ Senate voted 52-47 to advance bipartisan resolution restricting Trump's Venezuel
 
 **Darren Woods (Exxon):**
 > "You can imagine to re-enter [Venezuela] a third time would require some pretty significant changes from what we've historically seen here and what is currently the state."
+>
+> *"Venezuela is uninvestable given the current legal and commercial frameworks."*
 
 **Ryan Lance (ConocoPhillips):**
 > [On $12B claim] "Good writeoff," Trump joked. "It's already been written off," Lance quipped.

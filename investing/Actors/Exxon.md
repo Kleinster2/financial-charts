@@ -72,7 +72,7 @@ Oil majors have relevance to AI infrastructure:
 
 See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela meeting 2026-01-09]] for full context.
 
-**Jan 9, 2026:** CEO Darren Woods attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen."
+**Jan 9, 2026:** CEO Darren Woods attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen." He further stated that Venezuela was **"uninvestable"** given the current legal and commercial frameworks.
 
 ---
 

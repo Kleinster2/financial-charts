@@ -22,7 +22,7 @@
 | **Trade** | Tariffs as leverage | China tariffs, Supreme Court case |
 | **Drugs** | Fentanyl as casus belli | China tariffs, border enforcement |
 | **Immigration** | Mass deportation | TPS termination, Venezuela repatriation |
-| **Deregulation** | Remove constraints | AI, energy, crypto |
+| **Deregulation** | Remove constraints | AI, energy, crypto, antitrust (Khan out) |
 
 ---
 
@@ -31,7 +31,7 @@
 | Action | Pillar | Note |
 |--------|--------|------|
 | Maduro capture | Force | [[Maduro capture 2026]] |
-| Venezuela oil push | Force + Trade | [[WH oil executives Venezuela meeting 2026-01-09]] |
+| Venezuela oil push | Force + Trade | Stalled — Industry requires rule of law first (see [[WH oil executives Venezuela meeting 2026-01-09]]) |
 | Greenland rhetoric | Force | — |
 | Panama Canal threats | Force | — |
 | TPS terminations | Immigration | [[Venezuela repatriation strategy]] |
@@ -106,6 +106,7 @@ See [[Venezuela repatriation strategy]].
 
 **Volatility:**
 - Oil (intervention risk)
+- Venezuela rebuild (execution risk)
 - Tariff-sensitive sectors
 - EM currencies
 
@@ -128,7 +129,11 @@ See [[Venezuela repatriation strategy]].
 
 ### Targets
 - [[Venezuela]]
-- [[Cuba-Venezuela axis]]
+- [[PDVSA]] — state oil company (under US control)
+- [[Citgo]] — US asset (collateral)
+- [[US-Venezuela relations]] — Grenell → Rubio evolution
+- [[US-China financial war]] — financial strategies against China
+- [[Lina Khan]] — ousted FTC Chair (deregulation signal)
 
 ---
 

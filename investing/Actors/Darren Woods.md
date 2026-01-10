@@ -44,11 +44,13 @@
 
 ## Venezuela position
 
-**Skeptical on return:**
+**Strongly skeptical on return; deems Venezuela "uninvestable":**
 
-At [[WH oil executives Venezuela meeting 2026-01-09]]:
+At [[WH oil executives Venezuela meeting 2026-01-09]], Woods articulated Exxon's deep reservations:
 
 > "You can imagine to re-enter [Venezuela] a third time would require some pretty significant changes from what we've historically seen here and what is currently the state."
+>
+> He further stated that Venezuela was **"uninvestable"** given the current legal and commercial frameworks.
 
 **Context:** Exxon exited Venezuela in 2007 after refusing Chavez nationalization terms. Won $1.6B arbitration (sought $12B). Would be "third time" entering if they return.
 

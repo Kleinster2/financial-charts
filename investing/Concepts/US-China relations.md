@@ -34,13 +34,11 @@ Strategic competition beyond trade. See [[US-China tech race]].
 
 ## Finance
 
-| US leverage | China leverage |
-|-------------|----------------|
-| Dollar system | T-bill holdings (~$800B) |
-| SWIFT access | Manufacturing capacity |
-| Reserve currency | CIPS (growing) |
-
-*No dedicated note yet.*
+| US leverage | China leverage | Deep dive |
+|-------------|----------------|-----------|
+| Dollar system | T-bill holdings (~$800B) | [[US-China financial war]] |
+| SWIFT access | Manufacturing capacity | [[US-China financial war]] |
+| Reserve currency | CIPS (growing) | [[US-China financial war]] |
 
 ---
 
@@ -67,7 +65,7 @@ Strategic competition beyond trade. See [[US-China tech race]].
 | → Retaliation | [[China retaliatory toolkit]] | How China responds |
 | Technology | [[US-China tech race]] | AI, robotics, EVs, phones, drones |
 | → AI | [[US-China AI race]] | Models, talent, power, deployment |
-| Finance | — | (no note yet) |
+| Finance | [[US-China financial war]] | Financial tools, sanctions |
 | Security | — | (no note yet) |
 
 ---

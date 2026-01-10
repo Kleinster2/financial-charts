@@ -127,6 +127,7 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 - Oil prices already low (oversupplied)
 - ESG/political backlash on "oil grab"
 - Takes 5+ years to meaningfully increase production
+- Legal and commercial framework currently deemed 'uninvestable' by industry (Exxon CEO)
 
 **Risk:** Near-term volatility, companies hesitant without stability.
 
@@ -156,7 +157,7 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 | Mike Summers | API | "Must establish rule of law" |
 | Harold Hamm | Continental | Coy, non-committal |
 
-**Implication:** Rebuild thesis intact but timeline may be slower. Industry wants legal framework and security before committing capital.
+**Implication:** Rebuild thesis faces significant headwinds. As stated by Exxon CEO Darren Woods, Venezuela is currently **"uninvestable"** given the lack of legal and commercial frameworks. This fundamentally delays the timeline and significantly increases the risk profile for major capital commitments. Industry wants robust legal framework and security before committing capital.
 
 ---
 
@@ -203,4 +204,5 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 - [[CNPC]], [[Sinopec]] — losers (China)
 - [[Russia]] — loser (ally)
 - [[Power constraints]] — if oil supply grows, energy costs drop
+- [[PDVSA]] — core entity for rebuild
 

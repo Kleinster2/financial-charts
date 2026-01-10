@@ -140,7 +140,8 @@ Donroe defines the sphere. Other doctrines enforce it.
 - [[Trump II]] — parent hub
 - [[Propaganda thru Force]] — how it's communicated
 - [[Regime Compliance Doctrine]] — enforcement mechanism
-- [[Venezuela]] — first application
+- [[Venezuela]] — country actor
+- [[US-Venezuela relations]] — policy evolution (Grenell → Rubio)
 - [[Cuba-Venezuela axis]] — next target
 - [[Maduro capture 2026]] — proof of concept
 
