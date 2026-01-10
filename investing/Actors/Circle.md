@@ -68,6 +68,17 @@ See [[Tokenized private shares]].
 
 ---
 
+## GENIUS Act Impact (July 2025)
+
+**The Regulatory Moat:**
+The passage of the [[GENIUS Act]] was the "IPO Unlock" Circle needed.
+*   **Legitimacy:** USDC effectively became a US-sanctioned digital dollar format.
+*   **Compliance:** Mandated 100% reserve backing (Circle was already compliant).
+*   **Advantage:** Puts pressure on non-compliant offshore rivals like Tether (USDT).
+*   **IPO Status:** S-1 filing likely imminent/active post-passage.
+
+---
+
 ## IPO attempts
 
 **Has tried to go public:**

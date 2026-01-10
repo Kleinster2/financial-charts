@@ -1,3 +1,6 @@
+---
+aliases: [Health care, Healthcare sector, Medical sector, Healthcare services]
+---
 #sector #healthcare
 
 # Healthcare
@@ -109,5 +112,9 @@ Overview of healthcare sector: pharma, biotech, medtech, and services.
 - [[UnitedHealth]] — largest insurer
 - [[CVS Health]] — integrated model
 - [[Humana]] — Medicare focus
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

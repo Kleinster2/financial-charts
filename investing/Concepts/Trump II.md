@@ -56,11 +56,35 @@
 | Target | Justification | Rate |
 |--------|---------------|------|
 | China | Trade deficit, fentanyl | ~49% general |
+| **India** | Russian oil purchases | **50%** |
+| Brazil | "Free Bolsonaro" (Moraes pressure) | Threatened |
 | Mexico | Immigration, cartels | Threatened |
 | Canada | Trade balance | Threatened |
 | EU | Auto tariffs | Threatened |
 
-See [[US-China tariffs]], [[US-China trade]].
+See [[US-China tariffs]], [[US-China trade]], [[Propaganda thru Force]].
+
+---
+
+## Unintended consequences
+
+Tariffs and pressure creating opposite effects:
+
+| Target | Intended | Actual result |
+|--------|----------|---------------|
+| **India** | Stop buying Russian oil | Pushed India toward China |
+| **India-China** | Keep apart (Quad) | Thawing relations, Modi visits Xi |
+| **India contracts** | — | India lifting China restrictions ($700B+) |
+
+### India case study (Jan 2026)
+
+50% tariff on India + US-Pakistan warming → India planning to scrap 2020 restrictions on Chinese firms bidding for government contracts.
+
+**Losers:** [[BHEL]] (-10.5%), [[Larsen & Toubro]] (-3.1%)
+
+**Strategic cost:** Quad cohesion weakening. India balancing toward China.
+
+See [[India-China relations]] for full analysis.
 
 ---
 
@@ -132,9 +156,15 @@ See [[Venezuela repatriation strategy]].
 - [[PDVSA]] — state oil company (under US control)
 - [[Citgo]] — US asset (collateral)
 - [[US-Venezuela relations]] — Grenell → Rubio evolution
-- [[US-China financial war]] — financial strategies against China
+- [[US-China finance]] — financial strategies against China
+- [[Strategic Bitcoin Reserve]] — crypto sovereignty policy
 - [[Lina Khan]] — ousted FTC Chair (deregulation signal)
+
+### Unintended consequences
+- [[India]] — tariffs pushing toward China
+- [[India-China relations]] — thawing due to US pressure
+- [[BHEL]], [[Larsen & Toubro]] — losers from India-China opening
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-01-10*

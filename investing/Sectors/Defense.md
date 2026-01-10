@@ -1,3 +1,6 @@
+---
+aliases: [Defense sector, Defense contractors, Military industrial, Aerospace and defense]
+---
 #sector #defense #government
 
 # Defense
@@ -103,6 +106,18 @@ See [[Long defense AI]].
 
 ---
 
+## Sector KPIs
+
+| Metric | Definition | Good / Target | Why it matters |
+|--------|------------|---------------|----------------|
+| **Book-to-Bill** | Orders / Revenue | **>1.0x** | Backlog growth signal (>1 means growing) |
+| **Backlog Coverage** | Backlog / Annual Revenue | **>1.5-2.0x** | Revenue visibility (safety net) |
+| **Operating Margin** | Op Income / Revenue | **10-12%** | Profitability (capped by gov't contracts) |
+| **FMS Mix** | Foreign Military Sales % | **Growing** | Higher margins than domestic US sales |
+| **FCF Conversion** | Free Cash Flow / Net Income | **>100%** | Quality of earnings & buyback fuel |
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -130,5 +145,9 @@ Defense stocks typically trade at:
 - [[Long defense AI]] — thesis
 - [[Anduril]], [[Palantir]] — AI-first defense
 - [[Northrop Grumman]] — B-21, space
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

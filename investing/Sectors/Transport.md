@@ -1,3 +1,6 @@
+---
+aliases: [Transportation, Transport sector, Logistics, Mobility]
+---
 #sector #transport #logistics
 
 # Transport
@@ -157,5 +160,9 @@ See [[Autonomous vehicles]], [[Autonomous trucking]].
 - [[Aurora]] — autonomous trucking
 - [[Amazon]] — logistics disruptor
 - [[Berkshire Hathaway]] — owns BNSF
+
+## Sources
+
+- TBD
 
 *Updated 2026-01-08*

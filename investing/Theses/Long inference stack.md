@@ -21,7 +21,8 @@
 | Layer | Function | Beneficiaries |
 |-------|----------|---------------|
 | **Prefill silicon** | Prompt processing | [[NVIDIA]], Google TPU |
-| **Decode silicon** | Token generation | [[Groq]], [[Cerebras]], Rubin SRAM |
+| **Decode silicon** | Token generation | [[Groq]], [[Cerebras]], [[Etched]], Rubin SRAM |
+| **Edge Inference** | On-device processing | [[Arm Holdings]], [[Qualcomm]], [[Apple]] |
 | **Interconnect** | Chip-to-chip data movement | NVIDIA (NVLink), [[Broadcom]], [[Lightmatter]] |
 | **Memory** | HBM for prefill, SRAM for decode | [[SK Hynix]], [[Samsung]], [[Micron]] |
 | **Networking** | Rack-to-rack | NVIDIA, [[Arista Networks]] |
@@ -58,6 +59,20 @@ Users will pay more for faster inference:
 | Batch processing | Low | Low |
 
 [[Agentic AI]] drives decode demand — this is where SRAM shines.
+
+---
+
+## Energy Efficiency: The Hidden Driver
+
+Inference at scale is an energy problem. General-purpose GPUs are power-hungry. Specialized chips offer 10x better tokens-per-watt.
+
+| Architecture | Efficiency | Trade-off |
+|--------------|------------|-----------|
+| **GPU (NVIDIA)** | Low | Maximum flexibility (runs anything) |
+| **LPU (Groq)** | High | Deterministic, limited memory |
+| **ASIC (Etched)** | Extreme | Zero flexibility (Transformer only) |
+
+**Thesis Link:** [[Power constraints]] forces data centers to adopt specialized silicon for high-volume inference to stay within power envelopes.
 
 ---
 
@@ -122,6 +137,9 @@ This is a basket thesis — multiple exposures:
 - [[Long Broadcom]] — component (interconnect, networking)
 - [[Agentic AI]] — driver (decode-heavy use case)
 - [[SK Hynix]] — beneficiary (HBM leader)
+- [[Etched]] — ASIC challenger (Transformer only)
+- [[Arm Holdings]] — edge inference architecture
+- [[Qualcomm]] — edge inference chips
 - [[Vertiv]] — beneficiary (cooling infrastructure)
 - [[Lightmatter]] — optical interconnect (photonics)
 

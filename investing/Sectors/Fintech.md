@@ -1,3 +1,6 @@
+---
+aliases: [Financial technology, Fintech sector, Digital payments, Neobanks]
+---
 #sector #fintech #payments #banking
 
 # Fintech

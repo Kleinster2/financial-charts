@@ -16,6 +16,13 @@ Personal research vault for investment ideas and market analysis.
 | [[#Events]] | 12 | Market events |
 | [[#Questions]] | 5 | Research questions |
 | [[#Daily]] | 4 | Daily notes |
+| [[Portfolio/Dashboard\|Portfolio]] | 4 | Active positions, watchlist, logs |
+
+---
+
+## Portfolio
+
+Your execution dashboard: [[Portfolio/Dashboard]]
 
 ---
 
@@ -26,6 +33,7 @@ Sector-level analysis and key players:
 | Sector | Focus |
 |--------|-------|
 | [[Semiconductors]] | Value chain, NVIDIA, TSMC, memory |
+| [[Sectors/Sensors\|Sensors]] | IoT, industrial, automotive |
 | [[AI Infrastructure]] | Compute, data centers, power |
 | [[Sectors/Robotics\|Robotics]] | Humanoids, industrial, surgical |
 | [[Banks]] | Big Four, investment banks |

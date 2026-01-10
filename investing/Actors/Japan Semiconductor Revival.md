@@ -131,10 +131,12 @@ Ambitious but unproven.
 
 ## Related
 
+- [[Japan]] — country context, China tensions
 - [[Rapidus]] — key project (2nm moonshot)
 - [[TSMC]] — fab partner (Kumamoto)
 - [[Tokyo Electron]] — equipment beneficiary
 - [[NTT]] — telecom/infrastructure (IOWN initiative)
 - [[Samsung]] — competitor (Korean alternative)
 - [[Semiconductor incentive programs]] — context
+- [[China-Japan relations]] — geopolitical risk (Jan 2026 export ban)
 

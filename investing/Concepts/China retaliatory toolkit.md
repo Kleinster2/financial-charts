@@ -45,6 +45,24 @@ See [[Dutch seizure of Nexperia]] for full timeline.
 
 ---
 
+## Case study: Japan Taiwan comments (Jan 2026)
+
+PM Takaichi said Taiwan contingency could necessitate Japan military response. China's response:
+
+| Action | Details |
+|--------|---------|
+| Export ban | Dual-use equipment: sensors, semiconductors, batteries, chemicals, rare earths |
+| Anti-dumping probe | Dichlorosilane (chip manufacturing chemical) |
+| Diplomatic | Canceled business delegation |
+| Soft power | Travel agency pressure to cancel Japan trips |
+| Military | Radar lock on jets, Taiwan blockade exercises |
+
+**Goal:** Political — force Takaichi out of office, not trade concessions.
+
+See [[China-Japan relations]] for full analysis.
+
+---
+
 ## Key resources China controls
 
 | Resource | Global share | Used in |
@@ -90,4 +108,10 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 - [[Germanium]] — tool (60% refined by China)
 - [[Antimony]] — tool (48% share, no substitute for ammo)
 - [[Nexperia]] — target (Oct 2025 export controls)
-- [[Dutch seizure of Nexperia]] — trigger (China response)
+- [[Dutch seizure of Nexperia]] — trigger (Oct 2025)
+- [[Japan]] — target (Jan 2026 export ban)
+- [[China-Japan relations]] — trigger (Taiwan comments)
+
+---
+
+*Updated 2026-01-10*

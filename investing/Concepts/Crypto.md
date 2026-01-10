@@ -53,6 +53,21 @@ aliases: [cryptocurrency, blockchain, digital assets]
 
 ---
 
+## 2025: The Turning Point
+
+A watershed year for US crypto policy under [[Trump II]]:
+
+| Timeline | Event | Impact |
+|----------|-------|--------|
+| **Jan 2025** | Paul Atkins appointed SEC Chair | End of "regulation by enforcement" (Gensler out). |
+| **Q2 2025** | **SAB 121 Repealed** | Banks ([[JPMorgan]], etc.) allowed to custody crypto assets. |
+| **July 2025** | **[[GENIUS Act]] Passed** | Federal stablecoin framework; legitimizes USDC. |
+| **Q4 2025** | **[[Strategic Bitcoin Reserve]]** | Lummis Bill introduced; US Gov to hold BTC. |
+
+**Theme:** Shift from "Crackdown" to "Strategic Asset."
+
+---
+
 ## Tokenization thesis
 
 **Crypto infrastructure for real-world assets:**

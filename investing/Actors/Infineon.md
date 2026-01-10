@@ -174,6 +174,7 @@ Made Infineon more complete in automotive.
 
 ## Related
 
+- [[Sensors]] — automotive radar, sensors
 - [[STMicro]] — competitor (European auto/power)
 - [[NXP]] — competitor (#2 automotive)
 - [[Renesas]] — competitor (auto MCUs)

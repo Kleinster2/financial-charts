@@ -130,8 +130,10 @@ Trump 2.0 is more explicit about the messaging — force *is* the communication.
 - [[Venezuela]] — target
 - [[Cuba-Venezuela axis]] — next target?
 - [[Venezuela repatriation strategy]] — policy alignment
+- [[India]] — tariff target (Russian oil)
+- [[India-China relations]] — unintended consequence
 - [[US Government]] — policy driver
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-01-10*
