@@ -199,6 +199,105 @@ France most vocal opponent:
 
 ---
 
+## Comparison to other agreements
+
+### Size comparison
+
+| Agreement | Parties | Population | Combined GDP | Year |
+|-----------|---------|------------|--------------|------|
+| **RCEP** | 15 (China, ASEAN, Japan, Korea, ANZ) | 2.2B | $26T | 2020 |
+| **EU-Mercosur** | 31 (EU + 4) | 780M | $22T | 2024 |
+| **USMCA** | 3 (US, Mexico, Canada) | 500M | $28T | 2020 |
+| **CPTPP** | 11 (Pacific rim, no US/China) | 500M | $13T | 2018 |
+| **EU-Japan** | 28 | 580M | $21T | 2019 |
+| **EU-Canada (CETA)** | 28 | 550M | $20T | 2017 |
+
+EU-Mercosur = largest by population after RCEP.
+
+### Tariff elimination
+
+| Agreement | Industrial | Agriculture | Timeline |
+|-----------|------------|-------------|----------|
+| **EU-Mercosur** | 91% | Quotas, sensitive | 10-15 years |
+| **USMCA** | 99%+ | Mostly open | Immediate |
+| **CPTPP** | 99% | 95%+ | 7-20 years |
+| **RCEP** | 90% | 65% | 20 years |
+| **EU-Japan** | 99% | 82% | 15 years |
+| **CETA** | 98% | Quotas (beef) | 7 years |
+
+EU-Mercosur's agricultural quotas mirror CETA's approach — protect EU farmers while granting limited access.
+
+### Agricultural sensitivity
+
+| Agreement | Beef access | Dairy | Key friction |
+|-----------|-------------|-------|--------------|
+| **EU-Mercosur** | 99,000t quota | Quota | French/Irish farmers |
+| **CETA** | 65,000t quota | Quota | Similar to Mercosur |
+| **USMCA** | Open | US access to Canada | Canadian dairy |
+| **CPTPP** | Varies | Japan quotas | Japan protection |
+| **EU-Japan** | 51,000t quota | Tariff cuts | Japan rice excluded |
+
+### Services liberalization
+
+| Agreement | Financial | Telecom | Digital | Mode 4 |
+|-----------|-----------|---------|---------|--------|
+| **EU-Mercosur** | Moderate | Limited | Basic | Limited |
+| **USMCA** | Deep | Open | Strong | Limited |
+| **CPTPP** | Strong | Strong | Strong | Moderate |
+| **EU-Japan** | Strong | Strong | Strong | Moderate |
+| **CETA** | Strong | Strong | Moderate | Moderate |
+
+EU-Mercosur's services provisions are **less ambitious** than CPTPP or EU-Japan.
+
+### Rules of origin
+
+| Agreement | Autos | Complexity |
+|-----------|-------|------------|
+| **EU-Mercosur** | 50-60% | Moderate |
+| **USMCA** | 75% + wage rules | High (labor value) |
+| **CPTPP** | 45-55% | Moderate |
+| **RCEP** | 40% | Simple |
+| **EU-Japan** | 55% | Moderate |
+
+USMCA has strictest auto rules (75% content + $16/hr labor).
+
+### Environmental/labor provisions
+
+| Agreement | Environment | Labor | Enforcement |
+|-----------|-------------|-------|-------------|
+| **EU-Mercosur** | Paris binding | ILO standards | Weak (criticism) |
+| **USMCA** | Moderate | Strong (Mexico) | Rapid response |
+| **CPTPP** | Suspended (US provisions) | Suspended | Weak |
+| **EU-Japan** | Paris binding | ILO | Dialogue |
+| **CETA** | Paris binding | ILO | Dialogue |
+
+EU-Mercosur's environmental provisions criticized as unenforceable vs deforestation reality.
+
+### Ratification complexity
+
+| Agreement | Process | Status |
+|-----------|---------|--------|
+| **EU-Mercosur** | EU + 27 national? + 4 Mercosur | Pending, uncertain |
+| **CETA** | Mixed — some provisional | Provisional since 2017, Belgium blocking |
+| **EU-Japan** | EU-only | Fully ratified |
+| **USMCA** | 3 parties | Fully ratified |
+| **CPTPP** | 11 parties | In force for 9 |
+
+EU-Mercosur could face CETA's fate — years of provisional application with national holdouts.
+
+### Key differences summary
+
+| Dimension | EU-Mercosur vs peers |
+|-----------|----------------------|
+| **Size** | Largest by population after RCEP |
+| **Agriculture** | More restrictive quotas than CPTPP |
+| **Services** | Less ambitious than EU-Japan or CPTPP |
+| **Autos** | Long phase-out (15yr) vs USMCA immediate |
+| **Environment** | Binding Paris but weak enforcement |
+| **Ratification** | Most uncertain (France, mixed agreement) |
+
+---
+
 ## Investment implications
 
 ### Winners
