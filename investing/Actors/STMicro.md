@@ -162,4 +162,8 @@ European fab presence = strategic for EU sovereignty.
 - [[Renesas]] — competitor (automotive MCUs)
 - [[Apple]] — customer (MEMS sensors)
 - [[Automotive semiconductors]] — market context
-- [[GlobalFoundries]] — foundry partner
+- [[GlobalFoundries]] — foundry partner (Crolles)
+- [[EU Chips Act]] — €7.5B Crolles project, €2B Catania SiC
+- [[France]] — major fab presence
+- [[Europe]] — European semiconductor champion
+- [[Sensors]] — MEMS leader

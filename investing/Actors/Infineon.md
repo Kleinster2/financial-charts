@@ -183,3 +183,6 @@ Made Infineon more complete in automotive.
 - [[TSMC]] — foundry partner
 - [[GlobalFoundries]] — foundry partner
 - [[Automotive semiconductors]] — market context
+- [[Germany]] — home country
+- [[EU Chips Act]] — European semiconductor policy
+- [[Europe]] — regional hub

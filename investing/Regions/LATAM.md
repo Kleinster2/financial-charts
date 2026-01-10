@@ -147,5 +147,6 @@ See [[Cuba opening]].
 - [[Nearshoring thesis]] — Mexico
 - [[Petrobras]] — Brazil oil
 - [[B3]] — Brazil exchange
+- [[EU-Mercosur agreement]] — EU trade deal (beef, autos)
 
-*Updated 2026-01-08*
+*Updated 2026-01-10*
