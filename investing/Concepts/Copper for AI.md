@@ -38,17 +38,81 @@ The current copper rally differs from past cycles:
 
 ---
 
+## S&P Global study (Jan 2026)
+
+**"Copper in the Age of AI"** — landmark study co-chaired by Daniel Yergin (Vice Chairman, S&P Global).
+
+> "Here, in short, is the quandary: copper is the great enabler of electrification, but the accelerating pace of electrification is an increasing challenge for copper. Economic demand, grid expansion, renewable generation, AI computation, digital industries, electric vehicles and defense are scaling all at once—and supply is not on track to keep pace. **At stake is whether copper remains an enabler of progress or becomes a bottleneck to growth and innovation.**" — **Daniel Yergin**, Vice Chairman, S&P Global
+
+The emerging supply deficit constitutes a **"systemic risk for global industries, technological advancement and economic growth."**
+
+> "Copper is the connective artery linking physical machinery, digital intelligence, mobility, infrastructure, communication and security systems; the future availability of copper has become a matter of strategic importance." — **Carlos Pascual**, SVP Geopolitics, S&P Global (co-chair)
+
+### Supply vs demand to 2040
+
+| Metric | 2025 | 2040 | Change |
+|--------|------|------|--------|
+| Demand | 28M tonnes | 42M tonnes | +50% |
+| Primary production | — | 22M tonnes | — |
+| Recycled copper | 4M tonnes | 10M tonnes | +150% |
+| **Shortfall** | — | **10M tonnes** | 25% gap |
+
+Production peaks at **33M tonnes in 2030**, then declines (ore grade deterioration).
+
+### 2040 demand breakdown
+
+| Sector | Demand | Share | Gap contribution |
+|--------|--------|-------|------------------|
+| Core economic (construction, transport) | 23M tonnes | 53% | — |
+| Energy transition (EVs, renewables, grid) | 15.7M tonnes | 37% | — |
+| **Subtotal (traditional)** | 38.7M tonnes | — | **7M tonne gap** |
+| AI/data centers + defense | ~4M tonnes | 10% | +3M tonnes |
+| Humanoid robots (1B-10B units) | 1.6M+ tonnes | — | Upside risk |
+
+Global electricity demand projected to increase ~50% by 2040.
+
+### Infrastructure scale required
+
+- Data centers: **550 GW by 2040** (5x 2022)
+- **100+ new data center projects** launched (~$61B pipeline)
+- Equivalent to adding **330 Hoover Dams** or **650 nuclear reactors** annually
+- Defense spending could reach **$6T by 2040**
+
+### Supply concentration risk
+
+| Segment | Concentration |
+|---------|---------------|
+| Mining production | 6 countries = 67% |
+| Smelting capacity | China = 40% |
+| Concentrate imports | China = 66% |
+
+**New mine timeline: 17 years** discovery to production.
+
+**US designated copper a "critical metal" in 2025.**
+
+> "Bridging the impending supply gap depends not only on geology, engineering, and logistics and investment, but also on governance and policies. That translates into timeliness in permitting and consultation, a time clock on litigation and stability in governance and regulation. The alternative is uncertainty, and uncertainty comes at a hefty cost." — **Eleonor Kramarz**, Global Head Critical Minerals, S&P Global
+
+### Market mechanism caveat
+
+S&P notes actual deficits remain "hypothetical" — price adjustments influence consumption and supply viability. Higher prices ration demand and incentivize marginal supply. But the scale of projected gap suggests prices must rise substantially.
+
+> "The future is not just copper-intensive, it is copper-enabled. Every new building, every line of digital code, every renewable megawatt, every new car, every advanced weapon system depends on the metal." — **Aurian De La Noue**, Executive Director Critical Minerals, S&P Global
+
+**Study sponsors:** Anglo American, Barrick, BHP, Freeport-McMoRan, Google, Gunvor, Lundin Mining, MAADEN (Saudi), Northern Dynasty Minerals, Resolution Copper, Rio Tinto, Taseko Mines, Trafigura, Vale.
+
+---
+
 ## Supply crunch dynamics
 
 | Factor | Impact |
 |--------|--------|
-| Mine timelines | 10+ years discovery to production |
+| Mine timelines | **17 years** discovery to production |
+| Production peak | 2030 at 33M tonnes, then decline |
 | Underinvestment | Years of low capex now biting |
 | Permitting | Environmental/community opposition |
 | Concentrate shortage | Smelters paying higher fees |
-| 2026 crunch | Market expects acute squeeze |
 
-**The problem:** Demand can surge in months. Supply takes a decade.
+**The problem:** Demand can surge in months. Supply takes nearly two decades.
 
 ---
 
@@ -78,11 +142,13 @@ The current copper rally differs from past cycles:
 
 | Metric | Value |
 |--------|-------|
-| 2025 performance | ~20%+ rally |
-| Context | Best year since 2009 |
-| Current price | Near record highs |
-| Bull target | $12,000/ton |
-| Structural deficit | Widening |
+| Current price (Jan 2026) | **$13,000/tonne** |
+| April 2025 | $8,000/tonne |
+| Move | +62% in 9 months |
+| All-time high | $13,000+ (current) |
+| S&P incentive price | $12,000+ needed for new supply |
+
+Trump tariffs and mining disruptions driving recent surge.
 
 ---
 
@@ -157,6 +223,7 @@ Copper rallying alongside gold and silver:
 
 ## Related
 
+- [[Copper]] — sector hub
 - [[Lithium]] — battery metal peer
 - [[Power constraints]] — AI power demand driving grid upgrades
 - [[Clean energy for AI]] — Renewables need copper
