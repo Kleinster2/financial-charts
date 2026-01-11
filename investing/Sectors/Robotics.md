@@ -72,6 +72,7 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 | [[1X Technologies]] | ~$1B+ | Private |
 | [[Agility Robotics]] | ~$1B+ | Private |
 
+### Reality check (Jan 2026)**Bloomberg/Gartner skepticism:**> "We've been saying for the last few years that the most practical application for a humanoid robot was to artificially inflate your share price. They look great walking on stage, but are entirely impractical in use." — Bill Ray, Gartner**CES 2026 demos — painfully slow:**- LG CLOiD loaded one towel into washing machine "almost painfully slowly"- Tasks took minutes that humans do in seconds- Fine motor control (especially thumbs) still a major obstacle**Home vs factory deployment:**| Environment | Viability | Timeline ||-------------|-----------|----------|| Factory | Higher | 2026-2027 || Home | Low | Years away |**Why homes are harder:**- Unpredictable (pets, clutter, children)- Cost: tens of thousands for minutes saved on laundry- Safety: liability in uncontrolled environments- Navigation: no standardized layouts**Near-term reality:** Single-task robots (lawn mowing, laundry) more viable than general-purpose humanoids. Factories first, homes later.
 ---
 
 ## Industrial robotics
@@ -136,6 +137,8 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 | [[LG Electronics]] | CLOiD | Home robot concept (CES 2026) |
 
 **Market dynamics:** Commoditizing, China competition intense.
+
+**See also:** [[Drones]] for aerial logistics (cargo drones, UAVs).
 
 ---
 
@@ -253,6 +256,7 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 - [[NVIDIA]] — robotics platform
 - [[Hyundai]] — owns Boston Dynamics
 - [[Sharpa]] — dexterous hands
+- [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world
 - [[AI Infrastructure]] — compute for training
 

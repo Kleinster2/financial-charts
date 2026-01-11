@@ -6,6 +6,7 @@ Part of [[US-China tech race]] umbrella.
 
 ---
 
+## China leaders admit gap widening (Jan 2026)**AGI-Next summit, Beijing (Jan 10, 2026):**> "The real answer is that the gap may actually be widening." — **Tang Jie, Zhipu founder**> "A massive amount of OpenAI's compute is dedicated to next-generation research, whereas we are stretched thin — just meeting delivery demands consumes most of our resources." — **Justin Lin, Alibaba Qwen**| Leader | Role | Catch-up odds ||--------|------|---------------|| Justin Lin | Alibaba Qwen head | **<20%** in 3-5 years || Tang Jie | Zhipu founder | Gap "widening" || Yao Shunyu | Tencent AI (ex-OpenAI) | Focus on bottlenecks |**Key constraint:** Chinese labs spend compute on delivery/production; US labs dedicate compute to research.**Zhipu + MiniMax IPOs (Jan 2026):** Raised $1B+ combined. MiniMax doubled on debut, Zhipu +36%.---
 ## The gap (mid-2025)
 
 **Humanity's Last Exam** (thousands of questions across math, science):
@@ -187,7 +188,7 @@ Chip sector 2x outperformance reflects policy premium + IPO wave.
 
 ---
 
-*Updated 2026-01-05*
+*Updated 2026-01-11*
 
 ---
 

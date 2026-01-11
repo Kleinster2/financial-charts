@@ -174,6 +174,35 @@ See [[Maduro capture 2026]] for full event details.
 
 ---
 
+## Banking landscape
+
+**Domestic system:** Heavily regulated, severe financial isolation. Relies on foreign banks outside US jurisdiction, alternative currencies, offshore intermediaries.
+
+**Foreign bank presence:**
+
+| Bank | Status |
+|------|--------|
+| [[BBVA]] | Only major foreign bank with significant current presence |
+| [[JPMorgan]] | 60-year history, dormant Caracas office could reactivate |
+| [[Citigroup]] | Sold operations to Banco Nacional de Crédito (BNC), exited 2021 |
+| [[Bank of Nova Scotia]] | Exited 2014 |
+
+**JPMorgan positioning:**
+- Dormant Caracas office maintained for years — could reactivate as needed
+- Internal idea floated: trade bank for oil exports (similar to Trade Bank of Iraq, 2003)
+- Could tap $1.5T Security and Resiliency Initiative for critical minerals financing
+- Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
+
+**If sanctions ease — opportunities:**
+- Trade financing for oil exports
+- Infrastructure investment financing
+- Export-Import Bank involvement (per ConocoPhillips CEO at Jan 9 WH meeting)
+- Restructuring and energy financing deals
+
+**Caution:** Even after Iran sanctions lifted (2016), global banks remained reluctant. Venezuela may face similar hesitancy.
+
+---
+
 ## Foreign creditors & rivals
 
 **China (~$60B exposure):**
@@ -233,4 +262,8 @@ See [[Maduro capture 2026]] for full event details.
 - [[US-China commodity leverage]] — oil access as rare earth bargaining chip
 - [[PDVSA]] — state oil company
 - [[Citgo]] — US refining arm
+- [[JPMorgan]] — 60-year presence, trade finance opportunity
+- [[Citigroup]] — exited 2021
+- [[BBVA]] — only major foreign bank with presence
+- [[Bank of Nova Scotia]] — exited 2014
 

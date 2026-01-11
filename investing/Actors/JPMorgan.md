@@ -3,7 +3,7 @@ aliases: [JPM]
 ---
 #actor #bank #usa
 
-**JPMorgan Chase** — Largest US bank. Lead arranger on major AI infrastructure financing.
+**JPMorgan Chase** — Largest US bank ($4T+ assets). Lead arranger on AI infrastructure financing. Launched $1.5T Security & Resiliency Initiative (Oct 2025) for national security financing.
 
 ---
 
@@ -97,6 +97,35 @@ JPM is #1; others participate in syndicates.
 
 ---
 
+## Security and Resiliency Initiative
+
+**$1.5T, 10-year national security financing program** (announced Oct 2025):
+
+| Component | Value |
+|-----------|-------|
+| Total facilitation/financing | $1.5T over 10 years |
+| Direct equity investments | Up to $10B from JPM balance sheet |
+| Leadership | Todd Combs (ex-Berkshire), Jay Horine |
+| Combs start date | January 2026 |
+
+**Four pillars:**
+1. Supply Chain & Advanced Manufacturing
+2. Defense & Aerospace
+3. Energy Independence & Resilience
+4. Frontier & Strategic Technologies
+
+27 sub-areas including shipbuilding, nuclear energy, critical minerals, nanomaterials.
+
+**Early deployments:**
+- MP Materials — $400M DoD investment (rare earths)
+- Perpetua Resources — $75M equity (antimony, first US producer)
+
+**Jamie Dimon rationale:** US over-reliance on "unreliable sources" for critical minerals and manufacturing is "painfully clear."
+
+**Investment angle:** Positions JPM as infrastructure bank for US industrial policy. Could drive deal flow in defense, energy, critical minerals.
+
+---
+
 ## Investment case
 
 **As AI infra play:**
@@ -122,7 +151,26 @@ JPM is #1; others participate in syndicates.
 | CEO | Jamie Dimon |
 | AI infra role | Lead construction lender |
 
-*Updated 2026-01-01*
+*Updated 2026-01-11*
+
+---
+
+## Venezuela opportunity
+
+**60-year presence in Venezuela:**
+- Dormant Caracas office maintained — could reactivate as needed
+- Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
+
+**If sanctions ease:**
+- Internal idea floated: trade bank for oil exports (precedent: Trade Bank of Iraq, 2003)
+- Could tap $1.5T Security & Resiliency Initiative for critical minerals financing
+- Trade financing, infrastructure investment, restructuring deals
+
+**Advantage:** Among very few US banks with any Venezuela presence.
+
+**Caution:** Even after Iran sanctions lifted (2016), global banks remained reluctant. LatAm is ~2% of JPM revenue.
+
+See [[Venezuela]].
 
 ---
 
@@ -133,3 +181,4 @@ JPM is #1; others participate in syndicates.
 - [[Blackstone]] — partner (co-financier)
 - [[CoreWeave]] — customer (financing)
 - [[AI infrastructure financing]] — thesis context
+- [[Venezuela]] — 60-year presence, trade finance opportunity

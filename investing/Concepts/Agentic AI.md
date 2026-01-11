@@ -94,9 +94,20 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 
 Agents now strategic enough that hyperscalers are acquiring rather than building:
 - [[Meta]] → Manus ($2B+, Jan 2026)
-- Expect more: [[Google]], [[Amazon]], [[Microsoft]] watching
+- [[Google]] → Windsurf team ($2.4B acqui-hire)
+- Expect more: [[Amazon]], [[Microsoft]] watching
 
 **Implication for startups:** Exit path is acquisition, not IPO. Build something strategic and get bought.
+
+---
+
+## Infrastructure stack
+
+> **For the full competitive landscape of agent infrastructure → see [[Agent harnesses]]**
+
+Three layers: **Runtime** (LangGraph) → **Framework** (LangChain, AutoGen) → **Harness** (Claude Code, Codex, Cursor, Devin)
+
+"2025 was agents. 2026 is agent harnesses." The harness layer is where competitive moats form and value accrues.
 
 ---
 
@@ -120,6 +131,7 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 ## Relationship to other concepts
 
+- [[Agent harnesses]] — infrastructure layer (where moats form)
 - [[Enterprise AI adoption]] — Agents are the exception to "95% fail"
 - [[Model lab economics]] — Agent products (Claude Code) drive enterprise revenue
 - [[Inference economics]] — Agents consume lots of inference (bullish compute)
@@ -136,12 +148,15 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-11*
 
 ## Related
 
+- [[Agent harnesses]] — infrastructure (runtime/framework/harness stack)
 - [[Enterprise AI adoption]] — context (agents = exception to 95% fail)
 - [[Anthropic]] — player (Claude Code = agent product)
-- [[OpenAI]] — player (GPT agents, Operator)
+- [[OpenAI]] — player (Codex, Operator)
 - [[Meta]] — player (acquired Manus $2B+)
+- [[Anysphere]] — player (Cursor $29B)
 - [[Model lab economics]] — context (agents drive enterprise revenue)
+- [[Model Context Protocol]] — infrastructure (agent-tool connectivity)

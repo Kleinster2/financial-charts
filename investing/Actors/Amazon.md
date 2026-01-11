@@ -101,8 +101,28 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 ---
 
+## Wearable AI (Bee)
+
+**Acquired**: September 2024 (8-person team)
+
+Bee is a $50 always-listening wearable that records/transcribes daily activities, creating to-do lists and conversation recaps via companion app. No display or camera — "ambient AI" hardware with week-long battery life.
+
+**Privacy model**: Audio processed in real-time, deleted after processing, never stored.
+
+**Recent features** (Jan 2025):
+- Voice notes (quick button press capture)
+- Daily insights (mood/relationship trends)
+- "Actions" — email drafts, calendar invites via Gmail/calendar integration
+
+**Strategic context**: Part of broader Alexa+ strategy. Daniel Rausch (VP Alexa/Echo) hinted at larger product revamp — likely full Amazon branding coming. Co-founder Maria de Lourdes Zollo sees future "constellation of devices" including camera-equipped wearables.
+
+**History**: Amazon's wearable track record is weak (Halo discontinued 2023, earbuds stale). Bee represents fresh approach via acquisition rather than internal build.
+
+---
+
 ## What to watch
 
+- [ ] Bee rebranding/integration into Alexa ecosystem
 - [ ] Trainium3 customer adoption beyond Anthropic
 - [ ] Trainium4 NVLink Fusion benchmarks (expected 2026)
 - [ ] Anthropic IPO timing and Amazon's stake value
@@ -122,7 +142,7 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 | AI capex | $75B+ (2025) |
 | P/E | ~45x |
 
-*Updated 2026-01-05*
+*Updated 2026-01-11*
 
 ## Related
 

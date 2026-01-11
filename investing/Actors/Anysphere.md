@@ -79,6 +79,23 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ---
 
+## Acquisitions
+
+| Date | Target | Deal Value | Strategic Rationale |
+|------|--------|------------|---------------------|
+| Nov 2024 | Supermaven | — | AI coding assistant |
+| Jul 2025 | Koala (talent) | — | Enterprise talent acqui-hire |
+| Dec 2025 | Graphite | >"$290M" | Code review, stacked PRs |
+
+**Graphite (Dec 2025):**
+- Code review startup, $52M Series B at $290M valuation earlier in 2025
+- Customers: Shopify, Snowflake, Figma, Perplexity (500+ companies)
+- Key feature: "stacked pull requests" — work on dependent changes without waiting for approvals
+- Will operate independently, integrate over 2026
+- Fills gap: Cursor accelerated code writing, but review process unchanged
+
+---
+
 ## Competitive landscape
 
 | Product | Company | Position |
@@ -138,7 +155,7 @@ Signal: Cursor valuable enough for OpenAI interest.
 | Product | Cursor IDE |
 | CEO | Michael Truell |
 
-*Updated 2026-01-01*
+*Updated 2026-01-11*
 
 ---
 
@@ -152,3 +169,4 @@ Signal: Cursor valuable enough for OpenAI interest.
 - [[Google]] — investor
 - [[Anthropic]] — model provider (Claude)
 - [[OpenAI]] — model provider, tried to acquire
+- Graphite — acquired Dec 2025, code review

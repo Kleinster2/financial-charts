@@ -18,6 +18,7 @@ First Chinese AI lab to go public:
 | Market cap | ~$7.4B (HK$57.9B) |
 | IPO date | January 8, 2026 |
 | Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
+n**Tang Jie on US gap (Jan 2026):** "The real answer is that the gap may actually be widening."
 
 ---
 
@@ -42,6 +43,7 @@ Part of China's "rising stars" in AI alongside Moonshot, MiniMax.
 | IPO size | $558M |
 | IPO price | HK$116.20 |
 | First day close | HK$131.50 (+13.2%) |
+| Post-debut (Jan 10) | **+36%** from IPO price |
 | Valuation | $7.4B |
 | Retail subscription | **1,159x oversubscribed** |
 

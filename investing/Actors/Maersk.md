@@ -7,14 +7,25 @@ aliases: [A.P. Moller-Maersk]
 
 ---
 
-## Why Maersk matters
+## Key Data
 
-| Metric | Value |
-|--------|-------|
-| Market cap | ~$25B |
-| HQ | Copenhagen, Denmark |
-| Fleet | ~700 vessels |
-| Market share | ~16% |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Ticker | MAERSK-B.CO (Copenhagen), AMKBY (US ADR) | — |
+| Market cap | $29.6B | Dec 2025 |
+| Revenue (TTM) | $55.3B | Dec 2025 |
+| P/E | 6.4 | Dec 2025 |
+| Market share | ~16% | 2025 |
+| Fleet | ~700 vessels | — |
+
+## 2025 Performance
+
+| Quarter | Revenue | EBITDA | Notes |
+|---------|---------|--------|-------|
+| Q1 2025 | — | $2.71B | +70% YoY, beat estimates |
+| Q3 2025 | $14.2B | $2.7B | Down from Q3 2024 |
+
+**Full-year 2025 guidance:** EBIT $9.0–9.5B (raised)
 
 ---
 
@@ -43,10 +54,10 @@ aliases: [A.P. Moller-Maersk]
 
 | Company | Share |
 |---------|-------|
-| MSC | ~19% |
+| [[MSC]] | ~21% |
 | **Maersk** | ~16% |
-| COSCO | ~12% |
-| CMA CGM | ~12% |
+| [[COSCO]] | ~12% |
+| [[CMA CGM]] | ~12% |
 
 ---
 
@@ -56,31 +67,22 @@ aliases: [A.P. Moller-Maersk]
 - Industry consolidation
 - Logistics integration
 - Decarbonization leader
-- Dividend yield
+- Attractive P/E (~6x)
 
 **Bear:**
 - Extreme cyclicality
 - Overcapacity
 - Rate volatility
-- Competition from MSC
-
----
-
-## Quick stats
-
-| Metric | Value |
-|--------|-------|
-| Market cap | ~$25B |
-| Share | ~16% |
-| Fleet | ~700 vessels |
-
-*Created 2026-01-08*
+- Losing share to [[MSC]]
 
 ---
 
 ## Related
 
-- [[Transport]] — sector
+- [[Shipping]] — sector hub
+- [[MSC]] — competitor, former 2M alliance partner
+- [[COSCO]] — competitor
+- [[CMA CGM]] — competitor
 - [[Amazon]] — logistics competitor
-- [[Regions/Europe|Europe]] — regional hub
 
+*Updated 2026-01-10*

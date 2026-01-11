@@ -30,7 +30,8 @@ First wave of Chinese post-ChatGPT AI firms going public:
 | Range | HK$151-165 |
 | Raise | HK$4.2B+ |
 | Demand | Several times oversubscribed |
-| Trading starts | Jan 2026 |
+| Trading starts | Jan 9, 2026 |
+| First day | **Doubled** (+100%+) |
 
 **Investor demand:** Sovereign wealth funds, global long-only investors. Closed books early due to strong demand.
 
@@ -87,7 +88,7 @@ First wave of Chinese AI IPOs.
 | HQ | Shanghai |
 | Backers | Alibaba, Abu Dhabi |
 
-*Updated 2026-01-05*
+*Updated 2026-01-11 (doubled on debut)*
 
 ---
 
