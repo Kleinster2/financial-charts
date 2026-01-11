@@ -101,7 +101,8 @@ See `investing/Meta/CLAUDE.md` for full vault guidelines. Key rules below:
 **CRITICAL: Always verify actors exist before proposing creation.**
 
 ```bash
-cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "name1|name2"
+cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | sed 's|.*/||; s|.md$||' | grep -iE "name1|name2"
+
 ```
 
 **Use broad, partial patterns** — names may be stored differently:
