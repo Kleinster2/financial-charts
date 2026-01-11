@@ -33,7 +33,7 @@ aliases: [C, Citi]
 ## Jane Fraser turnaround
 
 **Simplification strategy:**
-- Exiting consumer banking in 14 markets
+- Exiting consumer banking in 14 markets (incl. Venezuela 2021 — sold to BNC)
 - Focus on institutional and wealth
 - Reducing complexity
 - Improving returns
@@ -86,4 +86,5 @@ aliases: [C, Citi]
 - [[Bank of America]] — peer
 - [[Goldman Sachs]] — peer (trading)
 - [[Morgan Stanley]] — peer (trading)
+- [[Venezuela]] — exited 2021 (sold to BNC), potential re-entry if sanctions ease
 

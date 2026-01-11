@@ -39,9 +39,34 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
-## Recent developments (Dec 2025)
+## Recent developments
 
-**IPO prep:**
+### Harness crackdown (Jan 2026)
+
+**Jan 9**: Blocked third-party tools (OpenCode, etc.) from spoofing Claude Code headers to access Max subscription benefits.
+
+**What happened:**
+- Claude Code enforces token limits client-side: 5-hour rolling windows (~220K tokens for Max20) + weekly token caps
+- "Hours" in Anthropic marketing (e.g., "24-40 hrs Opus/week") are estimated usage time, not separate limits — all token-based
+- Third-party tools spoofed Claude Code headers to get Max authentication but bypassed rate limiting logic
+- Result: overnight autonomous loops consuming weeks of token allocation in hours
+
+**Fallout:**
+- 147+ GitHub reactions, 245 HN points
+- DHH called it "very customer hostile"
+- Many Max subscribers canceled
+- **xAI employees cut off** from Claude via Cursor — Tony Wu: "rly pushes us to develop our own coding product"
+- OpenAI employees already blocked Aug 2025
+
+**Official rationale** (Shihipar): Technical instability — unauthorized harnesses introduce bugs Anthropic can't diagnose.
+
+**Response:** OpenCode launched "OpenCode Black" ($200/mo) via enterprise gateways.
+
+**Thesis implication:** Not harness moat defense — compute arbitrage enforcement. Third-party harnesses still work via enterprise pricing (OpenCode Black). Anthropic protecting margin on Max subscription, not blocking competition.
+
+---
+
+### IPO prep (Dec 2025)
 - Engaged Wilson Sonsini (law firm)
 - Valuation $300-350B post latest investments
 
@@ -61,10 +86,34 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ## Why more efficient than OpenAI
 
+**Cumulative losses to profitability:**
+
+| Company | Cumulative burn | Break-even | Source |
+|---------|----------------|------------|--------|
+| Anthropic | ~$12-15B | 2028 | WSJ, The Information |
+| OpenAI | $115-143B | 2029-2030 | The Information, Deutsche Bank |
+
+Anthropic needs **~8-10x less capital** than OpenAI to reach profitability.
+
+OpenAI also faces a **$207B funding shortfall** through 2030 (HSBC).
+
+**Daniela Amodei (CNBC, Jan 2026):**
+> "Anthropic has always had a fraction of what our competitors have had in terms of compute and capital, and yet, pretty consistently, we've had the most powerful, most performant models."
+
+> "We are just much more efficient at how we use those resources."
+
+Dario's investor pitch: build cutting-edge models at **1/10th the cost**.
+
+**Why:**
 - Enterprise-focused (higher margins, stickier)
 - Avoiding costly image/video generation
-- More disciplined spending
+- Algorithmic efficiency over brute-force scale
 - Less consumer acquisition cost
+
+**OpenAI's commitments for comparison:**
+- Stargate US: $500B over 4 years (SoftBank, Oracle, MGX)
+- Stargate Norway: 100,000 GPUs by end 2026
+- Total compute commitments by 2033: $1.4T (HSBC/Deutsche Bank)
 
 ---
 
@@ -126,7 +175,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-10*
 
 ## Related
 

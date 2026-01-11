@@ -19,6 +19,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
+- **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
 - **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. Xiaomi 3nm chip as proof.
@@ -42,7 +43,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | U.S. investment | $65-165B (Arizona) |
 | CHIPS Act | $6.6B |
 
-*Updated 2026-01-04*
+*Updated 2026-01-10*
 
 ---
 
@@ -107,8 +108,8 @@ What consensus assumes (update when you see estimates):
 |-------------|-----------|-------------|
 | 2nm yields | 75%+ at maturity | |
 | Arizona timeline | On schedule | |
-| 2025 revenue growth | ? | |
-| Gross margin | ? | |
+| 2024 revenue growth | +20% YoY (Q4) | Jan 2025 |
+| Gross margin | 59% (Q4 2024) | Jan 2025 |
 
 **Priced in:**
 - Continued dominance at leading edge

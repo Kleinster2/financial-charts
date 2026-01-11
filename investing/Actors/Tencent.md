@@ -47,6 +47,7 @@ Tencent is China's largest company by market cap and a major AI investor:
 
 ---
 
+## AI leadership (Jan 2026)**Yao Shunyu** joined from [[OpenAI]] to lead Tencent AI:- Previously at OpenAI- Now heading AI for China's most valuable company- Linking Yuanbao assistant with WeChat chat history- Focus: long-term memory, self-learning bottlenecks---
 ## Hunyuan AI
 
 **Tencent's LLM:**

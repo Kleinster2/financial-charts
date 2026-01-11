@@ -6,9 +6,9 @@ This is an Obsidian vault. Follow Obsidian philosophy:
 
 - **Atomic notes** — one idea per note, no mega-documents
 - **Links over hierarchy** — structure emerges from `[[connections]]`, not folders
-- **Bottom-up** — don't over-engineer; let the graph grow organically
+- **Organic at the bottom, deliberate at the top** — actors/concepts grow organically as encountered; sector hubs are deliberate scaffolding that can start sparse
 - **Daily notes as inbox** — capture first, extract atomic notes when ideas mature
-- **No dashboards or indexes** — the graph *is* the dashboard
+- **Hubs can have dangling links** — sector hubs guide where new notes land; empty `[[links]]` fill in over time
 
 ## Numbers matter
 
@@ -110,11 +110,36 @@ Example: Intel Magdeburg cancellation → added "Geographic retreat" section to 
 |--------|---------|
 | Actors | Companies, orgs, entities |
 | Concepts | Ideas, dynamics, phenomena |
+| Sectors | Industry hubs with value chains |
 | Theses | Investment theses (Long/Short/Pairs) |
 | Questions | Open research questions |
 | Events | Discrete happenings worth noting |
 | Daily | Daily notes (inbox/capture) |
 | Meta | Vault conventions and meta-notes |
+
+## Concept vs Sector hub
+
+| | **Concept** | **Sector Hub** |
+|---|---|---|
+| Purpose | Single idea/phenomenon | Industry scaffolding |
+| Growth | Organic (encountered) | Deliberate (top-down) |
+| Focus | "What is this dynamic?" | "Who plays in this space?" |
+| Links | Examples of the concept | Organized by value chain/segment |
+| Theses | May have one angle | Multiple competing theses |
+
+**Keep as Concept when:**
+- It's a trend/phenomenon, not a full industry
+- Key actors live primarily in other sectors
+- No clear value chain structure yet
+- Not enough dedicated pure-plays to organize
+
+**Promote to Sector when:**
+- 10+ actors whose primary business is in this space
+- Multiple distinct theses (Long X, Short Y, pairs)
+- Clear value chain emerges (components → assembly → brands)
+- Making allocation decisions at the sector level
+
+**Example:** "AI Infrastructure" is a Sector — has NVIDIA, hyperscalers, power companies, cooling companies organized by role. "Wearable AI" is a Concept — mostly a feature of bigger companies (Amazon, Meta, Apple), no dedicated pure-plays yet.
 
 ## Before creating files
 
@@ -172,8 +197,10 @@ git -C "C:/Users/klein/financial-charts/investing" ls-files "Actors/*.md"
 ### Check specific names
 
 ```bash
-cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | xargs basename -a | sed 's/.md$//' | grep -iE "search|terms|here"
+cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "search|terms|here"
 ```
+
+**WARNING:** Do NOT use `xargs basename -a` — it splits on spaces and corrupts filenames like "10x Genomics.md" into separate tokens. The `sed` approach above is safe.
 
 ## Actor conventions
 

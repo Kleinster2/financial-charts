@@ -2,15 +2,39 @@
 
 # Long Anthropic
 
-**Status**: Strengthening — IPO prep, enterprise momentum accelerating
+**Status**: Strengthening — IPO prep, enterprise momentum, efficiency moat
 **Created**: 2025-12-30
-**Last reviewed**: 2025-12-30
+**Last reviewed**: 2026-01-10
 
 ---
 
 ## The thesis
 
 Anthropic is capturing the "agentic code orchestrator" niche — the highest-value segment of enterprise AI. This position is defensible because enterprise coding requires trust, not just capability.
+
+---
+
+## The "real DeepSeek" angle
+
+Anthropic is the Western DeepSeek — proving efficiency beats brute-force scaling.
+
+| Dimension | DeepSeek | Anthropic |
+|-----------|----------|-----------|
+| Constraint | Chip restrictions (H800 vs H100) | Capital (vs OpenAI's $150B+) |
+| Response | Algorithmic efficiency (MoE, distillation) | Capital efficiency (enterprise, no image/video) |
+| Result | Competitive at ~1/10th compute | Break-even with ~1/10th burn |
+| Quote | "Made fewer chips work" | Dario: "1/10th the cost" |
+
+**The parallel:**
+- DeepSeek crashed NVIDIA $600B by proving scale isn't everything
+- Anthropic is proving the same with capital: $12-15B to profitability vs OpenAI's $115-143B
+
+**Why this matters for the thesis:**
+- Efficiency is a moat, not a constraint
+- Stargate-style megaprojects ($500B) may be overpaying
+- Counter: [[Jevons Paradox]] — efficiency increases total demand
+
+**Implication:** Long Anthropic is also implicitly short "scale-maximalism."
 
 ---
 
@@ -52,6 +76,7 @@ Claude Code isn't autocomplete — it's an orchestrator that reads codebases, ma
 |------------|--------------|-------------------|
 | GitHub Copilot | Medium | Autocomplete, not agentic yet |
 | Cursor | Low | Depends on model providers (including Anthropic) |
+| Manus (Meta) | Low | **Uses Claude as core reasoning engine** — Meta pays Anthropic |
 | Devin | Low | 15% task completion, early stage |
 | OpenAI | Medium | Consumer-focused, less enterprise trust |
 | Open source | Low | Enterprise needs support, reliability |
@@ -147,6 +172,8 @@ Claude Code isn't autocomplete — it's an orchestrator that reads codebases, ma
 | **2025-12-30** | **Agent Skills open standard** (Notion, Figma, Atlassian) | **Platform ecosystem emerging** |
 | **2025-12-30** | **Bun acquisition** | **Infrastructure vertical integration** |
 | **2025-12-30** | **Amazon $9.5B unrealized gain** (Q3 2025 mark-to-market) | **Third-party valuation validation** |
+| **2026-01-10** | **Capital efficiency confirmed**: $12-15B to break-even vs OpenAI $115-143B | **"Real DeepSeek" angle — efficiency beats scale** |
+| **2026-01-11** | **Manus uses Claude as core reasoning engine** (3.5 Sonnet → 3.7 → 4) | **Even Meta-acquired harnesses pay Anthropic** |
 
 ---
 
@@ -159,6 +186,8 @@ Claude Code isn't autocomplete — it's an orchestrator that reads codebases, ma
 - [[Open source commoditization]] — risk (pricing pressure)
 - [[Google]] — investor (major, cloud partner)
 - [[Amazon]] — investor (Bedrock distribution)
+- [[DeepSeek]] — parallel (efficiency beats scale)
+- [[Jevons Paradox]] — counter-risk (efficiency → more demand)
 
 ---
 

@@ -88,6 +88,24 @@ Deficit down but supply chains often just rerouted (Vietnam, Mexico — still Ch
 
 ---
 
+## Third-country leverage
+
+US increasingly weaponizing trade access to block China deals in third countries.
+
+### Africa front
+
+| Tool | Mechanism | Example |
+|------|-----------|---------|
+| [[AGOA]] | Duty-free access contingent on alignment | [[Kenya]] pressured to drop China deal (Jan 2026) |
+
+**Pattern:** African countries seeking AGOA renewal face implicit ultimatum — US market access OR China trade deals. Forces binary choice.
+
+**China counter:** Belt & Road offers infrastructure investment; AGOA offers market access. Different value propositions, but China can offer alternative trade preferences to countries US cuts off.
+
+**Watch for:** Ethiopia, South Africa, Nigeria — large economies with both AGOA access and China ties.
+
+---
+
 ## Related
 
 - [[US-China relations]] — parent hub
@@ -96,6 +114,8 @@ Deficit down but supply chains often just rerouted (Vietnam, Mexico — still Ch
 - [[US-China commodity leverage]] — commodities
 - [[Critical minerals]] — minerals
 - [[China retaliatory toolkit]] — how China responds
+- [[AGOA]] — US trade leverage in Africa
+- [[Kenya]] — current third-country pressure case
 
 See also: [[US-China AI race]] (Technology, not Trade)
 

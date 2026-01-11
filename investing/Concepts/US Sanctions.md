@@ -1,9 +1,9 @@
 ---
-aliases: [US sanctions, export sanctions]
+aliases: [Sanctions, export sanctions]
 ---
-#concept #geopolitics #policy
+#concept #geopolitics #policy #usa
 
-**Sanctions** — US economic restrictions on countries, companies, individuals. Key lever for semiconductor and energy policy.
+**US Sanctions** — US economic restrictions on countries, companies, individuals. Key lever for semiconductor and energy policy.
 
 ---
 

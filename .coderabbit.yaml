@@ -1,4 +1,0 @@
-# CodeRabbit configuration
-# Re-enable by setting reviews.enabled: true
-reviews:
-  enabled: false
