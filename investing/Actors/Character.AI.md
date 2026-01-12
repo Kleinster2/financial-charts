@@ -114,7 +114,7 @@ Character.AI = character/roleplay specialist.
 |-------|------|--------|-----------|
 | Seed | 2021 | $50M | — |
 | Series A | 2023 | $150M | $1B |
-| Google deal | 2024 | $2.7B (licensing) | — |
+| Google deal | 2024 | $2.7B (acqui-hire) | — |
 | **Total** | | **$2.9B+** | |
 
 **Key investors:**
@@ -129,7 +129,7 @@ Character.AI = character/roleplay specialist.
 
 **Total raised:** $200M+ (equity), $2.7B+ (including Google licensing)
 
-**Google deal (2024):** Noam Shazeer returned to Google as part of licensing deal. Character.AI continues independently with Google's non-exclusive license.
+**Google deal (2024):** $2.7B acqui-hire — Noam Shazeer returned to Google, Character.AI continues independently with Google's non-exclusive license. Part of broader [[AI consolidation]] pattern where Big Tech uses licensing + hiring deals to avoid triggering antitrust review.
 
 ---
 
@@ -149,7 +149,8 @@ Character.AI = character/roleplay specialist.
 ## Related
 
 - [[Noam Shazeer]] — co-founder (Transformer paper co-author)
-- [[Google]] — former employer (left to start Character.AI)
+- [[Google]] — acqui-hire ($2.7B, 2024)
+- [[AI consolidation]] — acqui-hire pattern
 - [[OpenAI]] — competitor (ChatGPT)
 - [[Anthropic]] — competitor (Claude)
 - [[Agentic AI]] — adjacent trend (AI companions)

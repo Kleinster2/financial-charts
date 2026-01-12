@@ -50,7 +50,32 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 - Location chosen for TVA power access (BYOP strategy)
 - See [[Power constraints]]
 
+### Mississippi expansion
+- Third building across state line from Memphis
+- Investment: **$20B+** per Gov. Tate Reeves
+- Brings total capacity to ~2GW
+
 **Musk claim:** "More AI compute than everyone else combined within five years"
+
+---
+
+## Financials (2025)
+
+**Bloomberg reported (Jan 2026):**
+
+| Quarter | Revenue | Gross Profit | EBITDA | Net Loss |
+|---------|---------|--------------|--------|----------|
+| Q1 | $43M | $14M | -$612M | ~$1.0B |
+| Q2 | $59M | $14M | -$861M | — |
+| Q3 | $107M | $63M | -$922M | $1.46B |
+| **Jan-Sep** | **$208M** | **$90M** | **-$2.4B** | — |
+
+- **Cash burn:** $7.8B in first 9 months of 2025
+- **Stock-based comp:** ~$160M through September
+- **Revenue target:** $500M for 2025 → tracking ~$280M annualized (will miss)
+- **EBITDA projection:** -$2.2B for full year → already -$2.4B through Sep (exceeded losses)
+- Revenue nearly doubled Q2→Q3; gross margin improving
+- Working with [[Valor Equity Partners]] and [[Apollo]] on SPV for [[NVIDIA]] chips
 
 ---
 
@@ -64,7 +89,7 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 | Debt | Oct 2025 | $12.5B | — | Morgan Stanley arranged |
 | **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target |
 
-**Total raised:** ~$25B equity + $5B+ debt = **$30B+**
+**Total raised:** ~$40B equity + debt
 
 **Valuation trajectory:** $24B → $50B → $200B → **$230B** (10x in 18 months)
 
@@ -75,7 +100,7 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 | Investor | Type | Rounds |
 |----------|------|--------|
 | **Elon Musk** | Founder | All |
-| **Valor Equity Partners** | Lead | Series B, E |
+| **[[Valor Equity Partners]]** | Lead | Series B, E |
 | **Sequoia Capital** | VC | Series B, C |
 | **a16z** | VC | Series B |
 | **Fidelity** | Asset manager | Series C, E |
@@ -90,6 +115,18 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 | **AMD** | Strategic | Series C |
 
 **35 total investors.** Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, AMD, Cisco).
+
+---
+
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO/Founder | [[Elon Musk]] | — |
+| CFO | Anthony Armstrong | Ex-Morgan Stanley (joined Fall 2025) |
+| CRO | Jon Shulkin | [[Valor Equity Partners]] |
+
+*Prior CFO Mike Liberatore resigned Oct 2025 after 3 months.*
 
 ---
 
@@ -108,12 +145,14 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 | Founder | Elon Musk |
 | Product | Grok (LLM), Macrohard |
 | Valuation | **$230B** (Jan 2026) |
-| Total raised | **$30B+** (equity + debt) |
+| Total raised | **~$40B** (equity + debt) |
+| 2025 revenue (Jan-Sep) | $208M |
+| 2025 EBITDA (Jan-Sep) | -$2.4B |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | Target capacity | 2GW |
 | Potential foundry | [[Samsung]] (via Tesla relationship) |
 
-*Updated 2026-01-09*
+*Updated 2026-01-11*
 
 ---
 
@@ -129,9 +168,12 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 - [[Elon Musk]] — founder and controller
 - [[Tesla]] — Musk connection (Samsung anchor potential)
+- [[Tesla Optimus]] — xAI to power humanoid robots
 - [[Samsung]] — potential foundry (Korea thesis)
 - [[NVIDIA]] — supplier + investor (H100/Blackwell GPUs)
 - [[TSMC]] — upstream (via NVIDIA)
+- [[Apollo]] — SPV partner for chip purchases
+- [[Valor Equity Partners]] — lead investor, CRO origin, SPV partner
 - [[AI hyperscalers]] — category (tier 2)
 - [[Microsoft]] — competitor (Macrohard jab)
 - [[TVA]] — power source (Colossus location)
@@ -144,3 +186,4 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 - [xAI Series E announcement](https://x.ai/news/series-e)
 - [CNBC on $20B raise](https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html)
 - [TechFundingNews on $230B valuation](https://techfundingnews.com/xai-nears-a-230b-valuation-with-20b-funding-from-nvidia-and-others-to-challenge-openai-and-anthropic/)
+- [Bloomberg on xAI financials](https://www.bloomberg.com/news/articles/2026-01-11/musk-s-xai-burned-through-cash-with-1-5-billion-quarterly-loss) (Jan 2026)

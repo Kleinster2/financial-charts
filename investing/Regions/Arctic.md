@@ -36,21 +36,50 @@ See [[Northern Sea Route]], [[Northwest Passage]] for details.
 
 ---
 
-## Military presence (IISS)
+## Military presence (IISS 2026)
 
-### NATO
+### Base count (from IISS map)
+
+| Side | Bases | Distribution |
+|------|-------|--------------|
+| **Russia** | ~25+ | Entire northern coast, dense coverage |
+| **NATO** | ~15 | Clustered: Alaska, Greenland, Norway/Finland |
+
+**Asymmetry:** Russia can monitor/control full Northern Sea Route. NATO has gaps.
+
+### NATO positions
 - **US/Canada:** Alaska, Canadian Arctic
-- **[[Greenland]]:** Pituffik Space Base (formerly Thule) — critical early warning, missile defense
-- **Norway:** Northern bases, Svalbard access
-- **Iceland:** Strategic mid-Atlantic position
+- **[[Greenland]]:** Pituffik Space Base — early warning, missile defense
+- **Norway:** Northern bases
+- **Iceland:** [[GIUK Gap]] control, mid-Atlantic
+- **Finland:** New NATO member (2023) — bases near Russian border
 
-### Russia
-- **Dense base network** along entire northern coast
-- **Northern Fleet:** Based in Murmansk area, nuclear submarines
+### Russia positions
+- **Northern Fleet:** Murmansk area, nuclear submarines
+- **Base network:** Spans entire Arctic coast
 - **Icebreaker fleet:** World's largest (including nuclear)
-- **New bases:** Reopening Soviet-era Arctic installations
+- **Reopening:** Soviet-era Arctic installations
 
-**Balance:** Russia has geographic advantage — longest Arctic coastline, established infrastructure. NATO relies on Greenland and Norway for access.
+### Finland-Russia border
+
+**Flashpoint potential:** Cluster of both NATO and Russian bases in close proximity (visible on IISS map).
+
+| Factor | Implication |
+|--------|-------------|
+| Finland NATO accession (2023) | 1,340 km new NATO-Russia border |
+| Base proximity | Direct confrontation risk |
+| Barents Sea | Contested waters |
+| Sweden NATO (2024) | Baltic-Arctic linkage |
+
+### Strategic gaps
+
+| Location | Status | Issue |
+|----------|--------|-------|
+| [[Svalbard]] | Demilitarized (1920 treaty) | Norway can't base military |
+| Central Arctic | No bases | Open water competition |
+| [[GIUK Gap]] | NATO controlled | Submarine chokepoint |
+
+**Balance:** Russia has geographic advantage — longest coastline, established infrastructure. NATO relies on Greenland, Norway, and now Finland for access.
 
 ---
 
@@ -59,7 +88,7 @@ See [[Northern Sea Route]], [[Northwest Passage]] for details.
 | Territory | Sovereignty | Strategic value |
 |-----------|-------------|-----------------|
 | [[Greenland]] | Denmark (autonomous) | Controls Northwest Passage access, US base, rare earths |
-| Svalbard | Norway | Demilitarized by treaty, research stations |
+| [[Svalbard]] | Norway | Demilitarized by treaty, research stations, strategic gap |
 | Franz Josef Land | Russia | Military outposts |
 | Canadian Archipelago | Canada | Northwest Passage islands |
 
@@ -136,7 +165,9 @@ Climate change opening previously inaccessible areas.
 
 ### Territories
 - [[Greenland]] — strategic position, US interest, rare earths
+- [[Svalbard]] — demilitarized, strategic gap
 - [[Russia]] — dominant Arctic power
+- [[Finland]] — new NATO frontier
 
 ### Economic
 - [[Shipping]] — sector context
@@ -146,5 +177,6 @@ Climate change opening previously inaccessible areas.
 
 ### Strategic
 - [[NATO]] — Arctic defense posture
+- [[GIUK Gap]] — submarine chokepoint (Greenland-Iceland-UK)
 - [[US-China security]] — Arctic dimension
 - [[Belt and Road]] — Polar Silk Road component

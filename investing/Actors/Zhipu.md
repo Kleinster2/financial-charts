@@ -91,6 +91,8 @@ Part of wave of Chinese AI/chip firms listing in HK:
 - Profitability unclear
 - Export control risk on compute access
 
+**M&A angle (Jan 2026):** Bloomberg Opinion (Parmy Olson) named Zhipu and Moonshot AI as potential US acquisition targets for Alphabet or Microsoft. However, HK IPO makes outright acquisition less likely than if still private. See [[AI consolidation]].
+
 ---
 
 *Created 2026-01-05, updated 2026-01-08 (IPO day)*
@@ -104,3 +106,4 @@ Part of wave of Chinese AI/chip firms listing in HK:
 - [[DeepSeek]] — competitor (China AI leader)
 - [[Asia IPO pipeline 2026]] — context
 - [[US-China AI race]] — context
+- [[AI consolidation]] — potential US acquisition target

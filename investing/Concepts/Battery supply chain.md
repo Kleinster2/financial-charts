@@ -78,6 +78,8 @@ Mining → Processing → Components → Cells → Packs → End Use → Recycli
 
 ## 6. Recycling
 
+See [[Battery recycling]] for detailed breakdown.
+
 | Company | Approach | Backers |
 |---------|----------|---------|
 | **Redwood Materials** | Hydrometallurgical | JB Straubel (ex-Tesla CTO) |

@@ -20,6 +20,58 @@ Investment bank with significant AI/tech exposure:
 
 ---
 
+## Research teams
+
+| Team | Lead | Focus |
+|------|------|-------|
+| **US Economics** | David Mericle | GDP, inflation, Fed |
+| **US Equity Strategy** | Ben Snider | Sectors, stock picks |
+| **Global Strategy** | Christian Mueller-Glissmann | Asset allocation, valuations |
+| **China Strategy** | Kinger Lau | China equities |
+
+---
+
+## Current views (Jan 2026)
+
+### Economics (Mericle) — Jan 11, 2026
+
+| Metric | Goldman | Consensus |
+|--------|---------|-----------|
+| GDP growth | **2.5%** | 2.0% |
+| Core PCE | 2.1% | — |
+| Fed cuts | **2x 25bp** (Jun, Sep) | — |
+
+See [[Economic forecasts]] for full details.
+
+### Equity Strategy (Snider) — Jan 6, 2026
+
+**Overweight:** Health care, materials, consumer discretionary
+
+**Consumer picks:** Burlington, Best Buy, Five Below, Levi's, Gap, Dick's
+
+See [[Asset allocation]] for full details.
+
+### Global Strategy (Mueller-Glissmann) — Jan 8, 2026
+
+- H1: Overweight equities
+- H2: Cautious (recession risk, valuations)
+- S&P 500 at 36% premium to international peers
+
+See [[Asset allocation]] for full details.
+
+### China Strategy (Kinger Lau) — Jan 6, 2026
+
+| Index | Target | Upside |
+|-------|--------|--------|
+| MSCI China | 100 | **+20%** |
+| CSI 300 | 5,200 | +12% |
+
+EPS growth: 4% (2025) → 14% (2026-27)
+
+See [[Market forecasts]] for full details.
+
+---
+
 ## AI infrastructure research
 
 **Notable reports:**

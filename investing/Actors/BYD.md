@@ -85,10 +85,13 @@ BYD represents the vertically integrated EV model:
 | Denza | Premium | D9 MPV |
 | Yangwang | Ultra-luxury | U8 SUV ($150K+) |
 | Fang Cheng Bao | Off-road | Leopard 5 |
+| **Linghui** | Fleet/ride-hailing | e5, e7, e9, M9 |
+
+**Linghui sub-brand (Jan 2026):** Separates fleet/ride-hailing vehicles from core BYD brand. Many BYD cars now used as taxis in China, diluting brand perception for higher-end models like Han. Linghui re-badges existing models (Qin Plus -> e5, Sealion 06 -> e7, Han -> e9, Xia MPV -> M9). All use **Blade Battery** architecture (LFP).
 
 | Metric | 2024 |
 |--------|------|
-| Total sales | ~3.5M vehicles |
+| Total sales | ~3.5M (2024), **4.6M (2025)** |
 | BEV share | ~60% |
 | PHEV share | ~40% |
 | Best-seller | Qin Plus |
@@ -147,12 +150,12 @@ See [[China retaliatory toolkit]] for the broader pattern.
 | Ticker | 1211.HK (HK), 002594.SZ (Shenzhen) |
 | Market cap | ~$100B |
 | Revenue (2024) | ~$90B |
-| EV sales | ~3.5M vehicles/year |
+| EV sales | **4.6M (2025)** — world #1 |
 | Operating margin | ~6% |
 | P/E | ~20x |
 | Key investor | Berkshire Hathaway (reduced stake) |
 
-*Updated 2026-01-04*
+*Updated 2026-01-11*
 
 ---
 
