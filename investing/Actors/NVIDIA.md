@@ -364,7 +364,8 @@ See [[CES 2026]] for event details.
 - [[SK Hynix]] — HBM supplier
 - [[Samsung]] — secondary foundry, HBM supplier
 - [[AMD]] — competitor (GPU/AI)
-- [[Groq]] — acquired (inference ASICs)
+- [[Groq]] — acquired (inference ASICs, $20B backdoor acquisition)
+- [[AI consolidation]] — Groq deal exemplifies Big Tech acqui-hire pattern
 - [[CUDA moat]] — key competitive advantage
 - [[Advanced packaging]] — constraint (CoWoS)
 - [[Export controls]] — China market constraint

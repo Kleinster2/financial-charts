@@ -82,6 +82,12 @@ Both heavily invested in AI/tech.
 - AI governance leadership
 - Research partnerships
 
+### AI in banking
+
+Singapore banks (DBS, OCBC, UOB) lead globally in efficiency and AI adoption. Government coordinating 35,000 banker retraining program — no mass layoffs.
+
+See [[AI in banking]] for full detail.
+
 ---
 
 ## Semiconductor presence

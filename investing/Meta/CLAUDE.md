@@ -24,6 +24,43 @@ Use tables for structured numeric data. Qualitative narrative without quantitati
 **Bad:** "TSMC's US fabs have lower margins"
 **Good:** "Taiwan 62% gross margin vs US 8%, depreciation +386%, labor +100% (SemiAnalysis, Nov 2025)"
 
+## Charts and images
+
+**Always acknowledge charts when attached.** When the user shares screenshots or images:
+
+1. Explicitly confirm you see the chart(s)
+2. Extract and list the key data points
+3. Add the data to relevant notes (don't just summarize — capture the numbers)
+
+If multiple charts are attached, process each one. Don't assume article text contains all chart data — charts often have unique data not in the text.
+
+## Author framing matters
+
+**Capture the thesis, not just the data.** When processing articles:
+
+1. **Read the headline** — it often contains the author's main argument
+2. **Note hedging language** — "may", "unclear", "shrouded in mystery" = uncertainty
+3. **Don't assume causation** — two charts side by side doesn't mean one causes the other
+4. **Capture the interpretation** — what does the author *conclude*, not just what data they present
+
+**Bad:** "Productivity +4.9%, AI adoption 18% → AI is driving productivity"
+**Good:** "Productivity +4.9%, AI adoption 18%, but article says cause is 'shrouded in mystery' — correlation not proven"
+
+Popular narratives (like "AI boosts productivity") can bias interpretation. Let the author's framing guide the note.
+
+---
+
+## Dating investment calls
+
+**Always include dates on positioning and investment calls.** Calls go stale — a bullish call from 6 months ago may no longer be valid.
+
+When recording firm positioning or analyst views:
+1. Include the date in the section header (e.g., `### Goldman Sachs — Jan 6, 2026`)
+2. Add source attribution (e.g., `*Source: Bloomberg interview*`)
+3. Note if a position has changed (e.g., "Was overweight 1yr ago")
+
+This applies to: Asset allocation notes, thesis updates, strategist calls, price targets.
+
 ## When creating notes
 
 - Keep notes small and focused
@@ -48,9 +85,17 @@ See [[Taxonomy discussion]] for open questions about hashtag/frontmatter structu
 ## Daily note structure
 
 Daily notes follow this structure:
-1. **Topic sections**: Foundry, Memory, AI/GPU, AI Labs, Equipment & Policy
-2. **Thesis implications table**: How new info affects existing theses (columns: Thesis, New evidence, Direction)
-3. **Open threads**: Checklist of things to track/follow up
+
+1. **Vault activity** (at top): Track notes created/modified during the session
+   - Created: table with Note, Type, Topic
+   - Modified: table with Note, Changes
+2. **Market data**: Levels, moves, key stats
+3. **Topic sections**: News by category (varies by day)
+4. **Thesis implications table**: How new info affects existing theses (columns: Thesis, New evidence, Direction)
+5. **Open threads**: Checklist of things to track/follow up
+6. **Sources**: Articles referenced
+
+**Vault activity is mandatory** — provides a changelog for research continuity across sessions.
 
 When adding news, always consider which thesis it supports or challenges.
 
@@ -217,6 +262,19 @@ Actors include any entity that affects investment outcomes:
 | Individuals | [[Jensen Huang]], [[Sam Altman]] | Key decision-makers |
 
 **Principle:** Non-investable actors that drive investable outcomes are essential context.
+
+### Concepts don't need theses
+
+Concepts capture knowledge, not just trade ideas:
+
+| Type | Examples | Why track |
+|------|----------|-----------|
+| Investable dynamics | [[AI hyperscalers]], [[Power constraints]] | Active theses |
+| Emerging tech | [[Solid-state batteries]], [[Sodium-ion batteries]] | Future relevance |
+| Market structure | [[Battery supply chain]], [[Rare earth leverage]] | Context for decisions |
+| Phenomena | [[China retaliatory toolkit]], [[Export controls]] | Explains price action |
+
+**Principle:** If you might reference it from multiple notes, it deserves a concept note — regardless of whether there's a trade.
 
 ### Cap tables for private companies
 

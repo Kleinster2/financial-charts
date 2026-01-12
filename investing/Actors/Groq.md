@@ -75,6 +75,8 @@ aliases: []
 
 ## NVIDIA licensing deal (Dec 2025)
 
+**$20B "backdoor acquisition"** — technically a non-exclusive licensing deal, structured to avoid triggering antitrust review. Part of broader [[AI consolidation]] pattern where Big Tech uses acqui-hires instead of outright acquisitions.
+
 **The architecture that won NVIDIA over:**
 
 Groq made three contrarian bets a decade ago:
@@ -200,7 +202,8 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 ## Related
 
-- [[NVIDIA]] — partner (licensed architecture for Rubin SRAM, Dec 2025)
+- [[NVIDIA]] — partner ($20B backdoor acquisition, Dec 2025)
+- [[AI consolidation]] — Groq deal exemplifies stealth acquisition pattern
 - [[Cerebras]] — competitor (alternative inference chip)
 - [[SambaNova]] — competitor (AI inference)
 - [[Google]] — founder origin (Jonathan Ross invented TPU)

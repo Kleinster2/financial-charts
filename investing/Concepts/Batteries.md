@@ -21,7 +21,9 @@ Hub for battery technology, manufacturers, and energy storage.
 
 | Chemistry | Use case | Pros | Cons |
 |-----------|----------|------|------|
-| **LFP** (Lithium Iron Phosphate) | Standard range EV, storage | Safe, cheap, long cycle | Lower energy density |
+| **[[LFP batteries\|LFP]]** (Lithium Iron Phosphate) | Standard range EV, storage | Safe, cheap, long cycle | Lower energy density |
+
+See [[LFP batteries]] for details including [[BYD]] Blade Battery.
 | **NMC** (Nickel Manganese Cobalt) | Long range EV | High energy density | Expensive, cobalt issues |
 | **NCA** (Nickel Cobalt Aluminum) | Tesla, premium EV | Highest density | Cost, thermal management |
 | **Solid-state** | Next-gen (2027+?) | Safety, density | Not yet commercialized |
@@ -48,17 +50,14 @@ China dominates with ~65% global share.
 
 ## Grid-scale storage
 
-| Company | Product | Scale |
-|---------|---------|-------|
-| [[Tesla Energy]] | Megapack | 40 GWh deployed |
-| [[Fluence]] | Gridstack | Major utility player |
-| [[BYD]] | Cube | Large installations |
-| [[Form Energy]] | Iron-air | 100+ hour duration |
+See [[Grid storage]] for detailed breakdown.
 
-**Drivers:**
-- Renewable intermittency (solar duck curve)
-- Grid stability/resilience
-- Peak shaving economics
+| Company | Product | Technology |
+|---------|---------|------------|
+| [[Tesla Energy]] | Megapack | LFP li-ion |
+| [[Fluence]] | Gridstack | Li-ion |
+| [[BYD]] | Cube | LFP (Blade) |
+| [[Form Energy]] | Iron-air | 100+ hour duration |
 
 ---
 
@@ -102,10 +101,14 @@ See [[Battery supply chain]] for detailed breakdown.
 ## Related
 
 - [[Battery supply chain]] — upstream to downstream
+- [[Grid storage]] — utility-scale BESS
+- [[Battery recycling]] — end-of-life recovery
+- [[Sodium-ion batteries]] — emerging lithium alternative
+- [[LFP batteries]] — dominant low-cost chemistry
 - [[Lithium]] — key input material
 - [[Tesla Energy]] — Megapack leader
 - [[CATL]] — global #1
 - [[BYD]] — vertically integrated
 - [[Clean energy for AI]] — storage for datacenters
 
-*Created 2026-01-09*
+*Updated 2026-01-11*

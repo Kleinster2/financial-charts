@@ -41,6 +41,7 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 | Limitless | — | Wearables |
 
 **Manus (Jan 2026):**
+- **$2B** — outright acquisition (not acqui-hire)
 - Chinese-founded AI agent startup (~100 staff)
 - Meta's 3rd largest acquisition ever (after Instagram, WhatsApp)
 - "Leading autonomous general-purpose agent"
@@ -48,6 +49,7 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 - Parent company Butterfly Effect backed by Benchmark (drew China hawk criticism)
 - Deal closed in ~10 days
 - Signals aggressive catch-up in [[Agentic AI]]
+- Part of broader [[AI consolidation]] — Big Tech buying Chinese startups
 
 **Geopolitical angle:**
 - Rare US acquisition of cutting-edge Chinese AI
@@ -187,6 +189,7 @@ Hyperion: 5GW eventual capacity, first phase 2028. **Not included in $44B CIP.**
 - [[Google]], [[Amazon]], [[Microsoft]] — hyperscaler peers
 - [[Anthropic]], [[OpenAI]] — AI lab competitors
 - [[Agentic AI]] — Manus acquisition
+- [[AI consolidation]] — Manus as Big Tech buying Chinese startups
 - [[Wearable AI]] — Ray-Ban Meta glasses
 - [[Together AI]] — Llama hosted there
 - [[GPU deployment bottleneck]] — CIP accounting, shipped ≠ deployed
