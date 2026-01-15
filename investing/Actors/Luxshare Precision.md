@@ -45,6 +45,22 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 
 ---
 
+## Taiwan arrest warrant (Sep 2024)
+
+| Detail | Value |
+|--------|-------|
+| Target | Chair **Grace Wang** (王来春) |
+| Issuing authority | Taiwan prosecutors |
+| Charge | Violating Cross-Strait Relations Act |
+| Allegation | Illegally recruiting Taiwanese engineers |
+| Status | Warrant issued, Wang in China |
+
+**Context:** Part of Taiwan's escalating [[Taiwan tech protectionism]] crackdown. [[OnePlus]] CEO Pete Lau received similar warrant in Jan 2026.
+
+**Impact:** Wang cannot travel to Taiwan or extradition-friendly jurisdictions without arrest risk.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -58,6 +74,7 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 - US-China tensions (supply chain diversification)
 - Margin pressure from Apple
 - Competition from Foxconn, Pegatron
+- **Grace Wang arrest warrant** — legal/reputational risk
 
 ---
 
@@ -69,3 +86,6 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 
 - [[Apple]] — key customer
 - [[Asia IPO pipeline 2026]] — context (HK listing wave)
+- [[Taiwan tech protectionism]] — Grace Wang arrest warrant
+- [[Taiwan]] — issuing arrest warrants
+- [[OnePlus]] — Pete Lau also under warrant (Jan 2026)

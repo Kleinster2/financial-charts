@@ -33,6 +33,31 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - Foundry transformation uncertain post-Gelsinger
 - [[CHIPS Act]] beneficiary (~$8B)
 - **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
+- **US government stake (~10%, Aug 2025)** — Trump administration took strategic position
+
+---
+
+## US government stake (Aug 2025)
+
+| Detail | Value |
+|--------|-------|
+| Size | ~10% of Intel |
+| Date | August 2025 |
+| Administration | Trump |
+| Context | Strategic national security investment |
+
+Part of broader US semiconductor sovereignty push. Government directly backing Intel as domestic foundry alternative to [[TSMC]].
+
+---
+
+## Europe expansion shelved
+
+| Project | Status |
+|---------|--------|
+| **Germany fab** | Shelved |
+| **Poland facility** | Shelved |
+
+Financial pressures and foundry transformation challenges led Intel to pause European expansion. Focus shifted to US facilities with CHIPS Act support.
 
 ---
 
@@ -132,7 +157,7 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | Model | IDM (design + fabs) |
 | 2nm yield | ~55% (vs TSMC 65%, Samsung 40%) |
 
-*Updated 2026-01-14*
+*Updated 2026-01-15*
 
 ---
 
@@ -155,6 +180,7 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 - [[Samsung]] — competitor (foundry)
 - [[AMD]] — competitor (CPU)
 - [[CHIPS Act]] — beneficiary (~$8B)
+- [[US-China tech race]] — US government ~10% stake (Aug 2025)
 - [[ASE]] — EMIB competes for packaging
 - [[Foundry Wars]] — manufacturing context
 - [[Mobileye]] — subsidiary (ADAS)

@@ -120,6 +120,38 @@ Huawei's answer to NVIDIA NVLink — proprietary interconnect for massive Ascend
 | Dec 2020 | SMIC added to Entity List |
 | Sep 2023 | Mate 60 Pro launch — proved workaround |
 | 2024-25 | Continued restrictions, Ascend adoption grows |
+| **Jun 2025** | **Taiwan blacklisted Huawei + [[SMIC]]** (unprecedented) |
+| **Sep 2025** | **3-year chip roadmap unveiled** |
+| Dec 2025 | NVIDIA H200 approved for China (25% surcharge) |
+
+---
+
+## 3-year chip roadmap (Sep 2025)
+
+Huawei unveiled aggressive semiconductor development plan:
+
+| Timeframe | Target |
+|-----------|--------|
+| 2025-26 | Scale Ascend 910C production (millions of units) |
+| 2026-27 | Ascend 920 targeting H100 performance |
+| 2027-28 | Next-gen architecture |
+
+**Scale ambitions:** US intelligence estimates Huawei can produce millions of Ascend 910C units in 2026 (vs ~200K in 2025).
+
+---
+
+## Shadow manufacturing network
+
+Huawei has built extensive workaround infrastructure:
+
+| Component | Approach |
+|-----------|----------|
+| **Foundry** | SMIC multi-patterning on DUV (no EUV) |
+| **Equipment** | Stockpiled + domestic alternatives |
+| **Supply chains** | Multiple intermediary networks |
+| **Procurement** | Shell companies, third-party buyers |
+
+**Reality:** Despite export controls, Huawei continues advancing through combination of stockpiles, domestic alternatives, and supply chain workarounds.
 
 ---
 
@@ -158,7 +190,7 @@ Huawei's answer to NVIDIA NVLink — proprietary interconnect for massive Ascend
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-01-15*
 
 ---
 
@@ -167,8 +199,10 @@ Huawei's answer to NVIDIA NVLink — proprietary interconnect for massive Ascend
 - [[NVIDIA]] — competitor (CloudMatrix vs NVLink)
 - [[SMIC]] — foundry partner (7nm Kirin, Ascend)
 - [[Export controls]] — constraint (Entity List since 2019)
+- [[Taiwan tech protectionism]] — Taiwan blacklisted Huawei (Jun 2025)
 - [[China power advantage]] — enabler (powers brute force strategy)
 - [[Kunlunxin]] — domestic competitor (Baidu's AI chips)
 - [[ByteDance]] — customer (Ascend adoption)
 - [[Alibaba]] — customer (Ascend for cloud)
 - [[TSMC]] — former foundry (cut off 2020)
+- [[US-China tech race]] — global semiconductor investment context
