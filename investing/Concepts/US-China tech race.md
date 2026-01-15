@@ -58,17 +58,26 @@ China Tech 8: Alibaba, Baidu, Tencent, NetEase, PDD, Xiaomi, JD, Meituan
 
 ## Global semiconductor investment race
 
-**Countries racing to build domestic chip capacity:**
+**Countries racing to build domestic chip capacity (Bloomberg/SIA data):**
 
-| Country/Region | Investment | Details |
-|----------------|------------|---------|
-| **USA** | ~$53B | CHIPS Act (2022) |
-| **EU** | $46B plan / $108B total | European Chips Act + private investment |
-| **Japan** | $25B | Trade ministry commitment (since 2021) |
-| **India** | $15B | Approved Feb 2024 |
-| **China** | $100B+ | Big Fund + local governments |
-| **Taiwan** | N/A | Existing dominance via [[TSMC]] |
-| **South Korea** | $450B (through 2047) | K-Chips Act, Samsung/SK Hynix |
+| Country/Region | Planned | Allocated | Notes |
+|----------------|---------|-----------|-------|
+| **China** | **$142B** | — | Largest globally |
+| **USA (Total)** | $75B | — | +$75B loans, tax breaks |
+| USA (CHIPS Act) | $39B | $32.8B | Expected spending |
+| **South Korea** | $55B | — | Tax incentives |
+| **EU (Total)** | $46.3B | — | EU Chips Act |
+| Germany | $21.5B | $18.3B | Largest EU recipient |
+| Spain | $12.9B | — | |
+| Italy | $4.6B | — | |
+| France | — | $3.1B | |
+| Netherlands | — | $2.7B | ASML home |
+| UK | $1.3B | — | |
+| **Japan** | $25.3B | $16.7B | |
+| **Taiwan** | $16B | — | Tax incentives |
+| **India** | $10B | $7.1B | |
+
+**Key insight:** China's $142B dwarfs all others — US ($75B) + EU ($46.3B) combined still < China.
 
 **Key developments (2025):**
 - **Aug 2025:** Trump administration took ~10% stake in [[Intel]]
