@@ -167,6 +167,19 @@ Waymo is most relevant — potential robotaxi monetization.
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **1.12%** | ~$195 | Below peer avg (7.15%) |
+| Q4 2025 | 1.22% | $— | Fell 8.2% |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -178,6 +191,7 @@ Waymo is most relevant — potential robotaxi monetization.
 | Key model | Gemini |
 | Foundry | [[TSMC]] (via Broadcom) |
 | Anthropic stake | $2B+ |
+| Short interest | **1.12%** (Jan 2026) |
 
 *Updated 2026-01-04*
 

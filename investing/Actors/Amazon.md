@@ -131,6 +131,19 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **0.76%** | ~$230 | Rose from 70.6M to 73.3M shares |
+| Q4 2025 | 0.73% | $— | |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -141,6 +154,7 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 | AWS revenue | ~$110B/year |
 | AI capex | $75B+ (2025) |
 | P/E | ~45x |
+| Short interest | **0.76%** (Jan 2026) |
 
 *Updated 2026-01-11*
 

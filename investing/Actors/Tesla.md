@@ -220,6 +220,24 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 
 ---
 
+## Short interest history (quarterly)
+
+**Note:** Tesla historically has HIGH short interest and is squeeze-prone — different pattern from other Mag 7.
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **2.7%** | $438 | Highest Mag 7, rose from 71M to 78M shares |
+| Q4 2025 | 2.5% | $— | |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+| 2020-21 | **15-20%+** | $— | Historic squeeze era |
+
+**Pattern:** Still highest SI in Mag 7, but far below squeeze-era levels. Some bears remain but not crowded.
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -232,6 +250,7 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 | P/E | ~100x+ |
 | Energy business | ~$10B/year (record Q4) |
 | Stock price | ~$438 |
+| Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
 
 ---
 

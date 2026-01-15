@@ -88,6 +88,19 @@ Apple is hedging against China's [[Rare earth leverage]]:
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **0.78%** | ~$230 | Low — shorts capitulated |
+| Q4 2025 | 0.71% | $— | |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -99,6 +112,7 @@ Apple is hedging against China's [[Rare earth leverage]]:
 | Gross margin | ~46% |
 | P/E | ~32x |
 | Cash position | ~$160B |
+| Short interest | **0.78%** (Jan 2026) |
 
 ---
 

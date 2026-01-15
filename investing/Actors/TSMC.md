@@ -45,6 +45,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | CHIPS Act | $6.6B |
 | **2026 capex** | **$52B-$56B** |
 | **FY2025 revenue** | **>$100B** (first time) |
+| **Short interest** | **0.5%** of float (Jan 2026) |
 
 *Updated 2026-01-15*
 
@@ -157,7 +158,33 @@ What consensus assumes (update when you see estimates):
 
 **Stock reaction:** Fresh all-time high ~NT$1,600+ (highlighted yellow on Bloomberg chart).
 
-**Short interest:** ~0.5% of free float — notably LOW despite parabolic run from ~NT$400 (2023) to NT$1,600+. Historical peak was ~1.7% (2010-11). Shorts not betting against the AI monopolist.
+**Short interest:** ~0.5% of free float — notably LOW despite parabolic run from ~NT$400 (2023) to NT$1,600+.
+
+### Short interest history (quarterly)
+
+| Quarter | SI % float | Stock (TWD) | Note |
+|---------|------------|-------------|------|
+| **Q1 2026** | **0.5%** | NT$1,600+ | ATH, shorts capitulated |
+| Q4 2025 | 0.5% | NT$1,400 | |
+| Q3 2025 | 0.5% | NT$1,100 | |
+| Q2 2025 | 0.4% | NT$900 | |
+| Q1 2025 | 0.4% | NT$700 | AI boom accelerating |
+| 2023 avg | 0.3-0.5% | NT$400-500 | Pre-AI baseline |
+| 2015-19 avg | 0.2-0.5% | NT$150-300 | Established leader |
+| **2010-11** | **1.5-1.7%** | NT$60-80 | Historical peak |
+
+**The puzzle:** Stock 4x'd since 2023, yet short interest at historical lows, not highs. Parabolic runs normally attract shorts betting on mean reversion.
+
+**What low short interest suggests:**
+- Bears see no compelling catalyst — AI monopoly thesis is consensus
+- Taiwan geopolitical risk NOT being actively hedged via shorting
+- No one wants to fight foundry monopolist + AI demand combo
+
+**Contrarian read:** When everyone's long and shorts have capitulated, who's left to buy? Could signal crowded positioning. But could also mean fundamental case is so bulletproof that shorting is seen as reckless.
+
+**Watch for:** Rising short interest would signal emerging skepticism on AI demand durability or Taiwan risk being priced in.
+
+See [[Short interest]] for broader framework on interpreting this signal.
 
 ---
 
