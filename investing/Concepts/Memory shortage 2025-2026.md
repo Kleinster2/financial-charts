@@ -132,7 +132,45 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 ---
 
-*Updated 2026-01-01*
+## Counterpoint smartphone forecast (Jan 2026)
+
+**Dramatic revision — memory shortage crushing smartphone outlook:**
+
+| Metric | Previous | Revised |
+|--------|----------|---------|
+| 2026 shipment growth | +0.45% | **-2.1%** |
+| 2025 shipment growth | +3.3% | +3.3% |
+| ASP increase (2026) | — | **+6.9%** |
+| Component cost increase | — | +10-25% |
+
+**OEM forecast revisions (Nov → Jan 2026):**
+
+| OEM | Nov Forecast | Jan Forecast | Revision |
+|-----|--------------|--------------|----------|
+| Apple | -0.5% | -1% | -0.5pp |
+| Samsung | -0.5% | -2% | **-1.5pp** |
+| Xiaomi | 0% | -2% | **-2pp** |
+| Vivo | +1% | -1% | **-2pp** |
+| Oppo | +2% | -1% | **-3pp** |
+| Honor | -2% | -4% | **-2pp** |
+| Others | +2% | -2% | **-4pp** |
+| **Overall** | +0.5% | -2.1% | **-2.6pp** |
+
+**Takeaway:** Others (-4pp) and Oppo (-3pp) hit hardest. Samsung revised more than Apple (-1.5pp vs -0.5pp) — less margin buffer than expected. Apple best positioned.
+
+**Key dynamics:**
+- AI buildout causing producers to prioritize HBM over commodity DRAM
+- Entry-level smartphones hit hardest (lower margins can't absorb costs)
+- OEM responses: push premium models, reuse old components, downgrade specs
+- Lenovo/Xiaomi already stockpiling memory
+- Nintendo Switch 2 also impacted (shares down most of December)
+
+**Analyst quote (Counterpoint):**
+> "Apple and Samsung are best-positioned to weather the next few quarters. But it will be tough for others that don't have as much wiggle room to manage market share versus profit margins."
+
+---
+
+*Updated 2026-01-15*
 
 ## Related
 
