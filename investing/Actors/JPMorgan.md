@@ -311,6 +311,9 @@ See [[Venezuela]].
 - [[CoreWeave]] — customer (financing)
 - [[AI infrastructure financing]] — thesis context
 
+### Technology vendors
+- [[Pure Storage]] — enterprise storage (1 of 9 top investment banks using Pure)
+
 ### Peers
 - [[Bank of America]] — #2 US bank
 - [[Wells Fargo]] — #4 US bank
