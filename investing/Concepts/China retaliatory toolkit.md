@@ -150,4 +150,22 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 
 ---
 
+---
+
+## 2026 policy direction
+
+**Foreign Trade Law revisions (approved Jan 2026, effective Mar 1):**
+- Incorporates national sovereignty, security, development interests
+- Strengthens intellectual property rights
+- Establishes trade adjustment assistance for supply chain stability
+- Second major revision since 1994 enactment
+
+**Commerce Ministry priorities (Jan 2026):**
+- Strengthening legal frameworks for export controls
+- Improving export control enforcement
+- Enhancing risk prevention for supply chain resilience
+- Safeguarding "critical technologies and sensitive goods"
+
+**Signal:** China institutionalizing export control apparatus — not temporary trade war tactic but **permanent legal infrastructure**.
+
 *Updated 2026-01-15*
