@@ -19,6 +19,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
+- **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
 - **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
@@ -40,10 +41,12 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 |--------|-------|
 | Market share | **71%** (Q3 2025) |
 | Leading edge | 2nm ramping 2025 |
-| U.S. investment | $65-165B (Arizona) |
+| U.S. investment | up to **$165B** (Arizona) |
 | CHIPS Act | $6.6B |
+| **2026 capex** | **$52B-$56B** |
+| **FY2025 revenue** | **>$100B** (first time) |
 
-*Updated 2026-01-10*
+*Updated 2026-01-15*
 
 ---
 
@@ -125,21 +128,32 @@ What consensus assumes (update when you see estimates):
 
 ---
 
-## Q4 2025 earnings preview (Jan 16, 2026)
+## Q4 2025 earnings (Jan 16, 2026)
 
-**Susquehanna (Mehdi Hosseini)** — Positive rating, caution on near-term guidance.
+**Results beat, guidance beats Street expectations:**
 
-| Metric | Street expects | Likely guidance |
-|--------|----------------|-----------------|
-| 2026 revenue growth | 30% | 25-30% |
+| Metric | Value | vs Expect |
+|--------|-------|-----------|
+| **Q4 Net income** | NT$505.7B ($16B) | Beat |
+| Q4 Revenue | $33.1B | (reported earlier) |
+| **FY2025 Revenue** | **>$100B** | First time ever |
+| FY2025 growth | >30% | |
 
-**The setup**: Hosseini expects guidance "may disappoint some investors" but notes TSMC's historical "beat and raise" pattern — initial guidance followed by upward revisions in April/July calls.
+**2026 Guidance (stronger than expected):**
 
-**His advice**: "Stay focused on TSM's EPS power" rather than top-line guidance.
+| Metric | Guidance | Notes |
+|--------|----------|-------|
+| **Capex** | **$52B-$56B** | Up ≥25% from 2025 |
+| **Revenue growth** | **~30%** | Beats Street (consensus was 25-30%) |
 
-**Stock**: $325.92 ADR, +55% over 12 months.
+**Key commentary:**
+- Strong outlook = "bullish signal on AI development frenzy"
+- Helps assuage concerns about sustainability of data center spending
+- US investment commitment expected: up to **$165B** total
+- Memory crunch headwind: smartphone shipments -11.6% expected (Macquarie)
+- Plants building in Japan (2nm pivot) and Germany
 
-*Source: Barron's, Jan 13, 2026*
+**Pre-earnings (Susquehanna)**: Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
 
 ---
 
