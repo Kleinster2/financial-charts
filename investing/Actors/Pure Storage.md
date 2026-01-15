@@ -117,7 +117,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 ## Customers
 
 **Enterprise-focused:**
-- Fortune 500 companies
+- Fortune 500 companies (~60% are customers)
 - Hyperscalers (select workloads)
 - Neoclouds
 - Government
@@ -125,6 +125,68 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 **Channel partners:** WWT, ePlus, CDW, Insight
 
 **AI ecosystem:** Partnerships with Run.AI, Weights & Biases
+
+---
+
+## Financial services vertical
+
+**Pure's largest vertical** — 30%+ YoY growth in FY22.
+
+| Segment | Penetration |
+|---------|-------------|
+| Global investment banks | 9 of top 10 |
+| Asset managers | 7 of top 10 |
+| Insurance | 5 of top 10 |
+| Named customer | [[JPMorgan]] |
+
+### Use cases
+
+| Application | Product |
+|-------------|---------|
+| **High-frequency trading** | FlashArray//ST (150μs latency) |
+| **Time-series analytics** | FlashBlade//S (trading data) |
+| **Risk modeling** | FlashBlade (AI/ML workloads) |
+| **Fraud detection** | FlashBlade (real-time AI) |
+| **Core banking** | FlashArray (databases) |
+
+### Why Wall Street chooses Pure
+
+| Factor | Detail |
+|--------|--------|
+| **Latency** | Sub-millisecond, consistent under load |
+| **Uptime** | 99.9999% availability |
+| **Density** | More IOPS per rack unit |
+| **Evergreen** | Non-disruptive upgrades |
+
+---
+
+## NYC presence
+
+| Presence | Detail |
+|----------|--------|
+| **East Coast HQ** | One Penn Plaza, Manhattan (opened April 2023) |
+| **NYS Government** | OGS statewide IT contract |
+| **Wall Street** | 9 of top 10 investment banks |
+
+### NYC-area customers
+
+| Customer | Sector | Use case |
+|----------|--------|----------|
+| [[JPMorgan]] | Financial services | Trading, core banking |
+| [[SiriusXM]] | Media (NYC HQ) | 150M subscribers, 100% on Pure |
+| Atlantic Health System | Healthcare (NY/NJ/PA) | Epic EHR, 7 hospitals |
+
+---
+
+## Media & entertainment vertical
+
+| Customer | Scale |
+|----------|-------|
+| [[SiriusXM]] | 150M subscribers, NYC headquarters |
+| [[Meta]] | Production workloads |
+| Use cases | Video editing, VFX, broadcasting |
+
+FlashBlade optimized for creative workflows — high throughput for 4K/8K video production.
 
 ---
 
@@ -165,6 +227,12 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 - [[NVIDIA]] — Elite partner, AIRI co-developer, DGX/HGX certified
 - Cisco — FlashStack AI Factory partnership
 
+### Customers
+- [[JPMorgan]] — Wall Street anchor customer
+- [[SiriusXM]] — NYC-based media (150M subscribers)
+- Atlantic Health System — NY/NJ/PA healthcare
+- [[Meta]] — hyperscaler workloads
+
 ### Competitors
 - Dell EMC — incumbent
 - NetApp — hybrid cloud
@@ -174,6 +242,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 ### Sectors
 - [[AI Storage]] — sub-sector (→ [[AI storage bottleneck]])
 - [[AI Infrastructure]] — parent sector
+- Financial services — largest vertical (9 of top 10 banks)
 
 ### Concepts
 - [[AI infrastructure financing]] — capex context
