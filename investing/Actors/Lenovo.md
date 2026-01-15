@@ -94,6 +94,17 @@ PC-heavy = memory-exposed.
 
 Lenovo is a buyer, not a chip maker.
 
+### RISC-V investment: SpacemiT
+
+| Detail | Value |
+|--------|-------|
+| Company | [[SpacemiT]] |
+| Round | Series B (Jan 2026) |
+| Total round | 600M yuan ($86M) |
+| SpacemiT focus | RISC-V chips for industrial, robotics, edge |
+
+**Strategic angle:** Lenovo investing in China's RISC-V ecosystem — potential supplier for future devices, aligns with China silicon sovereignty push. See [[RISC-V]].
+
 ---
 
 ## Competitive position
@@ -160,3 +171,5 @@ All large OEMs similarly squeezed.
 - [[Memory shortage 2025-2026]] — crisis context
 - [[Micron]] — supplier (can't get enough)
 - [[SK Hynix]] — supplier (prioritizing elsewhere)
+- [[SpacemiT]] — RISC-V investment (Series B, Jan 2026)
+- [[RISC-V]] — China silicon sovereignty play

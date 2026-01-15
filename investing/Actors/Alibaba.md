@@ -121,6 +121,19 @@ Alibaba is reinventing itself as an AI company:
 - Yitian (倚天) ARM-based server CPU
 - Hanguang (含光) AI chip
 
+### RISC-V: XuanTie chips
+
+| Chip | Launch | Capability |
+|------|--------|------------|
+| **XuanTie C930** | March 2025 | Server-grade, competes with Intel/AMD |
+| XuanTie C920 | 2023 | Autonomous vehicles, AI |
+| XuanTie C907 | 2023 | Enterprise storage |
+| XuanTie R910 | 2023 | Network communications |
+
+**C930 specs:** 64-bit multi-core, RVA23 compatible, dual 512-bit vector units, 8 TOPS Matrix engine for AI.
+
+**Strategic value:** RISC-V = no ARM licensing, no US export restrictions on architecture. See [[RISC-V]].
+
 **Reality:** Still behind NVIDIA, but reducing dependency.
 
 ---
@@ -233,3 +246,4 @@ See [[Wearable AI]] for competitive landscape.
 - [[NVIDIA]] — supplier (H200, blocked from Blackwell)
 - [[AI hyperscalers]] — peer category
 - [[Wearable AI]] — DingTalk A1 hardware play
+- [[RISC-V]] — XuanTie chips via T-Head, China silicon sovereignty play

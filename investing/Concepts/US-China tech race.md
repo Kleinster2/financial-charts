@@ -56,6 +56,28 @@ China Tech 8: Alibaba, Baidu, Tencent, NetEase, PDD, Xiaomi, JD, Meituan
 
 ---
 
+## Global semiconductor investment race
+
+**Countries racing to build domestic chip capacity:**
+
+| Country/Region | Investment | Details |
+|----------------|------------|---------|
+| **USA** | ~$53B | CHIPS Act (2022) |
+| **EU** | $46B plan / $108B total | European Chips Act + private investment |
+| **Japan** | $25B | Trade ministry commitment (since 2021) |
+| **India** | $15B | Approved Feb 2024 |
+| **China** | $100B+ | Big Fund + local governments |
+| **Taiwan** | N/A | Existing dominance via [[TSMC]] |
+| **South Korea** | $450B (through 2047) | K-Chips Act, Samsung/SK Hynix |
+
+**Key developments (2025):**
+- **Aug 2025:** Trump administration took ~10% stake in [[Intel]]
+- **Jun 2025:** Taiwan blacklisted [[Huawei]] + [[SMIC]] (unprecedented)
+- **Dec 2025:** Trump allowed [[NVIDIA]] H200 sales to China (25% surcharge)
+- **Sep 2025:** [[Huawei]] unveiled 3-year chip roadmap
+
+---
+
 ## Domains
 
 | Domain | US leads | China leads | Note |
@@ -163,4 +185,4 @@ DJI dominance is a rare case of Chinese tech leading globally in consumer market
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-01-15*
