@@ -155,6 +155,10 @@ What consensus assumes (update when you see estimates):
 
 **Pre-earnings (Susquehanna)**: Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
 
+**Stock reaction:** Fresh all-time high ~NT$1,600+ (highlighted yellow on Bloomberg chart).
+
+**Short interest:** ~0.5% of free float — notably LOW despite parabolic run from ~NT$400 (2023) to NT$1,600+. Historical peak was ~1.7% (2010-11). Shorts not betting against the AI monopolist.
+
 ---
 
 ## For theses
