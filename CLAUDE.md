@@ -56,6 +56,24 @@ Project-specific instructions for Claude Code sessions.
 
 After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
 
+## Pending Design Decisions
+
+### Short interest charting integration
+
+**Status:** Database and API complete, UI integration pending.
+
+**Context:** Short interest data is stored in `short_interest` table (normalized: ticker + settlement_date) with API endpoints `/api/short-interest` and `/api/short-interest/latest`. Need to decide how to expose SI time series in the charting UI.
+
+**Options:**
+- **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS`, etc. Most consistent with existing architecture.
+- **B) Separate chart overlay** — New UI component to overlay SI on price charts.
+- **C) Wide table** — Add to existing `/api/data` endpoint via wide-format table.
+
+**Related files:**
+- `scripts/update_short_interest.py` — fetcher (yfinance)
+- `charting_app/app.py` — API endpoints
+- `investing/Concepts/Short interest.md` — vault concept note
+
 ## Obsidian Vault
 
 The investing vault lives at `investing/` within this project.
