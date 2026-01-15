@@ -9,7 +9,7 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 | Rule | Status | Effect |
 |------|--------|--------|
 | **VEU (Validated End User)** | Revoked Dec 31, 2025 | TSMC, Samsung, SK Hynix China fabs need case-by-case approval |
-| **H200 exports** | Conditional | Allowed if 25% revenue goes to US govt |
+| **H200 exports** | **Case-by-case (Jan 2026)** | 25% revenue to US govt + ≤50% of US production + shortage cert |
 | **H20 exports** | Banned then unbanned | Multiple reversals throughout 2025 |
 | **Affiliate Rule** | Suspended 1 year | Exchange for China suspending rare earth controls |
 | **EUV equipment** | Fully banned | No [[ASML]] EUV to China |
@@ -103,11 +103,27 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 
 ## Policy uncertainty
 
-2025 saw multiple reversals:
+2025-26 saw multiple reversals:
 - H20 banned → unbanned → restricted
-- H200 banned → conditional approval
+- H200 banned → conditional approval → **Jan 2026 framework**
 - Affiliate Rule → suspended
 - VEU → revoked
+
+### Jan 2026: H200 framework details
+
+Commerce Department eased stance from "presumed denial" to case-by-case review:
+
+| Requirement | Detail |
+|-------------|--------|
+| Review process | Case-by-case (eased from presumed denial) |
+| US shortage certification | Must certify no domestic shortage |
+| **China volume cap** | **≤50% of US market production** |
+| 25% revenue share | To US government |
+| Applies to | NVIDIA H200, AMD chips |
+
+**China response:** Global Times dismissed as "discriminatory" — "not applied to other US trading partners but targeted specifically at China."
+
+**Bloomberg Intelligence (Michael Deng):** "Calibrated attempt" at maintaining US capability advantage. Combined requirements "may be overly burdensome" and "could be undermined further by opposition from Congress and Beijing."
 
 **Implication**: Companies cannot plan long-term. Capex decisions complicated by regulatory whiplash.
 
@@ -296,7 +312,7 @@ Mixed:
 
 ---
 
-*Updated 2026-01-05*
+*Updated 2026-01-15*
 
 ## Related
 
