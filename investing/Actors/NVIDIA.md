@@ -65,6 +65,15 @@ See [[Export controls]] for full context.
 **After controls:** ~0% (tight restrictions)
 **H200 approved (Dec 2025):** 25% cut to US govt on sales, shipping before Lunar New Year. Could recover 10-25% share.
 
+**Jan 2026 framework details:**
+| Requirement | Detail |
+|-------------|--------|
+| Review process | Case-by-case (eased from presumed denial) |
+| US shortage cert | Must certify no domestic shortage |
+| **China cap** | **≤50% of US market production** |
+
+**China response:** Global Times dismissed as "discriminatory" — targeted specifically at China vs other trading partners.
+
 **US strategic calculus:**
 - H200 is "previous gen" — B200 (Blackwell) is 3.1x faster
 - Rubin (2026) widens gap further
@@ -235,7 +244,7 @@ See [[GPU deployment bottleneck]] for full analysis.
 | **CY2028 Blackwell+Rubin revenue** | **$500B+ booked** |
 | **Stock YTD** | **+37%** (underperforming memory) |
 
-*Updated 2026-01-08*
+*Updated 2026-01-15*
 
 ---
 
