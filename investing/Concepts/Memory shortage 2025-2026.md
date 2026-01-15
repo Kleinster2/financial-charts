@@ -132,7 +132,41 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 ---
 
-*Updated 2026-01-01*
+## Counterpoint smartphone forecast (Jan 2026)
+
+**Dramatic revision — memory shortage crushing smartphone outlook:**
+
+| Metric | Previous | Revised |
+|--------|----------|---------|
+| 2026 shipment growth | +0.45% | **-2.1%** |
+| 2025 shipment growth | +3.3% | +3.3% |
+| ASP increase (2026) | — | **+6.9%** |
+| Component cost increase | — | +10-25% |
+
+**OEM vulnerability ranking:**
+
+| OEM | Position | 2026 Forecast |
+|-----|----------|---------------|
+| Apple | Best positioned | ~-1% |
+| Samsung | Best positioned | ~-1% |
+| Xiaomi | Vulnerable | ~-2.5% |
+| Vivo | Vulnerable | ~-1% |
+| Oppo | Vulnerable | ~-1% (was +2%) |
+| Honor | Most vulnerable | **-4%** (was -2%) |
+
+**Key dynamics:**
+- AI buildout causing producers to prioritize HBM over commodity DRAM
+- Entry-level smartphones hit hardest (lower margins can't absorb costs)
+- OEM responses: push premium models, reuse old components, downgrade specs
+- Lenovo/Xiaomi already stockpiling memory
+- Nintendo Switch 2 also impacted (shares down most of December)
+
+**Analyst quote (Counterpoint):**
+> "Apple and Samsung are best-positioned to weather the next few quarters. But it will be tough for others that don't have as much wiggle room to manage market share versus profit margins."
+
+---
+
+*Updated 2026-01-15*
 
 ## Related
 
