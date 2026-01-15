@@ -228,5 +228,7 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 - [[AI infrastructure financing]] — US inbound focus
 - [[Ford]] — European retreat, Renault JV
 - [[Novo Nordisk]] — US pharma investment
+- [[Nigeria]] — China $20B gas city, solar revolution
+- [[China economic transition]] — Why China companies expanding abroad
 
 *Created 2026-01-15*

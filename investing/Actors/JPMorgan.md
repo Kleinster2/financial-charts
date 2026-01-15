@@ -210,6 +210,23 @@ JPM is #1; others participate in syndicates.
 
 ---
 
+## Clean energy M&A outlook (Jan 2026)
+
+**Greg Zdun (Asia Pacific head of energy transition):** "Expect more mergers and acquisitions for renewable assets in 2026 as developers or sellers of projects become more realistic in terms of valuation."
+
+**JPM sees M&A revival drivers:**
+- Sellers lowering price expectations
+- Data center demand supporting renewables
+- Less policy/tariff/rate uncertainty than 2025
+- Power demand exceeding expectations → premium for quality assets
+
+**2025 context:**
+- Clean energy M&A slumped to lowest since 2017 (55.3 GW)
+- Average deal premium: 12% (down from 46% in 2024)
+- Overall M&A hit $4.5T (2nd best on record) — renewables missed out
+
+---
+
 ## Investment case
 
 **As AI infra play:**

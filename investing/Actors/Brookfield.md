@@ -43,6 +43,42 @@ Brookfield owns massive renewable energy portfolio:
 - Addresses [[Power constraints]]
 - Differentiated from pure financial buyers
 
+**Global energy transition strategy:** $20B raised (2024)
+
+**Asia Pacific expansion (Nov 2025):**
+
+| Deal | Location | Type |
+|------|----------|------|
+| Alba Renewables Pte | Philippines, Thailand | Acquisition |
+| Wind project | Vietnam | New investment |
+
+**Daniel Cheng (Head of Renewable Power, Asia Pacific):** "There's a very clear and mature market for investors to buy these operational assets that are long-term contracted."
+
+---
+
+## Clean energy M&A outlook (Jan 2026)
+
+**Brookfield sees M&A revival:**
+- Asset owners lowering price expectations
+- Buyers willing to pay for clean energy capacity
+- Data center demand supporting renewables
+- Less policy/tariff/rate uncertainty than 2025
+
+**2025 context:**
+- Clean energy M&A slumped to lowest since 2017 (55.3 GW)
+- Average deal premium: 12% (down from 46% in 2024)
+- Overall M&A hit $4.5T (2nd best on record) — renewables missed out
+
+**Valuation reset (S&P Clean Energy Transition Index forward P/E):**
+
+| Period | P/E |
+|--------|-----|
+| 2020 peak | ~50x (bubble) |
+| 2024 trough | ~12x |
+| Current | ~20x (recovering) |
+
+**Brookfield positioned:** Operational assets with credible offtake preferred over development-stage projects.
+
 ---
 
 ## Westinghouse acquisition
