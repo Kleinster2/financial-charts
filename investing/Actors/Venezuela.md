@@ -174,6 +174,26 @@ See [[Maduro capture 2026]] for full event details.
 
 ---
 
+## Jan 12, 2026 — Trump excludes Exxon
+
+**Trump retaliates after Exxon skepticism:**
+
+| Statement | Trump response |
+|-----------|----------------|
+| Woods: Venezuela "uninvestable" | "I didn't like Exxon's response" |
+| Woods: Need "significant changes" | "They're playing too cute" |
+| Outcome | Trump "inclined to keep Exxon out" |
+
+**Implications:**
+- [[Chevron]] strengthens as sole major US operator
+- [[Exxon]] may be excluded from Venezuela rebuild
+- Trump rewards loyalty, punishes public pushback
+- Other hesitant companies may stay quiet
+
+*Source: Axios, Bloomberg, Jan 12, 2026*
+
+---
+
 ## Banking landscape
 
 **Domestic system:** Heavily regulated, severe financial isolation. Relies on foreign banks outside US jurisdiction, alternative currencies, offshore intermediaries.

@@ -75,7 +75,32 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 - **Revenue target:** $500M for 2025 → tracking ~$280M annualized (will miss)
 - **EBITDA projection:** -$2.2B for full year → already -$2.4B through Sep (exceeded losses)
 - Revenue nearly doubled Q2→Q3; gross margin improving
-- Working with [[Valor Equity Partners]] and [[Apollo]] on SPV for [[NVIDIA]] chips
+
+---
+
+## $20B off-balance-sheet SPV (Oct 2025)
+
+**Structure:** xAI financing Nvidia GPUs through an SPV — debt stays off xAI's balance sheet.
+
+| Component | Party | Role |
+|-----------|-------|------|
+| **Lead equity** | [[Valor Equity Partners]] (Antonio Gracias) | SPV sponsor |
+| **Debt** | [[Apollo]] | Investment-grade lender |
+| **Chips** | [[NVIDIA]] | Equity investor + chip supplier |
+| **Lessee** | xAI | **5-year lease commitment only** |
+
+**How it works:**
+1. SPV is a legal entity separate from xAI
+2. SPV buys Nvidia chips with Apollo debt + Valor/Nvidia equity
+3. SPV rents chips exclusively to xAI
+4. **xAI's only commitment: 5-year lease** — nothing else on balance sheet
+
+**Why this matters:**
+- xAI has limits on how much secured debt it can borrow
+- SPV structure allows billions in GPU financing without balance sheet impact
+- Model being copied by other AI companies
+
+See [[AI infrastructure financing]].
 
 ---
 
@@ -152,7 +177,7 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 | Target capacity | 2GW |
 | Potential foundry | [[Samsung]] (via Tesla relationship) |
 
-*Updated 2026-01-11*
+*Updated 2026-01-14*
 
 ---
 
@@ -178,6 +203,7 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 - [[Microsoft]] — competitor (Macrohard jab)
 - [[TVA]] — power source (Colossus location)
 - [[Power constraints]] — context (2GW target)
+- [[AI infrastructure financing]] — $20B SPV structure
 
 ---
 
@@ -187,3 +213,4 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 - [CNBC on $20B raise](https://www.cnbc.com/2026/01/06/elon-musk-xai-raises-20-billion-from-nvidia-cisco-investors.html)
 - [TechFundingNews on $230B valuation](https://techfundingnews.com/xai-nears-a-230b-valuation-with-20b-funding-from-nvidia-and-others-to-challenge-openai-and-anthropic/)
 - [Bloomberg on xAI financials](https://www.bloomberg.com/news/articles/2026-01-11/musk-s-xai-burned-through-cash-with-1-5-billion-quarterly-loss) (Jan 2026)
+- [Bloomberg - Off-Balance-Sheet AI Debt](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 2025)

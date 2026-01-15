@@ -84,6 +84,23 @@ Largest private enterprise software company, AI infrastructure critical:
 
 ---
 
+## Acquisitions
+
+### Neon (May 2025)
+
+| Detail | Value |
+|--------|-------|
+| Target | [[Neon]] |
+| Price | **~$1B** |
+| What | Serverless Postgres |
+| Rationale | AI agents need simple DB provisioning |
+
+**Why it matters:** 80%+ of Neon databases created by AI agents. Databricks + Neon = complete data platform for AI applications.
+
+Post-acquisition: Neon cut prices 15-25% (compute), storage from $1.75 to $0.35/GB-month.
+
+---
+
 ## AI strategy
 
 **Model integration deals:**
@@ -95,6 +112,7 @@ Largest private enterprise software company, AI infrastructure critical:
 - Lakebase (system of record)
 - Databricks Apps (user experience)
 - Agent Bricks (multi-agent systems)
+- [[Neon]] — serverless Postgres (acquired)
 
 ---
 
@@ -163,10 +181,12 @@ Databricks = Switzerland of data (runs on all clouds).
 
 ## Related
 
+- [[Neon]] — acquired (serverless Postgres, $1B)
 - [[Snowflake]] — competitor (data warehouse)
 - [[Palantir]] — competitor (AI applications)
 - [[Anthropic]] — partner (models on platform)
 - [[OpenAI]] — partner (models on platform)
+- [[Supabase]] — competitor (Postgres BaaS)
 - [[a16z]] — investor
 - [[Tiger Global]] — investor
 - [[Blackstone]] — investor

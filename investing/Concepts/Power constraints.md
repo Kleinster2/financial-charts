@@ -307,7 +307,7 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 | Deadline | Jan 12, 2026 |
 | Demand | DCs pay more upfront for grid infrastructure |
 
-**Bloomberg investigation finding:** Electricity costs up to **267% higher** in areas near significant DC activity (vs 5 years ago).
+**Bloomberg investigation finding:** Electricity costs up to **267% higher** in areas near significant DC activity (vs 5 years ago). See detailed analysis below.
 
 **Senator criticism:**
 > "Tech companies regularly hide as much information as possible from the communities in which their data centers will be built... failing to pay their fair share of their electricity rates."
@@ -344,10 +344,70 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 
 ---
 
-*Updated 2026-01-05*
+## Consumer impact
+
+Power constraints affect consumers through **price increases** and **power quality degradation**. See dedicated notes for full analysis:
+
+### Price increases
+
+**Key finding:** 70%+ of grid nodes with price increases are within 50 miles of significant DC activity.
+
+| Impact | Value |
+|--------|-------|
+| Buffalo wholesale price change (2020-2025) | **+197%** |
+| Baltimore wholesale price change | **+125%** |
+| Americans affected by power quality issues | **3.7 million** |
+
+See [[DC power prices]] for full Bloomberg analysis (Sep 2025).
+
+### Power quality degradation
+
+**Key finding:** AI "sawtooth" loads cause harmonic distortion that damages appliances. DCs are 10,000x the load of a single house.
+
+| Impact | Value |
+|--------|-------|
+| Sensors within 50 miles of DCs with distortion | **>75%** |
+| Industry damage threshold | **8% THD** |
+| Worst readings observed | **12.9% THD** |
+
+See [[DC power quality]] for full Bloomberg analysis (Dec 2024).
+
+---
+
+## Global grid strain
+
+DCs consume more electricity than most countries — only 16 nations use more. See [[Global DC grid strain]] for full Bloomberg analysis (Jun 2024).
+
+**Key stats:**
+- **7,000+ global DCs** (up from 3,600 in 2015)
+- **508 TWh/year** current consumption (> Italy)
+- **1,580 TWh** projected by 2034 (= India)
+- AI = **10-15x** the electricity of traditional computing
+- H100 = 700W, B100 = ~1,400W (2x)
+
+---
+
+## Water-power tradeoff
+
+Power and water constraints are linked — see [[Water constraints]] for full analysis.
+
+**The tension:**
+- Evaporative cooling uses more water but less power
+- Closed-loop cooling uses less water but more power
+- Regions with most renewable energy (solar) often have least water
+
+**Key stat:** 60% of DC water consumption is *indirect* — from power plants in water-stressed regions. Power constraints drive location decisions that exacerbate water constraints.
+
+---
+
+*Updated 2026-01-14*
 
 ## Related
 
+- [[DC power prices]] — consumer impact (Bloomberg Sep 2025)
+- [[DC power quality]] — consumer impact (Bloomberg Dec 2024)
+- [[Global DC grid strain]] — global context (Bloomberg Jun 2024)
+- [[Water constraints]] — companion constraint (water-power tradeoff)
 - [[Nuclear power for AI]] — solution (baseload power)
 - [[AI hyperscalers]] — demand driver (69GW needed)
 - [[xAI]] — example (Colossus 2GW target)
@@ -365,3 +425,8 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 - [[AI datacenter architecture]] — design patterns
 - [[Power-constrained geography]] — consequence (Ashburn overflow, hub migration)
 - [[BYOP]] — dedicated concept note
+- [[Dominion Energy]] — utility serving Data Center Alley (power quality issues)
+- [[Exelon]] — ComEd parent, Chicago power quality disputes
+- [[Bloom Energy]] — fuel cells, AI load volatility research
+- [[Whisker Labs]] — power quality monitoring (Ting sensors)
+- [[NextEra Energy]] — world's largest wind/solar builder, quoted on AI power demand

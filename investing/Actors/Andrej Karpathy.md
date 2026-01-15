@@ -3,19 +3,31 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Andrej Karpathy** — AI educator. Ex-OpenAI, ex-Tesla Autopilot. Founded Eureka Labs.
+**Andrej Karpathy** — AI researcher, educator, investor. Ex-OpenAI founding team, ex-Tesla Autopilot Director. **Coined "[[Vibe coding]]"** (Feb 2025, Collins Word of the Year). Founded Eureka Labs. TIME 100 Most Influential in AI (2024). Angel investor: Perplexity, Lambda, Adept.
+
+---
+
+## Key facts
+
+| Detail | Value |
+|--------|-------|
+| Born | October 23, 1986 |
+| Birthplace | Bratislava, Slovakia |
+| Education | Stanford PhD (Fei-Fei Li) |
+| Recognition | TIME 100 Most Influential in AI (2024) |
+| Known for | Tesla Autopilot, AI education, coined "[[Vibe coding]]" |
 
 ---
 
 ## Why Karpathy matters
 
-Most influential AI educator:
+Most influential AI educator and trusted technical voice:
 
 | Metric | Value |
 |--------|-------|
 | Previous | OpenAI founding team, Tesla AI Director |
-| Current | Eureka Labs founder |
-| Known for | AI education, YouTube lectures |
+| Current | Eureka Labs founder, angel investor |
+| Known for | AI education, YouTube lectures, "vibe coding" |
 | Followers | Millions across platforms |
 
 ---
@@ -91,6 +103,35 @@ AI to teach AI.
 
 ---
 
+## Vibe coding
+
+**Coined the term (Feb 2025):**
+
+> "Fully give in to the vibes, embrace exponentials, and forget that the code even exists."
+
+- Named Collins Dictionary Word of the Year 2025
+- Sparked $24B market category
+- Enabled [[Lovable]], Cursor, Bolt.new wave
+- Ironically, Karpathy later admitted his own project was "basically entirely handwritten" when vibe coding didn't work well enough
+
+See [[Vibe coding]] for full market analysis.
+
+---
+
+## Angel investments
+
+Active investor since leaving OpenAI (2024):
+
+| Company | Category |
+|---------|----------|
+| [[Perplexity]] | AI search |
+| Lambda Labs | GPU cloud |
+| [[Adept]] | AI agents (→ Amazon) |
+| [[Lamini]] | LLM fine-tuning |
+| [[dev-agents|/dev/agents]] | AI agent infrastructure |
+
+---
+
 ## Investment implications
 
 **Karpathy signals:**
@@ -98,6 +139,7 @@ AI to teach AI.
 - Technical talent leaving big labs
 - Independent AI voices growing
 - Human-AI collaboration focus
+- Vibe coding = infrastructure opportunity (Supabase, Vercel)
 
 ---
 
@@ -116,8 +158,23 @@ AI to teach AI.
 
 ## Related
 
+### Career
 - [[OpenAI]] — former (founding team, returned 2023)
 - [[Tesla]] — former (AI Director, built Autopilot)
 - [[Elon Musk]] — former boss at Tesla
 - [[Ilya Sutskever]] — peer (OpenAI co-founder)
+
+### Concepts
+- [[Vibe coding]] — coined the term, sparked $24B market
+
+### Portfolio
+- [[Perplexity]] — AI search
+- [[Adept]] — AI agents (acqui-hired by Amazon)
+- [[Lamini]] — LLM fine-tuning (Andrew Ng connection)
+- [[dev-agents|/dev/agents]] — AI agent infrastructure
+
+### Beneficiaries of vibe coding
+- [[Supabase]] — infrastructure for vibe-coded apps
+- [[Lovable]] — $6.6B vibe coding leader
+- [[Vercel]] — deployment platform
 

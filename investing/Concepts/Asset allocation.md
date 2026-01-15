@@ -61,12 +61,12 @@ Tracking how major firms position across asset classes. Useful for contrarian si
 
 **Valuation concern:**
 
-| Metric | S&P 500 | MSCI World ex-US | Premium |
+| Metric | S&P 500 | [[MSCI]] World ex-US | Premium |
 |--------|---------|------------------|---------|
 | Forward P/E | 22x | ~16x | **36%** |
 | Historical avg | ~17x | ~14x | — |
 
-**2025 returns:** S&P 500 +16% vs MSCI World ex-US **+29%** (international outperformed)
+**2025 returns:** S&P 500 +16% vs [[MSCI]] World ex-US **+29%** (international outperformed)
 
 **Recommendation:** Diversify across regions, sectors, styles. Performance should broaden beyond AI capex to AI adoption beneficiaries and economic growth beneficiaries.
 

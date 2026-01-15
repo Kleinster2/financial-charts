@@ -16,7 +16,7 @@ Blue Owl is becoming the bank for AI infrastructure:
 | AUM | $273B (Mar 2025) |
 | Digital infrastructure capital | $34B |
 | Facilities | 90+ across 25+ markets |
-| Largest deal | Meta Hyperion **$30B** (off-balance-sheet) |
+| Largest deal | Meta **$30B SPV** (largest private credit deal ever) |
 
 ---
 
@@ -24,25 +24,35 @@ Blue Owl is becoming the bank for AI infrastructure:
 
 | Deal | Size | Partner | Status |
 |------|------|---------|--------|
-| **Meta Hyperion** | **$30B** | [[Meta]] | Closed Oct 2025 — largest private credit deal ever |
+| **Meta** | **$30B SPV** | [[Meta]] | Closed Oct 2025 — largest private credit deal ever |
 | **Crusoe Abilene** | $15B | Crusoe Energy | 1.2GW, "largest GPU cluster in world" |
 | **Oracle Michigan** | ~$10B | [[Oracle]] | Pulled out — Oracle debt concerns |
 
 ---
 
-## Meta Hyperion deal ($30B)
+## Meta deal ($30B SPV + $30B bonds = $60B total)
 
-**Structure:**
-- $30B total financing (largest private credit deal ever)
+**Oct 2025:** Meta raised $60B for data centers in a single month:
+
+| Tranche | Size | Structure | Lead |
+|---------|------|-----------|------|
+| **Off-balance-sheet** | $30B | SPV | Morgan Stanley → Blue Owl |
+| **On-balance-sheet** | $30B | Corporate bonds | Largest IG offering of 2025 |
+
+**SPV structure:**
+- Morgan Stanley structured the deal
+- Debt sits in SPV tied to Blue Owl
 - Blue Owl: 80% ownership
 - Meta: 20% ownership
-- Location: Richland Parish, Louisiana
+- Location: Richland Parish, Louisiana (Hyperion)
 
 **Why it matters:**
+- **Largest private capital transaction on record**
 - Template for hyperscaler **off-balance-sheet financing**
 - Blue Owl takes construction/financing risk
 - Meta gets capacity without balance sheet hit
 - Hyperscalers increasingly prefer leasing to owning (Nadella: "excited to be a leaser")
+- Made it easier for Meta to also raise $30B in traditional bonds
 
 ---
 
@@ -134,7 +144,10 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Largest deal | Meta $30B |
 | HQ | New York |
 
-*Updated 2026-01-05*
+*Updated 2026-01-14*
+
+Sources:
+- [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
 
 ---
 

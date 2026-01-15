@@ -263,6 +263,7 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 - Cosmos AI: Physics simulation foundation model
 - Full-stack robotics platform
 - Mercedes partnership (Alpamayo in 2025 CLA)
+- [[Archer Aviation]] partnership (IGX Thor for eVTOL)
 
 See [[CES 2026]] for event details.
 
@@ -384,4 +385,5 @@ See [[CES 2026]] for event details.
 - [[Southeast Asia tech race]] — Chinese DC buildout destination
 - [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)
+- [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)
 - [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics

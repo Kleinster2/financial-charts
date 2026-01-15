@@ -63,7 +63,7 @@ See [[Asset allocation]] for full details.
 
 | Index | Target | Upside |
 |-------|--------|--------|
-| MSCI China | 100 | **+20%** |
+| [[MSCI]] China | 100 | **+20%** |
 | CSI 300 | 5,200 | +12% |
 
 EPS growth: 4% (2025) → 14% (2026-27)

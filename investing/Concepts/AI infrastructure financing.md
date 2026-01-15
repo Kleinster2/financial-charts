@@ -12,8 +12,13 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 | 2026 projected | $620B |
 | Morgan Stanley DC spend by 2028 | $2.9T |
 | Power infrastructure needed | $2.6T (44GW gap) |
+| **Total external financing needed** | **$1.5T** |
+| Private credit by 2028 | $800B |
+| AI debt raised per quarter | ~$100B |
 
 **Problem:** Even hyperscalers don't want this on balance sheet. Enter private capital.
+
+**Scale (Oct 2025):** UBS strategist Matthew Mish: "raises eyebrows for anyone that has seen credit cycles."
 
 ---
 
@@ -96,11 +101,21 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 
 | Deal | Size | Structure | Parties |
 |------|------|-----------|---------|
-| **Meta Hyperion** | $27B | JV (80/20) | Blue Owl, Meta |
+| **Meta (Oct 2025)** | **$60B** | $30B SPV + $30B bonds | Blue Owl, Morgan Stanley |
+| **xAI Colossus** | **$20B** | SPV (chip lease) | Valor Equity, Apollo, Nvidia |
 | **Crusoe Abilene** | $15B | JV | Blue Owl, Crusoe |
 | **CoreWeave** | $7.5B | Debt | Blackstone, others |
-| **xAI Colossus** | Multiple | Various | Multiple lenders |
 | **Oracle Michigan** | ~$10B | Fell through | Blue Owl pulled out |
+
+**Meta deal (Oct 2025):**
+- $30B SPV via Morgan Stanley — **largest private capital deal ever**
+- $30B corporate bonds — **largest IG offering of 2025**
+- Off-balance-sheet portion sits with Blue Owl
+
+**xAI deal:**
+- $20B SPV led by Valor Equity Partners + Apollo
+- Nvidia provides equity + chips
+- xAI commitment: **5-year lease only** — nothing else on balance sheet
 
 ---
 
@@ -130,6 +145,22 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 | **Power availability** | Site selection, [[Power constraints]] due diligence |
 | **Interest rates** | Floating rate pass-through, hedging |
 | **Concentration** | Diversification across hyperscalers |
+
+### The dot-com comparison
+
+| Era | How it was financed | What happened |
+|-----|---------------------|---------------|
+| **Dot-com (2000)** | Equity | Burst had limited economic impact |
+| **AI (2025)** | Debt (off-balance-sheet) | TBD — but credit cycles hit harder |
+
+**UBS warning:** "During the dot-com era, most of the growth was financed with equity not debt. So when it burst, the impact in the economy was manageable. Now, there's a rapid growth of capex in AI firms driven by debt and it's starting to be kept off balance sheet."
+
+**Off-balance-sheet history:**
+- 2001: Enron collapse — SPVs hid liabilities
+- 2008: Banks moved mortgages off-balance-sheet before crisis
+- 2025: Tech companies using SPVs for AI infrastructure
+
+See [[AI infrastructure financing risk]] for deeper analysis.
 
 ---
 
@@ -175,7 +206,11 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-14*
+
+Sources:
+- [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
+- Morgan Stanley research
 
 ## Related
 

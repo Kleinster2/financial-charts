@@ -67,7 +67,7 @@ Chinese firms already listed in mainland seeking HK capital:
 
 | Company | Notes |
 |---------|-------|
-| [[Jio Platforms]] | India's biggest-ever IPO potential (Reliance) |
+| [[Jio Platforms]] | India's biggest-ever IPO potential ([[Reliance Industries]]) |
 | NSE India | Stock exchange, 2026 earliest |
 | SBI Funds Management | $1.2B, India's biggest asset manager |
 

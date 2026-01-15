@@ -110,6 +110,7 @@ What consensus assumes (update when you see estimates):
 | Arizona timeline | On schedule | |
 | 2024 revenue growth | +20% YoY (Q4) | Jan 2025 |
 | Gross margin | 59% (Q4 2024) | Jan 2025 |
+| **2026 revenue growth** | **30%** (Street), **25-30%** (likely guide) | Susquehanna Jan 2026 |
 
 **Priced in:**
 - Continued dominance at leading edge
@@ -122,7 +123,23 @@ What consensus assumes (update when you see estimates):
 - Major customer defection
 - Arizona yields matching Taiwan faster than expected
 
-*Update this when you read analyst notes or earnings.*
+---
+
+## Q4 2025 earnings preview (Jan 16, 2026)
+
+**Susquehanna (Mehdi Hosseini)** — Positive rating, caution on near-term guidance.
+
+| Metric | Street expects | Likely guidance |
+|--------|----------------|-----------------|
+| 2026 revenue growth | 30% | 25-30% |
+
+**The setup**: Hosseini expects guidance "may disappoint some investors" but notes TSMC's historical "beat and raise" pattern — initial guidance followed by upward revisions in April/July calls.
+
+**His advice**: "Stay focused on TSM's EPS power" rather than top-line guidance.
+
+**Stock**: $325.92 ADR, +55% over 12 months.
+
+*Source: Barron's, Jan 13, 2026*
 
 ---
 

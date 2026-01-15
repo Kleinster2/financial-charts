@@ -3,17 +3,18 @@ aliases: [WFC]
 ---
 #actor #finance #bank #usa #public
 
-**Wells Fargo** — Fourth-largest US bank. Consumer focus. Post-scandal recovery.
+**Wells Fargo** — Fourth-largest US bank. Consumer focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
 
 ---
 
-## Why Wells Fargo matters
+## Overview
 
 | Metric | Value |
 |--------|-------|
 | Market cap | ~$200B |
 | Ticker | WFC |
-| Assets | ~$1.9T |
+| Price | ~$89 |
+| Assets | ~$2.0T |
 | CEO | Charlie Scharf |
 
 ---
@@ -45,28 +46,68 @@ aliases: [WFC]
 
 ---
 
-## Asset cap constraint
+## Asset cap — REMOVED (June 2025)
 
-**Fed restriction:**
-- Cannot grow assets above ~$1.95T
-- In place since 2018
-- Limits growth potential
-- Removal = major catalyst
+**Fed restriction lifted:**
+
+| Date | Event |
+|------|-------|
+| 2018 | Asset cap imposed (~$1.95T) |
+| 2018-2025 | Multi-year remediation |
+| **June 2025** | **Asset cap removed** |
+| Q4 2025 | Assets surpass $2T for first time |
+
+**Catalyst realized:** This was the bull case for years. Now playing out.
+
+---
+
+## Q4 2025 Earnings (Jan 14, 2026)
+
+| Metric | Actual | Estimate | Result |
+|--------|--------|----------|--------|
+| **EPS** | $1.62 | $1.66 | Miss |
+| **Adj. EPS** | $1.76 | $1.66 | Beat |
+| **Revenue** | $21.29B | $21.65B | Miss |
+| **NII** | $12.33B | $12.46B | Miss |
+
+### Why the gap?
+
+| Item | Impact |
+|------|--------|
+| Severance charges | $612M (efficiency push continuing) |
+| Mortgage profits | Declined |
+
+### Year-over-year
+
+| Metric | Q4 2025 | Q4 2024 | Change |
+|--------|---------|---------|--------|
+| EPS | $1.62 | $1.43 | +13.3% |
+| Revenue | $21.29B | $20.38B | +4.5% |
+| NII | $12.33B | — | +4% |
+
+### 2026 Guidance
+
+| Metric | Guidance | Consensus |
+|--------|----------|-----------|
+| NII | ~$50B | $50.2B |
+
+**Stock reaction:** -4.8% to $89 (revenue miss weighed on sentiment).
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Asset cap removal catalyst
-- Efficiency gains continuing
+- Asset cap removed (June 2025) — catalyst realized
+- Efficiency gains continuing (severance = more cuts coming)
 - Rate sensitivity
-- Discount to peers
+- Now can grow assets above $2T
 
 **Bear:**
-- Asset cap timeline uncertain
-- Regulatory overhang
-- Reputation damage lingering
+- Revenue miss suggests execution challenges
+- NII guidance slightly below consensus
+- Mortgage business weak
+- [[Credit card rate cap]] risk
 - Competition in core markets
 
 ---
@@ -76,17 +117,26 @@ aliases: [WFC]
 | Metric | Value |
 |--------|-------|
 | Ticker | WFC |
+| Price | ~$89 |
 | Market cap | ~$200B |
-| Constraint | Fed asset cap |
+| Assets | ~$2.0T |
 | CEO | Charlie Scharf |
+| Q4 2025 | Revenue miss, adj. EPS beat |
 
-*Created 2026-01-08*
+*Updated 2026-01-14*
 
 ---
 
 ## Related
 
-- [[JPMorgan]] — peer
-- [[Bank of America]] — peer
+### Peers
+- [[JPMorgan]] — #1 US bank
+- [[Bank of America]] — #2 US bank
 - [[Citigroup]] — peer
+
+### Risks
+- [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
+
+### Sources
+- [CNBC: Wells Fargo Q4 Results Disappoint](https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-as-q4-results-disappoint-investors)
 

@@ -47,6 +47,24 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 | Nov 2025 | Mag 7 selloff, S&P 493 climbs |
 | Dec 2025 | XMAG inflows 4x November |
 | Jan 2026 | Tax-loss selling + AI fatigue accelerates |
+| **Jan 14, 2026** | Russell 2000 beats S&P for 9th straight day — **longest streak since 1990** |
+
+### January 14, 2026 update
+
+**Rotation accelerating:**
+
+| Metric | Value |
+|--------|-------|
+| Russell 2000 vs S&P streak | **9 days** (longest since 1990) |
+| S&P 500 | -0.53% |
+| Nasdaq | -1.0% |
+| Nasdaq 100 | Worst decline in a month |
+| Mag 7 | All seven down |
+| S&P 500 breadth | 300+ stocks up despite index down |
+
+**Key insight:** While Nasdaq 100 fell to monthly lows, over 300 S&P 500 constituents actually rose. Classic rotation signal — money leaving concentrated leaders, spreading to broader market.
+
+NVIDIA -1.4%, Microsoft -2.4% led tech lower. Small caps continue outperforming.
 
 ### [[XMAG]] ETF (S&P 493 proxy)
 
@@ -174,6 +192,20 @@ This is the rotation signal: when the index beats its biggest components, leader
 | **Fund flows** | Tech outflows, value/small inflows |
 | **Russell 2000 / Nasdaq ratio** | Rising = small cap leadership |
 | **Sector ETF relative strength** | XLF, XLI outperforming XLK |
+| **[[Breadth divergence]]** | Index down but majority of stocks up = rotation (not selloff) |
+
+### Rotation signature pattern
+
+**The key distinction:** In a broad selloff, most stocks fall together. In a rotation, the index can fall while most constituents rise — capital leaving concentrated leaders spreads to the rest.
+
+| Scenario | Index | Breadth | Interpretation |
+|----------|-------|---------|----------------|
+| **Broad selloff** | Down | Most stocks down | Risk-off, reduce exposure |
+| **Rotation** | Down | Most stocks up | Leadership change, reposition |
+| **Healthy rally** | Up | Most stocks up | Broad participation |
+| **Narrow rally** | Up | Few stocks up | Fragile, concentration risk |
+
+**Jan 14, 2026 example:** S&P 500 -0.53%, Nasdaq -1.0%, but 300+ S&P constituents rose. This is rotation, not a selloff — money is moving, not leaving.
 
 ---
 
@@ -199,6 +231,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 ## Related
 
+- [[Breadth divergence]] — distinguishing rotation from selloff
 - [[Mega-cap tech acronyms]] — Mag 7 composition
 - [[Credit markets]] — risk appetite signal
 - [[AI Infrastructure]] — capex scrutiny
@@ -212,7 +245,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 - [[Bank of America]] — rotation beneficiary (financials)
 - [[Ed Yardeni]] — coined "AI fatigue"
 
-*Updated 2026-01-11*
+*Updated 2026-01-14*
 
 ---
 
@@ -220,3 +253,4 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 - [Bloomberg: AI 'Fatigue' Leaves Investors Focused on S&P's Other 493 Stocks](https://www.bloomberg.com/) (Jan 7, 2026)
 - [Bloomberg: Mag 7 underperformance charts](https://www.bloomberg.com/) (Jan 2026)
+- [Bloomberg: Stock Market Today](https://www.bloomberg.com/news/articles/2026-01-13/stock-market-today-dow-s-p-live-updates) (Jan 14, 2026) — Russell 2000 9-day streak

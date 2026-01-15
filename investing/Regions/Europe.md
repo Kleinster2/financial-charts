@@ -200,6 +200,8 @@ LVMH, Hermès, Kering = global luxury dominance.
 - [[CETA]] — Canada (provisional since 2017)
 - [[EU-Japan EPA]] — Japan (model FTA, fast ratification)
 
+See [[EU]] for EU-specific trade policy including [[EU-China EV tariffs]].
+
 ### Key actors
 - [[ASML]] — lithography monopoly
 - [[Rheinmetall]] — defense champion

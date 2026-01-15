@@ -51,6 +51,7 @@ Philippe Laffont worked at Tiger Management 1996-1999.
 | Snowflake | Data |
 | ServiceTitan | Software |
 | Chime | Fintech |
+| [[Supabase]] | Developer tools |
 
 Active crossover investor, especially in enterprise software.
 

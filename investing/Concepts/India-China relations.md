@@ -49,6 +49,7 @@ High-level committee headed by former cabinet secretary Rajiv Gauba recommended 
 
 ---
 
+## Chinese dumping — Jan 2026**Separate from thawing:** While India lifts contract restrictions, China also flooding India with cheap goods.Arvind Subramanian (former CEA): "Chinese mercantilism" — rapidly exporting and diverting goods to developing countries including India, weighing on domestic economy.| Dynamic | Effect ||---------|--------|| Cheap Chinese goods | Undercuts domestic manufacturers || Indian response | Limited — needs Chinese tech for clean energy || Political tension | Thawing on infra, but dumping harms industry |**Paradox:** India easing restrictions on Chinese firms (infrastructure) while being harmed by Chinese exports (consumer/industrial goods).*Source: Bloomberg TV, Jan 9, 2026*---
 ## Remaining restrictions
 
 | Area | Status |

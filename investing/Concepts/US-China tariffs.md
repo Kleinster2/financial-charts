@@ -49,6 +49,26 @@ Part of [[US-China trade]] umbrella.
 | **Nov 2025** | Trump-Xi meeting extends deal to Nov 2026 |
 | **Nov 2025** | Fentanyl tariff cut to 10%, general rate to 49% |
 | **Dec 2025** | 178 product exclusions extended |
+| **Jan 14, 2026** | Trump announces 25% tariff on any country doing business with [[Iran]] |
+
+---
+
+## Iran-linked tariff escalation (Jan 14, 2026)
+
+Trump announced 25% tariff on any country "doing business with Iran" — **could push China tariffs to 74%+**.
+
+| Current | Add-on | Potential total |
+|---------|--------|-----------------|
+| 49% (general) | +25% (Iran) | **74%+** |
+
+**China exposure:**
+- $9B+ annual trade with Iran (ex-oil)
+- 90%+ of Iran's oil exports go to China (via intermediaries)
+- Foreign Ministry: "No winners in a tariff war"
+
+**Implementation unclear:** No executive action published yet. "Doing business" undefined. Relies on IEEPA (Supreme Court challenge pending).
+
+See [[Iran]] for full context.
 
 ---
 
@@ -95,6 +115,28 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 
 ---
 
+## Statutory vs actual tariff rates (Jan 2026)
+
+**Key finding (Gopinath/Neiman, Dec 2025):** Statutory tariff rates ≠ actual rates paid.
+
+| Metric | Value |
+|--------|-------|
+| Average statutory rate | 27.4% (late Sept) |
+| Average rate actually paid | **~13.7%** (half statutory) |
+
+**Why the gap:**
+
+1. **"On the water exemption"** — shipment lags mean months pass before new tariffs apply
+2. **Product/company exemptions** — specific breaks for certain goods/firms
+3. **Investment incentives** — favorable treatment for US manufacturing commitments
+4. **USMCA** — Canada/Mexico trade largely unaffected
+
+**Gopinath quote:** "The peak of the storm may have passed, but as Dorothy observed in The Wizard of Oz, 'we're not in Kansas anymore.'"
+
+**Implication:** Headline tariff rates overstate actual trade friction. Damage may take years to materialize.
+
+---
+
 ## Trade flow impact
 
 | Metric | 2017 (pre-war) | 2025 |
@@ -111,8 +153,13 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 
 **Winners from tariffs:**
 - US domestic manufacturers (protection)
-- Mexico/Vietnam (supply chain shift)
+- Mexico/Vietnam/SEA (supply chain shift)
 - Tariff revenue plays (if sustained)
+
+**SEA resilience (Jan 2026):**
+- [[Vietnam Tech]]: Q4 GDP +8%, $134B trade surplus (record)
+- [[Singapore Tech]]: 2025 GDP +4.8%
+- Both negotiated favorable rates (~20% vs 46% initial)
 
 **Losers:**
 - US importers (higher costs)
@@ -151,6 +198,8 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 - [White House - Trade Deal Fact Sheet](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/)
 - [CNBC - Supreme Court Stakes](https://www.cnbc.com/2026/01/08/the-supreme-court-may-rule-friday-on-trumps-tariffs-heres-whats-at-stake-for-the-economy.html)
 - [Fortune - Military Budget Impact](https://fortune.com/2026/01/08/us-supreme-court-ruling-trump-tariffs-military-budget/)
+- Bloomberg Opinion: What Humming Export Machines Mean for the Trade War (Daniel Moss, Jan 11, 2026)
+- Gopinath & Neiman: Tariff rates paper (Dec 2025)
 
 ---
 

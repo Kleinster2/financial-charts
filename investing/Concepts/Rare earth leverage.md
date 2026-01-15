@@ -93,8 +93,28 @@ In response to [[Export controls]] on semiconductors:
 | EU Critical Raw Materials Act | Policy phase |
 | Recycling programs | Nascent |
 | Magnet redesign (less rare earth) | R&D |
+| **Japan deep-sea mining** | Testing (Jan 2026) |
 
 Timeline to reduce dependence: 10+ years minimum.
+
+---
+
+## Japan domestic sourcing attempt
+
+**[[Japan Chikyu rare earth mission 2026-01]]** — World's first attempt to mine rare earths from 6km deep seabed.
+
+| Detail | Value |
+|--------|-------|
+| Location | Minamitori Island (1,900 km SE of Tokyo) |
+| Depth | ~6 km (unprecedented) |
+| Investment | 40B yen ($250M) since 2018 |
+| Timeline | Test Jan-Feb 2026; full trial Feb 2027 |
+
+**Why it matters**: Japan's only path to domestic rare earth production. Would reduce dependence on China (currently 60%, down from 90% in 2010).
+
+**Challenge**: Previously uneconomical, but China weaponization of supply may change calculus.
+
+**China response**: Naval fleet observed near island during June 2025 surveys. Beijing watching closely.
 
 ---
 
@@ -136,3 +156,5 @@ A less obvious but critical dependency:
 - [[China retaliatory toolkit]] — Rare earths as one tool among many
 - [[Export controls]] — Western restrictions that trigger retaliation
 - [[Dutch seizure of Nexperia]] — 2025 rare earth escalation example
+- [[Japan Chikyu rare earth mission 2026-01]] — Japan's domestic sourcing attempt
+- [[China-Japan relations]] — current escalation context

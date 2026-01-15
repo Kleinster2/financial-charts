@@ -24,7 +24,15 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 
 ## AI leadership
 
-**Alexandr Wang** (Scale AI founder) hired summer 2025 to lead Meta AI efforts. Now recruiting aggressively including Manus team.
+**Meta Superintelligence Labs** — New AI division (2025):
+
+| Person | Role | Background |
+|--------|------|------------|
+| **Alexandr Wang** | Co-head | Scale AI founder |
+| **[[Nat Friedman]]** | Co-head, Product | GitHub CEO, NFDG fund |
+| **[[Daniel Gross]]** | Co-head, Compute | YC partner, NFDG fund, SSI co-founder |
+
+Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring minority stake in NFDG (Friedman/Gross's $1.1B AI fund).
 
 **Vision:** Zuckerberg racing to build "personal superintelligence"
 
@@ -147,9 +155,30 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 
 | Project | Location | Meta Share | Structure |
 |---------|----------|------------|-----------|
-| **Hyperion** | Louisiana | $5.4B | $27B JV with [[Blue Owl]], Meta 20% equity |
+| **Hyperion** | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
 
 Hyperion: 5GW eventual capacity, first phase 2028. **Not included in $44B CIP.**
+
+---
+
+## $60B financing (Oct 2025)
+
+**Largest AI capital raise in history:**
+
+| Tranche | Size | Structure | Notes |
+|---------|------|-----------|-------|
+| **SPV (off-balance-sheet)** | $30B | Morgan Stanley → Blue Owl | Largest private capital deal ever |
+| **Corporate bonds** | $30B | Investment-grade | Largest IG offering of 2025 |
+
+**Why off-balance-sheet matters:**
+- Preserves debt capacity for M&A
+- Avoids earnings volatility from construction
+- Maintains credit ratings
+- Meta only responsible for lease payments, not construction risk
+
+**Context:** Morgan Stanley estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
+
+See [[AI infrastructure financing]].
 
 **CFO warning:** Depreciation spike coming in 2026-2027 when CIP assets activate. Currently in "buy now, deploy later" mode.
 
@@ -166,9 +195,9 @@ Hyperion: 5GW eventual capacity, first phase 2028. **Not included in $44B CIP.**
 | Primary chip | [[NVIDIA]] GPUs |
 | Foundry exposure | [[TSMC]] (via NVIDIA) |
 | 2025 AI M&A | ~$4B+ (Manus + Rivos) |
-| AI lead | Alexandr Wang (ex-Scale AI) |
+| AI leads | Alexandr Wang + [[Nat Friedman]] |
 
-*Updated 2026-01-04*
+*Updated 2026-01-14*
 
 ---
 

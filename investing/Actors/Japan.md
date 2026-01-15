@@ -42,6 +42,28 @@ See [[China-Japan relations]] for full analysis.
 
 ---
 
+## Rare earth independence
+
+See [[Japan Chikyu rare earth mission 2026-01]].
+
+**The problem**: Japan 60% dependent on China for rare earths (down from 90% in 2010). Almost 100% dependent for heavy REEs like [[Dysprosium]].
+
+**The solution**: Minamitori Island deep-sea mining project.
+
+| Metric | Value |
+|--------|-------|
+| Investment | 40B yen ($250M) since 2018 |
+| Current phase | Test mission (Jan-Feb 2026) |
+| Next phase | Full mining trial (Feb 2027) |
+| Depth | ~6 km (world first) |
+
+**Diversification to date**:
+- Sojitz/Lynas partnership (Australian rare earths)
+- Recycling programs
+- Manufacturing processes using less REE
+
+---
+
 ## Defense posture
 
 | Initiative | Status |
@@ -99,8 +121,10 @@ See [[Japan Semiconductor Revival]].
 
 - [[China-Japan relations]] — escalating tensions
 - [[Japan Semiconductor Revival]] — chip strategy
+- [[Japan Chikyu rare earth mission 2026-01]] — domestic rare earth mining attempt
 - [[Taiwan]] — contingency trigger
 - [[US-China security]] — Japan as key US ally
+- [[Rare earth leverage]] — China's weapon, Japan's vulnerability
 - [[Critical minerals]] — China using as weapon
 - [[Toyota]] — largest Japanese company
 - [[EU-Japan EPA]] — EU trade deal (model FTA)

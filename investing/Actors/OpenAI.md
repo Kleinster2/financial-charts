@@ -130,9 +130,19 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 *Updated 2026-01-01*
 
+## Key people
+
+| Person | Role |
+|--------|------|
+| [[Sam Altman]] | CEO |
+| [[Kevin Weil]] | CPO (joined 2024, ex-Twitter/Instagram) |
+
+---
+
 ## Related
 
 - [[Sam Altman]] — CEO and founder
+- [[Kevin Weil]] — CPO
 - [[Jony Ive]] — partner (AI device project)
 - [[Anthropic]] — competitor (Claude, more efficient)
 - [[Stability AI]] — competitor (Stable Diffusion, image gen)

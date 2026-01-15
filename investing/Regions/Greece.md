@@ -12,7 +12,7 @@ Emerging market → developed market transition. Index upgrades unlocking passiv
 |----------------|--------|------|
 | **Stoxx** | Review expected | Apr 2026 → effective Sep 2026 |
 | **FTSE Russell** | Confirmed | Sep 2026 |
-| **MSCI** | Expected watchlist | 2026 |
+| **[[MSCI]]** | Expected watchlist | 2026 |
 
 **Passive inflows on Stoxx upgrade:** $962M (JPMorgan, Pankaj Gupta team)
 
@@ -23,7 +23,7 @@ Emerging market → developed market transition. Index upgrades unlocking passiv
 | Index | Return | Notes |
 |-------|--------|-------|
 | **Athens Stock Exchange** | **+129%** | Top performer |
-| MSCI ACWI | +60% | Global benchmark |
+| [[MSCI]] ACWI | +60% | Global benchmark |
 | Stoxx Europe 600 | +42% | European benchmark |
 
 ---
@@ -69,7 +69,7 @@ Emerging market → developed market transition. Index upgrades unlocking passiv
 
 **Bull case:**
 - $962M passive inflows on Stoxx inclusion
-- FTSE Russell + MSCI upgrades = more flows
+- FTSE Russell + [[MSCI]] upgrades = more flows
 - Outperformance may continue on flows
 - European equities broadly favored (RBA)
 

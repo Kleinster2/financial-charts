@@ -9,16 +9,58 @@ aliases: []
 
 ## Why Vietnam matters
 
-China+1 beneficiary:
+China+1 beneficiary and tariff resilience story:
 
 | Metric | Value |
 |--------|-------|
 | Population | 100 million |
-| GDP growth | 6-7% |
+| GDP growth Q4 2025 | **+8%** (fastest since 2011) |
+| GDP growth 2025 | ~7.5% |
 | Manufacturing FDI | Surging |
 | Tech strategy | Manufacturing → design |
 
 Primary beneficiary of supply chain diversification.
+
+---
+
+## Economic data (Jan 2026)
+
+**GDP growth (YoY):**
+
+| Quarter | GDP YoY |
+|---------|---------|
+| Dec 2022 | ~6% |
+| Mar 2023 | ~3% |
+| Jun 2023 | ~4% |
+| Sep 2023 | ~5% |
+| Dec 2023 | ~6.5% |
+| Mar 2024 | ~6% |
+| Jun 2024 | ~6.5% |
+| Sep 2024 | ~7.5% |
+| Dec 2024 | ~7% |
+| Mar 2025 | ~7% |
+| Jun 2025 | ~8% |
+| Sep 2025 | ~8% |
+| **Dec 2025** | **~8%+** |
+
+*Source: National Statistics Office*
+
+---
+
+## Tariff resilience
+
+Despite US tariffs, Vietnam is surging:
+
+| Metric | Value |
+|--------|-------|
+| Initial tariff rate | 46% |
+| Negotiated rate | **20%** (engaged with Trump early) |
+| Dec 2025 exports | +~25% MoM |
+| US trade surplus | **$134B** (record) |
+
+**Key insight:** Vietnam negotiated quickly after initial tariffs — settled for 20%, roughly SEA average.
+
+See [[US-China tariffs]] for tariff structure.
 
 ---
 
@@ -148,7 +190,7 @@ NVIDIA sees Vietnam opportunity.
 | Emerging | VinFast (VFS) |
 | Strategy | Manufacturing → design |
 
-*Updated 2026-01-01*
+*Updated 2026-01-11*
 
 ---
 

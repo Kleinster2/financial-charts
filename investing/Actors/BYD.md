@@ -183,7 +183,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 **Bear case:**
 - US market blocked indefinitely
 - Margin pressure from China competition
-- European tariff risk
+- ~~European tariff risk~~ → reduced by [[EU-China EV tariffs]] deal (Jan 2026)
 - BYD Semiconductor IPO delays
 - Berkshire reducing stake (signal?)
 
@@ -207,3 +207,4 @@ See [[China retaliatory toolkit]] for the broader pattern.
 - [[China]] — home market
 - [[Export controls]] — constrains US market access
 - [[EV market 2026]] — market context
+- [[EU-China EV tariffs]] — European market access preserved

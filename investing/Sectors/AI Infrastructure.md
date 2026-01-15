@@ -136,10 +136,22 @@ Total hyperscaler capex approaching $300B annually.
 
 ---
 
+## Sub-sectors
+
+| Sub-sector | Key players | Sister concept |
+|------------|-------------|----------------|
+| **[[AI Storage]]** | [[Pure Storage]], VAST Data, Weka, NetApp | [[AI storage bottleneck]] |
+| **AI Networking** | Arista, Cisco, Broadcom | — |
+| **Data Center Cooling** | Vertiv, Modine, Schneider | [[Water constraints]] |
+| **Data Center Power** | Eaton, Schneider, utilities | [[Power constraints]] |
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — demand
 - [[Power constraints]] — bottleneck
+- [[AI storage bottleneck]] — storage-specific constraint
 - [[Project Stargate]] — $500B initiative
 - [[CES 2026]] — product announcements
 - [[Robotics]] — next AI infrastructure wave

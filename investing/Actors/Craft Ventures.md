@@ -15,6 +15,7 @@ David Sacks is now Whitehouse AI & Crypto Czar. His VC investments and political
 | Company | What | Status |
 |---------|------|--------|
 | **[[Groq]]** | LPU inference chips | Sold to [[NVIDIA]] $20B (Dec 2025) |
+| [[Supabase]] | Postgres BaaS | Series C investor |
 | SpaceX | Space | Private |
 | Palantir | Data/defense | Public |
 | Various crypto | — | — |

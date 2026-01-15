@@ -87,6 +87,8 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 **Jan 9, 2026:** Vice Chairman Mark Nelson attended White House meeting. Trump seeking $100B investment commitment. Industry skeptical but Chevron best positioned as only current operator.
 
+**Jan 12, 2026 — Exxon exclusion benefits Chevron:** Trump said he's "inclined to keep Exxon out" after Woods called Venezuela "uninvestable." If [[Exxon]] excluded, Chevron's competitive position strengthens — less competition for contracts, expansion opportunities.
+
 ---
 
 ## Hess acquisition (2024)

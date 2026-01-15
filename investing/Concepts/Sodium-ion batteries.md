@@ -32,7 +32,7 @@ Next-generation battery chemistry using sodium instead of lithium. No lithium, c
 | **[[CATL]]** | Naxtra | Mass production Q3 2025 | 10 GWh → 30 GWh (2026) |
 | **[[BYD]]** | MC Cube-SIB | Grid storage focus | 30 GWh factory (broke ground Jan 2024) |
 | **HiNa Battery** | — | China startup | Early production |
-| **Faradion** | — | UK (acquired by Reliance) | Pilot scale |
+| **Faradion** | — | UK (acquired by [[Reliance Industries]]) | Pilot scale |
 | **Natron Energy** | — | US, data center focus | Niche |
 
 China dominates — CATL and BYD alone control 50%+ of global EV battery market.

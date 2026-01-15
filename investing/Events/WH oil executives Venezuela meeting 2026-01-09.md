@@ -187,6 +187,24 @@ Senate voted 52-47 to advance bipartisan resolution restricting Trump's Venezuel
 
 ---
 
+## Aftermath — Trump retaliates against Exxon (Jan 12)
+
+Three days after the meeting, Trump publicly criticized Exxon for Woods' "uninvestable" remarks:
+
+| Date | Trump statement |
+|------|-----------------|
+| Jan 12, 2026 | "I didn't like Exxon's response" |
+| | "I'd probably be inclined to keep Exxon out" |
+| | "They're playing too cute" |
+
+**Context:** Comments made aboard Air Force One returning from Palm Beach.
+
+**On guarantees:** When asked what protections he offered oil companies, Trump said past problems happened "because they didn't have Trump as a president, they had stupid people."
+
+**Implication:** Trump signaling he'll reward companies that publicly support his Venezuela agenda and punish those who push back. [[Chevron]] — the only current operator — may benefit if [[Exxon]] excluded.
+
+---
+
 ## Sources
 
 - [CNBC](https://www.cnbc.com/2026/01/09/trump-venezuela-oil-executives-white-house-meeting.html)

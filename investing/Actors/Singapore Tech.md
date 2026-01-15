@@ -15,8 +15,24 @@ Strategic positioning:
 |--------|-------|
 | Population | 5.9 million |
 | GDP per capita | $83,000+ |
+| GDP growth 2025 | **+4.8%** (stronger than expected) |
 | SWFs | GIC + Temasek (~$1.2T) |
 | Tech role | Asia-Pacific hub |
+
+---
+
+## Tariff impact (Jan 2026)
+
+**Resilience despite tariffs:**
+- GDP +4.8% in 2025 (beat expectations)
+- Economists gaming out MAS tightening
+
+**But leadership warns:**
+- PM: Tariffs "weren't the act of a friend"
+- "Fundamental break from practices of the last half century"
+- Country needs to "rethink its development strategy"
+
+Singapore rose to prosperity in free trade era — that era may be ending.
 
 ---
 
@@ -132,7 +148,7 @@ See [[AI in banking]] for full detail.
 | Key companies | Sea, Grab |
 | Fab presence | GlobalFoundries |
 
-*Updated 2026-01-01*
+*Updated 2026-01-11*
 
 ---
 
@@ -143,4 +159,5 @@ See [[AI in banking]] for full detail.
 - [[Sea Group]] — key company (Shopee, Garena)
 - [[Grab]] — key company (super-app)
 - [[GlobalFoundries]] — semiconductor fab
+- [[US-China tariffs]] — tariff impact context
 
