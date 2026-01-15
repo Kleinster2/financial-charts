@@ -148,15 +148,15 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 | OEM | Nov Forecast | Jan Forecast | Revision |
 |-----|--------------|--------------|----------|
 | Apple | ~-0.5% | ~-1% | -0.5pp |
-| Samsung | ~-0.5% | ~-1% | -0.5pp |
-| Xiaomi | ~-2.5% | ~-2.5% | — |
+| Samsung | ~0% | ~-1% | **-1pp** |
+| Xiaomi | ~0% | ~-2.5% | **-2.5pp** |
 | Vivo | ~+1% | ~-1% | **-2pp** |
-| Oppo | ~+2% | ~-1% | **-3pp** |
+| Oppo | ~+2.5% | ~-1% | **-3.5pp** |
 | Honor | ~-2% | ~-4% | **-2pp** |
 | Others | ~+2% | ~-2% | **-4pp** |
-| **Overall** | ~0% | ~-2.1% | **-2.1pp** |
+| **Overall** | ~+0.5% | ~-0.5% | **-1pp** |
 
-**Takeaway:** Oppo had biggest absolute revision (-3pp). "Others" (smaller Chinese brands) crushed (-4pp). Apple/Samsung barely moved — margin buffer protects forecasts.
+**Takeaway:** Oppo had biggest absolute revision (-3.5pp). Xiaomi also hit hard (-2.5pp). "Others" (smaller Chinese brands) crushed (-4pp). Apple barely moved — margin buffer protects forecasts.
 
 **Key dynamics:**
 - AI buildout causing producers to prioritize HBM over commodity DRAM
