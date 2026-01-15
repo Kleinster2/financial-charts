@@ -233,6 +233,21 @@ See [[GPU deployment bottleneck]] for full analysis.
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **1.1%** | ~$140 | $5T market cap, fell from 264M to 257M shares |
+| Q4 2025 | 1.15% | $— | |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+**Pattern:** Like [[TSMC]], SI stayed low despite parabolic AI run. Shorts capitulated.
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -243,6 +258,7 @@ See [[GPU deployment bottleneck]] for full analysis.
 | **2026 backlog** | **$275B** |
 | **CY2028 Blackwell+Rubin revenue** | **$500B+ booked** |
 | **Stock YTD** | **+37%** (underperforming memory) |
+| Short interest | **1.1%** (Jan 2026) |
 
 *Updated 2026-01-15*
 

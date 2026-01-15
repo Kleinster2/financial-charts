@@ -184,6 +184,19 @@ See [[AI infrastructure financing]].
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **1.27%** | ~$620 | Rose 14.8% — highest Mag 7 ex-Tesla |
+| Q4 2025 | 1.10% | $— | |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -196,6 +209,7 @@ See [[AI infrastructure financing]].
 | Foundry exposure | [[TSMC]] (via NVIDIA) |
 | 2025 AI M&A | ~$4B+ (Manus + Rivos) |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
+| Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-Tesla |
 
 *Updated 2026-01-14*
 

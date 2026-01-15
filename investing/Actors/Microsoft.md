@@ -119,6 +119,19 @@ See [[AI datacenter architecture]] for full design patterns.
 
 ---
 
+## Short interest history (quarterly)
+
+| Quarter | SI % float | Stock | Note |
+|---------|------------|-------|------|
+| **Q1 2026** | **0.65%** | ~$477 | Lowest of Mag 7 |
+| Q4 2025 | 0.70% | $— | Fell from 52.5M to 48.5M shares |
+| Q3 2025 | — | $— | |
+| Q2 2025 | — | $— | |
+
+See [[Short interest]] for interpretation framework.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -128,6 +141,7 @@ See [[AI datacenter architecture]] for full design patterns.
 | Custom silicon | Maia (AI), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
 | Fairwater GPU building | 300MW, 2-story, liquid-cooled |
+| Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
 *Updated 2026-01-04*
 
