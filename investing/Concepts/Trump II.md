@@ -115,6 +115,37 @@ See [[Venezuela repatriation strategy]].
 
 ---
 
+## Economic effects (Posen/Peterson Institute analysis, Jan 2026)
+
+**Thesis:** Stagflationary effects kicking in, should be undeniable by April 2 (Liberation Day anniversary).
+
+| Metric | Current | Forecast |
+|--------|---------|----------|
+| CPI | 2.7% (Nov 2025) | **4%+ by Q3 2026** |
+| Home health-care costs | **12% annual rate** | Rising (labor shortages) |
+
+**Why delayed impact:**
+- Decision-making paralysis: businesses waiting for certainty on tariffs, exemptions, court rulings
+- Stockpiling buffer: companies front-loaded imports, now depleted
+- Migration lag: undocumented families delaying departure decisions
+
+**Deportation reality check:**
+- Trump claims: ~1M deported in first year
+- Data shows: employment in migrant-dependent industries (health/child-care, agriculture, food processing, residential construction) **unchanged**
+- Wages in those sectors: **not rising** (would indicate labor shortages)
+- Implication: large-scale departures haven't happened yet
+
+**Investment duality:**
+- AI-related capex: driving GDP growth (Q2-Q3 2025)
+- Non-AI private investment: **near zero growth**
+- Brexit parallel: UK private investment flatlined for years post-referendum
+
+**Adam Posen:** "AI investment and productivity gains may offset contraction from tariffs and deportations in 2026. But stimulus from AI boom and looser fiscal policy will compound inflationary pressures."
+
+See [[Peterson Institute]].
+
+---
+
 ## Investment themes
 
 **Winners:**
@@ -122,17 +153,20 @@ See [[Venezuela repatriation strategy]].
 - Domestic energy
 - Border security tech
 - Friendshoring beneficiaries
+- AI infrastructure (offsetting drag)
 
 **Losers:**
 - China-exposed companies
 - EM with US tension
 - Companies dependent on immigrant labor
+- Sectors exposed to tariff pass-through
 
 **Volatility:**
 - Oil (intervention risk)
 - Venezuela rebuild (execution risk)
 - Tariff-sensitive sectors
 - EM currencies
+- Inflation-sensitive assets
 
 ---
 
@@ -165,6 +199,9 @@ See [[Venezuela repatriation strategy]].
 - [[India-China relations]] — thawing due to US pressure
 - [[BHEL]], [[Larsen & Toubro]] — losers from India-China opening
 
+### Economic analysis
+- [[Peterson Institute]] — Adam Posen stagflation thesis
+
 ---
 
-*Updated 2026-01-10*
+*Updated 2026-01-15*
