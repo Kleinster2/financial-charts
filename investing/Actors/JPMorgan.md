@@ -7,6 +7,90 @@ aliases: [JPM]
 
 ---
 
+## Financials
+
+### Annual results (10 years)
+
+| Year | Revenue | Net Income | EPS | ROE | Stock Price |
+|------|---------|------------|-----|-----|-------------|
+| 2016 | $96B | $25B | $6.19 | 10% | $86 |
+| 2017 | $100B | $24B | $6.31 | 10% | $107 |
+| 2018 | $109B | $32B | $9.00 | 13% | $98 |
+| 2019 | $115B | $36B | $10.72 | 14% | $139 |
+| 2020 | $120B | $29B | $8.88 | 11% | $127 |
+| 2021 | $131B | $48B | $15.36 | 17% | $158 |
+| 2022 | $129B | $38B | $12.09 | 13% | $134 |
+| 2023 | $158B | $50B | $16.23 | 16% | $170 |
+| 2024 | $173B | $58B | $19.75 | 17% | $242 |
+| 2025E | $187B | $58B | $20.02 | 16% | $330 |
+
+*Source: Company filings, Stock Analysis. Stock price = year-end close.*
+
+### Quarterly results (12 quarters)
+
+| Quarter | Revenue | Net Income | EPS | NII | Stock Price |
+|---------|---------|------------|-----|-----|-------------|
+| Q1 '23 | $39.3B | $12.6B | $4.10 | $20.8B | $130 |
+| Q2 '23 | $42.4B | $14.5B | $4.75 | $21.9B | $144 |
+| Q3 '23 | $40.7B | $13.2B | $4.33 | $22.9B | $146 |
+| Q4 '23 | $38.6B | $9.3B | $3.04 | $24.2B | $170 |
+| Q1 '24 | $42.5B | $13.4B | $4.44 | $23.1B | $199 |
+| Q2 '24 | $51.0B | $18.1B | $6.12 | $22.9B | $203 |
+| Q3 '24 | $43.3B | $12.9B | $4.37 | $23.5B | $211 |
+| Q4 '24 | $43.7B | $14.0B | $4.81 | $23.5B | $242 |
+| Q1 '25 | $44.9B | $14.6B | $5.07 | $23.4B | $250 |
+| Q2 '25 | $45.7B | $15.0B | $5.24 | $23.1B | $268 |
+| Q3 '25 | $47.1B | $14.4B | $5.07 | $23.4B | $295 |
+| Q4 '25 | $46.8B | $13.0B | $4.63 | $25.1B | $330 |
+
+*Source: Company filings, CNBC. Stock price = quarter-end close. Q4 '25 adj. EPS $5.23.*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **NIM** | 2.4% | 2.7% | 2.8% | 2.9% |
+| **Efficiency ratio** | 58% | 55% | 52% | 52% |
+| **CET1 ratio** | 13.2% | 15.0% | 15.7% | 15.0% |
+| **NCO rate** | 0.3% | 0.5% | 0.6% | 0.7% |
+
+**NIM** = Net interest margin. **NCO** = Net charge-off rate.
+
+### Segment breakdown (FY2024)
+
+| Segment | Revenue | % of Total | Net Income |
+|---------|---------|------------|------------|
+| **Consumer & Community Banking (CCB)** | $72B | 40% | $17B |
+| **Commercial & Investment Bank (CIB)** | $70B | 39% | $20B |
+| **Asset & Wealth Management (AWM)** | $22B | 12% | $5B |
+| Corporate/Other | $17B | 9% | — |
+
+**Note:** CIB reorganized Q2 2024 (merged Corporate & Investment Bank + Commercial Banking).
+
+### Valuation
+
+| Metric | Current | 10-Year Avg |
+|--------|---------|-------------|
+| P/E | 16.4x | 11.9x |
+| P/B | 2.7x | 1.6x |
+| ROE | 16.4% | ~15% |
+| ROA | 1.4% | ~1.2% |
+
+**Trading rich:** P/E 36% above historical average; P/B near 10-year high.
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | $4.4T |
+| Stockholders' equity | $362B |
+| Book value/share | $125 |
+| Tangible book value/share | $105 |
+| Shares outstanding | 2.72B (-3% YoY) |
+| AUM (AWM) | $4.0T |
+
+---
+
 ## Why JPMorgan matters for AI infra
 
 JPMorgan is the most active bank in AI data center financing:
@@ -146,12 +230,56 @@ JPM is #1; others participate in syndicates.
 | Metric | Value |
 |--------|-------|
 | Ticker | JPM |
-| Assets | $4T+ |
-| Market cap | ~$600B+ |
+| Price | ~$330 |
+| Market cap | ~$900B |
+| Assets | $4.4T |
 | CEO | Jamie Dimon |
-| AI infra role | Lead construction lender |
+| Dividend yield | ~2% |
 
-*Updated 2026-01-11*
+---
+
+## Q4 2025 Earnings (Jan 13, 2026)
+
+| Metric | Actual | Estimate | Result |
+|--------|--------|----------|--------|
+| **Adj. EPS** | $5.23 | $5.01 | Beat |
+| **Revenue** | $46.77B | $46.2B | Beat |
+| **NII** | $25.1B | ~$25B | In-line |
+
+### Highlights
+
+- **Equities trading +40%** to $2.9B — hedge fund business strong
+- Revenue +7% YoY
+- NII +7% to $25.1B
+- Headline profit down 7% to $13B due to **$2.2B reserve for Apple Card portfolio** acquisition from Goldman Sachs
+
+### 2026 Guidance
+
+| Metric | Guidance |
+|--------|----------|
+| NII | ~$103B |
+| Adj. expenses | ~$105B |
+
+### Dimon Commentary
+
+- Economy "resilient," consumers still spending, labor market softening but not worsening
+- Warning: "markets seem to underappreciate potential hazards" — geopolitics, sticky inflation, elevated asset prices
+
+---
+
+## Credit card rate cap risk (Jan 2026)
+
+Trump proposed 10% cap on credit card interest rates (current avg: 22.3%).
+
+| Impact | Detail |
+|--------|--------|
+| JPM stock reaction | -1%+ on announcement |
+| Apple Card exposure | Just acquired $17B portfolio from Goldman |
+| Industry warning | 175M accounts could close if cap implemented |
+
+JPM is doubling down on consumer credit (Apple Card) just as regulatory risk rises. Watch for Dimon comments on earnings call.
+
+*Updated 2026-01-13*
 
 ---
 
@@ -176,9 +304,21 @@ See [[Venezuela]].
 
 ## Related
 
+### AI infrastructure
 - [[Crusoe Energy]] — customer ($2.3B construction loan)
 - [[Blue Owl]] — partner (co-financier)
 - [[Blackstone]] — partner (co-financier)
 - [[CoreWeave]] — customer (financing)
 - [[AI infrastructure financing]] — thesis context
+
+### Peers
+- [[Bank of America]] — #2 US bank
+- [[Wells Fargo]] — #4 US bank
+- [[Citigroup]] — peer
+- [[Goldman Sachs]] — peer (investment banking)
+
+### Risks
+- [[Credit card rate cap]] — Trump 10% proposal, Apple Card exposure
+
+### Other
 - [[Venezuela]] — 60-year presence, trade finance opportunity

@@ -182,20 +182,37 @@ See [[Power constraints]] and [[Clean energy for AI]].
 
 ---
 
+## Sub-sectors
+
+| Sub-sector | Key players | Sister concept |
+|------------|-------------|----------------|
+| **Colocation REITs** | [[Equinix]], [[Digital Realty]] | — |
+| **GPU clouds (neoclouds)** | [[CoreWeave]], [[Lambda Labs]] | [[Neocloud financing]] |
+| **Cooling/power equipment** | [[Vertiv]], [[Schneider Electric]], [[Modine Manufacturing]] | [[Water constraints]] |
+| **Crypto-to-AI pivots** | [[Core Scientific]], [[Hut 8]], [[IREN]] | [[Crypto-to-AI pivot]] |
+
+---
+
 ## Related
 
+### Actors
 - [[Equinix]] — largest DC REIT
 - [[Digital Realty]] — hyperscale REIT
 - [[CoreWeave]] — GPU cloud leader
 - [[Vertiv]] — cooling/power infrastructure
-- [[Schneider Electric]] — power management
+
+### Adjacent sectors
 - [[AI Infrastructure]] — broader AI infra thesis
-- [[AI hyperscalers]] — customers
+- [[AI Storage]] — storage layer sub-sector
+
+### Concepts
 - [[Power constraints]] — key bottleneck
 - [[Clean energy for AI]] — sustainability angle
 - [[Nuclear power for AI]] — power solution
-- [[Crypto-to-AI pivot]] — sector trend
-- [[Neocloud financing]] — financing patterns
+- [[Neocloud financing]] — financing patterns (→ GPU clouds sub-sector)
+- [[Crypto-to-AI pivot]] — sector trend (→ crypto pivots sub-sector)
+
+### Geographies
 - [[Ashburn]] — major hub
 
 ---

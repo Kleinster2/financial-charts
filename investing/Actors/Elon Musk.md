@@ -36,6 +36,12 @@ Musk's combined entities represent significant chip demand and policy influence:
 - **Geopolitical:** Strongly anti-Maduro; likely to advocate for digital freedom/connectivity.
 - **Starlink:** Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding Venezuela, especially in remote areas or as an alternative to state-controlled telecom.
 
+**Iran (Jan 12, 2026):**
+- Trump said he'll call Musk about deploying [[Starlink]] to restore internet amid protests
+- "He's very good at that kind of thing"
+- Iran jamming Starlink with military-grade systems
+- Echoes 2022 Mahsa Amini protests offer
+
 ---
 
 ## Investment network

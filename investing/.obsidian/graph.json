@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-path:Meta -path:Daily ",
+  "search": "-path:Meta -path:Daily -Home",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -67,6 +67,6 @@
   "repelStrength": 9.79166666666667,
   "linkStrength": 1,
   "linkDistance": 252,
-  "scale": 0.336102686312384,
+  "scale": 0.30455940540980975,
   "close": true
 }

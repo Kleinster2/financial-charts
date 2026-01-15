@@ -131,12 +131,32 @@ aliases: []
 
 ---
 
+## Geopolitical deployments
+
+**Starlink as foreign policy tool:**
+
+| Deployment | Status |
+|------------|--------|
+| Ukraine | Active — $537M military contract |
+| Iran (2022) | Offered during Mahsa Amini protests |
+| **Iran (Jan 2026)** | Trump to call Musk about deployment |
+
+**Jan 12, 2026 — Iran:**
+- Internet blackout 4+ days amid protests
+- Iran using military-grade jamming to block Starlink
+- Trump: "I'm going to call [Musk] as soon as I'm finished with you"
+
+**FCC approval (Jan 10, 2026):** 7,500 additional Gen2 satellites approved — total now 15,000.
+
+---
+
 ## Related
 
 - [[SpaceX]] — parent company
 - [[Elon Musk]] — founder
 - [[Baron Capital]] — investor
 - [[Valor Equity Partners]] — investor
+- [[Iran]] — Jan 2026 deployment discussion
 
 ---
 

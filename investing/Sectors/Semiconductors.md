@@ -106,13 +106,25 @@ Design → Foundry → Packaging → Test → System integration
 
 ---
 
+## Sub-sectors
+
+| Sub-sector | Key players | Sister concept |
+|------------|-------------|----------------|
+| **Foundry** | [[TSMC]], [[Samsung]], [[Intel]] | [[Leading edge race]], [[Taiwan concentration risk]] |
+| **Memory** | [[SK Hynix]], [[Samsung]], [[Micron]] | [[Memory shortage 2025-2026]] |
+| **Equipment (WFE)** | [[ASML]], [[Applied Materials]], [[Lam Research]] | — |
+| **EDA** | [[Synopsys]], [[Cadence]] | — |
+| **OSAT** | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — demand driver
 - [[Export controls]] — geopolitical constraint
-- [[Advanced packaging]] — key bottleneck
-- [[Memory shortage 2025-2026]] — near-term theme
-- [[Taiwan]] — geographic risk
+- [[Advanced packaging]] — key bottleneck (→ OSAT sub-sector)
+- [[Memory shortage 2025-2026]] — near-term theme (→ Memory sub-sector)
+- [[Taiwan]] — geographic risk (→ Foundry sub-sector)
 
 ## Sources
 

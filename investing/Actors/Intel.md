@@ -112,14 +112,27 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 ---
 
+## Analyst coverage (Jan 2026)
+
+| Date | Firm | Rating | Price target | Note |
+|------|------|--------|--------------|------|
+| Jan 14, 2026 | **KeyBanc** | Upgrade to **Overweight** | **$60** | NVIDIA partnership, 18A progress |
+
+**Stock reaction:** +3.3% on upgrade.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | INTC (NASDAQ) |
+| Price | ~$25 |
 | HQ | Santa Clara, CA |
 | Model | IDM (design + fabs) |
 | 2nm yield | ~55% (vs TSMC 65%, Samsung 40%) |
+
+*Updated 2026-01-14*
 
 ---
 

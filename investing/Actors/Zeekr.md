@@ -84,7 +84,7 @@ Could use **Volvo's South Carolina plant** (Geely-owned):
 |-------|-------------|--------|
 | **Zeekr** | Premium EV | Geely |
 | NIO | Premium EV, battery swap | Independent |
-| XPeng | Tech-forward EV | Independent |
+| [[Xpeng|XPeng]] | Tech-forward EV | Independent |
 | [[BYD]] | Mass market to premium | Independent |
 | Li Auto | Extended range SUV | Independent |
 

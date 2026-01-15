@@ -1,6 +1,6 @@
 #actor #telecom #india #fintech
 
-**Jio Platforms** — Reliance Industries' wireless carrier. Potential India's biggest-ever IPO.
+**Jio Platforms** — [[Reliance Industries]]' wireless carrier. Potential India's biggest-ever IPO.
 
 ---
 
@@ -10,7 +10,7 @@ India's largest telecom + digital ecosystem:
 
 | Metric | Value |
 |--------|-------|
-| Parent | Reliance Industries (Mukesh Ambani) |
+| Parent | [[Reliance Industries]] (Mukesh Ambani) |
 | Business | Wireless carrier + digital services |
 | IPO status | Drafting prospectus (Jan 2026) |
 | IPO potential | **India's biggest ever** |

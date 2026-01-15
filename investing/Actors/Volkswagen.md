@@ -88,6 +88,24 @@ VW losing ground in world's largest EV market.
 
 ---
 
+## EU-China EV tariff deal (Jan 2026)
+
+**VW broke ranks** with European OEM lobby to negotiate individual tariff relief.
+
+| Detail | Value |
+|--------|-------|
+| Model affected | **Cupra Tavascan** |
+| Factory | VW Anhui (Hefei, China) |
+| Original tariff | 30.7% combined (20.7% + 10% base) |
+| VW commitment | Limit models exported, set minimum prices |
+| Expected outcome | 20.7% additional duty dropped |
+
+**Strategic significance:** VW prioritized protecting its China-built EV exports over solidarity with European OEM lobby. Under EU rules, European brands manufacturing in China face same tariffs as Chinese OEMs — origin matters, not brand.
+
+See [[EU-China EV tariffs]] for full deal details.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -128,4 +146,5 @@ VW losing ground in world's largest EV market.
 - [[GM]] — competitor (legacy pivot)
 - [[CATL]] — battery supplier
 - [[Lithium]] — battery input
+- [[EU-China EV tariffs]] — Cupra Tavascan individual review
 

@@ -74,6 +74,8 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 **Jan 9, 2026:** CEO Darren Woods attended White House meeting. Expressed deep skepticism: "To re-enter a third time would require some pretty significant changes from what we've historically seen." He further stated that Venezuela was **"uninvestable"** given the current legal and commercial frameworks.
 
+**Jan 12, 2026 — Trump retaliates:** Trump said he "didn't like Exxon's response" and is "inclined to keep Exxon out" of Venezuela. Called them "playing too cute." Signals Exxon may be excluded from Venezuela rebuild while [[Chevron]] benefits.
+
 ---
 
 ## Investment case

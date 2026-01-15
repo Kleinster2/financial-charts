@@ -147,6 +147,7 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 ## Related
 
 - [[Anthropic]] — $8B investor, primary cloud partner
+- [[Adept]] — acqui-hired team (June 2024), now Amazon AGI SF Lab
 - [[NVIDIA]] — chip supplier, NVLink Fusion partner
 - [[Marvell]] — Trainium design partner
 - [[TSMC]] — foundry for Trainium3 (3nm)

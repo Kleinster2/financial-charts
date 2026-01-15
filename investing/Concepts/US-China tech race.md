@@ -16,7 +16,7 @@ Bloomberg: "Global AI Race Shows Asia Leading as Stocks Start 2026 With Bang"
 |-------|-------------|-----------------|
 | Nasdaq-100 | ~25x | 20-30x |
 | Philly Semi | ~25x | 15-30x |
-| **MSCI Asia Pacific IT** | **~16x** | 15-22x |
+| **[[MSCI]] Asia Pacific IT** | **~16x** | 15-22x |
 
 Asia tech trades at **9x P/E discount** — has persisted for years.
 
@@ -24,7 +24,7 @@ Asia tech trades at **9x P/E discount** — has persisted for years.
 
 | Index | Return |
 |-------|--------|
-| MSCI Asia Pacific IT | **+40%** |
+| [[MSCI]] Asia Pacific IT | **+40%** |
 | Nasdaq-100 | +10% |
 | **Outperformance** | **+30pp** |
 

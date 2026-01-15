@@ -125,8 +125,29 @@ EV motors require permanent magnets with rare earth elements:
 
 ---
 
+## 4680 battery program struggles
+
+**L&F contract collapse (Jan 2026):**
+
+| Metric | Original | Revised |
+|--------|----------|---------|
+| Contract value | $2.9B | $7,386 |
+| Change | — | **-99.9997%** |
+
+South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to effectively zero due to "change in supply quantity."
+
+**4680 status:**
+- Only used in Cybertruck (20-25K units/year vs 250K Giga Texas capacity)
+- Promised $25K EV dependent on 4680 cost savings — no timeline
+- Competitors (BMW, Rivian) adopting 46XX format independently
+
+**Implications:** In-house battery strategy appears to have failed. Tesla may need to rely on external suppliers (CATL, Panasonic) for future vehicles, compressing margins.
+
+---
+
 ## For theses
 
+**[[Short Tesla]]**: 4680 failure, FSD delays, valuation disconnect
 **[[Short TSMC long Korea]]**: If Tesla/xAI anchor Samsung, bullish Korea
 **[[Automotive semiconductors]]**: Major EV maker, demand signal for auto semis
 **[[Long TSMC]]**: Dojo currently TSMC
@@ -228,6 +249,7 @@ EV motors require permanent magnets with rare earth elements:
 - [[Lucid]] — US competitor (luxury)
 - [[CATL]] — battery supplier (LFP cells)
 - [[Panasonic]] — battery supplier (Gigafactory Nevada, 4680)
+- [[L&F]] — cathode supplier (contract collapsed Jan 2026)
 - [[Lithium]] — key battery input
 - [[Samsung]] — potential foundry (Dojo next-gen)
 - [[TSMC]] — current foundry (Dojo chips)
@@ -235,4 +257,4 @@ EV motors require permanent magnets with rare earth elements:
 - [[Rare earth leverage]] — supply chain risk
 - [[Waymo]] — robotaxi competitor
 
-*Updated 2026-01-05*
+*Updated 2026-01-12*

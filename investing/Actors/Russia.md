@@ -41,7 +41,66 @@ aliases: [Russian Federation, Moscow]
 | Finance | Removed from SWIFT (major banks) |
 | Semiconductors | Cannot buy advanced chips |
 
-See [[Sanctions]], [[OFAC]] for policy details.
+See [[US Sanctions]], [[OFAC]] for policy details.
+
+---
+
+## Oil sanctions & secondary sanctions
+
+### G7 price cap ($60/barrel)
+
+| Metric | Value |
+|--------|-------|
+| Implemented | Dec 2022 |
+| Cap | $60/barrel |
+| Enforcement | Western shipping, insurance, finance |
+| Effectiveness | Leaky — shadow fleet evades |
+
+### Shadow fleet
+
+| Metric | Value |
+|--------|-------|
+| EU-sanctioned vessels | ~600 (Dec 2025) |
+| Share of Russian crude exports | ~27% via shadow fleet |
+| Characteristics | Aging tankers, opaque ownership, non-Western insurance |
+
+**2026 enforcement actions:**
+- Jan 2: Finland seized freighter *Fitburg* (suspected cable sabotage)
+- Jan 7: US Navy/Coast Guard seized tanker *Marinera* in North Atlantic
+- Ukraine drone strikes on shadow fleet tankers *Virat*, *Kairos*, *Dashan* (Nov 2025)
+
+### Secondary sanctions (Jan 2025)
+
+| Target | Impact |
+|--------|--------|
+| **Rosneft** | US companies cannot do business |
+| **Lukoil** | US companies cannot do business |
+| Coverage | ~50% of Russian oil production |
+| Mechanism | Block access to US financial system |
+
+**180+ shadow fleet tankers** designated in Jan 2025 package alone.
+
+### Effectiveness
+
+| Metric | Result |
+|--------|--------|
+| Russian oil exports | Largely stable |
+| Russian oil revenues | Only slightly reduced |
+| Price cap compliance | Widespread evasion |
+| Shadow fleet growth | Concentrated, not expanding |
+
+**Chatham House:** "Tightening the oil-price cap to increase pressure on Russia" — calls for stricter enforcement.
+
+### Comparison: Russia vs Iran approach
+
+| | Russia | [[Iran]] |
+|--|--------|------|
+| Mechanism | OFAC secondary sanctions | Tariffs (25%) |
+| Target | Rosneft, Lukoil, shadow fleet | Any country "doing business" |
+| Enforcement | Treasury, seizures | Customs (unclear) |
+| Legal basis | Traditional sanctions law | IEEPA (challenged) |
+
+Iran tariff approach is novel — using trade policy instead of financial sanctions.
 
 ---
 
@@ -99,11 +158,18 @@ See [[Sanctions]], [[OFAC]] for policy details.
 
 ## Related
 
+### Sanctions
+- [[Secondary sanctions]] — Rosneft/Lukoil, shadow fleet (traditional approach)
+- [[US Sanctions]] — comprehensive restrictions
+- [[OFAC]] — administers sanctions
+
+### Geopolitics
 - [[Venezuela]] — ally (Maduro captured)
 - [[Maduro capture 2026]] — loses ally
-- [[China]] — strategic partner
-- [[Sanctions]] — comprehensive restrictions
-- [[OFAC]] — administers sanctions
-- [[LNG]] — Europe replaced Russian gas
+- [[China]] — strategic partner, sanctions evasion route
+- [[Iran]] — fellow sanctions target (different enforcement approach)
+
+### Energy
 - [[Oil]] — major producer
+- [[LNG]] — Europe replaced Russian gas
 

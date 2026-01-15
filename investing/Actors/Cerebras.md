@@ -15,8 +15,9 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$4B |
-| Raised | $720M+ |
+| Valuation | **~$22B** (Jan 2026 talks) |
+| Previous valuation | $8.1B (Sep 2025) |
+| Total raised | $2B+ |
 | Founded | 2016 |
 | Approach | Wafer-scale integration |
 | Strategic position | Last independent SRAM player |
@@ -79,6 +80,38 @@ Biggest chip ever made.
 
 ---
 
+## January 2026 developments
+
+### $1B raise at $22B valuation
+
+| Metric | Value |
+|--------|-------|
+| Round size | ~$1B (in talks) |
+| Pre-money valuation | **$22B** |
+| Previous (Sep 2025) | $8.1B |
+| Increase | **2.7x in 4 months** |
+| IPO target | Q2 2026 |
+
+**Significance:** Among largest private AI hardware raises ever. Validates "last independent SRAM player" thesis.
+
+### OpenAI $10B+ compute deal (Jan 14, 2026)
+
+| Detail | Value |
+|--------|-------|
+| Deal value | **$10B+** |
+| Compute | 750 MW |
+| Duration | 2026-2028 (multi-year) |
+| Customer | [[OpenAI]] |
+
+**Game-changer:** OpenAI diversifying beyond NVIDIA. Cerebras now has two mega-customers (OpenAI + G42).
+
+**Why OpenAI chose Cerebras:**
+- Inference cost advantage (SRAM)
+- Reduce NVIDIA dependency
+- Capacity availability
+
+---
+
 ## IPO filing
 
 **Filed September 2024:**
@@ -86,6 +119,7 @@ Biggest chip ever made.
 - Revealed $136M revenue (2023)
 - Heavy losses
 - G42 concentration risk flagged
+- **IPO now targeting Q2 2026**
 
 ---
 
@@ -150,7 +184,9 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 | Series C | $112M | — |
 | Series D | $250M | — |
 | Series E | $250M | ~$4B |
-| **Total** | **$720M+** | |
+| Sep 2025 | — | $8.1B |
+| **Jan 2026 (talks)** | **~$1B** | **$22B** |
+| **Total** | **$2B+** | |
 
 **Key investors:**
 
@@ -171,22 +207,35 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 
 | Metric | Value |
 |--------|-------|
-| Ticker | Private (IPO filed) |
-| Valuation | ~$4B |
+| Ticker | Private (IPO Q2 2026) |
+| Valuation | **~$22B** (Jan 2026) |
+| Total raised | $2B+ |
 | Approach | Wafer-scale chips |
 | Product | WSE-3, CS-3 |
 | Position | Last independent SRAM player |
+| Key customers | OpenAI ($10B), G42 |
 
-*Updated 2026-01-02*
+*Updated 2026-01-14*
 
 ---
 
 ## Related
 
+### Customers
+- [[OpenAI]] — $10B+ compute deal (Jan 2026)
+- [[UAE G42]] — Condor Galaxy, strategic partner
+
+### Competitors
 - [[NVIDIA]] — competitor, potential acquirer
-- [[Groq]] — former competitor (now NVIDIA-owned)
+- [[Groq]] — former competitor (now NVIDIA partner)
 - [[SambaNova]] — former competitor (Intel-acquired)
 - [[Tenstorrent]] — AI chip peer
+
+### Concepts
 - [[Inference disaggregation]] — market context (SRAM for decode)
 - [[Long Cerebras]] — thesis (last independent SRAM player)
+
+### Sources
+- [Bloomberg: Cerebras $22B Valuation](https://www.bloomberg.com/news/articles/2026-01-13/cerebras-in-discussions-to-raise-funds-at-22-billion-valuation)
+- [TechCrunch: OpenAI Cerebras Deal](https://techcrunch.com/2026/01/14/openai-signs-deal-reportedly-worth-10-billion-for-compute-from-cerebras/)
 

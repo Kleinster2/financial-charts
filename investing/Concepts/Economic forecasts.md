@@ -6,6 +6,28 @@ Tracking GDP, inflation, and Fed policy forecasts by firm. Useful for gauging co
 
 ---
 
+## Latest data releases
+
+### Jan 14, 2026
+
+| Indicator | Actual | Expected | Signal |
+|-----------|--------|----------|--------|
+| **PPI** | +0.2% | +0.3% | Inflation cooling |
+| **Core PPI** | 0.0% | +0.2% | Very benign |
+| **Retail sales** | +0.6% | +0.4% | Consumer resilient |
+
+**Interpretation:** Soft landing on track. Inflation cooling faster than expected while consumer remains strong. Supports Fed's gradual cutting path.
+
+### Dec 2025
+
+| Indicator | Value | YoY |
+|-----------|-------|-----|
+| CPI | +0.3% MoM | 2.7% |
+| Core CPI | — | 2.6% |
+| Core PCE | — | ~2.6% |
+
+---
+
 ## US Economic Outlook (2026)
 
 ### [[Goldman Sachs]] (David Mericle) — Jan 11, 2026
@@ -46,10 +68,15 @@ Tracking GDP, inflation, and Fed policy forecasts by firm. Useful for gauging co
 
 ## Fed policy expectations
 
-| Firm | 2026 cuts | Timing |
-|------|-----------|--------|
-| [[Goldman Sachs]] | 2x 25bp | Jun, Sep |
-| Market pricing | — | — |
+| Firm | 2026 cuts | End rate | Timing |
+|------|-----------|----------|--------|
+| [[Goldman Sachs]] | 2x 25bp | 3.75-4.00% | Jun, Sep |
+| CBO | ~50bp | 3.4% | Gradual |
+| Market pricing | — | — | — |
+
+**Current rate:** 4.25-4.50% (Jan 2026)
+
+**Jan 14 data implication:** PPI miss supports case for continued cuts. No urgency to pause.
 
 ---
 
@@ -61,9 +88,12 @@ Tracking GDP, inflation, and Fed policy forecasts by firm. Useful for gauging co
 
 ## Related
 
+- [[Inflation]] — key variable for Fed policy
+- [[Consumer]] — spending drives 70% of GDP
+- [[Federal Reserve]] — policy maker
+- [[Fed independence]] — risk to forecast stability
 - [[Asset allocation]] — positioning based on forecasts
 - [[Risk on risk off]] — regime implications
-- [[Federal Reserve]] — policy maker
 - [[Goldman Sachs]] — key forecaster
 
-*Created 2026-01-11*
+*Updated 2026-01-14*

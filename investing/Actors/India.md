@@ -15,6 +15,7 @@
 
 ---
 
+## Macro outlook — Jan 2026**Arvind Subramanian (former Chief Economic Adviser):** GDP 7.4% figure "should be read cautiously."| Concern | Detail ||---------|--------|| Deflator issues | Unusually low, may overstate real growth || Nominal indicators | Decelerating || High-frequency data | Slowing || Trade deal | "Looking less likely," tariffs may rise || Chinese dumping | "Mercantilism" — low-cost goods flooding India || Fiscal position | Weaker than should be (GST cuts) || Rupee | -5% past year, past 91/$ || RBI | Intervention "above what is needed" |**Quote:** "If growth next year ends up similar to this year, India should consider itself fortunate."*Source: Bloomberg TV interview, Jan 9, 2026*---
 ## US-India relations
 
 ### Trump tariffs

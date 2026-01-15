@@ -13,6 +13,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 | Relationship | Key issues |
 |--------------|------------|
 | [[US-China trade]] | Tariffs, tech decoupling |
+| [[EU-China trade]] | Managed friction, EV price floors |
 | [[China-Japan relations]] | Export bans, rare earths |
 | [[India-China relations]] | Border, trade restrictions |
 

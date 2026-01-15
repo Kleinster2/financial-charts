@@ -44,9 +44,12 @@
 - **United Airlines** — $1B+ order commitment
 - **Stellantis** — Manufacturing JV
 - **UAE** — Abu Dhabi operations MOU
+- **[[NVIDIA]]** — IGX Thor AI platform (Jan 2026)
+- **[[Palantir]]** — Data analytics
 
 ---
 
+## NVIDIA partnership — Jan 2026Announced at CES 2026 (Jan 8). Archer to integrate **NVIDIA IGX Thor** — NVIDIA's most powerful safety-capable AI computing module.| Detail | Info ||--------|------|| Platform | [[NVIDIA]] IGX Thor || Stock reaction | ACHR +4% || Test location | Hawthorne airport, LA |**Focus areas:**- Pilot safety & predictive awareness- Seamless airspace integration- Autonomy-ready flight controls**Context:** Second megacap AI partner after [[Palantir]]. Integration already underway across manufacturing, fleet ops, and pilot training.*Source: Archer IR, Jan 2026*---
 ## Business model
 
 | Phase | Plan |
@@ -93,3 +96,5 @@
 - [[Joby Aviation]] — competitor
 - [[United Airlines]] — anchor customer
 - [[Stellantis]] — manufacturing partner
+- [[NVIDIA]] — AI platform partner (IGX Thor)
+- [[Palantir]] — data analytics partner

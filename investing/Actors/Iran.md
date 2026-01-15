@@ -59,9 +59,78 @@ Iran is uninvestable for most Western capital, but matters for:
 
 ---
 
+## 2025-2026 protests and internet blackout
+
+**Timeline:**
+- Dec 28, 2025 — Protests begin over soaring prices
+- Jan 2026 — Protests turn against clerical regime
+- Jan 8, 2026 — Nationwide internet blackout begins
+
+**Casualties (HRANA estimates):**
+
+| Metric | Value |
+|--------|-------|
+| Protesters killed | ~490 |
+| Security personnel killed | ~48 |
+| Arrested | 10,600+ |
+
+**Internet shutdown:**
+- Connectivity near zero for 4+ days (NetBlocks, Cloudflare)
+- Military-grade jamming blocking [[Starlink]]
+
+**Trump/Musk response (Jan 12, 2026):**
+- Trump said he'll call [[Elon Musk]] about deploying Starlink
+- "He's very good at that kind of thing"
+- Echoes 2022 Mahsa Amini protests when Musk offered Starlink
+
+**Military options:** Trump said US considering "very strong options" for Iran.
+
+---
+
+## Trump 25% tariff on Iran trading partners (Jan 14, 2026)
+
+**Announcement:** "Effective immediately, any Country doing business with the Islamic Republic of Iran will pay a Tariff of 25% on any and all business being done with the United States of America." — Trump (Truth Social, Jan 12)
+
+### Affected countries
+
+| Country | Iran trade (2025) | Impact |
+|---------|-------------------|--------|
+| **China** | $9B+ exports/imports (ex-oil) | 45% total tariff (20% existing + 25%) |
+| **India** | Major trading partner | +25% |
+| **UAE** | Trade hub | +25% |
+| **Turkey** | Regional partner | +25% |
+
+**China oil:** Accounts for 90%+ of Iran's oil exports (via intermediaries, not disclosed).
+
+### Implementation questions
+
+| Issue | Status |
+|-------|--------|
+| Executive action | Not yet published |
+| "Doing business" definition | Undefined |
+| Legal authority | IEEPA (being challenged at Supreme Court) |
+| Services vs goods | Unclear |
+
+**China response:** "There are no winners in a tariff war, and China will firmly safeguard its legitimate rights and interests." — Foreign Ministry
+
+### Investment implications
+
+| Impact | Detail |
+|--------|--------|
+| [[US-China tariffs]] | Could escalate from 20% → 45%+ |
+| Oil prices | Iran supply more constrained |
+| [[Gold]] | Safe haven bid on geopolitical risk |
+| EM exposure | India, Turkey, UAE trade disruption |
+
+---
+
 ## Related
 
-- [[Oil]] — Iran supply dynamics
+- [[Secondary sanctions]] — tariff-based approach (25%, Jan 2026)
 - [[US Sanctions]] — primary constraint on economy
+- [[US-China tariffs]] — could escalate to 74%+ via Iran link
+- [[Oil]] — Iran supply dynamics
 - [[Israel]] — regional adversary
 - [[GCC]] — regional context
+- [[Starlink]] — potential internet restoration tool
+- [[SpaceX]] — Starlink parent

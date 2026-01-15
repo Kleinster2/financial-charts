@@ -82,7 +82,7 @@ aliases: [European Union, EEC]
 | FTA negotiator | Commission negotiates for all 27 |
 | Major FTAs | [[EU-Japan EPA]], [[CETA]], [[EU-Mercosur agreement]] |
 
-See [[Trade Agreements]].
+See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 
 ### Competition policy
 
@@ -180,6 +180,7 @@ See [[Trade Agreements]].
 - [[Germany]] — largest economy
 - [[France]] — key member
 - [[Trade Agreements]] — EU FTAs
+- [[EU-China trade]] — bilateral trade tensions
 - [[EU Chips Act]] — industrial policy
 - [[European defense spending]] — security
 - [[EFTA]] — non-EU alternative

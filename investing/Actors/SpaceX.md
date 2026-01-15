@@ -113,6 +113,17 @@ aliases: [Starlink, Starshield]
 
 ---
 
+## FCC expansion (Jan 2026)
+
+**Jan 10, 2026:** FCC approved 7,500 additional Gen2 Starlink satellites.
+
+| Metric | Before | After |
+|--------|--------|-------|
+| Approved satellites | 7,500 | **15,000** |
+| Operational | 9,000+ | Growing |
+
+---
+
 ## Related
 
 - [[Elon Musk]] — CEO
@@ -120,3 +131,4 @@ aliases: [Starlink, Starshield]
 - [[xAI]] — sibling company
 - [[Samsung]] — chip partner (AI modem, 3nm)
 - [[Submarine Cables]] — terrestrial competition
+- [[Iran]] — Jan 2026 Starlink deployment discussion
