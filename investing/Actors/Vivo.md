@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | Headquarters | Dongguan, China |
-| Parent | BBK Electronics |
+| Parent | [[BBK Electronics]] |
 | Global rank | #5-6 smartphone OEM |
 | Status | Private |
 

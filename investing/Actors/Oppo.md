@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | Headquarters | Dongguan, China |
-| Parent | BBK Electronics |
+| Parent | [[BBK Electronics]] |
 | Brands | Oppo, OnePlus |
 | Global rank | #4-5 smartphone OEM |
 | Status | Private |
