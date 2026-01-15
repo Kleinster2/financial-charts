@@ -92,6 +92,30 @@ UAE ahead on execution, Saudi has more capital.
 
 ---
 
+## Market reforms (Jan 2026)
+
+**Sweeping moves to attract international capital:**
+
+| Reform | Detail | Timing |
+|--------|--------|--------|
+| Direct foreign investment | All foreigners can invest in main bourse | Feb 2026 |
+| Property ownership | Foreigners can buy nationwide | Jan 2026 |
+| Exceptions | Mecca and Madinah excluded | — |
+
+**Tadawul performance:** +3.8% YTD (after disappointing 2025)
+
+**Inflow potential (HSBC estimates):**
+
+| Metric | Value |
+|--------|-------|
+| Current global EM fund exposure | 60% |
+| If 49% foreign ownership limit removed | **$25B inflows** |
+| Comparison | Most since 2019 MSCI upgrade |
+
+**MSCI EM upgrade:** 2019
+
+---
+
 ## Challenges
 
 | Challenge | Impact |

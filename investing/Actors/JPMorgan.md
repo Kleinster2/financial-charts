@@ -267,9 +267,43 @@ JPM is #1; others participate in syndicates.
 
 ---
 
+## 2026 IG issuance forecast (Jan 2026)
+
+**JPMorgan strategists forecast record $1.81T US investment-grade issuance in 2026:**
+
+| Metric | 2026E | vs 2025 |
+|--------|-------|---------|
+| **Gross IG issuance** | $1.81T | +17% |
+| **Net issuance** | $802B | +54% |
+| **Maturities** | ~$1T | Flat |
+
+**Prior record:** $1.76T in 2020.
+
+**Key drivers:**
+- AI capital spending boom
+- $1T+ debt maturing (refinancing wave)
+- M&A revival ($182B supply, +21%)
+
+**Sector forecasts:**
+
+| Sector | 2026E | YoY Change |
+|--------|-------|------------|
+| **Technology** | $252B | **+61%** |
+| TMT total | $400B | — |
+| Consumer | $135B | +44% |
+| Media & Entertainment | $85B | +38% |
+| Telecom | $56B | +25% |
+| **US banks** | — | **-6%** |
+
+**M&A supply:** $94B announced deals for 2026 + $88B expected. Strategists Nathaniel Rosenbaum and Eric Beinstein: "animal spirits have returned."
+
+**Bank decline:** -6% due to reduced supply needs after supplementary leverage ratio (SLR) reform.
+
+---
+
 ## Credit card rate cap risk (Jan 2026)
 
-Trump proposed 10% cap on credit card interest rates (current avg: 22.3%).
+Trump proposed 10% cap on credit card interest rates (current avg: ~22%).
 
 | Impact | Detail |
 |--------|--------|
@@ -277,9 +311,27 @@ Trump proposed 10% cap on credit card interest rates (current avg: 22.3%).
 | Apple Card exposure | Just acquired $17B portfolio from Goldman |
 | Industry warning | 175M accounts could close if cap implemented |
 
-JPM is doubling down on consumer credit (Apple Card) just as regulatory risk rises. Watch for Dimon comments on earnings call.
+**CFO Jeremy Barnum (Jan 2026):** JPM will "consider all options to fight back" against the proposal, warning it "would be very bad for consumers, very bad for the economy."
 
-*Updated 2026-01-13*
+JPM is doubling down on consumer credit (Apple Card) just as regulatory risk rises.
+
+---
+
+## Expense / cost concerns (Jan 2026)
+
+**Dimon vowed to spend what's needed** to avoid losing ground to competitors.
+
+| Metric | Value |
+|--------|-------|
+| 2026 expense guidance | $105B |
+| Expense growth since 2019 | +46% |
+| Investor concern | Increased scrutiny of costs |
+
+**Q4 IB shortfall:** Investment banking fee income fell short of guidance telegraphed just weeks earlier.
+
+Stock tumbled after Q4 results despite beat — investors worried about expense trajectory and populist policy risks.
+
+*Updated 2026-01-15*
 
 ---
 

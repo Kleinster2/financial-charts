@@ -35,11 +35,27 @@ Enterprise-focused, not consumer.
 |--------|------|------------|
 | [[Mira Murati]] | CEO | OpenAI CTO |
 | [[John Schulman]] | Chief Scientist | OpenAI co-founder |
-| Barret Zoph | CTO | OpenAI post-training |
+| [[Soumith Chintala]] | **CTO** (Jan 2026) | PyTorch creator |
 | Bob McGrew | Advisor | OpenAI Chief Research Officer |
 | Alec Radford | Advisor | OpenAI key researcher |
 
 Most concentrated ex-OpenAI talent outside Anthropic.
+
+---
+
+## Founding team departures (Jan 2026)
+
+**Three founders returned to OpenAI:**
+
+| Person | TML Role | Now |
+|--------|----------|-----|
+| Barret Zoph | CTO (founding) | Back at OpenAI (reports to Fidji Simo) |
+| Luke Metz | Founding team | Back at OpenAI |
+| Sam Schoenholz | Founding team | Back at OpenAI |
+
+**Context:** Murati fired Zoph after he told her he was considering leaving. OpenAI's Fidji Simo stated they "do not share" concerns about alleged "unethical reasons" cited by some sources.
+
+Soumith Chintala (PyTorch creator, ex-Meta AI) promoted to CTO to replace Zoph.
 
 ---
 
@@ -65,6 +81,8 @@ Most concentrated ex-OpenAI talent outside Anthropic.
 **Total raised:** $2B
 
 **Record:** Largest seed round in Silicon Valley history.
+
+**Potential next round:** In talks for funding at ~$50B valuation (Nov 2025 reports).
 
 ---
 
@@ -140,7 +158,7 @@ TML = enterprise focus, SSI = pure research.
 | Team | ~30 |
 | CEO | Mira Murati |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 
@@ -148,7 +166,8 @@ TML = enterprise focus, SSI = pure research.
 
 - [[Mira Murati]] — CEO (OpenAI CTO alumna)
 - [[John Schulman]] — Chief Scientist (OpenAI co-founder)
-- [[OpenAI]] — origin (⅔ team from OpenAI)
+- [[Soumith Chintala]] — CTO (PyTorch creator, replaced Zoph)
+- [[OpenAI]] — origin + destination (lost 3 founders back to OpenAI)
 - [[SSI]] — peer (Ilya's lab, $32B valuation)
 - [[Anthropic]] — competitor (frontier lab)
 - [[a16z]] — investor (led $2B seed)

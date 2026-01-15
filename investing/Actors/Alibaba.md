@@ -60,6 +60,7 @@ Alibaba is reinventing itself as an AI company:
 - **Open source** — developers can modify, redistribute, commercialize free
 - Qwen3 (April 2025) — most advanced version
 - Powers Quark app, cloud customers, partnerships
+- **700M+ downloads** on Hugging Face (Jan 2026) — leads China open-source
 
 **Open source strategy:**
 - Default in China (vs closed in US)
@@ -68,12 +69,60 @@ Alibaba is reinventing itself as an AI company:
 - 16M developers on ModelScope building on Qwen
 
 **Vs competitors:**
-| Company | Model | Approach |
-|---------|-------|----------|
-| [[ByteDance]] | Doubao | Mixed |
-| Baidu | Ernie | Closed |
-| **Alibaba** | Qwen | Open source |
-| Tencent | Hunyuan | Mixed |
+| Company | Model | Approach | MAU |
+|---------|-------|----------|-----|
+| [[ByteDance]] | Doubao | Mixed | **172M** |
+| **Alibaba** | Qwen | Open source | 100M |
+| Baidu | Ernie | Closed | — |
+| Tencent | Hunyuan | Mixed | — |
+
+---
+
+## Qwen App — Agentic AI super app (Jan 2026)
+
+**Biggest step into consumer-facing AI:**
+
+Alibaba integrating its services into Qwen app to create one-stop AI platform:
+
+| Service | Function | Integration status |
+|---------|----------|-------------------|
+| **Taobao** | Shopping | Jan 2026 (testing) |
+| **Alipay** | Payments | Jan 2026 (testing) |
+| **Fliggy** | Travel booking | Jan 2026 (testing) |
+| **Amap** | Navigation | Jan 2026 (testing) |
+| **Ele.me** | Food delivery | In progress |
+
+**Qwen app stats:**
+- Launched November 2025
+- 100M users
+- Goal: All-around personal assistant
+
+**"Task assistant" feature (invite-only):**
+- Make phone calls to restaurants
+- Build web applications
+- Complex multi-step tasks
+
+**VP Wu Jia (Jan 2026):**
+> "AI is evolving from intelligence to agency. What we are launching today represents a shift from models that understand to systems that act — deeply connected to real-world services."
+
+---
+
+## Agentic AI advantage
+
+**Why super apps have edge:**
+
+Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower incremental investment than Chinese and global tech peers."
+
+| Company | Agentic readiness | Notes |
+|---------|------------------|-------|
+| **Alibaba** | High | Full execution stack (shopping, payments, logistics) |
+| **Tencent** | High | WeChat super app |
+| Amazon | Medium | Shopping + payments, less integrated |
+| Google/OpenAI | Lower | Need to build commerce layer |
+| JD.com | Medium | Commerce but narrower |
+| Meituan | Medium | Local services focused |
+
+**Key insight:** Agentic shopping requires full execution stack — not just AI model. Alibaba already has shopping, payments, delivery, travel in one ecosystem.
 
 ---
 
@@ -174,6 +223,18 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 
 ---
 
+## Stock performance
+
+**Stock doubled since start of 2025:**
+- AI enthusiasm driving revaluation
+- Outperforming US hyperscalers in AI selloff
+- Jack Ma re-engaged ("Make Alibaba Great Again")
+- Cost control + AI investment balance
+
+**Jan 2026:** Shares +20% in 4 days before Qwen app announcement, then pullback ("sell the fact").
+
+---
+
 ## Valuation disconnect
 
 **Alibaba trades at steep discount to US peers:**
@@ -182,7 +243,7 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 - Geopolitical concerns
 - Growth slowdown
 
-**Counter:** Cloud + AI growing, $53B investment, core commerce stable.
+**Counter:** Cloud + AI growing, $53B investment, core commerce stable, stock catching up.
 
 ---
 
@@ -228,18 +289,22 @@ See [[Wearable AI]] for competitive landscape.
 | AI investment | $53B+ pledged |
 | Cloud share | #1 China (~35%) |
 | AI model | Qwen (open source) |
+| Qwen app | **100M users** |
+| Hugging Face downloads | **700M+** |
 | Quark app | ~150M MAU |
 | ModelScope | 16M developers |
 | CEO | Eddie Wu (since 2023) |
+| Stock YTD (2025) | **+100%+** (doubled) |
 
-*Updated 2026-01-03*
+*Updated 2026-01-15*
 
 ---
 
 ## Related
 
-- [[ByteDance]] — competitor (China AI/cloud)
+- [[ByteDance]] — competitor (Doubao has 172M MAU vs Qwen's 100M)
 - [[DeepSeek]] — competitor (Qwen vs R1)
+- [[Tencent]] — competitor (WeChat super app, similar agentic potential)
 - [[Hangzhou]] — headquarters city
 - [[Export controls]] — constraint on GPU access
 - [[China]] — geographic context
@@ -247,3 +312,4 @@ See [[Wearable AI]] for competitive landscape.
 - [[AI hyperscalers]] — peer category
 - [[Wearable AI]] — DingTalk A1 hardware play
 - [[RISC-V]] — XuanTie chips via T-Head, China silicon sovereignty play
+- [[Agentic AI]] — Qwen app integrating Taobao, Alipay, Fliggy (Jan 2026)

@@ -91,6 +91,7 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 | US potential growth | 1.8% today → **4% by 2030** |
 | American exceptionalism | Gets even stronger with higher growth |
 | AGI timeline | 3-5 years away; could **5x valuations** of winners |
+| Mag 7 winners | "Maybe three or four" will achieve AGI — not all seven |
 
 ### 15 technologies, not just AI
 
@@ -209,7 +210,7 @@ Dismisses Bitcoin and crypto as speculative, not transformative.
 
 ---
 
-*Created 2026-01-14*
+*Updated 2026-01-15*
 
 ---
 

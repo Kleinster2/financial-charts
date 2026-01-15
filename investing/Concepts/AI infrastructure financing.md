@@ -10,13 +10,24 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 |--------|-------|
 | 2025 hyperscaler AI capex | ~$300B |
 | 2026 projected | $620B |
-| Morgan Stanley DC spend by 2028 | $2.9T |
+| Morgan Stanley DC spend by 2028 | $3T |
 | Power infrastructure needed | $2.6T (44GW gap) |
 | **Total external financing needed** | **$1.5T** |
 | Private credit by 2028 | $800B |
 | AI debt raised per quarter | ~$100B |
 
 **Problem:** Even hyperscalers don't want this on balance sheet. Enter private capital.
+
+**2026 IG issuance (JPMorgan forecast):**
+
+| Metric | 2026E |
+|--------|-------|
+| Total IG issuance | **$1.81T** (record) |
+| Tech sector | $252B (+61% YoY) |
+| TMT total | $400B |
+| M&A-related | $182B (+21%) |
+
+Tech alone forecast to borrow $252B in investment-grade bonds — AI capex the primary driver.
 
 **Scale (Oct 2025):** UBS strategist Matthew Mish: "raises eyebrows for anyone that has seen credit cycles."
 
@@ -90,10 +101,15 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 
 ### Banks (construction/bridge)
 
-- JPMorgan — Crusoe $2.3B
-- Goldman Sachs
-- Morgan Stanley
-- Bank of America
+| Bank | Role | Notable |
+|------|------|---------|
+| [[Morgan Stanley]] | Arranger, junk bonds | Meta $27B+, TeraWulf, Cipher, Applied Digital |
+| [[JPMorgan]] | Construction, SRT | Crusoe $2.3B |
+| [[Goldman Sachs]] | Underwriting, SRT | |
+| [[Citigroup]] | SRT | |
+| [[Bank of America]] | Underwriting | |
+
+**Jan 2026:** Banks exploring [[Significant risk transfer]] (SRTs) to offload concentrated data center exposure. See section below.
 
 ---
 
@@ -164,6 +180,37 @@ See [[AI infrastructure financing risk]] for deeper analysis.
 
 ---
 
+## Bank concentration risk (Jan 2026)
+
+**Banks becoming overexposed to small group of AI borrowers:**
+
+| Signal | Detail |
+|--------|--------|
+| [[Oracle]] CDS spike | Banks/lenders driving credit protection surge |
+| Concentrated lending | Few hyperscalers = few borrowers |
+| SRT exploration | Morgan Stanley considering offload |
+
+**Response: Significant risk transfers**
+
+Banks exploring [[Significant risk transfer]] to hedge:
+- Sell credit-linked notes to institutional investors
+- Transfer first-loss/mezzanine risk
+- Free balance sheet for more lending
+- Data-center SRTs still nascent
+
+| Bank | SRT Status |
+|------|------------|
+| [[Morgan Stanley]] | Exploring (data center portfolio) |
+| [[JPMorgan]] | Marketed 2025 |
+| [[Citigroup]] | Marketed 2025 |
+| [[Goldman Sachs]] | Marketed 2025 |
+
+**Market growth:** Global SRT sales +11% annually through 2027.
+
+**Implication:** Banks want to keep financing AI, but want to lay off credit risk. Creates new asset class for credit investors.
+
+---
+
 ## Oracle deal collapse — lessons
 
 **Blue Owl pulled out of ~$10B Oracle Michigan deal:**
@@ -206,7 +253,7 @@ See [[AI infrastructure financing risk]] for deeper analysis.
 
 ---
 
-*Updated 2026-01-14*
+*Updated 2026-01-15*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
@@ -226,3 +273,7 @@ Sources:
 - [[Constellation Energy]] — beneficiary (power for DCs)
 - [[Vistra]] — beneficiary (power for DCs)
 - [[Power constraints]] — limitation (capital alone isn't enough)
+- [[Significant risk transfer]] — banks offloading AI infrastructure credit risk
+- [[Applied Digital]] — junk bond issuer (Morgan Stanley)
+- [[TeraWulf]] — junk bond issuer (Morgan Stanley)
+- [[Cipher Mining]] — junk bond issuer (Morgan Stanley)

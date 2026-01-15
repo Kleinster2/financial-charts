@@ -107,14 +107,96 @@ Memory = national security.
 
 ---
 
+## AI superpower strategy (2025-2026)
+
+**Goal: Top 3 AI power** (behind US, China)
+
+**Minister Bae Kyung-Hoon** (Science & ICT, also Deputy PM):
+- Appointed July 2025
+- Former head of LG AI Research (developed Exaone)
+- PhD computer vision, Kwangwoon University
+
+**Bae quote:**
+> "We don't see ourselves as just another contender in that pack. We believe we have a real shot at becoming a serious global player — one capable of challenging the top two."
+
+---
+
+## AI spending & deals
+
+| Initiative | Value | Partner |
+|------------|-------|---------|
+| **2026 AI budget** | **10.1T won ($6.9B)** | 3x increase |
+| GPU purchase | 50,000 accelerators | [[NVIDIA]] |
+| Total GPUs | 260,000 | NVIDIA to ministry + chaebols |
+| Data centers | Renewable-powered | [[BlackRock]] |
+| Physical AI | Robotics, AVs | NVIDIA + [[Hyundai]] |
+| Talent | 2,000 overseas engineers by 2030 | — |
+
+**Jensen Huang (Oct 2025):**
+> "Korea has a great chance to be a regional AI hub and one of the largest AI hubs in the world."
+
+---
+
+## Exaone — LG's frontier model
+
+| Metric | Value |
+|--------|-------|
+| Model | Exaone 4.0 |
+| Developer | LG AI Research |
+| Gap to GPT-5 | **5.9 months** (Microsoft AI Diffusion Report) |
+| Status | Korea's leading frontier model |
+
+Exaone developed under Bae before he joined government.
+
+---
+
 ## AI infrastructure
 
 | Initiative | Focus |
 |------------|-------|
 | National AI Strategy | Compute buildout |
+| **Sovereign AI Competition** | National foundation model |
 | Korean hyperscalers | Naver, Kakao |
 | Research | KAIST, Seoul National |
 | Startups | Growing ecosystem |
+
+---
+
+## Sovereign AI Competition (2025-2027)
+
+**Korea's national AI foundation model race:**
+
+| Phase | Date | Status |
+|-------|------|--------|
+| Applicants | 2025 | 15 teams |
+| Finalists | Aug 2025 | 5 teams |
+| Round 2 | Jan 2026 | 3 teams remain |
+| Final | 2027 | 2 winners |
+
+**Advancing teams (Jan 2026):**
+
+| Team | Parent | Score |
+|------|--------|-------|
+| **LG AI Research** | LG Group | Highest |
+| **SK Telecom** | SK Group | Advancing |
+| **Upstage** | Startup | Advancing |
+
+**Eliminated:**
+
+| Team | Reason |
+|------|--------|
+| [[Naver]] Cloud | Used Chinese vision encoder (rule violation) |
+| NC AI (NCSoft) | Low evaluation score |
+
+**Winners receive:**
+- Government-provided GPUs
+- Access to datasets
+- National champion status
+
+**Vice Minister Ryu Je-myung:**
+> "Our goal is to select two finalists through an extremely intense competition... Our broader objective is to encourage many more companies to compete and be stimulated by the project."
+
+**Controversy:** "From scratch" requirement debated — questions whether some teams used non-Korean components.
 
 ---
 
@@ -156,7 +238,7 @@ Korea's answer to Google/Meta.
 | HBM leader | SK Hynix |
 | Foundry rank | #2 (Samsung) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 
@@ -164,7 +246,11 @@ Korea's answer to Google/Meta.
 
 - [[Samsung]] — national champion (memory, foundry)
 - [[SK Hynix]] — national champion (#1 HBM)
-- [[NVIDIA]] — customer (HBM buyer)
+- [[NVIDIA]] — customer (HBM buyer) + 260K GPU deal
 - [[TSMC]] — competitor (Samsung Foundry vs)
+- [[Hyundai]] — physical AI partnership (NVIDIA)
+- [[BlackRock]] — renewable data center investment
+- [[Naver]] — sovereign AI competitor (eliminated Jan 2026)
+- [[LG Electronics]] — LG AI Research (Exaone)
 - [[Long memory]] — thesis (Korea exposure)
 

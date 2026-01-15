@@ -38,6 +38,48 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 ---
 
+## Meta Compute (Jan 2026)
+
+**New infrastructure leadership team:**
+
+| Person | Role | Reports to |
+|--------|------|------------|
+| **Dina Powell McCormick** | President & Vice Chairman | Zuckerberg |
+| **Santosh Janardhan** | Head of Infrastructure | Zuckerberg |
+| **[[Daniel Gross]]** | Capital Strategy & Partnerships | Zuckerberg |
+
+**Powell McCormick:**
+- Ex-Goldman Sachs (led global sovereign investment banking)
+- Trump deputy national security adviser (first term)
+- Husband Dave McCormick = Republican Senator (PA)
+- Focus: government and sovereign partnerships for AI infrastructure
+
+**Trump on Truth Social:** "She is a fantastic, and very talented, person, who served the Trump Administration with strength and distinction."
+
+**$600B infrastructure commitment:** Meta planning "tens of gigawatts this decade, and hundreds of gigawatts or more over time."
+
+**Nuclear partnerships:** Announced deals to become one of world's biggest corporate buyers of nuclear power
+
+---
+
+## Anduril defense partnership (Jan 2026)
+
+**AI-powered military helmet:**
+- Partnership with [[Anduril]] for US military products
+- VR/AR features for soldiers
+- Combines Meta Reality Labs hardware + Anduril defense AI
+
+**CTO Andrew Bosworth:**
+> "Tides have turned" in Silicon Valley — more acceptable to support US military.
+
+> "There's a much stronger patriotic underpinning than I think people give Silicon Valley credit for... a return to grace."
+
+**Silicon Valley history:** Founded on military development (DARPA, etc.). Meta sees this as returning to roots.
+
+**Reality Labs:** Bosworth expects 2026 to be "particularly consequential" — market will determine if people adopt the technology
+
+---
+
 ## 2025 AI acquisitions
 
 | Acquisition | Price | What |
@@ -157,7 +199,12 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 |---------|----------|------------|-----------|
 | **Hyperion** | Louisiana | $6B | $30B SPV with [[Blue Owl]], Meta 20% equity |
 
-Hyperion: 5GW eventual capacity, first phase 2028. **Not included in $44B CIP.**
+**Hyperion (Louisiana):**
+- 5GW eventual capacity
+- **$50B total** (per Trump announcement)
+- "Nearly the size of Manhattan" — Zuckerberg
+- First phase 2028
+- **Not included in $44B CIP**
 
 ---
 
@@ -202,6 +249,7 @@ See [[Short interest]] for interpretation framework.
 | Metric | Value |
 |--------|-------|
 | AI capex | **$65B** (2025 budget) |
+| Total infra commitment | **$600B** (multi-year) |
 | H100 GPUs | 350,000 |
 | Blackwell GPUs | ~400,000 (ordered) |
 | CIP balance | $44B (Q3 2025) |
@@ -209,9 +257,10 @@ See [[Short interest]] for interpretation framework.
 | Foundry exposure | [[TSMC]] (via NVIDIA) |
 | 2025 AI M&A | ~$4B+ (Manus + Rivos) |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
+| Infra lead | Dina Powell McCormick (Jan 2026) |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-Tesla |
 
-*Updated 2026-01-14*
+*Updated 2026-01-15*
 
 ---
 
@@ -241,3 +290,4 @@ See [[Short interest]] for interpretation framework.
 - [[Solar Turbines]] — power supplier (Socrates South)
 - [[Siemens Energy]] — power supplier (Socrates South)
 - [[Blue Owl]] — Hyperion DC JV partner
+- [[Anduril]] — defense partnership (AI helmet, Jan 2026)

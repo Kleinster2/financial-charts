@@ -38,6 +38,23 @@ aliases: [C, Citi]
 - Reducing complexity
 - Improving returns
 
+**2025 result:** Best performing big-bank stock in US. Dealmakers narrowing gap with peers.
+
+---
+
+## Q4 2025 / Rate cap risk
+
+**Credit card rate cap warning:**
+
+CFO Mark Mason delivered starkest warning among big banks:
+> "An interest rate cap is not something that we would, or could, support, frankly."
+
+Said 10% cap would likely result "in a significant slowdown in the economy."
+
+**BlackRock outsourcing:** Handed ~$80B in wealthy client assets to [[BlackRock]] — one of industry's biggest outsourcing deals.
+
+**Expense guidance:** Declined to provide concrete 2026 expense estimate despite investor questions.
+
 ---
 
 ## Competitive position
@@ -76,7 +93,7 @@ aliases: [C, Citi]
 | Strength | Global, trading |
 | CEO | Jane Fraser |
 
-*Created 2026-01-08*
+*Updated 2026-01-15*
 
 ---
 
@@ -86,5 +103,8 @@ aliases: [C, Citi]
 - [[Bank of America]] — peer
 - [[Goldman Sachs]] — peer (trading)
 - [[Morgan Stanley]] — peer (trading)
+- [[Wells Fargo]] — peer
+- [[BlackRock]] — $80B asset outsourcing deal
+- [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
 - [[Venezuela]] — exited 2021 (sold to BNC), potential re-entry if sanctions ease
 

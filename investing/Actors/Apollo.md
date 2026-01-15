@@ -40,6 +40,16 @@ Credit = majority of business (different from Blackstone).
 
 ---
 
+## Private credit retail expansion
+
+**Targeting wealthy individuals:**
+
+**Jim Zelter (co-president):** "We're launching our European product platform in the coming months designed to offer a full suite of options to individuals in Europe."
+
+Part of broader industry push to bring [[Private credit]] to high-net-worth individuals (following Blackstone's BCRED and Luxembourg fund).
+
+---
+
 ## AI infrastructure exposure
 
 | Investment | Type |
@@ -86,14 +96,16 @@ Stock fell on Trump's institutional homebuying ban announcement:
 | AUM | ~$700B |
 | Focus | Credit |
 
-*Created 2026-01-08*
+*Updated 2026-01-15*
 
 ---
 
 ## Related
 
-- [[Blackstone]] — peer (PE, real estate)
+- [[Blackstone]] — peer (PE, real estate, private credit retail)
 - [[Blue Owl]] — peer (credit, AI infra)
+- [[Private credit]] — $500B credit AUM, retail expansion
+- [[Goldman Sachs]] — peer (European retail push)
 - [[Institutional homebuying ban]] — policy risk
 - [[AI infrastructure financing]] — indirect exposure
 

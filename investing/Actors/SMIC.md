@@ -72,6 +72,21 @@ Lost access to most Western customers due to Entity List status.
 
 ---
 
+## Memory shortage impact (Nov 2025)
+
+**SMIC warning on memory constraining production:**
+- Memory shortage coming as manufacturers prioritize business with [[NVIDIA]]
+- NVIDIA placing emphasis on highest-value AI data center systems
+- Memory allocation to AI = shortage for other applications
+- SMIC warned memory shortage may constrain **car and electronics production in 2026**
+
+**Logic chip knock-on:**
+- SMIC is a logic foundry, not memory maker
+- But customers can't place logic orders if they can't secure memory
+- Memory shortage indirectly constrains SMIC's business
+
+---
+
 ## Thesis implications
 
 | Thesis | Impact |
@@ -79,6 +94,7 @@ Lost access to most Western customers due to Entity List status.
 | [[Long TSMC]] | SMIC is years behind, not a near-term threat |
 | [[Export controls]] | SMIC progress = controls leaking; stagnation = controls working |
 | [[Long WFE]] | China equipment demand partly SMIC-driven |
+| [[Memory shortage 2025-2026]] | Memory shortage constrains SMIC's customers |
 
 ---
 
@@ -105,7 +121,7 @@ Lost access to most Western customers due to Entity List status.
 
 ---
 
-*Updated 2025-12-30*
+*Updated 2026-01-15*
 
 ## Related
 
@@ -114,3 +130,4 @@ Lost access to most Western customers due to Entity List status.
 - [[TSMC]] — competitor (4-5 years behind)
 - [[Foundry Wars]] — context (China's flagship)
 - [[ASML]] — supplier (EUV blocked, DUV only)
+- [[Memory shortage 2025-2026]] — constrains SMIC customers (logic orders limited by memory availability)

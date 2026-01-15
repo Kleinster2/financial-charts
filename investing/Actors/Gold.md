@@ -15,7 +15,7 @@ aliases: [XAU, Gold price, Bullion]
 | YTD return | +5% |
 | 2025 return | +27% |
 | 2024 return | +27% |
-| Silver | $92/oz (record high) |
+| Silver | $93.75/oz ATH (Jan 15), now ~$88 |
 
 **Record driver:** DOJ investigation of [[Jerome Powell]] revived [[Fed independence]] concerns. Gold spiked above $4,600 after Powell called the probe "threats and ongoing pressure" to influence rate decisions.
 
@@ -103,6 +103,28 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
+## Mining stock outperformance (Jan 2026)
+
+**Miners beating metal:**
+
+| Asset | 2025 Return | 2026 YTD |
+|-------|-------------|----------|
+| Spot gold | ~65% | +6.9% |
+| [[Newmont]] | **+100%+** (doubled) | — |
+| [[Agnico Eagle]] | **+100%+** (doubled) | — |
+| NYSE Arca Gold Miners Index | — | **+12%** |
+| S&P 500 | — | +0.7% |
+
+**Why miners outperform:** Costs lag metal price increases → operating leverage. Both Newmont and Agnico expected to see EPS climb 85%+ YoY.
+
+**Grant Sporre (Bloomberg Intelligence):** Sees spot gold reaching **$5,000/oz by year-end 2026**, though Fed pause, resilient equities, and firm dollar could limit H1 upside.
+
+**Martin Pradier (Veritas):** "Gold is the ultimate reserve currency of the world... in a world of uncertainty where Trump wakes up in a morning and says he's going to invade Greenland, you should be buying gold."
+
+**Risk:** Previous boom cycles marred by rising costs and bad acquisitions. If miners buy other miners at expensive valuations at top of cycle, could weigh on shares.
+
+---
+
 ## Investment vehicles
 
 | Vehicle | Ticker | Notes |
@@ -111,6 +133,8 @@ aliases: [XAU, Gold price, Bullion]
 | iShares Gold Trust | IAU | Lower expense ratio |
 | Gold miners | GDX | Leveraged to gold price |
 | Junior miners | GDXJ | Higher risk/reward |
+| [[Newmont]] | NEM | Largest gold miner |
+| [[Agnico Eagle]] | AEM | Top performer 2025 |
 | Physical | — | No counterparty risk |
 
 ---
@@ -145,6 +169,10 @@ aliases: [XAU, Gold price, Bullion]
 - [[Copper]] — risk-on metal contrast
 - [[Bitcoin]] — "digital gold" narrative
 
+### Miners
+- [[Newmont]] — largest gold miner, doubled in 2025
+- [[Agnico Eagle]] — top performer, doubled in 2025
+
 ---
 
 ## Sources
@@ -154,4 +182,4 @@ aliases: [XAU, Gold price, Bullion]
 - [State Street: Gold 2026 Outlook](https://www.ssga.com/us/en/intermediary/insights/gold-2026-outlook-can-the-structural-bull-cycle-continue-to-5000)
 - [J.P. Morgan: Gold Price Predictions](https://www.jpmorgan.com/insights/global-research/commodities/gold-prices)
 
-*Created 2026-01-14*
+*Updated 2026-01-15*

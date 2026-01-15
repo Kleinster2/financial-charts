@@ -101,6 +101,18 @@ Conservative vs Temasek.
 
 ---
 
+## Private credit (Jan 2026)
+
+**Participating in covenant-lite deals:**
+
+| Deal | Sponsor | Co-lenders |
+|------|---------|------------|
+| **JTC Plc** | [[Permira]] + CPPIB | [[Blackstone]], CVC Credit |
+
+Part of trend in [[Private credit]] where top PE sponsors extracting cov-lite terms from major lenders.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -110,7 +122,7 @@ Conservative vs Temasek.
 | Style | Conservative |
 | DC exposure | Significant |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 
@@ -121,4 +133,7 @@ Conservative vs Temasek.
 - [[Equinix]] — investment (DC REIT)
 - [[Digital Realty]] — investment (DC REIT)
 - [[AI infrastructure financing]] — thesis context
+- [[Private credit]] — cov-lite lending participation
+- [[Permira]] — borrower (JTC deal)
+- [[Blackstone]] — co-lender
 

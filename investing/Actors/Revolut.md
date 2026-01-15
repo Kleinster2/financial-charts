@@ -48,6 +48,14 @@ aliases: [Revolut Ltd]
 | Previous | UBS, Deutsche Bank, Credit Suisse (financial software) |
 | Citizenship | British-Ukrainian |
 
+### Martin Gilbert (Chairman)
+
+| Detail | Value |
+|--------|-------|
+| Role | Chairman (since 2019) |
+| Previous | Founder/CEO, Aberdeen Asset Management |
+| Residence | Swiss permit (Zug), UK tax resident |
+
 ---
 
 ## Funding history
@@ -93,6 +101,12 @@ aliases: [Revolut Ltd]
 - Overdrafts
 - Mortgages
 
+**Private banking push (Jan 2026):**
+- Recruiting junior investment bankers
+- Hiring money managers
+- Talks with [[Blackstone]] to offer funds on platform
+- Moving upmarket from retail
+
 ---
 
 ## Banking licenses
@@ -101,11 +115,14 @@ aliases: [Revolut Ltd]
 |--------------|--------|------|
 | **UK** | Restricted license | July 2024 |
 | EU (Lithuania) | Full license | 2018 |
+| **Switzerland** | Seeking full license | Jan 2026 |
 | Australia | License | Operating |
 | Mexico | License | 2025 |
 | US | — | Operating (partner bank model) |
 | India | Launched | October 2025 |
 | Colombia | Launching | 2026 |
+
+**Switzerland:** Currently operates via Lithuanian license (cards, payments, accounts, trading). Established Revolut Swiss NewCo SA (Jan 2026). Seeking full Swiss banking license.
 
 **UK banking license:** 3-year application process. Still building out full banking operations (~12 months), then will transfer users to new banking entity.
 
@@ -208,4 +225,4 @@ aliases: [Revolut Ltd]
 - [Wikipedia](https://en.wikipedia.org/wiki/Revolut)
 - [Contrary Research](https://research.contrary.com/company/revolut)
 
-*Created 2026-01-09*
+*Updated 2026-01-15*

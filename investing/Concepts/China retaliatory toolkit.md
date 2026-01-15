@@ -17,6 +17,7 @@ aliases: [Chinese retaliation, China countermeasures]
 | **Critical mineral bans** | Broad sector | Gallium, germanium restrictions (2023) |
 | **Entity lists** | Specific companies | Unreliable Entity List |
 | **Regulatory investigations** | Specific company | Micron security review (2023) |
+| **Agricultural import boycotts** | US farmers | Soybean purchases halted (2025) |
 
 ---
 
@@ -60,6 +61,41 @@ PM Takaichi said Taiwan contingency could necessitate Japan military response. C
 **Goal:** Political — force Takaichi out of office, not trade concessions.
 
 See [[China-Japan relations]] for full analysis.
+
+---
+
+## Case study: Soybean leverage (2025)
+
+**China weaponized soybean imports to pressure US farmers (key Trump voting bloc):**
+
+| Date | Action |
+|------|--------|
+| May 2025 | Halted US soybean purchases (response to Trump tariffs) |
+| Sept 2025 | Boycotted new harvest season — no US cargoes for 2 months |
+| Oct 2025 | Resumed buying after trade talks |
+| Nov 2025 | Purchases stalled again |
+
+**Why soybeans work as leverage:**
+- Soybeans = biggest US agricultural export ($24.5B)
+- China = top destination (>50% of US soy exports)
+- US farmers = key Republican voting bloc
+- Brazil can substitute (world's #1 grower)
+
+**Impact on US:**
+- Farmers stuck with overflowing silos
+- Flat prices, squeezed profits
+- Purdue University: fertilizer/seed costs up, prices down
+
+**China's pivot:**
+
+| Supplier | 2020-21 season | 2024-25 season | Trend |
+|----------|----------------|----------------|-------|
+| US | 34.2M tons | ~12M tons (est) | **-65%** |
+| Brazil | Growing | Record harvest | Gaining |
+
+**Phase One echo:** Same tactic worked in 2018-19 trade war — pushed Trump to sign Phase One deal with agricultural purchase commitments.
+
+**Current deal:** US says China pledged 12M tons by end 2025, then 25M tons/year for 3 years. China hasn't confirmed specifics.
 
 ---
 
@@ -114,4 +150,4 @@ See [[Rare earth leverage]] for rare earths. See [[Gallium]], [[Germanium]] for 
 
 ---
 
-*Updated 2026-01-10*
+*Updated 2026-01-15*

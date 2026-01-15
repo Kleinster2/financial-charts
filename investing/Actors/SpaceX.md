@@ -54,18 +54,41 @@ aliases: [Starlink, Starshield]
 
 ---
 
+## Space data centers (Jan 2026)
+
+**Musk's vision: 100GW orbital compute network**
+
+| Detail | Value |
+|--------|-------|
+| Capacity target | **100 GW** combined |
+| Timeline | "4-5 years if we can solve the other parts" |
+| IPO purpose | $30B+ to fund this initiative |
+| Technology | Repurpose Starlink satellite tech |
+
+**Why space:**
+- 24/7 solar power (sun-synchronous orbit)
+- No land constraints
+- Simpler permitting (FAA + FCC bulk licenses)
+- Bypass Earth's [[Power constraints]]
+
+**SpaceX advantage:**
+- 9,300+ Starlink satellites (operational experience)
+- Starship for heavy payload launches
+- Vertical integration
+
+**Dependency:** Requires Starship full reusability (not yet achieved). 2025 testing had multiple unplanned explosions.
+
+See [[Space data centers]] for full concept analysis.
+
+---
+
 ## Semiconductor/chip relevance
 
 **Custom silicon:**
 - Satellite chips (proprietary)
 - User terminal chips
 - AI modem development with Samsung (3nm process)
-
-**Space AI data centers:**
-- Key IPO narrative
-- Orbital compute infrastructure
-- Requires specialized chips
-- Starship for batch satellite launches
+- Space DC chips (radiation-hardened)
 
 ---
 
@@ -109,7 +132,7 @@ aliases: [Starlink, Starshield]
 | 2025 revenue | ~$15B |
 | CEO | [[Elon Musk]] |
 
-*Created 2026-01-05*
+*Updated 2026-01-15*
 
 ---
 
@@ -132,3 +155,6 @@ aliases: [Starlink, Starshield]
 - [[Samsung]] — chip partner (AI modem, 3nm)
 - [[Submarine Cables]] — terrestrial competition
 - [[Iran]] — Jan 2026 Starlink deployment discussion
+- [[Space data centers]] — 100GW orbital compute vision
+- [[Power constraints]] — problem space DCs aim to solve
+- [[Blue Origin]] — competitor (Bezos space DC vision)

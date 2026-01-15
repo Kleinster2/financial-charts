@@ -76,6 +76,8 @@ aliases: [BAC, BofA, BoA]
 
 **Stock reaction:** -2.4% pre-market despite beat (macro concerns, credit card cap overhang).
 
+**Expense concern:** Piper Sandler analyst Scott Siefers warned Q1 expense guidance "will be worse than we and the market expect" — cost guide could offset NII beat.
+
 ---
 
 ## Investment case

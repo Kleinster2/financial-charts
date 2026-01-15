@@ -34,8 +34,14 @@ Part of Trump's $200B MBS purchase order alongside Fannie. See [[Fannie Mae#Jan 
 
 ## Notable Investors
 
-- **Bill Ackman (Pershing Square)**: Long-term holder of preferred shares, targeting 1,200%+ returns on GSE recap trade
-- **Michael Burry**: Publicly bullish on Fannie/Freddie (notable given his 2008 short fame)
+- **[[Bill Ackman]] (Pershing Square)**: Common shares, ~$2.40 avg cost, targeting $31 (1,200%+ returns)
+- **John Paulson**: Preferreds since financial crisis
+- **Capital Group**: Common + preferred
+- **Discovery Capital**: Preferreds, 10+ years
+- **PointState**: Preferreds
+- **Michael Burry**: Publicly bullish (notable given his 2008 short fame)
+
+See [[Fannie Mae#Notable investors]] for full investor list.
 
 ## Valuation Gap
 
@@ -49,4 +55,7 @@ Freddie trades at significant discount to Fannie despite similar business:
 
 - [[Fannie Mae]] - Sister GSE, larger of the two
 - [[FHFA]] - Regulator and conservator
+- [[Bill Ackman]] - Major investor, 1,200% target
 - [[Long GSE]] - Investment thesis on conservatorship exit
+
+*Updated 2026-01-15*

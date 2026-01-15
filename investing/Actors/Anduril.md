@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #usa #private
 
-**Anduril** — Defense AI & autonomous systems. Palmer Luckey (Oculus). $14B valuation.
+**Anduril** — Defense AI & autonomous systems. Palmer Luckey (Oculus). **$30.5B valuation**. Meta partnership (Jan 2026).
 
 ---
 
@@ -93,6 +93,22 @@ Disrupting Lockheed/Raytheon model.
 
 ---
 
+## Meta partnership (Jan 2026)
+
+**AI-powered military helmet:**
+- Partnership with [[Meta]] announced
+- VR/AR features for US military
+- Combines Anduril defense AI + Meta Reality Labs hardware
+
+**Andrew Bosworth (Meta CTO):**
+> Silicon Valley's new openness to work with US military is a "return to grace."
+
+> "There's a much stronger patriotic underpinning than I think people give Silicon Valley credit for."
+
+**Significance:** Major consumer tech company (Meta) partnering with defense startup. Signals broader Silicon Valley shift toward defense work.
+
+---
+
 ## Ukraine connection
 
 **Real-world validation:**
@@ -173,21 +189,23 @@ Autonomous systems depend on rare earth permanent magnets:
 | Metric | Value |
 |--------|-------|
 | Ticker | Private |
-| Valuation | $14B |
+| Valuation | **$30.5B** (Oct 2025) |
 | Founder | Palmer Luckey |
 | Focus | Autonomous defense |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 
 ## Related
 
+- [[Meta]] — partnership (AI helmet, Jan 2026)
 - [[Palantir]] — defense tech peer
 - [[Shield AI]] — competitor (autonomous defense)
 - [[Helsing]] — competitor (European defense AI, $13.2B)
 - [[Lockheed Martin]] — competitor (legacy defense)
 - [[NVIDIA]] — supplier (AI compute)
+- [[Peter Thiel]] — investor (Founders Fund)
 - [[Rare earth leverage]] — supply chain risk (drone magnets)
 - [[China retaliatory toolkit]] — REE military denial risk
 

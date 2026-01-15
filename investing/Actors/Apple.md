@@ -55,6 +55,33 @@ This is [[Customer lock-in via co-design]] in action — accumulated knowledge t
 
 ---
 
+## Memory cost impact (Nov 2025)
+
+**CFO Kevan Parekh — most sanguine assessment among OEMs:**
+- Acknowledged "slight tailwind" on memory prices
+- Some new products have "slightly higher cost structure"
+- But stressed Apple is "managing costs well"
+
+**Why Apple is insulated:**
+- Top customer status — leverage with memory suppliers
+- Volume commitments secure supply + better pricing
+- Premium pricing absorbs cost increases
+- Unlike [[Dell]], [[HP Inc.]], [[Xiaomi]] — not a value player
+
+**Contrast with peers:**
+
+| OEM | Response |
+|-----|----------|
+| **Apple** | "Managing costs well" |
+| [[Dell]] | "Never seen costs move at this rate" |
+| [[Lenovo]] | Hoarding 50% extra inventory |
+| [[HP Inc.]] | Warning of H2 2026 price hikes |
+| [[Xiaomi]] | +25% DRAM cost per phone |
+
+Apple's scale + premium positioning = memory shortage hedge.
+
+---
+
 ## Rare earth supply chain
 
 Apple is hedging against China's [[Rare earth leverage]]:
@@ -114,6 +141,8 @@ See [[Short interest]] for interpretation framework.
 | Cash position | ~$160B |
 | Short interest | **0.78%** (Jan 2026) |
 
+*Updated 2026-01-15*
+
 ---
 
 ## Related
@@ -125,3 +154,4 @@ See [[Short interest]] for interpretation framework.
 - [[Rare earth leverage]] — supply chain risk being hedged
 - [[Foundry Wars]] — manufacturing context
 - [[N-2 rule]] — design excellence context
+- [[Memory shortage 2025-2026]] — insulated by scale (CFO: "managing costs well")

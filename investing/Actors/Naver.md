@@ -46,6 +46,29 @@ Korea's leading AI model.
 
 ---
 
+## Sovereign AI setback (Jan 2026)
+
+**Naver Cloud eliminated from Korea's national AI competition:**
+
+| Detail | Status |
+|--------|--------|
+| Competition | Korea sovereign AI foundation model |
+| Naver status | **Eliminated** |
+| Reason | Used Chinese vision encoder (violated "from scratch" rule) |
+| Stock reaction | **-5.4%** on announcement |
+
+**Background:**
+- 15 applicants → 5 finalists (Aug 2025) → 3 remaining (Jan 2026)
+- Naver Cloud can reapply for open slot
+- Winners by 2027 get government GPU access
+
+**SNU Prof Han Bohyung:**
+> "Disappointing to see Naver drop out, given how well positioned it was to leverage a national AI foundation model."
+
+**Advancing teams:** LG AI Research, [[SK Telecom]], Upstage
+
+---
+
 ## vs Google in Korea
 
 | Factor | Naver | Google |
@@ -118,7 +141,7 @@ Korean alternative to AWS/Azure.
 | Korean search | ~60% share |
 | AI model | HyperCLOVA X |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 

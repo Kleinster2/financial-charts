@@ -123,6 +123,22 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 
 ---
 
+## Debt restructuring potential (Jan 2026)
+
+**Venezuela back in sovereign bond market discussions:**
+
+| Metric | Value |
+|--------|-------|
+| Default | 2017 (US sanctions) |
+| Status | Wall Street discussing restructuring |
+| Catalyst | Maduro capture, regime change |
+
+**Context:** Venezuela was once a major borrower in global sovereign bond market. Post-Maduro, restructuring becomes conceivable.
+
+See [[Long emerging markets]] — Venezuela as "new frontier" in EM supercycle thesis.
+
+---
+
 ## Geopolitics (pre-2026)
 
 | Factor | Impact |

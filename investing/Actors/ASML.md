@@ -74,11 +74,37 @@ See [[Rare earth leverage]] for geopolitical context.
 
 ---
 
+## $500B milestone (Jan 2026)
+
+**Third European company ever to reach $500B market cap:**
+
+| Rank | Company | Sector |
+|------|---------|--------|
+| 1 | LVMH | Luxury |
+| 2 | Novo Nordisk | Pharma |
+| 3 | **ASML** | Semiconductors |
+
+| Metric | Value |
+|--------|-------|
+| Market cap | **€453B ($527B)** |
+| YTD 2026 | **+24%** |
+| Status | Record high, Europe's most valuable |
+
+**Catalyst:** [[TSMC]] 2026 capex guidance of $56B (above expectations) — validates sustained AI spending.
+
+**Barclays (Emmanuel Cau):**
+> "The milestone means a lot for the market sentimentally. Europe is a small market, so if ASML as a major stock goes up, the broader market will automatically benefit. The rally in ASML also gives European investors a gateway to play the mainstream AI trade."
+
+**Next:** Q4 2025 earnings Jan 28, 2026.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | ASML (NASDAQ, Euronext) |
+| Market cap | **$527B** (Jan 2026) |
 | EUV share | 100% |
 | Machine cost | $150-350M per EUV tool |
 | High-NA EUV | $350M+, ramping 2024-2025 |
@@ -103,3 +129,5 @@ See [[Rare earth leverage]] for geopolitical context.
 - [[Rare earth leverage]] — China control of magnet materials
 - [[Long WFE]] — thesis (crown jewel position)
 - [[Foundry Wars]] — context (enables leading edge)
+
+*Updated 2026-01-15*

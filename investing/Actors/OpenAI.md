@@ -128,7 +128,7 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ## Key people
 
@@ -136,6 +136,21 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 |--------|------|
 | [[Sam Altman]] | CEO |
 | [[Kevin Weil]] | CPO (joined 2024, ex-Twitter/Instagram) |
+| Fidji Simo | Executive (Zoph reports to her) |
+
+---
+
+## Thinking Machines Lab re-hires (Jan 2026)
+
+**Three founding team members returned from [[Thinking Machines Lab]]:**
+
+| Person | TML Role | OpenAI Role |
+|--------|----------|-------------|
+| Barret Zoph | CTO | Reports to Fidji Simo |
+| Luke Metz | Founding team | Researcher |
+| Sam Schoenholz | Founding team | Researcher |
+
+All three had previously worked at OpenAI before joining Murati's startup.
 
 ---
 
@@ -150,6 +165,7 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 - [[Model lab economics]] — thesis (bearish on cash burn)
 - [[Agentic AI]] — product direction
 - [[OpenAI talent exodus]] — risk (key researchers leaving)
+- [[Thinking Machines Lab]] — re-hired 3 founding members (Jan 2026)
 - [[Tokenized private shares]] — retail exposure via Robinhood
 - [[UAE Tech]] — Stargate UAE site (1GW)
 - [[Ansaldo Energia]] — turbine supplier (UAE Stargate)

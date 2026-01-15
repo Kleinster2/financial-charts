@@ -387,6 +387,40 @@ DCs consume more electricity than most countries — only 16 nations use more. S
 
 ---
 
+## Space data centers (speculative)
+
+**Billionaires exploring orbital data centers:**
+
+| Player | Initiative | Timeline |
+|--------|------------|----------|
+| **[[SpaceX]]** | 100GW satellite network | 4-5 years (Musk) |
+| **[[Blue Origin]]** | Bezos promoting concept | 10-20 years (Bezos) |
+| **Eric Schmidt** | Acquired [[Relativity Space]] | — |
+| **[[Google]]** | Project Suncatcher | 2 satellites by early 2027 |
+| **Starcloud** | [[NVIDIA]]-backed, 5GW DC | — |
+
+**Advantages:**
+- 24/7 solar power (sun-synchronous orbit)
+- No land constraints
+- Simpler permitting (FAA + FCC bulk licenses vs years of ground permits)
+
+**Challenges:**
+- Massive solar panels (Starcloud: 4km × 4km for 5GW)
+- Cooling via radiators (no air/water in vacuum)
+- Cosmic ray damage to electronics
+- Latency (3+ seconds in high orbit)
+- Space debris risk
+- Repair impossible without robotics
+- Depends on [[SpaceX]] Starship full reusability
+
+**Phil Metzger (UCF):** "If you can get a bulk launch license from the FAA and a bulk constellation license from the FCC, that's just two applications — then you can build thousands of data centers."
+
+**Reality check:** "No new physics, but lots of technical maturity needed." Economically unviable today.
+
+See [[Space data centers]] for full analysis.
+
+---
+
 ## Water-power tradeoff
 
 Power and water constraints are linked — see [[Water constraints]] for full analysis.
@@ -400,7 +434,7 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 
 ---
 
-*Updated 2026-01-14*
+*Updated 2026-01-15*
 
 ## Related
 
@@ -430,3 +464,5 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 - [[Bloom Energy]] — fuel cells, AI load volatility research
 - [[Whisker Labs]] — power quality monitoring (Ting sensors)
 - [[NextEra Energy]] — world's largest wind/solar builder, quoted on AI power demand
+- [[SpaceX]] — space data center ambitions ($30B IPO)
+- [[Blue Origin]] — Bezos space DC vision

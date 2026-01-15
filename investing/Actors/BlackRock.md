@@ -3,7 +3,7 @@ aliases: [BLK]
 ---
 #actor #finance #asset-manager #usa #public
 
-**BlackRock** — World's largest asset manager. $10T+ AUM. Major AI investor through funds. Aladdin platform uses AI for risk management.
+**BlackRock** — World's largest asset manager. **$14T AUM** (record). Major AI investor through funds. Pivoting into private markets.
 
 ---
 
@@ -13,8 +13,27 @@ aliases: [BLK]
 |--------|-------|
 | Ticker | BLK (NYSE) |
 | Market cap | ~$150B |
-| AUM | $10T+ |
+| AUM | **$14T** (record, Q4 2024) |
+| ETF AUM | **$5.5T** |
 | Position | #1 asset manager globally |
+
+---
+
+## Q4 2024 earnings
+
+| Metric | Value | vs Prior |
+|--------|-------|----------|
+| AUM | **$14T** | Record |
+| Q4 net flows | **$342B** | — |
+| Q4 long-term flows | $268B | Beat $232B estimate |
+| ETF flows | $181B | — |
+| FY 2024 flows | **$698B** | Record |
+| EPS (adj) | **$13.16** | Beat $12.28 est (+10% YoY) |
+| Revenue | $7B | +23% YoY |
+
+**Citigroup outsourcing:** $80B of wealthy client assets transferred to BlackRock — one of industry's biggest outsourcing deals.
+
+**Stock:** +13.4% over 12 months (vs S&P +18.6%).
 
 ---
 
@@ -22,9 +41,10 @@ aliases: [BLK]
 
 | Segment | AUM | Focus |
 |---------|-----|-------|
-| ETFs (iShares) | ~$3.5T | Passive investing |
-| Institutional | ~$3T | Pensions, sovereigns |
-| Retail | ~$1T | Mutual funds |
+| ETFs (iShares) | **$5.5T** | Passive investing |
+| Institutional | ~$4T | Pensions, sovereigns |
+| Retail | ~$1.5T | Mutual funds |
+| Private markets | Growing | Credit, infrastructure |
 | Aladdin | — | Technology platform |
 
 ---
@@ -59,18 +79,21 @@ AI/ML used for risk analytics, portfolio optimization.
 
 ---
 
-## Infrastructure investing
+## Private markets pivot
 
-**Real assets push:**
+**~$28B acquisition spree (2024):**
 
-| Asset Class | Strategy |
-|-------------|----------|
-| Data centers | GIP acquisition, direct |
-| Energy infrastructure | Renewables, grid |
-| Private credit | Direct lending |
-| Real estate | Core, opportunistic |
+| Acquisition | Focus | Status |
+|-------------|-------|--------|
+| Global Infrastructure Partners (GIP) | Infrastructure | Completed |
+| HPS Investment Partners | Private credit | Completed July 2024 |
+| Preqin | Private markets data | Completed |
 
-GIP acquisition (2024) added major infrastructure capabilities.
+**Q4 private/alternatives inflows:** $15.6B
+
+**Strategy:** Transform from public markets dominant → force in private credit and infrastructure globally. New products targeting wealthy retail and 401(k) plans.
+
+**Larry Fink:** "Around the world, clients are looking to do more across BlackRock."
 
 ---
 
@@ -115,7 +138,7 @@ Passive flows drive AI stock demand.
 | Dividend yield | ~2.2% |
 | HQ | New York |
 
-*Created 2026-01-06*
+*Updated 2026-01-15*
 
 ---
 
@@ -125,3 +148,7 @@ Passive flows drive AI stock demand.
 - [[Microsoft]] — largest holding, Aladdin partner
 - [[JPMorgan]] — peer (financial services)
 - [[Vanguard]] — competitor (passive investing)
+- [[Citigroup]] — $80B outsourcing deal
+- [[Global Infrastructure Partners]] — acquired (infrastructure)
+- [[HPS Investment Partners]] — acquired (private credit)
+- [[Preqin]] — acquired (private markets data)

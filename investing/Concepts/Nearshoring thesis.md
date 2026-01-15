@@ -97,6 +97,27 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 
 ---
 
+## Jan 2026 challenges
+
+**Mexico caught between US and China:**
+
+| Issue | Detail |
+|-------|--------|
+| Economy contracting | Investment slowdown, manufacturing decline |
+| US investment paused | Companies waiting for tariff clarity |
+| China crackdown | Mexico blocking Chinese investment to appease Trump |
+| Asian tariffs | 50% on 1,400 products (Jan 1, 2026) |
+
+**Plan Mexico stalling:** Tax incentive hubs still early stage.
+
+**Alberto Ramos (Goldman):** "If the US wants home shoring... that's more problematic for Mexico."
+
+**Key question:** Will Trump embrace Mexico as friendshoring hub, or demand homeshoring?
+
+See [[Capital flow reversal]] for broader context.
+
+---
+
 ## Investment implications
 
 **Long Mexico infrastructure:**
@@ -119,7 +140,7 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 | CloudHQ | $4.8B |
 | Chip imports | $23.5B |
 
-*Updated 2026-01-01*
+*Updated 2026-01-15*
 
 ---
 
@@ -132,4 +153,5 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 - [[Microsoft]] — investor ($1.3B+ Mexico)
 - [[QSM Semiconductor]] — player (first Mexico fab)
 - [[USMCA]] — trade framework (tariff-free US access)
+- [[Capital flow reversal]] — broader macro context (Mexico caught in middle)
 

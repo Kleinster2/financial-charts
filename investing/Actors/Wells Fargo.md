@@ -93,6 +93,10 @@ aliases: [WFC]
 
 **Stock reaction:** -4.8% to $89 (revenue miss weighed on sentiment).
 
+**CEO Charlie Scharf:** "We have built a strong foundation and have made great progress in improving growth and returns, though we have operated with significant constraints."
+
+**Context:** First full year freed from Fed asset cap — struggled to shift conversation away from expense jump (severance).
+
 ---
 
 ## Investment case

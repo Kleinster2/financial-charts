@@ -24,10 +24,29 @@ Etched is a contrarian bet against flexibility:
 
 ---
 
-## Investors
+## Funding
 
-*   **Primary:** Positive Sum, Founders Fund.
-*   **Valuation:** ~$500M+ (Seed/Series A stage).
+| Round | Date | Amount | Valuation | Lead |
+|-------|------|--------|-----------|------|
+| Series A | 2024 | $120M | — | Primary Venture Partners |
+| Series B | Jan 2026 | **$500M** | **$5B** | Stripes |
+| **Total raised** | | **~$1B** | | |
+
+**Key investors:**
+- Peter Thiel
+- Stripes LLC (led Series B)
+- Positive Sum
+- Ribbit Capital
+- Founders Fund
+- Primary Venture Partners
+
+**Production:** Partnered with [[TSMC]] Emerging Businesses Group.
+
+---
+
+## Team
+
+Recruited from [[Broadcom]], Cypress Semiconductor, and other chip companies.
 
 ---
 
@@ -46,7 +65,9 @@ Etched represents the extreme end of the **specialization spectrum**:
 - [[Groq]] — the programmable competitor
 - [[Inference disaggregation]] — the structural trend
 - [[Power constraints]] — efficiency driver
+- [[TSMC]] — manufacturing partner
+- [[Broadcom]] — talent source
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-01-15*

@@ -69,6 +69,8 @@ See [[Copper for AI]] for thesis.
 
 ## Investment angle
 
+**Chile's stock market closely tracks copper prices** — commodity supercycle = Chile equity rally.
+
 **Chile exposure via:**
 | Company | Ticker | Notes |
 |---------|--------|-------|
@@ -76,6 +78,8 @@ See [[Copper for AI]] for thesis.
 | BHP | BHP | Escondida owner |
 | [[Freeport-McMoRan]] | FCX | Some Chile exposure |
 | [[Southern Copper]] | SCCO | Peru/Mexico, not Chile |
+
+See [[Long emerging markets]] — Chile as commodity play in EM supercycle thesis.
 
 ---
 

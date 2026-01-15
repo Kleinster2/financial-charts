@@ -79,13 +79,22 @@ CATL seen as leader in LFP (lithium iron phosphate) technology — Tesla's prefe
 
 ## Global expansion
 
-| Project | Location | Capacity | Timeline |
-|---------|----------|----------|----------|
-| Stellantis JV | Zaragoza, Spain | 50 GWh | 2026 production |
-| Indonesia plant | Indonesia | 15 GWh | H1 2026 |
-| Jining base | Shandong, China | 100+ GWh ESS | 2026 |
-| Hungary plant | Debrecen | 100 GWh | Operating |
-| Germany plant | Erfurt | 14 GWh | Operating |
+**Flagship of China's outbound investment surge:**
+
+| Project | Location | Investment | Status |
+|---------|----------|------------|--------|
+| **Arnstadt** | Germany | **$2B** | 2,000 employees, growing |
+| **Indonesia** | Karawang | **$6B** | Groundbreaking June 2025 |
+| Stellantis JV | Spain | — | 50 GWh, 2026 |
+| Hungary | Debrecen | — | 100 GWh, operating |
+
+**Germany contrast (Jan 2026):**
+- CATL Arnstadt: Expanding, hiring
+- Ford Cologne: Cutting 1,000 jobs, single shift
+
+**Indonesia:** Part of Chinese push to control EV battery supply chain from nickel refining to cell production.
+
+See [[Capital flow reversal]] — CATL exemplifies China building factories abroad rather than buying trophy assets.
 
 ---
 
@@ -116,7 +125,7 @@ CATL seen as leader in LFP (lithium iron phosphate) technology — Tesla's prefe
 | Customers | Tesla, VW, BMW, Mercedes |
 | Founded | 2011 |
 
-*Created 2026-01-05*
+*Updated 2026-01-15*
 
 ---
 
@@ -128,4 +137,6 @@ CATL seen as leader in LFP (lithium iron phosphate) technology — Tesla's prefe
 - [[LG Energy Solution]] — competitor (#3 globally)
 - [[Panasonic]] — competitor (Tesla Gigafactory partner)
 - [[NIO]] — customer (battery swap partnership)
+- [[Capital flow reversal]] — exemplar of China outbound investment
+- [[Ford]] — contrast (retreating from Europe as CATL expands)
 

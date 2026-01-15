@@ -75,6 +75,18 @@ Blackstone participated in CoreWeave's $7.5B+ debt financing:
 
 ---
 
+## Private credit / cov-lite lending (Jan 2026)
+
+**Participating in covenant-lite deals:**
+
+| Deal | Sponsor | Co-lenders |
+|------|---------|------------|
+| **JTC Plc** | [[Permira]] + CPPIB | CVC Credit, [[GIC]] |
+
+**Context:** [[Private credit]] market seeing cov-lite creep as top PE sponsors extract looser terms. Blackstone competing for deal flow alongside traditional covenant-protected lending.
+
+---
+
 ## CEO: Steve Schwarzman
 
 - Co-founder, Chairman, CEO
@@ -136,7 +148,7 @@ See [[Institutional homebuying ban]] for full context.
 | CEO | Steve Schwarzman |
 | DC platform | QTS |
 
-*Updated 2026-01-08*
+*Updated 2026-01-15*
 
 ---
 
@@ -159,3 +171,5 @@ See [[Institutional homebuying ban]] for full context.
 - [[Power constraints]] — context (data center demand)
 - [[Institutional homebuying ban]] — Trump policy risk (Jan 2026)
 - [[Invitation Homes]] — former subsidiary (single-family rental)
+- [[Private credit]] — cov-lite lending trend
+- [[Permira]] — borrower (JTC deal)

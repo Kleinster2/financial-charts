@@ -80,8 +80,25 @@ Second-largest NAND producer, but structurally disadvantaged:
 | 2020 | Postponed | COVID, chip cycle downturn |
 | 2023 | Withdrawn | Weak NAND pricing, investor appetite |
 | 2024+ | Pending | Waiting for cycle improvement |
+| **Dec 2024** | **Successful IPO** | Memory shortage tailwind |
 
-**Bain's problem**: Need exit. IPO window keeps closing.
+**Bain's exit achieved**: December 2024 IPO — stock surged multiple times over following listing, propelled by tight memory supplies.
+
+---
+
+## Stock surge (Dec 2024 - Jan 2025)
+
+**IPO success driven by shortage:**
+- Listed December 2024
+- Stock increased multiple times over post-IPO
+- Tight NAND supplies driving investor interest
+- Bain finally getting liquidity
+
+**Why now worked:**
+- Memory shortage creating pricing power
+- NAND supply lagging demand
+- AI infrastructure buildout absorbing capacity
+- "Everything related to memory — advanced or conventional — is in very strong demand" — CLSA
 
 ---
 
@@ -146,7 +163,7 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 | Employees | ~15,000 |
 | Fabs | Yokkaichi, Kitakami (Japan) |
 
-*Updated 2026-01-03*
+*Updated 2026-01-15*
 
 ---
 

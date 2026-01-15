@@ -80,6 +80,42 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 
 ---
 
+## Generic threat (2026)
+
+**Patent cliff looming:**
+
+| Market | Patent Status | Timeline |
+|--------|---------------|----------|
+| **Canada** | Expired Jan 4, 2026 | Generics Q3 2026 |
+| **China** | Expiring 2026 | 10+ companies filed |
+| **India** | Expiring 2026 | Novo lost lawsuits blocking generics |
+| **Brazil** | Expiring soon | Major market |
+| **US/UK/EU** | Protected until 2031+ | Safe for now |
+
+**Generic market:** Could reach **$8B/year by 2030** (Nomura).
+
+**Price impact:**
+
+| Market | Expected generic price |
+|--------|------------------------|
+| India | **$15-40/month** (vs $97+ branded) |
+| China | **~$50/month** |
+| Canada | 65% discount with 3+ competitors |
+
+**Key generic players:**
+- Sandoz (Swiss giant)
+- Aspen Pharmacare (South Africa)
+- Dr Reddy's (India) — targeting 87 markets
+- Huadong Medicine, CSPC (China)
+
+**CEO Mike Doustdar:** Expects most generics to arrive Q2 2026. "We will not stop fighting commercially."
+
+**US leakage risk:** Florida allows Canadian imports — could create market leakage problem.
+
+**1/3 of adults with obesity** live in countries affected by 2026 patent expiries (IQVIA).
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -93,6 +129,8 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 - Growth decelerating sharply
 - Stock down 50% — still catching falling knife?
 - Price pressure intensifying
+- **Generic cliff 2026** — Canada, China, India, Brazil
+- Compounding pharmacies eroding US market
 
 ---
 
@@ -121,4 +159,4 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 - [CNBC: Oral GLP-1 approval](https://www.cnbc.com/2025/12/23/wegovy-maker-novo-nordisk-shares-surge-after-glp-1-pill-approval.html)
 - [BioPharma Dive](https://www.biopharmadive.com/news/novo-nordisk-3q-earnings-obesity-drug-sales-outlook/804727/)
 
-*Created 2026-01-09*
+*Updated 2026-01-15*
