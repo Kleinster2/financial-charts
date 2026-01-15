@@ -143,16 +143,20 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 | ASP increase (2026) | — | **+6.9%** |
 | Component cost increase | — | +10-25% |
 
-**OEM vulnerability ranking:**
+**OEM forecast revisions (Nov → Jan 2026):**
 
-| OEM | Position | 2026 Forecast |
-|-----|----------|---------------|
-| Apple | Best positioned | ~-1% |
-| Samsung | Best positioned | ~-1% |
-| Xiaomi | Vulnerable | ~-2.5% |
-| Vivo | Vulnerable | ~-1% |
-| Oppo | Vulnerable | ~-1% (was +2%) |
-| Honor | Most vulnerable | **-4%** (was -2%) |
+| OEM | Nov Forecast | Jan Forecast | Revision |
+|-----|--------------|--------------|----------|
+| Apple | ~-0.5% | ~-1% | -0.5pp |
+| Samsung | ~-0.5% | ~-1% | -0.5pp |
+| Xiaomi | ~-2.5% | ~-2.5% | — |
+| Vivo | ~+1% | ~-1% | **-2pp** |
+| Oppo | ~+2% | ~-1% | **-3pp** |
+| Honor | ~-2% | ~-4% | **-2pp** |
+| Others | ~+2% | ~-2% | **-4pp** |
+| **Overall** | ~0% | ~-2.1% | **-2.1pp** |
+
+**Takeaway:** Oppo had biggest absolute revision (-3pp). "Others" (smaller Chinese brands) crushed (-4pp). Apple/Samsung barely moved — margin buffer protects forecasts.
 
 **Key dynamics:**
 - AI buildout causing producers to prioritize HBM over commodity DRAM
