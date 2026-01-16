@@ -98,6 +98,35 @@ aliases: [Software as a Service, Cloud Software, Software-as-a-service, Subscrip
 |---------|-------|---------|
 | [[Adobe]] | Creative/marketing | ~$24B |
 | [[Intuit]] | SMB finance | ~$19B |
+| [[Figma]] | UI/UX design | ~$600M (private) |
+| [[Canva]] | Graphic design | ~$2.3B (private) |
+| [[Notion]] | Workspace | ~$500M (private) |
+
+### Communications
+
+| Company | Focus | Revenue |
+|---------|-------|---------|
+| [[Zoom]] | Video conferencing | ~$4.5B |
+| [[Twilio]] | Communications APIs | ~$4.2B |
+| [[DocuSign]] | E-signature | ~$2.8B |
+
+### Project Management
+
+| Company | Focus | Revenue |
+|---------|-------|---------|
+| [[Monday.com]] | Work OS | ~$1B |
+| [[Asana]] | Work management | ~$700M |
+| [[Airtable]] | Low-code platform | ~$500M (private) |
+
+### E-commerce & Vertical
+
+| Company | Focus | Revenue |
+|---------|-------|---------|
+| [[Shopify]] | E-commerce platform | ~$8B |
+| [[Toast]] | Restaurant tech | ~$4.5B |
+| [[Klaviyo]] | E-commerce marketing | ~$900M |
+| [[Wix]] | Website builder | ~$1.7B |
+| [[Squarespace]] | Website builder | ~$1B (private) |
 
 ---
 
@@ -167,11 +196,28 @@ aliases: [Software as a Service, Cloud Software, Software-as-a-service, Subscrip
 
 ## Related
 
+### Enterprise
 - [[Salesforce]] — CRM leader
 - [[ServiceNow]] — IT workflow leader
+- [[Workday]] — HR/Finance
+
+### Data & Observability
 - [[Snowflake]] — data cloud
 - [[Datadog]] — observability
 - [[CrowdStrike]] — security
+
+### Productivity
+- [[Zoom]] — video conferencing
+- [[Notion]] — workspace
+- [[Figma]] — design
+- [[Monday.com]] — work management
+
+### E-commerce
+- [[Shopify]] — platform leader
+- [[Toast]] — restaurant vertical
+- [[Klaviyo]] — e-commerce marketing
+
+### Concepts
 - [[Enterprise AI adoption]] — AI trend
 
 ---
