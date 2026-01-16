@@ -59,6 +59,46 @@ One of largest AI deals ever.
 
 ---
 
+## Cap table
+
+### Funding history
+
+| Round | Date | Amount | Valuation | Lead |
+|-------|------|--------|-----------|------|
+| Seed | 2016 | — | — | Y Combinator |
+| Series A | 2017 | — | — | [[Accel]] |
+| Series C | Aug 2019 | $100M | $1B | [[Founders Fund]] |
+| Series E | Jul 2021 | $325M | $7B | [[Greenoaks]] |
+| Series F | May 2024 | $1B | $13.8B | [[Accel]] |
+| Series G | Jun 2025 | $14.8B | $29B | [[Meta]] (49% stake) |
+
+### Key investors
+
+| Investor | Role |
+|----------|------|
+| **[[Meta]]** | 49% owner (Series G) |
+| **[[Accel]]** | Lead Series A, F |
+| **[[Founders Fund]]** | Lead Series C |
+| **[[Thrive Capital]]** | Series C+ |
+| **[[Coatue]]** | Series C+ |
+| **[[Tiger Global]]** | Series E+ |
+| **[[Index Ventures]]** | Early investor |
+| **[[Greenoaks]]** | Lead Series E |
+| **[[NVIDIA]]** | Strategic (Series F) |
+| **Amazon** | Strategic (Series F) |
+| **[[Spark Capital]]** | Series C+ |
+| **[[Dragoneer]]** | Early investor |
+| **[[Wellington Management]]** | Series E+ |
+
+### Founders
+
+| Person | Role |
+|--------|------|
+| **Alexandr Wang** | Founder/CEO → Meta |
+| **Lucy Guo** | Co-founder (departed) |
+
+---
+
 ## Government contracts
 
 **Deep defense relationships:**

@@ -118,8 +118,10 @@ Stock dipped on institutional homebuying ban announcement:
 
 ## Related
 
+- [[Housing]] — sector hub
 - [[DR Horton]] — peer (#1, entry-level)
 - [[Lennar]] — peer (#2, diversified)
 - [[Toll Brothers]] — peer (luxury)
+- [[Single-family rental]] — build-to-rent context
 - [[Institutional homebuying ban]] — Trump policy (Jan 2026)
 

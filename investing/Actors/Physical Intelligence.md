@@ -13,10 +13,11 @@ Foundation model for robotics:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **$2.4B** (Oct 2025) |
-| Raised | **$400M** |
+| Valuation | **$5.6B** (Nov 2025) |
+| Raised | **$1.07B** |
 | HQ | San Francisco |
-| Backers | Jeff Bezos, [[OpenAI]] |
+| Founded | 2024 |
+| Model | π0 (pi-zero) |
 
 ---
 
@@ -30,14 +31,49 @@ Foundation model for robotics:
 
 ---
 
-## Backing
+## Cap table
 
-**Investors:**
-- Jeff Bezos
-- [[OpenAI]]
-- Venture funds
+### Funding history
 
-**Strategic value:** Bezos (Amazon robotics), OpenAI (AI expertise) = powerful combination.
+| Round | Date | Amount | Valuation | Lead |
+|-------|------|--------|-----------|------|
+| Seed | Mar 2024 | $70M | — | — |
+| Series A | Nov 2024 | $400M | $2B | — |
+| Series B | Nov 2025 | $600M | $5.6B | CapitalG |
+| **Total** | | **$1.07B** | | |
+
+### Key investors
+
+| Investor | Role |
+|----------|------|
+| **CapitalG** | Lead Series B |
+| **[[Lux Capital]]** | Multiple rounds |
+| **[[Thrive Capital]]** | Series A+ |
+| **[[BOND]]** | Series A+ |
+| **Jeff Bezos** | Strategic |
+| **[[OpenAI]]** | Strategic |
+| **[[Sequoia Capital]]** | Series B |
+| **[[Index Ventures]]** | Series B |
+| **Redpoint** | Series B |
+| **T. Rowe Price** | Series B |
+
+### Founders
+
+| Person | Background |
+|--------|------------|
+| Team | Ex-Google DeepMind, Stanford, UC Berkeley |
+
+---
+
+## Product: π0 (pi-zero)
+
+**First generalist robotic foundation model:**
+- Vision-Language-Action model
+- Controls diverse robot platforms
+- Ingests camera feeds + natural language
+- Outputs real-time action commands
+
+**Tasks:** Folding laundry, assembling boxes, bussing tables, making coffee.
 
 ---
 
@@ -76,11 +112,12 @@ Physical Intelligence = software layer that could power many robot makers.
 | Metric | Value |
 |--------|-------|
 | Ticker | Private |
-| Valuation | $2.4B |
-| Raised | $400M |
+| Valuation | $5.6B |
+| Raised | $1.07B |
 | HQ | San Francisco |
+| Model | π0 (pi-zero) |
 
-*Updated 2026-01-05*
+*Updated 2026-01-16*
 
 ---
 

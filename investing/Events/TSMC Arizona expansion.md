@@ -13,6 +13,25 @@
 | Phase 1 | 4nm/5nm | Mass production 2025 |
 | Phase 2 | 3nm | 2027 |
 | Phase 3 | 2nm | 2028 |
+| **Phase 4+** | TBD | Land acquired Jan 2026 |
+
+## January 2026 expansion
+
+**Major land purchase** — TSMC bought hundreds of acres adjacent to existing Arizona site.
+
+| Detail | Value |
+|--------|-------|
+| Announcement | Jan 15, 2026 (part of [[US-Taiwan relations]] trade deal) |
+| Land | "Hundreds of acres" adjacent to current site |
+| Context | $500B Taiwan chip investment commitment |
+| Source | Commerce Secretary Lutnick |
+
+Part of broader US-Taiwan trade agreement:
+- $250B direct investment from Taiwan chip/tech companies
+- $250B Taiwan government credit guarantees
+- Tariffs on Taiwan goods cut to 15%
+
+Signals potential Phase 4+ expansion beyond original 3-phase plan.
 
 ## Why it matters
 
@@ -90,13 +109,14 @@ Key point: Arizona is ~5% of TSMC's total capacity. It cannot absorb Taiwan's ro
 | Node approach | Lag Taiwan | Leapfrog to leading edge |
 | Risk profile | Low variance | High variance |
 
-*Updated 2026-01-04*
+*Updated 2026-01-16*
 
 ---
 
 ## Related
 
-- [[TSMC]] — subject (Arizona fabs Phase 1-3)
+- [[TSMC]] — subject (Arizona fabs Phase 1-3+)
+- [[US-Taiwan relations]] — trade deal enabling expansion (Jan 2026)
 - [[Node lag as strategy]] — mechanism (Arizona trails Taiwan by 1-2 nodes)
 - [[Taiwan concentration risk]] — driver (insurance against disruption)
 - [[CHIPS Act]] — enabler ($6.6B subsidies)

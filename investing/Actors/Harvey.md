@@ -20,34 +20,41 @@ AI transforming legal profession:
 
 ---
 
-## Valuation trajectory
+## Cap table
 
-**Rapid ascent:**
+### Funding history
 
-| Date | Round | Valuation |
-|------|-------|-----------|
-| July 2024 | — | $1.5B |
-| Feb 2025 | Series D | $3B |
-| June 2025 | Series E | $5B |
-| Dec 2025 | — | $8B |
+| Round | Date | Valuation | Lead |
+|-------|------|-----------|------|
+| Early | 2022-2023 | — | — |
+| — | Jul 2024 | $1.5B | — |
+| Series D | Feb 2025 | $3B | [[Sequoia Capital]] |
+| Series E | Jun 2025 | $5B | — |
+| — | Dec 2025 | $8B | — |
 
-5x in 18 months.
+**Growth:** 5x valuation in 18 months.
 
----
+### Key investors
 
-## Investors
-
-**Elite syndicate:**
-- [[Sequoia Capital]] (Series D lead)
-- Kleiner Perkins
-- [[OpenAI]] Startup Fund
-- GV (Google Ventures)
-- Coatue
-- Elad Gil
-- EQT
-- WndrCo
+| Investor | Role |
+|----------|------|
+| **[[Sequoia Capital]]** | Lead Series D |
+| **[[Kleiner Perkins]]** | Early investor |
+| **[[OpenAI]]** | Startup Fund (strategic) |
+| **[[GV]]** | Growth investor |
+| **[[Coatue]]** | Growth investor |
+| **[[Elad Gil]]** | Angel |
+| **[[EQT]]** | Growth investor |
+| **[[WndrCo]]** | Growth investor |
 
 OpenAI investment = strategic signal.
+
+### Founders
+
+| Person | Role |
+|--------|------|
+| **Winston Weinberg** | CEO (ex-O'Melveny & Myers) |
+| **Gabe Pereyra** | Co-founder (ex-DeepMind) |
 
 ---
 

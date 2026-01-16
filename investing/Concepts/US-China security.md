@@ -159,6 +159,7 @@
 
 - [[US-China relations]] — parent hub
 - [[Taiwan]] — primary flashpoint
+- [[US-Taiwan relations]] — bilateral defense/economic ties
 - [[Japan]] — key US ally, Quad member
 - [[China-Japan relations]] — Jan 2026 escalation
 - [[Semiconductors]] — why Taiwan matters

@@ -121,6 +121,47 @@ See [[Space data centers]] for full concept analysis.
 
 ---
 
+## Cap table
+
+### Valuation history
+
+| Date | Valuation | Event |
+|------|-----------|-------|
+| 2021 | $100B | — |
+| 2023 | $150B | Tender offer |
+| July 2025 | $400B | Internal ($212/share) |
+| Dec 2025 | **$800B** | Internal ($421/share) |
+| 2026 IPO target | **$1.5T** | Planned |
+
+### Key investors
+
+| Investor | Notes |
+|----------|-------|
+| **[[Elon Musk]]** | Founder, majority control |
+| **Fidelity** | Major institutional |
+| **Founders Fund** | Early investor (Peter Thiel) |
+| **Sequoia Capital** | Growth investor |
+| **a16z** | Growth investor |
+| **Gigafund** | Space-focused VC |
+| **T. Rowe Price** | Institutional |
+| **Baillie Gifford** | Institutional |
+| **Google** | Strategic ($1B in 2015) |
+
+### Funding history
+
+| Round | Year | Amount | Notes |
+|-------|------|--------|-------|
+| Early rounds | 2002-2008 | ~$200M | Musk + angels |
+| Series G | 2015 | $1B | Google, Fidelity |
+| Various | 2015-2024 | $10B+ | Multiple rounds |
+| Pre-IPO | 2025 | — | Tender offers at $400-800B |
+
+**Total raised:** ~$12B+ (excluding IPO)
+
+**Note:** SpaceX cap table is opaque. Musk retains majority voting control through share structure.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -132,7 +173,7 @@ See [[Space data centers]] for full concept analysis.
 | 2025 revenue | ~$15B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-01-15*
+*Updated 2026-01-16*
 
 ---
 

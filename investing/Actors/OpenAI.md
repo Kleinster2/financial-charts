@@ -27,7 +27,9 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 
 ---
 
-## Investors
+## Cap table
+
+### Key investors
 
 | Investor | Amount | Notes |
 |----------|--------|-------|

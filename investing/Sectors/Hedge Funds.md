@@ -143,9 +143,11 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 | Bridgewater | Ray Dalio | $150B+ | 1975 |
 | Rokos | Chris Rokos | $16B+ | 2015 |
 | Brevan Howard | Alan Howard | $35B+ | 2002 |
-| Tudor | Paul Tudor Jones | $12B+ | 1980 |
-| Caxton | Bruce Kovner | $25B+ | 1983 |
-| Element | Jeffrey Talpins | $25B+ | 2005 |
+| [[Tudor Investment Corp\|Tudor]] | Paul Tudor Jones | $12B+ | 1980 |
+| [[Caxton Associates\|Caxton]] | Bruce Kovner | $25B+ | 1983 |
+| [[Element Capital\|Element]] | Jeffrey Talpins | $25B+ | 2005 |
+| [[Soros Fund Management\|Soros]] | George Soros | Family office | 1969 |
+| [[Duquesne Family Office\|Duquesne]] | Stanley Druckenmiller | Family office | 1981 |
 
 ### Quant / Systematic
 
@@ -154,9 +156,9 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 | Renaissance | Jim Simons | $130B+ | 1982 |
 | Two Sigma | John Overdeck, David Siegel | $60B+ | 2001 |
 | AQR | Cliff Asness | $100B+ | 1998 |
-| Man Group | — | $175B+ | 1783 |
-| Winton | David Harding | $7B+ | 1997 |
-| CFM | Jean-Philippe Bouchaud | $10B+ | 1991 |
+| [[Man Group]] | — | $175B+ | 1783 |
+| [[Winton Group\|Winton]] | David Harding | $7B+ | 1997 |
+| [[CFM]] | Jean-Philippe Bouchaud | $10B+ | 1991 |
 
 ### Tiger cubs / L/S equity
 
@@ -169,6 +171,27 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 | Maverick | Lee Ainslie | Tiger |
 | Light Street | Glen Kacher | — |
 | Sachem Head | Scott Ferguson | Pershing |
+| [[Whale Rock Capital]] | Alex Sacerdote | Fidelity |
+| [[Glenview Capital]] | Larry Robbins | Healthcare |
+| [[Select Equity Group]] | George Lee | Quality |
+| [[Soroban Capital]] | Eric Mandelblatt | TPG-Axon |
+| [[Discovery Capital]] | Rob Citrone | Tiger |
+
+### European L/S
+
+| Firm | Founder | AUM | Founded |
+|------|---------|-----|---------|
+| [[Egerton Capital]] | John Armitage | $20B+ | 1994 |
+| [[Lansdowne Partners]] | Paul Ruddock | $15B+ | 1998 |
+| Marshall Wace | Paul Marshall | $65B+ | 1997 |
+
+### Credit / Distressed
+
+| Firm | Founder | AUM | Founded |
+|------|---------|-----|---------|
+| [[Oaktree Capital]] | Howard Marks | $190B+ | 1995 |
+| [[Ares Management]] | Antony Ressler | $450B+ | 1997 |
+| [[Canyon Capital]] | Josh Friedman | $25B+ | 1990 |
 
 ---
 
@@ -218,18 +241,60 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 
 ## Related
 
-### Actors
+### Key firms
 - [[Citadel]] — Ken Griffin, multi-strat
-- [[Renaissance Technologies]] — Medallion fund
-- [[Bridgewater]] — Ray Dalio, macro
+- [[Susquehanna]] — Jeff Yass, options market making
+- [[Jane Street]] — quant trading
+- [[Point72]] — Steve Cohen, multi-strat
 
-### Concepts
-- [[Quant investing]] — systematic strategies
-- [[Alpha generation]] — active management
+### Tiger Cubs / Crossover
+- [[Tiger Global]] — Chase Coleman
+- [[Coatue]] — Philippe Laffont
+- [[Viking Global]] — Andreas Halvorsen
+- [[D1 Capital]] — Dan Sundheim
+- [[Lone Pine]] — Steve Mandel
 
-### Context
-- [[Private equity]] — alternative assets
-- [[Venture capital]] — growth investing
+### Activists
+- [[Elliott Management]] — Paul Singer
+- [[Pershing Square]] — Bill Ackman
+- [[Third Point]] — Dan Loeb
+- [[ValueAct Capital]] — Mason Morfit
+- [[Starboard Value]] — Jeff Smith
+- [[Trian Partners]] — Nelson Peltz
+- [[Carl Icahn]] — legendary raider
+- [[JANA Partners]] — Barry Rosenstein, ESG
+
+### Value / Distressed
+- [[Baupost Group]] — Seth Klarman
+- [[Appaloosa Management]] — David Tepper
+- [[Greenlight Capital]] — David Einhorn
+- [[Paulson & Co]] — John Paulson
+- [[Sculptor Capital]] — formerly Och-Ziff
+- [[Oaktree Capital]] — Howard Marks
+- [[Canyon Capital]] — Josh Friedman
+
+### European
+- [[Egerton Capital]] — John Armitage
+- [[Lansdowne Partners]] — Paul Ruddock
+- [[Man Group]] — London, public
+
+### Notable closures
+- [[Melvin Capital]] — GameStop casualty (2022)
+
+### Market Makers / HFT
+- [[Virtu Financial]] — public market maker
+- [[Jump Trading]] — Chicago HFT
+- [[DRW]] — Don Wilson, crypto
+- [[Hudson River Trading]] — low-profile HFT
+- [[Optiver]] — Amsterdam options
+- [[IMC Trading]] — Amsterdam options
+
+### Sectors
+- [[Market Makers]] — HFT and liquidity providers
+- [[Activist Investors]] — engagement-focused funds
+- [[Private Equity]] — alternative assets
+- [[Venture Capital]] — growth investing
+- [[Family Offices]] — former hedge funds
 
 ---
 

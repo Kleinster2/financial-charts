@@ -62,19 +62,30 @@ Helion is the most credible fusion-for-AI play:
 
 ---
 
-## Investors
+## Cap table
 
-| Investor | Round |
-|----------|-------|
-| [[Sam Altman]] | Lead, $375M (2021), board chair |
-| SoftBank | 2025 round |
-| Lightspeed | 2025 round |
-| Mithril Capital (Thiel) | Earlier rounds |
-| Capricorn | Earlier rounds |
-| Y Combinator | Accelerator (2014) |
+### Funding history
 
-**Total raised:** $1B+
+| Round | Date | Amount | Notes |
+|-------|------|--------|-------|
+| YC | 2014 | — | Accelerator |
+| Series A-C | 2015-2020 | ~$230M | Mithril, Capricorn |
+| Series D | 2021 | $500M | Sam Altman led ($375M) |
+| Series E | 2025 | $425M | SoftBank, Lightspeed |
+| **Total** | | **$1.2B+** | |
+
 **Valuation:** $5.4B
+
+### Key investors
+
+| Investor | Role |
+|----------|------|
+| **[[Sam Altman]]** | Chairman, lead ($375M) |
+| **SoftBank** | Series E |
+| **[[Lightspeed Venture Partners]]** | Series E |
+| **Mithril Capital** | Early (Peter Thiel) |
+| **Capricorn** | Early |
+| **Y Combinator** | Accelerator (2014) |
 
 ---
 
