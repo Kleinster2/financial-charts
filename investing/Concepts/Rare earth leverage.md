@@ -155,6 +155,7 @@ In response to [[Export controls]] on semiconductors:
 | Initiative | Status |
 |------------|--------|
 | US rare earth mining ([[MP Materials]]) | Small scale |
+| **US gallium (ATALCO)** | **$150M Pentagon equity (Jan 2026)** |
 | Australia processing | Early stage |
 | EU Critical Raw Materials Act | Policy phase |
 | Recycling programs | Nascent |
@@ -261,6 +262,23 @@ Timeline to reduce dependence: 10+ years minimum.
 **Challenge**: Previously uneconomical, but China weaponization of supply may change calculus.
 
 **China response**: Naval fleet observed near island during June 2025 surveys. Beijing watching closely.
+
+---
+
+## Japan supply chain impact (Jan 2026)
+
+**Kihara (Chief Cabinet Secretary):** "China's export control measures on rare earths and other materials have been ongoing for some time and are having a serious impact on the global supply chain."
+
+| Impact | Detail |
+|--------|--------|
+| Neodymium magnet lead times | **3-4 months** (from usual 1-2) |
+| Customs processing | Lengthened since end of 2025 |
+| Japanese firm response | Securing 6+ months inventory |
+| Status | Export applications still processing, but slower |
+
+**Japan allied outreach:** Finance Minister Katayama meeting G7 counterparts on critical minerals; PM Takaichi hosting South Korea's Lee and Italy's Meloni.
+
+See [[China-Japan relations]] for full escalation timeline.
 
 ---
 

@@ -36,6 +36,23 @@
 | Panama Canal threats | Force | — |
 | TPS terminations | Immigration | [[Venezuela repatriation strategy]] |
 | Tariff defense | Trade | [[US-China tariffs]] |
+| ATALCO gallium stake | Industrial policy | $150M Pentagon equity |
+
+---
+
+## Direct government equity stakes
+
+**Unprecedented pattern of government taking direct ownership:**
+
+| Company | Stake | Purpose |
+|---------|-------|---------|
+| **Intel** | Equity stake | Chip manufacturing |
+| **US Steel** | "Golden share" | Nippon Steel takeover condition |
+| **Kazakhstan tungsten** | Majority stake | Via US private company |
+| **ATALCO** | $150M preferred | First US large-scale gallium |
+| **MP Materials** | $400M equity | Rare earth magnets |
+
+See [[Gallium]], [[MP Materials]], [[Rare earth leverage]].
 
 ---
 

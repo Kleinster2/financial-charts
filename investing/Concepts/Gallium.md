@@ -88,9 +88,36 @@ US Geological Survey estimates:
 | Japan | Small refining capacity |
 | South Korea | Developing |
 | Germany | Pilot scale |
-| US | Minimal (no aluminum smelting) |
+| **US (ATALCO)** | **First large-scale (Jan 2026)** |
 
 **Challenge**: Without domestic aluminum industry, US has no gallium feedstock. Would need to build from scratch.
+
+---
+
+## ATALCO deal (Jan 2026)
+
+**Pentagon takes equity stake in first US large-scale gallium producer:**
+
+| Metric | Value |
+|--------|-------|
+| Pentagon equity | **$150M** (preferred) |
+| Pinnacle investment | $300M |
+| Additional govt funding | Expected within 30 days |
+| Target gallium output | **50 metric tons/year** |
+| Target alumina output | 1M+ metric tons/year |
+| Location | Gramercy, Louisiana |
+
+**ATALCO (Atlantic Alumina Co.):**
+- Owned by Pinnacle-owned Concord Resources Holdings
+- Operating since late 1950s (bauxite → alumina)
+- Will add "country's first and only large-scale gallium production circuit"
+- Claims could meet "total gallium demand in the US"
+
+**Pinnacle Asset Management:**
+- $6B+ AUM
+- Jason Kellman (CIO): "Investment philosophy has centered on bolstering the US supply chain for critical minerals"
+
+**Part of Trump pattern:** Direct government equity stakes in strategic companies (Intel, US Steel golden share, Kazakhstan tungsten)
 
 ---
 

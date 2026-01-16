@@ -162,5 +162,6 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 - [[AI infrastructure financing]] — key arranger for hyperscaler capital
 - [[Significant risk transfer]] — exploring to offload data center exposure
 - [[TeraWulf]], [[Cipher Mining]], [[Applied Digital]] — led junk bond offerings
+- [[Basis trade]] — research on $1.5T Treasury basis trade risk
 - [[Oracle]] — flagged CDS spike risk from AI borrowing
 
