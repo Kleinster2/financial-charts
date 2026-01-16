@@ -39,8 +39,8 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 |---------|-------|-------|
 | [[PayPal]] | Online payments, Venmo | 400M+ accounts |
 | [[Block]] | Square POS, Cash App | 50M+ Cash App users |
-| Adyen | Enterprise payments | Unified commerce |
-| Stripe | Developer-first | Private ($50B+ valuation) |
+| [[Adyen]] | Enterprise payments | Unified commerce |
+| [[Stripe]] | Developer-first | Private ($50B+ valuation) |
 
 ### Neobanks
 
@@ -48,15 +48,16 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 |---------|-------|-----------|--------|
 | [[Revolut]] | 50M+ | Global (UK HQ) | IPO 2026 target |
 | [[Nubank]] | 100M+ | LatAm | Public (NU) |
-| Chime | 20M+ | US | Private |
+| [[Chime]] | 20M+ | US | Private |
+| [[SoFi]] | 9M+ | US | Public (SOFI) |
 | N26 | 8M+ | Europe | Private |
 
 ### BNPL (Buy Now Pay Later)
 
 | Company | Status | Challenge |
 |---------|--------|-----------|
-| Klarna | Private, IPO filed | Credit losses |
-| Affirm | Public (AFRM) | Profitability |
+| [[Klarna]] | Private, IPO filed | Credit losses |
+| [[Affirm]] | Public (AFRM) | Profitability |
 | Afterpay | Acquired by Block | Integrated |
 
 ### Crypto/DeFi
@@ -72,7 +73,7 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 | Company | Focus | Differentiator |
 |---------|-------|----------------|
 | [[Robinhood]] | Retail trading | Zero commission pioneer |
-| SoFi | Super-app | Banking + trading |
+| [[SoFi]] | Super-app | Banking + trading |
 | Interactive Brokers | Active traders | Low margin rates |
 
 ---
@@ -149,8 +150,8 @@ Financial technology — payments, neobanks, lending, crypto, insurtech.
 | [[Coinbase]] | COIN | Crypto exchange |
 | [[Robinhood]] | HOOD | Retail brokerage |
 | [[Nubank]] | NU | LatAm neobank |
-| Affirm | AFRM | BNPL |
-| SoFi | SOFI | Super-app |
+| [[Affirm]] | AFRM | BNPL |
+| [[SoFi]] | SOFI | Super-app |
 
 ---
 
