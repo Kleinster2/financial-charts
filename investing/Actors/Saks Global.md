@@ -55,6 +55,37 @@ aliases: [Saks Fifth Avenue, Neiman Marcus, Bergdorf Goodman]
 
 ---
 
+## Debt breakdown
+
+**The $5B wasn't new debt — it included Neiman's legacy obligations:**
+
+| Component | Amount | Notes |
+|-----------|--------|-------|
+| **Junk bonds** (new) | $2.2B | Issued to fund acquisition |
+| **Bank loans** | $3.4B | Court filings |
+| **Asset-based lending** | $1.8B | $1.1B drawn as of July 2025 |
+| **Neiman legacy debt** | Assumed | From Apollo/One Equity Partners era |
+
+**The hidden bomb:** Neiman Marcus came with **$5.5B in legacy debt** from prior private equity ownership. Saks assumed this burden on top of issuing new bonds.
+
+**Interest expense explosion:**
+
+| Period | Interest expense |
+|--------|------------------|
+| FY 2024 | $234M |
+| Post-deal | **~$400M/year** (+70%) |
+
+**Current bond trading levels:**
+
+| Tranche | Price |
+|---------|-------|
+| Second-out notes ($941M) | **6 cents on dollar** |
+| Senior debt ($762M) | **46 cents on dollar** |
+
+**Secured creditors:** Private credit funds hold $4.2B in claims backed by inventory, real estate, and credit card portfolios.
+
+---
+
 ## Amazon's $475M loss
 
 **[[Amazon]] invested $475M in the Neiman acquisition — now "effectively worthless."**
@@ -72,13 +103,24 @@ aliases: [Saks Fifth Avenue, Neiman Marcus, Bergdorf Goodman]
 
 ## Creditors
 
-| Creditor | Amount owed |
-|----------|-------------|
-| **Amazon** | **$475M** (equity, likely wiped) |
-| Chanel | $100M+ |
-| Various fashion brands (via Hilldun) | $66M |
-| Gift card holders | $320M |
-| Bondholders | $2.2B+ |
+**Secured creditors:**
+
+| Creditor class | Amount | Recovery |
+|----------------|--------|----------|
+| **Secured lenders** | $4.2B | Backed by inventory, RE, credit cards |
+| Asset-based lenders | $1.1B drawn | First priority |
+
+**Unsecured/equity:**
+
+| Creditor | Amount owed | Notes |
+|----------|-------------|-------|
+| **Amazon** | **$475M** | Equity, likely wiped |
+| **Christian Louboutin** | **$21.6M** | Vendor |
+| **Capri (Jimmy Choo)** | **$33.3M** | Vendor |
+| Chanel | $100M+ | Vendor |
+| Various brands (via Hilldun) | $66M | ~several dozen brands |
+| Gift card holders | $320M | Consumer liability |
+| Bondholders | $2.2B | Second-out notes at 6 cents |
 
 **Gary Wassner (Hilldun Corp CEO):** Represents several dozen fashion brands owed ~$66M. Recovery depends on profitability post-emergence.
 
