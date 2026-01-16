@@ -118,8 +118,11 @@ Stock dipped on Trump's institutional homebuying ban announcement:
 
 ## Related
 
+- [[Housing]] — sector hub
 - [[DR Horton]] — peer (#1 builder)
 - [[PulteGroup]] — peer (move-up)
 - [[Toll Brothers]] — peer (luxury)
+- [[Invitation Homes]] — SFR REIT (build-to-rent buyer)
+- [[Single-family rental]] — build-to-rent context
 - [[Institutional homebuying ban]] — Trump policy (Jan 2026)
 

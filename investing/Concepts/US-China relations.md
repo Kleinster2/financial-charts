@@ -118,6 +118,7 @@ Military competition and flashpoints. See [[US-China security]].
 - [[CNPC]], [[Sinopec]] — Chinese oil/gas
 
 ### Related bilateral
+- [[US-Taiwan relations]] — defense, trade, semiconductor ties
 - [[China-Japan relations]] — escalating (Jan 2026)
 
 ### Resources

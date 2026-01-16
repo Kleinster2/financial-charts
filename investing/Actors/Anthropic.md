@@ -18,7 +18,9 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
-## Investors
+## Cap table
+
+### Key investors
 
 | Investor | Amount | Notes |
 |----------|--------|-------|

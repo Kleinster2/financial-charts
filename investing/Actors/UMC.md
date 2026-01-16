@@ -52,6 +52,20 @@ Not competing — different markets.
 
 ---
 
+## US-Taiwan trade deal (Jan 2026)
+
+**Beneficiary of [[US-Taiwan relations]] breakthrough:**
+
+| Impact | Detail |
+|--------|--------|
+| Tariffs | Cut to 15% on Taiwan goods |
+| Investment framework | $500B Taiwan chip commitment |
+| Sentiment | Reduced Taiwan risk premium |
+
+UMC benefits as Taiwan foundry — mature node chips face lower tariffs to US.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -59,12 +73,13 @@ Not competing — different markets.
 - Automotive/industrial growth
 - Less capex intensive
 - Geographic diversification
+- **US-Taiwan trade deal** — reduced tariffs, lower geopolitical discount
 
 **Bear:**
 - TSMC shadow
 - China mature node competition
 - Lower growth ceiling
-- Taiwan geopolitical risk
+- Taiwan geopolitical risk (mitigated by trade deal)
 
 ---
 
@@ -77,12 +92,13 @@ Not competing — different markets.
 | Nodes | 28nm+ |
 | Focus | Mature, specialty |
 
-*Created 2026-01-08*
+*Updated 2026-01-16*
 
 ---
 
 ## Related
 
+- [[US-Taiwan relations]] — trade deal beneficiary (Jan 2026)
 - [[TSMC]] — peer (Taiwan foundry)
 - [[GlobalFoundries]] — peer (mature nodes)
 - [[Samsung]] — competitor (foundry)

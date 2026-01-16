@@ -119,8 +119,10 @@ Minimal direct impact expected:
 
 ## Related
 
+- [[Housing]] — sector hub
 - [[DR Horton]] — peer (#1, entry-level)
 - [[Lennar]] — peer (#2, diversified)
 - [[PulteGroup]] — peer (move-up)
+- [[Single-family rental]] — less exposed (luxury segment)
 - [[Institutional homebuying ban]] — Trump policy (Jan 2026)
 

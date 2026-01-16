@@ -141,6 +141,7 @@ Taiwan exposure = embedded in any tech portfolio.
 - [[MediaTek]] — fabless design
 
 ### Concepts
+- [[US-Taiwan relations]] — bilateral ties framework
 - [[Taiwan tech protectionism]] — talent/IP protection crackdown
 - [[Export controls]] — US-China chip restrictions
 - [[CHIPS Act]] — US de-risking effort

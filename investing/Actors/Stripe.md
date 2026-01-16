@@ -19,15 +19,56 @@ aliases: []
 
 ---
 
-## Valuation history
+## Cap table
+
+### Valuation history
 
 | Date | Valuation | Event |
 |------|-----------|-------|
-| Mar 2021 | $95B | Peak |
-| Mar 2023 | $50B | Series I |
+| Mar 2021 | $95B | Peak (Series H) |
+| Mar 2023 | $50B | Series I (down round) |
 | Feb 2025 | $91.5B | Tender offer |
 | Sep 2025 | $106.7B | Tender offer |
 | Dec 2025 | **$129B** | Implied |
+
+### Key investors
+
+| Investor | Round | Notes |
+|----------|-------|-------|
+| **Sequoia Capital** | Seed, Series A+ | Lead early investor |
+| **a16z** | Series A+ | Long-term holder |
+| **General Catalyst** | Series B+ | — |
+| **Founders Fund** | Early | Peter Thiel |
+| **Tiger Global** | Growth | — |
+| **Thrive Capital** | Growth | — |
+| **GIC (Singapore)** | Late stage | Sovereign wealth |
+| **Temasek** | Late stage | Singapore |
+| **Fidelity** | Late stage | Institutional |
+| **Goldman Sachs** | Series I | Strategic |
+
+### Founders
+
+| Person | Role |
+|--------|------|
+| **Patrick Collison** | CEO, Co-founder |
+| **John Collison** | President, Co-founder |
+
+Irish brothers, started in 2010, Stanford dropouts.
+
+### Funding history
+
+| Round | Year | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2010 | $2M | — |
+| Series A | 2012 | $18M | $100M |
+| Series B | 2014 | $80M | $1.75B |
+| Series C | 2016 | $150M | $9B |
+| Series D | 2018 | $245M | $20B |
+| Series G | 2020 | $600M | $36B |
+| Series H | 2021 | $600M | $95B |
+| Series I | 2023 | $6.5B | $50B |
+
+**Total raised:** ~$9B+
 
 ---
 

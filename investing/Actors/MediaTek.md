@@ -155,6 +155,23 @@ China exposure is both opportunity and risk.
 
 ---
 
+## US-Taiwan trade deal (Jan 2026)
+
+**Beneficiary of [[US-Taiwan relations]] breakthrough:**
+
+| Impact | Detail |
+|--------|--------|
+| Tariffs | Cut to 15% on Taiwan goods |
+| Investment framework | $500B Taiwan chip commitment |
+| Sentiment | Reduced Taiwan risk premium |
+
+MediaTek as Taiwan fabless company benefits from:
+- Lower tariffs on chip exports to US
+- Stronger US-Taiwan ties reduce geopolitical discount
+- TSMC expansion = continued foundry access
+
+---
+
 ## Investment implications
 
 **Bull case:**
@@ -162,11 +179,12 @@ China exposure is both opportunity and risk.
 - Broadcom margin compression play
 - Mobile share gains vs Qualcomm
 - TSMC relationship
+- **US-Taiwan trade deal** — reduced tariffs, stronger ties
 
 **Bear case:**
-- China geopolitical risk
+- China geopolitical risk (~40% revenue)
 - Qualcomm competition
-- Taiwan concentration risk
+- Taiwan concentration risk (mitigated by trade deal)
 - Hyperscaler deals may not scale
 
 ---
@@ -182,12 +200,13 @@ China exposure is both opportunity and risk.
 | Key ASIC customer | Google (TPU) |
 | Foundry | TSMC |
 
-*Updated 2026-01-04*
+*Updated 2026-01-16*
 
 ---
 
 ## Related
 
+- [[US-Taiwan relations]] — trade deal beneficiary (Jan 2026)
 - [[TSMC]] — primary foundry (Taiwan-to-Taiwan)
 - [[Broadcom]] — competitor (hyperscaler ASICs)
 - [[Qualcomm]] — competitor (mobile SoCs)

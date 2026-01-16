@@ -46,16 +46,42 @@ French nationals building in France — rare for frontier AI.
 
 ---
 
-## Investors
+## Cap table
 
-| Investor | Notes |
-|----------|-------|
-| **[[Microsoft]]** | Strategic (Azure partnership) |
-| **a16z** | Lead investor |
-| **Lightspeed** | Early backer |
-| **General Catalyst** | Growth round |
-| BNP Paribas | French bank |
-| Various French institutions | Sovereign interest |
+### Funding history
+
+| Round | Date | Amount | Valuation | Lead |
+|-------|------|--------|-----------|------|
+| Seed | Jun 2023 | €105M | — | [[Lightspeed Venture Partners]] |
+| Series A | Dec 2023 | €385M | — | [[a16z]] |
+| Series B | Jun 2024 | €600M | €5.8B | Multiple |
+| Series C | Sep 2025 | €1.7B | €13.7B (~$14B) | ASML |
+
+**Total raised:** ~€2.8B ($3B+)
+
+### Key investors
+
+| Investor | Role |
+|----------|------|
+| **[[Lightspeed Venture Partners]]** | Lead Seed |
+| **[[a16z]]** | Lead Series A |
+| **ASML** | Lead Series C |
+| **[[General Catalyst]]** | Series A+ |
+| **[[Index Ventures]]** | Series C |
+| **[[NVIDIA]]** | Strategic (Series B) |
+| **[[Microsoft]]** | Strategic (€15M, Azure) |
+| **[[DST Global]]** | Series C |
+| **Bpifrance** | French sovereign |
+| **Salesforce** | Strategic (Series B) |
+| **[[Databricks]]** | Strategic (Series B) |
+
+### Founders
+
+| Person | Role |
+|--------|------|
+| **Arthur Mensch** | CEO (ex-DeepMind) |
+| **Guillaume Lample** | Co-founder (ex-Meta AI) |
+| **Timothée Lacroix** | Co-founder (ex-Meta AI) |
 
 ---
 

@@ -47,6 +47,43 @@
 
 ---
 
+## How much do institutions actually own?
+
+**National figures (all single-family homes):**
+
+| Category | % of all SFH |
+|----------|--------------|
+| All investors | ~20% of 86M homes |
+| Small investors (1-5 homes) | **87% of investor-owned** |
+| Mega institutional (1,000+ homes) | **~3%** (~450K homes) |
+
+**But Sunbelt rental markets are different (GAO/Urban Institute 2024):**
+
+| Metro | Institutional share of **rentals** | Homes |
+|-------|-----------------------------------|-------|
+| **Atlanta** | **25%** | **72,000** |
+| Jacksonville | 21% | — |
+| Charlotte | 18% | 24,000 |
+| Tampa | 15% | 23,000 |
+| Phoenix | — | 33,000 |
+| Dallas | — | 27,000 |
+
+**Top 6 metros = 45% of all mega-operator holdings.**
+
+**Key distinction:** The national "3%" figure is accurate for all SFH stock, but understates concentration in Sunbelt rental markets where institutional landlords dominate.
+
+**Purchase activity (Q3 2025):**
+
+| Metric | Value |
+|--------|-------|
+| Investor share of home sales | 34% (5-year high) |
+| Institutional share of purchases | <2% |
+| Institutional net position | **Net sellers 6+ quarters** |
+
+*Sources: GAO, Urban Institute, Econofact, BatchData Q3 2025*
+
+---
+
 ## Who's exposed
 
 **Largest institutional owners:**
@@ -103,12 +140,16 @@ Watch Davos for details.
 
 ---
 
-*Created 2026-01-08*
+*Updated 2026-01-16*
 
 ---
 
 ## Related
 
+- [[Housing]] — sector hub
+- [[Single-family rental]] — asset class context
+- [[Invitation Homes]] — #1 SFR REIT, most exposed
+- [[American Homes 4 Rent]] — #2 SFR REIT
 - [[Blackstone]] — major PE exposure, built Invitation Homes
 - [[BlackRock]] — asset manager exposure
 - [[DR Horton]] — largest homebuilder

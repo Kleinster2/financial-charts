@@ -92,6 +92,36 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 
 ---
 
+## Cap table
+
+### Funding history
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | Mar 2019 | — | — |
+| Series C | 2022 | — | — |
+| Series D | Dec 2024 | $600M | — |
+| Series E | Oct 2025 | $1.375B | $10B+ |
+| **Total** | | **$2.64B** | |
+
+### Key investors
+
+| Investor | Role |
+|----------|------|
+| **Valor Equity Partners** | Co-lead Series E |
+| **Mubadala Capital** | Co-lead Series E |
+| **[[Founders Fund]]** | Seed investor |
+| **[[NVIDIA]]** | Strategic (Series D+) |
+| **[[Tiger Global]]** | Series E |
+| **T. Rowe Price** | Series E |
+| **Fidelity** | Series E |
+| **Franklin Templeton** | Series E |
+| **[[Spark Capital]]** | Series E |
+| **Altimeter Capital** | Series E |
+| **[[Blue Owl]]** | JV partner ($15B) |
+
+---
+
 ## Risks
 
 - Stranded gas supply limited

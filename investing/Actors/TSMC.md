@@ -19,9 +19,10 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
+- **US-Taiwan trade deal** (Jan 15, 2026) — Part of [[US-Taiwan relations]] breakthrough. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15%.
 - **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
 - **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
-- [[TSMC Arizona expansion]] — U.S. geographic diversification
+- [[TSMC Arizona expansion]] — U.S. geographic diversification (land buy Jan 2026)
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
 - **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. Xiaomi 3nm chip as proof.
 
@@ -47,7 +48,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | **FY2025 revenue** | **>$100B** (first time) |
 | **Short interest** | **0.5%** of float (Jan 2026) |
 
-*Updated 2026-01-15*
+*Updated 2026-01-16*
 
 ---
 
@@ -199,6 +200,7 @@ See [[Short interest]] for broader framework on interpreting this signal.
 
 ## Related
 
+- [[US-Taiwan relations]] — trade deal (Jan 2026 land buy, $500B framework)
 - [[Foundry Wars]] — context (dominant player)
 - [[Samsung]] — competitor (#2 foundry)
 - [[Intel Foundry Services]] — competitor (US alternative)

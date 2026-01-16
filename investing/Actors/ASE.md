@@ -82,6 +82,20 @@ ASE is foundry-agnostic. Whoever wins foundry, ASE still gets the packaging/test
 
 ---
 
+## US-Taiwan trade deal (Jan 2026)
+
+**Beneficiary of [[US-Taiwan relations]] breakthrough:**
+
+| Impact | Detail |
+|--------|--------|
+| Tariffs | Cut to 15% on Taiwan goods |
+| Investment framework | $500B Taiwan chip commitment |
+| Sentiment | Reduced Taiwan risk premium |
+
+ASE benefits as Taiwan OSAT leader — lower tariffs on packaged/tested chips shipped to US customers.
+
+---
+
 ## For theses
 
 - [[Long OSAT and test equipment]] — core holding, #1 OSAT
@@ -90,8 +104,13 @@ ASE is foundry-agnostic. Whoever wins foundry, ASE still gets the packaging/test
 
 ---
 
+*Updated 2026-01-16*
+
+---
+
 ## Related
 
+- [[US-Taiwan relations]] — trade deal beneficiary (Jan 2026)
 - [[TSMC]] — customer (tests/packages TSMC wafers), competitor (CoWoS)
 - [[NVIDIA]] — customer (AI chip packaging/test)
 - [[Amkor]] — competitor (#2 OSAT)

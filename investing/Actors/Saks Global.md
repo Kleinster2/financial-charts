@@ -103,6 +103,8 @@ aliases: [Saks Fifth Avenue, Neiman Marcus, Bergdorf Goodman]
 
 ## Creditors
 
+**Total creditors:** 10,001–25,000 (court filing estimate)
+
 **Secured creditors:**
 
 | Creditor class | Amount | Recovery |
@@ -110,19 +112,37 @@ aliases: [Saks Fifth Avenue, Neiman Marcus, Bergdorf Goodman]
 | **Secured lenders** | $4.2B | Backed by inventory, RE, credit cards |
 | Asset-based lenders | $1.1B drawn | First priority |
 
-**Unsecured/equity:**
+**Top trade creditors (unsecured vendors):**
+
+| Rank | Creditor | Amount owed | Parent/notes |
+|------|----------|-------------|--------------|
+| 1 | **Chanel Limited** | **$136M+** | |
+| 2 | **Kering S.A.** | **$59M+** | Gucci, Bottega Veneta, Saint Laurent |
+| 3 | Rosen-X | $41M+ | |
+| 4 | **Capri Holdings** | **$33M+** | Michael Kors, Jimmy Choo, Versace |
+| 5 | **Mayhoola LLC** | **$33M+** | Valentino |
+| 6 | PricewaterhouseCoopers | $30M+ | Accounting/advisory |
+| 7 | **Richemont** | **$30M+** | Cartier, Van Cleef & Arpels |
+| 8 | **Ermenegildo Zegna** | **$26M+** | |
+| 9 | **LVMH** | **$25M+** | Louis Vuitton, Dior, Fendi |
+| 10 | Akris Inc. | $23M+ | |
+| 13 | **Christian Louboutin** | **$21.6M** | |
+
+**Joseph Sarachek** (attorney): Represents ~30 brands owed between $50K and $10M each.
+
+**Gary Wassner (Hilldun Corp CEO):** Represents several dozen fashion brands owed ~$66M total.
+
+**Other unsecured:**
 
 | Creditor | Amount owed | Notes |
 |----------|-------------|-------|
 | **Amazon** | **$475M** | Equity, likely wiped |
-| **Christian Louboutin** | **$21.6M** | Vendor |
-| **Capri (Jimmy Choo)** | **$33.3M** | Vendor |
-| Chanel | $100M+ | Vendor |
-| Various brands (via Hilldun) | $66M | ~several dozen brands |
 | Gift card holders | $320M | Consumer liability |
 | Bondholders | $2.2B | Second-out notes at 6 cents |
 
-**Gary Wassner (Hilldun Corp CEO):** Represents several dozen fashion brands owed ~$66M. Recovery depends on profitability post-emergence.
+**Critical vendor motion:** Pending — if granted, select suppliers get priority payment for continued shipments. Watch for rulings.
+
+**Meeting of Creditors:** Feb 23, 2026, 1:00 PM
 
 ---
 
@@ -183,4 +203,4 @@ aliases: [Saks Fifth Avenue, Neiman Marcus, Bergdorf Goodman]
 - [[Credit markets]] — $5B debt pile that went bad
 - [[Macy's]] — competitor benefiting
 
-*Updated 2026-01-15*
+*Updated 2026-01-16*

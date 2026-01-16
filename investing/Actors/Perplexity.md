@@ -20,31 +20,55 @@ The AI-native Google challenger:
 
 ---
 
-## Valuation trajectory
+## Cap table
 
-**Explosive growth:**
+### Valuation history
 
-| Date | Valuation |
-|------|-----------|
-| June 2024 | $3B |
-| Dec 2024 | $9B |
-| May 2025 | $14B |
-| July 2025 | $18B |
-| Sept 2025 | $20B |
+| Date | Valuation | Notes |
+|------|-----------|-------|
+| Jan 2024 | $520M | Series B |
+| June 2024 | $3B | — |
+| Dec 2024 | $9B | — |
+| May 2025 | $14B | — |
+| July 2025 | $18B | — |
+| Sept 2025 | **$20B** | Latest |
 
-6x+ in 15 months.
+**6x+ in 15 months.**
 
----
+### Key investors
 
-## Investors
+| Investor | Type | Notes |
+|----------|------|-------|
+| **[[NVIDIA]]** | Strategic | AI infrastructure |
+| **SoftBank Vision Fund 2** | Growth | Large check |
+| **NEA** | VC | Series B lead |
+| **IVP** | VC | Growth |
+| **Jeff Bezos** | Angel | Personal investment |
+| **Yann LeCun** | Angel | Meta AI chief |
+| **Databricks Ventures** | Strategic | — |
+| **Kindred Ventures** | Seed | — |
 
-**Top-tier syndicate:**
-- [[NVIDIA]]
-- SoftBank Vision Fund 2
-- NEA
-- IVP
-- Jeff Bezos
-- Yann LeCun (Meta)
+### Funding history
+
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| Seed | 2022 | ~$3M | — |
+| Series A | 2023 | $26M | — |
+| Series B | Jan 2024 | $74M | $520M |
+| Series B1 | Apr 2024 | $63M | $1B |
+| Series C | — | — | $3B |
+| Series D+ | 2025 | — | $20B |
+
+**Total raised:** ~$1.5B
+
+### Founders
+
+| Person | Role | Background |
+|--------|------|------------|
+| **Aravind Srinivas** | CEO | Ex-Google, DeepMind |
+| **Denis Yarats** | CTO | Ex-Meta AI |
+| **Andy Konwinski** | — | Ex-Databricks |
+| **Johnny Ho** | — | Ex-Quora |
 
 ---
 
@@ -75,15 +99,6 @@ The AI-native Google challenger:
 | Monthly queries | 780M (May 2025) |
 | Prior (mid-2024) | 230M |
 | Growth | 3x in <1 year |
-
----
-
-## Founder
-
-**Aravind Srinivas:**
-- CEO, ex-Google/DeepMind
-- AI researcher background
-- Aggressive growth mindset
 
 ---
 

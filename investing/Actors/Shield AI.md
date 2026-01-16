@@ -121,7 +121,9 @@ Future of air combat.
 
 ---
 
-## Cap table / Investors
+## Cap table
+
+### Funding history
 
 | Round | Date | Amount | Valuation |
 |-------|------|--------|-----------|
@@ -131,19 +133,18 @@ Future of air combat.
 | Series C | 2021 | $210M | $1.5B |
 | Series D | 2022 | $165M | — |
 | Series E | 2023 | $500M | $2.8B |
-| **Total** | | **$900M+** | |
+| Series F | Oct 2025 | $300M | $5.3B |
+| **Total** | | **$1.3B** | |
 
-**Key investors:**
+### Key investors
 
 | Investor | Notes |
 |----------|-------|
 | [[a16z]] | Multiple rounds |
+| [[General Catalyst]] | Multiple rounds |
 | Point72 Ventures | Growth |
 | Riot Ventures | Defense focus |
 | SVB Capital | Growth |
-| General Catalyst | Growth |
-
-**Total raised:** $900M+
 
 ---
 
@@ -152,11 +153,12 @@ Future of air combat.
 | Metric | Value |
 |--------|-------|
 | Ticker | Private |
-| Valuation | $2.8B |
+| Valuation | $5.3B |
+| Raised | $1.3B |
 | Product | Hivemind AI pilot |
 | Focus | Autonomous aircraft |
 
-*Updated 2026-01-01*
+*Updated 2026-01-16*
 
 ---
 
