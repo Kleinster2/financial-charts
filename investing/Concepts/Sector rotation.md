@@ -47,7 +47,26 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 | Nov 2025 | Mag 7 selloff, S&P 493 climbs |
 | Dec 2025 | XMAG inflows 4x November |
 | Jan 2026 | Tax-loss selling + AI fatigue accelerates |
-| **Jan 14, 2026** | Russell 2000 beats S&P for 9th straight day — **longest streak since 1990** |
+| **Jan 14, 2026** | Russell 2000 beats S&P for 9th straight day |
+| **Jan 15, 2026** | Russell 2000 beats S&P for **10th straight day — longest streak since 1990** |
+
+### January 15, 2026 update
+
+**Historic small cap outperformance:**
+
+| Metric | Value |
+|--------|-------|
+| Russell 2000 vs S&P streak | **10 days** (longest since 1990) |
+| Russell 2000 YTD | **+7%** |
+| S&P 500 YTD | +1.88% |
+| Breadth | **77% of Russell 2000 constituents up** |
+| Dec 2025 surge | +12%, crossed 2,600 |
+| Monthly streak | 11 months of outperformance (since Feb 2025) |
+
+**Key drivers:**
+- **Fed rate cuts** reduced floating-rate debt costs (small caps carry more floating-rate debt)
+- **Historically attractive valuations** after years of underperformance vs mega-cap tech
+- Record intraday highs in each of past 10 sessions
 
 ### January 14, 2026 update
 
@@ -55,7 +74,6 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 
 | Metric | Value |
 |--------|-------|
-| Russell 2000 vs S&P streak | **9 days** (longest since 1990) |
 | S&P 500 | -0.53% |
 | Nasdaq | -1.0% |
 | Nasdaq 100 | Worst decline in a month |
@@ -245,7 +263,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 - [[Bank of America]] — rotation beneficiary (financials)
 - [[Ed Yardeni]] — coined "AI fatigue"
 
-*Updated 2026-01-14*
+*Updated 2026-01-15*
 
 ---
 

@@ -72,6 +72,26 @@ See [[Market forecasts]] for full details.
 
 ---
 
+## Q4 2025 earnings (Jan 15, 2026)
+
+**Record trading revenue:**
+
+| Metric | Q4 2025 | vs Expected | YoY |
+|--------|---------|-------------|-----|
+| **Equities trading** | **$4.31B** | +$610M | +25% |
+| **Fixed income** | **$3.11B** | +$180M | +12% |
+| Full year revenue | **$58.3B** | — | 2nd best ever |
+
+**Notes:**
+- Equities revenue driven by financing trades and derivatives to hedge funds
+- Fixed income strength from interest rate and commodities wagers
+- Would have been record year without Apple Card portfolio sale to JPMorgan
+- **Dividend raised to $4.50/share**
+
+**CEO David Solomon:** Goldman can exceed mid-teens returns and ~60% efficiency ratio targets in near term thanks to capital markets rebound and industry deregulation.
+
+---
+
 ## AI infrastructure research
 
 **Notable reports:**
@@ -124,7 +144,7 @@ See [[AI infrastructure financing]] for market context.
 | Type | Investment bank |
 | AI exposure | Research, financing |
 
-*Updated 2026-01-04*
+*Updated 2026-01-15*
 
 ---
 

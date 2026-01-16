@@ -74,6 +74,17 @@ See [[Export controls]] for full context.
 
 **China response:** Global Times dismissed as "discriminatory" — targeted specifically at China vs other trading partners.
 
+**Jan 14, 2026 — China blocks H200:**
+
+| Development | Detail |
+|-------------|--------|
+| Customs directive | Agents told H200 chips "not permitted" |
+| Company meetings | Tech firms summoned, told not to purchase "unless necessary" |
+| Exceptions | "Special circumstances" only — university R&D labs |
+| Source quote | "Wording so severe that it is basically a ban for now" |
+
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. H200 was allowed initially because Ascend threatens "dominance of American tech stack" — now blocking it to force reliance on Chinese alternatives.
+
 **US strategic calculus:**
 - H200 is "previous gen" — B200 (Blackwell) is 3.1x faster
 - Rubin (2026) widens gap further

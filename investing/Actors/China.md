@@ -81,12 +81,90 @@ China is central to every major semiconductor thesis:
 
 ---
 
+## 2025 trade performance
+
+**Record $1.2T surplus despite Trump tariffs:**
+
+| Metric | 2025 | YoY |
+|--------|------|-----|
+| Trade surplus | **$1.189T** | +20% |
+| Exports | $3.77T | +5.5% |
+| Imports | $2.58T | Flat |
+
+**Export destination pivot (full year 2025):**
+
+| Region | Change | Notes |
+|--------|--------|-------|
+| **US** | **-20%** | Tariff impact |
+| Africa | +26% | Fastest growth |
+| ASEAN | +13% | Supply chain relocation |
+| EU | +8% | Steady growth |
+| LatAm | +7% | New markets |
+
+**Key categories:**
+- Autos: +21% (7M+ units, driven by EVs)
+- Mechanical/electrical: +8.4%
+- Declining: furniture, clothing, shoes
+
+**Strategic response:** Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE Asia) facing lower US tariffs.
+
+---
+
 ## Rare earth leverage
 
 China controls 60-70% of rare earth processing. Used as counter-leverage:
 - Gallium/germanium export controls (Aug 2023)
 - Suspended in exchange for Affiliate Rule suspension (Dec 2025)
 - Potential escalation tool if trade war intensifies
+
+---
+
+## H200 chip restrictions (Jan 2026)
+
+**"Basically a ban"** — China customs told agents H200 chips not permitted (Jan 14, 2026).
+
+| Status | Detail |
+|--------|--------|
+| Directive | "Not permitted" — customs agents instructed to block |
+| Exceptions | "Special circumstances" (university R&D only) |
+| Wording | "So severe that it is basically a ban for now" |
+| Background | Trump allowed H200 with 25% fee in Dec 2025 |
+
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. Blocking foreign chips forces reliance on Chinese alternatives.
+
+See [[Export controls]] for US policy context.
+
+---
+
+## Cybersecurity software ban (Jan 2026)
+
+**Directive:** Replace all US/Israeli cybersecurity software with domestic alternatives by **H1 2026**.
+
+**US firms banned:** VMware, Palo Alto Networks, Fortinet, Mandiant, CrowdStrike, SentinelOne, McAfee, Recorded Future, Claroty, Rapid7, Wiz
+
+**Israeli firms banned:** Check Point, CyberArk, Orca Security, Cato Networks, Imperva (Thales)
+
+**Rationale:** Fear software could collect and transmit confidential information abroad.
+
+See [[China cybersecurity ban]] for full analysis.
+
+---
+
+## 2026 tariff plan (935 items)
+
+**Effective Jan 1, 2026.** First implementation of 15th Five-Year Plan.
+
+**Three strategic pillars:**
+
+| Pillar | Examples |
+|--------|----------|
+| **Tech self-sufficiency** | CNC hydraulic cushions, composite contact strips, intelligent bionic robots |
+| **Green transition** | Li-ion battery recycled black powder (6.5%→3%), unroasted pyrite (1%→0%) |
+| **Healthcare** | Artificial blood vessels, infectious disease diagnostic kits |
+
+**New tariff lines:** Bio-aviation kerosene, under-forest ginseng. Total: 8,972 lines.
+
+**Signal:** "Not broad trade liberalization — targeted opening for industrial self-reliance."
 
 ---
 
@@ -121,8 +199,7 @@ Bulls on China exposure would say:
 
 ---
 
-*Updated 2025-12-30*
-n- [[US-China relations]] — hub note
+*Updated 2026-01-15*
 
 ## Related
 
@@ -137,3 +214,7 @@ n- [[US-China relations]] — hub note
 - [[SMIC]] — leading domestic foundry
 - [[Rare earth leverage]] — counter-leverage tool
 - [[Long WFE]] — thesis (China drives equipment demand)
+- [[China cybersecurity ban]] — US/Israeli software replacement (Jan 2026)
+- [[CrowdStrike]] — banned cybersecurity vendor
+- [[Palo Alto Networks]] — banned cybersecurity vendor
+- [[Check Point]] — banned cybersecurity vendor (Israeli)

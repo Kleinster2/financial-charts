@@ -57,6 +57,18 @@ aliases: [CRWD]
 
 ---
 
+## China cybersecurity ban (Jan 2026)
+
+**Banned by Beijing** — China instructed companies to stop using CrowdStrike products and replace with domestic alternatives by H1 2026.
+
+**CrowdStrike response:** "We do not sell into China and do not have offices, hire people or host infrastructure there, and thus could only be negligibly affected."
+
+**Rationale:** Beijing fears Western cybersecurity software could collect and transmit confidential information abroad.
+
+See [[China cybersecurity ban]] for full context.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -64,6 +76,7 @@ aliases: [CRWD]
 - Platform expansion (identity, cloud)
 - High retention despite outage
 - Cybersecurity secular growth
+- No China revenue exposure
 
 **Bear:**
 - July 2024 trust damage
@@ -82,7 +95,7 @@ aliases: [CRWD]
 | Founded | 2011 |
 | CEO | George Kurtz |
 
-*Created 2026-01-06*
+*Updated 2026-01-15*
 
 ---
 
@@ -92,3 +105,5 @@ aliases: [CRWD]
 - [[SentinelOne]] — competitor (#2 endpoint)
 - [[Cybersecurity consolidation]] — thesis context
 - [[Zscaler]] — peer (zero trust)
+- [[China cybersecurity ban]] — banned in China (Jan 2026)
+- [[China]] — policy driver
