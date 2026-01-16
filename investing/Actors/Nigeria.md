@@ -84,6 +84,13 @@ Grid built mostly since 1960s, powered by natural gas. Woefully inadequate.
 
 Part of broader Chinese push into Africa. See [[Capital flow reversal]] — China shifting from trophy assets to greenfield projects in Global South.
 
+**Nigeria = top China trade partner in Africa:**
+- One of fastest-growing importers of Chinese goods
+- Oil/gas processing facilities — multi-billion BRI contracts
+- Consumer goods flooding in (electronics, vehicles, textiles)
+
+See [[China-Africa trade]] for full context.
+
 ---
 
 ## Carbon market framework (Jan 2026)
@@ -149,6 +156,8 @@ Part of broader Chinese push into Africa. See [[Capital flow reversal]] — Chin
 ## Related
 
 - [[Capital flow reversal]] — China $20B gas city investment
+- [[China-Africa trade]] — Nigeria as top importer
 - [[Husk Power Systems]] — Solar minigrid operator
 - [[Sun King]] — Off-grid solar supplier
+- [[China]] — major investor and trade partner
 
