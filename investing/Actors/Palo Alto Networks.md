@@ -59,6 +59,18 @@ Controversial: Q4 2024 free trial announcement hit stock.
 
 ---
 
+## China cybersecurity ban (Jan 2026)
+
+**Banned by Beijing** — China instructed companies to stop using Palo Alto Networks products and replace with domestic alternatives by H1 2026.
+
+**Rationale:** Beijing fears Western cybersecurity software could collect and transmit confidential information abroad.
+
+**Other banned US firms:** VMware, Fortinet, Mandiant, CrowdStrike, SentinelOne, McAfee, Recorded Future, Claroty, Rapid7, Wiz
+
+See [[China cybersecurity ban]] for full context.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -72,6 +84,7 @@ Controversial: Q4 2024 free trial announcement hit stock.
 - CrowdStrike competition
 - Valuation premium
 - Free trials margin pressure
+- China market now closed
 
 ---
 
@@ -84,7 +97,7 @@ Controversial: Q4 2024 free trial announcement hit stock.
 | Strategy | Platformization |
 | CEO | Nikesh Arora |
 
-*Created 2026-01-08*
+*Updated 2026-01-15*
 
 ---
 
@@ -94,4 +107,7 @@ Controversial: Q4 2024 free trial announcement hit stock.
 - [[Fortinet]] — competitor (firewall)
 - [[Cisco]] — competitor (networking security)
 - [[Microsoft]] — competitor (enterprise security)
+- [[China cybersecurity ban]] — banned in China (Jan 2026)
+- [[China]] — policy driver
+- [[Check Point]] — Israeli peer also banned
 

@@ -19,21 +19,23 @@ aliases: [BLK]
 
 ---
 
-## Q4 2024 earnings
+## Q4 2025 earnings (Jan 15, 2026)
 
-| Metric | Value | vs Prior |
-|--------|-------|----------|
+| Metric | Value | Notes |
+|--------|-------|-------|
 | AUM | **$14T** | Record |
-| Q4 net flows | **$342B** | — |
+| Q4 net flows | **$342B** | Strong institutional demand |
 | Q4 long-term flows | $268B | Beat $232B estimate |
-| ETF flows | $181B | — |
-| FY 2024 flows | **$698B** | Record |
+| ETF flows | $181B | Passive momentum continues |
+| FY 2025 flows | **$698B** | Record |
 | EPS (adj) | **$13.16** | Beat $12.28 est (+10% YoY) |
 | Revenue | $7B | +23% YoY |
 
-**Citigroup outsourcing:** $80B of wealthy client assets transferred to BlackRock — one of industry's biggest outsourcing deals.
+**Stock:** +2% premarket on earnings beat (Jan 15).
 
-**Stock:** +13.4% over 12 months (vs S&P +18.6%).
+**Historical:** Beat expectations every quarter in 2025. Highest beat in Q3 (+3.22%).
+
+**Citigroup outsourcing:** $80B of wealthy client assets transferred to BlackRock — one of industry's biggest outsourcing deals.
 
 ---
 

@@ -125,6 +125,19 @@ Commerce Department eased stance from "presumed denial" to case-by-case review:
 
 **Bloomberg Intelligence (Michael Deng):** "Calibrated attempt" at maintaining US capability advantage. Combined requirements "may be overly burdensome" and "could be undermined further by opposition from Congress and Beijing."
 
+### Jan 14, 2026: China blocks H200
+
+Despite US easing stance, China responded by effectively blocking imports:
+
+| Development | Detail |
+|-------------|--------|
+| Customs directive | Chinese customs told agents H200 chips "not permitted" |
+| Company meetings | Tech firms summoned, told not to purchase "unless necessary" |
+| Exceptions | "Special circumstances" only — university R&D labs |
+| Source quote | "Wording so severe that it is basically a ban for now" |
+
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. Even when US allows exports, China may block imports to protect domestic industry.
+
 **Implication**: Companies cannot plan long-term. Capex decisions complicated by regulatory whiplash.
 
 ---
@@ -241,6 +254,8 @@ See [[China retaliatory toolkit]] for the full pattern.
 | **Equipment mandate** | 50% domestic equipment requirement |
 | **Targeted retaliation** | [[Dutch seizure of Nexperia]] response |
 | **Chip subsidy package** | **$70B** under consideration (Jan 2026) |
+| **H200 import block** | Customs told to block H200 imports (Jan 2026) |
+| **Cybersecurity ban** | US/Israeli security software banned (Jan 2026) |
 
 **Key escalation**: China adopted the FDPR mechanism — products made outside China require licenses if they contain Chinese-origin materials. See [[Rare earth leverage]].
 
@@ -329,3 +344,4 @@ Mixed:
 - [[Southeast Asia tech race]] — destination for Chinese DC buildout
 - [[US-China AI race]] — broader competition context
 - [[Iluvatar CoreX]] — Chinese GPU firm (HK IPO planned)
+- [[China cybersecurity ban]] — counter-measure (US/Israeli software)
