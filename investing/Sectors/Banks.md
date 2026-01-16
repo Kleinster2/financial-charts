@@ -29,7 +29,12 @@ Overview of the US banking sector.
 
 ### Regionals
 
-Major regionals include PNC, US Bancorp, Truist, Fifth Third, etc.
+| Bank | Assets | Market cap | Geography |
+|------|--------|------------|-----------|
+| [[PNC Financial]] | ~$560B | ~$75B | Mid-Atlantic, Midwest |
+| [[US Bancorp]] | ~$680B | ~$70B | Midwest, West |
+| [[Truist]] | ~$530B | ~$55B | Southeast |
+| [[Fifth Third]] | ~$210B | ~$28B | Midwest |
 
 ---
 
