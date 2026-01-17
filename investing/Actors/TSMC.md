@@ -19,7 +19,8 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
-- **US-Taiwan trade deal** (Jan 15, 2026) — Part of [[US-Taiwan relations]] breakthrough. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15%.
+- **US-Taiwan trade deal** (Jan 15, 2026) — Part of [[US-Taiwan relations]] breakthrough. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15%. TSMC commits to **4+ more US fabs** (~$100B additional capex).
+- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Taiwan/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
 - **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
 - **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification (land buy Jan 2026)
@@ -42,13 +43,13 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 |--------|-------|
 | Market share | **71%** (Q3 2025) |
 | Leading edge | 2nm ramping 2025 |
-| U.S. investment | up to **$165B** (Arizona) |
+| U.S. investment | up to **$165B** (Arizona) + **$100B** (4 more fabs) |
 | CHIPS Act | $6.6B |
 | **2026 capex** | **$52B-$56B** |
 | **FY2025 revenue** | **>$100B** (first time) |
 | **Short interest** | **0.5%** of float (Jan 2026) |
 
-*Updated 2026-01-16*
+*Updated 2026-01-17*
 
 ---
 
@@ -208,3 +209,4 @@ See [[Short interest]] for broader framework on interpreting this signal.
 - [[NVIDIA]] — customer (GPU leader)
 - [[Taiwan Tech]] — country context (semiconductor superpower)
 - [[Customer lock-in via co-design]] — moat (ecosystem lock-in)
+- [[Howard Lutnick]] — 100% tariff threat (Jan 2026)

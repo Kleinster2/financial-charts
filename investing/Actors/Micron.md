@@ -64,9 +64,11 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 | HQ | Boise, Idaho, USA |
 | Position | #3 DRAM, #4 NAND |
 | HBM | Ramping, #3 — share now in line with DRAM share |
-| **Stock YTD** | **+229%** (best in semi) |
+| **Stock 2025** | **+239%** |
+| **Stock Jan 2026** | +27% MTD |
+| **US investment** | **$200B** ($150B mfg + $50B R&D) |
 
-*Updated 2025-12-30*
+*Updated 2026-01-17*
 
 ---
 
@@ -116,6 +118,24 @@ Validates [[Memory shortage 2025-2026]] — when suppliers exit consumer, shorta
 - Idaho Fab 2 starts construction '26, operational end of '28
 - NY Fab supply expected 2030+
 - India back-end ramping in '26
+
+---
+
+## Syracuse groundbreaking (Jan 17, 2026)
+
+**Clay, NY facility:**
+- Largest private investment in NY state history
+- 4 chip fabrication plants planned
+- 50,000 jobs expected
+- Attendees: [[Howard Lutnick]], Gov. Hochul, Chuck Schumer, CEO Sanjay Mehrotra
+
+**$200B US investment commitment:**
+- $150B manufacturing
+- $50B R&D
+
+**Lutnick context:** Commerce Secretary used event to threaten Korean memory makers with 100% tariffs. Micron = domestic champion benefiting from "industrial policy."
+
+**Stock reaction:** +7.8% Friday, +27% MTD, +239% in 2025.
 
 ---
 
@@ -185,3 +205,4 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 - [[CXMT]] — China competitor (catching up)
 - [[Foundry Wars]] — context
 - [[Long memory]] — thesis
+- [[Howard Lutnick]] — industrial policy beneficiary

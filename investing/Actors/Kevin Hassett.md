@@ -12,10 +12,17 @@ aliases: [Hassett]
 | Metric | Value |
 |--------|-------|
 | Current role | Director, National Economic Council (NEC) |
-| Fed Chair odds | ~40-50% (Kalshi, Jan 2026) |
+| Fed Chair odds | **16%** (Kalshi, Jan 16) |
 | Age | 63 |
 | Education | PhD Economics (UPenn), BA (Swarthmore) |
 | Party | Republican |
+
+### Fed Chair odds history
+
+| Date | Kalshi | Event |
+|------|--------|-------|
+| Jan 14 | 40-50% | Front-runner, daily Trump access |
+| **Jan 16** | **16%** | Trump: "I want to keep you where you are" |
 
 ---
 
@@ -52,11 +59,23 @@ aliases: [Hassett]
 
 | Metric | Hassett | [[Kevin Warsh]] |
 |--------|---------|-----------------|
-| Kalshi odds | 40-50% | 39-41% |
-| Polymarket | 38% | 41% |
+| Kalshi odds (Jan 16) | **16%** | **60%** |
 | Trump proximity | Daily contact (NEC) | Distant |
 | Independence perception | Lower | Higher |
 | Market credibility | Lower | Higher |
+
+**Jan 16 shift:** Trump publicly said he wants Hassett to stay at NEC. Warsh now clear front-runner.
+
+### Market reaction (Jan 16)
+
+| Metric | Move |
+|--------|------|
+| 10Y yield | 3.96% → 4.02% (+6bp) |
+| Hassett odds | 80%+ peak → 16% |
+
+Curve steepened — market pricing fewer cuts under Warsh.
+
+**Evercore:** Powell investigation "making it harder to confirm Hassett, who is distinctively close to the president. Warsh is trusted by Senate Republicans and would be much easier to confirm."
 
 ### Hassett advantages
 

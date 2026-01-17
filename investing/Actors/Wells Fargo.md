@@ -125,9 +125,19 @@ aliases: [WFC]
 | Market cap | ~$200B |
 | Assets | ~$2.0T |
 | CEO | Charlie Scharf |
-| Q4 2025 | Revenue miss, adj. EPS beat |
+| Q4 2025 | Revenue miss |
 
-*Updated 2026-01-14*
+---
+
+## Q4 2025 earnings (Jan 15)
+
+| Metric | Result | Estimate |
+|--------|--------|----------|
+| Revenue | $21.29B | $21.65B |
+| NII | $12.3B | Below est |
+| Stock | -1% | — |
+
+*Updated 2026-01-17*
 
 ---
 
