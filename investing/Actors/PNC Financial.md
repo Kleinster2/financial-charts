@@ -117,4 +117,18 @@ Transformational acquisition.
 
 ---
 
-*Created 2026-01-16*
+## Recent developments
+
+### Q4 2025 earnings (Jan 16, 2026)
+
+| Metric | Result | Estimate |
+|--------|--------|----------|
+| EPS | $4.88 | $4.22 |
+| Revenue | $5.96B | $5.89B |
+| Stock reaction | +3% | — |
+
+**2026 guidance:** ~11% revenue growth by year-end.
+
+---
+
+*Updated 2026-01-17*
