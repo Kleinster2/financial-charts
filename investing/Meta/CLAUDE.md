@@ -176,6 +176,30 @@ When touching a note for any reason (adding news, updating data, fixing links), 
 
 The goal is enriching existing notes with new information, not just logging to daily note.
 
+### Always update daily notes
+
+**When processing any news, always add to the appropriate daily note.**
+
+1. **Use the event date, not the article date:**
+   - Article published Jan 17 about a deal announced Jan 14 → add to Jan 14 daily note
+   - Look for phrases like "announced Tuesday", "filed yesterday", specific dates in the text
+   - If unclear, use the earliest date mentioned
+2. **Add to the correct daily note:**
+   - Create the daily note if it doesn't exist
+   - Use the standard daily note structure
+3. **Update actors/concepts AND daily note** — not just one or the other
+
+**Workflow:**
+```
+User shares news →
+  1. Find the EVENT date (not article publication date)
+  2. Update/create relevant actor notes
+  3. Add summary to correct daily note (create if needed)
+  4. Update thesis implications if relevant
+```
+
+**Why this matters:** Daily notes are the changelog. Events should be logged on the day they happened, not when we read about them.
+
 ## Conventions
 
 See [[Thesis conventions]] for how to read thesis names (Long X, Short X, pairs trades).
