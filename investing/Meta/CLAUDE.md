@@ -5,10 +5,37 @@
 This is an Obsidian vault. Follow Obsidian philosophy:
 
 - **Atomic notes** — one idea per note, no mega-documents
+- **Self-contained** — each note tells its complete story; links are for depth, not basic comprehension
 - **Links over hierarchy** — structure emerges from `[[connections]]`, not folders
 - **Organic at the bottom, deliberate at the top** — actors/concepts grow organically as encountered; sector hubs are deliberate scaffolding that can start sparse
 - **Daily notes as inbox** — capture first, extract atomic notes when ideas mature
 - **Hubs can have dangling links** — sector hubs guide where new notes land; empty `[[links]]` fill in over time
+
+## Self-contained notes
+
+**A reader should understand the full story without clicking any links.**
+
+Links provide depth and specificity, not basic comprehension. If understanding a note requires clicking through to other notes, the note is incomplete.
+
+| Wrong | Right |
+|-------|-------|
+| "The $5B debt came from [[Saks-Neiman merger]]" (reader must click to understand) | "In late 2024, Baker orchestrated a $2.7B acquisition of Neiman that loaded $5B in debt..." then link [[Saks-Neiman merger]] for full deal details |
+| "[[Richard Baker]] was replaced as CEO" (who is he?) | "Richard Baker—real estate investor who built Saks through acquisitions—was replaced as CEO" then link [[Richard Baker]] for his full history |
+
+**The test:** Can someone reading ONLY this note understand the narrative? Links should make them want to learn more, not leave them confused.
+
+**What links are for:**
+- Drilling deeper into a specific actor's full history
+- Exploring a concept's broader implications
+- Finding related events or patterns
+- Navigating to connected notes
+
+**What links are NOT for:**
+- Replacing inline context needed to understand the current note
+- Hiding essential information behind a click
+- Avoiding repetition at the cost of comprehension
+
+**Repetition is acceptable** when needed for comprehension. If three notes all need to explain that "Richard Baker was a real estate investor who acquired department stores to monetize their property"—that's fine. Each note should stand alone.
 
 ## Numbers matter
 
