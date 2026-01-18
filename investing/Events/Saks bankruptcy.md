@@ -26,6 +26,25 @@
 
 ---
 
+## How we got here
+
+**The dealmaker:** [[Richard Baker]], a real estate investor, built Saks through acquisitions — betting department stores' real estate was worth more than their stock prices. He acquired Saks Fifth Avenue (2013), took HBC private (2020), then made his biggest bet.
+
+**The fatal merger:** In late 2024, Baker orchestrated Saks's $2.7B acquisition of [[Neiman Marcus]], creating "Saks Global." The thesis: consolidate luxury department stores to survive an industry in structural decline. [[Amazon]] invested $475M for a minority stake, lending credibility.
+
+**The debt trap:** The deal loaded $5B in obligations:
+- $2.2B new junk bonds to fund the acquisition
+- ~$2.8B legacy debt Neiman carried from its 2013 LBO and [[Neiman Marcus bankruptcy 2020|2020 bankruptcy]]
+- Interest costs jumped from $234M to ~$400M annually (+70%)
+
+**Why it failed:**
+- Synergies didn't materialize quickly enough to offset interest burden
+- Rising rates made the debt more expensive
+- Luxury sales softened in 2025
+- Vendors, seeing distress, pulled back shipments → inventory gaps → lost sales
+
+---
+
 ## The vicious cycle
 
 ```
