@@ -60,6 +60,7 @@ AI/semiconductor punching above weight:
 | Run:ai | GPU orchestration | NVIDIA acquired |
 | [[Mobileye]] | Autonomous driving | Intel subsidiary (MBLY) |
 | Hailo | Edge AI chips | Private, $12M+ raise |
+| [[Torq]] | Security AI agents | $1.2B unicorn (Jan 2026) |
 
 ---
 
@@ -126,7 +127,7 @@ AI/semiconductor punching above weight:
 | NVIDIA investment | $500M+ (expanding) |
 | Semiconductor cos | ~200 |
 
-*Updated 2026-01-01*
+*Updated 2026-01-17*
 
 ---
 
@@ -138,4 +139,5 @@ AI/semiconductor punching above weight:
 - [[Google]] — investor (acquired Wiz $32B)
 - [[Hailo]] — AI chip startup
 - [[AI21 Labs]] — LLM startup (NVIDIA acquiring)
+- [[Torq]] — security AI agents ($1.2B unicorn)
 

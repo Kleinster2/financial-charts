@@ -12,10 +12,17 @@ aliases: [Warsh]
 | Metric | Value |
 |--------|-------|
 | Current role | Distinguished Visiting Fellow, Hoover Institution (Stanford) |
-| Fed Chair odds | ~40-41% (Kalshi/Polymarket, Jan 2026) |
+| Fed Chair odds | **60%** (Kalshi, Jan 16) |
 | Age | 55 |
 | Education | Stanford (BA), Harvard Law |
 | Party | Republican |
+
+### Fed Chair odds history
+
+| Date | Kalshi | Event |
+|------|--------|-------|
+| Jan 14 | 39-41% | Neck-and-neck with Hassett |
+| **Jan 16** | **60%** | Trump signals Hassett staying at NEC |
 
 ---
 
@@ -37,12 +44,12 @@ aliases: [Warsh]
 
 | Issue | Warsh position |
 |-------|----------------|
-| **Rates** | Dovish — supports lower rates |
+| **History** | Hawkish — known for preferring higher rates, lower inflation |
+| **Current** | Aligning with Trump on rate cuts |
 | **Inflation** | "Policy choices, not inevitable cycles" |
 | **AI** | "Significant disinflationary force" |
-| **Fed doctrine** | Should "abandon the dogma that inflation is caused when the economy grows too much" |
 
-**Key quote:** Argues Fed should be more flexible on inflation targeting given structural disinflation from technology.
+**Market perception:** Historically hawkish, but has told Trump "borrowing costs must come down." Still seen as less aggressive on cuts than Hassett.
 
 ---
 
@@ -52,11 +59,24 @@ aliases: [Warsh]
 
 | Metric | Warsh | [[Kevin Hassett]] |
 |--------|-------|-------------------|
-| Kalshi odds | 39-41% | 40-50% |
-| Polymarket | 41% | 38% |
+| Kalshi odds (Jan 16) | **60%** | **16%** |
 | Trump proximity | Distant | Daily contact (NEC) |
 | Independence perception | Higher | Lower |
 | Market credibility | Higher | Lower |
+
+**Jan 16 shift:** Trump publicly said he wants Hassett to stay at NEC. Warsh now clear front-runner.
+
+### Market reaction (Jan 16)
+
+| Tenor | Move |
+|-------|------|
+| 2Y | 3.56% → 3.59% (+3bp) |
+| 10Y | 3.96% → 4.02% (+6bp) |
+| Warsh odds | 39% → 60% |
+
+Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
+
+**Evercore:** "Warsh is trusted by Senate Republicans and would be much easier to confirm."
 
 ### Warsh advantages
 

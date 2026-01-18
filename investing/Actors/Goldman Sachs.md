@@ -144,7 +144,18 @@ See [[AI infrastructure financing]] for market context.
 | Type | Investment bank |
 | AI exposure | Research, financing |
 
-*Updated 2026-01-15*
+---
+
+## Q4 2025 earnings (Jan 15)
+
+| Metric | Result |
+|--------|--------|
+| Revenue | -3% YoY |
+| Driver | Apple Card portfolio offload to JPMorgan |
+
+**CEO Solomon:** "We continue to see high levels of client engagement across our franchise and expect momentum to accelerate in 2026."
+
+*Updated 2026-01-17*
 
 ---
 

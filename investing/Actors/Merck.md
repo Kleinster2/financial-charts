@@ -101,6 +101,20 @@ aliases: [MRK, Merck & Co]
 
 ---
 
+## Potential M&A: Revolution Medicines (Jan 2026)
+
+| Detail | Value |
+|--------|-------|
+| Target | Revolution Medicines |
+| Reported value | **$32B** |
+| Status | In talks |
+| Product | Late-stage oral cancer treatment |
+| Context | Biggest biotech deal since Pfizer-Seagen ($43B, 2023) |
+
+**CEO Mark Davis:** Sees opportunity for deals worth "multi tens of billions" — "We are not limited from a balance sheet."
+
+---
+
 ## Related
 
 - [[Biopharma]] — sector
@@ -112,4 +126,4 @@ aliases: [MRK, Merck & Co]
 
 - [Merck investor relations](https://www.merck.com/investor-relations/)
 
-*Created 2026-01-09*
+*Updated 2026-01-17*

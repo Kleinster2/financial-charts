@@ -12,7 +12,8 @@ SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packagin
 
 - **HBM leadership**: Supplies NVIDIA, AMD with HBM for AI accelerators
 - **Memory expertise**: DRAM/NAND capabilities
-- **U.S. expansion**: Indiana packaging plant (2028)
+- **U.S. expansion**: Indiana packaging plant (2028), **$15B total US commitment**
+- **Tariff risk**: [[Howard Lutnick]] threatens 100% tariffs unless building in US (Jan 2026)
 - **Pricing power**: China fab constraints ([[Export controls]]) support memory margins
 
 ---

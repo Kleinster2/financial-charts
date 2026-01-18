@@ -109,6 +109,8 @@ Biggest chip ever made.
 - Inference cost advantage (SRAM)
 - Reduce NVIDIA dependency
 - Capacity availability
+- Sam Altman was early Cerebras investor
+- 15x faster responses than GPU-based systems
 
 ---
 
@@ -215,7 +217,7 @@ Cerebras's wafer-scale approach makes integration harder — but may preserve in
 | Position | Last independent SRAM player |
 | Key customers | OpenAI ($10B), G42 |
 
-*Updated 2026-01-14*
+*Updated 2026-01-17*
 
 ---
 

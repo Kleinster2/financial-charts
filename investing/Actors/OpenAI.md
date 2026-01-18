@@ -91,6 +91,24 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 ---
 
+## Cerebras compute deal (Jan 14, 2026)
+
+| Metric | Value |
+|--------|-------|
+| Deal value | **$10B+** |
+| Compute | 750 MW |
+| Duration | 2026-2028 |
+| Use case | Inference (especially coding) |
+
+**Why Cerebras:**
+- 15x faster responses than GPU-based systems
+- Sam Altman was early Cerebras investor
+- Diversifies away from NVIDIA/Microsoft dependency
+
+**Cerebras CEO:** "Largest high-speed AI inference deployment in the world."
+
+---
+
 ## Stargate infrastructure
 
 **UAE Stargate (per SemiAnalysis, Jan 2026):**
@@ -130,7 +148,7 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-01-17*
 
 ## Key people
 
@@ -173,3 +191,4 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[Ansaldo Energia]] — turbine supplier (UAE Stargate)
 - [[BYOP]] — on-site power generation pattern
 - [[Power constraints]] — grid gap context
+- [[Cerebras]] — $10B+ compute deal (Jan 2026)
