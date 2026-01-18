@@ -324,6 +324,84 @@ Example: Intel Magdeburg cancellation → added "Geographic retreat" section to 
 | Daily | Daily notes (inbox/capture) |
 | Meta | Vault conventions and meta-notes |
 
+## Events vs Actor sections
+
+**Prefer Event notes for corporate events.** Events are atomic — they happened at a specific time, involved specific actors, and have their own narrative. Keeping events separate from actors:
+
+- Prevents actor notes from bloating with historical detail
+- Allows multiple actors to link to the same event without duplication
+- Creates a clear timeline in the Events folder
+- Separates "who they are" (actor) from "what happened" (event)
+
+### When to create an Event note
+
+| Event type | Create Event note? |
+|------------|-------------------|
+| M&A (mergers, acquisitions, divestitures) | ✅ Yes |
+| Bankruptcies, restructurings | ✅ Yes |
+| IPOs, spinoffs, delistings | ✅ Yes |
+| Major funding rounds ($100M+) | ✅ Yes |
+| Major product launches | ✅ Yes |
+| Strategic pivots, major partnerships | ✅ Yes |
+| Major legal/regulatory actions | ✅ Yes |
+| Quarterly earnings | ❌ No (stays in actor) |
+| Minor executive changes | ❌ No (stays in actor) |
+| Small funding rounds | ❌ No (stays in actor/daily) |
+| Routine product updates | ❌ No (stays in actor) |
+
+### Event note structure
+
+```markdown
+#event #[category] #[year]
+
+# Event Name
+
+Brief summary of what happened and why it matters.
+
+---
+
+## What happened
+
+Timeline, key facts, numbers.
+
+---
+
+## Why it matters
+
+Impact, implications, what changed.
+
+---
+
+## Actors involved
+
+| Actor | Role |
+|-------|------|
+| [[Company A]] | Acquirer |
+| [[Company B]] | Target |
+| [[Person X]] | Decision-maker |
+
+---
+
+## Related
+
+- [[Actor 1]] — role in event
+- [[Concept]] — dynamic this illustrates
+- [[Other Event]] — connected event
+```
+
+### Actor notes reference events
+
+Actor notes should have a "Key events" section that links to Event notes:
+
+```markdown
+## Key events
+
+- [[Saks-Neiman merger]] — 2024, $2.7B acquisition
+- [[Saks bankruptcy]] — Jan 2026, Chapter 11
+```
+
+This keeps actor notes focused on "who they are" while events carry the narrative.
+
 ## Concept vs Sector hub
 
 | | **Concept** | **Sector Hub** |
