@@ -120,6 +120,9 @@ The `/api/chart/lw` endpoint generates charts headlessly using Playwright — no
 | `height` | Image height px | 600 |
 | `show_title` | Show title on chart | true |
 | `normalize` | Rebase to 0% for comparison | false |
+| `metrics` | Fundamentals: revenue, netincome, eps, fcf, etc. | — (price) |
+
+**Title auto-hide:** Title is hidden when legend provides sufficient context (multi-ticker normalized charts or fundamentals charts).
 
 ### Comparison charts (normalize=true)
 
@@ -127,8 +130,7 @@ For comparing multiple tickers, use `normalize=true`:
 - All series rebased to **0% at start date**
 - Y-axis shows **percentage change** (+50%, -10%, etc.)
 - **Log scale** preserved for proper ratio visualization
-- **Legend** auto-generated showing ticker names with colors
-- **Title hidden** (legend is sufficient for multi-ticker charts)
+- **Legend** auto-generated showing ticker/metric names with colors
 
 This matches the dashboard's "Show % Basis" mode.
 
