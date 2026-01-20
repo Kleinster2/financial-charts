@@ -12,11 +12,25 @@ Hyperscaler capex = demand signal for the whole stack:
 Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packaging) → Cohu (test)
 ```
 
-**2025 spending:**
+**Quarterly capex trajectory (Q3 2025):**
+
+| Hyperscaler | Q3 2019 | Q3 2025 | Multiple |
+|-------------|---------|---------|----------|
+| **AMZN** | $4.7B | $35.1B | **7.5x** |
+| **GOOG** | $6.7B | $24.0B | **3.6x** |
+| **META** | $3.5B | $18.8B | **5.4x** |
+| **MSFT** | $3.4B | $19.4B | **5.7x** |
+| **Total** | $18.3B | **$97.3B** | **5.3x** |
+
+![[hyperscaler-capex.png]]
+
+*Annualized Q3 2025 run rate: ~$390B*
+
+**2025 context:**
 
 | Category | Amount |
 |----------|--------|
-| Big 4 capex (Google, Meta, MSFT, AMZN) | **$370B+** |
+| Big 4 capex (annualized) | **~$390B** |
 | Global AI VC (YTD Oct) | **$193B** (record) |
 | China AI capex | $98B (+48% YoY) |
 

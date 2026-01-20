@@ -1631,7 +1631,8 @@ def get_fundamentals_chart_data():
         'operatingincome': ('income_statement_quarterly', 'operating_income', 'Operating Income'),
         'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
         'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
-        'operatingcashflow': ('cash_flow_quarterly', 'operating_cashflow', 'Operating Cash Flow')
+        'operatingcashflow': ('cash_flow_quarterly', 'operating_cashflow', 'Operating Cash Flow'),
+        'capex': ('cash_flow_quarterly', 'capital_expenditures', 'Capital Expenditures')
     }
 
     for ticker in tickers:
@@ -2923,6 +2924,7 @@ def get_chart_lw():
         'operatingincome': ('income_statement_quarterly', 'operating_income', 'Op Income'),
         'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
         'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
+        'capex': ('cash_flow_quarterly', 'capital_expenditures', 'CapEx'),
     }
 
     # If metrics specified, fetch fundamentals instead of price
