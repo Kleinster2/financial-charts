@@ -2906,13 +2906,21 @@ def get_chart_lw():
                     table, column, label = metric_map[metric]
                     series_name = f"{ticker} {label}" if len(tickers) > 1 or len(metrics) > 1 else label
 
+                    # Build query with optional date filters
                     query = f"""
                         SELECT fiscal_date_ending, {column}
                         FROM {table}
                         WHERE ticker = ?
-                        ORDER BY fiscal_date_ending ASC
                     """
-                    df = pd.read_sql(query, conn, params=(ticker,))
+                    params = [ticker]
+                    if start_date:
+                        query += " AND fiscal_date_ending >= ?"
+                        params.append(start_date)
+                    if end_date:
+                        query += " AND fiscal_date_ending <= ?"
+                        params.append(end_date)
+                    query += " ORDER BY fiscal_date_ending ASC"
+                    df = pd.read_sql(query, conn, params=params)
 
                     if not df.empty:
                         data_points = []
