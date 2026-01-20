@@ -101,9 +101,42 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
   -o investing/attachments/aapl-revenue.png
 ```
 
-**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (600), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit)
+**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line)
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
+
+### Adding forecasts to fundamentals charts
+
+**1. Get consensus estimates** from Yahoo Finance (`/quote/TICKER/analysis/`) or other sources. Look for quarterly revenue and EPS estimates.
+
+**2. Calculate net income from EPS:**
+```
+Net Income = (ADR_EPS / ADR_ratio) × FX_rate × shares_outstanding
+```
+Example for TSM (ADR = 5 Taiwan shares):
+```
+Q1 2026: ($3.29 / 5) × 31.6 TWD/USD × 25.94B shares = NT$539B
+```
+
+**3. Extrapolate future quarters** using YoY growth (preserves seasonality + trend):
+- Calculate implied YoY growth from consensus FY estimates
+- Apply that growth rate to each quarter from the prior year
+- Example: If FY2027 revenue is +20% YoY, then Q1 2027 = Q1 2026 × 1.20
+
+**4. Insert forecasts into database:**
+```sql
+INSERT OR REPLACE INTO income_statement_quarterly
+  (ticker, fiscal_date_ending, total_revenue, net_income)
+VALUES
+  ('TSM', '2026-03-31', 1120000000000, 539000000000),
+  ('TSM', '2026-06-30', 1190000000000, 565000000000);
+```
+
+**5. Generate chart with dotted forecast line:**
+```bash
+curl "http://localhost:5000/api/chart/lw?tickers=TSM&metrics=revenue,netincome&forecast_start=2026-01-01" \
+  -o investing/attachments/tsm-fundamentals.png
+```
 
 ## Pending Design Decisions
 
