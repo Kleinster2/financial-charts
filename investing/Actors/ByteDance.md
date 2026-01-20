@@ -111,7 +111,7 @@ ByteDance is #1 in China AI infrastructure.
 | Zhang Yiming | Founder, stepped back from CEO |
 | Liang Rubo | CEO |
 | Employees | Significant equity |
-| Sequoia China | Early investor |
+| [[HongShan]] | Early investor (formerly Sequoia China) |
 | General Atlantic | Investor |
 | SoftBank | Investor |
 | KKR | Investor |
@@ -171,6 +171,7 @@ Contributes to [[Memory shortage 2025-2026]].
 - [[NVIDIA]] — GPU supplier ($14B order)
 - [[SK Hynix]] — HBM supplier
 - [[Samsung]] — memory supplier
+- [[HongShan]] — early investor (formerly Sequoia China)
 - [[Export controls]] — constraint (H200 only, no Blackwell)
 - [[China]] — geographic context
 - [[Alibaba]] — competitor (China AI/cloud)

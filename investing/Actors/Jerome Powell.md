@@ -185,8 +185,14 @@ Trump appointed Powell but turned hostile when Powell raised rates in 2018-2019.
 
 ## Related
 
+### Institution
 - [[Federal Reserve]] — institution (chair of)
+
+### Theory
+- [[Time consistency]] — Powell's job is solving this problem; independence enables credible commitment
 - [[Fed independence]] — concept under threat (DOJ investigation)
+
+### Context
 - [[Gold]] — safe haven rallying on Powell crisis
 - [[Trump II]] — political pressure, DOJ investigation
 - [[Wall Street consensus]] — views on Fed policy

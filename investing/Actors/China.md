@@ -201,7 +201,7 @@ Bulls on China exposure would say:
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-01-19*
 
 ## Related
 
@@ -221,3 +221,4 @@ Bulls on China exposure would say:
 - [[Palo Alto Networks]] — banned cybersecurity vendor
 - [[Check Point]] — banned cybersecurity vendor (Israeli)
 - [[China-Africa trade]] — fastest growing export destination (+26%, $348B)
+- [[China A-share exchanges]] — Shanghai, Shenzhen, Beijing exchanges (margin policy)

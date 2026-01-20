@@ -271,7 +271,11 @@ See [[Short interest]] for interpretation framework.
 | **Stock YTD** | **+37%** (underperforming memory) |
 | Short interest | **1.1%** (Jan 2026) |
 
-*Updated 2026-01-15*
+*Updated 2026-01-20*
+
+![[nvda-price-chart.png]]
+
+![[nvda-fundamentals.png]]
 
 ---
 

@@ -17,3 +17,6 @@ quandl
 
 # ETF holdings (ALLW replication)
 openpyxl
+
+# Lightweight Charts image export (Playwright)
+playwright

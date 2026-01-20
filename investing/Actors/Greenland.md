@@ -62,11 +62,27 @@ Pituffik is northernmost US military installation — critical for Arctic domain
 - Annual block grant from Denmark (~$600M)
 - Independence movement exists but lacks economic viability
 
-### US interest
+### US interest — 150+ year history
 
-**Trump administration (2019):** Floated idea of purchasing Greenland — Denmark rejected as "absurd."
+US has sought control of Greenland repeatedly since 1867:
 
-**Why US wants closer ties:**
+| Year | Event |
+|------|-------|
+| 1867 | Secretary of State William Seward (after Alaska purchase from Russia) made formal proposal, commissioned study |
+| 1940 | US sent Coast Guard "volunteers" when Nazis invaded Denmark |
+| 1941-45 | Established strategic bases during WWII |
+| Post-1945 | Dramatically expanded bases with Danish authorization during Cold War |
+| 1991 | Presence reduced after Soviet collapse |
+| 2019 | Trump floated purchase idea (first term) — Denmark rejected as "absurd" |
+| 2025 | Trump renewed annexation push in second term |
+| Jan 2026 | Threatened tariffs on countries opposing annexation |
+
+**Consistent rationale across 150 years:**
+- Strategic Arctic location
+- Access to natural resources / minerals
+- Geopolitical conflict context (Civil War aftermath → WWII → Cold War → China competition)
+
+**Why US wants closer ties today:**
 - Arctic defense (Russia, China presence)
 - Rare earth access
 - Climate change opening region
@@ -114,3 +130,5 @@ Pituffik is northernmost US military installation — critical for Arctic domain
 - [[Northwest Passage]] — Greenland controls eastern access
 - [[Critical minerals]] — rare earth potential
 - [[US-China security]] — competition for influence
+- [[US-EU trade]] — annexation push triggering trade tensions
+- [[EU]] — opposing US annexation

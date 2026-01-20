@@ -62,5 +62,9 @@
 - [[Neiman Marcus bankruptcy 2020]] — COVID casualty
 - [[Macy's]] — survivor, benefiting from Saks failure
 - [[Richard Baker]] — attempted consolidation strategy
+- [[Retail real estate as hidden value]] — the flip side (assets that survive decline)
+- [[Retail apocalypse]] — broader context (2017-2020 closures)
+- [[Middle class decline]] — the customer base that shrank
+- [[Amazon]] — primary disruptor
 
-*Created 2026-01-17*
+*Updated 2026-01-18*

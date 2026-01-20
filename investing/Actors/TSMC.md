@@ -1,7 +1,7 @@
 ---
 aliases: [TSM]
 ---
-#actor #foundry #taiwan
+	#actor #foundry #taiwan
 
 **Taiwan Semiconductor Manufacturing Company** — the world's dominant pure-play logic foundry (~60% market share).
 
@@ -50,6 +50,10 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | **Short interest** | **0.5%** of float (Jan 2026) |
 
 *Updated 2026-01-17*
+
+![[tsm-price-chart.png]]
+
+![[tsm-fundamentals.png]]
 
 ---
 

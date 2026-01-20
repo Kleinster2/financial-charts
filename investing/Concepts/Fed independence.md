@@ -90,7 +90,24 @@ See [[UK mini-budget crisis 2022]].
 
 ---
 
-## Academic evidence
+## Academic foundation
+
+### Time consistency problem
+
+The theoretical case for Fed independence rests on the **[[Time consistency]]** research of [[Finn Kydland]] and [[Edward Prescott]] (2004 Nobel Prize).
+
+**Core insight:** A central bank that cannot commit to rules in advance will produce higher inflation than one that can — even with identical preferences. Without independence, rational actors anticipate political pressure for easy money, set higher wages/prices, and inflation becomes self-fulfilling.
+
+| Without independence | With independence |
+|---------------------|-------------------|
+| Political pressure for easy money | Insulated from political cycle |
+| Credibility problem | Commitment mechanism |
+| Higher inflation expectations | Anchored expectations |
+| Higher actual inflation | Lower actual inflation |
+
+**Policy solution:** Institutional independence + explicit inflation targets = commitment device that solves time consistency problem.
+
+### Empirical evidence
 
 Research on Turkey's central bank dismissals found:
 
@@ -165,6 +182,8 @@ Research on Turkey's central bank dismissals found:
 - [[Kevin Warsh]] — chair candidate (Fed experience)
 - [[Kevin Hassett]] — chair candidate (Trump trust, independence concern)
 - [[Mohamed El-Erian]] — prominent commentator
+- [[Adam Tooze]] — historian tracking Fed politicization as assault on technocratic norms
+- [[Crashed]] — Tooze's account of Fed as global lender of last resort in 2008
 
 ### Market signals
 - [[Gold]] — safe haven, independence barometer
@@ -174,6 +193,11 @@ Research on Turkey's central bank dismissals found:
 ### Precedents
 - [[UK mini-budget crisis 2022]] — bond vigilante forcing function
 - [[Turkey]] — full independence collapse case study
+
+### Theory
+- [[Time consistency]] — academic foundation for independence (Kydland-Prescott)
+- [[Finn Kydland]] — 2004 Nobel laureate
+- [[Edward Prescott]] — 2004 Nobel laureate
 
 ### Concepts
 - [[De-dollarization]] — structural consequence

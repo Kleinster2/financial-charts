@@ -16,6 +16,27 @@ Templates and required content for different note types.
 
 ---
 
+## Charts for public companies
+
+Two standard charts for public company actor notes:
+
+1. **Price vs benchmark** — stock performance vs relevant index (e.g., AAPL vs QQQ)
+2. **Fundamentals** — revenue, net income, and free cash flow (absolute values)
+
+```bash
+# Price comparison (normalized)
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
+  -o investing/attachments/aapl-price-chart.png
+
+# Fundamentals (absolute values)
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome,fcf&start=2006-04-01" \
+  -o investing/attachments/aapl-fundamentals.png
+```
+
+**Start date:** Pick a date that shows the relevant story — after major dips, IPO, or pivots.
+
+---
+
 ## Event note structure
 
 ```markdown

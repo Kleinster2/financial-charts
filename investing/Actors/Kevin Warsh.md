@@ -122,7 +122,14 @@ Traders see Warsh as "Goldilocks" solution:
 
 ## Related
 
+### Institution
 - [[Federal Reserve]] — potential chair
 - [[Jerome Powell]] — would replace
+
+### Theory
+- [[Time consistency]] — Fed Chair role is chief credibility manager; must solve commitment problem
+- [[Fed independence]] — key attribute markets are pricing
+
+### Context
 - [[Kevin Hassett]] — rival candidate ("Battle of the Kevins")
 - [[Trump II]] — appointing authority

@@ -142,6 +142,10 @@ Gilt yields spike
 | **Central banks get dragged in** | BoE had to intervene despite conflicting with its own QT |
 | **Political consequences** | Markets can end governments (45-day PM) |
 
+### Theoretical framework
+
+This crisis illustrates the [[Time consistency]] problem identified by [[Finn Kydland]] and [[Edward Prescott]]. The UK government's credibility — built over decades through institutional constraints (OBR forecasts, BoE independence) — was destroyed in hours by bypassing those constraints. Markets immediately priced in the loss of commitment mechanism.
+
 ### Why this matters
 
 This is the modern template for how bond markets discipline fiscal policy:
@@ -163,7 +167,16 @@ Any country with large debt, leveraged financial system, and policy credibility 
 
 ## Related
 
+### Theory
+- [[Time consistency]] — this crisis demonstrates credibility collapse
+- [[Fed independence]] — institutional solution this crisis lacked
+
+### Actors
 - [[UK]] — country actor
+- [[Finn Kydland]] — theorist whose work explains why this happened
+- [[Edward Prescott]] — theorist whose work explains why this happened
+
+### Markets
 - [[Credit markets]] — bond market dynamics, vigilante mechanisms
 - [[Federal Reserve]] — Fed independence debates invoke this precedent
 - [[Wall Street consensus]] — fiscal credibility risk

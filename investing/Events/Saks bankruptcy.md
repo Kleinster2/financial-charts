@@ -20,7 +20,7 @@
 | Employees | 16,830 |
 | Creditors | 10,001–25,000 |
 
-*Source: [Stretto case docket](https://cases.stretto.com/Saks/)*
+*Source: [[Stretto]] [case docket](https://cases.stretto.com/Saks/)*
 
 **Timeline:**
 - Late Dec 2025: Missed **$100M interest payment**
@@ -285,6 +285,7 @@ When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the fl
 
 ## Related
 
+- [[Stretto]] — claims agent administering case
 - [[Saks-Neiman merger]] — cause of debt ($2.7B deal)
 - [[Neiman Marcus bankruptcy 2020]] — prior restructuring
 - [[Richard Baker]] — dealmaker who built and lost it

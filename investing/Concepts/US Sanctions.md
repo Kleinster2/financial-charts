@@ -153,10 +153,16 @@ See [[US Government]] for full policy landscape.
 ### Tools
 - [[Export controls]] — semiconductor-specific
 - [[US-China tariffs]] — tariff-based enforcement (new)
+- [[UN snapback]] — multilateral mechanism (Iran, Sep 2025)
+
+### Evasion mechanisms
+- [[Shadow fleet]] — tankers moving sanctioned oil
+- [[Chinese teapot refineries]] — primary buyers of sanctioned crude
 
 ### Targets
 - [[Russia]] — oil price cap, shadow fleet, Rosneft/Lukoil secondary sanctions
 - [[Iran]] — comprehensive + tariff secondary sanctions (Jan 2026)
+- [[Iranian economic collapse]] — currency as instability indicator
 - [[Venezuela]] — oil sanctions case study
 - [[Huawei]] — entity list poster child
 - [[SMIC]] — sanctioned Chinese foundry

@@ -126,6 +126,11 @@
 
 ## Related
 
+### Theory
+- [[Time consistency]] — explains inflation bias without commitment mechanisms (Kydland-Prescott)
+- [[Finn Kydland]] — 2004 Nobel for inflation credibility research
+- [[Edward Prescott]] — 2004 Nobel for inflation credibility research
+
 ### Policy
 - [[Federal Reserve]] — sets rates based on inflation
 - [[Fed independence]] — risk to inflation credibility
