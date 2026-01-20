@@ -203,6 +203,16 @@
                             priceFormat: priceFormat
                         });
                         historicalSeries.setData(historicalData);
+
+                        // Add big dot at last historical point
+                        const lastPoint = historicalData[historicalData.length - 1];
+                        historicalSeries.setMarkers([{
+                            time: lastPoint.time,
+                            position: 'inBar',
+                            color: color,
+                            shape: 'circle',
+                            size: 2
+                        }]);
                     }
 
                     // Forecast series (dotted line)
