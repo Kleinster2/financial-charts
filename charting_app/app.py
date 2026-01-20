@@ -17,6 +17,27 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+def fiscal_to_calendar_quarter(date):
+    """Map a fiscal quarter end date to the nearest calendar quarter end.
+
+    Jan-Mar → Mar 31 (Q1)
+    Apr-Jun → Jun 30 (Q2)
+    Jul-Sep → Sep 30 (Q3)
+    Oct-Dec → Dec 31 (Q4)
+    """
+    if isinstance(date, str):
+        date = pd.to_datetime(date)
+    month = date.month
+    year = date.year
+    if month <= 3:
+        return f"{year}-03-31"
+    elif month <= 6:
+        return f"{year}-06-30"
+    elif month <= 9:
+        return f"{year}-09-30"
+    else:
+        return f"{year}-12-31"
+
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT,
@@ -2939,7 +2960,7 @@ def get_chart_lw():
                         data_points = []
                         for _, row in df.iterrows():
                             try:
-                                date_str = pd.to_datetime(row['fiscal_date_ending']).strftime('%Y-%m-%d')
+                                date_str = fiscal_to_calendar_quarter(row['fiscal_date_ending'])
                                 value = row[column]
                                 if pd.notna(value) and value != 0:
                                     data_points.append({'time': date_str, 'value': float(value)})
