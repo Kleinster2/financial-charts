@@ -3,42 +3,61 @@ aliases: [ICE, NYSE, New York Stock Exchange]
 ---
 #actor #finance #exchange #usa #public
 
-**Intercontinental Exchange** — Owns NYSE. Global exchanges, clearing, data. $80B+ market cap.
+**Intercontinental Exchange** — Exchange and data conglomerate. Owns NYSE, major derivatives exchanges, mortgage technology (Black Knight). Vertically integrated across trading, clearing, and data.
 
 ---
 
-## Why ICE matters
-
-Owns the world's most famous stock exchange:
+## Overview
 
 | Metric | Value |
 |--------|-------|
-| Market cap | ~$85B |
-| Ticker | ICE |
 | Founded | 2000 |
+| HQ | Atlanta, Georgia |
+| Ticker | ICE |
+| Market cap | ~$95B |
+| Revenue (2024) | $9.3B (net of transaction costs) |
 | CEO | Jeffrey Sprecher |
-| Exchanges | NYSE, ICE Futures, others |
 
 ---
 
 ## Business segments
 
-| Segment | Description |
-|---------|-------------|
-| **Exchanges** | NYSE, ICE Futures US/Europe/Canada |
-| **Fixed Income & Data** | Bonds, pricing data, analytics |
-| **Mortgage Technology** | Ellie Mae, mortgage origination |
-| **Clearing** | ICE Clear US/Europe |
+| Segment | % of net revenue | Description |
+|---------|------------------|-------------|
+| **Exchanges** | ~54% | NYSE, ICE Futures US/Europe/Canada |
+| **Fixed Income & Data** | ~24% | Bonds, pricing data, analytics |
+| **Mortgage Technology** | ~22% | Black Knight, Ellie Mae |
 
 ---
 
-## NYSE acquisition (2013)
+## Financials
 
-**$8.2B deal:**
-- Acquired NYSE Euronext
-- Spun off Euronext (2014)
-- Kept NYSE
-- Transformed from commodities to equities
+### Annual
+
+| Metric | 2022 | 2023 | 2024 |
+|--------|------|------|------|
+| Revenue | $7.3B | $9.9B | $11.8B |
+| Net revenue | $5.8B | $7.5B | $9.3B |
+| Net income | $2.3B | $2.4B | $2.8B |
+| GAAP EPS | $4.06 | $4.18 | $4.78 |
+| Adjusted EPS | $5.30 | $5.63 | $6.07 |
+
+**2024:** Record revenue and operating income. +14% GAAP EPS YoY.
+
+---
+
+## Key acquisitions
+
+| Year | Target | Price | Rationale |
+|------|--------|-------|-----------|
+| 2013 | **NYSE Euronext** | $8.2B | Flagship equity exchange |
+| 2015 | IDC | $5.2B | Fixed income data |
+| 2020 | Ellie Mae | $11B | Mortgage origination |
+| 2023 | **Black Knight** | $11.7B | Mortgage servicing |
+| 2025 | American Financial Exchange | — | AMERIBOR |
+| 2025 | Polymarket (investment) | $2B at $8B val | Event contracts data |
+
+**NYSE (2013):** Spun off Euronext (2014), kept NYSE + LIFFE (now ICE Futures Europe).
 
 ---
 
@@ -104,4 +123,8 @@ Data = recurring, high-margin revenue.
 - [[CME Group]] — competitor (derivatives)
 - [[CBOE]] — competitor (options)
 - [[HKEX]] — peer (Asia exchange)
+- [[London Stock Exchange Group]] — peer (exchange + data)
+- [[Financial data industry]] — data segment context
+
+*Updated 2026-01-19 (2024 financials, acquisitions)*
 

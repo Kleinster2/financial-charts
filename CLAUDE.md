@@ -291,7 +291,48 @@ When touching a note for any reason (adding news, updating data, fixing links), 
 
 ## Processing new information
 
-**Before proposing where to add news, search the vault.**
+**Every piece of news needs an atomic home — daily notes are never the only location.**
+
+### Check existing notes first
+
+**Before searching the web, check what the vault already knows.**
+
+When the user asks about a topic or wants updates:
+
+1. **Search the vault first** — grep for actors, concepts, events
+2. **Read existing notes** — understand current coverage depth
+3. **Then search externally** — web, news, sources
+4. **Present only the delta** — new info not already in notes
+
+| Wrong | Right |
+|-------|-------|
+| Search web → dump all findings | Check notes → search web → report only new info |
+| Present 10 facts, 8 already in notes | "Notes are comprehensive; one new detail: X" |
+
+**Why this matters:** The vault often has deeper coverage than news articles. Presenting info the user already has wastes their time.
+
+### Finding the right home
+
+Before creating a catch-all concept, ask: **are there actors missing from the vault?**
+
+| Wrong | Right |
+|-------|-------|
+| News about margin tightening → create "China equity market regulation" concept | News about margin tightening → create Shanghai/Shenzhen/Beijing Stock Exchange actor notes |
+| News about Fed policy → add to high-level "Federal Reserve" note | News about Fed policy → create specific actor (FOMC, specific governor) or event note |
+
+**The principle:** News is created by actors taking actions. Find the actors first. Concepts describe dynamics and patterns, not catch-all buckets for news.
+
+### Regional actors stay high-level
+
+Regional actor notes (China, Brazil, EU, Japan) should be **high-level scaffolding**, not dumping grounds for every piece of regional news. They link to:
+- Specific actors within the region (companies, exchanges, regulators)
+- Concepts about regional dynamics
+- Events that happened there
+
+**Bad:** Add margin tightening details to China.md
+**Good:** Add margin tightening to China A-share exchanges.md, link from China.md
+
+### Search before proposing
 
 1. **Grep for key terms** — actors, concepts, themes mentioned in the article
 2. **Read top 2-3 matches** — understand what already exists
@@ -717,6 +758,29 @@ Actors include any entity that affects investment outcomes:
 | Individuals | [[Jensen Huang]], [[Sam Altman]] | Key decision-makers |
 
 **Principle:** Non-investable actors that drive investable outcomes are essential context.
+
+### Regional actors stay high-level
+
+Geographic actors (China, Brazil, EU, Japan, etc.) are **scaffolding**, not repositories:
+
+| Content type | Where it belongs |
+|--------------|------------------|
+| Specific policy action | Actor who took action (exchange, regulator, ministry) |
+| Market data/news | Daily note + specific actor |
+| Bilateral relationships | Relationship note (e.g., [[EU-China trade]]) |
+| Structural dynamics | Concept note (e.g., [[China economic transition]]) |
+
+**Regional actor notes should contain:**
+- High-level overview of why this region matters
+- Links to specific actors, concepts, events within the region
+- Key macro data (GDP, trade balance, etc.)
+
+**Regional actor notes should NOT contain:**
+- Granular news items (belongs on specific actors)
+- Detailed policy mechanics (belongs on regulator/exchange actors)
+- Event narratives (belongs in Events/)
+
+**Example:** China margin tightening news → lives on [[China A-share exchanges]], not [[China]]. China.md links to the exchange hub.
 
 ### Concepts don't need theses
 
