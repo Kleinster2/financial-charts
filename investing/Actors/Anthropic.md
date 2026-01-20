@@ -4,12 +4,14 @@
 
 ---
 
-## Financial position (Dec 2025)
+## Financial position (Jan 2026)
 
 | Metric | Value |
 |--------|-------|
-| Revenue | **$9B** annualized (was $87M early 2024) |
+| Revenue | **$7-9B** annualized (was $87M early 2024) |
 | Revenue mix | 80% enterprise, 20% consumer |
+| Business customers | **300,000+** |
+| Large accounts ($100K+ ARR) | **7x growth** in past year |
 | Burn rate | Dropping to **9% of revenue by 2027** |
 | Break-even target | **2028** |
 | Valuation | **$300-350B** (post Microsoft $5B + NVIDIA $10B) |
@@ -121,27 +123,50 @@ Dario's investor pitch: build cutting-edge models at **1/10th the cost**.
 
 ## Compute strategy
 
-**~1M TPUv7 commitment** — largest TPU deployment ever, reducing Google dependency.
+**Multi-cloud approach** — AWS Trainium + Google TPUs + NVIDIA GPUs. Diversified to avoid single-vendor lock-in.
 
-| Component | Units | Source | Notes |
-|-----------|-------|--------|-------|
-| TPUv7 direct purchase | ~1,000,000 | [[Broadcom]] direct | Anthropic-owned |
-| Deployment facilities | — | TeraWulf, Hut 8, Cipher Mining | Crypto miners pivoting |
-| Operations | — | [[FluidStack]] | Cabling, burn-in, testing |
+### Google Cloud deal (Oct 2025)
 
-**Structure (per SemiAnalysis, Jan 2026):**
-- Anthropic buys TPUs directly from Broadcom (not through Google)
-- Deploys in **Anthropic-controlled facilities** (not Google Cloud)
-- Crypto miners ([[TeraWulf]], [[Hut 8]], [[Cipher Mining]]) provide DC infrastructure
-- [[FluidStack]] handles deployment: cabling, burn-in, acceptance testing, remote-hands
+| Metric | Value |
+|--------|-------|
+| TPU commitment | Up to **1M TPUs** |
+| Deal value | "Tens of billions of dollars" |
+| Capacity | **1GW+** online in 2026 |
+| Chip cost estimate | ~$35B of ~$50B total DC cost |
 
-**Why this matters:**
-- Independence from Google Cloud
+Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direct purchases.
+
+### AWS partnership (Project Rainier)
+
+| Metric | Value |
+|--------|-------|
+| Chips | Hundreds of thousands of Trainium |
+| Facilities | Multiple US data centers |
+| Relationship | "Primary training partner and cloud provider" |
+| AWS revenue impact | 1-2 pp in late 2024, **5+ pp expected H2 2025** (Rothschild) |
+
+### Broadcom direct TPUs (~1M TPUv7)
+
+| Component | Source | Notes |
+|-----------|--------|-------|
+| TPUv7 chips | [[Broadcom]] direct | Anthropic-owned, not through Google |
+| DC infrastructure | TeraWulf, Hut 8, Cipher Mining | Crypto miners pivoting |
+| Operations | [[FluidStack]] | Cabling, burn-in, testing |
+
+**Why direct purchase matters:**
+- Independence from Google Cloud pricing
 - Own infrastructure = lower long-term cost
-- Validates crypto-to-AI pivot thesis
-- Going TPU route, not NVIDIA
+- Validates [[Crypto-to-AI pivot]] thesis
 
-All flows to [[TSMC]] — TPUs fabbed there.
+### Summary: Three compute paths
+
+| Path | Chips | Ownership | Use case |
+|------|-------|-----------|----------|
+| Google Cloud | TPUs | Rented | Flexible capacity |
+| AWS | Trainium | Rented | Training, inference |
+| Broadcom direct | TPUv7 | Owned | Core training clusters |
+
+All roads lead to [[TSMC]] — TPUs and Trainium fabbed there.
 
 ---
 
@@ -177,7 +202,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-01-10*
+*Updated 2026-01-20*
 
 ## Related
 
