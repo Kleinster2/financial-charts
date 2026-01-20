@@ -193,6 +193,20 @@ Note: `forecast_start` should be the day after the last actual quarter (e.g., 20
 - **B) Separate chart overlay** — New UI component
 - **C) Wide table** — Add to `/api/data` endpoint
 
+### Obsidian chart refresh plugin
+
+**Status:** Planned. See `docs/obsidian-chart-refresh-plugin.md` for full spec.
+
+**Problem:** Charts are static PNGs that become stale. Manual refresh via curl is tedious.
+
+**Solution:** Custom Obsidian plugin that refreshes chart images on note open.
+
+**Key decisions needed:**
+- **Filename vs frontmatter** for chart params mapping
+- **Auto-advance forecast_start?** As time passes
+
+**Estimate:** ~150-200 lines TypeScript, 2-4 hours.
+
 ---
 
 # Vault Guidelines
