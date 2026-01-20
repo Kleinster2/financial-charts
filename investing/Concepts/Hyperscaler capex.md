@@ -1,6 +1,6 @@
 #concept #demand #ai #datacenter
 
-Capital expenditure by the Big 5 hyperscalers (Amazon, Google, Meta, Microsoft, Oracle) on AI infrastructure — the primary demand signal for semiconductors.
+Capital expenditure by the Big 5 hyperscalers (Amazon, Google, Meta, Microsoft, Oracle) and Tier 2 neoclouds (CoreWeave, Lambda, Crusoe) on AI infrastructure — the primary demand signal for semiconductors.
 
 ---
 
@@ -78,6 +78,44 @@ Oracle is ramping fastest but showing financial strain:
 
 ---
 
+## Tier 2: Neoclouds
+
+GPU-native cloud providers built for AI workloads. Smaller than hyperscalers but growing fast.
+
+### CoreWeave (CRWV)
+
+| Metric | Value |
+|--------|-------|
+| 2025 capex | $12-14B |
+| 2026 capex | **$30B+** (doubling) |
+| Revenue backlog | $55.6B |
+| Contracted power | 2.9 GW |
+| Debt/equity | **4.8x** |
+
+Largest neocloud. GPU-collateralized debt model unprecedented in tech. $14B Meta deal anchors backlog.
+
+### Other neoclouds
+
+| Player | Status | Notes |
+|--------|--------|-------|
+| **Lambda Labs** | Private | Developer-first, modular ML stack |
+| **Crusoe** | Private | 45GW pipeline (ambitious), energy partnerships |
+| **Nebius** | Public (NBIS) | Yandex spin-off, European focus |
+| **Together AI** | Private | Training/inference platform |
+
+**Cost breakdown (per Nebius):**
+- GPUs: **80%** of spending
+- DC buildout: 18-20%
+- Land/power: ~1%
+
+### Neocloud risk
+
+Early 2026 sentiment shifting from "build it and they will come" to ROIC focus. CoreWeave trading at discount to 2025 highs. Lambda/Together IPO windows narrowing.
+
+See [[CoreWeave]] for detailed analysis.
+
+---
+
 ## Financing the buildout
 
 Hyperscalers are using multiple structures:
@@ -127,7 +165,8 @@ Every dollar of capex flows through the chip supply chain. $600B in 2026 = unpre
 ## Related
 
 - [[AI hyperscalers]] — the players
-- [[Amazon]], [[Google]], [[Meta]], [[Microsoft]], [[Oracle]] — individual notes
+- [[Amazon]], [[Google]], [[Meta]], [[Microsoft]], [[Oracle]] — Big 5 notes
+- [[CoreWeave]] — largest neocloud
 - [[AI infrastructure financing]] — how it's funded
 - [[Power constraints]] — physical limits
 - [[BYOP]] — bring your own power trend
