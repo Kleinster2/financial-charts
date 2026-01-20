@@ -140,10 +140,11 @@ See [[Short interest]] for interpretation framework.
 | P/E | ~32x |
 | Cash position | ~$160B |
 | Short interest | **0.78%** (Jan 2026) |
+*Updated 2026-01-19*
 
-*Updated 2026-01-15*
+![[aapl-price-chart.png]]
 
----
+![[aapl-fundamentals.png]]
 
 ## Related
 

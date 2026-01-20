@@ -72,14 +72,24 @@
             }));
         }
 
+        // Format large numbers with K/M/B suffixes
+        function formatLargeNumber(value) {
+            const absValue = Math.abs(value);
+            if (absValue >= 1e12) return (value / 1e12).toFixed(1) + 'T';
+            if (absValue >= 1e9) return (value / 1e9).toFixed(1) + 'B';
+            if (absValue >= 1e6) return (value / 1e6).toFixed(1) + 'M';
+            if (absValue >= 1e3) return (value / 1e3).toFixed(1) + 'K';
+            return value.toFixed(2);
+        }
+
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, normalize } = config;
+            const { data, title, width, height, showTitle, normalize, isFundamentals } = config;
 
-            // Set title (hide if normalized with multiple tickers - legend is sufficient)
+            // Set title (hide if legend is sufficient: normalized multi-ticker or fundamentals)
             const titleEl = document.getElementById('title');
             const tickers = Object.keys(data);
-            const hideTitle = normalize && tickers.length > 1;
+            const hideTitle = (normalize && tickers.length > 1) || isFundamentals;
             if (showTitle && title && !hideTitle) {
                 titleEl.textContent = title;
             } else {
@@ -143,17 +153,28 @@
                 item.innerHTML = `<div class="legend-color" style="background:${color}"></div><span>${ticker}</span>`;
                 legendEl.appendChild(item);
 
-                // Price formatter: show as percentage change when normalized
-                const priceFormat = normalize ? {
-                    type: 'custom',
-                    minMove: 0.1,
-                    formatter: (v) => {
-                        const diff = v - 100;
-                        const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
-                        const dec = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
-                        return `${sign}${Math.abs(diff).toFixed(dec)}%`;
-                    }
-                } : { type: 'price', precision: 2, minMove: 0.01 };
+                // Price formatter based on mode
+                let priceFormat;
+                if (normalize) {
+                    priceFormat = {
+                        type: 'custom',
+                        minMove: 0.1,
+                        formatter: (v) => {
+                            const diff = v - 100;
+                            const sign = diff > 0 ? '+' : diff < 0 ? '-' : '';
+                            const dec = Math.abs(diff) >= 100 ? 0 : Math.abs(diff) >= 10 ? 1 : 2;
+                            return `${sign}${Math.abs(diff).toFixed(dec)}%`;
+                        }
+                    };
+                } else if (isFundamentals) {
+                    priceFormat = {
+                        type: 'custom',
+                        minMove: 1,
+                        formatter: formatLargeNumber
+                    };
+                } else {
+                    priceFormat = { type: 'price', precision: 2, minMove: 0.01 };
+                }
 
                 const series = chart.addSeries(LightweightCharts.LineSeries, {
                     color: color,

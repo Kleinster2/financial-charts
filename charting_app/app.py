@@ -2850,6 +2850,8 @@ def get_chart_lw():
         height: Image height in pixels (optional, default 600)
         show_title: Show title on chart (optional, default true)
         normalize: Rebase all tickers to 0% at start (optional, default false)
+        metrics: Fundamentals metrics to chart instead of price (optional)
+                 Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
 
     Returns: PNG image
     """
@@ -2876,6 +2878,98 @@ def get_chart_lw():
     height = int(request.args.get('height', 600))
     show_title = request.args.get('show_title', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
+    metrics_param = request.args.get('metrics', '').strip().lower()
+
+    # Fundamentals metric mapping
+    metric_map = {
+        'revenue': ('income_statement_quarterly', 'total_revenue', 'Revenue'),
+        'netincome': ('income_statement_quarterly', 'net_income', 'Net Income'),
+        'eps': ('earnings_quarterly', 'reported_eps', 'EPS'),
+        'fcf': ('cash_flow_quarterly', 'free_cash_flow', 'Free Cash Flow'),
+        'operatingincome': ('income_statement_quarterly', 'operating_income', 'Op Income'),
+        'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
+        'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
+    }
+
+    # If metrics specified, fetch fundamentals instead of price
+    if metrics_param:
+        metrics = [m.strip() for m in metrics_param.split(',') if m.strip() in metric_map]
+        if not metrics:
+            return jsonify({'error': f'No valid metrics. Options: {", ".join(metric_map.keys())}'}), HTTP_BAD_REQUEST
+
+        try:
+            conn = get_db_connection()
+            chart_data = {}
+
+            for ticker in tickers:
+                for metric in metrics:
+                    table, column, label = metric_map[metric]
+                    series_name = f"{ticker} {label}" if len(tickers) > 1 or len(metrics) > 1 else label
+
+                    query = f"""
+                        SELECT fiscal_date_ending, {column}
+                        FROM {table}
+                        WHERE ticker = ?
+                        ORDER BY fiscal_date_ending ASC
+                    """
+                    df = pd.read_sql(query, conn, params=(ticker,))
+
+                    if not df.empty:
+                        data_points = []
+                        for _, row in df.iterrows():
+                            try:
+                                date_str = pd.to_datetime(row['fiscal_date_ending']).strftime('%Y-%m-%d')
+                                value = row[column]
+                                if pd.notna(value) and value != 0:
+                                    data_points.append({'time': date_str, 'value': float(value)})
+                            except Exception:
+                                continue
+                        if data_points:
+                            chart_data[series_name] = data_points
+
+            conn.close()
+
+            if not chart_data:
+                return jsonify({'error': 'No fundamentals data found'}), HTTP_NOT_FOUND
+
+            # Update title if not custom
+            if title == ', '.join(tickers):
+                metric_labels = [metric_map[m][2] for m in metrics]
+                title = f"{', '.join(tickers)} — {', '.join(metric_labels)}"
+
+            chart_config = {
+                'data': chart_data,
+                'title': title,
+                'width': width,
+                'height': height,
+                'showTitle': show_title,
+                'normalize': normalize,
+                'isFundamentals': True
+            }
+
+            # Render with Playwright
+            from playwright.sync_api import sync_playwright
+            template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page(viewport={'width': width, 'height': height})
+                page.goto(f'file://{template_path}')
+                page.evaluate(f'''
+                    window.CHART_CONFIG = {json.dumps(chart_config)};
+                    renderChart(window.CHART_CONFIG);
+                ''')
+                page.wait_for_function('window.chartReady === true', timeout=10000)
+                page.wait_for_timeout(200)
+                screenshot_bytes = page.screenshot(type='png')
+                browser.close()
+
+            return Response(screenshot_bytes, mimetype='image/png')
+
+        except Exception as e:
+            app.logger.error(f"Fundamentals chart error: {e}")
+            traceback.print_exc()
+            return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
     try:
         conn = get_db_connection()

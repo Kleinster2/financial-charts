@@ -132,6 +132,37 @@ For comparing multiple tickers, use `normalize=true`:
 
 This matches the dashboard's "Show % Basis" mode.
 
+### Fundamentals charts (metrics=...)
+
+For charting quarterly fundamentals instead of price, use `metrics`:
+
+```bash
+# Single metric
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
+  -o investing/attachments/aapl-revenue.png
+
+# Multiple metrics (compare revenue vs net income growth)
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome&normalize=true" \
+  -o investing/attachments/aapl-margin-expansion.png
+
+# Compare fundamentals across companies
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL,MSFT&metrics=revenue&normalize=true" \
+  -o investing/attachments/aapl-msft-revenue-growth.png
+```
+
+**Available metrics:**
+| Metric | Description |
+|--------|-------------|
+| `revenue` | Total revenue |
+| `netincome` | Net income |
+| `eps` | Earnings per share |
+| `fcf` | Free cash flow |
+| `operatingincome` | Operating income |
+| `ebitda` | EBITDA |
+| `grossprofit` | Gross profit |
+
+Y-axis shows values with **K/M/B/T suffixes** (raw) or **percentage change** (normalized).
+
 ### Manual export (alternative)
 
 If you need interactive configuration:
