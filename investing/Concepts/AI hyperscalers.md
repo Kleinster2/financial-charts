@@ -12,39 +12,15 @@ Hyperscaler capex = demand signal for the whole stack:
 Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packaging) → Cohu (test)
 ```
 
-**Quarterly capex trajectory (Q3 2025):**
-
-| Hyperscaler | Q3 2019 | Q3 2025 | Multiple |
-|-------------|---------|---------|----------|
-| **AMZN** | $4.7B | $35.1B | **7.5x** |
-| **GOOG** | $6.7B | $24.0B | **3.6x** |
-| **META** | $3.5B | $18.8B | **5.4x** |
-| **MSFT** | $3.4B | $19.4B | **5.7x** |
-| **Total** | $18.3B | **$97.3B** | **5.3x** |
+**2026 capex forecast:** ~$602B (CreditSights), up 36% YoY. See [[Hyperscaler capex]] for detailed analysis, chart, and forecasts.
 
 ![[hyperscaler-capex.png]]
 
-*Solid lines = actual; dotted = forecasts based on company guidance and analyst estimates*
-
-**2026 forecast (annual):**
-
-| Hyperscaler | 2025 Guidance | 2026 Estimate | Source |
-|-------------|---------------|---------------|--------|
-| **AMZN** | $125B | ~$150B | CFO: "will grow in 2026" |
-| **GOOG** | $93B | ~$115B | CFO: "significant increase" |
-| **META** | $72B | ~$100B | CFO: "notably larger" |
-| **MSFT** | $80B | $121-140B | Jefferies, Cantor |
-| **Big 5** | ~$443B | **~$602B** | CreditSights (+36% YoY) |
-
-*Note: Big 5 includes Oracle (~$15B). Goldman Sachs projects $527B+.*
-
-**2025 context:**
-
 | Category | Amount |
 |----------|--------|
-| Big 4 capex (annualized) | **~$390B** |
-| Global AI VC (YTD Oct) | **$193B** (record) |
-| China AI capex | $98B (+48% YoY) |
+| Big 5 capex (2026E) | **~$602B** |
+| Global AI VC (2025 YTD Oct) | **$193B** (record) |
+| China AI capex (2025) | $98B (+48% YoY) |
 
 ---
 
@@ -88,9 +64,11 @@ See individual actor notes for details.
 
 ## Related
 
+- [[Hyperscaler capex]] — detailed capex analysis, chart, forecasts
 - [[Foundry Wars]] — context (hyperscalers drive foundry demand)
 - [[TSMC]] — primary foundry (most hyperscalers)
 - [[Samsung]] — alternative foundry (Musk ecosystem)
 - [[NVIDIA]] — supplier (GPU dominant)
 - [[Power constraints]] — constraint (44GW shortfall)
 - [[Broadcom]] — enabler (custom silicon design)
+- [[AI infrastructure financing]] — how capex is funded
