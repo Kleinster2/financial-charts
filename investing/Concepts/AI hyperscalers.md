@@ -24,7 +24,17 @@ Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packag
 
 ![[hyperscaler-capex.png]]
 
-*Annualized Q3 2025 run rate: ~$390B*
+*Solid lines = actual; dotted = forecast based on company guidance*
+
+**2026 forecast (annual):**
+
+| Hyperscaler | 2025 Guidance | 2026 Forecast | YoY |
+|-------------|---------------|---------------|-----|
+| **AMZN** | $125B | ~$150B | +20% |
+| **GOOG** | $93B | ~$115B | +24% |
+| **META** | $71B | ~$100B | +41% |
+| **MSFT** | ~$66B | ~$100B | +52% |
+| **Total** | **$355B** | **~$465B** | **+31%** |
 
 **2025 context:**
 
