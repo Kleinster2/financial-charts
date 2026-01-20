@@ -2853,6 +2853,7 @@ def get_chart_lw():
         metrics: Fundamentals metrics to chart instead of price (optional)
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
         forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
+        labels: Custom legend labels (optional), e.g., SMH_1_44X:SMH 1.44x Lev,NVDA:NVIDIA
 
     Returns: PNG image
     """
@@ -2880,6 +2881,16 @@ def get_chart_lw():
     show_title = request.args.get('show_title', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
+    labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
+
+    # Parse custom labels
+    labels = {}
+    if labels_param:
+        for pair in labels_param.split(','):
+            if ':' in pair:
+                key, val = pair.split(':', 1)
+                labels[key.strip().upper()] = val.strip()
+
     metrics_param = request.args.get('metrics', '').strip().lower()
 
     # Fundamentals metric mapping
@@ -2955,7 +2966,8 @@ def get_chart_lw():
                 'showTitle': show_title,
                 'normalize': normalize,
                 'isFundamentals': True,
-                'forecastStart': forecast_start if forecast_start else None
+                'forecastStart': forecast_start if forecast_start else None,
+                'labels': labels if labels else None
             }
 
             # Render with Playwright
@@ -3048,9 +3060,9 @@ def get_chart_lw():
             'height': height,
             'showTitle': show_title,
             'normalize': normalize,
-            'forecastStart': forecast_start if forecast_start else None
+            'forecastStart': forecast_start if forecast_start else None,
+            'labels': labels if labels else None
         }
-
         # Get the HTML template path
         template_path = os.path.join(basedir, 'templates', 'chart_render.html')
         if not os.path.exists(template_path):

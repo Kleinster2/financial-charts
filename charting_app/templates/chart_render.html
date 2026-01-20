@@ -84,7 +84,7 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, normalize, isFundamentals, forecastStart } = config;
+            const { data, title, width, height, showTitle, normalize, isFundamentals, forecastStart, labels } = config;
 
             // Set title (hide if legend is sufficient: normalized multi-ticker or fundamentals)
             const titleEl = document.getElementById('title');
@@ -147,10 +147,11 @@
             for (const [ticker, points] of Object.entries(data)) {
                 const color = colors[colorIndex % colors.length];
 
-                // Add legend item
+                // Add legend item (use custom label if provided)
                 const item = document.createElement('div');
                 item.className = 'legend-item';
-                item.innerHTML = `<div class="legend-color" style="background:${color}"></div><span>${ticker}</span>`;
+                const displayLabel = (labels && labels[ticker]) ? labels[ticker] : ticker;
+                item.innerHTML = `<div class="legend-color" style="background:${color}"></div><span>${displayLabel}</span>`;
                 legendEl.appendChild(item);
 
                 // Price formatter based on mode
