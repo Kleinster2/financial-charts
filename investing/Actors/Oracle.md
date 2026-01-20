@@ -150,14 +150,24 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ORCL |
+| Ticker | ORCL (NYSE) |
 | Market cap | ~$500B |
+| Revenue (FY26E) | $66.9B |
+| Revenue (FY27E) | $86.0B |
+| EPS (FY26E) | $7.34 |
+| EPS (FY27E) | $7.95 |
 | Cloud revenue | ~$20B |
 | AI capex | $10B+ |
 | Stargate role | JV partner |
 | xAI connection | Colossus on OCI |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
+
+![[orcl-price-chart.png]]
+
+![[orcl-fundamentals.png]]
+
+*Notable: Revenue growing 28% but EPS only 8% in FY27 — margin compression from AI infrastructure buildout. Q3 FY18 and Q2 FY22 net income excluded (one-time charges distort scale).*
 
 ---
 

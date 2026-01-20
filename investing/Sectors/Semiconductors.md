@@ -74,6 +74,8 @@ Design → Foundry → Packaging → Test → System integration
 - [[Long TSMC]] — foundry moat
 - [[Long memory]] — HBM cycle
 - [[Long WFE]] — equipment leverage
+- [[Long Japan photoresists]] — materials chokepoint
+- [[Long Japan wafers]] — upstream duopoly
 - [[Long OSAT and test equipment]] — packaging bottleneck
 - [[Short standalone ASICs]] — consolidation around NVIDIA
 - [[Short TSMC long Korea]] — relative value
@@ -113,6 +115,7 @@ Design → Foundry → Packaging → Test → System integration
 | **Foundry** | [[TSMC]], [[Samsung]], [[Intel]] | [[Leading edge race]], [[Taiwan concentration risk]] |
 | **Memory** | [[SK Hynix]], [[Samsung]], [[Micron]] | [[Memory shortage 2025-2026]] |
 | **Equipment (WFE)** | [[ASML]], [[Applied Materials]], [[Lam Research]] | — |
+| **[[Semiconductor Materials]]** | [[JSR Corporation]], [[Tokyo Ohka Kogyo]], [[Shin-Etsu]] | [[Export controls]] |
 | **EDA** | [[Synopsys]], [[Cadence]] | — |
 | **OSAT** | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
 
@@ -130,4 +133,4 @@ Design → Foundry → Packaging → Test → System integration
 
 - TBD
 
-*Updated 2026-01-08*
+*Updated 2026-01-20*

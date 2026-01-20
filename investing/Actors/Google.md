@@ -190,6 +190,12 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
+| Ticker | GOOG / GOOGL (NASDAQ) |
+| Market cap | ~$2.0T |
+| Revenue (2025E) | $400B |
+| Revenue (2026E) | $456B |
+| EPS (2025E) | $10.57 |
+| EPS (2026E) | $11.23 |
 | AI capex | $50B+ annually |
 | TPU generations | v1 through v7 |
 | Cloud rank | #3 (GCP) |
@@ -199,7 +205,13 @@ See [[Short interest]] for interpretation framework.
 | Anthropic stake | $2B+ |
 | Short interest | **1.12%** (Jan 2026) |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
+
+![[goog-price-chart.png]]
+
+![[goog-fundamentals.png]]
+
+*Notable: Revenue growing 14% but EPS only 6% in 2026 — margin compression from $50B+ AI capex.*
 
 ---
 

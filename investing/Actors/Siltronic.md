@@ -93,12 +93,14 @@ From 2025-12-29 daily notes:
 | Wafer share | ~13% |
 | Earnings | 2/3 |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
 
 ---
 
 ## Related
 
-- [[Shin-Etsu]], [[Sumco]] — larger competitors
+- [[Semiconductor Materials]] — sector context
+- [[Shin-Etsu]], [[Sumco]] — larger competitors (Japan)
 - [[Long WFE]] — upstream supply chain
 - [[End market demand]] — wafer data source
+- [[Export controls]] — strategic asset context (blocked GlobalWafers bid)

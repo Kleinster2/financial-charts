@@ -78,14 +78,17 @@ Second-largest wafer maker, pure-play exposure:
 | Wafer share | ~25% |
 | Earnings | 2/10 |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
 
 ---
 
 ## Related
 
-- [[Shin-Etsu]] — #1 wafer competitor
+- [[Long Japan wafers]] — investment thesis (Sumco as primary vehicle)
+- [[Semiconductor Materials]] — sector context
+- [[Shin-Etsu]] — #1 wafer competitor (also photoresists)
 - [[Siltronic]] — European competitor
 - [[TSMC]], [[Samsung]] — customers
 - [[Long WFE]] — upstream supply chain
 - [[Memory shortage 2025-2026]] — wafer allocation
+- [[Japan Semiconductor Revival]] — national context
