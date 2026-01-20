@@ -78,6 +78,87 @@ They are not separate concerns—they are one system.
 
 After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
 
+## Generating Charts for the Vault
+
+**ALWAYS use the charting app API. NEVER use matplotlib or other tools to generate charts.**
+
+The charting app produces consistent, high-quality charts with proper styling (LightweightCharts). Matplotlib charts look different and break visual consistency.
+
+### Headless export via API (preferred)
+
+The `/api/chart/lw` endpoint generates charts headlessly using Playwright — no browser needed.
+
+1. **Start the app:**
+   ```bash
+   cd /c/Users/klein/financial-charts
+   python charting_app/app.py
+   ```
+
+2. **Export via curl:**
+   ```bash
+   # Single ticker (raw prices, log scale)
+   curl "http://localhost:5000/api/chart/lw?tickers=AAPL&start=2020-01-01" \
+     -o investing/attachments/aapl-price-chart.png
+
+   # Comparison chart (normalized to 0%, with legend)
+   curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
+     -o investing/attachments/aapl-vs-qqq.png
+
+   # Custom dimensions
+   curl "http://localhost:5000/api/chart/lw?tickers=NVDA&width=1600&height=800" \
+     -o investing/attachments/nvda-wide.png
+   ```
+
+**API parameters:**
+| Parameter | Description | Default |
+|-----------|-------------|---------|
+| `tickers` | Comma-separated (required) | — |
+| `start` | Start date (YYYY-MM-DD) | All data |
+| `end` | End date (YYYY-MM-DD) | Today |
+| `title` | Chart title | Ticker list |
+| `width` | Image width px | 1200 |
+| `height` | Image height px | 600 |
+| `show_title` | Show title on chart | true |
+| `normalize` | Rebase to 0% for comparison | false |
+
+### Comparison charts (normalize=true)
+
+For comparing multiple tickers, use `normalize=true`:
+- All series rebased to **0% at start date**
+- Y-axis shows **percentage change** (+50%, -10%, etc.)
+- **Log scale** preserved for proper ratio visualization
+- **Legend** auto-generated showing ticker names with colors
+- **Title hidden** (legend is sufficient for multi-ticker charts)
+
+This matches the dashboard's "Show % Basis" mode.
+
+### Manual export (alternative)
+
+If you need interactive configuration:
+1. Open `http://localhost:5000` in browser
+2. Configure chart (tickers, date range, overlays)
+3. Right-click → "Export as PNG" or use `ChartExport.exportToPNG(chart, { filename: 'name.png' })`
+4. Move to `investing/attachments/`
+
+### Naming conventions
+
+| Pattern | Example |
+|---------|---------|
+| Single ticker | `aapl-price-chart.png` |
+| Comparison | `tsmc-vs-samsung-foundry.png` |
+| With date range | `nvda-2024-rally.png` |
+| Event-specific | `saks-bond-prices-collapse-2025-2026.png` |
+
+### When charts need updating
+
+```bash
+# Re-export with same filename to overwrite
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&start=2020-01-01" \
+  -o investing/attachments/aapl-price-chart.png
+```
+
+**Do NOT regenerate charts with matplotlib** — it produces inconsistent styling.
+
 ## Pending Design Decisions
 
 ### Short interest charting integration
@@ -362,11 +443,27 @@ The goal is enriching existing notes with new information, not just logging to d
 User shares news →
   1. Find the EVENT date (not article publication date)
   2. Update/create relevant actor notes
-  3. Add summary to correct daily note (create if needed)
-  4. Update thesis implications if relevant
+  3. Check for discrete events → create Event notes if warranted
+  4. Add summary to correct daily note (create if needed)
+  5. Update thesis implications if relevant
 ```
 
 **Why this matters:** Daily notes are the changelog. Events should be logged on the day they happened, not when we read about them.
+
+### Check for events
+
+When processing news, ask: **is there a discrete, dated occurrence?**
+
+| Signal | Action |
+|--------|--------|
+| Specific date + major action (deal signed, policy announced, filing made) | Create Event note |
+| M&A, bankruptcy, IPO, major funding, product launch | Create Event note |
+| Ongoing trend or dynamic | Concept note instead |
+| Incremental news about existing event | Update existing Event note |
+
+**Don't wait to be asked.** If news contains event-worthy material, propose Event notes proactively.
+
+See "Events vs Actor sections" below for full criteria and Event note structure.
 
 ## Conventions
 
@@ -388,6 +485,11 @@ Daily notes follow this structure:
 6. **Sources**: Articles referenced
 
 **Vault activity is mandatory** — provides a changelog for research continuity across sessions.
+
+**Always journal vault changes.** Every time you create or modify notes, update the appropriate daily note's Vault activity section before finishing the task. This applies to:
+- New actor, concept, event, or thesis notes
+- Significant edits to existing notes (new sections, data updates, link additions)
+- Don't log trivial fixes (typos, formatting)
 
 When adding news, always consider which thesis it supports or challenges.
 
@@ -728,9 +830,17 @@ cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | sed
 
 **WARNING:** Do NOT use `xargs basename -a` — it splits on spaces and corrupts filenames like "10x Genomics.md" into separate tokens. The `sed` approach above is safe.
 
-### After creating new actors
+### After creating/updating notes
 
-**Retroactively link existing mentions.** When you create a new actor, search the vault for unlinked mentions and add `[[wikilinks]]`:
+**Always complete these steps:**
+
+1. **Journal** — update today's daily note Vault activity (Created/Modified tables)
+2. **Link mentions** — search for unlinked text mentions, convert to `[[wikilinks]]`
+3. **Add backlinks** — update Related sections of connected notes to link back to new note
+
+#### Link mentions
+
+Search the vault for unlinked mentions and add `[[wikilinks]]`:
 
 ```bash
 cd /c/Users/klein/financial-charts/investing && grep -riE "xpeng|XPENG" --include="*.md"
@@ -742,6 +852,18 @@ Then update unlinked mentions (e.g., `Xpeng` → `[[Xpeng]]`, `XPENG` → `[[Xpe
 - Section headers (e.g., `### China — Xpeng Aeroht IPO`)
 - Source URLs and markdown link text
 - Note titles (the `# Title` line)
+
+#### Add backlinks
+
+When creating a note, also update Related sections of connected notes to point back:
+
+| New note | Add backlink to |
+|----------|-----------------|
+| Actor | Investors, competitors, sector hubs |
+| Event | All actors involved |
+| Concept | Actors that exemplify it |
+
+**Example:** Created [[Stretto]] → add to [[Saks bankruptcy]] Related section
 
 ## Actor conventions
 
