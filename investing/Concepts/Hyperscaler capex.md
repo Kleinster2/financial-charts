@@ -94,14 +94,32 @@ GPU-native cloud providers built for AI workloads. Smaller than hyperscalers but
 
 Largest neocloud. GPU-collateralized debt model unprecedented in tech. $14B Meta deal anchors backlog.
 
+### SemiAnalysis ClusterMAX tiers
+
+| Tier | Players |
+|------|---------|
+| **Platinum** | CoreWeave (only) |
+| **Gold** | Nebius, Oracle, Azure, Crusoe, [[FluidStack]] |
+| **Silver** | AWS, Lambda, Scaleway |
+
 ### Other neoclouds
 
 | Player | Status | Notes |
 |--------|--------|-------|
-| **Lambda Labs** | Private | Developer-first, modular ML stack |
-| **Crusoe** | Private | 45GW pipeline (ambitious), energy partnerships |
-| **Nebius** | Public (NBIS) | Yandex spin-off, European focus |
+| **Lambda Labs** | Private | Developer-first, $480M Series D (Feb 2025) |
+| **Crusoe** | Private | 45GW pipeline, flare gas / stranded renewables |
+| **Nebius** | Public (NBIS) | Yandex spin-off, $750M-$1B ARR target |
+| **[[FluidStack]]** | Private | Anthropic ops partner, Gold tier |
+| **Nscale** | Private | NVIDIA-backed, Stargate Norway (100K GPUs by 2026) |
+| **Voltage Park** | Private | Significant GPU capacity |
 | **Together AI** | Private | Training/inference platform |
+| **Vultr** | Private | Established, broad GPU offering |
+| **Civo** | Private | UK-based |
+| **Scaleway** | — | European, Silver tier |
+| **RunPod** | Private | Budget ($1.74/hr H100) |
+| **Vast.ai** | Private | Marketplace model |
+
+**Pricing range:** H100 varies 4x across providers ($1.45-$6.15/hr). CoreWeave commands premium.
 
 **Cost breakdown (per Nebius):**
 - GPUs: **80%** of spending
@@ -111,6 +129,8 @@ Largest neocloud. GPU-collateralized debt model unprecedented in tech. $14B Meta
 ### Neocloud risk
 
 Early 2026 sentiment shifting from "build it and they will come" to ROIC focus. CoreWeave trading at discount to 2025 highs. Lambda/Together IPO windows narrowing.
+
+**Market size:** GPU-as-a-service was $3.2B (2023) → projected $49.8B (2032), 36% CAGR.
 
 See [[CoreWeave]] for detailed analysis.
 
