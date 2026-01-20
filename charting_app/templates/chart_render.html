@@ -203,6 +203,18 @@
                             priceFormat: priceFormat
                         });
                         historicalSeries.setData(historicalData);
+
+                        // Add dot at forecast transition point
+                        if (forecastData.length > 0) {
+                            const lastPoint = historicalData[historicalData.length - 1];
+                            LightweightCharts.createSeriesMarkers(historicalSeries, [{
+                                time: lastPoint.time,
+                                position: 'inBar',
+                                color: color,
+                                shape: 'circle',
+                                size: 2
+                            }]);
+                        }
                     }
 
                     // Forecast series (dotted line)
