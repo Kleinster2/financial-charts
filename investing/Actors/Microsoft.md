@@ -119,6 +119,12 @@ See [[AI datacenter architecture]] for full design patterns.
 
 ---
 
+## TCJA repatriation (2018)
+
+Microsoft repatriated ~$130B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and acquisitions (including LinkedIn, GitHub era).
+
+---
+
 ## Short interest history (quarterly)
 
 | Quarter | SI % float | Stock | Note |
@@ -168,3 +174,4 @@ See [[Short interest]] for interpretation framework.
 - [[Quantum computing]] — bet (topological qubits, Majorana 1)
 - [[AI datacenter architecture]] — Fairwater campus design
 - [[GPU deployment bottleneck]] — Satya's "can't plug in" quote
+- [[Tax Cuts and Jobs Act]] — ~$130B repatriation (2018)

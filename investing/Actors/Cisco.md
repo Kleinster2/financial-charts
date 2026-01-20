@@ -42,6 +42,12 @@ Largest networking company, AI pivot:
 
 ---
 
+## TCJA repatriation (2018)
+
+Cisco held ~$70B overseas pre-[[Tax Cuts and Jobs Act]]. Repatriated $67B and deployed primarily into buybacks.
+
+---
+
 ## Splunk acquisition
 
 **$28B deal (2024):**
@@ -114,4 +120,5 @@ Legacy strength, AI weakness.
 - [[Juniper Networks]] — competitor (being acquired by HPE)
 - [[Microsoft]] — customer (enterprise)
 - [[AI hyperscalers]] — lost share to Arista
+- [[Tax Cuts and Jobs Act]] — $67B repatriation (2018)
 

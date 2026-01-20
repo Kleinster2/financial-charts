@@ -72,6 +72,12 @@ aliases: [JNJ, J&J]
 
 ---
 
+## TCJA repatriation (2018)
+
+J&J repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into diversified purposes including M&A and dividends.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -107,6 +113,7 @@ aliases: [JNJ, J&J]
 - [[Eli Lilly]] — pharma peer
 - [[Pfizer]] — pharma peer
 - [[Medtronic]] — MedTech peer
+- [[Tax Cuts and Jobs Act]] — repatriation (2018)
 
 ---
 

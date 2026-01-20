@@ -94,6 +94,12 @@ See [[Why Samsung's aggression may be rational]] for context on TSMC overflow.
 
 ---
 
+## TCJA repatriation (2018)
+
+Qualcomm repatriated ~$30B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and the attempted [[NXP]] acquisition (blocked by China).
+
+---
+
 ## Key events
 
 ### NXP acquisition blocked (2018)
@@ -146,3 +152,4 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 - [[NVIDIA]] — competitor (automotive AI)
 - [[Weaponized antitrust]] — context (China blocked NXP deal)
 - [[Why Samsung's aggression may be rational]] — context (TSMC overflow)
+- [[Tax Cuts and Jobs Act]] — ~$30B repatriation (2018)

@@ -175,11 +175,21 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 |--------|-------|
 | Ticker | AVGO (NASDAQ) |
 | Market cap | ~$1.1T |
-| Revenue (FY25) | ~$52B |
+| Revenue (FY25) | ~$64B |
+| Revenue (FY26E) | ~$97B |
+| Revenue (FY27E) | ~$133B |
 | AI revenue (FY25) | ~$14.5B |
 | AI revenue (F27E) | $100B (Citi) |
 | Gross margin | ~65% |
 | Dividend yield | ~1.1% |
+
+*Updated 2026-01-20*
+
+![[avgo-price-chart.png]]
+
+![[avgo-fundamentals.png]]
+
+*Note: The 2017/2018 profit spike reflects one-time tax benefits from the [[Tax Cuts and Jobs Act]] (Dec 2017), not operating performance.*
 
 ---
 

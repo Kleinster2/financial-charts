@@ -111,6 +111,12 @@ Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies en
 
 ---
 
+## TCJA repatriation (2018)
+
+Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into aggressive M&A spree.
+
+---
+
 ## Financial position
 
 | Metric | Value |
@@ -166,3 +172,4 @@ Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies en
 - [[Nuclear power for AI]] — Larry Ellison's DC vision
 - [[BYOP]] — power strategy context
 - [[AI hyperscalers]] — category (tier 2)
+- [[Tax Cuts and Jobs Act]] — ~$35B repatriation (2018)

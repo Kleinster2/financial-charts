@@ -167,6 +167,12 @@ Waymo is most relevant — potential robotaxi monetization.
 
 ---
 
+## TCJA repatriation (2018)
+
+Alphabet repatriated ~$50B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed primarily into buybacks.
+
+---
+
 ## Short interest history (quarterly)
 
 | Quarter | SI % float | Stock | Note |
@@ -225,3 +231,4 @@ See [[Short interest]] for interpretation framework.
 - [[Power constraints]] — infrastructure constraint
 - [[Hyperscaler disintermediation]] — Broadcom risk
 - [[Demis Hassabis]] — DeepMind CEO
+- [[Tax Cuts and Jobs Act]] — ~$50B repatriation (2018)

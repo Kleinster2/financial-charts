@@ -72,6 +72,12 @@ aliases: [AMGN]
 
 ---
 
+## TCJA repatriation (2018)
+
+Amgen repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed primarily into buybacks.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -104,6 +110,7 @@ aliases: [AMGN]
 - [[Novo Nordisk]] — GLP-1 leader
 - [[Eli Lilly]] — GLP-1 competitor
 - [[Biopharma]] — sector
+- [[Tax Cuts and Jobs Act]] — repatriation (2018)
 
 ---
 
