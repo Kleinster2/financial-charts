@@ -10,10 +10,12 @@
 
 | Metric | Value |
 |--------|-------|
-| Price | **~$72-74/oz** |
+| Price | **$90.42/oz** (Jan 16) |
 | 2025 return | **+150%** (strongest year on record) |
 | Start of 2025 | ~$30/oz |
 | 2026 bull target | $100/oz |
+
+**Jan 16, 2026:** Silver broke above $90 for the first time ever (+3.5% on day).
 
 ---
 
@@ -181,7 +183,7 @@ See [[Rare earth leverage]] for China's export control strategy.
 
 ---
 
-*Updated 2026-01-05*
+*Updated 2026-01-17*
 
 ---
 

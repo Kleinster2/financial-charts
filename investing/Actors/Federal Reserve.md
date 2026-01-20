@@ -72,24 +72,26 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 ### Leading candidates
 
-| Candidate | Odds (Jan 2026) | Background | Concern |
-|-----------|-----------------|------------|---------|
-| [[Kevin Hassett]] | 40-50% | NEC Director, daily Trump contact | Independence |
-| [[Kevin Warsh]] | 39-41% | Former Fed Governor, Morgan Stanley | 15 years away |
+| Candidate | Odds | Background | Concern |
+|-----------|------|------------|---------|
+| [[Kevin Warsh]] | **60%** | Former Fed Governor, Morgan Stanley | 15 years away |
+| [[Kevin Hassett]] | **16%** | NEC Director, daily Trump contact | Independence |
+| Michelle Bowman | — | Current Fed Governor | — |
+| Chris Waller | — | Current Fed Governor | — |
+| Rick Rieder | — | BlackRock CIO Fixed Income | Interviewed Jan 15 |
 
-**Trump (Dec 2025):** "I think you have Kevin and Kevin. They're both — I think the two Kevins are great."
+### Odds history
 
-### Other candidates mentioned
-
-| Name | Role |
-|------|------|
-| Chris Waller | Current Fed Governor |
-| Rick Rieder | BlackRock CIO Fixed Income |
+| Date | Warsh | Hassett | Event |
+|------|-------|---------|-------|
+| Jan 14 | 39-41% | 40-50% | "Battle of the Kevins" |
+| **Jan 16** | **60%** | **16%** | Trump: "I want to keep you where you are" (to Hassett) |
 
 ### Market view
 
-- **Warsh:** "Goldilocks" — Fed experience + market credibility + independence
-- **Hassett:** Trump trust but independence concerns
+- **Warsh now front-runner:** Bond yields rose on Jan 16 — Warsh seen as more hawkish
+- **Hassett fading:** Trump signaled he wants him to stay at NEC
+- **Key risk:** Too-dovish chair could trigger bond vigilante response
 - **Key risk:** Too-dovish chair could trigger bond vigilante response
 
 **Wall Street view:**

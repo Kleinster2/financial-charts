@@ -17,6 +17,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 ## Key events
 
+- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas HBM packaging facility.
 - [[Samsung Taylor pivot]] — the 4nm→2nm mid-construction leap
 
 ## Open questions

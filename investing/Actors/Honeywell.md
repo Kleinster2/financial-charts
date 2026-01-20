@@ -52,10 +52,24 @@ Honeywell Forge platform uses AI for building optimization.
 |--------|-------|
 | Ownership | Honeywell majority |
 | Technology | Trapped-ion quantum |
-| Customers | Enterprise, government |
-| Valuation | $5B+ (2024) |
+| Customers | Honeywell, Airbus, BMW, HSBC, JPMorgan |
+| Last valuation | $10B (Sep 2025) |
+| **IPO target** | **$20B+** (Jan 2026 filing) |
 
 Leading commercial quantum computing company.
+
+### IPO filing (Jan 14, 2026)
+
+| Detail | Value |
+|--------|-------|
+| Filing | Confidential S-1 to SEC |
+| Target valuation | **$20B+** |
+| Expected raise | ~$1B |
+| Timing | Q1-Q2 2026 |
+
+**Significance:** First major quantum computing IPO. Validates commercial quantum thesis.
+
+**Stock reaction:** HON +1.6% on news.
 
 ---
 
@@ -98,12 +112,13 @@ Benefits from commercial aviation recovery.
 | Dividend yield | ~2% |
 | HQ | Charlotte |
 
-*Created 2026-01-06*
+*Updated 2026-01-17*
 
 ---
 
 ## Related
 
+- [[Quantinuum]] — quantum computing unit (IPO filing Jan 2026)
 - [[Rockwell Automation]] — peer (industrial automation)
 - [[Siemens]] — peer (building tech, industrial)
 - [[Microsoft]] — partner (quantum via Azure)
