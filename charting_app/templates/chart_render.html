@@ -84,7 +84,7 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, normalize, isFundamentals } = config;
+            const { data, title, width, height, showTitle, normalize, isFundamentals, forecastStart } = config;
 
             // Set title (hide if legend is sufficient: normalized multi-ticker or fundamentals)
             const titleEl = document.getElementById('title');
@@ -176,22 +176,71 @@
                     priceFormat = { type: 'price', precision: 2, minMove: 0.01 };
                 }
 
-                const series = chart.addSeries(LightweightCharts.LineSeries, {
-                    color: color,
-                    lineWidth: 2,
-                    lastValueVisible: false,
-                    priceLineVisible: false,
-                    crosshairMarkerVisible: false,
-                    priceFormat: priceFormat
-                });
-
                 // Convert data format, apply rebasing if normalize=true
                 const chartData = normalize ? rebaseData(points) : points.map(p => ({
                     time: p.time,
                     value: p.value
                 }));
 
-                series.setData(chartData);
+                // Split into historical and forecast if forecastStart is provided
+                if (forecastStart) {
+                    const historicalData = chartData.filter(p => p.time < forecastStart);
+                    const forecastData = chartData.filter(p => p.time >= forecastStart);
+
+                    // Add last historical point to forecast for continuity
+                    if (historicalData.length > 0 && forecastData.length > 0) {
+                        forecastData.unshift(historicalData[historicalData.length - 1]);
+                    }
+
+                    // Historical series (solid line)
+                    if (historicalData.length > 0) {
+                        const historicalSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            lastValueVisible: false,
+                            priceLineVisible: false,
+                            crosshairMarkerVisible: false,
+                            priceFormat: priceFormat
+                        });
+                        historicalSeries.setData(historicalData);
+
+                        // Add big dot at last historical point
+                        const lastPoint = historicalData[historicalData.length - 1];
+                        historicalSeries.setMarkers([{
+                            time: lastPoint.time,
+                            position: 'inBar',
+                            color: color,
+                            shape: 'circle',
+                            size: 2
+                        }]);
+                    }
+
+                    // Forecast series (dotted line)
+                    if (forecastData.length > 0) {
+                        const forecastSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            lineStyle: 1,  // Dotted
+                            lastValueVisible: false,
+                            priceLineVisible: false,
+                            crosshairMarkerVisible: false,
+                            priceFormat: priceFormat
+                        });
+                        forecastSeries.setData(forecastData);
+                    }
+                } else {
+                    // No forecast split - single solid line
+                    const series = chart.addSeries(LightweightCharts.LineSeries, {
+                        color: color,
+                        lineWidth: 2,
+                        lastValueVisible: false,
+                        priceLineVisible: false,
+                        crosshairMarkerVisible: false,
+                        priceFormat: priceFormat
+                    });
+                    series.setData(chartData);
+                }
+
                 colorIndex++;
             }
 

@@ -2852,6 +2852,7 @@ def get_chart_lw():
         normalize: Rebase all tickers to 0% at start (optional, default false)
         metrics: Fundamentals metrics to chart instead of price (optional)
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
+        forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
 
     Returns: PNG image
     """
@@ -2875,9 +2876,10 @@ def get_chart_lw():
     end_date = request.args.get('end', '')
     title = request.args.get('title', ', '.join(tickers))
     width = int(request.args.get('width', 1200))
-    height = int(request.args.get('height', 600))
+    height = int(request.args.get('height', 800))
     show_title = request.args.get('show_title', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
+    forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
     metrics_param = request.args.get('metrics', '').strip().lower()
 
     # Fundamentals metric mapping
@@ -2952,7 +2954,8 @@ def get_chart_lw():
                 'height': height,
                 'showTitle': show_title,
                 'normalize': normalize,
-                'isFundamentals': True
+                'isFundamentals': True,
+                'forecastStart': forecast_start if forecast_start else None
             }
 
             # Render with Playwright
@@ -3044,7 +3047,8 @@ def get_chart_lw():
             'width': width,
             'height': height,
             'showTitle': show_title,
-            'normalize': normalize
+            'normalize': normalize,
+            'forecastStart': forecast_start if forecast_start else None
         }
 
         # Get the HTML template path
