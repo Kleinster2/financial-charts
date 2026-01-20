@@ -24,17 +24,19 @@ Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packag
 
 ![[hyperscaler-capex.png]]
 
-*Solid lines = actual; dotted = forecast based on company guidance*
+*Solid lines = actual; dotted = forecasts based on company guidance and analyst estimates*
 
 **2026 forecast (annual):**
 
-| Hyperscaler | 2025 Guidance | 2026 Forecast | YoY |
-|-------------|---------------|---------------|-----|
-| **AMZN** | $125B | ~$150B | +20% |
-| **GOOG** | $93B | ~$115B | +24% |
-| **META** | $71B | ~$100B | +41% |
-| **MSFT** | ~$66B | ~$100B | +52% |
-| **Total** | **$355B** | **~$465B** | **+31%** |
+| Hyperscaler | 2025 Guidance | 2026 Estimate | Source |
+|-------------|---------------|---------------|--------|
+| **AMZN** | $125B | ~$150B | CFO: "will grow in 2026" |
+| **GOOG** | $93B | ~$115B | CFO: "significant increase" |
+| **META** | $72B | ~$100B | CFO: "notably larger" |
+| **MSFT** | $80B | $121-140B | Jefferies, Cantor |
+| **Big 5** | ~$443B | **~$602B** | CreditSights (+36% YoY) |
+
+*Note: Big 5 includes Oracle (~$15B). Goldman Sachs projects $527B+.*
 
 **2025 context:**
 
