@@ -28,6 +28,15 @@
             color: rgba(0,0,0,0.3);
             z-index: 100;
         }
+        .last-date {
+            position: absolute;
+            bottom: 10px;
+            left: 16px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            z-index: 100;
+        }
         .legend {
             position: absolute;
             top: 62px;
@@ -58,6 +67,7 @@
     <div id="chart"></div>
     <div class="title" id="title"></div>
     <div class="legend" id="legend"></div>
+    <div class="last-date" id="lastDate"></div>
     <div class="watermark">Financial Charts</div>
 
     <script>
@@ -84,7 +94,31 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, normalize, isFundamentals, forecastStart, labels } = config;
+            const { data, title, width, height, showTitle, showLastDate, normalize, isFundamentals, forecastStart, labels } = config;
+
+            // Find last date across all series (will add to legend later)
+            // For fundamentals with forecast, find last ACTUAL date (before forecastStart)
+            let lastDateFormatted = null;
+            if (showLastDate !== false) {
+                let maxDate = null;
+                for (const points of Object.values(data)) {
+                    if (points && points.length > 0) {
+                        for (const pt of points) {
+                            // For fundamentals with forecast, only consider dates before forecastStart
+                            if (isFundamentals && forecastStart && pt.time >= forecastStart) continue;
+                            if (!maxDate || pt.time > maxDate) {
+                                maxDate = pt.time;
+                            }
+                        }
+                    }
+                }
+                if (maxDate) {
+                    const d = new Date(maxDate + 'T00:00:00');
+                    lastDateFormatted = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                }
+            }
+            // Hide standalone date element (now in legend)
+            document.getElementById('lastDate').style.display = 'none';
 
             // Set title (hide if legend is sufficient: normalized multi-ticker or fundamentals)
             const titleEl = document.getElementById('title');
@@ -195,10 +229,11 @@
 
                     // Historical series (solid line)
                     if (historicalData.length > 0) {
+                        const showLastValue = forecastData.length > 0 && isFundamentals;
                         const historicalSeries = chart.addSeries(LightweightCharts.LineSeries, {
                             color: color,
                             lineWidth: 2,
-                            lastValueVisible: false,
+                            lastValueVisible: showLastValue,
                             priceLineVisible: false,
                             crosshairMarkerVisible: false,
                             priceFormat: priceFormat
@@ -245,6 +280,17 @@
                 }
 
                 colorIndex++;
+            }
+
+            // Add date to legend after tickers
+            if (lastDateFormatted) {
+                const dateItem = document.createElement('div');
+                dateItem.className = 'legend-item';
+                dateItem.style.color = '#666';
+                // For fundamentals with forecast, show "Actual: date"
+                const prefix = (isFundamentals && forecastStart) ? 'Actual: ' : '';
+                dateItem.innerHTML = `<span>${prefix}${lastDateFormatted}</span>`;
+                legendEl.appendChild(dateItem);
             }
 
             // Delay fitContent to ensure data is rendered

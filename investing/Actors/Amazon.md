@@ -19,15 +19,25 @@ Amazon is central to multiple vault theses:
 
 ---
 
+## Charts
+
+![[amzn-90d.png]]
+
+![[amzn-vs-qqq.png]]
+
+![[amzn-fundamentals.png]]
+
+---
+
 ## Custom chip portfolio
 
 ### Trainium (AI training/inference)
-| Generation | Node | Status | Key specs |
-|------------|------|--------|-----------|
-| Trainium1 | 7nm | Legacy | First gen |
-| Trainium2 | 5nm | Shipping (Dec 2024) | NeuronCore-v3 |
+| Generation    | Node    | Status                  | Key specs                              |
+| ------------- | ------- | ----------------------- | -------------------------------------- |
+| Trainium1     | 7nm     | Legacy                  | First gen                              |
+| Trainium2     | 5nm     | Shipping (Dec 2024)     | NeuronCore-v3                          |
 | **Trainium3** | **3nm** | **Shipping (Dec 2025)** | 2.52 PFLOPs FP8, 144GB HBM3e, 4.9 TB/s |
-| Trainium4 | TBD | Development | NVLink Fusion support |
+| Trainium4     | TBD     | Development             | [[NVLink]] Fusion support              |
 
 **Trainium3 UltraServer**: 144 chips per server, scales to 1M chips (10x previous gen), 40% more energy efficient.
 
@@ -81,12 +91,12 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 ## Partnerships
 
-| Partner | Relationship |
-|---------|--------------|
-| [[Anthropic]] | $8B investor, cloud partner, 1M chips |
-| [[NVIDIA]] | 15-year collaboration, NVLink Fusion coming |
-| [[Marvell]] | Trainium/Inferentia design partner |
-| OpenAI | Potential $10B investment (reported) |
+| Partner       | Relationship                                |
+| ------------- | ------------------------------------------- |
+| [[Anthropic]] | $8B investor, cloud partner, 1M chips       |
+| [[NVIDIA]]    | 15-year collaboration, NVLink Fusion coming |
+| [[Marvell]]   | Trainium/Inferentia design partner          |
+| [[OpenAI]]    | Potential $10B investment (reported)        |
 
 ---
 
@@ -182,7 +192,7 @@ See [[Short interest]] for interpretation framework.
 | P/E | ~45x |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-01-18*
+*Updated 2026-01-20*
 
 ## Related
 

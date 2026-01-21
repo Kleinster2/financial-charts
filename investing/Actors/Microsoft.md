@@ -13,6 +13,16 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ---
 
+## Charts
+
+![[msft-90d.png]]
+
+![[msft-vs-qqq.png]]
+
+![[msft-fundamentals.png]]
+
+---
+
 ## Chip strategy
 
 - Massive [[NVIDIA]] buyer (OpenAI infrastructure)

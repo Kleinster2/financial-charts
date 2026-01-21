@@ -15,6 +15,16 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ---
 
+## Charts
+
+![[aapl-90d.png]]
+
+![[aapl-vs-qqq.png]]
+
+![[aapl-fundamentals.png]]
+
+---
+
 ## Key strengths
 
 - **Silicon design**: Best-in-class mobile SoCs, now expanding to Mac (M-series)

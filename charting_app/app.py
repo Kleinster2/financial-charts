@@ -2871,6 +2871,7 @@ def get_chart_lw():
         width: Image width in pixels (optional, default 1200)
         height: Image height in pixels (optional, default 600)
         show_title: Show title on chart (optional, default true)
+        show_last_date: Show last data date in bottom-left (optional, default true)
         normalize: Rebase all tickers to 0% at start (optional, default false)
         metrics: Fundamentals metrics to chart instead of price (optional)
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
@@ -2901,6 +2902,7 @@ def get_chart_lw():
     width = int(request.args.get('width', 1200))
     height = int(request.args.get('height', 800))
     show_title = request.args.get('show_title', 'true').lower() != 'false'
+    show_last_date = request.args.get('show_last_date', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
     labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
@@ -2987,6 +2989,7 @@ def get_chart_lw():
                 'width': width,
                 'height': height,
                 'showTitle': show_title,
+                'showLastDate': show_last_date,
                 'normalize': normalize,
                 'isFundamentals': True,
                 'forecastStart': forecast_start if forecast_start else None,
@@ -3082,6 +3085,7 @@ def get_chart_lw():
             'width': width,
             'height': height,
             'showTitle': show_title,
+            'showLastDate': show_last_date,
             'normalize': normalize,
             'forecastStart': forecast_start if forecast_start else None,
             'labels': labels if labels else None

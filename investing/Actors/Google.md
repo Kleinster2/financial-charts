@@ -21,6 +21,16 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
+## Charts
+
+![[goog-90d.png]]
+
+![[goog-vs-qqq.png]]
+
+![[goog-fundamentals.png]]
+
+---
+
 ## DeepMind / Gemini
 
 **Google's AI research arm:**

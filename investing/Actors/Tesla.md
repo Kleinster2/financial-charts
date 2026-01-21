@@ -13,6 +13,16 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+## Charts
+
+![[tsla-90d.png]]
+
+![[tsla-vs-qqq.png]]
+
+![[tsla-fundamentals.png]]
+
+---
+
 ## Custom silicon
 
 - **Dojo**: Custom AI training chip for FSD (Full Self-Driving)

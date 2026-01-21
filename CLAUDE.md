@@ -82,8 +82,15 @@ After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
 
 **ALWAYS use the charting app API. NEVER use matplotlib or other tools.**
 
-> **⚠️ Before regenerating any chart, READ the existing image first.**
-> Check if it has a benchmark comparison (e.g., vs QQQ, SMH) — don't overwrite with a simpler single-ticker version.
+> **🚨 CRITICAL: NEVER overwrite existing chart files without asking first.**
+>
+> Before touching ANY existing chart:
+> 1. **READ the existing image** to see what's there
+> 2. **ASK the user** before making changes
+>
+> Existing charts may have levered benchmarks (e.g., SMH_1_44X), custom date ranges, or other carefully chosen parameters that are NOT obvious from the filename. Overwriting destroys this work.
+>
+> **No exceptions. Always ask.**
 
 ### Headless export via API (preferred)
 

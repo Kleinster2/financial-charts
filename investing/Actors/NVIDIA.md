@@ -11,6 +11,16 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 
 ---
 
+## Charts
+
+![[nvda-90d.png]]
+
+![[nvda-vs-smh.png]]
+
+![[nvda-fundamentals.png]]
+
+---
+
 ## Key strengths
 
 - **CUDA ecosystem**: 10+ years of libraries, tools, developer knowledge

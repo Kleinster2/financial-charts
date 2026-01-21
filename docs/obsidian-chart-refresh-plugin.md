@@ -35,34 +35,61 @@ Automatically refresh chart images when a note is opened, fetching fresh data fr
 
 ## Design
 
-### Filename convention
+### Decision: Hybrid approach
 
-Charts encode parameters in filename:
+**Filename parsing first, registry fallback.** Most charts are simple enough to parse from filename. Complex cases go in a central registry.
 
-```
-{ticker}-price-chart.png          → /api/chart/lw?tickers={ticker}
-{ticker}-vs-{ticker2}.png         → /api/chart/lw?tickers={ticker},{ticker2}&normalize=true
-{ticker}-fundamentals.png         → /api/chart/lw?tickers={ticker}&metrics=revenue,netincome
-hyperscaler-capex.png             → /api/chart/lw?tickers=AMZN,GOOG,META,MSFT&metrics=capex
-```
+### Filename conventions
 
-### Alternative: Frontmatter mapping
+**Auto-refresh (price charts):**
+
+| Pattern | Example | Result |
+|---------|---------|--------|
+| Single ticker | `aapl-price-chart.png` | `tickers=AAPL` |
+| With start year | `aapl-price-chart-2020.png` | `tickers=AAPL&start=2020-01-01` |
+| 2-way comparison | `aapl-vs-qqq.png` | `tickers=AAPL,QQQ&normalize=true` |
+| 2-way + year | `aapl-vs-qqq-2020.png` | `tickers=AAPL,QQQ&normalize=true&start=2020-01-01` |
+| N-way comparison | `nvda-vs-amd-vs-intc.png` | `tickers=NVDA,AMD,INTC&normalize=true` |
+| N-way + year | `amzn-vs-goog-vs-meta-vs-msft-2019.png` | `tickers=AMZN,GOOG,META,MSFT&normalize=true&start=2019-01-01` |
+
+**Excluded from auto-refresh (fundamentals charts):**
+
+| Pattern | Example | Why excluded |
+|---------|---------|--------------|
+| Fundamentals | `aapl-fundamentals.png` | Data only changes on earnings |
+| Fundamentals + year | `aapl-fundamentals-2019.png` | Regenerate manually via curl |
+
+**Parsing rules:**
+- `-fundamentals` in filename → skip auto-refresh
+- Split on `-vs-` → each segment is a ticker (implies `normalize=true`)
+- Four-digit suffix → start year (January 1)
+- `-price-chart` suffix → price only (no metrics)
+- Ticker extracted from first segment, uppercased
+
+### Registry fallback
+
+For price charts that can't be parsed (ambiguous tickers, non-January start), use `investing/chart-registry.md`:
 
 ```yaml
 ---
 charts:
-  aapl-price-chart.png:
-    tickers: AAPL
-    start: 2020-01-01
-  aapl-vs-qqq.png:
-    tickers: AAPL,QQQ
+  arm-holdings-price-chart.png:
+    tickers: ARM
+    start: 2023-09-14
+  hyperscaler-price-comparison.png:
+    tickers: AMZN,GOOG,META,MSFT
     normalize: true
+    start: 2020-01-01
 ---
 ```
 
-Frontmatter is more explicit but requires maintenance.
+Note: Fundamentals charts don't go in the registry — they're excluded from auto-refresh entirely.
 
-**Recommendation:** Start with frontmatter mapping for explicitness. Consider filename parsing later.
+**Resolution order:**
+1. Has `metrics` or `-fundamentals` in filename → skip (no auto-refresh)
+2. Check registry — if found, use those params
+3. Parse filename — if parseable, use inferred params
+4. Skip — log warning, don't refresh
 
 ### Plugin structure
 
@@ -121,18 +148,25 @@ async function fetchChart(params: ChartParams): Promise<ArrayBuffer> {
 - Obsidian API (`obsidian` package)
 - Flask chart app running on localhost
 
+## Decisions made
+
+1. **Filename vs frontmatter?** → Hybrid. Filename parsing for common cases, registry fallback for complex ones.
+2. **Refresh on open vs on interval?** → On-open. Simpler, no background work.
+3. **Offline behavior?** → Skip refresh, use cached image, fail silently.
+4. **Price vs fundamentals charts?** → Only price charts auto-refresh. Fundamentals charts are static — regenerated manually after earnings updates via curl.
+5. **forecast_start?** → Not the plugin's concern. Handled manually when regenerating fundamentals charts.
+
 ## Open questions
 
-1. **Filename vs frontmatter?** Frontmatter is safer but more friction.
-2. **Refresh on open vs on interval?** On-open is simpler, avoids background work.
-3. **What about forecast_start?** Should auto-advance as time passes?
-4. **Offline behavior?** Skip refresh, use cached image.
+None. Ready for implementation.
 
 ## Next steps
 
-1. Decide filename vs frontmatter approach
-2. Scaffold plugin with `npm init obsidian-plugin`
-3. Implement core refresh logic
-4. Add settings UI
-5. Test with vault charts
-6. Consider publishing to community plugins
+1. ~~Decide filename vs frontmatter approach~~ ✓
+2. ~~Decide forecast_start handling~~ ✓
+3. Scaffold plugin with `npm init obsidian-plugin`
+4. Implement filename parser
+5. Implement core refresh logic (price charts only)
+6. Add settings UI
+7. Test with vault charts
+8. Consider publishing to community plugins

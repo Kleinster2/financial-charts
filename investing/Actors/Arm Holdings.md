@@ -20,6 +20,16 @@ Arm doesn't make chips — it licenses the architecture that others use:
 
 ---
 
+## Charts
+
+![[arm-90d.png]]
+
+![[arm-vs-smh.png]]
+
+![[arm-fundamentals.png]]
+
+---
+
 ## Business model
 
 **IP licensing:**
@@ -206,7 +216,7 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 | HQ | Cambridge, UK |
 | Owner | SoftBank (~90%) |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
 
 ---
 

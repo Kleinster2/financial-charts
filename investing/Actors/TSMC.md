@@ -17,6 +17,14 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 - [[Taiwan concentration risk]] — the elephant in the room
 - [[Advanced packaging]] — CoWoS monopoly, another moat beyond foundry
 
+## Charts
+
+![[tsm-90d.png]]
+
+![[tsm-price-chart.png]]
+
+![[tsm-fundamentals.png]]
+
 ## Key events
 
 - **US-Taiwan trade deal** (Jan 15, 2026) — Part of [[US-Taiwan relations]] breakthrough. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15%. TSMC commits to **4+ more US fabs** (~$100B additional capex).
