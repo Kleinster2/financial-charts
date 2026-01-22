@@ -60,6 +60,8 @@ ETF_TICKERS = [
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
     # Fixed income & alternative asset ETFs
     "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    # Global bonds (Dashboard)
+    "2510.T", "IGLT.L", "IBGL.L", "XLB.TO", "GOVT.AX", "CBON",
     # Multi-asset / risk parity ETFs
     "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
     # Commodities, currencies & volatility

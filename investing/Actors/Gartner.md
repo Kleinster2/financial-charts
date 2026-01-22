@@ -37,8 +37,31 @@ Gartner data useful for:
 - Enterprise IT spending trends
 - Cloud/AI adoption timing
 - Vendor positioning (competitive analysis)
+- **Semiconductor industry revenue** (annual reports)
 
 **Caveat**: Enterprise-focused. Less useful for consumer tech, memory pricing.
+
+---
+
+## Key data points (Jan 2026)
+
+### Semiconductor industry (Jan 12, 2026)
+
+| Metric | 2025 | YoY |
+|--------|------|-----|
+| **Total semi revenue** | **$793B** | **+21%** |
+| AI semiconductors | ~$264B | — |
+| AI share of total | ~1/3 | — |
+| **NVIDIA revenue** | **>$100B** | First semi to cross |
+| NVIDIA lead over Samsung | +$53B | — |
+
+### AI infrastructure forecast
+
+| Metric | 2026 forecast |
+|--------|---------------|
+| AI infrastructure spending | **>$1.3 trillion** |
+
+This data captured in [[Semiconductors]] sector note.
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "id": "chart-refresh",
+  "name": "Chart Refresh",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Auto-refresh chart images from local Flask API when notes are opened",
+  "author": "klein",
+  "isDesktopOnly": true
+}

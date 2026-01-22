@@ -302,7 +302,14 @@ See [[Wearable AI]] for competitive landscape.
 
 ## Related
 
-- [[ByteDance]] — competitor (Doubao has 172M MAU vs Qwen's 100M)
+### Subsidiaries/Products
+- [[Taobao]] — C2C e-commerce (892M MAU, ~51% China share)
+- [[Tmall]] — B2C e-commerce (brands)
+- [[Alipay]] — payments (1.3B users, Ant Group)
+- [[Cainiao]] — logistics
+
+### Competitors
+- [[ByteDance]] — competitor (Doubao has 159M MAU vs Qwen's 100M)
 - [[DeepSeek]] — competitor (Qwen vs R1)
 - [[Tencent]] — competitor (WeChat super app, similar agentic potential)
 - [[Hangzhou]] — headquarters city

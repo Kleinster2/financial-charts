@@ -81,12 +81,28 @@ See [[Japan Chikyu rare earth mission 2026-01]].
 
 See [[Japan Semiconductor Revival]].
 
+### FY2026 budget (Jan 2026)
+
+**Japan quadrupling AI/semiconductor spending:**
+
+| Metric | Value |
+|--------|-------|
+| FY2026 budget | **¥1.23T ($7.9B)** |
+| vs previous | **~4x increase** |
+| Rapidus allocation | ¥150B (total now ¥250B) |
+| Focus | Advanced semiconductors, AI |
+
+Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary deliberations ongoing.
+
+### Key initiatives
+
 | Initiative | Status |
 |------------|--------|
-| Rapidus | 2nm fab with IBM, IMEC |
-| TSMC Japan | Kumamoto fab operational |
+| [[Rapidus]] | 2nm fab with IBM, IMEC — mass production target 2027, ¥250B govt investment |
+| TSMC Japan | Kumamoto fab operational, 60% local procurement |
 | Equipment | Tokyo Electron, Screen Holdings |
 | Materials | JSR, Shin-Etsu dominant |
+| Strategy pivot | Advanced packaging (vs competing with TSMC on lithography)
 
 ---
 

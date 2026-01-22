@@ -115,6 +115,19 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
 
+### Handling losses in fundamentals charts
+
+Quarterly losses distort chart scale. **Always NULL them out and add a note below the chart:**
+
+```sql
+UPDATE income_statement_quarterly SET net_income = NULL WHERE ticker = 'MSFT' AND net_income < 0;
+```
+
+Then add italicized note below the chart in the note:
+```
+*Q2 2012 loss (-$492M, aQuantive writedown) excluded from chart.*
+```
+
 ### Adding forecasts to fundamentals charts
 
 > **⚠️ NEVER use WebFetch on Yahoo Finance analysis pages.**
@@ -300,13 +313,40 @@ See [[Note structures]] for the standard daily note template. **Vault activity i
 2. **X/Twitter lists** for commentary (Chips & Semiconductors, AI Infrastructure, SemiAnalysis)
 3. Add findings to daily note first, extract to actor/concept notes if substantial
 
+### Daily news search checklist
+
+When user asks for "today's news", cover these categories:
+
+| Category | Search terms |
+|----------|--------------|
+| **Markets** | "stock market news [date]" |
+| **Semiconductors** | "semiconductor chip news [date]" |
+| **AI/Tech** | "AI news [date]" |
+| **China macro** | "China economy news [date]" |
+| **China tech** | "China tech news [date]" |
+| **Fed/Rates** | "Federal Reserve news [date]" |
+| **Energy/Nuclear** | "energy power grid news [date]", "nuclear power news [date]" |
+| **Robotics** | "robotics humanoid news [date]" |
+| **Japan tech** | "Japan semiconductor news [date]" |
+| **Korea semis** | "Korea semiconductor memory news [date]" |
+| **Trade/Tariffs** | "tariffs trade war news [date]", "export controls [date]" |
+| **Europe** | "Europe tech news [date]", "ECB news [date]" |
+| **Earnings** | Check calendar for major reports |
+
+**Don't miss:** China domestic news (GDP, [[NDRC]], stimulus, regulatory) — often absent from US-focused searches.
+
 ## Key actors to track
 
-Foundry: [[TSMC]], [[Samsung]], [[Intel Foundry Services]], [[GlobalFoundries]]
-Memory: [[SK Hynix]], [[Micron]], [[Samsung]]
-GPU/AI: [[NVIDIA]], [[AMD]], [[Broadcom]]
-AI Labs: [[OpenAI]], [[Anthropic]], [[xAI]], [[Google DeepMind]]
-Equipment: [[ASML]], [[Applied Materials]], [[Lam Research]], [[Tokyo Electron]]
+The vault covers investing broadly. Key focus areas:
+
+- **AI stack** — chips, infrastructure, hyperscalers, AI labs, applications
+- **Semiconductors** — foundry, memory, equipment, fabless
+- **Robotics** — humanoids, automation, manufacturing
+- **China** — tech decoupling, industrial policy, geopolitics
+- **Energy** — power demand, grid, renewables, nuclear
+- **Manufacturing** — reshoring, industrial policy
+
+Plus macro, rates, media, and wherever there's signal.
 
 ## Note decisions
 

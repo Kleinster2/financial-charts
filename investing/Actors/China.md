@@ -6,6 +6,43 @@ State actor shaping semiconductor industry through industrial policy, export con
 
 ---
 
+## Macro snapshot
+
+### GDP
+
+| Year | Target | Actual | Notes |
+|------|--------|--------|-------|
+| 2025 Full Year | 5.0% | **5.0%** | Hit target |
+| 2025 Q4 | — | **4.5%** | Weakest in 3 years |
+| 2026 (Fitch) | — | 4.1% | Forecast |
+| 2026 (DB) | — | 4.5% | Forecast |
+
+### Investment collapse (Jan 2026)
+
+| Metric | 2025 | Notes |
+|--------|------|-------|
+| Fixed-asset investment | **-3.8%** | First annual decline in decades |
+| Property investment | **-17.2%** | 4th consecutive year of decline |
+| Residential sales | ¥7.3T | Lowest since 2015 |
+| Dec retail sales | **+0.9%** | Slowest since late 2022 |
+
+**Fitch warning:** Investment crash raising credit risks for homebuilders, banks, and local government financing vehicles (LGFVs).
+
+### Monetary policy
+
+**PBOC:** Held 1-year and 5-year LPR at 3%/3.5% — 8th consecutive month unchanged.
+
+### Stimulus (Jan 2026)
+
+**[[NDRC]] (Wang Changlin) announced new stimulus policies:**
+- Focus: **Services sector consumption** (not infrastructure/property)
+- Addressing supply-demand imbalances
+- Spread across 15th Five-Year Plan (2026-2030)
+
+Details TBD — watch for specifics on consumer subsidies, services support.
+
+---
+
 ## Why it matters
 
 China is central to every major semiconductor thesis:
@@ -201,7 +238,7 @@ Bulls on China exposure would say:
 
 ---
 
-*Updated 2026-01-19*
+*Updated 2026-01-21*
 
 ## Related
 

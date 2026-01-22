@@ -54,12 +54,27 @@ aliases: [European Union, EEC]
 
 | Metric | Value |
 |--------|-------|
-| Members | 20 |
+| Members | **21** (as of Jan 2026) |
 | Currency | Euro (€) |
 | Central bank | [[ECB]] |
 | GDP | ~$14T |
 
-**Not in eurozone:** Sweden, Denmark, Poland, Hungary, Czechia, Romania, Bulgaria
+**Bulgaria joined Jan 1, 2026** — 21st eurozone member. Expected to bring lower transaction costs and greater investor confidence for Bulgarian economy.
+
+**Not in eurozone:** Sweden, Denmark, Poland, Hungary, Czechia, Romania
+
+### ECB (Jan 2026)
+
+| Metric | Value |
+|--------|-------|
+| 2026 growth forecast | **1.2%** (upgraded from 1.0%) |
+| Dec 2025 inflation | 2.0% |
+| Core inflation | Slightly down |
+| Wage growth | Still elevated, expected to ease |
+
+**Digital euro:** Key parliamentary vote expected **H1 2026**. ECB aims to issue first digital euros in 2029 after 2027 pilot. Officials warn vote outcome could be close.
+
+**Project Pontes:** ECB initiative for tokenized asset settlement expected live H2 2026.
 
 ---
 

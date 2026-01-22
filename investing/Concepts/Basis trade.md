@@ -60,7 +60,7 @@ aliases: [Treasury basis trade, Cash-futures basis]
 - COVID market stress
 - Cash bonds underperformed futures (reverse of basis trade expectation)
 - Hedge funds forced to unwind + margin calls on futures
-- Foreign central banks dumping Treasuries to prop up currencies
+- Foreign central banks dumping [[Treasuries]] to prop up currencies
 - Dealers couldn't handle volume
 - Fed had to intervene
 

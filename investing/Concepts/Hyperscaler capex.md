@@ -57,6 +57,16 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 
 ~75% of 2026 capex (~$450B) is AI infrastructure.
 
+### Total AI infrastructure market (Gartner, Jan 2026)
+
+| Metric | 2026 forecast |
+|--------|---------------|
+| **Total AI infrastructure spending** | **>$1.3 trillion** |
+
+This includes hyperscalers, neoclouds, enterprises, and sovereign AI initiatives — not just Big 5.
+
+**Context:** 2025 semiconductor industry = $793B (+21%). AI chips = ~1/3 of total. See [[Semiconductors]].
+
 ---
 
 ## Oracle: fastest growth, most stress

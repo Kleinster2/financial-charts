@@ -154,7 +154,7 @@ def download_fred_indicators(tier='1', categories=None):
         print("\nLoading existing database...")
         existing_df = pd.read_sql("SELECT * FROM stock_prices_daily", conn)
         if not existing_df.empty and 'Date' in existing_df.columns:
-            existing_df['Date'] = pd.to_datetime(existing_df['Date'])
+            existing_df['Date'] = pd.to_datetime(existing_df['Date'], format='mixed')
             existing_df.set_index('Date', inplace=True)
 
         print(f"Merging with existing data ({len(existing_df)} rows)...")
