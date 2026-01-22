@@ -146,6 +146,40 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 ---
 
+## [[Guggenheim Partners]] "decade stock" thesis (Jan 2026)
+
+**John DiFucci's $400 price target** — 118% upside from $183 (Barron's, Jan 20, 2026):
+
+| Metric | DiFucci estimate |
+|--------|------------------|
+| 5-year capex need | ~$290B |
+| New borrowing by FY28 | ~$112B |
+| Total debt (post-raise) | >$200B |
+| FY30 revenue target | $166B |
+| Price target | $400 |
+
+**The capital math:**
+- $290B capex over 5 years to hit $166B revenue by 2030
+- ~$112B in new borrowing needed by FY28
+- Could issue equity instead (Ellison owns 41%, would dilute if value-accretive)
+- "Bring your own chip" deals — customers provide GPUs, cuts capex 45-65%
+
+**Why it works (per DiFucci):**
+- "Better mousetrap" — OCI built on AWS lessons
+- Enterprise-grade scaling/security "like no others can today"
+- "Hyper rate" growth, "waterfall" cash flows
+
+**OpenAI risk framing:**
+- OpenAI has $1.4T in commitments vs ~$13B annual revenue
+- But backstopped: Microsoft (27% stake, $135B), AMD chips-for-equity, potential Nvidia investment up to $100B
+- DiFucci: "With this risk comes significant opportunity"
+
+**Timeline:** "Decade stock" but numbers should be "irrefutable" in 5 years, "obvious long before that."
+
+*Stock lost ~$400B market cap in 4 months to Jan 2026. DiFucci sees this as entry point for long-horizon investors.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -173,6 +207,7 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 ## Related
 
+- [[Guggenheim Partners]] — DiFucci "decade stock" thesis ($400 PT)
 - [[Project Stargate]] — JV partner ($500B AI infrastructure)
 - [[SoftBank]] — Stargate co-investor
 - [[OpenAI]] — Stargate anchor tenant

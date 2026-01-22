@@ -142,3 +142,4 @@ Palantir provides the intelligence layer.
 - [[Databricks]] — competitor (data/AI platform)
 - [[Scale AI]] — peer (AI infrastructure)
 - [[a16z]] — investor (Thiel connections)
+- [[Dan Ives]] — Wedbush analyst ("Messi of AI," +523% call)
