@@ -20,6 +20,26 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 - **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas HBM packaging facility.
 - [[Samsung Taylor pivot]] — the 4nm→2nm mid-construction leap
 
+---
+
+## Memory capacity expansion (Jan 2026)
+
+**Samsung planning ~50% capacity expansion in 2026:**
+
+| Metric | Detail |
+|--------|--------|
+| Capacity increase | **~50%** for 2026 |
+| Server DRAM pricing | Seeking **+70% price hikes** (with SK Hynix) |
+| New fabs | P5 (Pyeongtaek) — operational 2028 |
+| Stargate commitment | 900K DRAM wafers/month (with SK Hynix) |
+
+**P5 facility (Pyeongtaek, Gyeonggi):**
+- Under construction
+- Expected operational: 2028
+- Focus: Advanced memory for AI
+
+**Context:** Korea back to #2 in global chip equipment spending ($29.66B, +27.2% YoY).
+
 ## Open questions
 
 - [[Can Samsung ever catch TSMC]]
@@ -51,7 +71,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | CHIPS Act | $6.4B |
 | Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
 
-*Updated 2026-01-05*
+*Updated 2026-01-21*
 
 ---
 

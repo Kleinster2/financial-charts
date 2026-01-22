@@ -18,7 +18,12 @@ SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packagin
 
 ---
 
-## Capacity expansion (Dec 2025)
+## Capacity expansion (Jan 2026)
+
+**Major expansion announced:**
+- Investment: **4x previous levels** announced
+- Equipment spending: $29.66B industry total (+27.2%) — Korea back to #2 globally
+- Server DRAM pricing: Seeking **+70% price hikes**
 
 **M15X fab (Cheongju, Korea):**
 - First cleanroom opened Oct 2025 — **2 months ahead of schedule**
@@ -33,6 +38,8 @@ SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packagin
 - Converted from old image sensor fab
 - Will do TSV and vertical stacking for HBM
 - Advanced packaging capacity onshore (Korea)
+
+**Stargate commitment:** 900K DRAM wafers/month committed for [[Project Stargate|OpenAI Stargate]].
 
 ---
 
@@ -64,6 +71,22 @@ SK Hynix isn't a foundry, but:
 
 ---
 
+## CES 2026 showcase
+
+**SK Hynix showcased next-gen AI memory:**
+
+| Product | Status |
+|---------|--------|
+| **16-layer HBM4** | Launches **February 2026** |
+| SOCAMM2 | Next-gen server memory module |
+| LPDDR6 | Mobile memory standard |
+
+**HBM4 fully sold out:** CFO confirmed entire 2026 HBM supply already contracted.
+
+**Yongin cluster:** Expected to become world's largest HBM production hub by 2027.
+
+---
+
 ## New York listing exploration (Jan 2026)
 
 **Potential US listing:**
@@ -86,7 +109,7 @@ SK Hynix isn't a foundry, but:
 | 2.5D mass production | Targeting 2028 |
 | US listing | Exploring (2026) |
 
-*Updated 2026-01-05*
+*Updated 2026-01-21*
 
 ---
 

@@ -2906,6 +2906,7 @@ def get_chart_lw():
     normalize = request.args.get('normalize', 'false').lower() == 'true'
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
     labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
+    show_last_value = request.args.get('show_last_value', 'false').lower() == 'true'  # Show last price label on chart
 
     # Parse custom labels
     labels = {}
@@ -2990,6 +2991,7 @@ def get_chart_lw():
                 'height': height,
                 'showTitle': show_title,
                 'showLastDate': show_last_date,
+                'showLastValue': show_last_value,
                 'normalize': normalize,
                 'isFundamentals': True,
                 'forecastStart': forecast_start if forecast_start else None,
@@ -3086,6 +3088,7 @@ def get_chart_lw():
             'height': height,
             'showTitle': show_title,
             'showLastDate': show_last_date,
+            'showLastValue': show_last_value,
             'normalize': normalize,
             'forecastStart': forecast_start if forecast_start else None,
             'labels': labels if labels else None

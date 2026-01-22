@@ -168,6 +168,14 @@ Contributes to [[Memory shortage 2025-2026]].
 
 ## Related
 
+### Products
+- [[Douyin]] — China short video (766M DAU, 65% of revenue)
+- [[TikTok]] — Global short video (1.67B MAU)
+- [[Doubao]] — AI chatbot (100M+ DAU, #1 China AI app)
+- CapCut — Video editing
+- Lark — Enterprise collaboration
+
+### Suppliers
 - [[NVIDIA]] — GPU supplier ($14B order)
 - [[SK Hynix]] — HBM supplier
 - [[Samsung]] — memory supplier

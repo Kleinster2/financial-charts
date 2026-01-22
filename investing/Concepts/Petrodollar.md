@@ -14,7 +14,7 @@
 
 **Origins (1970s):**
 - US-Saudi deal after 1973 embargo
-- Saudi prices oil in USD, buys US weapons/Treasuries
+- Saudi prices oil in USD, buys US weapons/[[Treasuries]]
 - Other OPEC members followed
 - Became global standard
 

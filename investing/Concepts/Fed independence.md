@@ -27,8 +27,20 @@
 | **Jan 11, 2026** | Powell discloses investigation, calls it "pretext" |
 | **Jan 13, 2026** | Global central bank chiefs support Powell |
 | **Jan 14, 2026** | [[Gold]] hits record $4,641/oz on Fed concerns |
-| **Jan 21, 2026** | Supreme Court hearing on firing Fed Gov Lisa Cook |
+| **Jan 21, 2026** | Supreme Court hearing — **6+ justices skeptical**, including Trump appointees Kavanaugh & Barrett |
 | **May 2026** | Powell's term ends; Trump will not reappoint |
+
+**Jan 21 SCOTUS outcome:**
+
+At least six justices — including Trump appointees Kavanaugh and Barrett — questioned the administration's attempt to fire Cook. Powell and former chair Ben Bernanke watched from the gallery.
+
+**Kavanaugh's warning:** "Because if this were set as a precedent... what goes around, comes around. All the current president's appointees would likely be removed for cause on January 20th, 2029."
+
+**The allegations:** Cook allegedly claimed two properties (Michigan, Georgia) as "primary residences" in June/July 2021. Bank documents obtained by NBC appear to contradict the fraud claim.
+
+**Cook's statement:** "This case is about whether the Federal Reserve will set key interest rates guided by evidence and independent judgment or will succumb to political pressure."
+
+**Likely outcome:** Court appears ready to block the firing, at least temporarily. No president has fired a sitting Fed governor in 112 years.
 
 **Powell's statement:**
 > "The threat of criminal charges is a consequence of the Federal Reserve setting interest rates based on our best assessment of what will serve the public, rather than following the preferences of the President."
@@ -144,7 +156,7 @@ Research on Turkey's central bank dismissals found:
 | Reserve currency status | Higher stakes — global impact |
 | Debt/GDP ~125% | Vulnerable to rate spikes |
 | Treasury market depth | Harder to manipulate but not immune |
-| Foreign holdings | ~30% of Treasuries — flight risk |
+| Foreign holdings | ~30% of [[Treasuries]] — flight risk |
 
 **Lazard:**
 > "The biggest US debt market risk is diminished Fed independence, which could undermine inflation-fighting credibility and the dollar."
@@ -158,14 +170,14 @@ Research on Turkey's central bank dismissals found:
 | **Independence maintained** | Risk-on, growth equities |
 | **Chair transition (orderly)** | Watch new chair's credibility |
 | **Independence eroded** | Long gold, short duration, quality |
-| **Bond vigilante response** | Long gold, short long-duration Treasuries |
+| **Bond vigilante response** | Long gold, short long-duration [[Treasuries]] |
 | **Full Turkey scenario** | Commodities, non-USD assets |
 
 ---
 
 ## What to watch
 
-- [ ] Jan 21 Supreme Court hearing (Lisa Cook case)
+- [x] ~~Jan 21 Supreme Court hearing (Lisa Cook case)~~ Court skeptical, likely to block firing
 - [ ] Q1 2026 Fed Chair nomination announcement
 - [ ] New chair's first FOMC meeting (Jun 2026)
 - [ ] Gold price as sentiment indicator
@@ -178,6 +190,7 @@ Research on Turkey's central bank dismissals found:
 
 ### Actors
 - [[Jerome Powell]] — current crisis target
+- [[Lisa Cook]] — Fed Governor, Trump firing attempt blocked by SCOTUS (Jan 2026)
 - [[Federal Reserve]] — institution at stake
 - [[Kevin Warsh]] — chair candidate (Fed experience)
 - [[Kevin Hassett]] — chair candidate (Trump trust, independence concern)

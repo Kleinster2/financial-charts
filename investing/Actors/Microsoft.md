@@ -21,6 +21,8 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ![[msft-fundamentals.png]]
 
+*Q2 2012 loss (-$492M, aQuantive writedown) excluded from chart.*
+
 ---
 
 ## Chip strategy

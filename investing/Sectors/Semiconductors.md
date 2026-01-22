@@ -9,6 +9,30 @@ Industry overview of the semiconductor value chain.
 
 ---
 
+## Industry size (Gartner, Jan 2026)
+
+| Metric | 2025 | YoY |
+|--------|------|-----|
+| **Total semiconductor revenue** | **$793B** | **+21%** |
+| AI semiconductors (processors, HBM, networking) | ~$264B | — |
+| AI share of total | **~1/3** | — |
+
+**Key milestones:**
+- **[[NVIDIA]] first company to cross $100B** in semiconductor revenue
+- NVIDIA extended lead over [[Samsung]] by $53B in 2025
+
+### AI infrastructure spending
+
+| Metric | 2026 forecast |
+|--------|---------------|
+| **AI infrastructure spending** | **>$1.3 trillion** |
+
+This is the capex flowing to [[AI hyperscalers]], neoclouds, and enterprises for AI compute, networking, and data centers.
+
+**Source:** Gartner (Jan 12, 2026)
+
+---
+
 ## Market structure
 
 | Segment | Key players | Dynamics |

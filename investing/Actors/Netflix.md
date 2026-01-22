@@ -3,7 +3,7 @@ aliases: [NFLX]
 ---
 #actor #company #streaming #entertainment #usa #public
 
-**Netflix** — Streaming pioneer and leader. Nasdaq: NFLX. 280M+ subscribers. Ad tier driving growth.
+**Netflix** — Streaming pioneer and leader. Nasdaq: NFLX. **325M subscribers** (Q4 2025). Ad tier driving growth. **Acquiring Warner Bros (HBO)** for ~$42B all-cash (Jan 2026).
 
 ---
 
@@ -12,13 +12,62 @@ aliases: [NFLX]
 | Metric | Value |
 |--------|-------|
 | Ticker | NFLX (Nasdaq) |
-| Market cap | ~$300B |
-| Revenue | ~$35B |
-| Subscribers | 280M+ |
+| Market cap | ~$400B |
+| Revenue (2025) | ~$42B |
+| 2026 guide | $50.7-51.7B |
+| Subscribers | **325M** (Q4 2025) |
 | Content spend | $17B/year |
 | HQ | Los Gatos, CA |
 
 Largest pure-play streaming company globally.
+
+---
+
+## Warner Bros acquisition (Jan 2026)
+
+**Netflix acquiring Warner Bros Discovery** — largest M&A in streaming history.
+
+| Detail | Value |
+|--------|-------|
+| Price | **$27.75/share** all-cash |
+| Deal value | ~$42B |
+| Bridge facility | $42.2B committed |
+| Announced | Jan 20, 2026 |
+| Structure change | Cash+stock → all-cash (to expedite shareholder vote) |
+
+**What Netflix gets:**
+- **HBO/HBO Max** — prestige content brand, subscriber base
+- **Warner Bros studio** — theatrical + TV production
+- **Sports rights** — NBA, MLB, NHL (through TNT Sports)
+- **Content library** — DC, Harry Potter, Game of Thrones, Friends, etc.
+- **CNN** — news assets (may divest)
+
+**Strategic rationale:**
+- Consolidation play as streaming wars mature
+- Sports rights bundle (live content moat)
+- HBO prestige brand + Netflix scale
+- Cost synergies in content/tech
+
+**Stock reaction:** NFLX -5% on higher content spending warning alongside deal.
+
+---
+
+## Q4 2025 results (Jan 20, 2026)
+
+| Metric | Actual | Estimate |
+|--------|--------|----------|
+| EPS | $0.56 | $0.55 |
+| Revenue | $12.05B | $11.97B |
+| Subscribers | **325M** | — |
+| YoY revenue | +18% | — |
+
+### 2026 guidance
+
+| Metric | Guide |
+|--------|-------|
+| Revenue | $50.7-51.7B (+14% YoY) |
+| Operating margin | 31.5% |
+| Ad revenue | ~2x YoY |
 
 ---
 
@@ -98,10 +147,10 @@ Netflix is fundamentally an AI recommendation company.
 
 | Metric | Value | Trend |
 |--------|-------|-------|
-| Paid subs | 280M+ | Growing |
-| ARM (avg revenue/member) | $12+ | Rising |
-| Operating margin | 25%+ | Expanding |
-| FCF | $6B+ | Growing |
+| Paid subs | **325M** | Growing |
+| ARM (avg revenue/member) | $13+ | Rising |
+| Operating margin | 31.5% (2026 target) | Expanding |
+| FCF | $8B+ | Growing |
 
 ---
 
@@ -187,7 +236,11 @@ Expanding beyond on-demand to live programming.
 
 ### Concepts
 - [[Subscription economy]] — business model
+- [[Streaming wars]] — competitive landscape
+
+### Acquisitions
+- [[Warner Bros Discovery]] — acquiring for $42B (Jan 2026)
 
 ---
 
-*Updated 2026-01-20*
+*Updated 2026-01-21*

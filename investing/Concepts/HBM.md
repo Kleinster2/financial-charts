@@ -23,7 +23,25 @@ AI training/inference is memory-bound:
 | HBM2e | ~460 GB/s | 16GB/stack | Legacy |
 | HBM3 | ~820 GB/s | 24GB/stack | Current |
 | HBM3E | ~1.15 TB/s | 36GB/stack | Ramping 2024-25 |
-| HBM4 | ~1.5+ TB/s | 48GB+/stack | 2026+ |
+| HBM4 | ~1.5+ TB/s | 48GB+/stack | **Launches Feb 2026** |
+
+---
+
+## HBM4 launch (Jan 2026)
+
+**SK Hynix 16-layer HBM4 launching February 2026:**
+
+| Metric | Detail |
+|--------|--------|
+| Launch | **February 2026** |
+| Layers | 16 (vs 12 for HBM3E) |
+| Bandwidth | ~1.5+ TB/s |
+| First customer | NVIDIA (Rubin architecture) |
+| Supply status | **Fully sold out** — entire 2026 supply contracted |
+
+**CES 2026 showcase:** SK Hynix demonstrated 16-layer HBM4 alongside SOCAMM2 and LPDDR6.
+
+**Production hub:** Yongin cluster (Korea) expected to become world's largest HBM production hub by 2027.
 
 ---
 

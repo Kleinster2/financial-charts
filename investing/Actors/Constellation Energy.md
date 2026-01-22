@@ -61,10 +61,12 @@ Largest nuclear operator in America.
 
 | Company | Status |
 |---------|--------|
-| Microsoft | TMI deal signed |
-| Amazon | Talen Energy deal |
-| Google | Exploring nuclear |
-| Meta | Clean energy targets |
+| [[Microsoft]] | TMI deal signed (2024) |
+| [[Amazon]] | Talen Energy deal |
+| [[Google]] | Exploring nuclear |
+| **[[Meta]]** | **$10B Louisiana data center** (Jan 2026) |
+
+**Meta deal (Jan 2026):** Constellation supplying power for Meta's $10B AI data center in Louisiana. Part of Meta's plan to secure up to 6.6 GW of nuclear by 2035.
 
 Everyone wants nuclear now.
 

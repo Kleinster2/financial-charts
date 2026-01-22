@@ -89,6 +89,53 @@ Best-performing sector in market.
 
 ---
 
+## January 2026 developments
+
+### US policy
+
+| Development | Detail |
+|-------------|--------|
+| **DOE uranium contracts** | **$2.7B** for domestic enriched uranium — largest investment in US nuclear fuel capacity |
+| **Trump executive orders** | 4 EOs to strengthen nuclear, called for 10 new reactors, NRC reform |
+| **DOE reorganization** | Eliminated Grid Deployment Office, Office of Clean Energy Demos (Dec 2025) |
+
+### Hyperscaler deals
+
+| Company | Nuclear commitment |
+|---------|-------------------|
+| **[[Meta]]** | **6.6 GW** by 2035 (Constellation, Vistra, TerraPower, Oklo) |
+| [[Microsoft]] | TMI restart (835 MW) |
+| [[Amazon]] | Talen Energy, X-Energy SMR investments |
+| [[Oracle]] | Exploring nuclear for data centers |
+
+Meta emerging as one of largest corporate nuclear buyers in US history.
+
+### State initiatives
+
+**New York:** Gov. Hochul announced plans for **4 GW** new nuclear reactors — more than entire US has built in 30 years.
+
+### EU reversal
+
+| Country | Policy change |
+|---------|---------------|
+| **Belgium** | Reversed nuclear phase-out |
+| **Italy** | Lifted nuclear ban |
+| **Germany** | Recognized nuclear as green energy |
+| **Switzerland** | Reconsidering anti-nuclear stance |
+| **Denmark** | Actively reconsidering |
+
+**EU total:** 81.2 GW nuclear capacity targeted by 2040.
+
+### Global pipeline
+
+| Metric | Value |
+|--------|-------|
+| Reactors under construction | **71** globally |
+| US reactors planned | 10 |
+| Operating reactors | 441 |
+
+---
+
 ## SMR optionality
 
 **Small Modular Reactors:**
@@ -140,7 +187,7 @@ Hyperscalers interested but patient.
 | TMI restart | 2028 target |
 | SMR timeline | 2030s |
 
-*Updated 2026-01-01*
+*Updated 2026-01-21*
 
 ---
 

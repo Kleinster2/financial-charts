@@ -137,8 +137,10 @@ def download_and_save_ticker(ticker: str, start_date: str = "2005-01-01") -> Non
     """
     print(f"Downloading {ticker} data (all available history)...")
 
-    # 1) Try Cboe direct CSV for supported indices (e.g., ^BXY and others)
-    data = _try_fetch_cboe_csv(ticker, start_date)
+    # 1) Try Cboe direct CSV only for indices (tickers starting with ^)
+    data = pd.DataFrame()
+    if ticker.startswith('^'):
+        data = _try_fetch_cboe_csv(ticker, start_date)
 
     # 2) If Cboe not available or failed, try yfinance
     if data.empty:

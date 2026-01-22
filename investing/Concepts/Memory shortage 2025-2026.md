@@ -170,7 +170,46 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 ---
 
-*Updated 2026-01-15*
+## China OEM forecast cuts (Jan 21, 2026)
+
+**Concrete unit cuts — memory shortage forcing dramatic revisions:**
+
+| OEM | 2026 forecast cut | Notes |
+|-----|-------------------|-------|
+| **[[Xiaomi]]** | **-70M units** | Largest China smartphone maker |
+| **Transsion** | **-45M units** | Africa/emerging markets leader |
+
+**Combined: 115M fewer smartphones** than previously forecast.
+
+These are among the sharpest single-company revisions of the shortage — confirms memory availability (not just price) is the binding constraint.
+
+---
+
+## Korea supplier response (Jan 2026)
+
+**Samsung and SK Hynix ramping capacity but demanding higher prices:**
+
+| Supplier | 2026 plans |
+|----------|------------|
+| **[[Samsung]]** | ~50% capacity expansion |
+| **[[SK Hynix]]** | 4x investment vs previous |
+| **Both** | Seeking **+70% server DRAM price hikes** |
+| **Stargate** | 900K DRAM wafers/month committed |
+
+**Equipment spending:** Korea back to #2 globally ($29.66B, +27.2% YoY).
+
+**New fabs:**
+- SK Hynix M15X (Cheongju) — starting early (Feb 2026)
+- Samsung P5 (Pyeongtaek) — operational 2028
+- SK Hynix Yongin cluster — world's largest HBM hub by 2027
+
+**HBM4 launch:** February 2026 (SK Hynix 16-layer).
+
+Despite expansion, shortage expected to persist through 2027 — capacity takes 2-3 years to come online.
+
+---
+
+*Updated 2026-01-21*
 
 ## Related
 

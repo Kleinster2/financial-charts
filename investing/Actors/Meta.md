@@ -58,7 +58,26 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 **$600B infrastructure commitment:** Meta planning "tens of gigawatts this decade, and hundreds of gigawatts or more over time."
 
-**Nuclear partnerships:** Announced deals to become one of world's biggest corporate buyers of nuclear power
+**Nuclear partnerships:** One of world's largest corporate buyers of nuclear power.
+
+---
+
+## Nuclear energy (Jan 2026)
+
+**Meta becoming one of the largest corporate nuclear buyers in US history:**
+
+| Partner | Deal |
+|---------|------|
+| **[[Constellation Energy]]** | $10B Louisiana data center |
+| **Vistra** | Nuclear supply agreement |
+| **[[TerraPower]]** | Advanced reactor partnership |
+| **[[Oklo]]** | Small modular reactor deal |
+
+**Capacity:** Up to **6.6 GW** of new and existing clean energy by 2035.
+
+**Jobs:** Thousands of construction jobs, hundreds of long-term operational positions.
+
+**Context:** Hyperscalers racing to secure nuclear for AI data center power. See also [[Microsoft]] Constellation deal, [[Amazon]] nuclear investments, [[Oracle]] energy strategy.
 
 ---
 
