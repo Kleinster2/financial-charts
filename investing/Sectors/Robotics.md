@@ -49,6 +49,7 @@ Physical AI — robots that interact with the real world. CES 2026 declared "yea
 | [[Unitree]] | G1, H1, H2 | **Shipping** | Mass market |
 | [[Agility Robotics]] | Digit | **Deployed** | Amazon, GXO |
 | [[AGIBOT]] | Portfolio | US debut CES 2026 | Industrial |
+| [[X Square Robot]] | Quanta X1/X2 | **Deployed** | Industrial, logistics |
 
 **China dominance:** 50% of CES humanoid exhibitors were Chinese. Morgan Stanley: China filed 7,705 humanoid patents vs 1,561 US in past 5 years.
 
@@ -185,7 +186,7 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 | **US** | AI, humanoids, surgical | Boston Dynamics, Figure, Intuitive |
 | **Japan** | Industrial, precision | Fanuc, Yaskawa |
 | **Germany** | Industrial, automotive | KUKA, Siemens |
-| **China** | Scale, humanoids, consumer | Unitree, AGIBOT, Ecovacs |
+| **China** | Scale, humanoids, consumer | Unitree, AGIBOT, X Square Robot, Ecovacs |
 | **Korea** | Conglomerates | Hyundai (owns Boston Dynamics) |
 
 ---
@@ -248,6 +249,7 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 - [[Unitree]] — Chinese humanoids
 - [[Agility Robotics]] — Digit
 - [[AGIBOT]] — Chinese humanoids
+- [[X Square Robot]] — Chinese humanoids (wheeled)
 - [[Intuitive Surgical]] — surgical robotics
 - [[Fanuc]] — industrial robotics
 - [[ABB]] — industrial automation

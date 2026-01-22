@@ -50,6 +50,21 @@ Part of broader industry push to bring [[Private credit]] to high-net-worth indi
 
 ---
 
+## Saks Global debt exposure
+
+Apollo affiliates provided $1.15B term loan to [[Saks Global]] as part of the 2024 [[Saks-Neiman merger]] financing.
+
+| Term | Value |
+|------|-------|
+| Amount | $1.15B |
+| Type | Term loan |
+| Context | Neiman acquisition financing |
+| Status | Impaired in [[Saks bankruptcy]] (Jan 2026) |
+
+Apollo's credit arm is exposed to retail distress through this position. Bonds trading at 6-46 cents on dollar.
+
+---
+
 ## AI infrastructure exposure
 
 | Investment | Type |
@@ -108,4 +123,6 @@ Stock fell on Trump's institutional homebuying ban announcement:
 - [[Goldman Sachs]] — peer (European retail push)
 - [[Institutional homebuying ban]] — policy risk
 - [[AI infrastructure financing]] — indirect exposure
+- [[Saks Global]] — $1.15B term loan exposure
+- [[Saks bankruptcy]] — credit impairment
 

@@ -183,6 +183,11 @@ See [[Iran]] for details.
 ### Targets
 - [[Russia]] — traditional secondary sanctions
 - [[Iran]] — tariff-based secondary sanctions
+- [[Iranian economic collapse]] — currency/instability dynamics
+
+### Evasion mechanisms
+- [[Shadow fleet]] — tankers moving sanctioned oil
+- [[Chinese teapot refineries]] — primary buyers
 
 ### Affected parties
 - [[China]] — highest exposure (Russia + Iran)

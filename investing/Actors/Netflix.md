@@ -22,6 +22,18 @@ Largest pure-play streaming company globally.
 
 ---
 
+## Charts
+
+![[nflx-90d.png]]
+
+![[nflx-vs-qqq.png]]
+
+![[nflx-fundamentals.png]]
+
+*Q1 2012 loss (-$5M) excluded from chart — Qwikster debacle aftermath.*
+
+---
+
 ## Subscriber breakdown
 
 | Region | Subscribers | ARPU |
@@ -178,4 +190,4 @@ Expanding beyond on-demand to live programming.
 
 ---
 
-*Updated 2026-01-16*
+*Updated 2026-01-20*

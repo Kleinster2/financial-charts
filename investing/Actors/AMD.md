@@ -97,10 +97,24 @@ See [[CES 2026]] for event context.
 
 | Metric | Value |
 |--------|-------|
+| Ticker | AMD (NASDAQ) |
+| Market cap | ~$375B |
+| Revenue (2025E) | $34.1B |
+| Revenue (2026E) | $45.1B |
+| EPS (2025E) | $3.97 |
+| EPS (2026E) | $6.57 |
 | Primary foundry | [[TSMC]] |
 | Potential foundry | [[Samsung]] (2nm EPYC) |
 | Key acquisition | NodAI (late 2023) |
 | CES 2026 | Helios rack (2.9 exaFLOPS) |
+
+*Updated 2026-01-20*
+
+![[amd-price-chart.png]]
+
+![[amd-fundamentals.png]]
+
+*Chart starts 2018 (Lisa Su turnaround era). Q1 2023 net income excluded (small loss distorts scale).*
 
 ---
 

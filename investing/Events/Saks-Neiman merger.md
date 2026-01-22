@@ -17,9 +17,32 @@
 
 **Structure:**
 - Saks (owned by [[Richard Baker]] / HBC) acquired Neiman Marcus
-- [[Amazon]] invested $475M for minority equity stake
+- [[Amazon]] invested $475M for **23% minority equity stake**
 - Combined entity named "Saks Global"
 - Financed with $2.2B new junk bonds + assumed Neiman legacy debt
+
+### Amazon's deal terms
+
+| Term | Value |
+|------|-------|
+| Investment | $475M preferred equity |
+| Stake | 23% of combined entity |
+| Commercial agreement | "Saks on Amazon" platform |
+| Guaranteed fees | **$900M over 8 years** |
+| Consent rights | Approval over new financing under LLC agreement |
+| Collateral | Deal secured by Fifth Avenue flagship |
+
+**The Amazon partnership:**
+- Saks would sell products on Amazon's website
+- Amazon would provide technology and logistics expertise
+- Amazon had approval rights over any financing that encumbered the flagship holding company
+- Flagship real estate (appraised at **$3.6B** in March 2024) backed Amazon's investment
+
+**What went wrong:**
+- "Saks on Amazon" platform never launched
+- Saks allegedly "failed to abide by the conditions of the investment"
+- In August 2024, Saks raised $600M from bondholders using flagship as collateral — **without Amazon's consent**
+- Amazon later called its $475M stake "presumptively worthless"
 
 ---
 
@@ -86,4 +109,4 @@
 - [[Department store decline]] — industry context
 - [[Amazon]] — lost $475M
 
-*Created 2026-01-17*
+*Updated 2026-01-18*

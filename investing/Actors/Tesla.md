@@ -13,6 +13,16 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+## Charts
+
+![[tsla-90d.png]]
+
+![[tsla-vs-qqq.png]]
+
+![[tsla-fundamentals.png]]
+
+---
+
 ## Custom silicon
 
 - **Dojo**: Custom AI training chip for FSD (Full Self-Driving)
@@ -244,13 +254,23 @@ See [[Short interest]] for interpretation framework.
 |--------|-------|
 | Ticker | TSLA (NASDAQ) |
 | Market cap | ~$1.3T |
-| Revenue (TTM) | ~$100B |
+| Revenue (2025E) | $94.7B |
+| Revenue (2026E) | $107.5B |
+| EPS (2025E) | $1.64 |
+| EPS (2026E) | $2.17 |
 | Automotive margin | ~17% |
 | Deliveries (2025) | 1.64M vehicles (-8.6% YoY) |
 | P/E | ~100x+ |
 | Energy business | ~$10B/year (record Q4) |
-| Stock price | ~$438 |
 | Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
+
+*Updated 2026-01-20*
+
+![[tsla-price-chart.png]]
+
+![[tsla-fundamentals.png]]
+
+*Price chart vs TQQQ (3x leveraged QQQ) since 2021 — Tesla actually underperformed 3x QQQ (+75% vs +175%). The massive outperformance was concentrated in 2020. Revenue growing 14% but EPS growing 32% in 2026 — margin recovery after 2024-25 price war. Q4 2023 NI excluded.*
 
 ---
 
@@ -275,5 +295,3 @@ See [[Short interest]] for interpretation framework.
 - [[STMicro]] — supplier (SiC for EVs)
 - [[Rare earth leverage]] — supply chain risk
 - [[Waymo]] — robotaxi competitor
-
-*Updated 2026-01-12*

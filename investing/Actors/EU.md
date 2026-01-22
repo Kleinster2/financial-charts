@@ -102,6 +102,14 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 | Climate | Green Deal, Fit for 55 |
 | Finance | MiFID, Basel implementation |
 
+### Trade defense
+
+| Tool | Created | Used | Scope |
+|------|---------|------|-------|
+| **Anti-Coercion Instrument ("the bazooka")** | 2023 | Never | Tariffs, IP restrictions, market access |
+
+**Anti-Coercion Instrument:** Allows EU to respond to economic coercion by foreign powers with measures beyond tariffs — including IP restrictions and market access blocks for foreign companies. Called "the bazooka" — powerful tool held in reserve as deterrent, like ECB's OMT. Macron has suggested activating against US (Jan 2026) over Greenland/tariff pressure. See [[US-EU trade]].
+
 ---
 
 ## Budget and spending
@@ -180,10 +188,12 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 - [[Germany]] — largest economy
 - [[France]] — key member
 - [[Trade Agreements]] — EU FTAs
+- [[US-EU trade]] — bilateral tensions (Turnberry, anti-coercion)
 - [[EU-China trade]] — bilateral trade tensions
 - [[EU Chips Act]] — industrial policy
 - [[European defense spending]] — security
 - [[EFTA]] — non-EU alternative
+- [[Greenland]] — US annexation push straining relations
 
 ---
 

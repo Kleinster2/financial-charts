@@ -73,6 +73,19 @@ Post-2008 expansion was unusually long (11 years).
 
 ---
 
+## Theoretical frameworks
+
+| Theory | Key driver | Policy implication |
+|--------|-----------|-------------------|
+| **Keynesian** | Demand shortfalls | Fiscal/monetary stimulus |
+| **Monetarist** | Money supply changes | Stable money growth |
+| **[[Real Business Cycle theory]]** | Productivity/technology shocks | Limited policy role |
+| **New Keynesian** | Demand + sticky prices | Active monetary policy |
+
+**Modern view:** Cycles likely driven by mix of demand and supply factors. [[Finn Kydland]] and [[Edward Prescott]] won the 2004 Nobel Prize for showing that real (supply-side) shocks can explain significant cycle variation.
+
+---
+
 ## Investment implications
 
 | Action | Timing |
@@ -86,6 +99,14 @@ Post-2008 expansion was unusually long (11 years).
 ---
 
 ## Related
+
+### Theory
+- [[Real Business Cycle theory]] — supply-side driver framework (Kydland-Prescott)
+- [[Time consistency]] — policy credibility affects cycle outcomes
+
+### Economists
+- [[Finn Kydland]] — RBC co-developer, 2004 Nobel
+- [[Edward Prescott]] — RBC co-developer, 2004 Nobel
 
 ### Concepts
 - [[Cyclical vs defensive]] — sector allocation

@@ -71,6 +71,12 @@ Major revenue at risk from generics.
 
 ---
 
+## TCJA repatriation (2018)
+
+Pfizer repatriated $24B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into M&A and buybacks.
+
+---
+
 ## M&A strategy
 
 | Deal | Value | Rationale |
@@ -162,6 +168,7 @@ Missing the GLP-1 wave is significant.
 
 ### Concepts
 - [[AI drug discovery]] — R&D application
+- [[Tax Cuts and Jobs Act]] — $24B repatriation (2018)
 
 ---
 

@@ -17,6 +17,27 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+def fiscal_to_calendar_quarter(date):
+    """Map a fiscal quarter end date to the nearest calendar quarter end.
+
+    Jan-Mar → Mar 31 (Q1)
+    Apr-Jun → Jun 30 (Q2)
+    Jul-Sep → Sep 30 (Q3)
+    Oct-Dec → Dec 31 (Q4)
+    """
+    if isinstance(date, str):
+        date = pd.to_datetime(date)
+    month = date.month
+    year = date.year
+    if month <= 3:
+        return f"{year}-03-31"
+    elif month <= 6:
+        return f"{year}-06-30"
+    elif month <= 9:
+        return f"{year}-09-30"
+    else:
+        return f"{year}-12-31"
+
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from constants import (DB_PATH, get_db_connection, SCHEMA_CACHE_TTL, DEFAULT_PORT,
@@ -1610,7 +1631,8 @@ def get_fundamentals_chart_data():
         'operatingincome': ('income_statement_quarterly', 'operating_income', 'Operating Income'),
         'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
         'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
-        'operatingcashflow': ('cash_flow_quarterly', 'operating_cashflow', 'Operating Cash Flow')
+        'operatingcashflow': ('cash_flow_quarterly', 'operating_cashflow', 'Operating Cash Flow'),
+        'capex': ('cash_flow_quarterly', 'capital_expenditures', 'Capital Expenditures')
     }
 
     for ticker in tickers:
@@ -2849,10 +2871,12 @@ def get_chart_lw():
         width: Image width in pixels (optional, default 1200)
         height: Image height in pixels (optional, default 600)
         show_title: Show title on chart (optional, default true)
+        show_last_date: Show last data date in bottom-left (optional, default true)
         normalize: Rebase all tickers to 0% at start (optional, default false)
         metrics: Fundamentals metrics to chart instead of price (optional)
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
         forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
+        labels: Custom legend labels (optional), e.g., SMH_1_44X:SMH 1.44x Lev,NVDA:NVIDIA
 
     Returns: PNG image
     """
@@ -2878,8 +2902,19 @@ def get_chart_lw():
     width = int(request.args.get('width', 1200))
     height = int(request.args.get('height', 800))
     show_title = request.args.get('show_title', 'true').lower() != 'false'
+    show_last_date = request.args.get('show_last_date', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
+    labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
+
+    # Parse custom labels
+    labels = {}
+    if labels_param:
+        for pair in labels_param.split(','):
+            if ':' in pair:
+                key, val = pair.split(':', 1)
+                labels[key.strip().upper()] = val.strip()
+
     metrics_param = request.args.get('metrics', '').strip().lower()
 
     # Fundamentals metric mapping
@@ -2891,6 +2926,7 @@ def get_chart_lw():
         'operatingincome': ('income_statement_quarterly', 'operating_income', 'Op Income'),
         'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
         'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
+        'capex': ('cash_flow_quarterly', 'capital_expenditures', 'CapEx'),
     }
 
     # If metrics specified, fetch fundamentals instead of price
@@ -2928,7 +2964,7 @@ def get_chart_lw():
                         data_points = []
                         for _, row in df.iterrows():
                             try:
-                                date_str = pd.to_datetime(row['fiscal_date_ending']).strftime('%Y-%m-%d')
+                                date_str = fiscal_to_calendar_quarter(row['fiscal_date_ending'])
                                 value = row[column]
                                 if pd.notna(value) and value != 0:
                                     data_points.append({'time': date_str, 'value': float(value)})
@@ -2953,9 +2989,11 @@ def get_chart_lw():
                 'width': width,
                 'height': height,
                 'showTitle': show_title,
+                'showLastDate': show_last_date,
                 'normalize': normalize,
                 'isFundamentals': True,
-                'forecastStart': forecast_start if forecast_start else None
+                'forecastStart': forecast_start if forecast_start else None,
+                'labels': labels if labels else None
             }
 
             # Render with Playwright
@@ -3047,10 +3085,11 @@ def get_chart_lw():
             'width': width,
             'height': height,
             'showTitle': show_title,
+            'showLastDate': show_last_date,
             'normalize': normalize,
-            'forecastStart': forecast_start if forecast_start else None
+            'forecastStart': forecast_start if forecast_start else None,
+            'labels': labels if labels else None
         }
-
         # Get the HTML template path
         template_path = os.path.join(basedir, 'templates', 'chart_render.html')
         if not os.path.exists(template_path):

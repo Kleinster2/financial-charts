@@ -3,11 +3,37 @@ aliases: [NVDA]
 ---
 #actor #fabless #ai #gpu
 
-**NVIDIA** — dominant AI accelerator company with hardware + software moat.
+**NVIDIA** — dominant AI accelerator company with hardware + software moat. **First semiconductor company to cross $100B revenue** (2025).
+
+---
+
+## 2025 milestone (Gartner, Jan 2026)
+
+| Metric | Value |
+|--------|-------|
+| 2025 revenue | **>$100B** (first semi company ever) |
+| Lead over Samsung | **+$53B** |
+| AI semi market share | Dominant |
+
+NVIDIA now larger than Samsung Semiconductor by $53B — unprecedented dominance.
+
+**Context:** Total 2025 semiconductor industry = $793B (+21% YoY). AI chips = ~1/3 of total. NVIDIA captures majority of AI semi spend.
+
+---
 
 ## Core thesis
 
 NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosystem that locks in AI developers. Hardware can be challenged; rebuilding a decade of software tooling cannot.
+
+---
+
+## Charts
+
+![[nvda-90d.png]]
+
+![[nvda-vs-smh.png]]
+
+![[nvda-fundamentals.png]]
 
 ---
 
@@ -271,7 +297,11 @@ See [[Short interest]] for interpretation framework.
 | **Stock YTD** | **+37%** (underperforming memory) |
 | Short interest | **1.1%** (Jan 2026) |
 
-*Updated 2026-01-15*
+*Updated 2026-01-20*
+
+![[nvda-price-chart.png]]
+
+![[nvda-fundamentals.png]]
 
 ---
 
@@ -408,6 +438,8 @@ See [[CES 2026]] for event details.
 - [[Export controls]] — China market constraint
 - [[Long NVIDIA]] — thesis
 - [[Long memory]] — thesis (HBM demand)
+- [[Stacy Rasgon]] — Bernstein analyst (Outperform, $275 PT)
+- [[Hans Mosesmann]] — Rosenblatt analyst (first $1K+ PT)
 - [[NVIDIA as kingmaker]] — concept (strategic investments)
 - [[Jevons Paradox]] — concept (efficiency → more demand)
 - [[Training-inference convergence]] — concept (unified architectures win)

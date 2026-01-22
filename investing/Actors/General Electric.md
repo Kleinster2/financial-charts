@@ -64,6 +64,12 @@ What remains as "GE" is the aerospace business.
 
 ---
 
+## TCJA repatriation (2018)
+
+GE repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed primarily into debt reduction as the company was struggling financially at the time.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -112,3 +118,4 @@ GE Vernova more relevant for AI/datacenter power thesis.
 - [[Boeing]] — customer (LEAP, GEnx engines)
 - [[Airbus]] — customer (LEAP engines)
 - [[Safran]] — CFM JV partner
+- [[Tax Cuts and Jobs Act]] — repatriation (2018, used for debt reduction)

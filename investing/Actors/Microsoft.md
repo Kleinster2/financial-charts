@@ -13,6 +13,16 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ---
 
+## Charts
+
+![[msft-90d.png]]
+
+![[msft-vs-qqq.png]]
+
+![[msft-fundamentals.png]]
+
+---
+
 ## Chip strategy
 
 - Massive [[NVIDIA]] buyer (OpenAI infrastructure)
@@ -119,6 +129,12 @@ See [[AI datacenter architecture]] for full design patterns.
 
 ---
 
+## TCJA repatriation (2018)
+
+Microsoft repatriated ~$130B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and acquisitions (including LinkedIn, GitHub era).
+
+---
+
 ## Short interest history (quarterly)
 
 | Quarter | SI % float | Stock | Note |
@@ -136,6 +152,11 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
+| Ticker | MSFT (NASDAQ) |
+| Market cap | ~$3.4T |
+| Revenue (FY25) | ~$281B |
+| Revenue (FY26E) | ~$327B |
+| Revenue (FY27E) | ~$376B |
 | AI capex | $50B+ annually |
 | Primary chip | [[NVIDIA]] GPUs |
 | Custom silicon | Maia (AI), Cobalt (CPU) |
@@ -143,7 +164,13 @@ See [[Short interest]] for interpretation framework.
 | Fairwater GPU building | 300MW, 2-story, liquid-cooled |
 | Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
+
+![[msft-price-chart.png]]
+
+![[msft-fundamentals.png]]
+
+*Note: Net income gaps in 2015 and 2017 exclude one-time charges — Nokia write-down ($7.6B, Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax ($6.3B, Dec 2017).*
 
 ---
 
@@ -168,3 +195,4 @@ See [[Short interest]] for interpretation framework.
 - [[Quantum computing]] — bet (topological qubits, Majorana 1)
 - [[AI datacenter architecture]] — Fairwater campus design
 - [[GPU deployment bottleneck]] — Satya's "can't plug in" quote
+- [[Tax Cuts and Jobs Act]] — ~$130B repatriation (2018)

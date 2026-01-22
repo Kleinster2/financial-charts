@@ -19,15 +19,25 @@ Amazon is central to multiple vault theses:
 
 ---
 
+## Charts
+
+![[amzn-90d.png]]
+
+![[amzn-vs-qqq.png]]
+
+![[amzn-fundamentals.png]]
+
+---
+
 ## Custom chip portfolio
 
 ### Trainium (AI training/inference)
-| Generation | Node | Status | Key specs |
-|------------|------|--------|-----------|
-| Trainium1 | 7nm | Legacy | First gen |
-| Trainium2 | 5nm | Shipping (Dec 2024) | NeuronCore-v3 |
+| Generation    | Node    | Status                  | Key specs                              |
+| ------------- | ------- | ----------------------- | -------------------------------------- |
+| Trainium1     | 7nm     | Legacy                  | First gen                              |
+| Trainium2     | 5nm     | Shipping (Dec 2024)     | NeuronCore-v3                          |
 | **Trainium3** | **3nm** | **Shipping (Dec 2025)** | 2.52 PFLOPs FP8, 144GB HBM3e, 4.9 TB/s |
-| Trainium4 | TBD | Development | NVLink Fusion support |
+| Trainium4     | TBD     | Development             | [[NVLink]] Fusion support              |
 
 **Trainium3 UltraServer**: 144 chips per server, scales to 1M chips (10x previous gen), 40% more energy efficient.
 
@@ -81,12 +91,38 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 
 ## Partnerships
 
-| Partner | Relationship |
-|---------|--------------|
-| [[Anthropic]] | $8B investor, cloud partner, 1M chips |
-| [[NVIDIA]] | 15-year collaboration, NVLink Fusion coming |
-| [[Marvell]] | Trainium/Inferentia design partner |
-| OpenAI | Potential $10B investment (reported) |
+| Partner       | Relationship                                |
+| ------------- | ------------------------------------------- |
+| [[Anthropic]] | $8B investor, cloud partner, 1M chips       |
+| [[NVIDIA]]    | 15-year collaboration, NVLink Fusion coming |
+| [[Marvell]]   | Trainium/Inferentia design partner          |
+| [[OpenAI]]    | Potential $10B investment (reported)        |
+
+---
+
+## Saks investment loss
+
+**A rare strategic misfire** — Amazon lost $475M backing a luxury retail merger that collapsed in 14 months.
+
+| Metric | Value |
+|--------|-------|
+| Investment | $475M preferred equity (Dec 2024) |
+| Stake | 23% of [[Saks Global]] |
+| Current value | "Presumptively worthless" |
+| Lost commercial agreement | $900M over 8 years |
+
+**The deal:** Amazon invested to facilitate the [[Saks-Neiman merger]], gaining consent rights over financing and a commercial agreement to launch "Saks on Amazon."
+
+**What went wrong:**
+- "Saks on Amazon" platform never launched
+- Saks burned through cash, failed to meet budgets
+- In Aug 2024, Saks raised $600M using flagship as collateral — without Amazon's consent
+- In [[Saks bankruptcy]] (Jan 2026), Saks pledged the $3.6B Fifth Avenue flagship for DIP financing, subordinating Amazon behind bondholders
+- Amazon challenged in court but lost after 7.5-hour hearing
+
+**Amazon's response:** Reserved rights to "seek more drastic remedies" including appointment of examiner or trustee. Claims Saks "violated consent rights under the LLC agreement."
+
+**Significance:** Contrasts with Amazon's successful Anthropic bet ($8B → $9.5B unrealized gain). Retail M&A judgment vs tech infrastructure judgment.
 
 ---
 
@@ -156,7 +192,7 @@ See [[Short interest]] for interpretation framework.
 | P/E | ~45x |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-01-11*
+*Updated 2026-01-20*
 
 ## Related
 
@@ -171,3 +207,7 @@ See [[Short interest]] for interpretation framework.
 - [[AI hyperscalers]] — peer category
 - [[Hyperscaler chip roadmap]] — custom silicon context
 - [[Nuclear power for AI]] — power strategy
+- [[Saks Global]] — $475M equity investment (wiped in bankruptcy)
+- [[Saks-Neiman merger]] — the deal Amazon backed
+- [[Saks bankruptcy]] — Jan 2026, flagship collateral fight
+- [[Minority investor subordination]] — consent rights failed in distress

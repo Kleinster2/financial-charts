@@ -82,6 +82,16 @@ After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
 
 **ALWAYS use the charting app API. NEVER use matplotlib or other tools.**
 
+> **🚨 CRITICAL: NEVER overwrite existing chart files without asking first.**
+>
+> Before touching ANY existing chart:
+> 1. **READ the existing image** to see what's there
+> 2. **ASK the user** before making changes
+>
+> Existing charts may have levered benchmarks (e.g., SMH_1_44X), custom date ranges, or other carefully chosen parameters that are NOT obvious from the filename. Overwriting destroys this work.
+>
+> **No exceptions. Always ask.**
+
 ### Headless export via API (preferred)
 
 ```bash
@@ -101,42 +111,83 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
   -o investing/attachments/aapl-revenue.png
 ```
 
-**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line)
+**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`)
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
 
 ### Adding forecasts to fundamentals charts
 
-**1. Get consensus estimates** from Yahoo Finance (`/quote/TICKER/analysis/`) or other sources. Look for quarterly revenue and EPS estimates.
+> **⚠️ NEVER use WebFetch on Yahoo Finance analysis pages.**
+> `WebFetch("https://finance.yahoo.com/quote/TICKER/analysis/")` crashes the session.
+> **Use Chrome browser automation tools instead** (`mcp__claude-in-chrome__*`).
 
-**2. Calculate net income from EPS:**
+**1. Get consensus estimates** from Yahoo Finance (`/quote/TICKER/analysis/`). You need:
+- Quarterly EPS estimates (current + next quarter)
+- Annual revenue estimates (current + next year)
+- Annual EPS estimates (current + next year)
+
+> **Yahoo uses fiscal years, labeled by the calendar year the fiscal year ends in.**
+> - "Current Year (2026)" = fiscal year ending in 2026
+> - "Next Year (2027)" = fiscal year ending in 2027
+>
+> For NVDA (FY ends Jan): "Next Year (2027)" = FY27 (Feb 2026 - Jan 2027)
+> For AAPL (FY ends Sep): "Next Year (2026)" = FY26 (Oct 2025 - Sep 2026)
+>
+> Yahoo only shows 2 fiscal years. To extend coverage, extrapolate additional years using YoY growth.
+
+**2. Get shares outstanding:**
+```sql
+sqlite3 market_data.db "SELECT shares_outstanding FROM company_overview WHERE ticker='AAPL';"
+```
+
+**3. Calculate net income from EPS:**
+
+For US stocks:
+```
+Net Income = EPS × shares_outstanding
+```
+
+For ADRs (e.g., TSM where 1 ADR = 5 Taiwan shares):
 ```
 Net Income = (ADR_EPS / ADR_ratio) × FX_rate × shares_outstanding
-```
-Example for TSM (ADR = 5 Taiwan shares):
-```
-Q1 2026: ($3.29 / 5) × 31.6 TWD/USD × 25.94B shares = NT$539B
+Example: ($3.29 / 5) × 31.6 TWD/USD × 25.94B shares = NT$539B
 ```
 
-**3. Extrapolate future quarters** using YoY growth (preserves seasonality + trend):
-- Calculate implied YoY growth from consensus FY estimates
-- Apply that growth rate to each quarter from the prior year
-- Example: If FY2027 revenue is +20% YoY, then Q1 2027 = Q1 2026 × 1.20
+**4. Extrapolate future quarters** using YoY growth (preserves seasonality + trend):
 
-**4. Insert forecasts into database:**
+Calculate separate growth rates for revenue and net income:
+```
+Revenue growth = FY_next_revenue / FY_current_revenue
+NI growth = FY_next_EPS / FY_current_EPS
+```
+
+Apply to each quarter from the prior year:
+```
+Q1_next = Q1_current × growth_rate
+Q2_next = Q2_current × growth_rate
+...
+```
+
+**Verify totals match annual estimates** before inserting.
+
+**5. Insert forecasts into database:**
 ```sql
+sqlite3 market_data.db "
 INSERT OR REPLACE INTO income_statement_quarterly
   (ticker, fiscal_date_ending, total_revenue, net_income)
 VALUES
-  ('TSM', '2026-03-31', 1120000000000, 539000000000),
-  ('TSM', '2026-06-30', 1190000000000, 565000000000);
+  ('AAPL', '2026-12-31', 147400000000, 43200000000),
+  ('AAPL', '2027-03-31', 111700000000, 30000000000);
+"
 ```
 
-**5. Generate chart with dotted forecast line:**
+**6. Generate chart with dotted forecast line:**
 ```bash
-curl "http://localhost:5000/api/chart/lw?tickers=TSM&metrics=revenue,netincome&forecast_start=2026-01-01" \
-  -o investing/attachments/tsm-fundamentals.png
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome&forecast_start=2025-10-01" \
+  -o investing/attachments/aapl-fundamentals.png
 ```
+
+Note: `forecast_start` should be the day after the last actual quarter (e.g., 2025-10-01 if last actual is 2025-09-30).
 
 ## Pending Design Decisions
 
@@ -148,6 +199,20 @@ curl "http://localhost:5000/api/chart/lw?tickers=TSM&metrics=revenue,netincome&f
 - **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS`, etc.
 - **B) Separate chart overlay** — New UI component
 - **C) Wide table** — Add to `/api/data` endpoint
+
+### Obsidian chart refresh plugin
+
+**Status:** Planned. See `docs/obsidian-chart-refresh-plugin.md` for full spec.
+
+**Problem:** Charts are static PNGs that become stale. Manual refresh via curl is tedious.
+
+**Solution:** Custom Obsidian plugin that refreshes chart images on note open.
+
+**Key decisions needed:**
+- **Filename vs frontmatter** for chart params mapping
+- **Auto-advance forecast_start?** As time passes
+
+**Estimate:** ~150-200 lines TypeScript, 2-4 hours.
 
 ---
 

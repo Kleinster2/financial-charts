@@ -55,11 +55,12 @@
 |-----------|----------|
 | Trade settlements | Growing with partners |
 | CIPS | Alternative to SWIFT |
+| [[Currency swap lines]] | 40+ agreements, ¥4.5T total |
 | Belt and Road | RMB loans |
 | Oil trades | Some with Saudi, Russia |
 | Reserves | ~2.5% globally |
 
-Limited by capital controls.
+Limited by capital controls. See [[Currency swap lines]] for detailed network analysis.
 
 ---
 
@@ -87,6 +88,7 @@ Limited by capital controls.
 ## Related
 
 ### Concepts
+- [[Currency swap lines]] — PBOC network vs Fed network
 - [[BRICS]] — alternative bloc
 - [[Petrodollar]] — oil-USD link
 - [[Digital Yuan]] — CBDC

@@ -89,6 +89,20 @@ Microsoft Copilot is key competitive threat.
 
 ---
 
+## Saks Global investment
+
+Salesforce holds a minority equity stake in [[Saks Global]], acquired as part of the 2024 [[Saks-Neiman merger]] financing.
+
+| Term | Value |
+|------|-------|
+| Stake | Minority (smaller than [[Amazon]]'s 23%) |
+| Context | Part of investor group for Neiman acquisition |
+| Status | Equity wiped in [[Saks bankruptcy]] (Jan 2026) |
+
+A non-core strategic investment that resulted in total loss.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -103,6 +117,7 @@ Microsoft Copilot is key competitive threat.
 - Slower growth post-pandemic
 - Acquisition integration
 - Premium valuation
+- Saks write-off (minor)
 
 ---
 
@@ -125,3 +140,5 @@ Microsoft Copilot is key competitive threat.
 - [[ServiceNow]] — competitor (enterprise workflows)
 - [[Agentic AI]] — context (Agentforce strategy)
 - [[Slack]] — subsidiary (collaboration)
+- [[Saks Global]] — minority equity stake (wiped)
+- [[Saks bankruptcy]] — investment loss

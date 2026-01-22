@@ -28,7 +28,7 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 | **Semiconductor Silicon** | ~35% | 300mm wafers, SOI wafers |
 | PVC/Chemicals | ~30% | Polyvinyl chloride |
 | Silicones | ~15% | Industrial silicones |
-| Electronics | ~10% | Photoresists, rare earths |
+| Electronics | ~10% | Photoresists (~15% EUV share), rare earths |
 | Other | ~10% | Specialty materials |
 
 ---
@@ -94,15 +94,20 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 | Wafer share | ~30% |
 | Earnings | 1/27 |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
 
 ---
 
 ## Related
 
+- [[Long Japan wafers]] — investment thesis (Shin-Etsu as diversified play)
 - [[Sumco]] — #2 wafer competitor (Japan)
 - [[Siltronic]] — #3 wafer competitor (Germany)
 - [[TSMC]] — largest customer
 - [[Samsung]] — customer
 - [[Long WFE]] — upstream picks and shovels
 - [[Japan Semiconductor Revival]] — national context
+- [[JSR Corporation]] — #1 photoresist competitor (private)
+- [[Tokyo Ohka Kogyo]] — #2 photoresist competitor
+- [[Fujifilm]] — photoresist competitor
+- [[Sumitomo Chemical]] — photoresist competitor

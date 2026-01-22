@@ -158,6 +158,8 @@ TICKER_ALIASES = {
     # Lionsgate: Class B -> Class A
     'LGF.B': 'LGF.A',
     'LGF-B': 'LGF-A',
+    # TSMC: Common name -> NYSE ADR ticker
+    'TSMC': 'TSM',
 }
 
 def resolve_ticker_alias(ticker: str) -> str:

@@ -90,6 +90,12 @@ aliases: [MRK, Merck & Co]
 
 ---
 
+## TCJA repatriation (2018)
+
+Merck repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into M&A to address Keytruda patent cliff.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -119,6 +125,7 @@ aliases: [MRK, Merck & Co]
 
 - [[Biopharma]] — sector
 - [[Pfizer]] — pharma peer
+- [[Tax Cuts and Jobs Act]] — repatriation (2018)
 
 ---
 

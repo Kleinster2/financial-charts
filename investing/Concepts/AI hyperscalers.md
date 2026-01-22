@@ -12,13 +12,15 @@ Hyperscaler capex = demand signal for the whole stack:
 Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packaging) → Cohu (test)
 ```
 
-**2025 spending:**
+**2026 capex forecast:** ~$602B (CreditSights), up 36% YoY. See [[Hyperscaler capex]] for detailed analysis, chart, and forecasts.
+
+![[hyperscaler-capex.png]]
 
 | Category | Amount |
 |----------|--------|
-| Big 4 capex (Google, Meta, MSFT, AMZN) | **$370B+** |
-| Global AI VC (YTD Oct) | **$193B** (record) |
-| China AI capex | $98B (+48% YoY) |
+| Big 5 capex (2026E) | **~$602B** |
+| Global AI VC (2025 YTD Oct) | **$193B** (record) |
+| China AI capex (2025) | $98B (+48% YoY) |
 
 ---
 
@@ -62,9 +64,11 @@ See individual actor notes for details.
 
 ## Related
 
+- [[Hyperscaler capex]] — detailed capex analysis, chart, forecasts
 - [[Foundry Wars]] — context (hyperscalers drive foundry demand)
 - [[TSMC]] — primary foundry (most hyperscalers)
 - [[Samsung]] — alternative foundry (Musk ecosystem)
 - [[NVIDIA]] — supplier (GPU dominant)
 - [[Power constraints]] — constraint (44GW shortfall)
 - [[Broadcom]] — enabler (custom silicon design)
+- [[AI infrastructure financing]] — how capex is funded

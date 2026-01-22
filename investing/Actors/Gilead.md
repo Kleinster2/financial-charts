@@ -77,6 +77,12 @@ aliases: [GILD, Gilead Sciences]
 
 ---
 
+## TCJA repatriation (2018)
+
+Gilead repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and dividends.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -107,6 +113,7 @@ aliases: [GILD, Gilead Sciences]
 ## Related
 
 - [[Biopharma]] — sector
+- [[Tax Cuts and Jobs Act]] — repatriation (2018)
 
 ---
 

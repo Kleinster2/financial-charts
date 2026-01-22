@@ -63,8 +63,11 @@ Multi-stage investor, follows winners.
 ## Sequoia restructuring (2022-2024)
 
 **Major changes:**
-- Split from China/India operations
-- Now separate: Sequoia Capital, HongShan (China), Peak XV (India)
+- Split from China/India operations (completed March 2024)
+- Now three independent entities:
+  - Sequoia Capital (US/Europe)
+  - [[HongShan]] (China) — ~$56B AUM, also known as HSG
+  - [[Peak XV Partners]] (India/SEA)
 - US/Europe entity focused
 - Evergreen fund structure
 
@@ -132,6 +135,8 @@ Their NVIDIA bet = template for long-term thesis investing.
 
 - [[NVIDIA]] — portfolio (early investor, massive return)
 - [[OpenAI]] — portfolio (major position)
+- [[HongShan]] — former China arm (spun off March 2024)
+- [[Peak XV Partners]] — former India arm (spun off March 2024)
 - [[a16z]] — peer (top-tier VC)
 - [[Lightspeed Venture Partners]] — peer (top-tier VC)
 - [[Benchmark]] — peer (top-tier VC)

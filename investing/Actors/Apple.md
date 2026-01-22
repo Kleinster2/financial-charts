@@ -15,6 +15,16 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ---
 
+## Charts
+
+![[aapl-90d.png]]
+
+![[aapl-vs-qqq.png]]
+
+![[aapl-fundamentals.png]]
+
+---
+
 ## Key strengths
 
 - **Silicon design**: Best-in-class mobile SoCs, now expanding to Mac (M-series)
@@ -70,13 +80,13 @@ This is [[Customer lock-in via co-design]] in action — accumulated knowledge t
 
 **Contrast with peers:**
 
-| OEM | Response |
-|-----|----------|
-| **Apple** | "Managing costs well" |
-| [[Dell]] | "Never seen costs move at this rate" |
-| [[Lenovo]] | Hoarding 50% extra inventory |
-| [[HP Inc.]] | Warning of H2 2026 price hikes |
-| [[Xiaomi]] | +25% DRAM cost per phone |
+| OEM         | Response                             |
+| ----------- | ------------------------------------ |
+| **Apple**   | "Managing costs well"                |
+| [[Dell]]    | "Never seen costs move at this rate" |
+| [[Lenovo]]  | Hoarding 50% extra inventory         |
+| [[HP Inc.]] | Warning of H2 2026 price hikes       |
+| [[Xiaomi]]  | +25% DRAM cost per phone             |
 
 Apple's scale + premium positioning = memory shortage hedge.
 

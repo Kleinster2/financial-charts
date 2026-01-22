@@ -126,8 +126,12 @@ Iran is uninvestable for most Western capital, but matters for:
 
 ## Related
 
+- [[Iranian economic collapse]] — currency as instability indicator
+- [[UN snapback]] — multilateral sanctions reimposed Sep 2025
 - [[Secondary sanctions]] — tariff-based approach (25%, Jan 2026)
 - [[US Sanctions]] — primary constraint on economy
+- [[Shadow fleet]] — oil export evasion mechanism
+- [[Chinese teapot refineries]] — primary oil buyers
 - [[US-China tariffs]] — could escalate to 74%+ via Iran link
 - [[Oil]] — Iran supply dynamics
 - [[Israel]] — regional adversary

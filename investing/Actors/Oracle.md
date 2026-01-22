@@ -111,6 +111,12 @@ Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies en
 
 ---
 
+## TCJA repatriation (2018)
+
+Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into aggressive M&A spree.
+
+---
+
 ## Financial position
 
 | Metric | Value |
@@ -140,23 +146,68 @@ Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies en
 
 ---
 
+## [[Guggenheim Partners]] "decade stock" thesis (Jan 2026)
+
+**John DiFucci's $400 price target** — 118% upside from $183 (Barron's, Jan 20, 2026):
+
+| Metric | DiFucci estimate |
+|--------|------------------|
+| 5-year capex need | ~$290B |
+| New borrowing by FY28 | ~$112B |
+| Total debt (post-raise) | >$200B |
+| FY30 revenue target | $166B |
+| Price target | $400 |
+
+**The capital math:**
+- $290B capex over 5 years to hit $166B revenue by 2030
+- ~$112B in new borrowing needed by FY28
+- Could issue equity instead (Ellison owns 41%, would dilute if value-accretive)
+- "Bring your own chip" deals — customers provide GPUs, cuts capex 45-65%
+
+**Why it works (per DiFucci):**
+- "Better mousetrap" — OCI built on AWS lessons
+- Enterprise-grade scaling/security "like no others can today"
+- "Hyper rate" growth, "waterfall" cash flows
+
+**OpenAI risk framing:**
+- OpenAI has $1.4T in commitments vs ~$13B annual revenue
+- But backstopped: Microsoft (27% stake, $135B), AMD chips-for-equity, potential Nvidia investment up to $100B
+- DiFucci: "With this risk comes significant opportunity"
+
+**Timeline:** "Decade stock" but numbers should be "irrefutable" in 5 years, "obvious long before that."
+
+*Stock lost ~$400B market cap in 4 months to Jan 2026. DiFucci sees this as entry point for long-horizon investors.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ORCL |
+| Ticker | ORCL (NYSE) |
 | Market cap | ~$500B |
+| Revenue (FY26E) | $66.9B |
+| Revenue (FY27E) | $86.0B |
+| EPS (FY26E) | $7.34 |
+| EPS (FY27E) | $7.95 |
 | Cloud revenue | ~$20B |
 | AI capex | $10B+ |
 | Stargate role | JV partner |
 | xAI connection | Colossus on OCI |
 
-*Updated 2026-01-04*
+*Updated 2026-01-20*
+
+![[orcl-price-chart.png]]
+
+![[orcl-fundamentals.png]]
+
+*Notable: Revenue growing 28% but EPS only 8% in FY27 — margin compression from AI infrastructure buildout. Q3 FY18 and Q2 FY22 net income excluded (one-time charges distort scale).*
 
 ---
 
 ## Related
 
+- [[Guggenheim Partners]] — DiFucci "decade stock" thesis ($400 PT)
 - [[Project Stargate]] — JV partner ($500B AI infrastructure)
 - [[SoftBank]] — Stargate co-investor
 - [[OpenAI]] — Stargate anchor tenant
@@ -166,3 +217,4 @@ Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies en
 - [[Nuclear power for AI]] — Larry Ellison's DC vision
 - [[BYOP]] — power strategy context
 - [[AI hyperscalers]] — category (tier 2)
+- [[Tax Cuts and Jobs Act]] — ~$35B repatriation (2018)

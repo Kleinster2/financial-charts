@@ -159,7 +159,9 @@ Iran tariff approach is novel — using trade policy instead of financial sancti
 ## Related
 
 ### Sanctions
-- [[Secondary sanctions]] — Rosneft/Lukoil, shadow fleet (traditional approach)
+- [[Secondary sanctions]] — Rosneft/Lukoil (traditional approach)
+- [[Shadow fleet]] — ~978 tankers evading sanctions
+- [[Chinese teapot refineries]] — primary oil buyers
 - [[US Sanctions]] — comprehensive restrictions
 - [[OFAC]] — administers sanctions
 
