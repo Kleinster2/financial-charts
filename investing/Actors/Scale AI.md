@@ -126,12 +126,13 @@ Wang: "America must win the AI war."
 
 ## Revenue trajectory
 
-| Year | Revenue |
-|------|---------|
-| 2024 | $870M |
-| 2025E | $2B |
+| Year | Revenue | Notes |
+|------|---------|-------|
+| 2024 | $870M | — |
+| 2025E | $2B | Doubled YoY; $1B+ new bookings, 50%+ in Q4 |
+| 2026E | ~$2B+ | 130% growth projected from 2024 base |
 
-Rapid growth, approaching profitability.
+Gross margins estimated 50-60%. Approaching profitability. ARR hit $1.5B run rate by end 2024.
 
 ---
 
@@ -146,19 +147,47 @@ Effectively a Meta subsidiary now.
 
 ---
 
+## Customer concentration risk (2026)
+
+Meta's 49% ownership has created competitive conflicts:
+- Google, OpenAI, xAI have reduced or paused engagements
+- Data confidentiality concerns (competitor owns the platform)
+- Scale must prove independence despite Meta's influence
+
+---
+
+## Robotics expansion (Sep 2025)
+
+Expanded into robotics data collection — hiring hundreds of contractors globally to record point-of-view demonstrations for startups training AI-powered robots. Diversification beyond text/image labeling.
+
+---
+
+## Business evolution
+
+By 2026, Scale has evolved beyond data labeling into a full-stack "AI Readiness" partner:
+- 400+ enterprise clients worldwide
+- Donovan platform deployed on classified networks (SIPRNet, JWICS)
+- Military commanders query real-time battlefield data via natural language
+- Spans tech giants, automotive, government, and startups
+
+---
+
 ## Investment case
 
 **Bull:**
-- Data labeling essential for AI
-- Meta backing = resources
-- Government contracts = moat
-- $2B revenue trajectory
+- Data labeling essential for AI training
+- Meta backing = massive resources and scale
+- $249M DoD + $99M Army contracts = government moat
+- $2B revenue trajectory, 130% growth
+- Robotics expansion opens new TAM
+- Donovan = sticky defense platform
 
 **Bear:**
-- Meta controls destiny
-- Wang departed
-- Labeling commoditizing
-- Geopolitical concentration risk
+- Meta controls destiny (49% ownership)
+- Wang departed (founder risk)
+- Customer concentration risk (Google, OpenAI reducing engagement)
+- Labeling may commoditize long-term
+- IPO timeline uncertain (Meta liquidity reduced pressure)
 
 ---
 
@@ -172,7 +201,7 @@ Effectively a Meta subsidiary now.
 | Interim CEO | Jason Droege |
 | Founder | Alexandr Wang (at Meta) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-23*
 
 ---
 
