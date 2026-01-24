@@ -11,8 +11,8 @@
 | GDP | ~$4.5T (#3 globally) |
 | Population | 84M |
 | Key sectors | Autos, machinery, chemicals, pharma |
-| Government | Coalition (SPD-led) |
-| Chancellor | Olaf Scholz |
+| Government | CDU/CSU-SPD coalition |
+| Chancellor | Friedrich Merz (since 2025) |
 
 ---
 
@@ -28,6 +28,22 @@ Feb 2022 speech by Scholz after Ukraine invasion. Historic shift in defense post
 | NATO commitment | 2%+ GDP |
 
 See [[European defense spending]].
+
+---
+
+## Schuldenbremse reform (2025)
+
+Merz overhauled the constitutional debt brake, enabling ~€1T in borrowing through 2029.
+
+| Component | Amount |
+|-----------|--------|
+| Infrastructure fund | €500B over 12 years |
+| Defense exemption | Unlimited (above 1% GDP) |
+| Total borrowing | ~€850B by 2029 |
+
+**Skeptic view:** Deutsche Bank sees no significant growth improvement — funds leaking to social spending, subsidies. Debt/GDP could hit 85% by 2035 without commensurate GDP gains.
+
+See [[Schuldenbremse reform]] for full analysis.
 
 ---
 
@@ -70,6 +86,20 @@ See [[European defense spending]].
 | Hensoldt | Sensors, radar |
 | KNDS | Tanks (JV with France) |
 
+### Space
+
+Germany emerging as potential space power with plans to invest **€35B** in space-defense capabilities by 2030.
+
+| Company | Focus |
+|---------|-------|
+| [[Isar Aerospace]] | Orbital launch startup (€500M+ raised) |
+| Rocket Factory Augsburg | Launch startup (pre-orbital) |
+| OHB | Satellites, systems integration |
+
+**Bundeswehr satellite constellation:** Germany's military reportedly wants its own constellation — domestic launch startups likely beneficiaries.
+
+**ESA role:** Germany is ESA's largest contributor. Two of five European Launcher Challenge recipients are German (Isar, RFA).
+
 ---
 
 ## Structural challenges
@@ -107,6 +137,7 @@ Russia gas cutoff (2022) exposed dependency.
 | Semiconductor push | [[Infineon]], equipment suppliers |
 | Auto transition | BMW (winner?), VW (struggling) |
 | Industrial automation | [[Siemens]] |
+| Space-defense | [[Isar Aerospace]], OHB (€35B by 2030) |
 
 ---
 
@@ -136,6 +167,8 @@ Russia gas cutoff (2022) exposed dependency.
 - [[EU Chips Act]] — semiconductor policy
 - [[BYD]] — auto competition threat
 - [[EU-Mercosur agreement]] — auto industry beneficiary
+- [[Isar Aerospace]] — leading domestic launch startup
+- [[Space]] — €35B space-defense investment by 2030
 
 ---
 

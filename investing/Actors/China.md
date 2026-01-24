@@ -28,6 +28,27 @@ State actor shaping semiconductor industry through industrial policy, export con
 
 **Fitch warning:** Investment crash raising credit risks for homebuilders, banks, and local government financing vehicles (LGFVs).
 
+### Cement collapse (Jan 2026)
+
+Cement tells the construction story most clearly — after decades of growth, China's construction-driven economy has structurally peaked. See [[Cement]] for industry dynamics and why cement behaves differently from other commodities.
+
+![[china-cement-vs-building-starts.png]]
+*Building starts collapsed to 2003 levels; cement output still 2x higher — more decline ahead.*
+
+| Metric | Value |
+|--------|-------|
+| China share of global | ~50% |
+| Decline since 2020 | **-30%** |
+| 2026 outlook | 6th consecutive year of decline |
+| Peak per-capita (2014) | 1.8 tons |
+| Current per-capita | ~1.2 tons (4x global avg) |
+| Capacity utilization | ~50% |
+| Prices | Decade lows |
+
+**Projection:** At 4%/year decline, China produces 350M fewer tons by 2030 — no other market can replace this shortfall.
+
+*Source: Bloomberg Opinion (David Fickling), Jan 21 2026*
+
 ### Monetary policy
 
 **PBOC:** Held 1-year and 5-year LPR at 3%/3.5% — 8th consecutive month unchanged.
@@ -84,6 +105,32 @@ China is central to every major semiconductor thesis:
 - Tencent WeDLM-8B model (beats Qwen3-8B)
 - Heavy stockpiling of NVIDIA chips pre-restrictions
 
+### Huawei as national champion strategy (Jan 2026)
+
+**[[David Sacks]] (Davos, Jan 23):** China actively blocking NVIDIA chips to indigenize chip production and stand up [[Huawei]] as national champion.
+
+| Element | Detail |
+|---------|--------|
+| Mechanism | Keeping out competition = market subsidy for Huawei |
+| Plan | Huawei dominates China first → uses scale → takes over rest of world |
+| Logic | Chip production is a scale-up business — domestic dominance = platform for global push |
+| Parallel | Echoes Huawei telecom playbook (Trump I era) |
+| Bloomberg/Reuters | Reported China not allowing NVIDIA chips into country |
+
+**The telecom lesson ([[Michael Kratsios]], Davos):** Huawei wasn't the best technology in telecom — "certainly subpar compared to Ericsson and Nokia" — but was "good enough" and "subsidized enough" to become default for much of the world. China now applying same playbook to AI chips.
+
+### Energy advantage (Sacks, Davos Jan 2026)
+
+| Metric | China | US |
+|--------|-------|-----|
+| Grid growth (last 10 years) | **~doubled** | 2-3% |
+| New power plants | New nuclear/coal plant every week | Slow permitting |
+| Constraint | GPU access (export controls) | Power access (44GW gap) |
+
+**Sacks framing:** The two countries face inverted constraints. US has best chips but can't power them. China has abundant power but can't get best chips. See [[Power constraints]] for full analysis.
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
 ---
 
 ## Industrial policy
@@ -99,9 +146,23 @@ China is central to every major semiconductor thesis:
 - Phase III: $47B (2024)
 - Focus shifting from logic to equipment/materials
 
-### Public sentiment
-- Chinese citizens significantly more trusting of AI/tech sector than US/EU
+### Public sentiment / AI optimism
+
+**Stanford polling (cited by Sacks, Davos Jan 2026):**
+
+| Country/Region | "AI more beneficial than harmful" |
+|----------------|-----------------------------------|
+| **China** | **83%** |
+| **US** | **39%** |
+| Asian countries | Generally high |
+| Western countries | Generally low |
+
+**Sacks's concern:** China's AI optimism = competitive advantage. Less public resistance → less regulatory friction → faster deployment. US could "shoot ourselves in the foot" with overregulation driven by low AI optimism (1,200+ state AI bills in progress).
+
+**Possible explanations (Sacks):** (1) Western media focuses on doom/gloom, (2) Hollywood dystopian portrayals (Terminator, 2001), (3) US tech leaders talking about eliminating 50% of knowledge workers sounds dystopian.
+
 - Less regulatory friction for deployment
+- 15th Five-Year Plan explicitly pro-AI
 
 ---
 
@@ -204,6 +265,41 @@ See [[China cybersecurity ban]] for full analysis.
 **New tariff lines:** Bio-aviation kerosene, under-forest ginseng. Total: 8,972 lines.
 
 **Signal:** "Not broad trade liberalization — targeted opening for industrial self-reliance."
+
+---
+
+## AI IPO surge (Jan 2026)
+
+Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
+
+| Company | Event | Detail |
+|---------|-------|--------|
+| Shanghai Biren Technology | HK IPO (Jan 2026) | **+120%** on debut, raised $717M — AI chip designer |
+| Baidu AI chip unit (Kunlun) | Filed confidentially | HK listing planned |
+| MiniMax Group | Expected H1 2026 | AI foundation model startup |
+| Zhipu AI | Expected H1 2026 | AI foundation model startup |
+
+**Open-source AI strategy gaining global traction:** [[Meta]] reportedly using Alibaba's Qwen model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
+
+**Policy context:** Central economic work conference + 15th Five-Year Plan (2026-2030) put AI at center of economic agenda. "Policy-driven growth" — AI for industrial upgrading, not just consumer apps.
+
+**Consumer sentiment headwind:** ~100M fewer credit cards since Sep 2022. Policy focus on consumption, but households remain cautious.
+
+*Source: SCMP, Yahoo Finance, Jan 2026*
+
+---
+
+## Humanoid robotics push
+
+**First humanoid robot retail store** opened in Wuhan (Jan 2026) — robots + AI gadgets in "living showroom." Motion-capture calligraphy training demos.
+
+**CES 2026 dominance:** 21 of 38 humanoid exhibitors at CES were Chinese. 7,705 humanoid-related patents filed in 5 years (vs US 1,561). Over 150 humanoid robot companies in China.
+
+**Humanoid Robot Games:** Soccer, running, boxing events — building public engagement with robotics technology.
+
+**Strategic logic:** China racing to boost productivity amid rapidly aging workforce (population -3.39M in 2025, only 7.92M births). Humanoid robots as manufacturing labor substitute aligns with demographic crisis.
+
+*Source: CGTN, Interesting Engineering, Jan 2026*
 
 ---
 

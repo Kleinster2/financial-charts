@@ -64,6 +64,9 @@ Latin America's emerging DC capital:
 - DCs traditionally water-intensive
 - Pushing water-free cooling
 - Environmental concerns
+- **Public discussions** ongoing about DC water use (WEF Jan 2026)
+
+**UNDP data:** Even small data centers require annual water equivalent to ~300,000 people. This creates public concern in water-stressed regions like Querétaro.
 
 ---
 

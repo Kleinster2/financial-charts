@@ -104,6 +104,30 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 | Materials | JSR, Shin-Etsu dominant |
 | Strategy pivot | Advanced packaging (vs competing with TSMC on lithography)
 
+### China anti-dumping probe (Jan 7, 2026)
+
+China investigating Japanese dichlorosilane imports — key semiconductor manufacturing chemical. Japan controls 72% of China's domestic supply (2022-2024 average). Probe covers Jul 2024 - Jun 2025.
+
+**Strategic significance:** Potential retaliation tool in tech war. Japan's three leading producers (Tokuyama, Mitsubishi Chemical, Shin-Etsu) dominate global supply. If China imposes duties, must find alternatives or develop domestic capacity.
+
+*Source: UPI, Jan 7 2026*
+
+---
+
+## Nuclear restart
+
+**Kashiwazaki-Kariwa Unit 6 restart (Jan 2026):** TEPCO restarted first reactor at world's largest nuclear complex (7 units, 8.2 GW total capacity). First TEPCO nuclear operation since Fukushima (2011).
+
+**Significance:**
+- Before 2011, nuclear = ~30% of Japan's electricity
+- Currently nuclear = ~7% (only 12 of 33 operable reactors running)
+- Energy security critical for semiconductor manufacturing (power-intensive)
+- Reduces LNG import dependence
+
+**Remaining capacity:** If all operable reactors restart, Japan could recover ~20% of electricity from nuclear. Political and safety hurdles remain significant.
+
+*Source: Japan Today, Jan 2026*
+
 ---
 
 ## Key companies

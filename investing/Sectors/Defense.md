@@ -19,10 +19,12 @@ Defense spending entering structural upcycle driven by:
 
 ### Spending trajectory
 
-| Metric | 2024 | 2040 (S&P est) |
-|--------|------|----------------|
-| Global defense spending | ~$2.5T | **$6T** |
-| Growth | — | +140% |
+| Metric | 2025 | 2027E | 2040 (S&P est) |
+|--------|------|-------|----------------|
+| Global defense spending | **>$2.5T** | **>$3T** | **$6T** |
+| Growth | — | Double-digit | +140% vs 2024 |
+
+Sector +55% past year (Jan 2026). Global X expects double-digit spending growth for "foreseeable future."
 
 > "Every advanced weapon system depends on the metal." — S&P Global (on copper/materials constraints)
 
@@ -78,6 +80,19 @@ China defense spending officially ~$230B but likely understated.
 
 ---
 
+## Drone pure-plays
+
+| Company | Market cap | Focus |
+|---------|------------|-------|
+| [[AeroVironment]] | ~$9B | Small UAS, loitering munitions (Switchblade) |
+| [[Kratos]] | ~$8B | Attritable drones (Valkyrie), hypersonic targets |
+
+Drone business "red hot" (William Blair, Jan 2026). Backlogs surging on [[Golden Dome]], Ukraine lessons, and global rearmament. Both trading at 90-106x forward earnings.
+
+See [[Drone warfare]] for full landscape: cost asymmetry, Ukraine lessons, demand drivers, counter-drone problem.
+
+---
+
 ## New defense players
 
 | Company | Focus | Status |
@@ -107,39 +122,7 @@ China defense spending officially ~$230B but likely understated.
 
 ## Munitions & supply chain
 
-### Artillery production ramp
-
-Stockpiles depleted by Ukraine war. Massive production expansion underway.
-
-| Region | Pre-war | Target | Timeline |
-|--------|---------|--------|----------|
-| US | 93K shells/yr | 1.2M shells/yr | 2025 |
-| EU | 230K shells/yr | 3M shells/yr | End of decade |
-
-US investing **$5B** in munitions factory upgrades.
-
-### Copper in weapons
-
-Copper is **second-highest material by weight** in US defense production.
-
-| Application | Copper use |
-|-------------|------------|
-| 155mm artillery shell | 0.5 kg each |
-| Driving bands | Shell rotation/rifling |
-| Shaped-charge liners | Anti-tank munitions |
-| Bullet jackets | Small arms rounds |
-| Missile guidance | Electronics, wiring |
-
-See [[Copper]] for supply constraints — 17-year mine timeline vs. surging defense demand.
-
-### Critical materials
-
-| Material | Defense use | Supply risk |
-|----------|-------------|-------------|
-| Copper | Munitions, electronics | China 40% smelting |
-| Rare earths | Guidance, motors | China 60%+ processing |
-| Titanium | Airframes, armor | Russia supply disrupted |
-| Tungsten | Armor-piercing rounds | China dominant |
+See [[Defense supply chain]] — artillery production ramp (US 93K→1.2M shells/yr, EU targeting 3M/yr), missile production constraints, critical materials (copper, rare earths, titanium, tungsten), propellant bottlenecks.
 
 ---
 
@@ -204,10 +187,13 @@ See [[Long defense AI]].
 
 ## Valuation
 
-Defense stocks typically trade at:
-- P/E: 15-20x
-- Premium for growth (Palantir exception at 100x+)
-- Backlog provides visibility (1-2 years)
+| Segment | P/E (Jan 2026) | Historical |
+|---------|----------------|------------|
+| Large US primes | **24x** | 16x (Jan 2025) |
+| Drone pure-plays (AVAV, KTOS) | **90-106x** | — |
+| AI defense (Palantir) | 100x+ | — |
+
+Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well above historical 15-20x range. Expected EPS growth **+15%** in 2026 (vs 6% historical avg) partially justifies expansion. Drone stocks priced beyond even AI multiples.
 
 ---
 
@@ -232,8 +218,10 @@ Defense stocks typically trade at:
 - [[Golden Dome]] — $1T+ missile defense program
 - [[Copper]] — critical material, munitions demand
 - [[Anduril]], [[Palantir]] — AI-first defense
+- [[Defense supply chain]] — munitions ramp, critical materials
+- [[Drone warfare]] — attritable concept, Ukraine validation, demand drivers
 - [[Northrop Grumman]] — B-21, space
 
 ---
 
-*Updated 2026-01-10*
+*Updated 2026-01-23*

@@ -70,8 +70,14 @@ Struggled to commercialize.
 | Status | **Production-ready** |
 
 **First deployments (2026):**
-- [[Hyundai]] Metaplant Georgia
-- Google DeepMind (AI partner)
+- [[Hyundai]] Metaplant Georgia — factory automation
+- [[Google]] DeepMind Gemini Robotics partnership — AI foundation models for manipulation and reasoning
+
+**Google DeepMind partnership (Jan 2026):**
+- Integrating Gemini Robotics vision-language models into Atlas
+- Goal: general-purpose manipulation without task-specific programming
+- Combines BD hardware (56 DOF, production-ready) with DeepMind's foundation model approach
+- Positions Atlas as AI-native humanoid (vs competitors using narrower autonomy stacks)
 
 **History:**
 - Most advanced humanoid demos (parkour, backflips)
@@ -90,14 +96,29 @@ Struggled to commercialize.
 
 ---
 
+## CES 2026 competitive landscape
+
+**China dominance at CES 2026:**
+- 21 of 38 humanoid exhibitors were Chinese companies
+- 7,705 humanoid patents filed in China in 5 years (vs US 1,561)
+- 150+ humanoid robot companies in China
+- [[UBTECH]] Walker S2: 1,000+ delivered (Nov 2025) — "world's first mass delivery"
+- Unitree: G1/H2/R1 lineup, affordability-focused
+
+**Boston Dynamics' moat:** Production-readiness + DeepMind AI partnership differentiates from Chinese volume play. Hardware quality (56 DOF, 110 lbs lift) exceeds Chinese competitors. But China moving fast on cost/volume curve.
+
+**Nature assessment (Jan 2026):** Humanoid robots "on brink of being commercially useful" — cheaper parts, better batteries, AI algorithms all converging.
+
+---
+
 ## Commercialization challenge
 
 | Issue | Impact |
 |-------|--------|
 | High R&D costs | Multiple owners |
 | Spot is niche | Limited TAM |
-| Atlas not commercial | No humanoid revenue |
-| Competition | Startups catching up |
+| Atlas entering production | First revenue 2026 |
+| Competition | Chinese startups + Tesla catching up |
 
 ---
 
@@ -120,7 +141,7 @@ Struggled to commercialize.
 | Commercial robot | Spot |
 | Status | Subsidiary |
 
-*Updated 2026-01-08*
+*Updated 2026-01-23*
 
 ---
 
@@ -131,7 +152,8 @@ Struggled to commercialize.
 - [[Agility Robotics]] — competitor (warehouse robots)
 - [[Tesla]] — competitor (Optimus)
 - [[Unitree]] — competitor (Chinese humanoids)
-- [[NVIDIA]] — supplier (AI compute)
-- [[Google]] — DeepMind AI partner for Atlas
+- [[NVIDIA]] — supplier (AI compute, GR00T humanoid models)
+- [[Google]] — DeepMind Gemini Robotics partner for Atlas
+- [[UBTECH]] — competitor (Walker S2, 1,000+ mass delivery)
 - [[CES 2026]] — Atlas production announcement
 

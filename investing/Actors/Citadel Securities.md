@@ -84,6 +84,18 @@ Citadel is the plumbing of US equity markets:
 
 ---
 
+## Meme stock legacy: retail boom beneficiary (Jan 2026)
+
+The GameStop saga permanently elevated retail trading volumes — and Citadel Securities captures a disproportionate share. Self-directed retail flows remain at $1-3B daily (vs $0-1B pre-2021), and Citadel executes ~40% of retail equity orders.
+
+The boom in retail trading has been "great" for Griffin's market-making firm (CNBC, Jan 2026). The same meme stock phenomenon that nearly caused a systemic crisis ultimately expanded Citadel's addressable market.
+
+See [[Retail investor flows]] for the structural shift.
+
+*Source: Barron's, Jan 23 2026*
+
+---
+
 ## Investment case
 
 **Can't invest directly** (private), but relevant context for:
@@ -144,6 +156,8 @@ Citadel is the plumbing of US equity markets:
 
 ## Related
 
+- [[GameStop]] — meme stock controversy (Jan 2021)
+- [[Retail investor flows]] — structural beneficiary of elevated retail volumes
 - [[Robinhood]] — largest PFOF client
 - [[Tokenized private shares]] — market structure context
 - [[Market structure]] — regulatory context

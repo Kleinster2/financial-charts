@@ -16,16 +16,18 @@
 
 ---
 
-## Germany: Zeitenwende
+## Germany: Zeitenwende → Schuldenbremse
 
-"Zeitenwende" (turning point) — Chancellor Scholz's Feb 2022 speech.
+"Zeitenwende" (turning point) — Chancellor Scholz's Feb 2022 speech. Followed by [[Schuldenbremse reform]] in 2025 under Merz — constitutional change enabling unlimited defense borrowing.
 
-| Initiative | Amount |
-|------------|--------|
-| Special fund | €100B one-time |
-| Annual budget | €52B → €72B target |
-| F-35 purchase | 35 aircraft |
-| NATO commitments | 2%+ GDP |
+| Initiative | Amount | Year |
+|------------|--------|------|
+| Special fund | €100B one-time | 2022 |
+| Annual budget | €52B → €72B target | 2022 |
+| **Defense exemption** | **Unlimited** (above 1% GDP) | 2025 |
+| F-35 purchase | 35 aircraft | 2022 |
+
+**2025 shift:** Schuldenbremse reform exempts all defense spending above 1% GDP from constitutional debt limits — effectively no ceiling on German military spending.
 
 **Beneficiaries:** [[Rheinmetall]], Hensoldt, Krauss-Maffei Wegmann.
 
@@ -95,6 +97,27 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 
 ---
 
+## 2025-2026 escalation
+
+**NATO target upgrade (Jun 2025):** 2% → **5% of GDP by 2035.** This transforms the spending profile from catch-up to structural expansion.
+
+| Development | Value | Date |
+|-------------|-------|------|
+| **NATO target** | **5% GDP** by 2035 | Jun 2025 |
+| STOXX Aerospace & Defense | **+65%** in 2025 | Dec 2025 |
+| **DTCP "Project Liberty"** | **€500M** — Europe's largest defense VC fund | Jan 2026 |
+| **EU EDF 2026** | **€1B** for defense R&D | 2026 budget |
+| [[Helsing]] valuation | **€12B** — Europe's most valuable defense startup | Jun 2025 |
+| Germany Uranos KI | AI targeting system, deploy 2026 | Jan 2026 |
+
+**Kubilius estimate (EU defense commissioner):** EU would need **3M drones/year** just to hold Lithuania in wider Russia war. Current capacity is a fraction of this.
+
+**2026 theme:** Defense tech startups must prove they can scale manufacturing. Rheinmetall, BAE may acquire VC-backed defense tech to accelerate.
+
+**Pistorius (German DefMin):** €35B for space security 2026-2030.
+
+---
+
 ## Investment thesis
 
 **Bull:**
@@ -115,12 +138,15 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 ## Related
 
 - [[Rheinmetall]] — German defense champion
+- [[Schuldenbremse reform]] — Germany's 2025 debt brake overhaul (unlimited defense spending)
 - [[Defense]] — sector overview
 - [[Europe]] — regional hub
 - [[Germany]] — Zeitenwende
 - [[NATO]] — alliance context
 - [[Ukraine]] — demand driver
+- [[Helsing]] — Europe's top defense startup (€12B, AI + drones + autonomous vehicles)
+- [[Section 232 semiconductor tariff]] — AI chip access for defense applications (exempted)
 
 ---
 
-*Created 2026-01-10*
+*Updated 2026-01-23*

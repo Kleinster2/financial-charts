@@ -141,8 +141,9 @@ Balancing US and China.
 
 ## Related
 
+- [[Latin America AI competitiveness]] — regional context (Brazil leads LatAm in AI readiness)
 - [[Amazon]] — investor ($1.8B AWS expansion)
-- [[Microsoft]] — investor (Azure Brazil)
+- [[Microsoft]] — investor (Azure Brazil, R$14.7B)
 - [[Google]] — investor (GCP presence)
 - [[India AI]] — peer (emerging AI sovereign)
 - [[Argentina]] — peer (LATAM AI, Stargate)

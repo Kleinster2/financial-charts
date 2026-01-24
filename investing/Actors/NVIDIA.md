@@ -89,14 +89,32 @@ See [[Export controls]] for full context.
 
 **Before controls:** 95% China AI chip share
 **After controls:** ~0% (tight restrictions)
-**H200 approved (Dec 2025):** 25% cut to US govt on sales, shipping before Lunar New Year. Could recover 10-25% share.
+**H200 approved (Jan 14, 2026):** Section 232 proclamation formalizes "managed access" framework. NVIDIA can sell H200 to China with conditions.
 
-**Jan 2026 framework details:**
+**Section 232 tariff (Jan 14, 2026):**
+
+| Detail | Value |
+|--------|-------|
+| Rate | **25%** on advanced AI chips (H200, MI325X) |
+| Authority | Section 232 (not IEEPA — firmer legal ground) |
+| Revenue | **$4-6B/year** → funds domestic manufacturing |
+| Named future chips | Rubin R100 (3nm/HBM4), AMD MI455X |
+| Exemptions | US data centers, R&D, startups, public sector |
+
+**China sales conditions:**
+
 | Requirement | Detail |
 |-------------|--------|
-| Review process | Case-by-case (eased from presumed denial) |
-| US shortage cert | Must certify no domestic shortage |
-| **China cap** | **≤50% of US market production** |
+| Framework | "Managed access" (replaces "presumption of denial") |
+| **Volume cap** | **≤50% of US domestic sales** |
+| Verification | Every shipment → US third-party lab |
+| Routing | Taiwan → US → China (detour required) |
+| **First shipment** | **82,000 H200 GPUs, mid-February 2026** |
+| Tariff bearer | NVIDIA (can pass to Chinese buyers) |
+
+**NVIDIA reaction:** "Applauds President Trump's decision to allow America's chip industry to compete."
+
+**Escalation risk:** Tariff could rise to 100% if domestic manufacturing milestones not met. Phase 3 (Jun 2027) folds in legacy chips.
 
 **China response:** Global Times dismissed as "discriminatory" — targeted specifically at China vs other trading partners.
 
@@ -124,6 +142,17 @@ See [[Export controls]] for full context.
 - US estimates Huawei can make millions of Ascend 910C in 2026 (vs 200K in 2025)
 - Cambricon, Hygon even further behind
 - Even "outdated" H200 beats all Chinese alternatives
+
+**Jan 23, 2026 — Jensen Huang planning China visit:**
+
+Jensen Huang plans to visit China in coming days ahead of mid-February Lunar New Year. Context:
+- Reports that Chinese officials told major tech firms to "begin preparing orders" for H200
+- First H200 shipment expected mid-February (82K GPUs) — timing aligns with visit
+- Chinese regulators haven't officially approved H200 imports on their side
+- Unclear whether Beijing's Jan 14 "effective ban" directive has softened
+- Stock +1.6% on Jan 23 on the China order preparation reports
+
+*Source: CNBC, Jan 23 2026*
 
 **Dual ecosystem forming:**
 - Training: NVIDIA (high barriers)
@@ -323,6 +352,13 @@ See [[Short interest]] for interpretation framework.
 
 See [[NVIDIA-Intel partnership]] for full analysis.
 
+**Baseten investment ($150M, Jan 20):**
+- $150M into AI inference startup [[Baseten]] as part of $300M round at $5B valuation
+- Round co-led by IVP, CapitalG (Alphabet's growth fund)
+- Baseten = "AWS for inference" — serves Cursor, Notion
+- Continues pattern of investing in inference customers (see [[NVIDIA as kingmaker]])
+- Same week as Groq deal ($20B) — NVIDIA now backing multiple inference plays
+
 **CES 2026 announcements:**
 - Vera Rubin NVL72: 5x inference vs Blackwell, 10x lower cost/token, H2 2026
 - Alpamayo: Open reasoning models for autonomous vehicles
@@ -454,4 +490,5 @@ See [[CES 2026]] for event details.
 - [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)
+- [[Baseten]] — inference infrastructure investment ($150M, Jan 2026)
 - [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics

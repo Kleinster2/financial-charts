@@ -85,6 +85,8 @@ SK Hynix isn't a foundry, but:
 
 **Yongin cluster:** Expected to become world's largest HBM production hub by 2027.
 
+**Supercycle context (Jan 2026):** Bank of America calls this a "supercycle similar to 1990s boom" — DRAM revenue +51% YoY, NAND +45%. Nov 2025 monthly semiconductor sales hit $75.3B (all-time record, +29.8% YoY). IDC warns "unprecedented" shortage may persist to 2027.
+
 ---
 
 ## New York listing exploration (Jan 2026)
@@ -109,7 +111,7 @@ SK Hynix isn't a foundry, but:
 | 2.5D mass production | Targeting 2028 |
 | US listing | Exploring (2026) |
 
-*Updated 2026-01-21*
+*Updated 2026-01-23*
 
 ---
 
@@ -148,3 +150,5 @@ SK Hynix isn't a foundry, but:
 - [[Samsung]] — competitor (Korean rival in memory)
 - [[Memory shortage 2025-2026]] — thesis (HBM shortage driver)
 - [[NVIDIA]] — customer (HBM for GPUs)
+- [[Project Stargate]] — demand driver (900K wafers/month committed)
+- [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US HBM demand

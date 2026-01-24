@@ -40,13 +40,29 @@ aliases: [LHX, L3, Harris]
 
 ---
 
+## Missile business spinoff (Jan 2026)
+
+Spinning out Aerojet Rocketdyne missile business as **separately traded public company**, targeting completion by end of 2026.
+
+| Detail | Value |
+|--------|-------|
+| DoD investment | **$1B** in spinoff entity |
+| IPO proceeds | Fund capacity expansion |
+| Analyst view | Jefferies (Kahyaoglu): **30% combined upside** (L3 + spinoff) |
+| Rationale | Missile businesses trade at higher multiples than diversified primes |
+
+**Strategic logic:** Unlocks value — pure-play missile company gets defense-growth multiple while L3 retains electronics/ISR focus.
+
+---
+
 ## Investment case
 
 **Bull:**
 - ISR demand increasing
 - Space systems growth
 - Tactical radio market leadership
-- Aerojet adds propulsion
+- Missile spinoff value unlock (30% combined upside per Jefferies)
+- Stallard (Vertical Research): top US pick alongside [[General Dynamics]]
 
 **Bear:**
 - Integration complexity (Aerojet)
@@ -76,4 +92,5 @@ See [[Trump defense budget]] for full context.
 - [[Long defense AI]] — thesis
 - [[RTX]], [[Northrop Grumman]] — peers
 - [[Lockheed Martin]], [[General Dynamics]] — peers
+- [[Defense supply chain]] — missile spinoff, production constraints
 - [[Palantir]] — AI defense partner

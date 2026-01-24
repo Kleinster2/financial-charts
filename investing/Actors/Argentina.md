@@ -21,14 +21,19 @@ aliases: [Argentine]
 
 ## Stargate Argentina
 
+**OpenAI's first Latin America partnership** (Oct 2025):
+
 | Aspect | Details |
 |--------|---------|
 | Investment | $25B |
 | Location | Patagonia |
 | Capacity | 500MW (largest in LATAM) |
 | Partner | Sur Energy |
+| Power | Renewable energy (wind/hydro) |
 | Timeline | Construction 2026, first 100MW 2027 |
 | Status | Letter of Intent signed (Oct 2025) |
+
+Part of OpenAI's global "OpenAI for Countries" initiative. Includes opportunity to partner with government on AI adoption across Argentina (WEF Jan 2026).
 
 See [[Project Stargate]] for full context.
 
@@ -126,6 +131,7 @@ RIGI's 30-year stability clause designed to mitigate political risk.
 
 ## Related
 
+- [[Latin America AI competitiveness]] — Regional AI context
 - [[Project Stargate]] — Parent initiative
 - [[OpenAI]] — Stargate anchor tenant
 - [[Masayoshi Son]] — Stargate lead investor

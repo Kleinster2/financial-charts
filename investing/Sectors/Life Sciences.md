@@ -78,6 +78,7 @@ Sequencing/Tools → Diagnostics → AI Discovery → CROs → Biopharma
 
 ## Related sectors
 
+- [[Medical sciences primer]] — biology fundamentals for investing
 - [[Biopharma]] — downstream (drug developers)
 - [[Healthcare]] — broader context (providers, insurers)
 - [[AI Infrastructure]] — compute for AI drug discovery

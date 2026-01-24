@@ -86,10 +86,45 @@ Pod shop structure with strict risk limits.
 
 | Event | Detail |
 |-------|--------|
-| Jan 2021 | Invested $2B in Melvin Capital |
+| Jan 2021 | Invested $2B in [[Melvin Capital]] |
 | Controversy | Payment for order flow scrutiny |
 | Congressional | Griffin testified |
 | Outcome | No wrongdoing found |
+
+---
+
+## 2025-2026 updates
+
+| Development | Detail |
+|-------------|--------|
+| HF profit (early 2026) | **$5B** returned to investors (CNBC) |
+| Casino complex | **$8.1B** Hard Rock/Citi Field plan approved by NY gaming commission (Dec 2025) |
+| Citadel Securities | Retail trading boom has been "great" for market-making arm |
+
+The GameStop saga principals have done well five years later: Griffin's hedge fund continues to compound, and the retail trading boom it sparked benefits Citadel Securities' flow business.
+
+*Source: Barron's, CNBC, Jan 2026*
+
+---
+
+## Performance convergence (Bloomberg, Jan 2026)
+
+Citadel Wellington's outperformance over the industry narrowed significantly in 2025. From 2020-2024, Wellington consistently delivered 15-38% while the hedge fund industry averaged low single digits — now the gap has closed.
+
+![[citadel-millennium-vs-industry.png]]
+
+| Year | Wellington | Industry avg | Spread |
+|------|-----------|--------------|--------|
+| 2020 | ~26% | ~5% | +21pp |
+| 2022 | **+38%** | **-5%** | +43pp |
+| 2024 | +15% | ~8% | +7pp |
+| 2025 | **+10.2%** | ~8% | **+2pp** |
+
+The convergence raises questions about whether multi-strategy returns will revert to industry norms as the model becomes commoditized. Bloomberg calls it a potential "breaking point" — if pod shops lose their differentiated edge, boutique stock-pickers and macro traders may attract capital again.
+
+See [[Hedge fund capital concentration]] for the structural dynamics.
+
+*Source: Bloomberg Opinion (Shuli Ren), Jan 23 2026*
 
 ---
 
@@ -106,10 +141,14 @@ Pod shop structure with strict risk limits.
 
 ## Related
 
+- [[GameStop]] — $2B Melvin bailout; meme saga principal
+- [[Melvin Capital]] — bailed out (closed 2022)
+- [[Point72]] — peer; co-invested Melvin bailout
+- [[Retail investor flows]] — boom benefits Citadel Securities
 - [[Susquehanna]] — competitor (market making)
 - [[Jane Street]] — competitor (trading)
 - [[Millennium]] — peer (multi-strat HF)
-- [[Point72]] — peer (multi-strat HF)
+- [[Hedge fund capital concentration]] — pod shops absorbing all industry capital; convergence risk
 
 ---
 

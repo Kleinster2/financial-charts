@@ -108,9 +108,24 @@ BYD represents the vertically integrated EV model:
 | Southeast Asia | Thailand factory | Operational |
 | Latin America | Brazil, Mexico | Expanding |
 | Middle East | UAE focus | Entering |
+| **Nepal** | Direct sales | **Market leader** |
 | US | Blocked (tariffs, politics) | No entry path |
 
 **Key barrier:** US 100% tariff on Chinese EVs makes direct entry impossible.
+
+### Nepal case study (Jan 2026)
+
+BYD displaced Indian automakers in India's neighbor:
+
+| Metric | Value |
+|--------|-------|
+| EV share of Nepal car sales | **75%** |
+| Market leader | BYD |
+| Former leader | Indian gasoline/diesel cars |
+
+Indian-made EVs struggle to compete on quality and price. Pattern may repeat across South Asia.
+
+*Source: Bloomberg Opinion, Jan 2026*
 
 ---
 

@@ -32,6 +32,9 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | Server DRAM pricing | Seeking **+70% price hikes** (with SK Hynix) |
 | New fabs | P5 (Pyeongtaek) — operational 2028 |
 | Stargate commitment | 900K DRAM wafers/month (with SK Hynix) |
+| HBM4 production | **February 2026** (with SK Hynix) |
+
+**Supercycle context:** BoA calls this a "supercycle similar to 1990s boom" — DRAM revenue +51%, NAND +45% YoY. Global semi market heading to $975B-$1T (+26-30%). IDC warns shortage may persist through 2027.
 
 **P5 facility (Pyeongtaek, Gyeonggi):**
 - Under construction
@@ -71,7 +74,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | CHIPS Act | $6.4B |
 | Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
 
-*Updated 2026-01-21*
+*Updated 2026-01-23*
 
 ---
 
@@ -173,3 +176,5 @@ What consensus assumes (update when you see estimates):
 - [[Micro RGB]] — display tech (CES 2026 backlighting innovation)
 - [[Memory shortage 2025-2026]] — thesis (memory division profits)
 - [[Leading edge race]] — context (Taylor fab 2nm bet)
+- [[Project Stargate]] — demand driver (900K wafers/month with SK Hynix)
+- [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US memory demand

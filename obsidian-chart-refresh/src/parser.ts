@@ -5,6 +5,7 @@ export interface ChartParams {
   tickers: string[];
   normalize: boolean;
   start?: string; // ISO date string, e.g., "2020-01-01"
+  sortByLast?: boolean; // Sort legend by last value (high to low)
 }
 
 /**
@@ -24,6 +25,8 @@ export type ParseResult =
  * - aapl-vs-qqq.png → comparison (normalized)
  * - aapl-vs-qqq-2020.png → comparison with start year
  * - nvda-vs-amd-vs-intc.png → N-way comparison
+ * - usdjpy-vs-eurusd-fx-2025.png → forex pairs (adds =X suffix)
+ * - tlt-vs-2510_t-vs-iglt_l-2025.png → international (underscores → dots)
  * - aapl-fundamentals.png → SKIP (no auto-refresh)
  */
 export function parseChartFilename(filename: string): ParseResult {
@@ -51,6 +54,9 @@ export function parseChartFilename(filename: string): ParseResult {
 
 /**
  * Parse comparison chart: aapl-vs-qqq-2020.png
+ * Also supports:
+ * - usdjpy-vs-eurusd-fx-2025.png → forex pairs (adds =X to each ticker)
+ * - tlt-vs-2510_t-vs-iglt_l-2025.png → international (underscores → dots)
  */
 function parseComparisonChart(name: string): ParseResult {
   // Extract year suffix if present (last segment that's 4 digits)
@@ -58,24 +64,42 @@ function parseComparisonChart(name: string): ParseResult {
   const startYear = yearMatch ? yearMatch[1] : null;
 
   // Remove year suffix for ticker parsing
-  const nameWithoutYear = startYear ? name.replace(/-\d{4}$/, "") : name;
+  let nameWithoutYear = startYear ? name.replace(/-\d{4}$/, "") : name;
+
+  // Check for -fx suffix (forex pairs)
+  const isForex = nameWithoutYear.endsWith("-fx");
+  if (isForex) {
+    nameWithoutYear = nameWithoutYear.replace(/-fx$/, "");
+  }
 
   // Split on -vs- to get tickers
   const segments = nameWithoutYear.split("-vs-");
 
-  // Clean up each segment (remove -price-chart suffix if present)
-  const tickers = segments.map((seg) =>
-    seg.replace(/-price-chart$/, "").toUpperCase()
-  );
+  // Clean up each segment:
+  // - Remove -price-chart suffix if present
+  // - Convert underscores to dots (for international tickers like 2510.T)
+  // - Uppercase
+  // - Add =X suffix for forex
+  const tickers = segments.map((seg) => {
+    let ticker = seg
+      .replace(/-price-chart$/, "")
+      .replace(/_/g, ".")
+      .toUpperCase();
+    if (isForex) {
+      ticker = ticker + "=X";
+    }
+    return ticker;
+  });
 
   // Validate: need at least 2 tickers
   if (tickers.length < 2) {
     return { type: "unknown", filename: name };
   }
 
-  // Validate: tickers should look like tickers (alphanumeric, reasonable length)
+  // Validate: tickers should look like tickers
+  // Allow alphanumeric, dots (for international), and =X suffix (for forex)
   for (const ticker of tickers) {
-    if (!/^[A-Z0-9]{1,10}$/.test(ticker)) {
+    if (!/^[A-Z0-9.]{1,15}(=X)?$/.test(ticker)) {
       return { type: "unknown", filename: name };
     }
   }
@@ -83,6 +107,7 @@ function parseComparisonChart(name: string): ParseResult {
   const params: ChartParams = {
     tickers,
     normalize: true,
+    sortByLast: true,
   };
 
   if (startYear) {
@@ -94,21 +119,25 @@ function parseComparisonChart(name: string): ParseResult {
 
 /**
  * Parse single ticker price chart: aapl-price-chart-2020.png
+ * Also supports underscores → dots for international tickers
  */
 function parsePriceChart(name: string): ParseResult {
   // Extract year suffix if present
   const yearMatch = name.match(/-(\d{4})$/);
   const startYear = yearMatch ? yearMatch[1] : null;
 
-  // Remove year and -price-chart suffix
+  // Remove year and -price-chart suffix, convert underscores to dots
   let ticker = name;
   if (startYear) {
     ticker = ticker.replace(/-\d{4}$/, "");
   }
-  ticker = ticker.replace(/-price-chart$/, "").toUpperCase();
+  ticker = ticker
+    .replace(/-price-chart$/, "")
+    .replace(/_/g, ".")
+    .toUpperCase();
 
-  // Validate ticker
-  if (!/^[A-Z0-9]{1,10}$/.test(ticker)) {
+  // Validate ticker (allow dots for international tickers)
+  if (!/^[A-Z0-9.]{1,15}$/.test(ticker)) {
     return { type: "unknown", filename: name };
   }
 
@@ -137,6 +166,10 @@ export function buildApiUrl(baseUrl: string, params: ChartParams): string {
 
   if (params.start) {
     url.searchParams.set("start", params.start);
+  }
+
+  if (params.sortByLast) {
+    url.searchParams.set("sort_by_last", "true");
   }
 
   return url.toString();

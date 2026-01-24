@@ -121,7 +121,8 @@ See [[Cuba opening]].
 
 | Theme | Expression |
 |-------|------------|
-| Brazil data centers | Equinix, Digital Realty |
+| **AI competitiveness** | [[Latin America AI competitiveness]] — $1.1-1.7T potential, only 6% capturing value |
+| Brazil data centers | Equinix, Digital Realty, [[Scala Data Centers]] |
 | Mexico nearshoring | Industrial REITs, auto suppliers |
 | Venezuela oil | Chevron, services, refiners |
 | Chile minerals | SQM, copper miners |
@@ -142,6 +143,8 @@ See [[Cuba opening]].
 
 ## Related
 
+- [[Latin America AI competitiveness]] — regional AI potential ($1.1-1.7T), adoption gaps
+- [[Brazil AI]] — $4B national AI plan
 - [[Venezuela oil rebuild]] — thesis
 - [[Cuba opening]] — thesis
 - [[Nearshoring thesis]] — Mexico

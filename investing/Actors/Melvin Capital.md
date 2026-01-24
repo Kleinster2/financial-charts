@@ -77,6 +77,16 @@ Emergency injection to meet margin calls.
 
 ---
 
+## Post-closure: Plotkin (Jan 2026)
+
+Plotkin has remade himself as a sports executive. Led a group that bought the **Charlotte Hornets** NBA team in 2023. On the Mislaibeled podcast (2025): "At the end of the day, life's pretty good."
+
+His mentor Steve Cohen ([[Point72]]) also landed well — $8.1B casino complex near Citi Field approved Dec 2025.
+
+*Source: Barron's, Jan 23 2026*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -90,9 +100,10 @@ Emergency injection to meet margin calls.
 
 ## Related
 
-- [[Citadel]] — bailout provider
-- [[Point72]] — bailout provider
-- [[GameStop]] — the short
+- [[Citadel]] — bailout provider ($2B)
+- [[Point72]] — bailout provider ($750M)
+- [[GameStop]] — the short that killed the fund
+- [[Retail investor flows]] — the structural shift Melvin's collapse helped trigger
 
 ---
 

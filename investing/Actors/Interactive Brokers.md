@@ -54,6 +54,28 @@ IBKR is the broker for serious traders:
 
 ---
 
+## GameStop systemic risk warning (Jan 2026)
+
+Peterffy gave the most detailed account yet of how close the financial system came to collapse in Jan 2021. IBKR customers had bought [[GameStop]] on margin at low prices; those shares were loaned to short sellers. If margin customers sold a fraction to pay back loans, brokers would have been forced to recall shares — but SI exceeded total float.
+
+"Wall Street would have collapsed... we were really, really shaking in our pants." The system was saved because retail investors held rather than sold — "I didn't know that these people didn't know what the rules were."
+
+**The vulnerabilities remain unpatched** as of Jan 2026. IBKR has proposed:
+
+| Proposal | Detail |
+|----------|--------|
+| Daily SI publication | Real-time short interest transparency |
+| Rising margin on SI | Maintenance margin increases above 50% SI |
+| Position limits at 100% SI | No new shorts when SI hits 100% |
+
+None adopted by regulators.
+
+Peterffy also notes: "The customer base is becoming much more sophisticated. People certainly learned a lot about the market."
+
+*Source: Barron's, Jan 23 2026*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -98,6 +120,8 @@ IBKR is the broker for serious traders:
 
 ## Related
 
+- [[GameStop]] — systemic risk event (halted buying Jan 28, 2021; Peterffy "unpatched" warning)
+- [[Retail investor flows]] — structural shift; IBKR proposed reforms
 - [[Charles Schwab]] — competitor (different segment)
 - [[Robinhood]] — competitor (different segment)
 - [[Citadel Securities]] — market structure peer

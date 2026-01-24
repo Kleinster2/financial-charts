@@ -4,6 +4,41 @@ Data center power availability is emerging as a hard constraint on AI infrastruc
 
 ---
 
+## PJM BYOG proposal (Jan 2026)
+
+**PJM releases "Bring Your Own Generation" proposal:**
+
+| Element | Details |
+|---------|---------|
+| **Expedited interconnection** | Fast-track for new capacity that offsets large loads |
+| **Curtailment** | New large loads without matching generation subject to curtailment |
+| **Capacity auction reform** | June deadline to study long-duration alternatives |
+| **Emergency auction** | White House/governors directive for 15-year hyperscaler contracts |
+
+**Trigger:** Week of whiplash — PJM first cut demand forecasts, then released BYOG proposals after political pressure from Trump and state governors.
+
+**PJM forecast changes (Jan 2026):**
+- Near-term (through 2032): slightly lower
+- Long-term: raised significantly
+- Cut (~4.5 GW) still less than capacity auction shortfall (~6.5 GW)
+
+**White House response:**
+- Emergency auction for $15B in 15-year supply contracts
+- Only ~6-7 GW new capacity vs ~40 GW needed by early 2030s
+- More political signal than solution
+
+**CreditSights warning:** US grid-connection requests >2x consensus datacenter demand forecast — bubble forming?
+
+**Implications:**
+- Era of hyperscalers grabbing existing capacity at premium prices may be ending
+- [[Vistra]], [[Constellation Energy]], [[Talen Energy]] shares fell sharply (Jan 17)
+- Big Tech must bring new generation, not commandeer existing grid
+- Grid batteries should benefit alongside natural gas
+
+*Source: Bloomberg Opinion (Liam Denning), Jan 19 2026*
+
+---
+
 ## The gap (Morgan Stanley, Dec 2025)
 
 | Metric | Value |
@@ -109,16 +144,45 @@ These represent partial offsets to the 44GW gap, but most capacity won't come on
 
 ## Mitigating factors
 
-Efficiency gains provide more compute per MW:
+### Efficiency technologies
 
 | Technology | Efficiency gain |
 |------------|-----------------|
+| **[[NPU]] inference chips** | **2-4x** perf/watt |
 | Photonic interconnects | 2-4x |
-| Specialist inference HW ([[Groq]]) | 2-4x |
 | More efficient cooling | 0.3-0.4x power draw |
 | Advanced nodes ([[TSMC]]) | Better perf/watt |
+| Quantization (INT8, INT4) | 2-4x memory/compute savings |
 
-**But not nearly enough to close the demand gap.**
+**But not nearly enough to close the 44GW demand gap.**
+
+### Inference efficiency: The rising solution
+
+**The thesis:** Training happens once. Inference runs forever. Power efficiency for inference = ongoing cost savings.
+
+**NPU pioneers:**
+
+| Company | Chip | Perf/watt vs GPU | Status (Jan 2026) |
+|---------|------|------------------|-------------------|
+| [[FuriosaAI]] | RNGD | **2-3x better** | Mass production Jan 2026 |
+| [[Groq]] | LPU | ~2x better | Acquired by [[NVIDIA]] (Dec 2025) |
+| Amazon | Inferentia 2 | ~2x better | Production |
+| Google | TPU v5e | Inference variant | Production |
+
+**FuriosaAI example (Jan 2026):**
+- RNGD: TSMC 5nm, 48GB HBM3, **150W TDP** (vs H100 350W)
+- Hot Chips 2024: 3x better perf/watt vs H100 on Llama
+- LG AI Research: commercial deployment for EXAONE models
+- Meta tried to acquire for $800M — declined
+
+**Why this matters for power constraints:**
+- 10MW datacenter with 2x efficient chips = effective 20MW compute
+- Or: same compute at half the power/cooling cost
+- Location flexibility (can build where power is tighter)
+
+**The Groq lesson:** NVIDIA's $20B acquisition (Dec 2025) shows they take inference efficiency seriously enough to absorb competitors rather than compete.
+
+See [[NPU]] for technical details on how inference chips achieve efficiency.
 
 ---
 
@@ -296,6 +360,43 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 
 ---
 
+## Trump administration position (Davos, Jan 23 2026)
+
+**Sacks and Kratsios at Davos** — most detailed public articulation of administration's power/DC policy:
+
+### Behind-the-meter policy reversal
+
+| Era | Policy |
+|-----|--------|
+| Biden | DCs could NOT do behind-the-meter generation — had to be part of larger grid |
+| Trump/Wright/FERC | Reversed — DCs can stand up their own power generation |
+
+**Sacks:** "It was never [hyperscalers'] plan to draw off the grid. They all saw standing up their own power generation as part of their buildout."
+
+**The argument that DCs lower rates (Sacks):**
+1. DCs can sell excess power back to the grid
+2. Fixed costs of power generation amortized over greater supply → lower meter rate for everybody
+3. "The more scale you get in electricity, like most other things, the price comes down"
+
+### Political dynamics
+
+| Actor | Position |
+|-------|----------|
+| **Trump** | "Consumers should NOT pay higher rates because of data centers" |
+| **Microsoft** | Pledged (week of Jan 20) DCs won't cause residential rate increases |
+| **Bernie Sanders** | Letter saying stop all data center development |
+| **Sacks response** | "If we do that we will lose the AI race" |
+
+**Sacks on China power:** China spinning up new nuclear/coal plant every single week — much of it to power data centers. Stopping US DC buildout would be unilateral disarmament.
+
+**Kratsios:** "If you're in a small community and someone shows up to build a data center, you have to make clear this is going to actually lower your rates long term."
+
+**Microsoft pledge context:** Sacks expects other tech companies to make similar commitments. Trump truth post (Monday before panel): "if you're going to build a data center you have to pay your own way."
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
+---
+
 ## Political backlash (Jan 2026)
 
 **Senate investigation** into DC power costs:
@@ -434,7 +535,9 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-01-22*
+
+---
 
 ## Related
 
@@ -466,3 +569,6 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 - [[NextEra Energy]] — world's largest wind/solar builder, quoted on AI power demand
 - [[SpaceX]] — space data center ambitions ($30B IPO)
 - [[Blue Origin]] — Bezos space DC vision
+- [[NPU]] — inference efficiency (mitigating factor)
+- [[FuriosaAI]] — NPU example (2-3x perf/watt)
+- [[Groq]] — inference efficiency (acquired by NVIDIA Dec 2025)

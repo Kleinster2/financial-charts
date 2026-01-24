@@ -3,7 +3,7 @@ aliases: [ABBV]
 ---
 #actor #pharma #immunology #usa #public
 
-**AbbVie** — Immunology leader. Skyrizi/Rinvoq replacing Humira. $61B revenue guidance. Post-patent pivot success.
+**AbbVie** — The [[patent cliffs]] success story. Returned **460%** over the decade after Humira cliff fears (100+ pts above market). Skyrizi/Rinvoq replacing Humira. Forward P/E expanded 11→21 as cliff fears resolved.
 
 ---
 
@@ -13,8 +13,11 @@ aliases: [ABBV]
 |--------|-------|
 | Ticker | ABBV (NYSE) |
 | 2025 revenue guidance | **$60.9B** (raised 3x) |
-| Skyrizi + Rinvoq | **$25B+** combined (2025) |
+| Skyrizi + Rinvoq (2026E) | **$31B** combined |
+| Skyrizi + Rinvoq (2030E) | **$50B** combined |
 | Humira | <$1B/quarter (down 55%) |
+| 10-year return | **+460%** (100+ pts above market) |
+| Forward P/E | **21x** (was 11x a decade ago) |
 
 ---
 
@@ -34,9 +37,18 @@ aliases: [ABBV]
 
 | Year | Humira Status | Skyrizi/Rinvoq |
 |------|---------------|----------------|
-| 2022 | $21B peak | Growing |
-| 2023 | Biosimilar entry | $14B combined |
+| 2002 | Abbott Labs launches Humira | — |
+| 2013 | AbbVie spun off (Humira = **63% of revenue**) | — |
+| 2016 | Composition of matter patent expires (Dec) | — |
+| 2022 | **$21.2B peak** | Growing |
+| 2024 | Biosimilar competition finally arrives | $25B+ combined |
 | 2025 | <$4B run-rate | **$25B+** combined |
+| 2026E | Collapsed | **$31B** combined |
+| 2030E | — | **$50B** combined |
+
+**How AbbVie bought time:** What expired in 2016 was only the composition of matter patent. AbbVie had built a **patent thicket** — manufacturing methods, formulations, delivery. And since Humira is a biologic made in living cells (Chinese hamster ovary cells), copying it is technically difficult. Real competition didn't arrive until **8 years** after the main patent expired.
+
+**The payoff:** Surplus cash flow from extended Humira exclusivity funded Skyrizi and Rinvoq development. Humira sales were $5B higher in 2016 than the market had expected, and kept growing to $21.2B in 2022.
 
 **Success story:** Only 20% of Humira patients moved to biosimilars — many converted to Skyrizi/Rinvoq.
 
@@ -98,6 +110,9 @@ aliases: [ABBV]
 
 ## Related
 
+- [[Patent cliffs]] — the success story (460% return through Humira cliff)
+- [[Merck]] — facing similar cliff (Keytruda Dec 2028)
+- [[Bristol-Myers Squibb]] — steeper cliff, cheaper valuation
 - [[Biopharma]] — sector
 - [[Amgen]] — biosimilar competitor
 
@@ -107,5 +122,6 @@ aliases: [ABBV]
 
 - [AbbVie Q3 2025 results](https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-third-quarter-2025-financial-results)
 - [Fierce Pharma](https://www.fiercepharma.com/pharma/abbvie-boosts-revenue-forecast-again-thanks-booming-sales-skyrizi-rinvoq)
+- Barron's (Jack Hough), Jan 23 2026
 
-*Created 2026-01-09*
+*Updated 2026-01-23*

@@ -119,8 +119,10 @@ In semiconductor manufacturing, **yield** (percentage of working chips per wafer
 
 ## Related
 
+- [[Foundry monopoly consolidation]] — broader framework (yield is one of 5 reinforcing dynamics)
 - [[TSMC]] — leader (60-70%+ mature yields)
 - [[Samsung]] — improving (55-60% at 2nm, up from 10-20%)
 - [[Intel Foundry Services]] — unproven (18A yields TBD)
 - [[Customer lock-in via co-design]] — related moat
+- [[Advanced packaging]] — related moat (CoWoS)
 - [[Execution risk in foundries]] — manifestation (low yields = customer loss)

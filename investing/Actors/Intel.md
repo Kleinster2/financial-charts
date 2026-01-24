@@ -34,6 +34,7 @@ This note covers Intel as a company. For the foundry business specifically, see 
 - [[CHIPS Act]] beneficiary (~$8B)
 - **NVIDIA partnership (Jan 2026)** — $5B investment + strategic collaboration
 - **US government stake (~10%, Aug 2025)** — Trump administration took strategic position
+- **Manufacturing yields disappointing (Jan 2026)** — can't fill server demand, Q1 guidance missed badly, stock -14% AH
 
 ---
 
@@ -85,6 +86,43 @@ Financial pressures and foundry transformation challenges led Intel to pause Eur
 - US manufacturing / CHIPS Act alignment
 
 See [[NVIDIA-Intel partnership]] for full analysis.
+
+---
+
+## Q4 2025 earnings (Jan 23, 2026)
+
+**Beat on revenue, missed badly on guidance.** Stock -14% after hours (to $46.75).
+
+| Metric | Q4 actual | Estimate | Q1 guidance | Q1 estimate |
+|--------|-----------|----------|-------------|-------------|
+| Revenue | **$13.7B** (-4.1% YoY) | $13.4B | **$11.7-12.7B** | $12.6B |
+| EPS (adj) | **$0.15** | $0.09 | **Break-even** | $0.08 |
+| Gross margin (adj) | **37.9%** | — | **34.5%** | — |
+
+**Segment breakdown (Q4):**
+
+| Segment | Revenue | vs estimate |
+|---------|---------|-------------|
+| Client Computing | $8.2B | Miss ($8.3B) |
+| Data Center | $4.7B | Beat ($4.4B) |
+| [[Intel Foundry Services]] | $4.5B (+3.8% YoY) | — |
+
+**The problem — manufacturing yields:**
+- Demand is "quite strong" but yields too low to fill orders
+- Burned through inventory in Q4 — additional server chip supply not until end of Q1
+- "Our yield and production manufacturing are not up to my standards" — Tan
+- Can't shift production toward servers without hurting PC customers
+- Higher memory prices may weaken laptop demand
+
+**CapEx:** 2026 spend similar to 2025, but new machinery output boost not until 2027.
+
+**Context:** Stock had surged 84% in 2025 (best SOX performer in Jan). NVIDIA $5B investment, US government ~10% stake, SoftBank investment — all built Wall Street enthusiasm. Annual revenue $53B vs $78B peak (2021).
+
+**Analyst reaction:** Matt Bryson (Wedbush): "There's been a lot of optimism around Intel potentially turning a corner... Hearing that yields are difficult, that's not a great start."
+
+**CFO Zinsner:** Current margins "by no means acceptable." Supply will increase each quarter in 2026.
+
+*Source: Bloomberg, Jan 23 2026*
 
 ---
 
@@ -152,12 +190,14 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | Metric | Value |
 |--------|-------|
 | Ticker | INTC (NASDAQ) |
-| Price | ~$25 |
+| Price | ~$47 (post-earnings AH) |
+| 2025 return | +84% |
+| Annual revenue | $53B (vs $78B peak 2021) |
 | HQ | Santa Clara, CA |
 | Model | IDM (design + fabs) |
-| 2nm yield | ~55% (vs TSMC 65%, Samsung 40%) |
+| Gross margin | 37.9% (Q4), 34.5% (Q1 guide) |
 
-*Updated 2026-01-15*
+*Updated 2026-01-23*
 
 ---
 

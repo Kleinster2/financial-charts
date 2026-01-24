@@ -32,7 +32,8 @@ Space economy — launch services, satellites, earth observation, exploration.
 | ULA | Boeing/Lockheed JV | US government |
 | Rocket Lab | Public (RKLB) | Small sat |
 | Blue Origin | Private (Bezos) | Growing |
-| Arianespace | Europe | Challenged |
+| Arianespace | Europe | Recovering (Ariane 6) |
+| [[Isar Aerospace]] | Europe (Germany) | Pre-orbital startup |
 | China CASC | State | Growing |
 
 ### Satellite internet
@@ -84,6 +85,32 @@ Space economy — launch services, satellites, earth observation, exploration.
 | Key asset | [[Starlink]] |
 
 **Reusability revolution:** Falcon 9 boosters landed 300+ times.
+
+---
+
+## European launch renaissance (2025-2026)
+
+Europe completed just **7 orbital launches in 2025** vs US 130+. After retiring Ariane 5 (2023) and grounding Vega-C (2 years), Europe temporarily lost independent access to orbit — ESA had to ask SpaceX to launch Galileo satellites.
+
+**Recovery:**
+- **Ariane 6** flew 2024 (cost €4.7B, not reusable). Targeting 10 launches/yr by 2027. First Amazon Kuiper launch early 2026.
+- **Vega-C** (Avio) overcame technical issues, resumed flights.
+
+**Startup challengers (ESA European Launcher Challenge, €900M):**
+
+| Company | Country | Status |
+|---------|---------|--------|
+| [[Isar Aerospace]] | Germany | First launch attempted 2025 (failed ~30s), retry 2026 |
+| Rocket Factory Augsburg | Germany | Pre-orbital |
+| PLD Space | Spain | Pre-orbital |
+| MaiaSpace | France | ArianeGroup subsidiary |
+| Orbex | UK | Pre-orbital |
+
+**Funding:** ESA approved record **€22B** over 3 years (Nov 2025). Germany plans **€35B** in space-defense by 2030.
+
+**Structural headwinds:** Geo-return policy allocates contracts by country funding share (not capability). Europe space investment still far behind US. Competition may fragment limited funding.
+
+**Comparison:** Rocket Lab (RKLB, $45B mkt cap) took ~75 successful small-launcher missions since 2018 to reach medium-lift (Neutron). SpaceX valued at ~$800B.
 
 ---
 
@@ -176,8 +203,10 @@ See [[Starlink]] for details.
 
 - [[Starlink]] — satellite internet leader
 - [[SpaceX]] — launch dominance
-- [[Boring Company]] — Musk ecosystem
+- [[Isar Aerospace]] — leading European launch startup
+- [[Germany]] — €35B space-defense investment
 - [[Defense]] — space defense overlap
+- [[European defense spending]] — driving European space demand
 - [[Submarine Cables]] — connectivity alternative
 
 ---

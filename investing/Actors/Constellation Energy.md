@@ -98,6 +98,7 @@ Nuclear + AI = powerful theme.
 - Execution risk (TMI restart)
 - Nuclear regulatory complexity
 - Political risks
+- **BYOG policy risk** — PJM proposals could limit deals for existing capacity
 
 ---
 
@@ -110,18 +111,37 @@ Nuclear + AI = powerful theme.
 | Fleet | 21 reactors |
 | Key deal | Microsoft TMI |
 
-*Updated 2026-01-01*
+---
+
+## PJM BYOG risk (Jan 2026)
+
+PJM's "Bring Your Own Generation" proposal threatens incumbent generators:
+
+| Proposal | Impact |
+|----------|--------|
+| **Expedited interconnection** | Only for *new* capacity that offsets large loads |
+| **Curtailment risk** | New large loads without matching generation can be switched off |
+| **Capacity auction reform** | June deadline to study alternatives |
+
+**Translation:** Era of hyperscalers buying existing nuclear capacity at premium prices may be ending. PJM wants Big Tech to bring new power, not commandeer the existing grid.
+
+**Market reaction:** Constellation shares fell sharply on Jan 17 alongside [[Vistra]] and [[Talen Energy]] when PJM released these proposals.
+
+*Updated 2026-01-21*
 
 ---
 
 ## Related
 
 - [[Microsoft]] — customer ($1.6B TMI restart deal)
-- [[Vistra]] — peer (nuclear operator)
+- [[Meta]] — customer ($10B Louisiana DC, 6.6 GW target)
+- [[Vistra]] — peer (nuclear operator, BYOG risk)
+- [[Talen Energy]] — peer (Amazon Susquehanna deal)
 - [[Cameco]] — supplier (nuclear fuel)
 - [[NuScale]] — adjacent (SMR developer)
 - [[Oklo]] — adjacent (SMR developer)
 - [[Nuclear power for AI]] — thesis context
 - [[Nuclear renaissance]] — industry context
 - [[Power constraints]] — nuclear addresses baseload need
+- [[BYOP]] — policy (BYOG risk from PJM proposals)
 

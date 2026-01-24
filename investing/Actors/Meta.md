@@ -69,9 +69,17 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 | Partner | Deal |
 |---------|------|
 | **[[Constellation Energy]]** | $10B Louisiana data center |
-| **Vistra** | Nuclear supply agreement |
+| **[[Vistra]]** | 2.6 GW from 3 OH/PA nuclear plants (20-year PPA) |
 | **[[TerraPower]]** | Advanced reactor partnership |
 | **[[Oklo]]** | Small modular reactor deal |
+
+**Vistra deal details (Jan 2026):**
+- 20-year PPA at premium price
+- 2.6 GW total from three nuclear plants in Ohio and Pennsylvania
+- Only ~1/6 is expansion, ~5/6 is existing capacity
+- Criticized for grabbing existing grid capacity rather than building new
+- Vistra claims deal underwrites license extension applications
+- Stock fell on PJM's BYOG proposal — signals era of existing-capacity grabs may be ending
 
 **Capacity:** Up to **6.6 GW** of new and existing clean energy by 2035.
 
@@ -279,7 +287,7 @@ See [[Short interest]] for interpretation framework.
 | Infra lead | Dina Powell McCormick (Jan 2026) |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-Tesla |
 
-*Updated 2026-01-15*
+*Updated 2026-01-21*
 
 ---
 

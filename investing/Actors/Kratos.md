@@ -88,21 +88,24 @@ Kratos = pure-play on affordable attritable drones.
 
 ## Financials
 
-| Metric | Value |
-|--------|-------|
-| P/E | N/A (not profitable) |
-| Revenue growth | ~15% |
-| P/S | ~5x |
-| Cash | ~$300M |
+| Metric | Prior | Jan 2026 |
+|--------|-------|----------|
+| Stock price | — | **$114** (+50% YTD) |
+| P/E | N/A (not profitable) | **106x** (2027E) |
+| Revenue growth | ~15% | — |
+| P/S | ~5x | — |
+| Cash | ~$300M | — |
 
-Growth stock, not value.
+Pricier than NVIDIA on forward earnings. Backlog surging on [[Golden Dome]] and drone warfare demand (William Blair's DiPalma: drone business "red hot").
 
 ---
 
 ## Related
 
-- [[US Defense Industry]] — sector context
+- [[Drone warfare]] — concept (attritable philosophy, cost asymmetry)
 - [[Defense]] — sector hub
+- [[Golden Dome]] — backlog driver
+- [[AeroVironment]] — drone peer (loitering munitions)
 - [[Anduril]] — competitor
 - [[Long defense AI]] — thesis overlap
 

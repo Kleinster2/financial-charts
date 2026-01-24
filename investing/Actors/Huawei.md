@@ -165,6 +165,35 @@ Huawei has built extensive workaround infrastructure:
 
 ---
 
+## National champion strategy (Jan 2026)
+
+**[[David Sacks]] (Davos, Jan 23):** China is actively blocking NVIDIA chip imports to create a protected market for Huawei. This is the telecom playbook applied to AI chips.
+
+| Phase | Strategy |
+|-------|----------|
+| **Phase 1** | Block foreign competition (NVIDIA H200 imports blocked by customs) |
+| **Phase 2** | Huawei dominates domestic China market at scale |
+| **Phase 3** | Use domestic scale to compete globally |
+
+**The telecom parallel ([[Michael Kratsios]], Davos):**
+- In Trump I era, Huawei wasn't the best telecom technology — "certainly subpar compared to Ericsson and Nokia"
+- But was "good enough" and "subsidized enough" to become default telecom for much of the world
+- China now applying same playbook: AI chips don't need to be best, just good enough + subsidized + scaled
+
+**Why scale matters:** Chip production is a scale-up business. Domestic market dominance gives Huawei:
+- Volume to drive down per-unit costs
+- Revenue to fund R&D (compare to SMIC advancing despite controls)
+- Installed base for software ecosystem development
+- Platform to proliferate globally (especially global south)
+
+**Sacks's test:** "If in 5 years we look around the world and it's Huawei chips and DeepSeek models, then we lost."
+
+**US counter:** American AI Export Program — turnkey AI packages (inference chips + models) for developing countries. See [[Export controls]].
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
+---
+
 ## What to watch
 
 - [ ] Kirin next-gen node (5nm on SMIC?)
@@ -172,6 +201,8 @@ Huawei has built extensive workaround infrastructure:
 - [ ] Huawei cloud AI adoption in China
 - [ ] SMIC yield improvements
 - [ ] Potential export control tightening
+- [ ] **Global AI chip proliferation** — Huawei Ascend exports to global south
+- [ ] **American AI Export Program** — US counter to Huawei global push
 
 ---
 
@@ -190,7 +221,7 @@ Huawei has built extensive workaround infrastructure:
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-01-23*
 
 ---
 
@@ -202,6 +233,10 @@ Huawei has built extensive workaround infrastructure:
 - [[Taiwan tech protectionism]] — Taiwan blacklisted Huawei (Jun 2025)
 - [[China power advantage]] — enabler (powers brute force strategy)
 - [[Kunlunxin]] — domestic competitor (Baidu's AI chips)
+- [[David Sacks]] — articulated national champion threat (Davos Jan 2026)
+- [[Michael Kratsios]] — telecom parallel from Trump I
+- [[DeepSeek]] — model layer of China AI export strategy
+- [[Ericsson]] — historical telecom competitor (outcompeted by subsidized Huawei)
 - [[ByteDance]] — customer (Ascend adoption)
 - [[Alibaba]] — customer (Ascend for cloud)
 - [[TSMC]] — former foundry (cut off 2020)

@@ -58,11 +58,11 @@ Direct Asia connectivity = unique in LatAm.
 
 ## Hyperscaler presence
 
-| Company | Status |
-|---------|--------|
-| [[Google]] | Cloud region |
+| Company | Investment |
+|---------|------------|
+| [[Amazon]]/AWS | **$4B** cloud infrastructure region (Jan 2025) |
+| [[Google]] | Cloud region + [[Humboldt Cable]] |
 | [[Microsoft]] | Azure presence |
-| [[Amazon]]/AWS | Region |
 | Huawei | Before restrictions |
 
 ---
@@ -88,11 +88,22 @@ Direct Asia connectivity = unique in LatAm.
 
 ---
 
+## Regional HPC initiative
+
+**Chile-Dominican Republic [[CAF]] MOU (2023):**
+- Feasibility study for regional high-performance computing network
+- Addresses shared digital infrastructure gaps
+- Cross-border AI collaboration
+- Backed by [[CAF]] (Development Bank of Latin America)
+
+---
+
 ## Investment exposure
 
 | Company | Chile exposure |
 |---------|---------------|
-| [[Google]] | Cloud region |
+| [[Amazon]]/AWS | $4B infrastructure |
+| [[Google]] | Cloud region + Humboldt |
 | [[Microsoft]] | Azure |
 | [[Equinix]] | Presence |
 
@@ -116,5 +127,8 @@ Direct Asia connectivity = unique in LatAm.
 - [[São Paulo Data Hub]] — peer (LatAm's largest)
 - [[Querétaro]] — peer (Mexico's hub)
 - [[Brazil AI]] — peer market (LatAm competition)
-- [[Submarine Cables]] — infrastructure (Asia-Pacific route)
+- [[CENIA]] — Chilean AI center (Latam-GPT)
+- [[CAF]] — HPC network financing
+- [[Humboldt Cable]] — Asia-Pacific connectivity
+- [[Latin America AI competitiveness]] — regional context
 
