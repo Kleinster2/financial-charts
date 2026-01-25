@@ -248,12 +248,13 @@ Note: `forecast_start` should be the day after the last actual quarter (e.g., 20
 
 ### Short interest charting integration
 
-**Status:** Database and API complete, UI integration pending.
+**Status:** Database, API, and **dashboard columns complete**. Chart overlay pending.
 
-**Options:**
-- **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS`, etc.
+**Dashboard:** SI %, Days to Cover, SI Shares columns added to data dashboard (sortable, filterable).
+
+**Remaining (for charting on price charts):**
+- **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS` for charting
 - **B) Separate chart overlay** — New UI component
-- **C) Wide table** — Add to `/api/data` endpoint
 
 ### Obsidian chart refresh plugin
 

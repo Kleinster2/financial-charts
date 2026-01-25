@@ -103,6 +103,10 @@ window.ChartDashboard = {
             { key: 'shares_outstanding', label: 'Shares Out' },
             { key: 'moving_avg_50', label: 'MA 50' },
             { key: 'moving_avg_200', label: 'MA 200' },
+            // Short interest
+            { key: 'si_percent_float', label: 'SI %' },
+            { key: 'si_days_to_cover', label: 'Days Cover' },
+            { key: 'si_shares', label: 'SI Shares' },
             { key: 'pages', label: 'Pages' }
         ];
     },
@@ -146,7 +150,9 @@ window.ChartDashboard = {
             'profit_margin', 'operating_margin', 'return_on_assets', 'return_on_equity',
             'revenue', 'revenue_per_share', 'gross_profit', 'ebitda',
             'quarterly_revenue_growth', 'quarterly_earnings_growth',
-            'dividend_yield', 'beta', 'shares_outstanding', 'moving_avg_50', 'moving_avg_200'
+            'dividend_yield', 'beta', 'shares_outstanding', 'moving_avg_50', 'moving_avg_200',
+            // Short interest columns
+            'si_percent_float', 'si_days_to_cover', 'si_shares'
         ];
         return {
             filterText: this.filterText,
