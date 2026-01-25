@@ -14,7 +14,7 @@ aliases: []
 | Net worth | ~$2.5B |
 | Source | LinkedIn (sold to MSFT $26B) |
 | Vehicle | [[Greylock Partners]] |
-| PayPal Mafia | Yes |
+| PayPal Mafia | Yes — [[PayPal mafia]] |
 
 ---
 
@@ -72,7 +72,7 @@ One of original OpenAI supporters.
 | [[Peter Thiel]] | Founders Fund, Palantir |
 | [[Elon Musk]] | Tesla, SpaceX, xAI |
 | **Reid Hoffman** | LinkedIn, Greylock |
-| Max Levchin | Affirm |
+| [[Max Levchin]] | [[Affirm]] |
 | David Sacks | Craft Ventures |
 
 ---
@@ -110,9 +110,15 @@ One of original OpenAI supporters.
 
 ## Related
 
+### PayPal mafia
+- [[PayPal mafia]] — core member
+- [[Peter Thiel]] — PayPal co-founder
+- [[Max Levchin]] — PayPal CTO
+- [[Elon Musk]] — PayPal (X.com)
+
+### Investments
 - [[OpenAI]] — early backer, board
 - [[Greylock Partners]] — partner
-- [[Peter Thiel]] — PayPal Mafia
 - [[Inflection AI]] — co-founded
 
 ---

@@ -26,7 +26,7 @@ aliases: [TPG Capital, Texas Pacific Group]
 | **TPG Capital** | Large-cap PE |
 | **TPG Growth** | Growth equity |
 | **TPG Rise** | Climate/impact |
-| **TPG Angelo Gordon** | Credit |
+| **[[TPG Angelo Gordon]]** | Credit (~$78B AUM) |
 | **TPG Real Estate** | Property |
 
 ---
@@ -69,9 +69,17 @@ TPG = early mover in impact investing at scale.
 
 ## Related
 
+### Platforms
+- [[TPG Angelo Gordon]] — credit/real estate platform (~$78B AUM, acquired [[Angelo Gordon]] $2.7B)
+
+### Portfolio
 - [[Spotify]] — portfolio company
+
+### Peers
 - [[KKR]] — peer (PE)
 - [[Blackstone]] — peer (PE)
+- [[Apollo]] — peer (PE/credit)
+- [[Carlyle Group]] — peer (PE)
 
 ---
 

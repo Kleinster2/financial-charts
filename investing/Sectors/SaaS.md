@@ -217,7 +217,15 @@ aliases: [Software as a Service, Cloud Software, Software-as-a-service, Subscrip
 - [[Toast]] — restaurant vertical
 - [[Klaviyo]] — e-commerce marketing
 
+### ERP
+- [[SAP]] — global ERP leader, €340B mkt cap, S/4HANA transition
+- [[Oracle]] — ERP/database
+
+### Regional
+- [[TOTVS]] — Brazil's largest software company, ~50% ERP market share
+
 ### Concepts
+- [[Cloud vs on-premise valuation]] — why SaaS trades at 5-15x vs 1-3x for legacy
 - [[Enterprise AI adoption]] — AI trend
 
 ---

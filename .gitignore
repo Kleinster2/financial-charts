@@ -124,3 +124,6 @@ market_data.duckdb
 node_modules/
 test-results/
 playwright-report/
+
+# Root Obsidian workspace (duplicate of investing/.obsidian)
+.obsidian/

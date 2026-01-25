@@ -139,7 +139,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
   -o investing/attachments/aapl-revenue.png
 ```
 
-**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low)
+**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (false — legend already shows ticker), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low)
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
 
@@ -155,7 +155,31 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
 *[[Apple]] · [[Nasdaq|QQQ]]*
 ```
 
-For single-ticker charts on that actor's own note, no link line is needed.
+**Prefer peer comparisons over single-ticker charts.** A chart showing just one ticker wastes the comparison opportunity. Include 2-4 relevant peers so readers see relative performance. Use `normalize=true` for comparisons.
+
+```bash
+# Good: TSMC vs Samsung foundry comparison
+curl "http://localhost:5000/api/chart/lw?tickers=TSM,005930.KS&normalize=true&start=2020-01-01&show_title=false"
+
+# Bad: Just TSMC alone (redundant - legend already shows ticker)
+curl "http://localhost:5000/api/chart/lw?tickers=TSM&start=2020-01-01"
+```
+
+For comparison charts, add link line below pointing to the *other* tickers (not the note you're on).
+
+**Chart notes:** Always add an italicized interpretive note below charts explaining what the reader is seeing. Charts without context are just shapes — the interpretation is what makes them useful.
+
+```markdown
+![[stne-price-chart.png]]
+*Peaked ~$90 in 2021 fintech boom, crashed to ~$8 in 2022 on Brazil macro + Linx issues, now recovering ~$12-14.*
+```
+
+Good chart notes include:
+- Key inflection points (peaks, troughs, breakouts)
+- What caused major moves (earnings, macro, sector rotation)
+- Current context (where it sits now relative to history)
+
+Keep notes concise (1-2 sentences). The goal is orientation, not analysis.
 
 ### Handling losses in fundamentals charts
 
@@ -317,10 +341,10 @@ Capture the thesis, not just data. Note hedging language. Don't assume causation
 ## When creating notes
 
 - **Always do deep research** before creating — web search, multiple sources, hard data
-- Link liberally with `[[wikilinks]]`
+- **If it's mentioned, it's linked** — every company, person, investor, or concept gets a `[[wikilink]]`. In intros, tables, body text, everywhere. No exceptions.
 - **No thin stubs** — if no time to research, add to daily note instead
 
-See [[Note structures]] for actor requirements and templates.
+See [[Note structures]] for actor requirements, templates, and linking rules.
 
 ### "What makes X, X" analysis
 

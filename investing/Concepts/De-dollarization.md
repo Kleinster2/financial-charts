@@ -96,6 +96,7 @@ Limited by capital controls. See [[Currency swap lines]] for detailed network an
 ### Actors
 - [[China]] — yuan promoter
 - [[Saudi Arabia]] — petrodollar key
+- [[Kenneth Rogoff]] — *Our Dollar, Your Problem* (2025)
 
 ---
 

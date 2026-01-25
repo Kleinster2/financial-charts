@@ -1,6 +1,20 @@
-#actor #fintech #payments #usa #private #unicorn
+#actor #fintech #payments #usa #acquisition
 
-**Brex** — Corporate cards and spend management for startups/enterprises. Founded 2017 by Henrique Dubugras and Pedro Franceschi (Brazilian Stanford dropouts, age 22). **YC W17.** $12.3B valuation. ~$700M ARR (2025E). IPO candidate 2026.
+**Brex** — Corporate cards and spend management for startups/enterprises. Founded 2017 by Henrique Dubugras and Pedro Franceschi (Brazilian Stanford dropouts, age 22). **YC W17.** **Acquired by [[Capital One]] for $5.15B** (Jan 22, 2026) — 58% below peak $12.3B valuation.
+
+---
+
+## Capital One acquisition (Jan 22, 2026)
+
+| Term | Value |
+|------|-------|
+| Acquirer | [[Capital One]] |
+| Price | **$5.15B** (cash + stock) |
+| Peak valuation | $12.3B (Jan 2022) |
+| Discount | **58%** |
+| Status | Ends IPO plans |
+
+**Why it matters:** Brex was one of the most anticipated fintech IPOs. The 58% discount to peak valuation reflects the fintech multiple compression since 2022. Capital One gains corporate cards/spend management to complement consumer business.
 
 ---
 
@@ -10,10 +24,11 @@
 |--------|-------|
 | Founded | April 2017 |
 | HQ | San Francisco, CA |
-| Valuation | $12.3B (Jan 2022) |
+| Peak valuation | $12.3B (Jan 2022) |
+| Exit valuation | **$5.15B** (Jan 2026) |
 | CEO | Pedro Franceschi (co-founder) |
 | Total funding | $1.67B |
-| Revenue (2025E) | ~$500-700M ARR |
+| Revenue (2025E) | ~$700M ARR |
 | YC batch | **W17** |
 
 ---
@@ -31,7 +46,7 @@
 - Both from Brazil, bonded over coding
 - Age 16: Founded Pagar.me (Brazil's Stripe) together
 - Raised $30M, employed 100+ people
-- 2016: Sold Pagar.me to StoneCo
+- 2016: Sold Pagar.me to [[StoneCo]]
 - Fall 2016: Enrolled at Stanford
 - Joined YC W17 with VR startup "Beyond"
 - 3 weeks in: pivoted after realizing VR market immature
@@ -57,35 +72,31 @@
 
 ---
 
-## Funding rounds
+## Cap table
 
-| Round | Date | Amount | Valuation | Lead |
-|-------|------|--------|-----------|------|
-| Seed | 2017 | $7M | — | YC |
-| Series A | 2018 | $57M | — | Ribbit Capital |
-| Series B | 2018 | $125M | — | Greenoaks |
-| Series C | 2019 | $100M | $2.6B | Kleiner Perkins |
-| Series D | 2021 | $425M | $7.4B | Tiger Global |
-| Series D-2 | 2022 | $300M | **$12.3B** | Greenoaks |
+*Specific ownership percentages not publicly disclosed.*
 
-**Total raised:** $1.67B
+| Date | Event       | Investors                                                      | Amount | Valuation  |
+| ---- | ----------- | -------------------------------------------------------------- | ------ | ---------- |
+| 2017 | Founded     | Dubugras, Franceschi                                           | —      | —          |
+| 2017 | Seed        | [[Y Combinator]]                                               | $7M    | —          |
+| 2018 | Series A    | [[Ribbit Capital]] (lead), [[Max Levchin]], [[Peter Thiel]]    | $57M   | —          |
+| 2018 | Series B    | [[Greenoaks]] (lead), [[DST Global]], [[IVP]]                  | $125M  | ~$1.1B     |
+| 2019 | Series C    | [[Kleiner Perkins]] (lead), DST, Greenoaks, Ribbit             | $100M  | $2.6B      |
+| 2021 | Series D    | [[Tiger Global]] (lead), [[TCV]], [[GIC]], [[Baillie Gifford]] | $425M  | $7.4B      |
+| 2022 | Series D-2  | [[Greenoaks]] (lead)                                           | $300M  | **$12.3B** |
+| 2026 | Acquisition | [[Capital One]]                                                | $5.15B | —          |
+
+**Total equity raised:** $1.67B
+
+**Key shareholders at exit:**
+- Founders: Henrique Dubugras, Pedro Franceschi (likely 15-25% combined based on typical founder dilution)
+- Lead investors: [[Greenoaks]], [[Tiger Global]], [[Ribbit Capital]], [[Kleiner Perkins]], [[DST Global]]
+- Angels: [[Peter Thiel]], [[Max Levchin]] - [[PayPal mafia]]
 
 ### Debt facility (2025)
 - $235M revolving credit facility
-- Citi (senior lender), TPG Angelo Gordon (participant)
-
----
-
-## Key investors
-
-| Investor | Role |
-|----------|------|
-| [[Y Combinator]] | Seed |
-| Ribbit Capital | Series A lead |
-| Greenoaks Capital | Series B, D-2 lead |
-| Kleiner Perkins | Series C lead |
-| DST Global | Series C, D |
-| Tiger Global | Series D lead |
+- [[Citigroup|Citi]] (senior lender), [[TPG Angelo Gordon]] (participant)
 
 ---
 
@@ -138,13 +149,9 @@
 
 ---
 
-## IPO outlook
+## IPO outlook (cancelled)
 
-| Factor | Status |
-|--------|--------|
-| Cash flow positive target | Mid-2025 |
-| Revenue threshold | $500M+ |
-| Likely timing | H2 2025 or 2026 |
+~~IPO was expected H2 2025 or 2026.~~ **Acquired by Capital One** (Jan 22, 2026) before IPO could occur.
 
 ---
 
@@ -158,14 +165,11 @@
 
 3. **Brazilian founders** — Success story for LatAm tech.
 
-4. **IPO candidate** — One of most anticipated fintech IPOs.
+4. ~~**IPO candidate**~~ — Acquired before IPO.
 
 5. **SVB beneficiary** — Gained deposits during SVB crisis (March 2023).
 
-**Risks:**
-- Competition (Ramp, Mercury, traditional banks)
-- Economic sensitivity (startup funding cycles)
-- Down-round risk if IPO delayed
+**Outcome:** Acquired by Capital One for $5.15B (Jan 2026) — 58% below peak valuation, reflecting fintech multiple compression.
 
 ---
 
@@ -181,14 +185,25 @@
 - [[Faire]] — YC W17 batchmate
 
 ### Competitors
-- Ramp — corporate cards
-- Mercury — startup banking
-- Divvy (Bill.com) — expense management
+- [[Ramp]] — corporate cards, $32B
+- [[Mercury]] — startup banking, $3.5B
+- [[Divvy]] — acquired by [[Bill.com]] $2.5B
+
+### Acquirer
+- [[Capital One]] — $5.15B (Jan 2026)
 
 ### Investors
 - [[Tiger Global]] — Series D lead
-- Greenoaks Capital — Series B, D-2 lead
-- Ribbit Capital — Series A lead
+- [[Greenoaks]] — Series B, D-2 lead
+- [[Ribbit Capital]] — Series A lead
+- [[Kleiner Perkins]] — Series C lead
+- [[DST Global]] — Series C, D
+
+### Founders' prior company
+- [[StoneCo]] — acquired Pagar.me (2016)
+
+### Context
+- [[Fintech boom (2020-2021)]] — peak $12.3B valuation in this cycle; acquired at 58% discount
 
 ---
 
@@ -198,4 +213,4 @@ Sources:
 - [Bloomberg - Brex IPO](https://www.bloomberg.com/news/articles/2025-02-24/fintech-brex-eyes-500-million-in-2025-revenue-as-it-mulls-ipo)
 - [TechCrunch - Brex founders](https://techcrunch.com/2018/10/05/how-the-22-year-old-founders-of-brex-built-a-billion-dollar-business-in-less-than-2-years/)
 
-*Updated 2026-01-13*
+*Updated 2026-01-24 (Capital One acquisition)*

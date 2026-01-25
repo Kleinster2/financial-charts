@@ -32,10 +32,11 @@ aliases: [Ribbit]
 
 | Company | Sector | Outcome |
 |---------|--------|---------|
-| Robinhood | Trading | IPO (HOOD) |
-| Coinbase | Crypto exchange | IPO (COIN) |
-| Nubank | Neobank | IPO (NU) |
-| Revolut | Neobank | Private ($45B) |
+| [[Robinhood]] | Trading | IPO (HOOD) |
+| [[Coinbase]] | Crypto exchange | IPO (COIN) |
+| [[Nubank]] | Neobank | IPO (NU) |
+| [[Revolut]] | Neobank | Private ($45B) |
+| [[Brex]] | Corporate cards | Acquired by [[Capital One]] $5.15B |
 | Credit Karma | Personal finance | Acquired by Intuit |
 
 Strong fintech exit track record.
@@ -67,6 +68,7 @@ Expanding beyond pure fintech into AI infrastructure.
 
 ## Related
 
+- [[Brex]] — portfolio (acquired by Capital One)
 - [[Etched]] — AI chip investment
 - [[Revolut]] — portfolio company
 - [[Coinbase]] — portfolio (IPO exit)
