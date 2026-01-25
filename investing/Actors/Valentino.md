@@ -5,7 +5,7 @@ aliases: [Valentino SpA, Maison Valentino]
 
 # Valentino
 
-**Italian couture house** — owned 70% by Mayhoola (Qatar royal family investment vehicle) and 30% by [[Kering]]. Revenue declining (~€1.31B in 2024, -3% YoY), EBITDA -22%, ~€1B debt. Kering's full acquisition postponed to 2028+ as brand weakens. Alessandro Michele (ex-Gucci) appointed creative director March 2024.
+**Italian couture house** — owned 70% by [[Mayhoola]] (Qatar royal family investment vehicle) and 30% by [[Kering]]. Revenue declining (~€1.31B in 2024, -3% YoY), EBITDA -22%, ~€1B debt. Kering's full acquisition postponed to 2028+ as brand weakens. Alessandro Michele (ex-Gucci) appointed creative director March 2024.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Valentino SpA, Maison Valentino]
 | Metric | Value |
 |--------|-------|
 | HQ | Rome, Italy |
-| Majority owner | Mayhoola for Investments (Qatar, 70%) |
+| Majority owner | [[Mayhoola]] for Investments (Qatar, 70%) |
 | Minority owner | [[Kering]] (30%, paid €1.7B) |
 | Revenue (2024) | €1.31B (-3% YoY) |
 | EBITDA (2024) | €246M (-22% YoY) |
@@ -29,22 +29,23 @@ aliases: [Valentino SpA, Maison Valentino]
 | Date | Event | Buyer | Seller | Amount | Implied EV |
 |------|-------|-------|--------|--------|------------|
 | 1960 | Founded | Valentino Garavani | — | Father's backing | — |
-| 1998 | Sale to HdP | HdP (Agnelli) | Garavani/Giammetti | **~$300M** | ~$300M |
-| 2002 | Sale to Marzotto | Marzotto | HdP | **$210M** | $210M |
+| 1998 | Sale to HdP | HdP ([[Exor]]) | Garavani/Giammetti | **~$300M** | ~$300M |
+| 2002 | Sale to Marzotto | Marzotto | HdP ([[Exor]]) | **$210M** | $210M |
 | 2007 | Permira LBO | Permira + Marzotto | Marzotto | **€2.6B** (incl. Hugo Boss) | — |
 | Jul 2012 | Sale to Mayhoola | Mayhoola (Qatar) | Permira | **€700M** | €700M |
 | Jul 2023 | Kering 30% stake | Kering | Mayhoola | **€1.7B** | **€5.7B** |
 | Nov 2024 | Capital injection | Kering + Mayhoola | — | €100M (pro-rata) | — |
 
 **Current ownership:**
+
 | Shareholder | Stake | Invested | Status |
 |-------------|-------|----------|--------|
-| **Mayhoola** (Qatar) | 70% | €700M (2012) | Put options 2028-29 |
+| **[[Mayhoola]]** (Qatar) | 70% | €700M (2012) | Put options 2028-29 |
 | **[[Kering]]** | 30% | €1.7B (2023) | Call option 2029 |
 
 **Valuation trajectory:** $300M (1998) → $210M (2002, written down) → €700M (2012) → €5.7B (2023) → likely impaired (2025).
 
-**The Marzotto write-down:** HdP paid ~$300M in 1998, sold for $210M in 2002 — a 30% loss in 4 years. Reportedly HdP was frustrated with founder expenses.
+**The Marzotto write-down:** HdP (the [[Exor|Agnelli family]] holding) paid ~$300M in 1998, sold for $210M in 2002 — a 30% loss in 4 years. Reportedly HdP was frustrated with founder Valentino Garavani's personal expenses.
 
 ---
 
@@ -165,8 +166,13 @@ aliases: [Valentino SpA, Maison Valentino]
 
 - [[Luxury]] — sector hub
 - [[Fashion]] — broader industry
-- [[Kering]] — 30% owner, potential full acquirer
+- [[Mayhoola]] — 70% owner, put option holder
+- [[Kering]] — 30% owner, call option holder
+- [[Exor]] — former owner via HdP (1998-2002, sold at 30% loss)
+- [[Permira]] — former owner (2007-2012)
+- [[Hugo Boss]] — former Marzotto/Permira sister company (2007 LBO)
 - [[LVMH]] — competitive context
 - [[Prada]] — Italian peer
+- [[Balmain]] — sister brand (Mayhoola portfolio)
 
 *Created 2026-01-24*

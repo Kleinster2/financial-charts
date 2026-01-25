@@ -113,7 +113,8 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 - [[Fifth Avenue luxury corridor]] — owned real estate trend
 - [[Retail real estate as hidden value]] — broader concept
 - [[LVMH]] · [[Hermès]] · [[Richemont]] · [[Kering]] · [[Prada]] — key conglomerates
-- [[Chanel]] · [[Valentino]] · [[Moncler]] · [[Burberry]] — other luxury houses
+- [[Chanel]] · [[Valentino]] · [[Moncler]] · [[Burberry]] · [[Balmain]] — other luxury houses
+- [[Mayhoola]] — Qatar sovereign investor (Valentino, Balmain)
 - [[Brunello Cucinelli]] · [[Zegna]] — Italian luxury menswear
 - [[Ralph Lauren]] · [[Hugo Boss]] — premium/accessible luxury
 - [[Canada Goose]] — luxury outerwear

@@ -26,17 +26,40 @@ aliases: [BOSS, Hugo Boss AG, BOSS.DE]
 
 ---
 
+## Ownership history
+
+| Date | Event | Buyer | Seller | Amount |
+|------|-------|-------|--------|--------|
+| 1924 | Founded | Hugo Boss | — | — |
+| 1991 | Sale to Marzotto | Marzotto Group | Boss family | — |
+| 2007 | [[Permira]] LBO | Permira | Marzotto | **€2.6B** (combined with [[Valentino]]) |
+| 2011 | IPO | Public | Permira (partial) | ~€1.4B raised |
+| 2012-2014 | Permira exit | Public | Permira | Full exit |
+
+**The Permira connection:** Hugo Boss and [[Valentino]] were both owned by Italian textile group Marzotto, then acquired together by [[Permira]] in 2007 for a combined €2.6B. Permira exited Hugo Boss via IPO (2011-2014) but held Valentino until selling to [[Mayhoola]] in 2012.
+
+**Current:** No controlling shareholder. ~64% free float. Largest holders are institutional investors.
+
+---
+
 ## Financial performance
 
-| Metric | 2022 | 2023 | 2024 |
-|--------|------|------|------|
-| Revenue (€B) | 3.65 | 4.20 | 4.31 |
-| Revenue growth (CC) | +27% | +18% | +3% |
-| EBIT (€M) | 335 | 410 | 361 |
-| EBIT margin | 9.2% | 9.8% | 8.4% |
-| Free cash flow (€M) | ~100 | 96 | 497 |
+| Year | Revenue (€B) | Growth | EBIT (€M) | EBIT % | Notes |
+|------|--------------|--------|-----------|--------|-------|
+| 2015 | 2.81 | +4% | 455 | 16% | Peak pre-crisis |
+| 2016 | 2.69 | -4% | 310 | 12% | Athleisure disruption |
+| 2017 | 2.73 | +1% | 264 | 10% | Restructuring |
+| 2018 | 2.80 | +3% | 302 | 11% | Recovery begins |
+| 2019 | 2.88 | +3% | 344 | 12% | Steady |
+| 2020 | 1.95 | **-32%** | 42 | 2% | COVID crash |
+| 2021 | 2.79 | +43% | 228 | 8% | Recovery |
+| 2022 | 3.65 | **+27%** | 335 | 9% | CLAIM 5 launch |
+| 2023 | 4.20 | +18% | 410 | 10% | Record revenue |
+| 2024 | 4.31 | +3% | 361 | 8% | Deceleration |
 
-**Sharp growth deceleration** — from +27% to +3% in two years. The €5B by 2025 target has been abandoned. However, FCF surged to €497M in 2024 due to working capital improvements.
+**The 2015-2020 crisis:** Revenue flat for 5 years as athleisure disrupted premium menswear. COVID then crushed the business (-32%). CLAIM 5 strategy (2022) drove recovery but momentum now fading.
+
+*Note: Charts not available — BOSS.DE (Frankfurt) not in price database.*
 
 ---
 
@@ -114,5 +137,7 @@ Q4 was notably stronger than Q1-Q3, suggesting potential recovery trajectory. Fu
 - [[Coty]] — fragrance license partner
 - [[Burberry]] — brand elevation peer
 - [[Ralph Lauren]] — premium positioning peer
+- [[Valentino]] — former Marzotto/Permira sister company (2007 LBO)
+- [[Permira]] — former owner (2007-2014)
 
 *Created 2026-01-24*

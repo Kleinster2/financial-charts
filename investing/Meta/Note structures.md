@@ -4,6 +4,23 @@ Templates and required content for different note types.
 
 ---
 
+## Markdown formatting
+
+**Tables need a blank line before them** — otherwise they render as unstructured text:
+
+```markdown
+# Wrong
+**Current ownership:**
+| Header | Header |
+
+# Right
+**Current ownership:**
+
+| Header | Header |
+```
+
+---
+
 ## Actor note requirements
 
 | Actor type | Required content |

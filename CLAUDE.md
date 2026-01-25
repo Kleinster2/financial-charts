@@ -143,14 +143,19 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
 
-**Chart links:** Every chart embed must have an italicized line below it linking to the relevant actor/concept notes for the tickers shown, separated by `·`:
+**Chart links:** Every chart embed must have an italicized line below it linking to the *other* tickers shown — never link the note you're currently in:
 
 ```markdown
+# On the Apple note, showing AAPL vs QQQ:
+![[aapl-vs-qqq.png]]
+*vs [[Nasdaq|QQQ]]*
+
+# On a concept note showing both:
 ![[aapl-vs-qqq.png]]
 *[[Apple]] · [[Nasdaq|QQQ]]*
 ```
 
-For single-ticker charts on that actor's own note, no link line is needed (it would be redundant).
+For single-ticker charts on that actor's own note, no link line is needed.
 
 ### Handling losses in fundamentals charts
 
