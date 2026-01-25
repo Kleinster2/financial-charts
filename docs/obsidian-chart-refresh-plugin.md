@@ -1,7 +1,8 @@
 # Obsidian Chart Refresh Plugin
 
-**Status:** Planned
+**Status:** ✅ Complete (v1.0.0)
 **Created:** 2026-01-20
+**Implemented:** 2026-01-22
 
 ## Problem
 
@@ -164,9 +165,9 @@ None. Ready for implementation.
 
 1. ~~Decide filename vs frontmatter approach~~ ✓
 2. ~~Decide forecast_start handling~~ ✓
-3. Scaffold plugin with `npm init obsidian-plugin`
-4. Implement filename parser
-5. Implement core refresh logic (price charts only)
-6. Add settings UI
-7. Test with vault charts
+3. ~~Scaffold plugin with `npm init obsidian-plugin`~~ ✓
+4. ~~Implement filename parser~~ ✓
+5. ~~Implement core refresh logic (price charts only)~~ ✓
+6. ~~Add settings UI~~ ✓
+7. ~~Test with vault charts~~ ✓
 8. Consider publishing to community plugins

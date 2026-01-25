@@ -272,26 +272,27 @@ Note: `forecast_start` should be the day after the last actual quarter (e.g., 20
 
 ### Short interest charting integration
 
-**Status:** Database and API complete, UI integration pending.
+**Status:** Database, API, and **dashboard columns complete**. Chart overlay pending.
 
-**Options:**
-- **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS`, etc.
+**Dashboard:** SI %, Days to Cover, SI Shares columns added to data dashboard (sortable, filterable).
+
+**Remaining (for charting on price charts):**
+- **A) Synthetic tickers** — `AAPL_SI_PCT`, `AAPL_SI_DAYS` for charting
 - **B) Separate chart overlay** — New UI component
-- **C) Wide table** — Add to `/api/data` endpoint
 
 ### Obsidian chart refresh plugin
 
-**Status:** Planned. See `docs/obsidian-chart-refresh-plugin.md` for full spec.
+**Status:** ✅ **Complete** (v1.0.0). Installed at `investing/.obsidian/plugins/chart-refresh/`.
 
-**Problem:** Charts are static PNGs that become stale. Manual refresh via curl is tedious.
+**Features:**
+- Auto-refresh price charts on note open
+- Parses filenames: `aapl-price-chart.png`, `aapl-vs-qqq-2020.png`
+- Skips fundamentals charts (require manual refresh)
+- Cache TTL (configurable, default 5 min)
+- Manual refresh command in palette
+- Settings tab for API URL, attachments folder
 
-**Solution:** Custom Obsidian plugin that refreshes chart images on note open.
-
-**Key decisions needed:**
-- **Filename vs frontmatter** for chart params mapping
-- **Auto-advance forecast_start?** As time passes
-
-**Estimate:** ~150-200 lines TypeScript, 2-4 hours.
+**To use:** Enable in Obsidian settings → Community plugins. Requires Flask app running.
 
 ---
 
