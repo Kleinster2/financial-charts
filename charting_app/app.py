@@ -2100,6 +2100,30 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
             }
             all_tickers.add(ticker)
 
+        # Get short interest data (latest per ticker)
+        short_interest = {}
+        try:
+            cursor.execute("""
+                SELECT si.ticker, si.settlement_date, si.short_interest,
+                       si.short_percent_float, si.short_percent_outstanding, si.days_to_cover
+                FROM short_interest si
+                INNER JOIN (
+                    SELECT ticker, MAX(settlement_date) as max_date
+                    FROM short_interest
+                    GROUP BY ticker
+                ) latest ON si.ticker = latest.ticker AND si.settlement_date = latest.max_date
+            """)
+            for row in cursor.fetchall():
+                short_interest[row[0]] = {
+                    'si_date': row[1],
+                    'si_shares': row[2],
+                    'si_percent_float': row[3],
+                    'si_percent_outstanding': row[4],
+                    'si_days_to_cover': row[5],
+                }
+        except Exception as e:
+            app.logger.warning(f"Could not load short interest: {e}")
+
         # Get fundamentals from company_overview table
         fundamentals = {}
         try:
@@ -2226,6 +2250,7 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
             meta = metadata.get(ticker, {})
             pages = page_info.get(ticker, [])
             fund = fundamentals.get(ticker, {})
+            si = short_interest.get(ticker, {})
 
             result.append({
                 'ticker': ticker,
@@ -2272,6 +2297,12 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
                 'price_to_book': fund.get('price_to_book'),
                 'ev_to_revenue': fund.get('ev_to_revenue'),
                 'ev_to_ebitda': fund.get('ev_to_ebitda'),
+                # Short interest data
+                'si_date': si.get('si_date'),
+                'si_shares': si.get('si_shares'),
+                'si_percent_float': si.get('si_percent_float'),
+                'si_percent_outstanding': si.get('si_percent_outstanding'),
+                'si_days_to_cover': si.get('si_days_to_cover'),
             })
     finally:
         conn.close()
@@ -2341,6 +2372,11 @@ def _build_dashboard_rows(filter_text='', sort_col='ticker', sort_dir='asc'):
         'price_to_book': numeric_sort_key('price_to_book'),
         'ev_to_revenue': numeric_sort_key('ev_to_revenue'),
         'ev_to_ebitda': numeric_sort_key('ev_to_ebitda'),
+        # Short interest fields
+        'si_shares': numeric_sort_key('si_shares'),
+        'si_percent_float': numeric_sort_key('si_percent_float'),
+        'si_percent_outstanding': numeric_sort_key('si_percent_outstanding'),
+        'si_days_to_cover': numeric_sort_key('si_days_to_cover'),
     }
     sort_key = sort_key_map.get(sort_col, sort_key_map['ticker'])
     result.sort(key=sort_key, reverse=reverse)
