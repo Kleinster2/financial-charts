@@ -124,8 +124,12 @@ Prada bought rather than leased prime Fifth Avenue locations:
 
 ## Related
 
+- [[Luxury]] — sector hub
+- [[Fashion]] — broader industry
 - [[Kering]] — struggling peer
 - [[LVMH]] — larger rival
+- [[Capri Holdings]] — acquired Versace from them ($1.375B)
+- [[Moncler]] — Italian luxury peer
 - [[Fifth Avenue luxury corridor]] — $835M NYC purchase
 - [[Retail real estate as hidden value]] — owned vs. leased strategy
 

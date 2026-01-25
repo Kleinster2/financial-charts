@@ -100,6 +100,28 @@
 | Europe | Regulation-driven EV |
 | China | Most competitive, EV leader |
 | Japan | Hybrid focus, EV laggard |
+| India | ICE dominant, EV transition blocked |
+
+### India — losing to China
+
+[[India]]'s auto industry faces structural EV disadvantage:
+
+| Factor | Status |
+|--------|--------|
+| Domestic players | Tata Motors, Mahindra, Maruti Suzuki |
+| EV penetration | Low (<5%) |
+| Battery tech | Can't source — [[China battery leverage]] |
+| Regional competition | Losing to [[BYD]] |
+
+**Nepal case study (Jan 2026):**
+- 75% of Nepal car sales are now EVs
+- [[BYD]] is market leader
+- Indian gasoline/diesel car dominance "evaporated"
+- Indian EVs can't compete on quality or price
+
+**Why:** India's 0.6% R&D spending (flat for 27 years) means no indigenous EV capability. Chinese tech transfer blocked. Pattern may repeat across South Asia.
+
+*Source: Bloomberg Opinion (Andy Mukherjee), Jan 2026*
 
 ---
 
@@ -119,10 +141,12 @@
 ### Concepts
 - [[EV transition]] — industry shift
 - [[Autonomous vehicles]] — future tech
+- [[China battery leverage]] — why India can't compete
 
 ### Regions
 - [[Japan]] — auto exports
 - [[Germany]] — premium OEMs
+- [[India]] — losing EV transition
 
 ---
 

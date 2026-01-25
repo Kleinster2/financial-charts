@@ -15,6 +15,7 @@ Hyperscaler $ → NVIDIA/AMD → TSMC/Samsung → SK Hynix (HBM) → ASE (packag
 **2026 capex forecast:** ~$602B (CreditSights), up 36% YoY. See [[Hyperscaler capex]] for detailed analysis, chart, and forecasts.
 
 ![[hyperscaler-capex.png]]
+*[[Amazon]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[Oracle]]*
 
 | Category | Amount |
 |----------|--------|

@@ -107,6 +107,16 @@ See [[Tokenized private shares]] for full analysis.
 
 ---
 
+## Meme stock legacy (5-year retrospective, Jan 2026)
+
+**90% of the 2.5M accounts added in January 2021 are still on the platform** (Robinhood disclosure, Jan 2026).
+
+Those users have matured: many now use retirement accounts, high-yield savings, and less speculative products. "They were 20-something-year-olds. Now, maybe they're in their 30s" — Steve Quirk, Chief Brokerage Officer.
+
+Robinhood is in an arms race with [[Interactive Brokers]] and Charles Schwab to serve an increasingly sophisticated retail base.
+
+---
+
 ## Financials
 
 | Metric | Value |
@@ -114,7 +124,7 @@ See [[Tokenized private shares]] for full analysis.
 | Ticker | HOOD (NASDAQ) |
 | Market cap | ~$35B |
 | Revenue (TTM) | ~$2.5B |
-| Users | ~24M funded accounts |
+| Users | **26.9M** funded accounts (Nov 2025) |
 | AUC | ~$150B+ |
 | Founded | 2013 |
 | IPO | 2021 |
@@ -137,6 +147,10 @@ Robinhood = retail-first, mobile-first, crypto-forward.
 
 ## Related
 
+- [[GameStop]] — meme stock crisis (halted buying Jan 28, 2021)
+- [[Retail investor flows]] — structural shift in market participation
+- [[Citadel Securities]] — largest PFOF partner
+- [[Interactive Brokers]] — competitor (sophisticated segment)
 - [[Tokenized private shares]] — key innovation (OpenAI/SpaceX tokens)
 - [[OpenAI]] — tokenized on Robinhood Europe
 - [[Republic]] — peer (private markets platform)

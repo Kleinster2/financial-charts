@@ -3,7 +3,7 @@ aliases: [EU-Mercosul, Mercosur deal, EU-Mercosur FTA]
 ---
 #concept #trade #europe #latam #agriculture
 
-**EU-Mercosur agreement** — Free trade deal between EU and Mercosur (Brazil, Argentina, Uruguay, Paraguay). 25 years of negotiations. Finalized Dec 2024 despite French opposition.
+**EU-Mercosur agreement** — Free trade deal between EU and Mercosur (Brazil, Argentina, Uruguay, Paraguay). 25 years of negotiations. Finalized Dec 2024, signed Jan 2026 in Asunción. EU Parliament referred to CJEU (Jan 21) challenging the "split" approach, but provisional application expected from March 2026.
 
 ---
 
@@ -17,7 +17,9 @@ aliases: [EU-Mercosul, Mercosur deal, EU-Mercosur FTA]
 | Negotiations started | 1999 |
 | Political agreement | 2019 |
 | Finalized | Dec 2024 |
-| Ratification | Pending (complex) |
+| Council authorized | Jan 9, 2026 |
+| Signed | Jan 17, 2026 (Asunción) |
+| Ratification | Referred to CJEU (Jan 21, 2026) |
 
 **Largest trade deal ever** by population covered.
 
@@ -150,9 +152,9 @@ France most vocal opponent:
 | Amazon | Deforestation contradicts EU climate goals |
 | Sovereignty | Agricultural independence threatened |
 
-**Macron position:** Opposed in 2019, grudgingly accepted 2024 with side agreements.
+**Macron position:** Opposed in 2019, France voted against in Council (Jan 2026). Poland also opposed.
 
-**Farmer protests:** Widespread in France, Poland, Ireland.
+**Farmer protests:** Escalated to thousands of tractors surrounding EU Parliament in Strasbourg (Jan 21, 2026), clashing with police. Widespread in France, Poland, Ireland throughout 2024-2026.
 
 ---
 
@@ -173,15 +175,22 @@ France most vocal opponent:
 
 | Stage | Status |
 |-------|--------|
-| EU Commission | Approved |
-| EU Parliament | Vote pending |
-| EU Council | Unanimous (27 states) or split? |
+| EU Commission | ✅ Approved |
+| EU Council | ✅ Authorized signature (Jan 9, 2026) |
+| Signed | ✅ Asunción, Paraguay (Jan 17, 2026) |
+| EU Parliament | Referred to CJEU (Jan 21, 2026, 334-324 vote) |
+| CJEU ruling | Pending (~2 years typical) |
+| Provisional application | Likely from March 2026 (per EU diplomat, Jan 22) |
 | National parliaments | If "mixed" agreement |
 | Mercosur states | Must ratify |
 
-**Complication:** If deemed "mixed agreement," all 27 national parliaments must approve. France, Austria, Poland could block.
+**The "split" controversy:** Commission split the deal into a Partnership Agreement and an Interim Trade Agreement (iTA). The iTA covers trade-only matters (EU-only competence), bypassing national parliaments. Parliament's CJEU referral challenges whether this split is lawful.
 
-**Von der Leyen strategy:** Push as EU-only competence to avoid national vetoes.
+**Parliament vote (Jan 21):** 334-324 to refer to Court of Justice. Thousands of farmers drove tractors to Strasbourg, clashing with police outside Parliament. Close vote reflects deep division — Green, Left, and some EPP MEPs joined with opponents.
+
+**Provisional application:** Despite the court referral, the EU can apply the deal provisionally. Parliament retains power to annul later. EU diplomat (Jan 22) indicated March 2026 target for provisional entry into force.
+
+**Von der Leyen/Merz position:** Push ahead regardless. Merz at Davos (Jan 22): "We will not be stopped. The Mercosur deal is fair and balanced."
 
 ---
 
@@ -192,6 +201,7 @@ France most vocal opponent:
 | **China in LatAm** | EU countering China's influence |
 | **Brazil-China trade** | Brazil's largest partner is China |
 | **Trump tariffs** | Mercosur diversifying away from US |
+| **US-EU trade tensions** | Greenland dispute, tariff threats accelerate EU pivot |
 | **Strategic autonomy** | EU securing supply chains |
 | **Lula return** | Brazil more open to deal |
 
@@ -242,10 +252,11 @@ See [[Trade Agreements]] for full comparisons.
 | Actor | Position |
 |-------|----------|
 | **Ursula von der Leyen** | Champion, pushing ratification |
-| **Macron** | Reluctant, protecting farmers |
+| **Macron** | Opposed, protecting farmers (France voted against in Council) |
+| **Friedrich Merz** | Champion — "We will not be stopped" (Davos, Jan 22) |
 | **Lula** | Strong supporter |
 | **Milei** | Supports (Argentina liberalization) |
-| **French farmers** | Vehement opposition |
+| **French/Polish farmers** | Vehement opposition, tractor protests at Parliament |
 | **German industry** | Strong support (auto exports) |
 
 ---
@@ -260,7 +271,11 @@ See [[Trade Agreements]] for full comparisons.
 | 2019 | Political agreement reached |
 | 2019-2024 | French opposition, COVID delays |
 | Dec 2024 | Deal finalized in Montevideo |
-| 2025-2026 | Ratification process |
+| Jan 9, 2026 | EU Council authorizes signature |
+| Jan 17, 2026 | Signed in Asunción, Paraguay |
+| Jan 21, 2026 | EU Parliament refers to CJEU (334-324) |
+| ~Mar 2026 | Provisional application expected |
+| ~2028 | CJEU ruling expected |
 
 ---
 
@@ -288,4 +303,4 @@ See [[Trade Agreements]] for full comparisons.
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Updated 2026-01-23.*

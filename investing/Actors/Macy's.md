@@ -122,6 +122,7 @@ Macy's positioned as "survivor" in [[Department store decline]].
 
 ## Related
 
+- [[Fashion]] — sector hub
 - [[Saks Global]] — bankrupt competitor, driving customer migration
 - [[Saks bankruptcy]] — beneficiary of rival's collapse
 - [[Department store decline]] — industry headwind

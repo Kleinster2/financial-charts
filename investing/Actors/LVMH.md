@@ -95,9 +95,18 @@ aliases: [MC, Louis Vuitton, Moet Hennessy]
 
 ## Related
 
+- [[Luxury]] — sector hub
+- [[Fashion]] — broader apparel industry
 - [[Hermès]] — luxury peer
-- [[Consumer]] — sector
+- [[Richemont]] — luxury peer (jewelry/watches)
+- [[Kering]] — luxury peer (fashion)
+- [[Prada]] — luxury peer (Italian)
+- [[Moncler]] — 10% stake in Ruffini's holding vehicle
+- [[Sephora]] — prestige beauty retailer (Selective Retailing)
+- [[Beauty]] — beauty sector
+- [[Consumer]] — parent sector
 - [[Tiffany]] — acquired brand
+- [[Fifth Avenue luxury corridor]] — flagship real estate strategy
 
 ---
 

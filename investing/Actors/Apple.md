@@ -20,6 +20,7 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 ![[aapl-90d.png]]
 
 ![[aapl-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[aapl-fundamentals.png]]
 

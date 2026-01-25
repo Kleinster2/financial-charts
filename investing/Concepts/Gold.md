@@ -1,43 +1,98 @@
-#concept #commodity #macro #hedge
+---
+aliases: [XAU, Gold price, Bullion]
+---
+#concept #commodity #macro #safe-haven
 
-# Gold
-
-**Gold** — Safe-haven asset experiencing structural demand shift. **+65% in 2025** — best year since 1979. Targeting $5,000/oz in 2026.
+**Gold** — Precious metal and monetary asset. Safe haven, inflation hedge, central bank reserve. At record highs (Jan 2026) driven by Fed independence concerns and central bank accumulation.
 
 ---
 
-## Current price (Jan 2026)
+## Current status (Jan 2026)
 
 | Metric | Value |
 |--------|-------|
-| Price | **~$4,450/oz** |
-| 2025 return | **+65%** (best since 1979) |
-| Start of 2025 | ~$2,600/oz |
-| All-time high | $4,550 (Dec 26, 2025) |
-| 2025 new ATHs | 50+ |
+| Spot price | $4,641/oz (record high Jan 14) |
+| YTD return | +5% |
+| 2025 return | +65% (best since 1979) |
+| 2024 return | +27% |
+| Silver | $93.75/oz ATH (Jan 15), now ~$88 |
+
+**Record driver:** DOJ investigation of [[Jerome Powell]] revived [[Fed independence]] concerns. Gold spiked above $4,600 after Powell called the probe "threats and ongoing pressure" to influence rate decisions.
 
 ---
 
-## 2026 outlook
+## Price drivers
 
-**Wall Street forecasts:**
+| Driver | Current status | Impact |
+|--------|----------------|--------|
+| **Real rates** | Falling (Fed cutting) | Bullish |
+| **USD strength** | Weakening on Fed concerns | Bullish |
+| **Fed independence** | Crisis mode (Jan 2026) | Very bullish |
+| **Central bank buying** | 1,000+ tonnes/year (3 years) | Structural bullish |
+| **Geopolitical risk** | Iran sanctions, tariffs | Bullish |
+| **Inflation** | Cooling but sticky | Neutral |
 
-| Source | Target | Notes |
-|--------|--------|-------|
-| **JPMorgan Chase** | **$5,000/oz** | Q4 2026 |
-| Bank of America | $5,000/oz | Central bank buying, deficits |
-| Consensus | $4,800-5,000 | Year-end target |
-| Bulls | $5,500+ | Some analysts |
-| UniCredit | $4,100-4,400 | (Pre-rally target) |
+---
+
+## Central bank accumulation
+
+**Historic shift:** For first time since 1996, gold now accounts for larger share of central bank reserves than US Treasuries.
+
+| Year | CB net purchases | Notes |
+|------|------------------|-------|
+| 2022 | 1,082 tonnes | Post-sanctions surge |
+| 2023 | 1,037 tonnes | Continued accumulation |
+| 2024 | 1,000+ tonnes | Third consecutive year |
+| 2025 | ~1,000 tonnes | Estimate |
+| 2026E | ~755 tonnes | Forecast |
+
+**Key buyers:**
+- Poland — largest European buyer, approved additional 150 tonnes (Jan 2026)
+- Turkey — diversifying from USD
+- Uzbekistan — regional leader
+- China — strategic reserves (under-reported), long-term Treasury holdings at record low (Oct 2025)
+- [[India]] — gold reserves ~$25B (2019) → **~$100B** (2025), Treasuries cut 26% from 2023 peak to $174B (five-year low)
+- Brazil — long-term Treasury holdings at record low (Oct 2025)
+
+**Why they're buying:**
+- De-dollarization post-Russia sanctions (2022 freeze was catalyst)
+- Geopolitical hedging (tariffs, sanctions weaponization)
+- Reserve diversification
+- No counterparty risk
+
+**OMFIF survey (Nov 2025):** ~60% of central banks plan to seek alternatives to dollar in next 1-2 years.
+
+---
+
+## Fed independence correlation
+
+| Scenario | Gold response |
+|----------|---------------|
+| Fed independence threatened | Rally (safe haven) |
+| Political pressure on rates | Rally (credibility concerns) |
+| Dovish Fed chair appointed | Rally (inflation fears) |
+| Fed credibility restored | Consolidation |
+
+**Julius Baer (Jan 2026):**
+> "We see increased interference with the Fed as a key bullish wildcard for the precious metals in 2026."
+
+**El-Erian (Jan 2026):**
+> "Price of gold indicates at the margin, people are reducing their exposure to the U.S. dollar."
+
+---
+
+## 2026 forecasts
+
+| Source | Target | Timeframe |
+|--------|--------|-----------|
+| J.P. Morgan | $4,800 | Q2 2026 |
+| State Street | $5,000 | Q4 2026 |
+| Bank of America | $5,000 | Year-end |
+| Bull case | $6,000 | 2027 |
 
 71% of retail investors expect gold above $5,000 in 2026.
 
-**2025 drivers:**
-- US tariffs (safe-haven demand)
-- Fed rate cut expectations
-- Geopolitical tensions (Venezuela, Russia-Ukraine)
-- Central bank buying (de-dollarization)
-- ETF inflows resuming
+**If Fed independence crisis escalates:** $5,000 becomes baseline, not moonshot.
 
 ---
 
@@ -57,11 +112,6 @@
 **Macro hedges:**
 - BlackRock: "Long-dated Treasuries no longer provide ballast; prefer gold"
 - JPM Wealth: Gold hedges geopolitical/currency volatility
-- UBS: Quality bonds AND gold for stability
-
-**Retail demand:**
-- SocGen: "Retail investors have continued to diversify their assets and pile into gold"
-- "Buy the dips" recommendation
 
 ---
 
@@ -71,13 +121,44 @@
 - Real yields matter — high real rates historically negative for gold
 - Fed staying higher-for-longer delays rally
 
+**Not portfolio hedge:**
+- BlackRock: "Tactical play; not long-term portfolio hedge"
+- Volatility can be high
+
 **Patience testing:**
 - Evercore ISI: "Wide-ranging frustration; testing patience"
 - Contrarian indicator if sentiment too bullish
 
-**Not portfolio hedge:**
-- BlackRock: "Tactical play; not long-term portfolio hedge"
-- Volatility can be high
+---
+
+## Historical context
+
+| Period | Price | Driver |
+|--------|-------|--------|
+| 1970s | $35 → $850 | Nixon shock, inflation |
+| 1980-2000 | $850 → $250 | Volcker, disinflation |
+| 2001-2011 | $250 → $1,900 | GFC, QE, Euro crisis |
+| 2012-2019 | $1,200-1,500 | Consolidation |
+| 2020-2024 | $1,500 → $2,700 | COVID, inflation, CB buying |
+| 2025-2026 | $2,700 → $4,600+ | Fed independence, de-dollarization |
+
+---
+
+## Mining stock outperformance (Jan 2026)
+
+**Miners beating metal:**
+
+| Asset | 2025 Return | 2026 YTD |
+|-------|-------------|----------|
+| Spot gold | ~65% | +6.9% |
+| [[Newmont]] | **+100%+** (doubled) | — |
+| [[Agnico Eagle]] | **+100%+** (doubled) | — |
+| NYSE Arca Gold Miners Index | — | **+12%** |
+| S&P 500 | — | +0.7% |
+
+**Why miners outperform:** Costs lag metal price increases → operating leverage. Both Newmont and Agnico expected to see EPS climb 85%+ YoY.
+
+**Risk:** Previous boom cycles marred by rising costs and bad acquisitions. If miners buy other miners at expensive valuations at top of cycle, could weigh on shares.
 
 ---
 
@@ -95,64 +176,55 @@
 
 | Company | Ticker | Type |
 |---------|--------|------|
-| Newmont | NEM | Major |
-| Barrick Gold | GOLD | Major |
-| Agnico Eagle | AEM | Major |
+| [[Newmont]] | NEM | Major |
+| [[Barrick Gold]] | GOLD | Major |
+| [[Agnico Eagle]] | AEM | Major |
 | Franco-Nevada | FNV | Royalty/streaming |
 | Wheaton PM | WPM | Royalty/streaming |
 
-**Consideration:** Miners offer leverage to gold price but add operational/geopolitical risk.
+**Miners ETFs:**
+
+| Ticker | Name | Notes |
+|--------|------|-------|
+| GDX | VanEck Gold Miners | Large/mid caps |
+| GDXJ | VanEck Junior Miners | Higher risk/reward |
 
 ---
 
-## Key quotes
+## Thesis implications
 
-> "We remain bullish on gold on the back of boosted central bank buying and robust investor demand. Gold prices are expected to soar to $5,000 per ounce by the fourth quarter of 2026." — **JPMorgan Chase**
-
-> "Retail investors have continued to diversify their assets and pile into gold. We recommend buying the dips as non-aligned central banks will continue to diversify away from dollar assets." — **Société Générale**
-
----
-
-## Historical context
-
-**Previous cycles:**
-- 2011 peak: ~$1,900 (post-GFC QE)
-- 2020 peak: ~$2,075 (COVID/rate cuts)
-- 2024-2025: New highs above $2,500
-
-**What's different now:**
-- Central bank buying structural, not cyclical
-- De-dollarization narrative gaining mainstream acceptance
-- Fiscal deficits supporting long-term case
-
----
-
-## Related assets
-
-**Silver:** See [[Silver]]
-- Industrial + precious metal hybrid
-- Higher volatility than gold
-- Solar/AI demand component
-- China export controls 2026
-
-**Copper:**
-- "Dr. Copper" — economic indicator
-- AI infrastructure demand (see [[Copper for AI]])
-- Different thesis than gold
-
----
-
-*Updated 2026-01-05*
+| Thesis | Gold signal |
+|--------|-------------|
+| [[Fed independence]] | Direct driver — crisis = rally |
+| [[De-dollarization]] | Structural bid from CBs |
+| [[Inflation]] | Hedge if sticky |
+| [[Risk on risk off]] | Safe haven in selloffs |
 
 ---
 
 ## Related
 
-- [[Silver]] — precious/industrial hybrid
-- [[PGMs]] — platinum, palladium, rhodium
-- [[Uranium]] — energy commodity (nuclear)
-- [[Lithium]] — battery metal
-- [[Wall Street consensus]] — source (2026 forecasts)
-- [[Copper for AI]] — industrial metals contrast
-- [[Rare earth leverage]] — strategic metals
-- [[Crypto]] — alternative store of value
+### Drivers
+- [[Fed independence]] — current crisis driver
+- [[Jerome Powell]] — DOJ investigation catalyst
+- [[Federal Reserve]] — institutional context
+- [[De-dollarization]] — structural CB buying trend
+
+### Macro
+- [[Inflation]] — traditional hedge
+- [[US dollar]] — inverse correlation
+- [[Carry trade]] — rate differential context
+
+### Adjacent commodities
+- [[Silver]] — precious metals complex
+- [[Copper]] — risk-on metal contrast
+- [[Oil]] — energy commodity
+
+### Miners
+- [[Newmont]] — largest gold miner, doubled in 2025
+- [[Agnico Eagle]] — top performer, doubled in 2025
+- [[Barrick Gold]] — major producer
+
+---
+
+*Consolidated Jan 2026. Sources: Bloomberg, JPMorgan, State Street, Julius Baer.*

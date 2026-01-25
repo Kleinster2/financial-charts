@@ -39,12 +39,12 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 | Company | Approach | Stage | Valuation |
 |---------|----------|-------|-----------|
-| [[Groq]] | LPU, inference speed | Shipping | ~$2.8B |
+| [[Groq]] | LPU, inference speed | **Acquired by NVIDIA** (Dec 2025) | $20B deal |
 | [[Cerebras]] | Wafer-scale chips | Shipping | ~$4B |
 | [[Tenstorrent]] | RISC-V, open architecture | Shipping | ~$2.6B |
 | [[SambaNova]] | Dataflow architecture | Shipping | ~$5B |
 | [[Graphcore]] | IPU | Struggling | — |
-| [[FuriosaAI]] | NPU, inference | Mass prod 2026 | ~$700M |
+| [[FuriosaAI]] | [[NPU]], inference | **Mass prod Jan 2026** | $735M |
 
 ### Hyperscaler custom silicon
 
@@ -124,19 +124,21 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 ---
 
-## Who's winning (2026)
+## Who's winning (Jan 2026)
 
 | Company | Status |
 |---------|--------|
 | [[AMD]] | Gaining share, MI300 competitive |
-| [[Groq]] | Inference speed leader, shipping |
+| [[Groq]] | **Acquired by NVIDIA** ($20B, Dec 2025) |
 | [[Cerebras]] | Training niche, big customers |
 | Google TPU | Internal success |
 | Amazon Inferentia | Growing AWS adoption |
 | [[Tenstorrent]] | Early, Jim Keller credibility |
-| [[FuriosaAI]] | Just entering mass production |
+| [[FuriosaAI]] | **Mass production started**, LG design win |
 | Graphcore | Struggling |
 | Intel Gaudi | Struggling |
+
+**Post-Groq landscape:** NVIDIA absorbed its most visible inference competitor. [[FuriosaAI]] and [[Cerebras]] are now the leading independent AI chip startups.
 
 ---
 
@@ -158,11 +160,14 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 ## Related
 
 - [[NVIDIA]] — dominant incumbent
-- [[Groq]], [[Cerebras]], [[Tenstorrent]], [[SambaNova]] — US alternatives
-- [[FuriosaAI]] — Korean alternative
+- [[NPU]] — technology category for inference chips
+- [[Groq]] — acquired by NVIDIA (Dec 2025)
+- [[Cerebras]], [[Tenstorrent]], [[SambaNova]] — US alternatives
+- [[FuriosaAI]] — Korean alternative (leading independent)
 - [[Ascend]] — China alternative
 - [[AMD]] — #2 GPU
 - [[CUDA moat]] — why NVIDIA is hard to displace
 - [[Inference disaggregation]] — structural trend
+- [[Power constraints]] — why efficiency matters
 - [[Long inference stack]] — thesis
 

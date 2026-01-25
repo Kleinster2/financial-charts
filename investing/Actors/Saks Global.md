@@ -149,6 +149,7 @@ In bankruptcy, the flagship became central collateral for $1.75B [[DIP financing
 **The August 2025 exchange bought 5 months:** With bonds trading at ~30 cents on dollar, Saks convinced bondholders to swap $2.2B in 11% notes for securities with lower principal in exchange for $200M new financing. Not enough to avoid Chapter 11.
 
 ![[saks-bond-prices-collapse-2025-2026.png]]
+*[[Saks bankruptcy]]*
 
 ---
 
@@ -167,6 +168,8 @@ In bankruptcy, the flagship became central collateral for $1.75B [[DIP financing
 
 ## Related
 
+- [[Fashion]] — sector hub
+- [[Luxury]] — luxury goods sector
 - [[Neiman Marcus]] — acquired brand
 - [[Richard Baker]] — dealmaker who built and lost company
 - [[Amazon]] — 23% stake, $475M equity investor (wiped)

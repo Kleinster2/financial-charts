@@ -111,6 +111,7 @@ Measures expected volatility of VIX itself. If VIX is "velocity of fear," VVIX i
 **STLFSI4 (St. Louis Financial Stress Index):** Free alternative to MOVE. Composite of 18 indicators including yield spreads, volatility, and credit metrics. Zero = normal, positive = above-average stress, negative = below-average.
 
 ![[stlfsi-historical.png]]
+*[[Federal Reserve]]*
 
 | STLFSI4 level | Interpretation              |
 | ------------- | --------------------------- |

@@ -76,6 +76,7 @@ See [[Trump defense budget]] for full context.
 - Nuclear modernization (GBSD)
 - Autonomous systems leadership
 - Classified programs upside
+- RBC (Herbert, Jan 2026): top pick — business execution + exposure to space and nuclear weapons as tailwinds
 
 **Bear:**
 - B-21 execution risk

@@ -124,6 +124,8 @@ aliases: [Kohlberg Kravis Roberts, KKR & Co]
 
 ## Related
 
+- [[Global Atlantic]] — insurance/retirement platform (100% owned, >$200B assets)
+- [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Skydance Media]] — portfolio company
 - [[Blackstone]] — peer
 - [[Apollo]] — peer

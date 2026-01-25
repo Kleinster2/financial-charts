@@ -138,6 +138,7 @@ Stock reversed gains post-results on margin worries.
 
 ## Related
 
+- [[Luxury]] — sector hub
 - [[LVMH]] — competitor (#1 luxury)
 - [[Gold]] — raw material cost driver
 - [[China]] — demand recovery watch

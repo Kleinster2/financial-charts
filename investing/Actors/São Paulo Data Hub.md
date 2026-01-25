@@ -39,9 +39,11 @@ Latin America's data capital:
 | Company | Investment |
 |---------|------------|
 | [[Amazon]]/AWS | $1.8B expansion |
-| [[Microsoft]] | $2.7B Brazil (3 years) |
+| [[Microsoft]] | **R$14.7B (~$2.5B)** Brazil (3 years) — cloud + AI infrastructure, 5M digital skills training |
 | [[Google]] | Cloud region since 2017 |
 | Oracle | Brazil region |
+
+*Microsoft commitment includes ConnectAI initiative targeting 5M Brazilians in digital/AI skills (WEF Jan 2026).*
 
 ---
 

@@ -169,12 +169,50 @@ Applies to "high-risk" AI systems making consequential decisions about:
 
 ---
 
+## Trump administration federal preemption push (Jan 2026)
+
+**The problem:** Over **1,200 AI bills** going through state legislatures simultaneously ([[David Sacks]], Davos Jan 23). Many are "knee-jerk reactions" to hypothetical concerns before seeing how AI is actually used.
+
+**Why it matters:** Patchwork is most detrimental to early-stage companies and entrepreneurs — large companies can navigate 50 different rules, startups cannot. This stifles precisely the permissionless innovation that makes Silicon Valley work.
+
+| Element | Detail |
+|---------|--------|
+| Executive order | Dec 2025 — directed work on national framework proposal |
+| Congressional path | Need 60 Senate votes — must be bipartisan |
+| Pushback heard | "Can't replace something with nothing" — need federal standard, not just preemption |
+| States keep | Child safety regulation, data center permitting |
+| Interest level | "Quite a bit of interest" in both House and Senate (Sacks, Jan 2026) |
+| Working on | Legislative proposal for "lightweight federal standard" |
+| Lead | [[David Sacks]] + [[Michael Kratsios]] together |
+
+**Sacks on regulatory philosophy:**
+- Biden left 300 pages of AI/semiconductor regulations — would have changed "permissionless innovation" to "go to Washington for approval"
+- Trump rescinded all in first week
+- Since then: pro innovation, pro infrastructure, pro energy, pro export
+- "Since Hewlett and Packard started 85 years ago... founders don't need to go to Washington to get permission for their idea"
+
+**AI optimism gap (Stanford polling):**
+
+| Country | "AI more beneficial than harmful" |
+|---------|-----------------------------------|
+| China | **83%** |
+| US | **39%** |
+
+Asian countries high, Western countries low. Sacks attributes to: (1) media doom/gloom, (2) Hollywood dystopian portrayals, (3) tech leaders talking about eliminating jobs. Low AI optimism feeds regulatory frenzy — could "shoot ourselves in the foot" and cost the race.
+
+**EU criticism (Sacks):** "Bad case of main character syndrome" — when EU talks about AI leadership, they mean regulators showing the regulatory model. "Regulators are supporting players. The main characters always have to be the entrepreneurs." EU AI Act passed before ChatGPT existed.
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
+---
+
 ## What to watch
 
 - [ ] EU AI Act implementation guidance
 - [ ] Colorado enforcement rules
 - [ ] California AG enforcement actions
-- [ ] Federal preemption attempts
+- [ ] **Federal preemption legislation** — Sacks/Kratsios working on in 2026
+- [ ] **1,200+ state bills** — regulatory frenzy trajectory
 - [ ] Other state AI laws (Texas, Illinois pending)
 
 ---
@@ -184,6 +222,8 @@ Applies to "high-risk" AI systems making consequential decisions about:
 ### Policy
 - [[EU]] — AI Act originator
 - [[Trump II]] — federal AI policy direction
+- [[David Sacks]] — leading federal preemption push
+- [[Michael Kratsios]] — US CTO, co-leading preemption effort
 
 ### Affected actors
 - [[OpenAI]] — high exposure

@@ -9,11 +9,12 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 | Rule | Status | Effect |
 |------|--------|--------|
 | **VEU (Validated End User)** | Revoked Dec 31, 2025 | TSMC, Samsung, SK Hynix China fabs need case-by-case approval |
-| **H200 exports** | **Case-by-case (Jan 2026)** | 25% revenue to US govt + ≤50% of US production + shortage cert |
+| **H200 exports** | **Managed access (Jan 14)** | 25% Section 232 tariff + ≤50% of US volume + verification |
 | **H20 exports** | Banned then unbanned | Multiple reversals throughout 2025 |
 | **Affiliate Rule** | Suspended 1 year | Exchange for China suspending rare earth controls |
 | **EUV equipment** | Fully banned | No [[ASML]] EUV to China |
 | **DUV equipment** | Restricted | Older tools still flowing, subsystem upgrades happening |
+| **Section 232 tariff** | **25% (Jan 15, 2026)** | Advanced AI chips; escalation to 100%/legacy chips possible |
 | **Section 301 tariffs** | 0% now → June 2027 | On top of existing 50% tariffs |
 
 ---
@@ -139,6 +140,35 @@ Despite US easing stance, China responded by effectively blocking imports:
 **Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. Even when US allows exports, China may block imports to protect domestic industry.
 
 **Implication**: Companies cannot plan long-term. Capex decisions complicated by regulatory whiplash.
+
+### Jan 14-15, 2026: Section 232 semiconductor tariff — new policy tool
+
+**The biggest shift since export controls began.** See [[Section 232 semiconductor tariff]] for full details.
+
+The US moved from **pure restriction** to **controlled access + monetization**:
+
+| Era | Approach | Revenue | China access |
+|-----|----------|---------|----|
+| Biden (2022-2024) | Pure restriction | $0 | Blocked |
+| **Trump 2.0 (Jan 2026)** | **Tariff + managed access** | **$4-6B/yr** | Reopened (capped) |
+
+**Key mechanics:**
+- 25% tariff on advanced AI chips (H200, MI325X) under Section 232
+- NVIDIA China sales reopened under "managed access" (≤50% of US volume)
+- $250B TSMC deal: preferential treatment tied to US fab investment
+- US data centers, R&D, startups **exempted** — tariff hits re-exports
+
+**Escalation roadmap:**
+
+| Phase | Timeline | Scope |
+|-------|----------|-------|
+| Phase 1 | Jan 2026 | 25% on advanced AI chips |
+| Phase 2 | If milestones missed | → 100% |
+| **Phase 3** | **Jun 2027** | **Legacy/mature-node chips** |
+
+**Phase 3 significance:** All semiconductor imports eventually tariffed. Automotive, medical devices get "glide path" to domestic sourcing.
+
+**Why this matters for export controls:** Section 232 adds a **fiscal incentive** to maintain controlled access — the government earns revenue from managed chip trade. Pure restriction generated $0. This changes the political economy of controls.
 
 ---
 
@@ -284,6 +314,60 @@ Trump administration response to China AI competition:
 
 ---
 
+## American AI Export Program (Jan 2026 update)
+
+**The offensive counterpart to export controls.** While controls restrict China, the export program proliferates American tech globally. ([[Michael Kratsios]], [[David Sacks]], Davos Jan 23 2026)
+
+### Winning metric
+
+**Sacks:** "If in 5 years we look around the world and it's American chips and models being used everywhere, we won. If it's Huawei chips and DeepSeek models, we lost."
+
+### Program mechanics
+
+| Stage | Status (Jan 2026) |
+|-------|-------------------|
+| RFI (Request for Information) | **Closed** (late 2025) — Commerce ingesting industry input |
+| RFP (Request for Proposals) | **"Very shortly"** — companies form consortia |
+| Deployment | Partnering with DFC + Ex-Im Bank |
+| Next milestone | **India AI Impact Summit** (Feb 2026) — more details |
+
+### Design philosophy
+
+**Key insight (Kratsios):** Buyers worldwide vary dramatically in sophistication.
+
+| Buyer type | Needs |
+|------------|-------|
+| US Fortune 500 | Sophisticated — evaluate clouds, models, fine-tuning, custom apps |
+| Most countries | "Just trying to figure out a tool for healthcare or tax collection" |
+
+**Solution:** "Turnkey" AI packages — manageably-sized, easy to deploy.
+
+- Most countries do NOT have capital or aspiration for large-scale training runs
+- Very few will build "colossus-style training centers"
+- Most need smaller data centers with **inference-related chips only**
+- Packages = American models + American chips + deployment support
+
+### Financing
+
+| Organization | Role |
+|--------------|------|
+| **Development Finance Corporation (DFC)** | Export financing |
+| **Export-Import Bank** | Make packages "commercially viable" in developing countries |
+
+### The Huawei parallel
+
+**Kratsios (first-hand from Trump I):** Huawei wasn't the best telecom technology but was "good enough" and "subsidized enough" to become default for much of the world. China now has same ambition with AI models — export across global south.
+
+**US advantage:** Dominant in every part of the stack (models, chips, applications). Unlike telecom era, starting from position of strength. Goal: every developer worldwide fine-tunes American model on American chip.
+
+### Ecosystem framing
+
+**Sacks:** Great tech companies create ecosystems — most apps in app store, most developers on API, platform companies. "Biggest ecosystem wins." Need partner mindset: create value for partners, let every country derive value from AI revolution even if they don't build frontier models.
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
+---
+
 ## Strategic implications
 
 - Memory supply structurally constrained → supports Korean company margins
@@ -324,10 +408,16 @@ Mixed:
 - [ ] Naura/AMEC capability progression
 - [ ] **SEA diversion enforcement** — Malaysia, Thailand, Indonesia scrutiny
 - [ ] **NVIDIA geographic reporting** — further methodology changes
+- [ ] **Section 232 Jul 1 review** — Commerce may modify tariff rate
+- [ ] **Phase 3 legacy chips** — Jun 2027 expansion to mature nodes
+- [ ] **TSMC investment milestones** — triggers for preferential treatment
+- [ ] **American AI Export Program RFP** — Commerce Department proposals (early 2026)
+- [ ] **India AI Impact Summit** (Feb 2026) — export program progress
+- [ ] **Huawei AI chip global proliferation** — global south deployment
 
 ---
 
-*Updated 2026-01-15*
+*Updated 2026-01-23*
 
 ## Related
 
@@ -345,3 +435,9 @@ Mixed:
 - [[US-China AI race]] — broader competition context
 - [[Iluvatar CoreX]] — Chinese GPU firm (HK IPO planned)
 - [[China cybersecurity ban]] — counter-measure (US/Israeli software)
+- [[Section 232 semiconductor tariff]] — new policy tool (monetization + managed access, Jan 2026)
+- [[TSMC]] — $250B preferential treatment deal (tariff exemption for US investment)
+- [[David Sacks]] — articulated market share framing + Huawei threat (Davos Jan 2026)
+- [[Michael Kratsios]] — leading American AI Export Program, Huawei telecom parallel
+- [[India]] — AI Impact Summit (Feb 2026), export program showcase
+- [[DeepSeek]] — model layer of China AI export threat

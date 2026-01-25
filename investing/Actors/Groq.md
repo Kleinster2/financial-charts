@@ -93,10 +93,14 @@ This made Groq:
 
 | Aspect | Details |
 |--------|---------|
-| Type | Non-exclusive licensing |
-| NVIDIA gets | IP + engineers for "Rubin SRAM" variant |
-| Groq gets | Validation + royalties |
-| Independence | GroqCloud continues operating |
+| Type | Non-exclusive licensing + asset purchase |
+| Price | **$20B** (NVIDIA's largest deal ever) |
+| NVIDIA gets | Full hardware stack, compiler toolchain, silicon design, key engineers |
+| Key moves | Jonathan Ross (founder), Sunny Madra (president) → NVIDIA |
+| GroqCloud | Continues under new CEO **Simon Edwards** |
+| Independence | GroqCloud operates independently, NVIDIA gets IP |
+
+**Regulatory strategy:** Structured as "reverse acqui-hire" to avoid antitrust review. Groq technically remains independent, but NVIDIA gets all the valuable IP and talent.
 
 **Why NVIDIA licensed vs built:**
 - Re-architecting GPU memory hierarchy = hard
@@ -162,10 +166,15 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 ## Cap table / Investors
 
-| Round | Amount | Valuation |
-|-------|--------|-----------|
-| Sept 2025 | $750M | **$6.9B** |
-| Series A-D | $640M+ total | ~$2.8B (2024) |
+| Round | Date | Amount | Valuation |
+|-------|------|--------|-----------|
+| **Sept 2025** | Sept 2025 | **$750M** | **$6.9B** |
+| Series A-D | Through 2024 | $640M+ total | ~$2.8B |
+| **Total raised** | | **$1.4B+** | |
+
+**Key Sept 2025 investors:** BlackRock, Neuberger Berman, Samsung, Cisco, Altimeter, 1789 Capital
+
+**3 months later:** NVIDIA acquired IP + team for $20B (Dec 2025).
 
 **Jonathan Ross net worth:** **$1.1B** (Bloomberg Billionaires, Nov 2025)
 
@@ -196,18 +205,21 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 | Founder | Jonathan Ross (ex-Google TPU) |
 | NVIDIA deal | Dec 2025 licensing |
 
-*Updated 2026-01-04*
+*Updated 2026-01-22*
 
 ---
 
 ## Related
 
-- [[NVIDIA]] — partner ($20B backdoor acquisition, Dec 2025)
+- [[NVIDIA]] — acquirer ($20B deal, Dec 2025)
 - [[AI consolidation]] — Groq deal exemplifies stealth acquisition pattern
-- [[Cerebras]] — competitor (alternative inference chip)
+- [[FuriosaAI]] — remaining independent inference competitor
+- [[Cerebras]] — remaining independent competitor (training focus)
 - [[SambaNova]] — competitor (AI inference)
 - [[Google]] — founder origin (Jonathan Ross invented TPU)
 - [[Craft Ventures]] — investor (David Sacks)
 - [[Inference disaggregation]] — thesis context
 - [[Agentic AI]] — use case (fast decode for agents)
+- [[NPU]] — technology category
+- [[Power constraints]] — why inference efficiency matters
 

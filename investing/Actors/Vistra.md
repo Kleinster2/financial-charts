@@ -23,6 +23,25 @@ Best S&P 500 performer in 2024.
 
 ---
 
+## Meta nuclear deal (Jan 2026)
+
+**20-year PPA for 2.6 GW from three nuclear plants in Ohio and Pennsylvania:**
+
+| Detail | Value |
+|--------|-------|
+| Partner | [[Meta]] |
+| Contract length | 20 years |
+| Total capacity | 2.6 GW |
+| Expansion portion | ~1/6 (new capacity) |
+| Existing portion | ~5/6 (operating plants) |
+| Price | Premium to market |
+
+**Criticism:** The deal is mostly grabbing existing capacity from an already tight PJM grid. Vistra emphasized it would underwrite license extension applications for the three plants, but critics note no existing nuclear operator in PJM would contemplate shutting down in this environment regardless.
+
+**Market reaction:** Vistra shares dropped sharply (Jan 17) when PJM released its BYOG proposal targeting exactly this pattern — hyperscalers commandeering existing grid capacity rather than bringing new generation.
+
+---
+
 ## Power portfolio
 
 | Type | Capacity |
@@ -94,6 +113,7 @@ Re-rated as AI infrastructure.
 - Texas grid volatility
 - Gas price exposure
 - Less nuclear than CEG
+- **BYOG policy risk** — PJM proposals could limit deals for existing capacity
 
 ---
 
@@ -106,14 +126,33 @@ Re-rated as AI infrastructure.
 | 2024 return | +260% |
 | Focus | Texas power |
 
-*Updated 2026-01-01*
+---
+
+## PJM BYOG risk (Jan 2026)
+
+PJM's "Bring Your Own Generation" proposal threatens the existing-capacity grab strategy:
+
+| Proposal | Impact |
+|----------|--------|
+| **Expedited interconnection** | Only for *new* capacity that offsets large loads |
+| **Curtailment risk** | New large loads without matching generation can be switched off |
+| **Capacity auction reform** | June deadline to study alternatives |
+
+**Translation:** Hyperscalers can't just sign PPAs with existing plants — they need to bring new power onto the grid.
+
+This is a shot across the bow for Vistra, Constellation, and Talen — incumbents who've ridden the AI wave by selling existing capacity at premium prices.
+
+*Updated 2026-01-21*
 
 ---
 
 ## Related
 
+- [[Meta]] — customer (2.6 GW 20-year nuclear deal, Jan 2026)
 - [[Constellation Energy]] — peer (larger nuclear fleet)
+- [[Talen Energy]] — peer (Amazon nuclear deal)
 - [[NuScale]] — peer (nuclear power)
 - [[Power constraints]] — thesis (AI power demand)
+- [[BYOP]] — policy (BYOG risk from PJM proposals)
 - [[xAI]] — potential customer (Texas DC)
 

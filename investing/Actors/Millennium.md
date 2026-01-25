@@ -129,6 +129,23 @@ Expands beyond traditional sovereign wealth, endowments, institutions.
 
 ---
 
+## Performance convergence (Bloomberg, Jan 2026)
+
+Millennium's edge over the industry narrowed in 2025. From 2019-2024, Millennium delivered consistent double-digit returns while the average hedge fund was flat or low single digits. In 2025, Wellington (Citadel's flagship) and Millennium both converged toward the industry average.
+
+![[citadel-millennium-vs-industry.png]]
+*[[Citadel]]*
+
+Bloomberg frames this as a potential inflection: the multi-strategy pod model's returns may be commoditizing as more firms adopt it. With 2025 returns of +10.5% vs. industry ~8%, the gap that justified premium fees and lockups has shrunk to ~2.5pp.
+
+**Counterargument:** Millennium's consistency (only 1 losing year in 35) is the product, not absolute return. The Sharpe ratio still far exceeds peers.
+
+See [[Hedge fund capital concentration]] for the structural dynamics.
+
+*Source: Bloomberg Opinion (Shuli Ren), Jan 23 2026*
+
+---
+
 ## Comparison to peers
 
 | Fund | 2024 | 2025 | Style |
@@ -159,6 +176,9 @@ Expands beyond traditional sovereign wealth, endowments, institutions.
 
 ### Founder
 - [[Izzy Englander]] — founder, CEO, $18.9B net worth
+
+### Concepts
+- [[Hedge fund capital concentration]] — pod shops absorbing all industry capital; convergence risk
 
 ### Peer pod shops
 - [[Citadel Securities]] — Ken Griffin, rival pod shop

@@ -161,6 +161,8 @@ See [[Institutional homebuying ban]] for full context.
 
 ## Related
 
+- [[F&G Annuities]] — insurance partnership ($1B sidecar, Aug 2025)
+- [[Reinsurance sidecars]] — capital-light insurance model
 - [[QTS]] — platform ($10B acquisition, data centers)
 - [[Blue Owl]] — peer (AI infrastructure financing)
 - [[Brookfield]] — peer (infrastructure investor)

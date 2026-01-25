@@ -26,6 +26,7 @@ Google is the most vertically integrated AI hyperscaler:
 ![[goog-90d.png]]
 
 ![[goog-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[goog-fundamentals.png]]
 

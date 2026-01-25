@@ -73,6 +73,31 @@ aliases: [Gucci parent]
 
 ---
 
+## Valentino investment
+
+Kering owns 30% of [[Valentino]], with options to acquire the remaining 70% from [[Mayhoola]] (Qatar).
+
+| Term | Value |
+|------|-------|
+| Stake acquired | 30% (Jul 2023) |
+| Price paid | **€1.7B** |
+| Implied EV | €5.7B |
+| Remaining 70% | Mayhoola put options 2028-29 |
+| Kering call | 2029 |
+| Estimated 70% price | Originally ~€4B, now "substantially below" |
+
+**The liability:** If Mayhoola exercises put options, Kering must buy the remaining 70%. Pricing is EBITDA-based. With Valentino's EBITDA collapsed from €337M (2022) to €246M (2024), the formula points to a lower price — but still a multi-billion euro obligation on top of Kering's existing €10.5B net debt.
+
+**Why it matters:**
+- €1.7B already invested in a declining brand (Valentino -3% in 2024, double-digit decline in 2025)
+- €100M capital injection (Nov 2024) after covenant breach
+- Full acquisition would add €2-4B+ debt at a time when Kering's own brands are struggling
+- CFO Armelle Poulou stated price would be "substantially below" €4B
+
+**Strategic bind:** Kering can't walk away from €1.7B sunk cost, but acquiring a €1.3B declining brand strains an already leveraged balance sheet.
+
+---
+
 ## Real estate strategy
 
 Kering is buying rather than leasing prime retail locations — a shift toward owned real estate as strategic moat.
@@ -120,8 +145,14 @@ See [[Fifth Avenue luxury corridor]] for context on luxury brand buying spree.
 
 ## Related
 
+- [[Luxury]] — sector hub
+- [[Fashion]] — broader industry
 - [[LVMH]] — larger rival, taking share
 - [[Prada]] — peer, also buying Fifth Ave real estate
+- [[Valentino]] — 30% stake (€1.7B), put/call options 2028-29, potential €2-4B+ liability
+- [[Mayhoola]] — Valentino 70% owner, put option counterparty
+- [[L'Oréal]] — selling Kering Beauté (Creed) for ~€4B
+- [[Puma]] — former majority owner, residual ~6% stake
 - [[Fifth Avenue luxury corridor]] — $963M NYC purchase
 - [[Retail real estate as hidden value]] — owned vs. leased strategy
 

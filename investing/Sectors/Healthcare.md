@@ -108,6 +108,9 @@ Overview of healthcare sector: pharma, biotech, medtech, and services.
 
 ## Related
 
+- [[Medical sciences primer]] — biology fundamentals for investing
+- [[Biopharma]] — drug development detail
+- [[Life Sciences]] — tools and diagnostics
 - [[Insurance]] — health insurers detail
 - [[UnitedHealth]] — largest insurer
 - [[CVS Health]] — integrated model

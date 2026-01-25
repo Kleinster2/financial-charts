@@ -50,11 +50,14 @@
 
 ## Financials
 
-| Metric | FY2024 |
-|--------|--------|
-| Revenue | ~$700M |
-| Growth | ~15% YoY |
-| Backlog | $500M+ |
+| Metric | FY2024 | Jan 2026 |
+|--------|--------|----------|
+| Revenue | ~$700M | — |
+| Growth | ~15% YoY | — |
+| Backlog | $500M+ | Surging (Golden Dome, global demand) |
+| Stock price | — | **$312** (+28% YTD) |
+| P/E | — | **90x** (2026E) |
+| Consensus | — | **Buy**, target $384 |
 
 ---
 
@@ -77,7 +80,9 @@
 
 ## Related
 
-- [[Drones]] — sector overview
+- [[Drone warfare]] — concept (attritable, cost asymmetry, demand drivers)
 - [[Defense]] — sector context
+- [[Golden Dome]] — backlog driver
 - [[Ukraine war]] — demand driver
+- [[Kratos]] — drone peer (attritable)
 - [[General Atomics]] — larger military drones

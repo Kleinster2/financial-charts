@@ -95,8 +95,9 @@ aliases: [RMS, Hermes]
 
 ## Related
 
+- [[Luxury]] — sector hub
 - [[LVMH]] — luxury peer
-- [[Consumer]] — sector
+- [[Consumer]] — parent sector
 
 ---
 

@@ -24,6 +24,7 @@ Amazon is central to multiple vault theses:
 ![[amzn-90d.png]]
 
 ![[amzn-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[amzn-fundamentals.png]]
 

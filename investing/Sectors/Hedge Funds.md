@@ -113,12 +113,28 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 
 ### Industry flows
 
-**Hedge fund assets at all-time highs**, supported by net inflows.
+**Hedge fund AUM at ~$5T** (Preqin, Jun 2025), but growth was almost entirely performance-driven. In the 5 years from Jun 2020 to Jun 2025, the industry received near-zero net new capital. Fundraising became a zero-sum game dominated by pod shops.
 
-> "Overall, it has been a strong year for hedge funds across strategies, with decent alpha generation and recognition from allocators. Allocator sentiment toward hedge funds remains positive, and we see plenty of opportunities to explore in 2026."
-> — Vanessa Bogaardt, Global Head of Capital Introduction, Bank of America
+![[hedge-fund-zero-sum-flows.png]]
+*[[Hedge fund capital concentration]]*
+
+**Boutique revival (Jan 2026):** Several $1B+ fund debuts (stock-picking, credit derivatives) as Citadel/Millennium convergence opens allocator appetite.
+
+**New fund launches:** Contracting for 4 consecutive years. Liquidations more frequent.
+
+> "Overall, it has been a strong year for hedge funds across strategies, with decent alpha generation and recognition from allocators."
+> — Vanessa Bogaardt, BofA Capital Introduction
 
 **Drivers:** AI rally + Trump trade war volatility = active trading profits.
+
+### Competition from private alternatives
+
+![[hedge-fund-aum-vs-pe-private-credit.png]]
+*[[Hedge fund capital concentration]]*
+
+Hedge fund growth pales vs. private equity (~$7T) and private credit (~$2T, fastest relative growth from ~$0 in 2010). Private credit marketed as safer with handsome capital gains, but 2025 brought "cockroach" concerns (distressed companies in shadows) and systemic risk scrutiny.
+
+See [[Hedge fund capital concentration]] for the structural dynamics.
 
 ---
 
@@ -232,8 +248,10 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 
 | Trend | Detail |
 |-------|--------|
-| Pod shop dominance | Talent migration to multi-strat |
+| Pod shop dominance | Absorbing all net new capital; but returns converging |
 | Fee compression | LPs pushing back on pass-through |
+| Short squeeze risk | Goldman most-shorted basket +18% YTD (Jan 2026); L/S gross leverage rising |
+| Private credit competition | Marketed as safer alternative; $2T AUM from near-zero in 2010 |
 | Quant crowding | Similar signals, lower alpha |
 | Crypto expansion | More funds adding digital assets |
 
@@ -288,6 +306,9 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 - [[Hudson River Trading]] — low-profile HFT
 - [[Optiver]] — Amsterdam options
 - [[IMC Trading]] — Amsterdam options
+
+### Concepts
+- [[Hedge fund capital concentration]] — pod shops absorbing all capital; zero-sum flows; convergence risk
 
 ### Sectors
 - [[Market Makers]] — HFT and liquidity providers

@@ -26,6 +26,8 @@ All major Indian conglomerates failed to secure Chinese battery tech:
 | [[Reliance Industries]] | Xiamen Hithium withdrew | BESS assembly |
 | [[Adani Group]] | No cell manufacturing | BESS assembly |
 | [[JSW Group]] | No cell manufacturing | BESS pilot only |
+| Exide Industries | Chinese tech licensing | — |
+| Amara Raja | Gotion High-Tech license | — |
 
 **Why alternatives don't work:**
 - Japanese, European, Korean tech assessed
@@ -33,6 +35,37 @@ All major Indian conglomerates failed to secure Chinese battery tech:
 - Global battery overcapacity means cost is everything
 
 **India market size:** 87 GW by 2035 (300x growth from 2024) — massive market that may remain dependent on Chinese cells.
+
+### "Make in India" failure
+
+| Metric | Plan | Reality |
+|--------|------|---------|
+| Subsidy pool | ₹181B ($2B) | — |
+| Capacity target | 50 GWh | **1 GWh installed** |
+| Achievement | — | **2%** |
+
+### Import dependence growing
+
+![[india-battery-imports.png]]
+*[[India]] · [[China]]*
+
+| Year | Total imports | From China |
+|------|--------------|------------|
+| 2018 | ~$0.4B | ~75% |
+| 2025 | **$3B** | **75%** |
+
+Imports grew 2.5x while domestic manufacturing failed to scale.
+
+### Underlying R&D gap
+
+India's inability to develop indigenous alternatives reflects decades of underinvestment:
+
+| Country | R&D as % GDP (2023) |
+|---------|---------------------|
+| China | ~2.5% |
+| India | ~0.6% (flat since 1996) |
+
+*Sources: Ministry of Commerce India, UNESCO, Bloomberg Opinion Jan 2026*
 
 ---
 

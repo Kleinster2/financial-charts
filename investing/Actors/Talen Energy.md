@@ -73,12 +73,33 @@ One of the largest nuclear plants in the US.
 - Regulatory scrutiny on co-location
 - Single-asset concentration
 - Power price volatility
+- **BYOG policy risk** — PJM proposals could limit existing-capacity deals
+
+---
+
+---
+
+## PJM BYOG risk (Jan 2026)
+
+PJM's "Bring Your Own Generation" proposal is a double-edged sword for Talen:
+
+| Aspect | Impact |
+|--------|--------|
+| **Positive** | Susquehanna is *co-location* — Amazon's behind-the-meter approach already aligns with BYOG intent |
+| **Negative** | Curtailment rules could affect future deals for existing capacity |
+| **Market reaction** | Shares fell sharply (Jan 17) alongside Vistra and Constellation |
+
+**Key difference:** Amazon's Susquehanna deal is *true* co-location (behind the meter), not just a PPA for grid power. This is closer to what PJM wants, but the stock still sold off on BYOG headline risk.
+
+*Updated 2026-01-21*
 
 ---
 
 ## Related
 
 - [[Amazon]] — Susquehanna partner
-- [[Nuclear power for AI]] — Industry context
-- [[Constellation Energy]] — Competitor/peer
-- [[Power constraints]] — Why nuclear matters
+- [[Vistra]] — peer (Meta deal, BYOG risk)
+- [[Constellation Energy]] — peer (TMI restart)
+- [[Nuclear power for AI]] — industry context
+- [[Power constraints]] — why nuclear matters
+- [[BYOP]] — policy (BYOG from PJM)

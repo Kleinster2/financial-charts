@@ -60,6 +60,8 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 
 Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
+**Consumer device (announced Jan 23, 2026 at Davos):** OpenAI planning first-ever consumer hardware product for H2 2026. Chief global affairs officer Chris Lehane confirmed at Axios House Davos. No details on form factor — could be purpose-built AI companion device.
+
 ---
 
 ## Strategic dependencies

@@ -1,5 +1,5 @@
 ---
-aliases: [Bring Your Own Power, On-site power generation]
+aliases: [Bring Your Own Power, BYOG, Bring Your Own Generation, On-site power generation]
 ---
 #concept #thesis #power #datacenter
 
@@ -23,12 +23,38 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 
 ---
 
+## BYOG: Policy formalization (Jan 2026)
+
+**PJM's "Bring Your Own Generation" proposal formalizes BYOP as policy:**
+
+| Mechanism | Effect |
+|-----------|--------|
+| **Expedited interconnection** | Fast-track for new capacity that offsets large loads |
+| **Curtailment** | New large loads without matching generation subject to curtailment |
+| **Capacity auction reform** | June deadline to study long-duration alternatives |
+
+**Why this matters:**
+- Regulators now *requiring* BYOP, not just permitting it
+- Era of hyperscalers grabbing existing capacity at premium prices is ending
+- [[Vistra]], [[Constellation Energy]], [[Talen Energy]] shares fell sharply (Jan 17) on this news
+- Meta's Vistra deal (2.6 GW, mostly existing capacity) was poorly timed
+
+**Political context:**
+- White House and state governors issued emergency directive
+- $15B in 15-year supply contracts to encourage new plants
+- Consumer anger over rising power bills driving action
+
+**Winner:** Natural gas and grid batteries — can be built fast to satisfy BYOG requirements.
+
+---
+
 ## BYOP deals
 
 | Company | Project | Capacity | Strategy |
 |---------|---------|----------|----------|
 | [[OpenAI]] | UAE Stargate | 1GW | 4x Ansaldo Energia gas turbines |
 | [[Meta]] | Socrates South | 200MW+ | Hybrid fleet (Solar/Siemens/CAT) |
+| [[Meta]] | Vistra deal | 2.6GW | 20-yr PPA, 3 nuclear plants (OH/PA) — mostly existing |
 | [[Microsoft]] | Constellation | 835MW | TMI nuclear restart |
 | [[Amazon]] | Talen Energy | 960MW | Susquehanna nuclear co-location |
 | [[Google]] | Kairos Power | 500MW | SMR development |
@@ -140,7 +166,7 @@ Both valid strategies — depends on risk tolerance and scale.
 | Microsoft TMI | 835MW (nuclear) |
 | Amazon Talen | 960MW (nuclear) |
 
-*Updated 2026-01-04*
+*Updated 2026-01-21*
 
 ---
 

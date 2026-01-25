@@ -47,9 +47,16 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - $3B DoD "Secure Enclave" contract
 - Stock up 86% YTD
 
+**Q4 2025 results:**
+- IFS revenue $4.5B (+3.8% YoY)
+- **Manufacturing yields disappointing** — CEO Tan: "not up to my standards"
+- Burned through inventory; server chip supply recovery not until end of Q1 2026
+- New CapEx machinery won't boost output until 2027
+
 **Setbacks:**
 - **NVIDIA halted 18A testing** (Reuters) — evaluated but stopped moving forward
 - Operating loss $9.5B for FY2025
+- Manufacturing yield issues undercut turnaround narrative (Jan 23 earnings, stock -14% AH)
 
 **Maia 2 significance**: Microsoft seeking US-based foundry capacity not exposed to TSMC constraints. If deal closes, validates 18A for external customers and opens door to other hyperscalers.
 

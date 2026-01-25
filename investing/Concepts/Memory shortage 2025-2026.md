@@ -209,7 +209,25 @@ Despite expansion, shortage expected to persist through 2027 — capacity takes 
 
 ---
 
-*Updated 2026-01-21*
+## Supercycle framing (Jan 2026)
+
+**Wall Street consensus:** This is no longer a temporary shortage — it's a structural supercycle.
+
+| Analyst | 2026 forecast |
+|---------|---------------|
+| **Bank of America** | "Supercycle similar to 1990s boom" |
+| BoA DRAM revenue | **+51% YoY** |
+| BoA NAND revenue | **+45% YoY** |
+| WSTS global semi | **$975B** (+26%) |
+| BoA global semi | **$1T+** (+30%) |
+| IDC | "Unprecedented" shortage, may persist to 2027 |
+| Counterpoint Research | Memory prices +40% through Q2 2026 |
+
+**Nov 2025 monthly sales:** $75.3B — all-time record (+29.8% YoY).
+
+---
+
+*Updated 2026-01-23*
 
 ## Related
 

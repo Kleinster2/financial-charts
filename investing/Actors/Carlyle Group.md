@@ -67,6 +67,8 @@ Carlyle = PE with government expertise.
 
 ## Related
 
+- [[Fortitude Re]] — reinsurance platform ($106B assets, FCA Re Asia sidecar)
+- [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Blackstone]] — peer (largest PE)
 - [[KKR]] — peer (PE)
 - [[Apollo]] — peer (PE)

@@ -91,5 +91,9 @@ Buffett still active at 94, but succession planned.
 - [[Apple]] — largest equity holding
 - [[Bank of America]] — major holding
 - [[Progressive]] — competitor (auto)
+- [[Travelers]] — P&C peer (DJIA component)
+- [[Munich Re]] — reinsurance peer
+- [[Permanent capital]] — original insurance float model
+- [[Insurance]] — sector hub
 - [[JPMorgan]] — peer (financials)
 

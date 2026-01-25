@@ -114,6 +114,23 @@
 
 ---
 
+## WallStreetBets and meme stock legacy (Jan 2026)
+
+Five years after [[GameStop]], Reddit's investment communities remain a major force:
+
+| Metric | Growth (end 2020 → end 2025) |
+|--------|-------------------------------|
+| Personal finance posts/comments | **+117%** |
+| Investment interest posts/comments | **+49%** |
+
+Investment interest is led by WallStreetBets and Superstonk but also includes r/stocks and r/investing.
+
+**Institutional adoption:** Fidelity now operates its own investment forum on Reddit — "a massive difference that you wouldn't have seen in 2021" (Rob Gaige, Reddit global head of Insights). Brands once shunned are now "adding tremendous value."
+
+*Source: Barron's, Jan 23 2026*
+
+---
+
 ## Investment relevance
 
 **Why Reddit matters:**
@@ -127,6 +144,8 @@
 4. **Profitability achieved** — Crossed profitability threshold post-IPO.
 
 5. **YC origin story** — First YC batch success, validates accelerator model.
+
+6. **Investment community hub** — WallStreetBets → permanent retail investor infrastructure.
 
 **Risks:**
 - Valuation (110x P/E, 30x projected 2030 earnings)
@@ -146,6 +165,10 @@
 - [[Y Combinator]] — S05 batch (first batch)
 - [[Twitch]] — YC peer
 - [[Dropbox]] — YC peer
+
+### Market structure
+- [[GameStop]] — WallStreetBets birthplace of meme movement
+- [[Retail investor flows]] — Reddit as permanent retail infrastructure
 
 ### Competitors
 - Twitter/X

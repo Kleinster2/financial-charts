@@ -2877,6 +2877,7 @@ def get_chart_lw():
                  Options: revenue, netIncome, eps, fcf, operatingIncome, ebitda, grossProfit
         forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
         labels: Custom legend labels (optional), e.g., SMH_1_44X:SMH 1.44x Lev,NVDA:NVIDIA
+        sort_by_last: Sort series by last value, high to low (optional, default false)
 
     Returns: PNG image
     """
@@ -2907,6 +2908,7 @@ def get_chart_lw():
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
     labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
     show_last_value = request.args.get('show_last_value', 'false').lower() == 'true'  # Show last price label on chart
+    sort_by_last = request.args.get('sort_by_last', 'false').lower() == 'true'  # Sort series by last value (high to low)
 
     # Parse custom labels
     labels = {}
@@ -2978,6 +2980,17 @@ def get_chart_lw():
 
             if not chart_data:
                 return jsonify({'error': 'No fundamentals data found'}), HTTP_NOT_FOUND
+
+            # Sort series by last value (high to low) if requested
+            if sort_by_last and chart_data:
+                def get_last_value(series_name):
+                    points = chart_data.get(series_name, [])
+                    if not points:
+                        return float('-inf')
+                    return points[-1]['value'] if points else float('-inf')
+
+                sorted_names = sorted(chart_data.keys(), key=get_last_value, reverse=True)
+                chart_data = {n: chart_data[n] for n in sorted_names}
 
             # Update title if not custom
             if title == ', '.join(tickers):
@@ -3079,6 +3092,26 @@ def get_chart_lw():
 
         if not chart_data:
             return jsonify({'error': 'No valid data after processing'}), HTTP_NOT_FOUND
+
+        # Sort series by last value (high to low) if requested
+        if sort_by_last and chart_data:
+            def get_sort_value(ticker):
+                points = chart_data.get(ticker, [])
+                if not points or len(points) < 2:
+                    return float('-inf')
+                if normalize:
+                    # For normalized charts, sort by % change from first to last
+                    first_val = points[0]['value']
+                    last_val = points[-1]['value']
+                    if first_val and first_val != 0:
+                        return ((last_val - first_val) / first_val) * 100
+                    return float('-inf')
+                else:
+                    # For raw charts, sort by last value
+                    return points[-1]['value']
+
+            sorted_tickers = sorted(chart_data.keys(), key=get_sort_value, reverse=True)
+            chart_data = {t: chart_data[t] for t in sorted_tickers}
 
         # Prepare config for the HTML template
         chart_config = {

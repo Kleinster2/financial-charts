@@ -99,6 +99,8 @@ These issues complicated US/UK listing plans.
 
 ## Related
 
+- [[Fashion]] — sector hub
 - [[Asia IPO pipeline 2026]] — context (HK IPO pending)
 - [[ByteDance]] — peer (China tech, similar listing challenges)
 - [[Alibaba]] — peer (China e-commerce)
+- [[PDD Holdings]] — competitor (Temu ultra-cheap)

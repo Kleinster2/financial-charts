@@ -45,13 +45,13 @@ aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals, Biopharmaceuticals]
 
 **TAM:** $100B+ obesity market by 2030.
 
-### Patent cliffs
+### [[Patent cliffs]]
 
 | Company | Drug | Expiry | Revenue at risk |
 |---------|------|--------|-----------------|
-| [[Merck]] | Keytruda | 2028 | ~$25B |
-| Bristol-Myers | Opdivo | 2028 | ~$10B |
-| [[AbbVie]] | Humira | 2023 (lost) | Biosimilar erosion |
+| [[Merck]] | Keytruda | Dec 2028 | $31.7B (49% of sales) |
+| [[Bristol-Myers Squibb]] | Multiple | 2026-2031 | >75% of sales |
+| [[AbbVie]] | Humira | Completed | Navigated successfully (460% return) |
 
 ### AI drug discovery
 
@@ -145,7 +145,9 @@ aliases: [Biotech, Biotechnology, Pharma, Pharmaceuticals, Biopharmaceuticals]
 
 ## Related
 
+- [[Medical sciences primer]] — biology fundamentals (modalities, trials, why drugs fail)
 - [[Healthcare]] — broader sector
+- [[Life Sciences]] — tools and diagnostics
 - [[Eli Lilly]] — GLP-1 leader
 - [[Novo Nordisk]] — GLP-1 leader
 - [[Amgen]] — large-cap biotech

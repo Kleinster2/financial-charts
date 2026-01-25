@@ -81,6 +81,7 @@ Bondholders who participated in the exchange traded face value for seniority —
 ### Bond price collapse
 
 ![[attachments/saks-bond-prices-collapse-2025-2026.png]]
+*[[Saks Global]]*
 
 | Tranche | Jul 2025 | Nov 2025 | Jan 2026 |
 |---------|----------|----------|----------|

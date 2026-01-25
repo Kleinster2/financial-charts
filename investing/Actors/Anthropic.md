@@ -70,6 +70,23 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
+### Trump AI Czar endorsement at Davos (Jan 23, 2026)
+
+**[[David Sacks]]** (White House AI/Crypto Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":
+- Called it "powered by Anthropic's Opus 4.5" — "a real breakthrough in coding"
+- Described it as beginning of personal digital assistants — not just code, but all knowledge worker output
+- Mentioned "co-work" tab: non-coders can create spreadsheets, PowerPoints, websites
+- Can point at user's file drive and email — emulates style and format of existing work
+- "Just need one more layer of abstraction on top of a tool like that and you'll have your own personal digital assistant"
+- Predicted this could happen in 2026: coding assistants → personal digital assistants
+- Referenced movie "Her" (Joaquin Phoenix, voice interface)
+
+**Significance:** First time a sitting White House official has publicly endorsed a specific AI product by name at a major international forum. Reinforces Anthropic's positioning as the leading coding/agent AI company.
+
+*Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
+
+---
+
 ### IPO prep (Dec 2025)
 - Engaged Wilson Sonsini (law firm)
 - Valuation $300-350B post latest investments

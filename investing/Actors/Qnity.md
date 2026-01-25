@@ -127,6 +127,7 @@ Qnity took the high-growth electronics business.
 ## Price action
 
 ![[qnity-vs-smh.png]]
+*[[Semiconductors|SMH]]*
 
 **Since spin-off (Nov 2025):** Q +3% vs SMH +24%
 
