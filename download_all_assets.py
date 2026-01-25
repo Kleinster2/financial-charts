@@ -38,6 +38,11 @@ ADR_TICKERS = [
     "RY", "TD", "NVO", "SNY", "DEO", "BHP",
     # Robotics/Industrial ADRs
     "ABB", "FANUY", "ABBNY",
+    # Gaming/Tech ADRs
+    "NTDOY",    # Nintendo (OTC ADR)
+    "TCEHY",    # Tencent Holdings (OTC ADR)
+    "UBSFY",    # UBS Group (OTC ADR)
+    "VNET",     # VNET Group (China data centers)
     # Chinese EV/Auto ADRs & HK Stocks
     "GELYF",    # Geely Automobile Holdings (OTC, owns Volvo, Polestar, Lotus)
     "0175.HK"   # Geely Automobile Holdings (Hong Kong Stock Exchange)
@@ -50,6 +55,8 @@ ETF_TICKERS = [
     "MDY", "IJR", "MTUM", "VLUE", "QUAL", "SPLV",
     # Sector ETFs (GICS)
     "XLK", "XLF", "XLE", "XLV", "XLY", "XLB", "XLI", "XLC", "XLP", "XLRE", "XLU",
+    # Additional Utilities ETFs
+    "UTES", "UTG", "VPU",
     # Additional Energy ETFs
     "OIH", "XOP", "VDE",
     # Broad international equity baskets
@@ -59,15 +66,15 @@ ETF_TICKERS = [
     # Single-country emerging market ETFs
     "EWZ", "EWT", "EWY", "EWW", "EZA", "TUR", "THD", "EPOL", "EIDO", "FM", "FXI", "GXC",  # added GXC for ALLW
     # Fixed income & alternative asset ETFs
-    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX",
+    "TLT", "HYG", "TIP", "LQD", "VNQ", "BIL", "AGG", "BND", "IEF", "IEI", "SHY", "SHV", "EMB", "JNK", "BNDX", "VCIT", "VCLT", "VCSH", "USHY", "SHYG", "IGOV",
     # Global bonds (Dashboard)
     "2510.T", "IGLT.L", "IBGL.L", "XLB.TO", "GOVT.AX", "CBON",
     # Multi-asset / risk parity ETFs
     "ALLW", "RPAR", "AOR", "AOM", "NTSX", "UPAR", "PARR",
     # Commodities, currencies & volatility
-    "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "COW", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT",
+    "GLD","SLV", "USO", "DBA", "UUP", "UDN", "FXE", "FXB", "FXY", "FXA", "CYB", "FXC", "FXF", "DBC", "GSG", "COMB", "PDBC", "BNO", "UNG", "UGA", "KOLD", "BOIL", "IAU", "CPER", "PPLT", "PALL", "WEAT", "CORN", "SOYB", "CANE", "COCO", "PICK", "XME", "GDX", "GDXJ", "SIL", "RINF", "COMT", "COPX", "REMX", "DBB",
     # Volatility indices (Yahoo '^' symbols) and ETNs
-    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXV", "^VXD", "^VOLQ", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY", "^VXN", "^RVX", "^VXO", "^GVZ", "^OVX", "^EVZ", "^VXEFA", "^VXEWZ",
+    "^VIX", "^VIX9D", "^VIX1D", "^VIX3M", "^VIX6M", "^VXD", "^VVIX", "^SKEW", "VXX", "UVXY", "SVXY", "^VXN", "^GVZ", "^OVX", "^VXEFA", "^VXEWZ",
     # Single-stock volatility indices
     "^VXAPL", "^VXAZN", "^VXGOG", "^VXGS", "^VXIBM",
     # Treasury yield index symbols (yields, not prices)
@@ -99,10 +106,10 @@ ETF_TICKERS = [
     "RSX", "INDA",
     # Leveraged ETFs
     "QLD", "SSO", "UPRO", "TQQQ", "SOXL", "SPXL", "TMF",
-    "TNA", "FAS", "ERX", "LABU", "NUGT", "JNUG", "UGAZ", "UCO", "BOIL",
+    "TNA", "FAS", "ERX", "LABU", "NUGT", "JNUG", "UCO", "BOIL",
     # Inverse ETFs
     "PSQ", "SH", "SDS", "SPXU", "SPXS", "SQQQ", "SDOW", "SRTY", "TZA", "FAZ",
-    "ERY", "LABD", "DRIP", "DUST", "JDST", "DGAZ", "SCO", "VIXY",
+    "ERY", "LABD", "DRIP", "DUST", "JDST", "SCO", "VIXY",
     # Crypto ETFs (spot, futures, blockchain)
     # -- Bitcoin spot ETFs
     "IBIT", "FBTC", "ARKB", "BITB", "HODL", "BTCO", "EZBC", "BRRR", "GBTC",
@@ -218,7 +225,7 @@ OTHER_HIGH_PROFILE_STOCKS = [
     "ABNB","COIN","DDOG","DOCU","HOOD","NET","OKTA","PLTR","RBLX","SHOP","SNOW","SOFI","SPOT","XYZ","UBER","ZM",  # XYZ = Block (formerly SQ)
     "BYND","CELH","CPNG","DASH","LCID","MSTR","NU","RIVN","TOST","U","UPST", "CRWV", "FIG", "PSKY",
     # Data Centers
-    "AJBU", "DBRG", "CONE", "QTS", "DTCR", "SRVR", "GDS", "GIGA",
+    "AJBU", "DBRG", "DTCR", "SRVR", "GDS", "GIGA",
     # Crypto / Blockchain
     "CRCL", "CRON",
     # Fintech / Recent IPOs
@@ -226,7 +233,17 @@ OTHER_HIGH_PROFILE_STOCKS = [
     # Private Equity / Alt Asset Managers
     "APO", "BX", "KKR", "CG", "ARES", "OWL", "BAM", "TPG",
     # Cybersecurity
-    "PANW", "ZS", "S", "CRWD", "FTNT",
+    "PANW", "ZS", "S", "CRWD", "FTNT", "RBRK",
+    # Tech / SaaS
+    "RDDT", "GDDY", "WIX", "GTLB", "BRZE", "FRSH", "WEAV", "CCOI", "HIMS",
+    # Consumer / Recent IPOs
+    "CAVA", "CART", "BIRK", "KVUE", "MNSO", "SONO", "WMG",
+    # Infrastructure
+    "DY", "MTZ",
+    # Meme / speculative
+    "AMC", "GME", "DJT", "LUMN",
+    # Misc
+    "SRAD", "Q", "UNIT", "IRBT", "OCS", "ASGN", "CGNX",
 ]
 
 # Electric Vehicle (EV) stocks
@@ -285,7 +302,6 @@ BATTERY_ENERGY_STORAGE_STOCKS = [
     "ALB",    # Albemarle (lithium)
     "SQM",    # Sociedad Quimica y Minera (lithium)
     "LAC",    # Lithium Americas
-    "LTHM",   # Livent (lithium)
     "STLHF",  # Standard Lithium
     "PLL",    # Piedmont Lithium
     "LTBR",   # Lightbridge Corp
@@ -328,6 +344,13 @@ NUCLEAR_ENERGY_STOCKS = [
     "BWXT",   # BWX Technologies
     "GE",     # General Electric (nuclear division)
     "LTBR",   # Lightbridge Corp (nuclear fuel)
+    # Power/utilities & fuel cells
+    "VST",    # Vistra (nuclear, gas, retail electricity)
+    "GEV",    # GE Vernova (power equipment spinoff)
+    "BE",     # Bloom Energy (solid oxide fuel cells)
+    "FCEL",   # FuelCell Energy (hydrogen fuel cells)
+    "PLUG",   # Plug Power (hydrogen fuel cells)
+    "BLDP",   # Ballard Power Systems (hydrogen fuel cells)
 ]
 
 # Artificial Intelligence and semiconductor equities (beyond mega caps)
@@ -363,12 +386,12 @@ SPACE_AEROSPACE_STOCKS = [
     "SPIR",   # Spire Global
     "BKSY",   # BlackSky Technology
     "LUNR",   # Intuitive Machines
-    "VORB",   # Virgin Orbit (if still trading)
-    "AJRD",   # Aerojet Rocketdyne (now part of L3Harris)
     "LHX",    # L3Harris Technologies
     "HEI",    # HEICO Corporation
     "TDG",    # TransDigm Group
     "SATS",   # EchoStar Corporation (satellite services)
+    "RDW",    # Redwire Corporation (space infrastructure)
+    "MNTS",   # Momentus (space transportation)
 ]
 
 # Defense and military technology equities
@@ -385,12 +408,20 @@ DEFENSE_STOCKS = [
     "AVAV",   # AeroVironment (drones)
     "KTOS",   # Kratos Defense
     "IRDM",   # Iridium Communications
+    "BAH",    # Booz Allen Hamilton
+    "CACI",   # CACI International
+    "SAIC",   # Science Applications International
+    "ESLT",   # Elbit Systems
+    "PSN",    # Parsons Corporation
+    "MRCY",   # Mercury Systems
+    "VSEC",   # VSE Corporation
+    "MIND",   # MIND Technology
 ]
 
 # Crypto-exposed equities (miners, exchanges, infrastructure)
 CRYPTO_STOCKS = [
     # Miners
-    "RIOT", "MARA", "HUT", "HIVE", "BITF", "CIFR", "CORZ", "IREN", "WULF", "CLSK", "BTBT", "SDIG", "CAN",
+    "RIOT", "MARA", "HUT", "HIVE", "BITF", "CIFR", "CORZ", "IREN", "WULF", "CLSK", "BTBT", "CAN",
     # Platforms / infra
     "BKKT", "GLXY",
 ]
@@ -685,7 +716,6 @@ ADTECH_STOCKS = [
     "TTD",   # The Trade Desk
     "MGNI",  # Magnite
     "PUBM",  # PubMatic
-    "IAS",   # Integral Ad Science
     "DV",    # DoubleVerify
     "PERI",  # Perion Network
     "APPS",  # Digital Turbine
@@ -702,7 +732,6 @@ GAMING_IGAMING_STOCKS = [
     # Social casino & online gaming
     "DDI",    # DoubleDown Interactive (South Korea - social casino games)
     "PLTK",   # Playtika (social casino & casual games)
-    "ZNGA",   # Zynga (now part of Take-Two, but may still trade)
     # Online gambling & sports betting
     "DKNG",   # DraftKings (sports betting & iGaming)
     "PENN",   # Penn Entertainment (casinos & sports betting)
@@ -958,7 +987,7 @@ def get_sp500_tickers():
     """
     # Static list (S&P 500 October 2025 + Recent IPOs)
     tickers = [
-        "MMM", "AOS", "ABT", "ABBV", "ACN", "ADBE", "AMD", "AAP", "AES", "AFL", "A", "APD", "AKAM", "ALK", "ALB", "ARE", "ALGN", "ALLE", "LNT", "ALL", "GOOGL", "GOOG", "MO", "AMZN", "AMCR", "AEE", "AAL", "AEP", "AXP", "AIG", "AMT", "AWK", "AMP", "ABC", "AME", "AMGN", "APH", "ADI", "ANSS", "AON", "APA", "AAPL", "AMAT", "APTV", "ACGL", "ADM", "ANET", "AJG", "AIZ", "T", "ATO", "ADSK", "ADP", "AZO", "AVB", "AVY", "AXON", "BKR", "BALL", "BAC", "BBWI", "BAX", "BDX", "BRK-B", "BBY", "BIO", "TECH", "BIIB", "BLK", "BK", "BA", "BKNG", "BWA", "BXP", "BSX", "BMY", "AVGO", "BR", "BRO", "BF-B", "BLDR", "BG", "CDNS", "CZR", "CPT", "CPB", "COF", "CAH", "KMX", "CCL", "CARR", "CTLT", "CAT", "CBOE", "CBRE", "CDW", "CE", "CNC", "CNP", "CDAY", "CF", "CRL", "SCHW", "CHTR", "CVX", "CMG", "CB", "CHD", "CI", "CINF", "CTAS", "CSCO", "C", "CFG", "CLX", "CME", "CMS", "KO", "CTSH", "CL", "CMCSA", "CMA", "CAG", "COP", "ED", "STZ", "CEG", "COO", "CPRT", "GLW", "CTVA", "CSGP", "COST", "CTRA", "CCI", "CSX", "CMI", "CVS", "DHI", "DHR", "DRI", "DVA", "DE", "DAL", "XRAY", "DVN", "DXCM", "FANG", "DLR", "DFS", "DIS", "DG", "DLTR", "D", "DPZ", "DOV", "DOW", "DTE", "DUK", "DD", "EMN", "ETN", "EBAY", "ECL", "EIX", "EW", "EA", "ELV", "LLY", "EMR", "ENPH", "ETR", "EOG", "EPAM", "EQT", "EFX", "EQIX", "EQR", "ESS", "EL", "ETSY", "EG", "EVRG", "ES", "EXC", "EXPE", "EXPD", "EXR", "XOM", "FFIV", "FDS", "FICO", "FAST", "FRT", "FDX", "FITB", "FSLR", "FE", "FIS", "FISV", "FLT", "FMC", "F", "FTNT", "FTV", "FOXA", "FOX", "BEN", "FCX", "GRMN", "IT", "GEHC", "GEN", "GNRC", "GD", "GE", "GIS", "GM", "GPC", "GILD", "GL", "GPN", "GS", "HAL", "HIG", "HAS", "HCA", "PEAK", "HSIC", "HSY", "HES", "HPE", "HLT", "HOLX", "HD", "HON", "HRL", "HST", "HWM", "HPQ", "HUBB", "HUM", "HBAN", "HII", "IBM", "IEX", "IDXX", "ITW", "ILMN", "INCY", "IR", "PODD", "INTC", "ICE", "IFF", "IP", "IPG", "INTU", "ISRG", "IVZ", "INVH", "IQV", "IRM", "JBHT", "JKHY", "J", "JNJ", "JCI", "JPM", "JNPR", "K", "KDP", "KEY", "KEYS", "KMB", "KIM", "KMI", "KLAC", "KHC", "KR", "LHX", "LH", "LRCX", "LW", "LVS", "LDOS", "LEN", "LIN", "LYV", "LKQ", "LMT", "L", "LOW", "LULU", "LYB", "MTB", "MRO", "MPC", "MKTX", "MAR", "MMC", "MLM", "MAS", "MA", "MTCH", "MKC", "MCD", "MCK", "MDT", "MRK", "META", "MET", "MTD", "MGM", "MCHP", "MU", "MSFT", "MAA", "MRNA", "MHK", "MOH", "TAP", "MDLZ", "MPWR", "MNST", "MCO", "MS", "MOS", "MSI", "MSCI", "NDAQ", "NTAP", "NFLX", "NWL", "NEM", "NWSA", "NWS", "NEE", "NKE", "NI", "NDSN", "NSC", "NTRS", "NOC", "NCLH", "NRG", "NUE", "NVDA", "NVR", "NXPI", "ORLY", "OXY", "ODFL", "OMC", "ON", "OKE", "ORCL", "OGN", "OTIS", "PCAR", "PKG", "PARA", "PH", "PAYX", "PAYC", "PYPL", "PNR", "PEP", "PKI", "PFE", "PCG", "PM", "PSX", "PNW", "PXD", "PNC", "POOL", "PPG", "PPL", "PFG", "PG", "PGR", "PLD", "PRU", "PEG", "PTC", "PSA", "PHM", "QRVO", "PWR", "QCOM", "DGX", "RL", "RJF", "RTX", "O", "REG", "REGN", "RF", "RSG", "RMD", "RVTY", "RHI", "ROK", "ROL", "ROP", "ROST", "RCL", "SPGI", "CRM", "SBAC", "SLB", "STX", "SEE", "SRE", "NOW", "SHW", "SPG", "SWKS", "SJM", "SNA", "SEDG", "SO", "LUV", "SWK", "SBUX", "STT", "STLD", "STE", "SYK", "SYF", "SNPS", "SYY", "TMUS", "TROW", "TTWO", "TPR", "TRGP", "TGT", "TEL", "TDY", "TFX", "TER", "TSLA", "TXN", "TXT", "TMO", "TJX", "TSCO", "TT", "TDG", "TRV", "TRMB", "TFC", "TYL", "TSN", "USB", "UDR", "ULTA", "UNP", "UAL", "UPS", "URI", "UNH", "UHS", "VLO", "VTR", "VRSN", "VRSK", "VZ", "VRTX", "VTRS", "VICI", "V", "VMC", "WAB", "WBA", "WMT", "WBD", "WM", "WAT", "WEC", "WFC", "WELL", "WST", "WDC", "WRK", "WY", "WHR", "WMB", "WTW", "GWW", "WYNN", "XEL", "XYL", "YUM", "ZBRA", "ZBH", "ZION", "ZTS", 
+        "MMM", "AOS", "ABT", "ABBV", "ACN", "ADBE", "AMD", "AAP", "AES", "AFL", "A", "APD", "AKAM", "ALK", "ALB", "ARE", "ALGN", "ALLE", "LNT", "ALL", "GOOGL", "GOOG", "MO", "AMZN", "AMCR", "AEE", "AAL", "AEP", "AXP", "AIG", "AMT", "AWK", "AMP", "COR", "AME", "AMGN", "APH", "ADI", "AON", "APA", "AAPL", "AMAT", "APTV", "ACGL", "ADM", "ANET", "AJG", "AIZ", "T", "ATO", "ADSK", "ADP", "AZO", "AVB", "AVY", "AXON", "BKR", "BALL", "BAC", "BBWI", "BAX", "BDX", "BRK-B", "BBY", "BIO", "TECH", "BIIB", "BLK", "BK", "BA", "BKNG", "BWA", "BXP", "BSX", "BMY", "AVGO", "BR", "BRO", "BF-B", "BLDR", "BG", "CDNS", "CZR", "CPT", "CPB", "COF", "CAH", "KMX", "CCL", "CARR", "CAT", "CBOE", "CBRE", "CDW", "CE", "CNC", "CNP", "DAY", "CF", "CRL", "SCHW", "CHTR", "CVX", "CMG", "CB", "CHD", "CI", "CINF", "CTAS", "CSCO", "C", "CFG", "CLX", "CME", "CMS", "KO", "CTSH", "CL", "CMCSA", "CMA", "CAG", "COP", "ED", "STZ", "CEG", "COO", "CPRT", "GLW", "CTVA", "CSGP", "COST", "CTRA", "CCI", "CSX", "CMI", "CVS", "DHI", "DHR", "DRI", "DVA", "DE", "DAL", "XRAY", "DVN", "DXCM", "FANG", "DLR", "DIS", "DG", "DLTR", "D", "DPZ", "DOV", "DOW", "DTE", "DUK", "DD", "EMN", "ETN", "EBAY", "ECL", "EIX", "EW", "EA", "ELV", "LLY", "EMR", "ENPH", "ETR", "EOG", "EPAM", "EQT", "EFX", "EQIX", "EQR", "ESS", "EL", "ETSY", "EG", "EVRG", "ES", "EXC", "EXPE", "EXPD", "EXR", "XOM", "FFIV", "FDS", "FICO", "FAST", "FRT", "FDX", "FITB", "FSLR", "FE", "FIS", "FISV", "CPAY", "FMC", "F", "FTNT", "FTV", "FOXA", "FOX", "BEN", "FCX", "GRMN", "IT", "GEHC", "GEN", "GNRC", "GD", "GE", "GIS", "GM", "GPC", "GILD", "GL", "GPN", "GS", "HAL", "HIG", "HAS", "HCA", "HSIC", "HSY", "HPE", "HLT", "HOLX", "HD", "HON", "HRL", "HST", "HWM", "HPQ", "HUBB", "HUM", "HBAN", "HII", "IBM", "IEX", "IDXX", "ITW", "ILMN", "INCY", "IR", "PODD", "INTC", "ICE", "IFF", "IP", "IPG", "INTU", "ISRG", "IVZ", "INVH", "IQV", "IRM", "JBHT", "JKHY", "J", "JNJ", "JCI", "JPM", "K", "KDP", "KEY", "KEYS", "KMB", "KIM", "KMI", "KLAC", "KHC", "KR", "LHX", "LH", "LRCX", "LW", "LVS", "LDOS", "LEN", "LIN", "LYV", "LKQ", "LMT", "L", "LOW", "LULU", "LYB", "MTB", "MPC", "MKTX", "MAR", "MMC", "MLM", "MAS", "MA", "MTCH", "MKC", "MCD", "MCK", "MDT", "MRK", "META", "MET", "MTD", "MGM", "MCHP", "MU", "MSFT", "MAA", "MRNA", "MHK", "MOH", "TAP", "MDLZ", "MPWR", "MNST", "MCO", "MS", "MOS", "MSI", "MSCI", "NDAQ", "NTAP", "NFLX", "NWL", "NEM", "NWSA", "NWS", "NEE", "NKE", "NI", "NDSN", "NSC", "NTRS", "NOC", "NCLH", "NRG", "NUE", "NVDA", "NVR", "NXPI", "ORLY", "OXY", "ODFL", "OMC", "ON", "OKE", "ORCL", "OGN", "OTIS", "PCAR", "PKG", "PH", "PAYX", "PAYC", "PYPL", "PNR", "PEP", "PFE", "PCG", "PM", "PSX", "PNW", "PNC", "POOL", "PPG", "PPL", "PFG", "PG", "PGR", "PLD", "PRU", "PEG", "PTC", "PSA", "PHM", "QRVO", "PWR", "QCOM", "DGX", "RL", "RJF", "RTX", "O", "REG", "REGN", "RF", "RSG", "RMD", "RVTY", "RHI", "ROK", "ROL", "ROP", "ROST", "RCL", "SPGI", "CRM", "SBAC", "SLB", "STX", "SEE", "SRE", "NOW", "SHW", "SPG", "SWKS", "SJM", "SNA", "SEDG", "SO", "LUV", "SWK", "SBUX", "STT", "STLD", "STE", "SYK", "SYF", "SNPS", "SYY", "TMUS", "TROW", "TTWO", "TPR", "TRGP", "TGT", "TEL", "TDY", "TFX", "TER", "TSLA", "TXN", "TXT", "TMO", "TJX", "TSCO", "TT", "TDG", "TRV", "TRMB", "TFC", "TYL", "TSN", "USB", "UDR", "ULTA", "UNP", "UAL", "UPS", "URI", "UNH", "UHS", "VLO", "VTR", "VRSN", "VRSK", "VZ", "VRTX", "VTRS", "VICI", "V", "VMC", "WAB", "WMT", "WBD", "WM", "WAT", "WEC", "WFC", "WELL", "WST", "WDC", "WY", "WHR", "WMB", "WTW", "GWW", "WYNN", "XEL", "XYL", "YUM", "ZBRA", "ZBH", "ZION", "ZTS", 
         # Recent IPOs added October 2025
         "NTSK", "STUB", "KLAR", "ALH", "FRMI", "APACU", "CBK", "AGRZ", "NP", "KNRX", "KDK", "MGN", "BTQ",
         # Social media
@@ -981,12 +1010,12 @@ def get_ibovespa_tickers():
     # Static list (Ibovespa October 2025)
     return [
         "ABEV3.SA","AZUL4.SA","B3SA3.SA","BBAS3.SA","BBDC3.SA","BBDC4.SA","BBSE3.SA","BEEF3.SA","BPAC11.SA",
-        "BRAP4.SA","BRFS3.SA","BRKM5.SA","BRML3.SA","CCRO3.SA","CIEL3.SA","CMIG4.SA","COGN3.SA","CPFE3.SA",
+        "BRAP4.SA","BRFS3.SA","BRKM5.SA","CCRO3.SA","CMIG4.SA","COGN3.SA","CPFE3.SA",
         "CPLE6.SA","CSAN3.SA","CSNA3.SA","CVCB3.SA","CYRE3.SA","EGIE3.SA","ELET3.SA","ELET6.SA","EMBR3.SA",
-        "ENBR3.SA","ENEV3.SA","ENGI11.SA","EQTL3.SA","FLRY3.SA","GGBR4.SA","GOAU4.SA","GOLL4.SA","HAPV3.SA",
-        "HGTX3.SA","HYPE3.SA","IGTI11.SA","IRBR3.SA","ITSA4.SA","ITUB4.SA","JBSS3.SA","JHSF3.SA","KLBN11.SA",
+        "ENEV3.SA","ENGI11.SA","EQTL3.SA","FLRY3.SA","GGBR4.SA","GOAU4.SA","GOLL4.SA","HAPV3.SA",
+        "HYPE3.SA","IGTI11.SA","IRBR3.SA","ITSA4.SA","ITUB4.SA","JBSS3.SA","JHSF3.SA","KLBN11.SA",
         "LREN3.SA","MGLU3.SA","MRFG3.SA","MRVE3.SA","MULT3.SA","NEOE3.SA","PETR3.SA","PETR4.SA","PRIO3.SA",
-        "QUAL3.SA","RAIL3.SA","RENT3.SA","SANB11.SA","SBSP3.SA","SULA11.SA","SUZB3.SA","TAEE11.SA","TIMP3.SA",
+        "QUAL3.SA","RAIL3.SA","RENT3.SA","SANB11.SA","SBSP3.SA","SULA11.SA","SUZB3.SA","TAEE11.SA","TIMS3.SA",
         "TOTS3.SA","UGPA3.SA","USIM5.SA","VALE3.SA","VIVT3.SA","WEGE3.SA","YDUQ3.SA",
     ]
 
@@ -1195,10 +1224,14 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
 
             # SAFE UPDATE: Only update the specific columns that were downloaded
             # This preserves all other columns (non-downloaded tickers) for overlapping dates
+            # CRITICAL: Skip NaN values to avoid overwriting historical data with nulls
+            # (happens when tickers are delisted/fail to download, returning all-NA)
             for col in new_data_df.columns:
                 for date in new_data_df.index:
                     if date in combined_df.index:
-                        combined_df.loc[date, col] = new_data_df.loc[date, col]
+                        val = new_data_df.loc[date, col]
+                        if pd.notna(val):
+                            combined_df.loc[date, col] = val
         else:
             # Only allow creating new table if table doesn't exist
             if table_exists:
@@ -1239,10 +1272,13 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                     combined_vol_df = combined_vol_df.sort_index()
 
                 # SAFE UPDATE: Only update the specific columns that were downloaded
+                # CRITICAL: Skip NaN values to avoid overwriting historical data with nulls
                 for col in new_vol_df.columns:
                     for date in new_vol_df.index:
                         if date in combined_vol_df.index:
-                            combined_vol_df.loc[date, col] = new_vol_df.loc[date, col]
+                            val = new_vol_df.loc[date, col]
+                            if pd.notna(val):
+                                combined_vol_df.loc[date, col] = val
             # SAFETY: Never delete volume columns (same reasoning as prices)
             # if selected_set == all_groups:
             #     combined_vol_df = combined_vol_df.reindex(columns=all_tickers)  # ← DANGEROUS: Deletes unlisted tickers!
@@ -1322,6 +1358,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         cursor.execute(f"DROP TABLE IF EXISTS {staging_table}")
         cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_table}_Date")
         conn.commit()
+        # Normalize datetime index to consistent string format (prevents duplicate date entries)
+        combined_df.index = pd.to_datetime(combined_df.index).strftime('%Y-%m-%d %H:%M:%S')
         # Convert NA/None to NaN before casting to float (fixes pandas NAType issue)
         combined_df.fillna(np.nan).astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
 
@@ -1376,6 +1414,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             cursor.execute(f"DROP TABLE IF EXISTS {staging_vol_table}")
             cursor.execute(f"DROP INDEX IF EXISTS ix_{staging_vol_table}_Date")
             conn.commit()
+            # Normalize datetime index to consistent string format (prevents duplicate date entries)
+            combined_vol_df.index = pd.to_datetime(combined_vol_df.index).strftime('%Y-%m-%d %H:%M:%S')
             # Convert NA to NaN before astype to avoid TypeError
             vol_df_clean = combined_vol_df.fillna(pd.NA).infer_objects(copy=False)
             vol_df_clean = vol_df_clean.apply(pd.to_numeric, errors='coerce')

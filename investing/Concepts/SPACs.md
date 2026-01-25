@@ -218,6 +218,7 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 - [[Pershing Square]] — largest SPAC ever ($4B), liquidated
 - [[Joby Aviation]] — eVTOL, SPAC-listed
 - [[Micromobility]] — sector where SPACs funded multiple failures
+- [[Fintech boom (2020-2021)]] — parallel bubble, similar timing and drivers
 
 ---
 

@@ -129,7 +129,7 @@ See [[YC startup philosophy]] for the full framework.
 | **[[OpenAI]]** | — | AI | $150B+ |
 | **[[Cruise]]** | W14 | Autonomous | Acquired by GM |
 | **[[GitLab]]** | W15 | DevOps | Public (GTLB) |
-| **[[Brex]]** | W17 | Fintech | $12B+ |
+| **[[Brex]]** | W17 | Fintech | Acquired by [[Capital One]] $5.15B |
 | **[[Faire]]** | W17 | Wholesale | $12B+ |
 | **[[Scale AI]]** | S16 | AI/Data | $14B+ |
 | **[[Supabase]]** | W20 | Developer tools | $5B |
@@ -143,7 +143,7 @@ See [[YC startup philosophy]] for the full framework.
 |---------|----------|-----------|
 | [[OpenAI]] | AI labs | GPT, ChatGPT |
 | [[Scale AI]] | Data labeling | AI training data |
-| [[Brex]] | Fintech | AI-native finance |
+| [[Brex]] | Fintech | Acquired by [[Capital One]] (Jan 2026) |
 | [[Cruise]] | Autonomous | Self-driving |
 | [[Helion Energy]] | Fusion | Clean energy for AI |
 
@@ -255,7 +255,7 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 ### Top portfolio (private/acquired)
 - [[OpenAI]] — AI lab, $150B+
 - [[Helion Energy]] — fusion energy
-- [[Brex]] — fintech, $12B+
+- [[Brex]] — fintech, acquired by [[Capital One]] $5.15B (Jan 2026)
 - [[Faire]] — B2B wholesale, $5B+
 - [[Scale AI]] — data labeling, $14B+
 - [[Supabase]] — Postgres BaaS, $5B, 40% of YC batches use it
@@ -280,4 +280,4 @@ Sources:
 - [CNBC - YC startups fastest growing](https://www.cnbc.com/2025/03/15/y-combinator-startups-are-fastest-growing-in-fund-history-because-of-ai.html)
 - [Y Combinator official site](https://www.ycombinator.com)
 
-*Updated 2026-01-13*
+*Updated 2026-01-24*

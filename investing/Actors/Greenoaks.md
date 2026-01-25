@@ -24,6 +24,7 @@ aliases: [Greenoaks Capital]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **[[Scale AI]]** | Lead Series E | Meta 49% ($29B) |
+| **[[Brex]]** | Series B, D-2 lead | Acquired by [[Capital One]] $5.15B |
 | **Coupang** | Pre-IPO | Public (CPNG) |
 | **Flipkart** | Growth | Acquired by Walmart |
 | **Toast** | Growth | Public (TOST) |
@@ -63,6 +64,7 @@ aliases: [Greenoaks Capital]
 
 ## Related
 
+- [[Brex]] — portfolio (led Series B, D-2)
 - [[Scale AI]] — portfolio company (led Series E)
 - [[Tiger Global]] — peer
 - [[Coatue]] — peer

@@ -5,7 +5,7 @@ aliases: [Valentino SpA, Maison Valentino]
 
 # Valentino
 
-**Italian couture house** — owned 70% by [[Mayhoola]] (Qatar royal family investment vehicle) and 30% by [[Kering]]. Revenue declining (~€1.31B in 2024, -3% YoY), EBITDA -22%, ~€1B debt. Kering's full acquisition postponed to 2028+ as brand weakens. Alessandro Michele (ex-Gucci) appointed creative director March 2024.
+**Italian couture house** — owned 70% by [[Mayhoola]] (Qatar royal family investment vehicle) and 30% by [[Kering]]. Revenue declining (~€1.31B in 2024, -3% YoY), EBITDA -22%, ~€1B debt. Kering's full acquisition postponed to 2028+ as brand weakens. [[Alessandro Michele]] (ex-Gucci) appointed creative director March 2024.
 
 ---
 
@@ -19,7 +19,7 @@ aliases: [Valentino SpA, Maison Valentino]
 | Revenue (2024) | €1.31B (-3% YoY) |
 | EBITDA (2024) | €246M (-22% YoY) |
 | Debt (incl. leases) | ~€1B |
-| CEO | Riccardo Bellini (from Sep 2025) |
+| CEO | [[Riccardo Bellini]] (from Sep 2025) |
 | Creative Director | Alessandro Michele (from Mar 2024) |
 
 ---
@@ -118,15 +118,28 @@ aliases: [Valentino SpA, Maison Valentino]
 
 ---
 
-## Creative leadership
+## Leadership
+
+### CEO
+
+| CEO | Tenure | Background |
+|-----|--------|------------|
+| Jacopo Venturini | –2025 | Departed amid decline |
+| **[[Riccardo Bellini]]** | 2025– | Turnaround specialist |
+
+**Bellini's credentials:** Doubled revenue at [[Maison Margiela]], ran [[Chloé]] for 4 years (B Corp certification). Was [[Mayhoola]]'s managing director before taking Valentino role — has majority owner's trust.
+
+### Creative director
 
 | Director | Tenure | Impact |
 |----------|--------|--------|
 | Valentino Garavani | 1960-2008 | Founder, defined the house |
 | Pierpaolo Piccioli | 2016-2024 | Critical acclaim, elevated brand |
-| **Alessandro Michele** | 2024-present | Ex-Gucci, maximalist aesthetic |
+| **[[Alessandro Michele]]** | 2024-present | Ex-Gucci, maximalist aesthetic |
 
 **The Michele bet:** After transforming Gucci (2015-2022), Michele's maximalist vision is being applied to Valentino. But his later Gucci years saw brand fatigue — can he reinvent without repeating?
+
+**The turnaround pair:** Bellini (operations) + Michele (creative) both have proven track records at troubled luxury houses. If anyone can fix Valentino, this team has the credentials.
 
 ---
 
@@ -168,6 +181,8 @@ aliases: [Valentino SpA, Maison Valentino]
 - [[Fashion]] — broader industry
 - [[Mayhoola]] — 70% owner, put option holder
 - [[Kering]] — 30% owner, call option holder
+- [[Riccardo Bellini]] — CEO (2025–), turnaround specialist
+- [[Alessandro Michele]] — creative director (2024–)
 - [[Exor]] — former owner via HdP (1998-2002, sold at 30% loss)
 - [[Permira]] — former owner (2007-2012)
 - [[Hugo Boss]] — former Marzotto/Permira sister company (2007 LBO)

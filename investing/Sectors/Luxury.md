@@ -112,8 +112,10 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 - [[Consumer]] — parent sector
 - [[Fifth Avenue luxury corridor]] — owned real estate trend
 - [[Retail real estate as hidden value]] — broader concept
-- [[LVMH]] · [[Hermès]] · [[Richemont]] · [[Kering]] · [[Prada]] — key conglomerates
+- [[LVMH]] · [[Hermès]] · [[Richemont]] · [[Kering]] · [[Prada]] · [[OTB]] — key conglomerates
 - [[Chanel]] · [[Valentino]] · [[Moncler]] · [[Burberry]] · [[Balmain]] — other luxury houses
+- [[Maison Margiela]] · [[Jil Sander]] · [[Diesel]] — OTB brands
+- [[Chloé]] · [[Saint Laurent]] — Richemont/Kering fashion
 - [[Mayhoola]] — Qatar sovereign investor (Valentino, Balmain)
 - [[Brunello Cucinelli]] · [[Zegna]] — Italian luxury menswear
 - [[Ralph Lauren]] · [[Hugo Boss]] — premium/accessible luxury
