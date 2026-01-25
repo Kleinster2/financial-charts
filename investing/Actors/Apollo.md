@@ -14,7 +14,7 @@ aliases: [APO, Apollo Global Management]
 | Market cap | ~$80B |
 | Ticker | APO |
 | AUM | ~$700B |
-| CEO | Marc Rowan |
+| CEO | [[Marc Rowan]] |
 
 ---
 
@@ -30,12 +30,12 @@ Credit = majority of business (different from Blackstone).
 
 ---
 
-## Athene integration
+## [[Athene]] integration
 
 **Insurance platform:**
-- Merged with Athene (2022)
-- Fixed annuities business
-- Permanent capital vehicle
+- Merged with [[Athene]] (Jan 2022, ~$11B all-stock)
+- #1 US individual annuity seller, $430B total assets
+- Permanent capital vehicle — low-cost float for credit deployment
 - Spread-based income
 
 ---
@@ -90,7 +90,7 @@ Stock fell on Trump's institutional homebuying ban announcement:
 
 **Bull:**
 - Credit focus = more stable
-- Athene = permanent capital
+- [[Athene]] = permanent capital ($430B)
 - Alternative asset secular growth
 - Marc Rowan leadership
 
@@ -117,6 +117,17 @@ Stock fell on Trump's institutional homebuying ban announcement:
 
 ## Related
 
+- [[Marc Rowan]] — CEO & Chairman, co-founder, architect of credit/insurance model
+- [[Leon Black]] — co-founder, former CEO (1990–2021)
+- [[Josh Harris]] — co-founder, departed for sports/26North
+- [[Jay Clayton]] — former Chairman (2021–2025), now SDNY US Attorney
+- [[Gary Cohn]] — Lead Independent Director (2025–present)
+- [[Athene]] — retirement services subsidiary, $430B assets, permanent capital engine
+- [[Jim Belardi]] — Athene co-founder/CEO, built the insurance platform
+- [[Drexel Burnham Lambert]] — origin firm (Black, Rowan, Harris all alumni)
+- [[Michael Milken]] — Drexel junk bond king, Apollo's credit DNA
+- [[PE-insurance convergence]] — Apollo/Athene as model leader
+- [[Permanent capital]] — Athene as primary source
 - [[Blackstone]] — peer (PE, real estate, private credit retail)
 - [[Blue Owl]] — peer (credit, AI infra)
 - [[Private credit]] — $500B credit AUM, retail expansion

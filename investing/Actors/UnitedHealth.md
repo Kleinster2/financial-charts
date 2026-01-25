@@ -87,5 +87,6 @@ Controversial but highly profitable.
 
 - [[CVS Health]] — competitor (Aetna)
 - [[Cigna]] — competitor
+- [[Elevance Health]] — competitor (#2 managed care, BCBS)
 - [[Humana]] — competitor (Medicare)
 

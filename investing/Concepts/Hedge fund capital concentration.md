@@ -31,6 +31,7 @@ Multistrategy funds give allocators the impression of safe, superior returns —
 ## The convergence problem
 
 ![[citadel-millennium-vs-industry.png]]
+*[[Citadel]] · [[Millennium]]*
 
 In 2025, Citadel Wellington (+10.2%) and Millennium (+10.5%) converged toward the industry average (~8%). The spread that justified premium fees and lockups shrank to ~2pp.
 

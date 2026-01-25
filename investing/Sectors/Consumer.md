@@ -121,6 +121,9 @@ Overview of consumer sector: retail, e-commerce, consumer goods, and discretiona
 
 ## Related
 
+- [[Luxury]] — luxury goods sub-sector
+- [[Fashion]] — apparel/fashion sub-sector
+- [[Beauty]] — beauty/cosmetics sub-sector
 - [[Amazon]] — e-commerce leader
 - [[Walmart]] — retail giant
 - [[Costco]] — membership model

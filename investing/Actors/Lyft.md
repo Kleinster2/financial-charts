@@ -34,10 +34,45 @@ aliases: [LYFT]
 
 | Segment | Description |
 |---------|-------------|
-| **Rideshare** | Core business |
-| **Bikes/Scooters** | Urban mobility |
+| **Rideshare** | Core business (~95% of revenue) |
+| **Lyft Urban Solutions** | Docked bikes/e-bikes (Citi Bike, Divvy, etc.) |
 | **Autonomous** | Partnerships (Waymo, etc.) |
 | **Enterprise** | Business travel |
+
+---
+
+## Bikes & micromobility (Lyft Urban Solutions)
+
+### How Lyft got here
+
+**Nov 2018:** Acquired Motivate for $251M — operator of Citi Bike (NYC), Divvy (Chicago), Capital Bikeshare (DC), and Ford GoBike (now Bay Wheels, SF). Became America's largest bikeshare service overnight.
+
+**2023:** New CEO David Risher explored selling the division. WSJ reported buyer interest. Bikes/scooters = only ~5% of revenue ($48M/quarter). Seen as a distraction from rideshare profitability.
+
+**Sep 2024:** Reversed course. E-bike rides +65% YoY. Risher: "It would be insane not to take it on ourselves." Killed **all dockless** scooter/bike operations ($34-46M in disposal charges, ~1% layoffs). Kept only docked programs. Combined Motivate systems + PBSC (bikeshare-as-a-service in 49 global markets) into **Lyft Urban Solutions**.
+
+### Current operations
+
+| System | City | Type |
+|--------|------|------|
+| **Citi Bike** | New York City | Docked + e-bikes |
+| **Divvy** | Chicago | Docked + e-bikes |
+| **Capital Bikeshare** | Washington DC | Docked |
+| **Bay Wheels** | San Francisco | Docked + e-bikes |
+| **PBSC clients** | 49 markets globally | Bikeshare-as-a-service |
+
+Fleet: 68,000+ bikes. E-bike rides growing fastest.
+
+### Financials (segment)
+
+- Revenue: ~3-5% of Lyft total ($5.8B annual)
+- Citi Bike revenue +60% from 2023 to 2024
+- NYC contract expires 2029 — city evaluating subsidy structure
+- E-bike trips surging: +47% globally (2025), +65% YoY in Lyft systems
+
+### Strategic logic
+
+Docked bikeshare solves the problems that killed shared scooters: fixed stations prevent vandalism/clutter, city contracts provide regulatory stability, and the model is profitable at scale in dense cities. Lyft's bet: own the urban mobility stack (rideshare + bikes + autonomous) so users never leave the app.
 
 ---
 
@@ -96,6 +131,9 @@ aliases: [LYFT]
 - [[Uber]] — competitor
 - [[Waymo]] — AV partner
 - [[Consumer]] — sector
+- [[Lime]] — micromobility competitor (dockless)
+- [[Electric Scooters]] — sector
+- [[Micromobility]] — shared model concept
 
 ---
 

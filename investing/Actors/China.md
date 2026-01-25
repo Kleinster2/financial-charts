@@ -33,6 +33,7 @@ State actor shaping semiconductor industry through industrial policy, export con
 Cement tells the construction story most clearly — after decades of growth, China's construction-driven economy has structurally peaked. See [[Cement]] for industry dynamics and why cement behaves differently from other commodities.
 
 ![[china-cement-vs-building-starts.png]]
+*[[Cement]]*
 *Building starts collapsed to 2003 levels; cement output still 2x higher — more decline ahead.*
 
 | Metric | Value |

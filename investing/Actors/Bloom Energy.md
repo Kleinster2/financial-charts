@@ -31,6 +31,7 @@ aliases: [BE]
 ![[bloom-energy-price-chart.png]]
 
 ![[ai-power-plays-comparison.png]]
+*[[Dominion Energy]] · [[NextEra Energy]]*
 
 ---
 

@@ -28,6 +28,7 @@ The **Schuldenbremse** (debt brake), enshrined in Germany's constitution since 2
 **Investment trajectory:**
 
 ![[germany-investment-spending.png]]
+*[[Germany]]*
 
 Planned investment: €75B (2024) → €115B (2025) → €120B (2026). Source: Federal Ministry of Finance.
 
@@ -57,10 +58,12 @@ Core budget must allocate 10% to investment to access new funds — meant to pre
 ## Growth outlook
 
 ![[germany-gdp-stagnation.png]]
+*[[Germany]]*
 
 Germany's real GDP has flatlined since 2019 — **six years of stagnation**. Potential output growth dropped to ~0.5%.
 
 ![[germany-gdp-forecast.png]]
+*[[Germany]]*
 
 | Year | Bundesbank forecast |
 |------|---------------------|

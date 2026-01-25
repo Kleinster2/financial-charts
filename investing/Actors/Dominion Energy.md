@@ -30,6 +30,7 @@ aliases: [D]
 ![[dominion-energy-price-chart.png]]
 
 ![[ai-power-plays-comparison.png]]
+*[[Bloom Energy]] · [[NextEra Energy]]*
 
 ---
 

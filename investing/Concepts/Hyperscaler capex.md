@@ -7,6 +7,7 @@ Capital expenditure by the Big 5 hyperscalers (Amazon, Google, Meta, Microsoft, 
 ## The chart
 
 ![[hyperscaler-capex.png]]
+*[[Amazon]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[Oracle]]*
 
 *Solid lines = actual quarterly capex; dotted = forecasts based on company guidance and analyst estimates*
 

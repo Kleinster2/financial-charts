@@ -37,6 +37,7 @@
 ### Reserve diversification — Treasuries → Gold
 
 ![[india-treasuries-vs-gold-reserves.png]]
+*[[Treasuries]] · [[Gold]]*
 
 | Metric | Peak | Current | Change |
 |--------|------|---------|--------|
@@ -150,6 +151,7 @@ India's industrial ambitions are constrained by dependence on Chinese technology
 ### R&D gap — 27 years of stagnation
 
 ![[india-china-rd-gap.png]]
+*[[China]]*
 
 | Metric | India | China |
 |--------|-------|-------|
@@ -173,6 +175,7 @@ India's industrial ambitions are constrained by dependence on Chinese technology
 ### Battery imports
 
 ![[india-battery-imports.png]]
+*[[China]] · [[China battery leverage]]*
 
 | Year | Total imports | From China |
 |------|--------------|------------|
@@ -286,6 +289,7 @@ Slower construction → delayed revenue recognition, higher execution risk, pote
 **Companies:**
 - [[BHEL]] — power equipment (China competition)
 - [[Larsen & Toubro]] — infrastructure
+- [[Ather Energy]] — premium EV scooter, Hero-backed, IPO'd 2025
 
 ---
 

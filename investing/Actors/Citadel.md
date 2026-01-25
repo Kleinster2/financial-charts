@@ -112,6 +112,7 @@ The GameStop saga principals have done well five years later: Griffin's hedge fu
 Citadel Wellington's outperformance over the industry narrowed significantly in 2025. From 2020-2024, Wellington consistently delivered 15-38% while the hedge fund industry averaged low single digits — now the gap has closed.
 
 ![[citadel-millennium-vs-industry.png]]
+*[[Millennium]]*
 
 | Year | Wellington | Industry avg | Spread |
 |------|-----------|--------------|--------|

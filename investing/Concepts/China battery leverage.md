@@ -47,6 +47,7 @@ All major Indian conglomerates failed to secure Chinese battery tech:
 ### Import dependence growing
 
 ![[india-battery-imports.png]]
+*[[India]] · [[China]]*
 
 | Year | Total imports | From China |
 |------|--------------|------------|

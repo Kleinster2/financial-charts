@@ -25,6 +25,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 ![[arm-90d.png]]
 
 ![[arm-vs-smh.png]]
+*[[Semiconductors|SMH]]*
 
 ![[arm-fundamentals.png]]
 

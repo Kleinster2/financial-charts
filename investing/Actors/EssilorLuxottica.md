@@ -97,6 +97,7 @@ Franco-Italian eyewear giant. World's largest eyewear company. Key partner for [
 
 ## Related
 
+- [[Luxury]] — sector hub (eyewear luxury)
 - [[Meta]] — smart glasses partner, 3% investor
 - [[Screenless AI]] — category context
 - [[Apple]] — potential future partner/competitor

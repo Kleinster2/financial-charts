@@ -116,6 +116,7 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 **Hedge fund AUM at ~$5T** (Preqin, Jun 2025), but growth was almost entirely performance-driven. In the 5 years from Jun 2020 to Jun 2025, the industry received near-zero net new capital. Fundraising became a zero-sum game dominated by pod shops.
 
 ![[hedge-fund-zero-sum-flows.png]]
+*[[Hedge fund capital concentration]]*
 
 **Boutique revival (Jan 2026):** Several $1B+ fund debuts (stock-picking, credit derivatives) as Citadel/Millennium convergence opens allocator appetite.
 
@@ -129,6 +130,7 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 ### Competition from private alternatives
 
 ![[hedge-fund-aum-vs-pe-private-credit.png]]
+*[[Hedge fund capital concentration]]*
 
 Hedge fund growth pales vs. private equity (~$7T) and private credit (~$2T, fastest relative growth from ~$0 in 2010). Private credit marketed as safer with handsome capital gains, but 2025 brought "cockroach" concerns (distressed companies in shadows) and systemic risk scrutiny.
 

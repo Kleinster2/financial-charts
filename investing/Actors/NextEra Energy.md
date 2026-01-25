@@ -30,6 +30,7 @@ aliases: [NEE]
 ![[nextera-energy-price-chart.png]]
 
 ![[ai-power-plays-comparison.png]]
+*[[Bloom Energy]] · [[Dominion Energy]]*
 
 ---
 

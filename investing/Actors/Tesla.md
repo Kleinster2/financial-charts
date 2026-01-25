@@ -18,6 +18,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 ![[tsla-90d.png]]
 
 ![[tsla-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[tsla-fundamentals.png]]
 

@@ -78,6 +78,34 @@ They are not separate concerns—they are one system.
 
 After modifying JS files, increment `?v=` in `charting_sandbox/index.html`.
 
+## Database Maintenance
+
+### Date format in `stock_prices_daily`
+
+All dates in `stock_prices_daily` (and `stock_volumes_daily`) use the format `'YYYY-MM-DD HH:MM:SS'` (e.g., `'2020-01-02 00:00:00'`). **Never insert dates in date-only format** (e.g., `'2020-01-02'`).
+
+SQLite treats these as different strings, so mixing formats creates silent duplicate rows — one with data, one with NULLs. The integrity check in `download_all_assets.py` will then block all future updates.
+
+If this happens again, clean up with:
+```sql
+-- Delete NULL date-only duplicates
+DELETE FROM stock_prices_daily
+WHERE Date NOT LIKE '%00:00:00'
+AND (Date || ' 00:00:00') IN (SELECT Date FROM stock_prices_daily WHERE Date LIKE '%00:00:00');
+
+-- Convert any remaining date-only rows
+UPDATE stock_prices_daily SET Date = Date || ' 00:00:00' WHERE Date NOT LIKE '%00:00:00';
+```
+
+### Updating prices
+
+```bash
+# Daily update (all price assets, last 10 days)
+python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv
+```
+
+Delisted ticker warnings (YFPricesMissingError, YFTzMissingError) are expected and harmless — the NaN-skip in the merge logic prevents them from corrupting historical data.
+
 ## Generating Charts for the Vault
 
 **ALWAYS use the charting app API. NEVER use matplotlib or other tools.**
@@ -114,6 +142,15 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
 **API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (true), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low)
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
+
+**Chart links:** Every chart embed must have an italicized line below it linking to the relevant actor/concept notes for the tickers shown, separated by `·`:
+
+```markdown
+![[aapl-vs-qqq.png]]
+*[[Apple]] · [[Nasdaq|QQQ]]*
+```
+
+For single-ticker charts on that actor's own note, no link line is needed (it would be redundant).
 
 ### Handling losses in fundamentals charts
 
@@ -287,6 +324,8 @@ Go beyond facts to explain why something works: flywheel, moats, structural adva
 
 **Every edit is an opportunity to rebuild.** Check for: thin stubs, missing financials/cap tables, outdated data, no Related section. Make the requested edit first, then assess quality gaps.
 
+**Quality check:** Whenever you read any actor note (whether asked to or encountered during other work), check it against [[Note structures]] depth standards. Flag gaps proactively — especially private companies: full cap table, historical financials, derivative arrangements.
+
 ## Processing new information
 
 **Every piece of news needs an atomic home — daily notes are never the only location.**
@@ -413,7 +452,7 @@ Concepts capture knowledge, not just trade ideas. If you'd reference it from mul
 ### Financials and cap tables
 
 - **Public companies**: Historical financials (see [[Financials templates]])
-- **Private companies**: Cap table with investors, rounds, valuations
+- **Private companies**: Full historical cap table (founding → present), 10+ year financials, derivative arrangements (puts/calls/earnouts) with strategic implications. See [[Note structures]] for depth standard; [[Valentino]] is the template.
 - **Banks**: Use bank-specific metrics (see [[Financials templates]])
 
 ## Finding links

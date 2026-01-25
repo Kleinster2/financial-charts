@@ -3,6 +3,7 @@
 The yield premium investors demand to hold corporate bonds over risk-free [[Treasuries]]. Widening spreads signal rising risk aversion; tightening signals confidence.
 
 ![[credit-spreads-historical.png]]
+*[[Treasuries]]*
 
 ## Key metrics
 

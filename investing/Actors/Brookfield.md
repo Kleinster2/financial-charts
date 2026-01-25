@@ -118,6 +118,8 @@ Brookfield is generalist infrastructure; others more DC-focused.
 
 ## Related
 
+- [[American Equity]] — annuity platform ($130B assets, acquired $4.3B Apr 2024)
+- [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Blackstone]] — peer (alternative asset manager)
 - [[Blue Owl]] — peer (AI infrastructure financing)
 - [[DigitalBridge]] — peer (digital infrastructure)

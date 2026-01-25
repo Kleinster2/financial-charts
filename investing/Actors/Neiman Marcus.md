@@ -39,6 +39,8 @@
 
 ## Related
 
+- [[Fashion]] — sector hub
+- [[Luxury]] — luxury goods sector
 - [[Saks Global]] — current parent (bankruptcy)
 - [[Neiman Marcus bankruptcy 2020]] — COVID restructuring
 - [[Saks-Neiman merger]] — 2024 acquisition

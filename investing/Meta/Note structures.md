@@ -9,10 +9,48 @@ Templates and required content for different note types.
 | Actor type | Required content |
 |------------|------------------|
 | **Public companies** | Extensive historical financials (see [[Financials templates]]) |
-| **Private companies** | Cap table (investors, rounds, valuations, total raised) |
+| **Private companies** | Full cap table, historical financials, derivative arrangements (see below) |
 | **Research shops / funds** | Key analysts, AUM, notable positions, recent calls |
 | **Individuals** | Role, affiliations, key decisions, track record |
 | **Geographies** | Economic data, key sectors, policy environment |
+
+### Private company depth standard
+
+Private company notes require the same rigor as public companies. The [[Valentino]] note is the template.
+
+**1. Full historical cap table**
+
+Every ownership change from founding to present:
+
+| Date | Event | Buyer | Seller | Amount | Implied EV |
+|------|-------|-------|--------|--------|------------|
+| 1960 | Founded | Founder | — | Seed capital | — |
+| 1998 | Sale to PE | PE Fund | Founder | $XXM | $XXM |
+| 2012 | Secondary | New Owner | PE Fund | $XXXM | $XXXM |
+
+Include: founding, every sale, every funding round, every secondary, every capital injection. Note implied enterprise value at each transaction.
+
+**2. Historical financials (10+ years where available)**
+
+| Year | Revenue | Growth | EBITDA | EBITDA % | Notes |
+|------|---------|--------|--------|----------|-------|
+| 2015 | $XXM | — | $XXM | XX% | Context |
+| ... | ... | ... | ... | ... | ... |
+
+Show the full cycle: growth, peak, decline. Include forward estimates with "E" suffix.
+
+**3. Derivative arrangements**
+
+Any puts, calls, earnouts, convertibles, or warrants get a dedicated section:
+
+| Term | Original | Current |
+|------|----------|---------|
+| Put option | Exercisable 2026-2027 | Postponed to 2028-2029 |
+| Call option | Exercisable 2028 | Postponed to 2029 |
+| Pricing basis | EBITDA multiple | Unchanged |
+| Estimated price | ~$XB | "Substantially below" |
+
+Include: exact terms, pricing formulas, exercise windows, amendments, and **strategic implications for each party** (why they'd exercise or not).
 
 ---
 
@@ -150,3 +188,38 @@ When an actor belongs to a sub-sector with a sister concept:
 ```
 
 The `(→ [[concept]])` notation hints that the concept exists without creating a redundant direct link.
+
+---
+
+## Lessons sections
+
+Some notes — particularly concepts and events — yield genuine investment lessons. When they do, capture them explicitly.
+
+### When to include a Lessons section
+
+| Criterion | Explanation |
+|-----------|-------------|
+| **Completed cycle** | A boom-bust, failure, or strategic arc has played out with known outcomes |
+| **Measurable results** | Capital was deployed and returns (or losses) can be quantified |
+| **Structural takeaways** | The failure/success modes are repeatable patterns, not one-off situations |
+| **Non-obvious** | The lessons aren't just "don't lose money" or the bull/bear case restated |
+
+### When NOT to include a Lessons section
+
+| Criterion | Explanation |
+|-----------|-------------|
+| **Story still developing** | No lessons from an ongoing situation — you're guessing, not concluding |
+| **Sector overview or actor profile** | These describe the present, not a completed narrative |
+| **Restating bull/bear** | If the "lessons" are just the investment case reframed, skip it |
+| **No hard data** | Pattern-matching without measurable outcomes is speculation |
+
+### Format
+
+```markdown
+### Lessons
+
+1. **Short thesis.** Supporting evidence with numbers
+2. **Short thesis.** Supporting evidence with numbers
+```
+
+Keep to 3-5 lessons maximum. Each must be backed by specific data from the note.

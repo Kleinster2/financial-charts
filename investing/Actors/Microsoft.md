@@ -18,6 +18,7 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 ![[msft-90d.png]]
 
 ![[msft-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[msft-fundamentals.png]]
 

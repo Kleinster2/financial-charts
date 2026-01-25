@@ -120,3 +120,4 @@ Uber is the only global scale player.
 - [[Aurora]] — partner (autonomous trucking)
 - [[Tesla]] — potential competitor (robotaxi)
 - [[Grab]] — investment (Southeast Asia)
+- [[Lime]] — strategic investment, demand channel for shared scooters/e-bikes

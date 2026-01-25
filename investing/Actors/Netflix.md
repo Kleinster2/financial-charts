@@ -76,6 +76,7 @@ Largest pure-play streaming company globally.
 ![[nflx-90d.png]]
 
 ![[nflx-vs-qqq.png]]
+*[[Nasdaq|QQQ]]*
 
 ![[nflx-fundamentals.png]]
 

@@ -11,6 +11,7 @@ After water, the most consumed substance on Earth — 25-30 billion metric tons 
 **Unlike oil, copper, or plastics, cement consumption doesn't plateau at high-income levels — it collapses.**
 
 ![[china-cement-comparison.png]]
+*[[China]] · [[Japan]] · [[India]]*
 
 | Country | GDP/capita | Cement/capita | Stage |
 |---------|------------|---------------|-------|
@@ -56,6 +57,7 @@ After water, the most consumed substance on Earth — 25-30 billion metric tons 
 ### China (declining)
 
 ![[china-cement-vs-building-starts.png]]
+*[[China]]*
 *Building starts at 2003 levels; cement output still 2x higher — more decline ahead.*
 
 | Metric | Value |
@@ -70,6 +72,7 @@ After water, the most consumed substance on Earth — 25-30 billion metric tons 
 **Projection:** At 4%/year decline, China produces 350M fewer tons by 2030.
 
 ![[china-cement-projection.png]]
+*[[China]]*
 
 See [[China]] for full macro context (property -17.2%, FAI -3.8%).
 

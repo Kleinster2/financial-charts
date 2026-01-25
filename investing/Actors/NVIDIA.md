@@ -32,6 +32,7 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 ![[nvda-90d.png]]
 
 ![[nvda-vs-smh.png]]
+*[[Semiconductors|SMH]]*
 
 ![[nvda-fundamentals.png]]
 

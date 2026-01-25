@@ -120,8 +120,13 @@ See [[Fifth Avenue luxury corridor]] for context on luxury brand buying spree.
 
 ## Related
 
+- [[Luxury]] — sector hub
+- [[Fashion]] — broader industry
 - [[LVMH]] — larger rival, taking share
 - [[Prada]] — peer, also buying Fifth Ave real estate
+- [[Valentino]] — 30% stake, full acquisition deferred to 2028+
+- [[L'Oréal]] — selling Kering Beauté (Creed) for ~€4B
+- [[Puma]] — former majority owner, residual ~6% stake
 - [[Fifth Avenue luxury corridor]] — $963M NYC purchase
 - [[Retail real estate as hidden value]] — owned vs. leased strategy
 
