@@ -128,6 +128,7 @@ Chinese firms already listed in mainland seeking HK capital:
 
 ## Related
 
+- [[2026 IPO pipeline]] — global IPO context
 - [[US-China AI race]] — context (chip IPOs)
 - [[ChangXin Memory]] — China DRAM ($43B)
 - [[YMTC]] — China NAND ($43B)

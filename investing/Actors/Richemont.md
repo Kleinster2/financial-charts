@@ -49,9 +49,11 @@ aliases: [CFR, Compagnie Financière Richemont]
 |----------|--------|
 | **Jewelry Maisons** | Cartier, Van Cleef & Arpels, Buccellati |
 | **Specialist Watchmakers** | IWC, Jaeger-LeCoultre, Piaget, Vacheron Constantin, Panerai |
-| **Other** | Montblanc, Chloé, Dunhill |
+| **Other** | Montblanc, [[Chloé]], Dunhill, Alaïa |
 
-Cartier = crown jewel (~50% of revenue).
+Cartier = crown jewel (~50% of revenue). Jewelry = 72% of total sales.
+
+**The fashion problem:** The "Other" segment (Chloé, Alaïa, dunhill) consistently loses money — **-€102M operating loss** in FY25. Jewelry subsidizes fashion.
 
 ---
 
@@ -136,10 +138,26 @@ Stock reversed gains post-results on margin worries.
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| Chairman | Johann Rupert | Founder |
+| CEO | Nicolas Bos | Jun 2024 |
+| Cartier CEO | Louis Ferla | Sep 2024 |
+
+**Johann Rupert:** South African billionaire, founded Richemont 1988. Son of Anton Rupert (Rembrandt Group). Controls company through Compagnie Financière Rupert. Philosophy: long-term brand stewardship, rejected LVMH overtures.
+
+---
+
 ## Related
 
 - [[Luxury]] — sector hub
 - [[LVMH]] — competitor (#1 luxury)
+- [[Kering]] — competitor
+- [[Chloé]] — fashion brand (loss-making segment)
+- [[Chemena Kamali]] — Chloé creative director
+- [[Riccardo Bellini]] — former Chloé CEO
 - [[Gold]] — raw material cost driver
 - [[China]] — demand recovery watch
 - [[Japan]] — strong market (+17%)

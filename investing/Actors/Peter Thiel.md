@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #vc #usa
 
-**Peter Thiel** — Billionaire tech investor. PayPal co-founder. Founders Fund partner. Contrarian AI/crypto backer.
+**Peter Thiel** — Billionaire tech investor. PayPal co-founder. Founders Fund partner. Contrarian AI/crypto backer. [[PayPal mafia]] "don."
 
 ---
 
@@ -96,7 +96,15 @@ Backs hardware and infrastructure, not just model companies.
 
 ## Related
 
+### PayPal mafia
+- [[PayPal mafia]] — "don" of the network
+- [[Max Levchin]] — PayPal co-founder
+- [[Reid Hoffman]] — PayPal founding team
+- [[Elon Musk]] — PayPal (X.com merger)
+
+### Investments
 - [[Etched]] — portfolio company (AI chips)
 - [[Palantir]] — co-founded
 - [[Anduril]] — portfolio (defense AI)
 - [[Founders Fund]] — primary investment vehicle
+- [[Brex]] — portfolio (via Founders Fund)

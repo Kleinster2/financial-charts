@@ -21,6 +21,49 @@ Templates and required content for different note types.
 
 ---
 
+## Linking practices
+
+### Core principle: If it's mentioned, it's linked
+
+**Every actor, company, person, or concept mentioned in a note should be a wikilink.** No exceptions. This applies to:
+
+- Intros and summaries
+- Tables (investors, customers, competitors, partners)
+- Body text mentions
+- Related sections
+
+**Why this matters:**
+- Broken links show what notes need to be created
+- Links get resolved automatically when notes are created
+- The graph reveals connections across the vault
+- Readers can navigate to learn more
+
+### Specific rules
+
+**Link in intros.** If a note mentions multiple entities (e.g., "OTB owns Diesel, Margiela, Marni, Jil Sander"), link them all — not just ones with existing notes.
+
+**Link in tables.** Investor tables, customer lists, competitor comparisons — every named entity should be linked:
+
+```markdown
+| Investor | Role |
+|----------|------|
+| [[Tiger Global]] | Series D lead |      ✓ Correct
+| Greenoaks | Series B lead |              ✗ Wrong — should be [[Greenoaks]]
+```
+
+**Link in body text.** Don't leave company names, people, or concepts as plain text:
+
+```markdown
+✗ Wrong: "Acquired by Capital One for $5.15B"
+✓ Right: "Acquired by [[Capital One]] for $5.15B"
+```
+
+**After creating notes, revisit links.** When you create related notes, go back and ensure all cross-references are properly linked.
+
+**Update linked notes.** When you create a new note, add it to the Related sections of notes that reference it.
+
+---
+
 ## Actor note requirements
 
 | Actor type | Required content |
@@ -46,6 +89,8 @@ Every ownership change from founding to present:
 | 2012 | Secondary | New Owner | PE Fund | $XXXM | $XXXM |
 
 Include: founding, every sale, every funding round, every secondary, every capital injection. Note implied enterprise value at each transaction.
+
+**The cap table replaces "Funding rounds" and "Key investors" sections.** Don't duplicate — the cap table contains all funding information plus investor details. For VC-backed startups, use columns: Date, Event, Investors, Amount, Valuation. The Related section can list key investors with annotations. See [[Brex]] for the template.
 
 **2. Historical financials (10+ years where available)**
 
