@@ -23,9 +23,9 @@ aliases: [DB]
 | Ticker | **DB** (NYSE), DBK (Frankfurt) |
 
 ![[deutsche-bank-vs-peers.png]]
-*Massive underperformance vs US peers — JPM +150% since 2018 while DB flat. UBS and Barclays similarly weak. European banks struggled with negative rates, legacy costs, and slower growth.*
+*Deutsche Bank tracking EUFN benchmark (+65%) since 2018. UBS similar. Barclays outperforming at +185%. Sewing restructuring keeping pace with sector but not breaking out.*
 
-*vs [[JPMorgan]] · [[UBS]] · [[Barclays|BCS]]*
+*vs [[UBS]] · [[Barclays]] · EUFN (benchmark)*
 
 ---
 
