@@ -167,6 +167,32 @@ curl "http://localhost:5000/api/chart/lw?tickers=TSM&start=2020-01-01"
 
 For comparison charts, add link line below pointing to the *other* tickers (not the note you're on).
 
+**Every actor gets their own chart.** Never reuse another actor's chart — even if the tickers overlap. Each actor needs peers relevant to *them*:
+- Barclays → UK banks (HSBC, Lloyds), not European banks (DB, UBS)
+- TSMC → foundry peers (Samsung, Intel Foundry), not just "semis"
+- Nubank → LatAm fintechs (StoneCo, Inter), not US neobanks
+
+**Always verify chart output.** After generating a chart, READ the image file to confirm:
+1. All requested tickers appear in the legend
+2. All tickers have visible data lines (not missing/flat)
+3. The narrative in your chart note matches what the chart actually shows
+
+If tickers are missing, they're probably not in the database — add them:
+```python
+import yfinance as yf
+import sqlite3
+conn = sqlite3.connect('market_data.db')
+for ticker in ['BCS', 'LYG']:
+    t = yf.Ticker(ticker)
+    hist = t.history(period='max')
+    conn.execute(f'ALTER TABLE stock_prices_daily ADD COLUMN "{ticker}" REAL')
+    for date, row in hist.iterrows():
+        date_str = date.strftime('%Y-%m-%d') + ' 00:00:00'
+        conn.execute(f'UPDATE stock_prices_daily SET "{ticker}" = ? WHERE Date = ?',
+                    (row['Close'], date_str))
+    conn.commit()
+```
+
 **Chart notes:** Always add an italicized interpretive note below charts explaining what the reader is seeing. Charts without context are just shapes — the interpretation is what makes them useful.
 
 ```markdown
