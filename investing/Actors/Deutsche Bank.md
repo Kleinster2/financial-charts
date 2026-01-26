@@ -22,6 +22,11 @@ aliases: [DB]
 | CEO | Christian Sewing (2018-) |
 | Ticker | **DB** (NYSE), DBK (Frankfurt) |
 
+![[deutsche-bank-vs-peers.png]]
+*Massive underperformance vs US peers — JPM +150% since 2018 while DB flat. UBS and Barclays similarly weak. European banks struggled with negative rates, legacy costs, and slower growth.*
+
+*vs [[JPMorgan]] · [[UBS]] · [[Barclays|BCS]]*
+
 ---
 
 ## Business segments
