@@ -223,6 +223,7 @@ See [[Long Anthropic]] for full thesis.
 
 ## Related
 
+- [[Claude]] — flagship AI product
 - [[Dario Amodei]] — CEO and co-founder
 - [[OpenAI]] — competitor, origin (founders left OpenAI)
 - [[Google]] — $2B+ investor, cloud partner
