@@ -19,10 +19,10 @@ aliases: [BCS, Barclays PLC]
 | CEO | CS Venkatakrishnan (Nov 2021-) |
 | Ticker | **BCS** (NYSE), BARC (LSE) |
 
-![[deutsche-bank-vs-peers.png]]
-*European banks (Barclays, UBS, DB) flat since 2018 while JPM +150%. Despite strong IB performance in 2025, stock hasn't broken out of European malaise.*
+![[barclays-vs-peers.png]]
+*UK banks (Barclays, HSBC, Lloyds) all flat since 2018 while JPM +150%. Barclays' IB strength hasn't translated to stock outperformance vs domestic peers.*
 
-*vs [[JPMorgan]] · [[Deutsche Bank]] · [[UBS]]*
+*vs [[HSBC]] · [[Lloyds]] · [[JPMorgan]]*
 
 ---
 
