@@ -23,9 +23,9 @@ aliases: [HSBC Holdings, Hongkong and Shanghai Banking Corporation]
 UK's #1 bank by assets. One of world's largest banking organizations.
 
 ![[hsbc-vs-peers.png]]
-*HSBC +125% since 2018 — middle of UK pack (trails Barclays +185%), beats Asia peer Standard Chartered +45%. All UK banks trail JPM +260%. Asia pivot hasn't yet differentiated returns.*
+*HSBC +125% since 2018 — outperforming EUFN benchmark (+65%) and Asia peer Standard Chartered (+45%), but trailing Barclays (+185%). Asia pivot showing in StanChart gap.*
 
-*vs [[JPMorgan]] · [[Barclays]] · [[Standard Chartered]]*
+*vs [[Barclays]] · [[Standard Chartered]] · EUFN (benchmark)*
 
 ---
 

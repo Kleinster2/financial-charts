@@ -20,9 +20,9 @@ aliases: [BCS, Barclays PLC]
 | Ticker | **BCS** (NYSE), BARC (LSE) |
 
 ![[barclays-vs-peers.png]]
-*Barclays +225% since 2018 — outperforming UK peers (HSBC +105%, Lloyds +65%) though still trailing JPM +300%. IB strength translating to relative outperformance vs domestic banks.*
+*Barclays +185% since 2018 — outperforming EUFN benchmark (+65%) and most UK peers. NatWest leads (+260%), HSBC +125%, Lloyds lags at benchmark level. IB strength driving outperformance.*
 
-*vs [[HSBC]] · [[Lloyds]] · [[JPMorgan]]*
+*vs [[HSBC]] · [[Lloyds]] · [[NatWest]] · EUFN (benchmark)*
 
 ---
 

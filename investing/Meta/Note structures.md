@@ -143,12 +143,15 @@ Example for Barclays: `BCS, HSBC, LYG, NWG, XLF`
 
 | Actor type | Sector benchmark |
 |------------|------------------|
-| Banks | XLF (financials) or KBE (banks) |
-| Semiconductors | SMH or SOX |
-| Fintech | ARKF or IPAY |
+| US banks | KBE (banks) or XLF (financials) |
+| European banks | EUFN (Europe financials) |
+| US semiconductors | SMH or SOX |
+| European semiconductors | Add SMH to database |
+| US fintech | ARKF or IPAY |
 | China tech | KWEB |
-| Retail | XRT |
-| Energy | XLE |
+| US retail | XRT |
+| US energy | XLE |
+| LatAm | Find regional ETF or use US sector peer |
 
 The benchmark shows sector context; the peers show relative positioning within it.
 

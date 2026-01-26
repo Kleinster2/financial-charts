@@ -27,9 +27,9 @@ aliases: [Lloyds Banking Group, LYG, LLOY]
 UK's largest retail bank. Processes 30% of all UK payments.
 
 ![[lloyds-vs-peers.png]]
-*Lloyds +65% since 2018 — worst UK bank performer. NatWest +260% leads, Barclays +185%, HSBC +125%. Motor finance exposure and pure-domestic focus weighing on returns.*
+*Lloyds +65% since 2018 — merely tracking EUFN benchmark. All UK peers outperforming: NatWest +260%, Barclays +185%, HSBC +125%. Motor finance and pure-domestic focus dragging.*
 
-*vs [[HSBC]] · [[Barclays]] · [[NatWest]]*
+*vs [[HSBC]] · [[Barclays]] · [[NatWest]] · EUFN (benchmark)*
 
 ---
 

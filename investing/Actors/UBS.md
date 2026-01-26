@@ -23,10 +23,10 @@ aliases: [UBS Group, UBS AG]
 
 World's largest private bank — manages wealth for ~half of world's billionaires.
 
-![[deutsche-bank-vs-peers.png]]
-*European banks (UBS, DB, Barclays) flat since 2018 while JPM +150%. Negative rates, legacy costs, slower growth. Credit Suisse acquisition (2023) hasn't moved the needle yet.*
+![[ubs-vs-peers.png]]
+*UBS +220% since 2018 — best European bank performer, well ahead of EUFN benchmark (+100%). Credit Suisse acquisition (2023) accretive. Barclays +160%, Deutsche Bank tracking benchmark.*
 
-*vs [[JPMorgan]] · [[Deutsche Bank]] · [[Barclays]]*
+*vs [[Deutsche Bank]] · [[Barclays]] · EUFN (benchmark)*
 
 ---
 
