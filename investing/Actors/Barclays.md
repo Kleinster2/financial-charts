@@ -20,7 +20,7 @@ aliases: [BCS, Barclays PLC]
 | Ticker | **BCS** (NYSE), BARC (LSE) |
 
 ![[barclays-vs-peers.png]]
-*UK banks (Barclays, HSBC, Lloyds) all flat since 2018 while JPM +150%. Barclays' IB strength hasn't translated to stock outperformance vs domestic peers.*
+*Barclays +225% since 2018 — outperforming UK peers (HSBC +105%, Lloyds +65%) though still trailing JPM +300%. IB strength translating to relative outperformance vs domestic banks.*
 
 *vs [[HSBC]] · [[Lloyds]] · [[JPMorgan]]*
 
