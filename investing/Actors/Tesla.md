@@ -24,6 +24,27 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Deliveries | Stock Price |
+|------|---------|------------|-----|------------|-------------|
+| 2016 | $7.0B | -$0.7B | -$4.68 | 76K | $43 |
+| 2017 | $11.8B | -$2.0B | -$11.83 | 103K | $63 |
+| 2018 | $21.5B | -$1.0B | -$5.72 | 245K | $66 |
+| 2019 | $24.6B | -$0.9B | -$4.92 | 367K | $84 |
+| 2020 | $31.5B | $0.7B | $0.74 | 500K | $705 |
+| 2021 | $53.8B | $5.5B | $1.63 | 936K | $352 |
+| 2022 | $81.5B | $12.6B | $3.62 | 1.31M | $123 |
+| 2023 | $96.8B | $15.0B | $4.30 | 1.81M | $249 |
+| 2024 | $97.7B | $7.1B | $2.04 | 1.79M | $403 |
+| 2025E | $95.6B | $5.1B | $1.45 | 1.64M | $438 |
+
+*Source: Company filings. Stock price = year-end close. Prices adjusted for 3:1 split (Aug 2022) and 5:1 split (Aug 2020). 2024-25 profits declined due to EV price war.*
+
+---
+
 ## Custom silicon
 
 - **Dojo**: Custom AI training chip for FSD (Full Self-Driving)

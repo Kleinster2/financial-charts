@@ -32,6 +32,27 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $90.3B | $19.5B | $28.32 | $792 |
+| 2017 | $110.9B | $12.7B | $18.27 | $1,053 |
+| 2018 | $136.8B | $30.7B | $43.70 | $1,045 |
+| 2019 | $162.0B | $34.3B | $49.16 | $1,340 |
+| 2020 | $182.5B | $40.3B | $58.61 | $1,752 |
+| 2021 | $257.6B | $76.0B | $5.61 | $145 |
+| 2022 | $283.0B | $60.0B | $4.56 | $89 |
+| 2023 | $307.4B | $73.8B | $5.80 | $141 |
+| 2024 | $350.0B | $100.1B | $8.04 | $192 |
+| 2025E | $385.5B | $124.3B | $10.10 | $195 |
+
+*Source: Company filings. Stock price = year-end close. 2021+ EPS reflects 20:1 stock split (Jul 2022). Pre-split years shown in original form.*
+
+---
+
 ## DeepMind / Gemini
 
 **Google's AI research arm:**

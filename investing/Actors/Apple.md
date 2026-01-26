@@ -26,6 +26,27 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ---
 
+## Financials
+
+### Annual (10 years, fiscal year ends Sep)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $216B | $46B | $2.08 | $29 |
+| 2017 | $229B | $48B | $2.30 | $42 |
+| 2018 | $266B | $59B | $2.98 | $56 |
+| 2019 | $260B | $55B | $2.97 | $56 |
+| 2020 | $275B | $57B | $3.28 | $116 |
+| 2021 | $366B | $95B | $5.61 | $149 |
+| 2022 | $394B | $100B | $6.11 | $138 |
+| 2023 | $383B | $97B | $6.13 | $171 |
+| 2024 | $391B | $94B | $6.08 | $233 |
+| 2025 | $416B | $112B | $7.46 | $230 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Sep). Prices adjusted for 4:1 split (Aug 2020).*
+
+---
+
 ## Key strengths
 
 - **Silicon design**: Best-in-class mobile SoCs, now expanding to Mac (M-series)

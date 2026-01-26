@@ -5,11 +5,37 @@ aliases: [META]
 
 **Meta (Facebook)** — Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
+![[meta-vs-peers.png]]
+*Meta +560% since 2018 — outperformed [[Nasdaq|QQQ]] (+285%) massively post-2022 "Year of Efficiency" turnaround.*
+
+*vs [[Nasdaq|QQQ]]*
+
 ---
 
 ## Relevance to semis
 
 Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [[TSMC]] via NVIDIA.
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $27.6B | $10.2B | $3.49 | $116 |
+| 2017 | $40.7B | $15.9B | $5.39 | $177 |
+| 2018 | $55.8B | $22.1B | $7.57 | $131 |
+| 2019 | $70.7B | $18.5B | $6.43 | $205 |
+| 2020 | $86.0B | $29.1B | $10.09 | $273 |
+| 2021 | $118.0B | $39.4B | $13.77 | $336 |
+| 2022 | $116.6B | $23.2B | $8.59 | $120 |
+| 2023 | $134.9B | $39.1B | $14.87 | $354 |
+| 2024 | $164.5B | $62.4B | $23.86 | $595 |
+| 2025E | $189.0B | $58.5B | $22.58 | $620 |
+
+*Source: Company filings. Stock price = year-end close. 2022 was "Year of Efficiency" restructuring.*
 
 ---
 

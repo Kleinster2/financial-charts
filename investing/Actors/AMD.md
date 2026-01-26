@@ -60,6 +60,27 @@ AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $4.3B | -$0.5B | -$0.55 | $11 |
+| 2017 | $5.3B | -$0.03B | -$0.04 | $10 |
+| 2018 | $6.5B | $0.3B | $0.32 | $18 |
+| 2019 | $6.7B | $0.3B | $0.30 | $46 |
+| 2020 | $9.8B | $2.5B | $2.06 | $92 |
+| 2021 | $16.4B | $3.2B | $2.57 | $144 |
+| 2022 | $23.6B | $1.3B | $0.84 | $65 |
+| 2023 | $22.7B | $0.9B | $0.53 | $148 |
+| 2024 | $25.8B | $1.6B | $1.01 | $119 |
+| 2025E | $32.0B | $3.3B | $2.03 | $125 |
+
+*Source: Company filings. Stock price = year-end close. Lisa Su turnaround era began 2014. 2022-23 dip from PC market normalization.*
+
+---
+
 ## CES 2026 — Helios AI Rack
 
 **Lisa Su: "World's best AI rack"** — direct shot at NVIDIA.

@@ -21,6 +21,27 @@ NVIDIA now larger than Samsung Semiconductor by $53B — unprecedented dominance
 
 ---
 
+## Financials
+
+### Annual (10 years, fiscal year ends Jan)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $5.0B | $0.6B | $0.24 | $8 |
+| 2017 | $6.9B | $1.7B | $0.64 | $27 |
+| 2018 | $9.7B | $3.0B | $1.17 | $59 |
+| 2019 | $11.7B | $4.1B | $1.56 | $36 |
+| 2020 | $10.9B | $2.8B | $1.10 | $59 |
+| 2021 | $16.7B | $4.3B | $1.73 | $130 |
+| 2022 | $26.9B | $9.8B | $3.85 | $235 |
+| 2023 | $27.0B | $4.4B | $0.17 | $145 |
+| 2024 | $60.9B | $29.8B | $1.19 | $490 |
+| 2025 | $130.5B | $72.9B | $2.94 | $135 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Jan). Prices adjusted for 10:1 split (Jun 2024). FY2023 was crypto hangover.*
+
+---
+
 ## Core thesis
 
 NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosystem that locks in AI developers. Hardware can be challenged; rebuilding a decade of software tooling cannot.

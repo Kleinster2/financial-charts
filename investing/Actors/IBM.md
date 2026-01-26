@@ -9,6 +9,11 @@ aliases: [International Business Machines]
 
 ## Why IBM matters
 
+![[ibm-vs-peers.png]]
+*IBM +145% since 2018 — underperformed [[Nasdaq|QQQ]] (+260%) but recovering on Watsonx/Red Hat AI pivot.*
+
+*vs [[Nasdaq|QQQ]]*
+
 IBM is the enterprise AI incumbent:
 
 | Role | Details |
@@ -96,6 +101,27 @@ Open-sourced some models. Targeting enterprise customers who want control.
 | AI services | Growing focus |
 
 Consulting is how IBM deploys Watsonx into enterprises.
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $79.9B | $11.9B | $12.39 | $166 |
+| 2017 | $79.1B | $5.8B | $6.14 | $154 |
+| 2018 | $79.6B | $8.7B | $9.52 | $114 |
+| 2019 | $77.1B | $9.4B | $10.57 | $134 |
+| 2020 | $73.6B | $5.6B | $6.23 | $125 |
+| 2021 | $57.4B | $5.7B | $6.35 | $134 |
+| 2022 | $60.5B | $1.6B | $1.81 | $141 |
+| 2023 | $61.9B | $7.5B | $8.24 | $163 |
+| 2024 | $62.8B | $6.0B | $6.54 | $221 |
+| 2025E | $65.4B | $7.9B | $8.60 | $249 |
+
+*Source: Company filings. Stock price = year-end close. 2021 revenue drop from Kyndryl spinoff.*
 
 ---
 

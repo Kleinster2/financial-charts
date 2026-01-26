@@ -6,6 +6,11 @@
 
 SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packaging]]. Now pushing to vertically integrate into 2.5D packaging to offer turn-key solutions and reduce TSMC dependency.
 
+![[skhynix-vs-peers.png]]
+*SK Hynix +700% since 2018 — underperformed [[Semiconductors|SMH]] (+550%) during 2022-2023 memory downturn, but HBM leadership driving 2024-2025 outperformance.*
+
+*vs [[Semiconductors|SMH]]*
+
 ---
 
 ## Key strengths
@@ -49,6 +54,27 @@ SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packagin
 - Target: 2028 operation
 - Investment: $3.87B
 - Goal: Turn-key model (HBM + packaging) to bypass TSMC's CoWoS monopoly
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Operating Profit | Net Income | Stock Price |
+|------|---------|------------------|------------|-------------|
+| 2016 | $14.1B | $2.9B | $2.5B | $37 |
+| 2017 | $21.7B | $10.6B | $9.7B | $66 |
+| 2018 | $31.9B | $18.4B | $14.0B | $55 |
+| 2019 | $19.7B | $2.1B | $1.9B | $76 |
+| 2020 | $24.7B | $4.5B | $3.5B | $108 |
+| 2021 | $36.4B | $10.6B | $8.3B | $100 |
+| 2022 | $33.2B | $6.5B | $4.1B | $60 |
+| 2023 | $24.9B | -$7.8B | -$7.8B | $110 |
+| 2024 | $48.0B | $18.2B | $15.7B | $160 |
+| 2025E | $59.4B | $25.0B | $22.0B | $200 |
+
+*Source: Company filings (converted from KRW). Stock price = year-end close (000660.KS in USD equiv). 2023 was memory downturn.*
 
 ---
 

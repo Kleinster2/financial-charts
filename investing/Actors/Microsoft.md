@@ -26,6 +26,27 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ---
 
+## Financials
+
+### Annual (10 years, fiscal year ends Jun)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $91.2B | $16.8B | $2.10 | $51 |
+| 2017 | $96.6B | $21.2B | $2.71 | $69 |
+| 2018 | $110.4B | $16.6B | $2.13 | $99 |
+| 2019 | $125.8B | $39.2B | $5.06 | $134 |
+| 2020 | $143.0B | $44.3B | $5.76 | $204 |
+| 2021 | $168.1B | $61.3B | $8.05 | $271 |
+| 2022 | $198.3B | $72.7B | $9.65 | $257 |
+| 2023 | $211.9B | $72.4B | $9.68 | $340 |
+| 2024 | $245.1B | $88.1B | $11.80 | $447 |
+| 2025 | $281.7B | $101.8B | $13.71 | $477 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Jun). FY2018 impacted by TCJA transition tax.*
+
+---
+
 ## Chip strategy
 
 - Massive [[NVIDIA]] buyer (OpenAI infrastructure)

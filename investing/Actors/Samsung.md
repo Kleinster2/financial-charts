@@ -9,6 +9,11 @@ aliases: [Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
 
 Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]. The conglomerate structure provides patient capital but dilutes focus. Aggression may be rational given structural position.
 
+![[samsung-vs-peers.png]]
+*Samsung +10% since 2018 — massive underperformance vs [[Semiconductors|SMH]] (+330%). Foundry yields and memory cycle headwinds.*
+
+*vs [[Semiconductors|SMH]]*
+
 ## Key concepts
 
 - [[Why Samsung's aggression may be rational]] — #2 position forces risk-taking
@@ -19,6 +24,27 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 - **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas HBM packaging facility.
 - [[Samsung Taylor pivot]] — the 4nm→2nm mid-construction leap
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Operating Profit | Net Income | Stock Price |
+|------|---------|------------------|------------|-------------|
+| 2016 | $178B | $25B | $19B | $41 |
+| 2017 | $224B | $50B | $36B | $52 |
+| 2018 | $221B | $54B | $40B | $37 |
+| 2019 | $197B | $27B | $22B | $48 |
+| 2020 | $212B | $36B | $27B | $72 |
+| 2021 | $244B | $52B | $39B | $71 |
+| 2022 | $234B | $43B | $35B | $48 |
+| 2023 | $197B | $8B | $8B | $55 |
+| 2024 | $219B | $27B | $27B | $46 |
+| 2025E | $230B | $35B | $30B | $52 |
+
+*Source: Company filings (converted from KRW at year-end FX). Stock price = year-end close (005930.KS in USD equivalent). 2023 was memory downturn.*
 
 ---
 
