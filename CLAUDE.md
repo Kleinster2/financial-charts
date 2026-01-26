@@ -167,12 +167,12 @@ curl "http://localhost:5000/api/chart/lw?tickers=TSM&start=2020-01-01"
 
 For comparison charts, add link line below pointing to the *other* tickers (not the note you're on).
 
-**Always verify chart output.** After generating a chart, READ the image file to confirm:
-1. All requested tickers appear in the legend
-2. All tickers have visible data lines (not missing/flat)
-3. The narrative in your chart note matches what the chart actually shows
+**Before creating charts, ensure price data exists.** Check the database for all tickers you plan to chart:
+```bash
+sqlite3 market_data.db "PRAGMA table_info(stock_prices_daily);" | grep -iE "AAPL|MSFT|etc"
+```
 
-If tickers are missing, they're probably not in the database — add them:
+If missing, add them BEFORE generating the chart:
 ```python
 import yfinance as yf
 import sqlite3
@@ -180,13 +180,20 @@ conn = sqlite3.connect('market_data.db')
 for ticker in ['BCS', 'LYG']:
     t = yf.Ticker(ticker)
     hist = t.history(period='max')
-    conn.execute(f'ALTER TABLE stock_prices_daily ADD COLUMN "{ticker}" REAL')
+    try:
+        conn.execute(f'ALTER TABLE stock_prices_daily ADD COLUMN "{ticker}" REAL')
+    except: pass  # column exists
     for date, row in hist.iterrows():
         date_str = date.strftime('%Y-%m-%d') + ' 00:00:00'
         conn.execute(f'UPDATE stock_prices_daily SET "{ticker}" = ? WHERE Date = ?',
                     (row['Close'], date_str))
     conn.commit()
 ```
+
+**Always verify chart output.** After generating a chart, READ the image file to confirm:
+1. All requested tickers appear in the legend
+2. All tickers have visible data lines (not missing/flat)
+3. The narrative in your chart note matches what the chart actually shows
 
 **Chart notes:** Always add an italicized interpretive note below charts explaining what the reader is seeing. Charts without context are just shapes — the interpretation is what makes them useful.
 
