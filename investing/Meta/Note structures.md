@@ -133,18 +133,18 @@ Two standard charts for public company actor notes:
 
 The peer set tells a story. Wrong peers = wrong story.
 
-**Always include the most relevant benchmark.** Every comparison chart needs a benchmark that answers "compared to what?":
+**Always include a peer benchmark.** Every comparison chart needs the best-in-class peer as a benchmark — not a broad index:
 
-| Actor type | Relevant benchmark |
-|------------|-------------------|
-| US tech | QQQ or SPY |
-| UK banks | FTSE 100 or JPM (global standard) |
-| Semiconductors | SMH or SOX |
-| China tech | KWEB or FXI |
-| LatAm fintech | Regional index or US fintech peer |
-| Commodities | Relevant commodity ETF |
+| Actor type | Peer benchmark | NOT |
+|------------|----------------|-----|
+| UK/EU banks | JPM (global gold standard) | FTSE 100, SPY |
+| Asian banks | JPM | Hang Seng |
+| US regional banks | JPM or BAC | KRE (too broad) |
+| EU semiconductors | NVDA or TSM | STOXX 600 |
+| LatAm fintech | SQ or PYPL (US leaders) | MSCI EM |
+| China tech | US peer (AMZN, GOOGL) | FXI |
 
-The benchmark provides context — without it, readers can't tell if +50% is good or bad.
+The peer benchmark shows "how good could this be?" — broad indices hide underperformance.
 
 ```bash
 # Price comparison (normalized)
