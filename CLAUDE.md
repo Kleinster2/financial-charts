@@ -167,11 +167,6 @@ curl "http://localhost:5000/api/chart/lw?tickers=TSM&start=2020-01-01"
 
 For comparison charts, add link line below pointing to the *other* tickers (not the note you're on).
 
-**Every actor gets their own chart.** Never reuse another actor's chart — even if the tickers overlap. Each actor needs peers relevant to *them*:
-- Barclays → UK banks (HSBC, Lloyds), not European banks (DB, UBS)
-- TSMC → foundry peers (Samsung, Intel Foundry), not just "semis"
-- Nubank → LatAm fintechs (StoneCo, Inter), not US neobanks
-
 **Always verify chart output.** After generating a chart, READ the image file to confirm:
 1. All requested tickers appear in the legend
 2. All tickers have visible data lines (not missing/flat)

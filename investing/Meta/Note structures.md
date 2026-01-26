@@ -123,6 +123,16 @@ Two standard charts for public company actor notes:
 1. **Price vs benchmark** — stock performance vs relevant index (e.g., AAPL vs QQQ)
 2. **Fundamentals** — revenue, net income, and free cash flow (absolute values)
 
+**Every actor gets their own chart.** Never reuse another actor's chart — even if the tickers overlap. Each actor needs peers relevant to *them*:
+
+| Actor | Good peers | Bad peers |
+|-------|------------|-----------|
+| Barclays | UK banks (HSBC, Lloyds) | European banks (DB, UBS) |
+| TSMC | Foundry peers (Samsung, Intel Foundry) | Generic "semis" |
+| Nubank | LatAm fintechs (StoneCo, Inter) | US neobanks |
+
+The peer set tells a story. Wrong peers = wrong story.
+
 ```bash
 # Price comparison (normalized)
 curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
