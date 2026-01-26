@@ -133,6 +133,19 @@ Two standard charts for public company actor notes:
 
 The peer set tells a story. Wrong peers = wrong story.
 
+**Always include the most relevant benchmark.** Every comparison chart needs a benchmark that answers "compared to what?":
+
+| Actor type | Relevant benchmark |
+|------------|-------------------|
+| US tech | QQQ or SPY |
+| UK banks | FTSE 100 or JPM (global standard) |
+| Semiconductors | SMH or SOX |
+| China tech | KWEB or FXI |
+| LatAm fintech | Regional index or US fintech peer |
+| Commodities | Relevant commodity ETF |
+
+The benchmark provides context — without it, readers can't tell if +50% is good or bad.
+
 ```bash
 # Price comparison (normalized)
 curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
