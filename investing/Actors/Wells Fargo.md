@@ -5,6 +5,13 @@ aliases: [WFC]
 
 **Wells Fargo** — Fourth-largest US bank. Consumer focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
 
+| Metric | Value |
+|--------|-------|
+| Ticker | **WFC** |
+
+![[wfc-vs-peers.png]]
+*WFC +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+125%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Scandal and asset cap drag visible.*
+
 ---
 
 ## Overview
@@ -144,7 +151,7 @@ aliases: [WFC]
 ## Related
 
 ### Peers
-- [[JPMorgan]] — #1 US bank
+- [[JPMorgan Chase]] — #1 US bank
 - [[Bank of America]] — #2 US bank
 - [[Citigroup]] — peer
 
