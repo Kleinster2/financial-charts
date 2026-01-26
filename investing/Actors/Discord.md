@@ -115,6 +115,10 @@ Differentiated by real-time + voice.
 - [[Roblox]] — gaming peer
 - [[Snap]] — youth social
 - [[Media]] — sector
+- [[Slack]] — enterprise competitor
+- [[Teams]] — enterprise competitor
+- [[Telegram]] — community competitor
+- [[Clawdbot]] — integrates with Discord
 
 ---
 

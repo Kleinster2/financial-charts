@@ -354,6 +354,13 @@ Go beyond facts to explain why something works: flywheel, moats, structural adva
 
 **Every edit is an opportunity to rebuild.** Check for: thin stubs, missing financials/cap tables, outdated data, no Related section. Make the requested edit first, then assess quality gaps.
 
+**Deep research for updates:** Before updating any note, do web searches to:
+1. Find recent news/developments (last 6-12 months)
+2. Verify existing data is current (AUM, valuations, financials, status)
+3. Discover new information to add — not just links
+
+Don't just add a wikilink and move on. If you're touching a note, refresh it.
+
 **Quality check:** Whenever you read any actor note (whether asked to or encountered during other work), check it against [[Note structures]] depth standards. Flag gaps proactively — especially private companies: full cap table, historical financials, derivative arrangements.
 
 ## Processing new information

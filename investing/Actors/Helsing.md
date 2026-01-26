@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #europe #private
 
-**Helsing** — Europe's most valuable defense startup. AI-powered autonomous weapons (drones, combat vehicles, satellite ISR). €12B valuation. Munich-based. Daniel Ek (Spotify founder) is chairman and lead investor.
+**Helsing** — Europe's most valuable defense startup. AI-powered autonomous weapons (drones, combat vehicles, satellite ISR). €12B valuation. Munich-based. [[Daniel Ek]] ([[Spotify]] founder) is chairman and lead investor.
 
 ---
 
@@ -62,15 +62,15 @@ aliases: []
 
 **Key investors:**
 
-| Investor | Notes |
-|----------|-------|
-| Prima Materia (Daniel Ek) | Lead every round, chairman |
-| Lightspeed Ventures | Growth |
-| Accel | Growth |
-| General Catalyst | Led Series B |
-| Plural | Growth |
-| SAAB | Strategic (defense prime) |
-| BDT & MSD Partners | New in Series D |
+| Investor                        | Notes                      |
+| ------------------------------- | -------------------------- |
+| Prima Materia (Daniel Ek)       | Lead every round, chairman |
+| [[Lightspeed Venture Partners]] | Growth                     |
+| [[Accel]]                       | Growth                     |
+| [[General Catalyst]]            | Led Series B               |
+| Plural                          | Growth                     |
+| [[SAAB]]                        | Strategic (defense prime)  |
+| BDT & [[MSD Partners]]          | New in Series D            |
 
 ---
 
@@ -83,7 +83,7 @@ aliases: []
 | [[Shield AI]] | $5.3B | US | Autonomous aircraft |
 | [[Palantir]] | Public (~$200B) | US | Defense data/AI |
 
-**vs Anduril:** Same thesis (AI-powered autonomous warfare) but European sovereignty angle. Less hardware-focused initially, now building own manufacturing with Grob acquisition.
+**vs Anduril:** Same thesis (AI-powered autonomous warfare) but European sovereignty angle. Less hardware-focused initially, now building own manufacturing with [[Grob]] acquisition.
 
 ---
 
@@ -91,14 +91,14 @@ aliases: []
 
 **Why Helsing is investable now:**
 
-| Driver | Detail |
-|--------|--------|
-| Ukraine war | Validates autonomous weapons, AI targeting |
-| NATO 5% GDP target | Committed Jun 2025, by 2035 |
-| EU drone demand | Kubilius: 3M drones/year needed for Russia defense |
-| STOXX Aerospace & Defense | +65% in 2025 |
-| DTCP fund | €500M (Europe's largest defense VC) |
-| EU EDF 2026 | €1B for defense R&D |
+| Driver                    | Detail                                                 |
+| ------------------------- | ------------------------------------------------------ |
+| Ukraine war               | Validates autonomous weapons, AI targeting             |
+| NATO 5% GDP target        | Committed Jun 2025, by 2035                            |
+| EU drone demand           | [[Kubilius]]: 3M drones/year needed for Russia defense |
+| STOXX Aerospace & Defense | +65% in 2025                                           |
+| DTCP fund                 | €500M (Europe's largest defense VC)                    |
+| EU EDF 2026               | €1B for defense R&D                                    |
 
 **Germany specifically:**
 - "Uranos KI" AI targeting system planned for 2026 deployment
@@ -109,12 +109,12 @@ aliases: []
 
 ## Key partnerships
 
-| Partner | Scope |
-|---------|-------|
-| **Kongsberg** (Dec 2025) | Sovereign European satellite constellation (ISR, targeting) |
-| **Grob Aircraft** (acquired) | CA-1 Europa airframe manufacturing |
-| **SAAB** | Strategic investor, Swedish defense prime |
-| Ukraine MOD | 6,000 drones target |
+| Partner                          | Scope                                                       |
+| -------------------------------- | ----------------------------------------------------------- |
+| **Kongsberg** (Dec 2025)         | Sovereign European satellite constellation (ISR, targeting) |
+| **[[Grob Aircraft]]** (acquired) | CA-1 Europa airframe manufacturing                          |
+| **[[SAAB]]**                     | Strategic investor, Swedish defense prime                   |
+| Ukraine MOD                      | 6,000 drones target                                         |
 
 ---
 
