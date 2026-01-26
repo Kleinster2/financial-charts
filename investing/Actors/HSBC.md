@@ -29,6 +29,44 @@ UK's #1 bank by assets. One of world's largest banking organizations.
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | ROE | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $48B | $2.5B | 2% | $38 |
+| 2017 | $51B | $10B | 6% | $51 |
+| 2018 | $54B | $13B | 8% | $39 |
+| 2019 | $56B | $6B | 4% | $40 |
+| 2020 | $51B | $3.9B | 2% | $29 |
+| 2021 | $50B | $14B | 8% | $31 |
+| 2022 | $52B | $16B | 10% | $31 |
+| 2023 | $66B | $23B | 14% | $39 |
+| 2024 | $67B | $24B | 14% | $48 |
+| 2025E | $70B | $22B | 13% | $55 |
+
+*Source: Company filings (USD). Stock price = year-end close (NYSE ADR).*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **NIM** | 1.5% | 1.7% | 1.6% | 1.6% |
+| **Cost/income ratio** | 65% | 58% | 55% | 54% |
+| **CET1 ratio** | 14.2% | 14.8% | 14.9% | 14.5% |
+| **RoTE target** | — | 12%+ | Mid-teens | Mid-teens |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | $3.2T |
+| AUM | $1.6T |
+| Employees | ~220,000 |
+
+---
+
 ## Business segments (Jan 2025 restructure)
 
 | Division | Focus |
@@ -90,7 +128,7 @@ Elhedery accelerating pivot to Asia:
 - [[Barclays]] — UK peer
 - [[Lloyds]] — UK peer
 - [[Standard Chartered]] — Asia-focused peer
-- [[JPMorgan]] — global competitor
+- [[JPMorgan Chase]] — global competitor
 - [[Investment Banks]] — sector
 
 ---

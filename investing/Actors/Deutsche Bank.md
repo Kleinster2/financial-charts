@@ -29,6 +29,43 @@ aliases: [DB]
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | ROE | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | €29B | -€1.4B | -3% | $18 |
+| 2017 | €26B | -€0.7B | -2% | $18 |
+| 2018 | €25B | €0.3B | 1% | $9 |
+| 2019 | €23B | -€5.3B | -12% | $9 |
+| 2020 | €24B | €0.6B | 1% | $11 |
+| 2021 | €25B | €2.6B | 5% | $13 |
+| 2022 | €27B | €5.0B | 9% | $11 |
+| 2023 | €29B | €4.9B | 8% | $14 |
+| 2024 | €30B | €2.8B | 5% | $17 |
+| 2025E | €32B | €5.5B | 9% | $19 |
+
+*Source: Company filings (EUR). Stock price = year-end close (NYSE ADR). Heavy losses 2016-2019 during restructuring.*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **Cost/income ratio** | 75% | 72% | 69% | 66% |
+| **CET1 ratio** | 13.4% | 13.7% | 13.8% | 13.5% |
+| **ROE target** | 8% | 8% | >10% | >10% |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | €1.34T |
+| AUM | €1.05T |
+| Employees | ~90,000 |
+
+---
+
 ## Business segments
 
 | Segment | Revenue | Notes |
@@ -93,7 +130,7 @@ Weinstein joined 1998 as sole CDS trader. Built group to ~$30B positions. Named 
 
 - [[Boaz Weinstein]] — former MD; founded [[Saba Capital]] from DB prop desk
 - [[Saba Capital]] — spun out of Deutsche Bank (2009)
-- [[JPMorgan]] — competitor; London Whale counterparty
+- [[JPMorgan Chase]] — competitor; London Whale counterparty
 - [[Investment Banks]] — sector
 
 ---

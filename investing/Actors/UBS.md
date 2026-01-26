@@ -30,6 +30,36 @@ World's largest private bank — manages wealth for ~half of world's billionaire
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | ROE | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $29B | $3.3B | 6% | $16 |
+| 2017 | $31B | $1.2B | 2% | $18 |
+| 2018 | $31B | $4.5B | 8% | $13 |
+| 2019 | $29B | $4.3B | 8% | $13 |
+| 2020 | $33B | $6.6B | 12% | $14 |
+| 2021 | $36B | $7.5B | 13% | $17 |
+| 2022 | $41B | $7.6B | 13% | $19 |
+| 2023 | $96B | $27B | — | $29 |
+| 2024 | $85B | $5B | 4% | $32 |
+| 2025E | $50B | $8B | 7% | $34 |
+
+*Source: Company filings (USD). 2023 includes Credit Suisse acquisition gains (~$35B negative goodwill). Stock price = year-end close.*
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | $1.63T |
+| Invested assets | $6.9T |
+| Wealth AUM | $4.71T |
+| CET1 ratio | 14.3% |
+
+---
+
 ## Business segments
 
 | Segment | Description |
@@ -108,7 +138,7 @@ Ermotti: "Almost impossible to be a successful global player without a strong US
 
 - [[Credit Suisse]] — acquired 2023; merged into UBS
 - [[Deutsche Bank]] — European peer
-- [[JPMorgan]] — US competitor in wealth
+- [[JPMorgan Chase]] — US competitor in wealth
 - [[Wealth Management]] — core business
 - [[Investment Banks]] — sector
 

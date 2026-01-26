@@ -22,7 +22,44 @@ aliases: [BCS, Barclays PLC]
 ![[barclays-vs-peers.png]]
 *Barclays +185% since 2018 — outperforming EUFN benchmark (+65%) and most UK peers. NatWest leads (+260%), HSBC +125%, Lloyds lags at benchmark level. IB strength driving outperformance.*
 
-*vs [[HSBC]] · [[Lloyds]] · [[NatWest]] · EUFN (benchmark)*
+*vs [[HSBC]] · [[Lloyds]] · [[NatWest]] · [[EUFN]] (benchmark)*
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | ROE | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | £21B | £2.0B | 4% | $10 |
+| 2017 | £21B | £1.9B | 4% | $11 |
+| 2018 | £21B | £1.4B | 3% | $7 |
+| 2019 | £22B | £3.0B | 6% | $9 |
+| 2020 | £22B | £1.5B | 3% | $7 |
+| 2021 | £22B | £6.4B | 11% | $10 |
+| 2022 | £25B | £5.0B | 9% | $7 |
+| 2023 | £26B | £4.5B | 8% | $8 |
+| 2024 | £27B | £5.3B | 9% | $14 |
+| 2025E | £30B | £6.0B | 10% | $16 |
+
+*Source: Company filings (GBP). Stock price = year-end close (NYSE ADR).*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **Cost/income ratio** | 66% | 64% | 62% | 60% |
+| **CET1 ratio** | 13.9% | 13.8% | 14.1% | 14.0% |
+| **ROE target** | 10%+ | 10%+ | 10%+ | 10%+ |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | £1.48T |
+| RWA | ~£300B |
+| Employees | ~85,000 |
 
 ---
 
@@ -102,7 +139,7 @@ Tariff-driven volatility in 2025 boosted trading revenues beyond plan.
 
 - [[Deutsche Bank]] — European peer
 - [[UBS]] — European peer
-- [[JPMorgan]] — US competitor
+- [[JPMorgan Chase]] — US competitor
 - [[HSBC]] — UK #1 by assets
 - [[Investment Banks]] — sector
 

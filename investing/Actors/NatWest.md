@@ -29,6 +29,44 @@ aliases: [NatWest Group, NWG, Royal Bank of Scotland, RBS]
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Income | Net Income | ROE | Stock Price |
+|------|--------|------------|-----|-------------|
+| 2016 | £12.8B | -£7.0B | -15% | $2.5 |
+| 2017 | £12.5B | -£5.9B | -12% | $3.5 |
+| 2018 | £13.4B | £1.6B | 3% | $2.8 |
+| 2019 | £14.1B | £3.1B | 6% | $5.2 |
+| 2020 | £11.0B | -£0.4B | -1% | $2.0 |
+| 2021 | £11.0B | £3.0B | 7% | $5.4 |
+| 2022 | £13.0B | £2.5B | 6% | $3.2 |
+| 2023 | £14.6B | £4.2B | 10% | $5.1 |
+| 2024 | £15.5B | £4.6B | 14% | $7.0 |
+| 2025E | £16.3B | £5.0B | 18% | $8.5 |
+
+*Source: Company filings (GBP). 2016-2017 losses from legacy RBS restructuring. Stock price = year-end close (NYSE ADR).*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **NIM** | 2.8% | 3.2% | 3.0% | 3.0% |
+| **Cost/income ratio** | 55% | 52% | 50% | 48% |
+| **CET1 ratio** | 14.2% | 13.4% | 13.6% | 14.2% |
+| **RoTE target** | 14%+ | 14%+ | 15%+ | 15%+ |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| AUM | £56B |
+| Deposits | ~£500B |
+| CET1 ratio | 14.2% |
+
+---
+
 ## Privatisation complete (May 2025)
 
 | Fact | Detail |
