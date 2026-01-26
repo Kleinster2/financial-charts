@@ -3,7 +3,7 @@ aliases: [BG]
 ---
 #actor #investor #assetmanager #scotland #private
 
-**Baillie Gifford** — Scottish investment firm. Long-term growth investor. Tesla, SpaceX, Amazon early backer. ~$250B AUM.
+**Baillie Gifford** — Scottish investment firm founded 1908. Long-term growth investor. ~$250B AUM. Flagship Scottish Mortgage Trust (LSE: SMT) has £14.1B AUM, 27.7% in private companies. Major [[SpaceX]] holder (15.3% of NAV, £2.2B stake at $800B valuation). Wrote off [[Northvolt]] in FY2025. Facing Saba Capital activist campaign.
 
 ---
 
@@ -12,10 +12,11 @@ aliases: [BG]
 | Metric | Value |
 |--------|-------|
 | Founded | 1908 |
-| AUM | **~$250B** |
+| AUM (firm-wide) | **~$250B** |
 | Structure | Partnership (private) |
 | HQ | Edinburgh, Scotland |
-| Style | Long-term, growth |
+| Style | Long-term, concentrated growth |
+| Private deployments | **$10B+** into 160+ companies since 2012 |
 
 ---
 
@@ -24,84 +25,117 @@ aliases: [BG]
 | Principle | Application |
 |-----------|-------------|
 | **Long-term** | 5-10+ year holding periods |
-| **Growth** | High-growth companies |
+| **Growth** | High-growth, transformational companies |
 | **Concentrated** | Fewer, larger positions |
-| **Patient** | Through volatility |
+| **Patient** | Through volatility; ignores short-term noise |
 | **Contrarian** | Willing to be different |
 
----
-
-## Notable investments
-
-### Public markets
-
-| Company | Position | Notes |
-|---------|----------|-------|
-| **Tesla** | Major holder | Early believer |
-| **Amazon** | Major holder | Long-term |
-| **Moderna** | Early investor | COVID winner |
-| **Shopify** | Major holder | E-commerce |
-| **NVIDIA** | Holder | AI exposure |
-
-### Private markets
-
-| Company | Stage | Status |
-|---------|-------|--------|
-| **[[SpaceX]]** | Growth | $800B |
-| **[[Stripe]]** | Growth | $129B |
-| **ByteDance** | Growth | Private |
-| **Northvolt** | Growth | Private |
-| **Zipline** | Growth | Private |
-
----
-
-## Scottish Motor Traction origins
-
-| Fact | Detail |
-|------|--------|
-| Founded | 1908 |
-| Original business | Trust management |
-| Name origin | Founders Baillie and Gifford |
-| Structure | Private partnership |
-
-**Advantage:** No public shareholders = can think long-term.
-
----
-
-## Fund products
-
-| Fund | Focus |
-|------|-------|
-| Scottish Mortgage | Flagship (public, LSE: SMT) |
-| Baillie Gifford American | US growth |
-| Baillie Gifford Global Discovery | Small-cap growth |
-| Private equity funds | SpaceX, Stripe, etc. |
+**Advantage:** Private partnership structure = no public shareholders = can think long-term.
 
 ---
 
 ## Scottish Mortgage Investment Trust
 
-| Metric | Value |
-|--------|-------|
-| Ticker | SMT (LSE) |
-| AUM | ~$15B |
-| Holdings | Tesla, NVIDIA, SpaceX, etc. |
-| Structure | Publicly traded trust |
+Flagship public vehicle. Retail access to Baillie Gifford's private holdings.
 
-**Access:** Way for retail to access Baillie Gifford's private holdings.
+| Metric | Value (Dec 2025) |
+|--------|------------------|
+| Ticker | **SMT** (LSE) |
+| NAV | **£14.1B** |
+| Private companies | 51 holdings, **27.7%** of assets |
+| Ongoing charges | 0.31% |
+| Gearing | 12% |
+| Total holdings | 95 companies |
+| Dividend streak | **43 years** (AIC Dividend Hero) |
+
+### Performance (Year to 31 March 2025)
+
+| Metric | Scottish Mortgage | FTSE All-World |
+|--------|-------------------|----------------|
+| NAV total return | **+11.2%** | +5.5% |
+| Share price return | +6.0% | — |
+
+### 10-year performance
+
+| Metric | Scottish Mortgage | FTSE All-World |
+|--------|-------------------|----------------|
+| NAV growth | **+320%** | +182% |
+
+Best recovery period since 2022 growth crash.
 
 ---
 
-## Performance
+## Top holdings
 
-| Period | vs Market |
-|--------|-----------|
-| Long-term | Significant outperformance |
-| 2020-2021 | Massive gains (Tesla, Moderna) |
-| 2022 | Large drawdown (growth selloff) |
-| 2023-2025 | Recovery |
+### Public markets
 
-**Volatility:** Concentrated growth = big swings.
+| Company     | Notes                          |
+| ----------- | ------------------------------ |
+| [[Amazon]]  | Long-term core holding         |
+| [[Tesla]]   | Early believer; held 10+ years |
+| [[NVIDIA]]  | AI exposure                    |
+| [[ASML]]    | Semiconductor equipment        |
+| [[Moderna]] | COVID winner                   |
+
+### Private markets
+
+| Company            | Valuation                   | % of SMT NAV    | Notes                                    |
+| ------------------ | --------------------------- | --------------- | ---------------------------------------- |
+| **[[SpaceX]]**     | $800B → $1.5T (rumored IPO) | **15.3%**       | £2.2B stake; 134 rocket launches in 2024 |
+| **[[ByteDance]]**  | —                           | Major           | TikTok parent                            |
+| **[[Stripe]]**     | —                           | Major           | $1.4T payments processed                 |
+| **[[Databricks]]** | —                           | Major           | AI/data                                  |
+| **[[Chime]]**      | —                           | Major           | Neobank                                  |
+| **[[Northvolt]]**  | —                           | **Written off** | Bankrupt 2025                            |
+
+Top 5 private holdings = 61% of private exposure.
+
+### SpaceX valuation (Dec 2025)
+
+| Event | Valuation |
+|-------|-----------|
+| Jul 2024 | $400B |
+| Dec 2024 tender offer | $800B |
+| Rumored IPO | **$1.5T** |
+
+Baillie Gifford hiked SpaceX valuation by **87%** in Dec 2025, adding £1B to Scottish Mortgage NAV in one day. Trimmed position in Q4 2024 "for portfolio management reasons" — later criticized by Saba Capital.
+
+---
+
+## Fund products
+
+| Fund | Focus | Notes |
+|------|-------|-------|
+| **Scottish Mortgage** | Flagship growth | LSE: SMT; £14.1B |
+| **Schiehallion Fund** | Private companies | SpaceX, ByteDance, Stripe, Databricks, Chime |
+| Baillie Gifford American | US growth | — |
+| Baillie Gifford Global Discovery | Small-cap growth | — |
+| Edinburgh Worldwide | Global small-cap | Proposed merger with US Growth Trust |
+| Baillie Gifford US Growth | US | — |
+
+---
+
+## Saba Capital activist campaign (2025)
+
+| Fact | Detail |
+|------|--------|
+| Activist | Saba Capital (Elliott Weinstein) |
+| Target | Edinburgh Worldwide, US Growth Trust |
+| Issue | SpaceX shares sold "at price massively lower than $1.5T IPO valuation" |
+| Demand | Oust board members; oppose merger |
+
+Scottish Mortgage and Edinburgh Worldwide exceeded 30%/25% limits on unquoted holdings after SpaceX revaluation.
+
+---
+
+## Write-offs (FY2025)
+
+| Company | Status |
+|---------|--------|
+| [[Northvolt]] | Bankrupt 2025 |
+| Blockstream | Written off |
+| Relativity Space | Written off |
+| Uptake Technologies | Written off |
 
 ---
 
@@ -109,29 +143,22 @@ aliases: [BG]
 
 | Person | Role |
 |--------|------|
+| **Tom Slater** | Lead manager, Scottish Mortgage |
 | Mark Urquhart | Partner, Head of Global Alpha |
-| Tom Slater | Co-manager, Scottish Mortgage |
 | James Anderson | Former (retired 2022) |
-
----
-
-## Quick stats
-
-| Metric | Value |
-|--------|-------|
-| Founded | 1908 |
-| AUM | ~$250B |
-| HQ | Edinburgh, Scotland |
-| Style | Long-term growth |
 
 ---
 
 ## Related
 
-- [[SpaceX]] — portfolio company
+- [[SpaceX]] — largest private holding (15.3% of SMT)
 - [[Stripe]] — portfolio company
+- [[ByteDance]] — portfolio company
 - [[Tesla]] — public holding
+- [[Northvolt]] — written off (bankrupt 2025)
+- [[NVIDIA]] — public holding
+- [[Saba Capital]] — activist investor targeting Edinburgh Worldwide, US Growth Trust
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-01-25*
