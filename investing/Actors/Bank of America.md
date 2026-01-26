@@ -10,7 +10,7 @@ aliases: [BAC, BofA, BoA]
 | Ticker | **BAC** |
 
 ![[bac-vs-peers.png]]
-*BAC +110% since 2018 — trailing [[JPMorgan|JPM]] (+260%) but ahead of [[Wells Fargo|WFC]] (+45%) and [[Citigroup|C]] (+45%). Solid consumer franchise.*
+*BAC +110% since 2018 — trailing [[JPMorgan|JPM]] (+260%) but ahead of [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Solid consumer franchise.*
 
 ---
 

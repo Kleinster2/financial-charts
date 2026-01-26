@@ -10,7 +10,7 @@ aliases: [C, Citi]
 | Ticker | **C** |
 
 ![[c-vs-peers.png]]
-*Citi +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+110%). Turnaround in progress but returns still below peers.*
+*Citi +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+110%), [[KBE]] benchmark (+70%). Turnaround in progress but returns still below peers.*
 
 ---
 
