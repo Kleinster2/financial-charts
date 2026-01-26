@@ -133,18 +133,24 @@ Two standard charts for public company actor notes:
 
 The peer set tells a story. Wrong peers = wrong story.
 
-**Always include a peer benchmark.** Every comparison chart needs a sector-specific benchmark — not a broad market index:
+**Chart composition: actor + peers + sector benchmark.** Every comparison chart includes three elements:
 
-| Actor type | Peer benchmark | NOT |
-|------------|----------------|-----|
-| Banks | XLF (financials) or KBE (banks) | SPY, FTSE 100 |
-| Semiconductors | SMH or SOX | QQQ, SPY |
-| Fintech | ARKF or IPAY | SPY |
-| China tech | KWEB | FXI (too broad) |
-| Retail | XRT | SPY |
-| Energy | XLE | SPY |
+1. **The actor** — the subject of the note
+2. **2-3 relevant peers** — direct competitors or comparable companies
+3. **Sector benchmark** — ETF/index for the peer group
 
-The peer benchmark answers "how did this sector do?" — broad indices hide sector-specific moves.
+Example for Barclays: `BCS, HSBC, LYG, NWG, XLF`
+
+| Actor type | Sector benchmark |
+|------------|------------------|
+| Banks | XLF (financials) or KBE (banks) |
+| Semiconductors | SMH or SOX |
+| Fintech | ARKF or IPAY |
+| China tech | KWEB |
+| Retail | XRT |
+| Energy | XLE |
+
+The benchmark shows sector context; the peers show relative positioning within it.
 
 ```bash
 # Price comparison (normalized)
