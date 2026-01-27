@@ -1,4 +1,3 @@
-# EUFN
 
 **iShares MSCI Europe Financials ETF** — [[BlackRock]] sector ETF tracking European financials. Primary benchmark for European bank charts in this vault.
 

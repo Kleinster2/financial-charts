@@ -130,7 +130,7 @@ See [[AI infrastructure financing]] for market context.
 | Bank | AI angle |
 |------|----------|
 | **Goldman Sachs** | Research, private credit |
-| [[JPMorgan]] | AI investments, internal AI |
+| [[JPMorgan Chase]] | AI investments, internal AI |
 | Morgan Stanley | Wealth management AI |
 
 ---
@@ -164,5 +164,5 @@ See [[AI infrastructure financing]] for market context.
 - [[AI infrastructure financing]] — thesis context
 - [[Blackstone]] — competitor (private credit)
 - [[Blue Owl]] — competitor (DC financing)
-- [[JPMorgan]] — peer (banking)
+- [[JPMorgan Chase]] — peer (banking)
 - [[AI hyperscalers]] — research coverage

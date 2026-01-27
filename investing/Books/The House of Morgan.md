@@ -196,7 +196,7 @@ The Morgan influence:
 - [[Too Big to Fail]] — modern crisis (JPMorgan features)
 
 ### Actors
-- [[JPMorgan]] — the successor institution
+- [[JPMorgan Chase]] — the successor institution
 - Morgan Stanley — the spin-off
 - J.P. Morgan — the man
 

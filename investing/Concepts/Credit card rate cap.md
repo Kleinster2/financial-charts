@@ -29,7 +29,7 @@
 | Capital One | -6% | Large card issuer |
 | Discover | -5% | Card issuer |
 | Citigroup | -4% | Major card issuer |
-| [[JPMorgan]] | -2% | Diversified, just acquired Apple Card |
+| [[JPMorgan Chase]] | -2% | Diversified, just acquired Apple Card |
 | [[Bank of America]] | -2% | Large card portfolio |
 | Visa | -2% | Network (indirect) |
 | Mastercard | -2% | Network (indirect) |
@@ -119,7 +119,7 @@
 |------|-----------|-----|
 | **High** | Synchrony, Capital One, Discover | Pure-play consumer credit |
 | **Medium** | [[Citigroup]], [[Bank of America]] | Large card portfolios |
-| **Lower** | [[JPMorgan]], [[Wells Fargo]] | Diversified, but still exposed |
+| **Lower** | [[JPMorgan Chase]], [[Wells Fargo]] | Diversified, but still exposed |
 | **Indirect** | Visa, Mastercard | Volume decline risk |
 
 ---
@@ -148,7 +148,7 @@
 ## Related
 
 ### Affected actors
-- [[JPMorgan]] — acquired Apple Card portfolio ($17B)
+- [[JPMorgan Chase]] — acquired Apple Card portfolio ($17B)
 - [[Bank of America]] — large card issuer
 - [[Wells Fargo]] — card exposure
 - [[Citigroup]] — major card issuer

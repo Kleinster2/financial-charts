@@ -37,7 +37,7 @@ aliases: [Saba Capital Management, Saba]
 
 ### London Whale (2012)
 
-Weinstein identified mispriced credit derivatives at [[JPMorgan]] before Bruno Iksil's trades became public. When JPMorgan's position unraveled (exposing the bank to $6.2B in losses), Saba and other hedge funds profited by taking opposing positions in the CDS market.
+Weinstein identified mispriced credit derivatives at [[JPMorgan Chase]] before Bruno Iksil's trades became public. When JPMorgan's position unraveled (exposing the bank to $6.2B in losses), Saba and other hedge funds profited by taking opposing positions in the CDS market.
 
 ### COVID-19 crash (2020)
 
@@ -123,7 +123,7 @@ Weinstein publicly stated [[BlackRock]] is "the worst company in the S&P 500 whe
 - [[Baillie Gifford]] — activist target (2025)
 - [[BlackRock]] — activist target; governance criticism
 - [[Deutsche Bank]] — Weinstein's origin; spun out Saba in 2009
-- [[JPMorgan]] — London Whale counterparty
+- [[JPMorgan Chase]] — London Whale counterparty
 - [[Pershing Square]] — co-investor in Sculptor bid
 - [[Hedge Funds]] — sector
 

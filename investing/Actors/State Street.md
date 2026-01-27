@@ -92,5 +92,5 @@ One of the "Big Three" custodian banks (with BNY Mellon, JPMorgan).
 
 - [[BlackRock]] — competitor (asset management)
 - [[BNY Mellon]] — competitor (custody)
-- [[JPMorgan]] — competitor
+- [[JPMorgan Chase]] — competitor
 - [[Banks]] — sector

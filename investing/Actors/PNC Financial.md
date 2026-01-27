@@ -110,7 +110,7 @@ Transformational acquisition.
 
 ## Related
 
-- [[JPMorgan]] — competitor
+- [[JPMorgan Chase]] — competitor
 - [[US Bancorp]] — peer regional
 - [[Truist]] — peer regional
 - [[Banks]] — sector

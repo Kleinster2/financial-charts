@@ -41,7 +41,7 @@ Banks increasingly using SRTs to manage concentrated data center/AI infrastructu
 | Bank | Status | Notes |
 |------|--------|-------|
 | [[Morgan Stanley]] | Exploring | Data center loan portfolio, early talks |
-| [[JPMorgan]] | Marketed 2025 | SRT deals |
+| [[JPMorgan Chase]] | Marketed 2025 | SRT deals |
 | [[Citigroup]] | Marketed 2025 | SRT deals |
 | [[Goldman Sachs]] | Marketed 2025 | SRT deals |
 

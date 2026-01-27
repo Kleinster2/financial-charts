@@ -52,7 +52,7 @@ aliases: [SPXFP, S&P 500 Futures Excess Return Index]
 
 | Issuer | Terms |
 |--------|-------|
-| **[[JPMorgan]]** | 6-year, **1.91x upside**, 40% downside protection |
+| **[[JPMorgan Chase]]** | 6-year, **1.91x upside**, 40% downside protection |
 | **[[Bank of America]]** | **2.10x upside**, 25% downside protection |
 
 Supercharged gains + loss buffers = investor appeal.
@@ -106,7 +106,7 @@ Buying SPXFP = betting on soft landing + dovish Fed.
 ## Banks issuing (Jan 2026)
 
 At least 7 banks active:
-- [[JPMorgan]]
+- [[JPMorgan Chase]]
 - [[Bank of America]]
 - Others (not specified)
 
@@ -142,7 +142,7 @@ At least 7 banks active:
 - [[Structured products]] — broader $200B market context
 - [[Fed independence]] — Trump pressure on Powell
 - [[Jerome Powell]] — potential replacement risk
-- [[JPMorgan]] — issuer
+- [[JPMorgan Chase]] — issuer
 - [[Bank of America]] — issuer
 - [[Goldilocks]] — macro scenario bet
 

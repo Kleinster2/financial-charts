@@ -219,7 +219,7 @@ See [[Maduro capture 2026]] for full event details.
 | Bank | Status |
 |------|--------|
 | [[BBVA]] | Only major foreign bank with significant current presence |
-| [[JPMorgan]] | 60-year history, dormant Caracas office could reactivate |
+| [[JPMorgan Chase]] | 60-year history, dormant Caracas office could reactivate |
 | [[Citigroup]] | Sold operations to Banco Nacional de Crédito (BNC), exited 2021 |
 | [[Bank of Nova Scotia]] | Exited 2014 |
 
@@ -298,7 +298,7 @@ See [[Maduro capture 2026]] for full event details.
 - [[US-China commodity leverage]] — oil access as rare earth bargaining chip
 - [[PDVSA]] — state oil company
 - [[Citgo]] — US refining arm
-- [[JPMorgan]] — 60-year presence, trade finance opportunity
+- [[JPMorgan Chase]] — 60-year presence, trade finance opportunity
 - [[Citigroup]] — exited 2021
 - [[BBVA]] — only major foreign bank with presence
 - [[Bank of Nova Scotia]] — exited 2014

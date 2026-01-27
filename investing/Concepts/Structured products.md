@@ -113,7 +113,7 @@ Market nearly doubled since 2021.
 ## Issuers and intermediaries
 
 **Banks (issuers):**
-- [[JPMorgan]]
+- [[JPMorgan Chase]]
 - [[Bank of America]]
 - [[Citigroup]]
 - Barclays
@@ -196,7 +196,7 @@ Heavy issuance on Mag 7 stocks creates vol imbalances = structuring opportunity.
 ## Related
 
 - [[SPXFP structured notes]] — niche rates bet
-- [[JPMorgan]] — major issuer
+- [[JPMorgan Chase]] — major issuer
 - [[Bank of America]] — major issuer
 - [[Citigroup]] — major issuer
 - [[Volatility]] — key pricing input

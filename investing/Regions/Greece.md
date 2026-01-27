@@ -85,7 +85,7 @@ Emerging market → developed market transition. Index upgrades unlocking passiv
 - [[Asset allocation]] — European equities theme
 - [[Richard Bernstein Advisors]] — OW European equities
 - [[ASML]] — Stoxx 600 component
-- [[JPMorgan]] — upgrade analysis
+- [[JPMorgan Chase]] — upgrade analysis
 
 *Created 2026-01-11*
 

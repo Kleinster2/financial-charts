@@ -48,15 +48,15 @@
 
 ## Top Holdings (representative)
 
-| Company | Type |
-|---------|------|
-| [[JPMorgan]] | Diversified |
+| Company             | Type        |
+| ------------------- | ----------- |
+| [[JPMorgan Chase]]  | Diversified |
 | [[Bank of America]] | Diversified |
-| [[Wells Fargo]] | Diversified |
-| [[Citigroup]] | Diversified |
-| [[US Bancorp]] | Regional |
-| [[PNC Financial]] | Regional |
-| [[Truist]] | Regional |
+| [[Wells Fargo]]     | Diversified |
+| [[Citigroup]]       | Diversified |
+| [[US Bancorp]]      | Regional    |
+| [[PNC Financial]]   | Regional    |
+| [[Truist]]          | Regional    |
 
 *Equal-weighted so large banks don't dominate despite higher market caps.*
 
@@ -76,4 +76,4 @@ For regional bank analysis, use [[KRE]] instead.
 - [[XLF]] — broader US financials (includes insurance, asset managers)
 - [[EUFN]] — European financials ETF
 - [[State Street]] — issuer
-- [[JPMorgan]], [[Bank of America]], [[Wells Fargo]] — top holdings
+- [[JPMorgan Chase]], [[Bank of America]], [[Wells Fargo]] — top holdings

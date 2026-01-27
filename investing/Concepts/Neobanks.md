@@ -82,7 +82,7 @@ Brazil has the world's most developed neobank ecosystem. See [[Brazil fintech]] 
 |---------|-----------|-----------|----------------|
 | [[Nubank]] | 100M+ | ~$60B | Scale, LatAm expansion |
 | [[Inter]] | 30M+ | ~$3B | Super-app model |
-| [[C6 Bank]] | 30M+ | ~$11B | [[JPMorgan]] backing |
+| [[C6 Bank]] | 30M+ | ~$11B | [[JPMorgan Chase]] backing |
 | [[BTG Pactual]] digital | Growing | — | Investment bank going retail |
 
 **Why Brazil leads:**
@@ -176,7 +176,7 @@ Most neobanks followed this evolution:
 
 | Bank | Digital offering | Success |
 |------|------------------|---------|
-| [[JPMorgan]] | Chase app, Finn (shut down) | Mixed |
+| [[JPMorgan Chase]] | Chase app, Finn (shut down) | Mixed |
 | [[Goldman Sachs]] | Marcus | Retreating |
 | BBVA | Built neobank tech, sold to PNC | Exited |
 | [[Itaú Unibanco]] | Iti wallet | Moderate |

@@ -123,7 +123,7 @@ Big MAC succeeds TACO as dominant political risk framework for 2026.
 - [[Fed independence]] — Powell pressure
 - [[Fannie Mae]] — mortgage rate manipulation
 - [[Steepener trade]] — rates context
-- [[JPMorgan]] — financials exposure
+- [[JPMorgan Chase]] — financials exposure
 - [[Bank of America]] — financials exposure
 
 ---

@@ -39,7 +39,7 @@ XMAG is the cleanest way to express the "S&P 493" trade — betting the rest of 
 |-------|--------|
 | [[Broadcom]] | 3.97% |
 | [[Eli Lilly]] | 2.25% |
-| [[JPMorgan]] | 2.18% |
+| [[JPMorgan Chase]] | 2.18% |
 | [[Berkshire Hathaway]] | 1.70% |
 | [[Visa]] | 1.47% |
 | [[Exxon Mobil]] | 1.25% |
@@ -125,7 +125,7 @@ Top 10 = 18.8% of assets. Diversified vs Mag 7 concentration.
 - [[Mega-cap tech acronyms]] — what it excludes
 - [[Broadcom]] — top holding (3.97%)
 - [[Eli Lilly]] — #2 holding (2.25%)
-- [[JPMorgan]] — #3 holding, financials rotation
+- [[JPMorgan Chase]] — #3 holding, financials rotation
 - [[Berkshire Hathaway]] — #4 holding
 - [[NVIDIA]] — largest exclusion
 - [[Apple]] — largest exclusion

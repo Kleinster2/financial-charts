@@ -26,7 +26,7 @@ Flying car subsidiary of [[Xpeng]]. International brand: **Aridge**.
 ## IPO — Jan 2026
 
 Planning Hong Kong IPO:
-- **Banks:** [[JPMorgan]], [[Morgan Stanley]]
+- **Banks:** [[JPMorgan Chase]], [[Morgan Stanley]]
 - **Filing:** Confidential filing submitted
 - **Timeline:** Potentially 2026
 - **Status:** Deliberations ongoing, plan may change
@@ -39,5 +39,5 @@ Planning Hong Kong IPO:
 
 - [[Xpeng]] — parent company, partial owner
 - [[China]] — home market, low-altitude economy policy
-- [[JPMorgan]] — IPO bank
+- [[JPMorgan Chase]] — IPO bank
 - [[Morgan Stanley]] — IPO bank

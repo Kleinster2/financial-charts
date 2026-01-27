@@ -126,10 +126,12 @@ See [[Tokenized private shares]] for risks.
 
 ## Related
 
-- [[Tokenized private shares]] — new access method
-- [[Forge Global]] — secondary market
+- [[Private market secondaries]] — secondary transactions, VC SPVs
+- [[Tokenized private shares]] — retail derivative access
+- [[Forge Global]] — secondary platform
 - [[Republic]] — crowdfunding platform
-- [[AngelList]] — syndicate platform
+- [[AngelList]] — syndicate/SPV platform
 - [[OpenAI]] — largest private company
 - [[Anthropic]] — private AI lab
+- [[Thrive Capital]] — SPV syndicator
 

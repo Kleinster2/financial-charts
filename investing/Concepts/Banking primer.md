@@ -373,7 +373,7 @@ Confidence lost → Depositors withdraw → Forced asset sales
 ## Related
 
 - [[Banks]] — sector overview
-- [[JPMorgan]] — largest US bank
+- [[JPMorgan Chase]] — largest US bank
 - [[Monetary policy primer]] — rate environment
 - [[Credit spreads]] — credit conditions
 - [[FDIC]] — deposit insurance

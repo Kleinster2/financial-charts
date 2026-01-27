@@ -98,5 +98,5 @@ Contrast with Singapore's retraining focus.
 
 - [[Singapore Tech]] — country context
 - [[Agentic AI]] — advanced AI capability
-- [[JPMorgan]] — US bank AI adoption
+- [[JPMorgan Chase]] — US bank AI adoption
 - [[Goldman Sachs]] — job cuts approach

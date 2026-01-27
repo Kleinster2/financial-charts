@@ -214,7 +214,7 @@ aliases: [Revolut Ltd]
 ## Related
 
 - [[Nubank]] — LATAM neobank competitor
-- [[JPMorgan]] — traditional bank competitor
+- [[JPMorgan Chase]] — traditional bank competitor
 - [[Stripe]] — fintech peer
 
 ---

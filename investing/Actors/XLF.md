@@ -1,5 +1,4 @@
-# XLF
-
+	
 **Financial Select Sector SPDR ETF** — the US financials benchmark. S&P 500 financial sector in one ticker.
 
 ![[xlf-vs-eufn.png]]

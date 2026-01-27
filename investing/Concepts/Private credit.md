@@ -124,7 +124,7 @@ Threshold reflects maximum allowed, not current exposure. But rising limits sign
 
 | Bank | Private credit activity |
 |------|------------------------|
-| [[JPMorgan]] | Own fund, advisory |
+| [[JPMorgan Chase]] | Own fund, advisory |
 | Societe Generale | Own fund |
 | [[Goldman Sachs]] | Goldman Sachs AM |
 
@@ -286,7 +286,7 @@ Some mid-market lenders still securing conventional covenants. But competitive p
 - [[HPS Investment Partners]] — private credit leader (BlackRock acquiring)
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
-- [[JPMorgan]] — bank entering private credit
+- [[JPMorgan Chase]] — bank entering private credit
 - [[Goldman Sachs]] — Goldman Sachs AM active
 - [[Significant risk transfer]] — banks offloading risk
 - [[Credit markets]] — public bond alternative

@@ -11,7 +11,7 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Role | CEO & Chairman, [[JPMorgan]] |
+| Role | CEO & Chairman, [[JPMorgan Chase]] |
 | Since | 2005 |
 | Assets overseen | $4.4T |
 | Influence | Sets tone for US banking |
@@ -101,7 +101,7 @@ Navigating populist turn while defending bank interests.
 
 ## Related
 
-- [[JPMorgan]] — CEO
+- [[JPMorgan Chase]] — CEO
 - [[Credit card rate cap]] — opposing Trump proposal
 - [[Bank of America]] — competitor (Brian Moynihan)
 - [[Citigroup]] — former employer (fired 1998)

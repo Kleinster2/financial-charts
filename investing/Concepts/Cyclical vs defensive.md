@@ -57,7 +57,7 @@
 | [[Caterpillar]] | Industrials | High |
 | [[Ford]] | Consumer disc. | High |
 | [[Freeport-McMoRan]] | Materials | Very high |
-| [[JPMorgan]] | Financials | Moderate |
+| [[JPMorgan Chase]] | Financials | Moderate |
 
 ---
 

@@ -70,7 +70,7 @@ aliases: []
 | Airbus | Aerospace optimization |
 | BMW Group | Automotive engineering |
 | HSBC | Financial modeling |
-| [[JPMorgan]] | Risk, optimization |
+| [[JPMorgan Chase]] | Risk, optimization |
 
 ---
 
@@ -111,6 +111,6 @@ aliases: []
 
 - [[Honeywell]] — majority owner, spinning off via IPO
 - [[NVIDIA]] — investor
-- [[JPMorgan]] — customer, investor
+- [[JPMorgan Chase]] — customer, investor
 - [[Google]] — competitor (Willow chip)
 - [[IBM]] — competitor (quantum services)

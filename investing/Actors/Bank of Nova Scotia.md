@@ -80,6 +80,6 @@ See [[Venezuela]].
 ## Related
 
 - [[Venezuela]] — exited 2014, sees opportunity from US involvement
-- [[JPMorgan]] — peer (Venezuela positioning)
+- [[JPMorgan Chase]] — peer (Venezuela positioning)
 - [[Citigroup]] — peer (Venezuela exit)
 - [[BBVA]] — peer (only foreign bank in Venezuela)
