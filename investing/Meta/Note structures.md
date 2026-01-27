@@ -156,14 +156,16 @@ Example for Barclays: `BCS, HSBC, LYG, NWG, XLF`
 The benchmark shows sector context; the peers show relative positioning within it.
 
 ```bash
-# Price comparison (normalized)
-curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
+# Price comparison (normalized) — primary= ensures actor gets consistent blue color
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true&primary=AAPL" \
   -o investing/attachments/aapl-price-chart.png
 
 # Fundamentals (absolute values)
 curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome,fcf&start=2006-04-01" \
   -o investing/attachments/aapl-fundamentals.png
 ```
+
+**Primary parameter:** Use `primary=TICKER` to ensure the actor always gets the first color (blue #2962FF). This provides visual consistency — the actor is always blue in its own note.
 
 **Start date:** Pick a date that shows the relevant story — after major dips, IPO, or pivots.
 

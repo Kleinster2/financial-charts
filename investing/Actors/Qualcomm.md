@@ -14,6 +14,11 @@ Qualcomm has:
 - **Snapdragon**: Leading Android SoC, ARM-based
 - **Licensing**: Collects royalties on nearly all smartphones
 
+![[qcom-vs-peers.png]]
+*Qualcomm +120% since 2018 — underperformed [[Semiconductors|SMH]] (+330%). Mobile focus, missed AI data center wave.*
+
+*vs [[Semiconductors|SMH]]*
+
 ---
 
 ## Business segments
@@ -42,6 +47,27 @@ Qualcomm has:
 - NPU (Neural Processing Unit) in mobile chips
 - Edge inference play vs cloud-based AI
 - Acquired Nuvia (Apple silicon veterans) for CPU cores
+
+---
+
+## Financials
+
+### Annual (10 years, fiscal year ends Sep)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $23.6B | $5.7B | $3.81 | $66 |
+| 2017 | $22.3B | $2.5B | $1.65 | $52 |
+| 2018 | $22.7B | -$4.9B | -$3.18 | $72 |
+| 2019 | $24.3B | $4.4B | $3.59 | $77 |
+| 2020 | $23.5B | $5.2B | $4.52 | $121 |
+| 2021 | $33.6B | $9.0B | $7.87 | $129 |
+| 2022 | $44.2B | $12.9B | $11.57 | $112 |
+| 2023 | $35.8B | $7.2B | $6.46 | $113 |
+| 2024 | $39.0B | $10.1B | $9.09 | $169 |
+| 2025 | $44.3B | $11.6B | $10.41 | $158 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Sep). FY2018 loss from tax/legal charges.*
 
 ---
 

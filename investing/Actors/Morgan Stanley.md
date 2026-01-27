@@ -74,7 +74,7 @@ Morgan Stanley exploring [[Significant risk transfer]] tied to portfolio of AI i
 
 **Oracle warning:** Morgan Stanley research flagged [[Oracle]] CDS spreads spiking — banks/lenders likely driving the surge as Oracle has borrowed tens of billions for AI expansion.
 
-**Peers also active:** [[Citigroup]], [[JPMorgan]], [[Goldman Sachs]] all marketed SRT deals in 2025. Global SRT sales expected +11% annually through 2027.
+**Peers also active:** [[Citigroup]], [[JPMorgan Chase]], [[Goldman Sachs]] all marketed SRT deals in 2025. Global SRT sales expected +11% annually through 2027.
 
 ---
 
@@ -116,7 +116,7 @@ Wealth = majority of revenue (different from Goldman).
 |------|----------|
 | [[Goldman Sachs]] | Investment banking, trading |
 | **Morgan Stanley** | Wealth management, trading |
-| [[JPMorgan]] | Full-service scale |
+| [[JPMorgan Chase]] | Full-service scale |
 
 Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 
@@ -154,7 +154,7 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 ## Related
 
 - [[Goldman Sachs]] — peer (investment banking, SRT issuer)
-- [[JPMorgan]] — peer (SRT issuer)
+- [[JPMorgan Chase]] — peer (SRT issuer)
 - [[Citigroup]] — peer (SRT issuer)
 - [[Charles Schwab]] — competitor (retail wealth)
 - [[Meta]] — arranged $27B+ Hyperion financing

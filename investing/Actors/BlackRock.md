@@ -148,7 +148,7 @@ Passive flows drive AI stock demand.
 
 - [[NVIDIA]] — largest holding (via index funds)
 - [[Microsoft]] — largest holding, Aladdin partner
-- [[JPMorgan]] — peer (financial services)
+- [[JPMorgan Chase]] — peer (financial services)
 - [[Vanguard]] — competitor (passive investing)
 - [[Citigroup]] — $80B outsourcing deal
 - [[Global Infrastructure Partners]] — acquired (infrastructure)

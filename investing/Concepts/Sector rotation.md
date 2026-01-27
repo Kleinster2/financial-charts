@@ -259,7 +259,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 - [[Palantir]] — Michael Burry short
 - [[Michael Burry]] — bearish Mag 7 signal (Oct 2025)
 - [[Goldman Sachs]] — sector rotation calls
-- [[JPMorgan]] — rotation beneficiary (financials)
+- [[JPMorgan Chase]] — rotation beneficiary (financials)
 - [[Bank of America]] — rotation beneficiary (financials)
 - [[Ed Yardeni]] — coined "AI fatigue"
 

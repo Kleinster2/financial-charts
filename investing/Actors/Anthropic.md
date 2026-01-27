@@ -12,6 +12,7 @@
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | **300,000+** |
 | Large accounts ($100K+ ARR) | **7x growth** in past year |
+| 2025 loss | **$5.6B** (confirmed Jan 2026) |
 | Burn rate | Dropping to **9% of revenue by 2027** |
 | Break-even target | **2028** |
 | Valuation | **$300-350B** (post Microsoft $5B + NVIDIA $10B) |
@@ -219,7 +220,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-01-20*
+*Updated 2026-01-26*
 
 ## Related
 

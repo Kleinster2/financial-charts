@@ -27,6 +27,25 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ![[tsm-fundamentals.png]]
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS (ADR) | Stock Price |
+|------|---------|------------|-----------|-------------|
+| 2016 | $29.3B | $10.3B | $1.79 | $29 |
+| 2017 | $32.1B | $12.0B | $2.08 | $42 |
+| 2018 | $34.2B | $11.8B | $2.02 | $37 |
+| 2019 | $34.6B | $11.5B | $2.21 | $58 |
+| 2020 | $45.5B | $17.6B | $3.38 | $109 |
+| 2021 | $56.8B | $21.4B | $4.12 | $120 |
+| 2022 | $75.9B | $34.0B | $6.52 | $74 |
+| 2023 | $70.5B | $27.3B | $5.27 | $103 |
+| 2024 | $88.3B | $36.4B | $7.03 | $190 |
+| 2025E | $113.0B | $49.5B | $9.55 | $205 |
+
+*Source: Company filings. Stock price = year-end close (ADR). 2023 dip from smartphone/PC cycle downturn.*
+
 ## Key events
 
 - **US-Taiwan trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for Taiwan. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.

@@ -16,6 +16,11 @@ aliases: [CRM]
 | Position | #1 CRM globally |
 | Customers | 150,000+ |
 
+![[crm-vs-peers.png]]
+*CRM +145% since 2018 — underperformed [[Nasdaq|QQQ]] (+285%) as growth normalized post-pandemic.*
+
+*vs [[Nasdaq|QQQ]]*
+
 ---
 
 ## Product portfolio
@@ -72,6 +77,27 @@ Salesforce betting on "agentic" AI as next platform shift.
 - Proprietary industry models
 
 AI quality depends on data — Salesforce has the data.
+
+---
+
+## Financials
+
+### Annual (10 years, fiscal year ends Jan)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $6.7B | $0.04B | $0.06 | $68 |
+| 2017 | $8.4B | $0.18B | $0.26 | $86 |
+| 2018 | $10.5B | $0.13B | $0.19 | $124 |
+| 2019 | $13.3B | $1.1B | $1.45 | $159 |
+| 2020 | $17.1B | $0.1B | $0.15 | $185 |
+| 2021 | $21.3B | $4.1B | $4.38 | $219 |
+| 2022 | $26.5B | $1.4B | $1.51 | $211 |
+| 2023 | $31.4B | $0.2B | $0.21 | $210 |
+| 2024 | $34.9B | $4.1B | $4.20 | $263 |
+| 2025 | $37.9B | $6.2B | $6.38 | $335 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Jan). Net income volatile due to acquisitions.*
 
 ---
 

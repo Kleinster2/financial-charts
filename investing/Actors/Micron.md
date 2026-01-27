@@ -9,6 +9,11 @@ aliases: [MU]
 
 Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean players, but with different positioning: U.S.-based, less China exposure, behind on HBM but catching up.
 
+![[mu-vs-peers.png]]
+*MU +900% since 2018, outperforming [[Semiconductors|SMH]] (+700%) — memory boom driving 2025-2026 outperformance after years of underperformance.*
+
+*vs [[Semiconductors|SMH]]*
+
 ---
 
 ## Market position
@@ -43,6 +48,27 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 - Behind [[SK Hynix]] (leader) and [[Samsung]]
 - Qualified with NVIDIA — ramping supply
 - Key question: Can they catch up on HBM margins?
+
+---
+
+## Financials
+
+### Annual (10 years, fiscal year ends Aug)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $12.4B | -$0.3B | -$0.27 | $18 |
+| 2017 | $17.1B | $2.7B | $2.32 | $31 |
+| 2018 | $30.4B | $14.1B | $11.51 | $46 |
+| 2019 | $23.4B | $6.3B | $5.51 | $45 |
+| 2020 | $21.4B | $2.7B | $2.42 | $46 |
+| 2021 | $27.7B | $5.9B | $5.14 | $74 |
+| 2022 | $30.8B | $8.7B | $7.75 | $53 |
+| 2023 | $15.5B | -$5.8B | -$5.34 | $70 |
+| 2024 | $25.1B | $0.8B | $0.70 | $89 |
+| 2025 | $37.4B | $8.5B | $7.59 | $108 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Aug). 2023 was memory downturn, 2025 is AI-driven boom.*
 
 ---
 

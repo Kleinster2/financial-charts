@@ -51,6 +51,6 @@ aliases: [Nuveen]
 ## Related
 
 - [[Brookfield]] — Peer (clean energy M&A)
-- [[JPMorgan]] — Peer (energy transition deals)
+- [[JPMorgan Chase]] — Peer (energy transition deals)
 
 *Created 2026-01-15*

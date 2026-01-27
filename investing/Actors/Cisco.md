@@ -19,6 +19,11 @@ Largest networking company, AI pivot:
 | Dividend yield | ~3% |
 | Focus | Enterprise networking |
 
+![[csco-vs-peers.png]]
+*Cisco +85% since 2018 — underperformed [[Nasdaq|QQQ]] (+285%). Legacy networking, lost hyperscaler AI share to Arista.*
+
+*vs [[Nasdaq|QQQ]]*
+
 ---
 
 ## Business segments
@@ -29,6 +34,27 @@ Largest networking company, AI pivot:
 | Security | Firewalls, Duo |
 | Collaboration | Webex |
 | Observability | Splunk (acquired) |
+
+---
+
+## Financials
+
+### Annual (10 years, fiscal year ends Jul)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $49.2B | $10.7B | $2.11 | $31 |
+| 2017 | $48.0B | $9.6B | $1.90 | $32 |
+| 2018 | $49.3B | $0.1B | $0.02 | $43 |
+| 2019 | $51.9B | $11.6B | $2.61 | $53 |
+| 2020 | $49.3B | $11.2B | $2.64 | $47 |
+| 2021 | $49.8B | $10.6B | $2.50 | $55 |
+| 2022 | $51.6B | $11.8B | $2.82 | $45 |
+| 2023 | $57.0B | $12.6B | $3.07 | $52 |
+| 2024 | $53.8B | $10.3B | $2.54 | $47 |
+| 2025 | $56.7B | $10.2B | $2.55 | $58 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Jul). FY2018 NI impacted by TCJA transition.*
 
 ---
 

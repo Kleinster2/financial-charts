@@ -157,5 +157,6 @@ If you can't answer these, stay away.
 - [[Robinhood]] — tokenized shares platform
 - [[Republic]] — SpaceX token issuer
 - [[Private markets]] — broader context
+- [[Private market secondaries]] — actual equity alternative
 - [[Crypto]] — underlying technology
 

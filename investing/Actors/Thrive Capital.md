@@ -115,6 +115,7 @@ Josh founded Oscar alongside Thrive investing.
 - [[Stripe]] — portfolio company
 - [[Databricks]] — portfolio company
 - [[Spotify]] — portfolio company
+- [[Private market secondaries]] — SPV syndication model
 
 ---
 

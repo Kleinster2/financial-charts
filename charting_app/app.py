@@ -2914,6 +2914,7 @@ def get_chart_lw():
         forecast_start: Date to begin dotted forecast line (optional), e.g., 2026-01-01
         labels: Custom legend labels (optional), e.g., SMH_1_44X:SMH 1.44x Lev,NVDA:NVIDIA
         sort_by_last: Sort series by last value, high to low (optional, default false)
+        primary: Primary ticker to assign first color (optional), e.g., AAPL
 
     Returns: PNG image
     """
@@ -2945,6 +2946,7 @@ def get_chart_lw():
     labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
     show_last_value = request.args.get('show_last_value', 'false').lower() == 'true'  # Show last price label on chart
     sort_by_last = request.args.get('sort_by_last', 'false').lower() == 'true'  # Sort series by last value (high to low)
+    primary_ticker = request.args.get('primary', '').strip().upper()  # Primary ticker gets first color (index 0)
 
     # Parse custom labels
     labels = {}
@@ -3027,6 +3029,15 @@ def get_chart_lw():
 
                 sorted_names = sorted(chart_data.keys(), key=get_last_value, reverse=True)
                 chart_data = {n: chart_data[n] for n in sorted_names}
+
+            # Ensure primary ticker series are first (gets color index 0)
+            # For fundamentals, series names include metric (e.g., "AAPL Revenue")
+            if primary_ticker and chart_data:
+                primary_series = [n for n in chart_data.keys() if n.startswith(primary_ticker)]
+                other_series = [n for n in chart_data.keys() if not n.startswith(primary_ticker)]
+                if primary_series:
+                    chart_data = {**{n: chart_data[n] for n in primary_series},
+                                  **{n: chart_data[n] for n in other_series}}
 
             # Update title if not custom
             if title == ', '.join(tickers):
@@ -3148,6 +3159,11 @@ def get_chart_lw():
 
             sorted_tickers = sorted(chart_data.keys(), key=get_sort_value, reverse=True)
             chart_data = {t: chart_data[t] for t in sorted_tickers}
+
+        # Ensure primary ticker is first (gets color index 0)
+        if primary_ticker and primary_ticker in chart_data:
+            chart_data = {primary_ticker: chart_data[primary_ticker],
+                          **{t: v for t, v in chart_data.items() if t != primary_ticker}}
 
         # Prepare config for the HTML template
         chart_config = {

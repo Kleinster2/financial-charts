@@ -137,7 +137,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 | Global investment banks | 9 of top 10 |
 | Asset managers | 7 of top 10 |
 | Insurance | 5 of top 10 |
-| Named customer | [[JPMorgan]] |
+| Named customer | [[JPMorgan Chase]] |
 
 ### Use cases
 
@@ -172,7 +172,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 
 | Customer | Sector | Use case |
 |----------|--------|----------|
-| [[JPMorgan]] | Financial services | Trading, core banking |
+| [[JPMorgan Chase]] | Financial services | Trading, core banking |
 | [[SiriusXM]] | Media (NYC HQ) | 150M subscribers, 100% on Pure |
 | Atlantic Health System | Healthcare (NY/NJ/PA) | Epic EHR, 7 hospitals |
 
@@ -228,7 +228,7 @@ FlashBlade optimized for creative workflows — high throughput for 4K/8K video 
 - Cisco — FlashStack AI Factory partnership
 
 ### Customers
-- [[JPMorgan]] — Wall Street anchor customer
+- [[JPMorgan Chase]] — Wall Street anchor customer
 - [[SiriusXM]] — NYC-based media (150M subscribers)
 - Atlantic Health System — NY/NJ/PA healthcare
 - [[Meta]] — hyperscaler workloads

@@ -73,6 +73,6 @@ See [[Venezuela]].
 ## Related
 
 - [[Venezuela]] — only major foreign bank with presence
-- [[JPMorgan]] — peer (dormant Venezuela office)
+- [[JPMorgan Chase]] — peer (dormant Venezuela office)
 - [[Citigroup]] — peer (exited Venezuela 2021)
 - [[Santander]] — peer (Spanish bank)

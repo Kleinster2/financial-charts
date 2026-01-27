@@ -1,9 +1,18 @@
 ---
-aliases: [JPM]
+aliases:
+  - JPM
+  - JPMorgan
 ---
 #actor #bank #usa
 
 **JPMorgan Chase** — Largest US bank ($4T+ assets). Lead arranger on AI infrastructure financing. Launched $1.5T Security & Resiliency Initiative (Oct 2025) for national security financing.
+
+| Metric | Value |
+|--------|-------|
+| Ticker | **JPM** |
+
+![[jpm-vs-peers.png]]
+*JPM +260% since 2018 — dominant vs [[Bank of America|BAC]] (+110%), [[Wells Fargo|WFC]] (+45%), [[Citigroup|C]] (+45%), [[KBE]] benchmark (+70%). Best-in-class execution.*
 
 ---
 

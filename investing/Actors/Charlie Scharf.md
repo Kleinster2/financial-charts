@@ -101,6 +101,6 @@ Applying Dimon lessons to Wells turnaround.
 
 - [[Wells Fargo]] — CEO
 - [[Jamie Dimon]] — mentor (JPMorgan)
-- [[JPMorgan]] — former employer
+- [[JPMorgan Chase]] — former employer
 - [[Credit card rate cap]] — policy risk
 - [[Bank of America]] — competitor

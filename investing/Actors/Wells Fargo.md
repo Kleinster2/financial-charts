@@ -5,6 +5,13 @@ aliases: [WFC]
 
 **Wells Fargo** — Fourth-largest US bank. Consumer focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
 
+| Metric | Value |
+|--------|-------|
+| Ticker | **WFC** |
+
+![[wfc-vs-peers.png]]
+*WFC +45% since 2018 — lagging [[JPMorgan|JPM]] (+260%), [[Bank of America|BAC]] (+125%), [[Citigroup|C]] (+45%), and [[KBE]] benchmark (+70%). Scandal and asset cap drag visible.*
+
 ---
 
 ## Overview
@@ -16,6 +23,45 @@ aliases: [WFC]
 | Price | ~$89 |
 | Assets | ~$2.0T |
 | CEO | Charlie Scharf |
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | ROE | Stock Price |
+|------|---------|------------|-----|-----|-------------|
+| 2016 | $88B | $22B | $3.99 | 11% | $55 |
+| 2017 | $88B | $22B | $4.10 | 11% | $61 |
+| 2018 | $86B | $22B | $4.28 | 12% | $46 |
+| 2019 | $85B | $20B | $4.05 | 10% | $54 |
+| 2020 | $73B | $3B | $0.41 | 1% | $30 |
+| 2021 | $78B | $22B | $5.32 | 12% | $48 |
+| 2022 | $73B | $13B | $3.14 | 7% | $41 |
+| 2023 | $82B | $19B | $4.83 | 10% | $49 |
+| 2024 | $82B | $20B | $5.37 | 11% | $71 |
+| 2025 | $85B | $20B | $5.50 | 10% | $89 |
+
+*Source: Company filings. 2020 impacted by pandemic reserves. Stock price = year-end close.*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **NIM** | 2.5% | 2.9% | 2.7% | 2.7% |
+| **Efficiency ratio** | 68% | 64% | 63% | 62% |
+| **CET1 ratio** | 10.6% | 11.4% | 11.1% | 11.0% |
+| **NCO rate** | 0.2% | 0.4% | 0.5% | 0.5% |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | $2.0T |
+| Stockholders' equity | $185B |
+| Book value/share | $52 |
+| Tangible book value/share | $44 |
 
 ---
 
@@ -144,7 +190,7 @@ aliases: [WFC]
 ## Related
 
 ### Peers
-- [[JPMorgan]] — #1 US bank
+- [[JPMorgan Chase]] — #1 US bank
 - [[Bank of America]] — #2 US bank
 - [[Citigroup]] — peer
 

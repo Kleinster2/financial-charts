@@ -85,5 +85,5 @@ aliases: [American International Group]
 
 - [[Chubb]] — competitor (commercial)
 - [[Berkshire Hathaway]] — competitor
-- [[JPMorgan]] — peer (2008 crisis context)
+- [[JPMorgan Chase]] — peer (2008 crisis context)
 

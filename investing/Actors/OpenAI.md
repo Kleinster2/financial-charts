@@ -18,10 +18,12 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 | Burn rate | 57% of revenue |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
-| Seeking valuation | **$500B** (would be most valuable private company) |
+| Seeking valuation | **$750-830B** (Jan 2026 round) |
 | Previous valuation | $157B (Oct 2024 round) |
 
 Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable private company.
+
+**CFO argument (Jan 2026):** Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023-2025) alongside 9.5x compute growth. Implies more capital = more revenue.
 
 **Tokenization:** Robinhood launched tokenized OpenAI shares in Europe (June 2025). OpenAI publicly did not endorse the move. See [[Tokenized private shares]].
 
@@ -50,6 +52,19 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 
 **Notable:** Microsoft dominates cap table. Most VCs are passive — Microsoft controls the relationship.
 
+### $50B Middle East round (Jan 2026)
+
+| Detail | Value |
+|--------|-------|
+| Target raise | **$50B+** |
+| Target valuation | $750-830B |
+| Key investors | [[MGX]] (Abu Dhabi), other Gulf SWFs |
+| Status | Sam Altman touring Middle East (Jan 2026) |
+
+**Bull case:** Revenue tracks compute — more capital = more revenue growth.
+
+**Bear case:** Gulf States are "final boss" of fundraising. After this, only public markets remain. Unclear how many more mega-rounds possible before profitability required.
+
 ---
 
 ## Business model
@@ -61,6 +76,41 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 **Consumer device (announced Jan 23, 2026 at Davos):** OpenAI planning first-ever consumer hardware product for H2 2026. Chief global affairs officer Chris Lehane confirmed at Axios House Davos. No details on form factor — could be purpose-built AI companion device.
+
+---
+
+## Advertising (Jan 2026)
+
+**ChatGPT getting ads** — first test in coming weeks.
+
+| Detail | Value |
+|--------|-------|
+| Tiers | Free users, new **$8/mo "Go" tier** |
+| Format | Labeled boxes below chatbot answers |
+| Example | Travel query → hotel ad below response |
+| Key feature | **Conversational ads** — tap to chat with the ad |
+
+**Sam Altman previously called ads "last resort"** — suggests revenue pressure mounting.
+
+**Demis Hassabis response:** "I think those are tells. Actions speak louder than words." Google says no plans for Gemini app ads "at the moment" — will watch OpenAI's experiment.
+
+---
+
+## Competitive pressure
+
+**Gemini gaining share:**
+
+| Metric | Value |
+|--------|-------|
+| Consumer AI usage | **22%** (Jan 2026) |
+| Previous quarter | 13.5% |
+| Growth | +63% QoQ |
+
+ChatGPT still leads but gap shrinking. Google has distribution advantage (Search, Chrome, Android).
+
+**Claude Code threat:** [[Anthropic]]'s Claude Code getting more hype in agentic coding space. OpenAI lacks comparable offering.
+
+**Switching costs:** Low. Memory/context could be moat but easily exportable ("print everything you know about me" → paste into competitor).
 
 ---
 
@@ -150,7 +200,7 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
 ---
 
-*Updated 2026-01-17*
+*Updated 2026-01-26*
 
 ## Key people
 
@@ -195,3 +245,5 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[BYOP]] — on-site power generation pattern
 - [[Power constraints]] — grid gap context
 - [[Cerebras]] — $10B+ compute deal (Jan 2026)
+- [[MGX]] — $50B fundraise target (Jan 2026)
+- [[AI infrastructure financing]] — GW economics (1 GW = $10B funding)

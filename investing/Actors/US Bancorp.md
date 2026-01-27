@@ -110,7 +110,7 @@ Expanded West Coast presence.
 
 - [[PNC Financial]] — peer regional
 - [[Truist]] — peer regional
-- [[JPMorgan]] — competitor
+- [[JPMorgan Chase]] — competitor
 - [[Banks]] — sector
 
 ---

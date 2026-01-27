@@ -93,7 +93,7 @@ Reviewers note the book is "incredibly light on analysis"—it documents what ha
 
 ### Actors
 - [[Federal Reserve]] — provided liquidity
-- [[JPMorgan]] — acquirer of Bear Stearns
+- [[JPMorgan Chase]] — acquirer of Bear Stearns
 - Lehman Brothers — the failure that triggered panic
 
 ### Concepts

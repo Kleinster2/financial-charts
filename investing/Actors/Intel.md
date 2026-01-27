@@ -5,6 +5,15 @@ aliases: [INTC]
 
 **Intel** — U.S. semiconductor giant. IDM (integrated device manufacturer) with both design and fabs.
 
+| Metric | Value |
+|--------|-------|
+| Ticker | **INTC** |
+
+![[intc-vs-peers.png]]
+*Intel -20% since 2018 — massive underperformance vs [[Semiconductors|SMH]] (+330%). Lost process leadership to TSMC, AMD took CPU share.*
+
+*vs [[Semiconductors|SMH]]*
+
 ---
 
 ## Distinction from Intel Foundry Services
@@ -22,6 +31,27 @@ This note covers Intel as a company. For the foundry business specifically, see 
 | [[Intel Foundry Services]] | External foundry business |
 | Mobileye | Automotive (ADAS) |
 | Altera | FPGAs (acquired) |
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $59.4B | $10.3B | $2.12 | $36 |
+| 2017 | $62.8B | $9.6B | $1.99 | $46 |
+| 2018 | $70.8B | $21.1B | $4.48 | $47 |
+| 2019 | $72.0B | $21.0B | $4.71 | $60 |
+| 2020 | $77.9B | $20.9B | $4.94 | $50 |
+| 2021 | $79.0B | $19.9B | $4.86 | $51 |
+| 2022 | $63.1B | $8.0B | $1.94 | $26 |
+| 2023 | $54.2B | $1.7B | $0.40 | $50 |
+| 2024 | $53.1B | -$18.8B | -$4.38 | $20 |
+| 2025E | $53.4B | $0.2B | $0.01 | $47 |
+
+*Source: Company filings. Stock price = year-end close. 2024 massive loss from restructuring charges.*
 
 ---
 

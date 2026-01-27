@@ -26,6 +26,27 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ---
 
+## Financials
+
+### Annual (10 years, fiscal year ends Sep)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $216B | $46B | $2.08 | $29 |
+| 2017 | $229B | $48B | $2.30 | $42 |
+| 2018 | $266B | $59B | $2.98 | $56 |
+| 2019 | $260B | $55B | $2.97 | $56 |
+| 2020 | $275B | $57B | $3.28 | $116 |
+| 2021 | $366B | $95B | $5.61 | $149 |
+| 2022 | $394B | $100B | $6.11 | $138 |
+| 2023 | $383B | $97B | $6.13 | $171 |
+| 2024 | $391B | $94B | $6.08 | $233 |
+| 2025 | $416B | $112B | $7.46 | $230 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Sep). Prices adjusted for 4:1 split (Aug 2020).*
+
+---
+
 ## Key strengths
 
 - **Silicon design**: Best-in-class mobile SoCs, now expanding to Mac (M-series)
@@ -93,6 +114,45 @@ Apple's scale + premium positioning = memory shortage hedge.
 
 ---
 
+## AI devices portfolio (Jan 2026)
+
+Apple developing multiple AI-powered devices. Most ambitious hardware push since Apple Watch.
+
+### AI Pin
+
+| Detail | Value |
+|--------|-------|
+| Size | AirTag-sized |
+| Features | Multiple cameras, speaker, mics, wireless charging |
+| Target launch | **2027** |
+| Production target | **20M units** |
+
+**Context:** [[Humane]] AI Pin sold poorly. Apple betting on execution + ecosystem. 20M units = 10x Meta Rayban's lifetime sales (2M).
+
+### Other AI devices in development
+
+| Device | Status | Notes |
+|--------|--------|-------|
+| **Smart home hub** | Spring 2026 | Display, speakers, **robotic swiveling base** |
+| **Smart glasses** | In development | Competing with [[Meta]] Raybans |
+| **AR glasses** | In development | Full augmented reality |
+| **Enhanced AirPods** | In development | AI sensors |
+| **Security camera** | In development | AI-powered |
+
+### Siri upgrade ("Campos")
+
+Major Siri overhaul underway (codename "Campos"):
+- **Chatbot-style interaction** — conversational turns
+- **On-screen content analysis** — see what you're looking at
+- **Personal data integration** — tap into apps, calendar, files
+- **Universal search** — better web + app results
+
+Reportedly powered by [[Google]] Gemini as backend (see [[Apple-Google AI deal]]).
+
+**Competitive context:** [[Google]] says its AI glasses shipping 2026. Demis Hassabis: "one of the things I'm personally working on."
+
+---
+
 ## Rare earth supply chain
 
 Apple is hedging against China's [[Rare earth leverage]]:
@@ -151,7 +211,7 @@ See [[Short interest]] for interpretation framework.
 | P/E | ~32x |
 | Cash position | ~$160B |
 | Short interest | **0.78%** (Jan 2026) |
-*Updated 2026-01-19*
+*Updated 2026-01-26*
 
 ![[aapl-price-chart.png]]
 
@@ -167,3 +227,8 @@ See [[Short interest]] for interpretation framework.
 - [[Foundry Wars]] — manufacturing context
 - [[N-2 rule]] — design excellence context
 - [[Memory shortage 2025-2026]] — insulated by scale (CFO: "managing costs well")
+- [[Google]] — Gemini powering Siri backend
+- [[Meta]] — AI glasses competitor (Raybans)
+- [[OpenAI]] — competing for AI device market
+- [[Humane]] — AI pin predecessor (failed)
+- [[AI wearables]] — category

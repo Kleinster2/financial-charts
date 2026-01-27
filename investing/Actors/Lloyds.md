@@ -33,6 +33,45 @@ UK's largest retail bank. Processes 30% of all UK payments.
 
 ---
 
+## Financials
+
+### Annual (10 years)
+
+| Year | Net Income | NIM | ROE | Stock Price |
+|------|------------|-----|-----|-------------|
+| 2016 | £2.5B | 2.7% | 5% | $3.3 |
+| 2017 | £3.5B | 2.9% | 7% | $4.3 |
+| 2018 | £4.4B | 2.9% | 9% | $2.8 |
+| 2019 | £2.5B | 2.9% | 5% | $3.3 |
+| 2020 | £0.9B | 2.5% | 2% | $1.8 |
+| 2021 | £5.9B | 2.5% | 11% | $2.5 |
+| 2022 | £5.0B | 2.9% | 10% | $2.3 |
+| 2023 | £5.3B | 3.1% | 10% | $2.4 |
+| 2024 | £5.5B | 3.0% | 11% | $3.4 |
+| 2025E | £4.5B | 3.0% | 9% | $3.5 |
+
+*Source: Company filings (GBP). 2025 impacted by £1.95B motor finance provision. Stock price = year-end close (NYSE ADR).*
+
+### Bank-specific metrics
+
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| **NIM** | 2.9% | 3.1% | 3.0% | 3.0% |
+| **Cost/income ratio** | 52% | 50% | 51% | 53% |
+| **CET1 ratio** | 15.1% | 14.6% | 13.5% | 13.2% |
+| **RoTE target** | 12%+ | 12%+ | 12%+ | 12%+ |
+
+### Balance sheet
+
+| Metric | Value |
+|--------|-------|
+| Total assets | £519B |
+| Loans | ~£450B |
+| Deposits | ~£480B |
+| UK households | ~50% |
+
+---
+
 ## Business focus
 
 Purely UK-focused (unlike HSBC, Barclays):

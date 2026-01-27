@@ -95,5 +95,5 @@ Buffett still active at 94, but succession planned.
 - [[Munich Re]] — reinsurance peer
 - [[Permanent capital]] — original insurance float model
 - [[Insurance]] — sector hub
-- [[JPMorgan]] — peer (financials)
+- [[JPMorgan Chase]] — peer (financials)
 

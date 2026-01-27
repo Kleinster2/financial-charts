@@ -188,7 +188,7 @@ The failure was systemic:
 ### Actors
 - Enron — the company
 - Arthur Andersen — the auditor
-- [[JPMorgan]], Citigroup — banks that enabled financing
+- [[JPMorgan Chase]], Citigroup — banks that enabled financing
 
 ### Concepts
 - Mark-to-market accounting — the technique

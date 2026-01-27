@@ -41,6 +41,23 @@ aliases: [MGX Fund Management]
 
 ---
 
+## OpenAI $50B round (Jan 2026)
+
+**Sam Altman touring Middle East** to raise $50B+ at $750-830B valuation.
+
+| Detail | Value |
+|--------|-------|
+| Target raise | **$50B+** |
+| Valuation | $750-830B |
+| Key meetings | Abu Dhabi state-backed funds |
+| Status | In progress (Jan 2026) |
+
+MGX is among the investors Altman is meeting. This follows their participation in OpenAI's $6.6B round (Oct 2024).
+
+**Context:** OpenAI CFO Sarah Frier published blog arguing revenue tracks compute 1:1 — implying more capital = more revenue. Revenue grew 10x from 2023-2025 alongside 9.5x compute growth.
+
+---
+
 ## Major investments (2025)
 
 | Investment | Amount | Partner |
@@ -135,4 +152,4 @@ $500B AI infrastructure initiative.
 - [Mubadala announcement](https://www.mubadala.com/en/news/abu-dhabi-launches-comprehensive-global-investment-strategy-on-artificial-intelligence)
 - [CNBC on MGX investments](https://www.cnbc.com/2025/10/15/abu-dhabis-mgx-investments-in-trump-crypto-tiktok-openai-.html)
 
-*Created 2026-01-09*
+*Updated 2026-01-26*

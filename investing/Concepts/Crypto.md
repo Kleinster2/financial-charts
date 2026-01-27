@@ -60,7 +60,7 @@ A watershed year for US crypto policy under [[Trump II]]:
 | Timeline | Event | Impact |
 |----------|-------|--------|
 | **Jan 2025** | Paul Atkins appointed SEC Chair | End of "regulation by enforcement" (Gensler out). |
-| **Q2 2025** | **SAB 121 Repealed** | Banks ([[JPMorgan]], etc.) allowed to custody crypto assets. |
+| **Q2 2025** | **SAB 121 Repealed** | Banks ([[JPMorgan Chase]], etc.) allowed to custody crypto assets. |
 | **July 2025** | **[[GENIUS Act]] Passed** | Federal stablecoin framework; legitimizes USDC. |
 | **Q4 2025** | **[[Strategic Bitcoin Reserve]]** | Lummis Bill introduced; US Gov to hold BTC. |
 

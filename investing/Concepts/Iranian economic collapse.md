@@ -353,7 +353,7 @@ Even when SWIFT was restored (2016-2018), major banks refused to touch Iran:
 
 | Bank | Position |
 |------|----------|
-| [[JPMorgan]] | Refused Iran business |
+| [[JPMorgan Chase]] | Refused Iran business |
 | HSBC | Refused |
 | Standard Chartered | Refused |
 | Deutsche Bank | Refused |
@@ -553,7 +553,7 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 - [[China]] — primary oil buyer, economic lifeline
 - [[Russia]] — sanctions parallel, shadow fleet model
 - [[Ayandeh Bank]] — Oct 2025 collapse, 7M depositors trapped
-- [[JPMorgan]] — de-risking example (won't touch Iran)
+- [[JPMorgan Chase]] — de-risking example (won't touch Iran)
 
 ### Banking
 - [[Iranian banking]] — sector overview, systemic insolvency

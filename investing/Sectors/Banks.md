@@ -15,7 +15,7 @@ Overview of the US banking sector.
 
 | Bank | Assets | Market cap | Focus |
 |------|--------|------------|-------|
-| [[JPMorgan]] | ~$4T | ~$700B | Full-service leader |
+| [[JPMorgan Chase]] | ~$4T | ~$700B | Full-service leader |
 | [[Bank of America]] | ~$3.3T | ~$350B | Consumer strength |
 | [[Citigroup]] | ~$2.4T | ~$130B | Global, trading |
 | [[Wells Fargo]] | ~$1.9T | ~$200B | Consumer, recovering |
@@ -118,7 +118,7 @@ Overview of the US banking sector.
 
 | Bank | Bull case | Bear case |
 |------|-----------|-----------|
-| [[JPMorgan]] | Best-in-class, diversified | Premium valuation |
+| [[JPMorgan Chase]] | Best-in-class, diversified | Premium valuation |
 | [[Bank of America]] | Rate leverage, digital | Credit cycle exposure |
 | [[Goldman Sachs]] | IB rebound, trading | Cyclical, Marcus drag |
 | [[Morgan Stanley]] | Wealth stability | Market-sensitive |

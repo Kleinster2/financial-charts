@@ -9,6 +9,11 @@ aliases: [DELL]
 
 ## Why Dell matters for this vault
 
+![[dell-vs-peers.png]]
+*Dell +150% since 2019 re-IPO — underperformed [[Nasdaq|QQQ]] (+200%). AI server demand offset by PC downturn and memory cost squeeze.*
+
+*vs [[Nasdaq|QQQ]]*
+
 Dell is a major memory buyer feeling the squeeze:
 
 | Metric | Value |
@@ -41,6 +46,27 @@ Dell is a major memory buyer feeling the squeeze:
 | **Storage** | High — NAND-based |
 
 Dell is a price taker on memory — no leverage.
+
+---
+
+## Financials
+
+### Annual (10 years, fiscal year ends Jan)
+
+| FY | Revenue | Net Income | EPS | Stock Price |
+|----|---------|------------|-----|-------------|
+| 2016 | $50.9B | $1.6B | $— | — |
+| 2017 | $61.6B | -$1.7B | $— | — |
+| 2018 | $78.7B | -$2.3B | $— | — |
+| 2019 | $90.6B | $2.3B | $— | $46 |
+| 2020 | $92.2B | $4.6B | $6.03 | $45 |
+| 2021 | $94.2B | $3.3B | $4.45 | $86 |
+| 2022 | $101.2B | $5.6B | $7.13 | $53 |
+| 2023 | $102.3B | $2.4B | $3.24 | $40 |
+| 2024 | $88.4B | $3.4B | $4.36 | $79 |
+| 2025 | $95.6B | $4.6B | $6.50 | $115 |
+
+*Source: Company filings. Stock price = fiscal year-end close (Jan). Dell re-IPO'd 2018; pre-2019 EPS not comparable. FY2023-24 dip from PC downturn.*
 
 ---
 

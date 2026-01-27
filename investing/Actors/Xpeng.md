@@ -30,5 +30,5 @@ Positioning core automotive business as profitable foundation for frontier techn
 - [[Xpeng Aeroht]] — flying car subsidiary, IPO candidate
 - [[Zeekr]] — Chinese EV competitor
 - [[China]] — home market, low-altitude economy policy tailwind
-- [[JPMorgan]] — bank on Aeroht IPO
+- [[JPMorgan Chase]] — bank on Aeroht IPO
 - [[Morgan Stanley]] — bank on Aeroht IPO

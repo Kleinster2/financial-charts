@@ -45,7 +45,7 @@ Index of economists, market commentators, and central bankers tracked in the vau
 | Name | Fund | Style |
 |------|------|-------|
 | [[Bill Ackman]] | Pershing Square | Activist, macro hedges |
-| [[Jamie Dimon]] | [[JPMorgan]] | Bank CEO, macro commentary |
+| [[Jamie Dimon]] | [[JPMorgan Chase]] | Bank CEO, macro commentary |
 | [[Soros Fund Management]] | — | Global macro |
 
 ---
