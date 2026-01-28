@@ -70,6 +70,10 @@ Redwire is an integrated space and defense technology company focused on aerospa
 
 Significant dilution: shares outstanding grew from 65M (FY 2023) → 94M (TTM), a **42% increase** largely due to the Edge Autonomy acquisition.
 
+## Price Chart
+
+![[rdw-price.png]]
+
 ## Market Data (Jan 28, 2026)
 
 - **Price:** $14.07 (+28.4%)
