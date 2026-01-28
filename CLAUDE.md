@@ -621,9 +621,29 @@ See [[Note structures]] for the standard daily note template. **Vault activity i
 
 ## Research workflow
 
-1. **Web search** for major news
-2. **X/Twitter lists** for commentary (Chips & Semiconductors, AI Infrastructure, SemiAnalysis)
-3. Add findings to daily note first, extract to actor/concept notes if substantial
+1. **Company filings first** — 10-Ks, 10-Qs, 8-Ks, proxy statements are the authoritative source for financials, headcount, segment data, risk factors. Use SEC EDGAR or investor relations pages.
+2. **Web search** for major news
+3. **X/Twitter lists** for commentary (Chips & Semiconductors, AI Infrastructure, SemiAnalysis)
+4. Add findings to daily note first, extract to actor/concept notes if substantial
+
+### Sourcing standards
+
+**Prefer official sources for hard data:**
+
+| Data type | Primary source | Fallback |
+|-----------|----------------|----------|
+| Revenue, Net Income, EPS | 10-K, 10-Q | Earnings releases |
+| Employee headcount | 10-K (annual), proxy | News articles (flag as estimate) |
+| Segment breakdown | 10-K, 10-Q | Investor presentations |
+| Guidance | Earnings calls, 8-K | News coverage |
+| Ownership/cap table | Proxy (DEF 14A), 13-F | News (flag as estimate) |
+
+**When using non-filing sources**, note it: "~210k employees (company website, Jan 2026)" or "estimated from news reports."
+
+**SEC EDGAR shortcuts:**
+- All filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TICKER&type=10-K`
+- Recent 10-K: search `"[company] 10-K 2024 filetype:pdf"`
+- Earnings call transcripts: Seeking Alpha, Motley Fool, or company IR page
 
 ### Daily news search checklist
 
