@@ -24,7 +24,7 @@ First GPU marketplace (2018).
 
 **Bootstrapped** — minimal outside capital
 
-DRW Venture Capital seed mentioned but company largely self-funded.
+[[DRW]] [[Venture Capital]] seed mentioned but company largely self-funded.
 
 ---
 
@@ -32,7 +32,7 @@ DRW Venture Capital seed mentioned but company largely self-funded.
 
 **Marketplace / sharing economy:**
 - Connects GPU hosts (data centers, professionals) with renters
-- Consumer GPUs enter cloud market for first time
+- [[Consumer]] GPUs enter cloud market for first time
 - Vast takes cut of transactions
 
 **Pricing:**
@@ -46,7 +46,7 @@ DRW Venture Capital seed mentioned but company largely self-funded.
 
 ## Why it's cheap
 
-Consumer hardware is more cost-effective than enterprise:
+[[Consumer]] hardware is more cost-effective than enterprise:
 - Millions of underutilized consumer GPUs globally
 - No enterprise markup
 - Marketplace competition drives prices down
@@ -65,7 +65,7 @@ Consumer hardware is more cost-effective than enterprise:
 ## Milestones
 
 - **2018:** First GPU marketplace
-- **2024:** First to offer AMD GPU support
+- **2024:** First to offer [[AMD]] GPU support
 - **2025:** $2.2M revenue, 40 datacenters, 10K+ GPUs
 
 ---

@@ -14,7 +14,7 @@ aliases: [8 VC, Eight VC]
 | Founded | 2015 |
 | Founder | **Joe Lonsdale** |
 | AUM | ~$5B |
-| Focus | Defense, enterprise, fintech |
+| Focus | [[Defense]], enterprise, fintech |
 | HQ | Austin, Texas |
 
 ---
@@ -26,7 +26,7 @@ aliases: [8 VC, Eight VC]
 | Background | Palantir co-founder |
 | Age | ~40 |
 | Politics | Conservative, Texas move |
-| Network | PayPal Mafia adjacent |
+| Network | [[PayPal]] Mafia adjacent |
 
 ---
 
@@ -47,10 +47,10 @@ aliases: [8 VC, Eight VC]
 
 | Sector | Examples |
 |--------|----------|
-| **Defense tech** | Anduril, Shield AI |
+| **[[Defense]] tech** | Anduril, Shield AI |
 | **Enterprise** | Palantir, Addepar |
 | **Gov tech** | OpenGov |
-| **Fintech** | Various |
+| **[[Fintech]]** | Various |
 
 Pro-defense, pro-government tech orientation.
 

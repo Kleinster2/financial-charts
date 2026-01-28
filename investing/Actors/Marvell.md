@@ -27,8 +27,8 @@ Key AI infrastructure enabler:
 |---------|-----------|----------|
 | Data center | 50%+ | Custom AI, networking |
 | Enterprise | 15% | Switches, storage |
-| Carrier | 15% | 5G infrastructure |
-| Consumer | 10% | Storage controllers |
+| Carrier | 15% | [[5G]] infrastructure |
+| [[Consumer]] | 10% | Storage controllers |
 
 ---
 
@@ -98,7 +98,7 @@ Not competing with NVIDIA — enabling alternatives.
 - Broadcom competition
 - Customer concentration
 - Cyclical semiconductor
-- Consumer headwinds
+- [[Consumer]] headwinds
 
 ---
 

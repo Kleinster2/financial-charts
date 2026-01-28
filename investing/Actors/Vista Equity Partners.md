@@ -24,7 +24,7 @@ aliases: [Vista Equity, Vista]
 | Fact | Detail |
 |------|--------|
 | Net worth | ~$10B |
-| Background | Goldman Sachs tech banker |
+| Background | [[Goldman Sachs]] tech banker |
 | Known for | Morehouse graduation gift ($34M) |
 | Distinction | Wealthiest Black American |
 

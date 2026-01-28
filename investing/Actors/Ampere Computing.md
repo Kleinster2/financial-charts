@@ -24,7 +24,7 @@ aliases: [Ampere]
 | Metric | Value |
 |--------|-------|
 | Focus | ARM-based cloud-native CPUs |
-| Target | Data center/cloud workloads |
+| [[Target]] | Data center/cloud workloads |
 | Customers | Major hyperscalers |
 | Differentiation | High core count, power efficiency |
 

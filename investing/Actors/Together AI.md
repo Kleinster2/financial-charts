@@ -22,24 +22,24 @@ aliases: [Together, TogetherAI]
 
 | Service | Description |
 |---------|-------------|
-| Inference API | Run open-source models (Llama, Mistral, etc.) |
+| Inference API | Run open-source models ([[Llama]], Mistral, etc.) |
 | Training | Fine-tuning, custom model training |
 | Platform | Together Inference Engine |
-| Pricing | Cheaper than OpenAI/Anthropic APIs |
+| Pricing | Cheaper than [[OpenAI]]/[[Anthropic]] APIs |
 
-**Positioning:** The "open-source model cloud" — run Llama, Mixtral, etc. without own infrastructure.
+**Positioning:** The "open-source model cloud" — run [[Llama]], Mixtral, etc. without own infrastructure.
 
 ---
 
 ## Open-source focus
 
-**Unlike OpenAI/Anthropic:**
-- Hosts open-source models (Llama, Mistral, Falcon)
+**Unlike [[OpenAI]]/[[Anthropic]]:**
+- Hosts open-source models ([[Llama]], Mistral, Falcon)
 - Customers own their model weights
 - No vendor lock-in
 - Transparent pricing
 
-**Target:** Companies wanting open-source AI without infra burden.
+**[[Target]]:** Companies wanting open-source AI without infra burden.
 
 ---
 
@@ -96,9 +96,9 @@ aliases: [Together, TogetherAI]
 | Investor | Notes |
 |----------|-------|
 | [[NVIDIA]] | Strategic (GPU supply relationship) |
-| Kleiner Perkins | Lead Series A |
-| Salesforce Ventures | Enterprise AI focus |
-| NEA | Growth investor |
+| [[Kleiner Perkins]] | Lead Series A |
+| [[Salesforce]] Ventures | Enterprise AI focus |
+| [[NEA]] | Growth investor |
 
 **Total raised:** ~$250M+
 
@@ -111,6 +111,6 @@ aliases: [Together, TogetherAI]
 - [[Groq]] — inference competitor
 - [[Nebius]] — GPU cloud competitor
 - [[CoreWeave]], [[Lambda Labs]] — infrastructure peers
-- [[Meta]] — Llama models hosted on Together
+- [[Meta]] — [[Llama]] models hosted on Together
 - [[Mistral]] — models hosted on Together
 

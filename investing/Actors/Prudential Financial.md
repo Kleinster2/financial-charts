@@ -3,7 +3,7 @@ aliases: [PRU, Prudential, Prudential Financial Inc]
 ---
 #actor #finance #insurance #life #assetmanagement #usa #public
 
-**Prudential Financial** — Major US life insurer and asset manager. $1.6T AUM via PGIM. NYSE: PRU. Unlike MetLife, Prudential is *leaning into* the PE-insurance model via Prismic Life (Bermuda reinsurance sidecar with Warburg Pincus). Straddles traditional insurance and alternative asset management.
+**Prudential Financial** — Major US life insurer and asset manager. $1.6T AUM via PGIM. NYSE: PRU. Unlike MetLife, Prudential is *leaning into* the PE-insurance model via Prismic Life (Bermuda reinsurance sidecar with [[Warburg Pincus]]). Straddles traditional insurance and alternative asset management.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [PRU, Prudential, Prudential Financial Inc]
 | Ticker | PRU (NYSE) |
 | Stock price | ~$117 (Dec 2025) |
 | AUM (PGIM) | $1.6T |
-| Segments | PGIM, Retirement Strategies, Group Insurance, Individual Life, International |
+| Segments | PGIM, Retirement Strategies, Group [[Insurance]], Individual Life, International |
 | Products | Annuities (fixed, indexed, variable), life, retirement, asset management |
 
 ---
@@ -31,14 +31,14 @@ aliases: [PRU, Prudential, Prudential Financial Inc]
 - Individual variable and fixed annuities
 - Participates in [[Pension risk transfer]] market
 
-### Group Insurance
+### Group [[Insurance]]
 - Life, disability, supplemental health for employers
 
 ### Individual Life
 - Term, universal, variable life products
 
 ### International
-- Japan (major market), Brazil, other emerging markets
+- [[Japan]] (major market), [[Brazil]], other emerging markets
 
 ---
 
@@ -46,9 +46,9 @@ aliases: [PRU, Prudential, Prudential Financial Inc]
 
 **Prudential is building its own PE-insurance model:**
 
-Prismic Life is a Bermuda-based life and annuity reinsurance platform co-sponsored with Warburg Pincus:
+Prismic Life is a Bermuda-based life and annuity reinsurance platform co-sponsored with [[Warburg Pincus]]:
 - Nov 2025: Third capital raise of $1.3B
-- Expected to allocate ~$15B to assets managed by PGIM and Warburg Pincus
+- Expected to allocate ~$15B to assets managed by PGIM and [[Warburg Pincus]]
 - Effectively a [[Reinsurance sidecars|reinsurance sidecar]] — third-party capital + PGIM asset management
 
 This positions Prudential as both a traditional insurer *and* a PE-style platform — using PGIM's asset management to generate spread on reinsured liabilities, similar to how [[Apollo]] uses [[Athene]].

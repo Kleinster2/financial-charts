@@ -13,7 +13,7 @@ aliases: [SIE, Siemens AG]
 |--------|-------|
 | Market cap | ~$150B |
 | Ticker | SIE (Frankfurt), SIEGY (ADR) |
-| HQ | Munich, Germany |
+| HQ | Munich, [[Germany]] |
 | Employees | ~300,000 |
 
 ---
@@ -58,7 +58,7 @@ See [[CES 2026]] for event context.
 |---------|------|------|
 | Siemens Energy | 2020 | Power generation, wind |
 | Siemens Healthineers | 2018 | Medical tech |
-| Infineon | 1999 | Semiconductors |
+| [[Infineon]] | 1999 | [[Semiconductors]] |
 
 ---
 
@@ -71,9 +71,9 @@ See [[CES 2026]] for event context.
 - European industrial champion
 
 **Bear:**
-- Europe economic exposure
+- [[Europe]] economic exposure
 - Cyclical end markets
-- Competition from Rockwell, ABB
+- Competition from Rockwell, [[ABB]]
 - Conglomerate discount
 
 ---

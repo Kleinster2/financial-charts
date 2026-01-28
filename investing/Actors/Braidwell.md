@@ -46,8 +46,8 @@ aliases: [Braidwell LP]
 
 | Company | Sector | Deal |
 |---------|--------|------|
-| [[Proxima]] | AI drug discovery | $80M seed participant |
-| Caris Life Sciences | Diagnostics | Led $168M round (Apr 2025) |
+| [[Proxima]] | [[AI drug discovery]] | $80M seed participant |
+| Caris [[Life Sciences]] | Diagnostics | Led $168M round (Apr 2025) |
 | Nevro Corp | Medical devices | $200M term loan + warrants |
 | Impulse Dynamics | Therapeutic devices | Dec 2025 |
 | NovoCure | Oncology devices | Public holding |
@@ -60,7 +60,7 @@ aliases: [Braidwell LP]
 
 | Company | Focus |
 |---------|-------|
-| Caris Life Sciences | Precision medicine |
+| Caris [[Life Sciences]] | Precision medicine |
 | NovoCure | Tumor treating fields |
 | Xenon Pharmaceuticals | Neurology |
 | CG Oncology | Bladder cancer |

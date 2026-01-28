@@ -1,5 +1,5 @@
 ---
-aliases: [EU defense industry, European defence industry]
+aliases: [[[EU]] defense industry, European defence industry]
 ---
 #actor #industry #defense #europe
 
@@ -22,17 +22,17 @@ aliases: [EU defense industry, European defence industry]
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Rheinmetall | RHM.DE | Ammunition, vehicles, air defense |
+| [[Rheinmetall]] | RHM.DE | Ammunition, vehicles, air defense |
 | ThyssenKrupp Marine | Private | Submarines |
-| Hensoldt | HAG.DE | Sensors, radar |
+| Hensoldt | HAG.DE | [[Sensors]], radar |
 | Diehl Defence | Private | Missiles, munitions |
 
 ### France
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Thales | HO.PA | Electronics, systems |
-| Dassault Aviation | AM.PA | Rafale fighter, drones |
+| [[Thales]] | HO.PA | Electronics, systems |
+| [[Dassault Aviation]] | AM.PA | Rafale fighter, drones |
 | Safran | SAF.PA | Engines, missiles |
 | Naval Group | State-owned | Submarines, frigates |
 
@@ -40,19 +40,19 @@ aliases: [EU defense industry, European defence industry]
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Leonardo | LDO.MI | Helicopters, electronics, space |
+| [[Leonardo]] | LDO.MI | Helicopters, electronics, space |
 
 ### Sweden
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Saab | SAAB-B.ST | Gripen fighter, submarines, missiles |
+| [[Saab]] | SAAB-B.ST | Gripen fighter, submarines, missiles |
 
 ### Pan-European
 
 | Company | Ownership | Focus |
 |---------|-----------|-------|
-| Airbus Defence | AIR.PA | Military aircraft, space |
+| [[Airbus]] Defence | AIR.PA | Military aircraft, space |
 | MBDA | Joint venture | Missiles |
 | KNDS | Franco-German | Tanks (Leopard, Leclerc) |
 
@@ -83,13 +83,13 @@ See [[European defense spending]].
 
 ## Munitions ramp
 
-EU artillery production expanding massively:
+[[EU]] artillery production expanding massively:
 
-| Metric | Pre-war | Target |
+| Metric | Pre-war | [[Target]] |
 |--------|---------|--------|
-| 155mm shells/year | 230K | **3M** (by decade end) |
+| 155mm shells/year | 230K | **[[3M]]** (by decade end) |
 
-Key beneficiary: **Rheinmetall** (largest European munitions producer).
+Key beneficiary: **[[Rheinmetall]]** (largest European munitions producer).
 
 ---
 
@@ -97,11 +97,11 @@ Key beneficiary: **Rheinmetall** (largest European munitions producer).
 
 | Program | Lead | Partners | Notes |
 |---------|------|----------|-------|
-| FCAS (6th gen fighter) | Dassault | Airbus, Spain | Franco-German-Spanish |
-| Tempest (6th gen) | BAE | Leonardo, Japan | UK-Italy-Japan |
+| FCAS (6th gen fighter) | Dassault | [[Airbus]], Spain | Franco-German-Spanish |
+| Tempest (6th gen) | BAE | [[Leonardo]], [[Japan]] | UK-Italy-[[Japan]] |
 | MGCS (future tank) | KNDS | — | Franco-German |
-| Eurodrone | Airbus | — | Multi-nation |
-| Sky Shield | Rheinmetall | — | European air defense |
+| Eurodrone | [[Airbus]] | — | Multi-nation |
+| Sky Shield | [[Rheinmetall]] | — | European air defense |
 
 ---
 
@@ -121,12 +121,12 @@ Key beneficiary: **Rheinmetall** (largest European munitions producer).
 
 | Theme | Beneficiaries |
 |-------|---------------|
-| Munitions surge | Rheinmetall, Diehl |
-| Air defense | Rheinmetall, MBDA, Thales |
-| Vehicle modernization | KNDS, Rheinmetall |
-| Strategic autonomy | Dassault, Thales, Airbus |
+| Munitions surge | [[Rheinmetall]], Diehl |
+| Air defense | [[Rheinmetall]], MBDA, [[Thales]] |
+| Vehicle modernization | KNDS, [[Rheinmetall]] |
+| Strategic autonomy | Dassault, [[Thales]], [[Airbus]] |
 
-**Rheinmetall** = most direct play on European rearmament.
+**[[Rheinmetall]]** = most direct play on European rearmament.
 
 ---
 

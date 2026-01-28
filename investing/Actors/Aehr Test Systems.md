@@ -13,7 +13,7 @@ SiC testing specialist benefiting from EV adoption:
 
 | Metric | Value |
 |--------|-------|
-| Ticker | AEHR (Nasdaq) |
+| Ticker | AEHR ([[Nasdaq]]) |
 | Market cap | ~$500M |
 | Focus | Wafer-level burn-in |
 | Revenue | ~$100M |
@@ -42,9 +42,9 @@ SiC testing specialist benefiting from EV adoption:
 | SiC player | Status |
 |------------|--------|
 | Wolfspeed | US SiC leader |
-| Infineon | Major player |
-| [[STMicro]] | Tesla supplier |
-| onsemi | Growing |
+| [[Infineon]] | Major player |
+| [[STMicro]] | [[Tesla]] supplier |
+| [[onsemi]] | Growing |
 
 ---
 

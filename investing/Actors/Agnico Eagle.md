@@ -13,7 +13,7 @@ aliases: [Agnico Eagle Mines, AEM]
 |--------|-------|
 | Ticker | AEM (NYSE/TSX) |
 | Market cap | ~$45B |
-| HQ | Toronto, Canada |
+| HQ | Toronto, [[Canada]] |
 | 2025 return | **+100%+** (doubled) |
 
 ---
@@ -41,12 +41,12 @@ aliases: [Agnico Eagle Mines, AEM]
 
 | Region | Assets |
 |--------|--------|
-| Canada | Nunavut, Ontario, Quebec |
-| Mexico | Pinos Altos |
+| [[Canada]] | Nunavut, Ontario, Quebec |
+| [[Mexico]] | Pinos Altos |
 | Finland | Kittila |
-| Australia | Fosterville |
+| [[Australia]] | Fosterville |
 
-**Differentiator:** Concentrated in low-risk jurisdictions (Canada, Finland, Australia). Less geopolitical risk than peers.
+**Differentiator:** Concentrated in low-risk jurisdictions ([[Canada]], Finland, [[Australia]]). Less geopolitical risk than peers.
 
 ---
 
@@ -66,7 +66,7 @@ Lower AISC than Newmont = better margins.
 
 **Combined with Kirkland Lake Gold:**
 - Created third-largest gold producer
-- Added high-grade Fosterville (Australia)
+- Added high-grade Fosterville ([[Australia]])
 - Synergies realized
 - Management continuity
 
@@ -77,7 +77,7 @@ Lower AISC than Newmont = better margins.
 **Bull:**
 - Gold at record highs = record margins
 - Low-cost producer (better margins)
-- Safe jurisdictions (Canada, Finland)
+- Safe jurisdictions ([[Canada]], Finland)
 - Strong management track record
 - Dividend growth
 

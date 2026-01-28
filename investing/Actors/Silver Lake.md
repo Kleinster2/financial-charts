@@ -3,11 +3,11 @@ aliases: []
 ---
 #actor #investor #privateequity #usa #private
 
-**Silver Lake** — Tech-focused PE. $102B AUM. Dell, Airbnb, Twitter investor. Largest tech PE.
+**[[Silver]] Lake** — Tech-focused PE. $102B AUM. Dell, [[Airbnb]], Twitter investor. Largest tech PE.
 
 ---
 
-## Why Silver Lake matters
+## Why [[Silver]] Lake matters
 
 | Metric | Value |
 |--------|-------|
@@ -25,11 +25,11 @@ aliases: []
 |---------|------|--------|
 | **Dell** | Take-private ($24B) | Re-IPO'd (DELL) |
 | **Twitter** | Growth stake | Acquired by Musk |
-| **Airbnb** | Growth | Public (ABNB) |
-| **Alibaba** | Growth | Public (BABA) |
-| **Motorola Solutions** | Buyout | Public (MSI) |
-| **VMware** | Dell carve-out | Acquired by Broadcom |
-| **Expedia** | Growth | Public (EXPE) |
+| **[[Airbnb]]** | Growth | Public (ABNB) |
+| **[[Alibaba]]** | Growth | Public (BABA) |
+| **[[Motorola]] Solutions** | Buyout | Public ([[MSI]]) |
+| **VMware** | Dell carve-out | Acquired by [[Broadcom]] |
+| **[[Expedia]]** | Growth | Public (EXPE) |
 
 ---
 
@@ -49,7 +49,7 @@ aliases: []
 | Aspect | Detail |
 |--------|--------|
 | Deal size | $24.4B |
-| Partners | Michael Dell, Silver Lake |
+| Partners | Michael Dell, [[Silver]] Lake |
 | Outcome | Dell re-IPO'd, massive returns |
 
 Largest tech take-private at the time.

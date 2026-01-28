@@ -3,7 +3,7 @@ aliases: [KUKA AG, KUKA Robotics]
 ---
 #actor #robotics #industrial #germany
 
-**KUKA** — German industrial robotics company. One of the "Big Four" industrial robot makers. Owned by Midea (China) since 2017.
+**KUKA** — German industrial robotics company. One of the "Big Four" industrial robot makers. Owned by Midea ([[China]]) since 2017.
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [KUKA AG, KUKA Robotics]
 
 | Metric | Value |
 |--------|-------|
-| HQ | Augsburg, Germany |
+| HQ | Augsburg, [[Germany]] |
 | Founded | 1898 |
-| Owner | Midea Group (China) |
+| Owner | Midea Group ([[China]]) |
 | Market share | ~10% industrial robotics |
 | Employees | ~15,000 |
 
@@ -57,13 +57,13 @@ aliases: [KUKA AG, KUKA Robotics]
 
 | Industry | Application |
 |----------|-------------|
-| **Automotive** | Welding, assembly, painting |
+| **[[Automotive]]** | Welding, assembly, painting |
 | **Electronics** | PCB assembly, testing |
-| **Consumer goods** | Packaging, palletizing |
-| **Healthcare** | Surgical assistance, lab automation |
+| **[[Consumer]] goods** | Packaging, palletizing |
+| **[[Healthcare]]** | Surgical assistance, lab automation |
 | **Logistics** | Via Swisslog subsidiary |
 
-**Automotive strength:** Major supplier to German automakers (VW, BMW, Mercedes).
+**[[Automotive]] strength:** Major supplier to German automakers (VW, [[BMW]], Mercedes).
 
 ---
 
@@ -73,11 +73,11 @@ aliases: [KUKA AG, KUKA Robotics]
 |------|-------|
 | 2016 | Midea acquires 94.5% stake |
 | 2017 | Full control |
-| 2022+ | China market integration |
+| 2022+ | [[China]] market integration |
 
 **Strategic implications:**
 - Access to Chinese manufacturing market
-- Technology transfer concerns (EU, US)
+- Technology transfer concerns ([[EU]], US)
 - German operations continue
 
 ---
@@ -88,7 +88,7 @@ aliases: [KUKA AG, KUKA Robotics]
 |---------|--------------|----------|
 | [[Fanuc]] | ~20% | CNC, reliability |
 | [[ABB]] | ~15% | Process automation |
-| **KUKA** | ~10% | Automotive, software |
+| **KUKA** | ~10% | [[Automotive]], software |
 | Yaskawa | ~10% | Servo motors |
 
 ---
@@ -97,7 +97,7 @@ aliases: [KUKA AG, KUKA Robotics]
 
 | Focus | Products |
 |-------|----------|
-| Healthcare | Pharmacy automation |
+| [[Healthcare]] | Pharmacy automation |
 | Warehouse | AutoStore, AMRs |
 | E-commerce | Fulfillment solutions |
 
@@ -112,13 +112,13 @@ Major customers: Hospitals, retailers, logistics providers.
 - Strong automotive relationships
 - Swisslog logistics growth
 - iiQKA.OS2 modernization
-- China market access
+- [[China]] market access
 
 **Bear:**
 - Private (Midea-owned) — no direct investment
-- Automotive cyclicality
+- [[Automotive]] cyclicality
 - Technology transfer concerns
-- Competition from China robotics
+- Competition from [[China]] robotics
 - Midea strategic priorities unclear
 
 ---

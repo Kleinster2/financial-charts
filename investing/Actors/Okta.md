@@ -11,7 +11,7 @@ aliases: [OKTA]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | OKTA (Nasdaq) |
+| Ticker | OKTA ([[Nasdaq]]) |
 | Revenue | **$2.84B** (LTM) |
 | FY26 guidance | $2.91B (+11%) |
 | Subscription % | **98%** |
@@ -34,7 +34,7 @@ aliases: [OKTA]
 ## AI agent identity opportunity
 
 **CEO McKinnon (2025):**
-> "The opportunity to be the access and identity layer for AI agents and enterprises is probably bigger than the customer and workforce identity businesses."
+> "The opportunity to be the access and identity layer for [[AI agents]] and enterprises is probably bigger than the customer and workforce identity businesses."
 
 **Oktane 2025 announcements:**
 - Identity Security Fabric (ISF)
@@ -69,7 +69,7 @@ aliases: [OKTA]
 
 | Competitor | Focus |
 |------------|-------|
-| Microsoft Entra | Enterprise identity |
+| [[Microsoft]] Entra | Enterprise identity |
 | CrowdStrike | Endpoint + identity |
 | Ping Identity | Workforce IAM |
 | Auth0 (Okta) | Developer identity |
@@ -86,7 +86,7 @@ aliases: [OKTA]
 
 **Bear:**
 - Growth slowing to 11%
-- Microsoft Entra competition
+- [[Microsoft]] Entra competition
 - Past security incidents
 - Valuation vs growth
 
@@ -97,7 +97,7 @@ aliases: [OKTA]
 | Metric | Value |
 |--------|-------|
 | Ticker | OKTA |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$2.8B |
 | Focus | Identity/IAM |
 

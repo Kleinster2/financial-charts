@@ -3,7 +3,7 @@ aliases: [Bharat Heavy Electricals, BHEL.NS]
 ---
 #actor #india #power #industrial #public
 
-**BHEL** — Bharat Heavy Electricals. India's largest power equipment manufacturer. At risk from China competition.
+**BHEL** — Bharat Heavy Electricals. India's largest power equipment manufacturer. At risk from [[China]] competition.
 
 ---
 
@@ -25,23 +25,23 @@ aliases: [Bharat Heavy Electricals, BHEL.NS]
 | Power | Boilers, turbines, generators |
 | Industry | Heavy equipment, castings |
 | Transmission | Transformers, switchgear |
-| Defense | Some diversification |
+| [[Defense]] | Some diversification |
 
 **Dominance:** Built ~50% of India's power generation capacity historically.
 
 ---
 
-## China competition threat
+## [[China]] competition threat
 
 ### Jan 8, 2026 — Stock crash
 
 | Event | Impact |
 |-------|--------|
-| India plans to lift China contract restrictions | BHEL **-10.5%** |
+| India plans to lift [[China]] contract restrictions | BHEL **-10.5%** |
 | Chinese equipment cheaper | Price pressure |
 | 307 GW thermal target | India needs capacity fast |
 
-### Why China wins
+### Why [[China]] wins
 
 | Factor | BHEL | Chinese competitors |
 |--------|------|---------------------|
@@ -59,7 +59,7 @@ aliases: [Bharat Heavy Electricals, BHEL.NS]
 - Government orders secured
 - Infrastructure push benefits
 
-**Bear (if China opens):**
+**Bear (if [[China]] opens):**
 - Direct price competition
 - Market share loss
 - Margin compression
@@ -71,7 +71,7 @@ aliases: [Bharat Heavy Electricals, BHEL.NS]
 
 - [[India]] — home market
 - [[India-China relations]] — restriction changes
-- [[Larsen & Toubro]] — peer (also hit by China news)
+- [[Larsen & Toubro]] — peer (also hit by [[China]] news)
 - [[Power]] — sector context
 
 ---

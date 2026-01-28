@@ -28,18 +28,18 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 **Relevant policy wins:**
 - AI Diffusion framework canceled (benefited NVIDIA)
-- H200 approved for China export
-- David Sacks (ally) as AI/crypto czar
+- H200 approved for [[China]] export
+- [[David Sacks]] (ally) as AI/crypto czar
 - **Antitrust:** Advocates for deregulation; seen as a beneficiary of [[Lina Khan]]'s departure from FTC.
 
-**Venezuela Role (Post-Maduro Jan 2026):**
+**[[Venezuela]] Role (Post-Maduro Jan 2026):**
 - **Geopolitical:** Strongly anti-Maduro; likely to advocate for digital freedom/connectivity.
-- **Starlink:** Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding Venezuela, especially in remote areas or as an alternative to state-controlled telecom.
+- **Starlink:** Potential role for [[SpaceX]]'s Starlink in providing internet infrastructure to a rebuilding [[Venezuela]], especially in remote areas or as an alternative to state-controlled telecom.
 
-**Iran (Jan 12, 2026):**
+**[[Iran]] (Jan 12, 2026):**
 - Trump said he'll call Musk about deploying [[Starlink]] to restore internet amid protests
 - "He's very good at that kind of thing"
-- Iran jamming Starlink with military-grade systems
+- [[Iran]] jamming Starlink with military-grade systems
 - Echoes 2022 Mahsa Amini protests offer
 
 ---
@@ -48,9 +48,9 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 | Person | Connection | Relevance |
 |--------|------------|-----------|
-| **David Sacks** | Close ally, [[Craft Ventures]] | AI czar, Groq investor |
-| **Chamath Palihapitiya** | Social Capital | Groq investor ($4B payout) |
-| **Peter Thiel** | PayPal mafia | Palantir, Founders Fund |
+| **[[David Sacks]]** | Close ally, [[Craft Ventures]] | AI czar, [[Groq]] investor |
+| **[[Chamath Palihapitiya]]** | Social Capital | [[Groq]] investor ($4B payout) |
+| **[[Peter Thiel]]** | [[PayPal mafia]] | [[Palantir]], [[Founders Fund]] |
 
 ---
 
@@ -60,7 +60,7 @@ See [[xAI]] for details.
 
 - **Colossus (Memphis):** 100k H100s, expanding to 1M+ GPUs
 - **Colossus 2 (Tennessee):** 400MW near-term, 2GW path
-- **Investors:** Saudi PIF, UAE MGX, Blackstone, AMD, NVIDIA
+- **Investors:** [[Saudi PIF]], UAE [[MGX]], [[Blackstone]], [[AMD]], NVIDIA
 
 ---
 
@@ -81,7 +81,7 @@ See [[xAI]] for details.
 - Attention span across too many entities
 - Political volatility
 - Tesla valuation depends on FSD/robotaxi (chip-intensive)
-- xAI competing against OpenAI, Anthropic, Google with less capital
+- xAI competing against [[OpenAI]], [[Anthropic]], [[Google]] with less capital
 
 ---
 
@@ -90,7 +90,7 @@ See [[xAI]] for details.
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$400B+ (fluctuates) |
-| Companies | Tesla, xAI, SpaceX, Neuralink, Boring Co |
+| Companies | Tesla, xAI, SpaceX, [[Neuralink]], Boring Co |
 | GPU demand | 100k+ current, 1M+ planned |
 | Political role | DOGE co-lead |
 
@@ -106,6 +106,6 @@ See [[xAI]] for details.
 - [[DOGE]] — co-founder (departed Dec 2025)
 - [[Samsung]] — potential anchor customer (Taylor fab)
 - [[NVIDIA]] — customer (massive GPU buyer)
-- [[Craft Ventures]] — ally (David Sacks)
+- [[Craft Ventures]] — ally ([[David Sacks]])
 - [[Short TSMC long Korea]] — thesis context (Samsung anchor)
 - [[Export controls]] — policy influence (DOGE role)

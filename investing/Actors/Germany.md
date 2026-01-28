@@ -1,6 +1,6 @@
 #actor #country #europe #industrial #defense
 
-**Germany** — Europe's largest economy. Industrial powerhouse facing energy crisis, China exposure, and defense transformation.
+**Germany** — Europe's largest economy. Industrial powerhouse facing energy crisis, [[China]] exposure, and defense transformation.
 
 ---
 
@@ -38,10 +38,10 @@ Merz overhauled the constitutional debt brake, enabling ~€1T in borrowing thro
 | Component | Amount |
 |-----------|--------|
 | Infrastructure fund | €500B over 12 years |
-| Defense exemption | Unlimited (above 1% GDP) |
+| [[Defense]] exemption | Unlimited (above 1% GDP) |
 | Total borrowing | ~€850B by 2029 |
 
-**Skeptic view:** Deutsche Bank sees no significant growth improvement — funds leaking to social spending, subsidies. Debt/GDP could hit 85% by 2035 without commensurate GDP gains.
+**Skeptic view:** [[Deutsche Bank]] sees no significant growth improvement — funds leaking to social spending, subsidies. Debt/GDP could hit 85% by 2035 without commensurate GDP gains.
 
 See [[Schuldenbremse reform]] for full analysis.
 
@@ -49,16 +49,16 @@ See [[Schuldenbremse reform]] for full analysis.
 
 ## Key sectors
 
-### Automotive
+### [[Automotive]]
 
 | Company | Market cap | EV challenge |
 |---------|------------|--------------|
-| Volkswagen | ~$55B | ID series struggling vs [[BYD]] |
-| BMW | ~$65B | Strong EV transition |
-| Mercedes | ~$70B | Luxury EV push |
+| [[Volkswagen]] | ~$55B | ID series struggling vs [[BYD]] |
+| [[BMW]] | ~$65B | Strong [[EV transition]] |
+| Mercedes | ~$70B | [[Luxury]] EV push |
 | Porsche | ~$45B | Premium positioning |
 
-**China problem:** German autos = 30%+ China revenue. [[BYD]] eating share.
+**[[China]] problem:** German autos = 30%+ [[China]] revenue. [[BYD]] eating share.
 
 ### Industrials
 
@@ -69,7 +69,7 @@ See [[Schuldenbremse reform]] for full analysis.
 | BASF | Chemicals |
 | Thyssenkrupp | Steel, defense |
 
-### Semiconductors
+### [[Semiconductors]]
 
 | Company | Focus |
 |---------|-------|
@@ -78,13 +78,13 @@ See [[Schuldenbremse reform]] for full analysis.
 | [[TSMC]] Dresden | Mature nodes (building) |
 | Bosch | Auto chips |
 
-### Defense
+### [[Defense]]
 
 | Company | Focus |
 |---------|-------|
 | [[Rheinmetall]] | Armor, ammunition (+400% since 2022) |
-| Hensoldt | Sensors, radar |
-| KNDS | Tanks (JV with France) |
+| Hensoldt | [[Sensors]], radar |
+| KNDS | Tanks (JV with [[France]]) |
 
 ### Space
 
@@ -107,7 +107,7 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 | Challenge | Impact |
 |-----------|--------|
 | **Energy costs** | 2-3x US industrial power prices |
-| **China exposure** | Autos, machinery dependent on China market |
+| **[[China]] exposure** | Autos, machinery dependent on [[China]] market |
 | **Demographics** | Aging workforce, immigration debates |
 | **Underinvestment** | Infrastructure, digitization lagging |
 | **Bureaucracy** | Slow permitting, regulation |
@@ -116,11 +116,11 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 
 ## Energy crisis
 
-Russia gas cutoff (2022) exposed dependency.
+[[Russia]] gas cutoff (2022) exposed dependency.
 
 | Before | After |
 |--------|-------|
-| 55% gas from Russia | Near zero |
+| 55% gas from [[Russia]] | Near zero |
 | Cheap industrial energy | 2-3x higher prices |
 | Nord Stream | Sabotaged |
 | Nuclear | Shut down (policy) |
@@ -133,9 +133,9 @@ Russia gas cutoff (2022) exposed dependency.
 
 | Theme | Expression |
 |-------|------------|
-| Defense rearmament | [[Rheinmetall]], Hensoldt |
+| [[Defense]] rearmament | [[Rheinmetall]], Hensoldt |
 | Semiconductor push | [[Infineon]], equipment suppliers |
-| Auto transition | BMW (winner?), VW (struggling) |
+| Auto transition | [[BMW]] (winner?), VW (struggling) |
 | Industrial automation | [[Siemens]] |
 | Space-defense | [[Isar Aerospace]], OHB (€35B by 2030) |
 
@@ -146,14 +146,14 @@ Russia gas cutoff (2022) exposed dependency.
 | Company | Ticker | Sector |
 |---------|--------|--------|
 | [[Siemens]] | SIE.DE | Industrial |
-| [[Infineon]] | IFX.DE | Semiconductors |
-| [[Rheinmetall]] | RHM.DE | Defense |
+| [[Infineon]] | IFX.DE | [[Semiconductors]] |
+| [[Rheinmetall]] | RHM.DE | [[Defense]] |
 | [[SAP]] | SAP.DE | Software |
-| Volkswagen | VOW.DE | Automotive |
-| BMW | BMW.DE | Automotive |
-| Mercedes | MBG.DE | Automotive |
+| [[Volkswagen]] | VOW.DE | [[Automotive]] |
+| [[BMW]] | [[BMW]].DE | [[Automotive]] |
+| Mercedes | MBG.DE | [[Automotive]] |
 | BASF | BAS.DE | Chemicals |
-| Deutsche Telekom | DTE.DE | Telecom |
+| [[Deutsche Telekom]] | DTE.DE | [[Telecom]] |
 
 ---
 

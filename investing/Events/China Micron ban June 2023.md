@@ -1,6 +1,6 @@
 #event #micron #china #geopolitics #2023
 
-**China Micron ban June 2023** — China bans Micron chips from critical infrastructure. Retaliation for US export controls.
+**[[China]] Micron ban June 2023** — [[China]] bans Micron chips from critical infrastructure. Retaliation for US export controls.
 
 ---
 
@@ -9,8 +9,8 @@
 | Attribute | Value |
 |-----------|-------|
 | Date | May 21, 2023 |
-| Actor | China Cyberspace Administration |
-| Target | [[Micron]] |
+| Actor | [[China]] Cyberspace Administration |
+| [[Target]] | [[Micron]] |
 | Action | Failed security review |
 | Scope | Critical infrastructure operators |
 
@@ -42,7 +42,7 @@
 
 | Effect | Magnitude |
 |--------|-----------|
-| China revenue | ~25% of sales at risk |
+| [[China]] revenue | ~25% of sales at risk |
 | Actual impact | ~10% revenue affected |
 | Stock reaction | Initial drop, recovered |
 | Mitigation | Redirected capacity elsewhere |
@@ -63,10 +63,10 @@
 
 | Theme | Expression |
 |-------|------------|
-| US-China decoupling | Accelerating |
+| US-[[China]] decoupling | Accelerating |
 | Supply chain risk | Geographic diversification |
 | Memory market | Korea duopoly strengthened |
-| China retaliation | More actions possible |
+| [[China]] retaliation | More actions possible |
 
 ---
 

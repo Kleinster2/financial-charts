@@ -3,7 +3,7 @@ aliases: [Lisuan GPU, G100]
 ---
 #actor #gpu #china #fabless #gaming
 
-**Lisuan** — Chinese GPU startup targeting consumer gaming. G100 is China's first "real" gaming GPU (Dec 2025). Claims RTX 4060 rival, but early benchmarks show GTX 660 Ti performance.
+**Lisuan** — Chinese GPU startup targeting consumer gaming. G100 is China's first "real" gaming GPU (Dec 2025). Claims [[RTX]] 4060 rival, but early benchmarks show GTX 660 Ti performance.
 
 > **Key insight:** Even if G100 performs like a 2012 card, creating a functional gaming GPU architecture from scratch on domestic 6nm is a "zero to one" breakthrough. Software can improve; the hard part is done.
 
@@ -29,12 +29,12 @@ First Chinese company seriously targeting consumer gaming GPUs:
 
 | Spec (claimed) | Value |
 |----------------|-------|
-| Process | 6nm (domestic, not TSMC) |
+| Process | 6nm (domestic, not [[TSMC]]) |
 | FP32 | 24 TFLOPS |
-| Target | RTX 4060 competitor |
+| [[Target]] | [[RTX]] 4060 competitor |
 | Features | DirectX 12, Windows on ARM |
 
-**Benchmark reality (alleged Geekbench):**
+**[[Benchmark]] reality (alleged Geekbench):**
 
 | Spec (leaked) | Value |
 |---------------|-------|
@@ -44,7 +44,7 @@ First Chinese company seriously targeting consumer gaming GPUs:
 | OpenCL score | 15,524 |
 | Equivalent | GeForce GTX 660 Ti (2012) |
 
-**The gap:** Claims RTX 4060, benchmarks like GTX 660 Ti. Likely engineering sample / driver issues, but underlying silicon may be weaker than claimed.
+**The gap:** Claims [[RTX]] 4060, benchmarks like GTX 660 Ti. Likely engineering sample / driver issues, but underlying silicon may be weaker than claimed.
 
 ---
 
@@ -57,8 +57,8 @@ First Chinese company seriously targeting consumer gaming GPUs:
 | Boots Windows | ✓ |
 | Runs DirectX 12 | ✓ |
 | Functional API support | ✓ |
-| Consumer-ready | ✓ (shipping) |
-| Domestic supply chain | ✓ (no TSMC) |
+| [[Consumer]]-ready | ✓ (shipping) |
+| Domestic supply chain | ✓ (no [[TSMC]]) |
 
 **What can improve with software:**
 - Drivers
@@ -105,7 +105,7 @@ Unlike Western startups (3dfx, etc.), Lisuan has guaranteed demand to fund itera
 |----|------------------|---------------------|
 | [[NVIDIA]] | Domestic market access | Technology gap (10+ years) |
 | [[AMD]] | Captive market | Performance, ecosystem |
-| [[Moore Threads]] | Gaming focus | Less mature |
+| [[Moore Threads]] | [[Gaming]] focus | Less mature |
 | [[Intel]] Arc | China market | Technology, drivers |
 
 ---
@@ -117,7 +117,7 @@ Unlike Western startups (3dfx, etc.), Lisuan has guaranteed demand to fund itera
 **What it signals:**
 - China GPU ecosystem maturing
 - Export controls driving domestic innovation
-- Gaming = harder than AI inference (needs drivers, compatibility)
+- [[Gaming]] = harder than AI inference (needs drivers, compatibility)
 - "Zero to one" done; "one to N" in progress
 
 **Timeline:** Competitive mid-range GPU? 2-5 years. Flagship? 5-10 years. Maybe never for cutting edge.

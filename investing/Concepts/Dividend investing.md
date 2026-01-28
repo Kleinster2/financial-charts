@@ -35,8 +35,8 @@
 
 | Example Kings | Streak |
 |---------------|--------|
-| Coca-Cola | 60+ years |
-| Johnson & Johnson | 60+ years |
+| [[Coca-Cola]] | 60+ years |
+| [[Johnson & Johnson]] | 60+ years |
 | Procter & Gamble | 65+ years |
 
 ---
@@ -55,10 +55,10 @@
 
 | Sector | Typical yield |
 |--------|---------------|
-| REITs | 4-7% |
+| [[REITs]] | 4-7% |
 | Utilities | 3-5% |
-| Telecom | 3-5% |
-| Consumer staples | 2-4% |
+| [[Telecom]] | 3-5% |
+| [[Consumer]] staples | 2-4% |
 | Financials | 2-4% |
 | Tech | 0-2% |
 
@@ -66,7 +66,7 @@
 
 ## Dividend traps
 
-| Signal | Red flag |
+| [[Signal]] | Red flag |
 |--------|----------|
 | Yield >8% | Likely unsustainable |
 | Price declining | Market sees cut coming |
@@ -83,7 +83,7 @@
 |------|---------------|
 | Qualified dividends | Long-term cap gains rate |
 | Non-qualified | Ordinary income |
-| REITs | Mostly ordinary income |
+| [[REITs]] | Mostly ordinary income |
 | MLPs | Complex (K-1) |
 
 ---

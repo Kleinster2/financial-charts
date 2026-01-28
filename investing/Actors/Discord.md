@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #company #socialmedia #gaming #usa #private
 
-**Discord** — Community platform. 200M+ MAUs. Gaming roots, expanding. ~$15B valuation.
+**Discord** — Community platform. 200M+ MAUs. [[Gaming]] roots, expanding. ~$15B valuation.
 
 ---
 
@@ -49,8 +49,8 @@ No ads (differentiator).
 
 | Segment | Presence |
 |---------|----------|
-| Gaming | Origin, still core |
-| Crypto/Web3 | Major communities |
+| [[Gaming]] | Origin, still core |
+| [[Crypto]]/Web3 | Major communities |
 | Education | Study groups |
 | Creators | Fan communities |
 | Brands | Customer communities |
@@ -63,7 +63,7 @@ Expanded beyond gaming.
 
 | Year | Suitor | Outcome |
 |------|--------|---------|
-| 2021 | Microsoft | Rejected $12B offer |
+| 2021 | [[Microsoft]] | Rejected $12B offer |
 | 2022 | Various | IPO speculation |
 
 Chose independence.
@@ -77,7 +77,7 @@ Chose independence.
 | Slack | Work communication |
 | Teams | Enterprise |
 | Telegram | Communities |
-| Reddit | Async communities |
+| [[Reddit]] | Async communities |
 
 Differentiated by real-time + voice.
 

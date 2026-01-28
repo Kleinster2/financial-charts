@@ -57,7 +57,7 @@ The bottleneck is moving data, not computing.
 
 GPUs were designed for:
 - Massive parallelism
-- External memory access (HBM)
+- External memory access ([[HBM]])
 - Flexibility across workloads
 
 Decode is the opposite:
@@ -66,7 +66,7 @@ Decode is the opposite:
 - Bandwidth-dominated
 - Deterministic
 
-**On-chip vs off-chip**: GPUs access external HBM. Decode-optimized chips use on-chip SRAM — orders of magnitude faster for the access patterns decode requires.
+**On-chip vs off-chip**: GPUs access external [[HBM]]. Decode-optimized chips use on-chip SRAM — orders of magnitude faster for the access patterns decode requires.
 
 ---
 
@@ -74,7 +74,7 @@ Decode is the opposite:
 
 [[Groq]] and [[Cerebras]] made the same bet:
 
-| Decision | Trade-off | Decode benefit |
+| Decision | [[Trade]]-off | Decode benefit |
 |----------|-----------|----------------|
 | Large on-chip SRAM | Expensive in die area | Ultra-low latency |
 | Deterministic execution | Less flexibility | No scheduling overhead |
@@ -142,7 +142,7 @@ Gavin Baker's framework:
 | Variant | Memory | Optimized for |
 |---------|--------|---------------|
 | **Rubin CPX** | GDDR (high capacity, lower bandwidth) | Massive context prefill |
-| **Rubin** | HBM (balanced) | Training + batched inference |
+| **Rubin** | [[HBM]] (balanced) | Training + batched inference |
 | **Rubin SRAM** | SRAM (Groq-derived) | Low-latency agentic decode |
 
 **Mix and match**: Optimal performance/cost for each workload.
@@ -189,7 +189,7 @@ If decode costs fall materially:
 
 **Critical nuance**: SRAM wins on latency, not cost efficiency.
 
-| Metric | GPU (HBM) | SRAM (Groq/Cerebras) |
+| Metric | GPU ([[HBM]]) | SRAM (Groq/Cerebras) |
 |--------|-----------|----------------------|
 | Throughput/$ | Better | Worse |
 | Latency/user | Worse | Much better |
@@ -232,18 +232,18 @@ Gavin Baker's prediction:
 | Player | Why survives |
 |--------|--------------|
 | NVIDIA | 3 Rubin variants + ecosystem |
-| Google TPU | Vertical integration |
-| Amazon Trainium | Vertical integration |
+| [[Google]] TPU | Vertical integration |
+| [[Amazon]] Trainium | Vertical integration |
 | [[Cerebras]] | Unique niche (wafer-scale) |
 
 **At risk:**
 
 | Player | Problem |
 |--------|---------|
-| Meta ASIC | "Surprisingly weak" |
-| Microsoft ASIC | Can't compete with Rubin |
+| [[Meta]] ASIC | "Surprisingly weak" |
+| [[Microsoft]] ASIC | Can't compete with Rubin |
 | Most startups | Ecosystem gravity |
-| Intel/[[SambaNova]] | Late, weaker |
+| [[Intel]]/[[SambaNova]] | Late, weaker |
 
 **The dynamic**: "Consolidation by ecosystem gravity, not brute force."
 
@@ -267,4 +267,4 @@ The 3 Rubin variants + networking chips make standalone competition nearly impos
 - [[Cerebras]] — Last independent SRAM player
 - [[NVIDIA]] — Platform consolidator
 - [[Agentic AI]] — Decode-heavy use case
-- [[SambaNova]] — Acquired by Intel
+- [[SambaNova]] — Acquired by [[Intel]]

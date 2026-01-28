@@ -58,7 +58,7 @@
 
 ---
 
-## Pillar 3: Automotive business declining
+## Pillar 3: [[Automotive]] business declining
 
 **2025: First annual delivery decline**
 
@@ -106,12 +106,12 @@
 
 **Musk's attention span:**
 - Tesla (CEO)
-- SpaceX (CEO)
-- xAI (CEO)
+- [[SpaceX]] (CEO)
+- [[xAI]] (CEO)
 - X/Twitter (owner)
-- DOGE (government role)
-- The Boring Company
-- Neuralink
+- [[DOGE]] (government role)
+- The [[Boring Company]]
+- [[Neuralink]]
 
 **Political polarization:**
 - Boycotts from progressive consumers
@@ -142,7 +142,7 @@
 **Near-term (Q1-Q2 2026):**
 - Q1 delivery report (April)
 - Cybercab production start (April target)
-- FSD Europe supervised launch
+- FSD [[Europe]] supervised launch
 
 **Medium-term:**
 - AI5 chip delay confirmation
@@ -180,6 +180,6 @@
 - [[Panasonic]] — also 4680 supplier, read-through
 - [[Waymo]] — robotaxi competitor with working product
 - [[CATL]] — battery leader, Tesla supplier alternative
-- [[Xiaomi]] — China EV competitor, faster to profitability
+- [[Xiaomi]] — [[China]] EV competitor, faster to profitability
 
 *Created 2026-01-12*

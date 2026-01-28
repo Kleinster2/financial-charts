@@ -42,7 +42,7 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - 18A reached high-volume manufacturing — first to combine RibbonFET (GAA) + PowerVia
 - Panther Lake launching Jan 2026 (lead 18A product)
 - **Microsoft Maia 2** — reportedly going to Intel 18A/18A-P (Dec 2025). If confirmed, first major hyperscaler win and US-based supply chain validation
-- Amazon custom chips as customers
+- [[Amazon]] custom chips as customers
 - US govt converted CHIPS grants to 9.9% equity stake
 - $3B DoD "Secure Enclave" contract
 - Stock up 86% YTD
@@ -54,7 +54,7 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - New CapEx machinery won't boost output until 2027
 
 **Setbacks:**
-- **NVIDIA halted 18A testing** (Reuters) — evaluated but stopped moving forward
+- **[[NVIDIA]] halted 18A testing** (Reuters) — evaluated but stopped moving forward
 - Operating loss $9.5B for FY2025
 - Manufacturing yield issues undercut turnaround narrative (Jan 23 earnings, stock -14% AH)
 
@@ -76,28 +76,28 @@ TSMC's CoWoS bottleneck is creating opportunities for Intel:
 | [[Microsoft]] | Maia 2 | 18A/18A-P | Reported |
 
 **Why now:**
-- TSMC CoWoS capacity locked up (NVIDIA has >50% through 2027)
-- Google cut TPU production target 4M → 3M due to CoWoS constraint
+- TSMC CoWoS capacity locked up ([[NVIDIA]] has >50% through 2027)
+- Google cut TPU production target 4M → [[3M]] due to CoWoS constraint
 - Hyperscalers seeking alternatives
 
-**Intel capacity expansion (New Mexico):**
+**Intel capacity expansion (New [[Mexico]]):**
 
 | Capability | Expansion |
 |------------|-----------|
 | EMIB packaging | +30% capacity |
 | Foveros 3D | +150% capacity |
 
-**The NVIDIA signal:** NVIDIA reviewed Intel facilities but passed — shows Intel is being evaluated seriously, even if not chosen by all.
+**The [[NVIDIA]] signal:** [[NVIDIA]] reviewed Intel facilities but passed — shows Intel is being evaluated seriously, even if not chosen by all.
 
 ---
 
 ## Geographic retreat
 
-**Magdeburg cancelled (Dec 2025)**: €30B Germany fab suspended indefinitely. Cited need to stabilize balance sheet and focus on 18A success in US. Construction halted mid-2025.
+**Magdeburg cancelled (Dec 2025)**: €30B [[Germany]] fab suspended indefinitely. Cited need to stabilize balance sheet and focus on 18A success in US. Construction halted mid-2025.
 
-EU "digital sovereignty" setback — Germany was betting on Intel for domestic advanced logic. Now reliant on [[TSMC]] Dresden (mature nodes) and [[Rapidus]] partnerships.
+[[EU]] "digital sovereignty" setback — [[Germany]] was betting on Intel for domestic advanced logic. Now reliant on [[TSMC]] Dresden (mature nodes) and [[Rapidus]] partnerships.
 
-Strategic read: Intel prioritizing US operations where [[CHIPS Act]] support is locked in. Europe was a stretch.
+Strategic read: Intel prioritizing US operations where [[CHIPS Act]] support is locked in. [[Europe]] was a stretch.
 
 ## Quick stats
 

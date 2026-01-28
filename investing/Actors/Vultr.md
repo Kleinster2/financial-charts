@@ -23,7 +23,7 @@
 | Date | Round | Amount | Investors |
 |------|-------|--------|-----------|
 | Dec 2024 | Series A | $333M | AMD, LuminArx Capital |
-| 2025 | Credit | $329M | Bank of America, Citi, Goldman Sachs |
+| 2025 | Credit | $329M | [[Bank of America]], Citi, [[Goldman Sachs]] |
 
 First outside capital in 2024 — unusually late for a company at this scale.
 
@@ -34,14 +34,14 @@ First outside capital in 2024 — unusually late for a company at this scale.
 Building 50MW AMD GPU cluster in Ohio:
 - **$1B+** investment
 - Online Q1 2026
-- AMD MI300X focus (differentiates from NVIDIA-heavy competitors)
+- AMD MI300X focus (differentiates from [[NVIDIA]]-heavy competitors)
 
 ---
 
 ## Market position
 
-- IDC 2025 Public Cloud Platform Marketscape: **Major Contender**
-- Broad GPU offering across NVIDIA and AMD
+- [[IDC]] 2025 Public Cloud Platform Marketscape: **Major Contender**
+- Broad GPU offering across [[NVIDIA]] and AMD
 - 32 global regions
 - Self-described "world's largest privately-held cloud infrastructure company"
 

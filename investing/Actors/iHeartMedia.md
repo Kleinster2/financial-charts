@@ -62,7 +62,7 @@ aliases: [IHRT, iHeart, iHeartRadio, Clear Channel]
 |--------|-------|
 | Registered users | 150M+ |
 | Features | Live radio, custom stations, podcasts |
-| Competition | Spotify, Apple, Pandora |
+| Competition | Spotify, [[Apple]], Pandora |
 
 ---
 

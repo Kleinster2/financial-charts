@@ -8,7 +8,7 @@ Sub-pattern of [[Crony capitalism]], which is itself one type of [[State-busines
 
 ## Why banks?
 
-Banks are the preferred extraction vehicle because:
+[[Banks]] are the preferred extraction vehicle because:
 
 | Advantage | How it enables extraction |
 |-----------|---------------------------|
@@ -62,7 +62,7 @@ The clearest modern example.
 
 **Mechanism:** Ansari lent 90%+ of deposits to his own real estate projects (Iran Mall). When depositors wanted withdrawals, the bank had concrete, not cash. CBI printed money to cover → inflation → depositors lost via currency collapse.
 
-**Political protection:** Connected to Mojtaba Khamenei (Supreme Leader's son). Criminal charges filed 2022 — escaped prosecution. UK sanctioned him; Iran didn't.
+**Political protection:** Connected to Mojtaba Khamenei (Supreme Leader's son). Criminal charges filed 2022 — escaped prosecution. [[UK]] sanctioned him; Iran didn't.
 
 See [[Iranian banking]] for sector-wide capture.
 
@@ -127,7 +127,7 @@ See [[Brazilian cronyism]] for full detail.
 | Political cover | PM Najib Razak |
 | Resolution | Najib convicted (2022), Jho Low fugitive |
 
-Used Goldman Sachs for bond issuance, then siphoned funds through layers of accounts. Same logic as bank cronyism: access to large capital pool + political protection + opacity.
+Used [[Goldman Sachs]] for bond issuance, then siphoned funds through layers of accounts. Same logic as bank cronyism: access to large capital pool + political protection + opacity.
 
 ---
 
@@ -148,7 +148,7 @@ Used Goldman Sachs for bond issuance, then siphoned funds through layers of acco
 
 ## Red flags
 
-| Signal | What it suggests |
+| [[Signal]] | What it suggests |
 |--------|------------------|
 | Founder is largest borrower | Self-dealing |
 | Related-party loans > 25% of book | Concentrated extraction |
@@ -165,7 +165,7 @@ Used Goldman Sachs for bond issuance, then siphoned funds through layers of acco
 
 | Mechanism | Who pays | Example |
 |-----------|----------|---------|
-| **Inflation** | Depositors (purchasing power) | Iran — CBI prints money |
+| **[[Inflation]]** | Depositors (purchasing power) | Iran — CBI prints money |
 | **Deposit insurance** | Taxpayers | Brazil — PROER, FGC |
 | **Merge into state bank** | Taxpayers | Iran — Ayandeh → Bank Melli |
 | **Bail-in** | Depositors (haircuts) | Cyprus 2013 |

@@ -1,6 +1,6 @@
 #concept #geopolitics #china #infrastructure
 
-**Belt and Road** — China's global infrastructure initiative. $1T+ invested. Ports, rail, power across 150+ countries.
+**Belt and Road** — [[China]]'s global infrastructure initiative. $1T+ invested. Ports, rail, power across 150+ countries.
 
 ---
 
@@ -8,8 +8,8 @@
 
 | Component | Description |
 |-----------|-------------|
-| **Silk Road Economic Belt** | Overland routes through Central Asia to Europe |
-| **Maritime Silk Road** | Sea routes through SE Asia, Indian Ocean, Africa |
+| **Silk Road Economic Belt** | Overland routes through Central [[Asia]] to [[Europe]] |
+| **Maritime Silk Road** | Sea routes through SE [[Asia]], Indian Ocean, Africa |
 | Launched | 2013 |
 | Countries | 150+ participating |
 | Investment | $1T+ committed |
@@ -20,10 +20,10 @@
 
 | Corridor | Route |
 |----------|-------|
-| China-Pakistan | Gwadar port, rail, power |
-| China-Central Asia | Kazakhstan, Uzbekistan rail |
-| China-Europe | Rail freight to EU |
-| Maritime | Ports from SE Asia to Africa |
+| [[China]]-Pakistan | Gwadar port, rail, power |
+| [[China]]-Central [[Asia]] | Kazakhstan, Uzbekistan rail |
+| [[China]]-[[Europe]] | Rail freight to [[EU]] |
+| Maritime | Ports from SE [[Asia]] to Africa |
 
 ---
 
@@ -32,7 +32,7 @@
 | Asset | Country | Significance |
 |-------|---------|--------------|
 | Gwadar Port | Pakistan | Indian Ocean access |
-| Piraeus Port | Greece | EU entry point |
+| Piraeus Port | [[Greece]] | [[EU]] entry point |
 | Hambantota Port | Sri Lanka | Debt-for-equity |
 | Djibouti Base | Djibouti | Military presence |
 
@@ -53,7 +53,7 @@
 
 | Theme | Expression |
 |-------|------------|
-| Chinese SOEs | CRCC, China Communications |
+| Chinese SOEs | CRCC, [[China]] Communications |
 | Commodity demand | Steel, copper |
 | Port operators | Chinese state-owned |
 | Local markets | Infrastructure beneficiaries |
@@ -65,7 +65,7 @@
 | Initiative | Description |
 |------------|-------------|
 | Build Back Better World (B3W) | G7 counter-initiative |
-| Global Gateway | EU infrastructure plan |
+| Global Gateway | [[EU]] infrastructure plan |
 | Blue Dot Network | Quality infrastructure standards |
 
 ---

@@ -15,7 +15,7 @@ Meta's global backbone:
 |--------|-------|
 | Length | 50,000 km (31,000 miles) |
 | Owner | [[Meta]] (100%) |
-| Route | US, India, South Africa, Brazil |
+| Route | US, [[India]], South [[Africa]], [[Brazil]] |
 | Status | Announced 2025 |
 
 Longest submarine cable ever, single-owned.
@@ -26,9 +26,9 @@ Longest submarine cable ever, single-owned.
 
 **Global reach:**
 - United States
-- India
-- South Africa
-- Brazil
+- [[India]]
+- South [[Africa]]
+- [[Brazil]]
 - Other regions
 
 Circumnavigating the globe.
@@ -62,10 +62,10 @@ Unprecedented single-owner scale.
 ## Meta's cable portfolio
 
 **Existing investments:**
-- MAREA (with Microsoft)
+- MAREA (with [[Microsoft]])
 - Amitié (consortium)
 - HAVFRUE (consortium)
-- Bifrost (Asia)
+- Bifrost ([[Asia]])
 - Echo (with Google)
 - Apricot (with Google)
 
@@ -99,7 +99,7 @@ Waterworth = first fully private mega-cable.
 |--------|-------|
 | Length | 50,000 km |
 | Owner | Meta (100%) |
-| Route | US-India-Africa-Brazil |
+| Route | US-[[India]]-[[Africa]]-[[Brazil]] |
 | Status | Announced 2025 |
 
 *Updated 2026-01-01*
@@ -110,7 +110,7 @@ Waterworth = first fully private mega-cable.
 
 - [[Meta]] — owner (100% ownership, first solo mega-cable)
 - [[Google]] — peer (also building private cables)
-- [[Fortaleza Data Hub]] — landing (Brazil connection point)
+- [[Fortaleza Data Hub]] — landing ([[Brazil]] connection point)
 - [[EllaLink]] — peer (smaller consortium cable)
 - [[Submarine Cables]] — infrastructure context
 

@@ -55,7 +55,7 @@ Liquid cooling = competitive moat.
 | GPU servers | AI training/inference |
 | Liquid cooling | AI thermal management |
 | Storage | High-density |
-| Edge | 5G, IoT |
+| Edge | [[5G]], IoT |
 
 ---
 
@@ -98,8 +98,8 @@ Liquid cooling = competitive moat.
 |------------|---------------|
 | Dell | Faster to market |
 | HPE | More innovative |
-| Lenovo | Liquid cooling lead |
-| Inspur (China) | US alternative |
+| [[Lenovo]] | Liquid cooling lead |
+| Inspur ([[China]]) | US alternative |
 
 ---
 

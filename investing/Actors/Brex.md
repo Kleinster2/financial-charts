@@ -1,6 +1,6 @@
 #actor #fintech #payments #usa #acquisition
 
-**Brex** — Corporate cards and spend management for startups/enterprises. Founded 2017 by Henrique Dubugras and Pedro Franceschi (Brazilian Stanford dropouts, age 22). **YC W17.** **Acquired by [[Capital One]] for $5.15B** (Jan 22, 2026) — 58% below peak $12.3B valuation.
+**Brex** — Corporate cards and spend management for startups/enterprises. Founded 2017 by Henrique Dubugras and Pedro Franceschi (Brazilian [[Stanford]] dropouts, age 22). **YC W17.** **Acquired by [[Capital One]] for $5.15B** (Jan 22, 2026) — 58% below peak $12.3B valuation.
 
 ---
 
@@ -37,22 +37,22 @@
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Henrique Dubugras** | Co-CEO | Brazilian, Stanford dropout, Forbes 30 Under 30 |
+| **Henrique Dubugras** | Co-CEO | Brazilian, [[Stanford]] dropout, Forbes 30 Under 30 |
 | **Pedro Franceschi** | Co-CEO | Brazilian, jailbroke iPhone 3G at age 13 |
 
 ### Origin story
 
 - Dubugras and Franceschi met at 16 via Twitter argument (2012)
-- Both from Brazil, bonded over coding
-- Age 16: Founded Pagar.me (Brazil's Stripe) together
+- Both from [[Brazil]], bonded over coding
+- Age 16: Founded Pagar.me ([[Brazil]]'s Stripe) together
 - Raised $30M, employed 100+ people
 - 2016: Sold Pagar.me to [[StoneCo]]
-- Fall 2016: Enrolled at Stanford
+- Fall 2016: Enrolled at [[Stanford]]
 - Joined YC W17 with VR startup "Beyond"
 - 3 weeks in: pivoted after realizing VR market immature
 - Noticed YC companies couldn't get corporate cards
 - April 2017: Founded Brex
-- 8 months at Stanford → dropped out
+- 8 months at [[Stanford]] → dropped out
 
 ### Recognition
 
@@ -125,7 +125,7 @@
 |---------|-------------|
 | **Brex Card** | Corporate credit cards |
 | **Brex Empower** | Spend management platform |
-| **Brex Travel** | Corporate travel booking |
+| **Brex [[Travel]]** | Corporate travel booking |
 | **Brex Bill Pay** | Accounts payable |
 | **Brex Vault** | Business banking |
 
@@ -159,7 +159,7 @@
 
 **Why Brex matters:**
 
-1. **Fintech infrastructure** — Corporate spending platform for tech ecosystem.
+1. **[[Fintech]] infrastructure** — Corporate spending platform for tech ecosystem.
 
 2. **YC network effects** — Built for YC companies, expanded to enterprise.
 

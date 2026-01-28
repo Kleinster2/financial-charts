@@ -15,7 +15,7 @@ aliases: [SHOP]
 | Market cap | ~$130B |
 | GMV | $250B+ annually |
 | Merchants | 2M+ |
-| HQ | Ottawa, Canada |
+| HQ | Ottawa, [[Canada]] |
 
 Second-largest e-commerce platform after Amazon.
 
@@ -38,7 +38,7 @@ Merchant solutions now majority of revenue.
 |---------|-------------|
 | Shopify Core | Storefront, checkout |
 | Shopify Plus | Enterprise tier |
-| Shopify Payments | Stripe-powered |
+| Shopify Payments | [[Stripe]]-powered |
 | Shop Pay | Accelerated checkout |
 | Shopify Capital | Merchant lending |
 | Shopify Fulfillment | Logistics (divested) |

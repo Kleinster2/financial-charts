@@ -37,8 +37,8 @@ Senior operational role at ADQ — the fastest-growing of Abu Dhabi's three sove
 
 | Relation | Name | Key role |
 |----------|------|----------|
-| Brother | [[Sheikh Tahnoon bin Zayed Al Nahyan]] | ADIA/ADQ chairman |
-| Brother | [[Sheikh Mansour bin Zayed Al Nahyan]] | Mubadala chairman |
+| Brother | [[Sheikh Tahnoon bin Zayed Al Nahyan]] | [[ADIA]]/ADQ chairman |
+| Brother | [[Sheikh Mansour bin Zayed Al Nahyan]] | [[Mubadala]] chairman |
 | Brother | Sheikh Mohamed bin Zayed | UAE President |
 | Father | Sheikh Zayed bin Sultan | UAE founding father (deceased) |
 
@@ -62,7 +62,7 @@ Part of the Al Nahyan ruling family — the brothers collectively control Abu Dh
 
 - [[ADQ]] — Managing Director
 - [[Sheikh Tahnoon bin Zayed Al Nahyan]] — brother, ADQ Chairman
-- [[Sheikh Mansour bin Zayed Al Nahyan]] — brother, Mubadala Chairman
+- [[Sheikh Mansour bin Zayed Al Nahyan]] — brother, [[Mubadala]] Chairman
 - [[Mohamed Hassan Alsuwaidi]] — ADQ CEO
 - [[Abu Dhabi Sovereign Wealth]] — ecosystem overview
 

@@ -65,7 +65,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 | Revenue | ~$1B+ |
 | Content | Licensed library, originals |
 
-**Strategy:** Not competing with Netflix — different model.
+**Strategy:** Not competing with [[Netflix]] — different model.
 
 ---
 
@@ -89,7 +89,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 | Murdoch Family Trust | ~39% voting |
 | Public | ~61% voting |
 
-**Succession:** Lachlan Murdoch as CEO after Rupert's reduced role.
+**Succession:** [[Lachlan Murdoch]] as CEO after Rupert's reduced role.
 
 ---
 
@@ -113,7 +113,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 - Focused strategy post-Disney sale
 
 **Bear:**
-- Cord-cutting impacts cable
+- [[Cord-cutting]] impacts cable
 - Demographic challenges (aging viewers)
 - Legal/reputational risks
 - Murdoch succession uncertainty

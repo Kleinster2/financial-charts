@@ -15,7 +15,7 @@ aliases: [Toss Bank, Viva Republica]
 | Business customers | 100,000+ |
 | Revenue (2023) | ₩1.96T (~$1.5B) |
 | Operating profit (2023) | ₩90.7B (first ever) |
-| Target valuation | $10-15B |
+| [[Target]] valuation | $10-15B |
 | IPO size | $2-3B |
 | Founded | 2014 |
 
@@ -36,7 +36,7 @@ aliases: [Toss Bank, Viva Republica]
 | **Payments** | P2P transfers (original product) |
 | **Banking** | Toss Bank (digital bank) |
 | **Investments** | Stock trading |
-| **Insurance** | Insurance marketplace |
+| **[[Insurance]]** | [[Insurance]] marketplace |
 | **Tax** | Tax filing/reporting |
 | **Credit** | Lending products |
 
@@ -57,7 +57,7 @@ Full-stack financial super app.
 - [[Goodwater Capital]]
 - [[GIC]] (Singapore)
 - [[Korea Development Bank]]
-- [[HongShan Capital]] (fka Sequoia China)
+- [[HongShan Capital]] (fka Sequoia [[China]])
 - [[PayPal]]
 
 ---

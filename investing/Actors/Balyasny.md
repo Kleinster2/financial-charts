@@ -34,7 +34,7 @@ Outperformed larger peers Millennium and Citadel Wellington.
 | Component | Detail |
 |-----------|--------|
 | Model | Pod shop |
-| Teams | 100+ portfolio managers |
+| [[Teams]] | 100+ portfolio managers |
 | Strategies | Equity, macro, credit |
 | Global | Offices in NYC, London, HK |
 

@@ -47,7 +47,7 @@ aliases: [PSX]
 - Chemicals less cyclical
 - Marketing adds margin
 
-**Trade-off:** Less pure-play refining leverage.
+**[[Trade]]-off:** Less pure-play refining leverage.
 
 ---
 
@@ -64,7 +64,7 @@ aliases: [PSX]
 - Refining cyclicality
 - Less upside than pure refiners
 - California refinery challenges
-- EV transition headwind
+- [[EV transition]] headwind
 
 ---
 

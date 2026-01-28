@@ -3,7 +3,7 @@ aliases: [Envision AESC]
 ---
 #actor #batteries #japan #ev
 
-**AESC** — Battery manufacturer, originally Nissan's battery unit, now owned by Envision Group (China).
+**AESC** — Battery manufacturer, originally Nissan's battery unit, now owned by Envision Group ([[China]]).
 
 ---
 
@@ -13,8 +13,8 @@ aliases: [Envision AESC]
 |--------|-------|
 | Global rank | #7 battery maker |
 | Market share | ~3% |
-| Owner | Envision Group (China) |
-| HQ | Japan (operations), China (parent) |
+| Owner | Envision Group ([[China]]) |
+| HQ | [[Japan]] (operations), [[China]] (parent) |
 
 ---
 
@@ -33,13 +33,13 @@ aliases: [Envision AESC]
 
 | Location | Status | Capacity |
 |----------|--------|----------|
-| **Sunderland, UK** | Operating | Nissan Leaf supply |
+| **Sunderland, [[UK]]** | Operating | Nissan Leaf supply |
 | **Smyrna, Tennessee** | Operating | Nissan US |
-| **Japan** | Operating | Original facilities |
-| **China** | Operating | Multiple sites |
+| **[[Japan]]** | Operating | Original facilities |
+| **[[China]]** | Operating | Multiple sites |
 | **Kentucky** | Under construction | 30 GWh |
-| **Spain** | Planned | For EU market |
-| **France** | Planned | Renault supply |
+| **Spain** | Planned | For [[EU]] market |
+| **[[France]]** | Planned | Renault supply |
 
 ---
 
@@ -50,7 +50,7 @@ aliases: [Envision AESC]
 | **Nissan** | Leaf, Ariya |
 | **Renault** | Multiple EVs |
 | **Mercedes-Benz** | EV supply agreement |
-| **BMW** | Battery supply deal |
+| **[[BMW]]** | Battery supply deal |
 | **Honda** | Partnership |
 
 ---
@@ -73,7 +73,7 @@ aliases: [Envision AESC]
 | [[CATL]] | ~37% | Scale, cost |
 | [[BYD]] | ~16% | Vertical integration |
 | [[LG Energy Solution]] | ~13% | Technology, diversification |
-| [[Panasonic]] | ~6% | Tesla partnership |
+| [[Panasonic]] | ~6% | [[Tesla]] partnership |
 | [[SK On]] | ~5% | US expansion |
 | [[Samsung SDI]] | ~5% | Premium segment |
 | **AESC** | ~3% | Nissan/Renault captive |
@@ -84,9 +84,9 @@ aliases: [Envision AESC]
 
 **Bull:**
 - Locked-in OEM relationships (Nissan, Renault)
-- Envision backing (capital, China expertise)
-- Western expansion (UK, US, EU plants)
-- Mercedes and BMW wins
+- Envision backing (capital, [[China]] expertise)
+- Western expansion ([[UK]], US, [[EU]] plants)
+- Mercedes and [[BMW]] wins
 
 **Bear:**
 - Smaller scale vs. CATL, LG, BYD

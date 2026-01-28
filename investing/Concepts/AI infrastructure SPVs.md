@@ -76,7 +76,7 @@ For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new �
 | Aspect | Off-balance-sheet SPV | [[GPU-as-collateral]] |
 |--------|----------------------|----------------------|
 | Collateral | Real estate + equipment | GPUs only |
-| Typical borrower | Hyperscalers (Meta, Google) | AI cloud (CoreWeave, xAI) |
+| Typical borrower | Hyperscalers (Meta, [[Google]]) | AI cloud ([[CoreWeave]], xAI) |
 | Credit quality | Investment grade | High yield |
 | Rates | 4-6% (IG) | 11-14% |
 | Term | 20-40 years | 3-5 years |
@@ -102,12 +102,12 @@ See [[AI infrastructure deals]] for full details.
 | Era | What happened |
 |-----|---------------|
 | **2001 Enron** | SPVs hid liabilities, enabled fraud |
-| **2008 GFC** | Banks moved mortgages off-balance-sheet before crisis |
+| **2008 GFC** | [[Banks]] moved mortgages off-balance-sheet before crisis |
 | **2025 AI** | Tech companies using SPVs for infrastructure |
 
-**UBS warning (Oct 2025):** "During the dot-com era, most of the growth was financed with equity not debt. So when it burst, the impact in the economy was manageable. Now, there's a rapid growth of capex in AI firms driven by debt and it's starting to be kept off balance sheet."
+**[[UBS]] warning (Oct 2025):** "During the dot-com era, most of the growth was financed with equity not debt. So when it burst, the impact in the economy was manageable. Now, there's a rapid growth of capex in AI firms driven by debt and it's starting to be kept off balance sheet."
 
-**Key difference today**: Hyperscaler credit quality is strong. Meta/Google aren't Enron. But concentration risk exists — few borrowers, massive exposure.
+**Key difference today**: Hyperscaler credit quality is strong. Meta/[[Google]] aren't Enron. But concentration risk exists — few borrowers, massive exposure.
 
 ---
 
@@ -140,7 +140,7 @@ See [[AI infrastructure deals]] for full details.
 | Firm | AUM | Notable |
 |------|-----|---------|
 | [[Blue Owl]] | $273B | Meta $27B, Crusoe |
-| [[Blackstone]] | $1T+ | QTS, CoreWeave |
+| [[Blackstone]] | $1T+ | [[QTS]], [[CoreWeave]] |
 | [[Brookfield]] | $900B+ | Infrastructure focus |
 | [[KKR]] | $550B+ | Data centers |
 
@@ -159,11 +159,11 @@ See [[AI infrastructure deals]] for full details.
 **Direct plays:**
 - [[Blue Owl]] (OWL) — largest AI infra SPV equity provider
 - Blackstone (BX) — major player
-- Private credit funds with IG AI exposure
+- [[Private credit]] funds with IG AI exposure
 
 **Indirect beneficiaries:**
 - Hyperscalers preserving balance sheet flexibility
-- Banks earning structuring fees (Morgan Stanley)
+- [[Banks]] earning structuring fees ([[Morgan Stanley]])
 
 ---
 

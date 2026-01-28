@@ -3,7 +3,7 @@ aliases: [Alta Resources]
 ---
 #actor #rareearth #usa #private #startup
 
-**Alta Resource Technologies** — Rare earth separation startup using AI and biochemistry. DCVC-backed. Targeting cost-competitive with China by 2027.
+**Alta Resource Technologies** — Rare earth separation startup using AI and biochemistry. DCVC-backed. Targeting cost-competitive with [[China]] by 2027.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Alta Resources]
 | Status | Private (early stage) |
 | Technology | AI + advanced biochemistry |
 | Focus | Mineral separation |
-| Target | Cost-competitive by 2027 |
+| [[Target]] | Cost-competitive by 2027 |
 | Investor | [[DCVC]] |
 
 ---

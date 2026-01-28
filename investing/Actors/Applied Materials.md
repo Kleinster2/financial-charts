@@ -33,8 +33,8 @@ Broadest portfolio = most diversified exposure.
 
 | End market | Exposure | Notes |
 |------------|----------|-------|
-| Logic/Foundry | ~55% | TSMC, Samsung, Intel |
-| Memory | ~30% | DRAM, NAND, HBM |
+| Logic/Foundry | ~55% | TSMC, Samsung, [[Intel]] |
+| Memory | ~30% | DRAM, NAND, [[HBM]] |
 | Services | ~15% | Installed base support |
 
 More balanced than Lam (memory-heavy) or ASML (logic-heavy).
@@ -47,7 +47,7 @@ More balanced than Lam (memory-heavy) or ASML (logic-heavy).
 |----------|-------------|-------|
 | [[TSMC]] | +80% y/y | ATH, ~40% of foundry/logic revenue |
 | [[Samsung]] | +31% y/y | Recovery |
-| China | -16% y/y | Export controls impact |
+| [[China]] | -16% y/y | [[Export controls]] impact |
 
 TSMC is the dominant driver — leading edge GAA ramp.
 
@@ -71,15 +71,15 @@ This is a structural tailwind — more complex transistors = more AMAT tools per
 - **Scale**: Largest WFE company, most R&D spending
 - **Breadth**: Sells into every fab, every process
 - **Services**: Large installed base = recurring revenue
-- **China**: Significant exposure (risk and opportunity)
+- **[[China]]**: Significant exposure (risk and opportunity)
 
 ---
 
-## China exposure / risk
+## [[China]] exposure / risk
 
-- Meaningful revenue from China (trailing edge)
-- Export controls limit advanced tool sales
-- Domestic China push could pressure pricing
+- Meaningful revenue from [[China]] (trailing edge)
+- [[Export controls]] limit advanced tool sales
+- Domestic [[China]] push could pressure pricing
 - Risk: further restrictions reduce TAM
 
 ---
@@ -91,7 +91,7 @@ This is a structural tailwind — more complex transistors = more AMAT tools per
 | Ticker | AMAT (NASDAQ) |
 | Revenue | ~$27B (FY24) |
 | Segment | Diversified WFE |
-| Primary customers | TSMC, Samsung, Intel, Micron |
+| Primary customers | TSMC, Samsung, [[Intel]], [[Micron]] |
 
 ---
 
@@ -107,7 +107,7 @@ This is a structural tailwind — more complex transistors = more AMAT tools per
 - [[ASML]] — peer (litho, AMAT does deposition/etch)
 - [[Lam Research]] — peer/competitor (etch)
 - [[KLA]] — peer (inspection)
-- [[Tokyo Electron]] — peer (Japan equipment)
+- [[Tokyo Electron]] — peer ([[Japan]] equipment)
 - [[TSMC]] — largest customer (~40% of foundry revenue)
 - [[Samsung]] — major customer
 - [[Long WFE]] — thesis

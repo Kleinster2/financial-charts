@@ -17,7 +17,7 @@ aliases: [Athene Holding, Athene Annuity]
 | US market share | >12% of individual annuities |
 | CEO | [[Grant Kvalheim]] (July 2025) |
 | Executive Chairman | [[Jim Belardi]] (co-founder) |
-| Operations | US, Bermuda, Canada, Japan |
+| Operations | US, Bermuda, [[Canada]], [[Japan]] |
 | Merged with Apollo | Jan 3, 2022 (~$11B all-stock) |
 
 ---
@@ -37,8 +37,8 @@ The result: Apollo's AUM grew from $40B (2008) to $908B (late 2025), with Athene
 ## History
 
 **Founded 2009** during the financial crisis by:
-- **[[Jim Belardi]]** — former President of SunAmerica Life Insurance, CIO of AIG Retirement Services (managed $250B portfolio)
-- **Chip Gillis** — former head of Bear Stearns Insurance Solutions Group
+- **[[Jim Belardi]]** — former President of SunAmerica Life [[Insurance]], CIO of [[AIG]] Retirement Services (managed $250B portfolio)
+- **Chip Gillis** — former head of Bear Stearns [[Insurance]] Solutions Group
 
 Sponsored by an Apollo affiliate. Thesis: post-crisis, insurers exiting fixed annuities created a void that a purpose-built platform could fill.
 
@@ -78,11 +78,11 @@ Post-merger, Athene maintains a separate capital structure and credit profile. A
 
 ### Pension risk transfer (PRT)
 - Companies offload pension obligations to Athene
-- Key deals: JCPenney ($2.8B, 2021), Lockheed Martin ($4.9B, 2021), Prudential ($27B)
+- Key deals: JCPenney ($2.8B, 2021), [[Lockheed Martin]] ($4.9B, 2021), Prudential ($27B)
 - Leverages ACRA sidecar capital for scale
 
 ### Reinsurance
-- Block reinsurance: acquiring in-force life/annuity books
+- [[Block]] reinsurance: acquiring in-force life/annuity books
 - Flow reinsurance: ongoing partnerships with primary insurers
 
 ### Funding agreements
@@ -100,7 +100,7 @@ Post-merger, Athene maintains a separate capital structure and credit profile. A
 | ACRA 1 commitments | ~$4B |
 | ADIP II (ACRA 2) first close | $2B |
 | Total invested assets (ACRA/ADIP) | ~$44B |
-| Target float | $60B from initial $3.2B capital |
+| [[Target]] float | $60B from initial $3.2B capital |
 
 **How it works:** Third-party investors commit capital alongside Athene, sharing in PRT and reinsurance deal returns. Apollo manages the assets. ACRA has independent return hurdles — has declined Athene PRT deals that didn't meet its thresholds.
 
@@ -112,7 +112,7 @@ Innovation: applies ILS (insurance-linked securities) [[Reinsurance sidecars|sid
 
 | Role | Person | Background |
 |------|--------|-----------|
-| CEO | [[Grant Kvalheim]] | 14-year Athene veteran, joined as CFO (2011), former Co-President of Barclays Capital |
+| CEO | [[Grant Kvalheim]] | 14-year Athene veteran, joined as CFO (2011), former Co-President of [[Barclays]] Capital |
 | Executive Chairman/CIO | [[Jim Belardi]] | Co-founder, led Athene from startup to $430B |
 | Co-President (USA) | Mike Downing | Also COO |
 | Co-President (USA) | Sean Brennan | Also CCO |
@@ -159,5 +159,5 @@ Athene's Jan 2026 outlook highlights:
 - [[Pension risk transfer]] — major business line, ACRA-enabled
 - [[Permanent capital]] — Athene's core structural advantage
 - [[Blackstone]] — peer (owns life insurers, similar model via Everlake/Resolution)
-- [[KKR]] — peer (Global Atlantic acquisition, same playbook)
+- [[KKR]] — peer ([[Global Atlantic]] acquisition, same playbook)
 

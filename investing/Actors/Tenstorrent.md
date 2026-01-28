@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**Tenstorrent** — Jim Keller's AI chip company. RISC-V based. Open architecture bet.
+**Tenstorrent** — Jim Keller's AI chip company. [[RISC-V]] based. Open architecture bet.
 
 ---
 
@@ -27,19 +27,19 @@ Led by legendary chip architect:
 | Company | Achievement |
 |---------|-------------|
 | AMD | K8, Zen architecture |
-| Apple | A4/A5 chips |
-| Tesla | FSD chip |
-| Intel | Brief stint |
+| [[Apple]] | A4/A5 chips |
+| [[Tesla]] | FSD chip |
+| [[Intel]] | Brief stint |
 | Tenstorrent | CEO |
 
 One of the greatest chip architects alive.
 
 ---
 
-## RISC-V approach
+## [[RISC-V]] approach
 
 **Open architecture bet:**
-- RISC-V CPU cores
+- [[RISC-V]] CPU cores
 - Open-source ISA
 - No ARM/x86 licensing
 - Customizable
@@ -52,7 +52,7 @@ One of the greatest chip architects alive.
 |---------|------|
 | Wormhole | AI accelerator chip |
 | Grayskull | Earlier generation |
-| RISC-V cores | Licensable IP |
+| [[RISC-V]] cores | Licensable IP |
 | Chiplets | Modular design |
 
 ---
@@ -61,7 +61,7 @@ One of the greatest chip architects alive.
 
 **Dual approach:**
 1. AI accelerator chips/systems
-2. RISC-V IP licensing
+2. [[RISC-V]] IP licensing
 
 Both hardware and IP revenue.
 
@@ -71,7 +71,7 @@ Both hardware and IP revenue.
 
 **Counter to NVIDIA lock-in:**
 - Open-source software stack
-- RISC-V (vs proprietary)
+- [[RISC-V]] (vs proprietary)
 - Chiplet modularity
 - Developer-friendly
 
@@ -92,16 +92,16 @@ Both hardware and IP revenue.
 | Investor | Notes |
 |----------|-------|
 | AFG Partners | Lead (Series D) |
-| Hyundai Motor Group | Strategic (automotive AI) |
-| Samsung | Strategic |
+| [[Hyundai]] Motor Group | Strategic (automotive AI) |
+| [[Samsung]] | Strategic |
 | LG | Strategic |
-| Bezos Expeditions | Jeff Bezos |
+| Bezos Expeditions | [[Jeff Bezos]] |
 | Eclipse Ventures | Early |
 | Real Ventures | Canadian VC |
 
 **Total raised:** $700M+
 
-**Korean strategic angle:** Hyundai, Samsung, LG invested — automotive AI focus
+**Korean strategic angle:** [[Hyundai]], [[Samsung]], LG invested — automotive AI focus
 
 ---
 
@@ -109,7 +109,7 @@ Both hardware and IP revenue.
 
 **Bull:**
 - Jim Keller credibility
-- RISC-V open architecture
+- [[RISC-V]] open architecture
 - Korean strategic backing
 - Alternative to NVIDIA
 
@@ -128,7 +128,7 @@ Both hardware and IP revenue.
 | Ticker | Private |
 | Valuation | ~$2.6B |
 | CEO | Jim Keller |
-| Approach | RISC-V AI chips |
+| Approach | [[RISC-V]] AI chips |
 
 *Updated 2026-01-01*
 

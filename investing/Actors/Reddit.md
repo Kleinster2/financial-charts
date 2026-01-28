@@ -30,7 +30,7 @@
 ### Origin story
 
 - Huffman and Ohanian were UVA roommates
-- Spring break 2005: drove to Boston for Paul Graham lecture
+- Spring break 2005: drove to Boston for [[Paul Graham]] lecture
 - Pitched "My Mobile Menu" (order food by SMS) — rejected
 - Graham invited them to apply with different idea
 - Brainstormed "front page of the internet" concept
@@ -125,7 +125,7 @@ Five years after [[GameStop]], Reddit's investment communities remain a major fo
 
 Investment interest is led by WallStreetBets and Superstonk but also includes r/stocks and r/investing.
 
-**Institutional adoption:** Fidelity now operates its own investment forum on Reddit — "a massive difference that you wouldn't have seen in 2021" (Rob Gaige, Reddit global head of Insights). Brands once shunned are now "adding tremendous value."
+**Institutional adoption:** [[Fidelity]] now operates its own investment forum on Reddit — "a massive difference that you wouldn't have seen in 2021" (Rob Gaige, Reddit global head of Insights). Brands once shunned are now "adding tremendous value."
 
 *Source: Barron's, Jan 23 2026*
 
@@ -166,18 +166,18 @@ Investment interest is led by WallStreetBets and Superstonk but also includes r/
 - [[Twitch]] — YC peer
 - [[Dropbox]] — YC peer
 
-### Market structure
+### [[Market structure]]
 - [[GameStop]] — WallStreetBets birthplace of meme movement
 - [[Retail investor flows]] — Reddit as permanent retail infrastructure
 
 ### Competitors
 - Twitter/X
-- Discord
+- [[Discord]]
 - Facebook Groups
 
 ### AI data customers
 - [[OpenAI]] — potential data licensee
-- Google — data licensing deal
+- [[Google]] — data licensing deal
 
 ---
 

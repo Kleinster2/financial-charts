@@ -35,7 +35,7 @@ aliases: [Ares, ARES]
 |---------|-----|-------------|
 | **Credit** | ~$290B | Direct lending, high yield |
 | **Real Assets** | ~$70B | Real estate, infrastructure |
-| **Private Equity** | ~$35B | Corporate PE |
+| **[[Private Equity]]** | ~$35B | Corporate PE |
 | **Secondaries** | ~$25B | LP stakes |
 
 Credit is dominant business.
@@ -72,7 +72,7 @@ Beneficiary of bank deleveraging.
 | Apollo | Larger AUM, more PE |
 | Blackstone | Larger, more diversified |
 | Blue Owl | Direct lending competitor |
-| KKR | More PE-focused |
+| [[KKR]] | More PE-focused |
 
 ---
 

@@ -59,8 +59,8 @@ One of best-timed exits in tech history.
 | Company | Sector | Outcome |
 |---------|--------|---------|
 | Bombas | Socks | $300M+ revenue |
-| Ring | Security | Acquired by Amazon |
-| Kisstixx | Consumer | Failed |
+| Ring | Security | Acquired by [[Amazon]] |
+| Kisstixx | [[Consumer]] | Failed |
 | Various | — | Mixed |
 
 ---
@@ -96,7 +96,7 @@ Cuban's current passion project.
 | Net worth | ~$5B |
 | Source | Broadcast.com |
 | Current | Cost Plus Drugs |
-| Media | Shark Tank |
+| [[Media]] | Shark Tank |
 
 ---
 

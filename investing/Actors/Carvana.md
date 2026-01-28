@@ -11,7 +11,7 @@ aliases: [CVNA]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | CVNA (Nasdaq) |
+| Ticker | CVNA ([[Nasdaq]]) |
 | Market cap | ~$45B |
 | Revenue | ~$12B |
 | Retail units | 400K+ |
@@ -73,8 +73,8 @@ One of greatest turnarounds in market history.
 
 | Person | Role |
 |--------|------|
-| **Ernie Garcia III** | CEO, founder |
-| Ernie Garcia II | Father, largest shareholder |
+| **[[Ernie]] Garcia III** | CEO, founder |
+| [[Ernie]] Garcia II | Father, largest shareholder |
 
 Father-son control structure.
 
@@ -100,7 +100,7 @@ Father-son control structure.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | CVNA (Nasdaq) |
+| Ticker | CVNA ([[Nasdaq]]) |
 | Market cap | ~$45B |
 | Revenue | ~$12B |
 | Story | Epic turnaround |

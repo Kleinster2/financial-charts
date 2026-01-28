@@ -25,9 +25,9 @@ aliases: [Iron-air battery]
 - **Charge:** Electricity reverses reaction, separates oxygen/water from iron
 - **Materials:** Iron, water, air — abundant and cheap
 
-**Trade-offs:**
+**[[Trade]]-offs:**
 
-| Metric | Iron-air | Lithium-ion |
+| Metric | Iron-air | [[Lithium]]-ion |
 |--------|----------|-------------|
 | Duration | 100 hours | 4 hours |
 | Round-trip efficiency | ~60% | 90%+ |
@@ -56,7 +56,7 @@ aliases: [Iron-air battery]
 - Former steel mill site
 - Trial production started
 - DOE: $150M grant for expansion
-- Target: 20 GWh/year by 2027
+- [[Target]]: 20 GWh/year by 2027
 
 ---
 
@@ -78,7 +78,7 @@ aliases: [Iron-air battery]
 
 **Grid stability problem:**
 - Renewables intermittent (solar/wind)
-- Lithium-ion: 4 hours max economically
+- [[Lithium]]-ion: 4 hours max economically
 - Multi-day weather events need longer storage
 - 100-hour bridges "dunkelflaute" (dark doldrums)
 

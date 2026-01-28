@@ -63,7 +63,7 @@ Llama powers Meta AI across:
 |----------|-------|
 | Facebook | 3B+ MAU |
 | Instagram | 2B+ MAU |
-| WhatsApp | 2B+ MAU |
+| [[WhatsApp]] | 2B+ MAU |
 | Messenger | 1B+ MAU |
 | Meta AI app | Growing |
 
@@ -75,9 +75,9 @@ Llama powers Meta AI across:
 
 | Company | Use case |
 |---------|----------|
-| Spotify | Personalized recommendations |
-| AT&T | Production deployment |
-| DoorDash | Production deployment |
+| [[Spotify]] | Personalized recommendations |
+| [[AT&T]] | Production deployment |
+| [[DoorDash]] | Production deployment |
 | 50%+ Fortune 500 | Pilots |
 
 **Derivative models:** Thousands of developers contributing tens of thousands of fine-tuned models.
@@ -105,7 +105,7 @@ Llama powers Meta AI across:
 | [[Gemini]] | No vendor lock-in | Less distribution |
 | [[Qwen]]/[[DeepSeek]] | Western enterprise trust | Less efficient |
 
-**Unique position:** Only major US lab with open weights. Bridge between closed (OpenAI/Anthropic) and Chinese open models.
+**Unique position:** Only major US lab with open weights. Bridge between closed ([[OpenAI]]/[[Anthropic]]) and Chinese open models.
 
 ---
 
@@ -144,6 +144,6 @@ Llama powers Meta AI across:
 - [[ChatGPT]] — competitor (closed)
 - [[Claude]] — competitor (closed)
 - [[Gemini]] — competitor (closed)
-- [[Qwen]] — open source peer (China)
-- [[DeepSeek]] — open source peer (China)
+- [[Qwen]] — open source peer ([[China]])
+- [[DeepSeek]] — open source peer ([[China]])
 - [[Hugging Face]] — distribution platform

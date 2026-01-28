@@ -3,7 +3,7 @@ aliases: [TSM]
 ---
 	#actor #foundry #taiwan
 
-**Taiwan Semiconductor Manufacturing Company** — the world's dominant pure-play logic foundry (~60% market share).
+**[[Taiwan]] Semiconductor Manufacturing Company** — the world's dominant pure-play logic foundry (~60% market share).
 
 ## Core thesis
 
@@ -15,7 +15,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 - [[Why TSMC can afford patience]] — positional advantage enables discipline
 - [[Customer lock-in via co-design]] — the real moat beyond yields
 - [[Yield as competitive moat]] — the technical flywheel
-- [[Node lag as strategy]] — overseas fabs intentionally trail Taiwan
+- [[Node lag as strategy]] — overseas fabs intentionally trail [[Taiwan]]
 - [[Taiwan concentration risk]] — the elephant in the room
 - [[Advanced packaging]] — CoWoS monopoly, another moat beyond foundry
 
@@ -48,13 +48,13 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
-- **US-Taiwan trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total Taiwan chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for Taiwan. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
-- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Taiwan/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
+- **US-[[Taiwan]] trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total [[Taiwan]] chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for [[Taiwan]]. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
+- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns [[Taiwan]]/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
 - **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
 - **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification (land buy Jan 2026)
 - **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
-- **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. Xiaomi 3nm chip as proof.
+- **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
 
 ## Open questions
 
@@ -73,7 +73,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | Market share | **71%** (Q3 2025) |
 | Leading edge | 2nm ramping 2025 |
 | U.S. investment | up to **$165B** (Arizona) + **$100B** (4 more fabs) |
-| CHIPS Act | $6.6B |
+| [[CHIPS Act]] | $6.6B |
 | **2026 capex** | **$52B-$56B** |
 | **FY2025 revenue** | **>$100B** (first time) |
 | **Short interest** | **0.5%** of float (Jan 2026) |
@@ -90,7 +90,7 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 TSMC's 3nm is not one process — it's a family optimized for different use cases:
 
-| Node | Focus | Trade-offs | Status |
+| Node | Focus | [[Trade]]-offs | Status |
 |------|-------|------------|--------|
 | **N3E** | Baseline 3nm | Balanced PPA | Production |
 | **N3P** | Performance Enhanced | +5% vs N3E, -10% power, +4% density | Production |
@@ -101,7 +101,7 @@ TSMC's 3nm is not one process — it's a family optimized for different use case
 - Higher voltage operation (>1.0V)
 - Lower density vs N3P
 - Lower efficiency vs N3P
-- Target: desktop/laptop chips that can tolerate power draw
+- [[Target]]: desktop/laptop chips that can tolerate power draw
 
 **Who uses what:**
 - [[Apple]]: N3E/N3P (efficiency-first for laptops/phones)
@@ -149,7 +149,7 @@ What consensus assumes (update when you see estimates):
 | Arizona timeline | On schedule | |
 | 2024 revenue growth | +20% YoY (Q4) | Jan 2025 |
 | Gross margin | 59% (Q4 2024) | Jan 2025 |
-| **2026 revenue growth** | **30%** (Street), **25-30%** (likely guide) | Susquehanna Jan 2026 |
+| **2026 revenue growth** | **30%** (Street), **25-30%** (likely guide) | [[Susquehanna]] Jan 2026 |
 
 **Priced in:**
 - Continued dominance at leading edge
@@ -157,10 +157,10 @@ What consensus assumes (update when you see estimates):
 - Apple/NVIDIA as locked customers
 
 **Not priced in (potential surprises):**
-- Taiwan disruption
-- N-2 rule relaxation
+- [[Taiwan]] disruption
+- [[N-2 rule]] relaxation
 - Major customer defection
-- Arizona yields matching Taiwan faster than expected
+- Arizona yields matching [[Taiwan]] faster than expected
 
 ---
 
@@ -168,13 +168,13 @@ What consensus assumes (update when you see estimates):
 
 Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever capex bet:
 
-**1. Controlling unit economics** — Advanced chip costs aren't getting cheaper. By controlling unit economics, TSMC prevents customers (Apple, NVIDIA, AMD, Qualcomm) from becoming competitors. No one can afford to build their own fabs.
+**1. Controlling unit economics** — Advanced chip costs aren't getting cheaper. By controlling unit economics, TSMC prevents customers (Apple, NVIDIA, [[AMD]], Qualcomm) from becoming competitors. No one can afford to build their own fabs.
 
 **2. Advanced packaging bottleneck** — CoWoS packaging now 20-30% of total chip cost. Was a huge bottleneck in 2025. TSMC targeting 120K wafers/month CoWoS capacity by 2026 (2x current). If they hit it, customers have no alternative.
 
-**3. Geopolitical protection** — Arizona/Japan capacity is expensive but provides safety net from shifting trade rules and global politics. Potential "honorary US company" status if Arizona expansion proceeds.
+**3. Geopolitical protection** — Arizona/[[Japan]] capacity is expensive but provides safety net from shifting trade rules and global politics. Potential "honorary US company" status if Arizona expansion proceeds.
 
-**4. Limits of the "silicon island"** — Taiwan resources running tight: power (97% imported), ultra-pure water. By grabbing industrial real estate now, TSMC leaves competitors and local government "left dry."
+**4. Limits of the "silicon island"** — [[Taiwan]] resources running tight: power (97% imported), ultra-pure water. By grabbing industrial real estate now, TSMC leaves competitors and local government "left dry."
 
 **5. Supercycle demand** — 2nm uses new nanosheet (GAA) transistor architecture with higher profit margins. Early adopters (Apple, NVIDIA) already committed. Spending big now locks out rivals before supercycle hits.
 
@@ -183,7 +183,7 @@ Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever cap
 - Apple's 2nm quality test — Apple is the anchor customer for the entire $56B investment
 - US deal could close as early as Feb 2026
 
-*Source: @jenniatech TikTok, Jan 21, 2026*
+*Source: @jenniatech [[TikTok]], Jan 21, 2026*
 
 ---
 
@@ -210,9 +210,9 @@ Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever cap
 - Helps assuage concerns about sustainability of data center spending
 - US investment commitment expected: up to **$165B** total
 - Memory crunch headwind: smartphone shipments -11.6% expected (Macquarie)
-- Plants building in Japan (2nm pivot) and Germany
+- Plants building in [[Japan]] (2nm pivot) and [[Germany]]
 
-**Pre-earnings (Susquehanna)**: Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
+**Pre-earnings ([[Susquehanna]])**: Hosseini expected guidance "may disappoint some investors" — but TSMC beat even bullish expectations.
 
 **Stock reaction:** Fresh all-time high ~NT$1,600+ (highlighted yellow on Bloomberg chart).
 
@@ -235,12 +235,12 @@ Framework from @jenniatech (Jan 2026) on why TSMC is making its largest-ever cap
 
 **What low short interest suggests:**
 - Bears see no compelling catalyst — AI monopoly thesis is consensus
-- Taiwan geopolitical risk NOT being actively hedged via shorting
+- [[Taiwan]] geopolitical risk NOT being actively hedged via shorting
 - No one wants to fight foundry monopolist + AI demand combo
 
 **Contrarian read:** When everyone's long and shorts have capitulated, who's left to buy? Could signal crowded positioning. But could also mean fundamental case is so bulletproof that shorting is seen as reckless.
 
-**Watch for:** Rising short interest would signal emerging skepticism on AI demand durability or Taiwan risk being priced in.
+**Watch for:** Rising short interest would signal emerging skepticism on AI demand durability or [[Taiwan]] risk being priced in.
 
 See [[Short interest]] for broader framework on interpreting this signal.
 
@@ -249,7 +249,7 @@ See [[Short interest]] for broader framework on interpreting this signal.
 ## For theses
 
 - [[Long TSMC]] — co-design moat deeper than node leadership
-- [[Short TSMC long Korea]] — the "short" leg; high expectations, Taiwan risk
+- [[Short TSMC long Korea]] — the "short" leg; high expectations, [[Taiwan]] risk
 - [[Long Apple]] — Apple relationship proves co-design depth
 - [[Long OSAT and test equipment]] — CoWoS packaging is a bottleneck, but TSMC controls it (not pure OSAT play)
 

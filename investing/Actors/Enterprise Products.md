@@ -23,7 +23,7 @@ aliases: [EPD]
 | Asset Type | Scale |
 |------------|-------|
 | NGL pipelines | 20,000+ miles |
-| Natural gas pipelines | 20,000+ miles |
+| [[Natural gas]] pipelines | 20,000+ miles |
 | Petrochemical plants | Multiple Gulf Coast |
 | NGL fractionation | Largest capacity |
 | Export terminals | Mont Belvieu |
@@ -34,8 +34,8 @@ aliases: [EPD]
 
 | Segment | Focus |
 |---------|-------|
-| NGL Pipelines & Services | Transport, fractionation |
-| Crude Oil Pipelines | Permian takeaway |
+| NGL Pipelines & Services | [[Transport]], fractionation |
+| Crude [[Oil]] Pipelines | Permian takeaway |
 | Natural Gas Pipelines | Gathering, transport |
 | Petrochemical & Refined | Propylene, butadiene |
 
@@ -47,7 +47,7 @@ aliases: [EPD]
 - Gather gas at wellhead
 - Process to separate NGLs
 - Fractionate into purity products
-- Transport to Gulf Coast
+- [[Transport]] to Gulf Coast
 - Export or deliver to petrochem
 
 Vertical integration reduces merchant risk.

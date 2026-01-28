@@ -3,7 +3,7 @@ aliases: [Free Press, TFP, Common Sense]
 ---
 #actor #media #news #substack #usa
 
-**The Free Press** — Bari Weiss's Substack publication. Acquired by Paramount/Skydance for $150M (2025). Weiss now CBS News editor-in-chief. 1.5M subscribers.
+**The Free Press** — Bari Weiss's [[Substack]] publication. Acquired by Paramount/Skydance for $150M (2025). Weiss now CBS News editor-in-chief. 1.5M subscribers.
 
 ---
 
@@ -38,9 +38,9 @@ aliases: [Free Press, TFP, Common Sense]
 | Date | Event |
 |------|-------|
 | 2020 | Bari Weiss resigns from NY Times (public letter) |
-| Jan 2021 | Launches "Common Sense" newsletter on Substack |
+| Jan 2021 | Launches "Common Sense" newsletter on [[Substack]] |
 | 2022 | Rebrands to "The Free Press" |
-| Dec 2022 | Publishes Twitter Files (Elon Musk access) |
+| Dec 2022 | Publishes Twitter Files ([[Elon Musk]] access) |
 | 2025 | Acquired by Paramount/Skydance |
 
 ---
@@ -51,20 +51,20 @@ aliases: [Free Press, TFP, Common Sense]
 |--------|-------------|
 | Self-description | "Honest. Independent. Fearless." |
 | Critics' view | "Anti-woke," centrist, heterodox |
-| Target audience | Disaffected liberals, independents |
+| [[Target]] audience | Disaffected liberals, independents |
 | Competitors | Legacy media (NYT, WaPo), other Substacks |
 
 **Niche:** Stories "legacy media was scared to touch."
 
 ---
 
-## Substack success
+## [[Substack]] success
 
 | Metric | Value |
 |--------|-------|
 | Total subscribers | 1.5M |
 | Paid subscribers | 170K+ |
-| Substack rank | **#1 by revenue** |
+| [[Substack]] rank | **#1 by revenue** |
 | Politics rank | **#1** |
 | Annual revenue | ~$15M (subscriptions) |
 
@@ -96,7 +96,7 @@ aliases: [Free Press, TFP, Common Sense]
 |------|-------------|
 | **Honestly** | Bari Weiss interviews, commentary |
 | Format | Long-form conversations |
-| Distribution | Podcast platforms + Substack |
+| Distribution | Podcast platforms + [[Substack]] |
 
 ---
 
@@ -106,7 +106,7 @@ aliases: [Free Press, TFP, Common Sense]
 |-------|--------|
 | **[[Paramount Global]]** | Now owns Free Press |
 | **CBS News** | Weiss running editorial |
-| **New media model** | Substack-to-acquisition path |
+| **New media model** | [[Substack]]-to-acquisition path |
 | **Valuation** | $150M for newsletter = benchmark |
 
 ---

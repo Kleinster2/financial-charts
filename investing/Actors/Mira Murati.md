@@ -3,13 +3,13 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Mira Murati** — "Mother of ChatGPT." Ex-OpenAI CTO. Founded Thinking Machines Lab ($12B). Zuckerberg poaching target.
+**Mira Murati** — "Mother of [[ChatGPT]]." Ex-OpenAI CTO. Founded Thinking Machines Lab ($12B). Zuckerberg poaching target.
 
 ---
 
 ## Why Mira Murati matters
 
-Face of ChatGPT, now building competitor:
+Face of [[ChatGPT]], now building competitor:
 
 | Metric | Value |
 |--------|-------|
@@ -23,12 +23,12 @@ Face of ChatGPT, now building competitor:
 ## OpenAI tenure
 
 **CTO (2022-2024):**
-- Led ChatGPT development
+- Led [[ChatGPT]] development
 - Public face of OpenAI launches
 - Oversaw GPT-4, DALL-E
 - Left September 2024
 
-**"Mother of ChatGPT"** — media nickname.
+**"Mother of [[ChatGPT]]"** — media nickname.
 
 ---
 
@@ -75,10 +75,10 @@ Elite OpenAI alumni team.
 - [[a16z]]
 - [[NVIDIA]]
 - [[AMD]]
-- Accel
-- ServiceNow
-- Cisco
-- Jane Street
+- [[Accel]]
+- [[ServiceNow]]
+- [[Cisco]]
+- [[Jane Street]]
 
 Largest seed round in Silicon Valley history.
 
@@ -107,7 +107,7 @@ Learned from OpenAI governance issues.
 
 ## Zuckerberg interest
 
-**Meta poaching attempts:**
+**[[Meta]] poaching attempts:**
 - Murati = target for Zuckerberg
 - Staying independent
 - Building own lab
@@ -117,9 +117,9 @@ Learned from OpenAI governance issues.
 ## Career background
 
 **Before OpenAI:**
-- Tesla (Model X)
+- [[Tesla]] (Model X)
 - Leap Motion
-- Goldman Sachs internship
+- [[Goldman Sachs]] internship
 
 Engineering + product background.
 
@@ -152,7 +152,7 @@ Engineering + product background.
 ## Related
 
 - [[Thinking Machines Lab]] — founder, CEO ($12B valuation)
-- [[OpenAI]] — former CTO (led ChatGPT)
+- [[OpenAI]] — former CTO (led [[ChatGPT]])
 - [[Ilya Sutskever]] — former colleague (both left 2024)
 - [[Sam Altman]] — former boss
 - [[John Schulman]] — TML Chief Scientist (recruited)

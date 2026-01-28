@@ -64,13 +64,13 @@ aliases: [Prada Group, Miu Miu]
 
 | Region | YoY Change |
 |--------|------------|
-| Japan | **+46%** (best) |
-| Europe | +17% |
+| [[Japan]] | **+46%** (best) |
+| [[Europe]] | +17% |
 | Middle East | +26% |
 | Americas | +9% |
-| Asia-Pacific | Growing |
+| [[Asia]]-Pacific | Growing |
 
-**Japan strength** driven by domestic demand + tourism. Outperforming [[Kering]] (-24% in APAC).
+**[[Japan]] strength** driven by domestic demand + tourism. Outperforming [[Kering]] (-24% in APAC).
 
 ---
 
@@ -114,7 +114,7 @@ Prada bought rather than leased prime Fifth Avenue locations:
 - Prada brand itself is flat/declining
 - Miu Miu growth may normalize
 - Versace turnaround uncertain
-- Luxury slowdown in China affects all
+- Luxury slowdown in [[China]] affects all
 
 **Vs. peers:**
 - Prada +15% vs. [[Kering]] -12% in 2024

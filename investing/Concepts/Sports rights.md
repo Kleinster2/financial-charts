@@ -28,7 +28,7 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 | [[Fox Corporation]] | NFC Sunday | ~$2.2B |
 | CBS | AFC Sunday | ~$2.1B |
 | NBC/Peacock | Sunday Night | ~$2.0B |
-| Amazon Prime | Thursday Night | ~$1.0B |
+| [[Amazon]] Prime | Thursday Night | ~$1.0B |
 | NFL Network | Select games | Internal |
 
 **Total NFL media rights:** ~$10B annually through 2033.
@@ -39,7 +39,7 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 |---------|--------|
 | ESPN/ABC | Renewed through 2036 |
 | NBC/Peacock | New partner 2025+ |
-| Amazon Prime | New partner 2025+ |
+| [[Amazon]] Prime | New partner 2025+ |
 | TNT | Lost rights (WBD) |
 
 **Deal value:** ~$76B over 11 years.
@@ -50,8 +50,8 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 |---------|--------|
 | [[Fox Corporation]] | World Series, regular season |
 | ESPN | Sunday Night Baseball |
-| Apple TV+ | Friday Night Baseball |
-| Amazon | Select games |
+| [[Apple]] TV+ | Friday Night Baseball |
+| [[Amazon]] | Select games |
 
 ### College Football
 
@@ -79,9 +79,9 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 
 | Streamer | Sports strategy |
 |----------|-----------------|
-| **Amazon** | Thursday Night Football, NBA |
-| **Apple** | MLB, MLS, select events |
-| **Netflix** | NFL Christmas, live events |
+| **[[Amazon]]** | Thursday Night Football, NBA |
+| **[[Apple]]** | MLB, MLS, select events |
+| **[[Netflix]]** | NFL Christmas, live events |
 | **YouTube** | NFL Sunday Ticket |
 | **Peacock** | Olympics, Premier League |
 
@@ -119,7 +119,7 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 
 | League | Global appeal |
 |--------|---------------|
-| Premier League | Massive ($3B+ UK, more globally) |
+| Premier League | Massive ($3B+ [[UK]], more globally) |
 | UEFA Champions League | Premium |
 | FIFA World Cup | Every 4 years catalyst |
 | Formula 1 | Growing (US expansion) |
@@ -133,7 +133,7 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 | **Sports rights holders** | Pricing power |
 | **[[Fox Corporation]]** | NFL, World Cup 2026 |
 | **Disney** | ESPN DTC catalyst |
-| **Netflix** | Sports experiments |
+| **[[Netflix]]** | Sports experiments |
 | **Avoid** | Pure-play RSN exposure |
 
 ---
@@ -144,7 +144,7 @@ The battle for live sports broadcasting rights — the last "must-have" linear c
 |-------|--------|
 | **FIFA World Cup (US)** | Fox, Telemundo |
 | **ESPN DTC launch** | Disney |
-| **NBA new deals** | NBC, Amazon start |
+| **NBA new deals** | NBC, [[Amazon]] start |
 
 ---
 

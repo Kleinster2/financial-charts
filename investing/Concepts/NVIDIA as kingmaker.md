@@ -11,14 +11,14 @@ aliases: [NVIDIA strategic investments]
 
 NVIDIA's investments signal where AI is going:
 
-| Investment | Amount | Signal |
+| Investment | Amount | [[Signal]] |
 |------------|--------|--------|
-| [[Nokia]] | $1B | Telecom/6G matters |
+| [[Nokia]] | $1B | [[Telecom]]/6G matters |
 | [[Intel]] | $5B | Foundry hedge |
 | [[OpenAI]] | $100B committed | Foundation models |
 | [[AI21 Labs]] | ~$3B acquisition | LLM capability |
-| Wayve | $500M | Autonomous vehicles |
-| Nscale | $667M | UK cloud |
+| Wayve | $500M | [[Autonomous vehicles]] |
+| [[Nscale]] | $667M | [[UK]] cloud |
 
 ---
 
@@ -37,11 +37,11 @@ NVIDIA's investments signal where AI is going:
 ## Investment pattern
 
 **NVIDIA money flows to:**
-- AI infrastructure (Nokia, Nscale)
+- AI infrastructure (Nokia, [[Nscale]])
 - Foundation models (OpenAI, AI21)
 - Vertical AI (Wayve - autonomous)
 - Strategic hedges (Intel foundry)
-- Geographic expansion (Israel, UK)
+- Geographic expansion (Israel, [[UK]])
 
 ---
 
@@ -74,7 +74,7 @@ Nokia +22% on NVIDIA investment.
 
 ## Recent major moves
 
-| Date | Target | Amount |
+| Date | [[Target]] | Amount |
 |------|--------|--------|
 | Oct 2025 | [[Nokia]] | $1B (2.9% stake) |
 | Sept 2025 | [[Intel]] | $5B |

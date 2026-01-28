@@ -35,8 +35,8 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 | Player | Role |
 |--------|------|
 | [[Trade Desk]] | #1 independent DSP |
-| Google DV360 | Walled garden DSP |
-| Amazon DSP | Walled garden DSP |
+| [[Google]] DV360 | Walled garden DSP |
+| [[Amazon]] DSP | Walled garden DSP |
 | Agencies | Buying on behalf of brands |
 
 ### Supply side (sellers)
@@ -44,8 +44,8 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 | Player | Role |
 |--------|------|
 | [[Magnite]] | #1 independent SSP |
-| FreeWheel | Comcast-owned SSP |
-| Google Ad Manager | Walled garden |
+| FreeWheel | [[Comcast]]-owned SSP |
+| [[Google]] Ad Manager | Walled garden |
 | [[Roku]] | Platform + SSP |
 
 ### Inventory sources
@@ -115,7 +115,7 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 | Pluto TV | [[Paramount Global]] | 80M+ |
 | Tubi | [[Fox Corporation]] | 80M+ |
 | The Roku Channel | [[Roku]] | Built into 90M accounts |
-| Freevee | Amazon | Significant |
+| Freevee | [[Amazon]] | Significant |
 
 **FAST = fastest-growing CTV segment.**
 
@@ -136,7 +136,7 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 
 | Risk | Impact |
 |------|--------|
-| **Walled gardens** | Google/Amazon may dominate |
+| **Walled gardens** | [[Google]]/[[Amazon]] may dominate |
 | **Measurement fragmentation** | No unified standard |
 | **Ad load limits** | Viewer tolerance |
 | **Macro sensitivity** | Ad budgets cyclical |

@@ -3,7 +3,7 @@ aliases: [Bureau of Industry and Security, Commerce Department export controls]
 ---
 #actor #government #usa #policy
 
-**BIS (Bureau of Industry and Security)** — US Commerce Department agency controlling technology exports. Primary enforcer of chip export restrictions to China.
+**BIS (Bureau of Industry and Security)** — US Commerce Department agency controlling technology exports. Primary enforcer of chip export restrictions to [[China]].
 
 ---
 
@@ -12,11 +12,11 @@ aliases: [Bureau of Industry and Security, Commerce Department export controls]
 | Function | Impact |
 |----------|--------|
 | Entity List | Bans US tech sales to listed companies |
-| Export controls | Restricts chip/equipment sales to China |
+| Export controls | Restricts chip/equipment sales to [[China]] |
 | License decisions | Approves/denies restricted sales |
 | Enforcement | Investigates violations |
 
-**Key lever:** BIS decides which chips [[NVIDIA]], [[AMD]], and equipment makers can sell to China.
+**Key lever:** BIS decides which chips [[NVIDIA]], [[AMD]], and equipment makers can sell to [[China]].
 
 ---
 
@@ -26,9 +26,9 @@ aliases: [Bureau of Industry and Security, Commerce Department export controls]
 |------|--------|--------|
 | 2019 | Huawei Entity List | [[Huawei]] cut off from US tech |
 | 2020 | SMIC restrictions | [[SMIC]] limited to mature nodes |
-| 2022 | October 7 rules | Advanced AI chips banned to China |
+| 2022 | October 7 rules | Advanced AI chips banned to [[China]] |
 | 2023 | Updated controls | Closed loopholes, more restrictions |
-| 2024 | Further tightening | HBM, equipment scope expanded |
+| 2024 | Further tightening | [[HBM]], equipment scope expanded |
 
 See [[Export controls]] for full policy details.
 
@@ -54,7 +54,7 @@ See [[Export controls]] for full policy details.
 
 | Scenario | Winners | Losers |
 |----------|---------|--------|
-| New restrictions | Domestic China chips | US suppliers to China |
+| New restrictions | Domestic [[China]] chips | US suppliers to [[China]] |
 | Entity List addition | Competitors | Listed company |
 | License denial | Alternatives | Applicant |
 | Enforcement action | Compliant players | Violators |

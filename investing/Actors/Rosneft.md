@@ -3,7 +3,7 @@ aliases: [ROSN]
 ---
 #actor #energy #oil #russia #public
 
-**Rosneft** — Russian state-controlled oil giant. Largest oil producer in Russia. Losing Venezuela assets under Monroe Doctrine revival.
+**Rosneft** — Russian state-controlled oil giant. Largest oil producer in [[Russia]]. Losing Venezuela assets under Monroe Doctrine revival.
 
 ---
 
@@ -22,7 +22,7 @@ aliases: [ROSN]
 
 **Rosneft was major player:**
 - Invested billions in Venezuelan oil
-- PDVSA joint ventures
+- [[PDVSA]] joint ventures
 - Accepted oil as debt repayment
 - Helped circumvent US sanctions
 
@@ -40,8 +40,8 @@ See [[Maduro capture 2026]] and [[Monroe Doctrine]].
 | Sanction | Impact |
 |----------|--------|
 | US (2014+) | Limited access to Western capital |
-| EU (2022+) | Technology transfer blocked |
-| Western exit | BP, Shell divested stakes |
+| [[EU]] (2022+) | Technology transfer blocked |
+| Western exit | [[BP]], [[Shell]] divested stakes |
 
 ---
 
@@ -56,6 +56,6 @@ See [[Maduro capture 2026]] and [[Monroe Doctrine]].
 ## Related
 
 - [[Venezuela]] — lost market
-- [[Monroe Doctrine]] — policy excluding Russia
-- [[CNPC]], [[Sinopec]] — fellow losers (China)
+- [[Monroe Doctrine]] — policy excluding [[Russia]]
+- [[CNPC]], [[Sinopec]] — fellow losers ([[China]])
 - [[Chevron]], [[Exxon]] — beneficiaries replacing Rosneft

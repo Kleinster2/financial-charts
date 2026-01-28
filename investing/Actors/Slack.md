@@ -44,11 +44,11 @@ Integrated into Salesforce's enterprise services portfolio.
 
 | vs | Slack advantage | Slack weakness |
 |----|----------------|----------------|
-| [[Teams]] | UX, integrations, developer love | Microsoft bundling |
+| [[Teams]] | UX, integrations, developer love | [[Microsoft]] bundling |
 | [[Discord]] | Professional, compliance | Less fun |
 | [[Google Chat]] | Independence | Smaller ecosystem |
 
-Microsoft bundling Teams with Office 365 is existential threat.
+[[Microsoft]] bundling Teams with Office 365 is existential threat.
 
 ---
 
@@ -78,6 +78,6 @@ Microsoft bundling Teams with Office 365 is existential threat.
 ## Related
 
 - [[Salesforce]] — parent company
-- [[Teams]] — primary competitor (Microsoft)
+- [[Teams]] — primary competitor ([[Microsoft]])
 - [[Discord]] — competitor
 - [[Clawdbot]] — integrates with Slack

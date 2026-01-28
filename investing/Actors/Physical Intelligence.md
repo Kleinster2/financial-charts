@@ -39,29 +39,29 @@ Foundation model for robotics:
 |-------|------|--------|-----------|------|
 | Seed | Mar 2024 | $70M | — | — |
 | Series A | Nov 2024 | $400M | $2B | — |
-| Series B | Nov 2025 | $600M | $5.6B | CapitalG |
+| Series B | Nov 2025 | $600M | $5.6B | [[CapitalG]] |
 | **Total** | | **$1.07B** | | |
 
 ### Key investors
 
 | Investor | Role |
 |----------|------|
-| **CapitalG** | Lead Series B |
+| **[[CapitalG]]** | Lead Series B |
 | **[[Lux Capital]]** | Multiple rounds |
 | **[[Thrive Capital]]** | Series A+ |
 | **[[BOND]]** | Series A+ |
-| **Jeff Bezos** | Strategic |
+| **[[Jeff Bezos]]** | Strategic |
 | **[[OpenAI]]** | Strategic |
 | **[[Sequoia Capital]]** | Series B |
 | **[[Index Ventures]]** | Series B |
 | **Redpoint** | Series B |
-| **T. Rowe Price** | Series B |
+| **[[T. Rowe Price]]** | Series B |
 
 ### Founders
 
 | Person | Background |
 |--------|------------|
-| Team | Ex-Google DeepMind, Stanford, UC Berkeley |
+| Team | Ex-[[Google DeepMind]], [[Stanford]], UC Berkeley |
 
 ---
 
@@ -77,15 +77,15 @@ Foundation model for robotics:
 
 ---
 
-## Robotics AI landscape
+## [[Robotics]] AI landscape
 
 | Company | Approach |
 |---------|----------|
 | **Physical Intelligence** | Foundation model for robots |
 | [[Figure AI]] | Humanoid robots |
 | [[Agility Robotics]] | Humanoid (warehouse) |
-| [[Boston Dynamics]] | Advanced robotics (Hyundai) |
-| [[Tesla Optimus]] | Humanoid (Tesla) |
+| [[Boston Dynamics]] | Advanced robotics ([[Hyundai]]) |
+| [[Tesla Optimus]] | Humanoid ([[Tesla]]) |
 
 Physical Intelligence = software layer that could power many robot makers.
 
@@ -96,12 +96,12 @@ Physical Intelligence = software layer that could power many robot makers.
 **Bull:**
 - Foundation model approach could scale
 - Bezos + OpenAI backing
-- Robotics market enormous
+- [[Robotics]] market enormous
 - Software margins > hardware
 
 **Bear:**
 - Early stage
-- Robotics AI hard
+- [[Robotics]] AI hard
 - Competition from big tech
 - Embodied AI unproven
 

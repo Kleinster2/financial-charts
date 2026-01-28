@@ -100,7 +100,7 @@ Tiger = most transactional of major growth investors.
 
 ---
 
-## Signal value
+## [[Signal]] value
 
 **Tiger activity indicates:**
 - When active: Market frothy
@@ -127,7 +127,7 @@ Canary in the growth funding coal mine.
 
 ## Related
 
-- [[Brex]] — portfolio (led Series D), acquired by Capital One
+- [[Brex]] — portfolio (led Series D), acquired by [[Capital One]]
 - [[a16z]] — peer (growth investor)
 - [[Sequoia Capital]] — peer (but more relationship-driven)
 - [[Lightspeed Venture Partners]] — peer (growth investor)

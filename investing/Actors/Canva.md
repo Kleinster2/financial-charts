@@ -14,7 +14,7 @@ aliases: []
 | Valuation | ~$26B |
 | Users | 170M+ |
 | ARR | ~$2.3B |
-| HQ | Sydney, Australia |
+| HQ | Sydney, [[Australia]] |
 | Status | Private |
 
 Democratized design for non-designers.
@@ -54,7 +54,7 @@ Design for everyone, not just designers.
 |------|-------|
 | Free | Core features |
 | Pro | $13/mo |
-| Teams | $15/user/mo |
+| [[Teams]] | $15/user/mo |
 | Enterprise | Custom |
 
 Freemium with strong conversion.

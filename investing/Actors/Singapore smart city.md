@@ -47,7 +47,7 @@ aliases: [Smart Nation Singapore]
 |---------|--------|
 | Adoption | Near-universal |
 | Speed | Real-time P2P |
-| Integration | Banks, apps, merchants |
+| Integration | [[Banks]], apps, merchants |
 
 ### Smart Nation Sensor Platform
 
@@ -62,7 +62,7 @@ aliases: [Smart Nation Singapore]
 | Technology | Status |
 |------------|--------|
 | Fiber broadband | Universal |
-| 5G | Nationwide rollout |
+| [[5G]] | Nationwide rollout |
 | 10G upgrade | $100M investment, 2028 target |
 
 ---
@@ -85,9 +85,9 @@ aliases: [Smart Nation Singapore]
 | Focus area | Initiative |
 |------------|------------|
 | AI integration | Deeper deployment |
-| Cybersecurity | Enhanced protection |
+| [[Cybersecurity]] | Enhanced protection |
 | Inclusivity | Digital equity |
-| Quantum computing | Trials planned |
+| [[Quantum computing]] | Trials planned |
 | Climate tech | Sustainability |
 
 ---

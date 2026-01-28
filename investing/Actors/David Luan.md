@@ -2,7 +2,7 @@
 
 #actor #founder #usa #ai #talent
 
-**David Luan** — VP of Autonomy at [[Amazon]], leads AGI SF Lab. Former CEO of [[Adept]] ($1B valuation, acqui-hired by Amazon June 2024). Ex-OpenAI VP of Engineering. Building AI agents for digital and physical worlds.
+**David Luan** — VP of Autonomy at [[Amazon]], leads AGI SF Lab. Former CEO of [[Adept]] ($1B valuation, acqui-hired by Amazon June 2024). Ex-OpenAI VP of Engineering. Building [[AI agents]] for digital and physical worlds.
 
 ---
 
@@ -26,7 +26,7 @@ Elite AI trajectory:
 |---------|------|--------|
 | Dextro | CEO/Founder | 2011-2017 |
 | [[OpenAI]] | VP of Engineering | 2018-2020 |
-| Google | Director | 2020-2021 |
+| [[Google]] | Director | 2020-2021 |
 | [[Adept]] | CEO/Founder | 2022-2024 |
 | [[Amazon]] | VP Autonomy, AGI SF Lab | 2024- |
 
@@ -34,16 +34,16 @@ Elite AI trajectory:
 
 ## Adept story
 
-**Founded 2022:** Built AI agents that use software like humans — controlling mouse, keyboard, web browsers.
+**Founded 2022:** Built [[AI agents]] that use software like humans — controlling mouse, keyboard, web browsers.
 
 | Metric | Value |
 |--------|-------|
 | Total raised | $415M |
 | Peak valuation | $1B |
 | Series B | $350M (March 2023) |
-| Key investors | Greylock, General Catalyst, [[NVIDIA]] |
+| Key investors | Greylock, [[General Catalyst]], [[NVIDIA]] |
 
-**Why it ended:** Needed more capital, couldn't raise at higher valuation. Competed against OpenAI, Anthropic, Google all building agents.
+**Why it ended:** Needed more capital, couldn't raise at higher valuation. Competed against OpenAI, [[Anthropic]], [[Google]] all building agents.
 
 **Amazon deal (June 2024):** Acqui-hire structure — Amazon licensed tech, hired team, avoided M&A regulatory scrutiny. Investors roughly broke even.
 

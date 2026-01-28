@@ -3,7 +3,7 @@ aliases: [Zhilin Yang, 杨植麟]
 ---
 #actor #person #ai #china
 
-**Yang Zhilin** (杨植麟) — Founder/CEO of [[Moonshot AI]]. Transformer-XL and XLNet author. Tsinghua CS #1 in class, CMU PhD in 4 years. China's most credentialed AI founder.
+**Yang Zhilin** (杨植麟) — Founder/CEO of [[Moonshot AI]]. [[Transformer]]-XL and XLNet author. Tsinghua CS #1 in class, CMU PhD in 4 years. [[China]]'s most credentialed AI founder.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Zhilin Yang, 杨植麟]
 | Metric | Value |
 |--------|-------|
 | Company | [[Moonshot AI]] ($4.8B) |
-| Key papers | Transformer-XL, XLNet |
+| Key papers | [[Transformer]]-XL, XLNet |
 | Education | Tsinghua #1, CMU PhD (4 yrs) |
 | Age at first startup | 23 (Recurrent AI, 2016) |
 | Age at Moonshot founding | ~30 (2023) |
@@ -35,9 +35,9 @@ Rare combination: elite academic credentials + successful entrepreneur + technic
 
 ## Research contributions
 
-### Transformer-XL (2019)
+### [[Transformer]]-XL (2019)
 
-Extended Transformer architecture for longer sequences:
+Extended [[Transformer]] architecture for longer sequences:
 - Segment-level recurrence mechanism
 - Relative positional encodings
 - Enabled longer context understanding
@@ -59,9 +59,9 @@ Generalized autoregressive pretraining:
 
 | Company | Role | Period | Notes |
 |---------|------|--------|-------|
-| **Google Brain** | Researcher | — | Worked with Quoc V. Le |
-| **Meta AI** | Researcher | — | Worked with Jason Weston |
-| **Huawei** | Collaborator | 2020 | Early Pangu AI model |
+| **[[Google]] Brain** | Researcher | — | Worked with Quoc V. Le |
+| **[[Meta]] AI** | Researcher | — | Worked with Jason Weston |
+| **[[Huawei]]** | Collaborator | 2020 | Early Pangu AI model |
 | **BAAI** | Team lead | 2021 | Wudao LLM development |
 
 **Network:** Direct connections to top AI researchers globally.
@@ -89,7 +89,7 @@ Generalized autoregressive pretraining:
 | Total raised | $1.77B |
 | Key product | Kimi (chatbot), K2.5 (model) |
 
-**Catalyst:** After ChatGPT launched (Nov 2022), Yang traveled to US in Dec 2022, decided to "ride the wave" in GenAI.
+**Catalyst:** After [[ChatGPT]] launched (Nov 2022), Yang traveled to US in Dec 2022, decided to "ride the wave" in GenAI.
 
 ---
 
@@ -141,7 +141,7 @@ Founded company on album's anniversary because it was his favorite.
 |--------|-------|
 | Born | ~1993 |
 | Education | Tsinghua #1, CMU PhD |
-| Key papers | Transformer-XL, XLNet |
+| Key papers | [[Transformer]]-XL, XLNet |
 | Company | [[Moonshot AI]] ($4.8B) |
 | Role | Founder & CEO |
 

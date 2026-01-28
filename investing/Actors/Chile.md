@@ -1,6 +1,6 @@
 #actor #geography #copper #latam
 
-**Chile** — World's largest copper producer (~25% global). Home to Codelco, Antofagasta. Critical for AI infrastructure thesis via copper.
+**Chile** — World's largest copper producer (~25% global). [[Home]] to Codelco, Antofagasta. Critical for AI infrastructure thesis via copper.
 
 ---
 
@@ -12,12 +12,12 @@ Chile is the Saudi Arabia of copper:
 |--------|-------|
 | Global copper share | ~25% |
 | Largest producer | [[Codelco]] (state-owned) |
-| Key companies | Codelco, [[Antofagasta]], Escondida (BHP) |
-| Relevance | Copper for AI infrastructure |
+| Key companies | Codelco, [[Antofagasta]], Escondida ([[BHP]]) |
+| Relevance | [[Copper]] for AI infrastructure |
 
 ---
 
-## Copper for AI
+## [[Copper]] for AI
 
 **Chile's copper feeds AI buildout:**
 - Data center wiring and busbars
@@ -34,7 +34,7 @@ See [[Copper for AI]] for thesis.
 | Operation | Owner | Notes |
 |-----------|-------|-------|
 | [[Codelco]] | State | World's largest producer |
-| Escondida | BHP (57.5%) | World's largest mine |
+| Escondida | [[BHP]] (57.5%) | World's largest mine |
 | Collahuasi | Anglo American/Glencore | Top 5 globally |
 | [[Antofagasta]] | Luksic family | Pure-play public |
 | Los Pelambres | Antofagasta | Expansion underway |
@@ -75,19 +75,19 @@ See [[Copper for AI]] for thesis.
 | Company | Ticker | Notes |
 |---------|--------|-------|
 | [[Antofagasta]] | ANTO.L | Pure-play Chile |
-| BHP | BHP | Escondida owner |
+| [[BHP]] | [[BHP]] | Escondida owner |
 | [[Freeport-McMoRan]] | FCX | Some Chile exposure |
-| [[Southern Copper]] | SCCO | Peru/Mexico, not Chile |
+| [[Southern Copper]] | SCCO | Peru/[[Mexico]], not Chile |
 
 See [[Long emerging markets]] — Chile as commodity play in EM supercycle thesis.
 
 ---
 
-## Lithium bonus
+## [[Lithium]] bonus
 
 **Chile also major lithium producer:**
 - Salar de Atacama (world's best lithium brine)
-- SQM, Albemarle operations
+- [[SQM]], [[Albemarle]] operations
 - EV battery relevance
 - Government seeking more control
 
@@ -97,10 +97,10 @@ See [[Long emerging markets]] — Chile as commodity play in EM supercycle thesi
 
 | Metric | Value |
 |--------|-------|
-| Copper production | ~5.5M tons/year |
+| [[Copper]] production | ~5.5M tons/year |
 | Global share | ~25% |
 | GDP | ~$300B |
-| Key export | Copper (~50% of exports) |
+| Key export | [[Copper]] (~50% of exports) |
 | State producer | [[Codelco]] |
 
 ---
@@ -111,5 +111,5 @@ See [[Long emerging markets]] — Chile as commodity play in EM supercycle thesi
 - [[Codelco]] — state producer
 - [[Antofagasta]] — public pure-play
 - [[Freeport-McMoRan]] — peer producer
-- [[Southern Copper]] — peer producer (Peru/Mexico)
+- [[Southern Copper]] — peer producer (Peru/[[Mexico]])
 

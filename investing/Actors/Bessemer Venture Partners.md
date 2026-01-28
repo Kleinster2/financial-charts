@@ -3,7 +3,7 @@ aliases: [Bessemer, BVP]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Bessemer Venture Partners** — Oldest VC (1911). Shopify, Twilio, LinkedIn investor. ~$20B AUM. Famous "anti-portfolio."
+**Bessemer Venture Partners** — Oldest VC (1911). [[Shopify]], [[Twilio]], LinkedIn investor. ~$20B AUM. Famous "anti-portfolio."
 
 ---
 
@@ -22,14 +22,14 @@ aliases: [Bessemer, BVP]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Shopify** | Early | Public (SHOP) |
-| **Twilio** | Early | Public (TWLO) |
+| **[[Shopify]]** | Early | Public (SHOP) |
+| **[[Twilio]]** | Early | Public (TWLO) |
 | **LinkedIn** | Early | Acquired by MSFT |
-| **Pinterest** | Early | Public (PINS) |
+| **[[Pinterest]]** | Early | Public (PINS) |
 | **Yelp** | Early | Public (YELP) |
-| **DocuSign** | Early | Public (DOCU) |
-| **Wix** | Early | Public (WIX) |
-| **Toast** | Early | Public (TOST) |
+| **[[DocuSign]]** | Early | Public (DOCU) |
+| **[[Wix]]** | Early | Public (WIX) |
+| **[[Toast]]** | Early | Public (TOST) |
 
 ---
 
@@ -37,12 +37,12 @@ aliases: [Bessemer, BVP]
 
 | Company | Story |
 |---------|-------|
-| **Apple** | Passed |
-| **Google** | Passed |
+| **[[Apple]]** | Passed |
+| **[[Google]]** | Passed |
 | **Facebook** | Passed |
-| **Tesla** | Passed |
-| **Airbnb** | Passed |
-| **eBay** | Passed |
+| **[[Tesla]]** | Passed |
+| **[[Airbnb]]** | Passed |
+| **[[eBay]]** | Passed |
 
 Bessemer publishes their misses — rare VC transparency.
 
@@ -52,10 +52,10 @@ Bessemer publishes their misses — rare VC transparency.
 
 | Sector | Examples |
 |--------|----------|
-| **Cloud/SaaS** | Twilio, DocuSign |
-| **E-commerce** | Shopify |
-| **Consumer** | Pinterest, Yelp |
-| **Fintech** | Toast |
+| **Cloud/[[SaaS]]** | [[Twilio]], [[DocuSign]] |
+| **E-commerce** | [[Shopify]] |
+| **[[Consumer]]** | [[Pinterest]], Yelp |
+| **[[Fintech]]** | [[Toast]] |
 
 ---
 
@@ -66,7 +66,7 @@ Bessemer publishes their misses — rare VC transparency.
 | Founded | 1911 |
 | AUM | ~$20B |
 | Famous for | Anti-portfolio |
-| Key exits | Shopify, Twilio |
+| Key exits | [[Shopify]], [[Twilio]] |
 
 ---
 

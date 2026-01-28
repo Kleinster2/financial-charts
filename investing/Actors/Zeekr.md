@@ -23,7 +23,7 @@ aliases: [ZK]
 | Model | Segment | Note |
 |-------|---------|------|
 | **Zeekr 001** | Shooting brake/wagon | Flagship |
-| **Zeekr 009** | Luxury MPV | Premium |
+| **Zeekr 009** | [[Luxury]] MPV | Premium |
 | **Zeekr X** | Compact crossover | Volume |
 | **Zeekr 007** | Sedan | 2024 launch |
 
@@ -36,7 +36,7 @@ aliases: [ZK]
 **Geely portfolio:**
 - Zeekr (premium EV)
 - Polestar (performance EV)
-- Volvo Cars (stake)
+- [[Volvo Cars]] (stake)
 - Lotus (sports cars)
 - Lynk & Co (mainstream)
 
@@ -46,13 +46,13 @@ Zeekr uses Geely's SEA platform.
 
 ## Manufacturing
 
-### Zeekr Intelligent Factory (Hangzhou Bay)
+### Zeekr Intelligent Factory ([[Hangzhou]] Bay)
 
 | Metric | Value |
 |--------|-------|
 | Capacity | 300K vehicles/year |
 | Automation | 300+ robots (welding fully automated) |
-| Tech | 5G-enabled "smart, agile, connected" |
+| Tech | [[5G]]-enabled "smart, agile, connected" |
 
 One of the most advanced EV manufacturing facilities globally.
 
@@ -60,7 +60,7 @@ One of the most advanced EV manufacturing facilities globally.
 
 | Factory | Location | Models |
 |---------|----------|--------|
-| Hangzhou Bay | Ningbo | Zeekr 001, 007 |
+| [[Hangzhou]] Bay | Ningbo | Zeekr 001, 007 |
 | Chengdu | Sichuan | Various |
 | Chunxiao | Ningbo | Zeekr Mix (100K/year) |
 
@@ -69,7 +69,7 @@ One of the most advanced EV manufacturing facilities globally.
 Could use **Volvo's South Carolina plant** (Geely-owned):
 - Currently makes Volvo EX90, Polestar 3
 - $1.3B invested over 10 years
-- Path to avoid China tariffs for US market
+- Path to avoid [[China]] tariffs for US market
 
 ### Milestones
 
@@ -83,7 +83,7 @@ Could use **Volvo's South Carolina plant** (Geely-owned):
 | Brand | Positioning | Parent |
 |-------|-------------|--------|
 | **Zeekr** | Premium EV | Geely |
-| NIO | Premium EV, battery swap | Independent |
+| [[NIO]] | Premium EV, battery swap | Independent |
 | [[Xpeng|XPeng]] | Tech-forward EV | Independent |
 | [[BYD]] | Mass market to premium | Independent |
 | Li Auto | Extended range SUV | Independent |
@@ -99,9 +99,9 @@ Could use **Volvo's South Carolina plant** (Geely-owned):
 - International expansion
 
 **Bear:**
-- Intense China EV competition
+- Intense [[China]] EV competition
 - Price war pressure
-- Limited brand recognition outside China
+- Limited brand recognition outside [[China]]
 - Geely complexity
 
 ---

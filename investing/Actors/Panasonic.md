@@ -14,7 +14,7 @@ aliases: [Panasonic Energy, 6752.T]
 | Ticker | 6752.T (Tokyo) |
 | Position | #4 global EV batteries |
 | Key customer | Tesla |
-| 4680 production | March 2025 (Japan) |
+| 4680 production | March 2025 ([[Japan]]) |
 
 Tesla's longest-standing battery partner.
 
@@ -44,7 +44,7 @@ Tesla's longest-standing battery partner.
 |-----------|------|
 | Samples to Tesla | 2022 |
 | Mass production start | **March 2025** |
-| Production location | Wakayama, Japan |
+| Production location | Wakayama, [[Japan]] |
 | Staff | ~400 |
 
 4680 = larger format cell, higher energy density, lower cost per kWh.
@@ -57,20 +57,20 @@ Tesla's longest-standing battery partner.
 |----------|---------|----------|
 | Nevada (Tesla) | 2170 cells | Expanding 10% by 2026 |
 | Kansas | 2170 + 4680 | 30 GWh (building) |
-| Wakayama, Japan | 4680 | Pilot → production |
+| Wakayama, [[Japan]] | 4680 | Pilot → production |
 
 **2031 target:** 200 GWh global capacity
 
 ---
 
-## Solid-state batteries
+## [[Solid-state batteries]]
 
 **Timeline:**
 - Pilot production: FY 2026 (April 2026-March 2027)
 - Mass production: 2027+
 - Applications: EVs, drones, robots, wearables
 
-Racing CATL, Toyota, Samsung to commercialization.
+Racing CATL, [[Toyota]], Samsung to commercialization.
 
 ---
 
@@ -96,9 +96,9 @@ Racing CATL, Toyota, Samsung to commercialization.
 **Bear:**
 - CATL scale advantage
 - Tesla diversifying suppliers
-- Korean competition (LG, Samsung SDI)
+- Korean competition (LG, [[Samsung SDI]])
 - Slower expansion than Chinese
-- Japan cost structure
+- [[Japan]] cost structure
 
 ---
 

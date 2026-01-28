@@ -7,7 +7,7 @@ aliases: [MU]
 
 ## Core thesis
 
-Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean players, but with different positioning: U.S.-based, less China exposure, behind on HBM but catching up.
+Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean players, but with different positioning: U.S.-based, less [[China]] exposure, behind on [[HBM]] but catching up.
 
 ![[mu-vs-peers.png]]
 *MU +900% since 2018, outperforming [[Semiconductors|SMH]] (+700%) — memory boom driving 2025-2026 outperformance after years of underperformance.*
@@ -21,33 +21,33 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 | Segment | Position |
 |---------|----------|
 | DRAM | #3 (behind Samsung, SK Hynix) |
-| NAND | #4 (behind Samsung, SK Hynix, Kioxia) |
-| HBM | #3 (behind SK Hynix, Samsung) |
+| NAND | #4 (behind Samsung, SK Hynix, [[Kioxia]]) |
+| [[HBM]] | #3 (behind SK Hynix, Samsung) |
 
 ---
 
 ## Key strengths
 
-- **U.S.-based**: Less geopolitical risk than Korea/Taiwan
+- **U.S.-based**: Less geopolitical risk than Korea/[[Taiwan]]
 - **Memory shortage tailwind**: Same pricing power as Korean peers
-- **HBM ramp**: Catching up, NVIDIA qualified
-- **Less China exposure**: Not subject to same [[Export controls]] pressure on China fabs
+- **[[HBM]] ramp**: Catching up, NVIDIA qualified
+- **Less [[China]] exposure**: Not subject to same [[Export controls]] pressure on [[China]] fabs
 
 ---
 
 ## Key weaknesses
 
-- **HBM behind**: SK Hynix has the lead, Samsung #2
+- **[[HBM]] behind**: SK Hynix has the lead, Samsung #2
 - **Scale disadvantage**: Smaller than Samsung in memory
 - **Technology gap**: Historically trailed Korean leaders on density/cost
 
 ---
 
-## HBM status
+## [[HBM]] status
 
 - Behind [[SK Hynix]] (leader) and [[Samsung]]
 - Qualified with NVIDIA — ramping supply
-- Key question: Can they catch up on HBM margins?
+- Key question: Can they catch up on [[HBM]] margins?
 
 ---
 
@@ -76,7 +76,7 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 
 | vs Competitor | Status |
 |---------------|--------|
-| [[SK Hynix]] | Behind on HBM, similar DRAM exposure |
+| [[SK Hynix]] | Behind on [[HBM]], similar DRAM exposure |
 | [[Samsung]] | Behind on scale, similar shortage benefit |
 | [[CXMT]] | Ahead, but CXMT catching up via [[IP leakage risk]] |
 
@@ -89,7 +89,7 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 | Ticker | MU (NASDAQ) |
 | HQ | Boise, Idaho, USA |
 | Position | #3 DRAM, #4 NAND |
-| HBM | Ramping, #3 — share now in line with DRAM share |
+| [[HBM]] | Ramping, #3 — share now in line with DRAM share |
 | **Stock 2025** | **+239%** |
 | **Stock Jan 2026** | +27% MTD |
 | **US investment** | **$200B** ($150B mfg + $50B R&D) |
@@ -118,32 +118,32 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 **Killing consumer memory brand by Feb 2026.**
 
 Why:
-- Consumer DDR5 prices 3-4x higher in 6 months
+- [[Consumer]] DDR5 prices 3-4x higher in 6 months
 - Can't supply consumer at current pricing
 - Enterprise/AI margins much higher
 - Shortage makes consumer allocation irrational
 
-**Implication**: Full pivot to enterprise/AI memory. Consumer PC/gaming market will feel the squeeze even more.
+**Implication**: Full pivot to enterprise/AI memory. [[Consumer]] PC/gaming market will feel the squeeze even more.
 
 Validates [[Memory shortage 2025-2026]] — when suppliers exit consumer, shortage is severe.
 
-**HBM:**
-- CY26 HBM supply fully contracted (price AND volume)
+**[[HBM]]:**
+- CY26 [[HBM]] supply fully contracted (price AND volume)
 - HBM4 on track for 2Q26 ramp
-- HBM TAM: $35B (2025) → $100B (2028) — 40% CAGR
-- DDR5 being bundled with HBM in some LTAs
-- Singapore HBM packaging on track for CY27
+- [[HBM]] TAM: $35B (2025) → $100B (2028) — 40% CAGR
+- DDR5 being bundled with [[HBM]] in some LTAs
+- Singapore [[HBM]] packaging on track for CY27
 
 **Pricing:**
 - DRAM ASP +20% q/q
-- Both HBM and non-HBM have strong profitability
+- Both [[HBM]] and non-[[HBM]] have strong profitability
 - Margins expected to expand for DRAM and NAND
 
 **Capacity:**
 - Idaho Fab 1 pulled in to mid-CY27
 - Idaho Fab 2 starts construction '26, operational end of '28
 - NY Fab supply expected 2030+
-- India back-end ramping in '26
+- [[India]] back-end ramping in '26
 
 ---
 
@@ -177,7 +177,7 @@ Revenue growing faster than capex = improving returns on investment. Bullish sig
 
 ## Segment profitability (Dec 2025)
 
-GM fall-through (incremental GP / incremental revenue):
+[[GM]] fall-through (incremental GP / incremental revenue):
 
 | Segment | Acceleration | Notes |
 |---------|--------------|-------|
@@ -194,12 +194,12 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 **Priced in:**
 - Memory shortage benefits
-- HBM revenue growth
+- [[HBM]] revenue growth
 - Cyclical recovery
 - **Stock +229% YTD — market has recognized the thesis**
 
 **Not priced in (potential surprises):**
-- HBM share gains vs SK Hynix
+- [[HBM]] share gains vs SK Hynix
 - Shortage worse than expected → pricing power
 - Mobile squeeze stronger than expected
 - U.S. fab incentives ([[CHIPS Act]])
@@ -213,7 +213,7 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 **[[Long memory]]**:
 - Benefits from same shortage dynamics as Korea
 - U.S.-based = geopolitical diversification
-- #3 HBM but ramping
+- #3 [[HBM]] but ramping
 
 **[[Short TSMC long Korea]]**:
 - Complicates the thesis — Micron benefits from same drivers
@@ -223,12 +223,12 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ## Related
 
-- [[SK Hynix]] — competitor (#1 HBM, Micron #3)
-- [[Samsung]] — competitor (#2 HBM)
-- [[NVIDIA]] — customer (HBM for GPUs)
+- [[SK Hynix]] — competitor (#1 [[HBM]], Micron #3)
+- [[Samsung]] — competitor (#2 [[HBM]])
+- [[NVIDIA]] — customer ([[HBM]] for GPUs)
 - [[Memory shortage 2025-2026]] — crisis context (beneficiary)
 - [[Export controls]] — less exposed than Korea
-- [[CXMT]] — China competitor (catching up)
+- [[CXMT]] — [[China]] competitor (catching up)
 - [[Foundry Wars]] — context
 - [[Long memory]] — thesis
 - [[Howard Lutnick]] — industrial policy beneficiary

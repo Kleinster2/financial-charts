@@ -12,7 +12,7 @@
 | IPO target | $9-10B raise |
 | Exchange | Shanghai STAR Market (planned) |
 | Ownership | 99.1% [[ChemChina]] |
-| HQ | Basel, Switzerland |
+| HQ | Basel, [[Switzerland]] |
 | Ranking | #1 crop protection, #3 seeds |
 
 ---
@@ -24,7 +24,7 @@
 | **Syngenta Crop Protection** | Pesticides, herbicides, fungicides |
 | **Syngenta Seeds** | Crop seeds, R&D |
 | **Syngenta Group China** | China operations |
-| **Adama** | Generic crop protection (separately listed Shenzhen) |
+| **Adama** | Generic crop protection (separately listed [[Shenzhen]]) |
 
 ---
 
@@ -32,11 +32,11 @@
 
 | Year | Event |
 |------|-------|
-| 2000 | Syngenta AG formed (Novartis + AstraZeneca agribusiness merger) |
+| 2000 | Syngenta AG formed ([[Novartis]] + [[AstraZeneca]] agribusiness merger) |
 | 2017 | **ChemChina acquires Syngenta for $43B** — China's largest foreign takeover |
 | 2020 | Syngenta Group formed (Syngenta + Adama + Sinochem agriculture) |
 | 2021 | Files for $10B Shanghai IPO |
-| 2023 | Shanghai Stock Exchange approves $9.1B IPO |
+| 2023 | [[Shanghai Stock Exchange]] approves $9.1B IPO |
 | 2023 | IPO review abruptly scrapped; switches to Main Board |
 | 2024-25 | Listing repeatedly delayed |
 
@@ -53,7 +53,7 @@
 
 ChemChina used the acquisition to gain access to Syngenta's:
 - Patent-protected seeds
-- Biotech capabilities (first GM cereal for humans)
+- Biotech capabilities (first [[GM]] cereal for humans)
 - Rice genome sequencing
 - Gene-editing crop technology
 
@@ -77,7 +77,7 @@ The IPO has been approved but repeatedly delayed:
 **China food security play.** Beijing views Syngenta as strategic infrastructure for agricultural self-sufficiency. The IPO would:
 - Raise capital for R&D
 - Provide domestic listing for national champion
-- Signal confidence in China capital markets
+- [[Signal]] confidence in China capital markets
 
 ---
 

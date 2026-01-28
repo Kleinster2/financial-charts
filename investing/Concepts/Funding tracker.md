@@ -11,7 +11,7 @@ Tracking significant private funding rounds.
 | Date | Company | Amount | Valuation | Lead | Sector |
 |------|---------|--------|-----------|------|--------|
 | Jan 17 | [[Proxima]] | $80M | — | [[DCVC]] | Biotech/AI |
-| Jan 17 | [[Torq]] | $140M | $1.2B | [[Merlin Ventures]] | Cybersecurity/AI |
+| Jan 17 | [[Torq]] | $140M | $1.2B | [[Merlin Ventures]] | [[Cybersecurity]]/AI |
 
 ---
 
@@ -19,12 +19,12 @@ Tracking significant private funding rounds.
 
 | Date | Company | Amount | Valuation | Lead | Sector |
 |------|---------|--------|-----------|------|--------|
-| — | [[Anthropic]] | $2B | $60B | Google | AI |
-| — | [[OpenAI]] | $6.6B | $157B | Thrive, Microsoft | AI |
+| — | [[Anthropic]] | $2B | $60B | [[Google]] | AI |
+| — | [[OpenAI]] | $6.6B | $157B | Thrive, [[Microsoft]] | AI |
 | — | [[xAI]] | $6B | $50B | A16z, Sequoia | AI |
 | — | [[Databricks]] | $10B | $62B | Thrive | Data/AI |
 | — | [[CoreWeave]] | $1.1B | $23B | — | AI infra |
-| — | [[Anduril]] | $1.5B | $14B | — | Defense |
+| — | [[Anduril]] | $1.5B | $14B | — | [[Defense]] |
 
 ---
 
@@ -34,7 +34,7 @@ Recent companies crossing $1B:
 
 | Company | Valuation | Sector | Date |
 |---------|-----------|--------|------|
-| [[Torq]] | $1.2B | Cybersecurity | Jan 2026 |
+| [[Torq]] | $1.2B | [[Cybersecurity]] | Jan 2026 |
 
 ---
 
@@ -43,9 +43,9 @@ Recent companies crossing $1B:
 | Sector | Deals | Trend |
 |--------|-------|-------|
 | **AI/ML** | Dominant | Mega-rounds continuing |
-| **Cybersecurity** | Active | AI-native players raising |
-| **Defense tech** | Growing | Anduril, Shield AI |
-| **Fintech** | Slower | Rate sensitivity |
+| **[[Cybersecurity]]** | Active | AI-native players raising |
+| **[[Defense]] tech** | Growing | Anduril, [[Shield AI]] |
+| **[[Fintech]]** | Slower | Rate sensitivity |
 | **Climate** | Mixed | Policy dependent |
 
 ---
@@ -56,7 +56,7 @@ Recent companies crossing $1B:
 |----------|----------------------|
 | [[Andreessen Horowitz]] | xAI, defense |
 | [[Sequoia]] | AI infrastructure |
-| Thrive Capital | OpenAI, Databricks |
+| [[Thrive Capital]] | OpenAI, Databricks |
 | [[Bessemer Venture Partners]] | Torq |
 | [[Insight Partners]] | Torq |
 

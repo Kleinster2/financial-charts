@@ -39,14 +39,14 @@ Balanced consumer/commercial mix.
 |--------|----------|
 | Mid-Atlantic | Core (PA, NJ, DE) |
 | Midwest | Strong (OH, MI, IL) |
-| Southeast | Expanded via BBVA |
+| Southeast | Expanded via [[BBVA]] |
 | National | Digital expansion |
 
 Strong in heartland markets.
 
 ---
 
-## BBVA USA acquisition (2021)
+## [[BBVA]] USA acquisition (2021)
 
 | Aspect | Detail |
 |--------|--------|
@@ -84,7 +84,7 @@ Transformational acquisition.
 ## Investment case
 
 **Bull:**
-- Scale from BBVA deal
+- Scale from [[BBVA]] deal
 - Technology investments
 - Middle market strength
 - Attractive footprint

@@ -30,7 +30,7 @@
 
 - Houston frustrated by forgetting USB drives as MIT student
 - Applied to YC Summer 2007 as solo founder (disadvantage)
-- Made demo video that went viral on Hacker News/Reddit
+- Made demo video that went viral on Hacker News/[[Reddit]]
 - YC partner Trevor Blackwell impressed, but told him to find co-founder
 - Found Arash Ferdowsi (MIT student) 3 weeks before deadline
 - Ferdowsi dropped out of MIT his last semester to join
@@ -44,7 +44,7 @@
 | Batch | **Summer 2007** |
 | Initial funding | $15,000 seed |
 | Status | One of YC's most successful investments |
-| Post-YC investors | Sequoia Capital, Accel |
+| Post-YC investors | [[Sequoia Capital]], [[Accel]] |
 
 ---
 
@@ -82,7 +82,7 @@
 | Total ARR | $2.536B | -1.7% YoY |
 | Paying users | 18.07M | Declining |
 | ARPU | $139.07 | Declining |
-| Free cash flow | $293.7M | Strong |
+| [[Free cash flow]] | $293.7M | Strong |
 
 ---
 
@@ -104,7 +104,7 @@
 
 1. **Cash cow, not growth** — Revenue declining but 41% operating margin, strong FCF.
 
-2. **Mature SaaS case study** — Shows what happens when growth ends — margin expansion.
+2. **Mature [[SaaS]] case study** — Shows what happens when growth ends — margin expansion.
 
 3. **AI pivot attempt** — Dropbox Dash is AI play to reignite growth.
 
@@ -114,8 +114,8 @@
 
 **Concerns:**
 - Paying users declining
-- Competition from Microsoft OneDrive, Google Drive
-- Consumer perception as commodity
+- Competition from [[Microsoft]] OneDrive, [[Google]] Drive
+- [[Consumer]] perception as commodity
 
 ---
 
@@ -130,13 +130,13 @@
 - [[Airbnb]] — YC peer
 
 ### Competitors
-- Microsoft OneDrive
-- Google Drive
+- [[Microsoft]] OneDrive
+- [[Google]] Drive
 - Box (enterprise)
 
 ### Investors
-- Sequoia Capital — early investor
-- Accel — early investor
+- [[Sequoia Capital]] — early investor
+- [[Accel]] — early investor
 
 ---
 

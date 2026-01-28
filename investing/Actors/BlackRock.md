@@ -46,7 +46,7 @@ aliases: [BLK]
 | ETFs (iShares) | **$5.5T** | Passive investing |
 | Institutional | ~$4T | Pensions, sovereigns |
 | Retail | ~$1.5T | Mutual funds |
-| Private markets | Growing | Credit, infrastructure |
+| [[Private markets]] | Growing | Credit, infrastructure |
 | Aladdin | — | Technology platform |
 
 ---
@@ -60,7 +60,7 @@ aliases: [BLK]
 | Aladdin platform | AI/ML for risk management |
 | ETF holdings | Largest holder of AI stocks |
 | Infrastructure funds | Data center investments |
-| Private markets | AI startup exposure |
+| [[Private markets]] | AI startup exposure |
 
 BlackRock's passive funds are top holders of NVIDIA, Microsoft, etc.
 
@@ -75,27 +75,27 @@ BlackRock's passive funds are top holders of NVIDIA, Microsoft, etc.
 | Users | 200+ institutions |
 | AUM on platform | $20T+ |
 | Revenue | ~$1.5B |
-| Moat | Network effects, switching costs |
+| Moat | [[Network effects]], switching costs |
 
 AI/ML used for risk analytics, portfolio optimization.
 
 ---
 
-## Private markets pivot
+## [[Private markets]] pivot
 
 **~$28B acquisition spree (2024):**
 
 | Acquisition | Focus | Status |
 |-------------|-------|--------|
 | Global Infrastructure Partners (GIP) | Infrastructure | Completed |
-| HPS Investment Partners | Private credit | Completed July 2024 |
-| Preqin | Private markets data | Completed |
+| HPS Investment Partners | [[Private credit]] | Completed July 2024 |
+| Preqin | [[Private markets]] data | Completed |
 
 **Q4 private/alternatives inflows:** $15.6B
 
 **Strategy:** Transform from public markets dominant → force in private credit and infrastructure globally. New products targeting wealthy retail and 401(k) plans.
 
-**Larry Fink:** "Around the world, clients are looking to do more across BlackRock."
+**[[Larry Fink]]:** "Around the world, clients are looking to do more across BlackRock."
 
 ---
 
@@ -106,8 +106,8 @@ AI/ML used for risk analytics, portfolio optimization.
 | ETF | Focus |
 |-----|-------|
 | IVV | S&P 500 (heavy tech) |
-| QQQ-competitor (IBB tech) | Nasdaq tracking |
-| SOXX | Semiconductors |
+| [[QQQ]]-competitor (IBB tech) | [[Nasdaq]] tracking |
+| [[SOXX]] | [[Semiconductors]] |
 | IGV | Software |
 
 Passive flows drive AI stock demand.
@@ -120,14 +120,14 @@ Passive flows drive AI stock demand.
 - Secular shift to passive
 - Aladdin platform moat
 - Infrastructure growth
-- Private markets expansion
+- [[Private markets]] expansion
 - Scale advantages
 
 **Bear:**
 - Fee pressure
 - Market beta dependency
 - Regulatory scrutiny
-- ESG backlash
+- [[ESG]] backlash
 
 ---
 
@@ -153,9 +153,9 @@ Passive flows drive AI stock demand.
 |-------------|--------|--------|
 | [[ADIA]] allocations | $14B+ (various) | Long-term investor |
 | [[Mubadala]] AI infra | $30B | Data centers + energy with Microsoft |
-| [[MGX]] Aligned Data Centers | $40B | Largest DC deal ever (w/ GIP) |
+| [[MGX]] Aligned [[Data Centers]] | $40B | Largest DC deal ever (w/ GIP) |
 
-Abu Dhabi sovereign funds are among BlackRock's most important global clients — Larry Fink makes regular trips to the emirate.
+Abu Dhabi sovereign funds are among BlackRock's most important global clients — [[Larry Fink]] makes regular trips to the emirate.
 
 ---
 
@@ -164,7 +164,7 @@ Abu Dhabi sovereign funds are among BlackRock's most important global clients �
 - [[Abu Dhabi Sovereign Wealth]] — major sovereign client ecosystem
 - [[ADIA]] — $14B+ allocation
 - [[Mubadala]] — $30B AI infrastructure partnership
-- [[MGX]] — $40B Aligned Data Centers consortium
+- [[MGX]] — $40B Aligned [[Data Centers]] consortium
 - [[NVIDIA]] — largest holding (via index funds)
 - [[Microsoft]] — largest holding, Aladdin partner
 - [[JPMorgan Chase]] — peer (financial services)

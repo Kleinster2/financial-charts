@@ -46,7 +46,7 @@ Tesla's 4680 cells were meant to:
 - Deliver 54% increased range
 - Enable a $25,000 EV
 
-**Reality:** Only deployed in Cybertruck with weak sales. Other OEMs (BMW, Rivian) adopting 46XX format independently.
+**Reality:** Only deployed in Cybertruck with weak sales. Other OEMs ([[BMW]], [[Rivian]]) adopting 46XX format independently.
 
 ---
 

@@ -35,7 +35,7 @@ One of world's largest logistics companies.
 
 ## DRIVE transformation
 
-| Element | Target |
+| Element | [[Target]] |
 |---------|--------|
 | Annual savings | $4B by FY25 |
 | Network consolidation | Express + Ground merger |
@@ -136,8 +136,8 @@ Transition from founder-led to professional management.
 | Region | Position |
 |--------|----------|
 | US | #2 behind UPS |
-| Europe | Strong via TNT |
-| Asia | Express leader |
+| [[Europe]] | Strong via TNT |
+| [[Asia]] | Express leader |
 | Global | 220+ countries |
 
 ---

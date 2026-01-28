@@ -3,7 +3,7 @@ aliases: [Queretaro]
 ---
 #actor #datacenter #infrastructure #mexico #region
 
-**Querétaro** — Mexico's data center hub. 65% of national capacity. LatAm's Ashburn.
+**Querétaro** — [[Mexico]]'s data center hub. 65% of national capacity. LatAm's Ashburn.
 
 ---
 
@@ -13,8 +13,8 @@ Latin America's emerging DC capital:
 
 | Metric | Value |
 |--------|-------|
-| Location | Central Mexico |
-| DC share | 65% of Mexico capacity |
+| Location | Central [[Mexico]] |
+| DC share | 65% of [[Mexico]] capacity |
 | Major investment | $10B+ committed |
 | Key players | AWS, Microsoft, CloudHQ |
 
@@ -26,12 +26,12 @@ Latin America's emerging DC capital:
 
 | Factor | Advantage |
 |--------|-----------|
-| Geography | Central Mexico |
+| Geography | Central [[Mexico]] |
 | Connectivity | Fiber routes |
 | Land | Available, cheaper |
 | Talent | University hub |
 | Government | Pro-business |
-| Proximity | 2.5 hrs to Mexico City |
+| Proximity | 2.5 hrs to [[Mexico]] City |
 
 ---
 
@@ -50,7 +50,7 @@ Latin America's emerging DC capital:
 ## Capacity buildout
 
 **Planned expansion:**
-- 73 new data centers (Mexico total)
+- 73 new data centers ([[Mexico]] total)
 - Querétaro = lion's share
 - 900 MW (CloudHQ alone)
 - Grid upgrades needed
@@ -88,7 +88,7 @@ Querétaro = where Ashburn was 20 years ago.
 
 **Manufacturing + data:**
 - Auto manufacturing hub
-- Aerospace presence
+- [[Aerospace]] presence
 - Now adding tech/DC
 - Full nearshoring ecosystem
 
@@ -112,7 +112,7 @@ Querétaro = where Ashburn was 20 years ago.
 | [[Amazon]] (AWS) | $5B investment |
 | [[CloudHQ]] | $4.8B |
 | [[Microsoft]] | $1.3B+ |
-| Industrial REITs | Prologis, etc. |
+| Industrial [[REITs]] | Prologis, etc. |
 
 ---
 
@@ -120,8 +120,8 @@ Querétaro = where Ashburn was 20 years ago.
 
 | Metric | Value |
 |--------|-------|
-| Location | Central Mexico |
-| DC share | 65% of Mexico |
+| Location | Central [[Mexico]] |
+| DC share | 65% of [[Mexico]] |
 | Investment | $10B+ committed |
 | Status | Emerging hub |
 

@@ -15,7 +15,7 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 | **Cyclical → Defensive** | Recession fears, risk-off | Industrials → utilities, healthcare, staples |
 | **Defensive → Cyclical** | Recovery, risk-on | Utilities → industrials, materials |
 | **Large → Small** | Broadening earnings, valuation gap | Mega-cap → Russell 2000 |
-| **Domestic → International** | Dollar weakness, relative value | US → EM, Europe |
+| **Domestic → International** | Dollar weakness, relative value | US → EM, [[Europe]] |
 
 ---
 
@@ -75,12 +75,12 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 | Metric | Value |
 |--------|-------|
 | S&P 500 | -0.53% |
-| Nasdaq | -1.0% |
-| Nasdaq 100 | Worst decline in a month |
+| [[Nasdaq]] | -1.0% |
+| [[Nasdaq]] 100 | Worst decline in a month |
 | Mag 7 | All seven down |
 | S&P 500 breadth | 300+ stocks up despite index down |
 
-**Key insight:** While Nasdaq 100 fell to monthly lows, over 300 S&P 500 constituents actually rose. Classic rotation signal — money leaving concentrated leaders, spreading to broader market.
+**Key insight:** While [[Nasdaq]] 100 fell to monthly lows, over 300 S&P 500 constituents actually rose. Classic rotation signal — money leaving concentrated leaders, spreading to broader market.
 
 NVIDIA -1.4%, Microsoft -2.4% led tech lower. Small caps continue outperforming.
 
@@ -101,7 +101,7 @@ NVIDIA -1.4%, Microsoft -2.4% led tech lower. Small caps continue outperforming.
 |-------|------|-------|
 | Jan | ~$10M | |
 | Feb | ~$5M | |
-| Mar | ~$3M | |
+| Mar | ~$[[3M]] | |
 | Apr | ~$2M | |
 | May | ~$1M | |
 | Jun | ~-$1M | Only outflow month |
@@ -118,7 +118,7 @@ NVIDIA -1.4%, Microsoft -2.4% led tech lower. Small caps continue outperforming.
 
 | Out of | Into |
 |--------|------|
-| Mag 7, high-growth tech | Defense, small caps, financials |
+| Mag 7, high-growth tech | [[Defense]], small caps, financials |
 | AI momentum plays | Industrials, utilities |
 | Crowded mega-cap | Value, quality |
 
@@ -140,7 +140,7 @@ Rationale: Wide valuation spreads + favorable macro outlook for value.
 
 ### Analyst 12-month price targets (Jan 2026)
 
-| Stock | Target | Notes |
+| Stock | [[Target]] | Notes |
 |-------|--------|-------|
 | [[NVIDIA]] | **+39%** | Highest upside, AI demand |
 | [[Microsoft]] | +33% | Copilot monetization |
@@ -174,8 +174,8 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 | Sector/Stock | Move | Catalyst |
 |--------------|------|----------|
-| Defense | +6-8% | Trump $1.5T budget |
-| Russell 2000 | +6% vs Nasdaq | Small cap rotation |
+| [[Defense]] | +6-8% | Trump $1.5T budget |
+| Russell 2000 | +6% vs [[Nasdaq]] | Small cap rotation |
 | Financials | Outperforming | Rate cut expectations |
 
 ---
@@ -203,13 +203,13 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 ## Indicators to watch
 
-| Indicator | Signal |
+| Indicator | [[Signal]] |
 |-----------|--------|
 | **Growth vs Value relative P/E** | Stretched = rotation risk |
 | **Earnings growth differential** | Narrowing = broadening |
 | **Fund flows** | Tech outflows, value/small inflows |
-| **Russell 2000 / Nasdaq ratio** | Rising = small cap leadership |
-| **Sector ETF relative strength** | XLF, XLI outperforming XLK |
+| **Russell 2000 / [[Nasdaq]] ratio** | Rising = small cap leadership |
+| **Sector ETF relative strength** | [[XLF]], XLI outperforming XLK |
 | **[[Breadth divergence]]** | Index down but majority of stocks up = rotation (not selloff) |
 
 ### Rotation signature pattern
@@ -223,7 +223,7 @@ This is the rotation signal: when the index beats its biggest components, leader
 | **Healthy rally** | Up | Most stocks up | Broad participation |
 | **Narrow rally** | Up | Few stocks up | Fragile, concentration risk |
 
-**Jan 14, 2026 example:** S&P 500 -0.53%, Nasdaq -1.0%, but 300+ S&P constituents rose. This is rotation, not a selloff — money is moving, not leaving.
+**Jan 14, 2026 example:** S&P 500 -0.53%, [[Nasdaq]] -1.0%, but 300+ S&P constituents rose. This is rotation, not a selloff — money is moving, not leaving.
 
 ---
 

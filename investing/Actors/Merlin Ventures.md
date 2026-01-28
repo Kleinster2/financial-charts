@@ -36,7 +36,7 @@ aliases: [Merlin VC]
 | Talon Security | Acquired | Palo Alto Networks |
 | Dig Security | Acquired | Palo Alto Networks |
 | InfoSec Global | Acquired | KeyFactor |
-| Veriti | Acquired | Check Point Software |
+| Veriti | Acquired | [[Check Point]] Software |
 | [[Torq]] | Active | — |
 
 **6 successful exits** since 2021 Israel office opening.

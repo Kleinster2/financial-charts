@@ -1,9 +1,9 @@
 ---
-aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
+aliases: [CETA, Comprehensive Economic and Trade Agreement, [[EU]]-Canada FTA]
 ---
 #concept #trade #europe #canada
 
-**CETA** — Comprehensive Economic and Trade Agreement. EU-Canada FTA. Provisionally in force since 2017 but still not fully ratified. Precedent for EU-Mercosur ratification challenges.
+**CETA** — Comprehensive Economic and Trade Agreement. [[EU]]-Canada FTA. Provisionally in force since 2017 but still not fully ratified. Precedent for [[EU]]-[[Mercosur]] ratification challenges.
 
 ---
 
@@ -11,14 +11,14 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 
 | Metric | Value |
 |--------|-------|
-| Parties | EU (27) + Canada |
+| Parties | [[EU]] (27) + Canada |
 | Population | 550M |
 | Combined GDP | ~$20T |
 | Signed | Oct 2016 |
 | Provisional application | Sep 2017 |
 | Full ratification | Pending (8 years later) |
 
-**Cautionary tale:** Shows EU mixed agreement ratification can take years.
+**Cautionary tale:** Shows [[EU]] mixed agreement ratification can take years.
 
 ---
 
@@ -26,8 +26,8 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 
 | Stage | Status |
 |-------|--------|
-| EU level | Approved |
-| EU Parliament | Approved (Feb 2017) |
+| [[EU]] level | Approved |
+| [[EU]] Parliament | Approved (Feb 2017) |
 | National parliaments | 13 of 27 ratified |
 | Blocking | Belgium (Wallonia), others |
 
@@ -41,7 +41,7 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 | **Ireland** | Beef competition |
 | **Italy** | GI protections, agriculture |
 
-**7+ years provisional** — unprecedented for major EU FTA.
+**7+ years provisional** — unprecedented for major [[EU]] FTA.
 
 ---
 
@@ -52,11 +52,11 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 | Category | Coverage | Timeline |
 |----------|----------|----------|
 | Industrial goods | 98%+ | 7 years |
-| Agriculture | Quotas for sensitive | 7 years |
+| [[Agriculture]] | Quotas for sensitive | 7 years |
 | Seafood | Duty-free | Immediate |
 | Processed foods | Mostly eliminated | Phased |
 
-### Agricultural quotas (Canada → EU)
+### Agricultural quotas (Canada → [[EU]])
 
 | Product | Quota | Notes |
 |---------|-------|-------|
@@ -64,7 +64,7 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 | Pork | 81,000 tons | Ractopamine-free |
 | Wheat | TRQ increase | — |
 
-### EU → Canada access
+### [[EU]] → Canada access
 
 | Product | Benefit |
 |---------|---------|
@@ -77,7 +77,7 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 | Sector | Access |
 |--------|--------|
 | Financial | Strong liberalization |
-| Telecom | Market access |
+| [[Telecom]] | Market access |
 | Professional | Mutual recognition |
 | Maritime | Improved access |
 
@@ -89,7 +89,7 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 | Investment Court System | Permanent tribunal | Not yet operational |
 | Appeal mechanism | Yes | Pending |
 
-**ICS = Investment Court System:** EU response to ISDS criticism. Permanent judges, appeal mechanism.
+**ICS = Investment Court System:** [[EU]] response to ISDS criticism. Permanent judges, appeal mechanism.
 
 ### Government procurement
 
@@ -105,7 +105,7 @@ aliases: [CETA, Comprehensive Economic and Trade Agreement, EU-Canada FTA]
 
 | Protection | Coverage |
 |------------|----------|
-| EU GIs | 143 names protected |
+| [[EU]] GIs | 143 names protected |
 | Canadian GIs | Limited |
 | Enforcement | Strong |
 
@@ -118,11 +118,11 @@ Examples: Roquefort, Prosciutto di Parma, Feta.
 | Date | Event |
 |------|-------|
 | Oct 2016 | Wallonia blocks Belgium approval |
-| EU summit | Near collapse |
+| [[EU]] summit | Near collapse |
 | Resolution | Side declaration on ICS, agriculture |
 | Lesson | Regional parliaments can veto |
 
-**Precedent:** Shows how small regions can block EU trade deals.
+**Precedent:** Shows how small regions can block [[EU]] trade deals.
 
 ---
 
@@ -132,33 +132,33 @@ Examples: Roquefort, Prosciutto di Parma, Feta.
 
 | Sector | Beneficiary |
 |--------|-------------|
-| **EU autos** | Canada market access |
-| **EU pharma** | IP protections |
-| **EU cheese/wine** | GI protection, access |
-| **Canadian resources** | EU market |
+| **[[EU]] autos** | Canada market access |
+| **[[EU]] pharma** | IP protections |
+| **[[EU]] cheese/wine** | GI protection, access |
+| **Canadian resources** | [[EU]] market |
 | **Canadian seafood** | Duty-free access |
 
 ### Losers
 
 | Sector | Impact |
 |--------|--------|
-| **Canadian dairy** | EU cheese competition |
-| **EU beef farmers** | Canadian beef access |
+| **Canadian dairy** | [[EU]] cheese competition |
+| **[[EU]] beef farmers** | Canadian beef access |
 
 ### Key companies
 
 | Company | Exposure |
 |---------|----------|
-| VW, BMW | Canadian market |
+| VW, [[BMW]] | Canadian market |
 | European cheese producers | Export opportunities |
-| Canadian oil sands | EU market access |
+| Canadian oil sands | [[EU]] market access |
 | Bombardier | Procurement access |
 
 ---
 
-## Comparison to EU-Mercosur
+## Comparison to [[EU]]-[[Mercosur]]
 
-| Dimension | CETA | EU-Mercosur |
+| Dimension | CETA | [[EU]]-[[Mercosur]] |
 |-----------|------|-------------|
 | Population | 550M | 780M |
 | Beef quota | 65,000t | 99,000t |
@@ -168,7 +168,7 @@ Examples: Roquefort, Prosciutto di Parma, Feta.
 | Main opposition | Belgium, France | France, Poland |
 | Environmental | Less contentious | Deforestation issue |
 
-**Lesson for EU-Mercosur:** Could face same provisional limbo.
+**Lesson for [[EU]]-[[Mercosur]]:** Could face same provisional limbo.
 
 ---
 
@@ -176,20 +176,20 @@ Examples: Roquefort, Prosciutto di Parma, Feta.
 
 | Concept | Implication |
 |---------|-------------|
-| Mixed agreement | Covers EU + national competences |
+| Mixed agreement | Covers [[EU]] + national competences |
 | Requires | All 27 national parliaments |
 | Any veto | Blocks full entry |
 | Provisional | Trade parts can apply |
 | Investment | Requires full ratification |
 
-**EU strategy:** Push future deals as EU-only competence (no national votes).
+**[[EU]] strategy:** Push future deals as [[EU]]-only competence (no national votes).
 
 ---
 
 ## Related
 
 - [[EU-Mercosur agreement]] — facing similar challenges
-- [[Europe]] — EU trade policy
+- [[Europe]] — [[EU]] trade policy
 - [[Canada]] — counterparty
 - [[France]] — blocking potential
 - [[Trade Agreements]] — comparisons hub

@@ -65,7 +65,7 @@ ALD = essential for next-gen transistors:
 | **ASM International** | ALD leader (~55%) |
 | [[Lam Research]] | Etch, deposition |
 | [[Applied Materials]] | Broad deposition |
-| Tokyo Electron | CVD, coating |
+| [[Tokyo Electron]] | CVD, coating |
 
 ---
 

@@ -76,7 +76,7 @@ Olin operates for US Army:
 - Epoxy weakness
 - Commodity exposure
 - Small defense revenue share
-- ESG concerns (ammunition)
+- [[ESG]] concerns (ammunition)
 
 ---
 

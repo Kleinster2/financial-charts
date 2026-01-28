@@ -33,10 +33,10 @@ Pure exploration & production:
 
 | Region | Assets |
 |--------|--------|
-| Lower 48 | Permian, Eagle Ford, Bakken |
+| Lower 48 | Permian, Eagle [[Ford]], Bakken |
 | Alaska | Willow project, legacy assets |
-| International | Norway, Canada, Asia-Pacific |
-| LNG | Qatar, Australia exposure |
+| International | Norway, [[Canada]], [[Asia]]-Pacific |
+| [[LNG]] | Qatar, [[Australia]] exposure |
 
 ---
 
@@ -52,7 +52,7 @@ Controversial but significant growth driver.
 
 ---
 
-## Capital allocation
+## [[Capital allocation]]
 
 | Priority | Approach |
 |----------|----------|
@@ -71,12 +71,12 @@ Known for shareholder-friendly approach.
 
 | Timeline | Event |
 |----------|-------|
-| 2007 | Chavez demanded 60% PDVSA control |
+| 2007 | Chavez demanded 60% [[PDVSA]] control |
 | 2007 | ConocoPhillips refused, exited Venezuela |
 | 2007+ | Arbitration — seeking $12B award |
 | Jan 2026 | US captured Maduro — potential return |
 
-**Jan 9, 2026:** CEO Ryan Lance attended White House meeting. When Trump noted the $12B claim, Lance quipped: "It's already been written off." Industry remains cautious.
+**Jan 9, 2026:** CEO [[Ryan Lance]] attended White House meeting. When Trump noted the $12B claim, Lance quipped: "It's already been written off." Industry remains cautious.
 
 See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meeting 2026-01-09]].
 
@@ -93,7 +93,7 @@ See [[Venezuela]], [[Maduro capture 2026]], [[WH oil executives Venezuela meetin
 **Bear:**
 - Commodity price exposure
 - No downstream hedge
-- Alaska regulatory/ESG risk
+- Alaska regulatory/[[ESG]] risk
 - Permian competition
 
 ---

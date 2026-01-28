@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #cloud #infrastructure #private
 
-**Voltage Park** — GPU cloud startup backed by Crusoe founders. Crypto-to-AI pivot heritage. Building AI compute infrastructure.
+**Voltage Park** — GPU cloud startup backed by Crusoe founders. [[Crypto]]-to-AI pivot heritage. Building AI compute infrastructure.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Focus | GPU cloud infrastructure |
-| Heritage | Crypto mining → AI compute |
+| Heritage | [[Crypto]] mining → AI compute |
 | Backing | Well-funded |
 | Competitors | [[CoreWeave]], [[Lambda Labs]], [[Nebius]] |
 
@@ -24,18 +24,18 @@ aliases: []
 - NVIDIA GPU clusters (H100, etc.)
 - AI training and inference
 - Competing on price vs hyperscalers
-- Target: AI startups, enterprises
+- [[Target]]: AI startups, enterprises
 
 ---
 
-## Crypto-to-AI lineage
+## [[Crypto]]-to-AI lineage
 
-**Pattern:** Crypto mining infrastructure → AI compute
+**Pattern:** [[Crypto]] mining infrastructure → AI compute
 
 | Company | Pivot |
 |---------|-------|
-| **Voltage Park** | Crypto founders → GPU cloud |
-| [[CoreWeave]] | Crypto mining → AI cloud leader |
+| **Voltage Park** | [[Crypto]] founders → GPU cloud |
+| [[CoreWeave]] | [[Crypto]] mining → AI cloud leader |
 | [[Crusoe Energy]] | Flare gas crypto → AI compute |
 | [[Hut 8]], [[IREN]] | Bitcoin mining → AI infrastructure |
 
@@ -77,14 +77,14 @@ aliases: []
 |--------|-------|
 | Status | Private |
 | Funding | Undisclosed |
-| Backers | Crypto/infra veterans |
+| Backers | [[Crypto]]/infra veterans |
 
 **Known connections:**
 - Crusoe Energy founders involved
-- Crypto mining infrastructure expertise
+- [[Crypto]] mining infrastructure expertise
 - Likely VC-backed given GPU capex needs
 
-**Note:** Limited public funding disclosure. Crypto-to-AI pivots often self-funded initially from mining profits.
+**Note:** Limited public funding disclosure. [[Crypto]]-to-AI pivots often self-funded initially from mining profits.
 
 ---
 

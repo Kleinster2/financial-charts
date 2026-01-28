@@ -15,9 +15,9 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 |--------|-------|
 | Ticker | 5384.T (Tokyo) |
 | Market cap | ~¥150B (~$1B) |
-| Silicon wafer CMP share | ~70% (with Entegris, DuPont = 80%+) |
+| Silicon wafer CMP share | ~70% (with Entegris, [[DuPont]] = 80%+) |
 | Founded | 1953 |
-| HQ | Nagoya, Japan |
+| HQ | Nagoya, [[Japan]] |
 
 ---
 
@@ -29,7 +29,7 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 |---------|-------|-------|
 | [[Fujifilm]] | ~31% | #1 overall, Cu slurry leader |
 | [[Entegris]] | ~25% | #2, CMC acquisition |
-| **Fujimi** | ~15% | Japan, silicon wafer focus |
+| **Fujimi** | ~15% | [[Japan]], silicon wafer focus |
 | Others | ~29% | Fragmented |
 
 ### Silicon wafer CMP slurry (specialty)
@@ -38,9 +38,9 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 |---------|-------|
 | **Fujimi** | Dominant |
 | Entegris | #2 |
-| DuPont/Qnity | #3 |
+| [[DuPont]]/[[Qnity]] | #3 |
 
-**Japan = 70% of silicon wafer CMP slurry production.**
+**[[Japan]] = 70% of silicon wafer CMP slurry production.**
 
 ---
 
@@ -50,7 +50,7 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 |---------|-------------|
 | **Silicon wafer polishing slurry** | Wafer surface preparation |
 | **Oxide CMP slurry** | Dielectric planarization |
-| **Metal CMP slurry** | Copper, tungsten |
+| **Metal CMP slurry** | [[Copper]], tungsten |
 | **Precision polishing** | Optics, hard disks |
 
 ---
@@ -70,7 +70,7 @@ Fujimi supplies [[Shin-Etsu]] and [[Sumco]] — the wafer duopoly.
 
 **Bull:**
 - Niche dominance (silicon wafer CMP)
-- Japan supply chain position
+- [[Japan]] supply chain position
 - Wafer demand = Fujimi demand
 - Consumables model
 - Small cap, less covered

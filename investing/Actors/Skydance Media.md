@@ -39,9 +39,9 @@ aliases: [Skydance, Skydance Animation, David Ellison]
 | Person | Role |
 |--------|------|
 | **David Ellison** | Founder, CEO, will run combined company |
-| **Larry Ellison** | Father, Oracle founder, financial backer |
-| Oracle stake | Larry providing capital for deal |
-| RedBird Capital | Co-investor (Gerry Cardinale) |
+| **Larry Ellison** | Father, [[Oracle]] founder, financial backer |
+| [[Oracle]] stake | Larry providing capital for deal |
+| [[RedBird Capital]] | Co-investor (Gerry Cardinale) |
 
 **Key insight:** Larry Ellison's fortune (~$150B) backstops Skydance's ambitions.
 
@@ -66,11 +66,11 @@ aliases: [Skydance, Skydance Animation, David Ellison]
 
 | Show | Network/Streamer |
 |------|------------------|
-| **Reacher** | Amazon Prime |
-| **Jack Ryan** | Amazon Prime |
-| **Grace and Frankie** | Netflix |
-| **Altered Carbon** | Netflix |
-| **Foundation** | Apple TV+ |
+| **Reacher** | [[Amazon]] Prime |
+| **Jack Ryan** | [[Amazon]] Prime |
+| **Grace and Frankie** | [[Netflix]] |
+| **Altered Carbon** | [[Netflix]] |
+| **Foundation** | [[Apple]] TV+ |
 
 ---
 
@@ -79,9 +79,9 @@ aliases: [Skydance, Skydance Animation, David Ellison]
 | Project | Status |
 |---------|--------|
 | **Spellbound** | Released 2024 |
-| **Luck** | Apple TV+ (2022) |
+| **Luck** | [[Apple]] TV+ (2022) |
 | **Pookoo** | Upcoming |
-| Partnership | Previously Apple, now independent |
+| Partnership | Previously [[Apple]], now independent |
 | Head | John Lasseter (ex-Pixar) |
 
 **Controversy:** John Lasseter hire drew criticism given his Pixar departure.
@@ -106,16 +106,16 @@ aliases: [Skydance, Skydance Animation, David Ellison]
 |----------|------|-------|
 | **[[David Ellison]]** | Founder, majority | Controls company |
 | **[[Larry Ellison]]** | Backer | Father, provides capital |
-| **[[Gerry Cardinale]] / RedBird Capital** | Investor | Co-investor in Paramount deal |
-| **KKR** | Investor | Private equity |
-| **CJ ENM** | Strategic | Korean entertainment (minority) |
+| **[[Gerry Cardinale]] / [[RedBird Capital]]** | Investor | Co-investor in Paramount deal |
+| **[[KKR]]** | Investor | Private equity |
+| **[[CJ ENM]]** | Strategic | Korean entertainment (minority) |
 
 ### Funding history
 
 | Round | Year | Amount | Valuation | Notes |
 |-------|------|--------|-----------|-------|
 | Founding | 2006 | — | — | David Ellison capital |
-| Growth | 2017 | — | — | CJ ENM strategic investment |
+| Growth | 2017 | — | — | [[CJ ENM]] strategic investment |
 | Pre-Paramount | 2024 | — | ~$4.5B | Implied by deal terms |
 
 **Note:** As a founder-controlled private company, detailed cap table not publicly disclosed. Larry Ellison's backing means effectively unlimited patient capital.

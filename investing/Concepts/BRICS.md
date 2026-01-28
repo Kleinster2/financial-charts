@@ -1,20 +1,20 @@
 #concept #geopolitics #emerging
 
-**BRICS** — Brazil, Russia, India, China, South Africa + expanded members. Geopolitical bloc challenging US-led order. Investment implications for commodity flows and dollar dominance.
+**BRICS** — [[Brazil]], Russia, [[India]], [[China]], South [[Africa]] + expanded members. Geopolitical bloc challenging US-led order. Investment implications for commodity flows and dollar dominance.
 
 ---
 
 ## Members
 
 **Original (2009):**
-- Brazil
+- [[Brazil]]
 - Russia
-- India
-- China
-- South Africa
+- [[India]]
+- [[China]]
+- South [[Africa]]
 
 **Expanded (2024):**
-- Iran
+- [[Iran]]
 - UAE
 - Egypt
 - Ethiopia
@@ -26,11 +26,11 @@
 
 | Theme | Implication |
 |-------|-------------|
-| De-dollarization | BRICS currency discussions |
+| [[De-dollarization]] | BRICS currency discussions |
 | Commodity flows | Alternative trade routes |
-| [[Monroe Doctrine]] tension | Brazil in both US sphere and BRICS |
-| Sanctions evasion | Russia/Iran trade channels |
-| Energy trade | Oil/gas outside Western system |
+| [[Monroe Doctrine]] tension | [[Brazil]] in both US sphere and BRICS |
+| Sanctions evasion | Russia/[[Iran]] trade channels |
+| Energy trade | [[Oil]]/gas outside Western system |
 
 ---
 
@@ -44,10 +44,10 @@
 **Commodity control:**
 - Members control significant oil, metals, agriculture
 - Alternative to Western commodity markets
-- China as primary buyer
+- [[China]] as primary buyer
 
 **Internal tensions:**
-- India-China border disputes
+- [[India]]-[[China]] border disputes
 - Competing interests within bloc
 - No unified military alliance
 
@@ -69,8 +69,8 @@
 
 ## Venezuela connection
 
-**Brazil's dilemma:**
-- BRICS member (China/Russia aligned)
+**[[Brazil]]'s dilemma:**
+- BRICS member ([[China]]/Russia aligned)
 - Also in US sphere (Monroe Doctrine)
 - Lula's response to Maduro capture matters
 - Could face pressure from both sides

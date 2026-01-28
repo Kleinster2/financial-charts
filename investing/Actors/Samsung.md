@@ -1,5 +1,5 @@
 ---
-aliases: [Samsung Semiconductor, Samsung Electronics, Samsung Foundry]
+aliases: [[[Samsung Semiconductor]], Samsung Electronics, Samsung Foundry]
 ---
 #actor #foundry #korea #conglomerate
 
@@ -22,7 +22,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 ## Key events
 
-- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas HBM packaging facility.
+- **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns Korean memory makers face 100% tariffs unless they build in US. Samsung committed $40B+ US investment, including $17B Texas [[HBM]] packaging facility.
 - [[Samsung Taylor pivot]] — the 4nm→2nm mid-construction leap
 
 ---
@@ -60,7 +60,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | Stargate commitment | 900K DRAM wafers/month (with SK Hynix) |
 | HBM4 production | **February 2026** (with SK Hynix) |
 
-**Supercycle context:** BoA calls this a "supercycle similar to 1990s boom" — DRAM revenue +51%, NAND +45% YoY. Global semi market heading to $975B-$1T (+26-30%). IDC warns shortage may persist through 2027.
+**Supercycle context:** BoA calls this a "supercycle similar to 1990s boom" — DRAM revenue +51%, NAND +45% YoY. Global semi market heading to $975B-$1T (+26-30%). [[IDC]] warns shortage may persist through 2027.
 
 **P5 facility (Pyeongtaek, Gyeonggi):**
 - Under construction
@@ -78,14 +78,14 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 - Cross-subsidy from memory/display divisions
 - Patient capital — can absorb foundry losses for years
-- Vertical integration — potential HBM/AI synergies
+- Vertical integration — potential [[HBM]]/AI synergies
 
 ## Structural constraints
 
 - Persistent yield gap vs TSMC
 - Customer trust deficit
 - Conglomerate complexity
-- [[IP leakage risk]] — DRAM secrets leaked to China's CXMT (Dec 2025)
+- [[IP leakage risk]] — DRAM secrets leaked to [[China]]'s [[CXMT]] (Dec 2025)
 
 ## Quick stats
 
@@ -97,7 +97,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | Taylor construction | **93.6% complete** |
 | Taylor capacity | **50K wafers/month** (up from 20K) |
 | Taylor investment | $44-50B (expanded from $17B) |
-| CHIPS Act | $6.4B |
+| [[CHIPS Act]] | $6.4B |
 | Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
 
 *Updated 2026-01-23*
@@ -122,10 +122,10 @@ What consensus assumes (update when you see estimates):
 
 **Not priced in (potential surprises):**
 - AMD deal closes (Jan 2026 decision)
-- **NVIDIA second foundry** — After Groq licensing deal, industry sources say NVIDIA exploring Samsung as backup to TSMC (Dec 2025)
+- **[[NVIDIA]] second foundry** — After [[Groq]] licensing deal, industry sources say [[NVIDIA]] exploring Samsung as backup to TSMC (Dec 2025)
 - ~~Yields improve faster than expected~~ **CONFIRMED: 55-60% (Dec 2025)**
-- Taiwan disruption revalues Samsung capacity
-- **TSMC overflow customers** — Google, Qualcomm, AMD, Amazon exploring Samsung (Jan 2026)
+- [[Taiwan]] disruption revalues Samsung capacity
+- **TSMC overflow customers** — Google, [[Qualcomm]], AMD, Amazon exploring Samsung (Jan 2026)
 - **Exynos 2600** — World's first 2nm mobile chip (Galaxy S26), proof point for 2nm viability
 
 ---
@@ -137,11 +137,11 @@ What consensus assumes (update when you see estimates):
 | Component | Samsung offering |
 |-----------|------------------|
 | Foundry | SF2 (2nm) process |
-| Advanced packaging | CoWoS alternative |
-| Memory | HBM from Samsung |
+| [[Advanced packaging]] | CoWoS alternative |
+| Memory | [[HBM]] from Samsung |
 | Integration | Single vendor, Texas facilities |
 
-**Target customers:**
+**[[Target]] customers:**
 
 | Customer | Product | Status |
 |----------|---------|--------|
@@ -149,10 +149,10 @@ What consensus assumes (update when you see estimates):
 | [[AMD]] | GPU/CPU | Exploring |
 | [[Amazon]] | Custom chips | Exploring |
 
-**Why "turnkey" matters:** TSMC doesn't make memory. Samsung can bundle foundry + packaging + HBM as one-stop solution — differentiation vs TSMC's logic-only approach.
+**Why "turnkey" matters:** TSMC doesn't make memory. Samsung can bundle foundry + packaging + [[HBM]] as one-stop solution — differentiation vs TSMC's logic-only approach.
 
 **Recently confirmed:**
-- **xAI Taylor deal finalized** (Dec 2025) — Custom AI chips, production early 2026, full scale 2027
+- **[[xAI]] Taylor deal finalized** (Dec 2025) — Custom AI chips, production early 2026, full scale 2027
 - **Q4 2025 beat** — 30% above consensus, memory + foundry both contributing
 - **Yields approaching TSMC** — 55-60% vs TSMC ~65%
 
@@ -160,7 +160,7 @@ What consensus assumes (update when you see estimates):
 
 ---
 
-## Consumer electronics / Display (CES 2026)
+## [[Consumer]] electronics / Display ([[CES 2026]])
 
 **Samsung is also world's #1 TV maker.** Non-semiconductor revenue diversification:
 
@@ -177,7 +177,7 @@ What consensus assumes (update when you see estimates):
 - Re-entered OLED in 2022 after years of LCD-only
 
 **AI integration:**
-- Compatible with Bixby, Microsoft, [[Perplexity]] AI agents
+- Compatible with Bixby, [[Microsoft]], [[Perplexity]] [[AI agents]]
 - AI Sound Controller for dialogue/music/effects adjustment
 - Automatic picture/sound optimization
 
@@ -197,9 +197,9 @@ What consensus assumes (update when you see estimates):
 
 - [[Foundry Wars]] — context (2nm race with TSMC)
 - [[TSMC]] — competitor (#1 foundry, Samsung #2)
-- [[SK Hynix]] — competitor (HBM leader, Samsung #2)
-- [[Sonos]] — competitor (Wi-Fi speakers, CES 2026)
-- [[Micro RGB]] — display tech (CES 2026 backlighting innovation)
+- [[SK Hynix]] — competitor ([[HBM]] leader, Samsung #2)
+- [[Sonos]] — competitor (Wi-Fi speakers, [[CES 2026]])
+- [[Micro RGB]] — display tech ([[CES 2026]] backlighting innovation)
 - [[Memory shortage 2025-2026]] — thesis (memory division profits)
 - [[Leading edge race]] — context (Taylor fab 2nm bet)
 - [[Project Stargate]] — demand driver (900K wafers/month with SK Hynix)

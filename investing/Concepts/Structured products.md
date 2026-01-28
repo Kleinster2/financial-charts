@@ -88,7 +88,7 @@ Market nearly doubled since 2021.
 | **Elevated valuations** | Investors seeking protection |
 | **Rate environment** | Higher rates = better structuring |
 | **Volatility spikes** | Better entry points (e.g., Liberation Day) |
-| **Fintech platforms** | Easier access (CAIS, iCapital, Halo) |
+| **[[Fintech]] platforms** | Easier access (CAIS, iCapital, Halo) |
 | **Private equity fatigue** | Looking for other alternatives |
 | **Yield hunger** | Better than bonds |
 
@@ -99,7 +99,7 @@ Market nearly doubled since 2021.
 
 ## Who's buying
 
-**Target market:**
+**[[Target]] market:**
 - Wealthy individuals
 - Family offices
 - Retirees ("boomer candy")
@@ -112,14 +112,14 @@ Market nearly doubled since 2021.
 
 ## Issuers and intermediaries
 
-**Banks (issuers):**
+**[[Banks]] (issuers):**
 - [[JPMorgan Chase]]
 - [[Bank of America]]
 - [[Citigroup]]
-- Barclays
-- Goldman Sachs
+- [[Barclays]]
+- [[Goldman Sachs]]
 
-**Fintech platforms:**
+**[[Fintech]] platforms:**
 - CAIS (+40% growth Q1 2025)
 - iCapital
 - Halo Investing
@@ -157,7 +157,7 @@ Platforms streamline writing → selling process.
 - Market stagnated for decade
 
 **Mitigation now:**
-- Banks offload risk to hedge funds
+- [[Banks]] offload risk to hedge funds
 - Better hedging practices
 - But credit risk remains
 

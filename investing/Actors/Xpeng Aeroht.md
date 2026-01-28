@@ -13,8 +13,8 @@ Flying car subsidiary of [[Xpeng]]. International brand: **Aridge**.
 
 ## Production
 
-- **Factory:** Guangzhou, 120,000 sqm (1.3M sq ft)
-- **Target capacity:** 1 aircraft every 30 minutes
+- **Factory:** Guangzhou, 120,000 sqm (1.[[3M]] sq ft)
+- **[[Target]] capacity:** 1 aircraft every 30 minutes
 - **First deliveries:** Late 2026
 
 ## Funding
@@ -26,7 +26,7 @@ Flying car subsidiary of [[Xpeng]]. International brand: **Aridge**.
 ## IPO — Jan 2026
 
 Planning Hong Kong IPO:
-- **Banks:** [[JPMorgan Chase]], [[Morgan Stanley]]
+- **[[Banks]]:** [[JPMorgan Chase]], [[Morgan Stanley]]
 - **Filing:** Confidential filing submitted
 - **Timeline:** Potentially 2026
 - **Status:** Deliberations ongoing, plan may change

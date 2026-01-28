@@ -44,7 +44,7 @@
 **Why it failed:**
 - Synergies didn't materialize quickly enough to offset interest burden
 - Rising rates made the debt more expensive
-- Luxury sales softened in 2025
+- [[Luxury]] sales softened in 2025
 - Vendors, seeing distress, pulled back shipments → inventory gaps → lost sales
 
 ---
@@ -124,14 +124,14 @@ Backed by inventory, real estate, credit card portfolios.
 
 | Rank | Creditor | Amount | Brands |
 |------|----------|--------|--------|
-| 1 | Chanel | $136M+ | |
-| 2 | Kering | $59M+ | Gucci, Bottega, Saint Laurent |
+| 1 | [[Chanel]] | $136M+ | |
+| 2 | Kering | $59M+ | Gucci, Bottega, [[Saint Laurent]] |
 | 3 | Rosen-X | $41M+ | |
-| 4 | Capri Holdings | $33M+ | Michael Kors, Jimmy Choo, Versace |
-| 5 | Mayhoola | $33M+ | Valentino |
+| 4 | [[Capri Holdings]] | $33M+ | Michael Kors, Jimmy Choo, Versace |
+| 5 | [[Mayhoola]] | $33M+ | [[Valentino]] |
 | 6 | PwC | $30M+ | Advisory |
-| 7 | Richemont | $30M+ | Cartier, Van Cleef |
-| 8 | Zegna | $26M+ | |
+| 7 | [[Richemont]] | $30M+ | Cartier, Van Cleef |
+| 8 | [[Zegna]] | $26M+ | |
 | 9 | LVMH | $25M+ | Louis Vuitton, Dior |
 | 10 | Akris | $23M+ | |
 
@@ -144,7 +144,7 @@ Backed by inventory, real estate, credit card portfolios.
 | Summer 2025 financing | — | ~10 cents | Senior tranche, still impaired |
 | Other bondholders | — | <1 cent | Bought at 40 cents months ago |
 
-**Total luxury vendor claims:** $225M (Chanel, [[Kering]], [[LVMH]])
+**Total luxury vendor claims:** $225M ([[Chanel]], [[Kering]], [[LVMH]])
 
 ### Other unsecured
 
@@ -258,11 +258,11 @@ When Saks needed $1.75B DIP financing to survive Chapter 11, they pledged the fl
 
 **For luxury retail:**
 - Validates [[Department store decline]] thesis
-- Luxury not immune to structural pressure
+- [[Luxury]] not immune to structural pressure
 
 **For credit markets:**
 - Another failed LBO/debt-fueled M&A
-- Private credit exposure ($4.2B secured claims)
+- [[Private credit]] exposure ($4.2B secured claims)
 
 **For Amazon:**
 - Rare strategic investment loss

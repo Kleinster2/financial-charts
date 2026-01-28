@@ -60,12 +60,12 @@ Separate from DIP financing — this is debt arranged to fund operations *after*
 
 ---
 
-## Case study: Saks Global (Jan 2026)
+## Case study: [[Saks Global]] (Jan 2026)
 
 | Component | Amount | Provider |
 |-----------|--------|----------|
-| DIP term loan | $1.0B | Pentwater Capital, Bracebridge Capital |
-| ABL facility | $240M | Bank of America |
+| DIP term loan | $1.0B | [[Pentwater Capital]], [[Bracebridge Capital]] |
+| ABL facility | $240M | [[Bank of America]] |
 | Exit financing | $500M | Same bondholders |
 | **Total** | **$1.75B** | |
 

@@ -28,7 +28,7 @@ SoftBank is making the largest AI infrastructure bet in history:
 |--------|-------|
 | Total commitment | $500B over 4 years |
 | Initial investment | $100B |
-| Partners | [[OpenAI]], [[Oracle]], MGX |
+| Partners | [[OpenAI]], [[Oracle]], [[MGX]] |
 | Role | Lead investor, chairman (Masa) |
 
 **Announced at White House** with Trump administration endorsement.
@@ -43,7 +43,7 @@ See [[Project Stargate]] for full details.
 
 | Detail | Value |
 |--------|-------|
-| Target | [[DigitalBridge]] |
+| [[Target]] | [[DigitalBridge]] |
 | Price | **$4B** |
 | DigitalBridge AUM | $108B |
 | DC capacity | 5.4GW in development/operation |
@@ -57,7 +57,7 @@ See [[Project Stargate]] for full details.
 
 | Detail | Value |
 |--------|-------|
-| Target | Switch (DigitalBridge portfolio company) |
+| [[Target]] | Switch (DigitalBridge portfolio company) |
 | Asking price | **~$50B** (including debt) |
 | 2022 acquisition | $11B (4.5x appreciation) |
 | Flagship | Core Campus Las Vegas (495MW) |
@@ -73,19 +73,19 @@ See [[Project Stargate]] for full details.
 
 **Acquisitions and commitments:**
 
-| Target | Amount | Status |
+| [[Target]] | Amount | Status |
 |--------|--------|--------|
 | [[OpenAI]] | **~$30B** | Committed |
 | [[Ampere Computing]] | **$6.5B** | Acquired |
 | [[DigitalBridge]] | **$4B** | In talks |
-| ABB robotics unit | **$5.4B** | Proposed |
+| [[ABB]] robotics unit | **$5.4B** | Proposed |
 | [[Intel]] | Undisclosed | Stake acquired |
 | [[Switch]] | **~$50B** | In talks |
 
 **Funding sources:**
 - Sold entire NVIDIA stake (**$5.83B**) — Masa "cried"
 - Expanded Arm Holdings margin loan
-- SoftBank Corp (telecom) ramping Japan DC spend
+- SoftBank Corp (telecom) ramping [[Japan]] DC spend
 
 **Stock reaction:** SoftBank shares nearly **2x** in 2025.
 
@@ -105,7 +105,7 @@ See [[Project Stargate]] for full details.
 Arm architecture in virtually every smartphone. Now pushing into:
 - Data center CPUs (AWS Graviton, Ampere)
 - AI inference chips
-- Automotive
+- [[Automotive]]
 
 ---
 
@@ -119,7 +119,7 @@ Arm architecture in virtually every smartphone. Now pushing into:
 | Vision Fund 2 | ~$56B | Mostly SoftBank |
 
 **Track record:**
-- **Wins:** Coupang, DoorDash, ByteDance
+- **Wins:** Coupang, [[DoorDash]], [[ByteDance]]
 - **Losses:** WeWork, Katerra, Greensill
 - **Mixed:** Many still private
 
@@ -131,9 +131,9 @@ Arm architecture in virtually every smartphone. Now pushing into:
 |-------|-------|-------|-------|
 | [[Arm Holdings]] | ~90% | ~$150B | Crown jewel |
 | [[OpenAI]] | Minority | — | Via Stargate |
-| ByteDance | ~2% | ~$7B | Early investor |
-| Alibaba | Reduced | ~$10B | Was largest holder |
-| T-Mobile | — | Exited | Sprint merger |
+| [[ByteDance]] | ~2% | ~$7B | Early investor |
+| [[Alibaba]] | Reduced | ~$10B | Was largest holder |
+| [[T-Mobile]] | — | Exited | Sprint merger |
 
 ---
 
@@ -177,7 +177,7 @@ Arm architecture in virtually every smartphone. Now pushing into:
 **Bear case:**
 - Execution risk (WeWork, etc.)
 - Concentrated bets
-- Japan conglomerate discount persistent
+- [[Japan]] conglomerate discount persistent
 - Stargate may not deploy full $500B
 
 ---

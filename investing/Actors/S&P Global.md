@@ -27,13 +27,13 @@ aliases: [SPGI, S&P, Standard & Poor's, Capital IQ]
 | **Ratings** | ~$4.5B | 62% | Credit ratings (S&P Ratings) |
 | **Market Intelligence** | $4.65B | 19% | Capital IQ, data, research |
 | **Commodity Insights** | ~$2B | 39% | Platts (energy/commodities) |
-| **Mobility** | ~$1.5B | 19% | Automotive data (ex-IHS) |
+| **Mobility** | ~$1.5B | 19% | [[Automotive]] data (ex-IHS) |
 | **Indices** | ~$1.5B | 68% | S&P 500, Dow Jones indices |
 
 **2024 highlights:**
 - Revenue +14% YoY
 - Adjusted EPS $15.70 (+25%)
-- Free cash flow ~$6B
+- [[Free cash flow]] ~$6B
 
 ---
 
@@ -84,7 +84,7 @@ S&P Capital IQ Pro is the company's financial data terminal, competing with [[Bl
 | Rationale | Add automotive, energy data |
 
 Created diversified data/analytics giant. IHS Markit brought:
-- Automotive (now Mobility segment)
+- [[Automotive]] (now Mobility segment)
 - Energy/commodities data (merged with Platts)
 - Financial services data
 

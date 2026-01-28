@@ -2,7 +2,7 @@
 
 #actor #individual #founder #developer-tools #argentina
 
-**Guillermo Rauch** — Founder/CEO of [[Vercel]]. Creator of Next.js, Socket.IO, Mongoose. Argentine, self-taught programmer. Dropped out of high school at 16 to work at Swiss startup. Built tools powering Midjourney, Grok, Notion. Angel investor in [[Supabase]].
+**Guillermo Rauch** — Founder/CEO of [[Vercel]]. Creator of Next.js, Socket.IO, Mongoose. Argentine, self-taught programmer. Dropped out of high school at 16 to work at Swiss startup. Built tools powering Midjourney, [[Grok]], [[Notion]]. Angel investor in [[Supabase]].
 
 ---
 
@@ -11,7 +11,7 @@
 | Detail | Value |
 |--------|-------|
 | Born | December 1990 |
-| Birthplace | Lanús, Buenos Aires, Argentina |
+| Birthplace | Lanús, Buenos Aires, [[Argentina]] |
 | Current role | CEO, [[Vercel]] |
 | Net worth | Significant (Vercel valued at $9.3B) |
 
@@ -41,7 +41,7 @@ Non-traditional — learned through open source community and real-world work ra
 |---------|------|--------|
 | **MooTools** | Early | Core team member |
 | **Socket.IO** | 2010 | Real-time web standard |
-| **Mongoose** | 2010 | MongoDB ODM for Node.js |
+| **Mongoose** | 2010 | [[MongoDB]] ODM for Node.js |
 | **Next.js** | 2016 | De facto React framework |
 
 ### Companies
@@ -70,7 +70,7 @@ Angel investor in developer tools ecosystem:
 
 | Company | Category |
 |---------|----------|
-| [[Supabase]] | Postgres BaaS |
+| [[Supabase]] | [[Postgres]] BaaS |
 | Various | Developer infrastructure |
 
 ---

@@ -22,7 +22,7 @@ aliases: [RIO]
 
 | Metal | 2026 Guidance |
 |-------|---------------|
-| Copper | 800-870 kt |
+| [[Copper]] | 800-870 kt |
 | **Lithium** | **61-64 kt LCE** (first time!) |
 | Iron ore | ~330 Mt |
 | Aluminum | ~3.3 Mt |
@@ -38,7 +38,7 @@ Lithium appears in guidance for first time — signal of strategic shift.
 | Division | Focus |
 |----------|-------|
 | Iron Ore | Pilbara cash cow |
-| Copper | Oyu Tolgoi growth |
+| [[Copper]] | Oyu Tolgoi growth |
 | Aluminium & Lithium | Energy transition |
 
 **Targets:**
@@ -49,7 +49,7 @@ Lithium appears in guidance for first time — signal of strategic shift.
 
 ---
 
-## Copper expansion
+## [[Copper]] expansion
 
 **Oyu Tolgoi (Mongolia):**
 
@@ -66,8 +66,8 @@ Lithium appears in guidance for first time — signal of strategic shift.
 ## Lithium entry (Arcadium acquisition)
 
 **New assets (Nov 2025):**
-- 4 brine deposits (Argentina)
-- 3 hard-rock spodumene deposits (Canada, Australia)
+- 4 brine deposits ([[Argentina]])
+- 3 hard-rock spodumene deposits ([[Canada]], [[Australia]])
 
 **2026 outlook:** 61-64 kt LCE production
 
@@ -78,17 +78,17 @@ Lithium = "future growth lever" as prices recover.
 ## Investment case
 
 **Bull:**
-- Copper exposure at right time (electrification)
+- [[Copper]] exposure at right time (electrification)
 - Lithium diversification
 - Iron ore cash flow funds transition
 - Oyu Tolgoi ramping
 - Disciplined capital allocation
 
 **Bear:**
-- Iron ore China dependency
+- Iron ore [[China]] dependency
 - Lithium execution risk (new to segment)
 - Commodity price volatility
-- ESG/community relations history
+- [[ESG]]/community relations history
 - Mongolia political risk
 
 ---

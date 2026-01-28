@@ -1,9 +1,9 @@
 ---
-aliases: [China National Offshore Oil Corporation]
+aliases: [[[China]] National Offshore [[Oil]] Corporation]
 ---
 #actor #energy #oil #china #public
 
-**CNOOC** — Third-largest Chinese national oil company. Offshore specialist. Latin America and Africa exposure at risk under Monroe Doctrine.
+**CNOOC** — Third-largest Chinese national oil company. Offshore specialist. Latin America and [[Africa]] exposure at risk under Monroe Doctrine.
 
 ---
 
@@ -21,9 +21,9 @@ aliases: [China National Offshore Oil Corporation]
 ## Latin America exposure
 
 **At risk under Monroe Doctrine:**
-- Venezuela joint ventures with PDVSA
-- Brazil deepwater partnerships
-- Guyana exploration interests
+- Venezuela joint ventures with [[PDVSA]]
+- [[Brazil]] deepwater partnerships
+- [[Guyana]] exploration interests
 
 **Post-Maduro (Jan 2026):**
 - Venezuelan assets uncertain

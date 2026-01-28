@@ -29,7 +29,7 @@ This note covers Intel as a company. For the foundry business specifically, see 
 | Client Computing | PC CPUs (Core) |
 | Data Center | Server CPUs (Xeon), AI (Gaudi) |
 | [[Intel Foundry Services]] | External foundry business |
-| Mobileye | Automotive (ADAS) |
+| Mobileye | [[Automotive]] (ADAS) |
 | Altera | FPGAs (acquired) |
 
 ---
@@ -81,11 +81,11 @@ Part of broader US semiconductor sovereignty push. Government directly backing I
 
 ---
 
-## Europe expansion shelved
+## [[Europe]] expansion shelved
 
 | Project | Status |
 |---------|--------|
-| **Germany fab** | Shelved |
+| **[[Germany]] fab** | Shelved |
 | **Poland facility** | Shelved |
 
 Financial pressures and foundry transformation challenges led Intel to pause European expansion. Focus shifted to US facilities with CHIPS Act support.
@@ -146,7 +146,7 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 **CapEx:** 2026 spend similar to 2025, but new machinery output boost not until 2027.
 
-**Context:** Stock had surged 84% in 2025 (best SOX performer in Jan). NVIDIA $5B investment, US government ~10% stake, SoftBank investment — all built Wall Street enthusiasm. Annual revenue $53B vs $78B peak (2021).
+**Context:** Stock had surged 84% in 2025 (best SOX performer in Jan). NVIDIA $5B investment, US government ~10% stake, [[SoftBank]] investment — all built Wall Street enthusiasm. Annual revenue $53B vs $78B peak (2021).
 
 **Analyst reaction:** Matt Bryson (Wedbush): "There's been a lot of optimism around Intel potentially turning a corner... Hearing that yields are difficult, that's not a great start."
 
@@ -163,9 +163,9 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 | Spec | Details |
 |------|---------|
 | **Process** | Intel 18A (first chips) |
-| **Top SKU** | 16 CPU cores, 12 Xe-cores, 50 NPU TOPS |
+| **Top SKU** | 16 CPU cores, 12 Xe-cores, 50 [[NPU]] TOPS |
 | **Multithread** | +60% vs prior gen |
-| **Gaming (iGPU)** | +77% vs Lunar Lake |
+| **[[Gaming]] (iGPU)** | +77% vs Lunar Lake |
 | **Battery** | Up to 27 hours |
 | **New tier** | Core Ultra X9/X7 — highest integrated Arc graphics |
 | **Platform** | Mobile only (desktop stays on Arrow Lake) |
@@ -199,15 +199,15 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | **Foveros** | 3D stacking |
 
 **Who's looking:**
-- Marvell, [[MediaTek]] actively trying EMIB
-- Apple, Qualcomm adding "EMIB familiarity" to job posts
+- [[Marvell]], [[MediaTek]] actively trying EMIB
+- [[Apple]], [[Qualcomm]] adding "EMIB familiarity" to job posts
 - Non-Intel customers already confirmed
 
 **Strategic angle:** If front-end foundry can't win customers, packaging could be beachhead into AI supply chain.
 
-**New model:** TSMC front-end + Intel back-end. US-based back-end solves domestic production requirements (TSMC back-end ships to Taiwan).
+**New model:** TSMC front-end + Intel back-end. US-based back-end solves domestic production requirements (TSMC back-end ships to [[Taiwan]]).
 
-**Risk:** Window may be temporary — if Intel misses it, [[ASE]]/Amkor/SPIL take the overflow.
+**Risk:** Window may be temporary — if Intel misses it, [[ASE]]/[[Amkor]]/SPIL take the overflow.
 
 ---
 
@@ -241,7 +241,7 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 **[[Short TSMC long Korea]]**: Intel weakness = fewer competitors for Samsung
 **[[Long WFE]]**: Intel fabs = equipment demand regardless of outcome
-**[[Long OSAT and test equipment]]**: EMIB competes with traditional OSATs for CoWoS overflow — risk to ASE/Amkor
+**[[Long OSAT and test equipment]]**: EMIB competes with traditional OSATs for CoWoS overflow — risk to ASE/[[Amkor]]
 **[[Advanced packaging]]**: Intel could carve out niche in tier-2 AI packaging
 
 ---

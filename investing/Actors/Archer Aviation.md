@@ -38,7 +38,7 @@
 |-----------|--------|
 | FAA Type Certificate | In progress |
 | Production | Manufacturing facility in Georgia |
-| Commercial ops | Target 2025 |
+| Commercial ops | [[Target]] 2025 |
 
 **Partnerships:**
 - **United Airlines** — $1B+ order commitment
@@ -49,14 +49,14 @@
 
 ---
 
-## NVIDIA partnership — Jan 2026Announced at CES 2026 (Jan 8). Archer to integrate **NVIDIA IGX Thor** — NVIDIA's most powerful safety-capable AI computing module.| Detail | Info ||--------|------|| Platform | [[NVIDIA]] IGX Thor || Stock reaction | ACHR +4% || Test location | Hawthorne airport, LA |**Focus areas:**- Pilot safety & predictive awareness- Seamless airspace integration- Autonomy-ready flight controls**Context:** Second megacap AI partner after [[Palantir]]. Integration already underway across manufacturing, fleet ops, and pilot training.*Source: Archer IR, Jan 2026*---
+## NVIDIA partnership — Jan 2026Announced at [[CES 2026]] (Jan 8). Archer to integrate **NVIDIA IGX Thor** — NVIDIA's most powerful safety-capable AI computing module.| Detail | Info ||--------|------|| Platform | [[NVIDIA]] IGX Thor || Stock reaction | ACHR +4% || Test location | Hawthorne airport, LA |**Focus areas:**- Pilot safety & predictive awareness- Seamless airspace integration- Autonomy-ready flight controls**Context:** Second megacap AI partner after [[Palantir]]. Integration already underway across manufacturing, fleet ops, and pilot training.*Source: Archer IR, Jan 2026*---
 ## Business model
 
 | Phase | Plan |
 |-------|------|
 | Initial | Operated service + aircraft sales |
 | Routes | Urban, airport shuttle |
-| Target markets | US, UAE, Asia |
+| [[Target]] markets | US, UAE, [[Asia]] |
 
 ---
 

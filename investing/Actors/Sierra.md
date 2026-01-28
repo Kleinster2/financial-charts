@@ -24,7 +24,7 @@ Elite founders building practical enterprise AI:
 
 | Founder | Background |
 |---------|------------|
-| [[Bret Taylor]] | Google Maps, Salesforce co-CEO, OpenAI Chairman |
+| [[Bret Taylor]] | Google Maps, [[Salesforce]] co-CEO, OpenAI Chairman |
 | Clay Bavor | Google VP (AR/VR, Labs) |
 
 Two elite Google/enterprise veterans.
@@ -59,7 +59,7 @@ Practical, not research.
 |------------|----------|-----------|
 | Intercom | Chat + AI | AI-native |
 | Zendesk | Ticketing + AI | Full AI agent |
-| Salesforce | Service Cloud | Founder credibility |
+| [[Salesforce]] | Service Cloud | Founder credibility |
 
 Sierra = AI-first customer service.
 
@@ -76,7 +76,7 @@ Sierra = AI-first customer service.
 **Bear:**
 - Competitive market
 - Enterprise sales cycles
-- Salesforce/Zendesk resources
+- [[Salesforce]]/Zendesk resources
 - Early stage
 
 ---
@@ -94,7 +94,7 @@ Sierra = AI-first customer service.
 | Investor | Notes |
 |----------|-------|
 | [[Sequoia Capital]] | Lead |
-| Benchmark | Early |
+| [[Benchmark]] | Early |
 | ICONIQ | Growth |
 
 **Total raised:** $110M+

@@ -3,13 +3,13 @@ aliases: [Rio AI City]
 ---
 #actor #datacenter #infrastructure #brazil #region
 
-**Rio de Janeiro Data Hub** — Fastest growing Brazil DC market. Rio AI City. Submarine cables.
+**Rio de Janeiro Data Hub** — Fastest growing [[Brazil]] DC market. Rio AI City. Submarine cables.
 
 ---
 
 ## Why Rio matters
 
-Brazil's emerging AI hub:
+[[Brazil]]'s emerging AI hub:
 
 | Metric | Value |
 |--------|-------|
@@ -38,7 +38,7 @@ Purpose-built for AI workloads.
 |--------|-----------|
 | State incentives | Tax breaks |
 | Submarine cables | Trans-Atlantic landing |
-| Offshore energy | Oil/gas data needs |
+| Offshore energy | [[Oil]]/gas data needs |
 | Lower costs | vs São Paulo |
 | AI focus | GPU-ready infrastructure |
 
@@ -48,7 +48,7 @@ Purpose-built for AI workloads.
 
 **Cable landings:**
 - Trans-Atlantic routes
-- Direct to Europe/Africa
+- Direct to [[Europe]]/[[Africa]]
 - Low latency advantage
 - Offshore platform connectivity
 
@@ -56,8 +56,8 @@ Purpose-built for AI workloads.
 
 ## Energy sector synergy
 
-**Oil & gas connection:**
-- Petrobras operations
+**[[Oil]] & gas connection:**
+- [[Petrobras]] operations
 - Offshore platform data
 - Low-latency computing
 - Energy sector AI
@@ -81,9 +81,9 @@ Rio = AI specialist; São Paulo = generalist.
 
 | Company | Exposure |
 |---------|----------|
-| Scala Data Centers | Rio AI City |
+| Scala [[Data Centers]] | Rio AI City |
 | State of Rio | Incentives |
-| Petrobras | Energy sector |
+| [[Petrobras]] | Energy sector |
 
 ---
 

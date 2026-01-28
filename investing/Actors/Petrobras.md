@@ -21,7 +21,7 @@ aliases: [PBR, Petroleo Brasileiro]
 ## Pre-salt reserves
 
 **World-class deepwater:**
-- Sub-salt formations off Brazil coast
+- Sub-salt formations off [[Brazil]] coast
 - 50-100B barrels recoverable
 - Low lifting costs (~$6/bbl)
 - Technology leader in deepwater
@@ -34,7 +34,7 @@ aliases: [PBR, Petroleo Brasileiro]
 |---------|-------------|
 | Exploration & Production | Pre-salt, deepwater |
 | Refining | Domestic refineries |
-| Gas & Power | Natural gas, power generation |
+| Gas & Power | [[Natural gas]], power generation |
 | Distribution | Fuel distribution |
 
 ---

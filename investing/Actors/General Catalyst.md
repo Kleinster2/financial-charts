@@ -3,7 +3,7 @@ aliases: [GC]
 ---
 #actor #investor #venturecapital #usa #private
 
-**General Catalyst** — Growth-stage VC. Stripe, Airbnb, Snap investor. Hemant Taneja CEO. ~$25B AUM. "Responsible innovation."
+**General Catalyst** — Growth-stage VC. Stripe, [[Airbnb]], [[Snap]] investor. Hemant Taneja CEO. ~$25B AUM. "Responsible innovation."
 
 ---
 
@@ -23,10 +23,10 @@ aliases: [GC]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **[[Stripe]]** | Growth | $129B private |
-| **Airbnb** | Early | Public (ABNB) |
-| **Snap** | Early | Public (SNAP) |
-| **HubSpot** | Early | Public (HUBS) |
-| **Datadog** | Growth | Public (DDOG) |
+| **[[Airbnb]]** | Early | Public (ABNB) |
+| **[[Snap]]** | Early | Public (SNAP) |
+| **[[HubSpot]]** | Early | Public (HUBS) |
+| **[[Datadog]]** | Growth | Public (DDOG) |
 | **Livongo** | Growth | Acquired by Teladoc |
 | **Warby Parker** | Early | Public (WRBY) |
 
@@ -47,10 +47,10 @@ aliases: [GC]
 
 | Sector | Examples |
 |--------|----------|
-| **Enterprise** | HubSpot, Datadog |
-| **Fintech** | Stripe, Plaid |
-| **Healthcare** | Livongo, Oscar |
-| **Consumer** | Airbnb, Snap |
+| **Enterprise** | [[HubSpot]], [[Datadog]] |
+| **[[Fintech]]** | Stripe, Plaid |
+| **[[Healthcare]]** | Livongo, Oscar |
+| **[[Consumer]]** | [[Airbnb]], [[Snap]] |
 
 ---
 
@@ -72,7 +72,7 @@ aliases: [GC]
 |--------|--------|
 | Focus | Transform US healthcare |
 | Investments | Livongo, Devoted Health, Oscar |
-| Rationale | Healthcare = broken, huge market |
+| Rationale | [[Healthcare]] = broken, huge market |
 | Approach | Responsible innovation |
 
 ---
@@ -84,7 +84,7 @@ aliases: [GC]
 | Founded | 2000 |
 | AUM | ~$25B |
 | CEO | Hemant Taneja |
-| Top exits | Airbnb, Snap, HubSpot |
+| Top exits | [[Airbnb]], [[Snap]], [[HubSpot]] |
 
 ---
 

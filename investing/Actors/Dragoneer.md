@@ -3,7 +3,7 @@ aliases: [Dragoneer Investment Group]
 ---
 #actor #investor #crossover #usa #private
 
-**Dragoneer** — Crossover fund. Public + private tech. Snowflake, DoorDash, Scale AI investor. ~$25B AUM.
+**Dragoneer** — Crossover fund. Public + private tech. [[Snowflake]], [[DoorDash]], Scale AI investor. ~$25B AUM.
 
 ---
 
@@ -25,11 +25,11 @@ aliases: [Dragoneer Investment Group]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **[[Scale AI]]** | Growth | Meta 49% ($29B) |
-| **Snowflake** | Pre-IPO | Public (SNOW) |
-| **DoorDash** | Pre-IPO | Public (DASH) |
+| **[[Scale AI]]** | Growth | [[Meta]] 49% ($29B) |
+| **[[Snowflake]]** | Pre-IPO | Public (SNOW) |
+| **[[DoorDash]]** | Pre-IPO | Public (DASH) |
 | **ServiceTitan** | Pre-IPO | Public |
-| **Instacart** | Pre-IPO | Public (CART) |
+| **[[Instacart]]** | Pre-IPO | Public (CART) |
 
 ### Public positions
 

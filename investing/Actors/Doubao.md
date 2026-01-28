@@ -14,7 +14,7 @@ aliases: [豆包, ByteDance AI]
 | DAU | **100M+** (Dec 2025) |
 | MAU | **159M** (Oct 2025) |
 | China AI rank | **#1** (passed DeepSeek Aug 2025) |
-| Global AI rank | #4 (behind ChatGPT, Gemini, Copilot) |
+| Global AI rank | #4 (behind ChatGPT, [[Gemini]], Copilot) |
 | Parent | [[ByteDance]] |
 | Marketing spend | Lowest of any ByteDance 100M DAU product |
 
@@ -38,7 +38,7 @@ China's AI usage leader — and did it with minimal marketing.
 | **Doubao** | **159M** |
 | [[DeepSeek]] | 143M |
 | Tencent Yuanbao | 73M |
-| [[Alibaba]] Qwen | ~100M |
+| [[Alibaba]] [[Qwen]] | ~100M |
 | Baidu Ernie | — |
 
 Doubao leads by 2x over #3.
@@ -76,7 +76,7 @@ Doubao leads by 2x over #3.
 | Ticket booking | [[Douyin]] | Live (Dec 2025) |
 | Shopping | Douyin e-commerce | Live |
 | Food ordering | Douyin local services | In progress |
-| Travel booking | Douyin | In progress |
+| [[Travel]] booking | Douyin | In progress |
 
 **ZTE partnership:**
 - Prototype smartphone with Doubao pre-installed
@@ -95,7 +95,7 @@ See [[Douyin]] for e-commerce context.
 | Factor | Impact |
 |--------|--------|
 | [[Douyin]] integration | 790M MAU funnel |
-| [[ByteDance]] ecosystem | Lark, CapCut, TikTok |
+| [[ByteDance]] ecosystem | Lark, CapCut, [[TikTok]] |
 | Recommendation algorithm | Best-in-class discovery |
 | Mobile-first | Optimized for phone use |
 
@@ -132,7 +132,7 @@ See [[ByteDance]] for GPU spending details.
 | Competitor              | Strength                | vs Doubao                 |
 | ----------------------- | ----------------------- | ------------------------- |
 | [[DeepSeek]]            | Reasoning, open weights | Doubao has distribution   |
-| [[Alibaba]] Qwen        | Enterprise, open source | Doubao has consumer scale |
+| [[Alibaba]] [[Qwen]]        | Enterprise, open source | Doubao has consumer scale |
 | [[Tencent]] [[Yuanbao]] | WeChat integration      | Doubao has 2x users       |
 | [[Baidu]] [[Ernie]]     | Search integration      | Doubao more engaging      |
 | [[ChatGPT]]             | Global leader           | Not available in China    |
@@ -151,7 +151,7 @@ See [[ByteDance]] for GPU spending details.
 
 **Indirect exposure:**
 - [[NVIDIA]] — $14B GPU order
-- [[SK Hynix]] — HBM for ByteDance infrastructure
+- [[SK Hynix]] — [[HBM]] for ByteDance infrastructure
 
 **Thesis implications:**
 - China AI usage consolidating around ByteDance
@@ -190,7 +190,7 @@ See [[ByteDance]] for GPU spending details.
 - [[ByteDance]] — parent company
 - [[Douyin]] — distribution channel, commerce integration
 - [[DeepSeek]] — competitor (#2 in China)
-- [[Alibaba]] — competitor (Qwen)
+- [[Alibaba]] — competitor ([[Qwen]])
 - [[Tencent]] — competitor (Yuanbao)
 - [[NVIDIA]] — GPU supplier
 - [[Agentic AI]] — category (commerce integration)

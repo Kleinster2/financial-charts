@@ -11,9 +11,9 @@ aliases: [housing deficit, housing undersupply, housing gap]
 
 | Source | Estimate |
 |--------|----------|
-| Zillow | **4.7 million** (all-time high) |
-| Freddie Mac | 3.7 million |
-| Goldman Sachs | 3–4 million |
+| [[Zillow]] | **4.7 million** (all-time high) |
+| [[Freddie Mac]] | 3.7 million |
+| [[Goldman Sachs]] | 3–4 million |
 | Realtor.com (SFH only) | 7.2 million |
 | Realtor.com (incl. MF) | 2.5 million |
 | NMHC (apartments by 2035) | 4.3 million needed |
@@ -114,7 +114,7 @@ aliases: [housing deficit, housing undersupply, housing gap]
 
 **Structural tailwind for:**
 - Homebuilders ([[DR Horton]], [[Lennar]], [[PulteGroup]], [[Toll Brothers]])
-- SFR REITs ([[Invitation Homes]], [[American Homes 4 Rent]])
+- SFR [[REITs]] ([[Invitation Homes]], [[American Homes 4 Rent]])
 - Building materials (lumber, cement, fixtures)
 - Construction labor/equipment
 

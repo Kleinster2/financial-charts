@@ -11,7 +11,7 @@ The **Schuldenbremse** (debt brake), enshrined in Germany's constitution since 2
 | Exception | Mechanism |
 |-----------|-----------|
 | **Infrastructure fund** | €500B over 12 years, outside debt brake |
-| **Defense exemption** | Any spending above 1% GDP exempt from limits |
+| **[[Defense]] exemption** | Any spending above 1% GDP exempt from limits |
 
 **Total firepower:** ~€850B in federal borrowing through 2029, inflating debt ~50% vs end-2024.
 
@@ -36,18 +36,18 @@ Planned investment: €75B (2024) → €115B (2025) → €120B (2026). Source:
 
 ## The skeptic case
 
-Deutsche Bank economist Sebastian Becker (Jan 2026): expects **no significant strengthening of real growth potential** — large parts of extra debt going to social spending and subsidies.
+[[Deutsche Bank]] economist Sebastian Becker (Jan 2026): expects **no significant strengthening of real growth potential** — large parts of extra debt going to social spending and subsidies.
 
 ### Leakage mechanisms
 
 | Mechanism | Effect |
 |-----------|--------|
-| Budget shifting | Transport spending moved from core budget to infrastructure fund |
-| Defense exemption | Frees core budget capacity for consumption |
+| Budget shifting | [[Transport]] spending moved from core budget to infrastructure fund |
+| [[Defense]] exemption | Frees core budget capacity for consumption |
 | Weak guardrails | €100B to states may plug deficits, not invest |
 | Social spending | Pension top-ups, commuter subsidies, restaurant VAT cuts |
 
-**Quantified:** €125B minimum could pay for non-investment items through 2029 (Deutsche Bank estimate).
+**Quantified:** €125B minimum could pay for non-investment items through 2029 ([[Deutsche Bank]] estimate).
 
 ### 10% investment quota
 
@@ -70,7 +70,7 @@ Germany's real GDP has flatlined since 2019 — **six years of stagnation**. Pot
 | 2026 | 0.9% |
 | 2027 | 1.4% |
 
-Deutsche Bank sees 2027 as **peak, not inflection** — growth partly reflects more working days, not structural improvement.
+[[Deutsche Bank]] sees 2027 as **peak, not inflection** — growth partly reflects more working days, not structural improvement.
 
 ---
 

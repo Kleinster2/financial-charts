@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$10B |
-| Source | Sun Microsystems, Kleiner Perkins |
+| Source | Sun Microsystems, [[Kleiner Perkins]] |
 | Vehicle | [[Khosla Ventures]] |
 | Focus | Climate, AI, impossible problems |
 
@@ -23,7 +23,7 @@ aliases: []
 | Period | Role |
 |--------|------|
 | 1982 | Sun Microsystems (co-founder) |
-| 1986-2004 | Kleiner Perkins (partner) |
+| 1986-2004 | [[Kleiner Perkins]] (partner) |
 | 2004-present | Khosla Ventures (founder) |
 
 ---
@@ -46,9 +46,9 @@ aliases: []
 | **[[OpenAI]]** | AI | $300B+ |
 | **Impossible Foods** | Climate | Private |
 | **Commonwealth Fusion** | Fusion | Private |
-| **Quantumscape** | Batteries | Public (QS) |
-| **Square** | Fintech | Public (SQ) |
-| **Stripe** | Fintech | $129B |
+| **Quantumscape** | [[Batteries]] | Public (QS) |
+| **Square** | [[Fintech]] | Public (SQ) |
+| **[[Stripe]]** | [[Fintech]] | $129B |
 
 ---
 
@@ -71,7 +71,7 @@ aliases: []
 |---------|------------|
 | Impossible Foods | Plant-based meat |
 | Commonwealth Fusion | Fusion energy |
-| Quantumscape | Solid-state batteries |
+| Quantumscape | [[Solid-state batteries]] |
 | Various | Carbon capture, solar |
 
 ---
@@ -83,7 +83,7 @@ aliases: []
 | Co-founded | 1982 |
 | Role | CEO (early) |
 | Innovation | Java, SPARC |
-| Outcome | Sold to Oracle (2010) |
+| Outcome | Sold to [[Oracle]] (2010) |
 
 ---
 

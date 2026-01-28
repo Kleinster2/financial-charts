@@ -39,12 +39,12 @@
 | FAA Part 135 air carrier | ✓ Certified |
 | FAA Type Certificate | In progress (expected 2025) |
 | Production Certificate | Pending |
-| Commercial ops | Target 2025 |
+| Commercial ops | [[Target]] 2025 |
 
 **Partnerships:**
 - **Toyota** — $894M invested, manufacturing partnership
 - **Delta** — Investment, NYC/airport routes
-- **Uber Elevate** — Acquired (2020)
+- **[[Uber]] Elevate** — Acquired (2020)
 
 ---
 
@@ -54,7 +54,7 @@
 |-------|------|
 | Initial | Owned/operated air taxi service |
 | Routes | Airport transfers, urban mobility |
-| Target cities | NYC, LA, Dubai |
+| [[Target]] cities | NYC, LA, Dubai |
 | Pricing | ~helicopter cost initially, declining |
 
 ---

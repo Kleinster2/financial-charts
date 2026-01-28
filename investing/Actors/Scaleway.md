@@ -11,9 +11,9 @@
 | Founded | 1999 (as Online.net) |
 | Founder | Xavier Niel |
 | Parent | Iliad Group |
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | GPUs | 5,000+ (incl. 1,000+ H100s) |
-| Data centers | France, Netherlands, Poland |
+| Data centers | [[France]], Netherlands, Poland |
 
 ---
 
@@ -41,7 +41,7 @@ Scaleway benefits from Iliad's telecom cash flows and infrastructure.
 
 ## SemiAnalysis tier
 
-**Silver** — alongside AWS, Lambda
+**[[Silver]]** — alongside AWS, Lambda
 
 ---
 

@@ -2,7 +2,7 @@
 
 #actor #startup #usa #ai #private #agents
 
-**/dev/agents** — AI agent infrastructure startup. **$56M raised.** Backed by Alphabet (CapitalG), Activant Capital. [[Andrej Karpathy]] angel investor. Building foundational tools for AI agents.
+**/dev/agents** — AI agent infrastructure startup. **$56M raised.** Backed by Alphabet ([[CapitalG]]), Activant Capital. [[Andrej Karpathy]] angel investor. Building foundational tools for [[AI agents]].
 
 ---
 
@@ -24,13 +24,13 @@
 
 | Investor | Type |
 |----------|------|
-| **CapitalG** (Alphabet) | Lead |
+| **[[CapitalG]]** (Alphabet) | Lead |
 | **Activant Capital** | Lead |
 | Alphabet | Strategic |
 | **[[Andrej Karpathy]]** | Angel |
 | Others | 5 additional |
 
-**Notable:** Google/Alphabet backing via CapitalG signals Big Tech interest in agent infrastructure layer.
+**Notable:** [[Google]]/Alphabet backing via [[CapitalG]] signals Big Tech interest in agent infrastructure layer.
 
 ---
 
@@ -64,7 +64,7 @@ AI agent startup funding in 2025:
 | LangChain | Agent frameworks |
 | CrewAI | Multi-agent orchestration |
 | AutoGPT | Open source agents |
-| [[Adept]] (→ Amazon) | Agent models |
+| [[Adept]] (→ [[Amazon]]) | Agent models |
 
 **Positioning:** Lower-level infrastructure vs application-layer agent companies.
 
@@ -75,7 +75,7 @@ AI agent startup funding in 2025:
 **Why track /dev/agents:**
 
 1. **Karpathy bet** — He's selective with angel investments
-2. **Alphabet backing** — Google sees value in agent infra
+2. **Alphabet backing** — [[Google]] sees value in agent infra
 3. **Picks and shovels** — Infrastructure layer for agent boom
 4. **Early stage** — $56M, room to grow
 
@@ -90,8 +90,8 @@ AI agent startup funding in 2025:
 
 - [[Andrej Karpathy]] — angel investor
 - [[Agentic AI]] — category/trend
-- [[Adept]] — peer (acqui-hired by Amazon)
-- CapitalG — lead investor (Alphabet growth fund)
+- [[Adept]] — peer (acqui-hired by [[Amazon]])
+- [[CapitalG]] — lead investor (Alphabet growth fund)
 
 ---
 

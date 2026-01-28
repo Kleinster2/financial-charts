@@ -1,8 +1,8 @@
 #concept #network #siliconvalley #founders
 
-# PayPal mafia
+# [[PayPal]] mafia
 
-**Network of ~20 PayPal founders/early employees** who went on to found or fund Tesla, SpaceX, LinkedIn, YouTube, Yelp, Palantir, Affirm, and many others. Coined by Fortune (2007). Combined companies worth **$1T+**. Defining network of modern tech.
+**Network of ~20 [[PayPal]] founders/early employees** who went on to found or fund Tesla, SpaceX, LinkedIn, YouTube, Yelp, Palantir, Affirm, and many others. Coined by Fortune (2007). Combined companies worth **$1T+**. Defining network of modern tech.
 
 ---
 
@@ -10,8 +10,8 @@
 
 | Metric | Value |
 |--------|-------|
-| Origin | PayPal (1998-2002) |
-| Exit event | eBay acquisition, $1.5B (Oct 2002) |
+| Origin | [[PayPal]] (1998-2002) |
+| Exit event | [[eBay]] acquisition, $1.5B (Oct 2002) |
 | Members | ~20 core |
 | Combined company value | $1T+ |
 | Term coined | Fortune magazine, 2007 |
@@ -22,10 +22,10 @@
 
 | Factor | Explanation |
 |--------|-------------|
-| **Talent density** | PayPal hired aggressively from Stanford, UIUC |
+| **Talent density** | [[PayPal]] hired aggressively from [[Stanford]], UIUC |
 | **Shared adversity** | Fraud fights, dot-com crash, near-death experiences |
 | **Capital event** | $1.5B exit gave everyone runway to start again |
-| **Network effects** | Alumni invest in each other, hire each other, advise each other |
+| **[[Network effects]]** | Alumni invest in each other, hire each other, advise each other |
 | **Contrarian culture** | Thiel's philosophy: question everything, think independently |
 
 ---
@@ -34,20 +34,20 @@
 
 ### Founders / C-suite
 
-| Member | PayPal role | Post-PayPal companies |
+| Member | [[PayPal]] role | Post-[[PayPal]] companies |
 |--------|-------------|----------------------|
-| **[[Peter Thiel]]** | Co-founder, CEO | [[Palantir]], Founders Fund, first Facebook investor |
+| **[[Peter Thiel]]** | Co-founder, CEO | [[Palantir]], [[Founders Fund]], first Facebook investor |
 | **[[Elon Musk]]** | Co-founder (X.com merger) | [[Tesla]], [[SpaceX]], [[Neuralink]], [[xAI]], X (Twitter) |
 | **[[Max Levchin]]** | Co-founder, CTO | [[Affirm]], Slide, [[Yelp]] investor, [[SciFi VC]] |
 | **[[Reid Hoffman]]** | EVP | [[LinkedIn]] (→ [[Microsoft]] $26B), Greylock, [[OpenAI]] investor |
-| **David Sacks** | COO | Yammer, Craft Ventures, White House AI/crypto czar (2025) |
+| **[[David Sacks]]** | COO | Yammer, [[Craft Ventures]], White House AI/crypto czar (2025) |
 | **[[Roelof Botha]]** | CFO | [[Sequoia Capital]] partner |
 
 ### Key executives / engineers
 
-| Member | PayPal role | Post-PayPal companies |
+| Member | [[PayPal]] role | Post-[[PayPal]] companies |
 |--------|-------------|----------------------|
-| **Keith Rabois** | Executive | Square COO, Opendoor founder, Founders Fund, Khosla |
+| **[[Keith Rabois]]** | Executive | Square COO, Opendoor founder, [[Founders Fund]], Khosla |
 | **Chad Hurley** | Designer | YouTube co-founder |
 | **Steve Chen** | Engineer | YouTube co-founder |
 | **Jawed Karim** | Engineer | YouTube co-founder |
@@ -55,7 +55,7 @@
 | **Russel Simmons** | Engineer | [[Yelp]] co-founder |
 | **Premal Shah** | Product | Kiva (microfinance) |
 | **Dave McClure** | Marketing | 500 Startups founder |
-| **Yishan Wong** | Engineering | Reddit CEO, Facebook |
+| **Yishan Wong** | Engineering | [[Reddit]] CEO, Facebook |
 
 ---
 
@@ -70,7 +70,7 @@
 | YouTube | Hurley, Chen, Karim | Acquired by [[Google]] $1.65B |
 | [[Yelp]] | Stoppelman, Simmons | Public (YELP) |
 | [[Affirm]] | [[Max Levchin]] | ~$18B market cap |
-| Yammer | David Sacks | Acquired by [[Microsoft]] $1.2B |
+| Yammer | [[David Sacks]] | Acquired by [[Microsoft]] $1.2B |
 | Square | Rabois (COO) | Public (now [[Block]]) |
 | Opendoor | Rabois (founder) | Public (OPEN) |
 | Slide | [[Max Levchin]] | Acquired by [[Google]] $182M |
@@ -82,12 +82,12 @@
 
 | Firm | Founder | Notable investments |
 |------|---------|---------------------|
-| **Founders Fund** | [[Peter Thiel]] | Facebook, SpaceX, Palantir, Stripe, Airbnb |
-| **Craft Ventures** | David Sacks | Various |
+| **[[Founders Fund]]** | [[Peter Thiel]] | Facebook, SpaceX, Palantir, [[Stripe]], [[Airbnb]] |
+| **[[Craft Ventures]]** | [[David Sacks]] | Various |
 | **[[SciFi VC]]** | [[Max Levchin]] | [[Brex]], Opendoor, Wise |
-| **Greylock** | [[Reid Hoffman]] (partner) | Discord, Figma |
+| **Greylock** | [[Reid Hoffman]] (partner) | [[Discord]], [[Figma]] |
 | **500 Startups** | Dave McClure | 2,400+ investments |
-| **Khosla Ventures** | Keith Rabois (partner) | Various |
+| **[[Khosla Ventures]]** | [[Keith Rabois]] (partner) | Various |
 
 ---
 
@@ -99,8 +99,8 @@ The mafia invests in each other's companies:
 |----------|-------------|
 | [[Peter Thiel]] | Facebook, SpaceX, LinkedIn, Palantir, Yelp |
 | [[Max Levchin]] | Yelp (largest shareholder), [[Brex]] |
-| [[Reid Hoffman]] | Facebook, Airbnb, [[OpenAI]] |
-| Keith Rabois | YouTube, Palantir, Eventbrite |
+| [[Reid Hoffman]] | Facebook, [[Airbnb]], [[OpenAI]] |
+| [[Keith Rabois]] | YouTube, Palantir, Eventbrite |
 | [[Roelof Botha]] | YouTube (Sequoia), Square, Instagram |
 
 ---
@@ -116,7 +116,7 @@ The mafia invests in each other's companies:
 
 Merged March 2000. Power struggle: Musk ousted as CEO (Sep 2000), Thiel took over. Survived dot-com crash, fraud attacks, near-bankruptcy.
 
-### eBay acquisition (Oct 2002)
+### [[eBay]] acquisition (Oct 2002)
 
 - Price: **$1.5B**
 - Most employees cashed out and left
@@ -126,7 +126,7 @@ Merged March 2000. Power struggle: Musk ousted as CEO (Sep 2000), Thiel took ove
 
 ## The 2007 Fortune photo
 
-The term "PayPal Mafia" was coined when Fortune published a photo of former PayPal employees dressed as mobsters. The image — with Thiel as the "don" — crystallized the network's influence.
+The term "[[PayPal]] Mafia" was coined when Fortune published a photo of former [[PayPal]] employees dressed as mobsters. The image — with Thiel as the "don" — crystallized the network's influence.
 
 ---
 
@@ -134,10 +134,10 @@ The term "PayPal Mafia" was coined when Fortune published a photo of former PayP
 
 | Member | Role |
 |--------|------|
-| [[Elon Musk]] | Close Trump ally, X owner, DOGE |
-| David Sacks | White House AI & crypto czar |
+| [[Elon Musk]] | Close Trump ally, X owner, [[DOGE]] |
+| [[David Sacks]] | White House AI & crypto czar |
 | [[Peter Thiel]] | Major Republican donor |
-| Keith Rabois | Trump supporter |
+| [[Keith Rabois]] | Trump supporter |
 
 The mafia has shifted from apolitical techno-libertarianism to active political engagement, mostly right-leaning.
 
@@ -145,13 +145,13 @@ The mafia has shifted from apolitical techno-libertarianism to active political 
 
 ## Investment relevance
 
-**Why the PayPal mafia matters:**
+**Why the [[PayPal]] mafia matters:**
 
 1. **Network = signal** — When mafia members invest together, pay attention.
 
 2. **Company factory** — Tesla, SpaceX, Palantir, LinkedIn, YouTube all trace back here.
 
-3. **VC influence** — Founders Fund, Sequoia (Botha), Greylock (Hoffman) shape tech funding.
+3. **VC influence** — [[Founders Fund]], Sequoia (Botha), Greylock (Hoffman) shape tech funding.
 
 4. **Political power** — Now directly influencing US tech/AI/crypto policy.
 
@@ -162,12 +162,12 @@ The mafia has shifted from apolitical techno-libertarianism to active political 
 ## Related
 
 ### Core members
-- [[Peter Thiel]] — don, Founders Fund
+- [[Peter Thiel]] — don, [[Founders Fund]]
 - [[Elon Musk]] — Tesla, SpaceX
 - [[Max Levchin]] — Affirm, SciFi VC
 - [[Reid Hoffman]] — LinkedIn, Greylock
 - [[Roelof Botha]] — Sequoia partner
-- David Sacks — Craft Ventures, White House AI czar
+- [[David Sacks]] — [[Craft Ventures]], White House AI czar
 
 ### Companies
 - [[Tesla]] — Musk
@@ -178,11 +178,11 @@ The mafia has shifted from apolitical techno-libertarianism to active political 
 - [[Yelp]] — Stoppelman, Simmons
 
 ### Investment firms
-- Founders Fund — Thiel
+- [[Founders Fund]] — Thiel
 - [[Sequoia Capital]] — Botha
 - [[SciFi VC]] — Levchin
 - Greylock — Hoffman
-- Craft Ventures — Sacks
+- [[Craft Ventures]] — Sacks
 
 ### Related concepts
 - [[Y Combinator]] — similar network effects

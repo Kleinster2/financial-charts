@@ -60,7 +60,7 @@ aliases: [ILMN]
 
 | Market | % of consumables | Trend |
 |--------|------------------|-------|
-| **Clinical** | ~60% | Growing double digits (ex-China) |
+| **Clinical** | ~60% | Growing double digits (ex-[[China]]) |
 | Research | ~40% | Pressured (NIH funding) |
 
 ---
@@ -74,7 +74,7 @@ aliases: [ILMN]
 
 ---
 
-## China challenges
+## [[China]] challenges
 
 | Issue | Impact |
 |-------|--------|
@@ -90,7 +90,7 @@ aliases: [ILMN]
 |------------|------------|--------------|
 | PacBio | Long-read | Moderate (different use cases) |
 | Oxford Nanopore | Portable long-read | Growing |
-| MGI (BGI) | Short-read | China-focused |
+| MGI (BGI) | Short-read | [[China]]-focused |
 | Element Biosciences | Benchtop | Emerging |
 | Ultima Genomics | Ultra-low cost | Early |
 
@@ -108,7 +108,7 @@ aliases: [ILMN]
 - Cost discipline improving margins
 
 **Bear:**
-- China revenue headwind
+- [[China]] revenue headwind
 - NIH funding uncertainty
 - Long-read competition growing
 - Grail sale removed upside

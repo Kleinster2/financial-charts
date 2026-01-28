@@ -10,7 +10,7 @@ State actor shaping semiconductor industry through industrial policy, export con
 
 ### GDP
 
-| Year | Target | Actual | Notes |
+| Year | [[Target]] | Actual | Notes |
 |------|--------|--------|-------|
 | 2025 Full Year | 5.0% | **5.0%** | Hit target |
 | 2025 Q4 | — | **4.5%** | Weakest in 3 years |
@@ -96,14 +96,14 @@ China is central to every major semiconductor thesis:
 - Massive mature node capacity buildout
 
 ### Advanced nodes (struggling)
-- **ASML clone**: Prototype in Shenzhen with former ASML engineers
-  - Target: 2028-2030 production
+- **ASML clone**: Prototype in [[Shenzhen]] with former ASML engineers
+  - [[Target]]: 2028-2030 production
   - Reality: Decades behind on precision engineering
 - **DUV workarounds**: Extending life of older ASML tools via subsystem upgrades
 
 ### AI chips
-- Huawei Ascend 910B/C competing with NVIDIA A100
-- Tencent WeDLM-8B model (beats Qwen3-8B)
+- Huawei [[Ascend]] 910B/C competing with NVIDIA A100
+- [[Tencent]] WeDLM-8B model (beats Qwen3-8B)
 - Heavy stockpiling of NVIDIA chips pre-restrictions
 
 ### Huawei as national champion strategy (Jan 2026)
@@ -118,7 +118,7 @@ China is central to every major semiconductor thesis:
 | Parallel | Echoes Huawei telecom playbook (Trump I era) |
 | Bloomberg/Reuters | Reported China not allowing NVIDIA chips into country |
 
-**The telecom lesson ([[Michael Kratsios]], Davos):** Huawei wasn't the best technology in telecom — "certainly subpar compared to Ericsson and Nokia" — but was "good enough" and "subsidized enough" to become default for much of the world. China now applying same playbook to AI chips.
+**The telecom lesson ([[Michael Kratsios]], Davos):** Huawei wasn't the best technology in telecom — "certainly subpar compared to [[Ericsson]] and [[Nokia]]" — but was "good enough" and "subsidized enough" to become default for much of the world. China now applying same playbook to AI chips.
 
 ### Energy advantage (Sacks, Davos Jan 2026)
 
@@ -149,7 +149,7 @@ China is central to every major semiconductor thesis:
 
 ### Public sentiment / AI optimism
 
-**Stanford polling (cited by Sacks, Davos Jan 2026):**
+**[[Stanford]] polling (cited by Sacks, Davos Jan 2026):**
 
 | Country/Region | "AI more beneficial than harmful" |
 |----------------|-----------------------------------|
@@ -176,7 +176,7 @@ China is central to every major semiconductor thesis:
 | **NVIDIA** | Was ~25% revenue | Mostly lost, H200 partial recovery |
 | **AMD** | Growing (MI308) | Regulatory uncertainty |
 | **ASML** | DUV sales ongoing | Clone threat, tighter controls coming |
-| **Applied Materials** | Significant | Service restrictions |
+| **[[Applied Materials]]** | Significant | Service restrictions |
 
 ---
 
@@ -186,7 +186,7 @@ China is central to every major semiconductor thesis:
 
 | Metric | 2025 | YoY |
 |--------|------|-----|
-| Trade surplus | **$1.189T** | +20% |
+| [[Trade]] surplus | **$1.189T** | +20% |
 | Exports | $3.77T | +5.5% |
 | Imports | $2.58T | Flat |
 
@@ -195,9 +195,9 @@ China is central to every major semiconductor thesis:
 | Region | Change | Notes |
 |--------|--------|-------|
 | **US** | **-20%** | Tariff impact |
-| Africa | +26% | Fastest growth |
-| ASEAN | +13% | Supply chain relocation |
-| EU | +8% | Steady growth |
+| [[Africa]] | +26% | Fastest growth |
+| [[ASEAN]] | +13% | Supply chain relocation |
+| [[EU]] | +8% | Steady growth |
 | LatAm | +7% | New markets |
 
 **Key categories:**
@@ -205,16 +205,16 @@ China is central to every major semiconductor thesis:
 - Mechanical/electrical: +8.4%
 - Declining: furniture, clothing, shoes
 
-**Strategic response:** Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE Asia) facing lower US tariffs.
+**Strategic response:** Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE [[Asia]]) facing lower US tariffs.
 
-**Africa = fastest growing destination:** Exports +26%, $348B total trade. Belt & Road investment in Africa hit $39B in H1 2025 (#1 destination). See [[China-Africa trade]].
+**[[Africa]] = fastest growing destination:** Exports +26%, $348B total trade. Belt & Road investment in [[Africa]] hit $39B in H1 2025 (#1 destination). See [[China-Africa trade]].
 
 ---
 
 ## Rare earth leverage
 
 China controls 60-70% of rare earth processing. Used as counter-leverage:
-- Gallium/germanium export controls (Aug 2023)
+- [[Gallium]]/germanium export controls (Aug 2023)
 - Suspended in exchange for Affiliate Rule suspension (Dec 2025)
 - Potential escalation tool if trade war intensifies
 
@@ -231,19 +231,19 @@ China controls 60-70% of rare earth processing. Used as counter-leverage:
 | Wording | "So severe that it is basically a ban for now" |
 | Background | Trump allowed H200 with 25% fee in Dec 2025 |
 
-**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. Blocking foreign chips forces reliance on Chinese alternatives.
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei [[Ascend]] development. Blocking foreign chips forces reliance on Chinese alternatives.
 
 See [[Export controls]] for US policy context.
 
 ---
 
-## Cybersecurity software ban (Jan 2026)
+## [[Cybersecurity]] software ban (Jan 2026)
 
 **Directive:** Replace all US/Israeli cybersecurity software with domestic alternatives by **H1 2026**.
 
-**US firms banned:** VMware, Palo Alto Networks, Fortinet, Mandiant, CrowdStrike, SentinelOne, McAfee, Recorded Future, Claroty, Rapid7, Wiz
+**US firms banned:** VMware, Palo Alto Networks, [[Fortinet]], Mandiant, CrowdStrike, [[SentinelOne]], McAfee, Recorded Future, Claroty, Rapid7, Wiz
 
-**Israeli firms banned:** Check Point, CyberArk, Orca Security, Cato Networks, Imperva (Thales)
+**Israeli firms banned:** Check Point, CyberArk, Orca Security, Cato Networks, Imperva ([[Thales]])
 
 **Rationale:** Fear software could collect and transmit confidential information abroad.
 
@@ -261,11 +261,11 @@ See [[China cybersecurity ban]] for full analysis.
 |--------|----------|
 | **Tech self-sufficiency** | CNC hydraulic cushions, composite contact strips, intelligent bionic robots |
 | **Green transition** | Li-ion battery recycled black powder (6.5%→3%), unroasted pyrite (1%→0%) |
-| **Healthcare** | Artificial blood vessels, infectious disease diagnostic kits |
+| **[[Healthcare]]** | Artificial blood vessels, infectious disease diagnostic kits |
 
 **New tariff lines:** Bio-aviation kerosene, under-forest ginseng. Total: 8,972 lines.
 
-**Signal:** "Not broad trade liberalization — targeted opening for industrial self-reliance."
+**[[Signal]]:** "Not broad trade liberalization — targeted opening for industrial self-reliance."
 
 ---
 
@@ -276,15 +276,15 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 | Company | Event | Detail |
 |---------|-------|--------|
 | Shanghai Biren Technology | HK IPO (Jan 2026) | **+120%** on debut, raised $717M — AI chip designer |
-| Baidu AI chip unit (Kunlun) | Filed confidentially | HK listing planned |
-| MiniMax Group | Expected H1 2026 | AI foundation model startup |
-| Zhipu AI | Expected H1 2026 | AI foundation model startup |
+| [[Baidu]] AI chip unit (Kunlun) | Filed confidentially | HK listing planned |
+| [[MiniMax]] Group | Expected H1 2026 | AI foundation model startup |
+| [[Zhipu]] AI | Expected H1 2026 | AI foundation model startup |
 
-**Open-source AI strategy gaining global traction:** [[Meta]] reportedly using Alibaba's Qwen model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
+**Open-source AI strategy gaining global traction:** [[Meta]] reportedly using [[Alibaba]]'s [[Qwen]] model in training for new model (code-named "Avocado"). Chinese firms' embrace of open source earning goodwill despite geopolitical antagonism.
 
 **Policy context:** Central economic work conference + 15th Five-Year Plan (2026-2030) put AI at center of economic agenda. "Policy-driven growth" — AI for industrial upgrading, not just consumer apps.
 
-**Consumer sentiment headwind:** ~100M fewer credit cards since Sep 2022. Policy focus on consumption, but households remain cautious.
+**[[Consumer]] sentiment headwind:** ~100M fewer credit cards since Sep 2022. Policy focus on consumption, but households remain cautious.
 
 *Source: SCMP, Yahoo Finance, Jan 2026*
 
@@ -294,7 +294,7 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 **First humanoid robot retail store** opened in Wuhan (Jan 2026) — robots + AI gadgets in "living showroom." Motion-capture calligraphy training demos.
 
-**CES 2026 dominance:** 21 of 38 humanoid exhibitors at CES were Chinese. 7,705 humanoid-related patents filed in 5 years (vs US 1,561). Over 150 humanoid robot companies in China.
+**[[CES 2026]] dominance:** 21 of 38 humanoid exhibitors at CES were Chinese. 7,705 humanoid-related patents filed in 5 years (vs US 1,561). Over 150 humanoid robot companies in China.
 
 **Humanoid Robot Games:** Soccer, running, boxing events — building public engagement with robotics technology.
 
@@ -308,7 +308,7 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 
 | Thesis | Impact |
 |--------|--------|
-| [[Long TSMC]] | N-2 rule protects Taiwan lead, but limits overseas expansion |
+| [[Long TSMC]] | [[N-2 rule]] protects [[Taiwan]] lead, but limits overseas expansion |
 | [[Short TSMC long Korea]] | Korean fabs in China face same VEU issues |
 | [[Long WFE]] | China drives equipment demand, but restrictions limit upside |
 | [[Long memory]] | China fabs supply-constrained = tighter global market |
@@ -321,7 +321,7 @@ Chinese tech stocks testing how far AI-fueled rally can run. Key listings:
 - [ ] ASML clone progress updates
 - [ ] 15th Five Year Plan semiconductor specifics (March 2026)
 - [ ] Rare earth policy changes
-- [ ] Huawei Ascend adoption in Chinese cloud
+- [ ] Huawei [[Ascend]] adoption in Chinese cloud
 
 ---
 
@@ -340,7 +340,7 @@ Bulls on China exposure would say:
 ## Related
 
 - [[Export controls]] — US policy constraining chip access
-- [[TSMC]] — customer (constrained by N-2 rule)
+- [[TSMC]] — customer (constrained by [[N-2 rule]])
 - [[Samsung]] — has China fabs (VEU risk)
 - [[SK Hynix]] — has China fabs (VEU risk)
 - [[NVIDIA]] — supplier (H200 approved, Blackwell blocked)
@@ -355,4 +355,4 @@ Bulls on China exposure would say:
 - [[Palo Alto Networks]] — banned cybersecurity vendor
 - [[Check Point]] — banned cybersecurity vendor (Israeli)
 - [[China-Africa trade]] — fastest growing export destination (+26%, $348B)
-- [[China A-share exchanges]] — Shanghai, Shenzhen, Beijing exchanges (margin policy)
+- [[China A-share exchanges]] — Shanghai, [[Shenzhen]], Beijing exchanges (margin policy)

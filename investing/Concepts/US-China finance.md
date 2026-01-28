@@ -1,6 +1,6 @@
 #concept #geopolitics #usa #china #finance #sanctions
 
-**US-China finance** — Financial leverage and capital market competition. Dollar system vs renminbi alternatives.
+**US-[[China]] finance** — Financial leverage and capital market competition. Dollar system vs renminbi alternatives.
 
 Part of [[US-China relations]] hub.
 
@@ -19,8 +19,8 @@ Part of [[US-China relations]] hub.
 
 *   **Delisting Threat:** Renewed threats to delist Chinese companies from US stock exchanges that fail to comply with PCAOB auditing standards.
 *   **Investment Bans:** Expanded executive orders prohibiting US investments in Chinese companies linked to the military or surveillance tech.
-*   **Currency Watchlist:** China remains on the Treasury's currency manipulation watchlist; rhetoric intensified.
-*   **CIPS Integration:** Scrutiny of China's Cross-Border Interbank Payment System (CIPS) and its potential to circumvent SWIFT.
+*   **Currency [[Watchlist]]:** [[China]] remains on the Treasury's currency manipulation watchlist; rhetoric intensified.
+*   **CIPS Integration:** Scrutiny of [[China]]'s Cross-Border Interbank Payment System (CIPS) and its potential to circumvent SWIFT.
 
 ---
 
@@ -32,11 +32,11 @@ Part of [[US-China relations]] hub.
 
 ---
 
-## China's Countermeasures / Defenses
+## [[China]]'s Countermeasures / Defenses
 
 *   **Internal Capital Markets:** Development of domestic capital markets and encouragement of renminbi-denominated transactions.
-*   **CIPS:** Promotion of CIPS as an alternative to SWIFT, especially for Belt and Road countries.
-*   **Gold Reserves:** Accumulation of gold and other non-dollar reserves.
+*   **CIPS:** Promotion of CIPS as an alternative to SWIFT, especially for [[Belt and Road]] countries.
+*   **[[Gold]] Reserves:** Accumulation of gold and other non-dollar reserves.
 *   **Digital Currency:** Accelerated development and internationalization of the Digital Yuan (e-CNY).
 
 ---
@@ -45,7 +45,7 @@ Part of [[US-China relations]] hub.
 
 *   **Chinese Equities:** Increased risk for Chinese companies listed on US exchanges; potential for forced delistings.
 *   **US Financial Firms:** Reduced access to Chinese markets; compliance burdens.
-*   **Global Capital Flows:** Increased bifurcation, with "de-risking" away from China.
+*   **Global Capital Flows:** Increased bifurcation, with "de-risking" away from [[China]].
 *   **Currency Volatility:** Potential for greater volatility in USD/CNY exchange rates.
 
 ---
@@ -55,9 +55,9 @@ Part of [[US-China relations]] hub.
 *   [[US-China relations]] — hub note
 *   [[Trump II]] — administration policy
 *   [[China retaliatory toolkit]] — countermeasures
-*   [[Digital Yuan]] — China's financial innovation
+*   [[Digital Yuan]] — [[China]]'s financial innovation
 *   [[SWIFT]] — global financial messaging
-- [[Renminbi]] — China's currency
+- [[Renminbi]] — [[China]]'s currency
 - [[Strategic Bitcoin Reserve]] — US counter-move
 
 ---

@@ -9,7 +9,7 @@ aliases: [BTDR]
 
 ## Why Bitdeer matters
 
-Crypto miner making aggressive AI pivot:
+[[Crypto]] miner making aggressive AI pivot:
 
 | Metric | Value |
 |--------|-------|
@@ -38,7 +38,7 @@ Crypto miner making aggressive AI pivot:
 |--------|-------|
 | Location | Clarington, Ohio |
 | Capacity | **570MW** |
-| Target | H2 2027 |
+| [[Target]] | H2 2027 |
 | Investment | "Hundreds of millions, if not billions" |
 | Model | Co-location with hyperscalers |
 
@@ -61,7 +61,7 @@ CSO Haris Basit: "We're looking at this as a less-volatile hedge to bitcoin... W
 **Massillon, Ohio fire (2025):**
 - 57MW site damaged
 - Resuming operations in 2025
-- Insurance coverage expected
+- [[Insurance]] coverage expected
 
 **Market perception:**
 - 2024 stock underperformed peers
@@ -73,7 +73,7 @@ CSO Haris Basit: "We're looking at this as a less-volatile hedge to bitcoin... W
 ## AI services
 
 **Current AI exposure:**
-- AI cloud on NVIDIA DGX SuperPOD
+- AI cloud on [[NVIDIA]] DGX SuperPOD
 - Near-full utilization reported
 - Growing alongside crypto operations
 
@@ -105,7 +105,7 @@ CSO Haris Basit: "We're looking at this as a less-volatile hedge to bitcoin... W
 | Origin | Bitmain spinoff |
 | HQ | Singapore |
 | AI project | 570MW Clarington, Ohio |
-| Target | H2 2027 |
+| [[Target]] | H2 2027 |
 
 *Updated 2026-01-05*
 

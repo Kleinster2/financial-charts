@@ -1,8 +1,8 @@
 #concept #energy #china #nuclear
 
-# China Nuclear Buildout
+# [[China]] Nuclear Buildout
 
-China is building more nuclear reactors than the rest of the world combined. 20+ under construction.
+[[China]] is building more nuclear reactors than the rest of the world combined. 20+ under construction.
 
 ---
 
@@ -36,32 +36,32 @@ Unit 2 passed 168-hour full-power test on January 1, 2026.
 
 ## Hualong One reactor
 
-China's flagship indigenous reactor design:
+[[China]]'s flagship indigenous reactor design:
 
 | Spec | Value |
 |------|-------|
 | Type | 3rd-gen pressurized water reactor |
 | Output per unit | 10 billion kWh/year |
 | IP | Fully Chinese-owned |
-| Certification | EU (EUR), UK (GDA) approved |
+| Certification | [[EU]] (EUR), [[UK]] (GDA) approved |
 | Global status | Most deployed 3rd-gen reactor worldwide |
 
-**Export potential:** Hualong One is export-ready with international certifications. Competes with Westinghouse AP1000, French EPR.
+**Export potential:** Hualong One is export-ready with international certifications. Competes with [[Westinghouse]] AP1000, French EPR.
 
 ---
 
-## China vs US nuclear
+## [[China]] vs US nuclear
 
-| Factor | China | US |
+| Factor | [[China]] | US |
 |--------|-------|-----|
 | New reactors | 20+ under construction | 2 (Vogtle 3&4 just completed) |
 | Build time | ~5 years | 10+ years (Vogtle: 14 years, $35B) |
 | Cost overruns | Minimal | Massive (Vogtle 2x budget) |
 | Permitting | State-directed | Multi-year NRC process |
 | Restarts | N/A (building new) | TMI restart = 2028 (maybe) |
-| SMRs | Deploying | NuScale canceled, 2030s? |
+| SMRs | Deploying | [[NuScale]] canceled, 2030s? |
 
-**The gap:** China is deploying proven reactors at scale. US is restarting old plants and waiting for SMRs that may never arrive.
+**The gap:** [[China]] is deploying proven reactors at scale. US is restarting old plants and waiting for SMRs that may never arrive.
 
 ---
 
@@ -86,7 +86,7 @@ Major projects beyond Zhangzhou:
 | **Solar** | Cheap, fast to build | Intermittent, land-intensive |
 | **Nuclear** | Baseload 24/7, dense | Slow to build, expensive |
 
-**China's approach:** Both. Solar for bulk capacity, nuclear for reliable baseload. Not either/or.
+**[[China]]'s approach:** Both. Solar for bulk capacity, nuclear for reliable baseload. Not either/or.
 
 ---
 
@@ -100,7 +100,7 @@ Nuclear provides the baseload that solar can't:
 | Data center (constant) | Needs backup | Native fit |
 | Industrial load | Variable match | Perfect match |
 
-Combined with [[China solar buildout]], China has both intermittent and baseload covered.
+Combined with [[China solar buildout]], [[China]] has both intermittent and baseload covered.
 
 ---
 

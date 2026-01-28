@@ -24,7 +24,7 @@ aliases: [DBRG]
 - DigitalBridge's Vantage building Stargate Wisconsin (~1GW)
 - Deep LP relationships — SoftBank (proven capital raiser) + DigitalBridge investor network = fundraising synergies
 
-**SoftBank also:** In talks to acquire Switch separately at ~$50B. Sold entire NVIDIA stake ($5.83B) to fund AI infrastructure.
+**SoftBank also:** In talks to acquire Switch separately at ~$50B. Sold entire [[NVIDIA]] stake ($5.83B) to fund AI infrastructure.
 
 ---
 
@@ -57,13 +57,13 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 | Company | Segment | Notes |
 |---------|---------|-------|
-| Vantage Data Centers | Hyperscale DC | Building Stargate Wisconsin (~1GW) |
+| Vantage [[Data Centers]] | Hyperscale DC | Building Stargate Wisconsin (~1GW) |
 | DataBank | Edge/enterprise DC | — |
 | [[Switch]] | Hyperscale DC | **SoftBank in separate talks at ~$50B** (acquired 2022 for $11B = 4.5x) |
-| Scala Data Centers | Latin America DC | — |
+| Scala [[Data Centers]] | Latin America DC | — |
 | AtlasEdge | Edge DC | — |
-| AIMS | Asia-Pacific DC | — |
-| Takanock | Japan DC | — |
+| AIMS | [[Asia]]-Pacific DC | — |
+| Takanock | [[Japan]] DC | — |
 | Yondr Group | Hyperscale DC | — |
 | Various tower cos | Cell towers | — |
 | Fiber assets | Connectivity | — |
@@ -132,7 +132,7 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 - [[Project Stargate]] — Vantage building Wisconsin DC
 - [[Masayoshi Son]] — SoftBank CEO driving acquisition
 - [[Blue Owl]] — competitor (AI infrastructure financing)
-- [[Blackstone]] — competitor (QTS, diversified)
+- [[Blackstone]] — competitor ([[QTS]], diversified)
 - [[Brookfield]] — competitor (infrastructure, diversified)
 - [[Equinix]] — investee type (DC operator)
 - [[Digital Realty]] — investee type (DC operator)

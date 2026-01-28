@@ -46,7 +46,7 @@ No standalone user metrics published. Bundled with Workspace's 3B+ users.
 | Year | Event |
 |------|-------|
 | 2017 | Launched for G Suite |
-| 2020 | Consumer access added |
+| 2020 | [[Consumer]] access added |
 | 2022 | Hangouts fully replaced |
 
 Google's messaging strategy has been notoriously fragmented (Hangouts, Allo, Duo, Chat, Meet, Messages).

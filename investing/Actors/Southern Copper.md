@@ -1,21 +1,21 @@
 ---
-aliases: [SCCO, Southern Peru Copper]
+aliases: [SCCO, Southern Peru [[Copper]]]
 ---
 #actor #mining #copper #mexico #peru #public
 
-**Southern Copper** — Lowest-cost major copper producer. Mexico + Peru operations. Grupo Mexico subsidiary. Longest reserve life in industry.
+**Southern [[Copper]]** — Lowest-cost major copper producer. [[Mexico]] + Peru operations. Grupo [[Mexico]] subsidiary. Longest reserve life in industry.
 
 ---
 
-## Why Southern Copper matters
+## Why Southern [[Copper]] matters
 
-Southern Copper is the quality play on copper:
+Southern [[Copper]] is the quality play on copper:
 
 | Metric | Value |
 |--------|-------|
 | Ticker | SCCO (NYSE) |
 | Market cap | ~$85B |
-| Copper production | ~1M tons/year |
+| [[Copper]] production | ~1M tons/year |
 | Reserve life | 60+ years |
 | Cost position | Lowest quartile |
 
@@ -27,8 +27,8 @@ Southern Copper is the quality play on copper:
 
 | Asset | Location | Notes |
 |-------|----------|-------|
-| Buenavista | Mexico | Open-pit, expansion |
-| La Caridad | Mexico | Open-pit |
+| Buenavista | [[Mexico]] | Open-pit, expansion |
+| La Caridad | [[Mexico]] | Open-pit |
 | Cuajone | Peru | Open-pit |
 | Toquepala | Peru | Open-pit, expansion |
 
@@ -56,9 +56,9 @@ Same demand drivers as [[Freeport-McMoRan]]:
 
 | Driver | Benefit |
 |--------|---------|
-| Data centers | Copper demand |
+| Data centers | [[Copper]] demand |
 | Grid upgrades | Infrastructure copper |
-| EVs | Automotive demand |
+| EVs | [[Automotive]] demand |
 | Tight supply | Price upside |
 
 Low-cost producer captures more margin when prices rise.
@@ -78,10 +78,10 @@ Low-cost producer captures more margin when prices rise.
 **Bear:**
 - Premium valuation (expensive)
 - Peru political risk
-- Mexico regulatory uncertainty
-- Grupo Mexico control (governance)
+- [[Mexico]] regulatory uncertainty
+- Grupo [[Mexico]] control (governance)
 - Community opposition to expansion
-- ESG concerns (water, tailings)
+- [[ESG]] concerns (water, tailings)
 
 ---
 
@@ -106,10 +106,10 @@ Low-cost producer captures more margin when prices rise.
 | Project | Capacity add | Status |
 |---------|--------------|--------|
 | Buenavista Zinc | 100K+ tons zinc | Ramping |
-| Pilares | Copper | Development |
-| El Pilar | Copper | Feasibility |
+| Pilares | [[Copper]] | Development |
+| El Pilar | [[Copper]] | Feasibility |
 | Tia Maria | 120K tons copper | Permitted (controversial) |
-| Los Chancas | Copper | Feasibility |
+| Los Chancas | [[Copper]] | Feasibility |
 
 **Tia Maria** is the big swing — 120K tons/year but faces opposition.
 

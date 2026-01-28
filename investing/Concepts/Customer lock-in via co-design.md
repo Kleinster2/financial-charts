@@ -18,7 +18,7 @@
 
 ## Ecosystem reinforcement
 
-- EDA tools (Synopsys, Cadence) calibrated to TSMC first
+- EDA tools ([[Synopsys]], [[Cadence]]) calibrated to TSMC first
 - IP libraries from Arm validated on TSMC before competitors
 - Switching requires re-verifying entire design flows
 
@@ -29,7 +29,7 @@
 The biggest customers don't just choose TSMC — they **pre-book capacity**, squeezing out smaller players.
 
 - Apple and NVIDIA have locked [[TSMC]] 2nm supply (Dec 2025)
-- AMD, Google, Qualcomm forced to look elsewhere
+- AMD, [[Google]], [[Qualcomm]] forced to look elsewhere
 - This is why AMD is talking to [[Samsung]] despite 40% yields — not because Samsung is good enough, but because TSMC is **full**
 
 ## Implication

@@ -30,7 +30,7 @@ The internet's physical backbone:
 | 2024 | 59 |
 | Trend | Vertical integration |
 
-Google, Meta, Microsoft, Amazon now own infrastructure.
+Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 
 ---
 
@@ -38,10 +38,10 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 
 | Cable | Capacity | Owners |
 |-------|----------|--------|
-| Amitié | 400 Tbps | Aqua Comms, Meta, Microsoft, Vodafone |
+| Amitié | 400 Tbps | Aqua Comms, Meta, Microsoft, [[Vodafone]] |
 | MAREA | 210 Tbps | Meta, Microsoft, Telxius |
 | HAVFRUE | 108 Tbps | Aqua Comms, Bulk, Google, Meta |
-| [[EllaLink]] | 100+ Tbps | EU consortium |
+| [[EllaLink]] | 100+ Tbps | [[EU]] consortium |
 
 ---
 
@@ -49,10 +49,10 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 
 | Cable | Route | Status |
 |-------|-------|--------|
-| Bifrost | US-Asia (20,000 km) | 2025 |
+| Bifrost | US-[[Asia]] (20,000 km) | 2025 |
 | Echo | Singapore-US | Planned |
-| Apricot | US-Japan-Singapore-Taiwan | 2026 |
-| [[Humboldt Cable]] | Chile-Australia | 2026 |
+| Apricot | US-[[Japan]]-Singapore-[[Taiwan]] | 2026 |
+| [[Humboldt Cable]] | [[Chile]]-[[Australia]] | 2026 |
 
 ---
 
@@ -61,9 +61,9 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 | Project | Significance |
 |---------|--------------|
 | [[Project Waterworth]] | Meta's 50,000 km private cable |
-| [[Humboldt Cable]] | First S. America-Asia Pacific |
-| [[EllaLink]] | First direct Brazil-Europe |
-| Google Pacific Connect | Australia connectivity |
+| [[Humboldt Cable]] | First S. America-[[Asia]] Pacific |
+| [[EllaLink]] | First direct [[Brazil]]-[[Europe]] |
+| [[Google Pacific Connect]] | [[Australia]] connectivity |
 
 ---
 
@@ -72,8 +72,8 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 **Infrastructure = power:**
 - Data sovereignty concerns
 - US company dominance
-- China competing
-- BRICS alternative network proposed
+- [[China]] competing
+- [[BRICS]] alternative network proposed
 
 ---
 
@@ -81,9 +81,9 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 
 | Hub | Cables | Region |
 |-----|--------|--------|
-| [[Fortaleza Data Hub]] | 14 | Brazil (world #2) |
-| Singapore | Major | Asia-Pacific |
-| Marseille | Major | Europe |
+| [[Fortaleza Data Hub]] | 14 | [[Brazil]] (world #2) |
+| Singapore | Major | [[Asia]]-Pacific |
+| Marseille | Major | [[Europe]] |
 | Virginia Beach | Major | US East |
 
 ---
@@ -116,8 +116,8 @@ Google, Meta, Microsoft, Amazon now own infrastructure.
 
 - [[Fortaleza Data Hub]] — hub (14 cables, world #2)
 - [[Project Waterworth]] — project (Meta 50,000 km, 100% owned)
-- [[Humboldt Cable]] — project (first S. America-Asia Pacific)
-- [[EllaLink]] — project (first direct Brazil-Europe)
+- [[Humboldt Cable]] — project (first S. America-[[Asia]] Pacific)
+- [[EllaLink]] — project (first direct [[Brazil]]-[[Europe]])
 - [[Google]] — owner (Humboldt, Echo, Apricot, HAVFRUE)
 - [[Meta]] — owner (Waterworth, MAREA, Amitié, Bifrost)
 - [[Microsoft]] — owner (MAREA, Amitié)

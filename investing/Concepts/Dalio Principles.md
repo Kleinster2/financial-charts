@@ -1,13 +1,13 @@
 #concept #framework #investing #management
 
-**Dalio Principles** — The operating system for [[Bridgewater]], created by [[Ray Dalio]]. Core ideas: radical truth, radical transparency, believability-weighted decisions, meritocracy of ideas. Codified in "Principles" (2017, 3M+ copies). Born from Dalio's 1982 near-bankruptcy.
+**Dalio [[Principles]]** — The operating system for [[Bridgewater]], created by [[Ray Dalio]]. Core ideas: radical truth, radical transparency, believability-weighted decisions, meritocracy of ideas. Codified in "[[Principles]]" (2017, [[3M]]+ copies). Born from Dalio's 1982 near-bankruptcy.
 
 ---
 
 ## Why this matters
 
 - Bridgewater became world's largest hedge fund using this system
-- "Principles" sold 3M+ copies — widely read in business/finance
+- "[[Principles]]" sold [[3M]]+ copies — widely read in business/finance
 - Influenced corporate culture beyond Bridgewater
 - Offers transparent look at systematic decision-making
 - Controversial: called both revolutionary and cult-like
@@ -20,11 +20,11 @@
 |--------|-------|
 | Year | 1981-82 |
 | Prediction | US lent more to foreign countries than could be repaid; depression coming |
-| What occurred | Mexico crisis happened (Aug 1982), but marked market trough |
+| What occurred | [[Mexico]] crisis happened (Aug 1982), but marked market trough |
 | Fed response | Eased — 18-year bull market began |
 | Dalio's outcome | "Dead wrong" — lost everything, borrowed $4K from father |
 
-### Lessons that became Principles
+### Lessons that became [[Principles]]
 
 | Lesson | What it became |
 |--------|----------------|
@@ -131,16 +131,16 @@ Bridgewater's proprietary tool for implementing believability-weighting.
 
 | Title | Year | Sales | Focus |
 |-------|------|-------|-------|
-| "Principles" (internal) | 2011 | — | Internal Bridgewater document |
-| "Principles: Life & Work" | 2017 | 3M+ copies | General audience |
-| "Principles for Dealing with the Changing World Order" | 2021 | — | Macro/geopolitics |
+| "[[Principles]]" (internal) | 2011 | — | Internal Bridgewater document |
+| "[[Principles]]: Life & Work" | 2017 | [[3M]]+ copies | General audience |
+| "[[Principles]] for Dealing with the Changing World Order" | 2021 | — | Macro/geopolitics |
 | "How Countries Go Broke: The Big Cycle" | 2025 | New | National debt, AI |
 
 ---
 
 ## Criticism
 
-| Criticism | Defense |
+| Criticism | [[Defense]] |
 |-----------|---------|
 | **Cult-like culture** | Dalio: "It's not for everyone" — high turnover in first 18 months |
 | **Surveillance** | Transparency is the point — no hidden agendas |
@@ -164,10 +164,10 @@ Bridgewater's proprietary tool for implementing believability-weighting.
 
 | Framework | Creator | Core idea |
 |-----------|---------|-----------|
-| **Dalio Principles** | [[Ray Dalio]] | Radical transparency, believability-weighted |
+| **Dalio [[Principles]]** | [[Ray Dalio]] | Radical transparency, believability-weighted |
 | [[YC startup philosophy]] | [[Paul Graham]] | Make something people want, do things that don't scale |
 | Berkshire model | Warren Buffett | Decentralization, trust managers, long-term |
-| Amazon Leadership Principles | Jeff Bezos | Customer obsession, bias for action |
+| [[Amazon]] Leadership [[Principles]] | [[Jeff Bezos]] | Customer obsession, bias for action |
 
 ---
 
@@ -178,18 +178,18 @@ Bridgewater's proprietary tool for implementing believability-weighting.
 - [[Bridgewater]] — institutionalized it
 
 ### Books
-- "Principles: Life & Work" (2017)
+- "[[Principles]]: Life & Work" (2017)
 - "How Countries Go Broke" (2025)
 
 ### Peer frameworks
 - [[YC startup philosophy]] — Paul Graham's startup operating system
 - Lean Startup — Eric Ries
-- Amazon Leadership Principles
+- [[Amazon]] Leadership [[Principles]]
 
 ---
 
 Sources:
-- "Principles: Life & Work" by Ray Dalio (2017)
+- "[[Principles]]: Life & Work" by Ray Dalio (2017)
 - [Wikipedia - Ray Dalio](https://en.wikipedia.org/wiki/Ray_Dalio)
 - [CNBC - 1982 bankruptcy story](https://www.cnbc.com/2017/09/15/ray-dalio-went-broke-and-nearly-shut-bridgewater-hedge-fund.html)
 

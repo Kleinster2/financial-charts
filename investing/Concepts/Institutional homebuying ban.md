@@ -37,13 +37,13 @@
 - Post-2008 crisis: PE firms bought foreclosed homes
 - Blackstone built Invitation Homes (IPO'd 2017)
 - Single-family rental became institutional asset class
-- Home prices +55% from 2020 to Q3 2025 (NAHB data)
+- [[Home]] prices +55% from 2020 to Q3 2025 (NAHB data)
 
 **Public frustration:**
 - First-time buyers priced out
 - Competing with cash offers
 - Rent increases
-- Housing affordability crisis
+- [[Housing affordability crisis]]
 
 ---
 

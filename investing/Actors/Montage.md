@@ -37,9 +37,9 @@ Different from commodity memory makers — higher-margin interface chips.
 |--------|-------|
 | Forward P/E | ~44x |
 | vs STAR board avg | 51x (discount) |
-| vs SMIC | 126x (deep discount) |
+| vs [[SMIC]] | 126x (deep discount) |
 
-Trading at discount to both STAR board average and major Chinese chip peer SMIC.
+Trading at discount to both STAR board average and major Chinese chip peer [[SMIC]].
 
 ---
 
@@ -47,9 +47,9 @@ Trading at discount to both STAR board average and major Chinese chip peer SMIC.
 
 | Metric | Value |
 |--------|-------|
-| Target raise | **$1B** |
+| [[Target]] raise | **$1B** |
 | Timing | As early as Jan 2026 |
-| Exchange | HKEX |
+| Exchange | [[HKEX]] |
 | Purpose | International capital access |
 
 Part of wave with [[GigaDevice]]:
@@ -72,7 +72,7 @@ Part of wave with [[GigaDevice]]:
 **Bear:**
 - Niche market
 - Competition from international players
-- China data center growth uncertainty
+- [[China]] data center growth uncertainty
 - Export control risk
 
 ---
@@ -84,6 +84,6 @@ Part of wave with [[GigaDevice]]:
 ## Related
 
 - [[GigaDevice]] — peer (HK secondary listing)
-- [[YMTC]] — peer (China memory ecosystem)
+- [[YMTC]] — peer ([[China]] memory ecosystem)
 - [[SK Hynix]] — competitor (memory interface)
 - [[Export controls]] — risk

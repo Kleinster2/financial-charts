@@ -24,7 +24,7 @@
 | Deflator issues | Unusually low, may overstate real growth |
 | Nominal indicators | Decelerating |
 | High-frequency data | Slowing |
-| Trade deal | "Looking less likely," tariffs may rise |
+| US [[Trade]] deal | Stalled; EU deal closed Jan 27 (see below) |
 | Chinese dumping | "Mercantilism" — low-cost goods flooding India |
 | Fiscal position | Weaker than should be (GST cuts) |
 | [[Indian rupee]] | -5% past year, past 91/$ |
@@ -47,11 +47,11 @@
 
 **Dual motivation:**
 1. **Rupee defense** — selling Treasuries funds rupee purchases (record lows after 50% tariffs, stalled trade deal)
-2. **Sanctions risk** — post-2022 Russia freeze + India's continued Russian oil purchases made it a target
+2. **Sanctions risk** — post-2022 [[Russia]] freeze + India's continued Russian oil purchases made it a target
 
 Finance Minister Sitharaman confirmed (Sep 2025) RBI taking a "very considered decision" to diversify.
 
-**Context:** India holds $174B vs China ~$683B and Japan ~$1.2T. Not a major holder, but the trend matters — OMFIF survey (Nov 2025) found ~60% of central banks plan to seek alternatives to dollar in next 1-2 years. China and Brazil also cut long-term holdings to record lows (Oct 2025).
+**Context:** India holds $174B vs China ~$683B and [[Japan]] ~$1.2T. Not a major holder, but the trend matters — OMFIF survey (Nov 2025) found ~60% of central banks plan to seek alternatives to dollar in next 1-2 years. China and [[Brazil]] also cut long-term holdings to record lows (Oct 2025).
 
 **Outlook:** Pepperstone's Michael Brown: even a trade deal will only stabilize holdings, not reverse the trend. Capital Economics (top rupee forecaster): speed of US-India deterioration "jolted policymakers to reduce vulnerabilities."
 
@@ -66,7 +66,7 @@ Finance Minister Sitharaman confirmed (Sep 2025) RBI taking a "very considered d
 |--------|--------|
 | 50% tariff on Indian goods | Pushed India toward China |
 | Rationale | "Stop buying Russian oil" |
-| Trade deal | Mixed signals, uncertain |
+| [[Trade]] deal | Mixed signals, uncertain |
 
 **Unintended consequence:** Tariffs driving India-China rapprochement.
 
@@ -76,10 +76,41 @@ See [[Propaganda thru Force]] — tariffs as political pressure.
 
 | Factor | Status |
 |--------|--------|
-| Quad member | US, Japan, India, Australia |
-| Defense ties | Growing arms purchases |
+| Quad member | US, [[Japan]], India, [[Australia]] |
+| [[Defense]] ties | Growing arms purchases |
 | Tech partnership | Chip manufacturing interest |
-| Tensions | Tariffs, Russia oil, Pakistan |
+| Tensions | Tariffs, [[Russia]] oil, Pakistan |
+
+---
+
+## EU-India FTA — Jan 2026
+
+**"Mother of all deals"** — concluded January 27, 2026 after 19 years of negotiations.
+
+| Metric | Value |
+|--------|-------|
+| Combined population | 1.9 billion |
+| Combined GDP | ~$21 trillion |
+| Current trade | €120B (2024) |
+| Target | $200B by 2030 |
+| Tariff savings | €4B/year |
+| Implementation | January 2027 |
+
+### Key terms
+
+| India gives | India gets |
+|-------------|------------|
+| Auto tariffs 110%→10% (quota) | Textiles: zero duty |
+| Chemicals/pharma access | Leather: zero duty |
+| Wine/spirits reduction | Marine: zero duty |
+| Services liberalization | Gems/jewelry: zero duty |
+| Professional mobility | IT services access |
+
+**Why it matters:** Largest FTA either party has signed. Diversifies India away from US trade pressure. German automakers ([[BMW]], [[Volkswagen]]) get access to world's 5th largest economy.
+
+**Catalyst:** [[Trump II]] tariffs accelerated final negotiations. Both sides seeking alternatives to US trade dependence.
+
+See [[EU-India FTA]] for full terms, ratification timeline, and sector analysis.
 
 ---
 
@@ -114,7 +145,7 @@ Post-Galwan clash restrictions now being selectively lifted:
 
 ## India Semiconductor Mission
 
-**Status (Jan 23, 2026):** First commercial production in 2026. Electronics Minister Vaishnaw announced from Veldhoven (ASML HQ).
+**Status (Jan 23, 2026):** First commercial production in 2026. Electronics Minister Vaishnaw announced from Veldhoven ([[ASML]] HQ).
 
 | Detail | Value |
 |--------|-------|
@@ -122,7 +153,7 @@ Post-Galwan clash restrictions now being selectively lifted:
 | Plants starting 2026 | **4** |
 | Pilot production | 3 plants (started 2025) |
 | Total investment | **$90B** (rising to $150B committed) |
-| Key partners | ASML, Tata Electronics, CG Power |
+| Key partners | [[ASML]], Tata Electronics, CG Power |
 
 **Assessment:** Ambitious timeline but primarily assembly/packaging (28nm+). No advanced logic manufacturing planned. Focused on reducing import dependence for legacy chips (auto, industrial, consumer). Does not solve leading-edge gap.
 
@@ -134,13 +165,13 @@ Post-Galwan clash restrictions now being selectively lifted:
 
 | Sector | Status | Constraint |
 |--------|--------|------------|
-| IT services | TCS, Infosys, Wipro — global leaders | Talent retention |
+| IT services | [[TCS]], Infosys, Wipro — global leaders | Talent retention |
 | Pharma | Generic drug powerhouse | API dependence on China |
 | Infrastructure | Massive buildout | Execution, funding |
-| Semiconductors | India Semiconductor Mission — 4 fabs, 2026 start | Legacy nodes only |
+| [[Semiconductors]] | India Semiconductor Mission — 4 fabs, 2026 start | Legacy nodes only |
 | Power | 307 GW thermal target | Chinese equipment dependency |
 | Manufacturing | "Make in India" | Tech transfer blocked (see above) |
-| Defense | [[Indian Defense Industry]] | Import dependence |
+| [[Defense]] | [[Indian Defense Industry]] | Import dependence |
 
 ---
 
@@ -190,7 +221,7 @@ Imports grew **2.5x** while domestic manufacturing failed to scale.
 
 India announced $800M in subsidies for domestic permanent magnet production. Skeptics note:
 - Significant coastal reserves exist but minimal mining
-- For decades, state miner sold output to Japan (not domestic use)
+- For decades, state miner sold output to [[Japan]] (not domestic use)
 - China controls 90% of rare earth processing
 - Some critical minerals India doesn't have in extractable quantities
 
@@ -214,8 +245,8 @@ India announced $800M in subsidies for domestic permanent magnet production. Ske
 | Theme | Expression | Caveat |
 |-------|------------|--------|
 | Infrastructure boom | [[Larsen & Toubro]], cement, steel | Execution risk |
-| China+1 manufacturing | Electronics, pharma | Limited to assembly |
-| Digital / IT services | TCS, Infosys, [[Reliance Industries]] | Talent competition |
+| [[China+1]] manufacturing | Electronics, pharma | Limited to assembly |
+| Digital / IT services | [[TCS]], Infosys, [[Reliance Industries]] | Talent competition |
 | [[India AI]] | Compute buildout, talent | Behind US/China |
 
 **What doesn't work:** Capital-intensive manufacturing requiring tech transfer (batteries, EVs, semiconductors). See tech dependence section above.
@@ -232,7 +263,7 @@ BSE Realty Index down **>30%** from June 2024 peak. Oberoi Realty missed Q3 FY26
 
 | Metric | FY 2017 | FY 2026 (Q1) |
 |--------|---------|--------------|
-| Marketable supply | 3.3M sq ft | 3.6M sq ft |
+| Marketable supply | 3.[[3M]] sq ft | 3.6M sq ft |
 | Completions | 2.4M sq ft (74%) | 2.0M sq ft (**57%**) |
 
 Slower construction → delayed revenue recognition, higher execution risk, potential defaults (Liases Foras, Nov 2025).
@@ -277,6 +308,11 @@ Slower construction → delayed revenue recognition, higher execution risk, pote
 - [[Trump II]] — 50% tariff pressure
 - [[US-China security]] — Quad member
 
+**Trade:**
+- [[EU-India FTA]] — "mother of all deals" (Jan 2026)
+- [[Trade Agreements]] — hub
+- [[EU]] — FTA partner
+
 **Tech dependence:**
 - [[China battery leverage]] — why Make in India failed
 - [[Rare earth leverage]] — magnet supply vulnerability
@@ -293,4 +329,4 @@ Slower construction → delayed revenue recognition, higher execution risk, pote
 
 ---
 
-*Created 2026-01-10 · Updated 2026-01-23*
+*Created 2026-01-10 · Updated 2026-01-28*

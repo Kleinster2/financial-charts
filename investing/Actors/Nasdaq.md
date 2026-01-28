@@ -9,7 +9,7 @@ aliases: [NASDAQ, Nasdaq Inc, NDAQ]
 
 ## Why Nasdaq matters
 
-Home of tech giants:
+[[Home]] of tech giants:
 
 | Metric | Value |
 |--------|-------|
@@ -37,9 +37,9 @@ Home of tech giants:
 **Powers exchanges globally:**
 - 130+ marketplaces use Nasdaq tech
 - Market surveillance
-- Trade matching engines
+- [[Trade]] matching engines
 - Cloud-based platforms
-- SaaS model growing
+- [[SaaS]] model growing
 
 Not just an exchange — a tech company.
 

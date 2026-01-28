@@ -14,10 +14,10 @@ aliases: [Nu Holdings, NU]
 | Ticker | NU (NYSE) |
 | Market cap | ~$60B |
 | Customers | 100M+ |
-| HQ | São Paulo, Brazil |
+| HQ | São Paulo, [[Brazil]] |
 | Founded | 2013 |
 
-Largest digital bank outside China.
+Largest digital bank outside [[China]].
 
 ---
 
@@ -28,7 +28,7 @@ Largest digital bank outside China.
 | **Banking** | Checking, savings, debit |
 | **Credit cards** | Core product, no annual fee |
 | **Lending** | Personal loans, SMB |
-| **Insurance** | Life, device protection |
+| **[[Insurance]]** | Life, device protection |
 | **Investments** | Brokerage, NuInvest |
 
 ---
@@ -37,8 +37,8 @@ Largest digital bank outside China.
 
 | Country | Customers | Status |
 |---------|-----------|--------|
-| **Brazil** | 90M+ | Dominant |
-| **Mexico** | 8M+ | Growing |
+| **[[Brazil]]** | 90M+ | Dominant |
+| **[[Mexico]]** | 8M+ | Growing |
 | **Colombia** | 1M+ | Early |
 
 ---
@@ -60,7 +60,7 @@ Largest digital bank outside China.
 | Moat | Description |
 |------|-------------|
 | Cost structure | 85% lower than traditional banks |
-| NPS | Highest in Brazil banking |
+| NPS | Highest in [[Brazil]] banking |
 | Technology | Fully digital, modern stack |
 | Brand | Beloved by younger Brazilians |
 
@@ -96,7 +96,7 @@ Largest digital bank outside China.
 | **David Vélez** | Founder, CEO |
 | Cristina Junqueira | Co-founder |
 
-Vélez is Colombian, Stanford/Sequoia background.
+Vélez is Colombian, [[Stanford]]/Sequoia background.
 
 ---
 
@@ -118,14 +118,14 @@ Vélez is Colombian, Stanford/Sequoia background.
 | Ticker | NU (NYSE) |
 | Market cap | ~$60B |
 | Customers | 100M+ |
-| Geography | Brazil, Mexico, Colombia |
+| Geography | [[Brazil]], [[Mexico]], Colombia |
 
 ---
 
 ## Related
 
-- [[PicPay]] — Brazil peer (#3 digital bank); IPO Jan 2026 (first since Nubank)
-- [[Mercado Libre]] — LatAm peer (#2 Brazil fintech)
+- [[PicPay]] — [[Brazil]] peer (#3 digital bank); IPO Jan 2026 (first since Nubank)
+- [[Mercado Libre]] — LatAm peer (#2 [[Brazil]] fintech)
 - [[Revolut]] — peer (global neobank)
 - [[Block]] — peer (fintech)
 - [[Fintech]] — sector

@@ -6,11 +6,11 @@
 
 ## Why SwitchBot matters
 
-Representative of China's AI hardware ecosystem:
+Representative of [[China]]'s AI hardware ecosystem:
 
 | Metric | Value |
 |--------|-------|
-| HQ | Shenzhen, China |
+| HQ | Shenzhen, [[China]] |
 | Focus | Smart home automation |
 | Strategy | Affordable, accessible |
 | AI pivot | Kata stress toy (CES 2026) |
@@ -23,7 +23,7 @@ Representative of China's AI hardware ecosystem:
 |----------|----------|
 | **Smart switches** | Bot (retrofits dumb switches) |
 | **Curtains/blinds** | Curtain 3, Blind Tilt |
-| **Sensors** | Motion, contact, temperature |
+| **[[Sensors]]** | Motion, contact, temperature |
 | **Hubs** | Hub 2, Hub Mini |
 | **Locks** | Smart Lock Pro |
 | **Cleaning** | Robot vacuums |
@@ -61,7 +61,7 @@ SwitchBot exemplifies Shenzhen's hardware ecosystem:
 
 **Not directly investable** — private company.
 
-**Relevance:** Indicator of China's physical AI hardware innovation pace.
+**Relevance:** Indicator of [[China]]'s physical AI hardware innovation pace.
 
 ---
 
@@ -69,7 +69,7 @@ SwitchBot exemplifies Shenzhen's hardware ecosystem:
 
 | Metric | Value |
 |--------|-------|
-| HQ | Shenzhen, China |
+| HQ | Shenzhen, [[China]] |
 | Founded | 2015 |
 | Focus | Smart home, AI companions |
 | Status | Private |

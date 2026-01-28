@@ -14,7 +14,7 @@ aliases: [NESN, Nestle]
 | Ticker | NESN (Swiss) |
 | Market cap | ~$250B |
 | Revenue | ~$100B |
-| HQ | Vevey, Switzerland |
+| HQ | Vevey, [[Switzerland]] |
 | Categories | 2,000+ brands |
 
 ---
@@ -48,8 +48,8 @@ aliases: [NESN, Nestle]
 | Region | % Revenue |
 |--------|-----------|
 | Americas | ~45% |
-| Europe/Middle East | ~30% |
-| Asia/Oceania/Africa | ~25% |
+| [[Europe]]/Middle East | ~30% |
+| [[Asia]]/Oceania/[[Africa]] | ~25% |
 
 ---
 

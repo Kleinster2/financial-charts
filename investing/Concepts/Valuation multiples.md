@@ -51,7 +51,7 @@
 |--------|-------------|-----------|
 | Tech (growth) | 25-40x | 15-25x |
 | Tech (mature) | 15-25x | 10-15x |
-| Consumer staples | 18-25x | 12-16x |
+| [[Consumer]] staples | 18-25x | 12-16x |
 | Financials | 10-15x | N/A |
 | Utilities | 15-20x | 10-14x |
 | Energy | 8-15x | 4-8x |
@@ -95,8 +95,8 @@
 | Profitable companies | P/E |
 | Unprofitable growth | EV/Revenue, P/S |
 | Asset-heavy | P/B |
-| Banks | P/B, P/E |
-| REITs | P/FFO |
+| [[Banks]] | P/B, P/E |
+| [[REITs]] | P/FFO |
 | Cash machines | P/FCF |
 
 ---

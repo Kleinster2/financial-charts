@@ -1,5 +1,5 @@
 ---
-aliases: [African Continental Free Trade Area, Africa FTA]
+aliases: [African Continental Free Trade Area, [[Africa]] FTA]
 ---
 #concept #trade #africa #emerging
 
@@ -19,20 +19,20 @@ aliases: [African Continental Free Trade Area, Africa FTA]
 | Trading started | Jan 2021 |
 | Implementation | Slow, ongoing |
 
-**Largest FTA by countries.** Third largest by population after RCEP (2.2B) and China-ASEAN.
+**Largest FTA by countries.** Third largest by population after [[RCEP]] (2.2B) and [[China]]-[[ASEAN]].
 
 ---
 
 ## Goals
 
-| Target | Timeline |
+| [[Target]] | Timeline |
 |--------|----------|
 | Eliminate 90% of tariffs | 10 years (15 for LDCs) |
-| Boost intra-Africa trade | From 15% to 25%+ |
+| Boost intra-[[Africa]] trade | From 15% to 25%+ |
 | Create continental market | 1.3B consumers |
 | Industrialization | Move beyond commodities |
 
-**Current intra-Africa trade:** Only ~15% vs 60%+ in Europe, 40% in Asia.
+**Current intra-[[Africa]] trade:** Only ~15% vs 60%+ in [[Europe]], 40% in [[Asia]].
 
 ---
 
@@ -51,8 +51,8 @@ aliases: [African Continental Free Trade Area, Africa FTA]
 | Sector | Status |
 |--------|--------|
 | Financial | Negotiating |
-| Transport | Negotiating |
-| Telecom | Negotiating |
+| [[Transport]] | Negotiating |
+| [[Telecom]] | Negotiating |
 | Tourism | Negotiating |
 
 ### Rules of origin
@@ -83,10 +83,10 @@ aliases: [African Continental Free Trade Area, Africa FTA]
 
 | REC | Members | Focus |
 |-----|---------|-------|
-| **ECOWAS** | 15 (West Africa) | Nigeria, Ghana, Côte d'Ivoire |
-| **SADC** | 16 (Southern) | South Africa, Botswana |
-| **EAC** | 7 (East) | Kenya, Tanzania, Uganda |
-| **COMESA** | 21 (East/Southern) | Egypt, Kenya |
+| **ECOWAS** | 15 (West [[Africa]]) | Nigeria, Ghana, Côte d'Ivoire |
+| **SADC** | 16 (Southern) | South [[Africa]], Botswana |
+| **EAC** | 7 (East) | [[Kenya]], Tanzania, Uganda |
+| **COMESA** | 21 (East/Southern) | Egypt, [[Kenya]] |
 | **AMU** | 5 (North/Maghreb) | Morocco, Algeria (inactive) |
 
 AfCFTA builds on these existing blocs.
@@ -98,9 +98,9 @@ AfCFTA builds on these existing blocs.
 | Country | GDP | Role |
 |---------|-----|------|
 | **Nigeria** | $450B | Largest economy, late ratifier |
-| **South Africa** | $400B | Industrial hub |
+| **South [[Africa]]** | $400B | Industrial hub |
 | **Egypt** | $400B | Northern anchor |
-| **Kenya** | $110B | East Africa hub |
+| **[[Kenya]]** | $110B | East [[Africa]] hub |
 | **Ethiopia** | $120B | Fast-growing |
 | **Morocco** | $140B | Manufacturing, autos |
 
@@ -113,19 +113,19 @@ AfCFTA builds on these existing blocs.
 | Theme | Beneficiaries |
 |-------|---------------|
 | **Pan-African companies** | Dangote, MTN, Shoprite |
-| **Banks** | Standard Bank, Ecobank |
-| **Telecom** | MTN, Airtel Africa, Safaricom |
-| **Logistics** | DP World (ports), rail operators |
-| **Consumer goods** | Unilever, Nestlé Africa ops |
+| **[[Banks]]** | Standard Bank, Ecobank |
+| **[[Telecom]]** | MTN, Airtel [[Africa]], Safaricom |
+| **Logistics** | [[DP World]] (ports), rail operators |
+| **[[Consumer]] goods** | [[Unilever]], [[Nestlé]] [[Africa]] ops |
 
 ### Sectors to watch
 
 | Sector | Opportunity |
 |--------|-------------|
 | Manufacturing | Regional supply chains |
-| Autos | Morocco, South Africa assembly |
+| Autos | Morocco, South [[Africa]] assembly |
 | Pharma | Local production |
-| Agriculture | Food processing |
+| [[Agriculture]] | Food processing |
 
 ### Reality check
 
@@ -140,7 +140,7 @@ AfCFTA builds on these existing blocs.
 
 ## Comparison to other FTAs
 
-| Dimension | AfCFTA | RCEP | EU |
+| Dimension | AfCFTA | [[RCEP]] | [[EU]] |
 |-----------|--------|------|-----|
 | Population | 1.3B | 2.2B | 450M |
 | GDP | $3.4T | $26T | $17T |

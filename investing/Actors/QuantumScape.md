@@ -13,7 +13,7 @@ aliases: [QS]
 |--------|-------|
 | Ticker | QS (NYSE) |
 | Market cap | ~$2.5B |
-| Founded | 2010 (Stanford spinout) |
+| Founded | 2010 ([[Stanford]] spinout) |
 | IPO | 2020 (SPAC) |
 | Key backer | VW/PowerCo |
 
@@ -25,7 +25,7 @@ aliases: [QS]
 
 | Spec | Value |
 |------|-------|
-| Chemistry | Lithium-metal anode, ceramic separator |
+| Chemistry | [[Lithium]]-metal anode, ceramic separator |
 | Energy density | ~400 Wh/kg target |
 | Charge time | 15 min (10-80%) |
 | Cycle life | 800+ cycles demonstrated |
@@ -96,7 +96,7 @@ aliases: [QS]
 | 2020 IPO/SPAC | Peaked ~$130 |
 | 2021-2024 | Collapsed ~95% |
 | Current (Jan 2026) | ~$5-6 |
-| HSBC rating | Reduce (Jan 2026) |
+| [[HSBC]] rating | Reduce (Jan 2026) |
 
 **Volatility:** Trades on milestone news, not fundamentals.
 
@@ -107,10 +107,10 @@ aliases: [QS]
 | Company | Status | Advantage |
 |---------|--------|-----------|
 | **QuantumScape** | Eagle ramping | VW backing, Cobra tech |
-| [[Donut Lab]] | Shipping Q1 2026 | First to market |
+| [[Donut Lab]] | [[Shipping]] Q1 2026 | First to market |
 | [[ProLogium]] | Commercial 2026 | Mercedes backing |
-| Solid Power | Behind schedule | Ford/BMW backing |
-| SES AI | Hybrid approach | GM/Hyundai backing |
+| Solid Power | Behind schedule | [[Ford]]/[[BMW]] backing |
+| SES AI | Hybrid approach | [[GM]]/[[Hyundai]] backing |
 
 **Risk:** [[Donut Lab]] beat them to production.
 
@@ -149,8 +149,8 @@ aliases: [QS]
 
 | Role | Name | Background |
 |------|------|------------|
-| CEO | Siva Sivaram | Stanford, Applied Materials |
-| CTO | Tim Holme | Co-founder, Stanford |
+| CEO | Siva Sivaram | [[Stanford]], [[Applied Materials]] |
+| CTO | Tim Holme | Co-founder, [[Stanford]] |
 | Chairman | Jagdeep Singh | Co-founder, Infinera |
 
 ---

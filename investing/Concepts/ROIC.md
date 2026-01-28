@@ -56,9 +56,9 @@ ROIC is capital structure agnostic.
 
 | Model | ROIC driver |
 |-------|-------------|
-| Luxury | High margins |
+| [[Luxury]] | High margins |
 | Retail | High turns |
-| SaaS | Low capital, high margins |
+| [[SaaS]] | Low capital, high margins |
 | Commodity | Low both |
 
 ---
@@ -69,14 +69,14 @@ ROIC is capital structure agnostic.
 |---------|------|--------|
 | [[Apple]] | 50%+ | Brand, ecosystem |
 | [[Visa]] | 30%+ | Network, no credit risk |
-| [[Meta]] | 25%+ | Network effects |
-| Costco | 15%+ | Membership, turns |
+| [[Meta]] | 25%+ | [[Network effects]] |
+| [[Costco]] | 15%+ | Membership, turns |
 
 ---
 
 ## ROIC decay
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | ROIC declining | Moat erosion |
 | Competition | Margin pressure |

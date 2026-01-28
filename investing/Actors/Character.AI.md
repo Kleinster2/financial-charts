@@ -3,18 +3,18 @@ aliases: []
 ---
 #actor #ai #consumer #usa #private
 
-**Character.AI** — AI companions/roleplay. Noam Shazeer (Transformer co-author). Massive user engagement.
+**Character.AI** — AI companions/roleplay. Noam Shazeer ([[Transformer]] co-author). Massive user engagement.
 
 ---
 
 ## Why Character.AI matters
 
-Consumer AI with Transformer inventor:
+[[Consumer AI]] with [[Transformer]] inventor:
 
 | Metric | Value |
 |--------|-------|
 | Founders | Noam Shazeer, Daniel De Freitas |
-| Background | Ex-Google, Transformer paper |
+| Background | Ex-Google, [[Transformer]] paper |
 | Focus | AI companions |
 | Valuation | $1B+ |
 
@@ -56,14 +56,14 @@ Google's loss.
 - High retention
 - Young demographic
 
-Consumer AI that works.
+[[Consumer AI]] that works.
 
 ---
 
 ## Technical advantage
 
 **Shazeer's expertise:**
-- Transformer co-inventor
+- [[Transformer]] co-inventor
 - Cutting-edge architecture
 - Efficient inference
 - Character personality modeling
@@ -84,7 +84,7 @@ Consumer AI that works.
 
 | Competitor | Focus | Character.AI vs |
 |------------|-------|-----------------|
-| ChatGPT | General assistant | Character focus |
+| [[ChatGPT]] | General assistant | Character focus |
 | Replika | AI companion | More characters |
 | Chai | AI chat | Shazeer pedigree |
 
@@ -95,9 +95,9 @@ Character.AI = character/roleplay specialist.
 ## Investment case
 
 **Bull:**
-- Transformer inventor credibility
+- [[Transformer]] inventor credibility
 - Massive user engagement
-- Consumer AI works
+- [[Consumer AI]] works
 - Emotional stickiness
 
 **Bear:**
@@ -121,11 +121,11 @@ Character.AI = character/roleplay specialist.
 
 | Investor | Notes |
 |----------|-------|
-| a16z | Lead (Series A) |
+| [[a16z]] | Lead (Series A) |
 | [[Google]] | Licensing deal ($2.7B, founders returned) |
 | SVA (SV Angel) | Early |
-| Nat Friedman | Angel |
-| Elad Gil | Angel |
+| [[Nat Friedman]] | Angel |
+| [[Elad Gil]] | Angel |
 
 **Total raised:** $200M+ (equity), $2.7B+ (including Google licensing)
 
@@ -148,9 +148,9 @@ Character.AI = character/roleplay specialist.
 
 ## Related
 
-- [[Noam Shazeer]] — co-founder (Transformer paper co-author)
+- [[Noam Shazeer]] — co-founder ([[Transformer]] paper co-author)
 - [[Google]] — acqui-hire ($2.7B, 2024)
 - [[AI consolidation]] — acqui-hire pattern
-- [[OpenAI]] — competitor (ChatGPT)
-- [[Anthropic]] — competitor (Claude)
+- [[OpenAI]] — competitor ([[ChatGPT]])
+- [[Anthropic]] — competitor ([[Claude]])
 - [[Agentic AI]] — adjacent trend (AI companions)

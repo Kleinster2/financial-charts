@@ -33,9 +33,9 @@ Rare profitable messaging platform.
 
 ## Founder
 
-**Pavel Durov** — Russian-French billionaire. Co-founded VK (Russian Facebook). Left Russia 2014, stateless until French citizenship.
+**Pavel Durov** — Russian-French billionaire. Co-founded VK (Russian Facebook). Left [[Russia]] 2014, stateless until French citizenship.
 
-**Aug 2024 arrest:** Detained in France on allegations Telegram used for illicit activities. Released, returned to Dubai.
+**Aug 2024 arrest:** Detained in [[France]] on allegations Telegram used for illicit activities. Released, returned to Dubai.
 
 ---
 
@@ -44,9 +44,9 @@ Rare profitable messaging platform.
 | Year | Event |
 |------|-------|
 | 2013 | Founded by Pavel & Nikolai Durov |
-| 2014 | Left Russia to avoid regulation |
+| 2014 | Left [[Russia]] to avoid regulation |
 | 2017 | HQ moved to Dubai |
-| 2024 | Durov arrested in France |
+| 2024 | Durov arrested in [[France]] |
 | 2025 | 1B users, IPO planned |
 
 Repeatedly changed jurisdiction to evade regulation.

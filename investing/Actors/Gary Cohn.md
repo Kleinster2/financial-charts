@@ -3,7 +3,7 @@ aliases: [Gary David Cohn]
 ---
 #actor #person #finance #government #usa
 
-**Gary Cohn** — Lead Independent Director of [[Apollo]] (Apr 2025–present). Former Goldman Sachs President/COO (2006–2016). Former Director of National Economic Council under Trump (2017–2018). Vice Chairman of IBM. Bridges Wall Street, government, and tech.
+**Gary Cohn** — Lead Independent Director of [[Apollo]] (Apr 2025–present). Former Goldman Sachs President/COO (2006–2016). Former Director of National Economic Council under Trump (2017–2018). Vice Chairman of [[IBM]]. Bridges Wall Street, government, and tech.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Gary David Cohn]
 | Apollo role | Lead Independent Director (Apr 2025–present) |
 | Goldman Sachs | President & COO (2006–2016), 26 years total |
 | NEC Director | 11th Director, chief economic advisor to Trump (2017–2018) |
-| IBM | Vice Chairman (Jan 2021–present) |
+| [[IBM]] | Vice Chairman (Jan 2021–present) |
 | Other | Chairman of Pallas Advisors; Vice Chair of Zinnia; FDIC advisory |
 
 ---
@@ -31,11 +31,11 @@ aliases: [Gary David Cohn]
 **National Economic Council (2017–2018):**
 - Director and chief economic advisor to President Trump
 - Managed administration's economic policy agenda
-- Key architect of 2017 Tax Cuts and Jobs Act
+- Key architect of 2017 [[Tax Cuts and Jobs Act]]
 - Resigned March 2018 — reportedly over disagreements on tariffs
 
 **Post-government (2018–present):**
-- IBM Vice Chairman (2021)
+- [[IBM]] Vice Chairman (2021)
 - Chairman, Pallas Advisors
 - Vice Chair, Zinnia
 - FDIC Systemic Resolution Advisory Committee member

@@ -5,7 +5,7 @@ aliases: [ULVR, UL, Unilever PLC]
 
 # Unilever
 
-**Anglo-Dutch consumer goods giant** — €60.8B revenue (2024, +4.2% underlying). Five business groups: Beauty & Wellbeing (€13.2B), Personal Care (€14.4B), Home Care, Nutrition, Ice Cream. Beauty & Wellbeing grew +6.5%. Key brands: Dove (40% of Personal Care), Axe/Lynx, TRESemmé, Vaseline. Prestige beauty portfolio: Hourglass, Tatcha, Paula's Choice, K18. **Separating Ice Cream division by end of 2025** (Ben & Jerry's, Magnum). ~€120B market cap.
+**Anglo-Dutch consumer goods giant** — €60.8B revenue (2024, +4.2% underlying). Five business groups: Beauty & Wellbeing (€13.2B), Personal Care (€14.4B), [[Home]] Care, Nutrition, Ice Cream. Beauty & Wellbeing grew +6.5%. Key brands: Dove (40% of Personal Care), Axe/Lynx, TRESemmé, Vaseline. Prestige beauty portfolio: Hourglass, Tatcha, Paula's Choice, K18. **Separating Ice Cream division by end of 2025** (Ben & Jerry's, Magnum). ~€120B market cap.
 
 ---
 
@@ -18,7 +18,7 @@ aliases: [ULVR, UL, Unilever PLC]
 | Revenue (2024) | €60.8B (+4.2% underlying) |
 | Beauty & Wellbeing revenue | €13.2B (+6.5%) |
 | CEO | Hein Schumacher (since Jul 2023) |
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 
 ---
 
@@ -28,7 +28,7 @@ aliases: [ULVR, UL, Unilever PLC]
 |---------|---------|--------|------------|
 | **Beauty & Wellbeing** | €13.2B | +6.5% | Dove, Hourglass, Tatcha, K18 |
 | **Personal Care** | €14.4B | +4% | Dove, Axe, Rexona, Vaseline |
-| **Home Care** | €12.5B | +3% | Persil, OMO, Domestos |
+| **[[Home]] Care** | €12.5B | +3% | Persil, OMO, Domestos |
 | **Nutrition** | €13.2B | +2% | Hellmann's, Knorr |
 | **Ice Cream** | €7.9B | +1% | Ben & Jerry's, Magnum |
 
@@ -48,8 +48,8 @@ aliases: [ULVR, UL, Unilever PLC]
 ### Prestige portfolio:
 | Brand | Category | Growth (2024) |
 |-------|----------|---------------|
-| Hourglass | Luxury makeup | Double-digit |
-| Tatcha | Luxury skincare | Double-digit |
+| Hourglass | [[Luxury]] makeup | Double-digit |
+| Tatcha | [[Luxury]] skincare | Double-digit |
 | Paula's Choice | Science skincare | Low growth |
 | K18 | Biotech haircare | Double-digit (acquired 2024) |
 

@@ -45,12 +45,12 @@ Philippe Laffont worked at Tiger Management 1996-1999.
 
 | Company | Sector |
 |---------|--------|
-| DoorDash | Delivery |
-| Instacart | Delivery |
-| Snap | Social |
-| Snowflake | Data |
+| [[DoorDash]] | Delivery |
+| [[Instacart]] | Delivery |
+| [[Snap]] | Social |
+| [[Snowflake]] | Data |
 | ServiceTitan | Software |
-| Chime | Fintech |
+| [[Chime]] | [[Fintech]] |
 | [[Supabase]] | Developer tools |
 
 Active crossover investor, especially in enterprise software.

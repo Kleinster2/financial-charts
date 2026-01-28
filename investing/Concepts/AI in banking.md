@@ -1,6 +1,6 @@
 #concept #ai #banking #fintech
 
-**AI in banking** — Financial services AI adoption. Singapore leading with government-coordinated retraining; US/Europe seeing job cuts.
+**AI in banking** — Financial services AI adoption. Singapore leading with government-coordinated retraining; US/[[Europe]] seeing job cuts.
 
 ---
 
@@ -20,11 +20,11 @@
 | **DBS** | **38.5%** | Singapore |
 | **OCBC** | **38.9%** | Singapore |
 | **UOB** | **43.5%** | Singapore |
-| CBA | 45.2% | Australia |
+| CBA | 45.2% | [[Australia]] |
 | JPMorgan | 51.5% | US |
-| Capital One | 55.1% | US |
-| RBC | 55.0% | Canada |
-| Morgan Stanley | 70.0% | US |
+| [[Capital One]] | 55.1% | US |
+| RBC | 55.0% | [[Canada]] |
+| [[Morgan Stanley]] | 70.0% | US |
 
 Singapore banks most efficient globally.
 
@@ -54,16 +54,50 @@ Singapore banks most efficient globally.
 
 ---
 
-## US/Europe approach
+## US big banks (2025-2026)
 
-**More aggressive cuts:**
+**2025 = implementation year, 2026 = inflection point for profitability and [[agentic AI]].**
 
-| Bank | Action |
-|------|--------|
-| Goldman Sachs | Told staff to expect more cuts as AI saves costs |
-| Others | Various reductions |
+### [[Wells Fargo]] — Cost transformation leader
 
-Contrast with Singapore's retraining focus.
+Most aggressive AI-for-efficiency play among big 4 US banks.
+
+| Metric | 2019 | Sept 2025 | Change |
+|--------|------|-----------|--------|
+| Headcount | 275,000 | 210,000 | **-65,000 (-24%)** |
+
+**Jan 2026:** Hired **Faraz Shafiq** (ex-[[Amazon Web Services|AWS]]) as head of AI products. Reports to [[Saul Van Beurden]] (head of AI + consumer). Focus: companywide AI needs, agentic AI, avoiding "sprawl" of redundant solutions.
+
+**CEO [[Charlie Scharf]] (Dec 2025):**
+- "Even pre-AI, we expect to have less people next year"
+- "Gen AI tools within our engineering workforce were 30% to 35% more efficient in writing code today"
+- "We've not reduced coders, but getting a lot more done — that's real efficiency"
+- AI described as "positive reality" for the bank
+
+**Approach:** Gradual rollout through 2026+. If jobs "completely go away through AI," goal is workforce trained with AI skills for redeployment.
+
+**Q4 2025:** $612M severance charges — efficiency push continuing even post-asset-cap removal.
+
+### [[JPMorgan Chase]] — "AI Arms Race" leader
+
+Largest tech budget among banks. Jamie Dimon: AI could be as transformational as the internet.
+
+### [[Citigroup]] — Restructuring + AI
+
+Jane Fraser's simplification plan includes AI for back-office efficiency.
+
+### [[Bank of America]] — Customer-facing AI
+
+Erica virtual assistant: 2B+ interactions. Focus on client service AI.
+
+### Contrast with Singapore
+
+| Approach | US Big Banks | Singapore |
+|----------|--------------|-----------|
+| **Job cuts** | Yes (WFC -65k, more coming) | Attrition only |
+| **Retraining** | Stated goal | Government-funded (90% salary support) |
+| **Regulatory review** | Ad hoc | MAS reviews before deployment |
+| **Coordination** | Each bank alone | Industry-wide via MAS |
 
 ---
 
@@ -96,7 +130,19 @@ Contrast with Singapore's retraining focus.
 
 ## Related
 
-- [[Singapore Tech]] — country context
-- [[Agentic AI]] — advanced AI capability
-- [[JPMorgan Chase]] — US bank AI adoption
-- [[Goldman Sachs]] — job cuts approach
+### US Banks
+- [[Wells Fargo]] — most aggressive AI-for-efficiency (65k jobs cut 2019-2025)
+- [[JPMorgan Chase]] — largest tech budget, "AI arms race" leader
+- [[Bank of America]] — customer-facing AI (Erica)
+- [[Citigroup]] — restructuring + AI
+- [[Goldman Sachs]] — told staff to expect AI-driven cuts
+
+### Singapore Banks
+- [[DBS Group]] — largest, most AI-advanced
+- [[OCBC]] — strong AI lab
+- [[UOB]] — broad deployment
+
+### Concepts
+- [[Agentic AI]] — next phase after generative AI
+- [[Singapore Tech]] — government-coordinated approach
+- [[Banking primer]] — industry context

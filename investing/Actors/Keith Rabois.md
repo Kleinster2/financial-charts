@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #individual #usa #billionaire
 
-**Keith Rabois** — PayPal Mafia. Khosla → Founders Fund partner. DoorDash, Affirm board. ~$1B+ net worth.
+**Keith Rabois** — [[PayPal]] Mafia. Khosla → Founders Fund partner. DoorDash, Affirm board. ~$1B+ net worth.
 
 ---
 
@@ -12,9 +12,9 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$1B+ |
-| Source | PayPal, Square, investing |
+| Source | [[PayPal]], Square, investing |
 | Current | Founders Fund partner |
-| PayPal Mafia | Yes |
+| [[PayPal]] Mafia | Yes |
 
 ---
 
@@ -22,9 +22,9 @@ aliases: []
 
 | Period | Role |
 |--------|------|
-| 2000-2002 | PayPal (VP) |
+| 2000-2002 | [[PayPal]] (VP) |
 | 2010-2013 | Square (COO) |
-| 2013-2019 | Khosla Ventures (partner) |
+| 2013-2019 | [[Khosla Ventures]] (partner) |
 | 2019-present | [[Founders Fund]] (partner) |
 
 ---
@@ -33,7 +33,7 @@ aliases: []
 
 | Company | Role | Outcome |
 |---------|------|---------|
-| PayPal | VP Business Development | Sold to eBay |
+| [[PayPal]] | VP Business Development | Sold to [[eBay]] |
 | LinkedIn | VP | Scaled early |
 | Square | COO | Public (SQ) |
 | Opendoor | Board, interim | Public (OPEN) |
@@ -49,9 +49,9 @@ Rare: Both successful operator AND investor.
 | **DoorDash** | Board | Public (DASH) |
 | **Affirm** | Board | Public (AFRM) |
 | **Opendoor** | Board | Public (OPEN) |
-| **Ramp** | Board | Private |
-| **Faire** | Board | Private |
-| **YouTube** | Early | Acquired by Google |
+| **[[Ramp]]** | Board | Private |
+| **[[Faire]]** | Board | Private |
+| **YouTube** | Early | Acquired by [[Google]] |
 
 ---
 
@@ -77,14 +77,14 @@ Rare: Both successful operator AND investor.
 
 ---
 
-## PayPal Mafia
+## [[PayPal]] Mafia
 
 | Member | Company |
 |--------|---------|
 | [[Peter Thiel]] | Founders Fund |
-| [[Elon Musk]] | Tesla, SpaceX |
+| [[Elon Musk]] | [[Tesla]], [[SpaceX]] |
 | [[Reid Hoffman]] | LinkedIn |
-| [[David Sacks]] | Craft Ventures |
+| [[David Sacks]] | [[Craft Ventures]] |
 | **Keith Rabois** | Founders Fund |
 
 ---
@@ -103,7 +103,7 @@ Rare: Both successful operator AND investor.
 ## Related
 
 - [[Founders Fund]] — current partner
-- [[Peter Thiel]] — PayPal Mafia
+- [[Peter Thiel]] — [[PayPal]] Mafia
 - [[DoorDash]] — board member
 - [[Affirm]] — board member
 

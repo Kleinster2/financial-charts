@@ -80,10 +80,10 @@ aliases: [mortgage-backed securities, MBS, agency MBS, CMBS, RMBS]
 
 | Buyer | Role |
 |-------|------|
-| **Federal Reserve** | Largest holder (QT reducing) |
-| **Banks** | $2.7T holdings |
-| **[[Mortgage REITs]]** | Annaly, AGNC |
-| **Insurance companies** | Long-duration match |
+| **[[Federal Reserve]]** | Largest holder (QT reducing) |
+| **[[Banks]]** | $2.7T holdings |
+| **[[Mortgage REITs]]** | Annaly, [[AGNC]] |
+| **[[Insurance]] companies** | Long-duration match |
 | **Pension funds** | Yield + safety |
 | **Foreign investors** | Dollar assets |
 

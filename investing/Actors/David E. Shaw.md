@@ -13,7 +13,7 @@ aliases: [David Shaw, David Elliot Shaw]
 |--------|-------|
 | Born | March 29, 1951, Los Angeles, CA |
 | Net worth | $7.5-8.8B (2025 estimates vary) |
-| Education | BS Math/Physics/Info Science, UC San Diego (summa cum laude); PhD Computer Science, Stanford (1980) |
+| Education | BS Math/Physics/Info Science, UC San Diego (summa cum laude); PhD Computer Science, [[Stanford]] (1980) |
 | Current role | Chief Scientist, D.E. Shaw Research |
 | Firm | [[D.E. Shaw]] (founded 1988) |
 
@@ -33,11 +33,11 @@ aliases: [David Shaw, David Elliot Shaw]
 
 | Year | Event |
 |------|-------|
-| 1980 | PhD Stanford (Computer Science) |
+| 1980 | PhD [[Stanford]] (Computer Science) |
 | 1980-86 | Columbia University CS faculty |
 | 1982-86 | NON-VON supercomputer research |
-| 1986 | Left academia for Morgan Stanley |
-| 1986-88 | VP Technology, Morgan Stanley (Nunzio Tartaglia's automated trading group) |
+| 1986 | Left academia for [[Morgan Stanley]] |
+| 1986-88 | VP Technology, [[Morgan Stanley]] (Nunzio Tartaglia's automated trading group) |
 | 1988 | Founded D.E. Shaw above a bookstore in NYC ($28M, 6 employees) |
 | 1994 | Appointed to PCAST by President Clinton |
 | 1996 | Fortune names him "King Quant" |
@@ -58,7 +58,7 @@ aliases: [David Shaw, David Elliot Shaw]
 
 ### Scientific honors
 
-| Honor | Year |
+| [[Honor]] | Year |
 |-------|------|
 | ACM Gordon Bell Prize | 2x winner |
 | American Academy of Arts and Sciences | 2007 |

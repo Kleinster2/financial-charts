@@ -3,11 +3,11 @@ aliases: []
 ---
 #actor #sovereign #tech #taiwan #semiconductor
 
-**Taiwan Tech** — TSMC homeland. Global foundry dominance. Geopolitical flashpoint.
+**[[Taiwan]] Tech** — TSMC homeland. Global foundry dominance. Geopolitical flashpoint.
 
 ---
 
-## Why Taiwan matters
+## Why [[Taiwan]] matters
 
 Semiconductor superpower:
 
@@ -30,7 +30,7 @@ World's most critical semiconductor location.
 |--------|------|
 | Foundry share | ~55%+ |
 | Advanced share | ~90% |
-| Customers | Apple, NVIDIA, AMD, Qualcomm |
+| Customers | Apple, NVIDIA, [[AMD]], [[Qualcomm]] |
 | Tech lead | 3nm, 2nm next |
 
 Most important company for AI chips.
@@ -44,15 +44,15 @@ Most important company for AI chips.
 | [[TSMC]] | Foundry |
 | [[MediaTek]] | IC design |
 | [[ASE]] | Packaging/test |
-| UMC | Mature foundry |
-| Novatek | Display ICs |
+| [[UMC]] | Mature foundry |
+| [[Novatek]] | Display ICs |
 | Realtek | Connectivity ICs |
 
 Complete semiconductor supply chain.
 
 ---
 
-## Advanced packaging
+## [[Advanced packaging]]
 
 **CoWoS leadership:**
 - TSMC CoWoS
@@ -66,8 +66,8 @@ CoWoS = major bottleneck.
 
 ## Geopolitical risk
 
-**Taiwan Strait:**
-- China claims Taiwan
+**[[Taiwan]] Strait:**
+- [[China]] claims [[Taiwan]]
 - US defense commitment
 - TSMC concentration risk
 - "Silicon Shield" theory
@@ -83,11 +83,11 @@ Geopolitical flashpoint.
 | Location | Status |
 |----------|--------|
 | Arizona | Building |
-| Japan | Building |
-| Germany | Announced |
-| Taiwan | Core |
+| [[Japan]] | Building |
+| [[Germany]] | Announced |
+| [[Taiwan]] | Core |
 
-De-risking but Taiwan still dominant.
+De-risking but [[Taiwan]] still dominant.
 
 ---
 
@@ -98,13 +98,13 @@ De-risking but Taiwan still dominant.
 | ITRI | Research institute |
 | Industrial policy | Semiconductor focus |
 | Subsidies | Fab investment support |
-| Defense | US partnership |
+| [[Defense]] | US partnership |
 
 ---
 
 ## vs South Korea
 
-| Factor | Taiwan | Korea |
+| Factor | [[Taiwan]] | Korea |
 |--------|--------|-------|
 | Foundry | Dominant | #2 |
 | Memory | Minor | Dominant |
@@ -121,10 +121,10 @@ Complementary semiconductor powers.
 - TSMC (TSM)
 - MediaTek
 - ASE (ASX)
-- UMC (UMC)
+- [[UMC]] ([[UMC]])
 
 **Indirect exposure:**
-- Every AI company depends on Taiwan
+- Every AI company depends on [[Taiwan]]
 
 ---
 

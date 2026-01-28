@@ -14,7 +14,7 @@ NVIDIA books revenue when chips "ship" — but data center power, cooling, and c
 |--------|------------|
 | **Satya Nadella (Nov 2025)** | "We have chips sitting in inventory that I can't plug in" |
 | **Gavin Baker (Atreides)** | Blackwell deployment only truly started Aug-Oct 2025 |
-| **Jensen Huang (Dec 2025)** | Building a major AI DC takes ~3 years |
+| **[[Jensen Huang]] (Dec 2025)** | Building a major AI DC takes ~3 years |
 | **[[Meta]]** | ~400K Blackwell purchased, stored waiting for Prometheus DC |
 
 ---
@@ -99,7 +99,7 @@ The clearest example of shipped ≠ deployed.
 | Q2 2025 | $36.0B | +$3.6B |
 | Q3 2025 | **$44.0B** | +$8.0B |
 
-**Plus off-balance-sheet:** Hyperion (Louisiana) = $5.4B Meta share of $27B JV with Blue Owl. Not in $44B figure.
+**Plus off-balance-sheet:** Hyperion (Louisiana) = $5.4B Meta share of $27B JV with [[Blue Owl]]. Not in $44B figure.
 
 **10-K disclosure:** "servers and network assets components stored by our suppliers until required" — $1.4B stored in Dec 2023.
 
@@ -134,8 +134,8 @@ The deployment bottleneck is amplified by [[Neocloud financing]]:
 |---------|-------------|----------------|
 | [[CoreWeave]] | Investor | 773 bps CDS (42% default) |
 | [[Lambda Labs]] | Financing | Private, limited visibility |
-| IREN | Deal facilitation | Crypto-to-AI pivot |
-| Nebius | Deal facilitation | Microsoft ties |
+| [[IREN]] | Deal facilitation | [[Crypto-to-AI pivot]] |
+| [[Nebius]] | Deal facilitation | Microsoft ties |
 
 See [[Neocloud financing]] for full analysis.
 
@@ -171,7 +171,7 @@ See [[Neocloud financing]] for full analysis.
 ## For theses
 
 **[[Long NVIDIA]]**: Key risk — revenue quality, shipment ≠ deployment
-**[[Long memory]]**: Same risk — HBM shipped may sit idle
+**[[Long memory]]**: Same risk — [[HBM]] shipped may sit idle
 **[[AI hyperscalers]]**: Capex may shift to power, not more chips
 **[[Power constraints]]**: The enabling constraint, not chip supply
 
@@ -188,7 +188,7 @@ See [[Neocloud financing]] for full analysis.
 - [[Meta]] — clearest case study
 - [[AI hyperscalers]] — all face this issue
 - [[Microsoft]] — Satya's "can't plug in" quote, Fairwater design
-- [[xAI]] — building around power (Memphis/TVA)
+- [[xAI]] — building around power (Memphis/[[TVA]])
 - [[Thermal limits]] — related constraint
 - [[Neocloud financing]] — NVIDIA demand orchestration
 - [[CoreWeave]] — neocloud with deployment questions

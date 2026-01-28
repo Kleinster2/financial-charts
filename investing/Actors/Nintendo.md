@@ -3,7 +3,7 @@ aliases: [NTDOY, 7974]
 ---
 #actor #gaming #japan #memory-victim
 
-**Nintendo** — Switch 2 squeezed by memory costs. $14B market cap loss. Poster child for AI memory crowding.
+**Nintendo** — [[Switch]] 2 squeezed by memory costs. $14B market cap loss. Poster child for AI memory crowding.
 
 ---
 
@@ -13,14 +13,14 @@ Nintendo is the clearest victim of AI-driven memory reallocation:
 
 | Metric | Value |
 |--------|-------|
-| Problem | Switch 2 memory costs +41% |
+| Problem | [[Switch]] 2 memory costs +41% |
 | Market cap loss | $14B (Dec 2025) |
 | Memory % of BOM | 21-23% |
 | Margin impact | Near break-even on hardware |
 
 ---
 
-## Switch 2 memory crisis
+## [[Switch]] 2 memory crisis
 
 **Cost explosion:**
 | Component | Increase |
@@ -31,10 +31,10 @@ Nintendo is the clearest victim of AI-driven memory reallocation:
 **Specs:**
 - 12GB LPDDR5X RAM (2x 6GB [[Micron]] modules)
 - 256GB NAND storage
-- $450 launch price (higher than Switch 1)
+- $450 launch price (higher than [[Switch]] 1)
 
 **Margin reality:**
-- Selling at slim profit in Japan
+- Selling at slim profit in [[Japan]]
 - Break-even or loss in other markets
 - No room for traditional mid-cycle price cuts
 
@@ -43,7 +43,7 @@ Nintendo is the clearest victim of AI-driven memory reallocation:
 ## Stock impact
 
 **$14B market cap evaporation:**
-- Share price at lowest since Switch 2 debut
+- Share price at lowest since [[Switch]] 2 debut
 - Investors worried about margin squeeze
 - Memory costs structural, not temporary
 
@@ -52,9 +52,9 @@ Nintendo is the clearest victim of AI-driven memory reallocation:
 ## Root cause
 
 **AI crowding out consumer memory:**
-- [[SK Hynix]] converting DRAM production to HBM
+- [[SK Hynix]] converting DRAM production to [[HBM]]
 - [[Samsung]], [[Micron]] following
-- Consumer LPDDR5X deprioritized
+- [[Consumer]] LPDDR5X deprioritized
 - Shortage extends through 2026+
 
 Nintendo has no leverage — they're a price taker.
@@ -80,9 +80,9 @@ No good choices.
 |---------------|----------|
 | **Nintendo** | Launched anyway, eating costs |
 | [[Sony]] | Considering delaying PS6 past 2028 |
-| Microsoft | Same delay considerations |
+| [[Microsoft]] | Same delay considerations |
 
-Nintendo committed to Switch 2 launch; others may delay.
+Nintendo committed to [[Switch]] 2 launch; others may delay.
 
 ---
 
@@ -108,8 +108,8 @@ Nintendo committed to Switch 2 launch; others may delay.
 |--------|-------|
 | Ticker | 7974 (Tokyo), NTDOY (ADR) |
 | Market cap | ~$60B (post-drop) |
-| HQ | Kyoto, Japan |
-| Latest console | Switch 2 ($450) |
+| HQ | Kyoto, [[Japan]] |
+| Latest console | [[Switch]] 2 ($450) |
 | Memory supplier | [[Micron]] |
 
 *Updated 2026-01-01*
@@ -119,7 +119,7 @@ Nintendo committed to Switch 2 launch; others may delay.
 ## Related
 
 - [[Memory shortage victims]] — thesis (Nintendo = poster child)
-- [[Memory shortage 2025-2026]] — crisis context (Switch 2 impact)
+- [[Memory shortage 2025-2026]] — crisis context ([[Switch]] 2 impact)
 - [[Sony]] — peer (PS6 may delay due to same issue)
-- [[Micron]] — supplier (Switch 2 memory modules)
-- [[SK Hynix]] — driver (HBM prioritization crowding out LPDDR)
+- [[Micron]] — supplier ([[Switch]] 2 memory modules)
+- [[SK Hynix]] — driver ([[HBM]] prioritization crowding out LPDDR)

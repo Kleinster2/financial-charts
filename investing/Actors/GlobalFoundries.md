@@ -41,7 +41,7 @@ Avoided the Samsung trap of bleeding cash on leading-edge race.
 
 | Technology | Applications |
 |------------|--------------|
-| RF-SOI | 5G, WiFi, radar |
+| RF-SOI | [[5G]], WiFi, radar |
 | FD-SOI | IoT, automotive, low-power |
 | Embedded flash | MCUs, automotive |
 | SiGe | RF front-end |
@@ -54,7 +54,7 @@ Avoided the Samsung trap of bleeding cash on leading-edge race.
 | Location | Nodes | Notes |
 |----------|-------|-------|
 | Malta, New York | 12nm-14nm | Flagship, CHIPS Act funding |
-| Dresden, Germany | 22nm-28nm | Former AMD fab |
+| Dresden, [[Germany]] | 22nm-28nm | Former AMD fab |
 | Singapore | 40nm-65nm | Acquired from Chartered |
 
 **US fab = geopolitical asset** — DoD supplier, CHIPS Act beneficiary.
@@ -66,17 +66,17 @@ Avoided the Samsung trap of bleeding cash on leading-edge race.
 | Customer | Products |
 |----------|----------|
 | AMD (legacy) | Older chip designs |
-| Qualcomm | RF, connectivity |
-| [[NXP]] | Automotive MCUs |
+| [[Qualcomm]] | RF, connectivity |
+| [[NXP]] | [[Automotive]] MCUs |
 | [[Infineon]] | Specialty |
-| Broadcom | RF |
-| STMicro | Specialty |
+| [[Broadcom]] | RF |
+| [[STMicro]] | Specialty |
 
 Auto and RF are core verticals.
 
 ---
 
-## Automotive focus
+## [[Automotive]] focus
 
 **Sweet spot for auto semis:**
 
@@ -84,7 +84,7 @@ Auto and RF are core verticals.
 |-----------|---------|
 | Mature nodes | Auto doesn't need 3nm |
 | Specialty processes | Embedded flash, BCD |
-| Quality | Automotive-grade certification |
+| Quality | [[Automotive]]-grade certification |
 | Long lifecycles | Auto chips run 10+ years |
 
 Competes with tower Semiconductor, UMC, SMIC on mature auto nodes.
@@ -113,7 +113,7 @@ GF is a key beneficiary of US reshoring push.
 | [[TSMC]] | Specialty processes, US presence | Scale, leading edge |
 | [[Samsung]] | Profitability, focus | Advanced nodes |
 | UMC | Technology breadth | Cost |
-| SMIC | US/Europe accessible | China cost |
+| SMIC | US/[[Europe]] accessible | [[China]] cost |
 | [[Intel Foundry Services]] | Specialty expertise | IFS scale ambitions |
 
 ---
@@ -153,7 +153,7 @@ Mubadala provides patient capital — not forcing leading-edge race.
 - Specialty node leader
 - US fab = geopolitical premium
 - CHIPS Act beneficiary
-- Automotive secular growth
+- [[Automotive]] secular growth
 - Less cyclical than leading-edge
 
 **Bear case:**
@@ -186,7 +186,7 @@ Mubadala provides patient capital — not forcing leading-edge race.
 - [[Samsung]] — competitor (#2 foundry)
 - [[Intel Foundry Services]] — competitor (US foundry)
 - [[UMC]] — competitor (mature nodes)
-- [[SMIC]] — competitor (China)
+- [[SMIC]] — competitor ([[China]])
 - [[AMD]] — former parent (spun off 2009)
 - [[Mubadala]] — majority owner (Abu Dhabi)
 - [[CHIPS Act]] — beneficiary (US fab funding)

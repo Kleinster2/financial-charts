@@ -1,12 +1,12 @@
 #actor #vc #usa
 
-**Craft Ventures** — David Sacks' VC firm, now politically connected via Whitehouse AI role.
+**Craft Ventures** — [[David Sacks]]' VC firm, now politically connected via Whitehouse AI role.
 
 ---
 
 ## Why it matters
 
-David Sacks is now Whitehouse AI & Crypto Czar. His VC investments and political influence intersect on AI policy.
+[[David Sacks]] is now Whitehouse AI & [[Crypto]] Czar. His VC investments and political influence intersect on AI policy.
 
 ---
 
@@ -15,9 +15,9 @@ David Sacks is now Whitehouse AI & Crypto Czar. His VC investments and political
 | Company | What | Status |
 |---------|------|--------|
 | **[[Groq]]** | LPU inference chips | Sold to [[NVIDIA]] $20B (Dec 2025) |
-| [[Supabase]] | Postgres BaaS | Series C investor |
-| SpaceX | Space | Private |
-| Palantir | Data/defense | Public |
+| [[Supabase]] | [[Postgres]] BaaS | Series C investor |
+| [[SpaceX]] | [[Space]] | Private |
+| [[Palantir]] | Data/defense | Public |
 | Various crypto | — | — |
 
 ---
@@ -25,10 +25,10 @@ David Sacks is now Whitehouse AI & Crypto Czar. His VC investments and political
 ## Groq deal & political angle
 
 - Craft invested in Groq
-- Sacks (as Whitehouse AI Czar) promoted Groq as "safe way" to use DeepSeek
+- Sacks (as Whitehouse AI Czar) promoted Groq as "safe way" to use [[DeepSeek]]
 - NVIDIA acquired Groq for $20B
-- Chamath Palihapitiya (Craft-adjacent) banking ~$4B from deal
-- Timing: Jensen got AI Diffusion framework canceled + H200s approved for China
+- [[Chamath Palihapitiya]] (Craft-adjacent) banking ~$4B from deal
+- Timing: Jensen got AI Diffusion framework canceled + H200s approved for [[China]]
 
 **Questions:**
 - Did Sacks' political role help Groq deal?
@@ -38,11 +38,11 @@ David Sacks is now Whitehouse AI & Crypto Czar. His VC investments and political
 
 ## Political influence
 
-As Whitehouse AI & Crypto Czar:
+As Whitehouse AI & [[Crypto]] Czar:
 - Shaping AI export policy
-- DeepSeek narrative (promoted Groq as alternative)
+- [[DeepSeek]] narrative (promoted Groq as alternative)
 - AI Diffusion framework canceled
-- H200 China exports approved
+- H200 [[China]] exports approved
 
 Portfolio companies benefit from policy decisions he influences.
 
@@ -50,7 +50,7 @@ Portfolio companies benefit from policy decisions he influences.
 
 ## Related: Benchmark
 
-[[Benchmark]] also in China AI controversy (Manus/Butterfly Effect). Both facing scrutiny for China-adjacent investments.
+[[Benchmark]] also in [[China]] AI controversy (Manus/Butterfly Effect). Both facing scrutiny for [[China]]-adjacent investments.
 
 ---
 
@@ -69,7 +69,7 @@ Portfolio companies benefit from policy decisions he influences.
 | Status | Private partnership |
 | AUM | ~$2B+ |
 | Founded | 2018 |
-| Founders | David Sacks, Bill Lee |
+| Founders | [[David Sacks]], Bill Lee |
 | Style | Growth stage, founder-friendly |
 | Notable exits | Groq ($20B to NVIDIA) |
 
@@ -80,7 +80,7 @@ Portfolio companies benefit from policy decisions he influences.
 ## Related
 
 - [[Groq]] — portfolio company (sold to NVIDIA $20B)
-- [[NVIDIA]] — acquired Groq (David Sacks may have influenced)
-- [[Benchmark]] — peer VC (similar China controversy)
-- [[Export controls]] — David Sacks shaping policy as AI Czar
+- [[NVIDIA]] — acquired Groq ([[David Sacks]] may have influenced)
+- [[Benchmark]] — peer VC (similar [[China]] controversy)
+- [[Export controls]] — [[David Sacks]] shaping policy as AI Czar
 - [[Elon Musk]] — political ally

@@ -79,12 +79,12 @@ aliases: [AI architecture history, Deep learning history, Neural network evoluti
 
 ### 3. Very Deep Networks ([[ResNet]], 2015)
 **Insight:** Skip connections solve vanishing gradients.
-**Who:** Kaiming He (Microsoft)
+**Who:** Kaiming He ([[Microsoft]])
 **Impact:** Enabled 100+ layer networks
 
 ### 4. Attention ([[Transformer]], 2017)
 **Insight:** Attention mechanism enables parallelization and scaling.
-**Who:** Vaswani et al. (Google)
+**Who:** Vaswani et al. ([[Google]])
 **Impact:** Foundation of all modern LLMs
 
 ### 5. Scale (GPT-3, 2020)
@@ -95,7 +95,7 @@ aliases: [AI architecture history, Deep learning history, Neural network evoluti
 ### 6. Alignment ([[ChatGPT]], 2022)
 **Insight:** RLHF makes models useful and safe.
 **Who:** [[OpenAI]]
-**Impact:** Consumer AI products
+**Impact:** [[Consumer AI]] products
 
 ---
 
@@ -118,12 +118,12 @@ aliases: [AI architecture history, Deep learning history, Neural network evoluti
 
 | Person | Contribution | Affiliation |
 |--------|--------------|-------------|
-| [[Fei-Fei Li]] | [[ImageNet]] | Stanford, [[World Labs]] |
-| [[Geoffrey Hinton]] | [[AlexNet]] advisor, backprop | Toronto, Google |
-| [[Ilya Sutskever]] | [[AlexNet]], GPT | Toronto, [[OpenAI]], SSI |
+| [[Fei-Fei Li]] | [[ImageNet]] | [[Stanford]], [[World Labs]] |
+| [[Geoffrey Hinton]] | [[AlexNet]] advisor, backprop | Toronto, [[Google]] |
+| [[Ilya Sutskever]] | [[AlexNet]], GPT | Toronto, [[OpenAI]], [[SSI]] |
 | [[Yann LeCun]] | CNNs, early deep learning | NYU, [[Meta]] |
-| Kaiming He | [[ResNet]] | Microsoft, Meta |
-| Ashish Vaswani | [[Transformer]] | Google, Essential AI |
+| Kaiming He | [[ResNet]] | [[Microsoft]], Meta |
+| Ashish Vaswani | [[Transformer]] | [[Google]], Essential AI |
 | [[Yang Zhilin]] | Transformer-XL | CMU, [[Moonshot AI]] |
 
 ---
@@ -131,14 +131,14 @@ aliases: [AI architecture history, Deep learning history, Neural network evoluti
 ## Investment implications
 
 **The pattern:** Each breakthrough created massive value:
-- [[AlexNet]] → Google acquires DNNresearch
+- [[AlexNet]] → [[Google]] acquires DNNresearch
 - [[Transformer]] → 6+ unicorns from 8 authors
 - GPT-3/ChatGPT → [[OpenAI]] $300B valuation
 
 **Current bets on next breakthrough:**
 - [[World Models]] (spatial intelligence)
 - Efficient architectures (Mamba, [[DeepSeek]])
-- Agentic AI (tool use, coding)
+- [[Agentic AI]] (tool use, coding)
 
 ---
 

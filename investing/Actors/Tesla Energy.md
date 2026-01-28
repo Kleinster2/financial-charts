@@ -44,7 +44,7 @@ Megapack is becoming the standard for grid-scale storage:
 - Scaling rapidly
 
 **Shanghai Megafactory:**
-- China production
+- [[China]] production
 - Global supply
 - Cost advantages
 
@@ -82,9 +82,9 @@ Megapack is becoming the standard for grid-scale storage:
 | Competitor | Strength | Tesla vs |
 |------------|----------|----------|
 | [[Fluence]] | Enterprise, software | Brand, scale |
-| BYD | Low cost | Non-China |
-| Samsung SDI | Cells | Integration |
-| CATL | Cells, cost | Brand, vertical |
+| [[BYD]] | Low cost | Non-[[China]] |
+| [[Samsung SDI]] | Cells | Integration |
+| [[CATL]] | Cells, cost | Brand, vertical |
 
 Tesla = brand + manufacturing scale leader.
 
@@ -94,7 +94,7 @@ Tesla = brand + manufacturing scale leader.
 
 **Part of Musk empire:**
 - [[Tesla]] subsidiary
-- Synergies with xAI power needs?
+- Synergies with [[xAI]] power needs?
 - Musk's "sustainable energy" mission
 - Cross-pollination with Megafactory expertise
 
@@ -105,7 +105,7 @@ See [[Elon Musk]] for full Musk ecosystem.
 ## Investment case
 
 **Bull:**
-- Grid storage inevitable
+- [[Grid storage]] inevitable
 - Market leader position
 - Growing faster than EV business
 - Higher margins

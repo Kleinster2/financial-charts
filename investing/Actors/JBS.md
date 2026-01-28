@@ -1,6 +1,6 @@
 #actor #company #food #meat #brazil #public
 
-**JBS** (NYSE: JBSAY, B3: JBSS3) — World's largest meat producer. $77B revenue (2024). Controls 25% of US beef processing. Founded by Jose Batista Sobrinho; now run by sons Wesley and Joesley ([[Batista family]]). Dual-listed NYSE (June 2025) and B3. Built through BNDES-funded acquisitions — later revealed as corruption scandal.
+**JBS** (NYSE: JBSAY, [[B3]]: JBSS3) — World's largest meat producer. $77B revenue (2024). Controls 25% of US beef processing. Founded by Jose Batista Sobrinho; now run by sons Wesley and Joesley ([[Batista family]]). Dual-listed NYSE (June 2025) and [[B3]]. Built through BNDES-funded acquisitions — later revealed as corruption scandal.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Ticker | JBSAY (NYSE), JBSS3 (B3) |
+| Ticker | JBSAY (NYSE), JBSS3 ([[B3]]) |
 | Revenue (2024) | $77.2B (record) |
 | Net income (2024) | $1.8B |
 | EBITDA (2024) | $7.2B (2x YoY) |
@@ -29,7 +29,7 @@
 | **Pork USA** | US pork | Significant |
 | **Seara** | Brazil processed foods | Growing |
 | **JBS Brazil** | Brazil beef | Core |
-| **JBS Australia** | Australia/NZ operations | Regional |
+| **JBS [[Australia]]** | [[Australia]]/NZ operations | Regional |
 
 **Brands:** Swift, Pilgrim's Pride, Just Bare, Seara, Friboi, Great Southern
 
@@ -41,8 +41,8 @@
 |--------|------|
 | **North America** | ~60% revenue; beef, pork, chicken |
 | **South America** | ~25% revenue; Brazil operations |
-| **Australia** | ~10% revenue; beef, lamb |
-| **Europe** | Distribution, Pilgrim's UK |
+| **[[Australia]]** | ~10% revenue; beef, lamb |
+| **[[Europe]]** | Distribution, Pilgrim's [[UK]] |
 
 ---
 
@@ -66,7 +66,7 @@
 | 1953 | Jose Batista Sobrinho starts butcher shop in Anápolis |
 | 1970s | Becomes dominant in central Brazil |
 | 1996 | Begins exporting |
-| 2005 | IPO on B3 (São Paulo) |
+| 2005 | IPO on [[B3]] (São Paulo) |
 | 2007 | Acquires **Swift & Co** (US beef) — $1.4B, BNDES-funded |
 | 2008 | Acquires Smithfield beef units |
 | 2009 | Acquires **Pilgrim's Pride** (US chicken) |
@@ -80,7 +80,7 @@
 
 ## The corruption scandal (2017)
 
-Part of [[Operation Car Wash]] (Lava Jato). The Batista brothers admitted to:
+Part of [[Operation Car Wash]] ([[Lava Jato]]). The Batista brothers admitted to:
 
 | Element | Detail |
 |---------|--------|
@@ -104,7 +104,7 @@ Part of [[Operation Car Wash]] (Lava Jato). The Batista brothers admitted to:
 |-------------|-------|-------|
 | **J&F Investimentos** | ~45% | Batista family holding |
 | BNDES (BNDESPar) | ~21% | State development bank |
-| Public float | ~34% | NYSE + B3 |
+| Public float | ~34% | NYSE + [[B3]] |
 
 ---
 
@@ -126,7 +126,7 @@ Via J&F Investimentos:
 
 | Company | Sector |
 |---------|--------|
-| [[PicPay]] | Fintech (Brazil #3 digital bank) |
+| [[PicPay]] | [[Fintech]] (Brazil #3 digital bank) |
 | Eldorado Brasil | Pulp/paper |
 | Flora | Personal care |
 | Âmbar Energia | Energy |
@@ -144,7 +144,7 @@ Via J&F Investimentos:
 **Bear:**
 - Beef cattle cycle turning (US herd rebuilding = margin pressure)
 - Governance concerns despite reforms (Batista family control)
-- Climate/ESG scrutiny on beef production
+- Climate/[[ESG]] scrutiny on beef production
 - Brazil currency exposure
 
 ---

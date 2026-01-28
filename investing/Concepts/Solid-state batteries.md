@@ -26,13 +26,13 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 |---------|--------------|--------------|
 | **[[Donut Lab]]** | First production solid-state shipping Q1 2026 | 400 Wh/kg, 5-min charge, Verge Motorcycles |
 | **[[ProLogium]]** | Superfluidized all-inorganic ceramic | No thermal runaway, AI datacenter applications |
-| **[[ESOX Group]]** | Defense drone/UGV integration | Military applications |
+| **[[ESOX Group]]** | [[Defense]] drone/UGV integration | Military applications |
 
 ### Production timelines
 
 | Company | Status | Timeline |
 |---------|--------|----------|
-| **[[Donut Lab]]** | **Shipping Q1 2026** | First production vehicles |
+| **[[Donut Lab]]** | **[[Shipping]] Q1 2026** | First production vehicles |
 | **[[QuantumScape]]** | Eagle pilot line complete | QSE-5 samples early 2026 |
 | **[[Samsung SDI]]** | Pilot production | 2027 mass production target |
 | **[[Toyota]]** | R&D breakthrough claimed | 2027+ production |
@@ -50,8 +50,8 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 | **[[QuantumScape]]** | QS | VW/PowerCo | Eagle line ramping |
 | **[[Donut Lab]]** | Private | — | First to production |
 | **[[ProLogium]]** | Private | Mercedes | CES 2026 unveiling |
-| **Solid Power** | SLDP | Ford, BMW | Behind schedule |
-| **SES AI** | SES | GM, Hyundai | Hybrid approach |
+| **Solid Power** | SLDP | [[Ford]], [[BMW]] | Behind schedule |
+| **SES AI** | SES | [[GM]], [[Hyundai]] | Hybrid approach |
 
 ### Incumbents with solid-state programs
 
@@ -70,14 +70,14 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 | Electrolyte type | Companies | Pros | Cons |
 |------------------|-----------|------|------|
 | **Oxide ceramic** | [[ProLogium]], QuantumScape | Stability | Brittle |
-| **Sulfide** | Toyota, Samsung SDI | Conductivity | Air-sensitive |
+| **Sulfide** | Toyota, [[Samsung]] SDI | Conductivity | Air-sensitive |
 | **Polymer** | Solid Power | Flexible | Lower performance |
 
 ---
 
 ## Donut Lab breakthrough (CES 2026)
 
-| Spec | Value | vs. Tesla |
+| Spec | Value | vs. [[Tesla]] |
 |------|-------|-----------|
 | Energy density | 400 Wh/kg | **2x** |
 | Charge time | 5 minutes | **~10x faster** |
@@ -100,7 +100,7 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 | Stock | Struggling (~$5-6) |
 | Revenue projection | $4M (2026) → $4B (2030) |
 
-**Challenge:** Execution risk, HSBC downgrade to Reduce.
+**Challenge:** Execution risk, [[HSBC]] downgrade to Reduce.
 
 ---
 
@@ -134,7 +134,7 @@ Next-generation battery technology replacing liquid electrolyte with solid. Fina
 | Q1 2026 | Donut Lab/Verge first deliveries |
 | Early 2026 | QuantumScape QSE-5 samples |
 | 2026 | ProLogium commercial production |
-| 2027 | Samsung SDI, Toyota, Panasonic targets |
+| 2027 | [[Samsung]] SDI, Toyota, Panasonic targets |
 | 2028+ | Potential mass market |
 
 ---

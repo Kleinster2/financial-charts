@@ -10,7 +10,7 @@
 |-----------|-------|
 | Date | September 14, 2023 |
 | Company | [[Arm Holdings]] |
-| Exchange | Nasdaq (ARM) |
+| Exchange | [[Nasdaq]] (ARM) |
 | Price | $51/share |
 | Valuation | $54.5B |
 
@@ -23,7 +23,7 @@
 | Shares sold | 95.5M (10%) |
 | Raised | $4.87B |
 | SoftBank stake | 90% retained |
-| Cornerstone investors | Apple, NVIDIA, Google, Intel |
+| Cornerstone investors | [[Apple]], NVIDIA, [[Google]], [[Intel]] |
 
 ---
 
@@ -63,14 +63,14 @@
 
 **Bull:**
 - AI data center growth
-- Automotive expansion
+- [[Automotive]] expansion
 - Royalty model leverage
 - Ecosystem lock-in
 
 **Bear:**
 - Valuation premium
 - SoftBank overhang
-- RISC-V competition
+- [[RISC-V]] competition
 - Customer concentration
 
 ---

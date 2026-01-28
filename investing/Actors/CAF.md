@@ -15,7 +15,7 @@ aliases: [Development Bank of Latin America, Corporación Andina de Fomento]
 |--------|-------|
 | Full name | CAF – Development Bank of Latin America and the Caribbean |
 | Founded | 1970 |
-| HQ | Caracas, Venezuela |
+| HQ | Caracas, [[Venezuela]] |
 | Members | 21 countries (19 LatAm + Spain, Portugal) |
 | Focus | Development financing |
 
@@ -57,7 +57,7 @@ Presented at UWI Five Islands AI Conference (2025).
 
 ### Regional HPC network
 
-**Chile-Dominican Republic MOU (2023):**
+**[[Chile]]-Dominican [[Republic]] MOU (2023):**
 - Feasibility study for regional high-performance computing network
 - Cross-border AI collaboration
 - Shared infrastructure to reduce costs
@@ -129,7 +129,7 @@ Digital infrastructure is a cross-cutting theme across all priorities.
 | Impact | Beneficiaries |
 |--------|---------------|
 | Data center financing | Regional DC operators, hyperscalers |
-| Connectivity projects | Telecom, fiber companies |
+| Connectivity projects | [[Telecom]], fiber companies |
 | Digital public services | Govtech providers |
 | AI infrastructure | Cloud providers, GPU suppliers |
 
@@ -155,6 +155,6 @@ CAF financing de-risks projects, enabling private investment to follow.
 - [[IDB]] — Peer development bank
 - [[CENIA]] — Latam-GPT partner (CAF funding)
 - [[Latin America AI competitiveness]] — Regional AI context
-- [[Santiago Data Hub]] — Chile HPC initiative
+- [[Santiago Data Hub]] — [[Chile]] HPC initiative
 - [[LATAM]] — Regional hub
 - [[Brazil AI]] — National AI programs

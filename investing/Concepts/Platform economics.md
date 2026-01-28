@@ -21,8 +21,8 @@
 | Model | Revenue source | Example |
 |-------|----------------|---------|
 | **Marketplace** | Transaction fees | Amazon 3P |
-| **Advertising** | Attention monetization | Meta |
-| **SaaS platform** | Subscription + ecosystem | Salesforce |
+| **Advertising** | Attention monetization | [[Meta]] |
+| **SaaS platform** | Subscription + ecosystem | [[Salesforce]] |
 | **Operating system** | Licensing, services | Apple iOS |
 
 ---
@@ -75,7 +75,7 @@
 
 ## Investment implications
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Take rate rising | Platform power |
 | Seller/driver churn | Supply-side pressure |

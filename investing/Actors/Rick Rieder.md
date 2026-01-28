@@ -37,7 +37,7 @@ aliases: [Rieder]
 | **Rates** | Dovish — Fed should cut to 3% |
 | **Neutral rate** | Believes ~3% is equilibrium |
 | **Labor market** | Warns restrictive rates threaten employment |
-| **Fed independence** | Respects "power of that institution" |
+| **[[Fed independence]]** | Respects "power of that institution" |
 
 **Quote:** "I think the Fed's got to get the rate down. The Fed's got to get the rate down to 3 percent."
 

@@ -26,7 +26,7 @@ aliases: [Jay Powell, Powell]
 |--------|------|
 | 1984-1990 | Dillon Read (investment bank) |
 | 1990-1993 | Treasury Dept (Under Secretary) |
-| 1997-2005 | Carlyle Group (partner) |
+| 1997-2005 | [[Carlyle Group]] (partner) |
 | 2012-2018 | Fed Board of Governors |
 | 2018-present | Fed Chair |
 
@@ -42,7 +42,7 @@ aliases: [Jay Powell, Powell]
 | **"Transitory" inflation** | 2021 | Initially dismissed inflation as temporary |
 | **Pivot** | Nov 2021 | Retired "transitory," signaled hikes |
 | **Hiking cycle** | Mar 2022 - Jul 2023 | 0% → 5.25-5.50% (525bp in 16 months) |
-| **Soft landing** | 2024 | Inflation down without recession |
+| **Soft landing** | 2024 | [[Inflation]] down without recession |
 | **Cutting cycle** | Sep 2024 - present | Began easing |
 
 ---
@@ -51,7 +51,7 @@ aliases: [Jay Powell, Powell]
 
 | Dimension | Powell approach |
 |-----------|-----------------|
-| Inflation | 2% target, willing to cause pain |
+| [[Inflation]] | 2% target, willing to cause pain |
 | Employment | Full employment priority |
 | Communication | Clear forward guidance |
 | Independence | Defended Fed from political pressure |
@@ -118,7 +118,7 @@ Trump appointed Powell but turned hostile when Powell raised rates in 2018-2019.
 
 ### Expert view: El-Erian (Jan 2026)
 
-**Mohamed El-Erian** on the escalation:
+**[[Mohamed El-Erian]]** on the escalation:
 
 | Point | El-Erian view |
 |-------|---------------|

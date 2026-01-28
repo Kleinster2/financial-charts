@@ -31,7 +31,7 @@
 
 ## FCF quality indicators
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | FCF > Net income | High quality earnings |
 | FCF < Net income | Aggressive accounting |
@@ -79,17 +79,17 @@
 
 | Sector | FCF profile |
 |--------|-------------|
-| Tech/SaaS | High FCF, low capex |
+| Tech/[[SaaS]] | High FCF, low capex |
 | Industrials | Cyclical FCF |
 | Utilities | Regulated, stable |
-| REITs | Use FFO instead |
+| [[REITs]] | Use FFO instead |
 | Financials | Use earnings |
 
 ---
 
 ## Red flags
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | Persistent negative FCF | Cash burn |
 | FCF << earnings | Quality issue |

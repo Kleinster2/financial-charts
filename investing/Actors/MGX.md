@@ -12,10 +12,10 @@ aliases: [MGX Fund Management]
 | Metric | Value |
 |--------|-------|
 | Launched | March 2024 |
-| Target AUM | **$100B** |
+| [[Target]] AUM | **$100B** |
 | Backers | Mubadala, G42 |
 | Chairman | Sheikh Tahnoun bin Zayed |
-| Vice Chair | Khaldoon Al Mubarak |
+| Vice Chair | [[Khaldoon Al Mubarak]] |
 
 **Mission:** Become the world's leading AI investment vehicle.
 
@@ -26,7 +26,7 @@ aliases: [MGX Fund Management]
 | Role | Name | Background |
 |------|------|------------|
 | Chairman | Sheikh Tahnoun bin Zayed | UAE National Security Advisor |
-| Vice Chair | Khaldoon Al Mubarak | Mubadala CEO, Man City chairman |
+| Vice Chair | [[Khaldoon Al Mubarak]] | Mubadala CEO, Man City chairman |
 
 ---
 
@@ -35,7 +35,7 @@ aliases: [MGX Fund Management]
 | Area | Examples |
 |------|----------|
 | **AI infrastructure** | Data centers, connectivity |
-| **Semiconductors** | Logic, memory, design, manufacturing |
+| **[[Semiconductors]]** | Logic, memory, design, manufacturing |
 | **AI core tech** | Models, software, data, robotics |
 | **Life sciences** | AI applications |
 
@@ -43,11 +43,11 @@ aliases: [MGX Fund Management]
 
 ## OpenAI $50B round (Jan 2026)
 
-**Sam Altman touring Middle East** to raise $50B+ at $750-830B valuation.
+**[[Sam Altman]] touring Middle East** to raise $50B+ at $750-830B valuation.
 
 | Detail | Value |
 |--------|-------|
-| Target raise | **$50B+** |
+| [[Target]] raise | **$50B+** |
 | Valuation | $750-830B |
 | Key meetings | Abu Dhabi state-backed funds |
 | Status | In progress (Jan 2026) |
@@ -65,22 +65,22 @@ MGX is among the investors Altman is meeting. This follows their participation i
 | [[xAI]] | Undisclosed | Series C, E |
 | [[OpenAI]] | Part of $6.6B round | — |
 | [[Anthropic]] | Undisclosed | — |
-| Databricks | Undisclosed | — |
-| France AI campus | **$31-52B** | Mistral, NVIDIA |
-| Aligned Data Centers | Part of **$40B** deal | BlackRock GIP, AIP |
-| TikTok US | ~45% stake (consortium) | Oracle, Silver Lake |
+| [[Databricks]] | Undisclosed | — |
+| [[France]] AI campus | **$31-52B** | [[Mistral]], [[NVIDIA]] |
+| Aligned [[Data Centers]] | Part of **$40B** deal | [[BlackRock]] GIP, AIP |
+| [[TikTok]] US | ~45% stake (consortium) | Oracle, [[Silver Lake]] |
 | Binance | $2B minority | World Liberty stablecoin |
-| Stargate Project | Partner | OpenAI, SoftBank, Oracle |
+| Stargate Project | Partner | OpenAI, [[SoftBank]], Oracle |
 
 ---
 
-## France data center campus
+## [[France]] data center campus
 
 | Detail | Value |
 |--------|-------|
 | Investment | $31-52B |
-| Partners | Mistral, NVIDIA |
-| Scale | Largest AI campus in Europe |
+| Partners | [[Mistral]], [[NVIDIA]] |
+| Scale | Largest AI campus in [[Europe]] |
 | Announced | Early 2025 |
 
 ---
@@ -90,7 +90,7 @@ MGX is among the investors Altman is meeting. This follows their participation i
 | Partner | Role |
 |---------|------|
 | [[OpenAI]] | AI/tech |
-| SoftBank | Lead investor |
+| [[SoftBank]] | Lead investor |
 | [[Oracle]] | Infrastructure |
 | **MGX** | Capital partner |
 
@@ -102,18 +102,18 @@ $500B AI infrastructure initiative.
 
 | Status | Amount |
 |--------|--------|
-| Target | $100B AUM |
+| [[Target]] | $100B AUM |
 | Exploring | $25B additional raise |
-| Lunate talks | $1B commitment |
+| [[Lunate]] talks | $1B commitment |
 
 ---
 
-## Aligned Data Centers acquisition
+## Aligned [[Data Centers]] acquisition
 
 | Metric | Value |
 |--------|-------|
 | Deal size | **$40B** |
-| Consortium | MGX, BlackRock GIP, AIP |
+| Consortium | MGX, [[BlackRock]] GIP, AIP |
 | Seller | Macquarie |
 | Significance | Largest global data center deal ever |
 
@@ -124,14 +124,14 @@ $500B AI infrastructure initiative.
 **Bull:**
 - Massive sovereign capital
 - AI-focused mandate
-- Global deal access (Stargate, TikTok)
+- Global deal access (Stargate, [[TikTok]])
 - UAE government backing
 
 **Bear:**
-- Geopolitical complexity (US-UAE-China)
+- Geopolitical complexity (US-UAE-[[China]])
 - Execution on $100B target
-- Competition from Saudi PIF
-- G42/China concerns (US scrutiny)
+- Competition from [[Saudi PIF]]
+- G42/[[China]] concerns (US scrutiny)
 
 ---
 

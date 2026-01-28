@@ -5,7 +5,7 @@ aliases: []
 
 # Marni
 
-**Italian luxury fashion house** — founded 1994 by Consuelo Castiglioni, acquired by [[OTB]] (2012-2015). Known for eclectic, artisanal aesthetic. Japan is largest market. New CD Meryll Rogge appointed 2025 after Francesco Risso's departure.
+**Italian luxury fashion house** — founded 1994 by Consuelo Castiglioni, acquired by [[OTB]] (2012-2015). Known for eclectic, artisanal aesthetic. [[Japan]] is largest market. New CD Meryll Rogge appointed 2025 after Francesco Risso's departure.
 
 ---
 
@@ -43,7 +43,7 @@ aliases: []
 | Designer | Tenure | Notes |
 |----------|--------|-------|
 | Consuelo Castiglioni | 1994–2016 | Founder, defined aesthetic |
-| Francesco Risso | 2016–2025 | Prada alum, artistic direction |
+| Francesco Risso | 2016–2025 | [[Prada]] alum, artistic direction |
 | **Meryll Rogge** | 2025– | Belgian, own eponymous brand |
 
 ---
@@ -66,9 +66,9 @@ OTB doesn't disclose individual brand revenue:
 
 | Market | Status |
 |--------|--------|
-| **Japan** | Largest market, historically strong |
-| **Europe** | #2 market |
-| **China** | Grew rapidly through pandemic |
+| **[[Japan]]** | Largest market, historically strong |
+| **[[Europe]]** | #2 market |
+| **[[China]]** | Grew rapidly through pandemic |
 
 ---
 
@@ -76,7 +76,7 @@ OTB doesn't disclose individual brand revenue:
 
 **Aesthetic:** Eclectic, artisanal, colorful. Deliberately "off" — imperfect prints, clashing patterns.
 
-**Target:** Creative class, fashion insiders. Cult following.
+**[[Target]]:** Creative class, fashion insiders. Cult following.
 
 **Position:** "Cult brand" within OTB — smaller than Diesel/Margiela but high growth potential.
 

@@ -23,7 +23,7 @@
 
 ## Relationship with Trump II
 
-*   **Tension:** While some MAGA populists (JD Vance) admired her anti-Big Tech stance, the dominant "Deregulation" and "Economic Growth" wings (Elon Musk, Wall Street donors) demanded her removal.
+*   **Tension:** While some MAGA populists (JD Vance) admired her anti-Big Tech stance, the dominant "Deregulation" and "Economic Growth" wings ([[Elon Musk]], Wall Street donors) demanded her removal.
 *   **Outcome:** The "Deregulation" pillar won out.
 
 ---

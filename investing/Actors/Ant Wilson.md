@@ -13,7 +13,7 @@
 | Company | [[Supabase]] |
 | Role | CTO & Co-founder |
 | Location | Singapore |
-| From | Liverpool, UK |
+| From | Liverpool, [[UK]] |
 | Education | MSc Software Engineering |
 
 ---
@@ -24,7 +24,7 @@
 |--------|-------|
 | Education | University of Leeds (MSc) |
 | Specialty | Software Engineering, Distributed Systems |
-| Previous | Crypto Squad (EF Singapore), STYLINDEX |
+| Previous | [[Crypto]] Squad (EF Singapore), STYLINDEX |
 | Accelerator | Entrepreneur First (Singapore) |
 
 ---
@@ -36,18 +36,18 @@
 > "I tried to start companies for about 10 years, and nothing worked for a long time, but I kept going."
 
 **Previous attempts:**
-- **Crypto Squad** — CTO/Co-founder (Entrepreneur First Singapore)
+- **[[Crypto]] Squad** — CTO/Co-founder (Entrepreneur First Singapore)
 - **STYLINDEX** — Technical Co-founder
 
-**Finally clicked:** [[Paul Copplestone]] pitched Supabase idea — Firebase-like features on top of Postgres. Wilson joined January 2020.
+**Finally clicked:** [[Paul Copplestone]] pitched Supabase idea — Firebase-like features on top of [[Postgres]]. Wilson joined January 2020.
 
 ---
 
 ## Why Supabase worked
 
-**Solved their own problem:** Copplestone hit Firebase scaling limits, wanted Postgres. They built Firebase-like features (auth, realtime, storage) on top of Postgres.
+**Solved their own problem:** Copplestone hit Firebase scaling limits, wanted [[Postgres]]. They built Firebase-like features (auth, realtime, storage) on top of [[Postgres]].
 
-**Technical foundation:** Wilson's distributed systems background enabled real-time Postgres replication at scale.
+**Technical foundation:** Wilson's distributed systems background enabled real-time [[Postgres]] replication at scale.
 
 ---
 
@@ -68,7 +68,7 @@ Met living together in Singapore during Entrepreneur First accelerator.
 1. **Technical credibility** — Distributed systems expertise
 2. **Persistence signal** — 10 years of failed startups before success
 3. **Supabase growth** — CTO of $5B company
-4. **Singapore base** — SE Asia tech ecosystem connection
+4. **Singapore base** — SE [[Asia]] tech ecosystem connection
 
 ---
 

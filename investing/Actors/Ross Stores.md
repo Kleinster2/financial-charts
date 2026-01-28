@@ -5,7 +5,7 @@ aliases: [ROST, Ross Dress for Less, dd's DISCOUNTS]
 
 # Ross Stores
 
-**Second-largest US off-price retailer** (behind [[TJX]]). $21.1B revenue (FY24, +4%), operating Ross Dress for Less (1,873 stores) and dd's DISCOUNTS (360 stores). ~$49B market cap. CEO Jim Conroy (since Feb 2025, formerly RH). Tariff exposure: >50% of merchandise from China. Withdrew FY25 guidance due to macro uncertainty. Value retail structural winner but facing near-term tariff headwinds.
+**Second-largest US off-price retailer** (behind [[TJX]]). $21.1B revenue (FY24, +4%), operating Ross Dress for Less (1,873 stores) and dd's DISCOUNTS (360 stores). ~$49B market cap. CEO Jim Conroy (since Feb 2025, formerly RH). Tariff exposure: >50% of merchandise from [[China]]. Withdrew FY25 guidance due to macro uncertainty. Value retail structural winner but facing near-term tariff headwinds.
 
 ---
 
@@ -64,12 +64,12 @@ Ross is solidly #2 but less than half TJX's scale. Burlington is the fastest-gro
 
 | Factor | Detail |
 |--------|--------|
-| China exposure | >50% of merchandise from China |
+| [[China]] exposure | >50% of merchandise from [[China]] |
 | Impact | $0.22-$0.25/share headwind in FY25 |
 | Response | Withdrew annual guidance |
 | CEO comment | "Heightened volatility in macroeconomic and geopolitical environments" |
 
-Tariff escalation is the key near-term risk for Ross. More China-dependent than TJX.
+Tariff escalation is the key near-term risk for Ross. More [[China]]-dependent than TJX.
 
 ---
 
@@ -83,7 +83,7 @@ Tariff escalation is the key near-term risk for Ross. More China-dependent than 
 - New CEO Jim Conroy (former RH) brings fresh perspective
 
 **Bear:**
-- Tariff exposure (>50% China) — FY25 guidance withdrawn
+- Tariff exposure (>50% [[China]]) — FY25 guidance withdrawn
 - Traffic softening (January-February weakness noted)
 - Less scale than TJX (weaker buying power)
 - dd's DISCOUNTS lower-margin

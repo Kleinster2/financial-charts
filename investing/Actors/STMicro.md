@@ -26,7 +26,7 @@ STMicro is a key EV/automotive semi supplier:
 |---------|----------|
 | Silicon carbide (SiC) | #1-2 globally |
 | MEMS sensors | #1 globally |
-| Automotive | Top 5 |
+| [[Automotive]] | Top 5 |
 | Industrial | Strong |
 | Personal electronics | iPhone sensors |
 
@@ -76,8 +76,8 @@ Tesla initially said they'd reduce SiC usage 75% — but still major STMicro cus
 |-------------|--------------|
 | Accelerometers | Smartphones, automotive |
 | Gyroscopes | Navigation, gaming |
-| Microphones | Consumer electronics |
-| Pressure sensors | Automotive, industrial |
+| Microphones | [[Consumer]] electronics |
+| Pressure sensors | [[Automotive]], industrial |
 
 Apple iPhone uses STMicro MEMS sensors.
 
@@ -94,7 +94,7 @@ Apple iPhone uses STMicro MEMS sensors.
 | Catania, Italy | SiC (expanding) |
 | Tours, France | Power |
 
-European fab presence = strategic for EU sovereignty.
+European fab presence = strategic for [[EU]] sovereignty.
 
 ---
 
@@ -116,7 +116,7 @@ European fab presence = strategic for EU sovereignty.
 | Ticker | STM (NYSE), STMPA (Paris) |
 | Market cap | ~$25B |
 | Revenue (TTM) | ~$13B |
-| Automotive revenue | ~40% |
+| [[Automotive]] revenue | ~40% |
 | Industrial revenue | ~30% |
 | Gross margin | ~40% |
 | P/E | ~10x |
@@ -126,7 +126,7 @@ European fab presence = strategic for EU sovereignty.
 ## Investment implications
 
 **Bull case:**
-- SiC leader in EV transition
+- SiC leader in [[EV transition]]
 - Tesla relationship validated
 - MEMS monopoly in smartphones
 - European strategic asset

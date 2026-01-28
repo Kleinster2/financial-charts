@@ -17,7 +17,7 @@ US wireless disruptor:
 | Market cap | ~$250B |
 | Wireless subs | 100M+ |
 | Parent | [[Deutsche Telekom]] (50%+) |
-| 5G lead | Largest network |
+| [[5G]] lead | Largest network |
 
 ---
 
@@ -31,10 +31,10 @@ US wireless disruptor:
 
 ---
 
-## 5G leadership
+## [[5G]] leadership
 
 **Network advantage:**
-- Largest 5G footprint
+- Largest [[5G]] footprint
 - Mid-band spectrum (Sprint)
 - Fixed wireless growth
 - Rural expansion
@@ -55,8 +55,8 @@ First to deploy AI-enhanced networks.
 
 ## Fixed wireless
 
-**Home internet growth:**
-- 5G home internet
+**[[Home]] internet growth:**
+- [[5G]] home internet
 - 6M+ subscribers
 - Cable alternative
 - Rural opportunity
@@ -67,7 +67,7 @@ First to deploy AI-enhanced networks.
 
 **Bull:**
 - Market share gains
-- 5G network lead
+- [[5G]] network lead
 - Fixed wireless growth
 - AI-RAN innovation
 

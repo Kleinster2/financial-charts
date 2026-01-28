@@ -3,7 +3,7 @@ aliases: [NIO Inc]
 ---
 #actor #auto #ev #china #public
 
-**NIO** — China's premium EV brand. Battery swap pioneer. ~1M cumulative deliveries. Expanding to 40 countries in 2026.
+**NIO** — [[China]]'s premium EV brand. Battery swap pioneer. ~1M cumulative deliveries. Expanding to 40 countries in 2026.
 
 ---
 
@@ -47,7 +47,7 @@ Q4 2025: 124,807 deliveries
 
 **2026 expansion:**
 - 5th-gen stations: Large-scale construction Q2 2026
-- Target: 1,000+ new stations
+- [[Target]]: 1,000+ new stations
 - Year-end 2026: 4,600+ total stations
 
 **Break-even target:** End of 2026 (at 60-70 swaps/day/station)
@@ -79,7 +79,7 @@ Partnership legitimizes battery swap model.
 ## 2026 expansion
 
 **Global ambitions:**
-- Target: 40 countries and regions
+- [[Target]]: 40 countries and regions
 - New models: ES9 flagship SUV, Onvo L80, next-gen ES7
 
 **Profitability:**
@@ -98,7 +98,7 @@ Partnership legitimizes battery swap model.
 - 40-country expansion
 
 **Bear:**
-- Brutal China price war
+- Brutal [[China]] price war
 - Still unprofitable
 - BYD/Tesla price pressure
 - ADR delisting risk
@@ -124,9 +124,9 @@ Partnership legitimizes battery swap model.
 
 ## Related
 
-- [[BYD]] — competitor (#1 China EV)
+- [[BYD]] — competitor (#1 [[China]] EV)
 - [[Tesla]] — competitor
 - [[CATL]] — battery partner
-- [[Xiaomi]] — competitor (China EV entrant)
+- [[Xiaomi]] — competitor ([[China]] EV entrant)
 - [[Lithium]] — battery input
 

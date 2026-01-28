@@ -36,7 +36,7 @@ aliases: [Select Equity, George Lee]
 |-----------|-------------|
 | Moats | Durable competitive advantages |
 | Management | High-quality teams |
-| Returns | High ROIC |
+| Returns | High [[ROIC]] |
 | Growth | Sustainable revenue growth |
 
 ---

@@ -3,7 +3,7 @@ aliases: [SRT, SRTs, credit risk transfer, CRT]
 ---
 #concept #finance #banking #credit
 
-**Significant risk transfer** — Banks sell credit-linked notes to offload loan portfolio risk, manage capital ratios, and free balance sheet for more lending.
+**Significant risk transfer** — [[Banks]] sell credit-linked notes to offload loan portfolio risk, manage capital ratios, and free balance sheet for more lending.
 
 ---
 
@@ -36,7 +36,7 @@ aliases: [SRT, SRTs, credit risk transfer, CRT]
 
 **Emerging use case:**
 
-Banks increasingly using SRTs to manage concentrated data center/AI infrastructure exposure:
+[[Banks]] increasingly using SRTs to manage concentrated data center/AI infrastructure exposure:
 
 | Bank | Status | Notes |
 |------|--------|-------|
@@ -46,7 +46,7 @@ Banks increasingly using SRTs to manage concentrated data center/AI infrastructu
 | [[Goldman Sachs]] | Marketed 2025 | SRT deals |
 
 **Why data center SRTs:**
-- Banks heavily exposed to small group of AI borrowers
+- [[Banks]] heavily exposed to small group of AI borrowers
 - [[Oracle]] CDS spreads spiking — credit stress signal
 - Hyperscalers borrowing tens of billions
 - Concentration risk concerns
@@ -60,9 +60,9 @@ Banks increasingly using SRTs to manage concentrated data center/AI infrastructu
 | Buyer Type | Rationale |
 |------------|-----------|
 | Hedge funds | Credit spread arbitrage |
-| Insurance | Yield enhancement |
+| [[Insurance]] | Yield enhancement |
 | Pension funds | Diversified credit exposure |
-| Private credit | Alternative to direct lending |
+| [[Private credit]] | Alternative to direct lending |
 
 ---
 

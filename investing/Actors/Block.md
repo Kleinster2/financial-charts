@@ -14,7 +14,7 @@ Block bridges payments and crypto:
 | Business | Description |
 |----------|-------------|
 | Square | SMB point-of-sale, payments |
-| Cash App | Consumer P2P, banking, Bitcoin |
+| Cash App | [[Consumer]] P2P, banking, Bitcoin |
 | TIDAL | Music streaming (Jay-Z) |
 | TBD | Bitcoin/Web3 development |
 | Spiral | Bitcoin open-source |
@@ -70,7 +70,7 @@ Block bridges payments and crypto:
 
 **Bear:**
 - Bitcoin volatility affects earnings
-- SMB competition (Toast, Clover)
+- SMB competition ([[Toast]], Clover)
 - Cash App competition (Venmo, Zelle)
 - Dorsey distraction (Twitter/X history)
 - Valuation premium
@@ -97,7 +97,7 @@ Block bridges payments and crypto:
 
 | Aspect | Block | [[PayPal]] |
 |--------|-------|-----------|
-| Consumer | Cash App | Venmo, PayPal |
+| [[Consumer]] | Cash App | Venmo, PayPal |
 | SMB | Square | Braintree |
 | Crypto | Bitcoin-first | Multi-coin |
 | Vision | Bitcoin maximalist | Broad fintech |

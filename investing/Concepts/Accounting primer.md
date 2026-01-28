@@ -270,7 +270,7 @@ Days Payables Outstanding (DPO): Payables / (COGS/365)
 Cash Conversion Cycle = DSO + DIO − DPO
 ```
 
-**Negative CCC:** Collect from customers before paying suppliers. Amazon, Costco. Capital-efficient.
+**Negative CCC:** Collect from customers before paying suppliers. [[Amazon]], [[Costco]]. Capital-efficient.
 
 **Positive CCC:** Finance the gap between paying suppliers and collecting from customers. Requires working capital.
 
@@ -304,7 +304,7 @@ Large companies report by business segment.
 |---------------------|-----|
 | Revenue by segment | Where growth is coming from |
 | Operating income by segment | Which businesses are profitable |
-| Assets by segment | Capital allocation |
+| Assets by segment | [[Capital allocation]] |
 
 **Conglomerate discount:** Markets value transparent, focused businesses higher than opaque conglomerates.
 

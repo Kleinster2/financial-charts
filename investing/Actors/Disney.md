@@ -61,10 +61,10 @@ Combined streaming now profitable.
 |------|----------|--------|
 | Disneyland | California | Original, expanding |
 | Walt Disney World | Florida | Largest, 4 parks |
-| Disneyland Paris | France | Profitable |
-| Hong Kong Disneyland | China | Smaller |
-| Shanghai Disney | China | Successful |
-| Tokyo Disney | Japan | Licensed (Oriental Land) |
+| Disneyland Paris | [[France]] | Profitable |
+| Hong Kong Disneyland | [[China]] | Smaller |
+| Shanghai Disney | [[China]] | Successful |
+| Tokyo Disney | [[Japan]] | Licensed (Oriental Land) |
 
 Parks deliver 25%+ operating margins.
 
@@ -116,12 +116,12 @@ Iger returned to fix streaming losses, succession unclear.
 - Iger turnaround
 
 **Bear:**
-- Cord-cutting accelerating
+- [[Cord-cutting]] accelerating
 - Content cost inflation
-- Sports rights expensive
+- [[Sports rights]] expensive
 - Succession uncertainty
 - Park capex requirements
-- China exposure
+- [[China]] exposure
 
 ---
 
@@ -143,7 +143,7 @@ Iger returned to fix streaming losses, succession unclear.
 | [[Netflix]] | High (streaming) |
 | [[Amazon]] | Medium (Prime Video) |
 | Comcast/Universal | Medium (parks) |
-| Warner Bros Discovery | Medium (content) |
+| [[Warner Bros Discovery]] | Medium (content) |
 
 ---
 

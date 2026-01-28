@@ -18,7 +18,7 @@ aliases: [BA]
 | Employees | 170K+ |
 | HQ | Arlington, VA |
 
-Half of commercial aviation duopoly with Airbus.
+Half of commercial aviation duopoly with [[Airbus]].
 
 ---
 
@@ -27,7 +27,7 @@ Half of commercial aviation duopoly with Airbus.
 | Segment | Revenue | Margin | Status |
 |---------|---------|--------|--------|
 | Commercial Airplanes | ~$30B | Negative | Crisis |
-| Defense, Space & Security | ~$25B | Low | Cost overruns |
+| Defense, [[Space]] & Security | ~$25B | Low | Cost overruns |
 | Global Services | ~$20B | 15%+ | Bright spot |
 
 ---
@@ -74,11 +74,11 @@ Defense margins compressed by fixed-price losses.
 
 ## Key metrics to watch
 
-| Metric | Current | Target |
+| Metric | Current | [[Target]] |
 |--------|---------|--------|
 | 737 MAX rate | 38/month | 50+/month |
 | 787 rate | 5/month | 10/month |
-| Free cash flow | Negative | Positive |
+| [[Free cash flow]] | Negative | Positive |
 | Quality escapes | High | Zero |
 
 ---
@@ -110,13 +110,13 @@ Ortberg brought in as turnaround CEO from Collins Aerospace.
 - Management credibility destroyed
 - Balance sheet stretched
 - Union issues
-- Airbus gaining share
+- [[Airbus]] gaining share
 
 ---
 
 ## Competitive position
 
-| Factor | Boeing | Airbus |
+| Factor | Boeing | [[Airbus]] |
 |--------|--------|--------|
 | Narrowbody | 737 MAX | A320neo (leading) |
 | Widebody | 787, 777X | A350 (gaining) |
@@ -124,7 +124,7 @@ Ortberg brought in as turnaround CEO from Collins Aerospace.
 | Production | Constrained | Ramping |
 | Quality | Crisis | Stable |
 
-Airbus taking market share during Boeing crisis.
+[[Airbus]] taking market share during Boeing crisis.
 
 ---
 
@@ -143,7 +143,7 @@ Airbus taking market share during Boeing crisis.
 ## Related
 
 ### Competitors
-- Airbus — duopoly partner
+- [[Airbus]] — duopoly partner
 - [[Embraer]] — regional jets
 
 ### Suppliers

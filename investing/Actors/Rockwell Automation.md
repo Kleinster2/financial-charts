@@ -34,9 +34,9 @@ aliases: [ROK, Rockwell]
 |----------|----------|
 | Controllers | Allen-Bradley PLCs |
 | Drives | PowerFlex VFDs |
-| Sensors | Machine vision, safety |
+| [[Sensors]] | Machine vision, safety |
 | Software | FactoryTalk suite |
-| Robotics | Partnerships (not OEM) |
+| [[Robotics]] | Partnerships (not OEM) |
 
 Allen-Bradley brand dominant in North American factories.
 
@@ -63,7 +63,7 @@ Plex acquisition added cloud MES capabilities.
 
 | Driver | Impact |
 |--------|--------|
-| CHIPS Act | Semiconductor fabs |
+| [[CHIPS Act]] | Semiconductor fabs |
 | IRA | Clean energy manufacturing |
 | Supply chain security | Nearshoring |
 | EV battery plants | Greenfield builds |
@@ -77,8 +77,8 @@ Every new US factory needs automation systems.
 | Competitor | Geography | Focus |
 |------------|-----------|-------|
 | [[Siemens]] | Global | Broader industrial |
-| [[ABB]] | Global | Robotics, power |
-| [[Fanuc]] | Japan | CNC, robotics |
+| [[ABB]] | Global | [[Robotics]], power |
+| [[Fanuc]] | [[Japan]] | CNC, robotics |
 | Emerson | US | Process industries |
 
 Rockwell strongest in discrete manufacturing, North America.

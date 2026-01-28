@@ -95,9 +95,9 @@ Ford led electric pickups despite strategic retreat.
 
 **Bear:**
 - Abandoning pure EV strategy
-- Falling behind Tesla, China
+- Falling behind Tesla, [[China]]
 - F-150 Lightning losses
-- EV transition delayed
+- [[EV transition]] delayed
 - GM, Rivian competition
 
 ---

@@ -13,7 +13,7 @@
 | Market share | ~12% | ~60% |
 | Advanced logic share | ~5% | ~90% |
 | Customer switching costs | Work against you | Work for you |
-| Optimal strategy | Offense | Defense |
+| Optimal strategy | Offense | [[Defense]] |
 
 Incremental improvement cannot close this gap. Only asymmetric bets can.
 
@@ -42,7 +42,7 @@ TSMC's capacity constraints are creating "spill-off" customers:
 - TSMC raising 2nm prices + demand surge
 - Customers can't get capacity on time
 - Samsung SF2 process now "a serious option"
-- Intel 18A/14A also seeing interest
+- [[Intel]] 18A/14A also seeing interest
 
 **The thesis validation:** Samsung's aggression positioned them to capture overflow. Patience would have meant missing this window.
 
@@ -64,7 +64,7 @@ Samsung's foundry can pursue high-variance strategies because:
 | Architecture | GAA (Gate-All-Around) |
 | Status | Ramping 2026 |
 | Yields | Improving (still behind TSMC) |
-| Target customers | TSMC overflow |
+| [[Target]] customers | TSMC overflow |
 
 ---
 
@@ -88,7 +88,7 @@ The [[Samsung Taylor pivot]] looks like recklessness. It may be **rational asymm
 - 2nm price increases may accelerate diversification
 - Still dominant, but monopoly cracking at edges
 
-**For Intel:**
+**For [[Intel]]:**
 - 18A/14A also seeing interest from same dynamic
 - US-based manufacturing attractive to US fabless
 - Execution still the question mark

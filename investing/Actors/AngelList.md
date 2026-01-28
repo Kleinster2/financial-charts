@@ -63,7 +63,7 @@ AngelList democratized angel investing (for accredited investors):
 | Regulation | Reg D | Reg CF/A+ |
 | Model | Syndicates, funds | Crowdfunding |
 | Minimums | $1K+ typical | $50+ |
-| Tokenization | No | Yes (SpaceX token) |
+| Tokenization | No | Yes ([[SpaceX]] token) |
 
 ---
 
@@ -75,7 +75,7 @@ AngelList democratized angel investing (for accredited investors):
 - VC infrastructure backbone
 - Rolling funds growing
 - Fund admin sticky
-- Network effects (investors, founders)
+- [[Network effects]] (investors, founders)
 - Stack expanding services
 
 **Bear:**
@@ -100,12 +100,12 @@ AngelList democratized angel investing (for accredited investors):
 |----------|-------|
 | [[a16z]] | Early investor |
 | CRV | Early investor |
-| Ribbit Capital | Growth |
-| Google Ventures | Growth |
+| [[Ribbit Capital]] | Growth |
+| [[Google]] Ventures | Growth |
 
 **Total raised:** ~$100M+ (estimated)
 
-**Founder:** Naval Ravikant (less operationally involved now)
+**Founder:** [[Naval Ravikant]] (less operationally involved now)
 
 ## Financials
 
@@ -115,16 +115,16 @@ AngelList democratized angel investing (for accredited investors):
 | Investors | 100,000+ accredited |
 | Capital raised | $10B+ through platform |
 | Founded | 2010 |
-| Founder | Naval Ravikant |
+| Founder | [[Naval Ravikant]] |
 | HQ | San Francisco |
 
 ---
 
-## Naval Ravikant
+## [[Naval Ravikant]]
 
 **Founder/philosopher:**
 - AngelList founder
-- Famous angel investor (Twitter, Uber)
+- Famous angel investor (Twitter, [[Uber]])
 - Podcast/philosophy influence
 - "How to Get Rich" tweetstorm
 - Less operationally involved now

@@ -1,15 +1,15 @@
 ---
-aliases: [Citadel]
+aliases: [[[Citadel]]]
 ---
 #actor #fintech #market-maker #usa #private
 
-**Citadel Securities** — Largest US market maker. Executes ~25% of all US equity volume. Controversial payment for order flow (PFOF) relationships with retail brokers.
+**[[Citadel]] Securities** — Largest US market maker. Executes ~25% of all US equity volume. Controversial payment for order flow (PFOF) relationships with retail brokers.
 
 ---
 
-## Why Citadel Securities matters
+## Why [[Citadel]] Securities matters
 
-Citadel is the plumbing of US equity markets:
+[[Citadel]] is the plumbing of US equity markets:
 
 | Metric | Value |
 |--------|-------|
@@ -18,7 +18,7 @@ Citadel is the plumbing of US equity markets:
 | Retail order flow | Largest buyer |
 | Role | Market maker, liquidity provider |
 
-**Note:** Citadel Securities ≠ Citadel hedge fund (separate entities, same founder Ken Griffin).
+**Note:** [[Citadel]] Securities ≠ [[Citadel]] hedge fund (separate entities, same founder Ken Griffin).
 
 ---
 
@@ -26,11 +26,11 @@ Citadel is the plumbing of US equity markets:
 
 **How it works:**
 1. [[Robinhood]] user places order
-2. Robinhood routes to Citadel Securities
-3. Citadel pays Robinhood for the order
-4. Citadel executes, captures spread
+2. Robinhood routes to [[Citadel]] Securities
+3. [[Citadel]] pays Robinhood for the order
+4. [[Citadel]] executes, captures spread
 
-**Why Citadel pays:**
+**Why [[Citadel]] pays:**
 - Retail orders are "uninformed" (not hedge funds)
 - Less adverse selection risk
 - Can profit from bid-ask spread
@@ -38,7 +38,7 @@ Citadel is the plumbing of US equity markets:
 **Controversy:**
 - Conflict of interest for brokers
 - Are retail investors getting best execution?
-- Banned in UK, Canada, Australia
+- Banned in [[UK]], [[Canada]], [[Australia]]
 - SEC has considered banning
 
 ---
@@ -47,13 +47,13 @@ Citadel is the plumbing of US equity markets:
 
 **What happened:**
 - Robinhood halted GameStop buying during squeeze
-- Citadel Securities is Robinhood's largest PFOF partner
-- Citadel hedge fund had exposure to shorts
+- [[Citadel]] Securities is Robinhood's largest PFOF partner
+- [[Citadel]] hedge fund had exposure to shorts
 - Conspiracy theories exploded
 
 **Reality:**
 - Robinhood had capital/clearing issues
-- No evidence of Citadel coordination
+- No evidence of [[Citadel]] coordination
 - But optics were terrible
 - Led to Congressional hearings
 
@@ -68,7 +68,7 @@ Citadel is the plumbing of US equity markets:
 | Risk absorption | Takes other side of trades |
 | Technology | Fastest execution |
 
-**Argument for:** Citadel makes markets more efficient, tighter spreads benefit everyone.
+**Argument for:** [[Citadel]] makes markets more efficient, tighter spreads benefit everyone.
 
 **Argument against:** Opacity, conflicts, concentration of power.
 
@@ -86,9 +86,9 @@ Citadel is the plumbing of US equity markets:
 
 ## Meme stock legacy: retail boom beneficiary (Jan 2026)
 
-The GameStop saga permanently elevated retail trading volumes — and Citadel Securities captures a disproportionate share. Self-directed retail flows remain at $1-3B daily (vs $0-1B pre-2021), and Citadel executes ~40% of retail equity orders.
+The GameStop saga permanently elevated retail trading volumes — and [[Citadel]] Securities captures a disproportionate share. Self-directed retail flows remain at $1-3B daily (vs $0-1B pre-2021), and [[Citadel]] executes ~40% of retail equity orders.
 
-The boom in retail trading has been "great" for Griffin's market-making firm (CNBC, Jan 2026). The same meme stock phenomenon that nearly caused a systemic crisis ultimately expanded Citadel's addressable market.
+The boom in retail trading has been "great" for Griffin's market-making firm (CNBC, Jan 2026). The same meme stock phenomenon that nearly caused a systemic crisis ultimately expanded [[Citadel]]'s addressable market.
 
 See [[Retail investor flows]] for the structural shift.
 
@@ -134,7 +134,7 @@ See [[Retail investor flows]] for the structural shift.
 | Employees | 1,500+ |
 | HQ | Miami (moved from Chicago) |
 
-**Ken Griffin** is also founder of Citadel hedge fund (~$60B AUM).
+**Ken Griffin** is also founder of [[Citadel]] hedge fund (~$60B AUM).
 
 ---
 
@@ -143,12 +143,12 @@ See [[Retail investor flows]] for the structural shift.
 | Jurisdiction | PFOF status |
 |--------------|-------------|
 | US | Legal (SEC reviewing) |
-| UK | Banned |
-| EU | Banned (2026) |
-| Canada | Banned |
-| Australia | Banned |
+| [[UK]] | Banned |
+| [[EU]] | Banned (2026) |
+| [[Canada]] | Banned |
+| [[Australia]] | Banned |
 
-**Risk for Citadel:** US PFOF ban would disrupt business model.
+**Risk for [[Citadel]]:** US PFOF ban would disrupt business model.
 
 **Counter:** SEC chair Atkins less hostile to PFOF than Gensler.
 

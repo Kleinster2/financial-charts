@@ -17,7 +17,7 @@ aliases: [AMIRI]
 | Founder/CD | Mike Amiri |
 | Owner | Mike Amiri (majority), [[OTB]] (minority) |
 | Revenue (2024 est.) | ~$105M |
-| CEO | Adrian Ward-Rees (2023–, ex-Burberry, Dior) |
+| CEO | Adrian Ward-Rees (2023–, ex-[[Burberry]], Dior) |
 | Flagship stores | 12+ globally |
 
 ---
@@ -61,7 +61,7 @@ Rapid growth from niche to established luxury player.
 
 **Price point:** $500-2,000+ (luxury streetwear)
 
-**Target:** Hip-hop, entertainment industry, aspirational luxury consumers
+**[[Target]]:** Hip-hop, entertainment industry, aspirational luxury consumers
 
 **Signature:** Distressed jeans, MA logo, bandana motifs, leather jackets
 
@@ -95,7 +95,7 @@ Flagship stores in:
 | Role | Name | Background |
 |------|------|------------|
 | Founder/CD | Mike Amiri | Self-taught designer |
-| CEO | Adrian Ward-Rees | Ex-Burberry SVP, Dior Menswear MD |
+| CEO | Adrian Ward-Rees | Ex-[[Burberry]] SVP, Dior Menswear MD |
 
 Professional CEO brought in 2023 to scale operations.
 

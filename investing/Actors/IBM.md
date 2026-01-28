@@ -32,7 +32,7 @@ IBM is the enterprise AI incumbent:
 | Component | Purpose |
 |-----------|---------|
 | watsonx.ai | Foundation models, fine-tuning |
-| watsonx.data | Data lakehouse |
+| watsonx.data | [[Data lakehouse]] |
 | watsonx.governance | AI governance, compliance |
 
 **Positioning:** Enterprise AI for regulated industries (finance, healthcare, government).
@@ -132,7 +132,7 @@ Consulting is how IBM deploys Watsonx into enterprises.
 | [[Microsoft]] | On-premise, compliance | Cloud scale, Copilot |
 | [[Google]] | Enterprise relationships | Model capability |
 | [[Amazon]] | Hybrid expertise | Cloud dominance |
-| [[OpenAI]] | Governance, consulting | Consumer mindshare |
+| [[OpenAI]] | Governance, consulting | [[Consumer]] mindshare |
 
 IBM targeting enterprises that need control/compliance vs pure cloud.
 
@@ -169,7 +169,7 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 ## Investment implications
 
 **Bull case:**
-- Enterprise AI adoption accelerating
+- [[Enterprise AI adoption]] accelerating
 - Red Hat growing steadily
 - Governance/compliance moat
 - Dividend stability

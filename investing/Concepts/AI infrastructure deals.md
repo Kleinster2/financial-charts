@@ -11,14 +11,14 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 | Deal | Size | Type | Key Structure |
 |------|------|------|---------------|
 | Meta-Blue Owl | $60B | [[AI infrastructure SPVs]] | 80/20 JV + $30B bonds |
-| xAI Colossus | $20B+ | SPV + [[GPU-as-collateral]] | Valor/Apollo + NVIDIA equity |
+| xAI Colossus | $20B+ | SPV + [[GPU-as-collateral]] | Valor/[[Apollo]] + [[NVIDIA]] equity |
 | Crusoe-OpenAI | $15B | Construction JV | JPMorgan debt |
 | CoreWeave | $18B+ | [[GPU-as-collateral]] | Blackstone-led |
-| OpenAI-NVIDIA | $100B | Supply + equity | Progressive per GW |
-| OpenAI-AMD | $100B | Supply + warrants | 160M shares at $0.01 |
-| SoftBank-OpenAI | $41B | Pure equity | Mizuho loan + NVIDIA sale |
+| OpenAI-[[NVIDIA]] | $100B | Supply + equity | [[Progressive]] per GW |
+| OpenAI-[[AMD]] | $100B | Supply + warrants | 160M shares at $0.01 |
+| [[SoftBank]]-OpenAI | $41B | Pure equity | Mizuho loan + [[NVIDIA]] sale |
 | Stargate | $500B target | Consortium | Mixed financing |
-| BlackRock AIP | $100B target | Infra fund | Temasek, KIA anchors |
+| [[BlackRock]] AIP | $100B target | Infra fund | [[Temasek]], KIA anchors |
 
 ---
 
@@ -39,7 +39,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 ### SPV structure ("Beignet Investor LLC")
 
 - **Ownership**: Blue Owl 80% / Meta 20%
-- **Debt investors**: Pimco (~$18B anchor), BlackRock ($3B+), Apollo
+- **Debt investors**: Pimco (~$18B anchor), [[BlackRock]] ($3B+), [[Apollo]]
 - **Security**: 144A-for-life senior secured, first-lien on all assets
 - **Rating**: S&P A+
 - **Meta guarantee**: Residual value guarantee at lease end
@@ -65,23 +65,23 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 | Component | Amount | Details |
 |-----------|--------|---------|
-| SPV equity | $7.5B | Valor Capital lead, NVIDIA $2B |
-| SPV debt | $12.5B | Apollo, Diameter Capital |
+| SPV equity | $7.5B | Valor Capital lead, [[NVIDIA]] $2B |
+| SPV debt | $12.5B | [[Apollo]], Diameter Capital |
 | **SPV total** | **$20B** | |
-| Corporate debt | $5B | Morgan Stanley (Jun 2025) |
+| Corporate debt | $5B | [[Morgan Stanley]] (Jun 2025) |
 | Series E equity | $20B | Jan 2026 |
 
 ### SPV structure (Valor Compute Infrastructure L.P.)
 
-- **Manager**: Valor Equity Partners (~$55B AUM)
+- **Manager**: [[Valor Equity Partners]] (~$55B AUM)
 - **Lease**: Triple net (xAI pays all operating costs)
 - **Collateral**: GPUs directly (not xAI corporate)
 - **Term**: 5-year lease only
-- **Equipment**: 300K-550K NVIDIA GB200/GB300 chips
+- **Equipment**: 300K-550K [[NVIDIA]] GB200/GB300 chips
 
-**NVIDIA participation**: ~$2B equity in SPV — financing its own hardware purchases.
+**[[NVIDIA]] participation**: ~$2B equity in SPV — financing its own hardware purchases.
 
-**Apollo Jan 2026**: Additional $3.5B capital solution (part of $5.4B transaction).
+**[[Apollo]] Jan 2026**: Additional $3.5B capital solution (part of $5.4B transaction).
 
 ---
 
@@ -102,8 +102,8 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 - **Developers**: Crusoe, Blue Owl, Primary Digital Infrastructure
 - **Capacity**: 1.2 GW (8 buildings, ~$1.4B each)
-- **Customer chain**: Crusoe → Oracle → OpenAI
-- **Oracle lease**: 15-year term
+- **Customer chain**: Crusoe → [[Oracle]] → OpenAI
+- **[[Oracle]] lease**: 15-year term
 
 ### Timeline
 
@@ -133,15 +133,15 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 - Blackstone (co-lead)
 - Magnetar (co-lead)
-- Coatue, Carlyle, CDPQ, DigitalBridge Credit, BlackRock, Eldridge
+- [[Coatue]], Carlyle, CDPQ, [[DigitalBridge]] Credit, [[BlackRock]], Eldridge
 
 ### Debt terms
 
 - **Collateral**: First-lien on GPU servers + SPV equity
 - **Effective rate**: 11-14% all-in
-- **DDTL 3.0**: Benchmark + 4%, 0.5% undrawn fee
+- **DDTL 3.0**: [[Benchmark]] + 4%, 0.5% undrawn fee
 
-### NVIDIA relationship
+### [[NVIDIA]] relationship
 
 | Investment | Amount | Date |
 |------------|--------|------|
@@ -151,34 +151,34 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 ---
 
-## 5. OpenAI-NVIDIA ($100B, Sep 2025)
+## 5. OpenAI-[[NVIDIA]] ($100B, Sep 2025)
 
 **Chip supply + progressive equity.** Not debt financing — strategic partnership.
 
 | Component | Details |
 |-----------|---------|
-| Total commitment | Up to $100B from NVIDIA |
-| Capacity | 10 GW of NVIDIA systems |
-| Mechanism | Progressive investment as each GW deployed |
+| Total commitment | Up to $100B from [[NVIDIA]] |
+| Capacity | 10 GW of [[NVIDIA]] systems |
+| Mechanism | [[Progressive]] investment as each GW deployed |
 | First tranche | $10B at 1 GW completion |
-| NVIDIA chip cost | ~$35B per GW |
+| [[NVIDIA]] chip cost | ~$35B per GW |
 | Total per GW | $50-60B (including DC + power) |
 | Hardware | 4-5 million GPUs (Vera Rubin platform) |
 | Timeline | First phase H2 2026 |
 
-**Structure**: OpenAI pays cash for chips; NVIDIA invests back for non-controlling equity.
+**Structure**: OpenAI pays cash for chips; [[NVIDIA]] invests back for non-controlling equity.
 
 ---
 
-## 6. OpenAI-AMD ($100B revenue, Oct 2025)
+## 6. OpenAI-[[AMD]] ($100B revenue, Oct 2025)
 
 **Chip supply + warrant kicker.** Creative equity structure.
 
 | Component | Details |
 |-----------|---------|
-| Capacity | 6 GW of AMD GPUs |
-| Revenue to AMD | ~$90B cumulative (4 years) |
-| Platform | AMD Instinct MI450 |
+| Capacity | 6 GW of [[AMD]] GPUs |
+| Revenue to [[AMD]] | ~$90B cumulative (4 years) |
+| Platform | [[AMD]] Instinct MI450 |
 | First deployment | 1 GW in H2 2026 |
 
 ### Warrant structure
@@ -187,16 +187,16 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 |-----------|-------|
 | Shares | Up to 160 million |
 | Strike price | **$0.01** per share |
-| Potential stake | ~10% of AMD |
+| Potential stake | ~10% of [[AMD]] |
 | Vesting | Deployment + share price milestones |
 
-**Effect**: If fully exercised, OpenAI acquires 10% of AMD at essentially zero cost.
+**Effect**: If fully exercised, OpenAI acquires 10% of [[AMD]] at essentially zero cost.
 
-**Market reaction**: AMD +43% in announcement week (~$80B market cap added).
+**Market reaction**: [[AMD]] +43% in announcement week (~$80B market cap added).
 
 ---
 
-## 7. SoftBank-OpenAI ($41B, 2025)
+## 7. [[SoftBank]]-OpenAI ($41B, 2025)
 
 **Largest single investor in OpenAI.** Pure equity, no debt structure.
 
@@ -210,11 +210,11 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 ### Financing
 
 - Mizuho Bank led loan for initial $10B
-- SoftBank sold remaining NVIDIA shares ($30B) in Nov 2025
+- [[SoftBank]] sold remaining [[NVIDIA]] shares ($30B) in Nov 2025
 
 **Contingency**: Required OpenAI for-profit restructuring (completed Oct 2025).
 
-**Result**: SoftBank owns ~11% of OpenAI at $300B valuation.
+**Result**: [[SoftBank]] owns ~11% of OpenAI at $300B valuation.
 
 ---
 
@@ -226,20 +226,20 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 | Partner | Commitment | Role |
 |---------|------------|------|
-| SoftBank | $19B | Lead, Chairman |
+| [[SoftBank]] | $19B | Lead, Chairman |
 | OpenAI | $19B | Lead, Operations |
-| Oracle | TBD | Technology |
-| MGX (UAE) | TBD | Equity |
+| [[Oracle]] | TBD | Technology |
+| [[MGX]] (UAE) | TBD | Equity |
 
 ### Financing to date
 
 | Source | Amount |
 |--------|--------|
-| SoftBank Tranche 1 | $10B (Mizuho loan) |
-| SoftBank Tranche 2 | $30B (sold NVIDIA shares) |
+| [[SoftBank]] Tranche 1 | $10B (Mizuho loan) |
+| [[SoftBank]] Tranche 2 | $30B (sold [[NVIDIA]] shares) |
 | JPMorgan | $9.6B (Abilene) |
 | **Committed** | **$100B** |
-| **Target** | **$500B by 2029** |
+| **[[Target]]** | **$500B by 2029** |
 
 ### Sites (as of Sep 2025)
 
@@ -247,17 +247,17 @@ Abilene TX (flagship), Shackelford County TX, Dona Ana County NM, Lordstown OH, 
 
 ---
 
-## 9. BlackRock AI Infrastructure Partnership ($100B target, Sep 2024)
+## 9. [[BlackRock]] [[AI Infrastructure]] Partnership ($100B target, Sep 2024)
 
 **Institutional capital entry point.**
 
 | Partner | Role |
 |---------|------|
-| BlackRock | Lead, fund manager |
+| [[BlackRock]] | Lead, fund manager |
 | GIP | Infrastructure expertise |
-| Microsoft | Technology partner |
-| MGX | Anchor investor |
-| NVIDIA | Technology partner |
+| [[Microsoft]] | Technology partner |
+| [[MGX]] | Anchor investor |
+| [[NVIDIA]] | Technology partner |
 
 ### Capital
 
@@ -267,20 +267,20 @@ Abilene TX (flagship), Shackelford County TX, Dona Ana County NM, Lordstown OH, 
 | Total with debt | $100B |
 | Raised (Jan 2026) | $12.5B |
 
-**Anchor investors**: Kuwait Investment Authority, Temasek
+**Anchor investors**: Kuwait Investment Authority, [[Temasek]]
 
-**First deal**: Aligned Data Centers ($40B EV, 5+ GW, from Macquarie) — expected close H1 2026.
+**First deal**: Aligned [[Data Centers]] ($40B EV, 5+ GW, from Macquarie) — expected close H1 2026.
 
 ---
 
-## 10. Oracle — mixed results
+## 10. [[Oracle]] — mixed results
 
 **Abilene, TX**: $15B via Crusoe JV — success (under construction)
 
 **Michigan**: $10B, 1 GW — **Blue Owl declined to fund**
-- Reason: Unfavorable terms, Oracle debt levels, local politics risk
+- Reason: Unfavorable terms, [[Oracle]] debt levels, local politics risk
 - Blackstone in discussions as replacement
-- Oracle shares fell ~6% on news, down ~40% from Sep peak
+- [[Oracle]] shares fell ~6% on news, down ~40% from Sep peak
 
 **Lesson**: Credit quality matters. PE won't finance everyone.
 
@@ -292,21 +292,21 @@ Abilene TX (flagship), Shackelford County TX, Dona Ana County NM, Lordstown OH, 
 
 | Vendor | Structure | Example |
 |--------|-----------|---------|
-| NVIDIA | Equity in SPVs | $2B in Valor/xAI |
-| NVIDIA | Equity in customers | ~6% CoreWeave |
-| NVIDIA | Progressive investment | $100B into OpenAI |
-| AMD | Warrants tied to deployment | 160M shares at $0.01 to OpenAI |
+| [[NVIDIA]] | Equity in SPVs | $2B in Valor/xAI |
+| [[NVIDIA]] | Equity in customers | ~6% CoreWeave |
+| [[NVIDIA]] | [[Progressive]] investment | $100B into OpenAI |
+| [[AMD]] | Warrants tied to deployment | 160M shares at $0.01 to OpenAI |
 
 ### Key financial players
 
 | Firm | Role | Deals |
 |------|------|-------|
-| **Morgan Stanley** | Structuring | Meta SPV, xAI debt |
+| **[[Morgan Stanley]]** | Structuring | Meta SPV, xAI debt |
 | **JPMorgan** | Construction | Crusoe $9.6B |
-| **Blue Owl** | SPV equity | Meta, Crusoe, Oracle |
+| **Blue Owl** | SPV equity | Meta, Crusoe, [[Oracle]] |
 | **Pimco** | Debt anchor | Meta ($18B) |
 | **Blackstone** | Debt lead | CoreWeave |
-| **Apollo** | Debt | Meta, xAI |
+| **[[Apollo]]** | Debt | Meta, xAI |
 
 ---
 
@@ -317,7 +317,7 @@ Abilene TX (flagship), Shackelford County TX, Dona Ana County NM, Lordstown OH, 
 - [[AI infrastructure financing]] — overview and context
 - [[GPU-as-collateral]] — financing structure (CoreWeave, xAI)
 - [[AI infrastructure SPVs]] — financing structure (Meta template)
-- [[OpenAI]] — multiple deals (NVIDIA, AMD, SoftBank, Stargate)
+- [[OpenAI]] — multiple deals ([[NVIDIA]], [[AMD]], [[SoftBank]], Stargate)
 - [[xAI]] — Colossus $20B+
 - [[Meta]] — Blue Owl Hyperion $60B
 - [[CoreWeave]] — pioneer GPU financing

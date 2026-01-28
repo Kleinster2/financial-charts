@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Headquarters | Shenzhen, China |
+| Headquarters | [[Shenzhen]], [[China]] |
 | Former parent | Huawei (divested Nov 2020) |
 | Global rank | #6-7 smartphone OEM |
 | Status | Private |

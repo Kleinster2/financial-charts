@@ -3,7 +3,7 @@ aliases: [KIA Tech]
 ---
 #actor #sovereign #ai #kuwait #gcc
 
-**Kuwait Tech** — KIA sovereign fund. Conservative tech approach. Telecom focus.
+**Kuwait Tech** — KIA sovereign fund. Conservative tech approach. [[Telecom]] focus.
 
 ---
 
@@ -35,7 +35,7 @@ Oldest sovereign fund, cautious approach:
 | Entity | Role |
 |--------|------|
 | Zain | Major telecom |
-| VIVA (stc Kuwait) | Telecom |
+| VIVA ([[stc]] Kuwait) | [[Telecom]] |
 | NBK | Digital banking |
 | Limited startups | Small ecosystem |
 
@@ -47,7 +47,7 @@ Oldest sovereign fund, cautious approach:
 - Kuwait-based
 - Operations in 7 countries
 - 50M+ customers
-- 5G rollout
+- [[5G]] rollout
 
 Kuwait's tech champion.
 
@@ -59,7 +59,7 @@ Kuwait's tech champion.
 |--------|--------|-------|-----|
 | SWF size | $900B | $930B | $1.5T+ |
 | AI strategy | Minimal | Aggressive | Advanced |
-| Tech focus | Telecom | Full stack | AI-first |
+| Tech focus | [[Telecom]] | Full stack | AI-first |
 | Approach | Conservative | Ambitious | Execution |
 
 Kuwait has money but less tech ambition.
@@ -83,7 +83,7 @@ Kuwait has money but less tech ambition.
 |--------|-------|
 | KIA AUM | $900B+ |
 | Founded | 1953 |
-| Telecom | Zain |
+| [[Telecom]] | Zain |
 | AI strategy | Limited |
 
 *Updated 2026-01-01*
@@ -92,8 +92,8 @@ Kuwait has money but less tech ambition.
 
 ## Related
 
-- [[Saudi Arabia Tech]] — GCC peer (more aggressive)
-- [[UAE Tech]] — GCC peer (more advanced)
+- [[Saudi Arabia Tech]] — [[GCC]] peer (more aggressive)
+- [[UAE Tech]] — [[GCC]] peer (more advanced)
 - [[Sovereign AI race]] — context (Kuwait lagging)
 - [[GCC tech race]] — regional context
 

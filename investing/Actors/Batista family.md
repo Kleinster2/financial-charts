@@ -19,7 +19,7 @@
 | Company | Sector | Value/Status |
 |---------|--------|--------------|
 | [[JBS]] | Meat processing | ~45% stake; $77B revenue; NYSE-listed |
-| [[PicPay]] | Fintech | Majority; IPO Jan 2026 at ~$2.5B |
+| [[PicPay]] | [[Fintech]] | Majority; IPO Jan 2026 at ~$2.5B |
 | Eldorado Brasil | Pulp/paper | Major stake |
 | Flora | Personal care | Full ownership |
 | Âmbar Energia | Energy | Growing |
@@ -77,7 +77,7 @@ The brothers received immunity from prosecution in exchange for cooperation.
 |------|-------|
 | 1953 | Jose Batista Sobrinho starts butcher shop |
 | 2000s | Wesley and Joesley take over, rename company JBS |
-| 2005 | JBS IPO on B3 |
+| 2005 | JBS IPO on [[B3]] |
 | 2007-2009 | Rapid US expansion (Swift, Pilgrim's Pride) via BNDES |
 | 2015 | Acquire [[PicPay]] |
 | July 2016 | Named in [[Operation Car Wash]] investigation |

@@ -36,7 +36,7 @@ aliases: [AMH, American Homes]
 
 - Internally managed REIT (Maryland)
 - Acquire, develop, renovate, lease, manage single-family homes
-- Build-to-rent development capability
+- [[Build-to-rent]] development capability
 - Named 2025 Top U.S. Homebuilder by Builder100
 
 **Differentiation from [[Invitation Homes]]:**
@@ -77,9 +77,9 @@ See [[Institutional homebuying ban]] for full context.
 ## Investment implications
 
 **Bull case:**
-- Housing shortage structural
+- [[Housing shortage]] structural
 - Rent-vs-buy math favors renting
-- Build-to-rent pipeline
+- [[Build-to-rent]] pipeline
 - Stable occupancy and rent growth
 
 **Bear case:**

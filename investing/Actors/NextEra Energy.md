@@ -38,7 +38,7 @@ aliases: [NEE]
 
 **Scale + BYOG = unique competitive moat.** NextEra is both the largest US utility (Florida Power & Light, ~12M customers) and the largest US renewable developer (NextEra Energy Resources). This dual structure means it can offer hyperscalers something nobody else can at scale: build dedicated power generation next to your data center, sell it to you via long-term PPA, and handle everything.
 
-**The BYOG model:** CEO John Ketchum (Dec 2025 Investor Day) declared the US has entered a "golden age of power demand." NextEra's pitch: rather than waiting years for grid connections, let us build generation co-located with your data center. Analysts (UBS, Morgan Stanley) see this as a competitive advantage few can replicate at scale.
+**The BYOG model:** CEO John Ketchum (Dec 2025 Investor Day) declared the US has entered a "golden age of power demand." NextEra's pitch: rather than waiting years for grid connections, let us build generation co-located with your data center. Analysts ([[UBS]], [[Morgan Stanley]]) see this as a competitive advantage few can replicate at scale.
 
 ---
 
@@ -66,14 +66,14 @@ aliases: [NEE]
 |---------|------|---------|
 | **Google Cloud** | 25-year PPA | Restart Duane Arnold nuclear plant (Iowa, 615 MW) for 24/7 carbon-free AI power |
 | **Meta** | 2.5 GW clean energy | 11 PPAs + 2 energy storage agreements, projects online 2026-2028 |
-| **ExxonMobil** | 1.2 GW gas + CCS | Natural gas plant with carbon capture |
+| **ExxonMobil** | 1.2 GW gas + CCS | [[Natural gas]] plant with carbon capture |
 | **Basin Electric** | ~1,450 MW gas | North Dakota combined-cycle, foundation for multi-GW DC campus |
 
 ---
 
 ## Data center infrastructure buildout
 
-- **Target:** 15 GW of data center power hubs by 2035
+- **[[Target]]:** 15 GW of data center power hubs by 2035
 - **Stretch target:** 30 GW if demand trends hold
 - **Pipeline covers:** wind, solar, storage, nuclear restart, natural gas with CCS
 - **Competitive advantage:** lowest-cost developer, best sites locked up, procurement leverage

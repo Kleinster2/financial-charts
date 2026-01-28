@@ -10,7 +10,7 @@ Tracking GDP, inflation, and Fed policy forecasts by firm. Useful for gauging co
 
 ### Jan 14, 2026
 
-| Indicator | Actual | Expected | Signal |
+| Indicator | Actual | Expected | [[Signal]] |
 |-----------|--------|----------|--------|
 | **PPI** | +0.2% | +0.3% | Inflation cooling |
 | **Core PPI** | 0.0% | +0.2% | Very benign |
@@ -44,7 +44,7 @@ Tracking GDP, inflation, and Fed policy forecasts by firm. Useful for gauging co
 - Tax cuts (Trump package)
 - Real wage gains
 - Rising wealth
-- Productivity growth (AI boost)
+- [[Productivity]] growth (AI boost)
 - Lower immigration → less labor supply
 
 **Risks:**

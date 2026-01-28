@@ -48,7 +48,7 @@ Ferguson spent 8 years at Pershing Square before founding Sachem Head.
 | Positions | 10-15 core holdings |
 | Sectors | Industrials, consumer, healthcare |
 
-Notable campaigns: Autodesk, US Foods, Olin Corporation.
+Notable campaigns: Autodesk, US Foods, [[Olin]] Corporation.
 
 ---
 

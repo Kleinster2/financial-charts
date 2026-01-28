@@ -26,7 +26,7 @@ Largest sovereign AI bet:
 |------------|-------|
 | Project Transcendence | $100B AI fund |
 | NEOM | $500B smart city |
-| Aramco Digital | Oil company's tech arm |
+| [[Aramco Digital]] | [[Oil]] company's tech arm |
 | KAUST | Research university |
 | SDAIA | Data & AI authority |
 
@@ -55,16 +55,16 @@ Ambitious but execution unclear.
 
 ---
 
-## Aramco Digital
+## [[Aramco Digital]]
 
-**Oil giant's tech play:**
-- Saudi Aramco subsidiary
+**[[Oil]] giant's tech play:**
+- [[Saudi Aramco]] subsidiary
 - Cloud services
 - Industrial AI
 - Energy tech
 - Data centers
 
-Oil money → tech diversification.
+[[Oil]] money → tech diversification.
 
 ---
 
@@ -86,7 +86,7 @@ Oil money → tech diversification.
 | Capital | Larger ($930B PIF) | Smaller but focused |
 | LLMs | None yet | Falcon LLM |
 | Execution | Earlier stage | More advanced |
-| US alignment | Balancing | Post-Huawei pivot |
+| US alignment | Balancing | Post-[[Huawei]] pivot |
 
 UAE ahead on execution, Saudi has more capital.
 
@@ -104,15 +104,15 @@ UAE ahead on execution, Saudi has more capital.
 
 **Tadawul performance:** +3.8% YTD (after disappointing 2025)
 
-**Inflow potential (HSBC estimates):**
+**Inflow potential ([[HSBC]] estimates):**
 
 | Metric | Value |
 |--------|-------|
 | Current global EM fund exposure | 60% |
 | If 49% foreign ownership limit removed | **$25B inflows** |
-| Comparison | Most since 2019 MSCI upgrade |
+| Comparison | Most since 2019 [[MSCI]] upgrade |
 
-**MSCI EM upgrade:** 2019
+**[[MSCI]] EM upgrade:** 2019
 
 ---
 
@@ -147,7 +147,7 @@ UAE ahead on execution, Saudi has more capital.
 | [[Google]] | Cloud region |
 | [[Oracle]] | Partnership |
 | a16z (private) | Transcendence JV |
-| SoftBank | PIF LP |
+| [[SoftBank]] | PIF LP |
 
 ---
 
@@ -168,7 +168,7 @@ UAE ahead on execution, Saudi has more capital.
 
 - [[Saudi PIF]] — funder ($930B sovereign fund)
 - [[SDAIA]] — governance (Data & AI Authority)
-- [[UAE G42]] — competitor (GCC AI leader)
+- [[UAE G42]] — competitor ([[GCC]] AI leader)
 - [[Sovereign AI race]] — context (largest AI bet)
 - [[a16z]] — partner (Transcendence JV)
 - [[NEOM]] — showcase project ($500B smart city)

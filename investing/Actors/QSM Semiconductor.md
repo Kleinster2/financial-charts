@@ -3,13 +3,13 @@ aliases: [QSM Semiconductores]
 ---
 #actor #semiconductor #mexico #private
 
-**QSM Semiconductor** — Mexico's first domestic chip fab. $12M investment. Querétaro plant 2025.
+**QSM Semiconductor** — [[Mexico]]'s first domestic chip fab. $12M investment. Querétaro plant 2025.
 
 ---
 
 ## Why QSM matters
 
-Mexico's chip manufacturing pioneer:
+[[Mexico]]'s chip manufacturing pioneer:
 
 | Metric | Value |
 |--------|-------|
@@ -24,12 +24,12 @@ Mexico's chip manufacturing pioneer:
 ## First Mexican fab
 
 **Historic milestone:**
-- First silicon wafer plant in Mexico
+- First silicon wafer plant in [[Mexico]]
 - Legacy node chips (not cutting edge)
-- Consumer electronics focus
+- [[Consumer]] electronics focus
 - TVs, appliances, automotive
 
-Mexico finally making chips domestically.
+[[Mexico]] finally making chips domestically.
 
 ---
 
@@ -37,7 +37,7 @@ Mexico finally making chips domestically.
 
 | Date | Milestone |
 |------|-----------|
-| 2024 | $3M development center opened |
+| 2024 | $[[3M]] development center opened |
 | Q1 2025 | Groundbreaking |
 | Late 2025/2026 | Production begins |
 | 2030 | Scale-up target |
@@ -59,8 +59,8 @@ Full domestic value chain.
 ## Current model
 
 **Before fab:**
-- Design chips in Mexico
-- Send to Asia for manufacturing
+- Design chips in [[Mexico]]
+- Send to [[Asia]] for manufacturing
 - Import finished chips
 - Costly, slow
 
@@ -70,7 +70,7 @@ Fab changes this.
 
 ## Context
 
-**Mexico's chip reality:**
+**[[Mexico]]'s chip reality:**
 - $23.5B semiconductor imports
 - Almost zero domestic production
 - QSM = first real fab

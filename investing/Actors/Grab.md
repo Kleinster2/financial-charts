@@ -3,7 +3,7 @@ aliases: [GRAB]
 ---
 #actor #tech #ridehailing #fintech #singapore #public
 
-**Grab** — Southeast Asia super-app. Ride-hailing + food delivery + fintech. Singapore-based.
+**Grab** — [[Southeast Asia]] super-app. Ride-hailing + food delivery + fintech. Singapore-based.
 
 ---
 
@@ -18,7 +18,7 @@ SEA super-app:
 | Headquarters | Singapore |
 | Markets | 8 SEA countries |
 
-#1 ride-hailing in Southeast Asia.
+#1 ride-hailing in [[Southeast Asia]].
 
 ---
 
@@ -57,10 +57,10 @@ Regional dominance except Indonesia GoTo.
 **Financial services growth:**
 - GrabPay payments
 - Digital banking licenses
-- Insurance
+- [[Insurance]]
 - Lending
 
-Fintech = long-term growth driver.
+[[Fintech]] = long-term growth driver.
 
 ---
 
@@ -76,11 +76,11 @@ Recovering from SPAC valuations.
 
 ---
 
-## Uber competition
+## [[Uber]] competition
 
 **Regional dynamics:**
-- Uber sold SEA business to Grab (2018)
-- Uber owns ~2% Grab stake
+- [[Uber]] sold SEA business to Grab (2018)
+- [[Uber]] owns ~2% Grab stake
 - Grab = undisputed SEA leader
 - Focused regional strategy
 
@@ -90,13 +90,13 @@ Recovering from SPAC valuations.
 
 | Feature | Integration |
 |---------|-------------|
-| Transport | Ride-hailing |
+| [[Transport]] | Ride-hailing |
 | Food | GrabFood |
 | Payments | GrabPay |
 | Finance | Lending, insurance |
 | Grocery | GrabMart |
 
-Southeast Asia's Uber + DoorDash + PayPal.
+[[Southeast Asia]]'s [[Uber]] + [[DoorDash]] + [[PayPal]].
 
 ---
 
@@ -105,7 +105,7 @@ Southeast Asia's Uber + DoorDash + PayPal.
 **Bull:**
 - SEA ride-hailing leader
 - Super-app ecosystem
-- Fintech upside
+- [[Fintech]] upside
 - Path to profitability
 
 **Bear:**
@@ -123,7 +123,7 @@ Southeast Asia's Uber + DoorDash + PayPal.
 | Ticker | GRAB |
 | Market cap | ~$15B+ |
 | Core business | Ride-hailing |
-| Growth driver | Fintech |
+| Growth driver | [[Fintech]] |
 
 *Updated 2026-01-01*
 

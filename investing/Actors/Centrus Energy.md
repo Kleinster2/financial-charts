@@ -3,7 +3,7 @@ aliases: [LEU]
 ---
 #actor #uranium #enrichment #usa
 
-**Centrus Energy** — Only US producer of HALEU (High-Assay Low-Enriched Uranium). Critical for advanced SMRs.
+**Centrus Energy** — Only US producer of HALEU (High-Assay Low-Enriched [[Uranium]]). Critical for advanced SMRs.
 
 ---
 
@@ -15,7 +15,7 @@ Advanced SMRs need HALEU fuel. Centrus is the only US source:
 |--------|---------|
 | Product | HALEU (19.75% enriched) |
 | Position | Only US HALEU producer |
-| Previous source | Russia (now sanctioned) |
+| Previous source | [[Russia]] (now sanctioned) |
 | Customers | DOE, SMR developers |
 
 ---
@@ -23,13 +23,13 @@ Advanced SMRs need HALEU fuel. Centrus is the only US source:
 ## HALEU bottleneck
 
 **What is HALEU?**
-- Uranium enriched to 5-20% U-235
+- [[Uranium]] enriched to 5-20% U-235
 - Standard reactor fuel is <5%
 - Weapons-grade is >90%
 - Many advanced SMRs require HALEU
 
 **The problem:**
-- Russia was main HALEU supplier
+- [[Russia]] was main HALEU supplier
 - Sanctions cut off supply
 - Centrus has only small-scale production
 - DOE funding to expand
@@ -64,10 +64,10 @@ Currently limited:
 Every US SMR developer needs HALEU:
 | Company | Reactor | HALEU need |
 |---------|---------|------------|
-| [[Oklo]] | Aurora | Yes |
-| TerraPower | Natrium | Yes |
-| X-energy | Xe-100 | Yes |
-| Kairos Power | KP-FHR | Yes |
+| [[Oklo]] | [[Aurora]] | Yes |
+| [[TerraPower]] | Natrium | Yes |
+| [[X-energy]] | Xe-100 | Yes |
+| [[Kairos Power]] | KP-FHR | Yes |
 
 If any of these succeed at scale, Centrus benefits.
 
@@ -77,7 +77,7 @@ If any of these succeed at scale, Centrus benefits.
 
 - SMRs may not reach commercial scale
 - DOE could fund competitors
-- Russia may eventually re-enter market
+- [[Russia]] may eventually re-enter market
 - Technical/execution risk on scaling
 - Small, illiquid stock
 
@@ -108,7 +108,7 @@ If any of these succeed at scale, Centrus benefits.
 ## Related
 
 - [[Cameco]] — peer (uranium supply chain)
-- [[Oklo]] — customer (HALEU for Aurora reactor)
+- [[Oklo]] — customer (HALEU for [[Aurora]] reactor)
 - [[NuScale]] — potential customer (SMR developer)
 - [[Nuclear power for AI]] — thesis context
 - [[Nuclear renaissance]] — industry context

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #sovereign #tech #indonesia #emerging
 
-**Indonesia Tech** — Southeast Asia's largest market. GoTo, digital banking. Rising tech hub.
+**Indonesia Tech** — [[Southeast Asia]]'s largest market. GoTo, digital banking. Rising tech hub.
 
 ---
 
@@ -39,7 +39,7 @@ Gojek + Tokopedia merger = GoTo.
 
 ## GoTo Group
 
-**Southeast Asia super-app:**
+**[[Southeast Asia]] super-app:**
 
 | Service | Brand |
 |---------|-------|
@@ -60,7 +60,7 @@ Listed on IDX (GOTO.JK).
 - Infrastructure focus
 - Tech growing
 
-Smaller than GCC but growing.
+Smaller than [[GCC]] but growing.
 
 ---
 
@@ -71,9 +71,9 @@ Smaller than GCC but growing.
 | Provider | Status |
 |----------|--------|
 | AWS | Jakarta region |
-| Google Cloud | Jakarta region |
+| [[Google]] Cloud | Jakarta region |
 | Azure | Planned |
-| Alibaba Cloud | Present |
+| [[Alibaba]] Cloud | Present |
 
 All hyperscalers expanding in Indonesia.
 
@@ -81,7 +81,7 @@ All hyperscalers expanding in Indonesia.
 
 ## Digital banking
 
-**Fintech boom:**
+**[[Fintech]] boom:**
 - Bank Jago (Gojek-backed)
 - Sea Group's SeaBank
 - Akulaku
@@ -91,11 +91,11 @@ Underbanked population opportunity.
 
 ---
 
-## Starlink entry
+## [[Starlink]] entry
 
 **2024 development:**
-- Elon Musk visit
-- Starlink launch
+- [[Elon Musk]] visit
+- [[Starlink]] launch
 - Archipelago connectivity
 - Rural internet access
 
@@ -105,7 +105,7 @@ Island nation benefits from LEO satellite.
 
 ## Semiconductor potential
 
-**ASEAN manufacturing:**
+**[[ASEAN]] manufacturing:**
 - Growing interest
 - Industrial base
 - Low labor cost

@@ -1,8 +1,8 @@
 #concept #china #ai #models
 
-# China AI Tigers
+# [[China]] AI Tigers
 
-China's AI ecosystem is often described using animal metaphors. The most investment-relevant grouping is the **Six Tigers** — $1B+ AI model startups challenging both US labs and domestic tech giants.
+[[China]]'s AI ecosystem is often described using animal metaphors. The most investment-relevant grouping is the **Six Tigers** — $1B+ AI model startups challenging both US labs and domestic tech giants.
 
 ---
 
@@ -12,8 +12,8 @@ The $1B+ valuation club of independent AI model labs:
 
 | Company | Chinese | Focus | Valuation | Key model |
 |---------|---------|-------|-----------|-----------|
-| [[Zhipu]] | 智谱AI | Enterprise AI | $3B+ | GLM-4 |
-| [[Moonshot AI]] | 月之暗面 | Consumer AI | **$4.8B** | Kimi K2.5 |
+| [[Zhipu]] | 智谱AI | Enterprise AI | $3B+ | [[GLM]]-4 |
+| [[Moonshot AI]] | 月之暗面 | [[Consumer AI]] | **$4.8B** | Kimi K2.5 |
 | MiniMax | 小冰/MiniMax | Multimodal | $2.5B+ | abab |
 | Baichuan Intelligence | 百川智能 | Open weights | $2B+ | Baichuan |
 | StepFun | 阶跃星辰 | Video generation | $2B+ | Step |
@@ -31,14 +31,14 @@ The $1B+ valuation club of independent AI model labs:
 
 ### Zhipu AI (智谱AI)
 - **Backing:** Tsinghua University spinoff
-- **Model:** GLM-4 (open weights available)
+- **Model:** [[GLM]]-4 (open weights available)
 - **Focus:** Enterprise, research
 - **Note:** Academic pedigree, strong B2B
 
 ### [[Moonshot AI]] (月之暗面)
 - **Backing:** [[Alibaba]] (Series A lead), [[Tencent]], IDG Capital
 - **Model:** Kimi K2.5 (1T MoE, open source)
-- **Focus:** Consumer AI, agent swarm
+- **Focus:** [[Consumer AI]], agent swarm
 - **Valuation:** $4.8B (Jan 2026)
 - **Note:** Long-context pioneer, MAU down 50%+ from peak
 
@@ -50,10 +50,10 @@ The $1B+ valuation club of independent AI model labs:
 - **Note:** Strong in audio/video generation
 
 ### Baichuan Intelligence (百川智能)
-- **Founder:** Ex-Sogou CEO Wang Xiaochuan
+- **Founder:** Ex-Sogou CEO [[Wang Xiaochuan]]
 - **Model:** Baichuan (open weights)
 - **Focus:** Open-source ecosystem
-- **Note:** Positioned as China's Meta/Llama
+- **Note:** Positioned as [[China]]'s [[Meta]]/[[Llama]]
 
 ### StepFun (阶跃星辰)
 - **Founder:** Ex-Microsoft AI researcher
@@ -62,7 +62,7 @@ The $1B+ valuation club of independent AI model labs:
 - **Note:** Strong video generation capabilities
 
 ### 01.AI (零一万物)
-- **Founder:** Kai-Fu Lee (ex-Google China)
+- **Founder:** [[Kai-Fu Lee]] (ex-[[Google]] [[China]])
 - **Model:** Yi series
 - **Focus:** Bilingual (Chinese/English)
 - **Note:** Celebrity founder, global ambitions
@@ -75,10 +75,10 @@ The incumbent AI players — not "Tigers" but the established powers:
 
 | Company | AI model | Strategy |
 |---------|----------|----------|
-| [[Alibaba]] | Qwen | Cloud distribution, open weights |
-| [[Tencent]] | Hunyuan | WeChat integration |
-| [[Baidu]] | Ernie | Search, autonomous driving |
-| [[ByteDance]] | Doubao | TikTok ecosystem |
+| [[Alibaba]] | [[Qwen]] | Cloud distribution, open weights |
+| [[Tencent]] | [[Hunyuan]] | WeChat integration |
+| [[Baidu]] | [[Ernie]] | Search, autonomous driving |
+| [[ByteDance]] | [[Doubao]] | [[TikTok]] ecosystem |
 
 **Key difference:** Dragons have distribution (billions of users). Tigers have focus (pure AI).
 
@@ -91,8 +91,8 @@ Separate grouping — Hangzhou-based startups across sectors:
 | Company | Sector |
 |---------|--------|
 | [[DeepSeek]] | AI models (efficiency focus) |
-| [[Unitree]] | Robotics (quadruped) |
-| Game Science | Gaming (Black Myth: Wukong) |
+| [[Unitree]] | [[Robotics]] (quadruped) |
+| Game Science | [[Gaming]] (Black Myth: Wukong) |
 | Others | Various |
 
 See [[Hangzhou]] for details.
@@ -104,15 +104,15 @@ See [[Hangzhou]] for details.
 **All private** — not directly investable.
 
 **Indirect exposure:**
-- [[Alibaba]] — investor in [[Moonshot AI]], competes via Qwen
+- [[Alibaba]] — investor in [[Moonshot AI]], competes via [[Qwen]]
 - [[Tencent]] — investor in MiniMax
-- [[Microsoft]] — Azure offers some China models
+- [[Microsoft]] — Azure offers some [[China]] models
 
 **Thesis implications:**
-- China AI ecosystem deeper than just [[Baidu]] and [[ByteDance]]
+- [[China]] AI ecosystem deeper than just [[Baidu]] and [[ByteDance]]
 - Competition drives rapid iteration
 - Valuations suggest AI premium persists
-- Watch for HK/China IPOs
+- Watch for HK/[[China]] IPOs
 
 ---
 
@@ -140,8 +140,8 @@ See [[Hangzhou]] for details.
 - [[Hangzhou]] — hub (MiniMax, DeepSeek)
 - [[Model landscape]] — context (global model competition)
 - [[China AI clusters]] — infrastructure (compute for training)
-- [[Alibaba]] — incumbent (Qwen models)
-- [[ByteDance]] — incumbent (Doubao)
-- [[Baidu]] — incumbent (Ernie)
+- [[Alibaba]] — incumbent ([[Qwen]] models)
+- [[ByteDance]] — incumbent ([[Doubao]])
+- [[Baidu]] — incumbent ([[Ernie]])
 - [[Export controls]] — constraint (GPU restrictions)
 - [[China university-AI pipeline]] — source (Tsinghua, ZJU spinoffs)

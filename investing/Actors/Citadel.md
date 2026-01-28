@@ -1,9 +1,9 @@
 ---
-aliases: [Citadel LLC, Citadel Securities]
+aliases: [Citadel LLC, [[Citadel Securities]]]
 ---
 #actor #investor #hedgefund #marketmaker #usa #private
 
-**Citadel** — Ken Griffin's empire. ~$65B hedge fund AUM. Citadel Securities = largest market maker. Most successful HF ever.
+**Citadel** — Ken Griffin's empire. ~$65B hedge fund AUM. [[Citadel Securities]] = largest market maker. Most successful HF ever.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Citadel LLC, Citadel Securities]
 | Metric | Value |
 |--------|-------|
 | HF AUM | ~$65B |
-| Citadel Securities | #1 market maker |
+| [[Citadel Securities]] | #1 market maker |
 | Founder | **Ken Griffin** |
 | Track record | 19% net annualized since 1990 |
 | HQ | Miami (moved from Chicago) |
@@ -24,7 +24,7 @@ aliases: [Citadel LLC, Citadel Securities]
 | Entity | Business | Scale |
 |--------|----------|-------|
 | **Citadel LLC** | Hedge fund | ~$65B AUM |
-| **Citadel Securities** | Market making | ~25% of US equity volume |
+| **[[Citadel Securities]]** | Market making | ~25% of US equity volume |
 
 Separate entities, both dominant.
 
@@ -56,7 +56,7 @@ One of best long-term track records.
 
 ---
 
-## Citadel Securities
+## [[Citadel Securities]]
 
 | Metric | Value |
 |--------|-------|
@@ -99,9 +99,9 @@ Pod shop structure with strict risk limits.
 |-------------|--------|
 | HF profit (early 2026) | **$5B** returned to investors (CNBC) |
 | Casino complex | **$8.1B** Hard Rock/Citi Field plan approved by NY gaming commission (Dec 2025) |
-| Citadel Securities | Retail trading boom has been "great" for market-making arm |
+| [[Citadel Securities]] | Retail trading boom has been "great" for market-making arm |
 
-The GameStop saga principals have done well five years later: Griffin's hedge fund continues to compound, and the retail trading boom it sparked benefits Citadel Securities' flow business.
+The GameStop saga principals have done well five years later: Griffin's hedge fund continues to compound, and the retail trading boom it sparked benefits [[Citadel Securities]]' flow business.
 
 *Source: Barron's, CNBC, Jan 2026*
 
@@ -145,7 +145,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 - [[GameStop]] — $2B Melvin bailout; meme saga principal
 - [[Melvin Capital]] — bailed out (closed 2022)
 - [[Point72]] — peer; co-invested Melvin bailout
-- [[Retail investor flows]] — boom benefits Citadel Securities
+- [[Retail investor flows]] — boom benefits [[Citadel Securities]]
 - [[Susquehanna]] — competitor (market making)
 - [[Jane Street]] — competitor (trading)
 - [[Millennium]] — peer (multi-strat HF)

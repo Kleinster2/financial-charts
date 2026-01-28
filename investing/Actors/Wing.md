@@ -1,6 +1,6 @@
 #actor #company #drones #usa #alphabet
 
-**Wing** — Alphabet (Google) drone delivery subsidiary. Last-mile delivery focus.
+**Wing** — Alphabet ([[Google]]) drone delivery subsidiary. Last-mile delivery focus.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Attribute | Detail |
 |-----------|--------|
-| Parent | [[Alphabet]] (Google X graduate) |
+| Parent | [[Alphabet]] ([[Google]] X graduate) |
 | HQ | Palo Alto, California |
 | Founded | 2012 (Project Wing) |
 | Spun out | 2018 |
@@ -20,7 +20,7 @@
 
 | Region | Status | Partners |
 |--------|--------|----------|
-| **Australia** | 2019+ | Retail, food |
+| **[[Australia]]** | 2019+ | Retail, food |
 | **US (Texas, Virginia)** | 2022+ | Walgreens, local retail |
 | **Finland** | Pilot | — |
 | **Ireland** | Pilot | — |

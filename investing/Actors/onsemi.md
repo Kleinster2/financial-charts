@@ -3,7 +3,7 @@ aliases: [ON Semiconductor, ON]
 ---
 #actor #semiconductor #power #sic #usa #public
 
-**onsemi** — Power semiconductor leader. SiC for EVs. Image sensors for automotive.
+**onsemi** — Power semiconductor leader. SiC for EVs. [[Image sensors]] for automotive.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [ON Semiconductor, ON]
 | Segment | Focus |
 |---------|-------|
 | Power Solutions | SiC, IGBTs, MOSFETs |
-| Intelligent Sensing | Image sensors (auto) |
+| Intelligent Sensing | [[Image sensors]] (auto) |
 | Advanced Solutions | Analog, mixed-signal |
 
 ---
@@ -45,7 +45,7 @@ aliases: [ON Semiconductor, ON]
 
 ## Image sensor strength
 
-**Automotive ADAS:**
+**[[Automotive]] ADAS:**
 - #1 in automotive image sensors
 - Camera modules for ADAS
 - Growing with L2+ adoption
@@ -70,7 +70,7 @@ aliases: [ON Semiconductor, ON]
 - SiC growth with EV adoption
 - Image sensor moat
 - Vertical integration
-- CHIPS Act beneficiary
+- [[CHIPS Act]] beneficiary
 
 **Bear:**
 - EV adoption slowdown
@@ -87,7 +87,7 @@ aliases: [ON Semiconductor, ON]
 | Ticker | ON |
 | Market cap | ~$30B |
 | HQ | Phoenix, AZ |
-| Key end market | Automotive |
+| Key end market | [[Automotive]] |
 
 *Created 2026-01-06*
 

@@ -69,7 +69,7 @@ Appointed at 27. Created romantic, bohemian femininity that defined the brand. C
 - Bergdorf Goodman (exclusive initially)
 - Dover Street Market (London, Paris)
 - 10 Corso Como (Milan)
-- Maxfield, Neiman Marcus (LA)
+- Maxfield, [[Neiman Marcus]] (LA)
 - The Webster (Miami)
 
 **Reception:** Critical acclaim but small scale. Vintage Philo designs (Céline era) reportedly outperforming new collections on resale market.

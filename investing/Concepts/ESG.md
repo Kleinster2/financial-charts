@@ -43,7 +43,7 @@ Growth stalled amid political backlash.
 
 | Provider | Coverage |
 |----------|----------|
-| MSCI ESG | Ratings, indices |
+| [[MSCI]] ESG | Ratings, indices |
 | Sustainalytics | Risk ratings |
 | ISS | Governance, proxy |
 | CDP | Climate disclosure |
@@ -67,11 +67,11 @@ Growth stalled amid political backlash.
 
 | Region | Framework |
 |--------|-----------|
-| EU | SFDR, EU Taxonomy |
+| [[EU]] | SFDR, [[EU]] Taxonomy |
 | US | SEC climate disclosure (pending) |
-| UK | TCFD requirements |
+| [[UK]] | TCFD requirements |
 
-EU most advanced, US contentious.
+[[EU]] most advanced, US contentious.
 
 ---
 
@@ -81,7 +81,7 @@ EU most advanced, US contentious.
 |---------------|--------|
 | Regulatory risk | Energy sector exposure |
 | Stranded assets | Fossil fuel reserves |
-| Reputation | Consumer-facing brands |
+| Reputation | [[Consumer]]-facing brands |
 | Access to capital | ESG screens limit |
 
 ---

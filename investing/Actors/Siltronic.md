@@ -17,7 +17,7 @@ European wafer supply + excellent market data:
 | Market cap | ~€3B |
 | Wafer share | ~13% global |
 | Revenue | ~€1.5B |
-| HQ | Munich, Germany |
+| HQ | Munich, [[Germany]] |
 
 ---
 
@@ -25,9 +25,9 @@ European wafer supply + excellent market data:
 
 | Company | Share | HQ |
 |---------|-------|-----|
-| [[Shin-Etsu]] | ~30% | Japan |
-| [[Sumco]] | ~25% | Japan |
-| **Siltronic** | ~13% | Germany |
+| [[Shin-Etsu]] | ~30% | [[Japan]] |
+| [[Sumco]] | ~25% | [[Japan]] |
+| **Siltronic** | ~13% | [[Germany]] |
 | SK Siltron | ~12% | Korea |
 
 ---
@@ -35,7 +35,7 @@ European wafer supply + excellent market data:
 ## GlobalWafers bid (failed)
 
 **2021-2022:**
-- GlobalWafers (Taiwan) bid €4.35B
+- GlobalWafers ([[Taiwan]]) bid €4.35B
 - German government blocked on security grounds
 - Siltronic remained independent
 - Reflects strategic importance of wafer supply
@@ -61,8 +61,8 @@ From 2025-12-29 daily notes:
 
 | Facility | Location | Focus |
 |----------|----------|-------|
-| Burghausen | Germany | 200mm, 300mm |
-| Freiberg | Germany | 300mm |
+| Burghausen | [[Germany]] | 200mm, 300mm |
+| Freiberg | [[Germany]] | 300mm |
 | Portland | Oregon | 200mm |
 | Singapore | Singapore | 300mm expansion |
 
@@ -77,8 +77,8 @@ From 2025-12-29 daily notes:
 - Takeover premium potential
 
 **Bear:**
-- Smaller scale vs Japan
-- Energy costs (Germany)
+- Smaller scale vs [[Japan]]
+- Energy costs ([[Germany]])
 - Cyclical
 - Limited 300mm capacity
 
@@ -100,7 +100,7 @@ From 2025-12-29 daily notes:
 ## Related
 
 - [[Semiconductor Materials]] — sector context
-- [[Shin-Etsu]], [[Sumco]] — larger competitors (Japan)
+- [[Shin-Etsu]], [[Sumco]] — larger competitors ([[Japan]])
 - [[Long WFE]] — upstream supply chain
 - [[End market demand]] — wafer data source
 - [[Export controls]] — strategic asset context (blocked GlobalWafers bid)

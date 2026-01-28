@@ -3,7 +3,7 @@ aliases: [Lawrence Ellison, Ellison]
 ---
 #actor #person #investor #tech #usa
 
-**Larry Ellison** — Oracle co-founder. #4 richest person (~$150B). Backing son David's Paramount acquisition. Major Tesla investor/board member.
+**Larry Ellison** — [[Oracle]] co-founder. #4 richest person (~$150B). Backing son David's Paramount acquisition. Major [[Tesla]] investor/board member.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Lawrence Ellison, Ellison]
 |--------|-------|
 | Net worth | **~$150B** |
 | Forbes rank | #4 globally |
-| Primary wealth | Oracle (co-founder, CTO) |
+| Primary wealth | [[Oracle]] (co-founder, CTO) |
 | Age | 80 |
 
 ---
@@ -22,13 +22,13 @@ aliases: [Lawrence Ellison, Ellison]
 
 | Role | Entity |
 |------|--------|
-| CTO & Chairman | Oracle |
-| Board member | Tesla |
+| CTO & Chairman | [[Oracle]] |
+| Board member | [[Tesla]] |
 | Backer | [[Skydance Media]] (son's company) |
 
 ---
 
-## Oracle
+## [[Oracle]]
 
 | Metric | Value |
 |--------|-------|
@@ -40,13 +40,13 @@ aliases: [Lawrence Ellison, Ellison]
 
 ---
 
-## Tesla investment
+## [[Tesla]] investment
 
 | Metric | Value |
 |--------|-------|
 | Board member | Since 2018 |
 | Stake | ~$15B+ |
-| Relationship | Close friend of Elon Musk |
+| Relationship | Close friend of [[Elon Musk]] |
 
 ---
 
@@ -100,9 +100,9 @@ aliases: [Lawrence Ellison, Ellison]
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$150B |
-| Primary asset | Oracle |
+| Primary asset | [[Oracle]] |
 | Media play | Skydance/Paramount |
-| Board | Tesla |
+| Board | [[Tesla]] |
 
 ---
 

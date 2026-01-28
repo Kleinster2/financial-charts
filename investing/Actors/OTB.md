@@ -45,15 +45,15 @@ Also owns: Staff International (manufacturing), Brave Kid (childrenswear)
 |------|---------|--------|--------|------|-------|
 | 2016 | €1.58B | 0% | — | — | Diesel struggling |
 | 2023 | €1.9B | +7% | €347M | €140M | Record year |
-| 2024 | €1.8B | **-5.4%** | €276M | €40M | China/wholesale weakness |
+| 2024 | €1.8B | **-5.4%** | €276M | €40M | [[China]]/wholesale weakness |
 
 **2024 challenges:**
-- China: -5.7% (was 40% of revenue in 2023)
+- [[China]]: -5.7% (was 40% of revenue in 2023)
 - Wholesale: -15%
 - EBIT collapsed 68.5% (€140M → €40M)
 
 **2024 bright spots:**
-- Japan: +16.3% (now 26% of revenue, largest market)
+- [[Japan]]: +16.3% (now 26% of revenue, largest market)
 - North America: +13.3%
 - DTC growth offset wholesale decline
 
@@ -63,10 +63,10 @@ Also owns: Staff International (manufacturing), Brave Kid (childrenswear)
 
 | Region | Share | Growth |
 |--------|-------|--------|
-| Japan | 26% | +16.3% |
-| China/Asia | ~35% | -5.7% |
+| [[Japan]] | 26% | +16.3% |
+| [[China]]/[[Asia]] | ~35% | -5.7% |
 | North America | — | +13.3% |
-| Europe | — | — |
+| [[Europe]] | — | — |
 
 ---
 
@@ -93,7 +93,7 @@ Founder and controlling shareholder. Built Diesel from 1978, created OTB as hold
 
 **Expansion (2025+):**
 - 50 new stores over 5 years (15 in 2025)
-- Mexico: new legal entity, LatAm expansion
+- [[Mexico]]: new legal entity, LatAm expansion
 - Middle East: 25-year JV with Chalhoub Group
 
 ---
@@ -104,7 +104,7 @@ Targeting 2026 if market conditions improve. CEO Ubaldo Minelli: "on the agenda 
 
 **Considerations:**
 - Need better numbers after 2024 EBIT collapse
-- Japan strength vs China weakness
+- [[Japan]] strength vs [[China]] weakness
 - Margiela momentum post-Galliano transition
 
 ---

@@ -1,6 +1,6 @@
 #actor #space #usa #private
 
-**Relativity Space** — 3D-printed rocket startup. **Acquired by Eric Schmidt** to launch space data centers.
+**Relativity [[Space]]** — 3D-printed rocket startup. **Acquired by Eric Schmidt** to launch space data centers.
 
 ---
 

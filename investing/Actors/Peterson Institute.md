@@ -40,7 +40,7 @@ aliases: [PIIE, Peterson Institute for International Economics, Adam Posen]
 
 **Key insight:** Current uncertainty exceeds 2008 financial crisis, 2011 debt ceiling, and COVID — highest on record.
 
-### Inflation forecast
+### [[Inflation]] forecast
 
 | Metric | Value |
 |--------|-------|
@@ -51,9 +51,9 @@ aliases: [PIIE, Peterson Institute for International Economics, Adam Posen]
 
 **Why tariff effects delayed:**
 - Businesses uncertain: Will tariffs stick? Exemptions? Court rulings?
-- Supply chain decisions: Mexico vs China? Reshoring? Wait and see?
+- Supply chain decisions: [[Mexico]] vs [[China]]? Reshoring? Wait and see?
 - Stockpiling buffer: Companies front-loaded imports, now depleted
-- Even Caterpillar, Toyota hesitant on major production reallocation
+- Even [[Caterpillar]], [[Toyota]] hesitant on major production reallocation
 
 **Why deportation effects delayed:**
 - Trump claims ~1M deported in first year
@@ -65,8 +65,8 @@ aliases: [PIIE, Peterson Institute for International Economics, Adam Posen]
 
 | Industry | Undocumented labor dependence | Current status |
 |----------|------------------------------|----------------|
-| Health/child-care | High | Home health costs +12% annual |
-| Agriculture | High | Employment flat |
+| Health/child-care | High | [[Home]] health costs +12% annual |
+| [[Agriculture]] | High | Employment flat |
 | Food processing | High | Employment flat |
 | Residential construction | High | Employment flat |
 
@@ -91,7 +91,7 @@ aliases: [PIIE, Peterson Institute for International Economics, Adam Posen]
 
 ### Brexit parallel
 
-**UK post-2016 referendum:**
+**[[UK]] post-2016 referendum:**
 - Private investment flatlined for years
 - Uncertainty → delayed/cancelled capex
 - "Irreversibility" of capital expenditures makes firms cautious
@@ -112,7 +112,7 @@ Labor and imported input shortages will become more widespread.
 |--------|-------|
 | Type | Think tank |
 | President | Adam Posen |
-| Focus | Trade, macro policy |
+| Focus | [[Trade]], macro policy |
 | CPI forecast | 4%+ by Q3 2026 |
 
 *Created 2026-01-15*
@@ -122,6 +122,6 @@ Labor and imported input shortages will become more widespread.
 ## Related
 
 - [[Trump II]] — Policy analysis target
-- [[US-China tariffs]] — Trade policy
+- [[US-China tariffs]] — [[Trade]] policy
 - [[Nearshoring thesis]] — Supply chain restructuring
 

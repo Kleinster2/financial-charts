@@ -45,7 +45,7 @@ aliases: []
 
 ---
 
-## Cybersecurity focus
+## [[Cybersecurity]] focus
 
 | Company | Deal |
 |---------|------|

@@ -20,7 +20,7 @@ aliases: [PUM, Puma SE]
 | EBIT margin | ~7% |
 | CEO | Arne Freundt (since Jul 2023) |
 | Major shareholder | Artémis (Pinault family) ~29%, Kering ~6% |
-| HQ | Herzogenaurach, Germany |
+| HQ | Herzogenaurach, [[Germany]] |
 
 ---
 
@@ -75,7 +75,7 @@ Puma is smallest, slowest-growing, and lowest-margin of the big three.
 | **Apparel** | ~35%, athleisure competition |
 | **Accessories** | ~20% |
 
-**Sports marketing:** Formula 1 (Ferrari, Mercedes), football (Man City, AC Milan, Neymar), golf, running. Strong in motorsport but lacks Nike's basketball/Jordan-level cultural assets.
+**Sports marketing:** Formula 1 ([[Ferrari]], Mercedes), football (Man City, AC Milan, Neymar), golf, running. Strong in motorsport but lacks Nike's basketball/Jordan-level cultural assets.
 
 ---
 

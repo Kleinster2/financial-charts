@@ -57,7 +57,7 @@ aliases: [S]
 **Bear:**
 - Distant #2 to CrowdStrike
 - Not yet profitable
-- Microsoft bundling threat
+- [[Microsoft]] bundling threat
 - Palo Alto platformization
 
 ---

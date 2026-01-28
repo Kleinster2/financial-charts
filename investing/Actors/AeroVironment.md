@@ -23,7 +23,7 @@
 
 | Platform | Role | Notes |
 |----------|------|-------|
-| **Puma** | ISR | Hand-launched, 3+ hour endurance |
+| **[[Puma]]** | ISR | Hand-launched, 3+ hour endurance |
 | **Raven** | ISR | Backpack portable |
 | **Wasp** | ISR | Micro UAV |
 

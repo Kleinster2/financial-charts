@@ -3,7 +3,7 @@ aliases: [FTNT]
 ---
 #actor #tech #cybersecurity #usa #public
 
-**Fortinet** — Cybersecurity company. Firewall and network security leader.
+**Fortinet** — [[Cybersecurity]] company. Firewall and network security leader.
 
 ---
 
@@ -39,7 +39,7 @@ Security Fabric = integrated platform.
 | [[Palo Alto Networks]] | Enterprise, cloud security |
 | **Fortinet** | Mid-market, integrated platform |
 | [[CrowdStrike]] | Endpoint, cloud-native |
-| Check Point | Legacy firewall |
+| [[Check Point]] | Legacy firewall |
 
 Fortinet strong in mid-market, price-competitive.
 

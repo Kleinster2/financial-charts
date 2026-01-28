@@ -2,7 +2,7 @@
 
 #actor #vc #usa #investor
 
-**Mamoon Hamid** — General Partner at [[Kleiner Perkins]]. First outside investor in Slack ($27.7B exit to Salesforce). Led Figma, Rippling, Glean, Box. Co-founded Social Capital. One of the greatest enterprise investors of his generation.
+**Mamoon Hamid** — General Partner at [[Kleiner Perkins]]. First outside investor in [[Slack]] ($27.7B exit to [[Salesforce]]). Led [[Figma]], Rippling, [[Glean]], Box. Co-founded Social Capital. One of the greatest enterprise investors of his generation.
 
 ---
 
@@ -14,7 +14,7 @@
 | Role | General Partner (since 2017) |
 | Previous | Co-founder, Social Capital |
 | Previous | Partner, USVP |
-| Known for | Slack, Figma, Rippling |
+| Known for | [[Slack]], [[Figma]], Rippling |
 
 ---
 
@@ -24,12 +24,12 @@
 
 | Company | Role | Outcome |
 |---------|------|---------|
-| Slack | First outside investor | $27.7B (Salesforce) |
-| Figma | Board member | $20B (Adobe attempted) |
+| [[Slack]] | First outside investor | $27.7B ([[Salesforce]]) |
+| [[Figma]] | Board member | $20B ([[Adobe]] attempted) |
 | Rippling | Series A lead | Potential generational company |
-| Yammer | Board member | $1.2B (Microsoft) |
+| Yammer | Board member | $1.2B ([[Microsoft]]) |
 | Box | Board member | IPO |
-| Glean | Board member | Enterprise AI search |
+| [[Glean]] | Board member | Enterprise AI search |
 | Netskope | Board member | Cloud security leader |
 | Intercom | Board member | Customer messaging |
 
@@ -43,13 +43,13 @@
 | Social Capital | Co-founder | 2011-2017 |
 | [[Kleiner Perkins]] | General Partner | 2017- |
 
-**Social Capital:** Co-founded with Chamath Palihapitiya. Led investments in Slack, Intercom, Greenhouse, Netskope, Front.
+**Social Capital:** Co-founded with [[Chamath Palihapitiya]]. Led investments in [[Slack]], Intercom, Greenhouse, Netskope, Front.
 
 ---
 
 ## Investment style
 
-**Enterprise SaaS focus:** Deep expertise in B2B software, collaboration tools, security.
+**Enterprise [[SaaS]] focus:** Deep expertise in B2B software, collaboration tools, security.
 
 **Board involvement:** Active board member, not passive investor.
 
@@ -68,14 +68,14 @@ Ted Schlein (Kleiner Perkins GP):
 
 **Rippling:** With Ilya Fushman, led Series A in Parker Conrad's Rippling — widely seen as potential once-in-a-generation software company.
 
-**Glean:** Enterprise AI search, riding the AI wave in enterprise.
+**[[Glean]]:** Enterprise AI search, riding the AI wave in enterprise.
 
 ---
 
 ## Investment relevance
 
 **Why track Hamid:**
-1. **Enterprise software oracle** — Slack, Figma, Rippling track record
+1. **Enterprise software oracle** — [[Slack]], [[Figma]], Rippling track record
 2. **Kleiner resurgence** — Part of firm's comeback story
 3. **Pattern recognition** — Study his picks for enterprise trends
 4. **Active involvement** — Board seats mean real influence
@@ -91,11 +91,11 @@ Ted Schlein (Kleiner Perkins GP):
 - Social Capital — co-founded
 
 ### Portfolio (notable)
-- Slack — first outside investor ($27.7B exit)
-- Figma — board ($20B Adobe offer)
+- [[Slack]] — first outside investor ($27.7B exit)
+- [[Figma]] — board ($20B [[Adobe]] offer)
 - Rippling — Series A, potential generational company
 - Box — board, IPO
-- Glean — enterprise AI search
+- [[Glean]] — enterprise AI search
 
 ---
 

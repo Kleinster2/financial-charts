@@ -41,7 +41,7 @@ Most ambitious urban project in history.
 | The Line | Linear megacity |
 | Oxagon | Industrial/port city |
 | Trojena | Mountain resort, skiing |
-| Sindalah | Luxury island |
+| Sindalah | [[Luxury]] island |
 
 ---
 
@@ -111,7 +111,7 @@ Vision vs execution gap.
 |--------|-------|
 | Budget | $500B |
 | The Line length | 170 km |
-| Target population | 9 million |
+| [[Target]] population | 9 million |
 | Status | Under construction |
 
 *Updated 2026-01-01*

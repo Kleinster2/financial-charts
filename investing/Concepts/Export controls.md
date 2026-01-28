@@ -66,7 +66,7 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 
 ### Validated End User (VEU)
 - Expedited licensing for trusted fabs
-- Revoked Dec 31, 2025 for Korea/Taiwan fabs in China
+- Revoked Dec 31, 2025 for Korea/[[Taiwan]] fabs in China
 - Now case-by-case approval required (1-year terms, no expansion)
 
 ---
@@ -76,9 +76,9 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 | Country | Stance |
 |---------|--------|
 | **Netherlands** | ASML EUV banned, DUV restricted |
-| **Japan** | Tokyo Electron, Nikon restricted |
+| **[[Japan]]** | [[Tokyo Electron]], Nikon restricted |
 | **South Korea** | Caught in middle — fabs in China, US pressure |
-| **Taiwan** | [[N-2 rule]] under consideration (2 generations behind for overseas) |
+| **[[Taiwan]]** | [[N-2 rule]] under consideration (2 generations behind for overseas) |
 
 **Congress finding (Dec 2025)**: Despite restrictions, China remains largest market for semiconductor manufacturing equipment. Companies "profiting at expense of U.S. national security."
 
@@ -95,7 +95,7 @@ U.S.-led restrictions on semiconductor technology exports to [[China]]. Central 
 | Company | China revenue at risk |
 |---------|----------------------|
 | [[NVIDIA]] | Was ~25%, mostly lost |
-| Qualcomm | ~60% |
+| [[Qualcomm]] | ~60% |
 | Applied Materials | Significant |
 | Lam Research | Significant |
 | [[ASML]] | DUV ongoing |
@@ -120,7 +120,7 @@ Commerce Department eased stance from "presumed denial" to case-by-case review:
 | US shortage certification | Must certify no domestic shortage |
 | **China volume cap** | **≤50% of US market production** |
 | 25% revenue share | To US government |
-| Applies to | NVIDIA H200, AMD chips |
+| Applies to | NVIDIA H200, [[AMD]] chips |
 
 **China response:** Global Times dismissed as "discriminatory" — "not applied to other US trading partners but targeted specifically at China."
 
@@ -137,7 +137,7 @@ Despite US easing stance, China responded by effectively blocking imports:
 | Exceptions | "Special circumstances" only — university R&D labs |
 | Source quote | "Wording so severe that it is basically a ban for now" |
 
-**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. Even when US allows exports, China may block imports to protect domestic industry.
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei [[Ascend]] development. Even when US allows exports, China may block imports to protect domestic industry.
 
 **Implication**: Companies cannot plan long-term. Capex decisions complicated by regulatory whiplash.
 
@@ -166,7 +166,7 @@ The US moved from **pure restriction** to **controlled access + monetization**:
 | Phase 2 | If milestones missed | → 100% |
 | **Phase 3** | **Jun 2027** | **Legacy/mature-node chips** |
 
-**Phase 3 significance:** All semiconductor imports eventually tariffed. Automotive, medical devices get "glide path" to domestic sourcing.
+**Phase 3 significance:** All semiconductor imports eventually tariffed. [[Automotive]], medical devices get "glide path" to domestic sourcing.
 
 **Why this matters for export controls:** Section 232 adds a **fiscal incentive** to maintain controlled access — the government earns revenue from managed chip trade. Pure restriction generated $0. This changes the political economy of controls.
 
@@ -181,7 +181,7 @@ The US moved from **pure restriction** to **controlled access + monetization**:
 - SK Hynix: 30-35% DRAM, 40-45% NAND from China
 
 ### Foundry (TSMC, etc.)
-- N-2 rule — Taiwan restricts TSMC from leading edge overseas
+- N-2 rule — [[Taiwan]] restricts TSMC from leading edge overseas
 - U.S. fabs subject to tighter export/customer restrictions
 - China fabs (SMIC) cut off from advanced equipment (EUV)
 
@@ -219,9 +219,9 @@ The US moved from **pure restriction** to **controlled access + monetization**:
 
 ## SEA diversion route
 
-Despite controls, chips may be reaching China through Southeast Asia. See [[SEA chip diversion]] for full analysis.
+Despite controls, chips may be reaching China through [[Southeast Asia]]. See [[SEA chip diversion]] for full analysis.
 
-**Taiwan → SEA chip exports (Jan-Oct 2025):**
+**[[Taiwan]] → SEA chip exports (Jan-Oct 2025):**
 
 | Country | Imports | Notes |
 |---------|---------|-------|
@@ -277,7 +277,7 @@ See [[China retaliatory toolkit]] for the full pattern.
 
 | Category | 2024-2025 Actions |
 |----------|-------------------|
-| **Critical minerals** | Banned Ga/Ge/Sb sales to US (Dec 2024) |
+| **[[Critical minerals]]** | Banned Ga/Ge/Sb sales to US (Dec 2024) |
 | **Rare earths** | 7 REEs restricted (Apr 2025), 5 more added (Oct 2025) |
 | **FDPR adoption** | China now uses extraterritorial controls too (Oct 2025) |
 | **Military denial** | All military-affiliated buyers blocked (Dec 2025) |
@@ -285,7 +285,7 @@ See [[China retaliatory toolkit]] for the full pattern.
 | **Targeted retaliation** | [[Dutch seizure of Nexperia]] response |
 | **Chip subsidy package** | **$70B** under consideration (Jan 2026) |
 | **H200 import block** | Customs told to block H200 imports (Jan 2026) |
-| **Cybersecurity ban** | US/Israeli security software banned (Jan 2026) |
+| **[[Cybersecurity]] ban** | US/Israeli security software banned (Jan 2026) |
 
 **Key escalation**: China adopted the FDPR mechanism — products made outside China require licenses if they contain Chinese-origin materials. See [[Rare earth leverage]].
 
@@ -306,9 +306,9 @@ Trump administration response to China AI competition:
 
 **Trump:** "The US will do whatever it takes to lead the world in artificial intelligence."
 
-**OpenAI response (Aug 2025):** Released pair of open models — first major open-source move. Lobbying for fair use access to copyrighted training data.
+**[[OpenAI]] response (Aug 2025):** Released pair of open models — first major open-source move. Lobbying for fair use access to copyrighted training data.
 
-> "If China's developers have unfettered access to data and American companies are left without fair use access, the race for AI is effectively over." — OpenAI
+> "If China's developers have unfettered access to data and American companies are left without fair use access, the race for AI is effectively over." — [[OpenAI]]
 
 **Xi Jinping counter:** "AI should not be a game of rich countries."
 
@@ -329,7 +329,7 @@ Trump administration response to China AI competition:
 | RFI (Request for Information) | **Closed** (late 2025) — Commerce ingesting industry input |
 | RFP (Request for Proposals) | **"Very shortly"** — companies form consortia |
 | Deployment | Partnering with DFC + Ex-Im Bank |
-| Next milestone | **India AI Impact Summit** (Feb 2026) — more details |
+| Next milestone | **[[India AI]] Impact Summit** (Feb 2026) — more details |
 
 ### Design philosophy
 
@@ -403,7 +403,7 @@ Mixed:
 - [ ] Congress push for stricter allied coordination
 - [ ] Rare earth control escalation risk
 - [ ] H200 uptake under 25% revenue rule
-- [ ] CHIPS Act guardrails enforcement
+- [ ] [[CHIPS Act]] guardrails enforcement
 - [ ] China 50% mandate enforcement strictness
 - [ ] Naura/AMEC capability progression
 - [ ] **SEA diversion enforcement** — Malaysia, Thailand, Indonesia scrutiny
@@ -412,7 +412,7 @@ Mixed:
 - [ ] **Phase 3 legacy chips** — Jun 2027 expansion to mature nodes
 - [ ] **TSMC investment milestones** — triggers for preferential treatment
 - [ ] **American AI Export Program RFP** — Commerce Department proposals (early 2026)
-- [ ] **India AI Impact Summit** (Feb 2026) — export program progress
+- [ ] **[[India AI]] Impact Summit** (Feb 2026) — export program progress
 - [ ] **Huawei AI chip global proliferation** — global south deployment
 
 ---

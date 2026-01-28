@@ -1,5 +1,5 @@
 ---
-aliases: [Republic of Cuba, Havana]
+aliases: [[[Republic]] of Cuba, Havana]
 ---
 #actor #geography #latam #geopolitics
 
@@ -26,8 +26,8 @@ aliases: [Republic of Cuba, Havana]
 
 | Restriction | Status |
 |-------------|--------|
-| Trade | Mostly banned |
-| Travel | Restricted (categories) |
+| [[Trade]] | Mostly banned |
+| [[Travel]] | Restricted (categories) |
 | Investment | Prohibited |
 | Remittances | Limited, variable by administration |
 | Financial | Cut off from US banking |
@@ -45,7 +45,7 @@ aliases: [Republic of Cuba, Havana]
 | Sugar/tobacco | Traditional exports |
 | Nickel/cobalt | Mineral resources |
 | Biotech | Surprisingly advanced (vaccines) |
-| Oil | Limited offshore (unexplored) |
+| [[Oil]] | Limited offshore (unexplored) |
 
 **Infrastructure:** Severely degraded — power, telecom, roads, buildings.
 
@@ -55,12 +55,12 @@ aliases: [Republic of Cuba, Havana]
 
 | Sector | Opportunity |
 |--------|-------------|
-| Tourism | Cruise, hotels, airlines — 90 miles from Florida |
-| Telecom | Internet/cell near zero — massive buildout |
+| Tourism | [[Cruise]], hotels, airlines — 90 miles from Florida |
+| [[Telecom]] | Internet/cell near zero — massive buildout |
 | Remittances | Unrestricted flows |
 | Real estate | Pre-Castro claims, development |
-| Consumer | 11M underserved consumers |
-| Agriculture | Equipment, inputs |
+| [[Consumer]] | 11M underserved consumers |
+| [[Agriculture]] | Equipment, inputs |
 
 ---
 
@@ -70,7 +70,7 @@ aliases: [Republic of Cuba, Havana]
 |------|--------------|
 | [[Russia]] | Cold War ally, reduced presence |
 | [[China]] | Growing economic ties |
-| [[Venezuela]] | Oil subsidies (now uncertain post-[[Maduro capture 2026]]) |
+| [[Venezuela]] | [[Oil]] subsidies (now uncertain post-[[Maduro capture 2026]]) |
 
 **Venezuela link:** Cuba received subsidized Venezuelan oil. Maduro capture may pressure Cuban regime.
 
@@ -95,13 +95,13 @@ aliases: [Republic of Cuba, Havana]
 
 | Sector | Beneficiaries |
 |--------|---------------|
-| Cruise lines | [[Carnival]], [[Royal Caribbean]], Norwegian |
+| [[Cruise]] lines | [[Carnival]], [[Royal Caribbean]], Norwegian |
 | Airlines | American, JetBlue, Delta |
-| Hotels | Marriott, Hilton, Airbnb |
-| Telecom | AT&T, Verizon, T-Mobile |
-| Remittances | Western Union, PayPal, [[Block]] |
-| Consumer | Coca-Cola, PepsiCo |
-| Equipment | Caterpillar, Deere |
+| Hotels | Marriott, Hilton, [[Airbnb]] |
+| [[Telecom]] | [[AT&T]], [[Verizon]], [[T-Mobile]] |
+| Remittances | Western Union, [[PayPal]], [[Block]] |
+| [[Consumer]] | [[Coca-Cola]], [[PepsiCo]] |
+| Equipment | [[Caterpillar]], [[Deere]] |
 
 See [[Cuba opening]] thesis for investment framework.
 

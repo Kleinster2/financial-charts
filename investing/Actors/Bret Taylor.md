@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Bret Taylor** — OpenAI Chairman. Sierra co-founder ($1B). Ex-Google (Maps), ex-Salesforce (CEO).
+**Bret Taylor** — OpenAI Chairman. Sierra co-founder ($1B). Ex-Google (Maps), ex-[[Salesforce]] (CEO).
 
 ---
 
@@ -14,7 +14,7 @@ OpenAI's board chairman + building AI startup:
 | Metric | Value |
 |--------|-------|
 | Current | OpenAI Chairman, Sierra CEO |
-| Previous | Salesforce co-CEO, Google |
+| Previous | [[Salesforce]] co-CEO, Google |
 | Sierra valuation | $1B+ |
 | Known for | Google Maps, Quip |
 
@@ -39,7 +39,7 @@ OpenAI's board chairman + building AI startup:
 | Co-founder | Bret Taylor, Clay Bavor (ex-Google) |
 | Focus | Enterprise AI customer service |
 | Valuation | $1B+ |
-| Approach | Conversational AI agents |
+| Approach | Conversational [[AI agents]] |
 
 Building practical enterprise AI.
 
@@ -53,8 +53,8 @@ Building practical enterprise AI.
 |---------|------|
 | Google | Co-created Google Maps |
 | Facebook | CTO |
-| Salesforce | Co-CEO |
-| Quip | Founder (acquired by Salesforce) |
+| [[Salesforce]] | Co-CEO |
+| Quip | Founder (acquired by [[Salesforce]]) |
 
 ---
 
@@ -81,7 +81,7 @@ Building practical enterprise AI.
 
 **Taylor building Sierra signals:**
 - Enterprise AI customer service = big market
-- Ex-Google/Salesforce credibility
+- Ex-Google/[[Salesforce]] credibility
 - Practical AI applications
 - Not just chatbots — real work
 
@@ -93,7 +93,7 @@ Building practical enterprise AI.
 |--------|-------|
 | Current roles | OpenAI Chairman, Sierra CEO |
 | Sierra valuation | $1B+ |
-| Previous | Salesforce co-CEO |
+| Previous | [[Salesforce]] co-CEO |
 | Known for | Google Maps |
 
 *Updated 2026-01-01*

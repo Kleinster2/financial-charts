@@ -2,7 +2,7 @@
 
 #actor #public #usa #infrastructure #storage #ai
 
-**Pure Storage** (PSTG) — Enterprise all-flash storage leader. **$24B market cap, $3.5B revenue.** Deep [[NVIDIA]] partnership (AIRI, DGX SuperPOD certified). AI data infrastructure play — storage layer for enterprise AI factories. Gartner Leader (highest execution, furthest vision).
+**Pure Storage** (PSTG) — Enterprise all-flash storage leader. **$24B market cap, $3.5B revenue.** Deep [[NVIDIA]] partnership (AIRI, DGX SuperPOD certified). AI data infrastructure play — storage layer for enterprise AI factories. [[Gartner]] Leader (highest execution, furthest vision).
 
 ---
 
@@ -52,7 +52,7 @@
 
 | Product | Use case |
 |---------|----------|
-| **FlashArray** | Block storage (databases, VMs) |
+| **FlashArray** | [[Block]] storage (databases, VMs) |
 | **FlashBlade** | Unstructured data (AI/ML, analytics) |
 | **AIRI** | AI-ready infrastructure (with NVIDIA) |
 | **Portworx** | Kubernetes storage (acquired 2020) |
@@ -80,9 +80,9 @@ Launched 2018 with NVIDIA — first AI-ready infrastructure reference architectu
 - Higher uptime
 - Enterprise AI at scale
 
-### Cisco AI Factory partnership
+### [[Cisco]] AI Factory partnership
 
-Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
+Oct 2025: FlashStack CVD with [[Cisco]] + NVIDIA for enterprise AI factories.
 - 5,000+ existing FlashStack customers
 - Unified compute, storage, networking
 - Production-grade AI platform
@@ -93,7 +93,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 
 | Competitor | Positioning |
 |------------|-------------|
-| **Dell EMC** | Incumbent, broader portfolio |
+| **[[Dell]] EMC** | Incumbent, broader portfolio |
 | **NetApp** | Hybrid cloud storage |
 | **Hitachi Vantara** | Enterprise storage |
 | **VAST Data** | AI-native storage startup |
@@ -136,7 +136,7 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 |---------|-------------|
 | Global investment banks | 9 of top 10 |
 | Asset managers | 7 of top 10 |
-| Insurance | 5 of top 10 |
+| [[Insurance]] | 5 of top 10 |
 | Named customer | [[JPMorgan Chase]] |
 
 ### Use cases
@@ -173,12 +173,12 @@ Oct 2025: FlashStack CVD with Cisco + NVIDIA for enterprise AI factories.
 | Customer | Sector | Use case |
 |----------|--------|----------|
 | [[JPMorgan Chase]] | Financial services | Trading, core banking |
-| [[SiriusXM]] | Media (NYC HQ) | 150M subscribers, 100% on Pure |
-| Atlantic Health System | Healthcare (NY/NJ/PA) | Epic EHR, 7 hospitals |
+| [[SiriusXM]] | [[Media]] (NYC HQ) | 150M subscribers, 100% on Pure |
+| Atlantic Health System | [[Healthcare]] (NY/NJ/PA) | Epic EHR, 7 hospitals |
 
 ---
 
-## Media & entertainment vertical
+## [[Media]] & entertainment vertical
 
 | Customer | Scale |
 |----------|-------|
@@ -199,7 +199,7 @@ FlashBlade optimized for creative workflows — high throughput for 4K/8K video 
 | 2015 | IPO |
 | 2018 | AIRI launch with NVIDIA |
 | 2020 | Acquired Portworx ($370M) |
-| 2025 | Gartner Leader, NVIDIA SuperPOD certified |
+| 2025 | [[Gartner]] Leader, NVIDIA SuperPOD certified |
 
 ---
 
@@ -214,7 +214,7 @@ FlashBlade optimized for creative workflows — high throughput for 4K/8K video 
 5. **Balance sheet** — $1.3B net cash, $400M buyback
 
 **Risks:**
-- Dell/NetApp competition in enterprise
+- [[Dell]]/NetApp competition in enterprise
 - VAST Data/Weka in AI-native segment
 - Hardware commoditization pressure
 - Dependent on enterprise AI spending
@@ -225,7 +225,7 @@ FlashBlade optimized for creative workflows — high throughput for 4K/8K video 
 
 ### Partners
 - [[NVIDIA]] — Elite partner, AIRI co-developer, DGX/HGX certified
-- Cisco — FlashStack AI Factory partnership
+- [[Cisco]] — FlashStack AI Factory partnership
 
 ### Customers
 - [[JPMorgan Chase]] — Wall Street anchor customer
@@ -234,7 +234,7 @@ FlashBlade optimized for creative workflows — high throughput for 4K/8K video 
 - [[Meta]] — hyperscaler workloads
 
 ### Competitors
-- Dell EMC — incumbent
+- [[Dell]] EMC — incumbent
 - NetApp — hybrid cloud
 - VAST Data — AI-native startup
 - Weka — high-performance AI storage

@@ -11,7 +11,7 @@
 | Announced | January 2022 |
 | Closed | October 2023 |
 | Acquirer | [[Microsoft]] |
-| Target | [[Activision Blizzard]] |
+| [[Target]] | [[Activision Blizzard]] |
 | Price | $68.7B ($95/share) |
 
 ---
@@ -33,8 +33,8 @@
 | Regulator | Outcome |
 |-----------|---------|
 | FTC (US) | Sued to block, lost in court |
-| CMA (UK) | Initially blocked, approved after restructure |
-| EU | Approved with conditions |
+| CMA ([[UK]]) | Initially blocked, approved after restructure |
+| [[EU]] | Approved with conditions |
 
 Cloud gaming rights sold to Ubisoft to satisfy CMA.
 

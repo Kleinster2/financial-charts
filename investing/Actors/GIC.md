@@ -31,7 +31,7 @@ Massive global investor:
 
 ---
 
-## Asset allocation
+## [[Asset allocation]]
 
 | Asset Class | Allocation |
 |-------------|------------|
@@ -70,8 +70,8 @@ Diversified across asset classes.
 | Region | Focus |
 |--------|-------|
 | North America | Largest |
-| Europe | Significant |
-| Asia | Growing |
+| [[Europe]] | Significant |
+| [[Asia]] | Growing |
 | Emerging | Selective |
 
 More global than Temasek.
@@ -82,7 +82,7 @@ More global than Temasek.
 
 **Long-term preservation:**
 - 20-year horizon
-- Inflation protection
+- [[Inflation]] protection
 - Real returns focus
 - Risk management
 

@@ -41,7 +41,7 @@
 | 1986-2003 | Various roles: State Council Development Research Center, State Planning Commission, State Information Center, State Council Information Office |
 | 2003-2011 | Deputy Director, Central Leading Group for Financial and Economic Work (drafted Hu Jintao's economic speeches) |
 | 2011-2013 | Party Secretary and Deputy Director, Development Research Center of State Council |
-| 2013-2018 | Vice-minister and Deputy Party Secretary, NDRC |
+| 2013-2018 | Vice-minister and Deputy Party Secretary, [[NDRC]] |
 | 2013 | Became Director, Office of Central Leading Group for Financial and Economic Affairs |
 | 2017 | Promoted to Politburo |
 | 2018 | Vice Premier, top trade negotiator with US |

@@ -14,7 +14,7 @@ aliases: [Chamath]
 | Net worth | ~$1B (down from $4B+) |
 | Source | Facebook, SPACs |
 | Vehicle | Social Capital |
-| Media | All-In Podcast |
+| [[Media]] | All-In Podcast |
 
 ---
 
@@ -44,12 +44,12 @@ Originally a VC, converted to family office after investor departures.
 
 ## SPAC era (2020-2022)
 
-| SPAC | Target | Outcome |
+| SPAC | [[Target]] | Outcome |
 |------|--------|---------|
 | IPOA | Virgin Galactic | Down 90%+ |
 | IPOB | Opendoor | Down 80%+ |
 | IPOC | Clover Health | Down 90%+ |
-| IPOD | SoFi | Down 70%+ |
+| IPOD | [[SoFi]] | Down 70%+ |
 | IPOE | (various) | Mixed |
 | IPOF | No deal | Liquidated |
 
@@ -93,7 +93,7 @@ Originally a VC, converted to family office after investor departures.
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Slack** | Early | Acquired by Salesforce |
+| **[[Slack]]** | Early | Acquired by [[Salesforce]] |
 | **Box** | Early | Public (BOX) |
 | **Yammer** | Early | Acquired by MSFT |
 

@@ -25,7 +25,7 @@ aliases: [Sculptor, Och-Ziff, OZM]
 |------|-------|
 | 1994 | Founded by Dan Och (from Goldman) |
 | 2007 | IPO as Och-Ziff |
-| 2016 | Africa bribery scandal |
+| 2016 | [[Africa]] bribery scandal |
 | 2019 | Renamed to Sculptor |
 | 2023 | Acquired by Rithm Capital |
 
@@ -35,7 +35,7 @@ aliases: [Sculptor, Och-Ziff, OZM]
 
 | Fact | Detail |
 |------|--------|
-| Background | Goldman Sachs partner |
+| Background | [[Goldman Sachs]] partner |
 | Net worth | ~$4B |
 | Departed | Stepped back after scandal |
 | Style | Multi-strategy |
@@ -46,7 +46,7 @@ aliases: [Sculptor, Och-Ziff, OZM]
 
 | Aspect | Detail |
 |--------|--------|
-| Issue | Paid bribes in Africa |
+| Issue | Paid bribes in [[Africa]] |
 | Countries | Libya, Chad, others |
 | Fine | $400M+ |
 | Impact | Reputational damage |

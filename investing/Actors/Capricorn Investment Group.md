@@ -23,10 +23,10 @@ aliases: [Capricorn, Capricorn Technology Impact Fund]
 
 | Fact | Detail |
 |------|--------|
-| Source | eBay (first employee, president) |
+| Source | [[eBay]] (first employee, president) |
 | Net worth | ~$7B |
 | Philanthropy | Skoll Foundation |
-| Media | Participant Media (films) |
+| [[Media]] | Participant [[Media]] (films) |
 
 ---
 
@@ -37,7 +37,7 @@ aliases: [Capricorn, Capricorn Technology Impact Fund]
 | **[[Helion Energy]]** | Early | $5.4B (fusion) |
 | **Tesla** | Early | Public (TSLA) |
 | **SpaceX** | Early | $350B |
-| **Planet Labs** | Early | Public (PL) |
+| **[[Planet Labs]]** | Early | Public (PL) |
 | **Beyond Meat** | Early | Public (BYND) |
 
 ---
@@ -60,7 +60,7 @@ aliases: [Capricorn, Capricorn Technology Impact Fund]
 | Sector | Examples |
 |--------|----------|
 | **Clean energy** | Helion, Tesla |
-| **Space** | SpaceX, Planet Labs |
+| **[[Space]]** | SpaceX, [[Planet Labs]] |
 | **Sustainable food** | Beyond Meat |
 | **Climate** | Various |
 

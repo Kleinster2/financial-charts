@@ -2,7 +2,7 @@
 
 #actor #vc #usa #investor
 
-**Aydin Senkut** — Founder & Managing Partner of [[Felicis Ventures]]. Google employee #63, first Product Manager. Turkish-American. Forbes Midas List 12 consecutive years (2014-2025). Speaks 5 languages.
+**Aydin Senkut** — Founder & Managing Partner of [[Felicis Ventures]]. [[Google]] employee #63, first Product Manager. Turkish-American. Forbes Midas List 12 consecutive years (2014-2025). Speaks 5 languages.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Google years
+## [[Google]] years
 
 Joined as employee #63 in 1999:
 
@@ -29,7 +29,7 @@ Joined as employee #63 in 1999:
 | First | Safe Search feature |
 | First International Sales Manager | Worldwide licensing deals |
 
-Left Google in 2005, founded Felicis 2006.
+Left [[Google]] in 2005, founded Felicis 2006.
 
 ---
 
@@ -39,7 +39,7 @@ Left Google in 2005, founded Felicis 2006.
 |--------|-------|
 | Born | Istanbul, Turkey |
 | Education | Boston University (BA 1992), Wharton (MBA 1996) |
-| Pre-Google | Hoffmann-La Roche, Silicon Graphics |
+| Pre-[[Google]] | Hoffmann-La [[Roche]], Silicon Graphics |
 | Languages | Turkish, English, French, German, Portuguese |
 
 ---
@@ -47,20 +47,20 @@ Left Google in 2005, founded Felicis 2006.
 ## Investment track record
 
 **Current portfolio:**
-- Notion
+- [[Notion]]
 - Plaid
-- Canva
+- [[Canva]]
 - [[Supabase]]
 - Mercor
 - Runway
 - Poolside
 - Revel
-- Skild AI
+- [[Skild AI]]
 
 **Notable exits:**
 - Credit Karma
-- Adyen
-- Shopify
+- [[Adyen]]
+- [[Shopify]]
 - Weights & Biases
 
 ---
@@ -85,7 +85,7 @@ Left Google in 2005, founded Felicis 2006.
 ## Investment relevance
 
 **Why track Senkut:**
-1. **Google insight** — Early employee perspective on tech platforms
+1. **[[Google]] insight** — Early employee perspective on tech platforms
 2. **Consistent returns** — 12-year Midas streak
 3. **AI positioning** — Heavy AI/infra portfolio
 4. **International lens** — Global perspective rare in Valley VCs
@@ -98,13 +98,13 @@ Left Google in 2005, founded Felicis 2006.
 - [[Felicis Ventures]] — founded, runs
 
 ### Portfolio (in vault)
-- [[Supabase]] — Postgres BaaS
-- Notion — collaboration
+- [[Supabase]] — [[Postgres]] BaaS
+- [[Notion]] — collaboration
 - Plaid — fintech infra
-- Canva — design
+- [[Canva]] — design
 
 ### Career
-- Google — employee #63, first PM
+- [[Google]] — employee #63, first PM
 
 ---
 

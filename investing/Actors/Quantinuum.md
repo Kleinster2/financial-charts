@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Formed | 2021 (Honeywell Quantum + Cambridge Quantum) |
-| HQ | Colorado, UK, Germany, Japan |
+| HQ | Colorado, [[UK]], [[Germany]], [[Japan]] |
 | Ownership | [[Honeywell]] majority |
 | Technology | Trapped-ion quantum computing |
 | Last valuation | $10B (Sep 2025) |
@@ -26,7 +26,7 @@ aliases: []
 | Detail | Value |
 |--------|-------|
 | Filing type | Confidential S-1 to SEC |
-| Target valuation | **$20B+** |
+| [[Target]] valuation | **$20B+** |
 | Expected raise | ~$1B |
 | Exchange | Not announced |
 | Timing | Q1-Q2 2026 expected |
@@ -53,7 +53,7 @@ aliases: []
 |--------|-------------|
 | Approach | Trapped-ion qubits |
 | Advantage | Higher fidelity than superconducting |
-| Trade-off | Slower gate times |
+| [[Trade]]-off | Slower gate times |
 | Product | H-Series quantum computers |
 
 **Trapped-ion vs superconducting:**
@@ -67,9 +67,9 @@ aliases: []
 | Customer | Use case |
 |----------|----------|
 | [[Honeywell]] | Parent company, industrial applications |
-| Airbus | Aerospace optimization |
-| BMW Group | Automotive engineering |
-| HSBC | Financial modeling |
+| [[Airbus]] | [[Aerospace]] optimization |
+| [[BMW]] Group | [[Automotive]] engineering |
+| [[HSBC]] | Financial modeling |
 | [[JPMorgan Chase]] | Risk, optimization |
 
 ---

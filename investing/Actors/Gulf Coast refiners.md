@@ -11,7 +11,7 @@ aliases: [PADD 3, Gulf Coast refining complex, USGC refiners]
 
 | Factor | Description |
 |--------|-------------|
-| Heavy crude capacity | Built for Venezuela, Mexico, Canada crude |
+| Heavy crude capacity | Built for Venezuela, [[Mexico]], [[Canada]] crude |
 | Scale | ~9M bpd capacity (half of US total) |
 | Geography | Closest US refineries to Venezuela |
 | Infrastructure | Pipelines, ports, storage optimized |
@@ -24,8 +24,8 @@ aliases: [PADD 3, Gulf Coast refining complex, USGC refiners]
 
 ```
 1990s-2000s: Venezuela → Gulf Coast (natural fit)
-2007-2019:   Venezuela collapse → Canada, Mexico substitute
-2019-2022:   US sanctions → China gets Venezuela crude
+2007-2019:   Venezuela collapse → [[Canada]], [[Mexico]] substitute
+2019-2022:   US sanctions → [[China]] gets Venezuela crude
 2022+:       Chevron license → some return
 2026:        Maduro capture → full return possible
 ```
@@ -44,17 +44,17 @@ aliases: [PADD 3, Gulf Coast refining complex, USGC refiners]
 | [[Phillips 66]] | ~0.7M bpd (Sweeny, Alliance) | Moderate |
 | [[PBF Energy]] | ~0.2M bpd (Chalmette) | High (pure-play) |
 | [[Marathon Petroleum]] | ~1.2M bpd (Galveston Bay, Garyville) | High |
-| [[Citgo]] | ~0.8M bpd (Lake Charles, Corpus Christi, Lemont) | Complicated (PDVSA-owned, embattled) |
+| [[Citgo]] | ~0.8M bpd (Lake Charles, Corpus Christi, Lemont) | Complicated ([[PDVSA]]-owned, embattled) |
 
 ---
 
 ## PADD 3
 
-**Petroleum Administration for Defense District 3:**
+**Petroleum Administration for [[Defense]] District 3:**
 
 | Metric | Value |
 |--------|-------|
-| Region | Texas, Louisiana, New Mexico, Arkansas, Mississippi, Alabama |
+| Region | Texas, Louisiana, New [[Mexico]], Arkansas, Mississippi, Alabama |
 | Capacity | ~9.5M bpd |
 | Share of US | ~50% |
 | Utilization | ~90%+ |
@@ -68,8 +68,8 @@ Gulf Coast = America's refining heartland.
 | Source | Type | Status |
 |--------|------|--------|
 | Venezuela | Heavy sour | Returning (post-Maduro) |
-| Canada (oil sands) | Heavy sour | Pipeline constrained |
-| Mexico (Maya) | Heavy sour | Declining exports |
+| [[Canada]] (oil sands) | Heavy sour | Pipeline constrained |
+| [[Mexico]] (Maya) | Heavy sour | Declining exports |
 | Permian | Light sweet | Abundant but less profitable for complex refiners |
 | Middle East | Varies | Long shipping distance |
 
@@ -82,7 +82,7 @@ Gulf Coast = America's refining heartland.
 **Pre-collapse (1990s):**
 - Venezuela supplied ~1.5M bpd to US
 - Gulf Coast refineries optimized for it
-- Citgo (PDVSA-owned) integrated
+- Citgo ([[PDVSA]]-owned) integrated
 
 **Post-collapse:**
 - Replaced with Canadian, Mexican crude
@@ -114,13 +114,13 @@ Gulf Coast = America's refining heartland.
 
 ## Citgo complication
 
-**PDVSA owns Citgo:**
+**[[PDVSA]] owns Citgo:**
 
 | Issue | Status |
 |-------|--------|
-| Ownership | Venezuelan state (PDVSA) |
+| Ownership | Venezuelan state ([[PDVSA]]) |
 | Assets | 3 US refineries, pipelines, retail |
-| Legal claims | ConocoPhillips, bondholders seeking to seize |
+| Legal claims | [[ConocoPhillips]], bondholders seeking to seize |
 | Post-Maduro | Ownership transfer likely |
 
 Citgo is the Venezuelan asset *in* the US — could be privatized or seized by creditors.
@@ -136,5 +136,5 @@ Citgo is the Venezuelan asset *in* the US — could be privatized or seized by c
 - [[CNPC]], [[Sinopec]] — lose Venezuelan crude to Gulf Coast
 - [[Oil]] — commodity context
 - [[LNG]] — Gulf Coast also LNG export hub
-- [[Citgo]] — PDVSA-owned US refiner
+- [[Citgo]] — [[PDVSA]]-owned US refiner
 

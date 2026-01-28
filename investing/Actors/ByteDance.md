@@ -23,7 +23,7 @@ ByteDance is a stealth AI hyperscaler — spending rivals US big tech:
 - Largest single Chinese AI chip order
 - H200 GPUs (export-compliant version)
 - HBM3E 8Hi memory
-- Shipping before Lunar New Year 2026
+- [[Shipping]] before Lunar New Year 2026
 
 **Context:**
 - Rivals Meta, Microsoft, Google in AI spend
@@ -36,7 +36,7 @@ ByteDance is a stealth AI hyperscaler — spending rivals US big tech:
 
 **Doubao (豆包):**
 - ByteDance's LLM
-- Competes with Baidu Ernie, Alibaba Qwen
+- Competes with [[Baidu]] [[Ernie]], Alibaba [[Qwen]]
 - Powers TikTok recommendation algorithms
 - Available via API in China
 
@@ -69,12 +69,12 @@ ByteDance is a stealth AI hyperscaler — spending rivals US big tech:
 **What ByteDance can buy:**
 - H200 (approved Dec 2025)
 - Older NVIDIA GPUs
-- AMD MI series
+- [[AMD]] MI series
 
 **What ByteDance can't buy:**
 - Blackwell (B200) — banned
 - Rubin (future) — will be banned
-- EUV-manufactured chips from TSMC
+- EUV-manufactured chips from [[TSMC]]
 
 **The gap:** ByteDance training on H200 while US competitors use Blackwell. Performance disadvantage grows over time.
 
@@ -94,9 +94,9 @@ ByteDance is a stealth AI hyperscaler — spending rivals US big tech:
 | Company | Position |
 |---------|----------|
 | **ByteDance** | Largest AI spend |
-| Alibaba | Cloud + Qwen models |
-| Baidu | Ernie, autonomous driving |
-| Tencent | Gaming AI, WeChat |
+| Alibaba | Cloud + [[Qwen]] models |
+| [[Baidu]] | [[Ernie]], autonomous driving |
+| [[Tencent]] | [[Gaming]] AI, WeChat |
 
 ByteDance is #1 in China AI infrastructure.
 
@@ -112,9 +112,9 @@ ByteDance is #1 in China AI infrastructure.
 | Liang Rubo | CEO |
 | Employees | Significant equity |
 | [[HongShan]] | Early investor (formerly Sequoia China) |
-| General Atlantic | Investor |
-| SoftBank | Investor |
-| KKR | Investor |
+| [[General Atlantic]] | Investor |
+| [[SoftBank]] | Investor |
+| [[KKR]] | Investor |
 | Various VCs | $8B+ raised historically |
 
 **Valuation:** ~$300B (secondary market, fluctuates with TikTok news)
@@ -160,7 +160,7 @@ Contributes to [[Memory shortage 2025-2026]].
 
 ## For theses
 
-**[[Long memory]]:** ByteDance = massive HBM/DRAM demand
+**[[Long memory]]:** ByteDance = massive [[HBM]]/DRAM demand
 **[[Long TSMC]]:** Indirectly via NVIDIA GPU demand
 **[[Export controls]]:** Example of controlled Chinese buyer
 
@@ -177,7 +177,7 @@ Contributes to [[Memory shortage 2025-2026]].
 
 ### Suppliers
 - [[NVIDIA]] — GPU supplier ($14B order)
-- [[SK Hynix]] — HBM supplier
+- [[SK Hynix]] — [[HBM]] supplier
 - [[Samsung]] — memory supplier
 - [[HongShan]] — early investor (formerly Sequoia China)
 - [[Export controls]] — constraint (H200 only, no Blackwell)
@@ -185,4 +185,4 @@ Contributes to [[Memory shortage 2025-2026]].
 - [[Alibaba]] — competitor (China AI/cloud)
 - [[AI hyperscalers]] — peer category
 - [[Memory shortage 2025-2026]] — demand driver
-- [[Long memory]] — thesis (HBM demand)
+- [[Long memory]] — thesis ([[HBM]] demand)

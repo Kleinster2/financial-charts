@@ -46,9 +46,9 @@ Novel chip architecture using photonics:
 
 | Approach | Companies |
 |----------|-----------|
-| Electronic interconnects | NVIDIA NVLink, AMD Infinity Fabric |
+| Electronic interconnects | NVIDIA NVLink, [[AMD]] Infinity Fabric |
 | **Photonic interconnects** | Lightmatter, Ayar Labs |
-| Co-packaged optics | Intel, Broadcom |
+| Co-packaged optics | [[Intel]], Broadcom |
 
 Lightmatter betting on photonics winning long-term.
 

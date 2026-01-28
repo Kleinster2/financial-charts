@@ -1,12 +1,12 @@
 #concept #speculative #datacenter #space
 
-**Space data centers** — Orbital computing infrastructure to bypass Earth's power/land constraints. Multiple billionaires pursuing. Economically unviable today but serious R&D underway.
+**[[Space]] data centers** — Orbital computing infrastructure to bypass Earth's power/land constraints. Multiple billionaires pursuing. Economically unviable today but serious R&D underway.
 
 ---
 
 ## Why space?
 
-| Constraint on Earth | Space solution |
+| Constraint on Earth | [[Space]] solution |
 |---------------------|----------------|
 | **Power grid strain** | 24/7 solar (sun-synchronous orbit) |
 | **Land scarcity** | Unlimited orbital real estate |
@@ -27,11 +27,11 @@
 | **[[Blue Origin]]** | Bezos DC vision | — | 10-20 years (Bezos) |
 | **Eric Schmidt** | Acquired [[Relativity Space]] | — | — |
 | **[[Google]]** | Project Suncatcher | 2 prototype satellites | Early 2027 |
-| **Starcloud** | [[NVIDIA]]-backed | **5GW** single DC | — |
+| **[[Starcloud]]** | [[NVIDIA]]-backed | **5GW** single DC | — |
 | **[[Axiom Space]]** | ISS replacement + DC | — | — |
-| **China** | AI supercomputer test | Proof of concept | Deployed |
+| **[[China]]** | AI supercomputer test | Proof of concept | Deployed |
 
-**SpaceX advantage:** Starlink experience (9,300+ satellites), Starship development, vertical integration.
+**SpaceX advantage:** [[Starlink]] experience (9,300+ satellites), Starship development, vertical integration.
 
 ---
 
@@ -39,11 +39,11 @@
 
 | Facility | Capacity | Size |
 |----------|----------|------|
-| OpenAI Stargate (Abilene) | 1.2 GW | 4M sq ft |
-| Starcloud orbital DC | **5 GW** | **4km × 4km** solar panels |
+| [[OpenAI]] Stargate (Abilene) | 1.2 GW | 4M sq ft |
+| [[Starcloud]] orbital DC | **5 GW** | **4km × 4km** solar panels |
 | Musk's vision | **100 GW** | Satellite network |
 
-Starcloud's 5GW = 4x Stargate, requires solar panels 2.5 miles wide.
+[[Starcloud]]'s 5GW = 4x Stargate, requires solar panels 2.5 miles wide.
 
 ---
 
@@ -110,7 +110,7 @@ High orbits needed to avoid congestion but add significant delay.
 | Orbital mission | Not yet completed |
 | Cost target | $10/kg to orbit (vs $2,700 today) |
 
-**Reality:** Starship is years from reliable, cheap operation. Space DCs depend on this breakthrough.
+**Reality:** Starship is years from reliable, cheap operation. [[Space]] DCs depend on this breakthrough.
 
 ---
 
@@ -118,8 +118,8 @@ High orbits needed to avoid congestion but add significant delay.
 
 | Source | Estimate | Context |
 |--------|----------|---------|
-| **Elon Musk** | 4-5 years | "If we can solve the other parts" |
-| **Jeff Bezos** | 10-20 years | "I bet it's not more than 20 years" |
+| **[[Elon Musk]]** | 4-5 years | "If we can solve the other parts" |
+| **[[Jeff Bezos]]** | 10-20 years | "I bet it's not more than 20 years" |
 | **Consensus** | Unknown | "Remain in realm of science fiction far longer" |
 
 **Phil Metzger:** "I don't think there's any new physics involved, but there's going to need to be a lot of technical maturity."
@@ -147,8 +147,8 @@ High orbits needed to avoid congestion but add significant delay.
 |--------|--------|
 | IPO size | $30B+ |
 | Purpose | Starship development, space DCs |
-| Advantage | Starlink experience (9,300+ satellites) |
-| Strategy | Repurpose Starlink technology |
+| Advantage | [[Starlink]] experience (9,300+ satellites) |
+| Strategy | Repurpose [[Starlink]] technology |
 
 ---
 
@@ -158,9 +158,9 @@ High orbits needed to avoid congestion but add significant delay.
 
 **Watch for:**
 - SpaceX IPO (2026) — most direct exposure
-- Relativity Space (Schmidt-backed)
-- Axiom Space
-- NVIDIA (Starcloud backer)
+- Relativity [[Space]] (Schmidt-backed)
+- Axiom [[Space]]
+- NVIDIA ([[Starcloud]] backer)
 - Satellite component suppliers
 
 **If viable:**
@@ -170,7 +170,7 @@ High orbits needed to avoid congestion but add significant delay.
 
 **If not:**
 - Ground-based constraints remain binding
-- Nuclear/gas BYOP continues
+- Nuclear/gas [[BYOP]] continues
 - Geographic arbitrage (Middle East, Nordics)
 
 ---
@@ -180,7 +180,7 @@ High orbits needed to avoid congestion but add significant delay.
 - [[Power constraints]] — problem space DCs aim to solve
 - [[SpaceX]] — leading player, Starship dependency
 - [[Blue Origin]] — Bezos vision
-- [[NVIDIA]] — Starcloud backer
+- [[NVIDIA]] — [[Starcloud]] backer
 - [[Google]] — Project Suncatcher
 - [[AI hyperscalers]] — potential customers
 - [[GPU deployment bottleneck]] — related constraint

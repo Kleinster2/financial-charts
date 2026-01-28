@@ -37,7 +37,7 @@ aliases: [SBUX]
 |---------|-------------|
 | Company-operated | ~60% of stores |
 | Licensed | ~40% of stores |
-| Consumer products | Grocery, RTD |
+| [[Consumer]] products | Grocery, RTD |
 
 **Mobile-first:** 30%+ of US orders via app.
 
@@ -47,13 +47,13 @@ aliases: [SBUX]
 
 **Bull:**
 - Loyalty program moat (75M members)
-- China recovery potential
+- [[China]] recovery potential
 - AI efficiency gains
 - Premium positioning
 - New CEO turnaround
 
 **Bear:**
-- China execution risk
+- [[China]] execution risk
 - Store traffic challenges
 - Labor costs/unionization
 - Competition (Dutch Bros, local)

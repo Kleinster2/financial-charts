@@ -22,7 +22,7 @@ aliases: [liquefied natural gas, natural gas, natgas]
 ## How LNG works
 
 ```
-Production → Liquefaction → Shipping → Regasification → Distribution
+Production → Liquefaction → [[Shipping]] → Regasification → Distribution
    (well)      (-260°F)     (tankers)    (terminal)      (pipeline)
 ```
 
@@ -38,17 +38,17 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 |---------|----------|-------|
 | US | ~90 MTPA | Fastest growing, shale-fed |
 | Qatar | ~80 MTPA | Lowest cost, expanding |
-| Australia | ~80 MTPA | Gorgon, Wheatstone ([[Chevron]]) |
-| Russia | ~30 MTPA | Sanctioned, Arctic projects |
-| Others | ~120 MTPA | Malaysia, Nigeria, etc. |
+| [[Australia]] | ~80 MTPA | Gorgon, Wheatstone ([[Chevron]]) |
+| [[Russia]] | ~30 MTPA | Sanctioned, [[Arctic]] projects |
+| Others | ~120 MTPA | Malaysia, [[Nigeria]], etc. |
 
 **Importers:**
 
 | Region | Demand driver |
 |--------|---------------|
-| Asia (Japan, Korea, China) | Power, heating, no pipelines |
-| Europe | Russia replacement post-2022 |
-| Emerging markets | Growing demand |
+| [[Asia]] ([[Japan]], Korea, [[China]]) | Power, heating, no pipelines |
+| [[Europe]] | [[Russia]] replacement post-2022 |
+| [[Emerging markets]] | Growing demand |
 
 ---
 
@@ -58,11 +58,11 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 
 | Company | LNG position |
 |---------|--------------|
-| [[Chevron]] | Australia (Gorgon, Wheatstone), expanding |
+| [[Chevron]] | [[Australia]] (Gorgon, Wheatstone), expanding |
 | [[Exxon]] | Qatar, Papua New Guinea, US |
-| Shell | Largest LNG trader globally |
-| TotalEnergies | Major portfolio |
-| BP | Diversified |
+| [[Shell]] | Largest LNG trader globally |
+| [[TotalEnergies]] | Major portfolio |
+| [[BP]] | Diversified |
 
 **Pure-play LNG:**
 
@@ -93,19 +93,19 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 
 **Drivers:**
 - Shale gas abundance (Permian, Marcellus)
-- Europe demand (Russia replacement)
-- Asia growth
+- [[Europe]] demand ([[Russia]] replacement)
+- [[Asia]] growth
 - Energy security priority
 
 ---
 
 ## Price benchmarks
 
-| Benchmark | Region | Current |
+| [[Benchmark]] | Region | Current |
 |-----------|--------|---------|
 | Henry Hub | US | ~$3/MMBtu |
-| TTF | Europe | ~$10-15/MMBtu |
-| JKM | Asia | ~$12-15/MMBtu |
+| TTF | [[Europe]] | ~$10-15/MMBtu |
+| JKM | [[Asia]] | ~$12-15/MMBtu |
 
 **Arbitrage:** US gas cheap → export to premium markets.
 
@@ -115,8 +115,8 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 
 **Bull:**
 - AI/data center power demand
-- Europe needs Russia replacement
-- Asia demand growing
+- [[Europe]] needs [[Russia]] replacement
+- [[Asia]] demand growing
 - US cost advantage
 - Energy security priority
 - Bridge fuel narrative
@@ -126,7 +126,7 @@ Production → Liquefaction → Shipping → Regasification → Distribution
 - Renewable competition long-term
 - Permitting challenges (US pause 2024)
 - Price volatility
-- ESG pressure on fossil fuels
+- [[ESG]] pressure on fossil fuels
 
 ---
 

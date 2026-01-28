@@ -53,7 +53,7 @@ Diversified but lithium is the story.
 | Development | Status |
 |-------------|--------|
 | Boric government (2022-) | Proposed nationalization |
-| Codelco partnership | Under negotiation |
+| [[Codelco]] partnership | Under negotiation |
 | State control | Seeking majority stake |
 | Resolution | Ongoing uncertainty |
 
@@ -66,8 +66,8 @@ Chile wants more control over "white gold."
 | vs | SQM advantage | SQM disadvantage |
 |----|---------------|------------------|
 | [[Albemarle]] | Lower cost, larger reserves | Political risk |
-| Ganfeng (China) | Non-China supply | Scale |
-| Pilbara (Australia) | Brine vs spodumene cost | Hard rock flexibility |
+| Ganfeng ([[China]]) | Non-[[China]] supply | Scale |
+| Pilbara ([[Australia]]) | Brine vs spodumene cost | Hard rock flexibility |
 
 ---
 
@@ -96,7 +96,7 @@ SQM benefits from any lithium price recovery.
 **Bear:**
 - Chile nationalization risk
 - Price volatility
-- China competition
+- [[China]] competition
 - Political instability
 - Water usage concerns
 

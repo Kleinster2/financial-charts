@@ -55,9 +55,9 @@ Revenue continues as long as wells produce.
 
 ---
 
-## Venezuela opportunity
+## [[Venezuela]] opportunity
 
-**If US companies rebuild Venezuela:**
+**If US companies rebuild [[Venezuela]]:**
 
 - Production chemicals needed immediately
 - Mature fields need artificial lift
@@ -75,7 +75,7 @@ See [[Venezuela oil rebuild]] for context.
 - Less cyclical
 - Production phase leverage
 - Digital growth
-- Venezuela chemicals demand
+- [[Venezuela]] chemicals demand
 
 **Bear:**
 - Smaller scale

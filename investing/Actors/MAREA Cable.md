@@ -27,7 +27,7 @@ Hyperscaler alliance:
 |---------|------|
 | [[Meta]] | Co-owner, capacity |
 | [[Microsoft]] | Co-owner, Azure traffic |
-| Telxius (Telefónica) | Operator |
+| Telxius ([[Telefónica]]) | Operator |
 
 First major hyperscaler-owned trans-Atlantic.
 
@@ -49,7 +49,7 @@ First major hyperscaler-owned trans-Atlantic.
 **Why Meta + Microsoft built it:**
 - Control over capacity
 - Avoid consortium politics
-- Direct US-Europe link
+- Direct US-[[Europe]] link
 - Azure + Facebook traffic
 
 ---

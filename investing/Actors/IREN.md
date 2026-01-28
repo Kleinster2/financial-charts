@@ -3,7 +3,7 @@ aliases: [Iris Energy]
 ---
 #actor #crypto #ai #australia #public
 
-**IREN (Iris Energy)** — Crypto miner → AI pivot leader. +300% YTD. $9.7B Microsoft deal. 4,300+ GPUs.
+**IREN (Iris Energy)** — [[Crypto]] miner → AI pivot leader. +300% YTD. $9.7B Microsoft deal. 4,300+ GPUs.
 
 ---
 
@@ -17,7 +17,7 @@ Best-performing crypto-to-AI pivot:
 | 2025 YTD | +300% |
 | Microsoft deal | $9.7B (5yr, 200MW) |
 | GPUs deployed | 4,300+ |
-| HQ | Australia |
+| HQ | [[Australia]] |
 
 ---
 
@@ -56,8 +56,8 @@ Largest deal in crypto miner AI pivot space.
 
 **Data center locations:**
 - Texas (US)
-- British Columbia (Canada)
-- Australia (original)
+- British Columbia ([[Canada]])
+- [[Australia]] (original)
 
 **Power advantage:** Secured significant MW capacity for expansion.
 
@@ -111,7 +111,7 @@ IREN = clear leader in pivot execution.
 |--------|-------|
 | Ticker | IREN |
 | Market cap | — |
-| HQ | Sydney, Australia |
+| HQ | Sydney, [[Australia]] |
 | AI deal | $9.7B Microsoft |
 | GPUs | 4,300+ |
 

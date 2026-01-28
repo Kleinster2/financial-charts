@@ -13,7 +13,7 @@ aliases: [Balmain Paris]
 
 | Metric | Value |
 |--------|-------|
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | Owner | [[Mayhoola]] (100%, since 2016) |
 | Acquisition price | ~€485M (2016) |
 | Revenue (2024) | ~€315M |
@@ -97,6 +97,6 @@ aliases: [Balmain Paris]
 - [[Valentino]] — sister brand (Mayhoola portfolio)
 - [[Luxury]] — sector hub
 - [[Fashion]] — broader industry
-- [[Kering]] — competitor (Balenciaga, Saint Laurent)
+- [[Kering]] — competitor (Balenciaga, [[Saint Laurent]])
 
 *Created 2026-01-24*

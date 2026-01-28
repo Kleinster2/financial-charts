@@ -23,7 +23,7 @@ aliases: [Lowercarbon]
 
 | Fact | Detail |
 |------|--------|
-| Previous | Lowercase Capital (Twitter, Uber, Instagram) |
+| Previous | Lowercase Capital (Twitter, [[Uber]], Instagram) |
 | Shark Tank | Guest investor |
 | Pivot | From consumer tech to climate |
 | Style | Colorful, outspoken |

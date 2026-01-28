@@ -5,7 +5,7 @@ aliases: [Neobank, Digital banks, Challenger banks, Online banks]
 
 # Neobanks
 
-**Digital-first banks with no physical branches.** 500M+ users globally. Disrupted traditional banking with lower costs, better UX, instant onboarding. Winners emerging: [[Nubank]] (LatAm), [[Revolut]] (Europe/global), Chime (US). Most still unprofitable — credit expansion is the path to unit economics.
+**Digital-first banks with no physical branches.** 500M+ users globally. Disrupted traditional banking with lower costs, better UX, instant onboarding. Winners emerging: [[Nubank]] (LatAm), [[Revolut]] ([[Europe]]/global), Chime (US). Most still unprofitable — credit expansion is the path to unit economics.
 
 ---
 
@@ -52,10 +52,10 @@ Neobanks proved digital-only banking works. Now the question: can they become pr
 | Region | Leaders | Status |
 |--------|---------|--------|
 | **LatAm** | [[Nubank]], [[Inter]], [[C6 Bank]] | Most advanced; Pix-enabled |
-| **Europe** | [[Revolut]], N26, Monzo | Strong; open banking tailwind |
+| **[[Europe]]** | [[Revolut]], N26, Monzo | Strong; open banking tailwind |
 | **US** | Chime, [[SoFi]], Current | Slower; regulatory hurdles |
-| **Asia** | KakaoBank, WeBank, GCash | Super-app integrated |
-| **Africa** | Kuda, TymeBank | Emerging; mobile-first |
+| **[[Asia]]** | KakaoBank, WeBank, [[GCash]] | Super-app integrated |
+| **[[Africa]]** | Kuda, TymeBank | Emerging; mobile-first |
 
 ### Major players
 
@@ -64,19 +64,19 @@ Neobanks proved digital-only banking works. Now the question: can they become pr
 | [[Nubank]] | 100M+ | ~$60B | LatAm | Public (NU) |
 | [[Revolut]] | 50M+ | ~$45B | Global | Private; IPO 2026 |
 | Chime | 20M+ | ~$25B (2021) | US | Private |
-| [[Inter]] | 30M+ | ~$3B | Brazil | Public |
-| [[C6 Bank]] | 30M+ | ~$11B | Brazil | Private |
-| N26 | 8M+ | ~$9B (2021) | Europe | Private |
-| Monzo | 9M+ | ~$5B | UK | Private |
+| [[Inter]] | 30M+ | ~$3B | [[Brazil]] | Public |
+| [[C6 Bank]] | 30M+ | ~$11B | [[Brazil]] | Private |
+| N26 | 8M+ | ~$9B (2021) | [[Europe]] | Private |
+| Monzo | 9M+ | ~$5B | [[UK]] | Private |
 | [[SoFi]] | 9M+ | ~$15B | US | Public (SOFI) |
-| Starling | 4M+ | ~$3B | UK | Private |
+| Starling | 4M+ | ~$3B | [[UK]] | Private |
 | KakaoBank | 24M+ | ~$15B | Korea | Public |
 
 ---
 
-## Brazil neobanks
+## [[Brazil]] neobanks
 
-Brazil has the world's most developed neobank ecosystem. See [[Brazil fintech]] for full analysis.
+[[Brazil]] has the world's most developed neobank ecosystem. See [[Brazil fintech]] for full analysis.
 
 | Company | Customers | Valuation | Differentiator |
 |---------|-----------|-----------|----------------|
@@ -85,9 +85,9 @@ Brazil has the world's most developed neobank ecosystem. See [[Brazil fintech]] 
 | [[C6 Bank]] | 30M+ | ~$11B | [[JPMorgan Chase]] backing |
 | [[BTG Pactual]] digital | Growing | — | Investment bank going retail |
 
-**Why Brazil leads:**
+**Why [[Brazil]] leads:**
 - [[Pix]] instant payments (87% adoption)
-- Progressive central bank regulation
+- [[Progressive]] central bank regulation
 - Large unbanked population
 - High traditional bank fees created opportunity
 
@@ -119,15 +119,15 @@ Strong ecosystem driven by open banking regulation (PSD2).
 
 | Company | Users | HQ | Differentiator |
 |---------|-------|-----|----------------|
-| [[Revolut]] | 50M+ | UK/Lithuania | FX, crypto, global |
-| N26 | 8M+ | Germany | Design-focused |
-| Monzo | 9M+ | UK | Community, transparency |
-| Starling | 4M+ | UK | SMB banking |
+| [[Revolut]] | 50M+ | [[UK]]/Lithuania | FX, crypto, global |
+| N26 | 8M+ | [[Germany]] | Design-focused |
+| Monzo | 9M+ | [[UK]] | Community, transparency |
+| Starling | 4M+ | [[UK]] | SMB banking |
 | Bunq | 12M+ | Netherlands | Green banking |
 
 **European advantages:**
 - PSD2 open banking mandate
-- Faster Payments (UK), SEPA Instant
+- Faster Payments ([[UK]]), SEPA Instant
 - Single market (pre-Brexit)
 - Less entrenched mobile banking from incumbents
 
@@ -152,7 +152,7 @@ Most neobanks followed this evolution:
 | [[Revolut]] | ✅ Yes (2024) | Subscriptions + FX + crypto |
 | Chime | ❌ No | Still interchange-dependent |
 | N26 | ❌ No | Struggled with expansion |
-| Monzo | ❌ No | UK-focused, lending scaling |
+| Monzo | ❌ No | [[UK]]-focused, lending scaling |
 | [[SoFi]] | ✅ Yes (2024) | Lending + bank charter |
 
 **The formula:** Need lending or high-margin products. Pure interchange doesn't work.
@@ -165,7 +165,7 @@ Most neobanks followed this evolution:
 |------|--------|
 | **Credit losses** | Lending to underbanked = higher default |
 | **Funding costs** | No sticky deposits like traditional banks |
-| **Regulation** | Consumer protection, capital requirements |
+| **Regulation** | [[Consumer]] protection, capital requirements |
 | **Competition** | Traditional banks copying features |
 | **Concentration** | Heavy reliance on partner banks (US) |
 | **Rates** | Rising rates help float income, hurt growth valuations |
@@ -178,7 +178,7 @@ Most neobanks followed this evolution:
 |------|------------------|---------|
 | [[JPMorgan Chase]] | Chase app, Finn (shut down) | Mixed |
 | [[Goldman Sachs]] | Marcus | Retreating |
-| BBVA | Built neobank tech, sold to PNC | Exited |
+| [[BBVA]] | Built neobank tech, sold to PNC | Exited |
 | [[Itaú Unibanco]] | Iti wallet | Moderate |
 | [[Bradesco]] | Next | Struggling |
 
@@ -193,7 +193,7 @@ Most traditional banks struggle to compete — legacy tech, branch costs, cultur
 | **LatAm winner** | [[Nubank]] (NU) |
 | **European IPO** | [[Revolut]] (2026) |
 | **US super-app** | [[SoFi]] (SOFI) |
-| **Brazil ecosystem** | [[Inter]], [[C6 Bank]] |
+| **[[Brazil]] ecosystem** | [[Inter]], [[C6 Bank]] |
 | **Pick-and-shovel** | [[TOTVS]], banking infra |
 
 ---
@@ -218,7 +218,7 @@ Most traditional banks struggle to compete — legacy tech, branch costs, cultur
 - [[Brazil fintech]] — most advanced market
 - [[Nubank]] — largest neobank globally
 - [[Revolut]] — European leader, IPO candidate
-- [[Inter]] — Brazil super-app
+- [[Inter]] — [[Brazil]] super-app
 - [[C6 Bank]] — JPMorgan-backed
 - [[SoFi]] — US super-app
 - [[Chime]] — US leader (private)

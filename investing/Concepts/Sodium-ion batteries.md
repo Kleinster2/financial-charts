@@ -31,11 +31,11 @@ Next-generation battery chemistry using sodium instead of lithium. No lithium, c
 |---------|---------|--------|----------|
 | **[[CATL]]** | Naxtra | Mass production Q3 2025 | 10 GWh → 30 GWh (2026) |
 | **[[BYD]]** | MC Cube-SIB | Grid storage focus | 30 GWh factory (broke ground Jan 2024) |
-| **HiNa Battery** | — | China startup | Early production |
-| **Faradion** | — | UK (acquired by [[Reliance Industries]]) | Pilot scale |
+| **HiNa Battery** | — | [[China]] startup | Early production |
+| **Faradion** | — | [[UK]] (acquired by [[Reliance Industries]]) | Pilot scale |
 | **Natron Energy** | — | US, data center focus | Niche |
 
-China dominates — CATL and BYD alone control 50%+ of global EV battery market.
+[[China]] dominates — CATL and BYD alone control 50%+ of global EV battery market.
 
 ---
 
@@ -46,7 +46,7 @@ China dominates — CATL and BYD alone control 50%+ of global EV battery market.
 | Brand launch | April 2025 |
 | Energy density | 175 Wh/kg (next-gen) |
 | Range | 500 km in passenger vehicles |
-| Certification | First to pass China GB 38031-2025 safety standard |
+| Certification | First to pass [[China]] GB 38031-2025 safety standard |
 | 2026 deployment | EVs, commercial vehicles, battery swap, grid storage |
 
 **"Dual-star" strategy:** Developing sodium-ion and lithium-ion in parallel.
@@ -60,7 +60,7 @@ China dominates — CATL and BYD alone control 50%+ of global EV battery market.
 | Factory | 30 GWh (broke ground Jan 2024) |
 | Focus | Grid storage (MC Cube-SIB) |
 | Cost target | Parity with LFP, 70% cheaper long-term |
-| Delivery | Q3 2025 (China) |
+| Delivery | Q3 2025 ([[China]]) |
 
 ---
 
@@ -84,7 +84,7 @@ Not suited for: Long-range premium EVs (density matters)
 | 2021 | CATL announces first-gen sodium-ion |
 | 2024 | BYD breaks ground on 30 GWh factory |
 | Q3 2025 | CATL mass production begins (~10 GWh) |
-| July 2026 | China safety standard GB 38031-2025 takes effect |
+| July 2026 | [[China]] safety standard GB 38031-2025 takes effect |
 | 2026 | Large-scale commercial deployment (CATL, BYD) |
 
 ---
@@ -93,14 +93,14 @@ Not suited for: Long-range premium EVs (density matters)
 
 **Bull case:**
 - Lithium price hedge — reduces battery cost volatility
-- China leads, could export tech
+- [[China]] leads, could export tech
 - Grid storage TAM expansion
-- Cold climate markets (Nordics, Canada, Russia)
+- Cold climate markets (Nordics, [[Canada]], [[Russia]])
 
 **Bear case:**
 - Energy density gap persists
 - LFP costs still falling
-- Limited non-China production
+- Limited non-[[China]] production
 - Niche use cases only
 
 ---

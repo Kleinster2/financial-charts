@@ -26,7 +26,7 @@ aliases: [Bessent]
 | Period | Role |
 |--------|------|
 | 1984 | Yale (BA Political Science) |
-| 1991-2015 | Soros Fund Management |
+| 1991-2015 | [[Soros Fund Management]] |
 | 1992 | Black Wednesday — $1B profit shorting GBP |
 | 2013 | $1.2B profit shorting JPY |
 | 2015-2024 | Key Square Group (founded) |
@@ -37,7 +37,7 @@ aliases: [Bessent]
 
 ## Key trades
 
-| Year | Trade | Profit |
+| Year | [[Trade]] | Profit |
 |------|-------|--------|
 | 1992 | Short GBP (Black Wednesday) | $1B |
 | 2013 | Short JPY | $1.2B |
@@ -51,7 +51,7 @@ Macro specialist — currencies, fixed income, central bank policy.
 | Area | Approach |
 |------|----------|
 | Tariffs | Moderating Trump's proposals |
-| China | Negotiated 90-day tariff pause (Aug 2025) |
+| [[China]] | Negotiated 90-day tariff pause (Aug 2025) |
 | Fed Chair search | Leading selection process |
 | 2026 outlook | "Blockbuster year" for US economy |
 

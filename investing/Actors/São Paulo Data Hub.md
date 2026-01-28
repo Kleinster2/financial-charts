@@ -3,7 +3,7 @@ aliases: [Sao Paulo Data Center]
 ---
 #actor #datacenter #infrastructure #brazil #region
 
-**São Paulo Data Hub** — LatAm's largest DC market. 42% of Brazil capacity. AWS, Google, Microsoft.
+**São Paulo Data Hub** — LatAm's largest DC market. 42% of [[Brazil]] capacity. AWS, Google, Microsoft.
 
 ---
 
@@ -13,8 +13,8 @@ Latin America's data capital:
 
 | Metric | Value |
 |--------|-------|
-| Location | São Paulo state, Brazil |
-| Brazil share | 42.6% of IT capacity |
+| Location | São Paulo state, [[Brazil]] |
+| [[Brazil]] share | 42.6% of IT capacity |
 | Data centers | 40+ existing, 20+ planned |
 | Operators | Equinix, Ascenty, Scala |
 
@@ -39,9 +39,9 @@ Latin America's data capital:
 | Company | Investment |
 |---------|------------|
 | [[Amazon]]/AWS | $1.8B expansion |
-| [[Microsoft]] | **R$14.7B (~$2.5B)** Brazil (3 years) — cloud + AI infrastructure, 5M digital skills training |
+| [[Microsoft]] | **R$14.7B (~$2.5B)** [[Brazil]] (3 years) — cloud + AI infrastructure, 5M digital skills training |
 | [[Google]] | Cloud region since 2017 |
-| Oracle | Brazil region |
+| [[Oracle]] | [[Brazil]] region |
 
 *Microsoft commitment includes ConnectAI initiative targeting 5M Brazilians in digital/AI skills (WEF Jan 2026).*
 
@@ -106,7 +106,7 @@ São Paulo overflow = interior growth.
 
 | Metric | Value |
 |--------|-------|
-| Location | São Paulo, Brazil |
+| Location | São Paulo, [[Brazil]] |
 | LatAm share | 95% of colocation |
 | DCs | 40+ existing |
 | Challenge | Rising costs |
@@ -119,6 +119,6 @@ São Paulo overflow = interior growth.
 
 - [[Brazil AI]] — national context (LatAm's largest market)
 - [[Rio de Janeiro Data Hub]] — peer hub (faster growing)
-- [[Querétaro]] — peer hub (Mexico's center)
+- [[Querétaro]] — peer hub ([[Mexico]]'s center)
 - [[Ashburn]] — benchmark (global standard)
 

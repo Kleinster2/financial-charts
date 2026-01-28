@@ -81,14 +81,14 @@ Growth stocks have longer duration (cash flows further out).
 | IVW | Growth | S&P 500 Growth |
 | VTV | Value | CRSP US Large Value |
 | VUG | Growth | CRSP US Large Growth |
-| VLUE | Value | MSCI USA Value Factor |
-| MTUM | Momentum | MSCI USA Momentum |
+| VLUE | Value | [[MSCI]] USA Value Factor |
+| MTUM | Momentum | [[MSCI]] USA Momentum |
 
 ---
 
 ## Investment implications
 
-| Signal | Action |
+| [[Signal]] | Action |
 |--------|--------|
 | Rates rising | Rotate to value |
 | Rates falling | Rotate to growth |

@@ -68,7 +68,7 @@
 | Source | Core PCE 2026 | When to 2%? |
 |--------|---------------|-------------|
 | Fed (Dec 2025 SEP) | 2.4% | 2027 |
-| Goldman Sachs | 2.1% | Late 2026 |
+| [[Goldman Sachs]] | 2.1% | Late 2026 |
 | CBO | 2.4% | 2027 |
 
 **Consensus:** Inflation continues cooling but likely stays above 2% through most of 2026.
@@ -79,7 +79,7 @@
 
 | Aspect | Detail |
 |--------|--------|
-| Target | 2% average (PCE) |
+| [[Target]] | 2% average (PCE) |
 | Framework | Flexible average inflation targeting (FAIT) |
 | Adopted | 2020 |
 | Meaning | Willing to let inflation run above 2% temporarily after undershoots |
@@ -95,7 +95,7 @@
 | **Cooling (current)** | Risk-on, growth equities, rate-sensitive |
 | **Re-acceleration** | Defensives, commodities, short duration |
 | **Deflation** | Bonds rally, growth at risk |
-| **Stagflation** | Commodities, gold, quality |
+| **Stagflation** | [[Commodities]], gold, quality |
 
 ---
 
@@ -104,7 +104,7 @@
 | Asset | Mechanism |
 |-------|-----------|
 | **TIPS** | Direct inflation adjustment |
-| **Commodities** | Input cost pass-through |
+| **[[Commodities]]** | Input cost pass-through |
 | **[[Gold]]** | Store of value, real rate inverse |
 | **Real estate** | Rent escalators |
 | **Equities (pricing power)** | Pass costs to consumers |
@@ -113,7 +113,7 @@
 
 ## What to watch
 
-| Indicator | Frequency | Signal |
+| Indicator | Frequency | [[Signal]] |
 |-----------|-----------|--------|
 | CPI | Monthly | Headline attention |
 | Core PCE | Monthly | Fed's guide |

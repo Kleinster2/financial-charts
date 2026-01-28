@@ -28,7 +28,7 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 | **Semiconductor Silicon** | ~35% | 300mm wafers, SOI wafers |
 | PVC/Chemicals | ~30% | Polyvinyl chloride |
 | Silicones | ~15% | Industrial silicones |
-| Electronics | ~10% | Photoresists (~15% EUV share), rare earths |
+| Electronics | ~10% | [[Photoresists]] (~15% EUV share), rare earths |
 | Other | ~10% | Specialty materials |
 
 ---
@@ -37,13 +37,13 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 
 | Company | Share | HQ |
 |---------|-------|-----|
-| **Shin-Etsu** | ~30% | Japan |
-| [[Sumco]] | ~25% | Japan |
-| [[Siltronic]] | ~13% | Germany |
+| **Shin-Etsu** | ~30% | [[Japan]] |
+| [[Sumco]] | ~25% | [[Japan]] |
+| [[Siltronic]] | ~13% | [[Germany]] |
 | SK Siltron | ~12% | Korea |
 | Others | ~20% | — |
 
-**Japan dominance:** Shin-Etsu + Sumco = 55% of global wafers.
+**[[Japan]] dominance:** Shin-Etsu + Sumco = 55% of global wafers.
 
 ---
 
@@ -62,7 +62,7 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 
 **Responding to AI demand:**
 - 300mm capacity additions ongoing
-- Japan, Taiwan, US facilities
+- [[Japan]], [[Taiwan]], US facilities
 - Targeting 10%+ capacity growth
 - Wafer shortage through 2025-2026
 
@@ -81,7 +81,7 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 - Cyclical (chip cycles)
 - Yen exposure
 - Samsung/SK vertical integration
-- China capacity risk
+- [[China]] capacity risk
 
 ---
 
@@ -101,8 +101,8 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 ## Related
 
 - [[Long Japan wafers]] — investment thesis (Shin-Etsu as diversified play)
-- [[Sumco]] — #2 wafer competitor (Japan)
-- [[Siltronic]] — #3 wafer competitor (Germany)
+- [[Sumco]] — #2 wafer competitor ([[Japan]])
+- [[Siltronic]] — #3 wafer competitor ([[Germany]])
 - [[TSMC]] — largest customer
 - [[Samsung]] — customer
 - [[Long WFE]] — upstream picks and shovels

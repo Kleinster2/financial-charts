@@ -3,7 +3,7 @@ aliases: [Shenzhen Tech]
 ---
 #actor #china #tech-hub #hardware
 
-**Shenzhen** — China's hardware and manufacturing hub. Home to BYD, DJI, Huawei, ZTE, Tencent. Complementary to [[Hangzhou]] (hardware vs software focus).
+**Shenzhen** — China's hardware and manufacturing hub. [[Home]] to BYD, [[DJI]], Huawei, ZTE, Tencent. Complementary to [[Hangzhou]] (hardware vs software focus).
 
 ---
 
@@ -15,7 +15,7 @@ Shenzhen is where hardware gets built:
 |--------|-------|
 | GDP | ~$500B |
 | Focus | Hardware, manufacturing, supply chain |
-| Champions | Huawei, BYD, DJI, Tencent, ZTE |
+| Champions | Huawei, BYD, [[DJI]], Tencent, ZTE |
 | Advantage | Speed, scale, supply chain density |
 
 ---
@@ -25,7 +25,7 @@ Shenzhen is where hardware gets built:
 | Factor | Shenzhen | [[Hangzhou]] |
 |--------|----------|--------------|
 | **Focus** | Hardware, manufacturing | Software, AI, platforms |
-| **Champions** | BYD, DJI, Huawei | Alibaba, DeepSeek, Unitree |
+| **Champions** | BYD, [[DJI]], Huawei | [[Alibaba]], [[DeepSeek]], [[Unitree]] |
 | **Talent** | Supply chain, engineering | Algorithms, data, ZJU |
 | **Advantage** | Build anything fast | AI/software innovation |
 
@@ -37,11 +37,11 @@ Shenzhen is where hardware gets built:
 
 | Company | Category | Notes |
 |---------|----------|-------|
-| [[Huawei]] | Telecom, chips | HQ, under sanctions |
+| [[Huawei]] | [[Telecom]], chips | HQ, under sanctions |
 | [[BYD]] | EVs, batteries | World's largest EV maker |
-| DJI | Drones | ~70% global market share |
-| ZTE | Telecom | #2 to Huawei |
-| Tencent | Internet | Gaming, WeChat (technically HQ) |
+| [[DJI]] | [[Drones]] | ~70% global market share |
+| ZTE | [[Telecom]] | #2 to Huawei |
+| Tencent | Internet | [[Gaming]], WeChat (technically HQ) |
 | Foxconn | Manufacturing | Major facilities |
 | [[CXMT]] | DRAM | Domestic memory |
 
@@ -74,10 +74,10 @@ Shenzhen is where hardware gets built:
 
 | Category | Shenzhen role |
 |----------|---------------|
-| AI chips | Huawei Ascend, domestic GPUs |
+| AI chips | Huawei [[Ascend]], domestic GPUs |
 | EVs | BYD dominates |
-| Drones | DJI monopoly |
-| Consumer electronics | Manufacturing hub |
+| [[Drones]] | [[DJI]] monopoly |
+| [[Consumer]] electronics | Manufacturing hub |
 | Wearables | Assembly for global brands |
 
 See [[Wearable AI]] — many devices manufactured in Shenzhen.

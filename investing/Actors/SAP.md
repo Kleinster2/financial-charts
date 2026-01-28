@@ -5,7 +5,7 @@ aliases: [SAP SE, SAP AG]
 
 # SAP
 
-**World's largest ERP software company** — founded 1972 by five ex-IBM engineers in Germany. **NYSE: SAP**, XETRA: SAP. ~€340B market cap (~$325B) — largest European company by market cap. €35B revenue. Cloud transition via S/4HANA driving re-rating; 2027 ECC end-of-support forcing migrations.
+**World's largest ERP software company** — founded 1972 by five ex-[[IBM]] engineers in [[Germany]]. **NYSE: SAP**, XETRA: SAP. ~€340B market cap (~$325B) — largest European company by market cap. €35B revenue. Cloud transition via S/4HANA driving re-rating; 2027 ECC end-of-support forcing migrations.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [SAP SE, SAP AG]
 |--------|-------|
 | Ticker | SAP (NYSE, XETRA) |
 | Founded | April 1, 1972 |
-| HQ | Walldorf, Germany |
+| HQ | Walldorf, [[Germany]] |
 | Market cap | ~€340B (~$325B) |
 | Revenue (2024) | €35B |
 | Net income (2024) | €8.7B |
@@ -40,13 +40,13 @@ aliases: [SAP SE, SAP AG]
 
 | Founder | Background | Current |
 |---------|------------|---------|
-| **Dietmar Hopp** | Ex-IBM engineer | CEO 1988-98, ~6% stake |
-| **Hasso Plattner** | Ex-IBM engineer | Chairman emeritus, ~6.2% stake, stepped down May 2024 |
-| **Klaus Tschira** | Ex-IBM engineer | Died 2015 |
-| **Claus Wellenreuther** | Ex-IBM engineer | — |
-| **Hans-Werner Hector** | Ex-IBM engineer | — |
+| **Dietmar Hopp** | Ex-[[IBM]] engineer | CEO 1988-98, ~6% stake |
+| **Hasso Plattner** | Ex-[[IBM]] engineer | Chairman emeritus, ~6.2% stake, stepped down May 2024 |
+| **Klaus Tschira** | Ex-[[IBM]] engineer | Died 2015 |
+| **Claus Wellenreuther** | Ex-[[IBM]] engineer | — |
+| **Hans-Werner Hector** | Ex-[[IBM]] engineer | — |
 
-**Origin:** Five IBM engineers left after their enterprise-wide system project was canceled. Founded SAP to build real-time integrated business software. First customer: Imperial Chemical Industries (Germany).
+**Origin:** Five [[IBM]] engineers left after their enterprise-wide system project was canceled. Founded SAP to build real-time integrated business software. First customer: Imperial Chemical Industries ([[Germany]]).
 
 ---
 
@@ -54,7 +54,7 @@ aliases: [SAP SE, SAP AG]
 
 | Year | Event |
 |------|-------|
-| 1972 | Founded by 5 ex-IBM engineers in Weinheim |
+| 1972 | Founded by 5 ex-[[IBM]] engineers in Weinheim |
 | 1973 | First product: MIAS (materials, info, accounting) |
 | 1980 | Moved to Walldorf; 80 employees |
 | 1992 | R/3 launch — client/server ERP |
@@ -114,7 +114,7 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 | **SAP ECC** | Legacy ERP (end-of-support 2027) |
 | **SuccessFactors** | HR/HCM cloud |
 | **Ariba** | Procurement network |
-| **Concur** | Travel & expense |
+| **Concur** | [[Travel]] & expense |
 | **Qualtrics** | Experience management (spun off 2023) |
 | **Joule** | AI assistant |
 
@@ -139,7 +139,7 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 
 3. **Cloud transition** — 87% predictable revenue; margins expanding.
 
-4. **Europe's tech champion** — Largest European company by market cap.
+4. **[[Europe]]'s tech champion** — Largest European company by market cap.
 
 5. **AI optionality** — Joule and embedded AI across product suite.
 
@@ -151,7 +151,7 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 - [[Oracle]] — ERP/database competitor
 - [[Salesforce]] — enterprise software
 - [[Workday]] — HR/finance SaaS
-- [[TOTVS]] — Brazil ERP leader
+- [[TOTVS]] — [[Brazil]] ERP leader
 
 ### Concepts
 - [[Cloud vs on-premise valuation]] — explains re-rating
@@ -165,7 +165,7 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 Sources:
 - [Wikipedia - SAP](https://en.wikipedia.org/wiki/SAP)
 - [SAP News - Hasso Plattner Steps Down](https://news.sap.com/2024/05/the-end-of-an-era-hasso-plattner-steps-down/)
-- [Nasdaq - SAP Q4 Earnings](https://www.nasdaq.com/articles/saps-q4-earnings-revenues-y-y-cloud-demand-2025-view-updated)
+- [[[Nasdaq]] - SAP Q4 Earnings](https://www.nasdaq.com/articles/saps-q4-earnings-revenues-y-y-cloud-demand-2025-view-updated)
 - [Straits Research - S/4HANA Market](https://straitsresearch.com/report/sap-s-4hana-application-market)
 
 *Created 2026-01-25*

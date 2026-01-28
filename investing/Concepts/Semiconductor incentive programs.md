@@ -11,12 +11,12 @@ Every major economy now has chip incentives:
 | Program | Country | Size | Focus |
 |---------|---------|------|-------|
 | [[CHIPS Act]] | USA | $52B | Manufacturing + R&D |
-| EU Chips Act | Europe | €43B | Sovereignty, 20% global share goal |
+| [[EU Chips Act]] | [[Europe]] | €43B | Sovereignty, 20% global share goal |
 | K-CHIPS Act | Korea | $470B (incl. private) | Memory, foundry |
-| Japan subsidies | Japan | $13B+ | Rapidus, TSMC Kumamoto |
-| India PLI | India | $10B | Electronics, packaging |
+| [[Japan]] subsidies | [[Japan]] | $13B+ | Rapidus, [[TSMC]] Kumamoto |
+| [[India]] PLI | [[India]] | $10B | Electronics, packaging |
 | RIGI | Argentina | Tax breaks | Large investments ($200M+) |
-| China Big Fund | China | $40B+ (3 phases) | Self-sufficiency |
+| [[China]] Big Fund | [[China]] | $40B+ (3 phases) | Self-sufficiency |
 
 ---
 
@@ -27,8 +27,8 @@ Every major economy now has chip incentives:
 | Total | $52B |
 | Manufacturing | $39B direct subsidies |
 | R&D | $13B |
-| Key recipients | Intel, TSMC, Samsung, Micron |
-| Guardrails | No China expansion for 10 years |
+| Key recipients | [[Intel]], [[TSMC]], Samsung, [[Micron]] |
+| Guardrails | No [[China]] expansion for 10 years |
 
 See [[CHIPS Act]] for full details.
 
@@ -36,14 +36,14 @@ See [[CHIPS Act]] for full details.
 
 ---
 
-## Europe: EU Chips Act
+## [[Europe]]: [[EU Chips Act]]
 
 | Aspect | Details |
 |--------|---------|
 | Total | €43B ($47B) |
 | Goal | 20% global chip production by 2030 |
-| Key projects | Intel Germany, TSMC Dresden |
-| Focus | Automotive, industrial chips |
+| Key projects | [[Intel]] [[Germany]], [[TSMC]] Dresden |
+| Focus | [[Automotive]], industrial chips |
 
 **Challenge**: Starting from ~9% share, 20% goal may be unrealistic.
 
@@ -62,20 +62,20 @@ See [[CHIPS Act]] for full details.
 
 ---
 
-## Japan: Chip subsidies
+## [[Japan]]: Chip subsidies
 
 | Aspect | Details |
 |--------|---------|
 | Total | $13B+ and growing |
-| Key projects | Rapidus (2nm), TSMC Kumamoto |
-| Partners | IBM (Rapidus), Sony/Denso (TSMC) |
+| Key projects | Rapidus (2nm), [[TSMC]] Kumamoto |
+| Partners | [[IBM]] (Rapidus), [[Sony]]/Denso ([[TSMC]]) |
 | Goal | Rebuild domestic manufacturing |
 
 See [[Rapidus]], [[Japan Semiconductor Revival]].
 
 ---
 
-## India: PLI Scheme
+## [[India]]: PLI Scheme
 
 | Aspect | Details |
 |--------|---------|
@@ -84,7 +84,7 @@ See [[Rapidus]], [[Japan Semiconductor Revival]].
 | Key projects | Tata-PSMC fab (Gujarat) |
 | Limitation | No leading-edge, starts with mature nodes |
 
-India targeting downstream, not frontier manufacturing.
+[[India]] targeting downstream, not frontier manufacturing.
 
 ---
 
@@ -101,7 +101,7 @@ See [[Argentina]] for context.
 
 ---
 
-## China: Big Fund
+## [[China]]: Big Fund
 
 | Aspect | Details |
 |--------|---------|
@@ -119,12 +119,12 @@ See [[Argentina]] for context.
 
 | Program | Scale | Leading edge? | Execution |
 |---------|-------|---------------|-----------|
-| **USA** | $52B | Yes (Intel, TSMC) | Strong |
+| **USA** | $52B | Yes ([[Intel]], [[TSMC]]) | Strong |
 | **Korea** | $470B | Yes (memory leader) | Excellent |
-| **Japan** | $13B+ | Attempting (Rapidus) | TBD |
-| **EU** | €43B | Limited | Slow |
-| **China** | $100B+ | Constrained | Blocked |
-| **India** | $10B | No | Early |
+| **[[Japan]]** | $13B+ | Attempting (Rapidus) | TBD |
+| **[[EU]]** | €43B | Limited | Slow |
+| **[[China]]** | $100B+ | Constrained | Blocked |
+| **[[India]]** | $10B | No | Early |
 | **Argentina** | Tax breaks | No (DC focus) | Early |
 
 ---
@@ -138,7 +138,7 @@ See [[Argentina]] for context.
 
 **Watch for:**
 - Subsidy clawback provisions
-- Guardrail enforcement (US-China)
+- Guardrail enforcement (US-[[China]])
 - Execution delays (common in megaprojects)
 - Overcapacity risk in mature nodes
 
@@ -153,9 +153,9 @@ Subsidies don't create capability overnight:
 | Improve project IRRs | Create talent pools |
 | Attract foreign fabs | Transfer tacit knowledge |
 | Accelerate timelines | Overcome physics limits |
-| Signal political will | Guarantee execution |
+| [[Signal]] political will | Guarantee execution |
 
-Korea and Taiwan built chip industries over decades. Subsidies help at the margin but don't substitute for ecosystem depth.
+Korea and [[Taiwan]] built chip industries over decades. Subsidies help at the margin but don't substitute for ecosystem depth.
 
 ---
 
@@ -164,6 +164,6 @@ Korea and Taiwan built chip industries over decades. Subsidies help at the margi
 - [[CHIPS Act]] — US program details
 - [[Export controls]] — The stick to subsidies' carrot
 - [[Argentina]] — RIGI for AI infrastructure
-- [[Rapidus]] — Japan's 2nm bet
+- [[Rapidus]] — [[Japan]]'s 2nm bet
 - [[Foundry Wars]] — Broader competitive context
 - [[Project Stargate]] — RIGI beneficiary

@@ -26,7 +26,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 | Phase 1 success rate | ~40% | **80-90%** |
 | Timeline reduction | — | 25-50% shorter |
 | Cost reduction | $2.6B avg | Significant savings |
-| Target identification | Years | Months |
+| [[Target]] identification | Years | Months |
 
 ---
 
@@ -36,7 +36,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 | Metric | Value |
 |--------|-------|
-| Target | TNIK inhibitor |
+| [[Target]] | TNIK inhibitor |
 | Indication | Idiopathic pulmonary fibrosis (IPF) |
 | Status | **Phase 2a completed** |
 | Result | Met primary endpoint, dose-dependent FVC improvement |
@@ -62,7 +62,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 | [[Insilico Medicine]] | Pharma.AI | Chemistry, generative AI |
 | [[Isomorphic Labs]] | AlphaFold 3 | Protein structure |
 | Schrödinger | Physics-based | Molecular simulation |
-| BenevolentAI | Knowledge graph | Target discovery |
+| BenevolentAI | Knowledge graph | [[Target]] discovery |
 
 ---
 
@@ -70,10 +70,10 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 | Deal | Partners | Value |
 |------|----------|-------|
-| [[Isomorphic Labs]] | Novartis + Lilly | **$3B** |
-| [[Insilico Medicine]] | Sanofi | $1.2B |
-| Monte Rosa | Novartis | $5.76B (Sep 2025) |
-| Recursion | Roche-Genentech | Multi-program |
+| [[Isomorphic Labs]] | [[Novartis]] + Lilly | **$3B** |
+| [[Insilico Medicine]] | [[Sanofi]] | $1.2B |
+| Monte Rosa | [[Novartis]] | $5.76B (Sep 2025) |
+| Recursion | [[Roche]]-Genentech | Multi-program |
 | Recursion | Bayer | Oncology |
 
 ---
@@ -92,7 +92,7 @@ aliases: [AI in biopharma, AI-designed drugs, AI pharma, TechBio]
 
 | Stage | AI Application |
 |-------|----------------|
-| Target discovery | Knowledge graphs, literature mining |
+| [[Target]] discovery | Knowledge graphs, literature mining |
 | Hit identification | Virtual screening, generative chemistry |
 | Lead optimization | ADMET prediction, molecular design |
 | Preclinical | Toxicity prediction, animal model selection |

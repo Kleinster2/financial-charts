@@ -3,7 +3,7 @@ aliases: [SoFi Technologies, SOFI]
 ---
 #actor #company #fintech #neobank #usa #public
 
-**SoFi** — US fintech super-app. Banking + lending + investing. Nasdaq: SOFI. Founded 2011.
+**SoFi** — US fintech super-app. Banking + lending + investing. [[Nasdaq]]: SOFI. Founded 2011.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [SoFi Technologies, SOFI]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | SOFI (Nasdaq) |
+| Ticker | SOFI ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Members | 9M+ |
 | HQ | San Francisco |
@@ -40,7 +40,7 @@ Only US fintech with full bank charter.
 | SoFi Credit Card | Rewards card |
 | Student Loans | Refinancing |
 | Personal Loans | Unsecured |
-| Mortgages | Home loans |
+| Mortgages | [[Home]] loans |
 
 ---
 
@@ -123,7 +123,7 @@ Student loan restart is tailwind.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | SOFI (Nasdaq) |
+| Ticker | SOFI ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Members | 9M+ |
 | Bank charter | Yes (2022) |

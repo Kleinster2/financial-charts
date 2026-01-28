@@ -31,7 +31,7 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 | Global LFP market (2025) | $82.6B |
 | Projected (2030) | $160.3B |
 | CAGR | 14.2% |
-| Share of EV batteries | ~60% in China, growing globally |
+| Share of EV batteries | ~60% in [[China]], growing globally |
 
 ---
 
@@ -39,14 +39,14 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 
 | Company | LFP share | Notes |
 |---------|-----------|-------|
-| **[[CATL]]** | ~48% global | Supplies Tesla, BMW, VW, Toyota |
+| **[[CATL]]** | ~48% global | Supplies [[Tesla]], [[BMW]], VW, [[Toyota]] |
 | **[[BYD]]** | ~32% global | Blade Battery, 90% for EVs |
 | **EVE Energy** | Growing | Chinese tier 2 |
 | **CALB** | Growing | Chinese tier 2 |
 | **Gotion High-Tech** | Growing | VW partnership |
-| **LG Energy Solution** | Entering | $4.3B Tesla deal for US-made LFP (2027-2030) |
+| **[[LG Energy Solution]]** | Entering | $4.3B [[Tesla]] deal for US-made LFP (2027-2030) |
 
-**China dominance:** CATL + BYD = 80% of global LFP market.
+**[[China]] dominance:** CATL + BYD = 80% of global LFP market.
 
 ---
 
@@ -59,7 +59,7 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 | Form factor | Long thin cells arranged like blades |
 | Innovation | Eliminates module layer |
 | Safety | Passed nail penetration test (no fire) |
-| Space efficiency | 50% more cells per pack |
+| [[Space]] efficiency | 50% more cells per pack |
 | Applications | All BYD EVs, [[BYD#Linghui\|Linghui]] fleet vehicles |
 
 **Impact:** Proved LFP could compete with NMC on range through packaging innovation.
@@ -70,26 +70,26 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 
 | Year | Development |
 |------|-------------|
-| 2020 | Tesla announces LFP for China Model 3 |
+| 2020 | [[Tesla]] announces LFP for [[China]] Model 3 |
 | 2021 | BYD Blade Battery launches |
-| 2022 | Tesla expands LFP to US standard range |
-| 2023 | Ford, VW announce LFP plans |
-| 2024 | LFP overtakes NMC in China installations |
-| 2025 | Tesla: 2/3 of vehicles will use LFP |
-| 2027 | LG starts US LFP production for Tesla |
+| 2022 | [[Tesla]] expands LFP to US standard range |
+| 2023 | [[Ford]], VW announce LFP plans |
+| 2024 | LFP overtakes NMC in [[China]] installations |
+| 2025 | [[Tesla]]: 2/3 of vehicles will use LFP |
+| 2027 | LG starts US LFP production for [[Tesla]] |
 
-**Musk:** "Two-thirds of Tesla vehicles will use LFP batteries."
+**Musk:** "Two-thirds of [[Tesla]] vehicles will use LFP batteries."
 
 ---
 
-## Tesla's LFP strategy
+## [[Tesla]]'s LFP strategy
 
 | Metric | Value |
 |--------|-------|
-| US LFP EVs | 85% are Tesla |
-| EU LFP EVs | ~50% are Tesla |
-| Current supplier | CATL (China) |
-| Future supplier | LG Energy Solution (US, 2027-2030) |
+| US LFP EVs | 85% are [[Tesla]] |
+| [[EU]] LFP EVs | ~50% are [[Tesla]] |
+| Current supplier | CATL ([[China]]) |
+| Future supplier | [[LG Energy Solution]] (US, 2027-2030) |
 | Deal value | $4.3B |
 
 **Tariff driver:** US tariffs on Chinese batteries pushing domestic LFP production.
@@ -115,13 +115,13 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 **Bull case:**
 - Dominant chemistry for mass-market EVs
 - Grid storage growth (cost matters most)
-- China supply chain mature
-- LG/others building non-China capacity
+- [[China]] supply chain mature
+- LG/others building non-[[China]] capacity
 
 **Bear case:**
 - Sodium-ion competition coming
 - Energy density ceiling limits premium EV use
-- China concentration risk
+- [[China]] concentration risk
 - Lithium price volatility (though less than NMC)
 
 ---
@@ -143,6 +143,6 @@ Lithium Iron Phosphate (LiFePO4) — the dominant low-cost EV battery chemistry.
 
 ## Sources
 
-- [IEA Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries)
-- [Carbon Credits on China dominance](https://carboncredits.com/china-now-controls-69-of-the-global-ev-battery-market-as-catl-and-byd-surge-in-2025/)
-- [GM Insights LFP market report](https://www.gminsights.com/industry-analysis/lithium-iron-phosphate-lfp-battery-market)
+- [[[IEA]] Global EV Outlook 2025](https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries)
+- [Carbon Credits on [[China]] dominance](https://carboncredits.com/china-now-controls-69-of-the-global-ev-battery-market-as-catl-and-byd-surge-in-2025/)
+- [[[GM]] Insights LFP market report](https://www.gminsights.com/industry-analysis/lithium-iron-phosphate-lfp-battery-market)

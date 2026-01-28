@@ -26,7 +26,7 @@ aliases: [MORN, Morningstar Inc, PitchBook]
 | Segment | Description | Growth driver |
 |---------|-------------|---------------|
 | **Morningstar Data & Analytics** | Research, ratings, data | Core business |
-| **PitchBook** | Private markets data | Fastest growing |
+| **PitchBook** | [[Private markets]] data | Fastest growing |
 | **Morningstar Credit** | NRSRO credit ratings | Expanding |
 | **Morningstar Wealth** | Advisor platforms | |
 | **Morningstar Retirement** | 401(k) services | |
@@ -91,7 +91,7 @@ Acquired 2016. Now the leading private markets database.
 - Creates demand for data/analytics
 
 **Different market than Bloomberg:**
-- Bloomberg/Refinitiv = institutional traders
+- Bloomberg/[[Refinitiv]] = institutional traders
 - Morningstar = retail, advisors, wealth managers
 
 ---

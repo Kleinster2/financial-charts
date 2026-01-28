@@ -14,7 +14,7 @@ Toyota is the world's largest auto chip buyer:
 | Role | Details |
 |------|---------|
 | Auto chips | Largest buyer of MCUs, power semis |
-| Rapidus | Investor in Japan fab consortium |
+| Rapidus | Investor in [[Japan]] fab consortium |
 | Woven City | AI/autonomous testbed |
 | Autonomous | Conservative approach |
 
@@ -28,7 +28,7 @@ Toyota is the world's largest auto chip buyer:
 |-----------|-----------|
 | MCUs | Renesas, [[NXP]], [[Infineon]] |
 | Power semis | Infineon, [[STMicro]], ON Semi |
-| Image sensors | Sony, ON Semi |
+| [[Image sensors]] | [[Sony]], ON Semi |
 | ADAS | Mobileye, NVIDIA, custom |
 
 Toyota demand = significant portion of automotive semiconductor market.
@@ -37,16 +37,16 @@ Toyota demand = significant portion of automotive semiconductor market.
 
 ## Rapidus investment
 
-**Japan semiconductor revival:**
+**[[Japan]] semiconductor revival:**
 
 | Metric | Value |
 |--------|-------|
 | Investment | Minority stake |
-| Goal | 2nm logic in Japan by 2027 |
-| Partners | Sony, NTT, others |
+| Goal | 2nm logic in [[Japan]] by 2027 |
+| Partners | [[Sony]], [[NTT]], others |
 | Tech source | [[IBM]] research partnership |
 
-Toyota supporting Japan's effort to rebuild domestic chip manufacturing.
+Toyota supporting [[Japan]]'s effort to rebuild domestic chip manufacturing.
 
 See [[Rapidus]], [[Japan Semiconductor Revival]].
 
@@ -54,14 +54,14 @@ See [[Rapidus]], [[Japan Semiconductor Revival]].
 
 ## Woven City
 
-**AI/autonomous testbed (Susono, Japan):**
+**AI/autonomous testbed (Susono, [[Japan]]):**
 
 | Metric | Value |
 |--------|-------|
 | Status | Under construction |
 | Purpose | Living lab for mobility/AI |
 | Population | 2,000 residents (target) |
-| Tech | Autonomous vehicles, AI, robotics |
+| Tech | [[Autonomous vehicles]], AI, robotics |
 
 Subsidiary: Woven by Toyota (formerly Toyota Research Institute)
 
@@ -76,7 +76,7 @@ Subsidiary: Woven by Toyota (formerly Toyota Research Institute)
 | Woven City | Controlled testbed |
 | Guardian | Driver assist (not full autonomy) |
 | Chauffeur | Full autonomy (longer-term) |
-| Partners | Aurora (investment) |
+| Partners | [[Aurora]] (investment) |
 
 Toyota skeptical of premature full autonomy. Focusing on assist features first.
 
@@ -138,7 +138,7 @@ Toyota was better prepared than some competitors due to inventory practices.
 
 **Bear case:**
 - Behind on BEVs
-- Tesla/China competition
+- Tesla/[[China]] competition
 - Legacy ICE exposure
 - Slow to adapt
 
@@ -161,7 +161,7 @@ Toyota was better prepared than some competitors due to inventory practices.
 
 ## Related
 
-- [[Rapidus]] — investor (Japan semiconductor revival)
+- [[Rapidus]] — investor ([[Japan]] semiconductor revival)
 - [[Japan Semiconductor Revival]] — context
 - [[Tesla]] — competitor (EV, autonomous)
 - [[NVIDIA]] — supplier (ADAS chips)

@@ -1,6 +1,6 @@
 #actor #smartphone #china
 
-**Oppo** — Chinese smartphone OEM, includes OnePlus brand. Vulnerable to memory shortage due to low margins.
+**Oppo** — Chinese smartphone OEM, includes [[OnePlus]] brand. Vulnerable to memory shortage due to low margins.
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Metric | Value |
 |--------|-------|
-| Headquarters | Dongguan, China |
+| Headquarters | Dongguan, [[China]] |
 | Parent | [[BBK Electronics]] |
-| Brands | Oppo, OnePlus |
+| Brands | Oppo, [[OnePlus]] |
 | Global rank | #4-5 smartphone OEM |
 | Status | Private |
 
@@ -30,7 +30,7 @@ One of the largest forecast revisions — low margins can't absorb component cos
 
 - Low margins vs Apple/Samsung
 - Entry-level smartphone exposure (hit hardest by DRAM shortage)
-- Limited pricing power in competitive China market
+- Limited pricing power in competitive [[China]] market
 - BBK siblings (Vivo, Realme) face same pressures
 
 ---

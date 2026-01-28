@@ -79,7 +79,7 @@ aliases: [BTR, build to rent, purpose-built rental]
 | Rent growth expectation | +2% |
 | Demand driver | Millennials (64% of experts cite) |
 
-**Fannie Mae (Apr 2025):** 35% of consumers prefer renting over buying if they moved — highest share since October.
+**[[Fannie Mae]] (Apr 2025):** 35% of consumers prefer renting over buying if they moved — highest share since October.
 
 ---
 

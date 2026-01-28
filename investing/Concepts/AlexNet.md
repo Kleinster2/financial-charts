@@ -92,8 +92,8 @@ Input (224×224×3)
 | Company | Response |
 |---------|----------|
 | **[[Google]]** | Acquired Hinton's DNNresearch (2013) |
-| **Facebook** | Hired Yann LeCun to lead AI (2013) |
-| **Baidu** | Hired Andrew Ng (2014) |
+| **Facebook** | Hired [[Yann LeCun]] to lead AI (2013) |
+| **[[Baidu]]** | Hired [[Andrew Ng]] (2014) |
 | **Everyone** | Pivoted to deep learning |
 
 **NVIDIA stock:** Beginning of the AI-driven rise.

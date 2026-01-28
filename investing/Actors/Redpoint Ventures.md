@@ -3,7 +3,7 @@ aliases: [Redpoint]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Redpoint Ventures** — Early-stage VC. Netflix, Stripe, Twilio investor. Physical Intelligence backer. ~$6B AUM.
+**Redpoint Ventures** — Early-stage VC. [[Netflix]], Stripe, [[Twilio]] investor. Physical Intelligence backer. ~$6B AUM.
 
 ---
 
@@ -22,12 +22,12 @@ aliases: [Redpoint]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Netflix** | Early | Public (NFLX) |
+| **[[Netflix]]** | Early | Public (NFLX) |
 | **[[Stripe]]** | Early | $129B |
-| **Twilio** | Early | Public (TWLO) |
+| **[[Twilio]]** | Early | Public (TWLO) |
 | **[[Physical Intelligence]]** | Series B | $5.6B |
-| **Snowflake** | Early | Public (SNOW) |
-| **HashiCorp** | Early | Acquired by IBM |
+| **[[Snowflake]]** | Early | Public (SNOW) |
+| **HashiCorp** | Early | Acquired by [[IBM]] |
 | **2U** | Early | Public (TWOU) |
 
 ---
@@ -36,10 +36,10 @@ aliases: [Redpoint]
 
 | Sector | Examples |
 |--------|----------|
-| **Infrastructure** | Stripe, Twilio, HashiCorp |
-| **Enterprise** | Snowflake |
-| **Consumer** | Netflix |
-| **AI/Robotics** | Physical Intelligence |
+| **Infrastructure** | Stripe, [[Twilio]], HashiCorp |
+| **Enterprise** | [[Snowflake]] |
+| **[[Consumer]]** | [[Netflix]] |
+| **AI/[[Robotics]]** | Physical Intelligence |
 
 ---
 
@@ -50,7 +50,7 @@ aliases: [Redpoint]
 | Founded | 1999 |
 | AUM | ~$6B |
 | HQ | Menlo Park |
-| Key exits | Netflix, Twilio, Snowflake |
+| Key exits | [[Netflix]], [[Twilio]], [[Snowflake]] |
 
 ---
 

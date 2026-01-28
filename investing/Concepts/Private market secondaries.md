@@ -89,7 +89,7 @@ Selling LP stake in a VC fund, not individual company shares.
 | [[Forge Global]] | Secondary marketplace | Broker, ATS |
 | **EquityZen** | Curated secondaries | Funds + direct |
 | [[Carta]] (CartaX) | Cap table + liquidity | Integrated |
-| **Nasdaq Private Market** | Tender offers | Company-sponsored |
+| **[[Nasdaq]] Private Market** | Tender offers | Company-sponsored |
 | **Zanbato** | Institutional secondaries | Marketplace |
 | [[AngelList]] | Syndicates + funds | SPV platform |
 
@@ -122,7 +122,7 @@ How VCs like [[Thrive Capital]] give LPs access to hot deals:
 | Component | Detail |
 |-----------|--------|
 | Vehicle | Delaware LLC (typically) |
-| Manager | VC firm (Thrive, a16z, etc.) |
+| Manager | VC firm (Thrive, [[a16z]], etc.) |
 | Investors | Existing LPs, strategic partners |
 | Fees | 0-2% management + 20% carry |
 | Minimum | $100K-$1M typically |
@@ -168,7 +168,7 @@ SPV LPs get OpenAI exposure; Thrive earns carry on both.
 |---------|------------|-------------------|
 | [[OpenAI]] | $157B (Oct 2024) | Premium — trading ~$250-300B implied |
 | [[Anthropic]] | $60B | Premium — strong demand |
-| SpaceX | ~$350B | Premium — perennial demand |
+| [[SpaceX]] | ~$350B | Premium — perennial demand |
 | [[Stripe]] | $50B (2023) | Discount — stale round |
 
 ### Price discovery challenges
@@ -208,7 +208,7 @@ Most private companies have ROFR on secondary sales:
 | **Concentration** | 80%+ net worth in one stock |
 | **Taxes** | Need cash for AMT on ISOs |
 | **Life events** | House, divorce, illness |
-| **Uncertainty** | Bird in hand vs. IPO timing |
+| **Uncertainty** | [[Bird]] in hand vs. IPO timing |
 
 ### Typical restrictions
 

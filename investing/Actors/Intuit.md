@@ -3,7 +3,7 @@ aliases: [INTU]
 ---
 #actor #saas #fintech #smb #usa #public
 
-**Intuit** — SMB finance software. TurboTax, QuickBooks, Mailchimp. $18.8B revenue. OpenAI $100M+ deal.
+**Intuit** — SMB finance software. TurboTax, QuickBooks, Mailchimp. $18.8B revenue. [[OpenAI]] $100M+ deal.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [INTU]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | INTU (Nasdaq) |
+| Ticker | INTU ([[Nasdaq]]) |
 | Revenue | **$18.8B** (FY25, +16%) |
 | Market cap | ~$180B |
 | FY26 guidance | $21.2B (+13%) |
@@ -27,18 +27,18 @@ aliases: [INTU]
 | TurboTax Live | **$2B** (+47% YoY) |
 | QuickBooks Online | +22% YoY |
 | Mailchimp | Marketing automation |
-| Credit Karma | Consumer finance |
+| Credit Karma | [[Consumer]] finance |
 
 ---
 
 ## AI strategy
 
-**OpenAI partnership:**
+**[[OpenAI]] partnership:**
 - $100M+ deal for model access
 - GenOS internal AI system
-- AI agents across all products
+- [[AI agents]] across all products
 
-**AI agents deployed:**
+**[[AI agents]] deployed:**
 - TurboTax AI assistant
 - QuickBooks Intuit Assist
 - Mid-market Enterprise Suite (60% less manual work)
@@ -49,7 +49,7 @@ aliases: [INTU]
 
 | Segment | Description |
 |---------|-------------|
-| Consumer | TurboTax, Credit Karma |
+| [[Consumer]] | TurboTax, Credit Karma |
 | SMB | QuickBooks, Mailchimp |
 | ProConnect | Tax professional tools |
 
@@ -71,7 +71,7 @@ aliases: [INTU]
 | Market | Size |
 |--------|------|
 | Mid-market TAM | **$89B** |
-| Consumer tax | Dominant share |
+| [[Consumer]] tax | Dominant share |
 | SMB accounting | Leader |
 
 ---
@@ -97,7 +97,7 @@ aliases: [INTU]
 | Metric | Value |
 |--------|-------|
 | Ticker | INTU |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$19B |
 | Focus | SMB finance, tax |
 
@@ -113,6 +113,6 @@ aliases: [INTU]
 ## Sources
 
 - [Intuit FY25 results](https://investors.intuit.com/news-events/press-releases/detail/1266/intuit-reports-strong-fourth-quarter-and-full-year-fiscal-2025-results-sets-fiscal-2026-guidance-with-double-digit-revenue-growth-and-continued-operating-margin-expansion)
-- [CNBC: OpenAI deal](https://www.cnbc.com/2025/11/18/intuit-pays-openai-100-million-turbotax-integrates-chatgpt.html)
+- [CNBC: [[OpenAI]] deal](https://www.cnbc.com/2025/11/18/intuit-pays-openai-100-million-turbotax-integrates-chatgpt.html)
 
 *Created 2026-01-09*

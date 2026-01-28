@@ -58,11 +58,11 @@ Jackups provide stability, drillships provide upside.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Moderate:**
 
-- Jackups relevant for shallow Venezuela waters
+- Jackups relevant for shallow [[Venezuela]] waters
 - Lake Maracaibo potential
 - Better positioned than deepwater-only peers
 

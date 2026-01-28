@@ -63,7 +63,7 @@ Everyone is in Ashburn.
 ## Power constraints
 
 **Growing challenge:**
-- Dominion Energy capacity strained
+- [[Dominion Energy]] capacity strained
 - New projects delayed
 - Power = bottleneck
 - Pushing expansion elsewhere
@@ -99,7 +99,7 @@ Ashburn's constraints = other hubs' opportunity.
 |---------|------------------|
 | [[Equinix]] (EQIX) | Major hub |
 | [[Digital Realty]] (DLR) | Significant |
-| Dominion Energy (D) | Power provider |
+| [[Dominion Energy]] (D) | Power provider |
 | Crown Castle (CCI) | Fiber |
 
 ---

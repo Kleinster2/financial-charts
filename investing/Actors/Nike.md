@@ -65,7 +65,7 @@ aliases: [NKE, Nike Inc]
 
 ## Early recovery signals (FY26)
 
-| Signal | Detail |
+| [[Signal]] | Detail |
 |--------|--------|
 | Wholesale growth | +8% in recent quarter |
 | Promotion cuts | Surgical, full-price focus |
@@ -82,7 +82,7 @@ But: Q4 FY25 EPS collapsed to $0.14 (-86%) on aggressive reinvestment and invent
 | Metric | Value |
 |--------|-------|
 | FY26 tariff cost | **$1.5B** (up from $1B initial estimate) |
-| Manufacturing base | Vietnam (~50%), China (~25%), Indonesia |
+| Manufacturing base | Vietnam (~50%), [[China]] (~25%), Indonesia |
 | Price pass-through | Footwear +17%, apparel +14% |
 | Risk | Consumer pushback on higher prices |
 

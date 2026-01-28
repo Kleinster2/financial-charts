@@ -2,7 +2,7 @@
 
 #actor #founder #uk #fraud #cautionary-tale
 
-**Sachin Dev Duggal** — Former CEO of [[Builder.ai]], the collapsed $1.5B "no-code AI" startup. Fled to Dubai amid fraud allegations. Under investigation by US Attorney's office (Manhattan), India's Enforcement Directorate. The AI bust that wasn't AI.
+**Sachin Dev Duggal** — Former CEO of [[Builder.ai]], the collapsed $1.5B "no-code AI" startup. Fled to Dubai amid fraud allegations. Under investigation by US Attorney's office (Manhattan), [[India]]'s Enforcement Directorate. The AI bust that wasn't AI.
 
 ---
 
@@ -14,8 +14,8 @@
 | Peak valuation | $1.5B |
 | Total raised | $450M+ |
 | Status | Insolvency (May 2025) |
-| Location | Dubai (fled UK) |
-| Investigations | US Attorney (Manhattan), India ED |
+| Location | Dubai (fled [[UK]]) |
+| Investigations | US Attorney (Manhattan), [[India]] ED |
 
 ---
 
@@ -23,9 +23,9 @@
 
 **The pitch:** AI-powered no-code platform making app development "as easy as ordering pizza."
 
-**The reality:** 700+ human developers in India doing the work, not AI.
+**The reality:** 700+ human developers in [[India]] doing the work, not AI.
 
-**The investors:** Microsoft, Qatar Investment Authority, Jungle Ventures, [[Insight Partners]].
+**The investors:** [[Microsoft]], Qatar Investment Authority, Jungle Ventures, [[Insight Partners]].
 
 ---
 
@@ -37,7 +37,7 @@
 |-------|--------|
 | Claimed revenue (2024) | $220M |
 | Actual revenue | ~$55M |
-| Gap | Counting projected future contracts as current revenue |
+| [[Gap]] | Counting projected future contracts as current revenue |
 | Round-tripping | $180M fake billings with VerSe Innovation |
 
 ### Round-tripping scheme
@@ -54,8 +54,8 @@ Builder.ai and Indian social media company VerSe Innovation allegedly billed eac
 | Authority | Focus |
 |-----------|-------|
 | US Attorney (Manhattan) | Subpoenas to employees, document preservation orders |
-| India Enforcement Directorate | Money laundering probe (Videocon connection) |
-| UK | Insolvency proceedings |
+| [[India]] Enforcement Directorate | Money laundering probe (Videocon connection) |
+| [[UK]] | Insolvency proceedings |
 
 **Videocon connection:** ED probing "unexplained transactions" between Duggal's earlier company and bankrupt electronics giant Videocon (2008-2012).
 
@@ -66,9 +66,9 @@ Builder.ai and Indian social media company VerSe Innovation allegedly billed eac
 | Date | Event |
 |------|-------|
 | 2016 | Builder.ai founded |
-| 2023 | $230M funding (Microsoft, QIA) |
+| 2023 | $230M funding ([[Microsoft]], QIA) |
 | 2024 | $50M borrowed (October) |
-| March 2024 | Criminal cases filed in India |
+| March 2024 | Criminal cases filed in [[India]] |
 | May 2025 | Insolvency declared |
 | May 2025 | US subpoenas issued |
 
@@ -76,7 +76,7 @@ Builder.ai and Indian social media company VerSe Innovation allegedly billed eac
 
 ## Dubai escape
 
-Duggal relocated to Dubai before collapse. Continued speaking at regional tech conferences. Dubai Multi Commodities Centre hosted him at AI center announcement in 2024.
+Duggal relocated to Dubai before collapse. Continued speaking at regional tech conferences. Dubai Multi [[Commodities]] Centre hosted him at AI center announcement in 2024.
 
 ---
 
@@ -100,7 +100,7 @@ Duggal relocated to Dubai before collapse. Continued speaking at regional tech c
 - [[Builder.ai]] — collapsed startup he founded
 
 ### Investors (burned)
-- Microsoft — strategic investor
+- [[Microsoft]] — strategic investor
 - Qatar Investment Authority — sovereign wealth fund
 - [[Insight Partners]] — VC investor
 

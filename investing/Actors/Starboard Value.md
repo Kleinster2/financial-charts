@@ -37,7 +37,7 @@ aliases: [Starboard]
 | **News Corp** | 2023 | Fox reunion blocked |
 | **Salesforce** | 2023 | With Elliott |
 | **Box** | 2021 | Board seats |
-| **Macy's** | 2024 | Buyout push |
+| **[[Macy's]]** | 2024 | Buyout push |
 
 ---
 

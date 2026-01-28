@@ -3,7 +3,7 @@ aliases: [BA.L, BAE]
 ---
 #actor #defense #uk #public #ai
 
-**BAE Systems** — UK defense prime. Electronic warfare, naval ships, combat vehicles. AI for defense systems.
+**BAE Systems** — [[UK]] defense prime. Electronic warfare, naval ships, combat vehicles. AI for defense systems.
 
 ---
 
@@ -34,7 +34,7 @@ aliases: [BA.L, BAE]
 | Area | Application |
 |------|-------------|
 | Electronic warfare | AI signal processing |
-| Autonomous vehicles | Ground robotics |
+| [[Autonomous vehicles]] | Ground robotics |
 | Cyber | AI threat detection |
 | Manufacturing | AI optimization |
 
@@ -49,8 +49,8 @@ aliases: [BA.L, BAE]
 - Typhoon/F-35 production
 
 **Bear:**
-- UK pound exposure
-- UK government dependency
+- [[UK]] pound exposure
+- [[UK]] government dependency
 - US market competition
 - Long program cycles
 

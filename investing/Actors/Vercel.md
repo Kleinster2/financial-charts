@@ -2,7 +2,7 @@
 
 #actor #startup #private #usa #developer-tools #frontend
 
-**Vercel** — Frontend cloud platform, creator of Next.js. Founded by [[Guillermo Rauch]] (2015). **$200M+ ARR, $9.3B valuation (Sept 2025).** Powers deployments for Nike, Walmart, PayPal. v0 AI tool has 3.5M+ users. Often paired with [[Supabase]] for full-stack apps.
+**Vercel** — Frontend cloud platform, creator of Next.js. Founded by [[Guillermo Rauch]] (2015). **$200M+ ARR, $9.3B valuation (Sept 2025).** Powers deployments for [[Nike]], [[Walmart]], [[PayPal]]. v0 AI tool has 3.5M+ users. Often paired with [[Supabase]] for full-stack apps.
 
 ---
 
@@ -51,7 +51,7 @@ Nearly 4x valuation increase in 18 months.
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Series F | Sept 2025 | $300M | $9.3B | [[Accel]], GIC |
+| Series F | Sept 2025 | $300M | $9.3B | [[Accel]], [[GIC]] |
 | Series E | May 2024 | $250M | $3.25B | — |
 | Earlier | 2015-2023 | $313M | — | Various |
 
@@ -64,11 +64,11 @@ Nearly 4x valuation increase in 18 months.
 | Investor | Notes |
 |----------|-------|
 | [[Accel]] | Series F co-lead |
-| GIC | Series F co-lead (Singapore sovereign wealth) |
-| BlackRock | Series F |
-| Khosla Ventures | Series F |
-| General Catalyst | Series F |
-| a16z | Earlier rounds |
+| [[GIC]] | Series F co-lead (Singapore sovereign wealth) |
+| [[BlackRock]] | Series F |
+| [[Khosla Ventures]] | Series F |
+| [[General Catalyst]] | Series F |
+| [[a16z]] | Earlier rounds |
 
 ---
 
@@ -93,10 +93,10 @@ AI-powered web development tool (launched 2023):
 | Metric | Value |
 |--------|-------|
 | Users | 3.5M+ unique |
-| Revenue mix | 50%+ from Teams/Enterprise |
+| Revenue mix | 50%+ from [[Teams]]/Enterprise |
 | Award | 2025 Webby (developer tools) |
 
-Generates web applications from natural language prompts. Part of the "vibe coding" wave alongside Bolt.new, Lovable, Cursor.
+Generates web applications from natural language prompts. Part of the "vibe coding" wave alongside Bolt.new, [[Lovable]], [[Cursor]].
 
 ### AI SDK
 
@@ -104,7 +104,7 @@ Developer toolkit for building AI applications:
 
 | Metric | Value |
 |--------|-------|
-| Weekly downloads | 3M+ |
+| Weekly downloads | [[3M]]+ |
 
 ---
 
@@ -112,8 +112,8 @@ Developer toolkit for building AI applications:
 
 | Tier | Companies |
 |------|-----------|
-| Enterprise | Nike, Walmart, Target, PayPal, AT&T, Hulu |
-| AI/Tech | Midjourney, Grok, Notion |
+| Enterprise | [[Nike]], [[Walmart]], [[Target]], [[PayPal]], [[AT&T]], Hulu |
+| AI/Tech | Midjourney, [[Grok]], [[Notion]] |
 | Startups | Thousands via free tier |
 
 ---
@@ -137,7 +137,7 @@ Invest in Next.js → More adoption
 | **Own the framework** | Next.js is the standard; Vercel is optimized for it |
 | **Developer love** | 130K GitHub stars, massive community |
 | **AI timing** | v0 caught the vibe coding wave early |
-| **Enterprise motion** | Nike, Walmart validate for other enterprises |
+| **Enterprise motion** | [[Nike]], [[Walmart]] validate for other enterprises |
 
 ---
 
@@ -146,8 +146,8 @@ Invest in Next.js → More adoption
 | Competitor | Positioning |
 |------------|-------------|
 | Netlify | Similar (frontend platform), smaller |
-| AWS Amplify | Amazon's version, less DX-focused |
-| Cloudflare Pages | Edge-first, CDN heritage |
+| AWS Amplify | [[Amazon]]'s version, less DX-focused |
+| [[Cloudflare]] Pages | Edge-first, CDN heritage |
 | Railway | Broader backend focus |
 
 ---

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #robotics #usa #private
 
-**Agility Robotics** — Digit humanoid robot. Amazon partnership. Warehouse focus.
+**Agility [[Robotics]]** — Digit humanoid robot. Amazon partnership. Warehouse focus.
 
 ---
 
@@ -86,8 +86,8 @@ Starting with warehouses.
 | Investor | Notes |
 |----------|-------|
 | [[Amazon]] | Lead (Series B) — anchor customer |
-| DCVC | Deep tech VC |
-| Playground Global | Robotics focus |
+| [[DCVC]] | Deep tech VC |
+| Playground Global | [[Robotics]] focus |
 | Industrial Partners | Strategic |
 
 **Total raised:** $160M+
@@ -100,7 +100,7 @@ Starting with warehouses.
 
 | Competitor | Advantage | Agility vs |
 |------------|-----------|------------|
-| [[Figure AI]] | OpenAI partnership | Amazon relationship |
+| [[Figure AI]] | [[OpenAI]] partnership | Amazon relationship |
 | [[Tesla]] Optimus | Tesla scale | First to market |
 | [[Boston Dynamics]] | Proven tech | Commercial focus |
 

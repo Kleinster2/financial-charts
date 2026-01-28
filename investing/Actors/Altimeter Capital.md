@@ -3,7 +3,7 @@ aliases: [Altimeter]
 ---
 #actor #investor #hedgefund #usa #private
 
-**Altimeter Capital** — Brad Gerstner's fund. Public + private tech. Snowflake, Crusoe, Grab investor. ~$20B AUM.
+**Altimeter Capital** — Brad Gerstner's fund. Public + private tech. [[Snowflake]], Crusoe, Grab investor. ~$20B AUM.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [Altimeter]
 | Fact | Detail |
 |------|--------|
 | Background | Lawyer, then investor |
-| Known for | SPAC boom, Snowflake |
+| Known for | SPAC boom, [[Snowflake]] |
 | Style | Public advocacy, TV presence |
 | Altimeter Growth | SPAC vehicle |
 
@@ -38,18 +38,18 @@ aliases: [Altimeter]
 |---------|-------|--------|
 | **[[Crusoe Energy]]** | Series E | $10B+ |
 | **[[Grab]]** | Pre-SPAC | Public (GRAB) |
-| **Snowflake** | Pre-IPO | Public (SNOW) |
+| **[[Snowflake]]** | Pre-IPO | Public (SNOW) |
 | **[[Databricks]]** | Growth | $134B |
 
 ### Public positions
 
-Active in public tech stocks (Snowflake, etc).
+Active in public tech stocks ([[Snowflake]], etc).
 
 ---
 
 ## SPAC activity
 
-| Vehicle | Target | Status |
+| Vehicle | [[Target]] | Status |
 |---------|--------|--------|
 | Altimeter Growth 1 | Grab | Completed |
 | Altimeter Growth 2 | — | Various |

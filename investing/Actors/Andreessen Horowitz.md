@@ -1,19 +1,19 @@
 ---
-aliases: [a16z, Andreessen]
+aliases: [[[a16z]], Andreessen]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Andreessen Horowitz (a16z)** — Top-tier VC. ~$35B AUM. OpenAI, Stripe, Coinbase, SSI investor. Marc Andreessen + Ben Horowitz.
+**Andreessen Horowitz ([[a16z]])** — Top-tier VC. ~$35B AUM. OpenAI, Stripe, Coinbase, SSI investor. [[Marc Andreessen]] + Ben Horowitz.
 
 ---
 
-## Why a16z matters
+## Why [[a16z]] matters
 
 | Metric | Value |
 |--------|-------|
 | Founded | 2009 |
 | AUM | ~$35B |
-| Founders | Marc Andreessen, Ben Horowitz |
+| Founders | [[Marc Andreessen]], Ben Horowitz |
 | HQ | Menlo Park |
 | Style | Platform + media |
 
@@ -21,13 +21,13 @@ aliases: [a16z, Andreessen]
 
 ## Founders
 
-### Marc Andreessen
+### [[Marc Andreessen]]
 
 | Fact | Detail |
 |------|--------|
 | Background | Netscape co-founder |
 | Known for | "Software eating world" essay |
-| Board seats | Meta, others |
+| Board seats | [[Meta]], others |
 | Politics | Trump supporter (2024) |
 
 ### Ben Horowitz
@@ -51,9 +51,9 @@ aliases: [a16z, Andreessen]
 | **[[Thinking Machines Lab]]** | Led $2B seed | $12B |
 | **[[Mistral]]** | Series A | $14B |
 | **Facebook** | Growth | Public (META) |
-| **Airbnb** | Early | Public (ABNB) |
+| **[[Airbnb]]** | Early | Public (ABNB) |
 | **GitHub** | Early | Acquired by MSFT |
-| **Instacart** | Early | Public (CART) |
+| **[[Instacart]]** | Early | Public (CART) |
 
 ---
 
@@ -61,10 +61,10 @@ aliases: [a16z, Andreessen]
 
 | Sector | Examples |
 |--------|----------|
-| **AI/ML** | OpenAI, Anthropic, SSI, TML |
-| **Crypto** | Coinbase, Solana, Uniswap |
-| **Enterprise** | GitHub, Databricks |
-| **Consumer** | Airbnb, Instacart |
+| **AI/ML** | OpenAI, [[Anthropic]], SSI, TML |
+| **[[Crypto]]** | Coinbase, Solana, Uniswap |
+| **Enterprise** | GitHub, [[Databricks]] |
+| **[[Consumer]]** | [[Airbnb]], [[Instacart]] |
 | **Bio** | Various |
 
 ---
@@ -78,18 +78,18 @@ aliases: [a16z, Andreessen]
 | BD | Customer introductions |
 | Policy | Government relations |
 
-a16z pioneered VC "platform" services.
+[[a16z]] pioneered VC "platform" services.
 
 ---
 
-## Crypto focus
+## [[Crypto]] focus
 
 | Fund | Size |
 |------|------|
-| Crypto Fund I | $350M |
-| Crypto Fund II | $515M |
-| Crypto Fund III | $2.2B |
-| Crypto Fund IV | $4.5B |
+| [[Crypto]] Fund I | $350M |
+| [[Crypto]] Fund II | $515M |
+| [[Crypto]] Fund III | $2.2B |
+| [[Crypto]] Fund IV | $4.5B |
 
 Largest crypto-focused VC allocation.
 

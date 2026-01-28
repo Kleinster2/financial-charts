@@ -3,7 +3,7 @@ aliases: [Smart NYC, New York smart city]
 ---
 #actor #geography #smartcity #usa
 
-**NYC smart city** — LinkNYC network (17M subscribers), 311 service platform, subway connectivity expansion. Preparing for 2026 FIFA World Cup with AI-powered crowd management. Boldyn Networks driving 5G/fiber buildout. Data flows to Google Cloud via Alphabet's Intersection.
+**NYC smart city** — LinkNYC network (17M subscribers), 311 service platform, subway connectivity expansion. Preparing for 2026 FIFA World Cup with AI-powered crowd management. Boldyn Networks driving [[5G]]/fiber buildout. Data flows to [[Google]] Cloud via Alphabet's Intersection.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Smart NYC, New York smart city]
 | Metric | Value |
 |--------|-------|
 | Global rank | Top 10 |
-| Population | 8.3M |
+| Population | 8.[[3M]] |
 | Lead agency | Office of Technology & Innovation |
 | FY2026 tech budget | $32.6M+ for infrastructure |
 
@@ -25,7 +25,7 @@ aliases: [Smart NYC, New York smart city]
 | Metric | Value |
 |--------|-------|
 | Kiosks installed | 2,204 (Jan 2025) |
-| Target | 7,500 (replacing payphones) |
+| [[Target]] | 7,500 (replacing payphones) |
 | Wi-Fi subscribers | **17M+** |
 | Daily sessions | 1M+ |
 | Phone calls made | 30M+ total |
@@ -34,7 +34,7 @@ aliases: [Smart NYC, New York smart city]
 
 **Services:** Free Wi-Fi, nationwide calling, device charging, 911/311 access.
 
-**Link5G:** Next-generation kiosks with 5G.
+**Link5G:** Next-generation kiosks with [[5G]].
 
 ### Business model
 
@@ -78,8 +78,8 @@ Intersection operates LinkNYC under franchise agreement with NYC. Alphabet's Sid
 |------------|--------|
 | Operator | Boldyn Networks |
 | Coverage | 418 miles |
-| Daily riders served | 3M+ |
-| Technology | Cellular, expanding to 5G |
+| Daily riders served | [[3M]]+ |
+| Technology | Cellular, expanding to [[5G]] |
 
 ---
 
@@ -112,8 +112,8 @@ Intersection operates LinkNYC under franchise agreement with NYC. Alphabet's Sid
 | **Microgrid** | 13.2 MW cogeneration plant |
 | **Building automation** | Centralized BMS across all towers |
 | **Waste** | Pneumatic tube collection |
-| **Sensors** | Pedestrian flow, air quality |
-| **Connectivity** | Dedicated fiber, 5G-ready |
+| **[[Sensors]]** | Pedestrian flow, air quality |
+| **Connectivity** | Dedicated fiber, [[5G]]-ready |
 
 ### Relevance
 
@@ -129,7 +129,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 |-----------|--------|
 | LinkNYC Wi-Fi | 2,204 kiosks |
 | Subway cellular | 418 miles |
-| 5G expansion | Ongoing |
+| [[5G]] expansion | Ongoing |
 | Fiber backbone | Building out |
 
 ### Vendor: Boldyn Networks
@@ -138,7 +138,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 |---------|-------|
 | Subway expansion | Full system coverage |
 | LinkNYC | Infrastructure partner |
-| 5G | Deployment |
+| [[5G]] | Deployment |
 
 ---
 
@@ -150,7 +150,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 |-------------|--------|
 | LinkNYC | 17M+ subscriber records, 1M+ daily sessions |
 | 311 system | 30M+ service requests (cumulative) |
-| Subway sensors | 3M+ daily rider movements |
+| Subway sensors | [[3M]]+ daily rider movements |
 | Traffic cameras | 10,000+ feeds |
 | Open data portal | 2,400+ datasets |
 
@@ -167,7 +167,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 
 | Operator | Data handling |
 |----------|---------------|
-| **Intersection (LinkNYC)** | Google Cloud (Alphabet parent) |
+| **Intersection (LinkNYC)** | [[Google]] Cloud (Alphabet parent) |
 | **Boldyn Networks** | Transit connectivity data |
 | **Hudson Yards** | Private data center in development |
 | **[[Cloudflare]]** | WAF, DDoS protection for city agencies |
@@ -198,7 +198,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 
 | Factor | Implication |
 |--------|-------------|
-| **Google Cloud** | Alphabet benefits from Intersection data flow |
+| **[[Google]] Cloud** | Alphabet benefits from Intersection data flow |
 | **Edge computing** | Link5G kiosks enable edge processing |
 | **Data gravity** | NYC data stays in-region (latency, compliance) |
 | **AI training** | Anonymized urban data valuable for smart city AI |
@@ -232,13 +232,13 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 
 | Angle | Detail |
 |-------|--------|
-| **Boldyn Networks** | Major infrastructure partner (subway, 5G) |
+| **Boldyn Networks** | Major infrastructure partner (subway, [[5G]]) |
 | **Intersection/Alphabet** | LinkNYC operator, $500M+ franchise value |
 | **FIFA 2026** | Smart city showcase, drives infrastructure spend |
 | **Link expansion** | 5,000+ kiosks remaining to deploy |
 | **Hudson Yards** | $25B smart district, Related Companies |
 | **Ad-supported model** | Profitable public infrastructure template |
-| **Data infrastructure** | Google Cloud via Intersection, municipal DCs |
+| **Data infrastructure** | [[Google]] Cloud via Intersection, municipal DCs |
 
 ### Why NYC matters for smart city investing
 
@@ -264,7 +264,7 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 
 | Factor | Detail |
 |--------|--------|
-| **Scale** | 8.3M residents, density enables ROI |
+| **Scale** | 8.[[3M]] residents, density enables ROI |
 | **Transit** | Subway ridership funds connectivity investment |
 | **Ad market** | Premium CPMs fund LinkNYC |
 | **Events** | FIFA 2026, UN General Assembly drive upgrades |
@@ -289,9 +289,9 @@ Hudson Yards demonstrates greenfield smart city approaches within an existing me
 - [[Data Centers]] — infrastructure requirements
 
 ### Actors
-- Boldyn Networks — subway/5G connectivity partner
+- Boldyn Networks — subway/[[5G]] connectivity partner
 - Intersection (Alphabet) — LinkNYC operator, spun from Sidewalk Labs
-- [[Alphabet]] — Intersection parent, Google Cloud handles LinkNYC data
+- [[Alphabet]] — Intersection parent, [[Google]] Cloud handles LinkNYC data
 - [[Cloudflare]] — WAF/DDoS for city agencies, 500M requests blocked/month
 - Related Companies — Hudson Yards developer
 

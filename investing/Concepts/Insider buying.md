@@ -17,7 +17,7 @@
 
 ---
 
-## Signal strength
+## [[Signal]] strength
 
 | Type | Strength |
 |------|----------|
@@ -31,7 +31,7 @@
 
 ## Amount matters
 
-| Size | Signal |
+| Size | [[Signal]] |
 |------|--------|
 | >$1M | Very significant |
 | $500K-$1M | Significant |
@@ -56,7 +56,7 @@ Relative to net worth matters.
 
 ## Red flags
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | Selling into strength | Taking profits |
 | CFO selling | Financial concerns? |
@@ -82,7 +82,7 @@ Relative to net worth matters.
 |-------|---------|
 | Buffett buying BofA (2011) | Massive gains |
 | Dimon buying JPM (2016) | Signaled bottom |
-| Bezos selling Amazon | Diversification |
+| Bezos selling [[Amazon]] | Diversification |
 
 ---
 

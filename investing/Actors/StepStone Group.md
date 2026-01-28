@@ -3,7 +3,7 @@ aliases: [StepStone, STEP]
 ---
 #actor #investor #pe #usa #public
 
-**StepStone Group** — Private markets investment firm. $771B total capital. $209B AUM.
+**StepStone Group** — [[Private markets]] investment firm. $771B total capital. $209B AUM.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [StepStone, STEP]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | STEP (Nasdaq) |
+| Ticker | STEP ([[Nasdaq]]) |
 | Total capital | **$771B** |
 | AUM | **$209B** |
 | Founded | 2007 |
@@ -21,7 +21,7 @@ aliases: [StepStone, STEP]
 
 ## Business model
 
-**Private markets specialist:**
+**[[Private markets]] specialist:**
 - Fund-of-funds
 - Co-investments
 - Secondary transactions
@@ -49,7 +49,7 @@ aliases: [StepStone, STEP]
 |--------|-------|
 | SPWS AUM | **$10.2B** (Jul 2025) |
 | Growth driver | US investor demand |
-| Expansion | Europe, Australia, Singapore |
+| Expansion | [[Europe]], [[Australia]], Singapore |
 
 **STPEX Fund (Nov 2025):**
 - Evergreen interval fund
@@ -65,7 +65,7 @@ aliases: [StepStone, STEP]
 |---------|--------|------|
 | [[xAI]] | AI | Series E (Jan 2026) |
 | Black Forest Labs | AI/visual | Dec 2025 |
-| Vitalia Home | Healthcare | Dec 2025 |
+| Vitalia [[Home]] | [[Healthcare]] | Dec 2025 |
 
 ---
 
@@ -94,7 +94,7 @@ Participates in major AI rounds through:
 
 **Bull:**
 - Massive scale ($771B capital)
-- Private markets secular growth
+- [[Private markets]] secular growth
 - Wealth channel expansion
 - Fee-based recurring revenue
 - AI deal flow access
@@ -112,7 +112,7 @@ Participates in major AI rounds through:
 | Metric | Value |
 |--------|-------|
 | Ticker | STEP |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Total capital | $771B |
 | AUM | $209B |
 

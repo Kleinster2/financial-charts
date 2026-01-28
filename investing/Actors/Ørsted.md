@@ -58,13 +58,13 @@ aliases: [Orsted, ORSTED.CO]
 
 | Project | Location | Capacity | Status |
 |---------|----------|----------|--------|
-| Borkum Riffgrund 3 | Germany | 913 MW | First power Dec 2025 |
-| Hornsea 3 | UK | 2.9 GW | Under construction |
-| Changhua 2b/4 | Taiwan | 920 MW | 2025/2026 |
+| Borkum Riffgrund 3 | [[Germany]] | 913 MW | First power Dec 2025 |
+| Hornsea 3 | [[UK]] | 2.9 GW | Under construction |
+| Changhua 2b/4 | [[Taiwan]] | 920 MW | 2025/2026 |
 | Baltica 2 | Poland | 1.5 GW | 2027 |
 | Baltica 3 | Poland | 1.3 GW | 2029 |
 
-**Germany capacity:** ~2.5 GW by early 2026
+**[[Germany]] capacity:** ~2.5 GW by early 2026
 
 ---
 

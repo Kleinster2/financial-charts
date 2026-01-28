@@ -51,8 +51,8 @@ AI is core to unit economics — better matching = lower costs.
 | Partner | Focus |
 |---------|-------|
 | [[Waymo]] | Robotaxi deployment |
-| Aurora | Autonomous trucking |
-| Motional | Robotaxi (Hyundai/Aptiv) |
+| Aurora | [[Autonomous trucking]] |
+| Motional | Robotaxi ([[Hyundai]]/Aptiv) |
 | Nuro | Autonomous delivery |
 
 Uber exited AV development (sold ATG to Aurora) but partners with leaders.
@@ -67,7 +67,7 @@ Uber exited AV development (sold ATG to Aurora) but partners with leaders.
 - Expanding to more cities
 - Uber provides demand, Waymo provides AVs
 
-Network effects: largest rider base makes Uber preferred AV partner.
+[[Network effects]]: largest rider base makes Uber preferred AV partner.
 
 ---
 
@@ -75,10 +75,10 @@ Network effects: largest rider base makes Uber preferred AV partner.
 
 | Competitor | Market |
 |------------|--------|
-| Lyft | US rideshare #2 |
-| DoorDash | US delivery #1 |
-| Didi | China (exited) |
-| Grab | Southeast Asia (invested) |
+| [[Lyft]] | US rideshare #2 |
+| [[DoorDash]] | US delivery #1 |
+| Didi | [[China]] (exited) |
+| Grab | [[Southeast Asia]] (invested) |
 
 Uber is the only global scale player.
 
@@ -89,7 +89,7 @@ Uber is the only global scale player.
 **Bull:**
 - Path to sustained profitability
 - AV optionality without capex
-- Network effects moat
+- [[Network effects]] moat
 - Advertising revenue growth
 - Freight marketplace potential
 
@@ -119,5 +119,5 @@ Uber is the only global scale player.
 - [[Waymo]] — partner (robotaxi)
 - [[Aurora]] — partner (autonomous trucking)
 - [[Tesla]] — potential competitor (robotaxi)
-- [[Grab]] — investment (Southeast Asia)
+- [[Grab]] — investment ([[Southeast Asia]])
 - [[Lime]] — strategic investment, demand channel for shared scooters/e-bikes

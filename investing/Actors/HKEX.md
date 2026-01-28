@@ -3,13 +3,13 @@ aliases: [Hong Kong Exchanges, Hong Kong Stock Exchange, HKEx, SEHK]
 ---
 #actor #finance #exchange #hongkong #public
 
-**HKEX** — Hong Kong exchange. China capital gateway. IPO hub for Chinese tech/AI.
+**HKEX** — Hong Kong exchange. [[China]] capital gateway. IPO hub for Chinese tech/AI.
 
 ---
 
 ## Why HKEX matters
 
-Gateway for China capital:
+Gateway for [[China]] capital:
 
 | Metric | Value |
 |--------|-------|
@@ -23,8 +23,8 @@ Gateway for China capital:
 
 ## Strategic position
 
-**China gateway:**
-- Stock Connect (Shanghai/Shenzhen links)
+**[[China]] gateway:**
+- Stock Connect (Shanghai/[[Shenzhen]] links)
 - Offshore RMB trading
 - Chinese companies seeking international capital
 - US-delisting alternative for Chinese firms
@@ -32,7 +32,7 @@ Gateway for China capital:
 
 ---
 
-## China AI IPO wave (2026)
+## [[China]] AI IPO wave (2026)
 
 | Company | IPO date | Performance |
 |---------|----------|-------------|
@@ -48,9 +48,9 @@ Chinese AI/chip companies choosing HKEX over US.
 
 **Cross-border trading:**
 - Shanghai-Hong Kong Connect (2014)
-- Shenzhen-Hong Kong Connect (2016)
-- Northbound: HK → China A-shares
-- Southbound: China → HK stocks
+- [[Shenzhen]]-Hong Kong Connect (2016)
+- Northbound: HK → [[China]] A-shares
+- Southbound: [[China]] → HK stocks
 - Growing volumes
 
 ---
@@ -59,8 +59,8 @@ Chinese AI/chip companies choosing HKEX over US.
 
 **$2.2B deal:**
 - London Metal Exchange
-- Base metals trading
-- Copper, aluminum, zinc, nickel
+- [[Base metals]] trading
+- [[Copper]], aluminum, zinc, nickel
 - Diversification from equities
 - Commodity exposure
 
@@ -72,7 +72,7 @@ Chinese AI/chip companies choosing HKEX over US.
 |---------|-------------|
 | **Cash** | Equities trading |
 | **Derivatives** | Futures, options |
-| **Commodities** | LME metals |
+| **[[Commodities]]** | LME metals |
 | **Post-trade** | Clearing, settlement |
 | **Data** | Market data, indices |
 
@@ -81,16 +81,16 @@ Chinese AI/chip companies choosing HKEX over US.
 ## Investment case
 
 **Bull:**
-- China capital flows
+- [[China]] capital flows
 - AI/tech IPO pipeline
 - Stock Connect growth
 - LME metals exposure
 - Geopolitical neutrality
 
 **Bear:**
-- China economic slowdown
-- Geopolitical risks (US-China)
-- Competition from Shanghai/Shenzhen
+- [[China]] economic slowdown
+- Geopolitical risks (US-[[China]])
+- Competition from Shanghai/[[Shenzhen]]
 - HK political uncertainty
 - Volumes can be volatile
 
@@ -102,7 +102,7 @@ Chinese AI/chip companies choosing HKEX over US.
 |--------|-------|
 | Ticker | 388.HK |
 | Market cap | ~$45B |
-| Key role | China gateway |
+| Key role | [[China]] gateway |
 | Sector | Financial infrastructure |
 
 *Created 2026-01-08*

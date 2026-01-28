@@ -40,9 +40,9 @@ Actually operating at scale.
 
 | Component | Details |
 |-----------|---------|
-| Sensors | Lidar + cameras + radar |
+| [[Sensors]] | Lidar + cameras + radar |
 | Compute | Custom TPU-based |
-| Vehicle | Jaguar I-PACE, Zeekr |
+| Vehicle | Jaguar I-PACE, [[Zeekr]] |
 | Miles driven | 20M+ autonomous |
 
 ---
@@ -87,7 +87,7 @@ Waymo = clear leader in robotaxi.
 | Unit economics | Not profitable |
 | Scaling costs | Each city expensive |
 | Regulation | City-by-city approval |
-| Competition | Tesla, China |
+| Competition | Tesla, [[China]] |
 
 ---
 

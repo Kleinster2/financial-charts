@@ -13,7 +13,7 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Born | 1981 (Düsseldorf, Germany) |
+| Born | 1981 (Düsseldorf, [[Germany]]) |
 | Current role | Creative Director, [[Chloé]] (Oct 2023–) |
 | Previous | RTW Design Director, [[Saint Laurent]] (2016-2023) |
 | Education | Trier University; Central Saint Martins (MA, distinction, 2007) |

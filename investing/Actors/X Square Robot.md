@@ -1,17 +1,17 @@
 #actor #robotics #china #ai #private
 
-**X Square Robot** — Shenzhen-based humanoid robotics startup. One of China's best-funded embodied AI companies, backed by ByteDance, Alibaba, and Meituan.
+**X Square Robot** — [[Shenzhen]]-based humanoid robotics startup. One of [[China]]'s best-funded embodied AI companies, backed by ByteDance, Alibaba, and Meituan.
 
 ---
 
 ## Why X Square matters
 
-Represents China's aggressive push into humanoid robots — heavily funded, star-studded investors, targeting mass production across industrial and consumer applications.
+Represents [[China]]'s aggressive push into humanoid robots — heavily funded, star-studded investors, targeting mass production across industrial and consumer applications.
 
 | Metric | Value |
 |--------|-------|
 | Founded | 2023 |
-| HQ | Shenzhen, China |
+| HQ | [[Shenzhen]], [[China]] |
 | Focus | Wheeled humanoid robots, embodied AI |
 | Total raised | ¥1B+ from [[Meituan]] alone, plus others |
 | Valuation | Undisclosed |
@@ -24,12 +24,12 @@ Represents China's aggressive push into humanoid robots — heavily funded, star
 
 | Detail | Value |
 |--------|-------|
-| Amount | $143.3M (¥1B) |
-| Lead | [[ByteDance]], [[HongShan]] (HSG, formerly Sequoia China) |
+| Amount | $143.[[3M]] (¥1B) |
+| Lead | [[ByteDance]], [[HongShan]] (HSG, formerly Sequoia [[China]]) |
 
 **Other investors:**
 - Beijing Information Industry Development Investment Fund (govt)
-- Shenzhen Capital Group / SCGC (govt)
+- [[Shenzhen]] Capital Group / SCGC (govt)
 - Nanshan SEI Investment (govt)
 - Wuxi Capital Group (govt)
 - Dragon Ball Capital ([[Meituan]] CVC)
@@ -45,9 +45,9 @@ Meituan led and participated in initial financing rounds (Series A and earlier),
 | [[Meituan]] | Strategic | ¥1B+ total, early backer |
 | [[ByteDance]] | Strategic | Series A++ |
 | [[Alibaba]] | Strategic | Shareholder |
-| [[HongShan]] | VC | Series A++ (Sequoia China rebrand) |
+| [[HongShan]] | VC | Series A++ (Sequoia [[China]] rebrand) |
 | Dragon Ball Capital | CVC | Meituan's venture arm |
-| Various govt funds | Govt | Beijing, Shenzhen, Wuxi |
+| Various govt funds | Govt | Beijing, [[Shenzhen]], Wuxi |
 
 ---
 
@@ -101,13 +101,13 @@ X Square's proprietary embodied AI system:
 
 ---
 
-## Target markets
+## [[Target]] markets
 
 | Segment | Status |
 |---------|--------|
 | Industrial manufacturing | Near-term |
 | Logistics sorting | Near-term |
-| Home-based elderly care | Medium-term |
+| [[Home]]-based elderly care | Medium-term |
 | Commercial cleaning | Medium-term |
 | Hotels | Future |
 
@@ -119,8 +119,8 @@ X Square's proprietary embodied AI system:
 
 | Company | Form factor | Funding | Status |
 |---------|-------------|---------|--------|
-| **X Square Robot** | Wheeled humanoid | $143M+ | China leader |
-| [[Unitree]] | Legged humanoid | Undisclosed | Shipping |
+| **X Square Robot** | Wheeled humanoid | $143M+ | [[China]] leader |
+| [[Unitree]] | Legged humanoid | Undisclosed | [[Shipping]] |
 | [[AGIBOT]] | Various | Undisclosed | Industrial |
 | [[Figure AI]] | Legged humanoid | $675M+ | US leader |
 | [[1X Technologies]] | Wheeled/legged | $125M | Pre-orders |
@@ -132,7 +132,7 @@ X Square differentiates with wheeled design (stability, lower cost) vs legged hu
 ## Investment lens
 
 **Not directly investable** (private, Chinese). Matters as:
-- Signal of China humanoid robotics momentum
+- [[Signal]] of [[China]] humanoid robotics momentum
 - Competition for US humanoid startups
 - Source of demand for components (sensors, motors, chips)
 - Validates wheeled humanoid approach vs legged
@@ -145,7 +145,7 @@ X Square differentiates with wheeled design (stability, lower cost) vs legged hu
 - [[ByteDance]] — investor (Series A++)
 - [[Meituan]] — investor (lead, ¥1B+ total)
 - [[Alibaba]] — investor
-- [[HongShan]] — investor (Sequoia China rebrand)
+- [[HongShan]] — investor (Sequoia [[China]] rebrand)
 - [[Unitree]] — peer (Chinese humanoids)
 - [[AGIBOT]] — peer (Chinese humanoids)
 - [[Figure AI]] — peer (US humanoids)

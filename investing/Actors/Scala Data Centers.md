@@ -3,7 +3,7 @@ aliases: [Scala]
 ---
 #actor #datacenter #brazil #private
 
-**Scala Data Centers** — LatAm's largest DC developer. Rio AI City. DigitalBridge backed.
+**Scala [[Data Centers]]** — LatAm's largest DC developer. Rio AI City. DigitalBridge backed.
 
 ---
 
@@ -14,7 +14,7 @@ Latin America's DC champion:
 | Metric | Value |
 |--------|-------|
 | Owner | DigitalBridge |
-| Focus | Brazil, LatAm |
+| Focus | [[Brazil]], LatAm |
 | Key project | Rio AI City |
 | Status | Largest LatAm developer |
 
@@ -45,10 +45,10 @@ Latin America's DC champion:
 
 | Country | Status |
 |---------|--------|
-| Brazil | Primary market |
-| Chile | Expanding |
+| [[Brazil]] | Primary market |
+| [[Chile]] | Expanding |
 | Colombia | Entering |
-| Mexico | Expanding |
+| [[Mexico]] | Expanding |
 
 Pan-LatAm strategy.
 
@@ -80,7 +80,7 @@ Pan-LatAm strategy.
 |------------|-------|
 | Ascenty | [[Digital Realty]] |
 | ODATA | Aligned/Patria |
-| Equinix | Public (EQIX) |
+| [[Equinix]] | Public (EQIX) |
 | V.tal | Oi spin-off |
 
 ---
@@ -117,7 +117,7 @@ Pan-LatAm strategy.
 |--------|-------|
 | Owner | DigitalBridge |
 | Key project | Rio AI City |
-| Focus | Brazil, LatAm |
+| Focus | [[Brazil]], LatAm |
 | Status | #1 LatAm developer |
 
 *Updated 2026-01-01*
@@ -128,6 +128,6 @@ Pan-LatAm strategy.
 
 - [[DigitalBridge]] — owner (PE-backed)
 - [[Rio de Janeiro Data Hub]] — location (Rio AI City project)
-- [[São Paulo Data Hub]] — market (Brazil presence)
+- [[São Paulo Data Hub]] — market ([[Brazil]] presence)
 - [[Brazil AI]] — national context (LatAm DC leader)
 

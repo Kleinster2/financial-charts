@@ -77,9 +77,9 @@ Stock down ~40% from highs. P/E ~19x.
 
 ## Key acquisitions
 
-| Year | Target | Price | Rationale |
+| Year | [[Target]] | Price | Rationale |
 |------|--------|-------|-----------|
-| 2015 | Portware | — | Trade execution |
+| 2015 | Portware | — | [[Trade]] execution |
 | 2017 | BISAM | — | Risk/performance measurement |
 | 2022 | CUSIP Global Services | $1.9B | Identifiers monopoly |
 

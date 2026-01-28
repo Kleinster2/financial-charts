@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #geography #africa #energy
 
-**Nigeria** — Africa's most populous nation (237M). Solar revolution underway as communities bypass failing national grid. Major recipient of Chinese investment ($20B gas city).
+**Nigeria** — [[Africa]]'s most populous nation (237M). Solar revolution underway as communities bypass failing national grid. Major recipient of Chinese investment ($20B gas city).
 
 ---
 
@@ -30,7 +30,7 @@ aliases: []
 | Solar imports | <500 MW | **1,721 MW** |
 | Sun King sales | 3,000 kits/month | **75,000 kits/month** |
 
-Nigeria is #2 in Africa for solar imports (after South Africa).
+Nigeria is #2 in [[Africa]] for solar imports (after South [[Africa]]).
 
 **Muhammad Wakil (GEAPP):** "Solar is coming in to replace a lot of that inefficient individual power generation. And it's happening for residential, it's happening at the commercial level."
 
@@ -51,7 +51,7 @@ Nigeria is #2 in Africa for solar imports (after South Africa).
 | Source | Amount | Purpose |
 |--------|--------|---------|
 | World Bank (Mission 300) | $750M | Power to 300M Africans by 2030 |
-| Japan, France, AfDB | $1.1B (in talks) | Additional solar funding |
+| [[Japan]], [[France]], AfDB | $1.1B (in talks) | Additional solar funding |
 | IFC | — | Sun King investment |
 | **China (CNCEC)** | **$20B** | Gas city project |
 
@@ -66,7 +66,7 @@ Nigeria is #2 in Africa for solar imports (after South Africa).
 
 ## National grid failure
 
-| Metric | Nigeria | South Africa |
+| Metric | Nigeria | South [[Africa]] |
 |--------|---------|--------------|
 | Grid capacity | ~4 GW | ~25 GW |
 | Population | 237M | 60M |
@@ -82,12 +82,12 @@ Grid built mostly since 1960s, powered by natural gas. Woefully inadequate.
 
 **$20B gas city project (CNCEC + Alpha Grip):**
 
-Part of broader Chinese push into Africa. See [[Capital flow reversal]] — China shifting from trophy assets to greenfield projects in Global South.
+Part of broader Chinese push into [[Africa]]. See [[Capital flow reversal]] — China shifting from trophy assets to greenfield projects in Global South.
 
-**Nigeria = top China trade partner in Africa:**
+**Nigeria = top China trade partner in [[Africa]]:**
 - One of fastest-growing importers of Chinese goods
-- Oil/gas processing facilities — multi-billion BRI contracts
-- Consumer goods flooding in (electronics, vehicles, textiles)
+- [[Oil]]/gas processing facilities — multi-billion BRI contracts
+- [[Consumer]] goods flooding in (electronics, vehicles, textiles)
 
 See [[China-Africa trade]] for full context.
 
@@ -123,7 +123,7 @@ See [[China-Africa trade]] for full context.
 
 **Tenioye Majekodunmi (NCCC DG):** Carbon markets are "a key part of the country's economic strategy, as well as a tool for attracting foreign capital."
 
-**Context:** Zimbabwe, Kenya, Malawi also regulating carbon markets. Global carbon markets shrunk 2/3 since 2021 (quality concerns, corporate pullback). But BloombergNEF forecasts 20-35x supply growth by 2050.
+**Context:** Zimbabwe, [[Kenya]], Malawi also regulating carbon markets. Global carbon markets shrunk 2/3 since 2021 (quality concerns, corporate pullback). But BloombergNEF forecasts 20-35x supply growth by 2050.
 
 ---
 

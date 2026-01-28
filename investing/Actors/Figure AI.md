@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #robotics #usa #private
 
-**Figure AI** — Leading humanoid robotics startup. $39B valuation. OpenAI partnership. BMW deployment proven. Figure 03 for homes.
+**Figure AI** — Leading humanoid robotics startup. $39B valuation. OpenAI partnership. [[BMW]] deployment proven. Figure 03 for homes.
 
 ---
 
@@ -41,15 +41,15 @@ Most well-capitalized pure-play humanoid robotics company:
 
 | Investor | Type |
 |----------|------|
-| Parkway Venture Capital | Lead |
-| Brookfield Asset Management | Strategic |
+| Parkway [[Venture Capital]] | Lead |
+| [[Brookfield]] Asset Management | Strategic |
 | [[NVIDIA]] | Strategic |
 | Macquarie Capital | Financial |
-| Intel Capital | Strategic |
+| [[Intel Capital]] | Strategic |
 | [[LG Electronics]] | Strategic |
-| Salesforce Ventures | Strategic |
-| T-Mobile Ventures | Strategic |
-| Qualcomm Ventures | Strategic |
+| [[Salesforce]] Ventures | Strategic |
+| [[T-Mobile]] Ventures | Strategic |
+| [[Qualcomm]] Ventures | Strategic |
 
 ### Previous rounds
 
@@ -58,9 +58,9 @@ Most well-capitalized pure-play humanoid robotics company:
 | [[Microsoft]] | Azure/OpenAI ecosystem |
 | [[OpenAI]] | AI partnership |
 | [[Amazon]] | Strategic |
-| Jeff Bezos | Bezos Expeditions |
-| Intel Capital | Multiple rounds |
-| Samsung | Strategic |
+| [[Jeff Bezos]] | Bezos Expeditions |
+| [[Intel Capital]] | Multiple rounds |
+| [[Samsung]] | Strategic |
 
 **113 total investors** — elite syndicate spanning AI, tech, and infrastructure.
 
@@ -72,7 +72,7 @@ Most well-capitalized pure-play humanoid robotics company:
 - OpenAI models for reasoning
 - Multimodal understanding
 - Natural language commands
-- Real-world AI agents
+- Real-world [[AI agents]]
 
 GPT-powered robots.
 
@@ -86,7 +86,7 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 
 | Spec | Value |
 |------|-------|
-| Target | **Home/consumer** |
+| [[Target]] | **[[Home]]/consumer** |
 | Vision | 2x frame rate, ¼ latency, 60% wider FOV |
 | Design | Complete hardware/software redesign |
 | Manufacturing | Designed for mass production |
@@ -103,11 +103,11 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 | Payload | 45 lbs |
 | Speed | 2.5 mph |
 | Battery | 5+ hours |
-| Target | Industrial/manufacturing |
+| [[Target]] | Industrial/manufacturing |
 
 ---
 
-## BMW deployment (proven)
+## [[BMW]] deployment (proven)
 
 **11-month deployment at Spartanburg (SC):**
 
@@ -132,10 +132,10 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 | Includes | Hardware, software updates, maintenance, support |
 | Model | Subscription vs. upfront purchase |
 
-**Target markets:**
-1. Manufacturing (current — BMW)
+**[[Target]] markets:**
+1. Manufacturing (current — [[BMW]])
 2. Warehouse/logistics (next)
-3. **Consumer/home** (Figure 03 focus)
+3. **[[Consumer]]/home** (Figure 03 focus)
 
 ---
 
@@ -143,15 +143,15 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 
 | Company | Robot | Status | Valuation |
 |---------|-------|--------|-----------|
-| **Figure AI** | Figure 03 | Home alpha testing | **$39B** |
-| [[Boston Dynamics]] | Atlas | Production 2026 | Hyundai subsidiary |
+| **Figure AI** | Figure 03 | [[Home]] alpha testing | **$39B** |
+| [[Boston Dynamics]] | Atlas | Production 2026 | [[Hyundai]] subsidiary |
 | [[Tesla]] | Optimus | Pilot deployments | Tesla subsidiary |
 | [[1X Technologies]] | NEO | Pre-orders ($20K) | ~$1B+ |
 | [[Agility Robotics]] | Digit | Deployed (Amazon, GXO) | ~$1B+ |
-| [[Unitree]] | G1/H1 | Shipping | Private |
+| [[Unitree]] | G1/H1 | [[Shipping]] | Private |
 | [[AGIBOT]] | Portfolio | CES 2026 debut | Private |
 
-**Figure AI advantage:** Best-funded pure-play, OpenAI partnership, proven BMW deployment, consumer pivot with Figure 03.
+**Figure AI advantage:** Best-funded pure-play, OpenAI partnership, proven [[BMW]] deployment, consumer pivot with Figure 03.
 
 ---
 
@@ -160,16 +160,16 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 **Bull:**
 - **$39B valuation** — most valuable humanoid startup
 - OpenAI AI partnership = differentiated intelligence
-- BMW deployment **proven** (1,250+ hours, 90K parts)
+- [[BMW]] deployment **proven** (1,250+ hours, 90K parts)
 - Figure 03 opens **consumer TAM**
 - Elite investor syndicate (113 investors)
 - RaaS model = recurring revenue
 
 **Bear:**
 - Private — no public access
-- Tesla Optimus competition (scale advantage)
+- [[Tesla Optimus]] competition (scale advantage)
 - Hardware manufacturing challenges
-- Consumer robotics unproven market
+- [[Consumer]] robotics unproven market
 - High burn rate
 
 ---
@@ -182,7 +182,7 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 | Valuation | $39B |
 | Total raised | $2.34B |
 | Latest robot | Figure 03 |
-| Key partners | OpenAI, BMW, NVIDIA |
+| Key partners | OpenAI, [[BMW]], NVIDIA |
 
 ---
 
@@ -208,7 +208,7 @@ See also [[Physical Intelligence]] — competitor in embodied AI.
 - [[Agility Robotics]] — competitor (Digit)
 - [[Boston Dynamics]] — competitor (Atlas)
 - [[1X Technologies]] — competitor (NEO)
-- [[Unitree]] — competitor (China)
+- [[Unitree]] — competitor ([[China]])
 - [[Physical Intelligence]] — embodied AI competitor
 - [[CES 2026]] — humanoid showcase
 

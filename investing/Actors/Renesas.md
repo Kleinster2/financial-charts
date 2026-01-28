@@ -14,9 +14,9 @@ Renesas is the dominant automotive MCU supplier:
 | Role | Details |
 |------|---------|
 | Auto MCUs | #1 globally (~30% share) |
-| Automotive | Major Tier 1 supplier |
+| [[Automotive]] | Major Tier 1 supplier |
 | Analog/power | Growing via acquisitions |
-| Japan champion | Largest Japanese semi |
+| [[Japan]] champion | Largest Japanese semi |
 
 ---
 
@@ -26,8 +26,8 @@ Renesas is the dominant automotive MCU supplier:
 
 | Segment | Position |
 |---------|----------|
-| Automotive MCUs | #1 globally |
-| Automotive analog | Top 5 |
+| [[Automotive]] MCUs | #1 globally |
+| [[Automotive]] analog | Top 5 |
 | Industrial | Strong |
 | IoT | Growing |
 
@@ -39,7 +39,7 @@ Renesas MCUs are in virtually every car — engine control, body electronics, in
 
 | Customer | Relationship |
 |----------|--------------|
-| [[Toyota]] | Major (Japan keiretsu) |
+| [[Toyota]] | Major ([[Japan]] keiretsu) |
 | Honda | Major |
 | Nissan | Major |
 | European OEMs | Growing |
@@ -68,7 +68,7 @@ Acquisitions shifted Renesas from pure MCU to broader analog/power portfolio.
 
 | Technology | Status |
 |------------|--------|
-| Automotive MCUs | Market leader |
+| [[Automotive]] MCUs | Market leader |
 | R-Car (SoCs) | ADAS, infotainment |
 | Power management | Dialog acquisition |
 | GaN power | Transphorm acquisition |
@@ -81,9 +81,9 @@ Acquisitions shifted Renesas from pure MCU to broader analog/power portfolio.
 | vs | Renesas advantage | Renesas disadvantage |
 |----|-------------------|----------------------|
 | [[Infineon]] | MCU leadership | Power semis scale |
-| [[NXP]] | Japan relationships | Radar/V2X |
+| [[NXP]] | [[Japan]] relationships | Radar/V2X |
 | [[STMicro]] | MCU breadth | SiC scale |
-| Texas Instruments | Automotive focus | Analog breadth |
+| [[Texas Instruments]] | [[Automotive]] focus | Analog breadth |
 
 Renesas is MCU-centric; competitors stronger in power/analog.
 
@@ -106,7 +106,7 @@ Renesas is MCU-centric; competitors stronger in power/analog.
 | Ticker | 6723.T (Tokyo) |
 | Market cap | ~¥4T (~$27B) |
 | Revenue (FY24) | ~¥1.5T (~$10B) |
-| Automotive revenue | ~50% |
+| [[Automotive]] revenue | ~50% |
 | Gross margin | ~55% |
 | P/E | ~15x |
 
@@ -117,11 +117,11 @@ Renesas is MCU-centric; competitors stronger in power/analog.
 **Bull case:**
 - MCU leadership defensible
 - Acquisitions added analog/power
-- EV transition = more chips per car
-- Japan auto relationships sticky
+- [[EV transition]] = more chips per car
+- [[Japan]] auto relationships sticky
 
 **Bear case:**
-- Japan exposure concentrated
+- [[Japan]] exposure concentrated
 - Competition from Infineon, NXP
 - Fab fire showed concentration risk
 - Yen volatility

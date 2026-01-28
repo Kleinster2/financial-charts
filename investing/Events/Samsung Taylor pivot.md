@@ -33,7 +33,7 @@ This is the defining test case for [[Why Samsung's aggression may be rational]].
 ## What to watch
 
 - [ ] Yields reach 70%+ by mid-2026
-- [ ] Major customer win beyond Tesla
+- [ ] Major customer win beyond [[Tesla]]
 - [ ] Cost per wafer vs [[TSMC Arizona expansion]]
 
 ---

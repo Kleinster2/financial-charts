@@ -12,7 +12,7 @@ AI models learn from labeled data:
 |------------|-----------------|
 | LLMs | RLHF (human preferences), instruction tuning |
 | Vision | Object detection, segmentation |
-| Autonomous vehicles | Road scene labeling |
+| [[Autonomous vehicles]] | Road scene labeling |
 | Medical AI | Expert diagnosis labels |
 
 **No labels = no model improvement.** Even "self-supervised" models need human feedback for alignment.
@@ -29,7 +29,7 @@ Reinforcement Learning from Human Feedback is how frontier models become useful:
 | 2. Reward model | Learns from preferences |
 | 3. Fine-tuning | Model optimizes for reward |
 
-**Scale**: ChatGPT's RLHF required millions of human preference labels. Each frontier model iteration needs fresh data.
+**Scale**: [[ChatGPT]]'s RLHF required millions of human preference labels. Each frontier model iteration needs fresh data.
 
 ---
 
@@ -39,11 +39,11 @@ Annotation is labor-intensive. Companies exploit wage differentials:
 
 | Location | Wage ($/hr) | Role |
 |----------|-------------|------|
-| US/EU | $15-25 | Quality review, specialized |
+| US/[[EU]] | $15-25 | Quality review, specialized |
 | Philippines | $2-5 | General labeling |
-| Kenya | $1-3 | Scale AI's Remotasks |
-| Venezuela | $1-2 | Crisis economy labor |
-| India | $2-4 | Technical tasks |
+| [[Kenya]] | $1-3 | Scale AI's Remotasks |
+| [[Venezuela]] | $1-2 | Crisis economy labor |
+| [[India]] | $2-4 | Technical tasks |
 
 **The arbitrage**: A $100B model trained on $2/hour labor.
 
@@ -53,10 +53,10 @@ Annotation is labor-intensive. Companies exploit wage differentials:
 
 | Company | Model | Status |
 |---------|-------|--------|
-| [[Scale AI]] | Platform + managed workforce | Meta 49% owner, $29B |
+| [[Scale AI]] | Platform + managed workforce | [[Meta]] 49% owner, $29B |
 | [[Appen]] | Crowd workforce | Public (APX), struggling |
-| Labelbox | Enterprise SaaS | Private |
-| Sama | Ethical sourcing (Africa) | Private |
+| Labelbox | Enterprise [[SaaS]] | Private |
+| Sama | Ethical sourcing ([[Africa]]) | Private |
 | Surge AI | Quality-focused | Acquired by Scale |
 | Snorkel AI | Programmatic (less human) | Private |
 
@@ -85,10 +85,10 @@ As models scale, annotation demand grows:
 | Region | Strength |
 |--------|----------|
 | [[Philippines Tech]] | English fluency, scale |
-| Kenya | Scale AI's Remotasks hub |
-| India | Technical annotation |
-| Venezuela | Low cost, educated |
-| Eastern Europe | Quality, languages |
+| [[Kenya]] | Scale AI's Remotasks hub |
+| [[India]] | Technical annotation |
+| [[Venezuela]] | Low cost, educated |
+| Eastern [[Europe]] | Quality, languages |
 
 Philippines is the annotation capital — English-speaking, time zone flexibility, large workforce.
 

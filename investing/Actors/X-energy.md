@@ -83,8 +83,8 @@ X-energy also manufactures TRISO fuel:
 
 | Investor | Notes |
 |----------|-------|
-| Ares Management | Lead |
-| Citadel | Growth |
+| [[Ares Management]] | Lead |
+| [[Citadel]] | Growth |
 | Nimble Partners | Growth |
 | DOE | $1.2B+ (ARDP) |
 

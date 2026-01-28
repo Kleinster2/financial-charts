@@ -24,7 +24,7 @@ aliases: [EUR, EURUSD, euro]
 | Driver | Mechanism |
 |--------|-----------|
 | **Fed pivot** | Fed cut more aggressively than ECB |
-| **Rate differential narrowing** | Gap closed from 200bp to 100bp |
+| **Rate differential narrowing** | [[Gap]] closed from 200bp to 100bp |
 | **German fiscal shift** | Schuldenbremse reform → stimulus hopes |
 | **Risk appetite** | EUR is pro-cyclical, gains in risk-on |
 
@@ -49,9 +49,9 @@ ECB more cautious on cuts due to sticky services inflation. Supports EUR vs USD.
 - Reserve currency status (~20% of global reserves)
 
 **Negative:**
-- Growth differential (US > Europe)
-- Energy dependence (Russia gas crisis legacy)
-- Political fragmentation risk (Italy, France)
+- Growth differential (US > [[Europe]])
+- Energy dependence ([[Russia]] gas crisis legacy)
+- Political fragmentation risk (Italy, [[France]])
 
 ---
 
@@ -85,7 +85,7 @@ Euro's existential risk is eurozone breakup pressure:
 
 [[Schuldenbremse reform]] enables €1T+ borrowing:
 - Infrastructure spending
-- Defense buildup
+- [[Defense]] buildup
 - Could boost eurozone growth
 - EUR positive if growth materializes
 
@@ -96,8 +96,8 @@ Euro's existential risk is eurozone breakup pressure:
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | Invesco CurrencyShares EUR | FXE | Pure euro exposure |
-| WisdomTree Europe Hedged | HEDJ | Europe equity, hedged |
-| iShares MSCI Eurozone | EZU | Eurozone equity + EUR |
+| WisdomTree [[Europe]] Hedged | HEDJ | [[Europe]] equity, hedged |
+| iShares [[MSCI]] Eurozone | EZU | Eurozone equity + EUR |
 | Spot FX | EURUSD | Direct |
 
 ---

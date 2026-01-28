@@ -17,9 +17,9 @@ Global defense spending entering structural upcycle:
 | Growth | — | +140% |
 
 **Drivers:**
-- Great power competition (US-China, Russia-NATO)
+- Great power competition (US-[[China]], [[Russia]]-NATO)
 - Ukraine war exposed stockpile gaps
-- Taiwan contingency planning
+- [[Taiwan]] contingency planning
 - Middle East instability
 - Technology arms race (AI, hypersonics, space)
 
@@ -39,25 +39,25 @@ This is not cyclical — it's structural realignment after 30 years of post-Cold
 
 See [[Trump defense budget]], [[US Defense Industry]].
 
-### Europe
+### [[Europe]]
 
 | Country | Trend |
 |---------|-------|
-| Germany | Historic €100B fund, 2%+ GDP |
+| [[Germany]] | Historic €100B fund, 2%+ GDP |
 | Poland | 4%+ GDP (NATO leader) |
-| UK | 2.5% target |
-| EU | 3M shells/year target |
+| [[UK]] | 2.5% target |
+| [[EU]] | [[3M]] shells/year target |
 
 See [[European defense spending]], [[European Defense Industry]].
 
-### Asia-Pacific
+### [[Asia]]-Pacific
 
 | Country | Trend |
 |---------|-------|
-| Japan | 1% → 2% GDP (constitutional shift) |
+| [[Japan]] | 1% → 2% GDP (constitutional shift) |
 | South Korea | Export boom (Poland, etc.) |
-| Australia | AUKUS submarines |
-| Taiwan | Asymmetric buildup |
+| [[Australia]] | [[AUKUS]] submarines |
+| [[Taiwan]] | Asymmetric buildup |
 
 See [[Japanese Defense Industry]], [[Korean Defense Industry]].
 
@@ -79,14 +79,14 @@ Traditional beneficiaries of budget growth:
 
 ### 2. European rearmament
 
-Rheinmetall = most direct play:
+[[Rheinmetall]] = most direct play:
 
 | Company | Ticker | Catalyst |
 |---------|--------|----------|
-| Rheinmetall | RHM.DE | Munitions, vehicles, air defense |
-| [[BAE Systems]] | BA.L | UK champion |
-| Thales | HO.PA | Electronics |
-| Saab | SAAB-B.ST | Gripen, submarines |
+| [[Rheinmetall]] | RHM.DE | Munitions, vehicles, air defense |
+| [[BAE Systems]] | BA.L | [[UK]] champion |
+| [[Thales]] | HO.PA | Electronics |
+| [[Saab]] | SAAB-B.ST | Gripen, submarines |
 
 ### 3. Export winners
 
@@ -94,9 +94,9 @@ Korea and Israel benefiting from global demand:
 
 | Company | Ticker | Edge |
 |---------|--------|------|
-| Hanwha Aerospace | 012450.KS | K9 howitzer, Poland deal |
-| Korea Aerospace | 047810.KS | FA-50, KF-21 |
-| Elbit Systems | ESLT | Drones, EW, global |
+| [[Hanwha]] [[Aerospace]] | 012450.KS | K9 howitzer, Poland deal |
+| Korea [[Aerospace]] | 047810.KS | FA-50, KF-21 |
+| [[Elbit Systems]] | ESLT | [[Drones]], EW, global |
 
 See [[Korean Defense Industry]], [[Israeli Defense Industry]].
 
@@ -108,7 +108,7 @@ Software-defined warfare:
 |---------|--------|-------|
 | [[Anduril]] | Private | Autonomous systems |
 | [[Palantir]] | PLTR | AI analytics |
-| Kratos | KTOS | Drones, hypersonics |
+| [[Kratos]] | KTOS | [[Drones]], hypersonics |
 
 See [[Long defense AI]].
 
@@ -118,9 +118,9 @@ Stockpile replenishment = years of demand:
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Rheinmetall | RHM.DE | Artillery shells |
+| [[Rheinmetall]] | RHM.DE | Artillery shells |
 | General Dynamics | GD | Ammunition |
-| Olin | OLN | Small arms ammo |
+| [[Olin]] | OLN | Small arms ammo |
 
 **Materials:**
 - [[Copper]] — 0.5kg per 155mm shell, 2nd highest material in defense
@@ -135,8 +135,8 @@ Stockpile replenishment = years of demand:
 | Catalyst | Timing | Impact |
 |----------|--------|--------|
 | Trump $1.5T budget | FY27 | US primes |
-| EU munitions ramp | 2024-2030 | Rheinmetall |
-| Japan 2% GDP | 2027 | MHI, domestic |
+| [[EU]] munitions ramp | 2024-2030 | [[Rheinmetall]] |
+| [[Japan]] 2% GDP | 2027 | MHI, domestic |
 | Poland deliveries | 2024-2030 | Korean exporters |
 | Golden Dome | 2025+ | Missile defense |
 | Ukraine resupply | Ongoing | Munitions |
@@ -169,12 +169,12 @@ Not pricing in structural spending increase.
 
 ---
 
-## Position sizing
+## [[Position sizing]]
 
 | Conviction | Allocation |
 |------------|------------|
 | Core | US primes (LMT, NOC, RTX) |
-| Tactical | European (Rheinmetall) |
+| Tactical | European ([[Rheinmetall]]) |
 | Speculative | Korean exporters, disruptors |
 | Materials | Copper miners (FCX, SCCO) |
 
@@ -185,7 +185,7 @@ Not pricing in structural spending increase.
 - [[Defense]] — sector hub
 - [[Long defense AI]] — AI-first defense thesis
 - [[Trump defense budget]] — US catalyst
-- [[European defense spending]] — EU catalyst
+- [[European defense spending]] — [[EU]] catalyst
 - [[Golden Dome]] — $1T+ program
 - [[Copper]] — supply chain
 - [[US Defense Industry]], [[European Defense Industry]], [[Korean Defense Industry]] — regional plays

@@ -53,7 +53,7 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 | 2017 | [[Invitation Homes]] IPO (Blackstone spin-off) |
 | 2017+ | Institutional SFR recognized as distinct asset class |
 | 2020-2022 | Pandemic boom — WFH drives suburban demand |
-| 2023+ | Build-to-rent emerges as growth strategy |
+| 2023+ | [[Build-to-rent]] emerges as growth strategy |
 
 **Blackstone's role:** Built Invitation Homes into largest SFR landlord, then IPO'd. Proved institutional scale was possible.
 
@@ -75,7 +75,7 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 
 ---
 
-## Build-to-rent (BTR)
+## [[Build-to-rent]] (BTR)
 
 **New growth vector:** Instead of buying existing homes, build purpose-built rental communities.
 
@@ -140,14 +140,14 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 **Bull case:**
 - Structural housing shortage
 - Rent-vs-buy math favors renting
-- Build-to-rent reduces political heat
+- [[Build-to-rent]] reduces political heat
 - Professional management improves quality
 
 **Bear case:**
 - Regulatory overhang
 - Rent growth moderating
 - Rate cuts could shift demand to ownership
-- ESG/political concerns
+- [[ESG]]/political concerns
 
 ---
 

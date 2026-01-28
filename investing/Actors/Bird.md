@@ -5,7 +5,7 @@ aliases: [Bird Global, Bird Rides, BRDS, Third Lane Mobility]
 
 # Bird
 
-The cautionary tale of micromobility. Fastest company to reach $1B valuation (9 months, 2018), peaked at $2.5B via SPAC (2021), filed Chapter 11 in Dec 2023 with $3.3M cash and $1.6B accumulated deficit. Acquired by Third Lane Mobility for $145M (Apr 2024). Plot twist: now profitable — $20M adj. EBITDA in 2024, profitable every month since restructuring. Operates as anchor brand of Third Lane alongside Spin.
+The cautionary tale of micromobility. Fastest company to reach $1B valuation (9 months, 2018), peaked at $2.5B via SPAC (2021), filed Chapter 11 in Dec 2023 with $3.[[3M]] cash and $1.6B accumulated deficit. Acquired by Third Lane Mobility for $145M (Apr 2024). Plot twist: now profitable — $20M adj. EBITDA in 2024, profitable every month since restructuring. Operates as anchor brand of Third Lane alongside Spin.
 
 ---
 
@@ -13,9 +13,9 @@ The cautionary tale of micromobility. Fastest company to reach $1B valuation (9 
 
 ### Founding and blitz-scale (2017–2019)
 
-**Founder:** Travis VanderZanden — former COO of [[Lyft]], then VP International Growth at [[Uber]]. Left Uber Sep 2016. Bought his daughters scooters, discovered the Xiaomi M365, saw the opportunity.
+**Founder:** Travis VanderZanden — former COO of [[Lyft]], then VP International Growth at [[Uber]]. Left Uber Sep 2016. Bought his daughters scooters, discovered the [[Xiaomi]] M365, saw the opportunity.
 
-**Sep 2017:** Deployed first 10 consumer-grade Xiaomi scooters in Santa Monica. No permits, no city approval. Santa Monica filed criminal complaints. Bird paid $300K+ in fines.
+**Sep 2017:** Deployed first 10 consumer-grade [[Xiaomi]] scooters in Santa Monica. No permits, no city approval. Santa Monica filed criminal complaints. Bird paid $300K+ in fines.
 
 | Date | Event | Valuation |
 |------|-------|-----------|
@@ -38,7 +38,7 @@ The cautionary tale of micromobility. Fastest company to reach $1B valuation (9 
 | Nov 2022 | Admitted overstating revenue for 2+ years |
 | Sep 2023 | Delisted from NYSE (low stock price) |
 | Jun 2023 | VanderZanden departs |
-| Dec 2023 | Chapter 11 filing ($3.3M cash remaining) |
+| Dec 2023 | Chapter 11 filing ($3.[[3M]] cash remaining) |
 
 ### Financials (public era)
 
@@ -71,7 +71,7 @@ Third Lane Mobility — consortium of Bird's second-lien (John Bitove / Obelysk)
 
 | Failure mode | Detail |
 |--------------|--------|
-| **Vehicle economics** | Consumer-grade Xiaomi scooters lasted <6 months. Replacement cost ate all revenue |
+| **Vehicle economics** | [[Consumer]]-grade [[Xiaomi]] scooters lasted <6 months. Replacement cost ate all revenue |
 | **Growth-over-profit** | Expanded to 100+ cities before proving unit economics in any single market |
 | **SPAC timing** | Went public at peak hype with no path to profitability |
 | **Revenue fraud** | Overstated revenue for 2+ years; credibility destroyed |
@@ -85,7 +85,7 @@ Third Lane Mobility — consortium of Bird's second-lien (John Bitove / Obelysk)
 |----------------------|-------------------|
 | Growth at all costs | Profitability first |
 | 100+ cities, thinly spread | 200 cities but right-sized fleets |
-| Consumer-grade scooters | Purpose-built vehicles, longer lifespan |
+| [[Consumer]]-grade scooters | Purpose-built vehicles, longer lifespan |
 | Massive HQ overhead | Lean operations |
 | $1.6B accumulated deficit | Clean balance sheet |
 | Public market pressure | Private, patient capital |
@@ -106,13 +106,13 @@ Third Lane Mobility — consortium of Bird's second-lien (John Bitove / Obelysk)
 
 | Investor | Exposure |
 |----------|----------|
-| Sequoia Capital | Lead Series C ($2B valuation) |
-| Craft Ventures (David Sacks) | Early backer |
-| Accel Partners | Pre-SPAC |
-| Valor Equity Partners | Pre-SPAC |
+| [[Sequoia Capital]] | Lead Series C ($2B valuation) |
+| [[Craft Ventures]] ([[David Sacks]]) | Early backer |
+| [[Accel]] Partners | Pre-SPAC |
+| [[Valor Equity Partners]] | Pre-SPAC |
 | SPAC public investors | $414M raised at $2.5B; stock went to ~$0 |
 
-**Total capital destroyed:** ~$1.1B+ (VC + SPAC proceeds). Peak-to-trough value destruction: $2.5B → $3.3M cash at bankruptcy.
+**Total capital destroyed:** ~$1.1B+ (VC + SPAC proceeds). Peak-to-trough value destruction: $2.5B → $3.[[3M]] cash at bankruptcy.
 
 ---
 
@@ -124,7 +124,7 @@ Third Lane Mobility — consortium of Bird's second-lien (John Bitove / Obelysk)
 - [[Electric Scooters]] — sector hub
 - [[Lyft]] — VanderZanden's former employer
 - [[Uber]] — VanderZanden's former employer
-- [[Apollo]] — MidCap Financial (Apollo division) provided DIP financing and became equity holder via Third Lane
+- [[Apollo]] — MidCap Financial (Apollo division) provided [[DIP financing]] and became equity holder via Third Lane
 
 ---
 

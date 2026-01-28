@@ -67,7 +67,7 @@ aliases: [CJ Entertainment, CJ E&M, 035760]
 | Initiative | Status |
 |------------|--------|
 | Netflix partnerships | Major K-content supplier |
-| KCON | Global K-pop convention (US, Europe, Asia) |
+| KCON | Global K-pop convention (US, [[Europe]], [[Asia]]) |
 | US studio relationships | Skydance, others |
 | CJ America | US operations |
 

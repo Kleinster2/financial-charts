@@ -90,7 +90,7 @@ Moncler is among the most China-exposed luxury names. If China luxury doesn't re
 | Revenue (2024) | €402M (-2%) |
 | Acquisition price | €1.15B (2020) |
 | Positioning | Technical sportswear, streetwear |
-| Target | Younger demographic |
+| [[Target]] | Younger demographic |
 
 Stone Island has underperformed since acquisition — revenue declining while Moncler brand grows. Needs creative reinvigoration.
 

@@ -11,7 +11,7 @@ aliases: [HUBS]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | HUBS (Nasdaq) |
+| Ticker | HUBS ([[Nasdaq]]) |
 | Revenue | **$3.1B** (FY25E) |
 | Q3 2025 | $810M (+21% YoY) |
 | Customers | **279,000** |
@@ -34,7 +34,7 @@ aliases: [HUBS]
 
 ## Breeze AI platform
 
-**20+ AI agents (INBOUND 2025):**
+**20+ [[AI agents]] (INBOUND 2025):**
 - Customer Agent — live chat, phone, lead qualification
 - Prospecting Agent — outbound automation
 - Breeze Copilot — task automation
@@ -95,7 +95,7 @@ aliases: [HUBS]
 | Metric | Value |
 |--------|-------|
 | Ticker | HUBS |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$3.1B |
 | Focus | SMB CRM/Marketing |
 

@@ -3,7 +3,7 @@ aliases: [REGN]
 ---
 #actor #biotech #antibodies #usa #public
 
-**Regeneron** — Antibody pioneer. Dupixent with Sanofi ($4.9B/quarter). EYLEA HD transition. VelociSuite platform.
+**Regeneron** — Antibody pioneer. Dupixent with [[Sanofi]] ($4.9B/quarter). EYLEA HD transition. VelociSuite platform.
 
 ---
 
@@ -11,16 +11,16 @@ aliases: [REGN]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | REGN (Nasdaq) |
+| Ticker | REGN ([[Nasdaq]]) |
 | Q3 2025 revenue | $3.75B |
-| Dupixent (Sanofi) | **$4.86B** Q3 (+27% YoY) |
+| Dupixent ([[Sanofi]]) | **$4.86B** Q3 (+27% YoY) |
 | EYLEA HD | $431M Q3 (+10% YoY) |
 
 ---
 
 ## Key products
 
-### Dupixent (with Sanofi)
+### Dupixent (with [[Sanofi]])
 
 | Metric | Q3 2025 |
 |--------|---------|
@@ -62,11 +62,11 @@ aliases: [REGN]
 
 ---
 
-## Sanofi partnership
+## [[Sanofi]] partnership
 
 | Structure | Detail |
 |-----------|--------|
-| Revenue | Sanofi records sales |
+| Revenue | [[Sanofi]] records sales |
 | Profit share | Regeneron gets ~50% |
 | Products | Dupixent, Kevzara, Libtayo |
 
@@ -82,7 +82,7 @@ aliases: [REGN]
 
 **Bear:**
 - EYLEA erosion from biosimilars
-- Sanofi dependency
+- [[Sanofi]] dependency
 - Compounded drug competition
 - Valuation premium
 
@@ -93,7 +93,7 @@ aliases: [REGN]
 | Metric | Value |
 |--------|-------|
 | Ticker | REGN |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$15B |
 | Focus | Antibodies, ophthalmology |
 

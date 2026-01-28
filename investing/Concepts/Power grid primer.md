@@ -37,7 +37,7 @@ Generation → Transmission → Distribution → Consumption
 | Type | Characteristics | Role |
 |------|-----------------|------|
 | **Baseload** | Runs 24/7, low marginal cost | Nuclear, coal, hydro |
-| **Intermediate** | Follows demand, flexible | Natural gas combined cycle |
+| **Intermediate** | Follows demand, flexible | [[Natural gas]] combined cycle |
 | **Peaker** | Fast start, expensive | Gas turbines, batteries |
 | **Variable** | Depends on weather | Solar, wind |
 
@@ -141,8 +141,8 @@ Buy/sell electricity in real-time or day-ahead.
 Dispatch order (typical):
 1. Nuclear, wind, solar (near-zero marginal cost)
 2. Coal
-3. Natural gas combined cycle
-4. Natural gas peakers
+3. [[Natural gas]] combined cycle
+4. [[Natural gas]] peakers
 ```
 
 **Price setting:** Last unit dispatched sets price for all. If gas sets price, everyone gets gas price — even zero-marginal-cost solar.
@@ -246,7 +246,7 @@ Sometimes too much renewable generation → negative prices → curtail (waste) 
 | Revenue | Rate base × allowed ROE |
 | Risk | Low (guaranteed return) |
 | Growth | Capex → grows rate base |
-| Examples | Southern Company, Duke Energy |
+| Examples | Southern Company, [[Duke Energy]] |
 
 **Rate base:** Value of assets on which utility earns return. More investment = more earnings.
 

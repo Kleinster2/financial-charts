@@ -3,7 +3,7 @@ aliases: [Stegra, H2GS]
 ---
 #actor #company #sweden #greensteel #hydrogen #climate #private
 
-**H2 Green Steel** (rebranded **Stegra**) — Swedish green steel company using hydrogen instead of coal. Founded 2020 by Harald Mix and Carl-Erik Lagercrantz (also behind [[Northvolt]]). Building world's first large-scale green steel plant in Boden, Sweden. ~€6.5B total financing secured. 700 MW electrolyzer capacity. Target: 5M tonnes/year by 2030.
+**H2 Green Steel** (rebranded **Stegra**) — Swedish green steel company using hydrogen instead of coal. Founded 2020 by Harald Mix and Carl-Erik Lagercrantz (also behind [[Northvolt]]). Building world's first large-scale green steel plant in Boden, Sweden. ~€6.5B total financing secured. 700 MW electrolyzer capacity. [[Target]]: 5M tonnes/year by 2030.
 
 ---
 
@@ -17,8 +17,8 @@ aliases: [Stegra, H2GS]
 | Founded | 2020 |
 | HQ | Stockholm, Sweden |
 | Plant location | Boden, northern Sweden |
-| Target capacity | 5M tonnes/year by 2030 |
-| Electrolyzer capacity | **700 MW** (Europe's largest) |
+| [[Target]] capacity | 5M tonnes/year by 2030 |
+| Electrolyzer capacity | **700 MW** ([[Europe]]'s largest) |
 
 ---
 
@@ -61,9 +61,9 @@ aliases: [Stegra, H2GS]
 | Source | Amount | Notes |
 |--------|--------|-------|
 | Equity rounds | **€2.1B** | Multiple rounds |
-| Debt financing | **€4.2B** | Banks, EIB, NIB |
-| EU Innovation Fund | €250M | Grant |
-| EU RRF | €265M | Swedish recovery plan |
+| Debt financing | **€4.2B** | [[Banks]], EIB, NIB |
+| [[EU]] Innovation Fund | €250M | Grant |
+| [[EU]] RRF | €265M | Swedish recovery plan |
 | 2025 grant | $41M | — |
 | **Total** | **~€6.5B** | — |
 
@@ -76,8 +76,8 @@ Stegra seeking €975M (~$1.1B) to complete Boden plant by 2026.
 | Investor | Type |
 |----------|------|
 | Vargas Holding | Founder vehicle (Mix, Lagercrantz) |
-| Microsoft Climate Innovation Fund | Strategic |
-| Siemens Financial Services | Strategic |
+| [[Microsoft]] Climate Innovation Fund | Strategic |
+| [[Siemens]] Financial Services | Strategic |
 | Mubea | Strategic |
 | [[Prima Materia]] | [[Daniel Ek]]'s vehicle |
 | EIB | €371M (with NIB) |
@@ -102,9 +102,9 @@ Green steel commands premium pricing from customers with decarbonization commitm
 
 | Sector | Buyers |
 |--------|--------|
-| Automotive | OEMs with EV/sustainability targets |
+| [[Automotive]] | OEMs with EV/sustainability targets |
 | Construction | Green building standards |
-| Appliances | Consumer pressure |
+| Appliances | [[Consumer]] pressure |
 
 ---
 

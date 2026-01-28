@@ -16,7 +16,7 @@ MLOps standard, now part of CoreWeave:
 | Acquirer | [[CoreWeave]] |
 | Price | $1.7B (March 2025) |
 | Prior valuation | $1.25B |
-| Customers | OpenAI, Anthropic, Cohere |
+| Customers | OpenAI, Anthropic, [[Cohere]] |
 
 ---
 
@@ -53,7 +53,7 @@ MLOps standard, now part of CoreWeave:
 |----------|----------|
 | [[OpenAI]] | Model training tracking |
 | [[Anthropic]] | Experiment management |
-| Cohere | ML workflow |
+| [[Cohere]] | ML workflow |
 | [[Hugging Face]] | Model development |
 | Aleph Alpha | Training infrastructure |
 
@@ -69,7 +69,7 @@ The tools AI labs use to build AI.
 | Strategic | Aug 2023 | $50M | $1.25B |
 | **Total** | | **$250M** | |
 
-**Investors:** Insight Partners, Felicis, Nat Friedman, Daniel Gross.
+**Investors:** [[Insight Partners]], Felicis, [[Nat Friedman]], [[Daniel Gross]].
 
 ---
 

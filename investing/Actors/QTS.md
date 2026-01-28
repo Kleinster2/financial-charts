@@ -1,5 +1,5 @@
 ---
-aliases: [QTS Realty Trust, QTS Data Centers]
+aliases: [QTS Realty Trust, QTS [[Data Centers]]]
 ---
 #actor #datacenter #usa #private
 
@@ -54,7 +54,7 @@ Major data center platform, now Blackstone-owned:
 |------|-------|
 | 2003 | Williams buys first DC (Overland Park, KS) |
 | 2005 | QTS launches with Georgia acquisition |
-| 2009 | General Atlantic invests |
+| 2009 | [[General Atlantic]] invests |
 | 2013 | IPO |
 | 2021 | Blackstone takes private ($10B) |
 | 2025 | Williams departs |

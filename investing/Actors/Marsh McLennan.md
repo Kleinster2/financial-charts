@@ -15,7 +15,7 @@ aliases: [MMC, Marsh & McLennan, Marsh]
 | Market cap | ~$90B (Dec 2025) |
 | 2024 revenue | $24.5B (+8% YoY) |
 | Q1 2025 revenue | $7.1B (+9% YoY) |
-| Segments | Risk & Insurance Services (63%), Consulting (37%) |
+| Segments | Risk & [[Insurance]] Services (63%), Consulting (37%) |
 | Employees | ~85,000 (post-McGriff) |
 
 ---
@@ -24,7 +24,7 @@ aliases: [MMC, Marsh & McLennan, Marsh]
 
 | Company | % of 2024 revenue | Focus |
 |---------|-------------------|-------|
-| **Marsh** | 53% | Insurance broking (commercial, specialty) |
+| **Marsh** | 53% | [[Insurance]] broking (commercial, specialty) |
 | **Guy Carpenter** (now Marsh Re) | 10% | Reinsurance broking |
 | **Mercer** | 23% | Health, wealth, career consulting |
 | **Oliver Wyman** | 14% | Strategy/management consulting |
@@ -35,7 +35,7 @@ aliases: [MMC, Marsh & McLennan, Marsh]
 
 Brokers sit between insurers and corporates — they don't take risk, they intermediate it. This makes Marsh McLennan a **fee-based, capital-light** business with recurring revenue (high client retention ~90%+).
 
-**Why this matters for PE-insurance convergence:** Marsh/Guy Carpenter places the reinsurance business that flows to [[Athene]], [[Munich Re]], [[Swiss Re]], etc. They're the distribution layer for [[Pension risk transfer]], catastrophe reinsurance, and [[Reinsurance sidecars]].
+**Why this matters for [[PE-insurance convergence]]:** Marsh/Guy Carpenter places the reinsurance business that flows to [[Athene]], [[Munich Re]], [[Swiss Re]], etc. They're the distribution layer for [[Pension risk transfer]], catastrophe reinsurance, and [[Reinsurance sidecars]].
 
 ---
 

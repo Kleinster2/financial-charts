@@ -44,7 +44,7 @@ Increasingly active in pre-IPO tech.
 
 ## Acquisitions
 
-| Target | Year | AUM added |
+| [[Target]] | Year | AUM added |
 |--------|------|-----------|
 | Legg Mason | 2020 | $800B |
 | Putnam | 2024 | $136B |

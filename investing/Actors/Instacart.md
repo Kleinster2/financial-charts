@@ -47,10 +47,10 @@ aliases: [CART, Maplebear]
 
 | Partner type | Examples |
 |--------------|----------|
-| Grocers | Kroger, Albertsons, Costco |
+| Grocers | Kroger, Albertsons, [[Costco]] |
 | Pharmacies | CVS, Walgreens |
 | Convenience | 7-Eleven |
-| Specialty | Petco, Sephora |
+| Specialty | Petco, [[Sephora]] |
 
 ---
 
@@ -61,8 +61,8 @@ aliases: [CART, Maplebear]
 | **Instacart** | Pure grocery delivery |
 | [[DoorDash]] | Food + grocery |
 | [[Amazon]] | Amazon Fresh, Whole Foods |
-| Walmart | Walmart+ delivery |
-| Shipt (Target) | Target-owned |
+| [[Walmart]] | [[Walmart]]+ delivery |
+| Shipt ([[Target]]) | [[Target]]-owned |
 
 ---
 
@@ -77,7 +77,7 @@ aliases: [CART, Maplebear]
 
 **Bear:**
 - DoorDash grocery competition
-- Amazon/Walmart scale
+- Amazon/[[Walmart]] scale
 - Shopper economics challenged
 - Delivery margins thin
 - Retailer disintermediation risk

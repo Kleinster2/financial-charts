@@ -37,9 +37,9 @@ SolarEdge is a cautionary tale in clean energy:
 | Segment | Description |
 |---------|-------------|
 | Solar | Inverters, optimizers |
-| Storage | Batteries (residential) |
+| Storage | [[Batteries]] (residential) |
 | e-Mobility | EV charging, powertrain (struggling) |
-| Critical Power | UPS systems (acquired) |
+| Critical Power | [[UPS]] systems (acquired) |
 
 **Diversification:** e-Mobility has been a drag on results.
 
@@ -109,7 +109,7 @@ SolarEdge is a cautionary tale in clean energy:
 |--------|-----------|-------------|
 | Technology | String + optimizers | Microinverters |
 | Margins | Lower, compressed | Higher, stable |
-| Geography | Europe-heavy | US-centric |
+| Geography | [[Europe]]-heavy | US-centric |
 | Stock (2023-24) | Collapsed | Down but resilient |
 | Financial health | Stressed | Solid |
 

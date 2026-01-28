@@ -29,12 +29,12 @@ ImageNet is credited as one of three driving forces behind the modern AI/deep le
 |--------|-------|
 | Images | **14M+** labeled |
 | Categories | 20,000+ |
-| Labeling | Amazon Mechanical Turk |
+| Labeling | [[Amazon]] Mechanical Turk |
 | Started | 2007 (Princeton) |
 | Challenge | ILSVRC (2010-2017) |
 
 **Impact:**
-- 2012: AlexNet won ILSVRC by 10+ points using deep learning
+- 2012: [[AlexNet]] won ILSVRC by 10+ points using deep learning
 - Sparked the deep learning revolution
 - Foundation for: autonomous vehicles, facial recognition, medical imaging
 - One of "three driving forces" of modern AI
@@ -115,13 +115,13 @@ See [[World Labs]] for full details.
 | Co-founded | 2017 |
 | Mission | Increase diversity in AI |
 | Program | Stanford AI courses for high schoolers |
-| Target | Women and minorities |
+| [[Target]] | Women and minorities |
 
 ---
 
 ## Recognition
 
-| Award/Honor | Year |
+| Award/[[Honor]] | Year |
 |-------------|------|
 | **TIME Person of the Year** | 2025 |
 | TIME AI100 | 2023 |

@@ -3,7 +3,7 @@ aliases: [National AI strategies]
 ---
 #concept #thesis #geopolitics #ai
 
-**Sovereign AI Race** — Nations building AI capabilities as strategic infrastructure.
+**Sovereign [[AI Race]]** — Nations building AI capabilities as strategic infrastructure.
 
 ---
 
@@ -13,9 +13,9 @@ AI is becoming national security infrastructure:
 
 | Country | Investment | Key Move |
 |---------|------------|----------|
-| [[Saudi PIF]] | $100B+ | a16z partnership |
-| [[G42]] | $1.5B MSFT | Falcon LLM, severed China ties |
-| [[Japan Semiconductor Revival]] | $50B+ | Rapidus 2nm |
+| [[Saudi PIF]] | $100B+ | [[a16z]] partnership |
+| [[G42]] | $1.5B MSFT | Falcon LLM, severed [[China]] ties |
+| [[Japan Semiconductor Revival]] | $50B+ | [[Rapidus]] 2nm |
 | [[India AI]] | $1.2B | 10K+ GPUs |
 | [[Brazil AI]] | $4B | Clean energy angle |
 | [[Israel Tech]] | Private | NVIDIA's "second home" |
@@ -27,24 +27,24 @@ AI is becoming national security infrastructure:
 | Driver | Implication |
 |--------|-------------|
 | Economic competitiveness | AI = future GDP |
-| National security | Defense AI |
+| National security | [[Defense]] AI |
 | Data sovereignty | Own your data |
 | Talent retention | Brain drain prevention |
-| Strategic autonomy | Reduce US/China dependence |
+| Strategic autonomy | Reduce US/[[China]] dependence |
 
 ---
 
-## US-China alignment
+## US-[[China]] alignment
 
 **Countries must choose:**
 
-| Aligned with US | Hedging | Aligned with China |
+| Aligned with US | Hedging | Aligned with [[China]] |
 |-----------------|---------|-------------------|
-| UAE (post-Huawei divestment) | Brazil | — |
-| Japan | India | — |
+| UAE (post-[[Huawei]] divestment) | [[Brazil]] | — |
+| [[Japan]] | [[India]] | — |
 | Israel | Saudi Arabia | — |
 
-G42 divested Huawei to get Microsoft deal.
+G42 divested [[Huawei]] to get [[Microsoft]] deal.
 
 ---
 
@@ -52,7 +52,7 @@ G42 divested Huawei to get Microsoft deal.
 
 **GPU access = power:**
 - NVIDIA controls the spigot
-- Export controls matter
+- [[Export controls]] matter
 - Countries stockpiling GPUs
 - Domestic chip ambitions
 
@@ -60,15 +60,15 @@ G42 divested Huawei to get Microsoft deal.
 
 ## Investment implications
 
-**Long NVIDIA:**
+**[[Long NVIDIA]]:**
 - Sells to everyone
 - Kingmaker position
-- Takes equity stakes (Nokia, Intel, AI21)
+- Takes equity stakes ([[Nokia]], [[Intel]], AI21)
 
 **Long local champions:**
-- Rapidus (Japan)
+- [[Rapidus]] ([[Japan]])
 - G42 ecosystem (UAE)
-- Israeli startups (Hailo, AI21)
+- Israeli startups ([[Hailo]], AI21)
 
 **Watch for:**
 - Sovereign wealth fund deals
@@ -82,9 +82,9 @@ G42 divested Huawei to get Microsoft deal.
 | Metric | Value |
 |--------|-------|
 | Saudi AI fund | $100B+ |
-| Japan chip investment | $50B+ |
+| [[Japan]] chip investment | $50B+ |
 | UAE's Falcon LLM | Open source |
-| Brazil renewable grid | 93.6% |
+| [[Brazil]] renewable grid | 93.6% |
 
 *Updated 2026-01-01*
 
@@ -94,7 +94,7 @@ G42 divested Huawei to get Microsoft deal.
 
 - [[Saudi PIF]] — player ($100B+ AI investment)
 - [[Saudi Arabia Tech]] — national context
-- [[G42]] — player (UAE flagship, Microsoft $1.5B, severed Huawei)
-- [[Japan Semiconductor Revival]] — player (Rapidus)
+- [[G42]] — player (UAE flagship, [[Microsoft]] $1.5B, severed [[Huawei]])
+- [[Japan Semiconductor Revival]] — player ([[Rapidus]])
 - [[NVIDIA]] — enabler (sells to all, kingmaker)
 

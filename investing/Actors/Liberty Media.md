@@ -1,9 +1,9 @@
 ---
-aliases: [LSXMA, FWONA, LLYVA, Liberty, John Malone]
+aliases: [LSXMA, FWONA, LLYVA, Liberty, [[John Malone]]]
 ---
 #actor #holding #media #sports #usa #public
 
-**Liberty Media** — John Malone's tracking stock empire. Controls Formula 1, SiriusXM, Atlanta Braves. Complex structure.
+**Liberty Media** — [[John Malone]]'s tracking stock empire. Controls Formula 1, SiriusXM, Atlanta Braves. Complex structure.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [LSXMA, FWONA, LLYVA, Liberty, John Malone]
 
 | Metric | Value |
 |--------|-------|
-| Chairman | **John Malone** |
+| Chairman | **[[John Malone]]** |
 | Structure | Tracking stocks |
 | Key assets | F1, SiriusXM, Braves |
 | Philosophy | Tax-efficient, long-term |
@@ -40,7 +40,7 @@ aliases: [LSXMA, FWONA, LLYVA, Liberty, John Malone]
 | Key events | Las Vegas GP, Miami GP |
 | Media rights | Growing rapidly |
 
-**Transformation:** Malone/Liberty turned F1 into a US-friendly media property. Netflix "Drive to Survive" drove engagement.
+**Transformation:** Malone/Liberty turned F1 into a US-friendly media property. [[Netflix]] "Drive to Survive" drove engagement.
 
 ---
 
@@ -62,7 +62,7 @@ See [[SiriusXM]] for details.
 | Metric | Value |
 |--------|-------|
 | Ownership | ~100% |
-| Venue | Truist Park + The Battery Atlanta |
+| Venue | [[Truist]] Park + The Battery Atlanta |
 | Value | ~$2.5B (Forbes) |
 | Strategy | Real estate + team |
 
@@ -82,7 +82,7 @@ See [[Live Nation]] for details.
 
 ---
 
-## John Malone
+## [[John Malone]]
 
 | Fact | Detail |
 |------|--------|
@@ -130,7 +130,7 @@ See [[Live Nation]] for details.
 
 | Metric | Value |
 |--------|-------|
-| Chairman | John Malone |
+| Chairman | [[John Malone]] |
 | Key assets | F1, SiriusXM, Braves |
 | Structure | Tracking stocks |
 | Style | Tax-efficient compounder |

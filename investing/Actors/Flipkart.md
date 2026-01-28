@@ -23,7 +23,7 @@
 | Shareholder | Stake | Notes |
 |-------------|-------|-------|
 | [[Walmart]] | ~85% | Acquired 77% for $16B (2018), added $3.5B more |
-| Others | ~15% | SoftBank, GIC, Tiger Global, etc. |
+| Others | ~15% | [[SoftBank]], GIC, [[Tiger Global]], etc. |
 
 ---
 
@@ -35,7 +35,7 @@
 | 2021 | Series J | $3.6B | $37.6B |
 | 2024 | — | — | $35-36B (current) |
 
-Investors: [[SoftBank Vision Fund 2]], [[GIC]], Canada Pension Plan, Walmart.
+Investors: [[SoftBank Vision Fund 2]], [[GIC]], [[Canada]] Pension Plan, Walmart.
 
 ---
 

@@ -63,7 +63,7 @@
 
 ---
 
-## Competitive moats
+## [[Competitive moats]]
 
 | Moat | Description |
 |------|-------------|
@@ -76,7 +76,7 @@
 
 ## Disintermediation risk
 
-| Signal | Response |
+| [[Signal]] | Response |
 |--------|----------|
 | Direct bookings | Add value, reduce friction |
 | Contact exchange | Delay until transaction |
@@ -86,7 +86,7 @@
 
 ## Investment signals
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Take rate rising | Platform power |
 | GMV growing faster than revenue | Investing in growth |

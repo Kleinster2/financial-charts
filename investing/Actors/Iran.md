@@ -19,10 +19,10 @@
 
 **Consequences:**
 - Central Bank governor Mohammad Reza Farzin resigned Dec 29, 2025
-- Inflation running 36-42% annualized
+- [[Inflation]] running 36-42% annualized
 - Currency collapse contributed to 2025-2026 Iranian protests
 
-**Gap analysis:** Official rate (~1M) vs market (~1.45M) = 45% black market premium. Reflects capital controls and sanctions pressure.
+**[[Gap]] analysis:** Official rate (~1M) vs market (~1.45M) = 45% black market premium. Reflects capital controls and sanctions pressure.
 
 **Data sources:**
 
@@ -45,7 +45,7 @@ Bonbast is the standard source for black market rates — what journalists and a
 | Population | ~90M |
 | Oil production | ~3.2M bbl/day |
 | Key exports | Oil, petrochemicals, metals |
-| Sanctions | US comprehensive, EU partial |
+| Sanctions | US comprehensive, [[EU]] partial |
 
 ---
 
@@ -75,7 +75,7 @@ Iran is uninvestable for most Western capital, but matters for:
 | Arrested | 10,600+ |
 
 **Internet shutdown:**
-- Connectivity near zero for 4+ days (NetBlocks, Cloudflare)
+- Connectivity near zero for 4+ days (NetBlocks, [[Cloudflare]])
 - Military-grade jamming blocking [[Starlink]]
 
 **Trump/Musk response (Jan 12, 2026):**
@@ -89,18 +89,18 @@ Iran is uninvestable for most Western capital, but matters for:
 
 ## Trump 25% tariff on Iran trading partners (Jan 14, 2026)
 
-**Announcement:** "Effective immediately, any Country doing business with the Islamic Republic of Iran will pay a Tariff of 25% on any and all business being done with the United States of America." — Trump (Truth Social, Jan 12)
+**Announcement:** "Effective immediately, any Country doing business with the Islamic [[Republic]] of Iran will pay a Tariff of 25% on any and all business being done with the United States of America." — Trump (Truth Social, Jan 12)
 
 ### Affected countries
 
 | Country | Iran trade (2025) | Impact |
 |---------|-------------------|--------|
-| **China** | $9B+ exports/imports (ex-oil) | 45% total tariff (20% existing + 25%) |
-| **India** | Major trading partner | +25% |
-| **UAE** | Trade hub | +25% |
+| **[[China]]** | $9B+ exports/imports (ex-oil) | 45% total tariff (20% existing + 25%) |
+| **[[India]]** | Major trading partner | +25% |
+| **UAE** | [[Trade]] hub | +25% |
 | **Turkey** | Regional partner | +25% |
 
-**China oil:** Accounts for 90%+ of Iran's oil exports (via intermediaries, not disclosed).
+**[[China]] oil:** Accounts for 90%+ of Iran's oil exports (via intermediaries, not disclosed).
 
 ### Implementation questions
 
@@ -111,7 +111,7 @@ Iran is uninvestable for most Western capital, but matters for:
 | Legal authority | IEEPA (being challenged at Supreme Court) |
 | Services vs goods | Unclear |
 
-**China response:** "There are no winners in a tariff war, and China will firmly safeguard its legitimate rights and interests." — Foreign Ministry
+**[[China]] response:** "There are no winners in a tariff war, and [[China]] will firmly safeguard its legitimate rights and interests." — Foreign Ministry
 
 ### Investment implications
 
@@ -120,7 +120,7 @@ Iran is uninvestable for most Western capital, but matters for:
 | [[US-China tariffs]] | Could escalate from 20% → 45%+ |
 | Oil prices | Iran supply more constrained |
 | [[Gold]] | Safe haven bid on geopolitical risk |
-| EM exposure | India, Turkey, UAE trade disruption |
+| EM exposure | [[India]], Turkey, UAE trade disruption |
 
 ---
 

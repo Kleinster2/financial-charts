@@ -35,7 +35,7 @@ The arrival of Brazil's central bank-powered [[Pix]] transfer system in 2020 eli
 | Credit products | Personal loans, credit cards, BNPL |
 | Distribution | Bank via app, retail banking |
 | Key acquisition | [[Banco Original SA]] retail operations (2024) |
-| Insurance | Acquiring [[Kovr Participacoes SA]] (from failed [[Banco Master]]) |
+| [[Insurance]] | Acquiring [[Kovr Participacoes SA]] (from failed [[Banco Master]]) |
 
 > **BTG analyst:** "Although PicPay has a comprehensive ecosystem and was initially launched as an asset-light digital wallet, credit is becoming increasingly relevant to its business model, resembling that of digital banks like Nubank." — Eduardo Rosman, Sept 2025
 
@@ -88,7 +88,7 @@ Other executives recruited from [[Itau Unibanco]], [[Banco do Brasil]].
 
 | Term | Value |
 |------|-------|
-| Target valuation | ~$2.5B |
+| [[Target]] valuation | ~$2.5B |
 | Exchange | NYSE |
 | Status | 3x oversubscribed (Jan 24) |
 | Use of proceeds | Credit expansion, Kovr acquisition |
@@ -127,7 +127,7 @@ PicPay agreed to acquire [[Kovr Participacoes SA]], an insurance company previou
 
 | Competitor | Clients | Geographic scope | PicPay difference |
 |------------|---------|------------------|-------------------|
-| [[Nubank]] | 100M+ | Brazil, Mexico, Colombia | Nubank multi-country; PicPay Brazil-only |
+| [[Nubank]] | 100M+ | Brazil, [[Mexico]], Colombia | Nubank multi-country; PicPay Brazil-only |
 | [[Mercado Libre]] | 70M+ fintech | LatAm-wide | MELI has e-commerce flywheel |
 | **PicPay** | 67M | Brazil only | Credit-first, insurance expansion |
 

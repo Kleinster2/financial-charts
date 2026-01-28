@@ -63,7 +63,7 @@
 | Component | Amount |
 |-----------|--------|
 | New junk bonds | $2.2B |
-| Neiman legacy debt | ~$2.8B (from Apollo/PE era) |
+| Neiman legacy debt | ~$2.8B (from [[Apollo]]/PE era) |
 | Asset-based lending | $1.8B facility |
 | **Total obligations** | **$5B** |
 
@@ -81,12 +81,12 @@
 - Synergies didn't materialize quickly enough
 - Interest costs consumed cash flow
 - Rising rates made debt more expensive
-- Luxury sales softened in 2025
+- [[Luxury]] sales softened in 2025
 - Led directly to [[Saks bankruptcy]] (Jan 2026)
 
-**Moody's (Mickey Chadha):** "Recipe for disaster."
+**[[Moody's]] (Mickey Chadha):** "Recipe for disaster."
 
-**Morningstar (David Swartz):** "This Saks-Neiman merger has been a disaster."
+**[[Morningstar]] (David Swartz):** "This Saks-Neiman merger has been a disaster."
 
 ---
 
@@ -95,7 +95,7 @@
 | Actor | Role |
 |-------|------|
 | [[Saks Global]] | Acquirer |
-| [[Neiman Marcus]] | Target |
+| [[Neiman Marcus]] | [[Target]] |
 | [[Richard Baker]] | Deal architect, HBC/Saks owner |
 | [[Amazon]] | $475M equity investor |
 

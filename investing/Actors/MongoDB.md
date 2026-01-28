@@ -11,7 +11,7 @@ aliases: [MDB]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | MDB (Nasdaq) |
+| Ticker | MDB ([[Nasdaq]]) |
 | Revenue | **$2.01B** (FY25) |
 | Atlas % of revenue | **75%** |
 | Customers | 54,500+ |
@@ -38,7 +38,7 @@ aliases: [MDB]
 **Vector search leadership:**
 - Atlas Vector Search — #1 most loved, #2 most used
 - Voyage AI acquisition — embedding/reranking models
-- MCP Server — standardized AI model connections (Claude, Windsurf)
+- MCP Server — standardized AI model connections ([[Claude]], Windsurf)
 
 **AI workloads:**
 - Document model ideal for unstructured AI data
@@ -90,7 +90,7 @@ aliases: [MDB]
 | Metric | Value |
 |--------|-------|
 | Ticker | MDB |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$2B |
 | Focus | Document database |
 

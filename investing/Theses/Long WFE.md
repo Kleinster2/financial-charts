@@ -33,8 +33,8 @@ Wafer Fab Equipment = the machines that build chips:
 ## Why it's a picks and shovels play
 
 Every fab needs equipment regardless of:
-- Who owns it (TSMC, Samsung, Intel, Rapidus)
-- Where it's built (Taiwan, Arizona, Texas, Korea, Japan)
+- Who owns it (TSMC, Samsung, [[Intel]], Rapidus)
+- Where it's built ([[Taiwan]], Arizona, Texas, Korea, [[Japan]])
 - What it makes (logic, memory, AI chips)
 
 Fab buildout = equipment orders. Simple.
@@ -46,13 +46,13 @@ Fab buildout = equipment orders. Simple.
 ### ASML (ASML)
 - **Monopoly**: Only EUV lithography supplier
 - **Moat**: 20+ years of R&D, no alternative
-- **Exposure**: Leading edge logic (TSMC, Samsung, Intel)
-- **Risk**: China restrictions limit TAM
+- **Exposure**: Leading edge logic (TSMC, Samsung, [[Intel]])
+- **Risk**: [[China]] restrictions limit TAM
 
 ### Lam Research (LRCX)
 - **Segment**: Deposition and etch
 - **Targets**: $25-27B revenue by CY2028, $30B at $1T semi industry
-- **Exposure**: Memory (HBM buildout) + logic
+- **Exposure**: Memory ([[HBM]] buildout) + logic
 - **Note**: Dep/etch intensity growing with advanced nodes
 
 ### Applied Materials (AMAT)
@@ -69,11 +69,11 @@ Fab buildout = equipment orders. Simple.
 
 ## Demand drivers
 
-1. **CHIPS Act buildout**: Arizona (TSMC, Intel), Texas (Samsung, TI), Ohio (Intel)
-2. **Japan resurgence**: Rapidus, TSMC Kumamoto
-3. **Memory expansion**: HBM capacity, DRAM shortage response
-4. **Leading edge race**: 2nm requires more equipment steps
-5. **China domestic push**: Despite restrictions, building trailing edge
+1. **CHIPS Act buildout**: Arizona (TSMC, [[Intel]]), Texas (Samsung, TI), Ohio ([[Intel]])
+2. **[[Japan]] resurgence**: Rapidus, TSMC Kumamoto
+3. **Memory expansion**: [[HBM]] capacity, DRAM shortage response
+4. **[[Leading edge race]]**: 2nm requires more equipment steps
+5. **[[China]] domestic push**: Despite restrictions, building trailing edge
 
 ---
 
@@ -82,7 +82,7 @@ Fab buildout = equipment orders. Simple.
 | Phase | Who benefits |
 |-------|--------------|
 | Construction (capex) | WFE — Lam, ASML, Applied, KLA |
-| Production (opex) | OSAT/Test — ASE, Cohu |
+| Production (opex) | OSAT/Test — [[ASE]], [[Cohu]] |
 
 WFE benefits first (fab construction), OSAT/test benefits later (production volume).
 
@@ -96,7 +96,7 @@ Current phase: Heavy construction — WFE tailwind.
 - [ ] CHIPS Act funding flows
 - [ ] Memory capacity expansion announcements
 - [ ] WFE intensity continues rising with node complexity
-- [ ] China continues domestic buildout despite restrictions
+- [ ] [[China]] continues domestic buildout despite restrictions
 
 ---
 
@@ -106,11 +106,11 @@ Current phase: Heavy construction — WFE tailwind.
 - [ ] AI capex pullback reduces urgency
 - [ ] Memory overbuild leads to capex cuts
 - [ ] WFE oversupply / pricing pressure
-- [ ] China restrictions tighten further, reduce TAM
+- [ ] [[China]] restrictions tighten further, reduce TAM
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - ASML: premium valuation, monopoly, most defensive
 - Lam/Applied: more cyclical, memory exposure
@@ -125,7 +125,7 @@ Current phase: Heavy construction — WFE tailwind.
 |------|------------|------------|------------|------------|-------|
 | 2025-12 | | | | | |
 
-**Hedge portfolio**: Short SMH, buy back WFE weights (ASML ~10%, AMAT ~5%, LRCX ~4%, KLAC ~3%). Isolates equipment capex cycle from chip demand cycle.
+**Hedge portfolio**: Short [[SMH]], buy back WFE weights (ASML ~10%, AMAT ~5%, LRCX ~4%, KLAC ~3%). Isolates equipment capex cycle from chip demand cycle.
 
 ---
 
@@ -140,8 +140,8 @@ Current phase: Heavy construction — WFE tailwind.
 | 2025-12-29 | GAA capacity to triple from current levels | Long runway ahead |
 | 2025-12-29 | KLA services 25% of rev, 13% CAGR, 50K installed base | Recurring revenue annuity, not just equipment |
 | 2025-12-29 | KLA equipment life: 12-13yrs → high teens, ASPs +150bps | Growing base + pricing power |
-| 2025-12-29 | Micron capex growing 4 straight years (first time in 25+ yrs) | Memory capex driving WFE demand |
-| 2025-12-29 | Micron FY26 capex 2H weighted — semicap acceleration | Timing aligns with equipment orders |
+| 2025-12-29 | [[Micron]] capex growing 4 straight years (first time in 25+ yrs) | Memory capex driving WFE demand |
+| 2025-12-29 | [[Micron]] FY26 capex 2H weighted — semicap acceleration | Timing aligns with equipment orders |
 
 ---
 
@@ -158,7 +158,7 @@ Current phase: Heavy construction — WFE tailwind.
 - [[CHIPS Act]] — driver (fab construction funding)
 - [[TSMC]] — customer (Arizona buildout)
 - [[Samsung]] — customer (Taylor buildout)
-- [[Rapidus]] — customer (Japan 2nm)
+- [[Rapidus]] — customer ([[Japan]] 2nm)
 
 ---
 

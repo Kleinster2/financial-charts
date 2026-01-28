@@ -1,9 +1,9 @@
 ---
-aliases: [China Africa relations, Sino-African trade]
+aliases: [China [[Africa]] relations, Sino-African trade]
 ---
 #concept #geopolitics #china #africa #trade
 
-**China-Africa trade** — Surging trade axis as China redirects exports away from US. $348B in 2025 (+18%). Africa is #1 Belt & Road destination.
+**China-[[Africa]] trade** — Surging trade axis as China redirects exports away from US. $348B in 2025 (+18%). [[Africa]] is #1 Belt & Road destination.
 
 ---
 
@@ -12,11 +12,11 @@ aliases: [China Africa relations, Sino-African trade]
 | Metric | Value | YoY |
 |--------|-------|-----|
 | Total trade | **$348B** | +17.7% |
-| China exports to Africa | ~$249B est | **+26-28%** |
-| Africa exports to China | ~$99B | +10% |
-| Trade deficit (Africa) | ~$150B | Widening |
+| China exports to [[Africa]] | ~$249B est | **+26-28%** |
+| [[Africa]] exports to China | ~$99B | +10% |
+| [[Trade]] deficit ([[Africa]]) | ~$150B | Widening |
 
-**Context:** US tariffs cut China→US exports 20%. Africa absorbed much of the redirect.
+**Context:** US tariffs cut China→US exports 20%. [[Africa]] absorbed much of the redirect.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [China Africa relations, Sino-African trade]
 
 | Country | Role |
 |---------|------|
-| **South Africa** | Largest by volume |
+| **South [[Africa]]** | Largest by volume |
 | **[[Nigeria]]** | Largest population, fastest growth |
 | **Egypt** | Major hub |
 | Côte d'Ivoire | Surging |
@@ -33,13 +33,13 @@ aliases: [China Africa relations, Sino-African trade]
 
 ---
 
-## What Africa is buying
+## What [[Africa]] is buying
 
 | Category | Trend | Notes |
 |----------|-------|-------|
 | **Solar panels** | **+60%** | 12 months to June 2025 |
 | Construction machinery | Surging | BRI project-linked |
-| Passenger cars | Strong | Consumer market growth |
+| Passenger cars | Strong | [[Consumer]] market growth |
 | Steel | Elevated | Infrastructure demand |
 | Electronics | Bulk | Higher-value shift |
 | Plastics, textiles | Bulk | Manufacturing goods |
@@ -52,15 +52,15 @@ aliases: [China Africa relations, Sino-African trade]
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **Africa BRI investment** | **$39B** | #1 destination globally |
-| Africa construction contracts | **$30.5B** | +395% YoY |
+| **[[Africa]] BRI investment** | **$39B** | #1 destination globally |
+| [[Africa]] construction contracts | **$30.5B** | +395% YoY |
 | Total global BRI (H1 2025) | $124B | Record — exceeds all of 2024 |
 
 **Major projects:**
 
 | Project | Value | Country |
 |---------|-------|---------|
-| Oil/gas processing | Multi-billion | [[Nigeria]] |
+| [[Oil]]/gas processing | Multi-billion | [[Nigeria]] |
 | Standard-gauge railway | Multi-billion | Tanzania |
 | Port expansion | Billions | Kenya, Côte d'Ivoire |
 | Highway networks | Billions | Multiple |
@@ -72,13 +72,13 @@ aliases: [China Africa relations, Sino-African trade]
 ## Strategic drivers
 
 **China's calculus:**
-1. US tariffs cut exports 20% → redirect to Africa
+1. US tariffs cut exports 20% → redirect to [[Africa]]
 2. Build infrastructure that locks in Chinese goods
 3. Secure commodities (oil, minerals, rare earths)
-4. Consumer brands following infrastructure investment
+4. [[Consumer]] brands following infrastructure investment
 5. Geopolitical influence (53 of 54 African countries in BRI)
 
-**Africa's appeal:**
+**[[Africa]]'s appeal:**
 - 1.4B population (larger than China)
 - Fastest-growing consumer market
 - Infrastructure gap = demand for Chinese construction
@@ -107,9 +107,9 @@ aliases: [China Africa relations, Sino-African trade]
 
 | Era | Model | Focus |
 |-----|-------|-------|
-| 2000s-2010s | **Resources for infrastructure** | Commodities, mega-projects |
+| 2000s-2010s | **Resources for infrastructure** | [[Commodities]], mega-projects |
 | 2015-2020 | **Debt-fueled BRI** | Railways, ports, power plants |
-| 2021+ | **Consumer + green** | Solar, EVs, consumer goods, smaller projects |
+| 2021+ | **[[Consumer]] + green** | Solar, EVs, consumer goods, smaller projects |
 
 **CNBC:** "Old investment model fades" — Chinese consumer brands now flooding African markets.
 
@@ -121,17 +121,17 @@ aliases: [China Africa relations, Sino-African trade]
 
 | Play | Rationale |
 |------|-----------|
-| Chinese construction firms | $30.5B Africa contracts (H1 2025) |
+| Chinese construction firms | $30.5B [[Africa]] contracts (H1 2025) |
 | Solar manufacturers | 60% surge in African imports |
 | African port operators | Chinese-built capacity |
-| Consumer goods distributors | New market access |
+| [[Consumer]] goods distributors | New market access |
 
 **Risks:**
 
 | Risk | Detail |
 |------|--------|
 | African debt sustainability | Multiple restructurings ongoing |
-| Commodity price volatility | Africa exports raw materials |
+| Commodity price volatility | [[Africa]] exports raw materials |
 | Political backlash | Anti-Chinese sentiment rising in some countries |
 | Currency risk | African currencies vs USD/CNY |
 

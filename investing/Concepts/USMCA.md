@@ -1,9 +1,9 @@
 ---
-aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
+aliases: [USMCA, US-Mexico-[[Canada]] Agreement, NAFTA 2.0, T-MEC, CUSMA]
 ---
 #concept #trade #northamerica #autos #nearshoring
 
-**USMCA** — US-Mexico-Canada Agreement. Replaced NAFTA in 2020. Stricter auto rules, digital trade provisions, 6-year sunset review.
+**USMCA** — US-Mexico-[[Canada]] Agreement. Replaced NAFTA in 2020. Stricter auto rules, digital trade provisions, 6-year sunset review.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
 
 | Metric | Value |
 |--------|-------|
-| Parties | US, Mexico, Canada |
+| Parties | US, Mexico, [[Canada]] |
 | Population | 500M |
 | Combined GDP | ~$28T |
 | Signed | Nov 2018 |
@@ -28,8 +28,8 @@ aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
 | Category | Treatment |
 |----------|-----------|
 | Industrial goods | 99%+ duty-free (NAFTA continuity) |
-| Agriculture | Mostly open |
-| Dairy | US gained Canada access (3.6% market) |
+| [[Agriculture]] | Mostly open |
+| Dairy | US gained [[Canada]] access (3.6% market) |
 | Steel/aluminum | Side agreements, Section 232 |
 
 ### Auto rules of origin (strictest globally)
@@ -41,7 +41,7 @@ aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
 | Labor value content | 40-45% at $16+/hr | New |
 | Core parts | 75% regional | New |
 
-**Impact:** Forces production toward US/Canada (high-wage) from Mexico (low-wage).
+**Impact:** Forces production toward US/[[Canada]] (high-wage) from Mexico (low-wage).
 
 ### Labor provisions
 
@@ -65,7 +65,7 @@ aliases: [USMCA, US-Mexico-Canada Agreement, NAFTA 2.0, T-MEC, CUSMA]
 
 Most advanced digital trade chapter of any FTA at signing.
 
-### Dairy (Canada concessions)
+### Dairy ([[Canada]] concessions)
 
 | Product | US access |
 |---------|-----------|
@@ -74,7 +74,7 @@ Most advanced digital trade chapter of any FTA at signing.
 | Butter | Limited |
 | Class 7 pricing | Eliminated |
 
-Canada dismantled supply management partially — politically sensitive.
+[[Canada]] dismantled supply management partially — politically sensitive.
 
 ### Sunset clause
 
@@ -95,8 +95,8 @@ Canada dismantled supply management partially — politically sensitive.
 
 | Sector | Beneficiary |
 |--------|-------------|
-| **US auto workers** | Wage content rules favor US/Canada |
-| **US dairy** | Canada market access |
+| **US auto workers** | Wage content rules favor US/[[Canada]] |
+| **US dairy** | [[Canada]] market access |
 | **Mexico manufacturing** | Nearshoring wave (post-COVID) |
 | **Digital platforms** | Data flow protections |
 | **Mexican labor** | Union rights, wage floors |
@@ -106,17 +106,17 @@ Canada dismantled supply management partially — politically sensitive.
 | Sector | Impact |
 |--------|--------|
 | **Mexico low-wage auto** | Shifted toward higher-value |
-| **Canada dairy farmers** | Lost protection |
+| **[[Canada]] dairy farmers** | Lost protection |
 | **Supply chain complexity** | Stricter rules of origin |
 
 ### Nearshoring beneficiaries
 
 | Company | Exposure |
 |---------|----------|
-| Industrial REITs | Prologis, FIBRA Macquarie |
+| Industrial [[REITs]] | Prologis, FIBRA Macquarie |
 | Auto suppliers | Lear, Aptiv, Magna |
-| Electronics | Foxconn Juarez, Samsung Tijuana |
-| Railroads | Kansas City Southern, Union Pacific |
+| Electronics | Foxconn Juarez, [[Samsung]] Tijuana |
+| Railroads | Kansas City Southern, [[Union Pacific]] |
 
 See [[Nearshoring thesis]].
 
@@ -143,7 +143,7 @@ See [[Nearshoring thesis]].
 | Biden continuation | Kept USMCA |
 | 2026 review | First test |
 | Mexico relations | Nearshoring vs fentanyl tensions |
-| Canada relations | Dairy, softwood lumber |
+| [[Canada]] relations | Dairy, softwood lumber |
 
 ---
 
@@ -154,7 +154,7 @@ See [[Nearshoring thesis]].
 | Jun 2016 | Trump promises NAFTA renegotiation |
 | Aug 2017 | Negotiations begin |
 | Sep 2018 | US-Mexico deal |
-| Oct 2018 | Canada joins |
+| Oct 2018 | [[Canada]] joins |
 | Nov 2018 | Signed |
 | Dec 2019 | Protocol of Amendment (labor) |
 | Jul 2020 | Entry into force |

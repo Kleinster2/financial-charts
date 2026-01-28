@@ -61,7 +61,7 @@ aliases: [Israel Englander, Israel "Izzy" Englander]
 | Detail | Value |
 |--------|-------|
 | Partner | John Mulheren Jr. |
-| Seed capital | $75M (Belzberg family of Canada) |
+| Seed capital | $75M (Belzberg family of [[Canada]]) |
 | Ended | 1988 |
 | Reason | Mulheren convicted of insider trading (Ivan Boesky connection) |
 | Englander involvement | Never implicated; firm dissolved due to negative publicity |
@@ -103,7 +103,7 @@ Englander pioneered the multi-manager "pod" structure — now industry standard:
 | Quick cuts | Underperformers removed fast |
 | Talent pipeline | Constant PM recruitment |
 
-**Legacy**: Citadel, Point72, Balyasny, and others copied this model.
+**Legacy**: [[Citadel]], Point72, [[Balyasny]], and others copied this model.
 
 ---
 

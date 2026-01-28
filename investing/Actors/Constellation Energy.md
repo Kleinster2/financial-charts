@@ -136,7 +136,7 @@ PJM's "Bring Your Own Generation" proposal threatens incumbent generators:
 - [[Microsoft]] — customer ($1.6B TMI restart deal)
 - [[Meta]] — customer ($10B Louisiana DC, 6.6 GW target)
 - [[Vistra]] — peer (nuclear operator, BYOG risk)
-- [[Talen Energy]] — peer (Amazon Susquehanna deal)
+- [[Talen Energy]] — peer (Amazon [[Susquehanna]] deal)
 - [[Cameco]] — supplier (nuclear fuel)
 - [[NuScale]] — adjacent (SMR developer)
 - [[Oklo]] — adjacent (SMR developer)

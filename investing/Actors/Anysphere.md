@@ -1,19 +1,19 @@
 ---
-aliases: [Cursor]
+aliases: [[[Cursor]]]
 ---
 #actor #ai #coding #usa #private
 
-**Anysphere (Cursor)** — AI coding IDE. $29.3B valuation. Fastest-growing software startup ever. $1B+ ARR.
+**Anysphere ([[Cursor]])** — AI coding IDE. $29.3B valuation. Fastest-growing software startup ever. $1B+ ARR.
 
 ---
 
 ## Why Anysphere matters
 
-Cursor is eating GitHub Copilot's lunch:
+[[Cursor]] is eating GitHub Copilot's lunch:
 
 | Metric | Value |
 |--------|-------|
-| Product | Cursor (AI coding IDE) |
+| Product | [[Cursor]] (AI coding IDE) |
 | Valuation | $29.3B (Nov 2025) |
 | ARR | $1B+ |
 | Total raised | $3.4B |
@@ -51,13 +51,13 @@ Bloomberg: "Fastest-growing software startup of all time."
 | Investor | Notes |
 |----------|-------|
 | [[a16z]] | Multiple rounds |
-| Thrive Capital | Growth (Series D) |
-| Accel | Growth |
-| Coatue | Growth |
+| [[Thrive Capital]] | Growth (Series D) |
+| [[Accel]] | Growth |
+| [[Coatue]] | Growth |
 | [[NVIDIA]] | Strategic |
 | [[Google]] | Strategic |
-| Daniel Gross | Early |
-| Nat Friedman | Early |
+| [[Daniel Gross]] | Early |
+| [[Nat Friedman]] | Early |
 
 **Total raised:** $3.4B
 
@@ -65,7 +65,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ## Product
 
-**Cursor IDE:**
+**[[Cursor]] IDE:**
 - Fork of VS Code
 - AI-native code generation
 - Edit, review, generate code
@@ -81,7 +81,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 ## Acquisitions
 
-| Date | Target | Deal Value | Strategic Rationale |
+| Date | [[Target]] | Deal Value | Strategic Rationale |
 |------|--------|------------|---------------------|
 | Nov 2024 | Supermaven | — | AI coding assistant |
 | Jul 2025 | Koala (talent) | — | Enterprise talent acqui-hire |
@@ -89,10 +89,10 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 **Graphite (Dec 2025):**
 - Code review startup, $52M Series B at $290M valuation earlier in 2025
-- Customers: Shopify, Snowflake, Figma, Perplexity (500+ companies)
+- Customers: [[Shopify]], [[Snowflake]], [[Figma]], [[Perplexity]] (500+ companies)
 - Key feature: "stacked pull requests" — work on dependent changes without waiting for approvals
 - Will operate independently, integrate over 2026
-- Fills gap: Cursor accelerated code writing, but review process unchanged
+- Fills gap: [[Cursor]] accelerated code writing, but review process unchanged
 
 ---
 
@@ -100,7 +100,7 @@ Bloomberg: "Fastest-growing software startup of all time."
 
 | Product | Company | Position |
 |---------|---------|----------|
-| **Cursor** | Anysphere | Leader, $1B ARR |
+| **[[Cursor]]** | Anysphere | Leader, $1B ARR |
 | GitHub Copilot | [[Microsoft]] | Incumbent, market share eroding |
 | Windsurf | [[Cognition]] (acquired) | Integrated with Devin |
 | Devin | [[Cognition]] | AI agent, different approach |
@@ -115,14 +115,14 @@ Bloomberg: "Fastest-growing software startup of all time."
 - Failed to gain traction
 - Anysphere stayed independent
 
-Signal: Cursor valuable enough for OpenAI interest.
+[[Signal]]: [[Cursor]] valuable enough for OpenAI interest.
 
 ---
 
 ## Semiconductor relevance
 
 **Indirect but significant:**
-- Cursor uses cloud AI (Anthropic Claude, OpenAI)
+- [[Cursor]] uses cloud AI (Anthropic [[Claude]], OpenAI)
 - More AI coding = more inference demand
 - Developer productivity = more software = more compute
 
@@ -152,7 +152,7 @@ Signal: Cursor valuable enough for OpenAI interest.
 | Ticker | Private |
 | Valuation | $29.3B |
 | ARR | $1B+ |
-| Product | Cursor IDE |
+| Product | [[Cursor]] IDE |
 | CEO | Michael Truell |
 
 *Updated 2026-01-11*
@@ -167,6 +167,6 @@ Signal: Cursor valuable enough for OpenAI interest.
 - [[a16z]] — investor
 - [[NVIDIA]] — investor
 - [[Google]] — investor
-- [[Anthropic]] — model provider (Claude)
+- [[Anthropic]] — model provider ([[Claude]])
 - [[OpenAI]] — model provider, tried to acquire
 - Graphite — acquired Dec 2025, code review

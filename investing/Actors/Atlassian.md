@@ -3,7 +3,7 @@ aliases: [TEAM]
 ---
 #actor #saas #devtools #australia #public
 
-**Atlassian** — Developer collaboration platform. Jira, Confluence, Trello. Rovo AI for all users. 3M+ search users.
+**Atlassian** — Developer collaboration platform. Jira, Confluence, Trello. Rovo AI for all users. [[3M]]+ search users.
 
 ---
 
@@ -11,11 +11,11 @@ aliases: [TEAM]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | TEAM (Nasdaq) |
+| Ticker | TEAM ([[Nasdaq]]) |
 | Revenue | **~$4.5B** |
 | Products | Jira, Confluence, Trello, Bitbucket |
-| Rovo users | **3M+** (search) |
-| HQ | Sydney, Australia |
+| Rovo users | **[[3M]]+** (search) |
+| HQ | Sydney, [[Australia]] |
 
 ---
 
@@ -36,14 +36,14 @@ aliases: [TEAM]
 **Launched 2025:**
 - Included free with Premium/Enterprise plans
 - Standard users: Oct 2025 access
-- 3M+ active search users
+- [[3M]]+ active search users
 
 **Capabilities:**
 - **Find** — search across all connected tools
 - **Learn** — AI-driven insights from company data
-- **Act** — AI agents for task automation
+- **Act** — [[AI agents]] for task automation
 
-**AI agents:**
+**[[AI agents]]:**
 - Virtual teammates for workflows
 - Create/edit Jira issues, Confluence pages
 - Custom skill development
@@ -54,7 +54,7 @@ aliases: [TEAM]
 
 | Integration | Status |
 |-------------|--------|
-| ChatGPT connector | Dec 2025 (MCP) |
+| [[ChatGPT]] connector | Dec 2025 (MCP) |
 | Third-party apps | Native connectors |
 | Data Center | DC 11.3+, Confluence 10.2+ |
 
@@ -82,7 +82,7 @@ aliases: [TEAM]
 - High switching costs
 
 **Bear:**
-- Competition (Linear, Notion, GitHub)
+- Competition (Linear, [[Notion]], GitHub)
 - Data Center decline
 - Premium valuation
 - Macro sensitivity
@@ -94,7 +94,7 @@ aliases: [TEAM]
 | Metric | Value |
 |--------|-------|
 | Ticker | TEAM |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$4.5B |
 | Focus | Dev collaboration |
 

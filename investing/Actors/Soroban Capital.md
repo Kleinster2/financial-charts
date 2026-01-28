@@ -23,8 +23,8 @@ aliases: [Soroban, Eric Mandelblatt]
 
 | Person | Background |
 |--------|------------|
-| Eric Mandelblatt | TPG-Axon |
-| Gaurav Kapadia | TPG-Axon |
+| Eric Mandelblatt | [[TPG]]-Axon |
+| Gaurav Kapadia | [[TPG]]-Axon |
 
 ---
 
@@ -44,8 +44,8 @@ aliases: [Soroban, Eric Mandelblatt]
 | Theme | Companies |
 |-------|-----------|
 | Tech | Large-cap tech |
-| Consumer | Select positions |
-| Healthcare | Managed care |
+| [[Consumer]] | Select positions |
+| [[Healthcare]] | Managed care |
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [Norwest, NVP]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Norwest Venture Partners** — Multi-stage VC. Wells Fargo backed. Uber, Spotify, Plaid investor. ~$15B AUM.
+**Norwest Venture Partners** — Multi-stage VC. [[Wells Fargo]] backed. [[Uber]], Spotify, Plaid investor. ~$15B AUM.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Norwest, NVP]
 |--------|-------|
 | Founded | 1961 |
 | AUM | ~$15B |
-| Backer | Wells Fargo |
+| Backer | [[Wells Fargo]] |
 | HQ | Palo Alto |
 
 ---
@@ -22,7 +22,7 @@ aliases: [Norwest, NVP]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Uber** | Growth | Public (UBER) |
+| **[[Uber]]** | Growth | Public (UBER) |
 | **[[Spotify]]** | Growth | Public (SPOT) |
 | **Plaid** | Growth | Private |
 | **Calm** | Growth | Private |
@@ -31,11 +31,11 @@ aliases: [Norwest, NVP]
 
 ---
 
-## Wells Fargo relationship
+## [[Wells Fargo]] relationship
 
 | Aspect | Detail |
 |--------|--------|
-| LP | Wells Fargo primary |
+| LP | [[Wells Fargo]] primary |
 | Independence | Operates independently |
 | Advantage | Patient capital |
 
@@ -45,10 +45,10 @@ aliases: [Norwest, NVP]
 
 | Sector | Examples |
 |--------|----------|
-| **Consumer** | Uber, Spotify, Calm |
-| **Fintech** | Plaid |
+| **[[Consumer]]** | [[Uber]], Spotify, Calm |
+| **[[Fintech]]** | Plaid |
 | **Enterprise** | Various |
-| **Healthcare** | Various |
+| **[[Healthcare]]** | Various |
 
 ---
 
@@ -58,8 +58,8 @@ aliases: [Norwest, NVP]
 |--------|-------|
 | Founded | 1961 |
 | AUM | ~$15B |
-| Backer | Wells Fargo |
-| Key deals | Uber, Spotify |
+| Backer | [[Wells Fargo]] |
+| Key deals | [[Uber]], Spotify |
 
 ---
 

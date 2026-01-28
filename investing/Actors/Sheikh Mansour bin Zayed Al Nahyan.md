@@ -41,14 +41,14 @@ Controls the most active sovereign wealth fund in the world through Mubadala.
 
 | Relation | Name | Key role |
 |----------|------|----------|
-| Brother | [[Sheikh Tahnoon bin Zayed Al Nahyan]] | ADIA/ADQ chairman (~75% of sovereign wealth) |
+| Brother | [[Sheikh Tahnoon bin Zayed Al Nahyan]] | [[ADIA]]/[[ADQ]] chairman (~75% of sovereign wealth) |
 | Brother | Sheikh Mohamed bin Zayed | UAE President |
-| Brother | Sheikh Hamed bin Zayed | ADQ Managing Director |
+| Brother | Sheikh Hamed bin Zayed | [[ADQ]] Managing Director |
 | Father | Sheikh Zayed bin Sultan | UAE founding father (deceased) |
 
 Sheikh Mansour and Sheikh Tahnoon divide Abu Dhabi's sovereign wealth:
 - **Mansour:** Mubadala ($330B) — most global, most active
-- **Tahnoon:** ADIA + ADQ (~$1.3T) — larger but fewer deals
+- **Tahnoon:** [[ADIA]] + [[ADQ]] (~$1.3T) — larger but fewer deals
 
 ---
 
@@ -71,7 +71,7 @@ Transformed City from mid-table club to Premier League dynasty (6 titles in 7 ye
 |--------|-------|
 | AUM | $330B |
 | Deals (2020-25) | 330+ |
-| Focus | US, Europe, AI, tech |
+| Focus | US, [[Europe]], AI, tech |
 | CEO | [[Khaldoon Al Mubarak]] |
 
 Mubadala became world's most active SWF in 2024 under his chairmanship.
@@ -82,10 +82,10 @@ Mubadala became world's most active SWF in 2024 under his chairmanship.
 
 | Trait | Description |
 |-------|-------------|
-| Global | US/Europe focus (unlike Tahnoon's local focus) |
+| Global | US/[[Europe]] focus (unlike Tahnoon's local focus) |
 | Active | High deal volume |
-| AI-forward | MGX co-founding, data centers |
-| Operating companies | GlobalFoundries, EGA |
+| AI-forward | [[MGX]] co-founding, data centers |
+| Operating companies | [[GlobalFoundries]], EGA |
 
 ---
 
@@ -105,7 +105,7 @@ Mubadala became world's most active SWF in 2024 under his chairmanship.
 ## Related
 
 - [[Mubadala]] — Chairman
-- [[Sheikh Tahnoon bin Zayed Al Nahyan]] — brother, ADIA/ADQ chairman
+- [[Sheikh Tahnoon bin Zayed Al Nahyan]] — brother, [[ADIA]]/[[ADQ]] chairman
 - [[Khaldoon Al Mubarak]] — Mubadala CEO (reports to Mansour)
 - [[Abu Dhabi Sovereign Wealth]] — ecosystem overview
 - [[Manchester City]] — sports investment

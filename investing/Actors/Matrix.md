@@ -13,7 +13,7 @@ aliases: [Matrix protocol, Element]
 |--------|-------|
 | Addressable users | 35M+ |
 | Deployments | 75,000+ |
-| Notable adopters | NATO, Bundeswehr, French Gov, Space Force |
+| Notable adopters | NATO, Bundeswehr, French Gov, [[Space]] Force |
 
 ---
 
@@ -49,7 +49,7 @@ aliases: [Matrix protocol, Element]
 | **Bundeswehr** | BwMessenger — classified comms |
 | **French Government** | Tchap — government messaging |
 | **NATO** | Secure communications |
-| **US Space Force** | Evaluation/deployment |
+| **US [[Space]] Force** | Evaluation/deployment |
 | **Rhineland-Palatinate** | SchulchatRLP — 500K pupils |
 
 Sovereign, on-premise deployment is key selling point.
@@ -58,9 +58,9 @@ Sovereign, on-premise deployment is key selling point.
 
 ## Why Matrix matters
 
-**Sovereignty:** Governments won't trust Slack/Teams for classified comms. Matrix = self-hosted, auditable.
+**Sovereignty:** Governments won't trust Slack/[[Teams]] for classified comms. Matrix = self-hosted, auditable.
 
-**Interoperability:** EU Digital Markets Act may require WhatsApp/iMessage to interoperate. Matrix is leading candidate protocol.
+**Interoperability:** [[EU]] Digital Markets Act may require [[WhatsApp]]/[[iMessage]] to interoperate. Matrix is leading candidate protocol.
 
 **Open source:** No vendor lock-in.
 

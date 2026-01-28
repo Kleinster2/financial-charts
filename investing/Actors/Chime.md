@@ -33,7 +33,7 @@ Revenue: interchange fees on debit spend.
 
 ---
 
-## Target market
+## [[Target]] market
 
 | Demographic | Description |
 |-------------|-------------|

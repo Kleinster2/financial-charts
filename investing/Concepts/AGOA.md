@@ -1,6 +1,6 @@
 #concept #trade #usa #africa #geopolitics
 
-**AGOA** (Africa Growth and Opportunity Act) — US trade preference program granting duty-free access to ~6,500 products from eligible African countries. Increasingly weaponized as leverage against China's Africa expansion.
+**AGOA** ([[Africa]] Growth and Opportunity Act) — US trade preference program granting duty-free access to ~6,500 products from eligible African countries. Increasingly weaponized as leverage against [[China]]'s [[Africa]] expansion.
 
 ---
 
@@ -27,15 +27,15 @@
 
 ## As US leverage tool
 
-**Pattern emerging (2025-2026):** US using AGOA renewal as leverage against China trade deals.
+**Pattern emerging (2025-2026):** US using AGOA renewal as leverage against [[China]] trade deals.
 
 | Country | Situation | Date |
 |---------|-----------|------|
-| [[Kenya]] | China deal stalled under US pressure; seeking AGOA extension | Jan 2026 |
+| [[Kenya]] | [[China]] deal stalled under US pressure; seeking AGOA extension | Jan 2026 |
 
 **Mechanism:**
 - African country wants AGOA extension (valuable duty-free access)
-- Same country negotiating with China (Belt & Road, trade deals)
+- Same country negotiating with [[China]] (Belt & Road, trade deals)
 - US signals: choose us or lose AGOA benefits
 - Binary choice forced on third countries
 
@@ -45,17 +45,17 @@
 
 1. **Low-cost leverage**: AGOA costs US little (duty revenue forgone) but valuable to recipients
 2. **Renewals = leverage moments**: Each expiration creates pressure point
-3. **China counter**: Belt & Road offers infrastructure, AGOA offers market access — different value propositions
-4. **Fragmentation risk**: Africa may split into US-aligned vs China-aligned trade blocs
+3. **[[China]] counter**: Belt & Road offers infrastructure, AGOA offers market access — different value propositions
+4. **Fragmentation risk**: [[Africa]] may split into US-aligned vs [[China]]-aligned trade blocs
 
 ---
 
 ## Investment implications
 
-- Watch AGOA renewal debates for US-China proxy battles
-- African countries with both AGOA access AND China deals face pressure
+- Watch AGOA renewal debates for US-[[China]] proxy battles
+- African countries with both AGOA access AND [[China]] deals face pressure
 - Textile/apparel exporters (Ethiopia, Kenya, Lesotho) most exposed to AGOA loss
-- China may offer alternative preferences to offset AGOA withdrawal
+- [[China]] may offer alternative preferences to offset AGOA withdrawal
 
 ---
 
@@ -63,5 +63,5 @@
 
 - [[Kenya]] — current pressure case (Jan 2026)
 - [[US-China trade]] — broader competition context
-- [[Belt and Road]] — China's competing framework
+- [[Belt and Road]] — [[China]]'s competing framework
 - [[Trade blocs]] — fragmentation dynamics

@@ -3,7 +3,7 @@ aliases: [INFY]
 ---
 #actor #tech #services #india #public
 
-**Infosys** — Indian IT services giant. Second-largest in India.
+**Infosys** — Indian IT services giant. Second-largest in [[India]].
 
 ---
 
@@ -33,10 +33,10 @@ aliases: [INFY]
 
 | Company | Revenue |
 |---------|---------|
-| TCS | #1 India |
-| **Infosys** | #2 India |
-| Wipro | #3 India |
-| HCL Tech | #4 India |
+| [[TCS]] | #1 [[India]] |
+| **Infosys** | #2 [[India]] |
+| Wipro | #3 [[India]] |
+| HCL Tech | #4 [[India]] |
 
 ---
 
@@ -49,7 +49,7 @@ aliases: [INFY]
 - Strong margins
 
 **Bear:**
-- Visa restrictions (US)
+- [[Visa]] restrictions (US)
 - Client concentration
 - AI automation threat
 - Wage inflation

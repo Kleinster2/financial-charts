@@ -76,7 +76,7 @@ Northern Virginia data center alley depends on Transco gas.
 - ~95% fee-based revenue
 - FERC-regulated returns
 - Long-term contracts
-- Inflation-linked escalators
+- [[Inflation]]-linked escalators
 
 ---
 

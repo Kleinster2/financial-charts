@@ -1,6 +1,6 @@
 #actor #semiconductors #ai #startup #hardware
 
-**Etched** — AI hardware startup building the "Sohu" chip. Betting everything on the Transformer architecture.
+**Etched** — AI hardware startup building the "Sohu" chip. Betting everything on the [[Transformer]] architecture.
 
 ---
 
@@ -8,19 +8,19 @@
 
 Etched is a contrarian bet against flexibility:
 *   **NVIDIA GPUs:** General purpose (can run anything, but inefficient).
-*   **Groq/Cerebras:** Specialized architectures (better, but still programmable).
+*   **Groq/[[Cerebras]]:** Specialized architectures (better, but still programmable).
 *   **Etched:** Hard-coded ASIC for Transformers (zero programmability).
 
-**The Gamble:** If the Transformer architecture (GPT, Llama, etc.) remains dominant, Etched offers **order-of-magnitude** better performance and efficiency. If architectures shift (e.g., to SSMs/Mamba), Etched chips become paperweights.
+**The Gamble:** If the [[Transformer]] architecture (GPT, [[Llama]], etc.) remains dominant, Etched offers **order-of-magnitude** better performance and efficiency. If architectures shift (e.g., to SSMs/Mamba), Etched chips become paperweights.
 
 ---
 
 ## Sohu Chip
 
-*   **Function:** Dedicated Transformer ASIC.
+*   **Function:** Dedicated [[Transformer]] ASIC.
 *   **Performance:** Claims 10x faster/cheaper token generation than H100.
 *   **Efficiency:** Massive tokens-per-watt advantage.
-*   **Target:** The "Decode" phase of inference (generating tokens one by one).
+*   **[[Target]]:** The "Decode" phase of inference (generating tokens one by one).
 
 ---
 
@@ -33,11 +33,11 @@ Etched is a contrarian bet against flexibility:
 | **Total raised** | | **~$1B** | | |
 
 **Key investors:**
-- Peter Thiel
-- Stripes LLC (led Series B)
+- [[Peter Thiel]]
+- [[Stripes LLC]] (led Series B)
 - Positive Sum
-- Ribbit Capital
-- Founders Fund
+- [[Ribbit Capital]]
+- [[Founders Fund]]
 - Primary Venture Partners
 
 **Production:** Partnered with [[TSMC]] Emerging Businesses Group.

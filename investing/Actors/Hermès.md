@@ -75,7 +75,7 @@ aliases: [RMS, Hermes]
 
 **Bear:**
 - Extreme valuation (50x+ P/E)
-- China exposure
+- [[China]] exposure
 - Concentration in leather
 - Succession risk
 - Small float

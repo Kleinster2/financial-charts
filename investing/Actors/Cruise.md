@@ -50,8 +50,8 @@ AV cautionary tale:
 |----------|-------|
 | GM | Majority |
 | Honda | Minority |
-| Microsoft | Investment |
-| SoftBank | Investment |
+| [[Microsoft]] | Investment |
+| [[SoftBank]] | Investment |
 
 ---
 
@@ -117,6 +117,6 @@ Long road back.
 - [[Tesla]] — competitor (FSD approach)
 - [[Aurora]] — competitor (trucking focus)
 - [[Mobileye]] — competitor (ADAS/AV)
-- [[Zoox]] — competitor (Amazon robotaxi)
+- [[Zoox]] — competitor ([[Amazon]] robotaxi)
 - [[Autonomous vehicles]] — industry context
 

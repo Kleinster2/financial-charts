@@ -34,7 +34,7 @@ Anthropic is more capital-efficient:
 - **80% enterprise revenue** (sticky, higher margin than consumer)
 - **Avoiding costly modalities** (no image/video generation)
 - **Burn rate**: 57% (OpenAI) vs 9% by 2027 (Anthropic)
-- **Product success**: Claude Code, Opus 4.5 have proven enterprise value
+- **Product success**: [[Claude]] Code, Opus 4.5 have proven enterprise value
 - **Coding use case**: 55% of enterprise AI spend, clear ROI
 
 **This matters**: If coding tools work and Anthropic captures that market, the path to profitability is real.
@@ -44,18 +44,18 @@ Anthropic is more capital-efficient:
 ## The OpenAI concern
 
 OpenAI's economics are more aggressive:
-- Consumer-heavy (ChatGPT subscriptions = high churn, acquisition cost)
+- [[Consumer]]-heavy ([[ChatGPT]] subscriptions = high churn, acquisition cost)
 - Expanding into costly modalities (Sora, image generation)
 - $74B cumulative losses through 2028
-- Microsoft dependency (49% profit share, capped)
+- [[Microsoft]] dependency (49% profit share, capped)
 
 ---
 
-## Trade implication (refined)
+## [[Trade]] implication (refined)
 
 **Bearish (category level):**
 - Generic "AI revenue" stories without margin disclosure
-- Consumer-focused model labs
+- [[Consumer]]-focused model labs
 - Labs competing primarily on price (see [[Open source commoditization]])
 
 **More nuanced:**
@@ -70,7 +70,7 @@ OpenAI's economics are more aggressive:
 
 ## The real question
 
-It's not "can labs build good products?" — they clearly can (Opus 4.5, Claude Code, GPT-4).
+It's not "can labs build good products?" — they clearly can (Opus 4.5, [[Claude]] Code, GPT-4).
 
 It's:
 1. **Can they capture margin?** Or does open source commoditize?

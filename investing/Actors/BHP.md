@@ -22,20 +22,20 @@ aliases: [BHP Group]
 
 | Commodity | Share | Position |
 |-----------|-------|----------|
-| Iron ore | ~50% | #2 globally (after Vale) |
-| Copper | ~25% | Growing focus |
+| Iron ore | ~50% | #2 globally (after [[Vale]]) |
+| [[Copper]] | ~25% | Growing focus |
 | Coal | ~15% | Met coal (steelmaking) |
 | Other | ~10% | Nickel, potash |
 
 ---
 
-## Copper pivot
+## [[Copper]] pivot
 
 **Future-facing strategy:**
 - Acquiring copper assets (OZ Minerals)
 - Divesting non-core (oil/gas sold)
-- Copper for electrification/AI
-- Target: double copper production
+- [[Copper]] for electrification/AI
+- [[Target]]: double copper production
 
 ---
 
@@ -45,7 +45,7 @@ aliases: [BHP Group]
 |--------|-----|---------------|
 | Size | Larger | Smaller |
 | Iron ore | Pilbara JV | Pilbara sole |
-| Copper | OZ Minerals | Oyu Tolgoi |
+| [[Copper]] | OZ Minerals | Oyu Tolgoi |
 | Lithium | No | Arcadium |
 | Dividend | High | High |
 
@@ -55,14 +55,14 @@ aliases: [BHP Group]
 
 **Bull:**
 - Largest, most diversified miner
-- Copper exposure for energy transition
+- [[Copper]] exposure for energy transition
 - Strong FCF, dividends
 - Disciplined capital allocation
 
 **Bear:**
-- China iron ore dependency
+- [[China]] iron ore dependency
 - Commodity price volatility
-- ESG/community relations
+- [[ESG]]/community relations
 - Cyclical business
 
 ---

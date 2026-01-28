@@ -11,9 +11,9 @@
 | Founded | Jan 2024 (as Lumen Orbit) |
 | HQ | Redmond, WA |
 | Funding | $31M+ (Seed + follow-on) |
-| Backers | NVIDIA, NFX, Y Combinator, Crusoe |
+| Backers | NVIDIA, NFX, [[Y Combinator]], Crusoe |
 | First launch | Nov 2025 (Starcloud-1, H100) |
-| Target (2028) | **5 GW orbital data center** |
+| [[Target]] (2028) | **5 GW orbital data center** |
 
 ---
 
@@ -21,8 +21,8 @@
 
 **Starcloud-1 satellite:**
 - First **H100 GPU in orbit** (100x more powerful than any prior space GPU)
-- Trained **NanoGPT** (Andrej Karpathy's model) on Shakespeare
-- Ran **Google Gemma** LLM — first LLM inference in space
+- Trained **NanoGPT** ([[Andrej Karpathy]]'s model) on Shakespeare
+- Ran **[[Google]] Gemma** LLM — first LLM inference in space
 - 21 months from founding to launch
 
 **Why it matters:** Proof of concept that high-power AI compute works in orbit.
@@ -80,14 +80,14 @@ See [[Space data centers]] for technical details.
 | [[NVIDIA]] | Strategic investor, chip supplier |
 | **Crusoe** | Cloud infrastructure partner |
 | **NFX** | Lead seed investor |
-| **Y Combinator** | Accelerator (W24) |
+| **[[Y Combinator]]** | Accelerator (W24) |
 | Soma Capital | Investor |
-| a16z Scout | Investor |
+| [[a16z]] Scout | Investor |
 | Sequoia Scout | Investor |
 
 **Why NVIDIA invested:**
 - AI compute demand exceeds Earth's power supply
-- Space DCs = long-term compute expansion
+- [[Space]] DCs = long-term compute expansion
 - Hedge against [[Power constraints]]
 - NVIDIA chips validated in orbit
 
@@ -123,7 +123,7 @@ See [[Space data centers]] for technical details.
 | HQ | Redmond, WA |
 | Funding | $31M+ |
 | First satellite | Nov 2025 |
-| Target | 5 GW orbital DC (2028) |
+| [[Target]] | 5 GW orbital DC (2028) |
 
 *Updated 2026-01-20*
 

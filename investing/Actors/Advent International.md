@@ -3,7 +3,7 @@ aliases: [Advent]
 ---
 #actor #investor #privateequity #usa #private
 
-**Advent International** — Global PE. $90B AUM. Worldpay, Verizon Media buyer. Boston-based.
+**Advent International** — Global PE. $90B AUM. Worldpay, [[Verizon]] [[Media]] buyer. Boston-based.
 
 ---
 
@@ -24,8 +24,8 @@ aliases: [Advent]
 | Company | Type | Status |
 |---------|------|--------|
 | **Worldpay** | Carve-out | Sold to FIS |
-| **Verizon Media** | Carve-out (with Apollo) | Apollo merger |
-| **Definitive Healthcare** | Buyout | Public (DH) |
+| **[[Verizon]] [[Media]]** | Carve-out (with [[Apollo]]) | [[Apollo]] merger |
+| **Definitive [[Healthcare]]** | Buyout | Public (DH) |
 | **Encora** | Buyout | Private |
 | **lululemon** | Early investment | Public (LULU) |
 
@@ -36,7 +36,7 @@ aliases: [Advent]
 | Sector | Examples |
 |--------|----------|
 | **Business services** | Worldpay |
-| **Healthcare** | Definitive Healthcare |
+| **[[Healthcare]]** | Definitive [[Healthcare]] |
 | **Technology** | Encora |
 | **Financial services** | Various |
 

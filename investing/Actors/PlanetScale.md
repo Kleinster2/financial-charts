@@ -2,7 +2,7 @@
 
 #actor #startup #private #usa #database
 
-**PlanetScale** — Serverless MySQL platform built on Vitess. Founded 2018. **$1B valuation (Oct 2025), $105M raised.** Created Vitess (powers YouTube, Slack, Square). Competitor to [[Neon]] (MySQL vs Postgres). Non-blocking schema changes, horizontal sharding.
+**PlanetScale** — Serverless MySQL platform built on Vitess. Founded 2018. **$1B valuation (Oct 2025), $105M raised.** Created Vitess (powers YouTube, [[Slack]], Square). Competitor to [[Neon]] (MySQL vs Postgres). Non-blocking schema changes, horizontal sharding.
 
 ---
 
@@ -51,7 +51,7 @@ Still early-stage revenue relative to valuation — growth-stage bet.
 | [[Kleiner Perkins]] | Series C, D |
 | DIG Ventures | Early investor |
 | Start Smart Labs | Early investor |
-| a16z | Participant |
+| [[a16z]] | Participant |
 
 ---
 
@@ -64,7 +64,7 @@ PlanetScale is built on **Vitess**, an open-source MySQL sharding solution:
 | Metric | Value |
 |--------|-------|
 | Origin | Created at YouTube (2010) |
-| Users | YouTube, Slack, Square, GitHub |
+| Users | YouTube, [[Slack]], Square, GitHub |
 | Maintainer | PlanetScale team |
 
 Vitess enables horizontal scaling of MySQL — critical for high-traffic applications.
@@ -93,9 +93,9 @@ Vitess enables horizontal scaling of MySQL — critical for high-traffic applica
 
 | Competitor | Positioning |
 |------------|-------------|
-| [[Neon]] | Serverless Postgres (acquired by Databricks) |
+| [[Neon]] | Serverless Postgres (acquired by [[Databricks]]) |
 | [[Supabase]] | Postgres BaaS (full stack) |
-| AWS Aurora | Managed MySQL/Postgres |
+| AWS [[Aurora]] | Managed MySQL/Postgres |
 | TiDB | Distributed MySQL-compatible |
 | CockroachDB | Distributed Postgres-compatible |
 
@@ -108,7 +108,7 @@ Vitess enables horizontal scaling of MySQL — critical for high-traffic applica
 | Challenge | Detail |
 |-----------|--------|
 | **Postgres momentum** | Developer preference shifting to Postgres |
-| **Neon acquisition** | Databricks backing gives Neon scale advantages |
+| **Neon acquisition** | [[Databricks]] backing gives Neon scale advantages |
 | **Revenue scale** | $3.9M revenue at $1B valuation = high multiple |
 | **Free tier removal** | Removed free tier in 2024, caused community backlash |
 

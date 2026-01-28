@@ -27,7 +27,7 @@ US connectivity backbone:
 - Spun off WarnerMedia (2022)
 - Sold DirecTV stake
 - Pure telecom focus
-- Fiber + 5G investment
+- Fiber + [[5G]] investment
 
 ---
 
@@ -35,16 +35,16 @@ US connectivity backbone:
 
 **Major buildout:**
 - 25M+ homes passed
-- Target: 30M+ by 2025
+- [[Target]]: 30M+ by 2025
 - Competing with cable
 - Enterprise connectivity
 
 ---
 
-## 5G network
+## [[5G]] network
 
 **Wireless leader:**
-- Nationwide 5G
+- Nationwide [[5G]]
 - C-band spectrum
 - Enterprise solutions
 - FirstNet (government)
@@ -55,7 +55,7 @@ US connectivity backbone:
 
 **Enterprise connectivity:**
 - Business fiber
-- Private 5G
+- Private [[5G]]
 - Edge computing
 - Data center interconnect
 
@@ -67,7 +67,7 @@ US connectivity backbone:
 - Fiber growth story
 - Simplified business
 - High dividend yield
-- 5G monetization
+- [[5G]] monetization
 
 **Bear:**
 - Debt still high
@@ -84,7 +84,7 @@ US connectivity backbone:
 | Ticker | T |
 | Market cap | ~$150B |
 | Dividend | ~6% yield |
-| Focus | Fiber + 5G |
+| Focus | Fiber + [[5G]] |
 
 *Updated 2026-01-01*
 

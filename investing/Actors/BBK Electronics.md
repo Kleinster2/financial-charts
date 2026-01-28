@@ -1,6 +1,6 @@
 #actor #smartphone #china #conglomerate
 
-**BBK Electronics** — Chinese conglomerate owning Oppo, Vivo, OnePlus, Realme, iQOO. Combined #2-3 global smartphone shipper behind Apple/Samsung.
+**BBK Electronics** — Chinese conglomerate owning Oppo, Vivo, [[OnePlus]], Realme, iQOO. Combined #2-3 global smartphone shipper behind Apple/Samsung.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Headquarters | Dongguan, China |
+| Headquarters | Dongguan, [[China]] |
 | Founded | 1995 |
 | Status | Private |
 | Combined global rank | #2-3 (when brands aggregated) |
@@ -21,9 +21,9 @@
 |-------|---------|--------|
 | **Oppo** | Mid-premium | BBK |
 | **Vivo** | Mid-premium | BBK |
-| **OnePlus** | Premium | Oppo subsidiary |
+| **[[OnePlus]]** | Premium | Oppo subsidiary |
 | **Realme** | Budget | Oppo spinoff |
-| **iQOO** | Gaming | Vivo subsidiary |
+| **iQOO** | [[Gaming]] | Vivo subsidiary |
 
 Brands operate semi-independently but share supply chain, R&D, and manufacturing.
 
@@ -63,7 +63,7 @@ BBK's structure obscures its true market power — when combined, it rivals Sams
 
 - [[Oppo]] — flagship brand
 - [[Vivo]] — flagship brand
-- [[Honor]] — competitor (ex-Huawei)
+- [[Honor]] — competitor (ex-[[Huawei]])
 - [[Xiaomi]] — competitor
 - [[Samsung]] — competitor (better margins)
 - [[Apple]] — competitor (best margins)

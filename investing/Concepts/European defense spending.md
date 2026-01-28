@@ -8,11 +8,11 @@
 
 | Metric | 2021 | 2025 | Change |
 |--------|------|------|--------|
-| EU defense spending | €214B | €280B+ | +30% |
+| [[EU]] defense spending | €214B | €280B+ | +30% |
 | NATO Europe % GDP | 1.6% | 2.1% | +50bps |
 | Countries at 2% | 6 | 23 | +17 |
 
-**Trigger:** Russia's Ukraine invasion (Feb 2022) shattered post-Cold War assumptions.
+**Trigger:** [[Russia]]'s Ukraine invasion (Feb 2022) shattered post-Cold War assumptions.
 
 ---
 
@@ -37,11 +37,11 @@
 
 | Country | 2025 % GDP | Key programs |
 |---------|------------|--------------|
-| **Poland** | 4.0%+ | Largest EU spender (% GDP) |
-| **UK** | 2.3% | Nuclear, carriers |
+| **Poland** | 4.0%+ | Largest [[EU]] spender (% GDP) |
+| **[[UK]]** | 2.3% | Nuclear, carriers |
 | **Germany** | 2.1% | Zeitenwende catch-up |
-| **France** | 2.1% | Nuclear, Rafale |
-| **Italy** | 1.6% | Naval, Leonardo |
+| **[[France]]** | 2.1% | Nuclear, Rafale |
+| **Italy** | 1.6% | Naval, [[Leonardo]] |
 | **Spain** | 1.3% | Behind target |
 
 ---
@@ -54,7 +54,7 @@
 | **Armor** | Tank modernization | Rheinmetall (Leopard), KNDS |
 | **Air defense** | IRIS-T, Patriot | Diehl, [[RTX]] |
 | **Artillery** | 155mm shells | Rheinmetall, Nexter |
-| **Naval** | Frigates, subs | Thales, Naval Group |
+| **Naval** | Frigates, subs | [[Thales]], Naval Group |
 
 ---
 
@@ -63,12 +63,12 @@
 | Company | Country | Focus | Performance |
 |---------|---------|-------|-------------|
 | [[Rheinmetall]] | Germany | Armor, ammo | **+400%** since 2022 |
-| Thales | France | Electronics, missiles | +150% |
-| Leonardo | Italy | Aerospace, naval | +100% |
-| BAE Systems | UK | Full spectrum | +80% |
-| Saab | Sweden | Gripen, subs | +200% |
-| Hensoldt | Germany | Sensors, radar | +150% |
-| Dassault | France | Rafale jets | +60% |
+| [[Thales]] | [[France]] | Electronics, missiles | +150% |
+| [[Leonardo]] | Italy | [[Aerospace]], naval | +100% |
+| [[BAE Systems]] | [[UK]] | Full spectrum | +80% |
+| [[Saab]] | Sweden | Gripen, subs | +200% |
+| Hensoldt | Germany | [[Sensors]], radar | +150% |
+| Dassault | [[France]] | Rafale jets | +60% |
 
 ---
 
@@ -81,7 +81,7 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 | 155mm shell production | 2M/year target (was 300K) |
 | Wait times | 2-3 years for orders |
 | Rheinmetall | Building 5 new ammo plants |
-| EU initiative | €2B joint procurement |
+| [[EU]] initiative | €2B joint procurement |
 
 ---
 
@@ -92,7 +92,7 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 | **2% floor, not ceiling** | Spending to stay elevated |
 | **Ukraine industrial demand** | Long-term order books |
 | **European production** | Reduce US dependence |
-| **Joint procurement** | EU coordination improving |
+| **Joint procurement** | [[EU]] coordination improving |
 | **Trump factor** | US pressure for burden-sharing |
 
 ---
@@ -104,13 +104,13 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 | Development | Value | Date |
 |-------------|-------|------|
 | **NATO target** | **5% GDP** by 2035 | Jun 2025 |
-| STOXX Aerospace & Defense | **+65%** in 2025 | Dec 2025 |
+| STOXX [[Aerospace]] & Defense | **+65%** in 2025 | Dec 2025 |
 | **DTCP "Project Liberty"** | **€500M** — Europe's largest defense VC fund | Jan 2026 |
-| **EU EDF 2026** | **€1B** for defense R&D | 2026 budget |
+| **[[EU]] [[EDF]] 2026** | **€1B** for defense R&D | 2026 budget |
 | [[Helsing]] valuation | **€12B** — Europe's most valuable defense startup | Jun 2025 |
 | Germany Uranos KI | AI targeting system, deploy 2026 | Jan 2026 |
 
-**Kubilius estimate (EU defense commissioner):** EU would need **3M drones/year** just to hold Lithuania in wider Russia war. Current capacity is a fraction of this.
+**Kubilius estimate ([[EU]] defense commissioner):** [[EU]] would need **[[3M]] drones/year** just to hold Lithuania in wider [[Russia]] war. Current capacity is a fraction of this.
 
 **2026 theme:** Defense tech startups must prove they can scale manufacturing. Rheinmetall, BAE may acquire VC-backed defense tech to accelerate.
 

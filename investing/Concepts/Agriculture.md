@@ -48,7 +48,7 @@ China remains dominant export buyer — USDA reported 706K MT single-day sale to
 | US production | ~1.8B bushels/year |
 | Key uses | Food, feed |
 | 2026 outlook | ~$5.10/bu avg |
-| Key factor | Competition from Russia, Canada, Argentina |
+| Key factor | Competition from [[Russia]], [[Canada]], [[Argentina]] |
 
 ---
 
@@ -58,8 +58,8 @@ China remains dominant export buyer — USDA reported 706K MT single-day sale to
 |-----------|-------|
 | **Sugar** | Brazil dominant, ethanol linkage |
 | **Coffee** | Climate-sensitive, Brazil/Vietnam supply |
-| **Cocoa** | West Africa 70%, recent price surge |
-| **Cotton** | US/China/India production |
+| **Cocoa** | West [[Africa]] 70%, recent price surge |
+| **Cotton** | US/China/[[India]] production |
 
 ---
 
@@ -69,9 +69,9 @@ China remains dominant export buyer — USDA reported 706K MT single-day sale to
 |--------|--------|
 | **Weather** | Droughts, floods = supply shocks |
 | **China demand** | Largest soy importer |
-| **US dollar** | Strong USD hurts US exports |
+| **[[US dollar]]** | Strong USD hurts US exports |
 | **Biofuel mandates** | Corn ethanol, soy biodiesel |
-| **Trade policy** | Tariffs, export restrictions |
+| **[[Trade]] policy** | Tariffs, export restrictions |
 | **Input costs** | Fertilizer, fuel, labor |
 
 ---

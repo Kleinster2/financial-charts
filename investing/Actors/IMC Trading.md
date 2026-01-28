@@ -34,9 +34,9 @@ aliases: [IMC]
 
 | Region | Office |
 |--------|--------|
-| Europe | Amsterdam (HQ) |
+| [[Europe]] | Amsterdam (HQ) |
 | Americas | Chicago |
-| Asia | Sydney |
+| [[Asia]] | Sydney |
 
 ---
 
@@ -47,7 +47,7 @@ aliases: [IMC]
 | Options | Core |
 | ETFs | Significant |
 | Equities | Active |
-| Crypto | Exploring |
+| [[Crypto]] | Exploring |
 
 ---
 

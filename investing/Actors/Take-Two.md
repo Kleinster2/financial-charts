@@ -117,6 +117,6 @@ aliases: [TTWO, Take-Two Interactive, Rockstar, 2K]
 ## Sources
 
 - [Take-Two IR](https://www.take2games.com/ir/)
-- [Nasdaq Analysis](https://www.nasdaq.com/articles/grand-theft-auto-6-slated-may-2026-take-two-interactive-stock-steal-2025)
+- [[[Nasdaq]] Analysis](https://www.nasdaq.com/articles/grand-theft-auto-6-slated-may-2026-take-two-interactive-stock-steal-2025)
 
 *Created 2026-01-09*

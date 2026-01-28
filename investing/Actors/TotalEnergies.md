@@ -3,7 +3,7 @@ aliases: [TTE, Total]
 ---
 #actor #energy #oil #france #public
 
-**TotalEnergies** — French oil major. Most aggressive integrated energy strategy. Large LNG and solar/wind portfolios.
+**TotalEnergies** — French oil major. Most aggressive integrated energy strategy. Large [[LNG]] and solar/wind portfolios.
 
 ---
 
@@ -22,8 +22,8 @@ aliases: [TTE, Total]
 
 | Segment | Share | Focus |
 |---------|-------|-------|
-| Exploration & Production | ~35% | Oil & gas upstream |
-| Integrated LNG | ~25% | Global LNG portfolio |
+| Exploration & Production | ~35% | [[Oil]] & gas upstream |
+| Integrated [[LNG]] | ~25% | Global [[LNG]] portfolio |
 | Refining & Chemicals | ~25% | Downstream |
 | Integrated Power | ~15% | Renewables, gas power |
 
@@ -41,14 +41,14 @@ But still investing heavily in oil/gas projects.
 
 ---
 
-## LNG portfolio
+## [[LNG]] portfolio
 
 | Region | Assets |
 |--------|--------|
 | Qatar | NFE expansion partner |
-| US | Cameron LNG |
+| US | Cameron [[LNG]] |
 | Mozambique | Area 1 (delayed) |
-| Papua New Guinea | PNG LNG stake |
+| Papua New Guinea | PNG [[LNG]] stake |
 
 ---
 
@@ -58,8 +58,8 @@ But still investing heavily in oil/gas projects.
 |------------|-------|
 | Solar | Global utility-scale |
 | Offshore wind | Dogger Bank, others |
-| Batteries | Grid storage projects |
-| EV charging | Europe network |
+| [[Batteries]] | [[Grid storage]] projects |
+| EV charging | [[Europe]] network |
 
 ---
 
@@ -67,7 +67,7 @@ But still investing heavily in oil/gas projects.
 
 **Bull:**
 - Best transition positioning
-- LNG growth optionality
+- [[LNG]] growth optionality
 - Strong balance sheet
 - Premium valuation deserved
 
@@ -75,7 +75,7 @@ But still investing heavily in oil/gas projects.
 - Mozambique delays
 - Renewable returns uncertain
 - European regulatory risk
-- Africa political exposure
+- [[Africa]] political exposure
 
 ---
 
@@ -94,7 +94,7 @@ But still investing heavily in oil/gas projects.
 
 ## Related
 
-- [[Shell]] — peer (LNG competitor)
+- [[Shell]] — peer ([[LNG]] competitor)
 - [[BP]] — peer (European major)
 - [[Exxon]] — peer (US supermajor)
 - [[First Solar]] — context (solar investments)

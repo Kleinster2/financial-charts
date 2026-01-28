@@ -24,7 +24,7 @@ aliases: [EXC]
 |---------|--------|-----------|
 | ComEd | Chicago/Illinois | 4M+ |
 | PECO | Philadelphia | 1.6M |
-| BGE | Baltimore | 1.3M |
+| BGE | Baltimore | 1.[[3M]] |
 | Pepco | DC/Maryland | 900K |
 | Delmarva | Delaware/Maryland | 500K |
 | ACE | New Jersey | 500K |
@@ -83,7 +83,7 @@ Lower risk, lower growth than peers with generation.
 **Bear:**
 - Lower growth (no generation)
 - Illinois political risk
-- Inflation impact on costs
+- [[Inflation]] impact on costs
 - No renewable upside
 
 ---

@@ -12,7 +12,7 @@ aliases: [IHS, Markit]
 | Metric | Value |
 |--------|-------|
 | Founded | 2016 (merger of IHS + Markit) |
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 | Merged into | [[S&P Global]] |
 | Merger date | February 28, 2022 |
 | Deal value | **$44B** (all-stock) |
@@ -24,7 +24,7 @@ aliases: [IHS, Markit]
 | Segment | Description |
 |---------|-------------|
 | **Financial Services** | Pricing, valuations, trade processing |
-| **Transportation** | Automotive data, forecasts (now S&P Mobility) |
+| **Transportation** | [[Automotive]] data, forecasts (now S&P Mobility) |
 | **Resources** | Energy, chemicals, metals data (merged with Platts) |
 | **CIH (Consolidated)** | Economics, country risk |
 
@@ -50,7 +50,7 @@ S&P agreed to acquire IHS Markit for $44B in all-stock transaction.
 - IHS sold: OPIS (oil prices), coal/metals/mining, PetroChem Wire
 
 **2023: Engineering business sold**
-S&P sold former IHS engineering operations to KKR, rebranded as Accuris.
+S&P sold former IHS engineering operations to [[KKR]], rebranded as Accuris.
 
 ---
 

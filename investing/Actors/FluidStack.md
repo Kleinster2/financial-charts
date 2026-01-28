@@ -48,7 +48,7 @@ Critical deployment layer for AI infrastructure:
 
 ---
 
-## Crypto miner partnerships
+## [[Crypto]] miner partnerships
 
 FluidStack as intermediary between hyperscalers/AI labs and crypto miners:
 

@@ -26,7 +26,7 @@
 |--------|-------|
 | Founded | 1946 (post-WWII) |
 | Founders | Karl and Theo Albrecht |
-| Origin | Essen, Germany (working-class mining neighborhood) |
+| Origin | Essen, [[Germany]] (working-class mining neighborhood) |
 | Name | "Albrecht" + "Discount" = Aldi |
 
 ### The split (early 1960s)
@@ -35,8 +35,8 @@ The brothers had different management styles and split the company:
 
 | Entity | Founder | Territory | Key asset |
 |--------|---------|-----------|-----------|
-| **Aldi Süd** | Karl Albrecht | Southern Germany | "Aldi" brand in US, UK, Australia, China |
-| **Aldi Nord** | Theo Albrecht | Northern Germany | [[Trader Joe's]] (acquired 1979) |
+| **Aldi Süd** | Karl Albrecht | Southern [[Germany]] | "Aldi" brand in US, [[UK]], [[Australia]], [[China]] |
+| **Aldi Nord** | Theo Albrecht | Northern [[Germany]] | [[Trader Joe's]] (acquired 1979) |
 
 **Important:** Aldi and Trader Joe's share lineage but are separately owned by different branches of the Albrecht family.
 
@@ -74,7 +74,7 @@ Famous middle aisle with rotating non-food items at steep discounts:
 - Random home goods, seasonal items
 - Higher-margin impulse buys
 
-Fans post finds on Reddit (r/aldi) and Facebook groups (4M+ members).
+Fans post finds on [[Reddit]] (r/aldi) and Facebook groups (4M+ members).
 
 ### Private-label strategy
 
@@ -94,7 +94,7 @@ Fans post finds on Reddit (r/aldi) and Facebook groups (4M+ members).
 |-------|--------------|-------|
 | [[Walmart]] | ~$450B (grocery) | #1 by far |
 | Kroger | ~$150B | Traditional supermarket |
-| Costco | ~$100B (grocery) | Membership/bulk |
+| [[Costco]] | ~$100B (grocery) | Membership/bulk |
 | **Aldi** | **$29B** | Fastest-growing by store count |
 | [[Trader Joe's]] | ~$20B | Sister company (Aldi Nord) |
 | Lidl (US) | ~$3B | Struggling in US |
@@ -132,16 +132,16 @@ Fans post finds on Reddit (r/aldi) and Facebook groups (4M+ members).
 |--|------|------|
 | Founder | Albrecht brothers | Dieter Schwarz |
 | US presence | Strong ($29B) | Weak (~$3B) |
-| Germany | Losing ground | Gaining (500+ price cuts May 2025) |
+| [[Germany]] | Losing ground | Gaining (500+ price cuts May 2025) |
 | Strategy | Original discounter | Fast follower, now innovating |
 
 ---
 
 ## Challenges
 
-### Europe: Lidl threat
+### [[Europe]]: Lidl threat
 
-- Lidl gaining market share in Germany
+- Lidl gaining market share in [[Germany]]
 - May 2025: Lidl announced permanent price cuts on 500+ products
 - German consumer sentiment turning against Aldi:
   - Worker conditions concerns
@@ -153,7 +153,7 @@ Fans post finds on Reddit (r/aldi) and Facebook groups (4M+ members).
 - Aldi Süd now **3x size of Aldi Nord**
 - Merger talks complicated by size disparity
 - Nord heirs unlikely to accept minority stake
-- Joint online store (2021) shut down Sept 2025 — couldn't compete with Amazon
+- Joint online store (2021) shut down Sept 2025 — couldn't compete with [[Amazon]]
 
 ### Mondelez lawsuit
 
@@ -212,7 +212,7 @@ Both brothers died (Karl 2014, Theo 2010). Next generation manages companies.
 | Albertsons | ACI | Acquired Winn-Dixie/Harveys from Aldi |
 | Kroger | KR | Traditional grocery under pressure |
 | [[Mondelez]] | MDLZ | Lawsuit over Oreo knockoffs |
-| Costco | COST | Different model but overlapping customers |
+| [[Costco]] | COST | Different model but overlapping customers |
 
 **Thesis implications:**
 - Aldi's growth = pressure on traditional grocery margins
@@ -229,8 +229,8 @@ Both brothers died (Karl 2014, Theo 2010). Next generation manages companies.
 
 ### Competitors
 - [[Walmart]] — #1 US grocery
-- Lidl — German rival, gaining in Europe
-- Costco — bulk/membership model
+- Lidl — German rival, gaining in [[Europe]]
+- [[Costco]] — bulk/membership model
 - Kroger — traditional supermarket
 
 ### Impacted companies

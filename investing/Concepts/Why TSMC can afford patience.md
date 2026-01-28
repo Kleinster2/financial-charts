@@ -25,10 +25,10 @@
 
 | Behavior | Example |
 |----------|---------|
-| Deliberate node lag overseas | Arizona 1-2 nodes behind Taiwan (see [[Node lag as strategy]]) |
+| Deliberate node lag overseas | Arizona 1-2 nodes behind [[Taiwan]] (see [[Node lag as strategy]]) |
 | Yield-first mentality | Won't ship until yields mature |
 | Conservative customer commitments | Under-promise, over-deliver |
-| Gradual geographic expansion | Japan, Arizona, Germany — sequenced, not rushed |
+| Gradual geographic expansion | [[Japan]], Arizona, [[Germany]] — sequenced, not rushed |
 
 **The result:** Predictable execution, customer trust, premium pricing.
 
@@ -46,7 +46,7 @@
 
 **The #2 trap:** "Disciplined" execution from #2 position = permanent irrelevance.
 
-**Intel's dilemma:**
+**[[Intel]]'s dilemma:**
 - [[Intel Foundry Services]] faces similar pressure
 - Must prove viability to attract customers
 - Can't afford multi-year patient ramp
@@ -61,7 +61,7 @@
 | Factor | TSMC | Samsung |
 |--------|------|---------|
 | Market position | Dominant | Challenger |
-| Optimal strategy | Defense, compound advantages | Offense, take risks |
+| Optimal strategy | [[Defense]], compound advantages | Offense, take risks |
 | Cost of patience | None | Market share loss |
 | Cost of aggression | Unnecessary risk | Required for relevance |
 
@@ -76,8 +76,8 @@ Even TSMC's patience has limits:
 | Scenario | TSMC response |
 |----------|---------------|
 | Samsung achieves yield parity | Would need to accelerate |
-| Intel 18A succeeds | Would face pressure |
-| China advances despite controls | Geopolitical response |
+| [[Intel]] 18A succeeds | Would face pressure |
+| [[China]] advances despite controls | Geopolitical response |
 | Customer defection | Hasn't happened at scale |
 
 **Current reality:** None of these threats are imminent, so patience continues.
@@ -89,9 +89,9 @@ Even TSMC's patience has limits:
 **For TSMC:**
 - Patience = predictable earnings, lower volatility
 - Premium multiple justified by execution quality
-- Bear case is external (Taiwan risk), not execution
+- Bear case is external ([[Taiwan]] risk), not execution
 
-**For Samsung/Intel:**
+**For Samsung/[[Intel]]:**
 - Aggressive strategies should be evaluated in context
 - "Risky" moves may be *necessary*, not optional
 - Judge by whether risks were worth taking, not whether they were taken

@@ -1,6 +1,6 @@
 #actor #product #messaging #meta
 
-**WhatsApp** — [[Meta]]'s messaging app. 3B+ MAU. Dominant globally except US/China.
+**WhatsApp** — [[Meta]]'s messaging app. 3B+ MAU. Dominant globally except US/[[China]].
 
 ---
 
@@ -23,7 +23,7 @@ Largest messaging platform globally. 100M+ MAU in US alone.
 
 | Segment | Model |
 |---------|-------|
-| Consumer | Free |
+| [[Consumer]] | Free |
 | Business API | Per-conversation fees |
 | Click-to-WhatsApp ads | [[Meta]] ad revenue |
 
@@ -35,11 +35,11 @@ Largest messaging platform globally. 100M+ MAU in US alone.
 
 | Region | Status |
 |--------|--------|
-| India | #1 messaging app |
-| Brazil | Dominant |
-| Europe | Dominant |
+| [[India]] | #1 messaging app |
+| [[Brazil]] | Dominant |
+| [[Europe]] | Dominant |
 | US | Growing (behind iMessage) |
-| China | Blocked |
+| [[China]] | Blocked |
 
 ---
 
@@ -47,7 +47,7 @@ Largest messaging platform globally. 100M+ MAU in US alone.
 
 **Meta's messaging monetization:** Long undermonetized relative to user base. Business messaging and click-to-WhatsApp ads finally scaling.
 
-**Enterprise communications:** Businesses in LatAm, India, Europe use WhatsApp as primary customer channel.
+**Enterprise communications:** Businesses in LatAm, [[India]], [[Europe]] use WhatsApp as primary customer channel.
 
 **Encryption:** End-to-end encrypted by default (Signal protocol).
 

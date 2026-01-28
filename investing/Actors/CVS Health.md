@@ -45,7 +45,7 @@ aliases: [CVS, Aetna, Caremark]
 |---------|---------|-------------|
 | **Pharmacy Services** | ~$180B | Caremark PBM, specialty |
 | **Health Care Benefits** | ~$105B | Aetna insurance |
-| **Pharmacy & Consumer** | ~$115B | CVS retail stores |
+| **Pharmacy & [[Consumer]]** | ~$115B | CVS retail stores |
 
 ---
 
@@ -77,7 +77,7 @@ Aggressive vertical integration strategy.
 
 **Bull:**
 - Vertical integration value
-- Healthcare services growth (Oak Street, MinuteClinic)
+- [[Healthcare]] services growth (Oak Street, MinuteClinic)
 - Less MA-exposed than pure-play insurers
 - Analysts expect 22.7% EPS growth despite headwinds
 

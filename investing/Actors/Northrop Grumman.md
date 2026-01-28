@@ -3,7 +3,7 @@ aliases: [NOC]
 ---
 #actor #defense #aerospace #usa #public #ai
 
-**Northrop Grumman** — Defense prime. B-21 bomber, space systems, autonomous aircraft. AI for stealth and autonomy.
+**Northrop Grumman** — [[Defense]] prime. B-21 bomber, space systems, autonomous aircraft. AI for stealth and autonomy.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [NOC]
 |---------|-------------|
 | B-21 Raider | Next-gen stealth bomber |
 | GBSD | Ground-based strategic deterrent (ICBMs) |
-| James Webb | Space telescope (completed) |
+| James Webb | [[Space]] telescope (completed) |
 | Triton | Maritime surveillance drone |
 
 ---
@@ -34,7 +34,7 @@ aliases: [NOC]
 | Area | Application |
 |------|-------------|
 | Autonomous aircraft | X-47B heritage, future UCAV |
-| Space systems | Autonomous satellites |
+| [[Space]] systems | Autonomous satellites |
 | Missile defense | AI-enhanced tracking |
 | Cyber | AI threat detection |
 

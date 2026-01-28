@@ -64,7 +64,7 @@ Autoship is key differentiator.
 | Pet ownership | Growing |
 | Humanization | Premium products |
 | E-commerce | Channel shift |
-| Healthcare | Pharmacy growth |
+| [[Healthcare]] | Pharmacy growth |
 
 ---
 

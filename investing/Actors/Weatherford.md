@@ -3,7 +3,7 @@ aliases: [WFRD]
 ---
 #actor #energy #oilservices #usa #public
 
-**Weatherford** — #4 oil services company. Post-bankruptcy turnaround. Drilling, completions, production optimization. Venezuela rebuild beneficiary.
+**Weatherford** — #4 oil services company. Post-bankruptcy turnaround. Drilling, completions, production optimization. [[Venezuela]] rebuild beneficiary.
 
 ---
 
@@ -43,15 +43,15 @@ New management focused on margins over market share.
 
 ---
 
-## Venezuela opportunity
+## [[Venezuela]] opportunity
 
-**If US companies rebuild Venezuela:**
+**If US companies rebuild [[Venezuela]]:**
 
 - Full-service capabilities for rebuild
 - Historical Latin America presence
 - Turnaround expertise applicable to degraded infrastructure
 
-**January 2026:** Services companies benefit from Trump's Venezuela oil announcement.
+**January 2026:** Services companies benefit from Trump's [[Venezuela]] oil announcement.
 
 See [[Venezuela oil rebuild]] for context.
 
@@ -62,7 +62,7 @@ See [[Venezuela oil rebuild]] for context.
 **Bull:**
 - Turnaround momentum
 - Margin improvement
-- Venezuela/international upside
+- [[Venezuela]]/international upside
 - Undervalued vs peers
 - Deleveraging complete
 

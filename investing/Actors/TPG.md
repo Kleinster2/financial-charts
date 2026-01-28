@@ -3,7 +3,7 @@ aliases: [TPG Capital, Texas Pacific Group]
 ---
 #actor #investor #privateequity #usa #public
 
-**TPG** — Global PE firm. $224B AUM. Public (TPG). Airbnb, Uber, Spotify investor.
+**TPG** — Global PE firm. $224B AUM. Public (TPG). [[Airbnb]], [[Uber]], Spotify investor.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [TPG Capital, Texas Pacific Group]
 |--------|-------|
 | Founded | 1992 |
 | AUM | ~$224B |
-| Ticker | TPG (Nasdaq) |
+| Ticker | TPG ([[Nasdaq]]) |
 | HQ | Fort Worth, San Francisco |
 | Founders | David Bonderman, Jim Coulter |
 
@@ -35,8 +35,8 @@ aliases: [TPG Capital, Texas Pacific Group]
 
 | Company | Type | Status |
 |---------|------|--------|
-| **Airbnb** | Growth | Public (ABNB) |
-| **Uber** | Growth | Public (UBER) |
+| **[[Airbnb]]** | Growth | Public (ABNB) |
+| **[[Uber]]** | Growth | Public (UBER) |
 | **[[Spotify]]** | Growth | Public (SPOT) |
 | **CAA** | Buyout | Private |
 | **McAfee** | Consortium | Private |

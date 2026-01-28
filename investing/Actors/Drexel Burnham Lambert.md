@@ -47,7 +47,7 @@ Before Milken, sub-investment-grade bonds were "fallen angels" — formerly IG c
 - ~50% market share at peak
 - $150B market by end of 1980s
 - Funded hostile takeovers via "highly confident letters" (promises to arrange financing)
-- Made possible: T. Boone Pickens (Gulf Oil), Carl Icahn (Phillips 66), Ted Turner (MGM), KKR (RJR Nabisco)
+- Made possible: T. Boone Pickens (Gulf [[Oil]]), [[Carl Icahn]] ([[Phillips 66]]), Ted Turner (MGM), KKR (RJR Nabisco)
 
 **Milken's compensation:** >$1B over four years. $550M in a single year (1987). Highest individual compensation in US history at the time.
 

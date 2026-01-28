@@ -1,5 +1,5 @@
 ---
-aliases: [Sharpa Robotics, SharpaWave]
+aliases: [Sharpa [[Robotics]], SharpaWave]
 ---
 #actor #robotics #ai #singapore #private
 
@@ -80,7 +80,7 @@ aliases: [Sharpa Robotics, SharpaWave]
 
 - Leading global technology companies
 - Top research universities
-- Robotics developers (humanoid integration)
+- [[Robotics]] developers (humanoid integration)
 
 ---
 
@@ -119,7 +119,7 @@ aliases: [Sharpa Robotics, SharpaWave]
 - Mass production achieved (execution)
 - CES 2026 validation
 - Critical component for humanoid boom
-- Singapore + China + US presence
+- Singapore + [[China]] + US presence
 - "Picks and shovels" for robotics
 
 **Bear:**

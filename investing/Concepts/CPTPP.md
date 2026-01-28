@@ -1,9 +1,9 @@
 ---
-aliases: [CPTPP, Comprehensive and Progressive Agreement for Trans-Pacific Partnership, TPP-11, Trans-Pacific Partnership]
+aliases: [CPTPP, Comprehensive and [[Progressive]] Agreement for Trans-Pacific Partnership, TPP-11, Trans-Pacific Partnership]
 ---
 #concept #trade #asia #pacific
 
-**CPTPP** — Comprehensive and Progressive Trans-Pacific Partnership. High-standards Pacific trade bloc. US withdrew 2017. China, UK seeking accession.
+**CPTPP** — Comprehensive and [[Progressive]] Trans-Pacific Partnership. High-standards Pacific trade bloc. US withdrew 2017. China, UK seeking accession.
 
 ---
 
@@ -25,11 +25,11 @@ aliases: [CPTPP, Comprehensive and Progressive Agreement for Trans-Pacific Partn
 
 | Region | Members |
 |--------|---------|
-| **Asia** | Japan, Vietnam, Malaysia, Singapore, Brunei |
-| **Oceania** | Australia, New Zealand |
-| **Americas** | Canada, Mexico, Chile, Peru |
+| **[[Asia]]** | Japan, Vietnam, Malaysia, Singapore, Brunei |
+| **Oceania** | [[Australia]], New Zealand |
+| **Americas** | [[Canada]], [[Mexico]], [[Chile]], Peru |
 
-**Notable absences:** US (withdrew), China (applied 2021), Taiwan (applied 2021), UK (acceded 2023).
+**Notable absences:** US (withdrew), China (applied 2021), [[Taiwan]] (applied 2021), UK (acceded 2023).
 
 ---
 
@@ -40,8 +40,8 @@ aliases: [CPTPP, Comprehensive and Progressive Agreement for Trans-Pacific Partn
 | Category | Coverage | Timeline |
 |----------|----------|----------|
 | Industrial goods | 99%+ | 7-20 years |
-| Agriculture | 95%+ | Varies |
-| Sensitive items | Japan rice, Canada dairy | Limited |
+| [[Agriculture]] | 95%+ | Varies |
+| Sensitive items | Japan rice, [[Canada]] dairy | Limited |
 
 Higher ambition than RCEP (90%).
 
@@ -72,7 +72,7 @@ Regional cumulation across all 11 members.
 |-----------|-------|
 | Negative list | Yes (high ambition) |
 | Financial services | Deep liberalization |
-| Telecom | Competition requirements |
+| [[Telecom]] | Competition requirements |
 | E-commerce | Strong protections |
 | Mode 4 | Moderate access |
 
@@ -117,7 +117,7 @@ US provisions suspended — may revive if US rejoins.
 |-----------|---------|--------|-----------|
 | **UK** | Feb 2021 | Acceded Jul 2023 | ✅ First new member |
 | **China** | Sep 2021 | Pending | Unlikely (SOE rules, standards) |
-| **Taiwan** | Sep 2021 | Pending | Blocked by China politics |
+| **[[Taiwan]]** | Sep 2021 | Pending | Blocked by China politics |
 | **Ecuador** | Dec 2021 | Pending | Possible |
 | **Costa Rica** | Aug 2022 | Pending | Possible |
 | **Uruguay** | Dec 2022 | Pending | Possible |
@@ -129,7 +129,7 @@ US provisions suspended — may revive if US rejoins.
 |--------------|--------|
 | First expansion | Post-Brexit trade strategy |
 | GDP addition | +$3T |
-| Signal | Bloc remains attractive |
+| [[Signal]] | Bloc remains attractive |
 
 ### China application challenges
 
@@ -138,8 +138,8 @@ US provisions suspended — may revive if US rejoins.
 | SOE disciplines | Would require reform |
 | Labor standards | ILO compliance |
 | Data rules | Conflicts with sovereignty |
-| Political | Japan, Australia opposition |
-| Taiwan | Would block Taiwan accession |
+| Political | Japan, [[Australia]] opposition |
+| [[Taiwan]] | Would block [[Taiwan]] accession |
 
 China unlikely to meet standards without significant reform.
 
@@ -153,16 +153,16 @@ China unlikely to meet standards without significant reform.
 |--------|-------------|
 | **Japan exporters** | Preferential access across Pacific |
 | **Vietnam manufacturing** | Supply chain beneficiary |
-| **Australian agriculture** | Japan, Asia access |
-| **Canadian resources** | Asia-Pacific markets |
+| **Australian agriculture** | Japan, [[Asia]] access |
+| **Canadian resources** | [[Asia]]-Pacific markets |
 | **Digital services** | Strong protections |
 
 ### Key companies
 
 | Company | Benefit |
 |---------|---------|
-| Toyota, Honda | Regional supply chains |
-| BHP, Rio Tinto | Asia resource access |
+| [[Toyota]], Honda | Regional supply chains |
+| [[BHP]], [[Rio Tinto]] | [[Asia]] resource access |
 | Canadian banks | Financial services access |
 | Tech platforms | Data flow protections |
 

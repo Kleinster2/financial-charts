@@ -72,8 +72,8 @@ aliases: [MGNI, Rubicon Project, Telaria]
 
 | Competitor | Threat |
 |------------|--------|
-| Google Ad Manager | Walled garden |
-| FreeWheel (Comcast) | Owned by media company |
+| [[Google]] Ad Manager | Walled garden |
+| FreeWheel ([[Comcast]]) | Owned by media company |
 | PubMatic | Smaller competitor |
 
 **Advantage:** Independence, CTV specialization.
@@ -101,7 +101,7 @@ aliases: [MGNI, Rubicon Project, Telaria]
 - Independence advantage
 
 **Bear:**
-- Google dominance
+- [[Google]] dominance
 - Take rate pressure
 - Smaller scale than [[Trade Desk]]
 - Execution risk (integrations)

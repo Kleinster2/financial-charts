@@ -102,7 +102,7 @@ Still not growing revenue, but comps turning positive.
 - Nike dependency still 60% — can't escape
 - Nike turnaround = uncertain partner dynamics
 - Athletic retail commoditizing (DTC shift)
-- Consumer spending uncertain
+- [[Consumer]] spending uncertain
 - International exposure (macro risk)
 
 ---

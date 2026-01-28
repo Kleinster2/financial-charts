@@ -5,7 +5,7 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 
 # BTG Pactual
 
-**Largest investment bank in Latin America** — founded by André Esteves. B3: BPAC11. ~$33-37B market cap. $72.6B assets. M&A, capital markets, wealth management, asset management. Expanding globally — Hong Kong office (2025), acquired HSBC Uruguay.
+**Largest investment bank in Latin America** — founded by André Esteves. [[B3]]: BPAC11. ~$33-37B market cap. $72.6B assets. M&A, capital markets, wealth management, asset management. Expanding globally — Hong Kong office (2025), acquired [[HSBC]] Uruguay.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | BPAC11.SA (B3) |
+| Ticker | BPAC11.SA ([[B3]]) |
 | Founded | 1983 (as Pactual); BTG formed 2009 |
 | HQ | São Paulo & Rio de Janeiro |
 | Market cap | ~$33-37B |
@@ -38,9 +38,9 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 | Role | Senior Partner & Chairman |
 | Net worth | ~$6.9B (Forbes, Mar 2025) |
 | Rank | #6 richest Brazilian |
-| Background | Ex-UBS Latin America CEO |
+| Background | Ex-[[UBS]] Latin America CEO |
 
-**Story:** Esteves co-founded BTG (Banking & Trading Group), then acquired UBS Pactual in 2009 after UBS needed to sell during financial crisis. Built it into LatAm's largest investment bank.
+**Story:** Esteves co-founded BTG (Banking & Trading Group), then acquired [[UBS]] Pactual in 2009 after [[UBS]] needed to sell during financial crisis. Built it into LatAm's largest investment bank.
 
 **2015 crisis:** Arrested in corruption probe (Operation Car Wash); stepped down temporarily. Returned as Chairman April 2022 after charges dropped.
 
@@ -51,12 +51,12 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 | Year | Event |
 |------|-------|
 | 1983 | Banco Pactual founded |
-| 2006 | UBS acquires Pactual |
-| 2009 | Esteves acquires UBS Pactual → BTG Pactual |
-| 2012 | IPO on B3 |
+| 2006 | [[UBS]] acquires Pactual |
+| 2009 | Esteves acquires [[UBS]] Pactual → BTG Pactual |
+| 2012 | IPO on [[B3]] |
 | 2015 | Esteves arrested (Car Wash); stepped down |
 | 2022 | Esteves returns as Chairman |
-| 2025 | Opens Hong Kong office; acquires HSBC Uruguay |
+| 2025 | Opens Hong Kong office; acquires [[HSBC]] Uruguay |
 
 ---
 
@@ -76,8 +76,8 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 
 | Deal | Details |
 |------|---------|
-| **HSBC Uruguay** | Acquired for $175M (Jul 2025) |
-| **Hong Kong office** | Expanding Asia operations |
+| **[[HSBC]] Uruguay** | Acquired for $175M (Jul 2025) |
+| **Hong Kong office** | Expanding [[Asia]] operations |
 
 Building global footprint beyond LatAm.
 
@@ -109,7 +109,7 @@ Building global footprint beyond LatAm.
 - [[Bradesco]] — commercial bank
 
 ### Competitors
-- Global IB presence in LatAm (Goldman, JPM, Morgan Stanley)
+- Global IB presence in LatAm (Goldman, JPM, [[Morgan Stanley]])
 
 ### Sector
 - [[Brazil]] — geography

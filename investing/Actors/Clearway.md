@@ -16,7 +16,7 @@ Clearway is a pure-play contracted renewables yieldco:
 | Capacity | ~9 GW |
 | Technologies | Wind, solar, storage, gas |
 | Contracts | Long-term PPAs |
-| Sponsor | GIP (Global Infrastructure Partners) |
+| Sponsor | GIP ([[Global Infrastructure Partners]]) |
 
 ---
 
@@ -27,9 +27,9 @@ Clearway is a pure-play contracted renewables yieldco:
 | Wind | ~5 GW |
 | Solar | ~2.5 GW |
 | Storage | Growing |
-| Natural gas | ~2.5 GW (thermal) |
+| [[Natural gas]] | ~2.5 GW (thermal) |
 
-**Note:** Natural gas provides stable cash flow, but ESG concern for some.
+**Note:** [[Natural gas]] provides stable cash flow, but [[ESG]] concern for some.
 
 ---
 
@@ -78,7 +78,7 @@ Clearway is a pure-play contracted renewables yieldco:
 **Bear:**
 - Interest rate sensitivity
 - Sponsor conflicts possible
-- Natural gas exposure (ESG)
+- [[Natural gas]] exposure ([[ESG]])
 - Limited growth vs developers
 - Complex structure
 
@@ -97,7 +97,7 @@ Clearway is a pure-play contracted renewables yieldco:
 
 ---
 
-## vs Brookfield Renewable
+## vs [[Brookfield]] Renewable
 
 | Aspect | Clearway | [[Brookfield Renewable]] |
 |--------|----------|-------------------------|
@@ -111,9 +111,9 @@ Clearway is a pure-play contracted renewables yieldco:
 
 ## Sponsor: GIP
 
-**Global Infrastructure Partners:**
+**[[Global Infrastructure Partners]]:**
 - Major infrastructure investor
-- Acquired by BlackRock (2024)
+- Acquired by [[BlackRock]] (2024)
 - Provides deal flow to Clearway
 - Potential conflict of interest
 

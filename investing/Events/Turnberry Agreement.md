@@ -46,10 +46,10 @@ Following the April "Liberation Day" tariff shock, the EU negotiated a deal to l
 
 **Frozen.** EU suspended implementation in response to:
 - Trump's Greenland annexation threats
-- Threatened 10% tariffs (Feb 1) → 25% (Jun 1) on 6 EU countries + Norway + UK
+- Threatened 10% tariffs (Feb 1) → 25% (Jun 1) on 6 EU countries + Norway + [[UK]]
 
 EU now considering:
-- Reactivating €93B retaliation list (Boeing, soy, whiskey, motorcycles)
+- Reactivating €93B retaliation list ([[Boeing]], soy, whiskey, motorcycles)
 - Activating Anti-Coercion Instrument (2023, never used) for broader measures
 
 ---

@@ -29,14 +29,14 @@ aliases: [XAU, Gold price, Bullion]
 | **USD strength** | Weakening on Fed concerns | Bullish |
 | **Fed independence** | Crisis mode (Jan 2026) | Very bullish |
 | **Central bank buying** | 1,000+ tonnes/year (3 years) | Structural bullish |
-| **Geopolitical risk** | Iran sanctions, tariffs | Bullish |
+| **Geopolitical risk** | [[Iran]] sanctions, tariffs | Bullish |
 | **Inflation** | Cooling but sticky | Neutral |
 
 ---
 
 ## Central bank accumulation
 
-**Historic shift:** For first time since 1996, gold now accounts for larger share of central bank reserves than US Treasuries.
+**Historic shift:** For first time since 1996, gold now accounts for larger share of central bank reserves than US [[Treasuries]].
 
 | Year | CB net purchases | Notes |
 |------|------------------|-------|
@@ -50,12 +50,12 @@ aliases: [XAU, Gold price, Bullion]
 - Poland — largest European buyer, approved additional 150 tonnes (Jan 2026)
 - Turkey — diversifying from USD
 - Uzbekistan — regional leader
-- China — strategic reserves (under-reported), long-term Treasury holdings at record low (Oct 2025)
-- [[India]] — gold reserves ~$25B (2019) → **~$100B** (2025), Treasuries cut 26% from 2023 peak to $174B (five-year low)
-- Brazil — long-term Treasury holdings at record low (Oct 2025)
+- [[China]] — strategic reserves (under-reported), long-term Treasury holdings at record low (Oct 2025)
+- [[India]] — gold reserves ~$25B (2019) → **~$100B** (2025), [[Treasuries]] cut 26% from 2023 peak to $174B (five-year low)
+- [[Brazil]] — long-term Treasury holdings at record low (Oct 2025)
 
 **Why they're buying:**
-- De-dollarization post-Russia sanctions (2022 freeze was catalyst)
+- De-dollarization post-[[Russia]] sanctions (2022 freeze was catalyst)
 - Geopolitical hedging (tariffs, sanctions weaponization)
 - Reserve diversification
 - No counterparty risk
@@ -83,11 +83,11 @@ aliases: [XAU, Gold price, Bullion]
 
 ## 2026 forecasts
 
-| Source | Target | Timeframe |
+| Source | [[Target]] | Timeframe |
 |--------|--------|-----------|
 | J.P. Morgan | $4,800 | Q2 2026 |
-| State Street | $5,000 | Q4 2026 |
-| Bank of America | $5,000 | Year-end |
+| [[State Street]] | $5,000 | Q4 2026 |
+| [[Bank of America]] | $5,000 | Year-end |
 | Bull case | $6,000 | 2027 |
 
 71% of retail investors expect gold above $5,000 in 2026.
@@ -100,17 +100,17 @@ aliases: [XAU, Gold price, Bullion]
 
 **Central bank buying:**
 - Non-aligned central banks diversifying from dollar assets
-- China, Russia, emerging markets accumulating
+- [[China]], [[Russia]], emerging markets accumulating
 - Structural shift in reserve composition
-- Post-sanctions world (Russia 2022) accelerated trend
+- Post-sanctions world ([[Russia]] 2022) accelerated trend
 
 **De-dollarization thesis:**
 - Weaponization of dollar reserves raises hedging demand
-- BRICS seeking alternatives
+- [[BRICS]] seeking alternatives
 - Gold = neutral reserve asset
 
 **Macro hedges:**
-- BlackRock: "Long-dated Treasuries no longer provide ballast; prefer gold"
+- [[BlackRock]]: "Long-dated [[Treasuries]] no longer provide ballast; prefer gold"
 - JPM Wealth: Gold hedges geopolitical/currency volatility
 
 ---
@@ -122,7 +122,7 @@ aliases: [XAU, Gold price, Bullion]
 - Fed staying higher-for-longer delays rally
 
 **Not portfolio hedge:**
-- BlackRock: "Tactical play; not long-term portfolio hedge"
+- [[BlackRock]]: "Tactical play; not long-term portfolio hedge"
 - Volatility can be high
 
 **Patience testing:**
@@ -137,7 +137,7 @@ aliases: [XAU, Gold price, Bullion]
 |--------|-------|--------|
 | 1970s | $35 → $850 | Nixon shock, inflation |
 | 1980-2000 | $850 → $250 | Volcker, disinflation |
-| 2001-2011 | $250 → $1,900 | GFC, QE, Euro crisis |
+| 2001-2011 | $250 → $1,900 | GFC, QE, [[Euro]] crisis |
 | 2012-2019 | $1,200-1,500 | Consolidation |
 | 2020-2024 | $1,500 → $2,700 | COVID, inflation, CB buying |
 | 2025-2026 | $2,700 → $4,600+ | Fed independence, de-dollarization |
@@ -224,9 +224,9 @@ aliases: [XAU, Gold price, Bullion]
 - [[Newmont]] — largest gold miner, doubled in 2025
 - [[Agnico Eagle]] — top performer, doubled in 2025
 - [[Barrick Gold]] — major producer
-- [[Zijin Mining]] — China's largest, aggressive acquirer
+- [[Zijin Mining]] — [[China]]'s largest, aggressive acquirer
 - [[Gold mining consolidation]] — M&A wave at record prices
 
 ---
 
-*Consolidated Jan 2026. Sources: Bloomberg, JPMorgan, State Street, Julius Baer.*
+*Consolidated Jan 2026. Sources: Bloomberg, JPMorgan, [[State Street]], Julius Baer.*

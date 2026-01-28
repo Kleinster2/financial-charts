@@ -22,7 +22,7 @@ aliases: [Elbit, ESLT]
 
 | Category | Products |
 |----------|----------|
-| Drones/UAVs | Hermes 900/450, Skylark |
+| [[Drones]]/UAVs | Hermes 900/450, Skylark |
 | Electronic warfare | Jamming, SIGINT, cyber |
 | Land systems | Artillery, mortars, vehicles |
 | Helmets/displays | Fighter pilot HMDs |
@@ -37,7 +37,7 @@ aliases: [Elbit, ESLT]
 | Combat-tested | Constant IDF validation |
 | Innovation cycle | Battlefield → factory fast |
 | Full spectrum | Air, land, sea, cyber |
-| Global footprint | US, Europe, Asia-Pacific |
+| Global footprint | US, [[Europe]], [[Asia]]-Pacific |
 | Talent pipeline | IDF tech units |
 
 ---
@@ -48,8 +48,8 @@ aliases: [Elbit, ESLT]
 |--------|-------|
 | Israel | ~25% |
 | North America | ~30% |
-| Europe | ~25% |
-| Asia-Pacific | ~15% |
+| [[Europe]] | ~25% |
+| [[Asia]]-Pacific | ~15% |
 | Other | ~5% |
 
 Well-diversified, not dependent on Israel alone.
@@ -77,7 +77,7 @@ Growing US government revenue.
 | Global drone demand | Market leader |
 | Electronic warfare | Contested environments |
 | European rearmament | NATO allies |
-| Indo-Pacific | Australia, India, S. Korea |
+| Indo-Pacific | [[Australia]], [[India]], S. Korea |
 | Gaza/Lebanon ops | Surge orders, validation |
 
 ---
@@ -93,7 +93,7 @@ Growing US government revenue.
 
 **Bear:**
 - Israel conflict exposure
-- ESG/reputational concerns
+- [[ESG]]/reputational concerns
 - Export restriction risk
 - Competition from larger primes
 

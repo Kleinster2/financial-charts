@@ -14,7 +14,7 @@ US drug patents typically last **20 years from filing** (not from commercial lau
 
 ## Why cliffs become cliffhangers
 
-| Defense | How it works |
+| [[Defense]] | How it works |
 |---------|--------------|
 | **Patent thickets** | Web of related patents (manufacturing, formulations, delivery) beyond composition of matter |
 | **Biologic complexity** | Made in living cells — copying is technically difficult, unlike small-molecule generics |
@@ -56,14 +56,14 @@ US drug patents typically last **20 years from filing** (not from commercial lau
 
 ---
 
-### Merck / Keytruda (in progress)
+### Merck / [[Keytruda]] (in progress)
 
 | Metric | Value |
 |--------|-------|
-| Keytruda revenue | $31.7B (49% of sales) |
+| [[Keytruda]] revenue | $31.7B (49% of sales) |
 | Patent expiry | December 2028 |
 | Valuation | 11x 2027E earnings |
-| Defense | Patent thicket + Keytruda Qlex (subcutaneous, new patents) |
+| [[Defense]] | Patent thicket + [[Keytruda]] Qlex (subcutaneous, new patents) |
 | Pipeline | 80 Phase 3 trials, $70B+ revenue opportunity by mid-2030s |
 
 **Bull case:** AbbVie-like outcome — minimal earnings decline, de-risked outlook, valuation re-rating by end of decade.
@@ -99,9 +99,9 @@ US drug patents typically last **20 years from filing** (not from commercial lau
 
 ## Current cliffs to watch
 
-| Company | Drug | Cliff | Revenue | Defense quality |
+| Company | Drug | Cliff | Revenue | [[Defense]] quality |
 |---------|------|-------|---------|-----------------|
-| [[Merck]] | Keytruda | Dec 2028 | $31.7B | High (thicket + Qlex) |
+| [[Merck]] | [[Keytruda]] | Dec 2028 | $31.7B | High (thicket + Qlex) |
 | [[Bristol-Myers Squibb]] | Multiple | 2026-2031 | >$35B | Moderate (volume, not depth) |
 | [[AbbVie]] | Humira | Completed | — | Navigated successfully |
 

@@ -3,11 +3,11 @@ aliases: [SDI]
 ---
 #actor #batteries #korea #ev #public
 
-**Samsung SDI** — South Korean battery manufacturer, part of Samsung Group. Supplies EV batteries and consumer electronics batteries.
+**[[Samsung]] SDI** — South Korean battery manufacturer, part of [[Samsung]] Group. Supplies EV batteries and consumer electronics batteries.
 
 ---
 
-## Why Samsung SDI matters
+## Why [[Samsung]] SDI matters
 
 | Metric | Value |
 |--------|-------|
@@ -15,7 +15,7 @@ aliases: [SDI]
 | Market cap | ~$20B |
 | Global rank | #6 battery maker |
 | Market share | ~5% |
-| Parent | Samsung Group |
+| Parent | [[Samsung]] Group |
 
 ---
 
@@ -24,8 +24,8 @@ aliases: [SDI]
 | Segment | Revenue share | Products |
 |---------|---------------|----------|
 | **EV batteries** | ~70% | Cells, packs for OEMs |
-| **ESS** | ~15% | Grid storage |
-| **Small batteries** | ~15% | Consumer electronics, power tools |
+| **ESS** | ~15% | [[Grid storage]] |
+| **Small batteries** | ~15% | [[Consumer]] electronics, power tools |
 
 ---
 
@@ -35,8 +35,8 @@ aliases: [SDI]
 |----------|--------|----------|
 | **Korea** (Cheonan, Ulsan) | Operating | Core facilities |
 | **Hungary** (Göd) | Operating | ~40 GWh |
-| **China** (Xi'an) | Operating | Local market |
-| **US** (Indiana) | Under construction | Stellantis JV |
+| **[[China]]** (Xi'an) | Operating | Local market |
+| **US** (Indiana) | Under construction | [[Stellantis]] JV |
 | **Malaysia** | Operating | Small batteries |
 
 ---
@@ -45,8 +45,8 @@ aliases: [SDI]
 
 | Customer | Relationship | Models |
 |----------|--------------|--------|
-| **BMW** | Strategic partner | i-series, iX |
-| **Stellantis** | US JV partner | Jeep, RAM EVs |
+| **[[BMW]]** | Strategic partner | i-series, iX |
+| **[[Stellantis]]** | US JV partner | Jeep, RAM EVs |
 | **Audi** | Supplier | e-tron |
 | **Rivian** | Supply agreement | R1T, R1S |
 | **Volvo** | Supplier | EX series |
@@ -66,7 +66,7 @@ aliases: [SDI]
 
 ---
 
-## Stellantis JV
+## [[Stellantis]] JV
 
 | Detail | Value |
 |--------|-------|
@@ -95,10 +95,10 @@ Second plant announced for ~$3B additional investment.
 
 | Strength | Weakness |
 |----------|----------|
-| Samsung brand/resources | Smaller EV share than LG |
-| BMW strategic partnership | Late to US expansion |
+| [[Samsung]] brand/resources | Smaller EV share than LG |
+| [[BMW]] strategic partnership | Late to US expansion |
 | Solid-state R&D lead | Less diversified customer base |
-| Prismatic cell expertise | Consumer electronics declining |
+| Prismatic cell expertise | [[Consumer]] electronics declining |
 
 ---
 
@@ -117,15 +117,15 @@ Second plant announced for ~$3B additional investment.
 ## Investment case
 
 **Bull:**
-- Samsung Group backing
-- BMW and Stellantis partnerships
+- [[Samsung]] Group backing
+- [[BMW]] and [[Stellantis]] partnerships
 - Solid-state technology leadership
 - US expansion (IRA benefits)
 
 **Bear:**
-- Smaller than CATL, LG
+- Smaller than [[CATL]], LG
 - Limited US presence currently
-- Customer concentration (BMW heavy)
+- Customer concentration ([[BMW]] heavy)
 - Solid-state commercialization risk
 
 ---
@@ -137,7 +137,7 @@ Second plant announced for ~$3B additional investment.
 | Ticker | 006400.KS |
 | Exchange | Korea |
 | Sector | Batteries |
-| Parent | Samsung Group |
+| Parent | [[Samsung]] Group |
 
 ---
 

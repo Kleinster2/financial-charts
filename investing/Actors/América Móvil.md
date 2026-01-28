@@ -22,11 +22,11 @@ aliases: [AMX, America Movil]
 
 | Region | Brands |
 |--------|--------|
-| **Mexico** | Telcel (#1 mobile) |
-| **Brazil** | Claro |
+| **[[Mexico]]** | Telcel (#1 mobile) |
+| **[[Brazil]]** | Claro |
 | **Colombia** | Claro |
-| **Chile** | Claro |
-| **Other LATAM** | Various |
+| **[[Chile]]** | Claro |
+| **Other [[LATAM]]** | Various |
 
 ---
 
@@ -43,13 +43,13 @@ aliases: [AMX, America Movil]
 ## Investment case
 
 **Bull:**
-- LATAM mobile dominance
+- [[LATAM]] mobile dominance
 - Data growth tailwind
 - Infrastructure moat
 - Slim's capital allocation
 
 **Bear:**
-- Regulatory pressure (Mexico)
+- Regulatory pressure ([[Mexico]])
 - Currency volatility
 - Competition increasing
 - Capex requirements

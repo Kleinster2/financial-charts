@@ -48,7 +48,7 @@ Insurer invests premium as float → earns spread
 | 2025 full year (est.) | $45-50B |
 | Q4 2025 (est.) | ~$29B (carriers at capacity) |
 
-### UK (2024–2025)
+### [[UK]] (2024–2025)
 | Metric | Value |
 |--------|-------|
 | 2024 transactions | 299 (record) |
@@ -58,9 +58,9 @@ Insurer invests premium as float → earns spread
 
 ### Global outlook
 £1T in pension liabilities expected to be secured by insurers over next decade:
-- UK: £500B
+- [[UK]]: £500B
 - US: £400B
-- Canada: £100B
+- [[Canada]]: £100B
 
 ---
 
@@ -78,11 +78,11 @@ Insurer invests premium as float → earns spread
 
 | Date | Sponsor | Insurer | Size |
 |------|---------|---------|------|
-| 2012 | GM | Prudential | $25.1B (largest ever) |
-| 2021 | Lockheed Martin | [[Athene]] | $4.9B (used ACRA) |
+| 2012 | [[GM]] | Prudential | $25.1B (largest ever) |
+| 2021 | [[Lockheed Martin]] | [[Athene]] | $4.9B (used ACRA) |
 | 2021 | JCPenney | [[Athene]] | $2.8B (plan termination) |
-| 2022 | AT&T | Athene + others | $8.1B |
-| 2024 | Prudential UK | [[Athene]] | $27B (reinsurance) |
+| 2022 | [[AT&T]] | Athene + others | $8.1B |
+| 2024 | Prudential [[UK]] | [[Athene]] | $27B (reinsurance) |
 | 2025 | Taiyo Life | [[Fortitude Re]] | $4B |
 
 ---
@@ -103,7 +103,7 @@ This is why [[Reinsurance sidecars]] exist — [[Athene]]'s ACRA was specificall
 
 **For plan sponsors:** Increasingly attractive as funded ratios improve. Expect acceleration of full plan terminations.
 
-**For traditional insurers:** UK market seeing M&A (3 of 11 active bulk annuity insurers acquired by international insurers in 2025). Scale matters.
+**For traditional insurers:** [[UK]] market seeing M&A (3 of 11 active bulk annuity insurers acquired by international insurers in 2025). Scale matters.
 
 ---
 
@@ -112,7 +112,7 @@ This is why [[Reinsurance sidecars]] exist — [[Athene]]'s ACRA was specificall
 - [[PE-insurance convergence]] — PRT as key demand driver
 - [[Athene]] — largest PE-linked PRT player, ACRA structure
 - [[Fortitude Re]] — growing PRT via FCA Re
-- [[Global Atlantic]] — KKR's PRT capabilities
+- [[Global Atlantic]] — [[KKR]]'s PRT capabilities
 - [[Reinsurance sidecars]] — capital structure enabling large PRT deals
 - [[Permanent capital]] — PRT liabilities as ultimate permanent capital
 - [[MetLife]] — major traditional PRT provider

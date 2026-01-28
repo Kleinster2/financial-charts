@@ -14,7 +14,7 @@
 
 > "2025 was agents. 2026 is agent harnesses."
 
-Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 architectures). You can't download them from Hugging Face. This is where differentiation lives.
+Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 architectures). You can't download them from [[Hugging Face]]. This is where differentiation lives.
 
 ---
 
@@ -24,7 +24,7 @@ Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 a
 |--------|----------------|
 | **Model commoditization** | As models converge, the wrapper becomes the product |
 | **Switching costs** | Developers build workflows around harnesses |
-| **Network effects** | More users → more edge cases solved → better harness |
+| **[[Network effects]]** | More users → more edge cases solved → better harness |
 | **Time to production** | Harnesses ship in days, frameworks take weeks |
 | **Reliability** | Battle-tested > build-your-own |
 
@@ -36,10 +36,10 @@ Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 a
 
 | Company | Product | Valuation | Edge |
 |---------|---------|-----------|------|
-| [[Anthropic]] | Claude Code, Agent SDK | Private | Best model + best harness integration |
+| [[Anthropic]] | [[Claude]] Code, Agent SDK | Private | Best model + best harness integration |
 | [[OpenAI]] | Codex | Private | GPT-5-Codex, 7+ hr autonomous runs |
-| [[Anysphere]] | Cursor | $29.3B | Distribution, $1B ARR, developer love |
-| Cognition | Devin + Windsurf | $4B | SWE-1.5 model, vertical integration |
+| [[Anysphere]] | [[Cursor]] | $29.3B | Distribution, $1B ARR, developer love |
+| [[Cognition]] | Devin + Windsurf | $4B | SWE-1.5 model, vertical integration |
 | [[Meta]] | Manus | Acquired ~$2B | General-purpose, hyperscaler resources |
 | [[Amazon]] | Q Developer | AWS | Enterprise distribution |
 | Replit | Agent 3 | Private | 200 min autonomous, self-testing |
@@ -53,21 +53,21 @@ Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 a
 
 | Exposure | Vehicle | Notes |
 |----------|---------|-------|
-| **Direct (private)** | [[Anthropic]] | Best positioned — model + harness + Claude Code |
+| **Direct (private)** | [[Anthropic]] | Best positioned — model + harness + [[Claude]] Code |
 | **Direct (public proxy)** | [[Alphabet]] | Google building harness, Windsurf team |
 | **Direct (public proxy)** | [[Amazon]] | Q Developer, enterprise distribution |
 | **Indirect** | [[NVIDIA]] | Inference demand from agents |
 | **Indirect** | [[Microsoft]] | AutoGen framework, GitHub Copilot |
 
 **Best pure-play:** Anthropic (if accessible via secondary)
-**Best liquid proxy:** Cursor users → inference demand → NVIDIA
+**Best liquid proxy:** [[Cursor]] users → inference demand → NVIDIA
 
 ---
 
 ## What validates the thesis
 
 - [ ] Harness revenue exceeds framework revenue
-- [ ] Cursor maintains growth at $29B+ valuation
+- [ ] [[Cursor]] maintains growth at $29B+ valuation
 - [ ] More acqui-hires/acquisitions (Google/Windsurf pattern repeats)
 - [ ] Enterprise adoption of harnesses accelerates
 - [ ] Framework layer commoditizes (open source pressure)
@@ -86,7 +86,7 @@ Harnesses are hard to build (Manus: 6 months, 5 rewrites; LangChain: 1 year, 4 a
 
 ---
 
-## Position sizing
+## [[Position sizing]]
 
 High conviction = overweight
 
@@ -94,13 +94,13 @@ High conviction = overweight
 |------|------------|----------|
 | Core | Large | Anthropic (if accessible), NVIDIA |
 | Supporting | Medium | Alphabet, Amazon |
-| Speculative | Small | Cognition (if IPO), Replit (if IPO) |
+| Speculative | Small | [[Cognition]] (if IPO), Replit (if IPO) |
 
 ---
 
 ## Link to other theses
 
-**[[Long Anthropic]]**: Claude Code is a harness play. Model + harness vertical integration.
+**[[Long Anthropic]]**: [[Claude]] Code is a harness play. Model + harness vertical integration.
 
 **[[Long inference stack]]**: Agents consume inference. More harnesses → more inference demand.
 
@@ -112,11 +112,11 @@ High conviction = overweight
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
-| 2026-01-09 | Anthropic blocks OpenCode from spoofing Claude Code headers | Compute arbitrage closed, not harness moat defense — third-party harnesses work via enterprise pricing |
-| 2026-01-09 | xAI employees cut off from Claude via Cursor | Model labs treating harness access as competitive weapon |
+| 2026-01-09 | Anthropic blocks OpenCode from spoofing [[Claude]] Code headers | Compute arbitrage closed, not harness moat defense — third-party harnesses work via enterprise pricing |
+| 2026-01-09 | [[xAI]] employees cut off from [[Claude]] via [[Cursor]] | Model labs treating harness access as competitive weapon |
 | 2026-01 | Meta acquires Manus ~$2B | Hyperscalers treating harnesses as strategic |
 | 2025-12 | Google acqui-hires Windsurf team $2.4B | Scramble for harness talent |
-| 2025-12 | Cursor hits $29B, $1B ARR | Harness category validated at scale |
+| 2025-12 | [[Cursor]] hits $29B, $1B ARR | Harness category validated at scale |
 | 2025-11 | Anysphere acquires Graphite | Harness consolidation beginning |
 | 2025-09 | Replit Agent 3 — 200 min autonomous | Autonomous runtime extending |
 | 2025-05 | OpenAI launches Codex | Every model provider needs a harness |
@@ -127,11 +127,11 @@ High conviction = overweight
 
 - [[Agent harnesses]] — concept (full landscape)
 - [[Agentic AI]] — parent concept (market, use cases)
-- [[Long Anthropic]] — related thesis (Claude Code)
+- [[Long Anthropic]] — related thesis ([[Claude]] Code)
 - [[Long inference stack]] — related thesis (demand driver)
-- [[Anysphere]] — key player (Cursor $29B)
+- [[Anysphere]] — key player ([[Cursor]] $29B)
 - [[Model Context Protocol]] — infrastructure (agent-tool connectivity)
 
 ---
 
-*Review monthly. Track Cursor ARR, acquisition activity, enterprise adoption.*
+*Review monthly. Track [[Cursor]] ARR, acquisition activity, enterprise adoption.*

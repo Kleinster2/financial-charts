@@ -38,7 +38,7 @@
 
 ## Red flags
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | Revenue recognition changes | Pulling forward |
 | Rising receivables | Collection issues |
@@ -51,7 +51,7 @@
 
 ## Revenue quality
 
-| Signal | Assessment |
+| [[Signal]] | Assessment |
 |--------|------------|
 | Organic growth | Sustainable |
 | M&A-driven | Integration risk |
@@ -63,7 +63,7 @@
 
 ## Expense quality
 
-| Signal | Assessment |
+| [[Signal]] | Assessment |
 |--------|------------|
 | Capitalizing vs. expensing | Aggressive? |
 | Depreciation assumptions | Reasonable life? |

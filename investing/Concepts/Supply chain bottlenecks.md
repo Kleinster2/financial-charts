@@ -11,8 +11,8 @@ AI chip supply chain has multiple bottlenecks beyond just foundry capacity.
 | **Power** | 44GW US shortfall | Hard constraint, no solution in sight |
 | **Materials** | InP substrates for optical | Shortage widening through 2026+ |
 | **Foundry** | TSMC sub-3nm capacity | Tight, annual price hikes |
-| **Packaging** | CoWoS | Tight, alternatives emerging (Intel EMIB, SK Hynix) |
-| **Memory** | HBM | Shortage through CY26, fully contracted |
+| **Packaging** | CoWoS | Tight, alternatives emerging ([[Intel]] EMIB, [[SK Hynix]]) |
+| **Memory** | [[HBM]] | Shortage through CY26, fully contracted |
 | **Test** | Final test for large packages | Hidden bottleneck, equipment lag |
 
 ---
@@ -22,7 +22,7 @@ AI chip supply chain has multiple bottlenecks beyond just foundry capacity.
 Even if one layer loosens, others constrain. "Solving" fab capacity doesn't help if:
 - Power isn't available
 - Packaging is full
-- HBM is allocated
+- [[HBM]] is allocated
 - Materials are short
 
 **Bottlenecks cascade and shift** — watch for which one becomes binding.
@@ -32,10 +32,10 @@ Even if one layer loosens, others constrain. "Solving" fab capacity doesn't help
 ## Materials layer (emerging)
 
 InP (Indium Phosphide) substrates for optical interconnects:
-- Supply: Sumitomo (Japan), AXT (US but China manufacturing)
+- Supply: Sumitomo ([[Japan]]), AXT (US but [[China]] manufacturing)
 - Demand: AI data center optical interconnects
-- Gap widening, 20-30% capacity increases not enough
-- China export controls on gallium/germanium/InP materials
+- [[Gap]] widening, 20-30% capacity increases not enough
+- [[China]] export controls on gallium/germanium/InP materials
 - Workarounds: recycled wafers, customer-supplied substrates
 
 ---
@@ -44,8 +44,8 @@ InP (Indium Phosphide) substrates for optical interconnects:
 
 - [[Power constraints]] — layer (44GW US shortfall, hardest)
 - [[Advanced packaging]] — layer (CoWoS tight)
-- [[Memory shortage 2025-2026]] — layer (HBM fully contracted)
+- [[Memory shortage 2025-2026]] — layer ([[HBM]] fully contracted)
 - [[Final test bottleneck]] — layer (hidden constraint)
 - [[TSMC]] — layer (sub-3nm capacity tight)
-- [[Gallium]] — material (China export controls)
-- [[Germanium]] — material (China export controls)
+- [[Gallium]] — material ([[China]] export controls)
+- [[Germanium]] — material ([[China]] export controls)

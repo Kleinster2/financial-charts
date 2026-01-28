@@ -43,7 +43,7 @@
 | 1987 | Joined Accel |
 | 1990 | Named Partner |
 | 1995 | Named Managing Partner |
-| 2000 | Founded Accel-KKR with KKR |
+| 2000 | Founded Accel-[[KKR]] with [[KKR]] |
 | 2005 | Led Facebook investment |
 | 2011 | Stepped back from Managing Partner |
 | 2016 | Left Accel partnership |
@@ -57,9 +57,9 @@
 | Category | Examples |
 |----------|----------|
 | Social | Facebook |
-| Enterprise | Etsy |
-| Fintech | Circle Internet Financial |
-| Media | Legendary Pictures, Spotify |
+| Enterprise | [[Etsy]] |
+| [[Fintech]] | [[Circle]] Internet Financial |
+| [[Media]] | Legendary Pictures, [[Spotify]] |
 
 **Returns:** Several investments earned 100x+ cost, many others 25x+.
 
@@ -71,10 +71,10 @@
 
 Since relocating to Austin, Breyer shifted strategy toward:
 - AI solutions for life sciences
-- Healthcare technology
+- [[Healthcare]] technology
 - Deep tech
 
-**Circle success:** Featured on Forbes cover (Sept 2025) after Circle Internet Group went public, doubling his fortune.
+**[[Circle]] success:** Featured on Forbes cover (Sept 2025) after [[Circle]] Internet Group went public, doubling his fortune.
 
 ---
 
@@ -96,12 +96,12 @@ Since relocating to Austin, Breyer shifted strategy toward:
 
 ### Notable investments
 - Facebook/[[Meta]] — defining deal
-- Etsy — IPO
-- Spotify — growth
-- Circle — recent win
+- [[Etsy]] — IPO
+- [[Spotify]] — growth
+- [[Circle]] — recent win
 
 ### Co-venture
-- Accel-KKR — founded with KKR (2000)
+- Accel-[[KKR]] — founded with [[KKR]] (2000)
 
 ---
 

@@ -43,7 +43,7 @@ Netflix board member since 1999 — one of the longest-tenured directors. Has se
 
 | Stage | Approach |
 |-------|----------|
-| Private | Growth equity ($3M-$300M checks) |
+| Private | Growth equity ($[[3M]]-$300M checks) |
 | Public | Can hold through and after IPO |
 | Crossover | Same fund, same team, same thesis |
 
@@ -86,21 +86,21 @@ TCV's defining investment. Held through multiple near-death experiences (2002 IP
 
 | Company | Sector | Outcome |
 |---------|--------|---------|
-| [[Airbnb]] | Travel | IPO (ABNB) |
+| [[Airbnb]] | [[Travel]] | IPO (ABNB) |
 | [[Facebook]] | Social | IPO (META) |
 | [[LinkedIn]] | Professional network | Acquired by [[Microsoft]] $26B |
-| Expedia | Travel | Public (EXPE) |
+| [[Expedia]] | [[Travel]] | Public (EXPE) |
 | Peloton | Fitness | IPO (PTON) |
-| Toast | Restaurant tech | IPO (TOST) |
-| Zillow | Real estate | Public (Z) |
-| [[Brex]] | Fintech | Acquired by [[Capital One]] |
+| [[Toast]] | Restaurant tech | IPO (TOST) |
+| [[Zillow]] | Real estate | Public (Z) |
+| [[Brex]] | [[Fintech]] | Acquired by [[Capital One]] |
 
-### Fintech portfolio
+### [[Fintech]] portfolio
 
 | Company | Sector |
 |---------|--------|
 | [[Brex]] | Corporate cards |
-| Klarna | BNPL |
+| [[Klarna]] | BNPL |
 | [[Revolut]] | Neobank |
 | Mollie | Payments |
 | Wealthsimple | Investing |
@@ -111,10 +111,10 @@ TCV's defining investment. Held through multiple near-death experiences (2002 IP
 
 | Date | Company | Event |
 |------|---------|-------|
-| Dec 2025 | Trade Republic | Secondary investment |
+| Dec 2025 | [[Trade]] [[Republic]] | Secondary investment |
 | Jan 2026 | OneSource Virtual | Exit |
 | Nov 2025 | Sojern | Exit |
-| 2025 | Avetta | Exit to EQT |
+| 2025 | Avetta | Exit to [[EQT]] |
 
 ---
 
@@ -122,9 +122,9 @@ TCV's defining investment. Held through multiple near-death experiences (2002 IP
 
 | Theme | Expression |
 |-------|------------|
-| **Consumer internet** | Netflix, Spotify, Airbnb |
-| **Enterprise SaaS** | Toast, various |
-| **Fintech** | Klarna, Revolut, Brex |
+| **[[Consumer]] internet** | Netflix, Spotify, Airbnb |
+| **Enterprise [[SaaS]]** | [[Toast]], various |
+| **[[Fintech]]** | [[Klarna]], Revolut, Brex |
 | **Digital health** | Strava, various |
 | **E-commerce enablement** | Spryker, various |
 
@@ -140,7 +140,7 @@ TCV's defining investment. Held through multiple near-death experiences (2002 IP
 
 3. **Patient capital** — holds through volatility, doesn't force IPO exits.
 
-4. **Fintech exposure** — Klarna, Revolut, Brex portfolio.
+4. **[[Fintech]] exposure** — [[Klarna]], Revolut, Brex portfolio.
 
 5. **Growth indicator** — TCV activity signals institutional confidence in growth.
 

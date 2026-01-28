@@ -93,7 +93,7 @@ aliases: [direct lending, private debt]
 | Deal | Sponsor | Lenders | Notes |
 |------|---------|---------|-------|
 | **JTC Plc** | [[Permira]] + CPPIB | [[Blackstone]], CVC Credit, [[GIC]] | Corporate services |
-| **The Key Group** | [[Permira]] | Goldman Sachs AM, Macquarie, Apax Credit | UK education software |
+| **The Key Group** | [[Permira]] | Goldman Sachs AM, Macquarie, Apax Credit | [[UK]] education software |
 | **Global Gruppe** | — | Various | €1B cov-lite offers, sale on hold |
 
 **Pattern:** Top-tier PE sponsors extracting cov-lite from major lenders.
@@ -109,15 +109,15 @@ aliases: [direct lending, private debt]
 | 2021 | 16% |
 | 2025 Q1 | **25%** |
 
-*Source: S&P Global Ratings*
+*Source: [[S&P Global]] Ratings*
 
 Threshold reflects maximum allowed, not current exposure. But rising limits signal direction.
 
 ---
 
-## Banks fighting back
+## [[Banks]] fighting back
 
-**Banks re-entering the market:**
+**[[Banks]] re-entering the market:**
 - Offering cheaper deals and fewer covenants
 - Creating own private credit funds
 - Advising clients on private credit
@@ -128,7 +128,7 @@ Threshold reflects maximum allowed, not current exposure. But rising limits sign
 | Societe Generale | Own fund |
 | [[Goldman Sachs]] | Goldman Sachs AM |
 
-**Dynamic:** Competition between banks and private credit may encourage riskier deals (Moody's warning).
+**Dynamic:** Competition between banks and private credit may encourage riskier deals ([[Moody's]] warning).
 
 ---
 
@@ -148,7 +148,7 @@ Private credit historically institutional-only. Now targeting high-net-worth ind
 
 **Padideh Raphael (Goldman Sachs AM):** "Enabling individual investors to access the diversification and performance benefits of private markets is a major focus."
 
-**Jim Zelter (Apollo co-president):** "We're launching our European product platform... designed to offer a full suite of options to individuals in Europe."
+**Jim Zelter (Apollo co-president):** "We're launching our European product platform... designed to offer a full suite of options to individuals in [[Europe]]."
 
 **Structures:**
 - **BDCs (US)** — Business development companies, publicly traded closed-end funds
@@ -175,7 +175,7 @@ Private credit historically institutional-only. Now targeting high-net-worth ind
 
 ## Valuation concerns
 
-**UBS Chairman Colm Kelleher (late 2023):** Warning of "dangerous bubble" in private credit.
+**[[UBS]] Chairman Colm Kelleher (late 2023):** Warning of "dangerous bubble" in private credit.
 
 **Evidence of denial:**
 - Some lenders barely altering book values despite borrower stress
@@ -189,9 +189,9 @@ Private credit historically institutional-only. Now targeting high-net-worth ind
 
 | Jurisdiction | Status |
 |--------------|--------|
-| **EU** | Caps on leverage, diversification requirements |
+| **[[EU]]** | Caps on leverage, diversification requirements |
 | **US SEC** | Rules for external audits struck down by federal court |
-| **UK FCA** | Reviewing private market valuations |
+| **[[UK]] FCA** | Reviewing private market valuations |
 
 **Key gap:** No widespread moves to regulate like deposit-taking banks. Governments see private credit as absorbing risk inappropriate for banks.
 

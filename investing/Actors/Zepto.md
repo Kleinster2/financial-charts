@@ -1,6 +1,6 @@
 #actor #company #quickcommerce #india #ipo #startup
 
-**Zepto** — India's #2 quick commerce platform (10-minute grocery delivery). $7B valuation. 900+ dark stores. Founded 2021 by two 19-year-olds (Aadit Palicha, Kaivalya Vohra) who skipped Stanford. Filed confidential DRHP for ₹11,000 crore IPO (~$1.3B) targeting June 2026. Still loss-making but revenue growing fast.
+**Zepto** — India's #2 quick commerce platform (10-minute grocery delivery). $7B valuation. 900+ dark stores. Founded 2021 by two 19-year-olds (Aadit Palicha, Kaivalya Vohra) who skipped [[Stanford]]. Filed confidential DRHP for ₹11,000 crore IPO (~$1.3B) targeting June 2026. Still loss-making but revenue growing fast.
 
 ---
 
@@ -22,8 +22,8 @@
 
 | Founder | Background |
 |---------|------------|
-| **Aadit Palicha** | CEO; was supposed to attend Stanford (CS); age 19 at founding |
-| **Kaivalya Vohra** | CTO; also skipped Stanford |
+| **Aadit Palicha** | CEO; was supposed to attend [[Stanford]] (CS); age 19 at founding |
+| **Kaivalya Vohra** | CTO; also skipped [[Stanford]] |
 
 Both were 19 when they founded Zepto in 2021.
 

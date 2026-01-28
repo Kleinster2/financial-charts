@@ -3,7 +3,7 @@ aliases: [HUT]
 ---
 #actor #crypto #ai #canada #public
 
-**Hut 8** — Crypto miner → AI. $7B Google-backed Fluidstack deal. Highrise AI subsidiary. Spun out American Bitcoin.
+**Hut 8** — [[Crypto]] miner → AI. $7B Google-backed Fluidstack deal. Highrise AI subsidiary. Spun out American Bitcoin.
 
 ---
 
@@ -88,9 +88,9 @@ Long-term visibility with hyperscaler backing.
 
 | Company | AI deal | Approach |
 |---------|---------|----------|
-| [[IREN]] | $9.7B Microsoft | Hybrid |
+| [[IREN]] | $9.7B [[Microsoft]] | Hybrid |
 | **Hut 8** | $7B Fluidstack | Full pivot |
-| [[Core Scientific]] | $3.5B CoreWeave | Hosting |
+| [[Core Scientific]] | $3.5B [[CoreWeave]] | Hosting |
 | [[TeraWulf]] | 200MW Fluidstack | HPC focus |
 
 Hut 8 = most complete transformation.
@@ -121,7 +121,7 @@ Hut 8 = most complete transformation.
 |--------|-------|
 | Ticker | HUT |
 | Market cap | — |
-| HQ | Canada |
+| HQ | [[Canada]] |
 | AI deal | $7B Fluidstack |
 | GPUs | 1,000+ H100 |
 

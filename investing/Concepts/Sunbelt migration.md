@@ -83,7 +83,7 @@ aliases: [Sun Belt migration, Sunbelt population growth]
 | Factor | Impact |
 |--------|--------|
 | **Climate change** | Heat waves, wildfires, hurricanes |
-| **Insurance costs** | Florida rates spiking |
+| **[[Insurance]] costs** | Florida rates spiking |
 | **Sea level rise** | Coastal risk |
 | **Affordability erosion** | Price appreciation |
 
@@ -128,13 +128,13 @@ Some "Sunbelt to Snowbelt" migration emerging, but overall Sunbelt trend remains
 | Sector | Exposure |
 |--------|----------|
 | **Homebuilders** | [[DR Horton]], [[Lennar]] (Sunbelt focus) |
-| **SFR REITs** | [[Invitation Homes]], [[American Homes 4 Rent]] |
-| **Multifamily REITs** | Sunbelt-focused |
+| **SFR [[REITs]]** | [[Invitation Homes]], [[American Homes 4 Rent]] |
+| **Multifamily [[REITs]]** | Sunbelt-focused |
 | **Regional banks** | TX, FL exposure |
 | **Utilities** | Population-driven demand |
 
 **Risks:**
-- Insurance cost inflation (FL especially)
+- [[Insurance]] cost inflation (FL especially)
 - Climate risk (long-term)
 - Affordability erosion slowing migration
 - Water scarcity (AZ, parts of TX)

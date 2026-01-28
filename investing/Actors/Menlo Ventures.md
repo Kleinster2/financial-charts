@@ -2,7 +2,7 @@
 
 #actor #vc #usa #private #early-stage
 
-**Menlo Ventures** — Early-stage VC, founded 1976. **$5.8B AUM, 47 years, 80+ IPOs.** Portfolio: Uber, Roku, Chime, Anthropic, [[Neon]], Warby Parker, Siri. "All in on AI." 20 unicorns including Lovable.
+**Menlo Ventures** — Early-stage VC, founded 1976. **$5.8B AUM, 47 years, 80+ IPOs.** Portfolio: [[Uber]], [[Roku]], [[Chime]], Anthropic, [[Neon]], Warby Parker, Siri. "All in on AI." 20 unicorns including Lovable.
 
 ---
 
@@ -35,10 +35,10 @@
 
 | Company | Category | Outcome |
 |---------|----------|---------|
-| Uber | Rideshare | IPO |
-| Roku | Streaming | IPO |
-| Chime | Neobank | IPO (June 2025, $9B) |
-| Gilead Sciences | Biotech | IPO |
+| [[Uber]] | Rideshare | IPO |
+| [[Roku]] | Streaming | IPO |
+| [[Chime]] | Neobank | IPO (June 2025, $9B) |
+| [[Gilead]] Sciences | Biotech | IPO |
 | Warby Parker | DTC eyewear | IPO |
 | Poshmark | Resale | IPO |
 
@@ -47,10 +47,10 @@
 | Company | Category |
 |---------|----------|
 | [[Anthropic]] | AI lab |
-| [[Neon]] | Serverless Postgres (acquired by Databricks) |
+| [[Neon]] | Serverless [[Postgres]] (acquired by [[Databricks]]) |
 | [[Lovable]] | AI coding ($6.6B, Series B co-lead) |
-| Benchling | Life sciences SaaS |
-| Carta | Cap table management |
+| Benchling | Life sciences [[SaaS]] |
+| [[Carta]] | Cap table management |
 | Abnormal Security | Email security |
 | Harness | DevOps |
 
@@ -58,9 +58,9 @@
 
 | Company | Acquirer |
 |---------|----------|
-| Siri | Apple |
-| Dropcam | Nest/Google |
-| IronPort | Cisco |
+| Siri | [[Apple]] |
+| Dropcam | Nest/[[Google]] |
+| IronPort | [[Cisco]] |
 | Tumblr | Yahoo |
 
 ---
@@ -80,7 +80,7 @@
 |-----------|----------|
 | Stage | Early to early-growth |
 | Check size | Seed to Series B |
-| Sectors | AI, SaaS, fintech, cybersecurity, life sciences |
+| Sectors | AI, [[SaaS]], fintech, cybersecurity, life sciences |
 | Geography | US-focused |
 
 ---
@@ -98,7 +98,7 @@
 
 ## Related
 
-- [[Neon]] — portfolio company (Databricks acquired)
+- [[Neon]] — portfolio company ([[Databricks]] acquired)
 - [[Anthropic]] — portfolio company
 - [[Accel]] — peer VC
 - [[Felicis Ventures]] — peer VC

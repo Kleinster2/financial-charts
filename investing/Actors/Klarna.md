@@ -28,7 +28,7 @@ BNPL category creator and leader.
 | **Pay in 4** | 4 interest-free payments |
 | **Pay in 30** | 30-day payment window |
 | **Financing** | Longer-term installments |
-| **Klarna Card** | Visa debit card |
+| **Klarna Card** | [[Visa]] debit card |
 | **Shopping app** | Discovery, deals |
 
 Revenue: merchant fees (~3-4%) + interest.
@@ -39,12 +39,12 @@ Revenue: merchant fees (~3-4%) + interest.
 
 | Region | Status |
 |--------|--------|
-| Europe | Dominant |
+| [[Europe]] | Dominant |
 | US | Growing, major push |
-| Australia | Established |
-| Asia | Expanding |
+| [[Australia]] | Established |
+| [[Asia]] | Expanding |
 
-Strong in Europe, investing in US.
+Strong in [[Europe]], investing in US.
 
 ---
 
@@ -52,7 +52,7 @@ Strong in Europe, investing in US.
 
 | Year | Valuation | Event |
 |------|-----------|-------|
-| 2021 | **$46B** | Peak (SoftBank round) |
+| 2021 | **$46B** | Peak ([[SoftBank]] round) |
 | 2022 | $6.7B | Down round |
 | 2024 | ~$15B | Recovery |
 | 2025 | IPO target | US listing expected |
@@ -99,8 +99,8 @@ Sebastian Siemiatkowski aggressive on AI.
 | Aspect | Detail |
 |--------|--------|
 | Timeline | 2025 expected |
-| Exchange | US (NYSE or Nasdaq) |
-| Target | $15-20B+ |
+| Exchange | US (NYSE or [[Nasdaq]]) |
+| [[Target]] | $15-20B+ |
 | Obstacle | Need sustained profitability |
 
 ---
@@ -111,8 +111,8 @@ Sebastian Siemiatkowski aggressive on AI.
 |------|--------|
 | Credit losses | BNPL default rates |
 | Regulation | CFPB scrutiny |
-| Competition | Apple, PayPal, Affirm |
-| Macro | Consumer stress |
+| Competition | [[Apple]], PayPal, Affirm |
+| Macro | [[Consumer]] stress |
 
 ---
 

@@ -9,7 +9,7 @@ aliases: [沐曦, MetaX Integrated Circuits]
 
 ## Why MetaX matters
 
-Strongest IPO performance of China GPU wave:
+Strongest IPO performance of [[China]] GPU wave:
 
 | Metric | Value |
 |--------|-------|
@@ -61,7 +61,7 @@ High R&D costs, but revenue surging.
 ## Founding team
 
 **Ex-AMD leadership:**
-- Chen Weiliang (Chairman/GM) — former AMD senior director
+- Chen Weiliang (Chairman/[[GM]]) — former AMD senior director
 - Other AMD veterans
 - Different DNA than Moore Threads (NVIDIA) and Biren (mixed)
 
@@ -81,7 +81,7 @@ High R&D costs, but revenue surging.
 | Company | Founder DNA | IPO performance |
 |---------|-------------|-----------------|
 | [[Moore Threads]] | Ex-NVIDIA | +400% |
-| [[Biren Tech]] | Ex-NVIDIA/Alibaba | Jan 2026 |
+| [[Biren Tech]] | Ex-NVIDIA/[[Alibaba]] | Jan 2026 |
 | **MetaX** | Ex-AMD | +693% |
 | [[Enflame]] | Ex-AMD | Prep |
 
@@ -96,13 +96,13 @@ MetaX = best performing IPO of the group.
 - Ex-AMD technical credibility
 - Not sanctioned (TSMC access)
 - Revenue growing 400%+ YoY
-- China GPU demand captive
+- [[China]] GPU demand captive
 
 **Bear:**
 - Still deeply unprofitable
 - Valuation astronomical
 - Competition from peers
-- NVIDIA still 54% China share
+- NVIDIA still 54% [[China]] share
 - Break-even years away
 
 ---
@@ -127,6 +127,6 @@ MetaX = best performing IPO of the group.
 - [[Biren Tech]] — peer (Four Little Dragons)
 - [[Enflame]] — peer (Four Little Dragons)
 - [[AMD]] — founder origin (ex-AMD leadership)
-- [[NVIDIA]] — competitor (54% China share)
+- [[NVIDIA]] — competitor (54% [[China]] share)
 - [[TSMC]] — foundry (still has access)
 - [[Export controls]] — context (not sanctioned)

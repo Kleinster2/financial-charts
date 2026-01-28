@@ -29,7 +29,7 @@ aliases: [Saba Capital Management, Saba]
 | **Credit relative value** | Core strategy; capital structure arbitrage, CDS trading |
 | **Tail hedge** | Disaster insurance; returned 99% in 2020 COVID crash |
 | **Closed-end fund activism** | Exploit NAV discounts; pressure boards for buybacks/liquidation |
-| **SPACs** | Was 4th largest SPAC hedge fund investor by end of 2021 |
+| **[[SPACs]]** | Was 4th largest SPAC hedge fund investor by end of 2021 |
 
 ---
 
@@ -49,7 +49,7 @@ Profited from capital structure arbitrage in [[Linn Energy]] and [[Chesapeake En
 
 ### Trump SPAC (2021)
 
-Invested in [[Digital World Acquisition Corp.]] (DWAC), sold after merger announcement with Trump Media. Shares surged 357%.
+Invested in [[Digital World Acquisition Corp.]] (DWAC), sold after merger announcement with Trump [[Media]]. Shares surged 357%.
 
 ---
 
@@ -59,7 +59,7 @@ Invested in [[Digital World Acquisition Corp.]] (DWAC), sold after merger announ
 
 Since 2023, Saba has waged activist campaigns against closed-end funds trading at discounts to NAV. Targets include:
 
-| Target | Manager | Issue |
+| [[Target]] | Manager | Issue |
 |--------|---------|-------|
 | Multiple funds | [[BlackRock]] | Control-share provisions; governance |
 | Scottish Mortgage, Edinburgh Worldwide, US Growth | [[Baillie Gifford]] | SpaceX sales below rumored IPO valuation; NAV discount |

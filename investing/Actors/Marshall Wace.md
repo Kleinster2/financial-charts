@@ -37,7 +37,7 @@ Consistent performer across equity strategies.
 | TOPS | Market neutral, crowdsourced |
 | Eureka | Fundamental L/S |
 | Global Opportunities | Long-biased |
-| China | Greater China equity |
+| [[China]] | Greater [[China]] equity |
 
 ---
 
@@ -48,13 +48,13 @@ Consistent performer across equity strategies.
 | Paul Marshall | Co-founder |
 | Ian Wace | Co-founder |
 
-Paul Marshall active in UK politics (Conservative donor, GB News backer).
+Paul Marshall active in [[UK]] politics (Conservative donor, GB News backer).
 
 ---
 
 ## TOPS system
 
-Innovative **"Trade Optimized Portfolio System":**
+Innovative **"[[Trade]] Optimized Portfolio System":**
 - Crowdsources ideas from 2,000+ analysts globally
 - Pays for ideas based on performance
 - Systematic idea aggregation

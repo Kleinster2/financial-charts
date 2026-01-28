@@ -57,7 +57,7 @@ TVA is the enabler of Musk's AI infrastructure.
 | Source | Share |
 |--------|-------|
 | Nuclear | ~40% (largest in US) |
-| Natural gas | ~25% |
+| [[Natural gas]] | ~25% |
 | Hydro | ~10% |
 | Coal | Declining |
 | Solar | Growing |
@@ -75,7 +75,7 @@ TVA actively recruiting data centers:
 - Federal support
 
 **Beyond xAI:**
-- Google has Tennessee presence
+- [[Google]] has Tennessee presence
 - Other hyperscalers looking
 - Tennessee becoming AI hub
 

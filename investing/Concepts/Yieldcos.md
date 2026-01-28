@@ -3,7 +3,7 @@ aliases: [yieldco, renewable yieldcos, clean energy yieldcos]
 ---
 #concept #energy #renewable #income
 
-**Yieldcos** — Publicly traded companies that own operating renewable energy assets and pay high dividends from contracted cash flows. Like REITs for power plants.
+**Yieldcos** — Publicly traded companies that own operating renewable energy assets and pay high dividends from contracted cash flows. Like [[REITs]] for power plants.
 
 ---
 
@@ -40,8 +40,8 @@ Sponsor (Developer)              Yieldco (Public)
 
 | Company | Ticker | Sponsor | Yield | Assets |
 |---------|--------|---------|-------|--------|
-| [[Brookfield Renewable]] | BEP/BEPC | Brookfield | ~5% | 35 GW, hydro-heavy |
-| [[Clearway]] | CWEN | GIP/BlackRock | ~6% | 9 GW, wind/solar/gas |
+| [[Brookfield Renewable]] | BEP/BEPC | [[Brookfield]] | ~5% | 35 GW, hydro-heavy |
+| [[Clearway]] | CWEN | GIP/[[BlackRock]] | ~6% | 9 GW, wind/solar/gas |
 | NextEra Energy Partners | NEP | NextEra | ~6% | Wind/solar |
 | Atlantica Yield | AY | Algonquin | ~7% | Renewables + water |
 | Hannon Armstrong | HASI | Self-sponsored | ~6% | Climate investments |
@@ -54,7 +54,7 @@ Sponsor (Developer)              Yieldco (Public)
 
 | Connection | Description |
 |------------|-------------|
-| Hyperscaler PPAs | Long-term contracts with Google, Microsoft, Amazon |
+| Hyperscaler PPAs | Long-term contracts with [[Google]], [[Microsoft]], [[Amazon]] |
 | Scale | Can meet large data center demand |
 | 24/7 clean energy | Hydro provides baseload |
 | Predictable supply | Contracted = reliable |
@@ -68,7 +68,7 @@ Sponsor (Developer)              Yieldco (Public)
 | Type | Example | Risk | Yield | Growth |
 |------|---------|------|-------|--------|
 | **Yieldco** | Clearway | Low | High | Moderate |
-| Developer | First Solar | Higher | Low/none | Higher |
+| Developer | [[First Solar]] | Higher | Low/none | Higher |
 | Utility | NextEra | Moderate | Moderate | Moderate |
 
 Yieldcos = income play. Developers = growth play.
@@ -82,7 +82,7 @@ Yieldcos = income play. Developers = growth play.
 - High dividend yields
 - Clean energy tailwinds
 - Hyperscaler demand growing
-- Inflation protection (some contracts)
+- [[Inflation]] protection (some contracts)
 
 **Bear:**
 - Interest rate sensitivity (competes with bonds)

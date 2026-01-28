@@ -29,7 +29,7 @@ IBKR is the broker for serious traders:
 - Options, futures, forex, bonds
 - Hedge fund / RIA services
 
-**Target:** Traders who outgrow Robinhood.
+**[[Target]]:** Traders who outgrow Robinhood.
 
 ---
 
@@ -100,7 +100,7 @@ Peterffy also notes: "The customer base is becoming much more sophisticated. Peo
 | Ticker | IBKR (NASDAQ) |
 | Market cap | ~$70B |
 | Revenue (TTM) | ~$5B |
-| Client accounts | 3M+ |
+| Client accounts | [[3M]]+ |
 | Client equity | $500B+ |
 | Founded | 1978 |
 
@@ -110,11 +110,11 @@ Peterffy also notes: "The customer base is becoming much more sophisticated. Peo
 
 | Aspect | IBKR | [[Charles Schwab]] | [[Robinhood]] |
 |--------|------|-------------------|---------------|
-| Target | Sophisticated | Mass affluent | Retail/young |
+| [[Target]] | Sophisticated | Mass affluent | Retail/young |
 | Markets | 150+ global | US focused | US focused |
 | Margin rates | Lowest | Higher | Higher |
 | Platform | Complex | Moderate | Simple |
-| Crypto | Limited | Limited | Core |
+| [[Crypto]] | Limited | Limited | Core |
 
 ---
 

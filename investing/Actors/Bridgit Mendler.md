@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #founder #space #satellite #usa
 
-**Bridgit Mendler** — Disney star turned spacetech founder. MIT + Harvard Law. CEO of Northwood Space.
+**Bridgit Mendler** — [[Disney]] star turned spacetech founder. MIT + Harvard Law. CEO of Northwood [[Space]].
 
 ---
 
@@ -14,7 +14,7 @@ aliases: []
 | Born | December 18, 1992 |
 | Current role | CEO, [[Northwood Space]] |
 | Education | MIT (MS, PhD candidate) + Harvard Law (JD) |
-| Previous | Disney Channel actress/singer |
+| Previous | [[Disney]] Channel actress/singer |
 
 ---
 
@@ -22,21 +22,21 @@ aliases: []
 
 | Phase | Years | Details |
 |-------|-------|---------|
-| **Disney** | 2007-2015 | Good Luck Charlie, Wizards of Waverly Place |
+| **[[Disney]]** | 2007-2015 | Good Luck Charlie, Wizards of Waverly Place |
 | **Music** | 2011-2017 | Pop singer, Hollywood Records |
-| **MIT** | 2017-2020 | MS Media Arts & Sciences, PhD candidate |
-| **Harvard Law** | 2022-2024 | JD, Space Law Society co-president |
-| **Northwood Space** | 2022-present | Co-founder & CEO |
+| **MIT** | 2017-2020 | MS [[Media]] Arts & Sciences, PhD candidate |
+| **Harvard Law** | 2022-2024 | JD, [[Space]] Law Society co-president |
+| **Northwood [[Space]]** | 2022-present | Co-founder & CEO |
 
 ---
 
 ## Education
 
-### MIT Media Lab
+### MIT [[Media]] Lab
 
 | Degree | Field | Year |
 |--------|-------|------|
-| MS | Media Arts & Sciences | 2020 |
+| MS | [[Media]] Arts & Sciences | 2020 |
 | PhD | Center for Constructive Communications | Paused |
 
 **Thesis:** "OurStory: Dispute System Design Technology for Stakeholder Inclusion"
@@ -50,7 +50,7 @@ aliases: []
 | JD | May 2024 |
 
 **Activities:**
-- Co-president, Harvard Space Law Society (2022-2023)
+- Co-president, Harvard [[Space]] Law Society (2022-2023)
 - FCC work on satellite licensing frameworks
 - Regulatory policy for commercial space
 
@@ -66,7 +66,7 @@ aliases: []
 
 ---
 
-## Northwood Space
+## Northwood [[Space]]
 
 | Metric | Value |
 |--------|-------|
@@ -76,8 +76,8 @@ aliases: []
 | Focus | Satellite ground stations |
 
 **Co-founders:**
-- Griffin Cleverly (husband) — CTO, ex-Lockheed Martin
-- Shaurya Luthra — ex-Lockheed Martin
+- Griffin Cleverly (husband) — CTO, ex-[[Lockheed Martin]]
+- Shaurya Luthra — ex-[[Lockheed Martin]]
 
 See [[Northwood Space]] for full company details.
 

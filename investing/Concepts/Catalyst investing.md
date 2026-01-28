@@ -29,7 +29,7 @@
 
 ## Earnings catalysts
 
-| Type | Signal |
+| Type | [[Signal]] |
 |------|--------|
 | Beat + raise | Strong momentum |
 | Beat + guide down | One-time strength |
@@ -88,7 +88,7 @@
 
 | Risk | Mitigation |
 |------|------------|
-| Catalyst fails | Position sizing |
+| Catalyst fails | [[Position sizing]] |
 | Delayed timing | Patience, cost of carry |
 | Priced in already | Variant perception needed |
 | Thesis wrong | Stop loss |

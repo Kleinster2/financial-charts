@@ -1,18 +1,18 @@
 #actor #datacenter #uk #private #crypto
 
-**Nscale** — UK AI infrastructure company. $23B Microsoft deal. Spun out of crypto operations.
+**Nscale** — [[UK]] AI infrastructure company. $23B Microsoft deal. Spun out of crypto operations.
 
 ---
 
 ## Why Nscale matters
 
-Crypto-to-AI pivot success story with hyperscaler validation:
+[[Crypto]]-to-AI pivot success story with hyperscaler validation:
 
 | Metric | Value |
 |--------|-------|
 | Anchor deal | **$23B Microsoft** (Jan 2026) |
-| Origin | Crypto mining pivot |
-| HQ | UK |
+| Origin | [[Crypto]] mining pivot |
+| HQ | [[UK]] |
 | Status | Private |
 
 ---
@@ -30,12 +30,12 @@ Crypto-to-AI pivot success story with hyperscaler validation:
 
 **Significance:**
 - Validates crypto-to-AI pivot model
-- UK getting major AI infrastructure investment
+- [[UK]] getting major AI infrastructure investment
 - Microsoft outsourcing to reduce balance sheet exposure
 
 ---
 
-## Crypto origins
+## [[Crypto]] origins
 
 **Pivot model:**
 - Began as crypto mining operation
@@ -50,7 +50,7 @@ Crypto-to-AI pivot success story with hyperscaler validation:
 | Peer | Deal | Status |
 |------|------|--------|
 | [[IREN]] | Microsoft $9.7B | Winner |
-| [[Hut 8]] | Google $7B | Winner |
+| [[Hut 8]] | [[Google]] $7B | Winner |
 | **Nscale** | **Microsoft $23B** | **Winner** |
 | [[Bitdeer]] | None (570MW planned) | Pivoting |
 
@@ -61,8 +61,8 @@ Nscale has largest announced deal among crypto pivots.
 ## Investment relevance
 
 **What Nscale shows:**
-- Crypto-to-AI pivot can work at massive scale
-- UK competitive for AI infrastructure (despite power costs)
+- [[Crypto]]-to-AI pivot can work at massive scale
+- [[UK]] competitive for AI infrastructure (despite power costs)
 - Microsoft actively outsourcing AI compute
 - Hyperscaler validation = key differentiator
 

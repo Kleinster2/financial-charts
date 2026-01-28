@@ -3,17 +3,17 @@ aliases: [Mentor Graphics]
 ---
 #actor #semiconductor #eda #germany #subsidiary
 
-**Siemens EDA** — #3 EDA player (formerly Mentor Graphics). Part of Siemens. Automotive/industrial focus.
+**[[Siemens]] EDA** — #3 EDA player (formerly Mentor Graphics). Part of [[Siemens]]. [[Automotive]]/industrial focus.
 
 ---
 
-## Why Siemens EDA matters
+## Why [[Siemens]] EDA matters
 
 Third player in EDA, different angle:
 
 | Metric | Value |
 |--------|-------|
-| Parent | Siemens AG (SIEGY) |
+| Parent | [[Siemens]] AG (SIEGY) |
 | Acquired | 2017 for $4.5B |
 | Focus | PCB, automotive, industrial |
 | Position | #3 EDA |
@@ -22,11 +22,11 @@ Third player in EDA, different angle:
 
 ## History
 
-**Mentor Graphics → Siemens:**
+**Mentor Graphics → [[Siemens]]:**
 - Founded 1981
 - Long EDA history
-- Siemens acquired 2017
-- Rebranded Siemens EDA 2021
+- [[Siemens]] acquired 2017
+- Rebranded [[Siemens]] EDA 2021
 
 ---
 
@@ -36,7 +36,7 @@ Third player in EDA, different angle:
 |----------|----------|
 | PCB | PADS, Xpedition |
 | IC design | Calibre (DRC/LVS) |
-| Automotive | Capital, Tessent |
+| [[Automotive]] | Capital, Tessent |
 | Simulation | ModelSim, Questa |
 
 ---
@@ -49,13 +49,13 @@ Third player in EDA, different angle:
 - Layout vs schematic (LVS)
 - Used by all foundries
 
-Calibre is the one area where Siemens leads.
+Calibre is the one area where [[Siemens]] leads.
 
 ---
 
-## Automotive focus
+## [[Automotive]] focus
 
-**Siemens synergy:**
+**[[Siemens]] synergy:**
 - Electrical systems design
 - Wire harness
 - ADAS verification
@@ -68,20 +68,20 @@ Different market than Synopsys/Cadence.
 ## Investment implication
 
 **Not directly investable:**
-- Part of Siemens conglomerate
+- Part of [[Siemens]] conglomerate
 - Industrial + EDA exposure
-- Automotive semiconductor angle
+- [[Automotive]] semiconductor angle
 - Less pure-play than SNPS/CDNS
 
 ---
 
 ## Competitive position
 
-| vs Synopsys/Cadence | Siemens |
+| vs Synopsys/Cadence | [[Siemens]] |
 |---------------------|---------|
 | Advanced node IC | Weaker |
 | PCB design | Competitive |
-| Automotive | Stronger |
+| [[Automotive]] | Stronger |
 | Calibre | Industry standard |
 
 Niche player with specific strengths.
@@ -92,7 +92,7 @@ Niche player with specific strengths.
 
 | Metric | Value |
 |--------|-------|
-| Parent | Siemens AG |
+| Parent | [[Siemens]] AG |
 | Acquired | 2017 ($4.5B) |
 | Focus | PCB, automotive EDA |
 | Strength | Calibre, automotive |

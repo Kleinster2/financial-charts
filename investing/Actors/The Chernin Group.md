@@ -38,7 +38,7 @@ aliases: [TCG, Chernin Group, Chernin Entertainment]
 | Company | Status | Notes |
 |---------|--------|-------|
 | **Barstool Sports** | Sold to Dave Portnoy | Originally majority owner |
-| **Crunchyroll** | Sold to Sony | Anime streaming ($1.2B exit) |
+| **Crunchyroll** | Sold to [[Sony]] | Anime streaming ($1.2B exit) |
 | **Headspace** | Investor | Meditation app |
 | **Scopely** | Investor | Mobile gaming |
 | **The Action Network** | Owner | Sports betting media |
@@ -58,10 +58,10 @@ aliases: [TCG, Chernin Group, Chernin Entertainment]
 | Project | Type |
 |---------|------|
 | Planet of the Apes (reboot) | Film franchise |
-| Ford v Ferrari | Film |
+| [[Ford]] v [[Ferrari]] | Film |
 | Hidden Figures | Film |
 | New Girl | TV series |
-| See | TV series (Apple) |
+| See | TV series ([[Apple]]) |
 
 **Dual model:** Investment firm + production company.
 
@@ -71,7 +71,7 @@ aliases: [TCG, Chernin Group, Chernin Entertainment]
 
 | Company | Exit | Return |
 |---------|------|--------|
-| **Crunchyroll** | Sold to Sony (2021) | $1.2B |
+| **Crunchyroll** | Sold to [[Sony]] (2021) | $1.2B |
 | **Barstool Sports** | Sold back to Portnoy | Profitable |
 | **Pandora** | Early investor | Strong return |
 

@@ -3,7 +3,7 @@ aliases: [Gulf Cooperation Council, Gulf States]
 ---
 #actor #bloc #middleeast #energy #swf
 
-**GCC** — Gulf Cooperation Council. Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman. Oil wealth, sovereign wealth funds, diversification plays.
+**GCC** — Gulf Cooperation Council. Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman. [[Oil]] wealth, sovereign wealth funds, diversification plays.
 
 ---
 
@@ -16,7 +16,7 @@ aliases: [Gulf Cooperation Council, Gulf States]
 | GDP | ~$2T |
 | Founded | 1981 |
 | HQ | Riyadh |
-| Oil reserves | 30%+ of global |
+| [[Oil]] reserves | 30%+ of global |
 
 ---
 
@@ -26,7 +26,7 @@ aliases: [Gulf Cooperation Council, Gulf States]
 |---------|------------|-----|--------------|
 | **Saudi Arabia** | 36M | $1.1T | Largest, Vision 2030, Aramco |
 | **UAE** | 10M | $500B | Dubai hub, diversified |
-| **Qatar** | 3M | $220B | LNG leader, World Cup |
+| **Qatar** | [[3M]] | $220B | [[LNG]] leader, World Cup |
 | **Kuwait** | 4.5M | $180B | KIA sovereign fund |
 | **Oman** | 5M | $110B | Less oil, more diversified |
 | **Bahrain** | 1.5M | $44B | Financial hub, refining |
@@ -37,12 +37,12 @@ aliases: [Gulf Cooperation Council, Gulf States]
 
 | Fund | Country | AUM | Focus |
 |------|---------|-----|-------|
-| **ADIA** | UAE (Abu Dhabi) | $990B | Diversified |
+| **[[ADIA]]** | UAE (Abu Dhabi) | $990B | Diversified |
 | **KIA** | Kuwait | $800B | Oldest SWF |
 | **PIF** | Saudi Arabia | $700B+ | Vision 2030 vehicle |
 | **QIA** | Qatar | $500B | Global investments |
-| **Mubadala** | UAE | $280B | Tech, aerospace |
-| **ADQ** | UAE | $200B | Strategic sectors |
+| **[[Mubadala]]** | UAE | $280B | Tech, aerospace |
+| **[[ADQ]]** | UAE | $200B | Strategic sectors |
 
 **Combined:** $3.5T+ in sovereign wealth.
 
@@ -50,10 +50,10 @@ aliases: [Gulf Cooperation Council, Gulf States]
 
 | Fund | Notable holdings |
 |------|------------------|
-| PIF | Lucid, SoftBank Vision Fund, sports |
-| Mubadala | AMD (GlobalFoundries), tech |
-| QIA | Glencore, Barclays, Volkswagen |
-| ADIA | Global diversified |
+| PIF | [[Lucid]], [[SoftBank Vision Fund]], sports |
+| [[Mubadala]] | [[AMD]] ([[GlobalFoundries]]), tech |
+| QIA | Glencore, [[Barclays]], [[Volkswagen]] |
+| [[ADIA]] | Global diversified |
 
 ---
 
@@ -78,8 +78,8 @@ aliases: [Gulf Cooperation Council, Gulf States]
 
 | Area | Status |
 |------|--------|
-| Defense | Peninsula Shield Force |
-| Trade | Customs union |
+| [[Defense]] | Peninsula Shield Force |
+| [[Trade]] | Customs union |
 | Monetary | No common currency |
 | VAT | Coordinated (5%) |
 
@@ -89,9 +89,9 @@ aliases: [Gulf Cooperation Council, Gulf States]
 
 | Resource | GCC share |
 |----------|-----------|
-| Oil reserves | 30%+ global |
-| Oil production | 20%+ global |
-| LNG (Qatar) | 20%+ global |
+| [[Oil]] reserves | 30%+ global |
+| [[Oil]] production | 20%+ global |
+| [[LNG]] (Qatar) | 20%+ global |
 | Spare capacity | Saudi = swing producer |
 
 ### Key energy companies
@@ -99,8 +99,8 @@ aliases: [Gulf Cooperation Council, Gulf States]
 | Company | Country | Type |
 |---------|---------|------|
 | **Saudi Aramco** | Saudi | World's largest oil company |
-| **ADNOC** | UAE | National oil company |
-| **QatarEnergy** | Qatar | LNG giant |
+| **[[ADNOC]]** | UAE | National oil company |
+| **QatarEnergy** | Qatar | [[LNG]] giant |
 | **KPC** | Kuwait | National oil company |
 | **PDO** | Oman | National oil company |
 
@@ -113,7 +113,7 @@ aliases: [Gulf Cooperation Council, Gulf States]
 | Goal | Status |
 |------|--------|
 | Non-oil GDP | Growing share |
-| Tourism | NEOM, Red Sea, entertainment |
+| Tourism | [[NEOM]], Red Sea, entertainment |
 | Tech | AI, gaming investments |
 | Sports | Newcastle, golf, F1 |
 
@@ -121,7 +121,7 @@ aliases: [Gulf Cooperation Council, Gulf States]
 
 | Emirate | Focus |
 |---------|-------|
-| Dubai | Trade, tourism, finance |
+| Dubai | [[Trade]], tourism, finance |
 | Abu Dhabi | Energy, sovereign wealth |
 
 UAE = most diversified GCC economy.
@@ -134,8 +134,8 @@ UAE = most diversified GCC economy.
 
 | Theme | Expression |
 |-------|------------|
-| Oil/gas | [[Saudi Aramco]], ADNOC |
-| SWF investments | Track PIF, Mubadala holdings |
+| [[Oil]]/gas | [[Saudi Aramco]], [[ADNOC]] |
+| SWF investments | Track PIF, [[Mubadala]] holdings |
 | Diversification | Saudi tourism, entertainment |
 | Finance | UAE banks, Bahrain hub |
 
@@ -143,8 +143,8 @@ UAE = most diversified GCC economy.
 
 | Sector | Beneficiaries |
 |--------|---------------|
-| Luxury | LVMH, Hermès (GCC consumers) |
-| Defense | BAE, Lockheed (arms sales) |
+| [[Luxury]] | [[LVMH]], [[Hermès]] (GCC consumers) |
+| [[Defense]] | BAE, Lockheed (arms sales) |
 | Construction | Contractors, materials |
 | Tech | SWF portfolio companies |
 
@@ -157,7 +157,7 @@ UAE = most diversified GCC economy.
 | QNB | Qatar | Banking |
 | Emaar | UAE | Real estate |
 | SABIC | Saudi | Chemicals |
-| Etisalat | UAE | Telecom |
+| Etisalat | UAE | [[Telecom]] |
 
 ---
 
@@ -168,14 +168,14 @@ UAE = most diversified GCC economy.
 | Event | Detail |
 |-------|--------|
 | Blockade | Saudi, UAE, Bahrain, Egypt |
-| Reason | Al Jazeera, Iran ties, Muslim Brotherhood |
+| Reason | Al Jazeera, [[Iran]] ties, Muslim Brotherhood |
 | Resolution | Jan 2021, normalized |
 
-### Iran tensions
+### [[Iran]] tensions
 
 | Issue | GCC position |
 |-------|--------------|
-| Regional rivalry | Saudi-Iran competition |
+| Regional rivalry | Saudi-[[Iran]] competition |
 | Nuclear deal | Skeptical |
 | Yemen | Saudi-led intervention |
 

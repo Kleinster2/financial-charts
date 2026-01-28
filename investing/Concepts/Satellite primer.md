@@ -38,8 +38,8 @@
 
 | Type | Orbit | Examples |
 |------|-------|----------|
-| Broadband internet | LEO | **Starlink**, OneWeb, Kuiper |
-| Direct-to-cell | LEO | Starlink, AST SpaceMobile |
+| Broadband internet | LEO | **[[Starlink]]**, OneWeb, Kuiper |
+| Direct-to-cell | LEO | [[Starlink]], AST SpaceMobile |
 | Broadcast (TV) | GEO | DirecTV, Dish |
 | Backhaul | GEO/MEO | SES, Intelsat |
 
@@ -57,9 +57,9 @@
 | System | Operator | Orbit |
 |--------|----------|-------|
 | **GPS** | US | MEO |
-| **Galileo** | EU | MEO |
-| **GLONASS** | Russia | MEO |
-| **BeiDou** | China | MEO + GEO |
+| **Galileo** | [[EU]] | MEO |
+| **GLONASS** | [[Russia]] | MEO |
+| **BeiDou** | [[China]] | MEO + GEO |
 
 ---
 
@@ -78,7 +78,7 @@ Costs:
 - Spectrum fees
 ```
 
-### Starlink economics (estimated)
+### [[Starlink]] economics (estimated)
 
 | Metric | Value |
 |--------|-------|
@@ -101,7 +101,7 @@ Costs:
 | Launch cost | $100-200M |
 | Lifespan | 15+ years |
 | Annual depreciation | $20-40M |
-| Revenue per transponder | $1-3M/year |
+| Revenue per transponder | $1-[[3M]]/year |
 
 **GEO challenge:** High upfront cost, long payback, technology risk over 15-year life.
 
@@ -129,8 +129,8 @@ Costs:
 | **Rocket Lab** | Electron, Neutron | Partial | Medium (small sats) |
 | **ULA** | Vulcan | Partial | Higher |
 | **Arianespace** | Ariane 6 | No | Higher |
-| **China** | Long March | Some | Medium |
-| **Blue Origin** | New Glenn | Yes (planned) | TBD |
+| **[[China]]** | Long March | Some | Medium |
+| **[[Blue Origin]]** | New Glenn | Yes (planned) | TBD |
 
 ### Starship impact
 
@@ -168,7 +168,7 @@ International Telecommunication Union allocates orbital slots and spectrum.
 - **Milestone requirements:** Must deploy within timeframe or lose rights
 - **Interference coordination:** Must coordinate with neighbors
 
-**Starlink advantage:** Filed early for massive spectrum allocation. Competitors struggle to match.
+**[[Starlink]] advantage:** Filed early for massive spectrum allocation. Competitors struggle to match.
 
 ---
 
@@ -192,7 +192,7 @@ Laser links between satellites. Reduce ground station dependency.
 | Coverage | Serve areas without ground stations (oceans, poles) |
 | Resilience | Less ground infrastructure needed |
 
-**Starlink ISLs:** Deploying laser links across constellation. Competitive advantage.
+**[[Starlink]] ISLs:** Deploying laser links across constellation. Competitive advantage.
 
 ---
 
@@ -205,7 +205,7 @@ Laser links between satellites. Reduce ground station dependency.
 | Build time | 2-3 years |
 | Cost | $200M-500M (GEO comms) |
 | Customization | High |
-| Manufacturers | Airbus, Boeing, Lockheed, Northrop |
+| Manufacturers | [[Airbus]], [[Boeing]], Lockheed, Northrop |
 
 ### New space approach
 
@@ -229,13 +229,13 @@ Laser links between satellites. Reduce ground station dependency.
 | **[[SpaceX]]** | Dominant (~90% of commercial mass to orbit) |
 | **[[Rocket Lab]]** | #2, growing with Neutron |
 | **ULA** | Government-focused |
-| **Blue Origin** | New Glenn in development |
+| **[[Blue Origin]]** | New Glenn in development |
 
 ### Broadband constellations
 
 | Constellation | Operator | Satellites | Status |
 |---------------|----------|------------|--------|
-| **Starlink** | SpaceX | ~6,000+ deployed | Operating, profitable |
+| **[[Starlink]]** | SpaceX | ~6,000+ deployed | Operating, profitable |
 | **Kuiper** | Amazon | 3,236 planned | Launching 2025 |
 | **OneWeb** | Eutelsat | ~600 | Operating |
 | **Lightspeed** | Telesat | 298 planned | In development |
@@ -263,7 +263,7 @@ Sell transponder capacity or bandwidth to customers. Wholesale model.
 | Fill rate | % of capacity sold |
 | ARPU | Revenue per transponder |
 
-### Consumer broadband (Starlink)
+### [[Consumer]] broadband ([[Starlink]])
 
 Sell direct to consumers and businesses.
 
@@ -306,7 +306,7 @@ Sell imagery or analytics, not raw capacity.
 |------|-------------|
 | **Launch failure** | Can lose multiple satellites |
 | **Technology obsolescence** | 15-year GEO sats vs fast LEO iteration |
-| **Competition** | Starlink dominance |
+| **Competition** | [[Starlink]] dominance |
 | **Space debris** | Kessler syndrome risk |
 | **Regulatory** | Spectrum, orbital slots |
 | **Capital intensity** | Billions before breakeven |
@@ -316,7 +316,7 @@ Sell imagery or analytics, not raw capacity.
 ## Related
 
 - [[Space]] — sector overview
-- [[SpaceX]] — launch and Starlink leader
+- [[SpaceX]] — launch and [[Starlink]] leader
 - [[Rocket Lab]] — small launch pioneer
 - [[Planet Labs]] — earth observation
 - [[Amazon]] — Project Kuiper

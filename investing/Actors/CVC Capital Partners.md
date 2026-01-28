@@ -23,11 +23,11 @@ aliases: [CVC]
 
 | Company | Sector | Status |
 |---------|--------|--------|
-| **Formula 1** | Sports | Sold to Liberty Media |
+| **Formula 1** | Sports | Sold to Liberty [[Media]] |
 | **MotoGP** | Sports | Private |
 | **La Liga** | Sports | Minority stake |
 | **Premiership Rugby** | Sports | Private |
-| **Breitling** | Luxury | Private |
+| **Breitling** | [[Luxury]] | Private |
 | **Petco** | Retail | Public (WOOF) |
 
 ---
@@ -49,8 +49,8 @@ CVC = dominant sports PE investor.
 
 | Trait | Description |
 |-------|-------------|
-| **European roots** | Strong in Europe |
-| **Global reach** | Americas, Asia |
+| **European roots** | Strong in [[Europe]] |
+| **Global reach** | Americas, [[Asia]] |
 | **Sports/media** | Differentiated focus |
 | **Long-term** | Patient capital |
 

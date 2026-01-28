@@ -13,7 +13,7 @@ Contracts whose value derives from an underlying asset.
 | Type | Underlying | Use |
 |------|------------|-----|
 | **Options** | Stocks, ETFs, indices | Hedging, speculation, income |
-| **Futures** | Commodities, indices, rates | Hedging, speculation |
+| **Futures** | [[Commodities]], indices, rates | Hedging, speculation |
 | **Swaps** | Interest rates, currencies | Risk management |
 | **Forwards** | Currencies, commodities | Custom hedging |
 
@@ -169,7 +169,7 @@ Lower IV → Lower option prices
 
 ### VIX
 
-CBOE Volatility Index — implied vol of S&P 500 options.
+[[CBOE]] Volatility Index — implied vol of S&P 500 options.
 
 | VIX level | Market regime |
 |-----------|---------------|

@@ -12,7 +12,7 @@ aliases: [IG bonds, investment grade, LQD, corporate bonds, IG credit]
 | Metric | Value |
 |--------|-------|
 | LQD YTD | ~+4% |
-| IG spread | ~90bp over Treasuries |
+| IG spread | ~90bp over [[Treasuries]] |
 | Avg yield | ~5.5% |
 | Duration | ~8.5 years |
 
@@ -23,7 +23,7 @@ aliases: [IG bonds, investment grade, LQD, corporate bonds, IG credit]
 | Rating agency | IG threshold |
 |---------------|--------------|
 | S&P/Fitch | BBB- and above |
-| Moody's | Baa3 and above |
+| [[Moody's]] | Baa3 and above |
 
 Below these thresholds = high yield ("junk").
 
@@ -40,9 +40,9 @@ Below these thresholds = high yield ("junk").
 
 ---
 
-## IG vs High Yield vs Treasuries
+## IG vs High Yield vs [[Treasuries]]
 
-| Characteristic | Treasuries | IG Corporate | High Yield |
+| Characteristic | [[Treasuries]] | IG Corporate | High Yield |
 |----------------|------------|--------------|------------|
 | Default risk | None | Very low | Moderate |
 | Spread | 0 | 80-150bp | 300-500bp |
@@ -57,7 +57,7 @@ Below these thresholds = high yield ("junk").
 Companies downgraded from IG to HY:
 - Forced selling by IG-only mandates
 - Often creates value opportunity
-- Recent examples: Ford (2020), many energy names
+- Recent examples: [[Ford]] (2020), many energy names
 
 ---
 

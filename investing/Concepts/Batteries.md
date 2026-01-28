@@ -13,7 +13,7 @@ Hub for battery technology, manufacturers, and energy storage.
 | **EV batteries** | [[CATL]], [[BYD]], [[LG Energy Solution]], [[Panasonic]], [[Samsung SDI]], [[SK On]] | Scale race, cost decline |
 | **Grid storage** | [[Tesla Energy]], [[Fluence]], [[BYD]] | Utility demand surge |
 | **Long-duration** | [[Form Energy]] | Iron-air emerging |
-| **Consumer electronics** | [[Samsung SDI]], [[LG Energy Solution]], [[Panasonic]] | Mature market |
+| **[[Consumer]] electronics** | [[Samsung SDI]], [[LG Energy Solution]], [[Panasonic]] | Mature market |
 
 ---
 
@@ -25,7 +25,7 @@ Hub for battery technology, manufacturers, and energy storage.
 
 See [[LFP batteries]] for details including [[BYD]] Blade Battery.
 | **NMC** (Nickel Manganese Cobalt) | Long range EV | High energy density | Expensive, cobalt issues |
-| **NCA** (Nickel Cobalt Aluminum) | Tesla, premium EV | Highest density | Cost, thermal management |
+| **NCA** (Nickel Cobalt Aluminum) | [[Tesla]], premium EV | Highest density | Cost, thermal management |
 | **Solid-state** | Next-gen (2027+?) | Safety, density | Not yet commercialized |
 | **Iron-air** | Long-duration storage | 100+ hour duration | Low power density |
 | **Sodium-ion** | Low-cost EV, storage | No lithium needed | Lower density |
@@ -36,15 +36,15 @@ See [[LFP batteries]] for details including [[BYD]] Blade Battery.
 
 | Rank | Company | Market share | HQ |
 |------|---------|--------------|-----|
-| 1 | [[CATL]] | ~37% | China |
-| 2 | [[BYD]] | ~16% | China |
+| 1 | [[CATL]] | ~37% | [[China]] |
+| 2 | [[BYD]] | ~16% | [[China]] |
 | 3 | [[LG Energy Solution]] | ~13% | Korea |
-| 4 | [[Panasonic]] | ~6% | Japan |
+| 4 | [[Panasonic]] | ~6% | [[Japan]] |
 | 5 | [[SK On]] | ~5% | Korea |
 | 6 | [[Samsung SDI]] | ~5% | Korea |
-| 7 | [[AESC]] | ~3% | Japan/China |
+| 7 | [[AESC]] | ~3% | [[Japan]]/[[China]] |
 
-China dominates with ~65% global share.
+[[China]] dominates with ~65% global share.
 
 ---
 
@@ -67,11 +67,11 @@ See [[Battery supply chain]] for detailed breakdown.
 
 | Stage | Key players |
 |-------|-------------|
-| **Mining** | [[Albemarle]], SQM, Ganfeng, [[Chile]], Australia |
-| **Processing** | China dominance (~80% refining) |
+| **Mining** | [[Albemarle]], [[SQM]], Ganfeng, [[Chile]], [[Australia]] |
+| **Processing** | [[China]] dominance (~80% refining) |
 | **Cell manufacturing** | [[CATL]], [[BYD]], [[LG Energy Solution]] |
 | **Pack assembly** | OEMs, battery makers |
-| **Recycling** | Redwood Materials, Li-Cycle |
+| **Recycling** | [[Redwood Materials]], Li-Cycle |
 
 ---
 
@@ -90,11 +90,11 @@ See [[Battery supply chain]] for detailed breakdown.
 
 | Risk | Impact |
 |------|--------|
-| **China dominance** | Supply chain concentration |
+| **[[China]] dominance** | Supply chain concentration |
 | **Lithium price volatility** | Margin swings |
 | **Technology shifts** | Solid-state disruption |
 | **Overcapacity** | Price pressure |
-| **Trade restrictions** | IRA requirements, tariffs |
+| **[[Trade]] restrictions** | IRA requirements, tariffs |
 
 ---
 

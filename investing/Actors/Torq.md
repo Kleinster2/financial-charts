@@ -39,7 +39,7 @@ aliases: []
 | Platform | Autonomous security operations |
 | AI agents | Automate alert triage, remediation |
 | Use case | SOC automation, reduce analyst backlog |
-| Pivot | GenAI focus post-ChatGPT (late 2022) |
+| Pivot | GenAI focus post-[[ChatGPT]] (late 2022) |
 
 **CEO quote:** "You can automate and remediate everything."
 
@@ -59,9 +59,9 @@ aliases: []
 
 | Competitor | Type |
 |------------|------|
-| Palo Alto Networks | Platform + AI |
-| CrowdStrike | EDR + AI |
-| SentinelOne | Autonomous security |
+| [[Palo Alto Networks]] | Platform + AI |
+| [[CrowdStrike]] | EDR + AI |
+| [[SentinelOne]] | Autonomous security |
 | Tines | Security automation |
 | Swimlane | SOAR |
 

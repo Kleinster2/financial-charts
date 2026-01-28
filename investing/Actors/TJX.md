@@ -5,7 +5,7 @@ aliases: [TJX Companies, TJ Maxx, Marshalls, HomeGoods]
 
 # TJX
 
-**World's largest off-price retailer** — TJ Maxx, Marshalls, HomeGoods, HomeSense, Winners (Canada), TK Maxx (Europe/Australia). $56.4B revenue (FY25, +4%), $4.9B net income, 11.6% pretax margin. 5,000+ stores across 9 countries. The structural winner of retail: gains share as department stores decline, consumers seek value. CEO Ernie Herrman. ~$130B market cap — larger than Target.
+**World's largest off-price retailer** — TJ Maxx, Marshalls, HomeGoods, HomeSense, Winners ([[Canada]]), TK Maxx ([[Europe]]/[[Australia]]). $56.4B revenue (FY25, +4%), $4.9B net income, 11.6% pretax margin. 5,000+ stores across 9 countries. The structural winner of retail: gains share as department stores decline, consumers seek value. CEO [[Ernie]] Herrman. ~$130B market cap — larger than [[Target]].
 
 ---
 
@@ -19,7 +19,7 @@ aliases: [TJX Companies, TJ Maxx, Marshalls, HomeGoods]
 | Net income (FY25) | $4.9B |
 | EPS (FY25) | $4.26 (+10% YoY) |
 | Pretax margin | 11.6% |
-| CEO | Ernie Herrman |
+| CEO | [[Ernie]] Herrman |
 | Stores | 5,000+ |
 | HQ | Framingham, Massachusetts |
 
@@ -45,11 +45,11 @@ Consistent comps, expanding margins, steady EPS growth.
 |--------|--------|-----------|----------|
 | **TJ Maxx** | 1,300+ | US | Apparel, home |
 | **Marshalls** | 1,200+ | US | Apparel, home |
-| **HomeGoods** | 900+ | US | Home furnishings |
-| **Homesense** | 50+ | US | Home (larger format) |
-| **Winners** | 300+ | Canada | Apparel, home |
-| **TK Maxx** | 600+ | Europe, Australia | Apparel, home |
-| **Sierra** | 90+ | US | Outdoor/athletic |
+| **HomeGoods** | 900+ | US | [[Home]] furnishings |
+| **Homesense** | 50+ | US | [[Home]] (larger format) |
+| **Winners** | 300+ | [[Canada]] | Apparel, home |
+| **TK Maxx** | 600+ | [[Europe]], [[Australia]] | Apparel, home |
+| **[[Sierra]]** | 90+ | US | Outdoor/athletic |
 
 **Marmaxx (TJ Maxx + Marshalls):** 2,563 stores combined, largest off-price retailer in US.
 
@@ -76,7 +76,7 @@ Consistent comps, expanding margins, steady EPS growth.
 | Revenue | $56B | $21B | $10B |
 | Stores | 5,000+ | 2,100+ | 1,000+ |
 | Margin | ~12% pretax | ~12% | ~8% |
-| International | Yes (Europe, Australia) | No | No |
+| International | Yes ([[Europe]], [[Australia]]) | No | No |
 
 TJX is 2.5x larger than #2 (Ross). Scale = buying power advantage.
 
@@ -86,15 +86,15 @@ TJX is 2.5x larger than #2 (Ross). Scale = buying power advantage.
 
 **Bull:**
 - Structural winner: department store decline = more inventory supply
-- Consumer value-seeking secular trend
+- [[Consumer]] value-seeking secular trend
 - 4% comps, 10% EPS growth — consistent compounder
-- International expansion (Europe underpenetrated)
+- International expansion ([[Europe]] underpenetrated)
 - 5,000th store milestone — room for more
 - $4.1B returned to shareholders (FY25)
 
 **Bear:**
 - ~30x PE — priced for perfection
-- Shein/Temu competition for value-seeking consumers
+- [[Shein]]/Temu competition for value-seeking consumers
 - Inventory supply risk if brands cut production
 - HomeGoods slower (home category softness)
 - 4% comps may be peak (tough comps ahead)

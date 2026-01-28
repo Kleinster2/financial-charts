@@ -35,7 +35,7 @@
 
 | Segment | Examples |
 |---------|----------|
-| US Government | DOD, DHS, state/local |
+| [[US Government]] | DOD, DHS, state/local |
 | Public safety | Police, fire departments |
 | Energy/utilities | Inspection |
 | Construction | Site monitoring |
@@ -52,7 +52,7 @@
 - US champion in drone space
 - Beneficiary of DJI restrictions
 - Potential IPO candidate
-- US-China decoupling play
+- US-[[China]] decoupling play
 
 **Watch for:** IPO, government contract wins, DJI ban legislation
 
@@ -60,10 +60,10 @@
 
 ## Investors
 
-- Andreessen Horowitz (a16z)
+- [[Andreessen Horowitz]] ([[a16z]])
 - Linse Capital
-- Next47 (Siemens)
-- IVP
+- Next47 ([[Siemens]])
+- [[IVP]]
 
 ---
 

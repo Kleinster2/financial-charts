@@ -9,7 +9,7 @@ aliases: [JSR, JSR Corp]
 
 ## Why JSR matters
 
-Photoresists are the light-sensitive chemicals that transfer circuit patterns onto silicon wafers. JSR dominates:
+[[Photoresists]] are the light-sensitive chemicals that transfer circuit patterns onto silicon wafers. JSR dominates:
 
 | Metric | Value |
 |--------|-------|
@@ -17,13 +17,13 @@ Photoresists are the light-sensitive chemicals that transfer circuit patterns on
 | EUV photoresist share | ~30% (with TOK, Shin-Etsu = 90%) |
 | Acquisition price | ¥909B ($6.4B) |
 | Delisted | June 25, 2024 (TSE) |
-| Acquirer | Japan Investment Corporation (JIC) |
+| Acquirer | [[Japan]] Investment Corporation (JIC) |
 
 ---
 
 ## Strategic importance
 
-Japan controls ~90% of advanced EUV photoresists through three companies:
+[[Japan]] controls ~90% of advanced EUV photoresists through three companies:
 - **JSR** (~27-30%)
 - [[Tokyo Ohka Kogyo]] (~25%)
 - [[Shin-Etsu]] (~15-20%)
@@ -40,7 +40,7 @@ This is a critical chokepoint — no EUV photoresist, no leading-edge chips. The
 - Counter foreign acquisition interest
 
 **The real story:**
-- EUV photoresist is a Japan monopoly worth protecting
+- EUV photoresist is a [[Japan]] monopoly worth protecting
 - Public markets undervalued strategic assets
 - Government wanted control over critical material supply
 
@@ -105,14 +105,14 @@ This is a critical chokepoint — no EUV photoresist, no leading-edge chips. The
 - [[Shin-Etsu]] (4063.T) — wafers + photoresists
 - [[Sumitomo Chemical]] (4005.T) — expanding photoresist business
 
-**Thesis:** EUV photoresist demand grows with every leading-edge node. Japan's monopoly position is defensible.
+**Thesis:** EUV photoresist demand grows with every leading-edge node. [[Japan]]'s monopoly position is defensible.
 
 ---
 
 ## Key risks
 
 - **Technology risk:** Metal-oxide resists could disrupt current formulations
-- **China localization:** Chinese firms attempting domestic photoresist development
+- **[[China]] localization:** Chinese firms attempting domestic photoresist development
 - **Concentration risk:** Single-source dependency creates supply chain vulnerability
 
 ---

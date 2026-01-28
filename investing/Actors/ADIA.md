@@ -29,7 +29,7 @@ First Abu Dhabi fund established to prepare for life after oil. Never publicly d
 | Fund | Deals | Style |
 |------|-------|-------|
 | **ADIA** | 170+ | Biggest checks, fewest deals, India focus |
-| [[Mubadala]] | 330+ | Most active, US/Europe focused |
+| [[Mubadala]] | 330+ | Most active, US/[[Europe]] focused |
 | [[ADQ]] | 280+ | Local/regional, fastest-growing |
 
 **India focus:** ADIA accounts for lion's share of Abu Dhabi's India deals — strategic given UAE-India trade ties.
@@ -53,7 +53,7 @@ First Abu Dhabi fund established to prepare for life after oil. Never publicly d
 
 | Investment | Amount | Year |
 |------------|--------|------|
-| Telecom Italia | $24B deal | 2024 |
+| [[Telecom]] Italia | $24B deal | 2024 |
 | ThyssenKrupp | $19B deal | 2024 |
 | Reliance Retail | $1.5B | 2023 |
 | BlackRock | $14B (various) | Ongoing |
@@ -65,7 +65,7 @@ First Abu Dhabi fund established to prepare for life after oil. Never publicly d
 
 | Investment | Detail |
 |------------|--------|
-| SMIC IPO | Participated in $7.6B IPO (2020) |
+| [[SMIC]] IPO | Participated in $7.6B IPO (2020) |
 | Various | Co-invests with [[MGX]], [[Mubadala]] |
 
 Less aggressive in AI than Mubadala/MGX — focuses on broader diversification.
@@ -86,7 +86,7 @@ ADIA has long allocated to asset managers, hedge funds, and financial services �
 | Role | Name |
 |------|------|
 | Chairman | [[Sheikh Tahnoon bin Zayed Al Nahyan]] |
-| Managing Director | Sheikh Hamed bin Zayed Al Nahyan |
+| Managing Director | [[Sheikh Hamed bin Zayed Al Nahyan]] |
 
 Sheikh Tahnoon chairs both ADIA and [[ADQ]], controlling ~75% of Abu Dhabi's sovereign wealth.
 

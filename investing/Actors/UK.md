@@ -26,36 +26,36 @@ aliases: [United Kingdom, Britain, Great Britain]
 | Institution | Role |
 |-------------|------|
 | London | Global financial center (#2) |
-| HSBC | Largest UK bank (Asia focus) |
-| Barclays | Investment banking |
-| Lloyd's | Insurance market |
+| [[HSBC]] | Largest UK bank ([[Asia]] focus) |
+| [[Barclays]] | Investment banking |
+| Lloyd's | [[Insurance]] market |
 | LSE Group | Exchanges, data |
 
-**Post-Brexit:** Lost some EU passporting, but remains major center.
+**Post-Brexit:** Lost some [[EU]] passporting, but remains major center.
 
-### Semiconductors / Tech IP
+### [[Semiconductors]] / Tech IP
 
 | Company | Focus |
 |---------|-------|
 | [[Arm Holdings]] | CPU architecture (90%+ mobile) |
 | Imagination Tech | GPU IP |
-| Graphcore | AI accelerators |
+| [[Graphcore]] | AI accelerators |
 
 **Arm** is UK's tech crown jewel — ~$150B market cap.
 
-### Pharma / Life Sciences
+### Pharma / [[Life Sciences]]
 
 | Company | Focus |
 |---------|-------|
 | [[AstraZeneca]] | Oncology, vaccines |
 | GSK | Vaccines, specialty pharma |
-| Haleon | Consumer health (GSK spinoff) |
+| Haleon | [[Consumer]] health (GSK spinoff) |
 
 ### Defense
 
 | Company | Focus |
 |---------|-------|
-| BAE Systems | Full spectrum, US presence |
+| [[BAE Systems]] | Full spectrum, US presence |
 | Rolls-Royce | Jet engines, nuclear |
 | QinetiQ | R&D, cyber |
 
@@ -63,8 +63,8 @@ aliases: [United Kingdom, Britain, Great Britain]
 
 | Company | Focus |
 |---------|-------|
-| [[BP]] | Oil & gas major |
-| Shell | HQ moved to UK |
+| [[BP]] | [[Oil]] & gas major |
+| [[Shell]] | HQ moved to UK |
 | National Grid | Utilities |
 
 ---
@@ -73,13 +73,13 @@ aliases: [United Kingdom, Britain, Great Britain]
 
 | Factor | Status |
 |--------|--------|
-| Trade friction | Increased with EU |
+| [[Trade]] friction | Increased with [[EU]] |
 | Financial passporting | Partially lost |
 | Regulatory autonomy | Gained |
 | Immigration | Points-based system |
-| Tech/AI regulation | Lighter than EU |
+| Tech/[[AI regulation]] | Lighter than [[EU]] |
 
-**Opportunity:** Positioning as AI-friendly jurisdiction vs EU regulation.
+**Opportunity:** Positioning as AI-friendly jurisdiction vs [[EU]] regulation.
 
 ---
 
@@ -89,9 +89,9 @@ aliases: [United Kingdom, Britain, Great Britain]
 |-------|------------|
 | Tech IP | [[Arm Holdings]] |
 | Pharma | [[AstraZeneca]], GSK |
-| Defense | BAE Systems (US exposure) |
-| Energy transition | BP, Shell repositioning |
-| Finance | HSBC (Asia), LSE Group (data) |
+| Defense | [[BAE Systems]] (US exposure) |
+| Energy transition | BP, [[Shell]] repositioning |
+| Finance | [[HSBC]] ([[Asia]]), LSE Group (data) |
 
 ---
 
@@ -101,14 +101,14 @@ aliases: [United Kingdom, Britain, Great Britain]
 |---------|--------|--------|
 | [[Arm Holdings]] | ARM | Tech IP |
 | [[AstraZeneca]] | AZN | Pharma |
-| Shell | SHEL | Energy |
+| [[Shell]] | SHEL | Energy |
 | [[BP]] | BP | Energy |
-| HSBC | HSBA.L | Banking |
-| BAE Systems | BA.L | Defense |
-| Rolls-Royce | RR.L | Aerospace |
+| [[HSBC]] | HSBA.L | Banking |
+| [[BAE Systems]] | BA.L | Defense |
+| Rolls-Royce | RR.L | [[Aerospace]] |
 | GSK | GSK | Pharma |
-| Unilever | ULVR.L | Consumer |
-| Rio Tinto | RIO | Mining |
+| [[Unilever]] | ULVR.L | [[Consumer]] |
+| [[Rio Tinto]] | RIO | Mining |
 
 ---
 
@@ -117,9 +117,9 @@ aliases: [United Kingdom, Britain, Great Britain]
 | Challenge | Impact |
 |-----------|--------|
 | Brexit trade friction | Export headwinds |
-| Productivity | Chronic underperformance |
-| Housing | Affordability crisis |
-| NHS | Healthcare capacity strain |
+| [[Productivity]] | Chronic underperformance |
+| [[Housing]] | Affordability crisis |
+| NHS | [[Healthcare]] capacity strain |
 | Scotland | Independence debates |
 
 ---
@@ -130,8 +130,8 @@ aliases: [United Kingdom, Britain, Great Britain]
 - [[Arm Holdings]] — tech crown jewel
 - [[AstraZeneca]] — pharma champion
 - [[BP]] — energy major
-- [[Defense]] — BAE Systems exposure
-- [[UK post-Brexit FTAs]] — trade strategy (CPTPP, Australia, NZ)
+- [[Defense]] — [[BAE Systems]] exposure
+- [[UK post-Brexit FTAs]] — trade strategy (CPTPP, [[Australia]], NZ)
 - [[CPTPP]] — acceded 2023
 
 ---

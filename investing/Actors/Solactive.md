@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Founded | 2007 |
-| HQ | Frankfurt, Germany |
+| HQ | Frankfurt, [[Germany]] |
 | Indices | 25,000+ |
 | AUM tracking | $300B+ |
 | Position | #4 global index provider |
@@ -33,9 +33,9 @@ aliases: []
 
 | Provider | Market share | Strength |
 |----------|--------------|----------|
-| S&P Dow Jones | #1 | Benchmark indices (S&P 500) |
-| MSCI | #2 | International, ESG |
-| FTSE Russell | #3 | UK, Russell indices |
+| S&P Dow Jones | #1 | [[Benchmark]] indices (S&P 500) |
+| MSCI | #2 | International, [[ESG]] |
+| FTSE Russell | #3 | [[UK]], Russell indices |
 | **Solactive** | #4 | Low-cost, custom |
 
 **Disruptor:** Offers 50-70% lower fees than big 3.
@@ -78,7 +78,7 @@ Powers many thematic/niche ETFs.
 | Thematic | Clean energy, AI, cannabis |
 | Smart-beta | Dividend, momentum, value |
 | Fixed income | Bond indices |
-| Crypto | Digital asset indices |
+| [[Crypto]] | Digital asset indices |
 | Custom | Client-specific |
 
 ---
@@ -94,7 +94,7 @@ Powers many thematic/niche ETFs.
 **Bear:**
 - Private company (not investable directly)
 - Big 3 have brand moats
-- Benchmark indices hard to displace
+- [[Benchmark]] indices hard to displace
 - Scale disadvantage
 
 ---

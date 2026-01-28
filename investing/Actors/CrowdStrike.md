@@ -53,7 +53,7 @@ aliases: [CRWD]
 | **CrowdStrike** | Endpoint leader |
 | [[Palo Alto Networks]] | Platform consolidation |
 | [[SentinelOne]] | #2 endpoint |
-| Microsoft Defender | Bundled with Windows |
+| [[Microsoft]] Defender | Bundled with Windows |
 
 ---
 
@@ -75,12 +75,12 @@ See [[China cybersecurity ban]] for full context.
 - Endpoint market leader
 - Platform expansion (identity, cloud)
 - High retention despite outage
-- Cybersecurity secular growth
+- [[Cybersecurity]] secular growth
 - No China revenue exposure
 
 **Bear:**
 - July 2024 trust damage
-- Microsoft bundling threat
+- [[Microsoft]] bundling threat
 - Palo Alto platformization
 - Premium valuation
 

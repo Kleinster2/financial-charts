@@ -22,7 +22,7 @@
 |------|------|
 | 1992 | Joined as planning analyst |
 | 2005 | VP, ExxonMobil Chemical |
-| 2008 | Director of Refining, Europe/Africa/Middle East |
+| 2008 | Director of Refining, [[Europe]]/[[Africa]]/Middle East |
 | 2010 | VP, Supply & Transportation |
 | 2012 | President, ExxonMobil Refining & Supply |
 | 2014 | Senior VP, Exxon Mobil Corporation |
@@ -71,7 +71,7 @@ At [[WH oil executives Venezuela meeting 2026-01-09]], Woods articulated Exxon's
 - [[Exxon]] — company he leads
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9, 2026 skeptical statement
 - [[Venezuela]] — potential return opportunity
-- [[Ryan Lance]] — peer CEO (ConocoPhillips)
+- [[Ryan Lance]] — peer CEO ([[ConocoPhillips]])
 
 ---
 

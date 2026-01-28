@@ -20,7 +20,7 @@ Blue Owl is becoming the bank for AI infrastructure:
 
 ---
 
-## Major AI infrastructure deals
+## Major [[AI infrastructure deals]]
 
 | Deal | Size | Partner | Status |
 |------|------|---------|--------|
@@ -36,11 +36,11 @@ Blue Owl is becoming the bank for AI infrastructure:
 
 | Tranche | Size | Structure | Lead |
 |---------|------|-----------|------|
-| **Off-balance-sheet** | $30B | SPV | Morgan Stanley → Blue Owl |
+| **Off-balance-sheet** | $30B | SPV | [[Morgan Stanley]] → Blue Owl |
 | **On-balance-sheet** | $30B | Corporate bonds | Largest IG offering of 2025 |
 
 **SPV structure:**
-- Morgan Stanley structured the deal
+- [[Morgan Stanley]] structured the deal
 - Debt sits in SPV tied to Blue Owl
 - Blue Owl: 80% ownership
 - Meta: 20% ownership
@@ -124,11 +124,11 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 | Firm | Data center exposure |
 |------|---------------------|
-| **Blackstone** | QTS, major DC portfolio |
-| **KKR** | Various infrastructure |
+| **Blackstone** | [[QTS]], major DC portfolio |
+| **[[KKR]]** | Various infrastructure |
 | **Brookfield** | Infrastructure focus |
 | **DigitalBridge** | Pure-play digital infra |
-| **Apollo** | Growing DC exposure |
+| **[[Apollo]]** | Growing DC exposure |
 
 Blue Owl is differentiated by scale of AI-specific deals.
 
@@ -156,7 +156,7 @@ Sources:
 - [[Meta]] — major customer ($27B Hyperion deal)
 - [[Crusoe Energy]] — customer ($15B Abilene deal)
 - [[Oracle]] — former deal partner (pulled out, debt concerns)
-- [[Blackstone]] — competitor (QTS platform)
+- [[Blackstone]] — competitor ([[QTS]] platform)
 - [[Brookfield]] — competitor (infrastructure)
 - [[DigitalBridge]] — competitor (digital infrastructure)
 - [[AI infrastructure financing]] — thesis context

@@ -3,7 +3,7 @@ aliases: [NOK]
 ---
 #actor #telecom #ai #networking #finland #public
 
-**Nokia** — NVIDIA $1B investment (Oct 2025). 6G AI-RAN. Telecom comeback story.
+**Nokia** — NVIDIA $1B investment (Oct 2025). 6G AI-RAN. [[Telecom]] comeback story.
 
 ---
 
@@ -16,7 +16,7 @@ NVIDIA-backed telecom revival:
 | Ticker | NOK |
 | Market cap | ~$25B |
 | NVIDIA stake | $1B (2.9%) |
-| Focus | 5G/6G, AI-RAN |
+| Focus | [[5G]]/6G, AI-RAN |
 | Stock move | +22% on deal |
 
 ---
@@ -37,17 +37,17 @@ NVIDIA-backed telecom revival:
 **AI-native wireless:**
 - NVIDIA Arc Aerial RAN Computer
 - Nokia software on NVIDIA chips
-- 5G/6G acceleration
+- [[5G]]/6G acceleration
 - $200B cumulative TAM by 2030
 
 AI transforms telecom infrastructure.
 
 ---
 
-## T-Mobile collaboration
+## [[T-Mobile]] collaboration
 
 **Field deployment:**
-- T-Mobile testing AI-RAN
+- [[T-Mobile]] testing AI-RAN
 - AI-RAN Innovation Center (2024)
 - Field trials 2026
 - First US deployment
@@ -58,7 +58,7 @@ AI transforms telecom infrastructure.
 
 | Segment | Products |
 |---------|----------|
-| Network Infrastructure | 5G RAN, Core |
+| Network Infrastructure | [[5G]] RAN, Core |
 | Cloud & Network Services | Software |
 | Nokia Technologies | Patents, licensing |
 
@@ -84,7 +84,7 @@ Jensen sees telecom as AI enabler.
 |-----|--------|
 | 1990s-2000s | Mobile phone leader |
 | 2010s | Lost to iPhone |
-| 2014 | Sold phones to Microsoft |
+| 2014 | Sold phones to [[Microsoft]] |
 | 2015+ | Network equipment focus |
 | 2025 | NVIDIA partnership |
 
@@ -94,11 +94,11 @@ Jensen sees telecom as AI enabler.
 
 | Competitor | vs Nokia |
 |------------|----------|
-| Ericsson | Main rival |
-| Huawei | Banned in West |
-| Samsung Networks | Growing |
+| [[Ericsson]] | Main rival |
+| [[Huawei]] | Banned in West |
+| [[Samsung]] Networks | Growing |
 
-Huawei bans = Western opportunity.
+[[Huawei]] bans = Western opportunity.
 
 ---
 
@@ -108,12 +108,12 @@ Huawei bans = Western opportunity.
 - NVIDIA strategic backing
 - 6G first mover
 - AI-RAN growth market
-- Huawei vacuum in West
+- [[Huawei]] vacuum in West
 - Undervalued telecom
 
 **Bear:**
-- Telecom capex cycles
-- Ericsson competition
+- [[Telecom]] capex cycles
+- [[Ericsson]] competition
 - Execution on AI-RAN
 - Long 6G timeline
 
@@ -126,7 +126,7 @@ Huawei bans = Western opportunity.
 | Ticker | NOK |
 | Market cap | ~$25B |
 | NVIDIA stake | $1B / 2.9% |
-| Focus | 5G/6G AI-RAN |
+| Focus | [[5G]]/6G AI-RAN |
 
 *Updated 2026-01-01*
 

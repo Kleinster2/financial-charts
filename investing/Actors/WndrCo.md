@@ -3,7 +3,7 @@ aliases: [Wndr Co]
 ---
 #actor #investor #holdingcompany #usa #private
 
-**WndrCo** — Jeffrey Katzenberg's holding company. Harvey, Quibi (failed) investor. Media + tech focus.
+**WndrCo** — Jeffrey Katzenberg's holding company. Harvey, Quibi (failed) investor. [[Media]] + tech focus.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Wndr Co]
 |--------|-------|
 | Founded | 2017 |
 | Founder | **Jeffrey Katzenberg** |
-| Focus | Media, tech, consumer |
+| Focus | [[Media]], tech, consumer |
 | HQ | Los Angeles |
 
 ---
@@ -60,7 +60,7 @@ One of largest startup failures ever.
 
 | Trait | Description |
 |-------|-------------|
-| Media focus | Entertainment + tech intersection |
+| [[Media]] focus | Entertainment + tech intersection |
 | Operator | Gets involved operationally |
 | Hollywood network | Deep entertainment relationships |
 | Growth stage | Later-stage preferred |
@@ -73,7 +73,7 @@ One of largest startup failures ever.
 |--------|-------|
 | Founded | 2017 |
 | Founder | Jeffrey Katzenberg |
-| Focus | Media + tech |
+| Focus | [[Media]] + tech |
 | Notable failure | Quibi |
 
 ---

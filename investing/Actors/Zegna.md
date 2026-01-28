@@ -5,7 +5,7 @@ aliases: [ZGN, Ermenegildo Zegna, Zegna Group]
 
 # Zegna
 
-**Italian luxury menswear group** — owns ZEGNA (core brand), Thom Browne, and TOM FORD FASHION (licensed). €1.95B revenue (2024), adj. EBIT €184M (9.5% margin). Founded 1910 in Trivero, Italy. Public via SPAC (2021, NYSE: ZGN). Multi-brand strategy: ZEGNA grew +4.9% while Thom Browne declined -17% (wholesale exposure). 78% DTC. Tom Ford Fashion +33% (integration year). ~$3B market cap — cheapest Italian luxury house.
+**Italian luxury menswear group** — owns ZEGNA (core brand), Thom Browne, and TOM FORD FASHION (licensed). €1.95B revenue (2024), adj. EBIT €184M (9.5% margin). Founded 1910 in Trivero, Italy. Public via SPAC (2021, NYSE: ZGN). Multi-brand strategy: ZEGNA grew +4.9% while Thom Browne declined -17% (wholesale exposure). 78% DTC. Tom [[Ford]] Fashion +33% (integration year). ~$3B market cap — cheapest Italian luxury house.
 
 ---
 
@@ -70,7 +70,7 @@ Heavy DTC mix is a strength — controls brand experience, captures full margin.
 **Bull:**
 - Cheapest Italian luxury (~10x adj. EBITDA vs 15-20x peers)
 - ZEGNA brand growing, vertical integration = quality control
-- Tom Ford Fashion adds growth vector
+- Tom [[Ford]] Fashion adds growth vector
 - 78% DTC = strong margin profile
 - Family-controlled, long-term oriented
 - 2027 target: €2.2-2.4B revenue, €250-300M adj. EBIT
@@ -79,8 +79,8 @@ Heavy DTC mix is a strength — controls brand experience, captures full margin.
 - Thom Browne -17% — acquisition not working
 - Margins compressing (11.6% → 9.5%)
 - Menswear = smaller TAM than broader luxury
-- Tom Ford license risk (doesn't own brand)
-- China ~30% of sales, exposed to weakness
+- Tom [[Ford]] license risk (doesn't own brand)
+- [[China]] ~30% of sales, exposed to weakness
 - Stock down significantly since SPAC — broken deal
 
 ---
@@ -92,6 +92,6 @@ Heavy DTC mix is a strength — controls brand experience, captures full margin.
 - [[Brunello Cucinelli]] — Italian luxury menswear peer
 - [[LVMH]] — competitor
 - [[Prada]] — Italian luxury peer
-- [[Estée Lauder]] — sold Tom Ford Fashion license
+- [[Estée Lauder]] — sold Tom [[Ford]] Fashion license
 
 *Created 2026-01-24*

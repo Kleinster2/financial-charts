@@ -47,7 +47,7 @@ Bloomberg has topped the list of America's biggest donors two years running.
 |------|--------|---------|
 | Johns Hopkins (2024) | $1B | Free medical school tuition |
 | HBCUs (2024) | $600M | Medical school endowments (Howard, Meharry, Morehouse, Drew) |
-| Healthcare high schools (2024) | $250M | 10 schools training healthcare workers |
+| [[Healthcare]] high schools (2024) | $250M | 10 schools training healthcare workers |
 
 ### Government innovation
 

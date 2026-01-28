@@ -13,7 +13,7 @@ Record-breaking capacity:
 
 | Metric | Value |
 |--------|-------|
-| Route | US (Massachusetts) → UK → France |
+| Route | US (Massachusetts) → [[UK]] → [[France]] |
 | Capacity | 400 Tbps |
 | Fiber pairs | 16 |
 | Operational | 2023 |
@@ -36,10 +36,10 @@ Record-breaking capacity:
 
 **Landing points:**
 - Lynn, Massachusetts (US)
-- Bude, UK
-- Le Porge, France
+- Bude, [[UK]]
+- Le Porge, [[France]]
 
-US to Europe via UK.
+US to [[Europe]] via [[UK]].
 
 ---
 
@@ -48,7 +48,7 @@ US to Europe via UK.
 **16 fiber pairs:**
 - 400 Tbps total capacity
 - Largest transoceanic cable deployed
-- SDM (Space Division Multiplexing)
+- SDM ([[Space]] Division Multiplexing)
 - Future upgradeable
 
 ---
@@ -56,7 +56,7 @@ US to Europe via UK.
 ## Builder
 
 **Alcatel Submarine Networks:**
-- Nokia subsidiary
+- [[Nokia]] subsidiary
 - Major cable manufacturer
 - Deployed 2023
 
@@ -66,7 +66,7 @@ US to Europe via UK.
 
 | Metric | Value |
 |--------|-------|
-| Route | US-UK-France |
+| Route | US-[[UK]]-[[France]] |
 | Capacity | 400 Tbps |
 | Fiber pairs | 16 |
 | Record | Highest capacity transoceanic |

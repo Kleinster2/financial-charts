@@ -1,6 +1,6 @@
 #thesis #trade #defense #ai
 
-# Long Defense AI
+# Long [[Defense]] AI
 
 **Status**: Active — geopolitical tensions accelerating adoption
 **Created**: 2026-01-06
@@ -10,7 +10,7 @@
 
 ## The thesis
 
-Defense budgets are shifting from legacy platforms to AI-enabled systems. Autonomous drones, AI-powered intelligence, and software-defined warfare favor new entrants over legacy primes. Ukraine proving ground validates AI advantage.
+[[Defense]] budgets are shifting from legacy platforms to AI-enabled systems. Autonomous drones, AI-powered intelligence, and software-defined warfare favor new entrants over legacy primes. Ukraine proving ground validates AI advantage.
 
 > "Software is eating defense" — defense AI companies growing faster than legacy primes.
 
@@ -35,7 +35,7 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 | [[Anduril]] | Autonomous systems | ~$14B | Lattice platform, Fury drone |
 | [[Palantir]] | AI/ML for defense | ~$150B | AIP platform, DOD contracts |
 | [[Shield AI]] | Autonomous aircraft | ~$3B | V-BAT, Hivemind |
-| [[Helsing]] | European defense AI | ~$5B | EU champion, German backing |
+| [[Helsing]] | European defense AI | ~$5B | [[EU]] champion, German backing |
 
 ---
 
@@ -56,13 +56,13 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 | Company | Growth | Comparison |
 |---------|--------|------------|
 | Anduril | ~100% revenue CAGR | vs Lockheed ~3% |
-| Palantir | ~30% revenue growth | vs Raytheon ~5% |
-| Shield AI | Rapid contract wins | vs Boeing negative |
+| Palantir | ~30% revenue growth | vs [[Raytheon]] ~5% |
+| Shield AI | Rapid contract wins | vs [[Boeing]] negative |
 
 **Budget trends:**
 - DOD Replicator initiative (autonomous systems)
 - DARPA AI investments accelerating
-- Ally nations (Japan, Australia, UK) following US lead
+- Ally nations ([[Japan]], [[Australia]], [[UK]]) following US lead
 
 ---
 
@@ -86,7 +86,7 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 | Vehicle | Risk profile |
 |---------|--------------|
@@ -102,9 +102,9 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 | Region | Driver |
 |--------|--------|
 | **Ukraine** | Proving ground for AI warfare |
-| **Taiwan** | AI/autonomous systems for deterrence |
-| **Middle East** | Drone warfare proliferation |
-| **Europe** | NATO rearmament post-Ukraine |
+| **[[Taiwan]]** | AI/autonomous systems for deterrence |
+| **Middle East** | [[Drone warfare]] proliferation |
+| **[[Europe]]** | NATO rearmament post-Ukraine |
 
 ---
 
@@ -132,4 +132,4 @@ Defense budgets are shifting from legacy platforms to AI-enabled systems. Autono
 - [[Shield AI]] — long (autonomous aircraft)
 - [[Helsing]] — long (European defense AI)
 - [[NVIDIA]] — beneficiary (GPU for defense AI)
-- [[Rare earth leverage]] — risk (China controls drone magnets)
+- [[Rare earth leverage]] — risk ([[China]] controls drone magnets)

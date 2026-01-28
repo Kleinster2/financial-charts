@@ -1,6 +1,6 @@
 #actor #geopolitics #oil #latam
 
-**Guyana** — Fastest-growing oil producer globally. Stabroek Block (Exxon-led) transforming tiny nation into major exporter. 50% of 2026 global oil growth (with Brazil, Argentina).
+**Guyana** — Fastest-growing oil producer globally. Stabroek [[Block]] (Exxon-led) transforming tiny nation into major exporter. 50% of 2026 global oil growth (with [[Brazil]], [[Argentina]]).
 
 ---
 
@@ -9,8 +9,8 @@
 | Metric | Value |
 |--------|-------|
 | Population | ~800K |
-| Oil production (2025) | ~750K bpd |
-| Oil production (2027E) | 1.2M+ bpd |
+| [[Oil]] production (2025) | ~750K bpd |
+| [[Oil]] production (2027E) | 1.2M+ bpd |
 | Reserves | 11B+ barrels discovered |
 | Operator | [[Exxon]] (45%), Hess (30%), [[CNOOC]] (25%) |
 
@@ -30,7 +30,7 @@
 
 ---
 
-## Stabroek Block
+## Stabroek [[Block]]
 
 **Exxon-led consortium:**
 - 6.6M acres offshore
@@ -55,7 +55,7 @@
 |-------|-------------|
 | [[Exxon]] | Largest exposure, Guyana = growth engine |
 | Hess | Chevron acquiring (Guyana asset key) |
-| [[CNOOC]] | 25% stake, China exposure |
+| [[CNOOC]] | 25% stake, [[China]] exposure |
 | Offshore drillers | [[Transocean]], [[Valaris]] demand |
 | FPSOs | [[TechnipFMC]], SBM Offshore |
 
@@ -82,7 +82,7 @@
 - Essequibo region (includes Stabroek)
 - ICJ ruling pending
 - Venezuela referendum (2023) claimed territory
-- US/UK security guarantees
+- US/[[UK]] security guarantees
 
 See [[Venezuela]] and [[Monroe Doctrine]].
 

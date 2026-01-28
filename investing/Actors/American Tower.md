@@ -25,8 +25,8 @@ Largest tower company globally.
 
 | Region | Towers | Revenue % |
 |--------|--------|-----------|
-| US/Canada | 43K | ~45% |
-| Asia Pacific | 80K+ | ~20% |
+| US/[[Canada]] | 43K | ~45% |
+| [[Asia]] Pacific | 80K+ | ~20% |
 | EMEA | 30K | ~15% |
 | Latin America | 70K+ | ~20% |
 
@@ -40,7 +40,7 @@ Diversified geographic exposure.
 |---------|-------------|
 | Revenue | Long-term leases from carriers |
 | Lease terms | 10-15 years, escalators |
-| Tenants | Verizon, AT&T, T-Mobile |
+| Tenants | [[Verizon]], [[AT&T]], [[T-Mobile]] |
 | Growth | Co-location (multiple tenants/tower) |
 
 ---
@@ -68,7 +68,7 @@ Diversified geographic exposure.
 - Rising rates pressure REIT valuations
 - Carrier consolidation risk
 - Data center competition for capex
-- India challenges
+- [[India]] challenges
 
 ---
 
@@ -87,8 +87,8 @@ Diversified geographic exposure.
 | Company | Focus |
 |---------|-------|
 | Crown Castle | US-focused |
-| SBA Communications | US, Brazil |
-| Cellnex | Europe |
+| SBA Communications | US, [[Brazil]] |
+| Cellnex | [[Europe]] |
 
 ---
 

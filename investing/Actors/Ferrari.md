@@ -5,7 +5,7 @@ aliases: [RACE, Ferrari NV, Scuderia Ferrari]
 
 # Ferrari
 
-**Italian luxury sports car manufacturer** — the world's most valuable luxury brand. ~€6.7B revenue (2024), ~€1.9B net income, 30%+ operating margin. Market cap ~€70B at ~40x earnings — valued as luxury, not auto. Production deliberately capped (~14,000 units/year) to maintain exclusivity. [[Exor]] (Agnelli family) owns 24%. CEO Benedetto Vigna (ex-STMicro) navigating EV transition.
+**Italian luxury sports car manufacturer** — the world's most valuable luxury brand. ~€6.7B revenue (2024), ~€1.9B net income, 30%+ operating margin. Market cap ~€70B at ~40x earnings — valued as luxury, not auto. Production deliberately capped (~14,000 units/year) to maintain exclusivity. [[Exor]] (Agnelli family) owns 24%. CEO Benedetto Vigna (ex-[[STMicro]]) navigating [[EV transition]].
 
 ---
 
@@ -90,9 +90,9 @@ aliases: [RACE, Ferrari NV, Scuderia Ferrari]
 
 ---
 
-## EV transition
+## [[EV transition]]
 
-| Target | Timeline |
+| [[Target]] | Timeline |
 |--------|----------|
 | First full EV | **2025** (confirmed) |
 | EV % of sales (2030) | ~40% hybrid, ~5% BEV |
@@ -124,13 +124,13 @@ Spun off from Fiat-Chrysler in 2015-2016. John Elkann (Exor chairman) is Ferrari
 - Scarcity model = permanent pricing power
 - Purosangue expands TAM without diluting brand
 - Waiting lists = visibility
-- EV transition managed carefully
+- [[EV transition]] managed carefully
 
 **Bear:**
 - 40x PE — priced for perfection
 - EV Ferrari may not resonate emotionally
-- China luxury slowdown (small but growing market)
-- Regulation could force volume (EU emissions)
+- [[China]] luxury slowdown (small but growing market)
+- Regulation could force volume ([[EU]] emissions)
 - Key-man risk (brand mystique is fragile)
 
 ---

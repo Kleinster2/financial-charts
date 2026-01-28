@@ -10,7 +10,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Price (China) | **~119,500 CNY/T** |
+| Price ([[China]]) | **~119,500 CNY/T** |
 | USD equivalent | ~$16,500-17,000/t |
 | 2025 gain | **+56%** (from ~$10,800 to ~$16,900) |
 | YoY change | **+58%** |
@@ -24,10 +24,10 @@ Rebounding from brutal 2023-24 crash (down ~80% from 2022 peak).
 
 **Price forecasts:**
 
-| Source | Target |
+| Source | [[Target]] |
 |--------|--------|
 | Ganfeng Lithium (chairman) | 150,000-200,000 CNY/t (+30-40% demand growth) |
-| Goldman Sachs | $13,250/t avg, rising to $17,077 by 2028 |
+| [[Goldman Sachs]] | $13,250/t avg, rising to $17,077 by 2028 |
 | Analyst range | $12,000-17,000/t |
 | Bull case | $28,000/t if demand surges |
 
@@ -45,7 +45,7 @@ Rebounding from brutal 2023-24 crash (down ~80% from 2022 peak).
 | **2026** | **Deficit ~1,500t** (Fastmarkets) |
 
 **Supply response:**
-- China canceling mining permits (Yichun: 27 permits)
+- [[China]] canceling mining permits (Yichun: 27 permits)
 - High-cost mines shutting
 - Government preventing deflationary pressures
 
@@ -65,19 +65,19 @@ Rebounding from brutal 2023-24 crash (down ~80% from 2022 peak).
 **Battery costs:**
 - 2026 pack price: ~$105/kWh (down 3%)
 - LFP (lithium iron phosphate) gaining share
-- China manufacturing glut pressuring prices
+- [[China]] manufacturing glut pressuring prices
 
 ---
 
 ## Energy storage — fastest growing
 
-**Grid storage emerging:**
+**[[Grid storage]] emerging:**
 
 | Metric | Value |
 |--------|-------|
 | 2025 storage growth | +44% (vs +25% total battery) |
 | Storage share of demand | ~25% of global battery demand |
-| China charging capacity | Doubling to 180 GW by 2027 |
+| [[China]] charging capacity | Doubling to 180 GW by 2027 |
 
 Energy storage becoming as important as EVs for lithium demand.
 
@@ -89,13 +89,13 @@ Energy storage becoming as important as EVs for lithium demand.
 - Deficit starting 2026
 - EV adoption accelerating (25M+ units 2026)
 - Energy storage +44% growth
-- Supply discipline (China permit cancellations)
+- Supply discipline ([[China]] permit cancellations)
 - Rebounding from oversold levels
 
 **Bear case:**
-- China controls processing/refining
+- [[China]] controls processing/refining
 - LFP uses less lithium than NMC
-- Battery recycling increasing
+- [[Battery recycling]] increasing
 - Oversupply risk if mines restart
 - Price still well below 2022 highs
 
@@ -129,11 +129,11 @@ Energy storage becoming as important as EVs for lithium demand.
 
 | Stage | Dominant |
 |-------|----------|
-| Mining | Australia, Chile, China |
-| Refining | **China (~60%+)** |
-| Battery production | **China (~75%)** |
+| Mining | [[Australia]], [[Chile]], [[China]] |
+| Refining | **[[China]] (~60%+)** |
+| Battery production | **[[China]] (~75%)** |
 
-China dominates midstream/downstream — geopolitical risk.
+[[China]] dominates midstream/downstream — geopolitical risk.
 
 ---
 
@@ -151,5 +151,5 @@ China dominates midstream/downstream — geopolitical risk.
 - [[CATL]] — #1 battery maker
 - [[NIO]] — battery swap EV
 - [[Rivian]] — US EV demand
-- [[Rare earth leverage]] — China supply chain control
+- [[Rare earth leverage]] — [[China]] supply chain control
 - [[Clean energy for AI]] — storage applications

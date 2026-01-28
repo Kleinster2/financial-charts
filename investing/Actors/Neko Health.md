@@ -3,7 +3,7 @@ aliases: [Neko]
 ---
 #actor #company #sweden #healthcare #ai #private
 
-**Neko Health** — Swedish AI-powered preventive healthcare company. Co-founded 2018 by [[Daniel Ek]] ([[Spotify]]) and Hjalmar Nilsonne. Full-body scans using 70+ sensors, 50M data points, AI analysis. **$1.8B valuation** (Jan 2025), $325M total raised. £299/scan in UK. 100K waitlist, 80% rebooking rate.
+**Neko Health** — Swedish AI-powered preventive healthcare company. Co-founded 2018 by [[Daniel Ek]] ([[Spotify]]) and Hjalmar Nilsonne. Full-body scans using 70+ sensors, 50M data points, AI analysis. **$1.8B valuation** (Jan 2025), $325M total raised. £299/scan in [[UK]]. 100K waitlist, 80% rebooking rate.
 
 ---
 
@@ -27,10 +27,10 @@ aliases: [Neko]
 
 | Metric | Detail |
 |--------|--------|
-| Price | £299 (UK) |
+| Price | £299 ([[UK]]) |
 | Duration | ~15 minutes |
 | Data points | **50 million** per scan |
-| Sensors | 70+ (thermal cameras, 3D cameras, ECG, lasers, finger sensors) |
+| [[Sensors]] | 70+ (thermal cameras, 3D cameras, ECG, lasers, finger sensors) |
 
 ### What it detects
 
@@ -43,7 +43,7 @@ aliases: [Neko]
 
 ### Business model
 
-- Consumer-pay preventive health
+- [[Consumer]]-pay preventive health
 - Annual subscription model (80% rebooking rate)
 - Expanding clinic footprint
 
@@ -77,7 +77,7 @@ aliases: [Neko]
 | Person | Role | Background |
 |--------|------|------------|
 | **[[Daniel Ek]]** | Co-founder, Chairman | [[Spotify]] founder |
-| **Hjalmar Nilsonne** | Co-founder, CEO | Healthcare/tech background |
+| **Hjalmar Nilsonne** | Co-founder, CEO | [[Healthcare]]/tech background |
 
 ---
 
@@ -86,9 +86,9 @@ aliases: [Neko]
 | Market | Status |
 |--------|--------|
 | Sweden | Operating (Stockholm) |
-| UK | Operating (London, largest market) |
+| [[UK]] | Operating (London, largest market) |
 | US | **Pending FDA approval** |
-| Europe | Expanding |
+| [[Europe]] | Expanding |
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [SK On Co]
 ---
 #actor #batteries #korea #ev #public
 
-**SK On** — South Korean EV battery manufacturer, subsidiary of SK Innovation. Major supplier to Ford, Hyundai, and VW.
+**SK On** — South Korean EV battery manufacturer, subsidiary of SK Innovation. Major supplier to Ford, [[Hyundai]], and VW.
 
 ---
 
@@ -22,12 +22,12 @@ aliases: [SK On Co]
 
 | Location | Status | Capacity | Key customer |
 |----------|--------|----------|--------------|
-| **Korea** | Operating | ~40 GWh | Hyundai, Kia |
+| **Korea** | Operating | ~40 GWh | [[Hyundai]], Kia |
 | **Georgia, US** (2 plants) | Operating | ~43 GWh | Ford, VW |
 | **Kentucky** (BlueOval SK) | Operating | ~43 GWh | Ford (F-150 Lightning) |
 | **Tennessee** (BlueOval SK) | Under construction | ~43 GWh | Ford |
 | **Hungary** | Operating | ~30 GWh | VW, Mercedes |
-| **China** | Operating | ~30 GWh | Local OEMs |
+| **[[China]]** | Operating | ~30 GWh | Local OEMs |
 
 **BlueOval SK:** Joint venture with Ford for US battery production.
 
@@ -38,8 +38,8 @@ aliases: [SK On Co]
 | Customer | Relationship | Models |
 |----------|--------------|--------|
 | **Ford** | BlueOval SK JV | F-150 Lightning, Mustang Mach-E |
-| **Hyundai/Kia** | Strategic partner | Ioniq, EV6 |
-| **Volkswagen** | Major supplier | ID series |
+| **[[Hyundai]]/Kia** | Strategic partner | Ioniq, EV6 |
+| **[[Volkswagen]]** | Major supplier | ID series |
 | **Mercedes-Benz** | Supply agreement | EQ series |
 
 ---
@@ -72,9 +72,9 @@ aliases: [SK On Co]
 | Strength | Weakness |
 |----------|----------|
 | Ford partnership locked in | Still unprofitable |
-| US manufacturing base | Smaller than CATL, LG |
+| US manufacturing base | Smaller than [[CATL]], LG |
 | High-nickel technology | LG litigation history |
-| Hyundai relationship | Execution risk on expansion |
+| [[Hyundai]] relationship | Execution risk on expansion |
 
 ---
 
@@ -97,7 +97,7 @@ Total US investment: ~$16B+
 - Ford/BlueOval SK partnership
 - Major US manufacturing presence (IRA benefits)
 - High-nickel technology leadership
-- Hyundai/Kia captive demand
+- [[Hyundai]]/Kia captive demand
 
 **Bear:**
 - Persistent losses

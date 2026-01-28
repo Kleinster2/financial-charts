@@ -25,16 +25,16 @@
 |--------|-------|
 | Education | BCom, University of Canterbury (IT Project Management, E-Business Systems) |
 | Previous | CTO, Nimbus For Work (Singapore) |
-| Previous | CTO, ServisHero (SE Asia marketplace) |
+| Previous | CTO, ServisHero (SE [[Asia]] marketplace) |
 | Accelerator | Entrepreneur First (Singapore) |
 
 ---
 
 ## Founding story
 
-**The insight:** While CTO at Nimbus For Work, Copplestone built a chat app using Firebase. Hit scaling limits. Wanted Postgres instead.
+**The insight:** While CTO at Nimbus For Work, Copplestone built a chat app using Firebase. Hit scaling limits. Wanted [[Postgres]] instead.
 
-**The pivot:** Changed tagline from "real-time Postgres" to "open-source Firebase alternative."
+**The pivot:** Changed tagline from "real-time [[Postgres]]" to "open-source Firebase alternative."
 
 **The result:** Scaled from 8 to 800 hosted databases in 3 days after repositioning.
 
@@ -68,8 +68,8 @@
 
 **Why track Copplestone:**
 1. **Developer-first approach** — Built what developers actually want
-2. **Open source strategy** — Postgres foundation enables trust
-3. **Vibe coding beneficiary** — Infrastructure layer for Lovable/Bolt.new
+2. **Open source strategy** — [[Postgres]] foundation enables trust
+3. **Vibe coding beneficiary** — Infrastructure layer for [[Lovable]]/Bolt.new
 4. **Scaling playbook** — From 8 to 800 databases via positioning change
 
 ---

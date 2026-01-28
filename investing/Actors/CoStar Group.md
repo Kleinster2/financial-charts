@@ -51,7 +51,7 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 |--------|-------|
 | Monthly unique visitors | **111 million** |
 | Market position | **#2** (behind Zillow) |
-| Consumer awareness | 36% (vs 4% pre-Feb 2024) |
+| [[Consumer]] awareness | 36% (vs 4% pre-Feb 2024) |
 | Sales force | 370 reps → 500 by mid-2025 |
 | Demo-to-close rate | 50%+ |
 | Member agent listing wins | +62% vs non-members |
@@ -62,10 +62,10 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 
 ## 2025 acquisitions
 
-| Target | Value | Strategic rationale |
+| [[Target]] | Value | Strategic rationale |
 |--------|-------|---------------------|
 | **Matterport** | $1.6B | 3D spatial mapping |
-| **Domain Group** (Australia) | $1.92B | International expansion |
+| **Domain Group** ([[Australia]]) | $1.92B | International expansion |
 
 ---
 

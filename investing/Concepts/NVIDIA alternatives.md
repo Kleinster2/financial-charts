@@ -40,9 +40,9 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Company | Approach | Stage | Valuation |
 |---------|----------|-------|-----------|
 | [[Groq]] | LPU, inference speed | **Acquired by NVIDIA** (Dec 2025) | $20B deal |
-| [[Cerebras]] | Wafer-scale chips | Shipping | ~$4B |
-| [[Tenstorrent]] | RISC-V, open architecture | Shipping | ~$2.6B |
-| [[SambaNova]] | Dataflow architecture | Shipping | ~$5B |
+| [[Cerebras]] | Wafer-scale chips | [[Shipping]] | ~$4B |
+| [[Tenstorrent]] | [[RISC-V]], open architecture | [[Shipping]] | ~$2.6B |
+| [[SambaNova]] | Dataflow architecture | [[Shipping]] | ~$5B |
 | [[Graphcore]] | IPU | Struggling | — |
 | [[FuriosaAI]] | [[NPU]], inference | **Mass prod Jan 2026** | $735M |
 
@@ -55,14 +55,14 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | [[Microsoft]] | Maia | Azure (coming) |
 | [[Meta]] | MTIA | Internal |
 
-### China domestic (sanctioned)
+### [[China]] domestic (sanctioned)
 
 | Company | Chip | Constraint |
 |---------|------|------------|
 | [[Huawei]] / [[Ascend]] | Ascend 910 | [[SMIC]] fab limits |
 | [[Biren Tech]] | BR100 | Entity List |
 | [[Enflame]] | CloudBlazer | Entity List |
-| [[Kunlunxin]] | Kunlun | Baidu spinout |
+| [[Kunlunxin]] | Kunlun | [[Baidu]] spinout |
 
 ### Incumbents
 
@@ -82,7 +82,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Inference-optimized | Groq, FuriosaAI | Speed, power | Training can't do |
 | Open architecture | Tenstorrent | No lock-in | Ecosystem |
 | Custom silicon | Google, Amazon | Optimized for workload | R&D cost |
-| RISC-V | Tenstorrent | Open ISA | Early |
+| [[RISC-V]] | Tenstorrent | Open ISA | Early |
 
 ---
 
@@ -96,10 +96,10 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 | Developer familiarity | Millions trained on CUDA |
 | Framework integration | PyTorch, TensorFlow optimized |
 | Libraries | 15+ years of optimization |
-| Network effects | More developers → more libraries → more developers |
+| [[Network effects]] | More developers → more libraries → more developers |
 
 **How alternatives compete:**
-- Target inference (less CUDA-dependent)
+- [[Target]] inference (less CUDA-dependent)
 - Offer massive cost/power savings
 - Open-source software stacks
 - Focus on specific workloads
@@ -164,7 +164,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 - [[Groq]] — acquired by NVIDIA (Dec 2025)
 - [[Cerebras]], [[Tenstorrent]], [[SambaNova]] — US alternatives
 - [[FuriosaAI]] — Korean alternative (leading independent)
-- [[Ascend]] — China alternative
+- [[Ascend]] — [[China]] alternative
 - [[AMD]] — #2 GPU
 - [[CUDA moat]] — why NVIDIA is hard to displace
 - [[Inference disaggregation]] — structural trend

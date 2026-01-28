@@ -3,7 +3,7 @@ aliases: [Lutnick]
 ---
 #actor #individual #usa #policy
 
-**Howard Lutnick** — US Commerce Secretary (Trump II). Former Cantor Fitzgerald CEO. Leading semiconductor industrial policy — 100% tariff threats on Asian chipmakers.
+**Howard Lutnick** — US Commerce Secretary ([[Trump II]]). Former Cantor Fitzgerald CEO. Leading semiconductor industrial policy — 100% tariff threats on Asian chipmakers.
 
 ---
 
@@ -22,7 +22,7 @@ aliases: [Lutnick]
 
 **Core message:** "Build in America or pay 100% tariff."
 
-| Target | Threat |
+| [[Target]] | Threat |
 |--------|--------|
 | Taiwan chipmakers | 100% tariff if not investing in US |
 | Korean memory makers | 100% tariff if not investing in US |

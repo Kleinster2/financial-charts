@@ -59,8 +59,8 @@ Data centers need grid buildout — Quanta builds the grid.
 
 | Competitor | Focus |
 |------------|-------|
-| MasTec | Telecom, renewables |
-| Dycom | Telecom specialty |
+| MasTec | [[Telecom]], renewables |
+| Dycom | [[Telecom]] specialty |
 | MYR Group | Smaller scale |
 | Pike Electric | Regional |
 

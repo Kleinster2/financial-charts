@@ -16,7 +16,7 @@ aliases: [Obsidian.md, Dynalist]
 | Valuation estimate | $300-350M |
 | Employees | 18 |
 | Founded | 2020 |
-| HQ | Canada |
+| HQ | [[Canada]] |
 
 Profitable, user-funded, no VC.
 
@@ -26,7 +26,7 @@ Profitable, user-funded, no VC.
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Shida Li** (@licat) | Co-founder, CTO | Waterloo, ex-Dropbox, ex-LinkedIn |
+| **Shida Li** (@licat) | Co-founder, CTO | Waterloo, ex-[[Dropbox]], ex-LinkedIn |
 | **Erica Xu** | Co-founder, COO | Waterloo, ex-Quizlet |
 
 Met at University of Waterloo. Worked together 10+ years. Built Dynalist (outliner) before Obsidian. Started Obsidian during COVID-19 quarantine.
@@ -80,7 +80,7 @@ Design principles:
 |----|-------------------|-------------------|
 | [[Notion]] | Local, private, no lock-in | Less collaborative |
 | [[Roam Research]] | Free, faster, better UX | Less academic focus |
-| Apple Notes | Power, plugins, links | Learning curve |
+| [[Apple]] Notes | Power, plugins, links | Learning curve |
 | Logseq | More mature, larger community | Less outliner-focused |
 
 ---

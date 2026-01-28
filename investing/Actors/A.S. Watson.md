@@ -23,11 +23,11 @@
 
 | Brand | Region | Format |
 |-------|--------|--------|
-| **Watsons** | Asia, Europe | Health & beauty |
-| **Superdrug** | UK | Health & beauty |
-| **The Perfume Shop** | UK | Fragrance retail |
+| **Watsons** | [[Asia]], [[Europe]] | Health & beauty |
+| **Superdrug** | [[UK]] | Health & beauty |
+| **The Perfume Shop** | [[UK]] | Fragrance retail |
 | **Kruidvat** | Benelux | Drugstore |
-| **Rossmann** | Germany (JV) | Drugstore |
+| **Rossmann** | [[Germany]] (JV) | Drugstore |
 | **ICI Paris XL** | Benelux | Perfumery |
 
 ---
@@ -36,7 +36,7 @@
 
 | Term | Value |
 |------|-------|
-| Target valuation | **$30B** |
+| [[Target]] valuation | **$30B** |
 | Amount to raise | ~$2B |
 | Exchanges | Hong Kong + London (dual) |
 | Advisors | [[Goldman Sachs]], [[UBS]] |
@@ -59,7 +59,7 @@
 |------|-------|
 | 1841 | Founded as dispensary in Hong Kong |
 | 1981 | Acquired by [[Hutchison Whampoa]] |
-| 2000s | Rapid expansion into Europe |
+| 2000s | Rapid expansion into [[Europe]] |
 | 2014 | [[Temasek]] acquires 25% for $5.7B ($22B valuation) |
 | Jan 2026 | Goldman, UBS hired for dual IPO |
 | Q2 2026 | IPO targeted |
@@ -69,7 +69,7 @@
 ## Strategic context
 
 The IPO is part of [[CK Hutchison]]'s value extraction strategy:
-- Completing $22.8B sale of ports to [[BlackRock]]/MSC consortium
+- Completing $22.8B sale of ports to [[BlackRock]]/[[MSC]] consortium
 - Considering telecom asset spinoffs
 - A.S. Watson IPO would be one of largest global retail listings
 

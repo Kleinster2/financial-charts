@@ -3,7 +3,7 @@ aliases: [AAUC, Allied Gold Corp]
 ---
 #actor #mining #gold #canada #public
 
-**Allied Gold** — Canadian gold miner with producing assets in West Africa. Being acquired by [[Zijin Mining]] for C$5.5B (Jan 2026).
+**Allied Gold** — Canadian gold miner with producing assets in West [[Africa]]. Being acquired by [[Zijin Mining]] for C$5.5B (Jan 2026).
 
 *Note: Charts omitted — company being acquired, deal expected to close April 2026.*
 
@@ -30,7 +30,7 @@ aliases: [AAUC, Allied Gold Corp]
 | Sadiola | Mali | Producing |
 | Kurmuk | Ethiopia | Development |
 
-Three producing mines plus development pipeline — all in Africa.
+Three producing mines plus development pipeline — all in [[Africa]].
 
 ---
 

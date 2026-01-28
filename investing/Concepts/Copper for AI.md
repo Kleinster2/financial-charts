@@ -29,7 +29,7 @@ The current copper rally differs from past cycles:
 
 | Past rallies | 2025 rally |
 |--------------|------------|
-| China construction (2009) | Diversified: AI, EVs, grid, renewables |
+| [[China]] construction (2009) | Diversified: AI, EVs, grid, renewables |
 | Cyclical | Structural — multi-year buildouts |
 | GDP proxy | AI stack proxy |
 | Supply could respond | Decade-long mine timelines |
@@ -38,15 +38,15 @@ The current copper rally differs from past cycles:
 
 ---
 
-## S&P Global study (Jan 2026)
+## [[S&P Global]] study (Jan 2026)
 
-**"Copper in the Age of AI"** — landmark study co-chaired by Daniel Yergin (Vice Chairman, S&P Global).
+**"Copper in the Age of AI"** — landmark study co-chaired by Daniel Yergin (Vice Chairman, [[S&P Global]]).
 
-> "Here, in short, is the quandary: copper is the great enabler of electrification, but the accelerating pace of electrification is an increasing challenge for copper. Economic demand, grid expansion, renewable generation, AI computation, digital industries, electric vehicles and defense are scaling all at once—and supply is not on track to keep pace. **At stake is whether copper remains an enabler of progress or becomes a bottleneck to growth and innovation.**" — **Daniel Yergin**, Vice Chairman, S&P Global
+> "Here, in short, is the quandary: copper is the great enabler of electrification, but the accelerating pace of electrification is an increasing challenge for copper. Economic demand, grid expansion, renewable generation, AI computation, digital industries, electric vehicles and defense are scaling all at once—and supply is not on track to keep pace. **At stake is whether copper remains an enabler of progress or becomes a bottleneck to growth and innovation.**" — **Daniel Yergin**, Vice Chairman, [[S&P Global]]
 
 The emerging supply deficit constitutes a **"systemic risk for global industries, technological advancement and economic growth."**
 
-> "Copper is the connective artery linking physical machinery, digital intelligence, mobility, infrastructure, communication and security systems; the future availability of copper has become a matter of strategic importance." — **Carlos Pascual**, SVP Geopolitics, S&P Global (co-chair)
+> "Copper is the connective artery linking physical machinery, digital intelligence, mobility, infrastructure, communication and security systems; the future availability of copper has become a matter of strategic importance." — **Carlos Pascual**, SVP Geopolitics, [[S&P Global]] (co-chair)
 
 ### Supply vs demand to 2040
 
@@ -61,12 +61,12 @@ Production peaks at **33M tonnes in 2030**, then declines (ore grade deteriorati
 
 ### 2040 demand breakdown
 
-| Sector | Demand | Share | Gap contribution |
+| Sector | Demand | Share | [[Gap]] contribution |
 |--------|--------|-------|------------------|
 | Core economic (construction, transport) | 23M tonnes | 53% | — |
 | Energy transition (EVs, renewables, grid) | 15.7M tonnes | 37% | — |
 | **Subtotal (traditional)** | 38.7M tonnes | — | **7M tonne gap** |
-| AI/data centers + defense | ~4M tonnes | 10% | +3M tonnes |
+| AI/data centers + defense | ~4M tonnes | 10% | +[[3M]] tonnes |
 | Humanoid robots (1B-10B units) | 1.6M+ tonnes | — | Upside risk |
 
 Global electricity demand projected to increase ~50% by 2040.
@@ -76,29 +76,29 @@ Global electricity demand projected to increase ~50% by 2040.
 - Data centers: **550 GW by 2040** (5x 2022)
 - **100+ new data center projects** launched (~$61B pipeline)
 - Equivalent to adding **330 Hoover Dams** or **650 nuclear reactors** annually
-- Defense spending could reach **$6T by 2040**
+- [[Defense]] spending could reach **$6T by 2040**
 
 ### Supply concentration risk
 
 | Segment | Concentration |
 |---------|---------------|
 | Mining production | 6 countries = 67% |
-| Smelting capacity | China = 40% |
-| Concentrate imports | China = 66% |
+| Smelting capacity | [[China]] = 40% |
+| Concentrate imports | [[China]] = 66% |
 
 **New mine timeline: 17 years** discovery to production.
 
 **US designated copper a "critical metal" in 2025.**
 
-> "Bridging the impending supply gap depends not only on geology, engineering, and logistics and investment, but also on governance and policies. That translates into timeliness in permitting and consultation, a time clock on litigation and stability in governance and regulation. The alternative is uncertainty, and uncertainty comes at a hefty cost." — **Eleonor Kramarz**, Global Head Critical Minerals, S&P Global
+> "Bridging the impending supply gap depends not only on geology, engineering, and logistics and investment, but also on governance and policies. That translates into timeliness in permitting and consultation, a time clock on litigation and stability in governance and regulation. The alternative is uncertainty, and uncertainty comes at a hefty cost." — **Eleonor Kramarz**, Global Head Critical Minerals, [[S&P Global]]
 
 ### Market mechanism caveat
 
 S&P notes actual deficits remain "hypothetical" — price adjustments influence consumption and supply viability. Higher prices ration demand and incentivize marginal supply. But the scale of projected gap suggests prices must rise substantially.
 
-> "The future is not just copper-intensive, it is copper-enabled. Every new building, every line of digital code, every renewable megawatt, every new car, every advanced weapon system depends on the metal." — **Aurian De La Noue**, Executive Director Critical Minerals, S&P Global
+> "The future is not just copper-intensive, it is copper-enabled. Every new building, every line of digital code, every renewable megawatt, every new car, every advanced weapon system depends on the metal." — **Aurian De La Noue**, Executive Director Critical Minerals, [[S&P Global]]
 
-**Study sponsors:** Anglo American, Barrick, BHP, Freeport-McMoRan, Google, Gunvor, Lundin Mining, MAADEN (Saudi), Northern Dynasty Minerals, Resolution Copper, Rio Tinto, Taseko Mines, Trafigura, Vale.
+**Study sponsors:** Anglo American, Barrick, [[BHP]], Freeport-McMoRan, [[Google]], Gunvor, Lundin Mining, MAADEN (Saudi), Northern Dynasty Minerals, Resolution Copper, [[Rio Tinto]], Taseko Mines, Trafigura, [[Vale]].
 
 ---
 
@@ -170,7 +170,7 @@ Trump tariffs and mining disruptions driving recent surge.
 - Demand assumptions may prove too optimistic
 - Substitution if prices stay high
 - Recession risk dampens industrial demand
-- China slowdown (still major consumer)
+- [[China]] slowdown (still major consumer)
 
 **The Copper Journal's John Gross** warns of parallels to 1990s fiberoptic boom.
 
@@ -182,10 +182,10 @@ Trump tariffs and mining disruptions driving recent surge.
 |---------|--------|-------|
 | [[Freeport-McMoRan]] | FCX | Largest public copper producer |
 | [[Southern Copper]] | SCCO | Low-cost, high-margin |
-| Codelco | State-owned | World's largest (Chile) |
-| BHP | BHP | Diversified, major copper |
-| Rio Tinto | RIO | Diversified, growing copper |
-| Antofagasta | ANTO.L | Pure-play Chile |
+| [[Codelco]] | State-owned | World's largest ([[Chile]]) |
+| [[BHP]] | [[BHP]] | Diversified, major copper |
+| [[Rio Tinto]] | RIO | Diversified, growing copper |
+| [[Antofagasta]] | ANTO.L | Pure-play [[Chile]] |
 | First Quantum | FM.TO | Cobre Panama disruption |
 | Teck Resources | TECK | Copper growth story |
 
@@ -213,8 +213,8 @@ Copper rallying alongside gold and silver:
 
 | Metal | Driver |
 |-------|--------|
-| Gold | Inflation hedge, central bank buying |
-| Silver | Industrial + monetary (137% in 2025) |
+| [[Gold]] | [[Inflation]] hedge, central bank buying |
+| [[Silver]] | Industrial + monetary (137% in 2025) |
 | Copper | AI infrastructure + electrification |
 
 **Dual identity:** Growth asset AND quasi-inflation hedge.

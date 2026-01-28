@@ -1,12 +1,12 @@
 #actor #wfe #china
 
-**Naura Technology** — China's largest semiconductor equipment maker. Beneficiary of 50% domestic mandate.
+**Naura Technology** — [[China]]'s largest semiconductor equipment maker. Beneficiary of 50% domestic mandate.
 
 ---
 
 ## Why Naura matters
 
-Naura is China's answer to Applied Materials/Lam Research — and now has a captive market:
+Naura is [[China]]'s answer to Applied Materials/Lam Research — and now has a captive market:
 
 | Metric | Value |
 |--------|-------|
@@ -48,7 +48,7 @@ Naura is China's answer to Applied Materials/Lam Research — and now has a capt
 
 ## Self-sufficiency progress
 
-| Segment | China self-sufficiency |
+| Segment | [[China]] self-sufficiency |
 |---------|------------------------|
 | Cleaning/strip | ~50% |
 | Etch | Growing (Naura + AMEC) |
@@ -68,7 +68,7 @@ Naura is China's answer to Applied Materials/Lam Research — and now has a capt
 **Bear:**
 - Quality gap vs Western tools
 - Can't do leading edge
-- Listed on China A-shares (access issues for foreigners)
+- Listed on [[China]] A-shares (access issues for foreigners)
 - If export controls ease, preference returns to Western
 
 ---
@@ -76,7 +76,7 @@ Naura is China's answer to Applied Materials/Lam Research — and now has a capt
 ## Stock
 
 - Listed: Shanghai (002371.SZ)
-- Access: China A-shares (limited foreign access)
+- Access: [[China]] A-shares (limited foreign access)
 - Valuation: Premium due to policy tailwinds
 
 ---

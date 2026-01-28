@@ -31,7 +31,7 @@ They're not a hyperscaler — they're an **enabler** that provides:
 | Google | TPU design | Massive (internal + cloud) |
 | **Anthropic** | TPUv7 | **~1M units direct** |
 | Meta | Custom AI silicon | Large |
-| OpenAI | Titan chips | $10B deal |
+| OpenAI | [[Titan]] chips | $10B deal |
 | Others | Various ASICs | Varies |
 
 **Anthropic deal (Jan 2026, per SemiAnalysis):**
@@ -43,13 +43,13 @@ They're not a hyperscaler — they're an **enabler** that provides:
 
 ---
 
-## Key risk: Hyperscaler disintermediation
+## Key risk: [[Hyperscaler disintermediation]]
 
 See [[Hyperscaler chip roadmap]] for full details.
 
 **MediaTek appearing in designs:**
 - Google TPUv7e, TPUv8e
-- Microsoft Maia 400
+- [[Microsoft]] Maia 400
 - Bytedance APU
 
 This isn't just Google — it's spreading.
@@ -109,7 +109,7 @@ Broadcom is both ASIC designer AND networking/optical player.
 ## Chip sourcing
 
 - **Foundry**: [[TSMC]] (95% of external wafers)
-- **Samsung exposure**: Low — not exploring alternatives
+- **[[Samsung]] exposure**: Low — not exploring alternatives
 - **F26 purchase commitments**: Only $106M — unusual flexibility while others fight for capacity
 
 ---
@@ -137,11 +137,11 @@ Broadcom is both ASIC designer AND networking/optical player.
 |--------|-------|
 | Top 5 customers | 40% of revenue |
 | Largest distributor | 32% of revenue |
-| Apple | $7B+ |
-| China | 17% ($7.6B) |
+| [[Apple]] | $7B+ |
+| [[China]] | 17% ($7.6B) |
 | Distributor channel | 48% of revenue |
 
-High concentration = risk if Google (Zebrafish) or Apple reduce orders.
+High concentration = risk if Google (Zebrafish) or [[Apple]] reduce orders.
 
 ---
 
@@ -149,7 +149,7 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 
 - **[[Long Broadcom]]** — ASIC explosion thesis, $14.5B → $100B F27E
 - [[Long TSMC]] — Broadcom's custom chips all go to TSMC, reinforces moat
-- [[Short TSMC long Korea]] — neutral to bearish Korea; more TSMC demand, not Samsung
+- [[Short TSMC long Korea]] — neutral to bearish Korea; more TSMC demand, not [[Samsung]]
 
 ---
 
@@ -157,7 +157,7 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 
 **OpenAI deal (Oct 2025):**
 - $10B commitment, 10GW capacity
-- Custom Titan chips, H2 2026 production
+- Custom [[Titan]] chips, H2 2026 production
 - Stock +9% on announcement
 
 **Citi projections:**
@@ -198,7 +198,7 @@ High concentration = risk if Google (Zebrafish) or Apple reduce orders.
 - [[Google]] — major customer (TPU design), disintermediating
 - [[Anthropic]] — customer (~1M TPUv7 direct purchase)
 - [[Meta]] — customer (custom ASICs)
-- [[OpenAI]] — customer ($10B Titan chip deal)
+- [[OpenAI]] — customer ($10B [[Titan]] chip deal)
 - [[TSMC]] — foundry (95% of wafers)
 - [[NVIDIA]] — competitor (GPU vs ASIC)
 - [[MediaTek]] — competitor (Zebrafish threat)

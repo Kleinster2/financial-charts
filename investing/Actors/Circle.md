@@ -12,7 +12,7 @@ Circle issues the second-largest stablecoin:
 |--------|-------|
 | Product | USDC stablecoin |
 | Market cap | ~$30B+ |
-| Backing | USD, Treasuries |
+| Backing | USD, [[Treasuries]] |
 | Partner | [[Coinbase]] (co-creator) |
 
 ---
@@ -21,7 +21,7 @@ Circle issues the second-largest stablecoin:
 
 **Dollar on the blockchain:**
 - 1 USDC = 1 USD (pegged)
-- Backed by cash and short-term Treasuries
+- Backed by cash and short-term [[Treasuries]]
 - Redeemable for dollars
 - Used for trading, DeFi, payments
 
@@ -43,7 +43,7 @@ Circle issues the second-largest stablecoin:
 | Enterprise services | APIs, treasury management |
 | Cross-border payments | Remittances |
 
-**Key:** Circle earns interest on USDC reserves (Treasuries) — higher rates = more revenue.
+**Key:** Circle earns interest on USDC reserves ([[Treasuries]]) — higher rates = more revenue.
 
 ---
 
@@ -124,8 +124,8 @@ The passage of the [[GENIUS Act]] was the "IPO Unlock" Circle needed.
 | [[Goldman Sachs]] | Series D lead |
 | IDG Capital | Early |
 | Breyer Capital | Early |
-| General Catalyst | Growth |
-| Fidelity | Growth |
+| [[General Catalyst]] | Growth |
+| [[Fidelity]] | Growth |
 | [[Coinbase]] | Partner (USDC co-creator) |
 
 **Total raised:** $700M+

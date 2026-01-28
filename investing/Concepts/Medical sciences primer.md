@@ -34,7 +34,7 @@ Traditional pills/capsules. Chemically synthesized.
 | Size | <1,000 daltons |
 | Administration | Usually oral |
 | Manufacturing | Chemical synthesis (cheap) |
-| Examples | Aspirin, statins, Keytruda |
+| Examples | Aspirin, statins, [[Keytruda]] |
 
 **Advantages:** Oral dosing, cheap to make, can enter cells
 **Disadvantages:** Off-target effects, limited to "druggable" targets (~20% of proteins)
@@ -48,7 +48,7 @@ Proteins made in living cells. Includes antibodies.
 | Size | 150,000+ daltons |
 | Administration | Injection/infusion |
 | Manufacturing | Cell culture (expensive) |
-| Examples | Humira, Keytruda, insulin |
+| Examples | Humira, [[Keytruda]], insulin |
 
 **Antibodies (mAbs):** Y-shaped proteins that bind specific targets. Monoclonal = identical copies.
 
@@ -63,7 +63,7 @@ Instructions that tell cells to make proteins temporarily.
 |----------|-------|
 | Mechanism | Cell makes the protein drug |
 | Duration | Days to weeks |
-| Examples | COVID vaccines (Pfizer, Moderna) |
+| Examples | COVID vaccines ([[Pfizer]], Moderna) |
 
 **Advantages:** Fast to design, body makes the protein
 **Disadvantages:** Delivery challenges, stability, duration limited
@@ -78,10 +78,10 @@ Permanently alter DNA to fix or add genes.
 |------|-----------|----------|
 | Gene replacement | Add working copy of broken gene | Permanent |
 | Gene editing (CRISPR) | Cut/modify specific DNA sequences | Permanent |
-| Gene silencing | Block expression of harmful gene | Variable |
+| Gene silencing | [[Block]] expression of harmful gene | Variable |
 
 **Advantages:** Potential cures (one-time treatment)
-**Disadvantages:** Safety unknowns, delivery hard, very expensive ($1-3M per treatment)
+**Disadvantages:** Safety unknowns, delivery hard, very expensive ($1-[[3M]] per treatment)
 
 See [[CRISPR Therapeutics]], [[Vertex]].
 
@@ -175,7 +175,7 @@ Near-copies of biologics after patent expiry. Not identical (biologics are too c
 |---------|---------|---------------|
 | **Oncogene** | Mutated gene driving growth | Targeted inhibitors |
 | **Tumor suppressor** | Broken brake on growth | Harder to drug |
-| **PD-1/PD-L1** | Immune checkpoint | Keytruda, Opdivo |
+| **PD-1/PD-L1** | Immune checkpoint | [[Keytruda]], Opdivo |
 | **HER2** | Growth receptor | Herceptin |
 | **KRAS** | "Undruggable" oncogene | Now druggable (Sotorasib) |
 
@@ -218,7 +218,7 @@ Near-copies of biologics after patent expiry. Not identical (biologics are too c
 | **Regulatory exclusivity** | Orphan drug (7 years), biologics (12 years) |
 | **Manufacturing complexity** | Biologics hard to copy |
 | **Clinical data** | Competitors must run own trials |
-| **Platform** | mRNA (Moderna), AI (Recursion) |
+| **Platform** | mRNA (Moderna), AI ([[Recursion]]) |
 
 ---
 

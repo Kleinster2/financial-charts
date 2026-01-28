@@ -57,7 +57,7 @@ aliases: [ACFTA, ASEAN-China FTA, China-ASEAN]
 |--------|--------|
 | Business | Liberalized |
 | Construction | Opened |
-| Transport | Partial |
+| [[Transport]] | Partial |
 | Finance | Limited |
 
 ### Investment (2009)
@@ -87,12 +87,12 @@ aliases: [ACFTA, ASEAN-China FTA, China-ASEAN]
 | Dimension | China-ASEAN | RCEP |
 |-----------|-------------|------|
 | Members | 11 | 15 |
-| Includes Japan/Korea | No | Yes |
+| Includes [[Japan]]/Korea | No | Yes |
 | Includes ANZ | No | Yes |
 | Rules of origin | Bilateral | Regional cumulation |
 | Status | Still active | Overlays ACFTA |
 
-RCEP expands China-ASEAN with Japan, Korea, Australia, NZ. Both remain in force.
+RCEP expands China-ASEAN with [[Japan]], Korea, [[Australia]], NZ. Both remain in force.
 
 ---
 
@@ -124,7 +124,7 @@ RCEP expands China-ASEAN with Japan, Korea, Australia, NZ. Both remain in force.
 |------|---------|
 | China → ASEAN | Components, intermediate goods |
 | ASEAN → China | Assembly, final goods |
-| China → ASEAN → World | "China+1" manufacturing |
+| China → ASEAN → World | "[[China+1]]" manufacturing |
 
 ### Key beneficiaries
 
@@ -135,15 +135,15 @@ RCEP expands China-ASEAN with Japan, Korea, Australia, NZ. Both remain in force.
 | Singapore logistics | Hub role |
 | Indonesian commodities | China demand |
 
-### China+1 strategy
+### [[China+1]] strategy
 
 | Driver | Effect |
 |--------|--------|
-| US-China tariffs | Shift final assembly to ASEAN |
+| [[US-China tariffs]] | Shift final assembly to ASEAN |
 | Cost arbitrage | Vietnam, Thailand cheaper |
 | Risk diversification | Not all eggs in China |
 
-Companies relocating: Apple suppliers, Samsung, others.
+Companies relocating: [[Apple]] suppliers, [[Samsung]], others.
 
 ---
 

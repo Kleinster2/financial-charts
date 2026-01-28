@@ -15,7 +15,7 @@ Sun Belt DC expansion:
 |--------|-------|
 | Location | Phoenix metro, Arizona |
 | Power | Solar abundant |
-| Key players | Microsoft, Google, AWS |
+| Key players | Microsoft, [[Google]], AWS |
 | Synergy | TSMC fab |
 
 ---
@@ -40,9 +40,9 @@ Sun Belt DC expansion:
 | Company | Investment |
 |---------|------------|
 | Microsoft | Massive expansion |
-| Google | Growing presence |
+| [[Google]] | Growing presence |
 | AWS | West region capacity |
-| Meta | Data centers |
+| [[Meta]] | Data centers |
 | CyrusOne | Major campus |
 
 ---
@@ -62,7 +62,7 @@ Sun Belt DC expansion:
 **Renewable power:**
 - 300+ days of sun
 - Utility-scale solar cheap
-- ESG/carbon goals
+- [[ESG]]/carbon goals
 - 24/7 solar potential
 
 ---
@@ -104,7 +104,7 @@ Sun Belt DC expansion:
 |--------|-------|
 | Location | Phoenix, Arizona |
 | Advantage | Solar, land, TSMC |
-| Key players | Microsoft, Google, AWS |
+| Key players | Microsoft, [[Google]], AWS |
 | Challenge | Water scarcity |
 
 *Updated 2026-01-01*

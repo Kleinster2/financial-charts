@@ -27,7 +27,7 @@ They don't design or manufacture chips — they package and test what foundries 
 
 - Larger packages (~120mm) → more complex assembly
 - Higher heat → advanced test handlers required
-- HBM integration → more packaging steps
+- [[HBM]] integration → more packaging steps
 - Capacity constrained → pricing power
 
 ---
@@ -82,17 +82,17 @@ ASE is foundry-agnostic. Whoever wins foundry, ASE still gets the packaging/test
 
 ---
 
-## US-Taiwan trade deal (Jan 2026)
+## US-[[Taiwan]] trade deal (Jan 2026)
 
 **Beneficiary of [[US-Taiwan relations]] breakthrough:**
 
 | Impact | Detail |
 |--------|--------|
-| Tariffs | Cut to 15% on Taiwan goods |
-| Investment framework | $500B Taiwan chip commitment |
-| Sentiment | Reduced Taiwan risk premium |
+| Tariffs | Cut to 15% on [[Taiwan]] goods |
+| Investment framework | $500B [[Taiwan]] chip commitment |
+| Sentiment | Reduced [[Taiwan]] risk premium |
 
-ASE benefits as Taiwan OSAT leader — lower tariffs on packaged/tested chips shipped to US customers.
+ASE benefits as [[Taiwan]] OSAT leader — lower tariffs on packaged/tested chips shipped to US customers.
 
 ---
 

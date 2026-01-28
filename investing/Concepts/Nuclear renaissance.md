@@ -41,7 +41,7 @@ Data centers need reliable, clean power.
 - 20-year PPA
 - 835 MW dedicated
 - First nuclear restart for AI
-- Signal to market
+- [[Signal]] to market
 
 ---
 
@@ -51,13 +51,13 @@ Data centers need reliable, clean power.
 
 | Player | Role in Stargate | Thesis Connection |
 |--------|------------------|-------------------|
-| **[[Oklo]]** | **SMR Provider** | Sam Altman (OpenAI CEO) is Chairman. Likely preferred SMR partner for long-term buildout. |
+| **[[Oklo]]** | **SMR Provider** | [[Sam Altman]] ([[OpenAI]] CEO) is Chairman. Likely preferred SMR partner for long-term buildout. |
 | **[[Constellation Energy]]** | **Operator** | Only US operator with scale to manage the gigawatt-class nuclear fleet Stargate needs. |
 | **[[Cameco]]** | **Fuel Supplier** | Massive new reactor demand tightens uranium market; owns 49% of Westinghouse (AP1000 tech). |
 | **[[Westinghouse]]** | **Reactor Tech** | AP1000 is the only proven Gen III+ tech for immediate large-scale deployment. |
 | **[[BWX Technologies]]** | **Components** | Key supplier for reactor pressure vessels and SMR components. |
 
-**The Trump II Kicker:** Administration's deregulation push (NRC reform) is essential to meet Stargate's aggressive 2028-2030 timelines.
+**The [[Trump II]] Kicker:** Administration's deregulation push (NRC reform) is essential to meet Stargate's aggressive 2028-2030 timelines.
 
 ---
 
@@ -85,7 +85,7 @@ Best-performing sector in market.
 
 **SMR (speculative):**
 - [[NuScale]] — only NRC-approved
-- [[Oklo]] — Sam Altman backed
+- [[Oklo]] — [[Sam Altman]] backed
 
 ---
 
@@ -103,9 +103,9 @@ Best-performing sector in market.
 
 | Company | Nuclear commitment |
 |---------|-------------------|
-| **[[Meta]]** | **6.6 GW** by 2035 (Constellation, Vistra, TerraPower, Oklo) |
+| **[[Meta]]** | **6.6 GW** by 2035 (Constellation, Vistra, [[TerraPower]], Oklo) |
 | [[Microsoft]] | TMI restart (835 MW) |
-| [[Amazon]] | Talen Energy, X-Energy SMR investments |
+| [[Amazon]] | [[Talen Energy]], X-Energy SMR investments |
 | [[Oracle]] | Exploring nuclear for data centers |
 
 Meta emerging as one of largest corporate nuclear buyers in US history.
@@ -114,17 +114,17 @@ Meta emerging as one of largest corporate nuclear buyers in US history.
 
 **New York:** Gov. Hochul announced plans for **4 GW** new nuclear reactors — more than entire US has built in 30 years.
 
-### EU reversal
+### [[EU]] reversal
 
 | Country | Policy change |
 |---------|---------------|
 | **Belgium** | Reversed nuclear phase-out |
 | **Italy** | Lifted nuclear ban |
-| **Germany** | Recognized nuclear as green energy |
-| **Switzerland** | Reconsidering anti-nuclear stance |
+| **[[Germany]]** | Recognized nuclear as green energy |
+| **[[Switzerland]]** | Reconsidering anti-nuclear stance |
 | **Denmark** | Actively reconsidering |
 
-**EU total:** 81.2 GW nuclear capacity targeted by 2040.
+**[[EU]] total:** 81.2 GW nuclear capacity targeted by 2040.
 
 ### Global pipeline
 
@@ -200,7 +200,7 @@ Hyperscalers interested but patient.
 - [[Cameco]] — upstream (uranium mining, Westinghouse stake)
 - [[Centrus Energy]] — upstream (HALEU enrichment)
 - [[NuScale]] — SMR (only NRC-approved)
-- [[Oklo]] — SMR (Sam Altman backed)
+- [[Oklo]] — SMR ([[Sam Altman]] backed)
 - [[Microsoft]] — catalyst (TMI restart deal)
 - [[Nuclear power for AI]] — context (detailed analysis)
 

@@ -9,7 +9,7 @@ aliases: []
 
 ## Why MiniMax matters
 
-First wave of Chinese post-ChatGPT AI firms going public:
+First wave of Chinese post-[[ChatGPT]] AI firms going public:
 
 | Metric | Value |
 |--------|-------|
@@ -28,7 +28,7 @@ First wave of Chinese post-ChatGPT AI firms going public:
 
 | Detail | Value |
 |--------|-------|
-| Exchange | HKEX (9961.HK) |
+| Exchange | [[HKEX]] (9961.HK) |
 | Price | HK$165 (top of range) |
 | Gross proceeds | HK$5.54B (~$710M) |
 | Cornerstone investors | $350M committed |
@@ -42,15 +42,15 @@ First wave of Chinese post-ChatGPT AI firms going public:
 |----------|------------|
 | MiHoYo | 6.4% (angel) |
 | [[Tencent]] | Prior rounds |
-| Sequoia China | Prior rounds |
+| Sequoia [[China]] | Prior rounds |
 | Hillhouse Capital | Prior rounds |
-| ZhenFund | 6 consecutive rounds |
+| [[ZhenFund]] | 6 consecutive rounds |
 
 ---
 
 ## The "AI Dragons"
 
-MiniMax is one of China's leading AI startups alongside:
+MiniMax is one of [[China]]'s leading AI startups alongside:
 
 | Company | Status |
 |---------|--------|
@@ -83,7 +83,7 @@ First wave of Chinese AI IPOs.
 - Growing domestic market
 
 **Bear:**
-- US-China tech competition
+- US-[[China]] tech competition
 - Export control uncertainty
 - Profitability unclear
 - Valuation in frothy market

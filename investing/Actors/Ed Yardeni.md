@@ -27,7 +27,7 @@ One of the most widely followed macro strategists. Dubbed "Wall Street Seer" by 
 | Early career | Federal Reserve Bank of NY, Fed Board, US Treasury |
 | Academia | Columbia Business School |
 | Wall Street | Chief Economist at E.F. Hutton, Prudential-Bache, CJ Lawrence |
-| Later | Chief Investment Strategist at Deutsche Bank, Prudential Equity, Oak Associates |
+| Later | Chief Investment Strategist at [[Deutsche Bank]], Prudential Equity, Oak Associates |
 | 2007–present | Yardeni Research |
 
 ---

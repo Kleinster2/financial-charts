@@ -16,7 +16,7 @@ TerraPower has the most high-profile backing and a concrete construction project
 | Founder | [[Bill Gates]] |
 | Design | Natrium (sodium-cooled) |
 | First plant | Kemmerer, Wyoming |
-| Timeline | Target late 2020s |
+| Timeline | [[Target]] late 2020s |
 | Capacity | 345 MW (500 MW peak with storage) |
 
 ---
@@ -43,7 +43,7 @@ TerraPower has the most high-profile backing and a concrete construction project
 | Site | Former coal plant |
 | DOE funding | $2B+ |
 | Ground broken | 2024 |
-| Target operation | Late 2020s |
+| [[Target]] operation | Late 2020s |
 
 Converting coal country to nuclear — politically significant.
 
@@ -85,7 +85,7 @@ Gates has called nuclear essential for decarbonization.
 
 TerraPower's Natrium requires HALEU fuel:
 - Only [[Centrus Energy]] produces in US
-- Russia was main supplier (now sanctioned)
+- [[Russia]] was main supplier (now sanctioned)
 - DOE accelerating domestic HALEU
 
 This is a supply chain bottleneck for all advanced reactors.

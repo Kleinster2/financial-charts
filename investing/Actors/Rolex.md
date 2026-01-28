@@ -13,9 +13,9 @@ aliases: [Rolex SA, Rolex Group, Tudor]
 
 | Metric | Value |
 |--------|-------|
-| HQ | Geneva, Switzerland |
+| HQ | Geneva, [[Switzerland]] |
 | Ownership | Hans Wilsdorf Foundation (charitable) |
-| Revenue (2024E) | CHF 10.58B (Morgan Stanley estimate) |
+| Revenue (2024E) | CHF 10.58B ([[Morgan Stanley]] estimate) |
 | Revenue (2023E) | CHF 10.1B |
 | Revenue (2022E) | CHF 9.3B |
 | Market share | **32%** of Swiss watch industry |
@@ -112,7 +112,7 @@ The Swiss watch industry contracted ~3% in 2024 (top 50 brands: CHF 35.3B). But 
 | Factor | Impact |
 |--------|--------|
 | **Price increases** | Up to +20% to offset tariffs/costs |
-| **China demand** | Subdued, not yet recovering |
+| **[[China]] demand** | Subdued, not yet recovering |
 | **Certified pre-owned** | Rolex launched official CPO program (2022) |
 | **Tariff exposure** | Swiss manufacturing, global retail |
 

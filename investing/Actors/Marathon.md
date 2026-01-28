@@ -1,9 +1,9 @@
 ---
-aliases: [Marathon Digital, MARA]
+aliases: [[[Marathon Digital]], MARA]
 ---
 #actor #crypto #datacenter #usa
 
-**Marathon Digital (MARA)** — Largest public Bitcoin miner by market cap. Potential AI/HPC pivot candidate.
+**[[Marathon Digital]] (MARA)** — Largest public Bitcoin miner by market cap. Potential AI/HPC pivot candidate.
 
 ---
 
@@ -21,7 +21,7 @@ Largest crypto miner with DC infrastructure:
 
 ---
 
-## Crypto-to-AI pivot potential
+## [[Crypto]]-to-AI pivot potential
 
 Marathon has infrastructure that could serve AI:
 
@@ -41,11 +41,11 @@ See [[Crypto-to-AI pivot]] for industry trend.
 | Miner | Hash rate | AI pivot status |
 |-------|-----------|-----------------|
 | **Marathon** | ~30 EH/s | Exploring |
-| [[Core Scientific]] | ~20 EH/s | CoreWeave deal |
+| [[Core Scientific]] | ~20 EH/s | [[CoreWeave]] deal |
 | [[Riot Platforms]] | ~20 EH/s | Minimal |
-| [[TeraWulf]] | ~10 EH/s | Anthropic consortium |
-| [[Hut 8]] | ~5 EH/s | Anthropic consortium |
-| [[Cipher Mining]] | ~8 EH/s | Anthropic consortium |
+| [[TeraWulf]] | ~10 EH/s | [[Anthropic]] consortium |
+| [[Hut 8]] | ~5 EH/s | [[Anthropic]] consortium |
+| [[Cipher Mining]] | ~8 EH/s | [[Anthropic]] consortium |
 
 Marathon is largest but hasn't announced major AI deal yet.
 
@@ -95,10 +95,10 @@ Marathon is largest but hasn't announced major AI deal yet.
 ## Related
 
 - [[Crypto-to-AI pivot]] — thesis context
-- [[Core Scientific]] — competitor (CoreWeave deal)
-- [[TeraWulf]] — competitor (Anthropic deal)
-- [[Hut 8]] — competitor (Anthropic deal)
-- [[Cipher Mining]] — competitor (Anthropic deal)
+- [[Core Scientific]] — competitor ([[CoreWeave]] deal)
+- [[TeraWulf]] — competitor ([[Anthropic]] deal)
+- [[Hut 8]] — competitor ([[Anthropic]] deal)
+- [[Cipher Mining]] — competitor ([[Anthropic]] deal)
 - [[Riot Platforms]] — competitor
 - [[Power constraints]] — infrastructure value
 - [[BYOP]] — power as moat

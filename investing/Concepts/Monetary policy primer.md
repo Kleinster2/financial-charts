@@ -10,7 +10,7 @@
 
 | Function | Mechanism |
 |----------|-----------|
-| **Price stability** | Target inflation (~2%) |
+| **Price stability** | [[Target]] inflation (~2%) |
 | **Full employment** | Support labor market |
 | **Financial stability** | Lender of last resort |
 | **Payment system** | Operate interbank settlement |
@@ -27,7 +27,7 @@ The rate central banks directly control.
 
 | Central bank | Policy rate | Current (Jan 2026) |
 |--------------|-------------|-------------------|
-| **Federal Reserve** | Fed Funds Rate | ~4.25% |
+| **[[Federal Reserve]]** | Fed Funds Rate | ~4.25% |
 | **ECB** | Deposit Facility Rate | ~2.5% |
 | **BoJ** | Overnight Call Rate | ~0.5% |
 | **BoE** | Bank Rate | ~4.0% |
@@ -67,7 +67,7 @@ Steep:
 | Spread | What it measures |
 |--------|------------------|
 | 2s10s | 10Y minus 2Y Treasury — classic inversion signal |
-| 3m10y | 10Y minus 3M Treasury — Fed's preferred |
+| 3m10y | 10Y minus [[3M]] Treasury — Fed's preferred |
 | Term premium | Extra yield for duration risk |
 
 **Yield curve inversion:** Has preceded every US recession since 1970. Lead time: 6-18 months.
@@ -76,10 +76,10 @@ Steep:
 
 ## Quantitative easing (QE)
 
-Central bank buys assets (Treasuries, MBS) to:
+Central bank buys assets ([[Treasuries]], MBS) to:
 - Lower long-term rates
 - Inject reserves into banking system
-- Signal commitment to easy policy
+- [[Signal]] commitment to easy policy
 
 ```
 QE mechanics:
@@ -124,7 +124,7 @@ Short-term funding markets (<1 year).
 
 ### Fed funds market
 
-Banks lend reserves to each other overnight. Rate = effective fed funds rate.
+[[Banks]] lend reserves to each other overnight. Rate = effective fed funds rate.
 
 ### Repo market
 
@@ -177,20 +177,20 @@ Demand falls, inflation cools
 
 | Metric | What it measures | Fed preference |
 |--------|------------------|----------------|
-| **CPI** | Consumer prices | Headline number |
+| **CPI** | [[Consumer]] prices | Headline number |
 | **Core CPI** | Ex-food, energy | Less volatile |
 | **PCE** | Personal consumption | **Fed's target** |
 | **Core PCE** | Ex-food, energy | **Primary focus** |
 | **Supercore** | Services ex-housing | Wage pressure proxy |
 
-**Target:** 2% core PCE (average over time).
+**[[Target]]:** 2% core PCE (average over time).
 
 ### Inflation expectations
 
 | Measure | Source |
 |---------|--------|
 | TIPS breakevens | Market-implied (10Y nominal − 10Y TIPS) |
-| Michigan survey | Consumer expectations |
+| Michigan survey | [[Consumer]] expectations |
 | Fed's SEP | FOMC projections |
 
 **Anchored expectations:** Key to Fed credibility. If expectations unanchor, harder to control actual inflation.
@@ -252,7 +252,7 @@ The rate that neither stimulates nor restricts growth.
 
 When central banks move different directions:
 - Currency impacts (rate differentials drive flows)
-- Carry trade opportunities
+- [[Carry trade]] opportunities
 - Capital flow volatility
 
 ---
@@ -264,10 +264,10 @@ Broader measure than just rates. Includes:
 | Component | Measure |
 |-----------|---------|
 | Interest rates | Fed funds, 10Y Treasury |
-| Credit spreads | IG, HY spreads over Treasuries |
+| Credit spreads | IG, HY spreads over [[Treasuries]] |
 | Equity prices | Stock market levels |
-| Dollar | Trade-weighted index |
-| Volatility | VIX |
+| Dollar | [[Trade]]-weighted index |
+| Volatility | [[VIX]] |
 
 **Financial conditions indexes:** Goldman, Chicago Fed, Bloomberg. Fed watches these — can offset rate hikes if conditions tighten too fast.
 

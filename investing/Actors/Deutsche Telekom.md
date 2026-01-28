@@ -3,7 +3,7 @@ aliases: [DTE, DTEGY]
 ---
 #actor #telecom #germany #europe #public
 
-**Deutsche Telekom** — Europe's largest telecom. T-Mobile US parent. German incumbent.
+**Deutsche Telekom** — [[Europe]]'s largest telecom. T-Mobile US parent. German incumbent.
 
 ---
 
@@ -36,7 +36,7 @@ Most valuable asset is American.
 
 | Market | Position |
 |--------|----------|
-| Germany | Incumbent (#1) |
+| [[Germany]] | Incumbent (#1) |
 | Poland | T-Mobile Polska |
 | Austria | Magenta |
 | Various | Pan-European |
@@ -49,7 +49,7 @@ Most valuable asset is American.
 - IT services division
 - Cloud services
 - Digital transformation
-- SAP partnerships
+- [[SAP]] partnerships
 
 ---
 

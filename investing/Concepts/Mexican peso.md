@@ -53,7 +53,7 @@ The peso is a classic carry trade currency:
 | Risk | Impact |
 |------|--------|
 | **Banxico rate cuts** | Narrowing spread reduces carry attractiveness |
-| **USMCA 2026 review** | Trade uncertainty |
+| **[[USMCA]] 2026 review** | [[Trade]] uncertainty |
 | **Tariff threats** | Trump using trade policy as leverage |
 | **BoJ normalization** | Global carry trade unwind (affects all EM FX) |
 | **Risk-off event** | MXN historically volatile in selloffs |
@@ -82,7 +82,7 @@ The peso is a classic carry trade currency:
 ## Analyst views
 
 **FXStreet (Dec 2025):**
-> "Peso enters 2026 strong, but carry and USMCA risks loom large."
+> "Peso enters 2026 strong, but carry and [[USMCA]] risks loom large."
 
 **Consensus 2026 forecast:** 17-19 USDMXN by year-end.
 
@@ -93,7 +93,7 @@ The peso is a classic carry trade currency:
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | WisdomTree Mexican Peso | FXM | Pure currency exposure |
-| iShares MSCI Mexico | EWW | Equity + currency exposure |
+| iShares [[MSCI]] Mexico | EWW | Equity + currency exposure |
 | Spot FX | USDMXN | Direct (via forex broker) |
 
 ---
@@ -110,7 +110,7 @@ The peso is a classic carry trade currency:
 ### Other EM currencies
 - [[Chinese yuan]] — managed float, different dynamics
 - [[Brazilian real]] — fellow LatAm carry currency
-- [[Indian rupee]] — Asia EM comparison
+- [[Indian rupee]] — [[Asia]] EM comparison
 
 ---
 

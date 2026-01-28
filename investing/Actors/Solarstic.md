@@ -71,7 +71,7 @@ Replaces glass-based solar panels with **polymer packaging** — lighter, flexib
 
 **Thesis:** If technology scales, could differentiate Hyundai EVs and reduce charging infrastructure dependency.
 
-**Competition:** Toyota solar roof (Prius), Lightyear (bankrupt), Aptera (pre-production).
+**Competition:** [[Toyota]] solar roof (Prius), Lightyear (bankrupt), Aptera (pre-production).
 
 ---
 

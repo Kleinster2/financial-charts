@@ -3,7 +3,7 @@ aliases: [ProLogium Technology]
 ---
 #actor #batteries #solidstate #taiwan #ces2026
 
-**ProLogium** — Taiwan-based solid-state battery pioneer. 20 years in development. Mercedes-backed.
+**ProLogium** — [[Taiwan]]-based solid-state battery pioneer. 20 years in development. Mercedes-backed.
 
 ---
 
@@ -12,15 +12,15 @@ aliases: [ProLogium Technology]
 | Metric | Value |
 |--------|-------|
 | Founded | 2006 |
-| HQ | Taiwan |
+| HQ | [[Taiwan]] |
 | Key backer | Mercedes-Benz |
-| Technology | Lithium ceramic (oxide) |
+| Technology | [[Lithium]] ceramic (oxide) |
 
 ---
 
 ## CES 2026 announcement
 
-**20th anniversary unveiling:** Superfluidized All-Inorganic Solid-State Lithium Ceramic Battery
+**20th anniversary unveiling:** Superfluidized All-Inorganic Solid-State [[Lithium]] Ceramic Battery
 
 | Claim | Significance |
 |-------|--------------|
@@ -32,7 +32,7 @@ aliases: [ProLogium Technology]
 
 ## Technology
 
-### Lithium Ceramic Battery (LCB)
+### [[Lithium]] Ceramic Battery (LCB)
 
 | Feature | Benefit |
 |---------|---------|
@@ -47,11 +47,11 @@ aliases: [ProLogium Technology]
 
 ---
 
-## Target applications
+## [[Target]] applications
 
 | Segment | Partner/Status |
 |---------|----------------|
-| **Automotive** | Mercedes-Benz partnership |
+| **[[Automotive]]** | Mercedes-Benz partnership |
 | **E-bikes** | Darfon Energy Tech partnership |
 | **Construction equipment** | CES 2026 demo |
 | **Humanoid robots** | CES 2026 demo |
@@ -73,8 +73,8 @@ aliases: [ProLogium Technology]
 
 | Facility | Location | Status |
 |----------|----------|--------|
-| Pilot line | Taiwan | Operating |
-| Gigafactory | France (planned) | In development |
+| Pilot line | [[Taiwan]] | Operating |
+| Gigafactory | [[France]] (planned) | In development |
 | Capacity target | 48 GWh | By 2028 |
 
 ---
@@ -97,7 +97,7 @@ aliases: [ProLogium Technology]
 - Mercedes backing (capital + validation)
 - First to pass ARC no-thermal-runaway test
 - Multi-market applications
-- Taiwan manufacturing base
+- [[Taiwan]] manufacturing base
 
 **Bear:**
 - Private (limited access)

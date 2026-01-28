@@ -5,7 +5,7 @@ aliases: [AAPL]
 
 # Apple (AAPL)
 
-Consumer electronics giant with world-class silicon design team. TSMC's anchor customer.
+[[Consumer]] electronics giant with world-class silicon design team. TSMC's anchor customer.
 
 ---
 
@@ -159,7 +159,7 @@ Apple developing multiple AI-powered devices. Most ambitious hardware push since
 |--------|-------|
 | Size | AirTag-sized |
 | Features | Multiple cameras, speaker, mics, wireless charging |
-| Target launch | **2027** |
+| [[Target]] launch | **2027** |
 | Production target | **20M units** |
 
 **Context:** [[Humane]] AI Pin sold poorly. Apple betting on execution + ecosystem. 20M units = 10x Meta Rayban's lifetime sales (2M).
@@ -182,15 +182,15 @@ Major Siri overhaul underway (codename "Campos"):
 - **Personal data integration** — tap into apps, calendar, files
 - **Universal search** — better web + app results
 
-Reportedly powered by [[Google]] Gemini as backend (see [[Apple-Google AI deal]]).
+Reportedly powered by [[Google]] [[Gemini]] as backend (see [[Apple-Google AI deal]]).
 
-**Competitive context:** [[Google]] says its AI glasses shipping 2026. Demis Hassabis: "one of the things I'm personally working on."
+**Competitive context:** [[Google]] says its AI glasses shipping 2026. [[Demis Hassabis]]: "one of the things I'm personally working on."
 
 ---
 
 ## Rare earth supply chain
 
-Apple is hedging against China's [[Rare earth leverage]]:
+Apple is hedging against [[China]]'s [[Rare earth leverage]]:
 
 ### MP Materials partnership (July 2025)
 
@@ -205,11 +205,11 @@ Apple is hedging against China's [[Rare earth leverage]]:
 
 **Recycling innovation**: 5 years of pilot work. Commercial-scale line at Mountain Pass will process end-of-life devices and magnet scrap.
 
-**Strategic logic**: China controls 90%+ of rare earth magnet production. Apple is building domestic supply before a crisis forces it.
+**Strategic logic**: [[China]] controls 90%+ of rare earth magnet production. Apple is building domestic supply before a crisis forces it.
 
 ### Limitation
 
-[[MP Materials]] does light rare earths (neodymium, praseodymium). [[Dysprosium]] — the critical heavy REE for high-temp magnets — still comes from China. This hedges some risk, not all.
+[[MP Materials]] does light rare earths (neodymium, praseodymium). [[Dysprosium]] — the critical heavy REE for high-temp magnets — still comes from [[China]]. This hedges some risk, not all.
 
 ---
 
@@ -262,7 +262,7 @@ See [[Short interest]] for interpretation framework.
 - [[Foundry Wars]] — manufacturing context
 - [[N-2 rule]] — design excellence context
 - [[Memory shortage 2025-2026]] — insulated by scale (CFO: "managing costs well")
-- [[Google]] — Gemini powering Siri backend
+- [[Google]] — [[Gemini]] powering Siri backend
 - [[Meta]] — ATT impact (~$10B), AI glasses competitor
 - [[Snap]] — ATT impact (~$546M)
 - [[OpenAI]] — competing for AI device market

@@ -3,7 +3,7 @@ aliases: [INR, USDINR, rupee]
 ---
 #concept #currency #fx #emerging-markets
 
-**Indian rupee** — Asia's most stable EM currency due to RBI management. Modest depreciation trend vs USD despite strong economy.
+**Indian rupee** — [[Asia]]'s most stable EM currency due to RBI management. Modest depreciation trend vs USD despite strong economy.
 
 ---
 
@@ -42,7 +42,7 @@ Result: INR has low volatility for EM, but steady depreciation trend (~3-4%/year
 
 **Negative:**
 - Current account deficit (oil imports)
-- Inflation (food prices volatile)
+- [[Inflation]] (food prices volatile)
 - Capital account restrictions
 
 ---
@@ -52,14 +52,14 @@ Result: INR has low volatility for EM, but steady depreciation trend (~3-4%/year
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | WisdomTree Indian Rupee | ICN | Pure INR exposure |
-| iShares MSCI India | INDA | India equity + INR |
+| iShares [[MSCI]] India | INDA | India equity + INR |
 
 ---
 
 ## Related
 
 - [[India]] — economy, RBI policy
-- [[Chinese yuan]] — Asia EM comparison
+- [[Chinese yuan]] — [[Asia]] EM comparison
 
 ---
 

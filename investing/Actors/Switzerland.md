@@ -13,7 +13,7 @@
 | GDP per capita | ~$100K (top 5 globally) |
 | Key sectors | Pharma, finance, watches, food |
 | Currency | CHF (safe haven) |
-| EU status | Not a member (bilateral agreements) |
+| [[EU]] status | Not a member (bilateral agreements) |
 
 ---
 
@@ -32,26 +32,26 @@
 
 | Institution | Focus |
 |-------------|-------|
-| UBS | Wealth management (#1 globally) |
-| Credit Suisse | Acquired by UBS (2023) |
+| [[UBS]] | Wealth management (#1 globally) |
+| Credit Suisse | Acquired by [[UBS]] (2023) |
 | Julius Baer | Private banking |
-| Swiss Re | Reinsurance |
-| Zurich Insurance | Global insurer |
+| [[Swiss Re]] | Reinsurance |
+| Zurich [[Insurance]] | Global insurer |
 
-**UBS + Credit Suisse merger:** Created wealth management giant, but concentration risk.
+**[[UBS]] + Credit Suisse merger:** Created wealth management giant, but concentration risk.
 
 ### Luxury / Watches
 
 | Company | Focus |
 |---------|-------|
-| Richemont | Cartier, IWC, Vacheron |
+| [[Richemont]] | Cartier, IWC, Vacheron |
 | Swatch Group | Omega, Breguet, Swatch |
-| Rolex | Private |
+| [[Rolex]] | Private |
 | Patek Philippe | Private |
 
 **Swiss watches** = global luxury status symbol. ~$25B export industry.
 
-### Food / Consumer
+### Food / [[Consumer]]
 
 | Company | Focus |
 |---------|-------|
@@ -62,10 +62,10 @@
 
 | Company | Focus |
 |---------|-------|
-| ABB | Automation, robotics |
-| Holcim | Cement, building materials |
+| [[ABB]] | Automation, robotics |
+| Holcim | [[Cement]], building materials |
 | Schindler | Elevators |
-| TE Connectivity | Sensors, connectors |
+| TE Connectivity | [[Sensors]], connectors |
 
 ---
 
@@ -74,10 +74,10 @@
 | Theme | Expression |
 |-------|------------|
 | Pharma | Novartis, Roche |
-| Wealth management | UBS post-CS merger |
-| Luxury watches | Richemont, Swatch |
-| Consumer staples | Nestlé (defensive) |
-| Industrial | ABB (automation) |
+| Wealth management | [[UBS]] post-CS merger |
+| Luxury watches | [[Richemont]], Swatch |
+| [[Consumer]] staples | Nestlé (defensive) |
+| Industrial | [[ABB]] (automation) |
 
 ---
 
@@ -89,7 +89,7 @@
 | **CHF strength** | Headwind for exporters |
 | **Low taxes** | Corporate-friendly |
 | **Talent hub** | Top universities, expat professionals |
-| **Not EU** | Regulatory independence |
+| **Not [[EU]]** | Regulatory independence |
 | **Banking secrecy** | Eroded but still private |
 
 ---
@@ -98,26 +98,26 @@
 
 | Company | Ticker | Sector |
 |---------|--------|--------|
-| Nestlé | NESN.SW | Consumer |
+| Nestlé | NESN.SW | [[Consumer]] |
 | Novartis | NOVN.SW | Pharma |
 | Roche | ROG.SW | Pharma |
-| UBS | UBSG.SW | Banking |
-| Richemont | CFR.SW | Luxury |
-| ABB | ABBN.SW | Industrial |
-| Zurich Insurance | ZURN.SW | Insurance |
+| [[UBS]] | UBSG.SW | Banking |
+| [[Richemont]] | CFR.SW | Luxury |
+| [[ABB]] | ABBN.SW | Industrial |
+| Zurich [[Insurance]] | ZURN.SW | [[Insurance]] |
 | Holcim | HOLN.SW | Materials |
 
 ---
 
 ## Related
 
-- [[Europe]] — regional hub (though not EU)
+- [[Europe]] — regional hub (though not [[EU]])
 - [[OECD]] — member (Pillar 2 impacts holding structures)
-- [[EFTA]] — trade bloc (not EU, not EEA)
+- [[EFTA]] — trade bloc (not [[EU]], not EEA)
 - [[Novartis]] — pharma giant
 - [[Roche]] — pharma/diagnostics
 - [[Nestlé]] — consumer staples
-- [[Luxury]] — Richemont, watches
+- [[Luxury]] — [[Richemont]], watches
 
 ---
 

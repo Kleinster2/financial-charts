@@ -41,7 +41,7 @@ aliases: []
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Latest | **Jan 2026** | **$300M** | **$5B** | IVP, CapitalG |
+| Latest | **Jan 2026** | **$300M** | **$5B** | [[IVP]], [[CapitalG]] |
 | Prior rounds | 2024-2025 | ~$285M | — | Various |
 | **Total** | | **$585M** | | |
 
@@ -52,11 +52,11 @@ Third funding round in 12 months — accelerating capital deployment.
 | Investor | Notes |
 |----------|-------|
 | **[[NVIDIA]]** | **$150M** in Jan 2026 round (customer's chips) |
-| IVP | Co-led Jan 2026 |
-| CapitalG | Co-led Jan 2026 (Alphabet's growth fund) |
+| [[IVP]] | Co-led Jan 2026 |
+| [[CapitalG]] | Co-led Jan 2026 (Alphabet's growth fund) |
 | Bond | Existing investor |
 | Greylock | Existing investor |
-| Spark Capital | Existing investor |
+| [[Spark Capital]] | Existing investor |
 
 ---
 
@@ -83,7 +83,7 @@ NVIDIA's $150M investment (half the round) fits a pattern of investing in custom
 | [[Fireworks AI]] | $4B (Oct 2025) | Serverless inference cloud (PyTorch team) |
 | [[Cerebras]] | $22B (Jan 2026 talks) | Custom inference chips + cloud |
 | [[Groq]] | NVIDIA-partnered | LPU inference chips |
-| Together AI | ~$3B | Training + inference platform |
+| [[Together AI]] | ~$3B | Training + inference platform |
 | Anyscale/Ray | — | Distributed compute |
 
 **Differentiation:** Baseten focuses on the deployment/orchestration layer rather than custom silicon. Platform-agnostic approach works with NVIDIA GPUs.

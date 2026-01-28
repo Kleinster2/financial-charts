@@ -3,7 +3,7 @@ aliases: [Tb]
 ---
 #concept #commodities #china #critical
 
-**Terbium** — The dual-role rare earth. Works as both a [[Dysprosium]] substitute in magnets AND produces green phosphors. 99% China-controlled. Bridges the magnet-phosphor divide.
+**Terbium** — The dual-role rare earth. Works as both a [[Dysprosium]] substitute in magnets AND produces green phosphors. 99% [[China]]-controlled. Bridges the magnet-phosphor divide.
 
 ---
 
@@ -32,7 +32,7 @@ Terbium can replace dysprosium in NdFeB magnets to improve high-temperature perf
 | Coercivity | Prevents demagnetization |
 | Interchangeability | ~1:1 with Dy in many applications |
 
-**Trade-off**: Terbium is more expensive than dysprosium ($450-600/kg vs $300-400/kg). Used when Dy is unavailable or for premium applications.
+**[[Trade]]-off**: Terbium is more expensive than dysprosium ($450-600/kg vs $300-400/kg). Used when Dy is unavailable or for premium applications.
 
 ### End uses
 
@@ -40,8 +40,8 @@ Terbium can replace dysprosium in NdFeB magnets to improve high-temperature perf
 |--------|-------------|
 | EVs | Traction motor magnets |
 | Wind turbines | Generator magnets |
-| Defense | Guidance systems, motors |
-| Aerospace | High-temp environments |
+| [[Defense]] | Guidance systems, motors |
+| [[Aerospace]] | High-temp environments |
 | **Semiconductor equipment** | High-NA EUV stage magnets |
 
 ### Semiconductor equipment angle
@@ -73,9 +73,9 @@ Works alongside [[Europium]] (red) and yttrium (blue) to create full-color displ
 
 ---
 
-## China dominance
+## [[China]] dominance
 
-| Stage | China share |
+| Stage | [[China]] share |
 |-------|-------------|
 | Mining | ~90% |
 | Processing | ~99% |
@@ -89,9 +89,9 @@ Works alongside [[Europium]] (red) and yttrium (blue) to create full-color displ
 
 | Source | Status |
 |--------|--------|
-| Browns Range, Australia | One of few non-China Tb sources |
-| Greenland | Exploration stage |
-| Canada | Small projects |
+| Browns Range, [[Australia]] | One of few non-[[China]] Tb sources |
+| [[Greenland]] | Exploration stage |
+| [[Canada]] | Small projects |
 | Recycling | Early stage |
 
 Browns Range (Northern Minerals) is notable as one of the only operating non-Chinese heavy rare earth projects.
@@ -100,7 +100,7 @@ Browns Range (Northern Minerals) is notable as one of the only operating non-Chi
 
 ## 2025 export controls
 
-Terbium was targeted in China's April 2025 restrictions:
+Terbium was targeted in [[China]]'s April 2025 restrictions:
 
 | Date | Action |
 |------|--------|
@@ -134,7 +134,7 @@ Terbium may face the tightest supply-demand squeeze of any rare earth by 2040.
 | Phosphor role | Green | None | Red |
 | Price | $450-600/kg | $300-400/kg | $30-50/kg |
 | 2040 demand growth | 20x | 13x | Moderate |
-| China control | 99% | 99% | 95% |
+| [[China]] control | 99% | 99% | 95% |
 
 **Terbium's unique position**: If Dysprosium runs short, Terbium is the only fallback. But Terbium is also needed for phosphors. Double squeeze potential.
 
@@ -146,13 +146,13 @@ Terbium may face the tightest supply-demand squeeze of any rare earth by 2040.
 - Dual magnet/phosphor demand
 - Dy substitute = insurance policy
 - Fastest projected demand growth
-- Extremely limited non-China supply
+- Extremely limited non-[[China]] supply
 
 **Watch for:**
 - Browns Range production ramp
 - Terbium-Dysprosium price spread
 - Wind turbine magnet specifications
-- China export policy changes
+- [[China]] export policy changes
 
 ---
 

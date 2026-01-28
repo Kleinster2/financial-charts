@@ -40,7 +40,7 @@ All-in-one replaces multiple tools.
 | Metric | Value |
 |--------|-------|
 | Users | 30M+ |
-| Teams | 4M+ |
+| [[Teams]] | 4M+ |
 | ARR | ~$500M+ (est.) |
 | Growth | 30%+ |
 
@@ -77,7 +77,7 @@ AI monetization opportunity.
 | Competitor | Overlap |
 |------------|---------|
 | Confluence (Atlassian) | Wikis |
-| Google Docs | Documents |
+| [[Google]] Docs | Documents |
 | [[Monday.com]] | Projects |
 | Coda | Docs + apps |
 

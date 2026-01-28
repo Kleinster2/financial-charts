@@ -54,11 +54,11 @@ aliases: [MC, Louis Vuitton, Moet Hennessy]
 
 ---
 
-## China exposure
+## [[China]] exposure
 
 | Factor | Impact |
 |--------|--------|
-| China % | ~25-30% of sales |
+| [[China]] % | ~25-30% of sales |
 | Recovery | Slower than expected |
 | Competition | Domestic brands |
 
@@ -74,7 +74,7 @@ aliases: [MC, Louis Vuitton, Moet Hennessy]
 - Tiffany integration
 
 **Bear:**
-- China slowdown
+- [[China]] slowdown
 - Luxury normalization post-COVID
 - Aspirational consumer weakness
 - Succession uncertainty

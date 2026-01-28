@@ -51,12 +51,12 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 - Venezuela/international upside
 - Operational efficiency focus
 - Dividend + buybacks
-- Oil demand resilient
+- [[Oil]] demand resilient
 
 **Bear:**
 - Cyclical (oil price dependent)
 - Permian activity slowing
-- ESG pressure on oil
+- [[ESG]] pressure on oil
 - Competition from SLB
 
 ---
@@ -67,7 +67,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 |--------|-------|
 | Revenue | ~$23B |
 | Operating margin | ~15% |
-| Free cash flow | ~$2B |
+| [[Free cash flow]] | ~$2B |
 | Dividend yield | ~2% |
 
 ---
@@ -78,7 +78,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 |--------|-------------|------------------|------------------|
 | Size | #2 | #1 | #3 |
 | Focus | N. America | International | Diversified |
-| Tech | Fracking leader | Broad portfolio | LNG/digital |
+| Tech | Fracking leader | Broad portfolio | [[LNG]]/digital |
 
 ---
 

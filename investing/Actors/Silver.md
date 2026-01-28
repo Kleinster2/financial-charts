@@ -19,7 +19,7 @@ aliases: [XAG, Silver price]
 
 **Record driver:** Supply shortfalls, solar demand, China speculation, tariff fears causing US warehouse hoarding.
 
-**Jan 2026:** Hit record alongside gold and copper — geopolitical tension (US, Iran, Venezuela) driving safe-haven flows. Silver miners benefiting from higher volatility magnifying gains.
+**Jan 2026:** Hit record alongside gold and copper — geopolitical tension (US, [[Iran]], [[Venezuela]]) driving safe-haven flows. Silver miners benefiting from higher volatility magnifying gains.
 
 ---
 
@@ -57,7 +57,7 @@ aliases: [XAG, Silver price]
 - Used in solar panel contacts (conductivity)
 - ~100mg per panel (varies by technology)
 - Solar = largest industrial demand source
-- China solar buildout = massive silver consumption
+- [[China solar buildout]] = massive silver consumption
 
 | Year | Solar silver demand |
 |------|---------------------|

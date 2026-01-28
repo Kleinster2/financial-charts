@@ -48,7 +48,7 @@ SaaS looks worse initially but **compounds** — by Year 5, the SaaS customer is
 
 ---
 
-## Key SaaS metrics that drive multiples
+## Key [[SaaS metrics]] that drive multiples
 
 | Metric | Definition | Premium threshold |
 |--------|------------|-------------------|

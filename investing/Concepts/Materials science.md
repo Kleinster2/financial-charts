@@ -7,24 +7,24 @@
 ## Why materials matter for investing
 
 1. **Long development cycles** — 10-20 years from discovery to production
-2. **Winner-take-most** — First to scale often dominates (see: TSMC, Corning)
+2. **Winner-take-most** — First to scale often dominates (see: [[TSMC]], [[Corning]])
 3. **Supply chain concentration** — Often single-source or single-country
 4. **Capex intensity** — Materials facilities cost billions
 5. **Talent scarcity** — PhD-level expertise, aging workforce
 
 ## Key domains
 
-### Semiconductors
+### [[Semiconductors]]
 
 The most advanced materials manufacturing on Earth.
 
 | Material | Use | Key players |
 |----------|-----|-------------|
-| Silicon wafers | Substrate | Shin-Etsu, SUMCO, Siltronic |
-| Photoresists | Patterning | JSR, TOK, Shin-Etsu |
+| Silicon wafers | Substrate | [[Shin-Etsu]], SUMCO, [[Siltronic]] |
+| Photoresists | Patterning | JSR, TOK, [[Shin-Etsu]] |
 | CMP slurries | Polishing | Cabot, CMC Materials |
-| Specialty gases | Deposition, etch | Air Liquide, Linde |
-| Copper/cobalt | Interconnects | — |
+| Specialty gases | Deposition, etch | [[Air Liquide]], Linde |
+| [[Copper]]/cobalt | Interconnects | — |
 | High-k dielectrics | Transistors | — |
 
 See [[Semiconductor Materials]] for deep dive.
@@ -35,14 +35,14 @@ See [[Semiconductor Materials]] for deep dive.
 - Backside power delivery materials
 - Advanced packaging substrates
 
-### Batteries
+### [[Batteries]]
 
 Energy density and cost improvements are materials problems.
 
 | Material | Use | Key players |
 |----------|-----|-------------|
-| Lithium | Cathode, electrolyte | Albemarle, SQM, Ganfeng |
-| Nickel | Cathode (NMC, NCA) | Norilsk, Vale, BHP |
+| Lithium | Cathode, electrolyte | [[Albemarle]], [[SQM]], Ganfeng |
+| Nickel | Cathode (NMC, NCA) | Norilsk, [[Vale]], [[BHP]] |
 | Cobalt | Cathode (stabilizer) | Glencore, CMOC |
 | Graphite | Anode | China (~70% share) |
 | Manganese | Cathode (LFP, LMFP) | South32 |
@@ -64,11 +64,11 @@ Critical for EVs, wind turbines, defense.
 | Material | Use | Key players |
 |----------|-----|-------------|
 | Neodymium | Permanent magnets | China (~90%), MP Materials |
-| Dysprosium | High-temp magnets | China dominant |
+| [[Dysprosium]] | High-temp magnets | China dominant |
 | Praseodymium | Magnet alloys | China dominant |
-| Samarium-cobalt | Aerospace magnets | — |
+| Samarium-cobalt | [[Aerospace]] magnets | — |
 
-**The China problem:** China controls ~60% of rare earth mining, ~90% of processing. Strategic vulnerability for US/EU.
+**The China problem:** China controls ~60% of rare earth mining, ~90% of processing. Strategic vulnerability for US/[[EU]].
 
 See [[MP Materials]], [[Rare earths]], [[China]].
 
@@ -79,11 +79,11 @@ Enabling power electronics and RF.
 | Material | Properties | Applications |
 |----------|------------|--------------|
 | Silicon carbide (SiC) | High voltage, high temp | EVs, industrial |
-| Gallium nitride (GaN) | High frequency, efficiency | Chargers, RF, data centers |
-| Gallium oxide | Ultra-wide bandgap | Early research |
+| [[Gallium]] nitride (GaN) | High frequency, efficiency | Chargers, RF, data centers |
+| [[Gallium]] oxide | Ultra-wide bandgap | Early research |
 | Diamond | Ultimate thermal | Far future |
 
-**Key players:** Wolfspeed (SiC), Cree, ON Semi, Infineon, STMicro
+**Key players:** Wolfspeed (SiC), Cree, ON Semi, [[Infineon]], [[STMicro]]
 
 See [[Silicon carbide]], [[Gallium nitride]].
 
@@ -93,9 +93,9 @@ Enabling screens from phones to TVs.
 
 | Material | Use | Key players |
 |----------|-----|-------------|
-| OLED emitters | Light emission | Universal Display (IP), Samsung, LG |
-| Quantum dots | Color enhancement | Nanosys, Samsung |
-| Glass substrates | Panels | Corning (dominant) |
+| OLED emitters | Light emission | Universal Display (IP), [[Samsung]], LG |
+| Quantum dots | Color enhancement | Nanosys, [[Samsung]] |
+| Glass substrates | Panels | [[Corning]] (dominant) |
 | Polarizers | Light filtering | Nitto Denko, LG Chem |
 
 ### Thermal management
@@ -104,7 +104,7 @@ Increasingly critical as chips run hotter.
 
 | Material | Use | Thermal conductivity |
 |----------|-----|---------------------|
-| Copper | Heat spreaders | 400 W/mK |
+| [[Copper]] | Heat spreaders | 400 W/mK |
 | Aluminum | Heat sinks | 200 W/mK |
 | Graphite sheets | Phones, laptops | 1,500 W/mK (in-plane) |
 | Diamond | Future | 2,000 W/mK |
@@ -114,12 +114,12 @@ Increasingly critical as chips run hotter.
 
 ### Structural materials
 
-Aerospace, defense, infrastructure.
+[[Aerospace]], defense, infrastructure.
 
 | Material | Properties | Applications |
 |----------|------------|--------------|
-| Carbon fiber | Light, strong | Aerospace, EVs |
-| Titanium | Strong, corrosion-resistant | Aerospace, medical |
+| Carbon fiber | Light, strong | [[Aerospace]], EVs |
+| Titanium | Strong, corrosion-resistant | [[Aerospace]], medical |
 | Advanced alloys | High-temp performance | Jet engines |
 | Composites | Tailored properties | Wind blades, aircraft |
 
@@ -136,13 +136,13 @@ When demand outstrips materials supply:
 
 **Implication:** Materials are cyclical. Time entries carefully.
 
-### Japan/Germany materials dominance
+### Japan/[[Germany]] materials dominance
 
-Critical materials often controlled by Japan or Germany:
+Critical materials often controlled by Japan or [[Germany]]:
 - Photoresists: Japan (JSR, TOK)
-- Wafers: Japan (Shin-Etsu, SUMCO)
-- Specialty chemicals: Germany (BASF, Merck KGaA)
-- Gases: France/Germany (Air Liquide, Linde)
+- Wafers: Japan ([[Shin-Etsu]], SUMCO)
+- Specialty chemicals: [[Germany]] (BASF, [[Merck KGaA]])
+- Gases: [[France]]/[[Germany]] ([[Air Liquide]], Linde)
 
 Less visible than chip fabs but equally strategic.
 
@@ -153,7 +153,7 @@ China dominates processing for:
 - Graphite (~70%)
 - Lithium refining (~60%)
 - Polysilicon (~80%)
-- Gallium/germanium (~80%)
+- [[Gallium]]/germanium (~80%)
 
 Export controls are a real risk. See [[China]], [[Export controls]].
 
@@ -163,10 +163,10 @@ Some materials create durable competitive advantages:
 
 | Company | Material moat |
 |---------|---------------|
-| Corning | Gorilla Glass, fiber optics |
+| [[Corning]] | Gorilla Glass, fiber optics |
 | Universal Display | OLED phosphorescent IP |
-| Shin-Etsu | Wafer quality, photoresists |
-| 3M | Diversified specialty materials |
+| [[Shin-Etsu]] | Wafer quality, photoresists |
+| [[3M]] | Diversified specialty materials |
 | Applied Materials | Process knowledge |
 
 **Pattern:** Deep materials expertise + manufacturing scale + customer lock-in = durable moat.

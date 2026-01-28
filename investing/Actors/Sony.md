@@ -13,8 +13,8 @@ Sony spans both sides — memory victim (PlayStation) and semiconductor supplier
 
 | Segment | Relevance |
 |---------|-----------|
-| Gaming | PS6 delay risk from memory costs |
-| Semiconductors | #1 image sensors (separate dynamic) |
+| [[Gaming]] | PS6 delay risk from memory costs |
+| [[Semiconductors]] | #1 image sensors (separate dynamic) |
 
 ---
 
@@ -39,9 +39,9 @@ Sony spans both sides — memory victim (PlayStation) and semiconductor supplier
 
 | Company | Approach |
 |---------|----------|
-| [[Nintendo]] | Launched Switch 2, eating margin |
+| [[Nintendo]] | Launched [[Switch]] 2, eating margin |
 | **Sony** | Considering delay |
-| Microsoft | Also considering delay |
+| [[Microsoft]] | Also considering delay |
 
 Sony may wait for memory normalization (2028+).
 
@@ -52,7 +52,7 @@ Sony may wait for memory normalization (2028+).
 **Separate business — image sensors:**
 - #1 global image sensor supplier
 - Apple iPhone main supplier
-- Automotive sensors growing
+- [[Automotive]] sensors growing
 - Not directly memory-related
 
 **Relevance to vault:**
@@ -62,7 +62,7 @@ Sony may wait for memory normalization (2028+).
 
 ---
 
-## Gaming segment details
+## [[Gaming]] segment details
 
 | Metric | Value |
 |--------|-------|
@@ -75,12 +75,12 @@ Sony may wait for memory normalization (2028+).
 
 ## Investment case
 
-**Gaming bear:**
+**[[Gaming]] bear:**
 - Memory costs delay next-gen
 - Hardware margins impossible
 - Competition from PC, mobile
 
-**Gaming bull:**
+**[[Gaming]] bull:**
 - Software/services margins strong
 - Can wait out memory shortage
 - Strong IP and ecosystem
@@ -88,7 +88,7 @@ Sony may wait for memory normalization (2028+).
 **Semiconductor bull:**
 - Image sensor dominance
 - Apple relationship
-- Automotive growth
+- [[Automotive]] growth
 
 ---
 
@@ -98,8 +98,8 @@ Sony may wait for memory normalization (2028+).
 |--------|-------|
 | Ticker | 6758 (Tokyo), SONY (NYSE) |
 | Market cap | ~$100B+ |
-| HQ | Tokyo, Japan |
-| Gaming | PlayStation |
+| HQ | Tokyo, [[Japan]] |
+| [[Gaming]] | PlayStation |
 | Semis | Image sensors (#1) |
 
 *Updated 2026-01-01*
@@ -111,6 +111,6 @@ Sony may wait for memory normalization (2028+).
 - [[Sensors]] — sector (#1 in image sensors)
 - [[Image sensors]] — technology deep dive
 - [[Memory shortage victims]] — thesis (PS6 delay risk)
-- [[Nintendo]] — peer (launched Switch 2 anyway)
+- [[Nintendo]] — peer (launched [[Switch]] 2 anyway)
 - [[Memory shortage 2025-2026]] — crisis context
 - [[Apple]] — customer (image sensors for iPhone)

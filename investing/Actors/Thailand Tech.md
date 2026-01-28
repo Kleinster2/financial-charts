@@ -3,32 +3,32 @@ aliases: []
 ---
 #actor #sovereign #tech #thailand #automotive
 
-**Thailand Tech** — "Detroit of Asia" automotive hub. HDD manufacturing. EV transition.
+**Thailand Tech** — "Detroit of [[Asia]]" automotive hub. HDD manufacturing. [[EV transition]].
 
 ---
 
 ## Why Thailand matters
 
-Automotive manufacturing base:
+[[Automotive]] manufacturing base:
 
 | Metric | Value |
 |--------|-------|
 | Population | 70 million |
 | Auto production | 2M+ vehicles/year |
 | HDD share | ~40% global |
-| Strategy | Automotive → EV |
+| Strategy | [[Automotive]] → EV |
 
-Largest auto production base in ASEAN.
+Largest auto production base in [[ASEAN]].
 
 ---
 
-## Automotive hub
+## [[Automotive]] hub
 
-**"Detroit of Asia":**
+**"Detroit of [[Asia]]":**
 
 | OEM | Thailand Presence |
 |-----|-------------------|
-| Toyota | Largest export base |
+| [[Toyota]] | Largest export base |
 | Honda | Major production |
 | Nissan | Manufacturing |
 | Various | Assembly plants |
@@ -37,11 +37,11 @@ Regional auto manufacturing center.
 
 ---
 
-## EV transition
+## [[EV transition]]
 
 **Thai EV push:**
-- Chinese EV entry (BYD, Great Wall, MG)
-- Tesla consideration
+- Chinese EV entry ([[BYD]], Great Wall, MG)
+- [[Tesla]] consideration
 - Government incentives
 - Battery investments
 
@@ -55,8 +55,8 @@ Transitioning from ICE to EV production.
 
 | Company | Thailand Operations |
 |---------|---------------------|
-| Western Digital | Major production |
-| Seagate | Manufacturing |
+| [[Western Digital]] | Major production |
+| [[Seagate]] | Manufacturing |
 | Various | Component suppliers |
 
 ~40% of global HDD production.
@@ -69,8 +69,8 @@ Transitioning from ICE to EV production.
 |---------|-------|
 | CP Group | Conglomerate, retail tech |
 | PTT | Energy, data centers |
-| AIS | Telecom |
-| True Corporation | Telecom |
+| AIS | [[Telecom]] |
+| True Corporation | [[Telecom]] |
 
 Limited domestic tech giants.
 
@@ -79,7 +79,7 @@ Limited domestic tech giants.
 ## Data center growth
 
 **DC buildout:**
-- Google Cloud region (2024)
+- [[Google]] Cloud region (2024)
 - AWS considering
 - Local providers expanding
 - Hyperscaler attention increasing
@@ -102,7 +102,7 @@ Government tech push.
 
 **Emerging ambitions:**
 - Package/test interest
-- Automotive chips focus
+- [[Automotive]] chips focus
 - Limited current presence
 - Growing government attention
 
@@ -114,7 +114,7 @@ Not yet a semiconductor hub.
 
 **Bull:**
 - Auto manufacturing base
-- EV transition opportunity
+- [[EV transition]] opportunity
 - HDD legacy
 - Growing DC presence
 
@@ -131,7 +131,7 @@ Not yet a semiconductor hub.
 | Metric | Value |
 |--------|-------|
 | Population | 70 million |
-| Key strength | Automotive |
+| Key strength | [[Automotive]] |
 | HDD share | ~40% global |
 | Transition | ICE → EV |
 

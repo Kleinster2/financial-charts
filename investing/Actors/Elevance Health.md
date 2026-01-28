@@ -54,8 +54,8 @@ Growing at 36% YoY (Q2 2025) — represents Elevance's diversification beyond tr
 
 Health insurers face different dynamics than life/P&C:
 - **Medical loss ratio (MLR)** regulated at ~85% (ACA requirement)
-- **Medicare Advantage** growth from aging demographics
-- **Healthcare cost inflation** pressuring margins
+- **[[Medicare Advantage]]** growth from aging demographics
+- **[[Healthcare]] cost inflation** pressuring margins
 - **PBM scrutiny** — regulatory risk for pharmacy operations
 - **UnitedHealth CEO tragedy** (Dec 2024) — increased industry scrutiny
 
@@ -65,6 +65,6 @@ Health insurers face different dynamics than life/P&C:
 
 - [[UnitedHealth]] — #1 peer (largest US health insurer)
 - [[Cigna]] — peer (Evernorth PBM)
-- [[Humana]] — peer (Medicare Advantage focused)
+- [[Humana]] — peer ([[Medicare Advantage]] focused)
 - [[CVS Health]] — peer (Aetna + Caremark PBM)
 

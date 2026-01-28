@@ -28,8 +28,8 @@ Founded Feb 2021 with Shakil Khan. Described as a "100-year project."
 | Theme          | Examples                                             |
 | -------------- | ---------------------------------------------------- |
 | **Deep tech**  | AI, quantum, advanced materials                      |
-| **Defense**    | [[Helsing]] (AI drones)                              |
-| **Healthcare** | [[Neko Health]] (AI full-body scanning)              |
+| **[[Defense]]**    | [[Helsing]] (AI drones)                              |
+| **[[Healthcare]]** | [[Neko Health]] (AI full-body scanning)              |
 | **Climate**    | [[Northvolt]], [[H2 Green Steel]], [[Pale Blue Dot]] |
 
 ### Notable investments
@@ -37,8 +37,8 @@ Founded Feb 2021 with Shakil Khan. Described as a "100-year project."
 | Company | Sector | Amount/Role | Outcome |
 |---------|--------|-------------|---------|
 | [[Helsing]] | AI defense | €100M (2021), €600M (2025) | **€12B valuation**; Ek chairs board |
-| [[Northvolt]] | Batteries | Sep 2020 round | **Bankrupt 2025** |
-| [[Neko Health]] | Healthcare AI | €30M (co-founder) | Operating |
+| [[Northvolt]] | [[Batteries]] | Sep 2020 round | **Bankrupt 2025** |
+| [[Neko Health]] | [[Healthcare]] AI | €30M (co-founder) | Operating |
 | [[H2 Green Steel]] | Green steel | Investor | Operating |
 | [[Pale Blue Dot]] | Climate VC | LP | Operating |
 

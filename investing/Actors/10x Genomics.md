@@ -69,7 +69,7 @@ aliases: [TXG, 10x]
 | Oncology | Tumor heterogeneity, immune profiling |
 | Immunology | Cell atlas, immune response |
 | Neuroscience | Brain cell types, disease |
-| Drug discovery | Target ID, mechanism of action |
+| Drug discovery | [[Target]] ID, mechanism of action |
 | Developmental biology | Cell lineage, differentiation |
 
 ---

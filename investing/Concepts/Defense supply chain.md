@@ -8,10 +8,10 @@
 
 Ukraine war consumed munitions faster than the West could produce them. Replenishment requires a manufacturing base that atrophied after the Cold War.
 
-| Region | Pre-war production | Target | Timeline |
+| Region | Pre-war production | [[Target]] | Timeline |
 |--------|-------------------|--------|----------|
 | US (155mm shells) | 93K/yr | **1.2M/yr** | 2025 |
-| EU (artillery) | 230K shells/yr | **3M shells/yr** | End of decade |
+| [[EU]] (artillery) | 230K shells/yr | **[[3M]] shells/yr** | End of decade |
 | US investment | — | **$5B** munitions factory upgrades | 2024-2026 |
 
 **The math:** Ukraine fires ~7,000 shells/day. Pre-war Western production couldn't sustain that for a single front, let alone stockpile for Pacific contingencies.
@@ -27,11 +27,11 @@ Ukraine war consumed munitions faster than the West could produce them. Replenis
 - New facilities in Texas, Iowa, Virginia
 - Workforce challenge: skilled labor shortage in rural factory locations
 
-### Europe
+### [[Europe]]
 
-- EU targeting 3M shells/year by end of decade
+- [[EU]] targeting [[3M]] shells/year by end of decade
 - Current capacity fraction of target
-- Rheinmetall building new plants in Germany, Lithuania, Ukraine
+- [[Rheinmetall]] building new plants in [[Germany]], Lithuania, Ukraine
 - Problem: fragmented procurement across 27 nations
 
 ---
@@ -40,11 +40,11 @@ Ukraine war consumed munitions faster than the West could produce them. Replenis
 
 | Material | Defense use | Supply risk | Choke point |
 |----------|-------------|-------------|-------------|
-| **Copper** | Munitions, electronics, wiring | China 40% smelting | 17-year mine timeline |
-| **Rare earths** | Guidance systems, motors | China 60%+ processing | Few alternative sources |
-| **Titanium** | Airframes, armor plate | Russia supply disrupted | Ukraine war irony |
-| **Tungsten** | Armor-piercing rounds | China dominant | Few substitutes |
-| **Antimony** | Ammunition primers, hardening | China 48% production | Export controls (Aug 2024) |
+| **Copper** | Munitions, electronics, wiring | [[China]] 40% smelting | 17-year mine timeline |
+| **Rare earths** | Guidance systems, motors | [[China]] 60%+ processing | Few alternative sources |
+| **Titanium** | Airframes, armor plate | [[Russia]] supply disrupted | Ukraine war irony |
+| **Tungsten** | Armor-piercing rounds | [[China]] dominant | Few substitutes |
+| **[[Antimony]]** | Ammunition primers, hardening | [[China]] 48% production | [[Export controls]] (Aug 2024) |
 
 ---
 
@@ -55,7 +55,7 @@ Copper is **second-highest material by weight** in US defense production.
 | Application | Copper use |
 |-------------|------------|
 | 155mm artillery shell | 0.5 kg each |
-| Driving bands | Shell rotation/rifling |
+| Driving bands | [[Shell]] rotation/rifling |
 | Shaped-charge liners | Anti-tank munitions (EFPs) |
 | Bullet jackets | Small arms rounds |
 | Missile guidance | Electronics, wiring harnesses |
@@ -99,11 +99,11 @@ Missiles are even more constrained than shells:
 
 | Theme | Beneficiaries |
 |-------|---------------|
-| Shell production ramp | Rheinmetall, General Dynamics (Ordnance), Northrop |
-| Missile capacity | [[L3Harris]] spinoff, RTX, Lockheed |
+| [[Shell]] production ramp | [[Rheinmetall]], [[General Dynamics]] (Ordnance), Northrop |
+| Missile capacity | [[L3Harris]] spinoff, [[RTX]], Lockheed |
 | Critical materials | [[Copper]] miners, rare earth processors |
 | Machine tools | Specialty manufacturers |
-| Propellant/explosives | BAE Systems, Chemring |
+| Propellant/explosives | [[BAE Systems]], Chemring |
 
 **The structural trade:** Defense supply chain buildout is a multi-year capex cycle. Unlike platforms (F-35, B-21), munitions are consumed and must be continuously replaced. Recurring revenue at industrial scale.
 
@@ -113,7 +113,7 @@ Missiles are even more constrained than shells:
 
 - [[Defense]] — sector hub
 - [[Copper]] — critical material, 17-year mine timeline
-- [[European defense spending]] — 3M shells/yr EU target
+- [[European defense spending]] — [[3M]] shells/yr [[EU]] target
 - [[Trump defense budget]] — $5B munitions investment
 - [[L3Harris]] — missile spinoff, DoD $1B
 - [[Golden Dome]] — missile defense demand driver

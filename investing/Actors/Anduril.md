@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #usa #private
 
-**Anduril** — Defense AI & autonomous systems. Palmer Luckey (Oculus). **$30.5B valuation**. Meta partnership (Jan 2026).
+**Anduril** — [[Defense]] AI & autonomous systems. Palmer Luckey (Oculus). **$30.5B valuation**. Meta partnership (Jan 2026).
 
 ---
 
@@ -28,7 +28,7 @@ Leading defense tech startup:
 - Sold to Facebook ($2B)
 - Left Facebook controversially
 - Founded Anduril at 24
-- Defense tech visionary
+- [[Defense]] tech visionary
 
 ---
 
@@ -77,7 +77,7 @@ Counter-UAS = hot market.
 - Faster iteration
 - Commercial-style development
 
-Disrupting Lockheed/Raytheon model.
+Disrupting Lockheed/[[Raytheon]] model.
 
 ---
 
@@ -88,8 +88,8 @@ Disrupting Lockheed/Raytheon model.
 | US DoD | Multiple programs |
 | US Border Patrol | Sentry towers |
 | USMC | Ghost drones |
-| UK Ministry of Defence | Various |
-| Australia | AUKUS programs |
+| [[UK]] Ministry of Defence | Various |
+| [[Australia]] | [[AUKUS]] programs |
 
 ---
 
@@ -127,24 +127,24 @@ Autonomous systems depend on rare earth permanent magnets:
 |---------|----------------|
 | Ghost drones | Motor magnets (Nd, Dy) |
 | Roadrunner | Jet engine components |
-| Sensors | Various REEs |
+| [[Sensors]] | Various REEs |
 
-**Dec 2025 military denial**: China blocks all rare earth exports to military-affiliated buyers. See [[Rare earth leverage]].
+**Dec 2025 military denial**: [[China]] blocks all rare earth exports to military-affiliated buyers. See [[Rare earth leverage]].
 
 **Risk**: As a defense startup, Anduril has less stockpile buffer than [[Lockheed Martin]]. Supply chain disruption could delay production.
 
-**Mitigation**: Smaller product volumes than legacy primes. AUKUS partners (Australia) developing rare earth capacity.
+**Mitigation**: Smaller product volumes than legacy primes. [[AUKUS]] partners ([[Australia]]) developing rare earth capacity.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Defense spending up
+- [[Defense]] spending up
 - Ukraine proving autonomous
 - Software margins > hardware
 - Palmer Luckey vision
-- AUKUS tailwind
+- [[AUKUS]] tailwind
 
 **Bear:**
 - Still losing money
@@ -173,12 +173,12 @@ Autonomous systems depend on rare earth permanent magnets:
 | Investor | Notes |
 |----------|-------|
 | [[a16z]] | Lead investor (multiple rounds) |
-| Founders Fund | Peter Thiel (early) |
-| General Catalyst | Growth |
-| 8VC | Growth |
-| Valor Equity Partners | Growth |
-| Elad Gil | Angel |
-| Lux Capital | Growth |
+| [[Founders Fund]] | Peter Thiel (early) |
+| [[General Catalyst]] | Growth |
+| [[8VC]] | Growth |
+| [[Valor Equity Partners]] | Growth |
+| [[Elad Gil]] | Angel |
+| [[Lux Capital]] | Growth |
 
 **Total raised:** $2.8B+
 
@@ -205,7 +205,7 @@ Autonomous systems depend on rare earth permanent magnets:
 - [[Helsing]] — competitor (European defense AI, $13.2B)
 - [[Lockheed Martin]] — competitor (legacy defense)
 - [[NVIDIA]] — supplier (AI compute)
-- [[Peter Thiel]] — investor (Founders Fund)
+- [[Peter Thiel]] — investor ([[Founders Fund]])
 - [[Rare earth leverage]] — supply chain risk (drone magnets)
 - [[China retaliatory toolkit]] — REE military denial risk
 

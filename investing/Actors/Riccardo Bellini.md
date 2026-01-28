@@ -15,7 +15,7 @@ aliases: []
 |--------|-------|
 | Current role | CEO, [[Valentino]] (Sep 2025–) |
 | Previous | Managing Director, [[Mayhoola]] |
-| Previous | CEO, [[Chloé]] (Richemont) |
+| Previous | CEO, [[Chloé]] ([[Richemont]]) |
 | Previous | CEO, [[Maison Margiela]] ([[OTB]]) |
 | Education | Bocconi, IESE |
 
@@ -27,9 +27,9 @@ aliases: []
 |------|---------|--------|-------|
 | CEO | [[Valentino]] | 2025– | Turnaround mandate |
 | Managing Director | [[Mayhoola]] | 2025 | Parent company of Valentino |
-| CEO | [[Chloé]] | 2021–2025 | 4 years, B Corp certification, hired Chemena Kamali |
+| CEO | [[Chloé]] | 2021–2025 | 4 years, B Corp certification, hired [[Chemena Kamali]] |
 | CEO | [[Maison Margiela]] | ~2017–2021 | Doubled revenue, stabilized post-Galliano transition |
-| EVP Branding | [[Diesel]] / Diesel Black Gold | Earlier | [[OTB]] group |
+| EVP Branding | [[Diesel]] / Diesel Black [[Gold]] | Earlier | [[OTB]] group |
 | CMO | Diesel | Earlier | Marketing leadership |
 | — | Procter & Gamble | Start | Early career |
 
@@ -39,7 +39,7 @@ aliases: []
 
 **Maison Margiela:** Took over during rocky period after John Galliano's onboarding. Stabilized operations, grew revenue over 100%. Handed off a functional business.
 
-**Chloé:** Four-year tenure focused on sustainability and craft. Achieved B Corp certification (Oct 2021). Worked with Gabriela Hearst on elevated positioning, then hired Chemena Kamali to revive boho-chic aesthetic.
+**Chloé:** Four-year tenure focused on sustainability and craft. Achieved B Corp certification (Oct 2021). Worked with Gabriela Hearst on elevated positioning, then hired [[Chemena Kamali]] to revive boho-chic aesthetic.
 
 **Pattern:** Bellini specializes in mid-sized luxury houses needing operational discipline and brand repositioning. Not a cost-cutter — focuses on sustainable growth and creative partnerships.
 
@@ -63,7 +63,7 @@ Appointed to fix a declining business:
 
 ## Other affiliations
 
-- Fashion Task Force, Sustainable Markets Initiative
+- [[Fashion]] Task Force, Sustainable Markets Initiative
 - European advisory board, Conservation International
 
 ---

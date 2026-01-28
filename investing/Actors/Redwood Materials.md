@@ -3,7 +3,7 @@ aliases: [Redwood]
 ---
 #actor #batteries #recycling #cleantech
 
-**Redwood Materials** — US battery recycling leader founded by JB Straubel (Tesla co-founder). Recycles lithium-ion batteries and produces anode/cathode materials. Nevada HQ near Tesla Gigafactory.
+**Redwood Materials** — US battery recycling leader founded by JB Straubel ([[Tesla]] co-founder). Recycles lithium-ion batteries and produces anode/cathode materials. Nevada HQ near [[Tesla]] Gigafactory.
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [Redwood]
 
 | Factor | Details |
 |--------|---------|
-| **Founder pedigree** | JB Straubel was Tesla CTO 2004-2019 |
+| **Founder pedigree** | JB Straubel was [[Tesla]] CTO 2004-2019 |
 | **Vertical integration** | Recycling → refined materials → anode/cathode precursors |
-| **Strategic location** | Nevada, adjacent to Tesla/Panasonic Gigafactory |
+| **Strategic location** | Nevada, adjacent to [[Tesla]]/[[Panasonic]] Gigafactory |
 | **US supply chain** | Domestic alternative to Chinese refining |
 | **IRA beneficiary** | Domestic content = tax credit eligibility for OEMs |
 
@@ -24,8 +24,8 @@ aliases: [Redwood]
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
 | Series A | 2020 | $40M | — | Capricorn |
-| Series B | 2021 | $700M | $3.7B | T. Rowe Price |
-| Series C | 2022 | $1B | — | Goldman Sachs |
+| Series B | 2021 | $700M | $3.7B | [[T. Rowe Price]] |
+| Series C | 2022 | $1B | — | [[Goldman Sachs]] |
 | DOE Loan | 2023 | $2B | — | Dept of Energy |
 | Series E | Oct 2025 | $350M | **$6B** | Eclipse |
 
@@ -37,11 +37,11 @@ aliases: [Redwood]
 
 | Investor | Type | Notes |
 |----------|------|-------|
-| **T. Rowe Price** | Lead (Series B) | $700M round |
-| **Goldman Sachs** | Lead (Series C) | Asset management |
+| **[[T. Rowe Price]]** | Lead (Series B) | $700M round |
+| **[[Goldman Sachs]]** | Lead (Series C) | Asset management |
 | **Eclipse** | Lead (Series E) | Climate VC |
-| **NVentures (NVIDIA)** | Strategic | Series E participant |
-| **Fidelity** | Asset manager | Multiple rounds |
+| **[[NVentures]] (NVIDIA)** | Strategic | Series E participant |
+| **[[Fidelity]]** | Asset manager | Multiple rounds |
 | **Capricorn** | VC | Early investor |
 | **DOE** | Government | $2B loan commitment |
 
@@ -51,13 +51,13 @@ aliases: [Redwood]
 
 | Partner | Type | Details |
 |---------|------|---------|
-| **Panasonic** | Supplier | Cathode supply deal, recycling at Nevada Gigafactory |
-| **Toyota** | OEM | Battery recycling partnership |
-| **Ford** | OEM | Recycling agreement |
-| **Volkswagen** | OEM | Strategic partnership |
-| **Caterpillar** | Industrial | Collaboration (Aug 2025) |
+| **[[Panasonic]]** | Supplier | Cathode supply deal, recycling at Nevada Gigafactory |
+| **[[Toyota]]** | OEM | Battery recycling partnership |
+| **[[Ford]]** | OEM | Recycling agreement |
+| **[[Volkswagen]]** | OEM | Strategic partnership |
+| **[[Caterpillar]]** | Industrial | Collaboration (Aug 2025) |
 | **Isuzu** | OEM | Recycling partnership (2025) |
-| **Lime** | Micromobility | E-scooter battery recycling |
+| **[[Lime]]** | [[Micromobility]] | E-scooter battery recycling |
 
 ---
 
@@ -77,7 +77,7 @@ aliases: [Redwood]
 ```
 Collection → Shredding → Black mass → Hydrometallurgy → Refined materials
                                             ↓
-                              Lithium, Cobalt, Nickel, Copper (95%+ recovery)
+                              Lithium, Cobalt, Nickel, [[Copper]] (95%+ recovery)
                                             ↓
                               Anode + Cathode precursors → back to cell makers
 ```
@@ -93,7 +93,7 @@ Collection → Shredding → Black mass → Hydrometallurgy → Refined material
 
 | Role | Name | Background |
 |------|------|------------|
-| Founder/CEO | JB Straubel | Tesla co-founder, CTO 2004-2019 |
+| Founder/CEO | JB Straubel | [[Tesla]] co-founder, CTO 2004-2019 |
 
 ---
 
@@ -116,7 +116,7 @@ Collection → Shredding → Black mass → Hydrometallurgy → Refined material
 ## Investment implications
 
 **Bull case:**
-- Founder with Tesla credibility
+- Founder with [[Tesla]] credibility
 - Only scaled US battery recycler
 - EV battery wave coming 2027+ (feedstock surge)
 - IRA domestic content tailwind
@@ -125,8 +125,8 @@ Collection → Shredding → Black mass → Hydrometallurgy → Refined material
 **Bear case:**
 - Commodity price exposure (lithium crashed 2023)
 - Capital intensive
-- Competition from Li-Cycle, Ascend Elements
-- China dominates globally
+- Competition from Li-Cycle, [[Ascend]] Elements
+- [[China]] dominates globally
 
 ---
 
@@ -135,10 +135,10 @@ Collection → Shredding → Black mass → Hydrometallurgy → Refined material
 - [[Battery recycling]] — sector context
 - [[Batteries]] — industry hub
 - [[Battery supply chain]] — where recycling fits
-- [[Tesla Energy]] — Straubel origin, Panasonic connection
+- [[Tesla Energy]] — Straubel origin, [[Panasonic]] connection
 - [[CATL]] — has own recycling operations
 - [[Lithium]] — key recovered material
-- [[NVIDIA]] — investor (NVentures)
+- [[NVIDIA]] — investor ([[NVentures]])
 
 ---
 

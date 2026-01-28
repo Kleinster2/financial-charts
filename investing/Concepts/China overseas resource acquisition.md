@@ -1,9 +1,9 @@
 ---
-aliases: [China resource security, Chinese mining expansion, China commodity acquisition]
+aliases: [[[China]] resource security, Chinese mining expansion, [[China]] commodity acquisition]
 ---
 #concept #china #mining #commodities #geopolitics
 
-**China overseas resource acquisition** — Strategic campaign by Chinese state-linked companies to secure global mineral supplies. Accelerating despite Western sanctions, driven by industrial policy and de-dollarization.
+**[[China]] overseas resource acquisition** — Strategic campaign by Chinese state-linked companies to secure global mineral supplies. Accelerating despite Western sanctions, driven by industrial policy and de-dollarization.
 
 ---
 
@@ -23,28 +23,28 @@ aliases: [China resource security, Chinese mining expansion, China commodity acq
 
 | Company | Focus | Recent deals |
 |---------|-------|--------------|
-| [[Zijin Mining]] | Gold, copper | Allied Gold ($4B), Akyem ($1B), Kamoa-Kakula |
+| [[Zijin Mining]] | [[Gold]], copper | [[Allied Gold]] ($4B), Akyem ($1B), Kamoa-Kakula |
 | [[CMOC Group]] | Cobalt, copper | DRC operations |
-| [[Tianqi Lithium]] | Lithium | SQM stake, Australian assets |
-| [[Ganfeng Lithium]] | Lithium | Argentina, Mexico, Africa |
-| [[CATL]] | Lithium, nickel | Battery supply chain integration |
+| [[Tianqi Lithium]] | [[Lithium]] | [[SQM]] stake, Australian assets |
+| [[Ganfeng Lithium]] | [[Lithium]] | [[Argentina]], [[Mexico]], [[Africa]] |
+| [[CATL]] | [[Lithium]], nickel | [[Battery supply chain]] integration |
 | [[China Minmetals]] | Diversified | Las Bambas (Peru), MMG |
-| [[CNOOC]]/[[Sinopec]] | Oil & gas | Global upstream |
+| [[CNOOC]]/[[Sinopec]] | [[Oil]] & gas | Global upstream |
 
 ---
 
 ## Geographic focus
 
-| Region | Key assets | Commodities |
+| Region | Key assets | [[Commodities]] |
 |--------|------------|-------------|
-| **Africa** | DRC, Ghana, Côte d'Ivoire, Mali | Copper, cobalt, gold |
-| **Latin America** | Chile, Peru, Argentina, Brazil | Copper, lithium |
-| **Central Asia** | Kazakhstan, Tajikistan | Uranium, gold, copper |
-| **Southeast Asia** | Indonesia, Philippines | Nickel, copper |
-| **Australia** | Pilbara, lithium belt | Iron ore, lithium |
-| **Serbia** | Zijin Bor | Copper |
+| **[[Africa]]** | DRC, Ghana, Côte d'Ivoire, Mali | [[Copper]], cobalt, gold |
+| **Latin America** | [[Chile]], Peru, [[Argentina]], [[Brazil]] | [[Copper]], lithium |
+| **Central [[Asia]]** | Kazakhstan, Tajikistan | [[Uranium]], gold, copper |
+| **[[Southeast Asia]]** | Indonesia, Philippines | Nickel, copper |
+| **[[Australia]]** | Pilbara, lithium belt | Iron ore, lithium |
+| **Serbia** | Zijin Bor | [[Copper]] |
 
-**Africa strategy:** Chinese companies often acquire Western assets being divested. Zijin bought Akyem from [[Newmont]] (2024) and Allied Gold's African portfolio (2026).
+**[[Africa]] strategy:** Chinese companies often acquire Western assets being divested. Zijin bought Akyem from [[Newmont]] (2024) and [[Allied Gold]]'s African portfolio (2026).
 
 ---
 
@@ -52,13 +52,13 @@ aliases: [China resource security, Chinese mining expansion, China commodity acq
 
 | Commodity | Strategic importance | Key acquirers |
 |-----------|---------------------|---------------|
-| **Copper** | EVs, grid, data centers | Zijin, CMOC, Minmetals |
-| **Lithium** | Batteries | Tianqi, Ganfeng, CATL |
-| **Cobalt** | Batteries | CMOC (controls 70% of DRC output) |
-| **Gold** | Reserves, de-dollarization | Zijin |
-| **Nickel** | Batteries | Tsingshan, CATL |
+| **[[Copper]]** | EVs, grid, data centers | Zijin, CMOC, Minmetals |
+| **[[Lithium]]** | [[Batteries]] | Tianqi, Ganfeng, CATL |
+| **Cobalt** | [[Batteries]] | CMOC (controls 70% of DRC output) |
+| **[[Gold]]** | Reserves, de-dollarization | Zijin |
+| **Nickel** | [[Batteries]] | Tsingshan, CATL |
 | **Rare earths** | Domestic near-monopoly | Limited overseas need |
-| **Uranium** | Nuclear buildout | CGN, CNNC |
+| **[[Uranium]]** | Nuclear buildout | CGN, CNNC |
 
 ---
 
@@ -80,10 +80,10 @@ aliases: [China resource security, Chinese mining expansion, China commodity acq
 | Action | Impact |
 |--------|--------|
 | CFIUS reviews (US) | Blocking some deals |
-| Critical minerals lists | Prioritizing domestic supply |
-| Friend-shoring | Redirecting to allies (Australia, Canada) |
+| [[Critical minerals]] lists | Prioritizing domestic supply |
+| Friend-shoring | Redirecting to allies ([[Australia]], [[Canada]]) |
 | UFLPA sanctions | Zijin subsidiaries on forced labor list (2025) |
-| Export controls | Limiting China's access to processing tech |
+| [[Export controls]] | Limiting [[China]]'s access to processing tech |
 
 **Tension:** Western companies divesting African assets → Chinese buyers filling gap.
 
@@ -91,12 +91,12 @@ aliases: [China resource security, Chinese mining expansion, China commodity acq
 
 ## Investment implications
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Chinese premium bids | Strategic value > financial value |
 | African asset sales | Western majors exiting → Chinese entering |
-| Lithium/copper deals | Battery supply chain priority |
-| Gold accumulation | Reserve diversification play |
+| [[Lithium]]/copper deals | [[Battery supply chain]] priority |
+| [[Gold]] accumulation | Reserve diversification play |
 
 **For Western miners:** Chinese competition may support valuations but complicates geopolitics.
 
@@ -108,7 +108,7 @@ aliases: [China resource security, Chinese mining expansion, China commodity acq
 |------|---------|
 | **Sanctions expansion** | US could target more Chinese miners |
 | **Host country backlash** | Resource nationalism (Indonesia, DRC) |
-| **Operational challenges** | Security, labor, infrastructure in Africa |
+| **Operational challenges** | Security, labor, infrastructure in [[Africa]] |
 | **Overpayment** | Strategic premiums may destroy value |
 | **Political risk** | Regime changes in host countries |
 

@@ -40,7 +40,7 @@ aliases: [Luminate]
 | On-prem appliances | Cloud-native architecture |
 | Binary trust model | Continuous verification |
 
-**Early mover** in ZTNA category (now dominated by Zscaler, Cloudflare, Palo Alto).
+**Early mover** in ZTNA category (now dominated by [[Zscaler]], [[Cloudflare]], Palo Alto).
 
 ---
 
@@ -59,7 +59,7 @@ aliases: [Luminate]
 Symantec strategy:
 - "Born in the cloud, for the cloud" acquisitions
 - Prior: CASB (Elastica), web isolation (Fireglass)
-- Integrated into Symantec Integrated Cyber Defense
+- Integrated into Symantec Integrated Cyber [[Defense]]
 
 **7 months later:** Symantec enterprise sold to Broadcom ($10.7B). Luminate tech now part of Broadcom.
 

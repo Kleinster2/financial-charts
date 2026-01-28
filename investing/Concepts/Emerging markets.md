@@ -1,6 +1,6 @@
 #concept #macro #investing #geography
 
-**Emerging markets** — Developing economies with growth potential. Higher risk/return. China, India, Brazil, EM Asia.
+**Emerging markets** — Developing economies with growth potential. Higher risk/return. [[China]], India, Brazil, EM [[Asia]].
 
 ---
 
@@ -17,13 +17,13 @@
 
 ## Major EM markets
 
-| Country | Weight (MSCI EM) | Focus |
+| Country | Weight ([[MSCI]] EM) | Focus |
 |---------|------------------|-------|
-| China | ~25% | Tech, consumer |
+| [[China]] | ~25% | Tech, consumer |
 | India | ~20% | IT services, financials |
-| Taiwan | ~18% | Semiconductors |
+| [[Taiwan]] | ~18% | [[Semiconductors]] |
 | Korea | ~12% | Tech, autos |
-| Brazil | ~5% | Commodities, financials |
+| Brazil | ~5% | [[Commodities]], financials |
 | Saudi Arabia | ~4% | Energy |
 
 ---
@@ -44,10 +44,10 @@
 
 | Vehicle | Ticker | Focus |
 |---------|--------|-------|
-| MSCI EM | EEM, VWO | Broad EM |
-| EM ex-China | EMXC | Diversified |
+| [[MSCI]] EM | EEM, VWO | Broad EM |
+| EM ex-[[China]] | EMXC | Diversified |
 | India | INDA, SMIN | India focus |
-| China | FXI, KWEB | China focus |
+| [[China]] | FXI, KWEB | [[China]] focus |
 | EM small cap | EWX | Small companies |
 
 ---
@@ -60,7 +60,7 @@
 | Commodity prices | Positive for exporters |
 | Global growth | Positive |
 | Fed policy | Rate hikes negative |
-| China growth | Spillover effects |
+| [[China]] growth | Spillover effects |
 
 ---
 
@@ -82,7 +82,7 @@
 |--------|----------|
 | 2000-2010 | EM outperformed |
 | 2010-2020 | DM outperformed |
-| 2020s | Mixed, China drag |
+| 2020s | Mixed, [[China]] drag |
 
 Cyclical, often contrarian.
 
@@ -93,7 +93,7 @@ Cyclical, often contrarian.
 ### Regions
 - [[India]] — major EM
 - [[Brazil]] — LatAm leader
-- [[Southeast Asia]] — EM Asia
+- [[Southeast Asia]] — EM [[Asia]]
 
 ### Concepts
 - [[Frontier markets]] — smaller EMs

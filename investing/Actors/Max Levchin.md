@@ -2,7 +2,7 @@
 
 # Max Levchin
 
-**PayPal co-founder, Affirm founder** — CTO of PayPal, then serial founder/investor. Founded [[Affirm]] (BNPL, ~$18B market cap), Slide (sold to [[Google]] $182M). Early investor in [[Yelp]] (largest shareholder), [[Brex]], Opendoor. Runs [[SciFi VC]]. **~$2.5B net worth**. [[PayPal mafia]] member.
+**[[PayPal]] co-founder, Affirm founder** — CTO of [[PayPal]], then serial founder/investor. Founded [[Affirm]] (BNPL, ~$18B market cap), Slide (sold to [[Google]] $182M). Early investor in [[Yelp]] (largest shareholder), [[Brex]], Opendoor. Runs [[SciFi VC]]. **~$2.5B net worth**. [[PayPal mafia]] member.
 
 ---
 
@@ -25,8 +25,8 @@
 | 1991 | Emigrated from Ukraine to Chicago |
 | 1997 | Graduated UIUC, moved to Silicon Valley |
 | 1998 | Co-founded Confinity with [[Peter Thiel]] |
-| 2000 | Confinity merged with X.com ([[Elon Musk]]) → PayPal |
-| 2002 | PayPal sold to eBay for $1.5B; Levchin was CTO |
+| 2000 | Confinity merged with X.com ([[Elon Musk]]) → [[PayPal]] |
+| 2002 | [[PayPal]] sold to [[eBay]] for $1.5B; Levchin was CTO |
 | 2004 | Founded Slide; invested in [[Yelp]] |
 | 2010 | Sold Slide to [[Google]] for $182M |
 | 2011 | Left Google |
@@ -37,16 +37,16 @@
 
 ---
 
-## PayPal
+## [[PayPal]]
 
 | Role | Detail |
 |------|--------|
 | Title | Co-founder, CTO |
 | Co-founders | [[Peter Thiel]], [[Elon Musk]] (via X.com merger) |
-| Exit | $1.5B to eBay (Oct 2002) |
+| Exit | $1.5B to [[eBay]] (Oct 2002) |
 | Personal take | ~$34M |
 
-Levchin built PayPal's fraud detection systems — critical infrastructure that made online payments viable. Met Thiel at Stanford lecture in 1998.
+Levchin built [[PayPal]]'s fraud detection systems — critical infrastructure that made online payments viable. Met Thiel at [[Stanford]] lecture in 1998.
 
 ---
 
@@ -56,7 +56,7 @@ Levchin built PayPal's fraud detection systems — critical infrastructure that 
 |--------|-------|
 | Founded | 2012 |
 | Role | Founder & CEO |
-| Ticker | AFRM (Nasdaq) |
+| Ticker | AFRM ([[Nasdaq]]) |
 | Market cap | ~$18B |
 | Revenue | ~$2.3B (FY24) |
 | Model | Buy now, pay later (BNPL) |
@@ -88,7 +88,7 @@ Levchin invested $1M personally to start Slide. Exit was below peak valuation bu
 | Chairman | 2004-2015 |
 | Outcome | "Single best investment I made in my entire life" |
 
-Yelp co-founders Jeremy Stoppelman and Russel Simmons were former PayPal employees. All part of [[PayPal mafia]].
+Yelp co-founders Jeremy Stoppelman and Russel Simmons were former [[PayPal]] employees. All part of [[PayPal mafia]].
 
 ---
 
@@ -98,7 +98,7 @@ Yelp co-founders Jeremy Stoppelman and Russel Simmons were former PayPal employe
 |--------|-------|
 | Founded | 2017 |
 | Thesis | "Transform science fiction into reality" |
-| Focus | Fintech, marketplaces, hard/regulated tech |
+| Focus | [[Fintech]], marketplaces, hard/regulated tech |
 | Style | Backs founders in technical/regulated markets |
 
 ### Portfolio
@@ -116,9 +116,9 @@ Yelp co-founders Jeremy Stoppelman and Russel Simmons were former PayPal employe
 | Company | Sector | Outcome |
 |---------|--------|---------|
 | [[Yelp]] | Reviews | IPO, largest shareholder |
-| [[Brex]] | Fintech | Acquired by [[Capital One]] |
+| [[Brex]] | [[Fintech]] | Acquired by [[Capital One]] |
 | Evernote | Notes | Private |
-| Pinterest | Social | IPO |
+| [[Pinterest]] | Social | IPO |
 | Opendoor | Real estate | IPO |
 
 ---
@@ -137,7 +137,7 @@ Yelp co-founders Jeremy Stoppelman and Russel Simmons were former PayPal employe
 
 **Why Max Levchin matters:**
 
-1. **PayPal mafia core member** — CTO who built fraud systems, connected to Thiel/Musk network.
+1. **[[PayPal]] mafia core member** — CTO who built fraud systems, connected to Thiel/Musk network.
 
 2. **Affirm = major BNPL play** — $18B public company, category definer.
 
@@ -151,11 +151,11 @@ Yelp co-founders Jeremy Stoppelman and Russel Simmons were former PayPal employe
 
 ## Related
 
-### PayPal
+### [[PayPal]]
 - [[PayPal mafia]] — core member
-- [[Peter Thiel]] — PayPal co-founder
-- [[Elon Musk]] — PayPal (via X.com)
-- [[Reid Hoffman]] — PayPal EVP
+- [[Peter Thiel]] — [[PayPal]] co-founder
+- [[Elon Musk]] — [[PayPal]] (via X.com)
+- [[Reid Hoffman]] — [[PayPal]] EVP
 
 ### Companies founded
 - [[Affirm]] — BNPL, CEO

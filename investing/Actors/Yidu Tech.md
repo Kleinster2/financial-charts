@@ -3,7 +3,7 @@ aliases: [2158.HK, 医渡科技]
 ---
 #actor #ai #healthcare #china #public
 
-**Yidu Tech** — Healthcare AI platform. Public (2158.HK). 6B+ medical records processed, 4,000 hospitals covered. Still unprofitable but growing.
+**Yidu Tech** — [[Healthcare]] AI platform. Public (2158.HK). 6B+ medical records processed, 4,000 hospitals covered. Still unprofitable but growing.
 
 ---
 
@@ -26,7 +26,7 @@ Pioneer in Chinese healthcare AI, betting on demographic pressure:
 
 Founder Gong Yingying's framing: traditional healthcare supply chains unsustainable under aging peak expected by 2030. AI-powered efficiency is the only path to scale.
 
-**Demographic bet:** China's healthcare system must do more with less. Yidu provides the intelligence layer.
+**Demographic bet:** [[China]]'s healthcare system must do more with less. Yidu provides the intelligence layer.
 
 ---
 
@@ -50,7 +50,7 @@ Built comprehensive disease knowledge graph and 20+ specialized disease datasets
 | Segment | Description |
 |---------|-------------|
 | Big Data Platform | Hospital data infrastructure |
-| Life Sciences Solutions | Pharma/research support |
+| [[Life Sciences]] Solutions | Pharma/research support |
 | Health Management | Patient-facing solutions |
 
 ---
@@ -65,7 +65,7 @@ Built comprehensive disease knowledge graph and 20+ specialized disease datasets
 **CACA Guidelines Assistant:**
 - Cancer treatment AI (with Beijing Cancer Hospital)
 - Integrates DeepSeek + YiduCore
-- Maps to China's cancer diagnosis guidelines
+- Maps to [[China]]'s cancer diagnosis guidelines
 
 **Eywa 5.0:**
 - Next-gen data center platform
@@ -77,10 +77,10 @@ Built comprehensive disease knowledge graph and 20+ specialized disease datasets
 
 | Market | Status |
 |--------|--------|
-| China | Core (4,000 hospitals) |
+| [[China]] | Core (4,000 hospitals) |
 | Brunei | JV with Ministry of Health (nationwide AI platform) |
 | Singapore | Ministry of Health home-based care |
-| Japan | Operations established |
+| [[Japan]] | Operations established |
 | USA | Operations established |
 
 Brunei deal: EVYD joint venture building nationwide disease screening, health assessments, continuous monitoring.
@@ -126,15 +126,15 @@ Analyst consensus: Strong Buy, avg target HK$7.79 (range 6.82-10.50).
 - AI healthcare addressable market enormous
 - Government partnerships (Brunei, Singapore)
 - 6B records = data moat
-- Demographic tailwinds (aging China)
+- Demographic tailwinds (aging [[China]])
 - Stock up 124% off lows
 
 **Bear:**
 - Still unprofitable after decade
 - 91% below IPO high
-- China healthcare policy risk
+- [[China]] healthcare policy risk
 - Revenue declined 26% over 3 years
-- Competition from tech giants (Alibaba Health, Tencent)
+- Competition from tech giants ([[Alibaba]] Health, [[Tencent]])
 
 ---
 
@@ -146,7 +146,7 @@ Analyst consensus: Strong Buy, avg target HK$7.79 (range 6.82-10.50).
 | Founded | ~2014 |
 | HQ | Beijing |
 
-Gong is a World Economic Forum Young Global Leader.
+Gong is a [[World Economic Forum]] Young Global Leader.
 
 ---
 

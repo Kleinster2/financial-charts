@@ -15,7 +15,7 @@ Kakao is Korea's dominant consumer internet platform:
 |------|---------|
 | Messaging | KakaoTalk ~95% Korea penetration |
 | AI research | Kakao Brain LLM development |
-| Fintech | KakaoBank, KakaoPay |
+| [[Fintech]] | KakaoBank, KakaoPay |
 | Mobility | Kakao Mobility (ride-hail) |
 
 ---
@@ -29,7 +29,7 @@ Kakao is Korea's dominant consumer internet platform:
 | MAU | 50M+ (Korea ~97% reach) |
 | Position | Near-total messaging dominance |
 | Features | Chat, payments, commerce, news |
-| Moat | Network effects, ecosystem |
+| Moat | [[Network effects]], ecosystem |
 
 Unlike US (fragmented messaging), Korea consolidated on KakaoTalk.
 
@@ -51,7 +51,7 @@ Unlike US (fragmented messaging), Korea consolidated on KakaoTalk.
 
 ---
 
-## Fintech
+## [[Fintech]]
 
 **Major Korean fintech player:**
 
@@ -59,9 +59,9 @@ Unlike US (fragmented messaging), Korea consolidated on KakaoTalk.
 |---------|---------|
 | KakaoBank | Digital-only bank (~20M users) |
 | KakaoPay | Payments, money transfer |
-| Kakao Insurance | Insurance platform |
+| Kakao [[Insurance]] | [[Insurance]] platform |
 
-Fintech is significant revenue contributor.
+[[Fintech]] is significant revenue contributor.
 
 ---
 
@@ -74,7 +74,7 @@ Fintech is significant revenue contributor.
 | Kakao Games | Game publishing |
 | Kakao Commerce | E-commerce |
 
-Kakao is a super-app ecosystem like China's WeChat.
+Kakao is a super-app ecosystem like [[China]]'s WeChat.
 
 ---
 
@@ -83,8 +83,8 @@ Kakao is a super-app ecosystem like China's WeChat.
 | vs | Kakao advantage | Kakao disadvantage |
 |----|-----------------|---------------------|
 | [[Naver]] | Messaging lock-in | Search/portal |
-| Samsung | Consumer ecosystem | Hardware integration |
-| Global (Meta, Google) | Korean dominance | Scale, AI budget |
+| Samsung | [[Consumer]] ecosystem | Hardware integration |
+| Global ([[Meta]], [[Google]]) | Korean dominance | Scale, AI budget |
 
 Kakao and Naver dominate Korean internet. Different strengths.
 
@@ -96,7 +96,7 @@ Kakao and Naver dominate Korean internet. Different strengths.
 - Data center fire (Oct 2022) — major outage, regulatory scrutiny
 - Founder investigation — stock manipulation concerns
 - Cost cutting — layoffs, restructuring
-- AI investment lagging US/China
+- AI investment lagging US/[[China]]
 
 ---
 
@@ -117,7 +117,7 @@ Kakao and Naver dominate Korean internet. Different strengths.
 
 **Bull case:**
 - Messaging monopoly defensible
-- Fintech growth (KakaoBank)
+- [[Fintech]] growth (KakaoBank)
 - Korean consumer platform
 - Super-app potential
 

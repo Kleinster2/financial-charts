@@ -3,17 +3,17 @@ aliases: []
 ---
 #actor #ai #cloud #saudi #subsidiary
 
-**Aramco Digital** — Saudi Aramco's tech subsidiary. Cloud, AI, industrial digitization.
+**Aramco Digital** — [[Saudi Aramco]]'s tech subsidiary. Cloud, AI, industrial digitization.
 
 ---
 
 ## Why Aramco Digital matters
 
-Oil giant's tech pivot:
+[[Oil]] giant's tech pivot:
 
 | Metric | Value |
 |--------|-------|
-| Parent | Saudi Aramco (2222.SR) |
+| Parent | [[Saudi Aramco]] (2222.SR) |
 | Focus | Cloud, AI, industrial |
 | Strategy | Diversification from oil |
 | Status | Growing rapidly |
@@ -35,8 +35,8 @@ Oil giant's tech pivot:
 | Line | Focus |
 |------|-------|
 | Cloud services | Saudi cloud infrastructure |
-| Industrial AI | Oil & gas optimization |
-| Cybersecurity | Critical infrastructure |
+| Industrial AI | [[Oil]] & gas optimization |
+| [[Cybersecurity]] | Critical infrastructure |
 | Data centers | Regional buildout |
 
 ---
@@ -55,7 +55,7 @@ Hyperscaler partnerships for local cloud.
 
 ## Industrial AI
 
-**Oil & gas applications:**
+**[[Oil]] & gas applications:**
 - Predictive maintenance
 - Reservoir optimization
 - Drilling AI
@@ -68,7 +68,7 @@ Applying AI to core business.
 ## Strategic rationale
 
 **Why Aramco goes digital:**
-- Oil revenue diversification
+- [[Oil]] revenue diversification
 - Tech sovereignty
 - Regional cloud hub
 - Industrial leadership
@@ -79,7 +79,7 @@ Applying AI to core business.
 ## Investment implications
 
 **Exposure via:**
-- Saudi Aramco (2222.SR)
+- [[Saudi Aramco]] (2222.SR)
 - Small % of Aramco value
 - [[Google]] partnership
 - Regional tech contractors
@@ -90,10 +90,10 @@ Applying AI to core business.
 
 | Metric | Value |
 |--------|-------|
-| Parent | Saudi Aramco |
+| Parent | [[Saudi Aramco]] |
 | Focus | Cloud, industrial AI |
 | Partners | Google, IBM |
-| Strategy | Oil → tech |
+| Strategy | [[Oil]] → tech |
 
 *Updated 2026-01-01*
 

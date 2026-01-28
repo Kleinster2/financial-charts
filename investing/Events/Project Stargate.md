@@ -3,7 +3,7 @@ aliases: [Stargate, Stargate JV]
 ---
 #event #ai #infrastructure #usa #2025
 
-**Project Stargate** — $500B AI infrastructure joint venture. OpenAI + SoftBank + Oracle. Announced January 2025. Largest AI infrastructure commitment in history.
+**Project Stargate** — $500B AI infrastructure joint venture. OpenAI + [[SoftBank]] + Oracle. Announced January 2025. Largest AI infrastructure commitment in history.
 
 ---
 
@@ -24,9 +24,9 @@ aliases: [Stargate, Stargate JV]
 | Partner | Role | Commitment |
 |---------|------|------------|
 | [[OpenAI]] | Technology, AI models | Anchor tenant |
-| [[Masayoshi Son]] / SoftBank | Lead investor, chairman | $40B+ |
+| [[Masayoshi Son]] / [[SoftBank]] | Lead investor, chairman | $40B+ |
 | [[Oracle]] | Cloud infrastructure | Data center expertise |
-| MGX (UAE) | Co-investor | Sovereign wealth |
+| [[MGX]] (UAE) | Co-investor | Sovereign wealth |
 
 **Notable**: Announced at White House with Trump administration endorsement.
 
@@ -37,7 +37,7 @@ aliases: [Stargate, Stargate JV]
 **Beneficiary of [[Trump II]] Deregulation:**
 *   **Permitting:** Prime candidate for fast-tracked NEPA review and streamlined environmental approvals.
 *   **Power:** Likely test case for [[Nuclear renaissance]] regulatory reforms (NRC licensing speed).
-*   **DOGE Influence:** Unofficial advisement from [[Elon Musk]]/[[DOGE]] on cutting red tape to ensure US leads the "Sovereign AI" race against China.
+*   **DOGE Influence:** Unofficial advisement from [[Elon Musk]]/[[DOGE]] on cutting red tape to ensure US leads the "Sovereign AI" race against [[China]].
 
 ---
 
@@ -63,11 +63,11 @@ aliases: [Stargate, Stargate JV]
 | Planned capacity | **7 GW** |
 | Capital committed | **$400B** of $500B target |
 | US sites | 5 new (Sep 2025) + original Texas |
-| Global expansion | UAE (1GW), Norway (230MW), UK, Argentina |
+| Global expansion | UAE (1GW), Norway (230MW), [[UK]], Argentina |
 
 **US sites (announced Sep 2025):**
 - Shackelford County, Texas
-- Dona Ana County, New Mexico
+- Dona Ana County, New [[Mexico]]
 - Lordstown, Ohio
 - Milam County, Texas
 - Undisclosed midwestern location
@@ -80,7 +80,7 @@ aliases: [Stargate, Stargate JV]
 
 **Community opposition:** 20 US data center projects blocked/delayed during Q2 2025 alone. Abilene facing complaints about noise, water, energy consumption, lack of long-term local jobs.
 
-**Personnel:** George Osborne (former UK Chancellor) hired to run "OpenAI for Countries" — exporting Stargate model globally.
+**Personnel:** George Osborne (former [[UK]] Chancellor) hired to run "OpenAI for Countries" — exporting Stargate model globally.
 
 ---
 
@@ -89,12 +89,12 @@ aliases: [Stargate, Stargate JV]
 | Location | Investment | Capacity | Partner | Status |
 |----------|------------|----------|---------|--------|
 | **Texas, USA** | Part of $500B | Multiple GW | Oracle | Under construction |
-| **Stargate UAE** | Part of $500B | **1 GW** | G42, Oracle, NVIDIA, Cisco, SoftBank | 200MW by 2026 |
+| **Stargate UAE** | Part of $500B | **1 GW** | [[G42]], Oracle, NVIDIA, [[Cisco]], [[SoftBank]] | 200MW by 2026 |
 | **Stargate Norway** | TBD | **230 MW** | TBD | Narvik, hydropower |
-| **Stargate UK** | TBD | 8K→31K GPUs | NVIDIA, Nscale | Early 2026 start |
+| **Stargate [[UK]]** | TBD | 8K→31K GPUs | NVIDIA, [[Nscale]] | Early 2026 start |
 | **Argentina** | $25B | 500MW | Sur Energy | LOI signed (Oct 2025) |
 | **South Korea** | TBD | TBD | TBD | In progress |
-| **Germany** | TBD | TBD | TBD | In progress |
+| **[[Germany]]** | TBD | TBD | TBD | In progress |
 
 ### Stargate Argentina
 
@@ -102,7 +102,7 @@ aliases: [Stargate, Stargate JV]
 |--------|---------|
 | Investment | $25B |
 | Location | Patagonia |
-| Capacity | 500MW (largest in LATAM) |
+| Capacity | 500MW (largest in [[LATAM]]) |
 | Partner | Sur Energy |
 | Timeline | Construction 2026, first 100MW in 2027 |
 | Incentives | RIGI program (tax breaks, FX benefits) |
@@ -119,7 +119,7 @@ The scale reflects:
 |--------|-------------|
 | AGI race | OpenAI needs massive compute for frontier models |
 | Inference scaling | [[Inference disaggregation]] requires more hardware |
-| Sovereign competition | US vs China AI infrastructure race |
+| Sovereign competition | US vs [[China]] AI infrastructure race |
 | Power constraints | Must secure energy before building |
 
 ---
@@ -133,7 +133,7 @@ The scale reflects:
 | [[AMD]] | Secondary GPU supplier |
 | Custom silicon | OpenAI ASIC development |
 
-**NVIDIA as kingmaker**: Stargate likely represents largest single GPU order in history.
+**[[NVIDIA as kingmaker]]**: Stargate likely represents largest single GPU order in history.
 
 ---
 
@@ -151,18 +151,18 @@ See [[Power constraints]] for broader context.
 
 ## Memory demand
 
-Stargate will consume massive HBM:
+Stargate will consume massive [[HBM]]:
 
 | Impact | Beneficiary |
 |--------|-------------|
-| HBM demand surge | [[SK Hynix]], [[Samsung]], [[Micron]] |
+| [[HBM]] demand surge | [[SK Hynix]], [[Samsung]], [[Micron]] |
 | Supply tightening | Extends [[Memory shortage 2025-2026]] |
 | Pricing power | Korean memory makers |
 
 **Samsung/SK Hynix Stargate commitment (Jan 2026):**
 - 900K DRAM wafers/month dedicated to Stargate
 - HBM4 mass production: **February 2026**
-- Yongin cluster → world's largest HBM production hub by 2027
+- Yongin cluster → world's largest [[HBM]] production hub by 2027
 
 Reinforces [[Long memory]] thesis.
 
@@ -173,9 +173,9 @@ Reinforces [[Long memory]] thesis.
 | Concern | Counter |
 |---------|---------|
 | $500B is aspirational, not committed | $100B initial is real |
-| SoftBank track record (WeWork, etc.) | Different: infrastructure, not startups |
+| [[SoftBank]] track record (WeWork, etc.) | Different: infrastructure, not startups |
 | Power availability | Texas is most flexible US grid |
-| OpenAI governance issues | Sam Altman survived board crisis |
+| OpenAI governance issues | [[Sam Altman]] survived board crisis |
 | Political risk | Bipartisan AI infrastructure support |
 
 ---
@@ -189,7 +189,7 @@ Reinforces [[Long memory]] thesis.
 | Sep 2025 | 5 new US sites announced |
 | Jan 2026 | Energy/community commitments announced |
 | Feb 2026 | HBM4 production begins (Samsung/SK Hynix) |
-| 2026 | UAE Stargate 200MW, UK first GPUs |
+| 2026 | UAE Stargate 200MW, [[UK]] first GPUs |
 | 2026-2028 | 7GW buildout target |
 | 2029 | $500B deployment target |
 
@@ -203,7 +203,7 @@ Reinforces [[Long memory]] thesis.
 |---------|----------|
 | [[NVIDIA]] | GPU supplier |
 | [[Oracle]] | JV partner, cloud |
-| [[SK Hynix]], [[Samsung]] | HBM demand |
+| [[SK Hynix]], [[Samsung]] | [[HBM]] demand |
 | [[Broadcom]] | Networking |
 | Texas utilities | Power demand |
 
@@ -226,7 +226,7 @@ Reinforces [[Long memory]] thesis.
 | [[Microsoft]] | Expand Azure AI capacity |
 | [[Amazon]] | Expand Trainium/AWS |
 | [[Meta]] | Build more GPU clusters |
-| China | Accelerate domestic AI infra |
+| [[China]] | Accelerate domestic AI infra |
 
 Stargate forces all hyperscalers to respond.
 
@@ -236,7 +236,7 @@ Stargate forces all hyperscalers to respond.
 
 **[[Long NVIDIA]]**: Stargate is massive GPU order — platform dominance reinforced.
 
-**[[Long memory]]**: HBM demand extends shortage timeline.
+**[[Long memory]]**: [[HBM]] demand extends shortage timeline.
 
 **[[Long inference stack]]**: Infrastructure buildout benefits entire stack.
 

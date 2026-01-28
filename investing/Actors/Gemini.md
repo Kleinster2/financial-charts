@@ -59,7 +59,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 
 **Benchmarks:**
 
-| Benchmark | Score/Rank |
+| [[Benchmark]] | Score/Rank |
 |-----------|------------|
 | LMArena | **#1** (human preference) |
 | GPQA | Top tier (math/science) |
@@ -89,7 +89,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 | Google Search | AI Overviews |
 | Android | System-level AI |
 | Workspace | Docs, Gmail, Sheets |
-| Vertex AI | Enterprise API |
+| [[Vertex]] AI | Enterprise API |
 | AI Studio | Developer access |
 
 **Key advantage:** 2B+ Android devices, billions of Search users.
@@ -103,9 +103,9 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 | Free | $0 | Gemini app basic |
 | Gemini Advanced | $20/mo | 2.5 Pro, long context |
 | AI Ultra | Premium | Deep Think early access |
-| Vertex AI | Usage-based | Enterprise |
+| [[Vertex]] AI | Usage-based | Enterprise |
 
-**Student offer:** Free upgrade in Indonesia, Japan, UK, Brazil through July 2026.
+**Student offer:** Free upgrade in Indonesia, [[Japan]], [[UK]], [[Brazil]] through July 2026.
 
 ---
 
@@ -130,7 +130,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 **Thesis implications:**
 - AI embedded in Search = monetization path
 - Android AI = device lock-in
-- Enterprise via Vertex AI
+- Enterprise via [[Vertex]] AI
 
 ---
 
@@ -153,6 +153,6 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 - [[Google]] — parent company
 - [[ChatGPT]] — competitor (#1)
 - [[Claude]] — competitor
-- [[Grok]] — competitor (xAI)
-- [[Qwen]] — competitor (China)
-- [[DeepSeek]] — competitor (China)
+- [[Grok]] — competitor ([[xAI]])
+- [[Qwen]] — competitor ([[China]])
+- [[DeepSeek]] — competitor ([[China]])

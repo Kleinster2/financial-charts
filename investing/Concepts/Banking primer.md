@@ -72,7 +72,7 @@ Most banks are **asset sensitive** — benefit from rising rates (initially).
 | **Commercial & Industrial (C&I)** | Medium | Medium |
 | **Commercial Real Estate (CRE)** | Higher | Higher |
 | **Residential mortgage** | Lower | Lower |
-| **Consumer (cards, auto)** | Higher | Highest |
+| **[[Consumer]] (cards, auto)** | Higher | Highest |
 
 **CRE concentration:** Banks with >300% CRE/capital face extra scrutiny. Office exposure is 2024-26 concern.
 
@@ -121,13 +121,13 @@ Not all assets are equal. Riskier assets require more capital.
 
 | Asset | Risk weight |
 |-------|-------------|
-| Cash, Treasuries | 0% |
+| Cash, [[Treasuries]] | 0% |
 | Agency MBS | 20% |
 | Residential mortgages | 50% |
 | Commercial loans | 100% |
 | High-risk assets | 150%+ |
 
-**Why it matters:** $100 of Treasuries requires $0 capital. $100 of commercial loans requires $8+ capital.
+**Why it matters:** $100 of [[Treasuries]] requires $0 capital. $100 of commercial loans requires $8+ capital.
 
 ---
 
@@ -228,7 +228,7 @@ Unrealized gains/losses on AFS securities flow through AOCI (equity), not earnin
 
 | Regulator | Jurisdiction |
 |-----------|--------------|
-| **Federal Reserve** | Bank holding companies, large banks |
+| **[[Federal Reserve]]** | Bank holding companies, large banks |
 | **OCC** | National banks |
 | **FDIC** | Deposit insurance, state banks |
 | **State regulators** | State-chartered banks |
@@ -286,8 +286,8 @@ Focus on lending to businesses and consumers.
 
 | Characteristics | Examples |
 |-----------------|----------|
-| NII-driven | JPMorgan, Bank of America |
-| Deposit-funded | Wells Fargo |
+| NII-driven | JPMorgan, [[Bank of America]] |
+| Deposit-funded | [[Wells Fargo]] |
 | Branch networks | Regional banks |
 
 ### Investment banks
@@ -296,9 +296,9 @@ Focus on advisory, underwriting, trading.
 
 | Characteristics | Examples |
 |-----------------|----------|
-| Fee-driven | Goldman Sachs, Morgan Stanley |
+| Fee-driven | [[Goldman Sachs]], [[Morgan Stanley]] |
 | Trading revenue | Goldman |
-| Wealth management | Morgan Stanley |
+| Wealth management | [[Morgan Stanley]] |
 
 ### Universal banks
 
@@ -307,8 +307,8 @@ Combine commercial and investment banking.
 | Examples | Mix |
 |----------|-----|
 | JPMorgan | ~60% commercial, ~40% investment |
-| Bank of America | ~70% commercial |
-| Citigroup | ~50/50 |
+| [[Bank of America]] | ~70% commercial |
+| [[Citigroup]] | ~50/50 |
 
 ### Regional/community banks
 
@@ -316,7 +316,7 @@ Focus on local markets, relationship lending.
 
 | Characteristics | Examples |
 |-----------------|----------|
-| Higher NIM | First Republic (was), Zions |
+| Higher NIM | First [[Republic]] (was), Zions |
 | CRE focus | Many regionals |
 | Less diversified | Concentration risk |
 
@@ -341,7 +341,7 @@ Confidence lost → Depositors withdraw → Forced asset sales
 
 **Deposit insurance:** FDIC covers $250K per depositor. Protects small depositors, not large.
 
-**SVB/First Republic 2023:** Uninsured deposits fled. Even "safe" banks vulnerable if deposit base concentrated.
+**SVB/First [[Republic]] 2023:** Uninsured deposits fled. Even "safe" banks vulnerable if deposit base concentrated.
 
 ---
 

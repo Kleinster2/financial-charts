@@ -16,7 +16,7 @@ Uranium = nuclear fuel:
 | Ticker | CCJ |
 | Market cap | ~$25B |
 | Position | #1 uranium producer |
-| Country | Canada |
+| Country | [[Canada]] |
 | 2024 return | +30%+ |
 
 ---
@@ -35,16 +35,16 @@ Uranium = nuclear fuel:
 
 | Asset | Location | Status |
 |-------|----------|--------|
-| McArthur River | Canada | Restarted 2024 |
-| Cigar Lake | Canada | Operating |
+| McArthur River | [[Canada]] | Restarted 2024 |
+| Cigar Lake | [[Canada]] | Operating |
 | Inkai | Kazakhstan (JV) | Operating |
 
 ---
 
-## Westinghouse stake
+## [[Westinghouse]] stake
 
 **Nuclear fuel chain:**
-- 49% of Westinghouse (2023)
+- 49% of [[Westinghouse]] (2023)
 - $4.5B acquisition
 - Nuclear fuel fabrication
 - Reactor services
@@ -79,10 +79,10 @@ Uranium up 3x in 4 years.
 
 | Producer | Country |
 |----------|---------|
-| Kazatomprom | Kazakhstan (#1 global) |
-| Cameco | Canada (#2) |
-| Orano | France |
-| Uranium Energy Corp | USA |
+| [[Kazatomprom]] | Kazakhstan (#1 global) |
+| Cameco | [[Canada]] (#2) |
+| Orano | [[France]] |
+| [[Uranium Energy Corp]] | USA |
 
 ---
 
@@ -92,7 +92,7 @@ Uranium up 3x in 4 years.
 - Nuclear renaissance
 - AI power demand
 - Supply constrained
-- Westinghouse synergy
+- [[Westinghouse]] synergy
 - Uranium price tailwind
 
 **Bear:**
@@ -122,9 +122,9 @@ Uranium up 3x in 4 years.
 - [[Constellation Energy]] — customer (nuclear fuel buyer)
 - [[Vistra]] — customer (nuclear fuel buyer)
 - [[NuScale]] — SMR developer (future demand)
-- [[Oklo]] — SMR developer (HALEU demand via Westinghouse)
+- [[Oklo]] — SMR developer (HALEU demand via [[Westinghouse]])
 - [[Centrus Energy]] — adjacent (HALEU production)
-- [[Brookfield]] — co-investor (Westinghouse acquisition)
+- [[Brookfield]] — co-investor ([[Westinghouse]] acquisition)
 - [[Nuclear power for AI]] — thesis context
 - [[Nuclear renaissance]] — industry context
 

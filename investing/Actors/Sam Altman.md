@@ -27,7 +27,7 @@ See [[OpenAI]] for company details.
 **Altman's role:**
 - Fired and rehired (Nov 2023 board drama)
 - Consolidated control post-crisis
-- Driving commercialization (ChatGPT, API, enterprise)
+- Driving commercialization ([[ChatGPT]], API, enterprise)
 - For-profit transition (2024)
 
 **Compute demands:**
@@ -62,7 +62,7 @@ Altman is betting big on nuclear for AI power — both fission and fusion:
 **$7T fab consortium (reported Jan 2024):**
 - Altman reportedly seeking massive semiconductor investment
 - Talked with UAE, Saudi sovereign wealth
-- Goal: Break NVIDIA/TSMC bottleneck
+- Goal: Break NVIDIA/[[TSMC]] bottleneck
 - Status: Unclear, possibly abandoned or restructured
 
 **Why it matters:**
@@ -75,7 +75,7 @@ Altman is betting big on nuclear for AI power — both fission and fusion:
 ## Political connections
 
 - Regular White House access
-- Testified to Congress on AI regulation
+- Testified to Congress on [[AI regulation]]
 - Advocates for AI safety regulation (critics say: regulatory capture)
 - Connected to Democratic establishment
 
@@ -106,7 +106,7 @@ Altman is betting big on nuclear for AI power — both fission and fusion:
 ## Risks / Considerations
 
 - OpenAI burn rate enormous
-- Competition from Anthropic, Google, xAI
+- Competition from Anthropic, [[Google]], [[xAI]]
 - Regulatory scrutiny
 - Chip venture may be vaporware
 - Nuclear bets are long-term, speculative

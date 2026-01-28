@@ -3,7 +3,7 @@ aliases: [SNY]
 ---
 #actor #pharma #vaccines #france #public
 
-**Sanofi** — French pharma. Dupixent blockbuster. Vaccines. Consumer health spinoff.
+**Sanofi** — French pharma. Dupixent blockbuster. Vaccines. [[Consumer]] health spinoff.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [SNY]
 | Ticker | SNY (ADR) |
 | Market cap | ~$130B |
 | Revenue | ~$45B |
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | Key drug | **Dupixent** |
 
 ---
@@ -25,7 +25,7 @@ aliases: [SNY]
 |---------|-------|
 | **Biopharma** | Dupixent, immunology |
 | **Vaccines** | Flu, pediatric |
-| **Consumer Health** | Spinning off |
+| **[[Consumer]] Health** | Spinning off |
 
 ---
 
@@ -55,16 +55,16 @@ aliases: [SNY]
 
 ## Vaccines business
 
-| Vaccine | Target |
+| Vaccine | [[Target]] |
 |---------|--------|
 | Flu vaccines | Seasonal |
 | Pediatric | DTP, polio |
-| Travel | Various |
+| [[Travel]] | Various |
 | COVID | Partnership |
 
 ---
 
-## Consumer health spinoff
+## [[Consumer]] health spinoff
 
 | Detail | Status |
 |--------|--------|
@@ -79,7 +79,7 @@ aliases: [SNY]
 **Bull:**
 - Dupixent $13B+ and growing
 - Vaccines stable revenue
-- Consumer spinoff catalyst
+- [[Consumer]] spinoff catalyst
 - Regeneron partnership
 - Undervalued vs US peers
 

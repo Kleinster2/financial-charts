@@ -10,7 +10,7 @@
 |-----------|-------|
 | Date | December 13, 2023 |
 | Event | FOMC meeting |
-| Speaker | Jerome Powell |
+| Speaker | [[Jerome Powell]] |
 | Significance | End of hiking cycle signaled |
 
 ---
@@ -22,7 +22,7 @@
 | Rates held | 5.25-5.50% |
 | Dot plot | 3 cuts projected for 2024 |
 | Powell language | "Pivot" tone |
-| Inflation view | Progress acknowledged |
+| [[Inflation]] view | Progress acknowledged |
 
 ---
 
@@ -32,7 +32,7 @@
 |-------|------|
 | S&P 500 | +1.4% day, rally into year-end |
 | 10Y Treasury | Yield dropped 20bps |
-| Gold | Rally |
+| [[Gold]] | Rally |
 | USD | Weakened |
 | Growth stocks | Outperformed |
 
@@ -43,7 +43,7 @@
 | Factor | Status |
 |--------|--------|
 | Prior hikes | 11 hikes, 525bps total |
-| Inflation | Falling toward target |
+| [[Inflation]] | Falling toward target |
 | Employment | Still strong |
 | Market expectation | Pivot hoped for |
 
@@ -55,7 +55,7 @@
 |-------|------------|
 | Duration rally | Bonds benefited |
 | Growth rotation | Tech leadership |
-| Risk-on | Credit spreads tightened |
+| Risk-on | [[Credit spreads]] tightened |
 | EM relief | Dollar weakness helped |
 
 ---

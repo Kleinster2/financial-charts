@@ -3,7 +3,7 @@ aliases: [Spark]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Spark Capital** — Early-stage VC. Twitter co-lead, Slack, Tumblr investor. ~$5B AUM. Boston + SF.
+**Spark Capital** — Early-stage VC. Twitter co-lead, [[Slack]], Tumblr investor. ~$5B AUM. Boston + SF.
 
 ---
 
@@ -23,13 +23,13 @@ aliases: [Spark]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **Twitter** | Series A (co-lead) | Acquired by Musk |
-| **Slack** | Early | Acquired by Salesforce |
+| **[[Slack]]** | Early | Acquired by [[Salesforce]] |
 | **Tumblr** | Early | Acquired by Yahoo |
-| **[[Scale AI]]** | Series C+ | Meta 49% ($29B) |
-| **Affirm** | Early | Public (AFRM) |
-| **Cruise** | Early | GM subsidiary |
-| **Discord** | Early | Private |
-| **Postmates** | Early | Acquired by Uber |
+| **[[Scale AI]]** | Series C+ | [[Meta]] 49% ($29B) |
+| **[[Affirm]]** | Early | Public (AFRM) |
+| **[[Cruise]]** | Early | [[GM]] subsidiary |
+| **[[Discord]]** | Early | Private |
+| **Postmates** | Early | Acquired by [[Uber]] |
 
 ---
 
@@ -48,9 +48,9 @@ aliases: [Spark]
 
 | Sector | Examples |
 |--------|----------|
-| **Consumer** | Twitter, Tumblr, Discord |
-| **Enterprise** | Slack, Scale AI |
-| **Fintech** | Affirm |
+| **[[Consumer]]** | Twitter, Tumblr, [[Discord]] |
+| **Enterprise** | [[Slack]], Scale AI |
+| **[[Fintech]]** | [[Affirm]] |
 
 ---
 

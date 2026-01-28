@@ -48,17 +48,17 @@ Acquired into full enterprise suite.
 |---------|----------|
 | Einstein GPT | Gen AI across clouds |
 | Einstein Copilot | Conversational assistant |
-| Agentforce | Autonomous AI agents |
+| Agentforce | Autonomous [[AI agents]] |
 | Data Cloud | Customer data platform |
 | Prompt Builder | Custom AI workflows |
 
-Agentforce = AI agents that take actions, not just chat.
+Agentforce = [[AI agents]] that take actions, not just chat.
 
 ---
 
 ## Agentforce
 
-**Autonomous AI agents (2024 launch):**
+**Autonomous [[AI agents]] (2024 launch):**
 - Service agents handle cases end-to-end
 - Sales agents qualify leads
 - Commerce agents assist shopping
@@ -107,9 +107,9 @@ AI quality depends on data — Salesforce has the data.
 |------------|-------|
 | [[Microsoft]] | Dynamics 365, Copilot |
 | [[ServiceNow]] | Service management |
-| HubSpot | SMB CRM |
-| Oracle | Enterprise apps |
-| SAP | ERP, CX |
+| [[HubSpot]] | SMB CRM |
+| [[Oracle]] | Enterprise apps |
+| [[SAP]] | ERP, CX |
 
 Microsoft Copilot is key competitive threat.
 

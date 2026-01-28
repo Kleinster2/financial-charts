@@ -15,7 +15,7 @@ Industry-standard source for hardware shipment data:
 |----------|----------|
 | **PC shipments** | Dell, HP, Lenovo market share |
 | **Server shipments** | Data center demand proxy |
-| **Smartphone shipments** | Apple, Samsung, Xiaomi share |
+| **Smartphone shipments** | Apple, [[Samsung]], Xiaomi share |
 | **Cloud infrastructure** | IaaS/PaaS spending |
 
 ---

@@ -1,6 +1,6 @@
 #concept #risk #datacenter #power
 
-Data centers consume more electricity than most countries. Only 16 nations (including US and China) use more power than the global DC fleet. The strain is global and accelerating.
+Data centers consume more electricity than most countries. Only 16 nations (including US and [[China]]) use more power than the global DC fleet. The strain is global and accelerating.
 
 ---
 
@@ -15,10 +15,10 @@ This June 2024 Bloomberg article provides important historical context — the g
 | Metric | Value |
 |--------|-------|
 | Global data centers (2024) | **>7,000** (up from 3,600 in 2015) |
-| Current DC electricity consumption | **508 TWh/year** (> Italy, > Australia) |
-| Projected 2034 consumption | **1,580 TWh** (= India) |
-| DCs as % of global energy | <2% → **4%** by 2030 (Goldman Sachs) |
-| Only 16 nations consume more than DCs | US, China, etc. |
+| Current DC electricity consumption | **508 TWh/year** (> Italy, > [[Australia]]) |
+| Projected 2034 consumption | **1,580 TWh** (= [[India]]) |
+| DCs as % of global energy | <2% → **4%** by 2030 ([[Goldman Sachs]]) |
+| Only 16 nations consume more than DCs | US, [[China]], etc. |
 
 ---
 
@@ -40,7 +40,7 @@ This June 2024 Bloomberg article provides important historical context — the g
 **Ireland case study:**
 - DCs consumed **53%** of Ireland's renewable energy supply (2022)
 - Heading to **1/3 of country's total energy** by 2026 (up from 18% in 2022)
-- Wholesale power prices **1/3 higher** than rest of Europe
+- Wholesale power prices **1/3 higher** than rest of [[Europe]]
 - Dublin moratorium on new DC connections until ~2028
 
 ---
@@ -67,7 +67,7 @@ This June 2024 Bloomberg article provides important historical context — the g
 
 ---
 
-## Southeast Asia surge
+## [[Southeast Asia]] surge
 
 | Country | DC capacity by 2026 |
 |---------|---------------------|
@@ -89,13 +89,13 @@ This June 2024 Bloomberg article provides important historical context — the g
 - **18 load relief warnings** in spring 2022 alone
 - Filed letter to regulators: "far outside of the normal, safe operating protocol"
 
-**Goldman Sachs:** US utilities need **~$50 billion** in new power generation capacity for DCs.
+**[[Goldman Sachs]]:** US utilities need **~$50 billion** in new power generation capacity for DCs.
 
 ---
 
 ## Water-power tradeoff quantified
 
-Water-free cooling methods require **~5% more energy** on average ([[Microsoft]] estimate). Texas heat + water constraints pushing Microsoft and Google toward less efficient closed-loop systems.
+Water-free cooling methods require **~5% more energy** on average ([[Microsoft]] estimate). Texas heat + water constraints pushing Microsoft and [[Google]] toward less efficient closed-loop systems.
 
 ---
 

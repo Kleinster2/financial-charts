@@ -24,18 +24,18 @@
 | 1999 | Chavez elected, "Bolivarian Revolution" begins |
 | 2002 | US-backed coup attempt fails (Chavez returns in 48 hrs) |
 | 2006 | Chavez calls Bush "the devil" at UN |
-| 2007 | Oil nationalization — Exxon, Conoco refuse, exit |
+| 2007 | [[Oil]] nationalization — Exxon, Conoco refuse, exit |
 | 2007 | Chevron accepts minority stake, stays |
 | 2013 | Chavez dies, Maduro succeeds |
 
-**Oil nationalization (2007):**
+**[[Oil]] nationalization (2007):**
 
 | Company | Response | Outcome |
 |---------|----------|---------|
 | [[Exxon]] | Refused new terms | Expropriated, sued, won $1.6B |
 | [[ConocoPhillips]] | Refused | Expropriated, sued, won $8.7B |
 | [[Chevron]] | Accepted minority | Stayed, still operating |
-| Total, BP, Statoil | Accepted | Stayed |
+| Total, [[BP]], Statoil | Accepted | Stayed |
 
 ---
 
@@ -45,7 +45,7 @@
 
 | Date | Action |
 |------|--------|
-| 2014 | Venezuela Defense of Human Rights Act |
+| 2014 | Venezuela [[Defense]] of Human Rights Act |
 | Mar 2015 | EO 13692 — Venezuela declared "threat to national security" |
 | 2015 | 7 officials sanctioned for human rights abuses |
 | 2016 | Additional individuals added |
@@ -64,9 +64,9 @@
 |------|--------|
 | Aug 2017 | EO 13808 — Venezuela cut from US financial markets |
 | May 2018 | Debt purchase ban |
-| Jan 2019 | PDVSA sanctioned, assets blocked |
+| Jan 2019 | [[PDVSA]] sanctioned, assets blocked |
 | Aug 2019 | Full asset freeze on Venezuela government |
-| 2019-2020 | Secondary sanctions on oil traders |
+| 2019-2020 | [[Secondary sanctions]] on oil traders |
 
 ### Guaidó gambit (failed)
 
@@ -99,7 +99,7 @@
 | Nov 2022 | Chevron license to resume operations |
 | Oct 2023 | Temporary sanctions relief (oil, gas, gold) |
 | Jan 2024 | GL 43 revoked after Machado ban |
-| Apr 2024 | Oil license (GL 44) not renewed |
+| Apr 2024 | [[Oil]] license (GL 44) not renewed |
 | Jan 2025 | Final sanctions on 8 officials |
 
 **Chevron license:**
@@ -123,7 +123,7 @@
 
 **Grenell's approach:**
 - Diplomacy, engagement
-- Counter China via detente
+- Counter [[China]] via detente
 - Keep communication open
 
 **Why abandoned:**
@@ -149,7 +149,7 @@
 | Late 2025 | Policy hardens |
 | Jan 3, 2026 | Maduro captured in military strike |
 | Jan 2026 | US "running" Venezuela |
-| Jan 9, 2026 | Oil executives meeting at White House |
+| Jan 9, 2026 | [[Oil]] executives meeting at White House |
 
 ---
 
@@ -159,14 +159,14 @@
 |--------|---------|-------|
 | Method | Diplomacy | Force |
 | Goal | Detente | Regime compliance |
-| China | Engage to counter | Cut out via control |
+| [[China]] | Engage to counter | Cut out via control |
 | Maduro | Talk to him | Capture him |
-| Cuba | Separate issue | Primary target |
+| [[Cuba]] | Separate issue | Primary target |
 | Status | Sidelined | Won |
 
 ---
 
-## Oil company positions
+## [[Oil]] company positions
 
 | Company | History | Current status |
 |---------|---------|----------------|
@@ -189,14 +189,14 @@
 
 ---
 
-## China/Russia involvement
+## [[China]]/[[Russia]] involvement
 
 | Power | Involvement |
 |-------|-------------|
-| **China** | $60B loans since 2007, oil-for-debt, CNPC/Sinopec |
-| **Russia** | Military support, Rosneft (sold 2020), political backing |
+| **[[China]]** | $60B loans since 2007, oil-for-debt, [[CNPC]]/[[Sinopec]] |
+| **[[Russia]]** | Military support, [[Rosneft]] (sold 2020), political backing |
 
-**Post-Maduro:** US controls oil access, China/Russia influence ended. See [[Donroe Doctrine]].
+**Post-Maduro:** US controls oil access, [[China]]/[[Russia]] influence ended. See [[Donroe Doctrine]].
 
 ---
 
@@ -204,9 +204,9 @@
 
 | Actor | Agenda | How Venezuela serves it |
 |-------|--------|------------------------|
-| **Rubio** | Cuba regime change | [[Cuba-Venezuela axis]] |
+| **Rubio** | [[Cuba]] regime change | [[Cuba-Venezuela axis]] |
 | **Miller** | Deportation pathway | [[Venezuela repatriation strategy]] |
-| **Bessent** | China leverage | [[US-China commodity leverage]] |
+| **Bessent** | [[China]] leverage | [[US-China commodity leverage]] |
 | **Drugs** | Show force | Narco-terrorism charge |
 
 ---
@@ -218,7 +218,7 @@
 | **Ric Grenell** | Special envoy (sidelined) |
 | **Marco Rubio** | Secretary of State (driving) |
 | **Stephen Miller** | Immigration angle |
-| **Scott Bessent** | China leverage angle |
+| **[[Scott Bessent]]** | [[China]] leverage angle |
 | **Juan Guaidó** | Failed opposition (2019-2023) |
 | **María Corina Machado** | Current opposition leader |
 
@@ -247,7 +247,7 @@
 - [Congress.gov - Sanctions overview](https://www.congress.gov/crs-product/IF10715)
 - [Wikipedia - US sanctions](https://en.wikipedia.org/wiki/United_States_sanctions_during_the_Venezuelan_crisis)
 - [Semafor - Grenell sidelined](https://www.semafor.com/article/09/25/2025/grenell-sidelined-on-venezuela-frustrates-trump-allies-with-softer-line-on-maduro)
-- [CNN - Oil companies](https://www.cnn.com/2026/01/05/business/venezuela-trump-oil-chevron)
+- [CNN - [[Oil]] companies](https://www.cnn.com/2026/01/05/business/venezuela-trump-oil-chevron)
 
 ---
 

@@ -11,7 +11,7 @@ aliases: [Daniel Ives]
 
 | Strength | Detail |
 |----------|--------|
-| Media reach | Constant CNBC/Bloomberg appearances |
+| [[Media]] reach | Constant CNBC/Bloomberg appearances |
 | AI narrative | Early, loud bull on generative AI buildout |
 | Palantir call | +523% return on PLTR (initiated $25 PT at $16, now ~$180) |
 | ETF launch | Wedbush AI Revolution ETF (IVES) — 30-stock AI portfolio |
@@ -50,8 +50,8 @@ aliases: [Daniel Ives]
 | Theme | Key names |
 |-------|-----------|
 | AI infrastructure | [[NVIDIA]], [[Microsoft]], [[Palantir]] |
-| Cloud/SaaS | Enterprise software |
-| Cybersecurity | CrowdStrike, Palo Alto |
+| Cloud/[[SaaS]] | Enterprise software |
+| [[Cybersecurity]] | [[CrowdStrike]], Palo Alto |
 | EV/Clean tech | [[Tesla]] |
 
 ---

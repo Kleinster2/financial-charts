@@ -11,7 +11,7 @@ U.S. semiconductor equipment company specializing in deposition and etch.
 
 ## Core thesis
 
-Lam benefits from increasing process complexity at advanced nodes. More deposition and etch steps per wafer = more Lam tools. Memory exposure (HBM buildout) adds cyclical upside.
+Lam benefits from increasing process complexity at advanced nodes. More deposition and etch steps per wafer = more Lam tools. Memory exposure ([[HBM]] buildout) adds cyclical upside.
 
 ---
 
@@ -29,7 +29,7 @@ These steps multiply with node complexity — more layers, more steps, more tool
 
 ## Financial targets (Dec 2025)
 
-| Metric | CY2024 | CY2028 Target | $1T Semi Target |
+| Metric | CY2024 | CY2028 [[Target]] | $1T Semi [[Target]] |
 |--------|--------|---------------|-----------------|
 | Revenue | $16.2B | $25-27B | $30B+ |
 | Gross margin | 48.2% | ~50% | 50%+ |
@@ -44,10 +44,10 @@ These steps multiply with node complexity — more layers, more steps, more tool
 
 | End market | Exposure | Driver |
 |------------|----------|--------|
-| Memory | High | HBM buildout, DRAM/NAND capacity |
-| Logic/Foundry | Growing | TSMC, Samsung, Intel expansion |
+| Memory | High | [[HBM]] buildout, DRAM/NAND capacity |
+| Logic/Foundry | Growing | TSMC, Samsung, [[Intel]] expansion |
 
-Memory cyclicality is a risk but HBM demand provides structural tailwind.
+Memory cyclicality is a risk but [[HBM]] demand provides structural tailwind.
 
 ---
 

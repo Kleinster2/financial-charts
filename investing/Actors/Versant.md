@@ -11,7 +11,7 @@ aliases: [VSNT, Versant Media Group, SpinCo]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | **VSNT** (Nasdaq) |
+| Ticker | **VSNT** ([[Nasdaq]]) |
 | IPO date | **January 5, 2026** |
 | Parent | Spun from [[Comcast]]/NBCUniversal |
 | Revenue (2024) | $7.1B (declining) |
@@ -25,7 +25,7 @@ aliases: [VSNT, Versant Media Group, SpinCo]
 |--------|-------|
 | Spin date | January 2, 2026 (11:59 PM) |
 | Trading began | January 5, 2026 |
-| Ticker | VSNT (Nasdaq) |
+| Ticker | VSNT ([[Nasdaq]]) |
 | Distribution | 1 VSNT share per 25 CMCSA shares |
 | Record date | December 16, 2025 |
 | Opening price | $45.17 |

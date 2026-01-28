@@ -14,7 +14,7 @@ aliases: [NVS]
 | Ticker | NVS (ADR) |
 | Market cap | ~$220B |
 | Revenue | ~$50B |
-| HQ | Basel, Switzerland |
+| HQ | Basel, [[Switzerland]] |
 | Focus | Pure-play innovative pharma |
 
 ---
@@ -77,9 +77,9 @@ aliases: [NVS]
 
 **Bear:**
 - Cosentyx competition (IL-17)
-- Patent cliffs coming
+- [[Patent cliffs]] coming
 - Gene therapy economics
-- Swiss franc exposure
+- [[Swiss franc]] exposure
 - Mature growth profile
 
 ---

@@ -38,7 +38,7 @@ Petrobras contracts inflated 1-3%
 | Actor | Role | Outcome |
 |-------|------|---------|
 | **Odebrecht** | Lead contractor, bribe payer | $2.6B global settlement |
-| **JBS/J&F** | Meatpacker, bribe payer | R$10.3B fine |
+| **[[JBS]]/J&F** | Meatpacker, bribe payer | R$10.3B fine |
 | **OAS** | Construction cartel | Bankruptcy |
 | **Andrade Gutierrez** | Construction cartel | Leniency deal |
 | **Camargo Corrêa** | Construction cartel | Leniency deal |
@@ -62,14 +62,14 @@ Petrobras contracts inflated 1-3%
 |------|------|----------------|
 | **BNDES** | Development bank | Below-market loans to "national champions" |
 | **Banco do Brasil** | State commercial | Directed lending, political board |
-| **Caixa Econômica Federal** | Housing/social | Patronage vehicle, political trustees |
+| **Caixa Econômica Federal** | [[Housing]]/social | Patronage vehicle, political trustees |
 
 ### The BNDES loop
 
 ```
 Treasury transfers R$400B+ to BNDES (2008-2014)
     → BNDES lends at TJLP (below-market rate)
-        → "National champions" grow (JBS: R$8.1B, Odebrecht: R$8B+)
+        → "National champions" grow ([[JBS]]: R$8.1B, Odebrecht: R$8B+)
             → Champions make political donations
                 → Government appoints BNDES board
                     → More cheap capital...
@@ -79,13 +79,13 @@ Treasury transfers R$400B+ to BNDES (2008-2014)
 
 | Recipient | BNDES funds | Outcome |
 |-----------|-------------|---------|
-| **JBS** | R$8.1B (2007-2014) | Batista brothers convicted; J&F paid R$10.3B fine |
+| **[[JBS]]** | R$8.1B (2007-2014) | Batista brothers convicted; J&F paid R$10.3B fine |
 | **Odebrecht** | R$8B+ | $2.6B global bribery settlement |
 | **Oi** | R$12B+ | Largest bankruptcy in Brazilian history (2016) |
 | **LBR Lácteos** | R$700M | Dairy merger failed, liquidated |
-| **Bertin** | R$2.5B | Merged into JBS — BNDES orchestrated |
+| **Bertin** | R$2.5B | Merged into [[JBS]] — BNDES orchestrated |
 
-**JBS case:** Batista brothers used BNDES capital to build world's largest meatpacker, then bribed 1,900+ politicians. BNDES made money on paper (equity stake appreciated) but enabled the corruption machine.
+**[[JBS]] case:** Batista brothers used BNDES capital to build world's largest meatpacker, then bribed 1,900+ politicians. BNDES made money on paper (equity stake appreciated) but enabled the corruption machine.
 
 ---
 
@@ -141,7 +141,7 @@ Government-appointed trustees directed pension investments into politically favo
 
 ---
 
-## BTG Pactual connection (2015)
+## [[BTG Pactual]] connection (2015)
 
 The only major private bank directly connected to Lava Jato:
 

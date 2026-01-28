@@ -26,7 +26,7 @@ aliases: [KORUS FTA, US-Korea FTA, Korea-US FTA]
 
 | Sector | Treatment |
 |--------|-----------|
-| Semiconductors | Duty-free |
+| [[Semiconductors]] | Duty-free |
 | Electronics | Duty-free |
 | Machinery | Duty-free |
 | Chemicals | Duty-free |
@@ -42,7 +42,7 @@ aliases: [KORUS FTA, US-Korea FTA, Korea-US FTA]
 
 **Trump renegotiation:** Extended 25% US truck tariff 20 more years.
 
-### Agriculture
+### [[Agriculture]]
 
 | Product | US access |
 |---------|-----------|
@@ -56,9 +56,9 @@ aliases: [KORUS FTA, US-Korea FTA, Korea-US FTA]
 | Sector | Access |
 |--------|--------|
 | Financial | Strong liberalization |
-| Telecom | Opened |
+| [[Telecom]] | Opened |
 | Legal | Limited |
-| Insurance | US access |
+| [[Insurance]] | US access |
 
 ---
 
@@ -102,13 +102,13 @@ KORUS = duty-free semiconductor trade framework.
 
 | Agreement | Partner | GDP | Year |
 |-----------|---------|-----|------|
-| **USMCA** | Mexico, Canada | $28T | 2020 |
+| **[[USMCA]]** | [[Mexico]], [[Canada]] | $28T | 2020 |
 | **KORUS** | Korea | $28T | 2012 |
-| US-Australia | Australia | $26T | 2005 |
+| US-[[Australia]] | [[Australia]] | $26T | 2005 |
 | US-Singapore | Singapore | $25T | 2004 |
-| US-Japan | Japan | — | No FTA |
+| US-[[Japan]] | [[Japan]] | — | No FTA |
 
-US has no FTA with Japan or EU (attempted TTIP failed).
+US has no FTA with [[Japan]] or [[EU]] (attempted TTIP failed).
 
 ---
 
@@ -117,9 +117,9 @@ US has no FTA with Japan or EU (attempted TTIP failed).
 | Factor | Implication |
 |--------|-------------|
 | **Alliance** | Korea = key US ally |
-| **China counter** | Supply chain coordination |
+| **[[China]] counter** | Supply chain coordination |
 | **Semiconductor** | Critical trade flow |
-| **Defense** | 28,500 US troops in Korea |
+| **[[Defense]]** | 28,500 US troops in Korea |
 
 Trade and security interlinked.
 

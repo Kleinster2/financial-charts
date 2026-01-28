@@ -2,7 +2,7 @@
 
 # Agentic AI
 
-AI agents that can take actions, use tools, and complete multi-step tasks autonomously. The next wave after chatbots.
+[[AI agents]] that can take actions, use tools, and complete multi-step tasks autonomously. The next wave after chatbots.
 
 ---
 
@@ -26,7 +26,7 @@ AI agents that can take actions, use tools, and complete multi-step tasks autono
 | 2025 market | $7.9B |
 | 2034 projected | $236B |
 | 2024 startup funding | $3.8B (3x prior year) |
-| Gartner 2026 prediction | 40% of enterprise apps will have agents (up from <5%) |
+| [[Gartner]] 2026 prediction | 40% of enterprise apps will have agents (up from <5%) |
 
 ---
 
@@ -46,7 +46,7 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 ## Where agents work
 
 **Strong use cases:**
-- **Coding** — Claude Code, Devin, Cursor (clear output, measurable)
+- **Coding** — [[Claude]] Code, Devin, [[Cursor]] (clear output, measurable)
 - **Customer service** — Handling tickets, routing, resolution
 - **Data analysis** — Gathering, processing, reporting
 - **Sales/SDR** — Outreach, qualification, scheduling
@@ -63,25 +63,25 @@ Source: PwC AI Agent Survey, McKinsey State of AI 2025
 
 | Company | Product | Status |
 |---------|---------|--------|
-| [[Anthropic]] | Claude Code | Production, proven |
+| [[Anthropic]] | [[Claude]] Code | Production, proven |
 | **[[Meta]]** | **Manus** | **Acquired Jan 2026 (~$2B+)** |
-| Cognition Labs | Devin | $4B valuation, Goldman Sachs pilot |
+| [[Cognition]] Labs | Devin | $4B valuation, [[Goldman Sachs]] pilot |
 | GitHub | Copilot | Production, 77M+ developers |
 | [[OpenAI]] | GPT agents, Operator | Expanding |
-| Salesforce | Agentforce | Enterprise focus |
+| [[Salesforce]] | Agentforce | Enterprise focus |
 
 **Meta/Manus acquisition (Jan 2026):**
 - ~$2B+ deal — Meta's 3rd largest ever
-- Chinese-founded, "hailed as the next DeepSeek"
+- Chinese-founded, "hailed as the next [[DeepSeek]]"
 - ~100 staff, general-purpose autonomous agent
-- Alexandr Wang (ex-Scale AI) now leading Meta AI
+- Alexandr Wang (ex-[[Scale AI]]) now leading Meta AI
 - Signals agents becoming strategic priority for hyperscalers
 
 ---
 
 ## The Devin example
 
-- Goldman Sachs piloting alongside 12,000 human developers
+- [[Goldman Sachs]] piloting alongside 12,000 human developers
 - Devin 2.0: $20/month (down from $500)
 - Reality check: completes ~15% of complex tasks without assistance
 - Best for: defined, contained projects — not open-ended development
@@ -105,18 +105,18 @@ Agents now strategic enough that hyperscalers are acquiring rather than building
 
 > **For the full competitive landscape of agent infrastructure → see [[Agent harnesses]]**
 
-Three layers: **Runtime** (LangGraph) → **Framework** (LangChain, AutoGen) → **Harness** (Claude Code, Codex, Cursor, Devin)
+Three layers: **Runtime** (LangGraph) → **Framework** (LangChain, AutoGen) → **Harness** ([[Claude]] Code, Codex, [[Cursor]], Devin)
 
 "2025 was agents. 2026 is agent harnesses." The harness layer is where competitive moats form and value accrues.
 
 ---
 
-## Trade implications
+## [[Trade]] implications
 
 **Bullish:**
 - Agent infrastructure (model providers, orchestration)
 - Coding tools specifically (proven category)
-- [[Anthropic]] — Claude Code is an agent play
+- [[Anthropic]] — [[Claude]] Code is an agent play
 - Enterprise software with agent integration
 
 **Watch:**
@@ -133,7 +133,7 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 - [[Agent harnesses]] — infrastructure layer (where moats form)
 - [[Enterprise AI adoption]] — Agents are the exception to "95% fail"
-- [[Model lab economics]] — Agent products (Claude Code) drive enterprise revenue
+- [[Model lab economics]] — Agent products ([[Claude]] Code) drive enterprise revenue
 - [[Inference economics]] — Agents consume lots of inference (bullish compute)
 
 ---
@@ -144,7 +144,7 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 - Will agents commoditize like inference?
 - How fast does reliability improve?
 - When do agents replace vs augment workers?
-- Will US-China tensions block more acquisitions like Manus?
+- Will US-[[China]] tensions block more acquisitions like Manus?
 
 ---
 
@@ -154,9 +154,9 @@ Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. A
 
 - [[Agent harnesses]] — infrastructure (runtime/framework/harness stack)
 - [[Enterprise AI adoption]] — context (agents = exception to 95% fail)
-- [[Anthropic]] — player (Claude Code = agent product)
+- [[Anthropic]] — player ([[Claude]] Code = agent product)
 - [[OpenAI]] — player (Codex, Operator)
 - [[Meta]] — player (acquired Manus $2B+)
-- [[Anysphere]] — player (Cursor $29B)
+- [[Anysphere]] — player ([[Cursor]] $29B)
 - [[Model lab economics]] — context (agents drive enterprise revenue)
 - [[Model Context Protocol]] — infrastructure (agent-tool connectivity)

@@ -3,7 +3,7 @@ aliases: [Dallas Fort Worth Data Center, DFW Data Hub]
 ---
 #actor #datacenter #infrastructure #usa #region
 
-**Dallas Data Hub** — Texas data center market. ERCOT grid. Oil & gas + tech convergence.
+**Dallas Data Hub** — Texas data center market. ERCOT grid. [[Oil]] & gas + tech convergence.
 
 ---
 
@@ -15,7 +15,7 @@ Texas-sized DC growth:
 |--------|-------|
 | Location | Dallas-Fort Worth metro |
 | Grid | ERCOT (Texas) |
-| Key players | AWS, Google, Meta, Oracle |
+| Key players | AWS, [[Google]], [[Meta]], Oracle |
 | Advantage | Business-friendly Texas |
 
 ---
@@ -30,7 +30,7 @@ Texas-sized DC growth:
 | No state tax | Business friendly |
 | Land | Cheap, abundant |
 | Fiber | Major backbone hub |
-| Energy | Oil/gas + renewable |
+| Energy | [[Oil]]/gas + renewable |
 | Talent | Corporate relocations |
 
 ---
@@ -40,8 +40,8 @@ Texas-sized DC growth:
 | Company | Presence |
 |---------|----------|
 | AWS | Significant |
-| Google | Growing |
-| Meta | Data centers |
+| [[Google]] | Growing |
+| [[Meta]] | Data centers |
 | Oracle | Austin HQ nearby |
 | CyrusOne | Major player |
 | Digital Realty | Big presence |
@@ -64,14 +64,14 @@ Texas-sized DC growth:
 - Tesla → Austin
 - Oracle → Austin
 - HP Enterprise → Houston
-- Caterpillar → DFW
+- [[Caterpillar]] → DFW
 - Tech talent following
 
 ---
 
 ## Energy convergence
 
-**Oil & gas + tech:**
+**[[Oil]] & gas + tech:**
 - Energy expertise
 - Data analytics demand
 - AI for exploration
@@ -96,7 +96,7 @@ Texas-sized DC growth:
 |---------|----------|
 | [[Vistra]] (VST) | Texas power |
 | [[Digital Realty]] (DLR) | DC presence |
-| CyrusOne (Blackstone) | Major operator |
+| CyrusOne ([[Blackstone]]) | Major operator |
 | Oncor (Sempra) | Transmission |
 
 ---

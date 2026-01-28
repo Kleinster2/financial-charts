@@ -8,8 +8,8 @@
 
 | Region | 2025 share |
 |--------|------------|
-| China | ~35% |
-| Europe | ~25% |
+| [[China]] | ~35% |
+| [[Europe]] | ~25% |
 | US | ~10% |
 | Global | ~18% |
 
@@ -23,7 +23,7 @@
 | Battery costs | Down 90% since 2010 |
 | Model availability | 500+ EV models globally |
 | TCO parity | EVs cheaper to operate |
-| Consumer preference | Growing acceptance |
+| [[Consumer]] preference | Growing acceptance |
 
 ---
 
@@ -44,10 +44,10 @@
 | Theme | Expression |
 |-------|------------|
 | EV leaders | [[Tesla]], [[BYD]] |
-| Batteries | [[CATL]], LG Energy, Panasonic |
+| [[Batteries]] | [[CATL]], LG Energy, [[Panasonic]] |
 | Charging | ChargePoint, EVgo, Tesla |
 | Materials | Lithium, cobalt, nickel miners |
-| Legacy transition | GM, Ford, VW |
+| Legacy transition | [[GM]], [[Ford]], VW |
 
 ---
 
@@ -55,9 +55,9 @@
 
 | Stage | Key players |
 |-------|-------------|
-| Mining | Albemarle, SQM, Pilbara |
-| Refining | China dominates |
-| Cells | CATL, LG, Panasonic |
+| Mining | [[Albemarle]], [[SQM]], Pilbara |
+| Refining | [[China]] dominates |
+| Cells | CATL, LG, [[Panasonic]] |
 | Packs | OEMs, CATL |
 
 ---
@@ -69,7 +69,7 @@
 | EV pure-plays | ICE-dependent suppliers |
 | Battery makers | Engine/transmission suppliers |
 | Charging networks | Gas stations (long-term) |
-| Grid infrastructure | Oil demand (marginal) |
+| Grid infrastructure | [[Oil]] demand (marginal) |
 
 ---
 
@@ -80,7 +80,7 @@
 | EV penetration | Adoption rate |
 | Battery cost $/kWh | Economics |
 | Charging points | Infrastructure |
-| Model availability | Consumer choice |
+| Model availability | [[Consumer]] choice |
 
 ---
 
@@ -91,7 +91,7 @@
 
 ### Companies
 - [[Tesla]] — EV leader
-- [[BYD]] — China champion
+- [[BYD]] — [[China]] champion
 - [[CATL]] — battery leader
 
 ### Concepts

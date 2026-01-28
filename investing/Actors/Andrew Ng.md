@@ -3,13 +3,13 @@ aliases: [吴恩达, Wu Enda]
 ---
 #actor #usa #china #ai #academic
 
-**Andrew Ng** — Stanford professor, Coursera co-founder, former Baidu Chief Scientist. Bridge figure between US and China AI. Not a returnee but influential in both ecosystems.
+**Andrew Ng** — Stanford professor, Coursera co-founder, former Baidu Chief Scientist. Bridge figure between US and [[China]] AI. Not a returnee but influential in both ecosystems.
 
 ---
 
 ## Why Andrew Ng matters
 
-Uniquely positioned across US-China AI divide:
+Uniquely positioned across US-[[China]] AI divide:
 
 | Metric | Value |
 |--------|-------|
@@ -42,10 +42,10 @@ Ng led Baidu's AI transformation:
 | Baidu Research | Built Silicon Valley + Beijing labs |
 | Recruiting | Brought top talent to Baidu |
 | Deep Speech | Speech recognition breakthrough |
-| Autonomous driving | Early Apollo foundation |
+| Autonomous driving | Early [[Apollo]] foundation |
 | Scale | 1,300+ AI researchers by 2017 |
 
-**Why he joined:** China offered scale (data, users, speed) that US couldn't match at the time.
+**Why he joined:** [[China]] offered scale (data, users, speed) that US couldn't match at the time.
 
 **Why he left:** "Mission accomplished" — Baidu AI established. Returned to entrepreneurship.
 
@@ -55,12 +55,12 @@ Ng led Baidu's AI transformation:
 
 Unlike returnees (海归), Ng maintained both positions:
 
-| US presence | China presence |
+| US presence | [[China]] presence |
 |-------------|----------------|
 | Stanford professor | Baidu Chief Scientist |
-| Google Brain founder | Trained China AI teams |
+| Google Brain founder | Trained [[China]] AI teams |
 | Coursera (global) | Chinese language courses |
-| AI Fund (US VC) | China investments |
+| AI Fund (US VC) | [[China]] investments |
 
 **Not politically aligned:** Focused on technical progress, avoided geopolitical positioning.
 
@@ -74,7 +74,7 @@ Unlike returnees (海归), Ng maintained both positions:
 | DeepLearning.AI | Millions of certificates |
 | Stanford CS229 | Foundational course |
 
-**Effect:** Trained generation of AI practitioners globally, including many in China.
+**Effect:** Trained generation of AI practitioners globally, including many in [[China]].
 
 ---
 
@@ -100,7 +100,7 @@ Unlike returnees (海归), Ng maintained both positions:
 - His views influence AI sentiment
 
 **Thesis implications:**
-- US-China AI talent flows were bidirectional
+- US-[[China]] AI talent flows were bidirectional
 - Education democratizes AI capability
 - "Applied AI" may be bigger market than frontier research
 
@@ -113,7 +113,7 @@ Unlike returnees (海归), Ng maintained both positions:
 | AI safety | Moderate, not doomer |
 | Regulation | Cautious about overreach |
 | Open source | Supportive |
-| China AI | Respects capability, less political |
+| [[China]] AI | Respects capability, less political |
 
 **Notable:** Has pushed back on AI extinction concerns as overblown.
 
@@ -128,5 +128,5 @@ Unlike returnees (海归), Ng maintained both positions:
 - [[Baidu]] — former employer (Chief Scientist)
 - [[Google]] — former employer (Brain)
 - [[China university-AI pipeline]] — context (bridge figure)
-- [[Kai-Fu Lee]] — peer (both US-China bridge)
+- [[Kai-Fu Lee]] — peer (both US-[[China]] bridge)
 - [[Stanford]] — current (professor)

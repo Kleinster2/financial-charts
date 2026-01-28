@@ -51,7 +51,7 @@ Gene sequencing, editing, and diagnostics — enabling precision medicine, drug 
 | [[Guardant Health]] | Shield, Guardant360 | CRC screening, tumor profiling |
 | [[Natera]] | Signatera | MRD monitoring |
 | [[Exact Sciences]] | Cologuard, Cancerguard | CRC, multi-cancer |
-| Foundation Medicine | FoundationOne | Tumor profiling (Roche) |
+| Foundation Medicine | FoundationOne | Tumor profiling ([[Roche]]) |
 | Grail | Galleri | Multi-cancer detection (Illumina) |
 
 ### Prenatal testing (NIPT)
@@ -86,8 +86,8 @@ Gene sequencing, editing, and diagnostics — enabling precision medicine, drug 
 | **Prenatal** | Commercial | Natera, Illumina |
 | **Rare disease** | Growing | Illumina, clinical labs |
 | **Pharmacogenomics** | Emerging | Clinical integration |
-| **Population health** | Scaling | UK Biobank, All of Us |
-| **Agriculture** | Growing | Corteva, Bayer |
+| **Population health** | Scaling | [[UK]] Biobank, All of Us |
+| **[[Agriculture]]** | Growing | Corteva, Bayer |
 
 ---
 
@@ -148,7 +148,7 @@ Gene sequencing, editing, and diagnostics — enabling precision medicine, drug 
 | **Competition** | Multiple liquid biopsy entrants |
 | **Clinical adoption** | Physician behavior change |
 | **Regulatory** | FDA pathway uncertainty |
-| **China exposure** | Illumina impacted by restrictions |
+| **[[China]] exposure** | Illumina impacted by restrictions |
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-aliases: [Burlington Northern Santa Fe]
+aliases: [[[Burlington]] Northern Santa Fe]
 ---
 #actor #transport #railroad #usa #private
 
@@ -34,7 +34,7 @@ Cannot be replicated — railroad rights-of-way irreplaceable.
 
 | Commodity | % Revenue |
 |-----------|-----------|
-| Consumer products | ~35% |
+| [[Consumer]] products | ~35% |
 | Industrial products | ~25% |
 | Agricultural | ~20% |
 | Coal | ~15% |
@@ -50,7 +50,7 @@ Diversified but coal declining.
 |----------|------|
 | **BNSF** | Class I (Western) |
 | Union Pacific | Class I (Western) |
-| CSX | Class I (Eastern) |
+| [[CSX]] | Class I (Eastern) |
 | Norfolk Southern | Class I (Eastern) |
 
 Western duopoly with Union Pacific.

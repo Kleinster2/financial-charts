@@ -15,8 +15,8 @@ Freeport is the bellwether for copper:
 |--------|-------|
 | Ticker | FCX (NYSE) |
 | Market cap | ~$65B |
-| Copper production | ~4.2B lbs/year |
-| Gold production | ~1.8M oz/year |
+| [[Copper]] production | ~4.2B lbs/year |
+| [[Gold]] production | ~1.8M oz/year |
 | Molybdenum | Major producer |
 
 **Largest publicly traded copper producer** — if you're bullish copper, FCX is the default expression.
@@ -30,7 +30,7 @@ Freeport is the bellwether for copper:
 | Grasberg | Indonesia | World's largest gold mine, major copper |
 | Morenci | Arizona | Largest US copper mine |
 | Cerro Verde | Peru | Major open-pit |
-| El Abra | Chile | SX-EW operation |
+| El Abra | [[Chile]] | SX-EW operation |
 | Bagdad | Arizona | Open-pit |
 | Safford/Lone Star | Arizona | Growth project |
 
@@ -44,9 +44,9 @@ Freeport directly benefits from:
 
 | Demand driver | FCX exposure |
 |---------------|--------------|
-| Data centers | Copper sales to fabricators |
+| Data centers | [[Copper]] sales to fabricators |
 | Grid upgrades | Infrastructure copper |
-| EVs | Automotive copper demand |
+| EVs | [[Automotive]] copper demand |
 | Renewables | Clean energy connections |
 
 **Pure-play:** ~80% of revenue from copper.
@@ -60,14 +60,14 @@ Freeport directly benefits from:
 - Grasberg underground ramp-up
 - AI/electrification structural demand
 - Low-cost Americas operations
-- Gold as bonus (hedges copper weakness)
+- [[Gold]] as bonus (hedges copper weakness)
 - Strong balance sheet
 
 **Bear:**
 - Indonesia political/regulatory risk
-- Copper price volatility
+- [[Copper]] price volatility
 - High capex requirements
-- ESG scrutiny (mining)
+- [[ESG]] scrutiny (mining)
 - Cyclical business
 
 ---
@@ -94,8 +94,8 @@ Freeport directly benefits from:
 |---------|-----------|
 | **Freeport** | Scale, diversification, Grasberg |
 | [[Southern Copper]] | Lower costs, longer reserves |
-| Codelco | Size (state-owned) |
-| BHP | Diversification |
+| [[Codelco]] | Size (state-owned) |
+| [[BHP]] | Diversification |
 
 Freeport = most liquid pure-play copper stock.
 

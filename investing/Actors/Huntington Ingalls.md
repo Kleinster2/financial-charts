@@ -33,7 +33,7 @@ aliases: [HII, Huntington Ingalls Industries]
 
 | Program | Type | Notes |
 |---------|------|-------|
-| Gerald R. Ford-class | Carrier | $13B+ each, sole source |
+| Gerald R. [[Ford]]-class | Carrier | $13B+ each, sole source |
 | Virginia-class | Attack sub | With General Dynamics |
 | Columbia-class | Ballistic sub | With General Dynamics |
 | America-class | Amphibious assault | Ingalls |

@@ -27,7 +27,7 @@ aliases: [ADI]
 | Revenue | $3.08B | +26% |
 | EPS (adj) | $2.26 | +35% |
 | Operating cash flow | $4.8B (FY) | — |
-| Free cash flow | $4.3B (FY) | 39% margin |
+| [[Free cash flow]] | $4.3B (FY) | 39% margin |
 
 Beat estimates on both revenue and EPS.
 
@@ -66,9 +66,9 @@ Following Texas Instruments lead — industry pricing power.
 | Market | Exposure | Trend |
 |--------|----------|-------|
 | Industrial | ~50% | Recovering |
-| Automotive | ~25% | EV/ADAS growth |
-| Communications | ~15% | 5G, data center |
-| Consumer | ~10% | Stable |
+| [[Automotive]] | ~25% | EV/ADAS growth |
+| Communications | ~15% | [[5G]], data center |
+| [[Consumer]] | ~10% | Stable |
 
 Industrial automation + automotive = key drivers.
 
@@ -98,7 +98,7 @@ ADI = premium analog, higher margins.
 **Bear:**
 - Cyclical exposure
 - Industrial slowdown risk
-- China revenue exposure
+- [[China]] revenue exposure
 - Competition from TI
 - Valuation elevated
 

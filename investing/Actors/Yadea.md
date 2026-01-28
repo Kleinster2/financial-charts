@@ -5,7 +5,7 @@ aliases: [Yadea Group, Yadea Group Holdings, 1585.HK]
 
 # Yadea
 
-World's largest electric two-wheeler manufacturer. Founded 2001 in Wuxi, China by Dong Jinggui and wife. Listed on HKEX 2016 (1585.HK) — first Chinese EV two-wheeler IPO. Over 100M cumulative units sold by Dec 2024. Revenue RMB 28.2B (~$3.9B) in 2024. Sells in 80 countries but 97% of revenue is China. Bigger than the next 20 brands combined.
+World's largest electric two-wheeler manufacturer. Founded 2001 in Wuxi, China by Dong Jinggui and wife. Listed on [[HKEX]] 2016 (1585.HK) — first Chinese EV two-wheeler IPO. Over 100M cumulative units sold by Dec 2024. Revenue RMB 28.2B (~$3.9B) in 2024. Sells in 80 countries but 97% of revenue is China. Bigger than the next 20 brands combined.
 
 ---
 
@@ -15,7 +15,7 @@ World's largest electric two-wheeler manufacturer. Founded 2001 in Wuxi, China b
 2. **Cost leadership** — vertically integrated (motors, controllers, frames). Volume drives component costs below what competitors can match
 3. **Replacement cycle tailwind** — China's 2019 national standards forced ~300M registered two-wheelers to upgrade from lead-acid to lithium. Multi-year demand wave
 4. **Distribution density** — tens of thousands of dealer points across China's tier 1-5 cities
-5. **Brand + celebrity** — Vin Diesel endorsement deal, Porsche Design collaboration (VF F200, 2023)
+5. **Brand + celebrity** — Vin [[Diesel]] endorsement deal, Porsche Design collaboration (VF F200, 2023)
 
 ---
 
@@ -43,7 +43,7 @@ World's largest electric two-wheeler manufacturer. Founded 2001 in Wuxi, China b
 | Stock | 1585.HK |
 | Founded | 2001 (Wuxi, China) |
 | Chairman | Dong Jinggui (co-founder, 67% stake with wife) |
-| Listed | HKEX, May 2016 |
+| Listed | [[HKEX]], May 2016 |
 | Employees | — |
 | Production | 7 sites (Wuxi, Tianjin, Cixi, Qingyuan) + Vietnam |
 | Cumulative sales | 100M+ units (by Dec 2024) |

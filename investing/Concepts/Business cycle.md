@@ -43,8 +43,8 @@
 |-------|----------------|
 | Early recovery | Stocks, high yield bonds |
 | Expansion | Stocks, commodities |
-| Late cycle | Commodities, cash |
-| Recession | Treasuries, gold |
+| Late cycle | [[Commodities]], cash |
+| Recession | [[Treasuries]], gold |
 
 ---
 
@@ -57,7 +57,7 @@
 | **Unemployment** | Labor market |
 | **Yield curve** | Rate expectations |
 | **LEI** | Composite leading indicator |
-| **Consumer confidence** | Sentiment |
+| **[[Consumer]] confidence** | Sentiment |
 
 ---
 
@@ -79,7 +79,7 @@ Post-2008 expansion was unusually long (11 years).
 |--------|-----------|-------------------|
 | **Keynesian** | Demand shortfalls | Fiscal/monetary stimulus |
 | **Monetarist** | Money supply changes | Stable money growth |
-| **[[Real Business Cycle theory]]** | Productivity/technology shocks | Limited policy role |
+| **[[Real Business Cycle theory]]** | [[Productivity]]/technology shocks | Limited policy role |
 | **New Keynesian** | Demand + sticky prices | Active monetary policy |
 
 **Modern view:** Cycles likely driven by mix of demand and supply factors. [[Finn Kydland]] and [[Edward Prescott]] won the 2004 Nobel Prize for showing that real (supply-side) shocks can explain significant cycle variation.

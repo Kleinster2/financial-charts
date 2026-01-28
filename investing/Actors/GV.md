@@ -1,9 +1,9 @@
 ---
-aliases: [Google Ventures]
+aliases: [[[Google]] Ventures]
 ---
 #actor #investor #venturecapital #usa #corporate
 
-**GV** — Alphabet's venture arm. Uber, Slack, Stripe, Harvey investor. ~$8B AUM. Independent investment decisions.
+**GV** — Alphabet's venture arm. [[Uber]], [[Slack]], Stripe, Harvey investor. ~$8B AUM. Independent investment decisions.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Google Ventures]
 | Metric | Value |
 |--------|-------|
 | Founded | 2009 |
-| Parent | **[[Alphabet]]** / Google |
+| Parent | **[[Alphabet]]** / [[Google]] |
 | AUM | ~$8B |
 | Focus | Seed to growth |
 | HQ | Mountain View |
@@ -23,12 +23,12 @@ aliases: [Google Ventures]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Uber** | Early | Public (UBER) |
-| **Slack** | Early | Acquired by Salesforce |
+| **[[Uber]]** | Early | Public (UBER) |
+| **[[Slack]]** | Early | Acquired by [[Salesforce]] |
 | **[[Stripe]]** | Growth | $129B |
 | **[[Harvey]]** | Growth | $8B |
-| **Nest** | Early | Acquired by Google |
-| **DocuSign** | Growth | Public (DOCU) |
+| **Nest** | Early | Acquired by [[Google]] |
+| **[[DocuSign]]** | Growth | Public (DOCU) |
 | **Medium** | Early | Private |
 | **Cloudera** | Early | Acquired |
 | **23andMe** | Early | Public (ME) |
@@ -40,7 +40,7 @@ aliases: [Google Ventures]
 | Trait | Description |
 |-------|-------------|
 | Independence | Invests autonomously |
-| No strategic strings | Portfolio not obligated to Google |
+| No strategic strings | Portfolio not obligated to [[Google]] |
 | Sector agnostic | Tech, life sciences, consumer |
 | Full lifecycle | Seed through pre-IPO |
 
@@ -56,14 +56,14 @@ Unlike most corporate VC, GV operates independently.
 
 ---
 
-## Relationship with Google
+## Relationship with [[Google]]
 
 | Aspect | Detail |
 |--------|--------|
 | Funding | Alphabet capital |
 | Strategy | Independent decisions |
 | Synergies | Optional, not required |
-| Acquisitions | Some portfolio acquired by Google |
+| Acquisitions | Some portfolio acquired by [[Google]] |
 
 ---
 
@@ -71,8 +71,8 @@ Unlike most corporate VC, GV operates independently.
 
 | Sector | Examples |
 |--------|----------|
-| **Enterprise** | Slack, Stripe |
-| **Consumer** | Uber, Medium |
+| **Enterprise** | [[Slack]], Stripe |
+| **[[Consumer]]** | [[Uber]], Medium |
 | **Life sciences** | 23andMe, Flatiron Health |
 | **AI** | Various |
 
@@ -85,7 +85,7 @@ Unlike most corporate VC, GV operates independently.
 | Founded | 2009 |
 | Parent | Alphabet |
 | AUM | ~$8B |
-| Key exits | Uber, Slack, Nest |
+| Key exits | [[Uber]], [[Slack]], Nest |
 
 ---
 

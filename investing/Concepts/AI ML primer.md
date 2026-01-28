@@ -77,7 +77,7 @@ Process sequences. Have "memory" of previous inputs.
 
 Introduced in "Attention Is All You Need" (2017). Replaced RNNs for language.
 
-| Property | RNN | Transformer |
+| Property | RNN | [[Transformer]] |
 |----------|-----|-------------|
 | Sequence handling | Sequential | **Parallel** |
 | Long-range dependencies | Poor | **Excellent** |
@@ -118,7 +118,7 @@ Run multiple attention operations in parallel. Each "head" can focus on differen
 
 ---
 
-## Transformer architecture
+## [[Transformer]] architecture
 
 ```
 Input tokens
@@ -127,7 +127,7 @@ Input tokens
      ↓
 [Positional encoding] — Add position information
      ↓
-[Transformer blocks] × N
+[[[Transformer]] blocks] × N
   ├── Multi-head self-attention
   ├── Add & normalize
   ├── Feed-forward network
@@ -139,7 +139,7 @@ Output
 | Variant | Use | Examples |
 |---------|-----|----------|
 | **Encoder-only** | Understanding | BERT |
-| **Decoder-only** | Generation | **GPT, Claude, Llama** |
+| **Decoder-only** | Generation | **GPT, [[Claude]], [[Llama]]** |
 | **Encoder-decoder** | Seq-to-seq | T5, original transformer |
 
 **Modern LLMs are decoder-only:** Predict next token, autoregressively.
@@ -148,7 +148,7 @@ Output
 
 ## Large Language Models (LLMs)
 
-Transformer models trained on massive text to predict next token.
+[[Transformer]] models trained on massive text to predict next token.
 
 ```
 Training objective:
@@ -158,10 +158,10 @@ Training objective:
 | Model | Parameters | Developer |
 |-------|------------|-----------|
 | GPT-4 | ~1.8T (rumored) | [[OpenAI]] |
-| Claude 3 | Undisclosed | [[Anthropic]] |
-| Gemini Ultra | Undisclosed | [[Google]] |
-| Llama 3 405B | 405B | [[Meta]] |
-| Grok | Undisclosed | [[xAI]] |
+| [[Claude]] 3 | Undisclosed | [[Anthropic]] |
+| [[Gemini]] Ultra | Undisclosed | [[Google]] |
+| [[Llama]] 3 405B | 405B | [[Meta]] |
+| [[Grok]] | Undisclosed | [[xAI]] |
 
 ### Emergent capabilities
 
@@ -201,7 +201,7 @@ C = Compute (FLOPs)
 |------------|-------------------------|
 | GPT-3 (175B) | ~3.6 × 10²³ |
 | GPT-4 (est.) | ~2 × 10²⁵ |
-| Llama 3 405B | ~4 × 10²⁵ |
+| [[Llama]] 3 405B | ~4 × 10²⁵ |
 
 **Doubling every 6-12 months.** This drives GPU demand.
 
@@ -251,7 +251,7 @@ Each token generated requires a full forward pass.
 |----------|-----|--------|
 | **GPUs** | Dominant for training | [[NVIDIA]] H100/H200/B200 |
 | **TPUs** | Google internal | [[Google]] |
-| **Custom ASICs** | Hyperscaler internal | Amazon Trainium, Microsoft Maia |
+| **Custom ASICs** | Hyperscaler internal | [[Amazon]] Trainium, [[Microsoft]] Maia |
 
 **Why NVIDIA dominates:** CUDA ecosystem, 15+ years of ML optimization, network effects.
 
@@ -263,7 +263,7 @@ Each token generated requires a full forward pass.
 | Custom ASICs | Efficient | Inflexible |
 | CPUs | Cheap, available | Slow |
 
-**Inference ASICs:** Groq, Cerebras, SambaNova, AWS Inferentia — optimized for specific workloads.
+**Inference ASICs:** [[Groq]], [[Cerebras]], [[SambaNova]], AWS Inferentia — optimized for specific workloads.
 
 See [[NVIDIA]], [[AI Infrastructure]], [[Semiconductor primer]].
 
@@ -355,8 +355,8 @@ How much text the model can "see" at once.
 |-------|----------------|
 | GPT-3 | 4K tokens |
 | GPT-4 | 8K-128K tokens |
-| Claude 3 | 200K tokens |
-| Gemini 1.5 | 1M+ tokens |
+| [[Claude]] 3 | 200K tokens |
+| [[Gemini]] 1.5 | 1M+ tokens |
 
 **Cost:** Attention is O(n²). Doubling context = 4x attention compute.
 
@@ -415,8 +415,8 @@ Process multiple input types (text, image, audio, video).
 | Model | Modalities |
 |-------|------------|
 | GPT-4V | Text, image |
-| Gemini | Text, image, audio, video |
-| Claude 3 | Text, image |
+| [[Gemini]] | Text, image, audio, video |
+| [[Claude]] 3 | Text, image |
 
 **Architecture:** Encode each modality → project to shared space → transformer processes jointly.
 
@@ -435,7 +435,7 @@ Inference: Start with noise → Denoise step by step → Image
 |-------|-----------|-----|
 | DALL-E 3 | OpenAI | Image generation |
 | Midjourney | Midjourney | Image generation |
-| Stable Diffusion | Stability AI | Open source images |
+| Stable Diffusion | [[Stability AI]] | Open source images |
 | Sora | OpenAI | Video generation |
 
 ---
@@ -452,14 +452,14 @@ Inference: Start with noise → Denoise step by step → Image
 
 ---
 
-## Competitive moats
+## [[Competitive moats]]
 
 | Moat | Who has it |
 |------|------------|
-| **Compute scale** | Hyperscalers (Google, Microsoft, Amazon) |
+| **Compute scale** | Hyperscalers (Google, [[Microsoft]], [[Amazon]]) |
 | **Data** | Google (search), Meta (social), OpenAI (usage) |
 | **Talent** | OpenAI, Anthropic, DeepMind |
-| **Distribution** | Microsoft (Office), Google (Search) |
+| **Distribution** | [[Microsoft]] (Office), Google (Search) |
 | **CUDA ecosystem** | [[NVIDIA]] |
 
 ---
@@ -469,10 +469,10 @@ Inference: Start with noise → Denoise step by step → Image
 - [[AI Infrastructure]] — hardware buildout
 - [[NVIDIA]] — GPU leader
 - [[OpenAI]] — GPT developer
-- [[Anthropic]] — Claude developer
-- [[Google]] — Gemini, TPUs
-- [[Meta]] — Llama, open source
-- [[xAI]] — Grok
+- [[Anthropic]] — [[Claude]] developer
+- [[Google]] — [[Gemini]], TPUs
+- [[Meta]] — [[Llama]], open source
+- [[xAI]] — [[Grok]]
 - [[Hyperscaler capex]] — demand driver
 - [[HBM]] — memory bandwidth
 - [[Semiconductor primer]] — chip fundamentals

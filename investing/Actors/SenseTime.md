@@ -3,19 +3,19 @@ aliases: [商汤科技, SenseTime Group]
 ---
 #actor #china #ai #cv #public
 
-**SenseTime** — China's largest computer vision company. Tsinghua/CUHK spinoff. Public (HK: 0020). On US Entity List. Surveillance, autonomous driving, smart city.
+**SenseTime** — [[China]]'s largest computer vision company. Tsinghua/CUHK spinoff. Public (HK: 0020). On US Entity List. Surveillance, autonomous driving, smart city.
 
 ---
 
 ## Why SenseTime matters
 
-The flagship China AI company — large, public, controversial:
+The flagship [[China]] AI company — large, public, controversial:
 
 | Metric | Value |
 |--------|-------|
 | HQ | Hong Kong / Shanghai |
 | Founded | 2014 |
-| Listing | HKEX: 0020 (Dec 2021) |
+| Listing | [[HKEX]]: 0020 (Dec 2021) |
 | Market cap | ~$10B (volatile) |
 | Focus | Computer vision, AI platform |
 | Status | US Entity List (2019) |
@@ -56,7 +56,7 @@ The flagship China AI company — large, public, controversial:
 | Video analytics | Real-time processing |
 | AI platform (SenseCore) | Training + inference infrastructure |
 
-**Benchmark performance:** Consistently top rankings on academic CV benchmarks.
+**[[Benchmark]] performance:** Consistently top rankings on academic CV benchmarks.
 
 ---
 
@@ -66,7 +66,7 @@ Added to US Entity List in 2019:
 
 | Restriction | Effect |
 |-------------|--------|
-| US chips | Cannot purchase NVIDIA directly |
+| US chips | Cannot purchase [[NVIDIA]] directly |
 | US investors | Some divested |
 | US customers | None |
 | Workarounds | Domestic chips, third-party procurement |
@@ -82,7 +82,7 @@ Added to US Entity List in 2019:
 | [[Megvii]] | Larger, more diversified | Less focused |
 | Hikvision | Software vs hardware | Less distribution |
 | [[ByteDance]] | Pure CV focus | Less data |
-| Western (Google, etc.) | China market access | No US market |
+| Western ([[Google]], etc.) | [[China]] market access | No US market |
 
 ---
 
@@ -101,19 +101,19 @@ Added to US Entity List in 2019:
 
 ## Investment implications
 
-**Investable:** HKEX: 0020
+**Investable:** [[HKEX]]: 0020
 
 **Bull case:**
-- China AI leader in CV
+- [[China]] AI leader in CV
 - Platform approach (SenseCore)
 - Autonomous driving optionality
 - Valuation depressed by Entity List
 
 **Bear case:**
 - Entity List overhang
-- Surveillance exposure (ESG concerns)
+- Surveillance exposure ([[ESG]] concerns)
 - Profitability unclear
-- Competition from Big Tech (ByteDance, Alibaba)
+- Competition from Big Tech (ByteDance, [[Alibaba]])
 
 **Key metrics to watch:**
 - Smart Auto revenue growth
@@ -122,7 +122,7 @@ Added to US Entity List in 2019:
 
 ---
 
-## ESG considerations
+## [[ESG]] considerations
 
 | Concern | Details |
 |---------|---------|
@@ -131,7 +131,7 @@ Added to US Entity List in 2019:
 | Entity List | US government concern |
 | Response | Company denies human rights violations |
 
-**Investor caution:** Some ESG-focused funds exclude SenseTime.
+**Investor caution:** Some [[ESG]]-focused funds exclude SenseTime.
 
 ---
 

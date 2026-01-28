@@ -46,7 +46,7 @@ Creditors with the **same lien** on collateral can still have different payment 
 
 ---
 
-## Case study: Saks Global
+## Case study: [[Saks Global]]
 
 The [[Saks bankruptcy]] illustrates a multi-tier waterfall:
 

@@ -76,7 +76,7 @@ aliases: [Juventus FC, JUVE]
 |--------|---------|------------------|
 | 2020-21 | 4th | Round of 16 |
 | 2021-22 | 4th | Round of 16 |
-| 2022-23 | 7th | — (no Europe) |
+| 2022-23 | 7th | — (no [[Europe]]) |
 | 2023-24 | 3rd | Quarter-finals |
 
 **Dynasty ended.** Won 9 consecutive Serie A titles (2012-2020), then fell off. Now rebuilding.
@@ -87,7 +87,7 @@ aliases: [Juventus FC, JUVE]
 
 **Bull:**
 - Depressed valuation post-scandal
-- One of Europe's most valuable football brands
+- One of [[Europe]]'s most valuable football brands
 - Allianz Stadium ownership (rare)
 - Exor support ensures solvency
 - Potential Serie A recovery / new TV deal

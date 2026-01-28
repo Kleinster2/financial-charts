@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #vc #usa
 
-**Peter Thiel** — Billionaire tech investor. PayPal co-founder. Founders Fund partner. Contrarian AI/crypto backer. [[PayPal mafia]] "don."
+**Peter Thiel** — Billionaire tech investor. [[PayPal]] co-founder. Founders Fund partner. Contrarian AI/crypto backer. [[PayPal mafia]] "don."
 
 ---
 
@@ -13,7 +13,7 @@ aliases: []
 |--------|-------|
 | Net worth | ~$10B+ |
 | Primary vehicle | Founders Fund |
-| Notable exits | PayPal, Palantir, Facebook |
+| Notable exits | [[PayPal]], Palantir, Facebook |
 | Style | Contrarian, long-duration |
 
 ---
@@ -26,7 +26,7 @@ aliases: []
 - Vertical integration
 - Long time horizons
 
-**"Zero to One"** — his framework for backing category-defining companies.
+**"[[Zero to One]]"** — his framework for backing category-defining companies.
 
 ---
 
@@ -34,10 +34,10 @@ aliases: []
 
 | Company | Thesis |
 |---------|--------|
-| [[Etched]] | Transformer ASIC bet |
+| [[Etched]] | [[Transformer]] ASIC bet |
 | [[Palantir]] | AI for enterprise/government |
-| [[Anduril]] | Defense AI |
-| xAI | Musk's AI venture |
+| [[Anduril]] | [[Defense]] AI |
+| [[xAI]] | Musk's AI venture |
 
 Backs hardware and infrastructure, not just model companies.
 
@@ -48,7 +48,7 @@ Backs hardware and infrastructure, not just model companies.
 | Entity | Focus |
 |--------|-------|
 | **Founders Fund** | Primary VC (co-founded) |
-| **Mithril Capital** | Growth stage |
+| **[[Mithril Capital]]** | Growth stage |
 | Personal | Direct investments |
 
 ---
@@ -57,12 +57,12 @@ Backs hardware and infrastructure, not just model companies.
 
 | Company | Role |
 |---------|------|
-| PayPal | Co-founder |
+| [[PayPal]] | Co-founder |
 | Palantir | Co-founder |
 | Facebook | First outside investor ($500K → $1B+) |
-| SpaceX | Early investor |
-| Stripe | Early investor |
-| Airbnb | Early investor |
+| [[SpaceX]] | Early investor |
+| [[Stripe]] | Early investor |
+| [[Airbnb]] | Early investor |
 
 ---
 
@@ -96,11 +96,11 @@ Backs hardware and infrastructure, not just model companies.
 
 ## Related
 
-### PayPal mafia
+### [[PayPal]] mafia
 - [[PayPal mafia]] — "don" of the network
-- [[Max Levchin]] — PayPal co-founder
-- [[Reid Hoffman]] — PayPal founding team
-- [[Elon Musk]] — PayPal (X.com merger)
+- [[Max Levchin]] — [[PayPal]] co-founder
+- [[Reid Hoffman]] — [[PayPal]] founding team
+- [[Elon Musk]] — [[PayPal]] (X.com merger)
 
 ### Investments
 - [[Etched]] — portfolio company (AI chips)

@@ -11,7 +11,7 @@ aliases: [AMGN]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | AMGN (Nasdaq) |
+| Ticker | AMGN ([[Nasdaq]]) |
 | 2024 revenue growth | +22% |
 | Q1 2025 revenue | $8.15B (+9%) |
 | Biosimilars | **$3B** annualized |
@@ -36,14 +36,14 @@ aliases: [AMGN]
 
 ## Biosimilars portfolio
 
-| Product | Target | Status |
+| Product | [[Target]] | Status |
 |---------|--------|--------|
 | Wezlana | Stelara | Ramping |
 | Pavblu | Eylea | Launched |
 | Bekemv | Soliris | Growing |
 
 **Revenue:** ~$3B annualized (9% of Q1 2025 revenue).
-**Target:** $4B+ by 2030.
+**[[Target]]:** $4B+ by 2030.
 
 ---
 
@@ -99,7 +99,7 @@ Amgen repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] 
 | Metric | Value |
 |--------|-------|
 | Ticker | AMGN |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$33B |
 | Focus | Biotech, biosimilars, obesity |
 

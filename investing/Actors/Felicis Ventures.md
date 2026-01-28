@@ -2,7 +2,7 @@
 
 #actor #vc #usa #private #early-stage
 
-**Felicis Ventures** — Early-stage VC founded by Aydin Senkut (Google employee #63). **$900M Fund X (2025), 50+ unicorns, 125+ exits.** Notable: Shopify, Credit Karma, Adyen, Notion, Canva, [[Supabase]]. Known for founder-friendly terms — contractual promise to never vote against founders.
+**Felicis Ventures** — Early-stage VC founded by Aydin Senkut ([[Google]] employee #63). **$900M Fund X (2025), 50+ unicorns, 125+ exits.** Notable: [[Shopify]], Credit Karma, [[Adyen]], [[Notion]], [[Canva]], [[Supabase]]. Known for founder-friendly terms — contractual promise to never vote against founders.
 
 ---
 
@@ -25,14 +25,14 @@
 
 | Detail | Value |
 |--------|-------|
-| Background | Google employee #63, first product manager |
-| Google tenure | 1999-2005 |
+| Background | [[Google]] employee #63, first product manager |
+| [[Google]] tenure | 1999-2005 |
 | Origin | Turkish, speaks 5 languages |
 | Education | Boston University, Wharton MBA |
 | Recognition | Forbes Midas List 12 consecutive years (2014-2025) |
 | Focus areas | Infrastructure, security, health |
 
-Started angel investing after leaving Google in 2005. Transitioned from "super angel" to institutional VC with Felicis.
+Started angel investing after leaving [[Google]] in 2005. Transitioned from "super angel" to institutional VC with Felicis.
 
 ---
 
@@ -53,11 +53,11 @@ Started angel investing after leaving Google in 2005. Transitioned from "super a
 
 | Company | Outcome |
 |---------|---------|
-| Shopify | IPO (SHOP) |
-| Adyen | IPO (Amsterdam) |
-| Credit Karma | Acquired by Intuit |
-| Fitbit | Acquired by Google |
-| Guardant Health | IPO |
+| [[Shopify]] | IPO (SHOP) |
+| [[Adyen]] | IPO (Amsterdam) |
+| Credit Karma | Acquired by [[Intuit]] |
+| Fitbit | Acquired by [[Google]] |
+| [[Guardant Health]] | IPO |
 | Pluralsight | IPO, then acquired |
 | Rovio | IPO (Angry Birds) |
 
@@ -65,9 +65,9 @@ Started angel investing after leaving Google in 2005. Transitioned from "super a
 
 | Company | Category |
 |---------|----------|
-| Notion | Productivity |
-| Canva | Design |
-| Plaid | Fintech |
+| [[Notion]] | [[Productivity]] |
+| [[Canva]] | Design |
+| Plaid | [[Fintech]] |
 | [[Supabase]] | Developer tools |
 | Runway | AI video |
 | Mercor | AI hiring |
@@ -77,7 +77,7 @@ Started angel investing after leaving Google in 2005. Transitioned from "super a
 
 ## 2025 team addition
 
-Hired **Peter Deng** (former OpenAI consumer VP, led ChatGPT team) as general partner to strengthen AI investment capabilities.
+Hired **Peter Deng** (former [[OpenAI]] consumer VP, led [[ChatGPT]] team) as general partner to strengthen AI investment capabilities.
 
 ---
 

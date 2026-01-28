@@ -23,7 +23,7 @@ Helion is the most credible fusion-for-AI play:
 **Altman's largest investment ever:**
 - $375M personal investment (2021)
 - Board chair since 2015
-- Recruited Helion to Y Combinator
+- Recruited Helion to [[Y Combinator]]
 - Participated in 2025 $425M round
 
 **The thesis:** Altman runs OpenAI (massive power consumer) and invests in Helion (power producer). He's betting AI needs fusion-scale energy.
@@ -36,7 +36,7 @@ Helion is the most credible fusion-for-AI play:
 
 **First-ever fusion electricity agreement:**
 - Microsoft to buy power from Helion facility
-- Target: 2028 (extremely ambitious)
+- [[Target]]: 2028 (extremely ambitious)
 - 50 MW+ initially
 - Signals hyperscaler belief in fusion
 
@@ -71,7 +71,7 @@ Helion is the most credible fusion-for-AI play:
 | YC | 2014 | — | Accelerator |
 | Series A-C | 2015-2020 | ~$230M | Mithril, Capricorn |
 | Series D | 2021 | $500M | Sam Altman led ($375M) |
-| Series E | 2025 | $425M | SoftBank, Lightspeed |
+| Series E | 2025 | $425M | [[SoftBank]], Lightspeed |
 | **Total** | | **$1.2B+** | |
 
 **Valuation:** $5.4B
@@ -81,17 +81,17 @@ Helion is the most credible fusion-for-AI play:
 | Investor | Role |
 |----------|------|
 | **[[Sam Altman]]** | Chairman, lead ($375M) |
-| **SoftBank** | Series E |
+| **[[SoftBank]]** | Series E |
 | **[[Lightspeed Venture Partners]]** | Series E |
-| **Mithril Capital** | Early (Peter Thiel) |
+| **[[Mithril Capital]]** | Early ([[Peter Thiel]]) |
 | **Capricorn** | Early |
-| **Y Combinator** | Accelerator (2014) |
+| **[[Y Combinator]]** | Accelerator (2014) |
 
 ---
 
 ## Timeline
 
-| Milestone | Target |
+| Milestone | [[Target]] |
 |-----------|--------|
 | Polaris prototype | Operating now |
 | Net electricity | TBD |
@@ -128,7 +128,7 @@ Helion is the most credible fusion-for-AI play:
 - Even Altman hedges with [[Oklo]] (fission)
 - Private — can't invest directly
 
-**Note:** Helion is private. No public stock. Exposure only through eventual IPO or via SoftBank (if it has material stake).
+**Note:** Helion is private. No public stock. Exposure only through eventual IPO or via [[SoftBank]] (if it has material stake).
 
 ---
 

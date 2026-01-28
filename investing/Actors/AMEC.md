@@ -22,7 +22,7 @@ AMEC is China's most advanced etch equipment company — critical for chip manuf
 Like [[Naura Technology]], AMEC benefits from China's 50% domestic equipment mandate:
 
 - Captive market for Chinese fabs
-- SMIC, Hua Hong, etc. must source locally
+- [[SMIC]], Hua Hong, etc. must source locally
 - Etch is critical process step — high value
 
 ---
@@ -37,7 +37,7 @@ Like [[Naura Technology]], AMEC benefits from China's 50% domestic equipment man
 **Vs Lam Research:**
 - Lam still leads on advanced nodes
 - AMEC competitive at 28nm+
-- Gap narrowing with R&D investment
+- [[Gap]] narrowing with R&D investment
 
 **MOCVD:**
 - LED manufacturing equipment
@@ -47,7 +47,7 @@ Like [[Naura Technology]], AMEC benefits from China's 50% domestic equipment man
 
 ## Founder: Gerald Yin
 
-- Former Applied Materials executive
+- Former [[Applied Materials]] executive
 - Founded AMEC 2004
 - Returned to China to build domestic capability
 - Symbol of "sea turtle" (返海归) brain drain back to China
@@ -85,7 +85,7 @@ Like [[Naura Technology]], AMEC benefits from China's 50% domestic equipment man
 | Ticker | 688012.SS |
 | HQ | Shanghai |
 | Founded | 2004 |
-| Founder | Gerald Yin (ex-Applied Materials) |
+| Founder | Gerald Yin (ex-[[Applied Materials]]) |
 | Focus | Etch equipment |
 | H1 2025 revenue | 5B yuan |
 

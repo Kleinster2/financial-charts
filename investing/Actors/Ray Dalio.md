@@ -3,7 +3,7 @@ aliases: [Raymond Dalio, Raymond Thomas Dalio]
 ---
 #actor #individual #hedgefund #macro #usa
 
-**Ray Dalio** — Founder of [[Bridgewater]]. World's largest hedge fund (built from apartment, 1975). **Net worth $15.4B** (2025). Author of "Principles" (3M+ copies). Known for: "radical transparency" culture, 1982 bankruptcy that shaped his philosophy, exited Bridgewater 2024.
+**Ray Dalio** — Founder of [[Bridgewater]]. World's largest hedge fund (built from apartment, 1975). **Net worth $15.4B** (2025). Author of "[[Principles]]" ([[3M]]+ copies). Known for: "radical transparency" culture, 1982 bankruptcy that shaped his philosophy, exited Bridgewater 2024.
 
 ---
 
@@ -41,8 +41,8 @@ aliases: [Raymond Dalio, Raymond Thomas Dalio]
 | 1981-82 | Near-bankruptcy after wrong macro call |
 | 1991 | Developed Pure Alpha strategy |
 | 1996 | Launched All Weather strategy |
-| 2011 | Published "Principles" internally |
-| 2017 | Published "Principles" book (3M+ copies sold) |
+| 2011 | Published "[[Principles]]" internally |
+| 2017 | Published "[[Principles]]" book ([[3M]]+ copies sold) |
 | 2020 | Stepped back from investment decisions |
 | 2022 | Nir Bar Dea became CEO; Dalio stepped down as co-CIO |
 | 2024 | Sold remaining stake; left board |
@@ -58,7 +58,7 @@ aliases: [Raymond Dalio, Raymond Thomas Dalio]
 |--------|-------|
 | Year | 1981-82 |
 | Prediction | US lent more to foreign countries than could be repaid; depression coming |
-| What occurred | Mexico crisis did happen (Aug 1982), but marked market trough |
+| What occurred | [[Mexico]] crisis did happen (Aug 1982), but marked market trough |
 | Result | Fed eased; 18-year bull market began |
 | Dalio's outcome | "Dead wrong" |
 
@@ -133,9 +133,9 @@ See [[Dalio Principles]] for the full framework — radical truth, radical trans
 
 | Title | Year | Sales |
 |-------|------|-------|
-| "Principles" (internal) | 2011 | — |
-| "Principles: Life & Work" | 2017 | 3M+ copies |
-| "Principles for Dealing with the Changing World Order" | 2021 | — |
+| "[[Principles]]" (internal) | 2011 | — |
+| "[[Principles]]: Life & Work" | 2017 | [[3M]]+ copies |
+| "[[Principles]] for Dealing with the Changing World Order" | 2021 | — |
 | "How Countries Go Broke: The Big Cycle" | Jun 2025 | New release |
 
 ---
@@ -168,7 +168,7 @@ See [[Dalio Principles]] for the full framework — radical truth, radical trans
 
 2. **Post-Dalio Bridgewater** — Exited 2024; watch if performance and culture persist under new leadership.
 
-3. **Published philosophy** — "Principles" offers transparent look at decision-making framework.
+3. **Published philosophy** — "[[Principles]]" offers transparent look at decision-making framework.
 
 4. **1982 lesson** — Near-bankruptcy story is canonical example of overconfidence risk.
 
@@ -192,7 +192,7 @@ See [[Dalio Principles]] for the full framework — radical truth, radical trans
 - [[Izzy Englander]] — [[Millennium]] founder
 
 ### Books
-- "Principles: Life & Work" (2017)
+- "[[Principles]]: Life & Work" (2017)
 - "How Countries Go Broke: The Big Cycle" (2025)
 
 ---

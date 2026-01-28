@@ -1,9 +1,9 @@
 ---
-aliases: [US-China capital reversal, FDI reversal]
+aliases: [US-[[China]] capital reversal, FDI reversal]
 ---
 #concept #macro #geopolitics #china #usa
 
-**Capital flow reversal** — US drawing capital in, China pushing capital out. First time China outbound FDI exceeded US (H1 2025). Fundamental reshaping of global economic relationships.
+**Capital flow reversal** — US drawing capital in, [[China]] pushing capital out. First time [[China]] outbound FDI exceeded US (H1 2025). Fundamental reshaping of global economic relationships.
 
 ---
 
@@ -11,31 +11,31 @@ aliases: [US-China capital reversal, FDI reversal]
 
 **H1 2025 milestone:**
 
-| Metric | US | China |
+| Metric | US | [[China]] |
 |--------|-------|-------|
 | Share of global outbound FDI | <10% | **10%** |
 | Share of global inbound FDI | **20%** | — |
 
-*Source: OECD*
+*Source: [[OECD]]*
 
-**EU down 45%** in inbound investment vs 6 months earlier.
+**[[EU]] down 45%** in inbound investment vs 6 months earlier.
 
-**Ana Novik (OECD):** "This world is changing fast."
+**Ana Novik ([[OECD]]):** "This world is changing fast."
 
 ---
 
 ## Historical context
 
-| Era | US Role | China Role |
+| Era | US Role | [[China]] Role |
 |-----|---------|------------|
 | 1945-2000 | Capital exporter, factory builder | Closed economy |
-| 2000-2020 | Consumer market, importer | Factory to the world |
+| 2000-2020 | [[Consumer]] market, importer | Factory to the world |
 | 2020-2025 | Reshoring, tariffs | Trophy asset buyer |
 | **2025+** | **Capital importer** | **Greenfield builder** |
 
 ---
 
-## China outbound surge
+## [[China]] outbound surge
 
 **2025 record year:**
 
@@ -43,32 +43,32 @@ aliases: [US-China capital reversal, FDI reversal]
 |--------|-------|
 | Announced outbound | $106.6B (Q1-Q3) |
 | Greenfield share | **85%** |
-| Largest deal | ByteDance $38B Brazil DC |
+| Largest deal | [[ByteDance]] $38B [[Brazil]] DC |
 
 **Shift:** From buying trophy assets (Waldorf Astoria) to building new factories.
 
-**Funding source:** Trade surplus no longer recycled into US Treasuries → funding overseas expansion via state banks.
+**Funding source:** [[Trade]] surplus no longer recycled into US [[Treasuries]] → funding overseas expansion via state banks.
 
-**Brad Setser (CFR):** "You can clearly draw a pretty straight line between the shift in China's recycling away from foreign exchange reserves towards the state banks and increased funding for the outward expansion of Chinese companies."
+**Brad Setser (CFR):** "You can clearly draw a pretty straight line between the shift in [[China]]'s recycling away from foreign exchange reserves towards the state banks and increased funding for the outward expansion of Chinese companies."
 
 ---
 
-## China outbound by destination (Q3 2025)
+## [[China]] outbound by destination (Q3 2025)
 
 **Top 25 pledged investments (Rhodium):**
 
 | Country | Amount | Notes |
 |---------|--------|-------|
-| **Indonesia** | **$10.3B** | Batteries, nickel, chemicals |
+| **Indonesia** | **$10.3B** | [[Batteries]], nickel, chemicals |
 | **Thailand** | **$9.0B** | Data centers, manufacturing |
-| **Brazil** | **$4.8B** | ByteDance DC |
+| **[[Brazil]]** | **$4.8B** | [[ByteDance]] DC |
 | **Nigeria** | **$4.0B** | Gas city |
 | **Zimbabwe** | **$2.8B** | Resources |
 | **Egypt** | **$2.7B** | — |
-| **UK** | **$2.0B** | — |
-| **Argentina** | **$2.0B** | — |
+| **[[UK]]** | **$2.0B** | — |
+| **[[Argentina]]** | **$2.0B** | — |
 
-**Over 1/3** of China's largest investments went to Indonesia and Thailand.
+**Over 1/3** of [[China]]'s largest investments went to Indonesia and Thailand.
 
 ---
 
@@ -76,10 +76,10 @@ aliases: [US-China capital reversal, FDI reversal]
 
 | Project | Value | Location | Company |
 |---------|-------|----------|---------|
-| Data center | **$38B** | Brazil | ByteDance |
+| Data center | **$38B** | [[Brazil]] | [[ByteDance]] |
 | Chemical plant | $5.9B | Indonesia | Tongkun Group |
 | Battery plant | $6B | Indonesia | [[CATL]] |
-| Battery plant | $2B | Germany | [[CATL]] |
+| Battery plant | $2B | [[Germany]] | [[CATL]] |
 | EV assembly | — | Indonesia | GAC Group |
 | Gas city | $20B | Nigeria | CNCEC + Alpha Grip |
 
@@ -93,10 +93,10 @@ aliases: [US-China capital reversal, FDI reversal]
 
 | Sector | Total | Key pledges |
 |--------|-------|-------------|
-| **Pharma & Biotech** | **$159B** | AstraZeneca $50B, Genentech $50B, GSK $30B, Novartis $23B |
+| **Pharma & Biotech** | **$159B** | [[AstraZeneca]] $50B, Genentech $50B, GSK $30B, [[Novartis]] $23B |
 | **Tech & AI** | **$141B** | [[TSMC]] $100B, DAMAC $20B, [[GlobalFoundries]] $16B |
-| **Automotive** | **$45B** | [[Hyundai]] $26B, [[Stellantis]] $13B |
-| **Transport/Logistics** | **$21B** | CMA CGM $20B |
+| **[[Automotive]]** | **$45B** | [[Hyundai]] $26B, [[Stellantis]] $13B |
+| **[[Transport]]/Logistics** | **$21B** | [[CMA CGM]] $20B |
 | **Manufacturing** | **$10B** | Mitsubishi $4B |
 | **Other** | **$3B** | Capital Power $2B |
 
@@ -108,10 +108,10 @@ aliases: [US-China capital reversal, FDI reversal]
 
 ## FDI stock comparison
 
-| Metric | US | China |
+| Metric | US | [[China]] |
 |--------|-------|-------|
 | Total FDI abroad | **$6.8T** | $3.1T (official) |
-| In Europe | $4T | €65B |
+| In [[Europe]] | $4T | €65B |
 | Actual (Rhodium) | — | $1.7T |
 
 US still far ahead in accumulated stock, but flow direction reversing.
@@ -120,44 +120,44 @@ US still far ahead in accumulated stock, but flow direction reversing.
 
 ## Regional impacts
 
-### Europe
+### [[Europe]]
 
-**CATL vs Ford in Germany:**
+**CATL vs Ford in [[Germany]]:**
 - CATL Arnstadt: 2,000 German jobs, growing
 - Ford Cologne: Cutting 1,000 jobs, single shift
 
 **Macron to Xi (Dec 2025):** Urging more Chinese investment to "rebalance" relationship.
 
-**EU Trade Commissioner Sefcovic:** "We welcome the investments, if you are talking about real investments" with jobs, IP sharing.
+**[[EU]] [[Trade]] Commissioner Sefcovic:** "We welcome the investments, if you are talking about real investments" with jobs, IP sharing.
 
-### Southeast Asia
+### [[Southeast Asia]]
 
-**China dominant:**
-- Thailand: ByteDance data centers
+**[[China]] dominant:**
+- Thailand: [[ByteDance]] data centers
 - Indonesia: CATL battery plant, GAC EV assembly, nickel refining
 - Chinese payment systems widely used
 
-**Lawrence Wong (Singapore PM):** "America's actions... has impacted America's standing in Southeast Asia."
+**Lawrence Wong (Singapore PM):** "America's actions... has impacted America's standing in [[Southeast Asia]]."
 
-**Dan Wang (Eurasia Group):** Chinese companies "cannot make money at home. The China market is too depressed."
+**Dan Wang (Eurasia Group):** Chinese companies "cannot make money at home. The [[China]] market is too depressed."
 
 See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-2025), new industries gained <1pp.
 
-### Mexico
+### [[Mexico]]
 
 **Caught in the middle:**
 - Economy contracting
 - US investment paused pending Trump tariff clarity
 - Cracking down on Chinese investment to appease Trump
 - 50% tariffs on 1,400 Asian products (Jan 1, 2026)
-- "Plan Mexico" incentives stalling
+- "Plan [[Mexico]]" incentives stalling
 
-**Alberto Ramos (Goldman):** "If the US wants home shoring... that's more problematic for Mexico."
+**Alberto Ramos (Goldman):** "If the US wants home shoring... that's more problematic for [[Mexico]]."
 
-### Africa
+### [[Africa]]
 
 **Chinese shift:** From resource extraction to market access
-- Building EV factories in Morocco (EU export)
+- Building EV factories in Morocco ([[EU]] export)
 - $20B Nigeria gas city
 - DRC/Angola copper expansion
 
@@ -167,11 +167,11 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 
 ## Corporate adaptations
 
-**DHL:** Deploying Chinese-speaking staff globally to capture business from Chinese investors. Same model used for Japan/Korea in 1980s.
+**DHL:** Deploying Chinese-speaking staff globally to capture business from Chinese investors. Same model used for [[Japan]]/Korea in 1980s.
 
 **John Pearson (DHL Express CEO):** "We want to be there to meet them off the plane."
 
-**DHL's 20 "geographic tailwind" economies:** Markets seeing burst of new factory, supply chain, and logistics investments — includes Mexico, Brazil, India, Southeast Asia, Middle East, parts of Africa.
+**DHL's 20 "geographic tailwind" economies:** Markets seeing burst of new factory, supply chain, and logistics investments — includes [[Mexico]], [[Brazil]], [[India]], [[Southeast Asia]], Middle East, parts of [[Africa]].
 
 **Ford:** Partnering with Renault for European EVs rather than competing alone against Chinese.
 
@@ -182,7 +182,7 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 ## Geely/Volvo — the template
 
 **Sweden since 2010:**
-- Geely bought Volvo Cars
+- Geely bought [[Volvo Cars]]
 - Still ~20,000 Swedish employees
 - New battery plant = 3,000 more jobs
 - IP stayed in Sweden (fears proved unfounded)
@@ -195,7 +195,7 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 
 ## Investment implications
 
-**Long China outbound beneficiaries:**
+**Long [[China]] outbound beneficiaries:**
 - Southeast Asian infrastructure
 - European EV supply chain
 - African resources/manufacturing
@@ -203,10 +203,10 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 **Long US inbound beneficiaries:**
 - AI infrastructure
 - Pharma manufacturing
-- Industrial REITs
+- Industrial [[REITs]]
 
 **At risk:**
-- Mexico (caught between US and China)
+- [[Mexico]] (caught between US and [[China]])
 - European automakers (Chinese competition)
 - US companies with global footprints
 
@@ -214,7 +214,7 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 
 ## Jay Shambaugh (ex-Biden admin)
 
-> "China is morphing from your biggest problem in terms of jobs to being potentially an employer in your country. And that's a radical shift."
+> "[[China]] is morphing from your biggest problem in terms of jobs to being potentially an employer in your country. And that's a radical shift."
 
 > "It's like we view everything as transactional and we are going to try to take as much as possible from them."
 
@@ -222,13 +222,13 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 
 ## Related
 
-- [[Nearshoring thesis]] — Mexico caught in middle
-- [[CATL]] — Germany factory, Indonesia battery plant
-- [[Rare earth leverage]] — China capital funding supply chain control
+- [[Nearshoring thesis]] — [[Mexico]] caught in middle
+- [[CATL]] — [[Germany]] factory, Indonesia battery plant
+- [[Rare earth leverage]] — [[China]] capital funding supply chain control
 - [[AI infrastructure financing]] — US inbound focus
 - [[Ford]] — European retreat, Renault JV
 - [[Novo Nordisk]] — US pharma investment
-- [[Nigeria]] — China $20B gas city, solar revolution
-- [[China economic transition]] — Why China companies expanding abroad
+- [[Nigeria]] — [[China]] $20B gas city, solar revolution
+- [[China economic transition]] — Why [[China]] companies expanding abroad
 
 *Created 2026-01-15*

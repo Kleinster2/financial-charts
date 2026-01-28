@@ -1,34 +1,34 @@
 ---
-aliases: [Bahrain Fintech]
+aliases: [Bahrain [[Fintech]]]
 ---
 #actor #sovereign #fintech #bahrain #gcc
 
-**Bahrain Tech** — GCC fintech hub. AWS first Middle East region. Regulatory sandbox.
+**Bahrain Tech** — [[GCC]] fintech hub. AWS first Middle East region. Regulatory sandbox.
 
 ---
 
 ## Why Bahrain matters
 
-Fintech-first strategy:
+[[Fintech]]-first strategy:
 
 | Metric | Value |
 |--------|-------|
 | Population | 1.5 million |
-| Strategy | Fintech hub |
+| Strategy | [[Fintech]] hub |
 | AWS | First ME region (2019) |
 | Advantage | Regulatory innovation |
 
 ---
 
-## Fintech focus
+## [[Fintech]] focus
 
 **Regulatory sandbox:**
 - Central Bank innovation
-- Crypto-friendly
+- [[Crypto]]-friendly
 - Open banking
 - Regional fintech hub
 
-Positioned as GCC's fintech center.
+Positioned as [[GCC]]'s fintech center.
 
 ---
 
@@ -48,9 +48,9 @@ Early mover advantage.
 
 | Entity | Focus |
 |--------|-------|
-| Bahrain FinTech Bay | Fintech hub |
+| Bahrain FinTech Bay | [[Fintech]] hub |
 | Central Bank | Regulatory sandbox |
-| Batelco | Telecom |
+| Batelco | [[Telecom]] |
 | Mumtalakat | Sovereign fund ($20B) |
 
 ---
@@ -65,13 +65,13 @@ Early mover advantage.
 
 ---
 
-## vs Other GCC
+## vs Other [[GCC]]
 
 | Metric | Bahrain | Saudi | UAE |
 |--------|---------|-------|-----|
 | Population | 1.5M | 35M | 10M |
 | SWF | $20B | $930B | $1.5T |
-| Niche | Fintech | Mega AI | Execution |
+| Niche | [[Fintech]] | Mega AI | Execution |
 | AWS | First region | Later | Later |
 
 Small but specialized.
@@ -83,7 +83,7 @@ Small but specialized.
 | Metric | Value |
 |--------|-------|
 | Population | 1.5M |
-| Niche | Fintech hub |
+| Niche | [[Fintech]] hub |
 | AWS region | 2019 (first ME) |
 | SWF | $20B |
 
@@ -93,8 +93,8 @@ Small but specialized.
 
 ## Related
 
-- [[Saudi Arabia Tech]] — GCC peer (larger scale)
-- [[UAE Tech]] — GCC peer (execution-focused)
+- [[Saudi Arabia Tech]] — [[GCC]] peer (larger scale)
+- [[UAE Tech]] — [[GCC]] peer (execution-focused)
 - [[Amazon]] — AWS first ME region (2019)
 - [[GCC tech race]] — regional context
 

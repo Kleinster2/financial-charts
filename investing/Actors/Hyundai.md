@@ -15,7 +15,7 @@ aliases: [Hyundai Motor Group, HMG, HYMTF]
 | Ticker | 005380 (KRX), HYMTF (OTC) |
 | Auto brands | Hyundai, Kia, Genesis |
 | Global rank | #4 by sales volume |
-| Robotics | Boston Dynamics (80%), Motional (AV JV) |
+| [[Robotics]] | Boston Dynamics (80%), Motional (AV JV) |
 
 ---
 
@@ -35,17 +35,17 @@ aliases: [Hyundai Motor Group, HMG, HYMTF]
 
 ---
 
-## Robotics strategy
+## [[Robotics]] strategy
 
-**CES 2026 — AI Robotics Strategy:**
+**CES 2026 — AI [[Robotics]] Strategy:**
 - First Atlas deployments at Hyundai Metaplant Georgia (2026)
 - Atlas, Spot, MobED integration
 - Human-robot collaboration vision
-- Google DeepMind partnership for Atlas AI
+- [[Google DeepMind]] partnership for Atlas AI
 
 **Boston Dynamics acquisition (2021):**
 - $1.1B for 80% stake
-- From SoftBank
+- From [[SoftBank]]
 - Industrial automation goal
 - Factory integration
 
@@ -57,10 +57,10 @@ See [[Boston Dynamics]] for robot details.
 
 | Segment | Description |
 |---------|-------------|
-| Automotive | Hyundai, Kia, Genesis brands |
-| Luxury | Genesis |
+| [[Automotive]] | Hyundai, Kia, Genesis brands |
+| [[Luxury]] | Genesis |
 | Commercial | Trucks, buses |
-| Robotics | [[Boston Dynamics]] (80%) |
+| [[Robotics]] | [[Boston Dynamics]] (80%) |
 | Autonomous | Motional JV (with Aptiv) |
 | Solar | [[Solarstic]] (ZERO1NE venture) |
 
@@ -81,16 +81,16 @@ See [[Boston Dynamics]] for robot details.
 ## Investment case
 
 **Bull:**
-- EV transition leader
-- Robotics optionality (Boston Dynamics)
+- [[EV transition]] leader
+- [[Robotics]] optionality (Boston Dynamics)
 - Manufacturing excellence
 - Korean won weakness = export benefit
 - Genesis luxury growth
 
 **Bear:**
 - EV competition intensifying
-- China market challenges
-- Robotics not yet profitable
+- [[China]] market challenges
+- [[Robotics]] not yet profitable
 - Labor relations
 
 ---
@@ -102,7 +102,7 @@ See [[Boston Dynamics]] for robot details.
 - [[Figure AI]] — robotics competitor
 - [[Tesla]] — EV and robotics competitor (Optimus)
 - [[NVIDIA]] — AI partner
-- [[CES 2026]] — AI Robotics Strategy unveiled
+- [[CES 2026]] — AI [[Robotics]] Strategy unveiled
 
 ---
 

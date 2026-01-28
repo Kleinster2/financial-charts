@@ -3,20 +3,20 @@ aliases: []
 ---
 #actor #sovereign #tech #oman #gcc
 
-**Oman Tech** — Quietest GCC tech player. Omantel. Diversification from oil.
+**Oman Tech** — Quietest [[GCC]] tech player. Omantel. Diversification from oil.
 
 ---
 
 ## Why Oman matters
 
-GCC's quiet diversifier:
+[[GCC]]'s quiet diversifier:
 
 | Metric | Value |
 |--------|-------|
 | Population | 5 million |
 | OIA AUM | $50B+ |
 | Strategy | Gradual diversification |
-| Tech focus | Telecom, data centers |
+| Tech focus | [[Telecom]], data centers |
 
 ---
 
@@ -34,7 +34,7 @@ GCC's quiet diversifier:
 
 **State telecom:**
 - Oman's main telecom
-- 5G rollout
+- [[5G]] rollout
 - Data center development
 - Regional connectivity
 
@@ -44,7 +44,7 @@ GCC's quiet diversifier:
 
 **Infrastructure buildout:**
 - Oman Data Park
-- Equinix partnership
+- [[Equinix]] partnership
 - Regional connectivity hub
 - Submarine cable landing
 
@@ -60,7 +60,7 @@ GCC's quiet diversifier:
 
 ---
 
-## vs Other GCC
+## vs Other [[GCC]]
 
 | Metric | Oman | Saudi | UAE |
 |--------|------|-------|-----|
@@ -78,7 +78,7 @@ Least aggressive on tech.
 | Metric | Value |
 |--------|-------|
 | OIA AUM | $50B+ |
-| Telecom | Omantel |
+| [[Telecom]] | Omantel |
 | Strategy | Gradual diversification |
 | Tech focus | Infrastructure |
 
@@ -88,8 +88,8 @@ Least aggressive on tech.
 
 ## Related
 
-- [[Saudi Arabia Tech]] — GCC peer (larger, more aggressive)
-- [[UAE Tech]] — GCC peer (most advanced in region)
-- [[Sovereign AI race]] — context (quietest GCC player)
+- [[Saudi Arabia Tech]] — [[GCC]] peer (larger, more aggressive)
+- [[UAE Tech]] — [[GCC]] peer (most advanced in region)
+- [[Sovereign AI race]] — context (quietest [[GCC]] player)
 - [[GCC tech race]] — regional context
 

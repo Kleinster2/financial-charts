@@ -5,7 +5,7 @@ aliases: [Exor NV, Agnelli family, EXOR]
 
 # Exor
 
-**Agnelli family holding company** — one of Europe's largest diversified holding companies. Controls [[Ferrari]] (24%), [[Stellantis]] (14%), CNH Industrial, [[Juventus]], [[The Economist]] (43%). Market cap ~€25B, NAV ~€35B (persistent discount). Listed in Amsterdam, HQ in Netherlands (tax). The Agnelli-Elkann family controls via Giovanni Agnelli B.V. partnership.
+**Agnelli family holding company** — one of [[Europe]]'s largest diversified holding companies. Controls [[Ferrari]] (24%), [[Stellantis]] (14%), CNH Industrial, [[Juventus]], [[The Economist]] (43%). Market cap ~€25B, NAV ~€35B (persistent discount). Listed in Amsterdam, HQ in Netherlands (tax). The Agnelli-Elkann family controls via Giovanni Agnelli B.V. partnership.
 
 ---
 
@@ -31,8 +31,8 @@ aliases: [Exor NV, Agnelli family, EXOR]
 | **[[Stellantis]]** | 14.2% | ~€5B | Auto, publicly traded |
 | **CNH Industrial** | 27% | ~€4B | Ag/construction equipment |
 | **[[Juventus]]** | 65% | ~€1B | Football club |
-| **[[The Economist]]** | 43% | ~€1B | Media |
-| **Philips** | 17% | ~€3B | Healthcare (recent) |
+| **[[The Economist]]** | 43% | ~€1B | [[Media]] |
+| **Philips** | 17% | ~€3B | [[Healthcare]] (recent) |
 | **Other/Cash** | — | ~€4B | Ventures, liquidity |
 
 **~50% of NAV is Ferrari.** The holding company discount effectively lets you buy Ferrari at a discount plus other assets for free.
@@ -94,7 +94,7 @@ Ferrari, Stellantis, CNH, Juventus, Economist, etc.
 - Long-term family stewardship
 
 **Bear:**
-- Stellantis struggling (EV transition, China competition)
+- Stellantis struggling ([[EV transition]], [[China]] competition)
 - Holding company discounts rarely close
 - Juventus sports bet not value-accretive
 - Italy exposure / governance complexity

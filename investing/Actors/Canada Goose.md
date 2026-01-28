@@ -1,11 +1,11 @@
 ---
-aliases: [GOOS, Canada Goose Holdings]
+aliases: [GOOS, [[Canada]] Goose Holdings]
 ---
 #actor #luxury #fashion #canada #public
 
-# Canada Goose
+# [[Canada]] Goose
 
-**Canadian luxury outerwear brand** — iconic parkas ($1,000-$2,000+), expanding into non-parka categories (knitwear, footwear, eyewear). FY25 revenue ~C$1.35B (+5% CC), DTC ~72% of revenue. CEO Dani Reiss (founder's grandson) stepped down 2023; replaced by Carrie Baker. Strategy shift: from "parka company" to "year-round luxury lifestyle brand." China ~20% of revenue, recovering.
+**Canadian luxury outerwear brand** — iconic parkas ($1,000-$2,000+), expanding into non-parka categories (knitwear, footwear, eyewear). FY25 revenue ~C$1.35B (+5% CC), DTC ~72% of revenue. CEO Dani Reiss (founder's grandson) stepped down 2023; replaced by Carrie Baker. Strategy shift: from "parka company" to "year-round luxury lifestyle brand." [[China]] ~20% of revenue, recovering.
 
 ---
 
@@ -19,7 +19,7 @@ aliases: [GOOS, Canada Goose Holdings]
 | Adjusted EBIT margin | ~15% |
 | CEO | Carrie Baker (since Oct 2023) |
 | Founder family | Dani Reiss (Executive Chairman) |
-| HQ | Toronto, Canada |
+| HQ | Toronto, [[Canada]] |
 
 ---
 
@@ -43,7 +43,7 @@ Growth moderating after strong FY24. DTC transition largely complete.
 | **DTC (retail + e-com)** | ~72% | Core strategy |
 | **Wholesale** | ~28% | Deliberately shrinking |
 
-DTC shift is the key margin driver — wholesale partners marked down product, diluting brand equity. Canada Goose has been pulling back wholesale to protect pricing.
+DTC shift is the key margin driver — wholesale partners marked down product, diluting brand equity. [[Canada]] Goose has been pulling back wholesale to protect pricing.
 
 ---
 
@@ -57,7 +57,7 @@ DTC shift is the key margin driver — wholesale partners marked down product, d
 | Footwear | Launched 2022 | Early, mixed reviews |
 | Eyewear | Licensed | Brand extension |
 
-**The challenge:** Canada Goose = parkas in consumer minds. Expanding beyond creates relevance but risks brand dilution.
+**The challenge:** [[Canada]] Goose = parkas in consumer minds. Expanding beyond creates relevance but risks brand dilution.
 
 ---
 
@@ -66,10 +66,10 @@ DTC shift is the key margin driver — wholesale partners marked down product, d
 | Region | % Revenue | Trend |
 |--------|-----------|-------|
 | North America | ~50% | Stable |
-| Asia Pacific | ~30% | China recovering |
+| [[Asia]] Pacific | ~30% | [[China]] recovering |
 | EMEA | ~20% | Growing |
 
-China was ~20% of revenue at peak, declined during COVID/lockdowns, now recovering gradually.
+[[China]] was ~20% of revenue at peak, declined during COVID/lockdowns, now recovering gradually.
 
 ---
 
@@ -79,7 +79,7 @@ China was ~20% of revenue at peak, declined during COVID/lockdowns, now recoveri
 - DTC at 72% = strong margin profile
 - Brand equity in luxury outerwear unmatched
 - Category expansion creates year-round relevance
-- China recovery tailwind
+- [[China]] recovery tailwind
 - Stock -60% from 2021 highs, expectations reset
 - Pricing power in core parkas
 

@@ -10,7 +10,7 @@
 
 **Original (1823):** Response to European powers potentially reclaiming former colonies.
 
-**Modern interpretation:** US sphere of influence extends to all of Latin America; foreign powers (China, Russia) should not establish strategic footholds.
+**Modern interpretation:** US sphere of influence extends to all of Latin America; foreign powers ([[China]], Russia) should not establish strategic footholds.
 
 ---
 
@@ -24,7 +24,7 @@
 **Venezuela action (Jan 5, 2026):**
 - US military captured Maduro
 - Justified as countering Russian/Chinese presence
-- Oil reserves (303B barrels) central to rationale
+- [[Oil]] reserves (303B barrels) central to rationale
 
 See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for details.
 
@@ -34,21 +34,21 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for details.
 
 | Theme | Implication |
 |-------|-------------|
-| Latin America oil | US companies favored over China/Russia |
+| Latin America oil | US companies favored over [[China]]/Russia |
 | Regional infrastructure | US contractors benefit |
-| China exclusion | [[CNPC]], [[Sinopec]] lose access |
-| Russia exclusion | Rosneft loses Venezuelan assets |
-| Gulf Coast refiners | Nearby heavy crude supply |
+| [[China]] exclusion | [[CNPC]], [[Sinopec]] lose access |
+| Russia exclusion | [[Rosneft]] loses Venezuelan assets |
+| [[Gulf Coast refiners]] | Nearby heavy crude supply |
 
 **Beneficiaries:**
 - [[Chevron]] — only US operator in Venezuela
 - [[Exxon]], [[ConocoPhillips]] — could return
 - [[Halliburton]], [[Schlumberger]] — infrastructure rebuild
-- [[Valero]], [[Marathon Petroleum]] — Gulf Coast refiners
+- [[Valero]], [[Marathon Petroleum]] — [[Gulf Coast refiners]]
 
 **Losers:**
-- Chinese NOCs (CNPC, Sinopec, CNOOC)
-- Russian Rosneft
+- Chinese NOCs (CNPC, Sinopec, [[CNOOC]])
+- Russian [[Rosneft]]
 - Any non-US company with Latin America exposure at risk
 
 ---
@@ -59,10 +59,10 @@ If Monroe Doctrine revival is policy, watch for:
 
 | Country | Situation | Risk |
 |---------|-----------|------|
-| Cuba | Russian/Chinese presence | Potential action |
-| Nicaragua | Ortega allied with Russia/China | Sanctions escalation |
-| Panama Canal | Chinese port operations | Regulatory pressure |
-| Brazil | BRICS member, China ties | Trade friction |
+| [[Cuba]] | Russian/Chinese presence | Potential action |
+| [[Nicaragua]] | Ortega allied with Russia/[[China]] | Sanctions escalation |
+| [[Panama Canal]] | Chinese port operations | Regulatory pressure |
+| [[Brazil]] | [[BRICS]] member, [[China]] ties | [[Trade]] friction |
 
 ---
 
@@ -85,4 +85,4 @@ If Monroe Doctrine revival is policy, watch for:
 - [[Maduro capture 2026]] — catalyst event
 - [[Chevron]] — primary beneficiary
 - [[Russia]] — excluded power
-- [[Sovereign AI race]] — parallel dynamic (US vs China competition)
+- [[Sovereign AI race]] — parallel dynamic (US vs [[China]] competition)

@@ -58,8 +58,8 @@ aliases: [RBLX]
 |--------|------------|
 | APAC | **+95%** |
 | Indonesia | **+150%** |
-| Japan | Strong |
-| India | Strong |
+| [[Japan]] | Strong |
+| [[India]] | Strong |
 
 ---
 

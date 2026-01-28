@@ -1,13 +1,13 @@
 ---
-aliases: [MARA, Marathon]
+aliases: [MARA, [[Marathon]]]
 ---
 #actor #crypto #usa #public
 
-**Marathon Digital (MARA)** — Bitcoin pure-play. Underperforming AI-pivot peers. BTC holdings focus.
+**[[Marathon]] Digital (MARA)** — Bitcoin pure-play. Underperforming AI-pivot peers. BTC holdings focus.
 
 ---
 
-## Why Marathon matters
+## Why [[Marathon]] matters
 
 Largest Bitcoin miner staying Bitcoin-focused:
 
@@ -39,7 +39,7 @@ Largest Bitcoin miner staying Bitcoin-focused:
 | [[IREN]] | +300% | AI pivot |
 | [[Cipher Mining]] | +230% | AI pivot |
 | [[Hut 8]] | +139% | AI pivot |
-| **Marathon** | Lagging | Bitcoin focus |
+| **[[Marathon]]** | Lagging | Bitcoin focus |
 
 Market rewarding AI pivots, not BTC holdings.
 
@@ -65,7 +65,7 @@ Market rewarding AI pivots, not BTC holdings.
 
 | Company | Strategy | Performance |
 |---------|----------|-------------|
-| **Marathon** | BTC pure-play | Lagging |
+| **[[Marathon]]** | BTC pure-play | Lagging |
 | [[Bitdeer]] | ASIC focus | -50% |
 
 Both underperforming AI-focused peers.

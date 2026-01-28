@@ -41,18 +41,18 @@ aliases: [FF]
 | **[[Palantir]]** | Co-founded | Public (PLTR) |
 | **[[Anduril]]** | Early | $30B valuation |
 | **Facebook** | Early | Public (META) |
-| **Airbnb** | Early | Public (ABNB) |
+| **[[Airbnb]]** | Early | Public (ABNB) |
 
 ### Current portfolio (private)
 
 | Company | Sector |
 |---------|--------|
-| [[SpaceX]] | Space |
-| [[Stripe]] | Fintech |
-| [[Anduril]] | Defense |
+| [[SpaceX]] | [[Space]] |
+| [[Stripe]] | [[Fintech]] |
+| [[Anduril]] | [[Defense]] |
 | [[Neuralink]] | Neurotech |
-| Figma | Design |
-| Oscar Health | Healthcare |
+| [[Figma]] | Design |
+| Oscar Health | [[Healthcare]] |
 
 ---
 
@@ -62,7 +62,7 @@ aliases: [FF]
 |--------|------|
 | [[Peter Thiel]] | Founder, Partner |
 | Brian Singerman | Partner |
-| Keith Rabois | Partner (now Khosla) |
+| [[Keith Rabois]] | Partner (now Khosla) |
 | Cyan Banister | Partner |
 | Napoleon Ta | Partner |
 | Trae Stephens | Partner (Anduril co-founder) |
@@ -88,7 +88,7 @@ aliases: [FF]
 
 | Aspect | Detail |
 |--------|--------|
-| PayPal Mafia | Thiel's network central |
+| [[PayPal]] Mafia | Thiel's network central |
 | Politics | Libertarian, contrarian |
 | Board seats | Select companies |
 | Co-investments | Personal + FF often align |

@@ -23,8 +23,8 @@ Credo's Active Electrical Cables connect GPUs within racks — critical for AI c
 ## Active Electrical Cables
 
 **What's an AEC?**
-- Copper cable with active electronics
-- Signal conditioning extends reach
+- [[Copper]] cable with active electronics
+- [[Signal]] conditioning extends reach
 - Lower power than optical (short distances)
 - Cost-effective for intra-rack
 
@@ -43,7 +43,7 @@ Credo's Active Electrical Cables connect GPUs within racks — critical for AI c
 | **AEC** | Active electrical cables |
 | **SerDes** | High-speed IP/chips |
 | **Line cards** | Networking components |
-| **PCIe retimers** | Signal conditioning |
+| **PCIe retimers** | [[Signal]] conditioning |
 
 **AI focus:** GPU cluster connectivity inside racks.
 
@@ -53,7 +53,7 @@ Credo's Active Electrical Cables connect GPUs within racks — critical for AI c
 
 **How clusters connect:**
 ```
-GPU ↔ AEC ↔ Switch ↔ Optical ↔ Other racks
+GPU ↔ AEC ↔ [[Switch]] ↔ Optical ↔ Other racks
     (Credo)  (Arista)  (Coherent)
 ```
 
@@ -82,7 +82,7 @@ GPU ↔ AEC ↔ Switch ↔ Optical ↔ Other racks
 | Competitor | Approach | Credo vs |
 |------------|----------|----------|
 | [[Astera Labs]] | PCIe, CXL retimers | Different focus |
-| Amphenol | Passive cables | Active = longer reach |
+| [[Amphenol]] | Passive cables | Active = longer reach |
 | TE Connectivity | Connectors | Active intelligence |
 | Molex | Passive cables | Active = higher performance |
 

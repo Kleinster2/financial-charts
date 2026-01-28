@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #sovereign #tech #singapore #datacenter
 
-**Singapore Tech** — Asia's tech hub. Temasek + GIC capital. Data center gateway to Asia.
+**Singapore Tech** — [[Asia]]'s tech hub. Temasek + GIC capital. Data center gateway to [[Asia]].
 
 ---
 
@@ -17,7 +17,7 @@ Strategic positioning:
 | GDP per capita | $83,000+ |
 | GDP growth 2025 | **+4.8%** (stronger than expected) |
 | SWFs | GIC + Temasek (~$1.2T) |
-| Tech role | Asia-Pacific hub |
+| Tech role | [[Asia]]-Pacific hub |
 
 ---
 
@@ -52,19 +52,19 @@ Both heavily invested in AI/tech.
 
 ## Data center hub
 
-**Asia gateway:**
-- Equinix's largest APAC presence
-- Digital Realty expansion
-- Hyperscaler regions (AWS, Azure, Google)
+**[[Asia]] gateway:**
+- [[Equinix]]'s largest APAC presence
+- [[Digital Realty]] expansion
+- Hyperscaler regions (AWS, Azure, [[Google]])
 - 2022-2024: Moratorium lifted, green DCs allowed
 
 | Operator | Singapore Presence |
 |----------|-------------------|
-| Equinix | 7+ data centers |
-| Digital Realty | Major hub |
+| [[Equinix]] | 7+ data centers |
+| [[Digital Realty]] | Major hub |
 | AWS | Multiple AZs |
-| Google | Cloud region |
-| Microsoft | Azure region |
+| [[Google]] | Cloud region |
+| [[Microsoft]] | Azure region |
 
 ---
 
@@ -72,9 +72,9 @@ Both heavily invested in AI/tech.
 
 | Sector | Examples |
 |--------|----------|
-| Fintech | Grab, Sea Group |
+| [[Fintech]] | Grab, Sea Group |
 | AI/ML | Growing hub |
-| Semiconductors | GlobalFoundries fab |
+| [[Semiconductors]] | GlobalFoundries fab |
 | Research | A*STAR, NUS |
 
 ---
@@ -83,10 +83,10 @@ Both heavily invested in AI/tech.
 
 | Company | Focus |
 |---------|-------|
-| [[Sea Group]] | Gaming, e-commerce, fintech |
+| [[Sea Group]] | [[Gaming]], e-commerce, fintech |
 | [[Grab]] | Super-app, fintech |
 | GlobalFoundries | Singapore fab |
-| Broadcom | Design center |
+| [[Broadcom]] | Design center |
 
 ---
 
@@ -110,8 +110,8 @@ See [[AI in banking]] for full detail.
 
 **Manufacturing + design:**
 - GlobalFoundries Fab 7
-- Micron packaging
-- TSMC potential expansion
+- [[Micron]] packaging
+- [[TSMC]] potential expansion
 - Equipment/materials
 
 ---
@@ -123,8 +123,8 @@ See [[AI in banking]] for full detail.
 | Rule of law | IP protection |
 | Infrastructure | World-class |
 | Talent | Global hub |
-| Location | Asia-Pacific center |
-| Neutrality | US + China access |
+| Location | [[Asia]]-Pacific center |
+| Neutrality | US + [[China]] access |
 
 ---
 
@@ -134,7 +134,7 @@ See [[AI in banking]] for full detail.
 - Sea Group (SE)
 - Grab (GRAB)
 - Temasek portfolio companies
-- Data center REITs
+- Data center [[REITs]]
 - GlobalFoundries (GFS)
 
 ---
@@ -144,7 +144,7 @@ See [[AI in banking]] for full detail.
 | Metric | Value |
 |--------|-------|
 | SWF capital | ~$1.2T |
-| DC status | Asia gateway |
+| DC status | [[Asia]] gateway |
 | Key companies | Sea, Grab |
 | Fab presence | GlobalFoundries |
 

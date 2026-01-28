@@ -3,7 +3,7 @@ aliases: [OPEC+, Organization of the Petroleum Exporting Countries]
 ---
 #actor #energy #oil #cartel
 
-**OPEC** — Oil cartel controlling ~40% of global production. OPEC+ includes Russia and allies (~55% of global). Sets production quotas to manage prices.
+**OPEC** — [[Oil]] cartel controlling ~40% of global production. OPEC+ includes [[Russia]] and allies (~55% of global). Sets production quotas to manage prices.
 
 ---
 
@@ -23,21 +23,21 @@ aliases: [OPEC+, Organization of the Petroleum Exporting Countries]
 **OPEC (12):**
 - Saudi Arabia (de facto leader)
 - Iraq
-- Iran
+- [[Iran]]
 - UAE
 - Kuwait
 - Venezuela (suspended, minimal production)
 - Libya
-- Nigeria
+- [[Nigeria]]
 - Algeria
 - Angola
 - Congo
 - Equatorial Guinea
 
 **OPEC+ additions:**
-- Russia (co-leader with Saudi)
+- [[Russia]] (co-leader with Saudi)
 - Kazakhstan
-- Mexico
+- [[Mexico]]
 - Oman
 - Azerbaijan
 - Others
@@ -46,14 +46,14 @@ aliases: [OPEC+, Organization of the Petroleum Exporting Countries]
 
 ## How OPEC moves markets
 
-| Action | Oil price impact |
+| Action | [[Oil]] price impact |
 |--------|------------------|
 | Production cuts | Prices rise |
 | Production increases | Prices fall |
 | Quota cheating | Undermines cuts |
 | Spare capacity signals | Caps upside |
 
-**Saudi role:** Swing producer with 2-3M bpd spare capacity. Can flood or restrict market.
+**Saudi role:** Swing producer with 2-[[3M]] bpd spare capacity. Can flood or restrict market.
 
 ---
 
@@ -62,7 +62,7 @@ aliases: [OPEC+, Organization of the Petroleum Exporting Countries]
 **Venezuela in OPEC:**
 - Founding member (1960)
 - Largest reserves (303B barrels)
-- Production collapsed: 3M bpd (2000s) → ~1M bpd (now)
+- Production collapsed: [[3M]] bpd (2000s) → ~1M bpd (now)
 - Effectively suspended due to non-compliance
 
 **Post-Maduro implications:**
@@ -77,10 +77,10 @@ See [[Venezuela oil rebuild]] and [[Monroe Doctrine]].
 
 ## OPEC+ dynamics
 
-**Saudi-Russia alliance (2016+):**
+**Saudi-[[Russia]] alliance (2016+):**
 - Coordinates cuts between OPEC and non-OPEC
 - Fragile — competing interests
-- Russia often cheats on quotas
+- [[Russia]] often cheats on quotas
 - Ukraine war strained but didn't break alliance
 
 **Tensions:**
@@ -95,10 +95,10 @@ See [[Venezuela oil rebuild]] and [[Monroe Doctrine]].
 
 | Scenario | Impact |
 |----------|--------|
-| OPEC cuts hold | Oil prices supported, energy stocks up |
+| OPEC cuts hold | [[Oil]] prices supported, energy stocks up |
 | OPEC cuts fail | Prices fall, high-cost producers hurt |
 | Venezuela returns | More supply, bearish prices |
-| Saudi-Russia split | Price volatility |
+| Saudi-[[Russia]] split | Price volatility |
 
 **Key indicator:** Monthly OPEC+ meetings and quota compliance data.
 

@@ -1,5 +1,5 @@
 ---
-aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
+aliases: [GOOGL, GOOG, [[Google DeepMind]], DeepMind, Alphabet]
 ---
 #actor #hyperscaler #usa
 
@@ -58,7 +58,7 @@ Google is the most vertically integrated AI hyperscaler:
 **Google's AI research arm:**
 - Merged Google Brain + DeepMind (2023)
 - Led by [[Demis Hassabis]]
-- Gemini model family (competing with GPT-4, Claude)
+- Gemini model family (competing with GPT-4, [[Claude]])
 
 | Model | Tier | Notes |
 |-------|------|-------|
@@ -81,7 +81,7 @@ Google is the most vertically integrated AI hyperscaler:
 | TPU v5 | Current | Widely available |
 | TPU v6 (Trillium) | Ramping | Latest generation |
 | TPU v7 | Development | Next-gen |
-| TPU v9 | Planned (2027) | Exploring Intel EMIB |
+| TPU v9 | Planned (2027) | Exploring [[Intel]] EMIB |
 
 ### CoWoS bottleneck (Jan 2026)
 
@@ -89,13 +89,13 @@ Google is the most vertically integrated AI hyperscaler:
 
 | Metric | Original | Revised |
 |--------|----------|---------|
-| 2026 TPU target | ~4M units | ~3M units |
+| 2026 TPU target | ~4M units | ~[[3M]] units |
 | Cause | TSMC CoWoS shortage | — |
 | Problem | NVIDIA locked >50% of CoWoS through 2027 | — |
 
 **Google's response:**
-- Exploring Intel EMIB packaging for TPU v9 (2027)
-- Also sounding out Samsung facilities in Texas
+- Exploring [[Intel]] EMIB packaging for TPU v9 (2027)
+- Also sounding out [[Samsung]] facilities in Texas
 - Forced to cut production despite strong internal demand
 
 **The allocation problem:** TSMC's packaging capacity now determines who scales AI — Google is constrained by NVIDIA's priority access.
@@ -128,7 +128,7 @@ See [[Hyperscaler disintermediation]] for broader trend.
 | Anthropic stake | $2B+ | Minority investor |
 | Cloud deal | $3B+ | GCP credits |
 
-Google backs Anthropic while competing with Claude via Gemini — hedging like Microsoft backing both OpenAI and Mistral.
+Google backs Anthropic while competing with [[Claude]] via Gemini — hedging like Microsoft backing both OpenAI and [[Mistral]].
 
 **Anthropic TPU deal:** ~1M TPUv7 direct from [[Broadcom]], not through Google Cloud. See [[Anthropic]].
 
@@ -146,7 +146,7 @@ Google backs Anthropic while competing with Claude via Gemini — hedging like M
 
 **AI differentiation:**
 - TPU access (vs NVIDIA-only competitors)
-- Vertex AI platform
+- [[Vertex]] AI platform
 - Gemini API
 - BigQuery ML
 
@@ -181,7 +181,7 @@ Google backs Anthropic while competing with Claude via Gemini — hedging like M
 |-----|--------|
 | [[Waymo]] | Leader in autonomous driving |
 | Verily | Life sciences |
-| Wing | Drone delivery |
+| [[Wing]] | Drone delivery |
 | Calico | Longevity research |
 
 Waymo is most relevant — potential robotaxi monetization.
@@ -195,7 +195,7 @@ Waymo is most relevant — potential robotaxi monetization.
 | [[Microsoft]] | Custom silicon (TPU) | Cloud market share |
 | [[Amazon]] | AI research depth | Cloud dominance |
 | [[Meta]] | Cloud business | Open-source momentum |
-| [[OpenAI]] | Distribution (Search, Android) | Consumer mindshare |
+| [[OpenAI]] | Distribution (Search, Android) | [[Consumer]] mindshare |
 
 ---
 

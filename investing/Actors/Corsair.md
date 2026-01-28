@@ -3,7 +3,7 @@ aliases: [CRSR]
 ---
 #actor #components #usa #memory-victim
 
-**Corsair** — Gaming peripherals and memory modules. Suspended orders — can't get chips.
+**Corsair** — [[Gaming]] peripherals and memory modules. Suspended orders — can't get chips.
 
 ---
 
@@ -61,7 +61,7 @@ Scale = survival advantage in memory shortage.
 
 ---
 
-## Gaming ecosystem
+## [[Gaming]] ecosystem
 
 **Broader business:**
 - Corsair is gaming-focused
@@ -97,7 +97,7 @@ Entire DIMM/SO-DIMM aftermarket disrupted.
 
 **Bull:**
 - Peripherals/streaming unaffected
-- Gaming ecosystem sticky
+- [[Gaming]] ecosystem sticky
 - If memory normalizes
 - Depressed valuation
 

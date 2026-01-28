@@ -30,7 +30,7 @@ aliases: [China National Petroleum Corporation, PetroChina]
 
 ## Venezuela relationship
 
-**Oil-for-loans:**
+**[[Oil]]-for-loans:**
 
 | Metric | Value |
 |--------|-------|
@@ -51,9 +51,9 @@ aliases: [China National Petroleum Corporation, PetroChina]
 | Region | Activity |
 |--------|----------|
 | China | Domestic production |
-| Central Asia | Kazakhstan, Turkmenistan pipelines |
-| Middle East | Iraq, Iran (sanctions risk) |
-| Africa | Sudan, Chad, others |
+| Central [[Asia]] | Kazakhstan, Turkmenistan pipelines |
+| Middle East | Iraq, [[Iran]] (sanctions risk) |
+| [[Africa]] | Sudan, Chad, others |
 | Latin America | Venezuela, Ecuador, Peru |
 
 ---
@@ -70,8 +70,8 @@ aliases: [China National Petroleum Corporation, PetroChina]
 
 **Risks:**
 - State-owned = political priorities over shareholders
-- Sanctions exposure (Iran, Venezuela)
-- Secondary sanctions risk from US
+- Sanctions exposure ([[Iran]], Venezuela)
+- [[Secondary sanctions]] risk from US
 - Venezuela debt may be impaired
 
 ---

@@ -1,6 +1,6 @@
 #concept #immigration #venezuela #policy #2026
 
-**Venezuela repatriation strategy** — Trump administration plan to stabilize Venezuela post-Maduro to justify ending TPS and deporting 600K+ Venezuelans back. Oil rebuild and immigration enforcement as unified strategy.
+**Venezuela repatriation strategy** — Trump administration plan to stabilize Venezuela post-Maduro to justify ending TPS and deporting 600K+ Venezuelans back. [[Oil]] rebuild and immigration enforcement as unified strategy.
 
 ---
 
@@ -55,12 +55,12 @@ Capture Maduro → Stabilize → "Safe country" → End TPS → Mass deportation
 |-------|------|------------|
 | **Marco Rubio** (State) | **Driver** | Cut [[Cuba-Venezuela axis]] — Havana's lifeline |
 | **Stephen Miller** (WH) | **Driver** | Create deportation pathway for 600K |
-| **Oil lobby** | **Reluctant** | Skeptical, want rule of law first — pulled not pushing |
+| **[[Oil]] lobby** | **Reluctant** | Skeptical, want rule of law first — pulled not pushing |
 | **Trump** | **Enabler** | Optics, coalition management |
 
-**Key insight:** Oil companies did NOT push for this. At [[WH oil executives Venezuela meeting 2026-01-09]], industry expressed deep skepticism. They're reluctant beneficiaries, not advocates.
+**Key insight:** [[Oil]] companies did NOT push for this. At [[WH oil executives Venezuela meeting 2026-01-09]], industry expressed deep skepticism. They're reluctant beneficiaries, not advocates.
 
-**Rubio's real target:** Cuba. Venezuela is Havana's economic lifeline. Caracas falls → Cuba starves. See [[Cuba-Venezuela axis]].
+**Rubio's real target:** [[Cuba]]. Venezuela is Havana's economic lifeline. Caracas falls → [[Cuba]] starves. See [[Cuba-Venezuela axis]].
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [USV]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Union Square Ventures** — Fred Wilson's fund. Twitter co-lead, Coinbase, Etsy investor. NYC-based. ~$2B AUM.
+**Union Square Ventures** — Fred Wilson's fund. Twitter co-lead, Coinbase, [[Etsy]] investor. NYC-based. ~$2B AUM.
 
 ---
 
@@ -25,7 +25,7 @@ aliases: [USV]
 |------|--------|
 | Blog | AVC.com (famous VC blog) |
 | Style | Thesis-driven |
-| Focus | Network effects |
+| Focus | [[Network effects]] |
 | NYC | Champion of NY tech |
 
 ---
@@ -36,12 +36,12 @@ aliases: [USV]
 |---------|-------|--------|
 | **Twitter** | Series A co-lead | Acquired by Musk |
 | **[[Coinbase]]** | Early | Public (COIN) |
-| **Etsy** | Early | Public (ETSY) |
+| **[[Etsy]]** | Early | Public (ETSY) |
 | **Tumblr** | Early | Acquired |
 | **Zynga** | Early | Acquired |
 | **SoundCloud** | Early | Private |
 | **Kickstarter** | Early | Private |
-| **MongoDB** | Early | Public (MDB) |
+| **[[MongoDB]]** | Early | Public (MDB) |
 
 ---
 
@@ -71,7 +71,7 @@ USV (Fred Wilson) co-led Twitter Series A with [[Spark Capital]] (Bijan Sabet). 
 | Founded | 2003 |
 | AUM | ~$2B |
 | Founder | Fred Wilson |
-| Key exits | Twitter, Coinbase, Etsy |
+| Key exits | Twitter, Coinbase, [[Etsy]] |
 
 ---
 

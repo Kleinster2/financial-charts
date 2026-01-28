@@ -14,8 +14,8 @@ BYD represents the vertically integrated EV model:
 | Role | Details |
 |------|---------|
 | EV sales | #1 globally (overtook Tesla 2025) |
-| Batteries | #2 globally (after CATL) |
-| Semiconductors | Own power chips, MCUs |
+| [[Batteries]] | #2 globally (after CATL) |
+| [[Semiconductors]] | Own power chips, MCUs |
 | Integration | Cells → pack → vehicle → chips |
 
 ---
@@ -45,7 +45,7 @@ BYD represents the vertically integrated EV model:
 |---------|--------------|
 | IGBTs | Power conversion, motor control |
 | SiC MOSFETs | High-efficiency inverters |
-| Automotive MCUs | Body control, safety |
+| [[Automotive]] MCUs | Body control, safety |
 | Power ICs | Battery management |
 
 | Metric | Value |
@@ -104,9 +104,9 @@ BYD represents the vertically integrated EV model:
 
 | Region | Strategy | Status |
 |--------|----------|--------|
-| Europe | Direct sales, local partners | Growing fast |
-| Southeast Asia | Thailand factory | Operational |
-| Latin America | Brazil, Mexico | Expanding |
+| [[Europe]] | Direct sales, local partners | Growing fast |
+| [[Southeast Asia]] | Thailand factory | Operational |
+| Latin America | [[Brazil]], [[Mexico]] | Expanding |
 | Middle East | UAE focus | Entering |
 | **Nepal** | Direct sales | **Market leader** |
 | US | Blocked (tariffs, politics) | No entry path |
@@ -115,7 +115,7 @@ BYD represents the vertically integrated EV model:
 
 ### Nepal case study (Jan 2026)
 
-BYD displaced Indian automakers in India's neighbor:
+BYD displaced Indian automakers in [[India]]'s neighbor:
 
 | Metric | Value |
 |--------|-------|
@@ -123,7 +123,7 @@ BYD displaced Indian automakers in India's neighbor:
 | Market leader | BYD |
 | Former leader | Indian gasoline/diesel cars |
 
-Indian-made EVs struggle to compete on quality and price. Pattern may repeat across South Asia.
+Indian-made EVs struggle to compete on quality and price. Pattern may repeat across South [[Asia]].
 
 *Source: Bloomberg Opinion, Jan 2026*
 
@@ -150,7 +150,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 | Market | Forecast | Notes |
 |--------|----------|-------|
 | **China** | 15.5M | BYD dominates |
-| Europe | 4.9M (+14%) | BYD expanding |
+| [[Europe]] | 4.9M (+14%) | BYD expanding |
 | **US** | 1.1M (-29%) | Trump ended tax incentives |
 | Global | 24M (+13%) | Slowing from 22% growth |
 
@@ -162,13 +162,13 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | 1211.HK (HK), 002594.SZ (Shenzhen) |
+| Ticker | 1211.HK (HK), 002594.SZ ([[Shenzhen]]) |
 | Market cap | ~$100B |
 | Revenue (2024) | ~$90B |
 | EV sales | **4.6M (2025)** — world #1 |
 | Operating margin | ~6% |
 | P/E | ~20x |
-| Key investor | Berkshire Hathaway (reduced stake) |
+| Key investor | [[Berkshire Hathaway]] (reduced stake) |
 
 *Updated 2026-01-11*
 

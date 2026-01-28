@@ -35,16 +35,16 @@ aliases: []
 
 | Investor | Round | Notes |
 |----------|-------|-------|
-| **Sequoia Capital** | Seed, Series A+ | Lead early investor |
-| **a16z** | Series A+ | Long-term holder |
-| **General Catalyst** | Series B+ | — |
-| **Founders Fund** | Early | Peter Thiel |
-| **Tiger Global** | Growth | — |
-| **Thrive Capital** | Growth | — |
-| **GIC (Singapore)** | Late stage | Sovereign wealth |
-| **Temasek** | Late stage | Singapore |
-| **Fidelity** | Late stage | Institutional |
-| **Goldman Sachs** | Series I | Strategic |
+| **[[Sequoia Capital]]** | Seed, Series A+ | Lead early investor |
+| **[[a16z]]** | Series A+ | Long-term holder |
+| **[[General Catalyst]]** | Series B+ | — |
+| **[[Founders Fund]]** | Early | [[Peter Thiel]] |
+| **[[Tiger Global]]** | Growth | — |
+| **[[Thrive Capital]]** | Growth | — |
+| **[[GIC]] (Singapore)** | Late stage | Sovereign wealth |
+| **[[Temasek]]** | Late stage | Singapore |
+| **[[Fidelity]]** | Late stage | Institutional |
+| **[[Goldman Sachs]]** | Series I | Strategic |
 
 ### Founders
 
@@ -53,7 +53,7 @@ aliases: []
 | **Patrick Collison** | CEO, Co-founder |
 | **John Collison** | President, Co-founder |
 
-Irish brothers, started in 2010, Stanford dropouts.
+Irish brothers, started in 2010, [[Stanford]] dropouts.
 
 ### Funding history
 
@@ -103,8 +103,8 @@ Irish brothers, started in 2010, Stanford dropouts.
 |---------|--------------|
 | [[OpenAI]] | Payments |
 | [[Anthropic]] | Payments |
-| Perplexity | Payments |
-| Mistral | Payments |
+| [[Perplexity]] | Payments |
+| [[Mistral]] | Payments |
 
 **Thesis:** AI boom = transaction growth for Stripe.
 
@@ -132,7 +132,7 @@ Irish brothers, started in 2010, Stanford dropouts.
 
 **Bear:**
 - Private (no public access)
-- Competition from Adyen, [[PayPal]]
+- Competition from [[Adyen]], [[PayPal]]
 - Take rate pressure
 - No IPO catalyst
 - Valuation premium

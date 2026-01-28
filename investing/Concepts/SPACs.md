@@ -29,7 +29,7 @@ Three layers of dilution compound to destroy non-redeeming shareholder value:
 | **Warrants** | 5-year call options ($11.50 strike) included in IPO units | Dilute when exercised; kept even by redeemers |
 | **Underwriting fees** | Paid on full IPO proceeds regardless of redemptions | Concentrated on remaining shareholders |
 
-**Result:** Net cash per share at merger averages ~$6.67 vs. nominal $10 (Klausner, Stanford/Yale). Non-redeeming shareholders start 33% underwater before the target's stock even trades.
+**Result:** Net cash per share at merger averages ~$6.67 vs. nominal $10 (Klausner, [[Stanford]]/Yale). Non-redeeming shareholders start 33% underwater before the target's stock even trades.
 
 ### The misaligned incentives
 
@@ -57,10 +57,10 @@ SPACs existed as a small corner of capital markets. Modest volumes — 46 IPOs r
 
 **What fueled it:**
 - Zero interest rates (trust accounts cost nothing to maintain)
-- Pandemic stimulus + retail trading boom (Robinhood, r/SPACs)
+- Pandemic stimulus + retail trading boom ([[Robinhood]], r/SPACs)
 - Celebrity sponsors (Shaq, A-Rod, Serena Williams, Jay-Z)
 - Regulatory arbitrage: SPACs could publish forward projections that traditional IPOs cannot
-- FOMO from a few early wins (DraftKings +380% from $10)
+- FOMO from a few early wins ([[DraftKings]] +380% from $10)
 
 **Peak insanity:** In Q1 2021, 298 SPACs raised $87B in a single quarter. SPACs outnumbered traditional IPOs 4:1. Companies with zero revenue commanded multi-billion-dollar valuations via projections alone.
 
@@ -87,7 +87,7 @@ Final rules adopted January 24, 2024 (effective July 1, 2024):
 
 | Rule change | Impact |
 |-------------|--------|
-| Target must sign registration statement | Target liable for misstatements (like traditional IPO) |
+| [[Target]] must sign registration statement | [[Target]] liable for misstatements (like traditional IPO) |
 | De-SPAC deemed a "sale" (Rule 145a) | Full Securities Act liability applies |
 | Forward-looking safe harbor eliminated | No more speculative projections without legal risk |
 | Enhanced dilution disclosures | Promote, warrants, conflicts on cover page |
@@ -110,9 +110,9 @@ The 2025 vintage is structurally different: smaller raises, experienced sponsors
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Mean market-adjusted return | **-64%** | Klausner (Stanford/Yale) |
+| Mean market-adjusted return | **-64%** | Klausner ([[Stanford]]/Yale) |
 | Median market-adjusted return | **-88%** | Klausner |
-| 2021-2022 merger cohort losses | -67% and -59% avg | Goldman Sachs |
+| 2021-2022 merger cohort losses | -67% and -59% avg | [[Goldman Sachs]] |
 | Worst annual underperformance vs market | -73.6% | Multiple studies |
 
 ### Hedge fund arbitrageurs (systematic winners)
@@ -147,17 +147,17 @@ A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the
 | **Polestar** | Gores Guggenheim | $20B EV | Down 90% from $10 |
 | **Sonder** | Gores Metropoulos II | — | Down 99% from $10 |
 | **MultiPlan** | Churchill III | — | Down 89% from $10 |
-| **Lucid** | Churchill IV | $4.4B merger | Down 85% from debut |
+| **[[Lucid]]** | Churchill IV | $4.4B merger | Down 85% from debut |
 
 ### Successes (rare)
 
 | Company | SPAC | Return from $10 |
 |---------|------|----------------|
-| **Vertiv** (VRT) | GS Acquisition | +1,175% |
+| **[[Vertiv]]** (VRT) | GS Acquisition | +1,175% |
 | **Restaurant Brands** (QSR) | Justice Holdings | +533% |
-| **DraftKings** (DKNG) | Diamond Eagle | +380% |
+| **[[DraftKings]]** (DKNG) | Diamond Eagle | +380% |
 | **Symbotic** (SYM) | SVF Investment 3 | +374% |
-| **SoFi** (SOFI) | Social Capital | +155% |
+| **[[SoFi]]** (SOFI) | Social Capital | +155% |
 
 The successes share a common trait: they were real businesses with real revenue at merger time, not pre-revenue concept companies selling projections.
 
@@ -167,21 +167,21 @@ The successes share a common trait: they were real businesses with real revenue 
 
 ### [[Chamath Palihapitiya]] (Social Capital)
 
-12 SPACs launched. Face of the SPAC boom. Mergers: Virgin Galactic (down 98%), Opendoor (down 65%), Clover Health (down 74%), SoFi (up 155%), ProKidney (down 74%). Median investor loss: 75%. Firm still generated ~$750M in sponsor profits.
+12 SPACs launched. Face of the SPAC boom. Mergers: Virgin Galactic (down 98%), Opendoor (down 65%), Clover Health (down 74%), [[SoFi]] (up 155%), ProKidney (down 74%). Median investor loss: 75%. Firm still generated ~$750M in sponsor profits.
 
 Launched new SPAC (American Exceptionalism Acquisition Corp, $345M) in Sep 2025 — no warrants, compensation vests only if shares rise 50%+. Five times oversubscribed.
 
 ### Michael Klein (Churchill Capital)
 
-Former Citigroup investment banker. Churchill IV merged with Lucid (now down 85%). Churchill III merged with MultiPlan (down 89%). Filed Churchill XI ($300M) in late 2025. Continues launching despite track record.
+Former [[Citigroup]] investment banker. Churchill IV merged with [[Lucid]] (now down 85%). Churchill III merged with MultiPlan (down 89%). Filed Churchill XI ($300M) in late 2025. Continues launching despite track record.
 
 ### Gores Group (Alec Gores)
 
 13+ SPACs — more than any single investor. Started the modern SPAC revival via Hostess Brands (2016). Key mergers: United Wholesale Mortgage ($16.1B), Polestar ($20B, down 90%), Sonder (down 99%). Filed Gores X ($260M) — still active.
 
-### Bill Ackman ([[Pershing Square]])
+### [[Bill Ackman]] ([[Pershing Square]])
 
-Raised $4B — the largest SPAC ever (Pershing Square Tontine Holdings). Attempted to buy 10% of Universal Music Group; SEC objected. Discussions with Airbnb and Stripe failed. Liquidated Jul 2022, returned $4B. Proposed "SPARC" structure (investors commit capital only after target announced) — regulatorily uncertain.
+Raised $4B — the largest SPAC ever (Pershing Square Tontine Holdings). Attempted to buy 10% of Universal Music Group; SEC objected. Discussions with [[Airbnb]] and [[Stripe]] failed. Liquidated Jul 2022, returned $4B. Proposed "SPARC" structure (investors commit capital only after target announced) — regulatorily uncertain.
 
 ---
 
@@ -205,7 +205,7 @@ SPACs appear throughout the vault as a funding mechanism, usually in cautionary 
 2. **Misaligned incentives produce bad deals.** Sponsors prefer a -50% merger over liquidation. The result: 77% of de-SPACed companies traded below $10 within a year
 3. **Projections without liability = fraud.** Pre-2024 SPACs could publish wildly optimistic projections with no legal consequence. Nikola ($27.6B valuation with no trucks), Lordstown (fake pre-orders), Bird (overstated revenue) — the pattern is consistent
 4. **Retail systematically subsidized institutions.** Hedge funds earned risk-free 11.6% by redeeming; retail bore -64% mean losses. The structure is a wealth transfer mechanism, not a capital formation tool
-5. **Celebrity and hype are inversely correlated with returns.** The most promoted SPACs (Chamath's, Gores's high-profile mergers) produced the worst outcomes. The quiet, boring deals (Vertiv, Restaurant Brands) actually worked
+5. **Celebrity and hype are inversely correlated with returns.** The most promoted SPACs (Chamath's, Gores's high-profile mergers) produced the worst outcomes. The quiet, boring deals ([[Vertiv]], Restaurant Brands) actually worked
 
 ---
 

@@ -70,7 +70,7 @@ Colombia's digital infrastructure center:
 |-----------|--------|
 | Bureaucracy | Permitting delays |
 | Infrastructure | Power grid development |
-| Competition | Brazil, Mexico, Chile |
+| Competition | [[Brazil]], [[Mexico]], [[Chile]] |
 | Scale | Smaller than leaders |
 
 ---
@@ -112,8 +112,8 @@ Colombia's digital infrastructure center:
 ## Related
 
 - [[São Paulo Data Hub]] — peer hub (LatAm leader)
-- [[Santiago Data Hub]] — peer hub (Chile)
-- [[Querétaro]] — peer hub (Mexico nearshoring)
+- [[Santiago Data Hub]] — peer hub ([[Chile]])
+- [[Querétaro]] — peer hub ([[Mexico]] nearshoring)
 - [[Equinix]] — operator (since 2017)
 - [[Digital Realty]] — operator (via Ascenty)
 - [[Nearshoring thesis]] — regional context

@@ -66,7 +66,7 @@ CBS, Paramount+, Paramount Pictures, MTV, Nickelodeon, etc.
 | Reunited Viacom + CBS | After 2006 split |
 | Rationale | Scale for streaming era |
 | Result | Paramount+ launched |
-| Problem | Still too small vs Netflix, Disney |
+| Problem | Still too small vs [[Netflix]], [[Disney]] |
 
 ---
 

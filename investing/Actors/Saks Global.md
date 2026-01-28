@@ -28,7 +28,7 @@ Pre-bankruptcy cap table (Dec 2024, post-Neiman acquisition):
 | **[[Amazon]]** | **23%** | $475M preferred equity | Court filing confirms %; consent rights over financing |
 | **Salesforce** | Minority | Undisclosed | Smaller stake than Amazon |
 | **Rhône Capital** | Lead investor | — | Active lead, transatlantic PE firm |
-| **Insight Partners** | Shareholder | — | From prior Saks.com investment |
+| **[[Insight Partners]]** | Shareholder | — | From prior Saks.com investment |
 | **HBC / NRDC Equity Partners** | Shareholder | — | [[Richard Baker]]'s PE firm |
 | **Abu Dhabi Investment Council** | Shareholder | — | Sovereign wealth |
 | **Abrams Capital** | Shareholder | — | Hedge fund |
@@ -39,7 +39,7 @@ Pre-bankruptcy cap table (Dec 2024, post-Neiman acquisition):
 **Debt financing:**
 - Apollo affiliates: $1.15B term loan
 - Senior secured notes: $2.2B
-- ABL revolving facility: $2B (BofA, Citi, Morgan Stanley, RBC, Wells Fargo)
+- ABL revolving facility: $2B (BofA, Citi, [[Morgan Stanley]], RBC, [[Wells Fargo]])
 
 *Source: BusinessWire (Jul 2024), court filings (Jan 2026)*
 
@@ -99,12 +99,12 @@ Horace Saks and Bernard Gimbel (cousins, rival Herald Square merchants) opened t
 - HBC **originated** $1.25B [[ground lease]] mortgage (not assumed existing debt)
   - Collateral: Land + ground lease only (NOT the building)
   - Terms: 20-year, interest-only, fixed <4.40%
-  - Lenders: BofA, Morgan Stanley, Goldman Sachs, Bank of Nova Scotia
+  - Lenders: BofA, [[Morgan Stanley]], [[Goldman Sachs]], [[Bank of Nova Scotia]]
   - Use of proceeds: Paid down $1.2B floating-rate corporate debt (4.75%)
 - Annual rent: $108M
 - Baker: "This valuation seems to indicate that it's the single most-valuable retail building in the world."
 
-**2019 — Retail apocalypse:**
+**2019 — [[Retail apocalypse]]:**
 - $1.6B appraisal (-57%)
 - Annual rent capacity dropped to $84M (-22%)
 - [[Fifth Avenue luxury corridor]] rents down 18% from 2015 peak
@@ -139,7 +139,7 @@ In bankruptcy, the flagship became central collateral for $1.75B [[DIP financing
 | **2013** | Saks acquisition | $2.9B | HBC buys entire chain |
 | **Nov 2014** | [[Ground lease]] mortgage | $1.25B | 20-year, interest-only; collateral = ground only (NOT building) |
 | **Mar 2020** | HBC privatization | $1.1B | Baker took company private at $11/share |
-| **2021** | Saks.com spinoff | $500M | Insight Partners invested; digital separated from stores |
+| **2021** | Saks.com spinoff | $500M | [[Insight Partners]] invested; digital separated from stores |
 | **Aug 2024** | Flagship refinancing | $600M | Used [[611 Fifth Avenue]] — **without [[Amazon]] consent** |
 | **Dec 2024** | [[Saks-Neiman merger]] bonds | $2.2B | 11% senior secured notes, due 2029 |
 | **Aug 2025** | Debt exchange | $600M | 98% of bondholders swapped for lower principal; $300M new loan |

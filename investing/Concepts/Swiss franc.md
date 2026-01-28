@@ -46,7 +46,7 @@ SNB historically fights CHF strength (hurts exports):
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | Invesco CurrencyShares CHF | FXF | Pure franc exposure |
-| iShares MSCI Switzerland | EWL | Swiss equity + CHF |
+| iShares [[MSCI]] [[Switzerland]] | EWL | Swiss equity + CHF |
 
 ---
 

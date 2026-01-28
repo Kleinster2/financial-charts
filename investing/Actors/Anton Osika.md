@@ -15,7 +15,7 @@
 | Company | [[Lovable]] (CEO) |
 | Valuation | $6.6B (Dec 2025) |
 | ARR | $200M+ |
-| Users | 2.3M active, 180K paying |
+| Users | 2.[[3M]] active, 180K paying |
 
 ---
 
@@ -34,7 +34,7 @@ Built the fastest-growing European startup in history:
 
 ---
 
-## Staying in Europe
+## Staying in [[Europe]]
 
 Osika rejected investor pressure to move to Silicon Valley:
 
@@ -46,7 +46,7 @@ Osika rejected investor pressure to move to Silicon Valley:
 - Time zone coverage for global customers
 - Proved European startups can scale
 
-Part of "Project Europe" initiative supporting continental tech ecosystem.
+Part of "Project [[Europe]]" initiative supporting continental tech ecosystem.
 
 ---
 
@@ -95,7 +95,7 @@ Lovable's vision: become "the last piece of software" companies need — users d
 ### Investors
 - [[Accel]] — Lovable investor
 - [[Menlo Ventures]] — Lovable investor
-- CapitalG — Lovable Series B lead
+- [[CapitalG]] — Lovable Series B lead
 
 ---
 

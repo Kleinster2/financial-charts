@@ -3,7 +3,7 @@ aliases: [Leonardo SpA, LDO.MI, Finmeccanica]
 ---
 #actor #defense #italy #public
 
-**Leonardo** — Italian defense champion. Helicopters, electronics, space. Part of UK Tempest 6th-gen fighter consortium.
+**Leonardo** — Italian defense champion. Helicopters, electronics, space. Part of [[UK]] Tempest 6th-gen fighter consortium.
 
 ---
 
@@ -28,7 +28,7 @@ Italian government owns ~30%.
 | Electronics | ~35% | Radar, EW, avionics |
 | Aeronautics | ~20% | Aircraft structures, drones |
 | Cyber & Security | ~10% | IT security |
-| Space | ~10% | Satellites, Thales Alenia JV |
+| [[Space]] | ~10% | Satellites, [[Thales]] Alenia JV |
 
 ---
 
@@ -39,8 +39,8 @@ Italian government owns ~30%.
 | Helicopters | AW139 (best-seller), AW101, AW149 |
 | Radar | Naval, ground-based, airborne |
 | Trainers | M-346 jet trainer |
-| Drones | Falco, contribution to Eurodrone |
-| Space | Via Thales Alenia Space JV |
+| [[Drones]] | Falco, contribution to Eurodrone |
+| [[Space]] | Via [[Thales]] Alenia [[Space]] JV |
 
 **AW139** = world's most popular twin-engine helicopter.
 
@@ -50,23 +50,23 @@ Italian government owns ~30%.
 
 | Program | Role |
 |---------|------|
-| Tempest (6th gen) | Partner with BAE, Japan |
+| Tempest (6th gen) | Partner with BAE, [[Japan]] |
 | Eurofighter | Italian content |
 | Eurodrone | Consortium member |
 | NH90 | Consortium member |
 
 ---
 
-## UK presence
+## [[UK]] presence
 
-Owns major UK defense assets:
+Owns major [[UK]] defense assets:
 
 | Subsidiary | Focus |
 |------------|-------|
-| Leonardo UK | Electronics, helicopters |
+| Leonardo [[UK]] | Electronics, helicopters |
 | AgustaWestland | Helicopter production |
 
-Tempest partnership cements UK relationship.
+Tempest partnership cements [[UK]] relationship.
 
 ---
 

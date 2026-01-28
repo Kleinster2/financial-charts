@@ -11,7 +11,7 @@ aliases: [TEM, Tempus AI]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | TEM (Nasdaq) |
+| Ticker | TEM ([[Nasdaq]]) |
 | 2025E revenue | **$1.27B** (+80% YoY) |
 | Q3 2025 revenue | $334M (+85% YoY) |
 | Market cap | ~$10B+ |
@@ -37,7 +37,7 @@ aliases: [TEM, Tempus AI]
 
 | Segment | Description |
 |---------|-------------|
-| **Genomics** | xT, xF, xG testing, MRD assays |
+| **[[Genomics]]** | xT, xF, xG testing, MRD assays |
 | **Data/Services** | Pharma licensing, analytics |
 | **Apps** | Olivia consumer, David clinical AI |
 
@@ -50,7 +50,7 @@ aliases: [TEM, Tempus AI]
 | **Lens** | Clinical decision support |
 | **Next** | Drug discovery acceleration |
 | **David** | Generative AI clinical co-pilot (EHR integrated) |
-| **Olivia** | Consumer health app ($12/month) |
+| **Olivia** | [[Consumer]] health app ($12/month) |
 
 **David:** First EHR integration at Northwestern Medicine.
 
@@ -62,17 +62,17 @@ aliases: [TEM, Tempus AI]
 
 | Partner | Deal | Value |
 |---------|------|-------|
-| **AstraZeneca + Pathos** | Cancer AI model | $200M (3 years) |
+| **[[AstraZeneca]] + Pathos** | Cancer AI model | $200M (3 years) |
 | **GSK** | Data platform expansion | $70M upfront |
 | [[Pfizer]] | Oncology drug discovery | Multi-year |
 | Boehringer Ingelheim | Cancer pipeline | May 2025 |
-| Illumina | NGS evidence generation | Collaboration |
+| [[Illumina]] | NGS evidence generation | Collaboration |
 
 ---
 
 ## Recent acquisitions
 
-| Target | Focus |
+| [[Target]] | Focus |
 |--------|-------|
 | **Paige** | AI digital pathology |
 | **Ambry Genetics** | Genetic testing scale |
@@ -91,7 +91,7 @@ aliases: [TEM, Tempus AI]
 
 ---
 
-## JPM Healthcare 2026
+## JPM [[Healthcare]] 2026
 
 | Detail | Value |
 |--------|-------|
@@ -113,10 +113,10 @@ aliases: [TEM, Tempus AI]
 
 **Bear:**
 - Still unprofitable (net loss)
-- Competition (Foundation Medicine/Roche)
+- Competition (Foundation Medicine/[[Roche]])
 - Reimbursement uncertainty
 - Valuation premium
-- Healthcare AI adoption pace
+- [[Healthcare]] AI adoption pace
 
 ---
 
@@ -125,7 +125,7 @@ aliases: [TEM, Tempus AI]
 | Metric | Value |
 |--------|-------|
 | Ticker | TEM |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$1.27B (2025E) |
 | Focus | AI precision medicine |
 
@@ -142,6 +142,6 @@ aliases: [TEM, Tempus AI]
 ## Sources
 
 - [Tempus Q3 2025 results](https://investors.tempus.com/news-releases/news-release-details/tempus-reports-third-quarter-2025-results)
-- [AstraZeneca $200M deal](https://www.pharmaceutical-technology.com/news/astrazeneca-enters-200m-ai-cancer-pact-with-tempus-and-pathos/)
+- [[[AstraZeneca]] $200M deal](https://www.pharmaceutical-technology.com/news/astrazeneca-enters-200m-ai-cancer-pact-with-tempus-and-pathos/)
 
 *Updated 2026-01-09*

@@ -1,13 +1,13 @@
 ---
-aliases: [Nearshoring Mexico]
+aliases: [Nearshoring [[Mexico]]]
 ---
 #actor #sovereign #ai #semiconductor #mexico #nearshoring
 
-**Mexico Tech** — Nearshoring winner. $9B+ data center investment. US-China decoupling beneficiary.
+**[[Mexico]] Tech** — Nearshoring winner. $9B+ data center investment. US-[[China]] decoupling beneficiary.
 
 ---
 
-## Why Mexico matters
+## Why [[Mexico]] matters
 
 Nearshoring boom:
 
@@ -33,23 +33,23 @@ Nearshoring boom:
 
 ---
 
-## Querétaro = Mexico's data hub
+## Querétaro = [[Mexico]]'s data hub
 
 **Concentration:**
-- 65% of Mexico's DC capacity
+- 65% of [[Mexico]]'s DC capacity
 - Hyperscale projects
 - AWS, Microsoft, Google
 - Infrastructure buildout
 
-Mexico's Northern Virginia.
+[[Mexico]]'s Northern Virginia.
 
 ---
 
 ## Nearshoring thesis
 
-**US-China decoupling:**
-- Manufacturing leaving China
-- Mexico = USMCA access
+**US-[[China]] decoupling:**
+- Manufacturing leaving [[China]]
+- [[Mexico]] = [[USMCA]] access
 - Proximity to US
 - Time zone alignment
 - Carlos Slim bullish
@@ -58,7 +58,7 @@ Mexico's Northern Virginia.
 
 ## Semiconductor opportunity
 
-**Plan Mexico (Jan 2025):**
+**Plan [[Mexico]] (Jan 2025):**
 - Sheinbaum administration decree
 - Incentives for chip nearshoring
 - $23.5B import demand
@@ -86,7 +86,7 @@ Mexico's Northern Virginia.
 | CloudHQ | Largest DC investment |
 | AWS | Cloud region |
 | Microsoft | AI/cloud |
-| QSM Semiconductor | First chip plant |
+| [[QSM Semiconductor]] | First chip plant |
 
 ---
 
@@ -104,23 +104,23 @@ Mexico's Northern Virginia.
 ## Carlos Slim's view
 
 **Bullish on nearshoring:**
-- US-China vacuum
+- US-[[China]] vacuum
 - Semiconductor opportunity
 - Regional supply hub
 - Strategic positioning
 
-Mexico's richest man is betting big.
+[[Mexico]]'s richest man is betting big.
 
 ---
 
 ## Investment exposure
 
-| Company | Mexico exposure |
+| Company | [[Mexico]] exposure |
 |---------|-----------------|
 | [[Amazon]] | $5B AWS investment |
 | [[Microsoft]] | $1.3B+ |
 | [[Google]] | Expanding |
-| Industrial REITs | Warehouses, DCs |
+| Industrial [[REITs]] | Warehouses, DCs |
 
 ---
 
@@ -143,7 +143,7 @@ Mexico's richest man is betting big.
 - [[Microsoft]] — investor ($1.3B AI/cloud)
 - [[Google]] — investor (expanding)
 - [[CloudHQ]] — major DC developer ($4.8B Querétaro)
-- [[Querétaro]] — data hub (65% of Mexico DC capacity)
+- [[Querétaro]] — data hub (65% of [[Mexico]] DC capacity)
 - [[Brazil AI]] — regional peer (LatAm)
 - [[Nearshoring thesis]] — context
 

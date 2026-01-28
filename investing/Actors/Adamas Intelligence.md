@@ -25,7 +25,7 @@ aliases: [Adamas]
 | Supply chain mapping | Mine to magnet |
 | Price forecasting | REE oxides and metals |
 | Demand modeling | EV, wind, defense |
-| Geopolitical analysis | China controls, Myanmar |
+| Geopolitical analysis | [[China]] controls, Myanmar |
 
 ---
 
@@ -44,8 +44,8 @@ Myanmar is "a critical, imminently irreplaceable supplier into trillion-dollar t
 
 | Provider | Focus |
 |----------|-------|
-| [[Benchmark Minerals]] | Batteries, rare earths |
-| [[Preqin]] | Private markets |
+| [[Benchmark Minerals]] | [[Batteries]], rare earths |
+| [[Preqin]] | [[Private markets]] |
 | Wood Mackenzie | Energy, metals |
 | **Adamas Intelligence** | Rare earths, magnets |
 

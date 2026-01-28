@@ -39,10 +39,10 @@ aliases: [Ellison]
 | Top Gun: Maverick | $1.5B box office |
 | Mission: Impossible | $3B+ combined |
 | Star Trek (Kelvin) | Revived franchise |
-| Jack Ryan (TV) | Amazon hit |
-| Reacher (TV) | Amazon hit |
+| Jack Ryan (TV) | [[Amazon]] hit |
+| Reacher (TV) | [[Amazon]] hit |
 
-**Pattern:** Blockbuster franchises, works with major talent (Tom Cruise).
+**Pattern:** Blockbuster franchises, works with major talent (Tom [[Cruise]]).
 
 ---
 
@@ -62,7 +62,7 @@ aliases: [Ellison]
 | Trait | Description |
 |-------|-------------|
 | Filmmaker background | Trained as pilot, understands production |
-| Talent relationships | Close with Tom Cruise, major directors |
+| Talent relationships | Close with Tom [[Cruise]], major directors |
 | Tech-savvy | Grew up in Silicon Valley |
 | Long-term thinker | Father's capital = patience |
 

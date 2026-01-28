@@ -3,7 +3,7 @@ aliases: [HON]
 ---
 #actor #industrial #automation #usa #public
 
-**Honeywell** — Diversified industrial conglomerate. Building automation, aerospace, process controls. Quantum computing investment via Quantinuum.
+**Honeywell** — Diversified industrial conglomerate. Building automation, aerospace, process controls. [[Quantum computing]] investment via Quantinuum.
 
 ---
 
@@ -22,10 +22,10 @@ aliases: [HON]
 
 | Segment | Revenue | Focus |
 |---------|---------|-------|
-| Aerospace | ~35% | Avionics, engines, defense |
+| [[Aerospace]] | ~35% | Avionics, engines, defense |
 | Building Technologies | ~25% | HVAC, fire, security, controls |
 | Performance Materials | ~20% | Chemicals, materials |
-| Safety & Productivity | ~20% | Warehouse automation, PPE |
+| Safety & [[Productivity]] | ~20% | Warehouse automation, PPE |
 
 ---
 
@@ -44,7 +44,7 @@ Honeywell Forge platform uses AI for building optimization.
 
 ---
 
-## Quantinuum (Quantum computing)
+## Quantinuum ([[Quantum computing]])
 
 **Joint venture with Cambridge Quantum:**
 
@@ -52,7 +52,7 @@ Honeywell Forge platform uses AI for building optimization.
 |--------|-------|
 | Ownership | Honeywell majority |
 | Technology | Trapped-ion quantum |
-| Customers | Honeywell, Airbus, BMW, HSBC, JPMorgan |
+| Customers | Honeywell, [[Airbus]], [[BMW]], [[HSBC]], JPMorgan |
 | Last valuation | $10B (Sep 2025) |
 | **IPO target** | **$20B+** (Jan 2026 filing) |
 
@@ -63,7 +63,7 @@ Leading commercial quantum computing company.
 | Detail | Value |
 |--------|-------|
 | Filing | Confidential S-1 to SEC |
-| Target valuation | **$20B+** |
+| [[Target]] valuation | **$20B+** |
 | Expected raise | ~$1B |
 | Timing | Q1-Q2 2026 |
 
@@ -73,14 +73,14 @@ Leading commercial quantum computing company.
 
 ---
 
-## Aerospace strength
+## [[Aerospace]] strength
 
 | Product | Position |
 |---------|----------|
 | Avionics | Major supplier |
 | APUs | Market leader |
 | Engines | Turboprops, helicopters |
-| Defense | Guidance, navigation |
+| [[Defense]] | Guidance, navigation |
 
 Benefits from commercial aviation recovery.
 
@@ -89,9 +89,9 @@ Benefits from commercial aviation recovery.
 ## Investment case
 
 **Bull:**
-- Quantum computing optionality
+- [[Quantum computing]] optionality
 - Building automation growth
-- Aerospace recovery
+- [[Aerospace]] recovery
 - Margin expansion potential
 - Software/recurring revenue growth
 

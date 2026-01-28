@@ -13,7 +13,7 @@ aliases: [ERJ]
 |--------|-------|
 | Market cap | ~$8B |
 | Ticker | ERJ |
-| HQ | São José dos Campos, Brazil |
+| HQ | São José dos Campos, [[Brazil]] |
 | Focus | Regional jets, defense |
 
 ---
@@ -23,7 +23,7 @@ aliases: [ERJ]
 | Segment | Description |
 |---------|-------------|
 | **Commercial Aviation** | E-Jet E2 regional jets |
-| **Defense & Security** | C-390 military transport, Super Tucano |
+| **[[Defense]] & Security** | C-390 military transport, Super Tucano |
 | **Executive Jets** | Phenom, Praetor series |
 | **Services** | MRO, parts |
 
@@ -45,12 +45,12 @@ Strong position in 70-150 seat segment.
 
 **Bull:**
 - Regional jet leadership
-- Defense diversification
+- [[Defense]] diversification
 - Executive jet growth
-- Brazil-US relations
+- [[Brazil]]-US relations
 
 **Bear:**
-- Airbus A220 competition
+- [[Airbus]] A220 competition
 - Currency volatility (BRL)
 - Cyclical demand
 - Supply chain
@@ -72,6 +72,6 @@ Strong position in 70-150 seat segment.
 ## Related
 
 - [[Regions/LATAM|LATAM]] — regional hub
-- [[Petrobras]] — peer (Brazil)
+- [[Petrobras]] — peer ([[Brazil]])
 - [[B3]] — listed exchange
 

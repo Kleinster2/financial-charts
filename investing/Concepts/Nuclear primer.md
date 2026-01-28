@@ -34,9 +34,9 @@ U-235 + neutron → fission products + 2-3 neutrons + ~200 MeV energy
 | Fuel | Energy per kg |
 |------|---------------|
 | Uranium (fission) | **80,000,000 MJ** |
-| Natural gas | 55 MJ |
+| [[Natural gas]] | 55 MJ |
 | Coal | 24 MJ |
-| Lithium battery | 0.5 MJ |
+| [[Lithium]] battery | 0.5 MJ |
 
 **Implication:** A single fuel pellet (size of fingertip) = energy of 17,000 cubic feet of natural gas or 1,780 lbs of coal.
 
@@ -68,7 +68,7 @@ Increase U-235 concentration:
 
 **Enrichment methods:** Gaseous diffusion (old), gas centrifuge (standard), laser (emerging).
 
-**HALEU bottleneck:** Advanced reactors need HALEU. Only Russia produced commercially until recently. US ramping domestic supply — see [[Centrus Energy]].
+**HALEU bottleneck:** Advanced reactors need HALEU. Only [[Russia]] produced commercially until recently. US ramping domestic supply — see [[Centrus Energy]].
 
 ---
 
@@ -103,7 +103,7 @@ Secondary loop (clean):
 | Moderator | Light water |
 | Fuel | Enriched UO₂ (3-5%) |
 | Pressure | ~155 bar |
-| Examples | Westinghouse AP1000, Framatome EPR |
+| Examples | [[Westinghouse]] AP1000, Framatome EPR |
 
 **Advantage:** Two loops separate radioactive water from turbine.
 
@@ -135,7 +135,7 @@ Canadian design. Uses natural uranium + heavy water (D₂O).
 | Coolant | Heavy water |
 | Moderator | Heavy water |
 | Fuel | **Natural uranium** (no enrichment) |
-| Examples | Canadian fleet, India, China |
+| Examples | Canadian fleet, [[India]], [[China]] |
 
 **Advantage:** No enrichment needed. Can refuel while operating.
 
@@ -157,8 +157,8 @@ Canadian design. Uses natural uranium + heavy water (D₂O).
 | **NuScale** | VOYGR | Light water PWR | NRC approved, projects cancelled |
 | **GE-Hitachi** | BWRX-300 | Boiling water | Under review |
 | **[[TerraPower]]** | Natrium | Sodium-cooled fast | Kemmerer, WY demo |
-| **X-energy** | Xe-100 | High-temp gas | Under development |
-| **[[Oklo]]** | Aurora | Fast reactor | Under development |
+| **[[X-energy]]** | Xe-100 | High-temp gas | Under development |
+| **[[Oklo]]** | [[Aurora]] | Fast reactor | Under development |
 | **Kairos** | KP-FHR | Molten salt-cooled | Under development |
 
 **Reality check:** No SMR has achieved commercial operation in US yet. Cost savings unproven. NuScale's first project cancelled due to cost overruns.
@@ -206,17 +206,17 @@ Mining → Conversion → Enrichment → Fabrication → Reactor → Storage/Rep
 | **Mining** | Extract uranium ore | Cameco, Kazatomprom, Uranium Energy |
 | **Conversion** | UO₂ → UF₆ (gas for enrichment) | Cameco, Orano |
 | **Enrichment** | Increase U-235 % | Urenco, Rosatom, Centrus |
-| **Fabrication** | Make fuel assemblies | Westinghouse, Framatome |
+| **Fabrication** | Make fuel assemblies | [[Westinghouse]], Framatome |
 | **Reactor** | Generate power | Utilities |
 | **Storage** | Spent fuel pools, dry casks | On-site at plants |
-| **Reprocessing** | Recover U, Pu (optional) | France (Orano), Russia |
+| **Reprocessing** | Recover U, Pu (optional) | [[France]] (Orano), [[Russia]] |
 
 ### Open vs closed cycle
 
 | Cycle | Description | Countries |
 |-------|-------------|-----------|
 | **Open** | Once-through, store waste | US, most countries |
-| **Closed** | Reprocess, recycle fuel | France, Russia, Japan |
+| **Closed** | Reprocess, recycle fuel | [[France]], [[Russia]], [[Japan]] |
 
 **US policy:** No reprocessing (proliferation concerns). Spent fuel stored on-site indefinitely.
 
@@ -227,13 +227,13 @@ Mining → Conversion → Enrichment → Fabrication → Reactor → Storage/Rep
 | Source | 2024 share |
 |--------|------------|
 | Kazakhstan | ~45% |
-| Canada | ~15% |
+| [[Canada]] | ~15% |
 | Namibia | ~10% |
-| Australia | ~8% |
+| [[Australia]] | ~8% |
 | Uzbekistan | ~7% |
-| Russia | ~5% |
+| [[Russia]] | ~5% |
 
-**Russia dependence:** Russia enriches ~40% of global uranium. US utilities still buy Russian enrichment services. Sanctions creating supply concerns.
+**[[Russia]] dependence:** [[Russia]] enriches ~40% of global uranium. US utilities still buy Russian enrichment services. Sanctions creating supply concerns.
 
 See [[Uranium]], [[Kazatomprom]], [[Cameco]].
 
@@ -291,7 +291,7 @@ See [[Uranium]], [[Kazatomprom]], [[Cameco]].
 
 ## Safety
 
-### Defense in depth
+### [[Defense]] in depth
 
 Multiple independent barriers:
 1. Fuel pellet ceramic

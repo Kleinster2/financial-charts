@@ -8,7 +8,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Headquarters | Dongguan, China |
+| Headquarters | Dongguan, [[China]] |
 | Parent | [[BBK Electronics]] |
 | Global rank | #5-6 smartphone OEM |
 | Status | Private |
@@ -29,7 +29,7 @@ Forecast flipped from growth to decline as component costs (+10-25%) squeeze mar
 
 - Low margins vs Apple/Samsung
 - Entry-level smartphone exposure
-- Limited pricing power in competitive China market
+- Limited pricing power in competitive [[China]] market
 - BBK siblings (Oppo, Realme) face same pressures
 
 ---

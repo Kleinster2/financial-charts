@@ -42,8 +42,8 @@ Lumentum has the only 200Gbps EML at scale — essential for next-gen AI connect
 |----------|----------|
 | **Datacom lasers** | EMLs, VCSELs |
 | **ROADMs** | Reconfigurable optical switches |
-| **3D sensing** | Consumer electronics |
-| **Telecom** | Coherent components |
+| **3D sensing** | [[Consumer]] electronics |
+| **[[Telecom]]** | Coherent components |
 
 **AI focus:** High-speed lasers for data center interconnects.
 
@@ -79,7 +79,7 @@ Lumentum has the only 200Gbps EML at scale — essential for next-gen AI connect
 | Competitor | Segment | Lumentum vs |
 |------------|---------|-------------|
 | [[Coherent]] | Full modules | Component supplier |
-| Broadcom | Silicon photonics | Traditional optical |
+| [[Broadcom]] | Silicon photonics | Traditional optical |
 | II-VI/Coherent | Lasers | EML lead |
 | Source Photonics | Transceivers | Component supplier |
 
@@ -101,7 +101,7 @@ EML technology leadership = differentiated position.
 - 3D sensing headwinds
 - Cyclical optical market
 - Competition eventually catches up
-- Consumer segment drag
+- [[Consumer]] segment drag
 
 ---
 

@@ -14,7 +14,7 @@ Market regime framework. "Risk on" = investors seek return, buy equities/credit/
 | VIX | <20 | >30 |
 | HY spreads | Compressing | Blowing out |
 | USD | Weakening | Strengthening |
-| Gold | Flat/down | Rising |
+| [[Gold]] | Flat/down | Rising |
 | EM flows | Inflows | Outflows |
 | Treasury yields | Rising (growth) | Falling (safety) |
 
@@ -50,7 +50,7 @@ Market regime framework. "Risk on" = investors seek return, buy equities/credit/
 | Factor | Details |
 |--------|---------|
 | Economic data | Services PMI strongest in 1yr+ |
-| Productivity | Fastest growth in 2 years |
+| [[Productivity]] | Fastest growth in 2 years |
 | Auto sales | Beat expectations, firm demand |
 | Semis | Microchip raised forecast |
 | Policy | Trump housing support |
@@ -86,8 +86,8 @@ Market regime framework. "Risk on" = investors seek return, buy equities/credit/
 | Asset | RBA view |
 |-------|----------|
 | AI/tech | Bubble |
-| Crypto | Bubble |
-| Meme stocks | Bubble |
+| [[Crypto]] | Bubble |
+| [[Meme stocks]] | Bubble |
 | IG credit | Bubble |
 | HY credit | Bubble |
 
@@ -102,7 +102,7 @@ Market regime framework. "Risk on" = investors seek return, buy equities/credit/
 | Mar 2020 | Risk off → on | Fed intervention |
 | Q4 2018 | Risk on → off | Fed overtightening |
 | 2022 | Risk on → off | Rate hikes |
-| Late 2022 | Risk off → on | Inflation peak |
+| Late 2022 | Risk off → on | [[Inflation]] peak |
 
 ---
 

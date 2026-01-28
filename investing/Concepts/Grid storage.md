@@ -24,7 +24,7 @@ Battery energy storage systems (BESS) for utility-scale applications. Distinct m
 |---------|----------|----------|---------|
 | **Short-duration** | 2-4 hours | Peak shaving, ancillary services | [[Tesla Energy]], [[Fluence]], [[BYD]] |
 | **Long-duration** | 8-100+ hours | Multi-day renewable storage | [[Form Energy]], ESS Inc |
-| **Behind-the-meter** | 2-4 hours | Commercial/industrial | Tesla Powerwall, Enphase |
+| **Behind-the-meter** | 2-4 hours | Commercial/industrial | [[Tesla]] Powerwall, [[Enphase]] |
 
 ---
 
@@ -44,7 +44,7 @@ Battery energy storage systems (BESS) for utility-scale applications. Distinct m
 
 | Chemistry | Duration | Cost | Maturity |
 |-----------|----------|------|----------|
-| **Lithium-ion (LFP)** | 2-4 hours | Lowest | Dominant |
+| **[[Lithium]]-ion (LFP)** | 2-4 hours | Lowest | Dominant |
 | **Iron-air** | 100+ hours | Very low $/kWh | Emerging |
 | **Flow batteries** | 4-12 hours | Medium | Niche |
 | **Compressed air** | 8-24 hours | Site-dependent | Limited |
@@ -72,7 +72,7 @@ Battery energy storage systems (BESS) for utility-scale applications. Distinct m
 - Cost curve still declining
 
 **Bear case:**
-- Lithium price volatility
+- [[Lithium]] price volatility
 - Interconnection queues (3-5 year waits)
 - Utility procurement cycles slow
 - Competition intensifying (margins)

@@ -3,7 +3,7 @@ aliases: [Snapback mechanism, Snapback sanctions, JCPOA snapback]
 ---
 #concept #sanctions #geopolitics #iran
 
-**UN snapback** — Mechanism under UNSC Resolution 2231 allowing automatic reimposition of UN sanctions on Iran without Security Council vote. Triggered by E3 (UK, France, Germany) in August 2025; sanctions reimposed September 27, 2025.
+**UN snapback** — Mechanism under UNSC Resolution 2231 allowing automatic reimposition of UN sanctions on Iran without Security Council vote. Triggered by E3 ([[UK]], [[France]], [[Germany]]) in August 2025; sanctions reimposed September 27, 2025.
 
 ---
 
@@ -19,7 +19,7 @@ Iran violates JCPOA commitments
                 → No veto possible (procedural, not substantive vote)
 ```
 
-**Key design feature:** Bypasses Russia/China veto. If Council fails to act, sanctions snap back by default.
+**Key design feature:** Bypasses [[Russia]]/[[China]] veto. If Council fails to act, sanctions snap back by default.
 
 ---
 
@@ -27,11 +27,11 @@ Iran violates JCPOA commitments
 
 | Date | Event |
 |------|-------|
-| **Aug 28, 2025** | E3 (UK, France, Germany) formally notifies Security Council |
+| **Aug 28, 2025** | E3 ([[UK]], [[France]], [[Germany]]) formally notifies Security Council |
 | Sep 2025 | Security Council vote on continuing sanctions relief |
 | Sep 2025 | Vote fails: 9 against, 4 in favor, 2 abstentions |
 | **Sep 27, 2025** | UN sanctions reimposed at 00:00 GMT |
-| Oct 18, 2025 | Original JCPOA expiration date (China/Russia claim sanctions lifted permanently) |
+| Oct 18, 2025 | Original JCPOA expiration date ([[China]]/[[Russia]] claim sanctions lifted permanently) |
 
 ---
 
@@ -56,9 +56,9 @@ Iran violates JCPOA commitments
 
 | Vote | Countries |
 |------|-----------|
-| **Against (9)** | Denmark, France, Greece, Panama, Sierra Leone, Slovenia, Somalia, UK, US |
-| **In favor (4)** | Algeria, China, Pakistan, Russia |
-| **Abstain (2)** | Guyana, South Korea |
+| **Against (9)** | Denmark, [[France]], [[Greece]], Panama, [[Sierra]] Leone, Slovenia, Somalia, [[UK]], US |
+| **In favor (4)** | Algeria, [[China]], Pakistan, [[Russia]] |
+| **Abstain (2)** | [[Guyana]], South Korea |
 
 **Result:** Resolution failed → sanctions snapped back automatically.
 
@@ -81,7 +81,7 @@ Resolutions reinstated:
 | Arms embargo | Full UN arms embargo restored |
 | Ballistic missiles | Restrictions on missile technology |
 | Nuclear-related | Enrichment, reprocessing bans |
-| Travel bans | On designated individuals |
+| [[Travel]] bans | On designated individuals |
 | Asset freezes | On designated entities |
 | Financial | Banking restrictions |
 
@@ -89,11 +89,11 @@ Resolutions reinstated:
 
 ## Disputed legality
 
-**China/Russia position (Oct 2025 letter to UNSC):**
+**[[China]]/[[Russia]] position (Oct 2025 letter to UNSC):**
 
 | Argument | Detail |
 |----------|--------|
-| E3 lacks standing | UK/France/Germany "ceased to perform" JCPOA commitments |
+| E3 lacks standing | [[UK]]/[[France]]/[[Germany]] "ceased to perform" JCPOA commitments |
 | Resolution 2231 expired | Oct 18, 2025 was natural termination date |
 | Dispute resolution | E3 didn't exhaust JCPOA's internal procedures first |
 | Permanent lift | Sanctions were permanently terminated, cannot snap back |
@@ -103,7 +103,7 @@ Resolutions reinstated:
 - Iran's violations are "clear factual evidence"
 - Mechanism exists precisely for this situation
 
-**Practical reality:** Western countries enforce reimposed sanctions; China/Russia ignore them.
+**Practical reality:** Western countries enforce reimposed sanctions; [[China]]/[[Russia]] ignore them.
 
 ---
 
@@ -113,7 +113,7 @@ Resolutions reinstated:
 |--------|--------|
 | **Legitimacy** | US sanctions now backed by UN authority |
 | **European companies** | Legally barred (not just cautious) |
-| **Insurance/shipping** | New legal basis for restrictions |
+| **[[Insurance]]/shipping** | New legal basis for restrictions |
 | **Rial collapse** | Snapback was key accelerant (Sep-Dec 2025) |
 
 **Before snapback:** US unilateral sanctions, EU cautious but legal
@@ -137,10 +137,10 @@ Resolutions reinstated:
 
 | Feared outcome | Reality |
 |----------------|---------|
-| Russia/China veto | Mechanism bypassed veto by design |
+| [[Russia]]/[[China]] veto | Mechanism bypassed veto by design |
 | Iran walks away | Already non-compliant |
 | Immediate war | No military escalation from snapback itself |
-| Oil supply shock | Shadow fleet continued operating |
+| [[Oil]] supply shock | [[Shadow fleet]] continued operating |
 
 ---
 
@@ -150,7 +150,7 @@ Resolutions reinstated:
 |--------|--------|
 | **Iran oil** | Additional legal barrier, but shadow fleet continues |
 | **European exposure** | Companies now have UN legal prohibition |
-| **Sanctions premium** | Oil prices incorporate Iran supply uncertainty |
+| **Sanctions premium** | [[Oil]] prices incorporate Iran supply uncertainty |
 | **Diplomacy dead** | No JCPOA revival possible |
 
 ---

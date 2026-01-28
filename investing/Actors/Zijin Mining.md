@@ -36,8 +36,8 @@ China's mining champion — domestic giant turned global acquirer.
 | 2024 | 303.6 | 32.0 | 10.6% | Allied Gold deal announced |
 | 2023 | 293.4 | 21.1 | 7.2% | |
 | 2022 | 270.3 | 20.0 | 7.4% | Rosebel acquisition |
-| 2021 | 225.1 | 15.4 | 6.8% | Neo Lithium acquisition |
-| 2020 | 171.5 | 6.3 | 3.7% | Guyana Goldfields |
+| 2021 | 225.1 | 15.4 | 6.8% | Neo [[Lithium]] acquisition |
+| 2020 | 171.5 | 6.3 | 3.7% | [[Guyana]] Goldfields |
 | 2019 | 136.1 | 4.3 | 3.2% | Continental Gold |
 | 2018 | 106.0 | 4.1 | 3.9% | Serbia Zijin Bor |
 | 2017 | 94.5 | 3.5 | 3.7% | |
@@ -55,7 +55,7 @@ China's mining champion — domestic giant turned global acquirer.
 | **Gold** | Largest Chinese producer, ~37-70 tonnes/year |
 | **Copper** | Major producer via [[Kamoa-Kakula]], Serbia, domestic mines |
 | **Zinc** | Significant producer |
-| **Lithium** | Growing via Neo Lithium (Argentina) |
+| **[[Lithium]]** | Growing via Neo [[Lithium]] ([[Argentina]]) |
 
 ---
 
@@ -74,30 +74,30 @@ China's mining champion — domestic giant turned global acquirer.
 | Porgera | Papua New Guinea | Gold | 50% (w/ [[Barrick Gold]]) |
 | Zarafshon | Tajikistan | Gold | 70% |
 | Akyem | Ghana | Gold | 100% (acq. 2024 from [[Newmont]]) |
-| [[Allied Gold]] | Africa (Côte d'Ivoire, Mali, Ethiopia) | Gold | 100% (pending, Jan 2026) |
+| [[Allied Gold]] | [[Africa]] (Côte d'Ivoire, Mali, Ethiopia) | Gold | 100% (pending, Jan 2026) |
 
 ### Development/exploration
 
 | Project | Country | Commodity |
 |---------|---------|-----------|
-| Tres Quebradas (3Q) | Argentina | Lithium |
+| Tres Quebradas (3Q) | [[Argentina]] | [[Lithium]] |
 | Rio Blanco | Peru | Copper-moly |
 | Kharmagtai | Mongolia | Copper-gold |
-| Koné (via Montage) | Côte d'Ivoire | Gold |
+| Koné (via [[Montage]]) | Côte d'Ivoire | Gold |
 
 ---
 
 ## Acquisition history
 
-| Year | Target | Country | Value | Commodity |
+| Year | [[Target]] | Country | Value | Commodity |
 |------|--------|---------|-------|-----------|
 | 2018 | Serbia Zijin Bor | Serbia | — | Copper |
 | 2019 | Continental Gold (Buriticá) | Colombia | C$1.3B | Gold |
-| 2020 | Guyana Goldfields | Guyana | $238M | Gold |
-| 2021 | Neo Lithium | Argentina | — | Lithium |
+| 2020 | [[Guyana]] Goldfields | [[Guyana]] | $238M | Gold |
+| 2021 | Neo [[Lithium]] | [[Argentina]] | — | [[Lithium]] |
 | 2022 | Rosebel/Saramacca | Suriname | $360M | Gold |
 | 2024 | Akyem (from Newmont) | Ghana | ~$1B | Gold |
-| **2026** | **[[Allied Gold]]** | **Canada (Africa ops)** | **C$5.5B** | **Gold** |
+| **2026** | **[[Allied Gold]]** | **[[Canada]] ([[Africa]] ops)** | **C$5.5B** | **Gold** |
 
 The Allied Gold deal is Zijin's largest acquisition ever.
 
@@ -107,7 +107,7 @@ The Allied Gold deal is Zijin's largest acquisition ever.
 
 See [[Zijin-Allied Gold acquisition]] for full details.
 
-**Summary:** C$5.5B (~$4B) all-cash deal for Canadian miner with African gold assets. First major China cross-border mining deal since Canada-China thaw. Announced Jan 26, 2026.
+**Summary:** C$5.5B (~$4B) all-cash deal for Canadian miner with African gold assets. First major China cross-border mining deal since [[Canada]]-China thaw. Announced Jan 26, 2026.
 
 ---
 
@@ -129,7 +129,7 @@ See [[Zijin-Allied Gold acquisition]] for full details.
 - Record gold prices boosting margins
 - Kamoa-Kakula is world-class copper asset
 - Aggressive M&A building reserve base
-- Lithium exposure via Neo Lithium
+- [[Lithium]] exposure via Neo [[Lithium]]
 
 **Bear:**
 - US sanctions limiting market access

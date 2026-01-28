@@ -36,7 +36,7 @@ IHC is distinct from the sovereign funds — it's a publicly traded conglomerate
 | [[Lunate]] | Alternatives ($115B AUM) — via Chimera |
 | [[2PointZero]] | New $33B investment vehicle |
 | Chimera Investments | Anchor LP in Lunate |
-| Various operating companies | Healthcare, real estate, utilities |
+| Various operating companies | [[Healthcare]], real estate, utilities |
 
 ---
 
@@ -59,9 +59,9 @@ Another investing entity added to Abu Dhabi's complex web.
 
 | Investment | Amount | Sector |
 |------------|--------|--------|
-| SpaceX | $50M | Space |
-| Savage X Fenty | $25M | Consumer |
-| Binance | $2B | Crypto |
+| SpaceX | $50M | [[Space]] |
+| Savage X Fenty | $25M | [[Consumer]] |
+| Binance | $2B | [[Crypto]] |
 | Various | — | Diversified |
 
 **Binance:** IHC participated in $2B funding for crypto exchange — controversy given regulatory concerns.

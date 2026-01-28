@@ -60,7 +60,7 @@ Without EDA tools, no chips get made.
 |--------|----------|-------|
 | Synopsys | #1 | 32% market share |
 | [[Cadence]] | #2 | 30% market share |
-| Siemens EDA | #3 | Mentor Graphics |
+| [[Siemens EDA]] | #3 | Mentor Graphics |
 
 Effective duopoly for advanced nodes.
 
@@ -90,7 +90,7 @@ Picks and shovels for chip design.
 **Bear:**
 - $35B Ansys deal = integration risk
 - High valuation
-- China exposure concerns
+- [[China]] exposure concerns
 - Customer concentration
 
 ---

@@ -3,7 +3,7 @@ aliases: [SHEL, Royal Dutch Shell]
 ---
 #actor #energy #oil #lng #uk #public
 
-**Shell** — Third-largest Western oil major. World's largest LNG trader. Transitioning portfolio toward gas and low-carbon.
+**Shell** — Third-largest Western oil major. World's largest [[LNG]] trader. Transitioning portfolio toward gas and low-carbon.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [SHEL, Royal Dutch Shell]
 | Ticker | SHEL (NYSE/LSE) |
 | Market cap | ~$200B |
 | Position | #3 Western major |
-| LNG | #1 global trader |
+| [[LNG]] | #1 global trader |
 
 ---
 
@@ -22,22 +22,22 @@ aliases: [SHEL, Royal Dutch Shell]
 
 | Segment | Focus |
 |---------|-------|
-| Upstream | Oil & gas production |
-| Integrated Gas | LNG, GTL |
+| Upstream | [[Oil]] & gas production |
+| Integrated Gas | [[LNG]], GTL |
 | Downstream | Refining, chemicals |
 | Renewables | Wind, solar, hydrogen |
 
 ---
 
-## LNG dominance
+## [[LNG]] dominance
 
-**World's largest LNG portfolio:**
+**World's largest [[LNG]] portfolio:**
 - ~70 mtpa equity capacity
 - Global trading/shipping fleet
 - Qatar expansion partner
 - US Gulf Coast exports
 
-LNG relevance for AI: Gas-fired power for data centers.
+[[LNG]] relevance for AI: Gas-fired power for data centers.
 
 ---
 
@@ -57,7 +57,7 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 ## Investment case
 
 **Bull:**
-- LNG super-cycle beneficiary
+- [[LNG]] super-cycle beneficiary
 - Strong cash returns (buybacks)
 - Integrated model resilience
 - Gas as transition fuel
@@ -88,5 +88,5 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 - [[Exxon]] — peer (US supermajor)
 - [[Chevron]] — peer (US #2)
 - [[TotalEnergies]] — peer (European major)
-- [[BP]] — peer (UK major)
+- [[BP]] — peer ([[UK]] major)
 - [[Power constraints]] — context (gas for AI power)

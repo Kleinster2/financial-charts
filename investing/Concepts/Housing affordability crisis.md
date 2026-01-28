@@ -14,7 +14,7 @@ aliases: [housing affordability, affordability crisis]
 | Price-to-income ratio | **5x** | Traditionally 3x = affordable |
 | Housing cost share of income | **47%** | Atlanta Fed, mid-2025 |
 | Households priced out | **75%** (100.6M) | Can't afford median new home |
-| Home prices since 2019 | +60% | |
+| [[Home]] prices since 2019 | +60% | |
 | Mortgage payment vs rent | **+$1,091/month** | Starter homes |
 
 **NAHB (2025):** Median new home price $459,826 at 6.5% mortgage rate prices out 3 in 4 households.
@@ -31,9 +31,9 @@ aliases: [housing affordability, affordability crisis]
 | 2025 | **37%** |
 
 **Since 2000:**
-- Home prices: **+177%** (nominal)
+- [[Home]] prices: **+177%** (nominal)
 - Household income: **+8.5%** (inflation-adjusted)
-- Home prices: **+56%** (inflation-adjusted)
+- [[Home]] prices: **+56%** (inflation-adjusted)
 
 ---
 
@@ -55,7 +55,7 @@ aliases: [housing affordability, affordability crisis]
 | [[Housing shortage]] | 3.7–7.2M unit deficit |
 | Post-2008 underbuilding | Decade of suppressed construction |
 | Millennial demand | Largest generation hitting prime buying years |
-| Mortgage rates | 6.5%+ vs 3% in 2021 |
+| [[Mortgage rates]] | 6.5%+ vs 3% in 2021 |
 | Wage stagnation | Income growth lagged prices |
 | Zoning/regulation | Restricts new supply |
 | Investor competition | Institutional + mom-and-pop buyers |
@@ -67,9 +67,9 @@ aliases: [housing affordability, affordability crisis]
 **Redfin forecast:**
 - Income growth to outpace home price growth in 2026
 - First time since Great Recession era
-- Home prices: +1%
+- [[Home]] prices: +1%
 - Wage growth: +4%
-- Mortgage rates: low 6% range
+- [[Mortgage rates]]: low 6% range
 
 **Price-to-income trajectory:**
 - 2022 peak: >5x
@@ -100,7 +100,7 @@ aliases: [housing affordability, affordability crisis]
 **Beneficiaries:**
 - Existing homeowners (wealth effect)
 - Landlords (rental demand)
-- [[Single-family rental]] REITs
+- [[Single-family rental]] [[REITs]]
 - [[Build-to-rent]] developers
 
 ---
@@ -111,7 +111,7 @@ aliases: [housing affordability, affordability crisis]
 
 | If affordability worsens | If affordability improves |
 |-------------------------|--------------------------|
-| SFR REITs benefit | Homebuilders benefit |
+| SFR [[REITs]] benefit | Homebuilders benefit |
 | BTR demand grows | SFR faces headwinds |
 | Political pressure rises | Regulatory risk falls |
 | GSE reform urgency | Status quo acceptable |

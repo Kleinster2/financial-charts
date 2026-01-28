@@ -51,7 +51,7 @@ Combined valuation of leading startups grew **350% YoY** (2024-2025): ~$8B → $
 | Company | Valuation | ARR | Notes |
 |---------|-----------|-----|-------|
 | **[[Lovable]]** | $6.6B | $200M+ | Fastest to $100M ARR ever |
-| **Cursor** (Anysphere) | $29B | — | AI code editor, dev-focused |
+| **[[Cursor]]** ([[Anysphere]]) | $29B | — | AI code editor, dev-focused |
 | **Bolt.new** | — | — | AI app builder |
 | **Replit** | $1B+ | — | AI coding environment |
 | **v0** ([[Vercel]]) | Part of Vercel | — | AI web components |
@@ -97,7 +97,7 @@ Auth → Supabase
 
 | Factor | Impact |
 |--------|--------|
-| GPT-4/Claude quality | Code good enough to ship |
+| GPT-4/[[Claude]] quality | Code good enough to ship |
 | Context windows | Can handle full apps |
 | Supabase/Vercel integrations | Zero-config deployment |
 | Open source models | Cost coming down |
@@ -149,7 +149,7 @@ Auth → Supabase
 
 | Risk | Impact |
 |------|--------|
-| Big Tech competition | Microsoft (Copilot), Google (Gemini) |
+| Big Tech competition | [[Microsoft]] (Copilot), [[Google]] ([[Gemini]]) |
 | Quality ceiling | Enterprise won't trust vibe-coded apps |
 | Commoditization | Models becoming commodity |
 
@@ -174,7 +174,7 @@ Auth → Supabase
 ### Investors winning
 - [[Menlo Ventures]] — Lovable Series B lead
 - [[Accel]] — Lovable, Supabase, Vercel
-- [[NVIDIA]] — Lovable investor via NVentures
+- [[NVIDIA]] — Lovable investor via [[NVentures]]
 
 ### Adjacent concepts
 - [[Open source commoditization]] — model layer commoditizing

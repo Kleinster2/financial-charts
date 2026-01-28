@@ -14,7 +14,7 @@ aliases: [ROG, Roche Holding]
 | Ticker | ROG.SW (Swiss) |
 | Market cap | ~$250B |
 | Revenue | ~$65B |
-| HQ | Basel, Switzerland |
+| HQ | Basel, [[Switzerland]] |
 | Structure | Pharma + Diagnostics |
 
 ---

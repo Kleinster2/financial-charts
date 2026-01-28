@@ -46,7 +46,7 @@
 | Sector | EU concern | China response |
 |--------|------------|----------------|
 | **EVs** | Subsidized competition | Price commitments |
-| **Solar** | Dumping | Production shifted to SE Asia |
+| **Solar** | Dumping | Production shifted to SE [[Asia]] |
 | **Steel** | Overcapacity | Diversified exports |
 | **Tech** | Security | Limited retaliation |
 
@@ -57,10 +57,10 @@
 **For European OEMs:**
 - Chinese EV competition continues (managed, not blocked)
 - Cost/tech disadvantage persists
-- VW, BMW, Mercedes face margin pressure
+- VW, [[BMW]], Mercedes face margin pressure
 
 **For Chinese exporters:**
-- Europe accessible (unlike US)
+- [[Europe]] accessible (unlike US)
 - Must maintain price floors
 - Growth path preserved
 

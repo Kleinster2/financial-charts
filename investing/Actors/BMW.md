@@ -17,7 +17,7 @@ ticker: BMW.DE
 | Vehicles sold | 2.7M (2024) |
 | BEV sales | 427K (+13.5% YoY) |
 | BEV share | 17% of total |
-| HQ | Munich, Germany |
+| HQ | Munich, [[Germany]] |
 
 ---
 
@@ -50,13 +50,13 @@ ticker: BMW.DE
 | Plant | Location | Start | Notes |
 |-------|----------|-------|-------|
 | Debrecen | Hungary | H2 2025 | First Neue Klasse; EV-only plant |
-| Munich | Germany | 2026 | Converting to EV-only by 2027 |
-| China | TBD | TBD | — |
-| Mexico | TBD | TBD | — |
+| Munich | [[Germany]] | 2026 | Converting to EV-only by 2027 |
+| [[China]] | TBD | TBD | — |
+| [[Mexico]] | TBD | TBD | — |
 
 ### Targets
 
-| Year | Target |
+| Year | [[Target]] |
 |------|--------|
 | 2025 | -25% CO2 |
 | 2030 | 50% BEV sales share |
@@ -70,9 +70,9 @@ ticker: BMW.DE
 
 | Supplier | Cell type | Geography | Contract |
 |----------|-----------|-----------|----------|
-| [[CATL]] | Cylindrical (Neue Klasse) | China + Hungary | €7.3B+ |
+| [[CATL]] | Cylindrical (Neue Klasse) | [[China]] + Hungary | €7.3B+ |
 | [[Samsung SDI]] | Prismatic (current) + cylindrical | Korea | €2.9B |
-| EVE Energy | Cylindrical | China + Europe | Confirmed |
+| EVE Energy | Cylindrical | [[China]] + [[Europe]] | Confirmed |
 | [[Northvolt]] | Prismatic (current) | Sweden | **Cancelled Jun 2024** |
 
 ### Northvolt contract cancellation
@@ -96,8 +96,8 @@ BMW is building 5 battery facilities near vehicle plants. Dingolfing (Bavaria) h
 
 | Region | Share |
 |--------|-------|
-| Europe | 40% |
-| Asia | 37% |
+| [[Europe]] | 40% |
+| [[Asia]] | 37% |
 | Americas | ~20% |
 | Other | ~3% |
 

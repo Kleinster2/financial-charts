@@ -14,8 +14,8 @@ Bloomberg analyzed ~770,000 home sensors ([[Whisker Labs]] "Ting" devices) and f
 
 | Metric | Value |
 |--------|-------|
-| Sensors within 50 miles of significant DC activity | **>75%** of highly-distorted readings |
-| Sensors within 20 miles of DC activity | **>50%** of worst distortions |
+| [[Sensors]] within 50 miles of significant DC activity | **>75%** of highly-distorted readings |
+| [[Sensors]] within 20 miles of DC activity | **>50%** of worst distortions |
 | Americans in most-impacted areas | **3.7 million** |
 | Industry threshold for damage | **8%** total harmonic distortion (THD) |
 | Worst readings observed | **12.9%** THD |

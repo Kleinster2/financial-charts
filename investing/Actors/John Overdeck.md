@@ -14,7 +14,7 @@ aliases: [John Albert Overdeck]
 | Born | 1969, New Jersey |
 | Net worth | $6.8-8B (2025 estimates vary) |
 | Forbes rank | #1 richest in New Jersey (Apr 2025) |
-| Education | BS Mathematics (with distinction), MS Statistics, Stanford |
+| Education | BS Mathematics (with distinction), MS Statistics, [[Stanford]] |
 | Firm | [[Two Sigma]] (co-founded 2001) |
 | Current role | Co-Chairman (stepped down as co-CEO Sep 2024) |
 
@@ -34,14 +34,14 @@ aliases: [John Albert Overdeck]
 | Detail | Value |
 |--------|-------|
 | Age | 16 |
-| Award | Silver medal |
+| Award | [[Silver]] medal |
 | Significance | One of world's top young mathematicians |
 
 ---
 
 ## Education
 
-### Stanford University
+### [[Stanford]] University
 
 | Degree | Field | Notes |
 |--------|-------|-------|
@@ -146,7 +146,7 @@ aliases: [John Albert Overdeck]
 
 | Detail | Value |
 |--------|-------|
-| Background | Principal consultant, Stanford Research Institute |
+| Background | Principal consultant, [[Stanford]] Research Institute |
 | Founded | Bedtime Math (educational nonprofit) |
 | Children | 3 |
 

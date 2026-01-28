@@ -3,7 +3,7 @@ aliases: [NOW]
 ---
 #actor #software #enterprise #usa #public
 
-**ServiceNow** — Enterprise workflow automation platform. IT service management leader. AI agents for enterprise workflows.
+**ServiceNow** — Enterprise workflow automation platform. IT service management leader. [[AI agents]] for enterprise workflows.
 
 ---
 
@@ -66,7 +66,7 @@ AI drives upsell to existing 8,000+ enterprise customers.
 |------------|-------|
 | [[Salesforce]] | CRM, broader platform |
 | BMC | Legacy ITSM |
-| Atlassian | Dev tools, ITSM |
+| [[Atlassian]] | Dev tools, ITSM |
 | Freshworks | SMB service management |
 
 ServiceNow dominates enterprise ITSM with 40%+ share.
@@ -78,10 +78,10 @@ ServiceNow dominates enterprise ITSM with 40%+ share.
 | Driver | Impact |
 |--------|--------|
 | Digital transformation | Workflow automation |
-| AI agents | New use cases |
+| [[AI agents]] | New use cases |
 | Platform expansion | Beyond IT |
 | Federal | Government adoption |
-| International | Europe, Asia growth |
+| International | [[Europe]], [[Asia]] growth |
 
 ---
 
@@ -119,5 +119,5 @@ ServiceNow dominates enterprise ITSM with 40%+ share.
 
 - [[Salesforce]] — competitor (enterprise platform)
 - [[Microsoft]] — competitor (Copilot, Dynamics)
-- [[Agentic AI]] — context (AI agents for enterprise)
+- [[Agentic AI]] — context ([[AI agents]] for enterprise)
 - [[NVIDIA]] — partner (AI infrastructure)

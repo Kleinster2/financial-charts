@@ -17,13 +17,13 @@ xAI is emerging as a major AI infrastructure builder. Colossus cluster and expan
 
 **"Purely AI software company" (Aug 2025):**
 
-Musk's vision: simulate a Microsoft-scale software business entirely with AI agents.
+Musk's vision: simulate a Microsoft-scale software business entirely with [[AI agents]].
 
 | Aspect | Details |
 |--------|---------|
 | Trademark | Filed Aug 1, 2025 |
 | Name | Tongue-in-cheek Microsoft jab |
-| Concept | AI agents running entire software company |
+| Concept | [[AI agents]] running entire software company |
 | Products | Code generation, workflow automation, agents |
 
 **Musk quote:** "In principle, given that software companies like Microsoft do not themselves manufacture any physical hardware, it should be possible to simulate them entirely with AI."
@@ -47,7 +47,7 @@ Musk's vision: simulate a Microsoft-scale software business entirely with AI age
 - Third building purchased
 - Named "MACROHARDRR"
 - 2GW total capacity target
-- Location chosen for TVA power access (BYOP strategy)
+- Location chosen for TVA power access ([[BYOP]] strategy)
 - See [[Power constraints]]
 
 ### Mississippi expansion
@@ -108,10 +108,10 @@ See [[AI infrastructure financing]].
 
 | Round | Date | Amount | Valuation | Notes |
 |-------|------|--------|-----------|-------|
-| Series B | May 2024 | $6B | $24B | Valor, Sequoia, a16z led |
-| Series C | Dec 2024 | $6B | $50B | Fidelity, BlackRock, Sequoia |
+| Series B | May 2024 | $6B | $24B | Valor, Sequoia, [[a16z]] led |
+| Series C | Dec 2024 | $6B | $50B | [[Fidelity]], [[BlackRock]], Sequoia |
 | Equity | Sep 2025 | $10B | ~$200B | — |
-| Debt | Oct 2025 | $12.5B | — | Morgan Stanley arranged |
+| Debt | Oct 2025 | $12.5B | — | [[Morgan Stanley]] arranged |
 | **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target |
 
 **Total raised:** ~$40B equity + debt
@@ -126,20 +126,20 @@ See [[AI infrastructure financing]].
 |----------|------|--------|
 | **Elon Musk** | Founder | All |
 | **[[Valor Equity Partners]]** | Lead | Series B, E |
-| **Sequoia Capital** | VC | Series B, C |
-| **a16z** | VC | Series B |
-| **Fidelity** | Asset manager | Series C, E |
+| **[[Sequoia Capital]]** | VC | Series B, C |
+| **[[a16z]]** | VC | Series B |
+| **[[Fidelity]]** | Asset manager | Series C, E |
 | **[[NVIDIA]]** | Strategic | Series C, E |
-| **Cisco** | Strategic | Series E |
-| **BlackRock** | Asset manager | Series C |
+| **[[Cisco]]** | Strategic | Series E |
+| **[[BlackRock]]** | Asset manager | Series C |
 | **Qatar Investment Authority** | Sovereign | Series E |
-| **MGX (Abu Dhabi)** | Sovereign | Series C, E |
-| **Kingdom Holding** | Saudi (Prince Alwaleed) | Series B, C |
-| **Baron Capital** | Asset manager | Series E |
-| **StepStone Group** | PE | Series E |
-| **AMD** | Strategic | Series C |
+| **[[MGX]] (Abu Dhabi)** | Sovereign | Series C, E |
+| **[[Kingdom Holding]]** | Saudi (Prince Alwaleed) | Series B, C |
+| **[[Baron Capital]]** | Asset manager | Series E |
+| **[[StepStone Group]]** | PE | Series E |
+| **[[AMD]]** | Strategic | Series C |
 
-**35 total investors.** Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, AMD, Cisco).
+**35 total investors.** Heavy sovereign wealth (Qatar, UAE, Saudi) + strategic chip suppliers (NVIDIA, [[AMD]], [[Cisco]]).
 
 ---
 
@@ -148,7 +148,7 @@ See [[AI infrastructure financing]].
 | Role | Name | Background |
 |------|------|------------|
 | CEO/Founder | [[Elon Musk]] | — |
-| CFO | Anthony Armstrong | Ex-Morgan Stanley (joined Fall 2025) |
+| CFO | Anthony Armstrong | Ex-[[Morgan Stanley]] (joined Fall 2025) |
 | CRO | Jon Shulkin | [[Valor Equity Partners]] |
 
 *Prior CFO Mike Liberatore resigned Oct 2025 after 3 months.*
@@ -174,7 +174,7 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 | 2025 revenue (Jan-Sep) | $208M |
 | 2025 EBITDA (Jan-Sep) | -$2.4B |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
-| Target capacity | 2GW |
+| [[Target]] capacity | 2GW |
 | Potential foundry | [[Samsung]] (via Tesla relationship) |
 
 *Updated 2026-01-14*

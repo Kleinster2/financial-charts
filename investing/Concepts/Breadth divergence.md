@@ -12,7 +12,7 @@
 
 **Divergence** = index and breadth moving opposite directions.
 
-| Scenario | Index | Breadth | Signal |
+| Scenario | Index | Breadth | [[Signal]] |
 |----------|-------|---------|--------|
 | **Bearish divergence** | New highs | Lower highs | Top forming, narrow leadership |
 | **Bullish divergence** | New lows | Higher lows | Bottom forming, accumulation |
@@ -46,13 +46,13 @@
 | Net Advances | Advancing stocks − Declining stocks |
 | A/D Line | Cumulative sum of Net Advances |
 
-**Signal:** A/D Line making lower highs while index makes higher highs = bearish divergence.
+**[[Signal]]:** A/D Line making lower highs while index makes higher highs = bearish divergence.
 
 ### McClellan Oscillator
 
 Momentum indicator for breadth (like MACD for advances/declines).
 
-| Reading | Signal |
+| Reading | [[Signal]] |
 |---------|--------|
 | Above +50 | Strong breadth thrust |
 | Below −50 | Oversold breadth |
@@ -70,7 +70,7 @@ Momentum indicator for breadth (like MACD for advances/declines).
 
 ### New Highs vs New Lows
 
-| Reading | Signal |
+| Reading | [[Signal]] |
 |---------|--------|
 | Expanding new highs | Broad strength |
 | Shrinking new highs (index up) | Bearish divergence |
@@ -109,7 +109,7 @@ Momentum indicator for breadth (like MACD for advances/declines).
 | **Rotation** | Down | Up | Leadership change |
 | **Selloff** | Down | Down | Risk-off |
 
-**Jan 14, 2026 example:** S&P 500 −0.53%, but 300+ constituents rose. Nasdaq −1.0%. This is rotation — money leaving Mag 7, spreading to rest of market. Not a selloff.
+**Jan 14, 2026 example:** S&P 500 −0.53%, but 300+ constituents rose. [[Nasdaq]] −1.0%. This is rotation — money leaving Mag 7, spreading to rest of market. Not a selloff.
 
 See [[Sector rotation]] for current rotation dynamics.
 
@@ -119,7 +119,7 @@ See [[Sector rotation]] for current rotation dynamics.
 
 ### For timing
 
-| Signal | Action |
+| [[Signal]] | Action |
 |--------|--------|
 | Index highs + breadth lower highs | Reduce risk, tighten stops |
 | Index lows + breadth higher lows | Accumulate, anticipate reversal |
@@ -144,7 +144,7 @@ See [[Sector rotation]] for current rotation dynamics.
 
 ## Current status (Jan 2026)
 
-| Indicator | Reading | Signal |
+| Indicator | Reading | [[Signal]] |
 |-----------|---------|--------|
 | Russell 2000 vs S&P | 9-day outperformance streak | Rotation underway |
 | S&P 500 breadth (Jan 14) | 300+ up on down day | Healthy rotation |
@@ -159,7 +159,7 @@ See [[Sector rotation]] for current rotation dynamics.
 ### Sister concept
 - [[Sector rotation]] — current rotation uses breadth to distinguish from selloff
 
-### Market structure
+### [[Market structure]]
 - [[Mega-cap tech acronyms]] — concentration that creates divergence risk
 - [[Market forecasts]] — breadth as leading indicator
 - [[Risk on risk off]] — breadth signals risk appetite
@@ -174,6 +174,6 @@ See [[Sector rotation]] for current rotation dynamics.
 - [StockCharts - Advance-Decline Line](https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-line)
 - [McClellan Financial - Oscillator](https://www.mcoscillator.com/learning_center/)
 - [CMT Association - Breadth Reveals What Indexes Conceal](https://cmtassociation.org/chartadvisor/beneath-the-surface-what-breadth-reveals-that-indexes-conceal/)
-- [Fidelity - Advance Decline Indicator](https://www.fidelity.com/learning-center/trading-investing/advance-decline)
+- [[[Fidelity]] - Advance Decline Indicator](https://www.fidelity.com/learning-center/trading-investing/advance-decline)
 
 *Created 2026-01-14*

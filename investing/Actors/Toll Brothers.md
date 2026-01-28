@@ -3,7 +3,7 @@ aliases: [TOL]
 ---
 #actor #housing #homebuilder #usa #public
 
-**Toll Brothers** — Luxury homebuilder. High-end single-family and urban. Pennsylvania-based.
+**Toll Brothers** — [[Luxury]] homebuilder. High-end single-family and urban. Pennsylvania-based.
 
 ---
 
@@ -23,7 +23,7 @@ Premier luxury homebuilder:
 
 ## Business model
 
-**Luxury focus:**
+**[[Luxury]] focus:**
 - Average selling price ~$1M+
 - Custom and semi-custom homes
 - Urban high-rise (City Living)
@@ -36,10 +36,10 @@ Premier luxury homebuilder:
 
 | Segment | Description |
 |---------|-------------|
-| Traditional | Luxury single-family |
+| Traditional | [[Luxury]] single-family |
 | City Living | Urban condos/townhomes |
 | Apartment Living | Rental development |
-| Luxury Rentals | High-end rentals |
+| [[Luxury]] Rentals | High-end rentals |
 
 ---
 
@@ -66,7 +66,7 @@ Premier luxury homebuilder:
 
 ---
 
-## Luxury buyer profile
+## [[Luxury]] buyer profile
 
 **Less rate-sensitive:**
 - Cash buyers common
@@ -80,7 +80,7 @@ Premier luxury homebuilder:
 ## Trump housing ban (Jan 7, 2026)
 
 Minimal direct impact expected:
-- Luxury segment = individual buyers
+- [[Luxury]] segment = individual buyers
 - Institutional investors don't target $1M+ homes
 - See [[Institutional homebuying ban]]
 
@@ -89,7 +89,7 @@ Minimal direct impact expected:
 ## Investment case
 
 **Bull:**
-- Luxury = less cyclical
+- [[Luxury]] = less cyclical
 - Wealthy buyer insulation
 - Less rate-sensitive
 - High margins

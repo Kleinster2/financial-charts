@@ -79,8 +79,8 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 - Regulatory approval timing uncertain
 
 **FSD expansion:**
-- Europe demo rides ongoing
-- Supervised FSD Europe launch Q1 2026 (target)
+- [[Europe]] demo rides ongoing
+- Supervised FSD [[Europe]] launch Q1 2026 (target)
 - Still requires constant driver attention
 
 **Challenges:**
@@ -96,7 +96,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ## Energy / Megapack
 
-**Tesla Energy = fastest growing, most profitable division:**
+**[[Tesla Energy]] = fastest growing, most profitable division:**
 
 | Metric | 2024 | 2025 |
 |--------|------|------|
@@ -115,7 +115,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
-## Automotive exposure
+## [[Automotive]] exposure
 
 Major consumer of automotive semiconductors:
 - SiC (silicon carbide) for power
@@ -129,12 +129,12 @@ STMicro SiC weakness partly attributed to Tesla inventory correction.
 
 EV motors require permanent magnets with rare earth elements:
 
-| Element | Use | China control |
+| Element | Use | [[China]] control |
 |---------|-----|---------------|
 | Neodymium | Permanent magnets | ~90% |
-| Dysprosium | High-temp stability | ~99% |
+| [[Dysprosium]] | High-temp stability | ~99% |
 
-**Risk**: China's 2025 rare earth controls directly threaten Tesla's supply chain. See [[Rare earth leverage]].
+**Risk**: [[China]]'s 2025 rare earth controls directly threaten Tesla's supply chain. See [[Rare earth leverage]].
 
 **Mitigation attempts**:
 - Reducing rare earth content per motor
@@ -150,8 +150,8 @@ EV motors require permanent magnets with rare earth elements:
 | **BYD overtook Tesla (2025)** | #2 globally now |
 | US market contracting | -29% forecast (1.1M units) |
 | Trump ended tax incentives | $7,500 credit gone |
-| China competition | BYD, [[Xiaomi]], others pricing down |
-| Europe slowing | +14% vs prior 20%+ growth |
+| [[China]] competition | BYD, [[Xiaomi]], others pricing down |
+| [[Europe]] slowing | +14% vs prior 20%+ growth |
 
 **US EV market:** 1.5M (2025) → 1.1M (2026 forecast)
 
@@ -171,7 +171,7 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 **4680 status:**
 - Only used in Cybertruck (20-25K units/year vs 250K Giga Texas capacity)
 - Promised $25K EV dependent on 4680 cost savings — no timeline
-- Competitors (BMW, Rivian) adopting 46XX format independently
+- Competitors ([[BMW]], Rivian) adopting 46XX format independently
 
 **Implications:** In-house battery strategy appears to have failed. Tesla may need to rely on external suppliers (CATL, Panasonic) for future vehicles, compressing margins.
 
@@ -221,11 +221,11 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 
 **Mean price target: $393.90** (implies ~10% downside from $438)
 
-| Analyst | Rating | Target | View |
+| Analyst | Rating | [[Target]] | View |
 |---------|--------|--------|------|
 | Wedbush (Ives) | Outperform | $600 | AI/autonomy upside |
-| Morgan Stanley | Hold | $425 | Limited near-term upside |
-| Truist | Hold | $439 | Cautious on valuation |
+| [[Morgan Stanley]] | Hold | $425 | Limited near-term upside |
+| [[Truist]] | Hold | $439 | Cautious on valuation |
 
 **Investor focus shifting:** From deliveries → FSD/robotaxi execution in 2026.
 
@@ -280,7 +280,7 @@ See [[Short interest]] for interpretation framework.
 | Revenue (2026E) | $107.5B |
 | EPS (2025E) | $1.64 |
 | EPS (2026E) | $2.17 |
-| Automotive margin | ~17% |
+| [[Automotive]] margin | ~17% |
 | Deliveries (2025) | 1.64M vehicles (-8.6% YoY) |
 | P/E | ~100x+ |
 | Energy business | ~$10B/year (record Q4) |
@@ -292,7 +292,7 @@ See [[Short interest]] for interpretation framework.
 
 ![[tsla-fundamentals.png]]
 
-*Price chart vs TQQQ (3x leveraged QQQ) since 2021 — Tesla actually underperformed 3x QQQ (+75% vs +175%). The massive outperformance was concentrated in 2020. Revenue growing 14% but EPS growing 32% in 2026 — margin recovery after 2024-25 price war. Q4 2023 NI excluded.*
+*Price chart vs TQQQ (3x leveraged [[QQQ]]) since 2021 — Tesla actually underperformed 3x [[QQQ]] (+75% vs +175%). The massive outperformance was concentrated in 2020. Revenue growing 14% but EPS growing 32% in 2026 — margin recovery after 2024-25 price war. Q4 2023 NI excluded.*
 
 ---
 
@@ -304,8 +304,8 @@ See [[Short interest]] for interpretation framework.
 - [[DOGE]] — Musk political role
 - [[Tesla Optimus]] — humanoid robot (key narrative)
 - [[BYD]] — competitor (#1 globally)
-- [[Xiaomi]] — China competitor (profitable faster)
-- [[NIO]] — China competitor (premium, battery swap)
+- [[Xiaomi]] — [[China]] competitor (profitable faster)
+- [[NIO]] — [[China]] competitor (premium, battery swap)
 - [[Rivian]] — US competitor (R2 launch 2026)
 - [[Lucid]] — US competitor (luxury)
 - [[CATL]] — battery supplier (LFP cells)

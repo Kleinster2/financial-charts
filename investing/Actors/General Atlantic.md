@@ -3,7 +3,7 @@ aliases: [GA]
 ---
 #actor #investor #growthequity #usa #private
 
-**General Atlantic** — Global growth equity. $84B AUM. Airbnb, ByteDance, Stripe investor. 44 years.
+**General Atlantic** — Global growth equity. $84B AUM. [[Airbnb]], [[ByteDance]], Stripe investor. 44 years.
 
 ---
 
@@ -23,14 +23,14 @@ aliases: [GA]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Airbnb** | Growth | Public (ABNB) |
-| **ByteDance** | Growth | Private |
+| **[[Airbnb]]** | Growth | Public (ABNB) |
+| **[[ByteDance]]** | Growth | Private |
 | **[[Stripe]]** | Growth | $129B |
-| **Alibaba** | Growth | Public (BABA) |
-| **Uber** | Growth | Public (UBER) |
+| **[[Alibaba]]** | Growth | Public (BABA) |
+| **[[Uber]]** | Growth | Public (UBER) |
 | **Facebook** | Pre-IPO | Public (META) |
-| **Slack** | Growth | Acquired by Salesforce |
-| **Snap** | Growth | Public (SNAP) |
+| **[[Slack]]** | Growth | Acquired by [[Salesforce]] |
+| **[[Snap]]** | Growth | Public (SNAP) |
 
 ---
 
@@ -38,10 +38,10 @@ aliases: [GA]
 
 | Sector | Examples |
 |--------|----------|
-| **Technology** | Stripe, ByteDance |
-| **Consumer** | Airbnb, Uber |
+| **Technology** | Stripe, [[ByteDance]] |
+| **[[Consumer]]** | [[Airbnb]], [[Uber]] |
 | **Financial services** | Various |
-| **Healthcare** | Various |
+| **[[Healthcare]]** | Various |
 | **Life sciences** | Various |
 
 ---
@@ -51,8 +51,8 @@ aliases: [GA]
 | Region | Offices |
 |--------|---------|
 | Americas | New York, SF, São Paulo |
-| Europe | London, Munich, Amsterdam |
-| Asia | Hong Kong, Beijing, Singapore, Mumbai |
+| [[Europe]] | London, Munich, Amsterdam |
+| [[Asia]] | Hong Kong, Beijing, Singapore, Mumbai |
 
 Truly global investment platform.
 

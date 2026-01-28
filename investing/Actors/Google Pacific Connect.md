@@ -1,26 +1,26 @@
 ---
-aliases: [Australia Connect]
+aliases: [[[Australia]] Connect]
 ---
 #actor #infrastructure #submarine #cable #google
 
-**Google Pacific Connect** — 42,500 km Australia cable network. Google + Australian partners. 2026.
+**Google Pacific Connect** — 42,500 km [[Australia]] cable network. Google + Australian partners. 2026.
 
 ---
 
 ## Why Pacific Connect matters
 
-Australia's connectivity upgrade:
+[[Australia]]'s connectivity upgrade:
 
 | Metric | Value |
 |--------|-------|
 | Total length | 42,500 km |
-| Components | Australia Connect + Pacific cables |
+| Components | [[Australia]] Connect + Pacific cables |
 | Partners | Google + Australian infra cos |
 | Announced | November 2024 |
 
 ---
 
-## Australia Connect
+## [[Australia]] Connect
 
 **Core network:**
 - Darwin to Christmas Island
@@ -44,17 +44,17 @@ Australia's connectivity upgrade:
 ## Integration with Humboldt
 
 **Pacific network:**
-- [[Humboldt Cable]] (Chile-Australia)
-- Honomoana (Australia-Polynesia)
-- Halaihai (Polynesia-Chile)
+- [[Humboldt Cable]] ([[Chile]]-[[Australia]])
+- Honomoana ([[Australia]]-Polynesia)
+- Halaihai (Polynesia-[[Chile]])
 - Full Pacific coverage
 
 ---
 
 ## Strategic importance
 
-**For Australia:**
-- Reduced Asia latency
+**For [[Australia]]:**
+- Reduced [[Asia]] latency
 - Singapore connectivity
 - Data sovereignty options
 - AI infrastructure support
@@ -76,7 +76,7 @@ Australia's connectivity upgrade:
 | Metric | Value |
 |--------|-------|
 | Length | 42,500 km |
-| Route | Australia-Singapore network |
+| Route | [[Australia]]-Singapore network |
 | Lead | Google |
 | Status | Announced 2024 |
 

@@ -27,9 +27,9 @@ aliases: [TRV, Travelers Companies, The Travelers Companies]
 
 | Segment | Focus |
 |---------|-------|
-| **Business Insurance** | Commercial P&C for mid-size companies (core) |
+| **Business [[Insurance]]** | Commercial P&C for mid-size companies (core) |
 | **Bond & Specialty** | Surety (#1 North America), professional liability, management liability |
-| **Personal Insurance** | Auto, homeowners (smaller, more volatile) |
+| **Personal [[Insurance]]** | Auto, homeowners (smaller, more volatile) |
 
 ---
 
@@ -43,7 +43,7 @@ Travelers exemplifies disciplined P&C underwriting in a hard market:
 
 ---
 
-## Canada divestiture (2025)
+## [[Canada]] divestiture (2025)
 
 Selling personal + majority of commercial Canadian insurance to Definity Financial for $2.4B (expected Q1 2026 close). Retaining Canadian surety business. Signals focus on US commercial lines where competitive advantages are strongest.
 
@@ -57,7 +57,7 @@ Unlike life/annuity insurers targeted by PE firms, P&C insurers like Travelers f
 - **Underwriting cycle** — hard/soft market rotation affects pricing power
 - **Less PE interest** — PE firms prefer predictable life/annuity liabilities for spread income
 
-This is why Travelers is *not* a PE-insurance convergence target — its liabilities are too short and unpredictable for the permanent capital model.
+This is why Travelers is *not* a [[PE-insurance convergence]] target — its liabilities are too short and unpredictable for the permanent capital model.
 
 ---
 

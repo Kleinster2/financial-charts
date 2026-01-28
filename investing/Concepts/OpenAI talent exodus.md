@@ -26,7 +26,7 @@ OpenAI's best people are leaving to build:
 |--------------|-------------|
 | Safety concerns | OpenAI deprioritizing |
 | Commercial pressure | Research → products |
-| Culture change | Microsoft influence |
+| Culture change | [[Microsoft]] influence |
 | Founder opportunity | Build own vision |
 | Equity upside | New company = more upside |
 
@@ -65,7 +65,7 @@ Jan Leike: "Safety has taken a backseat to shiny products."
 - Culture concerns real
 - Execution risk rising
 
-**Meta-thesis:**
+**[[Meta]]-thesis:**
 - AI talent = scarce resource
 - Follow the researchers
 - New labs = next opportunities

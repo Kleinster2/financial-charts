@@ -11,7 +11,7 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 
 ## Why it matters
 
-- **Smart ring market leader** — 80%+ market share, 5.5M rings sold (3M in last year alone)
+- **Smart ring market leader** — 80%+ market share, 5.5M rings sold ([[3M]] in last year alone)
 - **Subscription business** — $5.99/mo creates sticky revenue stream
 - **IP defender** — Aggressively protecting patents (Ultrahuman US ban Oct 2025)
 - **Private but highly valued** — $11B valuation, potential IPO candidate
@@ -36,11 +36,11 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Series E | Oct 2025 | $900M | $11B | Fidelity |
-| Series D | Dec 2024 | $200M | $5.2B | Fidelity |
+| Series E | Oct 2025 | $900M | $11B | [[Fidelity]] |
+| Series D | Dec 2024 | $200M | $5.2B | [[Fidelity]] |
 | Earlier rounds | — | ~$220M | — | Various |
 
-**Key investors:** Fidelity, Temasek, Square, Dexcom ($75M strategic), The Chernin Group, Forerunner Ventures, ICONIQ, Whale Rock, Atreides
+**Key investors:** [[Fidelity]], [[Temasek]], Square, Dexcom ($75M strategic), [[The Chernin Group]], [[Forerunner Ventures]], ICONIQ, Whale Rock, Atreides
 
 ---
 
@@ -62,7 +62,7 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 **IP enforcement:**
 - Oct 2025: ITC ruled Ultrahuman infringed Oura patents
 - Ultrahuman Ring Air **banned from US sales**
-- Signal: Oura will litigate to protect market position
+- [[Signal]]: Oura will litigate to protect market position
 
 **Why hard to dislodge:**
 - Best-in-class app and insights
@@ -77,7 +77,7 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 | Competitor | Threat level | Notes |
 |------------|--------------|-------|
 | Samsung Galaxy Ring | High | No subscription, but needs Samsung phone |
-| Apple (potential) | High | No ring yet, but Watch competes |
+| [[Apple]] (potential) | High | No ring yet, but Watch competes |
 | Chinese (RingConn, Amazfit) | Medium | Price competition, weaker apps |
 | Ultrahuman | Low (for now) | Banned in US |
 
@@ -95,7 +95,7 @@ Finnish smart ring maker. Market leader with 80%+ share. Subscription model ($5.
 ## What to watch
 
 - [ ] IPO timing (at $11B, likely candidate)
-- [ ] Apple ring announcement
+- [ ] [[Apple]] ring announcement
 - [ ] Samsung Galaxy Ring 2 (2026)
 - [ ] Additional IP enforcement actions
 - [ ] International expansion

@@ -78,8 +78,8 @@ China's most engaging social platform and fastest-growing e-commerce channel.
 
 | Category | Performance |
 |----------|-------------|
-| Beauty/skincare | Top performer |
-| Fashion | Strong |
+| [[Beauty]]/skincare | Top performer |
+| [[Fashion]] | Strong |
 | Food/beverage | Growing |
 | Electronics | Emerging |
 
@@ -169,7 +169,7 @@ Douyin is the dominant short-video platform in China.
 **Indirect plays:**
 - ByteDance secondary market (limited access)
 - [[NVIDIA]] — ByteDance's $14B GPU order for AI/recommendation
-- [[SK Hynix]] — HBM for ByteDance AI infrastructure
+- [[SK Hynix]] — [[HBM]] for ByteDance AI infrastructure
 
 **Thesis:** Douyin's e-commerce growth pressures [[Alibaba]] and benefits memory/GPU suppliers.
 

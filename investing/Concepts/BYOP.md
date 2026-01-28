@@ -12,7 +12,7 @@ aliases: [Bring Your Own Power, BYOG, Bring Your Own Generation, On-site power g
 Grid power availability is the binding constraint on AI infrastructure buildout. Hyperscalers are responding by generating their own power on-site rather than waiting for utilities.
 
 **The problem:**
-- 44GW gap between DC power needed and available grid capacity (Morgan Stanley)
+- 44GW gap between DC power needed and available grid capacity ([[Morgan Stanley]])
 - Utility interconnection takes 3-5+ years
 - Grid left them on read
 
@@ -42,9 +42,9 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 **Political context:**
 - White House and state governors issued emergency directive
 - $15B in 15-year supply contracts to encourage new plants
-- Consumer anger over rising power bills driving action
+- [[Consumer]] anger over rising power bills driving action
 
-**Winner:** Natural gas and grid batteries — can be built fast to satisfy BYOG requirements.
+**Winner:** [[Natural gas]] and grid batteries — can be built fast to satisfy BYOG requirements.
 
 ---
 
@@ -53,12 +53,12 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 | Company | Project | Capacity | Strategy |
 |---------|---------|----------|----------|
 | [[OpenAI]] | UAE Stargate | 1GW | 4x Ansaldo Energia gas turbines |
-| [[Meta]] | Socrates South | 200MW+ | Hybrid fleet (Solar/Siemens/CAT) |
+| [[Meta]] | Socrates South | 200MW+ | Hybrid fleet (Solar/[[Siemens]]/CAT) |
 | [[Meta]] | Vistra deal | 2.6GW | 20-yr PPA, 3 nuclear plants (OH/PA) — mostly existing |
 | [[Microsoft]] | Constellation | 835MW | TMI nuclear restart |
-| [[Amazon]] | Talen Energy | 960MW | Susquehanna nuclear co-location |
-| [[Google]] | Kairos Power | 500MW | SMR development |
-| [[Oracle]] | Nuclear DC | TBD | Nuclear permits (Larry Ellison) |
+| [[Amazon]] | Talen Energy | 960MW | [[Susquehanna]] nuclear co-location |
+| [[Google]] | [[Kairos Power]] | 500MW | SMR development |
+| [[Oracle]] | Nuclear DC | TBD | Nuclear permits ([[Larry Ellison]]) |
 | [[xAI]] | Colossus | 2GW | Bitcoin miner partnerships |
 
 ---
@@ -86,15 +86,15 @@ Grid power availability is the binding constraint on AI infrastructure buildout.
 
 | Equipment | Units | MW each | Total |
 |-----------|-------|---------|-------|
-| [[Solar Turbines]] Titan 250 IGT | 3 | 23 MW | 69 MW |
-| [[Solar Turbines]] Titan 130 IGT | 9 | 16.5 MW | 148.5 MW |
+| [[Solar Turbines]] [[Titan]] 250 IGT | 3 | 23 MW | 69 MW |
+| [[Solar Turbines]] [[Titan]] 130 IGT | 9 | 16.5 MW | 148.5 MW |
 | [[Siemens Energy]] SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
-| Caterpillar 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
+| [[Caterpillar]] 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
 | **Gross total** | | | **~307 MW** |
 
 **N+1+1 design** = redundancy, operational capacity 200MW+
 
-**Key insight:** 4 turbine types diversifies supplier risk. Fast-start engines (Caterpillar) for peaker role, IGTs for baseload.
+**Key insight:** 4 turbine types diversifies supplier risk. Fast-start engines ([[Caterpillar]]) for peaker role, IGTs for baseload.
 
 ---
 
@@ -180,7 +180,7 @@ Both valid strategies — depends on risk tolerance and scale.
 - [[Meta]] — Socrates South (200MW+)
 - [[Microsoft]] — Constellation TMI restart
 - [[Amazon]] — Talen nuclear co-location
-- [[Google]] — Kairos Power SMR
+- [[Google]] — [[Kairos Power]] SMR
 - [[xAI]] — Colossus (crypto miner power)
 - [[Ansaldo Energia]] — gas turbine supplier
 - [[Solar Turbines]] — gas turbine supplier

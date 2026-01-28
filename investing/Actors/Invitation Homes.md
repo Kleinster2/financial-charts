@@ -93,9 +93,9 @@ See [[Institutional homebuying ban]] for full context.
 ## Investment case
 
 **Bull (pre-ban):**
-- Housing shortage = rent growth
+- [[Housing shortage]] = rent growth
 - Single-family demand structural
-- Sunbelt migration
+- [[Sunbelt migration]]
 - Professional management
 - Dividend yield
 

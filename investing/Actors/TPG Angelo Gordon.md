@@ -5,7 +5,7 @@ aliases: [AG, TPG AG]
 
 # TPG Angelo Gordon
 
-**[[TPG]]'s credit and real estate platform** — ~$78B AUM. Distressed debt, direct lending, structured credit, real estate. Formed when [[TPG]] acquired [[Angelo Gordon]] for $2.7B (Nov 2023). 700+ employees across US, Europe, Asia.
+**[[TPG]]'s credit and real estate platform** — ~$78B AUM. Distressed debt, direct lending, structured credit, real estate. Formed when [[TPG]] acquired [[Angelo Gordon]] for $2.7B (Nov 2023). 700+ employees across US, [[Europe]], [[Asia]].
 
 ---
 
@@ -19,7 +19,7 @@ aliases: [AG, TPG AG]
 | Origin | [[Angelo Gordon]] acquisition ($2.7B) |
 | HQ | New York |
 | Employees | 700+ (220+ investment professionals) |
-| Offices | US, Europe, Asia |
+| Offices | US, [[Europe]], [[Asia]] |
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [AG, TPG AG]
 
 | Term | Value |
 |------|-------|
-| Target | [[Angelo Gordon]] |
+| [[Target]] | [[Angelo Gordon]] |
 | Price | **$2.7B** |
 | Structure | $970M cash + 62.5M TPG units + up to $400M earnout |
 | Closed | November 2, 2023 |

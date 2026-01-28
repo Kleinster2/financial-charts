@@ -3,7 +3,7 @@ aliases: [DKNG]
 ---
 #actor #company #gaming #sportsbetting #usa #public
 
-**DraftKings** — Sports betting platform. Nasdaq: DKNG. Daily fantasy + sportsbook. Founded 2012.
+**DraftKings** — Sports betting platform. [[Nasdaq]]: DKNG. Daily fantasy + sportsbook. Founded 2012.
 
 ---
 
@@ -11,10 +11,10 @@ aliases: [DKNG]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DKNG (Nasdaq) |
+| Ticker | DKNG ([[Nasdaq]]) |
 | Market cap | ~$20B |
 | Revenue | ~$4B |
-| MAUs | 3M+ |
+| MAUs | [[3M]]+ |
 | HQ | Boston |
 
 Leading US sports betting platform.
@@ -102,7 +102,7 @@ State-by-state legalization.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DKNG (Nasdaq) |
+| Ticker | DKNG ([[Nasdaq]]) |
 | Market cap | ~$20B |
 | Revenue | ~$4B |
 | Position | #2 US sportsbook |

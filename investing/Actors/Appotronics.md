@@ -13,10 +13,10 @@ Chinese company bridging display tech and AI:
 
 | Metric | Value |
 |--------|-------|
-| HQ | Shenzhen, China |
+| HQ | Shenzhen, [[China]] |
 | Ticker | 688007 (Shanghai STAR) |
 | Focus | Laser display technology |
-| AI integration | Automotive, beauty products |
+| AI integration | [[Automotive]], beauty products |
 
 ---
 
@@ -35,20 +35,20 @@ Chinese company bridging display tech and AI:
 | Segment | Applications |
 |---------|--------------|
 | **Cinema** | Laser projectors for theaters |
-| **Consumer** | Home projectors |
-| **Automotive** | HUD, in-car displays |
-| **Beauty** | Hair loss treatment (AI + laser) |
+| **[[Consumer]]** | [[Home]] projectors |
+| **[[Automotive]]** | HUD, in-car displays |
+| **[[Beauty]]** | Hair loss treatment (AI + laser) |
 
 ---
 
 ## CES 2026
 
 **AI + laser display convergence:**
-- Automotive solutions with AI integration
-- Beauty products targeting hair loss
+- [[Automotive]] solutions with AI integration
+- [[Beauty]] products targeting hair loss
 - Demonstrating cross-industry applications
 
-**CEO Yi Li on China advantage:**
+**CEO Yi Li on [[China]] advantage:**
 > Chinese companies "move quickly from concepts through prototypes to market-ready products." Shenzhen supply chains allow refinement "at a pace few Western peers can match."
 
 ---
@@ -75,7 +75,7 @@ Appotronics benefits from Shenzhen's:
 **Bear:**
 - Niche technology
 - Competition from larger display players
-- China market focus
+- [[China]] market focus
 - Limited international presence
 
 ---
@@ -85,7 +85,7 @@ Appotronics benefits from Shenzhen's:
 | Metric | Value |
 |--------|-------|
 | Ticker | 688007 (Shanghai STAR) |
-| HQ | Shenzhen, China |
+| HQ | Shenzhen, [[China]] |
 | Founded | 2006 |
 | Focus | Laser display, AI applications |
 | Investable | Yes (Shanghai) |

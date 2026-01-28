@@ -3,17 +3,17 @@ aliases: []
 ---
 #actor #infrastructure #submarine #cable
 
-**Apricot Cable** — Google + Meta. US to Japan, Taiwan, Singapore. 2026.
+**Apricot Cable** — Google + Meta. US to [[Japan]], [[Taiwan]], Singapore. 2026.
 
 ---
 
 ## Why Apricot matters
 
-Asia-Pacific connectivity:
+[[Asia]]-Pacific connectivity:
 
 | Metric | Value |
 |--------|-------|
-| Route | US → Japan → Taiwan → Philippines → Indonesia → Singapore |
+| Route | US → [[Japan]] → [[Taiwan]] → Philippines → Indonesia → Singapore |
 | Owners | [[Google]], [[Meta]] |
 | Operational | 2026 |
 
@@ -23,8 +23,8 @@ Asia-Pacific connectivity:
 
 **Six countries:**
 - United States
-- Japan
-- Taiwan
+- [[Japan]]
+- [[Taiwan]]
 - Philippines
 - Indonesia
 - Singapore
@@ -34,8 +34,8 @@ Asia-Pacific connectivity:
 
 ## Strategic importance
 
-**Taiwan connection:**
-- Direct US-Taiwan link
+**[[Taiwan]] connection:**
+- Direct US-[[Taiwan]] link
 - Semiconductor supply chain
 - Geopolitical significance
 - [[TSMC]] connectivity
@@ -58,8 +58,8 @@ Second Google-Meta collaboration (after Echo).
 | Cable | Route |
 |-------|-------|
 | [[Echo Cable]] | Singapore-US direct |
-| Apricot | Multi-country Asia |
-| [[Bifrost Cable]] | SE Asia (Meta) |
+| Apricot | Multi-country [[Asia]] |
+| [[Bifrost Cable]] | SE [[Asia]] (Meta) |
 
 Redundancy + coverage.
 
@@ -69,10 +69,10 @@ Redundancy + coverage.
 
 | Metric | Value |
 |--------|-------|
-| Route | US-Japan-Taiwan-Singapore |
+| Route | US-[[Japan]]-[[Taiwan]]-Singapore |
 | Owners | Google, Meta |
 | Operational | 2026 |
-| Key landing | Taiwan |
+| Key landing | [[Taiwan]] |
 
 *Updated 2026-01-01*
 
@@ -83,7 +83,7 @@ Redundancy + coverage.
 - [[Google]] — co-owner
 - [[Meta]] — co-owner
 - [[Echo Cable]] — peer (same owners, different route)
-- [[Bifrost Cable]] — peer (Meta's SE Asia cable)
-- [[TSMC]] — strategic context (Taiwan landing point)
+- [[Bifrost Cable]] — peer (Meta's SE [[Asia]] cable)
+- [[TSMC]] — strategic context ([[Taiwan]] landing point)
 - [[Submarine Cables]] — infrastructure context
 

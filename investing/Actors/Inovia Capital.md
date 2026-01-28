@@ -29,11 +29,11 @@ aliases: [Inovia]
 
 ---
 
-## Canada focus
+## [[Canada]] focus
 
 | Aspect | Detail |
 |--------|--------|
-| Geography | Canada-first |
+| Geography | [[Canada]]-first |
 | Expansion | US follow-on |
 | Ecosystem | Montreal, Toronto, Vancouver |
 | Sectors | AI, fintech, enterprise |

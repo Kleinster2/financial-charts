@@ -23,7 +23,7 @@ aliases: [Kratos Defense, KTOS]
 | Product | Category | Notes |
 |---------|----------|-------|
 | XQ-58 Valkyrie | Tactical drone | Attritable, AI-enabled |
-| Firejet | Target drone | Hypersonic simulation |
+| Firejet | [[Target]] drone | Hypersonic simulation |
 | UTAP-22 | Manned-unmanned teaming | Loyal wingman |
 | Hypersonic systems | Test targets | National defense testing |
 
@@ -35,7 +35,7 @@ Valkyrie = designed to be affordable enough to lose:
 
 | Metric | Valkyrie | F-35 |
 |--------|----------|------|
-| Unit cost | ~$3M | ~$80M |
+| Unit cost | ~$[[3M]] | ~$80M |
 | Philosophy | Expendable | Must survive |
 | Production | Rapid, scalable | Complex, limited |
 
@@ -51,7 +51,7 @@ Valkyrie = designed to be affordable enough to lose:
 | Hypersonic testing | National priority |
 | Ukraine lesson | Drone warfare validation |
 | Attritable shift | DoD embracing concept |
-| Australia | Ghost Bat program (similar) |
+| [[Australia]] | Ghost Bat program (similar) |
 
 ---
 
@@ -78,8 +78,8 @@ Valkyrie = designed to be affordable enough to lose:
 | Competitor | Comparison |
 |------------|------------|
 | [[Anduril]] | Private, broader focus |
-| General Atomics | Established, larger |
-| Boeing (MQ-25) | Prime entering |
+| [[General Atomics]] | Established, larger |
+| [[Boeing]] (MQ-25) | Prime entering |
 | Northrop | Established drones |
 
 Kratos = pure-play on affordable attritable drones.
@@ -96,7 +96,7 @@ Kratos = pure-play on affordable attritable drones.
 | P/S | ~5x | — |
 | Cash | ~$300M | — |
 
-Pricier than NVIDIA on forward earnings. Backlog surging on [[Golden Dome]] and drone warfare demand (William Blair's DiPalma: drone business "red hot").
+Pricier than [[NVIDIA]] on forward earnings. Backlog surging on [[Golden Dome]] and drone warfare demand (William Blair's DiPalma: drone business "red hot").
 
 ---
 

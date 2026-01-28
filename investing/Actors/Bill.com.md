@@ -78,7 +78,7 @@ aliases: [BILL, BILL Holdings, Bill Holdings]
 
 | Term | Value |
 |------|-------|
-| Target | [[Divvy]] |
+| [[Target]] | [[Divvy]] |
 | Price | **$2.5B** ($625M cash + $1.875B stock) |
 | Divvy's last valuation | $1.6B (Jan 2021) |
 | Premium | ~56% |
@@ -110,7 +110,7 @@ Financial planning and analysis tool for startups.
 
 ### Business model
 
-- SaaS subscriptions
+- [[SaaS]] subscriptions
 - Transaction fees on payments
 - Interchange on Divvy cards
 - Float on funds held
@@ -121,8 +121,8 @@ Financial planning and analysis tool for startups.
 
 | Event | Detail |
 |-------|--------|
-| **Activist pressure** | Starboard Value pushing for sale |
-| **Elliott stake** | Elliott Management took large position |
+| **Activist pressure** | [[Starboard Value]] pushing for sale |
+| **Elliott stake** | [[Elliott Management]] took large position |
 | **Potential sale** | Company reportedly exploring options |
 
 ---
@@ -172,8 +172,8 @@ BILL focuses on **SMBs** while Brex/Ramp target startups and enterprise.
 ### Investors
 - Emergence Capital — early backer
 - DCM Ventures — early backer
-- Starboard Value — activist
-- Elliott Management — activist
+- [[Starboard Value]] — activist
+- [[Elliott Management]] — activist
 
 ### Sector
 - [[Fintech]] — sector

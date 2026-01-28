@@ -14,7 +14,7 @@ GE Vernova is THE chokepoint for fast-deploying AI data center power:
 | Metric | Value |
 |--------|-------|
 | Market position | #1 gas turbine manufacturer |
-| Market share | ~35% (with Siemens, Mitsubishi = 70%+) |
+| Market share | ~35% (with [[Siemens]], Mitsubishi = 70%+) |
 | Waitlist | 3-5 years for LM6000 |
 | Stock performance | +239% past year |
 
@@ -40,7 +40,7 @@ GE Vernova is THE chokepoint for fast-deploying AI data center power:
 | Partner | Deal | Capacity |
 |---------|------|----------|
 | **[[Crusoe Energy]]** | 29 LM2500XPRESS turbines | ~1 GW |
-| **Chevron** | 7 HA turbines | 4 GW by 2027 |
+| **[[Chevron]]** | 7 HA turbines | 4 GW by 2027 |
 | **NRG Energy** | JV | Up to 5.4 GW |
 | **[[NextEra Energy]]** | Collaboration | "Gigawatts" |
 
@@ -79,7 +79,7 @@ This is the template for gas-powered AI infrastructure.
 **$300M investment announced:**
 - South Carolina expansion
 - New York expansion
-- Target: 70-80 heavy-duty turbines/year (from 55)
+- [[Target]]: 70-80 heavy-duty turbines/year (from 55)
 - Still won't meet demand
 
 ---

@@ -15,7 +15,7 @@ aliases: [SQSP]
 | Revenue | ~$1B |
 | Websites | Millions |
 | HQ | New York |
-| Acquirer | Permira |
+| Acquirer | [[Permira]] |
 
 Went private at $6.9B in 2024.
 
@@ -49,7 +49,7 @@ Premium positioning vs. competitors.
 
 | Aspect | Detail |
 |--------|--------|
-| Acquirer | Permira (PE) |
+| Acquirer | [[Permira]] (PE) |
 | Price | $6.9B ($44/share) |
 | Premium | 30% to market |
 | Rationale | Margin improvement opportunity |
@@ -88,7 +88,7 @@ Public for only 3 years (2021-2024).
 
 | Metric | Value |
 |--------|-------|
-| Status | Private (Permira) |
+| Status | Private ([[Permira]]) |
 | Revenue | ~$1B |
 | Valuation | $6.9B (2024) |
 | Focus | Design-first websites |

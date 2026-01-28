@@ -28,7 +28,7 @@ Codelco is the elephant in the room:
 | El Teniente | World's largest underground |
 | Radomiro Tomic | Major open-pit |
 | Andina | High-altitude |
-| Gabriela Mistral | Heap leach |
+| Gabriela [[Mistral]] | Heap leach |
 
 All in Chile — the Saudi Arabia of copper.
 
@@ -72,7 +72,7 @@ Codelco is struggling:
 | Supply constraints | Bullish copper price |
 | Others fill gap | Bullish [[Freeport-McMoRan]], [[Southern Copper]] |
 | Chile risk | Monitor royalty/tax changes |
-| Copper demand | Structural thesis intact |
+| [[Copper]] demand | Structural thesis intact |
 
 ---
 
@@ -83,9 +83,9 @@ Chile produces ~25% of world copper:
 | Company | Ownership |
 |---------|-----------|
 | **Codelco** | State |
-| Escondida (BHP) | Private |
+| Escondida ([[BHP]]) | Private |
 | Collahuasi (Anglo/Glencore) | Private |
-| Antofagasta | Private (Luksic family) |
+| [[Antofagasta]] | Private (Luksic family) |
 
 Government revenue depends on copper — creates policy tension.
 

@@ -24,7 +24,7 @@ aliases: [ALB]
 **Stock performance:**
 - +74% in 2025
 - Rebounded from $49 low
-- UBS upgrade to Buy ($185 target)
+- [[UBS]] upgrade to Buy ($185 target)
 - Jefferies target $167
 
 **Why the rally:**
@@ -60,9 +60,9 @@ aliases: [ALB]
 | 2026 | +15% |
 
 **Key assets:**
-- Silver Peak, Nevada (expanding to 10K tons/yr by 2026)
-- Kemerton (Australia) — Trains 3/4 suspended
-- Chile operations
+- [[Silver]] Peak, Nevada (expanding to 10K tons/yr by 2026)
+- Kemerton ([[Australia]]) — Trains 3/4 suspended
+- [[Chile]] operations
 
 **Supply discipline:** Suspended 50K+ tons of future capacity — bullish for prices.
 
@@ -84,7 +84,7 @@ Analysts: surplus narrowing 2025, deficit by 2026.
 
 | Action | Impact |
 |--------|--------|
-| Productivity improvements | $450M annualized |
+| [[Productivity]] improvements | $450M annualized |
 | Capex reduction | -65% to $600M |
 | Kemerton suspension | 50K tons removed |
 
@@ -102,7 +102,7 @@ Preparing for lithium winter, positioned for spring.
 - EV demand structural
 
 **Bear:**
-- China oversupply risk
+- [[China]] oversupply risk
 - Price volatility
 - Still losing money in 2025
 - Competition from SQM, Ganfeng
@@ -127,7 +127,7 @@ Preparing for lithium winter, positioned for spring.
 ## Related
 
 - [[Lithium]] — commodity
-- [[SQM]] — competitor (Chile)
+- [[SQM]] — competitor ([[Chile]])
 - [[CATL]] — customer (batteries)
 - [[Tesla]] — end customer (EVs)
 - [[BYD]] — end customer (EVs)

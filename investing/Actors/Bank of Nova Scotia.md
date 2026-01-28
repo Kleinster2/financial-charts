@@ -12,7 +12,7 @@ aliases: [Scotiabank, BNS]
 | Metric | Value |
 |--------|-------|
 | Ticker | BNS (TSX, NYSE) |
-| HQ | Toronto, Canada |
+| HQ | Toronto, [[Canada]] |
 | Assets | ~C$1.4T |
 | Position | #3 Canadian bank by assets |
 | Strength | LatAm/Caribbean exposure |
@@ -25,8 +25,8 @@ Unlike other Canadian banks (focused on US expansion), Scotiabank bet on Latin A
 
 | Region | Key markets |
 |--------|-------------|
-| Canada | Home market, retail/commercial |
-| Pacific Alliance | Mexico, Peru, Chile, Colombia |
+| [[Canada]] | [[Home]] market, retail/commercial |
+| [[Pacific Alliance]] | [[Mexico]], Peru, [[Chile]], Colombia |
 | Caribbean | Various |
 | US | Limited |
 
@@ -71,7 +71,7 @@ See [[Venezuela]].
 | Ticker | BNS |
 | HQ | Toronto |
 | Dividend yield | ~6% |
-| LatAm focus | Pacific Alliance countries |
+| LatAm focus | [[Pacific Alliance]] countries |
 
 *Created 2026-01-11*
 

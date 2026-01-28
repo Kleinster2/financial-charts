@@ -1,9 +1,9 @@
 ---
-aliases: [F&G, F&G Annuities & Life, FG, Fidelity & Guaranty Life]
+aliases: [F&G, F&G Annuities & Life, FG, [[Fidelity]] & Guaranty Life]
 ---
 #actor #finance #insurance #retirement #usa #public
 
-**F&G Annuities** — [[Blackstone]]-linked annuity platform. $71B AUM (Q3 2025, before flow reinsurance). Publicly traded (NYSE: FG), majority-owned by Fidelity National Financial (FNF). Launched $1B Blackstone-backed [[Reinsurance sidecars|reinsurance sidecar]] in Aug 2025, pivoting to capital-light fee model.
+**F&G Annuities** — [[Blackstone]]-linked annuity platform. $71B AUM (Q3 2025, before flow reinsurance). Publicly traded (NYSE: FG), majority-owned by [[Fidelity National Financial]] (FNF). Launched $1B Blackstone-backed [[Reinsurance sidecars|reinsurance sidecar]] in Aug 2025, pivoting to capital-light fee model.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [F&G, F&G Annuities & Life, FG, Fidelity & Guaranty Life]
 | Ticker | FG (NYSE) |
 | AUM | $71B (record, Q3 2025, before flow reinsurance) |
 | Q3 2025 net sales | $2.8B (+17% YoY) |
-| Parent | Fidelity National Financial (FNF) — ~88% post-distribution |
+| Parent | [[Fidelity National Financial]] (FNF) — ~88% post-distribution |
 | Blackstone relationship | $1B reinsurance sidecar (Aug 2025) |
 | CEO | Chris Blunt |
 | Products | Fixed indexed annuities, fixed rate annuities, RILA, life |
@@ -24,7 +24,7 @@ aliases: [F&G, F&G Annuities & Life, FG, Fidelity & Guaranty Life]
 ## Structure
 
 **Ownership:**
-- FNF (Fidelity National Financial) is majority owner
+- FNF ([[Fidelity National Financial]]) is majority owner
 - Dec 2025: FNF distributed ~12% of F&G shares (~16M shares) to FNF shareholders
 - F&G trades independently on NYSE
 

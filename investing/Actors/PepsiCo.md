@@ -67,7 +67,7 @@ aliases: [PEP, Pepsi]
 - Quaker Foods struggling
 - GLP-1 appetite suppression risk
 - Currency headwinds
-- Inflation pass-through limits
+- [[Inflation]] pass-through limits
 
 ---
 

@@ -23,7 +23,7 @@ aliases: [Apple MP deal, Apple rare earth deal]
 
 ## What Apple gets
 
-- Domestic magnet supply (reduces China dependence)
+- Domestic magnet supply (reduces [[China]] dependence)
 - Recycled feedstock (sustainability angle)
 - Priority access to US rare earth capacity
 - Hedge against [[Rare earth leverage]] escalation
@@ -68,22 +68,22 @@ Apple and DoD both backing MP = validation of strategic importance.
 
 ## Limitations
 
-| Gap | Implication |
+| [[Gap]] | Implication |
 |-----|-------------|
-| No [[Dysprosium]] | Heavy REE still China-sourced |
+| No [[Dysprosium]] | Heavy REE still [[China]]-sourced |
 | 2027 start | No protection today |
 | Volume | Small vs global demand |
 
-MP does light rare earths (Nd, Pr). The critical heavy REEs for high-temp applications still come from China.
+MP does light rare earths (Nd, Pr). The critical heavy REEs for high-temp applications still come from [[China]].
 
 ---
 
 ## Strategic context
 
 This deal happened amid:
-- China's April 2025 rare earth controls
+- [[China]]'s April 2025 rare earth controls
 - October 2025 control escalation
-- 6x price gap between China domestic and export markets
+- 6x price gap between [[China]] domestic and export markets
 - [[Dutch seizure of Nexperia]] and retaliation
 
 Apple saw the writing on the wall. See [[Rare earth leverage]], [[China retaliatory toolkit]].
@@ -103,7 +103,7 @@ Apple saw the writing on the wall. See [[Rare earth leverage]], [[China retaliat
 - Sets template for other tech/defense deals
 
 **For industry:**
-- Proves demand for non-China rare earths
+- Proves demand for non-[[China]] rare earths
 - Recycling as viable supply source
 - Model for other companies to follow
 
@@ -122,7 +122,7 @@ Apple saw the writing on the wall. See [[Rare earth leverage]], [[China retaliat
 
 - [[Apple]] — buyer ($500M commitment)
 - [[MP Materials]] — supplier (Mountain Pass + Fort Worth)
-- [[Rare earth leverage]] — driver (China controls prompted deal)
+- [[Rare earth leverage]] — driver ([[China]] controls prompted deal)
 - [[Rare earth elements]] — context (light REEs only)
-- [[Dysprosium]] — gap (heavy REEs still China-sourced)
+- [[Dysprosium]] — gap (heavy REEs still [[China]]-sourced)
 - [[China retaliatory toolkit]] — risk (what Apple hedges against)

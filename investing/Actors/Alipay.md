@@ -28,7 +28,7 @@ World's largest digital payments platform by users.
 
 | Year | Milestone |
 |------|-----------|
-| 2004 | Alipay launched as Taobao escrow service |
+| 2004 | Alipay launched as [[Taobao]] escrow service |
 | 2011 | Spun out from Alibaba (controversial) |
 | 2014 | Renamed Ant Financial |
 | 2015 | Launched Yu'e Bao (money market fund) |
@@ -91,10 +91,10 @@ World's largest digital payments platform by users.
 |--------|-------|
 | Merchants | 88M across 57 countries |
 | Connected wallets | 25+ e-wallets/bank apps |
-| Consumer accounts | 1.5B |
+| [[Consumer]] accounts | 1.5B |
 | Tap! users | 100M+ (NFC payments) |
 
-Expanding in Europe, Latin America, Middle East, Southeast Asia.
+Expanding in [[Europe]], Latin America, Middle East, [[Southeast Asia]].
 
 ### AI pivot
 
@@ -104,7 +104,7 @@ Focus areas:
 - AI-powered financial services
 - Fraud detection
 - Customer service automation
-- Integration with [[Alibaba]]'s Qwen ecosystem
+- Integration with [[Alibaba]]'s [[Qwen]] ecosystem
 
 ---
 
@@ -115,7 +115,7 @@ Focus areas:
 | [[WeChat Pay]] | Social graph, ubiquitous | Duopoly partner (90%+ combined) |
 | UnionPay | Card network, state backing | Different use case |
 | Digital yuan (e-CNY) | Government push | Potential disruptor |
-| PayPal/Stripe | International | Alipay+ competing globally |
+| [[PayPal]]/[[Stripe]] | International | Alipay+ competing globally |
 
 **Key insight:** Alipay and WeChat Pay aren't really competitors — they're a duopoly. The threat is the digital yuan and potential state intervention.
 
@@ -167,7 +167,7 @@ Focus areas:
 | 2023 profit | ~$4B |
 | 2024 R&D | $3.26B |
 | Status | Private |
-| HQ | Hangzhou |
+| HQ | [[Hangzhou]] |
 
 *Created 2026-01-21*
 
@@ -175,7 +175,7 @@ Focus areas:
 
 ## Related
 
-- [[Alibaba]] — 33% owner, Qwen AI integration
+- [[Alibaba]] — 33% owner, [[Qwen]] AI integration
 - [[WeChat Pay]] — duopoly partner (Tencent)
 - [[Tencent]] — WeChat Pay parent
 - [[Jack Ma]] — founder (reduced role post-2020)

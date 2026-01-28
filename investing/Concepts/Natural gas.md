@@ -25,10 +25,10 @@ aliases: [Henry Hub, NatGas]
 
 **Forecasts:**
 
-| Source | Target | View |
+| Source | [[Target]] | View |
 |--------|--------|------|
 | EIA | $4.00/MMBtu avg | +16% vs 2025 |
-| Bank of America | $4.00/MMBtu | Neutral |
+| [[Bank of America]] | $4.00/MMBtu | Neutral |
 | Bernstein | $5.00/MMBtu | "Faith in five" — new equilibrium |
 
 **Bernstein thesis:** $5/mcf represents new equilibrium after decade+ at ~$3.50/mcf.
@@ -43,7 +43,7 @@ aliases: [Henry Hub, NatGas]
 |--------|--------|
 | **AI/data centers** | Growing electricity load |
 | **LNG exports** | New infrastructure coming online |
-| **Geopolitical** | Europe weaning off Russian gas |
+| **Geopolitical** | [[Europe]] weaning off Russian gas |
 
 AI power demand increasingly material — see [[Power constraints]].
 
@@ -66,7 +66,7 @@ Production rising but demand growth may outpace.
 
 **US LNG buildout:**
 - Multiple export terminals coming online
-- Increased global demand (Europe, Asia)
+- Increased global demand ([[Europe]], [[Asia]])
 - Tightens domestic supply
 - See [[LNG]] for detailed coverage
 
@@ -105,7 +105,7 @@ Production rising but demand growth may outpace.
 
 | Company | Ticker | Notes |
 |---------|--------|-------|
-| EQT | EQT | Largest US gas producer |
+| [[EQT]] | [[EQT]] | Largest US gas producer |
 | Coterra | CTRA | Marcellus/Permian |
 | Antero Resources | AR | Appalachian focus |
 | Chesapeake | CHK | Major producer |

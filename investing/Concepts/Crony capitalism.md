@@ -33,7 +33,7 @@ Political connection
 | **State contracts** | Infrastructure, defense, resources go to insiders |
 | **Regulatory forbearance** | Violations ignored, competitors harassed |
 | **Land/permits** | Real estate requires political blessing |
-| **Import/export licenses** | Trade monopolies granted to allies |
+| **Import/export licenses** | [[Trade]] monopolies granted to allies |
 | **Privatization** | State assets sold to insiders at discount |
 | **Debt forgiveness** | Connected borrowers don't repay; state absorbs losses |
 
@@ -55,7 +55,7 @@ The template for regime-connected extraction:
 | 8 | You keep the assets |
 | 9 | Criminal charges filed → connections protect you |
 
-**Result:** 7 million depositors lost $2.34B. Ansari kept his real estate empire. UK sanctioned him; Iran didn't prosecute.
+**Result:** 7 million depositors lost $2.34B. Ansari kept his real estate empire. [[UK]] sanctioned him; Iran didn't prosecute.
 
 **Why it matters:** [[Ayandeh Bank]]'s collapse accelerated the [[Iranian economic collapse]] — cronyism has macro consequences.
 
@@ -93,19 +93,19 @@ See [[Iranian banking]] for sector-wide capture.
 | Red aristocracy | Revolutionary lineage | Land, finance, tech |
 | Jack Ma | Tolerated until threatening | Ant Group IPO killed |
 
-**System:** Party controls all. Private wealth exists within "cage" — get too big or too political, get crushed. Alibaba, Didi crackdowns showed limits.
+**System:** Party controls all. Private wealth exists within "cage" — get too big or too political, get crushed. [[Alibaba]], Didi crackdowns showed limits.
 
 ### Gulf States
 
 | Actor | Connection | Extraction |
 |-------|------------|------------|
-| Royal families | Birthright | Oil revenues, sovereign wealth |
+| Royal families | Birthright | [[Oil]] revenues, sovereign wealth |
 | Merchant families | Historical alliance with royals | Exclusive licenses, agencies |
 | MBS allies | Ritz-Carlton survivors | New power structure |
 
 **System:** Royal family = state = economy. Private sector operates via royal license. Saudi Ritz-Carlton "anti-corruption" was power consolidation.
 
-### Southeast Asia
+### [[Southeast Asia]]
 
 | Country | Pattern |
 |---------|---------|
@@ -154,7 +154,7 @@ See [[Brazilian cronyism]] for full detail.
 | Which faction? | Wrong patron = existential risk |
 | How did they get the license? | Merit or connection? |
 | What happens if regime changes? | Asset tied to political survival? |
-| Are they sanctioned/sanction-adjacent? | Secondary sanctions risk |
+| Are they sanctioned/sanction-adjacent? | [[Secondary sanctions]] risk |
 | Is the founder still in favor? | Jack Ma, Khodorkovsky examples |
 
 ### Uninvestable vs investable cronyism
@@ -163,15 +163,15 @@ See [[Brazilian cronyism]] for full detail.
 |------|---------|---------------|
 | **Hard authoritarian** | Iran, North Korea | Uninvestable — sanctions, opacity |
 | **Soft authoritarian** | Russia, China | Caution — regime risk, crackdown risk |
-| **Weak institutions** | Southeast Asia, Africa | Selective — understand the politics |
-| **Democratic but captured** | Brazil, Mexico | Investable — but scrutinize state contracts |
+| **Weak institutions** | [[Southeast Asia]], [[Africa]] | Selective — understand the politics |
+| **Democratic but captured** | Brazil, [[Mexico]] | Investable — but scrutinize state contracts |
 | **Hybrid** | Turkey, Gulf | Case by case |
 
 ---
 
 ## The banking pattern
 
-Banks are the preferred extraction vehicle. See [[Bank cronyism]] for the full pattern.
+[[Banks]] are the preferred extraction vehicle. See [[Bank cronyism]] for the full pattern.
 
 | Reason | Detail |
 |--------|--------|
@@ -205,7 +205,7 @@ Crony capitalism is **institutionalized corruption** — the system itself is th
 
 ## Indicators
 
-| Signal | What it suggests |
+| [[Signal]] | What it suggests |
 |--------|------------------|
 | Banking sector NPLs concentrated in connected borrowers | Extraction ongoing |
 | Tycoons on Forbes list with no clear business model | Political rents |

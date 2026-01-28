@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #europe #private
 
-**Helsing** — Europe's most valuable defense startup. AI-powered autonomous weapons (drones, combat vehicles, satellite ISR). €12B valuation. Munich-based. [[Daniel Ek]] ([[Spotify]] founder) is chairman and lead investor.
+**Helsing** — [[Europe]]'s most valuable defense startup. AI-powered autonomous weapons (drones, combat vehicles, satellite ISR). €12B valuation. Munich-based. [[Daniel Ek]] ([[Spotify]] founder) is chairman and lead investor.
 
 ---
 
@@ -14,11 +14,11 @@ aliases: []
 | Valuation | **€12B / $13.2B** (Jun 2025) |
 | Total raised | **€1.37B** |
 | Founded | 2021 |
-| HQ | Munich, Germany |
+| HQ | Munich, [[Germany]] |
 | Chairman | **Daniel Ek** (Spotify founder) |
 | Focus | AI for defense (autonomous weapons, ISR) |
 
-**The pitch:** Europe's answer to [[Anduril]]. AI software that analyzes battlefield sensor data in real-time + own manufacturing (drones, autonomous combat vehicles).
+**The pitch:** [[Europe]]'s answer to [[Anduril]]. AI software that analyzes battlefield sensor data in real-time + own manufacturing (drones, autonomous combat vehicles).
 
 ---
 
@@ -26,14 +26,14 @@ aliases: []
 
 | Product | Type | Status |
 |---------|------|--------|
-| **HX-2** | Military drones | Manufacturing in Germany |
+| **HX-2** | Military drones | Manufacturing in [[Germany]] |
 | **CA-1 Europa** | Autonomous uncrewed combat vehicle | Unveiled Sep 2025 |
 | **Centaur** | Autonomy software stack | Deployed |
-| **Satellite constellation** | Space-based ISR | Partnership with Kongsberg (Dec 2025) |
+| **Satellite constellation** | [[Space]]-based ISR | Partnership with Kongsberg (Dec 2025) |
 
 **CA-1 Europa (Sep 2025):** Developed with Grob Aircraft (acquired by Helsing). Pairs Centaur autonomy stack with mass-produceable airframe.
 
-**Manufacturing:** Acquired German aircraft maker Grob Aircraft. First factory in Southern Germany. Target: 6,000 drones for Ukraine.
+**Manufacturing:** Acquired German aircraft maker Grob Aircraft. First factory in Southern [[Germany]]. [[Target]]: 6,000 drones for Ukraine.
 
 ---
 
@@ -42,11 +42,11 @@ aliases: []
 | Detail | Value |
 |--------|-------|
 | Role | Chairman, lead investor |
-| Investment vehicle | Prima Materia (VC) |
+| Investment vehicle | [[Prima Materia]] (VC) |
 | Spotify transition | Stepped down as CEO Jan 1, 2026 → Executive Chairman |
 | Motivation | European sovereignty, defense tech conviction |
 
-**Ek's thesis:** Europe must build its own defense tech capability, not rely on US. Led every major funding round through Prima Materia.
+**Ek's thesis:** [[Europe]] must build its own defense tech capability, not rely on US. Led every major funding round through [[Prima Materia]].
 
 ---
 
@@ -64,7 +64,7 @@ aliases: []
 
 | Investor                        | Notes                      |
 | ------------------------------- | -------------------------- |
-| Prima Materia (Daniel Ek)       | Lead every round, chairman |
+| [[Prima Materia]] (Daniel Ek)       | Lead every round, chairman |
 | [[Lightspeed Venture Partners]] | Growth                     |
 | [[Accel]]                       | Growth                     |
 | [[General Catalyst]]            | Led Series B               |
@@ -79,9 +79,9 @@ aliases: []
 | Company | Valuation | Region | Focus |
 |---------|-----------|--------|-------|
 | [[Anduril]] | $30.5B | US | Full-stack autonomous |
-| **Helsing** | **$13.2B** | **Europe** | **AI + drones + autonomous vehicles** |
+| **Helsing** | **$13.2B** | **[[Europe]]** | **AI + drones + autonomous vehicles** |
 | [[Shield AI]] | $5.3B | US | Autonomous aircraft |
-| [[Palantir]] | Public (~$200B) | US | Defense data/AI |
+| [[Palantir]] | Public (~$200B) | US | [[Defense]] data/AI |
 
 **vs Anduril:** Same thesis (AI-powered autonomous warfare) but European sovereignty angle. Less hardware-focused initially, now building own manufacturing with [[Grob]] acquisition.
 
@@ -95,12 +95,12 @@ aliases: []
 | ------------------------- | ------------------------------------------------------ |
 | Ukraine war               | Validates autonomous weapons, AI targeting             |
 | NATO 5% GDP target        | Committed Jun 2025, by 2035                            |
-| EU drone demand           | [[Kubilius]]: 3M drones/year needed for Russia defense |
-| STOXX Aerospace & Defense | +65% in 2025                                           |
-| DTCP fund                 | €500M (Europe's largest defense VC)                    |
-| EU EDF 2026               | €1B for defense R&D                                    |
+| [[EU]] drone demand           | [[Kubilius]]: [[3M]] drones/year needed for [[Russia]] defense |
+| STOXX [[Aerospace]] & [[Defense]] | +65% in 2025                                           |
+| DTCP fund                 | €500M ([[Europe]]'s largest defense VC)                    |
+| [[EU]] [[EDF]] 2026               | €1B for defense R&D                                    |
 
-**Germany specifically:**
+**[[Germany]] specifically:**
 - "Uranos KI" AI targeting system planned for 2026 deployment
 - Pistorius: €35B for space security 2026-2030
 - Zeitenwende (defense spending shift) ongoing
@@ -120,7 +120,7 @@ aliases: []
 
 ## Bull case
 
-- Europe's defense spending inflection (NATO 5% by 2035)
+- [[Europe]]'s defense spending inflection (NATO 5% by 2035)
 - Only credible European Anduril equivalent
 - Daniel Ek's full attention post-Spotify (Jan 2026)
 - Ukraine validates autonomous weapons in combat
@@ -134,7 +134,7 @@ aliases: []
 - European defense procurement is slow/political
 - Regulatory complexity (multiple governments)
 - Manufacturing scale unproven
-- Competition from US primes expanding into Europe
+- Competition from US primes expanding into [[Europe]]
 - Private — limited visibility
 
 ---

@@ -72,9 +72,9 @@ Schwab is the scale player in retail brokerage:
 **Bear:**
 - Interest rate sensitivity
 - SVB-style deposit flight risk (2023)
-- Fintech competition
+- [[Fintech]] competition
 - Slow to innovate
-- Crypto/tokenization laggard
+- [[Crypto]]/tokenization laggard
 
 ---
 
@@ -98,7 +98,7 @@ Schwab is the scale player in retail brokerage:
 | Assets | $9T | ~$150B |
 | Users | 35M | 24M |
 | Demo | Older, wealthier | Younger |
-| Crypto | Limited | Core offering |
+| [[Crypto]] | Limited | Core offering |
 | Tokenization | No | First mover |
 | Revenue | NII, advisory | PFOF, crypto |
 

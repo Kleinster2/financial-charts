@@ -12,7 +12,7 @@ aliases: [TRI]
 | Metric | Value |
 |--------|-------|
 | Founded | 2008 (merger of Thomson Corp + Reuters) |
-| HQ | Toronto, Canada |
+| HQ | Toronto, [[Canada]] |
 | Ticker | TRI |
 | Market cap | ~$75B |
 | Revenue (2024) | $7.26B |
@@ -42,7 +42,7 @@ aliases: [TRI]
 | Revenue | $6.3B | $6.8B | $7.26B | ~$7.5B |
 | Revenue growth | — | +7% | +7% | +7-7.5% |
 | EBITDA margin | ~37% | ~38% | ~39% | ~39% |
-| Free cash flow | — | — | ~$1.8B | ~$2.1B |
+| [[Free cash flow]] | — | — | ~$1.8B | ~$2.1B |
 
 **2025 guidance:** 7-7.5% organic growth, ~39% EBITDA margin
 
@@ -77,7 +77,7 @@ Investing heavily in AI for legal/tax:
 | Market | Position | Competitors |
 |--------|----------|-------------|
 | Legal research | #1 (Westlaw) | LexisNexis (RELX) |
-| Tax software | Top 3 | Intuit, Wolters Kluwer |
+| Tax software | Top 3 | [[Intuit]], Wolters Kluwer |
 | News | Reuters News | Bloomberg, AP |
 
 **Westlaw moat:** Decades of case law, attorney workflows built around it. High switching costs.

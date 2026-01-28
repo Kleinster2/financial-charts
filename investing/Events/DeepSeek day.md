@@ -14,7 +14,7 @@
 | Jan 20, 2025 | DeepSeek R1 released (open weights) |
 | Jan 27, 2025 | Markets digest implications → selloff |
 
-**The trigger:** DeepSeek R1 matched GPT-4/Claude performance at ~1/10th the training cost, using MoE architecture and efficiency optimizations.
+**The trigger:** DeepSeek R1 matched GPT-4/[[Claude]] performance at ~1/10th the training cost, using MoE architecture and efficiency optimizations.
 
 ---
 
@@ -29,7 +29,7 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 | Competitive benchmarks | Performance without brute force |
 | Open weights | Transparent about approach |
 
-**Who noticed:** VCs ([[Benchmark]], [[Craft Ventures]]), some quant funds, China watchers. Most of Wall Street missed it.
+**Who noticed:** VCs ([[Benchmark]], [[Craft Ventures]]), some quant funds, [[China]] watchers. Most of Wall Street missed it.
 
 **Why R1 hit harder:** R1 was a reasoning model (like o1) — proved efficiency worked for the hardest tasks, not just base models.
 
@@ -95,7 +95,7 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 | Some H100s | Possibly pre-ban or gray market |
 
 **The H800 vs H100 situation:**
-- H800 = China-legal version (limited interconnect bandwidth)
+- H800 = [[China]]-legal version (limited interconnect bandwidth)
 - DeepSeek optimized algorithms for H800 constraints
 - May also have H100s acquired before Oct 2022 ban
 - Gray market smuggling widely reported but unconfirmed
@@ -112,7 +112,7 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 |----------------|-------------------|
 | "Insatiable GPU demand" | Efficiency reduces demand per capability |
 | "Scaling laws require more compute" | Algorithmic gains can substitute |
-| "China can't compete" | China can route around restrictions |
+| "[[China]] can't compete" | [[China]] can route around restrictions |
 | "NVIDIA has years of runway" | Efficiency gains could compress timeline |
 
 **The fear:** If training/inference gets 10x more efficient every year, GPU demand growth slows dramatically.
@@ -128,10 +128,10 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 | Jevons Paradox | Cheaper inference = more demand for inference |
 | Training still scales | Frontier models still need massive compute |
 | Inference is the bottleneck | More efficiency = more deployment |
-| China still needs GPUs | DeepSeek used H800s to build R1 |
-| Enterprise demand intact | Hyperscaler capex not slowing |
+| [[China]] still needs GPUs | DeepSeek used H800s to build R1 |
+| Enterprise demand intact | [[Hyperscaler capex]] not slowing |
 
-**What happened next:** NVIDIA recovered most losses within weeks. Hyperscaler capex guidance unchanged.
+**What happened next:** NVIDIA recovered most losses within weeks. [[Hyperscaler capex]] guidance unchanged.
 
 ---
 
@@ -142,7 +142,7 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 | Before DeepSeek day | After |
 |--------------------|-------|
 | "Unlimited demand growth" | "Demand growth with efficiency headwinds" |
-| "No competition" | "China can innovate around constraints" |
+| "No competition" | "[[China]] can innovate around constraints" |
 | "Decade of runway" | "Still long runway, but not infinite" |
 
 **Net:** Thesis intact but more nuanced. Efficiency gains are real but don't eliminate compute demand.
@@ -151,7 +151,7 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 
 | Before | After |
 |--------|-------|
-| "Controls slow China" | "Controls force efficiency innovation" |
+| "Controls slow [[China]]" | "Controls force efficiency innovation" |
 | "Chip gap is permanent" | "Algorithmic gap may close faster" |
 
 **Net:** Export controls work but have unintended consequences.
@@ -184,13 +184,13 @@ Some saw it coming. DeepSeek V3 (Dec 2024) showed the efficiency thesis before R
 
 ## What to watch going forward
 
-| Signal | Bullish | Bearish |
+| [[Signal]] | Bullish | Bearish |
 |--------|---------|---------|
-| Hyperscaler capex | Maintained/increased | Cuts |
+| [[Hyperscaler capex]] | Maintained/increased | Cuts |
 | NVIDIA bookings | Strong | Weakening |
 | Inference demand | Growing | Flat |
 | Training cluster size | Still growing | Plateau |
-| China model quality | Plateaus | Continues improving |
+| [[China]] model quality | Plateaus | Continues improving |
 
 ---
 
@@ -221,7 +221,7 @@ DeepSeek validated their efficiency claims with new research:
 
 **Industry reaction:**
 - Counterpoint: "striking breakthrough" that "bypasses compute bottlenecks"
-- OpenAI: Had previously issued "code red" after R1; Altman expects such alarms "once or twice a year"
+- [[OpenAI]]: Had previously issued "code red" after R1; Altman expects such alarms "once or twice a year"
 
 **What's next:** R2 or V4 expected Feb 2026 (Spring Festival). Pattern: major releases during Chinese holidays.
 
@@ -235,10 +235,10 @@ DeepSeek validated their efficiency claims with new research:
 
 - [[DeepSeek]] — actor (the company)
 - [[NVIDIA]] — victim (largest loss)
-- [[Export controls]] — context (why China innovated on efficiency)
+- [[Export controls]] — context (why [[China]] innovated on efficiency)
 - [[Inference economics]] — thesis (efficiency implications)
 - [[Long NVIDIA]] — thesis (stress test)
 - [[Jevons Paradox]] — counter-narrative
 - [[Model landscape]] — context (open model competition)
-- [[China AI Tigers]] — context (China AI ecosystem)
+- [[China AI Tigers]] — context ([[China]] AI ecosystem)
 - [[Open source commoditization]] — related trend

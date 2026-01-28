@@ -3,7 +3,7 @@ aliases: [Khosla]
 ---
 #actor #vc #usa
 
-**Khosla Ventures** — Vinod Khosla's fund. Early OpenAI backer. Deep tech, climate, AI focus.
+**Khosla Ventures** — [[Vinod Khosla]]'s fund. Early OpenAI backer. Deep tech, climate, AI focus.
 
 ---
 
@@ -13,7 +13,7 @@ Founder-led fund with contrarian deep tech bets:
 
 | Metric | Value |
 |--------|-------|
-| Founder | Vinod Khosla (Sun Microsystems co-founder) |
+| Founder | [[Vinod Khosla]] (Sun Microsystems co-founder) |
 | Founded | 2004 |
 | Focus | Deep tech, climate, AI |
 | Style | High-conviction, contrarian |
@@ -39,13 +39,13 @@ Early believer in AGI potential.
 **Early supporter:**
 - Invested when AI skepticism high
 - Maintained position through pivots
-- Beneficiary of ChatGPT breakout
+- Beneficiary of [[ChatGPT]] breakout
 
 ---
 
 ## Investment philosophy
 
-**Vinod Khosla's approach:**
+**[[Vinod Khosla]]'s approach:**
 - "Willing to fail" for big outcomes
 - Deep tech requires patience
 - Contrarian bets on frontier
@@ -72,7 +72,7 @@ Intersection of AI compute demand and clean energy.
 **Indirect primarily:**
 - AI companies = chip demand
 - Some hardware investments
-- Less direct than Sequoia (NVIDIA)
+- Less direct than Sequoia ([[NVIDIA]])
 
 ---
 
@@ -101,11 +101,11 @@ Multiple vehicles for different stages.
 
 | Metric | Value |
 |--------|-------|
-| Type | Venture Capital |
+| Type | [[Venture Capital]] |
 | AUM | $15B+ |
 | HQ | Menlo Park, CA |
 | Founded | 2004 |
-| Founder | Vinod Khosla |
+| Founder | [[Vinod Khosla]] |
 
 *Updated 2026-01-01*
 

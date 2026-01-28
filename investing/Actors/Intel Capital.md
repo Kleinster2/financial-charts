@@ -29,7 +29,7 @@ Strategic VC with chip industry insight:
 | AI chips | Compete/complement Intel |
 | Edge AI | Intel's growth focus |
 | AI infrastructure | Ecosystem building |
-| 5G/networking | Intel adjacency |
+| [[5G]]/networking | Intel adjacency |
 
 Investments often become Intel customers or partners.
 
@@ -94,8 +94,8 @@ Intel Capital = hedge against Intel missteps.
 |-----|--------|-------|
 | **Intel Capital** | Intel | AI chips, edge |
 | NVIDIA (rare) | NVIDIA | Strategic only |
-| Samsung Ventures | Samsung | Memory, devices |
-| Qualcomm Ventures | Qualcomm | Mobile, IoT |
+| [[Samsung]] Ventures | [[Samsung]] | Memory, devices |
+| [[Qualcomm]] Ventures | [[Qualcomm]] | Mobile, IoT |
 
 Intel Capital more active than most chip CVCs.
 

@@ -24,9 +24,9 @@ aliases: [mortgage rate, 30-year fixed, mortgage interest rates]
 | Source | 2026 forecast | Notes |
 |--------|---------------|-------|
 | **Bankrate** | **5.5%** (low) | "Below 6% for first time since summer 2022" |
-| Morgan Stanley | 5.50%–5.75% | Mid-2026, then rising |
+| [[Morgan Stanley]] | 5.50%–5.75% | Mid-2026, then rising |
 | Fannie Mae | 6.2% (Q1), <6% (Q4) | Gradual decline |
-| Wells Fargo | 6.15%–6.18% | Relatively stable |
+| [[Wells Fargo]] | 6.15%–6.18% | Relatively stable |
 | MBA | 6.4% | "Already bottomed out" |
 
 **Range:** 5.5%–6.4% for 2026. Consensus: low-to-mid 6% range.
@@ -39,8 +39,8 @@ aliases: [mortgage rate, 30-year fixed, mortgage interest rates]
 |--------|--------|
 | **10-year Treasury yield** | Primary benchmark (~4%+ currently) |
 | **Fed funds rate** | Indirect — influences short end |
-| **MBS spreads** | Risk premium over Treasuries |
-| **Inflation expectations** | Higher → higher rates |
+| **MBS spreads** | Risk premium over [[Treasuries]] |
+| **[[Inflation]] expectations** | Higher → higher rates |
 | **Economic growth** | Stronger → higher rates |
 | **Supply/demand** | Fed QT reducing MBS demand |
 
@@ -67,7 +67,7 @@ aliases: [mortgage rate, 30-year fixed, mortgage interest rates]
 | Period | 30-year rate | Context |
 |--------|--------------|---------|
 | 2021 (low) | ~3% | COVID stimulus, Fed QE |
-| 2023 (peak) | ~8% | Inflation fight |
+| 2023 (peak) | ~8% | [[Inflation]] fight |
 | Jan 2026 | 6.06% | Normalizing |
 | Pre-2008 average | ~6-7% | "Normal" range |
 
@@ -94,7 +94,7 @@ aliases: [mortgage rate, 30-year fixed, mortgage interest rates]
 |----------|-----------|----------------|
 | **Soft landing** | 5.5-6% | Modest improvement |
 | **Recession** | 5% or below | Refi wave, but job losses |
-| **Inflation rebound** | 7%+ | Affordability crisis worsens |
+| **[[Inflation]] rebound** | 7%+ | Affordability crisis worsens |
 
 ---
 
@@ -104,7 +104,7 @@ aliases: [mortgage rate, 30-year fixed, mortgage interest rates]
 |---------------|---------------|
 | Homebuilders rally | Homebuilders pressured |
 | Refi volume surges | Purchase-only market |
-| Mortgage REITs benefit | MBS spreads widen |
+| Mortgage [[REITs]] benefit | MBS spreads widen |
 | [[Housing affordability crisis]] eases | Affordability worsens |
 
 ---

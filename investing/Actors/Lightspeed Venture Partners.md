@@ -3,7 +3,7 @@ aliases: [Lightspeed, LSVP]
 ---
 #actor #vc #usa
 
-**Lightspeed Venture Partners** — $9B new funds (Dec 2025). $5.5B deployed into AI. Backed Anthropic, xAI, Mistral.
+**Lightspeed Venture Partners** — $9B new funds (Dec 2025). $5.5B deployed into AI. Backed Anthropic, xAI, [[Mistral]].
 
 ---
 
@@ -15,7 +15,7 @@ Top-tier VC with massive AI exposure:
 |--------|-------|
 | New funds (Dec 2025) | $9B (record) |
 | AI investments | $5.5B into 165 AI companies |
-| Key bets | Anthropic, xAI, Mistral, Databricks |
+| Key bets | Anthropic, xAI, [[Mistral]], Databricks |
 | Anthropic commitment | ~$1B |
 
 ---
@@ -44,12 +44,12 @@ Largest fundraise in firm's 25-year history.
 | Company | Category |
 |---------|----------|
 | [[Anthropic]] | Frontier AI lab |
-| [[xAI]] | Elon Musk's AI |
-| Mistral | Open-source LLMs |
+| [[xAI]] | [[Elon Musk]]'s AI |
+| [[Mistral]] | Open-source LLMs |
 | Databricks | Data + AI platform |
 | Glean | Enterprise AI search |
-| Abridge | Healthcare AI |
-| Skild AI | Robotics AI |
+| Abridge | [[Healthcare]] AI |
+| [[Skild AI]] | [[Robotics]] AI |
 
 **Pioneer claim:** First AI investment in 2012, decade before industry.
 
@@ -60,7 +60,7 @@ Largest fundraise in firm's 25-year history.
 **~$1B commitment:**
 - Co-led $13B funding round
 - One of largest VC bets on AI
-- Competing with Google, Amazon for Anthropic access
+- Competing with [[Google]], [[Amazon]] for Anthropic access
 
 ---
 
@@ -78,7 +78,7 @@ Largest fundraise in firm's 25-year history.
 ## Semiconductor exposure
 
 **Primarily AI software, not chips:**
-- Anthropic (uses Google TPUs, AWS)
+- Anthropic (uses [[Google]] TPUs, AWS)
 - Databricks (cloud-based)
 - Less direct chip exposure than some peers
 
@@ -91,7 +91,7 @@ But AI software = indirect chip demand driver.
 **What Lightspeed bets tell us:**
 - AI infrastructure demand continues
 - Frontier labs need massive capital
-- Enterprise AI adoption accelerating
+- [[Enterprise AI adoption]] accelerating
 
 Track their investments for sector signals.
 
@@ -101,7 +101,7 @@ Track their investments for sector signals.
 
 | Metric | Value |
 |--------|-------|
-| Type | Venture Capital |
+| Type | [[Venture Capital]] |
 | AUM | $25B+ |
 | HQ | Menlo Park, CA |
 | Founded | 2000 |

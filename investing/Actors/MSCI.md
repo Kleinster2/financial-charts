@@ -12,7 +12,7 @@ Global index provider. NYSE: MSCI.
 | MSCI ACWI | All Country World Index |
 | MSCI Emerging Markets | EM benchmark |
 | MSCI China | China equities |
-| MSCI Asia Pacific IT | Asian tech |
+| MSCI [[Asia]] Pacific IT | Asian tech |
 
 ## Why it matters
 

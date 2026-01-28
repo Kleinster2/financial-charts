@@ -13,8 +13,8 @@ aliases: [MET, MetLife Inc]
 |--------|-------|
 | Ticker | MET (NYSE) |
 | Market cap | ~$53B (Dec 2025) |
-| Target AUM | >$1T (New Frontier strategy) |
-| Revenue segments | Group Benefits, RIS, Asia, LatAm, EMEA, Holdings |
+| [[Target]] AUM | >$1T (New Frontier strategy) |
+| Revenue segments | Group Benefits, RIS, [[Asia]], LatAm, EMEA, Holdings |
 | Employees | ~45,000 globally |
 | Founded | 1868 |
 
@@ -26,9 +26,9 @@ aliases: [MET, MetLife Inc]
 |---------|------------------------|-------|
 | Group Benefits | ~24% | Employer life, disability, dental |
 | Retirement & Income Solutions (RIS) | ~24% | Pension, institutional annuities, stable value |
-| Asia | ~25% | Japan (largest), Korea, China |
-| Latin America | ~13% | Mexico, Chile (leading positions) |
-| EMEA | ~4% | Europe, Middle East |
+| [[Asia]] | ~25% | [[Japan]] (largest), Korea, [[China]] |
+| Latin America | ~13% | [[Mexico]], [[Chile]] (leading positions) |
+| EMEA | ~4% | [[Europe]], Middle East |
 | MetLife Holdings | ~10% | Legacy run-off (VA, UL guarantees) |
 
 ---
@@ -38,7 +38,7 @@ aliases: [MET, MetLife Inc]
 MetLife is pivoting *away* from the volatile retail life/annuity business toward:
 1. **Group Benefits** — employer-sponsored, steady, high-retention
 2. **Retirement Solutions** — institutional pension products, PRT
-3. **International** — Asia/LatAm growth (less competitive than US)
+3. **International** — [[Asia]]/LatAm growth (less competitive than US)
 4. **Asset management** — targeting $1T+ AUM
 
 This is the *opposite* direction from PE-owned insurers who are *scaling* annuity origination. MetLife is de-risking where [[Athene]]/[[Apollo]] are aggressively growing.

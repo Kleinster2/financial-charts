@@ -24,10 +24,10 @@
 
 | Date | Valuation | Round | Lead |
 |------|-----------|-------|------|
-| Mar 2024 | $7.65B | Series D | Khosla, Founders Fund |
+| Mar 2024 | $7.65B | Series D | Khosla, [[Founders Fund]] |
 | Mar 2025 | $13B | Secondary | — |
-| Jun 2025 | $16B | Series E | Founders Fund |
-| Jul 2025 | $22.5B | Series E-2 | Thrive Capital |
+| Jun 2025 | $16B | Series E | [[Founders Fund]] |
+| Jul 2025 | $22.5B | Series E-2 | [[Thrive Capital]] |
 | Nov 2025 | **$32B** | $300M raise | Lightspeed |
 
 **+320% in 8 months** — from $7.65B to $32B.
@@ -52,13 +52,13 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Seed | Aug 2019 | $7M | — | BoxGroup, Keith Rabois |
+| Seed | Aug 2019 | $7M | — | BoxGroup, [[Keith Rabois]] |
 | Series A | Mar 2020 | $25M | — | Stripe |
-| Series B | Apr 2021 | $115M | $1.6B | D1 Capital |
-| Series C | Mar 2022 | $200M | $8.1B | Founders Fund |
-| Series D | Apr 2024 | $150M | $7.65B | Khosla, Founders Fund |
-| Series E | Jun 2025 | — | $16B | Founders Fund |
-| Series E-2 | Jul 2025 | $500M | $22.5B | Thrive Capital |
+| Series B | Apr 2021 | $115M | $1.6B | [[D1 Capital]] |
+| Series C | Mar 2022 | $200M | $8.1B | [[Founders Fund]] |
+| Series D | Apr 2024 | $150M | $7.65B | Khosla, [[Founders Fund]] |
+| Series E | Jun 2025 | — | $16B | [[Founders Fund]] |
+| Series E-2 | Jul 2025 | $500M | $22.5B | [[Thrive Capital]] |
 | Nov 2025 | Nov 2025 | $300M | **$32B** | Lightspeed |
 
 **Total equity raised:** ~$2.3B
@@ -69,14 +69,14 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 
 | Investor | Role |
 |----------|------|
-| Founders Fund | Series C, D, E lead |
-| Thrive Capital | Series E-2 lead |
+| [[Founders Fund]] | Series C, D, E lead |
+| [[Thrive Capital]] | Series E-2 lead |
 | Lightspeed | Nov 2025 lead |
 | [[Stripe]] | Series A lead |
-| Khosla Ventures | Series D co-lead |
-| Keith Rabois | Seed investor |
-| D1 Capital | Series B lead |
-| General Catalyst | Investor |
+| [[Khosla Ventures]] | Series D co-lead |
+| [[Keith Rabois]] | Seed investor |
+| [[D1 Capital]] | Series B lead |
+| [[General Catalyst]] | Investor |
 
 ---
 
@@ -100,12 +100,12 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 | **Expense management** | Receipt capture, policy enforcement |
 | **Bill pay** | Accounts payable automation |
 | **Procurement** | Vendor management |
-| **Travel** | Corporate travel booking |
+| **[[Travel]]** | Corporate travel booking |
 
 ### Business model
 
 - Interchange fees on card spend
-- SaaS subscriptions for expense/AP software
+- [[SaaS]] subscriptions for expense/AP software
 - Float on deposits
 
 ---
@@ -114,12 +114,12 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 
 | Company | Sector |
 |---------|--------|
-| Shopify | E-commerce |
-| Anduril | Defense tech |
-| Figma | Design |
-| Notion | Productivity |
+| [[Shopify]] | E-commerce |
+| [[Anduril]] | [[Defense]] tech |
+| [[Figma]] | Design |
+| [[Notion]] | [[Productivity]] |
 | CBRE | Real estate |
-| Cursor | AI |
+| [[Cursor]] | AI |
 
 **Enterprise customers:** 2,200+ (doubled YoY in 2025)
 
@@ -170,9 +170,9 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 - [[Divvy]] — acquired by Bill.com
 
 ### Investors
-- Founders Fund — lead investor
+- [[Founders Fund]] — lead investor
 - [[Stripe]] — Series A lead
-- Thrive Capital — Series E-2 lead
+- [[Thrive Capital]] — Series E-2 lead
 
 ### Sector
 - [[Fintech]] — sector

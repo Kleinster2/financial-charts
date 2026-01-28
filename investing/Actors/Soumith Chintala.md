@@ -23,7 +23,7 @@ aliases: []
 **Created at Meta AI (FAIR):**
 - Released 2016
 - Became dominant ML framework
-- Beat Google's TensorFlow
+- Beat [[Google]]'s TensorFlow
 - Used by most AI labs
 
 PyTorch adoption = key Meta AI contribution to field.

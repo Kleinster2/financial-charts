@@ -37,9 +37,9 @@ aliases: [FAF, First American Title]
 
 | Segment | Description |
 |---------|-------------|
-| **Title Insurance** | Core business (~90% revenue) |
+| **Title [[Insurance]]** | Core business (~90% revenue) |
 | **Settlement Services** | Escrow, closing |
-| **Home Warranty** | Protection plans |
+| **[[Home]] Warranty** | Protection plans |
 | **Data & Analytics** | Property data products |
 
 ---
@@ -50,7 +50,7 @@ aliases: [FAF, First American Title]
 |---------|-----------------|
 | [[Fidelity National Financial]] | #1 (32% share) |
 | **First American** | **#2** |
-| Old Republic | #3 |
+| Old [[Republic]] | #3 |
 | Stewart | #4 |
 
 **Four-player oligopoly** — high barriers (licensing, data, relationships).

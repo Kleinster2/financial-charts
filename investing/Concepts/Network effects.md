@@ -11,7 +11,7 @@
 | **Direct** | User value scales with users | Phone network |
 | **Indirect** | More users attract complements | iOS + apps |
 | **Two-sided** | Buyers attract sellers | Marketplaces |
-| **Data** | More data improves product | Google Search |
+| **Data** | More data improves product | [[Google]] Search |
 | **Local** | Geographic density matters | Uber |
 
 ---
@@ -56,7 +56,7 @@
 
 | Threat | Example |
 |--------|---------|
-| Multi-homing | Drivers on Uber + Lyft |
+| Multi-homing | Drivers on Uber + [[Lyft]] |
 | Disintermediation | Hotels going direct |
 | Vertical attack | Amazon vs. aggregators |
 | Regulation | Antitrust, interoperability |
@@ -65,7 +65,7 @@
 
 ## Investment implications
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Crossing critical mass | Accelerating value |
 | Multi-homing increasing | Moat erosion |

@@ -3,7 +3,7 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 ---
 #actor #myanmar #rareearth #geopolitics
 
-**Kachin Independence Army** — Myanmar rebel group. Controls ~50% of global dysprosium/terbium mining. Captured Pangwa Oct 2024. All output must go to China for processing.
+**Kachin Independence Army** — Myanmar rebel group. Controls ~50% of global dysprosium/terbium mining. Captured Pangwa Oct 2024. All output must go to [[China]] for processing.
 
 ---
 
@@ -15,14 +15,14 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 | Territory | Kachin State, Myanmar |
 | REE control | **Nearly all Myanmar mines** |
 | Global Dy/Tb share | **~50% of mining** |
-| Processing capacity | **Zero** — must ship to China |
+| Processing capacity | **Zero** — must ship to [[China]] |
 
 ---
 
 ## Rare earth control
 
 **Oct 2024 — Captured Pangwa:**
-- Major rare earth mining area near China border
+- Major rare earth mining area near [[China]] border
 - Former warlord Zahkung Ting Ying's territory
 - KIA now controls nearly all Myanmar REE mines
 
@@ -30,25 +30,25 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 
 | Metric | Value |
 |--------|-------|
-| Myanmar global REE rank | **#3** (after China, US) |
+| Myanmar global REE rank | **#3** (after [[China]], US) |
 | Dy/Tb share | ~50% of global mining |
-| China import share | 50% by value |
+| [[China]] import share | 50% by value |
 
-**The catch:** No processing capacity. All material must go to China → no leverage over global markets directly.
+**The catch:** No processing capacity. All material must go to [[China]] → no leverage over global markets directly.
 
 ---
 
-## China relationship
+## [[China]] relationship
 
 **Border closure (late 2024):**
-- China unhappy with KIA victory
+- [[China]] unhappy with KIA victory
 - Closed border, halted supplies
 - REE imports dropped **90%**
 
 **April 2025 resumption:**
 - ~5,000 tons crossed border
-- Suggests China-KIA understanding reached
-- KIA dependent on China as sole buyer
+- Suggests [[China]]-KIA understanding reached
+- KIA dependent on [[China]] as sole buyer
 
 ---
 
@@ -58,12 +58,12 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 
 | Company | Response |
 |---------|----------|
-| Ford | No comment |
-| Hyundai | No comment |
-| Tesla | No comment |
-| Volkswagen | No comment |
+| [[Ford]] | No comment |
+| [[Hyundai]] | No comment |
+| [[Tesla]] | No comment |
+| [[Volkswagen]] | No comment |
 | Vestas | No comment |
-| **Siemens** | Claims due diligence framework |
+| **[[Siemens]]** | Claims due diligence framework |
 
 **Nabeel Mancheri (ex-Global Rare Earth Industry Association):** Chinese magnet manufacturers "always say, 'No, we are not using any heavy rare earths coming from Myanmar.' That is a lie and cannot be possible."
 
@@ -104,8 +104,8 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 
 **For rare earth thesis:**
 - Myanmar supply = critical but unstable
-- All flows through China anyway
-- KIA control doesn't change China's processing monopoly
+- All flows through [[China]] anyway
+- KIA control doesn't change [[China]]'s processing monopoly
 - Conflict/instability = supply disruption risk
 
 **Ryan Castilloux (Adamas Intelligence):** "Five years from now, we will look back on this and say, 'Oh, I can't believe that happened.'"

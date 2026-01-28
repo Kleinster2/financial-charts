@@ -15,7 +15,7 @@ BEP is the scale player in renewable power:
 |--------|-------|
 | Capacity | ~35 GW operating + development |
 | Diversification | Hydro, wind, solar, storage, nuclear |
-| Geography | Global (Americas, Europe, Asia) |
+| Geography | Global (Americas, [[Europe]], [[Asia]]) |
 | Sponsor | Brookfield Asset Management |
 
 ---
@@ -36,7 +36,7 @@ BEP is the scale player in renewable power:
 ## AI/Data center relevance
 
 **Direct relevance:**
-- PPAs with hyperscalers (Microsoft, Google, Amazon)
+- PPAs with hyperscalers ([[Microsoft]], [[Google]], [[Amazon]])
 - 24/7 carbon-free energy contracts
 - Scale to meet data center demand
 - Development pipeline for new capacity

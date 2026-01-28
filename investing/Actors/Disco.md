@@ -51,7 +51,7 @@ Invisible but essential — every chip goes through Disco equipment:
 | Trend | Disco benefit |
 |-------|---------------|
 | Thinner dies | More grinding |
-| HBM stacking | Precision dicing |
+| [[HBM]] stacking | Precision dicing |
 | Chiplets | More dies per wafer |
 | Larger wafers | More cuts per wafer |
 

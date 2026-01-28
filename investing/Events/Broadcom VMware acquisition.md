@@ -11,7 +11,7 @@
 | Announced | May 2022 |
 | Closed | November 2023 |
 | Acquirer | [[Broadcom]] |
-| Target | VMware |
+| [[Target]] | VMware |
 | Price | $61B |
 
 ---

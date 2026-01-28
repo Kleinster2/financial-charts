@@ -16,7 +16,7 @@ aliases: [GGV Capital US, GGV US]
 | Unicorns | 27 |
 | IPOs | 12 |
 | Acquisitions | 25 |
-| Geographies | US, Israel, Europe, LatAm |
+| Geographies | US, Israel, [[Europe]], LatAm |
 
 ---
 
@@ -24,10 +24,10 @@ aliases: [GGV Capital US, GGV US]
 
 | Sector | Examples |
 |--------|----------|
-| Cloud infrastructure | Vercel, HashiCorp |
-| Enterprise apps | Zendesk, Slack |
-| Consumer | Airbnb, StockX |
-| Fintech | Affirm, Block |
+| Cloud infrastructure | [[Vercel]], HashiCorp |
+| Enterprise apps | Zendesk, [[Slack]] |
+| [[Consumer]] | Airbnb, StockX |
+| [[Fintech]] | [[Affirm]], [[Block]] |
 
 **Stage:** Early-to-growth
 
@@ -38,9 +38,9 @@ aliases: [GGV Capital US, GGV US]
 | Company | Outcome |
 |---------|---------|
 | Airbnb | IPO |
-| Slack | Acquired (Salesforce) |
+| [[Slack]] | Acquired (Salesforce) |
 | Zendesk | Acquired (PE) |
-| DraftKings | IPO |
+| [[DraftKings]] | IPO |
 | Opendoor | IPO |
 | HashiCorp | IPO |
 
@@ -51,8 +51,8 @@ aliases: [GGV Capital US, GGV US]
 | Company | Focus |
 |---------|-------|
 | [[Torq]] | Security automation |
-| Vercel | Frontend cloud |
-| Affirm | BNPL |
+| [[Vercel]] | Frontend cloud |
+| [[Affirm]] | BNPL |
 | Drata | Compliance |
 | Orca Security | Cloud security |
 | Brightwheel | EdTech |
@@ -72,7 +72,7 @@ aliases: [GGV Capital US, GGV US]
 
 ## GGV split context
 
-GGV Capital split its US and Asia operations. Notable Capital is the US entity, operating independently with focus on US, Israel, Europe, and LatAm.
+GGV Capital split its US and [[Asia]] operations. Notable Capital is the US entity, operating independently with focus on US, Israel, [[Europe]], and LatAm.
 
 ---
 
@@ -83,5 +83,5 @@ GGV Capital split its US and Asia operations. Notable Capital is the US entity, 
 ## Related
 
 - [[Torq]] — portfolio company
-- [[Salesforce]] — acquirer (Slack)
+- [[Salesforce]] — acquirer ([[Slack]])
 - [[Airbnb]] — portfolio exit

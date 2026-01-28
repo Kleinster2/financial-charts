@@ -43,7 +43,7 @@ aliases: [ZAR, USDZAR, rand]
 
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
-| iShares MSCI South Africa | EZA | SA equity + ZAR |
+| iShares [[MSCI]] South [[Africa]] | EZA | SA equity + ZAR |
 
 ---
 

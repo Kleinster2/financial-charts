@@ -13,7 +13,7 @@ aliases: [STMicro NXP MEMS deal]
 |--------|---------|
 | Price | $950M ($900M upfront + $50M milestones) |
 | Currency | ~€808M |
-| Target revenue | ~$300M (2024) |
+| [[Target]] revenue | ~$300M (2024) |
 | Expected close | H1 2026 |
 | Financing | Existing liquidity |
 
@@ -39,7 +39,7 @@ aliases: [STMicro NXP MEMS deal]
 | Rank | Company | 2024 Revenue |
 |------|---------|--------------|
 | 1 | Bosch | ~$2B |
-| 2 | Broadcom | — |
+| 2 | [[Broadcom]] | — |
 | 3 | **STMicro (post-deal)** | — |
 | ... | | |
 | 6 | STMicro (pre-deal) | — |
@@ -49,7 +49,7 @@ aliases: [STMicro NXP MEMS deal]
 
 ## Products included
 
-- Automotive MEMS sensors (safety, airbags)
+- [[Automotive]] MEMS sensors (safety, airbags)
 - Industrial sensors
 - Accelerometers, gyroscopes
 - Pressure sensors
@@ -61,7 +61,7 @@ aliases: [STMicro NXP MEMS deal]
 - European semiconductor consolidation continues
 - STMicro becomes more formidable competitor to [[Infineon]]
 - NXP sharpens focus on higher-value automotive silicon
-- Regulatory approval needed (EU, likely smooth for intra-European deal)
+- Regulatory approval needed ([[EU]], likely smooth for intra-European deal)
 
 ---
 

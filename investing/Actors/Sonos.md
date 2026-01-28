@@ -3,7 +3,7 @@ aliases: [SONO]
 ---
 #actor #audio #consumer-electronics
 
-**Sonos** — Premium wireless speaker company. [[Samsung]] now competing directly with new Wi-Fi speakers (CES 2026).
+**Sonos** — Premium wireless speaker company. [[Samsung]] now competing directly with new Wi-Fi speakers ([[CES 2026]]).
 
 ---
 
@@ -38,10 +38,10 @@ Defined the premium wireless audio category:
 
 | Competitor | Approach |
 |------------|----------|
-| **Samsung** | New Wi-Fi speakers (CES 2026) |
+| **Samsung** | New Wi-Fi speakers ([[CES 2026]]) |
 | Apple HomePod | Siri ecosystem |
-| Amazon Echo | Alexa ecosystem |
-| Google Nest | Google Assistant |
+| [[Amazon]] Echo | Alexa ecosystem |
+| [[Google]] Nest | [[Google]] Assistant |
 | Bose | Premium audio |
 
 **Samsung threat (Jan 2026):** CES reveal of "bold design" Wi-Fi speakers sets up direct Sonos competition. Samsung has distribution and brand advantage.
@@ -75,7 +75,7 @@ Defined the premium wireless audio category:
 - Samsung/big tech competition
 - App crisis damaged brand
 - Hardware margins pressured
-- Limited ecosystem vs Apple/Amazon/Google
+- Limited ecosystem vs Apple/[[Amazon]]/[[Google]]
 
 ---
 
@@ -94,5 +94,5 @@ Defined the premium wireless audio category:
 
 ## Related
 
-- [[Samsung]] — competitor (CES 2026 speakers)
+- [[Samsung]] — competitor ([[CES 2026]] speakers)
 - [[Apple]] — competitor (HomePod)

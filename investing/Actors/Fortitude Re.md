@@ -3,7 +3,7 @@ aliases: [Fortitude Reinsurance, FortitudeRe]
 ---
 #actor #finance #insurance #reinsurance #bermuda
 
-**Fortitude Re** — [[Carlyle Group]]'s reinsurance platform. $106B total assets, 4M+ policies administered. Bermuda-domiciled, focused on acquiring and reinsuring in-force life/annuity books. Launched FCA Re sidecar for Asia expansion (Oct 2025).
+**Fortitude Re** — [[Carlyle Group]]'s reinsurance platform. $106B total assets, 4M+ policies administered. Bermuda-domiciled, focused on acquiring and reinsuring in-force life/annuity books. Launched FCA Re sidecar for [[Asia]] expansion (Oct 2025).
 
 ---
 
@@ -26,10 +26,10 @@ aliases: [Fortitude Reinsurance, FortitudeRe]
 |-------|-------|------|
 | Carlyle-managed fund | 38.53% | PE sponsor |
 | Sovereign Wealth Fund | 32.64% | Strategic investor |
-| T&D Insurance Group | 26.37% | Japanese insurer |
-| Corebridge (AIG) | 2.46% | Legacy stake |
+| T&D [[Insurance]] Group | 26.37% | Japanese insurer |
+| Corebridge ([[AIG]]) | 2.46% | Legacy stake |
 
-Fortitude was originally AIG's legacy life and annuity run-off book, carved out and recapitalized.
+Fortitude was originally [[AIG]]'s legacy life and annuity run-off book, carved out and recapitalized.
 
 ---
 
@@ -47,14 +47,14 @@ Fortitude was originally AIG's legacy life and annuity run-off book, carved out 
 
 ---
 
-## FCA Re — Asia sidecar (Oct 2025)
+## FCA Re — [[Asia]] sidecar (Oct 2025)
 
-**Fortitude Carlyle Asia Reinsurance Ltd.** — Bermuda Class E reinsurer targeting Asian life/annuity market.
+**Fortitude Carlyle [[Asia]] Reinsurance Ltd.** — Bermuda Class E reinsurer targeting Asian life/annuity market.
 
 | Metric | Value |
 |--------|-------|
 | Capital | >$700M (equity + debt capacity) |
-| Target AUM | ~$10B fee-earning once deployed |
+| [[Target]] AUM | ~$10B fee-earning once deployed |
 | Investors | Fortitude Re, Carlyle, T&D, AllianceBernstein, Shinhan Life, Korea NPS |
 | Focus | Asian life and annuity reinsurance |
 
@@ -77,13 +77,13 @@ Modeled on [[Athene]]'s ACRA — a [[Reinsurance sidecars|reinsurance sidecar]] 
 **Bull:**
 - Closed-book run-off = predictable, low-volatility liabilities
 - Carlyle asset management generates spread + fees
-- Asia expansion via FCA Re sidecar
-- T&D relationship opens Japan market
+- [[Asia]] expansion via FCA Re sidecar
+- T&D relationship opens [[Japan]] market
 
 **Bear:**
 - Complex ownership structure
 - Regulatory risk (Bermuda AIR scrutiny)
-- Legacy AIG liabilities may have tail risk
+- Legacy [[AIG]] liabilities may have tail risk
 - Illiquid private credit in investment portfolio
 
 ---
@@ -91,7 +91,7 @@ Modeled on [[Athene]]'s ACRA — a [[Reinsurance sidecars|reinsurance sidecar]] 
 ## Related
 
 - [[Carlyle Group]] — 38.5% owner, asset manager
-- [[Athene]] — peer model (Apollo's platform, ACRA pioneer)
+- [[Athene]] — peer model ([[Apollo]]'s platform, ACRA pioneer)
 - [[Reinsurance sidecars]] — FCA Re structure
 - [[Global Atlantic]] — peer (KKR's platform)
 - [[KKR]] — competitor via Global Atlantic

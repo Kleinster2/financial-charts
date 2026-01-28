@@ -3,7 +3,7 @@ aliases: [Bitcoin miners to AI]
 ---
 #concept #thesis #crypto #ai
 
-**Crypto-to-AI Pivot** — Bitcoin miners converting to AI hosting. Better economics.
+**[[Crypto]]-to-AI Pivot** — Bitcoin miners converting to AI hosting. Better economics.
 
 ---
 
@@ -36,7 +36,7 @@ AI hosting pays more than mining:
 | Company | Ticker | 2024 Return | Key Deal |
 |---------|--------|-------------|----------|
 | [[IREN]] | IREN | +300% | Microsoft $9.7B |
-| [[Hut 8]] | HUT | Strong | Fluidstack/Google $7B |
+| [[Hut 8]] | HUT | Strong | Fluidstack/[[Google]] $7B |
 | [[Core Scientific]] | CORZ | Strong | CoreWeave $3.5B |
 | [[Cipher Mining]] | CIFR | +230% | Pivoting |
 | [[TeraWulf]] | WULF | Strong | Fluidstack 200MW |
@@ -50,7 +50,7 @@ AI hosting pays more than mining:
 |---------|--------|------------|--------|
 | [[Bitdeer]] | BTDR | 570MW Clarington, Ohio | H2 2027 |
 | [[CleanSpark]] | CLSK | Clean energy differentiation | In progress |
-| [[HIVE Digital]] | HIVE | $30M NVIDIA GPUs, $100M AI target | Building |
+| [[HIVE Digital]] | HIVE | $30M [[NVIDIA]] GPUs, $100M AI target | Building |
 
 Bitdeer executing later than peers but committing significant capital.
 
@@ -84,7 +84,7 @@ Everything except GPUs.
 | Miner | Partner | Deal |
 |-------|---------|------|
 | IREN | Microsoft | $9.7B |
-| Hut 8 | Fluidstack/Google | $7B |
+| Hut 8 | Fluidstack/[[Google]] | $7B |
 | Core Scientific | CoreWeave | $3.5B |
 | TeraWulf | Fluidstack | 200MW |
 | **TeraWulf + Hut 8 + Cipher** | **Anthropic** | **~1M TPUv7 infrastructure** |
@@ -105,7 +105,7 @@ Hyperscalers AND AI labs paying premium for powered land.
 
 **Why this matters:**
 - First major AI lab (not hyperscaler) using crypto miners
-- Validates pivot thesis beyond Microsoft/Google
+- Validates pivot thesis beyond Microsoft/[[Google]]
 - Anthropic controlling own facilities, not renting cloud
 - FluidStack as deployment layer (cabling, burn-in, testing)
 
@@ -119,7 +119,7 @@ Hyperscalers AND AI labs paying premium for powered land.
 - Hyperscaler validation
 
 **Avoid pure Bitcoin:**
-- Marathon, Bitdeer
+- [[Marathon]], Bitdeer
 - No pivot = left behind
 
 ---
@@ -140,14 +140,14 @@ Hyperscalers AND AI labs paying premium for powered land.
 ## Related
 
 - [[IREN]] — winner (Microsoft $9.7B deal, +300%)
-- [[Hut 8]] — winner (Fluidstack/Google $7B + Anthropic)
+- [[Hut 8]] — winner (Fluidstack/[[Google]] $7B + Anthropic)
 - [[Core Scientific]] — winner (CoreWeave $3.5B)
 - [[TeraWulf]] — winner (Fluidstack 200MW + Anthropic)
 - [[Cipher Mining]] — winner (+230%, Anthropic deal)
-- [[Nscale]] — winner (Microsoft $23B, UK crypto pivot)
+- [[Nscale]] — winner (Microsoft $23B, [[UK]] crypto pivot)
 - [[Bitdeer]] — pivoting late (570MW Ohio, H2 2027)
 - [[CleanSpark]] — pivoting (clean energy differentiation)
-- [[HIVE Digital]] — pivoting ($30M NVIDIA GPUs, $100M target)
+- [[HIVE Digital]] — pivoting ($30M [[NVIDIA]] GPUs, $100M target)
 - [[Marathon Digital]] — lagging (Bitcoin pure-play)
 - [[CoreWeave]] — customer (hyperscaler buying miner capacity)
 - [[Microsoft]] — customer (buying IREN, Nscale capacity)

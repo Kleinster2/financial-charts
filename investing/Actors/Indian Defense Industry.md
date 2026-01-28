@@ -25,7 +25,7 @@ aliases: [India defense industry, Indian defence industry, Make in India defense
 | Company | Ticker | Focus |
 |---------|--------|-------|
 | L&T Defence | Part of LT.NS | Naval, missiles, systems |
-| Tata Advanced Systems | Part of TCS group | Aerospace, UAVs |
+| Tata Advanced Systems | Part of [[TCS]] group | [[Aerospace]], UAVs |
 | Mahindra Defence | Part of M&M.NS | Vehicles, naval |
 | Adani Defence | Private | Missiles, UAVs, small arms |
 | Kalyani Group | BHARATFORG.NS | Artillery, ammunition |
@@ -64,7 +64,7 @@ aliases: [India defense industry, Indian defence industry, Make in India defense
 | Project 75I subs | TBD | Competition (6 subs) |
 | Project 17A frigates | Mazagon/GRSE | Construction |
 | K-4 SLBM | DRDO | Testing |
-| S-400 | Russia (import) | Delivered |
+| S-400 | [[Russia]] (import) | Delivered |
 
 ---
 
@@ -74,12 +74,12 @@ Traditional suppliers:
 
 | Country | Share | Key systems |
 |---------|-------|-------------|
-| Russia | ~50% | S-400, Sukhoi, tanks |
-| France | ~15% | Rafale, Scorpene subs |
-| Israel | ~10% | Drones, missiles, radar |
+| [[Russia]] | ~50% | S-400, Sukhoi, tanks |
+| [[France]] | ~15% | Rafale, Scorpene subs |
+| Israel | ~10% | [[Drones]], missiles, radar |
 | USA | ~10% | C-17, Apache, P-8 |
 
-Shifting toward: France, Israel, USA (away from Russia).
+Shifting toward: [[France]], Israel, USA (away from [[Russia]]).
 
 ---
 
@@ -88,7 +88,7 @@ Shifting toward: France, Israel, USA (away from Russia).
 | System | Developer | Notes |
 |--------|-----------|-------|
 | Tejas LCA | HAL | Light combat aircraft |
-| BrahMos | Indo-Russian JV | Cruise missile (exporting) |
+| BrahMos | Indo-Russian JV | [[Cruise]] missile (exporting) |
 | Akash | BDL/DRDO | SAM system |
 | INS Vikrant | Cochin Shipyard | Indigenous carrier |
 | Arjun tank | DRDO | Main battle tank |
@@ -103,7 +103,7 @@ Shifting toward: France, Israel, USA (away from Russia).
 | Private sector rising | L&T, Tata, Adani entering |
 | Bureaucracy | Slow procurement cycles |
 | Technology gap | Still importing high-end |
-| China threat | Drives urgency |
+| [[China]] threat | Drives urgency |
 | Export growth | BrahMos to Philippines, etc. |
 
 ---
@@ -115,13 +115,13 @@ Shifting toward: France, Israel, USA (away from Russia).
 - Import substitution = domestic growth
 - Private sector opening
 - Strong order books
-- China/Pakistan threats = sustained demand
+- [[China]]/Pakistan threats = sustained demand
 
 **Bear:**
 - Procurement delays endemic
 - DPSU inefficiency
 - Execution challenges
-- Russia dependence (sanctions risk)
+- [[Russia]] dependence (sanctions risk)
 - Bureaucratic obstacles
 
 **Top picks:** HAL, BEL (liquidity, governance).

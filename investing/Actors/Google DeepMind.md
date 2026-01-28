@@ -3,7 +3,7 @@ aliases: [DeepMind, GDM]
 ---
 #actor #ai #modellab #uk #usa
 
-**Google DeepMind** — Google's AI research lab. Merged DeepMind (UK) + Google Brain (US). Created AlphaGo, AlphaFold, Gemini.
+**Google DeepMind** — Google's AI research lab. Merged DeepMind ([[UK]]) + Google Brain (US). Created AlphaGo, AlphaFold, [[Gemini]].
 
 ---
 
@@ -15,7 +15,7 @@ GDM is Google's frontier AI effort:
 |-------------|--------|
 | AlphaGo (2016) | Beat world Go champion |
 | AlphaFold (2020) | Solved protein folding |
-| Gemini (2023+) | Multimodal LLM family |
+| [[Gemini]] (2023+) | Multimodal LLM family |
 | Gemma | Open-source models |
 
 ---
@@ -26,23 +26,23 @@ GDM is Google's frontier AI effort:
 
 | Lab | Origin | Strength |
 |-----|--------|----------|
-| DeepMind | UK, acquired 2014 for $500M | Research, RL, science |
+| DeepMind | [[UK]], acquired 2014 for $500M | Research, RL, science |
 | Google Brain | US, internal | Scale, infrastructure |
 
 **Leader:** Demis Hassabis (DeepMind founder) now leads combined entity.
 
 ---
 
-## Gemini model family
+## [[Gemini]] model family
 
 **Google's answer to GPT:**
 
 | Model | Use case |
 |-------|----------|
-| Gemini Ultra | Frontier, largest |
-| Gemini Pro | Production workloads |
-| Gemini Nano | On-device |
-| Gemini Flash | Fast, cheap inference |
+| [[Gemini]] Ultra | Frontier, largest |
+| [[Gemini]] Pro | Production workloads |
+| [[Gemini]] Nano | On-device |
+| [[Gemini]] Flash | Fast, cheap inference |
 
 **Distribution:** Google Search, Android, Cloud, Workspace.
 
@@ -52,10 +52,10 @@ GDM is Google's frontier AI effort:
 
 | Aspect | Google DeepMind | [[OpenAI]] |
 |--------|-----------------|-----------|
-| Funding | Google parent | VC + Microsoft |
-| Distribution | Google products (billions) | API, ChatGPT |
+| Funding | Google parent | VC + [[Microsoft]] |
+| Distribution | Google products (billions) | API, [[ChatGPT]] |
 | Research | Stronger (AlphaFold) | Strong |
-| Products | Gemini, Bard, Search | ChatGPT, API |
+| Products | [[Gemini]], Bard, Search | [[ChatGPT]], API |
 | Open source | Gemma | Limited |
 
 **Google's advantage:** Distribution to billions through Search, Android, Gmail.

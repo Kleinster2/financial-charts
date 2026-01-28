@@ -10,7 +10,7 @@
 
 | Metric | FY2026 | FY2027 Proposed | Change |
 |--------|--------|-----------------|--------|
-| Defense budget | $901B | $1.5T | +66% |
+| [[Defense]] budget | $901B | $1.5T | +66% |
 
 **Funding source:** Tariff revenue from 2025-2026 trade actions.
 
@@ -19,8 +19,8 @@
 ## Context
 
 Announced alongside aggressive foreign policy moves:
-- Venezuela military operation (capture Maduro)
-- Greenland acquisition push
+- [[Venezuela]] military operation (capture Maduro)
+- [[Greenland]] acquisition push
 - Colombia military operation floated
 
 Trump: "After long and difficult negotiations... I have determined that, for the Good of our Country, especially in these very troubled and dangerous times, our Military Budget for the year 2027 should not be $1 Trillion Dollars, but rather $1.5 Trillion Dollars."
@@ -29,7 +29,7 @@ Trump: "After long and difficult negotiations... I have determined that, for the
 
 ## Executive order (Jan 8, 2026)
 
-"Prioritizing the Warfighter in Defense Contracting" — signed Jan 8, 2026.
+"Prioritizing the Warfighter in [[Defense]] Contracting" — signed Jan 8, 2026.
 
 ### Key provisions
 
@@ -42,7 +42,7 @@ Trump: "After long and difficult negotiations... I have determined that, for the
 
 ### RTX specifically targeted
 
-Trump singled out [[RTX]] (Raytheon):
+Trump singled out [[RTX]] ([[Raytheon]]):
 - "Least responsive to needs of the DoD"
 - "Slowest in increasing volume"
 - "Most aggressive spending on shareholders rather than military needs"
@@ -50,7 +50,7 @@ Trump singled out [[RTX]] (Raytheon):
 
 ### Why this matters — the defense investment case
 
-Bloomberg Intelligence (Will Lee, George Ferguson): Defense companies have "average profit margins and little chance of breakout earnings." Capital returns are how they attract investors.
+Bloomberg Intelligence (Will Lee, George Ferguson): [[Defense]] companies have "average profit margins and little chance of breakout earnings." Capital returns are how they attract investors.
 
 > "Political shifts and lack of long-term visibility have limited capital investments, while shareholders expect favorable payout and buyback policies given slow growth."
 
@@ -75,7 +75,7 @@ Bloomberg Intelligence (Will Lee, George Ferguson): Defense companies have "aver
 | Legal challenges | Firms seeking advice |
 | Constitutional | Regulatory taking? |
 
-Morgan Stanley: "Carrots and sticks" — budget increase is carrot, capital restrictions are stick.
+[[Morgan Stanley]]: "Carrots and sticks" — budget increase is carrot, capital restrictions are stick.
 
 ---
 
@@ -114,8 +114,8 @@ If passed, likely beneficiaries:
 | **Nuclear modernization** | GBSD (Northrop), Columbia-class subs (GD) |
 | **Air dominance** | B-21 (Northrop), F-35 (Lockheed), NGAD |
 | **Missiles** | Hypersonics, air defense (RTX, Lockheed) |
-| **Space** | Space Force expansion (Northrop, Lockheed) |
-| **Autonomous** | Drones, AI systems (Anduril, primes) |
+| **[[Space]]** | [[Space]] Force expansion (Northrop, Lockheed) |
+| **Autonomous** | [[Drones]], AI systems (Anduril, primes) |
 | **Shipbuilding** | Navy expansion (GD, HII) |
 
 ---
@@ -133,7 +133,7 @@ If passed, likely beneficiaries:
 
 ## Historical context
 
-| Year | Defense Budget | % GDP |
+| Year | [[Defense]] Budget | % GDP |
 |------|----------------|-------|
 | FY2024 | $886B | ~3.5% |
 | FY2025 | $895B | ~3.5% |

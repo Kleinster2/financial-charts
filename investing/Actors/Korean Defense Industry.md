@@ -3,7 +3,7 @@ aliases: [South Korean defense industry, K-defense, ROK defense industry]
 ---
 #actor #industry #defense #korea
 
-**Korean Defense Industry** — Fast-growing exporter. Competitive pricing vs US/Europe. Strong in artillery, vehicles, aircraft. Benefiting from global rearmament.
+**Korean Defense Industry** — Fast-growing exporter. Competitive pricing vs US/[[Europe]]. Strong in artillery, vehicles, aircraft. Benefiting from global rearmament.
 
 ---
 
@@ -11,13 +11,13 @@ aliases: [South Korean defense industry, K-defense, ROK defense industry]
 
 | Company | Ticker | Focus | Market cap |
 |---------|--------|-------|------------|
-| Hanwha Aerospace | 012450.KS | Artillery, engines, space | ~$15B |
-| Korea Aerospace (KAI) | 047810.KS | Aircraft, helicopters | ~$5B |
+| [[Hanwha]] [[Aerospace]] | 012450.KS | Artillery, engines, space | ~$15B |
+| Korea [[Aerospace]] (KAI) | 047810.KS | Aircraft, helicopters | ~$5B |
 | LIG Nex1 | 079550.KS | Missiles, electronics | ~$3B |
-| Hyundai Rotem | 064350.KS | Tanks, rail | ~$2B |
-| Hanwha Ocean | 042660.KS | Shipbuilding, submarines | ~$8B |
+| [[Hyundai]] Rotem | 064350.KS | Tanks, rail | ~$2B |
+| [[Hanwha]] Ocean | 042660.KS | Shipbuilding, submarines | ~$8B |
 
-**Hanwha Group** dominates (aerospace, ocean, defense holdings).
+**[[Hanwha]] Group** dominates (aerospace, ocean, defense holdings).
 
 ---
 
@@ -28,7 +28,7 @@ Korea emerged as top-5 global arms exporter:
 | Customer | Key sales |
 |----------|-----------|
 | Poland | K2 tanks, K9 howitzers, FA-50 jets |
-| Australia | K9 howitzers |
+| [[Australia]] | K9 howitzers |
 | UAE | M-SAM missiles |
 | Egypt | K9 howitzers |
 | Norway | K9 howitzers |
@@ -38,7 +38,7 @@ Korea emerged as top-5 global arms exporter:
 | Factor | Advantage |
 |--------|-----------|
 | Price | 20-40% cheaper than Western |
-| Speed | Faster delivery than US/EU |
+| Speed | Faster delivery than US/[[EU]] |
 | Quality | Proven, battle-tested systems |
 | Tech transfer | Willing to localize production |
 | Reliability | Not subject to US export controls |
@@ -49,8 +49,8 @@ Korea emerged as top-5 global arms exporter:
 
 | System | Manufacturer | Notes |
 |--------|--------------|-------|
-| K9 Thunder | Hanwha | World's best-selling howitzer |
-| K2 Black Panther | Hyundai Rotem | Advanced main battle tank |
+| K9 Thunder | [[Hanwha]] | World's best-selling howitzer |
+| K2 Black Panther | [[Hyundai]] Rotem | Advanced main battle tank |
 | FA-50 | KAI | Light combat aircraft |
 | KF-21 Boramae | KAI | 4.5 gen fighter (development) |
 | Cheongung | LIG Nex1 | Medium-range SAM |
@@ -76,7 +76,7 @@ Korea emerged as top-5 global arms exporter:
 | Factor | Detail |
 |--------|--------|
 | Government support | Strategic priority |
-| Chaebol backing | Hanwha, Hyundai resources |
+| Chaebol backing | [[Hanwha]], [[Hyundai]] resources |
 | Domestic demand | North Korea threat |
 | Tech ambitions | Moving up value chain |
 | Competition | With Turkey, Israel |

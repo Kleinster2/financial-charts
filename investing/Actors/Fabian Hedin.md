@@ -26,7 +26,7 @@
 | Previous | Front-end lead, Depict (2022-2023) |
 | Previous | Founded TenFAST (proptech) |
 | Notable | Built Stephen Hawking's computer interface |
-| Notable | Collaborated with ex-SpaceX engineers on wheelchair tech |
+| Notable | Collaborated with ex-[[SpaceX]] engineers on wheelchair tech |
 | Fun fact | Made thousands from Minecraft at age 11 |
 
 ---
@@ -37,7 +37,7 @@
 |------|---------|--------|
 | Algorithm Engineer | VIKON Vibrationkonsult | Pre-university |
 | Web Developer | Sjukvårdskonsulterna | Pre-university |
-| Intern | ABB Robotics | Pre-university |
+| Intern | [[ABB]] [[Robotics]] | Pre-university |
 | Frontend Lead | Depict | Feb 2022 - Jan 2023 |
 | CTO & Co-founder | [[Lovable]] | 2023- |
 
@@ -57,7 +57,7 @@
 
 **Founders Pledge:** Both co-founders committed to donate half their profits to meaningful causes if Lovable succeeds.
 
-**Project Europe:** Active in initiative supporting European tech companies.
+**Project [[Europe]]:** Active in initiative supporting European tech companies.
 
 ---
 
@@ -67,7 +67,7 @@
 1. **Technical founder** — Built the core Lovable AI system
 2. **European talent** — Shows continent can produce elite engineers
 3. **Young achiever** — Early 20s, CTO of $6.6B company
-4. **Diverse experience** — Hawking interface, SpaceX wheelchair tech
+4. **Diverse experience** — Hawking interface, [[SpaceX]] wheelchair tech
 
 ---
 

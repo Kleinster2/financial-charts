@@ -26,20 +26,20 @@ aliases: [Moody's Ratings, Moody's Corporation, MCO]
 - Strong enthusiasm behind technology
 - Rapid valuation increases — even among loss-making companies
 - FOMO influencing investor behavior
-- Circular deals (e.g., OpenAI-Microsoft)
+- Circular deals (e.g., [[OpenAI]]-[[Microsoft]])
 
 **Sectors at risk if AI valuations drop 40%:**
 
 | Sector | Impact mechanism |
 |--------|------------------|
-| **Banks** | Massive lending to private credit lenders/funds; IB and wealth management revenue hit; CRE lending exposure |
+| **[[Banks]]** | Massive lending to private credit lenders/funds; IB and wealth management revenue hit; CRE lending exposure |
 | **Tech giants** | Limited credit effects — positioned to acquire struggling startups cheaply |
 | **Utilities** | Heavy data center construction investment at risk |
 | **Commercial real estate** | Data center development exposure |
-| **Media** | Ad spending cuts |
+| **[[Media]]** | Ad spending cuts |
 | **Consumers** | Wealth effect drag on spending |
 
-**Key insight:** Banks face dual exposure — direct lending to AI companies AND indirect exposure through private credit funds they've financed.
+**Key insight:** [[Banks]] face dual exposure — direct lending to AI companies AND indirect exposure through private credit funds they've financed.
 
 ---
 
@@ -71,7 +71,7 @@ aliases: [Moody's Ratings, Moody's Corporation, MCO]
 | **Moody's** | Credit ratings, analytics |
 | [[S&P Global]] | Ratings, indices, data |
 | Fitch | Ratings |
-| DBRS Morningstar | Fourth player |
+| DBRS [[Morningstar]] | Fourth player |
 
 ---
 

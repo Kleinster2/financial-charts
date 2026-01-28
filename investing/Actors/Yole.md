@@ -25,8 +25,8 @@ Deep expertise in semiconductor manufacturing trends:
 | Area | Relevance to vault |
 |------|-------------------|
 | **CoWoS/packaging** | [[TSMC]], [[SK Hynix]] capacity constraints |
-| **HBM** | Memory stacking technology |
-| **Chiplets** | AMD, Intel architectures |
+| **[[HBM]]** | Memory stacking technology |
+| **Chiplets** | [[AMD]], [[Intel]] architectures |
 | **SiC/GaN** | EV power electronics |
 
 ---
@@ -49,7 +49,7 @@ Yole data useful for:
 |------|---------|
 | **Yole** | Packaging, MEMS (deepest) |
 | [[TrendForce]] | Memory pricing |
-| [[Omdia]] | Semiconductors (broader) |
+| [[Omdia]] | [[Semiconductors]] (broader) |
 | VLSI Research | WFE equipment |
 | SemiAnalysis | Technical deep dives |
 
@@ -60,7 +60,7 @@ Yole data useful for:
 | Metric | Value |
 |--------|-------|
 | Type | Market research firm |
-| HQ | Lyon, France |
+| HQ | Lyon, [[France]] |
 | Focus | Semiconductor technology |
 | Coverage | Packaging, MEMS, power, compound |
 | Investable | No |
@@ -73,5 +73,5 @@ Yole data useful for:
 
 - [[Advanced packaging]] — Yole tracks CoWoS, 2.5D/3D
 - [[TSMC]] — packaging capacity data
-- [[SK Hynix]] — HBM packaging analysis
+- [[SK Hynix]] — [[HBM]] packaging analysis
 - [[Foundry Wars]] — manufacturing trend context

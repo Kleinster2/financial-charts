@@ -73,7 +73,7 @@ Vorcaro acquired Banco Máxima with the **Conte brothers** (Antonio Augusto and 
 | **Biomm, Gafisa, Light, Westwing** | Various stakes (distressed plays) |
 | **Sozo Real Estate** | Miami real estate company |
 
-### Luxury lifestyle
+### [[Luxury]] lifestyle
 
 | Asset | Detail |
 |-------|--------|
@@ -102,7 +102,7 @@ All three jets purchased 2022-2025, paid in cash (no financing).
 
 Federal Police identified **Nelson Tanure** (investor in Light, Prio, distressed companies) as "sócio oculto" (hidden partner) of Master. Tanure denies any ownership.
 
-**Alleged scheme:** CVM report found "coordinated" action between Tanure and Master to inflate Ambipar shares (+700%). Tanure used MAM Asset (Vorcaro's fund manager) for major acquisitions including Copel Telecom (R$2.5B) and EMAE privatization.
+**Alleged scheme:** CVM report found "coordinated" action between Tanure and Master to inflate Ambipar shares (+700%). Tanure used MAM Asset (Vorcaro's fund manager) for major acquisitions including Copel [[Telecom]] (R$2.5B) and EMAE privatization.
 
 ---
 
@@ -142,7 +142,7 @@ Offer above-market CDB rates
 | Step | Detail |
 |------|--------|
 | 1. Originate | Master issues fictitious loans to 36 shell companies |
-| 2. Invest | Shell companies "invest" proceeds in Reag funds |
+| 2. Invest | [[Shell]] companies "invest" proceeds in Reag funds |
 | 3. Inflate | Reag marks up assets (Besc cártulas) to fabricated valuations |
 | 4. Extract | Profits extracted through fund redemptions |
 
@@ -152,7 +152,7 @@ Offer above-market CDB rates
 |--------|-------|
 | Total diverted | R$11.5B ($2.1B) |
 | Forged instruments | Up to R$17B ($3.15B) |
-| Shell companies | 36 (avg loan R$288M each) |
+| [[Shell]] companies | 36 (avg loan R$288M each) |
 | Reag funds implicated | 8 |
 
 ### The BESC cártulas — worthless "assets"
@@ -249,7 +249,7 @@ The scandal engulfed Brazil's highest court — four sitting justices, two forme
 | **Dias Toffoli** | Case rapporteur (assigned 11 days after Vorcaro's arrest); traveled to Libertadores final (Lima) on private jet with Vorcaro's defense lawyer; imposed maximum secrecy on case |
 | **Alexandre de Moraes** | Wife's R$129M contract; contacted CB president Galípolo 6+ times (5 in one day) during investigation |
 | **Gilmar Mendes** | Pending Master tax appeal (CSLL) in his office; attended sponsored events |
-| **Luiz Fux** | Attended Brazil Conference at Cambridge (Master was Platinum sponsor) |
+| **Luiz Fux** | Attended Brazil Conference at Cambridge (Master was [[Platinum]] sponsor) |
 | **Luís Roberto Barroso** | Former STF president; attended 2024 Rome forum (Master sponsor) |
 | **Ricardo Lewandowski** | Former justice, now Justice Minister; attended sponsored events |
 | **Paulo Gonet** | Attorney General; attended sponsored events |
@@ -419,7 +419,7 @@ Brazil's audit court (TCU) briefly threatened to challenge the liquidation, crea
 
 ---
 
-## Comparison to [[Ayandeh Bank]] (Iran 2025)
+## Comparison to [[Ayandeh Bank]] ([[Iran]] 2025)
 
 Two [[Bank cronyism]] collapses one month apart — one democratic, one authoritarian. Both linked to ~40-45 year old political structures.
 
@@ -428,7 +428,7 @@ Two [[Bank cronyism]] collapses one month apart — one democratic, one authorit
 | **Collapsed** | November 2025 | October 2025 |
 | **Deposits** | $7.6B (R$41B) | $2.34B |
 | **Political structure** | Nova República (1985) — 40 years | Islamic Revolution (1979) — 46 years |
-| **Owner outcome** | Arrested fleeing | Protected in Iran |
+| **Owner outcome** | Arrested fleeing | Protected in [[Iran]] |
 | **Who pays** | FGC (banks) | Depositors (inflation) |
 
 **Key insight:** Same pattern, different outcomes. Both Vorcaro and Ansari were outsiders who learned to plug into mature political networks. The structures taught them what was possible.
@@ -442,7 +442,7 @@ See [[Ayandeh-Master comparison]] for full analysis.
 ### Concepts
 - [[Bank cronyism]] — the pattern
 - [[Brazilian cronyism]] — country context
-- [[Ayandeh-Master comparison]] — parallel collapse (Iran 2025)
+- [[Ayandeh-Master comparison]] — parallel collapse ([[Iran]] 2025)
 - [[Banking concentration]] — separate issue (oligopoly)
 
 ### Events

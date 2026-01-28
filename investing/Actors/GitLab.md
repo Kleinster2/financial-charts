@@ -50,7 +50,7 @@
 |--------|-------|
 | Batch | **Winter 2015** |
 | Team size at YC | 9 people |
-| Post-YC | Raised from Khosla Ventures, GV, ICONIQ |
+| Post-YC | Raised from [[Khosla Ventures]], [[GV]], ICONIQ |
 
 ---
 
@@ -112,9 +112,9 @@
 
 | Competitor | Comparison |
 |------------|------------|
-| **GitHub** (Microsoft) | Larger market share, acquired 2018 |
-| **Bitbucket** (Atlassian) | Jira integration advantage |
-| **Azure DevOps** | Microsoft enterprise |
+| **GitHub** ([[Microsoft]]) | Larger market share, acquired 2018 |
+| **Bitbucket** ([[Atlassian]]) | Jira integration advantage |
+| **Azure DevOps** | [[Microsoft]] enterprise |
 
 **GitLab advantage:** Single platform for entire DevOps lifecycle vs point solutions.
 
@@ -139,7 +139,7 @@
 
 1. **DevOps consolidation** — Single platform replacing point solutions.
 
-2. **88% gross margin** — Best-in-class SaaS economics.
+2. **88% gross margin** — Best-in-class [[SaaS]] economics.
 
 3. **AI integration** — GitLab Duo adds AI-assisted coding.
 
@@ -148,7 +148,7 @@
 5. **Path to profitability** — Net loss shrinking, FCF positive.
 
 **Risks:**
-- GitHub/Microsoft competition
+- GitHub/[[Microsoft]] competition
 - Enterprise sales cycle
 - Valuation still demanding
 
@@ -166,8 +166,8 @@
 - [[Brex]] — YC peer
 
 ### Competitors
-- GitHub (Microsoft)
-- Bitbucket (Atlassian)
+- GitHub ([[Microsoft]])
+- Bitbucket ([[Atlassian]])
 - Azure DevOps
 
 ### Technology

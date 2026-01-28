@@ -25,7 +25,7 @@ aliases: [Z, ZG, Zillow Group]
 |---------|-------------|
 | **Premier Agent** | Lead gen to real estate agents |
 | **Rentals** | Rental listings marketplace |
-| **Mortgages** | Zillow Home Loans |
+| **Mortgages** | Zillow [[Home]] Loans |
 | **New Construction** | Builder listings |
 
 **Exited iBuying (Zillow Offers) in 2021** — massive write-down, refocused on marketplace.
@@ -51,7 +51,7 @@ aliases: [Z, ZG, Zillow Group]
 
 | Metric | 2025 | 2026E |
 |--------|------|-------|
-| Home value growth | Flat | +1.2% |
+| [[Home]] value growth | Flat | +1.2% |
 | Existing home sales | ~4.09M | 4.26M (+4.3%) |
 | Homes losing value | 53% | Improving |
 

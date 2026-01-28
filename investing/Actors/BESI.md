@@ -3,7 +3,7 @@ aliases: [BE Semiconductor, BESI.AS]
 ---
 #actor #semiconductor #equipment #netherlands #public
 
-**BESI (BE Semiconductor Industries)** — Advanced packaging equipment leader. Die bonding, hybrid bonding. Key beneficiary of CoWoS/HBM growth.
+**BESI (BE Semiconductor Industries)** — Advanced packaging equipment leader. Die bonding, hybrid bonding. Key beneficiary of CoWoS/[[HBM]] growth.
 
 ---
 
@@ -48,7 +48,7 @@ Advanced packaging equipment specialist:
 | Trend | BESI benefit |
 |-------|--------------|
 | CoWoS growth | Die attach equipment |
-| HBM stacking | Bonding equipment |
+| [[HBM]] stacking | Bonding equipment |
 | Chiplets | More die bonding steps |
 | 3D integration | Hybrid bonding |
 
@@ -71,7 +71,7 @@ Advanced packaging equipment specialist:
 - Advanced packaging secular growth
 - Hybrid bonding leader
 - High margins (~60%+ gross)
-- HBM/AI demand
+- [[HBM]]/AI demand
 
 **Bear:**
 - Small company, concentrated
@@ -99,5 +99,5 @@ Advanced packaging equipment specialist:
 - [[Advanced packaging]] — primary theme
 - [[ASE]], [[Amkor]] — customers (OSATs)
 - [[TSMC]] — CoWoS demand driver
-- [[SK Hynix]], [[Samsung]] — HBM demand
+- [[SK Hynix]], [[Samsung]] — [[HBM]] demand
 - [[Long WFE]] — equipment supplier

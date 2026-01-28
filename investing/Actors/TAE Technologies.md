@@ -1,6 +1,6 @@
 #actor #nuclear #fusion #usa
 
-**TAE Technologies** — Nuclear fusion startup. Merging with Trump Media (TMTG) in $6B deal. Highly speculative.
+**TAE Technologies** — Nuclear fusion startup. Merging with Trump [[Media]] (TMTG) in $6B deal. Highly speculative.
 
 ---
 
@@ -12,7 +12,7 @@ TAE represents the most speculative end of the AI power thesis — fusion:
 |--------|---------|
 | Technology | Hydrogen-boron fusion (aneutronic) |
 | Status | Pre-commercial, no working reactor |
-| Target | First 50 MWe plant by 2031 |
+| [[Target]] | First 50 MWe plant by 2031 |
 | Differentiator | Cleaner than deuterium-tritium fusion |
 
 ---
@@ -51,8 +51,8 @@ TAE represents the most speculative end of the AI power thesis — fusion:
 
 | Investor | Notes |
 |----------|-------|
-| Google/Alphabet | Strategic |
-| Chevron | Energy major |
+| [[Google]]/Alphabet | Strategic |
+| [[Chevron]] | Energy major |
 | Various VCs | $1.3B+ total raised |
 
 ---
@@ -101,7 +101,7 @@ TAE represents the most speculative end of the AI power thesis — fusion:
 **Bull (extremely speculative):**
 - If fusion works, it's unlimited clean energy
 - Trump administration support = regulatory tailwinds
-- Google/Chevron backing = smart money validation
+- [[Google]]/[[Chevron]] backing = smart money validation
 - Hydrogen-boron is cleaner than alternatives
 
 **Bear:**
@@ -128,7 +128,7 @@ TAE is a lottery ticket, not an investment thesis.
 
 | Metric | Value |
 |--------|-------|
-| Merger partner | Trump Media (TMTG/DJT) |
+| Merger partner | Trump [[Media]] (TMTG/DJT) |
 | Deal value | $6B |
 | Founded | 1998 |
 | HQ | Foothill Ranch, California |

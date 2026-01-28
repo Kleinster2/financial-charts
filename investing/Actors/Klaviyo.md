@@ -63,7 +63,7 @@ Shopify is strategic investor and partner.
 
 | Competitor | Focus |
 |------------|-------|
-| Mailchimp (Intuit) | SMB email |
+| Mailchimp ([[Intuit]]) | SMB email |
 | HubSpot | Marketing suite |
 | Braze | Enterprise mobile |
 | Attentive | SMS |
@@ -94,7 +94,7 @@ One of better 2023 IPOs.
 
 **Bear:**
 - SMB exposure
-- Intuit/Mailchimp competition
+- [[Intuit]]/Mailchimp competition
 - Valuation vs. growth
 - Economic sensitivity
 

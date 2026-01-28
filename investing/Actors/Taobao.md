@@ -3,7 +3,7 @@ aliases: [淘宝]
 ---
 #actor #ecommerce #china #subsidiary
 
-**Taobao** — China's largest e-commerce marketplace. 892M MAU. ~$1T+ GMV. C2C model (consumer-to-consumer). Part of [[Alibaba]] alongside [[Tmall]] (B2C). Now integrating with [[Alibaba]]'s Qwen AI for agentic commerce.
+**Taobao** — China's largest e-commerce marketplace. 892M MAU. ~$1T+ GMV. C2C model (consumer-to-consumer). Part of [[Alibaba]] alongside [[Tmall]] (B2C). Now integrating with [[Alibaba]]'s [[Qwen]] AI for agentic commerce.
 
 ---
 
@@ -88,9 +88,9 @@ Skews young and male — different from JD (families) or Pinduoduo (value-seeker
 
 ## AI integration (2026)
 
-**Agentic commerce with Qwen:**
+**Agentic commerce with [[Qwen]]:**
 
-Taobao now integrated into [[Alibaba]]'s Qwen AI chatbot for end-to-end shopping:
+Taobao now integrated into [[Alibaba]]'s [[Qwen]] AI chatbot for end-to-end shopping:
 
 | Capability | Status |
 |------------|--------|
@@ -99,7 +99,7 @@ Taobao now integrated into [[Alibaba]]'s Qwen AI chatbot for end-to-end shopping
 | Purchase completion | Live |
 | Integration with [[Alipay]] | Live |
 
-See [[Alibaba]] for full Qwen agentic commerce details.
+See [[Alibaba]] for full [[Qwen]] agentic commerce details.
 
 **Strategic shift:** From search-based shopping to conversational/AI-driven discovery.
 
@@ -122,8 +122,8 @@ Cainiao gives Taobao/Tmall logistics edge but is not fully owned (Alibaba has 52
 
 | Platform | Region | Status |
 |----------|--------|--------|
-| AliExpress | Global (esp. Europe, LatAm) | Cross-border from China |
-| Lazada | Southeast Asia | Local marketplaces |
+| AliExpress | Global (esp. [[Europe]], LatAm) | Cross-border from China |
+| Lazada | [[Southeast Asia]] | Local marketplaces |
 
 Alibaba's e-commerce extends beyond China through these platforms.
 
@@ -142,7 +142,7 @@ Alibaba's e-commerce extends beyond China through these platforms.
 - Live commerce share loss to Douyin/Kuaishou
 - Pinduoduo price competition
 - Regulatory scrutiny (antitrust)
-- Consumer spending slowdown
+- [[Consumer]] spending slowdown
 
 ---
 
@@ -156,7 +156,7 @@ Alibaba's e-commerce extends beyond China through these platforms.
 | GMV | $1T+ |
 | Revenue contribution | 65% of Alibaba |
 | Founded | 2003 |
-| HQ | Hangzhou |
+| HQ | [[Hangzhou]] |
 
 *Created 2026-01-21*
 

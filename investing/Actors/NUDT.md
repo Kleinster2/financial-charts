@@ -1,21 +1,21 @@
 ---
-aliases: [National University of Defense Technology, 国防科技大学]
+aliases: [National University of [[Defense]] Technology, 国防科技大学]
 ---
 #actor #china #military #ai #compute
 
-**NUDT (National University of Defense Technology)** — China's top military research university. Built Tianhe supercomputers. PLA-affiliated. On US entity list.
+**NUDT (National University of [[Defense]] Technology)** — [[China]]'s top military research university. Built Tianhe supercomputers. PLA-affiliated. On US entity list.
 
 ---
 
 ## Why NUDT matters
 
-The military side of China's AI ecosystem:
+The military side of [[China]]'s AI ecosystem:
 
 | Metric | Value |
 |--------|-------|
 | Location | Changsha, Hunan |
 | Affiliation | People's Liberation Army (PLA) |
-| Focus | Defense tech, supercomputing, AI |
+| Focus | [[Defense]] tech, supercomputing, AI |
 | Status | Entity List (US export controls) |
 | Significance | Tianhe supercomputers |
 
@@ -27,13 +27,13 @@ NUDT's flagship achievement:
 
 | System | Year | Peak performance | Note |
 |--------|------|------------------|------|
-| Tianhe-1 | 2009 | 2.5 PFLOPS | First China #1 ranking |
+| Tianhe-1 | 2009 | 2.5 PFLOPS | First [[China]] #1 ranking |
 | Tianhe-1A | 2010 | 4.7 PFLOPS | World #1 (briefly) |
 | Tianhe-2 | 2013 | 54.9 PFLOPS | World #1 for years |
 | Tianhe-2A | 2018 | 100+ PFLOPS | Upgraded |
 | Tianhe-3 | 2021+ | Exascale target | In development |
 
-**Tianhe-2 used Intel Xeon + Xeon Phi** — until US export controls (2015) forced domestic chip development.
+**Tianhe-2 used [[Intel]] Xeon + Xeon Phi** — until US export controls (2015) forced domestic chip development.
 
 ---
 
@@ -62,9 +62,9 @@ NUDT was added to the US Entity List in 2015:
 | Impact | Forced domestic chip development |
 
 **Response:** NUDT accelerated work on domestic processors:
-- Matrix-2000 (DSP accelerator)
+- [[Matrix]]-2000 (DSP accelerator)
 - Collaboration with domestic chip firms
-- Less dependent on Intel/AMD
+- Less dependent on [[Intel]]/[[AMD]]
 
 ---
 
@@ -83,7 +83,7 @@ NUDT was added to the US Entity List in 2015:
 
 ## Comparison to US
 
-| Aspect | NUDT (China) | US equivalent |
+| Aspect | NUDT ([[China]]) | US equivalent |
 |--------|--------------|---------------|
 | Military university | Yes (PLA) | Service academies, NPS |
 | Supercomputing | Tianhe | DOE labs (Oak Ridge, Livermore) |
@@ -99,16 +99,16 @@ NUDT was added to the US Entity List in 2015:
 **Indirect relevance:**
 - Represents compute capacity not in commercial metrics
 - Alumni in commercial surveillance/AI
-- Explains why some China AI advances seem to "appear suddenly"
+- Explains why some [[China]] AI advances seem to "appear suddenly"
 
 **Thesis implications:**
-- China AI capability includes non-commercial compute
+- [[China]] AI capability includes non-commercial compute
 - Entity List forces domestic innovation
 - Civil-military fusion means commercial AI has defense applications
 
 ---
 
-## Risks (for China watchers)
+## Risks (for [[China]] watchers)
 
 | Risk | Details |
 |------|---------|

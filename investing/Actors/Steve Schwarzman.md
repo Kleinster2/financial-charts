@@ -1,6 +1,6 @@
 #actor #finance #privateequity #billionaire
 
-**Steve Schwarzman** (Stephen Allen Schwarzman, born February 14, 1947) — Chairman and CEO of [[Blackstone]], the world's largest alternative asset manager ($1.2T AUM). Co-founded Blackstone in 1985 with $400K; now worth ~$52B. Major philanthropist with focus on AI education and US-China relations.
+**Steve Schwarzman** (Stephen Allen Schwarzman, born February 14, 1947) — Chairman and CEO of [[Blackstone]], the world's largest alternative asset manager ($1.2T AUM). Co-founded Blackstone in 1985 with $400K; now worth ~$52B. Major philanthropist with focus on AI education and [[US-China relations]].
 
 ---
 
@@ -56,17 +56,17 @@ Signed The Giving Pledge (February 2020) — committed majority of wealth to phi
 | 2007 | Library | $100M | New York Public Library |
 | 2013 | Schwarzman Scholars | $575M+ | Tsinghua University, Beijing |
 | 2019 | College of Computing | — | MIT |
-| 2024 | KBE | — | Honorary Knight, British Empire (services to philanthropy) |
+| 2024 | [[KBE]] | — | Honorary Knight, British Empire (services to philanthropy) |
 
-**Schwarzman Scholars:** Modeled on Rhodes Scholarship. Largest philanthropic effort in China's history from largely international donors. Founded after 2015 meeting with Jack Ma sparked Schwarzman's interest in AI.
+**Schwarzman Scholars:** Modeled on Rhodes Scholarship. Largest philanthropic effort in [[China]]'s history from largely international donors. Founded after 2015 meeting with Jack Ma sparked Schwarzman's interest in AI.
 
 **AI focus:** >$500M donated toward AI education and research.
 
 ---
 
-## China engagement
+## [[China]] engagement
 
-Regular participant in high-level China-US business diplomacy:
+Regular participant in high-level [[China]]-US business diplomacy:
 - 2025: Met with VP Ding Xuexiang at Davos alongside [[Jamie Dimon]]
 - Schwarzman Scholars program at Tsinghua maintains deep institutional ties
 

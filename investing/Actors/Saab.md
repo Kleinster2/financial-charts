@@ -3,7 +3,7 @@ aliases: [Saab AB, SAAB-B.ST]
 ---
 #actor #defense #sweden #public
 
-**Saab** — Swedish defense champion. Gripen fighter, submarines, missiles, radar. Export-focused with competitive pricing vs US/EU.
+**Saab** — Swedish defense champion. Gripen fighter, submarines, missiles, radar. Export-focused with competitive pricing vs US/[[EU]].
 
 ---
 
@@ -39,10 +39,10 @@ Competitive alternative to F-35:
 
 | Customer | Quantity | Notes |
 |----------|----------|-------|
-| Sweden | 60+ | Home fleet |
-| Brazil | 36 | Gripen E |
+| Sweden | 60+ | [[Home]] fleet |
+| [[Brazil]] | 36 | Gripen E |
 | Hungary | 14 | Lease → buy |
-| South Africa | 26 | |
+| South [[Africa]] | 26 | |
 | Thailand | 12 | |
 
 **Advantage:** Lower acquisition + operating cost than F-35.
@@ -71,7 +71,7 @@ Competitive alternative to F-35:
 - Strong order book
 
 **Bear:**
-- Small scale vs US/EU majors
+- Small scale vs US/[[EU]] majors
 - Gripen losing to F-35
 - Currency (SEK) volatility
 - Limited diversification

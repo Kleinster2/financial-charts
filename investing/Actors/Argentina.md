@@ -3,7 +3,7 @@ aliases: [Argentine]
 ---
 #actor #sovereign #latam #datacenter
 
-**Argentina** — Emerging AI infrastructure destination. Stargate's first LATAM site ($25B). Milei government aggressively courting tech with RIGI incentives.
+**Argentina** — Emerging AI infrastructure destination. Stargate's first [[LATAM]] site ($25B). Milei government aggressively courting tech with RIGI incentives.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [Argentine]
 | Government | Milei actively pro-tech, pro-US |
 | Incentives | RIGI program for $200M+ investments |
 | Energy | Cheap hydro/wind in Patagonia |
-| Adoption | High ChatGPT usage per capita |
+| Adoption | High [[ChatGPT]] usage per capita |
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [Argentine]
 |--------|---------|
 | Investment | $25B |
 | Location | Patagonia |
-| Capacity | 500MW (largest in LATAM) |
+| Capacity | 500MW (largest in [[LATAM]]) |
 | Partner | Sur Energy |
 | Power | Renewable energy (wind/hydro) |
 | Timeline | Construction 2026, first 100MW 2027 |
@@ -57,7 +57,7 @@ Designed to attract hyperscale infrastructure investment.
 
 ## Milei's tech positioning
 
-| Action | Signal |
+| Action | [[Signal]] |
 |--------|--------|
 | Met with OpenAI delegation | Personal involvement |
 | RIGI program launch | Structural incentives |
@@ -77,21 +77,21 @@ Patagonia offers:
 | Wind | Some of world's best wind resources |
 | Hydro | Existing hydroelectric capacity |
 | Solar | Northern regions |
-| Cost | Below US/EU electricity prices |
+| Cost | Below US/[[EU]] electricity prices |
 | Grid | Less congested than US markets |
 
 **The pitch**: Cheap, clean power for compute-intensive AI workloads.
 
 ---
 
-## vs Other LATAM
+## vs Other [[LATAM]]
 
 | Country | Data center status |
 |---------|-------------------|
 | **Argentina** | Stargate ($25B, 500MW) — largest |
-| Brazil | Existing hyperscaler presence |
-| Chile | Growing, good connectivity |
-| Mexico | Nearshoring beneficiary |
+| [[Brazil]] | Existing hyperscaler presence |
+| [[Chile]] | Growing, good connectivity |
+| [[Mexico]] | Nearshoring beneficiary |
 
 Argentina leap-frogging with single mega-project.
 
@@ -120,7 +120,7 @@ RIGI's 30-year stability clause designed to mitigate political risk.
 
 **Indirect beneficiaries:**
 - Regional connectivity providers
-- LATAM cloud expansion plays
+- [[LATAM]] cloud expansion plays
 
 **Watch for:**
 - Stargate Argentina construction milestones
@@ -136,4 +136,4 @@ RIGI's 30-year stability clause designed to mitigate political risk.
 - [[OpenAI]] — Stargate anchor tenant
 - [[Masayoshi Son]] — Stargate lead investor
 - [[Brazil AI]] — Regional comparison
-- [[Mexico Tech]] — LATAM peer
+- [[Mexico Tech]] — [[LATAM]] peer

@@ -2,7 +2,7 @@
 
 #actor #startup #private #sweden #ai #vibe-coding
 
-**Lovable** — AI coding platform (vibe coding). Swedish. **$6.6B valuation, $200M+ ARR, grew 30x in one year.** From GPT Engineer open source project. Investors: CapitalG, [[Menlo Ventures]], NVIDIA, Accel, Salesforce. Auto-provisions [[Supabase]] for backends. Europe's leading vibe coding player.
+**Lovable** — AI coding platform (vibe coding). Swedish. **$6.6B valuation, $200M+ ARR, grew 30x in one year.** From GPT Engineer open source project. Investors: [[CapitalG]], [[Menlo Ventures]], NVIDIA, Accel, [[Salesforce]]. Auto-provisions [[Supabase]] for backends. [[Europe]]'s leading vibe coding player.
 
 ---
 
@@ -46,7 +46,7 @@
 | Mid 2025 | $100M | 8 months to $100M |
 | Nov 2025 | **$200M+** | Doubled in 4 months |
 
-**Growth:** ~30x ARR in one year. One of fastest-growing SaaS companies ever.
+**Growth:** ~30x ARR in one year. One of fastest-growing [[SaaS]] companies ever.
 
 *Source: Sacra estimates*
 
@@ -60,7 +60,7 @@
 |-------|------|--------|-----------|------|
 | Seed | 2024 | — | — | — |
 | Series A | July 2025 | $200M | $1.8B | [[Accel]] |
-| Series B | Dec 2025 | $330M | **$6.6B** | CapitalG, [[Menlo Ventures]] |
+| Series B | Dec 2025 | $330M | **$6.6B** | [[CapitalG]], [[Menlo Ventures]] |
 
 **Total raised: $500M+**
 
@@ -68,18 +68,18 @@
 
 | Investor | Notes |
 |----------|-------|
-| **CapitalG** (Alphabet) | Series B co-lead |
+| **[[CapitalG]]** (Alphabet) | Series B co-lead |
 | **[[Menlo Ventures]]** | Series B co-lead |
-| **NVentures** ([[NVIDIA]]) | Series B |
+| **[[NVentures]]** ([[NVIDIA]]) | Series B |
 | **[[Accel]]** | Series A lead |
-| **Salesforce Ventures** | Series B |
-| **Databricks Ventures** | Series B |
-| **Khosla Ventures** | Series B |
-| **DST Global** | Series B |
-| **EQT Global** | Series B |
+| **[[Salesforce]] Ventures** | Series B |
+| **[[Databricks Ventures]]** | Series B |
+| **[[Khosla Ventures]]** | Series B |
+| **[[DST Global]]** | Series B |
+| **[[EQT]] Global** | Series B |
 | **Creandum** | Series A, B |
-| **Atlassian Ventures** | Series B |
-| **HubSpot Ventures** | Series B |
+| **[[Atlassian]] Ventures** | Series B |
+| **[[HubSpot]] Ventures** | Series B |
 | Kinship Ventures (Gwyneth Paltrow) | Series B |
 
 ---
@@ -96,15 +96,15 @@ Users describe what they want in natural language → Lovable generates full wor
 | Output | Full apps, websites |
 | Backend | Auto-provisions [[Supabase]] |
 | Models | OpenAI, Anthropic |
-| Target user | Non-technical builders |
+| [[Target]] user | Non-technical builders |
 
 ### Key customers
 
 | Customer | Type |
 |----------|------|
-| Uber | Enterprise |
-| Klarna | Enterprise |
-| Deutsche Telekom | Enterprise |
+| [[Uber]] | Enterprise |
+| [[Klarna]] | Enterprise |
+| [[Deutsche Telekom]] | Enterprise |
 
 ---
 
@@ -126,7 +126,7 @@ Better product → More users
 |--------|--------|
 | **Vibe coding wave** | Non-technical users can now build apps |
 | **Supabase integration** | Instant backend provisioning |
-| **Enterprise adoption** | Uber, Klarna validate for others |
+| **Enterprise adoption** | [[Uber]], [[Klarna]] validate for others |
 | **AI model improvements** | Better outputs = more use cases |
 
 ### Structural advantages
@@ -144,13 +144,13 @@ Better product → More users
 
 | Competitor | Positioning | Valuation |
 |------------|-------------|-----------|
-| **Cursor** (Anysphere) | AI code editor | $29B |
+| **[[Cursor]]** ([[Anysphere]]) | AI code editor | $29B |
 | **Bolt.new** | AI app builder | — |
 | **v0** ([[Vercel]]) | AI web builder | Part of Vercel |
 | **Replit** | AI coding environment | $1B+ |
 | [[Builder.ai]] | No-code (collapsed) | Was $1.5B |
 
-**Key distinction:** Lovable is full-stack app generation, not just code completion (Cursor) or components (v0).
+**Key distinction:** Lovable is full-stack app generation, not just code completion ([[Cursor]]) or components (v0).
 
 ---
 
@@ -159,7 +159,7 @@ Better product → More users
 | Risk | Severity | Notes |
 |------|----------|-------|
 | **AI model dependency** | High | Relies on OpenAI/Anthropic |
-| **Cursor competition** | High | $29B competitor with dev mindshare |
+| **[[Cursor]] competition** | High | $29B competitor with dev mindshare |
 | **Sustainability of growth** | Medium | 30x growth hard to sustain |
 | **Enterprise churn** | Medium | Unproven at scale |
 | **Builder.ai shadow** | Low | Fraud concerns for space |
@@ -172,8 +172,8 @@ Better product → More users
 
 1. **Vibe coding pure-play** — Clearest bet on non-technical app building
 2. **Supabase growth driver** — Auto-provisions Supabase backends
-3. **European AI champion** — Largest EU AI startup by growth
-4. **Investor signal** — NVIDIA, Google, Salesforce, Databricks all in
+3. **European AI champion** — Largest [[EU]] AI startup by growth
+4. **Investor signal** — NVIDIA, [[Google]], [[Salesforce]], Databricks all in
 5. **IPO candidate** — $200M ARR, $6.6B valuation, 2026-2027 potential
 
 ---
@@ -189,11 +189,11 @@ Better product → More users
 ### Investors
 - [[Menlo Ventures]] — Series B co-lead, unicorn
 - [[Accel]] — Series A lead
-- [[NVIDIA]] — NVentures participated
-- [[Databricks]] — Databricks Ventures participated
+- [[NVIDIA]] — [[NVentures]] participated
+- [[Databricks]] — [[Databricks Ventures]] participated
 
 ### Competitors
-- Cursor (Anysphere) — AI coding, $29B
+- [[Cursor]] ([[Anysphere]]) — AI coding, $29B
 - [[Builder.ai]] — collapsed competitor (fraud)
 
 ### Concepts

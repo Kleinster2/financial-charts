@@ -26,7 +26,7 @@ aliases: [KO, Coke]
 | **Sparkling** | Coca-Cola, Sprite, Fanta |
 | **Hydration** | Dasani, Smartwater |
 | **Juice/Dairy** | Minute Maid, Simply |
-| **Coffee/Tea** | Costa Coffee, Gold Peak |
+| **Coffee/Tea** | Costa Coffee, [[Gold]] Peak |
 | **Energy** | Monster (stake) |
 
 ---
@@ -48,9 +48,9 @@ aliases: [KO, Coke]
 |--------|-----------|
 | North America | ~35% |
 | Latin America | ~25% |
-| Europe/Middle East | ~20% |
-| Asia-Pacific | ~15% |
-| Africa | ~5% |
+| [[Europe]]/Middle East | ~20% |
+| [[Asia]]-Pacific | ~15% |
+| [[Africa]] | ~5% |
 
 ---
 

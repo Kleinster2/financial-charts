@@ -28,7 +28,7 @@ aliases: []
 | 2023 | — | $5B |
 | 2025 | **$600M** | **$9B** (+80%) |
 
-**Investors:** Founders Fund, ARK Invest, Sequoia, [[Valor Equity Partners]], G42, Thrive Capital.
+**Investors:** [[Founders Fund]], ARK Invest, Sequoia, [[Valor Equity Partners]], [[G42]], [[Thrive Capital]].
 
 ---
 
@@ -39,8 +39,8 @@ aliases: []
 | FDA IDE approval | May 2023 |
 | First human implant | Jan 2024 |
 | 12 patients implanted | Sep 2025 |
-| Canada expansion | Aug-Sep 2025 |
-| UK first patient | Oct 2025 |
+| [[Canada]] expansion | Aug-Sep 2025 |
+| [[UK]] first patient | Oct 2025 |
 | Thought-to-text trial | Oct 2025 (FDA approved) |
 
 **Usage:** 2,000+ cumulative days, 15,000+ hours across patients.
@@ -79,7 +79,7 @@ aliases: []
 | Thread retraction | 85% detached in first patient |
 | Brain shift | 3x more than expected |
 | Regulatory timeline | Full approval late 2020s |
-| Safety concerns | Lithium battery, long-term effects |
+| Safety concerns | [[Lithium]] battery, long-term effects |
 
 ---
 

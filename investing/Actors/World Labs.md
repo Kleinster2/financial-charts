@@ -40,7 +40,7 @@ aliases: [WorldLabs]
 |------------|---------|
 | 3D generation | From 2D images/text |
 | Physics accuracy | Photorealistic environments |
-| Target users | Developers, creators |
+| [[Target]] users | Developers, creators |
 | Shift | "AI as talker" → "AI as doer" |
 
 **Industry impact:** Moves beyond chatbots to AI that interacts with physical world.
@@ -67,18 +67,18 @@ aliases: [WorldLabs]
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Seed/A | 2024 | $230M | $1B | NEA, a]6z |
+| Seed/A | 2024 | $230M | $1B | [[NEA]], a]6z |
 | B (talks) | Jan 2026 | $500M | **$5B** | TBD |
 
 **Investors:**
-- [[Andreessen Horowitz]] (a16z)
-- NEA
+- [[Andreessen Horowitz]] ([[a16z]])
+- [[NEA]]
 - [[NVentures]] ([[NVIDIA]])
 - [[AMD Ventures]]
 - [[Adobe Ventures]]
 - [[Databricks Ventures]]
-- Radical Ventures
-- [[Sanabil]] (Saudi PIF)
+- [[Radical Ventures]]
+- [[Sanabil]] ([[Saudi PIF]])
 - [[Temasek]] (Singapore)
 
 ---
@@ -87,8 +87,8 @@ aliases: [WorldLabs]
 
 | Person | Role | Background |
 |--------|------|------------|
-| **[[Fei-Fei Li]]** | Founder/CEO | ImageNet creator, Stanford HAI |
-| — | — | Stanford AI Lab alumni likely |
+| **[[Fei-Fei Li]]** | Founder/CEO | [[ImageNet]] creator, [[Stanford]] HAI |
+| — | — | [[Stanford]] AI Lab alumni likely |
 
 *Full team details limited in public sources.*
 
@@ -99,7 +99,7 @@ aliases: [WorldLabs]
 | Company | Focus | vs World Labs |
 |---------|-------|---------------|
 | [[Yann LeCun]]'s new co | World models | Peer, $5B target |
-| Google DeepMind Genie | World simulation | Big Tech resources |
+| [[Google DeepMind]] Genie | World simulation | Big Tech resources |
 | Runway | Video/3D generation | More creative focus |
 | [[NVIDIA]] Omniverse | Digital twins | Industrial focus |
 
@@ -113,8 +113,8 @@ aliases: [WorldLabs]
 
 **Indirect exposure:**
 - [[NVIDIA]] — investor + GPU supplier
-- AMD — investor
-- Adobe — investor
+- [[AMD]] — investor
+- [[Adobe]] — investor
 - Robotics companies using World Labs tech
 
 **Thesis implications:**

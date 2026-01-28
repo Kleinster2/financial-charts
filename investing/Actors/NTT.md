@@ -3,13 +3,13 @@ aliases: [Nippon Telegraph and Telephone, NTT Corporation]
 ---
 #actor #telecom #japan #public
 
-**NTT** — Japan's largest telecom. NTT Data (IT services). Global infrastructure.
+**NTT** — [[Japan]]'s largest telecom. NTT Data (IT services). Global infrastructure.
 
 ---
 
 ## Why NTT matters
 
-Japan's telecom giant:
+[[Japan]]'s telecom giant:
 
 | Metric | Value |
 |--------|-------|
@@ -66,13 +66,13 @@ R&D leadership.
 ## Investment case
 
 **Bull:**
-- Japan incumbent
+- [[Japan]] incumbent
 - NTT Data growth
 - Infrastructure assets
 - IOWN innovation
 
 **Bear:**
-- Japan market mature
+- [[Japan]] market mature
 - Yen exposure
 - Competition from Rakuten
 - Slow growth
@@ -86,7 +86,7 @@ R&D leadership.
 | Ticker | NTTYY (ADR) |
 | Market cap | ~$150B |
 | Key assets | DOCOMO, NTT Data |
-| Focus | Telecom + IT services |
+| Focus | [[Telecom]] + IT services |
 
 *Updated 2026-01-01*
 
@@ -97,5 +97,5 @@ R&D leadership.
 - [[Nokia]] — partner (telecom infrastructure)
 - [[Vodafone]] — peer (global telecom)
 - [[Google]] — partner (cloud/enterprise)
-- [[Japan Semiconductor Revival]] — context (Japan tech ecosystem)
+- [[Japan Semiconductor Revival]] — context ([[Japan]] tech ecosystem)
 

@@ -34,7 +34,7 @@ Both collapses linked to political systems ~40-45 years old — both with religi
 | | Ayatollah Ruhollah Khomeini | Ulysses Guimarães |
 |--|----------------------------|-------------------|
 | **Lived** | 1900-1989 | 1916-1992 |
-| **Role** | Supreme Leader, founder of Islamic Republic | "Senhor Diretas," president of Constituent Assembly |
+| **Role** | Supreme Leader, founder of Islamic [[Republic]] | "Senhor Diretas," president of Constituent Assembly |
 | **Vision** | Islamic government under clerical guardianship | Democratic republic, "Citizen Constitution" |
 | **Key institution** | Velayat-e faqih (Guardian Jurist) | 1988 Constitution, PMDB |
 | **Death** | June 3, 1989 (cancer, age 89) | October 12, 1992 (helicopter crash, body never found) |
@@ -45,8 +45,8 @@ Both collapses linked to political systems ~40-45 years old — both with religi
 | Phase | Events |
 |-------|--------|
 | **Opposition (1963-1964)** | Criticized Shah's reforms; imprisoned, then exiled |
-| **Exile (1964-1979)** | Turkey → Iraq (Najaf, 14 years) → France (Neauphle-le-Château) |
-| **Return (Feb 1, 1979)** | Chartered Air France 747; millions welcomed him in Tehran |
+| **Exile (1964-1979)** | Turkey → Iraq (Najaf, 14 years) → [[France]] (Neauphle-le-Château) |
+| **Return (Feb 1, 1979)** | Chartered Air [[France]] 747; millions welcomed him in Tehran |
 | **Consolidation (1979-1989)** | Established velayat-e faqih; created IRGC, bonyads, Guardian Council |
 
 **What he built:**
@@ -67,7 +67,7 @@ Both collapses linked to political systems ~40-45 years old — both with religi
 | **Constituent Assembly (1987-1988)** | Presided over drafting of "Citizen Constitution" |
 
 **What he built:**
-- **1988 Constitution:** Progressive social rights, universal healthcare (SUS), decentralized federation
+- **1988 Constitution:** [[Progressive]] social rights, universal healthcare (SUS), decentralized federation
 - **PMDB:** Brazil's largest party — big tent, no fixed ideology, became vehicle for Centrão
 
 **What emerged instead:**
@@ -98,7 +98,7 @@ Both collapses linked to political systems ~40-45 years old — both with religi
 | **PMDB establishment** | Ulysses, Tancredo, Montoro | Direct elections, new constitution |
 | **Labor left** | Lula, PT | Worker rights, social transformation |
 | **Democratic left** | Brizola, PDT | Nationalism, "socialismo moreno" |
-| **Progressive intellectuals** | FHC, Covas | Social democracy, modernization |
+| **[[Progressive]] intellectuals** | FHC, Covas | Social democracy, modernization |
 
 **April 25, 1984:** Diretas Já amendment failed (298 yes, 65 no, but 112 abstentions killed quorum). Despite loss, movement delegitimized regime.
 
@@ -176,7 +176,7 @@ Neither founded their system. Both became its longest-lasting, most powerful fig
 | **1989, 1994, 1998** | Lost three presidential elections |
 | **2002** | Finally won — "Letter to Brazilians" promising market-friendly policies |
 | **2003-2010** | Two terms; commodity boom; Bolsa Família; left office with 83% approval |
-| **2017-2021** | Imprisoned (Lava Jato); conviction annulled by STF |
+| **2017-2021** | Imprisoned ([[Lava Jato]]); conviction annulled by STF |
 | **2022-present** | Won narrowest election in history; governs WITH Centrão |
 
 **What he controls:**
@@ -200,7 +200,7 @@ Neither founded their system. Both became its longest-lasting, most powerful fig
 
 **The irony:** Both are "founders" in popular memory but weren't the primary architects.
 
-- Khomeini founded the Islamic Republic; Khamenei inherited and expanded it
+- Khomeini founded the Islamic [[Republic]]; Khamenei inherited and expanded it
 - Ulysses/Tancredo founded the Nova República; Lula learned to dominate it
 
 **The deeper irony:** Both now preside over systems that enable the very extraction they once opposed.
@@ -347,11 +347,11 @@ Both systems are sustained by professional strata whose privileges depend on the
 
 | Class | Role | Privileges | Reform resistance |
 |-------|------|------------|-------------------|
-| **Burocratas** | Federal/state civil servants | Estabilidade (job security), high salaries, pension privileges | Block administrative reform |
-| **Juízes/bacharéis** | Judges, prosecutors, legal professionals | World's highest judicial salaries, auxílios (allowances), corporatist protections | Block judicial reform, protect own |
-| **Empresários protegidos** | Industrialists in closed sectors | Import protection, "custo Brasil" as barrier to entry, government contracts | Block trade opening |
-| **Políticos regionais** | Governors, mayors, dynasties | Federal transfers (FPE/FPM), local patronage, family succession | Block federalism reform |
-| **Banqueiros** | Bank oligopoly (5 banks = 80%) | Highest spreads globally, regulatory capture | Block financial competition |
+| **Burocratas** | Federal/state civil servants | Estabilidade (job security), high salaries, pension privileges | [[Block]] administrative reform |
+| **Juízes/bacharéis** | Judges, prosecutors, legal professionals | World's highest judicial salaries, auxílios (allowances), corporatist protections | [[Block]] judicial reform, protect own |
+| **Empresários protegidos** | Industrialists in closed sectors | Import protection, "custo Brasil" as barrier to entry, government contracts | [[Block]] trade opening |
+| **Políticos regionais** | Governors, mayors, dynasties | Federal transfers (FPE/FPM), local patronage, family succession | [[Block]] federalism reform |
+| **Banqueiros** | Bank oligopoly (5 banks = 80%) | Highest spreads globally, regulatory capture | [[Block]] financial competition |
 
 **The bacharel class:**
 
@@ -366,7 +366,7 @@ Brazil's legal-judicial complex is distinctive. The *bacharel* (law graduate) ha
 | **Job security** | Lifetime appointment, nearly impossible to remove |
 | **Corporatism** | Judges judge judges; prosecutors prosecute prosecutors; self-regulation |
 
-**Lava Jato as class conflict within the bacharéis:**
+**[[Lava Jato]] as class conflict within the bacharéis:**
 
 | Group | Position | Outcome |
 |-------|----------|---------|
@@ -380,10 +380,10 @@ Brazil's legal-judicial complex is distinctive. The *bacharel* (law graduate) ha
 
 | Sector | Protection mechanism | Beneficiaries |
 |--------|---------------------|---------------|
-| **Autos** | High tariffs, local content rules | VW, Fiat, GM Brazil operations |
-| **Electronics (Zona Franca)** | Manaus tax haven | Samsung, LG assembly |
-| **Construction** | Government contracts, BNDES financing | Odebrecht, Camargo Corrêa, OAS (pre-Lava Jato) |
-| **Banking** | Oligopoly tolerance, regulation barriers | Itaú, Bradesco, BB, Santander, Caixa |
+| **Autos** | High tariffs, local content rules | VW, Fiat, [[GM]] Brazil operations |
+| **Electronics (Zona Franca)** | Manaus tax haven | [[Samsung]], LG assembly |
+| **Construction** | Government contracts, BNDES financing | Odebrecht, Camargo Corrêa, OAS (pre-[[Lava Jato]]) |
+| **Banking** | Oligopoly tolerance, regulation barriers | Itaú, [[Bradesco]], BB, Santander, Caixa |
 
 **Regional political dynasties (coronelismo moderno):**
 
@@ -401,10 +401,10 @@ These families control state machines, federal deputy delegations, Senate seats.
 
 | Class | Role | Privileges | Reform resistance |
 |-------|------|------------|-------------------|
-| **Clerics (روحانیون)** | Religious legitimation, judiciary, Guardian Council | Stipends, bonyad positions, social prestige, immunity | Block secularization |
-| **IRGC (سپاه)** | Military, intelligence, economic empire | 30-50% of economy, import monopolies, contract preference | Block economic opening |
+| **Clerics (روحانیون)** | Religious legitimation, judiciary, Guardian Council | Stipends, bonyad positions, social prestige, immunity | [[Block]] secularization |
+| **IRGC (سپاه)** | Military, intelligence, economic empire | 30-50% of economy, import monopolies, contract preference | [[Block]] economic opening |
 | **Basij (بسیج)** | Social base, street control, surveillance | University preference, job preference, loans, housing | Provide foot soldiers |
-| **Bonyad managers** | Run "charitable" foundations | No accountability, patronage control | Block transparency |
+| **Bonyad managers** | Run "charitable" foundations | No accountability, patronage control | [[Block]] transparency |
 | **Technocrats** | Run ministries, Central Bank | Tolerated expertise | Serve whoever is in power |
 
 **The clerical class:**
@@ -424,9 +424,9 @@ These families control state machines, federal deputy delegations, Senate seats.
 | Entity | Sector | Scale |
 |--------|--------|-------|
 | **Khatam al-Anbiya** | Construction, engineering | Iran's largest contractor; dams, pipelines, metros |
-| **IRGC Cooperative Foundation** | Diversified | Housing, manufacturing, imports |
+| **IRGC Cooperative Foundation** | Diversified | [[Housing]], manufacturing, imports |
 | **Telecommunications** | Mobile, internet | Controls infrastructure |
-| **Sanctions evasion** | Trade, shipping, banking | Entire parallel economy |
+| **Sanctions evasion** | [[Trade]], shipping, banking | Entire parallel economy |
 | **Smuggling** | Imports via unregulated ports | $12-20B annually (estimates) |
 
 **IRGC as class:**
@@ -464,7 +464,7 @@ These families control state machines, federal deputy delegations, Senate seats.
 | | Brazil | Iran |
 |--|--------|------|
 | **Judges judging judges** | STF protects judiciary privileges | Clerical courts judge clerics |
-| **Class closing ranks** | STF destroyed Lava Jato prosecutors | Guardian Council excludes reformist clerics |
+| **Class closing ranks** | STF destroyed [[Lava Jato]] prosecutors | Guardian Council excludes reformist clerics |
 | **Threat response** | Moro/Dallagnol expelled from class | Montazeri (Khomeini's heir) expelled, died under house arrest |
 
 **Who benefits from closure:**
@@ -472,7 +472,7 @@ These families control state machines, federal deputy delegations, Senate seats.
 | Brazil (closed economy) | Iran (closed economy) |
 |------------------------|----------------------|
 | Industrialists (tariff protection) | IRGC (import monopolies) |
-| Banks (oligopoly spreads) | Bonyads (no competition) |
+| [[Banks]] (oligopoly spreads) | Bonyads (no competition) |
 | Bureaucrats (no private sector benchmark) | Clerics (no secular alternative) |
 | Construction firms (government contracts) | Khatam al-Anbiya (all major projects) |
 
@@ -580,7 +580,7 @@ These families control state machines, federal deputy delegations, Senate seats.
 | **Legitimate phase** | Built Iran's largest metals trading hub (1994) | Built portfolio across finance, healthcare, retail |
 | **Entry to banking** | Founded Tat Bank (2009) | Acquired Banco Máxima (2017) |
 | **Political connection** | Mojtaba Khamenei (Supreme Leader's son) | Brasília network, STF justices |
-| **Extraction vehicle** | Shell companies, self-dealing loans | High-yield CDBs, state bank injection |
+| **Extraction vehicle** | [[Shell]] companies, self-dealing loans | High-yield CDBs, state bank injection |
 | **Personal project** | Iran Mall ($687M "loan") | Under investigation |
 | **Escape attempt** | Stayed in Iran (protected) | Arrested fleeing to Malta |
 
@@ -696,7 +696,7 @@ Attract deposits with above-market rates
 | Faction | Who got shares | Method |
 |---------|---------------|--------|
 | **Leader's office** | Mojtaba Khamenei | Direct proximity, alleged fronts |
-| **IRGC** | Military-economic elite | UK sanctions cite IRGC funding |
+| **IRGC** | Military-economic elite | [[UK]] sanctions cite IRGC funding |
 | **Conservatives** | Islamic Coalition | Mir-Mohammad-Sadeghi on board |
 | **Ahmadinejad network** | Campaign support | 1.2B toman via Bazrpash |
 | **Religious establishment** | Shrine donations, mosques | Carpets to shrines in Iran/Iraq |
@@ -738,7 +738,7 @@ This trio brought Vorcaro to Governor Ibaneis Rocha to orchestrate the BRB acqui
 | **Alexandre de Moraes** | Wife's contract, calls to CB | R$129M contract with wife's firm; contacted CB president Galípolo 6+ times (5 in one day) |
 | **Dias Toffoli** | Case rapporteur, travel | Became rapporteur 11 days after Vorcaro's arrest; flew to Libertadores final (Lima) on private jet with Vorcaro's defense lawyer |
 | **Gilmar Mendes** | Pending Master case | Bank has appeal on tax matter (CSLL) in his office |
-| **Luiz Fux** | Event attendance | Attended Brazil Conference at Cambridge (Master was Platinum sponsor) |
+| **Luiz Fux** | Event attendance | Attended Brazil Conference at Cambridge (Master was [[Platinum]] sponsor) |
 
 **Sponsored events (2022-2025):** Banco Master sponsored forums in New York, London, Paris, Rome, and Cambridge (USA) attended by four sitting STF justices (Toffoli, Mendes, Moraes, Fux) plus former justices Barroso and Lewandowski (now Justice Minister).
 
@@ -772,9 +772,9 @@ This trio brought Vorcaro to Governor Ibaneis Rocha to orchestrate the BRB acqui
 |------------|------|--------|
 | **Nelson Tanure** | Investor (distressed companies) | Federal Police identified as "hidden partner" (sócio oculto) of Master; denies any ownership |
 | **Conte brothers** | Original partners | Partnered with Vorcaro to acquire Banco Máxima (2018-2019) |
-| **Saul Sabbá** | Previous owner | Sold Banco Máxima to Vorcaro; had been restricted from banking by CB |
+| **[[Saul Sabbá]]** | Previous owner | Sold Banco Máxima to Vorcaro; had been restricted from banking by CB |
 
-**Tanure allegations:** CVM report found "coordinated" and "interdependent" action between Tanure and Master to inflate Ambipar share price (+700%). Tanure used MAM Asset (Vorcaro's fund manager) for acquisitions including Copel Telecom (R$2.5B) and EMAE.
+**Tanure allegations:** CVM report found "coordinated" and "interdependent" action between Tanure and Master to inflate Ambipar share price (+700%). Tanure used MAM Asset (Vorcaro's fund manager) for acquisitions including Copel [[Telecom]] (R$2.5B) and EMAE.
 
 #### Pension fund exposure (not FGC-covered)
 
@@ -826,7 +826,7 @@ Both connected their banks to individuals who embody moral/religious authority i
 |--|---------|--------|
 | **Resolution type** | Merged into Bank Melli (state) | Liquidated |
 | **Who pays** | Depositors via inflation | FGC (bank-funded, R$41B) |
-| **Owner outcome** | UK-sanctioned, protected in Iran | Arrested, ankle monitor |
+| **Owner outcome** | [[UK]]-sanctioned, protected in Iran | Arrested, ankle monitor |
 | **Accountability** | None domestically | Pending — STF entanglement may derail |
 
 ### Loss socialization
@@ -847,7 +847,7 @@ Both connected their banks to individuals who embody moral/religious authority i
 | **Exposure** | Collapse forced recognition | CB investigation exposed |
 | **Accountability** | Owner protected | Owner arrested (for now) |
 | **Institutional damage** | Already captured — no change | Supreme Court credibility damaged |
-| **International response** | UK sanctions on Ansari | IMF/World Bank concerns |
+| **International response** | [[UK]] sanctions on Ansari | IMF/World Bank concerns |
 | **Reform prospect** | None — system is the problem | CPI possible, external pressure |
 | **Depositor recovery** | Lost via inflation | FGC covers up to R$250K |
 
@@ -886,16 +886,16 @@ Both political structures had ~4 decades to:
 
 | Structure | Founded | Age (2025) | Watch for |
 |-----------|---------|------------|-----------|
-| China (Deng era) | 1978 | 47 years | "Princelings" extraction |
+| [[China]] (Deng era) | 1978 | 47 years | "Princelings" extraction |
 | Turkey (AKP) | 2002 | 23 years | Maturing, not yet peak |
-| Russia (Putin) | 2000 | 25 years | Maturing |
-| Venezuela (Chavismo) | 1999 | 26 years | Already collapsed |
+| [[Russia]] (Putin) | 2000 | 25 years | Maturing |
+| [[Venezuela]] (Chavismo) | 1999 | 26 years | Already collapsed |
 
 ### 4. External pressure matters differently
 
 | | Iran | Brazil |
 |--|------|--------|
-| **External pressure** | UK sanctions (limited impact) | IMF/World Bank/market access |
+| **External pressure** | [[UK]] sanctions (limited impact) | IMF/World Bank/market access |
 | **Regime sensitivity** | Low — already isolated | High — needs investment grade |
 | **Accountability driver** | None | Reputational cost |
 
@@ -905,14 +905,14 @@ Brazil's integration into global financial system creates accountability pressur
 
 ## Corruption scandal parallels: Mensalão/Petrolão vs Iranian cases
 
-Brazil's Nova República produced two landmark corruption scandals before Banco Master. Iran's Islamic Republic produced parallel cases — but with different outcomes.
+Brazil's Nova República produced two landmark corruption scandals before Banco Master. Iran's Islamic [[Republic]] produced parallel cases — but with different outcomes.
 
 ### Brazil's defining scandals
 
 | Scandal | Period | Mechanism | Scale | Outcome |
 |---------|--------|-----------|-------|---------|
 | **Mensalão** | 2005-2012 | PT paid legislators monthly bribes (mensalão = "big monthly payment") for votes | R$141M distributed | 25 convictions including PT treasurer, chief of staff; Lula not charged |
-| **Petrolão / Lava Jato** | 2014-2021 | Systematic kickbacks at Petrobras: contractors overbilled, skimmed to politicians | R$6.4B+ identified | 174 convictions; Lula imprisoned (later annulled); Odebrecht plea deals |
+| **Petrolão / [[Lava Jato]]** | 2014-2021 | Systematic kickbacks at [[Petrobras]]: contractors overbilled, skimmed to politicians | R$6.4B+ identified | 174 convictions; Lula imprisoned (later annulled); Odebrecht plea deals |
 
 **The pattern:** State resources → inflated contracts → kickbacks → political parties → campaign financing → more power → more contracts.
 
@@ -929,7 +929,7 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 
 | Dimension | Brazil | Iran |
 |-----------|--------|------|
-| **Defining scandal** | Petrolão (Petrobras kickbacks) | IRGC privatization |
+| **Defining scandal** | Petrolão ([[Petrobras]] kickbacks) | IRGC privatization |
 | **Scale** | $1.6B+ (R$6.4B) | $120B+ |
 | **Prosecutions** | 174 convictions | Zero for IRGC/bonyad capture |
 | **Presidential impact** | Lula imprisoned; Dilma impeached | Ahmadinejad presided; no consequences |
@@ -940,7 +940,7 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 
 | Factor | Brazil | Iran |
 |--------|--------|------|
-| **Initial prosecution** | Yes (Lava Jato convicted 174) | No |
+| **Initial prosecution** | Yes ([[Lava Jato]] convicted 174) | No |
 | **Final outcome** | Convictions voided by STF | Never prosecuted |
 | **Lead figures** | Lula: convicted → annulled → president | Ansari: charged → protected |
 | **Prosecutors** | Moro/Dallagnol: barred/discredited | N/A — no independent prosecutors |
@@ -984,7 +984,7 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 
 **The lesson:** Brazil prosecutes selectively too — Lula's conviction was annulled on procedural grounds; STF justices who attended Vorcaro's dinners now handle his case.
 
-### The Lava Jato trajectory — voided by the regime
+### The [[Lava Jato]] trajectory — voided by the regime
 
 | Phase | Events | What it revealed |
 |-------|--------|------------------|
@@ -992,10 +992,10 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 | **2019** | Moro becomes Bolsonaro minister | Revealed political motivations; legitimacy questioned |
 | **2019** | STF declares Moro "parcial" (biased) in Lula case | Technical grounds to void |
 | **2021** | STF annuls ALL Lula convictions — venue, not innocence | Not exonerated; charges simply voided |
-| **2021** | Lava Jato task force dismantled | PGR absorbs; momentum killed |
+| **2021** | [[Lava Jato]] task force dismantled | PGR absorbs; momentum killed |
 | **2022** | Dallagnol (lead prosecutor) barred from public office 8 years | Messengers punished |
 | **2023** | Lula wins; governs WITH Centrão (Lira, Ciro Nogueira) | Prosecuted became president; "friends" became allies |
-| **2025** | Banco Master: STF justices who voided Lava Jato now handle Vorcaro | Same court, same protections |
+| **2025** | Banco Master: STF justices who voided [[Lava Jato]] now handle Vorcaro | Same court, same protections |
 
 **What was voided:**
 - Lula's convictions (annulled)
@@ -1009,7 +1009,7 @@ Brazil's Nova República produced two landmark corruption scandals before Banco 
 - The STF justices
 - The mechanisms
 
-**The arc:** Lava Jato wasn't defeated by proving innocence — it was voided on procedural grounds by the same STF that now dines with Vorcaro. The system didn't reform; it **absorbed and neutralized** the threat.
+**The arc:** [[Lava Jato]] wasn't defeated by proving innocence — it was voided on procedural grounds by the same STF that now dines with Vorcaro. The system didn't reform; it **absorbed and neutralized** the threat.
 
 ### Key insight
 

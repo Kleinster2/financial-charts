@@ -3,7 +3,7 @@ aliases: [Ribbit]
 ---
 #actor #vc #fintech #usa
 
-**Ribbit Capital** — Fintech-focused VC. Early backer of Robinhood, Coinbase, Nubank. Expanding into AI infrastructure.
+**Ribbit Capital** — [[Fintech]]-focused VC. Early backer of Robinhood, Coinbase, Nubank. Expanding into AI infrastructure.
 
 ---
 
@@ -14,15 +14,15 @@ aliases: [Ribbit]
 | Founded | 2012 |
 | Founder | Micky Malka |
 | HQ | Palo Alto |
-| Focus | Fintech, financial infrastructure |
+| Focus | [[Fintech]], financial infrastructure |
 
 ---
 
 ## Investment thesis
 
 **Financial services disruption:**
-- Fintech platforms
-- Crypto/blockchain
+- [[Fintech]] platforms
+- [[Crypto]]/blockchain
 - Financial infrastructure
 - Now: AI for finance
 
@@ -33,11 +33,11 @@ aliases: [Ribbit]
 | Company | Sector | Outcome |
 |---------|--------|---------|
 | [[Robinhood]] | Trading | IPO (HOOD) |
-| [[Coinbase]] | Crypto exchange | IPO (COIN) |
+| [[Coinbase]] | [[Crypto]] exchange | IPO (COIN) |
 | [[Nubank]] | Neobank | IPO (NU) |
 | [[Revolut]] | Neobank | Private ($45B) |
 | [[Brex]] | Corporate cards | Acquired by [[Capital One]] $5.15B |
-| Credit Karma | Personal finance | Acquired by Intuit |
+| Credit Karma | Personal finance | Acquired by [[Intuit]] |
 
 Strong fintech exit track record.
 
@@ -59,7 +59,7 @@ Expanding beyond pure fintech into AI infrastructure.
 |--------|-------|
 | Founded | 2012 |
 | Founder | Micky Malka |
-| Focus | Fintech, AI |
+| Focus | [[Fintech]], AI |
 | Style | Category-defining bets |
 
 *Created 2026-01-15*

@@ -14,7 +14,7 @@ aliases: [Smart London]
 | Global rank | #6 (Smart City Index 2023) |
 | Population | 9M+ |
 | Lead agency | Chief Digital Officer for London |
-| Key operator | Transport for London (TfL) |
+| Key operator | [[Transport]] for London (TfL) |
 
 ---
 
@@ -38,7 +38,7 @@ aliases: [Smart London]
 |--------|-------|
 | Oyster launched | 2003 |
 | Contactless | 2014 |
-| Daily users | 3M+ (subway alone) |
+| Daily users | [[3M]]+ (subway alone) |
 | Technology exports | NYC, Boston, Sydney |
 
 ### Ultra Low Emission Zone (ULEZ)
@@ -69,7 +69,7 @@ aliases: [Smart London]
 
 | Initiative | Status |
 |------------|--------|
-| Tube 4G/5G | Boldyn Networks rollout |
+| Tube 4G/[[5G]] | Boldyn Networks rollout |
 | Full fiber spine | Using TfL tunnels |
 | Public Wi-Fi | Major locations |
 | Coverage | 418 miles subway |
@@ -100,7 +100,7 @@ aliases: [Smart London]
 
 ---
 
-## Sensors & data
+## [[Sensors]] & data
 
 | System | Function |
 |--------|----------|
@@ -143,6 +143,6 @@ aliases: [Smart London]
 
 - [TfL: Congestion Charge Changes](https://tfl.gov.uk/info-for/media/press-releases/2025/november/changes-confirmed-to-the-congestion-charge-to-keep-london-moving-sustainably)
 - [Chief Digital Officer: London Digital Infrastructure](https://chiefdigitalofficer4london.medium.com/londons-new-public-digital-infrastructure-prepares-city-for-the-future-innovation-e5db941305c7)
-- [Time Out: London Transport 2026](https://www.timeout.com/london/news/major-changes-london-transport-2026-tube-dlr-buses-superloop-122925)
+- [Time Out: London [[Transport]] 2026](https://www.timeout.com/london/news/major-changes-london-transport-2026-tube-dlr-buses-superloop-122925)
 
 *Created 2026-01-14*

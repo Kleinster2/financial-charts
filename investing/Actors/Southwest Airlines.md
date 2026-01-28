@@ -34,7 +34,7 @@ aliases: [LUV, Southwest]
 
 | Activist | Status |
 |----------|--------|
-| Elliott Management | Major stake |
+| [[Elliott Management]] | Major stake |
 | Demands | Board changes, strategy shift |
 | Company response | Premium initiatives |
 
@@ -69,7 +69,7 @@ aliases: [LUV, Southwest]
 - Strong brand loyalty
 - Cost discipline history
 - Balance sheet strength
-- Travel demand
+- [[Travel]] demand
 
 **Bear:**
 - Model disruption (assigned seats?)

@@ -11,10 +11,10 @@ Training gets the headlines. Inference is where the money is — or isn't.
 | Provider | Model | Input / Output per 1M tokens |
 |----------|-------|------------------------------|
 | [[OpenAI]] | GPT-5 | $30 / $60 |
-| [[Anthropic]] | Claude Opus 4.5 | $15 / $75 |
-| [[Anthropic]] | Claude Sonnet 4 | $3 / $15 |
-| [[Anthropic]] | Claude Haiku 3.5 | $1 / $5 |
-| **DeepSeek** | **V3.2** | **$0.27 / $1.10** |
+| [[Anthropic]] | [[Claude]] Opus 4.5 | $15 / $75 |
+| [[Anthropic]] | [[Claude]] Sonnet 4 | $3 / $15 |
+| [[Anthropic]] | [[Claude]] Haiku 3.5 | $1 / $5 |
+| **[[DeepSeek]]** | **V3.2** | **$0.27 / $1.10** |
 
 **10-30x price gap** between frontier and open source.
 
@@ -22,10 +22,10 @@ Training gets the headlines. Inference is where the money is — or isn't.
 
 ## Why prices keep falling
 
-1. **Open source competition** — DeepSeek, Llama, Mistral at near-zero margin
+1. **Open source competition** — [[DeepSeek]], [[Llama]], [[Mistral]] at near-zero margin
 2. **Hardware efficiency** — Each generation does more per dollar
 3. **Quantization** — Smaller models, less compute
-4. **Inference-specific chips** — Groq LPUs, Cerebras, custom silicon
+4. **Inference-specific chips** — Groq LPUs, [[Cerebras]], custom silicon
 5. **Competition** — Too many providers, not enough differentiation
 
 ---
@@ -55,7 +55,7 @@ See [[CUDA moat]] — NVIDIA trying to own inference layer too.
 
 ---
 
-## Trade implications
+## [[Trade]] implications
 
 **Bearish inference margins:**
 - API providers (OpenAI, Anthropic consumer products)
@@ -88,8 +88,8 @@ Inference becomes like cloud compute — commodity pricing, winner-take-most at 
 
 - [[NVIDIA]] — player (acquired Groq $20B for inference)
 - [[Groq]] — acquired (LPUs for fast inference)
-- [[OpenAI]] — exposed (GPT-5 $30/$60 vs DeepSeek $0.27/$1.10)
+- [[OpenAI]] — exposed (GPT-5 $30/$60 vs [[DeepSeek]] $0.27/$1.10)
 - [[Anthropic]] — exposed (API pricing pressure)
-- [[Open source commoditization]] — driver (DeepSeek, Llama, Mistral)
+- [[Open source commoditization]] — driver ([[DeepSeek]], [[Llama]], [[Mistral]])
 - [[Model lab economics]] — context (training vs inference margins)
 - [[CUDA moat]] — context (NVIDIA trying to own inference)

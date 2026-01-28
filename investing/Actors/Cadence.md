@@ -27,7 +27,7 @@ Critical chip design infrastructure:
 |----------|----------|
 | Custom IC | Virtuoso (analog/mixed-signal) |
 | Digital | Genus, Innovus |
-| Verification | Xcelium, Palladium, Protium |
+| Verification | Xcelium, [[Palladium]], Protium |
 | PCB | Allegro |
 | System analysis | Clarity, Celsius |
 
@@ -46,7 +46,7 @@ Critical chip design infrastructure:
 ## Hardware verification
 
 **Emulation/prototyping:**
-- Palladium (emulation)
+- [[Palladium]] (emulation)
 - Protium (prototyping)
 - Faster chip verification
 - Critical for complex AI chips
@@ -58,7 +58,7 @@ Critical chip design infrastructure:
 | Player | Strength | Cadence vs |
 |--------|----------|------------|
 | [[Synopsys]] | Digital, IP | Strong in analog |
-| Siemens EDA | PCB, automotive | Full-stack competitor |
+| [[Siemens]] EDA | PCB, automotive | Full-stack competitor |
 | Ansys | Simulation | Now part of Synopsys |
 
 Duopoly = pricing power.
@@ -87,7 +87,7 @@ Duopoly = pricing power.
 **Bear:**
 - Synopsys+Ansys = bigger competitor
 - High valuation
-- China concerns
+- [[China]] concerns
 - Customer concentration
 
 ---

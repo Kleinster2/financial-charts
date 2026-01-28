@@ -27,7 +27,7 @@ AI researchers don't choose GPUs — they choose CUDA. The hardware follows.
 
 ## Analogy to foundry lock-in
 
-| TSMC | NVIDIA |
+| [[TSMC]] | NVIDIA |
 |------|--------|
 | [[Process design kit]] | CUDA + libraries |
 | Years of design optimization | Years of code optimization |
@@ -43,9 +43,9 @@ Same dynamic: accumulated knowledge creates switching costs.
 | Alternative | Owner | Status |
 |-------------|-------|--------|
 | ROCm | [[AMD]] | Improving post-NodAI, still behind |
-| Triton | OpenAI | Compiler, not full stack |
-| JAX/XLA | Google | TPU-focused |
-| oneAPI | Intel | Minimal traction |
+| Triton | [[OpenAI]] | Compiler, not full stack |
+| JAX/XLA | [[Google]] | TPU-focused |
+| oneAPI | [[Intel]] | Minimal traction |
 
 ---
 
@@ -71,8 +71,8 @@ NVIDIA is extending lock-in beyond CUDA into infrastructure:
 
 **SchedMD / SLURM acquisition (Dec 2025)**:
 - SLURM = widely used open source workload scheduler
-- Used by: Mistral, Meta FAIR, universities, neoclouds
-- Critical: AMD/Intel users also depend on SLURM
+- Used by: [[Mistral]], [[Meta]] FAIR, universities, neoclouds
+- Critical: AMD/[[Intel]] users also depend on SLURM
 - NVIDIA commits to keep it "open source, vendor-neutral" — skepticism warranted
 - Slinky project (SLURM on Kubernetes) future uncertain — neoclouds depend on it
 
@@ -89,7 +89,7 @@ Pattern: NVIDIA buying infrastructure that competitors also rely on. Each layer 
 
 CUDA moat is real but not permanent. AMD has moved from "0% chance" to "non-zero chance" of challenging it. Timeline: 2-4 years to know if AMD software reaches parity.
 
-SLURM acquisition is a defensive move — NVIDIA locking down another layer before AMD/Intel can build momentum.
+SLURM acquisition is a defensive move — NVIDIA locking down another layer before AMD/[[Intel]] can build momentum.
 
 ---
 

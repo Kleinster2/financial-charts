@@ -3,7 +3,7 @@ aliases: [立讯精密, 002475]
 ---
 #actor #manufacturing #china #apple
 
-**Luxshare Precision** — Chinese Apple supplier. Makes AirPods. Shenzhen-listed, seeking $1B+ Hong Kong secondary listing.
+**Luxshare Precision** — Chinese Apple supplier. Makes AirPods. [[Shenzhen]]-listed, seeking $1B+ Hong Kong secondary listing.
 
 ---
 
@@ -13,7 +13,7 @@ Major Apple supply chain player:
 
 | Metric | Value |
 |--------|-------|
-| Primary listing | Shenzhen (002475) |
+| Primary listing | [[Shenzhen]] (002475) |
 | Secondary listing | Hong Kong ($1B+, 2026) |
 | Key customer | [[Apple]] |
 | Key product | AirPods |
@@ -36,12 +36,12 @@ One of the largest Chinese Apple suppliers alongside Foxconn.
 
 | Metric | Value |
 |--------|-------|
-| Target raise | **$1B+** |
-| Exchange | HKEX |
+| [[Target]] raise | **$1B+** |
+| Exchange | [[HKEX]] |
 | Filing | 2025 |
 | Status | In process |
 
-Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO pipeline 2026]]).
+Part of wave of [[Shenzhen]]-listed Chinese firms adding HK listings (see [[Asia IPO pipeline 2026]]).
 
 ---
 
@@ -49,11 +49,11 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 
 | Detail | Value |
 |--------|-------|
-| Target | Chair **Grace Wang** (王来春) |
+| [[Target]] | Chair **Grace Wang** (王来春) |
 | Issuing authority | Taiwan prosecutors |
 | Charge | Violating Cross-Strait Relations Act |
 | Allegation | Illegally recruiting Taiwanese engineers |
-| Status | Warrant issued, Wang in China |
+| Status | Warrant issued, Wang in [[China]] |
 
 **Context:** Part of Taiwan's escalating [[Taiwan tech protectionism]] crackdown. [[OnePlus]] CEO Pete Lau received similar warrant in Jan 2026.
 
@@ -71,7 +71,7 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 
 **Bear:**
 - Apple concentration risk
-- US-China tensions (supply chain diversification)
+- US-[[China]] tensions (supply chain diversification)
 - Margin pressure from Apple
 - Competition from Foxconn, Pegatron
 - **Grace Wang arrest warrant** — legal/reputational risk

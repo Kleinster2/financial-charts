@@ -1,6 +1,6 @@
 #actor #company #defense #china
 
-**Norinco** (中国兵器工业集团 / China North Industries Group) — Chinese state-owned defense conglomerate. One of China's "Big Five" defense contractors. Expanding into dual-use technologies including cargo drones.
+**Norinco** (中国兵器工业集团 / [[China]] North Industries Group) — Chinese state-owned defense conglomerate. One of [[China]]'s "Big Five" defense contractors. Expanding into dual-use technologies including cargo drones.
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Attribute | Detail |
 |-----------|--------|
-| Full name | China North Industries Group Corporation Limited |
+| Full name | [[China]] North Industries Group Corporation Limited |
 | Chinese | 中国兵器工业集团有限公司 |
 | Type | State-owned enterprise (SOE) |
 | Parent | SASAC (State-owned Assets Supervision) |
@@ -21,11 +21,11 @@
 
 | Segment | Products |
 |---------|----------|
-| **Defense** | Tanks, artillery, missiles, ammunition |
+| **[[Defense]]** | Tanks, artillery, missiles, ammunition |
 | **Vehicles** | Commercial trucks, SUVs |
 | **Chemicals** | Explosives, industrial chemicals |
 | **Opto-electronics** | Night vision, targeting systems |
-| **Aerospace** | UAVs, cargo drones (emerging) |
+| **[[Aerospace]]** | UAVs, cargo drones (emerging) |
 
 ---
 
@@ -53,7 +53,7 @@ Developed by Xi'an ASN Technology Group (西安爱生技术集团), Norinco subs
 
 ## US sanctions
 
-Norinco is on US Entity List — exports of US technology to Norinco require BIS license. Sanctioned for weapons proliferation concerns (Iran, North Korea historically).
+Norinco is on US Entity List — exports of US technology to Norinco require [[BIS]] license. Sanctioned for weapons proliferation concerns ([[Iran]], North Korea historically).
 
 ---
 
@@ -62,12 +62,12 @@ Norinco is on US Entity List — exports of US technology to Norinco require BIS
 Not directly investable for Western capital due to:
 - SOE status (no public equity)
 - US sanctions
-- Defense focus
+- [[Defense]] focus
 
 **Relevant as:**
-- China defense industrial base indicator
+- [[China]] defense industrial base indicator
 - Dual-use technology development tracker
-- Cargo drone competition (vs Wing, Zipline, etc.)
+- Cargo drone competition (vs [[Wing]], [[Zipline]], etc.)
 
 ---
 

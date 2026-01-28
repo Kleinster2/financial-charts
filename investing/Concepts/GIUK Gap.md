@@ -1,6 +1,6 @@
 #concept #geopolitics #military #arctic #nato
 
-**GIUK Gap** (Greenland-Iceland-UK Gap) — Strategic naval chokepoint controlling access between North Atlantic and Arctic/Norwegian Sea. Critical for submarine detection and naval interdiction.
+**GIUK [[Gap]]** (Greenland-Iceland-[[UK]] [[Gap]]) — Strategic naval chokepoint controlling access between North Atlantic and Arctic/Norwegian Sea. Critical for submarine detection and naval interdiction.
 
 ---
 
@@ -12,7 +12,7 @@ The gap spans three passages:
 |---------|-------|-------|
 | Denmark Strait (Greenland-Iceland) | ~300 km | Shallow sections |
 | Iceland-Faroe | ~400 km | Deep |
-| Faroe-UK | ~300 km | Varies |
+| Faroe-[[UK]] | ~300 km | Varies |
 
 **Total width:** ~1,000 km of water to monitor.
 
@@ -22,7 +22,7 @@ The gap spans three passages:
 
 ### Cold War role
 - Primary barrier against Soviet submarine breakout into Atlantic
-- US/UK maintained SOSUS (underwater sensor arrays)
+- US/[[UK]] maintained SOSUS (underwater sensor arrays)
 - NATO ASW (anti-submarine warfare) focus area
 - Controlled access to Atlantic shipping lanes
 
@@ -45,7 +45,7 @@ The gap spans three passages:
 |----------|--------|
 | **Iceland** | Keflavik — US/NATO air patrol base |
 | **[[Greenland]]** | Pituffik — radar, early warning |
-| **UK** | RAF maritime patrol, Royal Navy |
+| **[[UK]]** | RAF maritime patrol, Royal Navy |
 | **Faroe Islands** | Radar station |
 | **Norway** | P-8 Poseidon aircraft |
 
@@ -62,7 +62,7 @@ The gap spans three passages:
 
 ## Submarine dynamics
 
-**Russian Northern Fleet** (Murmansk area) must transit GIUK Gap to reach Atlantic.
+**Russian Northern Fleet** (Murmansk area) must transit GIUK [[Gap]] to reach Atlantic.
 
 | Russian capability | NATO response |
 |--------------------|---------------|
@@ -77,7 +77,7 @@ The gap spans three passages:
 ## Investment lens
 
 Not directly investable as a concept, but relevant for:
-- Defense contractors (ASW systems, maritime patrol)
+- [[Defense]] contractors (ASW systems, maritime patrol)
 - Undersea cable operators (route security)
 - Iceland/Greenland strategic importance
 - NATO defense spending allocation

@@ -9,9 +9,9 @@
 | Metric | Value |
 |--------|-------|
 | Founded | 1910 |
-| HQ | New York (World Trade Center) |
+| HQ | New York (World [[Trade]] Center) |
 | Peak era | 1980s ("King of Wall Street") |
-| Acquired | 1997 (Travelers), 1998 (Citigroup) |
+| Acquired | 1997 ([[Travelers]]), 1998 (Citigroup) |
 | Final form | Salomon Smith Barney → Citigroup Global Markets (2003) |
 
 ---
@@ -25,7 +25,7 @@ Founded as bond brokerage. Became powerhouse in fixed income trading.
 - CEO John Gutfreund nicknamed "King of Wall Street"
 - Pioneered **mortgage-backed securities** — bought home mortgages from thrifts, packaged and sold to investors
 - Created the first MBS (Ginnie Mae securities)
-- Culture immortalized in Michael Lewis's *Liar's Poker*
+- Culture immortalized in Michael Lewis's *[[Liar's Poker]]*
 
 **1981: Bloomberg's exit**
 [[Michael Bloomberg]], a general partner running IT and block trading, was pushed out when Phibro acquired Salomon. His **$10M severance** funded the creation of [[Bloomberg LP]].
@@ -37,8 +37,8 @@ Trader Paul Mozer submitted false bids to buy more Treasury bonds than permitted
 - Warren Buffett (Berkshire owned $700M stake) became interim chairman to save the firm
 
 **1997–1998: Absorption**
-- Travelers Group acquired Salomon for **$9B** (1997)
-- Travelers merged with Citicorp (1998) → Salomon became part of Citigroup
+- [[Travelers]] Group acquired Salomon for **$9B** (1997)
+- [[Travelers]] merged with Citicorp (1998) → Salomon became part of Citigroup
 - Renamed Salomon Smith Barney, then Citigroup Global Markets (2003)
 
 **2009: Final dismantling**

@@ -32,7 +32,7 @@ aliases: [DUK]
 
 | Source | Share |
 |--------|-------|
-| Natural gas | ~40% |
+| [[Natural gas]] | ~40% |
 | Nuclear | ~20% |
 | Coal | ~20% (declining) |
 | Renewables | ~15% |
@@ -53,7 +53,7 @@ Transitioning coal → gas and renewables.
 | Grid reliability | Regulated utility stability |
 | Clean energy | Corporate renewable demand |
 
-Apple, Google, Meta facilities in Duke territory.
+[[Apple]], [[Google]], [[Meta]] facilities in Duke territory.
 
 ---
 

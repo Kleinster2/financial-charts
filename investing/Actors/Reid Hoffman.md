@@ -14,7 +14,7 @@ aliases: []
 | Net worth | ~$2.5B |
 | Source | LinkedIn (sold to MSFT $26B) |
 | Vehicle | [[Greylock Partners]] |
-| PayPal Mafia | Yes — [[PayPal mafia]] |
+| [[PayPal]] Mafia | Yes — [[PayPal mafia]] |
 
 ---
 
@@ -22,7 +22,7 @@ aliases: []
 
 | Period | Role |
 |--------|------|
-| 1997-2000 | PayPal (founding team) |
+| 1997-2000 | [[PayPal]] (founding team) |
 | 2002-2016 | LinkedIn (co-founder, CEO → Chairman) |
 | 2009-present | Greylock Partners |
 
@@ -34,8 +34,8 @@ aliases: []
 |---------|------|--------|
 | **[[OpenAI]]** | Early backer, board | $300B+ |
 | **Facebook** | Angel | Public (META) |
-| **Airbnb** | Early | Public (ABNB) |
-| **Aurora** | Board | Public (AUR) |
+| **[[Airbnb]]** | Early | Public (ABNB) |
+| **[[Aurora]]** | Board | Public (AUR) |
 | **Coda** | Board | Private |
 | **Inflection AI** | Co-founded | Acquired by MSFT |
 
@@ -47,9 +47,9 @@ aliases: []
 |------|--------|
 | Co-founded | 2022 with Mustafa Suleyman |
 | Raised | $1.5B |
-| Outcome | Talent + IP to Microsoft (2024) |
+| Outcome | Talent + IP to [[Microsoft]] (2024) |
 
-Hoffman bet on Suleyman; Microsoft acquired the team.
+Hoffman bet on Suleyman; [[Microsoft]] acquired the team.
 
 ---
 
@@ -65,15 +65,15 @@ One of original OpenAI supporters.
 
 ---
 
-## PayPal Mafia
+## [[PayPal]] Mafia
 
 | Member | Company |
 |--------|---------|
-| [[Peter Thiel]] | Founders Fund, Palantir |
-| [[Elon Musk]] | Tesla, SpaceX, xAI |
+| [[Peter Thiel]] | [[Founders Fund]], [[Palantir]] |
+| [[Elon Musk]] | [[Tesla]], [[SpaceX]], [[xAI]] |
 | **Reid Hoffman** | LinkedIn, Greylock |
 | [[Max Levchin]] | [[Affirm]] |
-| David Sacks | Craft Ventures |
+| [[David Sacks]] | [[Craft Ventures]] |
 
 ---
 
@@ -110,11 +110,11 @@ One of original OpenAI supporters.
 
 ## Related
 
-### PayPal mafia
+### [[PayPal]] mafia
 - [[PayPal mafia]] — core member
-- [[Peter Thiel]] — PayPal co-founder
-- [[Max Levchin]] — PayPal CTO
-- [[Elon Musk]] — PayPal (X.com)
+- [[Peter Thiel]] — [[PayPal]] co-founder
+- [[Max Levchin]] — [[PayPal]] CTO
+- [[Elon Musk]] — [[PayPal]] (X.com)
 
 ### Investments
 - [[OpenAI]] — early backer, board

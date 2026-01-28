@@ -11,9 +11,9 @@ aliases: [Israel defense industry, Israeli defence industry]
 
 | Company | Ticker | Focus | Market cap |
 |---------|--------|-------|------------|
-| Elbit Systems | ESLT | Full spectrum (drones, EW, land) | ~$12B |
+| [[Elbit Systems]] | ESLT | Full spectrum (drones, EW, land) | ~$12B |
 | Rafael | State-owned | Missiles, Iron Dome | — |
-| Israel Aerospace (IAI) | State-owned | Missiles, space, drones | — |
+| Israel [[Aerospace]] (IAI) | State-owned | Missiles, space, drones | — |
 | Israel Shipyards | State-owned | Naval vessels | — |
 
 **Elbit** = only major publicly traded Israeli defense company.
@@ -27,11 +27,11 @@ aliases: [Israel defense industry, Israeli defence industry]
 | System | Manufacturer | Range | Notes |
 |--------|--------------|-------|-------|
 | Iron Dome | Rafael | Short | 90%+ intercept rate |
-| David's Sling | Rafael | Medium | Cruise missiles, aircraft |
-| Arrow 2/3 | IAI/Boeing | Long | Ballistic missiles |
+| David's Sling | Rafael | Medium | [[Cruise]] missiles, aircraft |
+| Arrow 2/3 | IAI/[[Boeing]] | Long | Ballistic missiles |
 | Iron Beam | Rafael | Short | Laser (development) |
 
-### Drones
+### [[Drones]]
 
 | System | Manufacturer | Notes |
 |--------|--------------|-------|
@@ -66,12 +66,12 @@ aliases: [Israel defense industry, Israeli defence industry]
 
 | Region | Key customers |
 |--------|---------------|
-| Asia | India, Singapore, South Korea |
-| Europe | Germany, UK, Finland |
+| [[Asia]] | [[India]], Singapore, South Korea |
+| [[Europe]] | [[Germany]], [[UK]], Finland |
 | Americas | US (Iron Dome), Colombia |
 | Gulf | UAE, Bahrain (post-Abraham Accords) |
 
-**India** = largest customer (drones, missiles, radar).
+**[[India]]** = largest customer (drones, missiles, radar).
 
 ---
 
@@ -80,8 +80,8 @@ aliases: [Israel defense industry, Israeli defence industry]
 | Program | Structure |
 |---------|-----------|
 | Iron Dome | US co-production, funding |
-| Arrow | Joint with Boeing |
-| David's Sling | Joint with RTX |
+| Arrow | Joint with [[Boeing]] |
+| David's Sling | Joint with [[RTX]] |
 | Trophy APS | Adopted by US Army |
 
 US provides ~$4B/year military aid; Israel often buys US equipment, but exports own innovations.
@@ -96,7 +96,7 @@ US provides ~$4B/year military aid; Israel often buys US equipment, but exports 
 | Consolidation | Elbit acquiring smaller players |
 | Brain drain | Tech startups compete for talent |
 | Gaza/Lebanon ops | Surge demand, battlefield testing |
-| Export controls | US influence on third-party sales |
+| [[Export controls]] | US influence on third-party sales |
 
 ---
 
@@ -110,7 +110,7 @@ US provides ~$4B/year military aid; Israel often buys US equipment, but exports 
 
 **Risks:**
 - Regional conflict exposure
-- Reputational/ESG concerns
+- Reputational/[[ESG]] concerns
 - Export restriction risk
 - Concentrated customer base
 

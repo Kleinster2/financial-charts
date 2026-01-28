@@ -6,7 +6,7 @@
 
 ## The zero-sum dynamic
 
-From June 2020 to June 2025, the hedge fund industry received **near-zero net new capital** (Preqin). All AUM growth (~$3.5T → $5T) came from performance returns, not inflows.
+From June 2020 to June 2025, the hedge fund industry received **near-zero net new capital** ([[Preqin]]). All AUM growth (~$3.5T → $5T) came from performance returns, not inflows.
 
 ![[hedge-fund-zero-sum-flows.png]]
 
@@ -62,7 +62,7 @@ In 2025, Citadel Wellington (+10.2%) and Millennium (+10.5%) converged toward th
 
 ![[hedge-fund-aum-vs-pe-private-credit.png]]
 
-Hedge fund growth ($5T) was overshadowed by private equity (~$7T) and private credit (~$2T). Private credit grew fastest in relative terms — from near-zero in 2010 to $2T by 2025.
+Hedge fund growth ($5T) was overshadowed by private equity (~$7T) and private credit (~$2T). [[Private credit]] grew fastest in relative terms — from near-zero in 2010 to $2T by 2025.
 
 In 2025, private credit was dogged by concerns about distressed companies in portfolios and systemic risk scrutiny. Private equity struggled with deal exits and returning cash. This creates a potential opening for hedge funds — but only if they can differentiate.
 
@@ -70,7 +70,7 @@ In 2025, private credit was dogged by concerns about distressed companies in por
 
 ## Short squeeze risk
 
-As L/S hedge fund gross leverage rises, short squeeze vulnerability increases. Goldman Sachs's basket of most-shorted stocks surged **+18% YTD** (Jan 2026). Allocators are concerned that crowded shorts could force covering and generate large losses — echoing the [[GameStop]] dynamics of 2021 but across a broader set of positions.
+As L/S hedge fund gross leverage rises, short squeeze vulnerability increases. [[Goldman Sachs]]'s basket of most-shorted stocks surged **+18% YTD** (Jan 2026). Allocators are concerned that crowded shorts could force covering and generate large losses — echoing the [[GameStop]] dynamics of 2021 but across a broader set of positions.
 
 ---
 
@@ -91,10 +91,10 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 ## Investment relevance
 
 **Not directly investable** (most are private), but the dynamic matters for:
-- **Market structure** — pod leverage drives market microstructure (see [[Retail investor flows]], [[Meme stocks]])
-- **Short interest** — crowded pod shorts = squeeze risk
+- **[[Market structure]]** — pod leverage drives market microstructure (see [[Retail investor flows]], [[Meme stocks]])
+- **[[Short interest]]** — crowded pod shorts = squeeze risk
 - **Talent migration** — where top PMs go affects sector alpha generation
-- **Private credit** — hedge fund flows inversely correlated with private credit appetite
+- **[[Private credit]]** — hedge fund flows inversely correlated with private credit appetite
 
 ---
 
@@ -102,7 +102,7 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 
 - [[Citadel]] — largest pod shop, convergence in 2025
 - [[Millennium]] — pioneer of pod model, convergence in 2025
-- [[Point72]] — Steve Cohen pod shop
+- [[Point72]] — [[Steve Cohen]] pod shop
 - [[D.E. Shaw]] — quant multi-strat, outperformed pods in 2025 (+28%)
 - [[Hedge Funds]] — sector hub
 - [[Meme stocks]] — short squeeze dynamics
@@ -111,6 +111,6 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 
 ---
 
-*Source: Bloomberg Opinion (Shuli Ren), Preqin, Jan 23 2026*
+*Source: Bloomberg Opinion (Shuli Ren), [[Preqin]], Jan 23 2026*
 
 *Created 2026-01-23*

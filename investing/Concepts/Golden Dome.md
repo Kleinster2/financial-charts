@@ -23,17 +23,17 @@ Trump's signature missile defense program. Multi-layer system to protect US from
 
 ## The threat scenario
 
-Bloomberg modeled "any foreign aerial attack" (worst case: China + Russia + North Korea):
+Bloomberg modeled "any foreign aerial attack" (worst case: [[China]] + [[Russia]] + North Korea):
 
 | Threat | Quantity |
 |--------|----------|
 | ICBMs | 700 |
 | Other ballistic missiles | 510 |
 | Boosted hypersonic weapons | 800 |
-| Cruise missiles | 1,500 |
-| Drones | 10,000 |
+| [[Cruise]] missiles | 1,500 |
+| [[Drones]] | 10,000 |
 
-More modest scenario (Russia only) still costs **$844B**.
+More modest scenario ([[Russia]] only) still costs **$844B**.
 
 ---
 
@@ -41,7 +41,7 @@ More modest scenario (Russia only) still costs **$844B**.
 
 Four integrated layers from ground to space:
 
-### Space-based layer ($161B-$542B)
+### [[Space]]-based layer ($161B-$542B)
 
 | Component | Contractor | Function |
 |-----------|------------|----------|
@@ -52,7 +52,7 @@ Four integrated layers from ground to space:
 
 **Technology doesn't exist yet.** Requires 960 satellites, each armed with interceptors.
 
-#### Space-based interceptor competition (Nov 2025)
+#### [[Space]]-based interceptor competition (Nov 2025)
 
 | Company | Type | Contract | Status |
 |---------|------|----------|--------|
@@ -74,7 +74,7 @@ Four integrated layers from ground to space:
 |--------|------------|----------|
 | THAAD | [[Lockheed Martin]] | Short/medium ballistic missiles |
 | Aegis Ashore | [[Lockheed Martin]] | Intermediate ballistic missiles |
-| SM-3 Block IIA | RTX/Lockheed | Interceptor missiles |
+| SM-3 [[Block]] IIA | RTX/Lockheed | Interceptor missiles |
 | NGI | [[Lockheed Martin]] | Next-gen interceptors (new Midwest field) |
 | GBI | Boeing/Northrop | Ground-based interceptors (AK, CA) |
 
@@ -101,7 +101,7 @@ Four integrated layers from ground to space:
 
 ## Cost breakdown (Bloomberg)
 
-### Space-based layer
+### [[Space]]-based layer
 
 | Item | Quantity | Cost |
 |------|----------|------|
@@ -128,7 +128,7 @@ Four integrated layers from ground to space:
 |----------|------|
 | Trump estimate | $175B |
 | Funds budgeted | $25B |
-| Bloomberg (Russia only) | **$844B** |
+| Bloomberg ([[Russia]] only) | **$844B** |
 | Bloomberg (max threat) | **$1.1T** |
 
 **Not included:** Operating costs, personnel, R&D for new technology.
@@ -152,11 +152,11 @@ Four integrated layers from ground to space:
 | Company | Role |
 |---------|------|
 | [[Palantir]] | Software, integration |
-| SpaceX | Launch, satellites |
-| [[Anduril]] | Space interceptors |
-| Varda Space | Reentry vehicles, testing |
-| Apex | Space architectures |
-| True Anomaly | Space interceptors |
+| [[SpaceX]] | Launch, satellites |
+| [[Anduril]] | [[Space]] interceptors |
+| Varda [[Space]] | Reentry vehicles, testing |
+| Apex | [[Space]] architectures |
+| True Anomaly | [[Space]] interceptors |
 
 **2,100 contractors** selected for $151B pool (Dec 2025).
 
@@ -168,7 +168,7 @@ Golden Dome is not the first attempt:
 
 | Era | Program | Outcome |
 |-----|---------|---------|
-| Reagan | Strategic Defense Initiative ("Star Wars") | Abandoned — cost, feasibility |
+| Reagan | Strategic [[Defense]] Initiative ("Star Wars") | Abandoned — cost, feasibility |
 | Bush 41 | Global Protection Against Limited Strikes | Abandoned — cost, feasibility |
 | Current | Ground-based midcourse (44 interceptors) | Limited — AK/CA only |
 
@@ -188,7 +188,7 @@ Golden Dome is not the first attempt:
 
 ### Arms race risk
 
-Critics warn rapid missile defense expansion could spur Russia/China to accelerate nuclear weapons development, dimming arms control prospects.
+Critics warn rapid missile defense expansion could spur [[Russia]]/[[China]] to accelerate nuclear weapons development, dimming arms control prospects.
 
 ### Biden administration view
 
@@ -212,7 +212,7 @@ Critics warn rapid missile defense expansion could spur Russia/China to accelera
 | Factor | Detail |
 |--------|--------|
 | Political risk | May not survive administration |
-| Technical risk | Space interceptors don't exist |
+| Technical risk | [[Space]] interceptors don't exist |
 | Cost overruns | History of missile defense |
 | 2029 deadline | Unrealistic |
 
@@ -227,9 +227,9 @@ Critics warn rapid missile defense expansion could spur Russia/China to accelera
 
 ---
 
-## Canada
+## [[Canada]]
 
-Trump mentioned Canada could join for **$61B** (~5% of Bloomberg estimate). Details unclear.
+Trump mentioned [[Canada]] could join for **$61B** (~5% of Bloomberg estimate). Details unclear.
 
 ---
 

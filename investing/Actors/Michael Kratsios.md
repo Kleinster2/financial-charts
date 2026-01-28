@@ -1,6 +1,6 @@
 #actor #individual #usa #policy
 
-**Michael Kratsios** — US Chief Technology Officer under Trump. Former Deputy CTO (Trump I), former Acting Under Secretary of Defense (Research & Engineering). Leading AI export strategy and science initiatives.
+**Michael Kratsios** — US Chief Technology Officer under Trump. Former Deputy CTO (Trump I), former Acting Under Secretary of [[Defense]] (Research & Engineering). Leading AI export strategy and science initiatives.
 
 ---
 
@@ -9,9 +9,9 @@
 | Period | Role |
 |--------|------|
 | 2017-2019 | Deputy US CTO (Trump I) |
-| 2020-2021 | Acting Under Secretary of Defense for Research & Engineering |
+| 2020-2021 | Acting Under Secretary of [[Defense]] for Research & Engineering |
 | 2021-2024 | Private sector (Thiel Capital, managing director) |
-| 2025-present | US Chief Technology Officer (Trump II) |
+| 2025-present | US Chief Technology Officer ([[Trump II]]) |
 
 ---
 
@@ -22,14 +22,14 @@
 | AI export program | Lead — "American AI Export Program" |
 | Federal AI framework | Working with Sacks on legislative proposal |
 | AI for science | "Genesis Mission" launch |
-| International coordination | India AI Impact Summit (Feb 2026) |
+| International coordination | [[India AI]] Impact Summit (Feb 2026) |
 | Huawei/telecom lessons | First-hand experience from Trump I |
 
 ---
 
 ## Davos 2026 panel (Jan 23, 2026)
 
-Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
+Panel with [[David Sacks]] (AI/[[Crypto]] Czar), moderated by Maria Bartiromo.
 
 ### Three pillars of AI plan
 
@@ -57,7 +57,7 @@ Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
 - Most countries don't need large-scale training — very few will build "colossus-style training centers"
 - Most need smaller data centers with inference-related chips only
 - Partnering with export finance: Development Finance Corporation (DFC), Export-Import Bank
-- Going to India next month (Feb 2026) for India AI Impact Summit — "largest global gathering for AI"
+- Going to India next month (Feb 2026) for [[India AI]] Impact Summit — "largest global gathering for AI"
 - Will share more progress on export program there
 
 ### AI for science — Genesis Mission
@@ -73,15 +73,15 @@ Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
 ### Specific science breakthroughs expected
 
 - **Fusion:** computation-heavy simulations; faster feedback loop could move fusion timelines in
-- **Materials science:** testing molecules/interactions; important for space (lunar base, Mars, nuclear in space)
-- **Healthcare/therapeutics:** quickly identify best molecules for health challenges, iterate to clinical trial faster
+- **[[Materials science]]:** testing molecules/interactions; important for space (lunar base, Mars, nuclear in space)
+- **[[Healthcare]]/therapeutics:** quickly identify best molecules for health challenges, iterate to clinical trial faster
 
 ### Huawei telecom lesson (first-hand from Trump I)
 
 - First Trump admin saw Huawei's global telecom push firsthand
-- Huawei wasn't the best technology — "certainly subpar compared to Ericsson and Nokia"
+- Huawei wasn't the best technology — "certainly subpar compared to [[Ericsson]] and [[Nokia]]"
 - But was "good enough" and "subsidized enough" to become default telecom for much of the world
-- Now China has same ambition with AI: export models to power use cases across global south
+- Now [[China]] has same ambition with AI: export models to power use cases across global south
 - Lesson: don't need best model for technology to "perforate globally"
 
 ### Power / data centers
@@ -89,7 +89,7 @@ Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
 - Need to share a good story about how buildout will be net positive for American ratepayers
 - If you're in a small community and someone shows up to build a data center, must make clear it'll lower rates long-term
 - Trump's truth post (Monday before panel): "if you're going to build a data center you have to pay your own way"
-- Microsoft stepped up — hope many others will do the same
+- [[Microsoft]] stepped up — hope many others will do the same
 - Biden administration's policy prevented behind-the-meter energy generation — "if you wanted to bring your own power, you couldn't"
 - Secretary Wright and FERC changed that rule
 - Agrees with Sacks: greater scale in power generation → contributing back to grid → benefits ratepayers
@@ -104,11 +104,11 @@ Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
 ### International regulatory agenda
 
 - Sharing with partners/allies how to create regulatory environment for tech success
-- Europe has "a lot of roadblocks" — Draghi report identifies issues but "things don't ever seem to change"
+- [[Europe]] has "a lot of roadblocks" — Draghi report identifies issues but "things don't ever seem to change"
 - Most policymakers worldwide default to precautionary principle: "whiteboard everything that could go wrong"
 - US approach: "whiteboard what rules we can create to unlock innovation, what to remove"
 - AB test between US and European regulatory approach over last 20 years — "recipe is kind of obvious"
-- EU AI Act passed before ChatGPT invented — "shows the challenge" of regulating before innovation arrives
+- [[EU]] AI Act passed before [[ChatGPT]] invented — "shows the challenge" of regulating before innovation arrives
 - Abundance story extends to healthcare, quality of life
 
 *Source: Davos panel, Maria Bartiromo moderating, Jan 23 2026*
@@ -122,14 +122,14 @@ Panel with [[David Sacks]] (AI/Crypto Czar), moderated by Maria Bartiromo.
 | Education | Princeton (BA), Peter Thiel protege |
 | Thiel connection | Worked at Thiel Capital before government |
 | First term | Youngest-ever US CTO at 32 (2019) |
-| Defense role | Oversaw JAIC, AI/ML, quantum, biotech R&D |
+| [[Defense]] role | Oversaw JAIC, AI/ML, quantum, biotech R&D |
 | Current age | ~39 |
 
 ---
 
 ## Related
 
-- [[David Sacks]] — co-panelist, AI/Crypto Czar
+- [[David Sacks]] — co-panelist, AI/[[Crypto]] Czar
 - [[Export controls]] — American AI export program
 - [[Power constraints]] — behind-the-meter policy
 - [[Huawei]] — telecom lesson from Trump I

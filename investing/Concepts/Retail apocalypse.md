@@ -37,7 +37,7 @@
 | Country | Retail sq ft per capita |
 |---------|------------------------|
 | **United States** | **23-25** |
-| Canada | ~14 (40% less) |
+| [[Canada]] | ~14 (40% less) |
 | United Kingdom | ~5 (5x less) |
 
 The US built far more retail space than it needed. Mall construction from 1970-2015 grew at 2x population growth.
@@ -49,13 +49,13 @@ The US built far more retail space than it needed. Mall construction from 1970-2
 | Mall visits 2010 → 2013 | -50% |
 | Mall decline 2017-2022 | -16.7%/year |
 | Credit Suisse forecast (2017) | 25% of malls close by 2022 |
-| UBS forecast | 80,000 more stores to close (9% of total) |
+| [[UBS]] forecast | 80,000 more stores to close (9% of total) |
 
 ### 4. [[Middle class decline]]
 
 Declining real wages + rising costs → less discretionary spending. The middle-income share of population fell from 61% (1971) to 50% (2023). Department stores (Macy's, JCPenney, Sears) built for middle-class shopping were squeezed between:
-- **Luxury** (resilient wealthy consumers — top 19%)
-- **Value** (Dollar stores, off-price like TJX — serving growing lower tier)
+- **[[Luxury]]** (resilient wealthy consumers — top 19%)
+- **Value** (Dollar stores, off-price like [[TJX]] — serving growing lower tier)
 
 ---
 
@@ -114,15 +114,15 @@ Anchor closes
 
 | Category | Examples | Why |
 |----------|----------|-----|
-| **E-commerce** | [[Amazon]], Shopify merchants | Took the share |
-| **Off-price** | TJX, Ross, Burlington | Value-conscious shoppers |
+| **E-commerce** | [[Amazon]], [[Shopify]] merchants | Took the share |
+| **Off-price** | [[TJX]], Ross, [[Burlington]] | Value-conscious shoppers |
 | **Dollar stores** | Dollar General, Dollar Tree | Low-income consumers |
-| **Warehouse clubs** | Costco, Sam's Club | Bulk value |
-| **Luxury** | [[LVMH]], [[Kering]] (until 2024) | Wealthy consumers resilient |
+| **Warehouse clubs** | [[Costco]], Sam's Club | Bulk value |
+| **[[Luxury]]** | [[LVMH]], [[Kering]] (until 2024) | Wealthy consumers resilient |
 
 **Who adapted:**
-- **Target:** Invested in stores, same-day fulfillment
-- **Walmart:** Built e-commerce, used stores as distribution
+- **[[Target]]:** Invested in stores, same-day fulfillment
+- **[[Walmart]]:** Built e-commerce, used stores as distribution
 - **Best Buy:** Price-matched Amazon, added services
 
 ---
@@ -155,19 +155,19 @@ The retail apocalypse created the conditions for [[Retail real estate as hidden 
 ## Investment implications
 
 **Short thesis (2017-2020):**
-- Mall REITs (CBL, Washington Prime → both bankrupt)
+- Mall [[REITs]] (CBL, Washington Prime → both bankrupt)
 - Department store operators
 - Mall-dependent retailers
 
 **Long thesis:**
-- E-commerce enablers (Shopify, fulfillment)
-- Off-price retailers (TJX, Ross)
-- Luxury brands with owned real estate
+- E-commerce enablers ([[Shopify]], fulfillment)
+- Off-price retailers ([[TJX]], Ross)
+- [[Luxury]] brands with owned real estate
 - Amazon (obviously)
 
 **Current (2025-2026):**
 - [[Department store decline]] continues ([[Saks bankruptcy]])
-- Luxury real estate recovered ([[Fifth Avenue luxury corridor]])
+- [[Luxury]] real estate recovered ([[Fifth Avenue luxury corridor]])
 - "Reshuffling" narrative gaining ground
 
 ---

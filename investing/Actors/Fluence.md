@@ -3,7 +3,7 @@ aliases: [FLNC]
 ---
 #actor #storage #energy #usa
 
-**Fluence** — Battery storage systems. Siemens/AES joint venture. Grid-scale energy storage leader.
+**Fluence** — Battery storage systems. [[Siemens]]/AES joint venture. Grid-scale energy storage leader.
 
 ---
 
@@ -13,7 +13,7 @@ Battery storage solves solar intermittency — essential for AI data centers:
 
 | Metric | Value |
 |--------|-------|
-| Ownership | Siemens + AES (JV) |
+| Ownership | [[Siemens]] + AES (JV) |
 | Product | Grid-scale battery systems |
 | Market position | Top 3 global |
 | AI relevance | Enables 24/7 renewable power |
@@ -51,8 +51,8 @@ Battery storage solves solar intermittency — essential for AI data centers:
 
 ## Corporate parentage
 
-**Siemens + AES joint venture:**
-- Siemens: Technology, manufacturing
+**[[Siemens]] + AES joint venture:**
+- [[Siemens]]: Technology, manufacturing
 - AES: Project development, customers
 - Combined expertise
 - Access to capital
@@ -81,8 +81,8 @@ Battery storage solves solar intermittency — essential for AI data centers:
 | Competitor | Strength | Fluence vs |
 |------------|----------|------------|
 | [[Tesla Energy]] | Megapack brand | Enterprise focus |
-| BYD | Low cost | Non-China supply |
-| Samsung SDI | Cells | System integration |
+| [[BYD]] | Low cost | Non-[[China]] supply |
+| [[Samsung SDI]] | Cells | System integration |
 | Wartsila | Energy storage | Software platform |
 
 Fluence = pure-play grid storage leader.
@@ -92,15 +92,15 @@ Fluence = pure-play grid storage leader.
 ## Investment case
 
 **Bull:**
-- Grid storage growth inevitable
+- [[Grid storage]] growth inevitable
 - AI data center demand
-- Siemens/AES backing
+- [[Siemens]]/AES backing
 - Software + hardware model
 - IRA incentives
 
 **Bear:**
 - Unprofitable (investing for growth)
-- Competition from Tesla, Chinese
+- Competition from [[Tesla]], Chinese
 - Battery cell supply dependency
 - Project timing volatility
 - Execution challenges
@@ -113,7 +113,7 @@ Fluence = pure-play grid storage leader.
 |--------|-------|
 | Ticker | FLNC |
 | Market cap | ~$3B |
-| Ownership | Siemens + AES JV |
+| Ownership | [[Siemens]] + AES JV |
 | HQ | Arlington, VA |
 | Focus | Grid-scale storage |
 

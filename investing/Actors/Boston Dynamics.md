@@ -28,7 +28,7 @@ Most famous robotics company:
 |-------|--------|
 | MIT spin-out | 1992 |
 | Google | 2013-2017 |
-| SoftBank | 2017-2021 |
+| [[SoftBank]] | 2017-2021 |
 | Hyundai | 2021-present |
 
 Struggled to commercialize.
@@ -71,10 +71,10 @@ Struggled to commercialize.
 
 **First deployments (2026):**
 - [[Hyundai]] Metaplant Georgia — factory automation
-- [[Google]] DeepMind Gemini Robotics partnership — AI foundation models for manipulation and reasoning
+- [[Google]] DeepMind [[Gemini]] [[Robotics]] partnership — AI foundation models for manipulation and reasoning
 
-**Google DeepMind partnership (Jan 2026):**
-- Integrating Gemini Robotics vision-language models into Atlas
+**[[Google DeepMind]] partnership (Jan 2026):**
+- Integrating [[Gemini]] [[Robotics]] vision-language models into Atlas
 - Goal: general-purpose manipulation without task-specific programming
 - Combines BD hardware (56 DOF, production-ready) with DeepMind's foundation model approach
 - Positions Atlas as AI-native humanoid (vs competitors using narrower autonomy stacks)
@@ -90,7 +90,7 @@ Struggled to commercialize.
 
 **Industrial robotics:**
 - Factory automation
-- Automotive manufacturing
+- [[Automotive]] manufacturing
 - Hyundai's robot ambitions
 - Korean conglomerate backing
 
@@ -98,14 +98,14 @@ Struggled to commercialize.
 
 ## CES 2026 competitive landscape
 
-**China dominance at CES 2026:**
+**[[China]] dominance at CES 2026:**
 - 21 of 38 humanoid exhibitors were Chinese companies
-- 7,705 humanoid patents filed in China in 5 years (vs US 1,561)
-- 150+ humanoid robot companies in China
+- 7,705 humanoid patents filed in [[China]] in 5 years (vs US 1,561)
+- 150+ humanoid robot companies in [[China]]
 - [[UBTECH]] Walker S2: 1,000+ delivered (Nov 2025) — "world's first mass delivery"
 - Unitree: G1/H2/R1 lineup, affordability-focused
 
-**Boston Dynamics' moat:** Production-readiness + DeepMind AI partnership differentiates from Chinese volume play. Hardware quality (56 DOF, 110 lbs lift) exceeds Chinese competitors. But China moving fast on cost/volume curve.
+**Boston Dynamics' moat:** Production-readiness + DeepMind AI partnership differentiates from Chinese volume play. Hardware quality (56 DOF, 110 lbs lift) exceeds Chinese competitors. But [[China]] moving fast on cost/volume curve.
 
 **Nature assessment (Jan 2026):** Humanoid robots "on brink of being commercially useful" — cheaper parts, better batteries, AI algorithms all converging.
 
@@ -153,7 +153,7 @@ Struggled to commercialize.
 - [[Tesla]] — competitor (Optimus)
 - [[Unitree]] — competitor (Chinese humanoids)
 - [[NVIDIA]] — supplier (AI compute, GR00T humanoid models)
-- [[Google]] — DeepMind Gemini Robotics partner for Atlas
+- [[Google]] — DeepMind [[Gemini]] [[Robotics]] partner for Atlas
 - [[UBTECH]] — competitor (Walker S2, 1,000+ mass delivery)
 - [[CES 2026]] — Atlas production announcement
 

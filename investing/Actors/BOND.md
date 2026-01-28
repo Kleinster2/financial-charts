@@ -23,7 +23,7 @@ aliases: [BOND Capital, Bond]
 
 | Fact | Detail |
 |------|--------|
-| Background | Morgan Stanley (Internet analyst) |
+| Background | [[Morgan Stanley]] (Internet analyst) |
 | Famous for | Annual "Internet Trends" report |
 | Kleiner Perkins | Partner 2010-2018 |
 | BOND | Founded 2019 as spinout |
@@ -48,7 +48,7 @@ aliases: [BOND Capital, Bond]
 |----------|--------|
 | Stage | Growth (Series B-D) |
 | Check size | $50-200M |
-| Sectors | Consumer, enterprise, fintech |
+| Sectors | [[Consumer]], enterprise, fintech |
 | Geography | Primarily US |
 
 ---
@@ -57,12 +57,12 @@ aliases: [BOND Capital, Bond]
 
 | Company | Stage | Sector |
 |---------|-------|--------|
-| **[[Substack]]** | Series C lead | Media/creator |
-| **Canva** | Growth | Design |
-| **Faire** | Growth | B2B marketplace |
-| **Instacart** | Growth | Delivery |
-| **Figma** | Growth | Design |
-| **Databricks** | Growth | Data/AI |
+| **[[Substack]]** | Series C lead | [[Media]]/creator |
+| **[[Canva]]** | Growth | Design |
+| **[[Faire]]** | Growth | B2B marketplace |
+| **[[Instacart]]** | Growth | Delivery |
+| **[[Figma]]** | Growth | Design |
+| **[[Databricks]]** | Growth | Data/AI |
 
 ---
 

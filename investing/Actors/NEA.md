@@ -26,19 +26,19 @@ aliases: [New Enterprise Associates]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **[[Perplexity]]** | Series B lead | $20B |
-| **Cloudflare** | Early | Public (NET) |
-| **Robinhood** | Growth | Public (HOOD) |
-| **Databricks** | Growth | $134B |
+| **[[Cloudflare]]** | Early | Public (NET) |
+| **[[Robinhood]]** | Growth | Public (HOOD) |
+| **[[Databricks]]** | Growth | $134B |
 | **Plaid** | Growth | Private |
-| **Tableau** | Early | Acquired by Salesforce |
+| **Tableau** | Early | Acquired by [[Salesforce]] |
 
-### Healthcare
+### [[Healthcare]]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| Moderna | Early | Public (MRNA) |
-| 10x Genomics | Early | Public (TXG) |
-| Exact Sciences | Growth | Public (EXAS) |
+| [[Moderna]] | Early | Public (MRNA) |
+| [[10x Genomics]] | Early | Public (TXG) |
+| [[Exact Sciences]] | Growth | Public (EXAS) |
 
 ---
 
@@ -47,9 +47,9 @@ aliases: [New Enterprise Associates]
 | Sector | % of portfolio |
 |--------|----------------|
 | **Enterprise software** | ~35% |
-| **Healthcare/biotech** | ~35% |
-| **Consumer tech** | ~20% |
-| **Fintech** | ~10% |
+| **[[Healthcare]]/biotech** | ~35% |
+| **[[Consumer]] tech** | ~20% |
+| **[[Fintech]]** | ~10% |
 
 ---
 

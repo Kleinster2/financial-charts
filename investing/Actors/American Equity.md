@@ -77,7 +77,7 @@ Key differentiator: FIA specialist (vs. Athene's broader fixed annuity focus), s
 - [[Brookfield]] — parent (acquired for $4.3B, Apr 2024)
 - [[Athene]] — peer (Apollo's platform, larger scale)
 - [[Global Atlantic]] — peer (KKR's platform)
-- [[F&G Annuities]] — peer (Blackstone-linked, also FIA focus)
+- [[F&G Annuities]] — peer ([[Blackstone]]-linked, also FIA focus)
 - [[Reinsurance sidecars]] — structural model enabling scale
 - [[Private credit]] — primary deployment target for float
 

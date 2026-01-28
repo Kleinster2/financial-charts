@@ -41,7 +41,7 @@
 | **Expense software** | Receipt capture, categorization |
 | **Integration** | Accounting software sync |
 
-**Target market:** SMBs needing expense control without enterprise complexity.
+**[[Target]] market:** SMBs needing expense control without enterprise complexity.
 
 ---
 

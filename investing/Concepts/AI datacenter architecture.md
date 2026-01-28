@@ -79,7 +79,7 @@ Training large models requires GPUs to communicate constantly:
 **Traditional DC:**
 - 10-20 MW total
 - Shared across many tenants
-- UPS and generator backup
+- [[UPS]] and generator backup
 
 **AI DC:**
 - 100-500+ MW per facility
@@ -102,25 +102,25 @@ See [[BYOP]] for full pattern. Hyperscalers increasingly generating their own po
 
 | Equipment | Units | MW each | Total |
 |-----------|-------|---------|-------|
-| [[Solar Turbines]] Titan 250 IGT | 3 | 23 MW | 69 MW |
-| [[Solar Turbines]] Titan 130 IGT | 9 | 16.5 MW | 148.5 MW |
+| [[Solar Turbines]] [[Titan]] 250 IGT | 3 | 23 MW | 69 MW |
+| [[Solar Turbines]] [[Titan]] 130 IGT | 9 | 16.5 MW | 148.5 MW |
 | [[Siemens Energy]] SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
-| Caterpillar 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
+| [[Caterpillar]] 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
 | **Gross total** | | | **~307 MW** |
 
 **N+1+1 design:** Redundancy yields 200MW+ operational capacity.
 
 **Design philosophy:**
 - **Hybrid fleet** — 4 turbine types diversifies supplier/technology risk
-- **Fast-start engines** — Caterpillar 3520s can ramp in seconds (peaker role)
+- **Fast-start engines** — [[Caterpillar]] 3520s can ramp in seconds (peaker role)
 - **IGTs (industrial gas turbines)** — baseload power
-- **Vendor diversification** — Solar Turbines (Caterpillar) + Siemens Energy
+- **Vendor diversification** — Solar Turbines ([[Caterpillar]]) + [[Siemens]] Energy
 
-**Contrast with OpenAI UAE:**
-- OpenAI: Single-vendor (4x Ansaldo Energia AE94.3)
+**Contrast with [[OpenAI]] UAE:**
+- [[OpenAI]]: Single-vendor (4x Ansaldo Energia AE94.3)
 - Meta: Multi-vendor hybrid fleet
 
-Both valid — Meta prioritizes supply chain resilience, OpenAI prioritizes simplicity/scale
+Both valid — Meta prioritizes supply chain resilience, [[OpenAI]] prioritizes simplicity/scale
 
 ---
 
@@ -140,9 +140,9 @@ This explains [[GPU deployment bottleneck]]:
 | Category | Companies |
 |----------|-----------|
 | **Liquid cooling** | Vertiv, Schneider Electric, Modine |
-| **Power infrastructure** | GE Vernova, Siemens Energy |
-| **DC construction** | Digital Realty, Equinix, CoreWeave |
-| **Crypto miners (pivot)** | TeraWulf, Hut 8, Cipher Mining, IREN |
+| **Power infrastructure** | [[GE Vernova]], [[Siemens]] Energy |
+| **DC construction** | [[Digital Realty]], [[Equinix]], [[CoreWeave]] |
+| **[[Crypto]] miners (pivot)** | [[TeraWulf]], [[Hut 8]], [[Cipher Mining]], [[IREN]] |
 
 ---
 
@@ -164,4 +164,4 @@ This explains [[GPU deployment bottleneck]]:
 - [[BYOP]] — on-site power generation pattern
 - [[Solar Turbines]] — Meta Socrates South supplier
 - [[Siemens Energy]] — Meta Socrates South supplier
-- [[Ansaldo Energia]] — OpenAI UAE supplier
+- [[Ansaldo Energia]] — [[OpenAI]] UAE supplier

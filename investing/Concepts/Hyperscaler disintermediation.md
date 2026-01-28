@@ -1,9 +1,9 @@
 ---
-aliases: [Telecom disintermediation, Hyperscaler infrastructure]
+aliases: [[[Telecom]] disintermediation, Hyperscaler infrastructure]
 ---
 #concept #thesis #infrastructure #telecom
 
-**Hyperscaler Disintermediation** — Google, Meta, Microsoft building their own infrastructure, bypassing telecoms.
+**Hyperscaler Disintermediation** — Google, Meta, [[Microsoft]] building their own infrastructure, bypassing telecoms.
 
 ---
 
@@ -56,13 +56,13 @@ Telecoms losing long-haul traffic to direct hyperscaler infrastructure.
 | Metro fiber | Still telecoms |
 | Last mile (consumer) | Still telecoms |
 | Enterprise connectivity | Mixed |
-| Wireless (5G/6G) | Telecoms + [[Nokia]] |
+| Wireless ([[5G]]/6G) | Telecoms + [[Nokia]] |
 
 Telecoms retain local connectivity, lose intercontinental.
 
 ---
 
-## Telecom response
+## [[Telecom]] response
 
 **Pivot strategies:**
 
@@ -87,7 +87,7 @@ Become hyperscaler partners, not competitors.
 **Long telecom local:**
 - Last mile still valuable
 - Enterprise connectivity
-- 5G/6G networks
+- [[5G]]/6G networks
 - Can't be disintermediated (yet)
 
 **Long hyperscalers:**
@@ -118,7 +118,7 @@ AI = more reason to own infrastructure.
 - Enterprise trust
 - AI-RAN opportunity
 
-Wireless 5G/6G = telecom's defensible moat.
+Wireless [[5G]]/6G = telecom's defensible moat.
 
 ---
 
@@ -147,7 +147,7 @@ Wireless 5G/6G = telecom's defensible moat.
 | Hyperscaler cables | 59 (3x since 2017) |
 | Longest single-owner | 50,000 km (Meta) |
 | AI driver | Data center traffic |
-| Telecom defense | Wireless, last mile |
+| [[Telecom]] defense | Wireless, last mile |
 
 *Updated 2026-01-01*
 

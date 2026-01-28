@@ -1,9 +1,9 @@
 ---
-aliases: [Électricité de France, Electricite de France]
+aliases: [Électricité de [[France]], Electricite de [[France]]]
 ---
 #actor #energy #nuclear #france #public
 
-**EDF** — Europe's largest nuclear operator. Powering France's AI ambitions. Data center sites initiative.
+**EDF** — [[Europe]]'s largest nuclear operator. Powering [[France]]'s AI ambitions. Data center sites initiative.
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [Électricité de France, Electricite de France]
 
 | Metric | Value |
 |--------|-------|
-| Status | State-owned (France) |
+| Status | State-owned ([[France]]) |
 | Nuclear fleet | 56 reactors |
-| France electricity | ~70% nuclear |
+| [[France]] electricity | ~70% nuclear |
 | AI strategy | 2 GW data center sites |
 
 ---
@@ -26,7 +26,7 @@ aliases: [Électricité de France, Electricite de France]
 - 4 industrial sites identified (EDF land)
 - Total available power: **2 GW**
 - 2 additional sites by 2026
-- Target: 1 GW computing power by 2028
+- [[Target]]: 1 GW computing power by 2028
 
 **Value proposition:**
 - Low-carbon nuclear electricity
@@ -42,7 +42,7 @@ aliases: [Électricité de France, Electricite de France]
 | Data4 | 12-year CAPN | 40 MW nuclear, 230 GWh/year from 2026 |
 | OpCore | AI data center | €4.3B campus near Paris |
 | Fluidstack | AI supercomputer | €10B Phase 1, operational 2026 |
-| NVIDIA/Mistral/MGX | Paris campus | 1.4 GW site, 2028 target |
+| NVIDIA/[[Mistral]]/[[MGX]] | Paris campus | 1.4 GW site, 2028 target |
 
 **CAPN (Nuclear Production Allocation Contract):** First-of-kind for data centers.
 
@@ -56,7 +56,7 @@ aliases: [Électricité de France, Electricite de France]
 | Predictability | Long-term contracts |
 | Carbon intensity | Near zero |
 
-France = ideal for carbon-conscious hyperscalers.
+[[France]] = ideal for carbon-conscious hyperscalers.
 
 ---
 
@@ -66,10 +66,10 @@ France = ideal for carbon-conscious hyperscalers.
 |--------|-------|
 | Reactors | 56 |
 | Capacity | ~61 GW |
-| France share | ~70% of electricity |
+| [[France]] share | ~70% of electricity |
 | New builds | Flamanville EPR (delayed) |
 
-Largest nuclear fleet in Europe, second globally (after US).
+Largest nuclear fleet in [[Europe]], second globally (after US).
 
 ---
 
@@ -78,7 +78,7 @@ Largest nuclear fleet in Europe, second globally (after US).
 **Bull:**
 - AI power demand surge
 - Nuclear = 24/7 clean baseload
-- France policy support
+- [[France]] policy support
 - Data center deals scaling
 - €70/MWh ceiling attractive
 

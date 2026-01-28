@@ -53,7 +53,7 @@ aliases: [ZS]
 |------------|----------|
 | **Zscaler** | Pure-play zero trust |
 | [[Palo Alto Networks]] | Prisma SASE (platform) |
-| Cisco | Umbrella (legacy vendor) |
+| [[Cisco]] | Umbrella (legacy vendor) |
 | Netskope | CASB + SASE |
 
 ---

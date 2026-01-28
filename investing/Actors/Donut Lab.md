@@ -30,7 +30,7 @@ Donut Lab unveiled at CES 2026 what it calls the world's first all-solid-state b
 
 | Spec | Value | vs. Li-ion |
 |------|-------|------------|
-| Energy density | **400 Wh/kg** | 2x Tesla |
+| Energy density | **400 Wh/kg** | 2x [[Tesla]] |
 | Charge time | **5 minutes** | ~10x faster |
 | Cycle life | **100,000+** | ~3-4x longer |
 | Thermal runaway | None | Safer |
@@ -51,7 +51,7 @@ Verge becomes first production vehicle manufacturer to deploy solid-state batter
 
 ---
 
-## Defense applications
+## [[Defense]] applications
 
 Partnership with **ESOX Group** for military applications:
 
@@ -60,7 +60,7 @@ Partnership with **ESOX Group** for military applications:
 | X1 Interceptor | Drone |
 | X2 UGV | Ground vehicle |
 
-**Defense benefits:** Range, payload, endurance, survivability all improve with solid-state.
+**[[Defense]] benefits:** Range, payload, endurance, survivability all improve with solid-state.
 
 ---
 
@@ -68,9 +68,9 @@ Partnership with **ESOX Group** for military applications:
 
 | Impact | Detail |
 |--------|--------|
-| **First to market** | Beat QuantumScape, Toyota, Samsung SDI |
+| **First to market** | Beat QuantumScape, [[Toyota]], [[Samsung]] SDI |
 | **Proof of concept** | No longer "5 years away" |
-| **Pressure on incumbents** | CATL, LG must respond |
+| **Pressure on incumbents** | [[CATL]], LG must respond |
 | **Validates technology** | Real vehicles, real customers |
 
 ---
@@ -81,7 +81,7 @@ Partnership with **ESOX Group** for military applications:
 - First-mover advantage
 - Working product, not vaporware
 - 400 Wh/kg proven
-- Defense applications
+- [[Defense]] applications
 - OEM partnership secured
 
 **Bear:**

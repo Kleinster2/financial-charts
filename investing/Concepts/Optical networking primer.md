@@ -8,7 +8,7 @@
 
 ## Why optics?
 
-| Property | Copper | Fiber |
+| Property | [[Copper]] | Fiber |
 |----------|--------|-------|
 | Bandwidth | Limited | Nearly unlimited |
 | Distance | ~100m (high speed) | 100+ km |
@@ -88,11 +88,11 @@ Send multiple signals on different wavelengths (colors) through one fiber.
 
 ---
 
-## Coherent optics
+## [[Coherent]] optics
 
 Advanced modulation using phase and amplitude of light.
 
-| Property | Direct detect | Coherent |
+| Property | Direct detect | [[Coherent]] |
 |----------|---------------|----------|
 | Modulation | On/off | Phase + amplitude |
 | Bits per symbol | 1 | 4-6+ (QAM) |
@@ -128,7 +128,7 @@ Advanced modulation using phase and amplitude of light.
 
 | Tier | Distance | Technology |
 |------|----------|------------|
-| **Intra-rack** | <3m | Copper DAC, AOC |
+| **Intra-rack** | <3m | [[Copper]] DAC, AOC |
 | **Intra-DC** | 100m-2km | MMF, SMF |
 | **Campus/DCI** | 2-80km | SMF, coherent |
 | **Metro** | 80-300km | DWDM coherent |
@@ -147,7 +147,7 @@ AI training requires massive bandwidth between GPUs/TPUs.
 |------------|-----------|----------|
 | NVLink | 900 GB/s (H100) | Within node |
 | NVSwitch | 3.6 TB/s switching | Within rack |
-| Copper DAC | 400G per lane | <3m |
+| [[Copper]] DAC | 400G per lane | <3m |
 
 ### Scale-out (between racks)
 
@@ -167,21 +167,21 @@ AI training requires massive bandwidth between GPUs/TPUs.
 
 | Company | Strength |
 |---------|----------|
-| **[[Coherent Corp]]** | Coherent DSP, 800G/1.6T |
+| **[[Coherent Corp]]** | [[Coherent]] DSP, 800G/1.6T |
 | **[[Lumentum]]** | Lasers, coherent |
-| **II-VI** (now Coherent) | Vertically integrated |
-| **Cisco** | Enterprise, some DC |
-| **Intel** (Silicon Photonics) | Integration play |
+| **II-VI** (now [[Coherent]]) | Vertically integrated |
+| **[[Cisco]]** | Enterprise, some DC |
+| **[[Intel]]** (Silicon Photonics) | Integration play |
 
 ### Optical components
 
 | Component | Leaders |
 |-----------|---------|
-| Lasers (DFB, EML) | Lumentum, II-VI/Coherent |
+| Lasers (DFB, EML) | Lumentum, II-VI/[[Coherent]] |
 | VCSELs | Lumentum, II-VI |
-| Modulators | Coherent |
+| Modulators | [[Coherent]] |
 | Photodetectors | Multiple |
-| DSP chips | Marvell, Broadcom, Coherent |
+| DSP chips | Marvell, Broadcom, [[Coherent]] |
 
 ### Fiber
 
@@ -203,7 +203,7 @@ Integrate optical components on silicon chips (like semiconductors).
 | Integration with electronics | Coupling efficiency |
 | Smaller form factor | Thermal management |
 
-**Players:** Intel (Altera), Cisco, Marvell, [[Broadcom]].
+**Players:** [[Intel]] (Altera), [[Cisco]], Marvell, [[Broadcom]].
 
 **Trend:** Co-packaged optics — transceivers integrated into switch ASICs. Reduces power, latency.
 
@@ -211,9 +211,9 @@ Integrate optical components on silicon chips (like semiconductors).
 
 ## Co-packaged optics (CPO)
 
-Traditional: Switch ASIC → electrical traces → pluggable transceiver → fiber
+Traditional: [[Switch]] ASIC → electrical traces → pluggable transceiver → fiber
 
-CPO: Switch ASIC + optics on same package → fiber
+CPO: [[Switch]] ASIC + optics on same package → fiber
 
 | Property | Pluggable | CPO |
 |----------|-----------|-----|
@@ -290,7 +290,7 @@ Remove DSP retiming from transceiver. Let host handle it.
 
 **Bears say:**
 - Commoditization at lower speeds
-- China competition in components
+- [[China]] competition in components
 - CPO may disrupt pluggables
 - Customer concentration (hyperscalers)
 

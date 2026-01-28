@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #infrastructure #submarine #cable #brazil
 
-**EllaLink** — First direct Brazil-Europe submarine cable. Bypasses US. Data sovereignty play.
+**EllaLink** — First direct [[Brazil]]-[[Europe]] submarine cable. Bypasses US. Data sovereignty play.
 
 ---
 
@@ -13,13 +13,13 @@ Direct transatlantic link:
 
 | Metric | Value |
 |--------|-------|
-| Route | Brazil (Fortaleza) → Portugal (Sines) |
+| Route | [[Brazil]] (Fortaleza) → Portugal (Sines) |
 | Length | 6,200 km |
 | Capacity | 100+ Tbps |
 | Operational | 2021 |
 | Expansion | French Guiana 2025 |
 
-First cable to bypass US routing between South America and Europe.
+First cable to bypass US routing between South America and [[Europe]].
 
 ---
 
@@ -38,7 +38,7 @@ Post-Snowden infrastructure.
 ## Route
 
 **Landing points:**
-- Fortaleza, Brazil (Praia do Futuro)
+- Fortaleza, [[Brazil]] (Praia do Futuro)
 - Sines, Portugal
 - French Guiana (2025 extension)
 
@@ -59,15 +59,15 @@ Post-Snowden infrastructure.
 **2024-2025:**
 - French Guiana extension (2,100 km)
 - Cayenne landing point
-- Amazon region connectivity
-- Space launch site access (Kourou)
+- [[Amazon]] region connectivity
+- [[Space]] launch site access (Kourou)
 
 ---
 
 ## Ownership
 
 **Consortium:**
-- Marguerite Fund (EU)
+- Marguerite Fund ([[EU]])
 - Various European investors
 - Not hyperscaler owned
 
@@ -81,7 +81,7 @@ Independent infrastructure.
 - Lands at Praia do Futuro
 - 14 other cables there
 - [[Fortaleza Data Hub]] advantage
-- Europe + Africa + US access
+- [[Europe]] + [[Africa]] + US access
 
 ---
 
@@ -89,7 +89,7 @@ Independent infrastructure.
 
 | Metric | Value |
 |--------|-------|
-| Route | Brazil-Portugal |
+| Route | [[Brazil]]-Portugal |
 | Length | 6,200 km |
 | Capacity | 100+ Tbps |
 | Operational | 2021 |
@@ -101,8 +101,8 @@ Independent infrastructure.
 ## Related
 
 - [[Fortaleza Data Hub]] — landing point (Praia do Futuro)
-- [[Brazil AI]] — beneficiary (Europe connectivity)
+- [[Brazil AI]] — beneficiary ([[Europe]] connectivity)
 - [[Humboldt Cable]] — peer (Latin America submarine cable)
-- [[SACS Cable]] — peer (Africa-Americas cable)
+- [[SACS Cable]] — peer ([[Africa]]-Americas cable)
 - [[Submarine Cables]] — infrastructure context
 

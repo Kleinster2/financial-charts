@@ -25,7 +25,7 @@ Premium US network:
 
 **Premium positioning:**
 - Best network reputation
-- C-band 5G leader
+- C-band [[5G]] leader
 - Fios fiber (Northeast)
 - Enterprise focus
 
@@ -41,13 +41,13 @@ Premium US network:
 
 ---
 
-## 5G leadership
+## [[5G]] leadership
 
 **Network investments:**
 - C-band spectrum
 - mmWave (dense urban)
 - Fixed wireless access
-- Enterprise private 5G
+- Enterprise private [[5G]]
 
 ---
 
@@ -72,7 +72,7 @@ Premium US network:
 **Bear:**
 - Debt load (Frontier)
 - T-Mobile competition
-- Consumer saturation
+- [[Consumer]] saturation
 - Capex needs
 
 ---

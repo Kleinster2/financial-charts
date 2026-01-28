@@ -1,16 +1,16 @@
 #actor #fintech #india #payments
 
-**PhonePe** — India's largest digital payments provider. Walmart-backed. IPO filed for $1.5B raise at ~$15B valuation.
+**PhonePe** — [[India]]'s largest digital payments provider. Walmart-backed. IPO filed for $1.5B raise at ~$15B valuation.
 
 ---
 
 ## Why PhonePe matters
 
-Dominates India's UPI payments:
+Dominates [[India]]'s UPI payments:
 
 | Metric | Value |
 |--------|-------|
-| Position | #1 India digital payments |
+| Position | #1 [[India]] digital payments |
 | Backer | [[Walmart]] |
 | IPO raise | **$1.5B** |
 | Valuation | **~$15B** |
@@ -27,7 +27,7 @@ Dominates India's UPI payments:
 - Bill payments
 
 **Expanding services:**
-- Insurance
+- [[Insurance]]
 - Investments/wealth
 - Lending
 - E-commerce
@@ -38,10 +38,10 @@ Dominates India's UPI payments:
 
 | Shareholder | Notes |
 |-------------|-------|
-| **Walmart** | Majority owner (via Flipkart history) |
+| **Walmart** | Majority owner (via [[Flipkart]] history) |
 | Other investors | Various |
 
-Spun out from Flipkart, which Walmart acquired.
+Spun out from [[Flipkart]], which Walmart acquired.
 
 ---
 
@@ -49,12 +49,12 @@ Spun out from Flipkart, which Walmart acquired.
 
 | Metric | Value |
 |--------|-------|
-| Target raise | $1.5B |
+| [[Target]] raise | $1.5B |
 | Valuation | ~$15B |
 | Filing | Confidential |
-| Exchange | TBD (likely India) |
+| Exchange | TBD (likely [[India]]) |
 
-Part of India digital champion IPO wave (see [[Asia IPO pipeline 2026]]).
+Part of [[India]] digital champion IPO wave (see [[Asia IPO pipeline 2026]]).
 
 ---
 
@@ -62,19 +62,19 @@ Part of India digital champion IPO wave (see [[Asia IPO pipeline 2026]]).
 
 | Competitor | Notes |
 |------------|-------|
-| Google Pay | Strong #2 |
+| [[Google]] Pay | Strong #2 |
 | Paytm | Struggling post-IPO |
-| Amazon Pay | Smaller |
+| [[Amazon]] Pay | Smaller |
 | CRED | Niche (credit card) |
 
-PhonePe and Google Pay dominate UPI market share.
+PhonePe and [[Google]] Pay dominate UPI market share.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- #1 in massive India payments market
+- #1 in massive [[India]] payments market
 - Walmart backing
 - UPI adoption still growing
 - Expanding financial services
@@ -82,8 +82,8 @@ PhonePe and Google Pay dominate UPI market share.
 
 **Bear:**
 - UPI is zero-fee (monetization challenge)
-- Google Pay competition
-- Regulatory risk (India fintech)
+- [[Google]] Pay competition
+- Regulatory risk ([[India]] fintech)
 - $15B valuation ambitious
 - Needs adjacent revenue streams
 
@@ -96,5 +96,5 @@ PhonePe and Google Pay dominate UPI market share.
 ## Related
 
 - [[Walmart]] — majority owner
-- [[Asia IPO pipeline 2026]] — context (India fintech IPO)
-- [[Jio Platforms]] — peer (India digital)
+- [[Asia IPO pipeline 2026]] — context ([[India]] fintech IPO)
+- [[Jio Platforms]] — peer ([[India]] digital)

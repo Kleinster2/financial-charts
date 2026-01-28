@@ -1,9 +1,9 @@
 ---
-aliases: [WDC, WD, SanDisk]
+aliases: [WDC, WD, [[SanDisk]]]
 ---
 #actor #storage #hdd #nand #semiconductor
 
-**Western Digital** — HDD + NAND. Spun off flash business (SanDisk). Nearline HDDs for data centers.
+**Western Digital** — HDD + NAND. Spun off flash business ([[SanDisk]]). Nearline HDDs for data centers.
 
 ---
 
@@ -32,9 +32,9 @@ Dual exposure to storage trends:
 
 ## Flash business spin-off
 
-**SanDisk / Flash spin-off (2024):**
+**[[SanDisk]] / Flash spin-off (2024):**
 - WD split into HDD and Flash companies
-- Flash = SanDisk brand
+- Flash = [[SanDisk]] brand
 - Kioxia JV complicates structure
 - Aimed to unlock value
 
@@ -46,7 +46,7 @@ Dual exposure to storage trends:
 
 | Aspect | Details |
 |--------|---------|
-| JV fabs | Joint NAND manufacturing in Japan |
+| JV fabs | Joint NAND manufacturing in [[Japan]] |
 | Ownership | Minority stake in Kioxia |
 | Complexity | Shared capex, separate products |
 | Risk | Coordination challenges |
@@ -98,13 +98,13 @@ Same as Seagate — AI data needs storage:
 - NAND cycle recovery
 - Spin-off unlocks value
 - Dual HDD/SSD exposure
-- Hyperscaler capex tailwind
+- [[Hyperscaler capex]] tailwind
 
 **Bear:**
 - Kioxia JV complexity
 - NAND commoditized
 - Seagate HAMR leadership in HDD
-- Consumer storage declining
+- [[Consumer]] storage declining
 - Execution risk on spin-off
 
 ---

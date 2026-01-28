@@ -1,20 +1,20 @@
 ---
-aliases: [SoftBank, Vision Fund, SVF]
+aliases: [[[SoftBank]], Vision Fund, SVF]
 ---
 #actor #investor #venturecapital #japan #public
 
-**SoftBank Vision Fund** — Masayoshi Son's mega-fund. $100B Vision Fund 1. Helion, ARM, Uber investor.
+**[[SoftBank]] Vision Fund** — Masayoshi Son's mega-fund. $100B Vision Fund 1. Helion, ARM, [[Uber]] investor.
 
 ---
 
-## Why SoftBank Vision Fund matters
+## Why [[SoftBank]] Vision Fund matters
 
 | Metric | Value |
 |--------|-------|
 | Vision Fund 1 | $100B (2017) |
 | Vision Fund 2 | $56B (2019) |
 | Founder | [[Masayoshi Son]] |
-| Parent | SoftBank Group (9984.T) |
+| Parent | [[SoftBank]] Group (9984.T) |
 | HQ | Tokyo + London |
 
 ---
@@ -25,7 +25,7 @@ aliases: [SoftBank, Vision Fund, SVF]
 |------|--------|
 | Net worth | ~$25B |
 | Style | Huge bets, 300-year vision |
-| Hits | Alibaba, ARM, Yahoo Japan |
+| Hits | [[Alibaba]], ARM, Yahoo [[Japan]] |
 | Misses | WeWork, many others |
 
 ---
@@ -36,11 +36,11 @@ aliases: [SoftBank, Vision Fund, SVF]
 |---------|--------|--------|
 | **[[Helion Energy]]** | Series E | $5.4B (fusion) |
 | **ARM** | Acquired $32B | Re-IPO'd (ARM) |
-| **Alibaba** | $20M → $100B+ | Sold most |
-| **Uber** | $7.7B | Public (UBER) |
+| **[[Alibaba]]** | $20M → $100B+ | Sold most |
+| **[[Uber]]** | $7.7B | Public (UBER) |
 | **WeWork** | $18.5B | Bankrupt |
-| **DoorDash** | Growth | Public (DASH) |
-| **ByteDance** | Growth | Private |
+| **[[DoorDash]]** | Growth | Public (DASH) |
+| **[[ByteDance]]** | Growth | Private |
 | **Coupang** | Growth | Public (CPNG) |
 
 ---
@@ -49,7 +49,7 @@ aliases: [SoftBank, Vision Fund, SVF]
 
 | Category | Examples |
 |----------|----------|
-| **Wins** | Alibaba (100x+), ARM, Coupang |
+| **Wins** | [[Alibaba]] (100x+), ARM, Coupang |
 | **Losses** | WeWork, Katerra, many others |
 | **Net** | Mixed, highly volatile |
 
@@ -74,7 +74,7 @@ aliases: [SoftBank, Vision Fund, SVF]
 | Vision Fund 2 | $56B | Deployed |
 | Latin America Fund | $5B | Regional |
 
-Saudi PIF and Abu Dhabi = major LPs in Fund 1.
+[[Saudi PIF]] and Abu Dhabi = major LPs in Fund 1.
 
 ---
 
@@ -85,7 +85,7 @@ Saudi PIF and Abu Dhabi = major LPs in Fund 1.
 | Fund 1 | $100B |
 | Fund 2 | $56B |
 | Founder | Masayoshi Son |
-| Parent | SoftBank Group |
+| Parent | [[SoftBank]] Group |
 
 ---
 

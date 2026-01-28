@@ -2,7 +2,7 @@
 
 # Silver
 
-**Silver** — Hybrid precious/industrial metal. Solar + electronics demand meets monetary hedge. China export controls 2026. **+150% in 2025** — strongest year on record.
+**Silver** — Hybrid precious/industrial metal. Solar + electronics demand meets monetary hedge. [[China]] export controls 2026. **+150% in 2025** — strongest year on record.
 
 ---
 
@@ -27,7 +27,7 @@ Unique dual demand profile:
 |-------------|-------|---------|
 | **Industrial** | ~55% | Solar, electronics, EVs |
 | **Investment** | ~25% | Store of value, inflation hedge |
-| **Jewelry/silverware** | ~20% | Consumer discretionary |
+| **Jewelry/silverware** | ~20% | [[Consumer]] discretionary |
 
 Unlike gold (primarily monetary), silver has real industrial consumption.
 
@@ -39,7 +39,7 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 - **+150%** — from ~$30 to ~$72/oz
 - Dramatically outperformed gold
 - 40-year technical breakout
-- China export controls catalyzed supply fears
+- [[China]] export controls catalyzed supply fears
 
 ---
 
@@ -54,7 +54,7 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 **Electronics:**
 - Best electrical conductor of all metals
 - Thermal conductivity applications
-- 5G infrastructure, data centers
+- [[5G]] infrastructure, data centers
 - EV components
 
 **AI infrastructure:**
@@ -64,22 +64,22 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 
 ---
 
-## China export controls (2026)
+## [[China]] export controls (2026)
 
 **Major development:**
 
 | Date | Action |
 |------|--------|
-| Dec 2025 | China announced silver export controls starting 2026 |
+| Dec 2025 | [[China]] announced silver export controls starting 2026 |
 
 **Implications:**
-- China produces **60-70% of global refined silver**
+- [[China]] produces **60-70% of global refined silver**
 - Export restrictions exacerbating structural deficit
 - Major catalyst for 2025 price surge
 - Follows pattern of rare earth, gallium, germanium controls
 - Part of broader strategic materials leverage
 
-See [[Rare earth leverage]] for China's export control strategy.
+See [[Rare earth leverage]] for [[China]]'s export control strategy.
 
 ---
 
@@ -103,9 +103,9 @@ See [[Rare earth leverage]] for China's export control strategy.
 **Bull case:**
 - Solar demand structural, not cyclical
 - Supply constrained (byproduct of copper/zinc mining)
-- China export controls = supply shock (60-70% of refining)
+- [[China]] export controls = supply shock (60-70% of refining)
 - 40-year breakout — technical momentum
-- Inflation hedge with industrial upside
+- [[Inflation]] hedge with industrial upside
 
 **Bear case:**
 - Industrial demand = recession sensitive
@@ -161,8 +161,8 @@ See [[Rare earth leverage]] for China's export control strategy.
 
 | Source | Share |
 |--------|-------|
-| Mexico | ~25% |
-| China | ~15% |
+| [[Mexico]] | ~25% |
+| [[China]] | ~15% |
 | Peru | ~15% |
 | Other | ~45% |
 
@@ -177,7 +177,7 @@ See [[Rare earth leverage]] for China's export control strategy.
 | Industrial demand | ~55% | <10% |
 | Volatility | Higher | Lower |
 | Central bank buying | None | Significant |
-| China export risk | Yes (2026) | No |
+| [[China]] export risk | Yes (2026) | No |
 | Solar exposure | Direct | None |
 | Store of value | Yes | Primary use |
 
@@ -194,5 +194,5 @@ See [[Rare earth leverage]] for China's export control strategy.
 - [[Uranium]] — energy commodity
 - [[Lithium]] — battery metal
 - [[Copper for AI]] — industrial metal peer
-- [[Rare earth leverage]] — China export control context
+- [[Rare earth leverage]] — [[China]] export control context
 - [[Southern Copper]] — silver as byproduct

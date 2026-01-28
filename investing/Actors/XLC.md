@@ -53,7 +53,7 @@ aliases: [Communication Services Select Sector SPDR]
 |------------|--------|
 | Interactive Media & Services | ~50% |
 | Entertainment | ~20% |
-| Telecom Services | ~20% |
+| [[Telecom]] Services | ~20% |
 | Media | ~10% |
 
 Heavily weighted to big tech platforms despite "communications" name.
@@ -65,8 +65,8 @@ Heavily weighted to big tech platforms despite "communications" name.
 XLC serves as the sector benchmark for:
 - Social media companies ([[Snap]], [[Pinterest]], [[Reddit]])
 - Streaming/entertainment ([[Netflix]], [[Disney]], [[Warner Bros Discovery]])
-- Telecom ([[Verizon]], [[AT&T]], [[T-Mobile]])
-- Gaming publishers ([[Electronic Arts]], [[Take-Two]], [[Activision]])
+- [[Telecom]] ([[Verizon]], [[AT&T]], [[T-Mobile]])
+- [[Gaming]] publishers ([[Electronic Arts]], [[Take-Two]], [[Activision]])
 
 ---
 

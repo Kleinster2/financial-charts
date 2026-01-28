@@ -14,7 +14,7 @@ aliases: [Thrive]
 | Founded | 2009 |
 | Founder | **Josh Kushner** |
 | AUM | ~$15B |
-| Focus | Consumer + enterprise tech |
+| Focus | [[Consumer]] + enterprise tech |
 | HQ | New York |
 
 ---
@@ -24,7 +24,7 @@ aliases: [Thrive]
 | Fact | Detail |
 |------|--------|
 | Age | 39 |
-| Background | Harvard, Goldman Sachs |
+| Background | Harvard, [[Goldman Sachs]] |
 | Brother | Jared Kushner |
 | Spouse | Karlie Kloss (model) |
 | Also founded | Oscar Health |
@@ -39,12 +39,12 @@ aliases: [Thrive]
 | **Instagram** | Early | Acquired by Facebook |
 | **[[Stripe]]** | Growth | $129B |
 | **[[Spotify]]** | Growth | Public (SPOT) |
-| **Figma** | Growth | Acquired by Adobe (blocked) |
-| **GitHub** | Growth | Acquired by Microsoft |
-| **Notion** | Growth | Private |
+| **[[Figma]]** | Growth | Acquired by [[Adobe]] (blocked) |
+| **GitHub** | Growth | Acquired by [[Microsoft]] |
+| **[[Notion]]** | Growth | Private |
 | **[[Databricks]]** | Growth | $134B |
-| **Discord** | Growth | Private |
-| **Ramp** | Growth | Private |
+| **[[Discord]]** | Growth | Private |
+| **[[Ramp]]** | Growth | Private |
 
 ---
 
@@ -58,7 +58,7 @@ aliases: [Thrive]
 | Thrive check | $1B+ |
 | Follow-on | Likely in $500B round |
 
-**Key relationship:** Closest VC partner to Sam Altman.
+**Key relationship:** Closest VC partner to [[Sam Altman]].
 
 ---
 
@@ -68,7 +68,7 @@ aliases: [Thrive]
 |-------|-------------|
 | High conviction | Large checks, fewer bets |
 | Founder relationships | Close partnerships |
-| Consumer + enterprise | Both sectors |
+| [[Consumer]] + enterprise | Both sectors |
 | Design-focused | Values product quality |
 
 ---

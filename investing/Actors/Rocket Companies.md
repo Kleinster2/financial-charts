@@ -27,7 +27,7 @@ aliases: [Rocket Mortgage, RKT, Quicken Loans]
 | Acquisition | Value | Closed | Strategic value |
 |-------------|-------|--------|-----------------|
 | **Mr. Cooper** | **$14.2B** | Oct 2025 | Largest servicer, recapture |
-| **Redfin** | — | Jul 2025 | Home search, purchase leads |
+| **Redfin** | — | Jul 2025 | [[Home]] search, purchase leads |
 
 **Largest independent mortgage deal in US history.**
 
@@ -39,7 +39,7 @@ aliases: [Rocket Mortgage, RKT, Quicken Loans]
 |---------|-------------|
 | **Rocket Mortgage** | Direct-to-consumer origination |
 | **Servicing** (ex-Mr. Cooper) | 10M clients, $2.1T portfolio |
-| **Redfin** | Home search, brokerage |
+| **Redfin** | [[Home]] search, brokerage |
 | **Title/Closing** | Amrock |
 | **Personal loans** | Rocket Loans |
 

@@ -1,6 +1,6 @@
 #actor #space #usa #private
 
-**Blue Origin** — Bezos space company. New Glenn rocket. Space data center ambitions. Competitor to [[SpaceX]].
+**Blue Origin** — Bezos space company. New Glenn rocket. [[Space]] data center ambitions. Competitor to [[SpaceX]].
 
 ---
 
@@ -11,11 +11,11 @@
 | **New Glenn** | First launch 2024 | Heavy-lift rocket |
 | **New Shepard** | Operational | Suborbital tourism |
 | **Lunar lander** | NASA contract | Artemis program |
-| **Space data centers** | Vision | 10-20 year timeline |
+| **[[Space]] data centers** | Vision | 10-20 year timeline |
 
 ---
 
-## Space data center vision
+## [[Space]] data center vision
 
 **Bezos promoting orbital compute:**
 
@@ -68,7 +68,7 @@ Blue Origin funded primarily by Bezos selling Amazon stock.
 | Pace | Slower, methodical | Fast, iterative |
 | Philosophy | "Gradatim Ferociter" (step by step) | "Move fast, break things" |
 | Launch cadence | Low | High (Falcon 9 dominance) |
-| Space DCs | 10-20 years | 4-5 years (Musk) |
+| [[Space]] DCs | 10-20 years | 4-5 years (Musk) |
 | Funding | Bezos personal | Private + govt contracts |
 
 SpaceX far ahead on execution; Blue Origin catching up.
@@ -82,7 +82,7 @@ SpaceX far ahead on execution; Blue Origin catching up.
 **Watch for:**
 - IPO unlikely near-term
 - Amazon Kuiper (separate, within Amazon)
-- Space DC progress
+- [[Space]] DC progress
 
 ---
 

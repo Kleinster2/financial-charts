@@ -33,7 +33,7 @@
 **Career before Apple:**
 | Period | Company | Role |
 |--------|---------|------|
-| 1982-1994 | IBM | North American fulfillment operations (12 years) |
+| 1982-1994 | [[IBM]] | North American fulfillment operations (12 years) |
 | 1994-1997 | Intelligent Electronics | COO, Reseller Division |
 | 1997 | Compaq | VP Corporate Materials |
 | 1998 | Apple | Joined as SVP Worldwide Operations |
@@ -94,7 +94,7 @@ Cook has made multiple trips to China to meet top leaders and reaffirm Apple's c
 - Net worth: ~$2.6B (Dec 2025, Forbes)
 
 **Board seats:**
-- Nike (since 2005)
+- [[Nike]] (since 2005)
 - National Football Foundation
 - Duke University (trustee)
 

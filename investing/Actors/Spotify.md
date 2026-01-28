@@ -12,7 +12,7 @@ aliases: [SPOT]
 | Metric | Value |
 |--------|-------|
 | Founded | 2006 (Stockholm) |
-| Founder | Daniel Ek |
+| Founder | [[Daniel Ek]] |
 | Ticker | SPOT |
 | Market cap | ~$118B |
 | Employees | 7,323 |
@@ -90,7 +90,7 @@ aliases: [SPOT]
 |--------|-------|
 | Markets | 180+ countries |
 | #1 position | Global music streaming |
-| Competition | Apple Music, Amazon, YouTube |
+| Competition | Apple Music, [[Amazon]], YouTube |
 
 ---
 
@@ -98,7 +98,7 @@ aliases: [SPOT]
 
 | Role | Person | Background |
 |------|--------|------------|
-| Executive Chairman | Daniel Ek | Founder, CEO 2006–2025 |
+| Executive Chairman | [[Daniel Ek]] | Founder, CEO 2006–2025 |
 | Co-CEO | Gustav Söderström | Swedish military → mobile startup (Yahoo acquired) → Spotify 2009, first head of mobile |
 | Co-CEO | Alex Norström | Half-Swedish, half-Chinese; mother ran Chinese restaurant; joined Spotify 2011, growth → label relations |
 
@@ -106,7 +106,7 @@ aliases: [SPOT]
 
 **Söderström:** Detail-oriented, meets with junior employees regularly. Philosophy-focused — reads David Deutsch, hosts podcast interviews with scientists. Known for eating full-size carrots in meetings.
 
-**Norström:** Rebuilt Spotify's label relationships. David Israelite (NMPA CEO): "I have lived through the entire existence of Spotify... I haven't spoken to Daniel Ek one time" — but has spoken with Norström multiple times.
+**Norström:** Rebuilt Spotify's label relationships. David Israelite (NMPA CEO): "I have lived through the entire existence of Spotify... I haven't spoken to [[Daniel Ek]] one time" — but has spoken with Norström multiple times.
 
 ---
 
@@ -126,7 +126,7 @@ Songwriter of the year nominees refused Spotify-hosted party. Winner Jessie Jo D
 
 **Artist departures:**
 - Neil Young (2022, returned 2024)
-- Independent artists (Deerhoof, Xiu Xiu) — object to Ek's Helsing defense investment, ICE recruitment ads
+- Independent artists (Deerhoof, Xiu Xiu) — object to Ek's [[Helsing]] defense investment, ICE recruitment ads
 - Spotify says independent artists = 50% of $10B paid to rights holders (2024)
 
 ---
@@ -138,7 +138,7 @@ Songwriter of the year nominees refused Spotify-hosted party. Winner Jessie Jo D
 |---------|-------------|
 | **DJ X** | AI-voiced DJ curating personalized playlists |
 | **Prompted Playlists** | Type idea → get custom playlist based on taste + trends |
-| **ChatGPT partnership** | Spotify surfaces in ChatGPT conversations |
+| **[[ChatGPT]] partnership** | Spotify surfaces in [[ChatGPT]] conversations |
 | **Meta AI glasses** | Spotify on Meta's smart glasses |
 
 **AI-generated music policy:**

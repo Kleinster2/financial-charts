@@ -23,7 +23,7 @@ Operates across multiple Abu Dhabi vehicles — the executive who executes Sheik
 ## Network position
 
 ![[abu-dhabi-swf-network.png]]
-*Khaldoon Al Mubarak (bottom center) connects Mubadala, XRG, and ADNOC — the operational bridge between energy and investments. (Bloomberg, Dec 2025)*
+*Khaldoon Al Mubarak (bottom center) connects Mubadala, XRG, and [[ADNOC]] — the operational bridge between energy and investments. (Bloomberg, Dec 2025)*
 
 ---
 
@@ -32,7 +32,7 @@ Operates across multiple Abu Dhabi vehicles — the executive who executes Sheik
 | Entity | Role | Reports to |
 |--------|------|------------|
 | [[Mubadala]] | CEO | [[Sheikh Mansour bin Zayed Al Nahyan]] |
-| [[XRG]] | CEO | ADNOC |
+| [[XRG]] | CEO | [[ADNOC]] |
 | [[MGX]] | Vice Chairman | [[Sheikh Tahnoon bin Zayed Al Nahyan]] |
 | [[Abu Dhabi National Oil Company]] | Board | — |
 | [[Manchester City]] | Chairman | Sheikh Mansour |
@@ -69,9 +69,9 @@ Transformed Mubadala from regional investor to global dealmaking juggernaut.
 
 ## XRG role
 
-[[XRG]] ($151B EV) is ADNOC's international investment arm focused on:
+[[XRG]] ($151B EV) is [[ADNOC]]'s international investment arm focused on:
 - Energy infrastructure for AI data centers
-- LNG/gas investments
+- [[LNG]]/gas investments
 - Power systems
 
 Khaldoon bridges Mubadala's tech investments with XRG's energy assets — critical for AI infrastructure.
@@ -94,7 +94,7 @@ Khaldoon bridges Mubadala's tech investments with XRG's energy assets — critic
 | Trait | Description |
 |-------|-------------|
 | Execution | Translates royal vision into deals |
-| Global | US, Europe, Asia presence |
+| Global | US, [[Europe]], [[Asia]] presence |
 | AI infrastructure | Data centers + energy |
 | Long-term | Multi-decade relationships |
 

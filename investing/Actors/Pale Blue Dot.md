@@ -3,7 +3,7 @@ aliases: [PBD]
 ---
 #actor #investor #vc #sweden #climate #private
 
-**Pale Blue Dot** — European seed-stage climate tech VC. Founded 2020 in Malmö, Sweden by Hampus Jakobsson, Heidi Lindvall, and Joel Larsson. Two funds totaling €180M (Fund I €87M, Fund II €93M). Invests €500K-€1.5M in climate-forward startups across Europe and US. [[Daniel Ek]] / [[Prima Materia]] is an LP.
+**Pale Blue Dot** — European seed-stage climate tech VC. Founded 2020 in Malmö, Sweden by Hampus Jakobsson, Heidi Lindvall, and Joel Larsson. Two funds totaling €180M (Fund I €87M, Fund II €93M). Invests €500K-€1.5M in climate-forward startups across [[Europe]] and US. [[Daniel Ek]] / [[Prima Materia]] is an LP.
 
 ---
 
@@ -28,18 +28,18 @@ aliases: [PBD]
 
 | Sector | Examples |
 |--------|----------|
-| Food/Agriculture | Phytoform (biotech-agritech) |
+| Food/[[Agriculture]] | Phytoform (biotech-agritech) |
 | Energy | — |
 | Transportation | Monta (EV charging) |
-| Fashion/Apparel | — |
+| [[Fashion]]/Apparel | — |
 | Industry | — |
-| Fintech | Green Got (French green banking) |
+| [[Fintech]] | Green Got (French green banking) |
 | Climate data | Climate X (risk analytics) |
-| Logistics | Hived (UK logistics) |
+| Logistics | Hived ([[UK]] logistics) |
 
 ### Philosophy
 
-Sector-agnostic within climate. Backs software and technology with strong positive climate impact. Focus on Europe and US.
+Sector-agnostic within climate. Backs software and technology with strong positive climate impact. Focus on [[Europe]] and US.
 
 ---
 
@@ -61,9 +61,9 @@ All three are former tech entrepreneurs with deep Nordic ecosystem roots.
 |---------|--------|-------|
 | Phytoform | Biotech/Agritech | — |
 | Climate X | Climate risk data | — |
-| Hived | Logistics (UK) | — |
+| Hived | Logistics ([[UK]]) | — |
 | Monta | EV charging (Denmark) | — |
-| Green Got | Green fintech (France) | — |
+| Green Got | Green fintech ([[France]]) | — |
 | 20tree.ai | Forest/ML (Amsterdam) | — |
 | Patch | Carbon offsets (SF) | — |
 | Nala Earth | — | Seed (€3.8M, Jan 2025) |

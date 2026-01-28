@@ -11,7 +11,7 @@ aliases: [Rasgon]
 
 | Strength | Detail |
 |----------|--------|
-| Technical depth | PhD + hands-on fab experience (IBM Watson) |
+| Technical depth | PhD + hands-on fab experience ([[IBM]] Watson) |
 | Track record | 69% success rate, 27.8% avg return |
 | NVIDIA call | +256% on March 2023 buy rating |
 | Credibility | Respected by institutional investors for rigor |
@@ -25,7 +25,7 @@ aliases: [Rasgon]
 | Firm | Bernstein Research |
 | Title | Managing Director, Senior Analyst — US Semiconductors & Equipment |
 | Tenure | 16 years at Bernstein |
-| Prior | McKinsey (semi consulting), IBM T.J. Watson (lithography) |
+| Prior | McKinsey (semi consulting), [[IBM]] T.J. Watson (lithography) |
 | Education | PhD (plasma etch / semiconductor manufacturing) |
 
 **Unique background:** Actually built plasma etchers before analyzing the companies that make them. PhD thesis on etch transfers and sidewall roughness.
@@ -62,14 +62,14 @@ aliases: [Rasgon]
 |---------|-------|
 | AI/datacenter | [[NVIDIA]], [[AMD]] |
 | Legacy | [[Intel]] |
-| Equipment | Applied Materials, Lam Research, ASML |
-| Memory | Micron |
+| Equipment | [[Applied Materials]], [[Lam Research]], [[ASML]] |
+| Memory | [[Micron]] |
 
 ---
 
 ## Notable commentary
 
-On NVIDIA-OpenAI deal (Oct 2025): Shows there's a "shortage of compute" — customers lining up years in advance.
+On NVIDIA-[[OpenAI]] deal (Oct 2025): Shows there's a "shortage of compute" — customers lining up years in advance.
 
 On NVIDIA roadmap: Product cadence evolving, Blackwell transition.
 

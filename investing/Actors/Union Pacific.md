@@ -38,7 +38,7 @@ Duopoly with [[BNSF]] in Western US.
 | **Industrial** | ~25% |
 | **Agricultural** | ~20% |
 | **Energy (coal, petrochem)** | ~15% |
-| **Automotive** | ~10% |
+| **[[Automotive]]** | ~10% |
 | **Other** | ~5% |
 
 ---
@@ -49,7 +49,7 @@ Duopoly with [[BNSF]] in Western US.
 |----------|--------|-------|
 | **Union Pacific** | Western | Public |
 | [[BNSF]] | Western | [[Berkshire Hathaway]] |
-| CSX | Eastern | Public |
+| [[CSX]] | Eastern | Public |
 | Norfolk Southern | Eastern | Public |
 
 Western duopoly = pricing power.

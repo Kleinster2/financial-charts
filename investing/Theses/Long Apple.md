@@ -35,10 +35,10 @@ Apple's A-series and M-series chips consistently outperform at equivalent nodes 
 
 | Competitor | Their disadvantage |
 |------------|-------------------|
-| Qualcomm | Uses same TSMC nodes, worse design efficiency |
-| Samsung (Exynos) | Samsung foundry + weaker design = double disadvantage |
-| Google (Tensor) | Improving but years behind |
-| Intel | Process struggles + design transition |
+| [[Qualcomm]] | Uses same TSMC nodes, worse design efficiency |
+| [[Samsung]] (Exynos) | [[Samsung]] foundry + weaker design = double disadvantage |
+| [[Google]] (Tensor) | Improving but years behind |
+| [[Intel]] | Process struggles + design transition |
 
 Apple's silicon lead translates to:
 - **Better margins**: More efficient die = lower cost per chip
@@ -49,7 +49,7 @@ Apple's silicon lead translates to:
 
 ## What validates the thesis
 
-- [ ] M-series continues taking Mac share from Intel
+- [ ] M-series continues taking Mac share from [[Intel]]
 - [ ] A-series maintains 2+ year lead over Android
 - [ ] Apple silicon expands to new categories (car, AR, home)
 - [ ] Gross margins stable/expanding despite competition
@@ -59,7 +59,7 @@ Apple's silicon lead translates to:
 
 ## What invalidates the thesis
 
-- [ ] Qualcomm/Google close the gap meaningfully
+- [ ] [[Qualcomm]]/[[Google]] close the gap meaningfully
 - [ ] Apple silicon team attrition (key designers leave)
 - [ ] TSMC relationship weakens (capacity shared more broadly)
 - [ ] M-series Mac transition disappoints
@@ -67,7 +67,7 @@ Apple's silicon lead translates to:
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - Apple is already expensive on P/E
 - Silicon advantage is "known" but magnitude may be underappreciated
@@ -82,7 +82,7 @@ Apple's silicon lead translates to:
 |------|------------|-------|
 | 2025-12 | | |
 
-**Hedge portfolio**: Short QQQ, buy back AAPL weight (~8%). Isolates Apple silicon advantage from large-cap tech beta.
+**Hedge portfolio**: Short [[QQQ]], buy back AAPL weight (~8%). Isolates Apple silicon advantage from large-cap tech beta.
 
 ---
 
@@ -91,7 +91,7 @@ Apple's silicon lead translates to:
 | Date | Observation | Implication |
 |------|-------------|-------------|
 | 2025-12-29 | A19 10% shrink from 4% node + 6% design | Design team extracting above-node gains |
-| 2025-12-29 | Apple + NVIDIA lock TSMC 2nm capacity | Supply security advantage |
+| 2025-12-29 | Apple + [[NVIDIA]] lock TSMC 2nm capacity | Supply security advantage |
 
 ---
 

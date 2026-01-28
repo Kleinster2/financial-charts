@@ -8,7 +8,7 @@
 
 ## What short interest tells you
 
-| Level | Signal |
+| Level | [[Signal]] |
 |-------|--------|
 | **High** (>5-10%) | Bearish conviction, potential squeeze setup |
 | **Rising** | Growing skepticism, hedging activity |
@@ -52,10 +52,10 @@ See [[TSMC]] for full quarterly history. Summary:
 
 **Interpretation:**
 - AI monopoly thesis is consensus — no one wants to fight it
-- Taiwan geopolitical risk NOT being hedged via shorting (surprising)
+- [[Taiwan]] geopolitical risk NOT being hedged via shorting (surprising)
 - Could be crowded, or could be that fundamental case is bulletproof
 
-**Watch for:** Rising short interest = emerging skepticism on AI demand or Taiwan risk.
+**Watch for:** Rising short interest = emerging skepticism on AI demand or [[Taiwan]] risk.
 
 ---
 
@@ -90,15 +90,15 @@ See [[TSMC]] for full quarterly history. Summary:
 | **Yahoo Finance** | Free | Statistics tab → Share Statistics |
 | **Finviz** | Free | Screener includes short float % |
 | **Bloomberg Terminal** | Paid | SI field, historical data |
-| **S&P Global** | Paid | Comprehensive, institutional |
+| **[[S&P Global]]** | Paid | Comprehensive, institutional |
 
-### Taiwan stocks (TSMC local shares)
+### [[Taiwan]] stocks (TSMC local shares)
 
 | Source | Access | Notes |
 |--------|--------|-------|
-| **TWSE** | Free | Taiwan Stock Exchange margin/short data |
+| **TWSE** | Free | [[Taiwan]] Stock Exchange margin/short data |
 | **Bloomberg** | Paid | Best for historical, % of float |
-| **Reuters/Refinitiv** | Paid | Alternative to Bloomberg |
+| **Reuters/[[Refinitiv]]** | Paid | Alternative to Bloomberg |
 
 ### ADRs (TSM US listing)
 

@@ -15,20 +15,20 @@ aliases: [Gold M&A, Gold miner M&A]
 | **Reserve depletion** | Majors need to replace depleting mines |
 | **Development costs** | Easier to buy than build (permitting, capex) |
 | **Equity valuations** | Strong share prices = acquisition currency |
-| **China expansion** | [[Zijin Mining]] aggressively acquiring globally |
+| **[[China]] expansion** | [[Zijin Mining]] aggressively acquiring globally |
 
 ---
 
 ## Major deals (2024-2026)
 
-| Date | Acquirer | Target | Value | Assets |
+| Date | Acquirer | [[Target]] | Value | Assets |
 |------|----------|--------|-------|--------|
 | **Jan 2026** | [[Zijin Mining]] | [[Allied Gold]] | **C$5.5B** | Côte d'Ivoire, Mali, Ethiopia |
 | 2024 | [[Zijin Mining]] | Akyem (from [[Newmont]]) | ~$1B | Ghana |
 | 2022 | [[Zijin Mining]] | Rosebel | $360M | Suriname |
 | 2019 | [[Zijin Mining]] | Continental Gold | C$1.3B | Colombia |
 | 2019 | [[Newmont]] | Goldcorp | $10B | Global portfolio |
-| 2019 | [[Barrick Gold]] | Randgold | $6B | Africa |
+| 2019 | [[Barrick Gold]] | Randgold | $6B | [[Africa]] |
 
 **Zijin alone:** $7B+ in gold acquisitions since 2019.
 
@@ -69,7 +69,7 @@ aliases: [Gold M&A, Gold miner M&A]
 
 ## Investment implications
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Majors acquiring | Bullish on gold price outlook |
 | Premium valuations | Reserves scarce, competition intense |

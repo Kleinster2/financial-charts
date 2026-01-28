@@ -3,7 +3,7 @@ aliases: [进迹科技]
 ---
 #actor #company #semiconductors #china #riscv
 
-**SpacemiT** — Chinese RISC-V chip designer. Series B: 600M yuan ($86M, Jan 2026). K1 chip in mass production (150K+ shipped). Focus: industrial, robotics, edge computing, AI devices. Backed by Lenovo, Agricultural Bank of China, Brizan Ventures.
+**SpacemiT** — Chinese RISC-V chip designer. Series B: 600M yuan ($86M, Jan 2026). K1 chip in mass production (150K+ shipped). Focus: industrial, robotics, edge computing, AI devices. Backed by Lenovo, Agricultural Bank of [[China]], Brizan Ventures.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [进迹科技]
 | Metric | Value |
 |--------|-------|
 | Founded | 2021 |
-| HQ | Hangzhou, China |
+| HQ | [[Hangzhou]], [[China]] |
 | Focus | RISC-V chip design |
 | Stage | Series B |
 | Total raised | ~$150M+ (est.) |
@@ -33,7 +33,7 @@ aliases: [进迹科技]
 |----------|------|
 | Huaxia Hengtian Capital | Lead |
 | Beijing AI Industry Investment Fund | Government fund |
-| Agricultural Bank of China | State bank |
+| Agricultural Bank of [[China]] | State bank |
 | [[Lenovo]] | Strategic |
 | Brizan Ventures | Hong Kong VC |
 
@@ -54,12 +54,12 @@ aliases: [进迹科技]
 
 ---
 
-## Target markets
+## [[Target]] markets
 
 | Market | Application |
 |--------|-------------|
 | **Industrial systems** | Factory automation, PLCs |
-| **Robotics** | Controllers, sensors |
+| **[[Robotics]]** | Controllers, sensors |
 | **Edge computing** | Local AI inference |
 | **AI devices** | Smart devices, IoT |
 
@@ -72,7 +72,7 @@ aliases: [进迹科技]
 | Factor | Detail |
 |--------|--------|
 | **RISC-V bet** | No ARM licensing dependency |
-| **China policy** | Aligns with March 2025 nationwide RISC-V push |
+| **[[China]] policy** | Aligns with March 2025 nationwide RISC-V push |
 | **Production scale** | 150K shipped = commercial traction |
 | **State backing** | AgBank, Beijing AI fund = government support |
 
@@ -93,7 +93,7 @@ SpacemiT positioned in industrial/edge vs Alibaba's server focus.
 
 | Angle | Detail |
 |-------|--------|
-| **RISC-V pure-play** | Direct exposure to China RISC-V thesis |
+| **RISC-V pure-play** | Direct exposure to [[China]] RISC-V thesis |
 | **Government backing** | State bank + AI fund = policy alignment |
 | **Lenovo strategic** | Potential customer + distribution |
 | **Production traction** | 150K shipped = beyond prototype stage |
@@ -112,14 +112,14 @@ SpacemiT positioned in industrial/edge vs Alibaba's server focus.
 ## Related
 
 ### Concepts
-- [[RISC-V]] — open-source ISA, China strategy
+- [[RISC-V]] — open-source ISA, [[China]] strategy
 - [[US-China tech race]] — driving RISC-V adoption
 - [[Semiconductors]] — sector context
 
 ### Investors
 - [[Lenovo]] — Series B participant
 - Brizan Ventures — Series A+ lead, Series B participant
-- Agricultural Bank of China — state bank investor
+- Agricultural Bank of [[China]] — state bank investor
 
 ### Peers
 - [[Alibaba]] — XuanTie RISC-V (server-grade)

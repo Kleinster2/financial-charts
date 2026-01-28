@@ -1,6 +1,6 @@
 #concept #fintech #bubble #macro
 
-# Fintech boom (2020-2021)
+# [[Fintech]] boom (2020-2021)
 
 **Record venture funding into fintech ($132B in 2021) followed by 72% crash in 2022.** Zero rates + COVID digital acceleration + stimulus created perfect conditions. Fed hikes exposed fragile business models (especially BNPL). Most 2021 unicorns never grew into their valuations.
 
@@ -20,9 +20,9 @@
 |--------|-----------|
 | **Zero rates** | Cheap capital, low discount rates inflated DCFs |
 | **COVID acceleration** | Digital payments adoption jumped 5+ years |
-| **Stimulus checks** | Consumer spending + retail trading boom |
+| **Stimulus checks** | [[Consumer]] spending + retail trading boom |
 | **BNPL tailwind** | Low rates = cheap to fund loans |
-| **Crypto adjacency** | Blockchain/DeFi hype lifted all fintech |
+| **[[Crypto]] adjacency** | Blockchain/DeFi hype lifted all fintech |
 
 ---
 
@@ -46,8 +46,8 @@
 
 | Metric | Value |
 |--------|-------|
-| F-Prime Fintech Index peak | $1.3T (late 2021) |
-| F-Prime Fintech Index trough | $397B (end 2022) |
+| F-Prime [[Fintech]] Index peak | $1.3T (late 2021) |
+| F-Prime [[Fintech]] Index trough | $397B (end 2022) |
 | Index decline | **-72%** |
 | Series B+ valuation decline | -60%+ |
 | Global funding decline | -46% YoY |
@@ -57,7 +57,7 @@
 | Date | Event | Impact |
 |------|-------|--------|
 | Nov 2021 | Fed signals taper | Growth stocks wobble |
-| **Mar 2022** | First rate hike (0.25%) | Fintech selloff begins |
+| **Mar 2022** | First rate hike (0.25%) | [[Fintech]] selloff begins |
 | Jun 2022 | 75bp hike (aggressive) | Klarna down round (-85%) |
 | Jul 2023 | Peak rates (5.25%) | Trough valuations |
 
@@ -144,7 +144,7 @@ Most 2021 fintechs were valued as tech but had bank economics.
 - [[Brex]] — acquired at 58% discount to peak
 - [[Stripe]] — peak $201B, now ~$70B
 - [[Klarna]] — poster child for boom/bust (-85%)
-- [[StoneCo]] — Brazil fintech, crashed 90%+
+- [[StoneCo]] — [[Brazil]] fintech, crashed 90%+
 - [[Affirm]] — BNPL, down 90%+ from peak
 - [[Marqeta]] — card issuing, down 90%+
 
@@ -164,6 +164,6 @@ Sources:
 - [TechCrunch - Public fintechs declined 72% in 2022](https://techcrunch.com/2023/03/11/fintechs-2022-decline-value/)
 - [TechCrunch - Klarna's plunging valuation](https://techcrunch.com/2022/07/03/tracking-klarnas-plunging-valuation/)
 - [Axios - The burden of 2021 fintech valuations](https://www.axios.com/pro/fintech-deals/2025/04/08/2021-fintech-valuations)
-- [Carta - Fintech funding falls](https://carta.com/data/fintech-funding-falls/)
+- [[[Carta]] - [[Fintech]] funding falls](https://carta.com/data/fintech-funding-falls/)
 
 *Created 2026-01-25*

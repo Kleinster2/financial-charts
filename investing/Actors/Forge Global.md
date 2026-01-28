@@ -3,7 +3,7 @@ aliases: [FRGE, Forge]
 ---
 #actor #fintech #private-markets #usa #public
 
-**Forge Global** — Secondary market for private company shares. Trade pre-IPO stock in companies like SpaceX, Stripe, Databricks.
+**Forge Global** — Secondary market for private company shares. [[Trade]] pre-IPO stock in companies like [[SpaceX]], [[Stripe]], Databricks.
 
 ---
 
@@ -52,12 +52,12 @@ Forge is the stock exchange for private companies:
 
 | Company | Status |
 |---------|--------|
-| SpaceX | Active secondary market |
-| Stripe | Active |
+| [[SpaceX]] | Active secondary market |
+| [[Stripe]] | Active |
 | [[Databricks]] | Active |
-| Canva | Active |
-| Discord | Active |
-| Instacart | Pre-IPO was active |
+| [[Canva]] | Active |
+| [[Discord]] | Active |
+| [[Instacart]] | Pre-IPO was active |
 
 ---
 
@@ -78,8 +78,8 @@ Forge is the stock exchange for private companies:
 |----------|-------|
 | **Forge** | Largest secondary platform |
 | EquityZen | Similar secondary market |
-| Carta | Cap table + liquidity |
-| Nasdaq Private Market | Enterprise solutions |
+| [[Carta]] | Cap table + liquidity |
+| [[Nasdaq]] Private Market | Enterprise solutions |
 
 Forge = most liquid secondary market for private shares.
 

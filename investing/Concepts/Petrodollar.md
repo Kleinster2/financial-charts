@@ -7,8 +7,8 @@
 ## How petrodollar works
 
 **The cycle:**
-1. Oil globally priced in USD
-2. Oil importers must hold dollars
+1. [[Oil]] globally priced in USD
+2. [[Oil]] importers must hold dollars
 3. Exporters receive dollars, recycle into US assets
 4. Supports US Treasury demand and dollar value
 
@@ -26,26 +26,26 @@
 |---------------|--------|
 | Reserve currency | Lower borrowing costs |
 | Sanctions power | Dollar access as weapon |
-| Trade advantage | No FX risk on oil imports |
+| [[Trade]] advantage | No FX risk on oil imports |
 | Treasury demand | Recycled petrodollars |
 
 **Scale:** ~100M bpd global oil trade × $60-80/bbl = ~$2-3T annual flows
 
 ---
 
-## De-dollarization threats
+## [[De-dollarization]] threats
 
 **BRICS efforts:**
-- China buying oil in yuan (from Russia, Saudi, Iran)
-- Russia-India rupee settlements
+- [[China]] buying oil in yuan (from Russia, Saudi, [[Iran]])
+- Russia-[[India]] rupee settlements
 - Saudi considering yuan pricing
 - BRICS currency discussions
 
 **Progress:**
 | Development | Status |
 |-------------|--------|
-| Russia-China yuan oil | Active |
-| Saudi-China yuan oil | Small volumes |
+| Russia-[[China]] yuan oil | Active |
+| Saudi-[[China]] yuan oil | Small volumes |
 | BRICS currency | Discussed, not implemented |
 | Dollar share of reserves | Declining slowly (60% → 58%) |
 
@@ -58,7 +58,7 @@ See [[BRICS]] for context.
 **If petrodollar weakens:**
 - USD faces long-term headwind
 - US Treasuries less automatic bid
-- Gold/commodities as alternatives
+- [[Gold]]/commodities as alternatives
 - Non-US energy companies benefit
 
 **If petrodollar holds:**
@@ -82,11 +82,11 @@ See [[BRICS]] for context.
 
 ---
 
-## Venezuela connection
+## [[Venezuela]] connection
 
 **Post-Maduro:**
 - US control = oil stays in dollars
-- Prevents Venezuela joining de-dollarization
+- Prevents [[Venezuela]] joining de-dollarization
 - Reinforces petrodollar in hemisphere
 
 See [[Monroe Doctrine]] and [[Venezuela oil rebuild]].

@@ -1,6 +1,6 @@
 #actor #company #fintech #payments #philippines #ipo
 
-**GCash** — Philippines' dominant digital wallet. 94M users (~80% of population). Operated by Mynt (Globe Fintech Innovations). Targeting $8B+ valuation IPO in H2 2026 — would be Philippines' largest ever. Owned by [[Globe Telecom]] (36%), [[Ant Group]] (34%), [[Ayala]] (13%), [[MUFG]] (8%). Seeking regulatory exemption for smaller float.
+**GCash** — Philippines' dominant digital wallet. 94M users (~80% of population). Operated by Mynt (Globe [[Fintech]] Innovations). Targeting $8B+ valuation IPO in H2 2026 — would be Philippines' largest ever. Owned by [[Globe Telecom]] (36%), [[Ant Group]] (34%), [[Ayala]] (13%), [[MUFG]] (8%). Seeking regulatory exemption for smaller float.
 
 ---
 
@@ -9,11 +9,11 @@
 | Metric | Value |
 |--------|-------|
 | Users | 94M (~80% of PH population) |
-| Target valuation | $8B+ |
+| [[Target]] valuation | $8B+ |
 | Last valuation | $5B (2024) |
 | IPO timeline | H2 2026 |
 | Country | Philippines |
-| Operated by | Mynt (Globe Fintech Innovations) |
+| Operated by | Mynt (Globe [[Fintech]] Innovations) |
 
 ---
 
@@ -22,7 +22,7 @@
 | Shareholder | Stake | Notes |
 |-------------|-------|-------|
 | [[Globe Telecom]] | 36% | Philippine telco |
-| [[Ant Group]] | 34% | Alibaba fintech arm |
+| [[Ant Group]] | 34% | [[Alibaba]] fintech arm |
 | [[Ayala Corporation]] | 13% | Expanded from 5% (2024) |
 | [[MUFG]] | 8% | Acquired 2024 |
 | Others | 9% | — |
@@ -35,7 +35,7 @@ Ayala and MUFG investment in 2024 valued GCash at $5B (up from $2B in 2021).
 
 | Term | Value |
 |------|-------|
-| Target valuation | $8B+ (₱450B) |
+| [[Target]] valuation | $8B+ (₱450B) |
 | IPO size | $800M - $1.5B |
 | Exchange | Philippine Stock Exchange |
 | Timeline | H2 2026 (delayed from 2025) |
@@ -87,7 +87,7 @@ GCash is the clear leader in Philippine mobile payments.
 | **Payments** | P2P, bills, merchants |
 | **Banking** | GCash savings |
 | **Investments** | GInvest (mutual funds) |
-| **Insurance** | GInsure |
+| **[[Insurance]]** | GInsure |
 | **Credit** | GCredit, GGives (BNPL) |
 | **Remittances** | International transfers |
 

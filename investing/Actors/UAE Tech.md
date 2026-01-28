@@ -3,19 +3,19 @@ aliases: [Emirates Tech, Abu Dhabi Tech]
 ---
 #actor #sovereign #ai #uae #gcc
 
-**UAE Tech** — Most advanced GCC tech ecosystem. G42, Mubadala, Abu Dhabi's AI hub.
+**UAE Tech** — Most advanced [[GCC]] tech ecosystem. [[G42]], [[Mubadala]], Abu Dhabi's AI hub.
 
 ---
 
 ## Why UAE matters
 
-GCC's AI leader:
+[[GCC]]'s AI leader:
 
 | Metric | Value |
 |--------|-------|
 | Key entity | [[UAE G42]] |
-| Mubadala | $300B+ sovereign fund |
-| ADIA | $900B+ (largest) |
+| [[Mubadala]] | $300B+ sovereign fund |
+| [[ADIA]] | $900B+ (largest) |
 | AI status | Most advanced in region |
 
 ---
@@ -25,24 +25,24 @@ GCC's AI leader:
 | Entity | Focus |
 |--------|-------|
 | [[UAE G42]] | AI champion |
-| Mubadala | Tech investments |
-| ADIA | Global SWF |
+| [[Mubadala]] | Tech investments |
+| [[ADIA]] | Global SWF |
 | Hub71 | Abu Dhabi startup hub |
 | DIFC | Dubai finance/fintech |
 
 ---
 
-## G42 (covered separately)
+## [[G42]] (covered separately)
 
 **AI national champion:**
 - Falcon LLM
-- Microsoft $1.5B
-- Cerebras supercomputer
-- Divested Huawei for US alignment
+- [[Microsoft]] $1.5B
+- [[Cerebras]] supercomputer
+- Divested [[Huawei]] for US alignment
 
 ---
 
-## Mubadala
+## [[Mubadala]]
 
 **$300B+ sovereign fund:**
 - GlobalFoundries stake
@@ -54,8 +54,8 @@ GCC's AI leader:
 
 ## GlobalFoundries connection
 
-**Mubadala owns GF:**
-- Spun from AMD
+**[[Mubadala]] owns GF:**
+- Spun from [[AMD]]
 - Semiconductor manufacturing
 - Malta, Dresden, Singapore fabs
 - Strategic tech asset
@@ -66,9 +66,9 @@ GCC's AI leader:
 
 | | Abu Dhabi | Dubai |
 |--|-----------|-------|
-| Focus | AI, semiconductors | Fintech, hub |
-| Key player | G42, Mubadala | DIFC, Expo legacy |
-| Oil wealth | More | Less |
+| Focus | AI, semiconductors | [[Fintech]], hub |
+| Key player | [[G42]], [[Mubadala]] | DIFC, Expo legacy |
+| [[Oil]] wealth | More | Less |
 | Strategy | Tech sovereignty | Business hub |
 
 ---
@@ -77,13 +77,13 @@ GCC's AI leader:
 
 | Achievement | Entity |
 |-------------|--------|
-| Falcon LLM | G42/TII |
+| Falcon LLM | [[G42]]/TII |
 | Open source models | Falcon 40B/180B |
-| Cerebras cluster | Condor Galaxy |
-| Microsoft deal | $1.5B investment |
+| [[Cerebras]] cluster | Condor Galaxy |
+| [[Microsoft]] deal | $1.5B investment |
 | **OpenAI Stargate** | 1GW AI datacenter |
 
-Most tangible AI output in GCC.
+Most tangible AI output in [[GCC]].
 
 ---
 
@@ -107,9 +107,9 @@ Most tangible AI output in GCC.
 
 | Metric | Value |
 |--------|-------|
-| Mubadala | $300B+ |
-| ADIA | $900B+ |
-| AI leader | G42 |
+| [[Mubadala]] | $300B+ |
+| [[ADIA]] | $900B+ |
+| AI leader | [[G42]] |
 | Model | Falcon LLM |
 
 *Updated 2026-01-01*
@@ -119,9 +119,9 @@ Most tangible AI output in GCC.
 ## Related
 
 - [[UAE G42]] — national champion (AI leader)
-- [[Saudi Arabia Tech]] — GCC rival (more capital, less execution)
-- [[Sovereign AI race]] — context (most advanced in GCC)
-- [[GlobalFoundries]] — asset (Mubadala ownership)
+- [[Saudi Arabia Tech]] — [[GCC]] rival (more capital, less execution)
+- [[Sovereign AI race]] — context (most advanced in [[GCC]])
+- [[GlobalFoundries]] — asset ([[Mubadala]] ownership)
 - [[OpenAI]] — partner (Stargate 1GW DC)
 - [[Ansaldo Energia]] — supplier (gas turbines)
 - [[GCC tech race]] — regional context

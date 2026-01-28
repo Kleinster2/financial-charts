@@ -3,7 +3,7 @@ aliases: [AMKR]
 ---
 #actor #semiconductor #osat #packaging #usa #public
 
-**Amkor Technology** — #2 OSAT globally. Advanced packaging. US-headquartered alternative to ASE.
+**Amkor Technology** — #2 OSAT globally. [[Advanced packaging]]. US-headquartered alternative to ASE.
 
 ---
 
@@ -26,19 +26,19 @@ Second largest packaging/test:
 **Outsourced Semiconductor Assembly & Test:**
 - Package chips after foundry
 - Final testing
-- Advanced packaging (2.5D, 3D)
+- [[Advanced packaging]] (2.5D, 3D)
 - Substrate manufacturing
 
 Between foundry and customer.
 
 ---
 
-## Advanced packaging
+## [[Advanced packaging]]
 
 | Technology | Application |
 |------------|-------------|
 | Flip chip | High-performance |
-| 2.5D | HBM integration |
+| 2.5D | [[HBM]] integration |
 | Fan-out | Mobile, automotive |
 | SiP | System-in-package |
 
@@ -50,7 +50,7 @@ AI chips need advanced packaging.
 
 **Packaging bottleneck:**
 - Larger AI chips = more complex
-- HBM integration
+- [[HBM]] integration
 - CoWoS-like capabilities
 - Capacity constrained
 
@@ -63,8 +63,8 @@ Same thesis as [[ASE]].
 | Location | Capability |
 |----------|------------|
 | Korea | Largest facility |
-| China | High volume |
-| Japan | Advanced packaging |
+| [[China]] | High volume |
+| [[Japan]] | [[Advanced packaging]] |
 | Philippines | Assembly |
 | Vietnam | Growing |
 | Arizona | New US fab |
@@ -74,7 +74,7 @@ Same thesis as [[ASE]].
 ## US manufacturing
 
 **Arizona expansion:**
-- CHIPS Act beneficiary
+- [[CHIPS Act]] beneficiary
 - US supply chain push
 - Intel/US customer proximity
 - Onshoring trend
@@ -88,7 +88,7 @@ US-headquartered = advantage.
 | Customer | % Revenue |
 |----------|-----------|
 | Apple | ~20% |
-| Qualcomm | Significant |
+| [[Qualcomm]] | Significant |
 | Intel | Growing |
 | NVIDIA | Growing |
 
@@ -102,7 +102,7 @@ Apple exposure = iPhone cycles.
 |--------|-------|---------|
 | Rank | #2 | #1 |
 | Market cap | $7B | $20B+ |
-| HQ | USA | Taiwan |
+| HQ | USA | [[Taiwan]] |
 | Apple exposure | Higher | Lower |
 
 Similar thesis, different profile.
@@ -112,15 +112,15 @@ Similar thesis, different profile.
 ## Investment case
 
 **Bull:**
-- Advanced packaging demand
-- US-headquartered (CHIPS Act)
+- [[Advanced packaging]] demand
+- US-headquartered ([[CHIPS Act]])
 - AI chip growth
 - Capacity constraints = pricing
 - Smaller = more upside
 
 **Bear:**
 - Apple concentration
-- Consumer slowdown risk
+- [[Consumer]] slowdown risk
 - ASE larger scale
 - TSMC in-house packaging
 
@@ -133,7 +133,7 @@ Similar thesis, different profile.
 | Ticker | AMKR |
 | Market cap | ~$7B |
 | Position | #2 OSAT |
-| Focus | Advanced packaging |
+| Focus | [[Advanced packaging]] |
 
 *Updated 2026-01-01*
 

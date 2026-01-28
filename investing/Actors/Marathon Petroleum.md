@@ -3,17 +3,17 @@ aliases: [MPC]
 ---
 #actor #energy #refining #usa #public
 
-**Marathon Petroleum** — Largest US refiner by capacity. Major Gulf Coast presence. Venezuela crude beneficiary.
+**[[Marathon]] Petroleum** — Largest US refiner by capacity. Major Gulf Coast presence. Venezuela crude beneficiary.
 
 ---
 
-## Why Marathon Petroleum matters
+## Why [[Marathon]] Petroleum matters
 
 | Metric | Value |
 |--------|-------|
 | Market cap | ~$55B |
 | Ticker | MPC (NYSE) |
-| Refining capacity | ~3M bpd (largest US) |
+| Refining capacity | ~[[3M]] bpd (largest US) |
 | Refineries | 13 |
 
 ---
@@ -74,7 +74,7 @@ Most diversified refiner geographically.
 | Metric | Value |
 |--------|-------|
 | Revenue | ~$150B |
-| Refining capacity | ~3M bpd |
+| Refining capacity | ~[[3M]] bpd |
 | MPLX stake | ~65% |
 | Dividend yield | ~2% |
 | Buybacks | Aggressive |
@@ -83,9 +83,9 @@ Most diversified refiner geographically.
 
 ## vs peers
 
-| Aspect | Marathon | [[Valero]] | [[Phillips 66]] |
+| Aspect | [[Marathon]] | [[Valero]] | [[Phillips 66]] |
 |--------|----------|------------|-----------------|
-| Capacity | Largest (3M) | #2 (3.2M) | Smaller (2.2M) |
+| Capacity | Largest ([[3M]]) | #2 (3.2M) | Smaller (2.2M) |
 | Focus | Pure refining + MPLX | Pure refining | Diversified |
 | Gulf Coast | ~1.2M bpd | ~2M bpd | ~0.7M bpd |
 | Venezuela beta | High | Highest | Moderate |

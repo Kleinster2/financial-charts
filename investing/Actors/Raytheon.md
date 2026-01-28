@@ -1,9 +1,9 @@
 ---
-aliases: [RTX, Raytheon Technologies]
+aliases: [[[RTX]], Raytheon Technologies]
 ---
 #actor #defense #aerospace #usa #public #ai
 
-**Raytheon (RTX)** — Defense prime. Missiles, radars, aerospace systems. AI for autonomous weapons and defense systems.
+**Raytheon ([[RTX]])** — [[Defense]] prime. Missiles, radars, aerospace systems. AI for autonomous weapons and defense systems.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [RTX, Raytheon Technologies]
 | Metric | Value |
 |--------|-------|
 | Market cap | ~$150B |
-| Ticker | RTX (NYSE) |
+| Ticker | [[RTX]] (NYSE) |
 | Focus | Missiles, defense electronics, aerospace |
 | Backlog | $200B+ |
 
@@ -22,7 +22,7 @@ aliases: [RTX, Raytheon Technologies]
 
 | Segment | Products |
 |---------|----------|
-| Collins Aerospace | Avionics, systems |
+| Collins [[Aerospace]] | Avionics, systems |
 | Pratt & Whitney | Jet engines |
 | Raytheon | Missiles, defense systems |
 
@@ -42,9 +42,9 @@ aliases: [RTX, Raytheon Technologies]
 ## Investment case
 
 **Bull:**
-- Defense spending increasing globally
+- [[Defense]] spending increasing globally
 - Backlog visibility ($200B+)
-- Missile demand (Ukraine, Taiwan prep)
+- Missile demand (Ukraine, [[Taiwan]] prep)
 - AI/autonomy capabilities
 
 **Bear:**

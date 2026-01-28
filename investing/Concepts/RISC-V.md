@@ -2,7 +2,7 @@
 
 #concept #semiconductors #china #opensource
 
-**RISC-V** — Open-source instruction set architecture (ISA). China's strategic bet to bypass ARM/x86 licensing and US export controls. State-backed "Silicon Sovereignty" strategy with nationwide policy (March 2025). Key players: Alibaba XuanTie, VeriSilicon+Nuclei, SpacemiT.
+**RISC-V** — Open-source instruction set architecture (ISA). [[China]]'s strategic bet to bypass ARM/x86 licensing and US export controls. State-backed "Silicon Sovereignty" strategy with nationwide policy (March 2025). Key players: Alibaba XuanTie, VeriSilicon+Nuclei, SpacemiT.
 
 ---
 
@@ -13,28 +13,28 @@
 | Type | Instruction Set Architecture (ISA) |
 | Origin | UC Berkeley (2010) |
 | License | **Open-source, royalty-free** |
-| Governance | RISC-V International (Switzerland) |
-| Alternative to | ARM (licensed), x86 (Intel/AMD proprietary) |
+| Governance | RISC-V International ([[Switzerland]]) |
+| Alternative to | ARM (licensed), x86 ([[Intel]]/[[AMD]] proprietary) |
 
 **Key difference from ARM:** No licensing fees, no export control restrictions, fully customizable.
 
 ---
 
-## Why China is betting on RISC-V
+## Why [[China]] is betting on RISC-V
 
 | Driver | Detail |
 |--------|--------|
 | **US export controls** | ARM licenses restricted for Chinese firms |
 | **Self-sufficiency** | No foreign IP dependency |
-| **Cost** | No royalties to ARM/Intel |
+| **Cost** | No royalties to ARM/[[Intel]] |
 | **Customization** | Can optimize for specific workloads (AI, IoT) |
 | **Security** | Full visibility into chip design |
 
-**Strategic context:** US restricted Huawei, SMIC from advanced chips. RISC-V is the escape route.
+**Strategic context:** US restricted [[Huawei]], [[SMIC]] from advanced chips. RISC-V is the escape route.
 
 ---
 
-## China government policy
+## [[China]] government policy
 
 ### March 2025 nationwide guidance
 
@@ -45,7 +45,7 @@
 | Focus areas | R&D, standards, applications, global cooperation |
 | Market reaction | VeriSilicon +10% limit up |
 
-### China RISC-V Industry Alliance
+### [[China]] RISC-V Industry Alliance
 
 | Detail | Value |
 |--------|-------|
@@ -60,7 +60,7 @@
 
 | Company | Product/Role | Status |
 |---------|--------------|--------|
-| **[[Alibaba]]** (T-Head/Damo) | XuanTie C930 server chip | Server-grade, competes with Intel/AMD |
+| **[[Alibaba]]** (T-Head/Damo) | XuanTie C930 server chip | Server-grade, competes with [[Intel]]/[[AMD]] |
 | **VeriSilicon** | IP provider, acquiring Nuclei | Public (688521.SH) |
 | **Nuclei System** | RISC-V CPU IP specialist | Being acquired by VeriSilicon |
 | **[[SpacemiT]]** | K1 chip, edge/robotics | Series B ($86M, Jan 2026) |
@@ -72,7 +72,7 @@
 | Detail | Value |
 |--------|-------|
 | Acquirer | VeriSilicon (688521.SH) |
-| Target | Nuclei System Technology |
+| [[Target]] | Nuclei System Technology |
 | Rationale | Consolidate RISC-V IP leadership |
 | VeriSilicon R&D investment | 1.3B yuan in R&D center |
 
@@ -83,8 +83,8 @@
 | Architecture | 64-bit multi-core RISC-V |
 | Profile | RVA23 compatible |
 | Vector units | Dual 512-bit |
-| AI capability | 8 TOPS Matrix engine |
-| Target | Server workloads |
+| AI capability | 8 TOPS [[Matrix]] engine |
+| [[Target]] | Server workloads |
 
 ---
 
@@ -94,7 +94,7 @@
 |---------|-----------------|
 | **IoT/Edge** | Low power, customizable |
 | **AI inference** | Custom accelerators |
-| **Automotive** | No licensing restrictions |
+| **[[Automotive]]** | No licensing restrictions |
 | **Industrial** | Long-term support |
 | **Data centers** | Cost at scale |
 
@@ -108,7 +108,7 @@
 | **Customization** | Full | Limited | None |
 | **Ecosystem** | Growing | Mature | Mature |
 | **Performance** | Catching up | Mobile leader | Server leader |
-| **China access** | ✅ Unrestricted | ⚠️ Limited | ⚠️ Limited |
+| **[[China]] access** | ✅ Unrestricted | ⚠️ Limited | ⚠️ Limited |
 
 ---
 
@@ -120,7 +120,7 @@ RISC-V + efficient AI models = alternative to NVIDIA dependency.
 |---------|--------|
 | DeepSeek efficiency | Runs on lower-end chips |
 | RISC-V opportunity | 30% performance at lower cost = viable at scale |
-| China Mobile view | Multiple RISC-V units can match NVIDIA/Huawei |
+| [[China]] Mobile view | Multiple RISC-V units can match NVIDIA/[[Huawei]] |
 
 See [[DeepSeek]], [[US-China tech race]].
 
@@ -130,12 +130,12 @@ See [[DeepSeek]], [[US-China tech race]].
 
 | Region | Activity |
 |--------|----------|
-| **China** | State-backed, largest adoption |
-| **Europe** | European Processor Initiative (EPI) |
-| **India** | Shakti processor program |
-| **US** | SiFive, Tenstorrent (startup-driven) |
+| **[[China]]** | State-backed, largest adoption |
+| **[[Europe]]** | European Processor Initiative (EPI) |
+| **[[India]]** | Shakti processor program |
+| **US** | SiFive, [[Tenstorrent]] (startup-driven) |
 
-**Irony:** US-origin technology (Berkeley) now powering China's chip independence.
+**Irony:** US-origin technology (Berkeley) now powering [[China]]'s chip independence.
 
 ---
 
@@ -143,8 +143,8 @@ See [[DeepSeek]], [[US-China tech race]].
 
 | Angle | Detail |
 |-------|--------|
-| **China chip plays** | VeriSilicon, SpacemiT, Alibaba |
-| **US incumbents at risk** | ARM (if China ecosystem succeeds) |
+| **[[China]] chip plays** | VeriSilicon, SpacemiT, Alibaba |
+| **US incumbents at risk** | ARM (if [[China]] ecosystem succeeds) |
 | **Beneficiaries** | RISC-V IP providers, toolchain companies |
 | **Timeline** | 3-5 years to meaningful server share |
 
@@ -180,8 +180,8 @@ See [[DeepSeek]], [[US-China tech race]].
 
 ## Sources
 
-- [Tom's Hardware: China RISC-V Policy](https://www.tomshardware.com/pc-components/cpus/chinese-government-shifts-focus-from-x86-and-arm-cpus-promoting-the-adoption-of-risc-v-chips)
-- [Jamestown: China RISC-V Grand Strategy](https://jamestown.org/program/examining-chinas-grand-strategy-for-risc-v/)
+- [Tom's Hardware: [[China]] RISC-V Policy](https://www.tomshardware.com/pc-components/cpus/chinese-government-shifts-focus-from-x86-and-arm-cpus-promoting-the-adoption-of-risc-v-chips)
+- [Jamestown: [[China]] RISC-V Grand Strategy](https://jamestown.org/program/examining-chinas-grand-strategy-for-risc-v/)
 - [DigiTimes: VeriSilicon Nuclei Acquisition](https://www.digitimes.com/news/a20250829VL205/verisilicon-shanghai-risc-v-ip-cpu.html)
 
 *Created 2026-01-14*

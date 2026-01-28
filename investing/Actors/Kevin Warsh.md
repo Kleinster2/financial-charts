@@ -3,7 +3,7 @@ aliases: [Warsh]
 ---
 #actor #individual #usa #macro #fedcandidate
 
-**Kevin Warsh** — Former Fed Governor (2006-2011), top candidate for Fed Chair. "Battle of the Kevins" frontrunner. Stanford/Morgan Stanley background. Perceived as more independent than Hassett.
+**Kevin Warsh** — Former Fed Governor (2006-2011), top candidate for Fed Chair. "Battle of the Kevins" frontrunner. [[Stanford]]/[[Morgan Stanley]] background. Perceived as more independent than Hassett.
 
 ---
 
@@ -11,10 +11,10 @@ aliases: [Warsh]
 
 | Metric | Value |
 |--------|-------|
-| Current role | Distinguished Visiting Fellow, Hoover Institution (Stanford) |
+| Current role | Distinguished Visiting Fellow, Hoover Institution ([[Stanford]]) |
 | Fed Chair odds | **60%** (Kalshi, Jan 16) |
 | Age | 55 |
-| Education | Stanford (BA), Harvard Law |
+| Education | [[Stanford]] (BA), Harvard Law |
 | Party | Republican |
 
 ### Fed Chair odds history
@@ -30,11 +30,11 @@ aliases: [Warsh]
 
 | Period | Role |
 |--------|------|
-| 1995-2002 | Morgan Stanley |
+| 1995-2002 | [[Morgan Stanley]] |
 | 2002-2006 | White House — economic policy (Bush administration) |
 | 2006-2011 | Fed Board of Governors |
-| 2011-present | Hoover Institution, Stanford |
-| Various | Board: UPS, Coupang; Advisor to Congressional Budget Office |
+| 2011-present | Hoover Institution, [[Stanford]] |
+| Various | Board: [[UPS]], Coupang; Advisor to Congressional Budget Office |
 
 **At the Fed:** Served as Board's G-20 representative. Tenure overlapped 2008 financial crisis and Great Recession.
 
@@ -46,7 +46,7 @@ aliases: [Warsh]
 |-------|----------------|
 | **History** | Hawkish — known for preferring higher rates, lower inflation |
 | **Current** | Aligning with Trump on rate cuts |
-| **Inflation** | "Policy choices, not inevitable cycles" |
+| **[[Inflation]]** | "Policy choices, not inevitable cycles" |
 | **AI** | "Significant disinflationary force" |
 
 **Market perception:** Historically hawkish, but has told Trump "borrowing costs must come down." Still seen as less aggressive on cuts than Hassett.
@@ -84,7 +84,7 @@ Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
 |--------|--------|
 | Fed experience | 5 years on Board (2006-2011) |
 | Crisis experience | Served through GFC |
-| Market credibility | Morgan Stanley background |
+| Market credibility | [[Morgan Stanley]] background |
 | Independence | Distance from White House |
 | Institutional knowledge | Knows how Fed operates |
 
@@ -110,7 +110,7 @@ Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
 
 Traders see Warsh as "Goldilocks" solution:
 - Fed experience satisfies institutional concerns
-- Morgan Stanley background provides market credibility
+- [[Morgan Stanley]] background provides market credibility
 - Distance from Trump preserves independence optics
 - Dovish views align with Trump's rate preferences
 

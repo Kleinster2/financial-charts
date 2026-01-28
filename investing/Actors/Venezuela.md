@@ -45,9 +45,9 @@ Venezuela is a cautionary tale and potential swing factor:
 | Company | Response |
 |---------|----------|
 | [[Exxon]] | Refused, exited, sued |
-| ConocoPhillips | Refused, exited, sued |
+| [[ConocoPhillips]] | Refused, exited, sued |
 | [[Chevron]] | Accepted minority role, stayed |
-| Total, Statoil, BP | Accepted, stayed |
+| Total, Statoil, [[BP]] | Accepted, stayed |
 
 **Chevron's bet:** Staying would pay off eventually.
 
@@ -59,7 +59,7 @@ Venezuela is a cautionary tale and potential swing factor:
 
 | Company | Award | Status |
 |---------|-------|--------|
-| ConocoPhillips | $8.7B | Collecting (seized PDVSA assets) |
+| [[ConocoPhillips]] | $8.7B | Collecting (seized PDVSA assets) |
 | [[Exxon]] | $1.6B | Partial collection |
 | Others | Various | Ongoing |
 
@@ -106,7 +106,7 @@ Venezuela/PDVSA largely unable to pay — assets seized in Caribbean.
 |----------|---------------------|
 | Current (limited) | ~900K-1M bpd |
 | Moderate investment | 1.5-2M bpd |
-| Full rehabilitation | 2.5-3M bpd (years away) |
+| Full rehabilitation | 2.5-[[3M]] bpd (years away) |
 
 **Reality:** Infrastructure degraded, expertise gone, would take years and billions.
 
@@ -225,17 +225,17 @@ See [[Maduro capture 2026]] for full event details.
 
 **JPMorgan positioning:**
 - Dormant Caracas office maintained for years — could reactivate as needed
-- Internal idea floated: trade bank for oil exports (similar to Trade Bank of Iraq, 2003)
+- Internal idea floated: trade bank for oil exports (similar to [[Trade]] Bank of Iraq, 2003)
 - Could tap $1.5T Security and Resiliency Initiative for critical minerals financing
 - Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
 
 **If sanctions ease — opportunities:**
-- Trade financing for oil exports
+- [[Trade]] financing for oil exports
 - Infrastructure investment financing
-- Export-Import Bank involvement (per ConocoPhillips CEO at Jan 9 WH meeting)
+- Export-Import Bank involvement (per [[ConocoPhillips]] CEO at Jan 9 WH meeting)
 - Restructuring and energy financing deals
 
-**Caution:** Even after Iran sanctions lifted (2016), global banks remained reluctant. Venezuela may face similar hesitancy.
+**Caution:** Even after [[Iran]] sanctions lifted (2016), global banks remained reluctant. Venezuela may face similar hesitancy.
 
 ---
 
@@ -253,7 +253,7 @@ See [[Maduro capture 2026]] for full event details.
 **Post-Maduro:** Chinese debt repayment uncertain. US may displace Chinese oil access.
 
 **Legal Battleground:**
-- **Expropriation Claims:** [[Exxon]] ($1.6B) and ConocoPhillips ($8.7B) hold judgments against the **Republic of Venezuela** (Sovereign).
+- **Expropriation Claims:** [[Exxon]] ($1.6B) and [[ConocoPhillips]] ($8.7B) hold judgments against the **[[Republic]] of Venezuela** (Sovereign).
 - **The "Alter Ego" Trap:** Creditors argue [[PDVSA]] is an "alter ego" of the state, allowing them to seize PDVSA assets (like [[Citgo]]) to pay Sovereign debt.
 
 **Russia:**
@@ -261,7 +261,7 @@ See [[Maduro capture 2026]] for full event details.
 | Support type | Description |
 |--------------|-------------|
 | [[Russia]] | Political/military backer |
-| Rosneft | Had oil stakes (sold 2020 to avoid sanctions) |
+| [[Rosneft]] | Had oil stakes (sold 2020 to avoid sanctions) |
 | Arms | Military equipment supplier |
 
 **Post-Maduro:** Russia loses key Latin America ally.
@@ -275,7 +275,7 @@ See [[Maduro capture 2026]] for full event details.
 | Chinese loans serviced | Debt status uncertain |
 | Sanctioned from US | US "running" country |
 
-**Where oil went:** China was primary buyer (~300-400K bpd) because US sanctions blocked American buyers. [[Sinopec]], [[CNPC]] refineries in China processed Venezuelan heavy crude. India also bought opportunistically at deep discounts.
+**Where oil went:** China was primary buyer (~300-400K bpd) because US sanctions blocked American buyers. [[Sinopec]], [[CNPC]] refineries in China processed Venezuelan heavy crude. [[India]] also bought opportunistically at deep discounts.
 
 **Investment implication:** [[Gulf Coast refiners]] ([[Valero]], [[PBF Energy]]) and [[Chevron]] gain at expense of [[CNPC]], [[Sinopec]].
 
@@ -294,7 +294,7 @@ See [[Maduro capture 2026]] for full event details.
 - [[Venezuela repatriation strategy]] — immigration angle
 - [[Oil]] — global supply context
 - [[Sanctions]] — key policy lever
-- [[Cuba-Venezuela axis]] — Cuba's economic lifeline
+- [[Cuba-Venezuela axis]] — [[Cuba]]'s economic lifeline
 - [[US-China commodity leverage]] — oil access as rare earth bargaining chip
 - [[PDVSA]] — state oil company
 - [[Citgo]] — US refining arm

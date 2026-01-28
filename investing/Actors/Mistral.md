@@ -9,11 +9,11 @@ aliases: [Mistral AI]
 
 ## Why Mistral matters
 
-Europe's best hope for AI sovereignty:
+[[Europe]]'s best hope for AI sovereignty:
 
 | Metric | Value |
 |--------|-------|
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | Founded | 2023 |
 | Valuation | ~$6B (Dec 2024) |
 | Strategy | Open-weight models |
@@ -28,7 +28,7 @@ Europe's best hope for AI sovereignty:
 - Guillaume Lample — ex-Meta AI
 - Timothée Lacroix — ex-Meta AI
 
-French nationals building in France — rare for frontier AI.
+French nationals building in [[France]] — rare for frontier AI.
 
 ---
 
@@ -55,7 +55,7 @@ French nationals building in France — rare for frontier AI.
 | Seed | Jun 2023 | €105M | — | [[Lightspeed Venture Partners]] |
 | Series A | Dec 2023 | €385M | — | [[a16z]] |
 | Series B | Jun 2024 | €600M | €5.8B | Multiple |
-| Series C | Sep 2025 | €1.7B | €13.7B (~$14B) | ASML |
+| Series C | Sep 2025 | €1.7B | €13.7B (~$14B) | [[ASML]] |
 
 **Total raised:** ~€2.8B ($3B+)
 
@@ -65,14 +65,14 @@ French nationals building in France — rare for frontier AI.
 |----------|------|
 | **[[Lightspeed Venture Partners]]** | Lead Seed |
 | **[[a16z]]** | Lead Series A |
-| **ASML** | Lead Series C |
+| **[[ASML]]** | Lead Series C |
 | **[[General Catalyst]]** | Series A+ |
 | **[[Index Ventures]]** | Series C |
 | **[[NVIDIA]]** | Strategic (Series B) |
 | **[[Microsoft]]** | Strategic (€15M, Azure) |
 | **[[DST Global]]** | Series C |
-| **Bpifrance** | French sovereign |
-| **Salesforce** | Strategic (Series B) |
+| **[[Bpifrance]]** | French sovereign |
+| **[[Salesforce]]** | Strategic (Series B) |
 | **[[Databricks]]** | Strategic (Series B) |
 
 ### Founders
@@ -103,8 +103,8 @@ French nationals building in France — rare for frontier AI.
 |-----|-----------|----------|-----------|
 | [[OpenAI]] | USA | Closed, consumer | $150B+ |
 | [[Anthropic]] | USA | Closed, enterprise | $60B+ |
-| **Mistral** | France | Open-weight | ~$6B |
-| [[Cohere]] | Canada | Enterprise | ~$5B |
+| **Mistral** | [[France]] | Open-weight | ~$6B |
+| [[Cohere]] | [[Canada]] | Enterprise | ~$5B |
 
 Mistral is largest European AI lab. Open-weight = enterprise/self-hosting niche.
 
@@ -112,8 +112,8 @@ Mistral is largest European AI lab. Open-weight = enterprise/self-hosting niche.
 
 ## European AI sovereignty
 
-**France backing Mistral:**
-- BPI France investment
+**[[France]] backing Mistral:**
+- BPI [[France]] investment
 - Macron government support
 - "European champion" narrative
 - GDPR-compliant hosting angle
@@ -127,13 +127,13 @@ Mistral is largest European AI lab. Open-weight = enterprise/self-hosting niche.
 **Bull case:**
 - Enterprise wants self-hosting (data privacy)
 - Fine-tuning on proprietary data
-- Regulatory compliance (EU)
+- Regulatory compliance ([[EU]])
 - Not paying API margins
 
 **Bear case:**
 - Open weights = commoditization
 - Can't capture full value
-- US labs may follow (Llama already open)
+- US labs may follow ([[Llama]] already open)
 - Compute cost still high
 
 ---
@@ -142,7 +142,7 @@ Mistral is largest European AI lab. Open-weight = enterprise/self-hosting niche.
 
 | Metric | Value |
 |--------|-------|
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | Founded | 2023 |
 | Valuation | ~$6B |
 | Strategy | Open-weight |
@@ -158,6 +158,6 @@ Mistral is largest European AI lab. Open-weight = enterprise/self-hosting niche.
 - [[OpenAI]] — competitor (closed, consumer)
 - [[Cohere]] — competitor (enterprise)
 - [[Microsoft]] — investor (hedging OpenAI bet)
-- [[Meta]] — competitor (Llama open-source)
+- [[Meta]] — competitor ([[Llama]] open-source)
 - [[Sovereign AI race]] — context (European AI)
 - [[Open source commoditization]] — thesis context

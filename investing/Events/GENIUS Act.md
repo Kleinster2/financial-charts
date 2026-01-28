@@ -17,7 +17,7 @@
 
 ## Key Provisions
 
-1.  **Reserves:** Issuers must hold 1:1 reserves in cash or short-term Treasuries.
+1.  **Reserves:** Issuers must hold 1:1 reserves in cash or short-term [[Treasuries]].
 2.  **Disclosure:** Monthly public attestation of reserves required.
 3.  **Audit:** Regular third-party audits mandated.
 4.  **No Yield:** Stablecoins cannot pay interest (prevents them from acting as securities/deposits).

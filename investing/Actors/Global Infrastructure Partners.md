@@ -24,7 +24,7 @@ aliases: [GIP]
 |--------|-------|
 | Announced | 2024 |
 | Deal value | Part of ~$28B spree |
-| Rationale | Private markets expansion |
+| Rationale | [[Private markets]] expansion |
 | Status | Completed |
 
 Gave BlackRock major infrastructure capabilities.
@@ -37,7 +37,7 @@ Gave BlackRock major infrastructure capabilities.
 |--------|--------|
 | Data centers | Digital infrastructure |
 | Energy | Renewables, midstream |
-| Transport | Ports, airports, rail |
+| [[Transport]] | Ports, airports, rail |
 | Utilities | Regulated assets |
 
 ---

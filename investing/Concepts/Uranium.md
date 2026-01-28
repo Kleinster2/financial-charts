@@ -25,14 +25,14 @@
 
 | Source | Projection |
 |--------|------------|
-| Goldman Sachs | Data center electricity demand +160% by 2030 |
+| [[Goldman Sachs]] | Data center electricity demand +160% by 2030 |
 | Investor survey | 63% believe AI = material factor in nuclear planning |
 
 **Hyperscaler commitments:**
-- Microsoft — nuclear power agreements
-- Google — reactor investments
-- Amazon — nuclear partnerships
-- Meta — exploring nuclear options
+- [[Microsoft]] — nuclear power agreements
+- [[Google]] — reactor investments
+- [[Amazon]] — nuclear partnerships
+- [[Meta]] — exploring nuclear options
 
 AI electricity demand viewed as **structural, not cyclical**.
 
@@ -45,7 +45,7 @@ AI electricity demand viewed as **structural, not cyclical**.
 | Factor | Status |
 |--------|--------|
 | Mined supply vs demand | <75% of reactor requirements |
-| Kazatomprom (2026) | Reduced production guidance |
+| [[Kazatomprom]] (2026) | Reduced production guidance |
 | Secondary supply | Declining |
 | Permitting timelines | Long (years) |
 | Underinvestment | Decades |
@@ -65,7 +65,7 @@ Sprott: Market defined by "two speeds" — short-term volatility masking bullish
 | Current global capacity | 398 GWe (June 2025) |
 | 2040 target (WNA) | 746 GWe (~2x) |
 
-China leading buildout. See [[China nuclear buildout]].
+[[China]] leading buildout. See [[China nuclear buildout]].
 
 ---
 
@@ -82,7 +82,7 @@ China leading buildout. See [[China nuclear buildout]].
 **Bear case:**
 - Spot price volatile ($63-83 range in 2025)
 - Long permitting/construction timelines
-- Kazatomprom can increase production
+- [[Kazatomprom]] can increase production
 - SMR delays
 - Political/regulatory risk
 
@@ -104,7 +104,7 @@ China leading buildout. See [[China nuclear buildout]].
 |---------|--------|-------|
 | [[Cameco]] | CCJ | Largest Western producer |
 | [[Uranium Energy Corp]] | UEC | US-focused |
-| Kazatomprom | KAP (LSE) | World's largest producer |
+| [[Kazatomprom]] | KAP (LSE) | World's largest producer |
 | NexGen Energy | NXE | Development stage |
 | Denison Mines | DNN | Canadian developer |
 
@@ -119,7 +119,7 @@ China leading buildout. See [[China nuclear buildout]].
 
 **Supply chain:**
 - Conversion/enrichment bottlenecks
-- Russia enrichment dependence
+- [[Russia]] enrichment dependence
 - HALEU for advanced reactors
 
 ---

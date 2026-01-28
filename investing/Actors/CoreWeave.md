@@ -62,7 +62,7 @@ CoreWeave is cited as example of NVIDIA controlling both supply AND demand:
 > "When a quarter needs a little help, Jensen picks up the phone: 'Take the chips now — I'll assign you the clients later.'"
 
 **Pattern (per Kakashiii analysis):**
-- Recent deals (Scale AI, IREN, Nebius, CoreWeave) share Microsoft ties
+- Recent deals ([[Scale AI]], [[IREN]], [[Nebius]], CoreWeave) share Microsoft ties
 - NVIDIA facilitates relationships between neoclouds and customers
 - Creates opacity: NVIDIA → CoreWeave → End customer
 - Revenue quality question for both companies
@@ -157,7 +157,7 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 | Ticker | CRWV |
 | Founded | 2017 |
 | IPO | March 2025 ($23B valuation) |
-| Data centers | 33+ (US/Europe) |
+| Data centers | 33+ (US/[[Europe]]) |
 | GPUs | 250,000+ |
 | Stock since IPO | +90% |
 | Key customer | [[Microsoft]] (65%) |

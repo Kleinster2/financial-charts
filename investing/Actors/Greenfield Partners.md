@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #company #venturecapital #israel #usa #private
 
-**Greenfield Partners** — Israeli-focused growth VC. TPG Growth spinout (2020). $1B+ AUM. 4 unicorns.
+**Greenfield Partners** — Israeli-focused growth VC. [[TPG]] Growth spinout (2020). $1B+ AUM. 4 unicorns.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Founded | 2016 (as TPG Growth Israel) |
+| Founded | 2016 (as [[TPG]] Growth Israel) |
 | Independent | 2020 |
 | HQ | Tel Aviv, New York |
 | AUM | $1B+ |
@@ -28,7 +28,7 @@ aliases: []
 | Fund II | $300M | 2020 |
 | **Fund III** | **$400M** | 2025 |
 
-**LPs:** Institutional investors from Israel, US, Europe, Asia.
+**LPs:** Institutional investors from Israel, US, [[Europe]], [[Asia]].
 
 ---
 
@@ -59,7 +59,7 @@ aliases: []
 | Company | Acquirer | Value | Year |
 |---------|----------|-------|------|
 | Guardicore | Akamai | ~$600M | 2021 |
-| Avanan | Check Point | ~$300M | 2021 |
+| Avanan | [[Check Point]] | ~$300M | 2021 |
 
 **Fund I performance:** ~2x DPI
 
@@ -80,14 +80,14 @@ aliases: []
 
 | Person | Role | Background |
 |--------|------|------------|
-| Raanan Grinfeld | Co-founder | Ex-TPG Growth |
-| Yuda Doron | Co-founder | Ex-TPG Growth |
+| Raanan Grinfeld | Co-founder | Ex-[[TPG]] Growth |
+| Yuda Doron | Co-founder | Ex-[[TPG]] Growth |
 
 ---
 
-## TPG spinout context
+## [[TPG]] spinout context
 
-Originally opened as TPG Growth's Israel office in 2016. Spun out independently in 2020 with $150M to pursue dedicated Israel strategy.
+Originally opened as [[TPG]] Growth's Israel office in 2016. Spun out independently in 2020 with $150M to pursue dedicated Israel strategy.
 
 ---
 

@@ -28,7 +28,7 @@ Alibaba's bet on open source paying off — fastest growth in the market.
 |------|-----|-------|
 | Nov 17, 2025 | Launch | Public beta |
 | Nov 24, 2025 | 10M downloads | First week |
-| Nov 2025 | 18.3M | +149% MoM |
+| Nov 2025 | 18.[[3M]] | +149% MoM |
 | Dec 2025 | 30M | Early month |
 | **Jan 2026** | **100M+** | Current |
 
@@ -39,7 +39,7 @@ Alibaba's bet on open source paying off — fastest growth in the market.
 | [[Doubao]] | 168M |
 | [[DeepSeek]] | ~143M |
 | **Qwen** | **100M+** |
-| Tencent Yuanbao | 73M |
+| [[Tencent]] Yuanbao | 73M |
 
 Qwen closed the gap fast — from 18M to 100M in ~2 months.
 
@@ -59,7 +59,7 @@ Qwen closed the gap fast — from 18M to 100M in ~2 months.
 
 **Benchmarks:**
 
-| Benchmark | Score | vs Competitors |
+| [[Benchmark]] | Score | vs Competitors |
 |-----------|-------|----------------|
 | Text Arena | **Top 3** | Beat GPT-5-Chat |
 | SWE-Bench Verified | 69.6 | Top coding tier |
@@ -74,19 +74,19 @@ Qwen closed the gap fast — from 18M to 100M in ~2 months.
 | Qwen3-235B-A22B | 235B | 22B | MoE, Apache 2.0 |
 | Qwen3-Coder-480B | 480B | 35B | Agentic coding, 256K context |
 | Qwen3-32B | 32B | Dense | Mid-range |
-| Qwen3-14B/8B/4B | Various | Dense | Consumer GPUs |
+| Qwen3-14B/8B/4B | Various | Dense | [[Consumer]] GPUs |
 | Qwen3-Omni | — | — | Multimodal (glasses, cockpits) |
 
 **Qwen3-235B benchmarks:**
 
-| Benchmark | Score |
+| [[Benchmark]] | Score |
 |-----------|-------|
 | ArenaHard | 95.6 |
 | LiveBench | 77.1 |
 | LiveCodeBench v6 | 74.8 |
 | AIME25 (thinking) | 92.3 |
 
-Competitive with Gemini 2.5 Pro across the board.
+Competitive with [[Gemini]] 2.5 Pro across the board.
 
 ---
 
@@ -107,10 +107,10 @@ Alibaba undercutting everyone on price while open-sourcing the models.
 
 | Channel | Strategy |
 |---------|----------|
-| Qwen App | Consumer chatbot (100M+ MAU) |
+| Qwen App | [[Consumer]] chatbot (100M+ MAU) |
 | Alibaba Cloud | Enterprise API |
-| Hugging Face | Open weights |
-| Taobao/Tmall | E-commerce integration |
+| [[Hugging Face]] | Open weights |
+| [[Taobao]]/Tmall | E-commerce integration |
 | DingTalk | Enterprise messaging |
 
 **Key advantage:** Alibaba's cloud + commerce ecosystem for distribution.
@@ -152,7 +152,7 @@ Alibaba undercutting everyone on price while open-sourcing the models.
 - [[NVIDIA]] — Alibaba GPU customer
 
 **Thesis implications:**
-- Open source winning in China
+- Open source winning in [[China]]
 - Alibaba Cloud differentiated by AI
 - Price war compressing API margins globally
 
@@ -175,9 +175,9 @@ Alibaba undercutting everyone on price while open-sourcing the models.
 ## Related
 
 - [[Alibaba]] — parent company
-- [[Doubao]] — competitor (#1 China)
+- [[Doubao]] — competitor (#1 [[China]])
 - [[DeepSeek]] — open source peer
 - [[Moonshot AI]] — competitor (Kimi)
-- [[Hunyuan]] — competitor (Tencent)
-- [[Ernie]] — competitor (Baidu)
+- [[Hunyuan]] — competitor ([[Tencent]])
+- [[Ernie]] — competitor ([[Baidu]])
 - [[ChatGPT]] — global competitor

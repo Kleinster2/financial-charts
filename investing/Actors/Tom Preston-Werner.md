@@ -2,7 +2,7 @@
 
 #actor #individual #founder #investor #developer-tools
 
-**Tom Preston-Werner** — GitHub co-founder (2008), sold to Microsoft. Creator of Jekyll, Semantic Versioning (SemVer), TOML. Now runs Preston-Werner Ventures — 175+ investments including early checks in Stripe, Cursor, [[Supabase]], [[PlanetScale]], Netlify.
+**Tom Preston-Werner** — GitHub co-founder (2008), sold to [[Microsoft]]. Creator of Jekyll, Semantic Versioning (SemVer), TOML. Now runs Preston-Werner Ventures — 175+ investments including early checks in [[Stripe]], [[Cursor]], [[Supabase]], [[PlanetScale]], Netlify.
 
 ---
 
@@ -27,18 +27,18 @@
 | Co-founders | Chris Wanstrath, P.J. Hyett |
 | Founded | 2008 |
 | Departed | 2014 |
-| Acquisition | Microsoft ($7.5B, 2018) |
+| Acquisition | [[Microsoft]] ($7.5B, 2018) |
 
-**Departure:** Resigned in 2014 following internal investigation. Sold shares to Microsoft in 2018 acquisition.
+**Departure:** Resigned in 2014 following internal investigation. Sold shares to [[Microsoft]] in 2018 acquisition.
 
 ### Pre-GitHub
 
 | Company | Role | Outcome |
 |---------|------|---------|
 | Gravatar | Founder (2004) | Sold to Automattic (2007) |
-| Powerset | Employee | Acquired by Microsoft |
+| Powerset | Employee | Acquired by [[Microsoft]] |
 
-Declined $300K Microsoft bonus + stock options to focus on GitHub.
+Declined $300K [[Microsoft]] bonus + stock options to focus on GitHub.
 
 ### Technical contributions
 
@@ -58,7 +58,7 @@ Founded 2019 with wife Theresa and partners David Price, David Thyresson.
 
 | Category | Examples |
 |----------|----------|
-| **Early wins** | Stripe, Cursor |
+| **Early wins** | [[Stripe]], [[Cursor]] |
 | **Developer tools** | [[Supabase]], [[PlanetScale]], Netlify, Retool, Snyk |
 | **Total investments** | 175+ |
 
@@ -67,7 +67,7 @@ Founded 2019 with wife Theresa and partners David Price, David Thyresson.
 | Detail | Value |
 |--------|-------|
 | Founded | 2019 |
-| Target | $100M fund (reported) |
+| [[Target]] | $100M fund (reported) |
 | Focus | Early-stage tech startups |
 | Board seats | Netlify (since 2020) |
 
@@ -93,7 +93,7 @@ Reflects continued commitment to developer tools and open source.
 - [[PlanetScale]] — angel investor
 - [[Vercel]] — peer in developer tools ecosystem
 - [[Nat Friedman]] — successor as GitHub leader (CEO 2018-2021)
-- Microsoft — acquired GitHub
+- [[Microsoft]] — acquired GitHub
 
 ---
 

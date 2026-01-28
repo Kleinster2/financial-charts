@@ -67,7 +67,7 @@ Philosophy: "Apps will melt away. The prompt is your new interface."
 
 Started as Steinberger's personal assistant named "Clawd" — a space lobster character. His Mac Mini in Vienna runs at 3 AM drafting newsletters and responding to messages while he sleeps. Personal tool → open-source phenomenon.
 
-Mascot: Space lobster named Clawd. Tagline references Doctor Who's TARDIS. Leans into absurdism.
+Mascot: [[Space]] lobster named Clawd. Tagline references Doctor Who's TARDIS. Leans into absurdism.
 
 ---
 

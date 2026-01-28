@@ -55,7 +55,7 @@ They don't test chips — they make the equipment that OSATs ([[ASE]]) and IDMs 
 
 | Competitor | Notes |
 |------------|-------|
-| Advantest | ATE (test equipment), different segment |
+| [[Advantest]] | ATE (test equipment), different segment |
 | Teradyne | ATE, some handler overlap |
 | Xcerra | Smaller player |
 
@@ -66,7 +66,7 @@ Cohu is more specialized in handlers vs. the broader ATE players.
 ## Customers
 
 - OSATs: [[ASE]], Amkor
-- IDMs: Intel, Texas Instruments
+- IDMs: Intel, [[Texas Instruments]]
 - Foundry test operations
 
 ---
@@ -97,7 +97,7 @@ Cohu is more specialized in handlers vs. the broader ATE players.
 
 - [[Long OSAT and test equipment]] — pure play on test bottleneck
 - Small cap = more volatile, higher beta
-- Foundry-agnostic: benefits regardless of TSMC vs Samsung outcome
+- Foundry-agnostic: benefits regardless of [[TSMC]] vs [[Samsung]] outcome
 
 ---
 

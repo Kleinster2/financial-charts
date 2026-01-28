@@ -25,7 +25,7 @@ aliases: [United Parcel Service]
 | ORION | AI route optimization (saves 100M miles/year) |
 | Network planning | ML for hub operations |
 | Demand forecasting | Peak season planning |
-| Autonomous | Waymo partnership, drone delivery |
+| Autonomous | [[Waymo]] partnership, drone delivery |
 | Predictive maintenance | Fleet optimization |
 
 **ORION:** Proprietary AI routing system, industry-leading.
@@ -47,7 +47,7 @@ aliases: [United Parcel Service]
 **Bull:**
 - E-commerce secular growth
 - ORION AI advantage
-- Healthcare logistics growth
+- [[Healthcare]] logistics growth
 - Dividend yield (~5%)
 - Network density moat
 

@@ -8,9 +8,9 @@
 
 *   **Ownership:** Technically still state-owned by Venezuela, but effectively controlled by the interim US-backed government.
 *   **Management:** Old, politicized management (often military officers) being purged. US/Western expertise expected to be brought in.
-*   **Production:** Around 150K bpd (Chevron's share) to ~1M bpd total. Far below potential of 3M+ bpd.
+*   **Production:** Around 150K bpd (Chevron's share) to ~1M bpd total. Far below potential of [[3M]]+ bpd.
 *   **Infrastructure:** Severely degraded. Refineries operate at minimal capacity. Pipelines, storage, and drilling equipment require massive investment.
-*   **Financials:** Deeply indebted (tens of billions). Creditors (China, Russia, bondholders) are major stakeholders. Assets (like Citgo) are collateralized or under legal challenge.
+*   **Financials:** Deeply indebted (tens of billions). Creditors ([[China]], [[Russia]], bondholders) are major stakeholders. Assets (like Citgo) are collateralized or under legal challenge.
 *   **Strategic Role:** The vehicle for Venezuela's oil production. Rebuilding PDVSA is synonymous with rebuilding Venezuelan oil.
 
 ---

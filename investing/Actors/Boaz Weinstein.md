@@ -35,7 +35,7 @@ Joined as sole CDS trader. Built proprietary trading group managing ~$30B in pos
 
 | Year | Event |
 |------|-------|
-| 1998 | Joined; profited during Russia default, LTCM collapse |
+| 1998 | Joined; profited during [[Russia]] default, LTCM collapse |
 | 1999 | Promoted to VP |
 | 2001 | Youngest managing director in Deutsche Bank history (age 27) |
 | 2006 | Saba group gained ~$900M |
@@ -51,9 +51,9 @@ Founded with $140-160M. Now ~$6B AUM. See [[Saba Capital]] for full history.
 
 ## Notable trades
 
-| Trade | Year | Result |
+| [[Trade]] | Year | Result |
 |-------|------|--------|
-| Russia default / LTCM | 1998 | Significant gains |
+| [[Russia]] default / LTCM | 1998 | Significant gains |
 | AOL Time Warner | 2001-02 | Bought bonds, shorted stock; company didn't default |
 | General Motors | 2005 | CDS + short equity; recovered after initial loss |
 | London Whale | 2012 | Identified JPMorgan mispricing; profited from $6.2B loss |

@@ -1,7 +1,7 @@
 
 #actor #etf #financials #usa
 
-**SPDR S&P Bank ETF** — [[State Street]] ETF tracking S&P Banks Select Industry Index. Broad US bank exposure including large banks, regionals, asset managers. Modified equal-weight reduces concentration.
+**SPDR S&P Bank ETF** — [[State Street]] ETF tracking S&P [[Banks]] Select Industry Index. Broad US bank exposure including large banks, regionals, asset managers. Modified equal-weight reduces concentration.
 
 ![[kbe-vs-kre.png]]
 *vs [[KRE]]*
@@ -19,10 +19,10 @@
 
 ## Index Composition
 
-**S&P Banks Select Industry Index** covers:
-- Diversified Banks (large caps like [[JPMorgan]], [[Bank of America]])
-- Regional Banks
-- Asset Management & Custody Banks
+**S&P [[Banks]] Select Industry Index** covers:
+- Diversified [[Banks]] (large caps like [[JPMorgan]], [[Bank of America]])
+- Regional [[Banks]]
+- Asset Management & Custody [[Banks]]
 - Diversified Financial Services
 - Commercial & Residential Mortgage Finance
 

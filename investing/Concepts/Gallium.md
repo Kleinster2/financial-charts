@@ -3,7 +3,7 @@ aliases: [Ga]
 ---
 #concept #commodities #china #semiconductor
 
-**Gallium** — Critical semiconductor material. Used in chips, LEDs, 5G, radar. China controls 99% of refined production. Banned for US export Dec 2024, suspended Nov 2025.
+**Gallium** — Critical semiconductor material. Used in chips, LEDs, [[5G]], radar. [[China]] controls 99% of refined production. Banned for US export Dec 2024, suspended Nov 2025.
 
 ---
 
@@ -13,10 +13,10 @@ Often grouped with rare earths but fundamentally different:
 
 | Aspect | Gallium | Rare earths |
 |--------|---------|-------------|
-| Use | Semiconductors, LEDs | Magnets |
+| Use | [[Semiconductors]], LEDs | Magnets |
 | Form | Compound semiconductors | Permanent magnets |
-| Applications | Chips, 5G, radar | EVs, wind, defense |
-| China control | 99% refined | 60-99% by element |
+| Applications | Chips, [[5G]], radar | EVs, wind, defense |
+| [[China]] control | 99% refined | 60-99% by element |
 
 Gallium is about **chips**. Rare earths are about **magnets**.
 
@@ -30,7 +30,7 @@ Gallium compounds enable performance silicon can't match:
 
 | Compound | Properties | Applications |
 |----------|------------|--------------|
-| **GaAs** (Gallium Arsenide) | High frequency, low noise | 5G, radar, satellites |
+| **GaAs** (Gallium Arsenide) | High frequency, low noise | [[5G]], radar, satellites |
 | **GaN** (Gallium Nitride) | High power, efficiency | Power electronics, RF |
 | **GaP** (Gallium Phosphide) | Light emission | LEDs |
 
@@ -38,23 +38,23 @@ Gallium compounds enable performance silicon can't match:
 
 | Sector | Use |
 |--------|-----|
-| **5G/telecom** | RF amplifiers, base stations |
-| **Defense** | Radar, electronic warfare, missiles |
+| **[[5G]]/telecom** | RF amplifiers, base stations |
+| **[[Defense]]** | Radar, electronic warfare, missiles |
 | **Data centers** | Power electronics (GaN) |
 | **LEDs** | Lighting, displays |
 | **Solar** | Thin-film cells (CIGS) |
 
 ---
 
-## China's dominance
+## [[China]]'s dominance
 
-| Stage | China share |
+| Stage | [[China]] share |
 |-------|-------------|
 | Mining | Byproduct of aluminum/zinc |
 | Refining | **99%** |
 | US import reliance | **95%** |
 
-**Why so concentrated**: Gallium is a byproduct of aluminum smelting. China dominates aluminum production. No dedicated gallium mines exist — it's extracted from bauxite processing waste.
+**Why so concentrated**: Gallium is a byproduct of aluminum smelting. [[China]] dominates aluminum production. No dedicated gallium mines exist — it's extracted from bauxite processing waste.
 
 ---
 
@@ -77,7 +77,7 @@ See [[China retaliatory toolkit]], [[Export controls]].
 US Geological Survey estimates:
 - **$3.4B** economic hit from Ga + Ge ban combined
 - ~50% from semiconductor sector
-- Defense applications particularly exposed
+- [[Defense]] applications particularly exposed
 
 ---
 
@@ -85,9 +85,9 @@ US Geological Survey estimates:
 
 | Source | Status |
 |--------|--------|
-| Japan | Small refining capacity |
+| [[Japan]] | Small refining capacity |
 | South Korea | Developing |
-| Germany | Pilot scale |
+| [[Germany]] | Pilot scale |
 | **US (ATALCO)** | **First large-scale (Jan 2026)** |
 
 **Challenge**: Without domestic aluminum industry, US has no gallium feedstock. Would need to build from scratch.
@@ -103,8 +103,8 @@ US Geological Survey estimates:
 | Pentagon equity | **$150M** (preferred) |
 | Pinnacle investment | $300M |
 | Additional govt funding | Expected within 30 days |
-| Target gallium output | **50 metric tons/year** |
-| Target alumina output | 1M+ metric tons/year |
+| [[Target]] gallium output | **50 metric tons/year** |
+| [[Target]] alumina output | 1M+ metric tons/year |
 | Location | Gramercy, Louisiana |
 
 **ATALCO (Atlantic Alumina Co.):**
@@ -117,7 +117,7 @@ US Geological Survey estimates:
 - $6B+ AUM
 - Jason Kellman (CIO): "Investment philosophy has centered on bolstering the US supply chain for critical minerals"
 
-**Part of Trump pattern:** Direct government equity stakes in strategic companies (Intel, US Steel golden share, Kazakhstan tungsten)
+**Part of Trump pattern:** Direct government equity stakes in strategic companies ([[Intel]], US Steel golden share, Kazakhstan tungsten)
 
 ---
 
@@ -128,8 +128,8 @@ US Geological Survey estimates:
 - GaN power semiconductor makers
 - LED manufacturers
 
-**Defense:**
-- Radar systems (Raytheon, Northrop)
+**[[Defense]]:**
+- Radar systems ([[Raytheon]], Northrop)
 - Electronic warfare
 - Satellite communications
 
@@ -139,11 +139,11 @@ US Geological Survey estimates:
 
 **At risk:**
 - US compound semiconductor makers
-- Defense contractors (radar, EW)
-- 5G infrastructure suppliers
+- [[Defense]] contractors (radar, EW)
+- [[5G]] infrastructure suppliers
 
 **Potential beneficiaries:**
-- Non-China gallium refiners (rare)
+- Non-[[China]] gallium refiners (rare)
 - Silicon alternatives where possible
 - Recycling technology
 

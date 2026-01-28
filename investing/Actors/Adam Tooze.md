@@ -8,7 +8,7 @@ Economic historian at [[Columbia University]], author of major crisis histories,
 
 ## Background
 
-Born July 5, 1967 in London. Grew up between England and Heidelberg, Germany (father was a molecular biologist). This binational upbringing shaped his transatlantic perspective on economic history.
+Born July 5, 1967 in London. Grew up between England and Heidelberg, [[Germany]] (father was a molecular biologist). This binational upbringing shaped his transatlantic perspective on economic history.
 
 **Education:**
 - BA Economics, King's College Cambridge (1989)
@@ -19,7 +19,7 @@ Born July 5, 1967 in London. Grew up between England and Heidelberg, Germany (fa
 - 1996-2009: University of Cambridge, Reader in Modern History, Jesus College
 - 2009-2015: Yale University, Barton M. Biggs Professor, Director of International Security Studies (succeeded Paul Kennedy)
 - 2015-present: Columbia University, Shelby Cullom Davis Chair of History, Director of European Institute
-- Nonresident scholar, Carnegie Europe
+- Nonresident scholar, Carnegie [[Europe]]
 
 **Recognition:** Named one of Foreign Policy's Top Global Thinkers of the Decade (2019).
 
@@ -41,9 +41,9 @@ Born July 5, 1967 in London. Grew up between England and Heidelberg, Germany (fa
 
 ## Chartbook newsletter
 
-**Platform:** Substack
+**Platform:** [[Substack]]
 **Launched:** November 2020
-**Subscribers:** 172,000+ (ranked #1 Rising in History on Substack)
+**Subscribers:** 172,000+ (ranked #1 Rising in History on [[Substack]])
 **Frequency:** Multiple times per week
 **Model:** Freemium (free tier available)
 
@@ -59,7 +59,7 @@ Chartbook is "more substantial than the Twitter feed, and more freewheeling" tha
 **Recent coverage (2025-2026):**
 - [[Federal Reserve]] independence under political threat
 - Dollar decoupling from interest rate differentials (spring 2025)
-- Venezuela sanctions and petroleum industry
+- [[Venezuela]] sanctions and petroleum industry
 - Comparison of US business elite to Weimar-era German industrialists
 
 ---
@@ -102,21 +102,21 @@ The phenomenon is so disconcerting that EV manufacturers worldwide add fake engi
 
 ### European green modernization: the failure
 
-Europe was the laboratory where 1980s-90s social theory of "green modernity" was actually implemented:
+[[Europe]] was the laboratory where 1980s-90s social theory of "green modernity" was actually implemented:
 
 | Innovation | Outcome |
 |------------|---------|
 | Feed-in tariffs | Created solar market, then surrendered it to China |
 | Carbon pricing (ETS) | Took 15 years to work; unprepared for price signal shock |
-| Nuclear phase-out (Germany, Italy) | Agonizingly extended coal protection instead |
-| Diesel focus | Milked car industry for dividends; now demand protectionism |
-| Strategic autonomy | Did nothing re: Russia or US dependence |
+| Nuclear phase-out ([[Germany]], Italy) | Agonizingly extended coal protection instead |
+| [[Diesel]] focus | Milked car industry for dividends; now demand protectionism |
+| Strategic autonomy | Did nothing re: [[Russia]] or US dependence |
 
-**The Eurozone crisis as inflection point:** European renewable investment peaked at $131B in 2011, then collapsed under austerity. Southern Europe (where solar made most sense) hit hardest. This is when China overtook.
+**The Eurozone crisis as inflection point:** European renewable investment peaked at $131B in 2011, then collapsed under austerity. Southern [[Europe]] (where solar made most sense) hit hardest. This is when China overtook.
 
 **The Green Deal's influence:** When Xi Jinping announced China's net-zero commitment (UN General Assembly, fall 2020), the Tsinghua University team's PowerPoint slides explicitly cited the EU Green Deal as template. "The highest compliment in modern technocracy."
 
-**But Europe drove decarbonization without electrification.** Top-left quadrant (green power, low electrification) vs China in top-right (green power + deep electrification).
+**But [[Europe]] drove decarbonization without electrification.** Top-left quadrant (green power, low electrification) vs China in top-right (green power + deep electrification).
 
 ### Why European theorists failed
 
@@ -130,7 +130,7 @@ The 1980s-90s theorists (Beck, Latour, et al.) who mapped green modernity:
 
 Tooze rejects the standard narrative of climate backlash as Koch brothers / coal industry rear-guard action:
 
-**Bird-Hagel Resolution (1997):** Unanimous Senate vote against Kyoto—*before* it was signed. Not climate deniers; the issue was **globalization**. Kyoto exempted China (climate justice), which the AFL-CIO and broad coalition saw as disastrous concession. "Weird how little this obvious connection to globalization struggles receives emphasis in the backlash literature."
+**[[Bird]]-Hagel Resolution (1997):** Unanimous Senate vote against Kyoto—*before* it was signed. Not climate deniers; the issue was **globalization**. Kyoto exempted China (climate justice), which the AFL-CIO and broad coalition saw as disastrous concession. "Weird how little this obvious connection to globalization struggles receives emphasis in the backlash literature."
 
 **The Iraq Wars as hyper-agency:** Not rear-guard but "forward moving edges of efforts to seek control over the world." The Suskind quote: "We're an empire now. When we act, we create our own reality."
 
@@ -144,7 +144,7 @@ Tooze rejects the standard narrative of climate backlash as Koch brothers / coal
 
 "Fracking, ladies and gentlemen, is the story of the American electrostate in the 2010s."
 
-Even Texas: coal squeezed out, replaced by LNG + wind (driven by cost, not green politics).
+Even Texas: coal squeezed out, replaced by [[LNG]] + wind (driven by cost, not green politics).
 
 ### China: not replication but new phase
 
@@ -227,7 +227,7 @@ On narrative framing: If comedy (things work out) requires knowing the ending, a
 - Central bank independence as contested political terrain
 - Climate transition as industrial policy battleground
 - US hegemony's fiscal foundations
-- Europe's incomplete monetary union
+- [[Europe]]'s incomplete monetary union
 - China as systemic challenge, not just competitor
 
 ---
@@ -272,7 +272,7 @@ Regular contributor to:
 
 ## Sources
 
-- [Chartbook | Substack](https://adamtooze.substack.com/)
+- [Chartbook | [[Substack]]](https://adamtooze.substack.com/)
 - [Adam Tooze | Columbia University](https://history.columbia.edu/person/adam-tooze/)
 - [Adam Tooze | Wikipedia](https://en.wikipedia.org/wiki/Adam_Tooze)
 - [WEF: What is the Polycrisis?](https://www.weforum.org/stories/2023/03/polycrisis-adam-tooze-historian-explains/)

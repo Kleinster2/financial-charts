@@ -21,9 +21,9 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 | Company | Partner | Deal | Capacity |
 |---------|---------|------|----------|
 | [[Microsoft]] | [[Constellation Energy]] | Three Mile Island restart | 835 MW |
-| [[Amazon]] | [[Talen Energy]] | Susquehanna co-location | 960 MW |
-| [[Google]] | Kairos Power | SMR development | 500 MW by 2030 |
-| [[Oracle]] | TBD | Larry Ellison: "already got building permits" for nuclear DCs | 1 GW+ |
+| [[Amazon]] | [[Talen Energy]] | [[Susquehanna]] co-location | 960 MW |
+| [[Google]] | [[Kairos Power]] | SMR development | 500 MW by 2030 |
+| [[Oracle]] | TBD | [[Larry Ellison]]: "already got building permits" for nuclear DCs | 1 GW+ |
 
 **Pattern:** Every major hyperscaler is pursuing nuclear. Not optional — it's table stakes.
 
@@ -35,7 +35,7 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 - Restart Unit 1 (shut down 2019 for economic reasons, not safety)
 - 20-year PPA
 - ~$1.6B refurbishment cost
-- Target: 2028 restart
+- [[Target]]: 2028 restart
 - First US nuclear restart in history
 
 **Why it matters:**
@@ -62,27 +62,27 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 **Key players:**
 | Company | Status | Backers |
 |---------|--------|---------|
-| [[Oklo]] | Pre-revenue, Aurora design | [[Sam Altman]] (chairman) |
+| [[Oklo]] | Pre-revenue, [[Aurora]] design | [[Sam Altman]] (chairman) |
 | [[NuScale]] | Canceled first project, pivoting | Public (SMR) |
-| Kairos Power | Google deal, molten salt design | Google, DOE |
-| TerraPower | Natrium design, Wyoming site | Bill Gates |
+| [[Kairos Power]] | Google deal, molten salt design | Google, DOE |
+| [[TerraPower]] | Natrium design, Wyoming site | [[Bill Gates]] |
 | [[X-energy]] | Xe-100 design | DOE, Dow Chemical |
 
 ---
 
-## Uranium supply chain
+## [[Uranium]] supply chain
 
 If nuclear scales for AI, uranium demand increases:
 
 | Company | Role | Ticker |
 |---------|------|--------|
 | [[Cameco]] | Largest Western uranium miner | CCJ |
-| Kazatomprom | Largest global producer (Kazakhstan) | KAP |
+| [[Kazatomprom]] | Largest global producer (Kazakhstan) | KAP |
 | [[Centrus Energy]] | US enrichment, HALEU for SMRs | LEU |
 | [[Uranium Energy Corp]] | US mining | UEC |
 | [[Energy Fuels]] | US uranium + rare earth processing | UUUU |
 
-**HALEU bottleneck:** Advanced SMRs need High-Assay Low-Enriched Uranium. Only Centrus produces it in US. Russia was main supplier — now sanctioned.
+**HALEU bottleneck:** Advanced SMRs need High-Assay Low-Enriched [[Uranium]]. Only Centrus produces it in US. [[Russia]] was main supplier — now sanctioned.
 
 ---
 
@@ -91,9 +91,9 @@ If nuclear scales for AI, uranium demand increases:
 | Source | Pros | Cons |
 |--------|------|------|
 | **Nuclear** | Baseload, dense, carbon-free | Slow to build, capex heavy, regulatory |
-| **Natural gas** | Fast to build, dispatchable | Carbon, fuel price volatility |
+| **[[Natural gas]]** | Fast to build, dispatchable | Carbon, fuel price volatility |
 | **Solar/wind** | Cheap, scalable | Intermittent, needs storage |
-| **Batteries** | Pairs with renewables | Duration limits, cost |
+| **[[Batteries]]** | Pairs with renewables | Duration limits, cost |
 | **Geothermal** | Baseload, small footprint | Limited locations |
 
 **Hyperscaler calculus:** Nuclear for baseload + renewables for incremental + gas for backup.
@@ -125,7 +125,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 
 **Indirect beneficiaries:**
 - Hyperscalers with nuclear PPAs have power advantage
-- Data center REITs near nuclear plants
+- Data center [[REITs]] near nuclear plants
 
 ---
 
@@ -133,9 +133,9 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 
 - SMRs may not deliver on cost/timeline
 - Nuclear restarts face local opposition
-- Uranium supply constraints
+- [[Uranium]] supply constraints
 - Regulatory could tighten (accidents, politics)
-- Natural gas may remain cheaper near-term
+- [[Natural gas]] may remain cheaper near-term
 
 ---
 
@@ -146,7 +146,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 - [[AI hyperscalers]] — nuclear PPAs becoming competitive moat
 - All AI chip theses indirectly depend on power availability
 
-**New potential thesis:** Long nuclear as AI power enabler
+**New potential thesis:** [[Long nuclear]] as AI power enabler
 
 ---
 
@@ -160,7 +160,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 - [[Oklo]] — player (Sam Altman SMR bet)
 - [[NuScale]] — player (SMR peer)
 - [[Fermi]] — startup (11GW nuclear DC, Amarillo TX)
-- [[EDF]] — operator (French nuclear powering EU AI ambitions)
+- [[EDF]] — operator (French nuclear powering [[EU]] AI ambitions)
 - [[Cameco]] — upstream (uranium)
 - [[Energy Fuels]] — upstream (US uranium + REE)
 - [[Microsoft]] — customer (TMI deal)
@@ -182,7 +182,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 **Fusion players:**
 - [[Helion Energy]] — Altman-backed, Microsoft PPA, most credible
 - [[TAE Technologies]] — TMTG merger, hydrogen-boron
-- Commonwealth Fusion Systems — MIT spinout, tokamak
+- [[Commonwealth Fusion Systems]] — MIT spinout, tokamak
 - Helion — Altman invested, pulsed fusion
 
 **Bottom line:** Fusion is not a solution for AI power in the 2025-2030 window. It's a 2030s+ lottery ticket.

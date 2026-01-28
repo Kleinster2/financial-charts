@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #angel #usa #individual
 
-**Elad Gil** — Super angel / solo GP. Airbnb, Coinbase, Instacart, Scale AI investor. "High Growth Handbook" author.
+**Elad Gil** — Super angel / solo GP. [[Airbnb]], Coinbase, [[Instacart]], Scale AI investor. "High Growth Handbook" author.
 
 ---
 
@@ -22,9 +22,9 @@ aliases: []
 
 | Period | Role |
 |--------|------|
-| Google | Early employee (mobile) |
+| [[Google]] | Early employee (mobile) |
 | Twitter | VP Corporate Strategy |
-| Color Genomics | Co-founder, CEO |
+| Color [[Genomics]] | Co-founder, CEO |
 | Now | Full-time investor |
 
 ---
@@ -33,14 +33,14 @@ aliases: []
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Airbnb** | Angel | Public (ABNB) |
+| **[[Airbnb]]** | Angel | Public (ABNB) |
 | **[[Coinbase]]** | Early | Public (COIN) |
-| **Instacart** | Angel | Public (CART) |
-| **[[Scale AI]]** | Series F | Meta 49% ($29B) |
+| **[[Instacart]]** | Angel | Public (CART) |
+| **[[Scale AI]]** | Series F | [[Meta]] 49% ($29B) |
 | **[[Harvey]]** | Growth | $8B |
-| **Airtable** | Early | Private |
-| **Notion** | Early | Private |
-| **Figma** | Early | Adobe blocked |
+| **[[Airtable]]** | Early | Private |
+| **[[Notion]]** | Early | Private |
+| **[[Figma]]** | Early | [[Adobe]] blocked |
 | **[[Stripe]]** | Early | $129B |
 | **Square** | Early | Public (SQ) |
 
@@ -75,8 +75,8 @@ Standard reading for tech founders.
 |--------|-------|
 | Role | Angel / Solo GP |
 | Investments | 200+ |
-| Background | Google, Twitter |
-| Key exits | Airbnb, Coinbase, Instacart |
+| Background | [[Google]], Twitter |
+| Key exits | [[Airbnb]], Coinbase, [[Instacart]] |
 
 ---
 

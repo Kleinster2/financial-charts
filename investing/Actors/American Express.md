@@ -37,7 +37,7 @@
 
 | Segment | Focus |
 |---------|-------|
-| **U.S. Consumer Services (USCS)** | Platinum, Gold, consumer cards |
+| **U.S. [[Consumer]] Services (USCS)** | [[Platinum]], [[Gold]], consumer cards |
 | **Commercial Services (CS)** | Business cards, corporate programs |
 | **International Card Services (ICS)** | Global consumer/commercial |
 | **Global Merchant & Network Services (GMNS)** | Merchant relationships, acceptance |
@@ -78,7 +78,7 @@
 
 **Under CEO Stephen Squeri (since 2018):**
 
-- Doubled down on premium annual-fee products (Platinum, Gold, Centurion)
+- Doubled down on premium annual-fee products ([[Platinum]], [[Gold]], Centurion)
 - Shifted from cash back to **experiences** — 27,000 restaurants/venues, 30+ Centurion lounges
 - Majority of new acquisitions from **Millennials and Gen Z**
 - Premium cardholders spend ~$90,000/year (vs industry avg $8,000)
@@ -112,7 +112,7 @@ Amex wins on spend per card and premium segment; loses on volume and merchant ac
 | Metric | Value |
 |--------|-------|
 | Avg spend per Amex card | $20,000/year |
-| Avg spend per Platinum/Centurion | $90,000/year |
+| Avg spend per [[Platinum]]/Centurion | $90,000/year |
 | Merchant discount rate | Higher than V/MA |
 | International growth | +15% YoY (Q4 2024) |
 | T&E spending growth | +10% YoY |

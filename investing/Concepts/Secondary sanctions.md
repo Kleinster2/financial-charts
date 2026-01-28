@@ -2,16 +2,16 @@
 
 #concept #geopolitics #sanctions #risk
 
-**Secondary sanctions** — Penalties on third parties (non-US companies/countries) for doing business with sanctioned targets. Key US foreign policy tool. Two mechanisms: traditional (OFAC financial) and tariff-based (novel, Jan 2026).
+**Secondary sanctions** — Penalties on third parties (non-US companies/countries) for doing business with sanctioned targets. Key US foreign policy tool. Two mechanisms: traditional ([[OFAC]] financial) and tariff-based (novel, Jan 2026).
 
 ---
 
 ## How it works
 
 ```
-US sanctions Target Country
+US sanctions [[Target]] Country
          ↓
-Third-party country does business with Target
+Third-party country does business with [[Target]]
          ↓
 US punishes third party (secondary sanctions)
 ```
@@ -22,14 +22,14 @@ US punishes third party (secondary sanctions)
 
 ## Two mechanisms
 
-| | Traditional (OFAC) | Tariff-based (NEW) |
+| | Traditional ([[OFAC]]) | Tariff-based (NEW) |
 |--|-------------------|---------------------|
 | **Tool** | SDN list, block USD access | Import tariffs |
-| **Target** | Specific companies, individuals, vessels | Entire countries |
+| **[[Target]]** | Specific companies, individuals, vessels | Entire countries |
 | **Legal basis** | Established sanctions law | IEEPA (novel, challenged) |
 | **Enforcement** | Treasury, seizures | Customs |
 | **Precedent** | Decades of use | First use Jan 2026 |
-| **Example** | Russia (Rosneft, Lukoil) | Iran (25% tariff) |
+| **Example** | Russia ([[Rosneft]], Lukoil) | Iran (25% tariff) |
 
 ---
 
@@ -41,10 +41,10 @@ US punishes third party (secondary sanctions)
 |------|--------|
 | G7 price cap | $60/barrel on Russian oil |
 | Shadow fleet sanctions | ~600 vessels designated |
-| Secondary sanctions | Rosneft + Lukoil (Jan 2025) |
+| Secondary sanctions | [[Rosneft]] + Lukoil (Jan 2025) |
 | Coverage | ~50% of Russian oil production |
 
-**Mechanism:** Non-US entities doing business with Rosneft/Lukoil blocked from US financial system.
+**Mechanism:** Non-US entities doing business with [[Rosneft]]/Lukoil blocked from US financial system.
 
 **Effectiveness:** Leaky — 27% of Russian crude moves via shadow fleet, revenues only slightly reduced.
 
@@ -64,7 +64,7 @@ See [[Russia]] for details.
 |---------|---------------|------------------|
 | China | 90%+ of Iran oil, $9B+ trade | +25% (to 74%+ total) |
 | India | Major trading partner | +25% |
-| UAE | Trade hub | +25% |
+| UAE | [[Trade]] hub | +25% |
 | Turkey | Regional partner | +25% |
 
 See [[Iran]] for details.
@@ -75,11 +75,11 @@ See [[Iran]] for details.
 
 | Country | Russia exposure | Iran exposure | Risk level |
 |---------|-----------------|---------------|------------|
-| **China** | Oil buyer, tech supplier | 90% of oil trade | Very high |
+| **China** | [[Oil]] buyer, tech supplier | 90% of oil trade | Very high |
 | **India** | Discounted oil buyer | Trading partner | High |
-| **UAE** | Trade/finance hub | Trade hub | Medium |
+| **UAE** | [[Trade]]/finance hub | [[Trade]] hub | Medium |
 | **Turkey** | Energy, trade | Regional partner | Medium |
-| **EU** | Limited (compliant) | Limited | Low |
+| **[[EU]]** | Limited (compliant) | Limited | Low |
 
 ---
 
@@ -91,8 +91,8 @@ See [[Iran]] for details.
 |------|--------|
 | **Direct exposure** | Companies trading with sanctioned entities |
 | **Supply chain** | Unknowing use of sanctioned suppliers |
-| **Financial services** | Banks processing sanctioned transactions |
-| **Shipping/insurance** | Vessels, coverage for sanctioned cargo |
+| **Financial services** | [[Banks]] processing sanctioned transactions |
+| **[[Shipping]]/insurance** | Vessels, coverage for sanctioned cargo |
 
 ### Country-level risk
 
@@ -100,16 +100,16 @@ See [[Iran]] for details.
 |----------|--------|
 | China secondary sanctions | Major supply chain disruption |
 | India sanctions exposure | Pharma, IT services at risk |
-| UAE as hub | Trade finance chokepoint |
+| UAE as hub | [[Trade]] finance chokepoint |
 
 ### Sector exposure
 
 | Sector | Risk |
 |--------|------|
-| **Energy** | Oil traders, refiners with Russia/Iran exposure |
-| **Shipping** | Tanker companies, insurers |
+| **Energy** | [[Oil]] traders, refiners with Russia/Iran exposure |
+| **[[Shipping]]** | Tanker companies, insurers |
 | **Banking** | Correspondent banking, trade finance |
-| **Commodities** | Metals, agriculture from sanctioned sources |
+| **[[Commodities]]** | Metals, agriculture from sanctioned sources |
 | **Tech** | Components to sanctioned countries |
 
 ---
@@ -125,13 +125,13 @@ See [[Iran]] for details.
 | **Cryptocurrency** | Avoid traditional banking |
 | **Yuan/ruble settlement** | Bypass USD system |
 
-**Scale:** ~600 shadow fleet vessels sanctioned by EU, 27% of Russian crude moves through shadow channels.
+**Scale:** ~600 shadow fleet vessels sanctioned by [[EU]], 27% of Russian crude moves through shadow channels.
 
 ---
 
 ## Enforcement actions (2026)
 
-| Date | Action | Target |
+| Date | Action | [[Target]] |
 |------|--------|--------|
 | Jan 2 | Finland seized *Fitburg* | Russia shadow fleet |
 | Jan 7 | US Navy seized *Marinera* | Russia shadow fleet |
@@ -145,7 +145,7 @@ See [[Iran]] for details.
 |-------|--------|
 | IEEPA authority | Supreme Court challenge pending |
 | Tariff-based approach | Novel, untested |
-| Extraterritorial reach | Contested by EU, China |
+| Extraterritorial reach | Contested by [[EU]], China |
 
 **If IEEPA struck down:** Both China tariffs and Iran secondary tariffs at risk.
 
@@ -153,12 +153,12 @@ See [[Iran]] for details.
 
 ## Historical precedents
 
-| Target | Period | Outcome |
+| [[Target]] | Period | Outcome |
 |--------|--------|---------|
 | **Iran (pre-2015)** | 2010-2015 | Effective — forced nuclear deal |
 | **Iran (post-2018)** | 2018-present | Partial — China/India still buy oil |
 | **Russia** | 2022-present | Limited — shadow fleet evasion |
-| **Huawei** | 2019-present | Effective — cut off from US tech |
+| **[[Huawei]]** | 2019-present | Effective — cut off from US tech |
 | **North Korea** | Ongoing | Highly effective — isolated |
 
 ---
@@ -201,9 +201,9 @@ See [[Iran]] for details.
 
 ## Sources
 
-- [Treasury: Sanctions Against Russia's Oil Production](https://home.treasury.gov/news/press-releases/jy2777) (Jan 2025)
-- [EU Council: Shadow Fleet Sanctions](https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/russia-s-war-of-aggression-against-ukraine-council-sanctions-41-vessels-of-the-russian-shadow-fleet/)
-- [Chatham House: Tightening the Oil Price Cap](https://www.chathamhouse.org/2025/09/tightening-oil-price-cap-increase-pressure-russia/introduction)
+- [Treasury: Sanctions Against Russia's [[Oil]] Production](https://home.treasury.gov/news/press-releases/jy2777) (Jan 2025)
+- [[[EU]] Council: Shadow Fleet Sanctions](https://www.consilium.europa.eu/en/press/press-releases/2025/12/18/russia-s-war-of-aggression-against-ukraine-council-sanctions-41-vessels-of-the-russian-shadow-fleet/)
+- [Chatham House: Tightening the [[Oil]] Price Cap](https://www.chathamhouse.org/2025/09/tightening-oil-price-cap-increase-pressure-russia/introduction)
 - [CNN: Trump Iran Tariffs](https://www.cnn.com/2026/01/12/business/tariffs-trump-iran)
 
 *Created 2026-01-14*

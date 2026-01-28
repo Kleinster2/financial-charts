@@ -5,7 +5,7 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 
 # Itaú Unibanco
 
-**Largest bank in Latin America** — formed from Itaú + Unibanco merger (2008). **NYSE: ITUB**, B3: ITUB4. ~$80-86B market cap. R$2.1T assets. 55M customers globally. Competing with [[Nubank]] and fintechs on digital; partnering on embedded finance (Techfin JV with [[TOTVS]]).
+**Largest bank in Latin America** — formed from Itaú + Unibanco merger (2008). **NYSE: ITUB**, [[B3]]: ITUB4. ~$80-86B market cap. R$2.1T assets. 55M customers globally. Competing with [[Nubank]] and fintechs on digital; partnering on embedded finance (Techfin JV with [[TOTVS]]).
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ITUB (NYSE), ITUB4.SA (B3) |
+| Ticker | ITUB (NYSE), ITUB4.SA ([[B3]]) |
 | Founded | 1924 (as Banco Central de Crédito) |
 | HQ | São Paulo, Brazil |
 | Market cap | ~$80-86B |
@@ -68,7 +68,7 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 | Threat | Itaú response |
 |--------|---------------|
 | [[Nubank]] growth | Investing in digital UX, app improvements |
-| [[Pix]] adoption | Integrating AI + WhatsApp payments |
+| [[Pix]] adoption | Integrating AI + [[WhatsApp]] payments |
 | [[StoneCo]] B2B | Wholesale banking relationships |
 
 **Techfin JV with [[TOTVS]]** — embedded finance for SMBs using TOTVS software.
@@ -79,9 +79,9 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 
 | Region | Markets |
 |--------|---------|
-| **Americas** | Brazil, Chile, Colombia, Panama, Paraguay, US, Uruguay |
-| **Europe** | Luxembourg, Portugal, Switzerland, UK |
-| **Asia** | China, Hong Kong, Japan, UAE |
+| **Americas** | Brazil, [[Chile]], Colombia, Panama, Paraguay, US, Uruguay |
+| **[[Europe]]** | Luxembourg, Portugal, [[Switzerland]], [[UK]] |
+| **[[Asia]]** | [[China]], Hong Kong, [[Japan]], UAE |
 
 ---
 
@@ -91,13 +91,13 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 
 1. **LatAm banking proxy** — largest, most profitable bank in region.
 
-2. **Fintech competition** — [[Nubank]] taking share but Itaú has scale + relationships.
+2. **[[Fintech]] competition** — [[Nubank]] taking share but Itaú has scale + relationships.
 
 3. **Rate sensitivity** — benefits from high Selic (15%) on NIM.
 
 4. **Dividend yield** — historically strong payouts.
 
-5. **Digital transformation** — AI/WhatsApp payments, Techfin with [[TOTVS]].
+5. **Digital transformation** — AI/[[WhatsApp]] payments, Techfin with [[TOTVS]].
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [GD]
 ---
 #actor #defense #aerospace #usa #public
 
-**General Dynamics** — Defense prime. Submarines, tanks, Gulfstream jets. Less AI-focused than peers.
+**General Dynamics** — [[Defense]] prime. Submarines, tanks, Gulfstream jets. Less AI-focused than peers.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [GD]
 |---------|----------|
 | Marine Systems | Submarines (Virginia, Columbia class) |
 | Combat Systems | Tanks (Abrams), armored vehicles |
-| Aerospace | Gulfstream business jets |
+| [[Aerospace]] | Gulfstream business jets |
 | Technologies | IT services, C4ISR |
 
 ---
@@ -65,7 +65,7 @@ See [[Trump defense budget]] for full context.
 
 **Bull:**
 - Columbia-class is "no fail" program (#1 DoD priority)
-- Submarine demand (China threat)
+- Submarine demand ([[China]] threat)
 - Gulfstream business jet cycle
 - $90B+ backlog visibility
 

@@ -1,5 +1,5 @@
 ---
-aliases: [Hanwha Aerospace, Hanwha Defense, 012450.KS]
+aliases: [Hanwha [[Aerospace]], Hanwha Defense, 012450.KS]
 ---
 #actor #defense #korea #public
 
@@ -11,7 +11,7 @@ aliases: [Hanwha Aerospace, Hanwha Defense, 012450.KS]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | 012450.KS (Hanwha Aerospace) |
+| Ticker | 012450.KS (Hanwha [[Aerospace]]) |
 | Market cap | ~$15B |
 | Revenue | ~$8B |
 | Focus | Artillery, engines, space, shipbuilding |
@@ -41,7 +41,7 @@ Largest Korean defense export ever:
 |--------|----------|-------|
 | K9 howitzers | 672 | ~$5B |
 | K2 tanks | 180+ | Part of $15B+ package |
-| FA-50 jets | 48 | (Korea Aerospace) |
+| FA-50 jets | 48 | (Korea [[Aerospace]]) |
 
 Poland chose Korea over slow European/US deliveries.
 
@@ -52,7 +52,7 @@ Poland chose Korea over slow European/US deliveries.
 | Factor | Advantage |
 |--------|-----------|
 | Price | 20-40% cheaper than Western |
-| Delivery | Faster than US/EU |
+| Delivery | Faster than US/[[EU]] |
 | Tech transfer | Willing to localize |
 | Quality | Combat-proven systems |
 | No export controls | Not subject to US restrictions |
@@ -65,7 +65,7 @@ Poland chose Korea over slow European/US deliveries.
 |--------|--------|
 | European rearmament | Artillery demand surge |
 | Poland execution | Multi-year deliveries |
-| Australia potential | Redback IFV finalist |
+| [[Australia]] potential | Redback IFV finalist |
 | Middle East | Sales pipeline |
 | Domestic | North Korea threat |
 

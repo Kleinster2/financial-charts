@@ -74,7 +74,7 @@ SmartNews tried to differentiate by claiming to reduce political polarization in
 ## Japan IPO market context
 
 SmartNews IPO adds to Japan's strong 2025-2026 IPO pipeline:
-- JX Advanced Metals: ¥439B ($3B) — largest since SoftBank Corp
+- JX Advanced Metals: ¥439B ($3B) — largest since [[SoftBank]] Corp
 - SBI Shinsei Bank: relisting
 - Total Japan IPOs 2025 YTD: ¥551B (2x prior year)
 

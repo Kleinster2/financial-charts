@@ -77,10 +77,10 @@ aliases: [ADS, Adidas AG]
 
 | Region | Growth | Notes |
 |--------|--------|-------|
-| Europe | +18.9% | Strongest, home market |
-| Greater China | +10.3% | Recovery |
-| Japan/Korea | +10.1% | Strong |
-| Emerging markets | +19.4% | Excellent |
+| [[Europe]] | +18.9% | Strongest, home market |
+| Greater [[China]] | +10.3% | Recovery |
+| [[Japan]]/Korea | +10.1% | Strong |
+| [[Emerging markets]] | +19.4% | Excellent |
 | **North America** | **-1.6%** | Weakest (improving to double-digit growth by year-end) |
 
 ---
@@ -106,7 +106,7 @@ aliases: [ADS, Adidas AG]
 |--------|-------|
 | 2025 tariff cost | ~€120M (down from €200M initial estimate) |
 | 2026 expected | Higher |
-| Manufacturing | Vietnam, Indonesia, China |
+| Manufacturing | Vietnam, Indonesia, [[China]] |
 | Mitigation | Supply chain diversification |
 
 ---
@@ -119,7 +119,7 @@ aliases: [ADS, Adidas AG]
 - Operating margin trajectory → 10%+
 - Taking share from Nike globally
 - Gulden is a proven operator (ex-Puma CEO)
-- China recovering (+10%)
+- [[China]] recovering (+10%)
 
 **Bear:**
 - Retro sneaker cycle will fade (fashion risk)

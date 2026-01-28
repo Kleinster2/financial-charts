@@ -41,7 +41,7 @@ Paper: "Rules Rather Than Discretion: The Inconsistency of Optimal Plans" (with 
 |---------|-------------|
 | **Time inconsistency** | What's optimal today may not be optimal tomorrow |
 | **Credibility problem** | Rational actors anticipate future temptations |
-| **Inflation bias** | Central banks tempted to inflate after wages set |
+| **[[Inflation]] bias** | Central banks tempted to inflate after wages set |
 | **Solution** | Rules, independence, reputation |
 
 **Policy impact:** Directly influenced independent central banks, inflation targeting, and [[Fed independence]].

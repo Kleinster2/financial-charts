@@ -11,7 +11,7 @@ aliases: [ADBE]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ADBE (Nasdaq) |
+| Ticker | ADBE ([[Nasdaq]]) |
 | Revenue | **$23.77B** (FY25) |
 | ARR | **$25.2B** (+11.5% YoY) |
 | Market cap | ~$150B |
@@ -23,10 +23,10 @@ aliases: [ADBE]
 
 | Segment | FY25 Revenue | Growth |
 |---------|--------------|--------|
-| Digital Media | $17.65B | +11% |
+| Digital [[Media]] | $17.65B | +11% |
 | Digital Experience | $5.9B | +9% |
 
-**Digital Media:** Creative Cloud, Document Cloud
+**Digital [[Media]]:** Creative Cloud, Document Cloud
 **Digital Experience:** Marketing, analytics, commerce
 
 ---
@@ -71,14 +71,14 @@ aliases: [ADBE]
 
 ---
 
-## Capital allocation
+## [[Capital allocation]]
 
 | Action | FY25 |
 |--------|------|
 | Share buybacks | ~$12B |
 | Shares retired | >6% |
 | Dividend | None |
-| M&A | Figma deal failed |
+| M&A | [[Figma]] deal failed |
 
 ---
 
@@ -91,7 +91,7 @@ aliases: [ADBE]
 - Massive cash generation
 
 **Bear:**
-- Canva/Figma competition
+- [[Canva]]/[[Figma]] competition
 - AI disruption risk
 - Subscription fatigue
 - Growth slowing to 11%
@@ -103,7 +103,7 @@ aliases: [ADBE]
 | Metric | Value |
 |--------|-------|
 | Ticker | ADBE |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$24B |
 | Focus | Creative/Marketing cloud |
 

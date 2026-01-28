@@ -42,7 +42,7 @@
 | Driver | 35-40% |
 | Fuel | 25-30% |
 | Equipment | 15-20% |
-| Insurance | 5-10% |
+| [[Insurance]] | 5-10% |
 | Other | 10-15% |
 
 ### Autonomous trucking (at scale)
@@ -52,7 +52,7 @@
 | Driver | → $0 (eventually) |
 | Fuel | Lower (optimized driving) |
 | Equipment | Higher (sensors, compute) |
-| Insurance | TBD (likely lower) |
+| [[Insurance]] | TBD (likely lower) |
 | Utilization | 2x (no HOS limits) |
 
 **Unit economics**: 30-40% cost reduction possible at scale.
@@ -69,8 +69,8 @@
 | Market cap | ~$7B |
 | Status | **Commercial** (April 2024) |
 | Routes | Dallas-Houston corridor |
-| Partners | Toyota, PACCAR, Volvo, FedEx |
-| Founders | Ex-Google, Tesla, Uber AV leads |
+| Partners | [[Toyota]], PACCAR, Volvo, [[FedEx]] |
+| Founders | Ex-[[Google]], Tesla, [[Uber]] AV leads |
 
 See [[Aurora]] for details.
 
@@ -80,7 +80,7 @@ See [[Aurora]] for details.
 - OEM partnerships for vehicles
 - Logistics partnerships for customers
 
-### Kodiak Robotics
+### Kodiak [[Robotics]]
 
 | Metric | Value |
 |--------|-------|
@@ -91,7 +91,7 @@ See [[Aurora]] for details.
 
 Smaller, still pre-commercial.
 
-### Torc Robotics (Daimler)
+### Torc [[Robotics]] (Daimler)
 
 | Metric | Value |
 |--------|-------|
@@ -107,7 +107,7 @@ OEM-backed but behind Aurora.
 | Metric | Value |
 |--------|-------|
 | Focus | Middle-mile (B2B short-haul) |
-| Customers | Walmart, Loblaw |
+| Customers | [[Walmart]], Loblaw |
 | Routes | Fixed, repeatable |
 | Status | Commercial (limited) |
 
@@ -119,10 +119,10 @@ Different segment — short urban routes, not long-haul.
 
 | Company | What happened | Lesson |
 |---------|---------------|--------|
-| **TuSimple** | China ties, governance chaos, delisted | Geopolitical risk matters |
+| **TuSimple** | [[China]] ties, governance chaos, delisted | Geopolitical risk matters |
 | **Embark** | Ran out of money | Capital intensity |
 | **Plus** | Pivoted to ADAS | L4 trucking is hard |
-| **Ike Robotics** | Acquired by Nuro | Consolidation |
+| **Ike [[Robotics]]** | Acquired by Nuro | Consolidation |
 
 **Pattern**: Most AV trucking startups failed. Aurora is the survivor.
 
@@ -181,7 +181,7 @@ Aurora calls this "terminals" at highway junctions.
 | PACCAR | Aurora | Peterbilt/Kenworth trucks |
 | Volvo | Aurora | Volvo trucks |
 | Daimler | Torc (owned) | Freightliner |
-| Toyota | Aurora | Investment + vehicles |
+| [[Toyota]] | Aurora | Investment + vehicles |
 
 **Key insight**: Aurora doesn't build trucks — partners do. Asset-light model.
 
@@ -191,8 +191,8 @@ Aurora calls this "terminals" at highway junctions.
 
 | Customer | Relationship |
 |----------|--------------|
-| FedEx | Pilot partner |
-| Uber Freight | Logistics platform |
+| [[FedEx]] | Pilot partner |
+| [[Uber]] Freight | Logistics platform |
 | Werner | Carrier partner |
 | Schneider | Carrier partner |
 
@@ -241,7 +241,7 @@ Freight customers are rational B2B buyers — if economics work, they'll adopt.
 |----------|---------|
 | **Direct** | Aurora (AUR) — only pure play |
 | **OEM exposure** | PACCAR (PCAR), Volvo |
-| **Logistics platforms** | Uber (UBER) via Uber Freight |
+| **Logistics platforms** | [[Uber]] (UBER) via [[Uber]] Freight |
 
 ---
 

@@ -45,7 +45,7 @@ Gave BlackRock major private credit capabilities.
 ## Private credit boom
 
 **Structural shift:**
-- Banks retreating from lending (regulation)
+- [[Banks]] retreating from lending (regulation)
 - Private credit filling gap
 - Higher yields than public markets
 - BlackRock wants exposure
@@ -57,7 +57,7 @@ HPS = top-tier private credit platform.
 ## Integration
 
 **Part of BlackRock's pivot:**
-- Private markets now strategic priority
+- [[Private markets]] now strategic priority
 - Targeting wealthy retail, 401(k)s
 - Q4 2024: $15.6B private/alternatives inflows
 

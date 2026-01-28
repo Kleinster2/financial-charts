@@ -27,12 +27,12 @@ With swap line:
 
 | | Fed USD network | PBOC yuan network |
 |--|-----------------|-------------------|
-| **Purpose** | Crisis liquidity | Trade + de-dollarization |
+| **Purpose** | Crisis liquidity | [[Trade]] + de-dollarization |
 | **Size** | Unlimited (Big 5), ~$450B others | ~¥4.5T (~$630B) |
 | **Active agreements** | 14 central banks | 32 central banks |
 | **Usage** | Crisis-driven spikes | Low utilization |
 | **Collateral** | Partner's currency | Partner's currency |
-| **Political lens** | Allied democracies | Emerging markets, sanctioned states |
+| **Political lens** | Allied democracies | [[Emerging markets]], sanctioned states |
 
 ---
 
@@ -42,9 +42,9 @@ With swap line:
 
 | Central bank | Status |
 |--------------|--------|
-| Bank of Canada | Unlimited |
+| Bank of [[Canada]] | Unlimited |
 | Bank of England | Unlimited |
-| Bank of Japan | Unlimited |
+| Bank of [[Japan]] | Unlimited |
 | European Central Bank | Unlimited |
 | Swiss National Bank | Unlimited |
 
@@ -53,7 +53,7 @@ With swap line:
 ### Temporary/other lines
 
 Fed has extended temporary lines during crises to:
-- Australia, Brazil, Denmark, Korea, Mexico, New Zealand, Norway, Singapore, Sweden
+- [[Australia]], [[Brazil]], Denmark, Korea, [[Mexico]], New Zealand, Norway, Singapore, Sweden
 
 ### Usage pattern
 
@@ -61,7 +61,7 @@ Fed has extended temporary lines during crises to:
 |--------|-------|
 | Normal times | Near zero |
 | 2008 GFC | $580B peak (ECB largest user) |
-| 2011 Euro crisis | $100B+ |
+| 2011 [[Euro]] crisis | $100B+ |
 | 2020 COVID | $450B peak (BoJ largest user) |
 | 2023-2025 | Minimal |
 
@@ -94,9 +94,9 @@ Growing concern among foreign central bankers: Will post-Powell Fed maintain swa
 |---------|------|------|
 | ECB | ¥350B ($50B) | Renewed Sep 2025 |
 | South Korea | ¥400B ($56B) | Renewed Nov 2025 |
-| UK (BoE) | ¥350B | Active |
+| [[UK]] (BoE) | ¥350B | Active |
 | Hong Kong | ¥800B | Largest |
-| Switzerland | ¥150B | Renewed Sep 2025 |
+| [[Switzerland]] | ¥150B | Renewed Sep 2025 |
 | Hungary | ¥40B | Sep 2025 |
 | Argentina | ¥130B | Activated 2023 |
 | Saudi Arabia | — | 2024, size undisclosed |
@@ -105,11 +105,11 @@ Growing concern among foreign central bankers: Will post-Powell Fed maintain swa
 
 | Region | Countries |
 |--------|-----------|
-| Asia | Korea, Japan, Hong Kong, Singapore, Thailand, Malaysia, Indonesia, Pakistan |
-| Europe | ECB, UK, Switzerland, Hungary, Russia |
+| [[Asia]] | Korea, [[Japan]], Hong Kong, Singapore, Thailand, Malaysia, Indonesia, Pakistan |
+| [[Europe]] | ECB, [[UK]], [[Switzerland]], Hungary, Russia |
 | Middle East | UAE, Saudi Arabia, Turkey, Egypt |
-| Americas | Argentina, Brazil, Canada |
-| Africa | South Africa, Nigeria |
+| Americas | Argentina, [[Brazil]], [[Canada]] |
+| [[Africa]] | South [[Africa]], [[Nigeria]] |
 
 ### Low utilization problem
 
@@ -195,9 +195,9 @@ Argentina drew heavily on PBOC swap during 2023 crisis — used yuan to pay IMF 
 
 UAE using dirham swaps to build regional influence with distressed economies.
 
-### India — rupee internationalization
+### [[India]] — rupee internationalization
 
-India pushing rupee settlement with Russia, UAE, others. Limited progress.
+[[India]] pushing rupee settlement with Russia, UAE, others. Limited progress.
 
 ---
 
@@ -205,7 +205,7 @@ India pushing rupee settlement with Russia, UAE, others. Limited progress.
 
 ### What swap activity signals
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | Fed swap usage spikes | Global dollar shortage, risk-off |
 | PBOC swap activations | Partner in distress or de-dollarizing |
@@ -255,7 +255,7 @@ India pushing rupee settlement with Russia, UAE, others. Limited progress.
 
 - [PBOC Bilateral Swap Agreements](http://camlmac.pbc.gov.cn/en/3688241/3688636/3688657/5793816/index.html)
 - [CFR Central Bank Swaps Tracker](https://www.cfr.org/tracker/central-bank-currency-swaps-tracker)
-- [Federal Reserve Swap Lines](https://www.federalreserve.gov/monetarypolicy/central-bank-liquidity-swaps.htm)
+- [[[Federal Reserve]] Swap Lines](https://www.federalreserve.gov/monetarypolicy/central-bank-liquidity-swaps.htm)
 - [Atlantic Council: Internationalization of the Renminbi](https://www.atlanticcouncil.org/blogs/econographics/internationalization-of-the-renmibi-via-bilateral-swap-lines/)
 
 ---

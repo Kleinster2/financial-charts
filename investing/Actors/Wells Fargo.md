@@ -3,7 +3,7 @@ aliases: [WFC]
 ---
 #actor #finance #bank #usa #public
 
-**Wells Fargo** — Fourth-largest US bank. Consumer focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
+**Wells Fargo** — Fourth-largest US bank. [[Consumer]] focus. Asset cap removed June 2025 — major catalyst realized. Q4 2025 revenue miss but adjusted EPS beat.
 
 | Metric | Value |
 |--------|-------|
@@ -22,7 +22,7 @@ aliases: [WFC]
 | Ticker | WFC |
 | Price | ~$89 |
 | Assets | ~$2.0T |
-| CEO | Charlie Scharf |
+| CEO | [[Charlie Scharf]] |
 
 ---
 
@@ -69,7 +69,7 @@ aliases: [WFC]
 
 | Segment | Description |
 |---------|-------------|
-| Consumer Banking | Branches, deposits, cards |
+| [[Consumer]] Banking | Branches, deposits, cards |
 | Commercial Banking | Middle market, commercial RE |
 | Corporate & Investment | Large corporate, IB |
 | Wealth & Investment | Advisory, brokerage |
@@ -84,7 +84,7 @@ aliases: [WFC]
 - Fed asset cap (still in place)
 - Multi-year remediation
 
-**Charlie Scharf (CEO since 2019):**
+**[[Charlie Scharf]] (CEO since 2019):**
 - Efficiency improvements
 - Risk management overhaul
 - Expense reduction
@@ -139,9 +139,59 @@ aliases: [WFC]
 
 **Stock reaction:** -4.8% to $89 (revenue miss weighed on sentiment).
 
-**CEO Charlie Scharf:** "We have built a strong foundation and have made great progress in improving growth and returns, though we have operated with significant constraints."
+**CEO [[Charlie Scharf]]:** "We have built a strong foundation and have made great progress in improving growth and returns, though we have operated with significant constraints."
 
 **Context:** First full year freed from Fed asset cap — struggled to shift conversation away from expense jump (severance).
+
+---
+
+## AI strategy (2025-2026)
+
+**Most aggressive AI-for-efficiency push among US big 4 banks.**
+
+### Headcount transformation
+
+| Date | Employees | Change |
+|------|-----------|--------|
+| 2019 (Scharf joins) | 275,000 | — |
+| Sept 2025 | 210,000 | **-65,000 (-24%)** |
+| 2026+ | Further cuts expected | "Less people next year" |
+
+**Now smallest of big 4 by headcount** — down from largest five years ago.
+
+### Key hire: Faraz Shafiq (Jan 2026)
+
+| Detail | Value |
+|--------|-------|
+| Previous | [[Amazon Web Services\|AWS]] |
+| Start date | Feb 9, 2026 |
+| Reports to | [[Saul Van Beurden]] (head of AI + consumer) |
+| Focus | Companywide AI needs, [[agentic AI]], product consolidation |
+
+**Why regulated industry experience matters:** "If you never work for a regulated company, it's really a cold shower to come to a bank. It will not be a cold shower because he understands what it means to be regulated." — Van Beurden
+
+Previous: telecom, health-tech (both highly regulated).
+
+### Scharf on AI (Dec 2025)
+
+- "AI is extremely significant, both in terms of the efficiencies it can drive and what it is going to potentially do to headcount"
+- "Gen AI tools within our engineering workforce were 30% to 35% more efficient in writing code today"
+- "We've not reduced coders, but getting a lot more done — that's real efficiency"
+- Bank "not yet as efficient as it would be with AI"
+- AI described as "positive reality"
+
+### 2026 plan
+
+- Gradual AI rollout through 2026+
+- More AI training for employees
+- Goal: offload mundane tasks, expand business without hiring
+- If jobs "completely go away through AI," train workforce with AI skills for redeployment
+
+### Q4 2025 signal
+
+$612M severance charges — efficiency push continuing even post-asset-cap removal.
+
+See [[AI in banking]] for industry context.
 
 ---
 
@@ -150,6 +200,7 @@ aliases: [WFC]
 **Bull:**
 - Asset cap removed (June 2025) — catalyst realized
 - Efficiency gains continuing (severance = more cuts coming)
+- AI-driven productivity upside (30-35% coding efficiency already)
 - Rate sensitivity
 - Now can grow assets above $2T
 
@@ -159,6 +210,7 @@ aliases: [WFC]
 - Mortgage business weak
 - [[Credit card rate cap]] risk
 - Competition in core markets
+- Heavy restructuring may distract from growth
 
 ---
 
@@ -170,7 +222,7 @@ aliases: [WFC]
 | Price | ~$89 |
 | Market cap | ~$200B |
 | Assets | ~$2.0T |
-| CEO | Charlie Scharf |
+| CEO | [[Charlie Scharf]] |
 | Q4 2025 | Revenue miss |
 
 ---
@@ -190,13 +242,24 @@ aliases: [WFC]
 ## Related
 
 ### Peers
-- [[JPMorgan Chase]] — #1 US bank
-- [[Bank of America]] — #2 US bank
-- [[Citigroup]] — peer
+- [[JPMorgan Chase]] — #1 US bank, "AI arms race" leader
+- [[Bank of America]] — #2 US bank, customer-facing AI (Erica)
+- [[Citigroup]] — restructuring + AI
+
+### AI Strategy
+- [[AI in banking]] — industry context, Singapore vs US approaches
+- [[Agentic AI]] — next phase after generative AI
+- [[Amazon Web Services]] — Shafiq's previous employer
+
+### People
+- [[Charlie Scharf]] — CEO since 2019, efficiency architect
+- [[Saul Van Beurden]] — head of AI + consumer (Shafiq's boss)
 
 ### Risks
 - [[Credit card rate cap]] — Trump 10% proposal (Jan 2026)
 
 ### Sources
 - [CNBC: Wells Fargo Q4 Results Disappoint](https://www.tipranks.com/news/wfc-earnings-wells-fargo-stock-slips-as-q4-results-disappoint-investors)
+- [Reuters: Wells Fargo expects more job cuts (Dec 2025)](https://www.reuters.com/business/finance/wells-fargo-sees-more-job-cuts-going-into-2026-2025-12-09/)
+- [Bloomberg: Wells Fargo hires AWS's Shafiq for AI (Jan 2026)](https://www.bloomberg.com/news/articles/2026-01-28/wells-fargo-hires-aws-faraz-shafiq-ai)
 

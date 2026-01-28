@@ -3,7 +3,7 @@ aliases: [E]
 ---
 #actor #energy #oil #italy #public
 
-**Eni** — Italian oil major. Strong Africa/Mediterranean position. Plenitude renewables spinoff. Versalis chemicals.
+**Eni** — Italian oil major. Strong [[Africa]]/Mediterranean position. Plenitude renewables spinoff. Versalis chemicals.
 
 ---
 
@@ -22,8 +22,8 @@ aliases: [E]
 
 | Segment | Focus |
 |---------|-------|
-| Exploration & Production | Africa, Mediterranean, Americas |
-| Global Gas & LNG | Trading, Mozambique |
+| Exploration & Production | [[Africa]], Mediterranean, Americas |
+| Global Gas & [[LNG]] | Trading, Mozambique |
 | Plenitude | Renewables, retail |
 | Versalis | Chemicals |
 
@@ -31,13 +31,13 @@ aliases: [E]
 
 ## Geographic strengths
 
-**Africa/Mediterranean focus:**
+**[[Africa]]/Mediterranean focus:**
 | Region | Assets |
 |--------|--------|
 | Libya | Major producer |
 | Egypt | Zohr giant field |
 | Algeria | Long-term partner |
-| Mozambique | Area 4 LNG |
+| Mozambique | Area 4 [[LNG]] |
 | Congo | Recent discoveries |
 
 Political risk but relationship depth.
@@ -69,13 +69,13 @@ Cleaner exposure vehicle than parent.
 ## Investment case
 
 **Bull:**
-- Africa gas optionality
+- [[Africa]] gas optionality
 - Plenitude value unlock
 - Exploration track record
 - Cheap valuation
 
 **Bear:**
-- Libya/Africa political risk
+- Libya/[[Africa]] political risk
 - Mozambique delays
 - Italian government influence
 - Smaller scale vs peers
@@ -97,7 +97,7 @@ Cleaner exposure vehicle than parent.
 
 ## Related
 
-- [[TotalEnergies]] — peer (Africa exposure)
-- [[Shell]] — peer (LNG competitor)
+- [[TotalEnergies]] — peer ([[Africa]] exposure)
+- [[Shell]] — peer ([[LNG]] competitor)
 - [[BP]] — peer (European major)
 - [[Equinor]] — peer (European, state-owned)
