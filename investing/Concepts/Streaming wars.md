@@ -13,10 +13,10 @@ The competitive battle between streaming services for subscribers, content, and 
 | [[Netflix]] | 280M+ | Netflix | Profitable leader |
 | Disney+ bundle | 150M+ | [[Disney]] | Profitable |
 | Max | 117M | [[Warner Bros Discovery]] | Profitable, sale talks |
-| Prime Video | 200M+ | Amazon | Bundled with Prime |
+| Prime Video | 200M+ | [[Amazon]] | Bundled with Prime |
 | Paramount+ | 72M | [[Paramount Global]] | Merger pending |
 | Peacock | 36M paid | [[Comcast]] | Losses narrowing |
-| Apple TV+ | ~25M | Apple | Quality over scale |
+| [[Apple]] TV+ | ~25M | [[Apple]] | Quality over scale |
 
 ---
 
@@ -51,9 +51,9 @@ The competitive battle between streaming services for subscribers, content, and 
 |---------|--------------|
 | Netflix | $17B+ |
 | Disney | $15B+ |
-| Amazon | $12B+ |
+| [[Amazon]] | $12B+ |
 | Warner Bros Discovery | $10B+ |
-| Apple | $5B+ |
+| [[Apple]] | $5B+ |
 
 **Trend:** Spending moderating after 2022 peak.
 
@@ -90,7 +90,7 @@ The competitive battle between streaming services for subscribers, content, and 
 | Paramount + Skydance | Pending |
 | WBD sale/split | Exploring |
 | Peacock + ? | Speculation |
-| Apple acquisition | Perennial rumor |
+| [[Apple]] acquisition | Perennial rumor |
 
 **Logic:** Scale needed, too many services.
 
@@ -102,7 +102,7 @@ The competitive battle between streaming services for subscribers, content, and 
 |--------|------------|
 | Disney bundle | Disney+, Hulu, ESPN+ |
 | Max + Discovery+ | Combined |
-| Verizon +play | Multiple services |
+| [[Verizon]] +play | Multiple services |
 | Charter Spectrum | Streaming add-ons |
 
 **Irony:** Recreating cable bundle via streaming.
@@ -129,7 +129,7 @@ The competitive battle between streaming services for subscribers, content, and 
 | **Disney** | IP moat, profitable now |
 | **WBD** | Turnaround/takeout play |
 | **Paramount** | Merger premium |
-| **Roku** | Platform beneficiary |
+| **[[Roku]]** | Platform beneficiary |
 
 ---
 

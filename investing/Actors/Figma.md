@@ -40,7 +40,7 @@ Browser-based, collaborative.
 |------|-------|
 | Sept 2022 | Adobe announces $20B acquisition |
 | Dec 2023 | Deal terminated |
-| Reason | EU/UK regulatory concerns |
+| Reason | [[EU]]/[[UK]] regulatory concerns |
 | Termination fee | Adobe paid $1B to Figma |
 
 Largest software deal ever blocked.
@@ -53,7 +53,7 @@ Largest software deal ever blocked.
 |------|-------------|
 | Collaboration | Real-time multiplayer |
 | Browser-based | No download needed |
-| Network effects | Designers share files |
+| [[Network effects]] | Designers share files |
 | Free tier | Students, individuals |
 
 Beat Adobe at its own game.

@@ -21,7 +21,7 @@ aliases: [ONON, On Holding, On]
 | EBITDA margin | ~16% |
 | Co-founders | David Allemann, Caspar Coppetti, Olivier Bernhard |
 | Roger Federer | Co-owner, brand ambassador |
-| HQ | Zurich, Switzerland |
+| HQ | Zurich, [[Switzerland]] |
 
 ---
 
@@ -56,10 +56,10 @@ aliases: [ONON, On Holding, On]
 | Region | % Revenue | Growth (2024) |
 |--------|-----------|---------------|
 | North America | ~55% | +29% |
-| Europe | ~30% | +28% |
-| Asia Pacific | ~15% | +35% |
+| [[Europe]] | ~30% | +28% |
+| [[Asia]] Pacific | ~15% | +35% |
 
-**North America is the largest market** but Asia growing fastest off a small base.
+**North America is the largest market** but [[Asia]] growing fastest off a small base.
 
 ---
 
@@ -94,7 +94,7 @@ On and Hoka are the two growth stories taking share from Nike in performance run
 - ~60% gross margin (premium positioning)
 - Federer partnership = brand credibility
 - Nike's weakness creates structural opportunity
-- Asia/apparel = large addressable expansion
+- [[Asia]]/apparel = large addressable expansion
 - DTC shift driving margin improvement
 
 **Bear:**
@@ -103,7 +103,7 @@ On and Hoka are the two growth stories taking share from Nike in performance run
 - Almost entirely shoes (no diversification)
 - Running shoe cycles are fickle (Hoka also surged then cooled)
 - Nike turnaround under Elliott Hill could compress share
-- Swiss franc headwinds for non-CHF revenue
+- [[Swiss franc]] headwinds for non-CHF revenue
 - No proven cultural/lifestyle crossover yet (running-only)
 
 ---

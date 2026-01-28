@@ -22,7 +22,7 @@ aliases: [KMI]
 
 | Asset Type | Scale |
 |------------|-------|
-| Natural gas pipelines | ~70,000 miles |
+| [[Natural gas]] pipelines | ~70,000 miles |
 | Gas storage | ~700 Bcf capacity |
 | Terminals | 140+ |
 | CO2 | Largest transporter |
@@ -72,7 +72,7 @@ Data centers need reliable power → gas plants need pipelines.
 **Fee-based, low commodity exposure:**
 - ~90% take-or-pay or fee-based
 - Minimal direct commodity price risk
-- Inflation escalators in contracts
+- [[Inflation]] escalators in contracts
 - Regulated return pipelines
 
 ---
@@ -84,7 +84,7 @@ Data centers need reliable power → gas plants need pipelines.
 - Fee-based stability
 - 6%+ dividend yield
 - Permian growth
-- LNG export tailwind
+- [[LNG]] export tailwind
 
 **Bear:**
 - Limited growth capex

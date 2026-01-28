@@ -75,7 +75,7 @@ aliases: [LGES, 373220.KS]
 - LFP battery plant
 - Energy storage systems (ESS)
 - Production start: 2026
-- Focus: Grid storage, lower-cost EVs
+- Focus: [[Grid storage]], lower-cost EVs
 
 ---
 

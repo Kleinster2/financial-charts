@@ -45,7 +45,7 @@ Wealthy small state, big ambitions:
 | Investment | Sector |
 |------------|--------|
 | Various VC stakes | Global tech |
-| Ooredoo | Telecom (state-owned) |
+| Ooredoo | [[Telecom]] (state-owned) |
 | Data centers | Local buildout |
 
 ---
@@ -55,7 +55,7 @@ Wealthy small state, big ambitions:
 **State telecom:**
 - Qatar's main telecom
 - Regional presence (10+ countries)
-- 5G rollout
+- [[5G]] rollout
 - Enterprise services
 
 ---
@@ -63,7 +63,7 @@ Wealthy small state, big ambitions:
 ## Data center buildout
 
 **Infrastructure:**
-- Microsoft Qatar region
+- [[Microsoft]] Qatar region
 - Local DC development
 - Cloud landing zone
 - Regional hub ambitions
@@ -76,7 +76,7 @@ Wealthy small state, big ambitions:
 |--------|-------|-------|-----|
 | SWF size | $500B | $930B | $1.5T+ (all funds) |
 | AI strategy | Developing | Aggressive | Advanced |
-| Population | 3M | 35M | 10M |
+| Population | [[3M]] | 35M | 10M |
 | Focus | Research, finance | Mega-projects | Execution |
 
 Smaller but wealthier per capita.
@@ -88,7 +88,7 @@ Smaller but wealthier per capita.
 | Metric | Value |
 |--------|-------|
 | QIA AUM | $500B+ |
-| Telecom | Ooredoo |
+| [[Telecom]] | Ooredoo |
 | Research | QCRI |
 | Focus | Arabic AI, finance |
 
@@ -98,8 +98,8 @@ Smaller but wealthier per capita.
 
 ## Related
 
-- [[Saudi Arabia Tech]] — GCC peer (larger, more aggressive)
-- [[UAE G42]] — GCC peer (more advanced AI)
+- [[Saudi Arabia Tech]] — [[GCC]] peer (larger, more aggressive)
+- [[UAE G42]] — [[GCC]] peer (more advanced AI)
 - [[Sovereign AI race]] — context (QIA tech investments)
 - [[GCC tech race]] — regional context
 

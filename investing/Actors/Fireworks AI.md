@@ -9,7 +9,7 @@ aliases: []
 
 ## Why Fireworks matters
 
-**The PyTorch pedigree matters.** Founded by Meta's PyTorch team — the people who built the framework most AI models train on. They understand GPU optimization at the kernel level, which translates to inference speed and cost advantages.
+**The PyTorch pedigree matters.** Founded by [[Meta]]'s PyTorch team — the people who built the framework most AI models train on. They understand GPU optimization at the kernel level, which translates to inference speed and cost advantages.
 
 | Metric | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ aliases: []
 | Total raised | **$327M** |
 | Founded | 2022 |
 | HQ | — |
-| CEO | Lin Qiao (ex-Meta/PyTorch) |
+| CEO | Lin Qiao (ex-[[Meta]]/PyTorch) |
 | Tokens/day | **10T+** |
 | Customers | **10,000+** |
 | Profitability | Reportedly profitable |
@@ -43,11 +43,11 @@ aliases: []
 
 | Customer | Use case |
 |----------|----------|
-| Uber | Production AI applications |
-| Shopify | AI-powered commerce |
-| Cursor | Code generation inference |
-| DoorDash | AI features |
-| GitLab | AI dev tools |
+| [[Uber]] | Production AI applications |
+| [[Shopify]] | AI-powered commerce |
+| [[Cursor]] | Code generation inference |
+| [[DoorDash]] | AI features |
+| [[GitLab]] | AI dev tools |
 | Genspark | AI search |
 | Retell AI | Voice AI |
 
@@ -59,11 +59,11 @@ aliases: []
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Lin Qiao** | CEO | IBM → LinkedIn → Meta (PyTorch team) |
-| Dmytro Dzhulgakov | Co-founder | Meta/PyTorch (Ukrainian) |
-| Dmytro Ivchenko | Co-founder | Meta/PyTorch (Ukrainian) |
+| **Lin Qiao** | CEO | [[IBM]] → LinkedIn → [[Meta]] (PyTorch team) |
+| Dmytro Dzhulgakov | Co-founder | [[Meta]]/PyTorch (Ukrainian) |
+| Dmytro Ivchenko | Co-founder | [[Meta]]/PyTorch (Ukrainian) |
 
-The team experienced the CPU→GPU shift firsthand at Meta, then built Fireworks to solve inference at scale.
+The team experienced the CPU→GPU shift firsthand at [[Meta]], then built Fireworks to solve inference at scale.
 
 ---
 
@@ -73,22 +73,22 @@ The team experienced the CPU→GPU shift firsthand at Meta, then built Fireworks
 |-------|------|--------|-----------|------|
 | Series C | **Oct 2025** | **$250M** | **$4B** | Lightspeed, Index, Evantic |
 | Series B | Jul 2024 | $52M | ~$552M | Sequoia |
-| Series A | — | ~$25M | — | Benchmark |
+| Series A | — | ~$25M | — | [[Benchmark]] |
 | **Total** | | **$327M** | | |
 
 **Key investors:**
 
 | Investor | Notes |
 |----------|-------|
-| Sequoia Capital | Series B lead, continued in C |
-| Lightspeed Venture Partners | Series C co-lead |
-| Index Ventures | Series C co-lead |
+| [[Sequoia Capital]] | Series B lead, continued in C |
+| [[Lightspeed Venture Partners]] | Series C co-lead |
+| [[Index Ventures]] | Series C co-lead |
 | Evantic | Series C co-lead |
-| Benchmark | Early investor |
+| [[Benchmark]] | Early investor |
 | [[NVIDIA]] | Series B participant |
 | [[AMD]] | Series B participant |
-| Databricks Ventures | Series B participant |
-| MongoDB Ventures | Series B participant |
+| [[Databricks Ventures]] | Series B participant |
+| [[MongoDB]] Ventures | Series B participant |
 
 Both NVIDIA and AMD investing in the same inference startup — rare alignment.
 
@@ -115,7 +115,7 @@ Both NVIDIA and AMD investing in the same inference startup — rare alignment.
 |---------|-----------|----------|---------|
 | **Fireworks AI** | **$4B** | Serverless inference cloud | $280M ARR |
 | [[Baseten]] | $5B (Jan 2026) | Model deployment platform | — |
-| Together AI | ~$3B | Training + inference | — |
+| [[Together AI]] | ~$3B | Training + inference | — |
 | [[Cerebras]] | $22B (Jan 2026) | Custom inference chips | $136M (2023) |
 | [[Groq]] | NVIDIA-partnered | LPU inference chips | — |
 
@@ -131,14 +131,14 @@ Both NVIDIA and AMD investing in the same inference startup — rare alignment.
 - Both NVIDIA and AMD invested — hardware-agnostic positioning
 - 10T tokens/day proves production scale
 - Inference TAM growing faster than training
-- Enterprise customers (Uber, Shopify) = sticky revenue
+- Enterprise customers ([[Uber]], [[Shopify]]) = sticky revenue
 
 **Bear:**
-- Hyperscaler inference offerings (AWS Bedrock, Azure AI, GCP Vertex) competing
+- Hyperscaler inference offerings (AWS Bedrock, Azure AI, GCP [[Vertex]]) competing
 - Custom silicon (Cerebras, Groq) could undercut GPU-based inference on cost
 - Developer-facing → vulnerable to platform shifts
 - $4B valuation requires sustained hypergrowth
-- Cursor also uses [[Baseten]] — customers multi-source inference
+- [[Cursor]] also uses [[Baseten]] — customers multi-source inference
 
 ---
 

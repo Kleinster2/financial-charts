@@ -3,7 +3,7 @@ aliases: [Mithril]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Mithril Capital** — Peter Thiel + Ajay Royan fund. Helion Energy, Palantir-style investments. ~$1B AUM.
+**Mithril Capital** — Peter Thiel + Ajay Royan fund. Helion Energy, [[Palantir]]-style investments. ~$1B AUM.
 
 ---
 
@@ -36,8 +36,8 @@ Mithril = Thiel's growth-stage vehicle (vs Founders Fund early stage).
 | Company | Stage | Status |
 |---------|-------|--------|
 | **[[Helion Energy]]** | Early | $5.4B (fusion) |
-| **8VC portfolio** | Various | Overlap |
-| **SpaceX** | Growth | $350B |
+| **[[8VC]] portfolio** | Various | Overlap |
+| **[[SpaceX]]** | Growth | $350B |
 | Transformative tech | — | Focus |
 
 ---

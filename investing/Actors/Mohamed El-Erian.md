@@ -24,7 +24,7 @@ aliases: [El-Erian]
 | Period | Role |
 |--------|------|
 | 1983-1998 | IMF — rose to Deputy Director (15 years) |
-| 1998-1999 | Salomon Smith Barney / Citigroup |
+| 1998-1999 | Salomon Smith Barney / [[Citigroup]] |
 | 1999-2006 | PIMCO — head of emerging markets |
 | 2006-2007 | Harvard Management Company — CEO |
 | 2007-2014 | PIMCO — CEO and co-CIO (with Bill Gross) |
@@ -43,7 +43,7 @@ aliases: [El-Erian]
 | Exit | Jan 2014 — conflict with Gross |
 
 **Notable calls:**
-- Avoided Argentina 2001 default (made his reputation)
+- Avoided [[Argentina]] 2001 default (made his reputation)
 - "New Normal" concept (Jan 2009) — predicted post-GFC low growth, low rates
 
 **Departure:** Widely reported as conflict with Gross over firm direction. Was seen as heir apparent.
@@ -67,7 +67,7 @@ Became standard framework for understanding 2010s economy.
 
 ## Current views (2026)
 
-**On Fed independence (Jan 2026):**
+**On [[Fed independence]] (Jan 2026):**
 
 | Point | El-Erian view |
 |-------|---------------|
@@ -90,11 +90,11 @@ Became standard framework for understanding 2010s economy.
 | Allianz | International Executive Committee, Advisory Committee Chair |
 | Queens' College Cambridge | President |
 | Gramercy Funds | Chair |
-| GIC (Singapore) | International Advisory Board |
+| [[GIC]] (Singapore) | International Advisory Board |
 
 ---
 
-## Media presence
+## [[Media]] presence
 
 Frequent commentator on:
 - Bloomberg TV/Radio

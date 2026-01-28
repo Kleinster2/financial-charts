@@ -87,7 +87,7 @@ Commercial world model product:
 - Robotics training (simulate before deploy)
 - AI training environments
 - Prototyping and design
-- Gaming and entertainment
+- [[Gaming]] and entertainment
 
 **Thesis implications:**
 - LLM-only approaches may hit ceiling

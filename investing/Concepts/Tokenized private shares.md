@@ -3,7 +3,7 @@ aliases: [tokenization, tokenized shares, private company tokens]
 ---
 #concept #fintech #crypto #private-markets
 
-**Tokenized private shares** — Using blockchain tokens to give retail investors "exposure" to private companies like OpenAI and SpaceX. Not actual equity — side bets on company performance.
+**Tokenized private shares** — Using blockchain tokens to give retail investors "exposure" to private companies like OpenAI and [[SpaceX]]. Not actual equity — side bets on company performance.
 
 ---
 
@@ -43,8 +43,8 @@ Tokens are **not actual equity** — they're derivative instruments:
 
 | Platform | Offering |
 |----------|----------|
-| **[[Robinhood]]** | Tokenized OpenAI, SpaceX shares (Europe, June 2025) |
-| **[[Republic]]** | SpaceX token |
+| **[[Robinhood]]** | Tokenized OpenAI, [[SpaceX]] shares ([[Europe]], June 2025) |
+| **[[Republic]]** | [[SpaceX]] token |
 | Various crypto | Multiple private company tokens |
 
 **OpenAI response:** Publicly said it did not endorse Robinhood's move.
@@ -57,7 +57,7 @@ Tokens are **not actual equity** — they're derivative instruments:
 
 | Metric | Reality |
 |--------|---------|
-| Google early | $100K valuation → multi-trillion |
+| [[Google]] early | $100K valuation → multi-trillion |
 | Retail access | Only at IPO (when insiders cash out) |
 | Best companies | Don't need retail capital |
 | Adverse selection | Great companies don't offer secondary |
@@ -131,8 +131,8 @@ If you can't answer these, stay away.
 
 | Company | Valuation | Token status |
 |---------|-----------|--------------|
-| [[OpenAI]] | ~$500B (seeking) | Robinhood Europe |
-| SpaceX | ~$350B+ | Republic, Robinhood |
+| [[OpenAI]] | ~$500B (seeking) | Robinhood [[Europe]] |
+| [[SpaceX]] | ~$350B+ | Republic, Robinhood |
 | [[Anthropic]] | ~$60B | Not yet tokenized |
 | [[Databricks]] | ~$60B | Not yet tokenized |
 
@@ -155,7 +155,7 @@ If you can't answer these, stay away.
 - [[OpenAI]] — most valuable private company ($500B)
 - [[Anthropic]] — private AI lab
 - [[Robinhood]] — tokenized shares platform
-- [[Republic]] — SpaceX token issuer
+- [[Republic]] — [[SpaceX]] token issuer
 - [[Private markets]] — broader context
 - [[Private market secondaries]] — actual equity alternative
 - [[Crypto]] — underlying technology

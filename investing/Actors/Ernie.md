@@ -43,12 +43,12 @@ Baidu's core AI asset — integrated into search, maps, autonomous driving.
 | Architecture | Natively omni-modal |
 | Modalities | Text, image, audio, video |
 | Training | Unified multimodal (not bolted-on) |
-| Benchmarks | vs GPT-5, Gemini, DeepSeek |
+| Benchmarks | vs GPT-5, [[Gemini]], DeepSeek |
 
 **Key capability:** Process video, ask questions about it, generate summaries, create narrated audio explanations, generate new images — all in one context.
 
 **vs competitors (Baidu claims):**
-- Competitive with GPT-5, Gemini across language, audio, visual tasks
+- Competitive with GPT-5, [[Gemini]] across language, audio, visual tasks
 - Head-to-head benchmarks shown at Baidu World 2025
 
 ---
@@ -80,8 +80,8 @@ Baidu competing hard on price.
 
 | Chip | Launch | Capability |
 |------|--------|------------|
-| Kunlunxin M100 | 2026 | Production |
-| Kunlunxin M300 | 2027 | Next-gen |
+| [[Kunlunxin]] M100 | 2026 | Production |
+| [[Kunlunxin]] M300 | 2027 | Next-gen |
 | Tianchi 512 | 2026 | 512× P800 supernodes, 1T param training |
 
 Baidu building domestic chip stack to reduce [[NVIDIA]] dependency.
@@ -110,7 +110,7 @@ ERNIE powers [[Baidu]]'s Apollo autonomous driving:
 | Metric | Value |
 |--------|-------|
 | Apollo Go robotaxis | 600+ vehicles |
-| Cities | 10+ in China |
+| Cities | 10+ in [[China]] |
 | Rides | Millions completed |
 
 AI model → autonomous driving → real-world deployment. Unique among Chinese AI labs.
@@ -124,7 +124,7 @@ AI model → autonomous driving → real-world deployment. Unique among Chinese 
 | [[Doubao]] | Search integration, AV | Less consumer engagement |
 | [[Qwen]] | Autonomous driving, chips | Less open source traction |
 | [[DeepSeek]] | Enterprise distribution | Less efficiency narrative |
-| [[ChatGPT]] | China market, price | Global brand |
+| [[ChatGPT]] | [[China]] market, price | Global brand |
 
 ---
 
@@ -134,11 +134,11 @@ AI model → autonomous driving → real-world deployment. Unique among Chinese 
 
 **Indirect exposure:**
 - [[Baidu]] (BIDU/9888.HK) — parent, directly benefits
-- Kunlunxin spinoff potential
+- [[Kunlunxin]] spinoff potential
 
 **Thesis implications:**
 - AI + autonomous driving convergence
-- Domestic chip development (Kunlunxin)
+- Domestic chip development ([[Kunlunxin]])
 - Search → AI transition
 
 ---
@@ -150,7 +150,7 @@ AI model → autonomous driving → real-world deployment. Unique among Chinese 
 | Parent | [[Baidu]] |
 | Users | 300M |
 | Latest model | ERNIE 5.0 |
-| Chips | Kunlunxin (2026-2027) |
+| Chips | [[Kunlunxin]] (2026-2027) |
 | Key integration | Apollo AV |
 
 *Created 2026-01-27*
@@ -160,8 +160,8 @@ AI model → autonomous driving → real-world deployment. Unique among Chinese 
 ## Related
 
 - [[Baidu]] — parent company
-- [[Doubao]] — competitor (#1 China)
-- [[Qwen]] — competitor (Alibaba)
-- [[Hunyuan]] — competitor (Tencent)
+- [[Doubao]] — competitor (#1 [[China]])
+- [[Qwen]] — competitor ([[Alibaba]])
+- [[Hunyuan]] — competitor ([[Tencent]])
 - [[DeepSeek]] — competitor (efficiency)
 - [[Apollo]] — autonomous driving platform

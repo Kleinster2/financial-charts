@@ -29,7 +29,7 @@ aliases: []
 | Creative Director | [[Gucci]] | 2015–2022 | Transformed brand, record growth |
 | Associate Creative Director | [[Gucci]] | 2011–2015 | Under Frida Giannini |
 | Senior Designer, Leather Goods | [[Gucci]] | 2006–2011 | Handbags, accessories |
-| Designer | [[Gucci]] | 2002–2006 | Recruited by Tom Ford |
+| Designer | [[Gucci]] | 2002–2006 | Recruited by Tom [[Ford]] |
 | Designer | [[Fendi]] | ~1997–2002 | Leather goods under Karl Lagerfeld |
 
 ---

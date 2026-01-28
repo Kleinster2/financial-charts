@@ -27,9 +27,9 @@ In June 2023, [[Sequoia Capital]] announced split into three independent entitie
 
 | Entity | Region | Rebrand |
 |--------|--------|---------|
-| Sequoia Capital | US/Europe | Kept name |
+| Sequoia Capital | US/[[Europe]] | Kept name |
 | **HongShan** | China | 红杉 = "redwood" in Chinese |
-| Peak XV Partners | India/SEA | New name |
+| Peak XV Partners | [[India]]/SEA | New name |
 
 Split completed March 31, 2024. Each entity now operates independently with no shared economics or governance.
 
@@ -42,8 +42,8 @@ Split completed March 31, 2024. Each entity now operates independently with no s
 | Sector | Examples |
 |--------|----------|
 | **Technology** | AI, semiconductors, enterprise software |
-| **Healthcare** | Biotech, medtech |
-| **Consumer** | E-commerce, brands |
+| **[[Healthcare]]** | Biotech, medtech |
+| **[[Consumer]]** | E-commerce, brands |
 
 **Stages:** Seed → Venture → Growth → Buyout → Infrastructure → Public equities
 
@@ -59,7 +59,7 @@ Split completed March 31, 2024. Each entity now operates independently with no s
 | Pinduoduo | E-commerce | Public |
 | [[Meituan]] | Local services | Public |
 | Didi | Ride-hailing | Public |
-| [[X Square Robot]] | Robotics | Private (Jan 2026 investment) |
+| [[X Square Robot]] | [[Robotics]] | Private (Jan 2026 investment) |
 
 ---
 
@@ -98,14 +98,14 @@ Neil Shen consistently ranked among world's top VCs. Founded Ctrip (TCOM) before
 
 ## Offices
 
-Beijing, Shanghai, Shenzhen, Hong Kong, Singapore, London, Tokyo
+Beijing, Shanghai, [[Shenzhen]], Hong Kong, Singapore, London, Tokyo
 
 ---
 
 ## Investment lens
 
 **Not directly investable** (private firm). Matters as:
-- Signal of China VC sentiment
+- [[Signal]] of China VC sentiment
 - Major backer of Chinese tech ecosystem
 - Portfolio companies = investable
 - Indicator of where smart China money flows
@@ -120,7 +120,7 @@ Beijing, Shanghai, Shenzhen, Hong Kong, Singapore, London, Tokyo
 - [[Meituan]] — portfolio
 - [[X Square Robot]] — portfolio (Jan 2026)
 - [[China]] — geographic focus
-- [[Peak XV Partners]] — sister entity (India/SEA)
+- [[Peak XV Partners]] — sister entity ([[India]]/SEA)
 
 ---
 

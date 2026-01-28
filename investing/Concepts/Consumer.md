@@ -8,7 +8,7 @@
 
 ## Current status (Jan 2026)
 
-| Metric | Latest | Signal |
+| Metric | Latest | [[Signal]] |
 |--------|--------|--------|
 | Retail sales | +0.6% MoM (Nov) | Beat (+0.4% exp) |
 | Consumer sentiment | Near lows | Weak |
@@ -26,9 +26,9 @@
 | **Higher income** | Strong | Asset appreciation, wage gains |
 | **Lower income** | Struggling | Inflation erosion, credit tightening |
 
-**Bank of America Institute:** "Spending, wages and income continue to grow for both groups" — but gap widening.
+**[[Bank of America]] Institute:** "Spending, wages and income continue to grow for both groups" — but gap widening.
 
-**Moody's:** "More cautious consumer behavior and affordability concerns will leave the retail and consumer durable industries the most vulnerable."
+**[[Moody's]]:** "More cautious consumer behavior and affordability concerns will leave the retail and consumer durable industries the most vulnerable."
 
 ---
 
@@ -63,9 +63,9 @@
 
 | Source | Spending growth | View |
 |--------|-----------------|------|
-| Moody's | ~1.5% real | Slowing but positive |
-| Bank of America | Resilient | "Word of the year: resilient" |
-| Goldman Sachs | Supportive of 2.5% GDP | Tax cuts, wealth, productivity |
+| [[Moody's]] | ~1.5% real | Slowing but positive |
+| [[Bank of America]] | Resilient | "Word of the year: resilient" |
+| [[Goldman Sachs]] | Supportive of 2.5% GDP | Tax cuts, wealth, productivity |
 
 **Risks:**
 - Softening labor market
@@ -82,9 +82,9 @@
 | **Services** | Growing | Experiences over goods |
 | **Durables** | Slowing | Post-COVID normalization |
 | **Nondurables** | Stable | Essentials |
-| **Discretionary** | Bifurcating | Luxury up, mass market cautious |
+| **Discretionary** | Bifurcating | [[Luxury]] up, mass market cautious |
 
-**Value focus:** "Value-focused retailers are poised to gain market share as consumers trade down." — Moody's
+**Value focus:** "Value-focused retailers are poised to gain market share as consumers trade down." — [[Moody's]]
 
 ---
 
@@ -107,9 +107,9 @@
 |--------|-------------|--------------|
 | **Retail** | High | Trading down, value wins |
 | **Restaurants** | High | Resilient but slowing |
-| **Travel/leisure** | High | Strong (upper income) |
+| **[[Travel]]/leisure** | High | Strong (upper income) |
 | **Autos** | High | Rate-sensitive |
-| **Housing** | High | Affordability challenged |
+| **[[Housing]]** | High | Affordability challenged |
 
 ---
 
@@ -119,7 +119,7 @@
 |----------|-------------|
 | **Resilient consumer (base)** | Discretionary, services |
 | **Consumer weakening** | Staples, discount retail |
-| **K-shape accelerates** | Luxury + discount, avoid middle |
+| **K-shape accelerates** | [[Luxury]] + discount, avoid middle |
 | **Credit crunch** | Avoid leveraged consumer plays |
 
 ---
@@ -143,7 +143,7 @@
 
 ## Sources
 
-- [Bank of America: 2026 Consumer Outlook](https://www.privatebank.bankofamerica.com/articles/2026-consumer-outlook.html)
+- [[[Bank of America]]: 2026 Consumer Outlook](https://www.privatebank.bankofamerica.com/articles/2026-consumer-outlook.html)
 - [Retail Dive: Consumer spending growth could slow in 2026](https://www.retaildive.com/news/consumer-spending-growth-slow-2026/807782/)
 - [Yahoo Finance: K-Shaped Economy 2026](https://finance.yahoo.com/news/consumer-spending-powers-the-us-economy-a-k-shaped-economy-will-further-test-this-dynamic-in-2026-110830708.html)
 - [NIQ: US Consumers Redefining Value in 2026](https://nielseniq.com/global/en/insights/analysis/2025/us-consumers-redefining-value-2026/)

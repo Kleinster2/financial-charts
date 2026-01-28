@@ -23,7 +23,7 @@ aliases: [United Microelectronics Corporation, UMC]
 **Mature node focus:**
 - Exited leading-edge race
 - Focused on 28nm, 40nm, 65nm
-- Automotive, industrial, IoT
+- [[Automotive]], industrial, IoT
 - Better margins than bleeding-edge
 
 ---
@@ -47,8 +47,8 @@ Not competing — different markets.
 |----------|--------|
 | Taiwan | Core fabs |
 | Singapore | Mature node expansion |
-| China | JV with local partners |
-| Japan | Exploring |
+| [[China]] | JV with local partners |
+| [[Japan]] | Exploring |
 
 ---
 
@@ -70,14 +70,14 @@ UMC benefits as Taiwan foundry — mature node chips face lower tariffs to US.
 
 **Bull:**
 - Mature nodes = steady demand
-- Automotive/industrial growth
+- [[Automotive]]/industrial growth
 - Less capex intensive
 - Geographic diversification
 - **US-Taiwan trade deal** — reduced tariffs, lower geopolitical discount
 
 **Bear:**
 - TSMC shadow
-- China mature node competition
+- [[China]] mature node competition
 - Lower growth ceiling
 - Taiwan geopolitical risk (mitigated by trade deal)
 

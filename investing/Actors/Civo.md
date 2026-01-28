@@ -1,6 +1,6 @@
 #actor #neocloud #uk
 
-**Civo** — UK-based Kubernetes cloud, sovereign focus, carbon-neutral GPU compute.
+**Civo** — [[UK]]-based Kubernetes cloud, sovereign focus, carbon-neutral GPU compute.
 
 ---
 
@@ -10,7 +10,7 @@
 |--------|-------|
 | Founded | 2015 |
 | Founders | Mark Boost, Andy Jeffries, Barry Fenning |
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 | Employees | ~9 |
 | Total funding | $2.77M (Seed) |
 
@@ -32,7 +32,7 @@ Modest funding — operationally bootstrapped.
 
 **Speed:** Kubernetes cluster launch in <90 seconds (industry fastest)
 
-**Sovereignty:** UK Sovereign Cloud — data never leaves UK borders, not subject to foreign laws
+**Sovereignty:** [[UK]] Sovereign Cloud — data never leaves [[UK]] borders, not subject to foreign laws
 
 **Sustainability:**
 - 100% renewable energy
@@ -44,7 +44,7 @@ Modest funding — operationally bootstrapped.
 ## Products
 
 - Managed Kubernetes
-- GPU-powered compute (NVIDIA)
+- GPU-powered compute ([[NVIDIA]])
 - Auto-scaling ML environments
 - Carbon-neutral infrastructure
 

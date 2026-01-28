@@ -78,7 +78,7 @@ aliases: [EXAS]
 | Cancer types | **50+** |
 | Method | Blood-based (liquid biopsy) |
 | Competition | Grail Galleri, Guardant |
-| Target | Average-risk screening |
+| [[Target]] | Average-risk screening |
 
 ---
 

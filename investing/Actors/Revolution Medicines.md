@@ -3,7 +3,7 @@ aliases: [RVMD, Revolution]
 ---
 #actor #company #biotech #oncology #usa #public
 
-**Revolution Medicines** — RAS-targeted cancer therapies. Lead drug daraxonrasib in Phase 3 for pancreatic cancer. Nasdaq: RVMD. Potential $32B Merck acquisition target.
+**Revolution Medicines** — RAS-targeted cancer therapies. Lead drug daraxonrasib in Phase 3 for pancreatic cancer. [[Nasdaq]]: RVMD. Potential $32B Merck acquisition target.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [RVMD, Revolution]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | RVMD (Nasdaq) |
+| Ticker | RVMD ([[Nasdaq]]) |
 | Focus | RAS-addicted cancers |
 | Stage | Late-stage clinical |
 | Lead asset | Daraxonrasib (oral) |
@@ -21,7 +21,7 @@ aliases: [RVMD, Revolution]
 
 ## Pipeline
 
-| Drug | Target | Indication | Stage |
+| Drug | [[Target]] | Indication | Stage |
 |------|--------|------------|-------|
 | **Daraxonrasib** (RMC-6236) | Pan-RAS | Pancreatic, NSCLC | **Phase 3** |
 | Elironrasib (RMC-6291) | G12C | NSCLC | Phase 2 |

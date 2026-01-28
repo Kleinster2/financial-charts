@@ -1,6 +1,6 @@
 #concept #macro #investing #geography
 
-**Frontier markets** — Smaller, less liquid emerging markets. Higher risk/reward. Vietnam, Nigeria, Bangladesh, Kenya.
+**Frontier markets** — Smaller, less liquid emerging markets. Higher risk/reward. Vietnam, [[Nigeria]], Bangladesh, [[Kenya]].
 
 ---
 
@@ -21,11 +21,11 @@
 | Country | Focus | Access |
 |---------|-------|--------|
 | Vietnam | Manufacturing, tech | Limited |
-| Nigeria | Oil, fintech | Local exchange |
+| [[Nigeria]] | [[Oil]], fintech | Local exchange |
 | Bangladesh | Textiles | Limited |
-| Kenya | Tech hub, agriculture | NSE |
+| [[Kenya]] | Tech hub, agriculture | NSE |
 | Morocco | Manufacturing | Casablanca |
-| Pakistan | Consumer, financials | PSX |
+| Pakistan | [[Consumer]], financials | PSX |
 | Sri Lanka | Tourism, tea | Recovering |
 
 ---
@@ -58,7 +58,7 @@
 | Vehicle | Coverage |
 |---------|----------|
 | FM ETF | iShares Frontier 100 (FM) |
-| Country funds | Vietnam (VNM), Nigeria (NGE) |
+| Country funds | Vietnam (VNM), [[Nigeria]] (NGE) |
 | ADRs | Limited availability |
 | Local brokers | Direct access |
 
@@ -70,7 +70,7 @@
 |---------------|---------|
 | Frontier → EM | Kuwait (2020), Romania |
 | EM → DM | Israel, Korea (considered) |
-| EM → Frontier | Argentina (downgraded) |
+| EM → Frontier | [[Argentina]] (downgraded) |
 
 ---
 
@@ -78,10 +78,10 @@
 
 | Theme | Markets |
 |-------|---------|
-| China+1 manufacturing | Vietnam, Bangladesh |
-| African growth | Nigeria, Kenya |
-| Fintech leapfrog | Kenya (M-Pesa), Nigeria |
-| Resource wealth | Nigeria, Kazakhstan |
+| [[China]]+1 manufacturing | Vietnam, Bangladesh |
+| African growth | [[Nigeria]], [[Kenya]] |
+| [[Fintech]] leapfrog | [[Kenya]] (M-Pesa), [[Nigeria]] |
+| Resource wealth | [[Nigeria]], Kazakhstan |
 
 ---
 

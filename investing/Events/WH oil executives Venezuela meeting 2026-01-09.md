@@ -18,7 +18,7 @@
 
 ## Confirmed attendees
 
-### Oil majors
+### [[Oil]] majors
 
 | Name | Title | Company | Statement |
 |------|-------|---------|-----------|
@@ -71,7 +71,7 @@
 
 ### Geopolitical openness
 
-Venezuela will be "open for business" for all nations including Russia and China to purchase oil.
+Venezuela will be "open for business" for all nations including [[Russia]] and [[China]] to purchase oil.
 
 ### On military action
 
@@ -83,11 +83,11 @@ Second wave of attacks cancelled — initial operation was "so powerful and so g
 
 ### Conditional Engagement
 
-Oil executives made **no firm investment commitments**, citing the current environment as a barrier. Exxon CEO Darren Woods assessed that Venezuela has been **"uninvestable"** due to its legal and commercial frameworks, implying that significant reforms are a prerequisite for any future capital deployment.
+[[Oil]] executives made **no firm investment commitments**, citing the current environment as a barrier. Exxon CEO Darren Woods assessed that Venezuela has been **"uninvestable"** due to its legal and commercial frameworks, implying that significant reforms are a prerequisite for any future capital deployment.
 
 ### Deep skepticism
 
-Oil executives expressed deep skepticism about pouring substantial capital into Venezuela, where profitability and government stability remain deeply uncertain.
+[[Oil]] executives expressed deep skepticism about pouring substantial capital into Venezuela, where profitability and government stability remain deeply uncertain.
 
 ### Key concerns
 
@@ -95,7 +95,7 @@ Oil executives expressed deep skepticism about pouring substantial capital into 
 |---------|--------|
 | **Rule of law** | No stable legal framework for investment |
 | **History** | Companies lost billions in prior ventures |
-| **PDVSA militarization** | Venezuelan military runs state oil company |
+| **[[PDVSA]] militarization** | Venezuelan military runs state oil company |
 | **Infrastructure theft** | Rampant theft from energy facilities |
 | **Hostage risk** | History of executive detention |
 | **No transition government** | Who runs the country unclear |
@@ -136,7 +136,7 @@ Senate voted 52-47 to advance bipartisan resolution restricting Trump's Venezuel
 
 ### Watch list
 
-| Signal | Meaning |
+| [[Signal]] | Meaning |
 |--------|---------|
 | [[Exxon]] announcement | Signals regime is investable |
 | [[ConocoPhillips]] settlement | Debt resolved, path to return |

@@ -59,7 +59,7 @@ Long track record in credit.
 | Company | Year | Type |
 |---------|------|------|
 | Various airlines | Multiple | Restructurings |
-| Energy | 2015-16 | Oil crash |
+| Energy | 2015-16 | [[Oil]] crash |
 | Retail | 2017+ | Retail distress |
 
 ---

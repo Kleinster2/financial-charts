@@ -40,7 +40,7 @@ Equinix is the largest publicly traded data center company:
 
 **Why interconnection matters:**
 - Once inside Equinix, customers connect to partners
-- Network effects — more customers = more valuable
+- [[Network effects]] — more customers = more valuable
 - Switching costs increase over time
 - Premium pricing for connectivity
 
@@ -60,7 +60,7 @@ Equinix is the largest publicly traded data center company:
 - Not primary AI infrastructure play
 
 **xScale JV:**
-- Partnership with GIC (Singapore sovereign wealth)
+- Partnership with [[GIC]] (Singapore sovereign wealth)
 - Hyperscale-focused facilities
 - Better suited for AI workloads
 
@@ -71,7 +71,7 @@ Equinix is the largest publicly traded data center company:
 | Competitor | Focus | Equinix advantage |
 |------------|-------|-------------------|
 | [[Digital Realty]] | Hyperscale wholesale | Interconnection density |
-| QTS ([[Blackstone]]) | Hyperscale | Global footprint |
+| [[QTS]] ([[Blackstone]]) | Hyperscale | Global footprint |
 | [[Coresite]] | US regional | Scale |
 
 Equinix wins on interconnection and global reach.
@@ -83,8 +83,8 @@ Equinix wins on interconnection and global reach.
 | Region | Presence |
 |--------|----------|
 | Americas | Major metros |
-| EMEA | Strong (EU data sovereignty) |
-| Asia-Pacific | Expanding |
+| EMEA | Strong ([[EU]] data sovereignty) |
+| [[Asia]]-Pacific | Expanding |
 
 Global footprint = enterprise appeal.
 
@@ -126,7 +126,7 @@ Global footprint = enterprise appeal.
 - [[Digital Realty]] — competitor (DC REIT, wholesale vs retail)
 - [[Coresite]] — competitor (US regional interconnection)
 - [[DigitalBridge]] — adjacent (digital infrastructure investor)
-- [[Blackstone]] — competitor (QTS platform)
+- [[Blackstone]] — competitor ([[QTS]] platform)
 - [[AI hyperscalers]] — customers (interconnection value)
 - [[AI infrastructure financing]] — thesis context
 - [[Ashburn]] — major presence

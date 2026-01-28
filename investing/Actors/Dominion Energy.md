@@ -97,13 +97,13 @@ Virginia segment adjusted operating earnings: $679M (+2.5% YoY, Q3 2025).
 
 ## Power constraints
 
-Ashburn/NoVA is power constrained:
+[[Ashburn]]/NoVA is power constrained:
 - New projects delayed 3-5 years for grid connection
 - Transmission upgrades slow (regulatory + construction)
 - Pushing new DCs to other regions
 - Grid upgrades require $28.3B+ in transmission alone
 
-Dominion's limits = Ashburn's limits = the internet's limits.
+Dominion's limits = [[Ashburn]]'s limits = the internet's limits.
 
 ---
 

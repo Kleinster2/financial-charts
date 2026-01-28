@@ -3,7 +3,7 @@ aliases: [Lansdowne]
 ---
 #actor #investor #hedgefund #equity #uk #private
 
-**Lansdowne Partners** — London-based equity fund. ~$15B AUM. Founded 1998. UK's largest hedge fund.
+**Lansdowne Partners** — London-based equity fund. ~$15B AUM. Founded 1998. [[UK]]'s largest hedge fund.
 
 ---
 
@@ -33,8 +33,8 @@ aliases: [Lansdowne]
 
 | Approach | Description |
 |----------|-------------|
-| UK/European | Primary focus |
-| Global | Also US, Asia |
+| [[UK]]/European | Primary focus |
+| Global | Also US, [[Asia]] |
 | Fundamental | Deep research |
 | Long/short | True L/S |
 
@@ -42,10 +42,10 @@ aliases: [Lansdowne]
 
 ## Famous trades
 
-| Trade | Year | Outcome |
+| [[Trade]] | Year | Outcome |
 |-------|------|---------|
 | HBOS short | 2008 | Major profits (controversial) |
-| UK banks | 2008 | Crisis alpha |
+| [[UK]] banks | 2008 | Crisis alpha |
 
 ---
 
@@ -72,7 +72,7 @@ aliases: [Lansdowne]
 ## Related
 
 - [[Egerton Capital]] — peer (London)
-- [[Man Group]] — peer (UK)
+- [[Man Group]] — peer ([[UK]])
 
 ---
 

@@ -5,7 +5,7 @@ aliases: [Vuori Clothing]
 
 # Vuori
 
-**Premium men's athleisure brand** — $5.5B valuation (Nov 2024), SoftBank-backed. Founded 2015 in San Diego by Joe Kudla. Raised $1.27B total ($400M SoftBank 2021, $825M General Atlantic/Stripes 2024). **Taking share from [[Lululemon]]** — 7.8% of Lulu customers now shop Vuori (up from 1.2% in 2018). Consistently profitable. Revenue undisclosed but grew 250%/year post-launch, 100%+ in 2021. IPO speculation ongoing.
+**Premium men's athleisure brand** — $5.5B valuation (Nov 2024), [[SoftBank]]-backed. Founded 2015 in San Diego by Joe Kudla. Raised $1.27B total ($400M [[SoftBank]] 2021, $825M [[General Atlantic]]/Stripes 2024). **Taking share from [[Lululemon]]** — 7.8% of Lulu customers now shop Vuori (up from 1.2% in 2018). Consistently profitable. Revenue undisclosed but grew 250%/year post-launch, 100%+ in 2021. IPO speculation ongoing.
 
 ---
 
@@ -27,11 +27,11 @@ aliases: [Vuori Clothing]
 
 | Round | Date | Amount | Valuation | Lead investors |
 |-------|------|--------|-----------|----------------|
-| Series A | 2019 | $45M | — | Norwest Venture Partners |
-| SoftBank | Oct 2021 | $400M | $4B | SoftBank Vision Fund 2 |
-| Secondary | Nov 2024 | $825M | $5.5B | General Atlantic, Stripes |
+| Series A | 2019 | $45M | — | [[Norwest Venture Partners]] |
+| [[SoftBank]] | Oct 2021 | $400M | $4B | [[SoftBank Vision Fund]] 2 |
+| Secondary | Nov 2024 | $825M | $5.5B | [[General Atlantic]], Stripes |
 
-**$400M SoftBank round (2021):** Largest single investment in a private apparel brand at the time.
+**$400M [[SoftBank]] round (2021):** Largest single investment in a private apparel brand at the time.
 
 **$825M secondary (2024):** Allowed early employees/investors to take liquidity; brought in growth equity investors ahead of potential IPO.
 
@@ -76,7 +76,7 @@ GlobalData analytics shows Vuori is successfully converting Lululemon customers.
 
 Not directly investable (private), but matters for:
 - **[[Lululemon]]** — losing share to Vuori
-- **SoftBank** — major investment ($400M at $4B)
+- **[[SoftBank]]** — major investment ($400M at $4B)
 - Premium athleisure market trends
 - Potential IPO pipeline
 

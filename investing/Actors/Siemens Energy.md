@@ -3,19 +3,19 @@ aliases: [ENR]
 ---
 #actor #power #turbines #germany
 
-**Siemens Energy** — #2 gas turbine manufacturer. German industrial, wind + gas portfolio.
+**[[Siemens]] Energy** — #2 gas turbine manufacturer. German industrial, wind + gas portfolio.
 
 ---
 
-## Why Siemens Energy matters
+## Why [[Siemens]] Energy matters
 
-Siemens Energy is the main GE Vernova competitor — same bottleneck dynamics:
+[[Siemens]] Energy is the main GE Vernova competitor — same bottleneck dynamics:
 
 | Metric | Value |
 |--------|-------|
 | Market position | #2 gas turbine manufacturer |
-| Market share | ~25% (GE, Siemens, Mitsubishi = 70%+) |
-| HQ | Munich, Germany |
+| Market share | ~25% (GE, [[Siemens]], Mitsubishi = 70%+) |
+| HQ | Munich, [[Germany]] |
 | Portfolio | Gas turbines + wind |
 
 ---
@@ -34,7 +34,7 @@ Siemens Energy is the main GE Vernova competitor — same bottleneck dynamics:
 
 ## Data center strategy
 
-**Eaton partnership (Jun 2025):**
+**[[Eaton]] partnership (Jun 2025):**
 - Simultaneous DC + power plant construction
 - On-site generation with grid connection
 - SGT-800 gas turbines
@@ -52,9 +52,9 @@ Siemens Energy is the main GE Vernova competitor — same bottleneck dynamics:
 |---------------|----------|---------------|-------|
 | SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
 
-Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). Siemens providing ~14% of capacity alongside [[Solar Turbines]] (Caterpillar).
+Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). [[Siemens]] providing ~14% of capacity alongside [[Solar Turbines]] ([[Caterpillar]]).
 
-**Significance:** First major hyperscaler BYOP deal for Siemens Energy. Validates DC power strategy.
+**Significance:** First major hyperscaler BYOP deal for [[Siemens]] Energy. Validates DC power strategy.
 
 ---
 
@@ -70,7 +70,7 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). Siemens providing 
 
 ## Wind business challenges
 
-**Siemens Gamesa (wind subsidiary):**
+**[[Siemens]] Gamesa (wind subsidiary):**
 - Quality issues in 2023-2024
 - Significant losses
 - Restructuring underway
@@ -82,12 +82,12 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). Siemens providing 
 
 ## Competitive position
 
-| Competitor | Strength | Siemens advantage |
+| Competitor | Strength | [[Siemens]] advantage |
 |------------|----------|-------------------|
 | [[GE Vernova]] | Scale, US presence | European market |
-| Mitsubishi | Asia presence | Full portfolio |
+| Mitsubishi | [[Asia]] presence | Full portfolio |
 
-Siemens is #2 but benefits from same supply constraints.
+[[Siemens]] is #2 but benefits from same supply constraints.
 
 ---
 
@@ -114,8 +114,8 @@ Siemens is #2 but benefits from same supply constraints.
 |--------|-------|
 | Ticker | ENR (Frankfurt) |
 | Market cap | ~€30B |
-| HQ | Munich, Germany |
-| Parent | Spun from Siemens AG (2020) |
+| HQ | Munich, [[Germany]] |
+| Parent | Spun from [[Siemens]] AG (2020) |
 | Businesses | Gas turbines, wind, grid tech |
 
 *Updated 2026-01-01*
@@ -127,7 +127,7 @@ Siemens is #2 but benefits from same supply constraints.
 - [[Power constraints]] — thesis context (gas turbine demand)
 - [[BYOP]] — on-site generation pattern
 - [[GE Vernova]] — competitor (#1 turbine maker)
-- [[Ansaldo Energia]] — competitor (OpenAI deal)
+- [[Ansaldo Energia]] — competitor ([[OpenAI]] deal)
 - [[Solar Turbines]] — co-supplier (Meta Socrates South)
 - [[Meta]] — customer (Socrates South)
 - [[AI hyperscalers]] — customer (power demand)

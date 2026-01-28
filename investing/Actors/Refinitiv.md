@@ -30,7 +30,7 @@ Thomson Reuters sold 55% of its Financial & Risk business to Blackstone for $17B
 LSEG agreed to acquire Refinitiv for $27B in all-stock deal. Thomson Reuters and Blackstone received ~37% economic interest in combined company.
 
 **January 2021: Deal closed**
-EU regulators approved. Refinitiv became LSEG subsidiary.
+[[EU]] regulators approved. Refinitiv became LSEG subsidiary.
 
 **August 2023: Brand retired**
 Refinitiv brand discontinued in favor of LSEG branding.

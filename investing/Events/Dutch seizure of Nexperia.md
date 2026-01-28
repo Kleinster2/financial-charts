@@ -14,9 +14,9 @@ aliases: [Nexperia seizure, Nexperia nationalization]
 | Dec 2024 | Wingtech added to US Entity List |
 | Sep 29, 2025 | US extends export controls to 50%+ owned subsidiaries |
 | Sep 30, 2025 | Dutch Ministry issues Order freezing Nexperia operations |
-| Oct 4, 2025 | China retaliates with export controls on Nexperia China |
+| Oct 4, 2025 | [[China]] retaliates with export controls on Nexperia [[China]] |
 | Oct 7, 2025 | Dutch Enterprise Chamber emergency hearing |
-| Oct 9, 2025 | China tightens rare-earth export controls |
+| Oct 9, 2025 | [[China]] tightens rare-earth export controls |
 | Oct 14, 2025 | Dutch government announces takeover |
 
 ---
@@ -36,7 +36,7 @@ Order covers:
 
 Dutch government cited:
 - "Serious governance shortcomings"
-- Technology transfer to China
+- Technology transfer to [[China]]
 - Threat to "crucial technological knowledge and capabilities"
 - Risk to European automotive supply chains
 
@@ -44,11 +44,11 @@ CEO Zhang Xuezheng suspended; CFO Stefan Tilger appointed interim.
 
 ---
 
-## China's response
+## [[China]]'s response
 
 See [[China retaliatory toolkit]] for the broader pattern.
 
-1. **Export controls**: Blocked Nexperia from exporting components from China
+1. **Export controls**: Blocked Nexperia from exporting components from [[China]]
 2. **Rare earth controls**: Tightened restrictions (Oct 9) — see [[Rare earth leverage]]
 3. **Diplomatic protest**: Called it "geopolitical bias" and "excessive intervention"
 4. **Market reaction**: Wingtech shares -10% in Shanghai
@@ -59,17 +59,17 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 ### Precedent-setting
 - First Western nationalization of Chinese semiconductor asset
-- Template for future EU interventions
+- Template for future [[EU]] interventions
 - Escalation beyond [[Export controls]] to direct seizure
 
 ### Supply chain impact
 - Nexperia supplies automotive discretes to European OEMs
-- China controls Nexperia's Asian manufacturing
+- [[China]] controls Nexperia's Asian manufacturing
 - Risk of tit-for-tat disruptions
 
 ### Connects to broader themes
 - [[Weaponized antitrust]] — now bilateral (West also seizing)
-- [[CHIPS Act]] — EU building domestic capacity partly to avoid this dependence
+- [[CHIPS Act]] — [[EU]] building domestic capacity partly to avoid this dependence
 - [[Export controls]] — US Entity List triggered cascade
 
 ---
@@ -94,7 +94,7 @@ Ironic: Philips semiconductor legacy now a geopolitical flashpoint.
 
 - [[Nexperia]] — subject (seized by Netherlands)
 - [[Weaponized antitrust]] — precedent (first Western seizure)
-- [[China retaliatory toolkit]] — response (China retaliated with export controls)
-- [[Rare earth leverage]] — connected (China tightened REE controls same week)
+- [[China retaliatory toolkit]] — response ([[China]] retaliated with export controls)
+- [[Rare earth leverage]] — connected ([[China]] tightened REE controls same week)
 - [[Export controls]] — trigger (US Entity List started cascade)
 - [[NXP]] — history (Nexperia spun from NXP)

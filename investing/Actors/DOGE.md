@@ -13,7 +13,7 @@ Policy influence on AI/tech sector:
 
 | Impact | Description |
 |--------|-------------|
-| AI policy | Relaxed export controls (H200 to China) |
+| AI policy | Relaxed export controls (H200 to [[China]]) |
 | Deregulation | AI tool targeting 100K+ regulations |
 | Federal cuts | $214B claimed savings |
 | AI research | Cuts to federal AI teams |
@@ -36,7 +36,7 @@ Policy influence on AI/tech sector:
 **"DOGE AI Deregulation Decision Tool":**
 - Scans ~200,000 federal rules
 - Flags outdated or non-required regulations
-- Target: eliminate up to 100K regulations by Jan 2026
+- [[Target]]: eliminate up to 100K regulations by Jan 2026
 - "Relaunch America" — nationwide rollout Jan 20, 2026
 
 ---
@@ -62,8 +62,8 @@ Policy influence on AI/tech sector:
 
 **Wins for tech sector:**
 - AI Diffusion framework canceled (benefited [[NVIDIA]])
-- H200 approved for China export
-- David Sacks appointed AI/crypto czar
+- H200 approved for [[China]] export
+- [[David Sacks]] appointed AI/crypto czar
 - Reduced regulatory burden
 
 **Concerns:**
@@ -87,7 +87,7 @@ DOGE model spreading to states:
 
 **Beneficiaries:**
 - [[NVIDIA]] — export control relaxation
-- Defense contractors — if procurement streamlined
+- [[Defense]] contractors — if procurement streamlined
 - AI companies — lighter regulation
 
 **Risks:**

@@ -14,11 +14,11 @@ Benchmark investments in Chinese-founded AI startups are drawing China hawk crit
 
 | Company | What | Status |
 |---------|------|--------|
-| **Butterfly Effect (Manus)** | AI agents | Sold to [[Meta]] Jan 2026 |
-| Uber | Rideshare | IPO |
+| **Butterfly Effect (Manus)** | [[AI agents]] | Sold to [[Meta]] Jan 2026 |
+| [[Uber]] | Rideshare | IPO |
 | Twitter | Social | Acquired |
-| Discord | Social | Private |
-| Snap | Social | IPO |
+| [[Discord]] | Social | Private |
+| [[Snap]] | Social | IPO |
 
 ---
 
@@ -36,10 +36,10 @@ Benchmark investments in Chinese-founded AI startups are drawing China hawk crit
 
 ## Related: Craft Ventures
 
-[[Craft Ventures]] (David Sacks) also in China AI controversy:
+[[Craft Ventures]] ([[David Sacks]]) also in China AI controversy:
 - Invested in [[Groq]]
-- Sacks now Whitehouse AI & Crypto Czar
-- Promoted Groq as "safe way" to use DeepSeek
+- Sacks now Whitehouse AI & [[Crypto]] Czar
+- Promoted Groq as "safe way" to use [[DeepSeek]]
 - [[NVIDIA]] acquired Groq for $20B — Sacks connections helped?
 
 Both Benchmark and Craft facing scrutiny for China-adjacent AI investments.
@@ -73,7 +73,7 @@ As AI becomes national security priority:
 | Fund size | ~$425M per fund |
 | Structure | Equal partnership (no senior/junior) |
 | Style | Early-stage, board seats |
-| Notable exits | Uber, Twitter, Snap, Discord |
+| Notable exits | [[Uber]], Twitter, [[Snap]], [[Discord]] |
 
 **Unique model:** Equal partnership, smaller funds, concentrated bets.
 

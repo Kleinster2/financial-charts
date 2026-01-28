@@ -24,7 +24,7 @@ aliases: [MA]
 - Not a lender (unlike banks)
 - Takes small fee on every transaction
 - Operating margin ~55%
-- Capital-light, high ROIC
+- Capital-light, high [[ROIC]]
 
 ---
 
@@ -47,7 +47,7 @@ aliases: [MA]
 |-----------|-------------|
 | Cross-border | Higher mix than Visa |
 | Data services | Growing analytics revenue |
-| Crypto/blockchain | More active than Visa |
+| [[Crypto]]/blockchain | More active than Visa |
 | B2B payments | Commercial card growth |
 
 ---
@@ -63,8 +63,8 @@ aliases: [MA]
 
 **Bear:**
 - Regulatory pressure (interchange fees)
-- Fintech/RTP disruption
-- Crypto threat (long-term)
+- [[Fintech]]/RTP disruption
+- [[Crypto]] threat (long-term)
 - Valuation premium
 
 ---

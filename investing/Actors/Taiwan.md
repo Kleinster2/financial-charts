@@ -1,5 +1,5 @@
 ---
-aliases: [ROC, Republic of China]
+aliases: [ROC, [[Republic]] of [[China]]]
 ---
 #actor #geopolitics #asia #semiconductors
 
@@ -23,7 +23,7 @@ aliases: [ROC, Republic of China]
 **"Silicon shield":**
 - TSMC = 90%+ leading-edge foundry
 - ~65% global foundry market share
-- Advanced packaging leadership (CoWoS)
+- [[Advanced packaging]] leadership (CoWoS)
 - Critical to global tech supply chain
 
 ---
@@ -42,8 +42,8 @@ aliases: [ROC, Republic of China]
 
 ## Geopolitical risk
 
-**US-China flashpoint:**
-- China claims Taiwan
+**US-[[China]] flashpoint:**
+- [[China]] claims Taiwan
 - US ambiguous defense commitment
 - TSMC = "most important company in the world"
 - Chip supply = national security
@@ -61,23 +61,23 @@ aliases: [ROC, Republic of China]
 
 **Escalating crackdown on talent poaching** — intensified under President Lai Ching-te (2024).
 
-| Date | Target | Action |
+| Date | [[Target]] | Action |
 |------|--------|--------|
 | Sep 2024 | [[Luxshare Precision]] (Grace Wang) | Arrest warrant |
 | 2024 | SMIC | Raid (34 locations, 11 companies) |
 | **Jun 2025** | **[[Huawei]] + [[SMIC]]** | **Blacklisted** (unprecedented) |
-| Sep 2025 | **South Africa** | Chip export restrictions (diplomatic retaliation) |
-| 2025 | Tokyo Electron | IP theft lawsuit |
+| Sep 2025 | **South [[Africa]]** | Chip export restrictions (diplomatic retaliation) |
+| 2025 | [[Tokyo Electron]] | IP theft lawsuit |
 | Jan 2026 | [[OnePlus]] (Pete Lau) | Arrest warrant |
 
-### South Africa — first use of chips as weapon
+### South [[Africa]] — first use of chips as weapon
 
 | Detail | Value |
 |--------|-------|
 | Trigger | SA demanded Taiwan move embassy Pretoria → Johannesburg |
-| Context | 2023 BRICS summit, G20 Nov 2025 hosting |
+| Context | 2023 [[BRICS]] summit, G20 Nov 2025 hosting |
 | Action | Pre-approval required for bulk of chip exports |
-| Trade value | ~$4M annual |
+| [[Trade]] value | ~$4M annual |
 | SA counter | Supplies palladium for semiconductors |
 | Jan 2026 | [[OnePlus]] (Pete Lau) | Arrest warrant (70+ engineers) |
 
@@ -86,11 +86,11 @@ aliases: [ROC, Republic of China]
 | Tool | Use |
 |------|-----|
 | Cross-Strait Relations Act | Prosecute illegal Chinese recruiting |
-| Arrest warrants | Target executives (can't visit Taiwan) |
+| Arrest warrants | [[Target]] executives (can't visit Taiwan) |
 | Lawsuits | Hold foreign suppliers accountable |
 | Export bans | Leverage chip dominance |
 
-**Why crackdown now:** China closing tech gap, Taiwan using legal tools to protect talent moat.
+**Why crackdown now:** [[China]] closing tech gap, Taiwan using legal tools to protect talent moat.
 
 See [[Taiwan tech protectionism]] for full details.
 
@@ -100,9 +100,9 @@ See [[Taiwan tech protectionism]] for full details.
 
 **De-risking efforts:**
 - US: CHIPS Act subsidies for TSMC Arizona
-- Japan: TSMC Kumamoto fab
-- Europe: Dresden fab plans
-- Goal: Reduce Taiwan concentration risk
+- [[Japan]]: TSMC Kumamoto fab
+- [[Europe]]: Dresden fab plans
+- Goal: Reduce [[Taiwan concentration risk]]
 
 But leading-edge still Taiwan-centric for years.
 
@@ -125,7 +125,7 @@ Taiwan exposure = embedded in any tech portfolio.
 |--------|-------|
 | Key company | TSMC |
 | Foundry share | >60% global |
-| Risk | China geopolitics |
+| Risk | [[China]] geopolitics |
 | Status | De facto independent |
 
 *Updated 2026-01-15*
@@ -143,7 +143,7 @@ Taiwan exposure = embedded in any tech portfolio.
 ### Concepts
 - [[US-Taiwan relations]] — bilateral ties framework
 - [[Taiwan tech protectionism]] — talent/IP protection crackdown
-- [[Export controls]] — US-China chip restrictions
+- [[Export controls]] — US-[[China]] chip restrictions
 - [[CHIPS Act]] — US de-risking effort
 - [[US-China tech race]] — broader context
 

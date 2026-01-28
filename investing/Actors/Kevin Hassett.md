@@ -46,10 +46,10 @@ aliases: [Hassett]
 | Issue | Hassett position |
 |-------|------------------|
 | **Rates** | Dovish — aligned with Trump's preferences |
-| **Fed independence** | Says Fed should remain independent while acknowledging Trump has "strong and well-founded views" |
+| **[[Fed independence]]** | Says Fed should remain independent while acknowledging Trump has "strong and well-founded views" |
 | **Fiscal policy** | Supply-side; supported 2017 tax cuts |
 
-**Balancing act:** Tries to thread needle between Fed independence and Trump loyalty.
+**Balancing act:** Tries to thread needle between [[Fed independence]] and Trump loyalty.
 
 ---
 
@@ -107,7 +107,7 @@ Hassett has advantage of daily access and established trust, but Trump aware of 
 
 ## Market view
 
-Investors concerned that Hassett's proximity to Trump would compromise Fed independence:
+Investors concerned that Hassett's proximity to Trump would compromise [[Fed independence]]:
 - Daily White House contact raises autonomy questions
 - No institutional buffer between president and Fed
 - Could lead to politically-timed rate decisions

@@ -20,7 +20,7 @@ aliases: [Planet, PL]
 
 ## Google Project Suncatcher
 
-**Space AI computing partnership (Nov 2025):**
+**[[Space]] AI computing partnership (Nov 2025):**
 
 | Detail | Value |
 |--------|-------|
@@ -45,8 +45,8 @@ Most concrete near-term space DC initiative.
 
 **Customers:**
 - US government/intelligence
-- Agriculture (crop monitoring)
-- Insurance (disaster assessment)
+- [[Agriculture]] (crop monitoring)
+- [[Insurance]] (disaster assessment)
 - Finance (alternative data)
 
 ---

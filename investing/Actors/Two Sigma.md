@@ -44,7 +44,7 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 
 **Historical**: Absolute Return Enhanced ~10% annualized through late 2022.
 
-**Peer comparison (2023)**: On par with Citadel, Millennium, DE Shaw.
+**Peer comparison (2023)**: On par with [[Citadel]], Millennium, DE Shaw.
 
 **2024 note**: Renaissance Technologies and Two Sigma led quant gains.
 
@@ -66,10 +66,10 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 | Rank | Position | Notes |
 |------|----------|-------|
 | 1 | SPY | S&P 500 ETF |
-| 2 | XLF | Financials ETF |
-| 3 | XLP | Consumer Staples ETF |
+| 2 | [[XLF]] | Financials ETF |
+| 3 | XLP | [[Consumer Staples]] ETF |
 | 4 | VUG | Vanguard Growth |
-| 5 | QQQ | Nasdaq 100 ETF |
+| 5 | [[QQQ]] | [[Nasdaq]] 100 ETF |
 
 **Top 10 concentration**: 6.15% (highly diversified)
 
@@ -89,7 +89,7 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 
 **Added**:
 - IGV (+$345M)
-- QQQ (+$238M)
+- [[QQQ]] (+$238M)
 - UNH (+$234M)
 - DUOL (+$231M)
 - GEV (+$231M)
@@ -98,7 +98,7 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 - [[Broadcom]] (-$429M)
 - [[AMD]] (-$313M)
 - [[Marvell]] (-$299M)
-- ServiceNow (-$221M)
+- [[ServiceNow]] (-$221M)
 - [[Applied Materials]] (-$162M)
 
 **Net**: +$4.6B buyer
@@ -137,7 +137,7 @@ aliases: [Two Sigma Investments, Two Sigma Advisers]
 | **New York** (HQ) | Main operations |
 | **Houston** | Software engineering center (since 2005) |
 | **London** | European hub, largest international office (since 2008) |
-| **Tokyo** | Asia-Pacific, market insights |
+| **Tokyo** | [[Asia]]-Pacific, market insights |
 
 ---
 
@@ -157,10 +157,10 @@ VC arm founded 2012. Focus on data-driven technology.
 - Enterprise software
 - Developer tools
 - Biotech / healthcare
-- Fintech
+- [[Fintech]]
 
 **Notable investments**:
-- Recursion Pharmaceuticals — AI drug discovery
+- [[Recursion]] Pharmaceuticals — [[AI drug discovery]]
 - insitro — ML + life sciences
 - Terray Therapeutics — ML drug discovery
 - Zymergen — ML for pharma/industrial
@@ -173,7 +173,7 @@ VC arm founded 2012. Focus on data-driven technology.
 |----------|-------------|
 | **Two Sigma Real Estate** | Real estate investment |
 | **Venn by Two Sigma** | Factor analytics platform for asset owners |
-| **Two Sigma Insurance Quantified** | Insurance analytics |
+| **Two Sigma [[Insurance]] Quantified** | [[Insurance]] analytics |
 
 ---
 
@@ -205,7 +205,7 @@ Two Sigma received seed funding from Paul Tudor Jones (Tudor Investments) in 200
 
 3. **Founder risk** — Disclosed feud + Overdeck divorce = material business risk. Unprecedented transparency about internal dysfunction.
 
-4. **Technology edge** — Top 5 supercomputing, 380PB data. Benchmark for AI/ML in finance.
+4. **Technology edge** — Top 5 supercomputing, 380PB data. [[Benchmark]] for AI/ML in finance.
 
 5. **Ventures portfolio** — Early positions in AI/biotech companies signal technology trends.
 
@@ -222,7 +222,7 @@ Two Sigma received seed funding from Paul Tudor Jones (Tudor Investments) in 200
 - [[Renaissance Technologies]] — quant peer, led 2024 gains with Two Sigma
 - [[Citadel Securities]] — competitor
 - [[Millennium]] — multi-manager peer
-- [[Point72]] — Steve Cohen's fund
+- [[Point72]] — [[Steve Cohen]]'s fund
 - [[AQR]] — quant peer
 - [[Bridgewater]] — macro/quant peer
 

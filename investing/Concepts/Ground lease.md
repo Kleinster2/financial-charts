@@ -63,7 +63,7 @@ Ground leases create layered collateral structures:
 
 | Lien position | Collateral | Typical lender |
 |---------------|------------|----------------|
-| **First** | Ground + ground lease | Banks, CMBS |
+| **First** | Ground + ground lease | [[Banks]], CMBS |
 | **Second** | Building only | Mezzanine lenders |
 | **Equity** | Leasehold interest | Building owner |
 

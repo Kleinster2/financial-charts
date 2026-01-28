@@ -62,7 +62,7 @@ China's national champion for memory independence. State-backed effort to break 
 ## Key uncertainties
 
 - How long can they maintain existing equipment?
-- Domestic tool progress (SMEE, NAURA, AMEC)
+- Domestic tool progress (SMEE, NAURA, [[AMEC]])
 - Will China prioritize DRAM ([[CXMT]]) over NAND?
 - Enforcement of third-country equipment flows
 

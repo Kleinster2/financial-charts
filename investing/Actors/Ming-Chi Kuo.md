@@ -25,7 +25,7 @@ aliases: [Kuo]
 | Firm | TF International Securities |
 | Focus | Apple hardware, supply chain |
 | Prior firms | KGI Securities, Concord Securities, DigiTimes |
-| Media presence | Active on X/Twitter (blurs leaks vs speculation) |
+| [[Media]] presence | Active on X/Twitter (blurs leaks vs speculation) |
 
 **Method:** Gathers intelligence from Apple's Asian supply chain contacts, translates into research notes. Shuns spotlight, doesn't do interviews.
 
@@ -55,7 +55,7 @@ aliases: [Kuo]
 Primarily Apple and Apple suppliers:
 - [[Apple]] — product roadmap, specs, timing
 - Apple supply chain (Foxconn, TSMC for Apple chips, camera modules, displays)
-- Competitor dynamics (Samsung, Chinese OEMs)
+- Competitor dynamics ([[Samsung]], Chinese OEMs)
 
 ---
 

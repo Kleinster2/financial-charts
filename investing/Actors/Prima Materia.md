@@ -50,8 +50,8 @@ They describe themselves as financing "moonshots" with ambitious scientists and 
 
 | Theme | Examples |
 |-------|----------|
-| **Defense/AI** | [[Helsing]] |
-| **Healthcare** | [[Neko Health]], Epiterna |
+| **[[Defense]]/AI** | [[Helsing]] |
+| **[[Healthcare]]** | [[Neko Health]], Epiterna |
 | **Clean energy** | [[H2 Green Steel]] |
 | **Climate** | [[Pale Blue Dot]] (LP) |
 | **Deep tech** | AI, quantum, advanced materials |
@@ -65,7 +65,7 @@ They describe themselves as financing "moonshots" with ambitious scientists and 
 | Company | Sector | Valuation | Ek's role |
 |---------|--------|-----------|-----------|
 | **[[Helsing]]** | AI defense | **€12B** | Chairman; led €100M (2021) + €600M (2025) |
-| **[[Neko Health]]** | Healthcare AI | **$1.8B** | Co-founder; initial €30M self-funded |
+| **[[Neko Health]]** | [[Healthcare]] AI | **$1.8B** | Co-founder; initial €30M self-funded |
 | **Epiterna** | Longevity | — | Investor |
 
 ### Fund investments

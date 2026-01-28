@@ -24,7 +24,7 @@ aliases: [V]
 - Not a lender (unlike banks)
 - Takes small fee on every transaction
 - Operating margin ~65%
-- Capital-light, high ROIC
+- Capital-light, high [[ROIC]]
 
 ---
 
@@ -45,15 +45,15 @@ aliases: [V]
 
 **Bull:**
 - Cash-to-digital secular trend
-- Network effects (merchants + consumers)
+- [[Network effects]] (merchants + consumers)
 - AI fraud detection moat
 - Cross-border growth
 - Dividend + buybacks
 
 **Bear:**
 - Regulatory pressure (interchange fees)
-- Fintech disruption (real-time payments)
-- Crypto threat (long-term)
+- [[Fintech]] disruption (real-time payments)
+- [[Crypto]] threat (long-term)
 - Valuation premium
 
 ---

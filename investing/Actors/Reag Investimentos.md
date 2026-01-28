@@ -13,14 +13,14 @@
 | Liquidated | January 15, 2026 |
 | Diverted amount | R$11.5B ($2.1B) |
 | Forged instruments | Up to R$17B ($3.15B) |
-| Shell companies used | 36 |
+| [[Shell]] companies used | 36 |
 | Funds implicated | 8 |
 
 ---
 
 ## João Carlos Mansur — the founder
 
-Founder of Reag group. Targeted in second phase of Operation Compliance Zero (January 14, 2026) but was not in Brazil at the time of raids.
+Founder of Reag group. Targeted in second phase of Operation Compliance Zero (January 14, 2026) but was not in [[Brazil]] at the time of raids.
 
 **Prior issues:** Reag previously faced enforcement actions related to alleged fuel-sector money laundering (denied wrongdoing). Under pressure, divested business segments and surrendered distinctive São Paulo headquarters.
 
@@ -33,7 +33,7 @@ Reag funds served as the laundering mechanism for Banco Master's fraudulent loan
 ```
 Banco Master issues fictitious loans
     → 36 shell companies receive R$11.5B
-        → Shell companies "invest" in Besc cártulas via Reag funds
+        → [[Shell]] companies "invest" in Besc cártulas via Reag funds
             → Reag marks up assets to fabricated valuations
                 → Money extracted through fund redemptions
 ```
@@ -115,7 +115,7 @@ Reag shows how the [[Banco Master]] fraud required infrastructure beyond the ban
 | Loan originator | Banco Master |
 | Political protection | Brasília network (Ciro Nogueira, Arthur Lira, BRB) |
 | **Laundering vehicle** | **Reag funds** |
-| Shell companies | 36 entities |
+| [[Shell]] companies | 36 entities |
 | Judicial cover | STF connections |
 
 Without Reag's fund structure, Master couldn't have converted fictitious loans into extractable "profits." The 10.5M% return on High Tower is the smoking gun — no legitimate fund produces such returns.

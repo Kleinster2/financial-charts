@@ -56,7 +56,7 @@ aliases: []
 
 **Heritage:** Premium denim, Italian craftsmanship, rebellious attitude
 
-**Target:** Gen Z, streetwear-adjacent, €200-800 price point
+**[[Target]]:** Gen Z, streetwear-adjacent, €200-800 price point
 
 **Competition:** True Religion (faded), G-Star, premium denim segment
 

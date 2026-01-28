@@ -70,7 +70,7 @@ Powers most ADAS systems globally.
 ## SuperVision growth
 
 **Eyes-off highway driving:**
-- Launched with Zeekr (China)
+- Launched with [[Zeekr]] ([[China]])
 - Expanding to other OEMs
 - Higher ASP than basic ADAS
 - Growth driver
@@ -82,13 +82,13 @@ Powers most ADAS systems globally.
 | Competitor | Approach | Mobileye vs |
 |------------|----------|-------------|
 | NVIDIA Drive | Chips + software | More OEM wins |
-| Qualcomm | Snapdragon Ride | Mobileye entrenched |
+| [[Qualcomm]] | Snapdragon Ride | Mobileye entrenched |
 | [[Tesla]] FSD | Vertical | Different model |
-| Chinese (Horizon) | Local | Losing China share |
+| Chinese (Horizon) | Local | Losing [[China]] share |
 
 ---
 
-## China challenge
+## [[China]] challenge
 
 **Losing share:**
 - Local competitors (Horizon)
@@ -107,7 +107,7 @@ Powers most ADAS systems globally.
 - L4 optionality
 
 **Bear:**
-- China share loss
+- [[China]] share loss
 - Intel overhang
 - NVIDIA competition
 - Tesla vertical threat

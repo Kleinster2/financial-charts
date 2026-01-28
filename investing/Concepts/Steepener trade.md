@@ -19,7 +19,7 @@ aliases: [Yield curve steepener, Curve steepener, 2s10s steepener]
 | Date | 2s10s Spread | Context |
 |------|--------------|---------|
 | Jan 2026 | ~130bp | Largest in 9 months |
-| Trend | Steepening | Trade working |
+| Trend | Steepening | [[Trade]] working |
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [Toshiba Memory]
 ---
 #actor #memory #japan #nand #semiconductor
 
-**Kioxia** — Japanese NAND flash maker. #2 globally. WD joint venture. IPO stalled. Bain Capital owned.
+**Kioxia** — Japanese NAND flash maker. #2 globally. WD joint venture. IPO stalled. [[Bain Capital]] owned.
 
 ---
 
@@ -14,10 +14,10 @@ Second-largest NAND producer, but structurally disadvantaged:
 | Metric | Value |
 |--------|-------|
 | NAND rank | #2 globally |
-| Ownership | Bain Capital (~56%), Toshiba, others |
+| Ownership | [[Bain Capital]] (~56%), Toshiba, others |
 | Status | Private (IPO attempts failed) |
 | JV partner | [[Western Digital]] |
-| HQ | Tokyo, Japan |
+| HQ | Tokyo, [[Japan]] |
 
 ---
 
@@ -27,9 +27,9 @@ Second-largest NAND producer, but structurally disadvantaged:
 |---------|----------|-------|
 | NAND | #2 (behind Samsung) | ~20% market share |
 | DRAM | None | Not a player |
-| HBM | None | Not a player |
+| [[HBM]] | None | Not a player |
 
-**The gap**: No DRAM or HBM means missing the AI memory boom that's driving [[SK Hynix]] and [[Samsung]].
+**The gap**: No DRAM or [[HBM]] means missing the AI memory boom that's driving [[SK Hynix]] and [[Samsung]].
 
 ---
 
@@ -37,9 +37,9 @@ Second-largest NAND producer, but structurally disadvantaged:
 
 | Aspect | Details |
 |--------|---------|
-| Structure | Joint NAND fabs in Japan (Yokkaichi, Kitakami) |
+| Structure | Joint NAND fabs in [[Japan]] (Yokkaichi, Kitakami) |
 | Economics | Shared capex, separate products |
-| History | Dates back to SanDisk partnership |
+| History | Dates back to [[SanDisk]] partnership |
 | Complexity | Coordination on investment timing |
 
 **The arrangement**: WD and Kioxia share fab costs but compete on products. Awkward but capital-efficient.
@@ -98,7 +98,7 @@ Second-largest NAND producer, but structurally disadvantaged:
 - Memory shortage creating pricing power
 - NAND supply lagging demand
 - AI infrastructure buildout absorbing capacity
-- "Everything related to memory — advanced or conventional — is in very strong demand" — CLSA
+- "Everything related to memory — advanced or conventional — is in very strong demand" — [[CLSA]]
 
 ---
 
@@ -107,11 +107,11 @@ Second-largest NAND producer, but structurally disadvantaged:
 | vs Competitor | Assessment |
 |---------------|------------|
 | [[Samsung]] | Behind on scale, technology, no DRAM |
-| [[SK Hynix]] | Far behind (no HBM exposure) |
+| [[SK Hynix]] | Far behind (no [[HBM]] exposure) |
 | [[Micron]] | Similar NAND, but Micron has DRAM |
 | [[Western Digital]] | Partner/competitor hybrid |
 
-**Structural disadvantage**: Pure NAND play in an era where HBM is the prize.
+**Structural disadvantage**: Pure NAND play in an era where [[HBM]] is the prize.
 
 ---
 
@@ -134,10 +134,10 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 - #2 position has value
 - WD JV provides scale
 - IPO could unlock value
-- Japan government support
+- [[Japan]] government support
 
 **Bear:**
-- No HBM = missing AI boom
+- No [[HBM]] = missing AI boom
 - IPO keeps failing
 - Private equity overhang
 - Commodity NAND margins
@@ -147,9 +147,9 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 ## For theses
 
-**[[Long memory]]**: Partial beneficiary of NAND shortage, but missing HBM upside. Less attractive than Korean memory plays.
+**[[Long memory]]**: Partial beneficiary of NAND shortage, but missing [[HBM]] upside. Less attractive than Korean memory plays.
 
-**Not a priority**: Pure NAND exposure without DRAM/HBM makes Kioxia a second-tier memory play.
+**Not a priority**: Pure NAND exposure without DRAM/[[HBM]] makes Kioxia a second-tier memory play.
 
 ---
 
@@ -158,10 +158,10 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 | Metric | Value |
 |--------|-------|
 | Status | Private |
-| HQ | Tokyo, Japan |
+| HQ | Tokyo, [[Japan]] |
 | Founded | 2017 (spun from Toshiba) |
 | Employees | ~15,000 |
-| Fabs | Yokkaichi, Kitakami (Japan) |
+| Fabs | Yokkaichi, Kitakami ([[Japan]]) |
 
 *Updated 2026-01-15*
 
@@ -171,7 +171,7 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 - [[Western Digital]] — JV partner (shared NAND fabs)
 - [[Samsung]] — competitor (#1 NAND)
-- [[SK Hynix]] — competitor (NAND + HBM leader)
+- [[SK Hynix]] — competitor (NAND + [[HBM]] leader)
 - [[Micron]] — competitor (NAND + DRAM)
 - [[Memory shortage 2025-2026]] — tailwind (NAND pricing)
 - [[Long memory]] — thesis (partial beneficiary)

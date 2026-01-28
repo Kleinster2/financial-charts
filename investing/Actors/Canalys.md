@@ -13,7 +13,7 @@ Alternative source for PC/cloud shipment data:
 | **PC shipments** | Dell, HP, Lenovo volumes |
 | **Cloud infrastructure** | AWS, Azure, GCP share |
 | **Smartphones** | Regional shipment data |
-| **Cybersecurity** | Vendor market share |
+| **[[Cybersecurity]]** | Vendor market share |
 
 ---
 
@@ -24,7 +24,7 @@ Alternative source for PC/cloud shipment data:
 | PC data | Similar | Similar |
 | Cloud | Strong | Strong |
 | Size | Smaller | Larger |
-| Geography | Global, Asia strength | Global |
+| Geography | Global, [[Asia]] strength | Global |
 
 Often cited alongside [[IDC]] — useful for cross-validation.
 
@@ -35,7 +35,7 @@ Often cited alongside [[IDC]] — useful for cross-validation.
 Canalys data useful for:
 - PC market validation (compare to IDC)
 - Cloud infrastructure spending
-- Regional breakdowns (Asia-Pacific strength)
+- Regional breakdowns ([[Asia]]-Pacific strength)
 
 ---
 
@@ -55,7 +55,7 @@ Canalys data useful for:
 | Metric | Value |
 |--------|-------|
 | Type | Market research firm |
-| HQ | Singapore, UK, US |
+| HQ | Singapore, [[UK]], US |
 | Founded | 1998 |
 | Coverage | PCs, cloud, mobile, security |
 | Investable | No |

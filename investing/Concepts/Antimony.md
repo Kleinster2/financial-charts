@@ -3,7 +3,7 @@ aliases: [Sb, Stibnite]
 ---
 #concept #commodities #china #defense #critical
 
-**Antimony** — Critical defense mineral. Essential for ammunition primers with NO substitute. China controls 48% of production. Price up 400% since Jan 2024. US restarting domestic production after 24-year gap.
+**Antimony** — Critical defense mineral. Essential for ammunition primers with NO substitute. [[China]] controls 48% of production. Price up 400% since Jan 2024. US restarting domestic production after 24-year gap.
 
 ---
 
@@ -24,11 +24,11 @@ Unlike other critical minerals, antimony has **zero substitutes** for its primar
 |--------|-----|-------------|
 | **Ammunition** | Primer compounds | Irreplaceable |
 | **Flame retardants** | Electronics, textiles | High |
-| **Lead-acid batteries** | Grid storage, vehicles | High |
-| **Night vision** | Infrared sensors | Defense-critical |
-| **Semiconductors** | Compound semiconductors | Moderate |
+| **Lead-acid batteries** | [[Grid storage]], vehicles | High |
+| **Night vision** | Infrared sensors | [[Defense]]-critical |
+| **[[Semiconductors]]** | Compound semiconductors | Moderate |
 
-### Defense applications
+### [[Defense]] applications
 
 | System | Antimony use |
 |--------|--------------|
@@ -40,12 +40,12 @@ Unlike other critical minerals, antimony has **zero substitutes** for its primar
 
 ---
 
-## China dominance
+## [[China]] dominance
 
 | Metric | Value |
 |--------|-------|
-| China production share | **48%** |
-| China share of US imports | **63%** |
+| [[China]] production share | **48%** |
+| [[China]] share of US imports | **63%** |
 | US annual consumption | ~50 million lbs |
 | US domestic production (pre-2025) | **Zero for 24 years** |
 
@@ -55,7 +55,7 @@ Unlike other critical minerals, antimony has **zero substitutes** for its primar
 
 | Date | Action |
 |------|--------|
-| Aug 14, 2024 | China announces export restrictions |
+| Aug 14, 2024 | [[China]] announces export restrictions |
 | Sep 15, 2024 | Dual-use export licenses required |
 | Dec 3, 2024 | Full ban on US exports |
 | Nov 2025 | Ban suspended until Nov 2026 |
@@ -92,14 +92,14 @@ The Pentagon is scrambling to rebuild domestic supply:
 
 ## Antimony vs other critical minerals
 
-| Mineral | China control | Substitute | Price spike | Defense use |
+| Mineral | [[China]] control | Substitute | Price spike | [[Defense]] use |
 |---------|---------------|------------|-------------|-------------|
 | **Antimony** | 48% | **None** | 400% | Ammunition |
-| [[Gallium]] | 99% | Limited | Moderate | Radar, 5G |
+| [[Gallium]] | 99% | Limited | Moderate | Radar, [[5G]] |
 | [[Germanium]] | 60% | Some | Moderate | Fiber, IR |
 | [[Dysprosium]] | 99% | None | 6x spread | Magnets |
 
-**Antimony is unique**: Lower China control than Ga/Ge, but absolutely zero substitutes for ammunition. Physics constraint, not supply chain problem.
+**Antimony is unique**: Lower [[China]] control than Ga/Ge, but absolutely zero substitutes for ammunition. Physics constraint, not supply chain problem.
 
 ---
 
@@ -111,13 +111,13 @@ The Pentagon is scrambling to rebuild domestic supply:
 - Locksley Resources — Mojave production
 
 **Indirect beneficiaries:**
-- Defense contractors with secured supply
+- [[Defense]] contractors with secured supply
 - Battery manufacturers with alternatives
 
 **Risk factors:**
-- China ban suspension could pressure prices
+- [[China]] ban suspension could pressure prices
 - Permitting delays for new US mines
-- Competition from other non-China sources
+- Competition from other non-[[China]] sources
 
 ---
 
@@ -127,7 +127,7 @@ Even with Nov 2025 suspension:
 
 > "The trust between U.S. buyers and Chinese suppliers has been fundamentally broken, leading to a permanent shift in procurement strategies that favors Western-aligned sources."
 
-Pentagon will not return to China dependence regardless of price.
+Pentagon will not return to [[China]] dependence regardless of price.
 
 ---
 
@@ -136,7 +136,7 @@ Pentagon will not return to China dependence regardless of price.
 - [[Gallium]] — Co-banned Dec 2024
 - [[Germanium]] — Co-banned Dec 2024
 - [[China retaliatory toolkit]] — Export control context
-- [[Lockheed Martin]], [[Anduril]] — Defense exposure
+- [[Lockheed Martin]], [[Anduril]] — [[Defense]] exposure
 - [[Rare earth leverage]] — Part of broader resource weaponization
 
 ---

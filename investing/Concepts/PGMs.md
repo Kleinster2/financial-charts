@@ -1,11 +1,11 @@
 ---
-aliases: [Platinum Group Metals, Platinum, Palladium, Rhodium]
+aliases: [[[Platinum]] Group Metals, [[Platinum]], [[Palladium]], Rhodium]
 ---
 #concept #commodity #industrial #auto
 
-# PGMs (Platinum Group Metals)
+# PGMs ([[Platinum]] Group Metals)
 
-**PGMs** — Platinum, palladium, rhodium. Primarily auto catalysts. EV transition = structural headwind. Hydrogen fuel cells = potential offset for platinum.
+**PGMs** — [[Platinum]], palladium, rhodium. Primarily auto catalysts. [[EV transition]] = structural headwind. Hydrogen fuel cells = potential offset for platinum.
 
 ---
 
@@ -13,8 +13,8 @@ aliases: [Platinum Group Metals, Platinum, Palladium, Rhodium]
 
 | Metal | Price tier | Primary use | EV impact |
 |-------|-----------|-------------|-----------|
-| **Platinum** | ~$950/oz | Diesel catalysts, jewelry, hydrogen | Mixed |
-| **Palladium** | ~$950/oz | Gasoline catalysts | Negative |
+| **[[Platinum]]** | ~$950/oz | [[Diesel]] catalysts, jewelry, hydrogen | Mixed |
+| **[[Palladium]]** | ~$950/oz | Gasoline catalysts | Negative |
 | **Rhodium** | ~$4,500/oz | Catalysts (small volumes) | Negative |
 
 Rhodium is rarest — extreme price volatility (hit $29,000 in 2021).
@@ -23,7 +23,7 @@ Rhodium is rarest — extreme price volatility (hit $29,000 in 2021).
 
 ## Demand breakdown
 
-**Platinum:**
+**[[Platinum]]:**
 
 | Use | Share |
 |-----|-------|
@@ -32,7 +32,7 @@ Rhodium is rarest — extreme price volatility (hit $29,000 in 2021).
 | Industrial | ~20% |
 | Investment | ~10% |
 
-**Palladium:**
+**[[Palladium]]:**
 
 | Use | Share |
 |-----|-------|
@@ -40,7 +40,7 @@ Rhodium is rarest — extreme price volatility (hit $29,000 in 2021).
 | Electronics | ~10% |
 | Other | ~5% |
 
-Palladium far more exposed to auto catalyst decline.
+[[Palladium]] far more exposed to auto catalyst decline.
 
 ---
 
@@ -48,19 +48,19 @@ Palladium far more exposed to auto catalyst decline.
 
 **Geographic risk:**
 
-| Country | Platinum | Palladium |
+| Country | [[Platinum]] | [[Palladium]] |
 |---------|----------|-----------|
-| **South Africa** | ~70% | ~40% |
-| **Russia** | ~15% | ~40% |
+| **South [[Africa]]** | ~70% | ~40% |
+| **[[Russia]]** | ~15% | ~40% |
 | Other | ~15% | ~20% |
 
 **Risks:**
-- South Africa: Power grid instability, labor issues, aging mines
-- Russia: Sanctions risk (Nornickel = major producer)
+- South [[Africa]]: Power grid instability, labor issues, aging mines
+- [[Russia]]: Sanctions risk (Nornickel = major producer)
 
 ---
 
-## EV transition headwind
+## [[EV transition]] headwind
 
 **The bear case:**
 
@@ -81,7 +81,7 @@ Palladium far more exposed to auto catalyst decline.
 
 | Factor | Detail |
 |--------|--------|
-| Fuel cell catalyst | Platinum required for PEM fuel cells |
+| Fuel cell catalyst | [[Platinum]] required for PEM fuel cells |
 | Heavy transport | Trucks, buses, ships favor hydrogen |
 | Green hydrogen push | Government subsidies globally |
 | Load per vehicle | 30-60g platinum per fuel cell vehicle |
@@ -89,23 +89,23 @@ Palladium far more exposed to auto catalyst decline.
 **vs Battery EVs:**
 - Passenger cars → batteries winning
 - Heavy duty/long haul → hydrogen has advantages
-- Platinum demand depends on hydrogen adoption pace
+- [[Platinum]] demand depends on hydrogen adoption pace
 
 ---
 
 ## Investment thesis
 
-**Platinum — mixed:**
+**[[Platinum]] — mixed:**
 - EV headwind on diesel catalysts
 - Hydrogen fuel cell optionality
 - Trading below palladium (historically unusual)
-- South Africa supply risks
+- South [[Africa]] supply risks
 - Jewelry demand stable
 
-**Palladium — bearish:**
+**[[Palladium]] — bearish:**
 - 85% auto catalyst exposure
 - Gasoline ICE declining fastest
-- Russia supply risk (could be bull or bear)
+- [[Russia]] supply risk (could be bull or bear)
 - Substitution to platinum possible
 
 **Rhodium — speculative:**
@@ -121,31 +121,31 @@ Palladium far more exposed to auto catalyst decline.
 
 | Ticker | Metal | Notes |
 |--------|-------|-------|
-| PPLT | Platinum | abrdn Physical Platinum |
-| PALL | Palladium | abrdn Physical Palladium |
-| SPPP | Platinum + Palladium | Sprott basket |
+| PPLT | [[Platinum]] | abrdn Physical [[Platinum]] |
+| PALL | [[Palladium]] | abrdn Physical [[Palladium]] |
+| SPPP | [[Platinum]] + [[Palladium]] | Sprott basket |
 
 **Miners:**
 
 | Company | Ticker | Exposure |
 |---------|--------|----------|
-| Anglo American Platinum | AMS (JSE) | Platinum, South Africa |
-| Impala Platinum | IMP (JSE) | Platinum, South Africa |
+| Anglo American [[Platinum]] | AMS (JSE) | [[Platinum]], South [[Africa]] |
+| Impala [[Platinum]] | IMP (JSE) | [[Platinum]], South [[Africa]] |
 | Sibanye Stillwater | SBSW | PGMs + gold, US + SA |
-| Nornickel | GMKN (MCX) | Palladium, Russia (sanctions risk) |
+| Nornickel | GMKN (MCX) | [[Palladium]], [[Russia]] (sanctions risk) |
 
 ---
 
 ## Historical context
 
-**Palladium's rise:**
+**[[Palladium]]'s rise:**
 - 2016: ~$500/oz
-- 2022 peak: ~$3,400/oz (Russia invasion)
+- 2022 peak: ~$3,400/oz ([[Russia]] invasion)
 - Current: ~$950/oz
 
-**What happened:** Diesel scandal (2015) shifted demand to gasoline = palladium. Now reversing as EVs rise.
+**What happened:** [[Diesel]] scandal (2015) shifted demand to gasoline = palladium. Now reversing as EVs rise.
 
-**Platinum discount:**
+**[[Platinum]] discount:**
 - Historically platinum > palladium
 - Now trading at parity or discount
 - Mean reversion thesis exists
@@ -157,10 +157,10 @@ Palladium far more exposed to auto catalyst decline.
 | Risk | Impact |
 |------|--------|
 | EV adoption faster than expected | Accelerates catalyst decline |
-| Hydrogen slower than expected | Platinum loses offset |
-| Russia sanctions | Supply shock (palladium) |
-| South Africa grid collapse | Supply shock (platinum) |
-| Substitution | Platinum ↔ palladium in catalysts |
+| Hydrogen slower than expected | [[Platinum]] loses offset |
+| [[Russia]] sanctions | Supply shock (palladium) |
+| South [[Africa]] grid collapse | Supply shock (platinum) |
+| Substitution | [[Platinum]] ↔ palladium in catalysts |
 
 ---
 
@@ -173,5 +173,5 @@ Palladium far more exposed to auto catalyst decline.
 - [[Gold]] — precious metal (monetary focus)
 - [[Silver]] — precious/industrial hybrid
 - [[Rare earth leverage]] — strategic metals context
-- [[Tesla]] — EV transition driver
+- [[Tesla]] — [[EV transition]] driver
 - [[Hydrogen]] — platinum demand thesis

@@ -9,7 +9,7 @@
 | Attribute | Detail |
 |-----------|--------|
 | Ticker | **EH** (NASDAQ) |
-| HQ | Guangzhou, China |
+| HQ | Guangzhou, [[China]] |
 | Founded | 2014 |
 | Founder/CEO | Hu Huazhi |
 | Employees | ~700 |
@@ -46,10 +46,10 @@
 
 | Market | Status |
 |--------|--------|
-| China | Sightseeing, tourism flights |
+| [[China]] | Sightseeing, tourism flights |
 | UAE | Partnerships, demo flights |
-| Europe | Pursuing EASA certification |
-| Japan | Partnerships |
+| [[Europe]] | Pursuing EASA certification |
+| [[Japan]] | Partnerships |
 
 **Model:** Selling aircraft + operating tourism/sightseeing routes.
 
@@ -73,15 +73,15 @@
 - First certified passenger eVTOL
 - Actually delivering/generating revenue
 - Autonomous = no pilot cost
-- China tourism market
+- [[China]] tourism market
 
 **Bear case:**
 - Small scale
-- China-focused (limited Western certification)
-- NASDAQ listing = China regulatory risk
+- [[China]]-focused (limited Western certification)
+- NASDAQ listing = [[China]] regulatory risk
 - Short-range limits utility
 
-**vs US peers:** Ehang has certification and revenue; Joby/Archer still pre-revenue. But Ehang's market is China-focused.
+**vs US peers:** Ehang has certification and revenue; Joby/Archer still pre-revenue. But Ehang's market is [[China]]-focused.
 
 ---
 

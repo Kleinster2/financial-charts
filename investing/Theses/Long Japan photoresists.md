@@ -1,6 +1,6 @@
 #thesis #trade #active
 
-# Long Japan Photoresists
+# Long [[Japan]] [[Photoresists]]
 
 **Status**: Active — structural chokepoint, EUV demand growing
 **Created**: 2026-01-20
@@ -10,7 +10,7 @@
 
 ## The thesis
 
-Japan controls ~90% of EUV photoresists — the light-sensitive chemicals that transfer circuit patterns onto silicon. No photoresist, no leading-edge chips. This is the "other chokepoint" alongside [[ASML]] equipment. As EUV adoption accelerates at 3nm/2nm nodes, photoresist demand grows 25%+ annually while supply remains concentrated in three Japanese companies.
+[[Japan]] controls ~90% of EUV photoresists — the light-sensitive chemicals that transfer circuit patterns onto silicon. No photoresist, no leading-edge chips. This is the "other chokepoint" alongside [[ASML]] equipment. As EUV adoption accelerates at 3nm/2nm nodes, photoresist demand grows 25%+ annually while supply remains concentrated in three Japanese companies.
 
 **Primary vehicle**: [[Tokyo Ohka Kogyo]] (4186.T) — the largest publicly traded pure-play after [[JSR Corporation]] went private.
 
@@ -26,7 +26,7 @@ Japan controls ~90% of EUV photoresists — the light-sensitive chemicals that t
 | [[Tokyo Ohka Kogyo]] | ~20-25% | Public (4186.T) |
 | [[Shin-Etsu]] | ~15% | Public (diversified) |
 
-**Top 3 Japan = ~90% of EUV photoresists.** No alternative suppliers at scale.
+**Top 3 [[Japan]] = ~90% of EUV photoresists.** No alternative suppliers at scale.
 
 ### Why it's hard to replicate
 
@@ -34,11 +34,11 @@ Japan controls ~90% of EUV photoresists — the light-sensitive chemicals that t
 - **Customer qualification**: 12-24 months to qualify new supplier
 - **Chemistry complexity**: EUV resists must absorb 13.5nm wavelength light efficiently
 - **Clean room expertise**: Sub-ppb contamination control
-- **No shortcuts**: China has tried, limited progress
+- **No shortcuts**: [[China]] has tried, limited progress
 
-### Japan hasn't weaponized it — yet
+### [[Japan]] hasn't weaponized it — yet
 
-2019 precedent: Japan restricted photoresists to Korea over wartime labor disputes. Brief Samsung/SK Hynix disruption. Demonstrated latent leverage.
+2019 precedent: [[Japan]] restricted photoresists to Korea over wartime labor disputes. Brief [[Samsung]]/[[SK Hynix]] disruption. Demonstrated latent leverage.
 
 ---
 
@@ -82,8 +82,8 @@ More layers = more photoresist per wafer.
 
 **Why TOK:**
 - JSR went private — TOK is the cleanest public pure-play
-- Aggressive capacity expansion (Japan ¥200B+, Korea ¥20B)
-- Intel partnership for sub-2nm development
+- Aggressive capacity expansion ([[Japan]] ¥200B+, Korea ¥20B)
+- [[Intel]] partnership for sub-2nm development
 - >50% revenue from electronic materials
 
 ### Diversified alternatives
@@ -92,14 +92,14 @@ More layers = more photoresist per wafer.
 |---------|--------|---------------------|------------------|
 | [[Shin-Etsu]] | 4063.T | ~10% of revenue | Wafers (35%), PVC (30%) |
 | [[Sumitomo Chemical]] | 4005.T | ~8% of revenue | Petrochemicals, pharma |
-| [[Fujifilm]] | 4901.T | ~5% of revenue | Healthcare dominant |
+| [[Fujifilm]] | 4901.T | ~5% of revenue | [[Healthcare]] dominant |
 
-### Non-Japan alternatives
+### Non-[[Japan]] alternatives
 
 | Company | Ticker | Share | Notes |
 |---------|--------|-------|-------|
-| [[Qnity]] | Q | ~7% | US pure-play, DuPont spin |
-| [[Merck KGaA]] | MRK.DE | ~5% | Europe, diversified |
+| [[Qnity]] | Q | ~7% | US pure-play, [[DuPont]] spin |
+| [[Merck KGaA]] | MRK.DE | ~5% | [[Europe]], diversified |
 
 Supply chain diversification value, but smaller scale.
 
@@ -111,27 +111,27 @@ Supply chain diversification value, but smaller scale.
 - [ ] TOK/JSR/Shin-Etsu maintain 85%+ combined share
 - [ ] Leading-edge node adoption continues (3nm → 2nm → 1.4nm)
 - [ ] High-NA EUV ramp creates new resist demand
-- [ ] No meaningful China localization progress
-- [ ] Capacity expansions come online (TOK Japan 2026, Korea 2030)
+- [ ] No meaningful [[China]] localization progress
+- [ ] Capacity expansions come online (TOK [[Japan]] 2026, Korea 2030)
 
 ---
 
 ## What invalidates the thesis
 
 - [ ] Alternative lithography technology emerges (DSA, nanoimprint)
-- [ ] China achieves meaningful photoresist production
+- [ ] [[China]] achieves meaningful photoresist production
 - [ ] AI demand slowdown reduces leading-edge chip demand
-- [ ] Japan weaponizes materials (could hurt or help depending on positioning)
+- [ ] [[Japan]] weaponizes materials (could hurt or help depending on positioning)
 - [ ] New entrant disrupts with metal-oxide resists at scale
 - [ ] Memory-heavy demand mix (less EUV-intensive)
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 **Primary**: Tokyo Ohka Kogyo (4186.T)
 - Pure-play, highest beta to thesis
-- Japan-listed, yen exposure
+- [[Japan]]-listed, yen exposure
 - ~$3B market cap, decent liquidity
 
 **Diversified**: Shin-Etsu (4063.T)
@@ -145,7 +145,7 @@ Supply chain diversification value, but smaller scale.
 - Just spun off, potential volatility
 
 **Basket approach**: TOK (50%) + Shin-Etsu (30%) + Qnity (20%)
-- Diversifies Japan/currency risk
+- Diversifies [[Japan]]/currency risk
 - Captures both pure-play and diversified angles
 
 ---
@@ -156,8 +156,8 @@ Supply chain diversification value, but smaller scale.
 |------|------------|
 | Yen volatility | Hedge or accept; thesis is structural |
 | Cyclicality | EUV less cyclical than commodity resists |
-| Customer concentration | TSMC/Samsung/Intel all need resists |
-| Japan geopolitics | Monitor China-Japan relations |
+| Customer concentration | [[TSMC]]/[[Samsung]]/[[Intel]] all need resists |
+| [[Japan]] geopolitics | Monitor [[China-Japan relations]] |
 | Technology shift | Metal-oxide resists still early |
 
 ---
@@ -165,13 +165,13 @@ Supply chain diversification value, but smaller scale.
 ## Link to other theses
 
 **[[Long WFE]]**: Complementary picks and shovels
-- Equipment = US/Netherlands/Japan
-- Materials = Japan-dominated
+- Equipment = US/Netherlands/[[Japan]]
+- Materials = [[Japan]]-dominated
 - Both benefit from fab buildout
 
 **[[Long memory]]**: Different exposure
 - Memory uses less EUV (more KrF/ArF)
-- But HBM driving some leading-edge process
+- But [[HBM]] driving some leading-edge process
 
 **[[Short TSMC long Korea]]**: Neutral
 - Thesis is upstream of foundry competition
@@ -183,11 +183,11 @@ Supply chain diversification value, but smaller scale.
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
-| 2024-06 | JSR delisted after JIC ¥909B ($6.4B) acquisition | Japan protecting strategic asset |
-| 2024-07 | TOK announces Intel sub-2nm partnership | Technology leadership validated |
-| 2024-10 | DuPont Sasakami expansion nearly doubles capacity | Non-Japan players investing |
-| 2025-06 | Fujifilm Kumamoto +30% EUV capacity for TSMC | Demand from leading fabs |
-| 2025-11 | Qnity spins from DuPont, joins S&P 500 | US pure-play created |
+| 2024-06 | JSR delisted after JIC ¥909B ($6.4B) acquisition | [[Japan]] protecting strategic asset |
+| 2024-07 | TOK announces [[Intel]] sub-2nm partnership | Technology leadership validated |
+| 2024-10 | [[DuPont]] Sasakami expansion nearly doubles capacity | Non-[[Japan]] players investing |
+| 2025-06 | Fujifilm Kumamoto +30% EUV capacity for [[TSMC]] | Demand from leading fabs |
+| 2025-11 | Qnity spins from [[DuPont]], joins S&P 500 | US pure-play created |
 | 2026-01 | EUV photoresist market growing 25%+ CAGR | Structural demand confirmed |
 
 ---

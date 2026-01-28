@@ -69,7 +69,7 @@ The Meta-Corning deal ($6B through 2030) is the clearest signal of the supercycl
 |---------|--------------|
 | **Hyperscaler data centers** | AI training/inference clusters |
 | **Enterprise AI** | Private AI infrastructure |
-| **Telecom backhaul** | 5G densification |
+| **[[Telecom]] backhaul** | [[5G]] densification |
 | **Submarine cables** | International AI capacity |
 | **Edge computing** | Distributed AI inference |
 
@@ -119,7 +119,7 @@ Multi-year contracts (like Meta-Corning) lock in supply amid tight capacity.
 
 ## Metrics to watch
 
-| Metric | Signal |
+| Metric | [[Signal]] |
 |--------|--------|
 | Hyperscaler capex guidance | Leading indicator |
 | Corning Optical segment growth | Demand proxy |

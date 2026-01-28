@@ -18,13 +18,13 @@ aliases: [Big Midterms Are Coming, Big MAC, Midterm risk 2026]
 
 ## Affordability targets (Jan 2026)
 
-| Target | Action | Sector hit |
+| [[Target]] | Action | Sector hit |
 |--------|--------|------------|
-| **Credit card rates** | 10% cap demand | Banks (-5%+) |
-| **Mortgage rates** | $200B GSE MBS purchase | Mixed |
+| **Credit card rates** | 10% cap demand | [[Banks]] (-5%+) |
+| **[[Mortgage rates]]** | $200B GSE MBS purchase | Mixed |
 | **Fed funds rate** | Powell subpoenas, pressure | Uncertainty |
-| **Oil prices** | Production pressure | Energy |
-| **Defense** | Dividend halt demand | Defense contractors |
+| **[[Oil]] prices** | Production pressure | Energy |
+| **[[Defense]]** | Dividend halt demand | [[Defense]] contractors |
 
 ---
 
@@ -35,7 +35,7 @@ aliases: [Big Midterms Are Coming, Big MAC, Midterm risk 2026]
 - Mortgages ([[Fannie Mae]], [[Freddie Mac]])
 - Overall interest rates ([[Fed independence]])
 
-Banks already hit: JPM, BAC, C, WFC all tumbled post-earnings despite beats.
+[[Banks]] already hit: JPM, BAC, C, WFC all tumbled post-earnings despite beats.
 
 ---
 
@@ -78,7 +78,7 @@ Midterm years = lower-than-average returns due to policy uncertainty.
 | Metric | Level |
 |--------|-------|
 | Single-stock realized vol | ~22 points above index vol |
-| VVIX (vol of VIX) | Highest since November |
+| VVIX (vol of [[VIX]]) | Highest since November |
 | S&P 500 macro impact | Still low by historical standards |
 
 **Dennis Debusschere (22V Research):**
@@ -91,7 +91,7 @@ Midterm years = lower-than-average returns due to policy uncertainty.
 **Kimberly Forrest (Bokeh Capital):**
 - Extend time horizon (3-5 years)
 - Look past current political cycle
-- Own quality despite short-term noise (e.g., Exxon despite Venezuela)
+- Own quality despite short-term noise (e.g., [[Exxon]] despite [[Venezuela]])
 
 For short-term traders: "Good luck."
 
@@ -110,9 +110,9 @@ Big MAC succeeds TACO as dominant political risk framework for 2026.
 | Sector | Risk |
 |--------|------|
 | **Financials** | Credit cards, mortgages, rates |
-| **Defense** | Dividend/buyback restrictions |
+| **[[Defense]]** | Dividend/buyback restrictions |
 | **Energy** | Production/price pressure |
-| **Healthcare** | Drug pricing (potential) |
+| **[[Healthcare]]** | Drug pricing (potential) |
 | **Tech** | Antitrust (ongoing) |
 
 ---

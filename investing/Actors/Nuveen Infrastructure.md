@@ -28,7 +28,7 @@ aliases: [Nuveen]
 - Not asset quality issue — market timing
 
 **Current activity:**
-- In talks for wind asset deals in Europe
+- In talks for wind asset deals in [[Europe]]
 - Market fluidity improving
 
 ---
@@ -44,7 +44,7 @@ aliases: [Nuveen]
 - Sellers lowering price expectations
 - Data center demand supporting renewables
 - Less policy uncertainty (US safe-harbor rules preserved)
-- IEA forecasts renewables fastest-growing source through 2035
+- [[IEA]] forecasts renewables fastest-growing source through 2035
 
 ---
 

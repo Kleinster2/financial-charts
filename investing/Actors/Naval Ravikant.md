@@ -3,7 +3,7 @@ aliases: [Naval]
 ---
 #actor #investor #individual #usa #angel
 
-**Naval Ravikant** — AngelList co-founder. Twitter, Uber angel. Philosopher-investor. ~$1B+ net worth.
+**Naval Ravikant** — AngelList co-founder. Twitter, [[Uber]] angel. Philosopher-investor. ~$1B+ net worth.
 
 ---
 
@@ -46,12 +46,12 @@ AngelList changed how startups raise and angels invest.
 | Company | Stage | Status |
 |---------|-------|--------|
 | **Twitter** | Angel | Acquired by Musk |
-| **Uber** | Angel | Public (UBER) |
+| **[[Uber]]** | Angel | Public (UBER) |
 | **Yammer** | Angel | Acquired by MSFT |
 | **Wish** | Angel | Public (crashed) |
-| **Notion** | Angel | Private |
+| **[[Notion]]** | Angel | Private |
 | **Opendoor** | Angel | Public (OPEN) |
-| **Postmates** | Angel | Acquired by Uber |
+| **Postmates** | Angel | Acquired by [[Uber]] |
 
 ---
 

@@ -3,21 +3,21 @@ aliases: [Gulf tech competition]
 ---
 #concept #thesis #sovereign #gcc
 
-**GCC Tech Race** — Gulf states competing for post-oil tech leadership. UAE leads, Saudi has capital.
+**[[GCC]] Tech Race** — Gulf states competing for post-oil tech leadership. UAE leads, Saudi has capital.
 
 ---
 
 ## The thesis
 
-GCC countries racing to build AI/tech ecosystems:
+[[GCC]] countries racing to build AI/tech ecosystems:
 
 | Country | SWF | AI Status | Strategy |
 |---------|-----|-----------|----------|
-| [[UAE Tech]] | $1.5T+ | Leading | G42, Falcon LLM |
+| [[UAE Tech]] | $1.5T+ | Leading | [[G42]], Falcon LLM |
 | [[Saudi Arabia Tech]] | $930B | Aggressive | $100B AI fund |
 | [[Qatar Tech]] | $500B | Developing | Research focus |
 | [[Kuwait Tech]] | $900B | Limited | Conservative |
-| [[Bahrain Tech]] | $20B | Fintech niche | Regulatory edge |
+| [[Bahrain Tech]] | $20B | [[Fintech]] niche | Regulatory edge |
 | [[Oman Tech]] | $50B | Minimal | Infrastructure |
 
 ---
@@ -26,15 +26,15 @@ GCC countries racing to build AI/tech ecosystems:
 
 **UAE (most advanced):**
 - Falcon LLM (actual AI output)
-- G42 execution
-- Microsoft $1.5B validation
-- Chose US over China
+- [[G42]] execution
+- [[Microsoft]] $1.5B validation
+- Chose US over [[China]]
 - **OpenAI Stargate** — 1GW AI datacenter under construction
 
 **Saudi (most capital):**
 - $100B AI fund
-- NEOM mega-project
-- a16z partnership
+- [[NEOM]] mega-project
+- [[a16z]] partnership
 - Execution lagging
 
 ---
@@ -57,7 +57,7 @@ GCC countries racing to build AI/tech ecosystems:
 - Cheap natural gas
 - Sovereign wealth backing
 - Faster permitting than US
-- US-aligned (post-Huawei divestment)
+- US-aligned (post-[[Huawei]] divestment)
 
 ---
 
@@ -68,19 +68,19 @@ GCC countries racing to build AI/tech ecosystems:
 | UAE | AI execution, models |
 | Saudi | Mega-projects, capital |
 | Qatar | Research, Arabic NLP |
-| Bahrain | Fintech, regulatory |
-| Kuwait | Telecom (Zain) |
+| Bahrain | [[Fintech]], regulatory |
+| Kuwait | [[Telecom]] (Zain) |
 | Oman | Infrastructure, cables |
 
 ---
 
-## Total GCC sovereign capital
+## Total [[GCC]] sovereign capital
 
 **~$4 trillion combined:**
-- ADIA (UAE): $900B+
+- [[ADIA]] (UAE): $900B+
 - KIA (Kuwait): $900B+
 - PIF (Saudi): $930B+
-- Mubadala (UAE): $300B+
+- [[Mubadala]] (UAE): $300B+
 - QIA (Qatar): $500B+
 - Others: $200B+
 
@@ -88,18 +88,18 @@ Massive capital seeking tech returns.
 
 ---
 
-## US-China alignment
+## US-[[China]] alignment
 
 | Country | Alignment |
 |---------|-----------|
-| UAE | Chose US (Huawei divestment) |
+| UAE | Chose US ([[Huawei]] divestment) |
 | Saudi | Balancing |
 | Qatar | Neutral |
 | Bahrain | US-aligned (5th Fleet) |
 | Kuwait | US-aligned |
 | Oman | Neutral |
 
-G42 divesting Huawei = template.
+[[G42]] divesting [[Huawei]] = template.
 
 ---
 
@@ -107,7 +107,7 @@ G42 divesting Huawei = template.
 
 **Hyperscalers win:**
 - Everyone buying from NVIDIA
-- AWS, Azure, Google regions
+- AWS, Azure, [[Google]] regions
 - Selling to all sides
 
 **Watch for:**
@@ -121,10 +121,10 @@ G42 divesting Huawei = template.
 
 | Metric | Value |
 |--------|-------|
-| Total GCC SWF | ~$4 trillion |
-| AI leader | UAE (G42) |
+| Total [[GCC]] SWF | ~$4 trillion |
+| AI leader | UAE ([[G42]]) |
 | Most capital | Saudi (PIF) |
-| Fintech hub | Bahrain |
+| [[Fintech]] hub | Bahrain |
 
 *Updated 2026-01-01*
 
@@ -132,8 +132,8 @@ G42 divesting Huawei = template.
 
 ## Related
 
-- [[UAE Tech]] — leader (G42, Falcon LLM, Microsoft $1.5B, OpenAI Stargate)
-- [[UAE G42]] — executor (most advanced GCC AI)
+- [[UAE Tech]] — leader ([[G42]], Falcon LLM, [[Microsoft]] $1.5B, OpenAI Stargate)
+- [[UAE G42]] — executor (most advanced [[GCC]] AI)
 - [[Saudi Arabia Tech]] — capital leader ($100B AI fund)
 - [[Saudi PIF]] — funder ($930B sovereign wealth)
 - [[Qatar Tech]] — player (research, Arabic NLP)
@@ -141,7 +141,7 @@ G42 divesting Huawei = template.
 - [[Bahrain Tech]] — player (fintech niche)
 - [[Oman Tech]] — player (infrastructure, cables)
 - [[Sovereign AI race]] — context (nations as AI actors)
-- [[NVIDIA]] — supplier (sells to all GCC states)
+- [[NVIDIA]] — supplier (sells to all [[GCC]] states)
 - [[OpenAI]] — partner (UAE Stargate 1GW)
 - [[Ansaldo Energia]] — supplier (gas turbines for Stargate)
 

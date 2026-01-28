@@ -3,7 +3,7 @@ aliases: [Databricks CVC]
 ---
 #actor #cvc #ai
 
-**Databricks Ventures** — [[Databricks]]' corporate venture arm. **47 investments** since 2021. Focus: AI/ML infrastructure, data platforms. Key bets: [[Mistral AI]], LangChain, [[Perplexity]], Neon, Glean.
+**Databricks Ventures** — [[Databricks]]' corporate venture arm. **47 investments** since 2021. Focus: AI/ML infrastructure, data platforms. Key bets: [[Mistral AI]], LangChain, [[Perplexity]], [[Neon]], [[Glean]].
 
 ---
 
@@ -38,10 +38,11 @@ Deploying from the largest private AI infrastructure company — strategic align
 | [[Mistral AI]] | Foundation models | European AI leader |
 | LangChain | LLM orchestration | Open-source framework |
 | [[Perplexity]] | AI search | Answer engine |
-| Neon | Serverless Postgres | Database infrastructure |
-| Glean | Enterprise AI search | Work assistant |
+| [[Neon]] | Serverless [[Postgres]] | Database infrastructure |
+| [[Glean]] | Enterprise AI search | Work assistant |
 | [[World Labs]] | Spatial intelligence | [[Fei-Fei Li]]'s startup |
-| Lovable | AI app generation | Dec 2025 (latest) |
+| [[Cohere]] | Enterprise LLMs | $7B valuation |
+| [[Lovable]] | AI app generation | Dec 2025 (latest) |
 
 ---
 
@@ -49,9 +50,9 @@ Deploying from the largest private AI infrastructure company — strategic align
 
 | Company | Date | Notes |
 |---------|------|-------|
-| Lovable | Dec 2025 | AI-powered app creation |
-| Neon | 2025 | Serverless database |
-| Glean | 2025 | Enterprise search |
+| [[Lovable]] | Dec 2025 | AI-powered app creation |
+| [[Neon]] | 2025 | Serverless database |
+| [[Glean]] | 2025 | Enterprise search |
 
 ---
 
@@ -99,7 +100,7 @@ Deploying from the largest private AI infrastructure company — strategic align
 | Portfolio | 47 companies |
 | Exits | 8 |
 | Focus | AI/ML, data infrastructure |
-| Key bets | Mistral AI, LangChain, Perplexity |
+| Key bets | [[Mistral]] AI, LangChain, Perplexity |
 
 *Created 2026-01-27*
 
@@ -111,6 +112,7 @@ Deploying from the largest private AI infrastructure company — strategic align
 - [[World Labs]] — portfolio company
 - [[Mistral AI]] — portfolio company
 - [[Perplexity]] — portfolio company
+- [[Cohere]] — portfolio company
 - [[NVentures]] — peer CVC
 - [[AMD Ventures]] — peer CVC
 - [[Adobe Ventures]] — peer CVC

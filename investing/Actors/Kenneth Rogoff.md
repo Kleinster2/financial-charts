@@ -112,7 +112,7 @@ See: [[Time consistency]]
 
 | Focus | Position |
 |-------|----------|
-| Argentina crisis | Advocated debt restructuring |
+| [[Argentina]] crisis | Advocated debt restructuring |
 | Fiscal sustainability | Warned about debt levels |
 | Exchange rate regimes | Flexible rates for most countries |
 
@@ -134,7 +134,7 @@ See: [[Time consistency]]
 
 | Topic | Rogoff's view |
 |-------|---------------|
-| Fed independence | Essential; must be protected |
+| [[Fed independence]] | Essential; must be protected |
 | Negative rates | Would be easier without cash |
 | Inflation targeting | Generally supports current frameworks |
 

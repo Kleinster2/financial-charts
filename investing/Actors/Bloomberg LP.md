@@ -24,7 +24,7 @@ aliases: [Bloomberg, Bloomberg Terminal]
 ## History
 
 **1981 — The severance bet:**
-Michael Bloomberg, a general partner at Salomon Brothers, was pushed out after the firm sold to Phibro Corporation. At age 39, he took his **$10M severance** and founded Innovative Market Systems (later Bloomberg LP) with Thomas Secunda, Duncan MacMillan, and Charles Zegar.
+Michael Bloomberg, a general partner at [[Salomon Brothers]], was pushed out after the firm sold to Phibro Corporation. At age 39, he took his **$10M severance** and founded Innovative Market Systems (later Bloomberg LP) with Thomas Secunda, Duncan MacMillan, and Charles Zegar.
 
 **1982 — Merrill Lynch contract:**
 Bloomberg secured a **$30M contract** from Merrill Lynch, which also took a 12% ownership stake. The first terminal shipped in December 1982.
@@ -37,8 +37,8 @@ Bloomberg secured a **$30M contract** from Merrill Lynch, which also took a 12% 
 | 1987 | — | — | London office opened |
 | 1990 | 10,000 | — | Bloomberg News launched |
 | 1992 | 20,000 | — | Rapid expansion |
-| 1993 | 31,000 | $370M | Media ventures drove terminal sales |
-| 2012 | — | — | Surpassed Thomson Reuters in terminal revenue |
+| 1993 | 31,000 | $370M | [[Media]] ventures drove terminal sales |
+| 2012 | — | — | Surpassed [[Thomson Reuters]] in terminal revenue |
 | 2022 | 325,000 | — | Current subscriber base |
 | 2024 | — | ~$13B | Estimated revenue |
 
@@ -52,7 +52,7 @@ Bloomberg secured a **$30M contract** from Merrill Lynch, which also took a 12% 
 |---------|---------------|-------------|
 | **Bloomberg Terminal** | ~85% | Data, analytics, trading, messaging |
 | **Enterprise data** | ~10% | Licensing data to other platforms |
-| **Bloomberg News/Media** | ~5% | News, TV, radio, digital |
+| **Bloomberg News/[[Media]]** | ~5% | News, TV, radio, digital |
 
 **Terminal pricing:** ~$25,000-30,000/user/year (vs. Refinitiv at ~$20,000)
 
@@ -66,7 +66,7 @@ More subscribers → Better chat network → More essential → Higher prices �
 ```
 
 **Moats:**
-- **Network effects:** Bloomberg Message is how Wall Street communicates. Can't leave if counterparties are on Bloomberg.
+- **[[Network effects]]:** Bloomberg Message is how Wall Street communicates. Can't leave if counterparties are on Bloomberg.
 - **Switching costs:** Workflows, keyboard shortcuts, muscle memory built over decades
 - **Data breadth:** 35M+ instruments, proprietary indices, historical depth
 - **Bundling:** News + data + analytics + trading + chat in one terminal
@@ -95,7 +95,7 @@ Bloomberg stepped away 2002–2013 to serve as NYC Mayor.
 | **Refinitiv** (LSEG) | ~25% | Cheaper, Eikon terminal |
 | **FactSet** | ~5% | Strong in buy-side research |
 | **S&P Capital IQ** | ~5% | Corporate finance focus |
-| **Morningstar** | — | Retail/advisor focus |
+| **[[Morningstar]]** | — | Retail/advisor focus |
 
 **Competitive dynamics:** Refinitiv gaining share at lower price point. But Bloomberg's network effects in chat/messaging create stickiness that pure data competitors can't match.
 

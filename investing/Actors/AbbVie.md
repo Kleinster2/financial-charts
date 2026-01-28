@@ -111,7 +111,7 @@ aliases: [ABBV]
 ## Related
 
 - [[Patent cliffs]] — the success story (460% return through Humira cliff)
-- [[Merck]] — facing similar cliff (Keytruda Dec 2028)
+- [[Merck]] — facing similar cliff ([[Keytruda]] Dec 2028)
 - [[Bristol-Myers Squibb]] — steeper cliff, cheaper valuation
 - [[Biopharma]] — sector
 - [[Amgen]] — biosimilar competitor

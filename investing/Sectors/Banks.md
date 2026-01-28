@@ -20,6 +20,17 @@ Overview of the US banking sector.
 | [[Citigroup]] | ~$2.4T | ~$130B | Global, trading |
 | [[Wells Fargo]] | ~$1.9T | ~$200B | Consumer, recovering |
 
+### Productivity comparison (2024)
+
+| Bank | Employees | Revenue | Net Income | NII | Rev/Emp | NI/Emp | NII/Emp |
+|------|-----------|---------|------------|-----|---------|--------|---------|
+| [[JPMorgan Chase]] | 317k | $173B | $58B | ~$93B | **$546k** | **$183k** | **$293k** |
+| [[Bank of America]] | 213k | $102B | $27B | ~$56B | $479k | $127k | $263k |
+| [[Wells Fargo]] | 210k | $82B | $20B | ~$50B | $390k | $95k | $238k |
+| [[Citigroup]] | 229k | $81B | $11B | ~$54B | $354k | $48k | $236k |
+
+JPM generates **40% more revenue per employee** than WFC and **2x profit per employee**. WFC's aggressive AI/headcount cuts are about catching up to peers, not extending a lead. See [[AI in banking]].
+
 ### Investment banks
 
 | Bank | Market cap | Strength |

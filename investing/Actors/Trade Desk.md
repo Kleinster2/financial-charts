@@ -1,13 +1,13 @@
 ---
-aliases: [TTD, The Trade Desk]
+aliases: [TTD, The [[Trade]] Desk]
 ---
 #actor #adtech #ctv #usa #public
 
-**Trade Desk** — #1 independent demand-side platform (DSP). CTV advertising leader. ~$60B market cap. Beneficiary of streaming ad tiers.
+**[[Trade]] Desk** — #1 independent demand-side platform (DSP). CTV advertising leader. ~$60B market cap. Beneficiary of streaming ad tiers.
 
 ---
 
-## Why Trade Desk matters
+## Why [[Trade]] Desk matters
 
 | Metric | Value |
 |--------|-------|
@@ -19,7 +19,7 @@ aliases: [TTD, The Trade Desk]
 
 ---
 
-## What Trade Desk does
+## What [[Trade]] Desk does
 
 | Function | Description |
 |----------|-------------|
@@ -41,7 +41,7 @@ aliases: [TTD, The Trade Desk]
 | Partners | Roku, Disney, Netflix, Paramount, etc. |
 | Position | #1 independent CTV buyer |
 
-**Thesis:** Every streaming ad tier needs programmatic buying → Trade Desk.
+**Thesis:** Every streaming ad tier needs programmatic buying → [[Trade]] Desk.
 
 ---
 
@@ -55,7 +55,7 @@ aliases: [TTD, The Trade Desk]
 | [[Paramount Global]] | Existing | Yes |
 | [[Comcast]] Peacock | Existing | Yes |
 
-**Every new ad tier = more inventory for Trade Desk.**
+**Every new ad tier = more inventory for [[Trade]] Desk.**
 
 ---
 
@@ -63,12 +63,12 @@ aliases: [TTD, The Trade Desk]
 
 | Competitor | Threat |
 |------------|--------|
-| Google DV360 | Walled garden conflict |
-| Amazon DSP | Walled garden conflict |
-| Meta | Walled garden, limited CTV |
+| [[Google]] DV360 | Walled garden conflict |
+| [[Amazon]] DSP | Walled garden conflict |
+| [[Meta]] | Walled garden, limited CTV |
 | Criteo | Smaller, retail focus |
 
-**Advantage:** Independence. Brands want alternative to Google/Meta duopoly.
+**Advantage:** Independence. Brands want alternative to [[Google]]/[[Meta]] duopoly.
 
 ---
 
@@ -81,7 +81,7 @@ aliases: [TTD, The Trade Desk]
 | Benefit | Identity across channels |
 | Strategy | Industry standard, open-source |
 
-**Goal:** Create post-cookie identity layer that Trade Desk facilitates.
+**Goal:** Create post-cookie identity layer that [[Trade]] Desk facilitates.
 
 ---
 
@@ -119,7 +119,7 @@ aliases: [TTD, The Trade Desk]
 
 **Bear:**
 - Valuation (~25x revenue)
-- Google/Amazon competition
+- [[Google]]/[[Amazon]] competition
 - Macro ad spending sensitivity
 - Cookie deprecation uncertainty
 - Customer concentration
@@ -149,6 +149,6 @@ aliases: [TTD, The Trade Desk]
 
 ## Sources
 
-- [Trade Desk IR](https://www.thetradedesk.com/us/about-us/investor-relations)
+- [[[Trade]] Desk IR](https://www.thetradedesk.com/us/about-us/investor-relations)
 
 *Created 2026-01-16*

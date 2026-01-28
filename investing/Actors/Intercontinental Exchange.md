@@ -24,7 +24,7 @@ aliases: [ICE, NYSE, New York Stock Exchange]
 
 | Segment | % of net revenue | Description |
 |---------|------------------|-------------|
-| **Exchanges** | ~54% | NYSE, ICE Futures US/Europe/Canada |
+| **Exchanges** | ~54% | NYSE, ICE Futures US/[[Europe]]/[[Canada]] |
 | **Fixed Income & Data** | ~24% | Bonds, pricing data, analytics |
 | **Mortgage Technology** | ~22% | Black Knight, Ellie Mae |
 
@@ -48,16 +48,16 @@ aliases: [ICE, NYSE, New York Stock Exchange]
 
 ## Key acquisitions
 
-| Year | Target | Price | Rationale |
+| Year | [[Target]] | Price | Rationale |
 |------|--------|-------|-----------|
 | 2013 | **NYSE Euronext** | $8.2B | Flagship equity exchange |
-| 2015 | IDC | $5.2B | Fixed income data |
+| 2015 | [[IDC]] | $5.2B | Fixed income data |
 | 2020 | Ellie Mae | $11B | Mortgage origination |
 | 2023 | **Black Knight** | $11.7B | Mortgage servicing |
 | 2025 | American Financial Exchange | — | AMERIBOR |
 | 2025 | Polymarket (investment) | $2B at $8B val | Event contracts data |
 
-**NYSE (2013):** Spun off Euronext (2014), kept NYSE + LIFFE (now ICE Futures Europe).
+**NYSE (2013):** Spun off Euronext (2014), kept NYSE + LIFFE (now ICE Futures [[Europe]]).
 
 ---
 
@@ -81,8 +81,8 @@ Data = recurring, high-margin revenue.
 | NYSE | Equities exchange |
 | NYSE Arca | ETF trading |
 | NYSE American | Small-cap |
-| ICE Futures US | Commodities |
-| ICE Futures Europe | Brent crude benchmark |
+| ICE Futures US | [[Commodities]] |
+| ICE Futures [[Europe]] | Brent crude benchmark |
 | Ellie Mae | Mortgage tech |
 
 ---
@@ -122,7 +122,7 @@ Data = recurring, high-margin revenue.
 - [[Nasdaq]] — competitor (exchange, data)
 - [[CME Group]] — competitor (derivatives)
 - [[CBOE]] — competitor (options)
-- [[HKEX]] — peer (Asia exchange)
+- [[HKEX]] — peer ([[Asia]] exchange)
 - [[London Stock Exchange Group]] — peer (exchange + data)
 - [[Financial data industry]] — data segment context
 

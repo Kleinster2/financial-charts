@@ -47,8 +47,8 @@ aliases: [CAT]
 | Driver | Impact |
 |--------|--------|
 | **Data centers** | Power generation demand |
-| **AI infrastructure** | Natural gas turbines |
-| **Mining** | Critical minerals for EVs |
+| **AI infrastructure** | [[Natural gas]] turbines |
+| **Mining** | [[Critical minerals]] for EVs |
 | **Infrastructure Act** | US construction spending |
 
 ---
@@ -70,8 +70,8 @@ aliases: [CAT]
 | Competitor | Focus |
 |------------|-------|
 | **Caterpillar** | Full line leader |
-| Komatsu | Japan, #2 global |
-| [[Deere]] | Agriculture + construction |
+| Komatsu | [[Japan]], #2 global |
+| [[Deere]] | [[Agriculture]] + construction |
 | Hitachi | Mining, excavators |
 | Volvo CE | European focus |
 
@@ -89,7 +89,7 @@ aliases: [CAT]
 **Bear:**
 - Cyclical business
 - Interest rate sensitivity
-- China construction weakness
+- [[China]] construction weakness
 - Dealer inventory normalization
 - Valuation stretched
 

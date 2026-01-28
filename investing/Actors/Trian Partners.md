@@ -26,7 +26,7 @@ aliases: [Trian Fund Management, Trian]
 | Net worth | ~$2B |
 | Age | 82 |
 | Style | Operational improvement |
-| Board seats | P&G, Disney (lost), Wendy's |
+| Board seats | P&G, [[Disney]] (lost), Wendy's |
 | Background | Built Triangle Industries |
 
 ---
@@ -36,15 +36,15 @@ aliases: [Trian Fund Management, Trian]
 | Company | Year | Outcome |
 |---------|------|---------|
 | **P&G** | 2017 | Won board seat after proxy fight |
-| **Disney** | 2022-24 | Lost proxy fight (twice) |
+| **[[Disney]]** | 2022-24 | Lost proxy fight (twice) |
 | **Wendy's** | 2005+ | Long-term board involvement |
 | **Sysco** | 2015 | Board seat, operational gains |
 | **GE** | 2015 | Pushed for breakup |
-| **Unilever** | 2022 | Lost bid for board |
+| **[[Unilever]]** | 2022 | Lost bid for board |
 
 ---
 
-## Disney campaigns
+## [[Disney]] campaigns
 
 | Attempt | Year | Outcome |
 |---------|------|---------|

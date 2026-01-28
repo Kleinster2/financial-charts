@@ -31,17 +31,17 @@ Dassault family controls ~60%. Also owns 26% of Thales.
 
 ## Rafale program
 
-France's 4.5-gen multirole fighter:
+[[France]]'s 4.5-gen multirole fighter:
 
 | Customer | Quantity | Status |
 |----------|----------|--------|
-| France | 180+ | In service |
-| India | 36 | Delivered |
+| [[France]] | 180+ | In service |
+| [[India]] | 36 | Delivered |
 | Egypt | 54 | Delivered + ordered |
 | Qatar | 36 | Delivered |
 | UAE | 80 | Ordered (2021) |
 | Indonesia | 42 | Ordered |
-| Greece | 24 | Delivered |
+| [[Greece]] | 24 | Delivered |
 | Serbia | 12 | Ordered |
 
 **Export success** after years of losses to F-35/Eurofighter.
@@ -55,10 +55,10 @@ Leading the Franco-German-Spanish Future Combat Air System:
 | Partner | Role |
 |---------|------|
 | Dassault | Lead aircraft designer |
-| Airbus | Teaming, drones |
+| [[Airbus]] | Teaming, drones |
 | Spain | Junior partner |
 
-Competes with UK-led Tempest (BAE, Leonardo, Japan).
+Competes with [[UK]]-led Tempest (BAE, [[Leonardo]], [[Japan]]).
 
 ---
 

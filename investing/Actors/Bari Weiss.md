@@ -25,7 +25,7 @@ aliases: [Weiss]
 | 2011-2017 | Wall Street Journal, Tablet Magazine |
 | 2017-2020 | NY Times opinion writer/editor |
 | July 2020 | Resigned from NYT (public letter) |
-| Jan 2021 | Launched "Common Sense" on Substack |
+| Jan 2021 | Launched "Common Sense" on [[Substack]] |
 | 2022 | Rebranded to The Free Press |
 | Dec 2022 | Published Twitter Files |
 | 2025 | Paramount acquired Free Press |
@@ -51,7 +51,7 @@ aliases: [Weiss]
 |--------|-------|
 | Subscribers | 1.5M |
 | Paid subscribers | 170K+ |
-| Substack rank | #1 by revenue |
+| [[Substack]] rank | #1 by revenue |
 | Acquisition price | $150M |
 
 See [[The Free Press]] for details.
@@ -89,7 +89,7 @@ See [[The Free Press]] for details.
 
 | Detail | Value |
 |--------|-------|
-| Source | Elon Musk provided internal Twitter records |
+| Source | [[Elon Musk]] provided internal Twitter records |
 | Published | December 2022 |
 | Content | Account blacklisting, topic suppression |
 | Impact | Major media controversy |
@@ -124,7 +124,7 @@ See [[The Free Press]] for details.
 |-------|--------|
 | **CBS News direction** | Her vision = future editorial stance |
 | **Paramount** | Key hire under Ellison ownership |
-| **New media** | Substack-to-network career path |
+| **New media** | [[Substack]]-to-network career path |
 
 ---
 

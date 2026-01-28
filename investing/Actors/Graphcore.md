@@ -3,13 +3,13 @@ aliases: []
 ---
 #actor #ai #semiconductor #uk #private
 
-**Graphcore** — IPU architecture. UK AI chip hope. Struggling against NVIDIA. Exploring sale.
+**Graphcore** — IPU architecture. [[UK]] AI chip hope. Struggling against NVIDIA. Exploring sale.
 
 ---
 
 ## Why Graphcore matters
 
-UK's AI chip contender (cautionary tale):
+[[UK]]'s AI chip contender (cautionary tale):
 
 | Metric | Value |
 |--------|-------|
@@ -33,7 +33,7 @@ UK's AI chip contender (cautionary tale):
 ## Rise and fall
 
 **Timeline:**
-- 2016: Founded in Bristol, UK
+- 2016: Founded in Bristol, [[UK]]
 - 2020: $2.8B valuation
 - 2021-22: NVIDIA dominance grows
 - 2023-24: Layoffs, restructuring
@@ -52,12 +52,12 @@ UK's AI chip contender (cautionary tale):
 
 ---
 
-## UK national interest
+## [[UK]] national interest
 
 **Strategic concerns:**
-- UK's main AI chip company
+- [[UK]]'s main AI chip company
 - Government interest in saving
-- SoftBank/ARM potential buyer
+- [[SoftBank]]/ARM potential buyer
 - National security angle
 
 ---
@@ -66,8 +66,8 @@ UK's AI chip contender (cautionary tale):
 
 | Buyer | Logic |
 |-------|-------|
-| SoftBank/ARM | UK AI consolidation |
-| Qualcomm | Edge AI |
+| [[SoftBank]]/ARM | [[UK]] [[AI consolidation]] |
+| [[Qualcomm]] | Edge AI |
 | Strategic buyer | IP acquisition |
 
 ---
@@ -99,12 +99,12 @@ UK's AI chip contender (cautionary tale):
 | Investor | Notes |
 |----------|-------|
 | Atomico | European VC |
-| Sequoia Capital | Growth |
-| Dell | Strategic |
-| Microsoft | Strategic |
-| Samsung | Strategic |
-| Amadeus Capital | UK VC |
-| Draper Esprit | UK VC |
+| [[Sequoia Capital]] | Growth |
+| [[Dell]] | Strategic |
+| [[Microsoft]] | Strategic |
+| [[Samsung]] | Strategic |
+| Amadeus Capital | [[UK]] VC |
+| Draper Esprit | [[UK]] VC |
 
 **Total raised:** $700M+
 
@@ -129,7 +129,7 @@ UK's AI chip contender (cautionary tale):
 | Ticker | Private |
 | Peak valuation | $2.8B |
 | Status | Restructuring/sale |
-| Location | Bristol, UK |
+| Location | Bristol, [[UK]] |
 
 *Updated 2026-01-01*
 
@@ -138,7 +138,7 @@ UK's AI chip contender (cautionary tale):
 ## Related
 
 - [[NVIDIA]] — competitor (dominant, why Graphcore struggled)
-- [[Arm Holdings]] — potential acquirer (UK consolidation)
+- [[Arm Holdings]] — potential acquirer ([[UK]] consolidation)
 - [[Cerebras]] — peer (alternative AI chip architecture)
 - [[Groq]] — peer (alternative inference chip)
 - [[Tenstorrent]] — peer (alternative AI chip)

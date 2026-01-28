@@ -67,11 +67,11 @@ Output = F(x) + x
 | Person | Role | Later |
 |--------|------|-------|
 | **Kaiming He** | Lead author | Facebook AI (FAIR) |
-| Xiangyu Zhang | Co-author | Megvii |
+| Xiangyu Zhang | Co-author | [[Megvii]] |
 | Shaoqing Ren | Co-author | Faster R-CNN author |
-| Jian Sun | Co-author | Megvii co-founder |
+| Jian Sun | Co-author | [[Megvii]] co-founder |
 
-**Microsoft Research Asia** — Beijing lab.
+**Microsoft Research [[Asia]]** — Beijing lab.
 
 ---
 
@@ -147,5 +147,5 @@ Output = F(x) + x
 - [[AlexNet]] — predecessor (2012)
 - [[ImageNet]] — benchmark
 - [[Transformer]] — uses residual connections
-- [[Microsoft]] — origin (MSR Asia)
+- [[Microsoft]] — origin ([[MSR Asia]])
 - [[Kaiming He]] — lead author

@@ -17,7 +17,7 @@ A successful corporate transformation story — from dying film business to heal
 | Market cap | ~¥4.5T (~$30B) |
 | Photoresist share | ~10% global |
 | EUV resist growth | Contracts worth $250M+ (mid-2025) |
-| Business mix | Healthcare > Electronics > Imaging |
+| Business mix | [[Healthcare]] > Electronics > Imaging |
 
 ---
 
@@ -25,7 +25,7 @@ A successful corporate transformation story — from dying film business to heal
 
 | Segment | % Revenue | Notes |
 |---------|-----------|-------|
-| **Healthcare** | ~45% | Medical systems, biopharma CDMO |
+| **[[Healthcare]]** | ~45% | Medical systems, biopharma CDMO |
 | **Advanced Materials** | ~25% | Electronic materials, displays |
 | **Imaging** | ~15% | Instax, legacy film |
 | **Business Innovation** | ~15% | Document solutions |
@@ -42,7 +42,7 @@ Electronics materials (including photoresists) sit within Advanced Materials.
 | **ArF** | Established | Stable demand |
 | **Fluorine-free developers** | Innovation | EUV-compatible, launched recently |
 
-**Kumamoto expansion:** 30% capacity increase for EUV resists, driven by [[TSMC]] demand at their Japan fab.
+**Kumamoto expansion:** 30% capacity increase for EUV resists, driven by [[TSMC]] demand at their [[Japan]] fab.
 
 ---
 
@@ -56,23 +56,23 @@ Electronics materials (including photoresists) sit within Advanced Materials.
 | **Fujifilm** | ~10% | Diversified |
 | [[Sumitomo Chemical]] | ~8% | Growing |
 
-**Japan dominance:** Top 4 Japanese players = 75%+ of EUV photoresist market.
+**[[Japan]] dominance:** Top 4 Japanese players = 75%+ of EUV photoresist market.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Healthcare provides stable base (biopharma CDMO growing)
+- [[Healthcare]] provides stable base (biopharma CDMO growing)
 - Semiconductor materials offer growth optionality
 - Proven ability to transform business model
 - Strong balance sheet for continued investment
 - TSMC relationship (Kumamoto fab proximity)
 
 **Bear:**
-- Photoresists are small part of overall business
+- [[Photoresists]] are small part of overall business
 - Conglomerate discount
-- Healthcare segment competitive pressures
+- [[Healthcare]] segment competitive pressures
 - Behind pure-plays (JSR, TOK) in scale
 - Imaging segment still declining
 
@@ -82,7 +82,7 @@ Electronics materials (including photoresists) sit within Advanced Materials.
 
 Electronics materials are ~25% of Fujifilm revenue, and photoresists are a subset of that. Investors primarily get healthcare exposure with semiconductor materials as a smaller growth driver.
 
-**Better for:** Investors wanting diversified Japan exposure with semiconductor optionality, not pure photoresist plays.
+**Better for:** Investors wanting diversified [[Japan]] exposure with semiconductor optionality, not pure photoresist plays.
 
 **For pure photoresist:** [[Tokyo Ohka Kogyo]] is cleaner.
 
@@ -93,7 +93,7 @@ Electronics materials are ~25% of Fujifilm revenue, and photoresists are a subse
 Fujifilm's pivot from film is a business school case study:
 - **2000s:** Film market collapsing (digital photography)
 - **Response:** Leveraged chemical expertise into healthcare and electronics
-- **Result:** Healthcare now largest segment, electronics materials growing
+- **Result:** [[Healthcare]] now largest segment, electronics materials growing
 
 ---
 

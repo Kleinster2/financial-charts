@@ -32,12 +32,12 @@ Millennium pioneered the multi-manager "pod shop" structure now widely copied.
 | Pods | 300+ independent investment teams |
 | Autonomy | Each pod operates own P&L |
 | Risk limits | Strict drawdown triggers |
-| Capital allocation | Dynamic based on performance |
+| [[Capital allocation]] | Dynamic based on performance |
 | Pass-through fees | Expenses charged to LPs |
 
 **Why it works**: Diversification across hundreds of uncorrelated strategies. Underperforming pods get capital cut or terminated.
 
-**Who copied it**: Citadel Wellington, Point72, Balyasny, ExodusPoint, Schonfeld.
+**Who copied it**: Citadel Wellington, Point72, [[Balyasny]], [[ExodusPoint]], [[Schonfeld]].
 
 ---
 
@@ -95,7 +95,7 @@ Millennium pioneered the multi-manager "pod shop" structure now widely copied.
 | Merger arbitrage | Event-driven M&A |
 | Convertible arbitrage | Convertible bond mispricing |
 | Fixed income | Rates, credit |
-| Commodities | Macro commodity trading |
+| [[Commodities]] | Macro commodity trading |
 
 ---
 
@@ -117,7 +117,7 @@ Millennium pioneered the multi-manager "pod shop" structure now widely copied.
 - Buyers: long-time clients, senior executives, wealthy outsiders
 - Implied firm valuation: ~$14B
 
-### Goldman Sachs SPV (mid-2025)
+### [[Goldman Sachs]] SPV (mid-2025)
 
 Goldman created special purpose vehicle offering 10-15% equity stakes to HNW individuals:
 - 3% management fee
@@ -168,7 +168,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 
 3. **13F signals** — $234B 13F, 5,787 positions. Bitcoin ETF adoption signals institutional crypto appetite.
 
-4. **Talent pipeline** — Many fund launches come from ex-Millennium PMs. Bobby Jain (Jain Global), Michael Gelband (ExodusPoint).
+4. **Talent pipeline** — Many fund launches come from ex-Millennium PMs. Bobby Jain (Jain Global), Michael Gelband ([[ExodusPoint]]).
 
 ---
 
@@ -182,10 +182,10 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 
 ### Peer pod shops
 - [[Citadel Securities]] — Ken Griffin, rival pod shop
-- [[Point72]] — Steve Cohen, pod shop
-- Balyasny — Dmitry Balyasny, pod shop
-- ExodusPoint — Michael Gelband (ex-Millennium)
-- Schonfeld — pod shop
+- [[Point72]] — [[Steve Cohen]], pod shop
+- [[Balyasny]] — Dmitry [[Balyasny]], pod shop
+- [[ExodusPoint]] — Michael Gelband (ex-Millennium)
+- [[Schonfeld]] — pod shop
 
 ### Peer quant/multi-strat
 - [[D.E. Shaw]] — quant, multi-strategy
@@ -194,7 +194,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 
 ### Alumni
 - Bobby Jain — Jain Global (2024)
-- Michael Gelband — ExodusPoint
+- Michael Gelband — [[ExodusPoint]]
 
 ---
 

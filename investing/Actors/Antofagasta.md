@@ -15,7 +15,7 @@ Antofagasta is a quality pure-play:
 |--------|-------|
 | Ticker | ANTO.L (London) |
 | Market cap | ~$20B |
-| Copper production | ~660K tons/year |
+| [[Copper]] production | ~660K tons/year |
 | Ownership | Luksic family (~65%) |
 | Focus | Pure copper |
 
@@ -32,7 +32,7 @@ Antofagasta is a quality pure-play:
 | Antucoya | Heap leach |
 | Zaldívar (50% JV) | With Barrick |
 
-All in Chile's copper belt.
+All in [[Chile]]'s copper belt.
 
 ---
 
@@ -43,22 +43,22 @@ All in Chile's copper belt.
 - Quality Chilean assets
 - Family ownership = long-term focus
 - Los Pelambres expansion
-- London listing = ESG-compliant
+- London listing = [[ESG]]-compliant
 - Strong balance sheet
 
 **Bear:**
-- Chile political/royalty risk
+- [[Chile]] political/royalty risk
 - Premium valuation
 - Luksic control (minority governance)
-- Water constraints
+- [[Water constraints]]
 - Lower liquidity vs US peers
 - Currency exposure (GBP listing)
 
 ---
 
-## Chile risk
+## [[Chile]] risk
 
-Chile is raising mining royalties:
+[[Chile]] is raising mining royalties:
 
 | Risk | Impact |
 |------|--------|
@@ -102,13 +102,13 @@ All Chilean miners face this — not unique to Antofagasta.
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| **Antofagasta** | ANTO.L | Chile pure-play |
+| **Antofagasta** | ANTO.L | [[Chile]] pure-play |
 | [[Freeport-McMoRan]] | FCX | Americas + Indonesia |
-| [[Southern Copper]] | SCCO | Mexico + Peru |
+| [[Southern Copper]] | SCCO | [[Mexico]] + Peru |
 | First Quantum | FM.TO | Panama (troubled) |
-| Teck | TECK | Canada (diversified) |
+| Teck | TECK | [[Canada]] (diversified) |
 
-Antofagasta = cleanest Chile exposure.
+Antofagasta = cleanest [[Chile]] exposure.
 
 ---
 
@@ -117,5 +117,5 @@ Antofagasta = cleanest Chile exposure.
 - [[Copper for AI]] — thesis (pure-play beneficiary)
 - [[Freeport-McMoRan]] — peer
 - [[Southern Copper]] — peer
-- [[Codelco]] — Chile context
+- [[Codelco]] — [[Chile]] context
 

@@ -13,7 +13,7 @@ aliases: [T Rowe Price, TRP]
 |--------|-------|
 | Founded | 1937 |
 | AUM | ~$1.6T |
-| Ticker | TROW (Nasdaq) |
+| Ticker | TROW ([[Nasdaq]]) |
 | HQ | Baltimore, MD |
 
 ---
@@ -26,7 +26,7 @@ aliases: [T Rowe Price, TRP]
 | **[[Physical Intelligence]]** | Series B ($5.6B) |
 | **[[Databricks]]** | Growth ($134B) |
 | **[[Stripe]]** | Growth ($129B) |
-| **SpaceX** | Growth |
+| **[[SpaceX]]** | Growth |
 
 Major late-stage private tech investor.
 
@@ -39,7 +39,7 @@ Major late-stage private tech investor.
 | Long-term | Multi-decade horizon |
 | Research-driven | Fundamental analysis |
 | Growth focus | Growth + value |
-| Private markets | Growing allocation |
+| [[Private markets]] | Growing allocation |
 
 ---
 

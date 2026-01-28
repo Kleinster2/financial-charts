@@ -11,10 +11,10 @@
 | Factor | Impact |
 |--------|--------|
 | E-commerce | Direct brand sales bypass department stores |
-| Fast fashion | Zara, H&M capture mid-market |
-| Off-price | TJX, Ross take value shoppers |
+| Fast fashion | Zara, [[H&M]] capture mid-market |
+| Off-price | [[TJX]], Ross take value shoppers |
 | Real estate | Large footprints become cost burdens |
-| Brand control | Luxury brands prefer owned retail |
+| Brand control | [[Luxury]] brands prefer owned retail |
 
 ---
 
@@ -46,10 +46,10 @@
 
 **Short thesis on:**
 - Traditional department store operators
-- Mall REITs dependent on anchor tenants
+- Mall [[REITs]] dependent on anchor tenants
 
 **Long thesis on:**
-- Off-price retailers (TJX, Ross)
+- Off-price retailers ([[TJX]], Ross)
 - Direct-to-consumer brands
 - E-commerce platforms
 

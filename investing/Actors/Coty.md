@@ -5,7 +5,7 @@ aliases: [COTY, Coty Inc]
 
 # Coty
 
-**Global fragrance and beauty company** — Prestige (63% of revenue): Burberry, Hugo Boss, Calvin Klein, Marc Jacobs, Gucci fragrances (licensed). Consumer Beauty (37%): CoverGirl, Rimmel, Sally Hansen. FY24 revenue grew 11% LFL to ~$6.1B, riding the fragrance boom. Still deleveraging (~2.9x, targeting <2.5x). Holds $1.1B Wella stake for potential divestiture.
+**Global fragrance and beauty company** — Prestige (63% of revenue): Burberry, Hugo Boss, Calvin Klein, Marc Jacobs, Gucci fragrances (licensed). [[Consumer]] Beauty (37%): CoverGirl, Rimmel, Sally Hansen. FY24 revenue grew 11% LFL to ~$6.1B, riding the fragrance boom. Still deleveraging (~2.9x, targeting <2.5x). Holds $1.1B Wella stake for potential divestiture.
 
 ---
 
@@ -46,7 +46,7 @@ aliases: [COTY, Coty Inc]
 | Segment | Revenue | % | Growth (FY24) | Key brands |
 |---------|---------|---|---------------|------------|
 | **Prestige** | ~$3.9B | 63% | +13% | Burberry, Hugo Boss, Calvin Klein, Marc Jacobs, Gucci |
-| **Consumer Beauty** | ~$2.2B | 37% | +7% | CoverGirl, Rimmel, Sally Hansen, Max Factor |
+| **[[Consumer]] Beauty** | ~$2.2B | 37% | +7% | CoverGirl, Rimmel, Sally Hansen, Max Factor |
 
 ---
 
@@ -61,20 +61,20 @@ Coty is the biggest pure-play fragrance beneficiary:
 | Calvin Klein | Fragrance | Stable |
 | Marc Jacobs | Fragrance | Growing |
 | Gucci | Fragrance | [[Kering]] license |
-| Chloé | Fragrance | Stable |
+| [[Chloé]] | Fragrance | Stable |
 | Davidoff | Fragrance | Mature |
 
 **Fragrance is the fastest-growing beauty category** (+12% in 2024 US prestige). Coty is positioned squarely in this tailwind.
 
 ---
 
-## Consumer Beauty challenges
+## [[Consumer]] Beauty challenges
 
 | Issue | Detail |
 |-------|--------|
 | **CoverGirl** | Losing share to [[e.l.f. Beauty]] |
 | **Mass cosmetics declining** | Dupe economy shifting share |
-| **Rimmel** | UK-focused, limited growth |
+| **Rimmel** | [[UK]]-focused, limited growth |
 | **Sally Hansen** | Nail category mature |
 
 The prestige/consumer split is a tension: prestige fragrance growing while mass cosmetics structurally challenged.
@@ -87,7 +87,7 @@ The prestige/consumer split is a tension: prestige fragrance growing while mass 
 |--------|-------|
 | Stake | 25.8% |
 | Value | ~$1.05B (Dec 2024) |
-| Target divestiture | By Dec 2025 |
+| [[Target]] divestiture | By Dec 2025 |
 | Use of proceeds | Deleveraging, shareholder returns |
 
 Coty retained Wella stake after selling control. Full exit would accelerate leverage reduction to ~2x.
@@ -100,8 +100,8 @@ Coty retained Wella stake after selling control. Full exit would accelerate leve
 |--------|----------|----------|
 | Net debt | $3.7B | $3.2B |
 | Leverage | 3.4x | 2.9x |
-| Target | — | <2.5x (2025) |
-| Free cash flow (FY25E) | — | ~$400M |
+| [[Target]] | — | <2.5x (2025) |
+| [[Free cash flow]] (FY25E) | — | ~$400M |
 
 ---
 
@@ -116,7 +116,7 @@ Coty retained Wella stake after selling control. Full exit would accelerate leve
 - Sue Nabi driving premiumization
 
 **Bear:**
-- Consumer Beauty declining (CoverGirl losing to e.l.f.)
+- [[Consumer]] Beauty declining (CoverGirl losing to e.l.f.)
 - License renewal risk (brands can walk)
 - Growth normalizing (H1 FY25: +2% vs +11% prior)
 - Still levered (~2.9x)

@@ -1,6 +1,6 @@
 #actor #fintech #private-markets #usa
 
-**Republic** — Private investment platform. Equity crowdfunding, tokenized assets. Launched SpaceX token for retail investors.
+**Republic** — Private investment platform. Equity crowdfunding, tokenized assets. Launched [[SpaceX]] token for retail investors.
 
 ---
 
@@ -11,22 +11,22 @@ Republic bridges retail investors to private markets:
 | Offering | Description |
 |----------|-------------|
 | Equity crowdfunding | Invest in startups from $50 |
-| Tokenized assets | SpaceX token, real estate |
-| Secondary markets | Trade private shares |
+| Tokenized assets | [[SpaceX]] token, real estate |
+| Secondary markets | [[Trade]] private shares |
 | Reg A+ offerings | Larger private raises |
 
 ---
 
-## SpaceX token
+## [[SpaceX]] token
 
 **Flagship tokenized offering:**
-- Token mirrors performance of SpaceX private shares
+- Token mirrors performance of [[SpaceX]] private shares
 - Retail can gain exposure without accredited status
-- Not actual SpaceX equity — derivative instrument
-- SpaceX did not issue or endorse
+- Not actual [[SpaceX]] equity — derivative instrument
+- [[SpaceX]] did not issue or endorse
 
 **Structure:**
-- Republic acquires SpaceX shares
+- Republic acquires [[SpaceX]] shares
 - Issues tokens representing exposure
 - Tokens tradeable on Republic platform
 - Should converge at liquidity event (IPO)
@@ -71,9 +71,9 @@ See [[Tokenized private shares]] for risks and context.
 | Investor | Notes |
 |----------|-------|
 | Galaxy Digital | Lead (Series B) |
-| Valor Equity Partners | Growth |
+| [[Valor Equity Partners]] | Growth |
 | Tribe Capital | Growth |
-| CoinFund | Crypto focus |
+| CoinFund | [[Crypto]] focus |
 
 **Total raised:** $170M+
 
@@ -82,7 +82,7 @@ See [[Tokenized private shares]] for risks and context.
 | Metric | Value |
 |--------|-------|
 | Status | Private |
-| Users | 3M+ |
+| Users | [[3M]]+ |
 | Capital deployed | $2B+ |
 | Offerings | 1,500+ |
 | Founded | 2016 |
@@ -113,7 +113,7 @@ See [[Tokenized private shares]] for risks and context.
 | Competitor | Focus |
 |------------|-------|
 | [[Robinhood]] | Brokerage + tokenized shares |
-| AngelList | Accredited investor syndicates |
+| [[AngelList]] | Accredited investor syndicates |
 | Wefunder | Equity crowdfunding |
 | StartEngine | Reg CF/A+ offerings |
 | Forge | Secondary private shares |
@@ -129,8 +129,8 @@ Republic = broadest retail private markets access.
 | Aspect | Republic | Robinhood |
 |--------|----------|-----------|
 | Focus | Private markets native | Brokerage adding tokens |
-| SpaceX | Token launched | Token launched |
-| OpenAI | Not yet | Europe (June 2025) |
+| [[SpaceX]] | Token launched | Token launched |
+| OpenAI | Not yet | [[Europe]] (June 2025) |
 | User base | Private market seekers | Retail traders |
 | Regulation | Reg CF/A+ expertise | Brokerage license |
 

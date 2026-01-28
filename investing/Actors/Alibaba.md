@@ -26,7 +26,7 @@ Alibaba is reinventing itself as an AI company:
 
 **China's largest cloud:**
 - ~35% China cloud market share
-- Competitor to Tencent Cloud, Huawei Cloud
+- Competitor to Tencent Cloud, [[Huawei]] Cloud
 - Enterprise + government customers
 - International expansion (limited)
 
@@ -60,21 +60,21 @@ Alibaba is reinventing itself as an AI company:
 - **Open source** — developers can modify, redistribute, commercialize free
 - Qwen3 (April 2025) — most advanced version
 - Powers Quark app, cloud customers, partnerships
-- **700M+ downloads** on Hugging Face (Jan 2026) — leads China open-source
+- **700M+ downloads** on [[Hugging Face]] (Jan 2026) — leads China open-source
 
 **Open source strategy:**
 - Default in China (vs closed in US)
-- Can't charge for API access like OpenAI
+- Can't charge for API access like [[OpenAI]]
 - But gets massive adoption and ecosystem
 - 16M developers on ModelScope building on Qwen
 
 **Vs competitors:**
 | Company | Model | Approach | MAU |
 |---------|-------|----------|-----|
-| [[ByteDance]] | Doubao | Mixed | **172M** |
+| [[ByteDance]] | [[Doubao]] | Mixed | **172M** |
 | **Alibaba** | Qwen | Open source | 100M |
-| Baidu | Ernie | Closed | — |
-| Tencent | Hunyuan | Mixed | — |
+| [[Baidu]] | [[Ernie]] | Closed | — |
+| Tencent | [[Hunyuan]] | Mixed | — |
 
 ---
 
@@ -88,7 +88,7 @@ Alibaba integrating its services into Qwen app to create one-stop AI platform:
 |---------|----------|-------------------|
 | **Taobao** | Shopping | Jan 2026 (testing) |
 | **Alipay** | Payments | Jan 2026 (testing) |
-| **Fliggy** | Travel booking | Jan 2026 (testing) |
+| **Fliggy** | [[Travel]] booking | Jan 2026 (testing) |
 | **Amap** | Navigation | Jan 2026 (testing) |
 | **Ele.me** | Food delivery | In progress |
 
@@ -117,10 +117,10 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 |---------|------------------|-------|
 | **Alibaba** | High | Full execution stack (shopping, payments, logistics) |
 | **Tencent** | High | WeChat super app |
-| Amazon | Medium | Shopping + payments, less integrated |
-| Google/OpenAI | Lower | Need to build commerce layer |
+| [[Amazon]] | Medium | Shopping + payments, less integrated |
+| [[Google]]/[[OpenAI]] | Lower | Need to build commerce layer |
 | JD.com | Medium | Commerce but narrower |
-| Meituan | Medium | Local services focused |
+| [[Meituan]] | Medium | Local services focused |
 
 **Key insight:** Agentic shopping requires full execution stack — not just AI model. Alibaba already has shopping, payments, delivery, travel in one ecosystem.
 
@@ -134,7 +134,7 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 - Thousands of models built on platform
 - Plug AI into business without starting from scratch
 
-**Quark** — Consumer AI assistant:
+**Quark** — [[Consumer AI]] assistant:
 - ~150M monthly active users
 - AI toolbox for business/life
 - "Operating system for life run on smart AI"
@@ -151,14 +151,14 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 **What Alibaba can access:**
 - H200 (approved Dec 2025)
 - Older NVIDIA GPUs
-- AMD alternatives
+- [[AMD]] alternatives
 
 **What Alibaba can't access:**
 - Blackwell (B200)
 - Future cutting-edge
 - EUV-manufactured chips
 
-**Gap widening:** US competitors train on Blackwell while Alibaba stuck on H200.
+**[[Gap]] widening:** US competitors train on Blackwell while Alibaba stuck on H200.
 
 ---
 
@@ -174,12 +174,12 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 
 | Chip | Launch | Capability |
 |------|--------|------------|
-| **XuanTie C930** | March 2025 | Server-grade, competes with Intel/AMD |
-| XuanTie C920 | 2023 | Autonomous vehicles, AI |
+| **XuanTie C930** | March 2025 | Server-grade, competes with [[Intel]]/[[AMD]] |
+| XuanTie C920 | 2023 | [[Autonomous vehicles]], AI |
 | XuanTie C907 | 2023 | Enterprise storage |
 | XuanTie R910 | 2023 | Network communications |
 
-**C930 specs:** 64-bit multi-core, RVA23 compatible, dual 512-bit vector units, 8 TOPS Matrix engine for AI.
+**C930 specs:** 64-bit multi-core, RVA23 compatible, dual 512-bit vector units, 8 TOPS [[Matrix]] engine for AI.
 
 **Strategic value:** RISC-V = no ARM licensing, no US export restrictions on architecture. See [[RISC-V]].
 
@@ -191,10 +191,10 @@ Bloomberg Intelligence: "Alibaba can drive this new form of engagement at lower 
 
 | Competitor | Strength | Alibaba vs |
 |------------|----------|------------|
-| [[ByteDance]] | Consumer AI, TikTok data | More cloud revenue |
-| Baidu | Search, autonomous driving | Larger cloud |
-| Tencent | Gaming, WeChat | Larger cloud |
-| Huawei | Government, telecom | Private enterprise |
+| [[ByteDance]] | [[Consumer AI]], [[TikTok]] data | More cloud revenue |
+| [[Baidu]] | Search, autonomous driving | Larger cloud |
+| Tencent | [[Gaming]], WeChat | Larger cloud |
+| [[Huawei]] | Government, telecom | Private enterprise |
 
 Alibaba leads in cloud but trails ByteDance in AI buzz.
 
@@ -204,8 +204,8 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 
 | Partner | Deal |
 |---------|------|
-| **BMW** | Qwen in intelligent vehicles (2026 launch) |
-| **Apple** | Alibaba AI in iPhones in China |
+| **[[BMW]]** | Qwen in intelligent vehicles (2026 launch) |
+| **[[Apple]]** | Alibaba AI in iPhones in China |
 | Local governments | AI labs, infrastructure |
 | Universities | Research partnerships |
 
@@ -219,7 +219,7 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 - 26% YoY revenue increase
 - AI-related projects: triple-digit growth for 8 consecutive quarters
 
-**Morgan Stanley projection:** China AI investments could deliver 52% returns by 2030.
+**[[Morgan Stanley]] projection:** China AI investments could deliver 52% returns by 2030.
 
 ---
 
@@ -250,7 +250,7 @@ Alibaba leads in cloud but trails ByteDance in AI buzz.
 ## AI hardware: DingTalk A1
 
 **Wearable AI play:**
-- DingTalk = Alibaba's enterprise collaboration app (China's Slack)
+- DingTalk = Alibaba's enterprise collaboration app (China's [[Slack]])
 - DingTalk A1 = credit card-sized AI device
 - Voice notes, transcription, summarization
 - 26-foot range for ambient recording
@@ -274,7 +274,7 @@ See [[Wearable AI]] for competitive landscape.
 - Export controls cap AI capability
 - China regulatory risk
 - Geopolitics (delisting risk?)
-- Competition from ByteDance, Huawei
+- Competition from ByteDance, [[Huawei]]
 - Growth deceleration
 
 ---
@@ -290,7 +290,7 @@ See [[Wearable AI]] for competitive landscape.
 | Cloud share | #1 China (~35%) |
 | AI model | Qwen (open source) |
 | Qwen app | **100M users** |
-| Hugging Face downloads | **700M+** |
+| [[Hugging Face]] downloads | **700M+** |
 | Quark app | ~150M MAU |
 | ModelScope | 16M developers |
 | CEO | Eddie Wu (since 2023) |
@@ -310,7 +310,7 @@ See [[Wearable AI]] for competitive landscape.
 - [[Cainiao]] — logistics
 
 ### Competitors
-- [[ByteDance]] — competitor (Doubao has 159M MAU vs Qwen's 100M)
+- [[ByteDance]] — competitor ([[Doubao]] has 159M MAU vs Qwen's 100M)
 - [[DeepSeek]] — competitor (Qwen vs R1)
 - [[Tencent]] — competitor (WeChat super app, similar agentic potential)
 - [[Hangzhou]] — headquarters city

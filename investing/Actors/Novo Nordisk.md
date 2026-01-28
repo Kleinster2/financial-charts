@@ -86,11 +86,11 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 
 | Market | Patent Status | Timeline |
 |--------|---------------|----------|
-| **Canada** | Expired Jan 4, 2026 | Generics Q3 2026 |
-| **China** | Expiring 2026 | 10+ companies filed |
-| **India** | Expiring 2026 | Novo lost lawsuits blocking generics |
-| **Brazil** | Expiring soon | Major market |
-| **US/UK/EU** | Protected until 2031+ | Safe for now |
+| **[[Canada]]** | Expired Jan 4, 2026 | Generics Q3 2026 |
+| **[[China]]** | Expiring 2026 | 10+ companies filed |
+| **[[India]]** | Expiring 2026 | Novo lost lawsuits blocking generics |
+| **[[Brazil]]** | Expiring soon | Major market |
+| **US/[[UK]]/[[EU]]** | Protected until 2031+ | Safe for now |
 
 **Generic market:** Could reach **$8B/year by 2030** (Nomura).
 
@@ -98,15 +98,15 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 
 | Market | Expected generic price |
 |--------|------------------------|
-| India | **$15-40/month** (vs $97+ branded) |
-| China | **~$50/month** |
-| Canada | 65% discount with 3+ competitors |
+| [[India]] | **$15-40/month** (vs $97+ branded) |
+| [[China]] | **~$50/month** |
+| [[Canada]] | 65% discount with 3+ competitors |
 
 **Key generic players:**
 - Sandoz (Swiss giant)
-- Aspen Pharmacare (South Africa)
-- Dr Reddy's (India) — targeting 87 markets
-- Huadong Medicine, CSPC (China)
+- Aspen Pharmacare (South [[Africa]])
+- Dr Reddy's ([[India]]) — targeting 87 markets
+- Huadong Medicine, CSPC ([[China]])
 
 **CEO Mike Doustdar:** Expects most generics to arrive Q2 2026. "We will not stop fighting commercially."
 
@@ -129,7 +129,7 @@ Lilly's Mounjaro/Zepbound gaining share rapidly.
 - Growth decelerating sharply
 - Stock down 50% — still catching falling knife?
 - Price pressure intensifying
-- **Generic cliff 2026** — Canada, China, India, Brazil
+- **Generic cliff 2026** — [[Canada]], [[China]], [[India]], [[Brazil]]
 - Compounding pharmacies eroding US market
 
 ---

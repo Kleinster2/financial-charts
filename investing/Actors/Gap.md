@@ -1,11 +1,11 @@
 ---
-aliases: [GPS, Gap Inc, Old Navy, Banana Republic, Athleta]
+aliases: [GPS, Gap Inc, Old Navy, Banana [[Republic]], Athleta]
 ---
 #actor #fashion #retail #usa #public
 
 # Gap
 
-**Largest US specialty apparel retailer** — Old Navy (value, ~50% of revenue), Gap (casual), Banana Republic (workwear), Athleta (athletic). $15.1B revenue (FY24, +1%), all four brands gained market share. Operating income surged +80% YoY. CEO Richard Dickson (from Mattel/Barbie) driving turnaround since Aug 2023. The poster child for "dying middle" in fashion — but showing signs of life under new leadership.
+**Largest US specialty apparel retailer** — Old Navy (value, ~50% of revenue), Gap (casual), Banana [[Republic]] (workwear), Athleta (athletic). $15.1B revenue (FY24, +1%), all four brands gained market share. Operating income surged +80% YoY. CEO Richard Dickson (from Mattel/Barbie) driving turnaround since Aug 2023. The poster child for "dying middle" in fashion — but showing signs of life under new leadership.
 
 ---
 
@@ -43,12 +43,12 @@ aliases: [GPS, Gap Inc, Old Navy, Banana Republic, Athleta]
 |-------|---------|------------|-------------|--------|
 | **Old Navy** | ~$8B | ~50% | +3% | Value leader, highest growth |
 | **Gap** | ~$3.5B | ~25% | +3% | Core casual, recovering |
-| **Banana Republic** | ~$2B | ~15% | +4% | Workwear, culturally repositioning |
+| **Banana [[Republic]]** | ~$2B | ~15% | +4% | Workwear, culturally repositioning |
 | **Athleta** | ~$1.3B | ~10% | +2% | Athletic, longer recovery |
 
-**Old Navy:** The engine. Gained market share every quarter of FY24. Competes with Target, Walmart on value.
+**Old Navy:** The engine. Gained market share every quarter of FY24. Competes with [[Target]], [[Walmart]] on value.
 
-**Athleta:** The problem child. Down 13% in FY23, recovering slowly. Competes with [[Lululemon]], Alo, Vuori.
+**Athleta:** The problem child. Down 13% in FY23, recovering slowly. Competes with [[Lululemon]], Alo, [[Vuori]].
 
 ---
 
@@ -74,7 +74,7 @@ Dickson successfully revived Barbie at Mattel before Gap. Early signs suggest si
 | Gross margin | ~50bps deleverage (tariffs) |
 | Tariff impact | ~100-110bps headwind |
 
-Tariff risk is real — Gap sources heavily from Asia.
+Tariff risk is real — Gap sources heavily from [[Asia]].
 
 ---
 
@@ -94,7 +94,7 @@ Tariff risk is real — Gap sources heavily from Asia.
 - Tariff headwinds (100-110bps to gross margin)
 - Revenue still essentially flat (+1%)
 - Gap brand relevance — is it permanent or cyclical?
-- Banana Republic workwear demand uncertain (hybrid work)
+- Banana [[Republic]] workwear demand uncertain (hybrid work)
 
 ---
 

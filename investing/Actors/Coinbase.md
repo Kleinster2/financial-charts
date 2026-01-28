@@ -39,7 +39,7 @@ See [[Tokenized private shares]] for context.
 
 | Segment | Description |
 |---------|-------------|
-| Consumer | Retail trading, wallet |
+| [[Consumer]] | Retail trading, wallet |
 | Institutional | Prime brokerage, custody |
 | Subscription/services | Staking, USDC interest |
 | Base | Layer 2 blockchain revenue |

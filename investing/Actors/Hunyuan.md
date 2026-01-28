@@ -3,7 +3,7 @@ aliases: [Tencent Hunyuan, 混元, Yuanbao]
 ---
 #actor #product #ai #china
 
-**Hunyuan** (混元) — [[Tencent]]'s AI model family. Deep WeChat integration — **90% of question queries** on WeChat use AI search. Consumer-facing via Yuanbao app. 30+ models released, fully open source.
+**Hunyuan** (混元) — [[Tencent]]'s AI model family. Deep WeChat integration — **90% of question queries** on WeChat use AI search. [[Consumer]]-facing via Yuanbao app. 30+ models released, fully open source.
 
 ---
 
@@ -80,7 +80,7 @@ Tencent's AI strategy: embed into WeChat's 1.3B users rather than compete as sta
 | Translation model | Open |
 | Image/video/3D | Open |
 
-**Prediction:** Open-source AI = 50% of China ecosystem by 2026.
+**Prediction:** Open-source AI = 50% of [[China]] ecosystem by 2026.
 
 ---
 
@@ -106,7 +106,7 @@ Tencent subsidizing developers to build on Hunyuan within WeChat ecosystem.
 | WeChat | 1.3B MAU |
 | QQ | 600M+ MAU |
 | Tencent Meeting | Enterprise |
-| Tencent Docs | Productivity |
+| Tencent Docs | [[Productivity]] |
 | Yuanbao app | Standalone |
 
 **Key advantage:** No app download needed — AI comes to existing products.
@@ -159,7 +159,7 @@ Tencent subsidizing developers to build on Hunyuan within WeChat ecosystem.
 
 - [[Tencent]] — parent company
 - [[WeChat]] — primary distribution
-- [[Doubao]] — competitor (#1 China)
-- [[Qwen]] — competitor (Alibaba)
-- [[Ernie]] — competitor (Baidu)
+- [[Doubao]] — competitor (#1 [[China]])
+- [[Qwen]] — competitor ([[Alibaba]])
+- [[Ernie]] — competitor ([[Baidu]])
 - [[DeepSeek]] — integrated into WeChat search

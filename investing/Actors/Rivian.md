@@ -23,8 +23,8 @@ aliases: [RIVN]
 
 | Model | Type | Price | Status |
 |-------|------|-------|--------|
-| R1T | Pickup truck | ~$70K+ | Shipping |
-| R1S | SUV | ~$75K+ | Shipping |
+| R1T | Pickup truck | ~$70K+ | [[Shipping]] |
+| R1S | SUV | ~$75K+ | [[Shipping]] |
 | EDV | Delivery van | Fleet only | Amazon contract |
 | **R2** | Mass-market SUV | ~$45K | **H1 2026 launch** |
 

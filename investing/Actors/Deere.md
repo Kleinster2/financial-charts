@@ -3,7 +3,7 @@ aliases: [DE, John Deere]
 ---
 #actor #industrial #agriculture #usa #public
 
-**Deere** — Agriculture & construction equipment. Precision ag leader. ~$50B revenue.
+**Deere** — [[Agriculture]] & construction equipment. Precision ag leader. ~$50B revenue.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [DE, John Deere]
 | Market cap | ~$130B |
 | FY24 revenue | ~$50B |
 | HQ | Moline, IL |
-| Focus | Agriculture, construction |
+| Focus | [[Agriculture]], construction |
 
 ---
 
@@ -78,7 +78,7 @@ aliases: [DE, John Deere]
 - Farm income pressure
 - High interest rates
 - Dealer inventory
-- Brazil competition
+- [[Brazil]] competition
 
 ---
 
@@ -88,7 +88,7 @@ aliases: [DE, John Deere]
 |--------|-------|
 | Ticker | DE |
 | Revenue | ~$50B |
-| Focus | Agriculture, construction |
+| Focus | [[Agriculture]], construction |
 | Tech edge | Precision ag |
 
 ---

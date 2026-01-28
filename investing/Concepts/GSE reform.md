@@ -50,12 +50,12 @@ aliases: [GSE privatization, Fannie Freddie reform, conservatorship exit]
 
 | Approach | Advocate | Key feature |
 |----------|----------|-------------|
-| **Market-based IPO** | Bill Ackman | Relist on NYSE |
+| **Market-based IPO** | [[Bill Ackman]] | Relist on NYSE |
 | **Gradual recap** | NHC | Deliberate, transparent |
 | **Full privatization** | Some conservatives | End government role |
 | **Utility model** | Some reformers | Regulated guarantee |
 
-**Ackman (Pershing Square):** Comprehensive proposal advocating NYSE relisting.
+**Ackman ([[Pershing Square]]):** Comprehensive proposal advocating NYSE relisting.
 
 ---
 
@@ -77,7 +77,7 @@ aliases: [GSE privatization, Fannie Freddie reform, conservatorship exit]
 
 | Risk | Impact |
 |------|--------|
-| Mortgage rates spike | Political backlash, housing slowdown |
+| [[Mortgage rates]] spike | Political backlash, housing slowdown |
 | Capital raise fails | Delays exit |
 | Market disruption | Systemic risk |
 | Affordable housing gutted | Political opposition |
@@ -100,7 +100,7 @@ aliases: [GSE privatization, Fannie Freddie reform, conservatorship exit]
 
 **If exit happens:**
 - Shareholders could see significant gains
-- Mortgage rates key variable
+- [[Mortgage rates]] key variable
 - Housing market impact uncertain
 
 **If exit delayed/fails:**

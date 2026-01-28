@@ -3,7 +3,7 @@ aliases: [Elliott, Elliott Investment Management]
 ---
 #actor #investor #activist #hedgefund #usa #private
 
-**Elliott Management** — Paul Singer's activist fund. $70B AUM. Most feared activist. Tech targets: Twitter, Dell, Salesforce.
+**Elliott Management** — Paul Singer's activist fund. $70B AUM. Most feared activist. Tech targets: Twitter, [[Dell]], Salesforce.
 
 ---
 
@@ -35,10 +35,10 @@ aliases: [Elliott, Elliott Investment Management]
 | Company | Year | Outcome |
 |---------|------|---------|
 | **Twitter** | 2020 | Pushed for CEO change |
-| **Dell** | 2013 | Opposed take-private |
+| **[[Dell]]** | 2013 | Opposed take-private |
 | **Salesforce** | 2023 | Board seats, changes |
-| **Pinterest** | 2022 | Strategic review |
-| **PayPal** | 2022 | Cost cuts |
+| **[[Pinterest]]** | 2022 | Strategic review |
+| **[[PayPal]]** | 2022 | Cost cuts |
 | **Softbank** | 2020 | Asset sales |
 
 ---
@@ -57,9 +57,9 @@ aliases: [Elliott, Elliott Investment Management]
 
 ## Sovereign debt specialty
 
-| Target | Outcome |
+| [[Target]] | Outcome |
 |--------|---------|
-| Argentina | Seized naval ship |
+| [[Argentina]] | Seized naval ship |
 | Peru | Multi-year battle |
 | Congo | Various |
 

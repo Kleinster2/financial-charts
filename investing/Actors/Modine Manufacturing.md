@@ -24,7 +24,7 @@ Liquid cooling specialist:
 ## Business transformation
 
 **From auto to data centers:**
-- Legacy: Automotive thermal
+- Legacy: [[Automotive]] thermal
 - Growth: Data center cooling
 - Pivot accelerating
 - AI driving demand
@@ -56,7 +56,7 @@ AI = thermal emergency.
 
 ## Airedale acquisition
 
-**UK precision cooling:**
+**[[UK]] precision cooling:**
 - Acquired 2023
 - Precision cooling units
 - Data center focused
@@ -83,7 +83,7 @@ AI infrastructure darling.
 | Hyperscalers | Growing |
 | Enterprise DC | Growing |
 | Colocation | Growing |
-| Automotive | Legacy, flat |
+| [[Automotive]] | Legacy, flat |
 
 Data center = growth engine.
 
@@ -102,7 +102,7 @@ Data center = growth engine.
 
 ## Rubin cooling risk (Jan 2026)
 
-**Jensen Huang CES comment hit cooling stocks:**
+**[[Jensen Huang]] CES comment hit cooling stocks:**
 
 | Detail | Impact |
 |--------|--------|

@@ -23,10 +23,10 @@ aliases: [BRL, USDBRL, real]
 
 Highest real rates among major EMs:
 - Nominal: 12.25%
-- Inflation: ~4.5%
+- [[Inflation]]: ~4.5%
 - Real rate: ~7.5%
 
-BCB (Banco Central do Brasil) maintains hawkish stance.
+BCB ([[Banco Central do Brasil]]) maintains hawkish stance.
 
 ---
 
@@ -46,7 +46,7 @@ BCB (Banco Central do Brasil) maintains hawkish stance.
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | WisdomTree Brazilian Real | BZF | Pure BRL exposure |
-| iShares MSCI Brazil | EWZ | Brazil equity + BRL |
+| iShares [[MSCI]] [[Brazil]] | EWZ | [[Brazil]] equity + BRL |
 
 ---
 

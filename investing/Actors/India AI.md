@@ -3,11 +3,11 @@ aliases: []
 ---
 #actor #sovereign #ai #india #government
 
-**India AI** — $1.2B government AI mission. Compute infrastructure. Talent advantage.
+**[[India]] AI** — $1.2B government AI mission. Compute infrastructure. Talent advantage.
 
 ---
 
-## Why India AI matters
+## Why [[India]] AI matters
 
 Emerging AI power:
 
@@ -39,7 +39,7 @@ Emerging AI power:
 - Startup subsidies
 - Research compute
 
-India needs sovereign compute.
+[[India]] needs sovereign compute.
 
 ---
 
@@ -59,8 +59,8 @@ Largest technical workforce.
 
 | Company | Role |
 |---------|------|
-| TCS | IT services + AI |
-| Infosys | Enterprise AI |
+| [[TCS]] | IT services + AI |
+| [[Infosys]] | Enterprise AI |
 | Wipro | AI services |
 | Reliance Jio | Infrastructure |
 | Startups | Innovation |
@@ -71,7 +71,7 @@ Largest technical workforce.
 
 | Challenge | Impact |
 |-----------|--------|
-| Compute gap | Behind US/China |
+| Compute gap | Behind US/[[China]] |
 | Brain drain | Talent leaves |
 | Funding gap | Startups underfunded |
 | Infrastructure | Power, data centers |
@@ -94,10 +94,10 @@ Mukesh Ambani's bet.
 
 ## Investment implications
 
-**India AI = opportunity in:**
-- IT services (TCS, Infosys)
+**[[India]] AI = opportunity in:**
+- IT services ([[TCS]], [[Infosys]])
 - Reliance/Jio
-- India-focused VCs
+- [[India]]-focused VCs
 - Talent arbitrage plays
 
 ---
@@ -107,7 +107,7 @@ Mukesh Ambani's bet.
 | Metric | Value |
 |--------|-------|
 | AI Mission | $1.2B |
-| Target | 10,000+ GPUs |
+| [[Target]] | 10,000+ GPUs |
 | Advantage | Talent pool |
 | Launch | March 2024 |
 

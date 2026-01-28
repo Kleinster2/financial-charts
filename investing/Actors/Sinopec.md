@@ -41,7 +41,7 @@ aliases: [China Petroleum & Chemical Corporation]
 
 ## Venezuela relationship
 
-**Oil buyer:**
+**[[Oil]] buyer:**
 
 | Role | Description |
 |------|-------------|
@@ -70,7 +70,7 @@ aliases: [China Petroleum & Chemical Corporation]
 - State-owned = political control
 - Refining margins volatile
 - China demand slowdown
-- Sanctions exposure (Iran crude)
+- Sanctions exposure ([[Iran]] crude)
 
 ---
 
@@ -91,7 +91,7 @@ aliases: [China Petroleum & Chemical Corporation]
 
 - Sinopec loses feedstock option
 - [[Valero]], [[PBF Energy]] gain cheap heavy crude
-- Gulf Coast refiners = natural destination
+- [[Gulf Coast refiners]] = natural destination
 
 ---
 

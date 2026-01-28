@@ -20,9 +20,9 @@ The "AI trade" is the consensus long positioning in AI infrastructure. Shorting 
 
 | Ticker | Name | Why excluded |
 |--------|------|-------------|
-| MSFT | Microsoft | Too diversified — Office, Windows, gaming dilute AI exposure |
-| AMZN | Amazon | Too diversified — retail, logistics dilute AI exposure |
-| AAPL | Apple | Consumer hardware, not AI infrastructure play |
+| MSFT | [[Microsoft]] | Too diversified — Office, Windows, gaming dilute AI exposure |
+| AMZN | [[Amazon]] | Too diversified — retail, logistics dilute AI exposure |
+| AAPL | [[Apple]] | [[Consumer]] hardware, not AI infrastructure play |
 
 These have AI exposure but aren't clean proxies for "AI is big" thesis.
 

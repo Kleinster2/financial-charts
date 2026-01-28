@@ -42,17 +42,17 @@ aliases: [Valor, Valor Equity]
 | [[Tesla]] | **First institutional investor** | 2005, 2008 investments |
 | [[SpaceX]] | Early investor | $220M invested (2008-2015) |
 | [[xAI]] | Lead investor | Series B ($6B), Series E ($20B) |
-| Neuralink | Investor | Brain-computer interface |
-| The Boring Company | Investor | Tunneling |
+| [[Neuralink]] | Investor | Brain-computer interface |
+| The [[Boring Company]] | Investor | Tunneling |
 
 ### Other portfolio
 
 | Company | Sector |
 |---------|--------|
-| [[Anduril]] | Defense tech |
-| Reddit | Social media |
+| [[Anduril]] | [[Defense]] tech |
+| [[Reddit]] | Social media |
 | Eight Sleep | Sleep tech |
-| Zipline | Drone delivery |
+| [[Zipline]] | Drone delivery |
 
 ---
 
@@ -67,9 +67,9 @@ aliases: [Valor, Valor Equity]
 **Focus areas:**
 - Mobility/transportation
 - Energy
-- Space
+- [[Space]]
 - AI/ML
-- Defense
+- [[Defense]]
 
 ---
 

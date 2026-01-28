@@ -22,9 +22,9 @@ aliases: [ETN]
 
 | Segment | Revenue | Focus |
 |---------|---------|-------|
-| Electrical Americas | ~45% | Switchgear, UPS, distribution |
+| Electrical Americas | ~45% | Switchgear, [[UPS]], distribution |
 | Electrical Global | ~20% | International electrical |
-| Aerospace | ~15% | Aircraft systems |
+| [[Aerospace]] | ~15% | Aircraft systems |
 | Vehicle | ~10% | Drivetrain, EV |
 | eMobility | ~10% | EV power electronics |
 
@@ -36,7 +36,7 @@ aliases: [ETN]
 
 | Product | Function |
 |---------|----------|
-| UPS systems | Backup power |
+| [[UPS]] systems | Backup power |
 | PDUs | Power distribution |
 | Switchgear | Electrical switching |
 | Busway | Power distribution |
@@ -50,7 +50,7 @@ Eaton equipment in virtually every data center.
 
 | Trend | Eaton Exposure |
 |-------|----------------|
-| Data centers | UPS, power distribution |
+| Data centers | [[UPS]], power distribution |
 | Grid modernization | Utility equipment |
 | EV infrastructure | Charging, power electronics |
 | Reshoring | Industrial electrical |
@@ -64,8 +64,8 @@ Eaton equipment in virtually every data center.
 |---------|-------|
 | [[Schneider Electric]] | Broader, more software |
 | [[Vertiv]] | DC-focused pure play |
-| ABB | Automation + electrical |
-| Siemens | Broader industrial |
+| [[ABB]] | Automation + electrical |
+| [[Siemens]] | Broader industrial |
 
 Eaton is more US-focused than European peers.
 
@@ -83,7 +83,7 @@ Eaton is more US-focused than European peers.
 **Bear:**
 - Premium valuation
 - Cyclical industrial exposure
-- Aerospace softness
+- [[Aerospace]] softness
 - Auto segment transition
 
 ---

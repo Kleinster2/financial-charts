@@ -25,9 +25,9 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 
 | Source | Role |
 |--------|------|
-| **Microsoft** | Azure credits, existing investment |
+| **[[Microsoft]]** | Azure credits, existing investment |
 | **Revenue** | $20B ARR funds some capex |
-| **Chip partner deals** | NVIDIA/AMD provide hardware at favorable terms |
+| **Chip partner deals** | [[NVIDIA]]/[[AMD]] provide hardware at favorable terms |
 | **[[AI infrastructure SPVs]]** | Sale-leasebacks, JVs |
 | **Debt** | Bank financing, bonds |
 
@@ -39,7 +39,7 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 |------|----------|---------|
 | 2023 | 0.2 GW | ~$2B |
 | 2025 | 1.9 GW | $20B |
-| Target | **26 GW** | ? |
+| [[Target]] | **26 GW** | ? |
 
 **Critical question:** Does the 1:1 compute-revenue relationship hold at 10x+ scale?
 
@@ -53,11 +53,11 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | 2026 projected | $620B |
 | Morgan Stanley DC spend by 2028 | $3T |
 | **Total external financing needed** | **$1.5T** |
-| Private credit by 2028 | $800B |
+| [[Private credit]] by 2028 | $800B |
 
 **Problem:** Even hyperscalers don't want this on balance sheet. Enter private capital.
 
-**UBS warning (Oct 2025):** "raises eyebrows for anyone that has seen credit cycles."
+**[[UBS]] warning (Oct 2025):** "raises eyebrows for anyone that has seen credit cycles."
 
 ---
 
@@ -68,7 +68,7 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | **[[AI infrastructure SPVs]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
 | **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B |
 | **Construction JV** | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
-| **Chip vendor equity** | NVIDIA/AMD invest for supply lock | OpenAI-NVIDIA $100B |
+| **Chip vendor equity** | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
 
@@ -82,8 +82,8 @@ See [[AI infrastructure deals]] for detailed capital stacks.
 |------|-----|-------------------|
 | [[Blue Owl]] | $273B | Meta $27B, Crusoe — **largest AI infra financier** |
 | **Blackstone** | $1T+ | CoreWeave $7.5B lead |
-| **Apollo** | $650B+ | Meta, xAI debt |
-| **Brookfield** | $900B+ | Infrastructure focus |
+| **[[Apollo]]** | $650B+ | Meta, [[xAI]] debt |
+| **[[Brookfield]]** | $900B+ | Infrastructure focus |
 
 ### Debt investors
 
@@ -92,11 +92,11 @@ See [[AI infrastructure deals]] for detailed capital stacks.
 | [[Pimco]] | $18B anchor in Meta SPV |
 | [[BlackRock]] | $3B+ Meta, infrastructure fund |
 
-### Banks
+### [[Banks]]
 
 | Bank | Role |
 |------|------|
-| [[Morgan Stanley]] | SPV structuring (Meta, xAI) |
+| [[Morgan Stanley]] | SPV structuring (Meta, [[xAI]]) |
 | [[JPMorgan Chase]] | Construction loans (Crusoe $9.6B) |
 
 ---
@@ -112,12 +112,12 @@ See [[AI infrastructure deals]] for detailed capital stacks.
 
 **Off-balance-sheet history:**
 - 2001: Enron — SPVs hid liabilities
-- 2008: Banks moved mortgages off-balance-sheet
+- 2008: [[Banks]] moved mortgages off-balance-sheet
 - 2025: Tech companies using SPVs for AI infrastructure
 
 ### Bank concentration risk
 
-Banks becoming overexposed to few AI borrowers:
+[[Banks]] becoming overexposed to few AI borrowers:
 - [[Oracle]] CDS spike — lenders buying protection
 - SRT exploration — Morgan Stanley considering offload
 
@@ -130,7 +130,7 @@ See [[Significant risk transfer]], [[AI infrastructure financing risk]].
 **Direct plays:**
 - [[Blue Owl]] (OWL) — largest AI infra financier
 - Blackstone (BX) — diversified, big DC exposure
-- Data center REITs (EQIX, DLR)
+- Data center [[REITs]] (EQIX, DLR)
 
 **Indirect beneficiaries:**
 - Power providers ([[Constellation Energy]], [[Vistra]])

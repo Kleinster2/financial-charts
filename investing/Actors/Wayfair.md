@@ -3,7 +3,7 @@ aliases: [W]
 ---
 #actor #company #ecommerce #furniture #usa #public
 
-**Wayfair** — Online furniture retailer. NYSE: W. Home goods focus. Founded 2002.
+**Wayfair** — Online furniture retailer. NYSE: W. [[Home]] goods focus. Founded 2002.
 
 ---
 
@@ -41,7 +41,7 @@ Drop-ship model (asset-light).
 | **AllModern** | Contemporary |
 | **Birch Lane** | Traditional |
 | **Joss & Main** | Curated deals |
-| **Perigold** | Luxury |
+| **Perigold** | [[Luxury]] |
 
 Multi-brand portfolio.
 
@@ -93,7 +93,7 @@ Housing cycle sensitive.
 | Ticker | W (NYSE) |
 | Market cap | ~$6B |
 | Revenue | ~$12B |
-| Focus | Home furnishings |
+| Focus | [[Home]] furnishings |
 
 ---
 

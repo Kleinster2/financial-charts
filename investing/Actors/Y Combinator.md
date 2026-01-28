@@ -63,8 +63,8 @@ aliases: [YC, Y-Combinator]
 |------|-------|
 | 2005 | Founded by Graham, Livingston, Morris, Blackwell |
 | 2011 | Garry Tan joins as partner |
-| 2014 | Paul Graham steps back; Sam Altman becomes President |
-| 2019 | Sam Altman leaves for OpenAI; Geoff Ralston becomes President |
+| 2014 | Paul Graham steps back; [[Sam Altman]] becomes President |
+| 2019 | [[Sam Altman]] leaves for OpenAI; Geoff Ralston becomes President |
 | 2023 | Garry Tan becomes CEO/President |
 
 ---
@@ -120,16 +120,16 @@ See [[YC startup philosophy]] for the full framework.
 |---------|-------|----------|------------------|
 | **[[Stripe]]** | S09 | Payments | $70B (private) |
 | **[[Airbnb]]** | W09 | Hospitality | ~$100B (public) |
-| **[[Coinbase]]** | S12 | Crypto | Public (COIN) |
+| **[[Coinbase]]** | S12 | [[Crypto]] | Public (COIN) |
 | **[[DoorDash]]** | S13 | Delivery | Public (DASH) |
 | **[[Instacart]]** | S12 | Grocery | Public (CART) |
 | **[[Dropbox]]** | S07 | Storage | Public (DBX) |
 | **[[Reddit]]** | S05 | Social | Public (RDDT) |
 | **[[Twitch]]** | W07 | Streaming | Acquired by Amazon |
 | **[[OpenAI]]** | — | AI | $150B+ |
-| **[[Cruise]]** | W14 | Autonomous | Acquired by GM |
+| **[[Cruise]]** | W14 | Autonomous | Acquired by [[GM]] |
 | **[[GitLab]]** | W15 | DevOps | Public (GTLB) |
-| **[[Brex]]** | W17 | Fintech | Acquired by [[Capital One]] $5.15B |
+| **[[Brex]]** | W17 | [[Fintech]] | Acquired by [[Capital One]] $5.15B |
 | **[[Faire]]** | W17 | Wholesale | $12B+ |
 | **[[Scale AI]]** | S16 | AI/Data | $14B+ |
 | **[[Supabase]]** | W20 | Developer tools | $5B |
@@ -141,11 +141,11 @@ See [[YC startup philosophy]] for the full framework.
 
 | Company | Category | Relevance |
 |---------|----------|-----------|
-| [[OpenAI]] | AI labs | GPT, ChatGPT |
+| [[OpenAI]] | AI labs | GPT, [[ChatGPT]] |
 | [[Scale AI]] | Data labeling | AI training data |
-| [[Brex]] | Fintech | Acquired by [[Capital One]] (Jan 2026) |
+| [[Brex]] | [[Fintech]] | Acquired by [[Capital One]] (Jan 2026) |
 | [[Cruise]] | Autonomous | Self-driving |
-| [[Helion Energy]] | Fusion | Clean energy for AI |
+| [[Helion Energy]] | Fusion | [[Clean energy for AI]] |
 
 ---
 
@@ -171,7 +171,7 @@ Each batch: ~200-400 companies (scaled up significantly from original 9).
 | **Brand** | 1% acceptance → prestige → better applicants → better outcomes → stronger brand |
 | **Network** | 5,300+ founders on Bookface → warm intros, advice, hiring, customers |
 | **Demo Day** | Concentrated investor attention → competitive term sheets → higher valuations |
-| **Alumni returning** | Sam Altman, Garry Tan, Michael Seibel came back → credibility loop |
+| **Alumni returning** | [[Sam Altman]], Garry Tan, Michael Seibel came back → credibility loop |
 
 ### Structural innovations
 
@@ -227,7 +227,7 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 
 4. **Pre-IPO access** — Alumni like Stripe, Scale AI are major pre-IPO opportunities.
 
-5. **Network effects** — YC founders help YC founders. Creates compounding advantage.
+5. **[[Network effects]]** — YC founders help YC founders. Creates compounding advantage.
 
 ---
 
@@ -240,7 +240,7 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 - [[Paul Graham]] — co-founder, essayist
 - Jessica Livingston — co-founder
 - Garry Tan — CEO (since 2023)
-- Sam Altman — former President, now [[OpenAI]] CEO
+- [[Sam Altman]] — former President, now [[OpenAI]] CEO
 
 ### Top portfolio (public)
 - [[Stripe]] — payments, $70B
@@ -258,9 +258,9 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 - [[Brex]] — fintech, acquired by [[Capital One]] $5.15B (Jan 2026)
 - [[Faire]] — B2B wholesale, $5B+
 - [[Scale AI]] — data labeling, $14B+
-- [[Supabase]] — Postgres BaaS, $5B, 40% of YC batches use it
+- [[Supabase]] — [[Postgres]] BaaS, $5B, 40% of YC batches use it
 - [[Twitch]] — streaming (acquired by [[Amazon]])
-- [[Cruise]] — autonomous (acquired by GM)
+- [[Cruise]] — autonomous (acquired by [[GM]])
 
 ### Peer accelerators
 - Techstars — competitor accelerator
@@ -268,7 +268,7 @@ YC doesn't need most companies to succeed. They need Stripe, Airbnb, Coinbase. T
 
 ### VC ecosystem
 - Sequoia — frequent YC co-investor
-- a16z — frequent YC co-investor
+- [[a16z]] — frequent YC co-investor
 - Initialized Capital — Garry Tan's prior fund
 
 ---

@@ -1,5 +1,5 @@
 ---
-aliases: [Fermi Inc]
+aliases: [[[Fermi Inc]]]
 ---
 #actor #datacenter #nuclear #usa #public
 
@@ -15,7 +15,7 @@ Ambitious nuclear-powered AI data center project:
 |--------|-------|
 | Ticker | Public (Oct 2025 IPO) |
 | Site | Amarillo, TX (5,236 acres) |
-| Target capacity | **11GW** by 2038 |
+| [[Target]] capacity | **11GW** by 2038 |
 | DC footprint | 15M sq ft |
 | Nuclear reactors | 4x Westinghouse |
 
@@ -98,7 +98,7 @@ Ambitious nuclear-powered AI data center project:
 | Ticker | Public |
 | Founded | 2025 |
 | HQ | Amarillo, TX |
-| Target | 11GW, 15M sq ft |
+| [[Target]] | 11GW, 15M sq ft |
 | Timeline | Full build 2038 |
 
 *Updated 2026-01-05*

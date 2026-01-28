@@ -18,7 +18,7 @@ Packaging powerhouse:
 | Focus | Backend (OSAT) |
 | Penang status | Silicon Island of the East |
 
-Longest semiconductor presence in ASEAN.
+Longest semiconductor presence in [[ASEAN]].
 
 ---
 
@@ -30,7 +30,7 @@ Longest semiconductor presence in ASEAN.
 |---------|-------------------|
 | Intel | Test/assembly |
 | AMD | Test facility |
-| Infineon | Manufacturing |
+| [[Infineon]] | Manufacturing |
 | Osram | LEDs |
 | Various OSAT | Packaging |
 
@@ -82,7 +82,7 @@ Strong OSAT ecosystem.
 | Microsoft | $2.2B AI infrastructure |
 | Google | $2B data center |
 | AWS | Expanding |
-| NVIDIA | Partnership potential |
+| [[NVIDIA]] | Partnership potential |
 
 Hyperscaler attention growing.
 
@@ -102,7 +102,7 @@ Hyperscaler attention growing.
 
 **New investments:**
 - Intel advanced packaging
-- Emerging HBM backend
+- Emerging [[HBM]] backend
 - Heterogeneous integration
 - CoWoS alternatives
 

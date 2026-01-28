@@ -1,9 +1,9 @@
 ---
-aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
+aliases: [JPM 2026, JP Morgan [[Healthcare]] 2026, JPMorgan [[Healthcare]] Conference]
 ---
 #event #healthcare #biopharma #conference
 
-**JPM Healthcare Conference 2026** — 44th annual. Jan 12-15, San Francisco. 8,000+ attendees. Biggest healthcare investor event.
+**JPM [[Healthcare]] Conference 2026** — 44th annual. Jan 12-15, San Francisco. 8,000+ attendees. Biggest healthcare investor event.
 
 ---
 
@@ -25,9 +25,9 @@ aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 |-------|-------|
 | **M&A** | Multi-billion-dollar deals |
 | **GLP-1** | Obesity drug competition |
-| **AI drug discovery** | Platform deals, partnerships |
+| **[[AI drug discovery]]** | Platform deals, partnerships |
 | **Oncology** | Immunotherapy, ADCs |
-| **Patent cliffs** | 2028 Keytruda, Opdivo |
+| **[[Patent cliffs]]** | 2028 [[Keytruda]], Opdivo |
 | **Biosimilars** | Market dynamics |
 
 ---
@@ -86,7 +86,7 @@ aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 **2025 JPM highlights (reference):**
 - AbbVie: Skyrizi/Rinvoq replacing Humira
 - Amgen: MariTide obesity strategy
-- Multiple AI drug discovery deals
+- Multiple [[AI drug discovery]] deals
 
 ---
 
@@ -113,7 +113,7 @@ aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 **M&A signals:**
 - Patent cliff anxiety driving deals
 - AI platform acquisitions
-- China asset licensing
+- [[China]] asset licensing
 
 **Pipeline catalysts:**
 - Phase 3 readouts
@@ -124,7 +124,7 @@ aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 
 ## Investment implications
 
-| Signal | Meaning |
+| [[Signal]] | Meaning |
 |--------|---------|
 | Conservative guidance | Defensive positioning |
 | M&A announcements | Pipeline gaps, urgency |
@@ -146,7 +146,7 @@ aliases: [JPM 2026, JP Morgan Healthcare 2026, JPMorgan Healthcare Conference]
 
 ## Sources
 
-- [JPM Healthcare Conference](https://jpmannualhealthcareconference.com/)
+- [JPM [[Healthcare]] Conference](https://jpmannualhealthcareconference.com/)
 - [BioSpace coverage](https://www.biospace.com/)
 - [PharmExec previews](https://www.pharmexec.com/view/jp-morgan-2026-preview-johnson-johnson-fireside-chat)
 

@@ -27,7 +27,7 @@ aliases: [Greenlight Planet]
 - Affordable financing for households
 - Direct-to-consumer distribution
 
-**Wale Aboyade (VP Public Affairs):** "The fact that most of this capacity comes from distributed systems means its impact is far more widespread than in countries like South Africa, where large utility-scale plants dominate. In Nigeria, solar is reaching hundreds of thousands of homes and businesses directly."
+**Wale Aboyade (VP Public Affairs):** "The fact that most of this capacity comes from distributed systems means its impact is far more widespread than in countries like South [[Africa]], where large utility-scale plants dominate. In Nigeria, solar is reaching hundreds of thousands of homes and businesses directly."
 
 ---
 

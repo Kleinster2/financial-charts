@@ -29,9 +29,9 @@ BEV targets technologies that can reduce >500M tons CO2/year:
 |----------|----------|
 | Clean power | Nuclear, geothermal, fusion |
 | Storage | Long-duration batteries |
-| Transport | EVs, sustainable aviation |
+| [[Transport]] | EVs, sustainable aviation |
 | Industry | Green steel, cement |
-| Agriculture | Alternative proteins |
+| [[Agriculture]] | Alternative proteins |
 
 Only backs "hard tech" — not software or incremental improvements.
 
@@ -43,11 +43,11 @@ Only backs "hard tech" — not software or incremental improvements.
 |---------|--------|--------|
 | [[Commonwealth Fusion Systems]] | Fusion | $2B+ raised |
 | [[TerraPower]] | Nuclear | Building first plant |
-| QuantumScape | Solid-state batteries | Public (QS) |
-| Form Energy | Iron-air batteries | Grid storage |
-| Impossible Foods | Alt protein | Consumer products |
+| [[QuantumScape]] | [[Solid-state batteries]] | Public (QS) |
+| [[Form Energy]] | Iron-air batteries | [[Grid storage]] |
+| Impossible Foods | Alt protein | [[Consumer]] products |
 | Lilium | eVTOL | Public (LILM) |
-| Fervo Energy | Geothermal | Google partnership |
+| Fervo Energy | Geothermal | [[Google]] partnership |
 | Boston Metal | Green steel | Industrial |
 
 ---
@@ -67,12 +67,12 @@ Only backs "hard tech" — not software or incremental improvements.
 
 | Investor | Background |
 |----------|------------|
-| [[Bill Gates]] | Microsoft, founder |
-| Jeff Bezos | Amazon |
-| Jack Ma | Alibaba |
-| Masayoshi Son | SoftBank |
+| [[Bill Gates]] | [[Microsoft]], founder |
+| [[Jeff Bezos]] | [[Amazon]] |
+| Jack Ma | [[Alibaba]] |
+| [[Masayoshi Son]] | [[SoftBank]] |
 | Richard Branson | Virgin |
-| Marc Benioff | Salesforce |
+| Marc Benioff | [[Salesforce]] |
 
 Tech billionaires with patient capital for long-duration R&D.
 
@@ -99,8 +99,8 @@ Several BEV portfolio companies relevant to AI power needs:
 |---------|--------------|
 | [[Commonwealth Fusion Systems]] | Fusion for data centers |
 | [[TerraPower]] | Nuclear for hyperscalers |
-| Fervo Energy | Geothermal for Google |
-| Form Energy | Grid storage |
+| Fervo Energy | Geothermal for [[Google]] |
+| [[Form Energy]] | [[Grid storage]] |
 
 BEV positioned at intersection of climate tech and AI infrastructure buildout.
 
@@ -134,7 +134,7 @@ BEV positioned at intersection of climate tech and AI infrastructure buildout.
 | Fund life | 20 years (vs 10 typical) |
 | LPs | Tech billionaires |
 | Portfolio | 50+ companies |
-| Public holdings | QS (QuantumScape), LILM (Lilium) |
+| Public holdings | QS ([[QuantumScape]]), LILM (Lilium) |
 
 **Unique structure:** 20-year fund life for patient capital in hard tech.
 

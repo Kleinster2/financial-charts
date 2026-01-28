@@ -46,7 +46,7 @@ aliases: [AQR Capital Management, AQR Capital]
 | Robert Krail | Co-founder (retired) |
 | Ronen Israel | Principal |
 
-All from Goldman Sachs Quantitative Research.
+All from [[Goldman Sachs]] Quantitative Research.
 
 ---
 
@@ -118,7 +118,7 @@ Asness has navigated three major drawdowns:
 |--------|--------|-------|
 | **Quant meltdown** | Aug 2007 | Factor crowding; rapid deleveraging |
 | **Value crash** | 2018-2020 | Growth/momentum dominated; value collapsed |
-| **Post-COVID** | 2020-2022 | Meme stocks, low rates hurt factors |
+| **Post-COVID** | 2020-2022 | [[Meme stocks]], low rates hurt factors |
 
 Each time AQR stuck to its process and eventually recovered.
 

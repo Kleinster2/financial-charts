@@ -183,7 +183,7 @@ See [[HBM]], [[Memory shortage 2025-2026]].
 | Inspection | [[KLA]] | Finds defects |
 | Ion implant | Applied Materials | Doping |
 
-**ASML monopoly:** Only company making EUV. 5-year lead. Export-controlled to China.
+**ASML monopoly:** Only company making EUV. 5-year lead. Export-controlled to [[China]].
 
 See [[Semiconductor equipment]].
 
@@ -231,9 +231,9 @@ See [[Foundry monopoly consolidation]].
 
 ---
 
-## China constraints
+## [[China]] constraints
 
-[[Export controls]] limit China's semiconductor capability:
+[[Export controls]] limit [[China]]'s semiconductor capability:
 
 | Restricted | Impact |
 |------------|--------|
@@ -255,6 +255,6 @@ See [[Foundry monopoly consolidation]].
 - [[Foundry monopoly consolidation]] — why winner-take-most
 - [[Yield as competitive moat]] — manufacturing advantage
 - [[Advanced packaging]] — chiplets, CoWoS, HBM
-- [[Export controls]] — China restrictions
+- [[Export controls]] — [[China]] restrictions
 - [[EUV]] — extreme ultraviolet lithography
 - [[HBM]] — high bandwidth memory

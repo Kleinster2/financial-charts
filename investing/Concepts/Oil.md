@@ -20,7 +20,7 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 ## Key benchmarks
 
-| Benchmark | Description |
+| [[Benchmark]] | Description |
 |-----------|-------------|
 | WTI | West Texas Intermediate — US benchmark |
 | Brent | North Sea — global benchmark |
@@ -34,12 +34,12 @@ aliases: [crude oil, petroleum, WTI, Brent]
 | Producer | Production | Notes |
 |----------|------------|-------|
 | US | ~13M bpd | Shale revolution, #1 producer |
-| Saudi Arabia | ~10M bpd | OPEC leader, swing producer |
-| Russia | ~10M bpd | Sanctioned, discounted sales |
-| Canada | ~5M bpd | Oil sands, heavy crude |
-| Iraq | ~4.5M bpd | OPEC #2 |
-| China | ~4M bpd | Declining, major importer |
-| UAE | ~3.5M bpd | OPEC |
+| Saudi Arabia | ~10M bpd | [[OPEC]] leader, swing producer |
+| [[Russia]] | ~10M bpd | Sanctioned, discounted sales |
+| [[Canada]] | ~5M bpd | Oil sands, heavy crude |
+| Iraq | ~4.5M bpd | [[OPEC]] #2 |
+| [[China]] | ~4M bpd | Declining, major importer |
+| UAE | ~3.5M bpd | [[OPEC]] |
 | [[Venezuela]] | ~1M bpd | Collapsed, 303B reserves |
 
 ---
@@ -50,19 +50,19 @@ aliases: [crude oil, petroleum, WTI, Brent]
 |------|---------|--------|---------|---------|
 | Light sweet | High API | Low | Highest | WTI, Brent |
 | Light sour | High API | High | Moderate | Mars |
-| Heavy sour | Low API | High | Discount | Venezuela, Canada |
+| Heavy sour | Low API | High | Discount | Venezuela, [[Canada]] |
 
 **Refinery match:** Complex refineries (Gulf Coast) designed for heavy sour crude.
 
 ---
 
-## OPEC+ dynamics
+## [[OPEC]]+ dynamics
 
 | Factor | Impact |
 |--------|--------|
 | Production quotas | Control supply, support prices |
-| Saudi spare capacity | ~2-3M bpd buffer |
-| Russia coordination | Post-2016 alliance |
+| Saudi spare capacity | ~2-[[3M]] bpd buffer |
+| [[Russia]] coordination | Post-2016 alliance |
 | Cheating | Members often exceed quotas |
 | US shale | Price ceiling (~$80 brings supply) |
 
@@ -72,8 +72,8 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Factor | Bullish | Bearish |
 |--------|---------|---------|
-| Demand | Economic growth, China recovery | Recession, EV adoption |
-| Supply | OPEC cuts, outages | US shale, Venezuela return |
+| Demand | Economic growth, [[China]] recovery | Recession, EV adoption |
+| Supply | [[OPEC]] cuts, outages | US shale, Venezuela return |
 | Geopolitics | Middle East conflict | Peace, sanctions lifted |
 | Dollar | Weak USD | Strong USD |
 | Inventories | Draws | Builds |
@@ -84,8 +84,8 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Type | Examples |
 |------|----------|
-| Majors | [[Exxon]], [[Chevron]], Shell, BP |
-| E&P | ConocoPhillips, EOG, Pioneer |
+| Majors | [[Exxon]], [[Chevron]], [[Shell]], [[BP]] |
+| E&P | [[ConocoPhillips]], EOG, Pioneer |
 | Services | [[Schlumberger]], [[Halliburton]], [[Baker Hughes]] |
 | Refiners | [[Valero]], [[Phillips 66]], [[PBF Energy]] |
 | ETFs | USO, XLE, OIH |
@@ -99,7 +99,7 @@ aliases: [crude oil, petroleum, WTI, Brent]
 |--------|--------|
 | Price | ~$70-75 Brent |
 | Supply | Oversupplied near-term |
-| OPEC+ | Managing cuts |
+| [[OPEC]]+ | Managing cuts |
 | US shale | Disciplined, not flooding market |
 | [[Venezuela]] | [[Maduro capture 2026]] — potential supply increase |
 | Demand | Moderate growth |
@@ -116,7 +116,7 @@ aliases: [crude oil, petroleum, WTI, Brent]
 | Moderate | 2030s | EV adoption gradual |
 | Bearish | Late 2020s | Rapid EV + policy |
 
-**Reality:** Oil demand still growing, but growth slowing. Transport ~50% of demand.
+**Reality:** Oil demand still growing, but growth slowing. [[Transport]] ~50% of demand.
 
 ---
 

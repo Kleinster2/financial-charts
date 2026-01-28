@@ -39,9 +39,9 @@ aliases: [Bowman, Miki Bowman]
 | Issue | Bowman position |
 |-------|-----------------|
 | **Rates** | Historically hawkish, recently dovish shift |
-| **Inflation** | Cautious — warned about persistence |
+| **[[Inflation]]** | Cautious — warned about persistence |
 | **Regulation** | Deregulatory — cut supervision staff 30% |
-| **Banks** | Pro-community bank, skeptical of big bank rules |
+| **[[Banks]]** | Pro-community bank, skeptical of big bank rules |
 
 **Jan 2026 shift:** Called current 3.50-3.75% rate "moderately restrictive," argued for further cuts despite hawkish history.
 

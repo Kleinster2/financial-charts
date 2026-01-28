@@ -1,6 +1,6 @@
 #event #exxon #energy #ma #2024
 
-**Exxon Pioneer acquisition** — $60B Permian Basin deal closed May 2024. Largest oil deal in 20+ years.
+**[[Exxon]] Pioneer acquisition** — $60B Permian Basin deal closed May 2024. Largest oil deal in 20+ years.
 
 ---
 
@@ -10,8 +10,8 @@
 |-----------|-------|
 | Announced | October 2023 |
 | Closed | May 2024 |
-| Acquirer | Exxon Mobil |
-| Target | Pioneer Natural Resources |
+| Acquirer | [[Exxon]] Mobil |
+| [[Target]] | Pioneer Natural Resources |
 | Price | $59.5B (all-stock) |
 
 ---
@@ -23,7 +23,7 @@
 | Permian dominance | #1 Permian producer |
 | Inventory | 20+ years drilling locations |
 | Synergies | $2B+ cost savings |
-| Scale | 1.3M boe/d production |
+| Scale | 1.[[3M]] boe/d production |
 
 ---
 
@@ -32,7 +32,7 @@
 | Metric | Post-deal |
 |--------|-----------|
 | Acreage | 1.4M net acres |
-| Production | ~1.3M boe/d |
+| Production | ~1.[[3M]] boe/d |
 | Inventory | 20+ years |
 | Position | Largest Permian producer |
 
@@ -43,7 +43,7 @@
 | Agency | Outcome |
 |--------|---------|
 | FTC | Approved with conditions |
-| Scott Sheffield | Barred from Exxon board |
+| Scott Sheffield | Barred from [[Exxon]] board |
 | Collusion allegations | Pioneer pricing practices |
 
 ---
@@ -52,7 +52,7 @@
 
 | Trend | Description |
 |-------|-------------|
-| Permian consolidation | Chevron-Hess, Oxy-CrownRock |
+| Permian consolidation | [[Chevron]]-Hess, Oxy-CrownRock |
 | Scale benefits | Inventory life extension |
 | Shareholder returns | Cash flow focus |
 | M&A wave | Majors acquiring independents |
@@ -73,8 +73,8 @@
 ## Related
 
 ### Actors
-- Exxon Mobil — acquirer
-- Chevron — peer deal (Hess)
+- [[Exxon]] Mobil — acquirer
+- [[Chevron]] — peer deal (Hess)
 
 ### Concepts
 - [[US Shale]] — Permian Basin

@@ -3,7 +3,7 @@ aliases: [Zoom Video, ZM]
 ---
 #actor #company #saas #communications #usa #public
 
-**Zoom** — Video communications platform. Nasdaq: ZM. COVID beneficiary. Founded 2011.
+**Zoom** — Video communications platform. [[Nasdaq]]: ZM. COVID beneficiary. Founded 2011.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Zoom Video, ZM]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ZM (Nasdaq) |
+| Ticker | ZM ([[Nasdaq]]) |
 | Market cap | ~$25B |
 | Revenue | ~$4.5B |
 | Enterprise customers | 200K+ |
@@ -64,12 +64,12 @@ Stock down 85%+ from peak.
 
 | Competitor | Threat level |
 |------------|--------------|
-| Microsoft Teams | High (bundled) |
-| Google Meet | Medium |
-| Cisco Webex | Medium |
-| Slack (Salesforce) | Adjacent |
+| Microsoft [[Teams]] | High (bundled) |
+| [[Google]] Meet | Medium |
+| [[Cisco]] Webex | Medium |
+| [[Slack]] (Salesforce) | Adjacent |
 
-Teams bundling is main threat.
+[[Teams]] bundling is main threat.
 
 ---
 
@@ -79,7 +79,7 @@ Teams bundling is main threat.
 |--------|------|
 | **Eric Yuan** | Founder, CEO |
 
-Yuan was Cisco Webex engineer, left to build better product.
+Yuan was [[Cisco]] Webex engineer, left to build better product.
 
 ---
 
@@ -104,7 +104,7 @@ Integrating AI across products.
 - Cheap valuation
 
 **Bear:**
-- Microsoft Teams competition
+- Microsoft [[Teams]] competition
 - Growth slowdown
 - Commoditization risk
 - Return to office trend
@@ -115,7 +115,7 @@ Integrating AI across products.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ZM (Nasdaq) |
+| Ticker | ZM ([[Nasdaq]]) |
 | Market cap | ~$25B |
 | Revenue | ~$4.5B |
 | Founder | Eric Yuan |
@@ -124,8 +124,8 @@ Integrating AI across products.
 
 ## Related
 
-- [[Microsoft]] — competitor (Teams)
-- [[Salesforce]] — owns Slack
+- [[Microsoft]] — competitor ([[Teams]])
+- [[Salesforce]] — owns [[Slack]]
 - [[SaaS]] — sector
 
 ---

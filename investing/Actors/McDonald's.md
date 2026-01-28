@@ -37,7 +37,7 @@ aliases: [MCD]
 | Kitchen | Predictive prep |
 | Dynamic pricing | Menu board optimization |
 
-**Accelerating:** Google Cloud partnership for AI.
+**Accelerating:** [[Google]] Cloud partnership for AI.
 
 ---
 
@@ -52,7 +52,7 @@ aliases: [MCD]
 
 **Bear:**
 - Labor cost inflation
-- Health/ESG concerns
+- Health/[[ESG]] concerns
 - Franchisee relations
 - Competition intensifying
 

@@ -3,7 +3,7 @@ aliases: [sidecar, sidecars, reinsurance sidecar, ILS sidecar, ACRA]
 ---
 #concept #finance #insurance #alternativeassets
 
-**Reinsurance sidecars** — Special-purpose vehicles that let third-party investors co-invest alongside insurers/reinsurers, sharing in the risk and returns of a specific book of business. Originally a P&C catastrophe tool (1990s Bermuda), now the structural backbone of the PE-insurance convergence in life/annuity markets.
+**Reinsurance sidecars** — Special-purpose vehicles that let third-party investors co-invest alongside insurers/reinsurers, sharing in the risk and returns of a specific book of business. Originally a P&C catastrophe tool (1990s Bermuda), now the structural backbone of the [[PE-insurance convergence]] in life/annuity markets.
 
 ---
 
@@ -15,7 +15,7 @@ The sidecar is the mechanism by which private equity firms turned insurance from
 | Segment | Capital (2025) | Growth | Key use |
 |---------|---------------|--------|---------|
 | P&C sidecars | $19.6B (Q3 2025) | +70% YoY | Catastrophe capacity |
-| Life/annuity (AIR) | $928B ceded to Bermuda | +353% since 2014 | Permanent capital, PRT |
+| Life/annuity (AIR) | $928B ceded to Bermuda | +353% since 2014 | [[Permanent capital]], PRT |
 | Alternative capital (total ILS) | $124B | Steady growth | All insurance-linked |
 
 ---
@@ -85,7 +85,7 @@ This is where the real scale is. US life/health insurers had **$928B of reinsura
 | ACRA 1 commitments | ~$4B |
 | ADIP II first close | $2B |
 | Total ACRA/ADIP invested assets | ~$44B |
-| Target float from initial capital | $60B from $3.2B |
+| [[Target]] float from initial capital | $60B from $3.2B |
 | Fee to Apollo | Asset management fees on invested float |
 
 The multiplier effect is enormous: $3.2B of third-party capital generates $60B of investable float for Apollo to manage.
@@ -99,12 +99,12 @@ The multiplier effect is enormous: $3.2B of third-party capital generates $60B o
 | [[Blackstone]] | [[F&G Annuities]] | $1B-backed vehicle (Aug 2025) | Growing |
 | [[Carlyle Group]] | [[Fortitude Re]] | Carlyle FCA Re | T&D Holdings $250M (Oct 2025) |
 | [[Brookfield]] | [[American Equity]] | Bermuda affiliate | Multi-billion |
-| Blue Owl | — | Various | Growing |
-| KKR + Japan Post | — | $2B co-investment vehicle (2025) | Japan expansion |
+| [[Blue Owl]] | — | Various | Growing |
+| KKR + [[Japan]] Post | — | $2B co-investment vehicle (2025) | [[Japan]] expansion |
 
-### Japan expansion (2025)
+### [[Japan]] expansion (2025)
 
-KKR and Apollo are tapping Japan's $5.8T life insurance savings pool through reinsurance arrangements. Japan Post Insurance established a $2B co-investment vehicle with [[Global Atlantic]] (KKR). The JFSA launched a targeted review of asset-intensive reinsurance in Feb 2025.
+KKR and Apollo are tapping [[Japan]]'s $5.8T life insurance savings pool through reinsurance arrangements. [[Japan]] Post Insurance established a $2B co-investment vehicle with [[Global Atlantic]] (KKR). The JFSA launched a targeted review of asset-intensive reinsurance in Feb 2025.
 
 ---
 
@@ -116,13 +116,13 @@ KKR and Apollo are tapping Japan's $5.8T life insurance savings pool through rei
 - Insurance capital = 3.5x more revenue per dollar managed
 
 **Structural advantages:**
-1. **Permanent capital** — no fundraising cycles, no redemptions
+1. **[[Permanent capital]]** — no fundraising cycles, no redemptions
 2. **Low cost of capital** — annuity liabilities at ~3-4% vs. PE fund hurdles of 15-20%
 3. **Asset management fees** — PE sponsor earns fees managing the float
 4. **Balance sheet leverage** — sidecar capital multiplies deployable assets
 5. **Regulatory arbitrage** — Bermuda capital rules less restrictive than US (debated)
 
-**Berkshire Hathaway's concession (2025):** Ajit Jain acknowledged Berkshire can no longer compete because PE firms take on significantly more leverage and credit risk in insurance.
+**[[Berkshire Hathaway]]'s concession (2025):** Ajit Jain acknowledged Berkshire can no longer compete because PE firms take on significantly more leverage and credit risk in insurance.
 
 ---
 
@@ -133,7 +133,7 @@ KKR and Apollo are tapping Japan's $5.8T life insurance savings pool through rei
 **Regulatory scrutiny (2025):**
 - **BMA (Bermuda):** Published insights paper March 2025, implemented transaction approvals, liquidity stress testing, "proactive and intrusive" supervision. Median solvency ratio 259%.
 - **IAIS (International):** Issues paper on structural shifts in life insurance, financial stability implications
-- **JFSA (Japan):** Targeted review of AIR transactions, counterparty risk, PE ownership structures
+- **JFSA ([[Japan]]):** Targeted review of AIR transactions, counterparty risk, PE ownership structures
 - **US (state regulators):** Concerns about offshore cession, reduced disclosure
 
 **Systemic risk assessment:** Oliver Wyman concluded that mass recapture of Bermuda AIR in a credit crisis would not threaten solvency of a material portion of global insurance markets. Bermuda reinsurers operate on collateralized basis with high-quality portfolios — "risk absorbers rather than risk transmitters."
@@ -153,9 +153,9 @@ Global retirement protection gap estimated at $51T (GFIA, 2023). The thesis: agi
 - [[Athene]] — pioneer of life/annuity sidecar (ACRA, 2019)
 - [[Apollo]] — sponsor, manages ACRA/ADIP float
 - [[Private credit]] — primary asset class deployed via sidecar capital
-- [[KKR]] — [[Global Atlantic]], Japan expansion
+- [[KKR]] — [[Global Atlantic]], [[Japan]] expansion
 - [[Blackstone]] — [[F&G Annuities]] partnership, $1B sidecar (2025)
-- [[Carlyle Group]] — [[Fortitude Re]], FCA Re Asia sidecar
+- [[Carlyle Group]] — [[Fortitude Re]], FCA Re [[Asia]] sidecar
 - [[Brookfield]] — [[American Equity]], fixed indexed annuities
 - [[Hedge fund capital concentration]] — parallel trend of alternative asset scaling
 - [[Hyperscaler capex]] — competing demand for institutional capital

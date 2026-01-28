@@ -79,7 +79,7 @@ At least six justices — including Trump appointees Kavanaugh and Barrett — q
 
 **Result:** Capital flight, currency crisis, forced reversal. Eventually allowed independence in 2023 — but damage done.
 
-### UK mini-budget (2022)
+### [[UK]] mini-budget (2022)
 
 See [[UK mini-budget crisis 2022]].
 
@@ -171,7 +171,7 @@ Research on Turkey's central bank dismissals found:
 | **Chair transition (orderly)** | Watch new chair's credibility |
 | **Independence eroded** | Long gold, short duration, quality |
 | **Bond vigilante response** | Long gold, short long-duration [[Treasuries]] |
-| **Full Turkey scenario** | Commodities, non-USD assets |
+| **Full Turkey scenario** | [[Commodities]], non-USD assets |
 
 ---
 

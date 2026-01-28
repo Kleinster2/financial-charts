@@ -3,7 +3,7 @@ aliases: [COR, CoreSite Realty]
 ---
 #actor #datacenter #reit #usa #public
 
-**Coresite** — Data center REIT focused on interconnection. Acquired by American Tower (2021). Colocation and cloud on-ramps.
+**Coresite** — Data center REIT focused on interconnection. Acquired by [[American Tower]] (2021). Colocation and cloud on-ramps.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [COR, CoreSite Realty]
 
 | Metric | Value |
 |--------|-------|
-| Status | Subsidiary of American Tower |
+| Status | Subsidiary of [[American Tower]] |
 | Acquired | 2021 (~$10B) |
 | Focus | Colocation, interconnection |
 | Markets | Major US metros |
@@ -31,10 +31,10 @@ aliases: [COR, CoreSite Realty]
 
 ---
 
-## Acquisition by American Tower
+## Acquisition by [[American Tower]]
 
 **2021 deal:**
-- American Tower acquired Coresite for ~$10B
+- [[American Tower]] acquired Coresite for ~$10B
 - Tower company → data center expansion
 - Coresite operates as subsidiary
 - No longer separately traded
@@ -58,11 +58,11 @@ aliases: [COR, CoreSite Realty]
 |---------|-------|--------|
 | [[Equinix]] | Largest, global | Public |
 | [[Digital Realty]] | Hyperscale + colo | Public |
-| **Coresite** | Interconnection | American Tower subsidiary |
-| QTS | Hyperscale | Acquired by Blackstone |
-| CyrusOne | Enterprise | Acquired by KKR |
+| **Coresite** | Interconnection | [[American Tower]] subsidiary |
+| [[QTS]] | Hyperscale | Acquired by [[Blackstone]] |
+| CyrusOne | Enterprise | Acquired by [[KKR]] |
 
-**Trend:** Private equity consolidating data center REITs.
+**Trend:** Private equity consolidating data center [[REITs]].
 
 ---
 
@@ -81,10 +81,10 @@ aliases: [COR, CoreSite Realty]
 
 ## Investment implication
 
-**Coresite itself:** Not separately investable (American Tower subsidiary).
+**Coresite itself:** Not separately investable ([[American Tower]] subsidiary).
 
 **Exposure via:**
-- American Tower (AMT) — parent company
+- [[American Tower]] (AMT) — parent company
 - [[Equinix]], [[Digital Realty]] — public data center peers
 
 ---

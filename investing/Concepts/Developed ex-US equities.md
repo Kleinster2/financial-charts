@@ -3,7 +3,7 @@ aliases: [EAFE, EFA, international equities, developed international, VEA, devel
 ---
 #concept #equities #developed-markets
 
-**Developed ex-US equities** — Developed market stocks outside the United States. Europe, Australasia, Far East (EAFE). Has underperformed US for 15 years but trades at significant discount. Primary vehicle: EFA (iShares MSCI EAFE ETF).
+**Developed ex-US equities** — Developed market stocks outside the United States. [[Europe]], Australasia, Far East (EAFE). Has underperformed US for 15 years but trades at significant discount. Primary vehicle: EFA (iShares [[MSCI]] EAFE ETF).
 
 ---
 
@@ -12,23 +12,23 @@ aliases: [EAFE, EFA, international equities, developed international, VEA, devel
 | Metric | Value |
 |--------|-------|
 | EFA YTD | ~+6% |
-| MSCI EAFE P/E | ~14x |
+| [[MSCI]] EAFE P/E | ~14x |
 | S&P 500 P/E | ~22x |
 | Valuation discount | ~35% |
 
 ---
 
-## Country weights (MSCI EAFE)
+## Country weights ([[MSCI]] EAFE)
 
 | Country | Weight | Key exposures |
 |---------|--------|---------------|
 | **Japan** | ~22% | Autos, industrials, tech |
 | **UK** | ~15% | Energy, financials, pharma |
-| **France** | ~11% | Luxury, industrials |
-| **Switzerland** | ~9% | Pharma, Nestlé |
+| **[[France]]** | ~11% | [[Luxury]], industrials |
+| **[[Switzerland]]** | ~9% | Pharma, [[Nestlé]] |
 | **Germany** | ~8% | Autos, industrials |
-| **Australia** | ~7% | Banks, mining |
-| **Netherlands** | ~4% | ASML, Shell |
+| **[[Australia]]** | ~7% | [[Banks]], mining |
+| **Netherlands** | ~4% | [[ASML]], [[Shell]] |
 | **Other** | ~24% | Nordics, Spain, Italy, HK, Singapore |
 
 ---
@@ -37,7 +37,7 @@ aliases: [EAFE, EFA, international equities, developed international, VEA, devel
 
 US has crushed international since 2009:
 
-| Period | MSCI EAFE | S&P 500 | Gap |
+| Period | [[MSCI]] EAFE | S&P 500 | [[Gap]] |
 |--------|-----------|---------|-----|
 | 2009-2024 | ~+150% | ~+500% | Massive |
 | Annualized | ~6% | ~12% | 6%/year |
@@ -46,7 +46,7 @@ US has crushed international since 2009:
 - Tech dominance (Mag 7 = 30% of S&P)
 - Stronger earnings growth
 - Dollar strength
-- Europe: debt crisis, energy crisis, slow growth
+- [[Europe]]: debt crisis, energy crisis, slow growth
 - Japan: lost decades, deflation
 
 ---
@@ -58,7 +58,7 @@ US has crushed international since 2009:
 | **Valuation** | 35% discount to US, near historic wides |
 | **Dollar** | USD weakness = tailwind for USD-based investors |
 | **Mean reversion** | Leadership rotates over decades |
-| **Europe recovery** | German fiscal stimulus, defense spending |
+| **[[Europe]] recovery** | German fiscal stimulus, defense spending |
 | **Japan revival** | Corporate reform, BoJ normalization |
 | **Diversification** | Concentrated US tech risk |
 
@@ -69,9 +69,9 @@ US has crushed international since 2009:
 | Argument | Detail |
 |----------|--------|
 | **Tech moat** | AI/cloud = US companies |
-| **Demographics** | Europe/Japan aging faster |
+| **Demographics** | [[Europe]]/Japan aging faster |
 | **Regulation** | EU less business-friendly |
-| **Energy** | Europe energy costs higher |
+| **Energy** | [[Europe]] energy costs higher |
 | **Growth** | US GDP growth consistently higher |
 
 "Cheap for a reason" argument.
@@ -82,8 +82,8 @@ US has crushed international since 2009:
 
 | Driver | Impact |
 |--------|--------|
-| **US dollar** | Strong USD = headwind for EFA in USD terms |
-| **Relative growth** | US > Europe/Japan = US outperformance |
+| **[[US dollar]]** | Strong USD = headwind for EFA in USD terms |
+| **Relative growth** | US > [[Europe]]/Japan = US outperformance |
 | **Rate differentials** | Higher US rates attract capital |
 | **Risk appetite** | Risk-on can favor international |
 | **Sector composition** | EFA = value-heavy, less tech |
@@ -109,7 +109,7 @@ US investor in EFA faces FX risk:
 | Vehicle | FX exposure | Use case |
 |---------|-------------|----------|
 | EFA, VEA | Unhedged | Want currency exposure |
-| HEDJ (Europe) | Hedged | Isolate equity return |
+| HEDJ ([[Europe]]) | Hedged | Isolate equity return |
 | DXJ (Japan) | Hedged | Isolate equity return |
 
 ---
@@ -118,13 +118,13 @@ US investor in EFA faces FX risk:
 
 | Ticker | Name | Expense | Notes |
 |--------|------|---------|-------|
-| EFA | iShares MSCI EAFE | 0.32% | Most liquid |
-| VEA | Vanguard FTSE Developed | 0.05% | Cheapest, includes Canada |
+| EFA | iShares [[MSCI]] EAFE | 0.32% | Most liquid |
+| VEA | Vanguard FTSE Developed | 0.05% | Cheapest, includes [[Canada]] |
 | IEFA | iShares Core EAFE | 0.07% | Low cost |
-| HEDJ | WisdomTree Europe Hedged | 0.58% | EUR hedged |
+| HEDJ | WisdomTree [[Europe]] Hedged | 0.58% | EUR hedged |
 | DXJ | WisdomTree Japan Hedged | 0.48% | JPY hedged |
-| EWJ | iShares MSCI Japan | 0.50% | Japan only |
-| VGK | Vanguard FTSE Europe | 0.08% | Europe only |
+| EWJ | iShares [[MSCI]] Japan | 0.50% | Japan only |
+| VGK | Vanguard FTSE [[Europe]] | 0.08% | [[Europe]] only |
 
 ---
 
@@ -152,7 +152,7 @@ US investor in EFA faces FX risk:
 ### Concepts
 - [[Emerging markets]] — higher risk alternative
 - [[Japanese yen]] — JPY impact on Japan returns
-- [[Euro]] — EUR impact on Europe returns
+- [[Euro]] — EUR impact on [[Europe]] returns
 
 ### Comparison
 - US equities (SPY) — the benchmark

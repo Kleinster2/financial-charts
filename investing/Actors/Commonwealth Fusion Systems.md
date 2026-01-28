@@ -17,7 +17,7 @@ CFS is the most credible private fusion effort:
 | Funding | $2B+ raised |
 | Design | SPARC tokamak |
 | HQ | Devens, Massachusetts |
-| Target | 2030s commercial |
+| [[Target]] | 2030s commercial |
 
 ---
 
@@ -26,7 +26,7 @@ CFS is the most credible private fusion effort:
 | Innovation | Details |
 |------------|---------|
 | Magnets | High-temperature superconducting (HTS) |
-| Field strength | 20 Tesla (vs ~12T conventional) |
+| Field strength | 20 [[Tesla]] (vs ~12T conventional) |
 | Size | Smaller than ITER |
 | Advantage | Compact, faster to build |
 
@@ -74,12 +74,12 @@ If SPARC works, ARC follows.
 
 | Investor | Notes |
 |----------|-------|
-| Tiger Global | Lead (Series B) |
-| Bill Gates / Breakthrough Energy | Strategic |
+| [[Tiger Global]] | Lead (Series B) |
+| [[Bill Gates]] / Breakthrough Energy | Strategic |
 | [[Google]] | Strategic |
 | [[Khosla Ventures]] | Early backer |
 | Emerson Collective | Growth |
-| Temasek | Sovereign |
+| [[Temasek]] | Sovereign |
 
 **Total raised:** $2B+
 
@@ -94,7 +94,7 @@ If SPARC works, ARC follows.
 | Timeline | 2030s+ | Late 2020s |
 | Technical risk | High | Lower |
 | AI relevance | Too late | Near-term |
-| Fuel | Abundant | Uranium supply chain |
+| Fuel | Abundant | [[Uranium]] supply chain |
 
 **Reality**: Fusion won't power AI data centers this decade. It's a 2030s+ bet.
 
@@ -106,7 +106,7 @@ If SPARC works, ARC follows.
 |--------|-------|
 | Status | Private |
 | Total raised | $2B+ |
-| Key investors | Tiger Global, Bill Gates, Google, Khosla |
+| Key investors | [[Tiger Global]], [[Bill Gates]], Google, Khosla |
 | Valuation | $5B+ (estimated) |
 | Revenue | $0 (pre-commercial) |
 | SPARC target | Mid-2020s |

@@ -9,7 +9,7 @@ aliases: [005290.KS]
 
 ## Why Dongjin Semichem matters
 
-Korea's domestic photoresist champion, reducing reliance on Japan:
+Korea's domestic photoresist champion, reducing reliance on [[Japan]]:
 
 | Metric | Value |
 |--------|-------|
@@ -23,9 +23,9 @@ Korea's domestic photoresist champion, reducing reliance on Japan:
 
 ## Strategic importance
 
-**2019 Japan-Korea dispute:** Japan restricted photoresist exports to Korea over wartime labor disputes. Exposed Korea's vulnerability — Samsung and SK Hynix dependent on Japanese suppliers.
+**2019 [[Japan]]-Korea dispute:** [[Japan]] restricted photoresist exports to Korea over wartime labor disputes. Exposed Korea's vulnerability — Samsung and SK Hynix dependent on Japanese suppliers.
 
-**Dongjin's role:** Domestic alternative, reducing Japan dependence.
+**Dongjin's role:** Domestic alternative, reducing [[Japan]] dependence.
 
 ---
 
@@ -78,11 +78,11 @@ Dongjin is particularly strong in KrF photoresists for 3D NAND memory:
 - Samsung/SK Hynix captive demand
 - 3D NAND growth (1000+ layers coming)
 - Government support for domestic supply
-- Japan restriction risk = Dongjin opportunity
+- [[Japan]] restriction risk = Dongjin opportunity
 
 **Bear:**
 - Small vs Japanese giants (JSR, TOK)
-- Limited EUV capability (Japan dominates)
+- Limited EUV capability ([[Japan]] dominates)
 - Customer concentration (Samsung, Hynix)
 - Korea-listed, less accessible
 - Won currency exposure
@@ -91,7 +91,7 @@ Dongjin is particularly strong in KrF photoresists for 3D NAND memory:
 
 ## 2025 recognition
 
-November 2025: KrF Thick PR for V-NAND selected as "World-Class Product" by Korea Ministry of Trade — validates technology leadership.
+November 2025: KrF Thick PR for V-NAND selected as "World-Class Product" by Korea Ministry of [[Trade]] — validates technology leadership.
 
 ---
 
@@ -102,7 +102,7 @@ November 2025: KrF Thick PR for V-NAND selected as "World-Class Product" by Kore
 ## Related
 
 - [[Semiconductor Materials]] — sector context
-- [[Long Japan photoresists]] — competing thesis (Japan dominance)
+- [[Long Japan photoresists]] — competing thesis ([[Japan]] dominance)
 - [[JSR Corporation]], [[Tokyo Ohka Kogyo]] — Japanese competitors
 - [[Samsung]], [[SK Hynix]] — customers
 - [[China-Japan relations]] — 2019 dispute context

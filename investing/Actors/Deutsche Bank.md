@@ -3,7 +3,7 @@ aliases: [DB]
 ---
 #actor #bank #germany #investment-bank
 
-**Deutsche Bank** — Germany's largest bank. Founded 1870. HQ Frankfurt. €1.34T total assets (Sep 2025). €1.05T AUM. Operates in 58 countries. Historically major investment bank; restructured under CEO Christian Sewing (2018-) to focus on corporate banking and wealth management. Notable for incubating [[Boaz Weinstein]]'s proprietary trading group that became [[Saba Capital]] (2009).
+**Deutsche Bank** — [[Germany]]'s largest bank. Founded 1870. HQ Frankfurt. €1.34T total assets (Sep 2025). €1.05T AUM. Operates in 58 countries. Historically major investment bank; restructured under CEO Christian Sewing (2018-) to focus on corporate banking and wealth management. Notable for incubating [[Boaz Weinstein]]'s proprietary trading group that became [[Saba Capital]] (2009).
 
 ---
 
@@ -12,20 +12,20 @@ aliases: [DB]
 | Metric | Value |
 |--------|-------|
 | Founded | 1870 (Berlin) |
-| HQ | Frankfurt, Germany |
+| HQ | Frankfurt, [[Germany]] |
 | Total assets | **€1.34T** (Sep 2025) |
 | AUM | **€1.05T** (Q3 2025) |
 | Revenue | ~€32B (2025E) |
 | Employees | ~90,000 |
 | Countries | 58 |
-| Branches | 1,543 (65% Europe) |
+| Branches | 1,543 (65% [[Europe]]) |
 | CEO | Christian Sewing (2018-) |
 | Ticker | **DB** (NYSE), DBK (Frankfurt) |
 
 ![[deutsche-bank-vs-peers.png]]
-*Deutsche Bank tracking EUFN benchmark (+65%) since 2018. UBS similar. Barclays outperforming at +185%. Sewing restructuring keeping pace with sector but not breaking out.*
+*Deutsche Bank tracking [[EUFN]] benchmark (+65%) since 2018. UBS similar. Barclays outperforming at +185%. Sewing restructuring keeping pace with sector but not breaking out.*
 
-*vs [[UBS]] · [[Barclays]] · EUFN (benchmark)*
+*vs [[UBS]] · [[Barclays]] · [[EUFN]] (benchmark)*
 
 ---
 
@@ -72,7 +72,7 @@ aliases: [DB]
 |---------|---------|-------|
 | **Corporate Bank** | €6.2B | Largest segment; transaction banking |
 | **Investment Bank** | — | Fixed income, origination; exited equities trading |
-| **Private Bank** | €1.1B (Q3 2025) | Wealth management, retail Germany |
+| **Private Bank** | €1.1B (Q3 2025) | Wealth management, retail [[Germany]] |
 | **Asset Management** | — | DWS; €1.05T AUM |
 
 ---
@@ -83,7 +83,7 @@ aliases: [DB]
 |------|-------|
 | 1870 | Founded in Berlin |
 | 1957 | Three regional banks merge; HQ moves to Frankfurt |
-| 1990 | Acquired Morgan Grenfell (UK merchant bank) |
+| 1990 | Acquired Morgan Grenfell ([[UK]] merchant bank) |
 | 1998 | Acquired Bankers Trust ($9B) — creator of credit derivatives |
 | 1998 | [[Boaz Weinstein]] joins as sole CDS trader |
 | 2001 | Weinstein promoted to MD (youngest in bank history, age 27) |
@@ -93,7 +93,7 @@ aliases: [DB]
 | 2010 | Acquired Deutsche Postbank |
 | 2018 | Christian Sewing becomes CEO |
 | 2019 | Exit global equities trading; major restructuring |
-| 2023 | Acquired Numis (UK investment bank, €463M) |
+| 2023 | Acquired Numis ([[UK]] investment bank, €463M) |
 | 2025 | "Deutsche Bank 3.0" — further cost cuts, branch closures |
 
 ---
@@ -102,7 +102,7 @@ aliases: [DB]
 
 Christian Sewing's turnaround plan:
 
-| Target | Goal | Status |
+| [[Target]] | Goal | Status |
 |--------|------|--------|
 | Cost-to-income ratio | <65% | On track |
 | Return on tangible equity | >10% | On track |

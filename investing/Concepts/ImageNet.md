@@ -3,7 +3,7 @@ aliases: [ImageNet Challenge, ILSVRC, ImageNet Large Scale Visual Recognition Ch
 ---
 #concept #ai #history
 
-**ImageNet** — The dataset that launched deep learning. 14M+ labeled images created by [[Fei-Fei Li]] (2007-2009). The 2012 AlexNet victory on ILSVRC is considered the birth of modern AI.
+**ImageNet** — The dataset that launched deep learning. 14M+ labeled images created by [[Fei-Fei Li]] (2007-2009). The 2012 [[AlexNet]] victory on ILSVRC is considered the birth of modern AI.
 
 ---
 
@@ -15,8 +15,8 @@ aliases: [ImageNet Challenge, ILSVRC, ImageNet Large Scale Visual Recognition Ch
 | Categories | 20,000+ |
 | Created | 2007-2009 |
 | Creator | [[Fei-Fei Li]] |
-| Labeling method | Amazon Mechanical Turk |
-| Pivotal moment | **2012 AlexNet** |
+| Labeling method | [[Amazon]] Mechanical Turk |
+| Pivotal moment | **2012 [[AlexNet]]** |
 
 **One of three driving forces behind the modern AI revolution** (alongside GPUs and deep learning algorithms).
 
@@ -38,10 +38,10 @@ While others focused on clever techniques, Li spent years on what seemed like te
 
 | Team | Error rate | Margin |
 |------|------------|--------|
-| **AlexNet** | **15.3%** | — |
+| **[[AlexNet]]** | **15.3%** | — |
 | Second place | 26.2% | **+10.9 points** |
 
-**AlexNet team:**
+**[[AlexNet]] team:**
 - Alex Krizhevsky (designed architecture)
 - [[Ilya Sutskever]] (co-author, later OpenAI co-founder)
 - [[Geoffrey Hinton]] (advisor, "Godfather of AI")
@@ -71,16 +71,16 @@ None worked alone. Together, they changed everything.
 - "AI arms race" began
 - Research pivoted massively to deep neural networks
 
-**Lineage from AlexNet:**
+**Lineage from [[AlexNet]]:**
 
 | Year | Model | Innovation |
 |------|-------|------------|
-| 2012 | AlexNet | Deep CNNs work |
-| 2013 | ZFNet | Improved AlexNet |
+| 2012 | [[AlexNet]] | Deep CNNs work |
+| 2013 | ZFNet | Improved [[AlexNet]] |
 | 2014 | VGGNet | Deeper networks |
 | 2014 | GoogLeNet | Inception modules |
-| 2015 | ResNet | Skip connections (152 layers) |
-| 2017 | **Transformer** | Attention mechanism |
+| 2015 | [[ResNet]] | Skip connections (152 layers) |
+| 2017 | **[[Transformer]]** | Attention mechanism |
 | 2018+ | GPT, BERT, etc. | Modern LLMs |
 
 **Every major AI model today traces back to ImageNet proving deep learning works.**
@@ -94,7 +94,7 @@ None worked alone. Together, they changed everything.
 | Total images | 14,197,122 |
 | Categories | 21,841 (WordNet synsets) |
 | ILSVRC subset | 1.2M images, 1,000 categories |
-| Labeling | Amazon Mechanical Turk |
+| Labeling | [[Amazon]] Mechanical Turk |
 | Annotation | Bounding boxes, labels |
 | Organization | WordNet hierarchy |
 
@@ -106,10 +106,10 @@ None worked alone. Together, they changed everything.
 |------|--------|-------------|-------|
 | 2010 | NEC-UIUC | 28.2% | First challenge |
 | 2011 | XRCE | 25.8% | Traditional ML |
-| **2012** | **AlexNet** | **15.3%** | **Deep learning revolution** |
+| **2012** | **[[AlexNet]]** | **15.3%** | **Deep learning revolution** |
 | 2013 | ZFNet | 11.7% | CNN refinements |
 | 2014 | GoogLeNet | 6.7% | Inception |
-| 2015 | ResNet | 3.6% | Superhuman |
+| 2015 | [[ResNet]] | 3.6% | Superhuman |
 | 2017 | — | — | Challenge ended (solved) |
 
 **The challenge ended because AI exceeded human performance** (~5% error rate).
@@ -137,7 +137,7 @@ None worked alone. Together, they changed everything.
 |--------|-------|
 | Creator | [[Fei-Fei Li]] |
 | Images | 14M+ |
-| Pivotal year | 2012 (AlexNet) |
+| Pivotal year | 2012 ([[AlexNet]]) |
 | Impact | Launched deep learning era |
 | Challenge ended | 2017 (superhuman performance) |
 
@@ -148,8 +148,8 @@ None worked alone. Together, they changed everything.
 ## Related
 
 - [[Fei-Fei Li]] — creator
-- [[Geoffrey Hinton]] — AlexNet advisor ("Godfather of AI")
-- [[Ilya Sutskever]] — AlexNet co-author, [[OpenAI]] co-founder
+- [[Geoffrey Hinton]] — [[AlexNet]] advisor ("Godfather of AI")
+- [[Ilya Sutskever]] — [[AlexNet]] co-author, [[OpenAI]] co-founder
 - [[NVIDIA]] — GPUs enabled training
-- [[Google]] — acquired Hinton's company post-AlexNet
+- [[Google]] — acquired Hinton's company post-[[AlexNet]]
 - [[Deep learning]] — paradigm ImageNet validated

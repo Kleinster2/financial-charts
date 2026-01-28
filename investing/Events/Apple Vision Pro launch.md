@@ -44,8 +44,8 @@
 | Use | Viability |
 |-----|-----------|
 | Entertainment | Strong (movies, spatial video) |
-| Productivity | Limited |
-| Gaming | Minimal content |
+| [[Productivity]] | Limited |
+| [[Gaming]] | Minimal content |
 | Enterprise | Exploring |
 
 ---
@@ -57,7 +57,7 @@
 | Apple diversification | New category bet |
 | AR/VR timeline | Still early |
 | [[Snap]] competition | AR glasses market |
-| Component suppliers | Sony displays, TSMC chips |
+| Component suppliers | [[Sony]] displays, [[TSMC]] chips |
 
 ---
 

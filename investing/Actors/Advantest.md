@@ -46,7 +46,7 @@ Every chip must be tested. Advantest dominates:
 
 **Why AI chips need more testing:**
 - Larger dies = more defect probability
-- Advanced packaging (HBM, CoWoS) = interface testing
+- Advanced packaging ([[HBM]], CoWoS) = interface testing
 - Higher performance = tighter specs
 - Higher ASPs justify more test time
 
@@ -54,16 +54,16 @@ Every chip must be tested. Advantest dominates:
 
 ---
 
-## HBM testing opportunity
+## [[HBM]] testing opportunity
 
 | Factor | Impact |
 |--------|--------|
-| HBM stacking | Test each die + stack |
+| [[HBM]] stacking | Test each die + stack |
 | Thermal testing | High-temp operation |
 | Interface testing | TSV connections |
 | Known good die | Must test before stack |
 
-HBM = testing intensity 5-10x vs standard DRAM.
+[[HBM]] = testing intensity 5-10x vs standard DRAM.
 
 ---
 
@@ -72,7 +72,7 @@ HBM = testing intensity 5-10x vs standard DRAM.
 **Bull:**
 - Monopoly position in test
 - AI complexity = test intensity
-- HBM tailwind massive
+- [[HBM]] tailwind massive
 - Recurring services revenue
 - Every fab needs testers
 
@@ -100,7 +100,7 @@ HBM = testing intensity 5-10x vs standard DRAM.
 ## Related
 
 - [[Cohu]] — competitor (handlers, smaller)
-- [[SK Hynix]], [[Samsung]] — HBM customers
+- [[SK Hynix]], [[Samsung]] — [[HBM]] customers
 - [[TSMC]] — advanced packaging test
 - [[Long WFE]] — test = picks and shovels
-- [[Advanced packaging]] — HBM test intensity
+- [[Advanced packaging]] — [[HBM]] test intensity

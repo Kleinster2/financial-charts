@@ -22,7 +22,7 @@ Before RBC, the dominant view was that recessions were caused by insufficient de
 
 ## How it works
 
-1. **Productivity shock** — Technology improves (or worsens)
+1. **[[Productivity]] shock** — Technology improves (or worsens)
 2. **Rational response** — Firms and workers adjust optimally
 3. **Propagation** — "Time to build" spreads shock over time
 4. **Business cycle** — Aggregate fluctuations emerge from micro decisions
@@ -91,7 +91,7 @@ RBC pioneered **Dynamic Stochastic General Equilibrium (DSGE)** models — now t
 | **Policy limits** | Stimulus can't fix productivity problems |
 | **AI productivity** | If AI is a positive technology shock → RBC predicts expansion |
 | **Secular stagnation** | Slow productivity growth = structural headwind |
-| **Sector rotation** | Productivity shocks hit sectors unevenly |
+| **[[Sector rotation]]** | [[Productivity]] shocks hit sectors unevenly |
 
 **Current relevance:** The AI productivity debate is fundamentally an RBC question — are we seeing a technology shock that will drive real GDP growth?
 
@@ -102,7 +102,7 @@ RBC pioneered **Dynamic Stochastic General Equilibrium (DSGE)** models — now t
 | Period | Shock | RBC interpretation |
 |--------|-------|-------------------|
 | 1870-1900 | Electrification | Positive productivity → long expansion |
-| 1973-74 | Oil embargo | Negative supply shock → stagflation |
+| 1973-74 | [[Oil]] embargo | Negative supply shock → stagflation |
 | 1995-2000 | Internet/IT | Positive productivity → 90s boom |
 | 2020 | COVID | Negative supply (lockdowns) + demand shock |
 | 2023-? | AI/LLMs | Potential positive productivity shock (TBD) |

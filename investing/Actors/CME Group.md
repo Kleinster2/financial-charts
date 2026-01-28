@@ -26,7 +26,7 @@ Derivatives monopoly:
 | Exchange | Products |
 |----------|----------|
 | **CME** | Rates, FX, equities |
-| **CBOT** | Grains, Treasuries |
+| **CBOT** | Grains, [[Treasuries]] |
 | **NYMEX** | Energy (WTI crude) |
 | **COMEX** | Metals (gold, silver, copper) |
 
@@ -41,7 +41,7 @@ Owns the benchmarks.
 | **Eurodollar/SOFR futures** | Interest rate benchmark |
 | **E-mini S&P 500** | Most liquid equity futures |
 | **WTI Crude** | US oil benchmark |
-| **Gold futures** | COMEX = price discovery |
+| **[[Gold]] futures** | COMEX = price discovery |
 | **Treasury futures** | Rate hedging |
 
 ---
@@ -78,13 +78,13 @@ CME benefits from uncertainty.
 - Monopoly on key benchmarks
 - Volatility = tailwind
 - High margins (85%+)
-- Network effects
+- [[Network effects]]
 - Rate uncertainty persists
 
 **Bear:**
 - Volume-dependent
 - Low volatility risk
-- Crypto competition
+- [[Crypto]] competition
 - Regulatory scrutiny
 
 ---
@@ -106,6 +106,6 @@ CME benefits from uncertainty.
 
 - [[Intercontinental Exchange]] — competitor (ICE Futures)
 - [[Nasdaq]] — peer (equities)
-- [[CBOE]] — competitor (options, VIX)
+- [[CBOE]] — competitor (options, [[VIX]])
 - [[OPEC]] — CME trades oil futures
 

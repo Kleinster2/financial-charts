@@ -12,7 +12,7 @@ aliases: [EM debt, EM bonds, EMB, emerging market bonds]
 | Metric | Value |
 |--------|-------|
 | EMB YTD | ~+3% |
-| EM spread | ~350bp over Treasuries |
+| EM spread | ~350bp over [[Treasuries]] |
 | Avg yield | ~7.5% |
 | Duration | ~7 years |
 
@@ -48,7 +48,7 @@ EM sovereigns can and do default:
 
 | Recent defaults | Year |
 |-----------------|------|
-| Argentina | 2020 |
+| [[Argentina]] | 2020 |
 | Lebanon | 2020 |
 | Sri Lanka | 2022 |
 | Ghana | 2022 |
@@ -103,7 +103,7 @@ EM debt highly sensitive to USD:
 | Fed hiking | Bad (outflows) |
 | Risk-on | Good |
 | Risk-off | Bad (first to sell) |
-| Commodities rising | Good (many EM exporters) |
+| [[Commodities]] rising | Good (many EM exporters) |
 
 ---
 

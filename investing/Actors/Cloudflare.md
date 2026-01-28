@@ -29,7 +29,7 @@ aliases: [NET, Cloudflare Inc]
 | Revenue growth | ~25-30% YoY |
 | Gross margin | ~78% |
 | Net retention | 115%+ |
-| Free cash flow | Turning positive |
+| [[Free cash flow]] | Turning positive |
 
 ---
 
@@ -125,7 +125,7 @@ aliases: [NET, Cloudflare Inc]
 |---------|--------|
 | Function | Proxy for AI API calls |
 | Features | Caching, rate limiting, logging |
-| Supported | OpenAI, Anthropic, etc. |
+| Supported | [[OpenAI]], [[Anthropic]], etc. |
 
 ### Investment angle
 
@@ -140,13 +140,13 @@ Cloudflare positioning for AI inference at edge — complementary to centralized
 | **Akamai** | Simpler pricing, developer platform |
 | **Fastly** | Larger network, more features |
 | **AWS CloudFront** | Vendor-neutral, zero egress (R2) |
-| **Zscaler** | Integrated platform (CDN + security) |
+| **[[Zscaler]]** | Integrated platform (CDN + security) |
 
 ### Moat
 
 | Factor | Detail |
 |--------|--------|
-| **Network effects** | More traffic → better threat intelligence |
+| **[[Network effects]]** | More traffic → better threat intelligence |
 | **Developer love** | Workers platform sticky |
 | **Free tier** | Massive funnel to paid |
 | **Data advantage** | Sees 20% of web traffic |
@@ -202,7 +202,7 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 - [[Vercel]] — uses Cloudflare, also competes (edge functions)
 - Akamai — legacy CDN competitor
 - Fastly — developer-focused competitor
-- Zscaler — Zero Trust competitor
+- [[Zscaler]] — Zero Trust competitor
 
 ### Sectors
 - [[Data Centers]] — edge vs centralized

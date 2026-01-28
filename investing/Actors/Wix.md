@@ -3,7 +3,7 @@ aliases: [WIX]
 ---
 #actor #company #saas #webbuilder #israel #public
 
-**Wix** — Website builder platform. Nasdaq: WIX. 250M+ users. Israeli. Founded 2006.
+**Wix** — Website builder platform. [[Nasdaq]]: WIX. 250M+ users. Israeli. Founded 2006.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [WIX]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | WIX (Nasdaq) |
+| Ticker | WIX ([[Nasdaq]]) |
 | Market cap | ~$10B |
 | Revenue | ~$1.7B |
 | Users | 250M+ |
@@ -100,7 +100,7 @@ Different segments, some overlap.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | WIX (Nasdaq) |
+| Ticker | WIX ([[Nasdaq]]) |
 | Market cap | ~$10B |
 | Revenue | ~$1.7B |
 | Users | 250M+ |

@@ -3,7 +3,7 @@ aliases: [DOCU]
 ---
 #actor #company #saas #esignature #usa #public
 
-**DocuSign** — E-signature and contract lifecycle. Nasdaq: DOCU. Category creator. Founded 2003.
+**DocuSign** — E-signature and contract lifecycle. [[Nasdaq]]: DOCU. Category creator. Founded 2003.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [DOCU]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DOCU (Nasdaq) |
+| Ticker | DOCU ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Revenue | ~$2.8B |
 | Customers | 1.5M+ |
@@ -50,7 +50,7 @@ Expanding beyond signature.
 | Strength | Detail |
 |----------|--------|
 | Category leader | 70%+ market share |
-| Network effects | Both parties need DocuSign |
+| [[Network effects]] | Both parties need DocuSign |
 | Integrations | 400+ apps |
 | Brand | "DocuSign it" |
 
@@ -74,7 +74,7 @@ Stock down 70%+ from peak.
 | Competitor | Threat |
 |------------|--------|
 | Adobe Sign | Major |
-| Microsoft | Bundling potential |
+| [[Microsoft]] | Bundling potential |
 | PandaDoc | SMB |
 | HelloSign (Dropbox) | SMB |
 
@@ -113,7 +113,7 @@ New leadership focusing on profitability.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DOCU (Nasdaq) |
+| Ticker | DOCU ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Revenue | ~$2.8B |
 | Market share | 70%+ |

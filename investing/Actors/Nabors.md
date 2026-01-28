@@ -24,7 +24,7 @@ aliases: [NBR]
 |--------|------|-------|
 | US Lower 48 | ~80 | Permian focus |
 | International | ~100 | Saudi, Latin America, etc. |
-| Canada/Alaska | ~20 | Seasonal |
+| [[Canada]]/Alaska | ~20 | Seasonal |
 
 More international than Patterson or HP.
 
@@ -57,12 +57,12 @@ Leverage limits upside capture and strategic flexibility.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Potential:**
 
 - International operations experience
-- Latin America presence (Argentina)
+- Latin America presence ([[Argentina]])
 - Would need debt capacity to invest
 
 See [[Venezuela oil rebuild]] for context.

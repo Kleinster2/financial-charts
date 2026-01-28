@@ -3,7 +3,7 @@ aliases: [LCID, Lucid Motors]
 ---
 #actor #auto #ev #usa #public
 
-**Lucid** — Luxury EV maker. 55% Saudi PIF owned. Air sedan, Gravity SUV. Saudi manufacturing expansion.
+**Lucid** — [[Luxury]] EV maker. 55% Saudi PIF owned. Air sedan, Gravity SUV. Saudi manufacturing expansion.
 
 ---
 
@@ -35,7 +35,7 @@ Vision 2030: Saudi Arabia targets 30% EVs in Riyadh by 2030. Lucid integral to t
 
 | Model | Type | US Price | Saudi Price | Status |
 |-------|------|----------|-------------|--------|
-| Air | Luxury sedan | $70K-$170K+ | — | Shipping |
+| Air | [[Luxury]] sedan | $70K-$170K+ | — | [[Shipping]] |
 | Gravity | SUV | ~$80K+ | SAR 416K-487K ($111K-$130K) | Deliveries started |
 | **Midsize** | Mass-market | ~$50,000 | — | **Late 2026/early 2027** |
 
@@ -63,9 +63,9 @@ Vision 2030: Saudi Arabia targets 30% EVs in Riyadh by 2030. Lucid integral to t
 |-------|----------|----------|
 | Current | Assembly only | Operating |
 | Expansion | Full production | Late 2026 |
-| Target | 150,000 vehicles/year | — |
+| [[Target]] | 150,000 vehicles/year | — |
 
-**Europe strategy:** Saudi plant to supply European market.
+**[[Europe]] strategy:** Saudi plant to supply European market.
 
 ---
 
@@ -74,7 +74,7 @@ Vision 2030: Saudi Arabia targets 30% EVs in Riyadh by 2030. Lucid integral to t
 | Detail | Value |
 |--------|-------|
 | Starting price | ~$50,000 |
-| Target | Tesla Model 3/Y competitor |
+| [[Target]] | Tesla Model 3/Y competitor |
 | Production | Riyadh, Saudi Arabia |
 | Launch | Late 2026 / early 2027 |
 
@@ -93,10 +93,10 @@ Mass-market vehicle critical for volume growth.
 
 **Bear:**
 - Persistent losses
-- Tiny volumes vs Tesla/BYD
+- Tiny volumes vs Tesla/[[BYD]]
 - Execution risk (Gravity launch issues)
 - Premium pricing in softening EV market
-- Competition from Mercedes, BMW EVs
+- Competition from Mercedes, [[BMW]] EVs
 
 ---
 

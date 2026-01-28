@@ -61,7 +61,7 @@ aliases: [Mayhoola for Investments]
 | Revenue | ~€500M (est.) |
 | Creative Director | Olivier Rousteing |
 
-Smaller brand, primarily Paris Fashion Week presence. Less material than Valentino.
+Smaller brand, primarily Paris [[Fashion]] Week presence. Less material than Valentino.
 
 ---
 

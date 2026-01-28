@@ -1,6 +1,6 @@
 #actor #organization #geopolitics #economics
 
-**World Economic Forum** (WEF) — International advocacy NGO and think tank headquartered in Cologny, Switzerland. Founded 1971 by Klaus Schwab. Best known for annual January meeting in Davos bringing together 3,000 business, political, and civil society leaders.
+**World Economic Forum** (WEF) — International advocacy NGO and think tank headquartered in Cologny, [[Switzerland]]. Founded 1971 by Klaus Schwab. Best known for annual January meeting in Davos bringing together 3,000 business, political, and civil society leaders.
 
 ---
 
@@ -10,7 +10,7 @@
 |-----------|--------|
 | Founded | January 24, 1971 |
 | Founder | Klaus Schwab |
-| Headquarters | Cologny, Canton of Geneva, Switzerland |
+| Headquarters | Cologny, Canton of Geneva, [[Switzerland]] |
 | Type | Non-profit, international advocacy |
 | Funding | 1,000 member multinational corporations |
 | Mission | "Improving the state of the world by engaging business, political, academic, and other leaders of society to shape global, regional, and industry agendas" |
@@ -33,7 +33,7 @@
 
 | Attribute | Detail |
 |-----------|--------|
-| Born | March 30, 1938 (Germany) |
+| Born | March 30, 1938 ([[Germany]]) |
 | Education | Engineering (ETH Zurich), Economics (Fribourg), MPA (Harvard Kennedy School) |
 | Role | Founder and Executive Chairman (1971-2025) |
 | Key concept | "Stakeholder capitalism" (1971) — prioritizes stakeholders over shareholders |
@@ -47,7 +47,7 @@
 | Attribute | Detail |
 |-----------|--------|
 | Timing | End of January |
-| Location | Davos, Graubünden, Switzerland (eastern Alps) |
+| Location | Davos, Graubünden, [[Switzerland]] (eastern Alps) |
 | Attendees | ~3,000 (paying members + selected participants) |
 | Duration | Up to 5 days |
 | Sessions | ~500 |
@@ -80,4 +80,4 @@ WEF has become a key venue for Chinese leaders to meet privately with Western CE
 
 ---
 
-*Sources: Wikipedia, WEF, Britannica, Nasdaq*
+*Sources: Wikipedia, WEF, Britannica, [[Nasdaq]]*

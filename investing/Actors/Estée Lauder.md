@@ -5,7 +5,7 @@ aliases: [EL, Estee Lauder Companies, ELC]
 
 # Estée Lauder
 
-**World's #2 prestige beauty company** — owns Estée Lauder, Clinique, MAC, La Mer, Tom Ford Beauty, Jo Malone, Aveda. In crisis: revenue down to $14.3B in FY25 (-8%), stock lost ~$100B from peak, dividend cut, outlook withdrawn. Root cause: ~30% exposure to China + Asia travel retail, which collapsed. Losing US market share to [[L'Oréal]].
+**World's #2 prestige beauty company** — owns Estée Lauder, Clinique, MAC, La Mer, Tom [[Ford]] Beauty, Jo Malone, Aveda. In crisis: revenue down to $14.3B in FY25 (-8%), stock lost ~$100B from peak, dividend cut, outlook withdrawn. Root cause: ~30% exposure to China + [[Asia]] travel retail, which collapsed. Losing US market share to [[L'Oréal]].
 
 ---
 
@@ -34,7 +34,7 @@ aliases: [EL, Estee Lauder Companies, ELC]
 | Net income ($B) | ~2.4 | ~1.0 | ~0.4 | TBD |
 | Dividend | — | — | Cut | — |
 
-**FY25 outlook withdrawn** due to inability to forecast China/Asia travel retail stabilization.
+**FY25 outlook withdrawn** due to inability to forecast China/[[Asia]] travel retail stabilization.
 
 ---
 
@@ -42,16 +42,16 @@ aliases: [EL, Estee Lauder Companies, ELC]
 
 | Metric | Value |
 |--------|-------|
-| China + Asia travel retail | **~30% of revenue** |
+| China + [[Asia]] travel retail | **~30% of revenue** |
 | APAC revenue (FY24) | $4.89B (-16% from 2021 peak) |
 | China luxury market (2024) | -18-20% (Bain & Co) |
-| Japan manufacturing | $1B facility (2018) — now underutilized |
+| [[Japan]] manufacturing | $1B facility (2018) — now underutilized |
 
 **What happened:**
-- ELC bet heavily on Chinese demand and Asia travel retail (Hainan duty-free, Korean travel retail)
+- ELC bet heavily on Chinese demand and [[Asia]] travel retail (Hainan duty-free, Korean travel retail)
 - Post-COVID China luxury boom reversed sharply in 2024
-- Travel retail inventory destocking compounded the decline
-- Japan factory built for China demand now has overcapacity
+- [[Travel]] retail inventory destocking compounded the decline
+- [[Japan]] factory built for China demand now has overcapacity
 
 ---
 
@@ -75,7 +75,7 @@ aliases: [EL, Estee Lauder Companies, ELC]
 | **Clinique** | Accessible prestige | Needs refresh |
 | **MAC** | Professional makeup | Declining |
 | **La Mer** | Ultra-luxury skincare | China-dependent |
-| **Tom Ford Beauty** | Luxury fragrance | Growing |
+| **Tom [[Ford]] Beauty** | Luxury fragrance | Growing |
 | **Jo Malone** | Premium fragrance | Stable |
 | **Aveda** | Natural haircare | Niche |
 | **Too Faced** | Color cosmetics | Underperforming |
@@ -91,13 +91,13 @@ aliases: [EL, Estee Lauder Companies, ELC]
 | China exposure | ~30% | Lower, diversified |
 | US share | Losing | Gaining (#1 in luxury beauty) |
 | Stock (2024-25) | -80% | Flat |
-| Fragrance | Tom Ford, Jo Malone | Acquired Kering Beauté/Creed |
+| Fragrance | Tom [[Ford]], Jo Malone | Acquired [[Kering]] Beauté/Creed |
 
 ---
 
 ## Recovery plan (Profit Recovery & Growth)
 
-| Target | Detail |
+| [[Target]] | Detail |
 |--------|--------|
 | Net profit improvement | $1.1-1.4B over FY24 levels |
 | Cost savings | Restructuring underway |
@@ -112,17 +112,17 @@ aliases: [EL, Estee Lauder Companies, ELC]
 **Bull:**
 - Stock at ~$25B for company with $14B+ revenue
 - Prestige beauty is structurally growing (fragrance, skincare)
-- Portfolio includes La Mer, Tom Ford, Jo Malone = genuine luxury
+- Portfolio includes La Mer, Tom [[Ford]], Jo Malone = genuine luxury
 - China will eventually recover
 - New CEO can reset expectations
 - Lauder family alignment (long-term holders)
 
 **Bear:**
-- China/Asia may not recover to prior levels
+- China/[[Asia]] may not recover to prior levels
 - Losing US share to L'Oréal
 - Several brands (MAC, Clinique, Too Faced) in decline
 - Family control limits strategic options (no sale)
-- Travel retail structural shift (Hainan less relevant)
+- [[Travel]] retail structural shift (Hainan less relevant)
 - Dividend cut signals severity of problems
 
 ---

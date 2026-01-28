@@ -51,7 +51,7 @@ Largest gaming acquisition ever.
 | Annual sales | $3B+ |
 | Players | 100M+ |
 | Status | Staying multiplatform |
-| Sony deal | 10-year commitment |
+| [[Sony]] deal | 10-year commitment |
 
 Microsoft kept CoD on PlayStation.
 

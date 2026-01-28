@@ -3,7 +3,7 @@ aliases: [Scania AB]
 ---
 #actor #company #sweden #automotive #trucks #private
 
-**Scania** — Swedish heavy truck and bus manufacturer. SEK 216B revenue (2024), ~59,000 employees. Subsidiary of Traton (which is 90% owned by [[Volkswagen]]). Europe's 5th largest truck maker. Key [[Northvolt]] partner — provided $100M DIP financing, acquired profitable industrial battery unit (Gdańsk), attempting to rescue Northvolt Labs.
+**Scania** — Swedish heavy truck and bus manufacturer. SEK 216B revenue (2024), ~59,000 employees. Subsidiary of Traton (which is 90% owned by [[Volkswagen]]). [[Europe]]'s 5th largest truck maker. Key [[Northvolt]] partner — provided $100M [[DIP financing]], acquired profitable industrial battery unit (Gdańsk), attempting to rescue Northvolt Labs.
 
 ---
 
@@ -50,9 +50,9 @@ Volkswagen AG (90%)
 
 | Hub | Location | Notes |
 |-----|----------|-------|
-| Europe | Södertälje, Sweden | HQ + main production |
-| Latin America | São Paulo, Brazil | Regional hub |
-| China | Rugao | €2B investment; 50K vehicles/year capacity |
+| [[Europe]] | Södertälje, Sweden | HQ + main production |
+| Latin America | São Paulo, [[Brazil]] | Regional hub |
+| [[China]] | Rugao | €2B investment; 50K vehicles/year capacity |
 
 ---
 
@@ -63,7 +63,7 @@ Scania was Northvolt's most loyal partner — and ultimately its rescuer.
 | Date | Event |
 |------|-------|
 | 2020s | Long-term battery customer |
-| Nov 2024 | **$100M DIP financing** during Chapter 11 |
+| Nov 2024 | **$100M [[DIP financing]]** during Chapter 11 |
 | Feb 2025 | **Acquired Northvolt Systems Industrial** (Gdańsk plant, 260 employees) — one of Northvolt's only profitable units |
 | May 2025 | Only customer left at Northvolt Ett |
 | Jun 2025 | Leading consortium to rescue **Northvolt Labs** (Västerås R&D center) |
@@ -80,7 +80,7 @@ Scania was Northvolt's most loyal partner — and ultimately its rescuer.
 
 ### Northvolt Labs rescue attempt
 
-Scania CEO Christian Levin seeking consortium of industrial partners, Swedish government, and EU Commission. Political support has been slow to materialize.
+Scania CEO Christian Levin seeking consortium of industrial partners, Swedish government, and [[EU]] Commission. Political support has been slow to materialize.
 
 ---
 
@@ -90,7 +90,7 @@ Scania CEO Christian Levin seeking consortium of industrial partners, Swedish go
 |------------|--------|
 | Scania Power Solutions | Electrification business unit |
 | Battery packs | Via acquired Northvolt Systems Industrial |
-| Target | Heavy-duty off-road (mining, construction) |
+| [[Target]] | Heavy-duty off-road (mining, construction) |
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [C, Citi]
 ---
 #actor #finance #bank #usa #public
 
-**Citigroup** — Global bank. Strong in trading and international markets. Turnaround story under Jane Fraser.
+**Citigroup** — Global bank. Strong in trading and international markets. Turnaround story under [[Jane Fraser]].
 
 | Metric | Value |
 |--------|-------|
@@ -79,7 +79,7 @@ aliases: [C, Citi]
 | Market cap | ~$130B |
 | Ticker | C |
 | Assets | ~$2.4T |
-| CEO | Jane Fraser |
+| CEO | [[Jane Fraser]] |
 
 ---
 
@@ -91,11 +91,11 @@ aliases: [C, Citi]
 | Markets | Trading, prime brokerage |
 | Banking | Investment banking, corporate |
 | US Personal Banking | Cards, retail |
-| Wealth | Private banking, Citi Gold |
+| Wealth | Private banking, Citi [[Gold]] |
 
 ---
 
-## Jane Fraser turnaround
+## [[Jane Fraser]] turnaround
 
 **Simplification strategy:**
 - Exiting consumer banking in 14 markets (incl. Venezuela 2021 — sold to BNC)
@@ -127,9 +127,9 @@ Said 10% cap would likely result "in a significant slowdown in the economy."
 | Bank | Assets | Strength |
 |------|--------|----------|
 | [[JPMorgan Chase]] | ~$4T | Full-service leader |
-| [[Bank of America]] | ~$3.3T | Consumer |
+| [[Bank of America]] | ~$3.3T | [[Consumer]] |
 | **Citigroup** | ~$2.4T | Global, trading |
-| [[Wells Fargo]] | ~$1.9T | Consumer |
+| [[Wells Fargo]] | ~$1.9T | [[Consumer]] |
 
 ---
 
@@ -156,7 +156,7 @@ Said 10% cap would likely result "in a significant slowdown in the economy."
 | Ticker | C |
 | Market cap | ~$130B |
 | Strength | Global, trading |
-| CEO | Jane Fraser |
+| CEO | [[Jane Fraser]] |
 
 *Updated 2026-01-15*
 

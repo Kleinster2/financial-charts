@@ -27,9 +27,9 @@ aliases: [SNDK]
 |--------|--------|------|
 | 2025 | **+559%** | Best S&P 500 performer |
 | Jan 2026 | **+60%+** | Continues climbing |
-| Catalyst | Jensen Huang highlighting memory/storage need |
+| Catalyst | [[Jensen Huang]] highlighting memory/storage need |
 
-**CES 2026:** Stock soared 37% in one week after Huang emphasized memory and storage demand.
+**[[CES 2026]]:** Stock soared 37% in one week after Huang emphasized memory and storage demand.
 
 ---
 
@@ -50,7 +50,7 @@ aliases: [SNDK]
 
 | Category | Products |
 |----------|----------|
-| Consumer | USB drives, SD cards |
+| [[Consumer]] | USB drives, SD cards |
 | Enterprise | SSDs for data centers |
 | Embedded | Smartphone/device storage |
 
@@ -64,7 +64,7 @@ aliases: [SNDK]
 - Inference: Fast model loading
 - Logs/telemetry: Massive output
 
-**Jensen Huang (CES 2026):** Highlighted memory and storage as critical alongside compute.
+**[[Jensen Huang]] ([[CES 2026]]):** Highlighted memory and storage as critical alongside compute.
 
 ---
 
@@ -89,7 +89,7 @@ Part of [[Memory shortage 2025-2026]]:
 **Bear:**
 - +559% already priced in?
 - NAND cyclical historically
-- Competition (Samsung, SK Hynix, Micron)
+- Competition ([[Samsung]], SK Hynix, Micron)
 - Valuation stretched
 
 ---

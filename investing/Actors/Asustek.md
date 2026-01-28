@@ -3,7 +3,7 @@ aliases: [ASUS, 2357]
 ---
 #actor #pc #taiwan #memory-victim
 
-**Asustek (ASUS)** — Taiwan PC/gaming hardware maker. Stockpiling memory, holding prices through holiday quarter.
+**Asustek (ASUS)** — [[Taiwan]] PC/gaming hardware maker. Stockpiling memory, holding prices through holiday quarter.
 
 ---
 
@@ -39,12 +39,12 @@ PC/gaming OEM with proactive memory strategy:
 
 | Segment | Memory exposure |
 |---------|-----------------|
-| **Gaming laptops** | Very high (ROG brand, high-spec) |
-| **Consumer PCs** | High |
+| **[[Gaming]] laptops** | Very high (ROG brand, high-spec) |
+| **[[Consumer]] PCs** | High |
 | **Motherboards** | Low (components, not systems) |
 | **Graphics cards** | Moderate (VRAM) |
 
-Gaming laptops = highest memory exposure.
+[[Gaming]] laptops = highest memory exposure.
 
 ---
 
@@ -61,18 +61,18 @@ Stockpiling players (Asustek, Lenovo) betting on short-term buffer.
 
 ---
 
-## Taiwan PC ecosystem
+## [[Taiwan]] PC ecosystem
 
-Asustek part of Taiwan's PC hardware cluster:
+Asustek part of [[Taiwan]]'s PC hardware cluster:
 
 | Company | Focus |
 |---------|-------|
 | **Asustek** | PCs, gaming, motherboards |
 | Acer | PCs, displays |
-| MSI | Gaming PCs, GPUs |
+| [[MSI]] | [[Gaming]] PCs, GPUs |
 | Gigabyte | Motherboards, GPUs |
 
-Taiwan has multiple memory-squeezed PC OEMs.
+[[Taiwan]] has multiple memory-squeezed PC OEMs.
 
 ---
 
@@ -80,9 +80,9 @@ Taiwan has multiple memory-squeezed PC OEMs.
 
 **Bear:**
 - Memory costs eventually pass through
-- Gaming PC demand cyclical
+- [[Gaming]] PC demand cyclical
 - Stockpiling ties up working capital
-- Taiwan exposure
+- [[Taiwan]] exposure
 
 **Bull:**
 - Stockpiling provides buffer
@@ -97,7 +97,7 @@ Taiwan has multiple memory-squeezed PC OEMs.
 | Metric | Value |
 |--------|-------|
 | Ticker | 2357 (TWSE) |
-| HQ | Taipei, Taiwan |
+| HQ | Taipei, [[Taiwan]] |
 | Business | PCs, gaming, components |
 | Strategy | Stockpiling memory |
 

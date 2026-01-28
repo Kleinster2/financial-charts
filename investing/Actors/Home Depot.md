@@ -3,11 +3,11 @@ aliases: [HD]
 ---
 #actor #company #retail #consumer #usa #public
 
-**Home Depot** — Largest home improvement retailer. NYSE: HD. 2,300+ stores. Pro customers ~50% of sales.
+**[[Home]] Depot** — Largest home improvement retailer. NYSE: HD. 2,300+ stores. Pro customers ~50% of sales.
 
 ---
 
-## Why Home Depot matters
+## Why [[Home]] Depot matters
 
 | Metric | Value |
 |--------|-------|
@@ -49,8 +49,8 @@ aliases: [HD]
 | Region | Stores |
 |--------|--------|
 | US | 2,000+ |
-| Canada | 180+ |
-| Mexico | 130+ |
+| [[Canada]] | 180+ |
+| [[Mexico]] | 130+ |
 
 Primarily North American focus.
 
@@ -96,7 +96,7 @@ Invested $11B+ in supply chain.
 | Driver | Impact |
 |--------|--------|
 | Existing home sales | Renovation trigger |
-| Home prices | Equity for projects |
+| [[Home]] prices | Equity for projects |
 | Interest rates | Affects both |
 | New construction | Material demand |
 

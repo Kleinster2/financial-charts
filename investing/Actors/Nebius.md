@@ -14,7 +14,7 @@ aliases: [NBIS, Nebius Group]
 | Ticker | NBIS (NASDAQ) |
 | Origin | Yandex spinoff (2024) |
 | Focus | AI cloud infrastructure |
-| Geography | Europe, international (not Russia) |
+| Geography | [[Europe]], international (not Russia) |
 | Competitors | [[CoreWeave]], [[Lambda Labs]], hyperscalers |
 
 ---
@@ -91,7 +91,7 @@ aliases: [NBIS, Nebius Group]
 
 ---
 
-## Microsoft deal (Sept 2025)
+## [[Microsoft]] deal (Sept 2025)
 
 Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 
@@ -105,7 +105,7 @@ Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 | Background | Yandex founder |
 | Born | Soviet Union, 1964 |
 | Moved to | Tel Aviv (pre-invasion) |
-| EU sanctions | Applied 2022, lifted 2024 |
+| [[EU]] sanctions | Applied 2022, lifted 2024 |
 
 **2023 statement:** Called Russia's actions in Ukraine "barbaric." Sanctions lifted after full Russia divestiture.
 
@@ -117,7 +117,7 @@ Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 |--------|-------|
 | Ticker | NBIS (NASDAQ) |
 | Market cap | ~$9B |
-| Microsoft deal | Up to $19.4B |
+| [[Microsoft]] deal | Up to $19.4B |
 | Revenue | Growing rapidly |
 | Status | Investment phase |
 

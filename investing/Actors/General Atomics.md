@@ -22,11 +22,11 @@ General Atomics Aeronautical Systems (GA-ASI) is the drone subsidiary.
 
 | Platform | Type | Role | Users |
 |----------|------|------|-------|
-| **MQ-9 Reaper** | MALE | Strike, ISR | US, UK, France, allies |
+| **MQ-9 Reaper** | MALE | Strike, ISR | US, [[UK]], [[France]], allies |
 | **MQ-1 Predator** | MALE | ISR (retired) | Legacy |
 | **Gray Eagle** | Army variant | ISR, strike | US Army |
 | **Avenger** | Jet-powered | High-speed ISR | Development |
-| **MQ-9B SkyGuardian** | Next-gen | Multi-role | UK, Belgium, allies |
+| **MQ-9B SkyGuardian** | Next-gen | Multi-role | [[UK]], Belgium, allies |
 
 **MALE:** Medium-Altitude Long-Endurance — can loiter 24+ hours.
 
@@ -38,9 +38,9 @@ General Atomics Aeronautical Systems (GA-ASI) is the drone subsidiary.
 |---------|----------|
 | US military drones | **Dominant** |
 | Allied militaries | Growing exports |
-| Competitors | Northrop Grumman (Global Hawk), Turkish Aerospace (Bayraktar) |
+| Competitors | Northrop Grumman (Global Hawk), Turkish [[Aerospace]] (Bayraktar) |
 
-**Ukraine effect:** Drone warfare prominence boosting demand. But Bayraktar TB2 showed cheaper alternatives viable.
+**Ukraine effect:** [[Drone warfare]] prominence boosting demand. But Bayraktar TB2 showed cheaper alternatives viable.
 
 ---
 
@@ -65,9 +65,9 @@ General Atomics Aeronautical Systems (GA-ASI) is the drone subsidiary.
 - Suppliers benefit (engines, sensors)
 
 **Supply chain exposure:**
-- Honeywell — engines
-- L3Harris — sensors
-- Raytheon — weapons integration
+- [[Honeywell]] — engines
+- [[L3Harris]] — sensors
+- [[Raytheon]] — weapons integration
 
 ---
 

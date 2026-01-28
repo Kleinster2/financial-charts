@@ -2,7 +2,7 @@
 
 #actor #vc #usa #private #growth
 
-**Insight Partners** — Global growth-stage software investor. **$90B+ AUM, 800+ investments, 55+ IPOs.** Largest software-focused growth fund. Portfolio: Twitter, Shopify, DocuSign, Monday.com, [[PlanetScale]], [[Databricks]]. Fund XIII: $12.5B (2025).
+**Insight Partners** — Global growth-stage software investor. **$90B+ AUM, 800+ investments, 55+ IPOs.** Largest software-focused growth fund. Portfolio: Twitter, [[Shopify]], [[DocuSign]], [[Monday.com]], [[PlanetScale]], [[Databricks]]. Fund XIII: $12.5B (2025).
 
 ---
 
@@ -36,11 +36,11 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 
 | Sector | Examples |
 |--------|----------|
-| **Fintech** | — |
-| **Cybersecurity** | Recorded Future (sold to Mastercard $2.65B) |
+| **[[Fintech]]** | — |
+| **[[Cybersecurity]]** | Recorded Future (sold to [[Mastercard]] $2.65B) |
 | **AI/ML** | — |
 | **DevOps** | [[PlanetScale]] |
-| **Healthcare** | — |
+| **[[Healthcare]]** | — |
 
 **Stage:** Growth-stage (Series B+), occasional late-stage
 
@@ -55,9 +55,9 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 | Company | Category |
 |---------|----------|
 | Twitter | Social (acquired by Musk) |
-| Shopify | E-commerce |
-| DocuSign | E-signature |
-| Monday.com | Work OS |
+| [[Shopify]] | E-commerce |
+| [[DocuSign]] | E-signature |
+| [[Monday.com]] | Work OS |
 | Qualtrics | Experience management |
 | JFrog | DevOps |
 
@@ -65,11 +65,11 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 
 | Company | Category |
 |---------|----------|
-| [[Databricks]] | Data lakehouse |
+| [[Databricks]] | [[Data lakehouse]] |
 | [[PlanetScale]] | Serverless MySQL |
 | Wiz | Cloud security |
 | Miro | Collaboration |
-| Notion | Productivity |
+| [[Notion]] | [[Productivity]] |
 
 ---
 
@@ -77,7 +77,7 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 
 | Company | Acquirer | Price | Date |
 |---------|----------|-------|------|
-| Recorded Future | Mastercard | $2.65B | Sept 2024 |
+| Recorded Future | [[Mastercard]] | $2.65B | Sept 2024 |
 | Fermyon | — | — | Dec 2025 |
 
 ---
@@ -89,7 +89,7 @@ Doubled fund size from XI to XII. One of largest growth funds globally.
 | Check size | $50M - $500M+ |
 | Stage | Growth (Series B - Pre-IPO) |
 | Value-add | Onsite ops team, Insight Ignite program |
-| Geography | Global (US, Europe, Israel) |
+| Geography | Global (US, [[Europe]], Israel) |
 
 **Differentiator:** Dedicated operations team (Insight Onsite) helps portfolio companies scale.
 

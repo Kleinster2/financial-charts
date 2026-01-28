@@ -59,7 +59,7 @@ Revenue roughly flat over 3 years. Margins thin for retail (~4%).
 | Banner | Revenue share | Growth | Positioning |
 |--------|---------------|--------|-------------|
 | **Nordstrom** (full-price) | ~65% | +4% comp | Luxury department store |
-| **Nordstrom Rack** | ~35% | +4% comp | Off-price (TJX competitor) |
+| **Nordstrom Rack** | ~35% | +4% comp | Off-price ([[TJX]] competitor) |
 
 Both banners growing at similar rates. Rack is the higher-growth opportunity long-term (off-price structural trend).
 
@@ -80,13 +80,13 @@ Both banners growing at similar rates. Rack is the higher-growth opportunity lon
 
 | Detail | Value |
 |--------|-------|
-| Who | Mexico's largest department store chain |
+| Who | [[Mexico]]'s largest department store chain |
 | Market cap | ~$12B |
 | Stake | 49.9% of Nordstrom |
 | Strategic rationale | US luxury retail exposure, omnichannel expertise |
-| Mexico synergies | Potential Nordstrom stores in Mexico |
+| [[Mexico]] synergies | Potential Nordstrom stores in [[Mexico]] |
 
-Liverpool bringing Mexico expansion potential and capital. Unusual cross-border retail partnership.
+Liverpool bringing [[Mexico]] expansion potential and capital. Unusual cross-border retail partnership.
 
 ---
 
@@ -96,7 +96,7 @@ Not directly investable (private), but matters for:
 - **[[Macy's]]** — largest remaining public department store
 - **[[Saks Global]]** — luxury department store competitor
 - Department store sector consolidation thesis
-- Off-price competitive dynamics (Nordstrom Rack vs TJX, Ross)
+- Off-price competitive dynamics (Nordstrom Rack vs [[TJX]], Ross)
 
 ---
 

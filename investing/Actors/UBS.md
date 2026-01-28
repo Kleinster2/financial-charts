@@ -3,7 +3,7 @@ aliases: [UBS Group, UBS AG]
 ---
 #actor #bank #switzerland #wealth-management #investment-bank
 
-**UBS** — Swiss multinational bank. World's largest wealth manager. $6.9T invested assets (Q3 2025). $1.63T total assets. HQ Zurich/Basel. Acquired [[Credit Suisse]] for CHF 3B in emergency rescue (Mar 2023). CEO Sergio Ermotti returned to lead integration. Target: $5T+ wealth AUM by 2028.
+**UBS** — Swiss multinational bank. World's largest wealth manager. $6.9T invested assets (Q3 2025). $1.63T total assets. HQ Zurich/Basel. Acquired [[Credit Suisse]] for CHF 3B in emergency rescue (Mar 2023). CEO Sergio Ermotti returned to lead integration. [[Target]]: $5T+ wealth AUM by 2028.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [UBS Group, UBS AG]
 | Metric | Value |
 |--------|-------|
 | Founded | 1862 (as Bank in Winterthur) |
-| HQ | Zurich & Basel, Switzerland |
+| HQ | Zurich & Basel, [[Switzerland]] |
 | Total assets | **$1.63T** (Q3 2025) |
 | Invested assets | **$6.9T** (Q3 2025) |
 | Wealth AUM | $4.71T (Q3 2025) |
@@ -24,9 +24,9 @@ aliases: [UBS Group, UBS AG]
 World's largest private bank — manages wealth for ~half of world's billionaires.
 
 ![[ubs-vs-peers.png]]
-*UBS +220% since 2018 — best European bank performer, well ahead of EUFN benchmark (+100%). Credit Suisse acquisition (2023) accretive. Barclays +160%, Deutsche Bank tracking benchmark.*
+*UBS +220% since 2018 — best European bank performer, well ahead of [[EUFN]] benchmark (+100%). Credit Suisse acquisition (2023) accretive. Barclays +160%, Deutsche Bank tracking benchmark.*
 
-*vs [[Deutsche Bank]] · [[Barclays]] · EUFN (benchmark)*
+*vs [[Deutsche Bank]] · [[Barclays]] · [[EUFN]] (benchmark)*
 
 ---
 
@@ -93,7 +93,7 @@ Wealth management is strategic center — Ermotti refocused bank around it since
 | May 2024 | Credit Suisse AG merged into UBS AG |
 | Jul 2024 | Swiss entities merged |
 | 2025 | Client migration to UBS platform (ongoing) |
-| Apr 2025 | India service entities merged (24,000 staff) |
+| Apr 2025 | [[India]] service entities merged (24,000 staff) |
 
 ### Cost savings
 
@@ -105,7 +105,7 @@ Decommissioned 1,100+ legacy apps in 2025. Targeting billions in cost synergies 
 
 Americas is key growth market but "sub-par" margins:
 
-| Metric | Current | Target |
+| Metric | Current | [[Target]] |
 |--------|---------|--------|
 | Pre-tax margin | ~10% | ~15% |
 | Structure | 2 national → 4 regional divisions (2025) |
@@ -119,7 +119,7 @@ Ermotti: "Almost impossible to be a successful global player without a strong US
 | Initiative | Status |
 |------------|--------|
 | **Red** (AI assistant) | 52,000 employees; GA planned H1 2026 |
-| Microsoft 365 Copilot | 50,000 licenses (largest in financial services) |
+| [[Microsoft]] 365 Copilot | 50,000 licenses (largest in financial services) |
 | AI prompts processed | 8M in Q2 2025 |
 | Legacy apps retired | 1,100+ in 2025 |
 

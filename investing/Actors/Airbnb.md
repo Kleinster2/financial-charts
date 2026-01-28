@@ -3,7 +3,7 @@ aliases: [ABNB]
 ---
 #actor #travel #marketplace #usa #public
 
-**Airbnb** — Home-sharing marketplace. 133M+ nights booked. $4.5B FCF. ~$12B revenue.
+**Airbnb** — [[Home]]-sharing marketplace. 133M+ nights booked. $4.5B FCF. ~$12B revenue.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [ABNB]
 | Market cap | ~$78B |
 | TTM revenue | **$11.9B** |
 | Q3 2025 revenue | $4.1B |
-| Free cash flow | ~$4.5B |
+| [[Free cash flow]] | ~$4.5B |
 
 ---
 
@@ -57,8 +57,8 @@ aliases: [ABNB]
 |--------|-------|
 | North America | Mature, single-digit growth |
 | International | Double-digit growth |
-| Japan | +20% first-time bookers |
-| India | +50% first-time bookers |
+| [[Japan]] | +20% first-time bookers |
+| [[India]] | +50% first-time bookers |
 
 ---
 
@@ -88,13 +88,13 @@ aliases: [ABNB]
 **Bull:**
 - 50% EBITDA margins
 - $4.5B+ FCF
-- International growth (India, Japan)
+- International growth ([[India]], [[Japan]])
 - Services/Experiences expansion
 - Strong balance sheet ($11.7B)
 
 **Bear:**
 - NA growth slowing to single digits
-- Travel discretionary spending risk
+- [[Travel]] discretionary spending risk
 - Regulatory pressure (cities)
 - Competition from Booking, Vrbo
 - Stock underperforming (+5% YTD)
@@ -108,7 +108,7 @@ aliases: [ABNB]
 | Ticker | ABNB |
 | TTM revenue | ~$12B |
 | EBITDA margin | 50% |
-| Focus | Home-sharing |
+| Focus | [[Home]]-sharing |
 
 ---
 

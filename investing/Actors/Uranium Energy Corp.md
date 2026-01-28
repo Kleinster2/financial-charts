@@ -3,7 +3,7 @@ aliases: [UEC]
 ---
 #actor #uranium #usa #mining
 
-**Uranium Energy Corp** — US uranium miner. ISL production in Texas and Wyoming. Pure-play US uranium exposure for nuclear renaissance.
+**[[Uranium]] Energy Corp** — US uranium miner. ISL production in Texas and Wyoming. Pure-play US uranium exposure for nuclear renaissance.
 
 ---
 
@@ -38,7 +38,7 @@ ISL = environmentally preferred, lower cost.
 | Factor | Implication |
 |--------|-------------|
 | Energy security | Domestic supply |
-| Russia sanctions | Alternative to Russian uranium |
+| [[Russia]] sanctions | Alternative to Russian uranium |
 | SMR growth | HALEU feedstock |
 | DOD interest | Strategic stockpile |
 
@@ -73,14 +73,14 @@ US has near-zero uranium production historically. UEC is changing that.
 
 **Bull:**
 - US energy security play
-- Nuclear renaissance tailwind
+- [[Nuclear renaissance]] tailwind
 - ISL low-cost method
-- Russia sanctions beneficiary
+- [[Russia]] sanctions beneficiary
 - Pure-play exposure
 
 **Bear:**
 - Small vs global giants
-- Uranium price sensitive
+- [[Uranium]] price sensitive
 - Execution risk on ramp
 - No enrichment (upstream only)
 

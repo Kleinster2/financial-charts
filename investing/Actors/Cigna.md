@@ -23,7 +23,7 @@ aliases: [CI, Cigna Group]
 | Segment | Revenue | Description |
 |---------|---------|-------------|
 | **Evernorth** | ~$150B | Express Scripts PBM, specialty pharmacy |
-| **Cigna Healthcare** | ~$50B | Employer, Medicare, individual |
+| **Cigna [[Healthcare]]** | ~$50B | Employer, Medicare, individual |
 
 Evernorth (PBM) is majority of revenue.
 
@@ -46,7 +46,7 @@ Evernorth (PBM) is majority of revenue.
 | [[UnitedHealth]] | #1 insurer + Optum |
 | [[CVS Health]] | Aetna + CVS + Caremark |
 | **Cigna** | Evernorth PBM + insurance |
-| [[Humana]] | Medicare Advantage focus |
+| [[Humana]] | [[Medicare Advantage]] focus |
 
 ---
 

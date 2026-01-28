@@ -56,7 +56,7 @@ Part of $30B SPV structure for Meta's Louisiana data center (with [[Blue Owl]]).
 **Market sizing (Jan 2026):**
 - **$3T** data center infrastructure spending through 2028
 - ~50% from cash flow, ~50% from debt markets
-- Banks increasingly concentrated in small group of borrowers
+- [[Banks]] increasingly concentrated in small group of borrowers
 
 ---
 
@@ -67,7 +67,7 @@ Part of $30B SPV structure for Meta's Louisiana data center (with [[Blue Owl]]).
 Morgan Stanley exploring [[Significant risk transfer]] tied to portfolio of AI infrastructure loans. Early-stage talks with investors.
 
 **Why it matters:**
-- Banks may be overexposed to concentrated group of AI infrastructure borrowers
+- [[Banks]] may be overexposed to concentrated group of AI infrastructure borrowers
 - SRTs let banks hedge credit exposure, manage capital ratios, free balance sheet
 - Data-center SRTs still nascent slice of credit-risk transfer market
 - Also exploring other hedging/syndication options
@@ -92,7 +92,7 @@ Morgan Stanley exploring [[Significant risk transfer]] tied to portfolio of AI i
 
 | Segment | % Revenue | Description |
 |---------|-----------|-------------|
-| **Wealth Management** | ~50% | E*Trade, advisors, $5T AUM |
+| **Wealth Management** | ~50% | E*[[Trade]], advisors, $5T AUM |
 | **Institutional Securities** | ~40% | Trading, IB advisory |
 | **Investment Management** | ~10% | Asset management |
 
@@ -100,7 +100,7 @@ Wealth = majority of revenue (different from Goldman).
 
 ---
 
-## E*Trade acquisition
+## E*[[Trade]] acquisition
 
 **2020, $13B:**
 - Retail brokerage platform
@@ -126,7 +126,7 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 
 **Bull:**
 - Wealth management stability
-- E*Trade integration complete
+- E*[[Trade]] integration complete
 - Trading franchise
 - Less volatile than pure IB
 

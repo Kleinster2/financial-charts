@@ -71,7 +71,7 @@ The structural decline of traditional pay TV (cable, satellite) as consumers shi
 | Ad rates | Premium |
 | Bundling power | Forces cable retention |
 
-**Erosion:** ESPN DTC, Amazon NFL, Apple MLB changing this.
+**Erosion:** ESPN DTC, [[Amazon]] NFL, [[Apple]] MLB changing this.
 
 ---
 
@@ -105,7 +105,7 @@ The structural decline of traditional pay TV (cable, satellite) as consumers shi
 |------|-----------|
 | 2007 | Netflix streaming launches |
 | 2012 | Peak pay TV (~100M) |
-| 2019 | Disney+, Apple TV+ launch |
+| 2019 | Disney+, [[Apple]] TV+ launch |
 | 2022 | Streaming losses peak |
 | 2024 | Streaming profitability focus |
 | 2025 | Cable network spinoffs begin |

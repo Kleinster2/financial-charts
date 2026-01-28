@@ -3,7 +3,7 @@ aliases: [Wearable AI, AI wearables, smart glasses, AI glasses, ambient AI devic
 ---
 #concept #hardware #consumer
 
-**Screenless AI** — AI hardware that ditches the screen. Two camps: wearables (glasses, rings, pendants) and pocket devices (OpenAI/Jony Ive). The bet: context from being with you all day beats phone convenience.
+**Screenless AI** — AI hardware that ditches the screen. Two camps: wearables (glasses, rings, pendants) and pocket devices (OpenAI/[[Jony Ive]]). The bet: context from being with you all day beats phone convenience.
 
 > **Part of the broader [[Ambient AI]] paradigm.** This note covers hardware form factors. For environment-level intelligence (smart homes, healthcare, enterprise), see [[Ambient AI]].
 
@@ -15,8 +15,8 @@ AI is escaping the phone screen:
 
 | Category | Form factors | Leaders |
 |----------|--------------|---------|
-| **Wearables** | Glasses, rings, pendants, clips | [[Meta]], [[Amazon]], Samsung |
-| **Pocket/Handheld** | Pens, pocket companions | [[OpenAI]] + Jony Ive |
+| **Wearables** | Glasses, rings, pendants, clips | [[Meta]], [[Amazon]], [[Samsung]] |
+| **Pocket/Handheld** | Pens, pocket companions | [[OpenAI]] + [[Jony Ive]] |
 
 **Key insight:** Screenless devices enable AI to see/hear what you see/hear — unlocks context that phones can't provide.
 
@@ -34,7 +34,7 @@ AI is escaping the phone screen:
 - Partnership with EssilorLuxottica
 - Camera + audio + Meta AI
 - Best-selling smart glasses ever
-- Consumer-friendly form factor
+- [[Consumer]]-friendly form factor
 
 **Orion (prototype):**
 - Full AR glasses with holographic display
@@ -58,7 +58,7 @@ Google Glass (2012-2015) failed because:
 - Camera is expected (phones everywhere)
 - Lower prices possible
 
-### China's 70+ entrants
+### [[China]]'s 70+ entrants
 
 CNBC reports 70+ Chinese companies developing AI wearables:
 
@@ -68,7 +68,7 @@ CNBC reports 70+ Chinese companies developing AI wearables:
 | Native Language Star | Le Le Gaoshang | Chinese-English translation for education |
 | Various smart glasses | Multiple | Meta clones + differentiated |
 
-**China's edge:**
+**[[China]]'s edge:**
 - Manufacturing expertise
 - Lower costs
 - Faster iteration
@@ -85,7 +85,7 @@ CNBC reports 70+ Chinese companies developing AI wearables:
 | Device | Company | Price | Key features |
 |--------|---------|-------|--------------|
 | Bee | [[Amazon]] | $50 | Wrist/clip, week battery, to-do lists, email drafts |
-| Friend | Friend (Avi Schiffmann) | $129 | Necklace, Gemini AI, emotional companion |
+| Friend | Friend (Avi Schiffmann) | $129 | Necklace, [[Gemini]] AI, emotional companion |
 | Plaud | Plaud | ~$170 | Meeting recorder, transcription |
 | AI Pin | [[Humane]] | $699 | **Failed** — buggy, poor battery, no killer app |
 | R1 | Rabbit | $199 | **Failed** — overpromised, underdelivered |
@@ -133,7 +133,7 @@ May beat glasses for some use cases:
 | Ring | Company | Price | Subscription | Notes |
 |------|---------|-------|--------------|-------|
 | **Oura Ring 4** | [[Oura]] | $349 | $5.99/mo | Market leader, best app, AI meal tracking |
-| **Galaxy Ring** | Samsung | ~$400 | None | AI Energy Score, needs Samsung phone for full features |
+| **Galaxy Ring** | [[Samsung]] | ~$400 | None | AI Energy Score, needs [[Samsung]] phone for full features |
 | **Ultrahuman Ring Air** | Ultrahuman | ~$350 | None | **Banned in US** (Oct 2025) — Oura patent ruling |
 | **RingConn Gen 2 Air** | RingConn | ~$200 | None | Budget, 10.5-day battery |
 | **Helio Ring** | Amazfit | ~$300 | None | Limited sizing (only 3 options) |
@@ -141,16 +141,16 @@ May beat glasses for some use cases:
 ### Market dynamics
 
 - **Oura dominates** but subscription model ($72/year) opens door for competitors
-- **Samsung** main challenger — AI insights but locked to Samsung ecosystem
+- **[[Samsung]]** main challenger — AI insights but locked to [[Samsung]] ecosystem
 - **Ultrahuman US ban** (ITC ruling Oct 2025) shows Oura defending IP aggressively
 - **Chinese budget options** (RingConn, Amazfit) undercutting on price, no subscriptions
-- **No Galaxy Ring 2 in 2025** — Samsung skipped refresh, eyes on 2026
+- **No Galaxy Ring 2 in 2025** — [[Samsung]] skipped refresh, eyes on 2026
 
 ---
 
 # Non-wearables
 
-## OpenAI + Jony Ive device
+## OpenAI + [[Jony Ive]] device
 
 | Detail | Info |
 |--------|------|
@@ -179,20 +179,20 @@ May beat glasses for some use cases:
 |---------|----------|
 | [[Meta]] | Ray-Ban glasses, Orion AR |
 | [[Amazon]] | Bee ambient AI, Alexa+ integration |
-| [[OpenAI]] | Jony Ive device ($6.4B io acquisition) |
+| [[OpenAI]] | [[Jony Ive]] device ($6.4B io acquisition) |
 | [[Apple]] | Vision Pro, Watch, future glasses |
 | [[Google]] | Glass history, Android XR |
 | [[EssilorLuxottica]] | Meta partner, smart glasses manufacturing |
-| Qualcomm | AR/VR chips |
+| [[Qualcomm]] | AR/VR chips |
 
 **Picks & shovels:**
 | Component | Companies |
 |-----------|-----------|
-| Micro-displays | Sony, BOE |
-| Sensors | ST, Bosch, TDK |
+| Micro-displays | [[Sony]], BOE |
+| [[Sensors]] | ST, Bosch, TDK |
 | Audio | Knowles, Cirrus |
-| Batteries | Various |
-| AI chips | Qualcomm, MediaTek |
+| [[Batteries]] | Various |
+| AI chips | [[Qualcomm]], [[MediaTek]] |
 
 ---
 
@@ -200,11 +200,11 @@ May beat glasses for some use cases:
 
 - Always-on AI assistant = killer app
 - Camera context enables new use cases
-- China competition drives innovation/lower prices
+- [[China]] competition drives innovation/lower prices
 - Health monitoring creates stickiness
 - Enterprise applications (translation, field service)
 - Form factor innovation (rings, patches)
-- OpenAI/Jony Ive legitimizes category
+- OpenAI/[[Jony Ive]] legitimizes category
 
 ---
 
@@ -224,11 +224,11 @@ May beat glasses for some use cases:
 1. Ray-Ban Meta sales trajectory
 2. Orion timeline to consumer
 3. Apple glasses launch
-4. Chinese entrant breakout (the "DeepSeek of wearables")
+4. Chinese entrant breakout (the "[[DeepSeek]] of wearables")
 5. Enterprise adoption
 6. Ring form factor traction
 7. Amazon Bee rebranding and Alexa+ integration
-8. OpenAI/Jony Ive device launch (2026-2027)
+8. OpenAI/[[Jony Ive]] device launch (2026-2027)
 
 ---
 
@@ -237,7 +237,7 @@ May beat glasses for some use cases:
 - [[Ambient AI]] — parent paradigm (environment-level intelligence)
 - [[Meta]] — smart glasses leader
 - [[Amazon]] — Bee ambient AI wearable
-- [[OpenAI]] — Jony Ive device ($6.4B io acquisition)
+- [[OpenAI]] — [[Jony Ive]] device ($6.4B io acquisition)
 - [[Oura]] — smart ring market leader
 - [[EssilorLuxottica]] — Meta glasses partner
 - [[Humane]] — AI Pin failure case study

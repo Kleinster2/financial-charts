@@ -49,12 +49,12 @@ aliases: [BE]
 
 | Partner | Value | Details |
 |---------|-------|---------|
-| **Brookfield** | $5B | Build and operate AI data centers with Bloom fuel cells |
+| **[[Brookfield]]** | $5B | Build and operate AI data centers with Bloom fuel cells |
 | **AEP** | $2.7B | 100 MW fuel cell supply |
-| **Equinix** | — | Existing on-site power customer |
-| **Oracle** | — | Expected order upsizing |
+| **[[Equinix]]** | — | Existing on-site power customer |
+| **[[Oracle]]** | — | Expected order upsizing |
 
-Customers include Fortune 100: Walmart, AT&T, Verizon, plus DC operators Equinix and Oracle.
+Customers include Fortune 100: [[Walmart]], [[AT&T]], [[Verizon]], plus DC operators [[Equinix]] and [[Oracle]].
 
 ---
 
@@ -103,9 +103,9 @@ Customers include Fortune 100: Walmart, AT&T, Verizon, plus DC operators Equinix
 |-------------|-------------|-----------|--------------|
 | **Bloom fuel cells** | ~50 days | Yes | No |
 | Grid connection | 3-5 years | Yes | Yes |
-| Diesel generators | Days | Yes | No (dirty) |
+| [[Diesel]] generators | Days | Yes | No (dirty) |
 | Solar + storage | Months | Intermittent | No |
-| Nuclear (Oklo, NuScale) | 5-10+ years | Yes | Partial |
+| Nuclear ([[Oklo]], [[NuScale]]) | 5-10+ years | Yes | Partial |
 
 Bloom wins on **speed + reliability** when grid unavailable.
 
@@ -122,17 +122,17 @@ Bloom published research showing data centers plan to reduce reliance on grid �
 **Bull:**
 - [[Power constraints]] = massive secular tailwind (44 GW gap)
 - Fastest deployment of any baseload solution (50 days)
-- $5B Brookfield + $2.7B AEP deals prove demand
+- $5B [[Brookfield]] + $2.7B AEP deals prove demand
 - Revenue doubling annually ($519M Q3, $1.9B FY2025E)
 - Manufacturing doubling to 2 GW by end 2026
-- Ahead of Oklo/NuScale by years on commercialization
+- Ahead of [[Oklo]]/[[NuScale]] by years on commercialization
 - Hydrogen optionality for future carbon-free operation
 
 **Bear:**
 - Stock up 550% — valuation at 153x forward earnings, 48x book
 - Still losing money (Q3 2025 first operating profit quarter)
 - $2.2B convertible dilution
-- Natural gas fuel cost exposure
+- [[Natural gas]] fuel cost exposure
 - Technology risk if grid catches up
 - Customer concentration (few mega-deals)
 

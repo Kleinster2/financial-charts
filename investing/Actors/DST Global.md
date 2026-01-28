@@ -3,7 +3,7 @@ aliases: [DST]
 ---
 #actor #investor #growthequity #russia #global #private
 
-**DST Global** — Yuri Milner's growth fund. Facebook, Airbnb, Spotify early investor. ~$30B deployed. Global reach.
+**DST Global** — Yuri Milner's growth fund. Facebook, [[Airbnb]], Spotify early investor. ~$30B deployed. Global reach.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [DST]
 
 | Fact | Detail |
 |------|--------|
-| Origin | Russia |
+| Origin | [[Russia]] |
 | Background | Physics PhD, banker |
 | Famous for | 2009 Facebook investment |
 | Other | Breakthrough Prize founder |
@@ -38,13 +38,13 @@ Pioneered late-stage growth investing in tech.
 |---------|-------|--------|
 | **Facebook** | 2009 ($200M) | Public (META) |
 | **Twitter** | Pre-IPO | Acquired by Musk |
-| **Airbnb** | Growth | Public (ABNB) |
+| **[[Airbnb]]** | Growth | Public (ABNB) |
 | **[[Spotify]]** | Growth | Public (SPOT) |
 | **[[Stripe]]** | Growth | $129B private |
 | **[[Mistral]]** | Series C | $14B |
-| **ByteDance** | Growth | Private |
-| **Alibaba** | Pre-IPO | Public (BABA) |
-| **Xiaomi** | Pre-IPO | Public |
+| **[[ByteDance]]** | Growth | Private |
+| **[[Alibaba]]** | Pre-IPO | Public (BABA) |
+| **[[Xiaomi]]** | Pre-IPO | Public |
 
 ---
 
@@ -56,7 +56,7 @@ Pioneered late-stage growth investing in tech.
 | Large checks | $100M-1B |
 | Minority stakes | Non-controlling |
 | Long-term | Hold through IPO |
-| Global | US, Europe, Asia |
+| Global | US, [[Europe]], [[Asia]] |
 
 **Innovation:** Pioneered "growth equity" as distinct from VC or PE.
 

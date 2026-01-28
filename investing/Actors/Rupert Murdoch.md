@@ -3,7 +3,7 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 ---
 #actor #person #media #mogul #usa #australia
 
-**Rupert Murdoch** — Media mogul. Built Fox, News Corp empire. Sold entertainment to Disney (2019). Now focused on news/politics. Succession battle ongoing.
+**Rupert Murdoch** — Media mogul. Built Fox, News Corp empire. Sold entertainment to [[Disney]] (2019). Now focused on news/politics. Succession battle ongoing.
 
 ---
 
@@ -26,19 +26,19 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 | **Fox broadcast** | [[Fox Corporation]] | Family trust |
 | **Wall Street Journal** | News Corp | Family trust |
 | **New York Post** | News Corp | Family trust |
-| **The Times (UK)** | News Corp | Family trust |
-| **Sky News Australia** | News Corp | Family trust |
+| **The Times ([[UK]])** | News Corp | Family trust |
+| **Sky News [[Australia]]** | News Corp | Family trust |
 
 ---
 
-## The 2019 Disney deal
+## The 2019 [[Disney]] deal
 
-| Sold to Disney | Kept |
+| Sold to [[Disney]] | Kept |
 |----------------|------|
 | 20th Century Fox (studio) | Fox broadcast network |
 | FX Networks | Fox News |
 | National Geographic | Fox Sports |
-| Star India | News Corp newspapers |
+| Star [[India]] | News Corp newspapers |
 | 30% Hulu stake | |
 
 **Price:** $71B. **Rationale:** Scale needed in entertainment; news/sports don't need scale.
@@ -49,13 +49,13 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 
 | Year | Event |
 |------|-------|
-| 1952 | Inherited Adelaide newspaper (Australia) |
-| 1969 | Acquired News of the World (UK) |
+| 1952 | Inherited Adelaide newspaper ([[Australia]]) |
+| 1969 | Acquired News of the World ([[UK]]) |
 | 1976 | Bought New York Post |
 | 1985 | Bought 20th Century Fox, became US citizen |
 | 1986 | Launched Fox network |
 | 1996 | Launched Fox News |
-| 2019 | Sold entertainment to Disney |
+| 2019 | Sold entertainment to [[Disney]] |
 | 2023 | Stepped back from daily operations |
 
 ---
@@ -78,8 +78,8 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 | Country | Influence |
 |---------|-----------|
 | **USA** | Fox News shapes Republican politics |
-| **UK** | Newspapers backed Blair, then Tories |
-| **Australia** | Dominant newspaper owner |
+| **[[UK]]** | Newspapers backed Blair, then Tories |
+| **[[Australia]]** | Dominant newspaper owner |
 
 **Pattern:** Uses media for political influence globally.
 
@@ -102,7 +102,7 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 
 | Issue | Outcome |
 |-------|---------|
-| Phone hacking (UK) | News of the World closed (2011) |
+| Phone hacking ([[UK]]) | News of the World closed (2011) |
 | Dominion lawsuit | Fox paid $787.5M (2023) |
 | Smartmatic lawsuit | Ongoing |
 

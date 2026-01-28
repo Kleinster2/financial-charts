@@ -12,7 +12,7 @@
 |-----------|---------|
 | Intrinsic value | Estimated fair value |
 | Purchase price | Entry point |
-| Margin of safety | Gap between them |
+| Margin of safety | [[Gap]] between them |
 
 ---
 
@@ -92,7 +92,7 @@ Higher uncertainty requires larger margin.
 |---------|--------------|
 | Intrinsic value | What you're discounting from |
 | Value investing | Core philosophy |
-| Position sizing | Larger margin = larger position |
+| [[Position sizing]] | Larger margin = larger position |
 | Patience | Waiting for entry |
 
 ---

@@ -3,7 +3,7 @@ aliases: [ETSY]
 ---
 #actor #company #ecommerce #marketplace #usa #public
 
-**Etsy** — Handmade and vintage marketplace. Nasdaq: ETSY. 90M+ buyers. Founded 2005.
+**Etsy** — Handmade and vintage marketplace. [[Nasdaq]]: ETSY. 90M+ buyers. Founded 2005.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [ETSY]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ETSY (Nasdaq) |
+| Ticker | ETSY ([[Nasdaq]]) |
 | Market cap | ~$8B |
 | GMS | $13B+ |
 | Buyers | 90M+ |
@@ -41,7 +41,7 @@ Take rate ~20% of GMS.
 | **Etsy** | Handmade, vintage |
 | **Reverb** | Musical instruments |
 | **Depop** | Gen Z fashion resale |
-| **Elo7** | Brazil crafts |
+| **Elo7** | [[Brazil]] crafts |
 
 ---
 
@@ -49,8 +49,8 @@ Take rate ~20% of GMS.
 
 | vs. | Differentiation |
 |-----|-----------------|
-| Amazon | Unique, handmade items |
-| eBay | Curated, artisan focus |
+| [[Amazon]] | Unique, handmade items |
+| [[eBay]] | Curated, artisan focus |
 | Shopify | Marketplace vs. platform |
 
 Non-commoditized inventory.
@@ -80,7 +80,7 @@ Returned to pre-COVID trajectory.
 **Bear:**
 - Growth challenges
 - Seller fee pushback
-- Amazon Handmade
+- [[Amazon]] Handmade
 - Valuation reset
 
 ---
@@ -89,7 +89,7 @@ Returned to pre-COVID trajectory.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ETSY (Nasdaq) |
+| Ticker | ETSY ([[Nasdaq]]) |
 | Market cap | ~$8B |
 | GMS | $13B+ |
 | Focus | Handmade, vintage |

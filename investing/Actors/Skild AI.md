@@ -35,7 +35,7 @@ aliases: [Skild]
 | Investor | Type |
 |----------|------|
 | **SoftBank Group** | Lead |
-| **NVentures (NVIDIA)** | Strategic |
+| **[[NVentures]] (NVIDIA)** | Strategic |
 | **Bezos Expeditions** | Strategic |
 | Macquarie Capital | Financial |
 | 1789 Capital | Financial |
@@ -45,13 +45,13 @@ aliases: [Skild]
 | Investor | Notes |
 |----------|-------|
 | Lightspeed | Doubled down |
-| Sequoia Capital | Doubled down |
-| Coatue | Doubled down |
+| [[Sequoia Capital]] | Doubled down |
+| [[Coatue]] | Doubled down |
 | Felicis | Doubled down |
-| Samsung | Strategic |
+| [[Samsung]] | Strategic |
 | LG | Strategic |
-| Schneider Electric | Strategic |
-| Salesforce Ventures | Strategic |
+| [[Schneider Electric]] | Strategic |
+| [[Salesforce]] Ventures | Strategic |
 
 ---
 
@@ -99,13 +99,13 @@ aliases: [Skild]
 
 ---
 
-## Target markets
+## [[Target]] markets
 
 | Market | Timeline | Application |
 |--------|----------|-------------|
 | **Enterprise** | Now | Warehouse, manufacturing, logistics |
-| **Healthcare** | Near-term | Hospital automation |
-| **Consumer** | Long-term | Home robots |
+| **[[Healthcare]]** | Near-term | Hospital automation |
+| **[[Consumer]]** | Long-term | [[Home]] robots |
 
 **Strategy:** Enterprise tasks first → prove technology → expand to consumer.
 
@@ -116,10 +116,10 @@ aliases: [Skild]
 | Company | Approach | Valuation |
 |---------|----------|-----------|
 | **Skild AI** | Foundation model (universal) | $14B |
-| Figure AI | Humanoid robots | ~$2.6B |
-| 1X Technologies | Humanoid (OpenAI-backed) | ~$1B |
+| [[Figure AI]] | Humanoid robots | ~$2.6B |
+| [[1X Technologies]] | Humanoid ([[OpenAI]]-backed) | ~$1B |
 | Covariant | Warehouse robotics | ~$600M |
-| Boston Dynamics | Hardware-focused | (Hyundai subsidiary) |
+| [[Boston Dynamics]] | Hardware-focused | ([[Hyundai]] subsidiary) |
 
 **Differentiation:** Skild is software/model layer; others are mostly hardware-focused.
 
@@ -148,7 +148,7 @@ aliases: [Skild]
 - Robotics has long deployment cycles
 - Enterprise sales cycles are slow
 - Competition from well-funded humanoid plays
-- Consumer robotics has failed before
+- [[Consumer]] robotics has failed before
 
 ---
 
@@ -171,12 +171,12 @@ aliases: [Skild]
 
 ### Investors
 - [[SoftBank]] — lead investor
-- [[NVIDIA]] — strategic investor (NVentures)
+- [[NVIDIA]] — strategic investor ([[NVentures]])
 
 ### Competitors
-- Figure AI — humanoid robots
-- 1X Technologies — OpenAI-backed humanoid
-- Boston Dynamics — hardware robotics
+- [[Figure AI]] — humanoid robots
+- [[1X Technologies]] — [[OpenAI]]-backed humanoid
+- [[Boston Dynamics]] — hardware robotics
 
 ### Concepts
 - [[AI Infrastructure]] — compute demand

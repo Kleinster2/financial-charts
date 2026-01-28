@@ -4,7 +4,7 @@ Data center water consumption is emerging as a hard constraint on AI infrastruct
 
 ---
 
-## The scale (Bloomberg/IEA, May 2025)
+## The scale (Bloomberg/[[IEA]], May 2025)
 
 | Metric | Value |
 |--------|-------|
@@ -52,24 +52,24 @@ Data center water consumption is emerging as a hard constraint on AI infrastruct
 
 | Country | DCs in high/extremely high stress |
 |---------|-----------------------------------|
-| **China** | 262 |
-| **Germany** | 166 |
-| **UK** | 153 |
-| **Australia** | 140 |
-| **India** | 135 |
+| **[[China]]** | 262 |
+| **[[Germany]]** | 166 |
+| **[[UK]]** | 153 |
+| **[[Australia]]** | 140 |
+| **[[India]]** | 135 |
 | **Spain** | 117 |
-| **Canada** | 95 |
-| **Russia** | 92 |
+| **[[Canada]]** | 95 |
+| **[[Russia]]** | 92 |
 | **Indonesia** | 87 |
 | **Saudi Arabia** | 81 |
 | **Thailand** | 73 |
-| **France** | 67 |
+| **[[France]]** | 67 |
 | **UAE** | 60 |
 | **Italy** | 55 |
-| **Chile** | 52 |
-| **Mexico** | 52 |
+| **[[Chile]]** | 52 |
+| **[[Mexico]]** | 52 |
 
-**Key insight:** China and India have **even greater proportion** of DCs in drier areas compared to US — reflects both growing DC footprint and heightened water scarcity from climate change.
+**Key insight:** [[China]] and [[India]] have **even greater proportion** of DCs in drier areas compared to US — reflects both growing DC footprint and heightened water scarcity from climate change.
 
 ---
 
@@ -115,7 +115,7 @@ Data centers face a fundamental constraint trade-off:
 
 | Location | Outcome |
 |----------|---------|
-| **Chile** | Temporarily revoked Google's authorization for $200M facility |
+| **[[Chile]]** | Temporarily revoked Google's authorization for $200M facility |
 | **Netherlands** | Protests against DC water use |
 | **Uruguay** | Water-related protests |
 | **The Dalles, Oregon** | City sued to prevent release of Google's water records (13-month legal battle) |
@@ -139,7 +139,7 @@ Data centers face a fundamental constraint trade-off:
 
 | Source | Quote |
 |--------|-------|
-| **Newsha Ajami** (Lawrence Berkeley / Stanford) | "It is very much a growing issue — and it is spreading everywhere" |
+| **Newsha Ajami** (Lawrence Berkeley / [[Stanford]]) | "It is very much a growing issue — and it is spreading everywhere" |
 | **Sharlene Leurig** (Fluid Advisors) | "Water has traditionally been far less consequential for industrial users than energy costs and availability" |
 | **Amy Bush** (RMBJ Geo, Abilene) | "Every part of the state is facing this water-energy nexus crisis" |
 
@@ -172,7 +172,7 @@ Data centers face a fundamental constraint trade-off:
 **For investors:**
 - Water infrastructure companies may benefit
 - Cooling technology companies (immersion cooling) gaining relevance
-- ESG risk for hyperscalers in water-stressed regions
+- [[ESG]] risk for hyperscalers in water-stressed regions
 
 ---
 

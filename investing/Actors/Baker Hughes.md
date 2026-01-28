@@ -81,7 +81,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 |--------|-------|
 | Revenue | ~$27B |
 | Operating margin | ~12% |
-| Free cash flow | ~$2B |
+| [[Free cash flow]] | ~$2B |
 | Dividend yield | ~2.5% |
 
 ---
@@ -93,7 +93,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 | Size | #3 | #1 | #2 |
 | Focus | Diversified | International | N. America |
 | LNG | Leader | Limited | None |
-| Transition | Best positioned | Moderate | Oil-focused |
+| Transition | Best positioned | Moderate | [[Oil]]-focused |
 
 ---
 

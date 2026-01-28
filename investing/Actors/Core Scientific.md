@@ -53,7 +53,7 @@ CoreWeave = anchor tenant driving turnaround.
 - Betting on higher standalone value
 - AI demand justifies independence
 
-**Signal:** Market believes Core Scientific worth more.
+**[[Signal]]:** Market believes Core Scientific worth more.
 
 ---
 
@@ -82,7 +82,7 @@ CoreWeave = anchor tenant driving turnaround.
 | Company | Deal | Status |
 |---------|------|--------|
 | **Core Scientific** | $3.5B CoreWeave | Independent |
-| [[IREN]] | $9.7B Microsoft | Independent |
+| [[IREN]] | $9.7B [[Microsoft]] | Independent |
 | [[Hut 8]] | $7B Fluidstack | Independent |
 | Cipher Mining | Fluidstack | Independent |
 

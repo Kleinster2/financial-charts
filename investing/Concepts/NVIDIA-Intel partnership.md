@@ -49,7 +49,7 @@
 | **Supply diversification** | Reduce TSMC dependency |
 | **US manufacturing** | CHIPS Act alignment |
 | **Intel packaging (EMIB)** | Alternative to TSMC CoWoS |
-| **Geopolitical hedge** | Non-Taiwan supply chain |
+| **Geopolitical hedge** | Non-[[Taiwan]] supply chain |
 | **Strategic influence** | Ownership stake in competitor |
 
 ---
@@ -79,7 +79,7 @@ Intel viewed as bigger beneficiary — lifeline narrative.
 ## Context: NVIDIA at $5 trillion
 
 This deal announced as NVIDIA becomes **first $5 trillion company**:
-- Passed Apple, Microsoft, Alphabet
+- Passed [[Apple]], [[Microsoft]], Alphabet
 - AI dominance + strategic moves like this
 - Shows confidence to deploy capital
 

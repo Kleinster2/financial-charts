@@ -70,7 +70,7 @@
 
 **Under Raisi (2022-2024):** CBI injected *another* 2,000 trillion rials (~$1.9B) into Ayandeh despite documented awareness of its insolvency.
 
-**UK sanctions (Oct 2025):** Days after collapse, UK sanctioned Ansari for "facilitating and supporting the hostile activities" of the Islamic Republic and IRGC.
+**[[UK]] sanctions (Oct 2025):** Days after collapse, [[UK]] sanctioned Ansari for "facilitating and supporting the hostile activities" of the Islamic [[Republic]] and IRGC.
 
 ---
 
@@ -88,7 +88,7 @@
 | Ansari's personal "loan" for Iran Mall | 740 trillion rials ($687M) |
 | Repayment | **Zero** |
 
-### Shell company network
+### [[Shell]] company network
 
 ~100 shell companies allegedly created to finance Iran Mall, granting self-serving loans never repaid.
 
@@ -142,7 +142,7 @@ Ayandeh's biggest bet: **Iran Mall**, a colossal shopping/leisure complex west o
 | Metric | Value |
 |--------|-------|
 | Ansari's "loan" for project | 740 trillion rials ($687M) |
-| Shell companies created | ~100 |
+| [[Shell]] companies created | ~100 |
 | Repaid | $0 |
 
 | Problem | Detail |
@@ -228,11 +228,11 @@ Privately owned by one of Iran's wealthiest families. Connected to regime elites
 | **Ayandeh** | Iran | 2025 | $2.34B | Real estate Ponzi |
 | SVB | USA | 2023 | $175B | Duration mismatch |
 | Lehman | USA | 2008 | N/A | Mortgage exposure |
-| Northern Rock | UK | 2007 | £24B | Wholesale funding |
+| Northern Rock | [[UK]] | 2007 | £24B | Wholesale funding |
 
 Ayandeh most resembles classic emerging market bank failures: connected elites, regulatory capture, Ponzi dynamics, real estate.
 
-### Comparison to [[Banco Master]] (Brazil 2025)
+### Comparison to [[Banco Master]] ([[Brazil]] 2025)
 
 Two [[Bank cronyism]] collapses one month apart — authoritarian vs democratic. Both linked to ~40-45 year old political structures.
 
@@ -256,7 +256,7 @@ See [[Ayandeh-Master comparison]] for full analysis.
 - [[Iranian banking]] — sector context, systemic crisis
 - [[Iranian economic collapse]] — Ayandeh as accelerant
 - [[Bank cronyism]] — the pattern (Ayandeh as case study)
-- [[Ayandeh-Master comparison]] — parallel collapse (Brazil 2025)
+- [[Ayandeh-Master comparison]] — parallel collapse ([[Brazil]] 2025)
 - [[Iran]] — country context
 
 ### Drafts

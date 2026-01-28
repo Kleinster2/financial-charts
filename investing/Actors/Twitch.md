@@ -32,12 +32,12 @@
 
 - Shear and Kan met at Evergreen School for Gifted Children (Seattle)
 - Bonded over math and Magic: The Gathering
-- YC S05: Built Kiko (calendar app), sold on eBay for $250K after Google Calendar launched
+- YC S05: Built Kiko (calendar app), sold on [[eBay]] for $250K after [[Google]] Calendar launched
 - YC W07: Pitched 24/7 livestream of Kan's life
-- Paul Graham: "That sounds crazy enough that I'd fund it"
+- [[Paul Graham]]: "That sounds crazy enough that I'd fund it"
 - Got $50K check and second YC acceptance
 - 2007: Launched Justin.tv with webcam strapped to Kan's head
-- Gaming category grew fastest
+- [[Gaming]] category grew fastest
 - 2011: Spun off gaming as "TwitchTV" (from "twitch gameplay")
 - 2014: Shut down Justin.tv to focus on Twitch
 
@@ -47,7 +47,7 @@
 
 | Batch | Company | Outcome |
 |-------|---------|---------|
-| **S05** | Kiko | Sold on eBay for $250K |
+| **S05** | Kiko | Sold on [[eBay]] for $250K |
 | **W07** | Justin.tv | Became Twitch → $970M exit |
 
 **Legacy:** Among YC's most successful investments. Shear, Kan, and Seibel all became YC partners.
@@ -60,8 +60,8 @@
 |--------|-------|
 | Date | August 25, 2014 |
 | Price | **$970M** |
-| Prior suitor | Google (rumored, fell through) |
-| Rationale | Gaming content, Prime integration |
+| Prior suitor | [[Google]] (rumored, fell through) |
+| Rationale | [[Gaming]] content, Prime integration |
 
 Shear stayed as CEO until March 2023 (9 years post-acquisition).
 
@@ -96,7 +96,7 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 | MAU | 230M | 240M |
 | DAU | 34M | 35M |
 | Concurrent viewers | 2.37M | 2.09M |
-| Monthly streamers | 7.3M | 7.1M |
+| Monthly streamers | 7.[[3M]] | 7.1M |
 | Hours watched | 20.8B | 23.2B |
 | Market share | 65% | 67% |
 
@@ -109,7 +109,7 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 | **Subscriptions** | $4.99-$24.99/mo per channel |
 | **Bits** | Virtual currency for tips |
 | **Advertising** | Pre-roll, mid-roll ads |
-| **Prime Gaming** | Included with Amazon Prime |
+| **Prime [[Gaming]]** | Included with Amazon Prime |
 
 ### Creator economics
 
@@ -127,11 +127,11 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 | Platform | Hours watched (Q3 2024) |
 |----------|------------------------|
 | **Twitch** | 5.1B (67%) |
-| YouTube Gaming | 1.9B (25%) |
-| Facebook Gaming | ~0.3B (4%) |
+| YouTube [[Gaming]] | 1.9B (25%) |
+| Facebook [[Gaming]] | ~0.3B (4%) |
 | Kick | Growing |
 
-**Threat:** YouTube Gaming gaining share, Kick poaching top streamers.
+**Threat:** YouTube [[Gaming]] gaining share, Kick poaching top streamers.
 
 ---
 
@@ -140,10 +140,10 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 | Market | Users | % Global |
 |--------|-------|----------|
 | USA | 36M | 21% |
-| Germany | — | 7% |
+| [[Germany]] | — | 7% |
 | South Korea | — | 5% |
-| France | — | 5% |
-| Brazil | — | 4% |
+| [[France]] | — | 5% |
+| [[Brazil]] | — | 4% |
 
 ---
 
@@ -152,7 +152,7 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 ### 2023
 - Emmett Shear resigned as CEO (March)
 - Daniel Clancy became CEO
-- Shear briefly served as OpenAI interim CEO (Nov 2023)
+- Shear briefly served as [[OpenAI]] interim CEO (Nov 2023)
 
 ### 2024
 - Revenue declined 8%
@@ -165,9 +165,9 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 
 **Why Twitch matters:**
 
-1. **Amazon synergy** — Prime Gaming bundled with Prime membership.
+1. **Amazon synergy** — Prime [[Gaming]] bundled with Prime membership.
 
-2. **Gaming/esports infrastructure** — Dominant platform for live gaming.
+2. **[[Gaming]]/esports infrastructure** — Dominant platform for live gaming.
 
 3. **Creator economy** — Shows platform economics of subscriptions + ads.
 
@@ -196,12 +196,12 @@ Shear stayed as CEO until March 2023 (9 years post-acquisition).
 - [[Dropbox]] — YC peer
 
 ### Competitors
-- YouTube Gaming (Google)
+- YouTube [[Gaming]] ([[Google]])
 - Kick
-- Facebook Gaming (Meta)
+- Facebook [[Gaming]] ([[Meta]])
 
 ### Related sectors
-- Gaming
+- [[Gaming]]
 - Esports
 - Creator economy
 

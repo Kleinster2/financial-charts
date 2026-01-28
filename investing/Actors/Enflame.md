@@ -14,7 +14,7 @@ Tencent's GPU bet, with key advantage — not sanctioned:
 | Metric | Value |
 |--------|-------|
 | Founded | March 2018 |
-| Founders | Ex-AMD |
+| Founders | Ex-[[AMD]] |
 | Key backer | [[Tencent]] (21% stake) |
 | US status | NOT on Entity List |
 | Total funding | $746M |
@@ -45,7 +45,7 @@ Designed for large model training at lower cost.
 - Captive customer for AI chips
 - [[Tencent]] cloud deployment
 
-**Big Fund:** China IC Industry Investment Fund holds 5%.
+**Big Fund:** [[China]] IC Industry Investment Fund holds 5%.
 
 ---
 
@@ -80,8 +80,8 @@ Consistent roadmap execution.
 
 | Metric | Value |
 |--------|-------|
-| Target raise | ~2B yuan (~$275M) |
-| Exchange | STAR board (Nasdaq-style) |
+| [[Target]] raise | ~2B yuan (~$275M) |
+| Exchange | STAR board ([[Nasdaq]]-style) |
 | Status | In preparation |
 | Valuation | ~$1.65B+ (Sept 2024) |
 
@@ -104,14 +104,14 @@ Enflame has best combination: major backer + no sanctions.
 
 ---
 
-## China AI chip market
+## [[China]] AI chip market
 
 **Market share (2025, Bernstein):**
 | Company | Share |
 |---------|-------|
 | NVIDIA | 54% |
 | [[Huawei]] | 20%+ |
-| AMD + domestic | <20% |
+| [[AMD]] + domestic | <20% |
 
 Four Little Dragons fighting for the non-NVIDIA/Huawei share.
 
@@ -155,7 +155,7 @@ Four Little Dragons fighting for the non-NVIDIA/Huawei share.
 - [[Moore Threads]] — peer (Four Little Dragons)
 - [[Biren Tech]] — peer (Four Little Dragons, sanctioned)
 - [[MetaX]] — peer (Four Little Dragons)
-- [[NVIDIA]] — competitor (dominant in China)
+- [[NVIDIA]] — competitor (dominant in [[China]])
 - [[Huawei]] — competitor (domestic alternative)
 - [[Export controls]] — NOT sanctioned (key advantage)
 - [[TSMC]] — foundry (still has access)

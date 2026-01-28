@@ -40,9 +40,9 @@ aliases: [CCL, Carnival Corporation]
 
 | Segment | Description |
 |---------|-------------|
-| North America | Carnival Cruise Line, Princess, Holland America |
-| Europe | Costa, AIDA, P&O, Cunard |
-| Australia | P&O Australia |
+| North America | Carnival [[Cruise]] Line, Princess, Holland America |
+| [[Europe]] | Costa, AIDA, P&O, Cunard |
+| [[Australia]] | P&O [[Australia]] |
 
 ---
 

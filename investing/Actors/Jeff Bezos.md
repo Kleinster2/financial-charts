@@ -24,20 +24,20 @@ aliases: [Bezos, Bezos Expeditions]
 |---------|-------|--------|
 | **[[Physical Intelligence]]** | Series A+ | $5.6B |
 | **[[Figure AI]]** | Multiple | $39B |
-| **Airbnb** | Early | Public (ABNB) |
+| **[[Airbnb]]** | Early | Public (ABNB) |
 | **Twitter** | Early | Acquired by Musk |
-| **Uber** | Early | Public (UBER) |
-| **Business Insider** | Acquired | Media |
+| **[[Uber]]** | Early | Public (UBER) |
+| **Business Insider** | Acquired | [[Media]] |
 
 ---
 
-## AI/Robotics focus
+## AI/[[Robotics]] focus
 
 | Investment | Thesis |
 |------------|--------|
 | [[Physical Intelligence]] | Robot foundation models |
 | [[Figure AI]] | Humanoid robotics |
-| Blue Origin | Space |
+| Blue Origin | [[Space]] |
 
 **Connection:** Amazon uses 750K+ robots in warehouses. Bezos understands robotics value.
 
@@ -48,8 +48,8 @@ aliases: [Bezos, Bezos Expeditions]
 | Fact | Detail |
 |------|--------|
 | Founded | 2000 |
-| Focus | Space launch, lunar landers |
-| Competitor | SpaceX |
+| Focus | [[Space]] launch, lunar landers |
+| Competitor | [[SpaceX]] |
 | Funding | Bezos personal ($1B+/year) |
 
 ---
@@ -72,7 +72,7 @@ aliases: [Bezos, Bezos Expeditions]
 | Net worth | ~$230B |
 | Source | Amazon |
 | Vehicle | Bezos Expeditions |
-| Key bets | Robotics, AI, space |
+| Key bets | [[Robotics]], AI, space |
 
 ---
 

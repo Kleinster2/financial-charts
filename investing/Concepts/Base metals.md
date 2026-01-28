@@ -29,7 +29,7 @@ World Bank base metal index expected +2% in 2026-27.
 |--------|-------|
 | Global production | ~70M MT/year |
 | China share | ~60% |
-| Key uses | Transport, packaging, construction |
+| Key uses | [[Transport]], packaging, construction |
 | 2026 outlook | Bullish — supply disruptions, trade uncertainty |
 
 Energy-intensive production makes it sensitive to power costs.
@@ -77,7 +77,7 @@ Indonesian HPAL capacity surge created structural oversupply.
 
 ---
 
-## Morgan Stanley 2026 forecasts
+## [[Morgan Stanley]] 2026 forecasts
 
 | Metal | Q2 2026 target |
 |-------|----------------|
@@ -95,7 +95,7 @@ Bullish drivers: rate cuts, dollar weakness, investor demand for real assets.
 |--------|------|-------------|
 | DBB | Invesco DB Base Metals | Al, Zn, Cu |
 | JJM | iPath Bloomberg Industrial Metals | Broad industrial |
-| PICK | iShares MSCI Global Metals & Mining | Mining equities |
+| PICK | iShares [[MSCI]] Global Metals & Mining | Mining equities |
 
 ---
 

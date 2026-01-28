@@ -43,11 +43,11 @@ Revenue CAGR ~17% over 2022-2024. Growth decelerating from post-COVID highs but 
 | Region | Revenue (€M) | Growth (CC) |
 |--------|--------------|-------------|
 | Americas | ~370 | +12% |
-| Europe | ~440 | +11% |
-| Asia Pacific | ~350 | +14% |
+| [[Europe]] | ~440 | +11% |
+| [[Asia]] Pacific | ~350 | +14% |
 | Italy | ~110 | +10% |
 
-**Balanced geographic mix** — no single region >35%. Asia growing fastest but not over-exposed to China like peers.
+**Balanced geographic mix** — no single region >35%. [[Asia]] growing fastest but not over-exposed to [[China]] like peers.
 
 ---
 
@@ -84,7 +84,7 @@ Cucinelli's philosophy creates brand equity that's difficult to replicate — th
 **Bull:**
 - Quiet luxury secular trend favoring Cucinelli's positioning
 - +12% growth in a year most luxury peers declined
-- Balanced geographic exposure (not China-dependent)
+- Balanced geographic exposure (not [[China]]-dependent)
 - Brand pricing power — minimal discounting
 - Strong DTC mix (growing monobrand network)
 - Succession plan in place (next generation active)

@@ -23,7 +23,7 @@ aliases: [EQNR, Statoil]
 | Segment | Focus |
 |---------|-------|
 | E&P Norway | North Sea, Barents |
-| E&P International | US Gulf, Brazil, UK |
+| E&P International | US Gulf, [[Brazil]], [[UK]] |
 | Marketing & Trading | Gas/oil trading |
 | Renewables | Offshore wind |
 
@@ -35,7 +35,7 @@ aliases: [EQNR, Statoil]
 - Johan Sverdrup (giant field)
 - Troll (long-life gas)
 - US Gulf deepwater
-- Brazil pre-salt
+- [[Brazil]] pre-salt
 
 Low carbon intensity vs peers.
 
@@ -45,7 +45,7 @@ Low carbon intensity vs peers.
 
 | Project | Location | Status |
 |---------|----------|--------|
-| Dogger Bank | UK | Under construction |
+| Dogger Bank | [[UK]] | Under construction |
 | Empire Wind | US (NY) | Developing |
 | Hywind | Scotland | Operating |
 | Baltic | Poland | Developing |
@@ -97,7 +97,7 @@ Norwegian regulatory environment drives performance.
 
 ## Related
 
-- [[Shell]] — peer (offshore, LNG)
+- [[Shell]] — peer (offshore, [[LNG]])
 - [[BP]] — peer (European major)
 - [[TotalEnergies]] — peer (renewables focus)
 - [[Ørsted]] — comparison (offshore wind pure-play)

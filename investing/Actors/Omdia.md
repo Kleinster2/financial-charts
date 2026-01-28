@@ -1,6 +1,6 @@
 #actor #research #non-investable
 
-**Omdia** — Tech research firm (formerly IHS Markit tech division). Covers semiconductors, displays, consumer electronics.
+**Omdia** — Tech research firm (formerly [[IHS Markit]] tech division). Covers semiconductors, displays, consumer electronics.
 
 ---
 
@@ -10,10 +10,10 @@ Cited source for GPU shipment and semiconductor data:
 
 | Coverage | Examples |
 |----------|----------|
-| **GPU shipments** | NVIDIA/AMD unit volumes by customer |
-| **Semiconductors** | Foundry, memory market share |
+| **GPU shipments** | NVIDIA/[[AMD]] unit volumes by customer |
+| **[[Semiconductors]]** | Foundry, memory market share |
 | **Displays** | Panel shipments, pricing |
-| **Consumer electronics** | TV, smartphone data |
+| **[[Consumer]] electronics** | TV, smartphone data |
 
 ---
 
@@ -21,8 +21,8 @@ Cited source for GPU shipment and semiconductor data:
 
 | Data | Context |
 |------|---------|
-| **2024 Hopper GPU shipments** | ByteDance ~250K, Tencent ~220K, Microsoft ~485K |
-| Foundry market share | TSMC, Samsung, SMIC rankings |
+| **2024 Hopper GPU shipments** | [[ByteDance]] ~250K, [[Tencent]] ~220K, [[Microsoft]] ~485K |
+| Foundry market share | TSMC, Samsung, [[SMIC]] rankings |
 | Display shipments | Samsung, LG, BOE volumes |
 
 ---
@@ -31,7 +31,7 @@ Cited source for GPU shipment and semiconductor data:
 
 | Date | Event |
 |------|-------|
-| 2019 | Informa acquires IHS Markit tech research |
+| 2019 | Informa acquires [[IHS Markit]] tech research |
 | 2020 | Rebranded as "Omdia" |
 | — | Combines IHS, Ovum, Tractica research |
 
@@ -41,11 +41,11 @@ Cited source for GPU shipment and semiconductor data:
 
 | Firm | Overlap |
 |------|---------|
-| **Omdia** | Semiconductors, displays (broad) |
+| **Omdia** | [[Semiconductors]], displays (broad) |
 | [[TrendForce]] | Memory, display (deeper pricing) |
 | [[Counterpoint Research]] | Mobile, memory |
 | [[IDC]] | PCs, infrastructure |
-| [[Yole]] | Advanced packaging |
+| [[Yole]] | [[Advanced packaging]] |
 
 ---
 
@@ -55,7 +55,7 @@ Cited source for GPU shipment and semiconductor data:
 |--------|-------|
 | Type | Market research firm |
 | Parent | Informa Tech |
-| Coverage | Semiconductors, displays, consumer tech |
+| Coverage | [[Semiconductors]], displays, consumer tech |
 | Investable | No |
 
 *Updated 2026-01-15*

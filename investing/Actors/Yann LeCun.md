@@ -82,7 +82,7 @@ Vocal critic of AGI hype. Advocates for "world models" — AI that understands p
 
 | Metric | Value |
 |--------|-------|
-| Born | 1960 (France) |
+| Born | 1960 ([[France]]) |
 | Education | PhD, Sorbonne (1987) |
 | H-index | 200+ |
 | Twitter | @ylecun (influential AI voice) |

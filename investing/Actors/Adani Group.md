@@ -31,8 +31,8 @@ India's largest private infrastructure player.
 | Adani Total Gas | ATGL | City gas distribution |
 | Adani Transmission | ADANITRANS | Power transmission |
 | Adani Wilmar | AWL | FMCG, edible oil |
-| ACC | ACC | Cement |
-| Ambuja Cement | AMBUJACEM | Cement |
+| ACC | ACC | [[Cement]] |
+| Ambuja [[Cement]] | AMBUJACEM | [[Cement]] |
 
 ---
 

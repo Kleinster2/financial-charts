@@ -69,15 +69,15 @@ OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC. B
 
 ## Azure model-agnostic strategy
 
-Unlike Google (Gemini-focused), Azure positioned as neutral AI facilitator:
+Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:
 
 | Model | Provider | Available on Azure |
 |-------|----------|-------------------|
-| GPT-4 / ChatGPT | [[OpenAI]] | ✓ (primary) |
-| Claude | [[Anthropic]] | ✓ |
-| Grok | [[xAI]] | ✓ |
-| Llama | [[Meta]] | ✓ |
-| DeepSeek R1 | DeepSeek | ✓ |
+| GPT-4 / [[ChatGPT]] | [[OpenAI]] | ✓ (primary) |
+| [[Claude]] | [[Anthropic]] | ✓ |
+| [[Grok]] | [[xAI]] | ✓ |
+| [[Llama]] | [[Meta]] | ✓ |
+| [[DeepSeek]] R1 | [[DeepSeek]] | ✓ |
 
 **Result:** Azure grew 40% in fiscal Q1 2026 (ended Sep 30).
 
@@ -117,18 +117,18 @@ Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product fo
 | Product | Share |
 |---------|-------|
 | GitHub Copilot | 24.9% |
-| [[Anthropic]] Claude | 24% |
-| Cursor | 24% |
+| [[Anthropic]] [[Claude]] | 24% |
+| [[Cursor]] | 24% |
 
-Startups (Anthropic, Anysphere/Cursor, Replit) eating into Microsoft's coding tool share.
+Startups (Anthropic, [[Anysphere]]/[[Cursor]], Replit) eating into Microsoft's coding tool share.
 
 **Microsoft 365 Copilot:**
 - 150M MAU
-- Behind ChatGPT (800M) and Gemini (650M)
+- Behind [[ChatGPT]] (800M) and [[Gemini]] (650M)
 - Monetization challenge vs free competitors
 
 **Startup engagement:**
-- Meeting with Applied Compute (AI agents, ex-OpenAI founders)
+- Meeting with Applied Compute ([[AI agents]], ex-OpenAI founders)
 - Meeting with Mercor (AI hiring platform)
 
 ---
@@ -194,7 +194,7 @@ See [[Short interest]] for interpretation framework.
 
 ![[msft-fundamentals.png]]
 
-*Note: Net income gaps in 2015 and 2017 exclude one-time charges — Nokia write-down ($7.6B, Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax ($6.3B, Dec 2017).*
+*Note: Net income gaps in 2015 and 2017 exclude one-time charges — [[Nokia]] write-down ($7.6B, Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax ($6.3B, Dec 2017).*
 
 ---
 
@@ -211,7 +211,7 @@ See [[Short interest]] for interpretation framework.
 - [[NVIDIA]] — primary GPU supplier
 - [[TSMC]] — foundry (Maia, Cobalt chips)
 - [[OpenAI]] — exclusive partner (loosening)
-- [[Anthropic]] — Claude on Azure
+- [[Anthropic]] — [[Claude]] on Azure
 - [[Google]], [[Amazon]], [[Meta]] — hyperscaler peers
 - [[Intel Foundry Services]] — Maia 2 potential foundry
 - [[Constellation Energy]] — nuclear PPA for data centers

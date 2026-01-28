@@ -25,8 +25,8 @@ aliases: [JPY, USDJPY, yen]
 |--------|-----------|
 | **Rate differential** | BoJ at 0% while Fed hiked to 5%+ |
 | **Carry trade funding** | Borrow yen cheap, invest elsewhere |
-| **BoJ YCC** | Yield curve control suppressed JGB yields |
-| **Trade deficit** | Energy imports post-Fukushima |
+| **BoJ YCC** | Yield curve control suppressed [[JGB]] yields |
+| **[[Trade]] deficit** | Energy imports post-Fukushima |
 
 USDJPY went from 103 (Jan 2021) to 160+ (2024 high).
 
@@ -88,7 +88,7 @@ MoF/BoJ have intervened to support yen:
 
 ## 2026 outlook
 
-| View | USDJPY Target |
+| View | USDJPY [[Target]] |
 |------|---------------|
 | Bullish JPY | 140-145 (BoJ hikes, Fed cuts) |
 | Base case | 150-155 |
@@ -104,7 +104,7 @@ MoF/BoJ have intervened to support yen:
 |---------|--------|-------|
 | Invesco CurrencyShares JPY | FXY | Pure yen exposure |
 | WisdomTree Japan Hedged | DXJ | Japan equity, hedged |
-| iShares MSCI Japan | EWJ | Japan equity + yen |
+| iShares [[MSCI]] Japan | EWJ | Japan equity + yen |
 | Spot FX | USDJPY | Direct |
 
 ---

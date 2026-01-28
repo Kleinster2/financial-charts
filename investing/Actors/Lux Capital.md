@@ -27,8 +27,8 @@ Premier deep tech VC, comfortable with hardware:
 | Category | Examples |
 |----------|----------|
 | AI/compute | Novel architectures |
-| Space | Satellites, launch |
-| Robotics | Physical AI |
+| [[Space]] | Satellites, launch |
+| [[Robotics]] | Physical AI |
 | Biotech | Frontier biology |
 | Materials | Advanced manufacturing |
 
@@ -41,7 +41,7 @@ Not afraid of atoms + bits.
 **Co-investor with a16z:**
 - Brain-inspired chips
 - Post-GPU architectures
-- Naveen Rao (ex-Databricks)
+- Naveen Rao (ex-[[Databricks]])
 - $1B total raise
 
 Shows Lux's frontier tech appetite.
@@ -96,7 +96,7 @@ Josh Wolfe active on X, shapes deep tech narrative.
 
 | Metric | Value |
 |--------|-------|
-| Type | Venture Capital |
+| Type | [[Venture Capital]] |
 | AUM | $5B+ |
 | HQ | New York |
 | Founded | 2000 |

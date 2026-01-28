@@ -16,7 +16,7 @@ Advanced chips are too expensive to manufacture in-house. The cost to build a le
 |----------|---------------------|
 | [[Apple]] | $15B+ annual foundry spend — still cheaper than owning fabs |
 | [[NVIDIA]] | Fabless model is core to margins |
-| [[AMD]] | Spun off fabs (GlobalFoundries) for a reason |
+| [[AMD]] | Spun off fabs ([[GlobalFoundries]]) for a reason |
 | [[Qualcomm]] | Volume too low to justify captive capacity |
 
 **The math:** Even Apple, with $100B+ cash, can't justify ~$100B in fab capex for inferior yields. Controlling unit economics prevents customers from becoming competitors.
@@ -37,12 +37,12 @@ If TSMC hits packaging targets, customers have no alternative for either foundry
 
 Fabs require specific resources: ultra-pure water, stable power, skilled labor, industrial land. The leader can lock up these resources preemptively.
 
-**Taiwan constraints:**
+**[[Taiwan]] constraints:**
 - Power: 97% imported energy
 - Water: Recurring droughts, fabs compete with agriculture
 - Land: Industrial sites increasingly scarce
 
-**Strategic response:** By expanding in Arizona, Japan, and Germany while also grabbing Taiwan resources, TSMC starves competitors of the physical inputs they need.
+**Strategic response:** By expanding in Arizona, [[Japan]], and [[Germany]] while also grabbing [[Taiwan]] resources, TSMC starves competitors of the physical inputs they need.
 
 ### 4. Technology resets favor the incumbent
 
@@ -58,7 +58,7 @@ New architectures (FinFET → GAA/nanosheet) require massive R&D and capital. On
 
 ### 5. Customer concentration enables pricing
 
-When customers have no alternative, the leader sets prices. TSMC's top customers (Apple, NVIDIA, AMD, Qualcomm, Broadcom) represent ~60% of revenue — and none can leave.
+When customers have no alternative, the leader sets prices. TSMC's top customers (Apple, NVIDIA, AMD, Qualcomm, [[Broadcom]]) represent ~60% of revenue — and none can leave.
 
 | Year | TSMC price action |
 |------|-------------------|
@@ -66,7 +66,7 @@ When customers have no alternative, the leader sets prices. TSMC's top customers
 | 2024 | +5-10% |
 | 2026 | +3-10% (announced) |
 
-Customers accept annual price increases because the alternative (yield-challenged Samsung/Intel) is worse.
+Customers accept annual price increases because the alternative (yield-challenged Samsung/[[Intel]]) is worse.
 
 ---
 
@@ -94,7 +94,7 @@ Each advantage feeds the others. The flywheel accelerates.
 | New architecture | Transitions favor capital-rich incumbent |
 | Government subsidy | Helps, but can't close yield gap |
 
-**The uncomfortable truth:** Samsung and Intel aren't failing due to lack of effort or capital. The structure of the industry makes catching up nearly impossible once a gap opens.
+**The uncomfortable truth:** Samsung and [[Intel]] aren't failing due to lack of effort or capital. The structure of the industry makes catching up nearly impossible once a gap opens.
 
 ---
 
@@ -102,7 +102,7 @@ Each advantage feeds the others. The flywheel accelerates.
 
 | Scenario | Probability | Notes |
 |----------|-------------|-------|
-| Taiwan disruption | Low but catastrophic | Only scenario that forcibly shifts production |
+| [[Taiwan]] disruption | Low but catastrophic | Only scenario that forcibly shifts production |
 | Sustained yield parity | Low | Samsung improving but still 10-15% behind |
 | Customer vertical integration | Very low | Economics don't work even for Apple |
 | Antitrust action | Low | No jurisdiction has leverage |
@@ -117,11 +117,11 @@ Each advantage feeds the others. The flywheel accelerates.
 **For TSMC bulls:**
 - Monopoly dynamics justify premium valuation
 - Pricing power underappreciated
-- Arizona/Japan expansion extends moat geographically
+- Arizona/[[Japan]] expansion extends moat geographically
 
-**For Samsung/Intel bulls:**
+**For Samsung/[[Intel]] bulls:**
 - Must believe in sustained yield improvement
-- Or bet on Taiwan disruption scenario
+- Or bet on [[Taiwan]] disruption scenario
 - Structural position is genuinely difficult
 
 **For customers (Apple, NVIDIA):**

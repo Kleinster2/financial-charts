@@ -39,7 +39,7 @@ Yuan is a managed float, not free-floating:
 |------|-----------|
 | **Export competitiveness** | Prevent excessive appreciation |
 | **Financial stability** | Prevent capital flight |
-| **Inflation control** | Import prices |
+| **[[Inflation]] control** | Import prices |
 | **Internationalization** | Gradual opening |
 
 ---
@@ -62,7 +62,7 @@ Yuan is a managed float, not free-floating:
 |--------|--------|
 | Global reserves | ~2.5% (vs USD 58%) |
 | SWIFT payments | ~4% |
-| Trade invoicing | Growing (BRICS) |
+| [[Trade]] invoicing | Growing ([[BRICS]]) |
 | Obstacles | Capital controls, rule of law |
 
 **Reality:** CNY reserve status limited by unwillingness to open capital account.

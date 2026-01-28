@@ -1,6 +1,6 @@
 #actor #exchange #china
 
-# Shenzhen Stock Exchange
+# [[Shenzhen]] Stock Exchange
 
 China's second-largest exchange. Tech and growth focus — hosts ChiNext board (China's NASDAQ equivalent). Founded 1990.
 

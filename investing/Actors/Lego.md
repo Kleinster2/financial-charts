@@ -40,7 +40,7 @@ Traditional toy company embracing physical AI:
 | Feature | Description |
 |---------|-------------|
 | Embedded processors | Computing in bricks |
-| Sensors | Detect interactions |
+| [[Sensors]] | Detect interactions |
 | Speakers | Audio feedback |
 | Function | Interactive play elements |
 

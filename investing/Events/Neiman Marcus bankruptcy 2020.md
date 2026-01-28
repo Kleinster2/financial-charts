@@ -13,7 +13,7 @@
 | Filing date | May 7, 2020 |
 | Chapter | Chapter 11 |
 | Trigger | COVID-19 store closures |
-| Prior owners | Ares Management, Canada Pension Plan |
+| Prior owners | [[Ares Management]], [[Canada]] Pension Plan |
 | Emerged | September 2020 |
 
 **First major US retailer to file bankruptcy during COVID pandemic.**
@@ -24,8 +24,8 @@
 
 | Owner | Stake | Entry |
 |-------|-------|-------|
-| Ares Management | ~50% | 2013 LBO |
-| Canada Pension Plan | ~50% | 2013 LBO |
+| [[Ares Management]] | ~50% | 2013 LBO |
+| [[Canada]] Pension Plan | ~50% | 2013 LBO |
 
 **2013 LBO:** $6B deal loaded company with debt.
 
@@ -53,7 +53,7 @@
 - When [[Saks-Neiman merger]] happened (2024), Saks assumed this legacy
 - Combined debt load proved fatal → [[Saks bankruptcy]]
 
-**The lesson:** Emerging from bankruptcy doesn't mean debt-free. Neiman's "fresh start" still carried ~$2.8B that became Saks Global's burden.
+**The lesson:** Emerging from bankruptcy doesn't mean debt-free. Neiman's "fresh start" still carried ~$2.8B that became [[Saks Global]]'s burden.
 
 ---
 
@@ -62,8 +62,8 @@
 | Actor | Role |
 |-------|------|
 | [[Neiman Marcus]] | Debtor |
-| Ares Management | Prior owner (PE) |
-| Canada Pension Plan | Prior owner |
+| [[Ares Management]] | Prior owner (PE) |
+| [[Canada]] Pension Plan | Prior owner |
 | Geoffroy van Raemdonck | CEO (guided through bankruptcy) |
 
 ---

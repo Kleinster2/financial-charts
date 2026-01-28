@@ -24,7 +24,7 @@ AI clusters need massive bandwidth — Coherent provides the optical components:
 
 **AI clusters hitting copper limits:**
 - GPU-to-GPU needs 400G+ per link
-- Copper limited to short distances
+- [[Copper]] limited to short distances
 - Optical = longer reach, higher bandwidth
 - 800G now, 1.6T coming
 
@@ -42,7 +42,7 @@ AI clusters need massive bandwidth — Coherent provides the optical components:
 |----------|----------|
 | **Transceivers** | 800G, 400G pluggables |
 | **Datacom lasers** | VCSELs, EMLs |
-| **Telecom** | Coherent optical modules |
+| **[[Telecom]]** | Coherent optical modules |
 | **Industrial** | Laser systems |
 
 **1.6T roadmap:** Next-gen transceivers for AI scale.
@@ -71,7 +71,7 @@ AI clusters need massive bandwidth — Coherent provides the optical components:
 | [[Lumentum]] | EMLs, ROADMs | Broader portfolio |
 | II-VI (merged) | Now part of Coherent | — |
 | Broadcom | Silicon photonics | More optical components |
-| Intel | Silicon photonics | Traditional optical lead |
+| [[Intel]] | Silicon photonics | Traditional optical lead |
 
 Coherent + II-VI merger created dominant optical player.
 

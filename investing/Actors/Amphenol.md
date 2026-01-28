@@ -43,10 +43,10 @@ Every AI server needs Amphenol connectors.
 | End market | % revenue |
 |------------|-----------|
 | IT/Data comm | ~25% |
-| Military/Aerospace | ~20% |
+| Military/[[Aerospace]] | ~20% |
 | Industrial | ~20% |
-| Automotive | ~20% |
-| Mobile/Consumer | ~15% |
+| [[Automotive]] | ~20% |
+| Mobile/[[Consumer]] | ~15% |
 
 Not dependent on AI — but participates in upside.
 

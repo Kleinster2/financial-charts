@@ -89,7 +89,7 @@ aliases: [NLY, Annaly]
 |------------------|--------|
 | Rates falling | Book value rises, MBS appreciate |
 | Rates rising | Book value falls, MBS depreciate |
-| Stable rates | Carry trade works, steady dividends |
+| Stable rates | [[Carry trade]] works, steady dividends |
 
 **MSR hedge:** MSR values rise when rates rise (offsets MBS losses).
 

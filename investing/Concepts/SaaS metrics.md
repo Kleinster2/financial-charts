@@ -11,7 +11,7 @@
 | **ARR** | Annual recurring revenue | Growth rate |
 | **MRR** | Monthly recurring revenue | Trend |
 | **ACV** | Annual contract value | >$100K enterprise |
-| **TCV** | Total contract value | Multi-year deals |
+| **[[TCV]]** | Total contract value | Multi-year deals |
 | **Bookings** | New contracts signed | Leading indicator |
 
 ---
@@ -94,7 +94,7 @@
 
 ## Red flags
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | NRR declining | Product-market fit erosion |
 | CAC rising | Competition, saturation |

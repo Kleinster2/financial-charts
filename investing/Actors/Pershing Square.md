@@ -3,7 +3,7 @@ aliases: [Pershing Square Capital, PSTH]
 ---
 #actor #investor #activist #hedgefund #usa #public
 
-**Pershing Square** — Bill Ackman's fund. ~$18B AUM. Public (PSH.AS). Chipotle, Netflix campaigns. High-profile.
+**Pershing Square** — [[Bill Ackman]]'s fund. ~$18B AUM. Public (PSH.AS). Chipotle, [[Netflix]] campaigns. High-profile.
 
 ---
 
@@ -12,14 +12,14 @@ aliases: [Pershing Square Capital, PSTH]
 | Metric | Value |
 |--------|-------|
 | Founded | 2004 |
-| Founder | **Bill Ackman** |
+| Founder | **[[Bill Ackman]]** |
 | AUM | ~$18B |
 | Public vehicle | PSH (Euronext) |
 | Style | Concentrated activist |
 
 ---
 
-## Bill Ackman
+## [[Bill Ackman]]
 
 | Fact | Detail |
 |------|--------|
@@ -34,8 +34,8 @@ aliases: [Pershing Square Capital, PSTH]
 
 | Company | Outcome |
 |---------|---------|
-| **Chipotle** | Home run (board, CEO change) |
-| **Netflix** | Quick flip win |
+| **Chipotle** | [[Home]] run (board, CEO change) |
+| **[[Netflix]]** | Quick flip win |
 | **Canadian Pacific** | CEO change, massive gains |
 | **Herbalife** | Short, lost to Icahn |
 | **Valeant** | Disaster |
@@ -49,7 +49,7 @@ aliases: [Pershing Square Capital, PSTH]
 |----------|--------|
 | 2016 | Built stake during food safety crisis |
 | 2018 | Installed new CEO (Brian Niccol) |
-| 2024 | Niccol to Starbucks |
+| 2024 | Niccol to [[Starbucks]] |
 | Return | Multi-billion profit |
 
 Ackman's best activist win.
@@ -86,7 +86,7 @@ Most public hedge fund battle ever.
 |--------|-------|
 | Founded | 2004 |
 | AUM | ~$18B |
-| Founder | Bill Ackman |
+| Founder | [[Bill Ackman]] |
 | Public | PSH (Euronext) |
 
 ---

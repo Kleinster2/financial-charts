@@ -27,7 +27,7 @@ AMD has closed the hardware gap with NVIDIA but the [[CUDA moat]] kept them lock
 | [[TSMC]] | Primary | Capacity constrained, locked out of some 2nm |
 | [[Samsung]] | Potential | In talks for 2nm EPYC Venice (Jan 2026 decision) |
 
-AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by Apple/NVIDIA.
+AMD is one of the customers forced to [[Samsung]] because [[TSMC]] 2nm locked by [[Apple]]/NVIDIA.
 
 ---
 

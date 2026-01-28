@@ -3,7 +3,7 @@ aliases: [British Petroleum]
 ---
 #actor #energy #oil #uk #public
 
-**BP** — UK-based oil major. Aggressive energy transition strategy, now partially reversed. Significant US Gulf presence.
+**BP** — [[UK]]-based oil major. Aggressive energy transition strategy, now partially reversed. Significant US Gulf presence.
 
 ---
 
@@ -22,10 +22,10 @@ aliases: [British Petroleum]
 
 | Segment | Focus |
 |---------|-------|
-| Oil production | Global upstream |
-| Gas & low carbon | LNG, renewables |
+| [[Oil]] production | Global upstream |
+| Gas & low carbon | [[LNG]], renewables |
 | Customers | Retail, EV charging |
-| Rosneft stake | Exited (2022) |
+| [[Rosneft]] stake | Exited (2022) |
 
 ---
 
@@ -64,8 +64,8 @@ aliases: [British Petroleum]
 
 **Bear:**
 - Strategy whiplash
-- Rosneft exit impact
-- UK windfall taxes
+- [[Rosneft]] exit impact
+- [[UK]] windfall taxes
 - Weakest balance sheet of majors
 
 ---
@@ -85,7 +85,7 @@ aliases: [British Petroleum]
 
 ## Related
 
-- [[Shell]] — peer (UK/European major)
+- [[Shell]] — peer ([[UK]]/European major)
 - [[Exxon]] — peer (US supermajor)
 - [[TotalEnergies]] — peer (European major)
 - [[Equinor]] — peer (European, offshore focus)

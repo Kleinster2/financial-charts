@@ -1,6 +1,6 @@
 #actor #geopolitics #latam
 
-**Nicaragua** — Central American country under Ortega regime. Allied with Russia and China. Potential Monroe Doctrine target after Venezuela.
+**Nicaragua** — Central American country under Ortega regime. Allied with Russia and [[China]]. Potential Monroe Doctrine target after Venezuela.
 
 ---
 
@@ -10,12 +10,12 @@
 |--------|--------|
 | Government | Daniel Ortega (authoritarian) |
 | Russia ties | Military cooperation, diplomatic support |
-| China ties | Infrastructure investment, diplomatic recognition |
+| [[China]] ties | Infrastructure investment, diplomatic recognition |
 | US relations | Hostile, sanctions in place |
 
 ---
 
-## Russia/China presence
+## Russia/[[China]] presence
 
 **Russian:**
 - Military advisors present
@@ -26,8 +26,8 @@
 **Chinese:**
 - Nicaragua Canal project (proposed, stalled)
 - Infrastructure investment
-- Switched recognition from Taiwan (2021)
-- Belt and Road participant
+- Switched recognition from [[Taiwan]] (2021)
+- [[Belt and Road]] participant
 
 ---
 
@@ -65,7 +65,7 @@ If revived, would be major Monroe Doctrine flashpoint.
 **Limited direct investment relevance** — small economy, sanctions.
 
 **Indirect relevance:**
-- Signals US posture toward Russia/China in hemisphere
+- Signals US posture toward Russia/[[China]] in hemisphere
 - Affects risk premium for Latin America
 - Watch for sanctions escalation
 
@@ -77,5 +77,5 @@ If revived, would be major Monroe Doctrine flashpoint.
 - [[Venezuela]] — precedent target
 - [[Maduro capture 2026]] — demonstrates US willingness to act
 - [[Panama Canal]] — alternative canal project connection
-- [[Cuba]] — similar Russia/China-aligned regime
+- [[Cuba]] — similar Russia/[[China]]-aligned regime
 - [[Russia]] — ally

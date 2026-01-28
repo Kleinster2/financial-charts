@@ -10,7 +10,7 @@ The gap between AI hype and enterprise reality.
 
 - **$37B** enterprise AI spending (up from $1.7B in 2023)
 - **88%** of organizations using AI in at least one function
-- **6%** of global SaaS market
+- **6%** of global [[SaaS]] market
 
 Sounds bullish. But...
 
@@ -34,14 +34,14 @@ Sounds bullish. But...
 
 | Category | Share of departmental AI spend | ROI evidence |
 |----------|-------------------------------|--------------|
-| **Coding** | 55% ($4B) | **Strong** — GitHub Copilot, Claude Code, Cursor |
+| **Coding** | 55% ($4B) | **Strong** — GitHub Copilot, [[Claude]] Code, [[Cursor]] |
 | IT | 10% | Moderate |
 | Marketing | 9% | Weak |
 | Customer success | 9% | Mixed |
 | Design | 7% | Moderate |
 | HR | 5% | Weak |
 
-**Coding is the killer app** — measurable output, clear productivity gains. Tools like Claude Code, GitHub Copilot, Cursor have proven ROI. Everything else is more experimental.
+**Coding is the killer app** — measurable output, clear productivity gains. Tools like [[Claude]] Code, GitHub Copilot, [[Cursor]] have proven ROI. Everything else is more experimental.
 
 **Why coding works:**
 - Output is measurable (lines of code, tasks completed)
@@ -61,7 +61,7 @@ Sounds bullish. But...
 
 ---
 
-## Trade implications
+## [[Trade]] implications
 
 **Be skeptical of:**
 - "AI revenue growth" without margin disclosure
@@ -70,7 +70,7 @@ Sounds bullish. But...
 - Vertical AI solutions (customer service bots, sales AI)
 
 **Bullish:**
-- **Coding tools** — GitHub Copilot, Claude Code, Cursor — proven ROI, clear winner
+- **Coding tools** — GitHub Copilot, [[Claude]] Code, [[Cursor]] — proven ROI, clear winner
 - Infrastructure (compute, not applications)
 - Horizontal platforms with coding use cases
 
@@ -99,5 +99,5 @@ They said the same about 2025. And 2024.
 - [[Agentic AI]] — exception (35% adoption, 66% seeing value)
 - [[Model lab economics]] — context (infrastructure vs application spend)
 - [[AI hyperscalers]] — infrastructure (compute, not applications)
-- [[Anysphere]] — beneficiary (Cursor, coding tools)
-- [[Anthropic]] — beneficiary (Claude Code, coding tools)
+- [[Anysphere]] — beneficiary ([[Cursor]], coding tools)
+- [[Anthropic]] — beneficiary ([[Claude]] Code, coding tools)

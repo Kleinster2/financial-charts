@@ -40,13 +40,13 @@ ISL mining = lower cost, lower environmental impact than conventional mining.
 | Owner | Samruk-Kazyna (Kazakh sovereign fund) |
 | Control | State-controlled |
 | Listing | London, Astana |
-| Geopolitics | Balances Russia, China, West |
+| Geopolitics | Balances [[Russia]], [[China]], West |
 
 Kazakhstan navigates between major powers carefully.
 
 ---
 
-## Nuclear renaissance exposure
+## [[Nuclear renaissance]] exposure
 
 If [[Nuclear power for AI]] thesis plays out:
 
@@ -75,10 +75,10 @@ Kazatomprom sets the floor on uranium prices.
 
 | Risk | Details |
 |------|---------|
-| Geopolitics | Russia influence, sanctions risk |
+| Geopolitics | [[Russia]] influence, sanctions risk |
 | Single country | Kazakhstan concentration |
 | State control | Non-commercial decisions possible |
-| Transport | Landlocked, Russia/China routes |
+| [[Transport]] | Landlocked, [[Russia]]/[[China]] routes |
 
 ---
 
@@ -100,14 +100,14 @@ Kazatomprom sets the floor on uranium prices.
 
 **Bull:**
 - Largest producer, lowest cost
-- Nuclear renaissance tailwind
+- [[Nuclear renaissance]] tailwind
 - Dividend payer
 - Listed (LSE)
 
 **Bear:**
 - Geopolitical complexity
 - State control
-- Russia transport dependency
+- [[Russia]] transport dependency
 - Price taker at scale
 
 ---

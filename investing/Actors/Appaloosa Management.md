@@ -24,7 +24,7 @@ aliases: [Appaloosa, David Tepper]
 | Fact | Detail |
 |------|--------|
 | Net worth | ~$20B |
-| Background | Goldman Sachs |
+| Background | [[Goldman Sachs]] |
 | Famous trade | Bank stocks 2009 |
 | NFL | Owns Carolina Panthers |
 | Status | Converted to family office |
@@ -33,7 +33,7 @@ aliases: [Appaloosa, David Tepper]
 
 ## Famous trades
 
-| Trade | Year | Return |
+| [[Trade]] | Year | Return |
 |-------|------|--------|
 | **Bank stocks** | 2009 | $7B profit |
 | Airlines | 2013 | Major gains |
@@ -47,7 +47,7 @@ aliases: [Appaloosa, David Tepper]
 
 | Aspect | Detail |
 |--------|--------|
-| Thesis | Banks wouldn't be nationalized |
+| Thesis | [[Banks]] wouldn't be nationalized |
 | Positions | BofA, Citi preferreds |
 | Result | 120%+ fund return |
 | Personal | Tepper made $4B |

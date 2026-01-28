@@ -12,7 +12,7 @@ aliases: [Roubini, Dr. Doom]
 | Metric | Value |
 |--------|-------|
 | Born | March 29, 1958 (age 67) |
-| Nationality | American (born Iran, raised Italy/Israel) |
+| Nationality | American (born [[Iran]], raised Italy/Israel) |
 | Education | BA Bocconi (Italy), PhD Harvard (international economics) |
 | Known for | Predicting 2008 financial crisis |
 | Nickname | "Dr. Doom" |
@@ -50,7 +50,7 @@ Predicted deep recession, housing crash, mortgage defaults, financial crisis. Au
 
 | What he predicted | What happened |
 |-------------------|---------------|
-| Housing bubble burst | ✓ 2007-2008 |
+| [[Housing]] bubble burst | ✓ 2007-2008 |
 | Mortgage defaults | ✓ Subprime crisis |
 | Banking crisis | ✓ Lehman, Bear Stearns |
 | Global recession | ✓ Great Recession |
@@ -67,14 +67,14 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 |--------|----------------------|
 | **Debt crisis** | Global debt >350% of GDP; rising in 80% of economies |
 | **Stagflation** | Growth ~2.8%, core services inflation sticky |
-| **Great-power conflict** | US-China tensions high, South China Sea incidents |
+| **Great-power conflict** | US-[[China]] tensions high, South [[China]] Sea incidents |
 | **Deglobalization** | Supply chain fragmentation ongoing |
 | **AI disruption** | Labor displacement accelerating |
 | **Climate shocks** | Extreme weather events increasing |
 | **Pandemics** | COVID aftermath, future risk |
-| **Currency instability** | De-dollarization attempts (BRICS) |
+| **Currency instability** | [[De-dollarization]] attempts ([[BRICS]]) |
 | **Populism** | Rising globally |
-| **Geopolitical fracture** | US-China, Russia-West divides |
+| **Geopolitical fracture** | US-[[China]], [[Russia]]-West divides |
 
 ---
 
@@ -97,23 +97,23 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 
 > "Everybody is talking about AI, GenAI, but this is only one of the 15 technologies of the future"
 
-- Semiconductors
+- [[Semiconductors]]
 - Biomedical research
-- Quantum computing
+- [[Quantum computing]]
 - Fusion energy
-- Defense tech
+- [[Defense]] tech
 - New materials science
 
-### Productivity revolution in the data
+### [[Productivity]] revolution in the data
 
-| Period | Productivity growth |
+| Period | [[Productivity]] growth |
 |--------|---------------------|
 | 2009-2019 (post-GFC) | **1.0%** average |
 | Since 2019 | **~2.0%** (doubled) |
 | 2024 | **2.4%** |
 | Q3 2024 | **~5%** |
 
-**S&P 500 real revenue per worker:** +15% since ChatGPT launch (Nov 2022) — ~5%/year
+**S&P 500 real revenue per worker:** +15% since [[ChatGPT]] launch (Nov 2022) — ~5%/year
 
 **By sector:**
 - Tech & communications: ~20%
@@ -127,7 +127,7 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 | Bad policies downside | **-50bp** |
 | **Ratio** | **4:1** |
 
-"Bad stagflationary policies of Trump" = trade restrictions, migration limits, fiscal deficit, Fed independence threats, rule of law concerns
+"Bad stagflationary policies of Trump" = trade restrictions, migration limits, fiscal deficit, [[Fed independence]] threats, rule of law concerns
 
 **Net:** Tech benefits overwhelm policy drag.
 
@@ -147,14 +147,14 @@ From his book *MegaThreats*, 10 mutually-reinforcing dangers:
 
 | Risk | Market impact |
 |------|---------------|
-| Israel-Iran (June 2025) | "12-day war" — oil wobbled, then normalized |
-| Venezuela | "Less than 2M bbl/day" — macro impact ~zero |
-| Russia-Ukraine | Mess, but not 2022 shock repeat |
-| US-China | Competitive, not zero-sum |
+| Israel-[[Iran]] (June 2025) | "12-day war" — oil wobbled, then normalized |
+| [[Venezuela]] | "Less than 2M bbl/day" — macro impact ~zero |
+| [[Russia]]-Ukraine | Mess, but not 2022 shock repeat |
+| US-[[China]] | Competitive, not zero-sum |
 
 > "Every time there is a geopolitical risk, people say stuff could happen. But so far... not a market effect."
 
-### On Fed independence (Jan 2026)
+### On [[Fed independence]] (Jan 2026)
 
 Markets "shrugged off" DOJ-Powell news because tech thesis dominates.
 
@@ -170,7 +170,7 @@ Markets "shrugged off" DOJ-Powell news because tech thesis dominates.
 
 | Aspect | View |
 |--------|------|
-| Productivity | Real benefits for cost-cutting, revenue, profitability |
+| [[Productivity]] | Real benefits for cost-cutting, revenue, profitability |
 | Jobs | "Cost-cutting means what? Eliminating jobs." |
 | Inequality | Makes it worse — "capital intensive, high-skill bias, labor saving" |
 | Bubble | Does not see AI as bubble — productivity gains support valuations |
@@ -191,7 +191,7 @@ Dismisses Bitcoin and crypto as speculative, not transformative.
 
 | Call | Outcome |
 |------|---------|
-| **2006: Housing crash** | ✓ Correct — made his reputation |
+| **2006: [[Housing]] crash** | ✓ Correct — made his reputation |
 | **2010s: Double-dip recession** | ✗ Wrong — recovery continued |
 | **2020: COVID worse than 2008** | Partially — severe but shorter |
 | **2022: Stagflation coming** | Mixed — inflation spiked, no recession |

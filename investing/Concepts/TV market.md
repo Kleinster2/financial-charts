@@ -6,7 +6,7 @@ Global television market — mature but evolving. Key battleground between Korea
 
 ---
 
-## Market structure
+## [[Market structure]]
 
 **Global TV market (~$100B+ annually):**
 
@@ -14,8 +14,8 @@ Global television market — mature but evolving. Key battleground between Korea
 |------|---------|----------|
 | **#1** | [[Samsung]] | Market share leader |
 | **#2** | [[LG Electronics]] | OLED leader |
-| **Rising** | TCL, Hisense (China) | Price disruptors |
-| **Niche** | Sony, Vizio | Premium / value |
+| **Rising** | TCL, Hisense ([[China]]) | Price disruptors |
+| **Niche** | [[Sony]], Vizio | Premium / value |
 
 ---
 
@@ -25,7 +25,7 @@ Global television market — mature but evolving. Key battleground between Korea
 |------------|---------|------|------|
 | **OLED** | LG, Samsung | Perfect blacks, contrast | Cost, burn-in risk |
 | **Mini LED** | Samsung "Neo QLED" | Bright, affordable vs OLED | Not true per-pixel control |
-| **Micro RGB** | Samsung (new) | Color accuracy | Very expensive ($30K+) |
+| **[[Micro RGB]]** | Samsung (new) | Color accuracy | Very expensive ($30K+) |
 | **Micro LED** | Samsung "The Wall" | Best quality, modular | Extremely expensive |
 | **LCD** | All | Cheap, bright | Contrast limitations |
 
@@ -46,12 +46,12 @@ Global television market — mature but evolving. Key battleground between Korea
 - Competition driving brightness improvements (35%+ YoY)
 
 **3. AI integration:**
-- Smart TVs adding AI agents ([[Perplexity]], Bixby, Microsoft)
+- Smart TVs adding [[AI agents]] ([[Perplexity]], Bixby, [[Microsoft]])
 - AI picture/sound optimization
 - Voice control expanding
 
 **4. Panel oversupply cycles:**
-- China capacity additions pressure pricing
+- [[China]] capacity additions pressure pricing
 - Korean makers shifting to premium segments
 
 ---
@@ -65,7 +65,7 @@ Global television market — mature but evolving. Key battleground between Korea
 | Overall share | #1 | #2 |
 | OLED | Catching up (QD-OLED) | Incumbent (WOLED) |
 | LCD/LED | Dominant | Strong |
-| Differentiator | Micro RGB, brightness | Black levels, viewing angles |
+| Differentiator | [[Micro RGB]], brightness | Black levels, viewing angles |
 
 **Chinese disruption:**
 - TCL, Hisense gaining share with aggressive pricing
@@ -78,12 +78,12 @@ Global television market — mature but evolving. Key battleground between Korea
 
 | Layer | Key players |
 |-------|-------------|
-| **OLED panels** | LG Display, Samsung Display, BOE (China) |
+| **OLED panels** | LG Display, Samsung Display, BOE ([[China]]) |
 | **LCD panels** | BOE, CSOT, Innolux, AUO |
 | **Quantum dots** | Samsung, Nanosys |
-| **Glass substrates** | Corning, AGC |
+| **Glass substrates** | [[Corning]], AGC |
 
-**Korea → China shift:** LCD panel production largely moved to China. Korea focusing on OLED premium.
+**Korea → [[China]] shift:** LCD panel production largely moved to [[China]]. Korea focusing on OLED premium.
 
 ---
 
@@ -92,13 +92,13 @@ Global television market — mature but evolving. Key battleground between Korea
 **Why track TV market:**
 - Samsung/LG revenue diversification beyond semiconductors
 - Display technology R&D spillovers (mobile, automotive)
-- Consumer demand indicator
+- [[Consumer]] demand indicator
 - AI distribution channel (smart TV platforms)
 
 **Tangential to core thesis but context for:**
 - [[Samsung]] conglomerate health
 - [[LG Electronics]] competitive position
-- Consumer electronics demand cycles
+- [[Consumer]] electronics demand cycles
 
 ---
 

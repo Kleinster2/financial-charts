@@ -3,7 +3,7 @@ aliases: [MTK]
 ---
 #actor #fabless #taiwan
 
-**MediaTek** — Taiwan fabless chip designer, #4 globally. Mobile SoCs (#2 after Qualcomm), emerging as [[Broadcom]] alternative for hyperscaler ASICs.
+**MediaTek** — [[Taiwan]] fabless chip designer, #4 globally. Mobile SoCs (#2 after Qualcomm), emerging as [[Broadcom]] alternative for hyperscaler ASICs.
 
 ---
 
@@ -14,9 +14,9 @@ MediaTek is becoming the anti-Broadcom for hyperscalers:
 | Role | Details |
 |------|---------|
 | Mobile SoCs | #2 globally (after Qualcomm) |
-| Hyperscaler ASICs | Google, Microsoft, ByteDance |
-| Automotive | Growing segment |
-| Foundry | TSMC customer (Taiwan-to-Taiwan) |
+| Hyperscaler ASICs | Google, Microsoft, [[ByteDance]] |
+| [[Automotive]] | Growing segment |
+| Foundry | TSMC customer ([[Taiwan]]-to-[[Taiwan]]) |
 
 ---
 
@@ -29,7 +29,7 @@ MediaTek is becoming the anti-Broadcom for hyperscalers:
 | [[Google]] | TPUv7e (A5921) | IC design | Confirmed |
 | [[Google]] | TPUv8 (Zebrafish) | Supporting chips | In development |
 | [[Microsoft]] | Maia | Design partner | Reported |
-| ByteDance | APU | IC design | Confirmed |
+| [[ByteDance]] | APU | IC design | Confirmed |
 
 **Why hyperscalers want MediaTek:**
 - Broadcom takes ~55% gross margin on custom ASICs
@@ -68,9 +68,9 @@ Google's TPUv8 "Zebrafish" uses MediaTek for supporting chips as Google attempts
 
 | Tier | Product | Customers |
 |------|---------|-----------|
-| Flagship | Dimensity 9000+ | Vivo, Oppo, Xiaomi |
+| Flagship | Dimensity 9000+ | [[Vivo]], [[Oppo]], [[Xiaomi]] |
 | Mid-range | Dimensity 7000 | Mass market |
-| Budget | Helio | Emerging markets |
+| Budget | Helio | [[Emerging markets]] |
 
 ---
 
@@ -88,14 +88,14 @@ Strong position in connectivity and edge devices.
 
 ---
 
-## Automotive expansion
+## [[Automotive]] expansion
 
 **Growing segment:**
 
 | Focus | Products |
 |-------|----------|
 | Infotainment | Multimedia SoCs |
-| Connectivity | 5G, V2X |
+| Connectivity | [[5G]], V2X |
 | ADAS | Compute modules |
 
 Less mature than [[NXP]], [[Infineon]] but growing.
@@ -104,14 +104,14 @@ Less mature than [[NXP]], [[Infineon]] but growing.
 
 ## TSMC relationship
 
-**Taiwan-to-Taiwan supply chain:**
+**[[Taiwan]]-to-[[Taiwan]] supply chain:**
 
 | Metric | Value |
 |--------|-------|
 | Primary foundry | [[TSMC]] |
 | Nodes | 3nm, 4nm, 5nm |
 | Geography | Hsinchu → Hsinchu |
-| Risk | Taiwan concentration |
+| Risk | [[Taiwan]] concentration |
 
 MediaTek is a major TSMC customer — benefits from geographic proximity.
 
@@ -121,24 +121,24 @@ MediaTek is a major TSMC customer — benefits from geographic proximity.
 
 | vs | MediaTek advantage | MediaTek disadvantage |
 |----|--------------------|-----------------------|
-| [[Qualcomm]] | Cost, China presence | Modem, US premium |
+| [[Qualcomm]] | Cost, [[China]] presence | Modem, US premium |
 | [[Broadcom]] | Lower margins, flexibility | Turnkey expertise |
 | [[Marvell]] | ASIC design | Data center scale |
 
 ---
 
-## China exposure
+## [[China]] exposure
 
-**Significant China revenue:**
+**Significant [[China]] revenue:**
 
 | Metric | Value |
 |--------|-------|
-| China revenue | ~40% |
-| Key customers | Xiaomi, Oppo, Vivo |
+| [[China]] revenue | ~40% |
+| Key customers | [[Xiaomi]], [[Oppo]], [[Vivo]] |
 | Risk | Geopolitical tension |
 | Benefit | Market access |
 
-China exposure is both opportunity and risk.
+[[China]] exposure is both opportunity and risk.
 
 ---
 
@@ -146,7 +146,7 @@ China exposure is both opportunity and risk.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | 2454.TW (Taiwan) |
+| Ticker | 2454.TW ([[Taiwan]]) |
 | Market cap | ~$50B |
 | Revenue (TTM) | ~$15B |
 | Gross margin | ~45% |
@@ -155,19 +155,19 @@ China exposure is both opportunity and risk.
 
 ---
 
-## US-Taiwan trade deal (Jan 2026)
+## US-[[Taiwan]] trade deal (Jan 2026)
 
 **Beneficiary of [[US-Taiwan relations]] breakthrough:**
 
 | Impact | Detail |
 |--------|--------|
-| Tariffs | Cut to 15% on Taiwan goods |
-| Investment framework | $500B Taiwan chip commitment |
-| Sentiment | Reduced Taiwan risk premium |
+| Tariffs | Cut to 15% on [[Taiwan]] goods |
+| Investment framework | $500B [[Taiwan]] chip commitment |
+| Sentiment | Reduced [[Taiwan]] risk premium |
 
-MediaTek as Taiwan fabless company benefits from:
+MediaTek as [[Taiwan]] fabless company benefits from:
 - Lower tariffs on chip exports to US
-- Stronger US-Taiwan ties reduce geopolitical discount
+- Stronger US-[[Taiwan]] ties reduce geopolitical discount
 - TSMC expansion = continued foundry access
 
 ---
@@ -179,12 +179,12 @@ MediaTek as Taiwan fabless company benefits from:
 - Broadcom margin compression play
 - Mobile share gains vs Qualcomm
 - TSMC relationship
-- **US-Taiwan trade deal** — reduced tariffs, stronger ties
+- **US-[[Taiwan]] trade deal** — reduced tariffs, stronger ties
 
 **Bear case:**
-- China geopolitical risk (~40% revenue)
+- [[China]] geopolitical risk (~40% revenue)
 - Qualcomm competition
-- Taiwan concentration risk (mitigated by trade deal)
+- [[Taiwan concentration risk]] (mitigated by trade deal)
 - Hyperscaler deals may not scale
 
 ---
@@ -207,7 +207,7 @@ MediaTek as Taiwan fabless company benefits from:
 ## Related
 
 - [[US-Taiwan relations]] — trade deal beneficiary (Jan 2026)
-- [[TSMC]] — primary foundry (Taiwan-to-Taiwan)
+- [[TSMC]] — primary foundry ([[Taiwan]]-to-[[Taiwan]])
 - [[Broadcom]] — competitor (hyperscaler ASICs)
 - [[Qualcomm]] — competitor (mobile SoCs)
 - [[Marvell]] — competitor (custom silicon)

@@ -2,7 +2,7 @@
 
 #actor #etf #financials #usa
 
-**SPDR S&P Regional Banking ETF** — [[State Street]] ETF tracking S&P Regional Banks Select Industry Index. Pure play on US regional banks. Equal-weighted across ~140 holdings. More volatile than [[KBE]], higher rate sensitivity.
+**SPDR S&P Regional Banking ETF** — [[State Street]] ETF tracking S&P Regional [[Banks]] Select Industry Index. Pure play on US regional banks. Equal-weighted across ~140 holdings. More volatile than [[KBE]], higher rate sensitivity.
 
 ![[kre-vs-kbe.png]]
 *vs [[KBE]]*
@@ -20,7 +20,7 @@
 
 ## Index Composition
 
-**S&P Regional Banks Select Industry Index** — Pure regional bank exposure, excludes large diversified banks (JPM, BAC, C, WFC).
+**S&P Regional [[Banks]] Select Industry Index** — Pure regional bank exposure, excludes large diversified banks (JPM, BAC, C, WFC).
 
 **Equal-weighted** — Each regional bank gets roughly equal weight, providing balanced exposure across ~140 names. No concentration in any single stock.
 
@@ -43,7 +43,7 @@ KRE was ground zero for the March 2023 regional bank crisis:
 | Event | Impact on KRE |
 |-------|---------------|
 | SVB collapse (Mar 2023) | -28% in one week |
-| First Republic failure | Extended decline |
+| First [[Republic]] failure | Extended decline |
 | Signature Bank closure | Contagion fears |
 
 The crisis exposed duration mismatch risk at regional banks holding long-dated securities funded by short-term deposits.
@@ -55,7 +55,7 @@ The crisis exposed duration mismatch risk at regional banks holding long-dated s
 | Company | Focus |
 |---------|-------|
 | [[Western Alliance]] | Commercial banking |
-| [[East West Bancorp]] | Asia-focused |
+| [[East West Bancorp]] | [[Asia]]-focused |
 | [[Zions Bancorporation]] | Western US |
 | [[Regions Financial]] | Southeast US |
 | [[Huntington Bancshares]] | Midwest |

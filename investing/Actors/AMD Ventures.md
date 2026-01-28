@@ -3,7 +3,7 @@ aliases: [AMD CVC]
 ---
 #actor #cvc #ai
 
-**AMD Ventures** — [[AMD]]'s corporate venture arm. **80 investments** across AI, life sciences, data center infrastructure. Key bets: Cohere, Hugging Face, [[xAI]], Liquid AI.
+**AMD Ventures** — [[AMD]]'s corporate venture arm. **80 investments** across AI, life sciences, data center infrastructure. Key bets: [[Cohere]], [[Hugging Face]], [[xAI]], Liquid AI.
 
 ---
 
@@ -26,7 +26,7 @@ AMD's strategic arm — building ecosystem around AMD GPUs/CPUs for AI workloads
 | Sector | Examples |
 |--------|----------|
 | **Horizontal AI** | Foundation models, platforms, tooling |
-| **Vertical AI** | Healthcare, life sciences, robotics |
+| **Vertical AI** | [[Healthcare]], life sciences, robotics |
 | **Data center** | AI clouds, silicon, interconnects |
 
 ---
@@ -35,9 +35,9 @@ AMD's strategic arm — building ecosystem around AMD GPUs/CPUs for AI workloads
 
 | Company | Focus |
 |---------|-------|
-| Cohere | Enterprise LLMs |
-| Hugging Face | Open-source ML platform |
-| [[xAI]] | Grok, Colossus |
+| [[Cohere]] | Enterprise LLMs |
+| [[Hugging Face]] | Open-source ML platform |
+| [[xAI]] | [[Grok]], Colossus |
 | Liquid AI | Efficient foundation models |
 | Luma AI | Multimodal generative (image/video/3D) |
 | [[World Labs]] | Spatial intelligence |
@@ -72,7 +72,7 @@ AMD's strategic arm — building ecosystem around AMD GPUs/CPUs for AI workloads
 | Quantum focus (2025) | Life sciences focus |
 | Larger check sizes | Broader portfolio |
 
-AMD Ventures has more companies but [[NVentures]] has larger strategic bets (Anthropic, Cursor).
+AMD Ventures has more companies but [[NVentures]] has larger strategic bets ([[Anthropic]], [[Cursor]]).
 
 ---
 
@@ -94,7 +94,7 @@ AMD Ventures has more companies but [[NVentures]] has larger strategic bets (Ant
 | Parent | [[AMD]] |
 | Portfolio | 80 companies |
 | Focus | AI, life sciences, data center |
-| Key bets | Cohere, xAI, Hugging Face |
+| Key bets | [[Cohere]], [[xAI]], [[Hugging Face]] |
 
 *Created 2026-01-27*
 
@@ -103,6 +103,7 @@ AMD Ventures has more companies but [[NVentures]] has larger strategic bets (Ant
 ## Related
 
 - [[AMD]] — parent company
+- [[Cohere]] — portfolio company
 - [[xAI]] — portfolio company
 - [[World Labs]] — portfolio company
 - [[NVentures]] — peer CVC

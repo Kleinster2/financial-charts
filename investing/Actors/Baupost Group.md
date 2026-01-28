@@ -35,7 +35,7 @@ aliases: [Baupost, Seth Klarman]
 
 | Principle | Description |
 |-----------|-------------|
-| Margin of safety | Buy at deep discounts |
+| [[Margin of safety]] | Buy at deep discounts |
 | Patient | Will hold cash for years |
 | Contrarian | Buys when others panic |
 | Illiquid | Distressed debt, special sits |
@@ -55,7 +55,7 @@ Most sought-after investing book.
 
 ---
 
-## Asset allocation
+## [[Asset allocation]]
 
 | Asset class | Description |
 |-------------|-------------|

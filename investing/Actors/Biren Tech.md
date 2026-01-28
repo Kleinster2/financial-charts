@@ -14,7 +14,7 @@ Advanced China GPU maker, but sanctioned:
 | Metric | Value |
 |--------|-------|
 | Founded | 2019 |
-| Founder | Zhang Wen (ex-SenseTime president) |
+| Founder | Zhang Wen (ex-[[SenseTime]] president) |
 | Key product | BR100 GPU |
 | US status | Entity List (Oct 2022) |
 | IPO | Jan 3, 2026 (HK) — **+76%** debut |
@@ -59,8 +59,8 @@ Advanced China GPU maker, but sanctioned:
 **2025 developments:**
 - Biren 106 series launched
 - 1,000+ TFLOPS BF16 (claimed)
-- Supports Alibaba Tongyi QWQ-32B inference
-- Full-stack DeepSeek-V3 training
+- Supports [[Alibaba]] Tongyi QWQ-32B inference
+- Full-stack [[DeepSeek]]-V3 training
 
 Optimizing within constraints.
 
@@ -72,7 +72,7 @@ Optimizing within constraints.
 
 | Metric | Value |
 |--------|-------|
-| Exchange | HKEX (6082) |
+| Exchange | [[HKEX]] (6082) |
 | IPO price | HK$19.60 (top of range) |
 | First day close | HK$34.46 |
 | **First day gain** | **+76%** (peaked +119% intraday) |
@@ -134,7 +134,7 @@ Biren is the only one sanctioned — limits manufacturing options but still stro
 
 | Metric | Value |
 |--------|-------|
-| Ticker | 6082 (HKEX, Jan 2026) |
+| Ticker | 6082 ([[HKEX]], Jan 2026) |
 | Founded | 2019 |
 | HQ | Shanghai |
 | Key chip | BR100 |

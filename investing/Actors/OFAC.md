@@ -13,7 +13,7 @@ aliases: [Office of Foreign Assets Control, Treasury sanctions]
 |----------|--------|
 | SDN List | Freezes assets, blocks transactions |
 | Sectoral sanctions | Targets industries (oil, finance) |
-| Secondary sanctions | Punishes third parties |
+| [[Secondary sanctions]] | Punishes third parties |
 | License decisions | Grants exceptions (e.g., [[Chevron]] Venezuela) |
 
 **Key lever:** OFAC decides who can use US dollars and access US banks.
@@ -22,13 +22,13 @@ aliases: [Office of Foreign Assets Control, Treasury sanctions]
 
 ## Major programs
 
-| Target | Sanctions type |
+| [[Target]] | Sanctions type |
 |--------|---------------|
-| Russia | Comprehensive (2022+) |
-| Iran | Comprehensive |
+| [[Russia]] | Comprehensive (2022+) |
+| [[Iran]] | Comprehensive |
 | [[Venezuela]] | Sectoral (oil), partial lift |
 | North Korea | Comprehensive |
-| China (select) | Targeted entities |
+| [[China]] (select) | Targeted entities |
 
 ---
 
@@ -49,7 +49,7 @@ aliases: [Office of Foreign Assets Control, Treasury sanctions]
 
 | Date | Action |
 |------|--------|
-| 2019 | Sanctions on PDVSA, oil sector |
+| 2019 | Sanctions on [[PDVSA]], oil sector |
 | 2019-2022 | [[Chevron]] wind-down license only |
 | 2022 | Biden grants Chevron operating license |
 | 2026 | [[Maduro capture 2026]] — status uncertain |
@@ -62,9 +62,9 @@ OFAC licenses = permission to operate despite sanctions.
 
 | Scenario | Impact |
 |----------|--------|
-| New sanctions | Target assets frozen, stocks crash |
+| New sanctions | [[Target]] assets frozen, stocks crash |
 | Sanctions lifted | Rally in target country/sector |
-| Secondary sanctions | Third-party exposure risk |
+| [[Secondary sanctions]] | Third-party exposure risk |
 | License granted | Beneficiary gains exclusive access |
 
 ---

@@ -38,12 +38,12 @@ First merger of equals in banking.
 
 | Segment | Description |
 |---------|-------------|
-| **Consumer Banking** | Branch network |
+| **[[Consumer]] Banking** | Branch network |
 | **Commercial Banking** | Middle market |
-| **Insurance** | Large brokerage |
+| **[[Insurance]]** | Large brokerage |
 | **Wealth** | Advisory services |
 
-Insurance business is differentiator.
+[[Insurance]] business is differentiator.
 
 ---
 
@@ -59,7 +59,7 @@ Dominant Southeast regional.
 
 ---
 
-## Insurance business
+## [[Insurance]] business
 
 | Metric | Value |
 |--------|-------|
@@ -97,7 +97,7 @@ Differentiated fee income source.
 
 **Bull:**
 - Merger synergies realized
-- Insurance differentiation
+- [[Insurance]] differentiation
 - Southeast demographics
 - Valuation discount
 

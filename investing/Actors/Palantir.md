@@ -45,7 +45,7 @@ Printing cash while growing fast.
 | Foundry | Commercial data operations |
 | Gotham | Government intelligence |
 | AIP | AI Platform (LLM integration) |
-| Apollo | Continuous deployment |
+| [[Apollo]] | Continuous deployment |
 
 **AIP = growth driver:** LLM-powered decision making.
 
@@ -54,10 +54,10 @@ Printing cash while growing fast.
 ## Government business
 
 **Deep US government ties:**
-- Defense contracts
+- [[Defense]] contracts
 - Intelligence agencies
 - Homeland security
-- Peter Thiel (co-founder) connections
+- [[Peter Thiel]] (co-founder) connections
 
 **Geopolitical positioning:** Pro-Western, defense-focused.
 
@@ -88,7 +88,7 @@ Palantir provides the intelligence layer.
 ## Founding team
 
 **Thiel-backed from start:**
-- Peter Thiel (co-founder)
+- [[Peter Thiel]] (co-founder)
 - Alex Karp (CEO)
 - Founded 2003
 - Named after Lord of the Rings

@@ -3,13 +3,13 @@ aliases: [王小川]
 ---
 #actor #china #ai #founder
 
-**Wang Xiaochuan** — Baichuan Intelligence founder. Former Sogou CEO. Positioned Baichuan as China's answer to Meta/Llama (open weights).
+**Wang Xiaochuan** — Baichuan Intelligence founder. Former Sogou CEO. Positioned Baichuan as [[China]]'s answer to Meta/[[Llama]] (open weights).
 
 ---
 
 ## Why Wang Xiaochuan matters
 
-Leading voice for open-weights AI in China:
+Leading voice for open-weights AI in [[China]]:
 
 | Metric | Value |
 |--------|-------|
@@ -44,13 +44,13 @@ Leading voice for open-weights AI in China:
 | Model | Baichuan series |
 | Approach | Open weights |
 | Valuation | $2B+ |
-| Positioning | "China's Meta/Llama" |
+| Positioning | "[[China]]'s Meta/[[Llama]]" |
 
 **Open weights strategy:**
 - Models downloadable and modifiable
 - Builds ecosystem and adoption
 - Competes via community, not lock-in
-- Similar to [[Meta]]'s Llama approach
+- Similar to [[Meta]]'s [[Llama]] approach
 
 Part of the [[China AI Tigers]] — the $1B+ AI model startups.
 
@@ -81,7 +81,7 @@ Contrasts with US safety-focused discourse.
 - Watch for IPO (likely HK)
 
 **Thesis implications:**
-- China has multiple AI model strategies (not just closed)
+- [[China]] has multiple AI model strategies (not just closed)
 - Open weights may dominate for many use cases
 - Tsinghua network produces serial entrepreneurs
 
@@ -95,6 +95,6 @@ Contrasts with US safety-focused discourse.
 
 - [[China AI Tigers]] — context (Baichuan is a Tiger)
 - [[China university-AI pipeline]] — context (Tsinghua graduate)
-- [[Meta]] — comparison (Llama open weights)
+- [[Meta]] — comparison ([[Llama]] open weights)
 - [[Model landscape]] — context (open vs closed)
 - [[Tencent]] — history (Sogou acquirer)

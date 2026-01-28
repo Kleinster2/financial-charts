@@ -30,7 +30,7 @@
 
 ## Why Signal matters
 
-**Gold standard for encryption:** Signal Protocol used by WhatsApp, Facebook Messenger, Google Messages, Skype.
+**[[Gold]] standard for encryption:** Signal Protocol used by WhatsApp, Facebook Messenger, [[Google]] Messages, Skype.
 
 **No business model:** No ads, no data collection, no monetization. Runs on donations.
 
@@ -53,7 +53,7 @@
 | Event | Impact |
 |-------|--------|
 | WhatsApp privacy policy (2021) | Massive spike |
-| Elon Musk tweet | Downloads surge |
+| [[Elon Musk]] tweet | Downloads surge |
 | Journalist adoption | Credibility |
 
 Grows via privacy controversies at competitors.

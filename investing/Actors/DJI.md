@@ -9,7 +9,7 @@
 | Attribute | Detail |
 |-----------|--------|
 | Full name | SZ DJI Technology Co., Ltd. |
-| HQ | Shenzhen, China |
+| HQ | [[Shenzhen]], [[China]] |
 | Founded | 2006 |
 | Founder | Frank Wang (汪滔) |
 | Employees | ~14,000 |
@@ -22,9 +22,9 @@
 
 | Segment | DJI share |
 |---------|-----------|
-| Consumer drones | **~75%** |
+| [[Consumer]] drones | **~75%** |
 | Commercial/enterprise | **~70%** |
-| Agriculture drones | **~50%** (China) |
+| [[Agriculture]] drones | **~50%** ([[China]]) |
 
 **Dominance:** No Western competitor comes close. Skydio is largest US alternative but fraction of scale.
 
@@ -34,9 +34,9 @@
 
 | Category | Key products |
 |----------|--------------|
-| Consumer | Mavic, Mini, Air series |
+| [[Consumer]] | Mavic, Mini, Air series |
 | Professional | Inspire, Matrice |
-| Agriculture | Agras series |
+| [[Agriculture]] | Agras series |
 | Enterprise | Matrice (inspection, mapping) |
 | Components | Gimbals, cameras, motors |
 
@@ -53,7 +53,7 @@
 
 **State/local:** Many US police/fire departments still use DJI despite federal concerns. Cost and capability gap vs alternatives.
 
-**Security concerns:** Data transmission to China, potential backdoors, PLA links alleged.
+**Security concerns:** Data transmission to [[China]], potential backdoors, PLA links alleged.
 
 ---
 
@@ -64,8 +64,8 @@
 - US investment ban (Treasury)
 
 **Relevant as:**
-- Benchmark for drone industry
-- US-China tech competition case study
+- [[Benchmark]] for drone industry
+- US-[[China]] tech competition case study
 - Security vs cost trade-off in government procurement
 - Skydio, Autel positioning as alternatives
 

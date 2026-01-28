@@ -1,6 +1,6 @@
 #concept #geopolitics #defense #alliance
 
-**AUKUS** — Australia-UK-US security pact. Nuclear submarines for Australia. Indo-Pacific focus. Counters China.
+**AUKUS** — Australia-UK-US security pact. Nuclear submarines for Australia. Indo-Pacific focus. Counters [[China]].
 
 ---
 
@@ -33,7 +33,7 @@ Australia will operate nuclear-powered (not nuclear-armed) submarines.
 |------------|---------|
 | Hypersonics | Precision strike |
 | Cyber | Defensive capabilities |
-| AI | Defense applications |
+| AI | [[Defense]] applications |
 | Quantum | Secure communications |
 | Undersea drones | Maritime domain |
 
@@ -43,8 +43,8 @@ Australia will operate nuclear-powered (not nuclear-armed) submarines.
 
 | Factor | Impact |
 |--------|--------|
-| China containment | Primary purpose |
-| France fallout | Lost submarine deal |
+| [[China]] containment | Primary purpose |
+| [[France]] fallout | Lost submarine deal |
 | Five Eyes alignment | Intelligence sharing |
 | Indo-Pacific presence | Forward positioning |
 
@@ -66,7 +66,7 @@ Australia will operate nuclear-powered (not nuclear-armed) submarines.
 | Company | Role |
 |---------|------|
 | General Dynamics | Virginia-class builder |
-| Huntington Ingalls | Virginia-class builder |
+| [[Huntington Ingalls]] | Virginia-class builder |
 | [[BAE Systems]] | SSN-AUKUS design |
 | Rolls-Royce | Nuclear propulsion |
 

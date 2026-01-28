@@ -43,7 +43,7 @@ Midwest DC alternative:
 | Google | $1.5B+ campus |
 | Meta | $1B+ expansion |
 | Microsoft | Growing presence |
-| QTS | Major campus |
+| [[QTS]] | Major campus |
 
 ---
 
@@ -85,7 +85,7 @@ Ashburn overflow going to Columbus.
 | Company | Exposure |
 |---------|----------|
 | AEP (AEP) | Power provider |
-| QTS (acquired by Blackstone) | Major DC operator |
+| [[QTS]] (acquired by [[Blackstone]]) | Major DC operator |
 | [[Intel]] | Ohio fab |
 
 ---

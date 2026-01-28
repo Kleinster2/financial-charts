@@ -3,7 +3,7 @@ aliases: [Institutional Venture Partners]
 ---
 #actor #investor #venturecapital #usa #private
 
-**IVP** — Later-stage VC. Twitter, Slack, Dropbox, Discord investor. $10B+ AUM. Growth specialist.
+**IVP** — Later-stage VC. Twitter, [[Slack]], [[Dropbox]], [[Discord]] investor. $10B+ AUM. Growth specialist.
 
 ---
 
@@ -24,15 +24,15 @@ aliases: [Institutional Venture Partners]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **Twitter** | Growth | Acquired by Musk |
-| **Slack** | Growth | Acquired by Salesforce |
-| **Dropbox** | Growth | Public (DBX) |
-| **Discord** | Growth | Private |
-| **Coinbase** | Growth | Public (COIN) |
-| **Supercell** | Growth | Acquired by Tencent |
+| **[[Slack]]** | Growth | Acquired by [[Salesforce]] |
+| **[[Dropbox]]** | Growth | Public (DBX) |
+| **[[Discord]]** | Growth | Private |
+| **[[Coinbase]]** | Growth | Public (COIN) |
+| **Supercell** | Growth | Acquired by [[Tencent]] |
 | **[[Perplexity]]** | Growth | $20B |
-| **Figma** | Growth | Adobe deal blocked |
-| **Klarna** | Growth | Public |
-| **Datadog** | Growth | Public (DDOG) |
+| **[[Figma]]** | Growth | [[Adobe]] deal blocked |
+| **[[Klarna]]** | Growth | Public |
+| **[[Datadog]]** | Growth | Public (DDOG) |
 
 ---
 
@@ -40,9 +40,9 @@ aliases: [Institutional Venture Partners]
 
 | Sector | Examples |
 |--------|----------|
-| **Enterprise SaaS** | Slack, Datadog |
-| **Consumer** | Discord, Twitter |
-| **Fintech** | Coinbase, Klarna |
+| **Enterprise [[SaaS]]** | [[Slack]], [[Datadog]] |
+| **[[Consumer]]** | [[Discord]], Twitter |
+| **[[Fintech]]** | [[Coinbase]], [[Klarna]] |
 | **AI** | Perplexity |
 
 ---
@@ -86,7 +86,7 @@ aliases: [Institutional Venture Partners]
 | Founded | 1980 |
 | AUM | $10B+ |
 | Focus | Growth stage |
-| Top exits | Twitter, Slack, Coinbase |
+| Top exits | Twitter, [[Slack]], [[Coinbase]] |
 
 ---
 

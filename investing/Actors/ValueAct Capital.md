@@ -38,9 +38,9 @@ ValueAct pioneered friendly activism.
 |---------|---------|
 | **Microsoft** | Board seat (2014-17), Nadella era |
 | **Salesforce** | Board seat |
-| **Adobe** | Board involvement |
-| **Morgan Stanley** | Board seat |
-| **21st Century Fox** | Disney sale support |
+| **[[Adobe]]** | Board involvement |
+| **[[Morgan Stanley]]** | Board seat |
+| **21st Century Fox** | [[Disney]] sale support |
 
 ---
 

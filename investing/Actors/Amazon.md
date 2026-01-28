@@ -36,8 +36,8 @@ Amazon is central to multiple vault theses:
 | Generation    | Node    | Status                  | Key specs                              |
 | ------------- | ------- | ----------------------- | -------------------------------------- |
 | Trainium1     | 7nm     | Legacy                  | First gen                              |
-| Trainium2     | 5nm     | Shipping (Dec 2024)     | NeuronCore-v3                          |
-| **Trainium3** | **3nm** | **Shipping (Dec 2025)** | 2.52 PFLOPs FP8, 144GB HBM3e, 4.9 TB/s |
+| Trainium2     | 5nm     | [[Shipping]] (Dec 2024)     | NeuronCore-v3                          |
+| **Trainium3** | **3nm** | **[[Shipping]] (Dec 2025)** | 2.52 PFLOPs FP8, 144GB HBM3e, 4.9 TB/s |
 | Trainium4     | TBD     | Development             | [[NVLink]] Fusion support              |
 
 **Trainium3 UltraServer**: 144 chips per server, scales to 1M chips (10x previous gen), 40% more energy efficient.
@@ -52,7 +52,7 @@ Amazon is central to multiple vault theses:
 ### Graviton (general compute)
 | Generation | Status |
 |------------|--------|
-| Graviton4 | Shipping |
+| Graviton4 | [[Shipping]] |
 | **Graviton5** | **Announced Dec 2025** — most powerful AWS CPU |
 
 ---
@@ -67,7 +67,7 @@ Amazon is central to multiple vault theses:
 | Chip commitment | 1M Trainium chips for Anthropic |
 | Relationship | "Primary cloud and training partner" |
 
-Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignment: Amazon needs AI differentiation, Anthropic needs compute scale.
+Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic alignment: Amazon needs AI differentiation, Anthropic needs compute scale.
 
 ---
 
@@ -118,7 +118,7 @@ Anthropic using Trainium2/3 to train and deploy Claude models. Strategic alignme
 - "Saks on Amazon" platform never launched
 - Saks burned through cash, failed to meet budgets
 - In Aug 2024, Saks raised $600M using flagship as collateral — without Amazon's consent
-- In [[Saks bankruptcy]] (Jan 2026), Saks pledged the $3.6B Fifth Avenue flagship for DIP financing, subordinating Amazon behind bondholders
+- In [[Saks bankruptcy]] (Jan 2026), Saks pledged the $3.6B Fifth Avenue flagship for [[DIP financing]], subordinating Amazon behind bondholders
 - Amazon challenged in court but lost after 7.5-hour hearing
 
 **Amazon's response:** Reserved rights to "seek more drastic remedies" including appointment of examiner or trustee. Claims Saks "violated consent rights under the LLC agreement."
@@ -172,7 +172,7 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 
 | Quarter | SI % float | Stock | Note |
 |---------|------------|-------|------|
-| **Q1 2026** | **0.76%** | ~$230 | Rose from 70.6M to 73.3M shares |
+| **Q1 2026** | **0.76%** | ~$230 | Rose from 70.6M to 73.[[3M]] shares |
 | Q4 2025 | 0.73% | $— | |
 | Q3 2025 | — | $— | |
 | Q2 2025 | — | $— | |

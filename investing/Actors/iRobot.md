@@ -3,7 +3,7 @@ aliases: [IRBT, Roomba]
 ---
 #actor #robotics #consumer #public
 
-**iRobot** — Creator of Roomba. Consumer robotics pioneer. Amazon acquisition collapsed 2024.
+**iRobot** — Creator of Roomba. [[Consumer]] robotics pioneer. Amazon acquisition collapsed 2024.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [IRBT, Roomba]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | IRBT (Nasdaq) |
+| Ticker | IRBT ([[Nasdaq]]) |
 | Market cap | ~$300M |
 | Founded | 1990 |
 | HQ | Bedford, Massachusetts |
@@ -43,7 +43,7 @@ aliases: [IRBT, Roomba]
 | Date | Event |
 |------|-------|
 | Aug 2022 | Amazon announces $1.7B acquisition |
-| Jan 2024 | EU raises competition concerns |
+| Jan 2024 | [[EU]] raises competition concerns |
 | Jan 2024 | Deal terminated |
 | 2024 | Restructuring, layoffs (~30% workforce) |
 
@@ -56,12 +56,12 @@ aliases: [IRBT, Roomba]
 | Company | HQ | Positioning |
 |---------|-----|-------------|
 | **iRobot** | US | Pioneer, premium |
-| Ecovacs | China | Full range, aggressive |
-| Roborock | China | Premium challenger |
-| Dreame | China | Value segment |
+| Ecovacs | [[China]] | Full range, aggressive |
+| Roborock | [[China]] | Premium challenger |
+| Dreame | [[China]] | Value segment |
 | SharkNinja | US | Mainstream |
 
-**China competition:** Chinese brands dominating on price/features.
+**[[China]] competition:** Chinese brands dominating on price/features.
 
 ---
 
@@ -84,7 +84,7 @@ aliases: [IRBT, Roomba]
 |------------|--------|
 | SLAM navigation | Core competency |
 | Object recognition | iRobot OS |
-| Smart home integration | Alexa, Google, Apple |
+| Smart home integration | Alexa, [[Google]], [[Apple]] |
 | AI cleaning | Dirt Detect, room mapping |
 
 ---
@@ -99,11 +99,11 @@ aliases: [IRBT, Roomba]
 - Potential acquisition target
 
 **Bear:**
-- China competition overwhelming
+- [[China]] competition overwhelming
 - Margin pressure
 - Post-Amazon deal uncertainty
 - Limited cash runway
-- Consumer spending sensitivity
+- [[Consumer]] spending sensitivity
 
 ---
 
@@ -123,8 +123,8 @@ aliases: [IRBT, Roomba]
 | Metric | Value |
 |--------|-------|
 | Ticker | IRBT |
-| Exchange | Nasdaq |
-| Sector | Consumer robotics |
+| Exchange | [[Nasdaq]] |
+| Sector | [[Consumer]] robotics |
 | Market cap | ~$300M |
 
 ---

@@ -24,8 +24,8 @@ aliases: [Niron]
 **Iron-nitride magnets:**
 - Alternative to NdFeB (neodymium) magnets
 - No rare earth elements required
-- Eliminates China supply chain risk
-- Target: EV motors, industrial applications
+- Eliminates [[China]] supply chain risk
+- [[Target]]: EV motors, industrial applications
 
 ---
 
@@ -34,7 +34,7 @@ aliases: [Niron]
 **Jonathan Rowntree (CEO):**
 > "Prices of rare earths shot up around the world, and that was really the trigger for us. We realized we needed an alternative."
 
-**Catalyst:** 2010 China rare earth export cuts during Japan territorial dispute — first use of REE as geopolitical weapon.
+**Catalyst:** 2010 [[China]] rare earth export cuts during [[Japan]] territorial dispute — first use of REE as geopolitical weapon.
 
 ---
 
@@ -78,7 +78,7 @@ aliases: [Niron]
 |---------|----------|--------|
 | **Niron** | Iron-nitride magnets | 2027 commercial |
 | Tesla | REE-free motor design | Announced 2023, not yet deployed |
-| BMW | REE-free specialty motor | In production (some models) |
+| [[BMW]] | REE-free specialty motor | In production (some models) |
 
 **Reality:** Even Tesla still uses rare earths throughout vehicles despite 2023 announcement.
 

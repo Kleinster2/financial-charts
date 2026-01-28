@@ -52,7 +52,7 @@ Abu Dhabi's funds under Sheikh Tahnoon pursue:
 | Priority | Expression |
 |----------|------------|
 | **AI/Tech** | MGX, G42, OpenAI, data centers |
-| **Finance** | BlackRock, Apollo, hedge fund allocations |
+| **Finance** | BlackRock, [[Apollo]], hedge fund allocations |
 | **Diversification** | Global assets beyond oil |
 | **Strategic** | UAE national interests |
 
@@ -62,10 +62,10 @@ Abu Dhabi's funds under Sheikh Tahnoon pursue:
 
 | Deal | Vehicle | Amount |
 |------|---------|--------|
-| Aligned Data Centers | MGX/BlackRock | $40B |
+| Aligned [[Data Centers]] | MGX/BlackRock | $40B |
 | French data centers | MGX | $31B |
 | OpenAI | MGX | $6.6B round participation |
-| TikTok US consortium | MGX | ~45% stake |
+| [[TikTok]] US consortium | MGX | ~45% stake |
 | Binance | IHC | $2B |
 
 ---
@@ -78,7 +78,7 @@ Sheikh Tahnoon has cultivated deep US ties:
 |------------|--------|
 | Donald Trump | Regular meetings, Mar-a-Lago |
 | BlackRock | Major allocator |
-| Microsoft | G42 partnership ($1.5B) |
+| [[Microsoft]] | G42 partnership ($1.5B) |
 | OpenAI | MGX investor |
 
 ---
@@ -88,7 +88,7 @@ Sheikh Tahnoon has cultivated deep US ties:
 | Family member | Position |
 |---------------|----------|
 | Sheikh Mohamed bin Zayed | UAE President (brother) |
-| Sheikh Mansour bin Zayed | Deputy PM, Mubadala chairman (brother) |
+| Sheikh Mansour bin Zayed | Deputy PM, [[Mubadala]] chairman (brother) |
 | Sheikh Zayed bin Sultan | UAE founding father (father, deceased) |
 | Sheikh Hamed bin Zayed | ADQ Managing Director (brother) |
 
@@ -98,7 +98,7 @@ Sheikh Tahnoon has cultivated deep US ties:
 
 | Issue | Detail |
 |-------|--------|
-| G42 China ties | Severed under US pressure |
+| G42 [[China]] ties | Severed under US pressure |
 | Binance | $2B investment into crypto exchange |
 | Concentration | Controls ~75% of sovereign wealth |
 
@@ -125,7 +125,7 @@ Sheikh Tahnoon has cultivated deep US ties:
 - [[IHC]] — Chairman (listed vehicle)
 - [[G42]] — Chairman (AI company)
 - [[Abu Dhabi Sovereign Wealth]] — ecosystem overview
-- [[Sheikh Mansour bin Zayed Al Nahyan]] — brother, Mubadala chairman
+- [[Sheikh Mansour bin Zayed Al Nahyan]] — brother, [[Mubadala]] chairman
 - [[OpenAI]] — MGX portfolio company
 - [[BlackRock]] — major allocation partner
 

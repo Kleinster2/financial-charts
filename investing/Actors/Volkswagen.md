@@ -3,7 +3,7 @@ aliases: [VW, VOW3.DE]
 ---
 #actor #auto #ev #germany #public
 
-**Volkswagen** — Largest legacy EV investor globally. ID.4 crossover, MEB platform. Struggling in China, pivoting strategy.
+**Volkswagen** — Largest legacy EV investor globally. ID.4 crossover, MEB platform. Struggling in [[China]], pivoting strategy.
 
 ---
 
@@ -62,7 +62,7 @@ US production at Chattanooga, Tennessee.
 ## Global EV strategy
 
 **MEB platform vehicles:**
-- ID.3 (hatchback, Europe)
+- ID.3 (hatchback, [[Europe]])
 - ID.4 (crossover, global)
 - ID.5 (coupe crossover)
 - ID.Buzz (electric van)
@@ -71,11 +71,11 @@ US production at Chattanooga, Tennessee.
 **Scale:**
 - $50B+ EV investment through 2030
 - Multiple battery partnerships
-- Struggling vs BYD in China
+- Struggling vs BYD in [[China]]
 
 ---
 
-## China challenge
+## [[China]] challenge
 
 | Issue | Impact |
 |-------|--------|
@@ -88,19 +88,19 @@ VW losing ground in world's largest EV market.
 
 ---
 
-## EU-China EV tariff deal (Jan 2026)
+## [[EU]]-[[China]] EV tariff deal (Jan 2026)
 
 **VW broke ranks** with European OEM lobby to negotiate individual tariff relief.
 
 | Detail | Value |
 |--------|-------|
 | Model affected | **Cupra Tavascan** |
-| Factory | VW Anhui (Hefei, China) |
+| Factory | VW Anhui (Hefei, [[China]]) |
 | Original tariff | 30.7% combined (20.7% + 10% base) |
 | VW commitment | Limit models exported, set minimum prices |
 | Expected outcome | 20.7% additional duty dropped |
 
-**Strategic significance:** VW prioritized protecting its China-built EV exports over solidarity with European OEM lobby. Under EU rules, European brands manufacturing in China face same tariffs as Chinese OEMs — origin matters, not brand.
+**Strategic significance:** VW prioritized protecting its [[China]]-built EV exports over solidarity with European OEM lobby. Under [[EU]] rules, European brands manufacturing in [[China]] face same tariffs as Chinese OEMs — origin matters, not brand.
 
 See [[EU-China EV tariffs]] for full deal details.
 
@@ -116,11 +116,11 @@ See [[EU-China EV tariffs]] for full deal details.
 - Strong European position
 
 **Bear:**
-- China market collapse
+- [[China]] market collapse
 - BYD/Tesla price pressure
 - Software issues (Cariad)
 - Slower than pure-play EVs
-- Union constraints (Germany)
+- Union constraints ([[Germany]])
 
 ---
 
@@ -141,7 +141,7 @@ See [[EU-China EV tariffs]] for full deal details.
 ## Related
 
 - [[Tesla]] — competitor
-- [[BYD]] — competitor (crushing VW in China)
+- [[BYD]] — competitor (crushing VW in [[China]])
 - [[Ford]] — competitor (legacy pivot)
 - [[GM]] — competitor (legacy pivot)
 - [[CATL]] — battery supplier

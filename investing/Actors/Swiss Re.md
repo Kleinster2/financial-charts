@@ -18,13 +18,13 @@ aliases: [Swiss Reinsurance, SREN]
 | EPS (TTM) | $10.88 |
 | Employees | 14,000+ |
 | Offices | ~80 in 29 countries |
-| HQ | Zurich, Switzerland |
+| HQ | Zurich, [[Switzerland]] |
 
 ---
 
 ## Business segments
 
-| Segment | % of revenue | Target (2025) |
+| Segment | % of revenue | [[Target]] (2025) |
 |---------|-------------|---------------|
 | P&C Reinsurance | 42.7% | Combined ratio <85% |
 | Life & Health Reinsurance | 36.9% (#1 worldwide) | Net income $1.6B |
@@ -38,7 +38,7 @@ aliases: [Swiss Reinsurance, SREN]
 |--------|-------------|
 | United States | 40% |
 | United Kingdom | 9.8% |
-| Asia/Pacific | 8.7% |
+| [[Asia]]/Pacific | 8.7% |
 | Other | ~42% |
 
 ---
@@ -56,7 +56,7 @@ Unlike PE firms that use life reinsurance as a capital source for private credit
 | Dimension | Swiss Re | PE-owned (Athene) |
 |-----------|---------|-------------------|
 | Life/health approach | Risk transfer, mortality/longevity | Asset accumulation, spread income |
-| Investment portfolio | Conservative, liquid | Private credit, alternatives |
+| Investment portfolio | Conservative, liquid | [[Private credit]], alternatives |
 | Capital model | Solvency II equivalent | Bermuda sidecar + balance sheet |
 | Revenue model | Premium income | Spread income + mgmt fees |
 

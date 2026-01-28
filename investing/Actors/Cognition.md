@@ -3,20 +3,20 @@ aliases: [Devin, Windsurf]
 ---
 #actor #ai #coding #usa #private
 
-**Cognition (Devin)** — "First AI software engineer." $10.2B valuation. Acquired Windsurf. Founders Fund backed.
+**Cognition (Devin)** — "First AI software engineer." $10.2B valuation. Acquired Windsurf. [[Founders Fund]] backed.
 
 ---
 
 ## Why Cognition matters
 
-Devin represents AI agents doing real engineering work:
+Devin represents [[AI agents]] doing real engineering work:
 
 | Metric | Value |
 |--------|-------|
 | Product | Devin (AI software engineer) |
 | Valuation | $10.2B (Sept 2025) |
 | Acquisition | Windsurf (July 2025) |
-| Investors | Founders Fund (Thiel), Lux, 8VC |
+| Investors | [[Founders Fund]] (Thiel), Lux, [[8VC]] |
 
 ---
 
@@ -46,11 +46,11 @@ All won gold at International Olympiad in Informatics. Competitive programming e
 
 | Investor | Notes |
 |----------|-------|
-| Founders Fund | Lead (Series D, Peter Thiel) |
+| [[Founders Fund]] | Lead (Series D, [[Peter Thiel]]) |
 | [[Lux Capital]] | Early investor |
-| 8VC | Joe Lonsdale (Series B lead) |
-| Bain Capital Ventures | Growth |
-| D1 Capital | Growth |
+| [[8VC]] | Joe Lonsdale (Series B lead) |
+| [[Bain Capital]] Ventures | Growth |
+| [[D1 Capital]] | Growth |
 
 **Total raised:** $900M+
 
@@ -76,7 +76,7 @@ All won gold at International Olympiad in Informatics. Competitive programming e
 
 **July 2025:**
 - Acquired Windsurf (formerly Codeium)
-- Days after Windsurf lost CEO to Google
+- Days after Windsurf lost CEO to [[Google]]
 - Combined enterprise ARR up 30%+
 - Complementary: Devin (agent) + Windsurf (IDE)
 
@@ -90,8 +90,8 @@ All won gold at International Olympiad in Informatics. Competitive programming e
 - Not just autocomplete — full tasks
 - Can work independently for hours
 
-**Different from Cursor:**
-- Cursor = AI-assisted IDE (human in loop)
+**Different from [[Cursor]]:**
+- [[Cursor]] = AI-assisted IDE (human in loop)
 - Devin = AI agent (autonomous)
 
 ---
@@ -99,14 +99,14 @@ All won gold at International Olympiad in Informatics. Competitive programming e
 ## Enterprise customers
 
 **Blue-chip adoption:**
-- Goldman Sachs
+- [[Goldman Sachs]]
 - Citi
-- Dell
-- Cisco
-- Ramp
-- Palantir
-- Nubank
-- Mercado Libre
+- [[Dell]]
+- [[Cisco]]
+- [[Ramp]]
+- [[Palantir]]
+- [[Nubank]]
+- [[Mercado Libre]]
 
 Enterprise = validation + revenue stability.
 
@@ -133,7 +133,7 @@ Enterprise = validation + revenue stability.
 **Bear:**
 - $10.2B valuation high
 - Agent reliability questions
-- [[Anysphere]] Cursor dominates mindshare
+- [[Anysphere]] [[Cursor]] dominates mindshare
 - Anthropic/OpenAI could compete
 
 ---
@@ -146,7 +146,7 @@ Enterprise = validation + revenue stability.
 | Valuation | $10.2B |
 | Products | Devin, Windsurf |
 | Founders | Scott Wu, Steven Hao, Walden Yan |
-| Key investor | Founders Fund |
+| Key investor | [[Founders Fund]] |
 
 *Updated 2026-01-01*
 
@@ -154,9 +154,9 @@ Enterprise = validation + revenue stability.
 
 ## Related
 
-- [[Anysphere]] — competitor (Cursor vs Devin paradigm)
+- [[Anysphere]] — competitor ([[Cursor]] vs Devin paradigm)
 - [[Magic AI]] — competitor (AI coding)
 - [[Lux Capital]] — investor
-- [[Anthropic]] — potential competitor (Claude for coding)
+- [[Anthropic]] — potential competitor ([[Claude]] for coding)
 - [[OpenAI]] — potential competitor (GPT for coding)
 - [[Agentic AI]] — thesis context (autonomous agents)

@@ -3,7 +3,7 @@ aliases: [Association of Southeast Asian Nations]
 ---
 #actor #bloc #asia #emerging
 
-**ASEAN** — Association of Southeast Asian Nations. 10 members, 680M people. Economic community, not customs union. Key manufacturing hub and China+1 destination.
+**ASEAN** — Association of Southeast Asian Nations. 10 members, 680M people. Economic community, not customs union. Key manufacturing hub and [[China+1]] destination.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [Association of Southeast Asian Nations]
 
 | Country | Population | GDP | Key sectors |
 |---------|------------|-----|-------------|
-| **Indonesia** | 275M | $1.3T | Commodities, manufacturing |
+| **Indonesia** | 275M | $1.3T | [[Commodities]], manufacturing |
 | **Thailand** | 70M | $500B | Autos, tourism, electronics |
 | **Vietnam** | 100M | $400B | Manufacturing, electronics |
 | **Philippines** | 115M | $400B | BPO, remittances |
@@ -33,7 +33,7 @@ aliases: [Association of Southeast Asian Nations]
 | **Myanmar** | 55M | $60B | Resources (sanctioned) |
 | **Cambodia** | 17M | $30B | Garments, tourism |
 | **Laos** | 7M | $15B | Hydropower |
-| **Brunei** | 0.4M | $15B | Oil/gas |
+| **Brunei** | 0.4M | $15B | [[Oil]]/gas |
 
 ---
 
@@ -63,26 +63,26 @@ ASEAN punches above weight diplomatically — convenes larger powers.
 
 ---
 
-## Trade architecture
+## [[Trade]] architecture
 
 | Agreement | Partners |
 |-----------|----------|
-| [[RCEP]] | ASEAN + China, Japan, Korea, ANZ |
+| [[RCEP]] | ASEAN + China, [[Japan]], Korea, ANZ |
 | [[China-ASEAN FTA]] | ASEAN + China |
-| ASEAN-Japan | ASEAN + Japan |
+| ASEAN-[[Japan]] | ASEAN + [[Japan]] |
 | ASEAN-Korea | ASEAN + Korea |
-| ASEAN-India | ASEAN + India |
-| ASEAN-ANZ | ASEAN + Australia, NZ |
+| ASEAN-[[India]] | ASEAN + [[India]] |
+| ASEAN-ANZ | ASEAN + [[Australia]], NZ |
 
 ASEAN = hub of Asian trade agreements.
 
 ---
 
-## China+1 strategy
+## [[China+1]] strategy
 
 | Driver | ASEAN benefit |
 |--------|---------------|
-| US-China tariffs | Final assembly shifts |
+| [[US-China tariffs]] | Final assembly shifts |
 | Cost arbitrage | Lower wages than China |
 | Diversification | Supply chain resilience |
 | Geopolitics | Neutral positioning |
@@ -91,9 +91,9 @@ ASEAN = hub of Asian trade agreements.
 
 | Country | Sector |
 |---------|--------|
-| **Vietnam** | Electronics (Samsung, Apple suppliers) |
+| **Vietnam** | Electronics ([[Samsung]], [[Apple]] suppliers) |
 | **Thailand** | Autos, hard drives |
-| **Malaysia** | Semiconductors (back-end) |
+| **Malaysia** | [[Semiconductors]] (back-end) |
 | **Indonesia** | Nickel, EVs |
 
 ---
@@ -108,27 +108,27 @@ ASEAN = hub of Asian trade agreements.
 | **Indonesia** | Nickel, EV supply chain, digital |
 | **Thailand** | Autos, tourism recovery |
 | **Philippines** | BPO, remittances |
-| **Singapore** | Finance hub, REITs |
-| **Malaysia** | Semiconductors, data centers |
+| **Singapore** | Finance hub, [[REITs]] |
+| **Malaysia** | [[Semiconductors]], data centers |
 
 ### Sector plays
 
 | Sector | Companies |
 |--------|-----------|
-| Banks | DBS, OCBC, UOB, Bangkok Bank |
-| Telecom | Singtel, Axiata, TLKM |
+| [[Banks]] | DBS, OCBC, UOB, Bangkok Bank |
+| [[Telecom]] | Singtel, Axiata, TLKM |
 | Property | CapitaLand, Sime Darby |
-| Consumer | Charoen Pokphand, Indofood |
+| [[Consumer]] | Charoen Pokphand, Indofood |
 
 ### Key companies
 
 | Company | Country | Sector |
 |---------|---------|--------|
 | DBS | Singapore | Banking |
-| Sea Limited | Singapore | Gaming, e-commerce |
-| Grab | Singapore | Ride-hailing |
+| Sea Limited | Singapore | [[Gaming]], e-commerce |
+| [[Grab]] | Singapore | Ride-hailing |
 | PTT | Thailand | Energy |
-| Bank Central Asia | Indonesia | Banking |
+| Bank Central [[Asia]] | Indonesia | Banking |
 | Vingroup | Vietnam | Conglomerate |
 
 ---
@@ -147,13 +147,13 @@ ASEAN = hub of Asian trade agreements.
 
 ## ASEAN vs other blocs
 
-| Dimension | ASEAN | EU | Mercosur |
+| Dimension | ASEAN | [[EU]] | [[Mercosur]] |
 |-----------|-------|-----|----------|
 | Population | 680M | 450M | 270M |
 | GDP | $3.6T | $17T | $2.8T |
 | Integration | Light | Deep | Moderate |
 | External tariff | No common | Yes | Yes |
-| Currency | None | Euro | None |
+| Currency | None | [[Euro]] | None |
 
 ASEAN = loose integration, ASEAN Way.
 
@@ -167,7 +167,7 @@ ASEAN = loose integration, ASEAN Way.
 - [[Vietnam]] — manufacturing hub
 - [[Indonesia]] — largest ASEAN economy
 - [[Singapore]] — financial hub
-- [[Nearshoring thesis]] — China+1 beneficiary
+- [[Nearshoring thesis]] — [[China+1]] beneficiary
 - [[Trade Agreements]] — hub
 
 ---

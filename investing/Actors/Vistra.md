@@ -46,7 +46,7 @@ Best S&P 500 performer in 2024.
 
 | Type | Capacity |
 |------|----------|
-| Natural gas | ~30 GW |
+| [[Natural gas]] | ~30 GW |
 | Nuclear | ~6 GW |
 | Solar/storage | Growing |
 | Coal | Retiring |
@@ -150,7 +150,7 @@ This is a shot across the bow for Vistra, Constellation, and Talen — incumbent
 
 - [[Meta]] — customer (2.6 GW 20-year nuclear deal, Jan 2026)
 - [[Constellation Energy]] — peer (larger nuclear fleet)
-- [[Talen Energy]] — peer (Amazon nuclear deal)
+- [[Talen Energy]] — peer ([[Amazon]] nuclear deal)
 - [[NuScale]] — peer (nuclear power)
 - [[Power constraints]] — thesis (AI power demand)
 - [[BYOP]] — policy (BYOG risk from PJM proposals)

@@ -14,8 +14,8 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 | Geographic expansion | New sites lack institutional knowledge | TSMC Arizona ramp challenges |
 | Midstream pivots | Changing plans mid-construction | [[Samsung Taylor pivot]] |
 | Workforce gaps | Skilled labor takes years | US fab staffing difficulties |
-| Supply chain | Equipment delays, chemical shortages | ASML delivery bottlenecks |
-| Customer commitment | Chicken-and-egg with capacity | Intel Foundry waiting for wins |
+| Supply chain | Equipment delays, chemical shortages | [[ASML]] delivery bottlenecks |
+| Customer commitment | Chicken-and-egg with capacity | [[Intel]] Foundry waiting for wins |
 
 ---
 
@@ -27,7 +27,7 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 | [[Samsung]] | High | Must accept risk for competitive positioning |
 | [[Intel Foundry Services]] | Very high | Unproven in external foundry, turnaround pressure |
 | [[GlobalFoundries]] | Low-medium | Exited leading edge, specialty focus |
-| SMIC | High | Operating under export controls |
+| [[SMIC]] | High | Operating under export controls |
 
 ---
 
@@ -38,7 +38,7 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 | Manifestation | Financial impact |
 |---------------|------------------|
 | Yield problems | Higher cost per chip, margin compression |
-| Ramp delays | Missed revenue, customer defection |
+| [[Ramp]] delays | Missed revenue, customer defection |
 | Capex overruns | Balance sheet stress, ROI compression |
 | Customer loss | Volume decline, utilization drop |
 | Reputation damage | Premium erosion, multiple compression |
@@ -58,7 +58,7 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 
 | Project type | Risk level | Examples |
 |--------------|------------|----------|
-| New node in existing fab | Medium | TSMC 2nm in Taiwan |
+| New node in existing fab | Medium | TSMC 2nm in [[Taiwan]] |
 | New node in new geography | High | TSMC Arizona 2nm |
 | Leapfrog node in new geography | Very high | Samsung Taylor 2nm |
 | Greenfield fab, mature node | Medium-low | GlobalFoundries expansions |
@@ -75,12 +75,12 @@ Foundry execution risk = the probability that a fab fails to deliver promised ca
 | Ecosystem density | Suppliers, talent in Hsinchu |
 | Institutional memory | 30+ years of accumulated learning |
 | Conservative culture | Won't overpromise |
-| Customer concentration | Apple/NVIDIA ensure demand |
+| Customer concentration | [[Apple]]/[[NVIDIA]] ensure demand |
 | Node sequencing | See [[Node lag as strategy]] |
 
 **Why others struggle:**
 
-| Samsung/Intel challenge | Risk driver |
+| Samsung/[[Intel]] challenge | Risk driver |
 |------------------------|-------------|
 | Multiple business units | Foundry isn't sole focus |
 | Geographic dispersion | Knowledge transfer difficult |

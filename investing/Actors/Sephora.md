@@ -5,7 +5,7 @@ aliases: [Sephora LVMH]
 
 # Sephora
 
-**World's largest prestige beauty retailer** — owned by [[LVMH]] (Selective Retailing division). ~$16B+ global retail sales (2023), double-digit growth in both revenue and profit in 2024. Gaining market share across US, Europe, Middle East, Latin America. E-commerce ~$3.4B (2024). Sephora at Kohl's: 1,000+ shop-in-shops generating $1.8B+ in sales. Planning ~200 new stores/year through 2028.
+**World's largest prestige beauty retailer** — owned by [[LVMH]] (Selective Retailing division). ~$16B+ global retail sales (2023), double-digit growth in both revenue and profit in 2024. Gaining market share across US, [[Europe]], Middle East, Latin America. E-commerce ~$3.4B (2024). Sephora at Kohl's: 1,000+ shop-in-shops generating $1.8B+ in sales. Planning ~200 new stores/year through 2028.
 
 ---
 
@@ -19,7 +19,7 @@ aliases: [Sephora LVMH]
 | LVMH Selective Retailing growth (2024) | +6% organic |
 | Kohl's partnership sales | $1.8B+ (2024) |
 | Stores (global) | 2,700+ |
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 
 ---
 
@@ -42,7 +42,7 @@ aliases: [Sephora LVMH]
 |---------|-------|-------------|
 | **Standalone stores** | ~700 US | Growing |
 | **Sephora at Kohl's** | 1,000+ shop-in-shops | $1.8B+ sales (2024), targeting $2B+ (2025) |
-| **E-commerce** | $3.4B (2024) | Growing but Amazon aggressive |
+| **E-commerce** | $3.4B (2024) | Growing but [[Amazon]] aggressive |
 
 **Kohl's partnership:** Transformational for US market access. Gave Sephora 1,000+ additional points of distribution in suburban/mid-market locations, directly competing with [[Ulta Beauty]]'s addressable market.
 
@@ -50,13 +50,13 @@ aliases: [Sephora LVMH]
 
 ## Global expansion plan
 
-| Target | Detail |
+| [[Target]] | Detail |
 |--------|--------|
 | New stores | ~200/year through 2028 |
-| UK | 5 opened 2024, 20 by 2027 |
+| [[UK]] | 5 opened 2024, 20 by 2027 |
 | Middle East | Growing presence |
 | Latin America | Strong growth |
-| Asia | Selective, China cautious |
+| [[Asia]] | Selective, [[China]] cautious |
 
 ---
 
@@ -77,11 +77,11 @@ aliases: [Sephora LVMH]
 
 | Issue | Impact |
 |-------|--------|
-| **Amazon** | Projected 15% beauty share by 2030 |
-| **TikTok Shop** | Social commerce disrupting discovery |
-| **E-commerce slower** | LVMH CFO: "Amazon is being very aggressive" |
+| **[[Amazon]]** | Projected 15% beauty share by 2030 |
+| **[[TikTok]] Shop** | Social commerce disrupting discovery |
+| **E-commerce slower** | LVMH CFO: "[[Amazon]] is being very aggressive" |
 | **Prestige beauty slowing** | US prestige growth decelerating (7% → 5% → 4%) |
-| **China caution** | Not heavily expanding in China |
+| **[[China]] caution** | Not heavily expanding in [[China]] |
 
 ---
 
@@ -92,7 +92,7 @@ aliases: [Sephora LVMH]
 | Positioning | Prestige only | Mass + prestige |
 | US stores | ~700 + 1,000 Kohl's | 1,473 |
 | Salon | No | Yes |
-| International | 35+ countries | Just starting (UK, Mexico) |
+| International | 35+ countries | Just starting ([[UK]], [[Mexico]]) |
 | Ownership | [[LVMH]] (private) | Public (NYSE: ULTA) |
 | 2024 performance | Gaining share | Lost share (recovering) |
 

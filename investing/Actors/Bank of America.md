@@ -3,7 +3,7 @@ aliases: [BAC, BofA, BoA]
 ---
 #actor #finance #bank #usa #public
 
-**Bank of America** — Second-largest US bank. Consumer and investment banking. Q4 2025 beat on EPS and revenue.
+**Bank of America** — Second-largest US bank. [[Consumer]] and investment banking. Q4 2025 beat on EPS and revenue.
 
 | Metric | Value |
 |--------|-------|
@@ -88,7 +88,7 @@ aliases: [BAC, BofA, BoA]
 
 | Segment | Description |
 |---------|-------------|
-| Consumer Banking | Retail deposits, mortgages, cards |
+| [[Consumer]] Banking | Retail deposits, mortgages, cards |
 | GWIM | Global Wealth & Investment Management |
 | Global Banking | Corporate, investment banking |
 | Global Markets | Trading, sales |
@@ -102,7 +102,7 @@ aliases: [BAC, BofA, BoA]
 | [[JPMorgan Chase]] | ~$4T | #1, full-service |
 | **Bank of America** | ~$3.3T | #2, consumer strength |
 | [[Citigroup]] | ~$2.4T | Global, trading |
-| [[Wells Fargo]] | ~$1.9T | Consumer, recovering |
+| [[Wells Fargo]] | ~$1.9T | [[Consumer]], recovering |
 
 ---
 
@@ -148,7 +148,7 @@ aliases: [BAC, BofA, BoA]
 ## Investment case
 
 **Bull:**
-- Consumer franchise strength
+- [[Consumer]] franchise strength
 - Rate sensitivity (NII upside)
 - Digital banking leadership
 - Wealth management growth
@@ -157,7 +157,7 @@ aliases: [BAC, BofA, BoA]
 **Bear:**
 - Rate sensitivity (NII downside)
 - Credit cycle risk
-- Consumer spending slowdown
+- [[Consumer]] spending slowdown
 - Regulatory capital requirements
 - [[Credit card rate cap]] risk
 

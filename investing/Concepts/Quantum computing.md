@@ -8,10 +8,10 @@
 
 | Factor | Status |
 |--------|--------|
-| Investment | Billions flowing (Microsoft, Google, IBM, startups) |
+| Investment | Billions flowing (Microsoft, Google, [[IBM]], startups) |
 | Timeline | Useful applications: 5-15 years (disputed) |
 | Public plays | IonQ, Rigetti, D-Wave (all speculative) |
-| Big tech exposure | Microsoft, Google, IBM, Amazon (Braket) |
+| Big tech exposure | Microsoft, Google, [[IBM]], Amazon (Braket) |
 | Risk | High — scientific feasibility still debated for some approaches |
 
 ---
@@ -20,10 +20,10 @@
 
 | Approach | Players | Pros | Cons |
 |----------|---------|------|------|
-| **Superconducting** | IBM, Google, Rigetti | Most mature, highest qubit counts | Error-prone, needs extreme cooling |
-| **Trapped ion** | IonQ, Quantinuum | Lower error rates, longer coherence | Slower gate speeds, scaling challenges |
+| **Superconducting** | [[IBM]], Google, Rigetti | Most mature, highest qubit counts | Error-prone, needs extreme cooling |
+| **Trapped ion** | IonQ, [[Quantinuum]] | Lower error rates, longer coherence | Slower gate speeds, scaling challenges |
 | **Topological** | Microsoft | Theoretically error-resistant | Unproven — MZMs not yet confirmed |
-| **Photonic** | PsiQuantum, Xanadu | Room temperature operation | Complex error correction |
+| **Photonic** | [[PsiQuantum]], Xanadu | Room temperature operation | Complex error correction |
 | **Neutral atom** | QuEra, Atom Computing | Scalable, flexible | Early stage |
 | **Quantum annealing** | D-Wave | Commercial today (optimization) | Not universal quantum computing |
 
@@ -37,7 +37,7 @@
 |---------|----------|--------|
 | [[Microsoft]] | Topological (Majorana) | Majorana 1 chip (2025), controversial |
 | [[Google]] | Superconducting | Willow chip, "quantum supremacy" claims |
-| IBM | Superconducting | 1000+ qubits, Qiskit ecosystem |
+| [[IBM]] | Superconducting | 1000+ qubits, Qiskit ecosystem |
 | [[Amazon]] | Braket (cloud access) | Platform play, not building own hardware |
 
 ### Public pure-plays
@@ -52,8 +52,8 @@
 
 | Company | Approach | Funding | Notes |
 |---------|----------|---------|-------|
-| PsiQuantum | Photonic | $700M+ | GlobalFoundries partnership |
-| Quantinuum | Trapped ion | Honeywell spinoff | Merged with Cambridge Quantum |
+| [[PsiQuantum]] | Photonic | $700M+ | [[GlobalFoundries]] partnership |
+| [[Quantinuum]] | Trapped ion | [[Honeywell]] spinoff | Merged with Cambridge Quantum |
 | QuEra | Neutral atom | $100M+ | Harvard/MIT spinout |
 
 ---
@@ -74,7 +74,7 @@
 - Scientific feasibility still debated (Microsoft's topological approach)
 
 **Realistic view:**
-- Near-term: quantum as cloud service (IBM, Amazon Braket) for experimentation
+- Near-term: quantum as cloud service ([[IBM]], Amazon Braket) for experimentation
 - Medium-term: hybrid classical-quantum for specific problems
 - Long-term: fault-tolerant universal quantum computing (if achievable)
 
@@ -103,13 +103,13 @@
 
 ## What to watch
 
-| Signal | Bullish | Bearish |
+| [[Signal]] | Bullish | Bearish |
 |--------|---------|---------|
 | Error rates | Decreasing below threshold | Plateau |
 | Qubit counts | Scaling with quality | Quantity without quality |
 | Commercial applications | Real revenue | Perpetual "demos" |
 | Microsoft MZM proof | Independent replication | Continued skepticism |
-| Google/IBM roadmaps | On track | Delays |
+| Google/[[IBM]] roadmaps | On track | Delays |
 
 ---
 

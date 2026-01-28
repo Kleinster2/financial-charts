@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investing #philanthropy #usa #private
 
-**Builders Vision** — Investing and philanthropic platform founded by Lukas Walton (Walmart heir). Backs climate and supply chain startups including Phoenix Tailings.
+**Builders Vision** — Investing and philanthropic platform founded by Lukas Walton ([[Walmart]] heir). Backs climate and supply chain startups including Phoenix Tailings.
 
 ---
 
@@ -47,7 +47,7 @@ On US catch-up potential (comparing to oil/gas 2005-2015):
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$30B |
-| Source | Walmart inheritance |
+| Source | [[Walmart]] inheritance |
 | Focus | Climate, sustainability |
 
 ---

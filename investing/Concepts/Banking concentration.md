@@ -1,6 +1,6 @@
 #concept #banking #marketstructure #competition
 
-**Banking concentration** — Market structure where few large banks dominate. Creates high barriers to entry, wide spreads, and excess profitability. Not corruption — but raises competition policy questions.
+**Banking concentration** — [[Market structure]] where few large banks dominate. Creates high barriers to entry, wide spreads, and excess profitability. Not corruption — but raises competition policy questions.
 
 ---
 
@@ -12,7 +12,7 @@
 | **Regulatory barriers** | Capital requirements, licensing favor incumbents |
 | **Deposit stickiness** | Customers rarely switch banks |
 | **Too big to fail** | Implicit government backstop for large banks |
-| **Network effects** | Payments, ATMs, correspondent banking |
+| **[[Network effects]]** | Payments, ATMs, correspondent banking |
 
 ---
 
@@ -33,10 +33,10 @@
 |---------|-----|-----|-------|
 | **Brazil** | ~80% | 4-5% | Highest spreads globally |
 | **Canada** | ~85% | 2-3% | "Big 5" oligopoly, stable |
-| **Australia** | ~75% | 2% | "Big 4" dominance |
-| **UK** | ~70% | 1.5-2% | Big 4 + challengers |
+| **[[Australia]]** | ~75% | 2% | "Big 4" dominance |
+| **[[UK]]** | ~70% | 1.5-2% | Big 4 + challengers |
 | **US** | ~45% | 3% | More fragmented (regional banks) |
-| **Germany** | ~30% | 1% | Fragmented (Sparkassen, co-ops) |
+| **[[Germany]]** | ~30% | 1% | Fragmented (Sparkassen, co-ops) |
 
 ---
 
@@ -46,16 +46,16 @@
 |--------|-------|
 | Big 5 share | ~80% of banking assets |
 | Net interest margin | 4-5% |
-| Consumer loan spreads | 40-100%+ above Selic |
+| [[Consumer]] loan spreads | 40-100%+ above Selic |
 | Credit card rates | 300-400%+ APR |
-| ROE (Itaú, Bradesco) | 15-20%+ |
+| ROE (Itaú, [[Bradesco]]) | 15-20%+ |
 
 **The Big 5:**
 
 | Bank | Type | Assets |
 |------|------|--------|
-| Itaú Unibanco | Private | ~$450B |
-| Bradesco | Private | ~$350B |
+| [[Itaú Unibanco]] | Private | ~$450B |
+| [[Bradesco]] | Private | ~$350B |
 | Banco do Brasil | State | ~$400B |
 | Caixa Econômica | State | ~$350B |
 | Santander Brasil | Foreign (Spain) | ~$200B |
@@ -73,8 +73,8 @@
 **Fintech disruption:**
 - [[Nubank]] — 90M+ customers, pressuring fees
 - PIX — instant payments reduced interchange revenue
-- Inter, PicPay, C6 — digital challengers
-- Incumbents adapting (Itaú → Iti, Bradesco → Next)
+- Inter, [[PicPay]], C6 — digital challengers
+- Incumbents adapting (Itaú → Iti, [[Bradesco]] → Next)
 
 Spreads compressing but oligopoly intact — incumbents have scale, funding cost advantage.
 
@@ -116,7 +116,7 @@ Spreads compressing but oligopoly intact — incumbents have scale, funding cost
 
 | | Banking concentration | [[Bank cronyism]] |
 |--|----------------------|-------------------|
-| **Mechanism** | Market structure, barriers | Self-dealing, extraction |
+| **Mechanism** | [[Market structure]], barriers | Self-dealing, extraction |
 | **Legality** | Legal | Illegal (fraud, theft) |
 | **Who benefits** | Bank shareholders | Connected insiders |
 | **Who loses** | Borrowers (high rates) | Depositors, taxpayers |
@@ -124,7 +124,7 @@ Spreads compressing but oligopoly intact — incumbents have scale, funding cost
 | **Example** | Itaú's 18% ROE | [[Ayandeh Bank]] looting depositors |
 
 Brazilian state banks (BNDES, Caixa) → [[Bank cronyism]] / [[Brazilian cronyism]].
-Brazilian private banks (Itaú, Bradesco) → concentration (competition issue).
+Brazilian private banks (Itaú, [[Bradesco]]) → concentration (competition issue).
 
 Different problems, different solutions.
 
@@ -138,7 +138,7 @@ Different problems, different solutions.
 
 ### Actors
 - [[Nubank]] — fintech challenger in Brazil
-- Itaú, Bradesco — Brazilian incumbents
+- Itaú, [[Bradesco]] — Brazilian incumbents
 
 ### Concepts
 - [[State-business relations]] — parent framework (concentration is regulatory capture variant)

@@ -26,7 +26,7 @@ aliases: [KHC, Kingdom Holding Company]
 | Net worth | ~$16B |
 | Nickname | "Warren Buffett of Arabia" |
 | Style | Long-term, contrarian |
-| Notable | Early Citigroup investor |
+| Notable | Early [[Citigroup]] investor |
 
 ---
 
@@ -37,7 +37,7 @@ aliases: [KHC, Kingdom Holding Company]
 | Company | Investment | Notes |
 |---------|------------|-------|
 | [[xAI]] | $800M+ | $400M Series B + $400M Series C |
-| Apple | Historic stake | Long-term holder |
+| [[Apple]] | Historic stake | Long-term holder |
 | Twitter/X | Investor | Pre-Musk acquisition |
 
 ### Hospitality
@@ -56,7 +56,7 @@ aliases: [KHC, Kingdom Holding Company]
 | Jeddah Tower | Under construction (world's tallest target) |
 | Kingdom Centre (Riyadh) | Flagship |
 
-### Media (MENA)
+### [[Media]] (MENA)
 
 | Company | Type |
 |---------|------|
@@ -71,7 +71,7 @@ aliases: [KHC, Kingdom Holding Company]
 |-------|--------|
 | Q3 2025 profit | More than doubled YoY |
 | Al Hilal FC | ~$400M for 75% stake (pending) |
-| Crypto | Won't invest — "limited utility" |
+| [[Crypto]] | Won't invest — "limited utility" |
 
 ---
 
@@ -83,7 +83,7 @@ aliases: [KHC, Kingdom Holding Company]
 - Global diversification
 - Real assets + tech
 
-**Notable:** Early Citigroup investment during 1990s crisis, held through 2008.
+**Notable:** Early [[Citigroup]] investment during 1990s crisis, held through 2008.
 
 ---
 

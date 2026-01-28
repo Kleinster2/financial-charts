@@ -3,7 +3,7 @@ aliases: [HOOD]
 ---
 #actor #fintech #brokerage #usa #public
 
-**Robinhood** — Retail brokerage that democratized trading. Now pushing into crypto and tokenized private shares. First to offer OpenAI/SpaceX tokens to retail.
+**Robinhood** — Retail brokerage that democratized trading. Now pushing into crypto and tokenized private shares. First to offer OpenAI/[[SpaceX]] tokens to retail.
 
 ---
 
@@ -17,14 +17,14 @@ Robinhood is the gateway for retail into new asset classes:
 | Mobile-first UX | Made trading accessible |
 | Fractional shares | Lowered barriers |
 | Crypto trading | Mainstream adoption |
-| Tokenized private shares | OpenAI/SpaceX exposure |
+| Tokenized private shares | OpenAI/[[SpaceX]] exposure |
 
 ---
 
 ## Tokenized private shares (June 2025)
 
 **Most ambitious crypto push yet:**
-- Launched tokenized OpenAI, SpaceX shares in Europe
+- Launched tokenized OpenAI, [[SpaceX]] shares in [[Europe]]
 - Retail can now get "exposure" to private companies
 - Not actual equity — derivative instruments
 - OpenAI publicly did not endorse the move
@@ -46,7 +46,7 @@ See [[Tokenized private shares]] for full analysis.
 | Options | Retail options trading |
 | Crypto | Bitcoin, Ethereum, altcoins |
 | Cash management | Debit card, interest on cash |
-| Gold subscription | Premium features ($5/month) |
+| [[Gold]] subscription | Premium features ($5/month) |
 
 ---
 
@@ -60,7 +60,7 @@ See [[Tokenized private shares]] for full analysis.
 
 **Other revenue:**
 - Net interest income
-- Gold subscriptions
+- [[Gold]] subscriptions
 - Crypto spreads
 
 ---
@@ -70,7 +70,7 @@ See [[Tokenized private shares]] for full analysis.
 | Move | Status |
 |------|--------|
 | Basic crypto trading | Live |
-| Tokenized private shares | Europe (June 2025) |
+| Tokenized private shares | [[Europe]] (June 2025) |
 | Wallet features | Expanding |
 | Staking | Some markets |
 
@@ -101,7 +101,7 @@ See [[Tokenized private shares]] for full analysis.
 **Bear:**
 - PFOF under regulatory threat
 - Meme stock hangover
-- Competition from Schwab, Fidelity
+- Competition from Schwab, [[Fidelity]]
 - Crypto volatility affects revenue
 - Tokenization regulatory risk
 
@@ -113,7 +113,7 @@ See [[Tokenized private shares]] for full analysis.
 
 Those users have matured: many now use retirement accounts, high-yield savings, and less speculative products. "They were 20-something-year-olds. Now, maybe they're in their 30s" — Steve Quirk, Chief Brokerage Officer.
 
-Robinhood is in an arms race with [[Interactive Brokers]] and Charles Schwab to serve an increasingly sophisticated retail base.
+Robinhood is in an arms race with [[Interactive Brokers]] and [[Charles Schwab]] to serve an increasingly sophisticated retail base.
 
 ---
 
@@ -136,10 +136,10 @@ Robinhood is in an arms race with [[Interactive Brokers]] and Charles Schwab to 
 | Competitor | Strength |
 |------------|----------|
 | Schwab/TD | Scale, advice, bank |
-| Fidelity | Retirement, research |
+| [[Fidelity]] | Retirement, research |
 | Interactive Brokers | Sophistication, global |
 | Webull | Similar retail focus |
-| [[Republic]] | Private markets focus |
+| [[Republic]] | [[Private markets]] focus |
 
 Robinhood = retail-first, mobile-first, crypto-forward.
 
@@ -151,8 +151,8 @@ Robinhood = retail-first, mobile-first, crypto-forward.
 - [[Retail investor flows]] — structural shift in market participation
 - [[Citadel Securities]] — largest PFOF partner
 - [[Interactive Brokers]] — competitor (sophisticated segment)
-- [[Tokenized private shares]] — key innovation (OpenAI/SpaceX tokens)
-- [[OpenAI]] — tokenized on Robinhood Europe
+- [[Tokenized private shares]] — key innovation (OpenAI/[[SpaceX]] tokens)
+- [[OpenAI]] — tokenized on Robinhood [[Europe]]
 - [[Republic]] — peer (private markets platform)
 - [[Crypto]] — infrastructure layer
 

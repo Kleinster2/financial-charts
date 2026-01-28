@@ -37,13 +37,14 @@ Enterprise-focused alternative to OpenAI:
 
 | Investor | Notes |
 |----------|-------|
-| Radical Ventures | Lead (multiple rounds) |
-| Inovia Capital | Canadian VC |
-| [[AMD]] Ventures | Strategic (MI300 partnership) |
-| [[NVIDIA]] | Strategic |
-| Salesforce Ventures | Enterprise focus |
+| [[Radical Ventures]] | Lead (multiple rounds) |
+| [[Inovia Capital]] | Canadian VC |
+| [[AMD Ventures]] | Strategic (MI300 partnership) |
+| [[NVentures]] | Strategic |
+| [[Salesforce Ventures]] | Enterprise focus |
 | PSP Investments | Canadian pension |
-| Index Ventures | Growth |
+| [[Index Ventures]] | Growth |
+| [[Databricks Ventures]] | Strategic |
 
 **Total raised:** $1.6B
 
@@ -54,11 +55,11 @@ Enterprise-focused alternative to OpenAI:
 **Differentiated strategy:**
 > "Really, it's an automation tool" — for enterprises, not consumers
 
-| OpenAI/Google | Cohere |
+| OpenAI/[[Google]] | Cohere |
 |---------------|--------|
-| Consumer + Enterprise | Enterprise only |
+| [[Consumer]] + Enterprise | Enterprise only |
 | General purpose | Business-specific |
-| ChatGPT | North agent platform |
+| [[ChatGPT]] | North agent platform |
 
 ---
 
@@ -81,9 +82,9 @@ Enterprise-focused alternative to OpenAI:
 ## Customers
 
 **Enterprise clients:**
-- Dell
-- Notion
-- Oracle
+- [[Dell]]
+- [[Notion]]
+- [[Oracle]]
 - + many others
 
 Security-first = appeals to regulated industries.
@@ -92,25 +93,25 @@ Security-first = appeals to regulated industries.
 
 ## Founding team
 
-**Ex-Google AI researchers:**
-- Aidan Gomez (CEO) — co-invented Transformers
+**Ex-[[Google]] AI researchers:**
+- [[Aidan Gomez]] (CEO) — [[Transformer]] co-author
 - Ivan Zhang
 - Nick Frosst
 
 **New additions (2025):**
-- Joelle Pineau (Chief AI Officer) — ex-Meta VP AI Research
-- Francois Chadwick (CFO) — ex-Uber, Shield AI
+- Joelle Pineau (Chief AI Officer) — ex-[[Meta]] VP AI Research
+- Francois Chadwick (CFO) — ex-[[Uber]], [[Shield AI]]
 
 ---
 
-## AMD partnership
+## [[AMD]] partnership
 
 **Sept 2025:**
-- Partnership with AMD
-- Alternative to NVIDIA dependency
+- Partnership with [[AMD]]
+- Alternative to [[NVIDIA]] dependency
 - MI300 deployment
 
-Cohere = potential AMD AI showcase.
+Cohere = potential [[AMD]] AI showcase.
 
 ---
 
@@ -129,9 +130,9 @@ Cohere = potential AMD AI showcase.
 
 | Competitor | Focus | Cohere vs |
 |------------|-------|-----------|
-| [[OpenAI]] | Consumer + enterprise | Enterprise only |
+| [[OpenAI]] | [[Consumer]] + enterprise | Enterprise only |
 | [[Anthropic]] | Safety + enterprise | Less consumer |
-| Google | Broad | Independent |
+| [[Google]] | Broad | Independent |
 
 Cohere = enterprise specialist.
 
@@ -143,7 +144,7 @@ Cohere = enterprise specialist.
 - Enterprise AI growing
 - Security-first differentiation
 - Transformer co-inventor credibility
-- AMD partnership (NVIDIA alternative)
+- [[AMD]] partnership ([[NVIDIA]] alternative)
 - Strong revenue growth
 
 **Bear:**
@@ -162,19 +163,20 @@ Cohere = enterprise specialist.
 | Ticker | Private |
 | Valuation | $7B |
 | ARR | $200M target |
-| HQ | Toronto, Canada |
+| HQ | Toronto, [[Canada]] |
 | CEO | Aidan Gomez |
 
-*Updated 2026-01-01*
+*Updated 2026-01-28*
 
 ---
 
 ## Related
 
-- [[OpenAI]] — competitor (enterprise AI)
-- [[Anthropic]] — competitor (enterprise AI)
-- [[AMD]] — partner (MI300, NVIDIA alternative)
-- [[NVIDIA]] — investor, supplier
-- [[Glean]] — peer (enterprise AI)
-- [[Harvey]] — peer (vertical AI application)
-- [[Google]] — former employer (Aidan Gomez co-invented Transformers)
+- [[Aidan Gomez]] — CEO, Transformer co-author
+- [[Transformer]] — architecture (Gomez co-authored)
+- [[NVentures]] — investor
+- [[AMD Ventures]] — investor
+- [[Databricks Ventures]] — investor
+- [[OpenAI]] — competitor
+- [[Anthropic]] — competitor
+- [[Cursor]] — peer (AI developer tools)

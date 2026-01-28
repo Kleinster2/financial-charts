@@ -1,10 +1,10 @@
 #actor #memory #china #dram
 
-**ChangXin Memory Technologies (CXMT)** — Chinese DRAM manufacturer, beneficiary of IP transfer from [[Samsung]].
+**[[ChangXin Memory]] Technologies (CXMT)** — Chinese DRAM manufacturer, beneficiary of IP transfer from [[Samsung]].
 
 ## Core thesis
 
-CXMT represents China's attempt to build domestic memory capability despite [[Export controls]]. Progress has been faster than equipment bans would suggest — enabled by [[IP leakage risk|IP theft]] rather than organic R&D.
+CXMT represents [[China]]'s attempt to build domestic memory capability despite [[Export controls]]. Progress has been faster than equipment bans would suggest — enabled by [[IP leakage risk|IP theft]] rather than organic R&D.
 
 ---
 
@@ -32,7 +32,7 @@ CXMT represents China's attempt to build domestic memory capability despite [[Ex
 |---------------|--------|
 | [[Samsung]] | Catching up — now has their process secrets |
 | [[SK Hynix]] | Behind, but gap closing |
-| Micron | Behind, but less exposed to China |
+| [[Micron]] | Behind, but less exposed to [[China]] |
 
 ---
 
@@ -51,7 +51,7 @@ CXMT represents China's attempt to build domestic memory capability despite [[Ex
 |-----|--------|
 | [[Samsung]] | Negative — moat eroded, competitor accelerated |
 | [[SK Hynix]] | Negative — shows vulnerability, competitor rising |
-| Memory pricing | Bearish long-term — more supply from China |
+| Memory pricing | Bearish long-term — more supply from [[China]] |
 | [[Export controls]] | Undermined — hardware bans don't stop knowledge |
 
 ---
@@ -89,7 +89,7 @@ CXMT represents China's attempt to build domestic memory capability despite [[Ex
 
 ## Related
 
-- [[Foundry Wars]] — context (China memory push)
+- [[Foundry Wars]] — context ([[China]] memory push)
 - [[Samsung]] — competitor (IP source)
 - [[SK Hynix]] — competitor
 - [[IP leakage risk]] — advantage (Samsung leak)

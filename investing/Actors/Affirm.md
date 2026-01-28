@@ -3,7 +3,7 @@ aliases: [AFRM]
 ---
 #actor #company #fintech #bnpl #usa #public
 
-**Affirm** — Buy Now Pay Later leader. NYSE: AFRM. Founded 2012 by Max Levchin.
+**Affirm** — Buy Now Pay Later leader. NYSE: AFRM. Founded 2012 by [[Max Levchin]].
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [AFRM]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | AFRM (Nasdaq) |
+| Ticker | AFRM ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | GMV | $25B+ annually |
 | HQ | San Francisco |
@@ -38,13 +38,13 @@ Revenue from merchant fees + consumer interest.
 
 | Partner | Relationship |
 |---------|-------------|
-| **Amazon** | Checkout integration |
-| **Shopify** | Shop Pay Installments |
-| **Walmart** | In-store and online |
-| **Target** | Checkout option |
-| **Apple** | Apple Pay Later competitor |
+| **[[Amazon]]** | Checkout integration |
+| **[[Shopify]]** | Shop Pay Installments |
+| **[[Walmart]]** | In-store and online |
+| **[[Target]]** | Checkout option |
+| **[[Apple]]** | [[Apple]] Pay Later competitor |
 
-Amazon partnership is critical.
+[[Amazon]] partnership is critical.
 
 ---
 
@@ -71,7 +71,7 @@ Amazon partnership is critical.
 
 ---
 
-## Max Levchin (founder)
+## [[Max Levchin]] (founder)
 
 | Fact | Detail |
 |------|--------|
@@ -89,22 +89,22 @@ Amazon partnership is critical.
 | Klarna | Larger globally, private |
 | Afterpay | Acquired by Block |
 | PayPal | Pay in 4 |
-| Apple | Apple Pay Later |
+| [[Apple]] | [[Apple]] Pay Later |
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Amazon/Shopify partnerships
+- [[Amazon]]/[[Shopify]] partnerships
 - Superior credit underwriting
-- Consumer preference for transparency
+- [[Consumer]] preference for transparency
 - Debit card growth
 
 **Bear:**
 - Profitability timeline
 - Credit cycle risk
-- Apple Pay Later competition
+- [[Apple]] Pay Later competition
 - Regulatory scrutiny
 
 ---
@@ -113,10 +113,10 @@ Amazon partnership is critical.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | AFRM (Nasdaq) |
+| Ticker | AFRM ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | GMV | $25B+ |
-| Founder | Max Levchin |
+| Founder | [[Max Levchin]] |
 
 ---
 

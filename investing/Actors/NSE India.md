@@ -68,9 +68,9 @@ NSE's IPO was blocked for years due to an investigation into alleged unfair mark
 ## Ownership
 
 No single promoter — 172,000+ shareholders including:
-- Banks
+- [[Banks]]
 - Financial institutions
-- Insurance companies
+- [[Insurance]] companies
 - Mutual funds
 
 ---

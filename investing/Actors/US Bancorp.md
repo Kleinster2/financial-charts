@@ -25,7 +25,7 @@ Known for operational excellence.
 
 | Segment | Description |
 |---------|-------------|
-| **Consumer & Business** | Retail banking |
+| **[[Consumer]] & Business** | Retail banking |
 | **Corporate & Commercial** | Middle market |
 | **Wealth & Investment** | Advisory, trusts |
 | **Payment Services** | Cards, merchant processing |

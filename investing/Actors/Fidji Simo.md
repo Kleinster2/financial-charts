@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #executive #ai #usa
 
-**Fidji Simo** — OpenAI executive. Former Instacart CEO. Ex-Meta executive.
+**Fidji Simo** — OpenAI executive. Former [[Instacart]] CEO. Ex-Meta executive.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Current | Executive, [[OpenAI]] |
-| Previous | CEO, Instacart (2021-2024) |
+| Previous | CEO, [[Instacart]] (2021-2024) |
 | Before | VP Product, Meta/Facebook |
 | Focus | Product/operations leadership |
 
@@ -23,7 +23,7 @@ aliases: []
 | Period | Role |
 |--------|------|
 | 2011-2021 | Meta/Facebook (rose to VP Product) |
-| 2021-2024 | CEO, Instacart |
+| 2021-2024 | CEO, [[Instacart]] |
 | 2024+ | Executive, OpenAI |
 
 Transitioned from Big Tech → startup CEO → frontier AI.
@@ -44,13 +44,13 @@ Transitioned from Big Tech → startup CEO → frontier AI.
 
 ---
 
-## Instacart tenure
+## [[Instacart]] tenure
 
 | Metric | Value |
 |--------|-------|
 | Period | 2021-2024 |
 | Role | CEO |
-| IPO | Led Instacart to public markets (Sept 2023) |
+| IPO | Led [[Instacart]] to public markets (Sept 2023) |
 | Ticker | CART |
 
 Successfully navigated post-pandemic normalization.
@@ -62,7 +62,7 @@ Successfully navigated post-pandemic normalization.
 | Metric | Value |
 |--------|-------|
 | Current | OpenAI executive |
-| Previous | Instacart CEO |
+| Previous | [[Instacart]] CEO |
 | Before | Meta VP Product |
 | Style | Product-focused operator |
 

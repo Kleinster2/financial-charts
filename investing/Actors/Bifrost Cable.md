@@ -3,17 +3,17 @@ aliases: []
 ---
 #actor #infrastructure #submarine #cable
 
-**Bifrost Cable** — Meta's trans-Pacific. US to Southeast Asia. 20,000 km.
+**Bifrost Cable** — Meta's trans-Pacific. US to [[Southeast Asia]]. 20,000 km.
 
 ---
 
 ## Why Bifrost matters
 
-Meta's Asia connectivity:
+Meta's [[Asia]] connectivity:
 
 | Metric | Value |
 |--------|-------|
-| Route | US West Coast → SE Asia |
+| Route | US West Coast → SE [[Asia]] |
 | Length | ~20,000 km |
 | Fiber pairs | 12 |
 | Operational | 2025 (delayed) |
@@ -39,7 +39,7 @@ Meta's Asia connectivity:
 - Indonesia
 - Philippines
 - Singapore
-- Mexico (branch)
+- [[Mexico]] (branch)
 
 ---
 
@@ -55,9 +55,9 @@ Meta's Asia connectivity:
 
 ## Strategic importance
 
-**Meta's SE Asia play:**
+**Meta's SE [[Asia]] play:**
 - 700M+ users in region
-- WhatsApp, Instagram growth
+- [[WhatsApp]], Instagram growth
 - Direct US connectivity
 - Reduces latency
 
@@ -67,7 +67,7 @@ Meta's Asia connectivity:
 
 | Metric | Value |
 |--------|-------|
-| Route | US-SE Asia |
+| Route | US-SE [[Asia]] |
 | Length | ~20,000 km |
 | Fiber pairs | 12 |
 | Operational | 2025 |
@@ -80,7 +80,7 @@ Meta's Asia connectivity:
 
 - [[Meta]] — lead investor, primary beneficiary
 - [[Echo Cable]] — peer (Meta's Singapore-US cable)
-- [[Apricot Cable]] — peer (Meta-Google Asia-Pacific)
+- [[Apricot Cable]] — peer (Meta-[[Google]] [[Asia]]-Pacific)
 - [[Submarine Cables]] — infrastructure context
 - [[Southeast Asia tech race]] — regional demand driver
 

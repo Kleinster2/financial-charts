@@ -1,6 +1,6 @@
 #concept #cybersecurity #thesis
 
-**Cybersecurity consolidation** — the market is fragmenting into platform winners and point-solution losers. Bet on the consolidators.
+**[[Cybersecurity]] consolidation** — the market is fragmenting into platform winners and point-solution losers. Bet on the consolidators.
 
 ---
 

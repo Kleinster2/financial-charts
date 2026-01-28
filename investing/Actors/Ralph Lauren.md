@@ -46,7 +46,7 @@ aliases: [RL, Ralph Lauren Corporation, Polo]
 | **Wholesale exits** | Pulled from off-price/discount channels |
 | **DTC growth** | Now ~60% of revenue (up from ~50%) |
 | **Full-price mix** | Improving every quarter |
-| **Luxury positioning** | Competing with European houses, not Gap |
+| **Luxury positioning** | Competing with European houses, not [[Gap]] |
 
 Key insight: Ralph Lauren was a $10B+ revenue company at peak (2015) that deliberately shrank to fix the brand. Now growing again from a healthier base.
 
@@ -57,10 +57,10 @@ Key insight: Ralph Lauren was a $10B+ revenue company at peak (2015) that delibe
 | Region | % Revenue | Growth (FY25 CC) |
 |--------|-----------|------------------|
 | North America | ~45% | +5% |
-| Europe | ~30% | +10% |
-| Asia | ~25% | +11% |
+| [[Europe]] | ~30% | +10% |
+| [[Asia]] | ~25% | +11% |
 
-**Europe and Asia growing faster** as brand elevation resonates internationally. US business more mature.
+**[[Europe]] and [[Asia]] growing faster** as brand elevation resonates internationally. US business more mature.
 
 ---
 
@@ -82,8 +82,8 @@ Key insight: Ralph Lauren was a $10B+ revenue company at peak (2015) that delibe
 - Brand elevation working (AUR +12%, margins expanding)
 - Stock at ATH but still ~18x PE (reasonable for luxury)
 - DTC at 60% with room to grow
-- Europe/Asia underpenetrated
-- Gross margin approaching luxury peers (59% vs 65%+ for Hermès)
+- [[Europe]]/[[Asia]] underpenetrated
+- Gross margin approaching luxury peers (59% vs 65%+ for [[Hermès]])
 - Founder still involved as creative force
 
 **Bear:**

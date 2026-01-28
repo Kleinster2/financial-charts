@@ -32,7 +32,7 @@ Merger of Fifth National Bank and Third National Bank in 1909.
 | Segment | Description |
 |---------|-------------|
 | **Commercial** | Middle market, corporate |
-| **Consumer** | Branch banking |
+| **[[Consumer]]** | Branch banking |
 | **Wealth & Asset Mgmt** | Advisory |
 
 Commercial-focused regional.

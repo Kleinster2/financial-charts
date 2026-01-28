@@ -1,9 +1,9 @@
 ---
-aliases: [Gerard Cardinale, RedBird Capital, RedBird]
+aliases: [Gerard Cardinale, [[RedBird Capital]], RedBird]
 ---
 #actor #person #investor #sports #media #usa
 
-**Gerry Cardinale** — RedBird Capital founder. Sports/media investor. Co-investor in Skydance/Paramount deal. Owns AC Milan, Toulouse FC, YES Network stake.
+**Gerry Cardinale** — [[RedBird Capital]] founder. Sports/media investor. Co-investor in Skydance/Paramount deal. Owns AC Milan, Toulouse FC, YES Network stake.
 
 ---
 
@@ -11,14 +11,14 @@ aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 
 | Metric | Value |
 |--------|-------|
-| Role | Founder/Managing Partner, RedBird Capital |
+| Role | Founder/Managing Partner, [[RedBird Capital]] |
 | AUM | **~$10B** |
 | Focus | Sports, media, entertainment |
 | Key deal | **Skydance/Paramount co-investor** |
 
 ---
 
-## RedBird Capital
+## [[RedBird Capital]]
 
 | Metric | Value |
 |--------|-------|
@@ -65,9 +65,9 @@ aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 
 | Period | Role |
 |--------|------|
-| 1990-2014 | Goldman Sachs (partner) |
+| 1990-2014 | [[Goldman Sachs]] (partner) |
 | Goldman | Built sports/media practice |
-| 2014 | Founded RedBird Capital |
+| 2014 | Founded [[RedBird Capital]] |
 | Deals at GS | NFL, MLB, NHL transactions |
 
 ---
@@ -76,7 +76,7 @@ aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 
 | Principle | Application |
 |-----------|-------------|
-| Sports = undervalued media | Teams are content platforms |
+| Sports = undervalued media | [[Teams]] are content platforms |
 | Live events | Can't be time-shifted |
 | Global expansion | US sports model exportable |
 | Vertical integration | Own team + media rights |
@@ -89,7 +89,7 @@ aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 |--------|-------|
 | Acquired | 2022 |
 | Price | ~$1.2B |
-| Seller | Elliott Management |
+| Seller | [[Elliott Management]] |
 | Strategy | Global brand, Serie A media rights |
 
 ---
@@ -119,7 +119,7 @@ aliases: [Gerard Cardinale, RedBird Capital, RedBird]
 
 | Metric | Value |
 |--------|-------|
-| Firm | RedBird Capital |
+| Firm | [[RedBird Capital]] |
 | AUM | ~$10B |
 | Focus | Sports/media |
 | Key deal | Paramount co-investor |

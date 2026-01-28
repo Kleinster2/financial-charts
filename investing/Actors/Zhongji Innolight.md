@@ -3,7 +3,7 @@ aliases: [中际旭创, 300308]
 ---
 #actor #optical #china #ai-infrastructure
 
-**Zhongji Innolight** — Chinese optical module maker. Shenzhen-listed, seeking $3B+ Hong Kong secondary listing. Key supplier for AI data center networking.
+**Zhongji Innolight** — Chinese optical module maker. [[Shenzhen]]-listed, seeking $3B+ Hong Kong secondary listing. Key supplier for AI data center networking.
 
 ---
 
@@ -13,7 +13,7 @@ Optical modules are critical for AI data center interconnects:
 
 | Metric | Value |
 |--------|-------|
-| Primary listing | Shenzhen (300308) |
+| Primary listing | [[Shenzhen]] (300308) |
 | Secondary listing | Hong Kong ($3B+, 2026) |
 | Business | Optical communication modules |
 | End market | Data centers, AI networking |
@@ -36,12 +36,12 @@ Key beneficiary of AI infrastructure buildout.
 
 | Metric | Value |
 |--------|-------|
-| Target raise | **$3B+** |
-| Exchange | HKEX |
-| Banks | Selected |
+| [[Target]] raise | **$3B+** |
+| Exchange | [[HKEX]] |
+| [[Banks]] | Selected |
 | Status | In preparation |
 
-Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO pipeline 2026]]).
+Part of wave of [[Shenzhen]]-listed Chinese firms adding HK listings (see [[Asia IPO pipeline 2026]]).
 
 ---
 
@@ -52,7 +52,7 @@ Part of wave of Shenzhen-listed Chinese firms adding HK listings (see [[Asia IPO
 | Lumentum | US optical |
 | Coherent | US optical |
 | II-VI | US optical |
-| Fabrinet | Contract manufacturer |
+| [[Fabrinet]] | Contract manufacturer |
 
 Chinese domestic leader with cost advantage.
 
@@ -70,7 +70,7 @@ Chinese domestic leader with cost advantage.
 - Export control risk (if targeted)
 - Customer concentration
 - Cyclical end markets
-- Competition from US/Japan optical
+- Competition from US/[[Japan]] optical
 
 ---
 

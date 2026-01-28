@@ -3,19 +3,19 @@ aliases: [Hangzhou Tech]
 ---
 #actor #china #tech-hub #ai
 
-**Hangzhou** — China's AI and software hub. Home to Alibaba, DeepSeek, Unitree. Complementary to Shenzhen (software vs hardware focus).
+**Hangzhou** — [[China]]'s AI and software hub. [[Home]] to Alibaba, DeepSeek, Unitree. Complementary to Shenzhen (software vs hardware focus).
 
 ---
 
 ## Why Hangzhou matters
 
-No longer just "West Lake city" — now China's most aggressive AI launchpad:
+No longer just "West Lake city" — now [[China]]'s most aggressive AI launchpad:
 
 | Metric | Value |
 |--------|-------|
 | Key platform | [[Alibaba]] (e-commerce, cloud) |
-| AI labs | [[DeepSeek]], MiniMax, others |
-| Robotics | [[Unitree]] (quadruped robots) |
+| AI labs | [[DeepSeek]], [[MiniMax]], others |
+| [[Robotics]] | [[Unitree]] (quadruped robots) |
 | University | Zhejiang University (ZJU) |
 | Focus | Software, AI, algorithms |
 
@@ -26,7 +26,7 @@ No longer just "West Lake city" — now China's most aggressive AI launchpad:
 | Factor | Hangzhou | Shenzhen |
 |--------|----------|----------|
 | **Focus** | Software, AI, platforms | Hardware, manufacturing |
-| **Champions** | Alibaba, DeepSeek, Unitree | BYD, DJI, ZTE, Huawei |
+| **Champions** | Alibaba, DeepSeek, Unitree | [[BYD]], [[DJI]], ZTE, [[Huawei]] |
 | **Talent source** | ZJU, Alibaba alumni | Foxconn, supply chain |
 | **Investor profile** | VC, growth equity | Industrial, strategic |
 | **Advantage** | Data, algorithms, platform effects | Supply chain, scale manufacturing |
@@ -44,7 +44,7 @@ No longer just "West Lake city" — now China's most aggressive AI launchpad:
 
 ### Policy support
 - Subsidies for skilled workers
-- Housing/residency support for talent
+- [[Housing]]/residency support for talent
 - Lab-to-commercial partnership programs
 - Less interference in day-to-day operations
 
@@ -57,7 +57,7 @@ No longer just "West Lake city" — now China's most aggressive AI launchpad:
 ### Infrastructure
 - Alibaba Cloud data centers
 - E-commerce logistics networks
-- Payment infrastructure (Alipay)
+- Payment infrastructure ([[Alipay]])
 - Ready-made B2B customer base
 
 ---
@@ -70,13 +70,13 @@ No longer just "West Lake city" — now China's most aggressive AI launchpad:
 | [[DeepSeek]] | AI models (R1) | Private, rising |
 | [[Unitree]] | Quadruped robotics | Private |
 | Hikvision | Computer vision | Public |
-| NetEase | Gaming | Public |
+| NetEase | [[Gaming]] | Public |
 
 ---
 
 ## The "six dragons" narrative
 
-Chinese media describes Hangzhou's AI startups as part of China's "six dragons" — leading AI companies challenging US dominance. DeepSeek is the most prominent Hangzhou representative.
+Chinese media describes Hangzhou's AI startups as part of [[China]]'s "six dragons" — leading AI companies challenging US dominance. DeepSeek is the most prominent Hangzhou representative.
 
 ---
 
@@ -86,10 +86,10 @@ Beyond frontier labs, Hangzhou has an indie AI hub in [[Liangzhu]] suburb:
 
 | Aspect | Frontier (DeepSeek) | Indie (Liangzhu) |
 |--------|---------------------|------------------|
-| Focus | Foundation models | Consumer apps |
+| Focus | Foundation models | [[Consumer]] apps |
 | Products | R1, V3 | ADHD tools, fitness gamification |
 | Vibe | Technical, VC-backed | Hipster, bootstrapped |
-| Target | Enterprise, API | Global consumers |
+| [[Target]] | Enterprise, API | Global consumers |
 
 **Liangzhu "villagers":** Silicon Valley alumni + big tech refugees building quirky lifestyle AI.
 
@@ -104,7 +104,7 @@ Beyond frontier labs, Hangzhou has an indie AI hub in [[Liangzhu]] suburb:
 - [[DeepSeek]] — private, watch for funding rounds
 - [[Unitree]] — private, robotics exposure
 
-**Thesis:** Hangzhou = China's AI software stack. If you're bullish on China AI capability development, Hangzhou companies are the lab.
+**Thesis:** Hangzhou = [[China]]'s AI software stack. If you're bullish on [[China]] AI capability development, Hangzhou companies are the lab.
 
 ---
 

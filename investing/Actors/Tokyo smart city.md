@@ -3,7 +3,7 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 ---
 #actor #geography #smartcity #asia
 
-**Tokyo smart city** — World's largest metro (37M) with advanced transit, earthquake early warning (80 sec advance), and Olympics 2020 digital legacy. Society 5.0 national framework. 5G/6G push for 2025-2030.
+**Tokyo smart city** — World's largest metro (37M) with advanced transit, earthquake early warning (80 sec advance), and Olympics 2020 digital legacy. Society 5.0 national framework. [[5G]]/6G push for 2025-2030.
 
 ---
 
@@ -56,9 +56,9 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 
 | Initiative | Status |
 |------------|--------|
-| 5G deployment | Accelerated |
+| [[5G]] deployment | Accelerated |
 | Facial recognition | Tested at venues |
-| Autonomous vehicles | Trials conducted |
+| [[Autonomous vehicles]] | Trials conducted |
 | Robot assistants | Deployed |
 | Multilingual AI | Information services |
 
@@ -66,12 +66,12 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 
 ## Society 5.0
 
-**Japan's national smart city framework** — human-centered technology integration.
+**[[Japan]]'s national smart city framework** — human-centered technology integration.
 
 | Pillar | Tokyo application |
 |--------|-------------------|
 | Mobility | MaaS integration |
-| Healthcare | Telemedicine expansion |
+| [[Healthcare]] | Telemedicine expansion |
 | Infrastructure | Predictive maintenance |
 | Resilience | Disaster response |
 
@@ -83,12 +83,12 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 
 | Technology | Status |
 |------------|--------|
-| 5G | Major deployment |
-| 6G research | NTT leading |
+| [[5G]] | Major deployment |
+| 6G research | [[NTT]] leading |
 | Fiber | Near-universal |
 | Public Wi-Fi | Expanding |
 
-### Sensors
+### [[Sensors]]
 
 | System | Coverage |
 |--------|----------|
@@ -101,7 +101,7 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 
 ## 2025-2030 initiatives
 
-| Initiative | Target |
+| Initiative | [[Target]] |
 |------------|--------|
 | **MaaS integration** | Unified mobility platform |
 | **Digital twin** | City simulation |
@@ -125,7 +125,7 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 
 | Angle | Detail |
 |-------|--------|
-| **NTT/DOCOMO** | 5G/6G infrastructure |
+| **[[NTT]]/DOCOMO** | [[5G]]/6G infrastructure |
 | **Hitachi** | Urban solutions, rail |
 | **Disaster tech** | Early warning systems |
 | **MaaS platforms** | Integration plays |
@@ -140,7 +140,7 @@ aliases: [Smart Tokyo, Society 5.0 Tokyo]
 - [[Society 5.0]] — national framework
 
 ### Actors
-- NTT — telecommunications, 6G research
+- [[NTT]] — telecommunications, 6G research
 - Hitachi — urban infrastructure
 - JR East — rail operator
 

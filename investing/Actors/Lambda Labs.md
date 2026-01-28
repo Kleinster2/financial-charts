@@ -26,7 +26,7 @@ Lambda is the developer-focused alternative to hyperscaler GPU clouds:
 - Simpler than AWS/Azure
 - Competitive pricing
 
-**Target customers:**
+**[[Target]] customers:**
 - AI/ML researchers
 - Startups (can't negotiate hyperscaler deals)
 - Academic institutions
@@ -60,7 +60,7 @@ Lambda is the developer-focused alternative to hyperscaler GPU clouds:
 Lambda is cited alongside [[CoreWeave]] as part of NVIDIA's demand ecosystem:
 
 - NVIDIA reportedly involved in financing
-- Ed Zitron (Dec 2025): questioned why NVIDIA "backstopping $26B for Lambda/Oracle/CoreWeave"
+- Ed Zitron (Dec 2025): questioned why NVIDIA "backstopping $26B for Lambda/[[Oracle]]/CoreWeave"
 - Helps absorb GPU production when quarters need support
 - Creates opacity: NVIDIA → Lambda → End customer
 
@@ -85,7 +85,7 @@ See [[Neocloud financing]] for broader pattern.
 | AWS/Azure/GCP | Scale, ecosystem | Simpler UX |
 | [[CoreWeave]] | Availability | Developer focus |
 | [[Crusoe Energy]] | Cheap power | More locations |
-| Together AI | Inference | Training + inference |
+| [[Together AI]] | Inference | Training + inference |
 
 Lambda wins on developer experience for small-to-mid workloads.
 

@@ -22,8 +22,8 @@ aliases: [market microstructure, trading infrastructure]
 
 | Component | Examples |
 |-----------|----------|
-| Exchanges | NYSE, NASDAQ, CBOE |
-| Market makers | [[Citadel Securities]], Virtu, Jane Street |
+| Exchanges | NYSE, NASDAQ, [[CBOE]] |
+| Market makers | [[Citadel Securities]], Virtu, [[Jane Street]] |
 | Dark pools | Off-exchange venues |
 | Brokers | [[Robinhood]], [[Charles Schwab]], [[Fidelity]] |
 | Clearing | DTCC, OCC |
@@ -71,9 +71,9 @@ aliases: [market microstructure, trading infrastructure]
 
 | Trend | Beneficiaries |
 |-------|---------------|
-| PFOF growth | Citadel Securities, Virtu |
+| PFOF growth | [[Citadel]] Securities, Virtu |
 | Retail trading boom | Robinhood, market makers |
-| Crypto trading | Coinbase, crypto market makers |
+| [[Crypto]] trading | Coinbase, crypto market makers |
 | T+1 settlement | Clearing tech providers |
 
 ---

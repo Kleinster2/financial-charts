@@ -3,7 +3,7 @@ aliases: [Ontario Municipal Employees Retirement System]
 ---
 #actor #investor #pension #canada #infrastructure
 
-**OMERS** — Ontario Municipal Employees Retirement System. One of Canada's largest pension funds. C$138B AUM (Dec 2024), 8.3% return. Serves 500K+ members across 1,000+ Ontario municipal employers. Notable for high alternatives allocation (61%) — infrastructure (23%), private equity (20%), real estate (13%). Co-led [[Northvolt]]'s $2.75B round (Jun 2021).
+**OMERS** — Ontario Municipal Employees Retirement System. One of [[Canada]]'s largest pension funds. C$138B AUM (Dec 2024), 8.3% return. Serves 500K+ members across 1,000+ Ontario municipal employers. Notable for high alternatives allocation (61%) — infrastructure (23%), private equity (20%), real estate (13%). Co-led [[Northvolt]]'s $2.75B round (Jun 2021).
 
 ---
 
@@ -20,7 +20,7 @@ aliases: [Ontario Municipal Employees Retirement System]
 
 ---
 
-## Asset allocation
+## [[Asset allocation]]
 
 | Asset class | Allocation | 2024 return |
 |-------------|------------|-------------|
@@ -29,7 +29,7 @@ aliases: [Ontario Municipal Employees Retirement System]
 | Private equity | 20% | 9.5% |
 | Real estate | 13% | -4.9% |
 | Public credit | 12% | 6.0% |
-| Private credit | 12% | 12.6% |
+| [[Private credit]] | 12% | 12.6% |
 | Government bonds | 9% | 1.0% |
 | Cash/funding | 9% | — |
 
@@ -42,9 +42,9 @@ aliases: [Ontario Municipal Employees Retirement System]
 | Region | Share |
 |--------|-------|
 | **United States** | 53% |
-| Canada | 19% |
-| Europe | 17% |
-| Asia-Pacific + other | 11% |
+| [[Canada]] | 19% |
+| [[Europe]] | 17% |
+| [[Asia]]-Pacific + other | 11% |
 
 ---
 
@@ -54,7 +54,7 @@ aliases: [Ontario Municipal Employees Retirement System]
 |------------|-------|-----|
 | **OMERS Infrastructure** | Infrastructure | C$36B |
 | **Oxford Properties** | Real estate | — |
-| **OMERS Private Equity** | PE/growth | — |
+| **OMERS [[Private Equity]]** | PE/growth | — |
 | **OMERS Ventures** | Venture capital | — |
 
 ---
@@ -65,8 +65,8 @@ OMERS owns 33 infrastructure assets representing 23% of total fund (C$36B).
 
 | Type | Examples |
 |------|----------|
-| Utilities | UK gas network (first intl investment, 2003) |
-| Transport | Airports, ports |
+| Utilities | [[UK]] gas network (first intl investment, 2003) |
+| [[Transport]] | Airports, ports |
 | Energy | Renewables |
 | Digital | Data centers |
 
@@ -79,7 +79,7 @@ OMERS owns 33 infrastructure assets representing 23% of total fund (C$36B).
 | Retail malls | Yorkdale, Square One, Scarborough Town Centre (Ontario) |
 | Residential | 6,000+ units (Vancouver, Toronto, Montreal) |
 | Office | 15M sq ft (Vancouver, Toronto, Calgary) |
-| Hotels | Across Canada |
+| Hotels | Across [[Canada]] |
 
 ### Notable deal
 

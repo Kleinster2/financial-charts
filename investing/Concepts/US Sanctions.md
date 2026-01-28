@@ -9,12 +9,12 @@ aliases: [Sanctions, export sanctions]
 
 ## Sanctions in AI/semiconductor context
 
-| Target | Sanctions | Impact |
+| [[Target]] | Sanctions | Impact |
 |--------|-----------|--------|
-| China | Chip export controls | [[Export controls]] on advanced AI chips |
+| [[China]] | Chip export controls | [[Export controls]] on advanced AI chips |
 | Huawei | Entity list | Cut off from US tech |
 | Russia | Broad sanctions | Limited chip access |
-| [[Venezuela]] | Oil sanctions | Production collapsed, [[Chevron]] license |
+| [[Venezuela]] | [[Oil]] sanctions | Production collapsed, [[Chevron]] license |
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [Sanctions, export sanctions]
 |------|-------------|
 | Entity List | Companies banned from US tech |
 | SDN List | Individuals/entities frozen out of USD system |
-| Sectoral | Target specific industries |
+| Sectoral | [[Target]] specific industries |
 | Secondary | Punish third parties dealing with targets |
 | **Tariff-based (NEW)** | Use tariffs to punish third parties (Jan 2026) |
 
@@ -52,10 +52,10 @@ See [[Secondary sanctions]] for detailed analysis of both traditional and tariff
 | Clear legal framework | Novel, legally uncertain |
 
 **Targets:**
-- China (90%+ of Iran oil trade) — could face 74%+ total tariff
-- India, UAE, Turkey — major Iran trading partners
+- [[China]] (90%+ of Iran oil trade) — could face 74%+ total tariff
+- [[India]], UAE, Turkey — major Iran trading partners
 
-**Legal basis:** International Emergency Economic Powers Act (IEEPA) — same authority used for China tariffs, currently under Supreme Court challenge.
+**Legal basis:** International Emergency Economic Powers Act (IEEPA) — same authority used for [[China]] tariffs, currently under Supreme Court challenge.
 
 **Investment implication:** Blurs line between trade policy and sanctions. Third-country exposure now includes tariff risk, not just financial sanctions risk.
 
@@ -72,14 +72,14 @@ Traditional secondary sanctions approach (contrast with Iran tariff approach).
 | Tool | Detail |
 |------|--------|
 | G7 price cap | $60/barrel ceiling on Russian oil |
-| Shadow fleet sanctions | ~600 vessels designated by EU |
-| Secondary sanctions | Rosneft + Lukoil (50% of Russian production) |
+| Shadow fleet sanctions | ~600 vessels designated by [[EU]] |
+| Secondary sanctions | [[Rosneft]] + Lukoil (50% of Russian production) |
 | Enforcement | OFAC, Treasury, seizures |
 
 ### Jan 2025 package
 
 - 180+ shadow fleet tankers designated
-- Rosneft, Lukoil added to SDN list
+- [[Rosneft]], Lukoil added to SDN list
 - Blocks US financial system access for non-US entities doing business with them
 
 ### 2026 enforcement
@@ -98,14 +98,14 @@ Traditional secondary sanctions approach (contrast with Iran tariff approach).
 | Russian oil revenues | Slightly reduced |
 | Shadow fleet share | ~27% of Russian crude |
 
-**Challenge:** Shadow fleet, non-Western insurance, China/India buyers evading.
+**Challenge:** Shadow fleet, non-Western insurance, [[China]]/[[India]] buyers evading.
 
 ### Russia vs Iran: Two approaches
 
 | | Russia (traditional) | Iran (tariff-based) |
 |--|----------------------|---------------------|
 | **Tool** | OFAC SDN list, seizures | 25% tariff on trading partners |
-| **Target** | Specific companies, vessels | Entire countries |
+| **[[Target]]** | Specific companies, vessels | Entire countries |
 | **Legal basis** | Established sanctions law | IEEPA (novel, challenged) |
 | **Enforcement** | Treasury, Navy | Customs (unclear) |
 | **Effectiveness** | Leaky but functional | Untested |
@@ -130,8 +130,8 @@ See [[US Government]] for full policy landscape.
 
 | Scenario | Impact |
 |----------|--------|
-| New sanctions | Target companies fall, alternatives rise |
-| Sanctions lifted | Target companies rally |
+| New sanctions | [[Target]] companies fall, alternatives rise |
+| Sanctions lifted | [[Target]] companies rally |
 | Secondary sanctions | Third-party exposure risk |
 | Evasion | Compliance risk for enablers |
 
@@ -139,9 +139,9 @@ See [[US Government]] for full policy landscape.
 
 ## Current hot spots
 
-| Target | Status |
+| [[Target]] | Status |
 |--------|--------|
-| China chips | Escalating controls |
+| [[China]] chips | Escalating controls |
 | Russia | Comprehensive |
 | Venezuela | Partial lift ([[Chevron]] license), now [[Maduro capture 2026]] |
 | Iran | Comprehensive |
@@ -160,7 +160,7 @@ See [[US Government]] for full policy landscape.
 - [[Chinese teapot refineries]] — primary buyers of sanctioned crude
 
 ### Targets
-- [[Russia]] — oil price cap, shadow fleet, Rosneft/Lukoil secondary sanctions
+- [[Russia]] — oil price cap, shadow fleet, [[Rosneft]]/Lukoil secondary sanctions
 - [[Iran]] — comprehensive + tariff secondary sanctions (Jan 2026)
 - [[Iranian economic collapse]] — currency as instability indicator
 - [[Venezuela]] — oil sanctions case study

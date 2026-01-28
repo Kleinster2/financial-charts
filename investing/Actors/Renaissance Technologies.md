@@ -70,13 +70,13 @@ Open to outside investors — but vastly underperform Medallion.
 | Person | Role | Notes |
 |--------|------|-------|
 | Jim Simons | Founder | Died May 2024 |
-| **Peter Brown** | CEO | Joined 1993 (from IBM); co-CEO since 2010, sole CEO since 2017 |
-| **Robert Mercer** | Former co-CEO | Joined 1993 (from IBM); resigned 2017 over political controversy |
+| **Peter Brown** | CEO | Joined 1993 (from [[IBM]]); co-CEO since 2010, sole CEO since 2017 |
+| **Robert Mercer** | Former co-CEO | Joined 1993 (from [[IBM]]); resigned 2017 over political controversy |
 | Henry Laufer | Chief Scientist | Key figure in signal development |
 
 ### Brown & Mercer
 
-Both hired from IBM in 1993 — Simons doubled their salaries to recruit them. Their AI/computational expertise transformed Renaissance.
+Both hired from [[IBM]] in 1993 — Simons doubled their salaries to recruit them. Their AI/computational expertise transformed Renaissance.
 
 ### Robert Mercer controversy
 
@@ -133,7 +133,7 @@ Renaissance employees span political spectrum:
 
 **Why track Renaissance**:
 
-1. **Benchmark** — Medallion is the gold standard. All quants compared to it.
+1. **[[Benchmark]]** — Medallion is the gold standard. All quants compared to it.
 
 2. **Signals for quant health** — When external funds (RIEF, RIDA) struggle, it signals quant crowding.
 

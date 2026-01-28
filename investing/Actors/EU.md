@@ -16,7 +16,7 @@ aliases: [European Union, EEC]
 | GDP | ~$17T |
 | Founded | 1993 (Maastricht), EEC 1957 |
 | HQ | Brussels |
-| Currency | Euro (20 members) |
+| Currency | [[Euro]] (20 members) |
 
 ---
 
@@ -25,13 +25,13 @@ aliases: [European Union, EEC]
 | Region | Countries |
 |--------|-----------|
 | **Western** | Germany, France, Netherlands, Belgium, Luxembourg, Austria |
-| **Southern** | Italy, Spain, Portugal, Greece, Malta, Cyprus |
+| **Southern** | Italy, Spain, Portugal, [[Greece]], Malta, Cyprus |
 | **Nordic** | Sweden, Denmark, Finland |
 | **Eastern** | Poland, Czechia, Hungary, Slovakia, Romania, Bulgaria |
 | **Baltic** | Estonia, Latvia, Lithuania |
 | **Other** | Ireland, Slovenia, Croatia |
 
-**Left:** UK (Brexit 2020)
+**Left:** [[UK]] (Brexit 2020)
 
 **Candidates:** Ukraine, Moldova, Georgia, Western Balkans, Turkey (frozen)
 
@@ -55,7 +55,7 @@ aliases: [European Union, EEC]
 | Metric | Value |
 |--------|-------|
 | Members | **21** (as of Jan 2026) |
-| Currency | Euro (€) |
+| Currency | [[Euro]] (€) |
 | Central bank | [[ECB]] |
 | GDP | ~$14T |
 
@@ -103,9 +103,9 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 
 | Tool | Examples |
 |------|----------|
-| Antitrust | Google fines ($8B+) |
-| Merger control | Blocked Siemens-Alstom |
-| State aid | Apple Ireland €13B |
+| Antitrust | [[Google]] fines ($8B+) |
+| Merger control | Blocked [[Siemens]]-Alstom |
+| State aid | [[Apple]] Ireland €13B |
 
 ### Regulation
 
@@ -147,7 +147,7 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 | Single market access | Any EU presence = 450M consumers |
 | Regulatory arbitrage | Compliance = barrier to entry |
 | Green transition | IRA response, subsidies |
-| Defense | [[European defense spending]] |
+| [[Defense]] | [[European defense spending]] |
 | Chips | [[EU Chips Act]] |
 
 ### Key policy impacts
@@ -158,7 +158,7 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 | DMA | Big Tech (gatekeepers) |
 | AI Act | AI developers |
 | Green Deal | Energy, autos, industrials |
-| Taxonomy | ESG investment |
+| Taxonomy | [[ESG]] investment |
 
 ### EU-sensitive companies
 
@@ -178,7 +178,7 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 | **Unanimity** | Foreign policy, tax blocked |
 | **North-South** | Debt, fiscal transfers |
 | **East-West** | Rule of law (Hungary, Poland) |
-| **Competitiveness** | vs US, China |
+| **Competitiveness** | vs US, [[China]] |
 | **Energy** | Dependency, transition |
 | **Demographics** | Aging, migration |
 
@@ -186,13 +186,13 @@ See [[Trade Agreements]] and [[Trade]] for bilateral tensions.
 
 ## EU vs other blocs
 
-| Dimension | EU | US | China |
+| Dimension | EU | US | [[China]] |
 |-----------|-----|-----|-------|
 | GDP | $17T | $27T | $18T |
 | Population | 450M | 335M | 1.4B |
 | Integration | Deep | Federal | Unitary |
 | Trade policy | Common | National | National |
-| Currency | Euro (partial) | Dollar | Yuan |
+| Currency | [[Euro]] (partial) | Dollar | Yuan |
 
 ---
 

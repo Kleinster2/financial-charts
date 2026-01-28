@@ -1,6 +1,6 @@
 #actor #research #non-investable
 
-**TrendForce** — Taiwan-based research firm. Gold standard for memory and display pricing data.
+**TrendForce** — [[Taiwan]]-based research firm. [[Gold]] standard for memory and display pricing data.
 
 ---
 
@@ -45,7 +45,7 @@ TrendForce data useful for:
 |------|---------|
 | **TrendForce** | Memory, display (deepest) |
 | [[Counterpoint Research]] | Memory, mobile |
-| [[Omdia]] | Semiconductors, display |
+| [[Omdia]] | [[Semiconductors]], display |
 | [[IDC]] | PCs, servers |
 
 ---
@@ -55,7 +55,7 @@ TrendForce data useful for:
 | Metric | Value |
 |--------|-------|
 | Type | Market research firm |
-| HQ | Taipei, Taiwan |
+| HQ | Taipei, [[Taiwan]] |
 | Founded | 2000 |
 | Coverage | Memory, display, LED, energy |
 | Investable | No |

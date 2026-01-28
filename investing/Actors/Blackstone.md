@@ -20,7 +20,7 @@ Blackstone is the largest alternative asset manager — and increasingly an AI i
 
 ---
 
-## QTS Data Centers
+## QTS [[Data Centers]]
 
 **Acquired 2021 for $10B** — now cornerstone of Blackstone's digital infra strategy:
 
@@ -59,7 +59,7 @@ Blackstone is the largest alternative asset manager — and increasingly an AI i
 |--------|------------|--------------|
 | AUM | $1T+ | $273B |
 | DC approach | Own/operate (QTS) | Finance (JVs) |
-| Largest AI deal | QTS $10B | Meta $27B |
+| Largest AI deal | QTS $10B | [[Meta]] $27B |
 | Public stock | BX | OWL |
 
 Blackstone owns and operates; Blue Owl finances and co-invests.
@@ -87,7 +87,7 @@ Blackstone participated in CoreWeave's $7.5B+ debt financing:
 
 ---
 
-## CEO: Steve Schwarzman
+## CEO: [[Steve Schwarzman]]
 
 - Co-founder, Chairman, CEO
 - Major Republican donor
@@ -116,7 +116,7 @@ Political connections may matter for regulatory environment.
 
 ---
 
-## Single-family rental exposure
+## [[Single-family rental]] exposure
 
 **Invitation Homes spin-off:**
 - Blackstone built Invitation Homes (largest US single-family landlord)
@@ -130,7 +130,7 @@ Trump announced plans to ban institutional investors from buying single-family h
 - "People live in homes, not corporations"
 - Details expected at Davos
 - BX stock fell 6% (down 9.3% intraday)
-- Invitation Homes -7%, Apollo and BlackRock also hit
+- Invitation Homes -7%, [[Apollo]] and [[BlackRock]] also hit
 
 **Blackstone response:** "We have been a net seller of homes over the last decade — holdings down more than one-fifth."
 
@@ -145,7 +145,7 @@ See [[Institutional homebuying ban]] for full context.
 | Ticker | BX |
 | AUM | $1T+ |
 | Founded | 1985 |
-| CEO | Steve Schwarzman |
+| CEO | [[Steve Schwarzman]] |
 | DC platform | QTS |
 
 *Updated 2026-01-15*

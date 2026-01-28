@@ -20,7 +20,7 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 - 11M underserved consumers accessible
 - Tourism boom (90 miles from Florida)
-- Telecom/infrastructure buildout
+- [[Telecom]]/infrastructure buildout
 - Remittance flows unrestricted
 - Real estate development
 
@@ -32,7 +32,7 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 | Factor | Venezuela | Cuba |
 |--------|-----------|------|
-| Prize | Oil (303B barrels) | Tourism, consumer market |
+| Prize | [[Oil]] (303B barrels) | Tourism, consumer market |
 | US interest | Energy security | Diaspora politics, proximity |
 | Distance | ~2,000 miles | 90 miles |
 | Diaspora | Scattered | Florida (1.5M, politically active) |
@@ -43,7 +43,7 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 ## Investment hierarchy
 
-### Tier 1: Cruise lines (highest leverage)
+### Tier 1: [[Cruise]] lines (highest leverage)
 
 | Company | Angle | Status |
 |---------|-------|--------|
@@ -57,39 +57,39 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 
 | Company | Angle |
 |---------|-------|
-| American Airlines | Miami hub, had Cuba flights |
+| [[American Airlines]] | Miami hub, had Cuba flights |
 | JetBlue | Fort Lauderdale/Florida focus |
 | Delta | Atlanta hub |
 | Marriott | Had Havana hotel (first US brand) |
 | Hilton | Development pipeline ready |
-| Airbnb | Already operates (casa particulares) |
+| [[Airbnb]] | Already operates (casa particulares) |
 
-### Tier 3: Telecom/Infrastructure
+### Tier 3: [[Telecom]]/Infrastructure
 
 | Company | Angle |
 |---------|-------|
-| AT&T, Verizon, T-Mobile | Cell/internet buildout |
-| Starlink ([[Tesla]]) | Satellite internet |
-| Caterpillar | Construction equipment |
-| Deere | Agricultural equipment |
+| [[AT&T]], [[Verizon]], [[T-Mobile]] | Cell/internet buildout |
+| [[Starlink]] ([[Tesla]]) | Satellite internet |
+| [[Caterpillar]] | Construction equipment |
+| [[Deere]] | Agricultural equipment |
 
-### Tier 4: Remittances/Fintech
+### Tier 4: Remittances/[[Fintech]]
 
 | Company | Angle |
 |---------|-------|
 | Western Union | Traditional remittances |
 | [[PayPal]] | Digital transfers |
 | [[Block]] | Cash App for diaspora |
-| Remitly, Wise | Fintech remittances |
+| Remitly, Wise | [[Fintech]] remittances |
 
-### Tier 5: Consumer
+### Tier 5: [[Consumer]]
 
 | Company | Angle |
 |---------|-------|
-| Coca-Cola | Iconic (Cuba was early market) |
-| PepsiCo | Consumer staples |
-| Walmart, Amazon | Retail entry |
-| Procter & Gamble | Consumer goods |
+| [[Coca-Cola]] | Iconic (Cuba was early market) |
+| [[PepsiCo]] | [[Consumer]] staples |
+| [[Walmart]], [[Amazon]] | Retail entry |
+| Procter & Gamble | [[Consumer]] goods |
 
 ---
 
@@ -99,7 +99,7 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 - 1.5M Cuban-Americans = built-in customer/investor base
 - Pent-up demand (frozen since 1959)
 - Venezuela precedent pressures regime
-- Oil subsidies cut = economic pressure
+- [[Oil]] subsidies cut = economic pressure
 - Infrastructure rebuild = multi-decade capex
 
 ---
@@ -110,20 +110,20 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 - US domestic politics (Florida voters)
 - Embargo has survived 60+ years
 - No oil = less US strategic interest
-- China/Russia support regime
+- [[China]]/[[Russia]] support regime
 - Property claims messy (pre-Castro seizures)
 
 ---
 
 ## Signposts to watch
 
-| Signal | Bullish | Bearish |
+| [[Signal]] | Bullish | Bearish |
 |--------|---------|---------|
 | Cuban leadership | Dies, flees, negotiates | Consolidates |
 | Venezuela oil | Cut off (pressure) | Continues somehow |
 | US policy | Sanctions eased | Tightened |
 | Protests | Grow (like 2021) | Suppressed |
-| Cruise lines | Announce Cuba plans | Silence |
+| [[Cruise]] lines | Announce Cuba plans | Silence |
 | Florida politics | Softens on Cuba | Hardline |
 
 ---

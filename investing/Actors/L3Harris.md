@@ -3,7 +3,7 @@ aliases: [LHX, L3, Harris]
 ---
 #actor #defense #usa #public #ai
 
-**L3Harris** — Defense electronics and communications. ISR, space, tactical radios. AI for signal processing.
+**L3Harris** — [[Defense]] electronics and communications. ISR, space, tactical radios. AI for signal processing.
 
 ---
 
@@ -22,7 +22,7 @@ aliases: [LHX, L3, Harris]
 
 | Segment | Products |
 |---------|----------|
-| Space & Airborne | ISR, space payloads, EW |
+| [[Space]] & Airborne | ISR, space payloads, EW |
 | Integrated Mission | C4ISR, training |
 | Communication Systems | Tactical radios, networks |
 | Aerojet Rocketdyne | Propulsion (acquired 2023) |
@@ -33,10 +33,10 @@ aliases: [LHX, L3, Harris]
 
 | Area | Application |
 |------|-------------|
-| Signal intelligence | AI processing |
+| [[Signal]] intelligence | AI processing |
 | ISR | Autonomous analysis |
 | Electronic warfare | ML for threat detection |
-| Space | Autonomous satellites |
+| [[Space]] | Autonomous satellites |
 
 ---
 
@@ -59,7 +59,7 @@ Spinning out Aerojet Rocketdyne missile business as **separately traded public c
 
 **Bull:**
 - ISR demand increasing
-- Space systems growth
+- [[Space]] systems growth
 - Tactical radio market leadership
 - Missile spinoff value unlock (30% combined upside per Jefferies)
 - Stallard (Vertical Research): top US pick alongside [[General Dynamics]]

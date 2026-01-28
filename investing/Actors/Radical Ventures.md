@@ -23,8 +23,8 @@ aliases: [Radical]
 | Company | Role | Status |
 |---------|------|--------|
 | **[[Cohere]]** | Lead investor | $7B |
-| **Waabi** | Lead | Autonomous trucking |
-| Various AI | — | Canada AI ecosystem |
+| **Waabi** | Lead | [[Autonomous trucking]] |
+| Various AI | — | [[Canada]] AI ecosystem |
 
 ---
 
@@ -40,7 +40,7 @@ Hinton's involvement = credibility in AI investing.
 
 ---
 
-## Canada AI ecosystem
+## [[Canada]] AI ecosystem
 
 | Asset | Detail |
 |-------|--------|

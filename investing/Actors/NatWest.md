@@ -3,7 +3,7 @@ aliases: [NatWest Group, NWG, Royal Bank of Scotland, RBS]
 ---
 #actor #bank #uk #retail-bank
 
-**NatWest Group** — UK retail and commercial bank. Formerly Royal Bank of Scotland. £16.3B income (2025E). 18%+ RoTE. Fully privatised May 2025 after 17 years of government ownership (84% stake from 2008 bailout). CEO Paul Thwaite (2023-) simplifying operations, cutting exec team. Best-performing UK bank stock since 2018 (+260%).
+**NatWest Group** — [[UK]] retail and commercial bank. Formerly Royal Bank of Scotland. £16.3B income (2025E). 18%+ RoTE. Fully privatised May 2025 after 17 years of government ownership (84% stake from 2008 bailout). CEO Paul Thwaite (2023-) simplifying operations, cutting exec team. Best-performing [[UK]] bank stock since 2018 (+260%).
 
 ---
 
@@ -23,9 +23,9 @@ aliases: [NatWest Group, NWG, Royal Bank of Scotland, RBS]
 | Ticker | **NWG** (LSE), NWG (NYSE) |
 
 ![[natwest-vs-peers.png]]
-*NatWest +260% since 2018 — best UK bank performer, far ahead of EUFN benchmark (+65%). Privatisation narrative + Thwaite simplification driving re-rating. Barclays +185%, HSBC +125%, Lloyds lagging at benchmark.*
+*NatWest +260% since 2018 — best [[UK]] bank performer, far ahead of [[EUFN]] benchmark (+65%). Privatisation narrative + Thwaite simplification driving re-rating. Barclays +185%, HSBC +125%, Lloyds lagging at benchmark.*
 
-*vs [[HSBC]] · [[Barclays]] · [[Lloyds]] · EUFN (benchmark)*
+*vs [[HSBC]] · [[Barclays]] · [[Lloyds]] · [[EUFN]] (benchmark)*
 
 ---
 
@@ -118,9 +118,9 @@ Appointed interim CEO Jul 2023 after Alison Rose resignation; permanent Feb 2024
 
 ## Related
 
-- [[Lloyds]] — UK peer (also received 2008 bailout)
-- [[Barclays]] — UK peer (avoided bailout)
-- [[HSBC]] — UK peer
+- [[Lloyds]] — [[UK]] peer (also received 2008 bailout)
+- [[Barclays]] — [[UK]] peer (avoided bailout)
+- [[HSBC]] — [[UK]] peer
 - [[UK Banks]] — sector
 
 ---

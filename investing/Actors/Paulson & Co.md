@@ -25,12 +25,12 @@ aliases: [Paulson, John Paulson]
 |------|--------|
 | Net worth | ~$3B (down from $15B+) |
 | Famous trade | 2007-08 subprime short |
-| Book about | *The Greatest Trade Ever* |
+| Book about | *The Greatest [[Trade]] Ever* |
 | Status | Converted to family office |
 
 ---
 
-## The Greatest Trade Ever (2007-08)
+## The Greatest [[Trade]] Ever (2007-08)
 
 | Aspect | Detail |
 |--------|--------|
@@ -58,7 +58,7 @@ Largest single trade profit in history.
 
 | Year | Issue |
 |------|-------|
-| 2011 | Gold fund lost 50%+ |
+| 2011 | [[Gold]] fund lost 50%+ |
 | 2012-20 | Consistent losses |
 | 2020 | Converted to family office |
 | AUM | $36B → ~$3B |
@@ -74,7 +74,7 @@ Couldn't repeat success.
 | Event-driven | M&A, restructuring |
 | Contrarian | Bet against consensus |
 | Concentrated | Big positions |
-| Macro | Housing, gold |
+| Macro | [[Housing]], gold |
 
 ---
 

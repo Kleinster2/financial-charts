@@ -39,7 +39,7 @@ Premium fleet focused on high-spec rigs.
 | 2014 peak | $600K+/day |
 | 2016-20 trough | $150-250K/day |
 | 2023-25 | $400-500K/day |
-| Target | $500K+/day |
+| [[Target]] | $500K+/day |
 
 Higher rates = dramatically higher margins (high operating leverage).
 
@@ -59,15 +59,15 @@ Offshore recovery critical for deleveraging.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Limited:**
 
-- Venezuela mostly onshore/shallow water
+- [[Venezuela]] mostly onshore/shallow water
 - Transocean is deepwater-focused
-- Not a primary Venezuela play
+- Not a primary [[Venezuela]] play
 
-**Broader offshore:** Benefits from Brazil, Guyana, West Africa, not Venezuela.
+**Broader offshore:** Benefits from [[Brazil]], [[Guyana]], West [[Africa]], not [[Venezuela]].
 
 ---
 
@@ -96,7 +96,7 @@ Offshore recovery critical for deleveraging.
 | Ticker | RIG |
 | Market cap | ~$5B |
 | Fleet | ~40 rigs |
-| HQ | Steinhausen, Switzerland |
+| HQ | Steinhausen, [[Switzerland]] |
 
 *Created 2026-01-06*
 

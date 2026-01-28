@@ -45,14 +45,14 @@ Brookfield owns massive renewable energy portfolio:
 
 **Global energy transition strategy:** $20B raised (2024)
 
-**Asia Pacific expansion (Nov 2025):**
+**[[Asia]] Pacific expansion (Nov 2025):**
 
 | Deal | Location | Type |
 |------|----------|------|
 | Alba Renewables Pte | Philippines, Thailand | Acquisition |
 | Wind project | Vietnam | New investment |
 
-**Daniel Cheng (Head of Renewable Power, Asia Pacific):** "There's a very clear and mature market for investors to buy these operational assets that are long-term contracted."
+**Daniel Cheng (Head of Renewable Power, [[Asia]] Pacific):** "There's a very clear and mature market for investors to buy these operational assets that are long-term contracted."
 
 ---
 
@@ -81,9 +81,9 @@ Brookfield owns massive renewable energy portfolio:
 
 ---
 
-## Westinghouse acquisition
+## [[Westinghouse]] acquisition
 
-Brookfield + [[Cameco]] acquired Westinghouse (2023):
+Brookfield + [[Cameco]] acquired [[Westinghouse]] (2023):
 - Nuclear services and fuel
 - Links to [[Nuclear power for AI]] thesis
 - Vertical integration into power
@@ -94,7 +94,7 @@ Brookfield + [[Cameco]] acquired Westinghouse (2023):
 
 | Firm | AUM | DC focus | Differentiation |
 |------|-----|----------|-----------------|
-| [[Blackstone]] | $1T+ | QTS platform | Own/operate |
+| [[Blackstone]] | $1T+ | [[QTS]] platform | Own/operate |
 | [[Blue Owl]] | $273B | Pure DC finance | JV model |
 | **Brookfield** | $900B+ | Part of infra | Renewables integration |
 | [[DigitalBridge]] | $80B+ | Pure-play digital | Specialized |
@@ -123,7 +123,7 @@ Brookfield is generalist infrastructure; others more DC-focused.
 - [[Blackstone]] — peer (alternative asset manager)
 - [[Blue Owl]] — peer (AI infrastructure financing)
 - [[DigitalBridge]] — peer (digital infrastructure)
-- [[Cameco]] — co-investor (Westinghouse acquisition)
+- [[Cameco]] — co-investor ([[Westinghouse]] acquisition)
 - [[Power constraints]] — context (owns renewable assets)
 - [[AI infrastructure financing]] — thesis
-- [[Nuclear power for AI]] — exposure via Westinghouse
+- [[Nuclear power for AI]] — exposure via [[Westinghouse]]

@@ -43,9 +43,9 @@ NOV benefits when new rigs are built or upgraded.
 
 ---
 
-## Venezuela opportunity
+## [[Venezuela]] opportunity
 
-**If US companies rebuild Venezuela:**
+**If US companies rebuild [[Venezuela]]:**
 
 - Rig refurbishment/replacement
 - Drilling equipment needs

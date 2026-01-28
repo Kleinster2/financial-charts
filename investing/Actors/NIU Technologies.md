@@ -5,17 +5,17 @@ aliases: [NIU, Niu Technologies, Niu Tech]
 
 # NIU Technologies
 
-Chinese premium electric scooter maker. Founded 2014 by Li Yinan (ex-Baidu CTO) and Token Hu (ex-Microsoft China). NASDAQ: NIU. Differentiated from mass-market Chinese competitors by lithium-ion batteries (vs. lead-acid), smart connectivity, and design-forward branding. Stock +154% in 2025 on sales recovery. Small (~$500M market cap) but fastest-growing in the sector.
+Chinese premium electric scooter maker. Founded 2014 by Li Yinan (ex-[[Baidu]] CTO) and Token Hu (ex-[[Microsoft]] China). NASDAQ: NIU. Differentiated from mass-market Chinese competitors by lithium-ion batteries (vs. lead-acid), smart connectivity, and design-forward branding. Stock +154% in 2025 on sales recovery. Small (~$500M market cap) but fastest-growing in the sector.
 
 ---
 
 ## What makes NIU, NIU
 
 1. **Premium positioning** — Higher ASP than Yadea/AIMA mass-market competitors. Targets urban professionals, not rural commuters
-2. **Lithium-ion pioneer** — First Chinese e-scooter maker to use lithium batteries exclusively (crowdfunded first model). Now industry standard, but NIU established brand on it
-3. **Smart features** — App connectivity, GPS tracking, OTA updates, riding data. "Tesla of two-wheelers" positioning
+2. **[[Lithium]]-ion pioneer** — First Chinese e-scooter maker to use lithium batteries exclusively (crowdfunded first model). Now industry standard, but NIU established brand on it
+3. **Smart features** — App connectivity, GPS tracking, OTA updates, riding data. "[[Tesla]] of two-wheelers" positioning
 4. **Design language** — Distinctive, modern aesthetics vs. commodity look of mass-market Chinese brands
-5. **International ambitions** — Expanding in Europe and SE Asia, unlike Yadea's 97% China concentration
+5. **International ambitions** — Expanding in [[Europe]] and SE [[Asia]], unlike Yadea's 97% China concentration
 
 ---
 
@@ -50,7 +50,7 @@ Chinese premium electric scooter maker. Founded 2014 by Li Yinan (ex-Baidu CTO) 
 
 ## Founder story
 
-**Li Yinan** — former CTO of Baidu, one of China's most prominent tech executives. Founded NIU in 2014 after leaving Baidu. Was convicted of insider trading in 2016 and sentenced; released Mar 2018. Resigned from NIU shortly after. Later founded NIUTRON (electric cars, $500M Series A from IDG and Coatue).
+**Li Yinan** — former CTO of [[Baidu]], one of China's most prominent tech executives. Founded NIU in 2014 after leaving [[Baidu]]. Was convicted of insider trading in 2016 and sentenced; released Mar 2018. Resigned from NIU shortly after. Later founded NIUTRON (electric cars, $500M Series A from IDG and [[Coatue]]).
 
 The company continued to execute under professional management post-founder departure.
 
@@ -95,7 +95,7 @@ The company continued to execute under professional management post-founder depa
 
 - [[Electric Scooters]] — sector hub
 - [[Yadea]] — Chinese mass-market competitor (world's largest)
-- [[Gogoro]] — Taiwan battery-swap model (different approach)
+- [[Gogoro]] — [[Taiwan]] battery-swap model (different approach)
 - [[China]] — primary market
 - [[Micromobility]] — shared segment (NIU is personal ownership)
 

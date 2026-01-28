@@ -3,13 +3,13 @@ aliases: [旷视科技, Face++, Megvii Technology]
 ---
 #actor #china #ai #cv #public
 
-**Megvii (Face++)** — China computer vision pioneer. Tsinghua spinoff. Face++ platform. Public (Shanghai: 688256). On US Entity List.
+**Megvii (Face++)** — [[China]] computer vision pioneer. Tsinghua spinoff. Face++ platform. Public (Shanghai: 688256). On US Entity List.
 
 ---
 
 ## Why Megvii matters
 
-Early China AI success story, now facing headwinds:
+Early [[China]] AI success story, now facing headwinds:
 
 | Metric | Value |
 |--------|-------|
@@ -44,11 +44,11 @@ The product that put Megvii on the map:
 |--------|---------|
 | Launch | 2012 |
 | Model | API-based face recognition |
-| Users | Alipay, Didi, Lenovo, others |
+| Users | [[Alipay]], Didi, [[Lenovo]], others |
 | Scale | Billions of API calls |
-| Impact | Proved China CV could compete globally |
+| Impact | Proved [[China]] CV could compete globally |
 
-**Alipay deal:** Face++ powers Alipay's face verification. Massive scale validation.
+**[[Alipay]] deal:** Face++ powers [[Alipay]]'s face verification. Massive scale validation.
 
 ---
 
@@ -58,7 +58,7 @@ The product that put Megvii on the map:
 |---------|-------------|---------------|
 | IoT (City) | Smart city, surveillance | ~60% |
 | IoT (Supply Chain) | Logistics, robotics | ~25% |
-| Consumer | Mobile, fintech | ~15% |
+| [[Consumer]] | Mobile, fintech | ~15% |
 
 **Similar to [[SenseTime]]:** Heavy exposure to surveillance/smart city.
 
@@ -83,7 +83,7 @@ Added alongside SenseTime in 2019:
 |--------|---------|
 | IPO delay | Hong Kong IPO cancelled |
 | Relisting | Shanghai STAR instead |
-| Chip access | NVIDIA restrictions |
+| Chip access | [[NVIDIA]] restrictions |
 | Valuation | Compressed |
 
 ---
@@ -120,8 +120,8 @@ Added alongside SenseTime in 2019:
 
 **Bull case:**
 - Face++ brand recognition
-- Alipay relationship
-- Robotics/logistics pivot
+- [[Alipay]] relationship
+- [[Robotics]]/logistics pivot
 - Depressed valuation
 
 **Bear case:**
@@ -141,5 +141,5 @@ Added alongside SenseTime in 2019:
 - [[SenseTime]] — competitor/peer
 - [[China university-AI pipeline]] — origin (Tsinghua spinoff)
 - [[Sinovation Ventures]] — investor
-- [[Alibaba]] — customer (Alipay)
+- [[Alibaba]] — customer ([[Alipay]])
 - [[Export controls]] — context (Entity List)

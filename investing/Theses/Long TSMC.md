@@ -35,7 +35,7 @@ This isn't just "better yields" — it's a compounding advantage.
 | Layer | Lock-in |
 |-------|---------|
 | [[Process design kit]] | Engineers learn TSMC-specific timing, quirks |
-| EDA tools | Synopsys/Cadence calibrated to TSMC first |
+| EDA tools | [[Synopsys]]/[[Cadence]] calibrated to TSMC first |
 | IP libraries | Arm validates on TSMC before others |
 | Capacity | Best customers pre-book, squeezing others out |
 | Co-design | Years of optimization accumulate |
@@ -48,27 +48,27 @@ Each layer reinforces the others.
 
 - [ ] Apple continues extracting above-node gains
 - [ ] NVIDIA stays exclusive to TSMC for leading edge
-- [ ] AMD/Google Samsung experiments disappoint
-- [ ] Arizona ramp succeeds, reducing Taiwan risk discount
+- [ ] [[AMD]]/[[Google]] [[Samsung]] experiments disappoint
+- [ ] Arizona ramp succeeds, reducing [[Taiwan]] risk discount
 - [ ] Packaging (CoWoS) constraints ease
 
 ---
 
 ## What invalidates the thesis
 
-- [ ] Samsung yields reach 60%+ and win major customer
-- [ ] Intel 18A succeeds and takes share
-- [ ] Taiwan geopolitical risk materializes
-- [ ] Key customer defects (Apple to Samsung — unlikely)
+- [ ] [[Samsung]] yields reach 60%+ and win major customer
+- [ ] [[Intel]] 18A succeeds and takes share
+- [ ] [[Taiwan]] geopolitical risk materializes
+- [ ] Key customer defects (Apple to [[Samsung]] — unlikely)
 - [ ] Valuation gets too stretched
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - TSMC is already a quality compounder — priced for excellence
 - Upside comes from underappreciation of co-design moat depth
-- Taiwan risk is real but may be overweighted in current price
+- [[Taiwan]] risk is real but may be overweighted in current price
 - Not a "cheap" stock — thesis is about durability, not rerating
 
 ---
@@ -89,7 +89,7 @@ Can hold both views — one is absolute, one is relative.
 |------|-----------|---------------|-------|
 | 2025-12 | | NT$1,530 | Record high on pricing news |
 
-**Hedge portfolio**: Short SMH, buy back TSM weight (~10%). Isolates TSMC co-design moat from sector beta.
+**Hedge portfolio**: Short [[SMH]], buy back TSM weight (~10%). Isolates TSMC co-design moat from sector beta.
 
 ---
 

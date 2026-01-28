@@ -31,8 +31,8 @@ In semiconductor manufacturing, **yield** (percentage of working chips per wafer
 | Higher cost per chip | Uncompetitive pricing |
 | Unpredictable supply | Customers can't plan |
 | Quality issues | Defects in shipped products |
-| Ramp delays | Miss product launch windows |
-| Customer defection | Switch to reliable foundry |
+| [[Ramp]] delays | Miss product launch windows |
+| Customer defection | [[Switch]] to reliable foundry |
 
 **The trust problem:** Customers need to commit designs 18-24 months ahead. They won't bet on a foundry with yield uncertainty.
 
@@ -46,7 +46,7 @@ In semiconductor manufacturing, **yield** (percentage of working chips per wafer
 | [[TSMC]] | 2nm | 60%+ | Ramping, expected to improve |
 | [[Samsung]] | 3nm GAA | 55-65% | Improved from early struggles |
 | [[Samsung]] | 2nm | Unknown | Not yet in production |
-| [[Intel Foundry Services]] | Intel 3 | 60%+ | Internal only |
+| [[Intel Foundry Services]] | [[Intel]] 3 | 60%+ | Internal only |
 | [[Intel Foundry Services]] | 18A | Unknown | Not yet in production |
 
 **The gap:** TSMC's 2-year head start on 3nm GAA means accumulated yield learning Samsung can't shortcut.
@@ -97,7 +97,7 @@ In semiconductor manufacturing, **yield** (percentage of working chips per wafer
 - Can't win on price if yields are inferior
 - Every yield miss extends TSMC's lead
 
-**For Intel:**
+**For [[Intel]]:**
 - 18A yield will determine foundry viability
 - Internal chips are proving ground
 - External customers won't commit without yield proof

@@ -12,7 +12,7 @@ aliases: [LSEG, LSE Group]
 | Metric | Value |
 |--------|-------|
 | Founded | 1801 (exchange), 2007 (group) |
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 | Ticker | LSEG (London) |
 | Market cap | ~£55B |
 | Revenue (TTM) | ~$11.8B |
@@ -26,7 +26,7 @@ aliases: [LSEG, LSE Group]
 |---------|--------------|-------------|
 | **Data & Analytics** | ~70% | Refinitiv, Workspace, data feeds |
 | **Capital Markets** | ~15% | LSE, Turquoise, primary markets |
-| **Post Trade** | ~10% | LCH clearing, settlement |
+| **Post [[Trade]]** | ~10% | LCH clearing, settlement |
 | **FTSE Russell** | ~5% | Index licensing |
 
 ---
@@ -72,7 +72,7 @@ aliases: [LSEG, LSE Group]
 
 | Role | Name | Background |
 |------|------|------------|
-| CEO | David Schwimmer | Ex-Goldman Sachs (market structure, metals/mining) |
+| CEO | David Schwimmer | Ex-[[Goldman Sachs]] (market structure, metals/mining) |
 | Appointed | 2018 | — |
 
 ---
@@ -85,7 +85,7 @@ LSEG is the main challenger to [[Bloomberg LP]] in financial data. But:
 - No equivalent to Bloomberg Message network effects
 - Competing on price (~$22K vs Bloomberg ~$27K)
 
-**Differentiation:** Integration with exchange/clearing infrastructure. Microsoft partnership for cloud/AI.
+**Differentiation:** Integration with exchange/clearing infrastructure. [[Microsoft]] partnership for cloud/AI.
 
 ---
 

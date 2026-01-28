@@ -25,7 +25,7 @@ Israeli foundation model company:
 **$3B deal (reported late 2025):**
 - NVIDIA in advanced talks
 - Would add LLM capability
-- Israeli AI consolidation
+- Israeli [[AI consolidation]]
 - Jensen's Israel strategy
 
 ---
@@ -36,9 +36,9 @@ Israeli foundation model company:
 
 | Founder | Background |
 |---------|------------|
-| Yoav Shoham | Stanford AI professor |
+| Yoav Shoham | [[Stanford]] AI professor |
 | Ori Goshen | CEO |
-| Amnon Shashua | Mobileye founder (advisor) |
+| Amnon Shashua | [[Mobileye]] founder (advisor) |
 
 Academic + commercial pedigree.
 
@@ -47,7 +47,7 @@ Academic + commercial pedigree.
 ## Jamba models
 
 **Hybrid architecture:**
-- Mamba + Transformer hybrid
+- Mamba + [[Transformer]] hybrid
 - 256K context window
 - Efficient long context
 - Jamba 1.5 family
@@ -62,7 +62,7 @@ Different architecture bet.
 |---------|-------|
 | Jamba | Foundation models |
 | Jurassic | Earlier LLM series |
-| Wordtune | Consumer writing app |
+| Wordtune | [[Consumer]] writing app |
 | AI21 Studio | Enterprise API |
 
 ---
@@ -82,7 +82,7 @@ Competing with OpenAI/Anthropic for enterprise.
 ## Architectural innovation
 
 **Jamba architecture:**
-- Not pure Transformer
+- Not pure [[Transformer]]
 - Mamba (state space) hybrid
 - Better at long context
 - More efficient inference
@@ -106,7 +106,7 @@ Differentiated technical approach.
 **If acquisition closes:**
 - Premium for shareholders
 - NVIDIA gets LLM team
-- Israel AI consolidation
+- Israel [[AI consolidation]]
 - Not investable (private → acquired)
 
 ---
@@ -126,11 +126,11 @@ Differentiated technical approach.
 | Investor | Notes |
 |----------|-------|
 | Walden Catalyst | Lead (Series D) |
-| Intel Capital | Strategic |
-| Google | Strategic |
+| [[Intel Capital]] | Strategic |
+| [[Google]] | Strategic |
 | NVIDIA | Strategic |
-| Comcast Ventures | Growth |
-| Pitango Venture Capital | Israeli VC |
+| [[Comcast]] Ventures | Growth |
+| Pitango [[Venture Capital]] | Israeli VC |
 
 **Total raised:** $350M+
 

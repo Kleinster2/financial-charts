@@ -3,7 +3,7 @@ aliases: [Battery]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Battery Ventures** — Enterprise software VC. Coinbase, Groupon, Glassdoor investor. ~$13B AUM.
+**Battery Ventures** — Enterprise software VC. [[Coinbase]], Groupon, Glassdoor investor. ~$13B AUM.
 
 ---
 
@@ -22,11 +22,11 @@ aliases: [Battery]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Coinbase** | Early | Public (COIN) |
+| **[[Coinbase]]** | Early | Public (COIN) |
 | **Groupon** | Early | Public (GRPN) |
 | **Glassdoor** | Early | Acquired |
-| **Wayfair** | Early | Public (W) |
-| **Splunk** | Growth | Acquired by Cisco |
+| **[[Wayfair]]** | Early | Public (W) |
+| **Splunk** | Growth | Acquired by [[Cisco]] |
 
 ---
 
@@ -36,7 +36,7 @@ aliases: [Battery]
 |--------|----------|
 | **Enterprise software** | Core focus |
 | **Industrial tech** | Manufacturing |
-| **Consumer** | Selective |
+| **[[Consumer]]** | Selective |
 
 ---
 

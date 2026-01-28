@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #energy #nuclear #usa #public
 
-**Oklo** — Sam Altman-backed SMR company. Aurora microreactor. OpenAI connection.
+**Oklo** — Sam Altman-backed SMR company. [[Aurora]] microreactor. OpenAI connection.
 
 ---
 
@@ -17,7 +17,7 @@ Sam Altman's nuclear bet:
 | Market cap | ~$2B |
 | Chairman | Sam Altman |
 | Status | Pre-commercial |
-| Reactor | Aurora |
+| Reactor | [[Aurora]] |
 
 ---
 
@@ -33,7 +33,7 @@ Altman sees nuclear as AI enabler.
 
 ---
 
-## Aurora microreactor
+## [[Aurora]] microreactor
 
 | Spec | Value |
 |------|-------|
@@ -78,7 +78,7 @@ Smaller than NuScale's design.
 
 ## Customers
 
-| Target | Use Case |
+| [[Target]] | Use Case |
 |--------|----------|
 | Data centers | AI power demand |
 | Remote sites | Mining, military |

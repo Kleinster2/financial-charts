@@ -1,6 +1,6 @@
 #concept #ai #latam #productivity #wef
 
-**Latin America AI competitiveness** — regional AI adoption lags despite $1.1-1.7T annual potential. Only 6% of organizations report meaningful EBIT impact. Productivity pivot critical as demographic dividend fades.
+**Latin America AI competitiveness** — regional AI adoption lags despite $1.1-1.7T annual potential. Only 6% of organizations report meaningful EBIT impact. [[Productivity]] pivot critical as demographic dividend fades.
 
 > **Key insight:** Latin America gets only 1.6% of global AI investment despite representing 6.3% of global GDP. The region's productivity has *contracted* -0.3% annually (2015-2024), with GDP growth driven almost entirely by workforce expansion—a model that won't survive as birth rates fall and populations age.
 
@@ -18,7 +18,7 @@
 
 This represents ~6% of global AI's estimated $17-26T annual potential.
 
-**Productivity impact:** 1.9-2.3% annual productivity boost possible by 2030. For a region averaging -0.3% productivity growth, this would be transformational.
+**[[Productivity]] impact:** 1.9-2.3% annual productivity boost possible by 2030. For a region averaging -0.3% productivity growth, this would be transformational.
 
 ---
 
@@ -76,7 +76,7 @@ SMEs are 99.5% of Latin American businesses. Their exclusion is a major drag on 
 
 WEF/McKinsey identified six dimensions of AI competitiveness. Latin America's biggest gaps vs global leaders:
 
-| Dimension | LatAm avg | Global leaders | Gap |
+| Dimension | LatAm avg | Global leaders | [[Gap]] |
 |-----------|-----------|----------------|-----|
 | **Talent** | 23 | 52 | **29** |
 | Adoption & scaling | 27 | 57 | 30 |
@@ -97,7 +97,7 @@ WEF/McKinsey identified six dimensions of AI competitiveness. Latin America's bi
 
 **Latin America's historic growth model is broken:**
 
-| Period | Productivity CAGR | Employment CAGR | GDP CAGR |
+| Period | [[Productivity]] CAGR | Employment CAGR | GDP CAGR |
 |--------|-------------------|-----------------|----------|
 | 2005-2014 | 1.9% | 1.4% | 3.2% |
 | 2015-2024 | **-0.3%** | 1.2% | 0.9% |
@@ -125,12 +125,12 @@ The urban-rural divide threatens AI as a democratizing force.
 
 ### Energy
 
-Brazil advantage: **88% renewable electricity** (mostly hydro). Can power data centers cleanly *if* grid can connect generation to demand.
+[[Brazil]] advantage: **88% renewable electricity** (mostly hydro). Can power data centers cleanly *if* grid can connect generation to demand.
 
 Challenges elsewhere:
 - Colombia: Hydropower unreliable (droughts)
 - Caribbean: Still relies on diesel/fuel oil
-- Mexico (Querétaro): Public concern over data center water usage
+- [[Mexico]] ([[Querétaro]]): Public concern over data center water usage
 
 ---
 
@@ -143,18 +143,18 @@ Challenges elsewhere:
 | Company | Investment | Location |
 |---------|------------|----------|
 | [[OpenAI]] (Stargate) | $25B | Argentina |
-| [[Amazon]] (AWS) | $4B | Chile |
-| [[Microsoft]] | R$14.7B (~$2.5B) | Brazil |
-| [[Microsoft]] | $1.3B | Mexico |
-| [[Google]] | Various | Brazil, Chile ([[Humboldt Cable]]) |
+| [[Amazon]] (AWS) | $4B | [[Chile]] |
+| [[Microsoft]] | R$14.7B (~$2.5B) | [[Brazil]] |
+| [[Microsoft]] | $1.3B | [[Mexico]] |
+| [[Google]] | Various | [[Brazil]], [[Chile]] ([[Humboldt Cable]]) |
 
 ### Development finance
 
 | Source | Focus |
 |--------|-------|
 | [[IDB]] | Uruguay agtech, AI Framework, education initiatives |
-| BNDES | Brazil digital transformation/GenAI |
-| CORFO | Chile supercomputing |
+| BNDES | [[Brazil]] digital transformation/GenAI |
+| CORFO | [[Chile]] supercomputing |
 | [[CAF]] | $2.8B digital infra, regional HPC network, Latam-GPT funding |
 
 ---
@@ -165,18 +165,18 @@ Challenges elsewhere:
 
 | Country | Strength | Investment |
 |---------|----------|------------|
-| **Brazil** | 88% renewables, 11 AI research centers, $4B national plan | AWS $1.8B, Microsoft R$14.7B |
-| **Chile** | Humboldt cable (Australia), CORFO supercomputing | AWS $4B |
+| **[[Brazil]]** | 88% renewables, 11 AI research centers, $4B national plan | AWS $1.8B, Microsoft R$14.7B |
+| **[[Chile]]** | Humboldt cable ([[Australia]]), CORFO supercomputing | AWS $4B |
 | **Argentina** | OpenAI Stargate partnership | $25B proposed |
 
 ### Regulation
 
 | Country | Status |
 |---------|--------|
-| Uruguay | First LatAm signatory to Council of Europe AI Convention |
-| Brazil | Engaged UNESCO RAM methodology |
-| Mexico | Sovereign LLM announced; national digital strategy |
-| Multiple | Adopted OECD AI Principles (Argentina, Brazil, Chile, Colombia, Costa Rica, Mexico, Peru) |
+| Uruguay | First LatAm signatory to Council of [[Europe]] AI Convention |
+| [[Brazil]] | Engaged UNESCO RAM methodology |
+| [[Mexico]] | Sovereign LLM announced; national digital strategy |
+| Multiple | Adopted [[OECD]] AI [[Principles]] (Argentina, [[Brazil]], [[Chile]], Colombia, Costa Rica, [[Mexico]], Peru) |
 
 ---
 
@@ -186,12 +186,12 @@ AI can amplify Latin America's existing competitive advantages:
 
 | Sector | LatAm GDP share vs global | AI applications |
 |--------|---------------------------|-----------------|
-| **Agriculture** | **2x global average** | Drones, computer vision, yield prediction |
+| **[[Agriculture]]** | **2x global average** | [[Drones]], computer vision, yield prediction |
 | **Mining** | **2x global average** | Mineral analysis, worker safety |
 | Energy | Above average | Grid optimization |
 | Tourism | Above average | Visitor flow analytics |
 
-**Financial services lead:** Banks building multi-model AI platforms with governance. History of digital innovation (Nubank, Mercado Pago).
+**Financial services lead:** [[Banks]] building multi-model AI platforms with governance. History of digital innovation (Nubank, Mercado Pago).
 
 ---
 
@@ -199,7 +199,7 @@ AI can amplify Latin America's existing competitive advantages:
 
 **Problem:** Global LLMs often miss Latin American cultural/linguistic nuances.
 
-**Solution:** Chile's [[CENIA]] building Latam-GPT—50B parameter Spanish/Portuguese open-source LLM with 33 institutional partners across 12 countries. Trained on 8TB of regional data including indigenous languages. Launched December 2025.
+**Solution:** [[Chile]]'s [[CENIA]] building Latam-GPT—50B parameter Spanish/Portuguese open-source LLM with 33 institutional partners across 12 countries. Trained on 8TB of regional data including indigenous languages. Launched December 2025.
 
 **Funding:** ~$5.5M total ([[CAF]] $250K, CENIA $300K, Univ. of Tarapacá $5M supercomputer).
 
@@ -212,7 +212,7 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 ### Accelerate (immediate)
 1. **Create sector-focused AI strategies** — agriculture, mining, energy, tourism
 2. **Fuel AI sustainably** — expand renewables, grid connectivity
-3. **Build universal connectivity** — 5G, last-mile solutions
+3. **Build universal connectivity** — [[5G]], last-mile solutions
 
 ### Expand
 4. **Establish national data portals** — standardized, sector-segmented
@@ -220,7 +220,7 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 6. **Develop AI literacy** — curricula at all education levels, credentialing standards
 
 ### Sustain
-7. **Harmonize AI ethics/safety** — align with UNESCO, OECD frameworks
+7. **Harmonize AI ethics/safety** — align with UNESCO, [[OECD]] frameworks
 8. **Mobilize AI investment** — public-private funds, development bank anchoring
 9. **Build AI innovation centers** — computing + research + training + incubation
 10. **Foster regional collaboration** — shared infrastructure, knowledge transfer
@@ -231,9 +231,9 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 
 | Theme | Expression |
 |-------|------------|
-| Hyperscaler LatAm buildout | AMZN (AWS Chile), MSFT (Brazil, Mexico), GOOGL |
+| Hyperscaler LatAm buildout | AMZN (AWS [[Chile]]), MSFT ([[Brazil]], [[Mexico]]), GOOGL |
 | Data center expansion | [[Digital Realty]], [[Equinix]], [[Scala Data Centers]] |
-| Submarine cables | [[Humboldt Cable]] (Chile-Australia), [[EllaLink]] |
+| Submarine cables | [[Humboldt Cable]] ([[Chile]]-[[Australia]]), [[EllaLink]] |
 | Clean energy for AI | Brazilian renewables |
 | LatAm fintech AI | [[Nubank]], [[Mercado Libre]] (AI credit scoring) |
 
@@ -250,13 +250,13 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 | Metric | Value | Source |
 |--------|-------|--------|
 | AI economic potential | $1.1-1.7T/year | WEF/McKinsey 2026 |
-| Productivity boost potential | 1.9-2.3%/year | WEF/McKinsey 2026 |
+| [[Productivity]] boost potential | 1.9-2.3%/year | WEF/McKinsey 2026 |
 | Current productivity growth | -0.3%/year (2015-24) | ILO |
 | Organizations with EBIT impact | 6% (>5% impact) | Survey (n=129) |
 | Global AI investment share | 1.6% | ECLAC |
 | Global GDP share | 6.3% | — |
 | Broadband gap (rural-urban) | 30+ pp | World Bank |
-| Brazil renewable electricity | 88% | EPE |
+| [[Brazil]] renewable electricity | 88% | EPE |
 
 *Source: WEF/McKinsey "Latin America in the Intelligent Age" (Jan 2026)*
 
@@ -268,12 +268,12 @@ Plans to migrate from AWS to solar-powered Atacama Desert data center.
 - [[Mexico Tech]] — nearshoring, data centers
 - [[Argentina]] — OpenAI Stargate partnership
 - [[LATAM]] — regional hub
-- [[Humboldt Cable]] — Chile-Australia connectivity
-- [[Clean energy for AI]] — Brazil advantage
+- [[Humboldt Cable]] — [[Chile]]-[[Australia]] connectivity
+- [[Clean energy for AI]] — [[Brazil]] advantage
 - [[AI ML primer]] — technical foundations
 - [[Nubank]] — LatAm fintech AI leader
 - [[Mercado Libre]] — AI-driven credit, e-commerce ($110B, 72M fintech MAUs)
 - [[Scala Data Centers]] — LatAm data center operator
-- [[CENIA]] — Chile's National AI Center, Latam-GPT
+- [[CENIA]] — [[Chile]]'s National AI Center, Latam-GPT
 - [[CAF]] — Development Bank financing AI infrastructure
 - [[IDB]] — Inter-American Development Bank, AI Framework

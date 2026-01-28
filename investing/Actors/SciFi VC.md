@@ -5,7 +5,7 @@ aliases: [SciFi, Science Fiction VC]
 
 # SciFi VC
 
-**Venture capital firm** — founded 2017 by [[Max Levchin]] (PayPal, Affirm). Thesis: "Transform science fiction into reality." Focus on fintech, marketplaces, hard/regulated tech. Portfolio includes [[Brex]], Opendoor, Wise.
+**Venture capital firm** — founded 2017 by [[Max Levchin]] ([[PayPal]], Affirm). Thesis: "Transform science fiction into reality." Focus on fintech, marketplaces, hard/regulated tech. Portfolio includes [[Brex]], Opendoor, Wise.
 
 ---
 
@@ -17,7 +17,7 @@ aliases: [SciFi, Science Fiction VC]
 | Founder | [[Max Levchin]] |
 | HQ | San Francisco |
 | Thesis | Science fiction → reality |
-| Focus | Fintech, marketplaces, regulated industries |
+| Focus | [[Fintech]], marketplaces, regulated industries |
 
 ---
 
@@ -27,13 +27,13 @@ aliases: [SciFi, Science Fiction VC]
 
 | Sector | Examples |
 |--------|----------|
-| **Fintech** | [[Brex]], Wise |
+| **[[Fintech]]** | [[Brex]], Wise |
 | **Real estate** | Opendoor |
 | **Enterprise software** | Various |
-| **Healthcare** | Various |
+| **[[Healthcare]]** | Various |
 | **Security** | Various |
 
-**Philosophy:** Levchin's PayPal experience showed that hard problems (fraud, regulation) create moats. SciFi seeks similar opportunities.
+**Philosophy:** Levchin's [[PayPal]] experience showed that hard problems (fraud, regulation) create moats. SciFi seeks similar opportunities.
 
 ---
 
@@ -53,18 +53,18 @@ aliases: [SciFi, Science Fiction VC]
 
 1. **Levchin's network** — Access to [[PayPal mafia]] deal flow.
 
-2. **Fintech expertise** — PayPal + Affirm experience informs thesis.
+2. **[[Fintech]] expertise** — [[PayPal]] + Affirm experience informs thesis.
 
 3. **Brex early investor** — Caught fintech wave.
 
-4. **Signal value** — Levchin backing = technical validation.
+4. **[[Signal]] value** — Levchin backing = technical validation.
 
 ---
 
 ## Related
 
 ### Founder
-- [[Max Levchin]] — founder, PayPal/Affirm
+- [[Max Levchin]] — founder, [[PayPal]]/Affirm
 
 ### Portfolio
 - [[Brex]] — acquired by Capital One
@@ -77,7 +77,7 @@ aliases: [SciFi, Science Fiction VC]
 
 ### Peers
 - [[Ribbit Capital]] — fintech VC
-- Founders Fund — PayPal mafia fund
+- [[Founders Fund]] — [[PayPal]] mafia fund
 
 ---
 

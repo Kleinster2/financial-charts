@@ -3,19 +3,19 @@ aliases: [1337]
 ---
 #actor #gaming #singapore #consumer-electronics
 
-**Razer** — Gaming peripherals and lifestyle brand. Known for RGB everything. Project Ava holographic AI avatar at CES 2026.
+**Razer** — [[Gaming]] peripherals and lifestyle brand. Known for RGB everything. Project Ava holographic AI avatar at CES 2026.
 
 ---
 
 ## Why Razer matters
 
-Gaming hardware leader experimenting with AI:
+[[Gaming]] hardware leader experimenting with AI:
 
 | Metric | Value |
 |--------|-------|
 | HQ | Singapore (founded in San Diego) |
 | Ticker | 1337 (Hong Kong) |
-| Focus | Gaming peripherals, laptops |
+| Focus | [[Gaming]] peripherals, laptops |
 | Brand | Premium gaming lifestyle |
 
 ---
@@ -50,7 +50,7 @@ Similar approach to Lepro's "Ami" — giving AI avatars physical form factor.
 
 ## Business model
 
-**Gaming lifestyle brand:**
+**[[Gaming]] lifestyle brand:**
 - Premium pricing (Razer tax)
 - RGB lighting ecosystem (Chroma)
 - Community-driven (cult following)
@@ -69,7 +69,7 @@ Similar approach to Lepro's "Ami" — giving AI avatars physical form factor.
 **Bear:**
 - Premium pricing pressure
 - Competition from Logitech, SteelSeries, Corsair
-- Gaming hardware cyclical
+- [[Gaming]] hardware cyclical
 - Hong Kong listing limits liquidity
 
 ---
@@ -82,7 +82,7 @@ Similar approach to Lepro's "Ami" — giving AI avatars physical form factor.
 | HQ | Singapore |
 | Founded | 2005 |
 | Founders | Min-Liang Tan, Robert Krakoff |
-| Focus | Gaming peripherals, lifestyle |
+| Focus | [[Gaming]] peripherals, lifestyle |
 | Investable | Yes (Hong Kong) |
 
 *Updated 2026-01-15*

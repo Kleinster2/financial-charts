@@ -24,8 +24,8 @@ aliases: [Westinghouse Electric Company]
 - 1,100 MW capacity
 - Passive safety systems
 - Simplified design
-- Operating in China (4 units)
-- Under construction: Vogtle (US), UK
+- Operating in [[China]] (4 units)
+- Under construction: Vogtle (US), [[UK]]
 
 ---
 

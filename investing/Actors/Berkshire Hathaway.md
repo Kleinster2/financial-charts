@@ -23,11 +23,11 @@ aliases: [BRK, BRK.A, BRK.B]
 | Segment | Examples |
 |---------|----------|
 | **Insurance** | GEICO, Gen Re, Berkshire Hathaway Reinsurance |
-| **Railroads** | BNSF Railway |
+| **Railroads** | [[BNSF]] Railway |
 | **Utilities** | Berkshire Hathaway Energy |
 | **Manufacturing** | Precision Castparts, Lubrizol |
 | **Retail** | See's Candies, Dairy Queen |
-| **Equity Portfolio** | Apple (~45%), Bank of America, Coca-Cola |
+| **Equity Portfolio** | Apple (~45%), Bank of America, [[Coca-Cola]] |
 
 Insurance float funds everything else.
 

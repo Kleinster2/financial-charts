@@ -3,7 +3,7 @@ aliases: [Eu]
 ---
 #concept #commodities #china #critical
 
-**Europium** — The red phosphor rare earth. Essential for displays, night vision, and emerging quantum technologies. 95%+ China-controlled. Smaller market than [[Dysprosium]] but potential quantum computing catalyst.
+**Europium** — The red phosphor rare earth. Essential for displays, night vision, and emerging quantum technologies. 95%+ [[China]]-controlled. Smaller market than [[Dysprosium]] but potential quantum computing catalyst.
 
 ---
 
@@ -16,7 +16,7 @@ Europium produces pure red and blue luminescent colors — irreplaceable for col
 | Display phosphors | 45% | TVs, smartphones, monitors |
 | Lighting systems | 15% | LEDs, fluorescent |
 | Quantum technologies | 10% | Quantum dots, emerging |
-| Defense | 10% | Night vision, targeting |
+| [[Defense]] | 10% | Night vision, targeting |
 | Other | 20% | Anti-counterfeiting, medical |
 
 ---
@@ -44,15 +44,15 @@ Small market, but high value and no substitutes for premium applications.
 
 ---
 
-## China dominance
+## [[China]] dominance
 
-| Stage | China share |
+| Stage | [[China]] share |
 |-------|-------------|
 | Mining | ~90% |
 | Processing | ~95% |
 | End products | ~95% |
 
-**Vulnerability**: India imports 95% of rare earth needs from China. US/EU similar dependency for europium specifically.
+**Vulnerability**: [[India]] imports 95% of rare earth needs from [[China]]. US/[[EU]] similar dependency for europium specifically.
 
 ---
 
@@ -79,7 +79,7 @@ Small market, but high value and no substitutes for premium applications.
 
 Europium + yttrium + terbium create the green-hued visibility in military night vision.
 
-### Quantum computing (emerging)
+### [[Quantum computing]] (emerging)
 
 | Application | Potential |
 |-------------|-----------|
@@ -93,7 +93,7 @@ Currently 5% of demand, but potential 1000% growth if quantum computing scales. 
 
 ## 2025 export controls
 
-Europium was added to China's October 2025 rare earth restrictions:
+Europium was added to [[China]]'s October 2025 rare earth restrictions:
 
 | Date | Action |
 |------|--------|
@@ -113,7 +113,7 @@ See [[Rare earth leverage]] for full timeline.
 | Market size | 400-500 t/year | ~2,000 t/year |
 | Substitutes | Partial (OLED) | None |
 | Growth driver | Quantum (speculative) | EVs (certain) |
-| Defense use | Night vision | Guidance, motors |
+| [[Defense]] use | Night vision | Guidance, motors |
 
 **Dysprosium** is a crisis today. **Europium** could become one if quantum computing scales.
 
@@ -127,13 +127,13 @@ See [[Rare earth leverage]] for full timeline.
 - LED lighting (declining)
 
 **Future catalyst:**
-- Quantum computing adoption
+- [[Quantum computing]] adoption
 - Quantum dot TV proliferation
 - Premium display demand
 
 **Watch for:**
-- Quantum computing commercialization timeline
-- China export policy changes
+- [[Quantum computing]] commercialization timeline
+- [[China]] export policy changes
 - OLED vs quantum dot market share
 
 ---

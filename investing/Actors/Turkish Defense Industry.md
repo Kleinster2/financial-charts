@@ -3,7 +3,7 @@ aliases: [Turkey defense industry, Turkiye defense industry]
 ---
 #actor #industry #defense #turkey
 
-**Turkish Defense Industry** — Rapid growth, export-focused. Drone warfare pioneer (Bayraktar). Strategic autonomy from NATO suppliers.
+**Turkish Defense Industry** — Rapid growth, export-focused. [[Drone warfare]] pioneer (Bayraktar). Strategic autonomy from NATO suppliers.
 
 ---
 
@@ -11,8 +11,8 @@ aliases: [Turkey defense industry, Turkiye defense industry]
 
 | Company | Ownership | Focus |
 |---------|-----------|-------|
-| Baykar | Private (Erdogan family ties) | Drones (TB2, Akinci) |
-| TAI (Turkish Aerospace) | State/public | Aircraft, helicopters, UAVs |
+| Baykar | Private (Erdogan family ties) | [[Drones]] (TB2, Akinci) |
+| TAI (Turkish [[Aerospace]]) | State/public | Aircraft, helicopters, UAVs |
 | Aselsan | State/public | Electronics, radar, comms |
 | Roketsan | State | Missiles, rockets |
 | FNSS | Joint venture (BAE) | Armored vehicles |
@@ -41,7 +41,7 @@ aliases: [Turkey defense industry, Turkiye defense industry]
 |---------|--------|
 | Class | Heavy MALE/HALE |
 | Payload | 1,350 kg |
-| Weapons | Cruise missiles, bombs |
+| Weapons | [[Cruise]] missiles, bombs |
 | Status | Production, export orders |
 
 ---
@@ -50,7 +50,7 @@ aliases: [Turkey defense industry, Turkiye defense industry]
 
 | Category | Systems |
 |----------|---------|
-| Drones | TB2, Akinci, Anka, Kizilelma (jet) |
+| [[Drones]] | TB2, Akinci, Anka, Kizilelma (jet) |
 | Helicopters | T129 Atak, T625 |
 | Naval | MILGEM corvettes, TF-2000 frigate |
 | Vehicles | Altay tank, various APCs |
@@ -120,7 +120,7 @@ Limited for foreign investors:
 ## Investment thesis
 
 **Bull:**
-- Drone warfare leader
+- [[Drone warfare]] leader
 - Export growth trajectory
 - Price-competitive
 - Combat-proven systems

@@ -9,15 +9,15 @@ aliases: [良渚, Langju, Liangzhu Village]
 
 ## Why Liangzhu matters
 
-Liangzhu represents China's indie AI scene — distinct from frontier labs:
+Liangzhu represents [[China]]'s indie AI scene — distinct from frontier labs:
 
 | Aspect | Liangzhu | Six Little Dragons |
 |--------|----------|-------------------|
-| Focus | Consumer apps, lifestyle | Robotics, BCI, enterprise |
+| Focus | [[Consumer]] apps, lifestyle | [[Robotics]], BCI, enterprise |
 | Vibe | Hipster, creative | Technical, VC-backed |
 | Products | ADHD calendars, fitness gamification | Humanoid robots, brain interfaces |
 | Funding | Bootstrapped, small rounds | Unicorn hunting |
-| Target | Global consumers | Enterprise, government |
+| [[Target]] | Global consumers | Enterprise, government |
 
 ---
 
@@ -45,9 +45,9 @@ Liangzhu represents China's indie AI scene — distinct from frontier labs:
 |----------|----------|
 | Emotional AI | Apps meeting emotional needs |
 | Lifestyle | Gamified fitness trackers |
-| Productivity | ADHD-friendly calendar tools |
+| [[Productivity]] | ADHD-friendly calendar tools |
 | Traditional Chinese | AI divination apps |
-| Consumer hardware | Various AI-enhanced products |
+| [[Consumer]] hardware | Various AI-enhanced products |
 
 **Philosophy:** AI for comfort, not just productivity.
 
@@ -57,7 +57,7 @@ Liangzhu represents China's indie AI scene — distinct from frontier labs:
 
 **Global-first strategy:**
 - Launch in North America first
-- Tap China hardware supply chains
+- Tap [[China]] hardware supply chains
 - Offer competitive prices worldwide
 - Avoid domestic competition
 - Escape Chinese customer reluctance to pay for software
@@ -76,7 +76,7 @@ Liangzhu represents China's indie AI scene — distinct from frontier labs:
 **Investor warnings:**
 - Some startups just "AI washing" products
 - Air conditioners, mirrors with AI — not every product will stick
-- Consumer demand is an open question
+- [[Consumer]] demand is an open question
 
 ---
 
@@ -84,12 +84,12 @@ Liangzhu represents China's indie AI scene — distinct from frontier labs:
 
 | Layer | Examples |
 |-------|----------|
-| Frontier labs | [[DeepSeek]], [[Alibaba]] Qwen |
+| Frontier labs | [[DeepSeek]], [[Alibaba]] [[Qwen]] |
 | Six Little Dragons | [[Unitree]], Zhiyuan, BCI startups |
 | **Indie/consumer** | Liangzhu villagers |
 | Hardware | Supply chain for global products |
 
-Liangzhu = the long tail of China AI.
+Liangzhu = the long tail of [[China]] AI.
 
 ---
 
@@ -97,11 +97,11 @@ Liangzhu = the long tail of China AI.
 
 **Not directly investable** (indie developers, not VC-scale), but signals:
 
-| Signal | Implication |
+| [[Signal]] | Implication |
 |--------|-------------|
 | Talent density | Hangzhou AI ecosystem depth |
 | Global ambitions | Chinese AI going overseas |
-| Consumer AI | New product categories emerging |
+| [[Consumer]] AI | New product categories emerging |
 | Hardware arbitrage | Competitive threat to Western consumer AI |
 
 **Watch for:** Breakout consumer AI product from Liangzhu hitting Western markets.

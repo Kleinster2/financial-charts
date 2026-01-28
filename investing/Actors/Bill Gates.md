@@ -43,7 +43,7 @@ Gates has called nuclear "absolutely essential" for climate goals.
 | Breakthrough Energy Catalyst | Project finance |
 | Investments | Fusion, storage, materials, etc. |
 
-Portfolio includes [[Commonwealth Fusion Systems]], QuantumScape, and dozens of climate startups.
+Portfolio includes [[Commonwealth Fusion Systems]], [[QuantumScape]], and dozens of climate startups.
 
 ---
 
@@ -65,7 +65,7 @@ Nuclear is central — not optional.
 |---------|--------|-------|
 | [[TerraPower]] | Nuclear SMR | Founder |
 | [[Commonwealth Fusion Systems]] | Fusion | Investor |
-| QuantumScape | Batteries | Major backer |
+| [[QuantumScape]] | [[Batteries]] | Major backer |
 | Carbon Engineering | DAC | Acquired by Oxy |
 | Heliogen | Solar thermal | Investor |
 

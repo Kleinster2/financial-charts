@@ -77,7 +77,7 @@ AI is the "most obvious explanation" but correlation ≠ causation.
 ### Bearish/cautionary case
 - Goldman (Mericle): Risk of "jobless growth" as companies use AI to cut labor
 - Uncertainty about neutral rate — higher productivity may raise it
-- Consumer inflation expectations rising (3.42% vs 3.20%)
+- [[Consumer]] inflation expectations rising (3.42% vs 3.20%)
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [Lone Pine Capital]
 ---
 #actor #hedgefund #tigercub #lsequity #usa
 
-**Lone Pine** — Long/short equity hedge fund. Founded by Stephen Mandel (Tiger cub). $20B+ AUM. Consumer/tech focus.
+**Lone Pine** — Long/short equity hedge fund. Founded by Stephen Mandel (Tiger cub). $20B+ AUM. [[Consumer]]/tech focus.
 
 ---
 
@@ -36,7 +36,7 @@ Mandel worked at Tiger Management 1990-1997.
 | Focus | Detail |
 |-------|--------|
 | Style | Fundamental, growth-oriented |
-| Sectors | Consumer, tech, healthcare |
+| Sectors | [[Consumer]], tech, healthcare |
 | Long bias | Typically net long |
 | Holdings | Concentrated (15-25 positions) |
 
@@ -46,10 +46,10 @@ Mandel worked at Tiger Management 1990-1997.
 
 | Company | Sector |
 |---------|--------|
-| Meta | Tech |
-| Microsoft | Tech |
-| Amazon | Consumer |
-| UnitedHealth | Healthcare |
+| [[Meta]] | Tech |
+| [[Microsoft]] | Tech |
+| [[Amazon]] | [[Consumer]] |
+| [[UnitedHealth]] | [[Healthcare]] |
 
 Growth-oriented fundamental investor.
 

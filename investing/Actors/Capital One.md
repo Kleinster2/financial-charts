@@ -24,7 +24,7 @@ aliases: [COF]
 
 | Term | Value |
 |------|-------|
-| Target | [[Brex]] |
+| [[Target]] | [[Brex]] |
 | Price | **$5.15B** (50% cash, 50% stock) |
 | vs Peak valuation | $12.3B (58% discount) |
 | Expected close | Mid-2026 |
@@ -32,15 +32,15 @@ aliases: [COF]
 
 **Strategic rationale:** Expands business payments capabilities. Discover acquisition (2025) was consumer-focused; Brex adds corporate cards and spend management. ~60% of Brex originations now from non-tech companies.
 
-**Notable Brex customers:** DoorDash, TikTok, Anthropic, Robinhood, CrowdStrike, Zoom, Plaid, Intel
+**Notable Brex customers:** [[DoorDash]], [[TikTok]], [[Anthropic]], [[Robinhood]], [[CrowdStrike]], [[Zoom]], Plaid, [[Intel]]
 
 ---
 
 ## Recent M&A
 
-| Date | Target | Value | Rationale |
+| Date | [[Target]] | Value | Rationale |
 |------|--------|-------|-----------|
-| 2025 | Discover Financial | ~$35B | Consumer payments, network |
+| 2025 | Discover Financial | ~$35B | [[Consumer]] payments, network |
 | Jan 2026 | [[Brex]] | $5.15B | Business payments |
 
 ---

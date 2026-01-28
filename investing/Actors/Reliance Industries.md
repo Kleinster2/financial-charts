@@ -2,7 +2,7 @@
 
 # Reliance Industries
 
-India's largest company. Oil-to-telecoms conglomerate led by Mukesh Ambani (Asia's richest person).
+India's largest company. [[Oil]]-to-telecoms conglomerate led by Mukesh Ambani ([[Asia]]'s richest person).
 
 ## Overview
 
@@ -12,7 +12,7 @@ India's largest company. Oil-to-telecoms conglomerate led by Mukesh Ambani (Asia
 | HQ | Mumbai, India |
 | Chairman | Mukesh Ambani |
 | Market cap | ~$200B |
-| Core businesses | Oil refining, petrochemicals, telecom ([[Jio Platforms]]), retail |
+| Core businesses | [[Oil]] refining, petrochemicals, telecom ([[Jio Platforms]]), retail |
 
 ## Green energy pivot
 
@@ -57,9 +57,9 @@ Reliance halted lithium-ion cell manufacturing after [[Xiamen Hithium]] withdrew
 
 | Entity | Focus |
 |--------|-------|
-| [[Jio Platforms]] | Telecom, digital services |
+| [[Jio Platforms]] | [[Telecom]], digital services |
 | Reliance New Energy | Renewables, battery storage |
-| Reliance Retail | Consumer retail |
+| Reliance Retail | [[Consumer]] retail |
 
 ---
 

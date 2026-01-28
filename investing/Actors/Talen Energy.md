@@ -3,17 +3,17 @@ aliases: [TLN]
 ---
 #actor #power #nuclear #usa
 
-**Talen Energy** — Independent power producer. Owns Susquehanna nuclear plant in Pennsylvania. Amazon deal for 960 MW of nuclear-powered data center capacity.
+**Talen Energy** — Independent power producer. Owns [[Susquehanna]] nuclear plant in Pennsylvania. Amazon deal for 960 MW of nuclear-powered data center capacity.
 
 ---
 
 ## Why Talen matters
 
-Talen's Susquehanna deal with [[Amazon]] is the largest nuclear-AI co-location agreement:
+Talen's [[Susquehanna]] deal with [[Amazon]] is the largest nuclear-AI co-location agreement:
 
 | Aspect | Details |
 |--------|---------|
-| Plant | Susquehanna (Pennsylvania) |
+| Plant | [[Susquehanna]] (Pennsylvania) |
 | Capacity | 960 MW for Amazon |
 | Structure | Direct co-location |
 | Significance | Largest nuclear-DC deal |
@@ -26,7 +26,7 @@ Talen's Susquehanna deal with [[Amazon]] is the largest nuclear-AI co-location a
 |------|---------|
 | Partner | [[Amazon]] / AWS |
 | Capacity | 960 MW |
-| Location | Adjacent to Susquehanna plant |
+| Location | Adjacent to [[Susquehanna]] plant |
 | Model | Behind-the-meter co-location |
 | Grid bypass | Direct power, avoids transmission |
 
@@ -34,7 +34,7 @@ Talen's Susquehanna deal with [[Amazon]] is the largest nuclear-AI co-location a
 
 ---
 
-## Susquehanna plant
+## [[Susquehanna]] plant
 
 | Metric | Value |
 |--------|-------|
@@ -55,7 +55,7 @@ One of the largest nuclear plants in the US.
 | Ticker | TLN (NASDAQ) |
 | Market cap | ~$12B |
 | Revenue (TTM) | ~$2B |
-| Nuclear capacity | ~2.5 GW (Susquehanna) |
+| Nuclear capacity | ~2.5 GW ([[Susquehanna]]) |
 | Amazon deal | 960 MW |
 | EV/EBITDA | ~8x |
 
@@ -85,11 +85,11 @@ PJM's "Bring Your Own Generation" proposal is a double-edged sword for Talen:
 
 | Aspect | Impact |
 |--------|--------|
-| **Positive** | Susquehanna is *co-location* — Amazon's behind-the-meter approach already aligns with BYOG intent |
+| **Positive** | [[Susquehanna]] is *co-location* — Amazon's behind-the-meter approach already aligns with BYOG intent |
 | **Negative** | Curtailment rules could affect future deals for existing capacity |
 | **Market reaction** | Shares fell sharply (Jan 17) alongside Vistra and Constellation |
 
-**Key difference:** Amazon's Susquehanna deal is *true* co-location (behind the meter), not just a PPA for grid power. This is closer to what PJM wants, but the stock still sold off on BYOG headline risk.
+**Key difference:** Amazon's [[Susquehanna]] deal is *true* co-location (behind the meter), not just a PPA for grid power. This is closer to what PJM wants, but the stock still sold off on BYOG headline risk.
 
 *Updated 2026-01-21*
 
@@ -97,8 +97,8 @@ PJM's "Bring Your Own Generation" proposal is a double-edged sword for Talen:
 
 ## Related
 
-- [[Amazon]] — Susquehanna partner
-- [[Vistra]] — peer (Meta deal, BYOG risk)
+- [[Amazon]] — [[Susquehanna]] partner
+- [[Vistra]] — peer ([[Meta]] deal, BYOG risk)
 - [[Constellation Energy]] — peer (TMI restart)
 - [[Nuclear power for AI]] — industry context
 - [[Power constraints]] — why nuclear matters

@@ -25,9 +25,9 @@ British energy think tank focused on accelerating the global electricity transit
 
 **2008 — Sandbag era:** Founded by Baroness Bryony Worthington to reform the EU carbon market (ETS). Successfully pushed reforms that raised carbon price from €2 to €30.
 
-**2010s — Coal focus:** Deeper emissions data analysis revealed coal power as Europe's biggest climate problem. Shifted focus from carbon market mechanics to coal phase-out.
+**2010s — Coal focus:** Deeper emissions data analysis revealed coal power as [[Europe]]'s biggest climate problem. Shifted focus from carbon market mechanics to coal phase-out.
 
-**March 2020 — Ember rebrand:** Marked global expansion beyond Europe and laser focus on electricity transition. Established policy teams across Europe and Asia.
+**March 2020 — Ember rebrand:** Marked global expansion beyond [[Europe]] and laser focus on electricity transition. Established policy teams across [[Europe]] and [[Asia]].
 
 ---
 
@@ -52,7 +52,7 @@ Interactive tool for electricity demand, generation, capacity, and emissions by 
 ### Regional reviews
 
 - European Electricity Review
-- Asia-Pacific analysis
+- [[Asia]]-Pacific analysis
 - Country-specific deep dives
 
 ---
@@ -67,7 +67,7 @@ Interactive tool for electricity demand, generation, capacity, and emissions by 
 | H1 2025 demand growth | +2.6% (+369 TWh) |
 | Solar generation growth | +31% (+306 TWh) |
 
-**Key finding (H1 2025):** Global emissions fell slightly (-12 MtCO2) despite demand growth. China (-46 MtCO2) and India (-24 MtCO2) drove declines; US (+33 MtCO2) and EU (+13 MtCO2) increased.
+**Key finding (H1 2025):** Global emissions fell slightly (-12 MtCO2) despite demand growth. China (-46 MtCO2) and [[India]] (-24 MtCO2) drove declines; US (+33 MtCO2) and EU (+13 MtCO2) increased.
 
 ---
 

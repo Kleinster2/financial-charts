@@ -2,7 +2,7 @@
 
 #actor #startup #uk #fraud #collapsed
 
-**Builder.ai** — No-code app platform, collapsed May 2025. **First major AI bust.** Raised $450M at $1.5B valuation from Microsoft, Qatar Investment Authority, Insight Partners. Fraud: "AI" was actually 700+ engineers in India; revenue inflated 4x. CEO fled to Dubai. US Attorney investigating.
+**Builder.ai** — No-code app platform, collapsed May 2025. **First major AI bust.** Raised $450M at $1.5B valuation from [[Microsoft]], Qatar Investment Authority, Insight Partners. Fraud: "AI" was actually 700+ engineers in [[India]]; revenue inflated 4x. CEO fled to Dubai. US Attorney investigating.
 
 ---
 
@@ -11,7 +11,7 @@
 | Metric | Value |
 |--------|-------|
 | Founded | 2016 |
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 | Peak valuation | **$1.5B** (2023) |
 | Total raised | $450M |
 | Status | **Insolvent** (May 2025) |
@@ -51,7 +51,7 @@ Wall Street Journal flagged this as early as **2019** — investors ignored warn
 | Metric | Claimed | Actual |
 |--------|---------|--------|
 | 2024 revenue | $220M | **~$50M** |
-| Inflation factor | — | **4x** |
+| [[Inflation]] factor | — | **4x** |
 
 **Method:** "Roundtripping" scheme with Indian social media company VerSe Innovation to artificially inflate revenue.
 
@@ -70,15 +70,15 @@ Wall Street Journal flagged this as early as **2019** — investors ignored warn
 
 | Investor | Notes |
 |----------|-------|
-| **Microsoft** | Azure integration planned |
+| **[[Microsoft]]** | Azure integration planned |
 | **Qatar Investment Authority** | Led $250M Series D |
 | **[[Insight Partners]]** | Participated |
 | **Iconiq Capital** | Participated |
 | **Jungle Ventures** | Participated |
 | **Lakestar** | Participated |
-| **WndrCo** (Jeffrey Katzenberg) | Participated |
+| **[[WndrCo]]** (Jeffrey Katzenberg) | Participated |
 | **World Bank IFC** | Development finance |
-| **SoftBank DeepCore** | Incubator |
+| **[[SoftBank]] DeepCore** | Incubator |
 
 ### Funding rounds
 
@@ -112,7 +112,7 @@ Wall Street Journal flagged this as early as **2019** — investors ignored warn
 | Creditor | Owed |
 |----------|------|
 | [[Amazon]] (AWS) | $85M |
-| Microsoft (Azure) | $30M |
+| [[Microsoft]] (Azure) | $30M |
 | Viola Credit | $37M (seized) |
 | Other | Unknown |
 
@@ -122,7 +122,7 @@ Wall Street Journal flagged this as early as **2019** — investors ignored warn
 |--------|-------|
 | **US Attorney (SDNY)** | Securities fraud, financial records |
 | **SEC** | Misrepresentation of AI capabilities |
-| **UK authorities** | TBD |
+| **[[UK]] authorities** | TBD |
 
 ### Founder status
 
@@ -159,7 +159,7 @@ Builder.ai is template for "AI-washing" fraud:
 **Why track Builder.ai:**
 
 1. **First major AI bust** — Pattern for future frauds
-2. **Investor warning** — Microsoft, QIA, Insight all burned
+2. **Investor warning** — [[Microsoft]], QIA, Insight all burned
 3. **AI-washing precedent** — Regulatory scrutiny increasing
 4. **Valuation discipline** — $1.5B on $50M real revenue = 30x
 5. **Due diligence lesson** — Technical claims must be verified
@@ -170,7 +170,7 @@ Builder.ai is template for "AI-washing" fraud:
 
 - [[Insight Partners]] — investor (burned)
 - [[AI hype cycle]] — cautionary tale
-- Microsoft — investor, owed $30M
+- [[Microsoft]] — investor, owed $30M
 - Qatar Investment Authority — led Series D
 
 ---

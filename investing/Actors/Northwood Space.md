@@ -3,11 +3,11 @@ aliases: [Northwood]
 ---
 #actor #space #satellite #infrastructure #private
 
-**Northwood Space** — Satellite ground station infrastructure. Building the "data highway between Earth and space."
+**Northwood [[Space]]** — Satellite ground station infrastructure. Building the "data highway between Earth and space."
 
 ---
 
-## Why Northwood Space matters
+## Why Northwood [[Space]] matters
 
 | Metric | Value |
 |--------|-------|
@@ -23,17 +23,17 @@ aliases: [Northwood]
 
 | Round | Date | Amount | Lead |
 |-------|------|--------|------|
-| Seed | Feb 2024 | $6.3M | a16z, Founders Fund |
-| **Series A** | **Apr 2025** | **$30M** | Alpine Space Ventures, a16z |
+| Seed | Feb 2024 | $6.[[3M]] | [[a16z]], [[Founders Fund]] |
+| **Series A** | **Apr 2025** | **$30M** | Alpine [[Space]] Ventures, [[a16z]] |
 | **Total** | | **$36M+** | |
 
 **Series A investors:**
-- Alpine Space Ventures (lead)
-- Andreessen Horowitz (a16z)
+- Alpine [[Space]] Ventures (lead)
+- [[Andreessen Horowitz]] ([[a16z]])
 - Also Capital
-- Founders Fund
-- StepStone Group
-- BoxGroup, Humba Ventures, Balerion Space Ventures
+- [[Founders Fund]]
+- [[StepStone Group]]
+- BoxGroup, Humba Ventures, Balerion [[Space]] Ventures
 
 ---
 
@@ -43,14 +43,14 @@ aliases: [Northwood]
 
 | Name | Role | Background |
 |------|------|------------|
-| [[Bridgit Mendler]] | CEO | MIT, Harvard Law, Disney |
-| Griffin Cleverly | CTO | Lockheed Martin |
-| Shaurya Luthra | Co-founder | Lockheed Martin |
+| [[Bridgit Mendler]] | CEO | MIT, Harvard Law, [[Disney]] |
+| Griffin Cleverly | CTO | [[Lockheed Martin]] |
+| Shaurya Luthra | Co-founder | [[Lockheed Martin]] |
 
 ### Early employees from:
 - SpaceX
-- Palantir
-- Northrop Grumman
+- [[Palantir]]
+- [[Northrop Grumman]]
 
 ---
 
@@ -65,7 +65,7 @@ aliases: [Northwood]
 | Status | Passed operational tests (Jun 2025) |
 | Claim | Most powerful commercial comms phased array ever built |
 
-**First test:** Collected data from US Defense Meteorological Satellite Program spacecraft.
+**First test:** Collected data from US [[Defense]] Meteorological Satellite Program spacecraft.
 
 ### Key innovations
 
@@ -106,7 +106,7 @@ aliases: [Northwood]
 - Software-defined, flexible capacity
 - Alternative to building dedicated ground stations
 
-**Customer demo:** Planet Labs — validated 10x cost reduction.
+**Customer demo:** [[Planet Labs]] — validated 10x cost reduction.
 
 ---
 
@@ -125,18 +125,18 @@ aliases: [Northwood]
 
 | Company | Approach |
 |---------|----------|
-| **Northwood Space** | Shared, high-throughput phased array |
+| **Northwood [[Space]]** | Shared, high-throughput phased array |
 | AWS Ground Station | Cloud-integrated |
-| Microsoft Azure Orbital | Cloud-integrated |
+| [[Microsoft]] Azure Orbital | Cloud-integrated |
 | KSAT | Traditional ground station network |
-| Leaf Space | Ground station as a service |
+| Leaf [[Space]] | Ground station as a service |
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Elite backers (a16z, Founders Fund)
+- Elite backers ([[a16z]], [[Founders Fund]])
 - 10x cost reduction demonstrated
 - Most powerful commercial phased array
 - Vertically integrated manufacturing
@@ -175,6 +175,6 @@ aliases: [Northwood]
 
 - [SpaceNews on Series A](https://spacenews.com/northwood-raises-30-million-to-establish-ground-station-network/)
 - [Via Satellite coverage](https://www.satellitetoday.com/finance/2025/04/22/northwood-space-raises-30m-series-a-to-disrupt-satellite-ground-stations/)
-- [Payload Space on Portal](https://payloadspace.com/northwoods-satellite-ground-terminal-is-ready-to-talk/)
+- [Payload [[Space]] on Portal](https://payloadspace.com/northwoods-satellite-ground-terminal-is-ready-to-talk/)
 
 *Created 2026-01-09*

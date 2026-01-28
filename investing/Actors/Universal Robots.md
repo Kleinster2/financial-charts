@@ -99,9 +99,9 @@ aliases: [UR, Cobot]
 |----------|----------|
 | **Manufacturing** | Machine tending, assembly |
 | **Electronics** | PCB handling, testing |
-| **Automotive** | Screw driving, quality |
+| **[[Automotive]]** | Screw driving, quality |
 | **Food & bev** | Packaging, palletizing |
-| **Healthcare** | Lab automation |
+| **[[Healthcare]]** | Lab automation |
 
 ---
 
@@ -116,7 +116,7 @@ aliases: [UR, Cobot]
 
 **Bear:**
 - No direct investment (Teradyne subsidiary)
-- China cobot competition
+- [[China]] cobot competition
 - [[Fanuc]], [[ABB]] entering segment
 - Commoditization risk
 

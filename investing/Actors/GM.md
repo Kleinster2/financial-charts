@@ -3,7 +3,7 @@ aliases: [General Motors]
 ---
 #actor #automotive #usa
 
-**GM (General Motors)** — Largest US automaker. Pursuing EV transition via Ultium platform. Cruise autonomous unit paused robotaxi ops. Exposed to [[Rare earth leverage]] and China supply chain.
+**GM (General Motors)** — Largest US automaker. Pursuing [[EV transition]] via Ultium platform. Cruise autonomous unit paused robotaxi ops. Exposed to [[Rare earth leverage]] and [[China]] supply chain.
 
 ---
 
@@ -45,7 +45,7 @@ US tariffs cost GM **$3.1B in 2025** — less than the $3.5-4.5B expected.
 
 ## Why GM matters
 
-GM represents the legacy OEM EV transition challenge:
+GM represents the legacy OEM [[EV transition]] challenge:
 
 | Role | Details |
 |------|---------|
@@ -70,7 +70,7 @@ GM represents the legacy OEM EV transition challenge:
 | Vehicle | Segment | Status |
 |---------|---------|--------|
 | Hummer EV | Truck | Production |
-| Cadillac Lyriq | Luxury SUV | Production |
+| Cadillac Lyriq | [[Luxury]] SUV | Production |
 | Chevy Equinox EV | Mass market | Ramping |
 | Chevy Silverado EV | Truck | Production |
 | Cadillac Celestiq | Ultra-luxury | Limited |
@@ -96,7 +96,7 @@ GM represents the legacy OEM EV transition challenge:
 - Peak valuation ~$30B (2021)
 - Current value uncertain
 
-**Competitors pulling ahead:** [[Waymo]] (Google) expanding, Cruise stalled.
+**Competitors pulling ahead:** [[Waymo]] ([[Google]]) expanding, Cruise stalled.
 
 ---
 
@@ -130,14 +130,14 @@ GM represents the legacy OEM EV transition challenge:
 
 ## Rare earth exposure
 
-EV transition creates critical rare earth dependency:
+[[EV transition]] creates critical rare earth dependency:
 
-| Element | Use | China control |
+| Element | Use | [[China]] control |
 |---------|-----|---------------|
 | Neodymium | EV motor magnets | ~90% |
-| Dysprosium | High-temp magnet stability | ~99% |
+| [[Dysprosium]] | High-temp magnet stability | ~99% |
 
-**2025 impact**: China's rare earth controls forced production cuts at US automakers. European rare earth prices hit 6x Chinese domestic.
+**2025 impact**: [[China]]'s rare earth controls forced production cuts at US automakers. European rare earth prices hit 6x Chinese domestic.
 
 **GM response**:
 - Investing in alternative magnet technologies
@@ -188,7 +188,7 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 - Cruise impairment risk
 - EV profitability uncertain
 - Rare earth exposure
-- China JV risk (geopolitics)
+- [[China]] JV risk (geopolitics)
 - Competition from [[Tesla]], [[BYD]], new entrants
 
 ---
@@ -196,7 +196,7 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 ## Related
 
 - [[Tesla]] — competitor (EVs)
-- [[BYD]] — competitor (China EVs)
+- [[BYD]] — competitor ([[China]] EVs)
 - [[Ford]] — competitor (US legacy, F-150 Lightning)
 - [[Volkswagen]] — competitor (ID.4)
 - [[Rivian]] — competitor (R1T truck)

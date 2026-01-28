@@ -2,7 +2,7 @@
 
 #actor #individual #investor #ai #founder
 
-**Daniel Gross** — AI investor and entrepreneur. Co-founder of NFDG fund (with [[Nat Friedman]]) — **$1.1B fund, 4x'd in 2 years.** Ex-YC partner (started YC AI program). Co-founder of Safe Superintelligence (SSI) with Ilya Sutskever. Now at [[Meta]] Superintelligence Labs. Built Andromeda cluster (4,000 H100s).
+**Daniel Gross** — AI investor and entrepreneur. Co-founder of NFDG fund (with [[Nat Friedman]]) — **$1.1B fund, 4x'd in 2 years.** Ex-YC partner (started YC AI program). Co-founder of Safe Superintelligence ([[SSI]]) with [[Ilya Sutskever]]. Now at [[Meta]] Superintelligence Labs. Built Andromeda cluster (4,000 H100s).
 
 ---
 
@@ -14,7 +14,7 @@
 | Nationality | Israeli-American |
 | Current role | [[Meta]] Superintelligence Labs |
 | Fund | NFDG ($1.1B, co-founded with [[Nat Friedman]]) |
-| Notable exit | Cue → Apple (~$40M, 2013) |
+| Notable exit | Cue → [[Apple]] (~$40M, 2013) |
 
 ---
 
@@ -33,15 +33,15 @@ Self-taught / non-traditional. Founded company at 19 instead of university.
 
 ## Career
 
-### Cue/Greplin → Apple (2010-2017)
+### Cue/Greplin → [[Apple]] (2010-2017)
 
 | Detail | Value |
 |--------|-------|
 | Company | Cue (originally Greplin) |
 | What | Personal search startup |
 | Founded | Age 19 |
-| Acquired | Apple, ~$40M (2013) |
-| At Apple | Led machine learning initiatives (2013-2017) |
+| Acquired | [[Apple]], ~$40M (2013) |
+| At [[Apple]] | Led machine learning initiatives (2013-2017) |
 
 ### Y Combinator (2017-2018)
 
@@ -79,12 +79,12 @@ Co-founded 2023 with [[Nat Friedman]].
 
 | Company | Category | Notes |
 |---------|----------|-------|
-| Perplexity | AI search | — |
+| [[Perplexity]] | AI search | — |
 | Character.ai | AI companions | — |
 | ElevenLabs | AI voice | — |
 | Pika | AI video | — |
 | Suno | AI music | — |
-| Safe Superintelligence (SSI) | AI safety | Gross is co-founder |
+| Safe Superintelligence ([[SSI]]) | AI safety | Gross is co-founder |
 | [[Supabase]] | Developer tools | — |
 | Weights & Biases | ML ops | — |
 
@@ -103,18 +103,18 @@ Gross and Friedman built their own GPU cluster for portfolio companies:
 
 ---
 
-## Safe Superintelligence (SSI)
+## Safe Superintelligence ([[SSI]])
 
-Co-founded with **Ilya Sutskever** (OpenAI co-founder).
+Co-founded with **[[Ilya Sutskever]]** (OpenAI co-founder).
 
 | Metric | Value |
 |--------|-------|
 | Founded | 2024 |
 | Mission | Build safe superintelligence |
 | Valuation | $5B → $30B (6x in months) |
-| Co-founders | Ilya Sutskever, Daniel Gross |
+| Co-founders | [[Ilya Sutskever]], Daniel Gross |
 
-Meta attempted to acquire SSI before hiring Gross.
+Meta attempted to acquire [[SSI]] before hiring Gross.
 
 ---
 
@@ -154,7 +154,7 @@ Meta also acquired stake in NFDG fund as part of the deal.
 |-----|---------|
 | AI before hype | Started YC AI in 2017 |
 | Andromeda cluster | Built before GPU shortage |
-| SSI with Sutskever | $5B → $30B |
+| [[SSI]] with Sutskever | $5B → $30B |
 | NFDG | 4x in 2 years |
 
 ---
@@ -163,7 +163,7 @@ Meta also acquired stake in NFDG fund as part of the deal.
 
 - [[Nat Friedman]] — NFDG co-founder, Meta colleague
 - [[Meta]] — current employer
-- [[OpenAI]] — SSI co-founder Sutskever came from OpenAI
+- [[OpenAI]] — [[SSI]] co-founder Sutskever came from OpenAI
 - [[Y Combinator]] — former partner, started AI program
 - [[Supabase]] — portfolio company
 

@@ -39,7 +39,7 @@ Data center power availability is emerging as a hard constraint on AI infrastruc
 
 ---
 
-## The gap (Morgan Stanley, Dec 2025)
+## The gap ([[Morgan Stanley]], Dec 2025)
 
 | Metric | Value |
 |--------|-------|
@@ -66,7 +66,7 @@ Data center power availability is emerging as a hard constraint on AI infrastruc
 
 This isn't new — hyperscalers and neoclouds were already reducing expansion plans 18-24 months ago.
 
-**No line of sight** to solving it in US/Europe:
+**No line of sight** to solving it in US/[[Europe]]:
 - Too slow to build
 - Too much red tape
 - Growing gap to demand
@@ -79,12 +79,12 @@ The new paradigm — hyperscalers securing their own power:
 
 | Company | Strategy |
 |---------|----------|
-| [[xAI]] | Bitcoin miner partnerships (TeraWulf, Cipher Mining) |
+| [[xAI]] | Bitcoin miner partnerships ([[TeraWulf]], [[Cipher Mining]]) |
 | [[Microsoft]] | [[Constellation Energy]] nuclear restart |
 | [[Amazon]] | Talen Energy nuclear co-location |
-| [[Google]] | Kairos Power SMR development |
-| [[Oracle]] | Nuclear DC permits (Larry Ellison) |
-| [[Talen Energy]] | Amazon Susquehanna co-location |
+| [[Google]] | [[Kairos Power]] SMR development |
+| [[Oracle]] | Nuclear DC permits ([[Larry Ellison]]) |
+| [[Talen Energy]] | Amazon [[Susquehanna]] co-location |
 | [[OpenAI]] | On-site gas turbines (UAE Stargate) |
 | **[[Meta]]** | Hybrid turbine fleet (Socrates South, 200MW+) |
 
@@ -95,7 +95,7 @@ The new paradigm — hyperscalers securing their own power:
 - "Going well" vs Texas Abilene "not going BRRR"
 
 **Meta Socrates South example (Jan 2026):**
-- Hybrid fleet: [[Solar Turbines]], [[Siemens Energy]], Caterpillar
+- Hybrid fleet: [[Solar Turbines]], [[Siemens Energy]], [[Caterpillar]]
 - ~307MW gross → 200MW+ operational (N+1+1 redundancy)
 - 4 different turbine/engine types — diversified supplier approach
 - See [[Meta]] for full breakdown
@@ -110,22 +110,22 @@ The new paradigm — hyperscalers securing their own power:
 
 ---
 
-## Nuclear renaissance
+## [[Nuclear renaissance]]
 
 See [[Nuclear power for AI]] for details.
 
 **Why nuclear:**
 - Baseload 24/7 (AI training runs continuously)
 - Density (1GW on small footprint)
-- Carbon-free (ESG commitments)
+- Carbon-free ([[ESG]] commitments)
 - Long-term PPAs match DC investment
 
 **Key deals:**
 | Deal | Capacity |
 |------|----------|
 | Microsoft + Constellation (TMI restart) | 835 MW |
-| Amazon + Talen (Susquehanna) | 960 MW |
-| Google + Kairos Power (SMR) | 500 MW |
+| Amazon + Talen ([[Susquehanna]]) | 960 MW |
+| Google + [[Kairos Power]] (SMR) | 500 MW |
 
 **Players:** [[Constellation Energy]], [[Vistra]], [[Oklo]], [[Cameco]], [[Centrus Energy]]
 
@@ -171,7 +171,7 @@ These represent partial offsets to the 44GW gap, but most capacity won't come on
 
 **FuriosaAI example (Jan 2026):**
 - RNGD: TSMC 5nm, 48GB HBM3, **150W TDP** (vs H100 350W)
-- Hot Chips 2024: 3x better perf/watt vs H100 on Llama
+- Hot Chips 2024: 3x better perf/watt vs H100 on [[Llama]]
 - LG AI Research: commercial deployment for EXAONE models
 - Meta tried to acquire for $800M — declined
 
@@ -194,24 +194,24 @@ Power availability will drive DC location decisions:
 |--------|-----------|
 | **Tennessee/TVA** | xAI Colossus (TVA power) |
 | **Texas (ERCOT)** | [[Vistra]] nuclear + gas |
-| **Pennsylvania** | TMI restart, Susquehanna |
+| **Pennsylvania** | TMI restart, [[Susquehanna]] |
 | **Middle East** | Cheap gas, sovereign wealth |
 | **Nordics** | Hydro, cheap power |
 
 ---
 
-## China's power advantage
+## [[China]]'s power advantage
 
 **The asymmetry:**
 
-| Constraint | US | China |
+| Constraint | US | [[China]] |
 |------------|-----|-------|
 | **GPU access** | Abundant (Blackwell) | Constrained (H200 only) |
 | **Power access** | Constrained (44 GW gap) | Abundant |
 | **Permitting** | Years of red tape | State-directed, fast |
 | **Buildout pace** | Slow | 212 GW solar added in 2024 alone |
 
-**China's edge:**
+**[[China]]'s edge:**
 - 212 GW solar installed in one year (vs US ~30 GW)
 - 253 GW planned for desert regions
 - State-directed = no permitting delays
@@ -221,9 +221,9 @@ Power availability will drive DC location decisions:
 
 **The trade-off:**
 - US: Best chips, can't power them
-- China: Abundant power, can't get best chips
+- [[China]]: Abundant power, can't get best chips
 
-Power is buildable. Cutting-edge GPUs are blockaded. This may partially offset China's semiconductor disadvantage over time.
+Power is buildable. Cutting-edge GPUs are blockaded. This may partially offset [[China]]'s semiconductor disadvantage over time.
 
 See [[China power advantage]] for full details on solar buildout, desert strategy, agrivoltaics, and offshore solar.
 
@@ -276,7 +276,7 @@ See [[GPU deployment bottleneck]] for full analysis.
 **Efficiency premium:**
 - More demand for power-efficient chips
 - Favors advanced nodes (better perf/watt) = [[TSMC]]
-- HBM vs GDDR (HBM more efficient) = [[Long memory]]
+- [[HBM]] vs GDDR ([[HBM]] more efficient) = [[Long memory]]
 
 ---
 
@@ -284,7 +284,7 @@ See [[GPU deployment bottleneck]] for full analysis.
 
 This is a **demand-side risk** for all AI chip theses:
 - [[Long TSMC]] — may slow demand, but efficiency favors advanced nodes
-- [[Long memory]] — HBM efficiency advantage, but overall demand at risk
+- [[Long memory]] — [[HBM]] efficiency advantage, but overall demand at risk
 - [[Long WFE]] — if DC buildout slows, fab buildout may follow
 - [[AI hyperscalers]] — capex may shift to power infrastructure vs chips
 
@@ -292,7 +292,7 @@ This is a **demand-side risk** for all AI chip theses:
 
 ---
 
-## IEA World Energy Outlook 2025
+## [[IEA]] World Energy Outlook 2025
 
 **"The Age of Electricity" — data centers now outspend oil:**
 
@@ -316,27 +316,27 @@ This is the first time data center investment exceeds oil exploration/production
 
 | Region | Current DC capacity | New capacity share |
 |--------|--------------------|--------------------|
-| US + China + Europe | **82%** | **85%+** |
+| US + [[China]] + [[Europe]] | **82%** | **85%+** |
 | US data center share of demand growth | — | **~50%** through 2030 |
 
 **US energy mix for data centers (2024):**
 
 | Source | Share |
 |--------|-------|
-| Natural gas | **40%+** |
+| [[Natural gas]] | **40%+** |
 | Renewables | ~25% |
 | Nuclear | ~20% |
 | Coal | ~15% |
 
-**2035 projection:** Natural gas supplies >50% of US data center electricity. Gas is the bridge fuel for AI.
+**2035 projection:** [[Natural gas]] supplies >50% of US data center electricity. Gas is the bridge fuel for AI.
 
-**Grid connection delays (IEA data):**
+**Grid connection delays ([[IEA]] data):**
 
 | Region | Wait time |
 |--------|-----------|
 | US typical | 1-3 years |
 | Northern Virginia | **7 years** |
-| UK / EU | **7-10 years** |
+| [[UK]] / [[EU]] | **7-10 years** |
 | Dublin | **Closed until 2028** |
 
 **Grid investment lag:**
@@ -346,17 +346,17 @@ This is the first time data center investment exceeds oil exploration/production
 
 **Supply chain concentrations:**
 
-| Material | China share |
+| Material | [[China]] share |
 |----------|-------------|
 | High-purity silicon | **95%** |
 | Refined gallium | **99%** |
 | Refined copper | **44%** |
 
-Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV lithography. No country controls all pieces — everyone is vulnerable.
+[[Taiwan]] dominates advanced node manufacturing. [[Europe]] has near-monopoly on EUV lithography. No country controls all pieces — everyone is vulnerable.
 
-**IEA framing:** "Age of Electricity" — nearly half the global economy will depend on electricity as primary energy input by 2035.
+**[[IEA]] framing:** "Age of Electricity" — nearly half the global economy will depend on electricity as primary energy input by 2035.
 
-*Source: IEA World Energy Outlook 2025, November 2025*
+*Source: [[IEA]] World Energy Outlook 2025, November 2025*
 
 ---
 
@@ -387,7 +387,7 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 | **Bernie Sanders** | Letter saying stop all data center development |
 | **Sacks response** | "If we do that we will lose the AI race" |
 
-**Sacks on China power:** China spinning up new nuclear/coal plant every single week — much of it to power data centers. Stopping US DC buildout would be unilateral disarmament.
+**Sacks on [[China]] power:** [[China]] spinning up new nuclear/coal plant every single week — much of it to power data centers. Stopping US DC buildout would be unilateral disarmament.
 
 **Kratsios:** "If you're in a small community and someone shows up to build a data center, you have to make clear this is going to actually lower your rates long term."
 
@@ -404,7 +404,7 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 | Detail | Value |
 |--------|-------|
 | Senators | Warren, Van Hollen, Blumenthal (D) |
-| Targets | Google, Microsoft, Amazon, Meta, CoreWeave, Digital Realty, Equinix |
+| Targets | Google, Microsoft, Amazon, Meta, [[CoreWeave]], [[Digital Realty]], [[Equinix]] |
 | Deadline | Jan 12, 2026 |
 | Demand | DCs pay more upfront for grid infrastructure |
 
@@ -445,7 +445,7 @@ Taiwan dominates advanced node manufacturing. Europe has near-monopoly on EUV li
 
 ---
 
-## Consumer impact
+## [[Consumer]] impact
 
 Power constraints affect consumers through **price increases** and **power quality degradation**. See dedicated notes for full analysis:
 
@@ -467,7 +467,7 @@ See [[DC power prices]] for full Bloomberg analysis (Sep 2025).
 
 | Impact | Value |
 |--------|-------|
-| Sensors within 50 miles of DCs with distortion | **>75%** |
+| [[Sensors]] within 50 miles of DCs with distortion | **>75%** |
 | Industry damage threshold | **8% THD** |
 | Worst readings observed | **12.9% THD** |
 
@@ -482,13 +482,13 @@ DCs consume more electricity than most countries — only 16 nations use more. S
 **Key stats:**
 - **7,000+ global DCs** (up from 3,600 in 2015)
 - **508 TWh/year** current consumption (> Italy)
-- **1,580 TWh** projected by 2034 (= India)
+- **1,580 TWh** projected by 2034 (= [[India]])
 - AI = **10-15x** the electricity of traditional computing
 - H100 = 700W, B100 = ~1,400W (2x)
 
 ---
 
-## Space data centers (speculative)
+## [[Space]] data centers (speculative)
 
 **Billionaires exploring orbital data centers:**
 
@@ -498,7 +498,7 @@ DCs consume more electricity than most countries — only 16 nations use more. S
 | **[[Blue Origin]]** | Bezos promoting concept | 10-20 years (Bezos) |
 | **Eric Schmidt** | Acquired [[Relativity Space]] | — |
 | **[[Google]]** | Project Suncatcher | 2 satellites by early 2027 |
-| **Starcloud** | [[NVIDIA]]-backed, 5GW DC | — |
+| **[[Starcloud]]** | [[NVIDIA]]-backed, 5GW DC | — |
 
 **Advantages:**
 - 24/7 solar power (sun-synchronous orbit)
@@ -506,11 +506,11 @@ DCs consume more electricity than most countries — only 16 nations use more. S
 - Simpler permitting (FAA + FCC bulk licenses vs years of ground permits)
 
 **Challenges:**
-- Massive solar panels (Starcloud: 4km × 4km for 5GW)
+- Massive solar panels ([[Starcloud]]: 4km × 4km for 5GW)
 - Cooling via radiators (no air/water in vacuum)
 - Cosmic ray damage to electronics
 - Latency (3+ seconds in high orbit)
-- Space debris risk
+- [[Space]] debris risk
 - Repair impossible without robotics
 - Depends on [[SpaceX]] Starship full reusability
 
@@ -560,7 +560,7 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 - [[Siemens Energy]] — turbine supplier (Meta Socrates South)
 - [[Meta]] — BYOP example (Socrates South 200MW+)
 - [[AI datacenter architecture]] — design patterns
-- [[Power-constrained geography]] — consequence (Ashburn overflow, hub migration)
+- [[Power-constrained geography]] — consequence ([[Ashburn]] overflow, hub migration)
 - [[BYOP]] — dedicated concept note
 - [[Dominion Energy]] — utility serving Data Center Alley (power quality issues)
 - [[Exelon]] — ComEd parent, Chicago power quality disputes

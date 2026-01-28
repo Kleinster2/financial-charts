@@ -25,7 +25,7 @@
 | Person | Role |
 |--------|------|
 | **[[Shailendra Singh]]** | Managing Director (IIT Bombay, HBS) |
-| GV Ravishankar | Managing Director |
+| [[GV]] Ravishankar | Managing Director |
 | Mohit Bhatnagar | Managing Director |
 | Rajan Anandan | Managing Director |
 
@@ -37,8 +37,8 @@ In 2023, Sequoia Capital ($85B AUM) announced split into three independent entit
 
 | Entity | Geography | Leadership |
 |--------|-----------|------------|
-| **Sequoia** | US & Europe | Roelof Botha |
-| **HongShan** | China | Neil Shen |
+| **Sequoia** | US & [[Europe]] | Roelof Botha |
+| **[[HongShan]]** | [[China]] | Neil Shen |
 | **Peak XV Partners** | India & SEA | Shailendra Singh |
 
 **Reason:** Regulatory complexity, geopolitical tensions, LP preferences for geographic focus.
@@ -58,7 +58,7 @@ Peak XV's accelerator for early-stage founders:
 | Companies | 170+ |
 | Founders | 400+ |
 | Follow-on raised | $3B+ |
-| Investment per company | Up to $3M seed |
+| Investment per company | Up to $[[3M]] seed |
 
 **Surge 11 (2025):** 23 companies — 12 AI startups, 4 fintech, 4 consumer brands, 3 infrastructure/dev tools.
 
@@ -73,10 +73,10 @@ Peak XV's accelerator for early-stage founders:
 | Razorpay | Payments | Unicorn |
 | Groww | Investing | Unicorn |
 | Meesho | E-commerce | Unicorn |
-| Cred | Fintech | Unicorn |
+| Cred | [[Fintech]] | Unicorn |
 | Unacademy | Edtech | Unicorn |
 | Zomato | Food delivery | Public (NSE) |
-| Freshworks | SaaS | Public (NASDAQ) |
+| Freshworks | [[SaaS]] | Public (NASDAQ) |
 
 ### Global
 

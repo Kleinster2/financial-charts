@@ -25,8 +25,8 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 
 | Segment | % Revenue | Products |
 |---------|-----------|----------|
-| **Electronic functional materials** | >50% | Photoresists, packaging materials |
-| High-density packaging | ~15% | Advanced packaging materials |
+| **Electronic functional materials** | >50% | [[Photoresists]], packaging materials |
+| High-density packaging | ~15% | [[Advanced packaging]] materials |
 | LCD/Display | ~15% | Display photoresists |
 | Other | ~20% | Equipment, process materials |
 
@@ -39,13 +39,13 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 | **EUV photoresists** | Top 3 | +35% sales growth (2024) |
 | **ArF immersion** | Strong | +15% target (2024) |
 | **KrF** | Market leader | Stable demand |
-| **High-density packaging** | Growing | Chiplet/HBM tailwind |
+| **High-density packaging** | Growing | Chiplet/[[HBM]] tailwind |
 
 ---
 
 ## Capacity expansion
 
-**Japan facility (largest domestic):**
+**[[Japan]] facility (largest domestic):**
 - Investment: >¥200B
 - Construction: Started H2 2024
 - Production: H2 2026
@@ -53,7 +53,7 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 
 **South Korea facility:**
 - Investment: ¥20B ($130M)
-- Target customers: [[Samsung]], [[SK Hynix]]
+- [[Target]] customers: [[Samsung]], [[SK Hynix]]
 - Operations: 2030
 - Capacity: 3-4x current Korea production
 
@@ -66,7 +66,7 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 
 ## 2024-2025 targets
 
-| Metric | Target |
+| Metric | [[Target]] |
 |--------|--------|
 | Advanced materials sales | +15% |
 | EUV photoresist sales | +35% |
@@ -76,7 +76,7 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 
 ## Competitive position
 
-**Japan dominance:** JSR + TOK + Shin-Etsu = 90%+ of EUV photoresists
+**[[Japan]] dominance:** JSR + TOK + Shin-Etsu = 90%+ of EUV photoresists
 
 | Company | Share | Status |
 |---------|-------|--------|
@@ -103,7 +103,7 @@ With [[JSR Corporation]] now private, TOK is the best public way to play the pho
 **Bull:**
 - Only large-cap public pure-play photoresist
 - EUV demand structural (every leading node needs it)
-- Japan monopoly position defensible
+- [[Japan]] monopoly position defensible
 - Capacity expansion positions for 2nm wave
 - Intel partnership validates technology
 

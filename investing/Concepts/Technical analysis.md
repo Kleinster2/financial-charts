@@ -37,7 +37,7 @@
 
 ## Key chart patterns
 
-| Pattern | Signal |
+| Pattern | [[Signal]] |
 |---------|--------|
 | Head & shoulders | Reversal (bearish) |
 | Inverse H&S | Reversal (bullish) |
@@ -73,7 +73,7 @@
 
 ## Volume analysis
 
-| Signal | Interpretation |
+| [[Signal]] | Interpretation |
 |--------|----------------|
 | High volume breakout | Confirmation |
 | Low volume breakout | Suspicious |
@@ -111,7 +111,7 @@
 | Entry timing | Buy fundamentally good at support |
 | Exit timing | Sell overvalued at resistance |
 | Risk management | Stop losses at key levels |
-| Position sizing | Reduce at overbought |
+| [[Position sizing]] | Reduce at overbought |
 
 ---
 

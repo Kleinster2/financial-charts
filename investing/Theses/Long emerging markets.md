@@ -1,5 +1,5 @@
 ---
-aliases: [EM supercycle, Emerging markets supercycle]
+aliases: [EM supercycle, [[Emerging markets]] supercycle]
 ---
 #thesis #long #macro #em
 
@@ -9,7 +9,7 @@ aliases: [EM supercycle, Emerging markets supercycle]
 
 ## The thesis
 
-Emerging markets have entered a yearslong supercycle:
+[[Emerging markets]] have entered a yearslong supercycle:
 
 | Driver | Status |
 |--------|--------|
@@ -35,7 +35,7 @@ Emerging markets have entered a yearslong supercycle:
 |--------|--------|
 | EM equity gauge | **+30%** (~2x S&P 500) |
 | Bloomberg EM local-currency bonds | **+17%** |
-| US dollar | Worst year since 2017 |
+| [[US dollar]] | Worst year since 2017 |
 
 ---
 
@@ -49,7 +49,7 @@ Emerging markets have entered a yearslong supercycle:
 | AUM | $6.4B (highest since 2013) |
 | Allocation | Local vs hard currency = **2:1** |
 
-**PIMCO favorite bets:** Peru, South Africa, Brazil, Turkey, Egypt (frontier), Nigeria (frontier)
+**PIMCO favorite bets:** Peru, South [[Africa]], Brazil, Turkey, Egypt (frontier), [[Nigeria]] (frontier)
 
 **Thesis:** "Some of the best balance sheets are in select high-quality emerging markets. I can see a world where some EM yields trade inside DM."
 
@@ -63,21 +63,21 @@ Emerging markets have entered a yearslong supercycle:
 
 | Trigger | Response |
 |---------|----------|
-| Russia-Ukraine invasion | Central banks build gold reserves, diversify from Treasuries |
+| [[Russia]]-Ukraine invasion | Central banks build gold reserves, diversify from [[Treasuries]] |
 | Venezuela oil grab | Countries boost strategic inventories |
-| Greenland "the hard way" | Accelerates resource security focus |
+| [[Greenland]] "the hard way" | Accelerates resource security focus |
 
 **Beneficiaries:**
 
 | Country | Commodity link |
 |---------|----------------|
-| **Chile** | Copper (world's top producer) |
+| **Chile** | [[Copper]] (world's top producer) |
 | **Brazil** | Industrial metals |
-| **South Africa** | Gold |
+| **South [[Africa]]** | [[Gold]] |
 | Indonesia | Nickel |
 | DRC | Cobalt, copper |
 
-**Pattern:** Chile's stock market closely tracks copper prices. Brazil tracks industrial metals. South Africa tracks gold.
+**Pattern:** Chile's stock market closely tracks copper prices. Brazil tracks industrial metals. South [[Africa]] tracks gold.
 
 ---
 
@@ -89,10 +89,10 @@ Emerging markets have entered a yearslong supercycle:
 |--------|--------|
 | Direct foreign investment | All foreigners can invest in main bourse (Feb 2026) |
 | Property ownership | Foreigners can buy nationwide (except Mecca/Madinah) |
-| MSCI EM status | Upgraded 2019 |
+| [[MSCI]] EM status | Upgraded 2019 |
 | YTD performance | Tadawul +3.8% |
 
-**Inflow potential (HSBC):**
+**Inflow potential ([[HSBC]]):**
 
 | Metric | Value |
 |--------|-------|
@@ -117,14 +117,14 @@ See [[Venezuela]] for full context.
 
 | Country | AI supply chain role |
 |---------|---------------------|
-| **South Korea** | HBM (SK Hynix #1, Samsung #2) |
-| Taiwan | Advanced logic (TSMC) |
+| **South Korea** | [[HBM]] (SK Hynix #1, Samsung #2) |
+| [[Taiwan]] | Advanced logic ([[TSMC]]) |
 | Malaysia | Backend packaging |
 | Vietnam | Assembly |
 
 **South Korea positioning:**
-- SK Hynix = HBM industry leader
-- Samsung = #2 in HBM
+- SK Hynix = [[HBM]] industry leader
+- Samsung = #2 in [[HBM]]
 - Kospi up **11.5% YTD**
 
 ---
@@ -135,7 +135,7 @@ See [[Venezuela]] for full context.
 
 | Investor type | Opportunity |
 |---------------|-------------|
-| Supply chain specialists | Niche industrial firms (HBM, packaging) |
+| Supply chain specialists | Niche industrial firms ([[HBM]], packaging) |
 | Commodity bulls | Unloved miners (Chile copper, Brazil iron) |
 | Frontier seekers | Saudi reforms, Venezuela restructuring |
 | AI plays | Korea (SK Hynix, Samsung) |
@@ -147,7 +147,7 @@ See [[Venezuela]] for full context.
 | Risk | Mitigation |
 |------|------------|
 | Dollar reversal | Watch Fed policy |
-| China slowdown | Exposure varies by country |
+| [[China]] slowdown | Exposure varies by country |
 | EM-specific crises | Diversify across regions |
 | 15-year pattern | "This time is different" skepticism |
 
@@ -169,7 +169,7 @@ See [[Venezuela]] for full context.
 | Metric | Value |
 |--------|-------|
 | EM consecutive outperformance | Never since 2010 |
-| Saudi EM fund exposure | 60% (HSBC) |
+| Saudi EM fund exposure | 60% ([[HSBC]]) |
 | Saudi potential inflows | $25B |
 | Kospi YTD | +11.5% |
 | Tadawul YTD | +3.8% |
@@ -186,8 +186,8 @@ See [[Venezuela]] for full context.
 - [[South Africa]] — PIMCO favorite (local-currency bonds)
 - [[Turkey]] — PIMCO favorite (local-currency bonds)
 - [[Rare earth leverage]] — Commodity stockpiling driver
-- [[SK Hynix]] — AI supply chain (HBM leader)
-- [[Samsung]] — AI supply chain (HBM #2)
+- [[SK Hynix]] — AI supply chain ([[HBM]] leader)
+- [[Samsung]] — AI supply chain ([[HBM]] #2)
 - [[Capital flow reversal]] — Related macro theme
 
 *Created 2026-01-15*

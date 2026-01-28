@@ -1,6 +1,6 @@
 #actor #iran #individual #sanctioned
 
-**Ali Ansari** — Iranian business tycoon, founder of [[Ayandeh Bank]]. Built bank as self-dealing vehicle, extracted $1B+ via shell companies. UK-sanctioned for IRGC financing. Connected to Supreme Leader's son.
+**Ali Ansari** — Iranian business tycoon, founder of [[Ayandeh Bank]]. Built bank as self-dealing vehicle, extracted $1B+ via shell companies. [[UK]]-sanctioned for IRGC financing. Connected to Supreme Leader's son.
 
 ---
 
@@ -13,7 +13,7 @@
 | Key vehicle | [[Ayandeh Bank]] (collapsed Oct 2025) |
 | Ownership | ~65% of Ayandeh via affiliates |
 | Extracted | $1.21B+ in "loans" (never repaid) |
-| UK sanctions | October 2025 |
+| [[UK]] sanctions | October 2025 |
 | Criminal charges | Embezzlement (2022) — escaped prosecution |
 
 ---
@@ -63,7 +63,7 @@ Ansari's own phrase for his protection strategy: **give every faction a share so
 | Faction | What they received |
 |---------|-------------------|
 | **Leader's office** | Mojtaba Khamenei proximity; companies allegedly fronts for his network |
-| **IRGC** | Funding (per UK sanctions); military-economic access |
+| **IRGC** | Funding (per [[UK]] sanctions); military-economic access |
 | **Ahmadinejad network** | 1.2B toman campaign contribution (2009) via Mehrdad Bazrpash |
 | **Conservatives** | Islamic Coalition — Ala Mir-Mohammad-Sadeghi on Iran Mall board |
 | **Religious establishment** | Donated carpets to shrines (Iran/Iraq), built mosques, funded charities |
@@ -74,7 +74,7 @@ Ansari's own phrase for his protection strategy: **give every faction a share so
 
 Documented proximity to **Mojtaba Khamenei**, son of Supreme Leader Ali Khamenei.
 
-- UK reports: Ansari's companies (including Iran Mall International Development Company) allegedly act as fronts for money laundering tied to Mojtaba's network
+- [[UK]] reports: Ansari's companies (including Iran Mall International Development Company) allegedly act as fronts for money laundering tied to Mojtaba's network
 - Social media in Iran: Users pointed to Mojtaba connection when Ayandeh collapsed, arguing it shielded Ansari from scrutiny
 
 **What this meant:**
@@ -152,7 +152,7 @@ Ansari was criminally charged with embezzlement in 2022. **Escaped prosecution**
 | Actual loans | 10x limit |
 | Loans to Ansari-linked entities | 1.3 quadrillion rials ($1.21B) |
 | Personal "loan" for Iran Mall | 740 trillion rials ($687M) |
-| Shell companies | ~100 |
+| [[Shell]] companies | ~100 |
 | Amount repaid | **$0** |
 
 **90%+ of Ayandeh's funds** allegedly channeled to Ansari's own ventures.
@@ -174,7 +174,7 @@ Public deposits → Ayandeh (high rates promised)
 
 ## International assets
 
-### UK property
+### [[UK]] property
 
 | Detail | Value |
 |--------|-------|
@@ -183,7 +183,7 @@ Public deposits → Ayandeh (high rates promised)
 | Holding vehicle | Birch Ventures Limited (Isle of Man company) |
 | Service address | Dubai |
 | Features | 8 bedrooms, 3 reception rooms, indoor pool, cinema, games rooms, library |
-| Total UK real estate | £73 million+ |
+| Total [[UK]] real estate | £73 million+ |
 
 ### Other passports
 
@@ -197,20 +197,20 @@ The multiple passports enabled international asset placement while maintaining I
 
 ---
 
-## UK sanctions (October 2025)
+## [[UK]] sanctions (October 2025)
 
-Days after Ayandeh's collapse, UK Foreign Office sanctioned Ansari.
+Days after Ayandeh's collapse, [[UK]] Foreign Office sanctioned Ansari.
 
 | Detail | Value |
 |--------|-------|
 | Date | Late October 2025 |
-| Basis | "Facilitating and supporting the hostile activities" of Islamic Republic and IRGC |
+| Basis | "Facilitating and supporting the hostile activities" of Islamic [[Republic]] and IRGC |
 | Designation | "Corrupt Iranian banker and businessman" |
 | Specific allegation | Funding IRGC |
-| Asset freeze | Yes — UK assets |
-| Travel ban | Yes (UK) |
+| Asset freeze | Yes — [[UK]] assets |
+| [[Travel]] ban | Yes ([[UK]]) |
 
-**Note:** UK sanctions freeze the Bishop's Avenue property. Ansari remains protected domestically in Iran.
+**Note:** [[UK]] sanctions freeze the Bishop's Avenue property. Ansari remains protected domestically in Iran.
 
 ---
 
@@ -223,7 +223,7 @@ Ansari's flagship project, funded by depositor money.
 | Location | West Tehran |
 | Type | Mega shopping/leisure complex |
 | Funding | $687M "loan" from Ayandeh |
-| Shell companies | ~100 created to channel funds |
+| [[Shell]] companies | ~100 created to channel funds |
 | Repaid | $0 |
 
 **The problem:** You can't liquidate a mall to pay depositors. When Ayandeh needed cash, Iran Mall was just concrete.
@@ -236,7 +236,7 @@ Ansari's flagship project, funded by depositor money.
 |---------|--------|
 | Ayandeh | Merged into Bank Melli |
 | Depositors | 7 million, $2.34B trapped |
-| Ansari | UK-sanctioned, whereabouts unclear |
+| Ansari | [[UK]]-sanctioned, whereabouts unclear |
 | Criminal liability (Iran) | None enforced (protected) |
 | Assets | Presumably still controls real estate empire |
 
@@ -262,7 +262,7 @@ Ansari is the template for **regime-connected extraction** in Iran:
 ## Related
 
 ### Comparison
-- [[Ayandeh-Master comparison]] — parallel collapse one month apart (Brazil Nov 2025); same [[Bank cronyism]] pattern, different outcomes
+- [[Ayandeh-Master comparison]] — parallel collapse one month apart ([[Brazil]] Nov 2025); same [[Bank cronyism]] pattern, different outcomes
 
 ### Iran context
 - [[Ayandeh Bank]] — extraction vehicle

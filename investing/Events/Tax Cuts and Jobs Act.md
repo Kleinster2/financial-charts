@@ -50,7 +50,7 @@ US multinationals held ~$2.6T overseas pre-TCJA. The one-time tax holiday trigge
 | [[Cisco]] | $67B | Buybacks |
 | [[Google]] (Alphabet) | ~$50B | Buybacks |
 | [[Oracle]] | ~$35B | M&A spree |
-| [[Qualcomm]] | ~$30B | Buybacks, attempted NXP deal |
+| [[Qualcomm]] | ~$30B | Buybacks, attempted [[NXP]] deal |
 | [[Broadcom]] | Large (undisclosed) | Acquisitions |
 
 **Pharma:**

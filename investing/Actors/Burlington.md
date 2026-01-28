@@ -105,7 +105,7 @@ CEO O'Sullivan: "This is the kind of environment where the off-price model is at
 - Tariff risk (apparel sourcing)
 - ~25x PE — more expensive than peers
 - Comp sales moderating (+0-2% guidance)
-- Consumer spending uncertainty
+- [[Consumer]] spending uncertainty
 - Less proven brand vs TJX/Ross
 
 ---

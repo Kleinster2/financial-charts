@@ -15,7 +15,7 @@ aliases: [VLO, Valero Energy]
 |--------|-------------|
 | Refinery design | Configured for heavy, sour crude |
 | Historical source | Venezuela (pre-collapse) |
-| Current source | Canada, Mexico, other |
+| Current source | [[Canada]], [[Mexico]], other |
 | Venezuela upside | Natural fit, lower transport cost |
 
 **If Venezuela supply returns:** Valero's Gulf Coast refineries get cheaper, closer feedstock.
@@ -29,7 +29,7 @@ aliases: [VLO, Valero Energy]
 | Market cap | ~$45B |
 | Ticker | VLO (NYSE) |
 | Capacity | ~3.2M bpd |
-| Refineries | 15 (US, Canada, UK) |
+| Refineries | 15 (US, [[Canada]], [[UK]]) |
 
 ---
 
@@ -38,7 +38,7 @@ aliases: [VLO, Valero Energy]
 | Segment | Description |
 |---------|-------------|
 | Refining | Gasoline, diesel, jet fuel |
-| Renewable Diesel | Diamond Green Diesel JV |
+| Renewable [[Diesel]] | Diamond Green [[Diesel]] JV |
 | Ethanol | 12 plants |
 
 ---
@@ -52,7 +52,7 @@ aliases: [VLO, Valero Energy]
 - Venezuela crude is heavy/sour
 - Gulf Coast = shortest shipping route
 
-**Competitors for Venezuela crude:** [[Phillips 66]], [[PBF Energy]], Citgo
+**Competitors for Venezuela crude:** [[Phillips 66]], [[PBF Energy]], [[Citgo]]
 
 ---
 

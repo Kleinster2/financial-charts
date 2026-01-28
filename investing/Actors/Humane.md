@@ -23,7 +23,7 @@ Failed AI hardware startup. The AI Pin ($699) became a cautionary tale for the s
 
 | Date | Event |
 |------|-------|
-| 2018 | Founded by ex-Apple employees Imran Chaudhri & Bethany Bongiorno |
+| 2018 | Founded by ex-[[Apple]] employees Imran Chaudhri & Bethany Bongiorno |
 | 2023 | $240M total funding, massive hype |
 | Apr 2024 | AI Pin launches at $699 + $24/mo subscription |
 | Mid 2024 | Returns start outpacing sales |
@@ -83,7 +83,7 @@ HP formed **HP IQ** — new AI innovation lab using Humane assets. The tech live
 
 **Who applied the lessons:**
 - [[Amazon]] (Bee) — cheap, focused, ambient
-- [[OpenAI]] + Jony Ive — explicitly NOT wearable, learning from failures
+- [[OpenAI]] + [[Jony Ive]] — explicitly NOT wearable, learning from failures
 
 ---
 
@@ -100,5 +100,5 @@ HP formed **HP IQ** — new AI innovation lab using Humane assets. The tech live
 
 - [[Screenless AI]] — category context, failure case study
 - [[Amazon]] — Bee took opposite approach
-- [[OpenAI]] — Jony Ive device avoiding wearable form factor
+- [[OpenAI]] — [[Jony Ive]] device avoiding wearable form factor
 - [[HP]] — acquirer

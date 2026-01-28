@@ -14,7 +14,7 @@ aliases: [Egerton, John Armitage]
 | Founded | 1994 |
 | Founder | **John Armitage** |
 | AUM | ~$20B |
-| Strategy | L/S equity (Europe focus) |
+| Strategy | L/S equity ([[Europe]] focus) |
 | HQ | London |
 
 ---
@@ -26,7 +26,7 @@ aliases: [Egerton, John Armitage]
 | Background | Morgan Grenfell |
 | Style | Fundamental, long-term |
 | Reputation | Top European stock picker |
-| Philanthropy | Major UK charity donor |
+| Philanthropy | Major [[UK]] charity donor |
 
 ---
 
@@ -34,7 +34,7 @@ aliases: [Egerton, John Armitage]
 
 | Approach | Description |
 |----------|-------------|
-| European focus | UK, Continental Europe |
+| European focus | [[UK]], Continental [[Europe]] |
 | Global | Also US, EM |
 | Fundamental | Deep research |
 | Long-biased | Net long exposure |

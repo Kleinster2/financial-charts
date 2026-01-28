@@ -9,8 +9,8 @@
 | Country | Share |
 |---------|-------|
 | Russia | ~40% |
-| South Africa | ~35% |
-| Canada | ~10% |
+| South [[Africa]] | ~35% |
+| [[Canada]] | ~10% |
 | US | ~5% |
 
 **Russia dominance:** Norilsk Nickel produces ~40% of global supply. Sanctions fears drove the 2022 spike, though Russian supply has continued flowing.
@@ -37,7 +37,7 @@ Far more concentrated in autos than platinum — makes it highly levered to gaso
 | 2024 | $1,000 | Substitution, EV transition |
 | Current | ~$950 | Normalization |
 
-**What happened:** Gasoline vehicles need 2-4g palladium per car. Tightening emissions standards (China 6, Euro 6d) increased loadings just as supply struggled. Russia invasion fears spiked prices further.
+**What happened:** Gasoline vehicles need 2-4g palladium per car. Tightening emissions standards ([[China]] 6, [[Euro]] 6d) increased loadings just as supply struggled. Russia invasion fears spiked prices further.
 
 ### Substitution to platinum
 

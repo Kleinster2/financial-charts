@@ -32,12 +32,12 @@ aliases: [Lachlan]
 
 | Year | Event |
 |------|-------|
-| 1994 | Joined News Corp (Australia) |
+| 1994 | Joined News Corp ([[Australia]]) |
 | 2000 | Deputy COO, News Corp |
 | 2005 | Left News Corp (disagreements) |
-| 2005-2014 | Built own media investments (Australia) |
+| 2005-2014 | Built own media investments ([[Australia]]) |
 | 2014 | Returned as Fox Co-Chairman |
-| 2019 | Became Fox Corporation CEO (post-Disney split) |
+| 2019 | Became Fox Corporation CEO (post-[[Disney]] split) |
 
 **Pattern:** Left, came back, now running the show.
 
@@ -47,10 +47,10 @@ aliases: [Lachlan]
 
 | Strategy | Execution |
 |----------|-----------|
-| Focus on news/sports | Sold entertainment to Disney |
+| Focus on news/sports | Sold entertainment to [[Disney]] |
 | Fox News dominance | Maintained #1 position |
 | Tubi (FAST) | Grew to 80M+ MAU |
-| Sports rights | Locked up NFL, World Cup |
+| [[Sports rights]] | Locked up NFL, World Cup |
 | Cost discipline | Lean operation |
 
 ---
@@ -93,7 +93,7 @@ aliases: [Lachlan]
 
 | Fact | Detail |
 |------|--------|
-| Residence | Sydney, Australia (moved from LA) |
+| Residence | Sydney, [[Australia]] (moved from LA) |
 | Wife | Sarah Murdoch (model) |
 | Children | Three |
 | Citizenship | Australian, US |

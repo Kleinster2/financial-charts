@@ -28,7 +28,7 @@ World's largest fast fashion e-commerce:
 - Gen Z target demographic
 
 **Supply chain:**
-- China manufacturing base
+- [[China]] manufacturing base
 - Real-time inventory
 - Small batch production
 - Rapid iteration
@@ -41,7 +41,7 @@ World's largest fast fashion e-commerce:
 - Originally sought US/London listing
 - Regulatory pushback
 - Pivoted to Hong Kong
-- Still requires China signoff
+- Still requires [[China]] signoff
 - Geopolitically sensitive
 
 | Challenge | Status |
@@ -66,13 +66,13 @@ Valuation has compressed from peak amid regulatory uncertainty.
 
 ## Controversies
 
-**ESG concerns:**
+**[[ESG]] concerns:**
 - Labor practices questioned
 - Environmental impact (fast fashion)
 - IP/design copying allegations
 - Uyghur cotton supply chain scrutiny
 
-These issues complicated US/UK listing plans.
+These issues complicated US/[[UK]] listing plans.
 
 ---
 
@@ -86,7 +86,7 @@ These issues complicated US/UK listing plans.
 
 **Bear:**
 - Beijing approval uncertain
-- ESG/reputational risks
+- [[ESG]]/reputational risks
 - Regulatory scrutiny (multiple jurisdictions)
 - Fast fashion backlash growing
 - Valuation down from peak
@@ -101,6 +101,6 @@ These issues complicated US/UK listing plans.
 
 - [[Fashion]] — sector hub
 - [[Asia IPO pipeline 2026]] — context (HK IPO pending)
-- [[ByteDance]] — peer (China tech, similar listing challenges)
-- [[Alibaba]] — peer (China e-commerce)
+- [[ByteDance]] — peer ([[China]] tech, similar listing challenges)
+- [[Alibaba]] — peer ([[China]] e-commerce)
 - [[PDD Holdings]] — competitor (Temu ultra-cheap)

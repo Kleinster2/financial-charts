@@ -29,7 +29,7 @@ After:   Company has cash, pays rent, no longer owns building
 
 ### For the seller (retailer)
 
-| Benefit | Trade-off |
+| Benefit | [[Trade]]-off |
 |---------|-----------|
 | Immediate liquidity | Lose ownership |
 | Debt reduction | Now pay rent (operating expense) |
@@ -71,7 +71,7 @@ $100M rent at 6% cap = $1.67B sale price
 
 Many retailers own real estate worth more than their market cap. Sale-leaseback converts illiquid assets to cash.
 
-| Company | Real estate value | Market cap | Gap |
+| Company | Real estate value | Market cap | [[Gap]] |
 |---------|------------------|------------|-----|
 | [[Macy's]] | $5-9B (estimated) | ~$5.8B | Potential unlock |
 | Kohl's | ~$8B (2022 estimate) | ~$3B | Significant |
@@ -138,7 +138,7 @@ Investors often push retailers to "unlock real estate value":
 - Works best when real estate is undervalued vs. operating business
 - Often signals distress
 
-**For REITs/buyers:**
+**For [[REITs]]/buyers:**
 - Retail sale-leasebacks carry [[Department store decline]] risk
 - Tenant credit quality is paramount
 - Re-leasing large boxes is difficult if tenant fails

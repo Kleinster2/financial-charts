@@ -13,8 +13,8 @@ The $1.4T AI buildout may rely on circular capital flows — each player's solve
 | Metric | Value |
 |--------|-------|
 | US data center credit deals (2025) | **$178.5B** |
-| New entrants | Crypto miners, sovereign wealth, PE firms |
-| Off-balance-sheet demand | Growing (Meta $30B via Blue Owl) |
+| New entrants | [[Crypto]] miners, sovereign wealth, PE firms |
+| Off-balance-sheet demand | Growing ([[Meta]] $30B via Blue Owl) |
 
 Source: Bloomberg (Jan 2026)
 
@@ -28,12 +28,12 @@ Source: Bloomberg (Jan 2026)
 |--------|-------|
 | **Howard Marks** (Oaktree) | Warns of potential overbuild |
 | **Charles Fitzgerald** (platformonomics.com) | "Still waiting for a hyperscaler to launch an AI product that needs new data centers" |
-| **Satya Nadella** (Microsoft) | "Excited to be a leaser" — outsourcing risk |
-| **Dario Amodei** (Anthropic) | "Real dilemma" — supply-demand timing uncertainty |
+| **Satya Nadella** ([[Microsoft]]) | "Excited to be a leaser" — outsourcing risk |
+| **[[Dario Amodei]]** ([[Anthropic]]) | "Real dilemma" — supply-demand timing uncertainty |
 
 **Nadella's framing:**
 - Called potential "overbuild" a "luxury problem"
-- But also signaling Microsoft wants to lease, not own
+- But also signaling [[Microsoft]] wants to lease, not own
 - Suggests hyperscalers cautious on own balance sheet exposure
 
 ---
@@ -43,7 +43,7 @@ Source: Bloomberg (Jan 2026)
 Capital circulates within ecosystem rather than entering from outside:
 
 ```
-SoftBank → OpenAI → Oracle → NVIDIA → (back to ecosystem)
+[[SoftBank]] → OpenAI → Oracle → [[NVIDIA]] → (back to ecosystem)
 ```
 
 If one link breaks, cascade risk.
@@ -54,11 +54,11 @@ If one link breaks, cascade risk.
 
 | Player | Exposure | Red flag |
 |--------|----------|----------|
-| **SoftBank** | $40B OpenAI bet | 54.6% Arm concentration, margin call at -40% |
+| **[[SoftBank]]** | $40B OpenAI bet | 54.6% Arm concentration, margin call at -40% |
 | **Oracle** | 57% backlog = OpenAI | CDS 124-139 bps (2008 levels), CEO selling |
 | **OpenAI** | $115B losses through 2029 | $1.4T commitment, ~$140B secured |
-| **CoreWeave** | 65% revenue = Microsoft | CDS 773 bps = 42% default probability |
-| **NVIDIA** | Vendor financing | "Investment" = 3.5x GPU purchase multiplier |
+| **CoreWeave** | 65% revenue = [[Microsoft]] | CDS 773 bps = 42% default probability |
+| **[[NVIDIA]]** | Vendor financing | "Investment" = 3.5x GPU purchase multiplier |
 
 ---
 
@@ -89,7 +89,7 @@ See [[Power constraints]] for demand-side analysis.
 **Industry defense:**
 - OpenAI CFO Sarah Friar: "confident GPUs useful for at least 5 years"
 - OpenAI still using Ampere chips (released 2020) for inference
-- NVIDIA CFO Colette Kress (Nov 2025): useful life "getting longer," still selling Hopper (2022)
+- [[NVIDIA]] CFO Colette Kress (Nov 2025): useful life "getting longer," still selling Hopper (2022)
 - CoreWeave CEO: "every data point is telling a different story" — Ampere fully booked
 
 **Counterarguments:**
@@ -105,7 +105,7 @@ See [[Power constraints]] for demand-side analysis.
 
 **SEC under Trump:** "Out to lunch" on scrutinizing aggressive assumptions (Francine McKenna, Montclair State).
 
-**Most exposed:** Neoclouds (CoreWeave, Nebius) — smaller, often unprofitable, higher interest rates, debt-financed.
+**Most exposed:** Neoclouds (CoreWeave, [[Nebius]]) — smaller, often unprofitable, higher interest rates, debt-financed.
 
 ---
 
@@ -115,15 +115,15 @@ See [[Power constraints]] for demand-side analysis.
 
 | Type | Examples | Strategy |
 |------|----------|----------|
-| **Crypto miners** | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
+| **[[Crypto]] miners** | [[Bitdeer]], [[Nscale]], [[IREN]] | Converting mining infrastructure |
 | **PE/Infrastructure** | [[Blue Owl]], [[Blackstone]] | Off-balance-sheet financing |
 | **Newcomers** | [[Adriatic DC]], [[Fermi Inc]] | Greenfield mega-projects |
-| **Sovereign** | GCC funds | National AI ambitions |
+| **Sovereign** | [[GCC]] funds | National AI ambitions |
 
 **Scale of projects:**
 - Adriatic DC: €50B, 2GW Puglia
-- Fermi Inc: 11GW Texas (Rick Perry)
-- O'Leary Alberta: 17GW Canada
+- [[Fermi]] Inc: 11GW Texas (Rick Perry)
+- O'Leary Alberta: 17GW [[Canada]]
 
 Many lack hyperscaler anchor tenants — speculative buildout risk.
 
@@ -161,21 +161,21 @@ Many lack hyperscaler anchor tenants — speculative buildout risk.
 
 - [ ] CoreWeave refinancing success
 - [ ] Oracle debt trajectory
-- [ ] SoftBank margin situation
+- [ ] [[SoftBank]] margin situation
 - [ ] OpenAI revenue vs burn updates
-- [ ] Hyperscaler capex guidance cuts
+- [ ] [[Hyperscaler capex]] guidance cuts
 
 ---
 
 ## Counter-argument
 
 Bulls would say:
-- Hyperscalers (Microsoft, Google, Amazon) have balance sheets to absorb losses
+- Hyperscalers ([[Microsoft]], [[Google]], [[Amazon]]) have balance sheets to absorb losses
 - AI demand is real (coding, agents working)
 - Infrastructure constraints = pricing power for winners
 - Not all players are equally fragile
 
-The risk is concentrated in second-tier players (Oracle, CoreWeave, SoftBank) — Tier 1 hyperscalers may survive while others fail.
+The risk is concentrated in second-tier players (Oracle, CoreWeave, [[SoftBank]]) — Tier 1 hyperscalers may survive while others fail.
 
 ---
 
@@ -186,11 +186,11 @@ The risk is concentrated in second-tier players (Oracle, CoreWeave, SoftBank) �
 - [[Oracle]] — fragile (CDS 124-139 bps, CEO selling)
 - [[Masayoshi Son]] — exposed (54.6% Arm concentration)
 - [[OpenAI]] — exposed ($115B losses through 2029)
-- [[Blue Owl]] — financier (Meta $30B deal, pulling from Oracle)
+- [[Blue Owl]] — financier ([[Meta]] $30B deal, pulling from Oracle)
 - [[Blackstone]] — financier (CoreWeave debt)
 - [[Adriatic DC]] — new entrant (€50B Puglia, speculative)
 - [[Fermi Inc]] — new entrant (11GW Texas, lost anchor tenant)
-- [[Nscale]] — crypto pivot ($23B Microsoft deal)
+- [[Nscale]] — crypto pivot ($23B [[Microsoft]] deal)
 - [[Bitdeer]] — crypto pivot (570MW Ohio)
 - [[Power constraints]] — bottleneck (transformer lead times 120-210 weeks)
 - [[AI hyperscalers]] — context (capex sustainability questioned)

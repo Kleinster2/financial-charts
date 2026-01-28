@@ -53,14 +53,14 @@ Technology leadership vs Patterson, Nabors.
 | Region | Status |
 |--------|--------|
 | Middle East | Expanding |
-| Argentina | Vaca Muerta |
-| Australia | Stable |
+| [[Argentina]] | Vaca Muerta |
+| [[Australia]] | Stable |
 
 Diversifying from US land concentration.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Potential:**
 
@@ -85,7 +85,7 @@ See [[Venezuela oil rebuild]] for context.
 - US rig count soft
 - Day rate pressure
 - Permian focus risk
-- Natural gas weakness
+- [[Natural gas]] weakness
 
 ---
 

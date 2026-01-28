@@ -25,7 +25,7 @@ aliases: [RCL, Royal Caribbean Group]
 
 | Factor | Advantage |
 |--------|-----------|
-| Home port | Miami, Fort Lauderdale |
+| [[Home]] port | Miami, Fort Lauderdale |
 | Distance | 90 miles to Havana |
 | Ships | Caribbean-optimized fleet |
 | Brand | Premium = Cuba appeal |

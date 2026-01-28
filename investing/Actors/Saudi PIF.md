@@ -27,7 +27,7 @@ Largest AI investor nation-state:
 | Investment | Sector | Stake |
 |------------|--------|-------|
 | [[Lucid]] | EVs | **55%** |
-| SoftBank Vision Fund | LP | — |
+| [[SoftBank Vision Fund]] | LP | — |
 | Various AI startups | Direct | — |
 | Data centers | Infrastructure | — |
 
@@ -48,8 +48,8 @@ Biggest sovereign AI bet.
 ## Data center buildout
 
 **Infrastructure:**
-- Google Cloud partnership
-- Oracle data centers
+- [[Google]] Cloud partnership
+- [[Oracle]] data centers
 - AWS region
 - Massive compute build
 
@@ -85,7 +85,7 @@ AI = post-oil economy.
 | Fund size | $930B | Smaller but focused |
 | AI focus | Broad | AI-first |
 | Execution | Earlier stage | More operational |
-| Partnerships | a16z | Microsoft, Cerebras |
+| Partnerships | a16z | [[Microsoft]], [[Cerebras]] |
 
 ---
 
@@ -116,7 +116,7 @@ AI = post-oil economy.
 
 - [[Lucid]] — major investment (55% stake, EVs)
 - [[Elm]] — portfolio (govtech, Absher platform)
-- [[UAE G42]] — competitor (GCC AI leader)
+- [[UAE G42]] — competitor ([[GCC]] AI leader)
 - [[SoftBank]] — investee (Vision Fund LP)
 - [[a16z]] — partner (Transcendence JV)
 - [[NVIDIA]] — beneficiary (GPU for Saudi AI)

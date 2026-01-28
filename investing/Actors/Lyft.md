@@ -15,7 +15,7 @@ aliases: [LYFT]
 | Market cap | ~$6B |
 | US rideshare share | ~28% |
 | Active riders | 20M+ |
-| Focus | US/Canada rideshare |
+| Focus | US/[[Canada]] rideshare |
 
 ---
 
@@ -25,7 +25,7 @@ aliases: [LYFT]
 |--------|-------|
 | US market share | ~28% |
 | vs Uber | Distant #2 |
-| Geography | US + Canada only |
+| Geography | US + [[Canada]] only |
 | Differentiation | Driver-friendly, bikes |
 
 ---
@@ -35,7 +35,7 @@ aliases: [LYFT]
 | Segment | Description |
 |---------|-------------|
 | **Rideshare** | Core business (~95% of revenue) |
-| **Lyft Urban Solutions** | Docked bikes/e-bikes (Citi Bike, Divvy, etc.) |
+| **Lyft Urban Solutions** | Docked bikes/e-bikes (Citi Bike, [[Divvy]], etc.) |
 | **Autonomous** | Partnerships (Waymo, etc.) |
 | **Enterprise** | Business travel |
 
@@ -45,7 +45,7 @@ aliases: [LYFT]
 
 ### How Lyft got here
 
-**Nov 2018:** Acquired Motivate for $251M — operator of Citi Bike (NYC), Divvy (Chicago), Capital Bikeshare (DC), and Ford GoBike (now Bay Wheels, SF). Became America's largest bikeshare service overnight.
+**Nov 2018:** Acquired Motivate for $251M — operator of Citi Bike (NYC), [[Divvy]] (Chicago), Capital Bikeshare (DC), and [[Ford]] GoBike (now Bay Wheels, SF). Became America's largest bikeshare service overnight.
 
 **2023:** New CEO David Risher explored selling the division. WSJ reported buyer interest. Bikes/scooters = only ~5% of revenue ($48M/quarter). Seen as a distraction from rideshare profitability.
 
@@ -56,7 +56,7 @@ aliases: [LYFT]
 | System | City | Type |
 |--------|------|------|
 | **Citi Bike** | New York City | Docked + e-bikes |
-| **Divvy** | Chicago | Docked + e-bikes |
+| **[[Divvy]]** | Chicago | Docked + e-bikes |
 | **Capital Bikeshare** | Washington DC | Docked |
 | **Bay Wheels** | San Francisco | Docked + e-bikes |
 | **PBSC clients** | 49 markets globally | Bikeshare-as-a-service |
@@ -91,7 +91,7 @@ Docked bikeshare solves the problems that killed shared scooters: fixed stations
 | Factor | Lyft | [[Uber]] |
 |--------|------|---------|
 | US share | ~28% | ~72% |
-| Global | US/Canada only | 70+ countries |
+| Global | US/[[Canada]] only | 70+ countries |
 | Delivery | No | Uber Eats |
 | Freight | No | Uber Freight |
 

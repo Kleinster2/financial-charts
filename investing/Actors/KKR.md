@@ -23,7 +23,7 @@ aliases: [Kohlberg Kravis Roberts, KKR & Co]
 
 | Segment | AUM | Focus |
 |---------|-----|-------|
-| **Private Equity** | ~$175B | Buyouts, growth |
+| **[[Private Equity]]** | ~$175B | Buyouts, growth |
 | **Real Assets** | ~$140B | Infrastructure, real estate |
 | **Credit** | ~$240B | Leveraged loans, direct lending |
 
@@ -55,7 +55,7 @@ aliases: [Kohlberg Kravis Roberts, KKR & Co]
 
 | Theme | Examples |
 |-------|----------|
-| **Data centers** | CyrusOne (sold), Global Switch |
+| **Data centers** | CyrusOne (sold), Global [[Switch]] |
 | **Fiber/telecom** | Numerous investments |
 | **Energy transition** | Renewable platforms |
 | **Ports/transport** | Global infrastructure |
@@ -66,9 +66,9 @@ aliases: [Kohlberg Kravis Roberts, KKR & Co]
 
 | Deal | Year | Notes |
 |------|------|-------|
-| **RJR Nabisco** | 1989 | Famous "Barbarians at the Gate" |
+| **RJR Nabisco** | 1989 | Famous "[[Barbarians at the Gate]]" |
 | **TXU** | 2007 | Largest LBO ever ($45B) |
-| **Envision Healthcare** | 2018 | Controversial outcome |
+| **Envision [[Healthcare]]** | 2018 | Controversial outcome |
 
 ---
 

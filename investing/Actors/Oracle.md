@@ -3,7 +3,7 @@ aliases: [ORCL]
 ---
 #actor #hyperscaler #cloud #usa
 
-**Oracle** — Tier 2 AI hyperscaler. [[Project Stargate]] partner, OCI for AI workloads, Larry Ellison's nuclear DC vision.
+**Oracle** — Tier 2 AI hyperscaler. [[Project Stargate]] partner, OCI for AI workloads, [[Larry Ellison]]'s nuclear DC vision.
 
 ---
 
@@ -13,9 +13,9 @@ Oracle is punching above its weight in AI infrastructure:
 
 | Role | Details |
 |------|---------|
-| Stargate partner | JV with SoftBank, OpenAI, MGX |
+| Stargate partner | JV with SoftBank, OpenAI, [[MGX]] |
 | xAI relationship | Colossus built on OCI |
-| Nuclear ambition | Larry Ellison pursuing nuclear-powered DCs |
+| Nuclear ambition | [[Larry Ellison]] pursuing nuclear-powered DCs |
 | Cloud growth | OCI fastest-growing major cloud |
 
 ---
@@ -27,11 +27,11 @@ Oracle is punching above its weight in AI infrastructure:
 | Metric | Value |
 |--------|-------|
 | Role | Cloud infrastructure partner |
-| Partners | [[SoftBank]], [[OpenAI]], MGX |
+| Partners | [[SoftBank]], [[OpenAI]], [[MGX]] |
 | Contribution | Data center expertise, OCI |
 | Location | Texas (initial) |
 
-**Larry Ellison** personally involved in Stargate announcement.
+**[[Larry Ellison]]** personally involved in Stargate announcement.
 
 See [[Project Stargate]] for full details.
 
@@ -45,7 +45,7 @@ See [[Project Stargate]] for full details.
 |---------|-------------|
 | Colossus (Memphis) | OCI infrastructure |
 | xAI training | Cloud compute |
-| Grok models | Training infrastructure |
+| [[Grok]] models | Training infrastructure |
 
 Oracle tied into Musk's AI ambitions via xAI.
 
@@ -53,7 +53,7 @@ Oracle tied into Musk's AI ambitions via xAI.
 
 ## Nuclear data center vision
 
-**Larry Ellison pursuing nuclear-powered DCs:**
+**[[Larry Ellison]] pursuing nuclear-powered DCs:**
 
 | Status | Details |
 |--------|---------|
@@ -94,14 +94,14 @@ See [[Nuclear power for AI]] for context.
 | Component | Source |
 |-----------|--------|
 | GPUs | [[NVIDIA]] H100/H200/Blackwell |
-| Networking | NVIDIA/Broadcom |
+| Networking | NVIDIA/[[Broadcom]] |
 | Custom silicon | None announced |
 
-Unlike Google/Amazon/Meta, Oracle hasn't announced custom AI chips — relies entirely on NVIDIA.
+Unlike [[Google]]/[[Amazon]]/[[Meta]], Oracle hasn't announced custom AI chips — relies entirely on NVIDIA.
 
 ---
 
-## Larry Ellison
+## [[Larry Ellison]]
 
 **Founder/CTO driving AI strategy:**
 - Still active at 80+
@@ -171,7 +171,7 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 **OpenAI risk framing:**
 - OpenAI has $1.4T in commitments vs ~$13B annual revenue
-- But backstopped: Microsoft (27% stake, $135B), AMD chips-for-equity, potential Nvidia investment up to $100B
+- But backstopped: [[Microsoft]] (27% stake, $135B), [[AMD]] chips-for-equity, potential Nvidia investment up to $100B
 - DiFucci: "With this risk comes significant opportunity"
 
 **Timeline:** "Decade stock" but numbers should be "irrefutable" in 5 years, "obvious long before that."
@@ -214,7 +214,7 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 - [[xAI]] — Colossus customer (OCI)
 - [[NVIDIA]] — GPU supplier (no custom silicon)
 - [[TSMC]] — upstream (via NVIDIA)
-- [[Nuclear power for AI]] — Larry Ellison's DC vision
+- [[Nuclear power for AI]] — [[Larry Ellison]]'s DC vision
 - [[BYOP]] — power strategy context
 - [[AI hyperscalers]] — category (tier 2)
 - [[Tax Cuts and Jobs Act]] — ~$35B repatriation (2018)

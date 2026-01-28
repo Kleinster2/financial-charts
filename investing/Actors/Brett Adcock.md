@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #founder #robotics #evtol #usa
 
-**Brett Adcock** — Serial entrepreneur. Founded Vettery ($100M exit), Archer Aviation ($2.7B IPO), and Figure AI ($39B).
+**Brett Adcock** — Serial entrepreneur. Founded Vettery ($100M exit), [[Archer Aviation]] ($2.7B IPO), and Figure AI ($39B).
 
 ---
 
@@ -24,7 +24,7 @@ aliases: []
 | Company | Founded | Outcome | Notable |
 |---------|---------|---------|---------|
 | **Vettery** | 2013 | Sold to Adecco for **$100M** (2018) | Talent marketplace |
-| **Archer Aviation** | 2018 | IPO at **$2.7B** (NYSE: ACHR) | eVTOL, United Airlines $1.5B deal |
+| **[[Archer Aviation]]** | 2018 | IPO at **$2.7B** (NYSE: ACHR) | eVTOL, [[United Airlines]] $1.5B deal |
 | **[[Figure AI]]** | 2022 | **$39B** valuation | Humanoid robotics |
 | **Cover** | 2023 | Development | School security, $10M self-funded |
 | **Hark** | 2026 | **New AI lab** | Human-centric AI, $100M self-funded |
@@ -62,7 +62,7 @@ First major entrepreneurial success.
 
 ---
 
-## Archer Aviation (2018-2022)
+## [[Archer Aviation]] (2018-2022)
 
 | Metric | Value |
 |--------|-------|
@@ -78,7 +78,7 @@ First major entrepreneurial success.
 - Connected cold calls to deep technical reading
 
 **Key deals:**
-- United Airlines: $1.5B commercial agreement
+- [[United Airlines]]: $1.5B commercial agreement
 - Raised $1B+ total capital
 
 **Departure (2022):**
@@ -98,7 +98,7 @@ First major entrepreneurial success.
 
 **Mission:** "Give AI a body."
 
-**Team building:** Recruited from Boston Dynamics, Tesla, Google DeepMind, Apple.
+**Team building:** Recruited from Boston Dynamics, Tesla, [[Google DeepMind]], [[Apple]].
 
 **Philosophy:** General-purpose humanoid robots for manufacturing, logistics, warehousing, retail, and home.
 
@@ -137,15 +137,15 @@ See [[Figure AI]] for full company details.
 | Founded | January 2026 |
 | Funding | **$100M** (self-funded) |
 | Focus | Human-centric AI |
-| Team | 30+ engineers (Apple, Google, Meta, Amazon) |
-| Target | 100 people by H1 2026 |
+| Team | 30+ engineers ([[Apple]], [[Google]], [[Meta]], [[Amazon]]) |
+| [[Target]] | 100 people by H1 2026 |
 | First model | Summer 2026 |
 
 **Mission:** Build AI systems that "think proactively, recursively improve, and care deeply about people."
 
 **Key hires:**
-- **Abidur Chowdhury** — former Apple designer (iPhone Air), Head of Design (left Apple Nov 2025)
-- Engineers from Apple, Google DeepMind, Meta, Amazon
+- **Abidur Chowdhury** — former [[Apple]] designer (iPhone Air), Head of Design (left [[Apple]] Nov 2025)
+- Engineers from [[Apple]], [[Google DeepMind]], [[Meta]], [[Amazon]]
 
 **Note:** Adcock remains CEO of both Figure AI and Hark.
 
@@ -165,7 +165,7 @@ See [[Figure AI]] for full company details.
 
 | Exposure | Vehicle |
 |----------|---------|
-| Archer Aviation | ACHR (NYSE) |
+| [[Archer Aviation]] | ACHR (NYSE) |
 | Figure AI | Private |
 
 **Pattern recognition:** Track Adcock's moves for emerging category signals.

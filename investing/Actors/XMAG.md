@@ -57,10 +57,10 @@ Top 10 = 18.8% of assets. Diversified vs Mag 7 concentration.
 |--------|--------|
 | Technology | 22.98% |
 | Financial Services | 19.59% |
-| Healthcare | 14.90% |
+| [[Healthcare]] | 14.90% |
 | Industrials | 11.36% |
-| Consumer Defensive | 7.14% |
-| Consumer Cyclical | 6.67% |
+| [[Consumer]] Defensive | 7.14% |
+| [[Consumer]] Cyclical | 6.67% |
 | Communication Services | 4.55% |
 | Energy | 4.40% |
 | Utilities | 3.32% |
@@ -75,7 +75,7 @@ Top 10 = 18.8% of assets. Diversified vs Mag 7 concentration.
 |-------|------|-------|
 | Jan | ~$10M | |
 | Feb | ~$5M | |
-| Mar | ~$3M | |
+| Mar | ~$[[3M]] | |
 | Apr | ~$2M | |
 | May | ~$1M | |
 | Jun | ~-$1M | Only outflow month |

@@ -38,11 +38,11 @@ aliases: [Pacific Investment Management Co]
 | Country | Type |
 |---------|------|
 | **Peru** | Local-currency bonds |
-| **South Africa** | Local-currency bonds |
+| **South [[Africa]]** | Local-currency bonds |
 | **Brazil** | Local-currency bonds |
 | **Turkey** | Local-currency bonds |
 | **Egypt** | Frontier |
-| **Nigeria** | Frontier |
+| **[[Nigeria]]** | Frontier |
 
 ---
 
@@ -52,7 +52,7 @@ aliases: [Pacific Investment Management Co]
 
 | Old assumption | New reality |
 |----------------|-------------|
-| DM = fiscal discipline | Fiscal concerns rising in US/Europe |
+| DM = fiscal discipline | Fiscal concerns rising in US/[[Europe]] |
 | EM = fiscal risk | Select EM showing discipline |
 | EM = CB independence risk | US facing CB independence questions |
 

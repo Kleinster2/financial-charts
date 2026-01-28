@@ -14,7 +14,7 @@ aliases: [SBI Mutual Fund, SBI AMC, SBIFML]
 | AUM | ₹16.3T (~$195B) |
 | Market share | 15.55% (#1 India) |
 | ETF market share | 43% |
-| Target valuation | ₹95,000cr - ₹1.1T (~$12-14B) |
+| [[Target]] valuation | ₹95,000cr - ₹1.1T (~$12-14B) |
 | IPO size | ₹8,000-15,000 crore (~$1-1.8B) |
 | EBITDA margin | 78% |
 | ROE | 31% |
@@ -30,7 +30,7 @@ aliases: [SBI Mutual Fund, SBI AMC, SBIFML]
 | [[Amundi]] | 36.4% | Selling 3.7% |
 | **Total float** | — | 10% post-IPO |
 
-Third SBI subsidiary to list (after SBI Cards, SBI Life Insurance).
+Third SBI subsidiary to list (after SBI Cards, SBI Life [[Insurance]]).
 
 ---
 
@@ -95,7 +95,7 @@ SBI Funds is 2x larger than next competitor.
 ## Related
 
 - [[State Bank of India]] — 62% owner
-- [[Amundi]] — 36% owner (France, world's largest AM)
+- [[Amundi]] — 36% owner ([[France]], world's largest AM)
 - [[India]] — country context
 - [[2026 IPO pipeline]] — IPO context
 - [[Asia IPO pipeline 2026]] — regional context

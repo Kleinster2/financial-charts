@@ -1,16 +1,16 @@
 #concept #energy #china #ai #infrastructure
 
-# China Power Advantage
+# [[China]] Power Advantage
 
-China's massive energy buildout creates a structural advantage for domestic AI players. While export controls constrain GPU access, power is abundant and growing.
+[[China]]'s massive energy buildout creates a structural advantage for domestic AI players. While export controls constrain GPU access, power is abundant and growing.
 
-> **Key insight:** Power is buildable. Cutting-edge GPUs are blockaded. China trades chip quality for chip quantity — enabled by unlimited power.
+> **Key insight:** Power is buildable. Cutting-edge GPUs are blockaded. [[China]] trades chip quality for chip quantity — enabled by unlimited power.
 
 ---
 
 ## The asymmetry
 
-| Constraint | US | China |
+| Constraint | US | [[China]] |
 |------------|-----|-------|
 | **GPU access** | Abundant (Blackwell) | Constrained (H200 only) |
 | **Power access** | Constrained (44 GW gap) | Abundant |
@@ -39,13 +39,13 @@ China's massive energy buildout creates a structural advantage for domestic AI p
 | Company | Benefit |
 |---------|---------|
 | [[ByteDance]] | Can power massive H200 clusters |
-| [[Baidu]] | No power bottleneck for Ernie training |
+| [[Baidu]] | No power bottleneck for [[Ernie]] training |
 | [[Alibaba]] | Cloud expansion unconstrained |
 | [[Tencent]] | Data center buildout accelerates |
 
 **The calculus:**
 - US hyperscalers: Fighting for 44 GW, years away
-- China AI labs: Power available now, grid expanding
+- [[China]] AI labs: Power available now, grid expanding
 
 ---
 
@@ -53,21 +53,21 @@ China's massive energy buildout creates a structural advantage for domestic AI p
 
 **The strategy:** More chips × more power = offset per-chip disadvantage.
 
-| Approach | US | China |
+| Approach | US | [[China]] |
 |----------|-----|-------|
-| Chip quality | Blackwell (best) | H200, Ascend, domestic |
+| Chip quality | Blackwell (best) | H200, [[Ascend]], domestic |
 | Chip quantity | Power-constrained | Unconstrained |
 | Cluster size | Limited by power | Can scale massively |
 | Power cost | High, scarce | Low, abundant |
 
 **The math:**
 - Blackwell ~2-3x performance vs H200
-- China can deploy 3-5x more H200s (power available)
+- [[China]] can deploy 3-5x more H200s (power available)
 - Net compute: roughly comparable for many workloads
 
 **Examples:**
 - [[ByteDance]] $14B order for H200s — massive cluster
-- [[Baidu]] Kunlun clusters for Ernie inference
+- [[Baidu]] Kunlun clusters for [[Ernie]] inference
 - [[Huawei]] CloudMatrix / SuperPoD — see [[China AI clusters]]
 
 ---
@@ -80,13 +80,13 @@ China's massive energy buildout creates a structural advantage for domestic AI p
 | Training parallelism | Inference decode (HBM gap) |
 | Deployment at scale | Frontier research |
 
-**The constraint that remains:** [[HBM]] gap. China stuck on HBM2E while NVIDIA uses HBM3E. More chips can't fix per-chip memory bandwidth.
+**The constraint that remains:** [[HBM]] gap. [[China]] stuck on HBM2E while [[NVIDIA]] uses HBM3E. More chips can't fix per-chip memory bandwidth.
 
 See [[China AI clusters]] for detailed analysis.
 
 ---
 
-## China AI investment (2025)
+## [[China]] AI investment (2025)
 
 | Source | Amount |
 |--------|--------|
@@ -98,22 +98,22 @@ See [[China AI clusters]] for detailed analysis.
 
 **Decade prior:** $912B govt-backed VC → 1.4M AI-related firms (~25% of total).
 
-**NVIDIA CEO Jensen Huang (Nov 2025):** Cited China's low power costs as key competitive advantage despite chip constraints.
+**[[NVIDIA]] CEO [[Jensen Huang]] (Nov 2025):** Cited [[China]]'s low power costs as key competitive advantage despite chip constraints.
 
 ---
 
 ## Investment implications
 
 **Not directly investable** (state-owned enterprises, domestic market):
-- China solar manufacturers (LONGi, JA Solar, Trina)
+- [[China]] solar manufacturers (LONGi, JA Solar, Trina)
 - State Grid Corporation
-- Power Construction Corporation of China
+- Power Construction Corporation of [[China]]
 
 **Indirect implications:**
 - Chinese AI competitiveness may be underestimated
 - Export controls partially offset by power advantage
 - Efficiency matters more in US (power-constrained)
-- Scale matters more in China (GPU-constrained)
+- Scale matters more in [[China]] (GPU-constrained)
 
 ---
 
@@ -121,12 +121,12 @@ See [[China AI clusters]] for detailed analysis.
 
 | Trend | Implication |
 |-------|-------------|
-| China power buildout continues | AI infrastructure gap narrows |
+| [[China]] power buildout continues | AI infrastructure gap narrows |
 | US permitting remains slow | Power constraint persists |
-| GPU restrictions tighten | China forced to efficiency |
+| GPU restrictions tighten | [[China]] forced to efficiency |
 | Inference shifts to edge | Power advantage less relevant |
 
-**Net assessment:** China can't match US on frontier training (GPU gap), but can run massive inference at scale (power advantage). This favors **deployment over research**.
+**Net assessment:** [[China]] can't match US on frontier training (GPU gap), but can run massive inference at scale (power advantage). This favors **deployment over research**.
 
 ---
 
@@ -143,5 +143,5 @@ See [[China AI clusters]] for detailed analysis.
 - [[Power constraints]] — contrast (US 44 GW shortfall)
 - [[Export controls]] — context (GPU restrictions)
 - [[ByteDance]] — beneficiary (power for AI)
-- [[Baidu]] — beneficiary (Ernie training)
+- [[Baidu]] — beneficiary ([[Ernie]] training)
 - [[Huawei]] — beneficiary (CloudMatrix clusters)

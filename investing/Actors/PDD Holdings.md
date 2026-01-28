@@ -56,7 +56,7 @@ Extraordinary growth and profitability. Revenue nearly tripled in two years.
 | GMV (2024) | ~$48B |
 | Model | Direct-from-factory, ultra-low prices |
 | Customer acquisition | Aggressive marketing (Super Bowl ads) |
-| Shipping | Direct from China, 7-14 day delivery |
+| [[Shipping]] | Direct from China, 7-14 day delivery |
 
 **De minimis loophole:** Temu ships individual packages under $800 threshold, avoiding US tariffs. This is under political scrutiny — potential closure would significantly impact the model.
 
@@ -72,7 +72,7 @@ Extraordinary growth and profitability. Revenue nearly tripled in two years.
 | Model | Group buying, gamification, agriculture |
 | Positioning | Value/discount, tier 2-4 cities |
 
-Pinduoduo is #3 in China e-commerce (behind Alibaba, JD.com) but growing fastest.
+Pinduoduo is #3 in China e-commerce (behind [[Alibaba]], JD.com) but growing fastest.
 
 ---
 
@@ -81,7 +81,7 @@ Pinduoduo is #3 in China e-commerce (behind Alibaba, JD.com) but growing fastest
 | Risk | Detail |
 |------|--------|
 | **De minimis closure** | US considering eliminating $800 tariff exemption |
-| **Tariffs** | Trade war escalation hurts cross-border model |
+| **Tariffs** | [[Trade]] war escalation hurts cross-border model |
 | **China regulatory** | Tech crackdowns, data security |
 | **Geopolitical** | US-China tensions, potential delisting risk |
 | **Quality concerns** | Product safety, counterfeits |

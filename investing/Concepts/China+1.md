@@ -1,16 +1,16 @@
 #concept #supply-chain #geopolitics #manufacturing
 
-**China+1** — Supply chain diversification strategy. Manufacturing beyond China. Risk mitigation, not replacement.
+**[[China]]+1** — Supply chain diversification strategy. Manufacturing beyond [[China]]. Risk mitigation, not replacement.
 
 ---
 
-## What is China+1
+## What is [[China]]+1
 
 | Concept | Description |
 |---------|-------------|
-| Definition | Diversify production outside China while maintaining China operations |
+| Definition | Diversify production outside [[China]] while maintaining [[China]] operations |
 | Driver | Geopolitical risk, tariffs, COVID lessons |
-| Reality | Supplement, not replace China |
+| Reality | Supplement, not replace [[China]] |
 
 ---
 
@@ -20,10 +20,10 @@
 |---------|---------|--------|
 | **Vietnam** | Electronics, textiles | Most advanced |
 | **India** | Electronics, pharma | Growing rapidly |
-| **Mexico** | Auto, electronics | Nearshoring |
+| **[[Mexico]]** | Auto, electronics | Nearshoring |
 | **Thailand** | Auto, electronics | Established |
 | **Indonesia** | Nickel, manufacturing | Emerging |
-| **Malaysia** | Semiconductors | Established |
+| **Malaysia** | [[Semiconductors]] | Established |
 
 ---
 
@@ -33,12 +33,12 @@
 |--------|---------------------|
 | Electronics assembly | Vietnam, India |
 | Textiles/apparel | Vietnam, Bangladesh |
-| Auto manufacturing | Mexico, Thailand |
-| Semiconductors | Malaysia, Vietnam |
+| Auto manufacturing | [[Mexico]], Thailand |
+| [[Semiconductors]] | Malaysia, Vietnam |
 
 ---
 
-## Why China remains critical
+## Why [[China]] remains critical
 
 | Factor | Reality |
 |--------|---------|
@@ -56,8 +56,8 @@
 |-------|------------|
 | Vietnam beneficiary | Manufacturing FDI |
 | India manufacturing | Electronics, pharma |
-| Mexico nearshoring | Auto, logistics |
-| Logistics | Shipping, warehousing |
+| [[Mexico]] nearshoring | Auto, logistics |
+| Logistics | [[Shipping]], warehousing |
 
 ---
 
@@ -68,18 +68,18 @@
 | Infrastructure gaps | Higher costs initially |
 | Labor skills | Training required |
 | Scale limitations | Slower ramp |
-| China components | Still dependent |
+| [[China]] components | Still dependent |
 
 ---
 
 ## Company examples
 
-| Company | China+1 action |
+| Company | [[China]]+1 action |
 |---------|----------------|
 | [[Apple]] | India iPhone assembly |
-| Samsung | Vietnam as primary base |
-| Nike | Vietnam, Indonesia focus |
-| Tesla | Mexico expansion planned |
+| [[Samsung]] | Vietnam as primary base |
+| [[Nike]] | Vietnam, Indonesia focus |
+| [[Tesla]] | [[Mexico]] expansion planned |
 
 ---
 
@@ -92,8 +92,8 @@
 
 ### Concepts
 - [[Supply chain bottlenecks]] — risk driver
-- [[Export controls]] — US-China tensions
-- [[Nearshoring]] — Mexico benefit
+- [[Export controls]] — US-[[China]] tensions
+- [[Nearshoring]] — [[Mexico]] benefit
 
 ---
 

@@ -11,10 +11,10 @@ aliases: [VALE]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | VALE (NYSE/B3) |
+| Ticker | VALE (NYSE/[[B3]]) |
 | Market cap | ~$45B |
 | Position | #1 iron ore globally |
-| Copper | Growing focus |
+| [[Copper]] | Growing focus |
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [VALE]
 |-----------|-------|----------|
 | Iron ore | ~80% | #1 globally |
 | Nickel | ~10% | Top 3 globally |
-| Copper | ~5% | Growing |
+| [[Copper]] | ~5% | Growing |
 | Other | ~5% | Manganese, coal |
 
 ---
@@ -35,7 +35,7 @@ aliases: [VALE]
 
 | Asset | Location |
 |-------|----------|
-| Carajás | Northern Brazil (premium ore) |
+| Carajás | Northern [[Brazil]] (premium ore) |
 | Southeastern System | Minas Gerais |
 | Southern System | Minas Gerais |
 
@@ -43,25 +43,25 @@ Carajás produces 65%+ Fe content (premium to market).
 
 ---
 
-## Base metals growth
+## [[Base metals]] growth
 
 **Future-facing commodities:**
 
 | Metal | Strategy |
 |-------|----------|
-| Copper | Salobo expansion, new projects |
-| Nickel | Indonesia, Canada operations |
+| [[Copper]] | Salobo expansion, new projects |
+| Nickel | Indonesia, [[Canada]] operations |
 | Cobalt | Byproduct of nickel |
 
-Copper for electrification/data centers, nickel for batteries.
+[[Copper]] for electrification/data centers, nickel for batteries.
 
 ---
 
 ## AI/Data center connection
 
-**Copper for AI infrastructure:**
+**[[Copper]] for AI infrastructure:**
 
-| Use Case | Copper Demand |
+| Use Case | [[Copper]] Demand |
 |----------|---------------|
 | Data centers | Power cables, busbars |
 | Grid buildout | Transmission lines |
@@ -77,7 +77,7 @@ Vale's copper growth aligned with AI power buildout.
 **2019 dam disaster:**
 - 270 deaths
 - $7B+ in provisions
-- ESG overhang
+- [[ESG]] overhang
 - Dry stacking transition
 
 Ongoing remediation and settlements.
@@ -88,17 +88,17 @@ Ongoing remediation and settlements.
 
 **Bull:**
 - Lowest cost iron ore
-- Copper/nickel growth
-- China stimulus exposure
+- [[Copper]]/nickel growth
+- [[China]] stimulus exposure
 - Dividend potential
-- ESG improvements
+- [[ESG]] improvements
 
 **Bear:**
-- China steel demand
+- [[China]] steel demand
 - Brumadinho liabilities
 - Brazilian political risk
 - Iron ore price volatility
-- ESG concerns persist
+- [[ESG]] concerns persist
 
 ---
 

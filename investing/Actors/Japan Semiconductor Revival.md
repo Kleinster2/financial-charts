@@ -31,15 +31,15 @@ Semiconductor comeback:
 | 2020 | ~10% |
 | 2030 target | Revival |
 
-Lost leadership to Taiwan/Korea.
+Lost leadership to [[Taiwan]]/Korea.
 
 ---
 
 ## Rapidus
 
 **2nm moonshot:**
-- Joint venture (Toyota, Sony, etc.)
-- IBM partnership for 2nm
+- Joint venture ([[Toyota]], [[Sony]], etc.)
+- [[IBM]] partnership for 2nm
 - Government subsidies
 - Hokkaido fab
 - 2027 production target
@@ -51,8 +51,8 @@ Lost leadership to Taiwan/Korea.
 **TSMC Japan fab:**
 - $8.6B investment
 - 12/16/22/28nm initially
-- Sony + Denso partners
-- Automotive + industrial
+- [[Sony]] + Denso partners
+- [[Automotive]] + industrial
 - Second fab announced
 
 ---
@@ -63,7 +63,7 @@ Lost leadership to Taiwan/Korea.
 |---------|---------|
 | Rapidus | $13B+ |
 | TSMC Kumamoto | $4B+ |
-| Micron Hiroshima | $1.8B |
+| [[Micron]] Hiroshima | $1.8B |
 | Various | Ongoing |
 
 Massive state support.
@@ -74,8 +74,8 @@ Massive state support.
 
 **Why Japan is investing:**
 - National security
-- Taiwan risk (TSMC dependence)
-- Automotive supply chain
+- [[Taiwan]] risk (TSMC dependence)
+- [[Automotive]] supply chain
 - AI compute sovereignty
 - Economic revival
 
@@ -87,8 +87,8 @@ Massive state support.
 |---------|------|
 | [[Rapidus]] | Leading edge (2nm) |
 | [[TSMC]] | Mature nodes fab |
-| Sony | Investor, customer |
-| Toyota | Investor, automotive |
+| [[Sony]] | Investor, customer |
+| [[Toyota]] | Investor, automotive |
 | [[Tokyo Electron]] | Equipment |
 
 ---
@@ -123,7 +123,7 @@ Ambitious but unproven.
 | Government spend | $50B+ |
 | Key project | Rapidus |
 | TSMC fab | Kumamoto |
-| Target | 2nm by 2027 |
+| [[Target]] | 2nm by 2027 |
 
 *Updated 2026-01-01*
 
@@ -131,7 +131,7 @@ Ambitious but unproven.
 
 ## Related
 
-- [[Japan]] — country context, China tensions
+- [[Japan]] — country context, [[China]] tensions
 - [[Rapidus]] — key project (2nm moonshot)
 - [[TSMC]] — fab partner (Kumamoto)
 - [[Tokyo Electron]] — equipment beneficiary

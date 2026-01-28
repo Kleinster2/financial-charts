@@ -1,6 +1,6 @@
 #actor #country #asia #ally #defense
 
-**Japan** — World's 4th largest economy. Key US ally in Indo-Pacific. Remilitarizing amid China tensions.
+**Japan** — World's 4th largest economy. Key US ally in Indo-Pacific. Remilitarizing amid [[China]] tensions.
 
 ---
 
@@ -9,9 +9,9 @@
 | Metric | Value |
 |--------|-------|
 | GDP | ~$4.2T (#4 globally) |
-| Defense budget | 9T yen ($57.4B) in 2026, +3.8% YoY |
+| [[Defense]] budget | 9T yen ($57.4B) in 2026, +3.8% YoY |
 | US alliance | Treaty ally since 1951 |
-| Key tension | China (Taiwan, Senkaku/Diaoyu) |
+| Key tension | [[China]] (Taiwan, Senkaku/Diaoyu) |
 
 ---
 
@@ -19,26 +19,26 @@
 
 | Role | Name | Notes |
 |------|------|-------|
-| PM | Sanae Takaichi | Conservative, hawkish on China |
+| PM | Sanae Takaichi | Conservative, hawkish on [[China]] |
 | Party | LDP | Dominant since 1955 |
 
-**Takaichi stance:** Said Taiwan "contingency" could threaten Japan's security and necessitate military response. Triggered major China retaliation (Jan 2026).
+**Takaichi stance:** Said Taiwan "contingency" could threaten Japan's security and necessitate military response. Triggered major [[China]] retaliation (Jan 2026).
 
 ---
 
-## China relations
+## [[China]] relations
 
 See [[China-Japan relations]] for full analysis.
 
 **Current status (Jan 2026):** Major escalation.
 
-| China action | Impact |
+| [[China]] action | Impact |
 |--------------|--------|
 | Export ban | Dual-use equipment, rare earths, semiconductors |
 | Anti-dumping probe | Dichlorosilane (chip manufacturing) |
 | Soft pressure | Canceled business delegation, travel restrictions |
 
-**Trigger:** Takaichi's Taiwan comments. China views as interference; wants her out.
+**Trigger:** Takaichi's Taiwan comments. [[China]] views as interference; wants her out.
 
 ---
 
@@ -46,7 +46,7 @@ See [[China-Japan relations]] for full analysis.
 
 See [[Japan Chikyu rare earth mission 2026-01]].
 
-**The problem**: Japan 60% dependent on China for rare earths (down from 90% in 2010). Almost 100% dependent for heavy REEs like [[Dysprosium]].
+**The problem**: Japan 60% dependent on [[China]] for rare earths (down from 90% in 2010). Almost 100% dependent for heavy REEs like [[Dysprosium]].
 
 **The solution**: Minamitori Island deep-sea mining project.
 
@@ -64,14 +64,14 @@ See [[Japan Chikyu rare earth mission 2026-01]].
 
 ---
 
-## Defense posture
+## [[Defense]] posture
 
 | Initiative | Status |
 |------------|--------|
-| Defense budget | Record 9T yen, doubling by 2027 target |
+| [[Defense]] budget | Record 9T yen, doubling by 2027 target |
 | Counterstrike capability | Acquiring long-range missiles |
 | US bases | Okinawa, Yokosuka, Misawa, others |
-| AUKUS coordination | Observer status discussions |
+| [[AUKUS]] coordination | Observer status discussions |
 
 **Shift:** Post-WWII pacifism eroding. Constitutional reinterpretation allows collective self-defense (2014).
 
@@ -98,17 +98,17 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 | Initiative | Status |
 |------------|--------|
-| [[Rapidus]] | 2nm fab with IBM, IMEC — mass production target 2027, ¥250B govt investment |
-| TSMC Japan | Kumamoto fab operational, 60% local procurement |
-| Equipment | Tokyo Electron, Screen Holdings |
-| Materials | JSR, Shin-Etsu dominant |
-| Strategy pivot | Advanced packaging (vs competing with TSMC on lithography)
+| [[Rapidus]] | 2nm fab with [[IBM]], IMEC — mass production target 2027, ¥250B govt investment |
+| [[TSMC]] Japan | Kumamoto fab operational, 60% local procurement |
+| Equipment | [[Tokyo Electron]], Screen Holdings |
+| Materials | JSR, [[Shin-Etsu]] dominant |
+| Strategy pivot | [[Advanced packaging]] (vs competing with [[TSMC]] on lithography)
 
-### China anti-dumping probe (Jan 7, 2026)
+### [[China]] anti-dumping probe (Jan 7, 2026)
 
-China investigating Japanese dichlorosilane imports — key semiconductor manufacturing chemical. Japan controls 72% of China's domestic supply (2022-2024 average). Probe covers Jul 2024 - Jun 2025.
+[[China]] investigating Japanese dichlorosilane imports — key semiconductor manufacturing chemical. Japan controls 72% of [[China]]'s domestic supply (2022-2024 average). Probe covers Jul 2024 - Jun 2025.
 
-**Strategic significance:** Potential retaliation tool in tech war. Japan's three leading producers (Tokuyama, Mitsubishi Chemical, Shin-Etsu) dominate global supply. If China imposes duties, must find alternatives or develop domestic capacity.
+**Strategic significance:** Potential retaliation tool in tech war. Japan's three leading producers (Tokuyama, Mitsubishi Chemical, [[Shin-Etsu]]) dominate global supply. If [[China]] imposes duties, must find alternatives or develop domestic capacity.
 
 *Source: UPI, Jan 7 2026*
 
@@ -122,7 +122,7 @@ China investigating Japanese dichlorosilane imports — key semiconductor manufa
 - Before 2011, nuclear = ~30% of Japan's electricity
 - Currently nuclear = ~7% (only 12 of 33 operable reactors running)
 - Energy security critical for semiconductor manufacturing (power-intensive)
-- Reduces LNG import dependence
+- Reduces [[LNG]] import dependence
 
 **Remaining capacity:** If all operable reactors restart, Japan could recover ~20% of electricity from nuclear. Political and safety hurdles remain significant.
 
@@ -135,23 +135,23 @@ China investigating Japanese dichlorosilane imports — key semiconductor manufa
 | Sector | Companies |
 |--------|-----------|
 | Autos | [[Toyota]], Honda, Nissan |
-| Semiconductors | Tokyo Electron, Renesas, Screen |
-| Electronics | Sony, Panasonic, Keyence |
+| [[Semiconductors]] | [[Tokyo Electron]], [[Renesas]], Screen |
+| Electronics | [[Sony]], [[Panasonic]], Keyence |
 | Trading | Mitsubishi, Mitsui, Itochu |
-| Defense | Mitsubishi Heavy, Kawasaki Heavy |
+| [[Defense]] | Mitsubishi Heavy, Kawasaki Heavy |
 
 ---
 
 ## Investment relevance
 
 **Themes:**
-- Defense spending increase → MHI, Kawasaki Heavy
-- Semiconductor revival → Tokyo Electron, equipment suppliers
+- [[Defense]] spending increase → MHI, Kawasaki Heavy
+- Semiconductor revival → [[Tokyo Electron]], equipment suppliers
 - Yen weakness → exporters benefit
-- China decoupling risk → supply chain disruption
+- [[China]] decoupling risk → supply chain disruption
 
 **Risks:**
-- China retaliation (rare earths, tourism, trade)
+- [[China]] retaliation (rare earths, tourism, trade)
 - Demographic decline
 - Government debt (~260% of GDP)
 
@@ -164,11 +164,11 @@ China investigating Japanese dichlorosilane imports — key semiconductor manufa
 - [[Japan Chikyu rare earth mission 2026-01]] — domestic rare earth mining attempt
 - [[Taiwan]] — contingency trigger
 - [[US-China security]] — Japan as key US ally
-- [[Rare earth leverage]] — China's weapon, Japan's vulnerability
-- [[Critical minerals]] — China using as weapon
+- [[Rare earth leverage]] — [[China]]'s weapon, Japan's vulnerability
+- [[Critical minerals]] — [[China]] using as weapon
 - [[Toyota]] — largest Japanese company
-- [[EU-Japan EPA]] — EU trade deal (model FTA)
-- [[RCEP]] — Asia trade bloc member
+- [[EU-Japan EPA]] — [[EU]] trade deal (model FTA)
+- [[RCEP]] — [[Asia]] trade bloc member
 - [[CPTPP]] — de facto leader post-US withdrawal
 
 ---

@@ -85,7 +85,7 @@ aliases: [VantAI]
 ## NVIDIA angle
 
 Part of NVIDIA's healthcare/pharma investment push:
-- Also announced $1B Eli Lilly lab partnership (Jan 2026)
+- Also announced $1B [[Eli Lilly]] lab partnership (Jan 2026)
 - Fresh markets for GPU compute in drug discovery
 
 ---
@@ -97,7 +97,7 @@ Part of NVIDIA's healthcare/pharma investment push:
 ## Related
 
 - [[DCVC]] — lead investor
-- [[NVIDIA]] — investor, compute for AI drug discovery
+- [[NVIDIA]] — investor, compute for [[AI drug discovery]]
 - [[Roivant Sciences]] — incubator, investor
 - [[Braidwell]] — investor
 - [[AI in drug discovery]] — category

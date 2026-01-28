@@ -3,7 +3,7 @@ aliases: [Northvolt AB, Northvolt Ett]
 ---
 #actor #company #sweden #batteries #ev #bankrupt #private
 
-**Northvolt** — Swedish lithium-ion battery manufacturer. Founded 2016 by ex-[[Tesla]] executives. Europe's best-funded homegrown battery champion. Raised ~$14B, peaked at $11.8B valuation (Jun 2021). Filed Chapter 11 Nov 2024, Swedish bankruptcy Mar 2025. Largest bankruptcy in modern Swedish industrial history.
+**Northvolt** — Swedish lithium-ion battery manufacturer. Founded 2016 by ex-[[Tesla]] executives. [[Europe]]'s best-funded homegrown battery champion. Raised ~$14B, peaked at $11.8B valuation (Jun 2021). Filed Chapter 11 Nov 2024, Swedish bankruptcy Mar 2025. Largest bankruptcy in modern Swedish industrial history.
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [Northvolt AB, Northvolt Ett]
 
 ## The pitch
 
-Northvolt positioned itself as Europe's answer to Asian battery dominance — a homegrown champion that could reduce dependence on [[CATL]], [[Samsung SDI]], and Chinese suppliers. Key selling points:
+Northvolt positioned itself as [[Europe]]'s answer to Asian battery dominance — a homegrown champion that could reduce dependence on [[CATL]], [[Samsung SDI]], and Chinese suppliers. Key selling points:
 
 | Advantage | Reality |
 |-----------|---------|
@@ -69,7 +69,7 @@ Northvolt positioned itself as Europe's answer to Asian battery dominance — a 
 
 ### Production catastrophe
 
-| Metric | Target | Actual |
+| Metric | [[Target]] | Actual |
 |--------|--------|--------|
 | Northvolt Ett capacity | 16 GWh | — |
 | 2023 deliveries | 16,000 MWh | **80 MWh** (0.5%) |
@@ -84,7 +84,7 @@ A Chinese executive's comparison: "We can raise a factory's battery yield to 96%
 |---------|--------|
 | **No manufacturing DNA** | Founders were supply chain, not production |
 | **Talent gap** | "We didn't have enough people who knew what they were doing" — former factory head Mark Duchesne |
-| **Chinese dependency** | Machines came with Chinese manuals, required Zoom support to operate |
+| **Chinese dependency** | Machines came with Chinese manuals, required [[Zoom]] support to operate |
 | **Cathode quality** | Mixing section failed — virtually all material sent to recycling |
 | **Expansion before execution** | Built multiple sites before proving one worked |
 
@@ -125,8 +125,8 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 | Nov 2016 | Seed/Debt | $2M | — |
 | Jun 2019 | Series B | $1B | [[Goldman Sachs]], EIT InnoEnergy |
 | Sep 2020 | Series C | $600M | [[Daniel Ek]], [[Baillie Gifford]], Cristina Stenbeck |
-| Jun 2021 | Series D | **$2.75B** | AP funds (1-4), OMERS, [[Volkswagen]], [[Goldman Sachs]] |
-| Jan 2024 | Debt | **$5B** | Banks; EIB (~$1B) |
+| Jun 2021 | Series D | **$2.75B** | AP funds (1-4), [[OMERS]], [[Volkswagen]], [[Goldman Sachs]] |
+| Jan 2024 | Debt | **$5B** | [[Banks]]; EIB (~$1B) |
 
 **Total raised:** ~$14B across 24 rounds (equity, debt, grants).
 
@@ -137,11 +137,11 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 | [[Volkswagen]] | 23% owner | $14B order; refused rescue Aug 2024 |
 | [[Goldman Sachs]] | Lead investor | Multiple rounds |
 | [[Baillie Gifford]] | Growth investor | Sep 2020 round |
-| OMERS | Pension fund | Jun 2021 lead |
+| [[OMERS]] | Pension fund | Jun 2021 lead |
 | AP funds (1-4) | Swedish pension | Jun 2021 lead |
 | [[Daniel Ek]] | Angel | [[Spotify]] founder; "moonshot" bet |
 | Cristina Stenbeck | Angel | Swedish businesswoman |
-| EIT InnoEnergy | Early backer | EU clean energy fund |
+| EIT InnoEnergy | Early backer | [[EU]] clean energy fund |
 | Scania | Strategic | $100M DIP loan; acquired units |
 | EIB | Debt | ~$1B facility |
 
@@ -158,7 +158,7 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 | Northvolt Labs AB | Swedish bankruptcy; Scania seeking rescue |
 | Northvolt Revolt AB | Swedish bankruptcy (recycling) |
 | Northvolt Systems AB | Swedish bankruptcy |
-| Northvolt Germany | **Not bankrupt** — separate financing |
+| Northvolt [[Germany]] | **Not bankrupt** — separate financing |
 | Northvolt North America | **Not bankrupt** — separate financing |
 
 ### Asset sales
@@ -175,7 +175,7 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Peter Carlsson** | Co-founder, CEO (2016-2024) | Ex-Tesla VP Supply Chain; ex-NXP, Sony Ericsson |
+| **Peter Carlsson** | Co-founder, CEO (2016-2024) | Ex-Tesla VP Supply Chain; ex-[[NXP]], [[Sony]] [[Ericsson]] |
 | **Paolo Cerruti** | Co-founder, CEO Northvolt NA | Ex-Tesla Operations |
 | Mark Duchesne | Former factory head | Highlighted talent gaps |
 
@@ -183,7 +183,7 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 
 ## Cautionary lessons
 
-### For Europe's industrial policy
+### For [[Europe]]'s industrial policy
 
 | Dream | Reality |
 |-------|---------|
@@ -198,7 +198,7 @@ Since 2019: 26 employees severely injured according to Dagens Nyheter investigat
 |------------|---------|
 | Capital solves problems | $14B couldn't buy manufacturing know-how |
 | Ex-FAANG talent transfers | Supply chain ≠ production |
-| Europe can compete | 70% yield vs China's 96% in 4 months |
+| [[Europe]] can compete | 70% yield vs [[China]]'s 96% in 4 months |
 | First-mover advantage | Execution matters more than timing |
 
 ---

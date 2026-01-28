@@ -2,7 +2,7 @@
 
 #actor #startup #usa #database #acquired
 
-**Neon** — Serverless Postgres startup. Founded 2022. **Acquired by [[Databricks]] for ~$1B (May 2025).** Pioneered separation of storage and compute for Postgres. 80%+ of databases created by AI agents. Key competitor to [[Supabase]] (DB-only vs full BaaS).
+**Neon** — Serverless Postgres startup. Founded 2022. **Acquired by [[Databricks]] for ~$1B (May 2025).** Pioneered separation of storage and compute for Postgres. 80%+ of databases created by [[AI agents]]. Key competitor to [[Supabase]] (DB-only vs full BaaS).
 
 ---
 
@@ -25,7 +25,7 @@
 | Seed | 2022 | — | — |
 | Series A | 2022 | — | — |
 | Series B | 2023 | $46M | Menlo Ventures |
-| Strategic | Aug 2024 | $25.6M | M12 (Microsoft) |
+| Strategic | Aug 2024 | $25.6M | M12 ([[Microsoft]]) |
 
 **Total raised: $104M**
 
@@ -34,12 +34,12 @@
 | Investor | Notes |
 |----------|-------|
 | [[Menlo Ventures]] | Series B lead |
-| M12 (Microsoft) | Strategic investment, Azure integration |
-| Founders Fund | Participant |
-| General Catalyst | Participant |
-| Khosla Ventures | Participant |
-| Snowflake Ventures | Participant |
-| Databricks Ventures | Participant (pre-acquisition) |
+| M12 ([[Microsoft]]) | Strategic investment, Azure integration |
+| [[Founders Fund]] | Participant |
+| [[General Catalyst]] | Participant |
+| [[Khosla Ventures]] | Participant |
+| [[Snowflake]] Ventures | Participant |
+| [[Databricks Ventures]] | Participant (pre-acquisition) |
 
 ---
 
@@ -58,7 +58,7 @@
 
 ### Why it matters for AI
 
-**80%+ of Neon databases created by AI agents** — AI coding tools (Bolt.new, Lovable, Cursor) auto-provision Neon databases. This made Neon attractive to Databricks.
+**80%+ of Neon databases created by [[AI agents]]** — AI coding tools (Bolt.new, [[Lovable]], [[Cursor]]) auto-provision Neon databases. This made Neon attractive to Databricks.
 
 ---
 
@@ -69,7 +69,7 @@
 | Acquirer | [[Databricks]] |
 | Price | ~$1B |
 | Date | May 2025 |
-| Rationale | AI agents need simple database provisioning |
+| Rationale | [[AI agents]] need simple database provisioning |
 
 **Strategic logic:** Databricks (data lakehouse) + Neon (serverless Postgres) = complete data platform for AI applications. Neon's co-founders are among few who could re-architect Postgres from scratch.
 
@@ -92,7 +92,7 @@ Databricks using scale to lower prices and drive adoption.
 | [[Supabase]] | Serverless scaling, branching | No auth/storage/realtime (DB-only) |
 | [[PlanetScale]] | Postgres vs MySQL | Less sharding expertise |
 | AWS RDS | Serverless, simpler | Less enterprise features |
-| Aurora Serverless | True separation of storage/compute | AWS ecosystem lock-in |
+| [[Aurora]] Serverless | True separation of storage/compute | AWS ecosystem lock-in |
 
 **Key distinction:** Neon is DB-only; [[Supabase]] is full BaaS. Different use cases.
 
@@ -105,7 +105,7 @@ Databricks using scale to lower prices and drive adoption.
 - [[PlanetScale]] — competitor (MySQL equivalent)
 - [[Postgres]] — underlying technology
 - [[Databases]] — sector context
-- M12 / Microsoft — strategic investor
+- M12 / [[Microsoft]] — strategic investor
 
 ---
 

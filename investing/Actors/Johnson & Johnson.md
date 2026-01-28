@@ -55,7 +55,7 @@ aliases: [JNJ, J&J]
 
 | Detail | Value |
 |--------|-------|
-| Spun off | Consumer health |
+| Spun off | [[Consumer]] health |
 | New company | Kenvue (KVUE) |
 | Brands | Tylenol, Band-Aid, Neutrogena |
 | J&J focus | Pharma + MedTech only |

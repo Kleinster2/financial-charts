@@ -25,9 +25,9 @@ aliases: []
 
 **Inference-optimized architecture:**
 - Deterministic execution
-- No HBM dependency (SRAM-based)
+- No [[HBM]] dependency (SRAM-based)
 - Predictable latency
-- 500+ tokens/sec on Llama
+- 500+ tokens/sec on [[Llama]]
 
 ---
 
@@ -48,7 +48,7 @@ aliases: []
 **Inference API service:**
 - Pay-per-token pricing
 - Fastest API available
-- Open models (Llama, Mixtral)
+- Open models ([[Llama]], Mixtral)
 - Developer-friendly
 
 ---
@@ -125,7 +125,7 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 ## Limitations
 
-**Trade-offs:**
+**[[Trade]]-offs:**
 - Inference only (no training)
 - Smaller models preferred
 - SRAM = less memory capacity
@@ -160,7 +160,7 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 | Cloud business | Continues independently |
 | Long-term | Royalties from Rubin SRAM |
 
-**Not Slack 2.0**: Chamath emphasizes Groq remains infrastructure layer, not point product. Stack expansion, not displacement.
+**Not [[Slack]] 2.0**: Chamath emphasizes Groq remains infrastructure layer, not point product. Stack expansion, not displacement.
 
 ---
 
@@ -172,7 +172,7 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 | Series A-D | Through 2024 | $640M+ total | ~$2.8B |
 | **Total raised** | | **$1.4B+** | |
 
-**Key Sept 2025 investors:** BlackRock, Neuberger Berman, Samsung, Cisco, Altimeter, 1789 Capital
+**Key Sept 2025 investors:** [[BlackRock]], Neuberger Berman, [[Samsung]], [[Cisco]], Altimeter, 1789 Capital
 
 **3 months later:** NVIDIA acquired IP + team for $20B (Dec 2025).
 
@@ -184,12 +184,12 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 
 | Investor | Notes |
 |----------|-------|
-| [[Craft Ventures]] | David Sacks (led Series D) |
-| Tiger Global | Growth |
-| D1 Capital | Growth |
-| BlackRock | Growth |
-| Samsung | Strategic |
-| Social Capital | Chamath Palihapitiya |
+| [[Craft Ventures]] | [[David Sacks]] (led Series D) |
+| [[Tiger Global]] | Growth |
+| [[D1 Capital]] | Growth |
+| [[BlackRock]] | Growth |
+| [[Samsung]] | Strategic |
+| Social Capital | [[Chamath Palihapitiya]] |
 
 **Total raised:** $640M+
 
@@ -217,7 +217,7 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 - [[Cerebras]] — remaining independent competitor (training focus)
 - [[SambaNova]] — competitor (AI inference)
 - [[Google]] — founder origin (Jonathan Ross invented TPU)
-- [[Craft Ventures]] — investor (David Sacks)
+- [[Craft Ventures]] — investor ([[David Sacks]])
 - [[Inference disaggregation]] — thesis context
 - [[Agentic AI]] — use case (fast decode for agents)
 - [[NPU]] — technology category

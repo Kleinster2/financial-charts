@@ -2,13 +2,13 @@
 
 # SMIC (Semiconductor Manufacturing International Corporation)
 
-China's largest foundry. Primary vehicle for indigenous chip production under export controls. Proof that sanctions slow but don't stop progress.
+[[China]]'s largest foundry. Primary vehicle for indigenous chip production under export controls. Proof that sanctions slow but don't stop progress.
 
 ---
 
 ## Why it matters
 
-SMIC is the test case for China's semiconductor independence:
+SMIC is the test case for [[China]]'s semiconductor independence:
 - Only Chinese foundry capable of sub-14nm
 - Produced [[Huawei]] Kirin 9000S at 7nm without EUV
 - Under US Entity List since Dec 2020
@@ -26,7 +26,7 @@ SMIC is the test case for China's semiconductor independence:
 
 **7nm achievement**: Using 4-5x more DUV exposures than normal. Higher cost, lower yields, but functional. Kirin 9000S proves viability.
 
-**Gap to TSMC**: 4-5 years behind. TSMC at N3/N2, SMIC struggling with reliable 7nm.
+**[[Gap]] to TSMC**: 4-5 years behind. TSMC at N3/N2, SMIC struggling with reliable 7nm.
 
 ---
 
@@ -37,7 +37,7 @@ SMIC is the test case for China's semiconductor independence:
 | 2024 revenue | ~$8B |
 | Global foundry share | ~6% |
 | Wafer capacity | ~800K 8" equivalent/month |
-| Fabs | Shanghai, Beijing, Shenzhen, Tianjin |
+| Fabs | Shanghai, Beijing, [[Shenzhen]], Tianjin |
 
 Aggressive mature node expansion — adding 28nm capacity while competitors focus on leading edge.
 
@@ -50,7 +50,7 @@ Aggressive mature node expansion — adding 28nm capacity while competitors focu
 | Entity List (Dec 2020) | License required for US tech |
 | EUV ban | Cannot buy ASML EUV |
 | DUV restrictions | Older tools still accessible |
-| US equipment | Applied Materials, Lam restricted |
+| US equipment | [[Applied Materials]], Lam restricted |
 
 **Workarounds**:
 - Stockpiled equipment pre-restrictions
@@ -93,7 +93,7 @@ Lost access to most Western customers due to Entity List status.
 |--------|--------|
 | [[Long TSMC]] | SMIC is years behind, not a near-term threat |
 | [[Export controls]] | SMIC progress = controls leaking; stagnation = controls working |
-| [[Long WFE]] | China equipment demand partly SMIC-driven |
+| [[Long WFE]] | [[China]] equipment demand partly SMIC-driven |
 | [[Memory shortage 2025-2026]] | Memory shortage constrains SMIC's customers |
 
 ---
@@ -128,6 +128,6 @@ Lost access to most Western customers due to Entity List status.
 - [[Huawei]] — customer (Kirin chips)
 - [[Export controls]] — constraint (Entity List)
 - [[TSMC]] — competitor (4-5 years behind)
-- [[Foundry Wars]] — context (China's flagship)
+- [[Foundry Wars]] — context ([[China]]'s flagship)
 - [[ASML]] — supplier (EUV blocked, DUV only)
 - [[Memory shortage 2025-2026]] — constrains SMIC customers (logic orders limited by memory availability)

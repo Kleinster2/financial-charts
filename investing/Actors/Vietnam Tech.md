@@ -9,7 +9,7 @@ aliases: []
 
 ## Why Vietnam matters
 
-China+1 beneficiary and tariff resilience story:
+[[China+1]] beneficiary and tariff resilience story:
 
 | Metric | Value |
 |--------|-------|
@@ -87,7 +87,7 @@ Samsung's most important production base.
 | Intel | Testing/packaging |
 | LG | Displays, appliances |
 | Foxconn | Assembly |
-| Various | Apple supply chain |
+| Various | [[Apple]] supply chain |
 
 Major electronics hub.
 
@@ -111,8 +111,8 @@ Intel's strategic APAC site.
 |---------|-------|
 | VinGroup | Conglomerate (VinFast EVs) |
 | FPT Corporation | IT services |
-| Viettel | Telecom, tech |
-| VNG | Gaming, fintech |
+| Viettel | [[Telecom]], tech |
+| VNG | [[Gaming]], fintech |
 
 Emerging domestic tech ecosystem.
 
@@ -145,7 +145,7 @@ From assembly → design.
 ## NVIDIA partnership
 
 **2024 developments:**
-- Jensen Huang Vietnam visit
+- [[Jensen Huang]] Vietnam visit
 - AI partnership announced
 - Data center potential
 - Talent development
@@ -168,13 +168,13 @@ NVIDIA sees Vietnam opportunity.
 ## Investment case
 
 **Bull:**
-- China+1 winner
+- [[China+1]] winner
 - Manufacturing base
 - Young workforce
 - NVIDIA attention
 
 **Bear:**
-- Power constraints
+- [[Power constraints]]
 - Infrastructure gaps
 - Skilled labor shortage
 - Currency controls

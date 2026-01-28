@@ -35,7 +35,7 @@
 | Share of global reserves | ~20% |
 | Current production | ~1M bpd |
 | Peak production | 3.5M bpd (1990s) |
-| Potential | 2.5-3M bpd with investment |
+| Potential | 2.5-[[3M]] bpd with investment |
 
 ---
 
@@ -62,8 +62,8 @@
 | UN (Guterres) | "Deeply alarmed" — dangerous precedent |
 | UN (Ben Saul) | Called it "illegal abduction" |
 | Venezuela VP | Accused US of regime change for oil |
-| Russia/China | Reaction pending |
-| OPEC | No official statement yet |
+| [[Russia]]/[[China]] | Reaction pending |
+| [[OPEC]] | No official statement yet |
 
 ---
 
@@ -80,7 +80,7 @@
 - Would take years and billions
 
 **Long-term:**
-- 2-3M bpd upside if fully rehabilitated
+- 2-[[3M]] bpd upside if fully rehabilitated
 - Could reshape global oil market
 - Geopolitical realignment in Latin America
 

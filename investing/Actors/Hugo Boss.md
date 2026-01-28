@@ -22,7 +22,7 @@ aliases: [BOSS, Hugo Boss AG, BOSS.DE]
 | CEO | Daniel Grieder |
 | EPS | €3.09 (down from €3.74) |
 | Dividend | €1.40/share |
-| HQ | Metzingen, Germany |
+| HQ | Metzingen, [[Germany]] |
 
 ---
 
@@ -79,10 +79,10 @@ aliases: [BOSS, Hugo Boss AG, BOSS.DE]
 | Region | Growth (CC) | Notes |
 |--------|-------------|-------|
 | Americas | +8% | Strong, US high single-digit |
-| EMEA | +3% | Emerging markets double-digit |
-| Asia Pacific | -2% | China weakness |
+| EMEA | +3% | [[Emerging markets]] double-digit |
+| [[Asia]] Pacific | -2% | [[China]] weakness |
 
-Americas carrying the business. Asia/China soft.
+Americas carrying the business. [[Asia]]/[[China]] soft.
 
 ---
 
@@ -123,7 +123,7 @@ Q4 was notably stronger than Q1-Q3, suggesting potential recovery trajectory. Fu
 **Bear:**
 - Growth collapsed (+27% → +3%) — was it just post-COVID bounce?
 - Missed €5B target — credibility damaged
-- China weakness (-2%) with unclear recovery
+- [[China]] weakness (-2%) with unclear recovery
 - Premium positioning squeezed (not luxury enough, not mass enough)
 - Competition from true luxury (down-trending) and fast fashion (up-trending)
 - CEO Grieder's "CLAIM 5" strategy underdelivering

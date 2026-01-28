@@ -15,7 +15,7 @@ The electrostate concept separates two dimensions of energy transition:
 | **Electrification** | What share of energy consumption is electrical? |
 | **Decarbonization** | How clean are electricity sources? |
 
-A country can decarbonize its grid (green power) without electrifying its economy (still burning gas for heat, gasoline for transport). Europe did this—top-left quadrant. Or a country can electrify massively while the grid remains dirty, then clean it up. China did this—moved right first, then up.
+A country can decarbonize its grid (green power) without electrifying its economy (still burning gas for heat, gasoline for transport). [[Europe]] did this—top-left quadrant. Or a country can electrify massively while the grid remains dirty, then clean it up. China did this—moved right first, then up.
 
 **The key insight:** Climate stabilization requires both. But electrification is the precondition—you can only decarbonize energy that flows through the grid.
 
@@ -42,23 +42,23 @@ The US is framed as an electrostate's opposite—not because it lacks electricit
 
 1. **Fracking solved energy security** — Shale gas/oil answered the national security question without requiring electrification
 2. **Gas remade the grid** — Fracking drove coal-to-gas switching, not coal-to-renewables
-3. **Transport remains fossil** — EV adoption lags China dramatically
+3. **[[Transport]] remains fossil** — EV adoption lags China dramatically
 4. **Political economy** — Fossil interests front-footed, not rear-guard
 
 "Fracking is the story of the American electrostate in the 2010s"—but it's an electrostate powered by gas, not renewables.
 
 ---
 
-## Europe's failure
+## [[Europe]]'s failure
 
-Europe drove decarbonization but not electrification:
+[[Europe]] drove decarbonization but not electrification:
 
 | Action | Outcome |
 |--------|---------|
 | Feed-in tariffs | Created solar market, surrendered to China |
 | Carbon pricing | Took 15 years to work |
 | Nuclear phase-out | Extended coal protection instead |
-| Diesel focus | Delayed EV transition |
+| [[Diesel]] focus | Delayed [[EV transition]] |
 
 Result: Top-left quadrant (green power, low electrification) instead of top-right (green + electrified).
 
@@ -69,7 +69,7 @@ Result: Top-left quadrant (green power, low electrification) instead of top-righ
 | Scenario | Positioning |
 |----------|-------------|
 | Electrostate wins | Long EV supply chain, grid infrastructure, battery storage |
-| Petrostate persists | Long US shale, LNG exporters |
+| Petrostate persists | Long US shale, [[LNG]] exporters |
 | Convergence (Gulf model) | Long both—AI chips + Chinese solar meeting in Emirates |
 
 The Gulf states represent a strange synthesis: using oil wealth to buy Chinese solar panels to power American AI chips.

@@ -24,7 +24,7 @@ aliases: [Soros, George Soros, Quantum Fund]
 | Fact | Detail |
 |------|--------|
 | Born | 1930, Hungary |
-| Famous trade | 1992 British pound |
+| Famous trade | 1992 [[British pound]] |
 | Philosophy | Reflexivity theory |
 | Philanthropy | Open Society ($32B+) |
 | Politics | Major Democratic donor |
@@ -35,9 +35,9 @@ aliases: [Soros, George Soros, Quantum Fund]
 
 | Aspect | Detail |
 |--------|--------|
-| Target | British pound in ERM |
+| [[Target]] | [[British pound]] in ERM |
 | Size | $10B+ short |
-| Result | UK forced out of ERM |
+| Result | [[UK]] forced out of ERM |
 | Profit | **$1B+ in one day** |
 | Nickname | "Man who broke the Bank of England" |
 
@@ -59,7 +59,7 @@ One of best hedge fund records ever.
 
 ## Other famous trades
 
-| Trade | Year | Outcome |
+| [[Trade]] | Year | Outcome |
 |-------|------|---------|
 | 1987 crash | 1987 | Lost, then recovered |
 | Asian crisis | 1997 | Controversial profits |
@@ -84,7 +84,7 @@ Soros' philosophical framework.
 | Person | Current role |
 |--------|--------------|
 | Stanley Druckenmiller | Duquesne (made pound trade) |
-| Scott Bessent | Key Square, Treasury Sec nominee |
+| [[Scott Bessent]] | Key Square, Treasury Sec nominee |
 
 ---
 

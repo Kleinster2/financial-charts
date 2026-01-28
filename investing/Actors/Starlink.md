@@ -37,7 +37,7 @@ aliases: []
 
 | Segment | Revenue |
 |---------|---------|
-| Consumer services | $7.5B |
+| [[Consumer]] services | $7.5B |
 | Government contracts | $3.0B |
 | Hardware sales | $1.3B |
 | **Total** | **$11.8B** |
@@ -59,7 +59,7 @@ aliases: []
 
 | Contract | Value | Details |
 |----------|-------|---------|
-| PLEO (Space Force) | Ceiling raised to $13B | 97% of task orders |
+| PLEO ([[Space]] Force) | Ceiling raised to $13B | 97% of task orders |
 | Ukraine support | $537M | Military communications |
 | Pentagon launches | $5.9B | 28 national security missions |
 
@@ -94,7 +94,7 @@ aliases: []
 | Competitor | Status |
 |------------|--------|
 | OneWeb | Operational, smaller |
-| Amazon Kuiper | Launching 2025+ |
+| [[Amazon]] Kuiper | Launching 2025+ |
 | Telesat Lightspeed | In development |
 | Traditional ISPs | Terrestrial competition |
 
@@ -113,10 +113,10 @@ aliases: []
 
 **Bear:**
 - No direct public investment
-- Amazon Kuiper competition coming
+- [[Amazon]] Kuiper competition coming
 - Regulatory/spectrum challenges
 - Satellite debris concerns
-- Consumer ARPU pressure
+- [[Consumer]] ARPU pressure
 
 ---
 

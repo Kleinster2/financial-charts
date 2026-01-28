@@ -24,7 +24,7 @@ Key technical co-founder, RL pioneer:
 
 **Proximal Policy Optimization (PPO):**
 - Standard RL algorithm
-- Used in RLHF for ChatGPT
+- Used in RLHF for [[ChatGPT]]
 - Foundational to modern LLM training
 
 **Reinforcement learning pioneer** — shaped how LLMs are trained.

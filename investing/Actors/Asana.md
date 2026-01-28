@@ -65,7 +65,7 @@ Controls company via dual-class shares.
 | [[Monday.com]] | Faster growth, better UX |
 | [[Atlassian]] | Jira dominant in dev |
 | Smartsheet | Enterprise sheets |
-| Microsoft Planner | Bundled free |
+| [[Microsoft]] Planner | Bundled free |
 
 Struggling vs. Monday.com.
 

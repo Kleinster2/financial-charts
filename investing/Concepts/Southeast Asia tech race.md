@@ -1,9 +1,9 @@
 ---
-aliases: [ASEAN tech race, SEA tech competition]
+aliases: [[[ASEAN]] tech race, SEA tech competition]
 ---
 #concept #thesis #sovereign #asean
 
-**Southeast Asia Tech Race** — 700M people, digital leap. Singapore hub, Vietnam manufacturing, Indonesia scale.
+**[[Southeast Asia]] Tech Race** — 700M people, digital leap. Singapore hub, Vietnam manufacturing, Indonesia scale.
 
 ---
 
@@ -17,7 +17,7 @@ Fastest-growing digital region:
 | [[Indonesia Tech]] | 275M | Scale, super-apps |
 | [[Vietnam Tech]] | 100M | Manufacturing |
 | [[Malaysia Tech]] | 34M | OSAT/packaging |
-| [[Thailand Tech]] | 70M | Automotive |
+| [[Thailand Tech]] | 70M | [[Automotive]] |
 | [[Philippines Tech]] | 115M | BPO |
 
 Combined: 600M+ people.
@@ -29,10 +29,10 @@ Combined: 600M+ people.
 | Country | Niche |
 |---------|-------|
 | Singapore | Regional HQ, finance |
-| Indonesia | Consumer scale |
+| Indonesia | [[Consumer]] scale |
 | Vietnam | Electronics manufacturing |
 | Malaysia | Semiconductor backend |
-| Thailand | Automotive, HDD |
+| Thailand | [[Automotive]], HDD |
 | Philippines | Services, BPO |
 
 Each has distinct positioning.
@@ -55,12 +55,12 @@ Singapore-based dominate regionally.
 
 ## Manufacturing shift
 
-**China+1 beneficiaries:**
+**[[China+1]] beneficiaries:**
 
 | Country | Attracting |
 |---------|------------|
-| Vietnam | Electronics (Samsung, Intel) |
-| Malaysia | Semiconductors (Intel, AMD) |
+| Vietnam | Electronics ([[Samsung]], [[Intel]]) |
+| Malaysia | [[Semiconductors]] ([[Intel]], [[AMD]]) |
 | Indonesia | Growing interest |
 | Thailand | EV production |
 
@@ -74,10 +74,10 @@ Vietnam = biggest winner.
 |---------|-------|
 | Malaysia | Backend (50+ years) |
 | Vietnam | Assembly, growing design |
-| Singapore | GlobalFoundries fab |
+| Singapore | [[GlobalFoundries]] fab |
 | Philippines | Some backend |
 
-Malaysia = ASEAN semiconductor leader.
+Malaysia = [[ASEAN]] semiconductor leader.
 
 ---
 
@@ -89,17 +89,17 @@ Malaysia = ASEAN semiconductor leader.
 |---------|--------|
 | Singapore | All hyperscalers, mature |
 | Indonesia | All hyperscalers, growing |
-| Malaysia | Google, Microsoft ($2B+ each) |
-| Thailand | Google Cloud 2024 |
+| Malaysia | [[Google]], [[Microsoft]] ($2B+ each) |
+| Thailand | [[Google]] Cloud 2024 |
 | Vietnam | Growing interest |
 
 Every country getting DC investment.
 
 ---
 
-## Chinese DC buildout (post-DeepSeek)
+## Chinese DC buildout (post-[[DeepSeek]])
 
-**New pattern:** Chinese tech firms building data centers directly in SEA instead of importing chips to mainland China.
+**New pattern:** Chinese tech firms building data centers directly in SEA instead of importing chips to mainland [[China]].
 
 | Company | SEA Activity |
 |---------|--------------|
@@ -109,14 +109,14 @@ Every country getting DC investment.
 | Others | Dozens of Chinese-built DCs |
 
 **Why SEA:**
-- Chips stay "in SEA" technically — not classified as China import
+- Chips stay "in SEA" technically — not classified as [[China]] import
 - SEA governments welcome investment
 - Avoids export control scrutiny
 - Lower regulatory friction than mainland
 
 **Scale of chip flows (Jan-Oct 2025):**
 
-| Country | Taiwan chip imports |
+| Country | [[Taiwan]] chip imports |
 |---------|---------------------|
 | Malaysia | $12B |
 | Singapore | $7B |
@@ -127,7 +127,7 @@ Every country getting DC investment.
 **The question:** Does SEA's legitimate AI demand justify $23B in imports? Or is this [[SEA chip diversion]]?
 
 **Geopolitical complexity:**
-- ASEAN countries benefit from investment either way
+- [[ASEAN]] countries benefit from investment either way
 - Creates tension with US export control objectives
 - SEA positioned as "neutral ground" for AI compute
 
@@ -138,8 +138,8 @@ Every country getting DC investment.
 | Country | AI Strategy |
 |---------|-------------|
 | Singapore | Research hub |
-| Vietnam | NVIDIA partnership |
-| Indonesia | Consumer AI |
+| Vietnam | [[NVIDIA]] partnership |
+| Indonesia | [[Consumer AI]] |
 | Malaysia | Backend for AI chips |
 | Philippines | AI services |
 
@@ -149,7 +149,7 @@ Every country getting DC investment.
 
 | Country | Fund | AUM |
 |---------|------|-----|
-| Singapore | GIC + Temasek | $1.2T |
+| Singapore | [[GIC]] + [[Temasek]] | $1.2T |
 | Malaysia | Khazanah | $35B |
 | Indonesia | INA | $20B |
 | Others | Limited | N/A |
@@ -187,7 +187,7 @@ Singapore has most capital.
 
 - [[Singapore Tech]] — hub (regional HQ, $1.2T SWF capital)
 - [[Indonesia Tech]] — scale (275M population, super-apps)
-- [[Vietnam Tech]] — manufacturing (Samsung, Intel presence)
+- [[Vietnam Tech]] — manufacturing ([[Samsung]], [[Intel]] presence)
 - [[Malaysia Tech]] — semiconductor (50+ years backend, $12B chip imports)
 - [[Thailand Tech]] — automotive (EV production)
 - [[Philippines Tech]] — services (BPO leader)

@@ -3,7 +3,7 @@ aliases: [Yandex N.V.]
 ---
 #actor #tech #russia #sanctioned
 
-**Yandex** — Former "Russian Google." Sanctioned after Ukraine invasion. Spun off [[Nebius]] (AI infra) as international entity. Russia business sold.
+**Yandex** — Former "Russian [[Google]]." Sanctioned after Ukraine invasion. Spun off [[Nebius]] (AI infra) as international entity. Russia business sold.
 
 ---
 
@@ -30,7 +30,7 @@ aliases: [Yandex N.V.]
 | AI/ML | Strong research team |
 | Ride-hailing | Yandex Taxi |
 
-**Comparison:** Google + Uber + AWS for Russia.
+**Comparison:** [[Google]] + [[Uber]] + AWS for Russia.
 
 ---
 

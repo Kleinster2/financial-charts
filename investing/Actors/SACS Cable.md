@@ -3,7 +3,7 @@ aliases: [South Atlantic Cable System]
 ---
 #actor #infrastructure #submarine #cable
 
-**SACS Cable** — Brazil to Angola. First direct South America-Africa. Angola Cables.
+**SACS Cable** — [[Brazil]] to Angola. First direct South America-[[Africa]]. Angola Cables.
 
 ---
 
@@ -13,23 +13,23 @@ South Atlantic crossing:
 
 | Metric | Value |
 |--------|-------|
-| Route | Fortaleza, Brazil → Luanda, Angola |
+| Route | Fortaleza, [[Brazil]] → Luanda, Angola |
 | Length | 6,200 km |
 | Capacity | 100+ Tbps |
 | Operational | 2018 |
 | Owner | Angola Cables |
 
-First direct South America to Africa link.
+First direct South America to [[Africa]] link.
 
 ---
 
 ## Strategic importance
 
-**Africa-LatAm connection:**
-- Bypasses Europe/US routing
+**[[Africa]]-LatAm connection:**
+- Bypasses [[Europe]]/US routing
 - Lower latency
 - Portuguese-speaking countries
-- BRICS connectivity angle
+- [[BRICS]] connectivity angle
 
 ---
 
@@ -39,7 +39,7 @@ First direct South America to Africa link.
 - Angolan telecom
 - [[Fortaleza Data Hub]] presence
 - Building second DC in Fortaleza
-- Africa-LatAm specialist
+- [[Africa]]-LatAm specialist
 
 ---
 
@@ -47,7 +47,7 @@ First direct South America to Africa link.
 
 **Cable hub synergy:**
 - Lands at Praia do Futuro
-- Connects to [[EllaLink]] (Europe)
+- Connects to [[EllaLink]] ([[Europe]])
 - Connects to US cables
 - Multi-continental hub
 
@@ -56,7 +56,7 @@ First direct South America to Africa link.
 ## African connectivity
 
 **Angola as hub:**
-- WACS cable (Africa West Coast)
+- WACS cable ([[Africa]] West Coast)
 - Monet (to US)
 - Regional African reach
 
@@ -66,7 +66,7 @@ First direct South America to Africa link.
 
 | Metric | Value |
 |--------|-------|
-| Route | Brazil-Angola |
+| Route | [[Brazil]]-Angola |
 | Length | 6,200 km |
 | Capacity | 100+ Tbps |
 | Operational | 2018 |
@@ -77,7 +77,7 @@ First direct South America to Africa link.
 
 ## Related
 
-- [[Fortaleza Data Hub]] — landing point (Brazil terminus)
+- [[Fortaleza Data Hub]] — landing point ([[Brazil]] terminus)
 - [[EllaLink]] — peer cable (connects at Fortaleza)
 - [[Submarine Cables]] — infrastructure context
 - [[Brazil AI]] — national context (South Atlantic route)

@@ -25,7 +25,7 @@ aliases: []
 | Deal | Lenders | Notes |
 |------|---------|-------|
 | **JTC Plc** | [[Blackstone]], CVC Credit, [[GIC]] | Corporate services, w/ CPPIB |
-| **The Key Group** | Goldman Sachs AM, Macquarie, Apax Credit | UK education software |
+| **The Key Group** | [[Goldman Sachs]] AM, Macquarie, Apax Credit | [[UK]] education software |
 
 **Significance:** Demonstrates sponsor bargaining power in [[Private credit]] market. Top-tier PE extracting looser terms as lenders compete for deal flow.
 

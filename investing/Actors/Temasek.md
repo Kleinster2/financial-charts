@@ -38,9 +38,9 @@ Active tech investor:
 | Sector | Investments |
 |--------|-------------|
 | AI/Cloud | Various |
-| Fintech | Ant Group, Grab |
+| [[Fintech]] | Ant Group, [[Grab]] |
 | E-commerce | Sea Group |
-| Semiconductors | Multiple |
+| [[Semiconductors]] | Multiple |
 
 ---
 
@@ -60,7 +60,7 @@ Significant AI capital deployment.
 
 | Company | Relationship |
 |---------|--------------|
-| GlobalFoundries | Legacy stake |
+| [[GlobalFoundries]] | Legacy stake |
 | Various | Supply chain |
 | Equipment | Investments |
 
@@ -71,12 +71,12 @@ Significant AI capital deployment.
 | Region | Allocation |
 |--------|------------|
 | Singapore | ~27% |
-| China | ~19% |
+| [[China]] | ~19% |
 | Americas | ~22% |
-| Europe | ~11% |
-| Rest of Asia | ~21% |
+| [[Europe]] | ~11% |
+| Rest of [[Asia]] | ~21% |
 
-Diversified but Asia-heavy.
+Diversified but [[Asia]]-heavy.
 
 ---
 
@@ -84,7 +84,7 @@ Diversified but Asia-heavy.
 
 | Company | Type |
 |---------|------|
-| Singtel | Telecom |
+| Singtel | [[Telecom]] |
 | DBS Bank | Finance |
 | Sea Group | Tech |
 | Various | Private tech |

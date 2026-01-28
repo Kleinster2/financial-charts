@@ -14,7 +14,7 @@ Part of [[Trump II]] hub.
 | Remove leader | Intimidate leader |
 | Install democracy | Force behavior change |
 | Nation building | Extraction/control |
-| Iraq, Libya | Venezuela, Colombia, Iran |
+| Iraq, Libya | Venezuela, Colombia, [[Iran]] |
 
 **Why the shift:** Regime change is expensive, messy, creates vacuums. Compliance is cheaper — credible threat + demonstrated action = behavior change.
 
@@ -32,12 +32,12 @@ Venezuela was the demonstration. Now other regimes believe US will act.
 
 ## Targets
 
-| Target | Status | Compliance sought | Leverage |
+| [[Target]] | Status | Compliance sought | Leverage |
 |--------|--------|-------------------|----------|
 | **Venezuela** | Achieved | US running country | Military capture |
 | **Colombia** | Attempting | Cooperation on drugs, migration | Tariff threats, Venezuela example |
-| **Iran** | Attempting | Nuclear program, proxies | Sanctions, military posture |
-| **Russia** | Attempting | Ukraine settlement | Sanctions, support for Ukraine |
+| **[[Iran]]** | Attempting | Nuclear program, proxies | Sanctions, military posture |
+| **[[Russia]]** | Attempting | Ukraine settlement | Sanctions, support for Ukraine |
 
 ---
 
@@ -84,7 +84,7 @@ Compliance is regime change without the mess.
 
 **If compliance works:**
 - Reduced conflict risk (behavior change without war)
-- Oil stability (Iran, Venezuela cooperate)
+- [[Oil]] stability ([[Iran]], Venezuela cooperate)
 - EM volatility (fear of being next)
 
 **If compliance fails:**

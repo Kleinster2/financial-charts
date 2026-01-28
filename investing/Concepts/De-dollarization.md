@@ -20,7 +20,7 @@
 |--------|-----------|
 | FX reserves | ~58% |
 | FX transactions | ~88% |
-| Trade invoicing | ~40-50% |
+| [[Trade]] invoicing | ~40-50% |
 | SWIFT payments | ~40% |
 
 ---
@@ -32,7 +32,7 @@
 | BRICS currency | Discussed, no progress |
 | Yuan internationalization | Growing slowly |
 | Bilateral local currency | Limited use |
-| Gold accumulation | Central bank buying |
+| [[Gold]] accumulation | Central bank buying |
 | Digital currencies | CBDC experiments |
 
 ---
@@ -41,10 +41,10 @@
 
 | Factor | Explanation |
 |--------|-------------|
-| Network effects | Everyone uses it |
+| [[Network effects]] | Everyone uses it |
 | Deep markets | Treasury liquidity |
 | Rule of law | Property rights |
-| No alternative | Euro, yuan have issues |
+| No alternative | [[Euro]], yuan have issues |
 | Military backing | Petrodollar |
 
 ---
@@ -53,11 +53,11 @@
 
 | Mechanism | Progress |
 |-----------|----------|
-| Trade settlements | Growing with partners |
+| [[Trade]] settlements | Growing with partners |
 | CIPS | Alternative to SWIFT |
 | [[Currency swap lines]] | 40+ agreements, ¥4.5T total |
-| Belt and Road | RMB loans |
-| Oil trades | Some with Saudi, Russia |
+| [[Belt and Road]] | RMB loans |
+| [[Oil]] trades | Some with Saudi, [[Russia]] |
 | Reserves | ~2.5% globally |
 
 Limited by capital controls. See [[Currency swap lines]] for detailed network analysis.
@@ -76,10 +76,10 @@ Limited by capital controls. See [[Currency swap lines]] for detailed network an
 
 ## What to watch
 
-| Signal | Meaning |
+| [[Signal]] | Meaning |
 |--------|---------|
 | Reserve allocation shifts | Central bank decisions |
-| Trade settlement changes | Invoicing currency |
+| [[Trade]] settlement changes | Invoicing currency |
 | BRICS summits | Policy announcements |
 | Sanctions expansion | Accelerates alternatives |
 

@@ -27,9 +27,9 @@ aliases: [RCEP, Regional Comprehensive Economic Partnership]
 |-------|---------|
 | **ASEAN (10)** | Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam |
 | **Plus 3** | China, Japan, South Korea |
-| **Plus 2** | Australia, New Zealand |
+| **Plus 2** | [[Australia]], New Zealand |
 
-**Notable absences:** US, India (withdrew 2019), Taiwan.
+**Notable absences:** US, India (withdrew 2019), [[Taiwan]].
 
 ---
 
@@ -40,7 +40,7 @@ aliases: [RCEP, Regional Comprehensive Economic Partnership]
 | Category | Coverage | Timeline |
 |----------|----------|----------|
 | Industrial goods | 90%+ | 20 years |
-| Agriculture | 65% | Varies |
+| [[Agriculture]] | 65% | Varies |
 | Sensitive items | Excluded | Rice, beef (Japan) |
 
 **Less ambitious** than CPTPP (99%) — accommodates developing members.
@@ -52,7 +52,7 @@ aliases: [RCEP, Regional Comprehensive Economic Partnership]
 | Cumulation | Regional (all 15 members) |
 | Content threshold | 40% regional value |
 | Self-certification | Phased in |
-| Complexity | Simple vs USMCA |
+| Complexity | Simple vs [[USMCA]] |
 
 **Key innovation:** Single set of rules across 15 countries. Enables supply chain integration.
 
@@ -74,9 +74,9 @@ Less ambitious than CPTPP on services.
 | Data localization | Not addressed (China blocked) |
 | Source code | Not addressed |
 | Customs duties | Banned on digital |
-| Consumer protection | Basic provisions |
+| [[Consumer]] protection | Basic provisions |
 
-Weaker than USMCA/CPTPP due to China's data sovereignty position.
+Weaker than [[USMCA]]/CPTPP due to China's data sovereignty position.
 
 ### Investment
 
@@ -109,7 +109,7 @@ Not TRIPS-plus like CPTPP.
 |-----------|-------------|
 | **US absence** | China shapes regional trade rules |
 | **First FTA with Japan/Korea** | Historic (through RCEP) |
-| **Supply chain anchor** | Cementing Asia manufacturing |
+| **Supply chain anchor** | Cementing [[Asia]] manufacturing |
 | **Counter to CPTPP** | Alternative framework |
 | **Belt & Road complement** | Trade rules + infrastructure |
 
@@ -148,10 +148,10 @@ Both also in CPTPP — diversification strategy.
 
 | Company | Exposure |
 |---------|----------|
-| Toyota, Honda | Japan-ASEAN-China supply chains |
-| Samsung, LG | Korea-Vietnam-China integration |
+| [[Toyota]], Honda | Japan-ASEAN-China supply chains |
+| [[Samsung]], LG | Korea-Vietnam-China integration |
 | Foxconn | China-ASEAN electronics |
-| BYD | ASEAN EV expansion |
+| [[BYD]] | ASEAN EV expansion |
 
 ### Losers
 
@@ -159,7 +159,7 @@ Both also in CPTPP — diversification strategy.
 |--------|--------|
 | **US exporters** | Excluded from preferences |
 | **India** | Withdrew, may lose to ASEAN |
-| **Taiwan** | Excluded, supply chain risk |
+| **[[Taiwan]]** | Excluded, supply chain risk |
 
 ---
 

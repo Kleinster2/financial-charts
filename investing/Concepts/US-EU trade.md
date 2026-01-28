@@ -1,6 +1,6 @@
 #concept #geopolitics #usa #europe #trade
 
-**US-EU trade** — Trade relations between the United States and European Union. Historically allies with deep economic ties, now under strain from Trump tariff policies and EU retaliation threats.
+**US-EU trade** — [[Trade]] relations between the United States and European Union. Historically allies with deep economic ties, now under strain from Trump tariff policies and EU retaliation threats.
 
 ---
 
@@ -16,7 +16,7 @@
 | Apr 2, 2025 | [[Liberation Day tariffs]] — US announces high tariffs against EU |
 | Jul 27, 2025 | [[Turnberry Agreement]] — asymmetric deal (US 15% tariffs, EU 0%) |
 | Jan 2026 | EU freezes Turnberry Agreement |
-| Feb 1, 2026 | Threatened: US 10% tariffs on 6 EU countries + Norway + UK |
+| Feb 1, 2026 | Threatened: US 10% tariffs on 6 EU countries + Norway + [[UK]] |
 | Jun 1, 2026 | Threatened: US 25% tariffs on same |
 
 ---
@@ -42,8 +42,8 @@ If activated, targets ~€93B of US exports:
 
 | Product | Rationale |
 |---------|-----------|
-| **Boeing aircraft** | Alternative: Airbus |
-| **Soy** | Alternative: Brazil, Argentina |
+| **Boeing aircraft** | Alternative: [[Airbus]] |
+| **Soy** | Alternative: [[Brazil]], [[Argentina]] |
 | **Whiskey** | Trump supporter industry |
 | **Motorcycles** (Harley-Davidson) | Trump supporter industry |
 
@@ -67,7 +67,7 @@ If activated, targets ~€93B of US exports:
 - Intellectual property restrictions
 - Market access restrictions for US companies (e.g., communications sector)
 
-**Why "bazooka":** Like ECB's OMT or Germany's €500B fiscal fund — a powerful tool held in reserve as deterrent, designed to never be fired but credible enough to change behavior.
+**Why "bazooka":** Like ECB's OMT or [[Germany]]'s €500B fiscal fund — a powerful tool held in reserve as deterrent, designed to never be fired but credible enough to change behavior.
 
 **Status:** Macron has suggested activating it in response to Greenland/tariff pressure.
 
@@ -75,11 +75,11 @@ If activated, targets ~€93B of US exports:
 
 ## Tariff threat details (Jan 2026)
 
-| Target | Feb 1, 2026 | Jun 1, 2026 |
+| [[Target]] | Feb 1, 2026 | Jun 1, 2026 |
 |--------|-------------|-------------|
 | 6 EU countries | 10% | 25% |
 | Norway | 10% | 25% |
-| UK | 10% | 25% |
+| [[UK]] | 10% | 25% |
 
 Tariffs linked to opposition to US Greenland annexation.
 
@@ -96,11 +96,11 @@ US actions have paralyzed WTO dispute settlement system:
 
 ## Potential beneficiaries
 
-**EU-Mercosur agreement:** Trade tensions may accelerate ratification as EU seeks alternative partners and supply sources.
+**[[EU-Mercosur agreement]]:** [[Trade]] tensions may accelerate ratification as EU seeks alternative partners and supply sources.
 
-**Airbus:** Boeing retaliation would benefit European competitor.
+**[[Airbus]]:** Boeing retaliation would benefit European competitor.
 
-**Brazil/Argentina:** Soy retaliation redirects demand.
+**[[Brazil]]/[[Argentina]]:** Soy retaliation redirects demand.
 
 ---
 

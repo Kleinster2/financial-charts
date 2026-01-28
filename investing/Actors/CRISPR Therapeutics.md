@@ -33,10 +33,10 @@ aliases: [CRSP, CRISPR]
 | Region | Status |
 |--------|--------|
 | US | Approved |
-| UK | Approved |
-| EU | Approved |
-| Canada | Approved |
-| Switzerland | Approved |
+| [[UK]] | Approved |
+| [[EU]] | Approved |
+| [[Canada]] | Approved |
+| [[Switzerland]] | Approved |
 | Saudi Arabia | Approved |
 | UAE | Approved |
 | Bahrain | Approved |
@@ -56,7 +56,7 @@ aliases: [CRSP, CRISPR]
 
 | Metric | Status |
 |--------|--------|
-| Active treatment sites | 50+ (NA, EU, Middle East) |
+| Active treatment sites | 50+ (NA, [[EU]], Middle East) |
 | Patient momentum | Strong heading into late 2025 |
 | Addressable patients (US) | ~16,000 SCD |
 
@@ -66,7 +66,7 @@ aliases: [CRSP, CRISPR]
 
 ## Pipeline
 
-| Program | Target | Stage |
+| Program | [[Target]] | Stage |
 |---------|--------|-------|
 | Casgevy | SCD, TDT | **Approved** |
 | CTX110 | CD19 (cancer) | Phase 1 |
@@ -82,7 +82,7 @@ aliases: [CRSP, CRISPR]
 |-------|---------|
 | Partner | [[Vertex]] |
 | Structure | Co-development, profit share |
-| Commercial | Vertex leads US/EU |
+| Commercial | Vertex leads US/[[EU]] |
 | Economics | ~50/50 profit split |
 
 ---

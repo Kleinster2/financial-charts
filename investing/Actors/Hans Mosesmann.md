@@ -48,7 +48,7 @@ aliases: [Mosesmann]
 | Aug 2023 | $800 (pre-split) | Early AI bull |
 | Mar 2024 | $1,400 (pre-split) | Street high, first to $1K+ |
 | Feb 2025 | $220 (post-split) | Maintained Buy |
-| May 2025 | $200 | Post-H20 China restrictions |
+| May 2025 | $200 | Post-H20 [[China]] restrictions |
 
 *Note: 10:1 split in June 2024. Pre-split $1,400 = post-split $140.*
 

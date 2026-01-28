@@ -1,6 +1,6 @@
 #concept #wireless #telecom #rf #primer
 
-**RF wireless primer** — foundational radio frequency and wireless technology concepts for telecom investing. Understanding wireless helps evaluate spectrum value, 5G economics, and network infrastructure.
+**RF wireless primer** — foundational radio frequency and wireless technology concepts for telecom investing. Understanding wireless helps evaluate spectrum value, [[5G]] economics, and network infrastructure.
 
 > **Key insight:** Spectrum is finite, demand is infinite. Wireless networks are constrained by physics — coverage vs capacity tradeoffs, interference limits, propagation characteristics. The best spectrum is the most valuable real estate in tech.
 
@@ -48,19 +48,19 @@ Higher frequency → Shorter range, poor penetration, more capacity
 |------|-----------|-------|-------|
 | AWS | 1710-2200 MHz | All carriers | Core LTE |
 | PCS | 1850-1995 MHz | All carriers | Legacy 2G/3G/LTE |
-| **C-band** | 3700-3980 MHz | Verizon, AT&T | 5G sweet spot |
+| **C-band** | 3700-3980 MHz | Verizon, AT&T | [[5G]] sweet spot |
 | **CBRS** | 3550-3700 MHz | Shared | Private networks |
-| 2.5 GHz | 2496-2690 MHz | T-Mobile | 5G capacity |
+| 2.5 GHz | 2496-2690 MHz | T-Mobile | [[5G]] capacity |
 
 ### High-band (mmWave)
 
 | Band | Frequency | Use |
 |------|-----------|-----|
-| 28 GHz | 27.5-28.35 GHz | 5G hotspots |
-| 39 GHz | 37-40 GHz | 5G capacity |
-| 47 GHz | 47.2-48.2 GHz | Future 5G |
+| 28 GHz | 27.5-28.35 GHz | [[5G]] hotspots |
+| 39 GHz | 37-40 GHz | [[5G]] capacity |
+| 47 GHz | 47.2-48.2 GHz | Future [[5G]] |
 
-**C-band is the prize:** Best balance of coverage and capacity for 5G. Verizon and AT&T spent $80B+ acquiring it.
+**C-band is the prize:** Best balance of coverage and capacity for [[5G]]. Verizon and AT&T spent $80B+ acquiring it.
 
 ---
 
@@ -71,22 +71,22 @@ Higher frequency → Shorter range, poor penetration, more capacity
 | 2G | 1990s | 64 Kbps | GSM, CDMA | Voice, SMS |
 | 3G | 2000s | 2 Mbps | UMTS, EVDO | Mobile internet |
 | 4G/LTE | 2010s | 100+ Mbps | OFDMA | Smartphones, video |
-| **5G** | 2020s | 1+ Gbps | OFDM, massive MIMO | IoT, low latency |
+| **[[5G]]** | 2020s | 1+ Gbps | OFDM, massive MIMO | IoT, low latency |
 | 6G | 2030s | 100+ Gbps | THz, AI-native | TBD |
 
 ---
 
-## 5G technology
+## [[5G]] technology
 
-### Three flavors of 5G
+### Three flavors of [[5G]]
 
 | Type | Spectrum | Speed | Coverage | Status |
 |------|----------|-------|----------|--------|
-| **Low-band 5G** | 600-900 MHz | 50-200 Mbps | Wide | Nationwide |
-| **Mid-band 5G** | 2.5-4 GHz | 200-900 Mbps | Medium | Expanding |
-| **mmWave 5G** | 24-40 GHz | 1-4 Gbps | Very limited | Urban hotspots |
+| **Low-band [[5G]]** | 600-900 MHz | 50-200 Mbps | Wide | Nationwide |
+| **Mid-band [[5G]]** | 2.5-4 GHz | 200-900 Mbps | Medium | Expanding |
+| **mmWave [[5G]]** | 24-40 GHz | 1-4 Gbps | Very limited | Urban hotspots |
 
-### Key 5G technologies
+### Key [[5G]] technologies
 
 | Technology | What it does |
 |------------|--------------|
@@ -106,7 +106,7 @@ Multiple Input, Multiple Output — use multiple antennas to increase throughput
 | 4x4 MIMO | 4 TX, 4 RX | 4x |
 | Massive MIMO | 64+ TX | 10x+ |
 
-**Massive MIMO:** 5G base stations with 64-256 antenna elements. Serves many users simultaneously via spatial multiplexing.
+**Massive MIMO:** [[5G]] base stations with 64-256 antenna elements. Serves many users simultaneously via spatial multiplexing.
 
 ---
 
@@ -155,7 +155,7 @@ Disaggregate RAN into modular, interoperable components.
 
 **Total cost:** $5,000-10,000/month per macro site.
 
-### Small cells (5G densification)
+### Small cells ([[5G]] densification)
 
 | Type | Coverage | Cost |
 |------|----------|------|
@@ -163,7 +163,7 @@ Disaggregate RAN into modular, interoperable components.
 | Small cell | 100-1,000 ft | Low-medium |
 | Femtocell | 30-50 ft | Low |
 
-**5G economics:** Need 5-10x more cell sites for same coverage with mmWave. Small cells critical.
+**[[5G]] economics:** Need 5-10x more cell sites for same coverage with mmWave. Small cells critical.
 
 ---
 
@@ -197,11 +197,11 @@ Disaggregate RAN into modular, interoperable components.
 
 | Vendor | Market share | Strength |
 |--------|--------------|----------|
-| **Huawei** | ~30% global | Cost, scale (banned in US/Europe) |
+| **[[Huawei]]** | ~30% global | Cost, scale (banned in US/[[Europe]]) |
 | **Ericsson** | ~25% | Technology leadership |
 | **Nokia** | ~20% | Diversified |
-| **Samsung** | ~10% | Growing, US wins |
-| **ZTE** | ~10% | China (sanctions risk) |
+| **[[Samsung]]** | ~10% | Growing, US wins |
+| **ZTE** | ~10% | [[China]] (sanctions risk) |
 
 ### Infrastructure
 
@@ -210,7 +210,7 @@ Disaggregate RAN into modular, interoperable components.
 | Towers | American Tower, Crown Castle, SBA |
 | Small cells | Crown Castle, CommScope |
 | Fiber backhaul | Zayo, Lumen, regional providers |
-| DAS (indoor) | CommScope, Corning |
+| DAS (indoor) | CommScope, [[Corning]] |
 
 ---
 
@@ -267,11 +267,11 @@ Disaggregate RAN into modular, interoperable components.
 | Wi-Fi 6E | + 6 GHz | Same | More spectrum |
 | Wi-Fi 7 | 2.4/5/6 GHz | 46 Gbps | 2024+ |
 
-**Wi-Fi vs 5G:** Complementary. Wi-Fi for indoor/offload, cellular for mobility.
+**Wi-Fi vs [[5G]]:** Complementary. Wi-Fi for indoor/offload, cellular for mobility.
 
-### Private 5G (CBRS)
+### Private [[5G]] (CBRS)
 
-Enterprises deploy own 5G networks using shared CBRS spectrum.
+Enterprises deploy own [[5G]] networks using shared CBRS spectrum.
 
 | Use case | Industry |
 |----------|----------|
@@ -282,12 +282,12 @@ Enterprises deploy own 5G networks using shared CBRS spectrum.
 
 ### Fixed Wireless Access (FWA)
 
-5G as home broadband alternative.
+[[5G]] as home broadband alternative.
 
 | Carrier | Subscribers |
 |---------|-------------|
 | T-Mobile | 5M+ |
-| Verizon | 3M+ |
+| Verizon | [[3M]]+ |
 
 **Economics:** Low marginal cost if network has excess capacity. Competitive threat to cable.
 
@@ -299,8 +299,8 @@ Enterprises deploy own 5G networks using shared CBRS spectrum.
 |-------|------------|
 | Spectrum value | Carriers with best mid-band |
 | Tower growth | American Tower, Crown Castle |
-| 5G equipment | Ericsson, Nokia (O-RAN wild card) |
-| Private 5G | Cisco, CommScope |
+| [[5G]] equipment | Ericsson, Nokia (O-RAN wild card) |
+| Private [[5G]] | [[Cisco]], CommScope |
 | FWA disruption | T-Mobile, Verizon vs cable |
 
 ---

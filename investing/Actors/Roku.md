@@ -30,7 +30,7 @@ aliases: [ROKU]
 
 ---
 
-## Platform economics
+## [[Platform economics]]
 
 | Metric | Value |
 |--------|-------|
@@ -58,10 +58,10 @@ aliases: [ROKU]
 
 | Competitor | Threat level |
 |------------|--------------|
-| Amazon Fire TV | High (bundling) |
-| Google TV | Medium |
-| Apple TV | Low (premium niche) |
-| Smart TV OS (Samsung, LG) | Medium |
+| [[Amazon]] Fire TV | High (bundling) |
+| [[Google]] TV | Medium |
+| [[Apple]] TV | Low (premium niche) |
+| Smart TV OS ([[Samsung]], LG) | Medium |
 
 **Advantage:** Platform agnostic, US market share leader.
 
@@ -72,10 +72,10 @@ aliases: [ROKU]
 | Region | Status |
 |--------|--------|
 | **US** | Dominant (~40% share) |
-| **Canada** | Strong |
-| **Mexico** | Growing |
-| **UK** | Established |
-| **Germany** | Expanding |
+| **[[Canada]]** | Strong |
+| **[[Mexico]]** | Growing |
+| **[[UK]]** | Established |
+| **[[Germany]]** | Expanding |
 
 ---
 
@@ -86,21 +86,21 @@ aliases: [ROKU]
 | Revenue | Growing ~15% |
 | Platform revenue | Growing faster |
 | Profitability | Near breakeven |
-| Free cash flow | Improving |
+| [[Free cash flow]] | Improving |
 
 ---
 
 ## Investment case
 
 **Bull:**
-- Platform economics (recurring, high-margin)
+- [[Platform economics]] (recurring, high-margin)
 - 90M+ account base
 - CTV ad market growing
 - OS licensing upside
 - FAST leadership (The Roku Channel)
 
 **Bear:**
-- Amazon/Google competition
+- [[Amazon]]/[[Google]] competition
 - Hardware commoditization
 - US market saturating
 - International expansion slow

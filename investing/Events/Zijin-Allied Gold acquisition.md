@@ -16,7 +16,7 @@ China's [[Zijin Mining]] acquires Canadian miner [[Allied Gold]] for C$5.5B (~$4
 | Detail | Value |
 |--------|-------|
 | Buyer | [[Zijin Mining]] (via Zijin Gold International) |
-| Target | [[Allied Gold]] |
+| [[Target]] | [[Allied Gold]] |
 | Deal value | **C$5.5B (~US$4B)** |
 | Price/share | C$44 (5.4% premium to Jan 24 close) |
 | Payment | All cash |
@@ -56,7 +56,7 @@ Gold crossed **$5,100/oz** for the first time the same day (Jan 26). Record pric
 - Fueling M&A as majors chase reserves
 - Making African assets more attractive
 
-### 4. Africa gold expansion
+### 4. [[Africa]] gold expansion
 
 Allied's portfolio gives Zijin:
 
@@ -73,7 +73,7 @@ Zijin already has African exposure via Akyem (Ghana, acquired 2024 from [[Newmon
 
 Zijin is building a global gold/copper empire:
 - 2024: Akyem (Ghana) from Newmont
-- 2026: Allied Gold (Africa ops)
+- 2026: Allied Gold ([[Africa]] ops)
 - Plus: Kamoa-Kakula (copper), Serbia, Colombia, etc.
 
 State backing + record commodity prices = aggressive deal flow.
@@ -85,7 +85,7 @@ State backing + record commodity prices = aggressive deal flow.
 **For Zijin:**
 - Significantly expands gold reserves and production
 - Diversifies beyond China amid domestic depletion concerns
-- Africa exposure balances US/Western-sanctioned operations
+- [[Africa]] exposure balances US/Western-sanctioned operations
 
 **For Canada:**
 - Signals openness to Chinese resource investment post-thaw
@@ -105,7 +105,7 @@ State backing + record commodity prices = aggressive deal flow.
 |------|---------|
 | Canadian regulatory | Investment Canada Act review likely |
 | US pressure | UFLPA sanctions on Zijin subsidiaries may complicate |
-| China regulatory | NDRC/MOFCOM approval required |
+| China regulatory | [[NDRC]]/MOFCOM approval required |
 | Shareholder vote | Allied shareholders must approve |
 | Mali political | Ongoing instability in Sadiola region |
 
@@ -117,7 +117,7 @@ State backing + record commodity prices = aggressive deal flow.
 |-------|------|
 | [[Zijin Mining]] | Acquirer (parent) |
 | Zijin Gold International | Acquirer (direct buyer, HKG: 2259) |
-| [[Allied Gold]] | Target |
+| [[Allied Gold]] | [[Target]] |
 | Peter Marrone | Allied Gold CEO |
 | [[Mark Carney]] | Canadian PM (China thaw context) |
 | [[Xi Jinping]] | Chinese President (met Carney Jan 2026) |

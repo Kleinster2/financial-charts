@@ -5,7 +5,7 @@ aliases: [Gucci parent]
 
 # Kering
 
-**French luxury conglomerate** — owns Gucci, Saint Laurent, Bottega Veneta, Balenciaga. In turnaround mode after Gucci revenue collapsed 23% in 2024. Pursuing owned real estate strategy on [[Fifth Avenue luxury corridor]].
+**French luxury conglomerate** — owns Gucci, [[Saint Laurent]], Bottega Veneta, Balenciaga. In turnaround mode after Gucci revenue collapsed 23% in 2024. Pursuing owned real estate strategy on [[Fifth Avenue luxury corridor]].
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Gucci parent]
 | Metric | Value |
 |--------|-------|
 | Ticker | KER (Euronext Paris) |
-| HQ | Paris, France |
+| HQ | Paris, [[France]] |
 | Controlling family | Pinault family |
 | Revenue (2024) | €17.2B (-12% YoY) |
 | Operating income (2024) | €2.5B (-47% YoY) |
@@ -27,12 +27,12 @@ aliases: [Gucci parent]
 | Brand | 2024 Revenue | YoY Change | Positioning |
 |-------|--------------|------------|-------------|
 | **Gucci** | €7.65B | **-23%** | Flagship, in turnaround |
-| **Saint Laurent** | ~€3B | -13% | #2 brand |
+| **[[Saint Laurent]]** | ~€3B | -13% | #2 brand |
 | **Bottega Veneta** | ~€1.7B | +4% | Outperformer |
 | **Balenciaga** | ~€1.5B | Declining | Creative reset |
 | Other (Brioni, McQueen, jewelry) | ~€3B | Mixed | Smaller houses |
 
-**Gucci is the problem:** 45% of group revenue, 51% operating income decline. The brand lost cultural relevance post-Alessandro Michele era.
+**Gucci is the problem:** 45% of group revenue, 51% operating income decline. The brand lost cultural relevance post-[[Alessandro Michele]] era.
 
 ---
 
@@ -56,7 +56,7 @@ aliases: [Gucci parent]
 | Operating income | €969M | Declining |
 | Gucci operating margin | 16% | -8.7pp |
 
-**Q3 2025:** Revenue -5% comparable (improving from -15% in Q2). Bottega Veneta and jewelry stabilizing faster than Gucci/Saint Laurent.
+**Q3 2025:** Revenue -5% comparable (improving from -15% in Q2). Bottega Veneta and jewelry stabilizing faster than Gucci/[[Saint Laurent]].
 
 ---
 
@@ -66,7 +66,7 @@ aliases: [Gucci parent]
 |------|------|-----------|
 | Gucci CEO | Stefano Cantino | Jan 2025 |
 | Gucci Creative Director | **Demna** (from Balenciaga) | Feb 2025 |
-| Saint Laurent CEO | Cédric Charbit | Jan 2025 |
+| [[Saint Laurent]] CEO | Cédric Charbit | Jan 2025 |
 | Balenciaga CEO | Gianfranco Gianangeli | Jan 2025 |
 
 **Demna at Gucci** is the big bet — his first collection expected late 2025. Brought from Balenciaga to revive Gucci's cultural relevance.
@@ -117,13 +117,13 @@ See [[Fifth Avenue luxury corridor]] for context on luxury brand buying spree.
 
 | Region | YoY Change |
 |--------|------------|
-| Asia-Pacific | -24% |
+| [[Asia]]-Pacific | -24% |
 | North America | -11% |
-| Western Europe | -9% |
-| Japan | +9% |
+| Western [[Europe]] | -9% |
+| [[Japan]] | +9% |
 | Rest of world | +3% |
 
-**China weakness** is the biggest drag — Asia-Pacific down 24% as Chinese luxury demand collapsed.
+**[[China]] weakness** is the biggest drag — [[Asia]]-Pacific down 24% as Chinese luxury demand collapsed.
 
 ---
 
@@ -131,7 +131,7 @@ See [[Fifth Avenue luxury corridor]] for context on luxury brand buying spree.
 
 **Bear case:**
 - Gucci turnaround unproven; Demna is a risk
-- China luxury demand may not recover
+- [[China]] luxury demand may not recover
 - Operating margins compressed (27% → 15%)
 - [[LVMH]] taking market share
 

@@ -17,7 +17,7 @@ Chip architects don't design for "2nm" generically — they design for **TSMC N2
 - Years of learning a PDK's quirks, corner cases, and workarounds
 - Designs optimized for one PDK don't port cleanly to another
 - Re-verification takes months and risks new bugs
-- EDA tools (Synopsys, Cadence) calibrate to each PDK separately
+- EDA tools ([[Synopsys]], [[Cadence]]) calibrate to each PDK separately
 
 ## Switching cost
 

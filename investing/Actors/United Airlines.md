@@ -27,7 +27,7 @@ aliases: [UAL, United]
 | Chicago (ORD) | Midwest fortress |
 | Denver (DEN) | Mountain West |
 | Houston (IAH) | Latin America |
-| San Francisco (SFO) | Asia-Pacific, tech |
+| San Francisco (SFO) | [[Asia]]-Pacific, tech |
 
 ---
 

@@ -29,7 +29,7 @@
 
 ## The debt legacy
 
-**2013 LBO** by Ares Management and Canada Pension Plan loaded company with ~$5B debt.
+**2013 LBO** by [[Ares Management]] and [[Canada]] Pension Plan loaded company with ~$5B debt.
 
 **2020 bankruptcy** reduced this to ~$2.8B but didn't eliminate it.
 

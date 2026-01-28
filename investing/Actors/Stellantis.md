@@ -5,7 +5,7 @@ aliases: [STLA, Stellantis NV]
 
 # Stellantis
 
-**Global automaker** — formed from 2021 Fiat-Chrysler + PSA merger. 14 brands including Jeep, RAM, Dodge, Peugeot, Citroën, Fiat, Maserati, Alfa Romeo. €189B revenue (2024), but profits collapsed ~70% as EV transition stalls and China/US struggle. CEO Carlos Tavares resigned December 2024. [[Exor]] (Agnelli) owns 14.2%. Stock down ~40% from 2024 highs.
+**Global automaker** — formed from 2021 Fiat-Chrysler + PSA merger. 14 brands including Jeep, RAM, Dodge, Peugeot, Citroën, Fiat, Maserati, Alfa Romeo. €189B revenue (2024), but profits collapsed ~70% as [[EV transition]] stalls and [[China]]/US struggle. CEO Carlos Tavares resigned December 2024. [[Exor]] (Agnelli) owns 14.2%. Stock down ~40% from 2024 highs.
 
 ---
 
@@ -42,7 +42,7 @@ aliases: [STLA, Stellantis NV]
 
 **Pre-merger (FCA + PSA combined ~2019):** ~€180B combined revenue. Merger created 4th largest automaker.
 
-**2024 collapse:** Revenue -17%, net income -70%. US inventory crisis (100+ days supply), EV transition delays, China exit, dealer/workforce friction. CEO Tavares resigned December 2024.
+**2024 collapse:** Revenue -17%, net income -70%. US inventory crisis (100+ days supply), [[EV transition]] delays, [[China]] exit, dealer/workforce friction. CEO Tavares resigned December 2024.
 
 ---
 
@@ -51,7 +51,7 @@ aliases: [STLA, Stellantis NV]
 | Region | Brands | Status |
 |--------|--------|--------|
 | **North America** | Jeep, RAM, Dodge, Chrysler | Struggling — inventory glut |
-| **Europe** | Peugeot, Citroën, Opel, Fiat | Stable but competitive |
+| **[[Europe]]** | Peugeot, Citroën, Opel, Fiat | Stable but competitive |
 | **Premium** | Alfa Romeo, Maserati, Lancia | Subscale, restructuring |
 | **Commercial** | RAM ProMaster, Fiat Professional | Solid |
 
@@ -70,8 +70,8 @@ aliases: [STLA, Stellantis NV]
 
 **What went wrong:**
 - US inventory crisis — 100+ days supply (normal is 60)
-- EV transition slower than planned
-- China retreat (JV dissolution)
+- [[EV transition]] slower than planned
+- [[China]] retreat (JV dissolution)
 - Cost-cutting alienated workforce and dealers
 - Tavares' abrasive style created internal friction
 
@@ -83,7 +83,7 @@ aliases: [STLA, Stellantis NV]
 |-------------|-------|
 | [[Exor]] (Agnelli) | 14.2% |
 | Peugeot family (EPF) | 7.2% |
-| BPI France | 6.1% |
+| BPI [[France]] | 6.1% |
 | Public | ~72% |
 
 No controlling shareholder. Exor is largest but doesn't control.
@@ -95,8 +95,8 @@ No controlling shareholder. Exor is largest but doesn't control.
 | Region | YoY Change | Notes |
 |--------|------------|-------|
 | North America | -20%+ | Inventory crisis, incentive war |
-| Europe | -10% | EV competition |
-| China | Exiting | Dissolving JV |
+| [[Europe]] | -10% | EV competition |
+| [[China]] | Exiting | Dissolving JV |
 | South America | Stable | Fiat strong |
 
 ---
@@ -114,8 +114,8 @@ No controlling shareholder. Exor is largest but doesn't control.
 **Bear:**
 - No permanent CEO — leadership vacuum
 - US franchise damaged (dealer relations, brand perception)
-- EV transition behind competitors
-- China exit = missing largest market
+- [[EV transition]] behind competitors
+- [[China]] exit = missing largest market
 - UAW relations strained
 - Tavares was the strategy — what now?
 

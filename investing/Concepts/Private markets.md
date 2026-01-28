@@ -38,10 +38,10 @@ aliases: [private equity, private companies, pre-IPO]
 | Company | Valuation | Status |
 |---------|-----------|--------|
 | [[OpenAI]] | ~$500B (seeking) | Most valuable private |
-| SpaceX | ~$350B | Second largest |
-| [[Anthropic]] | ~$60B | Claude, Constitutional AI |
+| [[SpaceX]] | ~$350B | Second largest |
+| [[Anthropic]] | ~$60B | [[Claude]], Constitutional AI |
 | [[Databricks]] | ~$60B | Data + AI |
-| Stripe | ~$70B | Payments |
+| [[Stripe]] | ~$70B | Payments |
 
 ---
 
@@ -61,8 +61,8 @@ aliases: [private equity, private companies, pre-IPO]
 
 **New approach for retail access:**
 - Not actual equity — derivative exposure
-- [[Robinhood]] offering OpenAI/SpaceX tokens (Europe)
-- [[Republic]] SpaceX token
+- [[Robinhood]] offering OpenAI/[[SpaceX]] tokens ([[Europe]])
+- [[Republic]] [[SpaceX]] token
 - Lower minimums, tradeable
 
 See [[Tokenized private shares]] for risks.

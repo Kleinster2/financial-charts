@@ -44,7 +44,7 @@ aliases: [pembrolizumab, Keytruda QLEX]
 | Renal cell | Growing |
 | Gastric/esophageal | Growing |
 
-Also approved: Hodgkin lymphoma, cervical, endometrial, solid tumors with MSI-H.
+Also approved: Hodgkin lymphoma, cervical, endometrial, solid tumors with [[MSI]]-H.
 
 ---
 
@@ -77,7 +77,7 @@ Also approved: Hodgkin lymphoma, cervical, endometrial, solid tumors with MSI-H.
 
 | Partner drug | Indication | Status |
 |--------------|------------|--------|
-| Padcev (Astellas) | Bladder cancer | Approved (EU Aug 2024) |
+| Padcev (Astellas) | Bladder cancer | Approved ([[EU]] Aug 2024) |
 | Chemo | NSCLC, mesothelioma | Approved |
 | **Daraxonrasib** | Pancreatic, NSCLC | Phase 3 (Revolution) |
 

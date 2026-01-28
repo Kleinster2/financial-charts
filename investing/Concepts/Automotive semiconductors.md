@@ -1,6 +1,6 @@
 #concept #demand #automotive #sic
 
-Semiconductors for automotive applications — EVs, ADAS, infotainment. Different dynamics than AI/datacenter. EV transition drives SiC adoption; ADAS drives compute complexity.
+[[Semiconductors]] for automotive applications — EVs, ADAS, infotainment. Different dynamics than AI/datacenter. [[EV transition]] drives SiC adoption; ADAS drives compute complexity.
 
 > **Key insight:** Auto semis are NOT in competition with AI for leading-edge capacity. Different fabs, different bottlenecks, different cycle.
 
@@ -16,11 +16,11 @@ Semiconductors for automotive applications — EVs, ADAS, infotainment. Differen
 | Status | Post-boom settling |
 | Key driver | EV penetration rate |
 
-Automotive was hot during EV hype (2021-2023), now normalizing as EV growth slowed.
+[[Automotive]] was hot during EV hype (2021-2023), now normalizing as EV growth slowed.
 
 ---
 
-## Market structure
+## [[Market structure]]
 
 **Who leads automotive semiconductors:**
 
@@ -54,7 +54,7 @@ Power semiconductors for EV inverters, chargers. Higher efficiency than silicon.
 
 | Layer | Players |
 |-------|---------|
-| Substrates | Wolfspeed, Coherent, SK Siltron |
+| Substrates | Wolfspeed, [[Coherent]], SK Siltron |
 | Epitaxy | In-house or Wolfspeed |
 | Device makers | Infineon, STMicro, onsemi, Rohm |
 
@@ -81,10 +81,10 @@ IGBTs, MOSFETs for motor control, power management.
 
 ### ADAS / Autonomous
 
-Sensors, compute for driver assistance.
+[[Sensors]], compute for driver assistance.
 
 **Key players:**
-- [[Mobileye]] (Intel) — EyeQ chips, #1 in L2 ADAS
+- [[Mobileye]] ([[Intel]]) — EyeQ chips, #1 in L2 ADAS
 - [[NVIDIA]] — Drive platform, high-end compute
 - [[Qualcomm]] — Snapdragon Ride, infotainment crossover
 
@@ -95,7 +95,7 @@ Sensors, compute for driver assistance.
 | L2 (hands-on) | Low-medium | Mobileye, NXP |
 | L2+ (supervised) | Medium | Mobileye, NVIDIA |
 | L3 (eyes-off) | High | NVIDIA, Qualcomm |
-| L4 (driverless) | Very high | NVIDIA, custom (Waymo, Tesla) |
+| L4 (driverless) | Very high | NVIDIA, custom ([[Waymo]], Tesla) |
 
 ### MCUs (Microcontrollers)
 
@@ -103,7 +103,7 @@ The "nervous system" of the car — body control, safety, powertrain.
 
 **Key players:**
 - [[Renesas]] — #1 globally in auto MCUs
-- [[NXP]] — #2, strong in Europe
+- [[NXP]] — #2, strong in [[Europe]]
 - [[Infineon]] — #3, power + MCU
 - [[STMicro]] — Growing share
 
@@ -116,10 +116,10 @@ The "nervous system" of the car — body control, safety, powertrain.
 
 ## Why it's different from AI/datacenter
 
-| Factor | AI/Datacenter | Automotive |
+| Factor | AI/Datacenter | [[Automotive]] |
 |--------|---------------|------------|
 | Growth | Accelerating | Settling |
-| Demand driver | Hyperscaler capex | Consumer EV adoption |
+| Demand driver | [[Hyperscaler capex]] | [[Consumer]] EV adoption |
 | Node | Leading edge (2nm, 3nm) | Mature + specialty (SiC) |
 | Cycle | Structural | Cyclical + secular |
 
@@ -171,7 +171,7 @@ STMicro SiC revenue trajectory tells the story:
 
 **Minimal overlap with AI/foundry themes:**
 - Auto uses mature nodes (28nm+) — not leading edge
-- SiC is specialty fab (not TSMC/Samsung)
+- SiC is specialty fab (not TSMC/[[Samsung]])
 - Different supply chain (Infineon, STMicro have own fabs)
 
 **Some overlap:**
@@ -183,7 +183,7 @@ STMicro SiC revenue trajectory tells the story:
 
 ## What to watch
 
-- [ ] EV adoption rates (China, Europe, US)
+- [ ] EV adoption rates ([[China]], [[Europe]], US)
 - [ ] Tesla production / inventory
 - [ ] SiC pricing and capacity
 - [ ] ADAS compute complexity increasing
@@ -203,22 +203,22 @@ STMicro SiC revenue trajectory tells the story:
 
 ---
 
-## China angle
+## [[China]] angle
 
 **Chinese auto semi players:**
 
 | Company | Focus | Status |
 |---------|-------|--------|
 | [[BYD]] Semiconductor | Power, MCUs | Vertically integrated |
-| CATL | BMS chips | Exploring |
+| [[CATL]] | BMS chips | Exploring |
 | StarPower | IGBTs | Growing share |
-| Horizon Robotics | ADAS compute | Backed by VW |
+| Horizon [[Robotics]] | ADAS compute | Backed by VW |
 
 **Dynamics:**
 - Chinese OEMs prefer domestic suppliers (geopolitics)
 - [[BYD]] most vertically integrated
 - Quality gap closing but still exists
-- Export controls less relevant (mature nodes)
+- [[Export controls]] less relevant (mature nodes)
 
 ---
 
@@ -228,9 +228,9 @@ STMicro SiC revenue trajectory tells the story:
 
 | Node | Foundry | Products |
 |------|---------|----------|
-| 28nm+ | [[GlobalFoundries]], UMC, [[TSMC]] | MCUs, power management |
+| 28nm+ | [[GlobalFoundries]], [[UMC]], [[TSMC]] | MCUs, power management |
 | SiC | Wolfspeed, STMicro, Infineon | Power semiconductors |
-| 16nm-7nm | [[TSMC]], Samsung | ADAS compute |
+| 16nm-7nm | [[TSMC]], [[Samsung]] | ADAS compute |
 | 5nm-3nm | [[TSMC]] | High-end ADAS (NVIDIA, Qualcomm) |
 
 **Key point:** Most auto chips don't need leading edge — specialty processes matter more.
@@ -248,7 +248,7 @@ STMicro SiC revenue trajectory tells the story:
 **Bear case:**
 - EV adoption slowdown (especially US)
 - SiC overcapacity risk
-- China competition (BYD Semiconductor)
+- [[China]] competition (BYD Semiconductor)
 - Cyclical exposure to auto production
 
 **How to play it:**
@@ -258,7 +258,7 @@ STMicro SiC revenue trajectory tells the story:
 | Power/SiC | [[Infineon]], [[STMicro]], [[onsemi]] |
 | MCUs | [[Renesas]], [[NXP]] |
 | ADAS compute | [[NVIDIA]], [[Qualcomm]], [[Mobileye]] |
-| China exposure | [[BYD]], domestic plays |
+| [[China]] exposure | [[BYD]], domestic plays |
 | Foundry angle | [[GlobalFoundries]] (specialty) |
 
 *Updated 2026-01-04*
@@ -275,7 +275,7 @@ STMicro SiC revenue trajectory tells the story:
 - [[onsemi]] — SiC, image sensors
 - [[NVIDIA]] — ADAS compute (Drive platform)
 - [[Qualcomm]] — ADAS, infotainment
-- [[Mobileye]] — L2 ADAS leader (Intel)
+- [[Mobileye]] — L2 ADAS leader ([[Intel]])
 - [[Tesla]] — SiC demand driver
 - [[BYD]] — vertically integrated (BYD Semiconductor)
 - [[GM]] — legacy OEM transition

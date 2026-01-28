@@ -9,7 +9,7 @@ aliases: [WULF]
 
 ## Why TeraWulf matters
 
-Significant HPC capacity with Google-backed Fluidstack + Anthropic:
+Significant HPC capacity with [[Google]]-backed Fluidstack + Anthropic:
 
 | Metric | Value |
 |--------|-------|
@@ -17,7 +17,7 @@ Significant HPC capacity with Google-backed Fluidstack + Anthropic:
 | Fluidstack deals | 200MW (10yr) |
 | **Anthropic deal** | DC infrastructure for ~1M TPUv7 |
 | Location | Lake Mariner, NY |
-| Backer | Google (via Fluidstack), Anthropic |
+| Backer | [[Google]] (via Fluidstack), Anthropic |
 
 ---
 
@@ -30,7 +30,7 @@ Significant HPC capacity with Google-backed Fluidstack + Anthropic:
 | Total capacity | 200MW |
 | Term | 10 years each |
 | Partner | Fluidstack |
-| Backing | Google |
+| Backing | [[Google]] |
 | Location | Lake Mariner, NY |
 
 Long-term visibility with hyperscaler support.
@@ -67,10 +67,10 @@ Long-term visibility with hyperscaler support.
 
 | Company | AI deal | Location |
 |---------|---------|----------|
-| [[IREN]] | $9.7B Microsoft | Texas, BC |
+| [[IREN]] | $9.7B [[Microsoft]] | Texas, BC |
 | [[Hut 8]] | $7B Fluidstack | Louisiana |
 | **TeraWulf** | 200MW Fluidstack | New York |
-| [[Core Scientific]] | $3.5B CoreWeave | Texas |
+| [[Core Scientific]] | $3.5B [[CoreWeave]] | Texas |
 
 TeraWulf = New York power play.
 
@@ -81,7 +81,7 @@ TeraWulf = New York power play.
 **Bull:**
 - 200MW Fluidstack contracts
 - 10-year visibility
-- Google backing (indirect)
+- [[Google]] backing (indirect)
 - Clean energy angle
 - NY location differentiator
 
@@ -111,7 +111,7 @@ TeraWulf = New York power play.
 - [[Hut 8]] — peer (Fluidstack partner, Anthropic consortium)
 - [[Cipher Mining]] — peer (Anthropic consortium)
 - [[IREN]] — peer (leading AI pivot)
-- [[Core Scientific]] — peer (CoreWeave partner)
+- [[Core Scientific]] — peer ([[CoreWeave]] partner)
 - [[Anthropic]] — customer (~1M TPUv7 infrastructure)
 - [[FluidStack]] — deployment partner (operations)
 - [[Crypto-to-AI pivot]] — thesis context

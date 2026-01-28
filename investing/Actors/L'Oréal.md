@@ -5,7 +5,7 @@ aliases: [OR, L'Oreal, Loreal]
 
 # L'Oréal
 
-**World's largest beauty company** — €43.5B revenue (2024, +5.1%), record 20% operating margin. Four divisions: Consumer Products, L'Oréal Luxe, Dermatological Beauty, Professional Products. Became #1 in US luxury beauty for the first time. Acquiring Kering Beauté (Creed fragrance) for ~€4B. China returned to growth in 2025. Bettencourt-Meyers family controls ~33%.
+**World's largest beauty company** — €43.5B revenue (2024, +5.1%), record 20% operating margin. Four divisions: Consumer Products, L'Oréal Luxe, Dermatological Beauty, Professional Products. Became #1 in US luxury beauty for the first time. Acquiring Kering Beauté (Creed fragrance) for ~€4B. [[China]] returned to growth in 2025. Bettencourt-Meyers family controls ~33%.
 
 ---
 
@@ -20,7 +20,7 @@ aliases: [OR, L'Oreal, Loreal]
 | Net income (H1 2024) | €3.65B (+8.8%) |
 | CEO | Nicolas Hieronimus |
 | Control | Bettencourt-Meyers family (~33%) |
-| HQ | Clichy, France |
+| HQ | Clichy, [[France]] |
 | Employees | 90,000+ |
 
 ---
@@ -35,10 +35,10 @@ aliases: [OR, L'Oreal, Loreal]
 
 ### H1 2025:
 - Operating profit: €4,740M (+3.1%), 21.1% margin (+30bps)
-- Emerging markets: double-digit growth
-- Mainland China: returned to growth
+- [[Emerging markets]]: double-digit growth
+- Mainland [[China]]: returned to growth
 - North America: -3.8% LFL (weakest region)
-- Europe: +4.3% LFL
+- [[Europe]]: +4.3% LFL
 
 ---
 
@@ -47,11 +47,11 @@ aliases: [OR, L'Oreal, Loreal]
 | Division | Revenue (2024E) | Margin | Key brands |
 |----------|-----------------|--------|------------|
 | **Consumer Products** | ~€16B | 22.5% | L'Oréal Paris, Garnier, Maybelline, NYX |
-| **L'Oréal Luxe** | ~€15B | 22.3% | Lancôme, YSL Beauty, Giorgio Armani, Valentino, Prada |
-| **Dermatological Beauty** | ~€7B | 28.2% | La Roche-Posay, CeraVe, SkinCeuticals, Vichy |
+| **L'Oréal Luxe** | ~€15B | 22.3% | Lancôme, YSL Beauty, Giorgio Armani, [[Valentino]], [[Prada]] |
+| **Dermatological Beauty** | ~€7B | 28.2% | La [[Roche]]-Posay, CeraVe, SkinCeuticals, Vichy |
 | **Professional Products** | ~€5B | 22.4% | Kérastase, Redken, L'Oréal Professionnel |
 
-**Star division:** Dermatological Beauty — 28% margins, +16% growth in H1 2024, driven by CeraVe/La Roche-Posay social media virality.
+**Star division:** Dermatological Beauty — 28% margins, +16% growth in H1 2024, driven by CeraVe/La [[Roche]]-Posay social media virality.
 
 ---
 
@@ -76,7 +76,7 @@ aliases: [OR, L'Oreal, Loreal]
 | Growth (2024) | +5.1% | -8% |
 | Margin | 20% | Declining |
 | US luxury beauty | **#1** (first time) | Losing share |
-| China exposure | Diversified | ~30% concentrated |
+| [[China]] exposure | Diversified | ~30% concentrated |
 | Stock | Stable | -80% from peak |
 | Strategy | Acquisitive, growing | Defensive, restructuring |
 
@@ -86,8 +86,8 @@ aliases: [OR, L'Oreal, Loreal]
 
 | Category | Growth | L'Oréal position |
 |----------|--------|-------------------|
-| **Fragrance** | Fastest-growing | Acquiring Creed, YSL, Valentino licenses |
-| **Skincare** | Strong | CeraVe, La Roche-Posay, Aēsop |
+| **Fragrance** | Fastest-growing | Acquiring Creed, YSL, [[Valentino]] licenses |
+| **Skincare** | Strong | CeraVe, La [[Roche]]-Posay, Aēsop |
 | **Haircare** | Growing | Kérastase, Color Wow acquisition |
 | **Makeup** | Moderate | Lancôme, Maybelline, YSL |
 
@@ -97,9 +97,9 @@ aliases: [OR, L'Oreal, Loreal]
 
 | Region | LFL growth | Notes |
 |--------|-----------|-------|
-| Latin America | +7.9% | Brazil double-digit |
-| Asia | +6.9% | China recovering |
-| Europe | +4.3% | Broad-based |
+| Latin America | +7.9% | [[Brazil]] double-digit |
+| [[Asia]] | +6.9% | [[China]] recovering |
+| [[Europe]] | +4.3% | Broad-based |
 | **North America** | **-3.8%** | Weakest, competitive pressure |
 
 ---
@@ -124,8 +124,8 @@ aliases: [OR, L'Oreal, Loreal]
 - Dermatological Beauty growing +16%, 28% margins
 - Taking US luxury share from Estée Lauder
 - Fragrance acquisitions (Creed) in fastest category
-- China returning to growth
-- CeraVe/La Roche-Posay social media tailwinds
+- [[China]] returning to growth
+- CeraVe/La [[Roche]]-Posay social media tailwinds
 
 **Bear:**
 - Growth decelerating (5% from 11%)

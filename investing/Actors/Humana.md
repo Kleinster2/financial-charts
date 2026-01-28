@@ -69,7 +69,7 @@ Most Medicare-focused of major insurers.
 
 **Bull:**
 - Aging population tailwind
-- Healthcare services expansion
+- [[Healthcare]] services expansion
 - Beaten-down valuation after 2025-26 crashes
 - Simpler story than UNH
 

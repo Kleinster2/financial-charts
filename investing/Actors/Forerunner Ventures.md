@@ -3,7 +3,7 @@ aliases: [Forerunner]
 ---
 #actor #investor #venturecapital #usa #private
 
-**Forerunner Ventures** — Consumer VC. Kirsten Green founder. Warby Parker, Glossier, Dollar Shave Club investor. ~$2B AUM.
+**Forerunner Ventures** — [[Consumer]] VC. Kirsten Green founder. Warby Parker, Glossier, Dollar Shave Club investor. ~$2B AUM.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Forerunner]
 | Founded | 2010 |
 | Founder | **Kirsten Green** |
 | AUM | ~$2B |
-| Focus | Consumer brands |
+| Focus | [[Consumer]] brands |
 | HQ | San Francisco |
 
 ---
@@ -35,11 +35,11 @@ aliases: [Forerunner]
 |---------|-------|--------|
 | **Warby Parker** | Early | Public (WRBY) |
 | **Glossier** | Early | Private |
-| **Dollar Shave Club** | Early | Acquired by Unilever |
-| **Chime** | Early | Private |
+| **Dollar Shave Club** | Early | Acquired by [[Unilever]] |
+| **[[Chime]]** | Early | Private |
 | **Away** | Early | Private |
 | **Outdoor Voices** | Early | Private |
-| **Faire** | Early | Private |
+| **[[Faire]]** | Early | Private |
 
 ---
 
@@ -62,7 +62,7 @@ Forerunner = early believer in DTC disruption.
 | Founded | 2010 |
 | AUM | ~$2B |
 | Founder | Kirsten Green |
-| Focus | Consumer |
+| Focus | [[Consumer]] |
 
 ---
 

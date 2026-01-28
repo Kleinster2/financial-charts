@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #activist #hedgefund #usa #private
 
-**Third Point** — Dan Loeb's activist fund. ~$12B AUM. Disney, Sony, Intel campaigns. Prolific letter writer.
+**Third Point** — Dan Loeb's activist fund. ~$12B AUM. Disney, [[Sony]], [[Intel]] campaigns. Prolific letter writer.
 
 ---
 
@@ -25,7 +25,7 @@ aliases: []
 |------|--------|
 | Background | Distressed debt |
 | Style | Colorful letters |
-| Media | High-profile |
+| [[Media]] | High-profile |
 | Philanthropy | Active |
 
 Famous for scathing public letters to CEOs.
@@ -37,8 +37,8 @@ Famous for scathing public letters to CEOs.
 | Company | Year | Demand |
 |---------|------|--------|
 | **Disney** | 2022-23 | ESPN spin, cost cuts |
-| **Sony** | 2019 | Entertainment spin |
-| **Intel** | 2020 | Strategic review |
+| **[[Sony]]** | 2019 | Entertainment spin |
+| **[[Intel]]** | 2020 | Strategic review |
 | **Campbell Soup** | 2018 | Board change |
 | **Yahoo** | 2011 | CEO change |
 | **Sotheby's** | 2013 | Board seats |

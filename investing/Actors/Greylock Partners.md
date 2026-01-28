@@ -25,11 +25,11 @@ aliases: [Greylock]
 | **LinkedIn** | Early (Reid Hoffman) | Acquired by MSFT |
 | **Facebook** | Early | Public (META) |
 | **Discord** | Early | Private |
-| **Figma** | Early | Adobe blocked |
-| **Workday** | Early | Public (WDAY) |
-| **Palo Alto Networks** | Early | Public (PANW) |
-| **Roblox** | Growth | Public (RBLX) |
-| **Coinbase** | Early | Public (COIN) |
+| **[[Figma]]** | Early | [[Adobe]] blocked |
+| **[[Workday]]** | Early | Public (WDAY) |
+| **[[Palo Alto Networks]]** | Early | Public (PANW) |
+| **[[Roblox]]** | Growth | Public (RBLX) |
+| **[[Coinbase]]** | Early | Public (COIN) |
 
 ---
 
@@ -48,9 +48,9 @@ aliases: [Greylock]
 
 | Sector | Examples |
 |--------|----------|
-| **Enterprise** | Workday, Palo Alto |
-| **Consumer** | Discord, Roblox |
-| **Fintech** | Coinbase |
+| **Enterprise** | [[Workday]], Palo Alto |
+| **[[Consumer]]** | Discord, [[Roblox]] |
+| **[[Fintech]]** | [[Coinbase]] |
 | **AI** | Various |
 
 ---

@@ -14,7 +14,7 @@ aliases: [xAI Grok, Grok AI, Grok 3, Grok 4]
 | Training cluster | **Colossus** (200K GPUs) |
 | 2026 expansion | 555K GPUs, 2GW, $18B |
 | Distribution | X (Twitter) Premium |
-| Parent | xAI (Elon Musk) |
+| Parent | xAI ([[Elon Musk]]) |
 | Latest model | Grok 4 (free tier available) |
 
 Musk's bet: raw compute scale + X distribution = AI dominance.
@@ -64,7 +64,7 @@ Musk's bet: raw compute scale + X distribution = AI dominance.
 
 **Benchmarks (claimed):**
 
-| Benchmark | vs Competitors |
+| [[Benchmark]] | vs Competitors |
 |-----------|----------------|
 | AIME (math) | Beat GPT-4o |
 | GPQA (PhD science) | Beat GPT-4o |
@@ -92,7 +92,7 @@ Musk's bet: raw compute scale + X distribution = AI dominance.
 |------------|---------|
 | **Real-time X integration** | Analyzes trending topics, posts |
 | **Web search** | Live information |
-| **Image generation** | Aurora model |
+| **Image generation** | [[Aurora]] model |
 | **Personality** | "Rebellious," willing to answer edgy questions |
 | **Feed ranking** | Now ranks "Following" feed by predicted engagement |
 | **Translation** | Auto-translates X posts |
@@ -133,7 +133,7 @@ Musk's bet: raw compute scale + X distribution = AI dominance.
 
 | Metric | Value |
 |--------|-------|
-| Parent | xAI (Elon Musk) |
+| Parent | xAI ([[Elon Musk]]) |
 | Training cluster | Colossus (200K GPUs) |
 | 2026 expansion | 555K GPUs, $18B |
 | Distribution | X Premium |

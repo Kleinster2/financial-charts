@@ -3,7 +3,7 @@ aliases: [Insilico]
 ---
 #actor #biotech #ai #drugdiscovery #hongkong #public
 
-**Insilico Medicine** — First AI drug to Phase 2. Rentosertib proof-of-concept. HK IPO (Dec 2025). Sanofi $1.2B deal.
+**Insilico Medicine** — First AI drug to Phase 2. Rentosertib proof-of-concept. HK IPO (Dec 2025). [[Sanofi]] $1.2B deal.
 
 ---
 
@@ -12,9 +12,9 @@ aliases: [Insilico]
 | Metric | Value |
 |--------|-------|
 | IPO | **HKD 2.28B** (Dec 2025) |
-| Exchange | HKEX (largest biotech IPO 2025) |
+| Exchange | [[HKEX]] (largest biotech IPO 2025) |
 | Milestone | **First AI drug Phase 2 success** |
-| Sanofi deal | $1.2B potential |
+| [[Sanofi]] deal | $1.2B potential |
 
 ---
 
@@ -22,7 +22,7 @@ aliases: [Insilico]
 
 | Metric | Value |
 |--------|-------|
-| Target | TNIK inhibitor |
+| [[Target]] | TNIK inhibitor |
 | Indication | Idiopathic pulmonary fibrosis (IPF) |
 | Discovery | Fully AI-generated |
 | Phase 2a result | **Met primary endpoint** |
@@ -38,11 +38,11 @@ aliases: [Insilico]
 
 | Module | Function |
 |--------|----------|
-| PandaOmics | Target discovery |
+| PandaOmics | [[Target]] discovery |
 | Chemistry42 | Generative molecule design |
 | inClinico | Clinical trial prediction |
 
-**End-to-end:** Target → molecule → clinical candidate in ~18 months.
+**End-to-end:** [[Target]] → molecule → clinical candidate in ~18 months.
 
 ---
 
@@ -50,9 +50,9 @@ aliases: [Insilico]
 
 | Partner | Deal | Value |
 |---------|------|-------|
-| **Sanofi** | 6 drug candidates | $1.2B (milestones) |
-| **Fosun Pharma** | Co-development | China rights |
-| **Eli Lilly** | Discovery collaboration | Undisclosed |
+| **[[Sanofi]]** | 6 drug candidates | $1.2B (milestones) |
+| **Fosun Pharma** | Co-development | [[China]] rights |
+| **[[Eli Lilly]]** | Discovery collaboration | Undisclosed |
 
 **Validation:** Blue-chip pharma partnerships confirm platform value.
 
@@ -65,7 +65,7 @@ aliases: [Insilico]
 | **Rentosertib** | IPF | Phase 2b planned |
 | ISM3091 | IBD | Phase 1 |
 | ISM5939 | Oncology | Preclinical |
-| Sanofi programs | Immunology/oncology | Discovery |
+| [[Sanofi]] programs | Immunology/oncology | Discovery |
 
 ---
 
@@ -76,7 +76,7 @@ aliases: [Insilico]
 | Date | Dec 30, 2025 |
 | Raised | HKD 2.28B (~$290M) |
 | Listing rule | Chapter 8.05 |
-| Significance | First AI biotech on HKEX Main Board |
+| Significance | First AI biotech on [[HKEX]] Main Board |
 
 ---
 
@@ -93,17 +93,17 @@ aliases: [Insilico]
 
 **Bull:**
 - First AI drug Phase 2 success
-- Sanofi $1.2B validation
+- [[Sanofi]] $1.2B validation
 - Pharma.AI platform proven
 - IPO provides capital
-- China + global strategy
+- [[China]] + global strategy
 
 **Bear:**
 - Still no approved drug
 - Path to profitability unclear
 - Competition intensifying
 - Regulatory uncertainty
-- China geopolitical risk
+- [[China]] geopolitical risk
 
 ---
 
@@ -111,7 +111,7 @@ aliases: [Insilico]
 
 | Metric | Value |
 |--------|-------|
-| Exchange | HKEX |
+| Exchange | [[HKEX]] |
 | IPO | Dec 2025 |
 | Lead drug | Rentosertib |
 | Focus | AI drug discovery |
@@ -131,6 +131,6 @@ aliases: [Insilico]
 
 - [Nature Medicine: Rentosertib trial](https://www.nature.com/articles/s41591-025-03743-2)
 - [Insilico HK IPO](https://www.prnewswire.com/news-releases/insilico-medicine-lists-on-hong-kong-stock-exchange-showing-ai-drug-discovery-momentum-with-2025s-largest-hong-kong-biotech-ipo-302650606.html)
-- [Sanofi deal](https://pharmaphorum.com/news/sanofi-signs-1-2bn-research-alliance-with-ai-specialist-insilico)
+- [[[Sanofi]] deal](https://pharmaphorum.com/news/sanofi-signs-1-2bn-research-alliance-with-ai-specialist-insilico)
 
 *Created 2026-01-09*

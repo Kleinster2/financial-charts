@@ -47,7 +47,7 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 | Brand | Positioning | Share |
 |-------|-------------|-------|
 | **Zara** | Core fast fashion, some premium | ~70% |
-| **Zara Home** | Home furnishings | Growing |
+| **Zara [[Home]]** | [[Home]] furnishings | Growing |
 | **Massimo Dutti** | Premium/smart casual | ~8% |
 | **Pull&Bear** | Young/streetwear | ~6% |
 | **Bershka** | Young/trend | ~7% |
@@ -79,7 +79,7 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 | Extraordinary capex | €900M/year (2024-2025) |
 | Focus | Automated distribution centers |
 | Regular capex | €1.8B (FY25) |
-| Space growth target | ~5% annually |
+| [[Space]] growth target | ~5% annually |
 | Online fulfillment | Integrated with stores |
 
 ---
@@ -91,7 +91,7 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 | Revenue | €38.6B | ~$30B GMV | €24B |
 | Gross margin | 57.8% | Lower | ~50% |
 | Model | Speed + quality | Ultra-price + AI | Speed + volume |
-| Production | Near-shore (Europe) | China | Offshore (Asia) |
+| Production | Near-shore ([[Europe]]) | [[China]] | Offshore ([[Asia]]) |
 | Stores | 5,563 | None (DTC online) | 4,000+ |
 | Customer | 25-45 | Gen Z, price-sensitive | Mass market |
 
@@ -106,7 +106,7 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 | **FX headwinds** | -4% from weak USD/EM currencies |
 | **Slowdown** | H1 2025 at +5% CC vs double-digit prior |
 | **Feb-Mar 2025 start** | Only +4% (vs analyst expectations of +7-8%) |
-| **Tariff risk** | Limited (mostly Europe-sourced), but indirect impact |
+| **Tariff risk** | Limited (mostly [[Europe]]-sourced), but indirect impact |
 | **Succession** | Ortega (88) — daughter Marta Ortega chairs, but execution? |
 
 ---
@@ -125,7 +125,7 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 - Valuation premium (~25x earnings)
 - FX headwinds persistent
 - Shein disruption at low end
-- Consumer spending uncertain (Europe main market)
+- Consumer spending uncertain ([[Europe]] main market)
 
 ---
 

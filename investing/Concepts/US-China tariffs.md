@@ -26,7 +26,7 @@ Part of [[US-China trade]] umbrella.
 | EVs | 100% | 2024 |
 | EV batteries | 25% | 2024 |
 | Solar cells/modules | 50% | 2024 |
-| Semiconductors | 50% | Existing |
+| [[Semiconductors]] | 50% | Existing |
 | Steel/aluminum | 25% | 2018 |
 | Medical gloves | 100% | 2026 |
 | Syringes/needles | 100% | 2025 |
@@ -36,7 +36,7 @@ Part of [[US-China trade]] umbrella.
 
 ---
 
-## Trade war timeline
+## [[Trade]] war timeline
 
 | Year | Event |
 |------|-------|
@@ -83,7 +83,7 @@ See [[Iran]] for full context.
 | Kalshi odds | 28% tariffs survive as-is |
 | Revenue at stake | $195B (FY2025) + $62B (FY2026 to date) |
 
-**Bessent response:** Administration has backup authority via 1962 Trade Act. "What is not in doubt is our ability to continue collecting tariffs at roughly the same level."
+**Bessent response:** Administration has backup authority via 1962 [[Trade]] Act. "What is not in doubt is our ability to continue collecting tariffs at roughly the same level."
 
 **If struck down:** Could jeopardize ~1/3 of proposed military budget.
 
@@ -93,10 +93,10 @@ See [[Iran]] for full context.
 
 China committed to purchase $200B above 2017 baseline over 2 years:
 
-| Category | Target | Actual |
+| Category | [[Target]] | Actual |
 |----------|--------|--------|
 | Manufacturing | $77.7B | ~60% |
-| Agriculture | $32B | ~80% |
+| [[Agriculture]] | $32B | ~80% |
 | Energy | $52.4B | ~40% |
 | Services | $37.9B | ~50% |
 
@@ -129,7 +129,7 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 1. **"On the water exemption"** — shipment lags mean months pass before new tariffs apply
 2. **Product/company exemptions** — specific breaks for certain goods/firms
 3. **Investment incentives** — favorable treatment for US manufacturing commitments
-4. **USMCA** — Canada/Mexico trade largely unaffected
+4. **[[USMCA]]** — [[Canada]]/[[Mexico]] trade largely unaffected
 
 **Gopinath quote:** "The peak of the storm may have passed, but as Dorothy observed in The Wizard of Oz, 'we're not in Kansas anymore.'"
 
@@ -137,7 +137,7 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 
 ---
 
-## Trade flow impact
+## [[Trade]] flow impact
 
 | Metric | 2017 (pre-war) | 2025 |
 |--------|----------------|------|
@@ -145,7 +145,7 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 | US exports to China | $130B | ~$145B |
 | Deficit | $375B | ~$282B |
 
-**Shift:** Some manufacturing moved to Vietnam, Mexico, India — but often Chinese-owned or Chinese-supplied.
+**Shift:** Some manufacturing moved to Vietnam, [[Mexico]], [[India]] — but often Chinese-owned or Chinese-supplied.
 
 ---
 
@@ -153,7 +153,7 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 
 **Winners from tariffs:**
 - US domestic manufacturers (protection)
-- Mexico/Vietnam/SEA (supply chain shift)
+- [[Mexico]]/Vietnam/SEA (supply chain shift)
 - Tariff revenue plays (if sustained)
 
 **SEA resilience (Jan 2026):**
@@ -174,8 +174,8 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 
 | Actor | Role |
 |-------|------|
-| **USTR** | Trade policy, Section 301 |
-| **Commerce (BIS)** | Export controls |
+| **USTR** | [[Trade]] policy, Section 301 |
+| **Commerce ([[BIS]])** | Export controls |
 | **Treasury (Bessent)** | Revenue, deal negotiation |
 | **Supreme Court** | Constitutional challenge |
 | [[China]] | Counterparty |
@@ -185,7 +185,7 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 ## Related
 
 - [[US-China relations]] — hub note
-- [[US-China commodity leverage]] — Venezuela oil angle
+- [[US-China commodity leverage]] — [[Venezuela]] oil angle
 - [[China retaliatory toolkit]] — countermeasures
 - [[Export controls]] — tech restrictions
 - [[China]] — country actor
@@ -195,10 +195,10 @@ China committed to purchase $200B above 2017 baseline over 2 years:
 ## Sources
 
 - [China Briefing - Tariff Rates](https://www.china-briefing.com/news/us-china-tariff-rates-2025/)
-- [White House - Trade Deal Fact Sheet](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/)
+- [White House - [[Trade]] Deal Fact Sheet](https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/)
 - [CNBC - Supreme Court Stakes](https://www.cnbc.com/2026/01/08/the-supreme-court-may-rule-friday-on-trumps-tariffs-heres-whats-at-stake-for-the-economy.html)
 - [Fortune - Military Budget Impact](https://fortune.com/2026/01/08/us-supreme-court-ruling-trump-tariffs-military-budget/)
-- Bloomberg Opinion: What Humming Export Machines Mean for the Trade War (Daniel Moss, Jan 11, 2026)
+- Bloomberg Opinion: What Humming Export Machines Mean for the [[Trade]] War (Daniel Moss, Jan 11, 2026)
 - Gopinath & Neiman: Tariff rates paper (Dec 2025)
 
 ---

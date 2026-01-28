@@ -1,6 +1,6 @@
 #concept #memory #risk
 
-**Memory shortage victims** — Companies squeezed by AI-driven memory reallocation. HBM for AI = less DRAM/NAND for consumers.
+**Memory shortage victims** — Companies squeezed by AI-driven memory reallocation. [[HBM]] for AI = less DRAM/NAND for consumers.
 
 ---
 
@@ -12,13 +12,13 @@ Memory fab capacity (fixed)
         ↓
    Allocation choice
     ↙          ↘
-HBM for AI    Consumer DRAM/NAND
+[[HBM]] for AI    [[Consumer]] DRAM/NAND
 (high margin)  (constrained supply)
     ↓              ↓
 SK Hynix wins   Nintendo loses
 ```
 
-**Root cause:** [[SK Hynix]], [[Samsung]], [[Micron]] shifting production to HBM and high-capacity DDR5 for AI data centers. Consumer memory deprioritized.
+**Root cause:** [[SK Hynix]], [[Samsung]], [[Micron]] shifting production to [[HBM]] and high-capacity DDR5 for AI data centers. [[Consumer]] memory deprioritized.
 
 ---
 
@@ -28,7 +28,7 @@ SK Hynix wins   Nintendo loses
 |-------------|----------------|
 | DRAM (consumer) | +41% |
 | NAND flash | +8% |
-| HBM | Sold out, premium pricing |
+| [[HBM]] | Sold out, premium pricing |
 
 Memory costs now 21-35% of device BOM for many products.
 
@@ -39,11 +39,11 @@ Memory costs now 21-35% of device BOM for many products.
 ### Game consoles
 | Company | Impact |
 |---------|--------|
-| [[Nintendo]] | Switch 2 RAM +41%, $14B market cap loss |
+| [[Nintendo]] | [[Switch]] 2 RAM +41%, $14B market cap loss |
 | [[Sony]] | Delaying next-gen past 2028? |
-| Microsoft | Same delay considerations |
+| [[Microsoft]] | Same delay considerations |
 
-TrendForce: Console shipments -4.4% YoY forecast for 2026.
+[[TrendForce]]: Console shipments -4.4% YoY forecast for 2026.
 
 ### PC OEMs
 | Company | Impact |
@@ -56,7 +56,7 @@ TrendForce: Console shipments -4.4% YoY forecast for 2026.
 | Company | Impact |
 |---------|--------|
 | [[Xiaomi]] | +25% DRAM cost per phone (2026) |
-| Oppo/Vivo | Optimizing specs to stretch supply |
+| [[Oppo]]/[[Vivo]] | Optimizing specs to stretch supply |
 
 ### Memory module vendors
 | Company | Impact |
@@ -77,7 +77,7 @@ TrendForce: Console shipments -4.4% YoY forecast for 2026.
 | 2027 | Gradual easing possible |
 | 2028 | Potential relief |
 
-No near-term fix — HBM demand only growing.
+No near-term fix — [[HBM]] demand only growing.
 
 ---
 
@@ -100,10 +100,10 @@ The AI boom has second-order effects. Memory makers win, but their traditional c
 ## Related
 
 - [[Memory shortage 2025-2026]] — cause (supply side of shortage)
-- [[SK Hynix]] — winner (shifting to HBM, deprioritizing consumer)
+- [[SK Hynix]] — winner (shifting to [[HBM]], deprioritizing consumer)
 - [[Samsung]] — winner (same dynamic)
 - [[Micron]] — winner (same dynamic)
-- [[Nintendo]] — victim (Switch 2 RAM +41%)
+- [[Nintendo]] — victim ([[Switch]] 2 RAM +41%)
 - [[Sony]] — victim (delaying next-gen)
 - [[Dell]] — victim ("never seen costs escalate this fast")
 - [[Lenovo]] — victim (hoarding, 50% above normal inventory)

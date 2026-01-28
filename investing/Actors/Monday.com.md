@@ -3,7 +3,7 @@ aliases: [Monday, MNDY]
 ---
 #actor #company #saas #productivity #israel #public
 
-**Monday.com** — Work operating system. Nasdaq: MNDY. Project management + CRM. Founded 2012.
+**Monday.com** — Work operating system. [[Nasdaq]]: MNDY. Project management + CRM. Founded 2012.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Monday, MNDY]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | MNDY (Nasdaq) |
+| Ticker | MNDY ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Revenue | ~$1B |
 | Customers | 225K+ |
@@ -53,7 +53,7 @@ Platform expanding beyond project management.
 | [[Atlassian]] | Jira, Confluence |
 | Asana | Project management |
 | Smartsheet | Enterprise sheets |
-| Notion | Docs + projects |
+| [[Notion]] | Docs + projects |
 | ClickUp | All-in-one |
 
 Crowded market, Monday differentiated by UX.
@@ -102,7 +102,7 @@ Crowded market, Monday differentiated by UX.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | MNDY (Nasdaq) |
+| Ticker | MNDY ([[Nasdaq]]) |
 | Market cap | ~$15B |
 | Revenue | ~$1B |
 | HQ | Tel Aviv |

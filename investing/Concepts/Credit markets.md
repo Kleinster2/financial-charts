@@ -34,8 +34,8 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 | Region | Volume | Notes |
 |--------|--------|-------|
 | **US high-grade** | $88B/week | Largest non-Covid week ever |
-| **Europe** | €57B/day | Record single day (Jan 8) |
-| **Asia Pacific** | $22B/week | Busiest start in years |
+| **[[Europe]]** | €57B/day | Record single day (Jan 8) |
+| **[[Asia]] Pacific** | $22B/week | Busiest start in years |
 
 **Drivers:**
 - Lock in funding before earnings blackout
@@ -53,7 +53,7 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 ---
 
-## Market structure
+## [[Market structure]]
 
 | Segment | Issuers | Dynamics |
 |---------|---------|----------|
@@ -98,7 +98,7 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 **Mike Contopoulos** ([[Richard Bernstein Advisors]], deputy CIO):
 
-**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's SPACs, it's IG credit, it's high-yield credit."**
+**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's [[SPACs]], it's IG credit, it's high-yield credit."**
 
 | Driver | Details |
 |--------|---------|
@@ -137,13 +137,13 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 ---
 
-## AI infrastructure financing
+## [[AI infrastructure financing]]
 
 Anticipated wave of bond issuance for:
 - Data center construction
 - GPU/chip procurement
 - Power infrastructure
-- Hyperscaler capex
+- [[Hyperscaler capex]]
 
 See [[AI Infrastructure]], [[Data Centers]], [[Power constraints]]
 
@@ -151,7 +151,7 @@ See [[AI Infrastructure]], [[Data Centers]], [[Power constraints]]
 
 ## Why this matters for equities
 
-| Signal | Implication |
+| [[Signal]] | Implication |
 |--------|-------------|
 | Tight spreads | Risk-on, supports equity multiples |
 | Heavy issuance | Companies locking in capex funding |

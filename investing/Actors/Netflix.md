@@ -38,13 +38,13 @@ Largest pure-play streaming company globally.
 **What Netflix gets:**
 - **HBO/HBO Max** — prestige content brand, subscriber base
 - **Warner Bros studio** — theatrical + TV production
-- **Sports rights** — NBA, MLB, NHL (through TNT Sports)
+- **[[Sports rights]]** — NBA, MLB, NHL (through TNT Sports)
 - **Content library** — DC, Harry Potter, Game of Thrones, Friends, etc.
 - **CNN** — news assets (may divest)
 
 **Strategic rationale:**
 - Consolidation play as streaming wars mature
-- Sports rights bundle (live content moat)
+- [[Sports rights]] bundle (live content moat)
 - HBO prestige brand + Netflix scale
 - Cost synergies in content/tech
 
@@ -88,9 +88,9 @@ Largest pure-play streaming company globally.
 
 | Region | Subscribers | ARPU |
 |--------|-------------|------|
-| US/Canada | 80M+ | $17+ |
+| US/[[Canada]] | 80M+ | $17+ |
 | EMEA | 90M+ | $12 |
-| LATAM | 45M+ | $8 |
+| [[LATAM]] | 45M+ | $8 |
 | APAC | 50M+ | $7 |
 
 ---

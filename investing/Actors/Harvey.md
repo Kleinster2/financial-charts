@@ -92,7 +92,7 @@ OpenAI investment = strategic signal.
 
 **Legal + AI expertise:**
 - Winston Weinberg (CEO) — ex-O'Melveny & Myers
-- Gabe Pereyra — ex-Google DeepMind
+- Gabe Pereyra — ex-[[Google DeepMind]]
 
 Founded 2022 — quick to market.
 
@@ -114,7 +114,7 @@ Founded 2022 — quick to market.
 
 | Competitor | Approach | Harvey vs |
 |------------|----------|-----------|
-| Casetext (Thomson Reuters) | Acquired | Independent |
+| Casetext ([[Thomson Reuters]]) | Acquired | Independent |
 | Kira (Litera) | Document analysis | Broader platform |
 | Luminance | Contract AI | Full workflow |
 

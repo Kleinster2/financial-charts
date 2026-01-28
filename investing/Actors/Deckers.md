@@ -57,8 +57,8 @@ aliases: [DECK, Deckers Outdoor, Deckers Brands, Hoka]
 | Revenue | ~$2.4B (FY25) |
 | Growth | +24% |
 | Category | Performance running → lifestyle crossover |
-| Innovation | Meta-Rocker, max cushion geometry |
-| Competition | [[Nike]], [[On Running]], Brooks, New Balance |
+| Innovation | [[Meta]]-Rocker, max cushion geometry |
+| Competition | [[Nike]], [[On Running]], Brooks, [[New Balance]] |
 | Risk | Running shoe cycle — can momentum sustain? |
 
 Hoka created the "max cushion" category and crossed over from serious runners to lifestyle consumers. Similar trajectory to On Running but larger and earlier in the curve.

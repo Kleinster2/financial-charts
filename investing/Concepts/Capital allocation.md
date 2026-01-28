@@ -54,7 +54,7 @@
 
 ## M&A track record
 
-| Signal | Quality |
+| [[Signal]] | Quality |
 |--------|---------|
 | Small, bolt-on | Usually value-creating |
 | Large, transformational | Usually value-destroying |
@@ -78,7 +78,7 @@
 
 ## Red flags
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | Buybacks at highs | Poor timing |
 | Debt-funded dividends | Unsustainable |

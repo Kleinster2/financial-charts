@@ -37,7 +37,7 @@ aliases: [FTI, Technip]
 - Umbilicals
 - Full-field development
 
-Primary customers: Offshore E&P majors (Petrobras, Shell, BP, Equinor).
+Primary customers: Offshore E&P majors (Petrobras, [[Shell]], [[BP]], Equinor).
 
 ---
 
@@ -54,15 +54,15 @@ Backlog provides multi-year revenue visibility.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Limited near-term:**
 
-- Venezuela is mostly onshore/shallow
+- [[Venezuela]] is mostly onshore/shallow
 - TechnipFMC is offshore-focused
-- Less direct Venezuela exposure than land-focused peers
+- Less direct [[Venezuela]] exposure than land-focused peers
 
-**Longer-term:** If offshore Venezuela develops (Orinoco offshore).
+**Longer-term:** If offshore [[Venezuela]] develops (Orinoco offshore).
 
 ---
 
@@ -72,7 +72,7 @@ Backlog provides multi-year revenue visibility.
 - Subsea backlog growing
 - Deepwater cycle recovery
 - iEPCI margin expansion
-- Brazil, Guyana, West Africa
+- [[Brazil]], [[Guyana]], West [[Africa]]
 - Energy security driving offshore
 
 **Bear:**

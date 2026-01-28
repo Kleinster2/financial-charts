@@ -1,13 +1,13 @@
 ---
-aliases: [G42, Group 42]
+aliases: [[[G42]], Group 42]
 ---
 #actor #sovereign #ai #uae #private
 
-**G42 (Group 42)** — UAE's AI champion. Microsoft $1.5B investment. Cerebras partnership.
+**[[G42]] (Group 42)** — UAE's AI champion. Microsoft $1.5B investment. Cerebras partnership.
 
 ---
 
-## Why G42 matters
+## Why [[G42]] matters
 
 Most advanced sovereign AI:
 
@@ -27,9 +27,9 @@ Most advanced sovereign AI:
 - Azure partnership
 - AI development
 - US security approvals
-- Cut China ties (Huawei)
+- Cut [[China]] ties ([[Huawei]])
 
-US alignment over China.
+US alignment over [[China]].
 
 ---
 
@@ -61,7 +61,7 @@ Sovereign AI capability.
 |---------|-------|
 | Falcon LLM | Foundation models |
 | Condor Galaxy | AI supercomputer |
-| Healthcare AI | Diagnostics |
+| [[Healthcare]] AI | Diagnostics |
 | Climate AI | Sustainability |
 
 ---
@@ -70,7 +70,7 @@ Sovereign AI capability.
 
 **Sheikh Tahnoun:**
 - National Security Advisor
-- G42 Chairman
+- [[G42]] Chairman
 - Royal family
 - Tech visionary
 
@@ -78,34 +78,34 @@ Government-backed at highest level.
 
 ---
 
-## China divestment
+## [[China]] divestment
 
 **2024 pivot:**
-- Sold Huawei interests
-- Cut China AI ties
+- Sold [[Huawei]] interests
+- Cut [[China]] AI ties
 - US security clearance
 - Microsoft prerequisite
 
-Chose US over China.
+Chose US over [[China]].
 
 ---
 
 ## vs Saudi
 
-| Metric | G42 | [[Saudi PIF]] |
+| Metric | [[G42]] | [[Saudi PIF]] |
 |--------|-----|---------------|
 | Focus | AI-first | Broad |
 | Execution | More advanced | Earlier stage |
 | Capital | Smaller | $930B |
 | Models | Falcon LLM | None yet |
 
-G42 = more operational.
+[[G42]] = more operational.
 
 ---
 
 ## Investment implications
 
-**G42 signals:**
+**[[G42]] signals:**
 - Sovereign AI race real
 - Middle East = AI hub
 - US alignment matters
@@ -126,9 +126,9 @@ G42 = more operational.
 |----------|-------|
 | [[Microsoft]] | $1.5B (2024), Azure partnership |
 | UAE sovereign funds | Backing via Abu Dhabi |
-| Silver Lake | Co-investor with Microsoft |
+| [[Silver Lake]] | Co-investor with Microsoft |
 
-**Backing:** G42 is UAE sovereign-backed. Chairman Tahnoun bin Zayed = National Security Advisor and Royal family.
+**Backing:** [[G42]] is UAE sovereign-backed. Chairman Tahnoun bin Zayed = National Security Advisor and Royal family.
 
 ---
 
@@ -147,8 +147,8 @@ G42 = more operational.
 
 ## Related
 
-- [[Saudi PIF]] — competitor (GCC AI race)
+- [[Saudi PIF]] — competitor ([[GCC]] AI race)
 - [[Microsoft]] — investor ($1.5B, Azure partnership)
 - [[Cerebras]] — partner (Condor Galaxy cluster)
-- [[Sovereign AI race]] — context (leading in GCC)
+- [[Sovereign AI race]] — context (leading in [[GCC]])
 

@@ -3,7 +3,7 @@ aliases: [EXPE, Expedia Group]
 ---
 #actor #company #travel #ota #usa #public
 
-**Expedia** — OTA conglomerate. Nasdaq: EXPE. Expedia, Hotels.com, Vrbo. Founded 1996.
+**Expedia** — OTA conglomerate. [[Nasdaq]]: EXPE. Expedia, Hotels.com, Vrbo. Founded 1996.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [EXPE, Expedia Group]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EXPE (Nasdaq) |
+| Ticker | EXPE ([[Nasdaq]]) |
 | Market cap | ~$20B |
 | Gross bookings | $120B+ |
 | Revenue | ~$13B |
@@ -31,7 +31,7 @@ aliases: [EXPE, Expedia Group]
 | **Orbitz** | Flights, packages |
 | **Travelocity** | OTA legacy brand |
 | **Hotwire** | Discount travel |
-| **trivago** | Meta-search |
+| **trivago** | [[Meta]]-search |
 
 ---
 
@@ -92,7 +92,7 @@ New CEO Peter Kern driving changes.
 **Bear:**
 - Booking dominance
 - Airbnb competition
-- Google threat
+- [[Google]] threat
 - Execution history
 
 ---
@@ -101,7 +101,7 @@ New CEO Peter Kern driving changes.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EXPE (Nasdaq) |
+| Ticker | EXPE ([[Nasdaq]]) |
 | Market cap | ~$20B |
 | Gross bookings | $120B+ |
 | Brands | Expedia, Hotels.com, Vrbo |

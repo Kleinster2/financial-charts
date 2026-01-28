@@ -67,7 +67,7 @@ This creates a [[Payment waterfall]] within a single lien class.
 
 ---
 
-## Case study: Saks Global
+## Case study: [[Saks Global]]
 
 [[Saks bankruptcy]] shows multiple lien levels:
 
@@ -78,7 +78,7 @@ This creates a [[Payment waterfall]] within a single lien class.
 | **First Lien 2O** | Second Out Notes | $1.4B | All assets (junior to 1O) |
 | **First Lien 3O** | Third Out Notes | $441M | All assets (junior to 2O) |
 | **Unsecured** | Old notes, vendors | ~$500M+ | None |
-| **Equity** | Amazon, Salesforce | $475M+ | None |
+| **Equity** | [[Amazon]], [[Salesforce]] | $475M+ | None |
 
 The [[611 Fifth Avenue]] flagship was specifically carved out — pledged for [[DIP financing]], priming existing liens.
 

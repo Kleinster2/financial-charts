@@ -26,7 +26,7 @@ aliases: [Fed, FOMC, Federal Reserve System]
 |-----------|------|
 | **Board of Governors** | 7 members, 14-year terms, DC-based |
 | **FOMC** | Sets monetary policy (12 voting members) |
-| **Regional Banks** | 12 districts, implement policy |
+| **Regional [[Banks]]** | 12 districts, implement policy |
 
 **FOMC composition:**
 - 7 Board governors (permanent voters)
@@ -74,11 +74,11 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 | Candidate | Odds | Background | Concern |
 |-----------|------|------------|---------|
-| [[Kevin Warsh]] | **60%** | Former Fed Governor, Morgan Stanley | 15 years away |
+| [[Kevin Warsh]] | **60%** | Former Fed Governor, [[Morgan Stanley]] | 15 years away |
 | [[Kevin Hassett]] | **16%** | NEC Director, daily Trump contact | Independence |
-| Michelle Bowman | — | Current Fed Governor | — |
-| Chris Waller | — | Current Fed Governor | — |
-| Rick Rieder | — | BlackRock CIO Fixed Income | Interviewed Jan 15 |
+| [[Michelle Bowman]] | — | Current Fed Governor | — |
+| [[Chris Waller]] | — | Current Fed Governor | — |
+| [[Rick Rieder]] | — | [[BlackRock]] CIO Fixed Income | Interviewed Jan 15 |
 
 ### Odds history
 
@@ -121,7 +121,7 @@ See [[Fed independence]] for full concept analysis.
 | Pre-COVID | ~$4T | Normal |
 | COVID peak | ~$9T | QE (asset purchases) |
 | Current | ~$7T | QT (runoff) |
-| Target | ~$6T? | Uncertain endpoint |
+| [[Target]] | ~$6T? | Uncertain endpoint |
 
 **QT pace:** ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 
@@ -148,7 +148,7 @@ See [[Fed independence]] for full concept analysis.
 | Janet Yellen | 2014-2018 | Normalization began |
 | Ben Bernanke | 2006-2014 | GFC, QE invention |
 | Alan Greenspan | 1987-2006 | "Maestro," bubbles |
-| Paul Volcker | 1979-1987 | Inflation slayer |
+| Paul Volcker | 1979-1987 | [[Inflation]] slayer |
 
 ---
 

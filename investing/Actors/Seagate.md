@@ -27,7 +27,7 @@ HDDs are the "cold storage" layer of AI infrastructure:
 |---------|----------|-------|
 | **Nearline** | High-capacity datacenter HDDs | Growing (AI data) |
 | **Enterprise** | Mission-critical storage | Stable |
-| **Consumer** | External drives, gaming | Declining |
+| **[[Consumer]]** | External drives, gaming | Declining |
 
 **Nearline is the story** — 20TB+ drives for hyperscaler cold storage.
 
@@ -90,17 +90,17 @@ Seagate bet on HAMR technology for capacity scaling.
 
 **Bull:**
 - AI data explosion drives nearline demand
-- Hyperscaler capex growing
+- [[Hyperscaler capex]] growing
 - HDD cost advantage vs SSD persists
 - HAMR technology leadership
 - Dividend yield (~3%)
 
 **Bear:**
 - SSD prices falling, closing gap
-- Consumer HDD declining
+- [[Consumer]] HDD declining
 - Cyclical demand
 - HAMR execution risk
-- China exposure
+- [[China]] exposure
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [Neural Processing Unit, NPUs, inference chip, inference chips, inferen
 ---
 #concept #ai #chips #hardware
 
-**NPU (Neural Processing Unit)** — Purpose-built chips optimized for AI inference. Trade generality for efficiency: 2-4x better performance per watt than GPUs by minimizing data movement.
+**NPU (Neural Processing Unit)** — Purpose-built chips optimized for AI inference. [[Trade]] generality for efficiency: 2-4x better performance per watt than GPUs by minimizing data movement.
 
 ---
 
@@ -40,7 +40,7 @@ data flows through compute units → gets reused at each stage → minimal memor
 | Technique | How it helps |
 |-----------|--------------|
 | **Systolic arrays** | Data pulses through compute units, reused at each step |
-| **Large on-chip SRAM** | Keep weights/activations local, avoid HBM trips |
+| **Large on-chip SRAM** | Keep weights/activations local, avoid [[HBM]] trips |
 | **Tensor reorganization** | Hardware adapts to data patterns, not vice versa |
 | **Lower clock speeds** | Power scales with frequency — trade speed for efficiency |
 | **Specialized datapaths** | Fixed-function units for multiply-accumulate (MAC) |
@@ -68,7 +68,7 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 | CUDA dependency | Essential (ecosystem) | Weaker (less framework-dependent) |
 | Power sensitivity | Lower (one-time cost) | High (ongoing cost) |
 
-**Implication:** CUDA moat is strongest in training. Inference is contestable — efficiency wins.
+**Implication:** [[CUDA moat]] is strongest in training. Inference is contestable — efficiency wins.
 
 ---
 
@@ -79,20 +79,20 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 | Company | Chip | Approach | Status |
 |---------|------|----------|--------|
 | [[FuriosaAI]] | RNGD | Tensor contraction processor, 150W | Mass production Jan 2026 |
-| [[Groq]] | LPU | SRAM-based, deterministic | **Acquired by NVIDIA** (Dec 2025) |
+| [[Groq]] | LPU | SRAM-based, deterministic | **Acquired by [[NVIDIA]]** (Dec 2025) |
 | Amazon | Inferentia 2 | AWS internal + cloud | Production |
 | Google | TPU | Training + inference | Production (internal) |
 
-### Consumer NPUs
+### [[Consumer]] NPUs
 
 | Company | Implementation | Use cases |
 |---------|----------------|-----------|
-| Apple | Neural Engine (in SoC) | Face ID, photos, Siri |
-| Qualcomm | Hexagon NPU | On-device AI, always-on |
-| Intel | NPU (in Core Ultra) | Windows AI features |
-| AMD | XDNA (Ryzen AI) | Laptop AI acceleration |
+| [[Apple]] | Neural Engine (in SoC) | Face ID, photos, Siri |
+| [[Qualcomm]] | Hexagon NPU | On-device AI, always-on |
+| [[Intel]] | NPU (in Core Ultra) | Windows AI features |
+| [[AMD]] | XDNA (Ryzen AI) | Laptop AI acceleration |
 
-**Consumer vs datacenter:** Consumer NPUs are small, low-power, integrated into SoC. Datacenter NPUs are standalone accelerators competing with GPUs.
+**[[Consumer]] vs datacenter:** [[Consumer]] NPUs are small, low-power, integrated into SoC. Datacenter NPUs are standalone accelerators competing with GPUs.
 
 ### Hyperscaler custom silicon
 
@@ -109,8 +109,8 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 
 | Chip | TDP | Relative efficiency |
 |------|-----|---------------------|
-| NVIDIA H100 | 350W | Baseline |
-| NVIDIA H100 PCIe | 350W | Baseline |
+| [[NVIDIA]] H100 | 350W | Baseline |
+| [[NVIDIA]] H100 PCIe | 350W | Baseline |
 | FuriosaAI RNGD | **150W** | ~2-3x better perf/watt |
 | Groq LPU | ~200W | ~2x better perf/watt |
 | Amazon Inferentia 2 | ~175W | ~2x better perf/watt |
@@ -121,9 +121,9 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 
 ## The software challenge
 
-**Why NVIDIA wins despite efficiency disadvantage:**
+**Why [[NVIDIA]] wins despite efficiency disadvantage:**
 
-| Factor | NVIDIA advantage |
+| Factor | [[NVIDIA]] advantage |
 |--------|------------------|
 | CUDA | 15+ years of libraries, optimization |
 | Frameworks | PyTorch, TensorFlow deeply integrated |
@@ -132,7 +132,7 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 | Ecosystem | Everything "just works" |
 
 **How NPUs compete:**
-- Target inference only (less CUDA-dependent)
+- [[Target]] inference only (less CUDA-dependent)
 - Offer massive cost savings (CFO > CTO)
 - Open-source software stacks
 - Focus on specific workloads (LLMs, vision)
@@ -145,18 +145,18 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 **Bull case for NPUs:**
 - [[Power constraints]] make efficiency existential
 - Inference market growing faster than training
-- NVIDIA can't supply everyone
+- [[NVIDIA]] can't supply everyone
 - Hyperscalers want supplier diversity
 - Edge AI needs efficiency
 
 **Bear case:**
 - CUDA ecosystem moat is real
-- NVIDIA keeps improving efficiency (Blackwell, Rubin)
+- [[NVIDIA]] keeps improving efficiency (Blackwell, Rubin)
 - Most NPU startups unprofitable
-- [[Groq]] absorbed by NVIDIA — consolidation pattern
+- [[Groq]] absorbed by [[NVIDIA]] — consolidation pattern
 - Switching costs remain high
 
-**The [[Groq]] lesson:** NVIDIA's $20B acquisition (Dec 2025) shows they take inference competition seriously. They'd rather absorb threats than compete.
+**The [[Groq]] lesson:** [[NVIDIA]]'s $20B acquisition (Dec 2025) shows they take inference competition seriously. They'd rather absorb threats than compete.
 
 ---
 
@@ -167,7 +167,7 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 | **MAC** | Multiply-accumulate: y = a*b + c. Core AI operation. |
 | **Systolic array** | Compute grid where data flows rhythmically through PEs |
 | **SRAM** | Fast on-chip memory (expensive, limited capacity) |
-| **HBM** | High-bandwidth memory (slower than SRAM, more capacity) |
+| **[[HBM]]** | High-bandwidth memory (slower than SRAM, more capacity) |
 | **Tensor** | Multi-dimensional array — fundamental AI data structure |
 | **Quantization** | Reducing precision (FP32 → INT8) to save compute/memory |
 | **TDP** | Thermal design power — chip's power consumption target |
@@ -181,7 +181,7 @@ Named after the heart's systolic rhythm. Data flows through a grid of processing
 ## Related
 
 - [[FuriosaAI]] — Korean NPU startup (RNGD chip)
-- [[Groq]] — LPU approach (acquired by NVIDIA)
+- [[Groq]] — LPU approach (acquired by [[NVIDIA]])
 - [[NVIDIA alternatives]] — broader competitive landscape
 - [[Power constraints]] — why efficiency matters
 - [[Inference disaggregation]] — structural trend (prefill vs decode)

@@ -82,10 +82,10 @@ Hyperscalers interested but patient.
 
 | Company | Status |
 |---------|--------|
-| [[Oklo]] | Aurora microreactor |
-| X-energy | Xe-100 design |
-| TerraPower | Bill Gates backed |
-| Kairos | Google partnership |
+| [[Oklo]] | [[Aurora]] microreactor |
+| [[X-energy]] | Xe-100 design |
+| [[TerraPower]] | [[Bill Gates]] backed |
+| Kairos | [[Google]] partnership |
 
 Crowded SMR field.
 
@@ -125,7 +125,7 @@ High risk/reward.
 
 ## Related
 
-- [[Oklo]] — competitor (SMR peer, Aurora microreactor)
+- [[Oklo]] — competitor (SMR peer, [[Aurora]] microreactor)
 - [[Constellation Energy]] — peer (nuclear power operator)
 - [[Vistra]] — peer (power generation)
 - [[Cameco]] — upstream (uranium supplier)

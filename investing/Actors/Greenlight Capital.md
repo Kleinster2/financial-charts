@@ -39,7 +39,7 @@ aliases: [Greenlight, David Einhorn]
 | **Allied Capital** | 2002-08 | Won after long battle |
 | **Green Mountain** | 2011 | Profitable short |
 | **St. Joe** | 2010 | Profitable short |
-| **Tesla** | 2018+ | Lost significantly |
+| **[[Tesla]]** | 2018+ | Lost significantly |
 
 ---
 
@@ -61,7 +61,7 @@ Called it before anyone else.
 | Period | Issue |
 |--------|-------|
 | 2015-2020 | Value underperformed growth |
-| Tesla short | Major losses |
+| [[Tesla]] short | Major losses |
 | AUM | Dropped from $12B to $3B |
 
 Value style out of favor for years.

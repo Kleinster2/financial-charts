@@ -5,7 +5,7 @@ aliases: [Rhone Capital, Rhône]
 
 # Rhône Capital
 
-**Transatlantic private equity firm** — lead investor in [[Saks Global]]. Founded 1996. Specializes in consumer, industrial, and services sectors across North America and Europe.
+**Transatlantic private equity firm** — lead investor in [[Saks Global]]. Founded 1996. Specializes in consumer, industrial, and services sectors across North America and [[Europe]].
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [Rhone Capital, Rhône]
 |--------|-------|
 | Founded | 1996 |
 | HQ | New York / London |
-| Focus | Consumer, industrial, services |
+| Focus | [[Consumer]], industrial, services |
 | AUM | ~$5B |
 | Notable investment | [[Saks Global]] (lead investor) |
 
@@ -28,7 +28,7 @@ Rhône served as **lead investor** in the [[Saks-Neiman merger]] financing (2024
 | Role | Detail |
 |------|--------|
 | Position | Lead equity investor |
-| Co-investors | [[Amazon]] (23%), [[Salesforce]], Insight Partners, others |
+| Co-investors | [[Amazon]] (23%), [[Salesforce]], [[Insight Partners]], others |
 | Outcome | Equity wiped in [[Saks bankruptcy]] (Jan 2026) |
 
 **The thesis:** Consolidate luxury department stores, achieve synergies, monetize real estate. The thesis failed when debt load proved unsustainable.
@@ -39,8 +39,8 @@ Rhône served as **lead investor** in the [[Saks-Neiman merger]] financing (2024
 
 | Characteristic | Detail |
 |----------------|--------|
-| Geography | Transatlantic (US + Europe) |
-| Sectors | Consumer, industrial, services |
+| Geography | Transatlantic (US + [[Europe]]) |
+| Sectors | [[Consumer]], industrial, services |
 | Deal size | Mid-market ($100M-$1B equity) |
 | Approach | Control or significant minority |
 

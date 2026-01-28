@@ -23,11 +23,11 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| **[[SpaceX]]** | Space | **$1.5T** | Musk confirmed "accurate" |
+| **[[SpaceX]]** | [[Space]] | **$1.5T** | Musk confirmed "accurate" |
 | **[[Databricks]]** | Data/AI | $134B | Early 2026 target |
 | **[[Anthropic]]** | AI | $60B+ | Wilson Sonsini engaged |
-| **[[Revolut]]** | Fintech | $75B | UK neobank |
-| **[[Jio Platforms]]** | Telecom | $100B+ | India mega IPO |
+| **[[Revolut]]** | [[Fintech]] | $75B | [[UK]] neobank |
+| **[[Jio Platforms]]** | [[Telecom]] | $100B+ | [[India]] mega IPO |
 
 ---
 
@@ -43,43 +43,43 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 ---
 
-## Fintech
+## [[Fintech]]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
 | [[Revolut]] | Neobank | $75B | 65M customers |
-| [[PicPay]] | Brazil neobank | $2.5B | **3x oversubscribed** (Jan 27) — first Brazil IPO since 2021 |
-| ~~[[Brex]]~~ | ~~Corp cards~~ | ~~$12.3B~~ | **Acquired by Capital One $5.15B** (Jan 22) |
-| Klarna | BNPL | $15B+ | Path to profitability |
-| Stripe | Payments | $50B+ | No confirmed timeline |
+| [[PicPay]] | [[Brazil]] neobank | $2.5B | **3x oversubscribed** (Jan 27) — first [[Brazil]] IPO since 2021 |
+| ~~[[Brex]]~~ | ~~Corp cards~~ | ~~$12.3B~~ | **Acquired by [[Capital One]] $5.15B** (Jan 22) |
+| [[Klarna]] | BNPL | $15B+ | Path to profitability |
+| [[Stripe]] | Payments | $50B+ | No confirmed timeline |
 
 ---
 
-## Space / Defense
+## [[Space]] / [[Defense]]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[SpaceX]] | Launch/Starlink | $1.5T | Largest ever IPO |
-| Anduril | Defense tech | $14B | Palmer Luckey |
-| Axiom Space | Space station | $3B+ | Commercial space |
+| [[SpaceX]] | Launch/[[Starlink]] | $1.5T | Largest ever IPO |
+| [[Anduril]] | [[Defense]] tech | $14B | Palmer Luckey |
+| [[Axiom Space]] | [[Space]] station | $3B+ | Commercial space |
 
 ---
 
-## Mobility / Consumer
+## Mobility / [[Consumer]]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[Lime]] | Micromobility | — | Only profitable operator, Goldman/JPM |
+| [[Lime]] | [[Micromobility]] | — | Only profitable operator, Goldman/JPM |
 | [[Shein]] | Fast fashion | $50B+ | Needs Beijing approval |
-| Fannie Mae | Mortgage | — | Late 2026, ~$31/share |
+| [[Fannie Mae]] | Mortgage | — | Late 2026, ~$31/share |
 
 ---
 
-## Luxury / Fashion
+## [[Luxury]] / [[Fashion]]
 
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
-| [[OTB]] | Luxury holding | ~€2B | "On agenda" if market favorable |
+| [[OTB]] | [[Luxury]] holding | ~€2B | "On agenda" if market favorable |
 
 ---
 
@@ -87,23 +87,23 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 
 | Company | Exchange | Result | Notes |
 |---------|----------|--------|-------|
-| [[Zhipu]] | HK | — | First major China AI IPO |
+| [[Zhipu]] | HK | — | First major [[China]] AI IPO |
 | [[Biren Tech]] | HK | **+76%** | AI chips, $717M raised |
 | [[MiniMax]] | HK | — | AI models |
-| Versant | NYSE | — | Comcast cable spinoff |
-| Fermi | — | **+55%** | Nuclear |
+| [[Versant]] | NYSE | — | [[Comcast]] cable spinoff |
+| [[Fermi]] | — | **+55%** | Nuclear |
 
 ---
 
-## Asia pipeline
+## [[Asia]] pipeline
 
 See [[Asia IPO pipeline 2026]] for detailed coverage:
-- **China AI/Tech:** ChangXin, YMTC, Kunlunxin, Biren, Syngenta
-- **India:** Jio, PhonePe, Flipkart, Zepto, NSE India, SBI Funds
-- **Japan:** PayPay, SmartNews, 7-Eleven N.A. spinoff
+- **[[China]] AI/Tech:** ChangXin, [[YMTC]], [[Kunlunxin]], Biren, Syngenta
+- **[[India]]:** Jio, [[PhonePe]], Flipkart, [[Zepto]], NSE [[India]], SBI Funds
+- **[[Japan]]:** [[PayPay]], [[SmartNews]], 7-Eleven N.A. spinoff
 - **Korea:** Toss ($10-15B US listing)
-- **HK/SEA:** A.S. Watson, GCash, Sunway Healthcare
-- **HK secondary listings:** Zhongji Innolight, Luxshare
+- **HK/SEA:** A.S. Watson, GCash, [[Sunway Healthcare]]
+- **HK secondary listings:** [[Zhongji Innolight]], Luxshare
 
 ---
 
@@ -112,11 +112,11 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 | Theme | Companies |
 |-------|-----------|
 | **AI infrastructure** | Databricks, Cerebras, Anthropic, OpenAI |
-| **Space** | SpaceX (largest ever) |
-| **Fintech maturation** | Revolut, PicPay, Klarna |
-| **China self-reliance** | Biren, Kunlunxin, ChangXin, YMTC |
-| **India digitization** | Jio, PhonePe |
-| **LatAm reopening** | PicPay (first Brazil IPO since Nubank 2021) |
+| **[[Space]]** | SpaceX (largest ever) |
+| **[[Fintech]] maturation** | Revolut, PicPay, [[Klarna]] |
+| **[[China]] self-reliance** | Biren, [[Kunlunxin]], ChangXin, [[YMTC]] |
+| **[[India]] digitization** | Jio, [[PhonePe]] |
+| **LatAm reopening** | PicPay (first [[Brazil]] IPO since [[Nubank]] 2021) |
 
 ---
 
@@ -124,30 +124,30 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 
 | Risk | Impact |
 |------|--------|
-| **AI bubble pop** | Deutsche Bank poll: greatest market risk |
+| **AI bubble pop** | [[Deutsche Bank]] poll: greatest market risk |
 | **Rate environment** | Higher rates = lower valuations |
-| **Geopolitics** | China IPOs face scrutiny |
+| **Geopolitics** | [[China]] IPOs face scrutiny |
 | **Window timing** | H1 vs H2 matters |
 
 ---
 
 ## Related
 
-- [[Asia IPO pipeline 2026]] — detailed Asia coverage
+- [[Asia IPO pipeline 2026]] — detailed [[Asia]] coverage
 - [[SpaceX]] — largest potential IPO ever
 - [[Databricks]] — AI/data leader
 - [[Anthropic]] — AI lab
 - [[Cerebras]] — AI chips
 - [[Quantinuum]] — quantum computing
 - [[Revolut]] — neobank
-- [[PicPay]] — Brazil fintech (first LatAm IPO since 2021)
+- [[PicPay]] — [[Brazil]] fintech (first LatAm IPO since 2021)
 - [[Lime]] — micromobility
 - [[OTB]] — luxury holding
-- [[Zhipu]] — first China AI IPO
+- [[Zhipu]] — first [[China]] AI IPO
 - [[A.S. Watson]] — HK+London retail ($30B)
-- [[Flipkart]] — India e-commerce ($60-70B)
+- [[Flipkart]] — [[India]] e-commerce ($60-70B)
 - [[Toss]] — Korea fintech US listing
 - [[GCash]] — Philippines fintech
-- [[NSE India]] — India stock exchange
+- [[NSE India]] — [[India]] stock exchange
 
 *Created 2026-01-24*

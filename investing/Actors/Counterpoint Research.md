@@ -12,7 +12,7 @@ Industry research source for memory/smartphone data:
 |----------|----------|
 | Memory | DRAM/NAND pricing forecasts |
 | Smartphones | Market share, shipments |
-| Semiconductors | Foundry, components |
+| [[Semiconductors]] | Foundry, components |
 | IoT/Wearables | Market sizing |
 
 ---
@@ -42,7 +42,7 @@ This forecast cited by [[Dell]], [[HP Inc.]], [[Lenovo]] as basis for pricing ac
 **Neil Shah on physical AI ([[CES 2026]]):**
 > "Whichever country makes AI products that you can hold, deploy, be entertained or charmed by, that could be the ultimate form of computational dominance."
 
-15th CES visit — perspective on China's rapid AI hardware embedding.
+15th CES visit — perspective on [[China]]'s rapid AI hardware embedding.
 
 ---
 
@@ -51,11 +51,11 @@ This forecast cited by [[Dell]], [[HP Inc.]], [[Lenovo]] as basis for pricing ac
 | Firm | Focus |
 |------|-------|
 | **Counterpoint Research** | Mobile, memory, semiconductors |
-| Gartner | Enterprise tech |
-| IDC | PCs, infrastructure |
-| TrendForce | Memory, displays |
-| Omdia | Semiconductors, displays |
-| CLSA | Asian equities/tech |
+| [[Gartner]] | Enterprise tech |
+| [[IDC]] | PCs, infrastructure |
+| [[TrendForce]] | Memory, displays |
+| [[Omdia]] | [[Semiconductors]], displays |
+| [[CLSA]] | Asian equities/tech |
 
 ---
 

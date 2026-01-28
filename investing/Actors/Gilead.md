@@ -11,7 +11,7 @@ aliases: [GILD, Gilead Sciences]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | GILD (Nasdaq) |
+| Ticker | GILD ([[Nasdaq]]) |
 | 2025 revenue guidance | **$28.2-28.6B** |
 | HIV revenue (9M 2025) | $15.0B (+6% YoY) |
 | Biktarvy | $3.5B/quarter |
@@ -104,7 +104,7 @@ Gilead repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]]
 | Metric | Value |
 |--------|-------|
 | Ticker | GILD |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$28B |
 | Focus | HIV, oncology |
 

@@ -14,7 +14,7 @@ aliases: [Glenview, Larry Robbins]
 | Founded | 2000 |
 | Founder | **Larry Robbins** |
 | AUM | ~$8B |
-| Strategy | Healthcare L/S |
+| Strategy | [[Healthcare]] L/S |
 | HQ | New York |
 
 ---
@@ -24,7 +24,7 @@ aliases: [Glenview, Larry Robbins]
 | Fact | Detail |
 |------|--------|
 | Background | Omega Advisors (Leon Cooperman) |
-| Focus | Healthcare sector |
+| Focus | [[Healthcare]] sector |
 | Style | Deep fundamental |
 | Philanthropy | Major giver |
 
@@ -34,7 +34,7 @@ aliases: [Glenview, Larry Robbins]
 
 | Approach | Description |
 |----------|-------------|
-| Healthcare | Managed care, hospitals |
+| [[Healthcare]] | Managed care, hospitals |
 | Fundamental | Deep research |
 | Long-biased | Concentrated longs |
 | Activist | Occasionally engages |
@@ -70,7 +70,7 @@ Called healthcare expansion correctly.
 | Founded | 2000 |
 | Founder | Larry Robbins |
 | AUM | ~$8B |
-| Focus | Healthcare |
+| Focus | [[Healthcare]] |
 
 ---
 

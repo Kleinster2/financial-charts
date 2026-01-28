@@ -3,7 +3,7 @@ aliases: [LLY, Lilly]
 ---
 #actor #healthcare #pharma #usa #public #ai
 
-**Eli Lilly** — Top pharma by market cap. GLP-1 leader (Mounjaro, Zepbound). AI drug discovery investments.
+**Eli Lilly** — Top pharma by market cap. GLP-1 leader (Mounjaro, Zepbound). [[AI drug discovery]] investments.
 
 ---
 
@@ -22,8 +22,8 @@ aliases: [LLY, Lilly]
 
 | Initiative | Description |
 |------------|-------------|
-| Isomorphic Labs | DeepMind spinoff partnership |
-| In-house ML | Target identification, molecule design |
+| [[Isomorphic Labs]] | DeepMind spinoff partnership |
+| In-house ML | [[Target]] identification, molecule design |
 | Clinical trial AI | Patient selection, site optimization |
 
 **Thesis:** AI accelerates drug development, reduces R&D costs, improves success rates.

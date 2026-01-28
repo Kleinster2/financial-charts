@@ -10,7 +10,7 @@
 |-------|---------|
 | Bigger packages (~120×120mm) | Harder to handle, more expensive units at risk |
 | Higher heat output | Thermal management during test is harder |
-| More complexity (HBM, cold plates, lids) | Longer test times |
+| More complexity ([[HBM]], cold plates, lids) | Longer test times |
 | Legacy equipment limits | Pogo pins melt/deform at high temps |
 
 Even if foundry and [[Advanced packaging]] capacity exist, final test can be the constraint.
@@ -31,14 +31,14 @@ Even if foundry and [[Advanced packaging]] capacity exist, final test can be the
 |---------|------|------------------|
 | **Cohu** (NASDAQ: COHU) | Test handlers | Eclipse platform for extreme thermal AI testing |
 | **ASE** | OSAT (assembly + test) | Expanding capacity, AI/HPC revenue doubling |
-| **Advantest** | Test equipment | ATE (automatic test equipment) leader |
+| **[[Advantest]]** | Test equipment | ATE (automatic test equipment) leader |
 
 ---
 
 ## Supply chain position
 
 ```
-Foundry (TSMC, Samsung)
+Foundry (TSMC, [[Samsung]])
     ↓
 Packaging (TSMC CoWoS, ASE)
     ↓
@@ -52,7 +52,7 @@ Ship to customer (NVIDIA, AMD)
 ## Implications
 
 - Another constraint on AI chip throughput beyond foundry/packaging
-- Equipment companies (Cohu, Advantest) have pricing power
+- Equipment companies (Cohu, [[Advantest]]) have pricing power
 - OSATs (ASE) investing heavily — 2025 capex +$1B
 - Not a moat for [[TSMC]] — they don't do final test
 

@@ -61,10 +61,10 @@ Usage-based pricing.
 
 | Customer | Use case |
 |----------|----------|
-| Uber | Rider-driver communication |
-| Airbnb | Host-guest messaging |
-| Netflix | Account verification |
-| Lyft | SMS notifications |
+| [[Uber]] | Rider-driver communication |
+| [[Airbnb]] | Host-guest messaging |
+| [[Netflix]] | Account verification |
+| [[Lyft]] | SMS notifications |
 
 ---
 

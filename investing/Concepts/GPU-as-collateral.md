@@ -70,7 +70,7 @@ See [[AI infrastructure deals]] for full capital stack details.
 ```
 
 **Collateral**: First-lien on GPU servers + SPV equity
-**Rate**: Benchmark + 4% (DDTL 3.0)
+**Rate**: [[Benchmark]] + 4% (DDTL 3.0)
 
 ---
 
@@ -127,7 +127,7 @@ GPU financing commands premium rates due to higher risk.
 - [[Blackstone]] — co-led CoreWeave facility
 - Magnetar — co-led CoreWeave facility
 - [[Apollo]] — xAI debt participant
-- Private credit funds with AI exposure
+- [[Private credit]] funds with AI exposure
 
 **Who's at risk:**
 - Lenders if GPU rental rates keep falling

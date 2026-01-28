@@ -36,7 +36,7 @@ aliases: [Malone, Cable Cowboy]
 |------|-------|
 | 1973 | Joined TCI (Tele-Communications Inc) |
 | 1990s | Built TCI into largest US cable company |
-| 1999 | Sold TCI to AT&T for $48B |
+| 1999 | Sold TCI to [[AT&T]] for $48B |
 | 2001 | Spun out Liberty Media |
 | 2017 | Acquired Formula 1 |
 | 2024 | SiriusXM tracking stock merged |
@@ -48,7 +48,7 @@ aliases: [Malone, Cable Cowboy]
 | Achievement | Detail |
 |-------------|--------|
 | Built | Largest US cable system |
-| Sale price | $48B to AT&T (1999) |
+| Sale price | $48B to [[AT&T]] (1999) |
 | Innovation | Pioneered cable consolidation |
 | Reputation | Ruthless negotiator |
 
@@ -87,7 +87,7 @@ aliases: [Malone, Cable Cowboy]
 | Before Malone (2016) | After |
 |----------------------|-------|
 | European-focused | US expansion (Miami, Vegas, Austin) |
-| Limited media | Netflix "Drive to Survive" |
+| Limited media | [[Netflix]] "Drive to Survive" |
 | Stagnant value | ~$20B valuation |
 | US indifference | US now major market |
 

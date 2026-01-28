@@ -69,7 +69,7 @@ aliases:
 
 | Segment | Revenue | % of Total | Net Income |
 |---------|---------|------------|------------|
-| **Consumer & Community Banking (CCB)** | $72B | 40% | $17B |
+| **[[Consumer]] & Community Banking (CCB)** | $72B | 40% | $17B |
 | **Commercial & Investment Bank (CIB)** | $70B | 39% | $20B |
 | **Asset & Wealth Management (AWM)** | $22B | 12% | $5B |
 | Corporate/Other | $17B | 9% | — |
@@ -113,7 +113,7 @@ JPMorgan is the most active bank in AI data center financing:
 
 ---
 
-## AI infrastructure deals
+## [[AI infrastructure deals]]
 
 | Deal | Role | Size |
 |------|------|------|
@@ -145,10 +145,10 @@ JPMorgan is the most active bank in AI data center financing:
 
 | Phase | Provider | JPM role |
 |-------|----------|----------|
-| Construction | Banks (JPM) | Lead arranger |
+| Construction | [[Banks]] (JPM) | Lead arranger |
 | Permanent/take-out | PE, bonds, CMBS | Sometimes, or exit |
 
-Banks typically do construction (shorter term, higher spread), PE does permanent (longer term).
+[[Banks]] typically do construction (shorter term, higher spread), PE does permanent (longer term).
 
 ---
 
@@ -172,7 +172,7 @@ Banks typically do construction (shorter term, higher spread), PE does permanent
 | Bank | Activity |
 |------|----------|
 | **Goldman Sachs** | Advisory, syndication |
-| **Morgan Stanley** | Advisory, research |
+| **[[Morgan Stanley]]** | Advisory, research |
 | **Bank of America** | Syndicate participant |
 | **Citi** | Syndicate participant |
 | **Wells Fargo** | Some DC exposure |
@@ -181,7 +181,7 @@ JPM is #1; others participate in syndicates.
 
 ---
 
-## CEO: Jamie Dimon
+## CEO: [[Jamie Dimon]]
 
 - Longest-tenured big bank CEO
 - Vocal on macro/policy issues
@@ -203,17 +203,17 @@ JPM is #1; others participate in syndicates.
 
 **Four pillars:**
 1. Supply Chain & Advanced Manufacturing
-2. Defense & Aerospace
+2. [[Defense]] & [[Aerospace]]
 3. Energy Independence & Resilience
 4. Frontier & Strategic Technologies
 
 27 sub-areas including shipbuilding, nuclear energy, critical minerals, nanomaterials.
 
 **Early deployments:**
-- MP Materials — $400M DoD investment (rare earths)
+- [[MP Materials]] — $400M DoD investment (rare earths)
 - Perpetua Resources — $75M equity (antimony, first US producer)
 
-**Jamie Dimon rationale:** US over-reliance on "unreliable sources" for critical minerals and manufacturing is "painfully clear."
+**[[Jamie Dimon]] rationale:** US over-reliance on "unreliable sources" for critical minerals and manufacturing is "painfully clear."
 
 **Investment angle:** Positions JPM as infrastructure bank for US industrial policy. Could drive deal flow in defense, energy, critical minerals.
 
@@ -221,7 +221,7 @@ JPM is #1; others participate in syndicates.
 
 ## Clean energy M&A outlook (Jan 2026)
 
-**Greg Zdun (Asia Pacific head of energy transition):** "Expect more mergers and acquisitions for renewable assets in 2026 as developers or sellers of projects become more realistic in terms of valuation."
+**Greg Zdun ([[Asia]] Pacific head of energy transition):** "Expect more mergers and acquisitions for renewable assets in 2026 as developers or sellers of projects become more realistic in terms of valuation."
 
 **JPM sees M&A revival drivers:**
 - Sellers lowering price expectations
@@ -259,7 +259,7 @@ JPM is #1; others participate in syndicates.
 | Price | ~$330 |
 | Market cap | ~$900B |
 | Assets | $4.4T |
-| CEO | Jamie Dimon |
+| CEO | [[Jamie Dimon]] |
 | Dividend yield | ~2% |
 
 ---
@@ -277,7 +277,7 @@ JPM is #1; others participate in syndicates.
 - **Equities trading +40%** to $2.9B — hedge fund business strong
 - Revenue +7% YoY
 - NII +7% to $25.1B
-- Headline profit down 7% to $13B due to **$2.2B reserve for Apple Card portfolio** acquisition from Goldman Sachs
+- Headline profit down 7% to $13B due to **$2.2B reserve for [[Apple]] Card portfolio** acquisition from Goldman Sachs
 
 ### 2026 Guidance
 
@@ -316,9 +316,9 @@ JPM is #1; others participate in syndicates.
 |--------|-------|------------|
 | **Technology** | $252B | **+61%** |
 | TMT total | $400B | — |
-| Consumer | $135B | +44% |
-| Media & Entertainment | $85B | +38% |
-| Telecom | $56B | +25% |
+| [[Consumer]] | $135B | +44% |
+| [[Media]] & Entertainment | $85B | +38% |
+| [[Telecom]] | $56B | +25% |
 | **US banks** | — | **-6%** |
 
 **M&A supply:** $94B announced deals for 2026 + $88B expected. Strategists Nathaniel Rosenbaum and Eric Beinstein: "animal spirits have returned."
@@ -334,12 +334,12 @@ Trump proposed 10% cap on credit card interest rates (current avg: ~22%).
 | Impact | Detail |
 |--------|--------|
 | JPM stock reaction | -1%+ on announcement |
-| Apple Card exposure | Just acquired $17B portfolio from Goldman |
+| [[Apple]] Card exposure | Just acquired $17B portfolio from Goldman |
 | Industry warning | 175M accounts could close if cap implemented |
 
 **CFO Jeremy Barnum (Jan 2026):** JPM will "consider all options to fight back" against the proposal, warning it "would be very bad for consumers, very bad for the economy."
 
-JPM is doubling down on consumer credit (Apple Card) just as regulatory risk rises.
+JPM is doubling down on consumer credit ([[Apple]] Card) just as regulatory risk rises.
 
 ---
 
@@ -368,13 +368,13 @@ Stock tumbled after Q4 results despite beat — investors worried about expense 
 - Currently trades Venezuelan sovereign bonds (non-sanctioned) with offshore counterparties
 
 **If sanctions ease:**
-- Internal idea floated: trade bank for oil exports (precedent: Trade Bank of Iraq, 2003)
+- Internal idea floated: trade bank for oil exports (precedent: [[Trade]] Bank of Iraq, 2003)
 - Could tap $1.5T Security & Resiliency Initiative for critical minerals financing
-- Trade financing, infrastructure investment, restructuring deals
+- [[Trade]] financing, infrastructure investment, restructuring deals
 
 **Advantage:** Among very few US banks with any Venezuela presence.
 
-**Caution:** Even after Iran sanctions lifted (2016), global banks remained reluctant. LatAm is ~2% of JPM revenue.
+**Caution:** Even after [[Iran]] sanctions lifted (2016), global banks remained reluctant. LatAm is ~2% of JPM revenue.
 
 See [[Venezuela]].
 
@@ -399,7 +399,7 @@ See [[Venezuela]].
 - [[Goldman Sachs]] — peer (investment banking)
 
 ### Risks
-- [[Credit card rate cap]] — Trump 10% proposal, Apple Card exposure
+- [[Credit card rate cap]] — Trump 10% proposal, [[Apple]] Card exposure
 
 ### Other
 - [[Venezuela]] — 60-year presence, trade finance opportunity

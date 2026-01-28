@@ -3,7 +3,7 @@ aliases: [Lloyds Banking Group, LYG, LLOY]
 ---
 #actor #bank #uk #retail-bank
 
-**Lloyds Banking Group** — UK's largest retail bank. £519B assets (Sep 2025). 30% of UK payments processed. 20M+ app users. CEO Charlie Nunn (2021-) executing 5-year digital transformation. Motor finance remediation hit Q3 2025 (£1.95B total provision). Targeting "biggest fintech in UK."
+**Lloyds Banking Group** — [[UK]]'s largest retail bank. £519B assets (Sep 2025). 30% of [[UK]] payments processed. 20M+ app users. CEO Charlie Nunn (2021-) executing 5-year digital transformation. Motor finance remediation hit Q3 2025 (£1.95B total provision). Targeting "biggest fintech in [[UK]]."
 
 ---
 
@@ -19,17 +19,17 @@ aliases: [Lloyds Banking Group, LYG, LLOY]
 | Statutory profit (9M) | £3.3B |
 | Net interest margin | 3.04% |
 | RoTE | 11.9% (14.6% ex-motor charge) |
-| UK households served | ~50% |
+| [[UK]] households served | ~50% |
 | App users | 20M+ |
 | CEO | Charlie Nunn (Aug 2021-) |
 | Ticker | **LYG** (NYSE), LLOY (LSE) |
 
-UK's largest retail bank. Processes 30% of all UK payments.
+[[UK]]'s largest retail bank. Processes 30% of all [[UK]] payments.
 
 ![[lloyds-vs-peers.png]]
-*Lloyds +65% since 2018 — merely tracking EUFN benchmark. All UK peers outperforming: NatWest +260%, Barclays +185%, HSBC +125%. Motor finance and pure-domestic focus dragging.*
+*Lloyds +65% since 2018 — merely tracking [[EUFN]] benchmark. All [[UK]] peers outperforming: NatWest +260%, Barclays +185%, HSBC +125%. Motor finance and pure-domestic focus dragging.*
 
-*vs [[HSBC]] · [[Barclays]] · [[NatWest]] · EUFN (benchmark)*
+*vs [[HSBC]] · [[Barclays]] · [[NatWest]] · [[EUFN]] (benchmark)*
 
 ---
 
@@ -68,21 +68,21 @@ UK's largest retail bank. Processes 30% of all UK payments.
 | Total assets | £519B |
 | Loans | ~£450B |
 | Deposits | ~£480B |
-| UK households | ~50% |
+| [[UK]] households | ~50% |
 
 ---
 
 ## Business focus
 
-Purely UK-focused (unlike HSBC, Barclays):
+Purely [[UK]]-focused (unlike HSBC, Barclays):
 
 | Segment | Notes |
 |---------|-------|
 | **Retail banking** | Mortgages, current accounts, savings |
 | **Commercial banking** | SME lending |
-| **Insurance & Wealth** | Scottish Widows |
+| **[[Insurance]] & Wealth** | Scottish Widows |
 
-No investment bank. No international operations. Pure UK retail play.
+No investment bank. No international operations. Pure [[UK]] retail play.
 
 ---
 
@@ -98,7 +98,7 @@ No investment bank. No international operations. Pure UK retail play.
 | App logons | 6B+ per year |
 | Tech decommissioning | Major driver of savings |
 
-**Goal:** Become "biggest fintech in UK" — compete with digital challengers through scale + transformation.
+**Goal:** Become "biggest fintech in [[UK]]" — compete with digital challengers through scale + transformation.
 
 ---
 
@@ -111,7 +111,7 @@ No investment bank. No international operations. Pure UK retail play.
 | Issue | Commission arrangements remediation |
 | Impact | Statutory profit down 36% YoY in Q3 |
 
-Industry-wide issue affecting UK auto lenders. Lloyds largest exposed.
+Industry-wide issue affecting [[UK]] auto lenders. Lloyds largest exposed.
 
 ---
 
@@ -122,7 +122,7 @@ Industry-wide issue affecting UK auto lenders. Lloyds largest exposed.
 | 1765 | Founded in Birmingham |
 | 1995 | Merged with TSB |
 | 2008 | Acquired HBOS (forced by government) |
-| 2008-2017 | UK government ownership (43% stake) |
+| 2008-2017 | [[UK]] government ownership (43% stake) |
 | 2017 | Government fully exits |
 | 2021 | Charlie Nunn becomes CEO |
 | 2025 | Motor finance provisions; digital transformation milestone |
@@ -142,9 +142,9 @@ Nunn background: Cambridge economics, INSEAD MBA, Accenture (12 yrs), McKinsey p
 
 ## Related
 
-- [[HSBC]] — UK peer (larger by assets)
-- [[Barclays]] — UK peer (has investment bank)
-- [[NatWest]] — UK peer
+- [[HSBC]] — [[UK]] peer (larger by assets)
+- [[Barclays]] — [[UK]] peer (has investment bank)
+- [[NatWest]] — [[UK]] peer
 - [[UK Banks]] — sector
 
 ---

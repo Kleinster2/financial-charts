@@ -37,7 +37,7 @@ The announcement followed months of trade rhetoric and preceded intense negotiat
 | Actor | Role |
 |-------|------|
 | [[US Government]] | Initiator |
-| [[EU]] | Target |
+| [[EU]] | [[Target]] |
 | [[WTO]] | Sidelined (dispute settlement non-functional) |
 
 ---

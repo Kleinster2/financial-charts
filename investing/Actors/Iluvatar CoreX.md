@@ -52,7 +52,7 @@ Part of wave of Chinese AI chip firms seeking HK listings:
 - Established funding base (Centurium, Hopu)
 - 10+ year history (founded 2015)
 - HK listing provides international capital access
-- Domestic demand for NVIDIA alternatives
+- Domestic demand for [[NVIDIA alternatives]]
 
 **Bear:**
 - Smaller raise vs peers ($300-400M vs $600M+ Biren)

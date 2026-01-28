@@ -9,7 +9,7 @@ aliases: []
 
 ## Why Glean matters
 
-Enterprise search + AI agents at scale:
+Enterprise search + [[AI agents]] at scale:
 
 | Metric | Value |
 |--------|-------|
@@ -37,12 +37,12 @@ Enterprise search + AI agents at scale:
 
 | Investor | Notes |
 |----------|-------|
-| Wellington Management | Lead (Series F) |
+| [[Wellington Management]] | Lead (Series F) |
 | [[Khosla Ventures]] | Early investor |
 | [[Sequoia Capital]] | Growth |
 | [[Lightspeed Venture Partners]] | Growth |
-| Kleiner Perkins | Growth |
-| General Catalyst | Growth |
+| [[Kleiner Perkins]] | Growth |
+| [[General Catalyst]] | Growth |
 
 **Total raised:** $610M
 
@@ -52,12 +52,12 @@ Enterprise search + AI agents at scale:
 
 **Enterprise AI search:**
 - Unified search across all apps
-- Google Workspace, Microsoft 365, Slack, Salesforce
+- Google Workspace, Microsoft 365, [[Slack]], [[Salesforce]]
 - Personalized knowledge graph per user
 - Natural language queries
 
 **Glean Agents (2025):**
-- AI agents for enterprise tasks
+- [[AI agents]] for enterprise tasks
 - 100M+ actions annually
 - Workflow automation
 
@@ -95,7 +95,7 @@ Crossed $100M ARR in last fiscal year.
 | Google Workspace AI | Google-native | Multi-platform |
 | Elastic | Search infrastructure | Enterprise focus |
 
-Glean = Switzerland (works across ecosystems).
+Glean = [[Switzerland]] (works across ecosystems).
 
 ---
 
@@ -103,7 +103,7 @@ Glean = Switzerland (works across ecosystems).
 
 **Bull:**
 - Enterprise search essential
-- AI agents growing
+- [[AI agents]] growing
 - Multi-platform advantage
 - Strong investor syndicate
 - Rapid ARR growth

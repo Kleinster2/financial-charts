@@ -38,7 +38,7 @@ aliases: [PANW]
 | **Palo Alto** | Enterprise platform | ~$120B |
 | [[CrowdStrike]] | Endpoint, cloud-native | ~$90B |
 | [[Fortinet]] | Mid-market, firewall | ~$75B |
-| Zscaler | Zero trust, cloud | ~$30B |
+| [[Zscaler]] | Zero trust, cloud | ~$30B |
 
 Largest pure-play cybersecurity company.
 
@@ -65,7 +65,7 @@ Controversial: Q4 2024 free trial announcement hit stock.
 
 **Rationale:** Beijing fears Western cybersecurity software could collect and transmit confidential information abroad.
 
-**Other banned US firms:** VMware, Fortinet, Mandiant, CrowdStrike, SentinelOne, McAfee, Recorded Future, Claroty, Rapid7, Wiz
+**Other banned US firms:** VMware, Fortinet, Mandiant, CrowdStrike, [[SentinelOne]], McAfee, Recorded Future, Claroty, Rapid7, Wiz
 
 See [[China cybersecurity ban]] for full context.
 

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #data #usa #private
 
-**Databricks** — Data lakehouse + AI. $134B valuation. $4.8B ARR. IPO expected 2026. "Fastest enterprise software growth."
+**Databricks** — [[Data lakehouse]] + AI. $134B valuation. $4.8B ARR. IPO expected 2026. "Fastest enterprise software growth."
 
 ---
 
@@ -42,14 +42,14 @@ Largest private enterprise software company, AI infrastructure critical:
 | Investor | Notes |
 |----------|-------|
 | [[a16z]] | Multiple rounds |
-| Insight Partners | Series L lead |
-| Thrive Capital | Growth |
+| [[Insight Partners]] | Series L lead |
+| [[Thrive Capital]] | Growth |
 | [[Tiger Global]] | Growth |
 | [[Blackstone]] | Growth |
-| Fidelity | Crossover |
-| T. Rowe Price | Crossover |
+| [[Fidelity]] | Crossover |
+| [[T. Rowe Price]] | Crossover |
 | JPMorgan Asset Management | Growth |
-| Franklin Templeton | Growth |
+| [[Franklin Templeton]] | Growth |
 
 **Total raised:** $10B+
 
@@ -73,12 +73,12 @@ Largest private enterprise software company, AI infrastructure critical:
 
 **60%+ of Fortune 500:**
 - adidas
-- AT&T
+- [[AT&T]]
 - Bayer
-- Block
-- Mastercard
-- Rivian
-- Unilever
+- [[Block]]
+- [[Mastercard]]
+- [[Rivian]]
+- [[Unilever]]
 
 20,000+ organizations worldwide.
 
@@ -90,12 +90,12 @@ Largest private enterprise software company, AI infrastructure critical:
 
 | Detail | Value |
 |--------|-------|
-| Target | [[Neon]] |
+| [[Target]] | [[Neon]] |
 | Price | **~$1B** |
-| What | Serverless Postgres |
-| Rationale | AI agents need simple DB provisioning |
+| What | Serverless [[Postgres]] |
+| Rationale | [[AI agents]] need simple DB provisioning |
 
-**Why it matters:** 80%+ of Neon databases created by AI agents. Databricks + Neon = complete data platform for AI applications.
+**Why it matters:** 80%+ of Neon databases created by [[AI agents]]. Databricks + Neon = complete data platform for AI applications.
 
 Post-acquisition: Neon cut prices 15-25% (compute), storage from $1.75 to $0.35/GB-month.
 
@@ -112,7 +112,7 @@ Post-acquisition: Neon cut prices 15-25% (compute), storage from $1.75 to $0.35/
 - Lakebase (system of record)
 - Databricks Apps (user experience)
 - Agent Bricks (multi-agent systems)
-- [[Neon]] — serverless Postgres (acquired)
+- [[Neon]] — serverless [[Postgres]] (acquired)
 
 ---
 
@@ -120,7 +120,7 @@ Post-acquisition: Neon cut prices 15-25% (compute), storage from $1.75 to $0.35/
 
 **Expected early 2026:**
 - CEO Ali Ghodsi: "Still deciding when"
-- Likely Nasdaq listing
+- Likely [[Nasdaq]] listing
 - Traditional IPO expected
 - Would be one of largest tech IPOs
 
@@ -134,7 +134,7 @@ Post-acquisition: Neon cut prices 15-25% (compute), storage from $1.75 to $0.35/
 | [[Palantir]] | AI applications | More infrastructure |
 | AWS/Azure/GCP | Cloud data | Multi-cloud |
 
-Databricks = Switzerland of data (runs on all clouds).
+Databricks = [[Switzerland]] of data (runs on all clouds).
 
 ---
 
@@ -181,12 +181,12 @@ Databricks = Switzerland of data (runs on all clouds).
 
 ## Related
 
-- [[Neon]] — acquired (serverless Postgres, $1B)
+- [[Neon]] — acquired (serverless [[Postgres]], $1B)
 - [[Snowflake]] — competitor (data warehouse)
 - [[Palantir]] — competitor (AI applications)
 - [[Anthropic]] — partner (models on platform)
 - [[OpenAI]] — partner (models on platform)
-- [[Supabase]] — competitor (Postgres BaaS)
+- [[Supabase]] — competitor ([[Postgres]] BaaS)
 - [[a16z]] — investor
 - [[Tiger Global]] — investor
 - [[Blackstone]] — investor

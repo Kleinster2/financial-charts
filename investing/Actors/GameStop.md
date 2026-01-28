@@ -14,7 +14,7 @@ GameStop is the ur-meme stock — the event that permanently elevated retail inv
 | Impact | Detail |
 |--------|--------|
 | Retail power | Proved social media could coordinate market-moving flows |
-| Short squeeze mechanics | Short interest >100% of float exposed recall spiral risk |
+| Short squeeze mechanics | [[Short interest]] >100% of float exposed recall spiral risk |
 | Brokerage crisis | Trading halts revealed clearing/deposit fragility |
 | Regulatory response | T+1 settlement, short disclosure rules, tick size reform |
 | Corporate transformation | Used meme surges to raise billions, eliminate bankruptcy risk |
@@ -60,7 +60,7 @@ Jim Chanos: "They were one of the smart meme stock companies that took big advan
 
 | Fact | Detail |
 |------|--------|
-| Background | Co-founder Chewy (sold to PetSmart $3.35B, 2017) |
+| Background | Co-founder [[Chewy]] (sold to PetSmart $3.35B, 2017) |
 | GME board | Jan 11, 2021 (private investor) |
 | Chairman | June 2021 |
 | CEO | June 2023 |
@@ -106,7 +106,7 @@ The GameStop saga forced institutional investors to build new risk management:
 | VandaTrack | Research firm tracking retail flows, launched early 2021 |
 | Social sentiment | Trading desks monitor X/Reddit for unexplained moves |
 | Shelf registrations | Companies pre-file paperwork for quick equity issuance |
-| Short interest monitoring | Institutional clients get daily retail flow reports |
+| [[Short interest]] monitoring | Institutional clients get daily retail flow reports |
 | Meme ETFs | Roundhill relaunched MEME ETF (actively managed, weekly rebalance) |
 
 Jason Mudrick (Mudrick Capital): Companies now have paperwork in place to quickly issue stock if meme crowd swoops in. "The lawyers are advising their clients that you should do this."

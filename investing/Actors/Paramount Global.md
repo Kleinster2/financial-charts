@@ -3,7 +3,7 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 ---
 #actor #media #streaming #usa #public
 
-**Paramount Global** — Legacy media in transition. CBS, MTV, Paramount+. Merger talks with Skydance ongoing. Shari Redstone controlled.
+**Paramount Global** — Legacy media in transition. CBS, MTV, Paramount+. Merger talks with Skydance ongoing. [[Shari Redstone]] controlled.
 
 ---
 
@@ -26,7 +26,7 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 | Announced | Jul 2024 |
 | Structure | Skydance acquires National Amusements |
 | Valuation | ~$8B for Paramount |
-| Skydance founder | David Ellison |
+| Skydance founder | [[David Ellison]] |
 | Status | Regulatory review |
 
 **Rationale:** Fresh capital, tech expertise, content focus.

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #rareearth #usa #private #startup
 
-**Phoenix Tailings** — Rare earth recycling startup. Zero China reliance. Producing heavy REEs (Tb, Dy) for US defense. $76M Series B.
+**Phoenix Tailings** — Rare earth recycling startup. Zero [[China]] reliance. Producing heavy REEs (Tb, Dy) for US defense. $76M Series B.
 
 ---
 
@@ -52,11 +52,11 @@ Supplying defense sector with Tb and Dy metals. Specific customers not disclosed
 | Investor | Notes |
 |----------|-------|
 | [[Builders Vision]] | Lukas Walton platform |
-| **BMW** | Strategic (EV supply chain) |
+| **[[BMW]]** | Strategic (EV supply chain) |
 | **Yamaha Motor** | Strategic |
 | Various | $76M total |
 
-**Strategic rationale:** BMW and Yamaha investing to secure rare earth supply for EVs and motors.
+**Strategic rationale:** [[BMW]] and Yamaha investing to secure rare earth supply for EVs and motors.
 
 ---
 
@@ -64,8 +64,8 @@ Supplying defense sector with Tb and Dy metals. Specific customers not disclosed
 
 **Bull:**
 - Only US heavy REE producer
-- Defense demand secured
-- Zero China supply chain
+- [[Defense]] demand secured
+- Zero [[China]] supply chain
 - Recycling = lower environmental footprint
 - Government support tailwind
 

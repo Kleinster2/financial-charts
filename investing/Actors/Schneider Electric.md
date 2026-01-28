@@ -16,7 +16,7 @@ Critical data center infrastructure:
 | Ticker | SBGSY (ADR) |
 | Market cap | ~$130B |
 | Revenue | ~€36B |
-| HQ | France |
+| HQ | [[France]] |
 | Focus | Power + cooling |
 
 ---
@@ -27,7 +27,7 @@ Critical data center infrastructure:
 
 | Product | Category |
 |---------|----------|
-| UPS systems | Power |
+| [[UPS]] systems | Power |
 | PDUs | Power distribution |
 | Cooling | Precision air, liquid |
 | Racks | Enclosures |
@@ -86,7 +86,7 @@ Software + hardware integration.
 
 **American Power Conversion:**
 - Acquired 2007 for $6.1B
-- UPS market leader
+- [[UPS]] market leader
 - SMB to enterprise
 - Foundation of DC business
 

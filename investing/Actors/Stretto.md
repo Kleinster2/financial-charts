@@ -13,7 +13,7 @@ Leading bankruptcy administration and claims management firm. Serves ~50% of U.S
 | Service | Description |
 |---------|-------------|
 | **Claims & noticing** | Administer creditor claims, distribute notices, manage dockets |
-| **Consumer bankruptcy** | Chapter 7 trustee technology (Best Case software) |
+| **[[Consumer]] bankruptcy** | Chapter 7 trustee technology (Best Case software) |
 | **Corporate restructuring** | Chapter 11 case management |
 | **Depository services** | Treasury, cash management, FDIC-insured deposits |
 | **Legal claims admin** | Class action, mass tort, regulatory remediation |
@@ -50,7 +50,7 @@ Stretto is the administrative backbone of bankruptcy proceedings — they don't 
 | Case | Year | Court | Details |
 |------|------|-------|---------|
 | **[[Saks bankruptcy]]** | 2026 | S.D. Texas | 113 entities, $5B debt, $1.75B DIP |
-| **Celsius Network** | 2022 | S.D.N.Y. | Crypto lender, Case No. 22-10964 |
+| **Celsius Network** | 2022 | S.D.N.Y. | [[Crypto]] lender, Case No. 22-10964 |
 | Times Square JV | 2022 | — | Crowne Plaza Times Square Hotel |
 
 **Saks contact:** SaksInquiries@Stretto.com, (833) 232-5246

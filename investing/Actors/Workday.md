@@ -11,13 +11,13 @@ aliases: [WDAY]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | WDAY (Nasdaq) |
+| Ticker | WDAY ([[Nasdaq]]) |
 | Revenue | **~$8.5B** (FY25) |
 | Market cap | ~$65B |
 | Customers | 10,500+ |
 | Retention | **97%+** gross |
 
-**Position:** Leader in Gartner Magic Quadrant for Cloud HCM and Financial Planning.
+**Position:** Leader in [[Gartner]] Magic Quadrant for Cloud HCM and Financial Planning.
 
 ---
 
@@ -76,7 +76,7 @@ CEO Eschenbach: Workday is "underappreciated" and "undervalued."
 |-------|--------|
 | Growth deceleration | Q3 guidance disappointed |
 | Stock performance | -9% YTD at times |
-| Competition | SAP, Oracle, ServiceNow |
+| Competition | [[SAP]], Oracle, ServiceNow |
 | Analyst caution | "Turkey without the gravy" |
 
 ---
@@ -102,7 +102,7 @@ CEO Eschenbach: Workday is "underappreciated" and "undervalued."
 | Metric | Value |
 |--------|-------|
 | Ticker | WDAY |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$8.5B |
 | Focus | HR/Finance cloud |
 

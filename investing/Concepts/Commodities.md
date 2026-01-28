@@ -11,7 +11,7 @@ aliases: [commodities, commodity, DBC, GSG, raw materials]
 
 | Sector | Key commodities | Primary drivers |
 |--------|-----------------|-----------------|
-| **Energy** | Oil, natural gas | OPEC, demand, geopolitics |
+| **Energy** | Oil, natural gas | [[OPEC]], demand, geopolitics |
 | **Precious metals** | Gold, silver, platinum, palladium | Rates, dollar, safe haven |
 | **Base metals** | Copper, aluminum, zinc, nickel | China, industry, green capex |
 | **Agriculture** | Corn, wheat, soybeans, softs | Weather, trade, biofuels |
@@ -49,11 +49,11 @@ Production-weighted — heavily energy-tilted.
 
 | Driver | Impact |
 |--------|--------|
-| **US dollar** | Inverse — strong USD pressures prices |
+| **[[US dollar]]** | Inverse — strong USD pressures prices |
 | **China demand** | 50%+ of base metals, major ag importer |
 | **Interest rates** | High rates = opportunity cost of holding |
 | **Inflation** | Commodities hedge inflation |
-| **Supply disruptions** | Weather, geopolitics, OPEC |
+| **Supply disruptions** | Weather, geopolitics, [[OPEC]] |
 | **Green transition** | Copper, lithium, nickel demand |
 
 ---

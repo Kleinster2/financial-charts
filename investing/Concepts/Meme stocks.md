@@ -9,7 +9,7 @@
 A meme stock squeeze requires three ingredients:
 
 1. **High short interest** — Ideally >50% of float, creating recall spiral risk
-2. **Viral coordination** — Reddit/X/Discord communities identify target and build conviction
+2. **Viral coordination** — Reddit/X/[[Discord]] communities identify target and build conviction
 3. **Diamond hands ideology** — Holders refuse to sell, preventing shorts from covering
 
 The January 2021 [[GameStop]] squeeze was the purest expression: SI exceeded 100% of float, meaning shorts could not mathematically cover without bidding the stock "to infinity" (Thomas Peterffy, [[Interactive Brokers]]).
@@ -22,7 +22,7 @@ The January 2021 [[GameStop]] squeeze was the purest expression: SI exceeded 100
 |------|-------|---------|
 | Jan 2021 | [[GameStop]] (GME) | $4 → $120 (split-adj); [[Melvin Capital]] destroyed; trading halted |
 | Jan-Feb 2021 | AMC Entertainment | Squeezed; used surge to issue stock, avoid bankruptcy |
-| Jan 2021 | BlackBerry, Nokia, Bed Bath & Beyond | Sympathetic squeezes |
+| Jan 2021 | BlackBerry, [[Nokia]], Bed Bath & Beyond | Sympathetic squeezes |
 | 2021-2022 | Bed Bath & Beyond (BBBY) | Multiple pumps; bankrupt Aug 2023 |
 | May 2024 | GameStop (round 2) | Keith Gill ("Roaring Kitty") returned to X; brief spike |
 | Jul 2025 | Opendoor Technologies | "Open Army" turned activist — ousted CEO Wheeler, installed co-founder Rabois |
@@ -78,7 +78,7 @@ The speculative energy didn't disappear — it migrated:
 
 | Venue | Character |
 |-------|-----------|
-| **Crypto** | "Everything that happened in GameStop is happening in crypto but on steroids" — Amanda Fischer |
+| **[[Crypto]]** | "Everything that happened in GameStop is happening in crypto but on steroids" — Amanda Fischer |
 | **Prediction markets** | Polymarket, Kalshi — newest speculation venue |
 | **Sports betting** | Same demographic, same dopamine |
 | **[[Meme coins]]** | Dogecoin, Shiba Inu, celebrity tokens, AI agent coins |
@@ -91,7 +91,7 @@ Roundhill CEO Dave Mazza: "In today's meme stock world, it's really more about c
 ## The unpatched risk
 
 Thomas Peterffy (Jan 2026): The mechanisms that would have caused a [[GameStop]]-style systemic spiral remain unfixed. Current rules still allow:
-- Short interest to exceed 100% of float (rehypothecation)
+- [[Short interest]] to exceed 100% of float (rehypothecation)
 - No escalating margin requirements on crowded shorts
 - No position limits at extreme SI levels
 

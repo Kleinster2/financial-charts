@@ -96,7 +96,7 @@ H&M is squeezed in the middle: not fast/cheap enough to compete with Shein, not 
 - Structural disadvantage vs Inditex (speed, margins)
 - Shein/Temu disruption on value end
 - No clear right-to-win in any segment
-- Fast fashion facing ESG/regulatory headwinds (EU textile waste laws)
+- Fast fashion facing [[ESG]]/regulatory headwinds ([[EU]] textile waste laws)
 - Family control limits strategic optionality
 
 ---

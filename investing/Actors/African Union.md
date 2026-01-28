@@ -37,12 +37,12 @@ aliases: [AU, OAU]
 
 | Country | GDP | Key sectors |
 |---------|-----|-------------|
-| **Nigeria** | $450B | Oil, services |
-| **South Africa** | $400B | Mining, finance |
+| **Nigeria** | $450B | [[Oil]], services |
+| **South [[Africa]]** | $400B | Mining, finance |
 | **Egypt** | $400B | Services, Suez |
-| **Algeria** | $190B | Oil/gas |
-| **Ethiopia** | $120B | Agriculture, growth |
-| **Kenya** | $110B | Services, tech hub |
+| **Algeria** | $190B | [[Oil]]/gas |
+| **Ethiopia** | $120B | [[Agriculture]], growth |
+| **[[Kenya]]** | $110B | Services, tech hub |
 | **Morocco** | $140B | Manufacturing, phosphates |
 
 ---
@@ -52,9 +52,9 @@ aliases: [AU, OAU]
 | REC | Members | Focus |
 |-----|---------|-------|
 | **ECOWAS** | 15 (West) | Nigeria, Ghana, Côte d'Ivoire |
-| **SADC** | 16 (Southern) | South Africa, Zimbabwe |
-| **EAC** | 7 (East) | Kenya, Tanzania, Uganda |
-| **COMESA** | 21 (East/Southern) | Egypt, Kenya |
+| **SADC** | 16 (Southern) | South [[Africa]], Zimbabwe |
+| **EAC** | 7 (East) | [[Kenya]], Tanzania, Uganda |
+| **COMESA** | 21 (East/Southern) | Egypt, [[Kenya]] |
 | **ECCAS** | 11 (Central) | DRC, Cameroon |
 | **AMU** | 5 (North/Maghreb) | Morocco, Algeria (inactive) |
 | **IGAD** | 8 (Horn) | Ethiopia, Somalia |
@@ -68,9 +68,9 @@ RECs = building blocks for continental integration.
 
 | Dimension | AU | [[AfCFTA]] |
 |-----------|-----|-----------|
-| Purpose | Political | Trade |
+| Purpose | Political | [[Trade]] |
 | Members | 55 | 54 (Eritrea out) |
-| Scope | Broad (peace, governance) | Trade-focused |
+| Scope | Broad (peace, governance) | [[Trade]]-focused |
 | Secretariat | AU Commission | AfCFTA Secretariat (Accra) |
 
 AfCFTA is trade arm of AU integration vision.
@@ -79,16 +79,16 @@ AfCFTA is trade arm of AU integration vision.
 
 ## Agenda 2063
 
-| Goal | Target |
+| Goal | [[Target]] |
 |------|--------|
-| Integrated Africa | Free movement, AfCFTA |
+| Integrated [[Africa]] | Free movement, AfCFTA |
 | Good governance | Democracy, human rights |
 | Peace and security | Silence the guns |
 | Infrastructure | PIDA (corridors) |
 | Human capital | Education, health |
 | Culture | Pan-African identity |
 
-**"The Africa We Want"** — 50-year development vision.
+**"The [[Africa]] We Want"** — 50-year development vision.
 
 ---
 
@@ -128,17 +128,17 @@ AfCFTA is trade arm of AU integration vision.
 |------|------------|
 | Stability | Peace = investment climate |
 | Infrastructure | PIDA projects |
-| Governance | AGOA eligibility |
-| Trade | AfCFTA implementation |
+| Governance | [[AGOA]] eligibility |
+| [[Trade]] | AfCFTA implementation |
 
 ### Key country plays
 
 | Country | Theme |
 |---------|-------|
-| **Nigeria** | Oil, fintech, population |
-| **South Africa** | Mining, finance |
+| **Nigeria** | [[Oil]], fintech, population |
+| **South [[Africa]]** | Mining, finance |
 | **Egypt** | Suez, reforms |
-| **Kenya** | Tech hub, M-Pesa |
+| **[[Kenya]]** | Tech hub, M-Pesa |
 | **Morocco** | Manufacturing, auto |
 | **Ethiopia** | Growth (if stable) |
 
@@ -149,7 +149,7 @@ AfCFTA is trade arm of AU integration vision.
 | Source | Contribution |
 |--------|--------------|
 | Member states | Assessed contributions |
-| External partners | EU, China, US |
+| External partners | [[EU]], [[China]], US |
 | Self-financing | 0.2% import levy (some) |
 
 **Dependency:** External funding for much of budget.
@@ -161,18 +161,18 @@ AfCFTA is trade arm of AU integration vision.
 | Event | Significance |
 |-------|--------------|
 | AU joined G20 | Sept 2023 |
-| Represents | Africa at global table |
-| First since | EU joined |
+| Represents | [[Africa]] at global table |
+| First since | [[EU]] joined |
 
 ---
 
 ## Related
 
-- [[AfCFTA]] — African Continental Free Trade Area
+- [[AfCFTA]] — African Continental Free [[Trade]] Area
 - [[Trade Agreements]] — trade hub
 - [[Nigeria]] — largest economy
 - [[South Africa]] — industrial hub
-- [[Emerging markets]] — Africa thesis
+- [[Emerging markets]] — [[Africa]] thesis
 
 ---
 

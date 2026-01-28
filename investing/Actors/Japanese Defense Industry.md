@@ -3,7 +3,7 @@ aliases: [Japan defense industry, Japanese defence industry, JSDF industry]
 ---
 #actor #industry #defense #japan
 
-**Japanese Defense Industry** — Historically constrained by pacifist constitution. Now expanding under China threat. Domestic focus shifting to exports.
+**Japanese Defense Industry** — Historically constrained by pacifist constitution. Now expanding under [[China]] threat. Domestic focus shifting to exports.
 
 ---
 
@@ -51,11 +51,11 @@ Largest peacetime military buildup since WWII.
 
 | Program | Lead | Notes |
 |---------|------|-------|
-| F-X (6th gen fighter) | MHI + BAE | Japan-UK-Italy "Tempest" |
+| F-X (6th gen fighter) | MHI + BAE | Japan-[[UK]]-Italy "Tempest" |
 | Type 12 SSM | MHI | Extended range cruise missile |
 | Aegis system ships | MHI | Replacing Aegis Ashore |
-| Soryu/Taigei subs | KHI/MHI | Diesel-electric attack subs |
-| Space domain | JAXA + industry | SSA, satellites |
+| Soryu/Taigei subs | KHI/MHI | [[Diesel]]-electric attack subs |
+| [[Space]] domain | JAXA + industry | SSA, satellites |
 
 ---
 
@@ -70,7 +70,7 @@ New focus on long-range strike:
 | JSM (Norwegian) | 500 km | For F-35s |
 | Hypersonic | TBD | R&D |
 
-Targets: China/North Korea bases within range.
+Targets: [[China]]/North Korea bases within range.
 
 ---
 
@@ -80,7 +80,7 @@ Targets: China/North Korea bases within range.
 |--------|--------|
 | Domestic focus | Historically Japan-only sales |
 | Export opening | 2023 policy change, starting exports |
-| US interoperability | F-35, Aegis, SM-3 Block IIA |
+| US interoperability | F-35, Aegis, SM-3 [[Block]] IIA |
 | Technology base | Strong industrial capacity |
 | Workforce | Aging, recruitment challenges |
 
@@ -93,8 +93,8 @@ New under relaxed rules:
 | System | Potential markets |
 |--------|-------------------|
 | P-1 patrol aircraft | Maritime nations |
-| US-2 amphibian | India, others |
-| Submarines | Australia (considered, lost to AUKUS) |
+| US-2 amphibian | [[India]], others |
+| Submarines | [[Australia]] (considered, lost to AUKUS) |
 | Missiles | Allied nations |
 
 First major export: PAC-2 components to US (for Ukraine).
@@ -106,7 +106,7 @@ First major export: PAC-2 components to US (for Ukraine).
 **Bull:**
 - Structural budget doubling
 - Constitutional constraints lifting
-- China threat = sustained demand
+- [[China]] threat = sustained demand
 - Quality industrial base
 
 **Bear:**

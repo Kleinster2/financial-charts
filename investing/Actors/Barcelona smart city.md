@@ -22,7 +22,7 @@ aliases: [Smart Barcelona]
 
 | Metric | Value |
 |--------|-------|
-| Sensors deployed | **19,500+** |
+| [[Sensors]] deployed | **19,500+** |
 | Annual savings | **€92M** documented |
 | Water conservation | **25%** reduction |
 | Smart meters | 19,500 |
@@ -37,7 +37,7 @@ aliases: [Smart Barcelona]
 | Feature | Detail |
 |---------|--------|
 | Architecture | Open, interoperable |
-| Sensors connected | 19,500+ |
+| [[Sensors]] connected | 19,500+ |
 | Data types | 100+ |
 | License | Open source |
 | Exports | Adopted by other cities |
@@ -50,7 +50,7 @@ aliases: [Smart Barcelona]
 
 ### Types
 
-| Category | Sensors | Function |
+| Category | [[Sensors]] | Function |
 |----------|---------|----------|
 | **Irrigation** | 2,500+ | Soil moisture, weather |
 | **Parking** | 3,000+ | Occupancy detection |
@@ -78,9 +78,9 @@ aliases: [Smart Barcelona]
 |---------|--------|
 | Concept | 3x3 block car-free zones |
 | Traffic | Redirected to perimeter |
-| Space use | Pedestrians, bikes, green |
+| [[Space]] use | Pedestrians, bikes, green |
 | Deployed | 6 superblocks operational |
-| Target | 500+ by 2030 |
+| [[Target]] | 500+ by 2030 |
 
 **Impact:** 25% traffic reduction, improved air quality, community space.
 
@@ -94,7 +94,7 @@ aliases: [Smart Barcelona]
 |-----------|--------|
 | Public Wi-Fi | 1,000+ hotspots |
 | Fiber backbone | City-wide |
-| 5G | Deploying |
+| [[5G]] | Deploying |
 | IoT network | LoRaWAN coverage |
 
 ### Open data

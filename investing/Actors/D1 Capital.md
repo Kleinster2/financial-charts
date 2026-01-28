@@ -23,7 +23,7 @@ aliases: [D1]
 
 | Fact | Detail |
 |------|--------|
-| Previous | Viking Global (CIO) |
+| Previous | [[Viking Global]] (CIO) |
 | Pedigree | Tiger Cub |
 | Style | Concentrated, long-term |
 
@@ -38,7 +38,7 @@ aliases: [D1]
 | **[[SpaceX]]** | $350B |
 | **[[Stripe]]** | $129B |
 | **[[Databricks]]** | $134B |
-| **Instacart** | Public (CART) |
+| **[[Instacart]]** | Public (CART) |
 
 ### Public
 
@@ -51,7 +51,7 @@ Active long/short equity positions.
 | Generation | Examples |
 |------------|----------|
 | Tiger Management | Julian Robertson |
-| Tiger Cubs | Viking, Lone Pine, Tiger Global |
+| Tiger Cubs | Viking, [[Lone Pine]], Tiger Global |
 | Tiger Grandcubs | D1 (from Viking) |
 
 ---

@@ -61,7 +61,7 @@ Second-best performer in crypto-to-AI pivot, now with Anthropic deal:
 
 | Company | 2025 YTD | Strategy |
 |---------|----------|----------|
-| [[IREN]] | +300% | Microsoft anchor |
+| [[IREN]] | +300% | [[Microsoft]] anchor |
 | **Cipher Mining** | +230% | Fluidstack deals |
 | [[Hut 8]] | +139% | Full transformation |
 | [[Marathon]] | Lagging | Bitcoin pure-play |
@@ -97,7 +97,7 @@ Cipher = strong #2 in pivot execution.
 
 **Background:** Founded Bitfury (Bitcoin mining) 2011. Cipher Mining spun out 2021.
 
-**Google deal (Sept 2025):** Deliver compute to Fluidstack from Colorado City, TX data center. Google received warrants to purchase Cipher equity.
+**[[Google]] deal (Sept 2025):** Deliver compute to Fluidstack from Colorado City, TX data center. [[Google]] received warrants to purchase Cipher equity.
 
 **Stock:** +200% YTD (2025).
 
@@ -110,7 +110,7 @@ Cipher = strong #2 in pivot execution.
 | Ticker | CIFR |
 | 2025 YTD | **+200%** |
 | AI partner | Fluidstack |
-| Google deal | Sept 2025 (warrants) |
+| [[Google]] deal | Sept 2025 (warrants) |
 | Strategy | HPC hosting |
 
 *Updated 2026-01-05*

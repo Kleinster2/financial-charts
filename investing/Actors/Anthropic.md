@@ -31,12 +31,12 @@ Burning **14x less cash** than OpenAI before profitability.
 | **[[Amazon]]** | $4B | AWS partnership, Bedrock distribution |
 | **[[Microsoft]]** | $5B | Late 2025, despite OpenAI relationship |
 | **[[NVIDIA]]** | $10B | Late 2025 |
-| **Salesforce** | $750M | 2023 |
-| **Spark Capital** | — | Early investor, led Series A/B |
-| **Menlo Ventures** | — | Early investor |
+| **[[Salesforce]]** | $750M | 2023 |
+| **[[Spark Capital]]** | — | Early investor, led Series A/B |
+| **[[Menlo Ventures]]** | — | Early investor |
 | **Sound Ventures** | — | Ashton Kutcher's fund |
 | **Jaan Tallinn** | — | Skype co-founder, safety-focused |
-| **Eric Yuan** | — | Zoom founder |
+| **Eric Yuan** | — | [[Zoom]] founder |
 
 **Total raised:** $15B+
 
@@ -60,7 +60,7 @@ Burning **14x less cash** than OpenAI before profitability.
 - 147+ GitHub reactions, 245 HN points
 - DHH called it "very customer hostile"
 - Many Max subscribers canceled
-- **xAI employees cut off** from Claude via Cursor — Tony Wu: "rly pushes us to develop our own coding product"
+- **[[xAI]] employees cut off** from Claude via [[Cursor]] — Tony Wu: "rly pushes us to develop our own coding product"
 - OpenAI employees already blocked Aug 2025
 
 **Official rationale** (Shihipar): Technical instability — unauthorized harnesses introduce bugs Anthropic can't diagnose.
@@ -73,7 +73,7 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ### Trump AI Czar endorsement at Davos (Jan 23, 2026)
 
-**[[David Sacks]]** (White House AI/Crypto Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":
+**[[David Sacks]]** (White House AI/[[Crypto]] Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":
 - Called it "powered by Anthropic's Opus 4.5" — "a real breakthrough in coding"
 - Described it as beginning of personal digital assistants — not just code, but all knowledge worker output
 - Mentioned "co-work" tab: non-coders can create spreadsheets, PowerPoints, websites
@@ -95,7 +95,7 @@ Burning **14x less cash** than OpenAI before profitability.
 **Product milestones:**
 - **Claude Code hit $1B milestone**
 - **Bun acquisition** — JavaScript runtime, infrastructure play
-- **Agent Skills** open standard launched (Dec 18) — integrations with Notion, Canva, Figma, Atlassian
+- **Agent Skills** open standard launched (Dec 18) — integrations with [[Notion]], [[Canva]], [[Figma]], [[Atlassian]]
 
 **Partnerships:**
 - **DOE Genesis Mission** — Multi-year partnership across 17 national labs
@@ -113,11 +113,11 @@ Burning **14x less cash** than OpenAI before profitability.
 | Company | Cumulative burn | Break-even | Source |
 |---------|----------------|------------|--------|
 | Anthropic | ~$12-15B | 2028 | WSJ, The Information |
-| OpenAI | $115-143B | 2029-2030 | The Information, Deutsche Bank |
+| OpenAI | $115-143B | 2029-2030 | The Information, [[Deutsche Bank]] |
 
 Anthropic needs **~8-10x less capital** than OpenAI to reach profitability.
 
-OpenAI also faces a **$207B funding shortfall** through 2030 (HSBC).
+OpenAI also faces a **$207B funding shortfall** through 2030 ([[HSBC]]).
 
 **Daniela Amodei (CNBC, Jan 2026):**
 > "Anthropic has always had a fraction of what our competitors have had in terms of compute and capital, and yet, pretty consistently, we've had the most powerful, most performant models."
@@ -133,9 +133,9 @@ Dario's investor pitch: build cutting-edge models at **1/10th the cost**.
 - Less consumer acquisition cost
 
 **OpenAI's commitments for comparison:**
-- Stargate US: $500B over 4 years (SoftBank, Oracle, MGX)
+- Stargate US: $500B over 4 years ([[SoftBank]], [[Oracle]], [[MGX]])
 - Stargate Norway: 100,000 GPUs by end 2026
-- Total compute commitments by 2033: $1.4T (HSBC/Deutsche Bank)
+- Total compute commitments by 2033: $1.4T ([[HSBC]]/[[Deutsche Bank]])
 
 ---
 
@@ -168,7 +168,7 @@ Largest expansion of Anthropic's TPU usage to date. Separate from Broadcom direc
 | Component | Source | Notes |
 |-----------|--------|-------|
 | TPUv7 chips | [[Broadcom]] direct | Anthropic-owned, not through Google |
-| DC infrastructure | TeraWulf, Hut 8, Cipher Mining | Crypto miners pivoting |
+| DC infrastructure | TeraWulf, Hut 8, Cipher Mining | [[Crypto]] miners pivoting |
 | Operations | [[FluidStack]] | Cabling, burn-in, testing |
 
 **Why direct purchase matters:**

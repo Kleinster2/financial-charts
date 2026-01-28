@@ -1,9 +1,9 @@
 ---
-aliases: [GE, GE Aerospace]
+aliases: [GE, [[GE Aerospace]]]
 ---
 #actor #industrial #usa #aerospace
 
-**General Electric** — American industrial conglomerate, now primarily aerospace (jet engines). Post-breakup, trades as GE Aerospace.
+**General Electric** — American industrial conglomerate, now primarily aerospace (jet engines). Post-breakup, trades as [[GE Aerospace]].
 
 ---
 
@@ -16,7 +16,7 @@ Industrial giant now focused on aerospace:
 | Ticker | GE (NYSE) |
 | HQ | Boston, MA (moving to Cincinnati) |
 | Focus | Jet engines, aerospace |
-| Post-breakup | GE Aerospace (core) |
+| Post-breakup | [[GE Aerospace]] (core) |
 
 ---
 
@@ -26,27 +26,27 @@ Industrial giant now focused on aerospace:
 
 | Spin-off | Ticker | Business | Date |
 |----------|--------|----------|------|
-| **GE Healthcare** | GEHC | Medical imaging, diagnostics | Jan 2023 |
+| **GE [[Healthcare]]** | GEHC | Medical imaging, diagnostics | Jan 2023 |
 | **GE Vernova** | GEV | Power, renewables, grid | Apr 2024 |
-| **GE Aerospace** | GE | Jet engines (retained) | Apr 2024 |
+| **[[GE Aerospace]]** | GE | Jet engines (retained) | Apr 2024 |
 
 What remains as "GE" is the aerospace business.
 
 ---
 
-## GE Aerospace
+## [[GE Aerospace]]
 
 **World's largest jet engine maker:**
 
 | Product | Application |
 |---------|-------------|
-| LEAP | Narrow-body (737 MAX, A320neo) — CFM JV with Safran |
+| LEAP | Narrow-body (737 MAX, A320neo) — [[CFM]] JV with Safran |
 | GE9X | Wide-body (777X) |
 | GEnx | Wide-body (787, 747-8) |
 | CF6 | Legacy wide-body |
 | Military | F110, F414, T700 |
 
-**CFM International:** 50/50 JV with [[Safran]] — dominates narrow-body market.
+**[[CFM]] International:** 50/50 JV with [[Safran]] — dominates narrow-body market.
 
 ---
 
@@ -60,7 +60,7 @@ What remains as "GE" is the aerospace business.
 | Live camera | Reduces food waste |
 | AI tracking | Knows what's inside |
 
-**Note:** GE Appliances was sold to Haier (China) in 2016. Uses GE brand under license.
+**Note:** GE Appliances was sold to Haier ([[China]]) in 2016. Uses GE brand under license.
 
 ---
 
@@ -73,7 +73,7 @@ GE repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one
 ## Investment case
 
 **Bull:**
-- Aerospace cycle strong (travel recovery)
+- [[Aerospace]] cycle strong (travel recovery)
 - LEAP engine demand
 - Aftermarket services (high margin)
 - Focused business post-breakup
@@ -81,7 +81,7 @@ GE repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one
 **Bear:**
 - Boeing 737 MAX issues affect LEAP demand
 - Supply chain constraints
-- China competition (COMAC)
+- [[China]] competition (COMAC)
 - Cyclical aerospace exposure
 
 ---
@@ -91,7 +91,7 @@ GE repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] one
 | Company | Ticker | Relevance |
 |---------|--------|-----------|
 | [[GE Vernova]] | GEV | Power/grid — AI datacenter demand |
-| GE Healthcare | GEHC | Medical imaging |
+| GE [[Healthcare]] | GEHC | Medical imaging |
 
 GE Vernova more relevant for AI/datacenter power thesis.
 
@@ -117,5 +117,5 @@ GE Vernova more relevant for AI/datacenter power thesis.
 - [[GE Vernova]] — spin-off (power, grid)
 - [[Boeing]] — customer (LEAP, GEnx engines)
 - [[Airbus]] — customer (LEAP engines)
-- [[Safran]] — CFM JV partner
+- [[Safran]] — [[CFM]] JV partner
 - [[Tax Cuts and Jobs Act]] — repatriation (2018, used for debt reduction)

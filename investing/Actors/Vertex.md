@@ -11,7 +11,7 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | VRTX (Nasdaq) |
+| Ticker | VRTX ([[Nasdaq]]) |
 | CF market share | **~90%** |
 | Key products | Trikafta, ALYFTREK, CASGEVY |
 | Pipeline | Gene editing, pain, kidney |
@@ -31,7 +31,7 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 
 ## Gene therapy / editing
 
-### CASGEVY (with CRISPR Therapeutics)
+### CASGEVY (with [[CRISPR Therapeutics]])
 - First CRISPR gene therapy approved
 - Sickle cell disease, beta-thalassemia
 - One-time curative potential
@@ -40,7 +40,7 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 
 | Partner | Focus | Value |
 |---------|-------|-------|
-| CRISPR Therapeutics | CFTR gene correction | Ongoing |
+| [[CRISPR Therapeutics]] | CFTR gene correction | Ongoing |
 | Moderna | mRNA + LNP delivery | Multi-year |
 | Arbor Biotechnologies | Novel editing proteins | Up to $1.2B |
 
@@ -90,7 +90,7 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 | Metric | Value |
 |--------|-------|
 | Ticker | VRTX |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$10B |
 | Focus | CF, gene therapy |
 

@@ -14,7 +14,7 @@ aliases: [Abu Dhabi Developmental Holding]
 | Founded | 2018 |
 | AUM | **$263 billion** |
 | Chairman | [[Sheikh Tahnoon bin Zayed Al Nahyan]] |
-| CEO | Mohamed Hassan Alsuwaidi |
+| CEO | [[Mohamed Hassan Alsuwaidi]] |
 | Deals (2020-25) | **280+** |
 
 Youngest and fastest-growing of Abu Dhabi's three SWFs. AUM more than doubled in 4 years.
@@ -24,7 +24,7 @@ Youngest and fastest-growing of Abu Dhabi's three SWFs. AUM more than doubled in
 ## Local focus
 
 ![[abu-dhabi-swf-geography.png]]
-*Geographic deal distribution: ADQ (orange) focuses on UAE and nearby countries. [[Mubadala]] (red) most global. [[ADIA]] (pink) India-focused. (Bloomberg, Dec 2025)*
+*Geographic deal distribution: ADQ (orange) focuses on UAE and nearby countries. [[Mubadala]] (red) most global. [[ADIA]] (pink) [[India]]-focused. (Bloomberg, Dec 2025)*
 
 More than 1/3 of ADQ's ~280 deals since 2020 involved UAE-based companies — local economic development mandate.
 
@@ -39,7 +39,7 @@ More than 1/3 of ADQ's ~280 deals since 2020 involved UAE-based companies — lo
 | Aramex | Logistics |
 | Etihad Airways | Aviation |
 | Etihad Rail | Rail |
-| Pure Health | Healthcare |
+| Pure Health | [[Healthcare]] |
 | TAQA | Energy/utilities |
 | Masdar | Renewables (shared with Mubadala) |
 
@@ -62,7 +62,7 @@ More than 1/3 of ADQ's ~280 deals since 2020 involved UAE-based companies — lo
 | Regional | UAE and nearby countries |
 | Strategic | UAE economic diversification |
 | Infrastructure | Airports, ports, rail, utilities |
-| Healthcare | Pure Health platform |
+| [[Healthcare]] | Pure Health platform |
 
 ---
 
@@ -70,7 +70,7 @@ More than 1/3 of ADQ's ~280 deals since 2020 involved UAE-based companies — lo
 
 | Investment | Detail |
 |------------|--------|
-| Critical minerals | Inputs for chips/batteries |
+| [[Critical minerals]] | Inputs for chips/batteries |
 | Data center land | UAE infrastructure |
 
 Less direct AI investment than [[MGX]] or [[Mubadala]] — focuses on underlying infrastructure and industrial base.
@@ -82,8 +82,8 @@ Less direct AI investment than [[MGX]] or [[Mubadala]] — focuses on underlying
 | Role | Name |
 |------|------|
 | Chairman | [[Sheikh Tahnoon bin Zayed Al Nahyan]] |
-| CEO | Mohamed Hassan Alsuwaidi |
-| Board | Sheikh Hamed bin Zayed Al Nahyan (MD) |
+| CEO | [[Mohamed Hassan Alsuwaidi]] |
+| Board | [[Sheikh Hamed bin Zayed Al Nahyan]] (MD) |
 
 Sheikh Tahnoon chairs both ADQ and [[ADIA]], controlling ~75% of Abu Dhabi's sovereign wealth.
 
@@ -97,7 +97,7 @@ ADQ is anchor LP in [[Lunate]], the $115B alternative asset manager launched in 
 |--------|-------|
 | Lunate AUM | $115B |
 | ADQ role | Anchor LP |
-| Co-investor | Chimera (IHC subsidiary) |
+| Co-investor | Chimera ([[IHC]] subsidiary) |
 
 ---
 
@@ -118,7 +118,7 @@ Fastest-growing among Abu Dhabi's three SWFs.
 **Can't invest directly** (sovereign fund), but signals:
 - UAE economic diversification pace
 - Regional infrastructure build-out
-- Healthcare consolidation
+- [[Healthcare]] consolidation
 - Renewables/energy transition
 
 ---

@@ -20,16 +20,16 @@ Force is communication. Actions chosen for propaganda value, not just strategic 
 
 ## Examples
 
-| Domain | Action | Target | Message |
+| Domain | Action | [[Target]] | Message |
 |--------|--------|--------|---------|
 | **Military** | [[Maduro capture 2026]] | Venezuela | "We will act unilaterally" |
-| **Trade** | Liberation Day tariffs | World | "We set the rules" |
-| **Trade** | Brazil tariffs | Brazil | "Free Bolsonaro" (Moraes pressure) |
-| **Trade** | India tariffs | India | "Stop buying Russian oil" |
+| **[[Trade]]** | [[Liberation Day tariffs]] | World | "We set the rules" |
+| **[[Trade]]** | [[Brazil]] tariffs | [[Brazil]] | "Free Bolsonaro" (Moraes pressure) |
+| **[[Trade]]** | India tariffs | India | "Stop buying Russian oil" |
 | **Immigration** | Raids | Domestic | "Laws enforced, visibly" |
 | **Drugs** | Fentanyl tariffs → bomb threats → sinking boats → Maduro capture | Escalation | See below |
-| **Territorial** | Greenland rhetoric | Denmark | "We can take what we want" |
-| **Territorial** | Panama Canal threats | Panama | "Donroe Doctrine" |
+| **Territorial** | [[Greenland]] rhetoric | Denmark | "We can take what we want" |
+| **Territorial** | [[Panama Canal]] threats | Panama | "[[Donroe Doctrine]]" |
 
 All designed for maximum visibility. The action *is* the message.
 
@@ -41,8 +41,8 @@ Show of force evolved from rhetoric to action:
 
 | Stage | Action | Escalation |
 |-------|--------|------------|
-| 1 | Fentanyl tariffs on China | Trade pressure |
-| 2 | Threaten to bomb cartels in Mexico | Military rhetoric |
+| 1 | Fentanyl tariffs on [[China]] | [[Trade]] pressure |
+| 2 | Threaten to bomb cartels in [[Mexico]] | Military rhetoric |
 | 3 | Sinking drug boats | Military action |
 | 4 | Maduro capture (narco-terrorism charge) | Regime intervention |
 
@@ -54,8 +54,8 @@ The Maduro capture serves multiple agendas simultaneously:
 |-------|--------|------------------------|
 | **Drugs** | Show force against narco-state | Narco-terrorism indictment |
 | **Miller** | Deportation pathway | [[Venezuela repatriation strategy]] |
-| **Rubio** | Cuba regime change | [[Cuba-Venezuela axis]] — cut lifeline |
-| **Bessent** | China leverage | [[US-China commodity leverage]] — oil |
+| **Rubio** | [[Cuba]] regime change | [[Cuba-Venezuela axis]] — cut lifeline |
+| **Bessent** | [[China]] leverage | [[US-China commodity leverage]] — oil |
 
 One action, four wins. That's why it happened.
 
@@ -80,9 +80,9 @@ The capture was real. But the *way* it was executed and announced maximized prop
 |----------|------------------|
 | **Domestic (US)** | "Trump delivers on promises" |
 | **Latin America** | "US is back, don't cross us" |
-| **China/Russia** | "We're unpredictable and willing" |
+| **[[China]]/[[Russia]]** | "We're unpredictable and willing" |
 | **Allies** | "We act alone if needed" |
-| **Cuba** | "You're next" — see [[Cuba-Venezuela axis]] |
+| **[[Cuba]]** | "You're next" — see [[Cuba-Venezuela axis]] |
 
 ---
 
@@ -106,19 +106,19 @@ Trump 2.0 is more explicit about the messaging — force *is* the communication.
 | **Trump** | Messenger-in-chief |
 | **Rubio** | [[Cuba-Venezuela axis]] — strategic driver |
 | **Miller** | [[Venezuela repatriation strategy]] — policy beneficiary |
-| **Hegseth** | Defense execution |
+| **Hegseth** | [[Defense]] execution |
 
 ---
 
 ## Investment implications
 
 **Uncertainty premium:**
-- Defense stocks benefit from unpredictability
+- [[Defense]] stocks benefit from unpredictability
 - EM risk premium increases
-- Oil volatility on intervention threats
+- [[Oil]] volatility on intervention threats
 
 **Watch for:**
-- Next target of rhetoric (Cuba? Greenland? Panama?)
+- Next target of rhetoric ([[Cuba]]? [[Greenland]]? Panama?)
 - Whether threats convert to action
 - International response/isolation risk
 

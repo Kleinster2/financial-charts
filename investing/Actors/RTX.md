@@ -1,9 +1,9 @@
 ---
-aliases: [Raytheon, RTX Corp, RTX Corporation]
+aliases: [[[Raytheon]], RTX Corp, RTX Corporation]
 ---
 #actor #defense #usa #public
 
-**RTX** — Defense and aerospace. Missiles, air defense, jet engines (Pratt & Whitney). Formed from Raytheon + United Technologies merger (2020).
+**RTX** — [[Defense]] and aerospace. Missiles, air defense, jet engines (Pratt & Whitney). Formed from [[Raytheon]] + United Technologies merger (2020).
 
 ---
 
@@ -45,9 +45,9 @@ See [[Trump defense budget]] for full context.
 
 | Segment | Revenue | Products |
 |---------|---------|----------|
-| **Collins Aerospace** | ~$25B | Avionics, interiors, systems |
+| **Collins [[Aerospace]]** | ~$25B | Avionics, interiors, systems |
 | **Pratt & Whitney** | ~$23B | Jet engines (F135, GTF) |
-| **Raytheon** | ~$22B | Missiles, air defense, sensors |
+| **[[Raytheon]]** | ~$22B | Missiles, air defense, sensors |
 
 ---
 
@@ -58,7 +58,7 @@ See [[Trump defense budget]] for full context.
 | **Patriot** | Air/missile defense (global) |
 | **NASAMS** | National air defense (Ukraine) |
 | **Stinger** | MANPADS (Ukraine demand) |
-| **Tomahawk** | Cruise missiles |
+| **Tomahawk** | [[Cruise]] missiles |
 | **SM-6** | Naval air defense (600+ backlog) |
 | **F135** | F-35 engine (Pratt) |
 | **GTF** | Commercial engine (Pratt) |
@@ -74,7 +74,7 @@ RTX fell behind on 600+ SM-6 air-defense missiles to US Navy. Company's view: su
 
 ---
 
-## Capital allocation controversy
+## [[Capital allocation]] controversy
 
 ### Since 2020
 
@@ -88,7 +88,7 @@ Second-highest among primes (after Lockheed).
 
 ### The fundamental tension
 
-Bloomberg Intelligence: Defense companies have "average profit margins and little chance of breakout earnings." Capital returns are how they attract investors given slow growth.
+Bloomberg Intelligence: [[Defense]] companies have "average profit margins and little chance of breakout earnings." Capital returns are how they attract investors given slow growth.
 
 Trump's criticism: Shareholders getting more than production.
 
@@ -125,7 +125,7 @@ Stock fell 2.5% on announcement (less than peers — already priced as target).
 
 ## Rare earth exposure
 
-Like [[Lockheed Martin]], depends on China-controlled rare earths:
+Like [[Lockheed Martin]], depends on [[China]]-controlled rare earths:
 
 | Application | Elements |
 |-------------|----------|

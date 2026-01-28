@@ -26,7 +26,7 @@ aliases: [James Simons, James Harris Simons]
 | 1958 | BS Mathematics, MIT |
 | 1961 | PhD UC Berkeley (age 23) |
 | 1961-64 | MIT faculty |
-| 1964 | Joined Institute for Defense Analyses (NSA codebreaking) |
+| 1964 | Joined Institute for [[Defense]] Analyses (NSA codebreaking) |
 | 1968 | Fired from IDA for anti-Vietnam War stance |
 | 1968 | Became Chair, Math Department, Stony Brook University |
 | 1974 | Published Chern-Simons theory with Shiing-Shen Chern |
@@ -47,7 +47,7 @@ aliases: [James Simons, James Harris Simons]
 
 | Detail | Value |
 |--------|-------|
-| Employer | Institute for Defense Analyses (IDA), Princeton |
+| Employer | Institute for [[Defense]] Analyses (IDA), Princeton |
 | Client | National Security Agency (NSA) |
 | Work | Codebreaking, classified cryptanalysis |
 | Key contact | Met Leonard Baum (Baum-Welch algorithm creator) |
@@ -80,7 +80,7 @@ Simons called collaboration with Chern "the high spot of my mathematical life."
 
 ### Academic honors
 
-| Honor | Year |
+| [[Honor]] | Year |
 |-------|------|
 | AMS Oswald Veblen Prize in Geometry | 1976 |
 | Chair, Stony Brook Math Department | 1968-1978 |
@@ -126,7 +126,7 @@ Simons called collaboration with Chern "the high spot of my mathematical life."
 
 | Year | Event |
 |------|-------|
-| 1993 | Hired Peter Brown and Robert Mercer from IBM |
+| 1993 | Hired Peter Brown and Robert Mercer from [[IBM]] |
 | 2009 | Peter Brown became co-CEO |
 | 2010 | Robert Mercer became co-CEO |
 | 2017 | Mercer resigned (political controversy) |
@@ -200,11 +200,11 @@ Founded program to improve math education in US public schools.
 |-------------|--------|
 | Best track record | Outperformed Buffett, Soros, everyone |
 | Proved quant works | Systematic trading can beat markets long-term |
-| Inspired industry | Two Sigma, D.E. Shaw, countless others |
+| Inspired industry | [[Two Sigma]], D.E. Shaw, countless others |
 | Talent pipeline | Defined quant hiring: PhDs, not MBAs |
 | Math contribution | Chern-Simons theory foundational in physics |
 
-**Called**: "The most successful hedge fund manager of all time" (Wall Street consensus)
+**Called**: "The most successful hedge fund manager of all time" ([[Wall Street consensus]])
 
 ---
 
@@ -212,7 +212,7 @@ Founded program to improve math education in US public schools.
 
 **Why track Jim Simons**:
 
-1. **Benchmark** — Medallion is the gold standard. All quants compared to it.
+1. **[[Benchmark]]** — Medallion is the gold standard. All quants compared to it.
 
 2. **Post-Simons era** — Died May 2024. Watch Renaissance for any performance/culture changes.
 

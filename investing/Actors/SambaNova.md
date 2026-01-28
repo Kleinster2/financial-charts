@@ -16,7 +16,7 @@ Enterprise AI infrastructure:
 | Valuation | $5B+ (2021) |
 | Raised | $1.1B+ |
 | Founded | 2017 |
-| Founders | Stanford professors |
+| Founders | [[Stanford]] professors |
 
 ---
 
@@ -42,11 +42,11 @@ Enterprise AI infrastructure:
 
 ## Enterprise focus
 
-**Target customers:**
+**[[Target]] customers:**
 - Large enterprises
 - Government/national labs
 - Financial services
-- Healthcare
+- [[Healthcare]]
 
 Not competing for hyperscaler business.
 
@@ -59,7 +59,7 @@ Not competing for hyperscaler business.
 | Argonne National Lab | Scientific AI |
 | Lawrence Livermore | Research |
 | Financial institutions | Trading AI |
-| Healthcare orgs | Medical AI |
+| [[Healthcare]] orgs | Medical AI |
 
 ---
 
@@ -114,10 +114,10 @@ Not competing for hyperscaler business.
 
 | Investor | Notes |
 |----------|-------|
-| SoftBank Vision Fund | Lead (Series D) |
-| BlackRock | Growth |
-| Intel Capital | Strategic |
-| GV (Google Ventures) | Growth |
+| [[SoftBank Vision Fund]] | Lead (Series D) |
+| [[BlackRock]] | Growth |
+| [[Intel Capital]] | Strategic |
+| [[GV]] ([[Google]] Ventures) | Growth |
 | Walden International | Early |
 | WRVI Capital | Early |
 

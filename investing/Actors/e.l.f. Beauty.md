@@ -45,7 +45,7 @@ aliases: [ELF, elf Beauty, elf cosmetics]
 | **Price point** | $3-18 average (vs $30-60 prestige) |
 | **Quality perception** | "Prestige quality at mass prices" |
 | **Speed to market** | Fast follower on trends/dupes |
-| **Social media native** | TikTok, Instagram virality |
+| **Social media native** | [[TikTok]], Instagram virality |
 | **Gen Z brand** | Core demographic 18-34 |
 | **Household penetration** | 1 in 3 US households, +400bps YoY |
 | **Brand awareness** | 13% (2020) → 33% (2024), vs leader at 55% |
@@ -57,8 +57,8 @@ aliases: [ELF, elf Beauty, elf cosmetics]
 | Metric | e.l.f. | Legacy brands |
 |--------|--------|---------------|
 | Growth (FY25) | +28% | Declining (Maybelline, CoverGirl) |
-| Target share | 21% of cosmetics category | — |
-| Walmart rank | #2 (from #4) | — |
+| [[Target]] share | 21% of cosmetics category | — |
+| [[Walmart]] rank | #2 (from #4) | — |
 | Unit share | **#1 in US** | — |
 | Dollar share | **#2 in US** | — |
 
@@ -71,8 +71,8 @@ Taking share from [[L'Oréal]] (Maybelline), Coty (CoverGirl), Revlon consistent
 | Market | FY25 Growth | Share |
 |--------|-------------|-------|
 | International (total) | +60% | ~20% of revenue |
-| UK | +270bps share gain | — |
-| Canada | +170bps share gain | — |
+| [[UK]] | +270bps share gain | — |
+| [[Canada]] | +170bps share gain | — |
 
 **Only 20% international today** — massive runway if US playbook replicates.
 
@@ -83,7 +83,7 @@ Taking share from [[L'Oréal]] (Maybelline), Coty (CoverGirl), Revlon consistent
 e.l.f. is the beneficiary of beauty's dupe trend:
 - 27% of US beauty shoppers bought dupes in 2024
 - e.l.f. positioned as the "smart" prestige alternative
-- Social media (TikTok "dupe culture") drives awareness
+- Social media ([[TikTok]] "dupe culture") drives awareness
 - Key advantage: speed to market on trending formulas
 
 ---
@@ -96,7 +96,7 @@ e.l.f. is the beneficiary of beauty's dupe trend:
 | Adjusted EPS | $2.80-2.85 (down from $3.39) |
 | Growth drivers | International, skincare (Naturium brand) |
 
-**EPS decline:** Despite revenue growth, tariff headwinds (China manufacturing) and investment in international expansion compress near-term earnings.
+**EPS decline:** Despite revenue growth, tariff headwinds ([[China]] manufacturing) and investment in international expansion compress near-term earnings.
 
 ---
 
@@ -117,7 +117,7 @@ e.l.f. is the beneficiary of beauty's dupe trend:
 
 | Risk | Detail |
 |------|--------|
-| **Tariffs** | Heavy China manufacturing exposure |
+| **Tariffs** | Heavy [[China]] manufacturing exposure |
 | **Growth normalization** | 77% → 28% → 18-20% deceleration |
 | **Fad risk** | Dupe culture could shift |
 | **Competition** | Other mass brands copying playbook |
@@ -138,7 +138,7 @@ e.l.f. is the beneficiary of beauty's dupe trend:
 
 **Bear:**
 - Growth decelerating meaningfully
-- Tariff headwinds (China manufacturing)
+- Tariff headwinds ([[China]] manufacturing)
 - Stock still premium despite correction
 - EPS declining in FY26
 - Dupe culture is fickle

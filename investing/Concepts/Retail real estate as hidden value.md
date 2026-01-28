@@ -42,7 +42,7 @@ Legacy department stores sit on irreplaceable real estate in prime urban locatio
 | Air rights | $436M - $871M (JPMorgan) |
 | Total real estate portfolio | $5B - $11B (analyst estimates) |
 
-Starboard Value (2015, 2020) pressured Macy's to spin off real estate, claiming $20B in property value. Macy's explored office tower development atop Herald Square using air rights.
+[[Starboard Value]] (2015, 2020) pressured Macy's to spin off real estate, claiming $20B in property value. Macy's explored office tower development atop Herald Square using air rights.
 
 **Why it hasn't happened:** Reconfiguration costs ($200-500/sq ft), lease complexity, operational disruption.
 

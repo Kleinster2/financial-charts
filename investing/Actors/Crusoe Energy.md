@@ -20,7 +20,7 @@ Crusoe solves two problems at once — stranded gas monetization and AI compute:
 ## Business model
 
 **The insight:**
-- Oil wells flare (burn) natural gas that's uneconomical to pipe
+- [[Oil]] wells flare (burn) natural gas that's uneconomical to pipe
 - Crusoe puts generators + data centers at well sites
 - Converts waste gas to AI compute
 - Cheaper than grid power, reduces emissions
@@ -108,16 +108,16 @@ Crusoe wins on power cost; loses on location flexibility (tied to gas fields).
 
 | Investor | Role |
 |----------|------|
-| **Valor Equity Partners** | Co-lead Series E |
-| **Mubadala Capital** | Co-lead Series E |
+| **[[Valor Equity Partners]]** | Co-lead Series E |
+| **[[Mubadala]] Capital** | Co-lead Series E |
 | **[[Founders Fund]]** | Seed investor |
 | **[[NVIDIA]]** | Strategic (Series D+) |
 | **[[Tiger Global]]** | Series E |
-| **T. Rowe Price** | Series E |
-| **Fidelity** | Series E |
-| **Franklin Templeton** | Series E |
+| **[[T. Rowe Price]]** | Series E |
+| **[[Fidelity]]** | Series E |
+| **[[Franklin Templeton]]** | Series E |
 | **[[Spark Capital]]** | Series E |
-| **Altimeter Capital** | Series E |
+| **[[Altimeter Capital]]** | Series E |
 | **[[Blue Owl]]** | JV partner ($15B) |
 
 ---

@@ -3,7 +3,7 @@ aliases: [First Round]
 ---
 #actor #investor #venturecapital #usa #private
 
-**First Round Capital** — Seed specialist. Uber, Square, Notion first check. ~$1B AUM. Community-focused.
+**First Round Capital** — Seed specialist. [[Uber]], Square, [[Notion]] first check. ~$1B AUM. Community-focused.
 
 ---
 
@@ -22,13 +22,13 @@ aliases: [First Round]
 
 | Company | Status |
 |---------|--------|
-| **Uber** | Public (UBER) |
+| **[[Uber]]** | Public (UBER) |
 | **Square** | Public (SQ) |
-| **Notion** | Private |
-| **Roblox** | Public (RBLX) |
+| **[[Notion]]** | Private |
+| **[[Roblox]]** | Public (RBLX) |
 | **Warby Parker** | Public (WRBY) |
 | **Blue Apron** | Public (crashed) |
-| **Flatiron Health** | Acquired by Roche |
+| **Flatiron Health** | Acquired by [[Roche]] |
 
 ---
 
@@ -39,7 +39,7 @@ aliases: [First Round]
 | **First Round Review** | Content/blog |
 | **CXO summits** | Exec gatherings |
 | **Angel Track** | Angel training |
-| **Founder community** | Network effects |
+| **Founder community** | [[Network effects]] |
 
 First Round pioneered VC community building.
 
@@ -63,7 +63,7 @@ First Round pioneered VC community building.
 | Founded | 2004 |
 | AUM | ~$1B |
 | Focus | Seed |
-| Key deals | Uber, Square, Notion |
+| Key deals | [[Uber]], Square, [[Notion]] |
 
 ---
 

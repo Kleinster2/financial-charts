@@ -57,8 +57,8 @@ Prevented broader contagion.
 | Bank | Outcome |
 |------|---------|
 | Signature Bank | Failed |
-| First Republic | Failed (May 2023) |
-| Credit Suisse | Forced UBS merger |
+| First [[Republic]] | Failed (May 2023) |
+| Credit Suisse | Forced [[UBS]] merger |
 | Regional banks | Stock pressure |
 
 ---
@@ -67,7 +67,7 @@ Prevented broader contagion.
 
 | Theme | Expression |
 |-------|------------|
-| Regional bank risk | KRE ETF volatility |
+| Regional bank risk | [[KRE]] ETF volatility |
 | Duration management | ALM focus |
 | Deposit concentration | Risk factor |
 | Too big to fail | Large bank premium |

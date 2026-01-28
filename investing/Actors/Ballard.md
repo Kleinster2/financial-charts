@@ -15,7 +15,7 @@ Ballard is the focused fuel cell play:
 |--------|-------|
 | Focus | Heavy-duty mobility fuel cells |
 | Markets | Bus, truck, rail, marine |
-| Geography | Global (China, Europe, NA) |
+| Geography | Global ([[China]], [[Europe]], NA) |
 | Strategy | Technology + partnerships |
 
 ---
@@ -33,7 +33,7 @@ Ballard is the focused fuel cell play:
 
 ---
 
-## Target markets
+## [[Target]] markets
 
 | Market | Why hydrogen |
 |--------|--------------|
@@ -42,15 +42,15 @@ Ballard is the focused fuel cell play:
 | Trains | Non-electrified routes |
 | Ships | Marine decarbonization |
 
-**Thesis:** Batteries for cars, hydrogen for heavy transport.
+**Thesis:** [[Batteries]] for cars, hydrogen for heavy transport.
 
 ---
 
-## China exposure
+## [[China]] exposure
 
-**Significant China business:**
+**Significant [[China]] business:**
 - Weichai Power partnership
-- China pushing hydrogen buses
+- [[China]] pushing hydrogen buses
 - Joint ventures
 - Risk: Geopolitics, competition
 
@@ -89,8 +89,8 @@ Ballard is the focused fuel cell play:
 
 **Bear:**
 - Hydrogen infrastructure slow to build
-- Battery trucks improving (Tesla Semi)
-- China revenue risk
+- Battery trucks improving ([[Tesla]] Semi)
+- [[China]] revenue risk
 - Still unprofitable
 - Long timeline to scale
 
@@ -105,7 +105,7 @@ Ballard is the focused fuel cell play:
 | Revenue (TTM) | ~$100M |
 | Net income | Losses (smaller than Plug) |
 | Cash | Adequate for near-term |
-| HQ | Vancouver, Canada |
+| HQ | Vancouver, [[Canada]] |
 
 ---
 
@@ -113,7 +113,7 @@ Ballard is the focused fuel cell play:
 
 | Aspect | Ballard | [[Plug Power]] |
 |--------|---------|----------------|
-| Focus | Transport | Ecosystem |
+| Focus | [[Transport]] | Ecosystem |
 | Financial health | Better | Worse |
 | Strategy | Partnerships | Vertical |
 | Revenue | Smaller | Larger |

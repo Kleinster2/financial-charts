@@ -54,11 +54,11 @@ Oracle not shown (fiscal year ends May, quarters don't align).
 | Source | 2025 | 2026 | YoY |
 |--------|------|------|-----|
 | CreditSights | ~$443B | **~$602B** | +36% |
-| Goldman Sachs | — | **$527B+** | — |
+| [[Goldman Sachs]] | — | **$527B+** | — |
 
 ~75% of 2026 capex (~$450B) is AI infrastructure.
 
-### Total AI infrastructure market (Gartner, Jan 2026)
+### Total AI infrastructure market ([[Gartner]], Jan 2026)
 
 | Metric | 2026 forecast |
 |--------|---------------|
@@ -85,7 +85,7 @@ Oracle is ramping fastest but showing financial strain:
 
 **Credit concerns:** Oracle's CDS spreads widened to 125+ bps — levels not seen since 2009. Bonds trade like junk despite Baa2/BBB ratings.
 
-**Why:** OpenAI/Stargate ($300B commitment), Meta and NVIDIA contracts driving backlog.
+**Why:** [[OpenAI]]/Stargate ($300B commitment), Meta and [[NVIDIA]] contracts driving backlog.
 
 ---
 
@@ -109,37 +109,37 @@ Largest neocloud. GPU-collateralized debt model unprecedented in tech. $14B Meta
 
 | Tier | Players |
 |------|---------|
-| **Platinum** | CoreWeave (only) |
-| **Gold** | Nebius, Oracle, Azure, Crusoe, [[FluidStack]] |
-| **Silver** | AWS, Lambda, Scaleway |
+| **[[Platinum]]** | CoreWeave (only) |
+| **[[Gold]]** | [[Nebius]], Oracle, Azure, Crusoe, [[FluidStack]] |
+| **[[Silver]]** | AWS, Lambda, [[Scaleway]] |
 
 ### Other neoclouds
 
 | Player | Status | Notes |
 |--------|--------|-------|
-| **Lambda Labs** | Private | Developer-first, $480M Series D (Feb 2025) |
+| **[[Lambda Labs]]** | Private | Developer-first, $480M Series D (Feb 2025) |
 | **Crusoe** | Private | 45GW pipeline, flare gas / stranded renewables |
-| **Nebius** | Public (NBIS) | Yandex spin-off, $750M-$1B ARR target |
-| **[[FluidStack]]** | Private | Anthropic ops partner, Gold tier |
-| **Nscale** | Private | NVIDIA-backed, Stargate Norway (100K GPUs by 2026) |
-| **Voltage Park** | Private | Significant GPU capacity |
-| **Together AI** | Private | Training/inference platform |
-| **Vultr** | Private | Established, broad GPU offering |
-| **Civo** | Private | UK-based |
-| **Scaleway** | — | European, Silver tier |
-| **RunPod** | Private | Budget ($1.74/hr H100) |
-| **Vast.ai** | Private | Marketplace model |
+| **[[Nebius]]** | Public (NBIS) | [[Yandex]] spin-off, $750M-$1B ARR target |
+| **[[FluidStack]]** | Private | [[Anthropic]] ops partner, [[Gold]] tier |
+| **[[Nscale]]** | Private | [[NVIDIA]]-backed, Stargate Norway (100K GPUs by 2026) |
+| **[[Voltage Park]]** | Private | Significant GPU capacity |
+| **[[Together AI]]** | Private | Training/inference platform |
+| **[[Vultr]]** | Private | Established, broad GPU offering |
+| **[[Civo]]** | Private | [[UK]]-based |
+| **[[Scaleway]]** | — | European, [[Silver]] tier |
+| **[[RunPod]]** | Private | Budget ($1.74/hr H100) |
+| **[[Vast.ai]]** | Private | Marketplace model |
 
 **Pricing range:** H100 varies 4x across providers ($1.45-$6.15/hr). CoreWeave commands premium.
 
-**Cost breakdown (per Nebius):**
+**Cost breakdown (per [[Nebius]]):**
 - GPUs: **80%** of spending
 - DC buildout: 18-20%
 - Land/power: ~1%
 
 ### Neocloud risk
 
-Early 2026 sentiment shifting from "build it and they will come" to ROIC focus. CoreWeave trading at discount to 2025 highs. Lambda/Together IPO windows narrowing.
+Early 2026 sentiment shifting from "build it and they will come" to [[ROIC]] focus. CoreWeave trading at discount to 2025 highs. Lambda/Together IPO windows narrowing.
 
 **Market size:** GPU-as-a-service was $3.2B (2023) → projected $49.8B (2032), 36% CAGR.
 
@@ -154,11 +154,11 @@ Hyperscalers are using multiple structures:
 | Structure | Example |
 |-----------|---------|
 | Corporate bonds | Meta $30B IG offering (2025) |
-| Private credit | Meta $30B SPV with Blue Owl |
+| [[Private credit]] | Meta $30B SPV with [[Blue Owl]] |
 | Project finance | GPU leasing, DC sale-leasebacks |
 | Off-balance-sheet | Meta Hyperion ($50B Louisiana DC) |
 
-Morgan Stanley estimates $1.5T total AI financing needed, $800B via private credit by 2028.
+[[Morgan Stanley]] estimates $1.5T total AI financing needed, $800B via private credit by 2028.
 
 See [[AI infrastructure financing]] for details.
 
@@ -168,7 +168,7 @@ See [[AI infrastructure financing]] for details.
 
 **For semiconductors:**
 ```
-Hyperscaler $ → NVIDIA/AMD → TSMC → SK Hynix (HBM) → OSAT
+Hyperscaler $ → [[NVIDIA]]/[[AMD]] → [[TSMC]] → [[SK Hynix]] ([[HBM]]) → OSAT
 ```
 
 Every dollar of capex flows through the chip supply chain. $600B in 2026 = unprecedented demand.
@@ -187,8 +187,8 @@ Every dollar of capex flows through the chip supply chain. $600B in 2026 = unpre
 
 ## For theses
 
-- [[Long TSMC]] — hyperscaler capex = TSMC revenue
-- [[Long memory]] — every GPU needs HBM
+- [[Long TSMC]] — hyperscaler capex = [[TSMC]] revenue
+- [[Long memory]] — every GPU needs [[HBM]]
 - [[AI infrastructure financing]] — credit market implications
 
 ---

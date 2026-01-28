@@ -3,28 +3,28 @@ aliases: [BIDU, 9888]
 ---
 #actor #hyperscaler #china #ai
 
-**Baidu** — China's Google. Ernie AI model (early mover). Apollo autonomous driving.
+**Baidu** — [[China]]'s [[Google]]. Ernie AI model (early mover). [[Apollo]] autonomous driving.
 
 ---
 
 ## Why Baidu matters
 
-Baidu was China's AI first mover and leads in autonomous driving:
+Baidu was [[China]]'s AI first mover and leads in autonomous driving:
 
 | Metric | Value |
 |--------|-------|
-| Core business | Search (~70% China share) |
+| Core business | Search (~70% [[China]] share) |
 | AI model | Ernie (文心一言) — early mover |
-| Autonomous | Apollo — China leader |
-| Cloud | #4 China |
+| Autonomous | [[Apollo]] — [[China]] leader |
+| Cloud | #4 [[China]] |
 
 ---
 
 ## Ernie AI model
 
-**China's ChatGPT rival:**
+**[[China]]'s [[ChatGPT]] rival:**
 - Ernie Bot (文心一言) launched March 2023
-- First major China LLM
+- First major [[China]] LLM
 - Integrated into Baidu Search
 - Enterprise API available
 
@@ -32,19 +32,19 @@ Baidu was China's AI first mover and leads in autonomous driving:
 - Beat Alibaba, Tencent to market
 - Significant user base
 - But competitors catching up
-- [[ByteDance]] Doubao gaining
+- [[ByteDance]] [[Doubao]] gaining
 
 ---
 
-## Apollo autonomous driving
+## [[Apollo]] autonomous driving
 
-**China's leading AV platform:**
+**[[China]]'s leading AV platform:**
 - Robotaxi operations in multiple cities
 - 100M+ km autonomous miles
 - L4 autonomous technology
 - Partnerships with OEMs
 
-**Apollo Go:**
+**[[Apollo]] Go:**
 - Commercial robotaxi service
 - Wuhan, Beijing, other cities
 - Revenue generating (small)
@@ -54,8 +54,8 @@ Baidu was China's AI first mover and leads in autonomous driving:
 
 ## Baidu Cloud
 
-**#4 in China cloud:**
-- Behind Alibaba, Tencent, Huawei
+**#4 in [[China]] cloud:**
+- Behind Alibaba, Tencent, [[Huawei]]
 - AI cloud focus
 - Enterprise customers
 - Smaller than peers
@@ -114,8 +114,8 @@ See [[Kunlunxin]] for full details.
 ## Investment case
 
 **Bull:**
-- AI early mover in China
-- Apollo AV leadership
+- AI early mover in [[China]]
+- [[Apollo]] AV leadership
 - Search cash flow
 - Custom silicon progress
 - Cheap valuation
@@ -148,8 +148,8 @@ Price target jumped 55% after September AI chip order news / Kunlunxin IPO filin
 |--------|-------|
 | Ticker | BIDU (NASDAQ), 9888 (HK) |
 | Market cap | ~$30-40B |
-| HQ | Beijing, China |
-| Search share | ~70% China |
+| HQ | Beijing, [[China]] |
+| Search share | ~70% [[China]] |
 | AI model | Ernie |
 
 *Updated 2026-01-05*
@@ -162,14 +162,14 @@ Price target jumped 55% after September AI chip order news / Kunlunxin IPO filin
 - [[Ernie]] — AI model (300M users, ERNIE 5.0)
 
 ### Competitors/Peers
-- [[Alibaba]] — competitor (China cloud/AI)
-- [[ByteDance]] — competitor (Doubao gaining on Ernie)
-- [[Tencent]] — competitor (China cloud)
+- [[Alibaba]] — competitor ([[China]] cloud/AI)
+- [[ByteDance]] — competitor ([[Doubao]] gaining on Ernie)
+- [[Tencent]] — competitor ([[China]] cloud)
 - [[Kunlunxin]] — subsidiary (AI chips, IPO 2027)
 - [[Andrew Ng]] — history (Chief Scientist 2014-2017)
 - [[MSR Asia]] — talent source (many alumni joined)
 - [[Export controls]] — constraint (H200 only)
 - [[China AI clusters]] — context (Kunlun compute)
-- [[Waymo]] — competitor (Apollo vs Waymo in AV)
+- [[Waymo]] — competitor ([[Apollo]] vs Waymo in AV)
 - [[AI hyperscalers]] — peer category
-- [[Autonomous vehicles]] — Apollo context
+- [[Autonomous vehicles]] — [[Apollo]] context

@@ -9,9 +9,9 @@
 Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions rebuilding the industry. If successful:
 
 - 303B barrels unlocked (world's largest reserves)
-- Production could triple from ~1M to 3M bpd
+- Production could triple from ~1M to [[3M]] bpd
 - Gulf Coast refiners get cheap, nearby heavy crude
-- Oil services get multi-year infrastructure contracts
+- [[Oil]] services get multi-year infrastructure contracts
 
 ---
 
@@ -28,7 +28,7 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 | ConocoPhillips (COP) | +2.6% | Could return |
 | Exxon (XOM) | +2.2% | Could return |
 
-**Oil prices:** WTI +1.4% ($58.13), Brent +1.2% ($61.50)
+**[[Oil]] prices:** WTI +1.4% ($58.13), Brent +1.2% ($61.50)
 
 **Infrastructure status:** Jose port, Amuay refinery, Orinoco Belt operational — no damage from US action.
 
@@ -38,7 +38,7 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 
 | Metric | Current | Potential |
 |--------|---------|-----------|
-| Production | ~1M bpd | 2.5-3M bpd |
+| Production | ~1M bpd | 2.5-[[3M]] bpd |
 | Reserves | 303B barrels | Same (untapped) |
 | Infrastructure | Degraded | Needs $50B+ rebuild |
 | Timeline | — | 3-5+ years |
@@ -122,10 +122,10 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 
 - Security environment unstable
 - Transition government may not form
-- Russia/China opposition
+- Russia/[[China]] opposition
 - Infrastructure more degraded than expected
-- Oil prices already low (oversupplied)
-- ESG/political backlash on "oil grab"
+- [[Oil]] prices already low (oversupplied)
+- [[ESG]]/political backlash on "oil grab"
 - Takes 5+ years to meaningfully increase production
 - Legal and commercial framework currently deemed 'uninvestable' by industry (Exxon CEO)
 
@@ -135,16 +135,16 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 
 ## Signposts to watch
 
-| Signal | Bullish | Bearish |
+| [[Signal]] | Bullish | Bearish |
 |--------|---------|---------|
 | Transition government | Forms, pro-US | Chaos, contested |
 | Chevron operations | Resume, expand | Suspended |
 | Exxon announcement | Returns to Venezuela | Stays out |
 | Services contracts | Awarded | Delayed |
 | Security | Stable | Violence |
-| Russia/China | Accept outcome | Intervene |
+| Russia/[[China]] | Accept outcome | Intervene |
 
-### Jan 10, 2026 — Oil transfer announced
+### Jan 10, 2026 — [[Oil]] transfer announced
 
 Trump on Truth Social: Venezuela interim authorities will hand over **30-50 million barrels** of oil to US. Money "controlled by me, as President" to benefit Venezuela and US.
 
@@ -158,12 +158,12 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 
 | Executive | Company | Response |
 |-----------|---------|----------|
-| Darren Woods | [[Exxon]] | "Pretty significant changes" needed |
-| Ryan Lance | [[ConocoPhillips]] | Still owed $12B, cautious |
+| [[Darren Woods]] | [[Exxon]] | "Pretty significant changes" needed |
+| [[Ryan Lance]] | [[ConocoPhillips]] | Still owed $12B, cautious |
 | Mike Summers | API | "Must establish rule of law" |
-| Harold Hamm | Continental | Coy, non-committal |
+| [[Harold Hamm]] | Continental | Coy, non-committal |
 
-**Implication:** Rebuild thesis faces significant headwinds. As stated by Exxon CEO Darren Woods, Venezuela is currently **"uninvestable"** given the lack of legal and commercial frameworks. This fundamentally delays the timeline and significantly increases the risk profile for major capital commitments. Industry wants robust legal framework and security before committing capital.
+**Implication:** Rebuild thesis faces significant headwinds. As stated by Exxon CEO [[Darren Woods]], Venezuela is currently **"uninvestable"** given the lack of legal and commercial frameworks. This fundamentally delays the timeline and significantly increases the risk profile for major capital commitments. Industry wants robust legal framework and security before committing capital.
 
 ---
 
@@ -175,7 +175,7 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 
 **Moderate:**
 - Valero (largest independent refiner)
-- Marathon Petroleum (largest overall refiner)
+- [[Marathon]] Petroleum (largest overall refiner)
 - Chevron (direct but diversified)
 
 **Conservative:**
@@ -193,44 +193,44 @@ Trump met ~20 oil executives seeking $100B investment commitment. **Result: deep
 | Stabilization | 3-6 months? | Government forms, contracts awarded |
 | Early rebuild | 1-2 years | Services ramp, drilling restarts |
 | Production growth | 3-5 years | Meaningful volume increase |
-| Full potential | 5-10 years | Approach 3M bpd |
+| Full potential | 5-10 years | Approach [[3M]] bpd |
 
 ---
 
 ## Rare earths (secondary opportunity)
 
-Beyond oil, Venezuela has rare earth deposits that could reduce US dependence on China. Less developed than oil thesis but part of broader strategic value.
+Beyond oil, Venezuela has rare earth deposits that could reduce US dependence on [[China]]. Less developed than oil thesis but part of broader strategic value.
 
 ### Jan 10, 2026 — Fox Business report
 
 | Claim | Source | Verification |
 |-------|--------|--------------|
 | ~300,000 metric tons rare earth reserves | Esposito/AscalonVI Capital | Unverified |
-| About half of China's reserves | Same | Unverified |
-| China already moving into Venezuela rare earths | Same | Plausible |
+| About half of [[China]]'s reserves | Same | Unverified |
+| [[China]] already moving into Venezuela rare earths | Same | Plausible |
 | Timeline: 3-6 years for infrastructure | Same | Consistent with oil timeline |
 
-**Caveat:** Independent verification limited. Rare Earth Exchanges (Dec 2025) reported Venezuela reserves "do not rival those of China, Australia or the US" — consist of "monazite-bearing sands, carbonatitic and granitic indications, and thorium-associated minerals" in the Guayana Shield.
+**Caveat:** Independent verification limited. Rare Earth Exchanges (Dec 2025) reported Venezuela reserves "do not rival those of [[China]], [[Australia]] or the US" — consist of "monazite-bearing sands, carbonatitic and granitic indications, and thorium-associated minerals" in the Guayana Shield.
 
 ### Strategic context
 
 | Factor | Implication |
 |--------|-------------|
-| China rare earth dominance | 70% mining, 90% processing |
-| China already in Venezuela | Bottlenecking supply |
-| [[Donroe Doctrine]] | Push China out of Americas |
+| [[China]] rare earth dominance | 70% mining, 90% processing |
+| [[China]] already in Venezuela | Bottlenecking supply |
+| [[Donroe Doctrine]] | Push [[China]] out of Americas |
 | Ukraine deal | Also includes rare earth access |
-| "Mosaic" strategy | Multiple sources to counter China |
+| "Mosaic" strategy | Multiple sources to counter [[China]] |
 
 ### Investment plays (if thesis develops)
 
 | Company | Exposure | Notes |
 |---------|----------|-------|
-| MP Materials (MP) | US rare earths | Domestic beneficiary |
-| Lynas (LYSDY) | Australian rare earths | Non-China processor |
+| [[MP Materials]] (MP) | US rare earths | Domestic beneficiary |
+| Lynas (LYSDY) | Australian rare earths | Non-[[China]] processor |
 | REalloys | NA refinery | Building first commercial-scale heavy rare earth refinery (Saskatchewan) |
 
-**Bottom line:** Oil is the primary thesis. Rare earths are optionality — part of larger China decoupling strategy but unproven reserves and longer timeline.
+**Bottom line:** [[Oil]] is the primary thesis. Rare earths are optionality — part of larger [[China]] decoupling strategy but unproven reserves and longer timeline.
 
 ---
 
@@ -244,10 +244,10 @@ Beyond oil, Venezuela has rare earth deposits that could reduce US dependence on
 - [[Schlumberger]], [[Halliburton]], [[Baker Hughes]] — services
 - [[Gulf Coast refiners]] — refining complex
 - [[Valero]], [[Marathon Petroleum]], [[PBF Energy]], [[Phillips 66]] — refiners
-- [[CNPC]], [[Sinopec]] — losers (China)
+- [[CNPC]], [[Sinopec]] — losers ([[China]])
 - [[Russia]] — loser (ally)
 - [[Power constraints]] — if oil supply grows, energy costs drop
 - [[PDVSA]] — core entity for rebuild
 - [[Critical minerals]] — rare earths secondary opportunity
-- [[Donroe Doctrine]] — push China out of Americas
+- [[Donroe Doctrine]] — push [[China]] out of Americas
 

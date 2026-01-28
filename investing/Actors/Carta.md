@@ -47,7 +47,7 @@ Carta is the operating system for private company equity:
 
 | Revenue | Description |
 |---------|-------------|
-| SaaS subscriptions | Cap table software |
+| [[SaaS]] subscriptions | Cap table software |
 | 409A valuations | Per-valuation fees |
 | Fund admin | % of AUM |
 | CartaX | Transaction fees |
@@ -72,7 +72,7 @@ Carta is the operating system for private company equity:
 - Dominant cap table position
 - Incredible data asset
 - CartaX could be transformative
-- Private markets growing
+- [[Private markets]] growing
 - Essential infrastructure
 
 **Bear:**
@@ -99,10 +99,10 @@ Carta is the operating system for private company equity:
 |----------|-------|
 | [[a16z]] | Lead (Series D, E) |
 | Lightspeed | Early |
-| Spark Capital | Early |
+| [[Spark Capital]] | Early |
 | Meritech | Growth |
-| Silver Lake | Growth (Series F) |
-| Ribbit Capital | Growth |
+| [[Silver Lake]] | Growth (Series F) |
+| [[Ribbit Capital]] | Growth |
 
 **Total raised:** $900M+
 
@@ -125,7 +125,7 @@ Carta is the operating system for private company equity:
 
 | Aspect | Carta | [[Forge Global]] |
 |--------|-------|------------------|
-| Core business | Cap table SaaS | Secondary trading |
+| Core business | Cap table [[SaaS]] | Secondary trading |
 | Data | Deeper (owns cap tables) | Transaction focused |
 | Exchange | CartaX (newer) | Established |
 | Status | Private | Public |

@@ -3,7 +3,7 @@ aliases: [Furiosa, Furiosa AI]
 ---
 #actor #ai #chips #korea #private
 
-**FuriosaAI** — South Korean NPU startup building inference-optimized chips. RNGD delivers 2-3x better perf/watt vs NVIDIA GPUs. Mass production began January 2026. Rejected Meta's $800M acquisition offer.
+**FuriosaAI** — South Korean NPU startup building inference-optimized chips. RNGD delivers 2-3x better perf/watt vs NVIDIA GPUs. Mass production began January 2026. Rejected [[Meta]]'s $800M acquisition offer.
 
 ---
 
@@ -20,7 +20,7 @@ aliases: [Furiosa, Furiosa AI]
 
 **The pitch:** Inference-optimized [[NPU]] chips that match NVIDIA GPU performance at 2-3x better power efficiency — critical as [[Power constraints]] become binding.
 
-**The validation:** Meta tried to acquire for $800M (Mar 2025). FuriosaAI declined, citing disagreements over post-acquisition strategy. Three months later, signed LG AI Research as major customer.
+**The validation:** [[Meta]] tried to acquire for $800M (Mar 2025). FuriosaAI declined, citing disagreements over post-acquisition strategy. Three months later, signed LG AI Research as major customer.
 
 ---
 
@@ -30,7 +30,7 @@ aliases: [Furiosa, Furiosa AI]
 |------|--------|
 | Name | RNGD ("Renegade") |
 | Type | [[NPU]] (Neural Processing Unit) |
-| Process | **TSMC 5nm** |
+| Process | **[[TSMC]] 5nm** |
 | Memory | **48GB HBM3** (12-layer, CoWoS-S) |
 | On-chip SRAM | **256MB** |
 | Bandwidth | **1.5 TB/s** |
@@ -68,7 +68,7 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 - RNGD: data flows through compute units, gets reused at each stage
 - Moving data costs more energy than computation — minimizing movement = efficiency
 
-**Hot Chips 2024:** Presented RNGD running Meta's Llama with 3x better performance per watt vs NVIDIA H100.
+**Hot Chips 2024:** Presented RNGD running [[Meta]]'s [[Llama]] with 3x better performance per watt vs NVIDIA H100.
 
 ---
 
@@ -95,10 +95,10 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 |------------------|--------|---------|
 | **[[LG]] AI Research** | **Design win** (Jul 2025) | 7-month evaluation → commercial deal. Running EXAONE foundation models. 2.25x better perf/watt vs GPUs. |
 | [[OpenAI]] | Demo partner (Sep 2025) | "Sustainable enterprise AI" demo in Seoul |
-| ByteBridge | Partnership (Oct 2025) | AI infrastructure transformation in Asia-Pacific |
+| ByteBridge | Partnership (Oct 2025) | AI infrastructure transformation in [[Asia]]-Pacific |
 | CMC Korea | Partnership (Aug 2025) | AI solutions development in Vietnam |
-| Kakao | Early customer | First-gen NPU for computer vision |
-| Meta | Acquisition rejected | $800M offer (Mar 2025), declined |
+| [[Kakao]] | Early customer | First-gen NPU for computer vision |
+| [[Meta]] | Acquisition rejected | $800M offer (Mar 2025), declined |
 
 **LG deal significance:** "One of the first major on-premises enterprise adoptions of inference hardware from a semiconductor startup." Targets electronics, finance, telecom, biotech.
 
@@ -111,7 +111,7 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 | Market | Dominant player | Furiosa position |
 |--------|-----------------|------------------|
 | Training | [[NVIDIA]] (GPUs) | Not competing |
-| Inference | NVIDIA + others | Target market |
+| Inference | NVIDIA + others | [[Target]] market |
 
 **Why inference matters:** Training happens once. Inference (using models) happens billions of times. Power efficiency = cost savings at scale.
 
@@ -124,9 +124,9 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 | [[NVIDIA]] | GPU incumbent | Dominant — acquired [[Groq]] assets (Dec 2025) |
 | [[Groq]] | LPU (inference) | **Acquired by NVIDIA** ($20B, Dec 2025) |
 | [[Cerebras]] | Wafer-scale | Training focus, shipping |
-| [[Tenstorrent]] | RISC-V AI | Early, Jim Keller credibility |
+| [[Tenstorrent]] | [[RISC-V]] AI | Early, Jim Keller credibility |
 | **FuriosaAI** | **NPU (inference)** | **Mass production started Jan 2026** |
-| [[Ascend]] (Huawei) | China domestic | Sanctioned, [[SMIC]] fab limits |
+| [[Ascend]] ([[Huawei]]) | [[China]] domestic | Sanctioned, [[SMIC]] fab limits |
 
 **Post-Groq landscape:** With NVIDIA absorbing Groq's IP and key engineers (including founder Jonathan Ross), FuriosaAI becomes one of few remaining independent inference chip startups at scale. [[Cerebras]] focuses more on training; [[Tenstorrent]] is earlier stage.
 
@@ -179,7 +179,7 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 
 **Series D (targeting Jan 2026):**
 - Seeking **$300-500M**
-- Advisers: Morgan Stanley, Mirae Asset Securities
+- Advisers: [[Morgan Stanley]], Mirae Asset Securities
 - Purpose: RNGD mass production, global expansion, 3rd-gen chip R&D
 - IPO preparation underway
 
@@ -190,12 +190,12 @@ RNGD uses tensor contraction as primary operation rather than matrix multiplicat
 | Korea Development Bank | Government, Series C Bridge lead |
 | Industrial Bank of Korea | Government |
 | Keistone Partners | Series C Bridge |
-| Kakao Investment | Strategic |
-| SoftBank Ventures | Korean venture arm |
+| [[Kakao]] Investment | Strategic |
+| [[SoftBank]] Ventures | Korean venture arm |
 | [[SK Hynix]] | Strategic |
 | IMM Investment | Korean VC |
 
-**Meta acquisition attempt (Mar 2025):** Meta offered $800M. FuriosaAI declined — disagreements over post-acquisition business strategy and organizational structure, not price. Three months later signed LG as major customer, validating independence strategy.
+**[[Meta]] acquisition attempt (Mar 2025):** [[Meta]] offered $800M. FuriosaAI declined — disagreements over post-acquisition business strategy and organizational structure, not price. Three months later signed LG as major customer, validating independence strategy.
 
 *Updated 2026-01-22*
 

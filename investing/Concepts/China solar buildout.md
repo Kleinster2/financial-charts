@@ -1,8 +1,8 @@
 #concept #energy #china #solar
 
-# China Solar Buildout
+# [[China]] Solar Buildout
 
-China's solar deployment dwarfs all other countries combined. 212 GW added in 2024 alone.
+[[China]]'s solar deployment dwarfs all other countries combined. 212 GW added in 2024 alone.
 
 ---
 
@@ -22,7 +22,7 @@ For context: 212 GW = ~212 nuclear plants worth of capacity added in one year.
 
 ## Telatan Solar Park
 
-China's flagship — world's largest solar installation:
+[[China]]'s flagship — world's largest solar installation:
 
 | Metric | Value |
 |--------|-------|
@@ -93,13 +93,13 @@ Dual-use: solar + agriculture/grazing:
 - Panels provide shade/shelter for livestock
 - Fertilization from animals improves soil
 
-**Scale:** Aquaculture + solar accounts for significant share of China's fishery output.
+**Scale:** Aquaculture + solar accounts for significant share of [[China]]'s fishery output.
 
 ---
 
 ## Offshore floating solar
 
-China pioneering open-sea installations:
+[[China]] pioneering open-sea installations:
 
 | Project | Capacity | Status |
 |---------|----------|--------|
@@ -123,7 +123,7 @@ China pioneering open-sea installations:
 
 Mega-farms require massive transmission:
 
-| Challenge | China approach |
+| Challenge | [[China]] approach |
 |-----------|----------------|
 | Remote locations | Ultra-high voltage DC lines |
 | Intermittency | Cross-regional trading |
@@ -134,9 +134,9 @@ Mega-farms require massive transmission:
 
 ---
 
-## China vs US solar
+## [[China]] vs US solar
 
-| Factor | US | China |
+| Factor | US | [[China]] |
 |--------|-----|-------|
 | Annual additions | ~30 GW | 212 GW |
 | Permitting timeline | 2-5 years | Months |

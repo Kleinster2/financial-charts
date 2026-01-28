@@ -13,7 +13,7 @@ aliases: [LULU, lululemon athletica]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | LULU (Nasdaq) |
+| Ticker | LULU ([[Nasdaq]]) |
 | Market cap | ~$30B |
 | Revenue (FY24, ended Jan 2025) | $10.6B (+10%) |
 | EPS (FY24) | $14.64 |
@@ -21,7 +21,7 @@ aliases: [LULU, lululemon athletica]
 | Operating margin | 24.3% |
 | CEO | Calvin McDonald (departing Jan 2026) |
 | Stores | 700+ globally |
-| HQ | Vancouver, Canada |
+| HQ | Vancouver, [[Canada]] |
 
 ---
 
@@ -70,9 +70,9 @@ aliases: [LULU, lululemon athletica]
 | Market | Growth | Stores |
 |--------|--------|--------|
 | **China** | +22% (Q1 FY25) | 130+ (from 10 in 2018) |
-| Europe | Double-digit | Expanding |
+| [[Europe]] | Double-digit | Expanding |
 | APAC | Strong | New markets |
-| New entries | Italy, Denmark, Belgium, Turkey, Czech Republic, India (2026) |
+| New entries | Italy, Denmark, Belgium, Turkey, Czech [[Republic]], [[India]] (2026) |
 
 **The bull thesis:** Only 20% international today. If Lululemon reaches Nike/Adidas-level international mix (50%+), revenue doubles from here.
 
@@ -121,7 +121,7 @@ aliases: [LULU, lululemon athletica]
 - 59% gross margins, 24% operating margins
 - 14x earnings = historically cheap
 - Brand loyalty extremely high
-- India entry 2026 = next China-like opportunity
+- [[India]] entry 2026 = next China-like opportunity
 
 **Bear:**
 - US stalling (-1% comps), 70% of revenue

@@ -1,34 +1,34 @@
 ---
-aliases: [CXMT, 长鑫存储]
+aliases: [[[CXMT]], 长鑫存储]
 ---
 #actor #memory #dram #china
 
-**ChangXin Memory (CXMT)** — China's leading DRAM maker. First to mass-produce advanced mobile DRAM. Mulling IPO at ~$40B valuation.
+**ChangXin Memory ([[CXMT]])** — [[China]]'s leading DRAM maker. First to mass-produce advanced mobile DRAM. Mulling IPO at ~$40B valuation.
 
 ---
 
 ## Why ChangXin Memory matters
 
-China's DRAM champion — now competing with Samsung, SK Hynix:
+[[China]]'s DRAM champion — now competing with Samsung, SK Hynix:
 
 | Metric | Value |
 |--------|-------|
 | HQ | Hefei |
 | Focus | DRAM (memory) |
 | IPO valuation | ~300B yuan (**~$40B**) |
-| IPO target | Onshore (mainland China) |
+| IPO target | Onshore (mainland [[China]]) |
 | Milestone | First Chinese mobile DRAM mass production |
 
 ---
 
 ## Mobile DRAM breakthrough (Jan 2026)
 
-**First in China:**
+**First in [[China]]:**
 - Began mass-producing advanced mobile DRAM
 - For smartphones and mobile devices
 - Field previously dominated by Samsung, SK Hynix, Micron
 
-This is a significant milestone for China memory independence.
+This is a significant milestone for [[China]] memory independence.
 
 ---
 
@@ -37,10 +37,10 @@ This is a significant milestone for China memory independence.
 | Metric | Value |
 |--------|-------|
 | Valuation | 300B yuan (~$40B) |
-| Exchange | Mainland China |
+| Exchange | Mainland [[China]] |
 | Status | Mulling |
 
-At $40B, would be one of largest China chip IPOs — comparable to [[YMTC]] ($40B+ also mulling).
+At $40B, would be one of largest [[China]] chip IPOs — comparable to [[YMTC]] ($40B+ also mulling).
 
 ---
 
@@ -54,7 +54,7 @@ At $40B, would be one of largest China chip IPOs — comparable to [[YMTC]] ($40
 | [[YMTC]] | Different focus (DRAM vs NAND) |
 
 **Key difference from YMTC:**
-- CXMT = DRAM (volatile memory)
+- [[CXMT]] = DRAM (volatile memory)
 - YMTC = NAND (storage memory)
 
 Both are national champions in their respective memory segments.
@@ -77,7 +77,7 @@ But mobile DRAM milestone shows continued progress despite restrictions.
 **Bull:**
 - National champion status (state backing)
 - Mobile DRAM breakthrough validates capability
-- Massive domestic market (China smartphones)
+- Massive domestic market ([[China]] smartphones)
 - $40B valuation anchors future listing
 
 **Bear:**
@@ -94,7 +94,7 @@ But mobile DRAM milestone shows continued progress despite restrictions.
 
 ## Related
 
-- [[YMTC]] — peer (China memory, NAND focus)
+- [[YMTC]] — peer ([[China]] memory, NAND focus)
 - [[Samsung]] — competitor (DRAM leader)
 - [[SK Hynix]] — competitor (DRAM leader)
 - [[Micron]] — competitor (DRAM)

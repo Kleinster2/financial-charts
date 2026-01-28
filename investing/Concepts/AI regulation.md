@@ -50,7 +50,7 @@
 | Transparency | Clear user information |
 | Human oversight | Meaningful human control |
 | Accuracy | Performance standards |
-| Cybersecurity | Robustness requirements |
+| [[Cybersecurity]] | Robustness requirements |
 
 ### Penalties
 
@@ -74,10 +74,10 @@ Originally Feb 1, 2026 → **Extended to Jun 30, 2026**
 
 Applies to "high-risk" AI systems making consequential decisions about:
 - Employment
-- Housing
+- [[Housing]]
 - Credit/lending
 - Education
-- Healthcare
+- [[Healthcare]]
 
 ### Requirements
 
@@ -92,7 +92,7 @@ Applies to "high-risk" AI systems making consequential decisions about:
 | Requirement | Detail |
 |-------------|--------|
 | Impact assessments | Annual, documented |
-| Consumer notice | Disclose AI use in decisions |
+| [[Consumer]] notice | Disclose AI use in decisions |
 | Opt-out rights | For high-risk applications |
 | Risk disclosure | Known and foreseeable risks |
 
@@ -191,16 +191,16 @@ Applies to "high-risk" AI systems making consequential decisions about:
 - Since then: pro innovation, pro infrastructure, pro energy, pro export
 - "Since Hewlett and Packard started 85 years ago... founders don't need to go to Washington to get permission for their idea"
 
-**AI optimism gap (Stanford polling):**
+**AI optimism gap ([[Stanford]] polling):**
 
 | Country | "AI more beneficial than harmful" |
 |---------|-----------------------------------|
-| China | **83%** |
+| [[China]] | **83%** |
 | US | **39%** |
 
 Asian countries high, Western countries low. Sacks attributes to: (1) media doom/gloom, (2) Hollywood dystopian portrayals, (3) tech leaders talking about eliminating jobs. Low AI optimism feeds regulatory frenzy — could "shoot ourselves in the foot" and cost the race.
 
-**EU criticism (Sacks):** "Bad case of main character syndrome" — when EU talks about AI leadership, they mean regulators showing the regulatory model. "Regulators are supporting players. The main characters always have to be the entrepreneurs." EU AI Act passed before ChatGPT existed.
+**EU criticism (Sacks):** "Bad case of main character syndrome" — when EU talks about AI leadership, they mean regulators showing the regulatory model. "Regulators are supporting players. The main characters always have to be the entrepreneurs." EU AI Act passed before [[ChatGPT]] existed.
 
 *Source: Davos panel (Sacks, Kratsios, Bartiromo), Jan 23 2026*
 

@@ -46,7 +46,7 @@ Rare Google-Meta collaboration.
 ## Strategic importance
 
 **Why it matters:**
-- Singapore = Asia data hub
+- Singapore = [[Asia]] data hub
 - Direct US connectivity
 - Bypasses intermediary cables
 - Latency reduction
@@ -57,7 +57,7 @@ Rare Google-Meta collaboration.
 
 **Part of broader buildout:**
 - [[Apricot Cable]] (same partners)
-- [[Bifrost Cable]] (Meta's other Asia cable)
+- [[Bifrost Cable]] (Meta's other [[Asia]] cable)
 - Complementary routes
 
 ---
@@ -80,7 +80,7 @@ Rare Google-Meta collaboration.
 - [[Google]] — co-owner
 - [[Meta]] — co-owner
 - [[Apricot Cable]] — peer (same owners, different route)
-- [[Bifrost Cable]] — peer (Meta's SE Asia cable)
+- [[Bifrost Cable]] — peer (Meta's SE [[Asia]] cable)
 - [[Submarine Cables]] — infrastructure context
-- [[Singapore Tech]] — strategic context (Asia data hub)
+- [[Singapore Tech]] — strategic context ([[Asia]] data hub)
 

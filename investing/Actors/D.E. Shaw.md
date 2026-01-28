@@ -3,7 +3,7 @@ aliases: [DE Shaw, D. E. Shaw, DESCO, D.E. Shaw Group]
 ---
 #actor #hedgefund #quant #multistrat #usa #private
 
-**D.E. Shaw** — Quant pioneer and multi-strategy hedge fund. Founded by [[David E. Shaw]] (1988). $65B+ AUM. **Oculus +36.1% (2024), +28.2% (2025)** — topped 2024 hedge fund rankings. Notable for spawning Jeff Bezos, [[Two Sigma]] founders.
+**D.E. Shaw** — Quant pioneer and multi-strategy hedge fund. Founded by [[David E. Shaw]] (1988). $65B+ AUM. **Oculus +36.1% (2024), +28.2% (2025)** — topped 2024 hedge fund rankings. Notable for spawning [[Jeff Bezos]], [[Two Sigma]] founders.
 
 ---
 
@@ -26,7 +26,7 @@ D.E. Shaw's most important legacy may be its alumni:
 
 | Person | D.E. Shaw role | Later achievement |
 |--------|----------------|-------------------|
-| **Jeff Bezos** | VP (early 1990s) | Founded Amazon |
+| **[[Jeff Bezos]]** | VP (early 1990s) | Founded Amazon |
 | **[[John Overdeck]]** | Managing Director | Co-founded [[Two Sigma]] |
 | **[[David Siegel]]** | CIO | Co-founded [[Two Sigma]] |
 | Anne Dinning | Executive Committee | Still at D.E. Shaw |
@@ -53,7 +53,7 @@ D.E. Shaw's most important legacy may be its alumni:
 | Down years | 1 (2008: -9%) | 0 (even 2008: +7%) |
 | Double-digit years | 18 of 23 | — |
 
-**2024 highlight**: D.E. Shaw topped LCH Investments ranking with $11.1B net investor gains — beat Millennium ($9.4B) and Citadel ($9.0B).
+**2024 highlight**: D.E. Shaw topped LCH Investments ranking with $11.1B net investor gains — beat Millennium ($9.4B) and [[Citadel]] ($9.0B).
 
 ### Funds overview
 
@@ -135,7 +135,7 @@ Day-to-day management by Executive Committee; Shaw focused on D.E. Shaw Research
 - [[David E. Shaw]] — founder, computational biochemist, $7.5B+ net worth
 
 ### Alumni
-- Jeff Bezos — [[Amazon]] founder (ex-D.E. Shaw VP)
+- [[Jeff Bezos]] — [[Amazon]] founder (ex-D.E. Shaw VP)
 - [[John Overdeck]] — [[Two Sigma]] co-founder (ex-Managing Director)
 - [[David Siegel]] — [[Two Sigma]] co-founder (ex-CIO)
 

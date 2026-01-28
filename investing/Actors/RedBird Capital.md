@@ -23,7 +23,7 @@ aliases: [RedBird, RedBird Capital Partners]
 
 | Principle | Application |
 |-----------|-------------|
-| Sports = undervalued media | Teams are content platforms |
+| Sports = undervalued media | [[Teams]] are content platforms |
 | Live events | Can't be time-shifted |
 | Global brands | US sports model exportable |
 | Vertical integration | Own team + media rights |
@@ -90,7 +90,7 @@ aliases: [RedBird, RedBird Capital Partners]
 **Why RedBird matters to portfolio companies:**
 - Sports operations expertise
 - Media rights knowledge
-- Goldman Sachs dealmaking DNA
+- [[Goldman Sachs]] dealmaking DNA
 - Patient capital (7-10 year holds)
 - Global network
 

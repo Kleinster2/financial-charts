@@ -8,9 +8,9 @@ European index provider. Owned by [[Deutsche Börse]].
 
 | Index | Description | Market cap |
 |-------|-------------|------------|
-| Stoxx Europe 600 | Pan-European benchmark | ~$18T |
-| Euro Stoxx 50 | Eurozone blue chips | — |
-| Stoxx Europe 50 | Top 50 European | — |
+| Stoxx [[Europe]] 600 | Pan-European benchmark | ~$18T |
+| [[Euro]] Stoxx 50 | Eurozone blue chips | — |
+| Stoxx [[Europe]] 50 | Top 50 European | — |
 
 ## Why it matters
 
@@ -28,7 +28,7 @@ See [[Greece]]
 
 ## Stoxx 600 composition
 
-- **Largest members:** [[ASML]], LVMH
+- **Largest members:** [[ASML]], [[LVMH]]
 - **Greece weight:** <1% (small member post-inclusion)
 
 ## Related

@@ -24,7 +24,7 @@ Astera Labs provides the silicon that enables high-speed connectivity in AI serv
 
 | Category | Products | Use case |
 |----------|----------|----------|
-| **PCIe retimers** | Aries | Signal conditioning |
+| **PCIe retimers** | Aries | [[Signal]] conditioning |
 | **CXL controllers** | Leo | Memory expansion |
 | **Smart cables** | Taurus | Ethernet connectivity |
 
@@ -86,7 +86,7 @@ Memory pool ↔ CXL controller ↔ Multiple hosts
 | [[Credo Semiconductor]] | AEC, SerDes | Different layer |
 | Broadcom | PCIe switches | Retimer focus |
 | Microchip | PCIe/CXL | Smaller presence |
-| Marvell | Various | Connectivity focus |
+| [[Marvell]] | Various | Connectivity focus |
 
 Astera = pure-play connectivity IC leader.
 
@@ -96,7 +96,7 @@ Astera = pure-play connectivity IC leader.
 
 **Hyperscalers and OEMs:**
 - Cloud providers
-- Server OEMs (Dell, HPE, etc.)
+- Server OEMs ([[Dell]], HPE, etc.)
 - AI accelerator makers
 - NVIDIA ecosystem
 
@@ -129,7 +129,7 @@ Astera = pure-play connectivity IC leader.
 | Jitendra Mohan | CEO | **$1.5B** |
 | Sanjay Gajendra | COO | **$1.5B** |
 
-**Origin story:** Both ex-Texas Instruments engineers. Spotted opportunity: AI would need better data center connectivity. TI wasn't interested — they started Astera in Gajendra's garage (Santa Clara, 2017).
+**Origin story:** Both ex-[[Texas Instruments]] engineers. Spotted opportunity: AI would need better data center connectivity. TI wasn't interested — they started Astera in Gajendra's garage (Santa Clara, 2017).
 
 **Mohan on the thesis:** "A new nervous system would be needed for data centers."
 

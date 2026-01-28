@@ -34,9 +34,9 @@ aliases: []
 
 | Region | Office |
 |--------|--------|
-| Europe | Amsterdam (HQ) |
+| [[Europe]] | Amsterdam (HQ) |
 | Americas | Chicago, Austin |
-| Asia | Sydney, Hong Kong, Shanghai |
+| [[Asia]] | Sydney, Hong Kong, Shanghai |
 
 ---
 

@@ -50,11 +50,11 @@ aliases: [Rowan]
 Rowan transformed Apollo from a distressed-debt/PE firm into a credit-and-insurance powerhouse. Core thesis:
 
 **1. Credit > PE:**
-- Banks now provide <20% of debt capital (down from ~50% pre-2008)
+- [[Banks]] now provide <20% of debt capital (down from ~50% pre-2008)
 - Apollo fills the gap with $500B+ credit AUM
 - Investment-grade private credit is the fastest-growing segment
 
-**2. Insurance as permanent capital:**
+**2. [[Insurance]] as permanent capital:**
 - Athene merger (Jan 2022, ~$11B all-stock transaction) created aligned permanent capital vehicle
 - Retirement liabilities = long-duration, low-cost capital
 - Replaced traditional PE fund model (closed-end, 15-20% return hurdle) with spread-based income
@@ -64,7 +64,7 @@ Rowan transformed Apollo from a distressed-debt/PE firm into a credit-and-insura
 - AUM: $40B (2008) → $700B (2024) → $908B (late 2025)
 - Retirement services + credit origination as compounding flywheel
 
-**4. Private markets revolution:**
+**4. [[Private markets]] revolution:**
 - "Traditional investing model is broken" (Sep 2025)
 - Pushing private credit to retail/high-net-worth (European product platform launching)
 - Expects more market makers in private credit trading (Dec 2025)
@@ -86,7 +86,7 @@ Rowan transformed Apollo from a distressed-debt/PE firm into a credit-and-insura
 | No bonuses/options | Aligned via ownership |
 | APO shares owned | ~$3.9B worth |
 
-Notably low formal compensation — wealth creation comes entirely through ownership stake. Total comp well below peer average ($13.3M for similar-size firms).
+Notably low formal compensation — wealth creation comes entirely through ownership stake. Total comp well below peer average ($13.[[3M]] for similar-size firms).
 
 ---
 

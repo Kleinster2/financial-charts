@@ -46,7 +46,7 @@ aliases: [090430, Amorepacific Corporation, AmorePacific]
 | **Americas** | — | **+83%** | Now #1 global market (surpassed China) |
 | **Greater China** | KRW 510B | **-27%** | Deliberate inventory reduction |
 | **EMEA** | — | **+229%** | Laneige, COSRX expansion |
-| **Asia ex-China** | — | Growing | Japan strong |
+| **[[Asia]] ex-China** | — | Growing | [[Japan]] strong |
 
 The geographic rebalancing is dramatic: Americas went from minor to #1 market in one year.
 
@@ -58,10 +58,10 @@ The geographic rebalancing is dramatic: Americas went from minor to #1 market in
 |-------|----------|--------|--------|
 | **Sulwhasoo** | Premium skincare (ginseng) | Korea, China | Declining with China |
 | **Laneige** | Mid-luxury (Lip Sleeping Mask) | Global | Viral, Americas driver |
-| **COSRX** | K-beauty skincare | Global | Acquired 2023, TikTok-native |
-| **Innisfree** | Nature-based, affordable | Korea, Asia | Restructuring |
+| **COSRX** | K-beauty skincare | Global | Acquired 2023, [[TikTok]]-native |
+| **Innisfree** | Nature-based, affordable | Korea, [[Asia]] | Restructuring |
 | **Etude** | Color cosmetics, young | Korea | Mature |
-| **Hera** | Luxury makeup | Korea | Niche |
+| **Hera** | [[Luxury]] makeup | Korea | Niche |
 
 **Laneige Lip Sleeping Mask** became a global viral hit — the "gateway drug" for K-beauty adoption in the West.
 
@@ -87,7 +87,7 @@ Amorepacific's China exposure was ~40% of international revenue at peak. The del
 |--------|--------|
 | Global K-beauty market | ~$15B, growing +10%+ |
 | US K-beauty | Fastest-growing beauty segment |
-| TikTok driver | COSRX, Laneige viral on social |
+| [[TikTok]] driver | COSRX, Laneige viral on social |
 | Multi-step routine | Evangelized globally |
 | Ingredients focus | Snail mucin, ginseng, centella |
 

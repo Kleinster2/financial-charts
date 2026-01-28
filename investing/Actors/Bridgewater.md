@@ -48,8 +48,8 @@ aliases: [Bridgewater Associates]
 |------|-------------|-------|
 | **Pure Alpha** | **+33%** | Best in 50-year history |
 | **All Weather** | +20.4% | Risk parity |
-| **Asia Total Return** | +36.9% | |
-| **China Total Return** | +34.2% | |
+| **[[Asia]] Total Return** | +36.9% | |
+| **[[China]] Total Return** | +34.2% | |
 | **AIA Macro** (AI-driven) | +11.9% | Newer fund using AI |
 
 ### 2024 performance
@@ -57,7 +57,7 @@ aliases: [Bridgewater Associates]
 | Fund | 2024 return |
 |------|-------------|
 | Pure Alpha | +11.3% |
-| All Weather Plus (China onshore) | +35% |
+| All Weather Plus ([[China]] onshore) | +35% |
 
 ### Historical context
 
@@ -80,7 +80,7 @@ aliases: [Bridgewater Associates]
 | **Optimal Portfolio** | Balanced | — |
 | **Defensive Alpha** | Lower volatility | — |
 | **AIA Macro** | AI-enhanced macro | — |
-| **Asia/China funds** | Regional macro | $7.5B (China, 2024) |
+| **[[Asia]]/[[China]] funds** | Regional macro | $7.5B ([[China]], 2024) |
 
 ### All Weather explained
 
@@ -117,11 +117,11 @@ See [[Dalio Principles]] for the full framework.
 
 | Region | Fund | 2025 return |
 |--------|------|-------------|
-| **China** | China Total Return | +34.2% |
-| **Asia** | Asia Total Return | +36.9% |
-| **China onshore** | All Weather Plus | +35% (2024) |
+| **[[China]]** | [[China]] Total Return | +34.2% |
+| **[[Asia]]** | [[Asia]] Total Return | +36.9% |
+| **[[China]] onshore** | All Weather Plus | +35% (2024) |
 
-Bridgewater has significant China/Asia exposure — benefits from and vulnerable to China policy.
+Bridgewater has significant [[China]]/[[Asia]] exposure — benefits from and vulnerable to [[China]] policy.
 
 ---
 
@@ -159,7 +159,7 @@ AIA Macro fund incorporates AI into investment decisions — signals Bridgewater
 
 2. **Post-Dalio era** — Founder exited 2024. Watch if performance and culture persist.
 
-3. **China exposure** — Significant Asia/China funds. Vulnerable to US-China tensions.
+3. **[[China]] exposure** — Significant [[Asia]]/[[China]] funds. Vulnerable to US-[[China]] tensions.
 
 4. **All Weather as benchmark** — Risk parity strategy widely copied. Performance signals asset class correlations.
 
@@ -178,8 +178,8 @@ AIA Macro fund incorporates AI into investment decisions — signals Bridgewater
 - Greg Jensen — Co-CIO
 
 ### Peer macro funds
-- Rokos — Chris Rokos (ex-Brevan Howard)
-- Brevan Howard — macro peer
+- [[Rokos]] — Chris [[Rokos]] (ex-[[Brevan Howard]])
+- [[Brevan Howard]] — macro peer
 - Tudor — Paul Tudor Jones
 
 ### Peer multi-strat

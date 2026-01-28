@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Demis Hassabis** — Google DeepMind CEO. AlphaFold creator. 2024 Nobel Prize (Chemistry).
+**Demis Hassabis** — [[Google DeepMind]] CEO. AlphaFold creator. 2024 Nobel Prize (Chemistry).
 
 ---
 
@@ -13,14 +13,14 @@ Most accomplished AI researcher alive:
 
 | Metric | Value |
 |--------|-------|
-| Role | Google DeepMind CEO |
+| Role | [[Google DeepMind]] CEO |
 | Founded | DeepMind (2010) |
 | Nobel Prize | Chemistry 2024 (AlphaFold) |
 | Known for | AlphaGo, AlphaFold |
 
 ---
 
-## DeepMind → Google DeepMind
+## DeepMind → [[Google DeepMind]]
 
 **Timeline:**
 
@@ -29,7 +29,7 @@ Most accomplished AI researcher alive:
 | 2010 | Founded DeepMind |
 | 2014 | Acquired by Google ($500M+) |
 | 2023 | Merged with Google Brain |
-| 2023+ | CEO of Google DeepMind |
+| 2023+ | CEO of [[Google DeepMind]] |
 
 ---
 
@@ -67,14 +67,14 @@ Most impactful AI application ever.
 
 ---
 
-## Google DeepMind products
+## [[Google DeepMind]] products
 
 | Product | Impact |
 |---------|--------|
 | AlphaGo | Game AI |
 | AlphaFold | Biology revolution |
 | AlphaStar | StarCraft AI |
-| Gemini | Google's LLM |
+| [[Gemini]] | Google's LLM |
 | AlphaGeometry | Math reasoning |
 
 ---
@@ -115,7 +115,7 @@ Hassabis = most scientific.
 
 | Metric | Value |
 |--------|-------|
-| Role | Google DeepMind CEO |
+| Role | [[Google DeepMind]] CEO |
 | Nobel | Chemistry 2024 |
 | Founded | DeepMind (2010) |
 | Known for | AlphaFold, AlphaGo |

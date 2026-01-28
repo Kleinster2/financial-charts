@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #company #cybersecurity #usa #acquired
 
-**Symantec** — Historic cybersecurity company. Enterprise business acquired by [[Broadcom]] for $10.7B (2019). Consumer business became NortonLifeLock (now Gen Digital).
+**Symantec** — Historic cybersecurity company. Enterprise business acquired by [[Broadcom]] for $10.7B (2019). [[Consumer]] business became NortonLifeLock (now Gen Digital).
 
 ---
 
@@ -23,7 +23,7 @@ aliases: []
 | Part | Acquirer | Value | Now |
 |------|----------|-------|-----|
 | Enterprise security | [[Broadcom]] | $10.7B | Broadcom Symantec division |
-| Consumer (Norton) | Spun off | — | Gen Digital (NLOK → GEN) |
+| [[Consumer]] (Norton) | Spun off | — | Gen Digital (NLOK → GEN) |
 
 **Enterprise revenue (FY19):** $2.3B (~50% of total)
 
@@ -55,13 +55,13 @@ aliases: []
 ## Broadcom integration
 
 Under Broadcom's Symantec Enterprise division:
-- Led by Art Gilliland (SVP/GM)
+- Led by Art Gilliland (SVP/[[GM]])
 - Part of Broadcom's software strategy (alongside CA, VMware)
 - Cost-cutting focus under Hock Tan model
 
 ---
 
-## Consumer business (Gen Digital)
+## [[Consumer]] business (Gen Digital)
 
 | Metric | Value |
 |--------|-------|

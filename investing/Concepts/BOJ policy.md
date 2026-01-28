@@ -20,12 +20,12 @@
 
 | Element | Description |
 |---------|-------------|
-| Target | 10-year JGB yield ~0% |
+| [[Target]] | 10-year [[JGB]] yield ~0% |
 | Mechanism | BOJ buys unlimited bonds |
 | Band | Initially ±0.1%, widened to ±1% |
 | End | March 2024 |
 
-BOJ owned 50%+ of JGB market.
+BOJ owned 50%+ of [[JGB]] market.
 
 ---
 
@@ -35,7 +35,7 @@ BOJ owned 50%+ of JGB market.
 |------|--------|
 | Mar 2024 | End negative rates, YCC |
 | 2024-25 | Gradual rate hikes |
-| Target | Neutral rate ~1-2% |
+| [[Target]] | Neutral rate ~1-2% |
 
 First rate hikes since 2007.
 
@@ -46,7 +46,7 @@ First rate hikes since 2007.
 | Effect | Impact |
 |--------|--------|
 | JPY appreciation | End of carry trade |
-| JGB yields rising | Bond losses |
+| [[JGB]] yields rising | Bond losses |
 | Bank margins | Improvement |
 | Export competitiveness | Reduced |
 

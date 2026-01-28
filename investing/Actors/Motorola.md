@@ -41,7 +41,7 @@ Major announcements at Lenovo Tech World @ CES:
 |---------|---------|
 | **Razr Fold** | First book-style foldable, 8.1" display, stylus |
 | **Motorola Signature** | Ultra-thin (6.99mm), €999, new premium line |
-| **Razr FIFA World Cup 26** | Special edition, $700, Feb 12 (Verizon) |
+| **Razr FIFA World Cup 26** | Special edition, $700, Feb 12 ([[Verizon]]) |
 | **Moto Things** | Watch (Polar), speaker (Bose), Tag 2, Pen Ultra |
 
 ### Razr Fold
@@ -94,7 +94,7 @@ See [[CES 2026]] for event context.
 |------------|-------------|
 | Samsung | Dominant in foldables, Razr Fold challenges |
 | Google Pixel | Pure Android competitor |
-| OnePlus | Similar price tier |
+| [[OnePlus]] | Similar price tier |
 | Apple | Premium segment |
 
 Motorola = value alternative with foldable expertise.
@@ -104,10 +104,10 @@ Motorola = value alternative with foldable expertise.
 ## FIFA World Cup 2026 partnership
 
 **Official smartphone partner:**
-- World Cup in USA, Mexico, Canada
+- World Cup in USA, [[Mexico]], [[Canada]]
 - Razr special edition
 - Marketing visibility
-- US carrier deals (Verizon)
+- US carrier deals ([[Verizon]])
 
 ---
 

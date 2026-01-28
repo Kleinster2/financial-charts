@@ -21,7 +21,7 @@
 
 **15th CEO of API** — largest trade association representing US oil & gas industry.
 
-Since 2018: Overseen strategic realignment of API priorities, introduced integrated organizational structure and core API Principles.
+Since 2018: Overseen strategic realignment of API priorities, introduced integrated organizational structure and core API [[Principles]].
 
 ### Prior career
 
@@ -39,7 +39,7 @@ Since 2018: Overseen strategic realignment of API priorities, introduced integra
 - TARP (2008)
 - Fiscal cliff resolution (2013)
 - Bipartisan Budget Agreement (2015)
-- Trade Promotion Authority (2015)
+- [[Trade]] Promotion Authority (2015)
 
 **Recognition:** Roll Call named him one of top 50 staffers in last 50 years (2015).
 

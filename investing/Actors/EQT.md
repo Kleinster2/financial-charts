@@ -23,7 +23,7 @@ aliases: [EQT Partners, EQT AB]
 
 | Segment | Focus |
 |---------|-------|
-| **EQT Private Equity** | Control buyouts |
+| **EQT [[Private Equity]]** | Control buyouts |
 | **EQT Growth** | Minority tech growth |
 | **EQT Infrastructure** | Energy, utilities |
 | **EQT Real Estate** | Property |

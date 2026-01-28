@@ -26,7 +26,7 @@ Spain + LatAm connectivity:
 - MAREA cable operator
 - Tower infrastructure
 - Submarine cables
-- Sold towers to American Tower
+- Sold towers to [[American Tower]]
 
 Cable investments = strategic.
 
@@ -37,9 +37,9 @@ Cable investments = strategic.
 | Region | Presence |
 |--------|----------|
 | Spain | Incumbent |
-| Germany | O2 brand |
-| UK | Virgin Media O2 (JV) |
-| Brazil | Vivo (largest LatAm) |
+| [[Germany]] | O2 brand |
+| [[UK]] | Virgin [[Media]] O2 (JV) |
+| [[Brazil]] | [[Vivo]] (largest LatAm) |
 | Hispanic LatAm | Various |
 
 ---
@@ -77,7 +77,7 @@ Cable investments = strategic.
 | Ticker | TEF |
 | Market cap | ~$25B |
 | Key asset | Telxius / MAREA |
-| Regions | Spain, LatAm, Germany |
+| Regions | Spain, LatAm, [[Germany]] |
 
 *Updated 2026-01-01*
 

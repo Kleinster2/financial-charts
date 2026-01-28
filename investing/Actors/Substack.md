@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #media #platform #newsletter #usa #private
 
-**Substack** — Newsletter platform. Writers keep 90%, Substack takes 10%. $1.1B valuation. 5M paid subscriptions. Home of The Free Press, many prominent writers.
+**Substack** — Newsletter platform. Writers keep 90%, Substack takes 10%. $1.1B valuation. 5M paid subscriptions. [[Home]] of The Free Press, many prominent writers.
 
 ---
 
@@ -28,7 +28,7 @@ aliases: []
 | Substack take | **10%** |
 | Pricing | Writers set own price (typically $5-15/month) |
 | Free tier | Most writers offer free + paid |
-| Payment processing | Stripe (additional ~3%) |
+| Payment processing | [[Stripe]] (additional ~3%) |
 
 ---
 
@@ -39,9 +39,9 @@ aliases: []
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
 | Seed | 2018 | $2M | — | Y Combinator |
-| Series A | 2019 | $15.3M | — | a16z |
+| Series A | 2019 | $15.[[3M]] | — | a16z |
 | Series B | 2021 | $65M | $650M | a16z |
-| Series C | July 2025 | $100M | **$1.1B** | BOND |
+| Series C | July 2025 | $100M | **$1.1B** | [[BOND]] |
 
 **Total raised:** ~$200M
 
@@ -51,9 +51,9 @@ aliases: []
 |----------|--------|-------|
 | **[[Y Combinator]]** | Seed | Incubator |
 | **[[a16z]]** | A, B | Lead on both |
-| **BOND** | C | Lead on Series C |
-| **Tiger Global** | B | Growth investor |
-| **The Chernin Group** | B | Media-focused |
+| **[[BOND]]** | C | Lead on Series C |
+| **[[Tiger Global]]** | B | Growth investor |
+| **[[The Chernin Group]]** | B | Media-focused |
 | **Quiet Capital** | A | — |
 
 ### Founders
@@ -61,7 +61,7 @@ aliases: []
 | Person | Role | Background |
 |--------|------|------------|
 | Chris Best | CEO | Kik messenger |
-| Hamish McKenzie | COO | Tesla (comms) |
+| Hamish McKenzie | COO | [[Tesla]] (comms) |
 | Jairaj Sethi | CTO | Kik messenger |
 
 ---
@@ -157,7 +157,7 @@ aliases: []
 **Bull:**
 - Creator economy secular growth
 - 90/10 split attracts top talent
-- Network effects (discovery, recommendations)
+- [[Network effects]] (discovery, recommendations)
 - Successful exits ([[The Free Press]] $150M)
 - Low churn (readers follow writers)
 

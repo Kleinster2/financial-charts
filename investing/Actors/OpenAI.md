@@ -4,7 +4,7 @@
 
 ---
 
-## Relevance to AI Race
+## Relevance to [[AI Race]]
 
 OpenAI is the most prominent AI lab but also the most aggressive spender. The question: can they reach profitability before burning through capital?
 
@@ -21,11 +21,11 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 | Seeking valuation | **$750-830B** (Jan 2026 round) |
 | Previous valuation | $157B (Oct 2024 round) |
 
-Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable private company.
+Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valuable private company.
 
 **CFO argument (Jan 2026):** Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023-2025) alongside 9.5x compute growth. Implies more capital = more revenue.
 
-**Tokenization:** Robinhood launched tokenized OpenAI shares in Europe (June 2025). OpenAI publicly did not endorse the move. See [[Tokenized private shares]].
+**Tokenization:** [[Robinhood]] launched tokenized OpenAI shares in [[Europe]] (June 2025). OpenAI publicly did not endorse the move. See [[Tokenized private shares]].
 
 ---
 
@@ -36,17 +36,17 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 | Investor | Amount | Notes |
 |----------|--------|-------|
 | **[[Microsoft]]** | $13B+ | 49% of profits (capped), Azure compute |
-| **SoftBank** | $500M+ | Part of $6.6B round (Oct 2024) |
-| **Thrive Capital** | $1B+ | Led $6.6B round, multiple rounds |
-| **Khosla Ventures** | — | Early investor (Vinod Khosla) |
-| **a16z** | — | Early investor |
-| **Sequoia Capital** | — | Multiple rounds |
-| **Tiger Global** | — | Growth rounds |
-| **Founders Fund** | — | Early investor |
-| **Reid Hoffman** | — | LinkedIn founder, board member |
-| **Infosys** | — | Strategic investor |
-| **NVIDIA** | $250M | Oct 2024 round |
-| **Apple** | — | Rumored Oct 2024 |
+| **[[SoftBank]]** | $500M+ | Part of $6.6B round (Oct 2024) |
+| **[[Thrive Capital]]** | $1B+ | Led $6.6B round, multiple rounds |
+| **[[Khosla Ventures]]** | — | Early investor ([[Vinod Khosla]]) |
+| **[[a16z]]** | — | Early investor |
+| **[[Sequoia Capital]]** | — | Multiple rounds |
+| **[[Tiger Global]]** | — | Growth rounds |
+| **[[Founders Fund]]** | — | Early investor |
+| **[[Reid Hoffman]]** | — | LinkedIn founder, board member |
+| **[[Infosys]]** | — | Strategic investor |
+| **[[NVIDIA]]** | $250M | Oct 2024 round |
+| **[[Apple]]** | — | Rumored Oct 2024 |
 
 **Total raised:** $17B+
 
@@ -56,8 +56,8 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 
 | Detail | Value |
 |--------|-------|
-| Target raise | **$50B+** |
-| Target valuation | $750-830B |
+| [[Target]] raise | **$50B+** |
+| [[Target]] valuation | $750-830B |
 | Key investors | [[MGX]] (Abu Dhabi), other Gulf SWFs |
 | Status | Sam Altman touring Middle East (Jan 2026) |
 
@@ -69,13 +69,13 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing SpaceX as most valuable
 
 ## Business model
 
-- **ChatGPT** — Consumer subscription ($20-200/month)
+- **ChatGPT** — [[Consumer]] subscription ($20-200/month)
 - **API** — Developer access to GPT models
 - **Enterprise** — ChatGPT for business
 
 Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 
-**Consumer device (announced Jan 23, 2026 at Davos):** OpenAI planning first-ever consumer hardware product for H2 2026. Chief global affairs officer Chris Lehane confirmed at Axios House Davos. No details on form factor — could be purpose-built AI companion device.
+**[[Consumer]] device (announced Jan 23, 2026 at Davos):** OpenAI planning first-ever consumer hardware product for H2 2026. Chief global affairs officer Chris Lehane confirmed at Axios House Davos. No details on form factor — could be purpose-built AI companion device.
 
 ---
 
@@ -87,28 +87,28 @@ Revenue split unclear, but consumer-heavy (unlike Anthropic's 80% enterprise).
 |--------|-------|
 | Tiers | Free users, new **$8/mo "Go" tier** |
 | Format | Labeled boxes below chatbot answers |
-| Example | Travel query → hotel ad below response |
+| Example | [[Travel]] query → hotel ad below response |
 | Key feature | **Conversational ads** — tap to chat with the ad |
 
 **Sam Altman previously called ads "last resort"** — suggests revenue pressure mounting.
 
-**Demis Hassabis response:** "I think those are tells. Actions speak louder than words." Google says no plans for Gemini app ads "at the moment" — will watch OpenAI's experiment.
+**[[Demis Hassabis]] response:** "I think those are tells. Actions speak louder than words." [[Google]] says no plans for [[Gemini]] app ads "at the moment" — will watch OpenAI's experiment.
 
 ---
 
 ## Competitive pressure
 
-**Gemini gaining share:**
+**[[Gemini]] gaining share:**
 
 | Metric | Value |
 |--------|-------|
-| Consumer AI usage | **22%** (Jan 2026) |
+| [[Consumer AI]] usage | **22%** (Jan 2026) |
 | Previous quarter | 13.5% |
 | Growth | +63% QoQ |
 
-ChatGPT still leads but gap shrinking. Google has distribution advantage (Search, Chrome, Android).
+ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Search, Chrome, Android).
 
-**Claude Code threat:** [[Anthropic]]'s Claude Code getting more hype in agentic coding space. OpenAI lacks comparable offering.
+**[[Claude]] Code threat:** [[Anthropic]]'s [[Claude]] Code getting more hype in agentic coding space. OpenAI lacks comparable offering.
 
 **Switching costs:** Low. Memory/context could be moat but easily exportable ("print everything you know about me" → paste into competitor).
 
@@ -138,7 +138,7 @@ ChatGPT still leads but gap shrinking. Google has distribution advantage (Search
 | vs | Status |
 |----|--------|
 | [[Anthropic]] | Behind on efficiency, ahead on consumer |
-| Google Gemini | Roughly par, Gemini catching up |
+| [[Google]] [[Gemini]] | Roughly par, [[Gemini]] catching up |
 | Open source | Premium eroding (see [[Open source commoditization]]) |
 
 ---
@@ -155,7 +155,7 @@ ChatGPT still leads but gap shrinking. Google has distribution advantage (Search
 **Why Cerebras:**
 - 15x faster responses than GPU-based systems
 - Sam Altman was early Cerebras investor
-- Diversifies away from NVIDIA/Microsoft dependency
+- Diversifies away from [[NVIDIA]]/Microsoft dependency
 
 **Cerebras CEO:** "Largest high-speed AI inference deployment in the world."
 
@@ -208,7 +208,7 @@ ChatGPT still leads but gap shrinking. Google has distribution advantage (Search
 |--------|------|
 | [[Sam Altman]] | CEO |
 | [[Kevin Weil]] | CPO (joined 2024, ex-Twitter/Instagram) |
-| Fidji Simo | Executive (Zoph reports to her) |
+| [[Fidji Simo]] | Executive (Zoph reports to her) |
 
 ---
 
@@ -218,7 +218,7 @@ ChatGPT still leads but gap shrinking. Google has distribution advantage (Search
 
 | Person | TML Role | OpenAI Role |
 |--------|----------|-------------|
-| Barret Zoph | CTO | Reports to Fidji Simo |
+| Barret Zoph | CTO | Reports to [[Fidji Simo]] |
 | Luke Metz | Founding team | Researcher |
 | Sam Schoenholz | Founding team | Researcher |
 
@@ -232,14 +232,14 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[Sam Altman]] — CEO and founder
 - [[Kevin Weil]] — CPO
 - [[Jony Ive]] — partner (AI device project)
-- [[Anthropic]] — competitor (Claude, more efficient)
+- [[Anthropic]] — competitor ([[Claude]], more efficient)
 - [[Stability AI]] — competitor (Stable Diffusion, image gen)
 - [[Microsoft]] — investor ($13B+, 49% profit share)
 - [[Model lab economics]] — thesis (bearish on cash burn)
 - [[Agentic AI]] — product direction
 - [[OpenAI talent exodus]] — risk (key researchers leaving)
 - [[Thinking Machines Lab]] — re-hired 3 founding members (Jan 2026)
-- [[Tokenized private shares]] — retail exposure via Robinhood
+- [[Tokenized private shares]] — retail exposure via [[Robinhood]]
 - [[UAE Tech]] — Stargate UAE site (1GW)
 - [[Ansaldo Energia]] — turbine supplier (UAE Stargate)
 - [[BYOP]] — on-site power generation pattern

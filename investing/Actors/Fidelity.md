@@ -57,7 +57,7 @@ Fidelity is the private giant of financial services:
 | Status | Private | Public | Public |
 | AUM | $5T+ | $9T+ | ~$150B |
 | Strength | 401k, funds | Scale, NII | Mobile, crypto |
-| Crypto | Progressive | Limited | Core |
+| Crypto | [[Progressive]] | Limited | Core |
 | Tokenization | No | No | First mover |
 
 ---

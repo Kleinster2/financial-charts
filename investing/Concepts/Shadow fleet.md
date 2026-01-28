@@ -1,6 +1,6 @@
 #concept #sanctions #oil #shipping
 
-**Shadow fleet** — Tankers operating outside Western insurance and flagging systems to move sanctioned oil (Russia, Iran, Venezuela). ~3,300 vessels globally, ~18% of world tanker tonnage.
+**Shadow fleet** — Tankers operating outside Western insurance and flagging systems to move sanctioned oil (Russia, [[Iran]], [[Venezuela]]). ~3,300 vessels globally, ~18% of world tanker tonnage.
 
 ---
 
@@ -13,7 +13,7 @@ Old tankers with:
 - AIS transponders switched off or spoofed
 - Ship-to-ship transfers to obscure origin
 
-**Purpose:** Move sanctioned oil to buyers (mainly China, India) while evading G7 price cap and sanctions.
+**Purpose:** Move sanctioned oil to buyers (mainly [[China]], [[India]]) while evading G7 price cap and sanctions.
 
 ---
 
@@ -37,22 +37,22 @@ Old tankers with:
 |--------|-------|
 | Shadow tankers | ~978 |
 | Share of Russian oil exports | ~27% via shadow fleet |
-| Key routes | Baltic → India, Pacific → China |
+| Key routes | Baltic → [[India]], Pacific → [[China]] |
 
 **Post-2022 buildup:** Russia rapidly assembled fleet after invasion to circumvent G7 price cap ($60/barrel).
 
-### Iran
+### [[Iran]]
 
 | Metric | Value |
 |--------|-------|
 | Export volume | 1.5-1.7M bbl/day (2025) |
-| Destination | ~90% to China |
+| Destination | ~90% to [[China]] |
 | Floating storage | 52M barrels (late 2025) |
 | Method | Ship-to-ship near Malaysia, relabeled as "Malaysian" or "Indonesian" |
 
-### Venezuela
+### [[Venezuela]]
 
-Uses similar tactics, smaller scale. Often shares vessels with Iran/Russia networks.
+Uses similar tactics, smaller scale. Often shares vessels with [[Iran]]/Russia networks.
 
 ---
 
@@ -70,7 +70,7 @@ Sanctioned country loads tanker
 
 ---
 
-## Insurance and services
+## [[Insurance]] and services
 
 **Western system (blocked to shadow fleet):**
 - P&I clubs (Protection & Indemnity insurance)
@@ -81,8 +81,8 @@ Sanctioned country loads tanker
 
 | Provider | Type |
 |----------|------|
-| Ingosstrakh (Russia) | Insurance — sanctioned Jan 2025 |
-| Alfastrakhovanie (Russia) | Insurance — sanctioned Jan 2025 |
+| Ingosstrakh (Russia) | [[Insurance]] — sanctioned Jan 2025 |
+| Alfastrakhovanie (Russia) | [[Insurance]] — sanctioned Jan 2025 |
 | Offshore shell insurers | Falsified certificates |
 | Self-insurance | Uninsured voyages |
 
@@ -121,7 +121,7 @@ Sanctioned country loads tanker
 | Date | Action |
 |------|--------|
 | Jan 2025 | US sanctions 183 tankers + Russian insurers |
-| Jul 2025 | UK sanctions 135 tankers |
+| Jul 2025 | [[UK]] sanctions 135 tankers |
 | Dec 2025 | US sanctions 29 Iranian shadow vessels |
 | Ongoing | Individual vessel designations |
 
@@ -156,9 +156,9 @@ Sanctioned country loads tanker
 |--------|--------|
 | **Oil prices** | Shadow fleet = more supply than sanctions intended |
 | **Tanker rates** | Legitimate tankers benefit from reduced competition |
-| **Insurance** | Western P&I clubs lose Russian/Iranian business |
+| **[[Insurance]]** | Western P&I clubs lose Russian/Iranian business |
 | **Environmental risk** | Aging tankers = spill risk (Baltic, Singapore Strait) |
-| **Shipyards** | Russia/China building new shadow-capable vessels |
+| **Shipyards** | Russia/[[China]] building new shadow-capable vessels |
 
 ### Stocks affected
 

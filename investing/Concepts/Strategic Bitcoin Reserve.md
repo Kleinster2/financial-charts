@@ -7,7 +7,7 @@
 ## The Policy (Jan 2026 Status)
 
 *   **Goal:** Acquire 1 million BTC (~5% of supply) over 5 years.
-*   **Mechanism:** Federal Reserve or Treasury purchase program; converting seized assets (DOJ seizures) into permanent holdings.
+*   **Mechanism:** [[Federal Reserve]] or Treasury purchase program; converting seized assets (DOJ seizures) into permanent holdings.
 *   **Legislative Vehicle:** The "BITCOIN Act" (Sen. Lummis), championed by the Trump administration.
 
 ---
@@ -16,18 +16,18 @@
 
 | Driver | Argument |
 |--------|----------|
-| **Debt Hedge** | Hedge against US dollar debasement and $36T+ national debt. |
-| **Geopolitics** | Counter-move to China's gold accumulation and [[Digital Yuan]]. |
-| **Innovation** | Signal that the US is the "Crypto Capital of the Planet." |
+| **Debt Hedge** | Hedge against [[US dollar]] debasement and $36T+ national debt. |
+| **Geopolitics** | Counter-move to [[China]]'s gold accumulation and [[Digital Yuan]]. |
+| **Innovation** | [[Signal]] that the US is the "[[Crypto]] Capital of the Planet." |
 | **Asymmetric Bet** | "If it goes to millions, we need to own it." |
 
 ---
 
-## US vs China Financial War
+## US vs [[China]] Financial War
 
 See [[US-China financial war]].
 
-*   **China:** Banned crypto mining/trading; launched centralized [[Digital Yuan]] for surveillance and sanctions evasion.
+*   **[[China]]:** Banned crypto mining/trading; launched centralized [[Digital Yuan]] for surveillance and sanctions evasion.
 *   **USA:** Embracing decentralized Bitcoin as a "Freedom Money" alternative to state-controlled CBDCs.
 *   **The Race:** Who controls the future of digital value transfer?
 
@@ -35,7 +35,7 @@ See [[US-China financial war]].
 
 ## Market Impact
 
-*   **Sovereign FOMO:** If the US buys, other nations (Saudi Arabia, Japan, G7) may feel compelled to front-run or match.
+*   **Sovereign FOMO:** If the US buys, other nations (Saudi Arabia, [[Japan]], G7) may feel compelled to front-run or match.
 *   **Price Floor:** US Gov becomes the ultimate "Diamond Hands" holder (HODLer of last resort).
 *   **Mining:** Encourages domestic mining for "Energy Dominance" (see [[TeraWulf]], [[Core Scientific]]).
 

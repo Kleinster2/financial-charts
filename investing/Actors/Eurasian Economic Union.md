@@ -25,9 +25,9 @@ aliases: [EAEU, EEU, Eurasian Union]
 | Country | Population | GDP | Role |
 |---------|------------|-----|------|
 | **Russia** | 145M | $1.8T | Dominant (87% of GDP) |
-| **Kazakhstan** | 19M | $220B | Oil, Central Asia |
+| **Kazakhstan** | 19M | $220B | [[Oil]], Central [[Asia]] |
 | **Belarus** | 9M | $70B | Manufacturing, agriculture |
-| **Armenia** | 3M | $20B | Services, diaspora |
+| **Armenia** | [[3M]] | $20B | Services, diaspora |
 | **Kyrgyzstan** | 7M | $10B | Remittances, transit |
 
 **Russia = 87% of EAEU GDP.** Effectively a Russia bloc.
@@ -64,7 +64,7 @@ aliases: [EAEU, EEU, Eurasian Union]
 
 ---
 
-## Trade flows
+## [[Trade]] flows
 
 | Flow | Characteristics |
 |------|-----------------|
@@ -82,8 +82,8 @@ aliases: [EAEU, EEU, Eurasian Union]
 | Status | Detail |
 |--------|--------|
 | Limited sanctions | Crimea-related (2014) |
-| Trade | Growing, but small |
-| FTA efforts | Vietnam, Iran, Singapore |
+| [[Trade]] | Growing, but small |
+| FTA efforts | Vietnam, [[Iran]], Singapore |
 
 ### Post-Ukraine (2022+)
 
@@ -92,14 +92,14 @@ aliases: [EAEU, EEU, Eurasian Union]
 | Russia sanctions | SWIFT, trade, tech |
 | Belarus sanctions | Complicit in invasion |
 | Circumvention | Kazakhstan, Armenia used |
-| Secondary sanctions | Risk for members |
+| [[Secondary sanctions]] | Risk for members |
 
 ### Member dilemmas
 
 | Country | Position |
 |---------|----------|
 | Kazakhstan | Distancing, not recognizing annexations |
-| Armenia | Diversifying toward EU |
+| Armenia | Diversifying toward [[EU]] |
 | Kyrgyzstan | Transit for sanctions evasion |
 | Belarus | Fully aligned with Russia |
 
@@ -110,11 +110,11 @@ aliases: [EAEU, EEU, Eurasian Union]
 | Partner | Status | Notes |
 |---------|--------|-------|
 | Vietnam | In force (2016) | First external FTA |
-| Iran | In force (2019) | Limited |
+| [[Iran]] | In force (2019) | Limited |
 | Singapore | In force (2019) | Limited |
-| Serbia | In force (2021) | Pre-EU accession |
+| Serbia | In force (2021) | Pre-[[EU]] accession |
 | China | Discussing | Not concluded |
-| India | Discussing | Not concluded |
+| [[India]] | Discussing | Not concluded |
 
 ---
 
@@ -126,7 +126,7 @@ aliases: [EAEU, EEU, Eurasian Union]
 |-------|------|
 | Russia exposure | Energy, commodities |
 | Kazakhstan oil | Tengiz, Kashagan |
-| Regional trade | Consumer goods |
+| Regional trade | [[Consumer]] goods |
 
 ### Post-sanctions reality
 
@@ -135,7 +135,7 @@ aliases: [EAEU, EEU, Eurasian Union]
 | Russia uninvestable | For Western capital |
 | Secondary risk | Non-Russian members exposed |
 | Kazakhstan hedging | Diversifying away |
-| Armenia pivot | Looking to EU |
+| Armenia pivot | Looking to [[EU]] |
 
 ### Investable members
 
@@ -151,9 +151,9 @@ aliases: [EAEU, EEU, Eurasian Union]
 
 | Company | Sector |
 |---------|--------|
-| Kazatomprom | Uranium (world #1) |
-| Tengizchevroil | Oil (Chevron JV) |
-| Kaspi | Fintech, payments |
+| [[Kazatomprom]] | [[Uranium]] (world #1) |
+| Tengizchevroil | [[Oil]] ([[Chevron]] JV) |
+| Kaspi | [[Fintech]], payments |
 | Kazakh banks | Halyk, Kaspi |
 
 ---
@@ -164,30 +164,30 @@ aliases: [EAEU, EEU, Eurasian Union]
 
 | Goal | Reality |
 |------|---------|
-| Counter EU | Limited appeal |
+| Counter [[EU]] | Limited appeal |
 | Regional integration | Russia-centric |
 | Reduce West dependency | Sanctions forcing |
-| China balance | Competing for Central Asia |
+| China balance | Competing for Central [[Asia]] |
 
 ### China competition
 
 | Dimension | Russia | China |
 |-----------|--------|-------|
-| Trade | Energy | Goods, BRI |
+| [[Trade]] | Energy | Goods, BRI |
 | Investment | Limited | Growing |
 | Influence | Military, political | Economic |
 
-Central Asia increasingly China-oriented economically.
+Central [[Asia]] increasingly China-oriented economically.
 
 ---
 
 ## Comparison to other blocs
 
-| Dimension | EAEU | EU | Mercosur |
+| Dimension | EAEU | [[EU]] | [[Mercosur]] |
 |-----------|------|-----|----------|
 | Members | 5 | 27 | 4 |
 | GDP | $2T | $17T | $2.8T |
-| Dominant member | Russia (87%) | Germany (25%) | Brazil (75%) |
+| Dominant member | Russia (87%) | [[Germany]] (25%) | [[Brazil]] (75%) |
 | Integration | Moderate | Deep | Moderate |
 | External FTAs | Few | Many | Few |
 
@@ -201,7 +201,7 @@ EAEU = Russia with satellites.
 - [[Trade Agreements]] — hub
 - [[Sanctions]] — Western restrictions
 - [[Kazakhstan]] — investable member
-- [[China]] — competing for Central Asia
+- [[China]] — competing for Central [[Asia]]
 
 ---
 

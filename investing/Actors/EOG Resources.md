@@ -14,7 +14,7 @@ aliases: [EOG]
 | Market cap | ~$70B |
 | Ticker | EOG (NYSE) |
 | Production | ~1M boe/day |
-| Focus | US shale (Permian, Eagle Ford, Bakken) |
+| Focus | US shale (Permian, Eagle [[Ford]], Bakken) |
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [EOG]
 **Pure-play US shale:**
 - No refining, no international
 - Permian Basin largest position
-- Eagle Ford (Texas) legacy asset
+- Eagle [[Ford]] (Texas) legacy asset
 - Bakken (North Dakota) position
 
 **Operational philosophy:**
@@ -39,7 +39,7 @@ aliases: [EOG]
 | Basin | Description |
 |-------|-------------|
 | Permian (Delaware) | Largest growth driver |
-| Eagle Ford | Mature, cash flow engine |
+| Eagle [[Ford]] | Mature, cash flow engine |
 | Bakken | Steady contributor |
 | Powder River | Development stage |
 
@@ -56,8 +56,8 @@ aliases: [EOG]
 
 **Bear:**
 - Shale decline rates require constant drilling
-- Oil price dependent
-- ESG/climate pressure
+- [[Oil]] price dependent
+- [[ESG]]/climate pressure
 - Permian infrastructure constraints
 - Peak shale concerns
 
@@ -69,7 +69,7 @@ aliases: [EOG]
 |--------|-------|
 | Revenue | ~$25B |
 | Operating margin | ~45% |
-| Free cash flow | ~$6B |
+| [[Free cash flow]] | ~$6B |
 | Dividend yield | ~3% |
 | Debt/EBITDA | <0.5x |
 

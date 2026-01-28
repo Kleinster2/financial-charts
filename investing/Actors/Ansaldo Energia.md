@@ -52,11 +52,11 @@ Emerging AI infrastructure power supplier:
 |---------|-------|-------------|
 | **Ansaldo Energia** | Gas turbines | OpenAI UAE |
 | [[GE Vernova]] | Gas + wind + nuclear | Multiple hyperscalers |
-| [[Siemens Energy]] | Gas + wind | Meta Socrates South, European DCs |
-| [[Solar Turbines]] (CAT) | Mid-size GTs | Meta Socrates South |
-| Mitsubishi Power | Gas turbines | Japan/Asia focus |
+| [[Siemens Energy]] | Gas + wind | [[Meta]] Socrates South, European DCs |
+| [[Solar Turbines]] (CAT) | Mid-size GTs | [[Meta]] Socrates South |
+| Mitsubishi Power | Gas turbines | [[Japan]]/[[Asia]] focus |
 
-Ansaldo smaller than GE/Siemens but winning AI deals.
+Ansaldo smaller than GE/[[Siemens]] but winning AI deals.
 
 ---
 

@@ -2,7 +2,7 @@
 
 #actor #individual #investor #ai #executive
 
-**Nat Friedman** — Former GitHub CEO (2018-2021). Co-founder of NFDG fund with Daniel Gross. **$1.1B AI-focused fund, 4x'd in 2 years.** Portfolio: Perplexity, Character.ai, ElevenLabs. Joined [[Meta]] Superintelligence Labs (June 2025). TIME 100 Most Influential in AI (2024).
+**Nat Friedman** — Former GitHub CEO (2018-2021). Co-founder of NFDG fund with Daniel Gross. **$1.1B AI-focused fund, 4x'd in 2 years.** Portfolio: [[Perplexity]], Character.ai, ElevenLabs. Joined [[Meta]] Superintelligence Labs (June 2025). TIME 100 Most Influential in AI (2024).
 
 ---
 
@@ -25,7 +25,7 @@
 | Detail | Value |
 |--------|-------|
 | Tenure | Oct 2018 - Nov 2021 |
-| Context | Post-Microsoft acquisition |
+| Context | Post-[[Microsoft]] acquisition |
 | Key launches | Copilot, Codespaces, Mobile app, Advanced Security, Sponsors, CLI |
 
 Transformed GitHub from code hosting to AI-powered development platform. GitHub Copilot became defining AI coding tool.
@@ -45,7 +45,7 @@ Long history in open source and developer tools.
 | Detail | Value |
 |--------|-------|
 | Role | Head of Product, Meta Superintelligence Labs |
-| Co-lead | Alexandr Wang (Scale AI founder) |
+| Co-lead | Alexandr Wang ([[Scale AI]] founder) |
 | Joined | June 2025 |
 | Focus | Applied AI research, consumer AI products |
 
@@ -70,18 +70,18 @@ Co-founded with **[[Daniel Gross]]** (former YC partner).
 
 | Company | Category |
 |---------|----------|
-| Perplexity | AI search |
+| [[Perplexity]] | AI search |
 | Character.ai | AI companions |
 | ElevenLabs | AI voice |
 | Pika | AI video |
 | Suno | AI music |
 | Magic | AI coding |
-| Safe Superintelligence (SSI) | AI safety |
+| Safe Superintelligence ([[SSI]]) | AI safety |
 | EvolutionaryScale | AI biology |
 | Weights & Biases | ML ops |
 | [[Supabase]] | Developer tools |
-| Figma | Design |
-| Stripe | Payments |
+| [[Figma]] | Design |
+| [[Stripe]] | Payments |
 | Retool | Internal tools |
 
 ### Infrastructure

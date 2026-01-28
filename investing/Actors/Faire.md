@@ -32,10 +32,10 @@
 
 - All 4 founders worked together at Square
 - Observed Square's point-of-sale data on small retailers
-- Saw opportunity to help independent stores compete with Amazon
+- Saw opportunity to help independent stores compete with [[Amazon]]
 - Key insight: Could use ML to predict what products would sell where
 - Took inventory risk on behalf of retailers (60-day payment terms)
-- Shopify partnership: Faire became recommended wholesale marketplace
+- [[Shopify]] partnership: Faire became recommended wholesale marketplace
 
 ---
 
@@ -58,12 +58,12 @@
 | Series A | 2018 | $12M | — | Forerunner |
 | Series B | 2019 | $100M | $535M | Y Combinator |
 | Series C | 2019 | $150M | $1B | Lightspeed |
-| Series D | 2020 | $170M | $2.5B | DST Global |
+| Series D | 2020 | $170M | $2.5B | [[DST Global]] |
 | Series E | 2021 | $260M | — | Sequoia |
-| Series F | 2021 | $100M | — | Dragoneer |
-| Series G | 2021 | $400M | — | D1 Capital |
+| Series F | 2021 | $100M | — | [[Dragoneer]] |
+| Series G | 2021 | $400M | — | [[D1 Capital]] |
 | Series G ext | 2022 | $416M | **$12.6B** | Sequoia, YC |
-| Tender | 2025 | — | **$5.2B** | WCM, Baillie Gifford |
+| Tender | 2025 | — | **$5.2B** | WCM, [[Baillie Gifford]] |
 
 **Total raised:** $1.7B
 
@@ -74,13 +74,13 @@
 | Investor | Role |
 |----------|------|
 | [[Y Combinator]] | Seed, Series B lead |
-| Forerunner Ventures | Seed, Series A lead |
-| Sequoia Capital | Series E, G extension |
+| [[Forerunner Ventures]] | Seed, Series A lead |
+| [[Sequoia Capital]] | Series E, G extension |
 | Lightspeed | Series C lead |
-| DST Global | Series D lead |
-| Founders Fund | Investor |
-| Khosla Ventures | Investor |
-| Shopify | Strategic investor |
+| [[DST Global]] | Series D lead |
+| [[Founders Fund]] | Investor |
+| [[Khosla Ventures]] | Investor |
+| [[Shopify]] | Strategic investor |
 
 ---
 
@@ -98,7 +98,7 @@
 **Key metrics:**
 - 40% YoY growth
 - Net dollar retention >110%
-- Europe growing 2x rate of North America
+- [[Europe]] growing 2x rate of North America
 - Advertising now >5% of revenue
 
 ---
@@ -146,7 +146,7 @@
 
 | Partner | Relationship |
 |---------|-------------|
-| **Shopify** | Recommended wholesale marketplace, equity stake |
+| **[[Shopify]]** | Recommended wholesale marketplace, equity stake |
 | **Square** | Founder pedigree, POS integration |
 
 ---
@@ -159,7 +159,7 @@
 
 2. **Square DNA** — Founders from Square's best teams, understand SMB payments.
 
-3. **Shopify moat** — Strategic partnership creates distribution advantage.
+3. **[[Shopify]] moat** — Strategic partnership creates distribution advantage.
 
 4. **Inventory risk model** — Differentiated by taking credit risk.
 
@@ -168,7 +168,7 @@
 **Concerns:**
 - Valuation down 59% from peak
 - 2023 layoffs signal challenges
-- Competition from Amazon Business, Alibaba
+- Competition from [[Amazon]] Business, [[Alibaba]]
 
 ---
 
@@ -185,12 +185,12 @@
 - [[Stripe]] — YC peer
 
 ### Strategic partners
-- Shopify — marketplace partner, equity investor
+- [[Shopify]] — marketplace partner, equity investor
 - Square — founder background
 
 ### Competitors
-- Amazon Business
-- Alibaba B2B
+- [[Amazon]] Business
+- [[Alibaba]] B2B
 - RangeMe
 
 ---

@@ -9,7 +9,7 @@ aliases: [Data center migration, Ashburn overflow]
 
 ## The thesis
 
-Power constraints are reshaping data center geography:
+[[Power constraints]] are reshaping data center geography:
 
 | Hub | Status | Driver |
 |-----|--------|--------|
@@ -35,10 +35,10 @@ Power constraints are reshaping data center geography:
 
 ## Where growth is going
 
-| Hub | Power advantage | Trade-off |
+| Hub | Power advantage | [[Trade]]-off |
 |-----|-----------------|-----------|
 | Columbus | Cheap (AEP) | Less connectivity |
-| Phoenix | Solar + TSMC | Water scarcity |
+| Phoenix | Solar + [[TSMC]] | Water scarcity |
 | Dallas | ERCOT flexibility | Grid reliability (2021) |
 | Querétaro | Available + nearshoring | Infrastructure gaps |
 | [[Fortaleza Data Hub]] | Cables + renewable | Emerging |
@@ -50,8 +50,8 @@ Power constraints are reshaping data center geography:
 **Long alternative hub infrastructure:**
 - AEP (Columbus power)
 - Pinnacle West (Phoenix)
-- Vistra (Texas)
-- Mexican industrial REITs
+- [[Vistra]] (Texas)
+- Mexican industrial [[REITs]]
 
 **Long diversified DC operators:**
 - [[Equinix]], [[Digital Realty]] — multi-hub
@@ -80,7 +80,7 @@ AI forces geographic diversification.
 |--------|-------|
 | Ashburn power | 3+ GW (maxed) |
 | Columbus growth | Rapid |
-| Phoenix driver | Solar + TSMC |
+| Phoenix driver | Solar + [[TSMC]] |
 | Querétaro investment | $10B+ |
 
 *Updated 2026-01-01*

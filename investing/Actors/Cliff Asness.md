@@ -64,7 +64,7 @@ aliases: [Clifford Asness, Clifford Scott Asness]
 | Year | Event |
 |------|-------|
 | 1994 | PhD University of Chicago (thesis on momentum) |
-| 1994 | Joined Goldman Sachs Asset Management |
+| 1994 | Joined [[Goldman Sachs]] Asset Management |
 | 1994-98 | Managing Director, Director of Quantitative Research, Goldman |
 | 1998 | Co-founded AQR with Kabiller, Liew, Krail |
 | 2018-22 | Factor drawdown; defended value publicly |
@@ -80,7 +80,7 @@ aliases: [Clifford Asness, Clifford Scott Asness]
 |--------|-------|
 | Founded | 1998 |
 | Co-founders | David Kabiller, John Liew, Robert Krail |
-| Origin | All from Goldman Sachs Quantitative Research |
+| Origin | All from [[Goldman Sachs]] Quantitative Research |
 | Name | Applied Quantitative Research |
 | HQ | Greenwich, CT |
 
@@ -134,7 +134,7 @@ Asness has navigated three major drawdowns:
 |--------|--------|-------|---------|
 | Quant meltdown | Aug 2007 | Factor crowding; rapid deleveraging | Recovered |
 | Value crash | 2018-2020 | Growth/momentum dominated; value collapsed | Defended publicly |
-| Post-COVID | 2020-2022 | Meme stocks, low rates hurt factors | Stuck to process |
+| Post-COVID | 2020-2022 | [[Meme stocks]], low rates hurt factors | Stuck to process |
 
 Each time AQR stuck to its process and eventually recovered.
 
@@ -148,7 +148,7 @@ Asness is unusually public for a quant:
 |----------|--------|
 | Twitter/X | Active; argues with critics |
 | Academic papers | Published extensively on factor investing |
-| Media | Frequent interviews defending value |
+| [[Media]] | Frequent interviews defending value |
 | Style | Direct, combative, intellectually honest |
 
 ### Notable publications (2025)

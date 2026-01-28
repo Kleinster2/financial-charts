@@ -35,7 +35,7 @@ Part of hyperscaler capex beneficiary thesis.
 
 ## Rubin cooling risk (Jan 2026)
 
-**Jensen Huang CES comment hit stock:**
+**[[Jensen Huang]] CES comment hit stock:**
 
 | Detail | Impact |
 |--------|--------|

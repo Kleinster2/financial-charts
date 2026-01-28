@@ -16,7 +16,7 @@ aliases: [Linx SA, Linx S.A.]
 | Founded | 1985 |
 | Founder | Nércio Fernandes |
 | HQ | São Paulo, Brazil |
-| IPO | 2013 (B3 Novo Mercado) |
+| IPO | 2013 ([[B3]] Novo Mercado) |
 | Acquired by | [[StoneCo]] R$6.7B (2020) |
 | Sold to | [[TOTVS]] R$3.05B (Jul 2025) |
 | Clients | 70,000+ retailers |
@@ -31,7 +31,7 @@ aliases: [Linx SA, Linx S.A.]
 |------|-------|
 | 1985 | Founded as Microserv by Nércio Fernandes (22, dropped out of civil engineering) |
 | 2004 | Renamed to Linx |
-| 2013 | IPO on B3 Novo Mercado |
+| 2013 | IPO on [[B3]] Novo Mercado |
 | 2014 | R$331M gross revenue (+28% YoY) |
 | 2020 | Bidding war: StoneCo vs TOTVS |
 | 2020 | **Acquired by [[StoneCo]]** for R$6.7B (~$1.2B) |
@@ -47,7 +47,7 @@ aliases: [Linx SA, Linx S.A.]
 | **E-commerce** | Online retail platform |
 | **Verticals** | Auto parts, clothing, pharmacies, gas stations, department stores |
 
-SaaS business model — recurring revenue from retail management software.
+[[SaaS]] business model — recurring revenue from retail management software.
 
 ---
 

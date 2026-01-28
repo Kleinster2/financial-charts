@@ -29,7 +29,7 @@ aliases: [Treasury basis trade, Cash-futures basis]
 |--------|------|--------|
 | 2019 peak | ~$860B | — |
 | March 2020 | ~$500B | Blowup |
-| Early 2023 | — | Trade "roared back" |
+| Early 2023 | — | [[Trade]] "roared back" |
 | Jan 2026 | **~$1.5T** | **+75% from 2019** |
 
 **Morgan Stanley (Jan 2026):** Notional size has outpaced Treasury bond issuance growth.
@@ -38,7 +38,7 @@ aliases: [Treasury basis trade, Cash-futures basis]
 - Fed rate hikes pushed 10-year to ~5% (highest since 2007)
 - Institutional investors piled into Treasury futures
 - Treasury ramped up issuance for deficits → cash prices down
-- Gap between futures and cash widened → more arbitrage opportunity
+- [[Gap]] between futures and cash widened → more arbitrage opportunity
 
 ---
 
@@ -89,7 +89,7 @@ aliases: [Treasury basis trade, Cash-futures basis]
 - Foreign investor retreat
 - General deleveraging
 
-**Scott Bessent (Treasury Secretary):** "Nothing systemic... uncomfortable but normal deleveraging."
+**[[Scott Bessent]] (Treasury Secretary):** "Nothing systemic... uncomfortable but normal deleveraging."
 
 Market stabilized by April 11, but yields remained elevated.
 
@@ -100,7 +100,7 @@ Market stabilized by April 11, but yields remained elevated.
 | Regulator | Concern |
 |-----------|---------|
 | Bank of England | Borrowing by small number of large hedge funds |
-| BIS | Potential financial stability risk |
+| [[BIS]] | Potential financial stability risk |
 | SEC | Push trades into central clearinghouses |
 | **Fed panel (Mar 2025)** | Advised emergency program for basis trade unwinding |
 

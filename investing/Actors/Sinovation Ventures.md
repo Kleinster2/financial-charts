@@ -3,13 +3,13 @@ aliases: [创新工场, Chuangxin Gongchang]
 ---
 #actor #china #vc #ai
 
-**Sinovation Ventures** — Kai-Fu Lee's VC firm. Major China AI investor. Early backer of multiple Tigers and AI unicorns.
+**Sinovation Ventures** — Kai-Fu Lee's VC firm. Major [[China]] AI investor. Early backer of multiple Tigers and AI unicorns.
 
 ---
 
 ## Why Sinovation matters
 
-The most AI-focused VC in China:
+The most AI-focused VC in [[China]]:
 
 | Metric | Value |
 |--------|-------|
@@ -30,8 +30,8 @@ Sinovation bets heavily on AI:
 |-------|----------|
 | AI infrastructure | Compute, chips |
 | AI applications | Enterprise, consumer |
-| Robotics | Autonomous systems |
-| Healthcare AI | Diagnostics, drug discovery |
+| [[Robotics]] | Autonomous systems |
+| [[Healthcare]] AI | Diagnostics, drug discovery |
 
 **Differentiator:** [[Kai-Fu Lee]]'s network gives access to best AI founders before others.
 
@@ -73,9 +73,9 @@ The firm's edge is its founder:
 
 | Asset | Value |
 |-------|-------|
-| Network | Knows every AI founder in China |
+| Network | Knows every AI founder in [[China]] |
 | Reputation | Founders want his backing |
-| Media presence | Millions of followers |
+| [[Media]] presence | Millions of followers |
 | Technical depth | Can evaluate AI claims |
 | Global connections | Bridge to Silicon Valley |
 
@@ -118,8 +118,8 @@ The firm's edge is its founder:
 - Co-investors include major global funds
 
 **Thesis implications:**
-- AI VC in China is concentrated (few firms dominate)
-- Sinovation portfolio = map of China AI ecosystem
+- AI VC in [[China]] is concentrated (few firms dominate)
+- Sinovation portfolio = map of [[China]] AI ecosystem
 - Lee's views influence market sentiment
 
 ---

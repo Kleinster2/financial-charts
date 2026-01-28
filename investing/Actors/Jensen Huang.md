@@ -13,7 +13,7 @@ Jensen doesn't just run NVIDIA — he shapes the AI hardware landscape:
 | NVIDIA strategy | Founder control, long-term vision |
 | Acquisition strategy | Mellanox, ARM (failed), Run:AI, SchedMD, Groq |
 | Industry relationships | TSMC capacity locks, hyperscaler deals |
-| Political navigation | China/US, export controls |
+| Political navigation | [[China]]/US, export controls |
 
 ---
 
@@ -34,7 +34,7 @@ Jensen doesn't just run NVIDIA — he shapes the AI hardware landscape:
 ## Strategic moves
 
 **Acquisition pattern:**
-| Target | Year | Why |
+| [[Target]] | Year | Why |
 |--------|------|-----|
 | Mellanox | 2019 | Networking for AI clusters |
 | ARM | 2020 | Failed — regulatory block |
@@ -48,7 +48,7 @@ Jensen doesn't just run NVIDIA — he shapes the AI hardware landscape:
 
 ## TSMC relationship
 
-- NVIDIA is TSMC's largest customer (or #2 after Apple)
+- NVIDIA is TSMC's largest customer (or #2 after [[Apple]])
 - Jensen personally negotiates capacity
 - Locked N3/N2 capacity years ahead
 - Forces AMD to secondary slots
@@ -57,13 +57,13 @@ See [[NVIDIA]] for manufacturing details.
 
 ---
 
-## China navigation
+## [[China]] navigation
 
-**Before export controls:** 95% China AI chip share
+**Before export controls:** 95% [[China]] AI chip share
 **After controls:** Created H800/A800 compliance chips
 **H200 approval (Dec 2025):** Lobbied successfully
 
-Jensen walks the line — maintains US government relations while preserving China optionality.
+Jensen walks the line — maintains US government relations while preserving [[China]] optionality.
 
 ---
 
@@ -71,7 +71,7 @@ Jensen walks the line — maintains US government relations while preserving Chi
 
 - $20B deal — 3X September valuation
 - Non-exclusive licensing (Groq operates independently)
-- Strategic hedge against HBM prices (Groq uses SRAM)
+- Strategic hedge against [[HBM]] prices (Groq uses SRAM)
 - Political angle: Sacks promoted Groq, deal followed policy wins
 
 See [[Groq]] for details.
@@ -87,12 +87,12 @@ See [[Groq]] for details.
 
 ---
 
-## Taiwan connection
+## [[Taiwan]] connection
 
-- Born in Taiwan (Tainan)
+- Born in [[Taiwan]] (Tainan)
 - Emigrated to US as child
 - Personal relationships with TSMC leadership
-- Symbolic for Taiwan tech ecosystem
+- Symbolic for [[Taiwan]] tech ecosystem
 
 ---
 
@@ -112,7 +112,7 @@ See [[Groq]] for details.
 | Role | NVIDIA founder/CEO |
 | Tenure | 30+ years (since 1993) |
 | NVIDIA market cap | ~$3T+ |
-| Birthplace | Taiwan |
+| Birthplace | [[Taiwan]] |
 
 *Updated 2026-01-01*
 
@@ -123,6 +123,6 @@ See [[Groq]] for details.
 - [[NVIDIA]] — founder/CEO (since 1993)
 - [[TSMC]] — foundry partner (capacity locks)
 - [[Groq]] — acquired (Dec 2025, $20B)
-- [[AMD]] — competitor (Lisa Su)
+- [[AMD]] — competitor ([[Lisa Su]])
 - [[CUDA moat]] — created (2006)
-- [[Export controls]] — navigates China policy
+- [[Export controls]] — navigates [[China]] policy

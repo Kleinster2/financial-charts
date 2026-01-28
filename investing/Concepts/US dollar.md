@@ -3,7 +3,7 @@ aliases: [USD, DXY, dollar, greenback]
 ---
 #concept #currency #fx #reserve-currency
 
-**US dollar** — World's primary reserve currency (~60% of global reserves). Benchmark for commodities, trade, and debt. Weakened in 2025 as Fed cut rates and independence concerns emerged.
+**US dollar** — World's primary reserve currency (~60% of global reserves). [[Benchmark]] for commodities, trade, and debt. Weakened in 2025 as Fed cut rates and independence concerns emerged.
 
 ---
 
@@ -72,7 +72,7 @@ Unprecedented: DOJ subpoenas of Fed officials in Jan 2026.
 | CNY | ~2.5% | Rising slowly |
 | Gold | Rising | Structural shift |
 
-**Key stat:** First time since 1996, gold > Treasuries in CB reserves.
+**Key stat:** First time since 1996, gold > [[Treasuries]] in CB reserves.
 
 ---
 
@@ -83,7 +83,7 @@ Unprecedented: DOJ subpoenas of Fed officials in Jan 2026.
 - US growth outperformance
 - Safe haven in crisis
 - Petrodollar system
-- Network effects (invoicing, debt)
+- [[Network effects]] (invoicing, debt)
 
 **Negative for USD:**
 - Twin deficits ($2T+ fiscal)

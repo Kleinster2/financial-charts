@@ -55,8 +55,8 @@ High-level committee headed by former cabinet secretary Rajiv Gauba recommended 
 | Area | Status |
 |------|--------|
 | FDI from China | Still restricted |
-| App bans | TikTok, WeChat still banned |
-| 5G equipment | Huawei still excluded |
+| App bans | [[TikTok]], WeChat still banned |
+| [[5G]] equipment | [[Huawei]] still excluded |
 | Border | Tensions reduced but not resolved |
 
 ---
@@ -105,9 +105,9 @@ Brief border war. China won decisively. Deep distrust since.
 | Factor | Implication |
 |--------|-------------|
 | Market access | $700B+ opportunity |
-| Belt and Road | India resisted; could change |
+| [[Belt and Road]] | India resisted; could change |
 | US containment | Breaking Quad cohesion |
-| Regional influence | South Asia dominance |
+| Regional influence | South [[Asia]] dominance |
 
 ### For US
 
@@ -141,13 +141,13 @@ Brief border war. China won decisively. Deep distrust since.
 
 ## Signposts to watch
 
-| Signal | Thawing | Re-freezing |
+| [[Signal]] | Thawing | Re-freezing |
 |--------|---------|-------------|
 | Contract restrictions | Lifted | Maintained |
 | FDI rules | Eased | Unchanged |
 | Border | Stable | New incidents |
 | Modi rhetoric | Conciliatory | Hawkish |
-| Huawei 5G | Reconsidered | Still banned |
+| [[Huawei]] [[5G]] | Reconsidered | Still banned |
 
 ---
 

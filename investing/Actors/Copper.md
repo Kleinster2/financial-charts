@@ -27,9 +27,9 @@ Hit record alongside gold and silver — geopolitical tension driving commodity 
 | **AI/Data centers** | Massive copper demand | Structural bullish |
 | **EVs** | 3-4x copper vs ICE cars | Structural bullish |
 | **Grid buildout** | Electrification trend | Bullish |
-| **Supply disruptions** | Mine issues (Chile, Peru) | Bullish |
+| **Supply disruptions** | Mine issues ([[Chile]], Peru) | Bullish |
 | **Tariff stockpiling** | US hoarding pre-tariffs | Short-term bullish |
-| **China demand** | Property weak, but infra strong | Mixed |
+| **[[China]] demand** | Property weak, but infra strong | Mixed |
 
 ---
 
@@ -73,24 +73,24 @@ AI buildout = structural copper demand.
 | Hybrid | ~85 |
 | BEV | **180+** |
 
-EV transition = 3-4x copper intensity.
+[[EV transition]] = 3-4x copper intensity.
 
 ---
 
 ## Supply challenges
 
 **Structural constraints:**
-- Major mines aging (Chile, Peru)
+- Major mines aging ([[Chile]], Peru)
 - New mine development slow (10+ year lead time)
 - Grade decline at existing mines
 - Water scarcity in key regions
 - Permitting difficulties
 
 **Key producers:**
-- Chile (~25% global)
+- [[Chile]] (~25% global)
 - Peru (~10%)
 - DRC (~10%)
-- China (~8%)
+- [[China]] (~8%)
 
 ---
 
@@ -120,13 +120,13 @@ EV transition = 3-4x copper intensity.
 
 **Bull:**
 - AI/DC demand structural
-- EV transition accelerating
+- [[EV transition]] accelerating
 - Supply constrained (long lead times)
 - Grid buildout global
 - Electrification megatrend
 
 **Bear:**
-- China property weakness
+- [[China]] property weakness
 - Recession risk
 - Substitution (aluminum)
 - New supply eventually comes

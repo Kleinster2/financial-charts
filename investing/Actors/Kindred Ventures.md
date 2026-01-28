@@ -58,7 +58,7 @@ Seed specialist with strong track record in consumer and fintech.
 ## Investment thesis
 
 - Seed-stage focus (~$1-2M checks)
-- Consumer and fintech emphasis
+- [[Consumer]] and fintech emphasis
 - Founder-friendly reputation
 - Network-driven deal flow (Jang's operator background)
 
@@ -68,7 +68,7 @@ Seed specialist with strong track record in consumer and fintech.
 
 | Metric | Value |
 |--------|-------|
-| Type | Venture Capital |
+| Type | [[Venture Capital]] |
 | Stage | Seed |
 | AUM | $312M |
 | Founded | 2014 |

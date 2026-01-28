@@ -1,6 +1,6 @@
 #event #reddit #ipo #socialmedia #2024
 
-**Reddit IPO March 2024** — First major social media IPO since Pinterest. $6.4B valuation. AI data licensing opportunity.
+**[[Reddit]] IPO March 2024** — First major social media IPO since [[Pinterest]]. $6.4B valuation. AI data licensing opportunity.
 
 ---
 
@@ -9,7 +9,7 @@
 | Attribute | Value |
 |-----------|-------|
 | Date | March 21, 2024 |
-| Company | Reddit |
+| Company | [[Reddit]] |
 | Exchange | NYSE (RDDT) |
 | Price | $34/share |
 | Valuation | $6.4B |
@@ -44,7 +44,7 @@
 |------|-------------|
 | Google | $60M/year data licensing |
 | OpenAI | Training data access |
-| Value | Reddit content for AI training |
+| Value | [[Reddit]] content for AI training |
 
 AI data licensing became key bull case.
 

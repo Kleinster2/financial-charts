@@ -3,7 +3,7 @@ aliases: [ABBN.SW, ABB Ltd]
 ---
 #actor #automation #robotics #switzerland #public
 
-**ABB** — Industrial automation giant. Robotics division being sold to SoftBank for $5.4B. Electrification + process automation.
+**ABB** — Industrial automation giant. [[Robotics]] division being sold to SoftBank for $5.4B. Electrification + process automation.
 
 ---
 
@@ -13,8 +13,8 @@ aliases: [ABBN.SW, ABB Ltd]
 |--------|-------|
 | Ticker | ABBN.SW (Zurich), ABB (NYSE) |
 | Market cap | ~$100B |
-| Robotics revenue (2024) | $2.3B |
-| Robotics position | #2 globally (13% share) |
+| [[Robotics]] revenue (2024) | $2.3B |
+| [[Robotics]] position | #2 globally (13% share) |
 
 ---
 
@@ -49,11 +49,11 @@ Originally planned as 2026 spin-off IPO — SoftBank swooped in.
 | Motion | Drives, motors |
 | Process Automation | Industrial control systems |
 
-Robotics (7% of sales) exits in 2026.
+[[Robotics]] (7% of sales) exits in 2026.
 
 ---
 
-## Robotics division details
+## [[Robotics]] division details
 
 | Metric | 2024 Value |
 |--------|------------|
@@ -69,9 +69,9 @@ Robotics (7% of sales) exits in 2026.
 ## 2025 performance
 
 **Q3 2025:**
-- Robotics & Discrete Automation: challenged by weak discrete market
+- [[Robotics]] & Discrete Automation: challenged by weak discrete market
 - Rest of ABB: solid electrification demand
-- Robotics now reported as "Discontinued operations"
+- [[Robotics]] now reported as "Discontinued operations"
 
 ---
 
@@ -86,7 +86,7 @@ Robotics (7% of sales) exits in 2026.
 **Bear:**
 - Losing robotics growth story
 - Industrial slowdown risk
-- China exposure
+- [[China]] exposure
 - Margin pressure
 
 ---
@@ -97,7 +97,7 @@ Robotics (7% of sales) exits in 2026.
 |--------|-------|
 | Ticker | ABBN.SW, ABB |
 | Market cap | ~$100B |
-| Robotics sale | $5.4B to SoftBank |
+| [[Robotics]] sale | $5.4B to SoftBank |
 | Sale timing | Mid-2026 |
 
 *Created 2026-01-05*

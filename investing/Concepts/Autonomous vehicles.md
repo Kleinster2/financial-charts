@@ -10,7 +10,7 @@
 |-------|------|-------------|----------|
 | L0 | No automation | Full control | Base cars |
 | L1 | Driver assistance | Hands on | Adaptive cruise |
-| L2 | Partial automation | Eyes on road | Tesla Autopilot, GM SuperCruise |
+| L2 | Partial automation | Eyes on road | Tesla Autopilot, [[GM]] SuperCruise |
 | L2+ | Advanced assist | Eyes off (limited) | [[Mobileye]] SuperVision |
 | L3 | Conditional | Hands off, ready to take over | Mercedes Drive Pilot |
 | L4 | High automation | No driver needed (geo-fenced) | [[Waymo]], [[Cruise]] |
@@ -26,7 +26,7 @@
 
 | Aspect | Approach |
 |--------|----------|
-| Sensors | Cameras only (removed radar, ultrasonic) |
+| [[Sensors]] | Cameras only (removed radar, ultrasonic) |
 | Data | Billions of miles from customer fleet |
 | Training | End-to-end neural networks |
 | Goal | L4/L5 everywhere |
@@ -38,7 +38,7 @@
 
 | Aspect | Approach |
 |--------|----------|
-| Sensors | Lidar + cameras + radar |
+| [[Sensors]] | Lidar + cameras + radar |
 | Data | Fleet of dedicated test vehicles |
 | Mapping | HD maps of operating areas |
 | Goal | L4 in geo-fenced areas |
@@ -55,15 +55,15 @@
 | Company | Parent | Status | Cities |
 |---------|--------|--------|--------|
 | [[Waymo]] | Alphabet | **Commercial** | SF, Phoenix, LA, Austin |
-| [[Cruise]] | GM | Paused | — |
-| [[Zoox]] | Amazon | Testing | SF, Vegas |
-| [[Baidu]] Apollo | Baidu | Commercial | Wuhan, Beijing |
-| WeRide | Independent | Commercial (China) | Guangzhou |
-| Pony.ai | Independent | Commercial (China) | Multiple |
+| [[Cruise]] | [[GM]] | Paused | — |
+| [[Zoox]] | [[Amazon]] | Testing | SF, Vegas |
+| [[Baidu]] [[Apollo]] | Baidu | Commercial | Wuhan, Beijing |
+| WeRide | Independent | Commercial ([[China]]) | Guangzhou |
+| Pony.ai | Independent | Commercial ([[China]]) | Multiple |
 
 **US winner**: Waymo (only scaled commercial robotaxi).
 
-### Autonomous trucking
+### [[Autonomous trucking]]
 
 | Company | Status | Routes |
 |---------|--------|--------|
@@ -80,7 +80,7 @@
 |---------|---------|-----------------|
 | [[Mobileye]] | EyeQ chips | 70%+ front camera |
 | [[NVIDIA]] | Drive platform | High-end compute |
-| Qualcomm | Snapdragon Ride | Challenger |
+| [[Qualcomm]] | Snapdragon Ride | Challenger |
 
 ---
 
@@ -121,7 +121,7 @@ Aurora commercial before Waymo profitable.
 | Data | Billions of miles | Millions of miles |
 | Cost | Customers pay | Company pays |
 | Liability | Customer (L2) | Company (L4) |
-| Hardware | Consumer-grade | Expensive lidar stacks |
+| Hardware | [[Consumer]]-grade | Expensive lidar stacks |
 
 **FSD status (2025)**:
 - Still L2 (supervised)
@@ -134,15 +134,15 @@ Aurora commercial before Waymo profitable.
 
 ---
 
-## China's parallel race
+## [[China]]'s parallel race
 
 | Player | Status | Approach |
 |--------|--------|----------|
-| [[Baidu]] Apollo | Commercial robotaxi | Waymo-like |
-| Pony.ai | Commercial | Toyota-backed |
+| [[Baidu]] [[Apollo]] | Commercial robotaxi | Waymo-like |
+| Pony.ai | Commercial | [[Toyota]]-backed |
 | WeRide | Commercial | Renault-Nissan partner |
-| Huawei | ADAS supplier | Mobileye competitor |
-| Horizon Robotics | ADAS chips | Chinese Mobileye |
+| [[Huawei]] | ADAS supplier | Mobileye competitor |
+| Horizon [[Robotics]] | ADAS chips | Chinese Mobileye |
 
 **Key difference**: Faster regulatory approval, more permissive testing.
 
@@ -155,16 +155,16 @@ Aurora commercial before Waymo profitable.
 | Company | Ticker | Focus | Risk |
 |---------|--------|-------|------|
 | [[Aurora]] | AUR | Trucking | Execution |
-| [[Mobileye]] | MBLY | ADAS chips | China loss |
+| [[Mobileye]] | MBLY | ADAS chips | [[China]] loss |
 
 ### Embedded in conglomerates
 
 | Company | Ticker | AV asset | % of value |
 |---------|--------|----------|------------|
 | Alphabet | GOOGL | Waymo | ~5-10% |
-| Amazon | AMZN | Zoox | <1% |
-| GM | GM | Cruise | Negative |
-| Intel | INTC | Mobileye (88%) | Significant |
+| [[Amazon]] | AMZN | Zoox | <1% |
+| [[GM]] | [[GM]] | Cruise | Negative |
+| [[Intel]] | INTC | Mobileye (88%) | Significant |
 
 ### Suppliers
 
@@ -181,10 +181,10 @@ Aurora commercial before Waymo profitable.
 | Company | What happened | Lesson |
 |---------|--------------|--------|
 | **Cruise** | 2023 incident, cover-up | Safety + transparency paramount |
-| **TuSimple** | China ties, delisted | Geopolitical risk |
+| **TuSimple** | [[China]] ties, delisted | Geopolitical risk |
 | **Embark** | Ran out of money | Capital intensity |
-| **Argo AI** | Ford/VW pulled plug | OEM patience limited |
-| **Apple Car** | Cancelled 2024 | Even Apple couldn't crack it |
+| **Argo AI** | [[Ford]]/VW pulled plug | OEM patience limited |
+| **[[Apple]] Car** | Cancelled 2024 | Even [[Apple]] couldn't crack it |
 
 ---
 
@@ -215,7 +215,7 @@ Aurora commercial before Waymo profitable.
 **Watch for**:
 - Tesla FSD to L3/L4 (would be transformational)
 - Waymo profitability milestone
-- China robotaxi scaling
+- [[China]] robotaxi scaling
 
 ---
 
@@ -224,9 +224,9 @@ Aurora commercial before Waymo profitable.
 - [[Waymo]] — Robotaxi leader
 - [[Cruise]] — Cautionary tale
 - [[Aurora]] — Trucking leader
-- [[Zoox]] — Amazon's bet
+- [[Zoox]] — [[Amazon]]'s bet
 - [[Mobileye]] — ADAS chips
 - [[Tesla]] — Camera-only approach
-- [[Baidu]] — China leader
+- [[Baidu]] — [[China]] leader
 - [[Automotive semiconductors]] — ADAS chip market
 - [[NVIDIA]] — Drive platform

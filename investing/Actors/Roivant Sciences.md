@@ -13,7 +13,7 @@ aliases: [Roivant, ROIV]
 |--------|-------|
 | Ticker | ROIV (NASDAQ) |
 | Founded | 2014 |
-| HQ | Basel, Switzerland (incorporated Bermuda) |
+| HQ | Basel, [[Switzerland]] (incorporated Bermuda) |
 | Market cap | ~$6B+ |
 | Subsidiaries | 20+ "vant" companies |
 | FDA approvals | 6 |
@@ -39,7 +39,7 @@ aliases: [Roivant, ROIV]
 | Dermavant | Medical dermatology | Commercial-stage |
 | Kinevant | Rare autoimmune | Clinical-stage |
 | Lokavant | Clinical trial monitoring | Active |
-| Datavant | Healthcare data sharing | Merged with Ciox ($7B) |
+| Datavant | [[Healthcare]] data sharing | Merged with Ciox ($7B) |
 | Priovant | Gene therapy | JV with Pfizer (25% Pfizer) |
 
 ---
@@ -59,7 +59,7 @@ Roivant incubates AI/biotech startups:
 
 | Company | Focus | Status |
 |---------|-------|--------|
-| [[Proxima]] | AI drug discovery (protein interactions) | Spun out, $80M seed |
+| [[Proxima]] | [[AI drug discovery]] (protein interactions) | Spun out, $80M seed |
 
 ---
 
@@ -71,7 +71,7 @@ Roivant incubates AI/biotech startups:
 | Stepped down as CEO | January 2021 |
 | Left board | February 2023 (presidential campaign) |
 | Net worth | ~$2B (Forbes, Jan 2026) |
-| Current role | Co-head of DOGE (Trump admin) |
+| Current role | Co-head of [[DOGE]] (Trump admin) |
 
 **Current CEO:** Matt Gline (former CFO)
 
@@ -92,7 +92,7 @@ Early backers included:
 
 ## Related
 
-- [[Proxima]] — incubated company (AI drug discovery)
+- [[Proxima]] — incubated company ([[AI drug discovery]])
 - [[Roche]] — acquirer (Telavant $7.1B)
 - [[Pfizer]] — JV partner (Priovant)
 - [[Biotech]] — sector

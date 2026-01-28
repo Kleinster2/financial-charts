@@ -14,7 +14,7 @@ aliases: [AZN]
 | Ticker | AZN |
 | Market cap | ~$200B |
 | 2025E revenue | **~$50.5B** |
-| HQ | Cambridge, UK |
+| HQ | Cambridge, [[UK]] |
 | 2030 target | **$80B revenue** |
 
 ---
@@ -80,8 +80,8 @@ aliases: [AZN]
 
 **Bear:**
 - Tagrisso competition coming
-- China investigation overhang
-- Patent cliffs ahead
+- [[China]] investigation overhang
+- [[Patent cliffs]] ahead
 - Acquisition integration risk
 - High expectations priced in
 
@@ -110,6 +110,6 @@ aliases: [AZN]
 ## Sources
 
 - [AstraZeneca Q3 2025](https://www.astrazeneca.com/content/dam/az/PDF/2025/9m-q3/9M-and-Q3-2025-results-announcement.pdf)
-- [Nasdaq Analysis](https://www.nasdaq.com/articles/astrazeneca-rides-oncology-momentum-blockbuster-and-new-drugs)
+- [[[Nasdaq]] Analysis](https://www.nasdaq.com/articles/astrazeneca-rides-oncology-momentum-blockbuster-and-new-drugs)
 
 *Created 2026-01-09*

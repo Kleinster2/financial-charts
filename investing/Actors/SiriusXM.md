@@ -11,7 +11,7 @@ aliases: [SIRI, Sirius XM, Sirius Satellite Radio]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | SIRI (Nasdaq) |
+| Ticker | SIRI ([[Nasdaq]]) |
 | HQ | New York City |
 | Subscribers | 150M+ |
 | Satellite subscribers | ~32M |
@@ -27,10 +27,10 @@ aliases: [SIRI, Sirius XM, Sirius Satellite Radio]
 | Market cap | ~$8B |
 | Revenue (2024) | ~$9B |
 | EBITDA | ~$2.7B |
-| Free cash flow | ~$1B |
+| [[Free cash flow]] | ~$1B |
 | Debt | ~$10B |
 
-**Challenge:** Subscriber churn, competition from Spotify, Apple Music.
+**Challenge:** Subscriber churn, competition from [[Spotify]], [[Apple]] Music.
 
 ---
 
@@ -94,7 +94,7 @@ aliases: [SIRI, Sirius XM, Sirius Satellite Radio]
 
 | Angle | Detail |
 |-------|--------|
-| **Liberty Media** | Controlled by John Malone |
+| **Liberty [[Media]]** | Controlled by [[John Malone]] |
 | **Pure Storage** | Customer reference for media vertical |
 | **NYC media** | Major employer in NYC media ecosystem |
 | **Cash flow** | ~$1B FCF despite challenges |
@@ -102,7 +102,7 @@ aliases: [SIRI, Sirius XM, Sirius Satellite Radio]
 ### Risks
 
 - Subscriber churn (vehicle sales tied)
-- Spotify/Apple competition
+- [[Spotify]]/[[Apple]] competition
 - Podcast market fragmentation
 - Leverage (~4x debt/EBITDA)
 
@@ -117,12 +117,12 @@ aliases: [SIRI, Sirius XM, Sirius Satellite Radio]
 - [[Pure Storage]] — 100% enterprise storage
 
 ### Competitors
-- Spotify — streaming
-- Apple Music — streaming
-- iHeartMedia — radio
+- [[Spotify]] — streaming
+- [[Apple]] Music — streaming
+- [[iHeartMedia]] — radio
 
 ### Sector
-- Media & entertainment
+- [[Media]] & entertainment
 - Audio streaming
 
 ---

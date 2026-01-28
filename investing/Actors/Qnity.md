@@ -27,8 +27,8 @@ The largest US-based semiconductor materials company, now a pure-play:
 
 | Segment | Description |
 |---------|-------------|
-| **Semiconductor Technologies** | Photoresists, CMP slurries, etch materials |
-| **Interconnect Solutions** | Advanced packaging, laminates |
+| **Semiconductor Technologies** | [[Photoresists]], CMP slurries, etch materials |
+| **Interconnect Solutions** | [[Advanced packaging]], laminates |
 
 **~2/3 of revenue tied to semiconductors** — exposure to AI, HPC, advanced nodes.
 
@@ -43,7 +43,7 @@ The largest US-based semiconductor materials company, now a pure-play:
 | **Thick-film resists** | Strong position (packaging) |
 | **Bio-based solvents** | New sustainable line (July 2025) |
 
-**Sasakami expansion (Japan):**
+**Sasakami expansion ([[Japan]]):**
 - East Star Building opened October 2024
 - Nearly doubled photoresist capacity
 - Serves Asian fabs
@@ -72,13 +72,13 @@ The largest US-based semiconductor materials company, now a pure-play:
 
 | Company | Share | Notes |
 |---------|-------|-------|
-| [[JSR Corporation]] | ~27% | Private, Japan |
-| [[Tokyo Ohka Kogyo]] | ~20-25% | Japan |
-| [[Shin-Etsu]] | ~15% | Japan |
-| [[Fujifilm]] | ~10% | Japan |
-| [[Sumitomo Chemical]] | ~8% | Japan |
+| [[JSR Corporation]] | ~27% | Private, [[Japan]] |
+| [[Tokyo Ohka Kogyo]] | ~20-25% | [[Japan]] |
+| [[Shin-Etsu]] | ~15% | [[Japan]] |
+| [[Fujifilm]] | ~10% | [[Japan]] |
+| [[Sumitomo Chemical]] | ~8% | [[Japan]] |
 | **Qnity** | ~7% | **US, pure-play** |
-| [[Merck KGaA]] | ~5% | Germany |
+| [[Merck KGaA]] | ~5% | [[Germany]] |
 
 **Qnity differentiation:** Only major US-headquartered pure-play in semiconductor materials. Supply chain diversification value.
 
@@ -93,7 +93,7 @@ The largest US-based semiconductor materials company, now a pure-play:
 - AI/semiconductor structural demand growth
 - S&P 500 inclusion day one
 - High-NA EUV positioning (Arizona)
-- Advanced packaging exposure (chiplets, HBM)
+- [[Advanced packaging]] exposure (chiplets, [[HBM]])
 
 **Bear:**
 - Smaller than Japanese leaders
@@ -129,7 +129,7 @@ Qnity took the high-growth electronics business.
 ![[qnity-vs-smh.png]]
 *[[Semiconductors|SMH]]*
 
-**Since spin-off (Nov 2025):** Q +3% vs SMH +24%
+**Since spin-off (Nov 2025):** Q +3% vs [[SMH]] +24%
 
 Classic spin-off dynamics:
 - Forced selling from DuPont holders who didn't want materials exposure
@@ -152,9 +152,9 @@ Classic spin-off dynamics:
 ## Related
 
 - [[DuPont]] — former parent (spun off)
-- [[JSR Corporation]] — competitor (Japan, private)
-- [[Tokyo Ohka Kogyo]] — competitor (Japan)
-- [[Merck KGaA]] — competitor (Germany)
+- [[JSR Corporation]] — competitor ([[Japan]], private)
+- [[Tokyo Ohka Kogyo]] — competitor ([[Japan]])
+- [[Merck KGaA]] — competitor ([[Germany]])
 - [[TSMC]] — customer
 - [[Intel]] — customer (US fabs)
 - [[Export controls]] — US semiconductor policy context

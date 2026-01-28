@@ -8,7 +8,7 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 ## Pending deals (2026)
 
-| Acquirer | Target | Value | Status | Sector |
+| Acquirer | [[Target]] | Value | Status | Sector |
 |----------|--------|-------|--------|--------|
 | [[Merck]] | [[Revolution Medicines]] | $32B | In talks | Pharma |
 
@@ -16,22 +16,22 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 ## Closed deals (2024-2025)
 
-| Date | Acquirer | Target | Value | Sector |
+| Date | Acquirer | [[Target]] | Value | Sector |
 |------|----------|--------|-------|--------|
 | Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | AI chips |
 | Oct 2025 | [[Broadcom]] | VMware | $69B | Software |
 | Aug 2024 | [[Home Depot]] | SRS Distribution | $18B | Retail |
 | Dec 2023 | [[Pfizer]] | Seagen | $43B | Pharma |
 | Oct 2023 | [[Exxon]] | Pioneer | $60B | Energy |
-| Oct 2023 | [[Microsoft]] | Activision | $69B | Gaming |
+| Oct 2023 | [[Microsoft]] | Activision | $69B | [[Gaming]] |
 
 ---
 
 ## Blocked/failed deals
 
-| Date | Acquirer | Target | Value | Reason |
+| Date | Acquirer | [[Target]] | Value | Reason |
 |------|----------|--------|-------|--------|
-| 2018 | [[Qualcomm]] | NXP | $44B | China approval |
+| 2018 | [[Qualcomm]] | [[NXP]] | $44B | [[China]] approval |
 | 2022 | [[NVIDIA]] | Arm | $40B | Regulatory |
 | 2020 | [[Visa]] | Plaid | $5B | DOJ antitrust |
 
@@ -57,7 +57,7 @@ Tracking major mergers and acquisitions relevant to portfolio.
 
 ## Pharma M&A wave
 
-Patent cliffs driving "multi tens of billions" appetite:
+[[Patent cliffs]] driving "multi tens of billions" appetite:
 
 | Company | Cliff drug | Expiry | M&A appetite |
 |---------|------------|--------|--------------|
@@ -70,7 +70,7 @@ Patent cliffs driving "multi tens of billions" appetite:
 
 ## AI/Tech M&A
 
-| Acquirer | Target | Value | Rationale |
+| Acquirer | [[Target]] | Value | Rationale |
 |----------|--------|-------|-----------|
 | [[NVIDIA]] | [[Groq]] | $20B | Inference chips, SRAM hedge |
 | [[NVIDIA]] | SchedMD | — | Slurm scheduler (ecosystem) |
@@ -86,9 +86,9 @@ Patent cliffs driving "multi tens of billions" appetite:
 | Region | Stance | Key cases |
 |--------|--------|-----------|
 | US (FTC) | Aggressive under Khan, softening? | MSFT-ATVI approved |
-| EU | Active | Google, Apple cases |
-| China | Strategic blocker | Qualcomm-NXP |
-| UK (CMA) | Aggressive | MSFT-ATVI delayed |
+| [[EU]] | Active | [[Google]], [[Apple]] cases |
+| [[China]] | Strategic blocker | Qualcomm-[[NXP]] |
+| [[UK]] (CMA) | Aggressive | MSFT-ATVI delayed |
 
 ---
 

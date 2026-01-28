@@ -3,7 +3,7 @@ aliases: [Greenoaks Capital]
 ---
 #actor #investor #hedgefund #usa #private
 
-**Greenoaks** — Tech-focused hedge fund. Scale AI Series E lead. Coupang, Flipkart investor. ~$10B+ AUM.
+**Greenoaks** — Tech-focused hedge fund. Scale AI Series E lead. Coupang, [[Flipkart]] investor. ~$10B+ AUM.
 
 ---
 
@@ -23,12 +23,12 @@ aliases: [Greenoaks Capital]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **[[Scale AI]]** | Lead Series E | Meta 49% ($29B) |
+| **[[Scale AI]]** | Lead Series E | [[Meta]] 49% ($29B) |
 | **[[Brex]]** | Series B, D-2 lead | Acquired by [[Capital One]] $5.15B |
 | **Coupang** | Pre-IPO | Public (CPNG) |
-| **Flipkart** | Growth | Acquired by Walmart |
-| **Toast** | Growth | Public (TOST) |
-| **Instacart** | Growth | Public (CART) |
+| **[[Flipkart]]** | Growth | Acquired by [[Walmart]] |
+| **[[Toast]]** | Growth | Public (TOST) |
+| **[[Instacart]]** | Growth | Public (CART) |
 
 ---
 

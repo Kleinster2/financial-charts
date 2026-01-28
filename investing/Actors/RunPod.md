@@ -1,6 +1,6 @@
 #actor #neocloud #usa
 
-**RunPod** — Budget GPU cloud, Intel/Dell-backed, developer-focused.
+**RunPod** — Budget GPU cloud, Intel/[[Dell]]-backed, developer-focused.
 
 ---
 
@@ -22,11 +22,11 @@
 | Date | Round | Amount | Investors |
 |------|-------|--------|-----------|
 | Nov 2023 | Seed | $18.5M | — |
-| May 2024 | Seed | $20M | Intel Capital, Dell Technologies Capital |
+| May 2024 | Seed | $20M | [[Intel Capital]], [[Dell]] Technologies Capital |
 
-Notable angels: Nat Friedman, Julien Chaumond (HuggingFace), Adam Lewis
+Notable angels: [[Nat Friedman]], Julien Chaumond (HuggingFace), Adam Lewis
 
-Mark Rostick (Intel Capital) joined board.
+Mark Rostick ([[Intel Capital]]) joined board.
 
 ---
 

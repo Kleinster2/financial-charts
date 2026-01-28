@@ -61,7 +61,7 @@ Competes on relationships and focus.
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **Limited near-term:**
 
@@ -84,7 +84,7 @@ Competes on relationships and focus.
 - Concentration risk
 - Scale disadvantage
 - Frac overcapacity
-- Natural gas weakness in Permian
+- [[Natural gas]] weakness in Permian
 - No diversification
 
 ---

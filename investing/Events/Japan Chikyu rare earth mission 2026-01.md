@@ -1,6 +1,6 @@
 #event #japan #rareearths #commodities
 
-**Japan Chikyu rare earth mission** — World's first attempt to continuously lift rare earth mud from 6km depth. Part of Japan's drive to reduce China dependence.
+**Japan Chikyu rare earth mission** — World's first attempt to continuously lift rare earth mud from 6km depth. Part of Japan's drive to reduce [[China]] dependence.
 
 ---
 
@@ -32,29 +32,29 @@
 
 ## Why this matters
 
-### Japan's China dependence
+### Japan's [[China]] dependence
 
-| Period | China share |
+| Period | [[China]] share |
 |--------|-------------|
 | 2010 | ~90% |
 | 2026 | ~60% |
 
 Reduction achieved through:
-- [[Lynas Rare Earths]] partnership with Sojitz (Australia)
+- [[Lynas Rare Earths]] partnership with Sojitz ([[Australia]])
 - Rare earth recycling
 - Manufacturing processes using less REE
 
 ### Heavy rare earth problem
 
-Japan remains almost 100% dependent on China for heavy rare earths like [[Dysprosium]] — critical for EV motor magnets. This project could change that.
+Japan remains almost 100% dependent on [[China]] for heavy rare earths like [[Dysprosium]] — critical for EV motor magnets. This project could change that.
 
 ---
 
 ## Geopolitical context
 
-### China pressure
+### [[China]] pressure
 
-- **Jan 2026**: China banned dual-use exports to Japan including rare earths (see [[China-Japan relations]])
+- **Jan 2026**: [[China]] banned dual-use exports to Japan including rare earths (see [[China-Japan relations]])
 - **WSJ reports**: Beijing restricting rare earth exports to Japan more broadly
 - **June 2025**: Chinese naval fleet observed near Minamitori Island during survey operations
 
@@ -69,21 +69,21 @@ G7 finance ministers discussed rare earth supplies at Washington meeting (Jan 12
 ## Economic viability
 
 Previously viewed as uneconomical due to high costs. However:
-- If China supply disruption continues
+- If [[China]] supply disruption continues
 - If buyers accept higher prices
 - Project could become viable in coming years
 
-**Analyst view (Mitsubishi UFJ Research)**: Economics improving as China weaponizes supply.
+**Analyst view (Mitsubishi UFJ Research)**: Economics improving as [[China]] weaponizes supply.
 
 ---
 
 ## What to watch
 
-| Signal | Meaning |
+| [[Signal]] | Meaning |
 |--------|---------|
 | Mission success | Technology proven for 6km depth |
 | Feb 2027 trial | Commercial viability test |
-| China response | Further naval activity, diplomatic pressure |
+| [[China]] response | Further naval activity, diplomatic pressure |
 | Reserve disclosure | Project scale and timeline |
 
 ---

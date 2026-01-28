@@ -9,14 +9,14 @@
 | Indicator | What it tells you |
 |-----------|-------------------|
 | **Rial depreciation** | Sanctions pressure, capital flight, inflation expectations |
-| **Black market premium** | Gap between official vs reality, capital controls failing |
+| **Black market premium** | [[Gap]] between official vs reality, capital controls failing |
 | **Central bank turnover** | Policy credibility exhausted |
 | **Protests** | Economic pain reaching breaking point |
 
 **2025-2026 sequence:**
 ```
 Rial -78% (2025)
-    → Inflation 36-42%
+    → [[Inflation]] 36-42%
         → CB governor resigns (Dec 29)
             → Protests erupt (Dec 28)
                 → Regime crackdown (Jan 2026)
@@ -66,7 +66,7 @@ Iran has faced USD shortages since 2018. Why did the rial collapse 78% specifica
 | **Dec 2024** | Assad falls in Syria | Lost $50B investment, Hezbollah supply route cut |
 | **Jan 2025** | Trump inaugurated | "Maximum pressure 2.0" begins |
 | **Jun 2025** | 12-day war with Israel | Rial lost 40% from Jun-Dec alone |
-| **Sep 2025** | [[UN snapback]] triggered | UK/France/Germany restored UN sanctions |
+| **Sep 2025** | [[UN snapback]] triggered | [[UK]]/[[France]]/[[Germany]] restored UN sanctions |
 | **Oct 2025** | Ayandeh Bank collapses | 7M depositors trapped, bank runs, panic |
 | **Oct-Nov 2025** | Chinese teapot quotas exhausted | Primary buyers stopped buying |
 | **Dec 2025** | Preferential FX rate ended | Importers forced to open market rate |
@@ -91,7 +91,7 @@ Often overlooked: Syria collapsed in December 2024, just before the rial's 2025 
 
 **Combined with Hezbollah decimation (2024):** Israel killed most of Hezbollah's leadership and degraded its operational capacity throughout 2024. Syria's fall then cut the resupply route.
 
-**Confidence mechanism:** Iranians watching the regime lose Syria, lose Hezbollah, then lose the June 2025 war concluded the Islamic Republic was failing. Capital flight accelerated.
+**Confidence mechanism:** Iranians watching the regime lose Syria, lose Hezbollah, then lose the June 2025 war concluded the Islamic [[Republic]] was failing. Capital flight accelerated.
 
 ### [[Ayandeh Bank]] collapse (Oct 2025)
 
@@ -131,13 +131,13 @@ Often overlooked: Syria collapsed in December 2024, just before the rial's 2025 
 
 ### UN snapback — the overlooked catalyst
 
-In September 2025, Britain, France, and Germany triggered the "snapback" mechanism under UN Security Council Resolution 2231, restoring multilateral sanctions suspended under JCPOA.
+In September 2025, Britain, [[France]], and [[Germany]] triggered the "snapback" mechanism under UN Security Council Resolution 2231, restoring multilateral sanctions suspended under JCPOA.
 
 **Why this mattered:**
 - Transformed US unilateral sanctions into global sanctions
 - European companies now legally barred (not just cautious)
-- Insurance, shipping, banking all re-restricted globally
-- Signal that diplomacy was dead
+- [[Insurance]], shipping, banking all re-restricted globally
+- [[Signal]] that diplomacy was dead
 
 > "The snapback has had immediate and extensive negative effects on the rial." — Analysts
 
@@ -237,7 +237,7 @@ The Tehran Grand Bazaar isn't just a market — it's a political power center. B
 | **No ability to hedge** | Currency swings too fast to price anything |
 | **Customers broke** | Shops offering installment plans for *clothes* — unprecedented |
 
-**Inflation context (Dec 2025):**
+**[[Inflation]] context (Dec 2025):**
 - Official inflation: 52%+
 - Food prices: +66% YoY
 - Former VP estimate: heading to 55%
@@ -278,7 +278,7 @@ US sanctions
             → Central bank can't defend rial
                 → Currency depreciates
                     → Import prices spike
-                        → Inflation
+                        → [[Inflation]]
                             → Living standards collapse
                                 → Protests
 ```
@@ -289,7 +289,7 @@ US sanctions
 |-------|---------------|
 | Currency falls | → Iranians rush to buy USD |
 | USD demand spikes | → Currency falls faster |
-| Inflation rises | → Workers demand higher wages |
+| [[Inflation]] rises | → Workers demand higher wages |
 | Costs rise | → More inflation |
 | Confidence falls | → Capital flight accelerates |
 
@@ -315,7 +315,7 @@ US sanctions
 | SWIFT access | Blocked |
 | USD clearing | Blocked |
 | Western banking | Blocked |
-| Insurance/shipping | Restricted |
+| [[Insurance]]/shipping | Restricted |
 | Payment settlement | Yuan, barter, gold |
 
 ---
@@ -345,7 +345,7 @@ Post-sanctions:
 
 **What SWIFT does:** Secure messaging between 11,000+ banks globally. Without it, banks can't communicate payment instructions. Iran can't tell a German bank to pay a supplier.
 
-**Not technically sanctions:** SWIFT is Belgian, but complied with US/EU pressure. Shows extraterritorial reach of US financial power.
+**Not technically sanctions:** SWIFT is Belgian, but complied with US/[[EU]] pressure. Shows extraterritorial reach of US financial power.
 
 ### Correspondent banking
 
@@ -354,9 +354,9 @@ Even when SWIFT was restored (2016-2018), major banks refused to touch Iran:
 | Bank | Position |
 |------|----------|
 | [[JPMorgan Chase]] | Refused Iran business |
-| HSBC | Refused |
+| [[HSBC]] | Refused |
 | Standard Chartered | Refused |
-| Deutsche Bank | Refused |
+| [[Deutsche Bank]] | Refused |
 | BNP Paribas | Refused (after $8.9B fine in 2014) |
 
 **Why banks stay away:**
@@ -366,7 +366,7 @@ Even when SWIFT was restored (2016-2018), major banks refused to touch Iran:
 4. **Uncertainty** — Sanctions can snap back anytime
 5. **De-risking** — Easier to avoid entire country than monitor transactions
 
-**BNP Paribas precedent (2014):** $8.9B fine for violating Sudan, Cuba, Iran sanctions. Largest sanctions fine ever. Made every compliance officer terrified of Iran exposure.
+**BNP Paribas precedent (2014):** $8.9B fine for violating Sudan, [[Cuba]], Iran sanctions. Largest sanctions fine ever. Made every compliance officer terrified of Iran exposure.
 
 ### Central Bank of Iran (CBI) sanctions
 
@@ -389,8 +389,8 @@ How Iran survives without Western banking:
 | **Barter** | Oil for goods (Chinese machinery, etc.) | Inefficient, unfavorable terms |
 | **Hawala** | Informal trust-based transfers | Small scale, high fees |
 | **Gold** | Physical delivery | Logistically difficult |
-| **Crypto** | Increasingly used | Volatile, traceable |
-| **Front companies** | Shell companies in UAE, Turkey | Risk of exposure |
+| **[[Crypto]]** | Increasingly used | Volatile, traceable |
+| **Front companies** | [[Shell]] companies in UAE, Turkey | Risk of exposure |
 
 ### CIPS as alternative
 
@@ -406,8 +406,8 @@ How Iran survives without Western banking:
 | Factor | Impact |
 |--------|--------|
 | **No alternatives at scale** | CIPS too small, crypto too volatile |
-| **Banks self-censor** | De-risking exceeds legal requirements |
-| **Sticky even after relief** | Banks stayed away 2016-2018 |
+| **[[Banks]] self-censor** | De-risking exceeds legal requirements |
+| **Sticky even after relief** | [[Banks]] stayed away 2016-2018 |
 | **Compounds other sanctions** | Can't pay for imports even if allowed |
 | **Hits ordinary Iranians** | Medicine, food imports disrupted |
 
@@ -417,7 +417,7 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 
 | Expected | Actual |
 |----------|--------|
-| Trade normalizes | Banks refused to reconnect |
+| [[Trade]] normalizes | [[Banks]] refused to reconnect |
 | Investment flows in | Companies stayed away |
 | Economy recovers | Modest improvement only |
 
@@ -429,7 +429,7 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 
 ## Economic indicators
 
-### Inflation
+### [[Inflation]]
 
 | Period | Rate |
 |--------|------|
@@ -485,7 +485,7 @@ JCPOA (Iran nuclear deal) lifted sanctions, but:
 | [[Oil]] | Bullish (supply risk) |
 | [[Gold]] | Bullish (safe haven) |
 | [[GCC]] equities | Bearish (proximity risk) |
-| Defense stocks | Bullish (conflict risk) |
+| [[Defense]] stocks | Bullish (conflict risk) |
 
 ### Currency as early warning
 

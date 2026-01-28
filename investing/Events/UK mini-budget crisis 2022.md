@@ -33,7 +33,7 @@ aliases: [Liz Truss crisis, UK gilt crisis, LDI crisis]
 | Income tax | 20% → 19% |
 | Top rate abolished | 45% rate eliminated |
 | Corporation tax | Reversed planned increase |
-| National Insurance | Reversed recent increase |
+| National [[Insurance]] | Reversed recent increase |
 
 **Fatal flaw:** No Office for Budget Responsibility (OBR) forecast. Markets had no independent analysis.
 

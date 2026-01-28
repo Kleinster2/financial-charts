@@ -2,13 +2,13 @@
 
 **Battery chemistry primer** — foundational electrochemistry and manufacturing concepts for battery investing. Understanding the technology helps evaluate EV range claims, grid storage economics, and supply chain vulnerabilities.
 
-> **Key insight:** Batteries are a materials problem. Chemistry determines energy density, cost, safety, and lifespan. There is no perfect battery — every chemistry is a tradeoff.
+> **Key insight:** [[Batteries]] are a materials problem. Chemistry determines energy density, cost, safety, and lifespan. There is no perfect battery — every chemistry is a tradeoff.
 
 ---
 
 ## How batteries work
 
-Batteries store energy in chemical bonds. Discharge releases electrons (electricity). Charge reverses the reaction.
+[[Batteries]] store energy in chemical bonds. Discharge releases electrons (electricity). Charge reverses the reaction.
 
 ```
 Discharge:
@@ -45,7 +45,7 @@ Discharge:
 
 **Leaders:** [[CATL]], [[BYD]] (Blade Battery).
 
-**Why LFP is winning:** No cobalt or nickel = cheaper, more stable supply chain. China dominates.
+**Why LFP is winning:** No cobalt or nickel = cheaper, more stable supply chain. [[China]] dominates.
 
 ### NMC (Nickel Manganese Cobalt)
 
@@ -62,7 +62,7 @@ Discharge:
 
 **Use cases:** Long-range EVs, premium vehicles.
 
-**Leaders:** LG Energy, SK On, Samsung SDI.
+**Leaders:** LG Energy, [[SK On]], [[Samsung SDI]].
 
 ### NCA (Nickel Cobalt Aluminum)
 
@@ -74,9 +74,9 @@ Discharge:
 | Safety | Lowest |
 | Cost | High |
 
-**Use cases:** Tesla Model S/X (historically), high-performance.
+**Use cases:** [[Tesla]] Model S/X (historically), high-performance.
 
-**Leader:** Panasonic (Tesla partnership).
+**Leader:** [[Panasonic]] ([[Tesla]] partnership).
 
 ---
 
@@ -102,11 +102,11 @@ Discharge:
 
 | Format | Shape | Use | Examples |
 |--------|-------|-----|----------|
-| **Cylindrical** | Can (18650, 21700, 4680) | EVs, laptops | Tesla |
+| **Cylindrical** | Can (18650, 21700, 4680) | EVs, laptops | [[Tesla]] |
 | **Prismatic** | Rectangular box | EVs, ESS | BYD, CATL |
 | **Pouch** | Flat foil bag | EVs, phones | LG, SK |
 
-**4680:** Tesla's new cylindrical format. 46mm diameter × 80mm length. 5x energy, 6x power vs 21700. Tabless design reduces internal resistance.
+**4680:** [[Tesla]]'s new cylindrical format. 46mm diameter × 80mm length. 5x energy, 6x power vs 21700. Tabless design reduces internal resistance.
 
 ---
 
@@ -160,7 +160,7 @@ Discharge:
 | Anode | 10-15% |
 | Separator | 10-15% |
 | Electrolyte | 10-15% |
-| Housing/other | 10-20% |
+| [[Housing]]/other | 10-20% |
 
 ---
 
@@ -168,14 +168,14 @@ Discharge:
 
 | Material | Use | Dominant source | Risk |
 |----------|-----|-----------------|------|
-| **Lithium** | All Li-ion | Australia, Chile | Price volatility |
+| **Lithium** | All Li-ion | [[Australia]], [[Chile]] | Price volatility |
 | **Cobalt** | NMC, NCA | DRC (70%) | Ethical, supply |
-| **Nickel** | NMC, NCA | Indonesia, Russia | Geopolitical |
-| **Graphite** | Anode | China (65%) | Export controls |
-| **Manganese** | NMC, LFP | South Africa | Stable |
+| **Nickel** | NMC, NCA | Indonesia, [[Russia]] | Geopolitical |
+| **Graphite** | Anode | [[China]] (65%) | [[Export controls]] |
+| **Manganese** | NMC, LFP | South [[Africa]] | Stable |
 | **Iron** | LFP | Global | Abundant |
 
-**LFP advantage:** No cobalt, no nickel = no DRC, no Russia, no Indonesia risk.
+**LFP advantage:** No cobalt, no nickel = no DRC, no [[Russia]], no Indonesia risk.
 
 See [[Lithium]], [[Critical minerals]].
 
@@ -183,7 +183,7 @@ See [[Lithium]], [[Critical minerals]].
 
 ## Next-generation technologies
 
-### Solid-state batteries
+### [[Solid-state batteries]]
 
 Replace liquid electrolyte with solid material.
 
@@ -197,7 +197,7 @@ Replace liquid electrolyte with solid material.
 
 **Challenges:** Solid-solid interface degrades. Scaling manufacturing. Still 5+ years from mass production.
 
-**Players:** [[QuantumScape]], Toyota, Samsung SDI, Solid Power.
+**Players:** [[QuantumScape]], [[Toyota]], [[Samsung SDI]], Solid Power.
 
 ### Silicon anodes
 
@@ -221,13 +221,13 @@ Sodium instead of lithium. Cheaper, abundant, but lower energy density.
 | Cycle life | Good | Excellent |
 | Cold performance | Better | Poor |
 
-**Use cases:** Grid storage, low-cost EVs. [[CATL]] shipping sodium-ion in 2024.
+**Use cases:** [[Grid storage]], low-cost EVs. [[CATL]] shipping sodium-ion in 2024.
 
 ---
 
-## Grid storage vs EV requirements
+## [[Grid storage]] vs EV requirements
 
-| Requirement | EV | Grid storage |
+| Requirement | EV | [[Grid storage]] |
 |-------------|-----|--------------|
 | Energy density | Critical | Less important |
 | Weight | Critical | Not important |
@@ -274,11 +274,11 @@ Sodium instead of lithium. Cheaper, abundant, but lower energy density.
 | [[CATL]] | LFP, NMC, sodium | Scale (#1 globally) |
 | [[BYD]] | LFP (Blade) | Vertical integration |
 | LG Energy | NMC, pouch | Premium EVs |
-| Panasonic | NCA, cylindrical | Tesla partnership |
-| [[SK Hynix]] (SK On) | NMC | Growth |
-| Samsung SDI | NMC, prismatic | Diversified |
+| [[Panasonic]] | NCA, cylindrical | [[Tesla]] partnership |
+| [[SK Hynix]] ([[SK On]]) | NMC | Growth |
+| [[Samsung SDI]] | NMC, prismatic | Diversified |
 
-**China dominance:** ~80% of global cell production. [[China battery leverage]] is real.
+**[[China]] dominance:** ~80% of global cell production. [[China battery leverage]] is real.
 
 ---
 

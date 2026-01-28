@@ -68,7 +68,7 @@ aliases: [Baron Capital Group, Baron Funds]
 
 | ETF | Ticker | Focus |
 |-----|--------|-------|
-| Baron First Principles | RONB | Core strategy |
+| Baron First [[Principles]] | RONB | Core strategy |
 | Baron Global Durable Advantage | BCGD | Global |
 | Baron SMID Cap | BCSM | Small/mid cap |
 | Baron Financials | BCFN | Financials |

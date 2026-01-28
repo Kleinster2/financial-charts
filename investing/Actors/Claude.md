@@ -32,7 +32,7 @@ Batch API offers 50% discount for async processing.
 
 ---
 
-## Consumer pricing
+## [[Consumer]] pricing
 
 | Plan | Price | Usage |
 |------|-------|-------|
@@ -66,7 +66,7 @@ Batch API offers 50% discount for async processing.
 
 - **Extended thinking** — Multi-step reasoning before responding
 - **200K context** — Understands multi-file codebases
-- **Google Workspace** — Read/edit Docs, Gmail, Drive (2026)
+- **[[Google]] Workspace** — Read/edit Docs, Gmail, Drive (2026)
 - **Computer use** — Can control desktop applications
 
 ---
@@ -76,8 +76,8 @@ Batch API offers 50% discount for async processing.
 Available through:
 - claude.ai (direct)
 - AWS Bedrock
-- Google Vertex AI
-- Microsoft Foundry
+- [[Google]] [[Vertex]] AI
+- [[Microsoft]] Foundry
 
 Multi-cloud strategy reduces single-vendor dependency.
 
@@ -110,7 +110,7 @@ Multi-cloud strategy reduces single-vendor dependency.
 
 - [[Anthropic]] — parent company
 - [[ChatGPT]] — primary competitor
-- [[Gemini]] — Google competitor
+- [[Gemini]] — [[Google]] competitor
 - [[Clawdbot]] — open-source agent that uses Claude as backend
 - [[Agentic AI]] — Claude Code's category
 - [[AI agents]] — broader category

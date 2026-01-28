@@ -50,7 +50,7 @@ Founders think they need scalable systems from day one. They build automation be
 | **[[Stripe]]** | "Collison installation" — founders came to your office, set up Stripe for you | Self-serve integration |
 | **[[DoorDash]]** | Founders personally delivered food | Dasher network |
 | **Wufoo** | Handwritten thank-you notes to users | Customer love culture |
-| **Pinterest** | Founders recruited users one by one at coffee shops | Viral growth |
+| **[[Pinterest]]** | Founders recruited users one by one at coffee shops | Viral growth |
 
 **Why it works:**
 - You learn what users actually want — can't learn from a dashboard
@@ -132,7 +132,7 @@ Today, founders who've never heard of Paul Graham use his concepts. The ideas es
 - [[DoorDash]] — founders delivered food
 
 ### Peer frameworks
-- [[Dalio Principles]] — Bridgewater's operating system
+- [[Dalio Principles]] — [[Bridgewater]]'s operating system
 - Lean Startup — Eric Ries (overlaps significantly)
 
 ---

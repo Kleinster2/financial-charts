@@ -58,9 +58,9 @@ GenAI moving to edge.
 | Application | Examples |
 |-------------|----------|
 | Smart cameras | Security, retail |
-| Automotive | ADAS, in-cabin |
+| [[Automotive]] | ADAS, in-cabin |
 | Industrial | Inspection, robotics |
-| Drones | Autonomous navigation |
+| [[Drones]] | Autonomous navigation |
 
 ---
 
@@ -68,8 +68,8 @@ GenAI moving to edge.
 
 | Partner | Application |
 |---------|-------------|
-| BMW | Automotive |
-| Sony | Cameras |
+| [[BMW]] | [[Automotive]] |
+| [[Sony]] | Cameras |
 | Various OEMs | Edge devices |
 
 ---
@@ -80,8 +80,8 @@ GenAI moving to edge.
 |------------|----------|
 | NVIDIA (Jetson) | More power efficient |
 | Qualcomm | Different architecture |
-| Intel (Movidius) | Better performance/watt |
-| Google (Edge TPU) | More flexible |
+| [[Intel]] (Movidius) | Better performance/watt |
+| [[Google]] (Edge TPU) | More flexible |
 
 ---
 
@@ -90,7 +90,7 @@ GenAI moving to edge.
 **Bull:**
 - Edge AI growing fast
 - Israeli engineering talent
-- Automotive partnerships
+- [[Automotive]] partnerships
 - GenAI at edge = new market
 
 **Bear:**
@@ -116,8 +116,8 @@ GenAI moving to edge.
 | Investor | Notes |
 |----------|-------|
 | Poalim Equity | Israeli bank |
-| NTT Finance | Japanese strategic |
-| ABB | Industrial strategic |
+| [[NTT]] Finance | Japanese strategic |
+| [[ABB]] | Industrial strategic |
 | Qualcomm Ventures | Strategic |
 | Latitude Ventures | Israeli VC |
 | Entropy | Growth |

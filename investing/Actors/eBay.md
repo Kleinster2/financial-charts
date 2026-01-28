@@ -3,7 +3,7 @@ aliases: [EBAY]
 ---
 #actor #company #ecommerce #marketplace #usa #public
 
-**eBay** — Online marketplace pioneer. Nasdaq: EBAY. C2C and small business focus. $70B+ GMV.
+**eBay** — Online marketplace pioneer. [[Nasdaq]]: EBAY. C2C and small business focus. $70B+ GMV.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [EBAY]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EBAY (Nasdaq) |
+| Ticker | EBAY ([[Nasdaq]]) |
 | Market cap | ~$30B |
 | GMV | $70B+ |
 | Active buyers | 130M+ |
@@ -37,7 +37,7 @@ Original online marketplace, now focused niche.
 |----------|-------------|
 | **Enthusiast categories** | Collectibles, trading cards, parts |
 | **Refurbished** | Certified pre-owned |
-| **Luxury** | Authentication program |
+| **[[Luxury]]** | Authentication program |
 | **C2C** | Original strength |
 
 Moved away from competing with Amazon on commodities.
@@ -75,7 +75,7 @@ Moved away from competing with Amazon on commodities.
 
 | Event | Impact |
 |-------|--------|
-| PayPal spin (2015) | Separated payments |
+| [[PayPal]] spin (2015) | Separated payments |
 | StubHub sale (2020) | $4B to Viagogo |
 | Managed Payments | Brought payments in-house |
 | TCGPlayer (2022) | Trading card acquisition |

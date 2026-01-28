@@ -27,7 +27,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 |------|----------|
 | Tariffs | [[Trump II]] tariffs (60% China, 10-20% universal) |
 | Export controls | [[Export controls]], [[Entity List]] |
-| Sanctions | OFAC, sectoral sanctions |
+| Sanctions | [[OFAC]], sectoral sanctions |
 | Anti-dumping | WTO cases |
 
 ### Defensive
@@ -36,7 +36,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 |------|----------|
 | Industrial policy | [[EU Chips Act]], [[CHIPS Act]] |
 | Reshoring incentives | IRA, tax credits |
-| Screening | CFIUS, EU FDI screening |
+| Screening | CFIUS, [[EU]] FDI screening |
 | Strategic reserves | Critical minerals, energy |
 
 ---
@@ -49,7 +49,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 | **MFN** | Most-favored nation (WTO baseline) |
 | **Negative list** | Everything open unless excluded |
 | **Positive list** | Only listed sectors open |
-| **Mixed agreement** | EU + national competence (requires all parliaments) |
+| **Mixed agreement** | [[EU]] + national competence (requires all parliaments) |
 | **Cumulation** | Count inputs from partner countries |
 | **TRQ** | Tariff-rate quota (low tariff up to limit) |
 | **GIs** | Geographic indications (Champagne, Parma) |
@@ -60,12 +60,12 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 
 | Bloc | Members | Notable exclusions |
 |------|---------|-------------------|
-| [[RCEP]] | China, Japan, Korea, ASEAN, ANZ | US, India, Taiwan |
+| [[RCEP]] | China, Japan, Korea, [[ASEAN]], ANZ | US, [[India]], [[Taiwan]] |
 | [[CPTPP]] | Japan-led Pacific | US (withdrew), China (applied) |
-| [[USMCA]] | US, Mexico, Canada | — |
-| EU single market | 27 members | UK (Brexit) |
+| [[USMCA]] | US, [[Mexico]], [[Canada]] | — |
+| [[EU]] single market | 27 members | [[UK]] (Brexit) |
 
-**Overlap:** Japan in both RCEP and CPTPP. Australia, NZ in both.
+**Overlap:** Japan in both RCEP and CPTPP. [[Australia]], NZ in both.
 
 ---
 
@@ -75,15 +75,15 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 
 | Theme | Beneficiaries |
 |-------|---------------|
-| [[Nearshoring thesis]] | Mexico manufacturing, industrial REITs |
-| Friendshoring | India, Vietnam, allies |
+| [[Nearshoring thesis]] | [[Mexico]] manufacturing, industrial [[REITs]] |
+| Friendshoring | [[India]], Vietnam, allies |
 | Dual supply chains | Companies with diversified production |
 
 ### Losers from fragmentation
 
 | Theme | At risk |
 |-------|---------|
-| China-dependent | Apple suppliers, German autos |
+| China-dependent | [[Apple]] suppliers, German autos |
 | Global optimizers | Pure efficiency plays |
 | Small economies | Caught between blocs |
 
@@ -91,9 +91,9 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 
 | Agreement | Winners |
 |-----------|---------|
-| [[USMCA]] | Mexico manufacturing, US dairy |
+| [[USMCA]] | [[Mexico]] manufacturing, US dairy |
 | [[RCEP]] | Asian supply chains, Japanese autos |
-| [[EU-Mercosur agreement]] | EU autos, Brazilian beef |
+| [[EU-Mercosur agreement]] | [[EU]] autos, Brazilian beef |
 | [[CPTPP]] | Vietnam, Japanese exporters |
 
 ---
@@ -103,9 +103,9 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 | Agreement | Lesson |
 |-----------|--------|
 | [[CETA]] | Mixed agreements can stall for years |
-| [[EU-Japan EPA]] | EU-only = fast ratification |
+| [[EU-Japan EPA]] | [[EU]]-only = fast ratification |
 | [[CPTPP]] | Can proceed without major party (US) |
-| [[EU-Mercosur agreement]] | Agriculture = political poison |
+| [[EU-Mercosur agreement]] | [[Agriculture]] = political poison |
 
 ---
 
@@ -114,13 +114,13 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 ### Countries
 - [[China]] — RCEP anchor, trade weaponizer
 - [[Japan]] — CPTPP leader, RCEP hedge
-- [[Germany]] — EU trade champion (autos)
-- [[France]] — EU trade skeptic (agriculture)
+- [[Germany]] — [[EU]] trade champion (autos)
+- [[France]] — [[EU]] trade skeptic (agriculture)
 
 ### Institutions
 - WTO — dispute settlement (paralyzed)
 - [[OECD]] — tax, governance, AI standards
-- EU Commission — trade negotiator
+- [[EU]] Commission — trade negotiator
 - USTR — US Trade Representative
 
 ---
@@ -144,7 +144,7 @@ For FTA comparisons and terms, see [[Trade Agreements]].
 - [[Critical minerals]] — trade weapon
 
 ### Theses
-- [[Nearshoring thesis]] — Mexico wins
+- [[Nearshoring thesis]] — [[Mexico]] wins
 
 ---
 

@@ -10,7 +10,7 @@
 |--------|-------|
 | Users | ~1.3-1.4B (tied to iPhone base) |
 | US market share | 29% |
-| UK market share | 24% |
+| [[UK]] market share | 24% |
 | Global messaging share | 17% |
 
 No official user count — Apple doesn't break out service metrics.
@@ -24,7 +24,7 @@ No official user count — Apple doesn't break out service metrics.
 | Market | iPhone share | iMessage role |
 |--------|-------------|---------------|
 | US | 59-60% | Primary messaging |
-| Europe | ~25% | Secondary to WhatsApp |
+| [[Europe]] | ~25% | Secondary to WhatsApp |
 | Global | 28% | Minor |
 
 US-centric dominance. Irrelevant in markets where WhatsApp dominates.

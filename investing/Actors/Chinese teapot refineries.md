@@ -9,7 +9,7 @@ aliases: [Teapots, Teapot refineries, Shandong refineries, Independent refinerie
 
 ## What are teapots
 
-Private Chinese refineries operating outside the state-owned system (Sinopec, PetroChina, CNOOC). Called "teapots" because they were originally small-scale — now some are massive.
+Private Chinese refineries operating outside the state-owned system ([[Sinopec]], PetroChina, [[CNOOC]]). Called "teapots" because they were originally small-scale — now some are massive.
 
 | Metric | Value |
 |--------|-------|
@@ -28,7 +28,7 @@ Private Chinese refineries operating outside the state-owned system (Sinopec, Pe
 |---------------------|-------------|
 | [[Iran]] | Primary buyer — "economic lifeline" |
 | [[Russia]] | Major buyer of discounted Urals crude |
-| Venezuela | Some purchases |
+| [[Venezuela]] | Some purchases |
 
 **Iranian oil = ~15% of China's total oil imports** — almost entirely through teapots.
 
@@ -82,7 +82,7 @@ Beijing controls teapot imports through quota allocations:
 - Others continued but with more caution
 - Non-sanctioned tankers joined trade to reduce exposure
 
-> "Teapot refineries are the largest purchasers of Iranian oil, providing the Islamic Republic its primary economic lifeline." — Treasury Secretary Bessent
+> "Teapot refineries are the largest purchasers of Iranian oil, providing the Islamic [[Republic]] its primary economic lifeline." — Treasury Secretary Bessent
 
 ---
 
@@ -119,7 +119,7 @@ Beijing controls teapot imports through quota allocations:
 | Angle | Detail |
 |-------|--------|
 | **Iran revenue** | Teapot buying = Iran gets paid; teapot stop = Iran crisis |
-| **Oil prices** | Teapots absorbing sanctioned supply keeps prices lower |
+| **[[Oil]] prices** | Teapots absorbing sanctioned supply keeps prices lower |
 | **China fuel margins** | Teapot health affects domestic refining margins |
 | **Sanctions risk** | More teapots likely to be designated |
 
@@ -127,7 +127,7 @@ Beijing controls teapot imports through quota allocations:
 
 | Company | Connection |
 |---------|------------|
-| Chinese refiners (Sinopec, PetroChina) | Compete with teapots domestically |
+| Chinese refiners ([[Sinopec]], PetroChina) | Compete with teapots domestically |
 | Tanker companies | Shadow fleet serves teapots |
 | Iranian economy | Teapot demand = Iran's lifeline |
 

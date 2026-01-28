@@ -1,5 +1,5 @@
 ---
-aliases: [Jump, Jump Crypto]
+aliases: [Jump, Jump [[Crypto]]]
 ---
 #actor #investor #trading #hft #usa #private
 
@@ -24,7 +24,7 @@ aliases: [Jump, Jump Crypto]
 | Unit | Focus |
 |------|-------|
 | **Jump Trading** | Traditional HFT |
-| **Jump Crypto** | Digital assets (wound down 2023) |
+| **Jump [[Crypto]]** | Digital assets (wound down 2023) |
 | **Jump Capital** | VC arm |
 
 ---
@@ -36,11 +36,11 @@ aliases: [Jump, Jump Crypto]
 | Futures | Major player |
 | Options | Significant |
 | FX | Active |
-| Crypto | Was major (exited) |
+| [[Crypto]] | Was major (exited) |
 
 ---
 
-## Jump Crypto
+## Jump [[Crypto]]
 
 | Year | Event |
 |------|-------|

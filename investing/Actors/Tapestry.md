@@ -39,15 +39,15 @@ aliases: [TPR, Coach parent, Coach Inc]
 |--------|-------|
 | Revenue growth (FY25) | +10% |
 | Customer acquisition | New customers growing |
-| International | Strength in China, Japan |
+| International | Strength in [[China]], [[Japan]] |
 | Positioning | Accessible luxury, heritage leather |
 
 **What's working:**
 - Creative director Stuart Vevers driving brand heat
 - Tabby bag as hero product
-- Gen Z customer acquisition (TikTok/social)
+- Gen Z customer acquisition ([[TikTok]]/social)
 - Price increases sticking
-- China growth outpacing peers
+- [[China]] growth outpacing peers
 
 ---
 
@@ -112,7 +112,7 @@ Kate Spade has lost its positioning — not distinctive enough vs. Coach, not ch
 - >$5 EPS, ~15x earnings = reasonable valuation
 - $3B+ shareholder returns
 - No M&A distraction, clean story
-- International growth (China, Japan)
+- International growth ([[China]], [[Japan]])
 
 **Bear:**
 - Kate Spade still declining ($855M writedown)

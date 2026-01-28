@@ -23,13 +23,13 @@ Private equity firm focused exclusively on financial services. Founded 1985, Gre
 
 | Name | Role | Background |
 |------|------|------------|
-| **Charles "Chuck" Davis** | Co-CEO, Chair | Goldman Sachs (led investment banking) |
-| **Stephen Friedman** | Senior Chairman | Goldman Sachs CEO; Bush administration economic advisor |
+| **Charles "Chuck" Davis** | Co-CEO, Chair | [[Goldman Sachs]] (led investment banking) |
+| **Stephen Friedman** | Senior Chairman | [[Goldman Sachs]] CEO; Bush administration economic advisor |
 | **Jim Carey** | Managing Director | Investment Committee |
 | **David Wermuth** | Managing Director | Investment Committee |
 | **Nick Zerbib** | Managing Director | Investment Committee |
 
-Both founders came from Goldman Sachs in 1998.
+Both founders came from [[Goldman Sachs]] in 1998.
 
 ---
 
@@ -49,13 +49,13 @@ Both founders came from Goldman Sachs in 1998.
 ## Investment approach
 
 **Sectors:**
-- Insurance underwriting & services
+- [[Insurance]] underwriting & services
 - Asset management & wealth management
 - Banking & specialty finance
 - Business services (financial infrastructure)
-- Fintech
+- [[Fintech]]
 
-**Geographies:** North America, Western Europe
+**Geographies:** North America, Western [[Europe]]
 
 **Deal types:**
 - Standalone buyouts
@@ -71,9 +71,9 @@ Both founders came from Goldman Sachs in 1998.
 | Company | Sector | Status |
 |---------|--------|--------|
 | [[Stretto]] | Bankruptcy administration | Active |
-| AXIS Capital | Insurance | Public holding |
+| AXIS Capital | [[Insurance]] | Public holding |
 | Eagle Point Credit | Credit | Public holding |
-| Enstar Group | Insurance runoff | Public holding |
+| Enstar Group | [[Insurance]] runoff | Public holding |
 | Ultimus Fund Solutions | Fund admin | Acquired 2025 |
 | OneDigital | Benefits/HR | Acquired Sep 2025 |
 

@@ -5,7 +5,7 @@ aliases: [Chanel Limited, Wertheimer]
 
 # Chanel
 
-**World's largest privately held luxury house** — owned by the Wertheimer family (grandsons of Pierre Wertheimer). Iconic brand in fashion, fragrance, watches, beauty. Revenue peaked ~$20B in 2023 before China-driven decline in 2024. Known for aggressive price increases (59% between 2020-2023) that may have overshot.
+**World's largest privately held luxury house** — owned by the Wertheimer family (grandsons of Pierre Wertheimer). Iconic brand in fashion, fragrance, watches, beauty. Revenue peaked ~$20B in 2023 before [[China]]-driven decline in 2024. Known for aggressive price increases (59% between 2020-2023) that may have overshot.
 
 ---
 
@@ -45,7 +45,7 @@ aliases: [Chanel Limited, Wertheimer]
 - Ability to raise prices without investor backlash
 - $5.7B family dividend in good years
 
-**But 2024 exposed the limits:** Revenue fell 4.3% and operating profit dropped ~30%. The 59% price increases of 2020-2023 (highest among peers per Bernstein) alienated aspirational buyers while China's luxury slowdown hit hard.
+**But 2024 exposed the limits:** Revenue fell 4.3% and operating profit dropped ~30%. The 59% price increases of 2020-2023 (highest among peers per Bernstein) alienated aspirational buyers while [[China]]'s luxury slowdown hit hard.
 
 ---
 
@@ -66,7 +66,7 @@ aliases: [Chanel Limited, Wertheimer]
 |----------|----------|
 | **Fashion** | Haute couture + ready-to-wear |
 | **Fragrance** | Chanel No. 5, Bleu de Chanel — iconic |
-| **Beauty** | Significant revenue contributor |
+| **[[Beauty]]** | Significant revenue contributor |
 | **Watches & Jewelry** | J12 watch, high jewelry |
 | **Leather goods** | Classic Flap, Boy, 2.55 bags |
 
@@ -76,7 +76,7 @@ aliases: [Chanel Limited, Wertheimer]
 
 | Issue | Impact |
 |-------|--------|
-| **China slowdown** | ~25-30% exposure, demand falling |
+| **[[China]] slowdown** | ~25-30% exposure, demand falling |
 | **Price fatigue** | 59% hikes drove customers away |
 | **Creative transition** | Virginie Viard out, Matthieu Blazy in (from Bottega Veneta) |
 | **Operating profit -30%** | Heavy investment cycle + declining revenue |
@@ -111,7 +111,7 @@ Chanel is spending through the downturn:
 ## Investment implications
 
 **Not investable** (private), but matters as:
-- Bellwether for luxury demand, especially China
+- Bellwether for luxury demand, especially [[China]]
 - Pricing leader whose strategy affects peer positioning
 - Major employer of artisan/atelier workforce
 - Creative director moves ripple across industry (Blazy from [[Prada]]/Bottega)

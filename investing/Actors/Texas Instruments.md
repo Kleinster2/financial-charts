@@ -3,7 +3,7 @@ aliases: [TXN, TI]
 ---
 #actor #semiconductor #analog #usa #public
 
-**Texas Instruments** — #1 analog semiconductor company. Owns fabs. Automotive and industrial focus.
+**Texas Instruments** — #1 analog semiconductor company. Owns fabs. [[Automotive]] and industrial focus.
 
 ---
 
@@ -32,7 +32,7 @@ aliases: [TXN, TI]
 
 **300mm fab advantage:**
 - Sherman, TX mega-fab complex
-- Lehi, Utah (former Micron fab)
+- Lehi, Utah (former [[Micron]] fab)
 - Lower cost per chip vs 200mm competitors
 - $30B+ investment through 2030
 
@@ -48,7 +48,7 @@ aliases: [TXN, TI]
 | Market | Share | Trend |
 |--------|-------|-------|
 | Industrial | ~40% | Automation, factory |
-| Automotive | ~25% | EV content growth |
+| [[Automotive]] | ~25% | EV content growth |
 | Personal electronics | ~20% | Mature |
 | Comms/enterprise | ~15% | Data center |
 
@@ -70,7 +70,7 @@ aliases: [TXN, TI]
 **Bull:**
 - Analog market leader
 - Manufacturing cost advantage
-- Automotive content growth
+- [[Automotive]] content growth
 - High FCF, dividend aristocrat
 - CHIPS Act beneficiary
 

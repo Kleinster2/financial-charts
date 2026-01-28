@@ -45,7 +45,7 @@ COVID drove +55M users in single year (2020-2021).
 | Microsoft 365 Enterprise | Yes |
 | Teams Essentials | $4/user/mo standalone |
 
-EU unbundling: Microsoft now offers Office 365 without Teams in EU due to antitrust.
+[[EU]] unbundling: Microsoft now offers Office 365 without Teams in [[EU]] due to antitrust.
 
 ---
 
@@ -55,7 +55,7 @@ EU unbundling: Microsoft now offers Office 365 without Teams in EU due to antitr
 |----|----------------|----------------|
 | [[Slack]] | Bundling, enterprise lock-in | Less loved by developers |
 | [[Zoom]] | Integrated, no extra cost | Video quality perception |
-| [[Google Chat]] | Microsoft ecosystem | Google Workspace shops |
+| [[Google Chat]] | Microsoft ecosystem | [[Google]] Workspace shops |
 
 Bundling is existential threat to Slack.
 

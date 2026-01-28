@@ -72,7 +72,7 @@ AI chips are too hot for air:
 **Risks for:**
 - Air-cooled only DC operators
 - Legacy infrastructure
-- Water-scarce locations (Phoenix, Querétaro)
+- Water-scarce locations (Phoenix, [[Querétaro]])
 
 ---
 
@@ -82,7 +82,7 @@ AI chips are too hot for air:
 - Some systems use water
 - Water-scarce regions concerned
 - Closed-loop systems emerging
-- Trade-off: thermal vs water
+- [[Trade]]-off: thermal vs water
 
 ---
 

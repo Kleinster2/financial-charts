@@ -23,7 +23,7 @@
 | 1984 | Started at ARCO Alaska |
 | 1984-2001 | 17 years at ARCO — rose to head Western North Slope operations |
 | 2006 | SVP, Technology & Major Projects (ConocoPhillips) |
-| 2007 | President, E&P Europe/Asia/Africa/Middle East |
+| 2007 | President, E&P [[Europe]]/[[Asia]]/[[Africa]]/Middle East |
 | 2009 | SVP, E&P International |
 | 2012 | Chairman & CEO |
 
@@ -37,9 +37,9 @@
 |------|------|-------|
 | 2012-2020 | Large divestment program | — |
 | 2020 | Acquired Concho Resources | — |
-| 2021 | Acquired Shell US unconventional assets | — |
+| 2021 | Acquired [[Shell]] US unconventional assets | — |
 | 2023 | Acquired remaining 50% of Surmont oil sands | — |
-| 2024 | Acquired Marathon Oil | $22.5B |
+| 2024 | Acquired [[Marathon]] [[Oil]] | $22.5B |
 
 **Recognition:** Energy Executive of the Year 2025 (Energy Intelligence).
 
@@ -72,7 +72,7 @@ When Trump noted ConocoPhillips's $12B arbitration claim, Lance quipped: **"It's
 - [[ConocoPhillips]] — company he leads
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9, 2026 quip about writeoff
 - [[Venezuela]] — exited 2007, owed $12B
-- [[Darren Woods]] — peer CEO (Exxon)
+- [[Darren Woods]] — peer CEO ([[Exxon]])
 - [[Marathon Oil]] — acquired 2024
 
 ---

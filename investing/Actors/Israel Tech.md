@@ -46,7 +46,7 @@ AI/semiconductor punching above weight:
 
 **Biggest exit ever:**
 - Google acquired for $32B (2025)
-- Cybersecurity unicorn
+- [[Cybersecurity]] unicorn
 - Drove 340% exit growth
 - Israeli founders
 
@@ -60,7 +60,7 @@ AI/semiconductor punching above weight:
 | Run:ai | GPU orchestration | NVIDIA acquired |
 | [[Mobileye]] | Autonomous driving | Intel subsidiary (MBLY) |
 | Hailo | Edge AI chips | Private, $12M+ raise |
-| [[Torq]] | Security AI agents | $1.2B unicorn (Jan 2026) |
+| [[Torq]] | Security [[AI agents]] | $1.2B unicorn (Jan 2026) |
 
 ---
 
@@ -71,7 +71,7 @@ AI/semiconductor punching above weight:
 | Metrology/inspection | 30% global share |
 | AI chips (design) | Strong startups |
 | Fabless design | NVIDIA R&D hub |
-| Defense electronics | Legacy strength |
+| [[Defense]] electronics | Legacy strength |
 
 ---
 
@@ -91,7 +91,7 @@ AI/semiconductor punching above weight:
 - Military tech background (8200)
 - Strong VC ecosystem
 - US connections
-- Cybersecurity leadership
+- [[Cybersecurity]] leadership
 - AI security growing
 
 ---
@@ -139,5 +139,5 @@ AI/semiconductor punching above weight:
 - [[Google]] — investor (acquired Wiz $32B)
 - [[Hailo]] — AI chip startup
 - [[AI21 Labs]] — LLM startup (NVIDIA acquiring)
-- [[Torq]] — security AI agents ($1.2B unicorn)
+- [[Torq]] — security [[AI agents]] ($1.2B unicorn)
 

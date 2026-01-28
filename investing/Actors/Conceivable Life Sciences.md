@@ -65,7 +65,7 @@ aliases: [Conceivable, AURA]
 |------|------|------------|
 | Chairman | Joshua Abram | Co-founder, ex-adtech (Integral Ad Science, Dstillery). Died Sept 2025 (cancer) |
 | CEO | Alan Murray | Co-founder, ex-adtech. Operator to Abram's storyteller |
-| CMO | Alejandro Chavez-Badiola | Reproductive endocrinologist. Runs Hope IVF (Mexico City). First 3-parent embryo (2016) |
+| CMO | Alejandro Chavez-Badiola | Reproductive endocrinologist. Runs Hope IVF ([[Mexico]] City). First 3-parent embryo (2016) |
 
 **Prior companies:**
 - TMRW Life Sciences — digitized egg/embryo storage (Abram/Murray)
@@ -102,7 +102,7 @@ aliases: [Conceivable, AURA]
 ## Vision
 
 - **Superlabs:** 1 embryologist + 2 technicians → thousands of embryos/day
-- **Target:** 5% of global fertility market
+- **[[Target]]:** 5% of global fertility market
 - **Abram's dying wish:** 65% of all IVF births from Conceivable
 
 ---
@@ -111,7 +111,7 @@ aliases: [Conceivable, AURA]
 
 - No FDA approval needed — uses existing FDA-authorized components (pipettes, dishes, chemicals)
 - Robots are "two degrees removed" from gametes
-- Human trials conducted in Mexico (fertility treatment is standard care there)
+- Human trials conducted in [[Mexico]] (fertility treatment is standard care there)
 - US launch planned: 2026
 
 ---
@@ -120,7 +120,7 @@ aliases: [Conceivable, AURA]
 
 - Clinics may pocket savings rather than pass to patients
 - Embryologists resist automation (job loss fears)
-- Shipping gametes/embryos to superlabs = transport/thaw risks
+- [[Shipping]] gametes/embryos to superlabs = transport/thaw risks
 - Errors could replicate at scale
 - "Loss of human control over procreation" concerns
 

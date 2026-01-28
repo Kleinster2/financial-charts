@@ -27,7 +27,7 @@
 
 ## Technology stack
 
-### Layer 1: Sensors & IoT
+### Layer 1: [[Sensors]] & IoT
 
 | Application | Function |
 |-------------|----------|
@@ -74,7 +74,7 @@
 
 ## Key projects by region
 
-### Middle East: NEOM (Saudi Arabia)
+### Middle East: [[NEOM]] (Saudi Arabia)
 
 | Metric | Plan | Reality (2026) |
 |--------|------|----------------|
@@ -87,7 +87,7 @@
 
 **THE LINE concept:** 170km linear city, no cars, 100% renewable, AI-managed.
 
-### Asia-Pacific (33% market share)
+### [[Asia]]-Pacific (33% market share)
 
 | City/Country | Initiative | Status |
 |--------------|------------|--------|
@@ -106,15 +106,15 @@
 | Columbus | Smart mobility |
 | Kansas City | Smart lighting, sensors |
 
-### Europe (28% market share)
+### [[Europe]] (28% market share)
 
 | City | Focus | Rank |
 |------|-------|------|
 | Zürich | #1 global index | Sustainability |
 | Oslo | #2 global index | EV infrastructure |
 | Copenhagen | #4 global index | Carbon neutral goal |
-| London | #6 global index | Transport, safety |
-| Barcelona | Sensors, IoT pioneer | Early mover |
+| London | #6 global index | [[Transport]], safety |
+| Barcelona | [[Sensors]], IoT pioneer | Early mover |
 
 ---
 
@@ -124,18 +124,18 @@
 
 | Company | Exposure | Ticker |
 |---------|----------|--------|
-| **Siemens** | ~15% market share, energy/infra | SIE (Germany) |
+| **Siemens** | ~15% market share, energy/infra | SIE ([[Germany]]) |
 | **Cisco** | ~12% market share, networking | CSCO |
-| **Honeywell** | Building automation | HON |
-| [[Schneider Electric]] | Energy management | SU (France) |
-| ABB | Grid, automation | ABB |
+| **[[Honeywell]]** | Building automation | HON |
+| [[Schneider Electric]] | Energy management | SU ([[France]]) |
+| [[ABB]] | Grid, automation | [[ABB]] |
 
 ### Software/Platforms
 
 | Company | Focus |
 |---------|-------|
-| **Microsoft** | Azure IoT, Quantela partnership |
-| **Google** | Sidewalk Labs (scaled back) |
+| **[[Microsoft]]** | Azure IoT, Quantela partnership |
+| **[[Google]]** | Sidewalk Labs (scaled back) |
 | [[Palantir]] | Government platforms |
 | Samsara | Fleet/asset IoT |
 
@@ -143,10 +143,10 @@
 
 | Company | Role |
 |---------|------|
-| **Qualcomm** | 5G chips |
-| **Ericsson** | 5G infrastructure |
-| **Nokia** | 5G infrastructure |
-| American Tower | Small cells |
+| **[[Qualcomm]]** | 5G chips |
+| **[[Ericsson]]** | 5G infrastructure |
+| **[[Nokia]]** | 5G infrastructure |
+| [[American Tower]] | Small cells |
 
 ### AI/Surveillance
 
@@ -156,7 +156,7 @@
 | [[Hikvision]] | Cameras, analytics | China, sanctioned |
 | [[SenseTime]] | AI platforms | China |
 | [[G42]] | UAE smart city AI | Regional |
-| Motorola Solutions | Public safety | US |
+| [[Motorola]] Solutions | Public safety | US |
 
 ---
 
@@ -194,7 +194,7 @@
 
 | Challenge | Impact |
 |-----------|--------|
-| **Cybersecurity** | 43% of cities face risks |
+| **[[Cybersecurity]]** | 43% of cities face risks |
 | **Integration** | 58% struggle with legacy systems |
 | **Cost** | High capex for municipalities |
 | **Privacy** | Regulatory constraints (GDPR, etc.) |
@@ -217,7 +217,7 @@
 
 | Risk | Impact |
 |------|--------|
-| NEOM-style failures | Megaproject skepticism |
+| [[NEOM]]-style failures | Megaproject skepticism |
 | Privacy backlash | Regulatory constraints |
 | Municipal budgets | Funding constraints |
 | Hype cycle | Overpromise, underdeliver |
@@ -227,8 +227,8 @@
 | Theme | Expression |
 |-------|------------|
 | **Picks & shovels** | Siemens, Cisco, Schneider |
-| **Connectivity** | Qualcomm, Ericsson |
-| **AI platforms** | Microsoft Azure, Palantir |
+| **Connectivity** | [[Qualcomm]], [[Ericsson]] |
+| **AI platforms** | [[Microsoft]] Azure, Palantir |
 | **Avoid** | Sanctioned Chinese players, megaproject exposure |
 
 ---
@@ -244,10 +244,10 @@
 - [[Palantir]] — government platforms
 
 ### Geographies
-- [[Saudi Arabia]] — NEOM
+- [[Saudi Arabia]] — [[NEOM]]
 - [[Singapore Tech]] — Smart Nation leader
 - [[China]] — Xiong'an, surveillance model
-- [[UAE]] — Smart Dubai, NEOM interest
+- [[UAE]] — Smart Dubai, [[NEOM]] interest
 
 ### Concepts
 - [[AI Infrastructure]] — compute backbone
@@ -261,7 +261,7 @@
 
 - [Markets and Markets: Smart Cities $1.4T by 2030](https://www.marketsandmarkets.com/PressReleases/smart-cities.asp)
 - [Industry Research: Smart Cities Market](https://www.industryresearch.biz/market-reports/smart-cities-market-103846)
-- [Wikipedia: NEOM](https://en.wikipedia.org/wiki/Neom)
+- [Wikipedia: [[NEOM]]](https://en.wikipedia.org/wiki/Neom)
 - [Wilson Center: Rise of Gulf Smart Cities](https://www.wilsoncenter.org/article/rise-gulf-smart-cities)
 
 *Created 2026-01-14*

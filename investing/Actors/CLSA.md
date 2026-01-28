@@ -1,6 +1,6 @@
 #actor #research #non-investable #finance
 
-**CLSA** — Asia-focused equity research and brokerage. Part of CITIC Securities.
+**CLSA** — [[Asia]]-focused equity research and brokerage. Part of CITIC Securities.
 
 ---
 
@@ -11,9 +11,9 @@ Premier source for Asian semiconductor/tech equity research:
 | Coverage | Why it matters |
 |----------|----------------|
 | **Korea semis** | SK Hynix, Samsung deep dives |
-| **Taiwan tech** | TSMC, foundry analysis |
-| **China tech** | Alibaba, Tencent, Huawei |
-| **Japan** | Sony, Tokyo Electron |
+| **[[Taiwan]] tech** | TSMC, foundry analysis |
+| **[[China]] tech** | [[Alibaba]], [[Tencent]], [[Huawei]] |
+| **[[Japan]]** | [[Sony]], [[Tokyo Electron]] |
 
 ---
 
@@ -38,7 +38,7 @@ Premier source for Asian semiconductor/tech equity research:
 |------|-------|
 | 1986 | Founded in Hong Kong |
 | 2013 | CITIC Securities acquires majority stake |
-| — | Remains Asia's largest independent brokerage |
+| — | Remains [[Asia]]'s largest independent brokerage |
 
 ---
 
@@ -47,8 +47,8 @@ Premier source for Asian semiconductor/tech equity research:
 | Source | Focus |
 |--------|-------|
 | **CLSA** | Asian equities (deep) |
-| Morgan Stanley | Global (Asia coverage) |
-| Goldman Sachs | Global (Asia coverage) |
+| [[Morgan Stanley]] | Global ([[Asia]] coverage) |
+| [[Goldman Sachs]] | Global ([[Asia]] coverage) |
 | [[Omdia]] | Industry data (not equity) |
 | [[TrendForce]] | Pricing data (not equity) |
 
@@ -61,7 +61,7 @@ Premier source for Asian semiconductor/tech equity research:
 | Type | Equity research / brokerage |
 | Parent | CITIC Securities |
 | HQ | Hong Kong |
-| Coverage | Asia-Pacific equities |
+| Coverage | [[Asia]]-Pacific equities |
 | Investable | No (research firm) |
 
 *Updated 2026-01-15*
@@ -73,4 +73,4 @@ Premier source for Asian semiconductor/tech equity research:
 - [[SK Hynix]] — Sanjeev Rana coverage
 - [[Samsung]] — Korea semi coverage
 - [[Memory shortage 2025-2026]] — CLSA analyst quotes
-- [[TSMC]] — Taiwan coverage
+- [[TSMC]] — [[Taiwan]] coverage

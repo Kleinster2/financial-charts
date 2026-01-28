@@ -30,11 +30,11 @@ aliases: [China rebalancing, China property crash, New Three]
 
 | Sector | 2023 | 2025 |
 |--------|------|------|
-| Robotics | small | small |
+| [[Robotics]] | small | small |
 | AI | small | small |
 | Power construction | small | small |
 | Solar | ~1% | ~1% |
-| Lithium-ion batteries | ~1% | ~1% |
+| [[Lithium]]-ion batteries | ~1% | ~1% |
 | New energy vehicles | ~2% | ~2% |
 | **Total new** | **~6%** | **~6%** |
 
@@ -56,7 +56,7 @@ Changes in intermediate goods demand to fulfill final demand (billions of yuan):
 | Auto parts | -200B | **+400B** | +200B |
 | Electronic components | -150B | +50B | -100B |
 | Electric motors | ~0 | +50B | +50B |
-| Batteries | ~0 | +100B | +100B |
+| [[Batteries]] | ~0 | +100B | +100B |
 | Boilers & prime movers | ~0 | +50B | +50B |
 
 **"New Three"** = EVs, batteries, solar

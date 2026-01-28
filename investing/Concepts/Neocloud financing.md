@@ -12,8 +12,8 @@ NVIDIA invests in or finances "neoclouds" — GPU cloud providers that compete w
 |----------|-------------|------------|
 | [[CoreWeave]] | Investor, priority allocation | 65% revenue from [[Microsoft]] |
 | [[Lambda Labs]] | Financing involved | — |
-| IREN | Deal facilitation | Microsoft ties |
-| Nebius | Deal facilitation | Microsoft ties |
+| [[IREN]] | Deal facilitation | Microsoft ties |
+| [[Nebius]] | Deal facilitation | Microsoft ties |
 | [[Crusoe Energy]] | Customer | — |
 
 **The symbiosis:**
@@ -31,7 +31,7 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 > "When a quarter needs a little help, Jensen picks up the phone: 'Take the chips now — I'll assign you the clients later.'"
 
 **Evidence:**
-- Recent deals (Scale AI, IREN, Nebius, CoreWeave) share common threads
+- Recent deals ([[Scale AI]], [[IREN]], [[Nebius]], CoreWeave) share common threads
 - Microsoft ties across multiple neoclouds
 - NVIDIA involvement in financing/facilitation
 
@@ -73,7 +73,7 @@ Alleged pattern (per Kakashiii analysis, Nov 2025):
 NVIDIA runs what Kakashiii calls "a self-sustaining ecosystem where supply creates demand, and the seller, buyer, and broker are all the same person wearing different hats."
 
 **Control mechanisms:**
-1. **Supply** — Lock TSMC wafers before demand exists
+1. **Supply** — Lock [[TSMC]] wafers before demand exists
 2. **Demand** — Finance neoclouds to absorb inventory
 3. **Allocation** — Control who gets GPUs and when
 4. **Timing** — Manage shipments to hit quarterly numbers

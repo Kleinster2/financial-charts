@@ -35,7 +35,7 @@ Cities were caught off-guard by overnight deployments of thousands of scooters:
 - **Multiple cities**: 15 mph speed limits, geo-fencing, parking zones, fleet caps
 - **Operator response**: Shift from "ask forgiveness" to multi-year permitting relationships
 
-**"Scooter rage" and vandalism:** Residents angry about sidewalk clutter and overnight deployments began throwing scooters into rivers, lakes, and the ocean. Portland residents created scootersintheriverpdx.com to document the problem. 50+ scooters dredged from the Willamette River in Oregon. 257+ pulled from Spokane River by magnet fishermen. Scooters found in Lake Merritt (Oakland), the Pacific off Venice Beach, the Trinity River (Dallas), and the Broad Ripple Canal (Indianapolis). Lithium-ion batteries leach nickel and other hazardous materials into ecosystems. The dockless model — leave anywhere, no accountability — made anonymous disposal trivially easy
+**"Scooter rage" and vandalism:** Residents angry about sidewalk clutter and overnight deployments began throwing scooters into rivers, lakes, and the ocean. Portland residents created scootersintheriverpdx.com to document the problem. 50+ scooters dredged from the Willamette River in Oregon. 257+ pulled from Spokane River by magnet fishermen. Scooters found in Lake Merritt (Oakland), the Pacific off Venice Beach, the Trinity River (Dallas), and the Broad Ripple Canal (Indianapolis). [[Lithium]]-ion batteries leach nickel and other hazardous materials into ecosystems. The dockless model — leave anywhere, no accountability — made anonymous disposal trivially easy
 
 ### Phase 4: COVID and consolidation (2020–2022)
 
@@ -69,40 +69,40 @@ Lime alone proved the model works. $686M net revenue (2024), $140M+ EBITDA, 200M
 
 | Investor | Round | Approximate exposure | Outcome |
 |----------|-------|---------------------|---------|
-| **Sequoia Capital** | Series C lead ($1B val), 2019 ($275M round), 2021 convertible | ~$100M+ | Stake worth $4.6M by late 2022. Total loss |
-| **Accel Partners** | Early rounds | — | Total loss |
-| **Craft Ventures** (David Sacks) | Early | — | Total loss |
+| **[[Sequoia Capital]]** | Series C lead ($1B val), 2019 ($275M round), 2021 convertible | ~$100M+ | Stake worth $4.6M by late 2022. Total loss |
+| **[[Accel]] Partners** | Early rounds | — | Total loss |
+| **[[Craft Ventures]]** ([[David Sacks]]) | Early | — | Total loss |
 | **CDPQ** (Canadian pension) | Co-led $275M round (2019) | — | Total loss |
-| **Valor Equity Partners** | 2021 convertible | — | Total loss |
+| **[[Valor Equity Partners]]** | 2021 convertible | — | Total loss |
 | **SPAC public investors** | Nov 2021 merger | $414M raised | Stock → $0. Total loss |
 
-Sequoia's ~$100M Bird loss was described as "a drop in the bucket" relative to their Google/Airbnb wins. For CDPQ (pension fund), the story is less forgiving.
+Sequoia's ~$100M Bird loss was described as "a drop in the bucket" relative to their [[Google]]/[[Airbnb]] wins. For CDPQ (pension fund), the story is less forgiving.
 
 ### Lime investors (likely winners — if IPO goes well)
 
 | Investor | Entry | Estimated status |
 |----------|-------|-----------------|
-| **Andreessen Horowitz** | Seed ($12M, 2017) | Earliest entry; strong upside at any IPO valuation >$500M |
-| **Bain Capital Ventures** | Series D lead, later rounds | Multiple entry points; likely positive |
+| **[[Andreessen Horowitz]]** | Seed ($12M, 2017) | Earliest entry; strong upside at any IPO valuation >$500M |
+| **[[Bain Capital]] Ventures** | Series D lead, later rounds | Multiple entry points; likely positive |
 | **Uber** | $170M at $510M valuation (2020) | Bought the dip; significant upside at $1.7B+ |
-| **GV** (Google Ventures) | Multiple rounds | Likely positive |
-| **Fidelity** | Later rounds | Likely positive |
-| **IVP** | Series D | Likely positive |
-| **Coatue** | Series D | Likely positive |
-| **GIC** (Singapore sovereign) | Series D | Likely positive |
+| **[[GV]]** ([[Google]] Ventures) | Multiple rounds | Likely positive |
+| **[[Fidelity]]** | Later rounds | Likely positive |
+| **[[IVP]]** | Series D | Likely positive |
+| **[[Coatue]]** | Series D | Likely positive |
+| **[[GIC]]** (Singapore sovereign) | Series D | Likely positive |
 
 **Key dynamic:** Lime's 2020 funding at $510M was effectively a distressed round (down 79% from $2.4B). Uber and others who bought that dip got the best entry. If Lime IPOs at $1.7-2.1B, that's a 3-4x in 6 years for the 2020 investors.
 
 ### Lyft / Motivate ($251M acquisition)
 
-[[Lyft]] paid $251M for Motivate (Citi Bike, Divvy, Bay Wheels) in 2018. Explored selling in 2023, then reversed course. Now "Lyft Urban Solutions" — small revenue contributor (~3-5% of Lyft total) but growing 60% YoY. Hard to value as standalone; Crain's estimated Citi Bike operator could be worth up to $500M.
+[[Lyft]] paid $251M for Motivate (Citi Bike, [[Divvy]], Bay Wheels) in 2018. Explored selling in 2023, then reversed course. Now "Lyft Urban Solutions" — small revenue contributor (~3-5% of Lyft total) but growing 60% YoY. Hard to value as standalone; Crain's estimated Citi Bike operator could be worth up to $500M.
 
-### Ather Energy investors (modest wins)
+### [[Ather Energy]] investors (modest wins)
 
 | Investor | Entry | Return at IPO |
 |----------|-------|---------------|
 | **IIT Madras incubators** | ₹25 lakh seed (2014) | 200x+ |
-| **Tiger Global** | Series A ($12M, 2015) | ~8.3x |
+| **[[Tiger Global]]** | Series A ($12M, 2015) | ~8.3x |
 | **Hero MotoCorp** | Series B-C (2016-2020) | 38% stake; strategic value |
 
 ### Lessons
@@ -202,7 +202,7 @@ On Apr 2, 2023, Paris held a referendum on shared scooters. 90% voted to ban the
 **Context:** 15,000 shared scooters operated by Lime, Dott, and Tier. Paris was one of the world's largest shared mobility markets.
 
 **Why it passed:**
-- <10% voter turnout (103K of 1.3M eligible) — older, anti-scooter demographic overrepresented
+- <10% voter turnout (103K of 1.[[3M]] eligible) — older, anti-scooter demographic overrepresented
 - No electronic voting (young riders couldn't/didn't vote)
 - Mayor Hidalgo positioned against scooters (safety, short battery life, public space conflicts)
 - Injuries and sidewalk riding created visceral opposition
@@ -297,8 +297,8 @@ The sector started as kick scooters but is increasingly **e-bikes** — and the 
 
 ### Market data
 
-- **157M trips** on US/Canada shared bikes and scooters in 2023 — all-time record, surpassing 2019 peak
-- Dockless e-bike trips nearly **quadrupled** in Canada and grew ~50% in the US (2023)
+- **157M trips** on US/[[Canada]] shared bikes and scooters in 2023 — all-time record, surpassing 2019 peak
+- Dockless e-bike trips nearly **quadrupled** in [[Canada]] and grew ~50% in the US (2023)
 - Lyft reported **47% global surge** in e-bike trips across 57 cities (2025)
 - Lime now derives ~60% of revenue from international markets, particularly cities with bike-friendly infrastructure
 - Global bike-sharing market: $9.3B (2024) → $16.4B (2030), 10.2% CAGR
@@ -310,7 +310,7 @@ The sector started as kick scooters but is increasingly **e-bikes** — and the 
 | **[[Lime]]** | Mixed fleet (scooters + e-bikes) | Investing heavily in e-bike expansion |
 | **Citi Bike** ([[Lyft]]) | Docked + dockless e-bikes | NYC's system; 41M Lyft rides in US cities (2024); Lyft exploring divestment |
 | **Capital Bikeshare** | Docked | Washington DC; Lyft-operated |
-| **Divvy** | Docked + e-bikes | Chicago; Lyft-operated |
+| **[[Divvy]]** | Docked + e-bikes | Chicago; Lyft-operated |
 | **Bay Wheels** | Docked + e-bikes | San Francisco; Lyft-operated |
 | **Vélib'** | Docked | Paris; 20K+ bikes, city-owned |
 
@@ -326,7 +326,7 @@ Global shared micromobility is a small fraction of the broader [[Electric Scoote
 
 1. **First/last-mile transit integration** — cities increasingly view scooters/bikes as public transit complement
 2. **E-bike growth** — higher revenue per ride than kick scooters, 47% trip growth in 2025 (Lyft data)
-3. **Emerging markets** — Latin America, Southeast Asia still underpenetrated
+3. **[[Emerging markets]]** — Latin America, [[Southeast Asia]] still underpenetrated
 4. **Subscription models** — monthly passes improve predictability
 
 ---

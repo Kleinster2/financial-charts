@@ -22,7 +22,7 @@ aliases: [TGT]
 
 | Area | Application |
 |------|-------------|
-| Personalization | Circle loyalty AI |
+| Personalization | [[Circle]] loyalty AI |
 | Inventory | Store-level optimization |
 | Pricing | Dynamic markdown |
 | Fulfillment | Same-day routing |
@@ -50,7 +50,7 @@ aliases: [TGT]
 - Dividend growth
 
 **Bear:**
-- Consumer weakness impact
+- [[Consumer]] weakness impact
 - Walmart/Amazon competition
 - Inventory challenges
 - Shrink (theft) costs

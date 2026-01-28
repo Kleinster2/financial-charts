@@ -1,9 +1,9 @@
 ---
-aliases: [FNF, Fidelity National Title, Chicago Title]
+aliases: [FNF, [[Fidelity]] National Title, Chicago Title]
 ---
 #actor #finance #insurance #realestate #usa #public
 
-**Fidelity National Financial** — Largest US title insurer with 32% market share. Brands include Fidelity National Title, Chicago Title, Commonwealth Land Title. Record margins through technology. NYSE: FNF.
+**[[Fidelity]] National Financial** — Largest US title insurer with 32% market share. Brands include [[Fidelity]] National Title, Chicago Title, Commonwealth Land Title. Record margins through technology. NYSE: FNF.
 
 ---
 
@@ -22,7 +22,7 @@ aliases: [FNF, Fidelity National Title, Chicago Title]
 
 | Brand | Type |
 |-------|------|
-| Fidelity National Title | Title insurance |
+| [[Fidelity]] National Title | Title insurance |
 | Chicago Title | Title insurance |
 | Commonwealth Land Title | Title insurance |
 | Alamo Title | Title insurance |
@@ -57,7 +57,7 @@ aliases: [FNF, Fidelity National Title, Chicago Title]
 | **Scale** | Distribution density unmatched |
 | **Technology** | SoftPro, inHere, AI investments |
 
-**Four major players:** FNF (32%), [[First American Financial]], Old Republic, Stewart.
+**Four major players:** FNF (32%), [[First American Financial]], Old [[Republic]], Stewart.
 
 ---
 

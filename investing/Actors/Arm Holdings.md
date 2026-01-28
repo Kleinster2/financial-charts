@@ -3,7 +3,7 @@ aliases: [ARM]
 ---
 #actor #ip #uk #semiconductor
 
-**Arm Holdings** — Semiconductor IP company. Architecture in every smartphone, expanding to AI/servers. SoftBank's crown jewel.
+**Arm Holdings** — Semiconductor IP company. Architecture in every smartphone, expanding to AI/servers. [[SoftBank]]'s crown jewel.
 
 ---
 
@@ -16,7 +16,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 | Market position | Near-monopoly in mobile CPU IP |
 | Chips shipped | 250B+ cumulative |
 | Royalty model | Per-chip royalties + licensing fees |
-| Owner | [[Masayoshi Son]] / SoftBank (~90%) |
+| Owner | [[Masayoshi Son]] / [[SoftBank]] (~90%) |
 
 ---
 
@@ -45,7 +45,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 - [[NVIDIA]] (Grace CPU)
 - [[Amazon]] (Graviton)
 - [[Google]] (Axion)
-- [[Samsung]], MediaTek, etc.
+- [[Samsung]], [[MediaTek]], etc.
 
 ---
 
@@ -56,12 +56,12 @@ Arm doesn't make chips — it licenses the architecture that others use:
 - NVIDIA Grace CPU = Arm-based
 - AWS Graviton = Arm-based
 - Google Axion = Arm-based
-- Data centers shifting from x86 (Intel/AMD) to Arm
+- Data centers shifting from x86 ([[Intel]]/[[AMD]]) to Arm
 
 **Why Arm for AI:**
 - Better performance per watt
 - Custom silicon flexibility
-- Hyperscalers want alternatives to Intel
+- Hyperscalers want alternatives to [[Intel]]
 
 ---
 
@@ -72,8 +72,8 @@ Arm doesn't make chips — it licenses the architecture that others use:
 | Player | Product | Status |
 |--------|---------|--------|
 | [[Apple]] | M-series (M1→M5) | Dominant in Mac, proved Arm viability |
-| [[Qualcomm]] | Snapdragon X / X2 | Windows laptops, challenging Intel/AMD |
-| Microsoft | Windows on Arm | OS support improving, translation layer for legacy apps |
+| [[Qualcomm]] | Snapdragon X / X2 | Windows laptops, challenging [[Intel]]/[[AMD]] |
+| [[Microsoft]] | Windows on Arm | OS support improving, translation layer for legacy apps |
 
 **The challenge:** Software ecosystem. x86 has decades of Windows applications. Arm requires recompilation or translation (performance penalty).
 
@@ -83,7 +83,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 
 ---
 
-## Automotive expansion
+## [[Automotive]] expansion
 
 **EVs and autonomous driving = computing-intensive:**
 
@@ -91,7 +91,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 |-------------|----------|
 | Battery management | Efficient control systems |
 | ADAS (driver assistance) | Real-time sensor processing |
-| Infotainment | Dashboard displays, central computing |
+| Infotainment | [[Dashboard]] displays, central computing |
 | Autonomous driving | AI inference at the edge |
 
 **Why Arm wins here:**
@@ -102,7 +102,7 @@ Arm doesn't make chips — it licenses the architecture that others use:
 
 ---
 
-## Robotics expansion
+## [[Robotics]] expansion
 
 **Emerging market for Arm:**
 
@@ -111,13 +111,13 @@ Arm doesn't make chips — it licenses the architecture that others use:
 | Real-time control | Low-latency processing |
 | Sensor fusion | Efficient multi-input handling |
 | AI inference | On-device decision making |
-| Power constraints | Battery-powered robots need efficiency |
+| [[Power constraints]] | Battery-powered robots need efficiency |
 
 **Applications:**
 - Humanoid robots ([[Tesla Optimus]], [[Figure AI]], etc.)
 - Industrial automation
 - Warehouse robotics
-- Drones and autonomous systems
+- [[Drones]] and autonomous systems
 
 **The opportunity:** Every robot needs a brain. Arm's efficiency-first design fits battery-powered, thermally-constrained robotics.
 
@@ -139,18 +139,18 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 **Feedback loop:**
 - More Arm devices → more developers → more software → more devices
 - Switching cost increases with ecosystem size
-- RISC-V must rebuild this from scratch
+- [[RISC-V]] must rebuild this from scratch
 
 ---
 
-## SoftBank / Masa connection
+## [[SoftBank]] / Masa connection
 
 **[[Masayoshi Son]]'s key asset:**
-- SoftBank owns ~90%
+- [[SoftBank]] owns ~90%
 - Acquired 2016 for $32B
 - IPO'd Sept 2023 at ~$55B
 - Now worth $150B+
-- 54.6% of SoftBank NAV
+- 54.6% of [[SoftBank]] NAV
 
 **Risk:** Masa's margin call trigger at -40% Arm decline. See [[AI infrastructure financing risk]].
 
@@ -172,20 +172,20 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 
 | Architecture | Strength | Arm threat |
 |--------------|----------|------------|
-| **x86 (Intel/AMD)** | Legacy, installed base | Arm taking server share |
-| **RISC-V** | Open source, no royalties | Long-term IP threat |
+| **x86 ([[Intel]]/[[AMD]])** | Legacy, installed base | Arm taking server share |
+| **[[RISC-V]]** | Open source, no royalties | Long-term IP threat |
 
-**RISC-V risk:** Open-source alternative. China investing heavily. Could erode Arm's moat long-term.
+**[[RISC-V]] risk:** Open-source alternative. [[China]] investing heavily. Could erode Arm's moat long-term.
 
 ---
 
 ## Geopolitics
 
 **Export control implications:**
-- Arm is UK-based (Cambridge)
-- But US has influence (customers, SoftBank)
-- China licenses Arm — could be restricted
-- Arm China JV is complicated (semi-independent)
+- Arm is [[UK]]-based (Cambridge)
+- But US has influence (customers, [[SoftBank]])
+- [[China]] licenses Arm — could be restricted
+- Arm [[China]] JV is complicated (semi-independent)
 
 ---
 
@@ -201,9 +201,9 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 **Bear:**
 - Valuation extreme (~100x+ P/E)
 - Mobile saturated
-- RISC-V long-term threat
-- SoftBank overhang (selling?)
-- China risk
+- [[RISC-V]] long-term threat
+- [[SoftBank]] overhang (selling?)
+- [[China]] risk
 
 ---
 
@@ -214,8 +214,8 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 | Ticker | ARM (NASDAQ) |
 | Market cap | ~$150B+ |
 | IPO | September 2023 |
-| HQ | Cambridge, UK |
-| Owner | SoftBank (~90%) |
+| HQ | Cambridge, [[UK]] |
+| Owner | [[SoftBank]] (~90%) |
 
 *Updated 2026-01-20*
 
@@ -223,7 +223,7 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 
 ## Related
 
-- [[Masayoshi Son]] — owner (SoftBank ~90%)
+- [[Masayoshi Son]] — owner ([[SoftBank]] ~90%)
 - [[Apple]] — customer (A-series, M-series, PC transition)
 - [[Qualcomm]] — customer (Snapdragon X/X2, PC transition)
 - [[NVIDIA]] — customer (Grace CPU), tried to acquire
@@ -232,5 +232,5 @@ Arm's technical architecture is only part of the moat. The deeper moat is softwa
 - [[Tesla Optimus]] — robotics opportunity
 - [[Figure AI]] — robotics opportunity
 - [[AI infrastructure financing risk]] — Masa margin call trigger
-- [[Export controls]] — China licensing risk
+- [[Export controls]] — [[China]] licensing risk
 - [[Automotive semiconductors]] — expansion market

@@ -23,7 +23,7 @@ aliases: [Whale Rock, Alex Sacerdote]
 
 | Fact | Detail |
 |------|--------|
-| Background | Fidelity |
+| Background | [[Fidelity]] |
 | Style | Growth at reasonable price |
 | Focus | Large-cap tech |
 
@@ -44,9 +44,9 @@ aliases: [Whale Rock, Alex Sacerdote]
 
 | Theme | Companies |
 |-------|-----------|
-| Cloud | Major SaaS positions |
-| Consumer internet | E-commerce, social |
-| Fintech | Payments, lending |
+| Cloud | Major [[SaaS]] positions |
+| [[Consumer]] internet | E-commerce, social |
+| [[Fintech]] | Payments, lending |
 
 ---
 

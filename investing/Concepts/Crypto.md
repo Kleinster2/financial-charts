@@ -12,7 +12,7 @@ aliases: [cryptocurrency, blockchain, digital assets]
 | Relevance | Connection |
 |-----------|------------|
 | Tokenization | Infrastructure for [[Tokenized private shares]] |
-| Fintech | [[Robinhood]], [[Coinbase]] revenue driver |
+| [[Fintech]] | [[Robinhood]], [[Coinbase]] revenue driver |
 | Bitcoin | [[Block]] strategy, store of value thesis |
 | Stablecoins | USDC ([[Circle]]), payments infrastructure |
 | AI intersection | Compute tokens, AI model marketplaces |
@@ -60,7 +60,7 @@ A watershed year for US crypto policy under [[Trump II]]:
 | Timeline | Event | Impact |
 |----------|-------|--------|
 | **Jan 2025** | Paul Atkins appointed SEC Chair | End of "regulation by enforcement" (Gensler out). |
-| **Q2 2025** | **SAB 121 Repealed** | Banks ([[JPMorgan Chase]], etc.) allowed to custody crypto assets. |
+| **Q2 2025** | **SAB 121 Repealed** | [[Banks]] ([[JPMorgan Chase]], etc.) allowed to custody crypto assets. |
 | **July 2025** | **[[GENIUS Act]] Passed** | Federal stablecoin framework; legitimizes USDC. |
 | **Q4 2025** | **[[Strategic Bitcoin Reserve]]** | Lummis Bill introduced; US Gov to hold BTC. |
 
@@ -71,7 +71,7 @@ A watershed year for US crypto policy under [[Trump II]]:
 ## Tokenization thesis
 
 **Crypto infrastructure for real-world assets:**
-- Private company shares (OpenAI, SpaceX tokens)
+- Private company shares ([[OpenAI]], [[SpaceX]] tokens)
 - Real estate
 - Art, collectibles
 - Securities
@@ -85,10 +85,10 @@ See [[Tokenized private shares]] for deep dive.
 **Digital gold / store of value:**
 - Fixed supply (21M cap)
 - Decentralized
-- Inflation hedge (debated)
+- [[Inflation]] hedge (debated)
 - Institutional adoption growing
 
-**Corporate treasury:** Some companies hold Bitcoin (MicroStrategy, Tesla, Block).
+**Corporate treasury:** Some companies hold Bitcoin (MicroStrategy, [[Tesla]], Block).
 
 ---
 
@@ -129,7 +129,7 @@ Early stage, mostly speculative.
 
 ## Related
 
-- [[Meme coins]] — speculative tokens (DOGE, AI agent coins, celebrity tokens)
+- [[Meme coins]] — speculative tokens ([[DOGE]], AI agent coins, celebrity tokens)
 - [[Tokenized private shares]] — key application
 - [[Coinbase]] — largest US exchange
 - [[Block]] — Bitcoin-focused fintech

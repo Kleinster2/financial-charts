@@ -38,12 +38,12 @@ Revenue: % of transaction volume (blended ~20-25 bps).
 
 | Customer | Relationship |
 |----------|-------------|
-| Microsoft | Global payments |
-| Uber | Rides + Eats |
-| Spotify | Subscriptions |
-| eBay | Marketplace payments |
-| McDonald's | In-store + digital |
-| H&M | Omnichannel |
+| [[Microsoft]] | Global payments |
+| [[Uber]] | Rides + Eats |
+| [[Spotify]] | Subscriptions |
+| [[eBay]] | Marketplace payments |
+| [[McDonald's]] | In-store + digital |
+| [[H&M]] | Omnichannel |
 
 Blue-chip enterprise roster.
 
@@ -91,7 +91,7 @@ Consistent volume growth.
 | Competitor | Positioning |
 |------------|-------------|
 | [[Stripe]] | Developer-first, SMB to enterprise |
-| [[PayPal]]/Braintree | Consumer + merchant |
+| [[PayPal]]/Braintree | [[Consumer]] + merchant |
 | Worldpay | Legacy, scale |
 | Checkout.com | Challenger |
 

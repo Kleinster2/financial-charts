@@ -41,10 +41,10 @@ aliases: [Newmont Corp, NEM]
 
 | Region | Assets |
 |--------|--------|
-| North America | Nevada (JV with Barrick), Canada |
+| North America | Nevada (JV with Barrick), [[Canada]] |
 | South America | Peru, Suriname |
-| Australia | Boddington, Tanami |
-| Africa | Ghana, Egypt |
+| [[Australia]] | Boddington, Tanami |
+| [[Africa]] | Ghana, Egypt |
 
 Diversified geographically.
 
@@ -65,7 +65,7 @@ At $4,600 gold → massive margins.
 ## Newcrest acquisition (2023)
 
 **Transformative deal:**
-- Acquired Newcrest Mining (Australia)
+- Acquired Newcrest Mining ([[Australia]])
 - $17B deal
 - Added ~2M oz/year production
 - Cemented #1 position
@@ -85,7 +85,7 @@ At $4,600 gold → massive margins.
 - Already doubled — priced in?
 - Cost inflation risk
 - M&A discipline (cycle risk)
-- Geopolitical exposure (Africa, LatAm)
+- Geopolitical exposure ([[Africa]], LatAm)
 - Gold price reversal risk
 
 ---

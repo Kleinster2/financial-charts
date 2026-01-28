@@ -3,7 +3,7 @@ aliases: [consumer AI, AI consumer products]
 ---
 #concept #ai #consumer
 
-**Consumer AI** — AI products for end users (not enterprise). ChatGPT, AI assistants, wearables, creative tools. High volume, lower margins than enterprise.
+**[[Consumer]] AI** — AI products for end users (not enterprise). [[ChatGPT]], AI assistants, wearables, creative tools. High volume, lower margins than enterprise.
 
 ---
 
@@ -22,39 +22,39 @@ aliases: [consumer AI, AI consumer products]
 
 | Product | Company | Users |
 |---------|---------|-------|
-| ChatGPT | [[OpenAI]] | 100M+ weekly |
-| Gemini/Bard | [[Google]] | Billions (Search integration) |
-| Claude | [[Anthropic]] | Growing |
-| Meta AI | [[Meta]] | Billions (Instagram, WhatsApp) |
+| [[ChatGPT]] | [[OpenAI]] | 100M+ weekly |
+| [[Gemini]]/Bard | [[Google]] | Billions (Search integration) |
+| [[Claude]] | [[Anthropic]] | Growing |
+| Meta AI | [[Meta]] | Billions (Instagram, [[WhatsApp]]) |
 | Copilot | [[Microsoft]] | Windows, Office users |
-| Quark | [[Alibaba]] | 150M+ MAU (China) |
+| Quark | [[Alibaba]] | 150M+ MAU ([[China]]) |
 
 ---
 
-## Consumer vs Enterprise AI
+## [[Consumer]] vs Enterprise AI
 
-| Aspect | Consumer | Enterprise |
+| Aspect | [[Consumer]] | Enterprise |
 |--------|----------|------------|
 | Revenue model | Freemium, subscriptions | Contracts, API |
 | Margins | Lower | Higher |
 | Volume | High | Lower |
 | Churn | Higher | Lower |
-| Examples | ChatGPT, wearables | Claude API, Copilot for Business |
+| Examples | [[ChatGPT]], wearables | [[Claude]] API, Copilot for Business |
 
 **Enterprise more profitable:** [[Anthropic]] is 80% enterprise for a reason.
 
 ---
 
-## Consumer AI categories
+## [[Consumer]] AI categories
 
 | Category | Examples |
 |----------|----------|
-| Chatbots | ChatGPT, Claude, Gemini |
+| Chatbots | [[ChatGPT]], [[Claude]], [[Gemini]] |
 | Assistants | Siri, Alexa, Google Assistant |
 | Wearables | [[Wearable AI]] — glasses, rings |
 | Creative | Midjourney, DALL-E, Suno |
-| Productivity | Notion AI, Grammarly |
-| Search | Perplexity, Google AI Overviews |
+| [[Productivity]] | [[Notion]] AI, Grammarly |
+| Search | [[Perplexity]], Google AI Overviews |
 
 ---
 
@@ -64,7 +64,7 @@ aliases: [consumer AI, AI consumer products]
 - Free alternatives abundant
 - Willingness to pay limited
 - Ads may be necessary
-- China especially resistant to paying
+- [[China]] especially resistant to paying
 
 ---
 
@@ -80,16 +80,16 @@ See [[Wearable AI]] for deep dive.
 
 ---
 
-## China consumer AI
+## [[China]] consumer AI
 
 | Product | Company | Notes |
 |---------|---------|-------|
 | Quark | [[Alibaba]] | 150M MAU |
-| Doubao | [[ByteDance]] | TikTok-integrated |
+| [[Doubao]] | [[ByteDance]] | [[TikTok]]-integrated |
 | Kimi | Moonshot | Popular chatbot |
 | [[Liangzhu]] apps | Indie devs | Lifestyle AI |
 
-China = high volume, low willingness to pay.
+[[China]] = high volume, low willingness to pay.
 
 ---
 
@@ -102,16 +102,16 @@ China = high volume, low willingness to pay.
 | Picks & shovels | NVDA (GPUs for training) |
 | Private | OpenAI, Anthropic |
 
-**Caveat:** Consumer AI may not be profitable — enterprise may be better bet.
+**Caveat:** [[Consumer]] AI may not be profitable — enterprise may be better bet.
 
 ---
 
 ## Related
 
 - [[Wearable AI]] — hardware distribution
-- [[OpenAI]] — ChatGPT leader
-- [[Anthropic]] — Claude (more enterprise)
+- [[OpenAI]] — [[ChatGPT]] leader
+- [[Anthropic]] — [[Claude]] (more enterprise)
 - [[Meta]] — distribution advantage
-- [[Alibaba]] — Quark in China
+- [[Alibaba]] — Quark in [[China]]
 - [[Liangzhu]] — indie consumer AI
 

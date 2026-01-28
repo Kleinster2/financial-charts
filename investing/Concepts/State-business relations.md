@@ -12,7 +12,7 @@ Laissez-faire ←─────────────────────
    │                    │                    │                    │
 Free markets    Regulated markets    Industrial policy    State capitalism
    │                    │                    │                    │
- (US ideal)         (Most OECD)        (Taiwan, Korea)      (China, Gulf)
+ (US ideal)         (Most [[OECD]])        ([[Taiwan]], Korea)      (China, Gulf)
 ```
 
 **Key insight:** The same mechanism (development bank, state contract, subsidy) can be legitimate policy or corrupt extraction. Context determines which.
@@ -28,7 +28,7 @@ Free markets    Regulated markets    Industrial policy    State capitalism
 | Role of state | Sets rules, enforces competition |
 | Private sector | Operates freely within rules |
 | State ownership | Minimal |
-| Example | US (idealized), UK post-Thatcher |
+| Example | US (idealized), [[UK]] post-Thatcher |
 
 **Investment implication:** Fundamentals-driven. Political risk lower (but not zero).
 
@@ -42,18 +42,18 @@ State actively promotes sectors/firms it deems strategic.
 |---------|--------|
 | Mechanisms | Subsidies, tax breaks, R&D funding, procurement, trade protection |
 | Goal | Build national champions, strategic sectors |
-| Can be legitimate | Taiwan → TSMC; Korea → Samsung; Airbus |
-| Can be crony | BNDES → JBS; picking losers |
+| Can be legitimate | [[Taiwan]] → TSMC; Korea → [[Samsung]]; [[Airbus]] |
+| Can be crony | BNDES → [[JBS]]; picking losers |
 
 **Examples:**
 
 | Country | Policy | Outcome |
 |---------|--------|---------|
-| **Taiwan** | Semiconductor focus since 1980s | [[TSMC]] global leader |
-| **Korea** | Chaebol development | Samsung, Hyundai |
-| **France** | Airbus, nuclear | European champions |
+| **[[Taiwan]]** | Semiconductor focus since 1980s | [[TSMC]] global leader |
+| **Korea** | Chaebol development | [[Samsung]], [[Hyundai]] |
+| **[[France]]** | [[Airbus]], nuclear | European champions |
 | **China** | "Made in China 2025" | Mixed — some success, some waste |
-| **Brazil** | BNDES "national champions" | Mixed → [[Lava Jato]] |
+| **[[Brazil]]** | BNDES "national champions" | Mixed → [[Lava Jato]] |
 
 **The line:** Industrial policy becomes cronyism when selection is based on connections rather than merit, and when beneficiaries don't deliver.
 
@@ -67,7 +67,7 @@ Agencies meant to regulate industry instead serve it.
 |---------|--------|
 | Mechanism | Revolving door, lobbying, information asymmetry |
 | Result | Weak enforcement, favorable rules |
-| Example | FAA/Boeing (737 MAX), pre-2008 bank regulators |
+| Example | FAA/[[Boeing]] (737 MAX), pre-2008 bank regulators |
 
 **Not always corrupt:** Sometimes regulators defer to industry expertise legitimately. Becomes capture when public interest is sacrificed.
 
@@ -81,10 +81,10 @@ State-owned banks provide subsidized credit.
 
 | Bank | Country | Character |
 |------|---------|-----------|
-| **KfW** | Germany | Generally effective — Mittelstand support |
+| **KfW** | [[Germany]] | Generally effective — Mittelstand support |
 | **CDB** | China | Industrial policy vehicle — mixed |
-| **BNDES** | Brazil | Captured → [[Brazilian cronyism]] |
-| **JBIC** | Japan | Export finance |
+| **BNDES** | [[Brazil]] | Captured → [[Brazilian cronyism]] |
+| **JBIC** | [[Japan]] | Export finance |
 
 **The test:** Does lending follow economic logic or political logic? Are loans repaid?
 
@@ -96,9 +96,9 @@ Government owns and operates firms directly.
 
 | Type | Example | Character |
 |------|---------|-----------|
-| **Strategic SOEs** | Saudi Aramco, Petrobras | National resources |
+| **Strategic SOEs** | [[Saudi Aramco]], Petrobras | National resources |
 | **Infrastructure SOEs** | National railways, utilities | Natural monopolies |
-| **Competitive SOEs** | Singapore Airlines, Temasek portfolio | State as shareholder |
+| **Competitive SOEs** | Singapore Airlines, [[Temasek]] portfolio | State as shareholder |
 | **Captured SOEs** | Petrobras (Lava Jato era) | Extraction vehicles |
 
 **Investment implication:** SOEs can be investable (Aramco IPO, Singapore firms) but carry political risk. Minority shareholders subordinated to state interests.
@@ -112,9 +112,9 @@ State directs economy systematically while maintaining private ownership.
 | Country | Model |
 |---------|-------|
 | **China** | Party controls "commanding heights"; private sector in "cage" |
-| **Singapore** | Temasek/GIC as strategic investors |
+| **Singapore** | [[Temasek]]/[[GIC]] as strategic investors |
 | **Gulf states** | Royal family = state = economy |
-| **Russia** | Siloviki control strategic sectors |
+| **[[Russia]]** | Siloviki control strategic sectors |
 
 **Key risk:** Private wealth exists at state's pleasure. Jack Ma, Khodorkovsky showed limits.
 
@@ -128,7 +128,7 @@ Political connections determine business success. Extraction at public expense.
 |---------|--------|
 | Mechanism | Licenses, contracts, loans flow to insiders |
 | Result | Wealth transfer from public to connected |
-| Vehicle | Banks, state contracts, SOEs, permits |
+| Vehicle | [[Banks]], state contracts, SOEs, permits |
 | Outcome | Insiders rich; institutions weakened |
 
 **Sub-patterns:**
@@ -159,19 +159,19 @@ Political connections determine business success. Extraction at public expense.
 
 | Country | Primary mode | Notes |
 |---------|--------------|-------|
-| **US** | Arm's-length + some capture | Defense/pharma have policy elements |
-| **Germany** | Regulated + industrial policy | KfW, Mittelstand support |
-| **France** | Industrial policy + SOEs | Dirigisme tradition |
-| **UK** | Arm's-length | Post-Thatcher |
-| **Japan** | Industrial policy (fading) | MITI era over |
+| **US** | Arm's-length + some capture | [[Defense]]/pharma have policy elements |
+| **[[Germany]]** | Regulated + industrial policy | KfW, Mittelstand support |
+| **[[France]]** | Industrial policy + SOEs | Dirigisme tradition |
+| **[[UK]]** | Arm's-length | Post-Thatcher |
+| **[[Japan]]** | Industrial policy (fading) | MITI era over |
 | **Korea** | Industrial policy + chaebols | Still conglomerate-driven |
-| **Taiwan** | Industrial policy | [[TSMC]] as success |
+| **[[Taiwan]]** | Industrial policy | [[TSMC]] as success |
 | **China** | State capitalism | Party control |
-| **Singapore** | State capitalism (benign) | Temasek model |
-| **Gulf** | State capitalism + royal | Oil wealth, royal control |
-| **Russia** | State capitalism + cronyism | Siloviki extraction |
-| **Brazil** | Mixed + cronyism | Democratic but captured |
-| **Iran** | Cronyism + sanctions | IRGC extraction |
+| **Singapore** | State capitalism (benign) | [[Temasek]] model |
+| **Gulf** | State capitalism + royal | [[Oil]] wealth, royal control |
+| **[[Russia]]** | State capitalism + cronyism | Siloviki extraction |
+| **[[Brazil]]** | Mixed + cronyism | Democratic but captured |
+| **[[Iran]]** | Cronyism + sanctions | IRGC extraction |
 
 ---
 

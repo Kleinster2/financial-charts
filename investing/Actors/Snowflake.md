@@ -56,7 +56,7 @@ Burning cash to grow, unlike [[Palantir]].
 - Joint enterprise customers
 - Snowflake = data layer, Palantir = AI layer
 
-**Customer example:** Eaton using both platforms.
+**Customer example:** [[Eaton]] using both platforms.
 
 ---
 
@@ -118,7 +118,7 @@ Burning cash to grow, unlike [[Palantir]].
 | Benoit Dageville | Co-founder, President | **$1.5B** |
 | Michael Scarpelli | Former CFO | **$1.0B** |
 
-**Origin story:** Cruanes and Dageville were Oracle architects. Both French, both PhDs from Paris VI. Left Oracle 2012 to build cloud-native data warehouse. Largest software IPO ever (2020).
+**Origin story:** Cruanes and Dageville were [[Oracle]] architects. Both French, both PhDs from Paris VI. Left [[Oracle]] 2012 to build cloud-native data warehouse. Largest software IPO ever (2020).
 
 **Revenue:** $3.6B fiscal 2025 (13x since IPO).
 

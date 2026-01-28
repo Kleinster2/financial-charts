@@ -24,9 +24,9 @@ aliases: [DASH]
 | Market | Position |
 |--------|----------|
 | US food delivery | **#1** (~65% share) |
-| Canada | Strong |
-| Australia | Expanding |
-| Germany/Europe | Wolt acquisition |
+| [[Canada]] | Strong |
+| [[Australia]] | Expanding |
+| [[Germany]]/[[Europe]] | Wolt acquisition |
 
 ---
 
@@ -59,7 +59,7 @@ aliases: [DASH]
 | Restaurant delivery | Core |
 | Grocery | Growing (Albertsons, etc.) |
 | Convenience | 7-Eleven, Walgreens |
-| Retail | Best Buy, Macy's |
+| Retail | Best Buy, [[Macy's]] |
 | Alcohol | Expanding |
 
 ---

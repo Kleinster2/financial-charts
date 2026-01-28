@@ -55,7 +55,7 @@ aliases: [Tudor, Paul Tudor Jones]
 
 ## Famous trades
 
-| Trade | Year | Outcome |
+| [[Trade]] | Year | Outcome |
 |-------|------|---------|
 | 1987 crash | 1987 | Tripled fund |
 | Japanese bubble | 1990 | Major profits |

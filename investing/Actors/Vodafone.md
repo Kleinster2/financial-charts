@@ -15,7 +15,7 @@ European connectivity play:
 |--------|-------|
 | Ticker | VOD (NASDAQ), VOD.L (LSE) |
 | Market cap | ~$20B |
-| HQ | UK |
+| HQ | [[UK]] |
 | Focus | Mobile, fixed, enterprise |
 
 ---
@@ -34,7 +34,7 @@ European connectivity play:
 **Recent moves:**
 - Sold Italy, Spain assets
 - Focus on core markets
-- Germany, UK priority
+- [[Germany]], [[UK]] priority
 - Debt reduction
 
 Shrinking to grow.
@@ -47,7 +47,7 @@ Shrinking to grow.
 - Enterprise connectivity
 - IoT networks
 - Edge computing
-- 5G private networks
+- [[5G]] private networks
 
 ---
 
@@ -55,8 +55,8 @@ Shrinking to grow.
 
 | Market | Status |
 |--------|--------|
-| Germany | Largest, keeping |
-| UK | Merged with Three |
+| [[Germany]] | Largest, keeping |
+| [[UK]] | Merged with Three |
 | Italy | Sold to Swisscom |
 | Spain | Sold |
 
@@ -85,7 +85,7 @@ Shrinking to grow.
 | Ticker | VOD |
 | Market cap | ~$20B |
 | Cable | Amitié partner |
-| Focus | Europe enterprise |
+| Focus | [[Europe]] enterprise |
 
 *Updated 2026-01-01*
 

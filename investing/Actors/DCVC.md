@@ -21,13 +21,13 @@ aliases: [Data Collective]
 ## Rare earth thesis
 
 **Zachary Bogue (co-founder, managing partner):**
-> "Rare earths are top of mind right now. There's geopolitical tensions. The US can no longer rely on China for rare earths and critical minerals."
+> "Rare earths are top of mind right now. There's geopolitical tensions. The US can no longer rely on [[China]] for rare earths and critical minerals."
 
 **2025 investments:**
 - [[Alta Resource Technologies]] — AI + biochemistry separation
 - Second rare earth startup (undisclosed)
 
-**View on technology:** Recent advances in mining and processing tech give confidence US startups can catch up to China's established players.
+**View on technology:** Recent advances in mining and processing tech give confidence US startups can catch up to [[China]]'s established players.
 
 ---
 
@@ -35,7 +35,7 @@ aliases: [Data Collective]
 
 | Sector | Examples |
 |--------|----------|
-| Critical minerals | Rare earths |
+| [[Critical minerals]] | Rare earths |
 | Deep tech | Hard science companies |
 | Climate tech | Energy, materials |
 

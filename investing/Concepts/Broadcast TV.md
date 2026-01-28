@@ -21,7 +21,7 @@ The Big Four US broadcast networks — free over-the-air television funded by ad
 
 | Network | Historical owners | Current (2025) |
 |---------|-------------------|----------------|
-| CBS | Westinghouse → Viacom → ViacomCBS | [[Paramount Global]] |
+| CBS | [[Westinghouse]] → Viacom → ViacomCBS | [[Paramount Global]] |
 | NBC | RCA → GE → Comcast (2011) | [[Comcast]] |
 | ABC | ABC → Cap Cities → Disney (1996) | [[Disney]] |
 | Fox | Founded 1986 (Murdoch) | [[Fox Corporation]] |

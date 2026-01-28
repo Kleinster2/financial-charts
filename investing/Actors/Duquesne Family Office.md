@@ -24,7 +24,7 @@ aliases: [Duquesne, Stanley Druckenmiller, Druckenmiller]
 | Fact | Detail |
 |------|--------|
 | Background | Soros Fund (1988-2000) |
-| Famous trade | 1992 British pound (with Soros) |
+| Famous trade | 1992 [[British pound]] (with Soros) |
 | Track record | 30% annualized, never down year |
 | Style | Concentrated, macro |
 | Philanthropy | Major giver |
@@ -71,7 +71,7 @@ Druckenmiller made the actual trades.
 
 | Topic | Position |
 |-------|----------|
-| Inflation | Early warning |
+| [[Inflation]] | Early warning |
 | Fed policy | Critical |
 | AI | Bullish (Nvidia) |
 | Dollar | Concerned long-term |

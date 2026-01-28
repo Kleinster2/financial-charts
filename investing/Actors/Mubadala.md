@@ -24,14 +24,14 @@ World's most active sovereign wealth fund in 2024 (Global SWF). More than half o
 ## Geographic reach
 
 ![[abu-dhabi-swf-geography.png]]
-*Mubadala (red) is the most global of Abu Dhabi's three SWFs — heavy focus on US and Europe. [[ADIA]] (pink) dominates India. [[ADQ]] (orange) local-focused. (Bloomberg, Dec 2025)*
+*Mubadala (red) is the most global of Abu Dhabi's three SWFs — heavy focus on US and [[Europe]]. [[ADIA]] (pink) dominates [[India]]. [[ADQ]] (orange) local-focused. (Bloomberg, Dec 2025)*
 
 | Region | Activity |
 |--------|----------|
 | US | Largest focus |
-| Europe | Major presence |
-| UK | Strong activity |
-| Asia-Pacific | Growing |
+| [[Europe]] | Major presence |
+| [[UK]] | Strong activity |
+| [[Asia]]-Pacific | Growing |
 
 ---
 
@@ -66,8 +66,8 @@ Mubadala has shifted focus:
 | Investment | Amount | Year |
 |------------|--------|------|
 | [[MGX]] co-founding | — | 2024 |
-| BlackRock/Microsoft AI infra | $30B partnership | 2024 |
-| Aligned Data Centers | $40B (w/ MGX) | 2025 |
+| BlackRock/[[Microsoft]] AI infra | $30B partnership | 2024 |
+| Aligned [[Data Centers]] | $40B (w/ MGX) | 2025 |
 | French data centers | $31B (w/ MGX) | 2025 |
 | SC Capital Partners DC | $2B | 2022 |
 | [[OpenAI]] | $6.6B round | 2024 |
@@ -93,10 +93,10 @@ Mubadala has shifted focus:
 
 | Investment | Amount | Sector |
 |------------|--------|--------|
-| Telecom Italia | Part of $24B | Telecom |
+| [[Telecom]] Italia | Part of $24B | [[Telecom]] |
 | ThyssenKrupp | Part of $19B | Industrial |
 | Endeavor | $13B | Entertainment |
-| Waymo | $6B round | Autonomous |
+| [[Waymo]] | $6B round | Autonomous |
 | Reliance Retail | Part of $1.5B | Retail |
 
 ---
@@ -125,7 +125,7 @@ Mubadala has shifted focus:
 | Trait | Description |
 |-------|-------------|
 | Most active | 330+ deals in 5 years |
-| Global | US/Europe focus |
+| Global | US/[[Europe]] focus |
 | AI-forward | MGX partnership, direct deals |
 | Strategic | UAE national priorities |
 | Operating companies | GlobalFoundries, EGA |
@@ -137,7 +137,7 @@ Mubadala has shifted focus:
 **Can't invest directly** (sovereign fund), but signals:
 - AI infrastructure capital flows
 - Global deal access patterns
-- Private credit market trends
+- [[Private credit]] market trends
 - Tech/finance convergence
 
 ---

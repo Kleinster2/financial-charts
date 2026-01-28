@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Noam Shazeer** — Transformer co-author. Founded Character.AI. Google rebuffed his chatbot, so he left.
+**Noam Shazeer** — [[Transformer]] co-author. Founded Character.AI. Google rebuffed his chatbot, so he left.
 
 ---
 
@@ -13,19 +13,19 @@ Co-invented the architecture behind all modern AI:
 
 | Metric | Value |
 |--------|-------|
-| Previous | Google (Transformer paper) |
+| Previous | Google ([[Transformer]] paper) |
 | Current | Character.AI co-founder |
 | Known for | "Attention Is All You Need" |
 | Left Google | 2021 |
 
 ---
 
-## Transformer paper
+## [[Transformer]] paper
 
 **"Attention Is All You Need" (2017):**
 - Co-authored foundational paper
-- Introduced Transformer architecture
-- Basis for GPT, BERT, Claude, everything
+- Introduced [[Transformer]] architecture
+- Basis for GPT, BERT, [[Claude]], everything
 - Most cited AI paper of the era
 
 Noam Shazeer literally invented modern AI architecture.
@@ -48,7 +48,7 @@ Noam Shazeer literally invented modern AI architecture.
 
 **Founded 2021:**
 - AI companion/roleplay platform
-- Consumer-focused
+- [[Consumer]]-focused
 - Personalized AI characters
 - Massive user engagement
 
@@ -57,7 +57,7 @@ Noam Shazeer literally invented modern AI architecture.
 ## Technical genius
 
 **Google contributions:**
-- Transformer architecture
+- [[Transformer]] architecture
 - Meena chatbot (precursor to Bard)
 - LaMDA contributions
 - Foundational NLP work
@@ -71,7 +71,7 @@ One of ~10 people who created modern AI.
 | Metric | Value |
 |--------|-------|
 | Co-founder | Noam Shazeer, Daniel De Freitas |
-| Focus | Consumer AI companions |
+| Focus | [[Consumer AI]] companions |
 | Valuation | $1B+ |
 | Users | Massive engagement |
 
@@ -83,7 +83,7 @@ One of ~10 people who created modern AI.
 - Big tech can miss opportunities
 - Technical founders leave to build
 - AI talent = scarce, valuable
-- Consumer AI has legs
+- [[Consumer AI]] has legs
 
 ---
 
@@ -93,7 +93,7 @@ One of ~10 people who created modern AI.
 |--------|-------|
 | Current | Character.AI co-founder |
 | Previous | Google |
-| Known for | Transformer paper |
+| Known for | [[Transformer]] paper |
 | Left Google | 2021 |
 
 *Updated 2026-01-01*
@@ -103,6 +103,6 @@ One of ~10 people who created modern AI.
 ## Related
 
 - [[Character.AI]] — co-founder (current company)
-- [[Google]] — former employer (14 years, Transformer paper)
-- [[OpenAI]] — peer (uses Transformer architecture he co-invented)
-- [[Anthropic]] — peer (uses Transformer architecture)
+- [[Google]] — former employer (14 years, [[Transformer]] paper)
+- [[OpenAI]] — peer (uses [[Transformer]] architecture he co-invented)
+- [[Anthropic]] — peer (uses [[Transformer]] architecture)

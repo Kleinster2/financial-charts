@@ -25,8 +25,8 @@ French government owns ~26% (via Dassault).
 | Segment | Revenue share | Focus |
 |---------|---------------|-------|
 | Defense & Security | ~50% | Radar, C4ISR, optronics |
-| Aerospace | ~25% | Avionics, IFE, space |
-| Digital Identity | ~25% | Cybersecurity, ID cards |
+| [[Aerospace]] | ~25% | Avionics, IFE, space |
+| Digital Identity | ~25% | [[Cybersecurity]], ID cards |
 
 ---
 
@@ -37,8 +37,8 @@ French government owns ~26% (via Dassault).
 | Radar | Ground-based, naval, airborne |
 | Avionics | Cockpit systems, displays |
 | Missiles | Part of MBDA JV |
-| Cybersecurity | Encryption, secure comms |
-| Space | Satellites, ground systems |
+| [[Cybersecurity]] | Encryption, secure comms |
+| [[Space]] | Satellites, ground systems |
 | Sonar | Submarine detection |
 
 ---
@@ -49,7 +49,7 @@ French government owns ~26% (via Dassault).
 |---------|------|
 | Rafale | Avionics, radar, EW |
 | Eurofighter | Radar, defensive aids |
-| FCAS | Sensors, connectivity |
+| FCAS | [[Sensors]], connectivity |
 | Naval Group ships | Combat systems |
 
 ---
@@ -58,10 +58,10 @@ French government owns ~26% (via Dassault).
 
 | Region | Share |
 |--------|-------|
-| France | ~25% |
-| Europe (ex-France) | ~30% |
+| [[France]] | ~25% |
+| [[Europe]] (ex-[[France]]) | ~30% |
 | Middle East | ~15% |
-| Asia-Pacific | ~15% |
+| [[Asia]]-Pacific | ~15% |
 | Americas | ~10% |
 
 Strong in Middle East (UAE, Saudi, Qatar).
@@ -73,7 +73,7 @@ Strong in Middle East (UAE, Saudi, Qatar).
 **Bull:**
 - Defense electronics leader
 - European rearmament tailwind
-- Cybersecurity growth
+- [[Cybersecurity]] growth
 - Rafale export success
 - Reasonable valuation
 

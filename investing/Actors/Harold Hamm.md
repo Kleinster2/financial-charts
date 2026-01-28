@@ -21,7 +21,7 @@
 **Rags to riches:**
 - Youngest of 13 children born to poor Oklahoma sharecroppers
 - Got into oil business at age 18
-- 1967: Founded Shelly Dean Oil, started wildcatting
+- 1967: Founded Shelly Dean [[Oil]], started wildcatting
 - Built Shelly Dean into Continental Resources
 - Pioneered horizontal drilling in Bakken Shale (North Dakota)
 
@@ -46,7 +46,7 @@ At various times: richest person in Oklahoma, one of richest in America.
 
 | Connection | Detail |
 |------------|--------|
-| Campaign donations | $4.3M+ to Trump PACs |
+| Campaign donations | $4.[[3M]]+ to Trump PACs |
 | Fundraising | Organized Mar-a-Lago oil exec meeting (asked for $1B) |
 | Inauguration 2025 | Seated near dais with Mercer, Icahn, Kraft, Wynn |
 | Ballroom donor | Named as donor to WH State Ballroom construction (Oct 2025) |
@@ -70,8 +70,8 @@ When Trump directly asked if Hamm would invest in Venezuela drilling, Hamm was *
 
 - [[WH oil executives Venezuela meeting 2026-01-09]] — Jan 9, 2026 coy response
 - [[Venezuela]] — potential investment opportunity
-- [[Darren Woods]] — peer at meeting (Exxon)
-- [[Ryan Lance]] — peer at meeting (ConocoPhillips)
+- [[Darren Woods]] — peer at meeting ([[Exxon]])
+- [[Ryan Lance]] — peer at meeting ([[ConocoPhillips]])
 - [[US Government]] — Trump administration ties
 
 ---

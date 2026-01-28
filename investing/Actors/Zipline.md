@@ -24,10 +24,10 @@
 |--------|--------|----------|
 | **Rwanda** | 2016+ | Blood, vaccines, medications |
 | **Ghana** | 2019+ | Medical supplies |
-| **Nigeria** | 2022+ | Medical |
-| **Kenya** | 2023+ | Medical |
+| **[[Nigeria]]** | 2022+ | Medical |
+| **[[Kenya]]** | 2023+ | Medical |
 | **US** | Expanding | Retail (Walmart), pharma |
-| **Japan** | 2024+ | Medical |
+| **[[Japan]]** | 2024+ | Medical |
 
 **Scale:** 1M+ commercial deliveries completed. Largest autonomous delivery operation globally.
 
@@ -55,7 +55,7 @@
 | **Intermountain Health** | Medical | Pilot |
 | **MultiCare** | Hospital resupply | Pilot |
 
-**Challenge:** FAA BVLOS (beyond visual line of sight) approvals slower in US than Africa.
+**Challenge:** FAA BVLOS (beyond visual line of sight) approvals slower in US than [[Africa]].
 
 ---
 
@@ -75,11 +75,11 @@
 
 ## Investors
 
-- Sequoia Capital
-- Andreessen Horowitz
-- Baillie Gifford
+- [[Sequoia Capital]]
+- [[Andreessen Horowitz]]
+- [[Baillie Gifford]]
 - Katalyst Ventures
-- Google Ventures
+- [[Google]] Ventures
 
 ---
 

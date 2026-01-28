@@ -30,18 +30,18 @@ Tracking how major firms position across asset classes. Useful for contrarian si
 |--------|----------|-------|
 | Health care | Overweight | Valuation + profitability |
 | Materials | Overweight | Cycle play |
-| Consumer discretionary | **Overweight** | Middle income focus |
+| [[Consumer]] discretionary | **Overweight** | Middle income focus |
 | Software & services | Overweight | Ex-Mag 7 tech |
 
-**Consumer picks** — "nice to have" over "need to have":
+**[[Consumer]] picks** — "nice to have" over "need to have":
 
 | Stock | Category |
 |-------|----------|
-| Burlington Stores | Apparel |
+| [[Burlington]] Stores | Apparel |
 | Best Buy | Electronics |
 | Five Below | Discount |
 | Levi Strauss | Apparel |
-| Gap | Apparel |
+| [[Gap]] | Apparel |
 | Dick's Sporting Goods | Sporting goods |
 
 **Thesis:** Middle income consumers will see real income growth acceleration → improved sales growth. Tailwinds: fading tariffs, stable labor market, tax rebates.
@@ -94,14 +94,14 @@ Tracking how major firms position across asset classes. Useful for contrarian si
 
 | Theme | Who |
 |-------|-----|
-| Mag 7 → S&P 493 | Goldman, UBS, Yardeni |
-| Consumer discretionary | Goldman (Snider), Nomura |
+| Mag 7 → S&P 493 | Goldman, [[UBS]], Yardeni |
+| [[Consumer]] discretionary | Goldman (Snider), Nomura |
 | International over US | Goldman (Mueller-Glissmann), RBA |
 | European equities | RBA |
 | [[Greece]] upgrade | JPMorgan ($962M flows) |
 | Reduce credit | RBA |
 | Small caps | Various (Russell rotation) |
-| Defense | Multiple (Trump budget) |
+| [[Defense]] | Multiple (Trump budget) |
 | H2 caution | Goldman (recession risk) |
 
 ---
@@ -112,11 +112,11 @@ Tracking how major firms position across asset classes. Useful for contrarian si
 |--------|--------|-------|
 | Apr 2025 | -25% | Trough |
 | Nov 1, 2025 | — | Holiday rotation begins |
-| Since Nov 1 | +8.8% | Consumer bid |
+| Since Nov 1 | +8.8% | [[Consumer]] bid |
 | 2026 YTD | +3.5% | Outperforming |
 | Jan 2026 | +10% | Near highs |
 
-**Components include:** Carmax, Etsy, Academy Sports
+**Components include:** Carmax, [[Etsy]], Academy Sports
 
 ---
 
@@ -125,21 +125,21 @@ Tracking how major firms position across asset classes. Useful for contrarian si
 | Class | Risk spectrum | Key metrics |
 |-------|---------------|-------------|
 | Cash/T-bills | Lowest | Yield |
-| Treasuries | Low | Duration, yield |
+| [[Treasuries]] | Low | Duration, yield |
 | IG credit | Medium-low | Spreads, duration |
 | MBS/ABS | Medium | Prepayment, spreads |
 | HY credit | Medium-high | Spreads, default rates |
 | EM debt | Medium-high | USD strength, spreads |
 | DM equities | High | P/E, earnings growth |
 | EM equities | Higher | Growth, FX |
-| Private credit | Illiquid | Yield pickup |
+| [[Private credit]] | Illiquid | Yield pickup |
 | Alternatives | Varies | Correlation |
 
 ---
 
 ## Current signals
 
-| Signal | Reading | Implication |
+| [[Signal]] | Reading | Implication |
 |--------|---------|-------------|
 | IG spreads 78 bps | Tight | Low risk premium |
 | Record bond issuance | Strong demand | Risk appetite high |

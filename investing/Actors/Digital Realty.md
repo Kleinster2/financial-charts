@@ -56,7 +56,7 @@ Digital Realty is the #2 data center REIT, focused on larger deployments:
 | Competitor | Focus | DLR advantage |
 |------------|-------|---------------|
 | [[Equinix]] | Interconnection | Wholesale scale |
-| QTS ([[Blackstone]]) | Private | Public liquidity |
+| [[QTS]] ([[Blackstone]]) | Private | Public liquidity |
 | Vantage ([[DigitalBridge]]) | Hyperscale | Larger footprint |
 
 DLR is the public hyperscale play.
@@ -69,7 +69,7 @@ Digital Realty owns significant land for expansion:
 - Critical for AI buildout
 - Power-ready sites
 - Multi-year development pipeline
-- Strategic advantage vs smaller REITs
+- Strategic advantage vs smaller [[REITs]]
 
 ---
 
@@ -118,8 +118,8 @@ Digital Realty owns significant land for expansion:
 ## Related
 
 - [[Equinix]] — competitor (DC REIT, retail vs wholesale)
-- [[DigitalBridge]] — competitor (Vantage Data Centers)
-- [[Blackstone]] — competitor (QTS platform)
+- [[DigitalBridge]] — competitor (Vantage [[Data Centers]])
+- [[Blackstone]] — competitor ([[QTS]] platform)
 - [[AI hyperscalers]] — customers (hyperscale focus)
 - [[AI infrastructure financing]] — thesis context
 - [[Power constraints]] — key challenge (land bank advantage)

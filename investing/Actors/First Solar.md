@@ -3,7 +3,7 @@ aliases: [FSLR]
 ---
 #actor #solar #usa #energy
 
-**First Solar** — Only major US solar panel manufacturer. Thin-film CdTe technology. Beneficiary of IRA and China tariffs.
+**First Solar** — Only major US solar panel manufacturer. Thin-film CdTe technology. Beneficiary of IRA and [[China]] tariffs.
 
 ---
 
@@ -15,8 +15,8 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 |--------|-------|
 | Market position | #1 US solar manufacturer |
 | Technology | Thin-film CdTe (not silicon) |
-| Manufacturing | US, Malaysia, Vietnam, India |
-| Policy tailwind | IRA domestic content, China tariffs |
+| Manufacturing | US, Malaysia, Vietnam, [[India]] |
+| Policy tailwind | IRA domestic content, [[China]] tariffs |
 
 ---
 
@@ -34,7 +34,7 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 | Technology | Thin-film CdTe | Crystalline Si |
 | Efficiency | Lower (but improving) | Higher |
 | Hot climate | Better | Degrades more |
-| Supply chain | US/allied | China-dependent |
+| Supply chain | US/allied | [[China]]-dependent |
 
 ---
 
@@ -42,12 +42,12 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 **Why data centers choose First Solar:**
 - Domestic content for IRA credits
-- Avoids China tariff/ban risk
+- Avoids [[China]] tariff/ban risk
 - Utility-scale focus
 - Reliable supply
 
 **Hyperscaler demand:**
-- Amazon, Microsoft, Google, Meta all buying solar
+- Amazon, Microsoft, Google, [[Meta]] all buying solar
 - 98.7% of corporate PPAs from hyperscalers
 - First Solar = preferred domestic supplier
 
@@ -62,7 +62,7 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 | Louisiana | New facility |
 | Malaysia | ~3 GW |
 | Vietnam | ~3 GW |
-| India | ~3 GW |
+| [[India]] | ~3 GW |
 
 **US expansion:** IRA incentives driving domestic buildout.
 
@@ -70,31 +70,31 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 ## Policy tailwinds
 
-**Inflation Reduction Act (IRA):**
+**[[Inflation]] Reduction Act (IRA):**
 - Domestic content bonuses
 - Manufacturing tax credits
 - 10-year visibility
 
-**China tariffs:**
+**[[China]] tariffs:**
 - AD/CVD duties on Chinese panels
-- Southeast Asia circumvention crackdown
+- [[Southeast Asia]] circumvention crackdown
 - First Solar exempt (CdTe, not silicon)
 
 ---
 
-## Critical minerals exposure
+## [[Critical minerals]] exposure
 
 First Solar uses tellurium, not rare earths — different risk profile:
 
 | Material | Use | Supply chain |
 |----------|-----|--------------|
-| Tellurium | CdTe thin-film | China ~60% refining |
+| Tellurium | CdTe thin-film | [[China]] ~60% refining |
 | Cadmium | CdTe thin-film | Byproduct of zinc |
 
 **Better positioned than silicon solar**:
 - Rare earth magnets not required (no motors)
-- Tellurium not on China's 2025 export control list
-- But still some China supply chain exposure
+- Tellurium not on [[China]]'s 2025 export control list
+- But still some [[China]] supply chain exposure
 
 **Vs Chinese silicon panels**:
 - Chinese panels require rare earths (inverters, trackers)
@@ -110,7 +110,7 @@ See [[Rare earth leverage]] for the broader context.
 **Bull:**
 - Only US solar manufacturer at scale
 - IRA domestic content tailwind
-- China tariff beneficiary
+- [[China]] tariff beneficiary
 - AI data center demand
 - Contracted backlog visibility
 - Less rare earth exposed than silicon solar
@@ -121,7 +121,7 @@ See [[Rare earth leverage]] for the broader context.
 - Execution on US expansion
 - Chinese competition relentless
 - Commodity pricing pressure
-- Tellurium still partially China-sourced
+- Tellurium still partially [[China]]-sourced
 
 ---
 

@@ -1,6 +1,6 @@
 #concept #geopolitics #china #japan #asia
 
-**China-Japan relations** — Geopolitical rivalry between Asia's two largest economies. Escalating in Jan 2026 over Taiwan comments.
+**China-Japan relations** — Geopolitical rivalry between [[Asia]]'s two largest economies. Escalating in Jan 2026 over Taiwan comments.
 
 ---
 
@@ -19,7 +19,7 @@ PM Sanae Takaichi said in parliament that a Taiwan "contingency" could threaten 
 | Export ban | Jan 2026 | Dual-use equipment: sensors, semiconductors, batteries, chemicals, rare earths |
 | Anti-dumping probe | Jan 2026 | Dichlorosilane (chip manufacturing chemical) — claims 31% price drop since 2022 |
 | Business delegation | Canceled | Japanese leaders' visit scrapped |
-| Tourism pressure | Ongoing | Travel agencies told to cancel Japan trips |
+| Tourism pressure | Ongoing | [[Travel]] agencies told to cancel Japan trips |
 | Military posturing | Dec 2025 | Radar lock on Japanese jets; Taiwan blockade exercises |
 
 ### Japan response
@@ -28,14 +28,14 @@ PM Sanae Takaichi said in parliament that a Taiwan "contingency" could threaten 
 |--------|---------|
 | Official protest | "Absolutely unacceptable and deeply regrettable" |
 | Takaichi stance | "Open to dialogue" but not retracting Taiwan comments |
-| Defense budget | Record 9T yen ($57.4B), +3.8% |
+| [[Defense]] budget | Record 9T yen ($57.4B), +3.8% |
 
 **Allied outreach (Jan 2026):**
 
 | Meeting | Parties | Purpose |
 |---------|---------|---------|
 | Finance Minister Katayama | G7 counterparts (US trip) | Critical minerals discussion |
-| Defense Minister Koizumi | US counterpart | Security coordination |
+| [[Defense]] Minister Koizumi | US counterpart | Security coordination |
 | PM Takaichi | South Korea's Lee Jae Myung (Jan 21-22) | Reaffirm alliance |
 | PM Takaichi | Italy's Meloni (Jan 15-17) | G7 solidarity |
 
@@ -86,7 +86,7 @@ G7, UN — easy sell since other members share critical minerals concerns.
 
 ---
 
-## Trade imbalance
+## [[Trade]] imbalance
 
 **Japan relies far more on China:**
 
@@ -126,7 +126,7 @@ Xi attempted to recruit South Korean President Lee Jae Myung for anti-Japan alli
 | WWII history | Unresolved resentments, textbook disputes |
 | Senkaku/Diaoyu Islands | Both claim sovereignty |
 | Taiwan | Japan sees as security issue; China sees as domestic |
-| Trade | Deep interdependence despite tensions |
+| [[Trade]] | Deep interdependence despite tensions |
 
 ---
 
@@ -150,14 +150,14 @@ Xi attempted to recruit South Korean President Lee Jae Myung for anti-Japan alli
 | Electronics | Rare earth dependence |
 | Autos | China market, supply chains |
 | Tourism | Chinese visitors significant |
-| Semiconductors | Equipment exports, materials |
+| [[Semiconductors]] | Equipment exports, materials |
 
 ### Beneficiaries of tension
 
 | Play | Rationale |
 |------|-----------|
 | Japanese defense stocks | MHI, Kawasaki Heavy — budget increase |
-| Non-China rare earths | MP Materials, Lynas |
+| Non-China rare earths | [[MP Materials]], Lynas |
 | Japan semiconductor equipment | Decoupling beneficiary if localization |
 
 ### Losers
@@ -165,13 +165,13 @@ Xi attempted to recruit South Korean President Lee Jae Myung for anti-Japan alli
 | Play | Rationale |
 |------|-----------|
 | Japan tourism | Chinese visitor decline |
-| China-exposed Japanese firms | Sony (gaming), auto JVs |
+| China-exposed Japanese firms | [[Sony]] (gaming), auto JVs |
 
 ---
 
 ## Signposts to watch
 
-| Signal | De-escalation | Escalation |
+| [[Signal]] | De-escalation | Escalation |
 |--------|---------------|------------|
 | Takaichi | Softens Taiwan language | Doubles down |
 | China export controls | Lifted | Expanded to rare earths fully |

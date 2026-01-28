@@ -52,8 +52,8 @@ Gartner data useful for:
 | **Total semi revenue** | **$793B** | **+21%** |
 | AI semiconductors | ~$264B | — |
 | AI share of total | ~1/3 | — |
-| **NVIDIA revenue** | **>$100B** | First semi to cross |
-| NVIDIA lead over Samsung | +$53B | — |
+| **[[NVIDIA]] revenue** | **>$100B** | First semi to cross |
+| [[NVIDIA]] lead over [[Samsung]] | +$53B | — |
 
 ### AI infrastructure forecast
 

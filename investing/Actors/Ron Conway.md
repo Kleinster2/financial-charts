@@ -3,7 +3,7 @@ aliases: [SV Angel]
 ---
 #actor #investor #individual #usa #angel
 
-**Ron Conway** — "Godfather of Silicon Valley." SV Angel founder. Google, Facebook, Twitter angel. Most connected investor.
+**Ron Conway** — "Godfather of Silicon Valley." SV Angel founder. [[Google]], Facebook, Twitter angel. Most connected investor.
 
 ---
 
@@ -33,13 +33,13 @@ aliases: [SV Angel]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Google** | Angel | Public (GOOGL) |
+| **[[Google]]** | Angel | Public (GOOGL) |
 | **Facebook** | Angel | Public (META) |
 | **Twitter** | Angel | Acquired by Musk |
-| **PayPal** | Angel | Acquired → eBay |
-| **Pinterest** | Angel | Public (PINS) |
-| **Stripe** | Angel | $129B |
-| **Airbnb** | Angel | Public (ABNB) |
+| **[[PayPal]]** | Angel | Acquired → [[eBay]] |
+| **[[Pinterest]]** | Angel | Public (PINS) |
+| **[[Stripe]]** | Angel | $129B |
+| **[[Airbnb]]** | Angel | Public (ABNB) |
 | **Square** | Angel | Public (SQ) |
 
 ---
@@ -62,7 +62,7 @@ aliases: [SV Angel]
 | Founder intros | Connects everyone |
 | LP network | Access to top funds |
 | Political | SF civic involvement |
-| Media | Tech press relationships |
+| [[Media]] | Tech press relationships |
 
 "Ron knows everyone and everyone knows Ron."
 

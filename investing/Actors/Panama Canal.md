@@ -17,14 +17,14 @@
 
 ## Chinese presence
 
-**Hutchison Ports (CK Hutchison):**
+**[[Hutchison Ports]] (CK Hutchison):**
 - Operates ports on both canal ends
 - Balboa (Pacific) and Cristobal (Atlantic)
 - 25-year concession (renewed)
-- Hong Kong-based, China-linked
+- Hong Kong-based, [[China]]-linked
 
 **US concerns:**
-- Strategic chokepoint controlled by China-linked firm
+- Strategic chokepoint controlled by [[China]]-linked firm
 - Intelligence gathering potential
 - Leverage over US trade flows
 - Monroe Doctrine violation (foreign control in hemisphere)
@@ -50,12 +50,12 @@
 | Scenario | Winners | Losers |
 |----------|---------|--------|
 | Status quo | Hutchison, shipping lines | — |
-| US pressure | US port operators, Panama alternatives | Hutchison, China shipping |
+| US pressure | US port operators, Panama alternatives | Hutchison, [[China]] shipping |
 | Expansion | Construction companies | — |
 
 **US port operators:** Could benefit if Hutchison pushed out.
 
-**Shipping reroutes:** If canal disrupted, benefits alternative routes (Suez, US rail).
+**[[Shipping]] reroutes:** If canal disrupted, benefits alternative routes (Suez, US rail).
 
 ---
 
@@ -74,4 +74,4 @@
 - [[Monroe Doctrine]] — policy framework
 - [[Venezuela]] — parallel Monroe Doctrine target
 - [[Maduro capture 2026]] — precedent for hemisphere action
-- [[BRICS]] — China's geopolitical bloc
+- [[BRICS]] — [[China]]'s geopolitical bloc

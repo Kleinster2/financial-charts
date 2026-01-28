@@ -3,7 +3,7 @@ aliases: [Carlyle]
 ---
 #actor #investor #privateequity #usa #public
 
-**Carlyle Group** — Global PE. $426B AUM. Public (CG). Defense, aerospace, tech investor.
+**Carlyle Group** — Global PE. $426B AUM. Public (CG). [[Defense]], aerospace, tech investor.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Carlyle]
 |--------|-------|
 | Founded | 1987 |
 | AUM | ~$426B |
-| Ticker | CG (Nasdaq) |
+| Ticker | CG ([[Nasdaq]]) |
 | HQ | Washington, DC |
 | Founders | Rubenstein, D'Aniello, Conway |
 
@@ -23,7 +23,7 @@ aliases: [Carlyle]
 
 | Segment | AUM |
 |---------|-----|
-| **Global Private Equity** | ~$170B |
+| **Global [[Private Equity]]** | ~$170B |
 | **Global Credit** | ~$180B |
 | **Global Investment Solutions** | ~$75B |
 
@@ -33,21 +33,21 @@ aliases: [Carlyle]
 
 | Company | Sector | Status |
 |---------|--------|--------|
-| **Booz Allen Hamilton** | Defense | Public (BAH) |
+| **Booz Allen Hamilton** | [[Defense]] | Public (BAH) |
 | **Veritas** | Tech | Private |
 | **ZoomInfo** | Tech | Public (ZI) |
-| **Getty Images** | Media | Public (GETY) |
-| **CommScope** | Telecom | Private |
-| **Pharmaceutical Product Development** | Healthcare | Sold |
+| **Getty Images** | [[Media]] | Public (GETY) |
+| **CommScope** | [[Telecom]] | Private |
+| **Pharmaceutical Product Development** | [[Healthcare]] | Sold |
 
 ---
 
-## Defense/government strength
+## [[Defense]]/government strength
 
 | Aspect | Detail |
 |--------|--------|
 | DC location | Government relationships |
-| Defense portfolio | Booz Allen, others |
+| [[Defense]] portfolio | Booz Allen, others |
 | Advisors | Former government officials |
 
 Carlyle = PE with government expertise.
@@ -67,7 +67,7 @@ Carlyle = PE with government expertise.
 
 ## Related
 
-- [[Fortitude Re]] — reinsurance platform ($106B assets, FCA Re Asia sidecar)
+- [[Fortitude Re]] — reinsurance platform ($106B assets, FCA Re [[Asia]] sidecar)
 - [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Blackstone]] — peer (largest PE)
 - [[KKR]] — peer (PE)

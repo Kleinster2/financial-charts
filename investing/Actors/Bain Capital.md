@@ -23,11 +23,11 @@ aliases: [Bain Capital Ventures, BCV]
 
 | Segment | Focus |
 |---------|-------|
-| **Bain Capital Private Equity** | Buyouts |
+| **Bain Capital [[Private Equity]]** | Buyouts |
 | **Bain Capital Ventures** | Early-stage VC |
 | **Bain Capital Tech Opportunities** | Growth tech |
 | **Bain Capital Credit** | Lending |
-| **Bain Capital Life Sciences** | Healthcare |
+| **Bain Capital [[Life Sciences]]** | [[Healthcare]] |
 
 ---
 
@@ -38,11 +38,11 @@ aliases: [Bain Capital Ventures, BCV]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **LinkedIn** | Early | Acquired by MSFT |
-| **DocuSign** | Early | Public (DOCU) |
+| **[[DocuSign]]** | Early | Public (DOCU) |
 | **SurveyMonkey** | Early | Acquired |
-| **Jet.com** | Growth | Acquired by Walmart |
+| **Jet.com** | Growth | Acquired by [[Walmart]] |
 
-### Private Equity
+### [[Private Equity]]
 
 | Company | Type | Status |
 |---------|------|--------|

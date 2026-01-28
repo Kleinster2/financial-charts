@@ -30,7 +30,7 @@ Dominant Korean internet platform.
 | Commerce | Shopping, payments |
 | Content | Webtoon, news |
 | Cloud | Naver Cloud |
-| LINE | Japan messaging |
+| LINE | [[Japan]] messaging |
 
 ---
 
@@ -84,13 +84,13 @@ Naver dominates Korean search.
 
 ## LINE Corporation
 
-**Japan messaging:**
-- #1 Japan messenger
-- 90M+ Japan users
-- Fintech services
-- Yahoo Japan merger
+**[[Japan]] messaging:**
+- #1 [[Japan]] messenger
+- 90M+ [[Japan]] users
+- [[Fintech]] services
+- Yahoo [[Japan]] merger
 
-LINE = Japan's WhatsApp.
+LINE = [[Japan]]'s [[WhatsApp]].
 
 ---
 
@@ -121,12 +121,12 @@ Korean alternative to AWS/Azure.
 **Bull:**
 - Korean search moat
 - AI/HyperCLOVA
-- LINE Japan dominance
+- LINE [[Japan]] dominance
 - Commerce integration
 
 **Bear:**
 - Google competition
-- OpenAI/ChatGPT threat
+- OpenAI/[[ChatGPT]] threat
 - LINE profitability
 - Limited global scale
 
@@ -149,6 +149,6 @@ Korean alternative to AWS/Azure.
 
 - [[South Korea Tech]] — sovereign context
 - [[Google]] — competitor (has 30% Korea search)
-- [[OpenAI]] — competitor (ChatGPT vs HyperCLOVA)
+- [[OpenAI]] — competitor ([[ChatGPT]] vs HyperCLOVA)
 - [[Samsung]] — partner (Korean tech ecosystem)
 

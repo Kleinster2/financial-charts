@@ -15,13 +15,13 @@ aliases: [Lyten Inc]
 | Latest round | $200M Series C (Jul 2025) |
 | US Ex-Im LOI | $650M (for Nevada plant) |
 | HQ | San Jose, California |
-| Technology | Lithium-sulfur + 3D graphene |
+| Technology | [[Lithium]]-sulfur + 3D graphene |
 
 ---
 
 ## Technology
 
-### Lithium-sulfur batteries
+### [[Lithium]]-sulfur batteries
 
 | Advantage | Detail |
 |-----------|--------|
@@ -56,11 +56,11 @@ Lyten emerged as the primary acquirer of [[Northvolt]]'s bankrupt assets.
 |----------|------|-------|
 | **Stellantis** | Strategic | May 2023; EV battery development |
 | **FedEx** | Strategic | Logistics/delivery applications |
-| **Honeywell** | Strategic | Aerospace applications |
+| **Honeywell** | Strategic | [[Aerospace]] applications |
 | Prime Movers Lab | VC | Deep tech focus |
 | Walbridge Group | Corporate | — |
 | Luxembourg Future Fund | Sovereign | European exposure |
-| EIF | EU fund | European Investment Fund |
+| EIF | [[EU]] fund | European Investment Fund |
 
 ---
 
@@ -81,13 +81,13 @@ Plus: $650M LOI from US Export-Import Bank for Nevada manufacturing facility.
 | Sector | Use case |
 |--------|----------|
 | **EVs** | Lighter, cheaper battery packs |
-| **Aerospace** | Weight-sensitive applications |
+| **[[Aerospace]]** | Weight-sensitive applications |
 | **Logistics** | Delivery vehicles (FedEx) |
-| **Grid storage** | Stationary storage (via Northvolt assets) |
+| **[[Grid storage]]** | Stationary storage (via Northvolt assets) |
 
 ---
 
-## Lithium-sulfur vs lithium-ion
+## [[Lithium]]-sulfur vs lithium-ion
 
 | Metric | Li-S | Li-ion |
 |--------|------|--------|
@@ -97,7 +97,7 @@ Plus: $650M LOI from US Export-Import Bank for Nevada manufacturing facility.
 | Materials | Sulfur (abundant) | Cobalt, nickel (constrained) |
 | Maturity | Emerging | Mature |
 
-**Challenge:** Lithium-sulfur historically suffered from poor cycle life. Lyten claims its 3D graphene architecture solves this.
+**Challenge:** [[Lithium]]-sulfur historically suffered from poor cycle life. Lyten claims its 3D graphene architecture solves this.
 
 ---
 

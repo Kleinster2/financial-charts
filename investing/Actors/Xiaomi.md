@@ -3,7 +3,7 @@ aliases: [1810, XIACY]
 ---
 #actor #smartphone #china #memory-victim
 
-**Xiaomi** — China smartphone giant. Budgeting +25% DRAM cost per phone for 2026. Also EVs.
+**Xiaomi** — [[China]] smartphone giant. Budgeting +25% DRAM cost per phone for 2026. Also EVs.
 
 ---
 
@@ -38,7 +38,7 @@ Major smartphone OEM publicly warning on memory costs:
 | Metric | Value |
 |--------|-------|
 | Global rank | #3 (behind Apple, Samsung) |
-| Markets | China, India, Europe |
+| Markets | [[China]], [[India]], [[Europe]] |
 | Strategy | Value flagship |
 | Memory per phone | 8-16GB typical |
 
@@ -63,8 +63,8 @@ Smartphones = bulk of memory exposure.
 | Smartphone OEM | Response |
 |----------------|----------|
 | **Xiaomi** | +25% memory budget, raising prices |
-| Oppo | Optimizing specs (less RAM?) |
-| Vivo | Same approach |
+| [[Oppo]] | Optimizing specs (less RAM?) |
+| [[Vivo]] | Same approach |
 | [[Samsung]] | Vertically integrated (makes own memory) |
 | [[Apple]] | Premium pricing absorbs costs |
 
@@ -74,7 +74,7 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ## Samsung advantage
 
-[[Samsung]] makes its own memory — vertical integration insulates them. Xiaomi, Oppo, Vivo are pure buyers with no leverage.
+[[Samsung]] makes its own memory — vertical integration insulates them. Xiaomi, [[Oppo]], [[Vivo]] are pure buyers with no leverage.
 
 ---
 
@@ -96,7 +96,7 @@ Non-vertically-integrated Android OEMs hurt most.
 - Up to 4 new launches/refreshes planned
 
 **Industry reaction:**
-- Karl-Thomas Neumann (ex-VW China CEO): SU7 Ultra is "crying loud warning sign" for Western carmakers
+- Karl-Thomas Neumann (ex-VW [[China]] CEO): SU7 Ultra is "crying loud warning sign" for Western carmakers
 - MKBHD: Software integration "awesome"
 
 **Regulatory pressure:** Two SU7 crashes triggered draft rules on ADAS, door handles, battery safety.
@@ -107,7 +107,7 @@ Non-vertically-integrated Android OEMs hurt most.
 
 **3nm processor (May 2025):**
 - Xring O1 chip for tablets
-- Targeting Apple/Qualcomm performance levels
+- Targeting Apple/[[Qualcomm]] performance levels
 - Xiaomi Tablet 7 Ultra
 - Vertical integration attempt
 
@@ -119,7 +119,7 @@ Non-vertically-integrated Android OEMs hurt most.
 - Memory costs crushing smartphone margins
 - No vertical integration
 - Competition from Samsung (integrated)
-- China market saturation
+- [[China]] market saturation
 - EV overcapacity, pricing pressure
 
 **Bull:**
@@ -137,7 +137,7 @@ Non-vertically-integrated Android OEMs hurt most.
 |--------|-------|
 | Ticker | 1810 (HK), XIACY (ADR) |
 | Market cap | ~$60B |
-| HQ | Beijing, China |
+| HQ | Beijing, [[China]] |
 | Smartphone rank | #3 global |
 | Memory cost impact | +25% per phone (2026) |
 
@@ -152,4 +152,4 @@ Non-vertically-integrated Android OEMs hurt most.
 - [[Memory shortage 2025-2026]] — crisis (+25% DRAM cost)
 - [[Apple]] — competitor (premium absorbs cost)
 - [[Tesla]] — EV competitor (Xiaomi profitable faster)
-- [[BYD]] — China EV leader
+- [[BYD]] — [[China]] EV leader

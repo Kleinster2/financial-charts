@@ -8,9 +8,9 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 
 ## Current leaders (as of 2026-01-03)
 
-| Ticker | Company | 3M Performance | Why |
+| Ticker | Company | [[3M]] Performance | Why |
 |--------|---------|----------------|-----|
-| MU | [[Micron]] | +40%+ | Memory shortage, HBM demand |
+| MU | [[Micron]] | +40%+ | Memory shortage, [[HBM]] demand |
 | CRDO | [[Credo Semiconductor]] | +60%+ | AI networking, optical DSP |
 | NVDA | [[NVIDIA]] | +25%+ | Blackwell ramp, AI infrastructure |
 | AVGO | [[Broadcom]] | +30%+ | AI ASIC, VMware, $1T club |
@@ -36,7 +36,7 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 
 ---
 
-## Watchlist (potential additions)
+## [[Watchlist]] (potential additions)
 
 | Ticker | Company | Case |
 |--------|---------|------|
@@ -46,7 +46,7 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 
 ---
 
-## Watchlist (potential removals)
+## [[Watchlist]] (potential removals)
 
 | Ticker | Company | Risk |
 |--------|---------|------|
@@ -62,7 +62,7 @@ Rolling 3-month momentum leaders. Updated only when composition changes.
 - Tied to active thesis
 
 **Exclusion criteria:**
-- Momentum fades (3M return drops significantly)
+- Momentum fades ([[3M]] return drops significantly)
 - Thesis breaks
 - Position closed
 

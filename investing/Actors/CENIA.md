@@ -1,9 +1,9 @@
 ---
-aliases: [National Center for Artificial Intelligence Chile, Centro Nacional de Inteligencia Artificial]
+aliases: [National Center for Artificial Intelligence [[Chile]], Centro Nacional de Inteligencia Artificial]
 ---
 #actor #research #ai #chile #sovereign
 
-**CENIA** — Chile's National Center for Artificial Intelligence. Building **Latam-GPT**, a 50B parameter open-source LLM trained on regional data. First Latin American sovereign AI model. Plans solar-powered Atacama data center.
+**CENIA** — [[Chile]]'s National Center for Artificial Intelligence. Building **Latam-GPT**, a 50B parameter open-source LLM trained on regional data. First Latin American sovereign AI model. Plans solar-powered Atacama data center.
 
 > **Key insight:** Latam-GPT isn't trying to beat GPT-4 at general tasks. It's optimized for Latin American context—cultural nuances, regional Spanish/Portuguese, indigenous languages. The bet: a model trained on 8TB of regional data will outperform global models on LatAm-specific applications, from legal documents to customer service.
 
@@ -15,11 +15,11 @@ aliases: [National Center for Artificial Intelligence Chile, Centro Nacional de 
 |--------|-------|
 | Full name | Centro Nacional de Inteligencia Artificial (CENIA) |
 | Founded | 2021 |
-| Location | Santiago, Chile |
+| Location | Santiago, [[Chile]] |
 | Funding | Chilean government + partners |
 | Mission | AI research, Latam-GPT development |
 
-Chile ranked **#1 in Latin America** for AI regulation and institutional development (UNDP Atlas of AI, 2025).
+[[Chile]] ranked **#1 in Latin America** for [[AI regulation]] and institutional development (UNDP Atlas of AI, 2025).
 
 ---
 
@@ -63,7 +63,7 @@ Remarkably lean budget vs US AI labs spending billions.
 
 **Digital sovereignty argument:**
 
-Most LLMs are built in US, China, or Europe. They're trained on English-dominant datasets and miss:
+Most LLMs are built in US, [[China]], or [[Europe]]. They're trained on English-dominant datasets and miss:
 - Latin American Spanish/Portuguese variations
 - Regional cultural context
 - Indigenous languages
@@ -77,20 +77,20 @@ Most LLMs are built in US, China, or Europe. They're trained on English-dominant
 
 ## Infrastructure plans
 
-### Current: Amazon Cloud
+### Current: [[Amazon]] Cloud
 
 Temporary hosting on AWS during development phase.
 
 ### Future: Atacama solar data center
 
-Plans to migrate to a **solar-powered data center in Chile's Atacama Desert**—one of the sunniest places on Earth.
+Plans to migrate to a **solar-powered data center in [[Chile]]'s Atacama Desert**—one of the sunniest places on Earth.
 
 | Advantage | Benefit |
 |-----------|---------|
 | Solar power | Near-zero marginal energy cost |
-| Location | Chile's clean energy advantage |
+| Location | [[Chile]]'s clean energy advantage |
 | Sovereignty | Data stays in LatAm |
-| ESG | Carbon-neutral AI |
+| [[ESG]] | Carbon-neutral AI |
 
 ---
 
@@ -105,7 +105,7 @@ Plans to migrate to a **solar-powered data center in Chile's Atacama Desert**—
 | Development | [[CAF]], ECLAC |
 | Tech | Regional compute providers |
 
-Training distributed across facilities including University of Tarapacá (Chile) and cloud platforms.
+Training distributed across facilities including University of Tarapacá ([[Chile]]) and cloud platforms.
 
 ---
 
@@ -129,8 +129,8 @@ Referenced in WEF/McKinsey "Latin America in the Intelligent Age" report.
 |-------|------------|-------|-------------|
 | **Latam-GPT** | 50B | LatAm context | Yes |
 | GPT-4 | ~1.8T (rumored) | General | No |
-| Llama 3 | Up to 405B | General | Yes |
-| Claude | Undisclosed | General | No |
+| [[Llama]] 3 | Up to 405B | General | Yes |
+| [[Claude]] | Undisclosed | General | No |
 
 Latam-GPT competes on **specialization**, not scale.
 
@@ -145,7 +145,7 @@ Expected use cases:
 | Government | Citizen services in regional Spanish |
 | Legal | LatAm legal document analysis |
 | Education | Culturally relevant content |
-| Healthcare | Regional health information |
+| [[Healthcare]] | Regional health information |
 | Business | LatAm market intelligence |
 
 ---
@@ -167,7 +167,7 @@ Expected use cases:
 
 | Metric | Value |
 |--------|-------|
-| Location | Santiago, Chile |
+| Location | Santiago, [[Chile]] |
 | Founded | 2021 |
 | Latam-GPT parameters | 50B |
 | Training data | 8+ TB |
@@ -186,4 +186,4 @@ Expected use cases:
 - [[Santiago Data Hub]] — Chilean AI infrastructure
 - [[Brazil AI]] — Regional peer (separate initiatives)
 - [[OpenAI]] — Global comparison
-- [[Meta]] — Llama as open-source benchmark
+- [[Meta]] — [[Llama]] as open-source benchmark

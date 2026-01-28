@@ -27,7 +27,7 @@ OpenAI's robotics bet:
 - OpenAI led Series A2 (2023)
 - $23.5M round
 - Embodied AI focus
-- ChatGPT integration potential
+- [[ChatGPT]] integration potential
 
 OpenAI's direct robotics exposure.
 
@@ -38,7 +38,7 @@ OpenAI's direct robotics exposure.
 | Robot | Type | Use Case |
 |-------|------|----------|
 | EVE | Wheeled humanoid | Security, retail |
-| NEO | Bipedal humanoid | Home, consumer |
+| NEO | Bipedal humanoid | [[Home]], consumer |
 
 ---
 
@@ -71,7 +71,7 @@ OpenAI's direct robotics exposure.
 - US shipments: 2026
 - Global expansion: 2027
 
-**EQT deal (Dec 2025):** Up to 10,000 NEO robots to EQT's 300+ portfolio companies (2026-2030) for manufacturing, warehousing, logistics.
+**[[EQT]] deal (Dec 2025):** Up to 10,000 NEO robots to [[EQT]]'s 300+ portfolio companies (2026-2030) for manufacturing, warehousing, logistics.
 
 ---
 
@@ -90,7 +90,7 @@ OpenAI's direct robotics exposure.
 | Product | Model |
 |---------|-------|
 | EVE | Lease to enterprises |
-| NEO | Consumer sales (future) |
+| NEO | [[Consumer]] sales (future) |
 
 ---
 
@@ -111,12 +111,12 @@ OpenAI hedging with multiple robotics bets.
 **Bull:**
 - OpenAI strategic backing
 - EVE already commercial
-- Consumer humanoid vision
+- [[Consumer]] humanoid vision
 - Earlier stage = more upside
 
 **Bear:**
 - Smaller than Figure AI
-- Consumer robotics hard
+- [[Consumer]] robotics hard
 - Norwegian = less ecosystem
 - OpenAI backs Figure too
 
@@ -136,14 +136,14 @@ OpenAI hedging with multiple robotics bets.
 | Investor | Notes |
 |----------|-------|
 | [[OpenAI]] | Lead (Series A2) — strategic |
-| Tiger Global | Growth (Series B) |
-| Samsung Next | Strategic |
-| EQT Ventures | Nordic VC |
+| [[Tiger Global]] | Growth (Series B) |
+| [[Samsung]] Next | Strategic |
+| [[EQT]] Ventures | Nordic VC |
 | Skagerak Capital | Nordic VC |
 
 **Total raised:** $125M+
 
-**OpenAI relationship:** Strategic investor — potential ChatGPT integration for embodied AI.
+**OpenAI relationship:** Strategic investor — potential [[ChatGPT]] integration for embodied AI.
 
 ---
 

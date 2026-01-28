@@ -22,7 +22,7 @@
 | Policy rate | -0.1% | 0-0.1% |
 | YCC | Active | Ended |
 | ETF purchases | Ongoing | Ended |
-| JGB purchases | Unlimited | Reduced |
+| [[JGB]] purchases | Unlimited | Reduced |
 
 ---
 

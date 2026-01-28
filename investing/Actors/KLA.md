@@ -77,7 +77,7 @@ KLA's services are different from peers — cleaner, stickier:
 
 This is a recurring revenue annuity growing faster than equipment. ASPs up 150bps vs 2013 — pricing power.
 
-New tailwinds: HBM, advanced packaging driving service demand.
+New tailwinds: [[HBM]], advanced packaging driving service demand.
 
 ---
 
@@ -87,7 +87,7 @@ New tailwinds: HBM, advanced packaging driving service demand.
 |------------|-------|
 | Applied Materials | Growing inspection business |
 | Onto Innovation | Smaller, niche segments |
-| Hitachi | Japan, some overlap |
+| Hitachi | [[Japan]], some overlap |
 
 KLA dominates high-end inspection/metrology.
 

@@ -12,7 +12,7 @@ The designer of the iPhone is now designing AI's hardware future:
 |-----|------|---------|
 | Apple (1992-2019) | Chief Design Officer | iPhone, iPad, Mac, Apple Watch |
 | LoveFrom (2019-2025) | Founder | Design consultancy |
-| OpenAI (2025-) | Hardware lead (via io) | Screenless AI device |
+| OpenAI (2025-) | Hardware lead (via io) | [[Screenless AI]] device |
 
 ---
 
@@ -88,7 +88,7 @@ The designer of the iPhone is now designing AI's hardware future:
 **Altman's hardware bets:**
 | Venture | Focus | Ive role |
 |---------|-------|----------|
-| OpenAI device | Consumer AI | Lead designer |
+| OpenAI device | [[Consumer AI]] | Lead designer |
 | [[Oklo]] | Nuclear (fission) | None |
 | [[Helion Energy]] | Nuclear (fusion) | None |
 | Worldcoin | Biometric orbs | None |
@@ -97,7 +97,7 @@ The designer of the iPhone is now designing AI's hardware future:
 
 ## Risks / Considerations
 
-- AI hardware category unproven (Humane, Rabbit failed)
+- AI hardware category unproven ([[Humane]], Rabbit failed)
 - Screenless paradigm may not resonate
 - Apple could compete (Siri device?)
 - $6.4B is expensive for pre-product startup
@@ -109,7 +109,7 @@ The designer of the iPhone is now designing AI's hardware future:
 
 | Metric | Value |
 |--------|-------|
-| Born | 1967 (UK) |
+| Born | 1967 ([[UK]]) |
 | Apple tenure | 1992-2019 |
 | LoveFrom | 2019-2025 |
 | io acquisition | $6.4B (May 2025) |

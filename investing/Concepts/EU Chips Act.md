@@ -1,6 +1,6 @@
 #concept #policy #europe #semiconductor
 
-**EU Chips Act** — €43B European semiconductor initiative. Goal: 20% global chip production by 2030 (from ~10% today).
+**[[EU]] Chips Act** — €43B European semiconductor initiative. Goal: 20% global chip production by 2030 (from ~10% today).
 
 ---
 
@@ -14,7 +14,7 @@
 | Timeline | 2023-2030 |
 | Goal | 20% global production share |
 
-**Current EU share:** ~10% of global semiconductor production (down from 44% in 1990).
+**Current [[EU]] share:** ~10% of global semiconductor production (down from 44% in 1990).
 
 ---
 
@@ -32,13 +32,13 @@
 
 | Project | Company | Location | Investment | Nodes |
 |---------|---------|----------|------------|-------|
-| Dresden fab | [[Intel]] | Germany | €30B | Advanced |
-| Dresden expansion | [[TSMC]] + partners | Germany | €10B | 28/12nm |
-| Crolles expansion | [[STMicro]] + [[GlobalFoundries]] | France | €7.5B | FD-SOI |
+| Dresden fab | [[Intel]] | [[Germany]] | €30B | Advanced |
+| Dresden expansion | [[TSMC]] + partners | [[Germany]] | €10B | 28/12nm |
+| Crolles expansion | [[STMicro]] + [[GlobalFoundries]] | [[France]] | €7.5B | FD-SOI |
 | Catania SiC | [[STMicro]] | Italy | €2B | Silicon carbide |
-| Magdeburg | [[Intel]] | Germany | €30B | **On hold** |
+| Magdeburg | [[Intel]] | [[Germany]] | €30B | **On hold** |
 
-**Intel Magdeburg:** Originally flagship project, now paused due to Intel's financial struggles. Major setback for EU ambitions.
+**Intel Magdeburg:** Originally flagship project, now paused due to Intel's financial struggles. Major setback for [[EU]] ambitions.
 
 ---
 
@@ -46,8 +46,8 @@
 
 | Country | Program | Focus |
 |---------|---------|-------|
-| **Germany** | €20B+ subsidies | Intel, TSMC fabs |
-| **France** | France 2030 | STMicro, sovereignty |
+| **[[Germany]]** | €20B+ subsidies | Intel, TSMC fabs |
+| **[[France]]** | [[France]] 2030 | STMicro, sovereignty |
 | **Netherlands** | Brainport | ASML ecosystem |
 | **Italy** | €4B+ | STMicro SiC |
 
@@ -57,10 +57,10 @@
 
 | Driver | Concern |
 |--------|---------|
-| **Supply chain** | COVID shortages, Taiwan risk |
-| **Automotive** | EU autos need chips, China EV threat |
-| **Sovereignty** | Reduce US/Asia dependence |
-| **Defense** | Strategic autonomy |
+| **Supply chain** | COVID shortages, [[Taiwan]] risk |
+| **[[Automotive]]** | [[EU]] autos need chips, [[China]] EV threat |
+| **Sovereignty** | Reduce US/[[Asia]] dependence |
+| **[[Defense]]** | Strategic autonomy |
 
 ---
 
@@ -69,9 +69,9 @@
 | Challenge | Impact |
 |-----------|--------|
 | Intel delays | Magdeburg on hold, credibility hit |
-| Scale vs Asia | EU fabs still smaller than TSMC/Samsung |
+| Scale vs [[Asia]] | [[EU]] fabs still smaller than TSMC/[[Samsung]] |
 | Talent shortage | Not enough engineers |
-| Energy costs | Higher than Asia/US |
+| Energy costs | Higher than [[Asia]]/US |
 | Fragmentation | 27 countries, coordination issues |
 | Leading edge | No EUV fabs planned (only ASML makes equipment) |
 
@@ -96,11 +96,11 @@
 
 | Program | Size | Focus |
 |---------|------|-------|
-| **US CHIPS Act** | $52B | Leading edge, national security |
-| **EU Chips Act** | €43B | Automotive, sovereignty |
-| **Japan** | $13B+ | Rapidus 2nm, TSMC fab |
-| **Korea** | $450B (private) | Samsung, SK Hynix expansion |
-| **China** | $150B+ | Self-sufficiency |
+| **US [[CHIPS Act]]** | $52B | Leading edge, national security |
+| **[[EU]] Chips Act** | €43B | [[Automotive]], sovereignty |
+| **[[Japan]]** | $13B+ | [[Rapidus]] 2nm, TSMC fab |
+| **Korea** | $450B (private) | [[Samsung]], [[SK Hynix]] expansion |
+| **[[China]]** | $150B+ | Self-sufficiency |
 
 ---
 

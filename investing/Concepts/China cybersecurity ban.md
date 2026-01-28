@@ -27,10 +27,10 @@ aliases: [China cybersecurity software ban, Beijing cybersecurity ban]
 | [[Palo Alto Networks]] | Platform | Unknown |
 | [[CrowdStrike]] | Endpoint | "Negligible" — no China operations |
 | VMware | Virtualization | — |
-| Fortinet | Firewall | — |
-| Mandiant (Google) | Threat intel | — |
+| [[Fortinet]] | Firewall | — |
+| Mandiant ([[Google]]) | Threat intel | — |
 | SentinelOne | Endpoint | "No direct revenue exposure" |
-| McAfee | Consumer/enterprise | — |
+| McAfee | [[Consumer]]/enterprise | — |
 | Recorded Future | Threat intel | "No business in China" |
 | Claroty | OT security | — |
 | Rapid7 | Vulnerability mgmt | — |
@@ -46,7 +46,7 @@ aliases: [China cybersecurity software ban, Beijing cybersecurity ban]
 | CyberArk | Identity security |
 | Orca Security | Cloud security |
 | Cato Networks | SASE |
-| Imperva (Thales) | Application security |
+| Imperva ([[Thales]]) | Application security |
 
 **Timing:** Ban announced days after Chinese envoy Zhai Jun visited Israel (Jan 2026).
 
@@ -66,7 +66,7 @@ aliases: [China cybersecurity software ban, Beijing cybersecurity ban]
 
 **Part of broader tech decoupling:**
 - Follows [[Export controls]] on semiconductors
-- Responds to US bans on Chinese tech (Huawei, TikTok)
+- Responds to US bans on Chinese tech ([[Huawei]], [[TikTok]])
 - Parallels Kaspersky removal from US government systems (2017-2024)
 
 **Domestic beneficiaries:**

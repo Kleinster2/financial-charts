@@ -3,7 +3,7 @@ aliases: [Transformer architecture, Attention mechanism, Self-attention]
 ---
 #concept #ai #architecture
 
-**Transformer** — The architecture behind all modern AI. Introduced in "Attention Is All You Need" (Google, 2017). Foundation of GPT, BERT, Claude, Gemini, Llama — everything. **173,000+ citations** (top 10 most-cited papers of 21st century).
+**Transformer** — The architecture behind all modern AI. Introduced in "Attention Is All You Need" ([[Google]], 2017). Foundation of GPT, BERT, Claude, Gemini, Llama — everything. **173,000+ citations** (top 10 most-cited papers of 21st century).
 
 ---
 
@@ -28,7 +28,7 @@ aliases: [Transformer architecture, Attention mechanism, Self-attention]
 | Detail | Value |
 |--------|-------|
 | Published | June 12, 2017 |
-| Institution | Google Brain / Google Research |
+| Institution | [[Google]] Brain / [[Google]] Research |
 | Training time | 12 hours (base), 3.5 days (big) |
 | Original task | Machine translation |
 | BLEU score | 28.4 (English→German, SOTA) |
@@ -38,12 +38,12 @@ aliases: [Transformer architecture, Attention mechanism, Self-attention]
 | Name | Notable later role |
 |------|-------------------|
 | Ashish Vaswani | Essential AI (co-founder) |
-| Noam Shazeer | Character.AI (co-founder) |
+| [[Noam Shazeer]] | [[Character.AI]] (co-founder) |
 | Niki Parmar | Essential AI (co-founder) |
 | Jakob Uszkoreit | Inceptive (co-founder) |
-| Llion Jones | Sakana AI (co-founder) |
-| Aidan Gomez | Cohere (co-founder) |
-| Łukasz Kaiser | OpenAI |
+| Llion Jones | [[Sakana AI]] (co-founder) |
+| [[Aidan Gomez]] | [[Cohere]] (co-founder) |
+| Łukasz Kaiser | [[OpenAI]] |
 | Illia Polosukhin | NEAR Protocol (co-founder) |
 
 **8 authors → 6+ billion-dollar companies.** The paper's alumni network is extraordinary.
@@ -152,10 +152,10 @@ This enabled the "just make it bigger" strategy that produced GPT-3, GPT-4, etc.
 - Foundation of every AI company's core technology
 
 **Author alumni:**
-- Character.AI (Shazeer) — $1B+ valuation
-- Cohere (Gomez) — $5.5B valuation
+- [[Character.AI]] (Shazeer) — $1B+ valuation
+- [[Cohere]] (Gomez) — $5.5B valuation
 - Essential AI (Vaswani, Parmar) — $800M+ valuation
-- Sakana AI (Jones) — $200M+ valuation
+- [[Sakana AI]] (Jones) — $200M+ valuation
 
 ---
 

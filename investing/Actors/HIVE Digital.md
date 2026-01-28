@@ -45,7 +45,7 @@ Investing directly in NVIDIA GPUs for AI:
 
 ## Hybrid model
 
-**Crypto + AI:**
+**[[Crypto]] + AI:**
 - Bitcoin mining continues
 - AI cloud services growing
 - GPU fleet expansion
@@ -57,10 +57,10 @@ Investing directly in NVIDIA GPUs for AI:
 
 | Company | Approach | GPU ownership |
 |---------|----------|---------------|
-| [[IREN]] | Microsoft hosting | Customer GPUs |
+| [[IREN]] | [[Microsoft]] hosting | Customer GPUs |
 | [[Hut 8]] | Fluidstack hosting | 1,000+ owned |
 | **HIVE** | Direct ownership | $30M investment |
-| [[Core Scientific]] | CoreWeave hosting | Customer GPUs |
+| [[Core Scientific]] | [[CoreWeave]] hosting | Customer GPUs |
 
 HIVE = more direct GPU exposure.
 
@@ -89,7 +89,7 @@ HIVE = more direct GPU exposure.
 | Ticker | HIVE |
 | GPU investment | $30M |
 | AI revenue (FY25) | $10.1M |
-| Target (2026) | $100M |
+| [[Target]] (2026) | $100M |
 
 *Updated 2026-01-01*
 

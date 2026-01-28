@@ -3,7 +3,7 @@ aliases: [Huawei Ascend, Ascend AI]
 ---
 #actor #ai #chips #china
 
-**Ascend** — [[Huawei]]'s AI chip line. China's leading domestic alternative to NVIDIA. Key to China's AI self-sufficiency.
+**Ascend** — [[Huawei]]'s AI chip line. [[China]]'s leading domestic alternative to NVIDIA. Key to [[China]]'s AI self-sufficiency.
 
 ---
 
@@ -11,16 +11,16 @@ aliases: [Huawei Ascend, Ascend AI]
 
 | Factor | Description |
 |--------|-------------|
-| China AI independence | Reduces NVIDIA dependence |
+| [[China]] AI independence | Reduces NVIDIA dependence |
 | Sanctions bypass | Domestically produced |
 | Scale | Major Chinese cloud/AI adoption |
-| Geopolitics | US-China tech competition |
+| Geopolitics | US-[[China]] tech competition |
 
 ---
 
 ## Product line
 
-| Chip | Specs | Target |
+| Chip | Specs | [[Target]] |
 |------|-------|--------|
 | Ascend 910B | ~NVIDIA A100 class | Training |
 | Ascend 910C | Next-gen (2024+) | Training |
@@ -37,7 +37,7 @@ aliases: [Huawei Ascend, Ascend AI]
 | CANN | Huawei's CUDA alternative |
 | MindSpore | ML framework |
 | Cloud | Huawei Cloud integration |
-| Customers | Baidu, Alibaba, Tencent testing |
+| Customers | [[Baidu]], [[Alibaba]], [[Tencent]] testing |
 
 **Challenge:** CUDA ecosystem dominance hard to replicate.
 
@@ -48,7 +48,7 @@ aliases: [Huawei Ascend, Ascend AI]
 | Factor | Status |
 |--------|--------|
 | Fab | [[SMIC]] 7nm (sanctioned) |
-| Yield | Lower than TSMC |
+| Yield | Lower than [[TSMC]] |
 | Volume | Ramping but constrained |
 | Packaging | Domestic ([[ASE]] alternatives) |
 
@@ -81,5 +81,5 @@ aliases: [Huawei Ascend, Ascend AI]
 - [[SMIC]] — manufacturing partner
 - [[NVIDIA]] — global competitor
 - [[Export controls]] — why Ascend exists
-- [[Kunlunxin]], [[Biren Tech]], [[Enflame]] — other China AI chips
+- [[Kunlunxin]], [[Biren Tech]], [[Enflame]] — other [[China]] AI chips
 

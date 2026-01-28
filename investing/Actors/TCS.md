@@ -3,7 +3,7 @@ aliases: [Tata Consultancy Services]
 ---
 #actor #tech #services #india #public
 
-**TCS** — Tata Consultancy Services. India's largest IT services company.
+**TCS** — Tata Consultancy Services. [[India]]'s largest IT services company.
 
 ---
 
@@ -26,9 +26,9 @@ Largest IT services company globally by market cap.
 |---------|-------------|
 | **Banking/Finance** | ~30% revenue |
 | **Retail** | ~15% revenue |
-| **Telecom** | ~10% revenue |
+| **[[Telecom]]** | ~10% revenue |
 | **Manufacturing** | ~10% revenue |
-| **Other** | Healthcare, energy, etc. |
+| **Other** | [[Healthcare]], energy, etc. |
 
 ---
 

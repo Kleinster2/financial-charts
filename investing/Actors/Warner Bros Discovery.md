@@ -3,7 +3,7 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 ---
 #actor #media #streaming #usa #public
 
-**Warner Bros Discovery** — Media conglomerate. Max streaming (117M subs). Studios + linear. Exploring sale/spinoff.
+**Warner Bros Discovery** — [[Media]] conglomerate. Max streaming (117M subs). Studios + linear. Exploring sale/spinoff.
 
 ---
 
@@ -70,7 +70,7 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 | Internal split | Warner Bros vs Discovery Global |
 | Formal separation | Expected mid-2026 |
 | Sale evaluation | Ongoing |
-| Potential suitors | Netflix, Paramount, Apple, Amazon |
+| Potential suitors | Netflix, Paramount, [[Apple]], [[Amazon]] |
 
 ---
 
@@ -97,7 +97,7 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 - Linear networks declining (-17% ad revenue)
 - Heavy debt load
 - Box office weakness
-- Cord-cutting accelerating
+- [[Cord-cutting]] accelerating
 - Execution risk on restructuring
 
 ---

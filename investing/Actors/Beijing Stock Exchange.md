@@ -21,11 +21,11 @@ China's newest exchange, launched 2021. SME and "specialized, refined, different
 ## Strategic purpose
 
 Created to:
-- Support SME financing (underserved by Shanghai/Shenzhen)
+- Support SME financing (underserved by Shanghai/[[Shenzhen]])
 - Incubate innovative smaller companies
 - Provide pathway to larger exchanges
 
-Lower listing thresholds than Shanghai/Shenzhen main boards.
+Lower listing thresholds than Shanghai/[[Shenzhen]] main boards.
 
 ---
 

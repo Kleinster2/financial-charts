@@ -98,7 +98,7 @@ The paper showed this mathematically using dynamic programming — optimal polic
 | **Volcker disinflation** | Commitment + pain → restored credibility |
 | **1990s Great Moderation** | Independent CBs with targets → stable inflation |
 | **Turkey 2018-2023** | Politicized CB → hyperinflation (see [[Fed independence]]) |
-| **UK mini-budget 2022** | Fiscal credibility loss → instant bond vigilante response |
+| **[[UK]] mini-budget 2022** | Fiscal credibility loss → instant bond vigilante response |
 
 ---
 
@@ -163,7 +163,7 @@ The cleanest K-P "controlled experiment" — same country that succeeded with Pl
 
 | Element | Detail |
 |---------|--------|
-| **Mechanism** | Replaced entire CB board (2011); adopted "New Economic Matrix" prioritizing low rates over inflation target |
+| **Mechanism** | Replaced entire CB board (2011); adopted "New Economic [[Matrix]]" prioritizing low rates over inflation target |
 | **Policy** | Cut Selic from 12.25% → 7.25% despite above-target inflation expectations |
 | **Taylor Rule** | Systematic deviations accumulated 2011-2014; rates held below model-predicted levels |
 | **Price controls** | Suppressed electricity/fuel prices, hiding true inflation, creating fiscal time bomb |
@@ -202,7 +202,7 @@ The 1977 paper transformed central banking worldwide. Few academic papers have h
 
 ### Central bank independence
 
-Kenneth Rogoff (1985) extended K-P: appoint a central banker **more hawkish than society** — someone who genuinely hates inflation more than the median voter. The "conservative banker" solves time consistency because they won't want to inflate.
+[[Kenneth Rogoff]] (1985) extended K-P: appoint a central banker **more hawkish than society** — someone who genuinely hates inflation more than the median voter. The "conservative banker" solves time consistency because they won't want to inflate.
 
 | Institution | Reform | K-P mechanism |
 |-------------|--------|---------------|
@@ -218,8 +218,8 @@ Kenneth Rogoff (1985) extended K-P: appoint a central banker **more hawkish than
 | Country | Year adopted | Pre-reform avg inflation | Post-reform avg |
 |---------|--------------|-------------------------|-----------------|
 | New Zealand | 1990 | 11.7% (1980s) | 2.3% (1990s) |
-| Canada | 1991 | 6.5% (1980s) | 1.9% (1990s) |
-| UK | 1992 | 6.5% (1980s) | 2.7% (1990s) |
+| [[Canada]] | 1991 | 6.5% (1980s) | 1.9% (1990s) |
+| [[UK]] | 1992 | 6.5% (1980s) | 2.7% (1990s) |
 | Sweden | 1993 | 7.4% (1980s) | 1.5% (1990s) |
 | US (formal) | 2012 | 5.2% (1965-89) | 2.0% (1990-2012) |
 
@@ -231,7 +231,7 @@ Modern Fed communication — dots, projections, meeting minutes, press conferenc
 
 | Tool | K-P function |
 |------|--------------|
-| FOMC dots | Signal rate path, anchor expectations |
+| FOMC dots | [[Signal]] rate path, anchor expectations |
 | Forward guidance language | "Considerable time," "patient" = commitment |
 | Press conferences | Chair explains reaction function |
 | Meeting minutes | Transparency constrains discretion |
@@ -269,7 +269,7 @@ Modern Fed communication — dots, projections, meeting minutes, press conferenc
 - [[UK mini-budget crisis 2022]] — credibility collapse example
 
 ### Violation case studies
-- [[Brazil]] — Dilma's "New Economic Matrix" (2011-16), cleanest controlled experiment
+- [[Brazil]] — Dilma's "New Economic [[Matrix]]" (2011-16), cleanest controlled experiment
 - [[Argentina]] — repeated CB interference, 290% inflation (2024)
 - [[Venezuela]] — fiscal monetization, hyperinflation
 - [[Turkey]] — Erdogan fired 4 governors, 85% inflation
@@ -280,7 +280,7 @@ Modern Fed communication — dots, projections, meeting minutes, press conferenc
 ## Sources
 
 - Kydland, F. & Prescott, E. (1977). "Rules Rather Than Discretion: The Inconsistency of Optimal Plans." *Journal of Political Economy*.
-- Rogoff, K. (1985). "The Optimal Degree of Commitment to an Intermediate Monetary Target." *Quarterly Journal of Economics*.
+- Rogoff, K. (1985). "The Optimal Degree of Commitment to an Intermediate Monetary [[Target]]." *Quarterly Journal of Economics*.
 - [Nobel Prize announcement](https://www.nobelprize.org/prizes/economic-sciences/2004/press-release/)
 - [Nobel Prize scientific background](https://www.nobelprize.org/uploads/2018/06/advanced-economicsciences2004.pdf)
 - [SF Fed: Time-Inconsistent Monetary Policies](https://www.frbsf.org/economic-research/publications/economic-letter/2003/april/time-inconsistent-monetary-policies-recent-research/)
@@ -291,6 +291,6 @@ Modern Fed communication — dots, projections, meeting minutes, press conferenc
 - [Econofact: Erosion of Central Bank Independence](https://econofact.org/the-erosion-of-central-bank-independence)
 - [ScienceDirect: Deconstructing Credibility — Breaking Monetary Policy Rules in Brazil](https://www.sciencedirect.com/science/article/abs/pii/S0261560617300542)
 - [Phenomenal World: Political Economy of Brazilian Inflation](https://www.phenomenalworld.org/analysis/the-political-economy-of-brazilian-inflation/)
-- [IDB: What Brazil Can Teach About Fighting Inflation](https://blogs.iadb.org/ideas-matter/en/what-brazil-can-teach-about-fighting-inflation/)
+- [[[IDB]]: What Brazil Can Teach About Fighting Inflation](https://blogs.iadb.org/ideas-matter/en/what-brazil-can-teach-about-fighting-inflation/)
 
 *Created 2026-01-19*

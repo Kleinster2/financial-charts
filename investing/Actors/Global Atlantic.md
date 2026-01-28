@@ -23,12 +23,12 @@ aliases: [Global Atlantic Financial Group, GAFG]
 
 ## History
 
-**Founded 2004** as a subsidiary of Goldman Sachs, focused on retirement and life insurance.
+**Founded 2004** as a subsidiary of [[Goldman Sachs]], focused on retirement and life insurance.
 
 **Key timeline:**
 | Date | Event |
 |------|-------|
-| 2004 | Founded within Goldman Sachs |
+| 2004 | Founded within [[Goldman Sachs]] |
 | 2013 | Goldman sold to management/investors |
 | Jul 2020 | KKR announced acquisition |
 | Feb 2021 | KKR closed initial 63% stake (~$4.7B, added ~$90B AUM) |
@@ -45,16 +45,16 @@ Same playbook as [[Athene]] for [[Apollo]]:
 3. Spread between investment returns and liability cost = earnings
 4. No fundraising cycles, no redemptions — permanent capital
 
-**KKR's math:** Insurance assets provide stable, fee-rich capital base. KKR grew to $1.3T AUM (Jan 2026) with record $220B new capital raised in 2025, significantly driven by insurance inflows.
+**KKR's math:** [[Insurance]] assets provide stable, fee-rich capital base. KKR grew to $1.3T AUM (Jan 2026) with record $220B new capital raised in 2025, significantly driven by insurance inflows.
 
 ---
 
-## Japan expansion (2025)
+## [[Japan]] expansion (2025)
 
-Japan Post Insurance invested $2B into a co-investment vehicle managed by Global Atlantic:
-- Japan Post owns majority stake in the entity
+[[Japan]] Post [[Insurance]] invested $2B into a co-investment vehicle managed by Global Atlantic:
+- [[Japan]] Post owns majority stake in the entity
 - Invests across all Global Atlantic businesses (annuities, life, reinsurance)
-- Part of broader KKR/Apollo push into Japan's $5.8T life insurance savings pool
+- Part of broader KKR/Apollo push into [[Japan]]'s $5.8T life insurance savings pool
 
 See [[Reinsurance sidecars]] for the sidecar structure enabling this.
 
@@ -65,9 +65,9 @@ See [[Reinsurance sidecars]] for the sidecar structure enabling this.
 | Platform | Sponsor | Total assets | Key differentiator |
 |----------|---------|-------------|-------------------|
 | [[Athene]] | [[Apollo]] | $430B | Pioneer, largest, ACRA sidecar |
-| **Global Atlantic** | [[KKR]] | >$200B | Goldman heritage, Japan expansion |
+| **Global Atlantic** | [[KKR]] | >$200B | Goldman heritage, [[Japan]] expansion |
 | [[F&G Annuities]] | [[Blackstone]] | $71B | Capital-light fee model |
-| [[Fortitude Re]] | [[Carlyle Group]] | $106B | Asia sidecar (FCA Re), reinsurance focus |
+| [[Fortitude Re]] | [[Carlyle Group]] | $106B | [[Asia]] sidecar (FCA Re), reinsurance focus |
 | [[American Equity]] | [[Brookfield]] | $130B | Fixed indexed annuities, Iowa HQ |
 
 ---

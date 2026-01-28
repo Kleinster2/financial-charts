@@ -24,7 +24,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | Network | Owner | Ticker | Position |
 |---------|-------|--------|----------|
 | **Fox News** | [[Fox Corporation]] | FOX | #1 cable news (23 years) |
-| **MS NOW** (fka MSNBC) | Versant (Comcast spinoff) | TBD | #2, left-leaning |
+| **MS NOW** (fka MSNBC) | [[Versant]] (Comcast spinoff) | TBD | #2, left-leaning |
 | **CNN** | [[Warner Bros Discovery]] | WBD | #3, struggling |
 
 ### Ratings (2024-25 average)
@@ -47,7 +47,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | **Face the Nation** | Sunday politics (Margaret Brennan) |
 | **48 Hours** | Crime/investigation |
 | **CBS News 24/7** | Streaming news channel |
-| **[[The Free Press]]** | Acquired 2025, Substack newsletter |
+| **[[The Free Press]]** | Acquired 2025, [[Substack]] newsletter |
 
 **Leadership change (2025):** [[Bari Weiss]] named editor-in-chief of CBS News after Paramount/Skydance acquired her publication [[The Free Press]] for $150M.
 
@@ -119,7 +119,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | Detail | Value |
 |--------|-------|
 | Rebrand date | **November 15, 2025** |
-| Reason | Comcast cable spinoff (Versant) |
+| Reason | Comcast cable spinoff ([[Versant]]) |
 | New name meaning | "My Source [for] News, Opinion, [and the] World" |
 | New HQ | 229 West 43rd Street (ex-NY Times building) |
 
@@ -130,7 +130,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | **The Last Word** | Lawrence O'Donnell |
 | **All In** | Chris Hayes |
 
-**Rebrand rationale:** Remove NBC branding ahead of Versant spinoff. Campaign: "Same mission. New name." ($20M ad spend).
+**Rebrand rationale:** Remove NBC branding ahead of [[Versant]] spinoff. Campaign: "Same mission. New name." ($20M ad spend).
 
 **DTC plans:** Launching streaming service in 2026 as "digital hub for progressives."
 
@@ -145,7 +145,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | **Prestige** | News = brand credibility for networks |
 | **Profitability** | Mixed (Fox News very profitable, CNN struggles) |
 | **Political cycles** | Election years boost ratings/revenue |
-| **Cord-cutting** | Cable news hit harder than broadcast |
+| **[[Cord-cutting]]** | Cable news hit harder than broadcast |
 | **Streaming** | All launching free streaming news |
 
 ---
@@ -196,7 +196,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 | Angle | Detail |
 |-------|--------|
 | **[[Fox Corporation]]** | Fox News = cash cow, majority of profit |
-| **[[Comcast]]/Versant** | NBC News stays with Comcast; MS NOW goes to Versant spinoff |
+| **[[Comcast]]/[[Versant]]** | NBC News stays with Comcast; MS NOW goes to [[Versant]] spinoff |
 | **[[Warner Bros Discovery]]** | CNN = problem child, restructuring |
 | **[[Paramount Global]]** | CBS News = prestige, 60 Minutes valuable |
 | **Election years** | 2024, 2028 = ratings/ad boosts |

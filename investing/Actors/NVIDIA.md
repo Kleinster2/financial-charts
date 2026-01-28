@@ -7,7 +7,7 @@ aliases: [NVDA]
 
 ---
 
-## 2025 milestone (Gartner, Jan 2026)
+## 2025 milestone ([[Gartner]], Jan 2026)
 
 | Metric | Value |
 |--------|-------|
@@ -15,7 +15,7 @@ aliases: [NVDA]
 | Lead over Samsung | **+$53B** |
 | AI semi market share | Dominant |
 
-NVIDIA now larger than Samsung Semiconductor by $53B — unprecedented dominance.
+NVIDIA now larger than [[Samsung Semiconductor]] by $53B — unprecedented dominance.
 
 **Context:** Total 2025 semiconductor industry = $793B (+21% YoY). AI chips = ~1/3 of total. NVIDIA captures majority of AI semi spend.
 
@@ -76,17 +76,17 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 | [[TSMC]] | Primary — locks capacity at leading edge |
 | [[Samsung]] | Secondary — some legacy nodes |
 
-NVIDIA + Apple locking [[TSMC]] 2nm capacity forces [[AMD]] and others to alternatives.
+NVIDIA + [[Apple]] locking [[TSMC]] 2nm capacity forces [[AMD]] and others to alternatives.
 
 ---
 
 ## Competitive position
 
-| Competitor | Threat level | Notes |
-|------------|--------------|-------|
-| [[AMD]] | Rising | NodAI acquisition, software improving |
-| Intel | Low | Far behind on AI accelerators |
-| Custom silicon (Google TPU, Amazon) | Medium | Hyperscalers building own chips |
+| Competitor                          | Threat level | Notes                                 |
+| ----------------------------------- | ------------ | ------------------------------------- |
+| [[AMD]]                             | Rising       | NodAI acquisition, software improving |
+| [[Intel]]                           | Low          | Far behind on AI accelerators         |
+| Custom silicon ([[Google]] TPU, [[Amazon]]) | Medium       | Hyperscalers building own chips       |
 
 ---
 
@@ -105,13 +105,13 @@ Pattern: buying "neutral" infrastructure + potential competitors, raising switch
 
 ---
 
-## China market dynamics
+## [[China]] market dynamics
 
 See [[Export controls]] for full context.
 
-**Before controls:** 95% China AI chip share
+**Before controls:** 95% [[China]] AI chip share
 **After controls:** ~0% (tight restrictions)
-**H200 approved (Jan 14, 2026):** Section 232 proclamation formalizes "managed access" framework. NVIDIA can sell H200 to China with conditions.
+**H200 approved (Jan 14, 2026):** Section 232 proclamation formalizes "managed access" framework. NVIDIA can sell H200 to [[China]] with conditions.
 
 **Section 232 tariff (Jan 14, 2026):**
 
@@ -123,14 +123,14 @@ See [[Export controls]] for full context.
 | Named future chips | Rubin R100 (3nm/HBM4), AMD MI455X |
 | Exemptions | US data centers, R&D, startups, public sector |
 
-**China sales conditions:**
+**[[China]] sales conditions:**
 
 | Requirement | Detail |
 |-------------|--------|
 | Framework | "Managed access" (replaces "presumption of denial") |
 | **Volume cap** | **≤50% of US domestic sales** |
 | Verification | Every shipment → US third-party lab |
-| Routing | Taiwan → US → China (detour required) |
+| Routing | [[Taiwan]] → US → [[China]] (detour required) |
 | **First shipment** | **82,000 H200 GPUs, mid-February 2026** |
 | Tariff bearer | NVIDIA (can pass to Chinese buyers) |
 
@@ -138,9 +138,9 @@ See [[Export controls]] for full context.
 
 **Escalation risk:** Tariff could rise to 100% if domestic manufacturing milestones not met. Phase 3 (Jun 2027) folds in legacy chips.
 
-**China response:** Global Times dismissed as "discriminatory" — targeted specifically at China vs other trading partners.
+**[[China]] response:** Global Times dismissed as "discriminatory" — targeted specifically at [[China]] vs other trading partners.
 
-**Jan 14, 2026 — China blocks H200:**
+**Jan 14, 2026 — [[China]] blocks H200:**
 
 | Development | Detail |
 |-------------|--------|
@@ -149,7 +149,7 @@ See [[Export controls]] for full context.
 | Exceptions | "Special circumstances" only — university R&D labs |
 | Source quote | "Wording so severe that it is basically a ban for now" |
 
-**Strategic logic:** Beijing needs domestic chip demand to fund Huawei Ascend development. H200 was allowed initially because Ascend threatens "dominance of American tech stack" — now blocking it to force reliance on Chinese alternatives.
+**Strategic logic:** Beijing needs domestic chip demand to fund Huawei [[Ascend]] development. H200 was allowed initially because [[Ascend]] threatens "dominance of American tech stack" — now blocking it to force reliance on Chinese alternatives.
 
 **US strategic calculus:**
 - H200 is "previous gen" — B200 (Blackwell) is 3.1x faster
@@ -161,18 +161,18 @@ See [[Export controls]] for full context.
 **Chinese competition:**
 - Huawei 910C: 76% of H200 compute, 2/3 memory bandwidth
 - Huawei CloudMatrix 384 performs as well as NVL72 (Blackwell)
-- US estimates Huawei can make millions of Ascend 910C in 2026 (vs 200K in 2025)
+- US estimates Huawei can make millions of [[Ascend]] 910C in 2026 (vs 200K in 2025)
 - Cambricon, Hygon even further behind
 - Even "outdated" H200 beats all Chinese alternatives
 
-**Jan 23, 2026 — Jensen Huang planning China visit:**
+**Jan 23, 2026 — Jensen Huang planning [[China]] visit:**
 
-Jensen Huang plans to visit China in coming days ahead of mid-February Lunar New Year. Context:
+Jensen Huang plans to visit [[China]] in coming days ahead of mid-February Lunar New Year. Context:
 - Reports that Chinese officials told major tech firms to "begin preparing orders" for H200
 - First H200 shipment expected mid-February (82K GPUs) — timing aligns with visit
 - Chinese regulators haven't officially approved H200 imports on their side
 - Unclear whether Beijing's Jan 14 "effective ban" directive has softened
-- Stock +1.6% on Jan 23 on the China order preparation reports
+- Stock +1.6% on Jan 23 on the [[China]] order preparation reports
 
 *Source: CNBC, Jan 23 2026*
 
@@ -194,19 +194,19 @@ Jensen Huang plans to visit China in coming days ahead of mid-February Lunar New
 **Demand side — Neocloud financing:**
 NVIDIA finances GPU buyers who absorb inventory when needed:
 
-| Company | NVIDIA role | Microsoft ties |
+| Company | NVIDIA role | [[Microsoft]] ties |
 |---------|-------------|----------------|
 | [[CoreWeave]] | Investor, priority allocation | 65% revenue from MSFT |
 | [[Lambda Labs]] | Financing involved | — |
-| IREN | Deal facilitation | Microsoft ties |
-| Nebius | Deal facilitation | Microsoft ties |
-| [[Scale AI]] | — | Microsoft ties |
+| [[IREN]] | Deal facilitation | [[Microsoft]] ties |
+| [[Nebius]] | Deal facilitation | [[Microsoft]] ties |
+| [[Scale AI]] | — | [[Microsoft]] ties |
 
 **The phone call model:** "Take the chips now — I'll assign you clients later."
 
 **Evidence of idle inventory:**
 - Satya (Nov 2025): "chips sitting in inventory that I can't plug in"
-- Elon Musk: "racks of GPUs waiting for datacenters to be built"
+- [[Elon Musk]]: "racks of GPUs waiting for datacenters to be built"
 
 **The question:** Are neoclouds real businesses or NVIDIA inventory management vehicles?
 
@@ -214,26 +214,26 @@ See [[Neocloud financing]] for full analysis.
 
 ---
 
-## Gray market China revenue
+## Gray market [[China]] revenue
 
-**The reality:** NVIDIA's "zero China forecast" is public narrative, but Chinese companies are major buyers — this is **current tailwind, future risk**.
+**The reality:** NVIDIA's "zero [[China]] forecast" is public narrative, but Chinese companies are major buyers — this is **current tailwind, future risk**.
 
-**Chinese customers are huge (2024 Hopper shipments, Omdia):**
+**Chinese customers are huge (2024 Hopper shipments, [[Omdia]]):**
 
 | Customer | GPUs (000s) | Notes |
 |----------|-------------|-------|
-| Microsoft | ~485K | #1 overall |
+| [[Microsoft]] | ~485K | #1 overall |
 | **ByteDance** | **~250K** | #2 overall, Chinese |
 | **Tencent** | **~220K** | #3 overall, Chinese |
 | Meta | ~200K | |
-| Tesla/xAI | ~170K | |
-| Amazon | ~130K | |
-| Google | ~100K | |
+| [[Tesla]]/[[xAI]] | ~170K | |
+| [[Amazon]] | ~130K | |
+| [[Google]] | ~100K | |
 
-**ByteDance + Tencent = ~470K Hopper GPUs in 2024** — nearly as much as Microsoft, despite "export controls."
+**ByteDance + Tencent = ~470K Hopper GPUs in 2024** — nearly as much as [[Microsoft]], despite "export controls."
 
 **Jensen quotes (Dec 2025 Bloomberg interview):**
-- "Our forecast for China is zero. All of our guidance starts at zero."
+- "Our forecast for [[China]] is zero. All of our guidance starts at zero."
 - "The Chinese market is very large this year. My guess is probably about $50 billion."
 
 **SEA chip flows (Jan-Oct 2025):**
@@ -252,7 +252,7 @@ See [[Neocloud financing]] for full analysis.
 |------|----------------|
 | **Bull** | Extra ~15-20% revenue; if legalized, converts to clean sales |
 | **Bear** | Revenue NVIDIA can't acknowledge; could vanish if crackdown succeeds |
-| **Neutral** | Legal China sales wouldn't *increase* revenue — just relabel it |
+| **Neutral** | Legal [[China]] sales wouldn't *increase* revenue — just relabel it |
 
 **The "zero forecast" game:** Creates upside surprise optics for investors when gray market revenue is already baked in.
 
@@ -262,7 +262,7 @@ See [[Neocloud financing]] for full analysis.
 - Accounting opacity (geographic reporting changed twice in <1 year)
 - Investor trust risk if it becomes scandal
 
-**Post-DeepSeek shift:** Chinese firms now building DCs directly in SEA instead of smuggling to mainland — dozens of data centers across Malaysia, Thailand, Indonesia. Chips stay "in SEA" technically.
+**Post-[[DeepSeek]] shift:** Chinese firms now building DCs directly in SEA instead of smuggling to mainland — dozens of data centers across Malaysia, Thailand, Indonesia. Chips stay "in SEA" technically.
 
 See [[SEA chip diversion]] for full analysis.
 
@@ -274,7 +274,7 @@ See [[SEA chip diversion]] for full analysis.
 - Customer concentration in hyperscalers who want alternatives
 - Valuation assumes continued dominance
 - Supply constrained by [[TSMC]] and [[Advanced packaging|CoWoS]]
-- China revenue capped by export controls (but H200 + gray market provide partial recovery)
+- [[China]] revenue capped by export controls (but H200 + gray market provide partial recovery)
 - **Gray market dependence** — ~15-20% revenue through SEA, legal/reputation risk (see above)
 - Jensen admits 3 years to build datacenter — selling more GPUs than can be deployed
 - 36k employees hold $630B in RSUs ($17.5M per person average)
@@ -287,7 +287,7 @@ See [[SEA chip diversion]] for full analysis.
 **"Shipped" ≠ "Deployed"** — a growing gap between NVIDIA's revenue recognition and actual GPU utilization.
 
 **Key data points:**
-- **Satya (Nov 2025):** Microsoft has "chips sitting in inventory that I can't plug in"
+- **Satya (Nov 2025):** [[Microsoft]] has "chips sitting in inventory that I can't plug in"
 - **Gavin Baker (Atreides):** Blackwell deployment only truly started Aug-Oct 2025
 - **Jensen (Dec 2025):** Building a major AI DC takes ~3 years (permitting, construction, power)
 
@@ -360,7 +360,7 @@ See [[Short interest]] for interpretation framework.
 
 **NVIDIA hits $5 trillion (Jan 8, 2026):**
 - First company ever to reach $5T market cap
-- Passed Apple, Microsoft, Alphabet
+- Passed [[Apple]], [[Microsoft]], Alphabet
 - AI dominance + strategic dealmaking
 
 **Intel partnership (Jan 2026):**
@@ -376,8 +376,8 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 **Baseten investment ($150M, Jan 20):**
 - $150M into AI inference startup [[Baseten]] as part of $300M round at $5B valuation
-- Round co-led by IVP, CapitalG (Alphabet's growth fund)
-- Baseten = "AWS for inference" — serves Cursor, Notion
+- Round co-led by [[IVP]], [[CapitalG]] (Alphabet's growth fund)
+- Baseten = "AWS for inference" — serves [[Cursor]], [[Notion]]
 - Continues pattern of investing in inference customers (see [[NVIDIA as kingmaker]])
 - Same week as Groq deal ($20B) — NVIDIA now backing multiple inference plays
 
@@ -400,21 +400,21 @@ See [[CES 2026]] for event details.
 - Non-exclusive licensing agreement — Groq operates independently
 - Jonathan Ross (founder) + Sunny Madra (president) joining NVIDIA
 - Simon Edwards becomes new Groq CEO; GroqCloud continues
-- Strategic hedge against DRAM prices — Groq uses in-chip SRAM, not HBM
-- Political angle: David Sacks promoted Groq, Chamath banking $4B, Jensen got AI Diffusion framework canceled + H200s approved for China
+- Strategic hedge against DRAM prices — Groq uses in-chip SRAM, not [[HBM]]
+- Political angle: [[David Sacks]] promoted Groq, Chamath banking $4B, Jensen got AI Diffusion framework canceled + H200s approved for [[China]]
 
-**Revenue dominance (UBS Research):**
-- Hopper (previous gen) generates more revenue than ALL compute peers combined (AMD, Broadcom, Marvell)
+**Revenue dominance ([[UBS]] Research):**
+- Hopper (previous gen) generates more revenue than ALL compute peers combined (AMD, [[Broadcom]], [[Marvell]])
 - "Not a cycle. A structural monopoly with a roadmap"
 - Blackwell, Rubin, Feynman not even shipping at scale yet
 - **$500B+** Blackwell + Rubin revenue through CY2028 (booked so far)
 - **5X** Hopper's lifetime revenue
 - 6 million Blackwell GPUs shipped
-- Morgan Stanley: NVDA top stock pick for 2026
+- [[Morgan Stanley]]: NVDA top stock pick for 2026
 
 **CUDA moat strengthening:**
 - Devs openly admitting they can't reproduce results off CUDA
-- "Once your stack depends on B200 + CUDA + Torch, Google TPU/JAX is a downgrade"
+- "Once your stack depends on B200 + CUDA + Torch, [[Google]] TPU/JAX is a downgrade"
 - Andrew Feldman: CUDA wasn't the moat — the "mental moat" (perception that only NVIDIA works) was
 
 **GPU price increases (Q1 2026):**
@@ -433,18 +433,18 @@ See [[CES 2026]] for event details.
 
 **Major orders:**
 - **ByteDance $14B** NVIDIA order for 2026 (H200s, HBM3E 8Hi)
-- Oracle RPO increased $68B to $523B — driven by Meta, NVIDIA commitments
+- [[Oracle]] RPO increased $68B to $523B — driven by Meta, NVIDIA commitments
 - Continued hyperscaler demand
 
 **Foundry diversification:**
 - Exploring [[Samsung]] as second foundry (post-Groq deal)
 - Would reduce TSMC dependency
 
-**RTX PRO 5000:**
+**[[RTX]] PRO 5000:**
 - Blackwell workstation GPU: 72GB GDDR7, 2,142 TOPS
 
-**Southeast Asia chip surge:**
-- Taiwan chip exports to Indonesia at all-time high
+**[[Southeast Asia]] chip surge:**
+- [[Taiwan]] chip exports to Indonesia at all-time high
 - $400M+ of NVIDIA chips to Indonesia in November alone
 - 26,900% growth vs November 2023
 - Indonesia leads SEA imports (~$12B Jan-Oct 2025)
@@ -467,16 +467,16 @@ See [[CES 2026]] for event details.
 - Michael Burry: put positions disclosed Nov 2025, calling for pics of warehoused GPUs
 - Insider selling: $496M in 90 days, zero buying
 - Sentiment indicator — insiders cashing out at highs
-- Ed Zitron: questioning why NVIDIA backstopping $26B for Lambda/Oracle/CoreWeave
-- **Stock +37% YTD vs Micron +229%, SK Hynix +220%** — memory outperforming GPU
+- Ed Zitron: questioning why NVIDIA backstopping $26B for Lambda/[[Oracle]]/CoreWeave
+- **Stock +37% YTD vs [[Micron]] +229%, SK Hynix +220%** — memory outperforming GPU
 
 ---
 
 ## For theses
 
 - [[Long TSMC]] — NVIDIA locks TSMC capacity, reinforces moat
-- [[Long memory]] — every GPU needs HBM from SK Hynix/Samsung
-- [[Long OSAT and test equipment]] — GPU testing drives ASE/Cohu demand
+- [[Long memory]] — every GPU needs [[HBM]] from SK Hynix/Samsung
+- [[Long OSAT and test equipment]] — GPU testing drives [[ASE]]/[[Cohu]] demand
 
 ---
 
@@ -486,16 +486,16 @@ See [[CES 2026]] for event details.
 - [[TSMC]] — primary foundry
 - [[Intel]] — partner ($5B investment, Jan 2026)
 - [[NVIDIA-Intel partnership]] — strategic collaboration
-- [[SK Hynix]] — HBM supplier
-- [[Samsung]] — secondary foundry, HBM supplier
+- [[SK Hynix]] — [[HBM]] supplier
+- [[Samsung]] — secondary foundry, [[HBM]] supplier
 - [[AMD]] — competitor (GPU/AI)
 - [[Groq]] — acquired (inference ASICs, $20B backdoor acquisition)
 - [[AI consolidation]] — Groq deal exemplifies Big Tech acqui-hire pattern
 - [[CUDA moat]] — key competitive advantage
 - [[Advanced packaging]] — constraint (CoWoS)
-- [[Export controls]] — China market constraint
+- [[Export controls]] — [[China]] market constraint
 - [[Long NVIDIA]] — thesis
-- [[Long memory]] — thesis (HBM demand)
+- [[Long memory]] — thesis ([[HBM]] demand)
 - [[Stacy Rasgon]] — Bernstein analyst (Outperform, $275 PT)
 - [[Hans Mosesmann]] — Rosenblatt analyst (first $1K+ PT)
 - [[NVIDIA as kingmaker]] — concept (strategic investments)
@@ -507,8 +507,8 @@ See [[CES 2026]] for event details.
 - [[Neocloud financing]] — ecosystem control (bear case)
 - [[CoreWeave]] — NVIDIA-backed neocloud
 - [[Lambda Labs]] — NVIDIA-financed neocloud
-- [[SEA chip diversion]] — gray market China revenue (tailwind + risk)
-- [[Southeast Asia tech race]] — Chinese DC buildout destination
+- [[SEA chip diversion]] — gray market [[China]] revenue (tailwind + risk)
+- [[Southeast Asia]] tech race — Chinese DC buildout destination
 - [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)

@@ -24,9 +24,9 @@
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Seed | 2019 | $6M | — | a16z |
+| Seed | 2019 | $6M | — | [[a16z]] |
 | Series A | 2020 | $20M | — | CRV |
-| Series B | 2021 | $120M | $1.6B | Coatue |
+| Series B | 2021 | $120M | $1.6B | [[Coatue]] |
 | Series C | Mar 2025 | $300M | **$3.5B** | Sequoia |
 
 **Total raised:** $452M
@@ -39,11 +39,11 @@ Series C was largest fintech funding round of 2025 (at time of announcement).
 
 | Investor | Role |
 |----------|------|
-| Sequoia Capital | Series C lead |
-| Coatue | Series B lead |
-| Andreessen Horowitz | Seed lead |
+| [[Sequoia Capital]] | Series C lead |
+| [[Coatue]] | Series B lead |
+| [[Andreessen Horowitz]] | Seed lead |
 | CRV | Series A lead |
-| Spark Capital | Series C |
+| [[Spark Capital]] | Series C |
 
 ---
 
@@ -60,8 +60,8 @@ Series C was largest fintech funding round of 2025 (at time of announcement).
 
 - **S07:** Clickpass — single sign-on (before OAuth was standard)
 - **S09:** Second YC company
-- Was in batch with Dropbox (S07) and Airbnb (S09)
-- On Airbnb: initially thought it was "a silly idea"
+- Was in batch with [[Dropbox]] (S07) and [[Airbnb]] (S09)
+- On [[Airbnb]]: initially thought it was "a silly idea"
 
 ---
 
@@ -133,11 +133,11 @@ Mercury focuses on **banking** (deposits, treasury) while Brex/Ramp focus on **s
 ### Competitors
 - [[Brex]] — acquired by Capital One
 - [[Ramp]] — expense management
-- [[Divvy]] — acquired by Bill.com
+- [[Divvy]] — acquired by [[Bill.com]]
 
 ### Investors
-- Sequoia Capital — Series C lead
-- Andreessen Horowitz — Seed
+- [[Sequoia Capital]] — Series C lead
+- [[Andreessen Horowitz]] — Seed
 
 ### Sector
 - [[Fintech]] — sector

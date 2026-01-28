@@ -3,13 +3,13 @@ aliases: [摩尔线程]
 ---
 #actor #gpu #china #fabless
 
-**Moore Threads** — "China's NVIDIA." Founded by ex-NVIDIA VP. IPO +400%. MUSA platform (CUDA alternative).
+**Moore Threads** — "[[China]]'s NVIDIA." Founded by ex-NVIDIA VP. IPO +400%. MUSA platform (CUDA alternative).
 
 ---
 
 ## Why Moore Threads matters
 
-Leading China GPU challenger, founded by NVIDIA veteran:
+Leading [[China]] GPU challenger, founded by NVIDIA veteran:
 
 | Metric | Value |
 |--------|-------|
@@ -25,13 +25,13 @@ Leading China GPU challenger, founded by NVIDIA veteran:
 
 **James Zhang Jianzhong:**
 - 14 years at NVIDIA
-- VP and GM of China operations
+- VP and [[GM]] of [[China]] operations
 - Left 2020 to found Moore Threads
-- Brought NVIDIA know-how to China
+- Brought NVIDIA know-how to [[China]]
 
 ---
 
-## Consumer GPU history
+## [[Consumer]] GPU history
 
 **MTT S80 (2022) — first Chinese consumer gaming card:**
 
@@ -53,7 +53,7 @@ Paved the way for [[Lisuan]] G100 (Dec 2025).
 | Product | Type | Claims |
 |---------|------|--------|
 | **Huashan** | AI training/inference | Between Hopper and Blackwell |
-| **Lushan** | Gaming GPU | 15x perf, 50x ray tracing vs prior |
+| **Lushan** | [[Gaming]] GPU | 15x perf, 50x ray tracing vs prior |
 
 **Key features:**
 - MTLink interconnect (100k+ GPU scaling)
@@ -64,8 +64,8 @@ Paved the way for [[Lisuan]] G100 (Dec 2025).
 
 ## MUSA platform
 
-**Meta-computing Unified System Architecture:**
-- China's CUDA alternative
+**[[Meta]]-computing Unified System Architecture:**
+- [[China]]'s CUDA alternative
 - Proprietary software stack
 - Ecosystem building
 - Developer tools
@@ -84,7 +84,7 @@ Paved the way for [[Lisuan]] G100 (Dec 2025).
 | Revenue | Growing |
 | Profit | Net loss 724M yuan (9mo 2025) |
 
-Massive valuation despite losses — China policy premium.
+Massive valuation despite losses — [[China]] policy premium.
 
 ---
 
@@ -93,32 +93,32 @@ Massive valuation despite losses — China policy premium.
 **Foundry situation:**
 - Uses domestic fabs (likely [[SMIC]])
 - Limited to mature nodes
-- Can't access TSMC advanced
+- Can't access [[TSMC]] advanced
 - Export controls constrain
 
 ---
 
 ## Four Little Dragons
 
-Moore Threads is one of China's "Four Little Dragons" of GPUs:
+Moore Threads is one of [[China]]'s "Four Little Dragons" of GPUs:
 
 | Company | Founder background | Status |
 |---------|-------------------|--------|
 | **Moore Threads** | Ex-NVIDIA | IPO'd, +400% |
-| [[Biren Tech]] | Ex-NVIDIA/Alibaba | IPO Jan 2026 |
-| [[MetaX]] | Ex-AMD | IPO'd, +693% |
-| [[Enflame]] | Ex-AMD | IPO prep |
+| [[Biren Tech]] | Ex-NVIDIA/[[Alibaba]] | IPO Jan 2026 |
+| [[MetaX]] | Ex-[[AMD]] | IPO'd, +693% |
+| [[Enflame]] | Ex-[[AMD]] | IPO prep |
 
 ---
 
 ## Investment case
 
 **Bull:**
-- China GPU localization mandate
+- [[China]] GPU localization mandate
 - NVIDIA blocked = captive market
 - Ex-NVIDIA founder credibility
 - Government backing
-- First mover in China GPU
+- First mover in [[China]] GPU
 
 **Bear:**
 - Massive losses
@@ -143,10 +143,10 @@ Moore Threads is one of China's "Four Little Dragons" of GPUs:
 
 ---
 
-## Barclays view (Jan 2026)
+## [[Barclays]] view (Jan 2026)
 
-> "China is catching up very quickly in the chip war. It wouldn't surprise me if in 2026 or 2027 we have a **DeepSeek moment for chips** where a low-cost competitive chip is being produced by China. This would be disruptive for Nvidia and their supply chain."
-> — Matt Toms, Head of Cash Equity Execution Asia-Pacific, Barclays
+> "[[China]] is catching up very quickly in the chip war. It wouldn't surprise me if in 2026 or 2027 we have a **[[DeepSeek]] moment for chips** where a low-cost competitive chip is being produced by [[China]]. This would be disruptive for Nvidia and their supply chain."
+> — Matt Toms, Head of Cash Equity Execution [[Asia]]-Pacific, [[Barclays]]
 
 ---
 

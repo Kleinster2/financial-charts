@@ -35,7 +35,7 @@ Not building products. Pure research toward AGI.
 | Founder | Background |
 |---------|------------|
 | [[Ilya Sutskever]] | OpenAI co-founder, Chief Scientist |
-| Daniel Gross | Ex-Apple AI head, investor |
+| [[Daniel Gross]] | Ex-[[Apple]] AI head, investor |
 | Daniel Levy | Ex-OpenAI researcher, investor |
 
 Founded June 2024.
@@ -57,9 +57,9 @@ Founded June 2024.
 |----------|-------|
 | [[a16z]] | Seed co-lead |
 | [[Sequoia Capital]] | Seed co-lead |
-| Greenoaks | $500M (Series A) |
+| [[Greenoaks]] | $500M (Series A) |
 | [[Lightspeed Venture Partners]] | Growth |
-| DST Global | Growth |
+| [[DST Global]] | Growth |
 | [[Google]] / Alphabet | Strategic (TPU access) |
 | [[NVIDIA]] | Strategic |
 
@@ -92,7 +92,7 @@ Small, elite team.
 
 ## M&A attempt
 
-**Meta tried to acquire (H1 2025):**
+**[[Meta]] tried to acquire (H1 2025):**
 - Sutskever rebuffed
 - SSI staying independent
 - Not for sale
@@ -115,8 +115,8 @@ Small, elite team.
 |-----|-----------|-----------|---------|
 | **SSI** | $32B | ~20 | None |
 | [[Thinking Machines Lab]] | $12B | ~30 | Tinker API |
-| [[Anthropic]] | $61.5B | 1,000+ | Claude |
-| [[OpenAI]] | $300B | 3,000+ | ChatGPT |
+| [[Anthropic]] | $61.5B | 1,000+ | [[Claude]] |
+| [[OpenAI]] | $300B | 3,000+ | [[ChatGPT]] |
 
 SSI = smallest team, second-highest $/employee.
 

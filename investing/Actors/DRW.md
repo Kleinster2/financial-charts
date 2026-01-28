@@ -26,7 +26,7 @@ aliases: [DRW Trading, Don Wilson]
 | Background | Chicago floor trader |
 | Net worth | ~$4B |
 | Style | Technology-driven |
-| Crypto | Early adopter |
+| [[Crypto]] | Early adopter |
 
 ---
 
@@ -35,8 +35,8 @@ aliases: [DRW Trading, Don Wilson]
 | Unit | Focus |
 |------|-------|
 | **DRW** | Prop trading |
-| **Cumberland** | Crypto trading desk |
-| **DRW Venture Capital** | VC arm |
+| **Cumberland** | [[Crypto]] trading desk |
+| **DRW [[Venture Capital]]** | VC arm |
 
 ---
 
@@ -47,7 +47,7 @@ aliases: [DRW Trading, Don Wilson]
 | Futures | Core business |
 | Options | Active |
 | FX | Significant |
-| Crypto | Cumberland desk |
+| [[Crypto]] | Cumberland desk |
 
 ---
 

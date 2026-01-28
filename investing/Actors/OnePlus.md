@@ -3,7 +3,7 @@ aliases: [一加]
 ---
 #actor #company #smartphones #china
 
-**OnePlus** — Chinese smartphone brand. Part of BBK Electronics (with Oppo, Vivo, Realme). CEO Pete Lau under Taiwan arrest warrant (Jan 2026) for allegedly recruiting 70+ Taiwanese engineers since 2014.
+**OnePlus** — Chinese smartphone brand. Part of [[BBK Electronics]] (with [[Oppo]], [[Vivo]], Realme). CEO Pete Lau under Taiwan arrest warrant (Jan 2026) for allegedly recruiting 70+ Taiwanese engineers since 2014.
 
 ---
 
@@ -12,25 +12,25 @@ aliases: [一加]
 | Metric | Value |
 |--------|-------|
 | Founded | 2013 |
-| HQ | Shenzhen, China |
+| HQ | [[Shenzhen]], [[China]] |
 | CEO | Pete Lau (刘作虎) |
-| Parent | BBK Electronics |
-| Siblings | Oppo, Vivo, Realme |
+| Parent | [[BBK Electronics]] |
+| Siblings | [[Oppo]], [[Vivo]], Realme |
 | Position | Premium Android smartphones |
 
 ---
 
-## BBK Electronics family
+## [[BBK Electronics]] family
 
 | Brand | Position | Relationship |
 |-------|----------|--------------|
-| **Oppo** | Mainstream flagship | Pete Lau is Chief Product Officer |
-| **OnePlus** | Premium/enthusiast | Shares R&D with Oppo |
-| **Vivo** | Camera-focused | Separate operation |
-| **Realme** | Budget | Oppo sub-brand |
-| **iQOO** | Gaming | Vivo sub-brand |
+| **[[Oppo]]** | Mainstream flagship | Pete Lau is Chief Product Officer |
+| **OnePlus** | Premium/enthusiast | Shares R&D with [[Oppo]] |
+| **[[Vivo]]** | Camera-focused | Separate operation |
+| **Realme** | Budget | [[Oppo]] sub-brand |
+| **iQOO** | [[Gaming]] | [[Vivo]] sub-brand |
 
-**Key insight:** OnePlus and Oppo share technology, R&D, and leadership. Pete Lau runs both product strategies.
+**Key insight:** OnePlus and [[Oppo]] share technology, R&D, and leadership. Pete Lau runs both product strategies.
 
 ---
 
@@ -38,10 +38,10 @@ aliases: [一加]
 
 | Detail | Value |
 |--------|-------|
-| Role | OnePlus CEO & Founder, Oppo CPO |
-| Background | Former Oppo VP |
+| Role | OnePlus CEO & Founder, [[Oppo]] CPO |
+| Background | Former [[Oppo]] VP |
 | Reputation | Quality obsessive, detail-oriented |
-| Public profile | Regular presenter at Oppo launches |
+| Public profile | Regular presenter at [[Oppo]] launches |
 
 ### Taiwan arrest warrant (Jan 2026)
 
@@ -51,7 +51,7 @@ aliases: [一加]
 | Charge | Violating Cross-Strait Relations Act |
 | Allegation | Illegally recruiting **70+ Taiwanese engineers** since 2014 |
 | Co-defendants | 2 Taiwanese citizens who worked for Lau |
-| Status | Warrant issued, Lau in China |
+| Status | Warrant issued, Lau in [[China]] |
 
 **OnePlus response:** "Business operations continue as normal and remain unaffected."
 
@@ -66,7 +66,7 @@ aliases: [一加]
 | Timeframe | 2014-present (10+ years) |
 | Scale | 70+ engineers |
 | Method | Allegedly set up operations posing as foreign entities |
-| Target skills | Smartphone hardware, software engineering |
+| [[Target]] skills | Smartphone hardware, software engineering |
 
 ### Why Taiwan talent
 
@@ -89,7 +89,7 @@ aliases: [一加]
 | OnePlus Pad | Tablets |
 | OnePlus Watch | Wearables |
 
-**Reputation:** "Flagship killer" — high specs at lower prices than Samsung/Apple.
+**Reputation:** "Flagship killer" — high specs at lower prices than [[Samsung]]/[[Apple]].
 
 ---
 
@@ -97,10 +97,10 @@ aliases: [一加]
 
 | Market | Status |
 |--------|--------|
-| **India** | Strong position |
-| **Europe** | Growing |
+| **[[India]]** | Strong position |
+| **[[Europe]]** | Growing |
 | **North America** | Niche/enthusiast |
-| **China** | Merged with Oppo branding |
+| **[[China]]** | Merged with [[Oppo]] branding |
 
 ---
 
@@ -133,12 +133,12 @@ aliases: [一加]
 - [[Taiwan]] — issuing arrest warrants
 - [[Luxshare Precision]] — Grace Wang also under warrant
 - [[TSMC]] — Taiwan's crown jewel being protected
-- Oppo — sibling company, shares leadership
+- [[Oppo]] — sibling company, shares leadership
 
 ### Similar cases
 - Luxshare (Grace Wang) — Sep 2024 warrant
-- Tokyo Electron — IP theft lawsuit
-- Intel hire — TSMC trade secrets probe
+- [[Tokyo Electron]] — IP theft lawsuit
+- [[Intel]] hire — TSMC trade secrets probe
 
 ---
 

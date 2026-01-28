@@ -3,7 +3,7 @@ aliases: [NVIDIA Ventures, Nvidia Ventures]
 ---
 #actor #cvc #ai
 
-**NVentures** — [[NVIDIA]]'s corporate venture arm. **59 portfolio companies**, 31 investments in 2025 alone. Backs AI infrastructure, quantum, robotics. Key investments: [[Anthropic]], Cohere, Cursor, PsiQuantum.
+**NVentures** — [[NVIDIA]]'s corporate venture arm. **59 portfolio companies**, 31 investments in 2025 alone. Backs AI infrastructure, quantum, robotics. Key investments: [[Anthropic]], [[Cohere]], [[Cursor]], [[PsiQuantum]].
 
 ---
 
@@ -27,9 +27,9 @@ NVIDIA's strategic arm — aligns startup ecosystem with GPU dominance.
 | Company | Round | Valuation | Date |
 |---------|-------|-----------|------|
 | [[Anthropic]] | Strategic | — | Nov 2025 (up to $10B) |
-| Cursor | Series D | $29.3B | Nov 2025 |
-| Cohere | Series D | $6.8B | Aug 2025 |
-| PsiQuantum | Series E | $7B | Mar 2025 |
+| [[Cursor]] | Series D | $29.3B | Nov 2025 |
+| [[Cohere]] | Series D | $6.8B | Aug 2025 |
+| [[PsiQuantum]] | Series E | $7B | Sep 2025 |
 | Black Forest Labs | — | $3.25B | Dec 2025 |
 | [[World Labs]] | Seed/A | $1B → $5B | 2024-2026 |
 | Synthesia | Series E | — | Jan 2026 |
@@ -40,9 +40,9 @@ NVIDIA's strategic arm — aligns startup ecosystem with GPU dominance.
 
 | Sector | Examples |
 |--------|----------|
-| **AI/ML** | Anthropic, Cohere, Cursor |
-| **Quantum** | PsiQuantum, QuEra, Quantinuum |
-| **Robotics** | Flexion Robotics |
+| **AI/ML** | [[Anthropic]], [[Cohere]], [[Cursor]] |
+| **Quantum** | [[PsiQuantum]], QuEra, [[Quantinuum]] |
+| **[[Robotics]]** | Flexion [[Robotics]] |
 | **Enterprise** | N8n, PolyAI |
 | **Life sciences** | Relation Therapeutics, Abridge |
 
@@ -70,7 +70,7 @@ NVIDIA's strategic arm — aligns startup ecosystem with GPU dominance.
 |---------|----------|-------|
 | PsiQuantum | Photonic | $1B Series E |
 | QuEra | Neutral atom | $230M |
-| Quantinuum | Trapped ion | — |
+| [[Quantinuum]] | Trapped ion | — |
 
 After years of quantum skepticism, NVIDIA now backs all three major hardware approaches.
 
@@ -121,6 +121,9 @@ After years of quantum skepticism, NVIDIA now backs all three major hardware app
 
 - [[NVIDIA]] — parent company
 - [[Anthropic]] — portfolio ($10B commitment)
+- [[Cohere]] — portfolio ($7B enterprise AI)
+- [[Cursor]] — portfolio ($29.3B code editor)
+- [[PsiQuantum]] — portfolio ($7B quantum)
 - [[World Labs]] — portfolio (spatial intelligence)
 - [[AMD Ventures]] — peer CVC
 - [[Adobe Ventures]] — peer CVC

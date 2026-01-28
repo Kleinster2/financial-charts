@@ -15,7 +15,7 @@ Big Tech will use two strategies to consolidate AI:
 
 Result: Big Tech entrenches dominance, picks up talent and IP while startups struggle.
 
-**Key quote:** "There's sadly little chance that any of them — even large ones like OpenAI and Anthropic — will unseat the so-called Magnificent Seven."
+**Key quote:** "There's sadly little chance that any of them — even large ones like [[OpenAI]] and [[Anthropic]] — will unseat the so-called Magnificent Seven."
 
 ---
 
@@ -46,20 +46,20 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 | 2024 | $11.5B |
 | 2025 | **$37B** |
 
-*Source: Menlo Ventures*
+*Source: [[Menlo Ventures]]*
 
 ---
 
 ## Major acqui-hires / stealth acquisitions
 
-| Date | Acquirer | Target | Value | Structure |
+| Date | Acquirer | [[Target]] | Value | Structure |
 |------|----------|--------|-------|-----------|
 | Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | Licensing (backdoor) |
 | Dec 2025 | [[Meta]] | Manus | $2B | Outright (Chinese startup) |
 | 2025 | [[Google]] | Windsurf | $2.4B | Assets + talent |
 | 2024 | [[Google]] | [[Character.AI]] | $2.7B | Acqui-hire |
 | 2024 | [[Microsoft]] | Inflection | $650M | Licensing |
-| 2024 | [[Amazon]] | Adept | — | Acqui-hire |
+| 2024 | [[Amazon]] | [[Adept]] | — | Acqui-hire |
 
 ---
 
@@ -67,20 +67,20 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 
 - FTC and DOJ investigating some deals
 - Trump Dec 2025 executive order: softer antitrust enforcement
-- Trump wants US to win AI race vs China — may look favorably on neutralizing Chinese competition via M&A
+- Trump wants US to win AI race vs [[China]] — may look favorably on neutralizing Chinese competition via M&A
 
 ---
 
-## China angle
+## [[China]] angle
 
-**Shift in dynamic:** China now producing innovators (vs copying in early mobile era)
+**Shift in dynamic:** [[China]] now producing innovators (vs copying in early mobile era)
 
-- "Meta copied TikTok features... Now in the AI age, Meta purchases Manus" — Winston Ma, NYU
+- "Meta copied [[TikTok]] features... Now in the AI age, Meta purchases Manus" — Winston Ma, NYU
 
 **Chinese AI startups positioning for US exits:**
-- Manus: HQ'd in Singapore, scrubbed China links before Meta deal
+- Manus: HQ'd in Singapore, scrubbed [[China]] links before Meta deal
 - New generation of Chinese founders more globally-minded
-- Potential targets: [[Zhipu]], Moonshot AI
+- Potential targets: [[Zhipu]], [[Moonshot AI]]
 
 **Exception:** [[DeepSeek]] unlikely to sell due to geopolitical sensitivity
 
@@ -95,7 +95,7 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 
 ### Bearish AI startups
 - "Darwinian thinning" ahead
-- Even OpenAI/Anthropic unlikely to unseat Mag 7
+- Even [[OpenAI]]/[[Anthropic]] unlikely to unseat Mag 7
 - Best exit may be acqui-hire, not IPO
 
 ### Historical parallel
@@ -121,4 +121,4 @@ Same pattern occurred with cloud software → PE-driven acquisitions in 2020-202
 
 - Bloomberg Opinion: Nvidia's Backdoor Acquisition Won't Be the Last (Parmy Olson, Jan 7, 2026)
 - Pitchbook (AI startup data)
-- Menlo Ventures (gen-AI spending)
+- [[Menlo Ventures]] (gen-AI spending)

@@ -19,10 +19,10 @@
 
 | Region | Significance |
 |--------|--------------|
-| Spain | Home market |
-| Mexico | Largest profit contributor |
+| Spain | [[Home]] market |
+| [[Mexico]] | Largest profit contributor |
 | Turkey | Garanti BBVA stake |
-| South America | Colombia, Peru, Argentina |
+| South America | Colombia, Peru, [[Argentina]] |
 | **Venezuela** | Only major foreign bank with significant presence |
 
 ---
@@ -47,7 +47,7 @@ See [[Venezuela]].
 **Bull:**
 - LatAm growth exposure
 - Digital banking leader
-- Mexico strength
+- [[Mexico]] strength
 - Venezuela optionality
 
 **Bear:**
@@ -63,7 +63,7 @@ See [[Venezuela]].
 |--------|-------|
 | Ticker | BBVA |
 | HQ | Bilbao, Spain |
-| Key market | Mexico |
+| Key market | [[Mexico]] |
 | Venezuela | Only major foreign bank present |
 
 *Created 2026-01-11*

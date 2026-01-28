@@ -1,15 +1,15 @@
 ---
-aliases: [Samsung Foundry, Samsung Electronics Semiconductor]
+aliases: [[[Samsung]] Foundry, [[Samsung]] Electronics Semiconductor]
 ---
 #actor #foundry #memory #korea #public
 
-**Samsung Semiconductor** — World's largest memory maker, #2 foundry. Aggressive but struggling vs TSMC. Part of Samsung Electronics conglomerate.
+**[[Samsung]] Semiconductor** — World's largest memory maker, #2 foundry. Aggressive but struggling vs TSMC. Part of [[Samsung]] Electronics conglomerate.
 
 ---
 
-## Why Samsung Semiconductor matters
+## Why [[Samsung]] Semiconductor matters
 
-Samsung is the only company competing across memory AND logic:
+[[Samsung]] is the only company competing across memory AND logic:
 
 | Business | Position |
 |----------|----------|
@@ -24,15 +24,15 @@ Samsung is the only company competing across memory AND logic:
 
 **Losing ground to TSMC:**
 
-| Node | Samsung status |
+| Node | [[Samsung]] status |
 |------|----------------|
 | 3nm GAA | First to market, low yields |
 | 2nm | Targeting 2025, behind schedule |
-| Advanced packaging | Behind TSMC CoWoS |
+| [[Advanced packaging]] | Behind TSMC CoWoS |
 
 **Key problems:**
 - Yield issues at advanced nodes
-- Customer defections (Qualcomm, NVIDIA)
+- Customer defections ([[Qualcomm]], NVIDIA)
 - TSMC moat widening
 - Talent drain
 
@@ -50,7 +50,7 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 | NAND | #2 (SK Hynix gaining) |
 | HBM | **#3** — struggling |
 
-**HBM problem:** SK Hynix dominates AI memory. Samsung late, quality issues with NVIDIA qualification.
+**HBM problem:** SK Hynix dominates AI memory. [[Samsung]] late, quality issues with NVIDIA qualification.
 
 ---
 
@@ -59,7 +59,7 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 **Critical for AI thesis:**
 - HBM is memory for AI accelerators
 - [[SK Hynix]] supplies most HBM to NVIDIA
-- Samsung struggling for NVIDIA qualification
+- [[Samsung]] struggling for NVIDIA qualification
 - May have finally qualified HBM3E (late 2025)
 - Losing the AI memory boom
 
@@ -70,7 +70,7 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 | Customer | Products |
 |----------|----------|
 | [[Apple]] | Was foundry, now mostly memory |
-| Qualcomm | Foundry (some defected to TSMC) |
+| [[Qualcomm]] | Foundry (some defected to TSMC) |
 | [[Google]] | TPU foundry (some) |
 | [[NVIDIA]] | Memory (limited HBM) |
 
@@ -100,20 +100,20 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 
 | Metric | Value |
 |--------|-------|
-| Parent | Samsung Electronics (005930.KS) |
+| Parent | [[Samsung]] Electronics (005930.KS) |
 | Semiconductor revenue | ~$70B |
 | Memory share | DRAM #1, NAND #2 |
 | Foundry share | ~12% (vs TSMC ~60%) |
 | HBM share | ~15% (vs SK Hynix ~50%) |
 | Foundry capex | $300B+ planned over decade |
 
-**Note:** Samsung Semiconductor is division of Samsung Electronics — includes mobile, display, appliances.
+**Note:** [[Samsung]] Semiconductor is division of [[Samsung]] Electronics — includes mobile, display, appliances.
 
 ---
 
 ## vs Competitors
 
-| Aspect | Samsung | [[TSMC]] | [[SK Hynix]] |
+| Aspect | [[Samsung]] | [[TSMC]] | [[SK Hynix]] |
 |--------|---------|----------|--------------|
 | Memory | #1 DRAM | None | #2 DRAM, #1 HBM |
 | Foundry | #2 (struggling) | #1 (dominant) | None |

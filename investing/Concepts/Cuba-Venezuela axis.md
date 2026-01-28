@@ -1,24 +1,24 @@
 #concept #geopolitics #latam #oil #cuba #venezuela
 
-**Cuba-Venezuela axis** — Venezuela has been Cuba's economic lifeline since 2000, replacing Soviet subsidies. ~$60B in support over 20 years. Maduro's fall threatens Cuban regime survival.
+**[[Cuba]]-Venezuela axis** — Venezuela has been [[Cuba]]'s economic lifeline since 2000, replacing Soviet subsidies. ~$60B in support over 20 years. Maduro's fall threatens Cuban regime survival.
 
 ---
 
 ## Why it matters
 
-Cuba survived decades of US confrontation via:
+[[Cuba]] survived decades of US confrontation via:
 1. **Soviet subsidies** (until 1991)
 2. **Venezuelan subsidies** (2000-2026)
 
-With Maduro captured, Cuba loses its lifeline. **Rubio's strategy:** Topple Caracas to starve Havana.
+With Maduro captured, [[Cuba]] loses its lifeline. **Rubio's strategy:** Topple Caracas to starve Havana.
 
 ---
 
 ## The deal
 
-**Oil-for-services partnership** (signed October 2000):
+**[[Oil]]-for-services partnership** (signed October 2000):
 
-| Venezuela provides | Cuba provides |
+| Venezuela provides | [[Cuba]] provides |
 |-------------------|---------------|
 | Subsidized/free oil | Doctors (tens of thousands) |
 | Cash transfers | Intelligence/security personnel |
@@ -27,7 +27,7 @@ With Maduro captured, Cuba loses its lifeline. **Rubio's strategy:** Topple Cara
 
 ---
 
-## Oil flows
+## [[Oil]] flows
 
 | Period | Barrels/day | Notes |
 |--------|-------------|-------|
@@ -51,7 +51,7 @@ With Maduro captured, Cuba loses its lifeline. **Rubio's strategy:** Topple Cara
 
 ---
 
-## Cuba's vulnerability
+## [[Cuba]]'s vulnerability
 
 **Before Maduro capture:**
 - Already receiving only ~35,000 bpd (25% of demand)
@@ -60,23 +60,23 @@ With Maduro captured, Cuba loses its lifeline. **Rubio's strategy:** Topple Cara
 - 2024 protests
 
 **After Maduro capture:**
-- Oil supply uncertain
+- [[Oil]] supply uncertain
 - No alternative patron
-- Russia distracted (Ukraine)
-- China unwilling to fully replace
+- [[Russia]] distracted (Ukraine)
+- [[China]] unwilling to fully replace
 
 ---
 
 ## Rubio's calculation
 
-| If Venezuela falls... | Then Cuba... |
+| If Venezuela falls... | Then [[Cuba]]... |
 |----------------------|--------------|
-| Oil supply cut | Energy crisis deepens |
+| [[Oil]] supply cut | Energy crisis deepens |
 | Cash transfers stop | Fiscal collapse |
 | Political cover gone | Isolated |
 | Regime change precedent | Next target |
 
-**The play:** Venezuela is the supply line. Cut it, and Cuba falls.
+**The play:** Venezuela is the supply line. Cut it, and [[Cuba]] falls.
 
 ---
 
@@ -88,13 +88,13 @@ With Maduro captured, Cuba loses its lifeline. **Rubio's strategy:** Topple Cara
 | Venezuela | 2000-2026 | US intervention |
 | Next? | — | None in sight |
 
-Cuba has never survived without a patron. Venezuela was the second. There is no third.
+[[Cuba]] has never survived without a patron. Venezuela was the second. There is no third.
 
 ---
 
 ## Implications
 
-### For Cuba
+### For [[Cuba]]
 
 - Regime survival threatened
 - May need to negotiate with US
@@ -102,13 +102,13 @@ Cuba has never survived without a patron. Venezuela was the second. There is no 
 
 ### For Rubio
 
-- Venezuela = stepping stone to Cuba
+- Venezuela = stepping stone to [[Cuba]]
 - Family history (Cuban exile)
 - Long-term goal: Havana regime change
 
 ### For Venezuela
 
-- Cuba loses influence over security apparatus
+- [[Cuba]] loses influence over security apparatus
 - Cuban advisors may leave
 - Intelligence cooperation ends
 
@@ -119,7 +119,7 @@ Cuba has never survived without a patron. Venezuela was the second. There is no 
 | Actor | Role |
 |-------|------|
 | **Marco Rubio** | Secretary of State, Cuban-American, architect |
-| **Cuba** | Dependent, vulnerable |
+| **[[Cuba]]** | Dependent, vulnerable |
 | [[Venezuela]] | Former patron, now US-controlled |
 | **Díaz-Canel** | Cuban president, weakened |
 
@@ -136,10 +136,10 @@ Cuba has never survived without a patron. Venezuela was the second. There is no 
 
 ## Sources
 
-- [PBS - Cuba uncertain future](https://www.pbs.org/newshour/world/cuba-reliant-on-venezuelan-oil-and-support-faces-uncertain-future-after-u-s-removes-maduro)
-- [The Conversation - Cuba isolated](https://theconversation.com/with-maduro-gone-and-venezuelas-oil-cut-off-cuba-is-isolated-and-vulnerable-273119)
-- [CNN - Cuba reeling](https://www.cnn.com/2026/01/04/americas/cuba-uncertain-future-after-venezuela-strike)
-- [Fox Business - Cuba economy](https://www.foxbusiness.com/economy/maduros-capture-puts-cubas-venezuelan-oil-dependent-economy-risk)
-- [Wikipedia - Cuba-Venezuela relations](https://en.wikipedia.org/wiki/Cuba–Venezuela_relations)
+- [PBS - [[Cuba]] uncertain future](https://www.pbs.org/newshour/world/cuba-reliant-on-venezuelan-oil-and-support-faces-uncertain-future-after-u-s-removes-maduro)
+- [The Conversation - [[Cuba]] isolated](https://theconversation.com/with-maduro-gone-and-venezuelas-oil-cut-off-cuba-is-isolated-and-vulnerable-273119)
+- [CNN - [[Cuba]] reeling](https://www.cnn.com/2026/01/04/americas/cuba-uncertain-future-after-venezuela-strike)
+- [Fox Business - [[Cuba]] economy](https://www.foxbusiness.com/economy/maduros-capture-puts-cubas-venezuelan-oil-dependent-economy-risk)
+- [Wikipedia - [[Cuba]]-Venezuela relations](https://en.wikipedia.org/wiki/[[Cuba]]–Venezuela_relations)
 
 *Created 2026-01-09*

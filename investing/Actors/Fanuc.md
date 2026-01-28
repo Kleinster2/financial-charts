@@ -3,7 +3,7 @@ aliases: [FANUY, 6954.T]
 ---
 #actor #robotics #automation #japan #public
 
-**Fanuc** — #1 industrial robotics company globally. CNC systems, factory automation. Japan manufacturing backbone.
+**Fanuc** — #1 industrial robotics company globally. CNC systems, factory automation. [[Japan]] manufacturing backbone.
 
 ---
 
@@ -28,7 +28,7 @@ aliases: [FANUY, 6954.T]
 | Epson | 13% |
 | **Fanuc** | 9% (down from 11% in 2023) |
 | Yaskawa | 8% |
-| KUKA | — |
+| [[KUKA]] | — |
 
 **CNC market:** 50% global share — dominant position.
 
@@ -39,7 +39,7 @@ aliases: [FANUY, 6954.T]
 | Segment | % Sales | Position |
 |---------|---------|----------|
 | Factory Automation (CNC) | ~33% | #1 globally (50% share) |
-| Robotics | ~33% | Top 3 globally |
+| [[Robotics]] | ~33% | Top 3 globally |
 | Robomachines | ~33% | Injection molding, wire EDM |
 
 ---
@@ -67,9 +67,9 @@ aliases: [FANUY, 6954.T]
 | Manufacturing AI chips | Fanuc robots build semiconductor fabs |
 | Data center construction | Automation for rapid DC buildout |
 | Labor shortage | Robots fill manufacturing gaps |
-| Reshoring | US/EU fab buildout needs automation |
+| Reshoring | US/[[EU]] fab buildout needs automation |
 
-Fanuc robots are in TSMC, Samsung, Intel fabs.
+Fanuc robots are in TSMC, Samsung, [[Intel]] fabs.
 
 ---
 
@@ -77,10 +77,10 @@ Fanuc robots are in TSMC, Samsung, Intel fabs.
 
 | Competitor | Comparison |
 |------------|------------|
-| [[ABB]] | Being acquired by SoftBank for $5.4B |
+| [[ABB]] | Being acquired by [[SoftBank]] for $5.4B |
 | Yaskawa | Japanese rival, motion control strength |
-| KUKA | Owned by Midea (China) |
-| Universal Robots | Cobots (collaborative) |
+| [[KUKA]] | Owned by Midea ([[China]]) |
+| [[Universal Robots]] | Cobots (collaborative) |
 
 Fanuc losing share but maintains profitability leadership.
 
@@ -93,11 +93,11 @@ Fanuc losing share but maintains profitability leadership.
 - Industry-leading margins (25%+)
 - AI/automation tailwinds
 - Semiconductor fab buildout
-- Japan reshoring benefits
+- [[Japan]] reshoring benefits
 
 **Bear:**
 - Losing robotics share to ABB, Epson
-- China competition rising
+- [[China]] competition rising
 - Cyclical (auto, electronics exposure)
 - Yen volatility
 
@@ -110,7 +110,7 @@ Fanuc losing share but maintains profitability leadership.
 | Ticker | 6954.T, FANUY |
 | Market cap | ~$30B |
 | CNC share | 50% |
-| Robotics share | 9% |
+| [[Robotics]] share | 9% |
 | Operating margin | 25.5% |
 
 *Created 2026-01-05*
@@ -119,7 +119,7 @@ Fanuc losing share but maintains profitability leadership.
 
 ## Related
 
-- [[ABB]] — competitor (SoftBank acquiring robotics unit)
+- [[ABB]] — competitor ([[SoftBank]] acquiring robotics unit)
 - [[Tesla Optimus]] — humanoid robotics (different market)
 - [[Figure AI]] — humanoid robotics startup
 - [[TSMC]] — customer (fab automation)

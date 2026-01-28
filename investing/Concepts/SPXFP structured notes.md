@@ -61,7 +61,7 @@ Supercharged gains + loss buffers = investor appeal.
 
 ## Who's buying
 
-**Target investors:**
+**[[Target]] investors:**
 - Wealthy individuals
 - Family offices
 - Discretionary managers
@@ -96,14 +96,14 @@ Buying SPXFP = betting on soft landing + dovish Fed.
 | Rates rise | Index underperforms (subtracting higher rate hurts) |
 | Stocks fall | Equity losses (beyond buffer) |
 | Both | Double whammy |
-| Inflation sticky | Fed pauses/hikes, rates stay high |
+| [[Inflation]] sticky | Fed pauses/hikes, rates stay high |
 | Valuations stretched | Equity downside risk |
 
 **Brachman's firm:** "Pitched to us multiple times and we've said no every time."
 
 ---
 
-## Banks issuing (Jan 2026)
+## [[Banks]] issuing (Jan 2026)
 
 At least 7 banks active:
 - [[JPMorgan Chase]]
@@ -119,7 +119,7 @@ At least 7 banks active:
 | Fed rate cuts | Ongoing, expected through 2027 |
 | Trump/Powell | Pressure for more aggressive cuts |
 | Job market | Resilient (slowing cut expectations) |
-| Inflation | Above 2% target (risk to thesis) |
+| [[Inflation]] | Above 2% target (risk to thesis) |
 
 ---
 

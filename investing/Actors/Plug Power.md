@@ -15,7 +15,7 @@ Plug is the largest pure-play hydrogen company:
 |--------|-------|
 | Focus | Green hydrogen ecosystem |
 | Products | Fuel cells, electrolyzers, hydrogen production |
-| Customers | Amazon, Walmart (forklifts) |
+| Customers | [[Amazon]], [[Walmart]] (forklifts) |
 | Challenge | Cash burn, going concern risk |
 
 ---
@@ -37,8 +37,8 @@ Plug is the largest pure-play hydrogen company:
 
 | Customer | Application |
 |----------|-------------|
-| Amazon | Forklift fuel cells |
-| Walmart | Distribution center forklifts |
+| [[Amazon]] | Forklift fuel cells |
+| [[Walmart]] | Distribution center forklifts |
 | Various | Material handling |
 
 **Moat:** Locked in major retailers for warehouse hydrogen.
@@ -86,7 +86,7 @@ Plug is the largest pure-play hydrogen company:
 **Bull (speculative):**
 - Pure-play green hydrogen
 - IRA hydrogen tax credits ($3/kg)
-- Amazon/Walmart relationships
+- [[Amazon]]/[[Walmart]] relationships
 - First mover in ecosystem
 - DOE support
 
@@ -121,7 +121,7 @@ Plug is the largest pure-play hydrogen company:
 | Focus | Ecosystem (vertical) | Fuel cells (focused) |
 | Market | Material handling | Heavy transport |
 | Financial health | Worse | Better |
-| Geography | US | Canada (global) |
+| Geography | US | [[Canada]] (global) |
 
 ---
 

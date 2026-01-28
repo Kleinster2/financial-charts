@@ -3,7 +3,7 @@ aliases: [GOLD, Barrick]
 ---
 #actor #company #mining #gold #canada #public
 
-**Barrick Gold** — Second-largest gold miner. NYSE: GOLD. Nevada Gold Mines JV. Copper exposure growing.
+**Barrick Gold** — Second-largest gold miner. NYSE: GOLD. Nevada Gold Mines JV. [[Copper]] exposure growing.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [GOLD, Barrick]
 | Ticker | GOLD (NYSE) |
 | Market cap | ~$35B |
 | Gold production | ~4M oz/year |
-| Copper production | ~450M lbs/year |
+| [[Copper]] production | ~450M lbs/year |
 | HQ | Toronto |
 
 Tier 1 assets, long mine lives.
@@ -26,7 +26,7 @@ Tier 1 assets, long mine lives.
 | Asset | Location | Ownership |
 |-------|----------|-----------|
 | Nevada Gold Mines | US | 61.5% (JV with Newmont) |
-| Pueblo Viejo | Dominican Republic | 60% |
+| Pueblo Viejo | Dominican [[Republic]] | 60% |
 | Loulo-Gounkoto | Mali | 80% |
 | Kibali | DRC | 45% |
 | Lumwana | Zambia | 100% (copper) |
@@ -38,9 +38,9 @@ Tier 1 assets, long mine lives.
 | Metal | Production | Revenue % |
 |-------|------------|-----------|
 | Gold | ~4M oz | ~80% |
-| Copper | ~450M lbs | ~20% |
+| [[Copper]] | ~450M lbs | ~20% |
 
-Copper provides diversification.
+[[Copper]] provides diversification.
 
 ---
 
@@ -60,7 +60,7 @@ Copper provides diversification.
 **Bull:**
 - Tier 1 long-life assets
 - Gold price leverage
-- Copper optionality
+- [[Copper]] optionality
 - Capital discipline
 
 **Bear:**

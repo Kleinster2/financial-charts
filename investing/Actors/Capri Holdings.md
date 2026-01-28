@@ -78,7 +78,7 @@ The FTC argued the merger would harm consumers in the "accessible luxury" handba
 | **Pricing confusion** | Full-price vs. outlet cannibalization |
 | **Competition** | Coach resurgent, Tory Burch growing |
 | **Customer loss** | Neither luxury enough nor cheap enough |
-| **Target** | $4B revenue, double-digit margins "over time" |
+| **[[Target]]** | $4B revenue, double-digit margins "over time" |
 
 CEO Idol's admitted "self-inflicted missteps" include:
 - Repositioning attempts that confused customers

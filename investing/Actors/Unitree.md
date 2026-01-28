@@ -1,9 +1,9 @@
 ---
-aliases: [Unitree Robotics]
+aliases: [Unitree [[Robotics]]]
 ---
 #actor #china #robotics #ai
 
-**Unitree** — Hangzhou-based robotics company. Quadruped robots (robot dogs). China's answer to Boston Dynamics at consumer price points.
+**Unitree** — Hangzhou-based robotics company. Quadruped robots (robot dogs). [[China]]'s answer to Boston Dynamics at consumer price points.
 
 ---
 
@@ -15,7 +15,7 @@ Most visible Chinese robotics company globally:
 |--------|-------|
 | HQ | [[Hangzhou]] |
 | Focus | Quadruped robots (robot dogs) |
-| Price point | Consumer/prosumer (~$1,600-$150,000) |
+| Price point | [[Consumer]]/prosumer (~$1,600-$150,000) |
 | Comparison | Boston Dynamics but 10x cheaper |
 | Status | Private |
 
@@ -25,7 +25,7 @@ Most visible Chinese robotics company globally:
 
 | Model | Type | Price | Use case |
 |-------|------|-------|----------|
-| Go2 | Quadruped | ~$1,600 | Consumer, education |
+| Go2 | Quadruped | ~$1,600 | [[Consumer]], education |
 | B2 | Quadruped | ~$20,000 | Industrial inspection |
 | H1 | Humanoid | ~$90,000 | Research, demo |
 | G1 | Humanoid | ~$16,000 | Education, prosumer |
@@ -39,9 +39,9 @@ Most visible Chinese robotics company globally:
 | Company | HQ | Focus | Price tier | Status |
 |---------|-----|-------|------------|--------|
 | **Unitree** | Hangzhou | Quadruped + humanoid | Low-mid | Private |
-| Boston Dynamics | US | Quadruped + humanoid | High | Hyundai subsidiary |
+| Boston Dynamics | US | Quadruped + humanoid | High | [[Hyundai]] subsidiary |
 | [[Figure AI]] | US | Humanoid | High | Private ($2.6B) |
-| Agility Robotics | US | Humanoid (Digit) | High | Private |
+| [[Agility Robotics]] | US | Humanoid (Digit) | High | Private |
 | [[Tesla]] Optimus | US | Humanoid | TBD | Tesla division |
 
 **Unitree's niche:** Volume + affordability. Not the most capable, but most accessible.
@@ -52,10 +52,10 @@ Most visible Chinese robotics company globally:
 
 | Factor | Benefit for Unitree |
 |--------|---------------------|
-| Supply chain proximity | Access to Shenzhen manufacturing |
+| Supply chain proximity | Access to [[Shenzhen]] manufacturing |
 | Talent | ZJU robotics/AI programs |
 | Policy support | Startup-friendly, patient capital |
-| Cost | Lower than Beijing/Shenzhen |
+| Cost | Lower than Beijing/[[Shenzhen]] |
 
 ---
 
@@ -99,14 +99,14 @@ Most visible Chinese robotics company globally:
 **Private company** — not directly investable.
 
 **Indirect exposure:**
-- Robotics component suppliers
-- China robotics ETFs (limited)
+- [[Robotics]] component suppliers
+- [[China]] robotics ETFs (limited)
 
 **Thesis implications:**
-- China can compete in robotics at scale
-- Price disruption similar to China EV playbook
+- [[China]] can compete in robotics at scale
+- Price disruption similar to [[China]] EV playbook
 - [[Hangzhou]] validated as robotics hub
-- Watch for IPO (likely HK or China A-shares)
+- Watch for IPO (likely HK or [[China]] A-shares)
 
 ---
 
@@ -116,7 +116,7 @@ Most visible Chinese robotics company globally:
 |------|---------|
 | Export restrictions | US may restrict robot sales |
 | IP concerns | Western markets may resist |
-| Competition | Tesla Optimus, Figure AI scaling |
+| Competition | [[Tesla Optimus]], Figure AI scaling |
 | Margins | Low price = thin margins |
 
 ---
@@ -127,7 +127,7 @@ Most visible Chinese robotics company globally:
 
 ## Related
 
-- [[Hangzhou]] — HQ (China's AI/robotics hub)
+- [[Hangzhou]] — HQ ([[China]]'s AI/robotics hub)
 - [[Figure AI]] — competitor (US humanoid)
 - [[Tesla]] — competitor (Optimus)
 - [[Boston Dynamics]] — competitor (Spot, Atlas)

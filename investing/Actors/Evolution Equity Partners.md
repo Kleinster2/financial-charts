@@ -42,7 +42,7 @@ aliases: [Evolution Equity, Evolution]
 
 **Check sizes:** $20M - $150M
 
-**Geographies:** North America, Europe, Israel
+**Geographies:** North America, [[Europe]], Israel
 
 ---
 
@@ -51,7 +51,7 @@ aliases: [Evolution Equity, Evolution]
 | Company | Focus | Status |
 |---------|-------|--------|
 | [[Torq]] | Security automation | Active |
-| Arctic Wolf | Managed security | Active |
+| [[Arctic]] Wolf | Managed security | Active |
 | Snyk | Developer security | Active |
 | Aqua Security | Cloud security | Active |
 | Pentera | Pentesting automation | Active |

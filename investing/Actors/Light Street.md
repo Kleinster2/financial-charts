@@ -35,7 +35,7 @@ aliases: [Light Street Capital]
 |--------|------|
 | Glen Kacher | Founder, PM |
 
-Kacher previously at Soros Fund Management.
+Kacher previously at [[Soros Fund Management]].
 
 ---
 

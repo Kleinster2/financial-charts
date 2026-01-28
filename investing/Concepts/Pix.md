@@ -1,6 +1,6 @@
 #concept #payments #brazil #fintech
 
-**Pix** — Brazil's instant payment system. Launched November 2020 by [[Banco Central do Brasil]]. 170M users (93% of adult population). 7B+ monthly transactions. Moved $16T since launch (7x Brazil's GDP). Fastest-growing instant payment system globally — hit scale milestones faster than India's [[UPI]].
+**Pix** — Brazil's instant payment system. Launched November 2020 by [[Banco Central do Brasil]]. 170M users (93% of adult population). 7B+ monthly transactions. Moved $16T since launch (7x Brazil's GDP). Fastest-growing instant payment system globally — hit scale milestones faster than [[India]]'s [[UPI]].
 
 ---
 
@@ -15,7 +15,7 @@
 | Users | 170M (93% of adult Brazilians) |
 | 5-year CAGR | 202% |
 
-**Comparison:** India's UPI took 6 years 8 months to approach 8B monthly transactions. Pix will hit it in 5 years.
+**Comparison:** [[India]]'s UPI took 6 years 8 months to approach 8B monthly transactions. Pix will hit it in 5 years.
 
 ---
 
@@ -111,9 +111,9 @@
 | System | Country | Monthly transactions | Launch |
 |--------|---------|---------------------|--------|
 | **Pix** | Brazil | 7.3B | Nov 2020 |
-| [[UPI]] | India | ~16B | Apr 2016 |
+| [[UPI]] | [[India]] | ~16B | Apr 2016 |
 | FedNow | US | <100M | Jul 2023 |
-| Faster Payments | UK | ~400M | May 2008 |
+| Faster Payments | [[UK]] | ~400M | May 2008 |
 
 Pix grew faster than any other system to reach scale.
 
@@ -126,7 +126,7 @@ Pix grew faster than any other system to reach scale.
 - [[Nubank]] — beneficiary (offers Pix)
 - [[Mercado Libre]] — Mercado Pago offers Pix
 - [[PagSeguro]] — payments competitor
-- [[UPI]] — India's equivalent system
+- [[UPI]] — [[India]]'s equivalent system
 - [[Fintech]] — sector context
 - [[Brazil]] — country context
 

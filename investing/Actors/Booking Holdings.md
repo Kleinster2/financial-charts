@@ -3,7 +3,7 @@ aliases: [Booking, Booking.com, BKNG, Priceline]
 ---
 #actor #company #travel #ota #usa #public
 
-**Booking Holdings** — World's largest OTA. Nasdaq: BKNG. Booking.com, Priceline, Kayak. Founded 1996.
+**Booking Holdings** — World's largest OTA. [[Nasdaq]]: BKNG. Booking.com, Priceline, Kayak. Founded 1996.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Booking, Booking.com, BKNG, Priceline]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | BKNG (Nasdaq) |
+| Ticker | BKNG ([[Nasdaq]]) |
 | Market cap | ~$150B |
 | Gross bookings | $150B+ |
 | Revenue | ~$22B |
@@ -25,10 +25,10 @@ Largest online travel company globally.
 
 | Brand | Focus |
 |-------|-------|
-| **Booking.com** | Hotels, Europe-dominant |
+| **Booking.com** | Hotels, [[Europe]]-dominant |
 | **Priceline** | US flights, hotels |
-| **Kayak** | Meta-search |
-| **Agoda** | Asia-Pacific |
+| **Kayak** | [[Meta]]-search |
+| **Agoda** | [[Asia]]-Pacific |
 | **OpenTable** | Restaurant reservations |
 | **Rentalcars.com** | Car rentals |
 
@@ -39,7 +39,7 @@ Largest online travel company globally.
 | Revenue | Source |
 |---------|--------|
 | Commission | 15% avg on bookings |
-| Advertising | Meta-search (Kayak) |
+| Advertising | [[Meta]]-search (Kayak) |
 | Merchant | Prepaid packages |
 
 Agency model (commission-based).
@@ -61,8 +61,8 @@ Agency model (commission-based).
 
 | Region | Position |
 |--------|----------|
-| Europe | Dominant |
-| Asia | Strong (Agoda) |
+| [[Europe]] | Dominant |
+| [[Asia]] | Strong (Agoda) |
 | US | #2 to Expedia |
 | LatAm | Growing |
 
@@ -74,7 +74,7 @@ Agency model (commission-based).
 |-----|-----------|
 | Expedia | More profitable |
 | Airbnb | Hotels focus |
-| Google | Direct relationships |
+| [[Google]] | Direct relationships |
 
 ---
 
@@ -87,7 +87,7 @@ Agency model (commission-based).
 - Connected trip strategy
 
 **Bear:**
-- Google threat
+- [[Google]] threat
 - Expedia competition
 - Airbnb alternatives
 - Valuation
@@ -98,7 +98,7 @@ Agency model (commission-based).
 
 | Metric | Value |
 |--------|-------|
-| Ticker | BKNG (Nasdaq) |
+| Ticker | BKNG ([[Nasdaq]]) |
 | Market cap | ~$150B |
 | Gross bookings | $150B+ |
 | Brands | Booking.com, Priceline, Kayak |

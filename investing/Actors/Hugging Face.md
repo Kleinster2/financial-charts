@@ -52,13 +52,13 @@ The platform where AI models live:
 | [[Google]] | Strategic (Series D) |
 | [[NVIDIA]] | Strategic (Series D) |
 | [[Amazon]] | Strategic (Series D) |
-| Salesforce | Strategic (Series D) |
-| Intel | Strategic |
+| [[Salesforce]] | Strategic (Series D) |
+| [[Intel]] | Strategic |
 | [[AMD]] | Strategic |
-| IBM | Strategic |
-| Qualcomm | Strategic |
+| [[IBM]] | Strategic |
+| [[Qualcomm]] | Strategic |
 | [[Sequoia Capital]] | Early rounds |
-| Coatue | Growth |
+| [[Coatue]] | Growth |
 
 **Total raised:** $396M
 
@@ -76,7 +76,7 @@ The platform where AI models live:
 | Pro | Enhanced features |
 | Enterprise Hub | Private deployment |
 
-**Enterprise clients:** Microsoft, Intel, eBay, 1,000+ companies.
+**Enterprise clients:** [[Microsoft]], [[Intel]], [[eBay]], 1,000+ companies.
 
 **Revenue:** ~$70M ARR (2023), growing 367% YoY.
 
@@ -96,7 +96,7 @@ The platform where AI models live:
 
 ## 2025 developments
 
-**Robotics expansion:**
+**[[Robotics]] expansion:**
 - LeRobot initiative (Sept 2025)
 - Open-source robotics
 - $100 robotic arm
@@ -108,7 +108,7 @@ Expanding beyond language models.
 
 ## Strategic position
 
-**Switzerland of AI:**
+**[[Switzerland]] of AI:**
 - Hosts models from all labs
 - Cloud-agnostic
 - Model-agnostic
@@ -137,7 +137,7 @@ Hugging Face = where models are discovered.
 - Every player invested
 - Open-source moat
 - Enterprise growing
-- Robotics expansion
+- [[Robotics]] expansion
 
 **Bear:**
 - Monetization unclear at scale
@@ -165,7 +165,7 @@ Hugging Face = where models are discovered.
 
 - [[OpenAI]] — models hosted on platform
 - [[Anthropic]] — models hosted on platform
-- [[Meta]] — Llama hosted on platform
+- [[Meta]] — [[Llama]] hosted on platform
 - [[NVIDIA]] — investor
 - [[Google]] — investor
 - [[Amazon]] — investor

@@ -2,7 +2,7 @@
 
 #actor #individual #executive #ai #product
 
-**Kevin Weil** — Chief Product Officer, [[OpenAI]]. Previously: SVP Product at Twitter (scaled to IPO), VP Product at Instagram, co-created Libra (Facebook crypto). Harvard math/physics, Stanford physics MS. Army Reserves Lieutenant Colonel. Angel investor in [[Supabase]].
+**Kevin Weil** — Chief Product Officer, [[OpenAI]]. Previously: SVP Product at Twitter (scaled to IPO), VP Product at Instagram, co-created Libra (Facebook crypto). Harvard math/physics, [[Stanford]] physics MS. Army Reserves Lieutenant Colonel. Angel investor in [[Supabase]].
 
 ---
 
@@ -11,7 +11,7 @@
 | Detail | Value |
 |--------|-------|
 | Current role | CPO, [[OpenAI]] |
-| Education | Harvard BA (Math/Physics), Stanford MS (Physics) |
+| Education | Harvard BA (Math/Physics), [[Stanford]] MS (Physics) |
 | Military | Lieutenant Colonel, Army Reserves |
 | Board seats | Planet, Strava, Black Product Managers Network, The Nature Conservancy |
 
@@ -27,7 +27,7 @@
 | Joined | 2024 |
 | Focus | Applying research to consumer/developer/enterprise products |
 
-Leading product strategy for ChatGPT, API, and enterprise offerings.
+Leading product strategy for [[ChatGPT]], API, and enterprise offerings.
 
 ### Twitter (2009-2016)
 
@@ -64,7 +64,7 @@ Built Twitter's advertising platform and revenue products.
 
 Led product for Facebook's crypto/payments initiative.
 
-### Planet Labs (2021-2024)
+### [[Planet Labs]] (2021-2024)
 
 | Detail | Value |
 |--------|-------|
@@ -80,9 +80,9 @@ Led product for Facebook's crypto/payments initiative.
 | Degree | Institution | Field |
 |--------|-------------|-------|
 | BA (summa cum laude) | Harvard | Mathematics and Physics |
-| MS | Stanford | Physics |
+| MS | [[Stanford]] | Physics |
 
-Started career as physics PhD student at Stanford Linear Accelerator Center before pivoting to tech.
+Started career as physics PhD student at [[Stanford]] Linear Accelerator Center before pivoting to tech.
 
 ### Early career
 
@@ -90,7 +90,7 @@ Started career as physics PhD student at Stanford Linear Accelerator Center befo
 |---------|------|
 | Cooliris | First employee (web media startup) |
 | Tropos Networks | Municipal wireless |
-| Microsoft Research | Research |
+| [[Microsoft]] Research | Research |
 
 ---
 
@@ -100,7 +100,7 @@ Angel investor in developer tools:
 
 | Company | Category |
 |---------|----------|
-| [[Supabase]] | Postgres BaaS |
+| [[Supabase]] | [[Postgres]] BaaS |
 
 ---
 

@@ -16,7 +16,7 @@ Memory chip leader seeking international capital:
 | Primary listing | Shanghai |
 | Secondary listing | Hong Kong ($1B, Jan 2026) |
 | Focus | Memory chips, micro-controllers |
-| End markets | Consumer electronics, industrial, automotive |
+| End markets | [[Consumer]] electronics, industrial, automotive |
 
 ---
 
@@ -29,7 +29,7 @@ Memory chip leader seeking international capital:
 **Micro-controllers (MCUs):**
 - Widely used in consumer electronics
 - Industrial applications
-- Automotive applications
+- [[Automotive]] applications
 
 Different focus than GPU-focused Four Little Dragons — memory and MCUs rather than AI accelerators.
 
@@ -39,9 +39,9 @@ Different focus than GPU-focused Four Little Dragons — memory and MCUs rather 
 
 | Metric | Value |
 |--------|-------|
-| Target raise | **$1B** |
+| [[Target]] raise | **$1B** |
 | Timing | As early as Jan 2026 |
-| Exchange | HKEX |
+| Exchange | [[HKEX]] |
 | Purpose | International capital access |
 
 Part of wave of Shanghai-listed Chinese chip firms adding HK listings:
@@ -82,7 +82,7 @@ Part of wave of Shanghai-listed Chinese chip firms adding HK listings:
 ## Related
 
 - [[Montage]] — peer (HK secondary listing)
-- [[YMTC]] — peer (China memory)
+- [[YMTC]] — peer ([[China]] memory)
 - [[Samsung]] — competitor (memory)
 - [[SK Hynix]] — competitor (memory)
 - [[Export controls]] — risk (equipment access)

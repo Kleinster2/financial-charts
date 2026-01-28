@@ -91,6 +91,6 @@ Breaking from Citi's history of sprawl.
 ## Related
 
 - [[Citigroup]] — CEO
-- [[JPMorgan Chase]] — competitor (Jamie Dimon)
+- [[JPMorgan Chase]] — competitor ([[Jamie Dimon]])
 - [[Credit card rate cap]] — policy risk
 - [[BlackRock]] — $80B outsourcing deal

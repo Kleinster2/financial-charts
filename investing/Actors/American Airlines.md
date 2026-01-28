@@ -41,7 +41,7 @@ CEO Isom: "The government shutdown hit us harder than others" — heavy exposure
 |--------|----------|
 | EPS | **$1.70-2.70** (vs $1.97 est) |
 | Q1 revenue | +7-10% YoY |
-| Free cash flow | >$2B |
+| [[Free cash flow]] | >$2B |
 | January bookings | "All-time records" for first 3 weeks |
 
 Bookings "strengthened meaningfully in January" after soft late-Q4.
@@ -101,7 +101,7 @@ Bookings "strengthened meaningfully in January" after soft late-Q4.
 - Latin America strength
 - Capacity discipline
 - Cost improvements
-- Travel demand resilient
+- [[Travel]] demand resilient
 
 **Bear:**
 - High debt burden

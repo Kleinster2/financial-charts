@@ -65,7 +65,7 @@ Goal: Create conditions for "ambitious and equitable AI diffusion."
 - **193 initiatives across 22 countries** submitted
 - Focus: adaptive learning, school management
 
-### Cybersecurity Report (2025)
+### [[Cybersecurity]] Report (2025)
 
 **IDB + OAS assessment:**
 - 30 countries evaluated
@@ -79,7 +79,7 @@ IDB financing for agricultural technology projects in Uruguay—precision farmin
 
 ### Peru rural connectivity
 
-Public-private partnership with Telefónica, Meta, IDB Invest, and [[CAF]] for wholesale rural 3G/4G access using open-access infrastructure.
+Public-private partnership with [[Telefónica]], [[Meta]], IDB Invest, and [[CAF]] for wholesale rural 3G/4G access using open-access infrastructure.
 
 ---
 
@@ -125,7 +125,7 @@ Both coordinate on regional projects; IDB is larger and more US-influenced.
 |--------|---------------|
 | Infrastructure financing | Construction, utilities |
 | Digital transformation | Tech providers, govtech |
-| Connectivity projects | Telecom companies |
+| Connectivity projects | [[Telecom]] companies |
 | Education tech | EdTech platforms |
 
 IDB financing signals government commitment, de-risks private investment.

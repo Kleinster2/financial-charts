@@ -27,7 +27,7 @@ One of the "big seven" photoresist makers, with ambitious capacity expansion:
 |---------|-----------|-------|
 | Petrochemicals | ~30% | Commodity exposure |
 | Energy & Functional Materials | ~20% | Separators, battery materials |
-| **ICT & Mobility (Semi Materials)** | ~15% | Photoresists, target for growth |
+| **ICT & Mobility (Semi Materials)** | ~15% | [[Photoresists]], target for growth |
 | Health & Crop Sciences | ~20% | Agrochemicals |
 | Pharmaceuticals | ~15% | Through Sumitomo Pharma |
 
@@ -48,7 +48,7 @@ One of the "big seven" photoresist makers, with ambitious capacity expansion:
 
 ## Capacity expansion
 
-**Osaka Works (Japan):**
+**Osaka Works ([[Japan]]):**
 - New development and evaluation facilities
 - Operations: FY2025 to H1 FY2026
 - Focus: Front-end and back-end process materials
@@ -72,7 +72,7 @@ One of the "big seven" photoresist makers, with ambitious capacity expansion:
 | [[Fujifilm]] | ~10% | Diversified |
 | **Sumitomo Chemical** | ~8% | Growing |
 | [[DuPont]] / [[Qnity]] | ~7% | US |
-| [[Merck KGaA]] | ~5% | Europe |
+| [[Merck KGaA]] | ~5% | [[Europe]] |
 
 **Top 7 = 86% of market** (2023).
 
@@ -88,7 +88,7 @@ One of the "big seven" photoresist makers, with ambitious capacity expansion:
 - ¥100B profit target provides clear catalyst
 
 **Bear:**
-- Photoresists are small part of overall business
+- [[Photoresists]] are small part of overall business
 - Conglomerate discount
 - Petrochemicals exposure (commodity volatility)
 - Behind JSR/TOK in market share
@@ -98,9 +98,9 @@ One of the "big seven" photoresist makers, with ambitious capacity expansion:
 
 ## Why not pure-play
 
-Unlike [[Tokyo Ohka Kogyo]], Sumitomo Chemical is a diversified conglomerate. Photoresists drive <20% of revenue. Investors get semiconductor materials exposure diluted by petrochemicals and pharma.
+Unlike [[Tokyo Ohka Kogyo]], Sumitomo Chemical is a diversified conglomerate. [[Photoresists]] drive <20% of revenue. Investors get semiconductor materials exposure diluted by petrochemicals and pharma.
 
-**Better for:** Investors wanting diversified Japan chemicals exposure with semiconductor optionality.
+**Better for:** Investors wanting diversified [[Japan]] chemicals exposure with semiconductor optionality.
 
 ---
 

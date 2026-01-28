@@ -43,7 +43,7 @@ Fabrinet manufactures the optical components that connect AI data centers:
 | [[Coherent]] | Optical modules |
 | [[Lumentum]] | Lasers, components |
 | NVIDIA | Optical transceivers |
-| Various | Telecom, datacom |
+| Various | [[Telecom]], datacom |
 
 **Customer concentration:** Top customers = significant revenue.
 
@@ -75,7 +75,7 @@ Fabrinet manufactures the optical components that connect AI data centers:
 **Supply chain role:**
 ```
 Component supplier → Fabrinet → Transceiver customer → Hyperscaler
-(Lumentum lasers)    (assembly)   (Coherent)          (Microsoft)
+(Lumentum lasers)    (assembly)   (Coherent)          ([[Microsoft]])
 ```
 
 ---
@@ -87,7 +87,7 @@ Component supplier → Fabrinet → Transceiver customer → Hyperscaler
 | Jabil | Global | More optical focus |
 | Flex | Global | Optical specialization |
 | Sanmina | Global | Precision assembly |
-| BYD Electronic | China | Non-China location |
+| [[BYD]] Electronic | [[China]] | Non-[[China]] location |
 
 Thailand location = supply chain diversification benefit.
 
@@ -99,7 +99,7 @@ Thailand location = supply chain diversification benefit.
 - AI optical demand
 - Manufacturing partner to leaders
 - Thailand capacity value
-- Non-China supply chain
+- Non-[[China]] supply chain
 - Precision manufacturing moat
 
 **Bear:**

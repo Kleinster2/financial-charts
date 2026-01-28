@@ -47,7 +47,7 @@ Bob Marshall: "Harmonics are a pretty good canary in the coal mine for early sig
 **Why it matters for investors:**
 - Grid degradation = regulatory/political risk for DC expansion
 - Validates [[Power constraints]] thesis — grid wasn't built for this
-- Could drive new regulations on DC power quality requirements
+- Could drive new regulations on [[DC power quality]] requirements
 - Supports [[BYOP]] thesis — DCs may need to self-generate to avoid grid harm
 
 ---
@@ -95,10 +95,10 @@ Investors: State Farm Ventures, Polaris Partners. Relatively modest funding — 
 
 ## Business model
 
-- **Insurance partnerships:** State Farm distributes Ting sensors to policyholders (fire prevention reduces claims)
+- **[[Insurance]] partnerships:** State Farm distributes Ting sensors to policyholders (fire prevention reduces claims)
 - **Utility partnerships:** Sells grid intelligence data to utilities
 - **Data licensing:** Power quality data to researchers, regulators, media (Bloomberg)
-- **Consumer:** Fire prevention monitoring service
+- **[[Consumer]]:** Fire prevention monitoring service
 
 ---
 

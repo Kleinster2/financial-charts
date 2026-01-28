@@ -6,13 +6,13 @@ Tracking index targets, earnings growth, and flow projections by firm. Distinct 
 
 ---
 
-## China (2026)
+## [[China]] (2026)
 
 ### [[Goldman Sachs]] (Kinger Lau) — Jan 6, 2026
 
 | Index | 2025 close | 2026 target | Upside |
 |-------|------------|-------------|--------|
-| [[MSCI]] China | ~83 | 100 | **+20%** |
+| [[MSCI]] [[China]] | ~83 | 100 | **+20%** |
 | CSI 300 | ~4,640 | 5,200 | +12% |
 
 **Earnings growth:**
@@ -28,10 +28,10 @@ Tracking index targets, earnings growth, and flow projections by firm. Distinct 
 - "Going Global" (Chinese companies expanding abroad)
 - Anti-involution policy
 
-**2025 actual:** [[MSCI]] China +28%, CSI 300 +18%
-**2026 YTD:** CSI 300 +3.5% (4-year high), [[MSCI]] China +3.6%
+**2025 actual:** [[MSCI]] [[China]] +28%, CSI 300 +18%
+**2026 YTD:** CSI 300 +3.5% (4-year high), [[MSCI]] [[China]] +3.6%
 
-*Source: Goldman Sachs China strategy note*
+*Source: Goldman Sachs [[China]] strategy note*
 
 ---
 
@@ -39,7 +39,7 @@ Tracking index targets, earnings growth, and flow projections by firm. Distinct 
 
 ### S&P 500 targets
 
-| Firm | Target | Upside | Date |
+| Firm | [[Target]] | Upside | Date |
 |------|--------|--------|------|
 | — | — | — | — |
 
@@ -54,15 +54,15 @@ Tracking index targets, earnings growth, and flow projections by firm. Distinct 
 
 ---
 
-## Europe (2026)
+## [[Europe]] (2026)
 
 ### [[Greece]]
 
-| Index | Target | Upside | Date |
+| Index | [[Target]] | Upside | Date |
 |-------|--------|--------|------|
-| Athens Stock Exchange | — | — | Stoxx inclusion Sep 2026 |
+| Athens Stock Exchange | — | — | [[Stoxx]] inclusion Sep 2026 |
 
-**Passive inflows:** $962M on Stoxx upgrade (JPMorgan)
+**Passive inflows:** $962M on [[Stoxx]] upgrade (JPMorgan)
 
 ---
 

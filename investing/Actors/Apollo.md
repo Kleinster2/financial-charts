@@ -32,7 +32,7 @@ Credit = majority of business (different from Blackstone).
 
 ## [[Athene]] integration
 
-**Insurance platform:**
+**[[Insurance]] platform:**
 - Merged with [[Athene]] (Jan 2022, ~$11B all-stock)
 - #1 US individual annuity seller, $430B total assets
 - Permanent capital vehicle — low-cost float for credit deployment
@@ -44,7 +44,7 @@ Credit = majority of business (different from Blackstone).
 
 **Targeting wealthy individuals:**
 
-**Jim Zelter (co-president):** "We're launching our European product platform in the coming months designed to offer a full suite of options to individuals in Europe."
+**Jim Zelter (co-president):** "We're launching our European product platform in the coming months designed to offer a full suite of options to individuals in [[Europe]]."
 
 Part of broader industry push to bring [[Private credit]] to high-net-worth individuals (following Blackstone's BCRED and Luxembourg fund).
 
@@ -73,7 +73,7 @@ Apollo's credit arm is exposed to retail distress through this position. Bonds t
 | Energy infrastructure | Power for AI |
 | Corporate credit | Tech lending |
 
-Less direct than [[Blackstone]] (QTS) or [[Blue Owl]] (Meta JV).
+Less direct than [[Blackstone]] ([[QTS]]) or [[Blue Owl]] ([[Meta]] JV).
 
 ---
 
@@ -123,7 +123,7 @@ Stock fell on Trump's institutional homebuying ban announcement:
 | Partnership | Amount | Detail |
 |-------------|--------|--------|
 | [[Mubadala]] private credit anchor | $12B | 2020 platform launch |
-| Citigroup/Apollo private credit | $25B | 2024-25 program |
+| [[Citigroup]]/Apollo private credit | $25B | 2024-25 program |
 
 Apollo is a top destination for Abu Dhabi sovereign capital seeking private credit exposure.
 

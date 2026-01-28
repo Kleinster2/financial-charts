@@ -50,15 +50,15 @@ Three pillars.
 - Founded 2009
 - C2C/B2C marketplace
 - #1-2 in Indonesia
-- Alibaba investment
+- [[Alibaba]] investment
 
 ---
 
-## TikTok Shop deal
+## [[TikTok]] Shop deal
 
 **2023 development:**
-- TikTok Shop merger with Tokopedia
-- 75% TikTok ownership of e-commerce
+- [[TikTok]] Shop merger with Tokopedia
+- 75% [[TikTok]] ownership of e-commerce
 - GoTo retains minority stake
 - Regulatory response
 
@@ -96,13 +96,13 @@ GoTo = Indonesia specialist.
 **Bull:**
 - Indonesia's digital economy
 - Demographics
-- Fintech potential
-- TikTok deal cash
+- [[Fintech]] potential
+- [[TikTok]] deal cash
 
 **Bear:**
 - Profitability struggles
 - Competition intense
-- TikTok deal complexity
+- [[TikTok]] deal complexity
 - Regulatory uncertainty
 
 ---
@@ -125,6 +125,6 @@ GoTo = Indonesia specialist.
 - [[Indonesia Tech]] — sovereign context
 - [[Grab]] — competitor (ride-hailing)
 - [[Sea Group]] — competitor (e-commerce via Shopee)
-- [[ByteDance]] — partner (TikTok Shop + Tokopedia merger)
+- [[ByteDance]] — partner ([[TikTok]] Shop + Tokopedia merger)
 - [[Southeast Asia tech race]] — regional context
 

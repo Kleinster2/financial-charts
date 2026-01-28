@@ -24,12 +24,12 @@ Infineon is the global leader in two critical categories:
 
 | Segment | Position | Share |
 |---------|----------|-------|
-| Automotive semiconductors | #1 globally | ~13% |
+| [[Automotive]] semiconductors | #1 globally | ~13% |
 | Power semiconductors | #1 globally | ~20% |
 | Security ICs | Top 3 | — |
 | Industrial | Top 5 | — |
 
-Double leadership in auto + power = unique position for EV transition.
+Double leadership in auto + power = unique position for [[EV transition]].
 
 ---
 
@@ -44,7 +44,7 @@ Double leadership in auto + power = unique position for EV transition.
 | SiC | High-efficiency EVs |
 | GaN | Fast chargers, data centers |
 
-**Automotive:**
+**[[Automotive]]:**
 
 | Product | Applications |
 |---------|--------------|
@@ -55,7 +55,7 @@ Double leadership in auto + power = unique position for EV transition.
 
 ---
 
-## EV transition beneficiary
+## [[EV transition]] beneficiary
 
 **More content per EV:**
 
@@ -75,7 +75,7 @@ EVs = 4x the semiconductor content of ICE. Infineon's power focus = maximum leve
 |----------|----------|
 | [[Tesla]] | Power semiconductors |
 | VW Group | Full portfolio |
-| BMW | Power, MCUs |
+| [[BMW]] | Power, MCUs |
 | Toyota | Power, sensors |
 | Tier 1s | Bosch, Continental, Denso |
 
@@ -92,7 +92,7 @@ Broad OEM and Tier 1 relationships.
 | Dresden, Germany | Power, automotive |
 | Villach, Austria | Power (new 300mm) |
 | Kulim, Malaysia | Power (expanding) |
-| Regensburg, Germany | Automotive |
+| Regensburg, Germany | [[Automotive]] |
 
 Power semis less node-dependent = own fabs viable.
 
@@ -106,9 +106,9 @@ Power semis less node-dependent = own fabs viable.
 |----|--------------------|-----------------------|
 | [[STMicro]] | Auto breadth, power scale | SiC specific, MEMS |
 | [[NXP]] | Power semis, MCUs | Radar, connectivity |
-| [[Renesas]] | Power, European presence | Japan auto relationships |
+| [[Renesas]] | Power, European presence | [[Japan]] auto relationships |
 | ON Semi | Scale, breadth | SiC focus |
-| Texas Instruments | Auto focus | Analog breadth |
+| [[Texas Instruments]] | Auto focus | Analog breadth |
 
 ---
 
@@ -118,10 +118,10 @@ Power semis less node-dependent = own fabs viable.
 
 | Capability | Value |
 |------------|-------|
-| Automotive MCUs | Expanded portfolio |
-| Memory (NOR flash) | Automotive storage |
+| [[Automotive]] MCUs | Expanded portfolio |
+| Memory (NOR flash) | [[Automotive]] storage |
 | Connectivity | Wi-Fi, Bluetooth |
-| USB-C | Consumer/industrial |
+| USB-C | [[Consumer]]/industrial |
 
 Made Infineon more complete in automotive.
 
@@ -134,7 +134,7 @@ Made Infineon more complete in automotive.
 | Ticker | IFX (Frankfurt), IFNNY (OTC) |
 | Market cap | ~€45B (~$50B) |
 | Revenue (FY24) | ~€15B |
-| Automotive revenue | ~50% |
+| [[Automotive]] revenue | ~50% |
 | Power & sensor revenue | ~30% |
 | Gross margin | ~42% |
 | P/E | ~15x |
@@ -145,13 +145,13 @@ Made Infineon more complete in automotive.
 
 **Bull case:**
 - #1 in two growing markets
-- EV transition = secular tailwind
+- [[EV transition]] = secular tailwind
 - European strategic asset
 - Cypress integration complete
 
 **Bear case:**
 - Auto cycle exposure
-- China EV competition
+- [[China]] EV competition
 - SiC competition heating up
 - European cost structure
 

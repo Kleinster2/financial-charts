@@ -14,7 +14,7 @@ AI chips generate massive heat — Vertiv provides the cooling:
 | Metric | Value |
 |--------|-------|
 | Market position | #1 data center thermal/power |
-| Products | Cooling, UPS, racks, monitoring |
+| Products | Cooling, [[UPS]], racks, monitoring |
 | AI exposure | Liquid cooling for GPU clusters |
 | Stock performance | +200%+ since 2023 |
 
@@ -41,7 +41,7 @@ AI chips generate massive heat — Vertiv provides the cooling:
 | Category | Products |
 |----------|----------|
 | **Thermal** | Precision cooling, liquid cooling, chillers |
-| **Power** | UPS, switchgear, busway |
+| **Power** | [[UPS]], switchgear, busway |
 | **Racks** | IT racks, containment |
 | **Monitoring** | DCIM software |
 
@@ -65,8 +65,8 @@ Vertiv is positioned for the shift to high-density AI.
 
 | Competitor | Focus | Vertiv advantage |
 |------------|-------|------------------|
-| Schneider Electric | Broad electrical | Thermal focus |
-| Eaton | Power | DC specialization |
+| [[Schneider Electric]] | Broad electrical | Thermal focus |
+| [[Eaton]] | Power | DC specialization |
 | Rittal | Racks, enclosures | Full stack |
 | Asetek | Liquid cooling | Scale, relationships |
 
@@ -95,7 +95,7 @@ Vertiv is the pure-play DC infrastructure leader.
 - AI = thermal management demand
 - Liquid cooling adoption accelerating
 - Market leader position
-- Hyperscaler capex tailwind
+- [[Hyperscaler capex]] tailwind
 - Stock momentum
 
 **Bear:**

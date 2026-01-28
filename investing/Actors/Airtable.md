@@ -96,7 +96,7 @@ Differentiated by database flexibility.
 - Competition from Notion, Monday
 - Valuation reset needed
 - Growth questions
-- Microsoft threat
+- [[Microsoft]] threat
 
 ---
 

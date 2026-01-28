@@ -45,7 +45,7 @@ Su transformed AMD from near-bankruptcy to credible NVIDIA competitor:
 - Customers hesitant to switch
 - "Mental moat" — perception that only NVIDIA works
 
-**Strategy:** Target inference (less CUDA-dependent) before training.
+**Strategy:** [[Target]] inference (less CUDA-dependent) before training.
 
 ---
 
@@ -56,13 +56,13 @@ Su transformed AMD from near-bankruptcy to credible NVIDIA competitor:
 **What this means:**
 - Personal relationship with TSMC leadership
 - AMD gets good capacity allocation
-- But NVIDIA/Apple still priority
+- But NVIDIA/[[Apple]] still priority
 
 ---
 
 ## Acquisitions
 
-| Target | Year | Why |
+| [[Target]] | Year | Why |
 |--------|------|-----|
 | Xilinx | 2022 | FPGAs, $49B |
 | Pensando | 2022 | DPUs |
@@ -102,8 +102,8 @@ AMD invested in [[xAI]] (Dec 2024 round) — strategic relationship with Musk en
 
 - CUDA moat may be insurmountable
 - ROCm software gap
-- NVIDIA acquires competitors (Groq)
-- HBM supply constraints affect AMD too
+- NVIDIA acquires competitors ([[Groq]])
+- [[HBM]] supply constraints affect AMD too
 
 ---
 
@@ -123,7 +123,7 @@ AMD invested in [[xAI]] (Dec 2024 round) — strategic relationship with Musk en
 ## Related
 
 - [[AMD]] — CEO (since 2014, turnaround architect)
-- [[NVIDIA]] — competitor (Jensen Huang)
+- [[NVIDIA]] — competitor ([[Jensen Huang]])
 - [[TSMC]] — foundry partner (family connection)
 - [[CUDA moat]] — challenger (ROCm)
 - [[xAI]] — AMD invested (strategic partner)

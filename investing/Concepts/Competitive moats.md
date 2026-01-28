@@ -8,9 +8,9 @@
 
 | Moat | Description | Example |
 |------|-------------|---------|
-| **Network effects** | Value grows with users | Visa, Meta |
-| **Switching costs** | Expensive to leave | Salesforce, SAP |
-| **Intangibles** | Brands, patents, licenses | Coca-Cola, Pfizer |
+| **Network effects** | Value grows with users | Visa, [[Meta]] |
+| **Switching costs** | Expensive to leave | [[Salesforce]], [[SAP]] |
+| **Intangibles** | Brands, patents, licenses | [[Coca-Cola]], [[Pfizer]] |
 | **Cost advantage** | Lower costs than rivals | Costco, GEICO |
 | **Efficient scale** | Natural monopoly dynamics | Utilities, exchanges |
 
@@ -33,9 +33,9 @@ See [[Network effects]] for detail.
 
 | Type | Example |
 |------|---------|
-| Technical | ERP migration (SAP) |
-| Data | CRM history (Salesforce) |
-| Learning | Adobe Creative Suite |
+| Technical | ERP migration ([[SAP]]) |
+| Data | CRM history ([[Salesforce]]) |
+| Learning | [[Adobe]] Creative Suite |
 | Contractual | Multi-year enterprise deals |
 | Financial | Early termination fees |
 
@@ -45,11 +45,11 @@ See [[Network effects]] for detail.
 
 | Type | Example |
 |------|---------|
-| Brand | Apple, Nike, Hermès |
+| Brand | [[Apple]], [[Nike]], [[Hermès]] |
 | Patents | Pharma, semiconductors |
 | Licenses | Spectrum, gaming |
 | Regulatory | Banking charters |
-| Trade secrets | Google algorithm |
+| [[Trade]] secrets | [[Google]] algorithm |
 
 ---
 
@@ -57,8 +57,8 @@ See [[Network effects]] for detail.
 
 | Source | Example |
 |--------|---------|
-| Scale | Costco, Walmart |
-| Process | Toyota production system |
+| Scale | Costco, [[Walmart]] |
+| Process | [[Toyota]] production system |
 | Location | Mining, timber |
 | Unique assets | Low-cost reserves |
 
@@ -70,7 +70,7 @@ See [[Network effects]] for detail.
 |----------------|---------|
 | Limited market size | Regional utilities |
 | High fixed costs | Exchanges, rail |
-| Regulatory barriers | Telecom |
+| Regulatory barriers | [[Telecom]] |
 
 ---
 
@@ -88,7 +88,7 @@ See [[Network effects]] for detail.
 
 ## Moat erosion signals
 
-| Signal | Concern |
+| [[Signal]] | Concern |
 |--------|---------|
 | Market share loss | Competition winning |
 | Pricing pressure | Moat weakening |

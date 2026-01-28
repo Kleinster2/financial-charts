@@ -23,7 +23,7 @@ aliases: [NioCorp, NIOBF]
 | Aspect | Detail |
 |--------|--------|
 | Location | Nebraska |
-| Target minerals | Niobium, scandium, rare earths |
+| [[Target]] minerals | Niobium, scandium, rare earths |
 | Status | Pre-production |
 | Timeline | No commercial production date shared |
 
@@ -52,7 +52,7 @@ aliases: [NioCorp, NIOBF]
 **Bull:**
 - Domestic rare earth source
 - Trump admin support potential
-- Critical minerals policy tailwind
+- [[Critical minerals]] policy tailwind
 - Nebraska location (permitting may be easier)
 
 **Bear:**

@@ -49,13 +49,13 @@ Most concentrated ex-OpenAI talent outside Anthropic.
 
 | Person | TML Role | Now |
 |--------|----------|-----|
-| Barret Zoph | CTO (founding) | Back at OpenAI (reports to Fidji Simo) |
+| Barret Zoph | CTO (founding) | Back at OpenAI (reports to [[Fidji Simo]]) |
 | Luke Metz | Founding team | Back at OpenAI |
 | Sam Schoenholz | Founding team | Back at OpenAI |
 
-**Context:** Murati fired Zoph after he told her he was considering leaving. OpenAI's Fidji Simo stated they "do not share" concerns about alleged "unethical reasons" cited by some sources.
+**Context:** Murati fired Zoph after he told her he was considering leaving. OpenAI's [[Fidji Simo]] stated they "do not share" concerns about alleged "unethical reasons" cited by some sources.
 
-Soumith Chintala (PyTorch creator, ex-Meta AI) promoted to CTO to replace Zoph.
+Soumith Chintala (PyTorch creator, ex-[[Meta]] AI) promoted to CTO to replace Zoph.
 
 ---
 
@@ -73,10 +73,10 @@ Soumith Chintala (PyTorch creator, ex-Meta AI) promoted to CTO to replace Zoph.
 | [[a16z]] | Lead |
 | [[NVIDIA]] | Strategic |
 | [[AMD]] | Strategic (rare NVIDIA + AMD combo) |
-| Accel | Growth |
-| ServiceNow | Enterprise strategic |
-| Cisco | Enterprise strategic |
-| Jane Street | Financial |
+| [[Accel]] | Growth |
+| [[ServiceNow]] | Enterprise strategic |
+| [[Cisco]] | Enterprise strategic |
+| [[Jane Street]] | Financial |
 
 **Total raised:** $2B
 

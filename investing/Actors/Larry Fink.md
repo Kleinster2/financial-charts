@@ -34,13 +34,13 @@ Built BlackRock from startup to world's largest asset manager.
 
 **Influential CEO communication:**
 - Sent to portfolio company CEOs
-- Sets ESG/governance expectations
+- Sets [[ESG]]/governance expectations
 - Markets watch for themes
 - Shifted from climate focus (political backlash)
 
 ---
 
-## Private markets pivot
+## [[Private markets]] pivot
 
 **2024 strategy shift:**
 - $28B in acquisitions (GIP, HPS, Preqin)

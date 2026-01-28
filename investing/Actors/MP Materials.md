@@ -9,7 +9,7 @@ aliases: [MP, Mountain Pass]
 
 ## Why MP Materials matters
 
-MP Materials is the Western answer to China's rare earth dominance:
+MP Materials is the Western answer to [[China]]'s rare earth dominance:
 
 | Metric | Value |
 |--------|-------|
@@ -17,7 +17,7 @@ MP Materials is the Western answer to China's rare earth dominance:
 | Mountain Pass | Only US rare earth mine |
 | Fort Worth | "Independence" magnet factory |
 | Capacity target | 11,000 short tons magnets/year by 2028 |
-| Key partners | [[Apple]], US Department of Defense |
+| Key partners | [[Apple]], US Department of [[Defense]] |
 
 ---
 
@@ -32,7 +32,7 @@ MP Materials is the Western answer to China's rare earth dominance:
 | Output | Light rare earths (Nd, Pr, La, Ce) |
 | Limitation | No heavy REE separation (yet) |
 
-**Challenge**: Mine produces ore, but separation historically went to China. MP is building domestic separation capacity.
+**Challenge**: Mine produces ore, but separation historically went to [[China]]. MP is building domestic separation capacity.
 
 ### Fort Worth, Texas ("Independence")
 
@@ -74,13 +74,13 @@ See [[Apple MP Materials partnership]] for full details.
 | Metric | Value |
 |--------|-------|
 | Investment | $400M equity |
-| Investor | US Department of Defense |
+| Investor | US Department of [[Defense]] |
 | Stake | **Largest shareholder** post-deal |
 | Purpose | Magnet plant expansion |
 | Capacity target | 11,000 short tons/year by 2028 |
 | **Purchase guarantee** | **10-year commitment** to buy all magnet output |
 
-**Strategic logic**: US defense cannot depend on China for permanent magnets. MP is the only domestic alternative at scale.
+**Strategic logic**: US defense cannot depend on [[China]] for permanent magnets. MP is the only domestic alternative at scale.
 
 **Timeline:** Pentagon investment announced July 2025, followed 5 days later by Apple $500M deal.
 
@@ -91,24 +91,24 @@ See [[Apple MP Materials partnership]] for full details.
 | Strength | Weakness |
 |----------|----------|
 | Only US rare earth mine | No heavy REE (dysprosium) production |
-| Apple/DoD anchors | Still small vs China |
+| Apple/DoD anchors | Still small vs [[China]] |
 | Recycling technology | Scaling risk |
-| Magnet manufacturing | Cost disadvantage vs China |
+| Magnet manufacturing | Cost disadvantage vs [[China]] |
 
-**The gap**: MP does light rare earths (Nd, Pr). [[Dysprosium]] (the critical heavy REE) still comes from China. This limits how much supply chain risk MP can actually address.
+**The gap**: MP does light rare earths (Nd, Pr). [[Dysprosium]] (the critical heavy REE) still comes from [[China]]. This limits how much supply chain risk MP can actually address.
 
 ---
 
 ## Scale reality
 
-**MP vs China (CSIS analysis):**
+**MP vs [[China]] (CSIS analysis):**
 
-| Metric | MP Materials | China |
+| Metric | MP Materials | [[China]] |
 |--------|--------------|-------|
 | 2025 NdFeB magnet output | ~1,000 metric tons | 100,000+ tons (2018) |
-| MP share of China 2018 | **<1%** | — |
+| MP share of [[China]] 2018 | **<1%** | — |
 | If MP scales 10x | 10,000 tons | — |
-| 10x MP share of China | **~7%** | — |
+| 10x MP share of [[China]] | **~7%** | — |
 
 **Gracelin Baskaran (CSIS):** "God just didn't give us those deposits, so we're very reliant on other countries."
 
@@ -123,11 +123,11 @@ See [[Apple MP Materials partnership]] for full details.
 - Apple anchor customer ($500M)
 - DoD strategic priority
 - Recycling technology differentiator
-- China rare earth controls = tailwind
+- [[China]] rare earth controls = tailwind
 
 **Bear:**
 - No heavy REE production
-- Cost disadvantage vs China
+- Cost disadvantage vs [[China]]
 - Small relative to global demand
 - Execution risk on expansion
 - Recycling economics unproven at scale
@@ -154,4 +154,4 @@ See [[Apple MP Materials partnership]] for full details.
 - [[Dysprosium]] — The element MP can't produce
 - [[Rare earth leverage]] — Why MP matters geopolitically
 - [[Rare earth elements]] — Full element breakdown
-- [[Lockheed Martin]] — Defense customer
+- [[Lockheed Martin]] — [[Defense]] customer

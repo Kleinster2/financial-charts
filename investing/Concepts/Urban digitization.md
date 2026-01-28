@@ -10,14 +10,14 @@
 
 | Aspect | Retrofit (established cities) | Greenfield (new builds) |
 |--------|-------------------------------|-------------------------|
-| **Examples** | London, NYC, Singapore, Tokyo | NEOM, Songdo, Xiong'an |
+| **Examples** | London, NYC, Singapore, Tokyo | [[NEOM]], Songdo, Xiong'an |
 | **Approach** | Layer onto legacy | Design from scratch |
 | **Timeline** | Incremental (decades) | Big bang (risky) |
 | **Cost model** | Spread, ROI-driven | Massive upfront |
 | **Risk** | Fragmentation | Megaproject failure |
-| **Track record** | Proven | Mixed (NEOM struggling) |
+| **Track record** | Proven | Mixed ([[NEOM]] struggling) |
 
-**Key insight:** Most smart city success stories are retrofits, not greenfield. NEOM-style megaprojects have high failure rates.
+**Key insight:** Most smart city success stories are retrofits, not greenfield. [[NEOM]]-style megaprojects have high failure rates.
 
 ---
 
@@ -35,7 +35,7 @@
 
 ## Common retrofit patterns
 
-### 1. Transport digitization
+### 1. [[Transport]] digitization
 
 | Component | Examples |
 |-----------|----------|
@@ -79,7 +79,7 @@
 
 | Factor | Implication |
 |--------|-------------|
-| **Proven vendors** | Siemens, Cisco, IBM established |
+| **Proven vendors** | Siemens, Cisco, [[IBM]] established |
 | **Municipal budgets** | Predictable, recurring |
 | **Long contracts** | TfL £1.5B network contract (2029-2035) |
 | **Regulatory clarity** | Established procurement |
@@ -102,7 +102,7 @@
 | **Legacy integration** | Old systems don't talk to new |
 | **Vendor lock-in** | Proprietary platforms |
 | **Privacy concerns** | CCTV, data collection |
-| **Cybersecurity** | Expanded attack surface |
+| **[[Cybersecurity]]** | Expanded attack surface |
 | **Digital divide** | Not all residents connected |
 
 ---
@@ -125,7 +125,7 @@
 
 | Company | Strength |
 |---------|----------|
-| [[Siemens]] | Transport, grid |
+| [[Siemens]] | [[Transport]], grid |
 | [[Cisco]] | Networking |
 | [[Schneider Electric]] | Energy management |
 | Boldyn Networks | Connectivity (NYC, London) |
@@ -134,17 +134,17 @@
 
 | Company | Focus |
 |---------|-------|
-| Microsoft | Azure IoT |
-| IBM | City platforms |
+| [[Microsoft]] | Azure IoT |
+| [[IBM]] | City platforms |
 | Hitachi | Urban solutions |
 
 ### Connectivity
 
 | Company | Role |
 |---------|------|
-| Ericsson | 5G infrastructure |
-| Nokia | 5G, IoT |
-| Qualcomm | Chips |
+| [[Ericsson]] | 5G infrastructure |
+| [[Nokia]] | 5G, IoT |
+| [[Qualcomm]] | Chips |
 
 ---
 

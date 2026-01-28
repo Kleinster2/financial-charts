@@ -2,7 +2,7 @@
 
 #actor #vc #usa #private #multi-stage
 
-**Accel** — Global VC firm, founded 1983. **~$9.5B AUM.** Famous for $12.7M Facebook investment (2005) for 10% — one of greatest VC returns ever. Portfolio: Atlassian, Dropbox, Slack, Spotify, CrowdStrike, UiPath, [[Supabase]]. Offices in Palo Alto, London, India.
+**Accel** — Global VC firm, founded 1983. **~$9.5B AUM.** Famous for $12.7M Facebook investment (2005) for 10% — one of greatest VC returns ever. Portfolio: [[Atlassian]], Dropbox, [[Slack]], [[Spotify]], [[CrowdStrike]], UiPath, [[Supabase]]. Offices in Palo Alto, London, [[India]].
 
 ---
 
@@ -15,7 +15,7 @@
 | Founders | Arthur Patterson, Jim Swartz |
 | AUM | ~$9.5B |
 | Team | 171 (60 partners, 45 principals) |
-| Offices | Palo Alto, San Francisco, London, India |
+| Offices | Palo Alto, San Francisco, London, [[India]] |
 | Portfolio exits | 378+ acquisitions |
 
 ---
@@ -24,13 +24,13 @@
 
 | Sector | Stage |
 |--------|-------|
-| Enterprise SaaS | Seed to growth |
-| Consumer | Seed to growth |
-| Fintech | Seed to growth |
+| Enterprise [[SaaS]] | Seed to growth |
+| [[Consumer]] | Seed to growth |
+| [[Fintech]] | Seed to growth |
 | Security | Seed to growth |
 | Developer tools | Seed to growth |
 
-Global strategy with dedicated India and Europe teams.
+Global strategy with dedicated [[India]] and [[Europe]] teams.
 
 ---
 
@@ -52,22 +52,22 @@ Global strategy with dedicated India and Europe teams.
 | Company | Category | Status |
 |---------|----------|--------|
 | Facebook/[[Meta]] | Social | IPO 2012 |
-| Atlassian | Dev tools | IPO 2015 |
+| [[Atlassian]] | Dev tools | IPO 2015 |
 | [[Dropbox]] | Storage | IPO 2018 |
-| Slack | Messaging | Acquired by Salesforce |
-| Spotify | Music | IPO 2018 |
-| CrowdStrike | Security | IPO 2019 |
+| [[Slack]] | Messaging | Acquired by [[Salesforce]] |
+| [[Spotify]] | Music | IPO 2018 |
+| [[CrowdStrike]] | Security | IPO 2019 |
 | UiPath | RPA | IPO 2021 |
-| Etsy | E-commerce | IPO 2015 |
-| Qualtrics | Survey | IPO, acquired by SAP |
+| [[Etsy]] | E-commerce | IPO 2015 |
+| Qualtrics | Survey | IPO, acquired by [[SAP]] |
 
 ### Current portfolio (notable)
 
 | Company | Category |
 |---------|----------|
 | [[Supabase]] | Developer tools |
-| [[Lovable]] | Vibe coding ($6.6B) |
-| Figma | Design |
+| [[Lovable]] | [[Vibe coding]] ($6.6B) |
+| [[Figma]] | Design |
 | Webflow | No-code |
 | Miro | Collaboration |
 | 1Password | Security |
@@ -93,7 +93,7 @@ Global strategy with dedicated India and Europe teams.
 | Firm | Shared deals |
 |------|--------------|
 | [[Tiger Global]] | 51 companies |
-| Insight Partners | 29 companies |
+| [[Insight Partners]] | 29 companies |
 | [[Goldman Sachs]] | 26 companies |
 
 ---

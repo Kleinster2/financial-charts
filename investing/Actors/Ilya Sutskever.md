@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #talent #founder
 
-**Ilya Sutskever** — OpenAI co-founder/Chief Scientist. Founded SSI ($32B). Godfather of deep learning. Meta tried to acquire, rebuffed.
+**Ilya Sutskever** — OpenAI co-founder/Chief Scientist. Founded SSI ($32B). Godfather of deep learning. [[Meta]] tried to acquire, rebuffed.
 
 ---
 
@@ -25,7 +25,7 @@ Most influential AI researcher of the era:
 **Co-founded OpenAI (2015):**
 - Chief Scientist for ~9 years
 - Key architect of GPT series
-- Led research that created ChatGPT
+- Led research that created [[ChatGPT]]
 - Left June 2024
 
 **The board drama (Nov 2023):**
@@ -42,7 +42,7 @@ Most influential AI researcher of the era:
 | Aspect | Details |
 |--------|---------|
 | Mission | Safely develop superintelligence |
-| Co-founders | Daniel Gross (ex-Apple AI), Daniel Levy |
+| Co-founders | [[Daniel Gross]] (ex-[[Apple]] AI), Daniel Levy |
 | Employees | ~20 |
 | Offices | Palo Alto + Tel Aviv |
 
@@ -53,7 +53,7 @@ Most influential AI researcher of the era:
 | March 2025 | $2B | $30B |
 | April 2025 | — | $32B |
 
-**Investors:** a16z, Sequoia, Lightspeed, DST Global, Greenoaks, Google, NVIDIA
+**Investors:** [[a16z]], Sequoia, Lightspeed, [[DST Global]], [[Greenoaks]], Google, [[NVIDIA]]
 
 ---
 
@@ -70,10 +70,10 @@ Market betting on Ilya's genius.
 
 ---
 
-## Meta acquisition attempt
+## [[Meta]] acquisition attempt
 
 **H1 2025:**
-- Meta tried to acquire SSI
+- [[Meta]] tried to acquire SSI
 - Sutskever rebuffed
 - Staying independent
 - Focus on safe AGI
@@ -84,7 +84,7 @@ Market betting on Ilya's genius.
 
 **Deep learning pioneer:**
 - PhD under Geoffrey Hinton
-- AlexNet (2012) — started deep learning revolution
+- [[AlexNet]] (2012) — started deep learning revolution
 - Sequence-to-sequence learning
 - GPT architecture contributions
 
@@ -119,7 +119,7 @@ One of ~5 people who created modern AI.
 | Previous | OpenAI Chief Scientist |
 | SSI valuation | $32B |
 | SSI employees | ~20 |
-| Background | PhD (Hinton), AlexNet |
+| Background | PhD (Hinton), [[AlexNet]] |
 
 *Updated 2026-01-01*
 

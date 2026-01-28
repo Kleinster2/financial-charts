@@ -97,8 +97,8 @@ Future of air combat.
 | Competitor | Focus |
 |------------|-------|
 | [[Anduril]] | Ground/sea/counter-drone |
-| Kratos | Target drones, XQ-58 |
-| Boeing (MQ-28) | Loyal wingman |
+| [[Kratos]] | [[Target]] drones, XQ-58 |
+| [[Boeing]] (MQ-28) | Loyal wingman |
 | Lockheed | Legacy + emerging |
 
 ---
@@ -110,7 +110,7 @@ Future of air combat.
 - Hivemind platform approach
 - GPS-denied differentiation
 - Fighter jet credibility
-- Defense spending tailwind
+- [[Defense]] spending tailwind
 
 **Bear:**
 - Complex certification path
@@ -142,8 +142,8 @@ Future of air combat.
 |----------|-------|
 | [[a16z]] | Multiple rounds |
 | [[General Catalyst]] | Multiple rounds |
-| Point72 Ventures | Growth |
-| Riot Ventures | Defense focus |
+| [[Point72]] Ventures | Growth |
+| Riot Ventures | [[Defense]] focus |
 | SVB Capital | Growth |
 
 ---

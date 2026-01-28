@@ -12,7 +12,7 @@ Passed after US switched recognition to PRC. Key provisions:
 
 | Provision | Effect |
 |-----------|--------|
-| Defense articles | US provides weapons for Taiwan's defense |
+| [[Defense]] articles | US provides weapons for Taiwan's defense |
 | "Grave concern" | US would treat force against Taiwan as serious matter |
 | No recognition | US doesn't recognize ROC government |
 | People-to-people | Maintains unofficial relations via AIT |
@@ -32,20 +32,20 @@ Reagan's private commitments to Taiwan:
 
 Made public 2020; codified by Congress.
 
-### One China policy (US version)
+### One [[China]] policy (US version)
 
 | Element | Meaning |
 |---------|---------|
-| Acknowledges | PRC position that Taiwan is part of China |
+| Acknowledges | PRC position that Taiwan is part of [[China]] |
 | Does not accept | PRC sovereignty claim |
 | Opposes | Unilateral changes to status quo by either side |
 | Based on | Three Joint Communiqués + TRA + Six Assurances |
 
-**Note:** US "One China policy" ≠ PRC "One China principle" — critical distinction.
+**Note:** US "One [[China]] policy" ≠ PRC "One [[China]] principle" — critical distinction.
 
 ---
 
-## Defense cooperation
+## [[Defense]] cooperation
 
 ### Arms sales
 
@@ -78,14 +78,14 @@ Made public 2020; codified by Congress.
 
 ## Economic ties
 
-### Trade
+### [[Trade]]
 
 | Metric | Value (2024) |
 |--------|--------------|
 | US-Taiwan trade | ~$115B |
 | US exports | ~$40B |
 | Taiwan exports | ~$75B |
-| Key Taiwan exports | Semiconductors, electronics |
+| Key Taiwan exports | [[Semiconductors]], electronics |
 | Key US exports | Soybeans, aircraft, machinery |
 
 Taiwan is US's 8th largest trading partner.
@@ -95,7 +95,7 @@ Taiwan is US's 8th largest trading partner.
 | Initiative | Detail |
 |------------|--------|
 | [[CHIPS Act]] | TSMC Arizona $40B investment |
-| Export controls | Taiwan aligns with US restrictions on China |
+| Export controls | Taiwan aligns with US restrictions on [[China]] |
 | Tech cooperation | Joint R&D discussions |
 | Supply chain | [[TSMC]] critical to US defense, tech |
 
@@ -136,7 +136,7 @@ See [[TSMC Arizona expansion]] for details.
 | Activity | Trend |
 |----------|-------|
 | TAIPEI Act (2020) | Support Taiwan's international space |
-| Taiwan Travel Act (2018) | Encourages high-level visits |
+| Taiwan [[Travel]] Act (2018) | Encourages high-level visits |
 | Speaker visits | Pelosi (2022), potential future |
 | Bipartisan support | One of few consensus issues |
 
@@ -168,7 +168,7 @@ See [[TSMC Arizona expansion]] for details.
 | Party | Stance | US relations |
 |-------|--------|--------------|
 | DPP (ruling) | Pro-sovereignty | Close US ties |
-| KMT | More engagement with China | Still pro-US |
+| KMT | More engagement with [[China]] | Still pro-US |
 | TPP | Centrist | Pro-US |
 
 Current President Lai Ching-te (DPP) — seen as more independence-leaning than predecessor Tsai.
@@ -177,7 +177,7 @@ Current President Lai Ching-te (DPP) — seen as more independence-leaning than 
 
 ## Current state (Jan 2026)
 
-### Trade deal breakthrough (Jan 15, 2026)
+### [[Trade]] deal breakthrough (Jan 15, 2026)
 
 Major agreement announced:
 
@@ -196,15 +196,15 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 | Package | Value | Status |
 |---------|-------|--------|
 | FY2026 cash assistance | $300M | Passed House, expected to become law |
-| Late-2025 arms sale | $11B | Largest single package — HIMARS, howitzers, Javelins, Anduril drones |
+| Late-2025 arms sale | $11B | Largest single package — HIMARS, howitzers, Javelins, [[Anduril]] drones |
 | Pipeline backlog | ~$19B | Delivery ongoing |
 
-### China response (Jan 2026)
+### [[China]] response (Jan 2026)
 
 | Action | Detail |
 |--------|--------|
 | Military drills | Simulated blockade exercises around Taiwan |
-| Sanctions | 10 individuals + 20 defense firms (Northrop, L3Harris, Boeing) |
+| Sanctions | 10 individuals + 20 defense firms (Northrop, [[L3Harris]], [[Boeing]]) |
 | US response | State Dept called drills "unnecessary tension" |
 
 ### Other
@@ -212,7 +212,7 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 | Issue | Status |
 |-------|--------|
 | TSMC Arizona | Fab 1 ramping, Fab 2 under construction |
-| [[Taiwan tech protectionism]] | Crackdown on China poaching continues |
+| [[Taiwan tech protectionism]] | Crackdown on [[China]] poaching continues |
 
 ---
 
@@ -222,7 +222,7 @@ Commerce Secretary Lutnick: TSMC "just bought hundreds of acres adjacent to thei
 |----------|--------|
 | Status quo | Continued cooperation, TSMC investment |
 | Closer ties | Potential trade agreement, more arms sales |
-| Crisis | Defense stocks, chip shortage plays |
+| Crisis | [[Defense]] stocks, chip shortage plays |
 | De-escalation | Taiwan tech rally, reduced risk premium |
 
 **Key exposures:**

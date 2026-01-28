@@ -10,7 +10,7 @@
 
 ## The thesis
 
-AI chip supply chain has multiple bottlenecks. Instead of picking foundry winners (TSMC vs Samsung vs Intel), bet on the constrained infrastructure everyone needs: packaging and final test.
+AI chip supply chain has multiple bottlenecks. Instead of picking foundry winners ([[TSMC]] vs [[Samsung]] vs [[Intel]]), bet on the constrained infrastructure everyone needs: packaging and final test.
 
 ---
 
@@ -39,7 +39,7 @@ Whoever wins foundry, chips still need packaging and testing.
 | [[Final test bottleneck]] | Emerging |
 
 **Why it works:**
-- Foundry-agnostic — packages chips from TSMC, Samsung, Intel
+- Foundry-agnostic — packages chips from [[TSMC]], [[Samsung]], [[Intel]]
 - Bottleneck positioning = pricing power
 - Every AI accelerator needs packaging + test
 
@@ -66,7 +66,7 @@ Whoever wins foundry, chips still need packaging and testing.
 
 ```
 Foundry:     Competitive, multiple players, margin pressure
-Packaging:   Constrained (TSMC CoWoS full, ASE expanding)
+Packaging:   Constrained ([[TSMC]] CoWoS full, ASE expanding)
 Final Test:  Constrained (thermal limits, equipment refresh)
 ```
 
@@ -87,14 +87,14 @@ Bottlenecks have pricing power. Competitive segments don't.
 ## What invalidates the thesis
 
 - [ ] Packaging/test capacity catches up to demand
-- [ ] Foundries (TSMC) pull back-end in-house
+- [ ] Foundries ([[TSMC]]) pull back-end in-house
 - [ ] AI demand slows, bottlenecks ease
 - [ ] Competition erodes ASE/Cohu pricing
 - [ ] Cyclical downturn hits equipment hard
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - ASE = larger, more liquid, lower beta
 - Cohu = smaller, higher beta, more volatile
@@ -110,7 +110,7 @@ Bottlenecks have pricing power. Competitive segments don't.
 |------|-----------|------------|-------|
 | 2025-12 | | | |
 
-**Hedge portfolio**: Short SMH (ASE/Cohu not in index — no buyback needed). Isolates back-end bottleneck thesis from front-end semi beta.
+**Hedge portfolio**: Short [[SMH]] (ASE/Cohu not in index — no buyback needed). Isolates back-end bottleneck thesis from front-end semi beta.
 
 ---
 

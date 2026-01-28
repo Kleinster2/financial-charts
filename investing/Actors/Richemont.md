@@ -37,7 +37,7 @@ aliases: [CFR, Compagnie Financière Richemont]
 |--------|--------|-------|
 | **Americas** | Strong | US demand robust |
 | **Japan** | **+17%** | Outperformer |
-| **Europe** | Solid | Middle East tourists |
+| **[[Europe]]** | Solid | Middle East tourists |
 | **Hong Kong** | Driver | Return to growth |
 | **Mainland China** | Subdued | Not yet rebounding |
 
@@ -130,7 +130,7 @@ Stock reversed gains post-results on margin worries.
 |--------|-------|
 | Ticker | CFR (SIX) |
 | Market cap | ~CHF 80B |
-| HQ | Geneva, Switzerland |
+| HQ | Geneva, [[Switzerland]] |
 | Key brand | Cartier |
 | Q3 growth | +11% (beat) |
 

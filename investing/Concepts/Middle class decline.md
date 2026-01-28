@@ -57,8 +57,8 @@ Most income growth for middle-class families came from:
 
 | Category | vs. Middle-class income |
 |----------|------------------------|
-| **Housing** | Rose faster |
-| **Healthcare** | Rose faster |
+| **[[Housing]]** | Rose faster |
+| **[[Healthcare]]** | Rose faster |
 | **Education** | Rose faster |
 | Transportation | Rose slower |
 | Food | Rose slower |
@@ -66,7 +66,7 @@ Most income growth for middle-class families came from:
 
 The things you *must* buy got more expensive. The things you *want* to buy got cheaper.
 
-**Housing crisis:**
+**[[Housing]] crisis:**
 - Median home requires $126,670 annual income to afford
 - 75% of homes out of reach for middle-income buyers
 - Median first-time buyer age: 40 (up from 31 a decade ago)
@@ -85,7 +85,7 @@ These were the jobs that built the middle class — high school graduates could 
 - Globalization (offshoring)
 - Decline of unions
 - Eroding minimum wage value
-- Trade policy choices
+- [[Trade]] policy choices
 
 ---
 
@@ -97,9 +97,9 @@ These were the jobs that built the middle class — high school graduates could 
 
 | Segment | Performance | Examples |
 |---------|-------------|----------|
-| **Luxury** | +8% sales | [[LVMH]], [[Kering]], [[Prada]] |
+| **[[Luxury]]** | +8% sales | [[LVMH]], [[Kering]], [[Prada]] |
 | **Middle** | **-2% sales** | [[Macy's]], JCPenney, [[Saks Global]] |
-| **Discount** | +7% sales | Dollar General, Aldi, TJX |
+| **Discount** | +7% sales | Dollar General, [[Aldi]], [[TJX]] |
 
 Consumers moved to extremes — premium/luxury or price/value. The middle got squeezed.
 
@@ -119,9 +119,9 @@ Consumers moved to extremes — premium/luxury or price/value. The middle got sq
 **Thriving:**
 - Dollar stores: "Fastest growing retail category in America"
 - Dollar General: +1,000 stores in 2023
-- Aldi: Fastest-growing grocery chain
-- Off-price: TJX, Ross, Burlington
-- Luxury: [[Fifth Avenue luxury corridor]] recovery
+- [[Aldi]]: Fastest-growing grocery chain
+- Off-price: [[TJX]], Ross, [[Burlington]]
+- [[Luxury]]: [[Fifth Avenue luxury corridor]] recovery
 
 **Dying:**
 - [[Saks Global]] → [[Saks bankruptcy]]
@@ -150,9 +150,9 @@ Consumers moved to extremes — premium/luxury or price/value. The middle got sq
 | Category | Rationale |
 |----------|-----------|
 | **Dollar stores** | Growing customer base, expansion runway |
-| **Off-price retail** | TJX, Ross serve value-conscious consumers |
-| **Luxury** | Wealthy consumers resilient (top 19%) |
-| **Healthcare** | Inelastic demand, pricing power |
+| **Off-price retail** | [[TJX]], Ross serve value-conscious consumers |
+| **[[Luxury]]** | Wealthy consumers resilient (top 19%) |
+| **[[Healthcare]]** | Inelastic demand, pricing power |
 | **Education** | Despite costs, still seen as pathway up |
 
 ### Short thesis
@@ -160,8 +160,8 @@ Consumers moved to extremes — premium/luxury or price/value. The middle got sq
 | Category | Rationale |
 |----------|-----------|
 | **Mid-tier department stores** | Customer base shrinking |
-| **Middle-market brands** | Gap, J.Crew, Bed Bath & Beyond casualties |
-| **Mall REITs** | Anchor tenants closing |
+| **Middle-market brands** | [[Gap]], J.Crew, Bed Bath & Beyond casualties |
+| **Mall [[REITs]]** | Anchor tenants closing |
 
 ### Structural trades
 

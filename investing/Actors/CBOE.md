@@ -3,7 +3,7 @@ aliases: [CBOE Global Markets, Chicago Board Options Exchange, Cboe]
 ---
 #actor #finance #exchange #options #usa #public
 
-**CBOE** — Options exchange. Created VIX. Volatility products leader.
+**CBOE** — Options exchange. Created [[VIX]]. Volatility products leader.
 
 ---
 
@@ -17,7 +17,7 @@ Invented modern options trading:
 | Ticker | CBOE |
 | Founded | 1973 |
 | CEO | Ed Tilly |
-| Famous for | VIX ("fear index") |
+| Famous for | [[VIX]] ("fear index") |
 
 ---
 
@@ -25,25 +25,25 @@ Invented modern options trading:
 
 | Segment | Description |
 |---------|-------------|
-| **Options** | SPX, VIX options |
+| **Options** | SPX, [[VIX]] options |
 | **North American Equities** | 4 US equity exchanges |
-| **Europe/APAC** | Cboe Europe, Japan, Australia |
-| **Futures** | VIX futures, volatility |
+| **[[Europe]]/APAC** | Cboe [[Europe]], [[Japan]], [[Australia]] |
+| **Futures** | [[VIX]] futures, volatility |
 | **Global FX** | Cboe FX |
 | **Data & Access** | Market data, analytics |
 
 ---
 
-## VIX franchise
+## [[VIX]] franchise
 
 **"Fear Index":**
 - Created 1993
 - Measures S&P 500 expected volatility
-- VIX options = huge volume
-- VIX futures = hedging tool
+- [[VIX]] options = huge volume
+- [[VIX]] futures = hedging tool
 - Exclusive product
 
-VIX is a moat — CBOE owns it.
+[[VIX]] is a moat — CBOE owns it.
 
 ---
 
@@ -72,7 +72,7 @@ VIX is a moat — CBOE owns it.
 ## Investment case
 
 **Bull:**
-- VIX monopoly
+- [[VIX]] monopoly
 - 0DTE growth engine
 - Options adoption increasing
 - Volatility = tailwind
@@ -92,7 +92,7 @@ VIX is a moat — CBOE owns it.
 |--------|-------|
 | Ticker | CBOE |
 | Market cap | ~$20B |
-| Key product | VIX, SPX options |
+| Key product | [[VIX]], SPX options |
 | Sector | Financial infrastructure |
 
 *Created 2026-01-08*

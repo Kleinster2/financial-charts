@@ -3,7 +3,7 @@ aliases: [Virtu, VIRT]
 ---
 #actor #investor #marketmaker #trading #usa #public
 
-**Virtu Financial** — Electronic market maker. NYSE: VIRT. Founded 2008. Rival to Citadel Securities.
+**Virtu Financial** — Electronic market maker. NYSE: VIRT. Founded 2008. Rival to [[Citadel Securities]].
 
 ---
 
@@ -56,7 +56,7 @@ aliases: [Virtu, VIRT]
 |--------|--------|
 | Revenue source | PFOF from retail brokers |
 | Controversy | 2021 congressional scrutiny |
-| Competitors | Citadel Securities |
+| Competitors | [[Citadel Securities]] |
 
 Major recipient of retail order flow.
 

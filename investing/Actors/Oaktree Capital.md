@@ -25,7 +25,7 @@ aliases: [Oaktree, Howard Marks]
 |------|--------|
 | Net worth | ~$2B |
 | Famous for | Investor memos |
-| Book | *The Most Important Thing* |
+| Book | *[[The Most Important Thing]]* |
 | Style | Contrarian, patient |
 | Philosophy | "Second-level thinking" |
 

@@ -15,10 +15,10 @@ aliases: [Münchener Rück, MUV2, MUVGn]
 | Market cap | ~$85B (Jun 2025) |
 | 2025 net income target | €6.0B |
 | Q1-Q3 2025 net income | €5.2B |
-| Insurance revenue (2025 forecast) | €61B |
+| [[Insurance]] revenue (2025 forecast) | €61B |
 | RoE (Q3 2025 annualized) | 24.2% |
 | Employees | ~43,000 |
-| HQ | Munich, Germany |
+| HQ | Munich, [[Germany]] |
 
 ---
 
@@ -49,7 +49,7 @@ Munich Re represents the *traditional* side of reinsurance — the incumbent mod
 | Traditional (Munich Re) | PE-owned (Athene/ACRA) |
 |------------------------|------------------------|
 | Balance sheet risk-taking | Third-party sidecar capital |
-| Conservative investment portfolio | Private credit / alternatives |
+| Conservative investment portfolio | [[Private credit]] / alternatives |
 | Regulated (Solvency II) | Bermuda-domiciled, lighter touch |
 | Earned reputation over 140 years | Built in 15 years |
 
@@ -61,7 +61,7 @@ Munich Re also participates in the ILS/sidecar market as a sponsor — its own I
 
 ## Key metrics
 
-| Year | Net income | Insurance revenue |
+| Year | Net income | [[Insurance]] revenue |
 |------|-----------|-------------------|
 | 2023 | €4.6B | ~€57B |
 | 2024 | ~€5.7B | ~€59B |

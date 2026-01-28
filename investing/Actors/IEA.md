@@ -28,9 +28,9 @@ aliases: [International Energy Agency]
 | Headquarters | Paris |
 | Head | Fatih Birol |
 
-**Members include:** US, EU, Japan, Korea, Australia, UK, Canada
+**Members include:** US, [[EU]], [[Japan]], Korea, [[Australia]], [[UK]], [[Canada]]
 
-**Not members:** China, India (associates), OPEC countries
+**Not members:** [[China]], [[India]] (associates), OPEC countries
 
 ---
 
@@ -38,7 +38,7 @@ aliases: [International Energy Agency]
 
 | Report | Frequency | Impact |
 |--------|-----------|--------|
-| Oil Market Report | Monthly | Short-term price signals |
+| [[Oil]] Market Report | Monthly | Short-term price signals |
 | World Energy Outlook | Annual | Long-term forecasts |
 | Net Zero Roadmap | Periodic | Transition scenarios |
 
@@ -61,7 +61,7 @@ aliases: [International Energy Agency]
 
 | Aspect | IEA | [[OPEC]] |
 |--------|-----|----------|
-| Role | Consumer advocate | Producer cartel |
+| Role | [[Consumer]] advocate | Producer cartel |
 | Goal | Stable, affordable supply | Maximize producer revenue |
 | Reserves | Strategic (emergency) | Production (commercial) |
 | Transition | Promotes renewables | Defends oil demand |
@@ -73,7 +73,7 @@ aliases: [International Energy Agency]
 ## Peak oil demand debate
 
 **IEA position:**
-- Oil demand peaks before 2030
+- [[Oil]] demand peaks before 2030
 - Transition accelerating
 - Calls for reduced upstream investment
 

@@ -36,7 +36,7 @@ Google's largest clean energy acquisition — vertical integration into power:
 - Sheldon Kimber stays as leader
 
 **Previous relationship:**
-- Google + TPG Rise Climate led $800M round (Dec 2024)
+- Google + [[TPG]] Rise Climate led $800M round (Dec 2024)
 - $20B partnership target
 - Led to full acquisition
 
@@ -52,7 +52,7 @@ Google's largest clean energy acquisition — vertical integration into power:
 
 **NOT included:**
 - Existing operating assets (TX, CA)
-- Those stay with TPG Rise Climate, CAI, Greenbelt
+- Those stay with [[TPG]] Rise Climate, CAI, Greenbelt
 - Split structure post-close
 
 ---

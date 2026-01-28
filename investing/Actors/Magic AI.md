@@ -51,12 +51,12 @@ Betting on ultra-long context as the unlock:
 |----------|-------|
 | Eric Schmidt | ex-Google CEO |
 | [[Sequoia Capital]] | Growth |
-| CapitalG | Alphabet/Google |
-| Jane Street | Trading firm |
-| Atlassian | Strategic |
-| Nat Friedman | ex-GitHub CEO |
-| Daniel Gross | Angel/VC |
-| Elad Gil | Angel |
+| [[CapitalG]] | Alphabet/Google |
+| [[Jane Street]] | Trading firm |
+| [[Atlassian]] | Strategic |
+| [[Nat Friedman]] | ex-GitHub CEO |
+| [[Daniel Gross]] | Angel/VC |
+| [[Elad Gil]] | Angel |
 
 **Total raised:** $515M
 
@@ -95,7 +95,7 @@ Building models in-house, not just using APIs.
 - Ultra-long context
 - Inference-time compute
 
-More ambitious than Cursor/Cognition — building foundation models.
+More ambitious than [[Cursor]]/Cognition — building foundation models.
 
 ---
 
@@ -133,7 +133,7 @@ Magic = most vertically integrated of AI coding startups.
 **Bear:**
 - No product shipping at scale yet
 - Raised millions without product
-- Cursor/Cognition have revenue
+- [[Cursor]]/Cognition have revenue
 - Frontier model training expensive
 - Anthropic/OpenAI could match context
 
@@ -155,7 +155,7 @@ Magic = most vertically integrated of AI coding startups.
 
 ## Related
 
-- [[Anysphere]] — competitor (Cursor)
+- [[Anysphere]] — competitor ([[Cursor]])
 - [[Cognition]] — competitor (Devin)
 - [[Sequoia Capital]] — investor
 - [[NVIDIA]] — supplier (8,000+ H100s)

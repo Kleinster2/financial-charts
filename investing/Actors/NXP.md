@@ -1,9 +1,9 @@
 ---
-aliases: [NXP Semiconductors]
+aliases: [NXP [[Semiconductors]]]
 ---
 #actor #semiconductor #netherlands #automotive #iot
 
-**NXP Semiconductors** — Dutch semiconductor company. #2 in automotive (radar, V2X, ADAS), NFC/security leader. Survived Qualcomm acquisition attempt.
+**NXP [[Semiconductors]]** — Dutch semiconductor company. #2 in automotive (radar, V2X, ADAS), NFC/security leader. Survived Qualcomm acquisition attempt.
 
 ---
 
@@ -24,8 +24,8 @@ NXP is the ADAS/connectivity specialist:
 
 | Segment | Position |
 |---------|----------|
-| Automotive | #2 globally (after [[Infineon]]) |
-| Automotive radar | #1 |
+| [[Automotive]] | #2 globally (after [[Infineon]]) |
+| [[Automotive]] radar | #1 |
 | NFC | #1 globally |
 | Secure elements | #1 |
 | V2X (vehicle-to-everything) | Leader |
@@ -34,7 +34,7 @@ NXP is the ADAS/connectivity specialist:
 
 ## Product portfolio
 
-**Automotive (55% of revenue):**
+**[[Automotive]] (55% of revenue):**
 
 | Product | Applications |
 |---------|--------------|
@@ -48,7 +48,7 @@ NXP is the ADAS/connectivity specialist:
 | Product | Applications |
 |---------|--------------|
 | NFC controllers | Contactless payments |
-| Secure elements | Apple Pay, Google Pay |
+| Secure elements | Apple Pay, [[Google]] Pay |
 | eSIM | Connected devices |
 | Authentication | Access control |
 
@@ -71,13 +71,13 @@ As ADAS advances → more NXP content per car.
 
 ## Qualcomm blocked deal (2018)
 
-**$44B acquisition blocked by China:**
+**$44B acquisition blocked by [[China]]:**
 
 | Aspect | Details |
 |--------|---------|
 | Offer | $44B (largest semi deal ever) |
-| Blocker | China antitrust (SAMR) |
-| Context | US-China trade war beginning |
+| Blocker | [[China]] antitrust (SAMR) |
+| Context | [[US-China trade]] war beginning |
 | Outcome | NXP remained independent |
 
 See [[Qualcomm NXP blocked deal]].
@@ -85,7 +85,7 @@ See [[Qualcomm NXP blocked deal]].
 **Post-block performance:**
 - Stock initially dropped 8%
 - Proved resilient standalone
-- Automotive boom post-2020
+- [[Automotive]] boom post-2020
 - Now worth more than deal price
 
 ---
@@ -95,7 +95,7 @@ See [[Qualcomm NXP blocked deal]].
 | Customer | Products |
 |----------|----------|
 | Apple | NFC, secure elements |
-| Automotive OEMs | Radar, MCUs, V2X |
+| [[Automotive]] OEMs | Radar, MCUs, V2X |
 | Tier 1s | Bosch, Continental |
 | Payment networks | Secure transactions |
 
@@ -111,7 +111,7 @@ Apple relationship = recurring secure element revenue.
 |----------|---------|
 | Fabless (advanced) | [[TSMC]], [[Samsung]] |
 | Own fabs (mature) | Specialty nodes |
-| Locations | Netherlands, US, Asia |
+| Locations | Netherlands, US, [[Asia]] |
 
 Less node-dependent than AI chips = own fabs viable for some products.
 
@@ -123,7 +123,7 @@ Less node-dependent than AI chips = own fabs viable for some products.
 |----|---------------|------------------|
 | [[Infineon]] | Radar, V2X, NFC | Power semis scale |
 | [[STMicro]] | Connectivity, security | SiC, MEMS |
-| [[Renesas]] | Radar, V2X | Japan relationships |
+| [[Renesas]] | Radar, V2X | [[Japan]] relationships |
 | Mobileye | Broader auto portfolio | Vision-specific |
 
 NXP = connectivity/radar specialist. Infineon = power/MCU leader.
@@ -137,7 +137,7 @@ NXP = connectivity/radar specialist. Infineon = power/MCU leader.
 | Ticker | NXPI (NASDAQ) |
 | Market cap | ~$55B |
 | Revenue (TTM) | ~$13B |
-| Automotive revenue | ~55% |
+| [[Automotive]] revenue | ~55% |
 | Industrial/IoT revenue | ~25% |
 | Gross margin | ~57% |
 | P/E | ~18x |
@@ -158,7 +158,7 @@ Higher gross margin than peers (57% vs 40-42%).
 
 **Bear case:**
 - Auto cycle exposure
-- China risk (blocked deal precedent)
+- [[China]] risk (blocked deal precedent)
 - Mobileye competition in ADAS
 - Less EV-specific exposure than power semis
 

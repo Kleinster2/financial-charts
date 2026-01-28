@@ -23,7 +23,7 @@ aliases: [Charles Scharf]
 | Period | Role |
 |--------|------|
 | 1990s-2000s | JPMorgan (rose under Dimon) |
-| 2012-2017 | CEO, Visa |
+| 2012-2017 | CEO, [[Visa]] |
 | 2017-2019 | CEO, Bank of New York Mellon |
 | 2019-present | CEO, Wells Fargo |
 
@@ -91,7 +91,7 @@ Applying Dimon lessons to Wells turnaround.
 | Role | CEO, Wells Fargo |
 | Since | 2019 |
 | Key win | Asset cap removed (2025) |
-| Background | Visa CEO, BNY Mellon CEO |
+| Background | [[Visa]] CEO, BNY Mellon CEO |
 
 *Created 2026-01-15*
 

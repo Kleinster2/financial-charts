@@ -13,21 +13,21 @@ Open source AI models have closed the gap with frontier proprietary models. This
 
 ---
 
-## DeepSeek: the price destroyer
+## [[DeepSeek]]: the price destroyer
 
-**DeepSeek-V3.2** achieves frontier performance at radical prices:
+**[[DeepSeek]]-V3.2** achieves frontier performance at radical prices:
 
 | Provider | Input/Output per 1M tokens |
 |----------|---------------------------|
 | GPT-5 | $30 / $60 |
-| Claude Opus 4.5 | $15 / $75 |
-| **DeepSeek-V3.2** | **$0.27 / $1.10** |
+| [[Claude]] Opus 4.5 | $15 / $75 |
+| **[[DeepSeek]]-V3.2** | **$0.27 / $1.10** |
 
 10-30x cheaper. MIT license. Self-hostable.
 
 **Competition wins:**
-- IMO 2025 Gold Medal
-- IOI 2025 Gold Medal
+- IMO 2025 [[Gold]] Medal
+- IOI 2025 [[Gold]] Medal
 - ICPC World Finals 2nd place
 
 Open source is now *beating* proprietary on specialized tasks.
@@ -38,14 +38,14 @@ Open source is now *beating* proprietary on specialized tasks.
 
 - Consistency and polish
 - Tool integration (function calling, etc.)
-- Ecosystem (ChatGPT's distribution)
+- Ecosystem ([[ChatGPT]]'s distribution)
 - Brand trust for enterprise
 
 **Not enough to justify 10-30x premium** for most use cases.
 
 ---
 
-## Trade implications
+## [[Trade]] implications
 
 **Bearish:**
 - [[OpenAI]], [[Anthropic]] — pricing power eroding
@@ -72,10 +72,10 @@ No single provider wins. Commoditization is the outcome.
 
 ## Key players to watch
 
-- **DeepSeek** (China) — efficiency focus, 10-30x cheaper
-- **Mistral** (Europe) — open-weight, enterprise focus
-- **GLM** (China) — new SOTA for coding (Dec 2025)
-- **Llama** (Meta) — open source from a hyperscaler
+- **[[DeepSeek]]** ([[China]]) — efficiency focus, 10-30x cheaper
+- **[[Mistral]]** ([[Europe]]) — open-weight, enterprise focus
+- **[[GLM]]** ([[China]]) — new SOTA for coding (Dec 2025)
+- **[[Llama]]** (Meta) — open source from a hyperscaler
 
 ---
 
@@ -85,4 +85,4 @@ No single provider wins. Commoditization is the outcome.
 - [[Anthropic]] — threatened (API pricing pressure)
 - [[Model lab economics]] — context (margin compression)
 - [[Inference economics]] — mechanism (10-30x price gap)
-- [[Meta]] — enabler (Llama open source)
+- [[Meta]] — enabler ([[Llama]] open source)

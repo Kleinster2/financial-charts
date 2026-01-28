@@ -39,7 +39,7 @@ AI training/inference is memory-bound:
 | First customer | NVIDIA (Rubin architecture) |
 | Supply status | **Fully sold out** — entire 2026 supply contracted |
 
-**CES 2026 showcase:** SK Hynix demonstrated 16-layer HBM4 alongside SOCAMM2 and LPDDR6.
+**[[CES 2026]] showcase:** SK Hynix demonstrated 16-layer HBM4 alongside SOCAMM2 and LPDDR6.
 
 **Production hub:** Yongin cluster (Korea) expected to become world's largest HBM production hub by 2027.
 
@@ -72,28 +72,28 @@ Only 3 suppliers:
 
 ---
 
-## China HBM gap
+## [[China]] HBM gap
 
-China's AI clusters are stuck on HBM2E while NVIDIA uses HBM3E — a structural disadvantage.
+[[China]]'s AI clusters are stuck on HBM2E while NVIDIA uses HBM3E — a structural disadvantage.
 
-> **Key insight:** HBM is the chokepoint that makes [[Export controls]] effective. GPUs can be designed domestically (Ascend, Kunlun). HBM cannot — the oligopoly (SK Hynix, Samsung, Micron) is aligned with US policy. No workaround exists.
+> **Key insight:** HBM is the chokepoint that makes [[Export controls]] effective. GPUs can be designed domestically ([[Ascend]], Kunlun). HBM cannot — the oligopoly (SK Hynix, Samsung, Micron) is aligned with US policy. No workaround exists.
 
 ### The gap
 
-| Metric | HBM2E (China) | HBM3E (NVIDIA) | Gap |
+| Metric | HBM2E ([[China]]) | HBM3E (NVIDIA) | [[Gap]] |
 |--------|---------------|----------------|-----|
 | Bandwidth | 460 GB/s | 1.15 TB/s | 2.5x |
 | Capacity/stack | 16 GB | 36 GB | 2.25x |
 | Generation | 2022 | 2024 | 2 years |
 
-### Why China can't close it
+### Why [[China]] can't close it
 
 | Supplier | Status |
 |----------|--------|
 | [[SK Hynix]] | Won't supply (US pressure, export controls) |
 | [[Samsung]] | Won't supply (aligned with US) |
 | [[Micron]] | Won't supply (US company) |
-| Domestic (CXMT) | Years behind, no HBM production |
+| Domestic ([[CXMT]]) | Years behind, no HBM production |
 
 **The bottleneck:** HBM is an oligopoly. All three suppliers aligned with US export policy. No domestic source.
 
@@ -122,7 +122,7 @@ China's AI clusters are stuck on HBM2E while NVIDIA uses HBM3E — a structural 
 
 ## Related
 
-- [[SK Hynix]] — supplier (#1 HBM, won't supply China)
+- [[SK Hynix]] — supplier (#1 HBM, won't supply [[China]])
 - [[Samsung]] — supplier (#2 HBM, aligned with US)
 - [[Micron]] — supplier (#3 HBM, US company)
 - [[Memory shortage 2025-2026]] — context (HBM demand causing shortage)

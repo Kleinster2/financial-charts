@@ -77,12 +77,12 @@ Best recovery period since 2022 growth crash.
 | [[ASML]]    | Semiconductor equipment        |
 | [[Moderna]] | COVID winner                   |
 
-### Private markets
+### [[Private markets]]
 
 | Company            | Valuation                   | % of SMT NAV    | Notes                                    |
 | ------------------ | --------------------------- | --------------- | ---------------------------------------- |
 | **[[SpaceX]]**     | $800B → $1.5T (rumored IPO) | **15.3%**       | £2.2B stake; 134 rocket launches in 2024 |
-| **[[ByteDance]]**  | —                           | Major           | TikTok parent                            |
+| **[[ByteDance]]**  | —                           | Major           | [[TikTok]] parent                            |
 | **[[Stripe]]**     | —                           | Major           | $1.4T payments processed                 |
 | **[[Databricks]]** | —                           | Major           | AI/data                                  |
 | **[[Chime]]**      | —                           | Major           | Neobank                                  |
@@ -120,7 +120,7 @@ Baillie Gifford hiked SpaceX valuation by **87%** in Dec 2025, adding £1B to Sc
 | Fact | Detail |
 |------|--------|
 | Activist | Saba Capital (Elliott Weinstein) |
-| Target | Edinburgh Worldwide, US Growth Trust |
+| [[Target]] | Edinburgh Worldwide, US Growth Trust |
 | Issue | SpaceX shares sold "at price massively lower than $1.5T IPO valuation" |
 | Demand | Oust board members; oppose merger |
 
@@ -134,7 +134,7 @@ Scottish Mortgage and Edinburgh Worldwide exceeded 30%/25% limits on unquoted ho
 |---------|--------|
 | [[Northvolt]] | Bankrupt 2025 |
 | Blockstream | Written off |
-| Relativity Space | Written off |
+| [[Relativity Space]] | Written off |
 | Uptake Technologies | Written off |
 
 ---

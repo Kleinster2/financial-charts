@@ -1,9 +1,9 @@
 ---
-aliases: [Abu Dhabi National Oil Company]
+aliases: [Abu Dhabi National [[Oil]] Company]
 ---
 #actor #energy #oil #uae #state
 
-**ADNOC** — Abu Dhabi National Oil Company. UAE's state oil company.
+**ADNOC** — Abu Dhabi National [[Oil]] Company. UAE's state oil company.
 
 ---
 
@@ -22,10 +22,10 @@ aliases: [Abu Dhabi National Oil Company]
 
 | Segment | Description |
 |---------|-------------|
-| **Upstream** | Oil & gas exploration, production |
+| **Upstream** | [[Oil]] & gas exploration, production |
 | **Downstream** | Refining, petrochemicals |
 | **Distribution** | ADNOC Distribution (public) |
-| **LNG** | ADNOC Gas (public) |
+| **[[LNG]]** | ADNOC Gas (public) |
 
 ---
 
@@ -33,7 +33,7 @@ aliases: [Abu Dhabi National Oil Company]
 
 | Initiative | Detail |
 |------------|--------|
-| AI/Tech | Partnerships with Microsoft, Google |
+| AI/Tech | Partnerships with [[Microsoft]], [[Google]] |
 | Hydrogen | Blue hydrogen exports |
 | Chemicals | Borouge JV expansion |
 | International | Expanding beyond UAE |

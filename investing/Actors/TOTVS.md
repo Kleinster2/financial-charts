@@ -5,7 +5,7 @@ aliases: [TOTS3]
 
 # TOTVS
 
-**Brazil's largest software company** — ERP, CRM, HR, financial software. ~50% Brazil ERP market share. **B3: TOTS3** (first software company in Ibovespa). 70,000+ corporate clients. **Acquired [[Linx]] for R$3.05B** (Jul 2025) after losing 2020 bidding war to [[StoneCo]].
+**Brazil's largest software company** — ERP, CRM, HR, financial software. ~50% Brazil ERP market share. **[[B3]]: TOTS3** (first software company in Ibovespa). 70,000+ corporate clients. **Acquired [[Linx]] for R$3.05B** (Jul 2025) after losing 2020 bidding war to [[StoneCo]].
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [TOTS3]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | TOTS3 (B3) |
+| Ticker | TOTS3 ([[B3]]) |
 | HQ | São Paulo, Brazil |
 | Market share | ~50% Brazil ERP |
 | Revenue | ~R$4.5B (~$900M) |
@@ -60,7 +60,7 @@ Manufacturing, retail, agribusiness, healthcare, logistics, construction, financ
 
 | Term | Value |
 |------|-------|
-| Target | [[Linx]] |
+| [[Target]] | [[Linx]] |
 | Price | R$3.05B (~$540M) |
 | Closed | July 22, 2025 |
 | History | Lost 2020 bidding war to [[StoneCo]] (R$6.7B) |

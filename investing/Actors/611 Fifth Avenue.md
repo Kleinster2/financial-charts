@@ -81,7 +81,7 @@ HBC **originated** (not assumed) a $1.25B mortgage in November 2014:
 | Collateral | **Ground + [[ground lease]] only** (NOT the building) |
 | Term | 20-year, interest-only |
 | Rate | Fixed, <4.40% |
-| Lenders | BofA, Morgan Stanley, Goldman Sachs, Bank of Nova Scotia |
+| Lenders | BofA, [[Morgan Stanley]], [[Goldman Sachs]], [[Bank of Nova Scotia]] |
 
 **Use of proceeds:** Paid down $1.2B of HBC's floating-rate term loan (4.75%, maturing 2020). Essentially swapped corporate debt for real estate-secured debt.
 

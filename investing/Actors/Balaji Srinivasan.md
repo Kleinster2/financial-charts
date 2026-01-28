@@ -3,7 +3,7 @@ aliases: [Balaji]
 ---
 #actor #investor #angel #crypto #usa
 
-**Balaji Srinivasan** — Tech entrepreneur and angel investor. Ex-Coinbase CTO. Ex-a16z partner. Prolific AI/crypto backer.
+**Balaji Srinivasan** — Tech entrepreneur and angel investor. Ex-Coinbase CTO. Ex-[[a16z]] partner. Prolific AI/crypto backer.
 
 ---
 
@@ -11,10 +11,10 @@ aliases: [Balaji]
 
 | Metric | Value |
 |--------|-------|
-| Background | Stanford PhD, serial founder |
+| Background | [[Stanford]] PhD, serial founder |
 | Coinbase | Former CTO |
-| a16z | Former general partner |
-| Focus | Crypto, AI, network states |
+| [[a16z]] | Former general partner |
+| Focus | [[Crypto]], AI, network states |
 
 ---
 
@@ -25,7 +25,7 @@ aliases: [Balaji]
 | 2010s | Founded Counsyl (genomics), Earn.com |
 | 2018 | Earn.com acquired by [[Coinbase]] |
 | 2018-2019 | Coinbase CTO |
-| 2013-2017 | General Partner, a16z |
+| 2013-2017 | General Partner, [[a16z]] |
 | Now | Angel investor, author |
 
 ---
@@ -35,7 +35,7 @@ aliases: [Balaji]
 **Angel investor focus:**
 - Early-stage companies
 - AI infrastructure
-- Crypto/Web3
+- [[Crypto]]/Web3
 - Frontier tech
 
 **Thesis:** Decentralization + AI convergence.
@@ -56,7 +56,7 @@ aliases: [Balaji]
 
 **2022 book thesis:**
 - Online communities → physical territories
-- Crypto-enabled governance
+- [[Crypto]]-enabled governance
 - Alternative to nation-states
 
 Influential in crypto-political circles.
@@ -67,8 +67,8 @@ Influential in crypto-political circles.
 
 | Metric | Value |
 |--------|-------|
-| Education | Stanford PhD (EE) |
-| Ex-roles | Coinbase CTO, a16z GP |
+| Education | [[Stanford]] PhD (EE) |
+| Ex-roles | Coinbase CTO, [[a16z]] GP |
 | Style | Contrarian, frontier tech |
 | Focus | AI, crypto, network states |
 

@@ -62,7 +62,7 @@ Del Webb = major 55+ brand (aging demographics tailwind).
 | [[DR Horton]] | ~90,000 | Entry-level |
 | [[Lennar]] | ~80,000 | Diversified |
 | **PulteGroup** | ~30,000 | Move-up |
-| [[Toll Brothers]] | ~10,000 | Luxury |
+| [[Toll Brothers]] | ~10,000 | [[Luxury]] |
 
 ---
 

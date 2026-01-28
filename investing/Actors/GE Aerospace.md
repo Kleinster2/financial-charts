@@ -1,5 +1,5 @@
 ---
-aliases: [GE, General Electric Aerospace]
+aliases: [GE, [[General Electric]] Aerospace]
 ---
 #actor #company #aerospace #industrials #usa #public
 
@@ -31,7 +31,7 @@ aliases: [GE, General Electric Aerospace]
 | **CFM56** | 737NG, A320ceo | Legacy, aftermarket |
 | **CF34** | Regional jets | Mature |
 
-LEAP = joint venture with Safran (CFM International).
+LEAP = joint venture with Safran ([[CFM]] International).
 
 ---
 
@@ -67,7 +67,7 @@ Main competitor: RTX (Pratt & Whitney).
 - Backlog visibility
 
 **Bear:**
-- Boeing production issues
+- [[Boeing]] production issues
 - Supply chain constraints
 - Pratt & Whitney competition
 - Cyclical industry
@@ -79,8 +79,8 @@ Main competitor: RTX (Pratt & Whitney).
 | Event | Year |
 |-------|------|
 | GE conglomerate | 1892-2021 |
-| GE Healthcare spin | 2023 |
-| GE Vernova spin | 2024 |
+| GE [[Healthcare]] spin | 2023 |
+| [[GE Vernova]] spin | 2024 |
 | Pure-play aerospace | 2024 |
 
 Now focused solely on aviation.
@@ -93,8 +93,8 @@ Now focused solely on aviation.
 - [[RTX]] — Pratt & Whitney engines
 
 ### Customers
-- Boeing — aircraft OEM
-- Airbus — aircraft OEM
+- [[Boeing]] — aircraft OEM
+- [[Airbus]] — aircraft OEM
 
 ### Sectors
 - [[Aerospace]] — industry

@@ -43,7 +43,7 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 
 - Heavy [[NVIDIA]] dependency (350K H100s)
 - MTIA (Meta Training and Inference Accelerator) — custom inference chip, now developing training chip
-- Testing first in-house training chip (RISC-V based, Mar 2025)
+- Testing first in-house training chip ([[RISC-V]] based, Mar 2025)
 - Open-source AI (Llama) drives broader GPU demand ecosystem
 
 ---
@@ -54,9 +54,9 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Alexandr Wang** | Co-head | Scale AI founder |
+| **Alexandr Wang** | Co-head | [[Scale AI]] founder |
 | **[[Nat Friedman]]** | Co-head, Product | GitHub CEO, NFDG fund |
-| **[[Daniel Gross]]** | Co-head, Compute | YC partner, NFDG fund, SSI co-founder |
+| **[[Daniel Gross]]** | Co-head, Compute | YC partner, NFDG fund, [[SSI]] co-founder |
 
 Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring minority stake in NFDG (Friedman/Gross's $1.1B AI fund).
 
@@ -75,7 +75,7 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 | **[[Daniel Gross]]** | Capital Strategy & Partnerships | Zuckerberg |
 
 **Powell McCormick:**
-- Ex-Goldman Sachs (led global sovereign investment banking)
+- Ex-[[Goldman Sachs]] (led global sovereign investment banking)
 - Trump deputy national security adviser (first term)
 - Husband Dave McCormick = Republican Senator (PA)
 - Focus: government and sovereign partnerships for AI infrastructure
@@ -137,8 +137,8 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 | Acquisition | Price | What |
 |-------------|-------|------|
-| **Manus** | ~$2B+ | AI agents (Chinese-founded) |
-| **Rivos** | ~$2B | Custom chip design (RISC-V) |
+| **Manus** | ~$2B+ | [[AI agents]] (Chinese-founded) |
+| **Rivos** | ~$2B | Custom chip design ([[RISC-V]]) |
 | PlayAI | — | AI audio |
 | WaveForms | — | AI audio |
 | Limitless | — | Wearables |
@@ -146,10 +146,10 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 **Manus (Jan 2026):**
 - **$2B** — outright acquisition (not acqui-hire)
 - Chinese-founded AI agent startup (~100 staff)
-- Meta's 3rd largest acquisition ever (after Instagram, WhatsApp)
+- Meta's 3rd largest acquisition ever (after Instagram, [[WhatsApp]])
 - "Leading autonomous general-purpose agent"
-- Was "hailed as the next DeepSeek"
-- Parent company Butterfly Effect backed by Benchmark (drew China hawk criticism)
+- Was "hailed as the next [[DeepSeek]]"
+- Parent company Butterfly Effect backed by [[Benchmark]] (drew [[China]] hawk criticism)
 - Deal closed in ~10 days
 - Signals aggressive catch-up in [[Agentic AI]]
 - Part of broader [[AI consolidation]] — Big Tech buying Chinese startups
@@ -163,10 +163,10 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 ## Smart glasses & wearables
 
-**Ray-Ban Meta (with EssilorLuxottica):**
+**Ray-Ban Meta (with [[EssilorLuxottica]]):**
 - Best-selling smart glasses ever
 - Camera + audio + Meta AI assistant
-- Consumer-friendly form factor (looks like normal Ray-Bans)
+- [[Consumer]]-friendly form factor (looks like normal Ray-Bans)
 - Entry point to AR ecosystem
 
 **Orion (AR glasses prototype):**
@@ -218,15 +218,15 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 
 | Equipment | Units | MW each | Total |
 |-----------|-------|---------|-------|
-| [[Solar Turbines]] Titan 250 IGT | 3 | 23 MW | 69 MW |
-| [[Solar Turbines]] Titan 130 IGT | 9 | 16.5 MW | 148.5 MW |
+| [[Solar Turbines]] [[Titan]] 250 IGT | 3 | 23 MW | 69 MW |
+| [[Solar Turbines]] [[Titan]] 130 IGT | 9 | 16.5 MW | 148.5 MW |
 | [[Siemens Energy]] SGT-400 IGT | 3 | 14.3 MW | 42.9 MW |
-| Caterpillar 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
+| [[Caterpillar]] 3520 fast-start | 15 | 3.1 MW | 46.5 MW |
 | **Gross total** | | | **~307 MW** |
 
 **Design:** N+1+1 redundancy → operational capacity 200MW+
 
-**Key insight:** Hybrid fleet (4 turbine types) diversifies supplier risk. Solar Turbines is a Caterpillar subsidiary — essentially 2 vendors (Caterpillar + Siemens).
+**Key insight:** Hybrid fleet (4 turbine types) diversifies supplier risk. Solar Turbines is a [[Caterpillar]] subsidiary — essentially 2 vendors ([[Caterpillar]] + [[Siemens]]).
 
 **Pattern:** Another [[BYOP]] example — Meta joining OpenAI in on-site generation. See [[Power constraints]].
 
@@ -267,7 +267,7 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 
 | Tranche | Size | Structure | Notes |
 |---------|------|-----------|-------|
-| **SPV (off-balance-sheet)** | $30B | Morgan Stanley → Blue Owl | Largest private capital deal ever |
+| **SPV (off-balance-sheet)** | $30B | [[Morgan Stanley]] → Blue Owl | Largest private capital deal ever |
 | **Corporate bonds** | $30B | Investment-grade | Largest IG offering of 2025 |
 
 **Why off-balance-sheet matters:**
@@ -276,7 +276,7 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 - Maintains credit ratings
 - Meta only responsible for lease payments, not construction risk
 
-**Context:** Morgan Stanley estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
+**Context:** [[Morgan Stanley]] estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
 
 See [[AI infrastructure financing]].
 
@@ -288,7 +288,7 @@ See [[AI infrastructure financing]].
 
 | Quarter | SI % float | Stock | Note |
 |---------|------------|-------|------|
-| **Q1 2026** | **1.27%** | ~$620 | Rose 14.8% — highest Mag 7 ex-Tesla |
+| **Q1 2026** | **1.27%** | ~$620 | Rose 14.8% — highest Mag 7 ex-[[Tesla]] |
 | Q4 2025 | 1.10% | $— | |
 | Q3 2025 | — | $— | |
 | Q2 2025 | — | $— | |
@@ -311,7 +311,7 @@ See [[Short interest]] for interpretation framework.
 | 2025 AI M&A | ~$4B+ (Manus + Rivos) |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
 | Infra lead | Dina Powell McCormick (Jan 2026) |
-| Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-Tesla |
+| Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-[[Tesla]] |
 
 *Updated 2026-01-21*
 

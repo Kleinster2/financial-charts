@@ -1,10 +1,10 @@
 #actor #datacenter #usa #private
 
-**Fermi Inc** — Texas data center developer. 11GW planned capacity. Rick Perry-backed. Lost $150M anchor tenant.
+**[[Fermi]] Inc** — Texas data center developer. 11GW planned capacity. Rick Perry-backed. Lost $150M anchor tenant.
 
 ---
 
-## Why Fermi Inc matters
+## Why [[Fermi]] Inc matters
 
 Cautionary tale of speculative AI infrastructure buildout:
 
@@ -66,7 +66,7 @@ Cautionary tale of speculative AI infrastructure buildout:
 
 ## Investment relevance
 
-**What Fermi shows:**
+**What [[Fermi]] shows:**
 - Not all AI infrastructure plays will succeed
 - Hyperscaler anchor tenant = critical differentiator
 - 11GW capacity is ambitious without contracts
@@ -83,5 +83,5 @@ Cautionary tale of speculative AI infrastructure buildout:
 - [[AI infrastructure financing risk]] — overbuild context (example)
 - [[Power constraints]] — Texas ERCOT grid
 - [[Adriatic DC]] — peer (spec buildout risk)
-- [[IREN]] — contrast (has Microsoft anchor)
+- [[IREN]] — contrast (has [[Microsoft]] anchor)
 - [[Bitdeer]] — peer (Texas/Ohio presence)

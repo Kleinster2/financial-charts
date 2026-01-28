@@ -52,7 +52,7 @@ The AI-native Google challenger:
 
 | Round | Date | Amount | Valuation |
 |-------|------|--------|-----------|
-| Seed | 2022 | ~$3M | — |
+| Seed | 2022 | ~$[[3M]] | — |
 | Series A | 2023 | $26M | — |
 | Series B | Jan 2024 | $74M | $520M |
 | Series B1 | Apr 2024 | $63M | $1B |

@@ -3,7 +3,7 @@ aliases: [ERIC]
 ---
 #actor #company #telecom #equipment #sweden #public
 
-**Ericsson** — Telecom equipment giant. Nasdaq: ERIC. 5G infrastructure. Huawei alternative in West.
+**Ericsson** — Telecom equipment giant. [[Nasdaq]]: ERIC. 5G infrastructure. [[Huawei]] alternative in West.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [ERIC]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ERIC (Nasdaq ADR) |
+| Ticker | ERIC ([[Nasdaq]] ADR) |
 | Market cap | ~$25B |
 | Revenue | ~$25B |
 | Employees | 100K+ |
@@ -35,12 +35,12 @@ One of three global telecom equipment vendors.
 
 | Vendor | Market share | Geography |
 |--------|--------------|-----------|
-| Huawei | ~30% | China, emerging |
-| **Ericsson** | ~25% | Americas, Europe |
-| Nokia | ~20% | Global |
-| Samsung | ~10% | Korea, US |
+| [[Huawei]] | ~30% | [[China]], emerging |
+| **Ericsson** | ~25% | Americas, [[Europe]] |
+| [[Nokia]] | ~20% | Global |
+| [[Samsung]] | ~10% | Korea, US |
 
-Huawei banned in many Western markets benefits Ericsson/Nokia.
+[[Huawei]] banned in many Western markets benefits Ericsson/[[Nokia]].
 
 ---
 
@@ -58,7 +58,7 @@ Huawei banned in many Western markets benefits Ericsson/Nokia.
 ## Investment thesis
 
 **Bull:**
-- Huawei restrictions benefit
+- [[Huawei]] restrictions benefit
 - 5G upgrade cycle
 - Enterprise wireless growth
 - Duopoly in West
@@ -66,8 +66,8 @@ Huawei banned in many Western markets benefits Ericsson/Nokia.
 **Bear:**
 - Carrier capex cycles
 - Open RAN disruption
-- China market closed
-- Competition from Samsung
+- [[China]] market closed
+- Competition from [[Samsung]]
 
 ---
 
@@ -75,19 +75,19 @@ Huawei banned in many Western markets benefits Ericsson/Nokia.
 
 | Customer | Relationship |
 |----------|--------------|
-| AT&T | Major US customer |
-| Verizon | 5G partner |
-| T-Mobile | Network supplier |
-| Vodafone | European partner |
+| [[AT&T]] | Major US customer |
+| [[Verizon]] | 5G partner |
+| [[T-Mobile]] | Network supplier |
+| [[Vodafone]] | European partner |
 
 ---
 
 ## Related
 
 ### Competitors
-- Nokia — Nordic peer
-- Huawei — global rival
-- Samsung — growing competitor
+- [[Nokia]] — Nordic peer
+- [[Huawei]] — global rival
+- [[Samsung]] — growing competitor
 
 ### Concepts
 - [[5G]] — growth driver

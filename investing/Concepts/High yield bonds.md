@@ -1,10 +1,10 @@
 #concept #fixed-income #credit
 
-**High yield bonds** (junk bonds) — corporate debt rated BB+ or below by S&P/Fitch (Ba1 or below by Moody's). Higher default risk, higher yields. A key risk-on/risk-off barometer.
+**High yield bonds** (junk bonds) — corporate debt rated BB+ or below by S&P/Fitch (Ba1 or below by [[Moody's]]). Higher default risk, higher yields. A key risk-on/risk-off barometer.
 
 ## Rating scale
 
-| Grade | S&P/Fitch | Moody's | Category |
+| Grade | S&P/Fitch | [[Moody's]] | Category |
 |-------|-----------|---------|----------|
 | Investment grade | AAA to BBB- | Aaa to Baa3 | Lower risk |
 | **High yield** | **BB+ to D** | **Ba1 to C** | **Higher risk** |
@@ -51,7 +51,7 @@ Default rates lag the cycle — they rise AFTER recession starts, peak AFTER rec
 
 High yield spread = HY yield - Treasury yield
 
-| Spread level | Signal |
+| Spread level | [[Signal]] |
 |--------------|--------|
 | < 300 bps | Tight — risk-on, potential complacency |
 | 300-450 bps | Normal |
@@ -68,7 +68,7 @@ Investment grade bonds downgraded to junk. Critical dynamic because:
 - Creates technical selling pressure
 - Often overshoots fundamental value
 
-**2020 example:** Ford, Macy's, Occidental downgraded — massive supply into HY market.
+**2020 example:** [[Ford]], [[Macy's]], Occidental downgraded — massive supply into HY market.
 
 **Rising stars:** The reverse — HY upgraded to IG. Creates demand as IG funds can buy.
 
@@ -79,9 +79,9 @@ Typical HY index breakdown:
 | Sector | Weight |
 |--------|--------|
 | Communications | ~20% |
-| Consumer cyclical | ~15% |
+| [[Consumer]] cyclical | ~15% |
 | Energy | ~12% |
-| Healthcare | ~10% |
+| [[Healthcare]] | ~10% |
 | Industrials | ~10% |
 | Other | ~33% |
 

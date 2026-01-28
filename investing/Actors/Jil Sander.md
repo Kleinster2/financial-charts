@@ -27,12 +27,12 @@ aliases: []
 | Year | Event |
 |------|-------|
 | 1968 | Founded by Jil Sander in Hamburg |
-| 1999 | Prada acquires 75% stake |
-| 2000 | Jil Sander (founder) departs after Prada clash |
+| 1999 | [[Prada]] acquires 75% stake |
+| 2000 | Jil Sander (founder) departs after [[Prada]] clash |
 | 2003 | Jil Sander returns briefly |
 | 2004 | Departs again; Raf Simons appointed (2005-2012) |
 | 2012 | Jil Sander returns third time (until 2013) |
-| 2014 | Onward Holdings (Japan) acquires from Prada |
+| 2014 | Onward Holdings ([[Japan]]) acquires from [[Prada]] |
 | 2017 | Lucie & Luke Meier appointed co-CDs |
 | 2021 | [[OTB]] acquires from Onward |
 | Feb 2025 | Meiers depart after FW25 show |
@@ -78,7 +78,7 @@ Signals OTB investing in Jil Sander's growth potential.
 | Owner | Period | Notes |
 |-------|--------|-------|
 | Jil Sander (founder) | 1968–1999 | Built the brand |
-| Prada | 1999–2014 | Rocky tenure, multiple CD changes |
+| [[Prada]] | 1999–2014 | Rocky tenure, multiple CD changes |
 | Onward Holdings | 2014–2021 | Japanese ownership |
 | **[[OTB]]** | 2021– | Current |
 

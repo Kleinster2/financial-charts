@@ -3,7 +3,7 @@ aliases: [CVX]
 ---
 #actor #energy #oil #usa #public
 
-**Chevron** — Second-largest US oil major. LNG leader. Hydrogen and carbon capture investments. Natural gas relevance for AI power.
+**Chevron** — Second-largest US oil major. [[LNG]] leader. Hydrogen and carbon capture investments. [[Natural gas]] relevance for AI power.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [CVX]
 
 | Connection | Description |
 |------------|-------------|
-| Natural gas/LNG | Fuel for power generation |
+| [[Natural gas]]/[[LNG]] | Fuel for power generation |
 | Hydrogen | Blue/green hydrogen investments |
 | Carbon capture | Offset data center emissions |
 | Geothermal | Invested in geothermal startups |
@@ -22,17 +22,17 @@ aliases: [CVX]
 
 | Segment | Description |
 |---------|-------------|
-| Upstream | Oil & gas production |
+| Upstream | [[Oil]] & gas production |
 | Downstream | Refining, chemicals |
 | New Energies | Hydrogen, CCS, renewables |
 
 ---
 
-## LNG leadership
+## [[LNG]] leadership
 
 **Liquefied natural gas:**
-- Major LNG exporter
-- Gorgon, Wheatstone (Australia)
+- Major [[LNG]] exporter
+- Gorgon, Wheatstone ([[Australia]])
 - Global gas trade
 - Relevance: Gas for power generation
 
@@ -68,7 +68,7 @@ aliases: [CVX]
 
 **Why Chevron stayed:**
 - Bet on eventual normalization
-- Maintained PDVSA relationships
+- Maintained [[PDVSA]] relationships
 - Now only US company with access
 
 **January 2026 development:** US military strike captured Maduro. Trump announced US will "run" Venezuela and take control of oil reserves. American companies to invest billions to rebuild industry.
@@ -94,7 +94,7 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 ## Hess acquisition (2024)
 
 **$53B deal:**
-- Guyana oil assets (massive)
+- [[Guyana]] oil assets (massive)
 - Arbitration with Exxon ongoing
 - Transforms Chevron's portfolio
 - Low-cost barrels
@@ -104,8 +104,8 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 ## Investment case
 
 **Bull:**
-- Strong LNG position
-- Guyana growth (if Hess closes)
+- Strong [[LNG]] position
+- [[Guyana]] growth (if Hess closes)
 - Permian scale
 - New Energies optionality
 - Dividend growth
@@ -113,7 +113,7 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 **Bear:**
 - Peak oil demand concerns
 - Hess deal uncertainty
-- ESG pressure
+- [[ESG]] pressure
 - Carbon tax risk
 - Energy transition disruption
 
@@ -126,9 +126,9 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 | Ticker | CVX (NYSE) |
 | Market cap | ~$270B |
 | Revenue (TTM) | ~$200B |
-| Free cash flow | ~$20B |
+| [[Free cash flow]] | ~$20B |
 | Dividend yield | ~4% |
-| Production | ~3M boe/day |
+| Production | ~[[3M]] boe/day |
 
 ---
 

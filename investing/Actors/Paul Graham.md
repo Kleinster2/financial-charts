@@ -10,7 +10,7 @@
 |--------|-------|
 | Born | November 13, 1964 |
 | Birthplace | Weymouth, Dorset, England |
-| Citizenship | US and UK |
+| Citizenship | US and [[UK]] |
 | Residence | England (since 2016) |
 | Spouse | [[Jessica Livingston]] (YC co-founder) |
 | Net worth | $50M–$2.9B (estimates vary widely) |

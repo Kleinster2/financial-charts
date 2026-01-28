@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #person #finance #insurance #retirement #usa
 
-**Grant Kvalheim** — CEO of [[Athene]] (July 2025–present). 14-year Athene veteran, joined as CFO (2011). Former Co-President of Barclays Capital. Succeeded co-founder [[Jim Belardi]] as part of five-year growth plan.
+**Grant Kvalheim** — CEO of [[Athene]] (July 2025–present). 14-year Athene veteran, joined as CFO (2011). Former Co-President of [[Barclays]] Capital. Succeeded co-founder [[Jim Belardi]] as part of five-year growth plan.
 
 ---
 
@@ -13,8 +13,8 @@ aliases: []
 |--------|-------|
 | Role | CEO, Athene (July 1, 2025–present) |
 | Prior: Athene | CFO (2011), then President (US operations + growth) |
-| Prior: Barclays | Co-President, Barclays Capital |
-| Prior: Other | Senior positions at Deutsche Bank, Merrill Lynch |
+| Prior: [[Barclays]] | Co-President, [[Barclays]] Capital |
+| Prior: Other | Senior positions at [[Deutsche Bank]], Merrill Lynch |
 | Appointed by | Athene Board, aligned with 2024 investor day growth plan |
 
 ---
@@ -35,7 +35,7 @@ Kvalheim was the operational leader running Athene's day-to-day US business whil
 
 The CEO transition aligns with Athene's five-year growth plan announced at the 2024 investor day:
 - Scale from $430B toward $600B+ in assets
-- Expand Japan/Asia operations (FCA Re sidecar with [[Fortitude Re]])
+- Expand [[Japan]]/[[Asia]] operations (FCA Re sidecar with [[Fortitude Re]])
 - Deepen defined contribution market (ARS acquisition with [[Apollo]])
 - Maintain #1 US individual annuity market position
 

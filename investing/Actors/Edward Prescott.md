@@ -47,7 +47,7 @@ Paper: "Rules Rather Than Discretion: The Inconsistency of Optimal Plans" (with 
 
 **Real-world impact:**
 - Independent central banks
-- Inflation targeting regimes
+- [[Inflation]] targeting regimes
 - Fed forward guidance
 - [[Fed independence]] as institutional design
 
@@ -68,7 +68,7 @@ See [[Real Business Cycle theory]] for full concept.
 
 | Topic | Contribution |
 |-------|--------------|
-| **Labor supply** | Argued taxes explain US vs Europe hours worked differences |
+| **Labor supply** | Argued taxes explain US vs [[Europe]] hours worked differences |
 | **Great Depression** | Attributed length to New Deal labor policies |
 | **Economic development** | Emphasized institutions and barriers to technology adoption |
 
@@ -90,7 +90,7 @@ Prescott spent 22 years as Senior Monetary Advisor at the Federal Reserve Bank o
 
 - Fed communication strategy
 - Forward guidance credibility
-- Inflation targeting adoption
+- [[Inflation]] targeting adoption
 - Independence as institutional design
 
 ---

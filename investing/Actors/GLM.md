@@ -18,7 +18,7 @@ aliases: [ChatGLM, GLM-4, Z.ai GLM]
 | Parent | [[Zhipu]] (Z.ai) |
 | Huawei-only | GLM-Image (Jan 2026) |
 
-Open source + domestic chips = China's AI independence play.
+Open source + domestic chips = [[China]]'s AI independence play.
 
 ---
 
@@ -33,7 +33,7 @@ Open source + domestic chips = China's AI independence play.
 
 **Benchmarks:**
 
-| Benchmark | Score | vs Competitors |
+| [[Benchmark]] | Score | vs Competitors |
 |-----------|-------|----------------|
 | LiveCodeBench | **84.9%** | Beat Claude Sonnet 4.5 |
 | SWE-Bench Verified | **73.8%** | Best open source |
@@ -60,12 +60,12 @@ Open source + domestic chips = China's AI independence play.
 |------|-------|
 | Total params | 355B |
 | Active params | 32B |
-| Architecture | MoE Transformer |
+| Architecture | MoE [[Transformer]] |
 | Context | **200K tokens** |
-| Chips | FP8 on Cambricon, Moore Threads |
+| Chips | FP8 on Cambricon, [[Moore Threads]] |
 | License | Apache 2.0 |
 
-**Hardware flexibility:** Runs on 8× NVIDIA H20 chips (export-compliant).
+**Hardware flexibility:** Runs on 8× [[NVIDIA]] H20 chips (export-compliant).
 
 ---
 
@@ -75,12 +75,12 @@ Open source + domestic chips = China's AI independence play.
 
 | Spec | Details |
 |------|---------|
-| Training hardware | Huawei Ascend Atlas 800T A2 |
+| Training hardware | Huawei [[Ascend]] Atlas 800T A2 |
 | Generator | 9B params (autoregressive) |
 | Decoder | 7B params (diffusion, DiT) |
 | Architecture | Autoregressive + diffusion hybrid |
 
-**Significance:** Proves China can train competitive models without NVIDIA. [[Export controls]] workaround demonstrated.
+**Significance:** Proves [[China]] can train competitive models without [[NVIDIA]]. [[Export controls]] workaround demonstrated.
 
 ---
 
@@ -101,7 +101,7 @@ Open source + domestic chips = China's AI independence play.
 
 | Metric | Value |
 |--------|-------|
-| IPO | Jan 8, 2026 (HKEX) |
+| IPO | Jan 8, 2026 ([[HKEX]]) |
 | Origin | Tsinghua University spinoff |
 | Valuation | $3B+ |
 | Rebrand | Zhipu AI → Z.ai (2025) |
@@ -126,13 +126,13 @@ See [[Zhipu]] for company details.
 ## Investment implications
 
 **Indirect exposure:**
-- [[Zhipu]] (HKEX) — parent, publicly traded as of Jan 2026
+- [[Zhipu]] ([[HKEX]]) — parent, publicly traded as of Jan 2026
 - Huawei — chip partnership (private)
 
 **Thesis implications:**
 - Open source commoditizing coding AI
 - Huawei chips becoming viable for training
-- China AI not dependent on NVIDIA
+- [[China]] AI not dependent on [[NVIDIA]]
 
 ---
 
@@ -154,7 +154,7 @@ See [[Zhipu]] for company details.
 
 - [[Zhipu]] — parent company (Z.ai)
 - [[DeepSeek]] — open source peer
-- [[Qwen]] — open source peer (Alibaba)
+- [[Qwen]] — open source peer ([[Alibaba]])
 - [[Claude]] — premium competitor
 - [[Export controls]] — Huawei training significance
 - [[Huawei]] — chip partner

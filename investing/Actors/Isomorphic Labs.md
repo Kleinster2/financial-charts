@@ -3,7 +3,7 @@ aliases: [Isomorphic]
 ---
 #actor #biotech #ai #drugdiscovery #uk #private
 
-**Isomorphic Labs** — Alphabet/DeepMind spinout. AlphaFold 3 platform. $3B Novartis + Lilly deals. $600M raised.
+**Isomorphic Labs** — Alphabet/DeepMind spinout. AlphaFold 3 platform. $3B [[Novartis]] + Lilly deals. $600M raised.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Isomorphic]
 | Parent | Alphabet (DeepMind spinout) |
 | Founded | 2021 |
 | Funding | **$600M** (Mar 2025) |
-| Pharma deals | **~$3B** (Novartis + Lilly) |
+| Pharma deals | **~$3B** ([[Novartis]] + Lilly) |
 | Technology | AlphaFold 3 |
 
 ---
@@ -43,7 +43,7 @@ aliases: [Isomorphic]
 | Targets | Multiple, undisclosed |
 | Focus | Small molecules |
 
-### Novartis
+### [[Novartis]]
 
 | Metric | Value |
 |--------|-------|
@@ -142,7 +142,7 @@ aliases: [Isomorphic]
 
 ## Sources
 
-- [TechCrunch: Lilly/Novartis deals](https://techcrunch.com/2024/01/07/isomorphic-inks-deals-with-eli-lilly-and-novartis-for-drug-discovery/)
+- [TechCrunch: Lilly/[[Novartis]] deals](https://techcrunch.com/2024/01/07/isomorphic-inks-deals-with-eli-lilly-and-novartis-for-drug-discovery/)
 - [Clinical Trials Arena: Trial prep](https://www.clinicaltrialsarena.com/news/isomorphic-labs-prepares-trials-ai-designed-drugs/)
 
 *Created 2026-01-09*

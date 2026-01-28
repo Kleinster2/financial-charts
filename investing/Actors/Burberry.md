@@ -79,8 +79,8 @@ Joshua Schulman's strategy (announced Nov 2024):
 
 | Region | FY25 trend | Notes |
 |--------|-----------|-------|
-| Asia Pacific | Weakest | China exposure |
-| Europe | Moderate decline | Tourism-dependent |
+| [[Asia]] Pacific | Weakest | [[China]] exposure |
+| [[Europe]] | Moderate decline | Tourism-dependent |
 | Americas | Declining | Competitive pressure |
 
 ---
@@ -96,7 +96,7 @@ Joshua Schulman's strategy (announced Nov 2024):
 
 **Bear:**
 - Still loss-making (reported basis)
-- Free cash flow negative in H1 FY26
+- [[Free cash flow]] negative in H1 FY26
 - Creative direction unclear (Daniel Lee still in post)
 - Luxury downturn may delay recovery
 - 1,700 job cuts risk morale/creativity

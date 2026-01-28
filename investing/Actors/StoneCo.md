@@ -5,7 +5,7 @@ aliases: [STNE, Stone]
 
 # StoneCo
 
-**Brazilian payments fintech** — payment processing, banking, credit for MSMBs. Founded 2012 by André Street and Eduardo Pontes. **Nasdaq: STNE**. ~$4B market cap. Acquired **Pagar.me** (2016) from [[Brex]] founders. [[Berkshire Hathaway]] IPO investor.
+**Brazilian payments fintech** — payment processing, banking, credit for MSMBs. Founded 2012 by André Street and Eduardo Pontes. **[[Nasdaq]]: STNE**. ~$4B market cap. Acquired **Pagar.me** (2016) from [[Brex]] founders. [[Berkshire Hathaway]] IPO investor.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [STNE, Stone]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | STNE (Nasdaq) |
+| Ticker | STNE ([[Nasdaq]]) |
 | Founded | June 26, 2012 |
 | HQ | São Paulo, Brazil |
 | Founders | André Street, Eduardo Pontes |
@@ -26,7 +26,7 @@ aliases: [STNE, Stone]
 ## Price
 
 ![[brazil-fintech-comparison.png]]
-*[[Nubank|NU]] · PagSeguro (PAGS)*
+*[[Nubank|NU]] · [[PagSeguro]] (PAGS)*
 
 *All three crashed 80-90% from 2021 peaks in [[Fintech boom (2020-2021)]] bust. Nubank recovering best; StoneCo weighed down by [[Linx]] disaster.*
 
@@ -52,7 +52,7 @@ aliases: [STNE, Stone]
 
 Street and Pontes had a decade in Brazilian payments before StoneCo. Their prior company Braspag was successful but they shut it down to build StoneCo from scratch after Brazil's central bank broke the Cielo-Rede duopoly.
 
-**Post-StoneCo:** In 2019, Street and Pontes founded **Salt Pay** to replicate the Stone model in Europe.
+**Post-StoneCo:** In 2019, Street and Pontes founded **Salt Pay** to replicate the Stone model in [[Europe]].
 
 ---
 
@@ -60,11 +60,11 @@ Street and Pontes had a decade in Brazilian payments before StoneCo. Their prior
 
 | Detail | Value |
 |--------|-------|
-| Target | Pagar.me |
+| [[Target]] | Pagar.me |
 | Founders | Pedro Franceschi, Henrique Dubugras |
 | Result | Gave StoneCo proprietary PSP technology |
 
-Pagar.me was founded by the future [[Brex]] founders when they were 16. After the StoneCo acquisition, Franceschi and Dubugras enrolled at Stanford, then dropped out to start Brex (YC W17).
+Pagar.me was founded by the future [[Brex]] founders when they were 16. After the StoneCo acquisition, Franceschi and Dubugras enrolled at [[Stanford]], then dropped out to start Brex (YC W17).
 
 ---
 
@@ -72,7 +72,7 @@ Pagar.me was founded by the future [[Brex]] founders when they were 16. After th
 
 | Detail | Value |
 |--------|-------|
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Amount raised | ~$1.2B |
 | Date | October 25, 2018 |
 | First-day pop | +30% in two days |
@@ -158,7 +158,7 @@ Pagar.me was founded by the future [[Brex]] founders when they were 16. After th
 
 ### Sector
 - [[Fintech]] — sector
-- [[Brazil]] — geography (Pix revolution)
+- [[Brazil]] — geography ([[Pix]] revolution)
 
 ### Acquisitions
 - [[Linx]] — acquired R$6.7B (2020), sold to [[TOTVS]] R$3.05B (2025), -54% loss

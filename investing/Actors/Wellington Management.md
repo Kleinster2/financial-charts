@@ -26,8 +26,8 @@ aliases: [Wellington]
 | **[[Scale AI]]** | Series E+ ($29B) |
 | **[[SpaceX]]** | Growth ($350B) |
 | **[[Stripe]]** | Growth ($129B) |
-| **ByteDance** | Growth |
-| **Instacart** | Pre-IPO → Public |
+| **[[ByteDance]]** | Growth |
+| **[[Instacart]]** | Pre-IPO → Public |
 
 Wellington increasingly active in late-stage private tech.
 
@@ -39,7 +39,7 @@ Wellington increasingly active in late-stage private tech.
 |---------|-------------|
 | **Institutional** | Pensions, endowments |
 | **Sub-advisory** | Mutual funds for others |
-| **Private markets** | Venture/growth |
+| **[[Private markets]]** | Venture/growth |
 | **Public equities** | Global stocks |
 | **Fixed income** | Bonds |
 

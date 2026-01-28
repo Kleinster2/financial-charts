@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #investor #individual #usa #billionaire
 
-**Marc Andreessen** — Netscape co-founder. a16z co-founder. Meta board. ~$2B net worth. "Software eating the world."
+**Marc Andreessen** — Netscape co-founder. [[a16z]] co-founder. Meta board. ~$2B net worth. "Software eating the world."
 
 ---
 
@@ -12,7 +12,7 @@ aliases: []
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$2B |
-| Source | Netscape, Opsware, a16z |
+| Source | Netscape, Opsware, [[a16z]] |
 | Vehicle | [[Andreessen Horowitz]] |
 | Philosophy | Techno-optimism |
 
@@ -48,7 +48,7 @@ Netscape IPO = beginning of commercial internet era.
 |--------|-------|
 | Co-founder | With Ben Horowitz |
 | AUM | ~$35B |
-| Key deals | OpenAI, Coinbase, Stripe |
+| Key deals | OpenAI, [[Coinbase]], [[Stripe]] |
 | Innovation | VC "platform" model |
 
 See [[Andreessen Horowitz]] for full firm profile.
@@ -71,8 +71,8 @@ See [[Andreessen Horowitz]] for full firm profile.
 | Company | Role |
 |---------|------|
 | **[[Meta]]** | Board member |
-| **Coinbase** | Board member |
-| Various | a16z portfolio |
+| **[[Coinbase]]** | Board member |
+| Various | [[a16z]] portfolio |
 
 ---
 
@@ -102,7 +102,7 @@ See [[Andreessen Horowitz]] for full firm profile.
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$2B |
-| Founded | Netscape, a16z |
+| Founded | Netscape, [[a16z]] |
 | Board | Meta |
 | Essay | "Software eating the world" |
 
@@ -112,7 +112,7 @@ See [[Andreessen Horowitz]] for full firm profile.
 
 - [[Andreessen Horowitz]] — his VC firm
 - [[Meta]] — board member
-- [[OpenAI]] — a16z portfolio
+- [[OpenAI]] — [[a16z]] portfolio
 
 ---
 

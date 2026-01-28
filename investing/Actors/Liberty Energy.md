@@ -3,7 +3,7 @@ aliases: [LBRT, Liberty Oilfield Services]
 ---
 #actor #energy #oilservices #fracking #usa #public
 
-**Liberty Energy** — Leading pressure pumping (frac) company. Digi-frac technology. ESG positioning with natural gas-powered fleets.
+**Liberty Energy** — Leading pressure pumping (frac) company. Digi-frac technology. [[ESG]] positioning with natural gas-powered fleets.
 
 ---
 
@@ -39,28 +39,28 @@ Pure-play completions, no drilling.
 
 | Digi-frac | Conventional |
 |-----------|--------------|
-| Natural gas powered | Diesel |
+| [[Natural gas]] powered | [[Diesel]] |
 | Electric-driven | Mechanical |
 | Lower emissions | Higher emissions |
 | Quieter | Louder |
 | Lower fuel cost | Higher fuel cost |
 
-ESG advantage + cost advantage.
+[[ESG]] advantage + cost advantage.
 
 ---
 
-## ESG positioning
+## [[ESG]] positioning
 
 **"Bettering human lives":**
 
-- Natural gas fleets reduce emissions
+- [[Natural gas]] fleets reduce emissions
 - Carbon capture investments
 - Board member Chris Wright (CEO) is Trump's Energy Secretary nominee
-- Controversial ESG skeptic viewpoint
+- Controversial [[ESG]] skeptic viewpoint
 
 ---
 
-## Venezuela relevance
+## [[Venezuela]] relevance
 
 **High potential:**
 
@@ -76,15 +76,15 @@ See [[Venezuela oil rebuild]] for context.
 
 **Bull:**
 - Technology leadership
-- ESG advantage (lower emissions)
+- [[ESG]] advantage (lower emissions)
 - Permian activity
 - Capital returns
-- Venezuela/international upside
+- [[Venezuela]]/international upside
 
 **Bear:**
 - Frac overcapacity
 - Permian slowdown
-- Natural gas weakness
+- [[Natural gas]] weakness
 - Cyclical exposure
 
 ---

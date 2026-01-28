@@ -64,13 +64,13 @@ Forbes 30 Under 30 (2018). Fortune 40 Under 40 (2017, 2019, 2021).
 | Date | Round | Amount | Lead |
 |------|-------|--------|------|
 | 2014 | Seed | ₹4.5M | IIT Madras / Dept of Science & Tech |
-| 2015 | Series A | $12M | Tiger Global |
+| 2015 | Series A | $12M | [[Tiger Global]] |
 | 2016 | Series B | ₹180 Cr ($21M) | Hero MotoCorp |
 | 2018 | Follow-on | ₹130 Cr ($15M) | Hero MotoCorp |
 | 2020 | Series C | $11.4M | Hero MotoCorp |
 | 2025 | IPO | ₹2,981 Cr | Public markets |
 
-**IPO investor returns:** IIT Madras incubators: 200x+. Tiger Global: ~8.3x.
+**IPO investor returns:** IIT Madras incubators: 200x+. [[Tiger Global]]: ~8.3x.
 
 ---
 
@@ -94,7 +94,7 @@ Forbes 30 Under 30 (2018). Fortune 40 Under 40 (2017, 2019, 2021).
 |------|--------|
 | **Still loss-making** | ₹-764 Cr loss; path to profitability unclear at current scale |
 | **Competition** | Ola Electric aggressive on price; legacy OEMs (TVS, Bajaj, Hero) have distribution |
-| **China supply chain** | Battery cells and components largely sourced from China |
+| **[[China]] supply chain** | Battery cells and components largely sourced from [[China]] |
 | **Subsidy dependency** | FAME incentives drive demand; policy changes could stall adoption |
 | **Premium niche** | India is extremely price-sensitive; premium positioning limits TAM |
 | **Post-IPO pressure** | Listed at ₹328, closed first day at ₹300; market skeptical on losses |

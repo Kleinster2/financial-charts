@@ -43,7 +43,7 @@ aliases: [4911, Shiseido Company]
 |--------|-------------|-----------------|
 | **Japan** | +10% net sales | ¥28.1B (strong) |
 | **China** | -4.6% LFL | Declining |
-| **Travel Retail** | Declining | Pressure |
+| **[[Travel]] Retail** | Declining | Pressure |
 | **Americas** | — | **-¥10B+ loss** |
 | **EMEA** | — | Mixed |
 
@@ -87,7 +87,7 @@ aliases: [4911, Shiseido Company]
 | Revenue | ¥995B (→ revised down to ~¥950B) |
 | Revenue growth | +4% (ex-FX) |
 | Core operating profit | ¥36.5B (flat) |
-| China/Travel Retail | Expecting further declines |
+| China/[[Travel]] Retail | Expecting further declines |
 | 9-month FY25 | **Net loss** (vs profit prior year) |
 
 **Sales forecast cut** from ¥995B to ~¥950B ($6.2B) in Q3 2025. Restructuring charges creating near-term losses.

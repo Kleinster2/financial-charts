@@ -3,7 +3,7 @@ aliases: [Point72 Asset Management, SAC Capital]
 ---
 #actor #hedgefund #multistrat #usa #private
 
-**Point72** — Multi-strategy hedge fund founded by [[Steve Cohen]]. Successor to SAC Capital (insider trading guilty plea, $1.8B fine, 2013). $35B AUM. **+17.5% in 2025** — outperformed Millennium and Citadel.
+**Point72** — Multi-strategy hedge fund founded by [[Steve Cohen]]. Successor to SAC Capital (insider trading guilty plea, $1.8B fine, 2013). $35B AUM. **+17.5% in 2025** — outperformed Millennium and [[Citadel]].
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [Point72 Asset Management, SAC Capital]
 | Point72 (flagship) | +15% | +19% | +17.5% |
 | Turion (AI) | — | +14% (Q4) | — |
 
-**2025**: Outperformed Millennium (+10.5%) and Citadel Wellington (+13%).
+**2025**: Outperformed Millennium (+10.5%) and [[Citadel]] Wellington (+13%).
 
 **Capital return**: Returning $3-5B to investors in early 2025 after strong 2024.
 
@@ -68,10 +68,10 @@ Named after Alan Turing.
 
 ## Recent initiatives
 
-### Private credit (2025)
+### [[Private credit]] (2025)
 
 Point72 raising capital for private credit strategy:
-- Target: $1B+
+- [[Target]]: $1B+
 - Expansion beyond traditional equity
 
 ### Capital return (2025)
@@ -86,7 +86,7 @@ Returning $3-5B to investors after 2024 gains to maintain fund efficiency.
 |------|------|------|-------|
 | **Point72** | **+19%** | **+17.5%** | Pod shop |
 | [[Millennium]] | +15% | +10.5% | Pod shop |
-| Citadel Wellington | +15% | +13% | Pod shop |
+| [[Citadel]] Wellington | +15% | +13% | Pod shop |
 | [[D.E. Shaw]] Composite | +18% | +18.5% | Multi-strat |
 
 Point72 outperformed pod shop peers in both 2024 and 2025.
@@ -103,7 +103,7 @@ Point72 outperformed pod shop peers in both 2024 and 2025.
 
 3. **Cohen's influence** — Net worth, Mets ownership, and political connections make him high-profile figure.
 
-4. **Pod shop performance** — Consistently outperforming Millennium and Citadel recently.
+4. **Pod shop performance** — Consistently outperforming Millennium and [[Citadel]] recently.
 
 ---
 
@@ -113,9 +113,9 @@ Point72 outperformed pod shop peers in both 2024 and 2025.
 - [[Steve Cohen]] — founder, $21.3B net worth, Mets owner
 
 ### Peer pod shops
-- [[Millennium]] — Izzy Englander, pod shop pioneer
+- [[Millennium]] — [[Izzy Englander]], pod shop pioneer
 - [[Citadel Securities]] — Ken Griffin, rival
-- Balyasny — pod shop peer
+- [[Balyasny]] — pod shop peer
 
 ### Peer multi-strat
 - [[D.E. Shaw]] — multi-strategy

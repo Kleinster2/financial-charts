@@ -156,8 +156,17 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 - [[Zillow]] — #1 traffic
 - [[CoStar Group]] — #1 commercial, Homes.com
 
+*Real estate brokerages:*
+- [[Compass]] — tech brokerage, acquired [[Anywhere Real Estate]] Jan 2026
+- [[Anywhere Real Estate]] — legacy brands (Coldwell Banker, Century 21)
+- [[Redfin]] — discount brokerage, now part of [[Rocket Companies]]
+
+*iBuyers:*
+- [[Opendoor]] — largest iBuyer
+- [[Offerpad]] — smaller iBuyer
+
 **Related sectors:**
 - [[Mortgage REITs]] — MBS investors
 - [[REITs]] — broader REIT sector
 
-*Updated 2026-01-16*
+*Updated 2026-01-28*

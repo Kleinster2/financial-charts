@@ -97,7 +97,7 @@ As of Sep 2025: Interest rate hedges covering **68%** of:
 |------------------|--------|
 | Rates falling | MBS prices rise, book value up |
 | Rates rising | MBS prices fall, book value down |
-| Stable rates | Carry trade works, dividends flow |
+| Stable rates | [[Carry trade]] works, dividends flow |
 
 **No MSR hedge:** Unlike Annaly, AGNC doesn't have MSR portfolio to offset rate moves.
 

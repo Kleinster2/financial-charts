@@ -1,9 +1,9 @@
 ---
-aliases: [Capital G, Google Capital]
+aliases: [Capital G, [[Google]] Capital]
 ---
 #actor #investor #growthequity #usa #corporate
 
-**CapitalG** — Alphabet's growth fund. Physical Intelligence Series B lead. Airbnb, CrowdStrike, Stripe investor.
+**CapitalG** — Alphabet's growth fund. Physical Intelligence Series B lead. [[Airbnb]], [[CrowdStrike]], Stripe investor.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Capital G, Google Capital]
 | Metric | Value |
 |--------|-------|
 | Founded | 2013 |
-| Parent | [[Alphabet]] / Google |
+| Parent | [[Alphabet]] / [[Google]] |
 | AUM | ~$7B |
 | Focus | Growth equity |
 | HQ | San Francisco |
@@ -24,11 +24,11 @@ aliases: [Capital G, Google Capital]
 | Company | Stage | Status |
 |---------|-------|--------|
 | **[[Physical Intelligence]]** | Lead Series B | $5.6B |
-| **Airbnb** | Pre-IPO | Public (ABNB) |
-| **CrowdStrike** | Pre-IPO | Public (CRWD) |
+| **[[Airbnb]]** | Pre-IPO | Public (ABNB) |
+| **[[CrowdStrike]]** | Pre-IPO | Public (CRWD) |
 | **[[Stripe]]** | Growth | $129B |
 | **Duolingo** | Growth | Public (DUOL) |
-| **Lyft** | Pre-IPO | Public (LYFT) |
+| **[[Lyft]]** | Pre-IPO | Public (LYFT) |
 | **UiPath** | Pre-IPO | Public (PATH) |
 
 ---

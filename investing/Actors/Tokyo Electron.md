@@ -15,7 +15,7 @@ TEL is the largest Japanese WFE company and #3 globally:
 |--------|-------|
 | Market position | #3 WFE globally |
 | Specialty | Coater/developer, etch, deposition |
-| HQ | Tokyo, Japan |
+| HQ | Tokyo, [[Japan]] |
 | Market share | ~15% of WFE |
 
 ---
@@ -45,17 +45,17 @@ TEL is the largest Japanese WFE company and #3 globally:
 
 ---
 
-## China exposure
+## [[China]] exposure
 
 **Export control impact:**
-- TEL subject to Japan export controls
+- TEL subject to [[Japan]] export controls
 - Aligned with US restrictions
-- Some China revenue at risk
+- Some [[China]] revenue at risk
 - But mature-node tools still allowed
 
-**Japan government stance:**
+**[[Japan]] government stance:**
 - Coordinated with US/Netherlands
-- Restricted advanced equipment to China
+- Restricted advanced equipment to [[China]]
 - TEL compliant
 
 ---
@@ -74,17 +74,17 @@ TEL is diversified across WFE, less concentrated than peers.
 
 ---
 
-## Japan ecosystem
+## [[Japan]] ecosystem
 
-**Part of Japan semiconductor revival:**
+**Part of [[Japan]] semiconductor revival:**
 - [[Rapidus]] uses Japanese equipment
 - Government supporting domestic WFE
 - TEL = national champion
 
-**Other Japan WFE:**
+**Other [[Japan]] WFE:**
 - Screen (cleaning)
-- Advantest (test)
-- Disco (dicing)
+- [[Advantest]] (test)
+- [[Disco]] (dicing)
 - Lasertec (inspection)
 
 ---
@@ -95,11 +95,11 @@ TEL is diversified across WFE, less concentrated than peers.
 - #3 global WFE
 - Coater/developer near-monopoly
 - ASML EUV tailwind
-- Japan semiconductor revival
+- [[Japan]] semiconductor revival
 - Memory recovery benefits
 
 **Bear:**
-- China exposure risk
+- [[China]] exposure risk
 - Yen volatility
 - Cyclical WFE market
 - Less leading-edge focus than ASML
@@ -112,7 +112,7 @@ TEL is diversified across WFE, less concentrated than peers.
 |--------|-------|
 | Ticker | 8035 (Tokyo), TOELY (ADR) |
 | Market cap | ~¥10T+ (~$65B) |
-| HQ | Tokyo, Japan |
+| HQ | Tokyo, [[Japan]] |
 | Employees | ~18,000 |
 | Key product | Coater/developer |
 
@@ -126,5 +126,5 @@ TEL is diversified across WFE, less concentrated than peers.
 - [[Applied Materials]] — competitor (deposition, etch)
 - [[Lam Research]] — competitor (etch)
 - [[Long WFE]] — thesis (beneficiary)
-- [[Export controls]] — constraint (Japan aligned)
-- [[Rapidus]] — customer (Japan semiconductor revival)
+- [[Export controls]] — constraint ([[Japan]] aligned)
+- [[Rapidus]] — customer ([[Japan]] semiconductor revival)

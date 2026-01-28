@@ -3,7 +3,7 @@ aliases: [Scale]
 ---
 #actor #ai #data #usa
 
-**Scale AI** — Data labeling + AI infrastructure. Meta bought 49% ($14.8B). Alexandr Wang joined Meta. Defense contracts.
+**Scale AI** — Data labeling + AI infrastructure. Meta bought 49% ($14.8B). Alexandr Wang joined Meta. [[Defense]] contracts.
 
 ---
 
@@ -30,7 +30,7 @@ Data labeling kingpin, now Meta-controlled:
 | Amount | $14.8B for 49% |
 | Implied valuation | $29B |
 | Wang's move | Joined Meta as "superintelligence" lead |
-| Interim CEO | Jason Droege (ex-Uber Eats) |
+| Interim CEO | Jason Droege (ex-[[Uber]] Eats) |
 
 One of largest AI deals ever.
 
@@ -41,7 +41,7 @@ One of largest AI deals ever.
 **Youngest self-made billionaire (was):**
 - Founded Scale at 19
 - MIT dropout
-- Defense-focused
+- [[Defense]]-focused
 - Trump inauguration attendee
 - Now building Meta's superintelligence team
 
@@ -65,7 +65,7 @@ One of largest AI deals ever.
 
 | Round | Date | Amount | Valuation | Lead |
 |-------|------|--------|-----------|------|
-| Seed | 2016 | — | — | Y Combinator |
+| Seed | 2016 | — | — | [[Y Combinator]] |
 | Series A | 2017 | — | — | [[Accel]] |
 | Series C | Aug 2019 | $100M | $1B | [[Founders Fund]] |
 | Series E | Jul 2021 | $325M | $7B | [[Greenoaks]] |
@@ -85,7 +85,7 @@ One of largest AI deals ever.
 | **[[Index Ventures]]** | Early investor |
 | **[[Greenoaks]]** | Lead Series E |
 | **[[NVIDIA]]** | Strategic (Series F) |
-| **Amazon** | Strategic (Series F) |
+| **[[Amazon]]** | Strategic (Series F) |
 | **[[Spark Capital]]** | Series C+ |
 | **[[Dragoneer]]** | Early investor |
 | **[[Wellington Management]]** | Series E+ |
@@ -119,8 +119,8 @@ Wang: "America must win the AI war."
 **Pro-Trump, pro-defense:**
 - Wang at Trump inauguration (Jan 2025)
 - Letter to Trump on AI competition
-- Michael Kratsios (Trump science advisor) was Scale exec
-- Defense-first positioning
+- [[Michael Kratsios]] (Trump science advisor) was Scale exec
+- [[Defense]]-first positioning
 
 ---
 
@@ -150,13 +150,13 @@ Effectively a Meta subsidiary now.
 ## Customer concentration risk (2026)
 
 Meta's 49% ownership has created competitive conflicts:
-- Google, OpenAI, xAI have reduced or paused engagements
+- [[Google]], OpenAI, [[xAI]] have reduced or paused engagements
 - Data confidentiality concerns (competitor owns the platform)
 - Scale must prove independence despite Meta's influence
 
 ---
 
-## Robotics expansion (Sep 2025)
+## [[Robotics]] expansion (Sep 2025)
 
 Expanded into robotics data collection — hiring hundreds of contractors globally to record point-of-view demonstrations for startups training AI-powered robots. Diversification beyond text/image labeling.
 
@@ -179,13 +179,13 @@ By 2026, Scale has evolved beyond data labeling into a full-stack "AI Readiness"
 - Meta backing = massive resources and scale
 - $249M DoD + $99M Army contracts = government moat
 - $2B revenue trajectory, 130% growth
-- Robotics expansion opens new TAM
+- [[Robotics]] expansion opens new TAM
 - Donovan = sticky defense platform
 
 **Bear:**
 - Meta controls destiny (49% ownership)
 - Wang departed (founder risk)
-- Customer concentration risk (Google, OpenAI reducing engagement)
+- Customer concentration risk ([[Google]], OpenAI reducing engagement)
 - Labeling may commoditize long-term
 - IPO timeline uncertain (Meta liquidity reduced pressure)
 

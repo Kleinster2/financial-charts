@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #data #finance #uk #acquired
 
-**Preqin** — Private markets data and analytics provider. Acquired by BlackRock (2024). Industry-standard for alternatives data.
+**Preqin** — [[Private markets]] data and analytics provider. Acquired by BlackRock (2024). Industry-standard for alternatives data.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: []
 |--------|-------|
 | Founded | 2003 |
 | HQ | London |
-| Focus | Private markets data |
+| Focus | [[Private markets]] data |
 | Acquirer | [[BlackRock]] (2024) |
 
 ---
@@ -47,7 +47,7 @@ Industry-standard data source for alternatives.
 ## Market position
 
 **Competitive landscape:**
-- PitchBook (Morningstar) — competitor
+- PitchBook ([[Morningstar]]) — competitor
 - Burgiss — competitor
 - Preqin = leading independent
 
@@ -73,7 +73,7 @@ Data = moat in alternatives.
 |--------|-------|
 | Founded | 2003 |
 | HQ | London |
-| Focus | Private markets data |
+| Focus | [[Private markets]] data |
 | Status | Acquired by BlackRock |
 
 *Created 2026-01-15*
@@ -85,4 +85,4 @@ Data = moat in alternatives.
 - [[BlackRock]] — acquirer
 - [[Larry Fink]] — BlackRock CEO
 - [[Aladdin]] — BlackRock's risk platform
-- [[PitchBook]] — competitor (Morningstar-owned)
+- [[PitchBook]] — competitor ([[Morningstar]]-owned)

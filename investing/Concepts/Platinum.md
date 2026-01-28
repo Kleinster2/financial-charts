@@ -8,7 +8,7 @@
 
 | Country | Share |
 |---------|-------|
-| South Africa | ~70% |
+| South [[Africa]] | ~70% |
 | Russia | ~12% |
 | Zimbabwe | ~8% |
 
@@ -23,7 +23,7 @@ South African supply dominates — vulnerable to power outages (Eskom), labor st
 | Industrial | ~20% |
 | Investment | ~10% |
 
-**Autocatalyst context:** Platinum is used in diesel catalytic converters. Diesel's decline in Europe has pressured demand.
+**Autocatalyst context:** Platinum is used in diesel catalytic converters. [[Diesel]]'s decline in [[Europe]] has pressured demand.
 
 ### Platinum-palladium substitution
 
@@ -48,7 +48,7 @@ Electric vehicles don't need catalytic converters — structural headwind for bo
 | Era | Ratio | Meaning |
 |-----|-------|---------|
 | Historical avg | 0.8-1.0x | Platinum at premium |
-| 2015-2020 | 1.5-2.0x | Diesel scandal, palladium substitution |
+| 2015-2020 | 1.5-2.0x | [[Diesel]] scandal, palladium substitution |
 | Current | ~2.2x | Platinum deeply discounted |
 
 Platinum trading at historic discount to gold — mean reversion thesis or structural shift?

@@ -10,7 +10,7 @@
 
 ## The thesis
 
-Broadcom is the picks-and-shovels play on hyperscaler custom silicon. As AI labs and hyperscalers build proprietary chips to escape NVIDIA pricing, Broadcom captures design revenue regardless of who wins.
+Broadcom is the picks-and-shovels play on hyperscaler custom silicon. As AI labs and hyperscalers build proprietary chips to escape [[NVIDIA]] pricing, Broadcom captures design revenue regardless of who wins.
 
 ---
 
@@ -26,9 +26,9 @@ Broadcom is the picks-and-shovels play on hyperscaler custom silicon. As AI labs
 
 **Customer breakdown (F27E):**
 - Google: $50B (TPUs)
-- OpenAI: $20B (Titan)
-- Anthropic: $4.4B
-- xAI: $8B
+- OpenAI: $20B ([[Titan]])
+- [[Anthropic]]: $4.4B
+- [[xAI]]: $8B
 - Others: $17.6B
 
 This is a **7x revenue expansion** in 2 years.
@@ -45,11 +45,11 @@ This is a **7x revenue expansion** in 2 years.
 **Customer relationships:**
 - Google TPUs since v1
 - OpenAI $10B deal (Oct 2025)
-- Meta, Amazon, Apple, Softbank, ByteDance
+- [[Meta]], [[Amazon]], [[Apple]], Softbank, [[ByteDance]]
 
 **No alternatives at scale:**
 - MediaTek emerging but small
-- Marvell strong with Amazon only
+- [[Marvell]] strong with [[Amazon]] only
 - In-house design takes years to build
 
 ---
@@ -60,8 +60,8 @@ This is a **7x revenue expansion** in 2 years.
 
 Hyperscalers want to cut out Broadcom's ~55% margins:
 - **Google Zebrafish**: Sourcing wafers/memory directly, MediaTek for support chips
-- **MediaTek wins**: TPUv7e, Maia 400, ByteDance APU
-- **Meta RISC-V**: Building in-house with Rivos acquisition
+- **MediaTek wins**: TPUv7e, Maia 400, [[ByteDance]] APU
+- **[[Meta]] [[RISC-V]]**: Building in-house with Rivos acquisition
 
 If this accelerates, Broadcom loses ASP and margin.
 
@@ -71,7 +71,7 @@ If this accelerates, Broadcom loses ASP and margin.
 |------|----------|
 | Top 5 customers | 40% of revenue |
 | Google alone | Massive (TPU dependency) |
-| Apple | $7B+ |
+| [[Apple]] | $7B+ |
 
 Google defection would be material.
 
@@ -86,7 +86,7 @@ Google defection would be material.
 ## What validates the thesis
 
 - [ ] F26 ASIC revenue hits $50B+ guidance
-- [ ] OpenAI Titan production on track (H2 2026)
+- [ ] OpenAI [[Titan]] production on track (H2 2026)
 - [ ] New hyperscaler design wins
 - [ ] MediaTek disintermediation stays limited
 - [ ] Networking revenue grows with AI clusters
@@ -99,11 +99,11 @@ Google defection would be material.
 - [ ] MediaTek wins major new customers
 - [ ] Hyperscalers bring design fully in-house
 - [ ] AI capex slowdown
-- [ ] Apple reduces orders materially
+- [ ] [[Apple]] reduces orders materially
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - Stock already up 50%+ YTD, $1.5T market cap
 - High expectations = less room for error
@@ -118,7 +118,7 @@ Google defection would be material.
 
 **[[AI Race]]**: Broadcom benefits regardless of which AI lab wins
 
-**[[Long memory]]**: Every ASIC needs HBM — Broadcom chips drive memory demand
+**[[Long memory]]**: Every ASIC needs [[HBM]] — Broadcom chips drive memory demand
 
 ---
 
@@ -140,7 +140,7 @@ Google defection would be material.
 | 2025-12-30 | Stock +9% on OpenAI announcement | Market recognizing ASIC story |
 | 2025-12-30 | MediaTek appearing in TPUv7e, Maia 400 | Disintermediation risk real |
 | 2025-12-30 | Non-AI semi down 30% from peak | AI dependency deepening |
-| 2025-12-30 | Anthropic $20.9B F26E via Broadcom (Citi) | AI lab demand broad-based |
+| 2025-12-30 | [[Anthropic]] $20.9B F26E via Broadcom (Citi) | AI lab demand broad-based |
 
 ---
 
@@ -149,11 +149,11 @@ Google defection would be material.
 - [[Broadcom]] — subject (ASIC design dominance)
 - [[TSMC]] — partner (all Broadcom chips fabbed there)
 - [[Google]] — customer ($50B F27E projected)
-- [[OpenAI]] — customer ($10B deal, Titan chip)
+- [[OpenAI]] — customer ($10B deal, [[Titan]] chip)
 - [[MediaTek]] — risk (emerging disintermediation)
 - [[Hyperscaler chip roadmap]] — context (customer ASIC programs)
 - [[Long TSMC]] — complementary thesis
-- [[Long memory]] — complementary thesis (ASICs need HBM)
+- [[Long memory]] — complementary thesis (ASICs need [[HBM]])
 
 ---
 

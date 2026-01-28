@@ -13,7 +13,7 @@ aliases: [Economist Group, The Economist Group]
 
 | Metric | Value |
 |--------|-------|
-| HQ | London, UK |
+| HQ | London, [[UK]] |
 | Founded | 1843 |
 | Format | Weekly print + digital |
 | Circulation | ~1.2M paid subscribers |
@@ -53,7 +53,7 @@ aliases: [Economist Group, The Economist Group]
 
 - **Unsigned articles** — institutional voice, not bylined opinion
 - **Classical liberal** — free markets, free trade, globalization, immigration
-- **Internationalist** — pro-EU, pro-NATO, skeptical of populism
+- **Internationalist** — pro-[[EU]], pro-NATO, skeptical of populism
 - **Data-driven** — heavy use of charts and statistics
 
 Often accused of both left-wing and right-wing bias depending on the issue.

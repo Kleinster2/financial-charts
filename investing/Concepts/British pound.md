@@ -25,9 +25,9 @@ aliases: [GBP, GBPUSD, sterling, pound]
 |--------|----------------|
 | **BoE policy** | Cutting slower than Fed |
 | **UK growth** | Weak but stabilizing |
-| **Inflation** | Stickier than US/EU |
+| **[[Inflation]]** | Stickier than US/[[EU]] |
 | **Fiscal policy** | Constrained (gilt vigilantes) |
-| **Brexit effects** | Trade frictions ongoing |
+| **Brexit effects** | [[Trade]] frictions ongoing |
 
 ---
 
@@ -35,7 +35,7 @@ aliases: [GBP, GBPUSD, sterling, pound]
 
 | Factor | Impact on GBP |
 |--------|---------------|
-| Trade barriers | Negative (friction costs) |
+| [[Trade]] barriers | Negative (friction costs) |
 | FDI flows | Negative (reduced inflows) |
 | Services access | Negative (City of London) |
 | Policy independence | Mixed (BoE flexibility) |
@@ -60,7 +60,7 @@ Current government (Starmer) fiscally cautious as a result.
 | Vehicle | Ticker | Notes |
 |---------|--------|-------|
 | Invesco CurrencyShares GBP | FXB | Pure sterling exposure |
-| iShares MSCI UK | EWU | UK equity + GBP |
+| iShares [[MSCI]] UK | EWU | UK equity + GBP |
 | Spot FX | GBPUSD | Direct |
 
 ---

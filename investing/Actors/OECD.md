@@ -15,7 +15,7 @@ aliases: [Organisation for Economic Co-operation and Development]
 | Founded | 1961 (successor to Marshall Plan org) |
 | GDP share | ~60% of world |
 | HQ | Paris |
-| Secretary-General | Mathias Cormann (Australia) |
+| Secretary-General | Mathias Cormann ([[Australia]]) |
 
 ---
 
@@ -23,13 +23,13 @@ aliases: [Organisation for Economic Co-operation and Development]
 
 | Region | Members |
 |--------|---------|
-| **North America** | US, Canada, Mexico |
-| **Europe** | EU members + UK, Switzerland, Norway, Iceland, Turkey |
-| **Asia-Pacific** | Japan, Korea, Australia, New Zealand |
-| **Latin America** | Chile, Colombia, Costa Rica |
+| **North America** | US, [[Canada]], [[Mexico]] |
+| **[[Europe]]** | [[EU]] members + [[UK]], Switzerland, Norway, Iceland, Turkey |
+| **[[Asia]]-Pacific** | [[Japan]], Korea, [[Australia]], New Zealand |
+| **Latin America** | [[Chile]], Colombia, Costa Rica |
 | **Other** | Israel |
 
-**Key non-members:** China, India, Brazil, Russia (suspended 2022).
+**Key non-members:** [[China]], [[India]], [[Brazil]], [[Russia]] (suspended 2022).
 
 ---
 
@@ -58,7 +58,7 @@ aliases: [Organisation for Economic Co-operation and Development]
 
 | Element | Detail |
 |---------|--------|
-| Target | Largest, most profitable MNCs |
+| [[Target]] | Largest, most profitable MNCs |
 | Threshold | €20B revenue, 10% margin |
 | Reallocation | 25% of profits above 10% to market countries |
 | Status | Stalled (US resistance) |
@@ -83,7 +83,7 @@ Sets global standard for how MNCs price intercompany transactions.
 | Scope | Bribery of foreign officials |
 | Enforcement | National laws required |
 | Monitoring | Peer reviews |
-| Standard | Model for FCPA, UK Bribery Act |
+| Standard | Model for FCPA, [[UK]] Bribery Act |
 
 ---
 
@@ -92,9 +92,9 @@ Sets global standard for how MNCs price intercompany transactions.
 | Dimension | OECD | G20 |
 |-----------|------|-----|
 | Members | 38 (wealthy democracies) | 20 (largest economies) |
-| Includes China | No | Yes |
-| Includes India | No | Yes |
-| Includes Russia | Suspended | Yes |
+| Includes [[China]] | No | Yes |
+| Includes [[India]] | No | Yes |
+| Includes [[Russia]] | Suspended | Yes |
 | Role | Technical standards | Political coordination |
 | Staff | 3,000+ economists | Rotating secretariat |
 
@@ -117,9 +117,9 @@ Sets global standard for how MNCs price intercompany transactions.
 
 | Standard | Impact |
 |----------|--------|
-| Principles of Corporate Governance | Board standards, shareholder rights |
+| [[Principles]] of Corporate Governance | Board standards, shareholder rights |
 | SOE guidelines | State-owned enterprise transparency |
-| Anti-bribery convention | FCPA, UK Bribery Act model |
+| Anti-bribery convention | FCPA, [[UK]] Bribery Act model |
 | Due diligence guidance | Supply chain ESG standards |
 
 ### ESG / Sustainability
@@ -135,11 +135,11 @@ Sets global standard for how MNCs price intercompany transactions.
 
 | Initiative | Status |
 |------------|--------|
-| OECD AI Principles (2019) | First intergovernmental AI framework |
+| OECD AI [[Principles]] (2019) | First intergovernmental AI framework |
 | AI Policy Observatory | Monitoring implementation |
 | Compute governance | Emerging work |
 
-Basis for EU AI Act, G7 Hiroshima Process.
+Basis for [[EU]] AI Act, G7 Hiroshima Process.
 
 ### Education
 
@@ -167,7 +167,7 @@ PISA rankings influence education policy globally.
 | Institution | Relationship |
 |-------------|--------------|
 | [[IEA]] | OECD autonomous agency (energy) |
-| NEA | Nuclear Energy Agency |
+| [[NEA]] | Nuclear Energy Agency |
 | FATF | Anti-money laundering (OECD-linked) |
 | G7/G20 | Political endorsement |
 | IMF/World Bank | Complementary roles |
@@ -180,9 +180,9 @@ PISA rankings influence education policy globally.
 
 | Sector | Companies affected |
 |--------|-------------------|
-| Big Tech | Apple, Google, Microsoft, Meta |
-| Pharma | Pfizer, J&J, Merck (IP structures) |
-| Luxury | LVMH, Kering (Switzerland HQs) |
+| Big Tech | [[Apple]], [[Google]], [[Microsoft]], [[Meta]] |
+| Pharma | [[Pfizer]], J&J, [[Merck]] (IP structures) |
+| [[Luxury]] | [[LVMH]], [[Kering]] (Switzerland HQs) |
 | Multinationals | Any with <15% effective rate |
 
 ### Pillar 2 relative winners
@@ -210,10 +210,10 @@ PISA rankings influence education policy globally.
 | Stage | Countries |
 |-------|-----------|
 | **Members** | 38 |
-| **Accession talks** | Argentina, Brazil, Bulgaria, Croatia, Peru, Romania |
-| **Key partners** | China, India, Indonesia, South Africa |
+| **Accession talks** | [[Argentina]], [[Brazil]], Bulgaria, Croatia, Peru, Romania |
+| **Key partners** | [[China]], [[India]], Indonesia, South [[Africa]] |
 
-**China, India:** Unlikely to join (governance standards, human rights).
+**[[China]], [[India]]:** Unlikely to join (governance standards, human rights).
 
 ---
 
@@ -227,7 +227,7 @@ PISA rankings influence education policy globally.
 - [[Switzerland]] — holding structures affected
 
 ### Governance
-- [[AI regulation]] — OECD principles basis for EU AI Act
+- [[AI regulation]] — OECD principles basis for [[EU]] AI Act
 - [[ESG]] — OECD due diligence standards
 
 ### Trade

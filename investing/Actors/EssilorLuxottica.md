@@ -57,8 +57,8 @@ Franco-Italian eyewear giant. World's largest eyewear company. Key partner for [
 |---------|--------|
 | Luxury eyewear | Ray-Ban, Oakley, Persol |
 | Lenses | Essilor, Varilux |
-| Retail | LensCrafters, Sunglass Hut, Target Optical |
-| Licenses | Chanel, Prada, Armani, Versace |
+| Retail | LensCrafters, Sunglass Hut, [[Target]] Optical |
+| Licenses | [[Chanel]], [[Prada]], Armani, Versace |
 
 **Vertical integration:** Designs, manufactures, AND retails eyewear. Massive distribution moat.
 
@@ -69,7 +69,7 @@ Franco-Italian eyewear giant. World's largest eyewear company. Key partner for [
 **Why EssilorLuxottica wins:**
 - Already makes glasses people want to wear
 - Global retail footprint for distribution
-- Fashion credibility (vs. "Glasshole" stigma)
+- [[Fashion]] credibility (vs. "Glasshole" stigma)
 - Manufacturing scale
 
 **Risk:** If smart glasses go mainstream, becomes a hardware margin play rather than luxury brand play.

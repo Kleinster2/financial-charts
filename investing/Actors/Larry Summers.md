@@ -31,7 +31,7 @@ Charles W. Eliot University Professor and President Emeritus at Harvard. Directs
 |--------|----------|---------|
 | 1991-1993 | VP and Chief Economist, World Bank | — |
 | 1993-1995 | Undersecretary for International Affairs, Treasury | — |
-| 1995-1999 | Deputy Secretary of the Treasury | Mexico, Brazil, Russia, Asian crisis responses |
+| 1995-1999 | Deputy Secretary of the Treasury | [[Mexico]], [[Brazil]], [[Russia]], Asian crisis responses |
 | 1999-2001 | **Secretary of the Treasury** | Left with budget in surplus — only Treasury Sec in 50 years to do so |
 | 2009-2010 | Director, National Economic Council | Shaped Obama response to 2008 crisis |
 
@@ -107,7 +107,7 @@ Generally considered center-left Democrat with heterodox willingness to criticiz
 
 ## Related
 
-- [[Liu He]] — often compared as peer ("China's Larry Summers")
+- [[Liu He]] — often compared as peer ("[[China]]'s Larry Summers")
 - [[Federal Reserve]] — frequent Fed critic/commentator
 - [[OpenAI]] — former board member (2023-2025)
 - [[Inflation]] — famous 2021 prediction

@@ -55,17 +55,17 @@ Korea controls ~68% of DRAM.
 
 ---
 
-## HBM leadership
+## [[HBM]] leadership
 
 **AI memory:**
 
-| Company | HBM Status |
+| Company | [[HBM]] Status |
 |---------|------------|
-| SK Hynix | #1 HBM supplier |
+| SK Hynix | #1 [[HBM]] supplier |
 | Samsung | Catching up |
 | Micron | Distant #3 |
 
-SK Hynix = NVIDIA's primary HBM supplier.
+SK Hynix = NVIDIA's primary [[HBM]] supplier.
 
 ---
 
@@ -75,8 +75,8 @@ SK Hynix = NVIDIA's primary HBM supplier.
 |----------|----------|
 | [[Samsung Semiconductor]] | Memory, foundry |
 | Samsung Display | OLED panels |
-| Samsung SDI | EV batteries |
-| Samsung Electronics | Consumer |
+| [[Samsung SDI]] | EV batteries |
+| Samsung Electronics | [[Consumer]] |
 
 Vertically integrated tech giant.
 
@@ -87,11 +87,11 @@ Vertically integrated tech giant.
 **Samsung Foundry:**
 - #2 foundry globally
 - 3nm GAA technology
-- Apple/Qualcomm customer
+- [[Apple]]/[[Qualcomm]] customer
 - Texas fab investment
 - Competing with TSMC
 
-Gap with TSMC remains.
+[[Gap]] with TSMC remains.
 
 ---
 
@@ -109,7 +109,7 @@ Memory = national security.
 
 ## AI superpower strategy (2025-2026)
 
-**Goal: Top 3 AI power** (behind US, China)
+**Goal: Top 3 AI power** (behind US, [[China]])
 
 **Minister Bae Kyung-Hoon** (Science & ICT, also Deputy PM):
 - Appointed July 2025
@@ -129,10 +129,10 @@ Memory = national security.
 | GPU purchase | 50,000 accelerators | [[NVIDIA]] |
 | Total GPUs | 260,000 | NVIDIA to ministry + chaebols |
 | Data centers | Renewable-powered | [[BlackRock]] |
-| Physical AI | Robotics, AVs | NVIDIA + [[Hyundai]] |
+| Physical AI | [[Robotics]], AVs | NVIDIA + [[Hyundai]] |
 | Talent | 2,000 overseas engineers by 2030 | — |
 
-**Jensen Huang (Oct 2025):**
+**[[Jensen Huang]] (Oct 2025):**
 > "Korea has a great chance to be a regional AI hub and one of the largest AI hubs in the world."
 
 ---
@@ -143,7 +143,7 @@ Memory = national security.
 |--------|-------|
 | Model | Exaone 4.0 |
 | Developer | LG AI Research |
-| Gap to GPT-5 | **5.9 months** (Microsoft AI Diffusion Report) |
+| [[Gap]] to GPT-5 | **5.9 months** ([[Microsoft]] AI Diffusion Report) |
 | Status | Korea's leading frontier model |
 
 Exaone developed under Bae before he joined government.
@@ -178,7 +178,7 @@ Exaone developed under Bae before he joined government.
 | Team | Parent | Score |
 |------|--------|-------|
 | **LG AI Research** | LG Group | Highest |
-| **SK Telecom** | SK Group | Advancing |
+| **SK [[Telecom]]** | SK Group | Advancing |
 | **Upstage** | Startup | Advancing |
 
 **Eliminated:**
@@ -209,7 +209,7 @@ Exaone developed under Bae before he joined government.
 | [[Naver]] | Search, AI (HyperCLOVA) |
 | [[Kakao]] | Messaging, fintech |
 
-Korea's answer to Google/Meta.
+Korea's answer to [[Google]]/[[Meta]].
 
 ---
 
@@ -217,13 +217,13 @@ Korea's answer to Google/Meta.
 
 **Bull:**
 - Memory cycle recovery
-- HBM for AI demand
+- [[HBM]] for AI demand
 - National champions
 - Foundry potential
 
 **Bear:**
 - TSMC foundry gap
-- China competition
+- [[China]] competition
 - Chaebol governance
 - Cyclical exposure
 
@@ -235,7 +235,7 @@ Korea's answer to Google/Meta.
 |--------|-------|
 | Memory share | ~60% global |
 | Key players | Samsung, SK Hynix |
-| HBM leader | SK Hynix |
+| [[HBM]] leader | SK Hynix |
 | Foundry rank | #2 (Samsung) |
 
 *Updated 2026-01-15*
@@ -245,8 +245,8 @@ Korea's answer to Google/Meta.
 ## Related
 
 - [[Samsung]] — national champion (memory, foundry)
-- [[SK Hynix]] — national champion (#1 HBM)
-- [[NVIDIA]] — customer (HBM buyer) + 260K GPU deal
+- [[SK Hynix]] — national champion (#1 [[HBM]])
+- [[NVIDIA]] — customer ([[HBM]] buyer) + 260K GPU deal
 - [[TSMC]] — competitor (Samsung Foundry vs)
 - [[Hyundai]] — physical AI partnership (NVIDIA)
 - [[BlackRock]] — renewable data center investment

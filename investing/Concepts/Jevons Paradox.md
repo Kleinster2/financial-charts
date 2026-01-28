@@ -26,13 +26,13 @@
 
 ## Application to AI compute
 
-**The DeepSeek day debate:**
+**The [[DeepSeek]] day debate:**
 
 | Bear case (efficiency reduces demand) | Bull case (Jevons Paradox) |
 |--------------------------------------|----------------------------|
 | Better algorithms → fewer GPUs needed | Cheaper inference → more AI deployed |
 | MoE reduces compute per query | Lower cost → new use cases emerge |
-| China proves efficiency can substitute | Total compute demand still grows |
+| [[China]] proves efficiency can substitute | Total compute demand still grows |
 
 **The resolution:** Both can be true. Compute per task falls, but number of tasks grows faster.
 
@@ -45,7 +45,7 @@
 | Price elasticity | Demand is elastic — cheaper = much more usage |
 | Latent demand | Millions of use cases waiting for lower costs |
 | Enterprise deployment | Companies deploy more AI when ROI improves |
-| Consumer products | More AI features when inference is cheap |
+| [[Consumer]] products | More AI features when inference is cheap |
 | Agentic workloads | Agents run 100x more queries than humans |
 
 ---

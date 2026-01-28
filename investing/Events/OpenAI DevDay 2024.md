@@ -20,7 +20,7 @@
 | Product | Description |
 |---------|-------------|
 | GPT-4 Turbo | 128K context, cheaper |
-| Custom GPTs | No-code AI agents |
+| Custom GPTs | No-code [[AI agents]] |
 | GPT Store | Marketplace for GPTs |
 | Assistants API | Stateful AI assistants |
 | Vision API | Image understanding |
@@ -44,8 +44,8 @@ Aggressive price cuts to drive adoption.
 | Effect | Description |
 |--------|-------------|
 | Developer ecosystem | Explosion of AI apps |
-| Anthropic response | Claude improvements |
-| Google response | Gemini acceleration |
+| Anthropic response | [[Claude]] improvements |
+| [[Google]] response | [[Gemini]] acceleration |
 | Enterprise adoption | API usage growth |
 
 ---

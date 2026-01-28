@@ -1,12 +1,12 @@
 #actor #individual #japan #investor
 
-**Masayoshi Son** — SoftBank founder/CEO. $100B+ AI bets. Systemically important to AI financing.
+**Masayoshi Son** — [[SoftBank]] founder/CEO. $100B+ AI bets. Systemically important to AI financing.
 
 ---
 
 ## Why Masa matters
 
-Son controls SoftBank, which has made enormous AI bets:
+Son controls [[SoftBank]], which has made enormous AI bets:
 
 | Investment | Size | Status |
 |------------|------|--------|
@@ -21,9 +21,9 @@ Son controls SoftBank, which has made enormous AI bets:
 ## Stargate / OpenAI
 
 **$500B "Stargate" project (announced Jan 2025):**
-- SoftBank + OpenAI + Oracle + others
+- [[SoftBank]] + OpenAI + Oracle + others
 - Massive AI infrastructure buildout
-- SoftBank commitment: reportedly $40B+
+- [[SoftBank]] commitment: reportedly $40B+
 - Largest AI investment ever announced
 
 **The bet:** Son believes AGI is coming and is betting the company on it.
@@ -32,18 +32,18 @@ Son controls SoftBank, which has made enormous AI bets:
 
 ## ARM Holdings
 
-**SoftBank owns ~90% of ARM:**
+**[[SoftBank]] owns ~90% of ARM:**
 - Acquired 2016 for $32B
 - IPO'd 2023 at $64B valuation
 - Now worth $150B+
 - ARM designs in every smartphone
 
 **AI relevance:**
-- ARM architecture in AI chips (NVIDIA Grace, AWS Graviton)
+- ARM architecture in AI chips ([[NVIDIA]] Grace, AWS Graviton)
 - Data center CPU expansion
 - Licensing model = royalty stream
 
-**Risk:** 54.6% of SoftBank value = ARM. Margin call triggers at -40%.
+**Risk:** 54.6% of [[SoftBank]] value = ARM. Margin call triggers at -40%.
 
 ---
 
@@ -52,7 +52,7 @@ Son controls SoftBank, which has made enormous AI bets:
 **Vision Fund 1 ($100B):**
 - WeWork disaster
 - Many write-offs
-- Some wins (Coupang, DoorDash)
+- Some wins (Coupang, [[DoorDash]])
 - Overall: mixed at best
 
 **Vision Fund 2:**
@@ -75,13 +75,13 @@ Son controls SoftBank, which has made enormous AI bets:
 **All-in approach:**
 - Not diversified — concentrated bets
 - ARM + OpenAI + AI startups
-- If wrong, SoftBank in serious trouble
+- If wrong, [[SoftBank]] in serious trouble
 
 ---
 
 ## Financing risk
 
-SoftBank cited in [[AI infrastructure financing risk]]:
+[[SoftBank]] cited in [[AI infrastructure financing risk]]:
 
 | Risk | Details |
 |------|---------|
@@ -90,7 +90,7 @@ SoftBank cited in [[AI infrastructure financing risk]]:
 | Debt levels | High leverage |
 | Vision Fund losses | Still recovering |
 
-**If OpenAI struggles + ARM declines:** SoftBank could face liquidity crisis.
+**If OpenAI struggles + ARM declines:** [[SoftBank]] could face liquidity crisis.
 
 ---
 
@@ -98,14 +98,14 @@ SoftBank cited in [[AI infrastructure financing risk]]:
 
 - Close to Shinzo Abe (deceased)
 - Trump relationship (early meetings post-2016)
-- Japan Inc. support
-- Saudi PIF (Vision Fund LP)
+- [[Japan]] Inc. support
+- [[Saudi PIF]] (Vision Fund LP)
 
 ---
 
 ## Investment case
 
-**Investing in SoftBank (9984.T) is betting on:**
+**Investing in [[SoftBank]] (9984.T) is betting on:**
 - ARM continues winning
 - OpenAI/Stargate delivers
 - Masa's AI thesis is correct
@@ -119,10 +119,10 @@ SoftBank cited in [[AI infrastructure financing risk]]:
 
 | Metric | Value |
 |--------|-------|
-| Company | SoftBank Group (9984.T) |
+| Company | [[SoftBank]] Group (9984.T) |
 | Role | Founder, Chairman, CEO |
 | Net worth | ~$20B (fluctuates with ARM) |
-| Born | 1957 (Japan, Korean descent) |
+| Born | 1957 ([[Japan]], Korean descent) |
 | Biggest bet | OpenAI/Stargate ($40B+) |
 
 *Updated 2026-01-01*
@@ -131,7 +131,7 @@ SoftBank cited in [[AI infrastructure financing risk]]:
 
 ## For theses
 
-**[[AI infrastructure financing risk]]:** SoftBank is systemically important — if it fails, ripple effects
+**[[AI infrastructure financing risk]]:** [[SoftBank]] is systemically important — if it fails, ripple effects
 **[[AI infrastructure financing]]:** Major capital source for AI buildout
 
 ---

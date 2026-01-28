@@ -18,11 +18,11 @@ Mining → Processing → Components → Cells → Packs → End Use → Recycli
 
 | Material | Key sources | Players |
 |----------|-------------|---------|
-| **Lithium** | Australia, [[Chile]], Argentina, China | [[Albemarle]], SQM, Ganfeng, Pilbara |
-| **Nickel** | Indonesia, Philippines, Russia | Vale, Nornickel, Nickel Industries |
+| **Lithium** | [[Australia]], [[Chile]], [[Argentina]], [[China]] | [[Albemarle]], [[SQM]], Ganfeng, Pilbara |
+| **Nickel** | Indonesia, Philippines, [[Russia]] | [[Vale]], Nornickel, Nickel Industries |
 | **Cobalt** | DRC (70%), Indonesia | Glencore, CMOC |
-| **Graphite** | China (65%), Mozambique | Syrah Resources |
-| **Manganese** | South Africa, Gabon | South32 |
+| **Graphite** | [[China]] (65%), Mozambique | Syrah Resources |
+| **Manganese** | South [[Africa]], Gabon | South32 |
 
 **Bottleneck:** Lithium and nickel mining capacity lagging demand.
 
@@ -30,14 +30,14 @@ Mining → Processing → Components → Cells → Packs → End Use → Recycli
 
 ## 2. Processing/Refining
 
-| Material | China share | Challenge |
+| Material | [[China]] share | Challenge |
 |----------|-------------|-----------|
 | Lithium refining | ~65% | Western capacity building |
-| Cobalt refining | ~80% | DRC/China concentration |
+| Cobalt refining | ~80% | DRC/[[China]] concentration |
 | Graphite processing | ~90% | Near-monopoly |
 | Nickel processing | ~35% | Indonesia growing |
 
-**Critical vulnerability:** China controls most midstream processing.
+**Critical vulnerability:** [[China]] controls most midstream processing.
 
 ---
 
@@ -56,10 +56,10 @@ Mining → Processing → Components → Cells → Packs → End Use → Recycli
 
 | Company | 2025 capacity | Geography |
 |---------|---------------|-----------|
-| [[CATL]] | ~500 GWh | China, Germany, Hungary |
-| [[BYD]] | ~300 GWh | China |
+| [[CATL]] | ~500 GWh | [[China]], [[Germany]], Hungary |
+| [[BYD]] | ~300 GWh | [[China]] |
 | [[LG Energy Solution]] | ~200 GWh | Korea, US, Poland |
-| [[Panasonic]] | ~80 GWh | Japan, US |
+| [[Panasonic]] | ~80 GWh | [[Japan]], US |
 | [[SK On]] | ~100 GWh | Korea, US, Hungary |
 | [[Samsung SDI]] | ~80 GWh | Korea, US, Hungary |
 
@@ -69,10 +69,10 @@ Mining → Processing → Components → Cells → Packs → End Use → Recycli
 
 | Model | Who assembles |
 |-------|---------------|
-| Tesla | In-house + suppliers |
+| [[Tesla]] | In-house + suppliers |
 | [[BYD]] | Fully integrated |
 | Legacy OEMs | JV with battery makers |
-| Grid storage | [[Tesla Energy]], [[Fluence]] |
+| [[Grid storage]] | [[Tesla Energy]], [[Fluence]] |
 
 ---
 
@@ -82,7 +82,7 @@ See [[Battery recycling]] for detailed breakdown.
 
 | Company | Approach | Backers |
 |---------|----------|---------|
-| **Redwood Materials** | Hydrometallurgical | JB Straubel (ex-Tesla CTO) |
+| **[[Redwood Materials]]** | Hydrometallurgical | JB Straubel (ex-[[Tesla]] CTO) |
 | **Li-Cycle** | Spoke & hub model | Public (LICY) |
 | **Cirba Solutions** | Multiple chemistries | Koch |
 
@@ -94,9 +94,9 @@ See [[Battery recycling]] for detailed breakdown.
 
 | Stage | Concentration | Risk level |
 |-------|---------------|------------|
-| Mining | Moderate (lithium triangle, Australia) | Medium |
-| Processing | Extreme (China 65-90%) | **Critical** |
-| Cell manufacturing | High (China ~75%) | High |
+| Mining | Moderate (lithium triangle, [[Australia]]) | Medium |
+| Processing | Extreme ([[China]] 65-90%) | **Critical** |
+| Cell manufacturing | High ([[China]] ~75%) | High |
 | Pack assembly | Moderate (following OEMs) | Medium |
 
 ---
@@ -106,8 +106,8 @@ See [[Battery recycling]] for detailed breakdown.
 | Initiative | Impact |
 |------------|--------|
 | **US IRA** | $7,500 EV credit requires NA battery content |
-| **EU Battery Regulation** | Local content requirements |
-| **Japan/Korea policy** | Subsidies for domestic capacity |
+| **[[EU]] Battery Regulation** | Local content requirements |
+| **[[Japan]]/Korea policy** | Subsidies for domestic capacity |
 
 **Result:** [[LG Energy Solution]], [[SK On]], [[Samsung SDI]], [[Panasonic]] building US plants.
 
@@ -118,9 +118,9 @@ See [[Battery recycling]] for detailed breakdown.
 | Theme | Expression |
 |-------|------------|
 | Upstream squeeze | [[Albemarle]], [[Lithium]] |
-| Processing buildout | Rare ex-China opportunities |
+| Processing buildout | Rare ex-[[China]] opportunities |
 | Korean battery bet | [[LG Energy Solution]], [[Samsung SDI]], [[SK On]] |
-| Recycling play | Redwood Materials (private), Li-Cycle |
+| Recycling play | [[Redwood Materials]] (private), Li-Cycle |
 
 ---
 

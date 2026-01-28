@@ -3,7 +3,7 @@ aliases: [Nippon Sanso Holdings, 4091.T]
 ---
 #actor #semiconductor #materials #japan #public
 
-**Taiyo Nippon Sanso** — Japan's largest industrial gas company. #1 in semiconductor specialty gases in Japan. Part of Mitsubishi Chemical Holdings.
+**Taiyo Nippon Sanso** — [[Japan]]'s largest industrial gas company. #1 in semiconductor specialty gases in [[Japan]]. Part of Mitsubishi Chemical Holdings.
 
 ---
 
@@ -16,7 +16,7 @@ Semiconductor fabs need ultra-pure gases for etching, deposition, and cleaning:
 | Ticker | 4091.T (Tokyo) |
 | Market cap | ~$16B |
 | Revenue | ~$8.6B |
-| Position | #1 Japan specialty gas, top 5 global |
+| Position | #1 [[Japan]] specialty gas, top 5 global |
 | Parent | Mitsubishi Chemical Holdings |
 
 ---
@@ -49,9 +49,9 @@ Semiconductor fabs need ultra-pure gases for etching, deposition, and cleaning:
 
 **Top 5 = 94% of global specialty gas market.**
 
-### Japan market
+### [[Japan]] market
 
-**#1 in Japan** for semiconductor specialty gases.
+**#1 in [[Japan]]** for semiconductor specialty gases.
 
 ---
 
@@ -59,12 +59,12 @@ Semiconductor fabs need ultra-pure gases for etching, deposition, and cleaning:
 
 **Local supply security:**
 - Modular specialty gas plants near fabs
-- Japan and Southeast Asia focus
-- Kumamoto site (Jan 2023) for TSMC Japan
+- [[Japan]] and [[Southeast Asia]] focus
+- Kumamoto site (Jan 2023) for TSMC [[Japan]]
 
 **Geographic expansion:**
 - US operations
-- Southeast Asia (Singapore, Malaysia)
+- [[Southeast Asia]] (Singapore, Malaysia)
 - Following fab buildout
 
 ---
@@ -84,7 +84,7 @@ Every chip process step requires gases:
 ## Investment case
 
 **Bull:**
-- Japan fab buildout (TSMC Kumamoto, Rapidus)
+- [[Japan]] fab buildout (TSMC Kumamoto, [[Rapidus]])
 - Specialty gases = consumables (recurring)
 - High purity = high margins
 - Oligopoly structure
@@ -92,7 +92,7 @@ Every chip process step requires gases:
 
 **Bear:**
 - Competition from Air Liquide, Linde
-- China localization attempts
+- [[China]] localization attempts
 - Cyclical fab utilization
 - Energy costs (gas production)
 - Low-GWP gas transition costs

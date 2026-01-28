@@ -53,7 +53,7 @@ Data center demand is driving electricity price increases across the US, with wh
 | **Mark Christie** (ex-FERC chairman) | "The reliability crisis is here now; it's not off in the distance somewhere" |
 | **David Crane** (Generate Capital CEO) | "The data centers sucking up all the load is going to make things really expensive for the rest of Americans" |
 | **David Crane** | "Risks brownout situations in some US power markets within the next year or two" |
-| **UBS** (Matthew Mish) | ~$100B AI debt raised per quarter "raises eyebrows for anyone that has seen credit cycles" |
+| **[[UBS]]** (Matthew Mish) | ~$100B AI debt raised per quarter "raises eyebrows for anyone that has seen credit cycles" |
 
 ---
 
@@ -63,7 +63,7 @@ Data center demand is driving electricity price increases across the US, with wh
 |--------|---------|------|
 | US DC share of electricity | ~4% | **~9%** |
 | Growth comparison | — | "Biggest surge since air conditioning caught on in 1960s" |
-| Global DC electricity rank | — | **#4 country** (behind China, US, India) |
+| Global DC electricity rank | — | **#4 country** (behind [[China]], US, [[India]]) |
 
 ---
 
@@ -71,9 +71,9 @@ Data center demand is driving electricity price increases across the US, with wh
 
 | Country | Impact |
 |---------|--------|
-| **Japan** | Power auction prices hitting all-time highs |
+| **[[Japan]]** | Power auction prices hitting all-time highs |
 | **Malaysia** | Lifting DC electricity rates as supply tightens |
-| **UK** | Aurora Energy: +9% power prices by 2040 from DC demand |
+| **[[UK]]** | [[Aurora]] Energy: +9% power prices by 2040 from DC demand |
 
 ---
 
@@ -102,7 +102,7 @@ Trump promised to cut electricity prices 50% within 18 months. Instead:
 | Detail | Value |
 |--------|-------|
 | Senators | Warren, Van Hollen, Blumenthal (D) |
-| Targets | Google, Microsoft, Amazon, Meta, CoreWeave, Digital Realty, Equinix |
+| Targets | [[Google]], [[Microsoft]], [[Amazon]], [[Meta]], [[CoreWeave]], [[Digital Realty]], [[Equinix]] |
 | Deadline | Jan 12, 2026 |
 | Demand | DCs pay more upfront for grid infrastructure |
 
@@ -113,7 +113,7 @@ Trump promised to cut electricity prices 50% within 18 months. Instead:
 
 ---
 
-*Source: [Bloomberg - AI Data Centers Are Sending Power Bills Soaring](https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/) (Sep 29, 2025)*
+*Source: [Bloomberg - AI [[Data Centers]] Are Sending Power Bills Soaring](https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/) (Sep 29, 2025)*
 
 *Created 2026-01-14*
 

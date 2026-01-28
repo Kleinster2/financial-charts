@@ -33,7 +33,7 @@
 |--------|--------|
 | 2023 Q4 | Limited production |
 | 2024 | Slow ramp |
-| Target | 250K/year eventually |
+| [[Target]] | 250K/year eventually |
 
 Production challenges with stainless steel.
 
@@ -67,7 +67,7 @@ Production challenges with stainless steel.
 |-------|------------|
 | Tesla diversification | Beyond sedans |
 | EV truck market | Competition heating up |
-| Production execution | Ramp challenges |
+| Production execution | [[Ramp]] challenges |
 | ASP impact | Higher-priced vehicle |
 
 ---

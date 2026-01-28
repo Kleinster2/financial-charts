@@ -10,10 +10,10 @@
 |--------|-------|
 | Revenue (FY24) | RM4.36B (+10% YoY) |
 | Net income (FY24) | RM761M (-5.5% YoY) |
-| Target valuation | RM29.5B (~$7B) |
+| [[Target]] valuation | RM29.5B (~$7B) |
 | IPO size target | ~$2B |
 | Ports operated | 7 |
-| Cruise terminals | 3 |
+| [[Cruise]] terminals | 3 |
 | Status | **Likely scrapped** |
 
 ---
@@ -30,7 +30,7 @@
 | **SPT Services** | — |
 | **Andaman Port** | — |
 
-**Cruise terminals:** Swettenham Pier, Port Klang, Langkawi
+**[[Cruise]] terminals:** Swettenham Pier, Port Klang, Langkawi
 
 ---
 
@@ -75,7 +75,7 @@ Fund managers balked at 40x P/E when competitor Westports trades at 20x despite 
 |--------|----------|-----------|
 | Revenue (FY24) | RM4.36B | RM2.34B |
 | Net income (FY24) | RM761M | RM898M |
-| Target/Market cap | RM29.5B | RM19.8B |
+| [[Target]]/Market cap | RM29.5B | RM19.8B |
 | P/E | ~40x | ~20x |
 
 MMC has higher revenue but lower profits; was seeking 2x the P/E multiple.

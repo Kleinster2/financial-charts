@@ -23,9 +23,9 @@ aliases: [copper, CPER, HG, Dr. Copper]
 | Bank | 2026 avg forecast |
 |------|-------------------|
 | J.P. Morgan | $12,075/t (Q2 peak $12,500) |
-| Goldman Sachs | <$11,000/t (surplus view) |
+| [[Goldman Sachs]] | <$11,000/t (surplus view) |
 | BMI/Fitch | $11,000/t |
-| Bank of America | $11,313/t |
+| [[Bank of America]] | $11,313/t |
 
 Wide dispersion reflects uncertainty on tariffs and China demand.
 
@@ -34,7 +34,7 @@ Wide dispersion reflects uncertainty on tariffs and China demand.
 ## Supply dynamics
 
 **Structural tightness:**
-- Average mine-to-production lead time: **17 years** (IEA)
+- Average mine-to-production lead time: **17 years** ([[IEA]])
 - 2026 mine production: +2.3% to 23.86M MT
 - 2026 refined production: +0.9% to 28.58M MT
 - 2026 refined consumption: +2.1% to 28.73M MT
@@ -42,7 +42,7 @@ Wide dispersion reflects uncertainty on tariffs and China demand.
 
 **Recent disruptions:**
 - Grasberg (Indonesia) mudslide — force majeure, closed until Q2 2026
-- Quebrada Blanca (Chile) — guidance downgrade
+- Quebrada Blanca ([[Chile]]) — guidance downgrade
 
 ---
 
@@ -64,7 +64,7 @@ Grid buildout for electrification is the dominant growth driver.
 | Factor | Impact on copper |
 |--------|------------------|
 | **China demand** | 50% of global consumption |
-| **US dollar** | Strong USD = lower prices |
+| **[[US dollar]]** | Strong USD = lower prices |
 | **Global growth** | Cyclically sensitive |
 | **Green capex** | Structural tailwind |
 | **Mine supply** | Constrained, long lead times |

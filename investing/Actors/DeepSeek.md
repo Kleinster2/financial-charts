@@ -9,15 +9,15 @@ aliases: [DeepSeek AI, DeepSeek R1]
 
 ## Why DeepSeek matters
 
-China's most prominent open-ish AI lab, known for efficiency:
+[[China]]'s most prominent open-ish AI lab, known for efficiency:
 
 | Metric | Value |
 |--------|-------|
 | HQ | [[Hangzhou]] |
 | Key model | DeepSeek R1 |
-| Global chatbot share | **4%** (vs ChatGPT 68%, Gemini 18%) |
+| Global chatbot share | **4%** (vs [[ChatGPT]] 68%, [[Gemini]] 18%) |
 | Approach | Efficiency-focused, open weights |
-| Availability | Azure, Hugging Face, self-host |
+| Availability | Azure, [[Hugging Face]], self-host |
 | Backed by | High-Flyer (quant fund) |
 | Next model | Expected within weeks (R2) |
 
@@ -35,7 +35,7 @@ The early warning that most missed:
 | Claimed cost | ~$6M (final run only) |
 | Performance | Competitive with GPT-4 Turbo |
 
-**Who noticed:** Some VCs, quant funds, China watchers. Wall Street largely missed it.
+**Who noticed:** Some VCs, quant funds, [[China]] watchers. Wall Street largely missed it.
 
 ---
 
@@ -54,7 +54,7 @@ The early warning that most missed:
 
 | Question | Answer |
 |----------|--------|
-| What chips? | H800s (China-legal), possibly some H100s |
+| What chips? | H800s ([[China]]-legal), possibly some H100s |
 | How many? | 10,000-50,000 (estimates vary) |
 | Gray market? | Widely suspected, unconfirmed |
 | The point | Made fewer/weaker chips work through efficiency |
@@ -65,13 +65,13 @@ The early warning that most missed:
 
 | Spec | Details |
 |------|---------|
-| Type | Reasoning model (like OpenAI o1) |
+| Type | Reasoning model (like [[OpenAI]] o1) |
 | Architecture | MoE with chain-of-thought |
 | Efficiency | Lower cost/token than GPT-4 |
 | Weights | Open (downloadable) |
 | Inference | Runs on consumer hardware |
 
-**Why it matters:** Proves China can build competitive models despite GPU restrictions. Efficiency offsets hardware disadvantage.
+**Why it matters:** Proves [[China]] can build competitive models despite GPU restrictions. Efficiency offsets hardware disadvantage.
 
 **Why R1 hit harder than V3:** Reasoning models are the hardest task — proving efficiency works here meant it works everywhere.
 
@@ -97,7 +97,7 @@ One year later, DeepSeek published research validating their efficiency claims:
 
 **Industry reaction:**
 - Counterpoint (Wei Sun): "striking breakthrough" that "bypasses compute bottlenecks"
-- Omdia (Lian Jye Su): Publishing shows "newfound confidence in Chinese AI industry"
+- [[Omdia]] (Lian Jye Su): Publishing shows "newfound confidence in Chinese AI industry"
 
 **What's next:** R2 model expected around Feb 2026 (Spring Festival), continuing pattern of holiday releases.
 
@@ -107,10 +107,10 @@ One year later, DeepSeek published research validating their efficiency claims:
 
 | Country | Action |
 |---------|--------|
-| **Australia** | Banned from all government devices (security concerns) |
-| Various | Privacy policy scrutiny — stores data in China |
+| **[[Australia]]** | Banned from all government devices (security concerns) |
+| Various | Privacy policy scrutiny — stores data in [[China]] |
 
-DeepSeek's privacy policy explicitly states personal data stored on computers in China. Multiple governments reviewing security implications.
+DeepSeek's privacy policy explicitly states personal data stored on computers in [[China]]. Multiple governments reviewing security implications.
 
 ---
 
@@ -130,10 +130,10 @@ DeepSeek's privacy policy explicitly states personal data stored on computers in
 
 | Rank tier | Models |
 |-----------|--------|
-| Top 3 | Google Gemini 3 (overtook OpenAI Nov 2025) |
+| Top 3 | [[Google]] [[Gemini]] 3 (overtook [[OpenAI]] Nov 2025) |
 | Top 15 | **2 Chinese low-cost models** |
 
-**The efficiency story:** China's models developed at fraction of US cost now competitive on global benchmarks.
+**The efficiency story:** [[China]]'s models developed at fraction of US cost now competitive on global benchmarks.
 
 ---
 
@@ -143,15 +143,15 @@ Rigorous benchmark with thousands of questions across math, science, other subje
 
 | Model | Accuracy |
 |-------|----------|
-| OpenAI | >20% |
-| Google | >20% |
-| xAI | >20% |
+| [[OpenAI]] | >20% |
+| [[Google]] | >20% |
+| [[xAI]] | >20% |
 | **DeepSeek** | **14%** |
-| Qwen | 11% |
+| [[Qwen]] | 11% |
 
-**Sam Altman (May 2025 hearing):** "It is very hard to say how far ahead we are. But I would say not a huge amount of time."
+**[[Sam Altman]] (May 2025 hearing):** "It is very hard to say how far ahead we are. But I would say not a huge amount of time."
 
-**Implication:** Gap exists but narrowing. Efficiency-focused development closing distance despite chip constraints.
+**Implication:** [[Gap]] exists but narrowing. Efficiency-focused development closing distance despite chip constraints.
 
 ---
 
@@ -159,12 +159,12 @@ Rigorous benchmark with thousands of questions across math, science, other subje
 
 | Platform | Status |
 |----------|--------|
-| [[Microsoft]] Azure | ✓ (listed alongside GPT, Claude) |
-| Hugging Face | ✓ (open weights) |
+| [[Microsoft]] Azure | ✓ (listed alongside GPT, [[Claude]]) |
+| [[Hugging Face]] | ✓ (open weights) |
 | Self-hosted | ✓ |
-| China cloud | ✓ (Alibaba, etc.) |
+| [[China]] cloud | ✓ (Alibaba, etc.) |
 
-Azure listing is notable — Microsoft offering Chinese model alongside OpenAI, Anthropic.
+Azure listing is notable — Microsoft offering Chinese model alongside [[OpenAI]], [[Anthropic]].
 
 ---
 
@@ -194,9 +194,9 @@ Azure listing is notable — Microsoft offering Chinese model alongside OpenAI, 
 
 ## Efficiency thesis
 
-DeepSeek represents China's response to GPU constraints:
+DeepSeek represents [[China]]'s response to GPU constraints:
 
-| US approach | China/DeepSeek approach |
+| US approach | [[China]]/DeepSeek approach |
 |-------------|-------------------------|
 | Best chips (Blackwell) | Efficient algorithms |
 | Scale compute | Optimize per-FLOP |
@@ -211,9 +211,9 @@ DeepSeek represents China's response to GPU constraints:
 | vs Model | DeepSeek advantage | Disadvantage |
 |----------|-------------------|--------------|
 | GPT-4 | Cheaper, open weights | Less capable on some tasks |
-| Claude | Self-hostable | Smaller context, less polish |
-| Llama | Comparable openness | Less community adoption |
-| Qwen | More efficient | Alibaba has more resources |
+| [[Claude]] | Self-hostable | Smaller context, less polish |
+| [[Llama]] | Comparable openness | Less community adoption |
+| [[Qwen]] | More efficient | Alibaba has more resources |
 
 ---
 
@@ -250,11 +250,11 @@ DeepSeek represents China's response to GPU constraints:
 
 **Indirect exposure:**
 - [[Microsoft]] — offers R1 on Azure
-- [[Alibaba]] — offers on China cloud
+- [[Alibaba]] — offers on [[China]] cloud
 - [[NVIDIA]] — still needs GPUs (H200 likely)
 
 **Thesis implications:**
-- Validates China AI capability despite [[Export controls]]
+- Validates [[China]] AI capability despite [[Export controls]]
 - Efficiency-focused approach may influence global model development
 - Open weights pressure closed model pricing
 
@@ -267,13 +267,13 @@ DeepSeek represents China's response to GPU constraints:
 ## Related
 
 - [[DeepSeek day]] — event (Jan 27, 2025 market crash)
-- [[Hangzhou]] — HQ (China's AI hub)
+- [[Hangzhou]] — HQ ([[China]]'s AI hub)
 - [[Microsoft]] — distribution (Azure)
-- [[Model landscape]] — context (China open models)
+- [[Model landscape]] — context ([[China]] open models)
 - [[China AI clusters]] — context (compute infrastructure)
 - [[Export controls]] — constraint (GPU restrictions)
 - [[Inference economics]] — thesis (efficiency implications)
 - [[Open source commoditization]] — trend (open weights pressure)
-- [[Alibaba]] — peer (Qwen models)
-- [[ByteDance]] — peer (Doubao)
+- [[Alibaba]] — peer ([[Qwen]] models)
+- [[ByteDance]] — peer ([[Doubao]])
 - [[NVIDIA]] — affected (largest single-day loss)

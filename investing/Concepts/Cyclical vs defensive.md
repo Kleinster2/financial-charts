@@ -8,10 +8,10 @@
 
 | Cyclical | Defensive |
 |----------|-----------|
-| Consumer Discretionary | Consumer Staples |
+| [[Consumer]] Discretionary | [[Consumer]] Staples |
 | Industrials | Utilities |
-| Materials | Healthcare |
-| Financials | Telecom |
+| Materials | [[Healthcare]] |
+| Financials | [[Telecom]] |
 | Energy | |
 | Technology (some) | |
 
@@ -55,7 +55,7 @@
 | Stock | Sector | Sensitivity |
 |-------|--------|-------------|
 | [[Caterpillar]] | Industrials | High |
-| [[Ford]] | Consumer disc. | High |
+| [[Ford]] | [[Consumer]] disc. | High |
 | [[Freeport-McMoRan]] | Materials | Very high |
 | [[JPMorgan Chase]] | Financials | Moderate |
 
@@ -66,9 +66,9 @@
 | Stock | Sector | Sensitivity |
 |-------|--------|-------------|
 | [[Procter & Gamble]] | Staples | Low |
-| [[Johnson & Johnson]] | Healthcare | Low |
-| Duke Energy | Utilities | Very low |
-| Verizon | Telecom | Low |
+| [[Johnson & Johnson]] | [[Healthcare]] | Low |
+| [[Duke Energy]] | Utilities | Very low |
+| [[Verizon]] | [[Telecom]] | Low |
 
 ---
 

@@ -63,7 +63,7 @@ VOA on his nomination: "Loyal and strong in coordination, but lacking experience
 | Nov 2024 | Singapore visit | Met PM Lawrence Wong, 20th Joint Council for Bilateral Cooperation |
 | Jan 2025 | World Economic Forum, Davos | Speech: China does not "seek trade surplus"; AI governance advocacy |
 | Mar 2025 | NPC address to Hong Kong deputies | Praised HK economic "breakthroughs," emphasized security |
-| Nov 2025 | COP30, Belém, Brazil | Climate diplomacy |
+| Nov 2025 | COP30, Belém, [[Brazil]] | Climate diplomacy |
 
 ---
 

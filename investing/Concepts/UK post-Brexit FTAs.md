@@ -3,7 +3,7 @@ aliases: [UK FTAs, UK trade deals, Global Britain]
 ---
 #concept #trade #uk #brexit
 
-**UK post-Brexit FTAs** — Britain's independent trade policy after leaving EU. Rollover deals plus new agreements with Australia, NZ. CPTPP accession 2023.
+**UK post-Brexit FTAs** — Britain's independent trade policy after leaving [[EU]]. Rollover deals plus new agreements with [[Australia]], NZ. CPTPP accession 2023.
 
 ---
 
@@ -13,11 +13,11 @@ Post-Brexit trade strategy:
 
 | Phase | Status |
 |-------|--------|
-| **Rollover deals** | 70+ countries (copy EU FTAs) |
-| **New FTAs** | Australia, New Zealand |
+| **Rollover deals** | 70+ countries (copy [[EU]] FTAs) |
+| **New FTAs** | [[Australia]], New Zealand |
 | **CPTPP** | Acceded July 2023 |
 | **US FTA** | Stalled (not priority for US) |
-| **India** | Negotiating |
+| **[[India]]** | Negotiating |
 
 ---
 
@@ -30,11 +30,11 @@ Post-Brexit trade strategy:
 | Joined | July 2023 |
 | First new member | Since original 11 |
 | GDP added | +$3T to bloc |
-| Significance | Asia-Pacific pivot |
+| Significance | [[Asia]]-Pacific pivot |
 
 See [[CPTPP]].
 
-### UK-Australia FTA (2023)
+### UK-[[Australia]] FTA (2023)
 
 | Metric | Value |
 |--------|-------|
@@ -57,9 +57,9 @@ See [[CPTPP]].
 | Metric | Value |
 |--------|-------|
 | In force | May 2023 |
-| Similar to | UK-Australia |
+| Similar to | UK-[[Australia]] |
 
-### UK-EU TCA (2020)
+### UK-[[EU]] TCA (2020)
 
 | Metric | Value |
 |--------|-------|
@@ -70,7 +70,7 @@ See [[CPTPP]].
 | Financial | Equivalence (partial) |
 | Fishing | Transition period |
 
-**Not like before:** Significant non-tariff barriers vs EU membership.
+**Not like before:** Significant non-tariff barriers vs [[EU]] membership.
 
 ---
 
@@ -78,16 +78,16 @@ See [[CPTPP]].
 
 | Partner | Status |
 |---------|--------|
-| Japan | Rolled over + enhanced |
-| Canada | Rolled over (temporary) |
-| Switzerland | Rolled over |
+| [[Japan]] | Rolled over + enhanced |
+| [[Canada]] | Rolled over (temporary) |
+| [[Switzerland]] | Rolled over |
 | Norway/Iceland | Rolled over |
 | South Korea | Rolled over |
 | Singapore | Rolled over |
-| Mexico | Rolled over |
+| [[Mexico]] | Rolled over |
 | 60+ others | Rolled over |
 
-**Strategy:** Maintain existing EU FTA access, then upgrade.
+**Strategy:** Maintain existing [[EU]] FTA access, then upgrade.
 
 ---
 
@@ -95,11 +95,11 @@ See [[CPTPP]].
 
 | Partner | Status | Issues |
 |---------|--------|--------|
-| **India** | Active | Services, visas |
-| **GCC** | Active | — |
+| **[[India]]** | Active | Services, visas |
+| **[[GCC]]** | Active | — |
 | **Israel** | Upgrading | — |
 | **US** | Dormant | Not US priority |
-| **Canada** | Upgrading | — |
+| **[[Canada]]** | Upgrading | — |
 
 ### US FTA (stalled)
 
@@ -117,11 +117,11 @@ See [[CPTPP]].
 
 | Partner | Balance | Trend |
 |---------|---------|-------|
-| EU | Deficit | Widened post-Brexit |
+| [[EU]] | Deficit | Widened post-Brexit |
 | US | Surplus | Stable |
-| China | Deficit | Large |
+| [[China]] | Deficit | Large |
 
-**Brexit impact:** Trade with EU fell ~15%, not fully offset by new deals.
+**Brexit impact:** Trade with [[EU]] fell ~15%, not fully offset by new deals.
 
 ---
 
@@ -129,16 +129,16 @@ See [[CPTPP]].
 
 | Theme | Expression |
 |-------|------------|
-| **Asia-Pacific tilt** | CPTPP benefits UK services |
-| **Australia/NZ** | Minimal economic impact |
-| **EU friction** | Ongoing costs for UK exporters |
+| **[[Asia]]-Pacific tilt** | CPTPP benefits UK services |
+| **[[Australia]]/NZ** | Minimal economic impact |
+| **[[EU]] friction** | Ongoing costs for UK exporters |
 | **Financial services** | Partial equivalence, not passporting |
 
 ### Winners
 
 | Sector | Benefit |
 |--------|---------|
-| UK services | CPTPP Asia access |
+| UK services | CPTPP [[Asia]] access |
 | UK whisky | Reduced tariffs globally |
 | UK fintech | New market access |
 
@@ -146,9 +146,9 @@ See [[CPTPP]].
 
 | Sector | Impact |
 |--------|--------|
-| UK manufacturers | EU friction costs |
+| UK manufacturers | [[EU]] friction costs |
 | UK farmers | Australian competition |
-| UK fishing | Lost EU market access |
+| UK fishing | Lost [[EU]] market access |
 
 ---
 
@@ -157,9 +157,9 @@ See [[CPTPP]].
 | Promise | Reality |
 |---------|---------|
 | US FTA | Not happening |
-| Faster deals | Some (Australia), not transformative |
+| Faster deals | Some ([[Australia]]), not transformative |
 | CPTPP | Achieved, modest economic impact |
-| Trade growth | Slower than EU peers |
+| Trade growth | Slower than [[EU]] peers |
 | Sovereignty | Achieved, at economic cost |
 
 ---
@@ -170,7 +170,7 @@ See [[CPTPP]].
 - [[Trade]] — policy hub
 - [[UK]] — country actor
 - [[CPTPP]] — UK accession 2023
-- [[CETA]] — EU-Canada (UK rolled over)
+- [[CETA]] — [[EU]]-[[Canada]] (UK rolled over)
 - [[Europe]] — regional context
 
 ---

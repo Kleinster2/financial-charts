@@ -53,7 +53,7 @@ ADQ is the fastest-growing of Abu Dhabi's three SWFs, more than doubling assets 
 | Local focus | UAE and nearby countries |
 | Strategic | UAE economic diversification |
 | Infrastructure | Airports, ports, rail, utilities |
-| Healthcare | Pure Health platform |
+| [[Healthcare]] | Pure Health platform |
 
 More than 1/3 of ADQ's deals involve UAE-based companies.
 
@@ -67,7 +67,7 @@ More than 1/3 of ADQ's deals involve UAE-based companies.
 | Abu Dhabi Ports | Maritime |
 | Etihad Airways | Aviation |
 | TAQA | Energy/utilities |
-| Pure Health | Healthcare |
+| Pure Health | [[Healthcare]] |
 | Masdar | Renewables (shared) |
 
 ---

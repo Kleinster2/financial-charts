@@ -12,8 +12,8 @@
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Training time spent on I/O | **70%** | Microsoft |
-| Teams with >85% GPU utilization | **7%** | Industry survey |
+| Training time spent on I/O | **70%** | [[Microsoft]] |
+| [[Teams]] with >85% GPU utilization | **7%** | Industry survey |
 | Typical GPU utilization | 15-50% | Various |
 
 **Translation:** $30K+ GPUs spend most of their time waiting for data.
@@ -87,7 +87,7 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 |----------|---------|
 | **Co-located storage** | Minimize network hops |
 | **Tiered storage** | Hot data on flash, cold on object |
-| **Data lakehouse** | Unified data layer |
+| **[[Data lakehouse]]** | Unified data layer |
 
 ---
 
@@ -106,8 +106,8 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 
 | Category | Examples |
 |----------|----------|
-| Flash memory | Samsung, SK Hynix, Micron |
-| Networking | Arista, Cisco (InfiniBand, Ethernet) |
+| Flash memory | [[Samsung]], [[SK Hynix]], [[Micron]] |
+| Networking | Arista, [[Cisco]] (InfiniBand, Ethernet) |
 | Data orchestration | Alluxio, Hammerspace |
 
 ---

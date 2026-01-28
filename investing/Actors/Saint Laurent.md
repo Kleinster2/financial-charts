@@ -42,7 +42,7 @@ aliases: [YSL, Yves Saint Laurent, SL]
 | Designer | Tenure | Era |
 |----------|--------|-----|
 | Yves Saint Laurent | 1961–2002 | Founder, Le Smoking, Safari |
-| Tom Ford | 1999–2004 | Sex appeal, commercial peak |
+| Tom [[Ford]] | 1999–2004 | Sex appeal, commercial peak |
 | Stefano Pilati | 2004–2012 | Refinement |
 | Hedi Slimane | 2012–2016 | Rebranded to "Saint Laurent Paris," rock aesthetic |
 | **Anthony Vaccarello** | 2016– | Belgian, sharp tailoring, celebrity-driven |
@@ -68,8 +68,8 @@ aliases: [YSL, Yves Saint Laurent, SL]
 
 | Region | Share |
 |--------|-------|
-| Asia-Pacific | ~35% |
-| Western Europe | ~25% |
+| [[Asia]]-Pacific | ~35% |
+| Western [[Europe]] | ~25% |
 | North America | ~25% |
 | Other | ~15% |
 
@@ -115,7 +115,7 @@ Kering overall: €17.2B (-12%), net profit -46% H1 2025.
 ## Notable alumni
 
 - [[Chemena Kamali]] — RTW Design Director (2016-2023), now [[Chloé]] CD
-- Tom Ford — launched own brand after YSL
+- Tom [[Ford]] — launched own brand after YSL
 - Hedi Slimane — now at Celine
 
 ---

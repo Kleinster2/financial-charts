@@ -10,7 +10,7 @@ aliases: [QCOM]
 ## Why it matters
 
 Qualcomm has:
-- **Modem monopoly**: Only viable 5G modem supplier (Apple trying to escape)
+- **Modem monopoly**: Only viable [[5G]] modem supplier (Apple trying to escape)
 - **Snapdragon**: Leading Android SoC, ARM-based
 - **Licensing**: Collects royalties on nearly all smartphones
 
@@ -26,8 +26,8 @@ Qualcomm has:
 | Segment | Description |
 |---------|-------------|
 | QCT (chips) | Snapdragon SoCs, modems, RF front-end |
-| QTL (licensing) | Patent royalties on 3G/4G/5G |
-| Automotive | Snapdragon Ride, digital cockpit |
+| QTL (licensing) | Patent royalties on 3G/4G/[[5G]] |
+| [[Automotive]] | Snapdragon Ride, digital cockpit |
 | IoT/PC | Expanding beyond mobile |
 
 ---
@@ -44,7 +44,7 @@ Qualcomm has:
 ## AI angle
 
 - Snapdragon X Elite: On-device AI for PCs
-- NPU (Neural Processing Unit) in mobile chips
+- [[NPU]] (Neural Processing Unit) in mobile chips
 - Edge inference play vs cloud-based AI
 - Acquired Nuvia (Apple silicon veterans) for CPU cores
 
@@ -122,7 +122,7 @@ See [[Why Samsung's aggression may be rational]] for context on TSMC overflow.
 
 ## TCJA repatriation (2018)
 
-Qualcomm repatriated ~$30B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and the attempted [[NXP]] acquisition (blocked by China).
+Qualcomm repatriated ~$30B under the [[Tax Cuts and Jobs Act]] one-time tax holiday. Deployed into buybacks and the attempted [[NXP]] acquisition (blocked by [[China]]).
 
 ---
 
@@ -130,7 +130,7 @@ Qualcomm repatriated ~$30B under the [[Tax Cuts and Jobs Act]] one-time tax holi
 
 ### NXP acquisition blocked (2018)
 
-Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approval during the US-China trade war. See [[Qualcomm NXP blocked deal]].
+Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust approval during the [[US-China trade]] war. See [[Qualcomm NXP blocked deal]].
 
 **Impact on Qualcomm:**
 - Lost automotive/IoT diversification opportunity
@@ -158,7 +158,7 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 ## Key risks
 
 - Apple modem independence
-- China exposure (Huawei was major customer pre-ban)
+- [[China]] exposure ([[Huawei]] was major customer pre-ban)
 - Licensing model under regulatory pressure
 - Geopolitical risk on future M&A (see [[Weaponized antitrust]])
 
@@ -171,11 +171,11 @@ Qualcomm's $44B bid for [[NXP]] was blocked when China withheld antitrust approv
 ## Related
 
 - [[Apple]] — customer/threat (trying to build in-house modems)
-- [[NXP]] — blocked acquisition (2018, China blocked)
+- [[NXP]] — blocked acquisition (2018, [[China]] blocked)
 - [[TSMC]] — foundry (Snapdragon X2 on N3X)
 - [[Samsung]] — potential foundry (exploring SF2)
 - [[MediaTek]] — competitor (mid-range mobile)
 - [[NVIDIA]] — competitor (automotive AI)
-- [[Weaponized antitrust]] — context (China blocked NXP deal)
+- [[Weaponized antitrust]] — context ([[China]] blocked NXP deal)
 - [[Why Samsung's aggression may be rational]] — context (TSMC overflow)
 - [[Tax Cuts and Jobs Act]] — ~$30B repatriation (2018)

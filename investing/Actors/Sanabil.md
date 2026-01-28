@@ -3,7 +3,7 @@ aliases: [Sanabil Investments, Saudi Sanabil]
 ---
 #actor #cvc #swf #saudi
 
-**Sanabil** — Saudi PIF's venture/growth arm. **$8B capital base**, ~$3B annual deployment. 87 investments including [[World Labs]], Lucid, Stripe. 50% VC, 30% PE allocation.
+**Sanabil** — [[Saudi PIF]]'s venture/growth arm. **$8B capital base**, ~$3B annual deployment. 87 investments including [[World Labs]], [[Lucid]], [[Stripe]]. 50% VC, 30% PE allocation.
 
 ---
 
@@ -22,12 +22,12 @@ PIF's tech-focused arm — deploying Saudi oil wealth into global startups.
 
 ---
 
-## Asset allocation (Dec 2024)
+## [[Asset allocation]] (Dec 2024)
 
 | Category | Allocation |
 |----------|------------|
-| **Venture Capital** | 50% |
-| Private Equity | 30% |
+| **[[Venture Capital]]** | 50% |
+| [[Private Equity]] | 30% |
 | Liquid portfolio | 20% |
 | Cash | 0% |
 
@@ -40,11 +40,11 @@ Heavy VC tilt = aggressive growth orientation.
 | Company | Sector | Notes |
 |---------|--------|-------|
 | [[World Labs]] | Spatial AI | Nov 2025 (latest) |
-| Lucid Motors | EVs | Major stake |
-| Stripe | Fintech | — |
+| [[Lucid]] Motors | EVs | Major stake |
+| [[Stripe]] | [[Fintech]] | — |
 | HALA | Saudi fintech | $157M Series B lead (Sep 2025) |
-| Cruise | Autonomous vehicles | — |
-| ByteDance | Social/AI | — |
+| [[Cruise]] | [[Autonomous vehicles]] | — |
+| [[ByteDance]] | Social/AI | — |
 
 ---
 
@@ -54,7 +54,7 @@ Heavy VC tilt = aggressive growth orientation.
 |-------|----------|
 | Stage | Venture, growth, small buyouts |
 | Risk | Moderate risk, high returns |
-| Geography | Global (US, Europe, MENA) |
+| Geography | Global (US, [[Europe]], MENA) |
 | Sectors | Tech, fintech, mobility, AI |
 
 **Independence:** Operates separately from PIF's direct investments with specialized strategy.
@@ -69,7 +69,7 @@ Heavy VC tilt = aggressive growth orientation.
 | PIF AUM target (2030) | $2T |
 | Saudi VC activity Q1 2025 | $391M (+53% YoY) |
 
-Sanabil is PIF's vehicle for venture-scale bets while PIF does mega-deals (NEOM, Lucid, etc.).
+Sanabil is PIF's vehicle for venture-scale bets while PIF does mega-deals ([[NEOM]], [[Lucid]], etc.).
 
 ---
 

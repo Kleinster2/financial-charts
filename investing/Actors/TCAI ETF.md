@@ -1,5 +1,5 @@
 ---
-aliases: [TCAI, Tortoise AI Infrastructure ETF]
+aliases: [TCAI, Tortoise [[AI Infrastructure]] ETF]
 ---
 #actor #etf #ai-infrastructure #usa
 
@@ -56,15 +56,15 @@ Broad basket approach to AI infrastructure.
 
 ---
 
-## Hyperscaler capex thesis
+## [[Hyperscaler capex]] thesis
 
 **Underlying driver:**
 
 | Company | 12-month capex projection |
 |---------|---------------------------|
-| Meta | ~$120B |
-| Microsoft | ~$120B |
-| Amazon | ~$100B |
+| [[Meta]] | ~$120B |
+| [[Microsoft]] | ~$120B |
+| [[Amazon]] | ~$100B |
 | Alphabet | ~$75B |
 | **Total** | **~$475B** |
 
@@ -77,7 +77,7 @@ TCAI positioned for this spending regardless of which sub-sector wins.
 | Period | Return |
 |--------|--------|
 | Since launch (Aug 2025) | **+25%** |
-| Benchmark | Outperforming S&P 500 |
+| [[Benchmark]] | Outperforming S&P 500 |
 
 ---
 

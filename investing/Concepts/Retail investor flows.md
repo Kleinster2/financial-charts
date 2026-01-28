@@ -25,8 +25,8 @@ Source: VandaTrack (self-directed retail investor flow in US stock market, Jan 2
 1. **Commission-free trading** — [[Robinhood]] forced industry to zero commissions; no friction to re-enter
 2. **Platform stickiness** — 90% of Robinhood's 2.5M Jan 2021 accounts still active (Jan 2026)
 3. **Sophistication growth** — Retail moved from meme stocks → retirement accounts, options, crypto, prediction markets
-4. **New asset classes** — Crypto, sports betting, prediction markets absorbed speculative demand
-5. **Social infrastructure** — Reddit, X, Discord provide permanent information-sharing networks
+4. **New asset classes** — [[Crypto]], sports betting, prediction markets absorbed speculative demand
+5. **Social infrastructure** — Reddit, X, [[Discord]] provide permanent information-sharing networks
 
 ---
 
@@ -36,7 +36,7 @@ Source: VandaTrack (self-directed retail investor flow in US stock market, Jan 2
 |----------|----------|
 | **Meme surges** | [[GameStop]], AMC, Opendoor "Open Army" (Jul 2025) |
 | **Thematic momentum** | AI stocks, EVs, quantum computing |
-| **Crypto** | "Everything that happened in GameStop is happening in crypto but on steroids" — Amanda Fischer |
+| **[[Crypto]]** | "Everything that happened in GameStop is happening in crypto but on steroids" — Amanda Fischer |
 | **Activist campaigns** | Opendoor: retail ousted CEO, installed co-founder (Aug-Sep 2025) |
 | **Prediction markets** | Polymarket, Kalshi — newest speculation venue |
 
@@ -52,13 +52,13 @@ Source: VandaTrack (self-directed retail investor flow in US stock market, Jan 2
 ### For institutions
 - **VandaTrack** — Launched early 2021; institutional clients use retail flow data for risk management and idea generation
 - **Social monitoring** — Trading desks check X/Reddit for unexplained moves (Jefferies)
-- **Short interest awareness** — Managers far more careful about crowded shorts post-2021
+- **[[Short interest]] awareness** — Managers far more careful about crowded shorts post-2021
 - **Meme ETFs** — Roundhill MEME ETF (relaunched 2025, actively managed, weekly rebalance)
 
 ### For brokerages
-- **Arms race** — [[Robinhood]], [[Interactive Brokers]], Charles Schwab competing on features for increasingly sophisticated retail
+- **Arms race** — [[Robinhood]], [[Interactive Brokers]], [[Charles Schwab]] competing on features for increasingly sophisticated retail
 - **26.9M** funded customers at Robinhood (Nov 2025)
-- **Reddit presence** — Even Fidelity now operates its own Reddit investment forum
+- **Reddit presence** — Even [[Fidelity]] now operates its own Reddit investment forum
 
 ---
 

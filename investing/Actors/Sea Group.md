@@ -3,7 +3,7 @@ aliases: [SE]
 ---
 #actor #tech #gaming #ecommerce #singapore #public
 
-**Sea Group** — Southeast Asia's tech giant. Garena gaming, Shopee e-commerce, SeaMoney fintech.
+**Sea Group** — [[Southeast Asia]]'s tech giant. Garena gaming, Shopee e-commerce, SeaMoney fintech.
 
 ---
 
@@ -16,7 +16,7 @@ SEA's largest tech company:
 | Ticker | SE (NYSE) |
 | Market cap | ~$50B+ |
 | Headquarters | Singapore |
-| Markets | Southeast Asia, LatAm, Taiwan |
+| Markets | [[Southeast Asia]], LatAm, [[Taiwan]] |
 
 Dominant in SEA digital economy.
 
@@ -26,7 +26,7 @@ Dominant in SEA digital economy.
 
 | Segment | Brand | Focus |
 |---------|-------|-------|
-| Digital Entertainment | Garena | Gaming (Free Fire) |
+| Digital Entertainment | Garena | [[Gaming]] (Free Fire) |
 | E-commerce | Shopee | Marketplace |
 | Digital Financial Services | SeaMoney | Payments, banking |
 
@@ -57,7 +57,7 @@ Cash cow funding other segments.
 | Vietnam | #1-2 |
 | Malaysia | #1-2 |
 | Philippines | #1-2 |
-| Brazil | Expanding |
+| [[Brazil]] | Expanding |
 
 Aggressive market share strategy.
 
@@ -79,10 +79,10 @@ Shopee payments driving adoption.
 
 | Region | Strategy |
 |--------|----------|
-| Southeast Asia | Core, dominant |
-| Taiwan | Strong gaming |
-| Brazil | E-commerce expansion |
-| Europe | Exited |
+| [[Southeast Asia]] | Core, dominant |
+| [[Taiwan]] | Strong gaming |
+| [[Brazil]] | E-commerce expansion |
+| [[Europe]] | Exited |
 
 Refocused on profitable markets.
 
@@ -103,14 +103,14 @@ Refocused on profitable markets.
 **Bull:**
 - SEA digital economy leader
 - E-commerce dominance
-- Fintech growth
-- Gaming cash flow
+- [[Fintech]] growth
+- [[Gaming]] cash flow
 
 **Bear:**
-- Competition (TikTok Shop, Lazada)
+- Competition ([[TikTok]] Shop, Lazada)
 - Profitability pressure
-- Brazil uncertainty
-- Gaming cyclicality
+- [[Brazil]] uncertainty
+- [[Gaming]] cyclicality
 
 ---
 
@@ -121,7 +121,7 @@ Refocused on profitable markets.
 | Ticker | SE |
 | Market cap | ~$50B+ |
 | Key brands | Garena, Shopee, SeaMoney |
-| Core market | Southeast Asia |
+| Core market | [[Southeast Asia]] |
 
 *Updated 2026-01-01*
 

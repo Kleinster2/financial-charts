@@ -42,7 +42,7 @@
 |--------|-------------|
 | NVIDIA stock | Rally on announcement |
 | Hyperscaler orders | Massive pre-orders |
-| Competition | AMD, Intel further behind |
+| Competition | [[AMD]], [[Intel]] further behind |
 | Supply chain | [[TSMC]] CoWoS constraints |
 
 ---
@@ -52,7 +52,7 @@
 | Theme | Expression |
 |-------|------------|
 | NVIDIA dominance | Extended AI leadership |
-| HBM demand | [[SK Hynix]], Micron benefit |
+| [[HBM]] demand | [[SK Hynix]], [[Micron]] benefit |
 | Packaging | [[TSMC]] advanced packaging |
 | Power/cooling | Data center infrastructure |
 
@@ -63,7 +63,7 @@
 ### Actors
 - [[NVIDIA]] — chip maker
 - [[TSMC]] — manufacturer
-- [[SK Hynix]] — HBM supplier
+- [[SK Hynix]] — [[HBM]] supplier
 
 ### Concepts
 - [[AI datacenter architecture]] — infrastructure

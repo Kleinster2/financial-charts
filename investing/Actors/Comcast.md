@@ -51,7 +51,7 @@ aliases: [CMCSA, NBCUniversal, NBCU, Xfinity]
 | Video subs | Declining 5-7% YoY |
 | Broadband subs | Flat to slight decline |
 | ARPU | Rising (pricing power) |
-| Competition | FWA (T-Mobile, Verizon), fiber |
+| Competition | FWA ([[T-Mobile]], [[Verizon]]), fiber |
 
 **Response:** Focus on broadband, mobile bundling, Peacock.
 
@@ -63,7 +63,7 @@ aliases: [CMCSA, NBCUniversal, NBCU, Xfinity]
 |-------|-------------|
 | NBC broadcast | Network TV, local stations |
 | Universal Pictures | Film studio |
-| Theme parks | Orlando, Hollywood, Japan |
+| Theme parks | Orlando, Hollywood, [[Japan]] |
 | Cable networks | USA, Bravo, CNBC (spinning off to Versant) |
 | Sports | NFL Sunday Night, Olympics |
 
@@ -91,7 +91,7 @@ aliases: [CMCSA, NBCUniversal, NBCU, Xfinity]
 - Broadband still essential utility
 - Peacock reaching scale
 - Theme parks = experience economy
-- Sports rights (NFL, Olympics)
+- [[Sports rights]] (NFL, Olympics)
 - Cable spinoff unlocks value
 
 **Bear:**

@@ -1,15 +1,15 @@
 ---
-aliases: [Mexico nearshoring, US-China decoupling]
+aliases: [[[Mexico]] nearshoring, US-[[China]] decoupling]
 ---
 #concept #thesis #geopolitics #mexico
 
-**Nearshoring Thesis** — US-China decoupling → Mexico wins. Data centers, manufacturing, semiconductors.
+**Nearshoring Thesis** — US-[[China]] decoupling → [[Mexico]] wins. Data centers, manufacturing, semiconductors.
 
 ---
 
 ## The thesis
 
-Mexico is the biggest beneficiary of US-China tensions:
+[[Mexico]] is the biggest beneficiary of US-[[China]] tensions:
 
 | Metric | Value |
 |--------|-------|
@@ -20,7 +20,7 @@ Mexico is the biggest beneficiary of US-China tensions:
 
 ---
 
-## Why Mexico?
+## Why [[Mexico]]?
 
 | Factor | Advantage |
 |--------|-----------|
@@ -34,7 +34,7 @@ Mexico is the biggest beneficiary of US-China tensions:
 
 ## The shift
 
-**China → Mexico:**
+**[[China]] → [[Mexico]]:**
 - Manufacturing relocating
 - Supply chains restructuring
 - Data centers following
@@ -49,15 +49,15 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 | Company | Investment | Location |
 |---------|------------|----------|
 | [[CloudHQ]] | $4.8B | [[Querétaro]] |
-| [[Amazon]]/AWS | $5B | Mexico |
-| [[Microsoft]] | $1.3B | Mexico |
-| [[Google]] | Expanding | Mexico |
+| [[Amazon]]/AWS | $5B | [[Mexico]] |
+| [[Microsoft]] | $1.3B | [[Mexico]] |
+| [[Google]] | Expanding | [[Mexico]] |
 
 ---
 
 ## Semiconductor ambitions
 
-**Plan Mexico (Jan 2025):**
+**Plan [[Mexico]] (Jan 2025):**
 - Sheinbaum decree
 - Incentives for chip manufacturing
 - [[QSM Semiconductor]] — first fab
@@ -67,7 +67,7 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 
 ## Querétaro = the hub
 
-**Mexico's Ashburn:**
+**[[Mexico]]'s [[Ashburn]]:**
 - 65% of national DC capacity
 - All hyperscalers present
 - Infrastructure concentration
@@ -82,7 +82,7 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 | [[Amazon]] | $5B AWS investment |
 | [[Microsoft]] | $1.3B+ |
 | [[CloudHQ]] | $4.8B |
-| Industrial REITs | Prologis, Fibra |
+| Industrial [[REITs]] | Prologis, Fibra |
 
 ---
 
@@ -99,20 +99,20 @@ Carlos Slim: "Geopolitical conflict creates opportunity."
 
 ## Jan 2026 challenges
 
-**Mexico caught between US and China:**
+**[[Mexico]] caught between US and [[China]]:**
 
 | Issue | Detail |
 |-------|--------|
 | Economy contracting | Investment slowdown, manufacturing decline |
 | US investment paused | Companies waiting for tariff clarity |
-| China crackdown | Mexico blocking Chinese investment to appease Trump |
+| [[China]] crackdown | [[Mexico]] blocking Chinese investment to appease Trump |
 | Asian tariffs | 50% on 1,400 products (Jan 1, 2026) |
 
-**Plan Mexico stalling:** Tax incentive hubs still early stage.
+**Plan [[Mexico]] stalling:** Tax incentive hubs still early stage.
 
-**Alberto Ramos (Goldman):** "If the US wants home shoring... that's more problematic for Mexico."
+**Alberto Ramos (Goldman):** "If the US wants home shoring... that's more problematic for [[Mexico]]."
 
-**Key question:** Will Trump embrace Mexico as friendshoring hub, or demand homeshoring?
+**Key question:** Will Trump embrace [[Mexico]] as friendshoring hub, or demand homeshoring?
 
 See [[Capital flow reversal]] for broader context.
 
@@ -120,9 +120,9 @@ See [[Capital flow reversal]] for broader context.
 
 ## Investment implications
 
-**Long Mexico infrastructure:**
+**Long [[Mexico]] infrastructure:**
 - Hyperscalers investing
-- Industrial REITs
+- Industrial [[REITs]]
 - Power companies
 
 **Long US beneficiaries:**
@@ -146,12 +146,12 @@ See [[Capital flow reversal]] for broader context.
 
 ## Related
 
-- [[Mexico Tech]] — beneficiary (biggest winner of US-China tensions)
-- [[Querétaro]] — hub (65% of Mexico DC capacity)
+- [[Mexico Tech]] — beneficiary (biggest winner of US-[[China]] tensions)
+- [[Querétaro]] — hub (65% of [[Mexico]] DC capacity)
 - [[CloudHQ]] — investor ($4.8B Querétaro)
-- [[Amazon]] — investor ($5B AWS Mexico)
-- [[Microsoft]] — investor ($1.3B+ Mexico)
-- [[QSM Semiconductor]] — player (first Mexico fab)
+- [[Amazon]] — investor ($5B AWS [[Mexico]])
+- [[Microsoft]] — investor ($1.3B+ [[Mexico]])
+- [[QSM Semiconductor]] — player (first [[Mexico]] fab)
 - [[USMCA]] — trade framework (tariff-free US access)
-- [[Capital flow reversal]] — broader macro context (Mexico caught in middle)
+- [[Capital flow reversal]] — broader macro context ([[Mexico]] caught in middle)
 

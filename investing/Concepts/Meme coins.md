@@ -27,12 +27,12 @@ Meme coins are a leading indicator of retail risk appetite and crypto speculatio
 
 ## The new wave: AI agent coins
 
-A 2024-2025 phenomenon — AI agents (or accounts claiming to be AI) launch tokens:
+A 2024-2025 phenomenon — [[AI agents]] (or accounts claiming to be AI) launch tokens:
 
 | Token | Agent | Peak | Notes |
 |-------|-------|------|-------|
-| $GOAT | Truth Terminal | ~$1B mcap | First AI agent token; Andy Ayrey's Claude-based bot |
-| $CLAWD | Clawdbot | $16M | Solana; viral AI entity; now ~$4M |
+| $GOAT | Truth Terminal | ~$1B mcap | First AI agent token; Andy Ayrey's [[Claude]]-based bot |
+| $CLAWD | [[Clawdbot]] | $16M | Solana; viral AI entity; now ~$4M |
 | $TURBO | GPT-4 experiment | $50M+ | "First memecoin made by AI" |
 
 **The dynamic:** AI accounts build followings on X, sometimes receive token "gifts" from fans, prices pump on virality. Blurs line between genuine AI behavior and human manipulation.
@@ -68,13 +68,13 @@ A 2024-2025 phenomenon — AI agents (or accounts claiming to be AI) launch toke
 
 1. **Launch** — Token created on pump.fun or similar
 2. **Seeding** — Insiders/devs accumulate; influencers paid to promote
-3. **Viral moment** — X/TikTok/Telegram picks up narrative
+3. **Viral moment** — X/[[TikTok]]/[[Telegram]] picks up narrative
 4. **CEX listing** — If volume sufficient, Coinbase/Robinhood list (legitimizes)
 5. **Peak** — Retail FOMO maxes out
 6. **Dump** — Early holders exit; price collapses 80-99%
 7. **Zombie phase** — Token trades at tiny fraction of peak indefinitely
 
-Most coins never reach step 4. The ones that do (DOGE, SHIB, PEPE) become "blue chip memes."
+Most coins never reach step 4. The ones that do ([[DOGE]], SHIB, PEPE) become "blue chip memes."
 
 ---
 
@@ -84,8 +84,8 @@ Survivors with staying power (relative term):
 
 | Token | Origin | Status |
 |-------|--------|--------|
-| Dogecoin (DOGE) | 2013 joke | [[Elon Musk]] association; $20B+ mcap |
-| Shiba Inu (SHIB) | 2020 DOGE derivative | Ecosystem attempts |
+| Dogecoin ([[DOGE]]) | 2013 joke | [[Elon Musk]] association; $20B+ mcap |
+| Shiba Inu (SHIB) | 2020 [[DOGE]] derivative | Ecosystem attempts |
 | Pepe (PEPE) | 2023 | Frog meme; Ethereum-based |
 | Bonk (BONK) | 2022 | Solana community coin |
 
@@ -97,7 +97,7 @@ These trade on brand recognition and liquidity, not fundamentals.
 
 **Not investable for serious capital** — zero fundamentals, pure greater-fool dynamics.
 
-**Signal value:**
+**[[Signal]] value:**
 - Meme coin pumps = retail risk-on, excess liquidity
 - Meme coin collapse = risk-off rotation
 - CEX listing activity = exchange revenue/desperation indicator
@@ -111,7 +111,7 @@ These trade on brand recognition and liquidity, not fundamentals.
 
 ## Related
 
-- [[Meme stocks]] — equity predecessor; GameStop origin
+- [[Meme stocks]] — equity predecessor; [[GameStop]] origin
 - [[Crypto]] — broader context
 - [[Retail investor flows]] — same demographic
 - [[Solana]] — dominant meme coin chain

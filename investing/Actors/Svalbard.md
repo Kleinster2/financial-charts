@@ -28,7 +28,7 @@ Unique international arrangement:
 | Equal taxation | Norway can't discriminate against foreigners |
 | Environmental rules | Norway sets conservation policy |
 
-**Signatories:** 46 countries including US, Russia, China, most of Europe.
+**Signatories:** 46 countries including US, Russia, [[China]], most of [[Europe]].
 
 **Key constraint:** Norway cannot militarize — creates strategic gap in Arctic defense.
 
@@ -53,11 +53,11 @@ Russia maintains presence despite coal mining being unprofitable — the foothol
 |---------|---------|
 | Norway | Multiple (UNIS, research council) |
 | Russia | Barentsburg facilities |
-| China | Yellow River Station (2004) |
-| India | Himadri Station (2008) |
-| Others | Poland, Germany, UK, etc. |
+| [[China]] | Yellow River Station (2004) |
+| [[India]] | Himadri Station (2008) |
+| Others | Poland, [[Germany]], [[UK]], etc. |
 
-**China's interest:** Arctic research presence, climate monitoring, but also strategic positioning.
+**[[China]]'s interest:** Arctic research presence, climate monitoring, but also strategic positioning.
 
 ---
 

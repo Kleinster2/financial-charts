@@ -1,9 +1,9 @@
 ---
-aliases: [Saudi Telecom Company, 7010.SR]
+aliases: [Saudi [[Telecom]] Company, 7010.SR]
 ---
 #actor #telecom #saudi #public
 
-**stc** — Saudi Arabia's largest telecom. 5G leader. Regional expansion.
+**stc** — Saudi Arabia's largest telecom. [[5G]] leader. Regional expansion.
 
 ---
 
@@ -24,19 +24,19 @@ Saudi's telecom champion:
 
 | Segment | Focus |
 |---------|-------|
-| Consumer | Mobile, broadband |
+| [[Consumer]] | Mobile, broadband |
 | Enterprise | B2B connectivity |
 | Wholesale | Infrastructure |
 | Subsidiaries | Regional telcos |
 
 ---
 
-## 5G leadership
+## [[5G]] leadership
 
-**Saudi 5G rollout:**
-- First Middle East 5G (2019)
+**Saudi [[5G]] rollout:**
+- First Middle East [[5G]] (2019)
 - Nationwide coverage
-- Enterprise 5G
+- Enterprise [[5G]]
 - NEOM connectivity
 
 ---
@@ -71,7 +71,7 @@ Expanding beyond Saudi.
 | stc solutions | IT services |
 | IoT platform | Connected devices |
 | Smart city | NEOM partner |
-| Cybersecurity | National infrastructure |
+| [[Cybersecurity]] | National infrastructure |
 
 ---
 
@@ -89,7 +89,7 @@ Expanding beyond Saudi.
 
 **Bull:**
 - Saudi growth story
-- 5G monetization
+- [[5G]] monetization
 - Vision 2030 beneficiary
 - Regional expansion
 

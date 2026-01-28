@@ -16,7 +16,7 @@ aliases: [UNH, UnitedHealthcare, Optum]
 | Revenue | ~$450B (2025) |
 | Members | 50M+ |
 
-Largest US company by revenue after Walmart.
+Largest US company by revenue after [[Walmart]].
 
 ---
 
@@ -32,7 +32,7 @@ Part of sector-wide [[Medicare Advantage]] rate shock — see concept note for f
 2026 guidance: ">$439B" revenue — roughly 2% below 2025, well under analyst expectations of $454B.
 
 **2. Membership contraction**
-Guiding for **3M+ member decline** in 2026 — exiting unprofitable MA and ACA exchange members.
+Guiding for **[[3M]]+ member decline** in 2026 — exiting unprofitable MA and ACA exchange members.
 
 **3. V28 coding transition**
 Final year of Medicare's new diagnosis weighting system — $6B revenue hit ($2B UHC, $4B Optum).
@@ -41,8 +41,8 @@ Final year of Medicare's new diagnosis weighting system — $6B revenue hit ($2B
 
 | Factor | Impact |
 |--------|--------|
-| Divestitures (UK, South America) | Revenue loss |
-| Membership decline (3M+) | Volume loss |
+| Divestitures ([[UK]], South America) | Revenue loss |
+| Membership decline ([[3M]]+) | Volume loss |
 | V28 coding transition | $6B hit |
 | Chart review rule change | Structural |
 
@@ -59,10 +59,10 @@ Management signaled aggressive cost-cutting — shedding unprofitable insurance 
 
 | Segment | Revenue | Description |
 |---------|---------|-------------|
-| **UnitedHealthcare** | ~$280B | Insurance (employer, Medicare, Medicaid) |
+| **UnitedHealthcare** | ~$280B | [[Insurance]] (employer, Medicare, Medicaid) |
 | **Optum Health** | ~$100B | Care delivery, 90K+ physicians |
 | **Optum Rx** | ~$120B | PBM, specialty pharmacy |
-| **Optum Insight** | ~$15B | Healthcare analytics, IT |
+| **Optum Insight** | ~$15B | [[Healthcare]] analytics, IT |
 
 Optum growing faster than insurance.
 
@@ -71,7 +71,7 @@ Optum growing faster than insurance.
 ## Vertical integration
 
 **Full healthcare stack:**
-- Insurance (UnitedHealthcare)
+- [[Insurance]] (UnitedHealthcare)
 - Care delivery (Optum Health physicians)
 - Pharmacy benefits (Optum Rx)
 - Data/analytics (Optum Insight)
@@ -101,7 +101,7 @@ Controversial but highly profitable.
 - Medicare Advantage rate pressure (CMS flat rates for 2027)
 - Chart review rule change eliminates diagnosis mining
 - First revenue decline in 30 years
-- Membership contraction (3M+ in 2026)
+- Membership contraction ([[3M]]+ in 2026)
 - V28 coding transition headwinds through 2026
 - PBM scrutiny and vertical integration backlash
 - Political/regulatory overhang post-Thompson tragedy
@@ -111,7 +111,7 @@ Controversial but highly profitable.
 ## Financials
 
 ![[unh-fundamentals.png]]
-*Revenue growth steady for two decades. Net income dipped in Q1 2024 (Change Healthcare cyberattack costs), and declining through 2025 on higher medical costs and margin compression.*
+*Revenue growth steady for two decades. Net income dipped in Q1 2024 (Change [[Healthcare]] cyberattack costs), and declining through 2025 on higher medical costs and margin compression.*
 
 | Year | Revenue | Net Income | Margin |
 |------|---------|------------|--------|
@@ -126,7 +126,7 @@ Controversial but highly profitable.
 | 2016 | $185B | $7.0B | 3.8% |
 | 2015 | $157B | $5.8B | 3.7% |
 
-Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change Healthcare cyberattack response costs.
+Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change [[Healthcare]] cyberattack response costs.
 
 ---
 

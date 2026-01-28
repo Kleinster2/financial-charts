@@ -3,7 +3,7 @@ aliases: [Index]
 ---
 #actor #investor #venturecapital #europe #usa #private
 
-**Index Ventures** — Top-tier European VC. Figma, Discord, Slack, Dropbox investor. ~$15B AUM. London + SF.
+**Index Ventures** — Top-tier European VC. [[Figma]], [[Discord]], [[Slack]], [[Dropbox]] investor. ~$15B AUM. London + SF.
 
 ---
 
@@ -22,15 +22,15 @@ aliases: [Index]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **Figma** | Early | Adobe acquisition blocked |
-| **Discord** | Growth | Private |
-| **Slack** | Early | Acquired by Salesforce |
-| **Dropbox** | Early | Public (DBX) |
-| **Revolut** | Early | Private (~$45B) |
-| **Roblox** | Growth | Public (RBLX) |
+| **[[Figma]]** | Early | [[Adobe]] acquisition blocked |
+| **[[Discord]]** | Growth | Private |
+| **[[Slack]]** | Early | Acquired by [[Salesforce]] |
+| **[[Dropbox]]** | Early | Public (DBX) |
+| **[[Revolut]]** | Early | Private (~$45B) |
+| **[[Roblox]]** | Growth | Public (RBLX) |
 | **[[Mistral]]** | Series C | $14B |
-| **[[Scale AI]]** | Early | Meta 49% ($29B) |
-| **Notion** | Growth | Private |
+| **[[Scale AI]]** | Early | [[Meta]] 49% ($29B) |
+| **[[Notion]]** | Growth | Private |
 
 ---
 
@@ -50,9 +50,9 @@ aliases: [Index]
 
 | Sector | Examples |
 |--------|----------|
-| **Enterprise** | Slack, Figma, Notion |
-| **Consumer** | Discord, Roblox |
-| **Fintech** | Revolut, Plaid |
+| **Enterprise** | [[Slack]], [[Figma]], [[Notion]] |
+| **[[Consumer]]** | [[Discord]], [[Roblox]] |
+| **[[Fintech]]** | [[Revolut]], Plaid |
 | **AI** | Mistral, Scale AI |
 
 ---
@@ -73,7 +73,7 @@ aliases: [Index]
 | Founded | 1996 |
 | AUM | ~$15B |
 | HQ | London, SF |
-| Key exits | Slack, Dropbox, Roblox |
+| Key exits | [[Slack]], [[Dropbox]], [[Roblox]] |
 
 ---
 

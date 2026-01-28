@@ -1,6 +1,6 @@
 #actor #space #usa #private
 
-**Axiom Space** — Building ISS replacement. Also developing space data centers.
+**Axiom [[Space]]** — Building ISS replacement. Also developing space data centers.
 
 ---
 
@@ -10,7 +10,7 @@
 |----------|--------|
 | **Axiom Station** | Commercial space station (ISS successor) |
 | **ISS modules** | Attaching to ISS, then detaching |
-| **Space data centers** | In development |
+| **[[Space]] data centers** | In development |
 | **Spacesuits** | NASA contract for Artemis |
 
 ---
@@ -29,10 +29,10 @@ NASA planning to retire ISS by ~2030. Axiom positioned as successor.
 
 ---
 
-## Space data centers
+## [[Space]] data centers
 
 **Dual business model:**
-- Space station for research/tourism
+- [[Space]] station for research/tourism
 - Orbital compute infrastructure
 
 Combines human spaceflight expertise with data center ambitions.
@@ -47,7 +47,7 @@ Combines human spaceflight expertise with data center ambitions.
 | Total raised | $500M+ |
 | Valuation | ~$3B+ |
 
-Investors include Google Ventures, Airbus Ventures.
+Investors include [[Google]] Ventures, [[Airbus]] Ventures.
 
 ---
 

@@ -26,7 +26,7 @@ aliases: []
 | City | Date | Model |
 |------|------|-------|
 | **Las Vegas** | Sep 10, 2025 | Fixed destinations (5 stops) |
-| **San Francisco** | Nov 18, 2025 | Point-to-point (Uber-like) |
+| **San Francisco** | Nov 18, 2025 | Point-to-point ([[Uber]]-like) |
 
 **Las Vegas stops:** Resorts World, AREA15, Topgolf, NY-NY, Luxor.
 
@@ -36,14 +36,14 @@ Currently **free rides** — commercial exemption pending.
 
 ---
 
-## CES 2026
+## [[CES 2026]]
 
 | Detail | Value |
 |--------|-------|
-| Event | CES 2026 (Jan 6-9) |
+| Event | [[CES 2026]] (Jan 6-9) |
 | Location | West Hall, Las Vegas Convention Center |
 | Focus | 360° sensing, autonomous mobility |
-| Peers | NVIDIA, Waymo, BMW, Bosch |
+| Peers | [[NVIDIA]], Waymo, [[BMW]], Bosch |
 
 Showcasing purpose-built robotaxi alongside major mobility players.
 
@@ -69,7 +69,7 @@ Showcasing purpose-built robotaxi alongside major mobility players.
 |--------|-------|
 | Factory | 220,000 sq ft (Bay Area) |
 | Opened | June 2025 |
-| Target capacity | **10,000 vehicles/year** |
+| [[Target]] capacity | **10,000 vehicles/year** |
 | Current fleet | 50 robotaxis |
 
 ---
@@ -80,7 +80,7 @@ Showcasing purpose-built robotaxi alongside major mobility players.
 |-----------|------|
 | NHTSA exemption (testing) | Aug 2025 |
 | 555 commercial exemption filed | 2025 |
-| Target paid service | **H2 2026** |
+| [[Target]] paid service | **H2 2026** |
 
 **555 exemption:** Would allow up to 2,500 vehicles for paid service.
 
@@ -142,7 +142,7 @@ Showcasing purpose-built robotaxi alongside major mobility players.
 | [[Waymo]] | 700+ | Retrofitted Jaguar | Commercial |
 | Zoox | 50 | **Purpose-built** | Free service |
 | [[Cruise]] | Paused | Retrofitted | Restructuring |
-| [[Tesla]] | TBD | Consumer cars | 2025-26 launch |
+| [[Tesla]] | TBD | [[Consumer]] cars | 2025-26 launch |
 
 ---
 
@@ -185,7 +185,7 @@ Showcasing purpose-built robotaxi alongside major mobility players.
 - [TechCrunch: SF public launch](https://techcrunch.com/2025/11/18/zoox-to-begin-offering-robotaxi-rides-to-public-in-san-francisco/)
 - [CNBC: 2025 robotaxi expansion](https://www.cnbc.com/2025/12/16/waymo-amazon-zoox-tesla-robotaxi-expansion.html)
 - [Fortune: Paid service 2026](https://fortune.com/2025/12/08/amazon-robotaxi-service-zoox-plans-fees-vegas-san-francisco/)
-- [CES 2026 exhibitor](https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001UKLJsQAP)
+- [[[CES 2026]] exhibitor](https://exhibitors.ces.tech/8_0/exhibitor/exhibitor-details.cfm?exhid=0013A00001UKLJsQAP)
 
 *Updated 2026-01-09*
 

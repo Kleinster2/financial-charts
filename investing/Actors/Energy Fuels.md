@@ -13,14 +13,14 @@ Unique positioning across two critical supply chains:
 
 | Business | Asset | Strategic value |
 |----------|-------|-----------------|
-| Uranium | White Mesa Mill, multiple mines | US domestic supply |
+| [[Uranium]] | White Mesa Mill, multiple mines | US domestic supply |
 | Rare earths | White Mesa separation circuit | Heavy REE processing (Dy/Tb) |
 
 **The differentiator**: White Mesa can process heavy rare earths — [[Dysprosium]], [[Terbium]] — that [[MP Materials]] cannot. This is the capability gap REAlloys is also targeting.
 
 ---
 
-## Uranium operations
+## [[Uranium]] operations
 
 | Asset | Location | Status |
 |-------|----------|--------|
@@ -50,7 +50,7 @@ Energy Fuels is building rare earth separation capacity at White Mesa:
 
 ## Competitive positioning
 
-### vs Uranium peers
+### vs [[Uranium]] peers
 
 | vs Competitor | Energy Fuels position |
 |---------------|----------------------|
@@ -92,7 +92,7 @@ Energy Fuels is building rare earth separation capacity at White Mesa:
 
 **Bear:**
 - Small vs global miners
-- Uranium price sensitive
+- [[Uranium]] price sensitive
 - REE business still ramping
 - Execution risk on dual strategy
 
@@ -105,7 +105,7 @@ Energy Fuels is building rare earth separation capacity at White Mesa:
 - [[Uranium Energy Corp]] — US uranium peer
 - [[Cameco]] — Larger uranium peer
 - [[MP Materials]] — US REE peer (light REE focus)
-- [[Nuclear power for AI]] — Uranium demand driver
+- [[Nuclear power for AI]] — [[Uranium]] demand driver
 - [[Dysprosium]], [[Terbium]] — Heavy REEs they can process
 - [[Rare earth leverage]] — Geopolitical context
 - [[ASML]] — End customer for REE-based magnets

@@ -1,8 +1,8 @@
 #thesis #trade #active
 
-# Long Japan Wafers
+# Long [[Japan]] Wafers
 
-**Status**: Active — AI driving wafer demand, Japan duopoly
+**Status**: Active — AI driving wafer demand, [[Japan]] duopoly
 **Created**: 2026-01-20
 **Last reviewed**: 2026-01-20
 
@@ -10,7 +10,7 @@
 
 ## The thesis
 
-Japan controls ~55% of global silicon wafers through [[Shin-Etsu]] and [[Sumco]]. Every chip starts as a wafer — this is the most upstream chokepoint in semiconductors. AI chips use larger dies and more advanced packaging, driving wafer area demand. The duopoly has pricing power in a structurally tight market.
+[[Japan]] controls ~55% of global silicon wafers through [[Shin-Etsu]] and [[Sumco]]. Every chip starts as a wafer — this is the most upstream chokepoint in semiconductors. AI chips use larger dies and more advanced packaging, driving wafer area demand. The duopoly has pricing power in a structurally tight market.
 
 **Primary vehicle**: [[Sumco]] (3436.T) — pure-play wafer exposure
 **Diversified alternative**: [[Shin-Etsu]] (4063.T) — wafers + photoresists + PVC hedge
@@ -29,7 +29,7 @@ No wafers = no chips. Period.
 
 ---
 
-## Market structure
+## [[Market structure]]
 
 | Company | Share | Ticker | Notes |
 |---------|-------|--------|-------|
@@ -39,7 +39,7 @@ No wafers = no chips. Period.
 | SK Siltron | ~12% | — | SK Group subsidiary |
 | Others | ~20% | — | Fragmented |
 
-**Japan duopoly:** Shin-Etsu + Sumco = 55% of global supply.
+**[[Japan]] duopoly:** Shin-Etsu + Sumco = 55% of global supply.
 
 **Top 4 = 80%** — highly concentrated oligopoly.
 
@@ -51,10 +51,10 @@ No wafers = no chips. Period.
 
 | Factor | Impact |
 |--------|--------|
-| **Larger dies** | NVIDIA H100 = 814mm², B200 = 2x reticle |
+| **Larger dies** | [[NVIDIA]] H100 = 814mm², B200 = 2x reticle |
 | **Lower yields** | Leading-edge = fewer good dies per wafer |
-| **HBM stacking** | Memory dies consume wafer area |
-| **Advanced packaging** | Interposers, CoWoS use silicon |
+| **[[HBM]] stacking** | Memory dies consume wafer area |
+| **[[Advanced packaging]]** | Interposers, CoWoS use silicon |
 
 **Siltronic data (2025):**
 - Datacenter = 15% of wafer consumption but **50% of incremental demand**
@@ -67,7 +67,7 @@ Every new fab needs wafer supply:
 - TSMC Arizona (2 fabs)
 - Intel Ohio (2 fabs)
 - Samsung Taylor
-- Rapidus Japan
+- [[Rapidus]] [[Japan]]
 - TSMC Kumamoto
 
 **Lead time:** Wafer capacity takes 2-3 years to build.
@@ -76,7 +76,7 @@ Every new fab needs wafer supply:
 
 - Wafer fabs are capital-intensive
 - Limited new capacity coming online
-- China lacks advanced wafer capability
+- [[China]] lacks advanced wafer capability
 - Duopoly has pricing discipline
 
 ---
@@ -86,7 +86,7 @@ Every new fab needs wafer supply:
 | Metric | Sumco | Shin-Etsu |
 |--------|-------|-----------|
 | Wafer exposure | 100% | ~35% |
-| Photoresists | No | Yes (~10%) |
+| [[Photoresists]] | No | Yes (~10%) |
 | PVC/chemicals | No | Yes (~30%) |
 | Cyclicality | Higher | Lower (hedged) |
 | Beta to thesis | Higher | Lower |
@@ -102,9 +102,9 @@ Every new fab needs wafer supply:
 - [ ] Wafer prices remain firm or rise
 - [ ] AI chip demand continues (larger dies, more wafers)
 - [ ] Fab buildout proceeds (TSMC, Intel, Samsung capex)
-- [ ] No major new wafer capacity from China
-- [ ] Japan maintains 50%+ share
-- [ ] HBM growth drives memory wafer demand
+- [ ] No major new wafer capacity from [[China]]
+- [ ] [[Japan]] maintains 50%+ share
+- [ ] [[HBM]] growth drives memory wafer demand
 
 ---
 
@@ -112,14 +112,14 @@ Every new fab needs wafer supply:
 
 - [ ] AI demand slowdown (hyperscaler capex cuts)
 - [ ] Wafer oversupply (unlikely near-term)
-- [ ] China achieves wafer self-sufficiency
+- [ ] [[China]] achieves wafer self-sufficiency
 - [ ] Chiplet/advanced packaging reduces wafer intensity
 - [ ] Price war between Shin-Etsu and Sumco (irrational)
 - [ ] Alternative substrate technology emerges
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 **Pure-play (higher conviction):**
 - Sumco (3436.T) — 100% wafer exposure, higher beta
@@ -132,7 +132,7 @@ Every new fab needs wafer supply:
 
 **Basket approach:** Sumco (50%) + Shin-Etsu (50%)
 - Captures both pure-play leverage and diversification
-- Both Japan-listed, yen exposure
+- Both [[Japan]]-listed, yen exposure
 
 ---
 
@@ -143,17 +143,17 @@ Every new fab needs wafer supply:
 | Yen volatility | Hedge or accept; thesis is structural |
 | Cyclicality | AI demand less cyclical than traditional |
 | Customer concentration | TSMC/Samsung/Intel all need wafers |
-| China retaliation | Monitor rare earth/materials tensions |
-| Energy costs | Japan nuclear restart helps |
+| [[China]] retaliation | Monitor rare earth/materials tensions |
+| Energy costs | [[Japan]] nuclear restart helps |
 
 ---
 
 ## Link to other theses
 
 **[[Long Japan photoresists]]**: Same geographic exposure
-- Both benefit from Japan materials dominance
+- Both benefit from [[Japan]] materials dominance
 - Shin-Etsu captures both theses
-- Can combine into Japan semiconductor materials basket
+- Can combine into [[Japan]] semiconductor materials basket
 
 **[[Long WFE]]**: Different part of supply chain
 - Equipment = capex cycle (construction phase)
@@ -161,7 +161,7 @@ Every new fab needs wafer supply:
 - Complementary timing
 
 **[[Long memory]]**: Wafer demand driver
-- HBM requires wafers for memory dies
+- [[HBM]] requires wafers for memory dies
 - Memory expansion = wafer demand
 
 ---
@@ -172,8 +172,8 @@ Every new fab needs wafer supply:
 |------|-------------|-------------|
 | 2025-12-29 | Siltronic: DC = 15% of wafers but 50% of incremental demand | AI is THE demand driver |
 | 2025-12-29 | Siltronic: Servers +23% YoY wafer consumption | Demand accelerating |
-| 2021-2022 | Germany blocked GlobalWafers bid for Siltronic | Wafers = strategic asset |
-| 2024 | JIC took JSR private for $6.4B | Japan protecting materials supply chain |
+| 2021-2022 | [[Germany]] blocked GlobalWafers bid for Siltronic | Wafers = strategic asset |
+| 2024 | JIC took JSR private for $6.4B | [[Japan]] protecting materials supply chain |
 | 2026-01-20 | Shin-Etsu + Sumco = 55% global share | Duopoly intact |
 
 ---

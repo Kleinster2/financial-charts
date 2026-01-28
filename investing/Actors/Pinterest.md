@@ -74,7 +74,7 @@ Pivoting from social to commerce.
 
 | Person | Role |
 |--------|------|
-| **Bill Ready** | CEO (ex-Google, PayPal) |
+| **Bill Ready** | CEO (ex-[[Google]], [[PayPal]]) |
 | Ben Silbermann | Co-founder, Exec Chairman |
 
 Ready brought e-commerce expertise.
@@ -91,7 +91,7 @@ Ready brought e-commerce expertise.
 
 **Bear:**
 - User growth slowing
-- Competition from TikTok
+- Competition from [[TikTok]]
 - Conversion attribution
 - Platform risk
 

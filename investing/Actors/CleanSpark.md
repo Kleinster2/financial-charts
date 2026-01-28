@@ -25,10 +25,10 @@ Large miner with clean energy angle:
 **Sustainability angle:**
 - Low-carbon mining operations
 - Renewable energy focus
-- ESG-friendly narrative
+- [[ESG]]-friendly narrative
 - Relevant for AI customers
 
-AI hyperscalers want clean power.
+[[AI hyperscalers]] want clean power.
 
 ---
 
@@ -46,8 +46,8 @@ AI hyperscalers want clean power.
 
 | Company | Differentiator | Pivot status |
 |---------|----------------|--------------|
-| [[IREN]] | Microsoft deal | Leading |
-| [[Hut 8]] | Google backing | Advanced |
+| [[IREN]] | [[Microsoft]] deal | Leading |
+| [[Hut 8]] | [[Google]] backing | Advanced |
 | **CleanSpark** | Clean energy | In progress |
 | [[Riot Platforms]] | Scale | In progress |
 

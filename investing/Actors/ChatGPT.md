@@ -21,7 +21,7 @@ Fastest product to 100M users (2 months). On track to be most downloaded app of 
 
 ---
 
-## Consumer pricing
+## [[Consumer]] pricing
 
 | Plan | Price | Notes |
 |------|-------|-------|
@@ -71,17 +71,17 @@ Go tier ($8/mo) launched 2026 — cheaper entry point with "Instant" model optim
 
 | vs | ChatGPT advantage | ChatGPT weakness |
 |----|------------------|------------------|
-| [[Claude]] | Consumer scale, brand, multimodal | Enterprise trust, coding agents |
-| [[Gemini]] | Independence, user base | Google integration |
+| [[Claude]] | [[Consumer]] scale, brand, multimodal | Enterprise trust, coding agents |
+| [[Gemini]] | Independence, user base | [[Google]] integration |
 | Open source | Quality, features, UX | Cost, commoditization risk |
 
 ---
 
 ## Business model
 
-ChatGPT is 75% of OpenAI's revenue. Consumer-heavy (unlike Anthropic's 80% enterprise).
+ChatGPT is 75% of OpenAI's revenue. [[Consumer]]-heavy (unlike [[Anthropic]]'s 80% enterprise).
 
-**Consumer device (announced Jan 2026):** OpenAI planning first hardware product for H2 2026. Confirmed at Davos by Chris Lehane. Form factor unknown.
+**[[Consumer]] device (announced Jan 2026):** OpenAI planning first hardware product for H2 2026. Confirmed at Davos by Chris Lehane. Form factor unknown.
 
 ---
 
@@ -101,8 +101,8 @@ ChatGPT is 75% of OpenAI's revenue. Consumer-heavy (unlike Anthropic's 80% enter
 ## Related
 
 - [[OpenAI]] — parent company
-- [[Claude]] — primary competitor (Anthropic)
-- [[Gemini]] — Google competitor
+- [[Claude]] — primary competitor ([[Anthropic]])
+- [[Gemini]] — [[Google]] competitor
 - [[Sam Altman]] — OpenAI CEO
 - [[Microsoft]] — OpenAI's primary investor/partner
 - [[Clawdbot]] — open-source agent that can use GPT as backend

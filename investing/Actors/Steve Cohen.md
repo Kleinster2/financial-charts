@@ -169,7 +169,7 @@ aliases: [Steven A. Cohen, Steven Cohen]
 
 2. **AI focus** — Turion fund signals institutional appetite for concentrated AI bets.
 
-3. **Pod shop performance** — Point72 outperforming Millennium and Citadel in 2024-2025.
+3. **Pod shop performance** — Point72 outperforming Millennium and [[Citadel]] in 2024-2025.
 
 4. **Mets ownership** — High-profile position; sports franchise as wealth diversification.
 

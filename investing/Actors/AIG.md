@@ -22,7 +22,7 @@ aliases: [American International Group]
 
 | Segment | Description |
 |---------|-------------|
-| **General Insurance** | Commercial P&C, specialty |
+| **General [[Insurance]]** | Commercial P&C, specialty |
 | **Life and Retirement** | Annuities, life (being separated) |
 
 ---

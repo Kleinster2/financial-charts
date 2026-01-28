@@ -13,7 +13,7 @@ aliases: []
 |--------|-------|
 | Born | October 23, 1986 |
 | Birthplace | Bratislava, Slovakia |
-| Education | Stanford PhD (Fei-Fei Li) |
+| Education | [[Stanford]] PhD ([[Fei-Fei Li]]) |
 | Recognition | TIME 100 Most Influential in AI (2024) |
 | Known for | Tesla Autopilot, AI education, coined "[[Vibe coding]]" |
 
@@ -99,7 +99,7 @@ AI to teach AI.
 | YouTube | Full courses |
 | Twitter/X | AI commentary |
 | GitHub | Educational code |
-| Substack | Writing |
+| [[Substack]] | Writing |
 
 ---
 
@@ -111,7 +111,7 @@ AI to teach AI.
 
 - Named Collins Dictionary Word of the Year 2025
 - Sparked $24B market category
-- Enabled [[Lovable]], Cursor, Bolt.new wave
+- Enabled [[Lovable]], [[Cursor]], Bolt.new wave
 - Ironically, Karpathy later admitted his own project was "basically entirely handwritten" when vibe coding didn't work well enough
 
 See [[Vibe coding]] for full market analysis.
@@ -125,8 +125,8 @@ Active investor since leaving OpenAI (2024):
 | Company | Category |
 |---------|----------|
 | [[Perplexity]] | AI search |
-| Lambda Labs | GPU cloud |
-| [[Adept]] | AI agents (→ Amazon) |
+| [[Lambda Labs]] | GPU cloud |
+| [[Adept]] | [[AI agents]] (→ [[Amazon]]) |
 | [[Lamini]] | LLM fine-tuning |
 | [[dev-agents|/dev/agents]] | AI agent infrastructure |
 
@@ -169,8 +169,8 @@ Active investor since leaving OpenAI (2024):
 
 ### Portfolio
 - [[Perplexity]] — AI search
-- [[Adept]] — AI agents (acqui-hired by Amazon)
-- [[Lamini]] — LLM fine-tuning (Andrew Ng connection)
+- [[Adept]] — [[AI agents]] (acqui-hired by [[Amazon]])
+- [[Lamini]] — LLM fine-tuning ([[Andrew Ng]] connection)
 - [[dev-agents|/dev/agents]] — AI agent infrastructure
 
 ### Beneficiaries of vibe coding

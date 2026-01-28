@@ -36,19 +36,19 @@ PayPal is the incumbent digital payments leader:
 
 **Post-pandemic hangover:**
 - COVID pulled forward growth
-- Competition intensified (Apple Pay, Shop Pay)
+- Competition intensified ([[Apple]] Pay, Shop Pay)
 - Checkout button wars (losing share)
 - Venmo monetization slow
 - Activist pressure (Elliott)
 
 ---
 
-## Crypto offering
+## [[Crypto]] offering
 
 **Multi-coin approach:**
 - Buy/sell Bitcoin, Ethereum, others
 - PYUSD stablecoin (launched 2023)
-- Crypto checkout for merchants
+- [[Crypto]] checkout for merchants
 - Less aggressive than [[Block]]
 
 ---
@@ -64,7 +64,7 @@ PayPal is the incumbent digital payments leader:
 - New CEO (Alex Chriss) turnaround
 
 **Bear:**
-- Apple Pay eating share
+- [[Apple]] Pay eating share
 - Checkout competition (Shop Pay, etc.)
 - Venmo still not profitable
 - Growth deceleration
@@ -89,12 +89,12 @@ PayPal is the incumbent digital payments leader:
 ## PayPal Mafia
 
 **Famous alumni:**
-- Elon Musk (Tesla, SpaceX, X)
-- Peter Thiel (Palantir, Founders Fund)
-- Reid Hoffman (LinkedIn)
-- Max Levchin (Affirm)
-- David Sacks (Craft Ventures)
-- Keith Rabois (Khosla)
+- Elon Musk ([[Tesla]], [[SpaceX]], X)
+- [[Peter Thiel]] ([[Palantir]], [[Founders Fund]])
+- [[Reid Hoffman]] (LinkedIn)
+- [[Max Levchin]] ([[Affirm]])
+- [[David Sacks]] ([[Craft Ventures]])
+- [[Keith Rabois]] (Khosla)
 
 PayPal itself no longer has this talent density.
 
@@ -106,7 +106,7 @@ PayPal itself no longer has this talent density.
 |--------|--------|----------|
 | Scale | Larger (430M vs 55M) |  Smaller |
 | Growth | Slower | Faster |
-| Crypto | Multi-coin | Bitcoin-only |
+| [[Crypto]] | Multi-coin | Bitcoin-only |
 | SMB | Braintree | Square |
 | Vision | Broad fintech | Bitcoin maximalist |
 

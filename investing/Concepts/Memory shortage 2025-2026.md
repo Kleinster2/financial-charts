@@ -21,7 +21,7 @@ Severe DRAM/NAND shortage driving prices up — and availability may become the 
 | **HBM wafer allocation** | DRAM wafers converted to HBM → squeezes commodity DRAM |
 | **Cleanroom constraints** | Big 3 can't expand fast enough |
 
-Plus: [[Export controls]] prevent China fabs from expanding.
+Plus: [[Export controls]] prevent [[China]] fabs from expanding.
 
 ---
 
@@ -52,7 +52,7 @@ Memory profits fund other bets (foundry, packaging).
 
 | Player | Why |
 |--------|-----|
-| Consumer electronics OEMs | Higher BoM costs |
+| [[Consumer]] electronics OEMs | Higher BoM costs |
 | PC/smartphone makers | Price increases or spec downgrades |
 | End consumers | Pay more, get less |
 
@@ -73,12 +73,12 @@ Weak consumer electronics demand could ease shortage — but only partially. AI/
 
 ---
 
-## FT/TrendForce data (Jan 2026)
+## FT/[[TrendForce]] data (Jan 2026)
 
 **Pricing:**
-- TrendForce: DRAM prices +50-55% QoQ in Q4 2025
+- [[TrendForce]]: DRAM prices +50-55% QoQ in Q4 2025
 - Samsung raised some chip prices 60%
-- Consumer electronics prices expected to rise 5-20%
+- [[Consumer]] electronics prices expected to rise 5-20%
 
 **Capacity:**
 - Samsung/SK Hynix 2026 orders already exceed capacity
@@ -87,12 +87,12 @@ Weak consumer electronics demand could ease shortage — but only partially. AI/
 
 **Demand:**
 - Big tech AI infra spend: $620B in 2026 (up from $470B in 2025)
-- Morgan Stanley: $2.9T AI datacenter spend by 2028
+- [[Morgan Stanley]]: $2.9T AI datacenter spend by 2028
 - "Panic buying" — buyers scrambling regardless of price
 
 **OEM warnings:**
-- Dell COO: "never seen costs move at the rate" they're rising
-- Lenovo: stockpiling memory chips
+- [[Dell]] COO: "never seen costs move at the rate" they're rising
+- [[Lenovo]]: stockpiling memory chips
 - Raspberry Pi: "painful" cost pressures, raised prices Dec 2025
 - Xiaomi: 2026 supply chain pressures "far greater than" 2025
 
@@ -113,7 +113,7 @@ From Q1 FY26 earnings:
 - DRAM ASP +20% q/q
 - CY26 HBM fully contracted (price AND volume)
 - CY26 industry bit shipment growth ~20% (supply constrained)
-- GM expanding: 56.8% → 68% guided
+- [[GM]] expanding: 56.8% → 68% guided
 - HBM TAM: $35B (2025) → $100B (2028)
 
 This is as strong a confirmation as you'll get — direct from management.
@@ -147,37 +147,37 @@ This compounds with the VEU revocation news — Korea memory in strong position.
 
 | OEM | Nov Forecast | Jan Forecast | Revision |
 |-----|--------------|--------------|----------|
-| Apple | -0.5% | -1% | -0.5pp |
+| [[Apple]] | -0.5% | -1% | -0.5pp |
 | Samsung | -0.5% | -2% | **-1.5pp** |
 | Xiaomi | 0% | -2% | **-2pp** |
-| Vivo | +1% | -1% | **-2pp** |
-| Oppo | +2% | -1% | **-3pp** |
-| Honor | -2% | -4% | **-2pp** |
+| [[Vivo]] | +1% | -1% | **-2pp** |
+| [[Oppo]] | +2% | -1% | **-3pp** |
+| [[Honor]] | -2% | -4% | **-2pp** |
 | Others | +2% | -2% | **-4pp** |
 | **Overall** | +0.5% | -2.1% | **-2.6pp** |
 
-**Takeaway:** Others (-4pp) and Oppo (-3pp) hit hardest. Samsung revised more than Apple (-1.5pp vs -0.5pp) — less margin buffer than expected. Apple best positioned.
+**Takeaway:** Others (-4pp) and [[Oppo]] (-3pp) hit hardest. Samsung revised more than [[Apple]] (-1.5pp vs -0.5pp) — less margin buffer than expected. [[Apple]] best positioned.
 
 **Key dynamics:**
 - AI buildout causing producers to prioritize HBM over commodity DRAM
 - Entry-level smartphones hit hardest (lower margins can't absorb costs)
 - OEM responses: push premium models, reuse old components, downgrade specs
-- Lenovo/Xiaomi already stockpiling memory
-- Nintendo Switch 2 also impacted (shares down most of December)
+- [[Lenovo]]/Xiaomi already stockpiling memory
+- [[Nintendo]] [[Switch]] 2 also impacted (shares down most of December)
 
 **Analyst quote (Counterpoint):**
-> "Apple and Samsung are best-positioned to weather the next few quarters. But it will be tough for others that don't have as much wiggle room to manage market share versus profit margins."
+> "[[Apple]] and Samsung are best-positioned to weather the next few quarters. But it will be tough for others that don't have as much wiggle room to manage market share versus profit margins."
 
 ---
 
-## China OEM forecast cuts (Jan 21, 2026)
+## [[China]] OEM forecast cuts (Jan 21, 2026)
 
 **Concrete unit cuts — memory shortage forcing dramatic revisions:**
 
 | OEM | 2026 forecast cut | Notes |
 |-----|-------------------|-------|
-| **[[Xiaomi]]** | **-70M units** | Largest China smartphone maker |
-| **Transsion** | **-45M units** | Africa/emerging markets leader |
+| **[[Xiaomi]]** | **-70M units** | Largest [[China]] smartphone maker |
+| **Transsion** | **-45M units** | [[Africa]]/emerging markets leader |
 
 **Combined: 115M fewer smartphones** than previously forecast.
 
@@ -211,17 +211,17 @@ Despite expansion, shortage expected to persist through 2027 — capacity takes 
 
 ## Supercycle framing (Jan 2026)
 
-**Wall Street consensus:** This is no longer a temporary shortage — it's a structural supercycle.
+**[[Wall Street consensus]]:** This is no longer a temporary shortage — it's a structural supercycle.
 
 | Analyst | 2026 forecast |
 |---------|---------------|
-| **Bank of America** | "Supercycle similar to 1990s boom" |
+| **[[Bank of America]]** | "Supercycle similar to 1990s boom" |
 | BoA DRAM revenue | **+51% YoY** |
 | BoA NAND revenue | **+45% YoY** |
 | WSTS global semi | **$975B** (+26%) |
 | BoA global semi | **$1T+** (+30%) |
-| IDC | "Unprecedented" shortage, may persist to 2027 |
-| Counterpoint Research | Memory prices +40% through Q2 2026 |
+| [[IDC]] | "Unprecedented" shortage, may persist to 2027 |
+| [[Counterpoint Research]] | Memory prices +40% through Q2 2026 |
 
 **Nov 2025 monthly sales:** $75.3B — all-time record (+29.8% YoY).
 
@@ -234,6 +234,6 @@ Despite expansion, shortage expected to persist through 2027 — capacity takes 
 - [[SK Hynix]] — beneficiary (HBM leader, pricing power)
 - [[Samsung]] — beneficiary (memory margins expand)
 - [[Micron]] — beneficiary (same dynamics)
-- [[Export controls]] — driver (China fabs constrained)
+- [[Export controls]] — driver ([[China]] fabs constrained)
 - [[Memory shortage victims]] — losers (OEMs, consumers)
 - [[HBM]] — cause (HBM cannibalizes commodity DRAM)

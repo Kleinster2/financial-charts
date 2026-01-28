@@ -67,7 +67,7 @@ Solar trackers maximize energy output — essential for utility-scale:
 
 **Indirect beneficiary:**
 - Hyperscaler solar PPAs = tracker demand
-- Amazon, Microsoft, Google, Meta all building
+- [[Amazon]], [[Microsoft]], [[Google]], [[Meta]] all building
 - Every utility-scale project needs trackers
 - Growing with AI power demand
 

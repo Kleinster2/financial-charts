@@ -23,7 +23,7 @@ aliases: [Melvin, Gabriel Plotkin]
 
 | Fact | Detail |
 |------|--------|
-| Background | SAC Capital (Steve Cohen) |
+| Background | SAC Capital ([[Steve Cohen]]) |
 | Style | L/S equity, consumer |
 | Reputation | Top stock picker (pre-2021) |
 | Post-closure | Returned capital |
@@ -35,7 +35,7 @@ aliases: [Melvin, Gabriel Plotkin]
 | Date | Event |
 |------|-------|
 | Jan 2021 | Short GME position |
-| Jan 25-27 | Reddit squeeze begins |
+| Jan 25-27 | [[Reddit]] squeeze begins |
 | Jan 27 | Lost 53% in month |
 | Jan 28 | $2.75B bailout (Citadel, Point72) |
 | 2021 | Down 39% for year |
@@ -70,7 +70,7 @@ Emergency injection to meet margin calls.
 
 | Impact | Detail |
 |--------|--------|
-| Meme stocks | Showed retail power |
+| [[Meme stocks]] | Showed retail power |
 | Short selling | Increased scrutiny |
 | Hedge funds | Highlighted short risks |
 | Congress | Plotkin testified |
@@ -81,7 +81,7 @@ Emergency injection to meet margin calls.
 
 Plotkin has remade himself as a sports executive. Led a group that bought the **Charlotte Hornets** NBA team in 2023. On the Mislaibeled podcast (2025): "At the end of the day, life's pretty good."
 
-His mentor Steve Cohen ([[Point72]]) also landed well — $8.1B casino complex near Citi Field approved Dec 2025.
+His mentor [[Steve Cohen]] ([[Point72]]) also landed well — $8.1B casino complex near Citi Field approved Dec 2025.
 
 *Source: Barron's, Jan 23 2026*
 

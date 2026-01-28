@@ -47,9 +47,9 @@ Second-largest wafer maker, pure-play exposure:
 | Driver | Impact |
 |--------|--------|
 | AI chips | Larger dies = more wafer area |
-| HBM memory | Wafer-intensive |
-| Foundry expansion | TSMC, Samsung, Intel |
-| Mature node growth | Automotive, industrial |
+| [[HBM]] memory | Wafer-intensive |
+| Foundry expansion | TSMC, Samsung, [[Intel]] |
+| Mature node growth | [[Automotive]], industrial |
 
 ---
 

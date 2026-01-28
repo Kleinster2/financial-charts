@@ -11,7 +11,7 @@ aliases: [DDOG]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DDOG (Nasdaq) |
+| Ticker | DDOG ([[Nasdaq]]) |
 | Revenue | **$3.39B** (FY25E) |
 | Q3 2025 revenue | $886M (+28% YoY) |
 | Market cap | ~$55B |
@@ -26,7 +26,7 @@ aliases: [DDOG]
 | AI revenue growth | **253% YoY** |
 | AI % of revenue | **11-12%** (vs 4% year ago) |
 | Top AI customers | 8 of top 10 |
-| AI clients | OpenAI, Anthropic, Cursor, Scale AI, Replit |
+| AI clients | [[OpenAI]], [[Anthropic]], [[Cursor]], [[Scale AI]], Replit |
 
 ---
 
@@ -39,7 +39,7 @@ aliases: [DDOG]
 | Log management | Centralized logging |
 | Security monitoring | Cloud security posture |
 | LLM Observability | AI model monitoring |
-| Bits AI | AI agents for SRE/security |
+| Bits AI | [[AI agents]] for SRE/security |
 
 ---
 
@@ -73,7 +73,7 @@ aliases: [DDOG]
 | AI-native focus | Purpose-built for AI workloads |
 | Land & expand | Strong NRR |
 
-**Competition:** Splunk (Cisco), New Relic, Dynatrace, Elastic.
+**Competition:** Splunk ([[Cisco]]), New Relic, Dynatrace, Elastic.
 
 ---
 
@@ -109,7 +109,7 @@ aliases: [DDOG]
 | Metric | Value |
 |--------|-------|
 | Ticker | DDOG |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Revenue | ~$3.4B |
 | Focus | Observability |
 

@@ -3,7 +3,7 @@ aliases: [Revolut Ltd]
 ---
 #actor #fintech #neobank #uk #private
 
-**Revolut** — UK neobank. $75B valuation. 65M customers. IPO expected 2026.
+**Revolut** — [[UK]] neobank. $75B valuation. 65M customers. IPO expected 2026.
 
 ---
 
@@ -29,7 +29,7 @@ aliases: [Revolut Ltd]
 | Detail | Value |
 |--------|-------|
 | Born | July 21, 1984 |
-| From | Dolgoprudny, Russia |
+| From | Dolgoprudny, [[Russia]] |
 | Education | Moscow Institute of Physics (MS), New Economic School (MS Economics) |
 | Previous | Lehman Brothers, Credit Suisse (equity derivatives trader) |
 | Initial investment | £300,000 personal savings |
@@ -42,10 +42,10 @@ aliases: [Revolut Ltd]
 
 | Detail | Value |
 |--------|-------|
-| Born | 1983, East Germany |
+| Born | 1983, East [[Germany]] |
 | Heritage | Ukrainian parents |
 | Education | National University of Kyiv-Mohyla Academy (MS Computer Science) |
-| Previous | UBS, Deutsche Bank, Credit Suisse (financial software) |
+| Previous | [[UBS]], [[Deutsche Bank]], Credit Suisse (financial software) |
 | Citizenship | British-Ukrainian |
 
 ### Martin Gilbert (Chairman)
@@ -54,7 +54,7 @@ aliases: [Revolut Ltd]
 |--------|-------|
 | Role | Chairman (since 2019) |
 | Previous | Founder/CEO, Aberdeen Asset Management |
-| Residence | Swiss permit (Zug), UK tax resident |
+| Residence | Swiss permit (Zug), [[UK]] tax resident |
 
 ---
 
@@ -89,14 +89,14 @@ aliases: [Revolut Ltd]
 |---------|-------------|
 | **Multi-currency account** | Core product, fair FX rates |
 | **Cards** | Debit, virtual, metal cards |
-| **Crypto** | Buy/sell crypto |
+| **[[Crypto]]** | Buy/sell crypto |
 | **Stock trading** | Commission-free |
 | **Savings** | Interest-bearing accounts |
-| **Insurance** | Travel, device protection |
+| **[[Insurance]]** | [[Travel]], device protection |
 | **Business accounts** | SMB banking |
 | **Revolut Pay** | Checkout solution |
 
-**Coming (with UK banking license):**
+**Coming (with [[UK]] banking license):**
 - Loans
 - Overdrafts
 - Mortgages
@@ -113,18 +113,18 @@ aliases: [Revolut Ltd]
 
 | Jurisdiction | Status | Date |
 |--------------|--------|------|
-| **UK** | Restricted license | July 2024 |
-| EU (Lithuania) | Full license | 2018 |
-| **Switzerland** | Seeking full license | Jan 2026 |
-| Australia | License | Operating |
-| Mexico | License | 2025 |
+| **[[UK]]** | Restricted license | July 2024 |
+| [[EU]] (Lithuania) | Full license | 2018 |
+| **[[Switzerland]]** | Seeking full license | Jan 2026 |
+| [[Australia]] | License | Operating |
+| [[Mexico]] | License | 2025 |
 | US | — | Operating (partner bank model) |
-| India | Launched | October 2025 |
+| [[India]] | Launched | October 2025 |
 | Colombia | Launching | 2026 |
 
-**Switzerland:** Currently operates via Lithuanian license (cards, payments, accounts, trading). Established Revolut Swiss NewCo SA (Jan 2026). Seeking full Swiss banking license.
+**[[Switzerland]]:** Currently operates via Lithuanian license (cards, payments, accounts, trading). Established Revolut Swiss NewCo SA (Jan 2026). Seeking full Swiss banking license.
 
-**UK banking license:** 3-year application process. Still building out full banking operations (~12 months), then will transfer users to new banking entity.
+**[[UK]] banking license:** 3-year application process. Still building out full banking operations (~12 months), then will transfer users to new banking entity.
 
 ---
 
@@ -132,9 +132,9 @@ aliases: [Revolut Ltd]
 
 | Region | Markets |
 |--------|---------|
-| Europe | UK, EU (30+ countries) |
-| Americas | US, Brazil, Mexico, Colombia (2026) |
-| Asia-Pacific | Australia, Japan, New Zealand, Singapore, India |
+| [[Europe]] | [[UK]], [[EU]] (30+ countries) |
+| Americas | US, [[Brazil]], [[Mexico]], Colombia (2026) |
+| [[Asia]]-Pacific | [[Australia]], [[Japan]], New Zealand, Singapore, [[India]] |
 
 ---
 
@@ -145,10 +145,10 @@ aliases: [Revolut Ltd]
 | Expected | **2026** |
 | Listing | Likely **NYSE** (prefers US over London) |
 | Valuation target | ~$75B+ |
-| UK government | Actively courting for London listing |
+| [[UK]] government | Actively courting for London listing |
 
 **Why delay?**
-- Waiting for full UK banking license activation
+- Waiting for full [[UK]] banking license activation
 - Strong private funding ($3B raise) reduces urgency
 - Flexibility to scale without quarterly earnings scrutiny
 
@@ -158,11 +158,11 @@ aliases: [Revolut Ltd]
 
 | Company | Valuation | Customers | HQ |
 |---------|-----------|-----------|-----|
-| **Revolut** | $75B | 65M | UK |
-| Nubank | ~$45B (public) | 100M+ | Brazil |
-| Chime | ~$25B | 22M | US |
-| N26 | ~$9B | 8M | Germany |
-| Monzo | ~$5B | 9M | UK |
+| **Revolut** | $75B | 65M | [[UK]] |
+| Nubank | ~$45B (public) | 100M+ | [[Brazil]] |
+| [[Chime]] | ~$25B | 22M | US |
+| N26 | ~$9B | 8M | [[Germany]] |
+| Monzo | ~$5B | 9M | [[UK]] |
 
 **Revolut advantage:** Profitability, global scale, product breadth.
 
@@ -173,14 +173,14 @@ aliases: [Revolut Ltd]
 **Bull:**
 - **$75B and profitable** — rare fintech combination
 - 72% revenue growth at scale
-- UK banking license unlocks lending
+- [[UK]] banking license unlocks lending
 - 65M customers, adding 1M/17 days
 - IPO catalyst in 2026
-- Global expansion (India, LATAM)
+- Global expansion ([[India]], [[LATAM]])
 
 **Bear:**
 - Private — no direct investment yet
-- UK banking license still restricted
+- [[UK]] banking license still restricted
 - Regulatory scrutiny (compliance history)
 - Competition from traditional banks
 - FX revenue sensitivity
@@ -192,8 +192,8 @@ aliases: [Revolut Ltd]
 | Risk | Detail |
 |------|--------|
 | **Regulatory** | Past compliance issues, AML scrutiny |
-| **UK license** | Full activation still pending |
-| **Competition** | Banks improving digital offerings |
+| **[[UK]] license** | Full activation still pending |
+| **Competition** | [[Banks]] improving digital offerings |
 | **Founder** | Storonsky's management style criticized |
 | **Macro** | FX volumes tied to travel/trade |
 
@@ -213,7 +213,7 @@ aliases: [Revolut Ltd]
 
 ## Related
 
-- [[Nubank]] — LATAM neobank competitor
+- [[Nubank]] — [[LATAM]] neobank competitor
 - [[JPMorgan Chase]] — traditional bank competitor
 - [[Stripe]] — fintech peer
 

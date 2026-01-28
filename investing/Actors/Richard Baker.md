@@ -25,7 +25,7 @@ aliases: [Baker]
 | 2006 | Acquired Lord & Taylor | — | Later sold/closed |
 | 2008 | Acquired HBC | — | Took private 2020 |
 | 2013 | Acquired Saks Fifth Avenue | $2.9B | Core asset |
-| 2015 | Acquired Kaufhof (Germany) | — | Divested |
+| 2015 | Acquired Kaufhof ([[Germany]]) | — | Divested |
 | 2020 | Took HBC private | — | Full control |
 | 2024 | [[Saks-Neiman merger]] | $2.7B | Led to bankruptcy |
 
@@ -74,7 +74,7 @@ Baker **originated** a new $1.25B mortgage in November 2014 — this was new deb
 | Collateral | **Ground + [[ground lease]] only** (NOT the building) |
 | Term | 20-year, interest-only |
 | Rate | Fixed, <4.40% |
-| Lenders | BofA, Morgan Stanley, Goldman Sachs, Bank of Nova Scotia |
+| Lenders | BofA, [[Morgan Stanley]], [[Goldman Sachs]], [[Bank of Nova Scotia]] |
 
 **Use of proceeds:** Paid down $1.2B of HBC's floating-rate term loan (4.75%, maturing 2020). Essentially swapped expensive corporate debt for cheap real estate-secured debt.
 

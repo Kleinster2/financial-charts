@@ -43,7 +43,7 @@ Pioneered open-source generative AI but struggled to monetize.
 | CEO departure | Emad Mostaque stepped down (Mar 2024) |
 | Layoffs | Multiple rounds, 10%+ workforce cuts |
 | Funding struggles | Difficulty raising at prior valuation |
-| Competition | Midjourney, DALL-E, Adobe Firefly |
+| Competition | Midjourney, DALL-E, [[Adobe]] Firefly |
 | Monetization | Open-source = hard to capture value |
 
 ---
@@ -66,10 +66,10 @@ Open-source built adoption but not revenue.
 | Player | Model | Approach |
 |--------|-------|----------|
 | **Stability AI** | Stable Diffusion | Open-source |
-| Midjourney | Midjourney | Closed, Discord |
-| OpenAI | DALL-E | API, ChatGPT |
-| Adobe | Firefly | Enterprise, integrated |
-| Google | Imagen | Limited release |
+| Midjourney | Midjourney | Closed, [[Discord]] |
+| OpenAI | DALL-E | API, [[ChatGPT]] |
+| [[Adobe]] | Firefly | Enterprise, integrated |
+| [[Google]] | Imagen | Limited release |
 
 ---
 

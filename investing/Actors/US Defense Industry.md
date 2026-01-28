@@ -24,11 +24,11 @@ aliases: [American defense industry, US defense contractors, US MIC]
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| Huntington Ingalls | HII | Shipbuilding (carriers, subs) |
+| [[Huntington Ingalls]] | HII | Shipbuilding (carriers, subs) |
 | Leidos | LDOS | IT, cyber, health |
 | Booz Allen | BAH | Consulting, cyber |
-| Kratos | KTOS | Drones, hypersonics |
-| Olin | OLN | Ammunition |
+| [[Kratos]] | KTOS | [[Drones]], hypersonics |
+| [[Olin]] | OLN | Ammunition |
 
 ### New entrants
 
@@ -37,7 +37,7 @@ aliases: [American defense industry, US defense contractors, US MIC]
 | [[Anduril]] | Private ~$14B | Autonomous systems, AI |
 | [[Palantir]] | PLTR ~$180B | AI analytics |
 | [[Shield AI]] | Private | Autonomous aircraft |
-| SpaceX | Private | Launch, Starlink |
+| [[SpaceX]] | Private | Launch, [[Starlink]] |
 
 ---
 
@@ -73,10 +73,10 @@ US is world's largest arms exporter (~40% global share).
 | Customer | Key sales |
 |----------|-----------|
 | Saudi Arabia | F-15, missiles, naval |
-| Japan | F-35, Aegis, Patriot |
-| Australia | F-35, submarines (AUKUS) |
+| [[Japan]] | F-35, Aegis, Patriot |
+| [[Australia]] | F-35, submarines ([[AUKUS]]) |
 | Israel | F-35, Iron Dome support |
-| Taiwan | F-16V, missiles |
+| [[Taiwan]] | F-16V, missiles |
 | Poland | F-35, HIMARS, Abrams |
 
 Foreign Military Sales (FMS) = higher margins than domestic.

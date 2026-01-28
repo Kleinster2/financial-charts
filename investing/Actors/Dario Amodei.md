@@ -13,7 +13,7 @@ Dario leads the "safety-first" AI lab that's become a serious OpenAI competitor:
 | Anthropic CEO | #2 or #3 AI lab |
 | Ex-OpenAI | Left over safety disagreements |
 | Amazon partnership | $4B+ investment |
-| Claude | Competing with GPT, Gemini |
+| [[Claude]] | Competing with GPT, [[Gemini]] |
 
 ---
 
@@ -40,12 +40,12 @@ See [[Anthropic]] for company details.
 - "Constitutional AI" — safety through principles
 - More cautious public communications than OpenAI
 - Enterprise focus (less consumer splash)
-- Claude positioned as "safer" alternative
+- [[Claude]] positioned as "safer" alternative
 
 **Fundraising under Amodei:**
 - Google: $2B+
 - Amazon: $4B
-- Salesforce, Spark, various VCs
+- [[Salesforce]], Spark, various VCs
 - Valuation: $60B+ (Dec 2024)
 
 ---
@@ -55,9 +55,9 @@ See [[Anthropic]] for company details.
 **$4B investment** — largest Anthropic backer.
 
 **What Amazon gets:**
-- Claude on AWS Bedrock
+- [[Claude]] on AWS Bedrock
 - Anthropic uses AWS Trainium chips
-- Alternative to Microsoft/OpenAI
+- Alternative to [[Microsoft]]/OpenAI
 
 **Tension:** Anthropic also takes Google money — playing hyperscalers against each other.
 
@@ -93,18 +93,18 @@ See [[Anthropic]] for company details.
 **Sister and Anthropic President:**
 - Handles business/operations
 - Dario focuses on research/product
-- Sibling co-founder dynamic (like Collison brothers at Stripe)
+- Sibling co-founder dynamic (like Collison brothers at [[Stripe]])
 
 ---
 
 ## Competitive position
 
-**Claude vs GPT vs Gemini:**
-- Claude: Safety reputation, enterprise focus
-- GPT: Consumer mindshare, Microsoft distribution
-- Gemini: Google integration, multimodal
+**[[Claude]] vs GPT vs [[Gemini]]:**
+- [[Claude]]: Safety reputation, enterprise focus
+- GPT: [[Consumer]] mindshare, [[Microsoft]] distribution
+- [[Gemini]]: Google integration, multimodal
 
-**Coding tools:** Claude Code gaining share (24% per CB Insights vs GitHub Copilot 24.9%)
+**Coding tools:** [[Claude]] Code gaining share (24% per CB Insights vs GitHub Copilot 24.9%)
 
 ---
 

@@ -68,7 +68,7 @@
 | Mandate | Implicit | Explicit price stability mandate |
 | Board | Changed with government | Staggered terms |
 
-**Why it passed:** Dilma's "New Economic Matrix" (2011-16) destroyed credibility, caused 10.7% inflation, contributed to impeachment. Cross-party consensus that CB needed protection from political pressure.
+**Why it passed:** Dilma's "New Economic [[Matrix]]" (2011-16) destroyed credibility, caused 10.7% inflation, contributed to impeachment. Cross-party consensus that CB needed protection from political pressure.
 
 **K-P mechanism:** Fixed terms = commitment device. President can't fire hawkish governor → markets believe inflation target → expectations anchor → lower actual inflation.
 
@@ -105,9 +105,9 @@
 
 ---
 
-## Inflation performance
+## [[Inflation]] performance
 
-| Year | IPCA (actual) | Target | Above/below |
+| Year | IPCA (actual) | [[Target]] | Above/below |
 |------|---------------|--------|-------------|
 | 2020 | 4.5% | 4.0% | +0.5pp |
 | 2021 | 10.1% | 3.75% | +6.3pp (miss) |
@@ -135,7 +135,7 @@ Brazil demonstrates both K-P violation and vindication:
 |---------|--------|
 | Action | Replaced entire board, cut rates despite above-target expectations |
 | Selic | 12.25% → 7.25% (2011-12) |
-| Result | Inflation doubled (5.9% → 10.7%), credibility destroyed |
+| Result | [[Inflation]] doubled (5.9% → 10.7%), credibility destroyed |
 | Fix | Rates to 14.25%, Dilma impeached, Temer reforms |
 
 See [[Time consistency#Brazil 2011-2016 — Dilma Rousseff]]
@@ -157,7 +157,7 @@ See [[Time consistency#Brazil 2011-2016 — Dilma Rousseff]]
 
 | Challenge | Detail |
 |-----------|--------|
-| Inflation above target | 5.53% vs 3.0% target |
+| [[Inflation]] above target | 5.53% vs 3.0% target |
 | Expectations unanchored | 4.4% for 2025, 4.2% for 2026 (above target) |
 | Real weakness | Down 27% in 2024 |
 | Fiscal concerns | Lula spending pressures |

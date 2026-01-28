@@ -16,7 +16,7 @@ Biggest company in humanoid race:
 | Parent | [[Tesla]] (TSLA) |
 | Announced | 2021 (AI Day) |
 | Status | Development/pilot |
-| Target price | <$20K |
+| [[Target]] price | <$20K |
 | Elon's claim | "More valuable than cars" |
 
 ---
@@ -170,7 +170,7 @@ Can Tesla out-manufacture startups?
 ## Valuation debate
 
 **If Optimus works:**
-- Morgan Stanley: +$10T addressable market
+- [[Morgan Stanley]]: +$10T addressable market
 - ARK: Optimus could be worth >$10/TSLA share
 - Bears: Vapor until proven
 
@@ -182,7 +182,7 @@ Can Tesla out-manufacture startups?
 |--------|-------|
 | Ticker | TSLA (parent) |
 | Robot | Optimus Gen 2 |
-| Target price | <$20K |
+| [[Target]] price | <$20K |
 | Status | Development |
 
 *Updated 2026-01-04*
@@ -197,5 +197,5 @@ Can Tesla out-manufacture startups?
 - [[Agility Robotics]] — competitor (Digit robot)
 - [[Boston Dynamics]] — competitor (Atlas)
 - [[1X Technologies]] — competitor (humanoid)
-- [[Unitree]] — competitor (China, lower cost)
+- [[Unitree]] — competitor ([[China]], lower cost)
 

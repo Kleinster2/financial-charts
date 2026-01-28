@@ -31,10 +31,10 @@ Appen shows what happens when a picks-and-shovels play gets disrupted:
 - Enterprise customers
 
 **Key customers (historical):**
-- Google (was ~30% of revenue)
-- Meta
-- Microsoft
-- Amazon
+- [[Google]] (was ~30% of revenue)
+- [[Meta]]
+- [[Microsoft]]
+- [[Amazon]]
 
 ---
 
@@ -42,7 +42,7 @@ Appen shows what happens when a picks-and-shovels play gets disrupted:
 
 | Factor | Impact |
 |--------|--------|
-| Customer concentration | Google cut spending |
+| Customer concentration | [[Google]] cut spending |
 | [[Scale AI]] competition | Better tech, better margins |
 | Crowd quality issues | Inconsistent outputs |
 | AI efficiency gains | Customers need less data |
@@ -71,7 +71,7 @@ Scale AI invested in tooling and quality. Appen stayed a labor marketplace.
 | Metric | Value |
 |--------|-------|
 | Ticker | APX (ASX) |
-| HQ | Sydney, Australia |
+| HQ | Sydney, [[Australia]] |
 | Market cap | ~$300M AUD |
 | Status | Restructuring |
 

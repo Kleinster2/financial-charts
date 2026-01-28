@@ -3,7 +3,7 @@ aliases: [Alianza del Pacífico]
 ---
 #concept #trade #latam #pacific
 
-**Pacific Alliance** — Latin American trade bloc of Pacific-facing economies. Chile, Colombia, Mexico, Peru. Deep integration, pro-trade orientation.
+**Pacific Alliance** — Latin American trade bloc of Pacific-facing economies. [[Chile]], Colombia, [[Mexico]], Peru. Deep integration, pro-trade orientation.
 
 ---
 
@@ -24,9 +24,9 @@ aliases: [Alianza del Pacífico]
 
 | Country | Population | GDP | Key sectors |
 |---------|------------|-----|-------------|
-| **Mexico** | 130M | $1.3T | Manufacturing, autos |
-| **Colombia** | 52M | $340B | Oil, commodities |
-| **Chile** | 19M | $300B | Copper, lithium |
+| **[[Mexico]]** | 130M | $1.3T | Manufacturing, autos |
+| **Colombia** | 52M | $340B | [[Oil]], commodities |
+| **[[Chile]]** | 19M | $300B | [[Copper]], lithium |
 | **Peru** | 34M | $240B | Mining, agriculture |
 
 **Common traits:** Pacific coast, open economies, pro-business.
@@ -42,16 +42,16 @@ aliases: [Alianza del Pacífico]
 | Tariffs | 92% eliminated |
 | Services | Liberalized |
 | Investment | Free flow |
-| Labor mobility | Visa-free travel |
+| Labor mobility | [[Visa]]-free travel |
 | Stock exchange | Integrated (MILA) |
 
 ### MILA (stock exchange integration)
 
 | Exchange | Countries |
 |----------|-----------|
-| Bolsa Mexicana | Mexico |
+| Bolsa Mexicana | [[Mexico]] |
 | BVC | Colombia |
-| Bolsa de Santiago | Chile |
+| Bolsa de Santiago | [[Chile]] |
 | BVL | Peru |
 
 Integrated trading platform — unique for emerging markets.
@@ -74,10 +74,10 @@ Integrated trading platform — unique for emerging markets.
 | Partner | Members with FTA |
 |---------|------------------|
 | US | All 4 |
-| EU | All 4 |
-| China | Chile, Peru |
-| Japan | All 4 |
-| CPTPP | Chile, Mexico, Peru |
+| [[EU]] | All 4 |
+| [[China]] | [[Chile]], Peru |
+| [[Japan]] | All 4 |
+| CPTPP | [[Chile]], [[Mexico]], Peru |
 
 **Most open LatAm economies** — all have extensive FTA networks.
 
@@ -86,15 +86,15 @@ Integrated trading platform — unique for emerging markets.
 | Flow | Characteristics |
 |------|-----------------|
 | Intra-PA | Limited (similar exports) |
-| PA → Asia | Growing (Pacific focus) |
-| PA → US | Strong (especially Mexico) |
-| PA → EU | Significant |
+| PA → [[Asia]] | Growing (Pacific focus) |
+| PA → US | Strong (especially [[Mexico]]) |
+| PA → [[EU]] | Significant |
 
 ---
 
-## vs Mercosur
+## vs [[Mercosur]]
 
-| Dimension | Pacific Alliance | Mercosur |
+| Dimension | Pacific Alliance | [[Mercosur]] |
 |-----------|------------------|----------|
 | Orientation | Free trade | Protectionist |
 | Members | 4 | 4 |
@@ -104,7 +104,7 @@ Integrated trading platform — unique for emerging markets.
 | Politics | Pro-business | Mixed |
 | CPTPP | 3 members | 0 |
 
-**Two Latin Americas:** Pacific Alliance (open) vs Mercosur (closed).
+**Two Latin Americas:** Pacific Alliance (open) vs [[Mercosur]] (closed).
 
 ---
 
@@ -115,9 +115,9 @@ Integrated trading platform — unique for emerging markets.
 | **Ecuador** | Associate candidate |
 | **Costa Rica** | Observer, interested |
 | **Panama** | Observer |
-| **Canada** | Associate member |
+| **[[Canada]]** | Associate member |
 | **Singapore** | Associate member |
-| **Australia** | Associate member |
+| **[[Australia]]** | Associate member |
 | **New Zealand** | Associate member |
 
 ---
@@ -130,17 +130,17 @@ Integrated trading platform — unique for emerging markets.
 |-------|------------|
 | Mexican nearshoring | [[Nearshoring thesis]] |
 | Chilean lithium | [[SQM]], [[Albemarle]] |
-| Peruvian copper | Freeport, BHP |
-| Colombian recovery | Banks, energy |
+| Peruvian copper | Freeport, [[BHP]] |
+| Colombian recovery | [[Banks]], energy |
 
 ### Key companies
 
 | Company | Country | Sector |
 |---------|---------|--------|
-| América Móvil | Mexico | Telecom |
-| Grupo Bimbo | Mexico | Consumer |
-| [[SQM]] | Chile | Lithium |
-| Falabella | Chile | Retail |
+| [[América Móvil]] | [[Mexico]] | [[Telecom]] |
+| Grupo Bimbo | [[Mexico]] | [[Consumer]] |
+| [[SQM]] | [[Chile]] | [[Lithium]] |
+| Falabella | [[Chile]] | Retail |
 | Credicorp | Peru | Finance |
 | Bancolombia | Colombia | Finance |
 
@@ -158,10 +158,10 @@ Integrated trading platform — unique for emerging markets.
 
 | Challenge | Issue |
 |-----------|-------|
-| **Mexico dominance** | 65%+ of bloc GDP |
+| **[[Mexico]] dominance** | 65%+ of bloc GDP |
 | **Similar exports** | All commodity-heavy |
 | **Political shifts** | AMLO less enthusiastic |
-| **Mercosur pull** | Some want convergence |
+| **[[Mercosur]] pull** | Some want convergence |
 
 ---
 
@@ -170,7 +170,7 @@ Integrated trading platform — unique for emerging markets.
 - [[Trade Agreements]] — comparisons hub
 - [[Trade]] — policy hub
 - [[LATAM]] — regional hub
-- [[Nearshoring thesis]] — Mexico opportunity
+- [[Nearshoring thesis]] — [[Mexico]] opportunity
 - [[CPTPP]] — overlapping membership
 - [[EU-Mercosur agreement]] — contrast
 - [[SQM]] — Chilean lithium

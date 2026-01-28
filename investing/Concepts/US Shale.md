@@ -24,8 +24,8 @@
 
 | Basin | Location | Profile |
 |-------|----------|---------|
-| Permian | Texas/New Mexico | Largest, most active |
-| Eagle Ford | South Texas | Mature, oil-weighted |
+| Permian | Texas/New [[Mexico]] | Largest, most active |
+| Eagle [[Ford]] | South Texas | Mature, oil-weighted |
 | Bakken | North Dakota | Mature, decline phase |
 | DJ Basin | Colorado | Gas-weighted |
 | Anadarko | Oklahoma | Mature |
@@ -77,7 +77,7 @@
 
 ---
 
-## Shale vs Venezuela rebuild
+## Shale vs [[Venezuela]] rebuild
 
 | Factor | US Shale | [[Venezuela oil rebuild]] |
 |--------|----------|---------------------------|
@@ -87,7 +87,7 @@
 | Decline | 30-40%/year | Low (conventional) |
 | Politics | Stable | Uncertain |
 
-**If Venezuela succeeds:** Adds supply, could pressure shale economics.
+**If [[Venezuela]] succeeds:** Adds supply, could pressure shale economics.
 
 ---
 

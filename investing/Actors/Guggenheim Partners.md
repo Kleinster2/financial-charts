@@ -31,7 +31,7 @@ aliases: [Guggenheim, Guggenheim Securities]
 **Business lines:**
 - **Guggenheim Investments** — Asset management ($249B AUM + $108B AUS)
 - **Guggenheim Securities** — Investment banking, advisory, capital markets
-- **Insurance** — Life and annuity platforms
+- **[[Insurance]]** — Life and annuity platforms
 
 ---
 
@@ -63,11 +63,11 @@ aliases: [Guggenheim, Guggenheim Securities]
 | Avg return | 17.8% per trade |
 | Best call | ARM +174% (Oct 2023-2024) |
 
-**Coverage:** Oracle, Workday, ServiceNow, Snowflake, RingCentral, ~88 stocks.
+**Coverage:** Oracle, [[Workday]], [[ServiceNow]], [[Snowflake]], RingCentral, ~88 stocks.
 
 **Notable calls:**
 - **Oracle $400 PT** (Jan 2026) — "decade stock," $290B capex thesis
-- Microsoft sell call — bearish on cloud margins
+- [[Microsoft]] sell call — bearish on cloud margins
 
 See [[Oracle]] for the full DiFucci thesis.
 
@@ -78,7 +78,7 @@ See [[Oracle]] for the full DiFucci thesis.
 **Restructuring dominance:** $4T+ liabilities restructured — one of the top franchises alongside Houlihan Lokey.
 
 **Recent advisory (2024-2025):**
-- Gilead/CymaBay ($4.3B) — sell-side advisor
+- [[Gilead]]/CymaBay ($4.3B) — sell-side advisor
 - Insight Sourcing/Accenture
 - Various healthcare capital raises (Phathom, Verastem, Olema)
 

@@ -36,7 +36,7 @@ aliases: [CHKP, Check Point Software]
 
 **Banned by Beijing** — China instructed companies to stop using Check Point products and replace with domestic alternatives by H1 2026.
 
-**Other Israeli firms banned:** CyberArk, Orca Security, Cato Networks, Imperva (Thales)
+**Other Israeli firms banned:** CyberArk, Orca Security, Cato Networks, Imperva ([[Thales]])
 
 **Rationale:** Beijing fears Western cybersecurity software could collect and transmit confidential information abroad.
 

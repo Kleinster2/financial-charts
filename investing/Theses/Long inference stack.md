@@ -20,11 +20,11 @@
 
 | Layer | Function | Beneficiaries |
 |-------|----------|---------------|
-| **Prefill silicon** | Prompt processing | [[NVIDIA]], Google TPU |
+| **Prefill silicon** | Prompt processing | [[NVIDIA]], [[Google]] TPU |
 | **Decode silicon** | Token generation | [[Groq]], [[Cerebras]], [[Etched]], Rubin SRAM |
 | **Edge Inference** | On-device processing | [[Arm Holdings]], [[Qualcomm]], [[Apple]] |
 | **Interconnect** | Chip-to-chip data movement | NVIDIA (NVLink), [[Broadcom]], [[Lightmatter]] |
-| **Memory** | HBM for prefill, SRAM for decode | [[SK Hynix]], [[Samsung]], [[Micron]] |
+| **Memory** | [[HBM]] for prefill, SRAM for decode | [[SK Hynix]], [[Samsung]], [[Micron]] |
 | **Networking** | Rack-to-rack | NVIDIA, [[Arista Networks]] |
 | **Storage** | Context caching | WEKA, VAST Data |
 | **Cooling** | Thermal management | [[Vertiv]], [[Modine Manufacturing]] |
@@ -66,11 +66,11 @@ Users will pay more for faster inference:
 
 Inference at scale is an energy problem. General-purpose GPUs are power-hungry. Specialized chips offer 10x better tokens-per-watt.
 
-| Architecture | Efficiency | Trade-off |
+| Architecture | Efficiency | [[Trade]]-off |
 |--------------|------------|-----------|
 | **GPU (NVIDIA)** | Low | Maximum flexibility (runs anything) |
 | **LPU (Groq)** | High | Deterministic, limited memory |
-| **ASIC (Etched)** | Extreme | Zero flexibility (Transformer only) |
+| **ASIC (Etched)** | Extreme | Zero flexibility ([[Transformer]] only) |
 
 **Thesis Link:** [[Power constraints]] forces data centers to adopt specialized silicon for high-volume inference to stay within power envelopes.
 
@@ -81,7 +81,7 @@ Inference at scale is an energy problem. General-purpose GPUs are power-hungry. 
 - [ ] Inference becomes >50% of AI compute spend
 - [ ] Prefill/decode pricing diverges
 - [ ] Interconnect revenue grows faster than silicon
-- [ ] Memory shortage extends (HBM + SRAM)
+- [ ] Memory shortage extends ([[HBM]] + SRAM)
 - [ ] Agentic AI adoption accelerates
 
 ---
@@ -95,7 +95,7 @@ Inference at scale is an energy problem. General-purpose GPUs are power-hungry. 
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 This is a basket thesis — multiple exposures:
 
@@ -112,7 +112,7 @@ This is a basket thesis — multiple exposures:
 
 **[[Long NVIDIA]]**: Platform owner benefits most from disaggregation.
 
-**[[Long memory]]**: HBM for prefill, memory bandwidth critical.
+**[[Long memory]]**: [[HBM]] for prefill, memory bandwidth critical.
 
 **[[Long Broadcom]]**: Interconnect and networking layer.
 
@@ -133,11 +133,11 @@ This is a basket thesis — multiple exposures:
 
 - [[Inference disaggregation]] — mechanism (prefill/decode split)
 - [[Long NVIDIA]] — component (platform benefits most)
-- [[Long memory]] — component (HBM for prefill, memory bandwidth critical)
+- [[Long memory]] — component ([[HBM]] for prefill, memory bandwidth critical)
 - [[Long Broadcom]] — component (interconnect, networking)
 - [[Agentic AI]] — driver (decode-heavy use case)
-- [[SK Hynix]] — beneficiary (HBM leader)
-- [[Etched]] — ASIC challenger (Transformer only)
+- [[SK Hynix]] — beneficiary ([[HBM]] leader)
+- [[Etched]] — ASIC challenger ([[Transformer]] only)
 - [[Arm Holdings]] — edge inference architecture
 - [[Qualcomm]] — edge inference chips
 - [[Vertiv]] — beneficiary (cooling infrastructure)

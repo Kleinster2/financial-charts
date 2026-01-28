@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**Unconventional AI** — Brain-inspired chips (not GPUs). a16z $475M bet. Naveen Rao (ex-Databricks). Raising $1B.
+**Unconventional AI** — Brain-inspired chips (not GPUs). a16z $475M bet. Naveen Rao (ex-[[Databricks]]). Raising $1B.
 
 ---
 
@@ -15,7 +15,7 @@ Biggest bet on post-GPU AI compute:
 |--------|-------|
 | a16z investment | $475M |
 | Total raise | Up to $1B |
-| Founder | Naveen Rao (ex-Databricks VP AI) |
+| Founder | Naveen Rao (ex-[[Databricks]] VP AI) |
 | Thesis | Neuromorphic/analog, not GPUs |
 
 ---
@@ -35,7 +35,7 @@ Biggest bet on post-GPU AI compute:
 ## Naveen Rao background
 
 **Credibility:**
-- VP of AI at Databricks
+- VP of AI at [[Databricks]]
 - Founded Nervana Systems (sold to Intel)
 - Deep neural network architecture expertise
 - Knows what's wrong with current approach
@@ -51,9 +51,9 @@ Biggest bet on post-GPU AI compute:
 | [[Lux Capital]] | Part of $1B |
 | Future Ventures | Part of $1B |
 | ROC Venture Group | Part of $1B |
-| Jeff Bezos | Part of $1B |
+| [[Jeff Bezos]] | Part of $1B |
 
-**Signal:** Top deep tech VCs + Bezos = serious.
+**[[Signal]]:** Top deep tech VCs + Bezos = serious.
 
 ---
 
@@ -65,7 +65,7 @@ Biggest bet on post-GPU AI compute:
 - Sparse activation (like neurons)
 - Event-driven processing
 
-**Not new concept:** Intel Loihi, IBM TrueNorth tried before. Unconventional claims breakthrough.
+**Not new concept:** Intel Loihi, [[IBM]] TrueNorth tried before. Unconventional claims breakthrough.
 
 ---
 
@@ -74,7 +74,7 @@ Biggest bet on post-GPU AI compute:
 | Approach | Players |
 |----------|---------|
 | GPUs | [[NVIDIA]], [[AMD]] |
-| TPUs/ASICs | Google, [[Broadcom]] |
+| TPUs/ASICs | [[Google]], [[Broadcom]] |
 | Neuromorphic | **Unconventional**, Intel Loihi |
 | Analog | Mythic, others |
 

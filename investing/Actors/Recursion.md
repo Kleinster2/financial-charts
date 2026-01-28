@@ -3,7 +3,7 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 ---
 #actor #biotech #ai #drugdiscovery #usa #public
 
-**Recursion** — Largest AI biotech. Merged with Exscientia ($688M). 60PB proprietary data. Roche, Bayer partnerships.
+**Recursion** — Largest AI biotech. Merged with Exscientia ($688M). 60PB proprietary data. [[Roche]], Bayer partnerships.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | RXRX (Nasdaq) |
+| Ticker | RXRX ([[Nasdaq]]) |
 | Exscientia merger | **$688M** (2024) |
 | Data library | **60+ petabytes** |
 | Cash runway | ~$850M (to 2027) |
@@ -39,7 +39,7 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 | Capability | Description |
 |------------|-------------|
 | Phenomics | Cellular imaging at scale |
-| Genomics | CRISPR screening |
+| [[Genomics]] | CRISPR screening |
 | Transcriptomics | Gene expression |
 | Chemistry | Generative design (via Exscientia) |
 | Data | 60+ PB proprietary dataset |
@@ -52,10 +52,10 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 
 | Partner | Focus | Status |
 |---------|-------|--------|
-| **Roche-Genentech** | Neuroscience, GI oncology | Active |
+| **[[Roche]]-Genentech** | Neuroscience, GI oncology | Active |
 | **Bayer** | Undruggable oncology | Active |
-| **Sanofi** | Immunology, oncology (Exscientia) | Active |
-| **Merck KGaA** | Oncology, immunology (Exscientia) | Active |
+| **[[Sanofi]]** | Immunology, oncology (Exscientia) | Active |
+| **[[Merck KGaA]]** | Oncology, immunology (Exscientia) | Active |
 | **Bristol-Myers** | Oncology (Exscientia) | Phase 1 data |
 
 ---
@@ -100,7 +100,7 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 - 60PB proprietary data moat
 - End-to-end platform (biology + chemistry)
 - 10 clinical readouts coming
-- Blue-chip partnerships (Roche, Bayer)
+- Blue-chip partnerships ([[Roche]], Bayer)
 
 **Bear:**
 - REC-994 failure
@@ -116,7 +116,7 @@ aliases: [RXRX, Recursion Pharmaceuticals]
 | Metric | Value |
 |--------|-------|
 | Ticker | RXRX |
-| Exchange | Nasdaq |
+| Exchange | [[Nasdaq]] |
 | Platform | Recursion OS |
 | Focus | AI drug discovery |
 

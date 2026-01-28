@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #solar #energy #private
 
-**Silicon Ranch** — Meta's solar partner. 1.5 GW+ deployed. Shell subsidiary.
+**Silicon Ranch** — Meta's solar partner. 1.5 GW+ deployed. [[Shell]] subsidiary.
 
 ---
 
@@ -14,7 +14,7 @@ Meta's primary solar developer partner:
 | Metric | Value |
 |--------|-------|
 | Meta partnership | 1.5 GW+ |
-| Owner | Shell (acquired 2022) |
+| Owner | [[Shell]] (acquired 2022) |
 | Model | Develop, own, operate |
 | Focus | Utility-scale solar |
 
@@ -35,16 +35,16 @@ Meta's primary solar developer partner:
 
 ---
 
-## Shell ownership
+## [[Shell]] ownership
 
-**Acquired by Shell (2022):**
-- Part of Shell's energy transition
+**Acquired by [[Shell]] (2022):**
+- Part of [[Shell]]'s energy transition
 - Access to capital
 - Global scale potential
 - Integrated energy major backing
 
 **Strategic rationale:**
-- Shell diversifying from oil/gas
+- [[Shell]] diversifying from oil/gas
 - Solar = growth business
 - Corporate PPA market
 - US market focus
@@ -70,12 +70,12 @@ Meta's primary solar developer partner:
 
 | Competitor | Backer | Silicon Ranch vs |
 |------------|--------|------------------|
-| [[Intersect Power]] | TPG/Google | Meta relationship |
-| [[NextEra Energy]] | Public | Shell backing |
-| Clearway | Infrastructure PE | Corporate focus |
-| Lightsource BP | BP | Similar oil major model |
+| [[Intersect Power]] | [[TPG]]/[[Google]] | Meta relationship |
+| [[NextEra Energy]] | Public | [[Shell]] backing |
+| [[Clearway]] | Infrastructure PE | Corporate focus |
+| Lightsource [[BP]] | [[BP]] | Similar oil major model |
 
-Shell backing = capital advantage.
+[[Shell]] backing = capital advantage.
 
 ---
 
@@ -83,13 +83,13 @@ Shell backing = capital advantage.
 
 **Bull:**
 - Meta anchor customer
-- Shell capital/backing
+- [[Shell]] capital/backing
 - AI data center demand
 - Proven development track record
 - Recurring PPA revenue
 
 **Bear:**
-- Private (Shell subsidiary)
+- Private ([[Shell]] subsidiary)
 - Meta concentration
 - Competition intensifying
 - Solar commoditization
@@ -100,16 +100,16 @@ Shell backing = capital advantage.
 
 | Transaction | Date | Details |
 |-------------|------|---------|
-| Shell acquisition | 2022 | Full ownership |
+| [[Shell]] acquisition | 2022 | Full ownership |
 | Prior rounds | 2011-2022 | VC-backed growth |
 
 **Owner:**
 
 | Investor | Notes |
 |----------|-------|
-| Shell | 100% owner (2022 acquisition) |
+| [[Shell]] | 100% owner (2022 acquisition) |
 
-**Indirect exposure:** Shell (SHEL) stock for Silicon Ranch exposure.
+**Indirect exposure:** [[Shell]] (SHEL) stock for Silicon Ranch exposure.
 
 ---
 
@@ -117,8 +117,8 @@ Shell backing = capital advantage.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | Private (Shell subsidiary) |
-| Owner | Shell |
+| Ticker | Private ([[Shell]] subsidiary) |
+| Owner | [[Shell]] |
 | Key customer | Meta |
 | Capacity | 1.5 GW+ |
 | Model | Develop, own, operate |
@@ -131,6 +131,6 @@ Shell backing = capital advantage.
 
 - [[Meta]] — anchor customer (1.5 GW+ contracted)
 - [[NextEra Energy]] — competitor (renewable developer)
-- [[Intersect Power]] — competitor (TPG/Google backed)
+- [[Intersect Power]] — competitor ([[TPG]]/[[Google]] backed)
 - [[Power constraints]] — thesis context (AI power needs)
 - [[Clean energy for AI]] — context (renewable PPAs)

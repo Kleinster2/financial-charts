@@ -15,7 +15,7 @@ Enphase dominates residential solar electronics:
 |--------|-------|
 | Market position | #1 microinverters (US residential) |
 | Differentiation | Software, reliability, ecosystem |
-| Attach rate | Batteries, EV chargers |
+| Attach rate | [[Batteries]], EV chargers |
 | Margin profile | High-margin vs commodity inverters |
 
 ---
@@ -37,7 +37,7 @@ Enphase dominates residential solar electronics:
 | Product | Description |
 |---------|-------------|
 | IQ Microinverters | Core product, panel-level conversion |
-| IQ Batteries | Home energy storage |
+| IQ [[Batteries]] | [[Home]] energy storage |
 | IQ EV Chargers | Electric vehicle charging |
 | Enlighten | Software platform, monitoring |
 

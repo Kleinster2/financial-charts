@@ -54,7 +54,7 @@ Gavin Baker's framework:
 | Variant | Memory | Optimized for |
 |---------|--------|---------------|
 | **Rubin CPX** | GDDR | Massive context prefill |
-| **Rubin** | HBM | Training + batched inference |
+| **Rubin** | [[HBM]] | Training + batched inference |
 | **Rubin SRAM** | SRAM (Groq-derived) | Low-latency agentic decode |
 
 **Mix and match** for optimal performance/cost per workload. No competitor offers this range.
@@ -67,13 +67,13 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 
 **Survivors:**
 - NVIDIA (3 variants + ecosystem)
-- Google TPU (vertical integration)
-- Amazon Trainium (vertical integration)
+- [[Google]] TPU (vertical integration)
+- [[Amazon]] Trainium (vertical integration)
 - [[Cerebras]] (unique niche)
 
 **Dies:**
-- Meta ASIC
-- Microsoft ASIC
+- [[Meta]] ASIC
+- [[Microsoft]] ASIC
 - Most startups
 
 "Consolidation by ecosystem gravity, not brute force."
@@ -87,21 +87,21 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 - [x] ~~Platform opening signals confidence~~ **NVLink-C2C announced**
 - [ ] Rubin SRAM ships and performs
 - [ ] Hyperscaler ASIC cancellations
-- [ ] Agentic AI drives latency premium
+- [ ] [[Agentic AI]] drives latency premium
 
 ---
 
 ## What invalidates the thesis
 
-- [ ] Google TPU takes significant share
+- [ ] [[Google]] TPU takes significant share
 - [ ] Open-source inference stack emerges
 - [ ] Training demand saturates
-- [ ] China develops alternative ecosystem
+- [ ] [[China]] develops alternative ecosystem
 - [ ] Regulatory intervention on market power
 
 ---
 
-## Position sizing considerations
+## [[Position sizing]] considerations
 
 - NVIDIA already large in most portfolios
 - Valuation reflects some of this
@@ -112,11 +112,11 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 
 ## Link to other theses
 
-**[[Long Broadcom]]**: Broadcom benefits from hyperscaler ASICs, but ASIC consolidation is bearish for ASIC TAM. Watch for cancellations.
+**[[Long Broadcom]]**: [[Broadcom]] benefits from hyperscaler ASICs, but ASIC consolidation is bearish for ASIC TAM. Watch for cancellations.
 
-**[[Long memory]]**: NVIDIA GPUs drive HBM demand. Rubin variants extend this.
+**[[Long memory]]**: NVIDIA GPUs drive [[HBM]] demand. Rubin variants extend this.
 
-**[[Long Anthropic]]**: Agentic AI drives decode demand — bullish for Rubin SRAM.
+**[[Long Anthropic]]**: [[Agentic AI]] drives decode demand — bullish for Rubin SRAM.
 
 ---
 
@@ -129,7 +129,7 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 | 2025-12 | Gavin Baker: most ASICs will be canceled | Consolidation thesis |
 | 2025-12 | Chamath: "Jensen operates at Elon level" | Platform vision validated |
 | **2026-01-08** | **NVIDIA hits $5 trillion market cap** | **First company ever — dominance validated** |
-| **2026-01-08** | **Intel partnership: $5B investment + NVLink collab** | **Platform expansion to x86, TSMC diversification hedge** |
+| **2026-01-08** | **[[Intel]] partnership: $5B investment + NVLink collab** | **Platform expansion to x86, [[TSMC]] diversification hedge** |
 | **2026-01-06** | **CES: Vera Rubin 5x Blackwell inference** | **Roadmap execution on track** |
 
 ---
@@ -141,7 +141,7 @@ Gavin Baker's prediction: most standalone ASICs will be canceled.
 - [[Cerebras]] — competitor/target (last independent)
 - [[Inference disaggregation]] — opportunity (Rubin SRAM variant)
 - [[Long Broadcom]] — related (but ASIC TAM at risk)
-- [[Long memory]] — complementary (GPUs drive HBM demand)
+- [[Long memory]] — complementary (GPUs drive [[HBM]] demand)
 - [[Long Anthropic]] — alignment (agentic drives decode demand)
 
 ---

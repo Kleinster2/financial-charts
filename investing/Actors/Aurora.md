@@ -27,9 +27,9 @@ Trucking-first autonomous:
 
 | Founder | Background |
 |---------|------------|
-| Chris Urmson | Google Self-Driving (led) |
+| Chris Urmson | [[Google]] Self-Driving (led) |
 | Sterling Anderson | Tesla Autopilot |
-| Drew Bagnell | Uber ATG |
+| Drew Bagnell | [[Uber]] ATG |
 
 Best AV pedigree outside Waymo.
 
@@ -77,8 +77,8 @@ Trucking before robotaxi.
 | Toyota | Investment, vehicles |
 | PACCAR | Truck manufacturer |
 | Volvo | Truck partnership |
-| FedEx | Pilot customer |
-| Uber Freight | Logistics |
+| [[FedEx]] | Pilot customer |
+| [[Uber]] Freight | Logistics |
 
 ---
 

@@ -22,7 +22,7 @@
 |------|-------------|---------|
 | **SaaS** | Software access | Salesforce |
 | **Media** | Content access | Netflix |
-| **Consumer** | Physical goods | Dollar Shave Club |
+| **[[Consumer]]** | Physical goods | Dollar Shave Club |
 | **Membership** | Benefits/access | Amazon Prime |
 | **Usage-based** | Consumption metered | AWS |
 
@@ -40,7 +40,7 @@
 
 ---
 
-## Consumer subscriptions
+## [[Consumer]] subscriptions
 
 | Company | Product | Subscribers |
 |---------|---------|-------------|
@@ -65,7 +65,7 @@
 
 ## Subscription fatigue
 
-| Signal | Impact |
+| [[Signal]] | Impact |
 |--------|--------|
 | Bundling | Value consolidation |
 | Churn rise | Over-subscription |

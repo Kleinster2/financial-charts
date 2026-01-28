@@ -30,7 +30,7 @@ World's #1 BPO destination.
 |---------|-------|
 | Call centers | Largest segment |
 | Back office | Growing |
-| Healthcare BPO | Expanding |
+| [[Healthcare]] BPO | Expanding |
 | IT services | Developing |
 
 English + low cost = BPO advantage.
@@ -65,8 +65,8 @@ Moving up value chain.
 
 | Company | Focus |
 |---------|-------|
-| PLDT | Telecom |
-| Globe Telecom | Telecom |
+| PLDT | [[Telecom]] |
+| Globe [[Telecom]] | [[Telecom]] |
 | Ayala Group | Conglomerate |
 | Jollibee Tech | F&B tech |
 
@@ -80,8 +80,8 @@ Limited tech giants.
 
 | Company | Philippines Presence |
 |---------|---------------------|
-| Texas Instruments | Manufacturing |
-| Analog Devices | Assembly |
+| [[Texas Instruments]] | Manufacturing |
+| [[Analog Devices]] | Assembly |
 | ON Semiconductor | Operations |
 | Various OSAT | Packaging |
 

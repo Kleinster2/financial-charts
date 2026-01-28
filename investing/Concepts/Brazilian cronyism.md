@@ -80,7 +80,7 @@ Precursor to Lava Jato. Showed PT used state bank contracts for patronage. Unlik
 | Scandal | Detail |
 |---------|--------|
 | **Covaxin** | Indian vaccine at 1000% markup, kickbacks alleged |
-| **Pfizer delays** | Government slow to negotiate, intermediaries sought bribes |
+| **[[Pfizer]] delays** | Government slow to negotiate, intermediaries sought bribes |
 | **Davati** | Middlemen sought $1/dose kickback |
 
 Congressional investigation (CPI) exposed but no major convictions.
@@ -91,7 +91,7 @@ Congressional investigation (CPI) exposed but no major convictions.
 
 | Company | Issue |
 |---------|-------|
-| **Vale** | Sold at allegedly low price; political connections of buyers |
+| **[[Vale]]** | Sold at allegedly low price; political connections of buyers |
 | **Telebrás** | Connected buyers, regulatory capture (see Daniel Dantas below) |
 
 Privatization was necessary but process had crony elements — connected buyers, questionable pricing. Political family banks (Econômico, Nacional, Bamerindus) also collapsed in this era — see Private bank failures section below.
@@ -109,7 +109,7 @@ Privatization was necessary but process had crony elements — connected buyers,
 
 ## Private bank failures
 
-Surviving private banks (Itaú, Bradesco) weren't in major scandals — they benefit from [[Banking concentration]]. But historically, politically-connected private banks failed spectacularly. Classic [[Bank cronyism]] pattern.
+Surviving private banks (Itaú, [[Bradesco]]) weren't in major scandals — they benefit from [[Banking concentration]]. But historically, politically-connected private banks failed spectacularly. Classic [[Bank cronyism]] pattern.
 
 ### [[Banco Master]] (2025) — most recent
 
@@ -129,9 +129,9 @@ BRB (state bank of Federal District) injected R$16.7B into Master before Central
 |------|--------------|---------------------|----------|
 | **Banco Econômico** (1995) | Angelo Calmon de Sá | Bahia oligarch, senator | Bad loans to allies, CB intervention |
 | **Banco Nacional** (1995) | Magalhães Pinto family | Minas Gerais political dynasty | Fictitious assets, merged into Unibanco |
-| **Bamerindus** (1997) | José Eduardo Andrade Vieira | Senator, Agriculture Minister | Loans to political allies, sold to HSBC |
+| **Bamerindus** (1997) | José Eduardo Andrade Vieira | Senator, [[Agriculture]] Minister | Loans to political allies, sold to [[HSBC]] |
 
-**Pattern:** Regional political families got banking licenses, lent to themselves and allies, collapsed when Real Plan stabilization exposed bad assets. Central Bank absorbed losses. Same pattern as [[Ayandeh Bank]] in Iran.
+**Pattern:** Regional political families got banking licenses, lent to themselves and allies, collapsed when Real Plan stabilization exposed bad assets. Central Bank absorbed losses. Same pattern as [[Ayandeh Bank]] in [[Iran]].
 
 ### Private bank frauds (2000s-2010s)
 
@@ -157,7 +157,7 @@ BRB (state bank of Federal District) injected R$16.7B into Master before Central
 ### Daniel Dantas / Opportunity
 
 - Not a bank — asset manager / private equity
-- Brasil Telecom privatization — accused of bribing regulators
+- Brasil [[Telecom]] privatization — accused of bribing regulators
 - Arrested multiple times (2008), charges eventually dropped
 - Epitomized 1990s privatization cronyism
 
@@ -191,10 +191,10 @@ Not corruption per se — but legal extraction via captured institutions.
 
 | Detail | Value |
 |--------|-------|
-| Mechanism | Tax-free manufacturing zone in Amazon |
+| Mechanism | Tax-free manufacturing zone in [[Amazon]] |
 | Beneficiaries | Electronics assemblers (often foreign) |
 | Cost | R$25B+/year in foregone taxes |
-| Politics | Amazon caucus protects; any reform blocked |
+| Politics | [[Amazon]] caucus protects; any reform blocked |
 
 Originally 1967 military-era policy. Persists because beneficiaries fund politicians.
 

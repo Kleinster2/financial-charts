@@ -57,7 +57,7 @@ Revenue model: Usage-based pricing (compute, storage, bandwidth) + subscription 
 | Seed | 2020 | $6M | — | Y Combinator |
 | Series A | May 2021 | $30M | — | Coatue |
 | Series B | Aug 2022 | $80M | $520M | Felicis |
-| Series C | Aug 2024 | $80M | $900M | Peak XV, Craft Ventures |
+| Series C | Aug 2024 | $80M | $900M | Peak XV, [[Craft Ventures]] |
 | Series D | Apr 2025 | $200M | $2B | Accel |
 | Series E | Oct 2025 | $120M | **$5B** | Peak XV, Accel |
 
@@ -71,7 +71,7 @@ Revenue model: Usage-based pricing (compute, storage, bandwidth) + subscription 
 | [[Coatue]] | Series A lead |
 | [[Felicis Ventures]] | Series B lead |
 | [[Peak XV Partners]] | Series C, E lead |
-| Craft Ventures (David Sacks) | Series C |
+| [[Craft Ventures]] ([[David Sacks]]) | Series C |
 | [[Accel]] | Series D, E lead |
 | Mozilla Ventures | Participant |
 
@@ -133,7 +133,7 @@ Supabase found extreme product-market fit in 2024-2025 as the default backend fo
 |------|---------------------|
 | **Bolt.new** | Auto-provisions Supabase for generated apps |
 | **[[Lovable]]** | Default backend integration |
-| **Cursor** | Frequently suggested for AI-built apps |
+| **[[Cursor]]** | Frequently suggested for AI-built apps |
 | **v0 (Vercel)** | Common pairing |
 
 **Key stat:** AI coding tools generate apps that need backends. Supabase is the path of least resistance — instant provisioning, no config, SQL-based.
@@ -149,7 +149,7 @@ Supabase found extreme product-market fit in 2024-2025 as the default backend fo
 
 - 81K+ GitHub stars (top 100 on GitHub)
 - Strong documentation, tutorials
-- Active Discord community
+- Active [[Discord]] community
 - Open source = trust, transparency
 
 ---
@@ -179,7 +179,7 @@ Better docs/DX ← More revenue ← More projects hosted
 | **Open source** | Trust, community contributions, self-host option |
 | **Postgres standard** | No lock-in, familiar to millions of devs |
 | **Full-stack BaaS** | One platform vs stitching 5 services |
-| **AI coding symbiosis** | Default backend for Bolt/[[Lovable]]/Cursor |
+| **AI coding symbiosis** | Default backend for Bolt/[[Lovable]]/[[Cursor]] |
 | **YC network** | 40% of batches = massive distribution |
 
 ### What's hard to copy
@@ -188,7 +188,7 @@ Better docs/DX ← More revenue ← More projects hosted
 |------|-----------|
 | GitHub mindshare (81K stars) | Years of community building |
 | AI tool integrations | First-mover, default status |
-| YC ecosystem position | Network effects |
+| YC ecosystem position | [[Network effects]] |
 | Postgres ecosystem depth | 30+ years, hard to replicate |
 
 ---
@@ -216,7 +216,7 @@ Better docs/DX ← More revenue ← More projects hosted
 | **Neon competition** | Medium | Serverless Postgres, but DB-only |
 | **Margin pressure** | Medium | Postgres hosting is commoditizing |
 | **AI code tool dependency** | High | If Bolt/[[Lovable]] fade, growth slows |
-| **Enterprise sales** | Medium | Consumer/SMB strong, enterprise unproven |
+| **Enterprise sales** | Medium | [[Consumer]]/SMB strong, enterprise unproven |
 
 ---
 

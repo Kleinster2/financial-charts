@@ -14,7 +14,7 @@ aliases: [AIR]
 | Ticker | AIR (Paris) |
 | Market cap | ~$130B |
 | Revenue | ~$70B |
-| HQ | Toulouse, France |
+| HQ | Toulouse, [[France]] |
 | Position | #1 commercial aircraft (deliveries) |
 
 ---
@@ -26,7 +26,7 @@ aliases: [AIR]
 | **A320neo** | Narrow-body | Boeing 737 MAX |
 | **A350** | Wide-body | Boeing 787 |
 | **A330neo** | Wide-body | Boeing 787 |
-| **A220** | Regional | Embraer E2 |
+| **A220** | Regional | [[Embraer]] E2 |
 | **A380** | Discontinued | — |
 
 ---
@@ -78,7 +78,7 @@ aliases: [AIR]
 - Production ramp challenges
 - Profitability on deliveries
 - Wide-body competition
-- Geopolitical risk (China)
+- Geopolitical risk ([[China]])
 
 ---
 

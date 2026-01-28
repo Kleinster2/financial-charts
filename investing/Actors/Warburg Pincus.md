@@ -23,7 +23,7 @@ aliases: [Warburg]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **BEA Systems** | Growth | Acquired by Oracle |
+| **BEA Systems** | Growth | Acquired by [[Oracle]] |
 | **Nuance** | Growth | Acquired by MSFT |
 | **Marqeta** | Growth | Public (MQ) |
 | **Ant Group** | Growth | Private |
@@ -37,18 +37,18 @@ aliases: [Warburg]
 |-------|-------------|
 | **Long-term** | Patient capital |
 | **Growth-oriented** | Not just financial engineering |
-| **Global** | Strong in Asia |
+| **Global** | Strong in [[Asia]] |
 | **Diversified** | Tech, healthcare, financial services |
 
 ---
 
-## Asia strength
+## [[Asia]] strength
 
 | Region | Focus |
 |--------|-------|
-| China | Ant Group, JD.com |
-| India | Multiple investments |
-| Southeast Asia | Growth markets |
+| [[China]] | Ant Group, JD.com |
+| [[India]] | Multiple investments |
+| [[Southeast Asia]] | Growth markets |
 
 Early mover in emerging market PE.
 
