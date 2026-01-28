@@ -129,6 +129,7 @@ Early stage, mostly speculative.
 
 ## Related
 
+- [[Meme coins]] — speculative tokens (DOGE, AI agent coins, celebrity tokens)
 - [[Tokenized private shares]] — key application
 - [[Coinbase]] — largest US exchange
 - [[Block]] — Bitcoin-focused fintech

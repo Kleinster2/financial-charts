@@ -83,7 +83,7 @@ Largest digital bank outside China.
 | 2013 | Founded by David Vélez |
 | 2014 | Launched credit card |
 | 2017 | Launched bank account |
-| 2021 | IPO at $41B valuation |
+| 2021 | IPO at $41B valuation (last Brazilian IPO until [[PicPay]] Jan 2026) |
 | 2023 | First profitable year |
 | 2024 | 100M customers milestone |
 
@@ -124,9 +124,10 @@ Vélez is Colombian, Stanford/Sequoia background.
 
 ## Related
 
+- [[PicPay]] — Brazil peer (#3 digital bank); IPO Jan 2026 (first since Nubank)
+- [[Mercado Libre]] — LatAm peer (#2 Brazil fintech)
 - [[Revolut]] — peer (global neobank)
 - [[Block]] — peer (fintech)
-- [[Mercado Libre]] — LatAm peer
 - [[Fintech]] — sector
 
 ---

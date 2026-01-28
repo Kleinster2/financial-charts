@@ -158,6 +158,10 @@ Price target jumped 55% after September AI chip order news / Kunlunxin IPO filin
 
 ## Related
 
+### Products
+- [[Ernie]] — AI model (300M users, ERNIE 5.0)
+
+### Competitors/Peers
 - [[Alibaba]] — competitor (China cloud/AI)
 - [[ByteDance]] — competitor (Doubao gaining on Ernie)
 - [[Tencent]] — competitor (China cloud)

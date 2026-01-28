@@ -224,6 +224,8 @@ aliases: [XAU, Gold price, Bullion]
 - [[Newmont]] — largest gold miner, doubled in 2025
 - [[Agnico Eagle]] — top performer, doubled in 2025
 - [[Barrick Gold]] — major producer
+- [[Zijin Mining]] — China's largest, aggressive acquirer
+- [[Gold mining consolidation]] — M&A wave at record prices
 
 ---
 

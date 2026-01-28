@@ -40,13 +40,13 @@ The AI-native Google challenger:
 | Investor | Type | Notes |
 |----------|------|-------|
 | **[[NVIDIA]]** | Strategic | AI infrastructure |
-| **SoftBank Vision Fund 2** | Growth | Large check |
-| **NEA** | VC | Series B lead |
-| **IVP** | VC | Growth |
-| **Jeff Bezos** | Angel | Personal investment |
-| **Yann LeCun** | Angel | Meta AI chief |
-| **Databricks Ventures** | Strategic | — |
-| **Kindred Ventures** | Seed | — |
+| **[[SoftBank]] Vision Fund 2** | Growth | Large check |
+| **[[NEA]]** | VC | Series B lead |
+| **[[IVP]]** | VC | Growth |
+| **[[Jeff Bezos]]** | Angel | Personal investment |
+| **[[Yann LeCun]]** | Angel | [[Meta]] AI chief |
+| **[[Databricks]] Ventures** | Strategic | — |
+| **[[Kindred Ventures]]** | Seed | — |
 
 ### Funding history
 
@@ -65,10 +65,10 @@ The AI-native Google challenger:
 
 | Person | Role | Background |
 |--------|------|------------|
-| **Aravind Srinivas** | CEO | Ex-Google, DeepMind |
-| **Denis Yarats** | CTO | Ex-Meta AI |
-| **Andy Konwinski** | — | Ex-Databricks |
-| **Johnny Ho** | — | Ex-Quora |
+| **[[Aravind Srinivas]]** | CEO | Ex-[[Google]], [[Google DeepMind\|DeepMind]] |
+| **[[Denis Yarats]]** | CTO | Ex-[[Meta]] AI |
+| **[[Andy Konwinski]]** | — | Ex-[[Databricks]] |
+| **[[Johnny Ho]]** | — | Ex-[[Quora]] |
 
 ---
 
@@ -106,9 +106,9 @@ The AI-native Google challenger:
 
 | Competitor | Approach | Perplexity vs |
 |------------|----------|---------------|
-| Google | Traditional + AI | AI-native |
-| ChatGPT | Chat-first | Search-first |
-| Bing/Copilot | Microsoft ecosystem | Independent |
+| [[Google]] | Traditional + AI | AI-native |
+| [[ChatGPT]] | Chat-first | Search-first |
+| [[Microsoft\|Bing/Copilot]] | Microsoft ecosystem | Independent |
 
 Perplexity = pure-play AI search.
 
@@ -127,9 +127,17 @@ Perplexity = pure-play AI search.
 
 ## Distribution deals
 
-**Samsung CES 2026:**
+**[[Snap]] (Nov 2025):**
+- $400M deal to integrate Perplexity into Snapchat
+- Cash + equity over one year, plus revenue share
+- Access to 943M MAUs, predominantly Gen Z
+- Rolls out globally early 2026
+- First major external AI partner integration for Snapchat
+- **Biggest distribution deal yet** — validated platform value
+
+**[[Samsung]] ([[CES 2026]]):**
 - Perplexity AI agent integrated into Samsung TVs
-- Alongside Bixby (Samsung) and Microsoft
+- Alongside Bixby ([[Samsung]]) and [[Microsoft]]
 - Major consumer distribution channel — Samsung is #1 TV maker globally
 
 Shows path to consumer distribution beyond mobile/web.
@@ -162,9 +170,9 @@ Shows path to consumer distribution beyond mobile/web.
 | Valuation | $20B |
 | ARR | ~$200M |
 | Monthly queries | 780M |
-| CEO | Aravind Srinivas |
+| CEO | [[Aravind Srinivas]] |
 
-*Updated 2026-01-05*
+*Updated 2026-01-27*
 
 ---
 
@@ -172,7 +180,12 @@ Shows path to consumer distribution beyond mobile/web.
 
 - [[Google]] — competitor (disrupting search)
 - [[OpenAI]] — competitor (ChatGPT search)
+- [[Microsoft]] — competitor (Bing/Copilot)
 - [[NVIDIA]] — investor (strategic backing)
+- [[SoftBank]] — investor (Vision Fund 2)
+- [[Jeff Bezos]] — investor (angel)
+- [[Databricks]] — investor, founder background
 - [[Glean]] — peer (AI enterprise search)
+- [[Snap]] — partner ($400M search integration)
 - [[Samsung]] — partner (TV AI agent integration)
 - [[CES 2026]] — announcement venue

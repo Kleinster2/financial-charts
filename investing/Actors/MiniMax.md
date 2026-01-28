@@ -13,11 +13,14 @@ First wave of Chinese post-ChatGPT AI firms going public:
 
 | Metric | Value |
 |--------|-------|
-| IPO | Hong Kong (Jan 2026) |
-| IPO price | HK$165 (top of range) |
-| IPO raise | **HK$4.2B (~$538M)** |
-| HQ | Shanghai |
-| Backers | [[Alibaba]], Abu Dhabi sovereign wealth |
+| Ticker | 9961.HK |
+| Market cap | **~$11.5B** (post-debut) |
+| IPO price | HK$165 |
+| Day 1 close | HK$345 (**+109%**) |
+| IPO raise | **$710M** (with greenshoe) |
+| Total raised | $1.15B (all rounds) |
+| Pre-IPO valuation | $4.2B |
+| Backers | [[Alibaba]], [[Tencent]], MiHoYo, Abu Dhabi |
 
 ---
 
@@ -25,15 +28,23 @@ First wave of Chinese post-ChatGPT AI firms going public:
 
 | Detail | Value |
 |--------|-------|
-| Exchange | HKEX |
+| Exchange | HKEX (9961.HK) |
 | Price | HK$165 (top of range) |
-| Range | HK$151-165 |
-| Raise | HK$4.2B+ |
-| Demand | Several times oversubscribed |
+| Gross proceeds | HK$5.54B (~$710M) |
+| Cornerstone investors | $350M committed |
 | Trading starts | Jan 9, 2026 |
-| First day | **Doubled** (+100%+) |
+| First day | **+109%** (HK$165 → HK$345) |
 
-**Investor demand:** Sovereign wealth funds, global long-only investors. Closed books early due to strong demand.
+**Cornerstone investors:** Abu Dhabi Investment Authority, [[Alibaba]], Mirae Asset Securities, Boyu Capital, IDG, Perseverance Asset.
+
+**Key shareholders:**
+| Investor | Stake/Role |
+|----------|------------|
+| MiHoYo | 6.4% (angel) |
+| [[Tencent]] | Prior rounds |
+| Sequoia China | Prior rounds |
+| Hillhouse Capital | Prior rounds |
+| ZhenFund | 6 consecutive rounds |
 
 ---
 
@@ -45,7 +56,7 @@ MiniMax is one of China's leading AI startups alongside:
 |---------|--------|
 | **MiniMax** | IPO (Jan 2026) |
 | [[Zhipu]] | IPO same week |
-| [[Moonshot]] | Private |
+| [[Moonshot AI]] | Private ($4.8B) |
 | Stepfun | Private |
 | [[DeepSeek]] | Private (bootstrapped) |
 
@@ -79,16 +90,43 @@ First wave of Chinese AI IPOs.
 
 ---
 
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Pre-profit AI startup |
+| Total raised | $1.15B (all rounds) |
+| IPO proceeds | $710M (with greenshoe) |
+| Pre-IPO valuation | $4.2B |
+| Post-debut market cap | ~$11.5B |
+
+*Limited financial disclosure — typical for pre-profit AI lab. Revenue and profitability metrics not yet public.*
+
+---
+
+## Stock performance (9961.HK)
+
+| Date | Price (HK$) | Note |
+|------|-------------|------|
+| Jan 9 (IPO) | 165 → 345 | +109% day 1 |
+| Jan 27 | ~499 | +202% from IPO |
+
+*Note: Automated charting unavailable — yfinance returns corrupted legacy ticker data. Manual tracking until data quality improves.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Ticker | HKEX (Jan 2026) |
-| IPO raise | ~$538M |
+| Ticker | 9961.HK |
+| IPO date | Jan 9, 2026 |
+| IPO price | HK$165 |
+| Market cap | ~$11.5B |
 | HQ | Shanghai |
 | Backers | Alibaba, Abu Dhabi |
 
-*Updated 2026-01-11 (doubled on debut)*
+*Updated 2026-01-27*
 
 ---
 

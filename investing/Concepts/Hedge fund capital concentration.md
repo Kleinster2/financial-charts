@@ -10,7 +10,15 @@ From June 2020 to June 2025, the hedge fund industry received **near-zero net ne
 
 ![[hedge-fund-zero-sum-flows.png]]
 
-This means every dollar a pod shop raises is a dollar taken from a boutique. New fund launches contracted for 4 consecutive years. Liquidations accelerating.
+This meant every dollar a pod shop raised was a dollar taken from a boutique. New fund launches contracted for 4 consecutive years. Liquidations accelerating.
+
+### 2025 inflection point
+
+**The pattern broke in H2 2025.** Full-year 2025 saw **$116B net inflows** — the most since 2007 and third highest since HFR began tracking in 1991 (Bloomberg, Jan 2026). Combined with $527B in performance gains, industry AUM crossed $5T for the first time.
+
+The 12.5% average return (best in 16 years) likely drove the reversal — allocators returned as hedge funds outperformed during Trump trade volatility. HFR expects inflows to accelerate through 2026.
+
+**Open question:** Does this represent a structural shift back toward hedge funds, or a one-time response to 2025's exceptional conditions?
 
 ---
 

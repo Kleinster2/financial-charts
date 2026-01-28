@@ -4,6 +4,48 @@ Templates and required content for different note types.
 
 ---
 
+## Currency and specificity
+
+**Every note check must verify the note reflects current reality.**
+
+### Currency requirements
+
+Before marking any note "complete," web search to verify:
+- Key facts are current (not stale by weeks/months)
+- Major developments since last update are captured
+- Numbers reflect latest available data (MAU, revenue, valuations, ownership)
+
+**Stale notes are wrong notes.** A note saying "facing US ban" when the ban resolved is misinformation.
+
+### Specificity requirements
+
+**No lazy shorthand.** Vague summaries hide the actual story. Drill every claim:
+
+| Lazy | Required |
+|------|----------|
+| "American-owned" | Who owns what %? Who sits on board? Who controls what? |
+| "backed by major investors" | Name them. Stakes. Board seats. |
+| "significant revenue" | Exact figure. Growth rate. Breakdown by segment. |
+| "recently acquired" | Date. Price. Terms. Buyer. Financing structure. |
+| "partnership with" | What kind? Revenue share? Exclusivity? Duration? |
+
+**The test:** Could someone reconstruct the actual situation from your note? If not, add detail.
+
+### Ownership and control
+
+For any ownership change, acquisition, or restructuring, always capture:
+
+1. **Equity stakes** — exact percentages for all material holders
+2. **Governance** — board composition, who represents whom
+3. **Economic rights** — licensing fees, profit shares, royalties (may differ from equity)
+4. **Operational control** — who runs what functions day-to-day
+5. **Retained rights** — what the seller/minority keeps (IP, brands, territories)
+6. **Compliance/legal** — any concerns about whether structure satisfies requirements
+
+**Example:** TikTok US deal — "American investors hold 80% equity" is incomplete without noting ByteDance retains algorithm IP and ~50% of profits via licensing.
+
+---
+
 ## Markdown formatting
 
 **Tables need a blank line before them** — otherwise they render as unstructured text:
@@ -121,7 +163,7 @@ Include: exact terms, pricing formulas, exercise windows, amendments, and **stra
 Two standard charts for public company actor notes:
 
 1. **Price vs benchmark** — stock performance vs relevant index (e.g., AAPL vs QQQ)
-2. **Fundamentals** — revenue, net income, and free cash flow (absolute values)
+2. **Fundamentals** — revenue and net income in separate panes (automatic when both metrics requested)
 
 **Every actor gets their own chart.** Never reuse another actor's chart — even if the tickers overlap. Each actor needs peers relevant to *them*:
 
@@ -160,8 +202,8 @@ The benchmark shows sector context; the peers show relative positioning within i
 curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true&primary=AAPL" \
   -o investing/attachments/aapl-price-chart.png
 
-# Fundamentals (absolute values)
-curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome,fcf&start=2006-04-01" \
+# Fundamentals (separate panes for revenue and net income)
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome&start=2015-01-01" \
   -o investing/attachments/aapl-fundamentals.png
 ```
 

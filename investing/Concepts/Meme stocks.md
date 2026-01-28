@@ -81,7 +81,7 @@ The speculative energy didn't disappear — it migrated:
 | **Crypto** | "Everything that happened in GameStop is happening in crypto but on steroids" — Amanda Fischer |
 | **Prediction markets** | Polymarket, Kalshi — newest speculation venue |
 | **Sports betting** | Same demographic, same dopamine |
-| **Meme coins** | Dogecoin, Shiba Inu, celebrity tokens |
+| **[[Meme coins]]** | Dogecoin, Shiba Inu, celebrity tokens, AI agent coins |
 | **Retail activism** | Opendoor "Open Army" (Jul 2025) — meme energy channeled into corporate governance |
 
 Roundhill CEO Dave Mazza: "In today's meme stock world, it's really more about cutting-edge themes... themes that retail can kind of be the price-setter in."
@@ -101,6 +101,7 @@ See [[Retail investor flows]] for IBKR's proposed (unadopted) reforms.
 
 ## Related
 
+- [[Meme coins]] — crypto equivalent; AI agent tokens, celebrity coins
 - [[GameStop]] — origin event (Jan 2021); $10.4B, $8.8B cash
 - [[Retail investor flows]] — structural aftermath ($1-3B daily, permanent)
 - [[Robinhood]] — retail gateway; 90% retention from Jan 2021

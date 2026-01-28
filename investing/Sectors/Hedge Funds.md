@@ -92,6 +92,15 @@ Sector hub for hedge funds and alternative asset managers.
 
 ## Industry stats (2025)
 
+| Metric | Value | Source |
+|--------|-------|--------|
+| **Total AUM** | **$5T+** (record) | HFR |
+| **Net inflows** | **$116B** (most since 2007) | HFR |
+| **Performance gains** | $527B | HFR |
+| **Avg return** | 12.5% (best in 16 yrs) | HFR |
+
+### Regional returns
+
 | Region | Avg return |
 |--------|------------|
 | Asia | **24%** |
@@ -100,7 +109,7 @@ Sector hub for hedge funds and alternative asset managers.
 | US | 12% |
 | S&P 500 | 16% |
 
-*Source: JPMorgan note to clients*
+*Sources: Hedge Fund Research Inc. (Jan 2026), JPMorgan note to clients*
 
 ### Market context
 
@@ -113,10 +122,15 @@ Volatility from Trump's trade, fiscal, and geopolitical policies created price a
 
 ### Industry flows
 
-**Hedge fund AUM at ~$5T** (Preqin, Jun 2025), but growth was almost entirely performance-driven. In the 5 years from Jun 2020 to Jun 2025, the industry received near-zero net new capital. Fundraising became a zero-sum game dominated by pod shops.
+**2025 inflow surge:** Hedge funds gathered **$116B net inflows** in 2025 — the most since 2007 and third highest since HFR began tracking in 1991 (Jan 2026 data). Combined with $527B in performance gains, this pushed AUM past $5T for the first time.
+
+This broke a multi-year drought. From Jun 2020 to Jun 2025, the industry received near-zero net new capital (Preqin). The H2 2025 surge suggests allocators returned as returns improved and uncertainty drove demand for active management.
 
 ![[hedge-fund-zero-sum-flows.png]]
 *[[Hedge fund capital concentration]]*
+
+> "Uncertainty remains the dominant theme. Hedge fund managers are responding with flexible, tactical, and opportunistic strategies that can adapt as conditions change... investors continue to increase allocations to hedge funds, pushing capital beyond this historic milestone and fueling a growth trend that is expected to accelerate into 2026."
+> — Kenneth Heinz, HFR President
 
 **Boutique revival (Jan 2026):** Several $1B+ fund debuts (stock-picking, credit derivatives) as Citadel/Millennium convergence opens allocator appetite.
 

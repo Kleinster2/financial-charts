@@ -8,6 +8,19 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { background: #ffffff; font-family: Arial, sans-serif; }
         #chart { width: 100%; height: 100vh; }
+        #chart-container { width: 100%; display: flex; flex-direction: column; }
+        .chart-pane { width: 100%; }
+        .pane-label {
+            position: absolute;
+            right: 70px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #666;
+            z-index: 50;
+            background: rgba(255,255,255,0.8);
+            padding: 2px 8px;
+            border-radius: 3px;
+        }
         .title {
             position: absolute;
             top: 15px;
@@ -67,6 +80,7 @@
 </head>
 <body>
     <div id="chart"></div>
+    <div id="chart-container"></div>
     <div class="title" id="title"></div>
     <div class="legend" id="legend"></div>
     <div class="last-date" id="lastDate"></div>
@@ -94,9 +108,244 @@
             return value.toFixed(2);
         }
 
+        // Create a single chart pane with series
+        function createChartPane(container, seriesData, config, paneHeight, colorMap, isLastPane) {
+            const { width, showLastValue, normalize, isFundamentals, forecastStart, labels } = config;
+
+            const chart = LightweightCharts.createChart(container, {
+                width: width || 1200,
+                height: paneHeight,
+                layout: {
+                    background: { type: 'solid', color: '#ffffff' },
+                    textColor: '#333',
+                    fontSize: 18
+                },
+                grid: {
+                    vertLines: { color: '#eee' },
+                    horzLines: { color: '#eee' }
+                },
+                timeScale: {
+                    visible: isLastPane,  // Only show time scale on last pane
+                    secondsVisible: false,
+                    rightOffset: 5,
+                    borderColor: '#ccc'
+                },
+                rightPriceScale: {
+                    visible: true,
+                    borderColor: '#ccc',
+                    scaleMargins: { top: 0.1, bottom: 0.1 },
+                    mode: 0  // Normal mode for fundamentals (can have negatives)
+                },
+                leftPriceScale: {
+                    visible: false
+                },
+                crosshair: {
+                    horzLine: { visible: false },
+                    vertLine: { visible: false }
+                }
+            });
+
+            // Price formatter for fundamentals
+            const priceFormat = {
+                type: 'custom',
+                minMove: 1,
+                formatter: formatLargeNumber
+            };
+
+            // Add series
+            for (const [seriesName, points] of Object.entries(seriesData)) {
+                const color = colorMap[seriesName] || '#2962FF';
+                const chartData = points.map(p => ({ time: p.time, value: p.value }));
+
+                if (forecastStart) {
+                    const historicalData = chartData.filter(p => p.time < forecastStart);
+                    const forecastData = chartData.filter(p => p.time >= forecastStart);
+
+                    if (historicalData.length > 0 && forecastData.length > 0) {
+                        forecastData.unshift(historicalData[historicalData.length - 1]);
+                    }
+
+                    if (historicalData.length > 0) {
+                        const historicalSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            lastValueVisible: forecastData.length > 0,
+                            priceLineVisible: false,
+                            crosshairMarkerVisible: false,
+                            priceFormat: priceFormat
+                        });
+                        historicalSeries.setData(historicalData);
+
+                        if (forecastData.length > 0) {
+                            const lastPoint = historicalData[historicalData.length - 1];
+                            LightweightCharts.createSeriesMarkers(historicalSeries, [{
+                                time: lastPoint.time,
+                                position: 'inBar',
+                                color: color,
+                                shape: 'circle',
+                                size: 2
+                            }]);
+                        }
+                    }
+
+                    if (forecastData.length > 0) {
+                        const forecastSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            lineStyle: 1,
+                            lastValueVisible: false,
+                            priceLineVisible: false,
+                            crosshairMarkerVisible: false,
+                            priceFormat: priceFormat
+                        });
+                        forecastSeries.setData(forecastData);
+                    }
+                } else {
+                    const series = chart.addSeries(LightweightCharts.LineSeries, {
+                        color: color,
+                        lineWidth: 2,
+                        lastValueVisible: showLastValue || false,
+                        priceLineVisible: false,
+                        crosshairMarkerVisible: false,
+                        priceFormat: priceFormat
+                    });
+                    series.setData(chartData);
+                }
+            }
+
+            return chart;
+        }
+
+        // Render multi-pane chart for fundamentals
+        function renderMultiPaneChart(config) {
+            const { data, title, width, height, showLastDate, paneGroups, forecastStart, isFundamentals } = config;
+
+            // Hide single chart container, use multi-pane container
+            document.getElementById('chart').style.display = 'none';
+            const container = document.getElementById('chart-container');
+            container.style.height = height + 'px';
+
+            // Hide title for fundamentals
+            document.getElementById('title').style.display = 'none';
+            document.getElementById('lastDate').style.display = 'none';
+
+            // Move legend to top
+            const legendEl = document.getElementById('legend');
+            legendEl.style.top = '15px';
+
+            // Color palette
+            const colors = [
+                '#2962FF', '#E91E63', '#4CAF50', '#FF9800',
+                '#9C27B0', '#00BCD4', '#795548', '#607D8B'
+            ];
+
+            // Assign colors to series
+            const colorMap = {};
+            let colorIndex = 0;
+            for (const seriesName of Object.keys(data)) {
+                colorMap[seriesName] = colors[colorIndex % colors.length];
+                colorIndex++;
+            }
+
+            // Build legend
+            for (const [seriesName, color] of Object.entries(colorMap)) {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                item.innerHTML = `<div class="legend-color" style="background:${color}"></div><span>${seriesName}</span>`;
+                legendEl.appendChild(item);
+            }
+
+            // Add date to legend
+            if (showLastDate !== false) {
+                let maxDate = null;
+                for (const points of Object.values(data)) {
+                    for (const pt of points) {
+                        if (forecastStart && pt.time >= forecastStart) continue;
+                        if (!maxDate || pt.time > maxDate) maxDate = pt.time;
+                    }
+                }
+                if (maxDate) {
+                    const d = new Date(maxDate + 'T00:00:00');
+                    const dateItem = document.createElement('div');
+                    dateItem.className = 'legend-item';
+                    dateItem.style.color = '#666';
+                    const prefix = forecastStart ? 'Actual: ' : '';
+                    dateItem.innerHTML = `<span>${prefix}${d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>`;
+                    legendEl.appendChild(dateItem);
+                }
+            }
+
+            // Calculate pane heights
+            const paneNames = Object.keys(paneGroups);
+            const legendHeight = 70;
+            const paneGap = 8;
+            const totalPaneHeight = height - legendHeight - (paneGap * (paneNames.length - 1));
+            const paneHeight = Math.floor(totalPaneHeight / paneNames.length);
+
+            // Create panes
+            const charts = [];
+            paneNames.forEach((paneName, index) => {
+                const seriesKeys = paneGroups[paneName];
+                const paneData = {};
+                for (const key of seriesKeys) {
+                    if (data[key]) paneData[key] = data[key];
+                }
+
+                // Create pane container
+                const paneWrapper = document.createElement('div');
+                paneWrapper.style.position = 'relative';
+                paneWrapper.style.marginTop = index === 0 ? legendHeight + 'px' : paneGap + 'px';
+
+                const paneDiv = document.createElement('div');
+                paneDiv.className = 'chart-pane';
+                paneWrapper.appendChild(paneDiv);
+
+                // Add pane label
+                const label = document.createElement('div');
+                label.className = 'pane-label';
+                label.style.top = '8px';
+                label.textContent = paneName;
+                paneWrapper.appendChild(label);
+
+                container.appendChild(paneWrapper);
+
+                const isLastPane = index === paneNames.length - 1;
+                const chart = createChartPane(paneDiv, paneData, config, paneHeight, colorMap, isLastPane);
+                charts.push(chart);
+            });
+
+            // Sync time scales across all charts
+            if (charts.length > 1) {
+                let isSyncing = false;
+                charts.forEach((chart, i) => {
+                    chart.timeScale().subscribeVisibleLogicalRangeChange(range => {
+                        if (isSyncing || !range) return;
+                        isSyncing = true;
+                        charts.forEach((otherChart, j) => {
+                            if (i !== j) {
+                                otherChart.timeScale().setVisibleLogicalRange(range);
+                            }
+                        });
+                        isSyncing = false;
+                    });
+                });
+            }
+
+            // Fit content and signal ready
+            setTimeout(() => {
+                charts.forEach(chart => chart.timeScale().fitContent());
+                window.chartReady = true;
+            }, 100);
+        }
+
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels } = config;
+            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups } = config;
+
+            // Use multi-pane rendering for fundamentals with multiple metrics
+            if (separatePanes && paneGroups && Object.keys(paneGroups).length > 1) {
+                return renderMultiPaneChart(config);
+            }
 
             // Find last date across all series (will add to legend later)
             // For fundamentals with forecast, find last ACTUAL date (before forecastStart)

@@ -115,8 +115,24 @@ Stock fell on Trump's institutional homebuying ban announcement:
 
 ---
 
+## Abu Dhabi sovereign wealth relationships
+
+![[abu-dhabi-finance-investments.png]]
+*Abu Dhabi SWFs anchored Apollo's private credit platforms. (Bloomberg, Dec 2025)*
+
+| Partnership | Amount | Detail |
+|-------------|--------|--------|
+| [[Mubadala]] private credit anchor | $12B | 2020 platform launch |
+| Citigroup/Apollo private credit | $25B | 2024-25 program |
+
+Apollo is a top destination for Abu Dhabi sovereign capital seeking private credit exposure.
+
+---
+
 ## Related
 
+- [[Abu Dhabi Sovereign Wealth]] — major sovereign client ecosystem
+- [[Mubadala]] — $12B private credit anchor
 - [[Marc Rowan]] — CEO & Chairman, co-founder, architect of credit/insurance model
 - [[Leon Black]] — co-founder, former CEO (1990–2021)
 - [[Josh Harris]] — co-founder, departed for sports/26North

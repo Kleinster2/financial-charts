@@ -303,6 +303,7 @@ See [[Wearable AI]] for competitive landscape.
 ## Related
 
 ### Subsidiaries/Products
+- [[Qwen]] — AI model (100M+ MAU, fastest growing)
 - [[Taobao]] — C2C e-commerce (892M MAU, ~51% China share)
 - [[Tmall]] — B2C e-commerce (brands)
 - [[Alipay]] — payments (1.3B users, Ant Group)

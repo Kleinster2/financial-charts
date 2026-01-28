@@ -455,6 +455,7 @@ See [[Ayandeh-Master comparison]] for full analysis.
 - BRB (Banco de Brasília) — state bank involved
 - Tirreno — shell company for fictitious credits
 - BESC — defunct Santa Catarina bank whose worthless shares were used
+- [[PicPay]] — acquiring Kovr Participacoes SA (insurance unit) from liquidation (Jan 2026)
 
 ---
 

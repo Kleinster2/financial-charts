@@ -78,6 +78,41 @@ This is [[Customer lock-in via co-design]] in action — accumulated knowledge t
 
 ---
 
+## App Tracking Transparency (ATT)
+
+Privacy feature launched April 2021 (iOS 14.5) that reshaped digital advertising.
+
+**How it works:**
+- Pop-up asks users if they want apps to track them
+- 75%+ opt out (higher for social media apps)
+- Blocks IDFA tracking — advertisers can't see cross-app behavior
+- Breaks targeted advertising models
+
+**Industry impact (2022):**
+
+| Company | Revenue hit | Stock impact |
+|---------|-------------|--------------|
+| [[Meta]] | ~$10B | -26% single day (Feb 2022), -74% peak-to-trough |
+| [[Snap]] | ~$546M | -25% (Oct 2021) |
+| [[Google\|YouTube]] | ~$2.2B | Less severe (search ads unaffected) |
+| Twitter | ~$323M | — |
+
+**Total industry loss:** ~$16B in 2022. US alone lost estimated $15B.
+
+**Why Apple did it:**
+- Privacy as brand differentiator
+- Weakens competitors reliant on ad targeting
+- Services revenue (App Store) unaffected — even benefits from ad spend shifting to Apple Search Ads
+
+**Winners:**
+- Apple Search Ads — gained share as Facebook ads became less effective
+- First-party data companies
+- Contextual advertising
+
+ATT demonstrated Apple's platform power — one policy change wiped $230B from Meta's market cap in a single day.
+
+---
+
 ## Why it matters for this vault
 
 - Locks [[TSMC]] leading edge capacity
@@ -228,7 +263,8 @@ See [[Short interest]] for interpretation framework.
 - [[N-2 rule]] — design excellence context
 - [[Memory shortage 2025-2026]] — insulated by scale (CFO: "managing costs well")
 - [[Google]] — Gemini powering Siri backend
-- [[Meta]] — AI glasses competitor (Raybans)
+- [[Meta]] — ATT impact (~$10B), AI glasses competitor
+- [[Snap]] — ATT impact (~$546M)
 - [[OpenAI]] — competing for AI device market
 - [[Humane]] — AI pin predecessor (failed)
 - [[AI wearables]] — category

@@ -191,6 +191,10 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 ## Related
 
+### Products
+- [[Grok]] — AI model (Colossus 200K GPUs)
+
+### People/Partners
 - [[Elon Musk]] — founder and controller
 - [[Tesla]] — Musk connection (Samsung anchor potential)
 - [[Tesla Optimus]] — xAI to power humanoid robots
