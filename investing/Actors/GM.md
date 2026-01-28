@@ -7,6 +7,42 @@ aliases: [General Motors]
 
 ---
 
+## Jan 27, 2026: Strong guidance lifts stock
+
+**Stock +9%** — hit new 52-week high at $87.14 after Q4 earnings beat and raised 2026 outlook.
+
+### Q4 2025 results
+
+| Metric | Result | Estimate |
+|--------|--------|----------|
+| EPS (adj) | **$2.51** | $2.27 |
+| Net income | -$3.3B | — |
+| Special charges | $7.2B | EV capacity realignment |
+
+**Q4 loss driven by EV write-downs** — adjusting capacity and investments for expected decline in EV consumer demand.
+
+### 2026 guidance raised
+
+| Metric | 2026 Guide | 2025 Actual |
+|--------|------------|-------------|
+| Net income | **$10.3-11.7B** | $2.7B |
+| EBIT-adjusted | $13-15B | $12.7B |
+| EPS | **$11-13** | — |
+| CapEx | $10-12B | — |
+
+### Capital return boost
+
+| Action | Details |
+|--------|---------|
+| Dividend | **+20%** to $0.18/quarter |
+| Buyback | New **$6B** authorization |
+
+### Tariff impact
+
+US tariffs cost GM **$3.1B in 2025** — less than the $3.5-4.5B expected.
+
+---
+
 ## Why GM matters
 
 GM represents the legacy OEM EV transition challenge:
@@ -117,14 +153,14 @@ See [[Rare earth leverage]], [[China retaliatory toolkit]].
 | Metric | Value |
 |--------|-------|
 | Ticker | GM (NYSE) |
-| Market cap | ~$55B |
-| Revenue (TTM) | ~$175B |
-| EV sales | ~100K/year (growing) |
-| Operating margin | ~6% |
-| P/E | ~6x |
-| Dividend yield | ~0.9% |
+| Price | ~$87 (52-week high) |
+| Market cap | ~$60B |
+| 2025 EBIT-adj | $12.7B |
+| 2026E EPS | $11-13 |
+| P/E | ~7x (on midpoint) |
+| Dividend yield | ~0.8% |
 
-*Updated 2026-01-04*
+*Updated 2026-01-27*
 
 ---
 

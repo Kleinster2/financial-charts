@@ -141,7 +141,7 @@ See [[China power advantage]], [[Power constraints]], [[Export controls]].
 - [[Alibaba]] — Qwen
 - [[ByteDance]] — Doubao
 - [[Baidu]] — Ernie
-- Zhipu, Moonshot — rising stars
+- [[Zhipu]], [[Moonshot AI]] — rising stars
 - Manus — AI agent (global attention)
 
 ---

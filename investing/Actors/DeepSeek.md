@@ -1,7 +1,7 @@
 ---
 aliases: [DeepSeek AI, DeepSeek R1]
 ---
-#actor #china #ai #models
+#actor #china #ai #models #private
 
 **DeepSeek** — Hangzhou-based AI lab. DeepSeek R1 model notable for efficiency. Available on Azure, competitive with frontier models at lower cost.
 
@@ -15,9 +15,11 @@ China's most prominent open-ish AI lab, known for efficiency:
 |--------|-------|
 | HQ | [[Hangzhou]] |
 | Key model | DeepSeek R1 |
+| Global chatbot share | **4%** (vs ChatGPT 68%, Gemini 18%) |
 | Approach | Efficiency-focused, open weights |
 | Availability | Azure, Hugging Face, self-host |
 | Backed by | High-Flyer (quant fund) |
+| Next model | Expected within weeks (R2) |
 
 ---
 
@@ -101,6 +103,29 @@ One year later, DeepSeek published research validating their efficiency claims:
 
 ---
 
+## Government scrutiny (Jan 2026)
+
+| Country | Action |
+|---------|--------|
+| **Australia** | Banned from all government devices (security concerns) |
+| Various | Privacy policy scrutiny — stores data in China |
+
+DeepSeek's privacy policy explicitly states personal data stored on computers in China. Multiple governments reviewing security implications.
+
+---
+
+## One-year anniversary (Jan 27, 2026)
+
+**Today marks one year since [[DeepSeek day]]** — the Jan 27, 2025 crash that wiped $600B from [[NVIDIA]] and ~$1T from tech stocks overall.
+
+**What's changed:**
+- DeepSeek now at 4% global chatbot share (from zero)
+- [[MiniMax]], [[Zhipu]] IPOs validated Chinese AI sector
+- Startup valuations doubled ($10-20M → $20-40M)
+- US still dominant but gap narrowing
+
+---
+
 ## LiveBench rankings (Jan 2026)
 
 | Rank tier | Models |
@@ -143,18 +168,27 @@ Azure listing is notable — Microsoft offering Chinese model alongside OpenAI, 
 
 ---
 
-## Backing: High-Flyer
+## Cap table / Ownership
 
-DeepSeek is backed by High-Flyer (幻方量化), a major Chinese quant fund:
+**Unusual structure:** DeepSeek is not a typical VC-backed startup. It's an internal AI research division of High-Flyer (幻方量化).
 
 | Aspect | Details |
 |--------|---------|
+| Parent | High-Flyer (幻方量化) |
+| Structure | Internal division, not separate entity |
+| External funding | None announced |
+| Founder | Liang Wenfeng (also High-Flyer founder) |
+
+### High-Flyer (parent)
+
+| Metric | Value |
+|--------|-------|
 | Type | Quantitative hedge fund |
 | AUM | $8B+ |
+| HQ | [[Hangzhou]] |
 | Why AI | Compute for trading → AI research |
-| Approach | Patient capital, long-term research |
 
-**Unusual model:** Quant fund funding AI lab. Compute infrastructure repurposed.
+**Funding model:** Profits from quant trading fund AI research. No external VC rounds. This gives DeepSeek unusual patience and independence.
 
 ---
 
@@ -198,6 +232,18 @@ DeepSeek represents China's response to GPU constraints:
 
 ---
 
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Status | Private (High-Flyer subsidiary) |
+| Global chatbot share | 4% |
+| Key model | DeepSeek R1 |
+| HQ | [[Hangzhou]] |
+| Next model | R2 (expected Feb 2026) |
+
+---
+
 ## Investment implications
 
 **Private company** — not directly investable.
@@ -214,7 +260,7 @@ DeepSeek represents China's response to GPU constraints:
 
 ---
 
-*Updated 2026-01-04*
+*Updated 2026-01-27*
 
 ---
 

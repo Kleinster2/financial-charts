@@ -5,6 +5,9 @@ aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI, 2513.HK]
 
 **Zhipu** — Chinese AI model company. **First major Chinese AI startup to IPO** (Jan 8, 2026). Hong Kong listed.
 
+![[zhipu-price-chart.png]]
+*IPO'd at HK$116.20 (Jan 8), peaked HK$250 (+115%) mid-month, now trading HK$233 (+100% from IPO).*
+
 ---
 
 ## Why Zhipu matters
@@ -18,7 +21,8 @@ First Chinese AI lab to go public:
 | Market cap | ~$7.4B (HK$57.9B) |
 | IPO date | January 8, 2026 |
 | Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
-n**Tang Jie on US gap (Jan 2026):** "The real answer is that the gap may actually be widening."
+
+**Tang Jie on US gap (Jan 2026):** "The real answer is that the gap may actually be widening."
 
 ---
 
@@ -95,13 +99,44 @@ Part of wave of Chinese AI/chip firms listing in HK:
 
 ---
 
-*Created 2026-01-05, updated 2026-01-08 (IPO day)*
+---
+
+## Financials
+
+| Metric | Value |
+|--------|-------|
+| Status | Pre-profit AI startup |
+| IPO proceeds | $558M |
+| Market cap | ~$7.4B |
+| Use of proceeds | 70% to R&D |
+
+*Limited financial disclosure — typical for pre-profit AI lab. Revenue and profitability metrics not yet public.*
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | 2513.HK |
+| IPO date | Jan 8, 2026 |
+| IPO price | HK$116.20 |
+| Market cap | ~$7.4B |
+| HQ | Beijing |
+| Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
+
+*Updated 2026-01-27*
 
 ---
 
 ## Related
 
+### Products
+- [[GLM]] — AI model (GLM-4.7, $3/mo coding)
+
+### Competitors/Peers
 - [[MiniMax]] — peer (HK IPO same week)
+- [[Moonshot AI]] — peer (Tiger, private)
 - [[Biren Tech]] — peer (HK IPO, chips)
 - [[DeepSeek]] — competitor (China AI leader)
 - [[Asia IPO pipeline 2026]] — context

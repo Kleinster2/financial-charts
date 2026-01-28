@@ -258,6 +258,10 @@ See [[Short interest]] for interpretation framework.
 
 ## Related
 
+### Products
+- [[Gemini]] — AI model (650M MAU, #3 global)
+
+### Partners/Competitors
 - [[Broadcom]] — TPU design partner (disintermediating)
 - [[MediaTek]] — alternative chip partner (Zebrafish)
 - [[TSMC]] — foundry (via Broadcom TPUs)

@@ -48,6 +48,7 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 | Company | Sector | Est. valuation | Status |
 |---------|--------|----------------|--------|
 | [[Revolut]] | Neobank | $75B | 65M customers |
+| [[PicPay]] | Brazil neobank | $2.5B | **3x oversubscribed** (Jan 27) — first Brazil IPO since 2021 |
 | ~~[[Brex]]~~ | ~~Corp cards~~ | ~~$12.3B~~ | **Acquired by Capital One $5.15B** (Jan 22) |
 | Klarna | BNPL | $15B+ | Path to profitability |
 | Stripe | Payments | $50B+ | No confirmed timeline |
@@ -97,9 +98,11 @@ aliases: [IPO pipeline 2026, 2026 IPOs]
 ## Asia pipeline
 
 See [[Asia IPO pipeline 2026]] for detailed coverage:
-- **China AI/Tech:** ChangXin, YMTC, Kunlunxin, Biren
-- **India:** Jio Platforms, PhonePe, Flipkart
-- **Japan:** PayPay, 7-Eleven N.A. spinoff
+- **China AI/Tech:** ChangXin, YMTC, Kunlunxin, Biren, Syngenta
+- **India:** Jio, PhonePe, Flipkart, Zepto, NSE India, SBI Funds
+- **Japan:** PayPay, SmartNews, 7-Eleven N.A. spinoff
+- **Korea:** Toss ($10-15B US listing)
+- **HK/SEA:** A.S. Watson, GCash, Sunway Healthcare
 - **HK secondary listings:** Zhongji Innolight, Luxshare
 
 ---
@@ -110,9 +113,10 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 |-------|-----------|
 | **AI infrastructure** | Databricks, Cerebras, Anthropic, OpenAI |
 | **Space** | SpaceX (largest ever) |
-| **Fintech maturation** | Revolut, Brex, Klarna |
+| **Fintech maturation** | Revolut, PicPay, Klarna |
 | **China self-reliance** | Biren, Kunlunxin, ChangXin, YMTC |
 | **India digitization** | Jio, PhonePe |
+| **LatAm reopening** | PicPay (first Brazil IPO since Nubank 2021) |
 
 ---
 
@@ -136,8 +140,14 @@ See [[Asia IPO pipeline 2026]] for detailed coverage:
 - [[Cerebras]] — AI chips
 - [[Quantinuum]] — quantum computing
 - [[Revolut]] — neobank
+- [[PicPay]] — Brazil fintech (first LatAm IPO since 2021)
 - [[Lime]] — micromobility
 - [[OTB]] — luxury holding
 - [[Zhipu]] — first China AI IPO
+- [[A.S. Watson]] — HK+London retail ($30B)
+- [[Flipkart]] — India e-commerce ($60-70B)
+- [[Toss]] — Korea fintech US listing
+- [[GCash]] — Philippines fintech
+- [[NSE India]] — India stock exchange
 
 *Created 2026-01-24*

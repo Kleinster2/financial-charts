@@ -135,8 +135,26 @@ $500B AI infrastructure initiative.
 
 ---
 
+## Network position
+
+![[abu-dhabi-swf-network.png]]
+*MGX ($100B target) at center of Abu Dhabi's AI strategy, co-founded by Mubadala and G42. (Bloomberg, Dec 2025)*
+
+---
+
+## AI investment acceleration
+
+![[abu-dhabi-ai-investments.png]]
+*MGX (red dashed) creation in 2024 marked acceleration of Abu Dhabi AI deals. (Bloomberg, Dec 2025)*
+
+---
+
 ## Related
 
+- [[Sheikh Tahnoon bin Zayed Al Nahyan]] — Chairman
+- [[Mubadala]] — co-founder
+- [[G42]] — co-founder
+- [[Abu Dhabi Sovereign Wealth]] — ecosystem overview
 - [[xAI]] — portfolio company
 - [[OpenAI]] — portfolio company
 - [[Anthropic]] — portfolio company

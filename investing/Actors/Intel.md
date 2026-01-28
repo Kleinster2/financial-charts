@@ -156,16 +156,22 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 ---
 
-## CES 2026
+## Intel 18A launch (Jan 27, 2026)
 
-| Announcement | Details |
-|--------------|---------|
-| **Panther Lake** | Core Ultra Series 3 — first Intel 18A chips |
-| **iGPU performance** | 77% faster vs Lunar Lake |
-| **Handheld gaming** | New platform announced |
-| **Available** | January 6, 2026 |
+**TODAY:** 14 Core Ultra Series 3 SKUs available globally across 200+ PC designs.
 
-**Significance:** First 18A products shipping — key turnaround milestone.
+| Spec | Details |
+|------|---------|
+| **Process** | Intel 18A (first chips) |
+| **Top SKU** | 16 CPU cores, 12 Xe-cores, 50 NPU TOPS |
+| **Multithread** | +60% vs prior gen |
+| **Gaming (iGPU)** | +77% vs Lunar Lake |
+| **Battery** | Up to 27 hours |
+| **New tier** | Core Ultra X9/X7 — highest integrated Arc graphics |
+| **Platform** | Mobile only (desktop stays on Arrow Lake) |
+| **Edge systems** | Q2 2026 |
+
+**Significance:** First 18A products shipping — "most advanced semiconductor process ever manufactured in the United States." Key turnaround milestone after years of process delays.
 
 See [[CES 2026]] for event context.
 
@@ -227,7 +233,7 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | Model | IDM (design + fabs) |
 | Gross margin | 37.9% (Q4), 34.5% (Q1 guide) |
 
-*Updated 2026-01-23*
+*Updated 2026-01-27*
 
 ---
 

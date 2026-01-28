@@ -99,11 +99,13 @@ Chinese firms already listed in mainland seeking HK capital:
 | Company | Amount | Exchange | Notes |
 |---------|--------|----------|-------|
 | [[SK Hynix]] | — | NY | Valuation gap vs Micron |
-| Toss Bank | — | US Q2 | Korean super app |
+| [[Toss]] | $2-3B | US Q2 | Korean super app, $10-15B val |
 | [[Shein]] | — | HK | Needs Beijing approval |
-| MMC Port | $2B | Malaysia | Postponed from 2025 |
-| Sunway Healthcare | $700M | Malaysia | March 2026 |
-| GCash | — | Manila H2 | Philippine fintech |
+| ~~[[MMC Port Holdings]]~~ | ~~$2B~~ | ~~Malaysia~~ | **Likely scrapped** — valuation disputes |
+| [[Sunway Healthcare]] | $700M | Malaysia | Q1 2026, 27x EV/EBITDA |
+| [[GCash]] | $800M-1.5B | Manila H2 | $8B val, largest PH IPO |
+| [[A.S. Watson]] | $2B | HK+London | $30B val, CK Hutchison/Temasek |
+| [[SmartNews]] | — | Tokyo | $2B val, news aggregator |
 
 ---
 
@@ -136,4 +138,15 @@ Chinese firms already listed in mainland seeking HK capital:
 - [[SK Hynix]] — NY listing exploration
 - [[Jio Platforms]] — India mega IPO
 - [[PhonePe]] — India fintech ($15B)
+- [[Flipkart]] — India e-commerce ($60-70B)
+- [[Zepto]] — India quick commerce ($7B)
+- [[NSE India]] — India stock exchange ($58B)
+- [[SBI Funds Management]] — India AMC ($14B)
 - [[Shein]] — HK pending Beijing
+- [[A.S. Watson]] — HK+London retail ($30B)
+- [[Syngenta Group]] — Shanghai agtech ($60B)
+- [[Toss]] — Korea fintech, US listing ($10-15B)
+- [[GCash]] — Philippines fintech ($8B)
+- [[SmartNews]] — Japan news app ($2B)
+- [[Sunway Healthcare]] — Malaysia hospitals
+- [[MMC Port Holdings]] — Malaysia ports (likely scrapped)

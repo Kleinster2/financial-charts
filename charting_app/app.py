@@ -2926,17 +2926,18 @@ def get_chart_lw():
     from playwright.sync_api import sync_playwright
 
     tickers_param = request.args.get('tickers', '').strip().upper()
-    if not tickers_param:
-        return jsonify({'error': 'tickers parameter required'}), HTTP_BAD_REQUEST
+    product_param_early = request.args.get('product', '').strip()  # Check early for product mode
 
-    # Parse and resolve tickers
-    tickers = [resolve_ticker_alias(t.strip()) for t in tickers_param.split(',') if t.strip()]
-    if not tickers:
-        return jsonify({'error': 'No valid tickers provided'}), HTTP_BAD_REQUEST
+    # tickers required unless in product mode
+    if not tickers_param and not product_param_early:
+        return jsonify({'error': 'tickers parameter required (or use product parameter)'}), HTTP_BAD_REQUEST
+
+    # Parse and resolve tickers (may be empty for product mode)
+    tickers = [resolve_ticker_alias(t.strip()) for t in tickers_param.split(',') if t.strip()] if tickers_param else []
 
     start_date = request.args.get('start', '')
     end_date = request.args.get('end', '')
-    title = request.args.get('title', ', '.join(tickers))
+    title = request.args.get('title', ', '.join(tickers) if tickers else product_param_early or 'Chart')
     width = int(request.args.get('width', 1200))
     height = int(request.args.get('height', 800))
     show_title = request.args.get('show_title', 'true').lower() != 'false'
@@ -2957,6 +2958,118 @@ def get_chart_lw():
                 labels[key.strip().upper()] = val.strip()
 
     metrics_param = request.args.get('metrics', '').strip().lower()
+    product_param = product_param_early  # Already parsed above
+    product_metrics_param = request.args.get('product_metrics', '').strip().lower()  # e.g., global_mau,revenue
+
+    # Product metrics mapping
+    product_metric_map = {
+        'global_mau': ('Global MAU', 'M'),
+        'us_mau': ('US MAU', 'M'),
+        'revenue': ('Revenue', 'B'),
+        'dau': ('DAU', 'M'),
+    }
+
+    # Handle product metrics (e.g., TikTok MAU/DAU/Revenue)
+    if product_param and product_metrics_param:
+        prod_metrics = [m.strip() for m in product_metrics_param.split(',') if m.strip() in product_metric_map]
+        if not prod_metrics:
+            return jsonify({'error': f'No valid product metrics. Options: {", ".join(product_metric_map.keys())}'}), HTTP_BAD_REQUEST
+
+        try:
+            conn = get_db_connection()
+            chart_data = {}
+
+            for metric in prod_metrics:
+                label, unit = product_metric_map[metric]
+                series_name = f"{product_param} {label}"
+
+                query = """
+                    SELECT date, value
+                    FROM product_metrics
+                    WHERE product = ? AND metric = ?
+                """
+                params = [product_param, metric]
+                if start_date:
+                    query += " AND date >= ?"
+                    params.append(start_date)
+                if end_date:
+                    query += " AND date <= ?"
+                    params.append(end_date)
+                query += " ORDER BY date ASC"
+
+                df = pd.read_sql(query, conn, params=params)
+
+                if not df.empty:
+                    data_points = []
+                    for _, row in df.iterrows():
+                        try:
+                            date_str = pd.to_datetime(row['date']).strftime('%Y-%m-%d')
+                            value = row['value']
+                            if pd.notna(value):
+                                data_points.append({'time': date_str, 'value': float(value)})
+                        except Exception:
+                            continue
+                    if data_points:
+                        chart_data[series_name] = data_points
+
+            conn.close()
+
+            if not chart_data:
+                return jsonify({'error': f'No product metrics data found for {product_param}'}), HTTP_NOT_FOUND
+
+            # Build pane groups for multi-metric charts
+            pane_groups = {}
+            if len(prod_metrics) > 1:
+                for metric in prod_metrics:
+                    label, _ = product_metric_map[metric]
+                    matching_series = [s for s in chart_data.keys() if label in s]
+                    if matching_series:
+                        pane_groups[label] = matching_series
+
+            # Update title if not custom
+            if title == ', '.join(tickers):
+                metric_labels = [product_metric_map[m][0] for m in prod_metrics]
+                title = f"{product_param} — {', '.join(metric_labels)}"
+
+            chart_config = {
+                'data': chart_data,
+                'title': title,
+                'width': width,
+                'height': height,
+                'showTitle': show_title,
+                'showLastDate': show_last_date,
+                'showLastValue': show_last_value,
+                'normalize': normalize,
+                'isFundamentals': True,  # Use bar chart style
+                'forecastStart': forecast_start if forecast_start else None,
+                'labels': labels if labels else None,
+                'separatePanes': len(prod_metrics) > 1,
+                'paneGroups': pane_groups if pane_groups else None
+            }
+
+            # Render with Playwright
+            from playwright.sync_api import sync_playwright
+            template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+
+            with sync_playwright() as p:
+                browser = p.chromium.launch(headless=True)
+                page = browser.new_page(viewport={'width': width, 'height': height})
+                page.goto(f'file://{template_path}')
+                page.evaluate(f'''
+                    window.CHART_CONFIG = {json.dumps(chart_config)};
+                    renderChart(window.CHART_CONFIG);
+                ''')
+                page.wait_for_function('window.chartReady === true', timeout=10000)
+                page.wait_for_timeout(200)
+                screenshot_bytes = page.screenshot(type='png')
+                browser.close()
+
+            return Response(screenshot_bytes, mimetype='image/png')
+
+        except Exception as e:
+            app.logger.error(f"Product metrics chart error: {e}")
+            traceback.print_exc()
+            return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
     # Fundamentals metric mapping
     metric_map = {
@@ -3044,6 +3157,16 @@ def get_chart_lw():
                 metric_labels = [metric_map[m][2] for m in metrics]
                 title = f"{', '.join(tickers)} — {', '.join(metric_labels)}"
 
+            # Build pane groups for multi-metric charts (separate panes for each metric)
+            pane_groups = {}
+            if len(metrics) > 1:
+                for metric in metrics:
+                    label = metric_map[metric][2]
+                    # Find all series for this metric
+                    matching_series = [s for s in chart_data.keys() if label in s]
+                    if matching_series:
+                        pane_groups[label] = matching_series
+
             chart_config = {
                 'data': chart_data,
                 'title': title,
@@ -3055,7 +3178,9 @@ def get_chart_lw():
                 'normalize': normalize,
                 'isFundamentals': True,
                 'forecastStart': forecast_start if forecast_start else None,
-                'labels': labels if labels else None
+                'labels': labels if labels else None,
+                'separatePanes': len(metrics) > 1,
+                'paneGroups': pane_groups if pane_groups else None
             }
 
             # Render with Playwright

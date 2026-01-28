@@ -7,6 +7,47 @@ aliases: [AAL, American]
 
 ---
 
+## Jan 27, 2026: Earnings miss on shutdown + storm
+
+**Stock -5%** — missed Q4 earnings despite record revenue. External shocks hit harder than peers.
+
+### Q4 2025 miss
+
+| Metric | Result | Estimate |
+|--------|--------|----------|
+| EPS (adj) | **$0.16** | $0.38 |
+| Revenue | $14.0B (record) | — |
+
+### Government shutdown impact
+
+| Impact | Amount |
+|--------|--------|
+| Q4 revenue hit | **$325M** |
+| Government traffic | Down **50%** YoY |
+| Domestic PRASM | -2.5% (would've been positive ex-shutdown) |
+
+CEO Isom: "The government shutdown hit us harder than others" — heavy exposure to DFW government travel.
+
+### Winter Storm Fern
+
+| Metric | Impact |
+|--------|--------|
+| Cancellations | **9,000+** (largest weather disruption ever) |
+| Q1 2026 revenue hit | $150-200M expected |
+
+### 2026 outlook (strong)
+
+| Metric | Guidance |
+|--------|----------|
+| EPS | **$1.70-2.70** (vs $1.97 est) |
+| Q1 revenue | +7-10% YoY |
+| Free cash flow | >$2B |
+| January bookings | "All-time records" for first 3 weeks |
+
+Bookings "strengthened meaningfully in January" after soft late-Q4.
+
+---
+
 ## Why American matters
 
 | Metric | Value |
@@ -76,9 +117,12 @@ aliases: [AAL, American]
 | Metric | Value |
 |--------|-------|
 | Ticker | AAL |
-| Revenue | ~$53B |
+| Revenue | $54.6B (2025, record) |
+| 2026E EPS | $1.70-2.70 |
 | Fleet | 950+ (largest) |
-| Challenge | Debt load |
+| Challenge | Debt load, shutdown exposure |
+
+*Updated 2026-01-27*
 
 ---
 

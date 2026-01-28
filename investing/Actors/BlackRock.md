@@ -144,8 +144,27 @@ Passive flows drive AI stock demand.
 
 ---
 
+## Abu Dhabi sovereign wealth relationships
+
+![[abu-dhabi-finance-investments.png]]
+*Abu Dhabi SWFs have poured billions into BlackRock partnerships. (Bloomberg, Dec 2025)*
+
+| Partnership | Amount | Detail |
+|-------------|--------|--------|
+| [[ADIA]] allocations | $14B+ (various) | Long-term investor |
+| [[Mubadala]] AI infra | $30B | Data centers + energy with Microsoft |
+| [[MGX]] Aligned Data Centers | $40B | Largest DC deal ever (w/ GIP) |
+
+Abu Dhabi sovereign funds are among BlackRock's most important global clients — Larry Fink makes regular trips to the emirate.
+
+---
+
 ## Related
 
+- [[Abu Dhabi Sovereign Wealth]] — major sovereign client ecosystem
+- [[ADIA]] — $14B+ allocation
+- [[Mubadala]] — $30B AI infrastructure partnership
+- [[MGX]] — $40B Aligned Data Centers consortium
 - [[NVIDIA]] — largest holding (via index funds)
 - [[Microsoft]] — largest holding, Aladdin partner
 - [[JPMorgan Chase]] — peer (financial services)

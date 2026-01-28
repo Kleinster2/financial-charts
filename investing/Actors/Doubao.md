@@ -129,13 +129,13 @@ See [[ByteDance]] for GPU spending details.
 
 ## Competitive position
 
-| Competitor | Strength | vs Doubao |
-|------------|----------|-----------|
-| [[DeepSeek]] | Reasoning, open weights | Doubao has distribution |
-| [[Alibaba]] Qwen | Enterprise, open source | Doubao has consumer scale |
-| Tencent Yuanbao | WeChat integration | Doubao has 2x users |
-| Baidu Ernie | Search integration | Doubao more engaging |
-| ChatGPT | Global leader | Not available in China |
+| Competitor              | Strength                | vs Doubao                 |
+| ----------------------- | ----------------------- | ------------------------- |
+| [[DeepSeek]]            | Reasoning, open weights | Doubao has distribution   |
+| [[Alibaba]] Qwen        | Enterprise, open source | Doubao has consumer scale |
+| [[Tencent]] [[Yuanbao]] | WeChat integration      | Doubao has 2x users       |
+| [[Baidu]] [[Ernie]]     | Search integration      | Doubao more engaging      |
+| [[ChatGPT]]             | Global leader           | Not available in China    |
 
 **Why Doubao leads:**
 1. Distribution (Douyin/ByteDance ecosystem)

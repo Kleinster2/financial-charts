@@ -328,6 +328,10 @@ See [[Short interest]] for interpretation framework.
 
 ## Related
 
+### Products
+- [[Llama]] — AI model (1.2B downloads, open weights)
+
+### Partners/Competitors
 - [[AI hyperscalers]] — Tier 1 spender ($65B capex)
 - [[NVIDIA]] — primary GPU supplier (350K H100s + 400K Blackwell)
 - [[TSMC]] — foundry (via NVIDIA)
@@ -344,3 +348,4 @@ See [[Short interest]] for interpretation framework.
 - [[Siemens Energy]] — power supplier (Socrates South)
 - [[Blue Owl]] — Hyperion DC JV partner
 - [[Anduril]] — defense partnership (AI helmet, Jan 2026)
+- [[Corning]] — $6B fiber-optic deal for AI data centers (Jan 2026)

@@ -136,6 +136,10 @@ Tencent is also a major tech investor, not just operator.
 
 ## Related
 
+### Products
+- [[Hunyuan]] — AI model (90% of WeChat question queries)
+
+### Competitors/Peers
 - [[Alibaba]] — competitor (cloud #1 vs #2)
 - [[ByteDance]] — competitor (Doubao vs Hunyuan)
 - [[Baidu]] — competitor (China AI)

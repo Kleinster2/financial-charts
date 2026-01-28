@@ -1,3 +1,6 @@
+---
+aliases: [000660.KS]
+---
 #actor #memory #korea #packaging
 
 **SK Hynix** — Korean memory manufacturer, leader in HBM (High Bandwidth Memory) for AI.
@@ -58,6 +61,9 @@ SK Hynix dominates HBM but depends on [[TSMC]] for [[Advanced packaging|packagin
 ---
 
 ## Financials
+
+![[skhynix-fundamentals.png]]
+*Revenue and net income show classic memory cyclicality — 2018 supercycle, 2023 downturn (-$7.8B loss), 2024-2025 HBM-driven recovery.*
 
 ### Annual (10 years)
 
@@ -125,11 +131,24 @@ SK Hynix isn't a foundry, but:
 
 ---
 
+## HBM market position (Jan 2026)
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| **Total HBM market share** | **50%+** | Goldman Sachs |
+| HBM3/HBM3E dominance | Through at least 2026 | Goldman Sachs |
+| 2026 HBM market size | **$54.6B** (+58% YoY) | Bank of America |
+| Custom ASIC HBM demand | +82% YoY (⅓ of market) | Goldman Sachs |
+
+**Analyst view:** Goldman Sachs assesses SK Hynix "will maintain its dominant position in HBM3 and HBM3E until at least 2026."
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| HBM position | #1 globally |
+| HBM position | #1 globally (**50%+ share**) |
 | HBM4 status | **Paid samples delivered to NVIDIA** (Dec 2025) |
 | HBM3E pricing | **+20% for 2026** |
 | Q4 2025 gross margin | **63-67%** (exceeding TSMC, first since Q4 2018) |
@@ -137,7 +156,7 @@ SK Hynix isn't a foundry, but:
 | 2.5D mass production | Targeting 2028 |
 | US listing | Exploring (2026) |
 
-*Updated 2026-01-23*
+*Updated 2026-01-27*
 
 ---
 

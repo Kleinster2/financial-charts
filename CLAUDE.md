@@ -134,12 +134,22 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&start=2020-01-01" \
 curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&start=2020-01-01&normalize=true" \
   -o investing/attachments/aapl-vs-qqq.png
 
-# Fundamentals
-curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue" \
-  -o investing/attachments/aapl-revenue.png
+# Fundamentals (standard: revenue + net income in separate panes)
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome" \
+  -o investing/attachments/aapl-fundamentals.png
 ```
 
-**API parameters:** `tickers` (required), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (false — legend already shows ticker), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low), `primary` (actor ticker — always gets first color, blue #2962FF)
+**Fundamentals charts use separate panes** when multiple metrics are requested. Revenue and net income have different scales (revenue always positive and large, net income can be negative and smaller), so they render in stacked panes with independent Y-axes. This is automatic — just include both metrics.
+
+**API parameters:** `tickers` (required for stocks), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (false — legend already shows ticker), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low), `primary` (actor ticker — always gets first color, blue #2962FF)
+
+**Product metrics (for #product notes):** Use `product` and `product_metrics` instead of `tickers`:
+```bash
+# TikTok usage chart (MAU + revenue in separate panes)
+curl "http://localhost:5000/api/chart/lw?product=TikTok&product_metrics=global_mau,revenue" \
+  -o investing/attachments/tiktok-usage.png
+```
+Available product_metrics: `global_mau`, `us_mau`, `dau`, `revenue`. Data must be added to `product_metrics` table first via deep research.
 
 **Naming:** `aapl-price-chart.png`, `tsmc-vs-samsung-foundry.png`, `nvda-2024-rally.png`
 
@@ -324,6 +334,183 @@ Note: `forecast_start` should be the day after the last actual quarter (e.g., 20
 
 ---
 
+## Before creating public company notes
+
+**Do this BEFORE writing the note — not after.**
+
+### 1. Check if price data exists
+
+```bash
+sqlite3 market_data.db "PRAGMA table_info(stock_prices_daily);" | findstr /i "TICKER"
+```
+
+### 2. If ticker missing, add it
+
+```python
+import yfinance as yf
+import sqlite3
+
+conn = sqlite3.connect('market_data.db')
+ticker = 'TICKER'
+t = yf.Ticker(ticker)
+hist = t.history(period='max')
+
+try:
+    conn.execute(f'ALTER TABLE stock_prices_daily ADD COLUMN "{ticker}" REAL')
+except: pass  # column exists
+
+for date, row in hist.iterrows():
+    date_str = date.strftime('%Y-%m-%d') + ' 00:00:00'
+    conn.execute(f'UPDATE stock_prices_daily SET "{ticker}" = ? WHERE Date = ?',
+                (row['Close'], date_str))
+conn.commit()
+```
+
+### 3. Check if financials exist
+
+```bash
+sqlite3 market_data.db "SELECT COUNT(*) FROM income_statement_quarterly WHERE ticker='TICKER';"
+```
+
+### 4. If financials missing, fetch them
+
+**Option A: Use fetch_fundamentals.py (preferred for US stocks)**
+
+```bash
+# Fetch fundamentals via Alpha Vantage API
+python fetch_fundamentals.py TICKER
+
+# Check freshness status
+python fetch_fundamentals.py --status
+```
+
+**Option B: Manual backfill (for international stocks not on Alpha Vantage)**
+
+Search web for quarterly revenue/net income data (macrotrends, SimplyWallSt, stockanalysis.com), then:
+
+```python
+import sqlite3
+conn = sqlite3.connect('market_data.db')
+
+# Example: (ticker, date, revenue, net_income)
+data = [
+    ('TICKER', '2024-12-31', 10000000000, 1000000000),
+    # ... more quarters
+]
+
+for row in data:
+    conn.execute('''
+        INSERT OR REPLACE INTO income_statement_quarterly 
+        (ticker, fiscal_date_ending, total_revenue, net_income)
+        VALUES (?, ?, ?, ?)
+    ''', row)
+conn.commit()
+```
+
+### 5. Generate charts BEFORE creating note
+
+```bash
+# Start charting app
+cd /c/Users/klein/financial-charts && python charting_app/app.py
+
+# Price chart with peers
+curl "http://localhost:5000/api/chart/lw?tickers=TICKER,PEER1,BENCHMARK&normalize=true&primary=TICKER&start=2020-01-01" \
+  -o investing/attachments/ticker-price-chart.png
+
+# Fundamentals chart
+curl "http://localhost:5000/api/chart/lw?tickers=TICKER&metrics=revenue,netincome&start=2015-01-01" \
+  -o investing/attachments/ticker-fundamentals.png
+```
+
+### 6. Verify charts rendered correctly
+
+Read the generated images to confirm all tickers appear and have data.
+
+**Never add "charts omitted" disclaimers.** Either:
+- Do the work to add data and generate charts, OR
+- Create an explicit TODO with timeline (and actually do it)
+
+Notes should be complete on creation, not patched later.
+
+---
+
+## Actor note completion checklist
+
+**Run this before marking any public actor note "done" (companies AND ETFs):**
+
+### Currency (MUST DO FIRST)
+- [ ] **Web search for recent news** before reviewing note content
+- [ ] Key facts reflect current state (not stale by weeks/months)
+- [ ] Major developments since last update are captured
+- [ ] Numbers are latest available (MAU, revenue, valuations, ownership stakes)
+
+### Specificity
+- [ ] **No lazy shorthand** — "American-owned" unacceptable without: who owns what %, board composition, economic rights vs equity, operational control
+- [ ] Ownership changes include: exact stakes, governance, economic rights (may differ from equity), retained rights, compliance concerns
+- [ ] Revenue/valuation claims have exact figures, not "significant" or "major"
+- [ ] Partnerships/deals specify: terms, duration, exclusivity, economics
+
+See [[Note structures#Currency and specificity]] for full requirements.
+
+### Charts
+- [ ] Price chart exists (all public instruments need one)
+- [ ] Price chart uses `primary=TICKER` (actor is always blue)
+- [ ] Price chart has actor + peers/benchmark (companies: actor + peers + sector ETF; ETFs: vs SPY or parent index)
+- [ ] Fundamentals chart exists (companies only, not ETFs)
+- [ ] Read the generated images to verify they rendered correctly
+- [ ] Chart captions mention all tickers shown
+- [ ] **Research major moves before explaining them** — don't fabricate explanations for outperformance/underperformance; web search the actual causes (earnings, macro, sector events)
+- [ ] **Link chart captions to vault notes** — when explaining moves, link to relevant actors/concepts in the vault; flag gaps if key topics lack notes
+
+### Links
+- [ ] Every company/person/product in tables is `[[wikilinked]]`
+- [ ] Every company/person/product in body text is `[[wikilinked]]`
+- [ ] Related section includes all entities linked in the note
+
+### Quick link audit
+```bash
+# Find potential unlinked entities (capitalized words not in wikilinks)
+grep -oE '\b[A-Z][a-z]+\b' note.md | sort -u
+```
+
+Compare against wikilinks in the note. If a proper noun appears without `[[brackets]]`, fix it.
+
+### Automated compliance check
+
+**REQUIRED:** After creating or modifying any actor note, run the compliance checker and fix all errors before marking the note complete:
+
+```bash
+python scripts/check_note_compliance.py investing/Actors/NewNote.md
+```
+
+**Workflow:**
+1. **Web search first** — verify note reflects current reality
+2. Update any stale content with specificity (no lazy shorthand)
+3. Create/modify the note
+4. Run the checker
+5. Fix any errors (red)
+6. Address warnings if reasonable (yellow)
+7. Only then mark the note complete
+
+**What it checks (automated):**
+- Dead links (wikilinks to non-existent notes)
+- Missing price charts (public companies and ETFs)
+- Missing fundamentals charts (companies only)
+- Missing chart captions
+- Missing Related section
+- Missing Quick stats section
+- Missing historical financials (10-year for public companies)
+- Missing cap table (private companies)
+
+**What it does NOT check (manual):**
+- Currency — is the note up to date?
+- Specificity — are claims drilled with real detail?
+- These must be verified via web search BEFORE running the checker.
+
+**Exit codes:** 0 = pass (warnings OK), 1 = errors found
+
+---
+
 # Vault Guidelines
 
 ## Philosophy
@@ -400,8 +587,29 @@ Don't just add a wikilink and move on. If you're touching a note, refresh it.
 3. **Regional actors stay high-level** — specific news goes on specific actors
 4. **Always update daily notes** — use event date, not article date
 5. **Check for events** — M&A, bankruptcy, IPO → create Event note
+6. **Recognize systemic events** — see below
 
 See [[Note structures]] for event criteria and templates.
+
+### Systemic vs company-specific news
+
+**If a single event affects multiple actors, create a Concept or Event note FIRST.**
+
+| Signal | Action |
+|--------|--------|
+| Same news hits 2+ companies | Create concept/event note first |
+| Policy/regulatory change | Concept note for the policy |
+| Sector-wide selloff | Concept note for the catalyst |
+| Macro event (rates, tariffs) | Concept note |
+
+**Then** update actor notes to:
+- Link to the concept for systemic context
+- Focus only on company-specific impact
+
+**Wrong:** Repeat the same policy explanation in UNH, HUM, CVS notes.
+**Right:** Create [[Medicare Advantage]] concept, actor notes link to it.
+
+Actor notes should answer "how does this affect THIS company specifically?" — not re-explain what happened to the whole sector.
 
 ## Conventions
 
@@ -421,23 +629,65 @@ See [[Note structures]] for the standard daily note template. **Vault activity i
 
 When user asks for "today's news", cover these categories:
 
+**CRITICAL: Use exact date format.** `"January 27 2026"` not `"January 2026"`. Month-only queries return the month's biggest stories (e.g., CES), not today's news.
+
 | Category | Search terms |
 |----------|--------------|
-| **Markets** | "stock market news [date]" |
-| **Semiconductors** | "semiconductor chip news [date]" |
-| **AI/Tech** | "AI news [date]" |
-| **China macro** | "China economy news [date]" |
-| **China tech** | "China tech news [date]" |
-| **Fed/Rates** | "Federal Reserve news [date]" |
-| **Energy/Nuclear** | "energy power grid news [date]", "nuclear power news [date]" |
-| **Robotics** | "robotics humanoid news [date]" |
-| **Japan tech** | "Japan semiconductor news [date]" |
-| **Korea semis** | "Korea semiconductor memory news [date]" |
-| **Trade/Tariffs** | "tariffs trade war news [date]", "export controls [date]" |
-| **Europe** | "Europe tech news [date]", "ECB news [date]" |
+| **Market movers** | "biggest stock gainers losers [exact date]" |
+| **Markets** | "stock market news [exact date]" |
+| **Semiconductors** | "semiconductor chip news [exact date]" |
+| **AI/Tech** | "AI news [exact date]" |
+| **China macro** | "China economy news [exact date]" |
+| **China tech** | "China tech news [exact date]" |
+| **Fed/Rates** | "Federal Reserve news [exact date]" |
+| **Energy/Nuclear** | "energy power grid news [exact date]" |
+| **Robotics** | "robotics humanoid news [exact date]" |
+| **Japan tech** | "Japan semiconductor news [exact date]" |
+| **Korea semis** | "Korea semiconductor memory news [exact date]" |
+| **Trade/Tariffs** | "tariffs trade war news [exact date]" |
+| **Europe** | "Europe tech news [exact date]" |
 | **Earnings** | Check calendar for major reports |
 
+**Market movers catch what categories miss.** Corning +16.6% on Meta deal wouldn't appear in "semiconductor" or "AI" searches — but it's a top mover.
+
 **Don't miss:** China domestic news (GDP, [[NDRC]], stimulus, regulatory) — often absent from US-focused searches.
+
+### Verify before reporting
+
+**Summary articles recycle recent news as "context."** A search for "AI news January 27" often returns roundups that mention December deals as background. This pollutes results with stale news presented as current.
+
+**For any major deal, acquisition, or announcement mentioned:**
+1. Search `"[company] [deal] announcement date"` to verify when it actually happened
+2. If older than 3 days, classify as "Recent" not "Today"
+
+**Present news in two sections:**
+
+| Section | Criteria |
+|---------|----------|
+| **Confirmed Today** | Verified same-day (earnings, FOMC, policy, stock moves with %) |
+| **Recent (Not Today)** | Mentioned in today's articles but announced earlier — include actual date |
+
+**High-confidence "today" signals:**
+- Earnings reports (scheduled dates)
+- FOMC meetings (Fed calendar)
+- Policy announcements with effective dates
+- Stock moves with real-time % changes
+
+**Red flags for recycled news:**
+- Acquisitions/deals (often announced weeks ago)
+- "Landmark" or "historic" framing (journalists rehash for context)
+- Round-number valuations without transaction details
+
+### Follow up on big movers
+
+**Any stock move >10% needs a "why" search.** Don't just list the ticker and percentage.
+
+For each major mover:
+1. Search `"[ticker] stock why up/down [date]"`
+2. Identify the catalyst (earnings, deal, upgrade, macro)
+3. Include in report with context
+
+Big moves often reveal deals/news that category searches miss (e.g., Corning +17% on Meta fiber deal wouldn't appear in "semiconductor" or "AI" searches).
 
 ## Key actors to track
 
