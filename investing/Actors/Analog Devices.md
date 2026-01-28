@@ -12,9 +12,41 @@ aliases: [ADI]
 | Metric | Value |
 |--------|-------|
 | Ticker | ADI (NASDAQ) |
-| Market cap | ~$110B |
+| Market cap | ~$149B |
 | Position | #2 analog (after Texas Instruments) |
-| FY2025 revenue | $11B+ |
+| FY2025 revenue | $11.0B |
+
+---
+
+## Price vs peers
+
+![[adi-vs-peers.png]]
+
+ADI has significantly outperformed analog peers over 7 years, driven by premium positioning in high-performance mixed-signal. The Maxim acquisition (2021) created a step-change in scale.
+
+---
+
+## 10-year financials
+
+| FY | Revenue ($B) | Net Income ($B) | Margin |
+|----|-------------|-----------------|--------|
+| 2025 | 11.02 | 2.27 | 20.6% |
+| 2024 | 9.43 | 1.64 | 17.4% |
+| 2023 | 12.31 | 3.32 | 27.0% |
+| 2022 | 12.01 | 2.75 | 22.9% |
+| 2021 | 7.32 | 1.39 | 19.0% |
+| 2020 | 5.60 | 1.22 | 21.8% |
+| 2019 | 5.99 | 1.36 | 22.7% |
+| 2018 | 6.23 | 1.50 | 24.1% |
+| 2017 | 5.25 | 0.81 | 15.4% |
+| 2016 | 3.42 | 0.86 | 25.1% |
+| 2015 | 3.44 | 0.70 | 20.3% |
+
+**Key observations:**
+- Revenue 3.2x growth over 10 years (CAGR ~12%)
+- 2021-2022 jump reflects Maxim acquisition ($21B, closed Aug 2021)
+- FY2023 peak margins compressed in FY2024 cyclical downturn
+- FY2025 recovery underway with 17% revenue growth YoY
 
 ---
 
@@ -109,12 +141,12 @@ ADI = premium analog, higher margins.
 | Metric | Value |
 |--------|-------|
 | Ticker | ADI |
-| Market cap | ~$110B |
-| FY2025 revenue | $11B+ |
+| Market cap | ~$149B |
+| FY2025 revenue | $11.0B |
 | FCF margin | 39% |
 | Position | #2 analog |
 
-*Created 2026-01-05*
+*Updated 2026-01-28*
 
 ---
 
@@ -125,4 +157,3 @@ ADI = premium analog, higher margins.
 - [[Infineon]] — competitor (power)
 - [[Automotive semiconductors]] — end market
 - [[Renesas]] — competitor (MCUs)
-
