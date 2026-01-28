@@ -12,8 +12,11 @@ The unit economics of frontier AI labs — more nuanced than "all bearish."
 |-----|---------|-----------|-------------------|
 | [[OpenAI]] | $13B | 57% of revenue | 2030 |
 | [[Anthropic]] | $9B | 9% by 2027 | 2028 |
+| [[Recursive]] | Pre-revenue | 100% (R&D) | Unknown |
 
 OpenAI burning **14x more cash** than Anthropic before reaching profitability.
+
+**New entrant**: [[Recursive]] (Richard Socher) raising at ~$4B valuation with no product — pure research bet on [[Superintelligence]]. GV and Greycroft leading.
 
 **Key insight**: Not all labs are equal. Anthropic's path looks plausible; OpenAI's is aggressive.
 
@@ -91,6 +94,8 @@ The counter: Coding tools require trust, integration, support — not just raw m
 
 - [[Anthropic]] — efficient ($9B revenue, 9% burn by 2027)
 - [[OpenAI]] — aggressive ($13B revenue, 57% burn, 2030 target)
+- [[Recursive]] — pre-revenue ($4B valuation, pure research bet)
 - [[Open source commoditization]] — pressure (erodes pricing power)
 - [[Enterprise AI adoption]] — context (coding works, rest uncertain)
+- [[Superintelligence]] — long-term goal driving lab investment
 - [[Long Anthropic]] — thesis (capital efficiency matters)

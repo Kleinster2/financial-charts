@@ -17,6 +17,15 @@ Comparative view of major AI model families. For investment implications, see th
 
 **Common traits**: API access, usage-based pricing, rapid iteration, enterprise focus.
 
+### Emerging labs (pre-product)
+
+| Lab | Valuation | Focus | Status |
+|-----|-----------|-------|--------|
+| [[Recursive]] | ~$4B (talks) | Self-improving [[Superintelligence]] | Fundraising |
+| [[SSI]] | ~$1B | Safe superintelligence | Stealth |
+
+New entrants betting on next-generation architectures beyond current transformer scaling.
+
 ---
 
 ## Open weights models
@@ -86,7 +95,7 @@ Comparative view of major AI model families. For investment implications, see th
 - No vendor lock-in
 - [[China]] access (circumvents some restrictions)
 
-**Trend**: [[Gap]] narrowing. [[Llama]] 3.3 approaches GPT-4 on many benchmarks.
+**Trend**: Gap narrowing. [[Llama]] 3.3 approaches GPT-4 on many benchmarks.
 
 ---
 
@@ -127,7 +136,7 @@ Comparative view of major AI model families. For investment implications, see th
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-01-28*
 
 ---
 
@@ -141,7 +150,10 @@ Comparative view of major AI model families. For investment implications, see th
 - [[xAI]] — [[Grok]]
 - [[Alibaba]] — [[Qwen]] (open weights)
 - [[ByteDance]] — [[Doubao]] (fastest growing [[China]])
+- [[Recursive]] — emerging (self-improving AI)
+- [[SSI]] — emerging (safe superintelligence)
 - [[Export controls]] — constrains [[China]] training
 - [[Model lab economics]] — business model dynamics
+- [[Superintelligence]] — long-term goal
 - [[Open source commoditization]] — margin pressure thesis
 - [[Inference disaggregation]] — serving economics
