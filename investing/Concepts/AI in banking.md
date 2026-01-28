@@ -58,9 +58,20 @@ Singapore banks most efficient globally.
 
 **2025 = implementation year, 2026 = inflection point for profitability and [[agentic AI]].**
 
-### [[Wells Fargo]] — Cost transformation leader
+### [[Wells Fargo]] — Playing catch-up, not leading
 
-Most aggressive AI-for-efficiency play among big 4 US banks.
+Most aggressive headcount cuts among big 4 US banks — but that's because they're *behind* on productivity, not ahead.
+
+**Profitability per employee (2024):**
+
+| Bank | Employees | Net Income | NI/Employee |
+|------|-----------|------------|-------------|
+| JPMorgan | 317k | ~$60B | **$189k** |
+| Bank of America | 213k | ~$27B | $127k |
+| Wells Fargo | 210k | ~$20B | $95k |
+| Citigroup | 229k | ~$13B | $57k |
+
+JPM generates **2x more profit per employee** than WFC. The aggressive AI-for-cost-cutting is about catching up to peers, not extending a lead. Compare to Singapore banks at 38-43% efficiency ratios — that's the real benchmark.
 
 | Metric | 2019 | Sept 2025 | Change |
 |--------|------|-----------|--------|

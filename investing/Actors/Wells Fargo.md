@@ -147,7 +147,22 @@ aliases: [WFC]
 
 ## AI strategy (2025-2026)
 
-**Most aggressive AI-for-efficiency push among US big 4 banks.**
+**Most aggressive headcount cuts among US big 4 banks — but catching up, not leading.**
+
+### Why WFC is cutting hardest
+
+"Most aggressive" doesn't mean most efficient. WFC is *behind* on productivity:
+
+| Bank | Employees | Net Income | NI/Employee |
+|------|-----------|------------|-------------|
+| JPMorgan | 317k | ~$60B | **$189k** |
+| Bank of America | 213k | ~$27B | $127k |
+| **Wells Fargo** | 210k | ~$20B | **$95k** |
+| Citigroup | 229k | ~$13B | $57k |
+
+JPM generates **2x more profit per employee** than WFC. The AI-for-cost-cutting strategy is about catching up to peers, not extending a lead.
+
+The real efficiency benchmark: Singapore banks (DBS, OCBC) run 38-43% cost/income ratios vs WFC's 62%. See [[AI in banking]].
 
 ### Headcount transformation
 
