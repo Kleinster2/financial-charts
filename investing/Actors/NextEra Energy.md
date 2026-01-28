@@ -12,16 +12,17 @@ aliases: [NEE]
 | Metric | Value |
 |--------|-------|
 | Ticker | NEE (NYSE) |
-| Market cap | ~$170B |
+| Market cap | ~$176B |
 | TTM revenue | $26.3B |
-| 2025 adj EPS guidance | $3.62-$3.70 |
+| FY 2025 adj EPS | $3.71 (+8% YoY) |
 | 2026 adj EPS guidance | $3.92-$4.02 |
-| Long-term EPS growth | 8%+ annually through 2035 |
+| Long-term EPS growth | 8%+ annually through 2032 |
 | Dividend yield | ~2.7% |
 | Dividend growth target | 10% annually through 2026 |
-| DC power hub target | 15 GW by 2035 (up to 30 GW) |
+| Backlog | 30 GW total |
+| DC pipeline | 9 GW in advanced discussions |
 
-*Updated 2026-01-23*
+*Updated 2026-01-28*
 
 ---
 
@@ -60,6 +61,36 @@ aliases: [NEE]
 
 ---
 
+## Q4 2025 Earnings (Jan 27, 2026)
+
+**Beat estimates:**
+- Q4 adj EPS: $0.54 vs $0.53 expected
+- FY 2025 adj EPS: $3.71 (+8% YoY)
+
+**Segment performance:**
+- **FPL net income:** $958M (+13.4% YoY) — driven by higher capital investment
+- **NextEra Energy Resources:** $545M profit vs -$442M loss year ago
+
+**Backlog growth:**
+- Added 13.5 GW of new generation and battery storage to backlog in 2025
+- 3.6 GW added since Q3 call (October)
+- Total backlog: ~30 GW
+
+**Nuclear expansion plans:**
+- In "advanced discussions" to power additional **9 GW** of data centers
+- Can add **6 GW of new nuclear** capacity at existing sites
+- Considering **greenfield sites** for advanced nuclear builds
+- ~20 GW of data center customer interest in Florida alone
+- Nearly half in advanced discussions, potential to come online by 2028
+- Company expects "some announcements in 2026"
+
+**Guidance reaffirmed:**
+- 2026 adj EPS: $3.92-$4.02
+- 8%+ annual EPS growth through 2032
+- 10% dividend growth through 2026
+
+---
+
 ## Key AI data center deals
 
 | Partner | Deal | Details |
@@ -73,8 +104,10 @@ aliases: [NEE]
 
 ## Data center infrastructure buildout
 
-- **[[Target]]:** 15 GW of data center power hubs by 2035
-- **Stretch target:** 30 GW if demand trends hold
+- **Backlog:** 30 GW total (as of Q4 2025)
+- **Active pipeline:** 9 GW in advanced discussions
+- **Florida interest:** ~20 GW of data center customers interested; half in advanced talks
+- **Nuclear expansion:** 6 GW potential at existing sites + greenfield advanced nuclear
 - **Pipeline covers:** wind, solar, storage, nuclear restart, natural gas with CCS
 - **Competitive advantage:** lowest-cost developer, best sites locked up, procurement leverage
 
@@ -89,9 +122,9 @@ aliases: [NEE]
 | TTM (Jan 2026) | $26.3B |
 
 EPS trajectory:
-- 2025E: $3.62-$3.70 (raised from $3.45-$3.70)
-- 2026E: $3.92-$4.02 (raised from $3.63-$4.00)
-- Long-term: 8%+ annual growth through 2035
+- 2025A: $3.71 (+8% YoY)
+- 2026E: $3.92-$4.02
+- Long-term: 8%+ annual growth through 2032
 
 ---
 
