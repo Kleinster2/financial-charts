@@ -213,6 +213,23 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome&
 
 ---
 
+## Standard section: Insights
+
+**Use `## Insights` instead of "Why X matters"** for the key takeaways section in all note types.
+
+This section answers: What's the non-obvious takeaway? What pattern does this reveal? Why should an investor care?
+
+```markdown
+## Insights
+
+- Independent title insurers doubled share (15% → 27%) by not competing with their own agents
+- Agent-only model eliminates channel conflict that plagues Big Four
+```
+
+**Keep it tight:** 2-4 bullets. Each insight should be specific and backed by data in the note.
+
+---
+
 ## Event note structure
 
 ```markdown
@@ -230,7 +247,7 @@ Timeline, key facts, numbers.
 
 ---
 
-## Why it matters
+## Insights
 
 Impact, implications, what changed.
 

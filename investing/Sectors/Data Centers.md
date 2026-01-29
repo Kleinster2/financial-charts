@@ -32,9 +32,19 @@ Physical infrastructure for cloud computing and AI — colocation, hyperscale, G
 | [[Digital Realty]] | ~$50B | Wholesale hyperscale | High (AI workloads) |
 | CoreSite | (Owned by [[American Tower]]) | US interconnection | Moderate |
 | CyrusOne | (Owned by [[KKR]]) | Enterprise | Moderate |
-| QTS | (Owned by [[Blackstone]]) | Hyperscale | High |
+| **QTS** | (Owned by [[Blackstone]]) | Hyperscale | **Dominant** |
 
 **Business model:** Long-term leases, inflation escalators, 60-70% gross margins.
+
+### Private capital ownership
+
+Major platforms now owned by private capital. See [[Private Real Estate]] for investment detail.
+
+| Platform | Owner | Notes |
+|----------|-------|-------|
+| **[[QTS Data Centers]]** | [[Blackstone]] | 70+ facilities, 2+ GW, $25B+ pipeline |
+| **[[CyrusOne]]** | [[KKR]] | 50+ facilities |
+| **Related Digital** | [[Related Companies]] | New platform (2025) |
 
 ### GPU clouds (Neoclouds)
 
@@ -196,6 +206,8 @@ See [[Power constraints]] and [[Clean energy for AI]].
 ## Related
 
 ### Actors
+- [[QTS Data Centers]] — largest private platform (Blackstone)
+- [[CyrusOne]] — #2 private platform (KKR)
 - [[Equinix]] — largest DC REIT
 - [[Digital Realty]] — hyperscale REIT
 - [[CoreWeave]] — GPU cloud leader
@@ -204,6 +216,7 @@ See [[Power constraints]] and [[Clean energy for AI]].
 ### Adjacent sectors
 - [[AI Infrastructure]] — broader AI infra thesis
 - [[AI Storage]] — storage layer sub-sector
+- [[Private Real Estate]] — Blackstone/QTS, KKR/CyrusOne buildout
 
 ### Concepts
 - [[Power constraints]] — key bottleneck

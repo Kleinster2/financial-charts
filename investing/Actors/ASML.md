@@ -1,29 +1,24 @@
 ---
 aliases: [ASML]
 ---
-#actor #equipment #wfe #lithography
+#actor #equipment #wfe #lithography 
 
-# ASML (ASML)
 
-Dutch semiconductor equipment company with a monopoly on EUV lithography.
+Dutch semiconductor equipment company with a monopoly on EUV lithography. ASML is the most critical bottleneck in advanced semiconductor manufacturing. No EUV = no leading edge chips. 20+ years of R&D created an unassailable moat.
 
----
-
-## Core thesis
-
-ASML is the most critical bottleneck in advanced semiconductor manufacturing. No EUV = no leading edge chips. 20+ years of R&D created an unassailable moat.
-
----
-
-## The monopoly
-
-| Technology | ASML position | Alternative |
-|------------|---------------|-------------|
-| EUV lithography | 100% share | None |
-| DUV lithography | ~85% share | Nikon, Canon (trailing) |
-| High-NA EUV | 100% share | None |
+| Technology          | ASML position | Alternative             |
+| ------------------- | ------------- | ----------------------- |
+| [[EUV lithography]] | 100% share    | None                    |
+| DUV lithography     | ~85% share    | Nikon, Canon (trailing) |
+| High-NA EUV         | 100% share    | None                    |
 
 Every leading edge chip (sub-7nm) requires ASML EUV machines. Period.
+
+![[asml-price-chart.png]]
+*ASML (blue) +330% vs WFE peers since 2020. [[KLA]] leads (+800%), [[Lam Research|LRCX]] (+600%), [[Applied Materials|AMAT]] (+450%). ASML trails despite monopoly — reflects different business models (EUV tools vs consumables/services).*
+
+![[asml-fundamentals.png]]
+*Quarterly revenue tripled from ~$3B (2020) to ~$10B (Q4 2025). Net income up 7x to ~$3B/quarter. 13 consecutive years of growth.*
 
 ---
 

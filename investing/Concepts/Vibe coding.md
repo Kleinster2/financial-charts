@@ -119,7 +119,7 @@ Auth → Supabase
 
 | Risk | Data |
 |------|------|
-| Junior devs deploying code they don't understand | 40%+ (Deloitte 2025) |
+| Junior devs deploying code they don't understand | 40%+ ([[Deloitte]] 2025) |
 | Security vulnerabilities | Unreviewed AI code |
 | Maintenance burden | No one understands the codebase |
 

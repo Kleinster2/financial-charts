@@ -129,7 +129,7 @@ Backed by inventory, real estate, credit card portfolios.
 | 3 | Rosen-X | $41M+ | |
 | 4 | [[Capri Holdings]] | $33M+ | Michael Kors, Jimmy Choo, Versace |
 | 5 | [[Mayhoola]] | $33M+ | [[Valentino]] |
-| 6 | PwC | $30M+ | Advisory |
+| 6 | [[PwC]] | $30M+ | Advisory |
 | 7 | [[Richemont]] | $30M+ | Cartier, Van Cleef |
 | 8 | [[Zegna]] | $26M+ | |
 | 9 | LVMH | $25M+ | Louis Vuitton, Dior |

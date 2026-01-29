@@ -7,17 +7,22 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Jan 28, 2026)
 
 | Metric | Value |
 |--------|-------|
-| Spot price | $4,641/oz (record high Jan 14) |
-| YTD return | +5% |
+| Spot price | **$5,300+/oz** (record high Jan 28) |
+| YTD return | **+22%** |
 | 2025 return | +65% (best since 1979) |
 | 2024 return | +27% |
 | Silver | $93.75/oz ATH (Jan 15), now ~$88 |
 
-**Record driver:** DOJ investigation of [[Jerome Powell]] revived [[Fed independence]] concerns. Gold spiked above $4,600 after Powell called the probe "threats and ongoing pressure" to influence rate decisions.
+**Jan 2026 catalysts:**
+1. DOJ investigation of [[Jerome Powell]] (Jan 14) — Fed independence crisis
+2. NY Fed "rate check" (Jan 24) — market interpreted as coordinated dollar weakening
+3. Trump endorsed dollar decline (Jan 28) — "I think it's great"
+
+Gold surged +3% on Jan 28 alone as [[US dollar]] hit 4-year lows (DXY 96.16).
 
 ---
 
@@ -81,18 +86,18 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
-## 2026 forecasts
+## 2026 forecasts (stale)
 
-| Source | [[Target]] | Timeframe |
-|--------|--------|-----------|
-| J.P. Morgan | $4,800 | Q2 2026 |
-| [[State Street]] | $5,000 | Q4 2026 |
-| [[Bank of America]] | $5,000 | Year-end |
-| Bull case | $6,000 | 2027 |
+**Note:** These targets set pre-Jan selloff are now obsolete — gold already at $5,300+.
 
-71% of retail investors expect gold above $5,000 in 2026.
+| Source | [[Target]] | Status |
+|--------|--------|--------|
+| J.P. Morgan | $4,800 | **Exceeded** |
+| [[State Street]] | $5,000 | **Exceeded** |
+| [[Bank of America]] | $5,000 | **Exceeded** |
+| Bull case | $6,000 | In play |
 
-**If Fed independence crisis escalates:** $5,000 becomes baseline, not moonshot.
+Forecasts will likely be revised up given rate check/dollar weakness.
 
 ---
 
@@ -140,7 +145,7 @@ aliases: [XAU, Gold price, Bullion]
 | 2001-2011 | $250 → $1,900 | GFC, QE, [[Euro]] crisis |
 | 2012-2019 | $1,200-1,500 | Consolidation |
 | 2020-2024 | $1,500 → $2,700 | COVID, inflation, CB buying |
-| 2025-2026 | $2,700 → $4,600+ | Fed independence, de-dollarization |
+| 2025-2026 | $2,700 → $5,300+ | Fed independence, de-dollarization, rate check |
 
 ---
 
@@ -229,4 +234,4 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
-*Consolidated Jan 2026. Sources: Bloomberg, JPMorgan, [[State Street]], Julius Baer.*
+*Updated 2026-01-28. Sources: Bloomberg, JPMorgan, [[State Street]], Julius Baer, Fortune.*

@@ -39,9 +39,32 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 | 2022 | $81.5B | $12.6B | $3.62 | 1.31M | $123 |
 | 2023 | $96.8B | $15.0B | $4.30 | 1.81M | $249 |
 | 2024 | $97.7B | $7.1B | $2.04 | 1.79M | $403 |
-| 2025E | $95.6B | $5.1B | $1.45 | 1.64M | $438 |
+| 2025 | $97.7B | $7.1B | $2.04 | **1.63M** | $403 |
 
-*Source: Company filings. Stock price = year-end close. Prices adjusted for 3:1 split (Aug 2022) and 5:1 split (Aug 2020). 2024-25 profits declined due to EV price war.*
+*Source: Company filings. Stock price = year-end close. Prices adjusted for 3:1 split (Aug 2022) and 5:1 split (Aug 2020). 2024-25 profits declined due to EV price war. 2025 = first annual delivery decline.*
+
+---
+
+## Q4 2025 earnings (Jan 28, 2026)
+
+**Beat estimates, stock +3% afterhours to $445**
+
+| Metric | Q4 2025 | vs Est |
+|--------|---------|--------|
+| Revenue | $24.9B | Beat |
+| EPS (adj) | $0.50 | Beat |
+| Deliveries | 418K | Miss (423K est) |
+| FSD subscribers | **1.1M** | +38% YoY |
+
+**Full year 2025:**
+- Revenue: ~$97.7B (first annual decline on record)
+- Profit: **-46% YoY**
+- Deliveries: 1.63M (-8.5% YoY)
+
+**Key announcements:**
+- Investing **$2B in [[xAI]]** (Musk's AI company)
+- FSD active subscriptions hit 1.1M milestone
+- Robotaxi production on track for April 2026
 
 ---
 
@@ -275,18 +298,19 @@ See [[Short interest]] for interpretation framework.
 | Metric | Value |
 |--------|-------|
 | Ticker | TSLA (NASDAQ) |
-| Market cap | ~$1.3T |
-| Revenue (2025E) | $94.7B |
+| Market cap | ~$1.43T |
+| Revenue (2025) | $97.7B |
 | Revenue (2026E) | $107.5B |
-| EPS (2025E) | $1.64 |
+| EPS (2025) | $2.04 |
 | EPS (2026E) | $2.17 |
 | [[Automotive]] margin | ~17% |
-| Deliveries (2025) | 1.64M vehicles (-8.6% YoY) |
-| P/E | ~100x+ |
-| Energy business | ~$10B/year (record Q4) |
+| Deliveries (2025) | **1.63M** (-8.5% YoY, first decline) |
+| FSD subscribers | **1.1M** (+38% YoY) |
+| P/E | ~288x |
+| Energy business | ~$12.75B/year |
 | Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
 
-*Updated 2026-01-20*
+*Updated 2026-01-28 (Q4 2025 earnings)*
 
 ![[tsla-price-chart.png]]
 

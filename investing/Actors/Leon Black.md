@@ -23,7 +23,7 @@ aliases: [Leon David Black]
 ## Career arc
 
 **[[Drexel Burnham Lambert]] (1977–1990):**
-- Joined after brief stint at Peat Marwick (KPMG)
+- Joined after brief stint at Peat Marwick ([[KPMG]])
 - Worked closely with [[Michael Milken]]
 - Head of M&A department from 1984
 - Drexel collapsed 1990 → catalyst for Apollo founding

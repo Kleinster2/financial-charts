@@ -88,9 +88,29 @@ aliases: [Psi Quantum]
 |------------|--------|---------|
 | **[[Australia]]** | A$940M | Brisbane quantum computer |
 | Queensland | Part of above | Facility location |
-| US (potential) | TBD | [[CHIPS Act]] eligible |
+| **Illinois** | $200M incentive | [[Illinois Quantum and Microelectronics Park]] anchor |
 
 [[Australia]] deal (2024) = largest quantum computing government investment globally.
+
+---
+
+## Illinois Quantum and Microelectronics Park
+
+**Anchor tenant** of 128-acre [[Illinois Quantum and Microelectronics Park]] in Chicago. Groundbreaking September 30, 2025.
+
+| Detail | Value |
+|--------|-------|
+| Location | South Side Chicago (former U.S. Steel South Works) |
+| State incentive | $200M (MICRO Act, grants, loan) |
+| PsiQuantum commitment | $1.09B minimum investment |
+| Jobs commitment | 154+ full-time |
+| Goal | First US million-qubit fault-tolerant quantum computer |
+
+**Initial phase:** DARPA Quantum Benchmarking Initiative intermediate-scale test system.
+
+**Later phases:** Million-qubit deployment (late 2020s).
+
+Fellow IQMP tenants: [[IBM]], [[Diraq]], [[Infleqtion]], [[Pasqal]].
 
 ---
 
@@ -98,10 +118,12 @@ aliases: [Psi Quantum]
 
 | Milestone | [[Target]] |
 |-----------|--------|
-| Omega chipset | Feb 2025 (done) |
+| Omega chipset | Feb 2025 ✓ |
+| IQMP groundbreaking | Sep 2025 ✓ |
 | Brisbane facility | 2026-2027 |
+| IQMP construction | 2026-2028 |
 | Commercial system | **2029** |
-| Million-qubit scale | 2030s |
+| Million-qubit scale (US) | Late 2020s |
 
 ---
 
@@ -164,9 +186,13 @@ aliases: [Psi Quantum]
 
 ## Related
 
+- [[Illinois Quantum and Microelectronics Park]] — anchor tenant (US facility)
+- [[Chicago Quantum Exchange]] — regional ecosystem
 - [[NVentures]] — investor
 - [[BlackRock]] — investor
 - [[Temasek]] — investor
-- [[Quantum Computing]] — category
+- [[Quantum computing]] — category
 - [[GlobalFoundries]] — manufacturing partner
-- [Photonic Qubits](obsidian://open?vault=technologies&file=Photonic%20Qubits) — technology (technologies vault)
+- [[Diraq]] — fellow IQMP tenant
+- [[Infleqtion]] — fellow IQMP tenant
+- [[Pasqal]] — fellow IQMP tenant
