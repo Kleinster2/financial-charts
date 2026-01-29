@@ -586,6 +586,8 @@ Don't just add a wikilink and move on. If you're touching a note, refresh it.
 
 **Every piece of news needs an atomic home — daily notes are never the only location.**
 
+**Principle:** If information is worth putting in the daily note, it belongs in at least one permanent note (actor, concept, event). The daily note is a log and index — it can summarize and reference, but should never be the sole repository for any substantive information. When processing news or transcripts, update permanent notes FIRST, then summarize in daily note.
+
 1. **Check existing notes first** — search vault before web
 2. **Find the right home** — actors taking actions, not catch-all concepts
 3. **Regional actors stay high-level** — specific news goes on specific actors
@@ -659,6 +661,9 @@ When user asks for "today's news", cover these categories:
 |----------|--------------|
 | **Market movers** | "biggest stock gainers losers [exact date]" |
 | **Markets** | "stock market news [exact date]" |
+| **USD/FX** | "US dollar DXY [exact date]" |
+| **Treasuries** | "treasury yields bonds [exact date]" |
+| **Commodities** | "gold oil copper prices [exact date]" |
 | **Semiconductors** | "semiconductor chip news [exact date]" |
 | **AI/Tech** | "AI news [exact date]" |
 | **China macro** | "China economy news [exact date]" |
@@ -712,6 +717,27 @@ For each major mover:
 3. Include in report with context
 
 Big moves often reveal deals/news that category searches miss (e.g., Corning +17% on Meta fiber deal wouldn't appear in "semiconductor" or "AI" searches).
+
+### Earnings searches need multiple queries
+
+**General news searches miss forward guidance.** A search for "[company] news [date]" returns headline results focused on:
+- EPS beat/miss
+- Revenue beat/miss
+- Dramatic capex changes
+
+But **forward guidance** (Q1 revenue outlook, full-year EPS estimates) often doesn't make headlines and requires a targeted search:
+
+```
+"[company] Q1 2026 revenue guidance"
+"[company] earnings outlook guidance"
+"[company] Q1 forecast"
+```
+
+**For any earnings report, run two searches:**
+1. General: `"[company] earnings [date]"` — gets headline results
+2. Guidance: `"[company] Q1/FY guidance [date]"` — gets forward estimates
+
+Forward guidance often moves stocks more than backward-looking beats, so don't miss it.
 
 ## Key actors to track
 
