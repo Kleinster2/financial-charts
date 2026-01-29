@@ -124,4 +124,5 @@ Vision vs execution gap.
 - [[Saudi PIF]] — owner/funder
 - [[Sovereign AI race]] — context (AI-integrated city)
 - [[GCC tech race]] — regional context
+- [[Saudi Vision 2030]] — strategic framework (NEOM is flagship project)
 

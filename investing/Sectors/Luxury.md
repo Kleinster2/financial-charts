@@ -13,7 +13,7 @@ The personal luxury goods market — fashion, leather, jewelry, watches, beauty,
 
 | Company | Ticker | Market cap | Key brands | Positioning |
 |---------|--------|------------|------------|-------------|
-| **[[LVMH]]** | MC (Paris) | ~$350B | Louis Vuitton, Dior, Tiffany | Diversified conglomerate |
+| **[[LVMH]]** | MC (Paris) | ~$290B | Louis Vuitton, Dior, Tiffany | Diversified conglomerate |
 | **[[Hermès]]** | RMS (Paris) | ~$250B | Birkin, Kelly | Ultra-luxury, scarcity |
 | **[[Richemont]]** | CFR (SIX) | ~CHF 80B | Cartier, Van Cleef | Jewelry/watches |
 | **[[Kering]]** | KER (Paris) | ~$40B | Gucci, Saint Laurent, Bottega Veneta | Fashion, turnaround mode |
@@ -77,16 +77,38 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 
 ---
 
+## Recovery thesis (Jan 2026)
+
+![[lvmh-fashion-leather-organic-growth.png]]
+*[[LVMH]] Fashion & Leather organic growth collapsed from +21% (Q2 2023) to -8% (Q2 2025), now stabilizing at -3%. Source: LVMH company presentation.*
+
+**The bull case is intact but not proven yet** (FT, Jan 28, 2026):
+
+| Signal | Detail |
+|--------|--------|
+| H2 vs H1 | LVMH +1% organic (H2) vs -3% (H1) — less bad |
+| Asia ex-Japan | +1% in Q4 — first positive quarter |
+| China stabilizing | Ferragamo China: mid-teens decline (Q3) → low single digits (Q4) |
+| Margin discipline | LVMH Fashion & Leather margin ~35% in Q4 (2pp above expectations) |
+| 2026 consensus | LVMH +1.7% revenue growth (vs typical +5%) |
+
+**Chinese customers still 23% of global luxury spending** (Bernstein). Any recovery depends on them returning.
+
+**Risks:** Global political tensions, tariffs, rise of lower-priced challengers.
+
+---
+
 ## Current dynamics (2025-2026)
 
 | Theme | Impact |
 |-------|--------|
 | **Aspirational vs ultra-high-net-worth** | Bifurcation — top-end resilient, aspirational weak |
-| **China slowdown** | Biggest headwind across sector |
+| **China stabilizing** | Decline slowing, not yet growing |
 | **Jewelry outperforming fashion** | Store of value > discretionary |
 | **Creative director musical chairs** | Demna to Gucci, industry reshuffling |
 | **Owned real estate** | Balance sheet strategy, Fifth Ave buying spree |
 | **Japan strength** | Weak yen driving tourism spend |
+| **Margin focus** | Cost discipline while waiting for recovery |
 
 ---
 
@@ -128,4 +150,4 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 - [[Estée Lauder]] · [[L'Oréal]] — luxury beauty players
 - [[Department store decline]] — distribution channel under pressure
 
-*Created 2026-01-24*
+*Updated 2026-01-29*

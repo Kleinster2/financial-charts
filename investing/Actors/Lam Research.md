@@ -51,14 +51,41 @@ Memory cyclicality is a risk but [[HBM]] demand provides structural tailwind.
 
 ---
 
+## Q2 FY2026 earnings (Jan 28, 2026)
+
+**Beat estimates on AI-driven foundry demand.**
+
+| Metric | Q2 FY26 | vs Estimate | YoY |
+|--------|---------|-------------|-----|
+| Revenue | **$5.34B** | Beat ($5.34B) | +27.7% |
+| EPS (adj) | **$1.27** | Beat ($1.19) | — |
+| Gross margin | **50.6%** | — | — |
+
+**Q3 FY26 guidance:**
+- Revenue: $5.25B
+- EPS: $1.17
+
+**China risk:**
+- "50% affiliate rule" restricts shipments to certain domestic Chinese customers
+- Estimated ~$600M revenue impact for full CY2026
+
+**Analyst reaction:** Stock +7% pre-earnings on Evercore upgrade. Zacks Rank #1 (Strong Buy).
+
+**Outlook:** Management projects robust WFE investment growth in 2026, driven by AI infrastructure demand.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | LRCX (NASDAQ) |
+| Q2 FY26 revenue | **$5.34B** (+27.7% YoY) |
+| Gross margin | **50.6%** |
 | Segment | Deposition, etch, clean |
-| CY24 Revenue | $16.2B |
 | Primary customers | TSMC, Samsung, Micron, SK Hynix |
+
+*Updated 2026-01-29*
 
 ---
 

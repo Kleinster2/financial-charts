@@ -119,6 +119,30 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 ---
 
+## Nvidia/Apple foundry talks (Jan 28, 2026)
+
+**Stock +11% on DigiTimes report that NVIDIA and Apple considering Intel Foundry.**
+
+| Detail | Value |
+|--------|-------|
+| Stock move | **+11%** to $48.78 |
+| Catalyst | DigiTimes report |
+| NVIDIA | Considering Intel for "Feynman" next-gen GPU |
+| Apple | In discussions for entry-level processor |
+
+**Why it matters:**
+- Major validation for [[Intel Foundry Services]] strategy
+- If NVIDIA/Apple use Intel, others follow
+- Potential answer to [[TSMC]] CoWoS capacity constraints
+- EMIB packaging as alternative to CoWoS
+- US domestic manufacturing alignment
+
+**Context:** Comes after NVIDIA's $5B investment (Jan 2026), 18A launch (Jan 27), and government stake. Intel positioning as credible TSMC alternative.
+
+**Analyst reaction:** Tigress Financial raised PT to $66 (from $52), maintained Buy.
+
+---
+
 ## Q4 2025 earnings (Jan 23, 2026)
 
 **Beat on revenue, missed badly on guidance.** Stock -14% after hours (to $46.75).
@@ -226,14 +250,14 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | Metric | Value |
 |--------|-------|
 | Ticker | INTC (NASDAQ) |
-| Price | ~$47 (post-earnings AH) |
-| 2025 return | +84% |
+| Price | **~$49** (Jan 28 close) |
+| 2026 YTD | +24.5% |
 | Annual revenue | $53B (vs $78B peak 2021) |
 | HQ | Santa Clara, CA |
 | Model | IDM (design + fabs) |
 | Gross margin | 37.9% (Q4), 34.5% (Q1 guide) |
 
-*Updated 2026-01-27*
+*Updated 2026-01-29*
 
 ---
 

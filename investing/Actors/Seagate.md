@@ -104,12 +104,41 @@ Seagate bet on HAMR technology for capacity scaling.
 
 ---
 
+## Q2 FY2026 earnings (Jan 27, 2026)
+
+**Stock +19% on AI-driven storage demand beat.**
+
+| Metric | Q2 FY26 | vs Estimate | YoY |
+|--------|---------|-------------|-----|
+| Revenue | **$2.83B** | Beat ($2.71B) | +22% |
+| EPS (adj) | **$3.11** | Beat ($2.83) | — |
+| Gross margin | **42.2%** | +6.7 ppts | — |
+| Operating margin | **31.9%** | +8.8 ppts | — |
+
+**Q3 FY26 guidance:**
+- Revenue: $2.9B ± $100M
+- EPS: $3.40 ± $0.20
+
+**Why the beat:**
+- Record gross and operating margins
+- Robust data center demand for nearline HDDs
+- HAMR (Mozaic) product ramp accelerating
+- Strong pricing power — demand up, supply limited
+
+**Analyst upgrades:**
+| Firm | Action | New PT |
+|------|--------|--------|
+| Morgan Stanley | Raised PT | **$468** (from $372) |
+| Mizuho | Raised PT | **$440** (from $400) |
+
+---
+
 ## Financials snapshot
 
 | Metric | Value |
 |--------|-------|
-| Revenue | ~$7-8B annually |
-| Gross margin | ~25-30% |
+| Revenue | ~$11B annually (run-rate) |
+| Gross margin | **42.2%** (record, Q2 FY26) |
 | Dividend | ~3% yield |
 | Capex | Moderate (fabless-ish) |
 
@@ -120,12 +149,14 @@ Seagate bet on HAMR technology for capacity scaling.
 | Metric | Value |
 |--------|-------|
 | Ticker | STX (NASDAQ) |
+| Market cap | ~$25B |
+| Q2 FY26 revenue | $2.83B (+22% YoY) |
+| Gross margin | **42.2%** (record) |
 | HQ | Fremont, California |
-| Founded | 1979 |
 | CEO | Dave Mosley |
 | Employees | ~30,000 |
 
-*Updated 2026-01-03*
+*Updated 2026-01-29*
 
 ---
 

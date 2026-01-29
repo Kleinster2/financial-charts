@@ -70,6 +70,9 @@ aliases: [Lisa D. Cook]
 
 **Outcome:** Court appears likely to block firing.
 
+**Powell's assessment (Jan 29, 2026):**
+> "That case is perhaps the most important legal case in the Fed's 113-year history."
+
 **Key moments:**
 - [[Jerome Powell]] and Ben Bernanke watched from gallery
 - At least 6 justices questioned the administration's arguments

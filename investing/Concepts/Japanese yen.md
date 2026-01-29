@@ -11,11 +11,42 @@ aliases: [JPY, USDJPY, yen]
 
 | Metric | Value |
 |--------|-------|
-| USDJPY | ~155 |
-| 2025 return | Volatile (touched 160, now ~155) |
+| USDJPY | **~152.5** |
+| Jan 2026 move | -4% in 3 sessions (158 → 152.5) |
 | BoJ rate | 0.50% |
 | Fed rate | 3.50-3.75% |
-| Rate differential | **~325bp** (narrowing) |
+| Rate differential | ~325bp (narrowing) |
+
+---
+
+## NY Fed rate check (Jan 24, 2026)
+
+**The event that crashed USDJPY:**
+
+| Timeline | Event |
+|----------|-------|
+| **Jan 24 (Fri)** | NY Fed asks banks for USD/JPY positions at London close (17:00 GMT) |
+| **Immediate** | USDJPY craters — "rate check" is final step before intervention |
+| **Jan 25-27** | Yen rallies ~4% as intervention fears spread |
+| **Jan 29** | [[Scott Bessent]] denies intervention plans, reaffirms "strong dollar policy" |
+
+**Why it mattered:**
+
+A "rate check" is when a central bank asks dealers for exchange rates — signals imminent intervention. The shock:
+- **It was the Fed, not BoJ** — Fed has infinite capacity to sell dollars (unlike BoJ with limited reserves)
+- **Fed didn't clarify it was acting as Japan's agent** — implied possible joint US-Japan intervention
+- Market participants scrambled to cover yen shorts
+
+**Japanese officials' response:**
+- Currency official Atsushi Mimura: "will respond to currency movements as needed in close coordination with Washington"
+- Finance Minister Satsuki Katayama: "authorities are acting in line with US-Japan joint statement"
+
+**Why would US want weaker dollar?**
+- Yen weakness amplifying [[JGB]] selloff → pushing US Treasury yields higher
+- Strong dollar hurts US exports
+- Trump has signaled comfort with weaker dollar
+
+**Bessent's denial (Jan 29):** Ruled out US intervention to sell dollars, but the positioning damage was done. DXY still at 4-year lows.
 
 ---
 
@@ -84,6 +115,8 @@ MoF/BoJ have intervened to support yen:
 
 **Oct 2022, Oct 2024:** MoF spent ~$60B defending yen near 160.
 
+**Jan 2026:** NY Fed rate check near 158 triggered 4% yen rally without actual intervention — just the threat moved markets.
+
 ---
 
 ## 2026 outlook
@@ -117,9 +150,14 @@ MoF/BoJ have intervened to support yen:
 ### Concepts
 - [[Carry trade]] — JPY is primary funding currency
 - [[De-dollarization]] — yen's role in reserves
+- [[US dollar]] — DXY at 4-year low amid rate check event
 
-### Central bank
+### Central banks
 - [[Bank of Japan]] — policy driver
+- [[Federal Reserve]] — rate check event (Jan 2026)
+
+### People
+- [[Scott Bessent]] — denied intervention, affirmed strong dollar policy
 
 ### Other currencies
 - [[Euro]] — fellow DM currency
@@ -127,4 +165,4 @@ MoF/BoJ have intervened to support yen:
 
 ---
 
-*Created Jan 2026.*
+*Updated 2026-01-29*
