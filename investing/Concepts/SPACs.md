@@ -66,13 +66,13 @@ SPACs existed as a small corner of capital markets. Modest volumes — 46 IPOs r
 
 ### Phase 3: The bust (2022–2023)
 
-| Metric | Value |
-|--------|-------|
-| Redemption rates | 80-90%+ (vs. 12% in early 2021) |
-| SPACs liquidated (2022) | ~145 |
-| SPACs liquidated (2023) | ~200 |
-| Liquidation rate | 67% of SPACs wound down without merging |
-| De-SPAC performance | 77% traded below $10 within a year (Goldman) |
+| Metric                  | Value                                                  |
+| ----------------------- | ------------------------------------------------------ |
+| Redemption rates        | 80-90%+ (vs. 12% in early 2021)                        |
+| SPACs liquidated (2022) | ~145                                                   |
+| SPACs liquidated (2023) | ~200                                                   |
+| Liquidation rate        | 67% of SPACs wound down without merging                |
+| De-SPAC performance     | 77% traded below $10 within a year ([[Goldman Sachs]]) |
 
 **What broke:**
 - Rising rates made trust accounts expensive (opportunity cost)
@@ -85,13 +85,13 @@ SPACs existed as a small corner of capital markets. Modest volumes — 46 IPOs r
 
 Final rules adopted January 24, 2024 (effective July 1, 2024):
 
-| Rule change | Impact |
-|-------------|--------|
-| [[Target]] must sign registration statement | [[Target]] liable for misstatements (like traditional IPO) |
-| De-SPAC deemed a "sale" (Rule 145a) | Full Securities Act liability applies |
-| Forward-looking safe harbor eliminated | No more speculative projections without legal risk |
-| Enhanced dilution disclosures | Promote, warrants, conflicts on cover page |
-| No Investment Company Act safe harbor | Slow-to-merge SPACs risk investment company classification |
+| Rule change                             | Impact                                                     |
+| --------------------------------------- | ---------------------------------------------------------- |
+| Target must sign registration statement | Target liable for misstatements (like traditional IPO)     |
+| De-SPAC deemed a "sale" (Rule 145a)     | Full Securities Act liability applies                      |
+| Forward-looking safe harbor eliminated  | No more speculative projections without legal risk         |
+| Enhanced dilution disclosures           | Promote, warrants, conflicts on cover page                 |
+| No Investment Company Act safe harbor   | Slow-to-merge SPACs risk investment company classification |
 
 ### Phase 5: Tentative revival (2024–2025)
 
@@ -129,7 +129,7 @@ IPO investors are "almost entirely large institutional investment managers affil
 
 A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the merged company drops 50%, the sponsor's shares retain ~$20M in value. The sponsor only loses if the SPAC liquidates without a deal — hence the incentive to merge at any cost.
 
-**Chamath example:** Social Capital generated ~$750M in sponsor profits across 12 SPACs, despite median investor losses of 75%.
+[[Chamath Palihapitiya]] example: [[Social Capital]] generated ~$750M in sponsor profits across 12 SPACs, despite median investor losses of 75%.
 
 ---
 
@@ -137,17 +137,17 @@ A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the
 
 ### Failures
 
-| Company | SPAC | Peak valuation | Outcome |
-|---------|------|---------------|---------|
-| **Nikola** (NKLA) | VectoIQ | $27.6B market cap | Fraud, CEO indicted, bankrupt Feb 2025 |
-| **Lordstown Motors** | DiamondPeak | ~$5B | Fake pre-orders, bankrupt 2023 |
-| **[[Bird]]** | Switchback II | $2.5B | Bankrupt Dec 2023, acquired $145M |
-| **Clover Health** | Social Capital | ~$7B day-one | DOJ/SEC investigation, stock ~$0.80 |
-| **IronNet** | LGL Systems | — | Bankrupt 2023 |
-| **Polestar** | Gores Guggenheim | $20B EV | Down 90% from $10 |
-| **Sonder** | Gores Metropoulos II | — | Down 99% from $10 |
-| **[[Claritev]]** | Churchill III | — | Down 89% from $10 |
-| **[[Lucid]]** | Churchill IV | $4.4B merger | Down 85% from debut |
+| Company               | SPAC                 | Peak valuation    | Outcome                                |
+| --------------------- | -------------------- | ----------------- | -------------------------------------- |
+| **[[Nikola]]** (NKLA) | VectoIQ              | $27.6B market cap | Fraud, CEO indicted, bankrupt Feb 2025 |
+| **Lordstown Motors**  | DiamondPeak          | ~$5B              | Fake pre-orders, bankrupt 2023         |
+| **[[Bird]]**          | Switchback II        | $2.5B             | Bankrupt Dec 2023, acquired $145M      |
+| **Clover Health**     | Social Capital       | ~$7B day-one      | DOJ/SEC investigation, stock ~$0.80    |
+| **IronNet**           | LGL Systems          | —                 | Bankrupt 2023                          |
+| **Polestar**          | Gores Guggenheim     | $20B EV           | Down 90% from $10                      |
+| **Sonder**            | Gores Metropoulos II | —                 | Down 99% from $10                      |
+| **[[Claritev]]**      | Churchill III        | —                 | Down 89% from $10                      |
+| **[[Lucid]]**         | Churchill IV         | $4.4B merger      | Down 85% from debut                    |
 
 ### Successes (rare)
 

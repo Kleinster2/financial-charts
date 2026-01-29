@@ -30,7 +30,7 @@ The model's power comes from information asymmetry — short sellers often spend
 | **Kerrisdale Capital** | Sahm Adrangi | 2009 | Active | MicroStrategy, Riot Platforms, quantum stocks |
 | **Wolfpack Research** | Dan David | 2019 | Active | B. Riley (backed by Muddy Waters) |
 | **Iceberg Research** | Arnaud Vagner | 2014 | Active | Noble Group, EOS Energy |
-| **Gotham City Research** | Daniel Yu | 2012 | Active | Gowex, Let's Gowex |
+| **[[Gotham City Research]]** | Daniel Yu | 2012 | Active | Gowex (fraud exposed 2014), [[Carvana]] (Jan 2026) |
 
 ---
 

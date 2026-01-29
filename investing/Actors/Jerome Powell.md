@@ -80,6 +80,8 @@ aliases: [Jay Powell, Powell]
 | **Dec 2025** | Trump dismisses 25bp cut as "rather small," says next chair will cut "by a lot" |
 | **Jan 9, 2026** | DOJ serves Fed with grand jury subpoenas |
 | **Jan 11, 2026** | Powell discloses investigation, calls it "pretext" |
+| **Jan 21, 2026** | Powell attends Supreme Court hearing for [[Lisa Cook]] case |
+| **Jan 29, 2026** | FOMC holds rates; calls Cook case "most important legal case in Fed's 113-year history" |
 
 ### First term (2018-2020)
 
@@ -115,6 +117,37 @@ Trump appointed Powell but turned hostile when Powell raised rates in 2018-2019.
 **Sen. Thom Tillis (R-NC):** Will oppose all Fed nominees "until this legal matter is fully resolved."
 
 **Sen. Lisa Murkowski (R-AK):** Called investigation "nothing more than an attempt at coercion."
+
+**Status (Jan 28):** Fed has not yet complied with subpoenas. Bill Pulte (FHFA Director) was the instigator behind the Powell probe.
+
+### Jan 29 press conference highlights
+
+**On [[Lisa Cook]] case and Supreme Court attendance:**
+> "That case is perhaps the most important legal case in the Fed's 113-year history... it might be hard to explain why I didn't attend."
+
+Noted Paul Volcker attended a Supreme Court case in 1985 — precedented behavior.
+
+**On Fed independence:**
+> "I am strongly committed to that and so are my colleagues."
+
+**Advice to successor:**
+> "Stay out of elected politics. Don't get pulled into elected politics. Don't do it."
+
+> "Our window into democratic accountability is Congress... it's not a passive burden. It's an affirmative regular obligation."
+
+> "You're about to meet the most qualified group of people you've ever worked with... there isn't a better cadre of professionals more dedicated to the public well-being than work at the Fed."
+
+**On what happens if Fed loses independence:**
+> "If people lose their faith that we're making decisions only on the basis of our assessment of what's best for everyone... it's going to be hard to retain it."
+
+**On remaining as Governor:** Declined to say whether he would stay on Board after May term ends ("nothing for you on that today").
+
+**On gold/silver hitting record highs (asked if it signals loss of credibility):**
+> "Don't take much message macroeconomically. The argument can be made it's, you know, that we're losing credibility or something. It's simply not the case. If you look at where inflation expectations are, our credibility is right where it needs to be."
+
+*Deflects by pointing to anchored [[inflation expectations]] as proof dollar weakness isn't about confidence.*
+
+**On the dollar:** Declined to comment — "We don't talk about the dollar. We don't talk about what moves it around... Treasury Department has that."
 
 ### Expert view: El-Erian (Jan 2026)
 
@@ -155,13 +188,16 @@ Trump appointed Powell but turned hostile when Powell raised rates in 2018-2019.
 
 | Factor | Detail |
 |--------|--------|
-| Chair term ends | May 2026 |
+| Chair term ends | May 15, 2026 |
+| Meetings remaining | **2** (as of Jan 29, 2026) |
 | Board seat | Could stay until 2028 if chooses |
 | Trump stance | Will not reappoint as Chair |
-| Successor | TBD — announcement expected Q1 2026 |
+| Successor | TBD — Bessent said "in the next week or so" (Jan 29) |
 | Legacy | COVID response, inflation fight, defended independence |
 
 **Market uncertainty:** New chair's policy stance unknown. Could be more dovish under political pressure.
+
+**Governor question:** Powell declined to say if he would remain as a Governor after his Chair term ends. Board seat expires 2028.
 
 ---
 
@@ -191,6 +227,7 @@ Trump appointed Powell but turned hostile when Powell raised rates in 2018-2019.
 ### Theory
 - [[Time consistency]] — Powell's job is solving this problem; independence enables credible commitment
 - [[Fed independence]] — concept under threat (DOJ investigation)
+- [[Inflation expectations]] — Powell's credibility defense (anchored = trust intact)
 
 ### Context
 - [[Gold]] — safe haven rallying on Powell crisis

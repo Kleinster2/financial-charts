@@ -12,6 +12,31 @@ aliases: [META]
 
 ---
 
+## Q4 2025 earnings (Jan 28, 2026)
+
+**Strong beat, stock +10%:**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| EPS | **$8.88** | $8.16 |
+| Revenue | **$59.9B** | $58.4B |
+| Reality Labs rev | $955M | $959M |
+| Reality Labs loss | ($6B) | — |
+
+**Q1 2026 guidance:** Revenue **$53.5B - $56.5B** (above consensus $51.3B).
+
+**2026 capex guidance: $115B-$135B** — up from $72.2B in 2025 (60-87% increase).
+
+**Engagement:** 3.5B daily active users across apps (record). Ad impressions +18%, average ad price +6%.
+
+**AI strategy shift:** Considering making next major AI model **proprietary**, moving away from open-weights approach. Signals defensive posture as Google Gemini 3 seen as leading.
+
+**Reality Labs:** Job cuts in metaverse division; savings redirected to wearables/AI glasses.
+
+**FTC:** Appealing its antitrust loss (Instagram/WhatsApp acquisition case).
+
+---
+
 ## Relevance to semis
 
 Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [[TSMC]] via NVIDIA.
@@ -301,7 +326,8 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
-| AI capex | **$65B** (2025 budget) |
+| 2025 AI capex | **$72.2B** (actual) |
+| 2026 AI capex | **$115B-$135B** (guidance) |
 | Total infra commitment | **$600B** (multi-year) |
 | H100 GPUs | 350,000 |
 | Blackwell GPUs | ~400,000 (ordered) |
@@ -313,7 +339,7 @@ See [[Short interest]] for interpretation framework.
 | Infra lead | Dina Powell McCormick (Jan 2026) |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-[[Tesla]] |
 
-*Updated 2026-01-21*
+*Updated 2026-01-29*
 
 ---
 

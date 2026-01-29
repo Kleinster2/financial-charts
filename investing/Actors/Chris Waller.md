@@ -57,6 +57,18 @@ aliases: [Christopher Waller, Waller]
 
 **Bessent meeting:** Met with Treasury Secretary, said he "fits the bill" for leadership.
 
+**Jan 28, 2026 dissent:** Waller dissented in favor of 25bp cut (joined [[Stephen Miran]]). First dissent since joining Board in 2020. Speculation that dissent was intended to bolster Fed Chair candidacy by signaling alignment with Trump's preference for lower rates.
+
+---
+
+## Recent FOMC votes
+
+| Meeting | Waller vote | Notes |
+|---------|-------------|-------|
+| Jan 28, 2026 | **Dissent** (cut 25bp) | First dissent; joined Miran |
+| Dec 2025 | Majority (cut 25bp) | — |
+| Prior meetings | Majority | No prior dissents |
+
 ---
 
 ## Strengths vs concerns

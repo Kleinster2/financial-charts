@@ -28,6 +28,8 @@
 | **Jan 13, 2026** | Global central bank chiefs support Powell |
 | **Jan 14, 2026** | [[Gold]] hits record $4,641/oz on Fed concerns |
 | **Jan 21, 2026** | Supreme Court hearing — **6+ justices skeptical**, including Trump appointees Kavanaugh & Barrett |
+| **Jan 28, 2026** | Fed hasn't complied with subpoenas; Bill Pulte (FHFA) identified as instigator |
+| **Jan 29, 2026** | Powell: Cook case "most important legal case in Fed's 113-year history" |
 | **May 2026** | Powell's term ends; Trump will not reappoint |
 
 **Jan 21 SCOTUS outcome:**
@@ -42,8 +44,16 @@ At least six justices — including Trump appointees Kavanaugh and Barrett — q
 
 **Likely outcome:** Court appears ready to block the firing, at least temporarily. No president has fired a sitting Fed governor in 112 years.
 
-**Powell's statement:**
+**Powell's Jan 11 statement:**
 > "The threat of criminal charges is a consequence of the Federal Reserve setting interest rates based on our best assessment of what will serve the public, rather than following the preferences of the President."
+
+**Powell's Jan 29 statement (on Cook case):**
+> "That case is perhaps the most important legal case in the Fed's 113-year history."
+
+**Powell on Fed independence (Jan 29):**
+> "If people lose their faith that we're making decisions only on the basis of our assessment of what's best for everyone... it's going to be hard to retain it. And we haven't lost it. I don't believe we will."
+
+> "I am strongly committed to that and so are my colleagues."
 
 ---
 
@@ -213,9 +223,14 @@ Research on Turkey's central bank dismissals found:
 - [[Edward Prescott]] — 2004 Nobel laureate
 
 ### Concepts
+- [[Central bank independence]] — global theoretical framework
 - [[De-dollarization]] — structural consequence
 - [[Inflation]] — ultimate cost of politicized policy
 - [[Risk on risk off]] — Fed credibility as regime driver
+
+### International comparisons
+- [[NBP]] — Poland's successful independence model
+- [[Adam Glapiński]] — NBP President, aggressive inflation fighter
 
 ---
 

@@ -122,4 +122,5 @@ AI = post-oil economy.
 - [[NVIDIA]] — beneficiary (GPU for Saudi AI)
 - [[Saudi Arabia Tech]] — national context
 - [[NEOM]] — portfolio ($500B smart city)
+- [[Saudi Vision 2030]] — strategic framework (PIF is execution vehicle)
 

@@ -107,6 +107,15 @@ The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not t
 | Azure growth | **39%** | — | Decel from 40% Q1 |
 | Gross margin | **68%** | — | 3-year low |
 
+**Segment breakdown:**
+| Segment | Revenue | YoY |
+|---------|---------|-----|
+| Intelligent Cloud | $32.9B | +29% |
+| Productivity & Business | $34.1B | +13% |
+| More Personal Computing | $14.3B | -3% |
+
+Xbox content/services -5%. Microsoft 365 Copilot reached 15M commercial seats.
+
 **Key concerns:**
 - Azure deceleration (39% vs 40% Q1) spooked investors
 - Gross margin at 3-year low from AI infrastructure costs
@@ -116,6 +125,11 @@ The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not t
 - OpenAI investment gains: **$7.6B**
 - Revenue/EPS both beat consensus
 - AI infrastructure buildout on track
+
+**Forward guidance (Q3 FY26):**
+- Revenue: $80.65-81.75B (mid $81.2B meets consensus)
+- Azure growth: 37-38% constant currency (consensus 37.1%)
+- Commercial RPO: $625B (+110% YoY), 45% tied to OpenAI's $250B cloud commitment
 
 ---
 

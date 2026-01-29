@@ -175,3 +175,4 @@ See [[Institutional homebuying ban]] for full context.
 - [[Invitation Homes]] — former subsidiary (single-family rental)
 - [[Private credit]] — cov-lite lending trend
 - [[Permira]] — borrower (JTC deal)
+- [[Lightstone Group]] — sold Extended Stay Hotels ($8B, 2007)

@@ -55,11 +55,18 @@ aliases: [Fed, FOMC, Federal Reserve System]
 | Cutting | Sep 2024 - Jan 2026 | 175bp cuts to 3.50-3.75% |
 | **Pause** | Jan 28, 2026 | First hold since July |
 
-**Jan 28, 2026 decision:**
+**Jan 28-29, 2026 decision:**
 - Rates held at 3.50-3.75% — first pause since July
-- Hawkish tone: inflation "stickiness" remains concern
-- Only one 25bp cut projected for rest of 2026
-- GDP forecast 2.3%, unemployment 4.4%
+- **10-2 vote:** [[Stephen Miran]] and [[Chris Waller]] dissented for 25bp cut
+  - Miran's 4th consecutive dissent (first time at 25bp vs his usual 50bp)
+  - Waller's first dissent — may be positioning for Fed Chair nomination
+- Removed "downside risks to employment rose" language — labor market stabilizing
+- Unemployment 4.4% (Dec), private payrolls +29k/month (low but stable)
+- Core PCE at 3.0% (no progress YoY) but mostly tariff-driven goods inflation
+- Powell: "If you take tariffs out, core PCE running just a bit above 2%"
+- Expects tariff pass-through to peak mid-2026, then fade
+- Services disinflation continuing
+- Fed hasn't yet complied with DOJ subpoenas (Bill Pulte was instigator)
 
 **Jan 24 rate check:** NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
 
@@ -71,7 +78,7 @@ aliases: [Fed, FOMC, Federal Reserve System]
 |--------|--------|
 | Current chair | [[Jerome Powell]] — term ends May 15, 2026 |
 | Trump stance | Will not reappoint Powell |
-| Announcement | Expected Q1 2026 |
+| Announcement | **"In the next week or so"** — Bessent (Jan 29) |
 | Market impact | "Battle of the Kevins" |
 
 ### Leading candidates
