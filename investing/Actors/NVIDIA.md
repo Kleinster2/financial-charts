@@ -340,15 +340,17 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
+| **Stock price** | **~$190** |
+| **Market cap** | **$4.7T** (down from $5T+ record Jan 8) |
 | AI training share | >90% |
 | Primary foundry | [[TSMC]] |
 | Packaging | [[TSMC]] CoWoS (constrained) |
 | **2026 backlog** | **$275B** |
 | **CY2028 Blackwell+Rubin revenue** | **$500B+ booked** |
-| **Stock YTD** | **+37%** (underperforming memory) |
 | Short interest | **1.1%** (Jan 2026) |
+| **Next earnings** | **Feb 25, 2026** |
 
-*Updated 2026-01-20*
+*Updated 2026-01-29*
 
 ![[nvda-price-chart.png]]
 
@@ -357,6 +359,28 @@ See [[Short interest]] for interpretation framework.
 ---
 
 ## Recent developments (Jan 2026)
+
+**Jan 27-29 — DeepSeek selloff + allegations:**
+- Chinese AI breakthroughs triggered ~$1T tech selloff on Jan 27
+- NVIDIA alone lost ~$600B in single session
+- Two Chinese models matched/surpassed US rivals at fraction of cost
+- Stock fell from $5T+ record (Jan 8) to ~$190 ($4.7T cap)
+
+**Moolenaar letter (Jan 28):**
+- **[[John Moolenaar]]** (R-MI), chair of House Select Committee on [[China]], sent letter to Commerce Secretary Lutnick
+- Documents obtained from NVIDIA show technical assistance helped [[DeepSeek]] achieve training efficiency
+- Internal docs: "DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training — less than what US developers typically require"
+- Moolenaar acknowledged NVIDIA treated DeepSeek "as a legitimate commercial partner" (no military indication at time)
+- But argues: if even NVIDIA "cannot rule out military use," rigorous export licensing essential
+- **NVIDIA response:** "China has more than enough domestic chips for all of its military applications... it makes no sense for the Chinese military to depend on American technology"
+
+**H200 China orders confirmed (late Jan):**
+- Reuters: Chinese tech firms ordered **2M+ H200 GPUs** for 2026
+- Orders placed after Trump administration approved China sales
+- Aligns with Jensen's planned China visit ahead of Lunar New Year
+- First shipment still expected mid-February (82K GPUs)
+
+**Next earnings: Feb 25, 2026**
 
 **NVIDIA hits $5 trillion (Jan 8, 2026):**
 - First company ever to reach $5T market cap
@@ -514,3 +538,5 @@ See [[CES 2026]] for event details.
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)
 - [[Baseten]] — inference infrastructure investment ($150M, Jan 2026)
 - [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics
+- [[DeepSeek]] — Chinese AI lab; technical assistance allegations (Jan 2026)
+- [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation

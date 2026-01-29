@@ -108,9 +108,17 @@ One year later, DeepSeek published research validating their efficiency claims:
 | Country | Action |
 |---------|--------|
 | **[[Australia]]** | Banned from all government devices (security concerns) |
+| **Czech Republic** | Banned from public administration (data security concerns) |
 | Various | Privacy policy scrutiny — stores data in [[China]] |
 
 DeepSeek's privacy policy explicitly states personal data stored on computers in [[China]]. Multiple governments reviewing security implications.
+
+**NVIDIA assistance allegations (Jan 28, 2026):**
+- **[[John Moolenaar]]** (R-MI), chair of House Select Committee on [[China]], sent letter to Commerce Secretary Lutnick
+- Documents from [[NVIDIA]] show technical assistance helped DeepSeek achieve training efficiency
+- Internal docs: "DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training — less than what US developers typically require"
+- Moolenaar acknowledged NVIDIA treated DeepSeek "as a legitimate commercial partner" at the time
+- **NVIDIA response:** "China has more than enough domestic chips for all of its military applications... it makes no sense for the Chinese military to depend on American technology"
 
 ---
 
@@ -165,6 +173,10 @@ Rigorous benchmark with thousands of questions across math, science, other subje
 | [[China]] cloud | ✓ (Alibaba, etc.) |
 
 Azure listing is notable — Microsoft offering Chinese model alongside [[OpenAI]], [[Anthropic]].
+
+**Regional adoption (Jan 2026):**
+- [[Microsoft]] noted DeepSeek usage in Africa is **2-4x higher** than in other regions
+- Cost efficiency driving adoption in price-sensitive markets
 
 ---
 
@@ -260,7 +272,7 @@ DeepSeek represents [[China]]'s response to GPU constraints:
 
 ---
 
-*Updated 2026-01-27*
+*Updated 2026-01-29*
 
 ---
 
@@ -276,4 +288,5 @@ DeepSeek represents [[China]]'s response to GPU constraints:
 - [[Open source commoditization]] — trend (open weights pressure)
 - [[Alibaba]] — peer ([[Qwen]] models)
 - [[ByteDance]] — peer ([[Doubao]])
-- [[NVIDIA]] — affected (largest single-day loss)
+- [[NVIDIA]] — affected (largest single-day loss); technical assistance allegations
+- [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
