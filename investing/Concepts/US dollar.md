@@ -7,14 +7,33 @@ aliases: [USD, DXY, dollar, greenback]
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Jan 28, 2026)
 
 | Metric | Value |
 |--------|-------|
-| DXY (dollar index) | ~98 |
-| 2025 return | **-10%** (DXY basis) |
-| Fed rate | 3.50-3.75% |
+| DXY (dollar index) | **96.16** (4-year low) |
+| 2025 return | **-9%** (DXY basis) |
+| Jan 2026 MTD | **-2.5%** |
+| Fed rate | 3.50-3.75% (held) |
 | 10Y Treasury | ~4.5% |
+| Gold | **$5,300+** (record) |
+
+**Jan 24-28 selloff:** DXY fell 2.26% in 5 days after NY Fed "rate check" and Trump endorsement of weakness.
+
+---
+
+## Jan 2026 selloff
+
+**Catalyst:** NY Fed conducted rare "rate check" with currency traders on USD/JPY (Jan 24) — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken the dollar.
+
+**Trump endorsement:** When asked about the decline, Trump said "I think it's great" — removing any expectation of policy pushback.
+
+| Currency | Move |
+|----------|------|
+| EUR | Topped $1.20 (first since 2021) |
+| GBP | 4.5-year highs |
+| JPY | Best month vs USD since April |
+| Gold | $5,300+ record (+22% YTD) |
 
 ---
 
@@ -22,7 +41,7 @@ aliases: [USD, DXY, dollar, greenback]
 
 | Driver | Mechanism |
 |--------|-----------|
-| **Fed cutting cycle** | 200bp of cuts narrowed rate advantage |
+| **Fed cutting cycle** | 175bp of cuts narrowed rate advantage |
 | **Fed independence fears** | DOJ investigation of Powell → safe haven concern |
 | **Twin deficits** | Fiscal + current account deficits |
 | **De-dollarization** | Central banks diversifying reserves |
@@ -43,7 +62,7 @@ Strong USD          Weak USD           Strong USD
   safety)             EM/risk)           differential)
 ```
 
-2025: Middle of the smile (risk-on, carry trades working).
+Jan 2026: Middle of the smile — but political factors (rate check, Trump endorsement) pushing weakness beyond fundamentals.
 
 ---
 
@@ -98,7 +117,8 @@ Unprecedented: DOJ subpoenas of Fed officials in Jan 2026.
 | Level | Significance |
 |-------|--------------|
 | 90 | 2020-2021 lows |
-| 100 | Psychological support |
+| **96** | **Current (Jan 2026)** — 4-year low |
+| 100 | Psychological support (broken) |
 | 105 | 2023-2024 range |
 | 114 | 2022 high (peak hawkishness) |
 
@@ -136,4 +156,4 @@ Unprecedented: DOJ subpoenas of Fed officials in Jan 2026.
 
 ---
 
-*Created Jan 2026.*
+*Updated 2026-01-28.*

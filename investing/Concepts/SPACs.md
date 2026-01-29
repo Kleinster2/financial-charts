@@ -146,7 +146,7 @@ A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the
 | **IronNet** | LGL Systems | — | Bankrupt 2023 |
 | **Polestar** | Gores Guggenheim | $20B EV | Down 90% from $10 |
 | **Sonder** | Gores Metropoulos II | — | Down 99% from $10 |
-| **MultiPlan** | Churchill III | — | Down 89% from $10 |
+| **[[Claritev]]** | Churchill III | — | Down 89% from $10 |
 | **[[Lucid]]** | Churchill IV | $4.4B merger | Down 85% from debut |
 
 ### Successes (rare)
@@ -171,13 +171,13 @@ The successes share a common trait: they were real businesses with real revenue 
 
 Launched new SPAC (American Exceptionalism Acquisition Corp, $345M) in Sep 2025 — no warrants, compensation vests only if shares rise 50%+. Five times oversubscribed.
 
-### Michael Klein (Churchill Capital)
+### [[Michael Klein]] (Churchill Capital)
 
-Former [[Citigroup]] investment banker. Churchill IV merged with [[Lucid]] (now down 85%). Churchill III merged with MultiPlan (down 89%). Filed Churchill XI ($300M) in late 2025. Continues launching despite track record.
+Former [[Citigroup]] investment banker. Churchill IV merged with [[Lucid]] (now down 85%). Churchill III merged with [[Claritev]] (down 89%). Filed Churchill XI ($300M) in late 2025. Continues launching despite track record.
 
-### Gores Group (Alec Gores)
+### [[Gores Group]] (Alec Gores)
 
-13+ SPACs — more than any single investor. Started the modern SPAC revival via Hostess Brands (2016). Key mergers: United Wholesale Mortgage ($16.1B), Polestar ($20B, down 90%), Sonder (down 99%). Filed Gores X ($260M) — still active.
+13+ SPACs — more than any single investor. Started the modern SPAC revival via Hostess Brands (2016). Key mergers: United Wholesale Mortgage ($16.1B), Polestar ($20B, down 90%+), Sonder (**bankrupt Nov 2025**). Filed Gores X ($360M) — still active.
 
 ### [[Bill Ackman]] ([[Pershing Square]])
 

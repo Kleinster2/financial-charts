@@ -33,6 +33,7 @@ aliases: [Carlyle]
 
 | Company | Sector | Status |
 |---------|--------|--------|
+| **[[ManTech]]** | [[Defense]]/IT | Private ($4.2B, Sep 2022) |
 | **Booz Allen Hamilton** | [[Defense]] | Public (BAH) |
 | **Veritas** | Tech | Private |
 | **ZoomInfo** | Tech | Public (ZI) |
@@ -67,11 +68,18 @@ Carlyle = PE with government expertise.
 
 ## Related
 
+**Portfolio:**
+- [[ManTech]] — defense/IT contractor ($4.2B acquisition Sep 2022)
 - [[Fortitude Re]] — reinsurance platform ($106B assets, FCA Re [[Asia]] sidecar)
-- [[Reinsurance sidecars]] — permanent capital model via insurance
+
+**Peers:**
 - [[Blackstone]] — peer (largest PE)
 - [[KKR]] — peer (PE)
 - [[Apollo]] — peer (PE)
+
+**Concepts:**
+- [[Reinsurance sidecars]] — permanent capital model via insurance
+- [[Defense]] — major sector focus
 
 ---
 

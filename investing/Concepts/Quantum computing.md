@@ -52,9 +52,17 @@
 
 | Company | Approach | Funding | Notes |
 |---------|----------|---------|-------|
-| [[PsiQuantum]] | Photonic | $700M+ | [[GlobalFoundries]] partnership |
+| [[PsiQuantum]] | Photonic | $2.3B+ | [[GlobalFoundries]] partnership, [[Illinois Quantum and Microelectronics Park\|IQMP]] anchor |
 | [[Quantinuum]] | Trapped ion | [[Honeywell]] spinoff | Merged with Cambridge Quantum |
+| [[Pasqal]] | Neutral atom | $215M+ | French, Nobel founder, IQMP tenant |
+| [[Diraq]] | Silicon spin | A$150M+ | Australian, CMOS-compatible, IQMP tenant |
 | QuEra | Neutral atom | $100M+ | Harvard/MIT spinout |
+
+### Going public
+
+| Company | Approach | Valuation | Notes |
+|---------|----------|-----------|-------|
+| [[Infleqtion]] | Neutral atom | $1.8B | SPAC with Churchill Capital (INFQ), IQMP tenant |
 
 ---
 
@@ -101,6 +109,26 @@
 
 ---
 
+## Illinois Quantum and Microelectronics Park (2025)
+
+**Largest US quantum infrastructure project.** 128-acre campus in Chicago (former U.S. Steel South Works). $500M Illinois state funding.
+
+| Tenant | Approach |
+|--------|----------|
+| [[PsiQuantum]] (anchor) | Photonic — building first US million-qubit system |
+| [[IBM]] | Superconducting |
+| [[Diraq]] | Silicon spin |
+| [[Infleqtion]] | Neutral atom |
+| [[Pasqal]] | Neutral atom |
+
+Groundbreaking September 2025. Target completion 2028. Projected $20B+ economic impact.
+
+**Significance:** Consolidates multiple quantum approaches in one location with government backing — could accelerate timelines if any approach achieves breakthrough.
+
+See [[Illinois Quantum and Microelectronics Park]] for details.
+
+---
+
 ## What to watch
 
 | [[Signal]] | Bullish | Bearish |
@@ -110,15 +138,23 @@
 | Commercial applications | Real revenue | Perpetual "demos" |
 | Microsoft MZM proof | Independent replication | Continued skepticism |
 | Google/[[IBM]] roadmaps | On track | Delays |
+| IQMP progress | Tenants hitting milestones | Delays, tenant departures |
 
 ---
 
-*Updated 2026-01-04*
+*Updated 2026-01-28*
 
 ---
 
 ## Related
 
+- [[Illinois Quantum and Microelectronics Park]] — major US infrastructure project
+- [[Chicago Quantum Exchange]] — regional hub
+- [[PsiQuantum]] — photonic, IQMP anchor
+- [[Infleqtion]] — neutral atom, going public (INFQ)
+- [[Pasqal]] — neutral atom, French
+- [[Diraq]] — silicon spin, Australian
 - [[Microsoft]] — player (topological qubits, Majorana 1)
 - [[Google]] — player (superconducting, Willow)
 - [[Amazon]] — player (Braket cloud platform)
+- [[IBM]] — player (superconducting, IQMP partner)

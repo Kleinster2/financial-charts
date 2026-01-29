@@ -75,7 +75,7 @@ See [[Project Stargate]] for full details.
 
 | [[Target]] | Amount | Status |
 |--------|--------|--------|
-| [[OpenAI]] | **~$30B** | Committed |
+| [[OpenAI]] | **$41B** | **Completed (Dec 2025)** — ~11% stake |
 | [[Ampere Computing]] | **$6.5B** | Acquired |
 | [[DigitalBridge]] | **$4B** | In talks |
 | [[ABB]] robotics unit | **$5.4B** | Proposed |
@@ -130,7 +130,7 @@ Arm architecture in virtually every smartphone. Now pushing into:
 | Asset | Stake | Value | Notes |
 |-------|-------|-------|-------|
 | [[Arm Holdings]] | ~90% | ~$150B | Crown jewel |
-| [[OpenAI]] | Minority | — | Via Stargate |
+| [[OpenAI]] | **~11%** | **~$55B** | $41B invested (Dec 2025) |
 | [[ByteDance]] | ~2% | ~$7B | Early investor |
 | [[Alibaba]] | Reduced | ~$10B | Was largest holder |
 | [[T-Mobile]] | — | Exited | Sprint merger |

@@ -39,7 +39,7 @@
 - **88%** planning budget increases for agentic AI
 - **171%** average projected ROI
 
-Source: PwC AI Agent Survey, McKinsey State of AI 2025
+Source: [[PwC]] AI Agent Survey, [[McKinsey]] State of AI 2025
 
 ---
 

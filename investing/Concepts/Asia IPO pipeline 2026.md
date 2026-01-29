@@ -20,7 +20,7 @@
 
 | Market | Projection | Source |
 |--------|------------|--------|
-| Hong Kong | Up to **$45B** | KPMG |
+| Hong Kong | Up to **$45B** | [[KPMG]] |
 | [[India]] | Third straight record | Bankers |
 
 Hong Kong $45B would be **6-year high**.

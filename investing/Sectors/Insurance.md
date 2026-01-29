@@ -11,6 +11,19 @@ The insurance sector spans P&C, life/annuity, health, reinsurance, and broking. 
 
 ## Sub-sectors
 
+### Title Insurance
+
+See [[Title Insurance]] sector note for full coverage. See [[Title Agencies]] for the distribution layer.
+
+| Company | Market Share | Ticker |
+|---------|-------------|--------|
+| [[Fidelity National Financial]] | 27% | FNF |
+| [[First American Financial]] | 23% | FAF |
+| [[Old Republic International]] | 14% | ORI |
+| [[Stewart Information Services]] | 9% | STC |
+
+**Four-player oligopoly** controlling 80%+ of market. Tied to real estate transaction volume. One-time premium at closing.
+
 ### Property & Casualty (P&C)
 
 | Company | Focus | Market cap | Key metric |
@@ -158,6 +171,7 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 
 ## Related
 
+- [[Title Insurance]] — sub-sector
 - [[Berkshire Hathaway]] — original insurance-funded conglomerate
 - [[Apollo]] — PE-insurance model leader (via [[Athene]])
 - [[KKR]] — via [[Global Atlantic]]

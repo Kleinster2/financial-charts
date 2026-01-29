@@ -90,6 +90,25 @@ Open-sourced some models. Targeting enterprise customers who want control.
 
 ---
 
+## Quantum computing
+
+**Superconducting qubit approach:**
+
+| Metric | Value |
+|--------|-------|
+| Approach | Superconducting transmon qubits |
+| Qubits (2024) | 1,000+ (Condor chip) |
+| Platform | Qiskit (open-source SDK) |
+| Cloud access | IBM Quantum Network |
+
+**IBM is one of the leaders in superconducting quantum hardware.** Large enterprise customer base provides commercialization path.
+
+**[[Illinois Quantum and Microelectronics Park]]:** IBM is a partner at the 128-acre Chicago quantum campus, alongside anchor tenant [[PsiQuantum]] and other tenants [[Diraq]], [[Infleqtion]], [[Pasqal]].
+
+**[[Chicago Quantum Exchange]]:** $100M investment in University of Chicago quantum research.
+
+---
+
 ## Consulting / services
 
 **Large consulting practice:**
@@ -206,3 +225,6 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 - [[Samsung]] — research partner
 - [[GlobalFoundries]] — former subsidiary (spun off)
 - [[AI hyperscalers]] — adjacent category
+- [[Illinois Quantum and Microelectronics Park]] — quantum partner
+- [[Chicago Quantum Exchange]] — quantum research investor
+- [[Quantum computing]] — quantum computing player

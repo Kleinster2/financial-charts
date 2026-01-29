@@ -25,7 +25,9 @@ aliases: [GD]
 | Marine Systems | Submarines (Virginia, Columbia class) |
 | Combat Systems | Tanks (Abrams), armored vehicles |
 | [[Aerospace]] | Gulfstream business jets |
-| Technologies | IT services, C4ISR |
+| Technologies | [[GDIT]] (IT services), Mission Systems |
+
+See [[GDIT]] for detailed coverage of the IT services business (~$10B+ revenue, 30K employees).
 
 ---
 
@@ -79,8 +81,18 @@ See [[Trump defense budget]] for full context.
 
 ## Related
 
+**Subsidiaries:**
+- [[GDIT]] — IT services division (~$10B+)
+
+**Policy:**
 - [[Trump defense budget]] — -4.2% on EO, shipbuilding cited
+
+**Peers:**
+- [[RTX]], [[Northrop Grumman]] — defense primes
+- [[Lockheed Martin]], [[L3Harris]] — defense primes
+
+**Theses:**
 - [[Long defense AI]] — thesis (less direct)
-- [[RTX]], [[Northrop Grumman]] — peers
-- [[Lockheed Martin]], [[L3Harris]] — peers
+
+**Context:**
 - [[European defense spending]] — contrast

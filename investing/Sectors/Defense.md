@@ -93,6 +93,23 @@ See [[Drone warfare]] for full landscape: cost asymmetry, Ukraine lessons, deman
 
 ---
 
+## IT services contractors
+
+See [[Defense IT Services]] for full sector coverage.
+
+| Company | Revenue | Focus |
+|---------|---------|-------|
+| [[Leidos]] | ~$16B | ISR, cyber, logistics |
+| [[Booz Allen Hamilton]] | $12B | AI, analytics, consulting |
+| [[General Dynamics IT]] | ~$10B | Cloud, managed services |
+| [[SAIC]] | ~$8B | IT modernization |
+| [[CACI]] | $8.6B | C5ISR, space |
+| [[ManTech]] | ~$2.6B | Cyber, data/AI |
+
+**Theme:** Labor-intensive, cost-plus contracts, clearance moats.
+
+---
+
 ## New defense players
 
 | Company | Focus | Status |
@@ -211,15 +228,25 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 
 ## Related
 
+**Sub-sectors:**
+- [[Defense IT Services]] — Leidos, Booz Allen, SAIC, CACI, ManTech
+- [[Drone warfare]] — attritable concept, Ukraine validation
+
+**Theses:**
 - [[Long global rearmament]] — investment thesis
 - [[Long defense AI]] — AI-first defense thesis
+
+**Policy:**
 - [[Trump defense budget]] — $1.5T FY27, capital return restrictions
 - [[European defense spending]] — NATO rearmament
 - [[Golden Dome]] — $1T+ missile defense program
-- [[Copper]] — critical material, munitions demand
-- [[Anduril]], [[Palantir]] — AI-first defense
+
+**Supply chain:**
 - [[Defense supply chain]] — munitions ramp, critical materials
-- [[Drone warfare]] — attritable concept, Ukraine validation, demand drivers
+- [[Copper]] — critical material, munitions demand
+
+**Companies:**
+- [[Anduril]], [[Palantir]] — AI-first defense
 - [[Northrop Grumman]] — B-21, space
 
 ---

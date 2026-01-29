@@ -79,12 +79,12 @@ OpenAI investment = strategic signal.
 **Top law firms:**
 - Majority of top 10 US law firms
 - 235 customers in 42 countries
-- Big 4 accounting (PwC partnership)
+- [[Big Four]] accounting ([[PwC]] partnership)
 - Corporate legal departments
 
 **Early partnerships:**
 - A&O Shearman (Dec 2022)
-- PwC (March 2023)
+- [[PwC]] (March 2023)
 
 ---
 
@@ -158,6 +158,7 @@ Harvey = most funded, fastest growing.
 
 - [[OpenAI]] — investor, AI partner
 - [[Sequoia Capital]] — investor (Series D lead)
+- [[PwC]] — early customer (March 2023)
 - [[Glean]] — peer (enterprise AI)
 - [[Cohere]] — peer (enterprise AI)
 - [[Anthropic]] — potential AI partner

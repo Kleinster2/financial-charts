@@ -14,12 +14,12 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 
 | Metric | Value |
 |--------|-------|
+| **Valuation** | **$500B** (Oct 2025 restructuring) |
 | Revenue | $13B annualized |
 | Burn rate | 57% of revenue |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
-| Seeking valuation | **$750-830B** (Jan 2026 round) |
-| Previous valuation | $157B (Oct 2024 round) |
+| Seeking valuation | $750-830B (Jan 2026 round) |
 
 Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valuable private company.
 
@@ -31,26 +31,40 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valu
 
 ## Cap table
 
+### Ownership structure (Jan 2026)
+
+| Owner | Stake | Value (at $500B) | Notes |
+|-------|-------|------------------|-------|
+| **Employees** | ~30% | ~$150B | Current + former staff |
+| **[[Microsoft]]** | **27-30%** | **$135-150B** | $13.8B invested → ~10x |
+| **[[OpenAI Foundation]]** | ~20-26% | ~$100-130B | Nonprofit, controls governance |
+| **[[SoftBank]]** | **~11%** | **~$55B** | $41B invested (Dec 2025) |
+| **Other investors** | ~10% | ~$50B | Thrive, Khosla, MGX, etc. |
+
+*Valuation: $500B (Oct 2025 restructuring). Total raised: ~$58B across 9 rounds.*
+
 ### Key investors
 
-| Investor | Amount | Notes |
-|----------|--------|-------|
-| **[[Microsoft]]** | $13B+ | 49% of profits (capped), Azure compute |
-| **[[SoftBank]]** | $500M+ | Part of $6.6B round (Oct 2024) |
-| **[[Thrive Capital]]** | $1B+ | Led $6.6B round, multiple rounds |
-| **[[Khosla Ventures]]** | — | Early investor ([[Vinod Khosla]]) |
-| **[[a16z]]** | — | Early investor |
-| **[[Sequoia Capital]]** | — | Multiple rounds |
-| **[[Tiger Global]]** | — | Growth rounds |
-| **[[Founders Fund]]** | — | Early investor |
-| **[[Reid Hoffman]]** | — | LinkedIn founder, board member |
-| **[[Infosys]]** | — | Strategic investor |
-| **[[NVIDIA]]** | $250M | Oct 2024 round |
-| **[[Apple]]** | — | Rumored Oct 2024 |
+| Investor | Amount | Stake | Notes |
+|----------|--------|-------|-------|
+| **[[Microsoft]]** | $13.8B | **~27-30%** | Was 32.5% pre-dilution, ~10x return |
+| **[[SoftBank]]** | **$41B** | **~11%** | Largest single check ever (Dec 2025) |
+| **[[Thrive Capital]]** | $1B+ | — | Led multiple rounds, Josh Kushner |
+| **[[MGX]]** (Abu Dhabi) | — | — | Part of Middle East push |
+| **[[Khosla Ventures]]** | — | — | Early investor ([[Vinod Khosla]]) |
+| **[[a16z]]** | — | — | Early investor |
+| **[[Sequoia Capital]]** | — | — | Multiple rounds |
+| **[[Tiger Global]]** | — | — | Growth rounds |
+| **[[NVIDIA]]** | $250M | — | Oct 2024 round |
+| **T. Rowe Price** | — | — | Secondary purchases |
+| **Dragoneer** | — | — | Secondary purchases |
+| **[[Founders Fund]]** | — | — | Early investor |
 
-**Total raised:** $17B+
-
-**Notable:** Microsoft dominates cap table. Most VCs are passive — Microsoft controls the relationship.
+**Power dynamics:**
+- Microsoft has largest equity stake but SoftBank wrote largest check
+- SoftBank paid ~$41B for 11% (~$373B implied valuation at entry) — got in before $500B mark
+- Thrive, Khosla, a16z are early investors with smaller but high-multiple positions
+- Employee equity pool is substantial (~30%) — retention tool
 
 ### $50B Middle East round (Jan 2026)
 
@@ -116,11 +130,17 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ## Strategic dependencies
 
-- **[[Microsoft]]** — $13B+ invested, owns 49% of profits (capped)
-- **Compute** — Massive Azure dependency
+- **[[Microsoft]]** — $13.8B invested, **27% equity stake** (post-Oct 2025 restructuring)
+- **Compute** — Massive Azure dependency ($250B contracted)
 - **Distribution** — Bing, Office, Windows integration
 
-**Risk**: Microsoft could build competing models, reduce dependency.
+**Oct 2025 restructuring changes:**
+- Microsoft lost right of first refusal on compute
+- Microsoft can now pursue AGI independently
+- IP access extended through 2032
+- OpenAI can work with other cloud providers
+
+**Risk**: Microsoft building competing models (Maia chips, own AI team under Suleyman).
 
 ---
 
@@ -200,7 +220,7 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
-*Updated 2026-01-26*
+*Updated 2026-01-28*
 
 ## Key people
 

@@ -106,6 +106,10 @@ python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs
 
 Delisted ticker warnings (YFPricesMissingError, YFTzMissingError) are expected and harmless — the NaN-skip in the merge logic prevents them from corrupting historical data.
 
+### Delisted tickers
+
+**Never remove historical data for delisted tickers.** Acquisitions, bankruptcies, and delistings happen — the historical price data remains valuable for analysis and charting. When a ticker stops updating (e.g., HOUS acquired by Compass Jan 2026), the column stays in the database with data through its final trading day.
+
 ## Generating Charts for the Vault
 
 **ALWAYS use the charting app API. NEVER use matplotlib or other tools.**

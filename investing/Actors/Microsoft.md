@@ -50,7 +50,8 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 ## Chip strategy
 
 - Massive [[NVIDIA]] buyer (OpenAI infrastructure)
-- **Maia**: Custom AI accelerator (announced 2023)
+- **Maia 200**: 2nd-gen AI inference chip, launched Jan 28, 2026 — [[TSMC]] 3nm process
+- **Maia 100**: First-gen custom AI accelerator (announced 2023)
 - **Cobalt**: ARM-based CPU
 - Designed in-house, fabbed at [[TSMC]]
 
@@ -58,12 +59,63 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 ## OpenAI relationship
 
-**Partnership restructured (Oct 2024):**
-- Was: Exclusive cloud provider, deeply intertwined
-- Now: Losing exclusivity early 2030s
+**Partnership restructured (Oct 2025):**
+- Was: Exclusive cloud provider, 49% profit share (capped)
+- Now: **27% equity stake**, losing exclusivity by 2032
 - Microsoft building own AI capabilities separately
 
 OpenAI's compute needs still flow through Microsoft Azure → NVIDIA → TSMC. But Microsoft is hedging.
+
+---
+
+## OpenAI investment analysis (Jan 2026)
+
+**Reverse-engineering OpenAI valuation from MSFT Q2 FY2026 earnings:**
+
+| Metric | Value |
+|--------|-------|
+| MSFT total invested | $13.8B |
+| MSFT stake (post-restructuring) | **27%** |
+| MSFT stake value | **$135B** |
+| Implied OpenAI valuation | **$500B** |
+| MSFT return | **~10x** |
+| Q2 FY2026 gain (mark-to-market) | $7.6B |
+
+**Why only $7.6B this quarter?**
+
+The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not total gains. Pre-restructuring, MSFT carried OpenAI at ~$127B ($135B - $7.6B). The restructuring to a Public Benefit Corporation with clear equity percentages triggered the revaluation.
+
+**Key terms (Oct 2025 restructuring):**
+- OpenAI contracted $250B of Azure services
+- MSFT lost right of first refusal on compute
+- MSFT can now pursue AGI independently
+- IP access extended through 2032
+
+**Prior stake:** Before recent funding rounds, MSFT held 32.5% (diluted to 27% by new capital).
+
+---
+
+## Q2 FY2026 earnings (Jan 28, 2026)
+
+**Beat estimates, but stock -5% afterhours on slowing Azure**
+
+| Metric | Q2 FY26 | vs Est | YoY |
+|--------|---------|--------|-----|
+| Revenue | $81.27B | Beat ($80.27B) | +17% |
+| EPS (adj) | $4.14 | Beat ($3.97) | — |
+| Net income | $38.46B | — | +60% |
+| Azure growth | **39%** | — | Decel from 40% Q1 |
+| Gross margin | **68%** | — | 3-year low |
+
+**Key concerns:**
+- Azure deceleration (39% vs 40% Q1) spooked investors
+- Gross margin at 3-year low from AI infrastructure costs
+- Stock down 11% past 3 months on capex concerns
+
+**Positives:**
+- OpenAI investment gains: **$7.6B**
+- Revenue/EPS both beat consensus
+- AI infrastructure buildout on track
 
 ---
 
@@ -79,7 +131,7 @@ Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:
 | [[Llama]] | [[Meta]] | ✓ |
 | [[DeepSeek]] R1 | [[DeepSeek]] | ✓ |
 
-**Result:** Azure grew 40% in fiscal Q1 2026 (ended Sep 30).
+**Result:** Azure grew **39%** in Q2 FY26 (ended Dec 31), down from 40% in Q1.
 
 **Strategic logic:**
 - Customers pick best model for use case
@@ -178,17 +230,18 @@ See [[Short interest]] for interpretation framework.
 |--------|-------|
 | Ticker | MSFT (NASDAQ) |
 | Market cap | ~$3.4T |
-| Revenue (FY25) | ~$281B |
+| Q2 FY26 revenue | $81.27B (+17% YoY) |
+| Q2 FY26 EPS | $4.14 adj |
+| Azure growth | **39%** (decelerating) |
 | Revenue (FY26E) | ~$327B |
-| Revenue (FY27E) | ~$376B |
 | AI capex | $50B+ annually |
 | Primary chip | [[NVIDIA]] GPUs |
-| Custom silicon | Maia (AI), Cobalt (CPU) |
+| Custom silicon | Maia 200 (AI inference, 3nm), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
-| Fairwater GPU building | 300MW, 2-story, liquid-cooled |
+| Gross margin | 68% (3-year low) |
 | Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
-*Updated 2026-01-20*
+*Updated 2026-01-28 (Q2 FY26 earnings)*
 
 ![[msft-price-chart.png]]
 

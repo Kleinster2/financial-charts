@@ -213,6 +213,19 @@ Korea's answer to [[Google]]/[[Meta]].
 
 ---
 
+## US tariff escalation (Jan 2026)
+
+**Trump raised tariffs on South Korea to 25%** (from 15%) on January 27, 2026, accusing Korea of "not living up to its Deal" with the US.
+
+| Status | Tariff rate |
+|--------|-------------|
+| Previous | 15% |
+| **Current (Jan 27, 2026)** | **25%** |
+
+Impacts Samsung, SK Hynix, Hyundai exports to US. Memory chips likely exempt under semiconductor carve-outs, but consumer electronics and autos exposed.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -222,6 +235,7 @@ Korea's answer to [[Google]]/[[Meta]].
 - Foundry potential
 
 **Bear:**
+- **US tariffs raised to 25%** (Jan 2026)
 - TSMC foundry gap
 - [[China]] competition
 - Chaebol governance
@@ -238,7 +252,7 @@ Korea's answer to [[Google]]/[[Meta]].
 | [[HBM]] leader | SK Hynix |
 | Foundry rank | #2 (Samsung) |
 
-*Updated 2026-01-15*
+*Updated 2026-01-28*
 
 ---
 

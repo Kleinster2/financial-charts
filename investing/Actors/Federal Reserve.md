@@ -16,7 +16,7 @@ aliases: [Fed, FOMC, Federal Reserve System]
 | Chair | [[Jerome Powell]] (term ends May 2026) |
 | Mandate | Maximum employment + price stability (2% inflation) |
 | Balance sheet | ~$7T (down from $9T peak) |
-| Fed funds rate | 4.25-4.50% (Jan 2026) |
+| Fed funds rate | 3.50-3.75% (Jan 28, 2026) |
 
 ---
 
@@ -39,7 +39,7 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 | Tool | Current | Mechanism |
 |------|---------|-----------|
-| **Fed funds rate** | 4.25-4.50% | Overnight interbank rate |
+| **Fed funds rate** | 3.50-3.75% | Overnight interbank rate |
 | **Quantitative tightening** | Ongoing | Balance sheet runoff |
 | **Discount window** | 4.50% | Emergency lending |
 | **Reserve requirements** | 0% | Suspended since 2020 |
@@ -52,12 +52,16 @@ aliases: [Fed, FOMC, Federal Reserve System]
 |-------|-------|--------|
 | Hiking | Mar 2022 - Jul 2023 | 0% → 5.25-5.50% (525bp) |
 | Pause | Jul 2023 - Sep 2024 | Held at 5.25-5.50% |
-| Cutting | Sep 2024 - present | 100bp cuts to 4.25-4.50% |
+| Cutting | Sep 2024 - Jan 2026 | 175bp cuts to 3.50-3.75% |
+| **Pause** | Jan 28, 2026 | First hold since July |
 
-**2026 expectations:**
-- Consensus: 2x 25bp cuts (Jun, Sep) → 3.75-4.00%
-- Dovish view: New chair may accelerate cuts
-- Hawkish view: Sticky inflation limits easing
+**Jan 28, 2026 decision:**
+- Rates held at 3.50-3.75% — first pause since July
+- Hawkish tone: inflation "stickiness" remains concern
+- Only one 25bp cut projected for rest of 2026
+- GDP forecast 2.3%, unemployment 4.4%
+
+**Jan 24 rate check:** NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
 
 ---
 
@@ -152,7 +156,7 @@ See [[Fed independence]] for full concept analysis.
 
 ---
 
-*Created 2026-01-14*
+*Updated 2026-01-28*
 
 ---
 
