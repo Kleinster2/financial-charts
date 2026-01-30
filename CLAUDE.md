@@ -32,12 +32,12 @@ They are not separate concerns—they are one system.
 
 3. Create PR using gh CLI:
    ```bash
-   /c/Users/klein/Downloads/gh_2.80.0_windows_amd64/bin/gh.exe pr create --title "Title" --body "Description"
+   /c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe pr create --title "Title" --body "Description"
    ```
 
 4. After PR is approved/merged:
    ```bash
-   /c/Users/klein/Downloads/gh_2.80.0_windows_amd64/bin/gh.exe pr merge <number> --merge --delete-branch
+   /c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe pr merge <number> --merge --delete-branch
    git checkout main
    git pull
    git fetch --prune
@@ -74,7 +74,7 @@ git restore "path/to/file.md"
 
 ## Tools
 
-- **gh CLI**: `/c/Users/klein/Downloads/gh_2.80.0_windows_amd64/bin/gh.exe`
+- **gh CLI**: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - **Playwright**: `npx playwright install chromium` (first-time setup)
 
 ## Key Locations
