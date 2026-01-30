@@ -858,3 +858,16 @@ See [[Linking and hierarchy]] for systematic approach: check what exists, steal 
 ## Related section convention
 
 See [[Note structures]] for format and annotation types.
+
+**Related is for backlinks, not substance.** If a relationship is significant enough to explain, it belongs in the note body — not just Related. Examples:
+
+| Relationship type | Related only? | Body mention? |
+|-------------------|---------------|---------------|
+| Competitor mentioned in passing | ✓ | |
+| Strategic investment ($10M+) | ✓ | ✓ |
+| Major partnership/integration | ✓ | ✓ |
+| Acquisition target or acquirer | ✓ | ✓ |
+| Key customer or supplier | ✓ | ✓ |
+| Board seat or significant stake | ✓ | ✓ |
+
+If the reader would want to know *why* the connection exists, explain it in the body.

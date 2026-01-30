@@ -97,6 +97,8 @@ aliases: [NOW]
 
 **[[Anthropic]] partnership** (Jan 2026) — Expanded integration of [[Claude]] models for enterprise customers.
 
+**[[Thinking Machines Lab]] investment** (2025) — Strategic investor in [[Mira Murati]]'s $2B seed round ($12B valuation). TML focuses on enterprise AI fine-tuning, aligning with ServiceNow's workflow automation.
+
 **Monetization shift** — Moving AI Agents into Pro Plus and Enterprise Plus SKUs. Forgoing upfront subscriptions to drive adoption, monetizing usage over time.
 
 ---
@@ -189,6 +191,7 @@ McDermott joined 2019, drove expansion beyond IT into "platform of platforms" st
 - [[Agentic AI]] — context
 - [[Anthropic]] — partner (Claude integration)
 - [[Claude]] — AI model integration
+- [[Thinking Machines Lab]] — strategic investment ($2B seed, 2025)
 - [[Armis]] — acquisition (cybersecurity)
 
 *Updated 2026-01-29*

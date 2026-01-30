@@ -111,8 +111,6 @@ First Scala data center location.
 | [[IFC]] (World Bank) | $75M | Development finance |
 | [[Olayan Group]] | — | Strategic investor |
 
-	### Green debentures (cbonds-verified)
-
 **Total issued: BRL 5.32B** — record for Brazil DC sector. Outstanding: BRL 4.32B.
 
 All debentures are CDI-linked (floating rate tied to Brazil Interbank Deposit Rate). Spread evolution: CDI+3.15% (Dec 2022) → CDI+2.0-2.4% (Aug 2024) — improved credit profile.
@@ -152,7 +150,7 @@ All debentures are CDI-linked (floating rate tied to Brazil Interbank Deposit Ra
 | Security     | **Secured** (Garantia Real)          |
 | Demand       | BRL 4.5B+ (2.25x oversubscribed)     |
 | Framework    | Scala Green Bond Framework           |
-| Green bond   | **Yes** ([[Sustainalytics]] [[SPO]]) |
+| Green bond   | **Yes** ([[Sustainalytics]] [[Second-Party Opinion|SPO]]) |
 | Incentivized | No                                   |
 | Status       | Outstanding                          |
 
@@ -184,7 +182,7 @@ All debentures are CDI-linked (floating rate tied to Brazil Interbank Deposit Ra
 | Apr 2025 | BRL 50M | Credit line | Banco Safra |
 | May 2025 | $25M | Credit line | Caterpillar Financial |
 
-Capital-intensive model: PE equity + growth equity + Brazilian domestic [[green bonds]] + development bank financing.
+Capital-intensive model: PE equity + growth equity + Brazilian domestic [[Green bonds]] + development bank financing.
 
 ### Financials (2024)
 

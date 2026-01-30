@@ -201,6 +201,7 @@ Builder who has exited to strategics before. Knows the playbook.
 
 - [[SoftBank]] — acquirer ($4B, Dec 2025)
 - [[Masayoshi Son]] — SoftBank CEO driving acquisition
+- [[Vantage Data Centers]] — portfolio company (Stargate builder)
 - [[Project Stargate]] — Vantage building Wisconsin DC
 - [[Thomas Barrack]] — Colony Capital founder, replaced by Ganzi 2020
 - [[American Tower]] — bought Ganzi's Global Tower Partners for $4.8B (2013)
