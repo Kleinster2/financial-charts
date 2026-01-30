@@ -12,40 +12,24 @@ They are not separate concerns—they are one system.
 
 ## Git Workflow
 
-**Main branch is protected** - all changes require a PR with passing CI.
+**Direct push to main** — no PRs required. CI runs after push.
 
 ### Making Changes
 
-1. Run tests before committing:
+1. Commit and push directly to main:
    ```bash
-   npm run test:unit      # 109 unit tests
-   npm run test:smoke     # 6 Playwright tests
-   ```
-
-2. Create a feature branch and PR (never push directly to main):
-   ```bash
-   git checkout -b feature-name
    git add <files>
    git commit -m "Description"
-   git push -u origin feature-name
+   git push origin main
    ```
 
-3. Create PR using gh CLI:
+2. If CI fails after push, fix forward or revert:
    ```bash
-   /c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe pr create --title "Title" --body "Description"
+   git revert HEAD
+   git push origin main
    ```
 
-4. After PR is approved/merged:
-   ```bash
-   /c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe pr merge <number> --merge --delete-branch
-   git checkout main
-   git pull
-   git fetch --prune
-   git status --short  # IMPORTANT: Check for stray uncommitted changes
-   ```
-   **If `git status` shows unexpected modifications**, they persisted from before the merge. Inspect and either commit or restore them.
-
-5. Clean stale local branches:
+3. Clean stale local branches:
    ```bash
    git branch | grep -v main | xargs git branch -D
    ```
