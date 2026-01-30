@@ -48,6 +48,28 @@ They are not separate concerns—they are one system.
    git branch | grep -v main | xargs git branch -D
    ```
 
+### Tool Error Recovery
+
+**After Edit/Write tool errors, always check for unintended modifications:**
+```bash
+git status --short
+```
+
+Tool errors like "File has not been read yet" can indicate internal state issues that may cause:
+- Partial writes to wrong files
+- Truncated content
+- Unintended modifications to other files
+
+If you see unexpected modified files, compare line counts and restore if needed:
+```bash
+# Check if file was truncated
+git show HEAD:"path/to/file.md" | wc -l  # committed version
+wc -l "path/to/file.md"                   # working version
+
+# Restore if damaged
+git restore "path/to/file.md"
+```
+
 ## Tools
 
 - **gh CLI**: `/c/Users/klein/Downloads/gh_2.80.0_windows_amd64/bin/gh.exe`
