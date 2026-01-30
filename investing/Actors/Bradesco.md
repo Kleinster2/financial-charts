@@ -1,5 +1,8 @@
 ---
-aliases: [Banco Bradesco, BBD, BBDC4]
+aliases:
+  - Banco Bradesco
+  - BBD
+  - BBDC4
 ---
 #actor #company #bank #brazil #public
 
@@ -88,6 +91,14 @@ aliases: [Banco Bradesco, BBD, BBDC4]
 
 ---
 
+## [[Bradesco BBI]] (Investment Bank)
+
+**[[Bradesco BBI]]** is the bright spot — 2025 Euromoney "Brazil's Best Investment Bank" while parent struggles with fintech. R$479B DCM (2024), 447 transactions. Dominant in infrastructure and green bonds.
+
+See [[Bradesco BBI]] for full details on deals, awards, and performance.
+
+---
+
 ## Investment relevance
 
 **Why Bradesco matters:**
@@ -105,6 +116,9 @@ aliases: [Banco Bradesco, BBD, BBDC4]
 ---
 
 ## Related
+
+### Subsidiaries
+- [[Bradesco BBI]] — investment banking arm (winning)
 
 ### Peers
 - [[Itaú Unibanco]] — #1 Brazil bank (winning)

@@ -44,7 +44,7 @@ AGIBOT made its US market debut at CES 2026 with its full humanoid robot portfol
 | [[Unitree]] | G1, H1, H2 | [[Shipping]], mass market |
 | Galbot | G1 | CES exhibitor |
 | EngineAI | SE01 | Development |
-| Fourier | GR-1 | Rehabilitation focus |
+| [[Fourier Intelligence]] | GR-1, GR-2, GR-3 | Healthcare/care-bot focus |
 | UBTech | Walker | Service, education |
 
 **[[China]] dominance:** 50% of CES 2026 humanoid exhibitors were Chinese.

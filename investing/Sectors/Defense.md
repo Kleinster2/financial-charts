@@ -110,16 +110,19 @@ See [[Defense IT Services]] for full sector coverage.
 
 ---
 
-## New defense players
+## Software-defined defense
+
+See [[Software-defined Defense]] for full sub-sector coverage.
 
 | Company | Focus | Status |
 |---------|-------|--------|
-| [[Anduril]] | Autonomous systems, AI | Private, ~$14B valuation |
-| [[Palantir]] | AI/data analytics | Public, ~$180B |
-| [[Shield AI]] | Autonomous aircraft | Private |
-| SpaceX | Launch, Starlink | Private |
+| [[Anduril]] | Autonomous systems, Lattice OS | Private, ~$14B |
+| [[Palantir]] | AI/data platform | Public, ~$180B |
+| [[Shield AI]] | Autonomous aircraft, Hivemind | Private, $5.3B |
+| [[Skydio]] | Autonomous drones | Private, ~$2.2B |
+| [[SpaceX]] | Launch, Starlink | Private |
 
-**Theme:** Software-defined warfare disrupting traditional primes.
+**Theme:** Software/AI is the product, hardware is commoditized. Ukraine validated the model.
 
 ---
 
@@ -229,6 +232,7 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 ## Related
 
 **Sub-sectors:**
+- [[Software-defined Defense]] — Anduril, Shield AI, Palantir, Skydio
 - [[Defense IT Services]] — Leidos, Booz Allen, SAIC, CACI, ManTech
 - [[Drone warfare]] — attritable concept, Ukraine validation
 

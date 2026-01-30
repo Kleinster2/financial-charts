@@ -46,10 +46,24 @@ aliases: [cryptocurrency, blockchain, digital assets]
 
 | Era | Stance |
 |-----|--------|
-| Gensler SEC (2021-2024) | Hostile, enforcement actions |
+| Gensler SEC (2021-2024) | Hostile, 100+ enforcement actions |
 | Atkins SEC (2025+) | Pro-innovation, clearer rules |
+| Behnam CFTC (2021-2025) | Mixed — proposed event contract restrictions |
+| Selig CFTC (2025+) | Pro-innovation, "minimum effective dose" |
 
-**Tailwind:** New administration more crypto-friendly.
+**Tailwind:** New administration aggressively pro-crypto.
+
+### SEC-CFTC Harmonization (Jan 2026)
+
+**Joint event (Jan 29, 2026):** [[Paul Atkins]] and [[Michael Selig]] announced coordinated approach:
+
+| Initiative | Status |
+|------------|--------|
+| **Crypto taxonomy** | Joint "commonsense" framework — securities vs commodities |
+| **End enforcement-first** | Rulemaking before litigation |
+| **Pension funds** | Atkins: "time is right" for crypto inclusion |
+
+**Digital Commodity Intermediaries Act:** Senate Ag Committee passed (12-11 party line, Jan 29, 2026) — first crypto market structure bill to pass a Senate committee. Would give [[CFTC]] spot market authority over digital commodities.
 
 ---
 
@@ -136,4 +150,9 @@ Early stage, mostly speculative.
 - [[Robinhood]] — crypto trading
 - [[Circle]] — USDC stablecoin
 - [[PayPal]] — PYUSD stablecoin
+- [[SEC]] — securities regulator
+- [[CFTC]] — commodities/derivatives regulator
+- [[Paul Atkins]] — SEC chairman (pro-crypto)
+- [[Michael Selig]] — CFTC chairman (pro-crypto)
+- [[Prediction markets]] — event contracts (CFTC jurisdiction)
 

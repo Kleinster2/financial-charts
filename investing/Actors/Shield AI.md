@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #defense #usa #private
 
-**Shield AI** — Autonomous fighter jets. Hivemind AI pilot. $2.8B valuation.
+**Shield AI** — Autonomous fighter jets. Hivemind AI pilot. $5.3B valuation (Oct 2025).
 
 ---
 
@@ -164,7 +164,11 @@ Future of air combat.
 
 ## Related
 
-- [[Anduril]] — peer (defense AI)
-- [[Palantir]] — peer (defense tech)
+- [[Software-defined Defense]] — sector
+- [[Defense]] — parent sector
+- [[Anduril]] — peer (autonomous systems)
+- [[Palantir]] — peer (defense AI platform)
+- [[Skydio]] — peer (autonomous drones)
 - [[Lockheed Martin]] — competitor/partner (primes)
+- [[Long defense AI]] — thesis
 

@@ -375,3 +375,8 @@ See [[Short interest]] for interpretation framework.
 - [[Blue Owl]] — Hyperion DC JV partner
 - [[Anduril]] — defense partnership (AI helmet, Jan 2026)
 - [[Corning]] — $6B fiber-optic deal for AI data centers (Jan 2026)
+
+### Infrastructure
+- [[Edge Network Services]] — submarine cable subsidiary (20+ projects)
+- [[Project Waterworth]] — 50,000 km cable (US-India-Brazil-South Africa)
+- [[Malbec Cable]] — Brazil-Argentina (co-owned with GlobeNet)

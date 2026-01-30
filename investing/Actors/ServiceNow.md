@@ -3,102 +3,7 @@ aliases: [NOW]
 ---
 #actor #software #enterprise #usa #public
 
-**ServiceNow** — Enterprise workflow automation platform. IT service management leader. [[AI agents]] for enterprise workflows.
-
----
-
-## Why ServiceNow matters
-
-| Metric | Value |
-|--------|-------|
-| Ticker | NOW (NYSE) |
-| Market cap | ~$200B |
-| Position | #1 ITSM, workflow automation |
-| Customers | 85% of Fortune 500 |
-
----
-
-## Platform overview
-
-| Product | Function |
-|---------|----------|
-| IT Service Management | Help desk, incidents |
-| IT Operations Management | Monitoring, automation |
-| HR Service Delivery | Employee workflows |
-| Customer Service Management | Support automation |
-| Security Operations | Threat response |
-
-"Platform of platforms" — connects enterprise systems.
-
----
-
-## AI strategy (Now Assist)
-
-**Generative AI for enterprise:**
-
-| Feature | Application |
-|---------|-------------|
-| Now Assist | Gen AI across platform |
-| Virtual agents | Conversational IT support |
-| Predictive intelligence | Ticket routing, resolution |
-| Document intelligence | Automated processing |
-| Code generation | Workflow automation |
-
-AI increases automation rate → more value per seat.
-
----
-
-## AI monetization
-
-**Premium AI features:**
-- Now Assist add-on pricing
-- Higher tier SKUs
-- Consumption-based AI
-- Professional services
-
-AI drives upsell to existing 8,000+ enterprise customers.
-
----
-
-## Competitive position
-
-| Competitor | Focus |
-|------------|-------|
-| [[Salesforce]] | CRM, broader platform |
-| BMC | Legacy ITSM |
-| [[Atlassian]] | Dev tools, ITSM |
-| Freshworks | SMB service management |
-
-ServiceNow dominates enterprise ITSM with 40%+ share.
-
----
-
-## Growth drivers
-
-| Driver | Impact |
-|--------|--------|
-| Digital transformation | Workflow automation |
-| [[AI agents]] | New use cases |
-| Platform expansion | Beyond IT |
-| Federal | Government adoption |
-| International | [[Europe]], [[Asia]] growth |
-
----
-
-## Investment case
-
-**Bull:**
-- Mission-critical platform
-- AI monetization opportunity
-- 20%+ revenue growth
-- High retention (98%+)
-- Workflow automation TAM
-
-**Bear:**
-- Premium valuation
-- Macro sensitivity
-- Salesforce competition
-- AI commoditization risk
+**ServiceNow** — Enterprise workflow automation platform. #1 in IT service management (ITSM) with 40%+ market share. CEO [[Bill McDermott]] positioning company as the [[AI agents]] leader for enterprise workflows.
 
 ---
 
@@ -106,12 +11,171 @@ ServiceNow dominates enterprise ITSM with 40%+ share.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | NOW |
-| Market cap | ~$200B |
-| Revenue growth | ~20% |
-| HQ | Santa Clara |
+| Ticker | NOW (NYSE) |
+| Market cap | $118B |
+| Stock price | $113 (Jan 2026) |
+| FY2025 revenue | $13.2B |
+| FY2025 subscription revenue | $12.9B |
+| Revenue growth | 21% YoY |
+| Net income (Q4 2025) | $401M |
+| Free cash flow (2025) | $4.6B |
+| Cash & investments | >$10B |
+| Employees | ~26,000 |
+| Customers | 8,100+ |
+| $1M+ ACV customers | 2,109 |
+| $5M+ ACV customers | ~500 |
+| Fortune 500 penetration | 85% |
 
-*Created 2026-01-06*
+---
+
+## Price performance
+
+![[now-price-chart.png]]
+*vs [[Salesforce|CRM]] · [[Snowflake|SNOW]] · [[Datadog|DDOG]]. Outperformed CRM and SNOW since 2020, but lagged DDOG. Peaked ~+330% late 2024, corrected through 2025.*
+
+---
+
+## Fundamentals
+
+![[now-fundamentals.png]]
+*Steady 20%+ revenue growth since 2015. Q2 2023 net income spike from one-time gains.*
+
+---
+
+## Financials
+
+| Year | Revenue | Net Income | Growth |
+|------|---------|------------|--------|
+| 2025 | $13.2B | $1.7B | 21% |
+| 2024 | $10.9B | $1.4B | 23% |
+| 2023 | $8.9B | $1.7B | 24% |
+| 2022 | $7.2B | $325M | 23% |
+| 2021 | $5.9B | $230M | 30% |
+| 2020 | $4.5B | $119M | 31% |
+| 2019 | $3.5B | $627M | 32% |
+| 2018 | $2.6B | $26M | 36% |
+| 2017 | $1.9B | -$37M | 40% |
+| 2016 | $1.4B | -$99M | 38% |
+
+*Rule of 55+ profile (revenue growth + FCF margin). Consistent 20-30% growth at scale.*
+
+---
+
+## Why ServiceNow matters
+
+**Platform of platforms** — ServiceNow connects enterprise systems. Started in ITSM (help desk, incident management), expanded to HR, customer service, security, and now [[AI agents]]. The platform becomes more valuable as more workflows run through it.
+
+**Enterprise lock-in** — 98%+ renewal rates. Once ServiceNow manages your workflows, switching costs are enormous. 85% of Fortune 500 are customers.
+
+**AI monetization** — Now Assist (gen AI across platform) drives upsell to existing 8,100+ customers. Shifting to consumption-based pricing for AI features.
+
+---
+
+## Platform overview
+
+| Product | Function |
+|---------|----------|
+| IT Service Management | Help desk, incidents, change management |
+| IT Operations Management | Monitoring, automation, AIOps |
+| HR Service Delivery | Employee workflows, onboarding |
+| Customer Service Management | Support automation, case management |
+| Security Operations | Threat response, vulnerability management |
+| App Engine | Low-code workflow development |
+
+---
+
+## AI strategy (Now Assist)
+
+| Feature | Application |
+|---------|-------------|
+| Now Assist | Gen AI across all platform modules |
+| AI Agents | Autonomous task completion |
+| Virtual agents | Conversational IT support |
+| Predictive intelligence | Ticket routing, auto-resolution |
+| Document intelligence | Automated processing |
+| Code generation | Workflow automation |
+
+**[[Anthropic]] partnership** (Jan 2026) — Expanded integration of [[Claude]] models for enterprise customers.
+
+**Monetization shift** — Moving AI Agents into Pro Plus and Enterprise Plus SKUs. Forgoing upfront subscriptions to drive adoption, monetizing usage over time.
+
+---
+
+## Recent M&A
+
+| Acquisition   | Price       | Strategic rationale              |
+| ------------- | ----------- | -------------------------------- |
+| [[Armis]]     | $7.75B      | Cybersecurity, identity security |
+| [[Moveworks]] | ~$3B        | Conversational AI for IT         |
+| [[Veza]]      | Undisclosed | Identity security platform       |
+
+Aggressive M&A to build AI and security capabilities. Armis deal announced Jan 2026.
+
+---
+
+## Q4 2025 results (Jan 28, 2026)
+
+- **Subscription revenue**: $3.47B (21% YoY, 19.5% constant currency)
+- **Total revenue**: $3.57B (beat $3.53B estimate)
+- **EPS**: $0.92 adjusted (beat $0.88 estimate)
+- **cRPO**: $12.85B (25% YoY growth)
+- **Stock reaction**: Down 3%+ despite beat
+
+**2026 guidance:**
+- Q1 subscription revenue: $3.65-3.66B
+- FY2026 subscription revenue: $15.53-15.57B (~21% growth)
+
+**Capital return:**
+- $5B additional share repurchase authorized
+- $2B accelerated share repurchase launching
+
+McDermott: "There is no AI company in the enterprise better positioned for sustainable profitable revenue growth than ServiceNow."
+
+---
+
+## Competitive position
+
+| Competitor | Focus | ServiceNow advantage |
+|------------|-------|---------------------|
+| [[Salesforce]] | CRM, broader platform | ITSM dominance, workflow depth |
+| [[Microsoft]] | Copilot, Dynamics | Platform independence |
+| BMC | Legacy ITSM | Modern architecture |
+| [[Atlassian]] | Dev tools, ITSM (Jira) | Enterprise scale |
+| Freshworks | SMB service management | Enterprise relationships |
+
+ServiceNow has 40%+ ITSM market share. Main threat is [[Salesforce]] expanding from CRM into workflows.
+
+---
+
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| Chairman & CEO | [[Bill McDermott]] | Former [[SAP]] CEO (2010-2019) |
+| President & CFO | Gina Mastantuono | Former CFO Ingram Micro |
+| Chief Product Officer | CJ Desai | 9+ years at ServiceNow |
+
+McDermott joined 2019, drove expansion beyond IT into "platform of platforms" strategy.
+
+---
+
+## Investment case
+
+**Bull:**
+- Mission-critical platform (98%+ retention)
+- [[AI agents]] monetization opportunity
+- 20%+ revenue growth at $13B+ scale
+- $4.6B FCF, $10B+ cash
+- Workflow automation TAM expanding
+- Rule of 55+ profile
+
+**Bear:**
+- Premium valuation (77x P/E)
+- Stock down significantly from 2024 highs
+- AI commoditization risk ([[Microsoft]] Copilot, open source)
+- Macro sensitivity (enterprise software spending)
+- [[Salesforce]] competition intensifying
+- Armis integration execution risk
 
 ---
 
@@ -119,5 +183,12 @@ ServiceNow dominates enterprise ITSM with 40%+ share.
 
 - [[Salesforce]] — competitor (enterprise platform)
 - [[Microsoft]] — competitor (Copilot, Dynamics)
-- [[Agentic AI]] — context ([[AI agents]] for enterprise)
-- [[NVIDIA]] — partner (AI infrastructure)
+- [[Atlassian]] — competitor (ITSM, dev tools)
+- [[Bill McDermott]] — CEO
+- [[AI agents]] — core strategy
+- [[Agentic AI]] — context
+- [[Anthropic]] — partner (Claude integration)
+- [[Claude]] — AI model integration
+- [[Armis]] — acquisition (cybersecurity)
+
+*Updated 2026-01-29*

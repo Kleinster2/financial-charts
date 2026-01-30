@@ -37,9 +37,12 @@ IBM is the enterprise AI incumbent:
 
 **Positioning:** Enterprise AI for regulated industries (finance, healthcare, government).
 
+**IBM Sovereign Core (Jan 2026):** Industry's first AI-ready sovereign-enabled software for enterprises, governments, and service providers to build/deploy AI in sovereign environments. Tech preview Feb 2026, GA mid-2026.
+
 **Differentiation:**
 - On-premise deployment (vs cloud-only)
 - Governance/compliance focus
+- Sovereign deployments (Sovereign Core)
 - Integration with existing IBM stack
 - Consulting services included
 
@@ -97,9 +100,11 @@ Open-sourced some models. Targeting enterprise customers who want control.
 | Metric | Value |
 |--------|-------|
 | Approach | Superconducting transmon qubits |
-| Qubits (2024) | 1,000+ (Condor chip) |
+| Latest processor | Nighthawk (120 qubits, 218 couplers) |
 | Platform | Qiskit (open-source SDK) |
 | Cloud access | IBM Quantum Network |
+
+**Nighthawk (Jan 2026):** 120 superconducting qubits in square lattice with 218 tunable couplers — 20%+ more connections than Heron processors. Enables 30% more complex circuits. Released to cloud alongside upgraded Heron system.
 
 **IBM is one of the leaders in superconducting quantum hardware.** Large enterprise customer base provides commercialization path.
 
@@ -138,9 +143,9 @@ Consulting is how IBM deploys Watsonx into enterprises.
 | 2022 | $60.5B | $1.6B | $1.81 | $141 |
 | 2023 | $61.9B | $7.5B | $8.24 | $163 |
 | 2024 | $62.8B | $6.0B | $6.54 | $221 |
-| 2025E | $65.4B | $7.9B | $8.60 | $249 |
+| 2025 | $66.6B | $8.1B | $8.83 | $261 |
 
-*Source: Company filings. Stock price = year-end close. 2021 revenue drop from Kyndryl spinoff.*
+*Source: Company filings. Stock price = year-end close. 2021 revenue drop from Kyndryl spinoff. 2025: 6% revenue growth, record $14.7B FCF.*
 
 ---
 
@@ -175,13 +180,14 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 | Metric | Value |
 |--------|-------|
 | Ticker | IBM (NYSE) |
-| Market cap | ~$210B |
-| Revenue (TTM) | ~$62B |
-| Software revenue | ~$26B |
-| Consulting revenue | ~$20B |
+| Market cap | ~$240B |
+| Revenue (2025) | $66.6B |
+| Software revenue | $28B+ |
+| Consulting revenue | ~$21B |
 | Infrastructure | ~$14B |
-| Dividend yield | ~2.8% |
-| P/E | ~25x |
+| Free cash flow | $14.7B |
+| Dividend yield | ~2.6% |
+| P/E | ~27x |
 
 ---
 
@@ -206,13 +212,15 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 | Metric | Value |
 |--------|-------|
 | Ticker | IBM |
-| Market cap | ~$210B |
-| Revenue | ~$62B |
+| Market cap | ~$240B |
+| Revenue (2025) | $66.6B |
+| Software revenue | $28B+ |
+| FCF (2025) | $14.7B |
 | AI platform | Watsonx |
 | Cloud platform | Red Hat OpenShift |
-| Dividend yield | ~2.8% |
+| Dividend yield | ~2.6% |
 
-*Updated 2026-01-04*
+*Updated 2026-01-29*
 
 ---
 

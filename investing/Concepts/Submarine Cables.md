@@ -120,6 +120,10 @@ Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 - [[EllaLink]] — project (first direct [[Brazil]]-[[Europe]])
 - [[Google]] — owner (Humboldt, Echo, Apricot, HAVFRUE)
 - [[Meta]] — owner (Waterworth, MAREA, Amitié, Bifrost)
+- [[Edge Network Services]] — Meta's cable subsidiary (20+ projects)
 - [[Microsoft]] — owner (MAREA, Amitié)
+- [[GlobeNet]] — operator (23,500 km Americas network)
+- [[Malbec Cable]] — project (Brazil-Argentina, Meta co-owned)
+- [[V.tal]] — parent of GlobeNet
 - [[Hyperscaler disintermediation]] — context (59 cables now hyperscaler-owned)
 
