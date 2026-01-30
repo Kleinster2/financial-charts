@@ -1,5 +1,5 @@
 ---
-aliases: [QTS Realty Trust, QTS [[Data Centers]]]
+aliases: [QTS Realty Trust, [QTS Data Centers]]
 ---
 #actor #datacenter #usa #private
 
