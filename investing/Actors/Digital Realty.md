@@ -5,6 +5,12 @@ aliases: [DLR]
 
 **Digital Realty** — Second largest DC REIT. Hyperscale and wholesale focused.
 
+![[dlr-price-chart.png]]
+*DLR (blue) and [[Equinix|EQIX]] (red) traded closely through 2021-24, both +60-80% over period. [[DigitalBridge|DBRG]] (green) collapsed on Colony Capital overhang before SoftBank takeout (Dec 2025).*
+
+![[dlr-fundamentals.png]]
+*Steady quarterly revenue growth from ~$1.1B (2021) to ~$1.6B (2025). Net income volatile due to asset sales and impairments — typical REIT pattern.*
+
 ---
 
 ## Why Digital Realty matters
@@ -83,6 +89,17 @@ Digital Realty owns significant land for expansion:
 
 ---
 
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | Andy Power | CFO 2015-2022, President 2021, CEO 2022. Built finance org through REIT growth phase |
+| CFO | Matt Mercier | SVP Global Finance 2020-2023, promoted to CFO 2023 |
+| CTO | Christopher Sharp | Since 2015. Previously [[Equinix]] |
+| Chair | Mary Hogan Preusse | Chair since 2022, director since 2017 |
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -101,17 +118,39 @@ Digital Realty owns significant land for expansion:
 
 ---
 
+## Financials
+
+| Year | Revenue | Net Income | Notes |
+|------|---------|------------|-------|
+| 2024 | $5.55B | $602M | Steady growth, rate environment pressure |
+| 2023 | $5.48B | $949M | Strong gain from asset sales |
+| 2022 | $4.69B | $378M | Integration costs, impairments |
+| 2021 | $4.43B | $1.71B | Teraco acquisition gain |
+| 2020 | $3.90B | $356M | Interxion integration |
+| 2019 | $3.21B | $599M | — |
+| 2018 | $3.05B | ~$341M | — |
+| 2017 | $2.46B | — | DuPont Fabros acquisition |
+| 2016 | $2.14B | — | — |
+| 2015 | $1.76B | — | — |
+
+*Revenue ~3x over decade. Net income volatile due to REIT accounting (asset sales, impairments, depreciation). FFO (Funds From Operations) is the better metric for REIT profitability — 2024 Core FFO: $6.65/share.*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | DLR |
-| Market cap | ~$50B+ |
-| Data centers | 300+ |
-| Countries | 25+ |
+| Market cap | **$53B** (Jan 2026) |
+| Stock price | ~$162 (Jan 2026) |
+| Data centers | 300+ facilities |
+| Footprint | 40M sq ft, 25+ countries |
+| TTM Revenue | $5.9B (Sept 2025) |
+| CEO | Andy Power |
 | Structure | REIT |
 
-*Updated 2026-01-01*
+*Updated 2026-01-30*
 
 ---
 

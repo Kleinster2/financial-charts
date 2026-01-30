@@ -8,6 +8,9 @@ aliases: [DBRG]
 ![[dbrg-price-chart.png]]
 *DBRG (blue) massively underperformed diversified peers through 2024, then spiked on SoftBank takeout news (Dec 2025). Colony Capital legacy overhang finally resolved. vs [[Blackstone|BX]] · [[Brookfield|BAM]] · [[Blue Owl|OWL]]*
 
+![[dbrg-fundamentals.png]]
+*Asset manager economics: Revenue swings with carried interest realizations and asset sales. Q2 2023 loss from Wafra settlement. Q4 2023 gain from disposition. Revenue declining as DBRG transitions to pure fee-based model.*
+
 ---
 
 ## SoftBank acquisition (Dec 2025)
@@ -149,6 +152,31 @@ Builder who has exited to strategics before. Knows the playbook.
 - Less balance sheet firepower
 - DC oversupply risk
 - Interest rate sensitivity
+
+---
+
+## Financials
+
+| Year | Revenue | Net Income | Notes |
+|------|---------|------------|-------|
+| 2024 | $607M | $71M | Transition to pure fee model |
+| 2023 | $821M | $65M | Wafra settlement loss offset by dispositions |
+| 2022 | $695M | — | Switch acquisition ($11B) |
+| 2021 | $388M | — | Digital pivot complete, Colony renamed |
+| 2020 | $416M | — | Ganzi becomes CEO, asset rotation begins |
+| 2019 | $61M | — | Colony acquires Digital Bridge Holdings |
+
+*Asset manager revenue = management fees + carried interest + investment income. Volatile by nature — swings with realizations and mark-to-market. Fee-related earnings (FRE) is the stable metric.*
+
+---
+
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | Marc Ganzi | Founder Digital Bridge Holdings (2013). Sold Global Tower Partners to [[American Tower]] for $4.8B (2013). Colony CEO since 2020 |
+| CFO | Jacky Wu | Previously Vista Equity Partners |
+| President | Ben Jenkins | Joined 2021, previously Macquarie Infrastructure |
 
 ---
 

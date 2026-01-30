@@ -29,6 +29,11 @@ BASE_URL = 'https://www.alphavantage.co/query'
 RATE_LIMIT_DELAY = 12  # seconds between calls
 
 
+class DailyLimitExceeded(Exception):
+    """Raised when Alpha Vantage daily API limit (500 calls) is hit"""
+    pass
+
+
 class AlphaVantageClient:
     """Client for Alpha Vantage API"""
 
@@ -69,7 +74,11 @@ class AlphaVantageClient:
                 return {}
 
             if 'Note' in data:
-                logger.warning(f"API Note (rate limit?): {data['Note']}")
+                note = data['Note']
+                logger.warning(f"API Note: {note}")
+                # Check if this is a daily limit (vs per-minute limit)
+                if '500 calls per day' in note or 'daily' in note.lower():
+                    raise DailyLimitExceeded(f"Alpha Vantage daily limit reached: {note}")
                 return {}
 
             return data

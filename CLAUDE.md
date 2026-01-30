@@ -456,6 +456,13 @@ Notes should be complete on creation, not patched later.
 
 See [[Note structures#Currency and specificity]] for full requirements.
 
+### Leadership (companies only)
+- [ ] Leadership section exists with table format
+- [ ] CEO and CFO included (CFO for public/PE-backed)
+- [ ] Board members with notable affiliations (PE sponsors, major investors)
+- [ ] Executives wikilinked if they have own notes or cross-vault affiliations
+- [ ] Brief backgrounds: years experience, prior roles, education if notable
+
 ### Charts
 - [ ] Price chart exists (all public instruments need one)
 - [ ] Price chart uses `primary=TICKER` (actor is always blue)
