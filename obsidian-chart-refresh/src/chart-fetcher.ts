@@ -66,7 +66,8 @@ export async function isApiAvailable(baseUrl: string): Promise<boolean> {
       method: "GET",
       throw: false,
     });
-    return response.status === 200;
+    // Accept any non-error status (2xx, 3xx) as "available"
+    return response.status < 400;
   } catch {
     return false;
   }

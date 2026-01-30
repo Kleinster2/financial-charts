@@ -2943,6 +2943,11 @@ def get_chart_lw():
     show_title = request.args.get('show_title', 'true').lower() != 'false'
     show_last_date = request.args.get('show_last_date', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
+
+    # Default to 8 years for normalized charts if no start date specified
+    if normalize and not start_date:
+        from datetime import datetime, timedelta
+        start_date = (datetime.now() - timedelta(days=8*365)).strftime('%Y-%m-%d')
     forecast_start = request.args.get('forecast_start', '').strip()  # Date to start dotted forecast line
     labels_param = request.args.get('labels', '').strip()  # Custom legend labels: TICKER:Label,TICKER2:Label2
     show_last_value = request.args.get('show_last_value', 'false').lower() == 'true'  # Show last price label on chart

@@ -88,14 +88,39 @@
 
     <script>
         // Rebase data to percentage (100 = starting point, matching dashboard style)
-        function rebaseData(rawData) {
+        function rebaseData(rawData, baseValue = null) {
             if (!rawData || rawData.length === 0) return [];
-            const base = rawData[0].value;
+            const base = baseValue !== null ? baseValue : rawData[0].value;
             if (base === 0) return rawData;
             return rawData.map(pt => ({
                 time: pt.time,
                 value: (pt.value / base) * 100
             }));
+        }
+
+        // Find common start date across all series and get base values
+        function getCommonBaseValues(data) {
+            const tickers = Object.keys(data);
+            if (tickers.length === 0) return {};
+
+            // Find all start dates
+            const startDates = tickers.map(t => data[t]?.[0]?.time).filter(Boolean);
+            if (startDates.length === 0) return {};
+
+            // Common start = latest start date (when all tickers have data)
+            const commonStart = startDates.sort().pop();
+
+            // Get base value for each ticker at common start
+            const baseValues = {};
+            for (const ticker of tickers) {
+                const points = data[ticker];
+                if (!points) continue;
+                const basePoint = points.find(p => p.time >= commonStart);
+                if (basePoint) {
+                    baseValues[ticker] = basePoint.value;
+                }
+            }
+            return baseValues;
         }
 
         // Format large numbers with K/M/B suffixes
@@ -427,6 +452,9 @@
                 legendEl.style.top = '15px';
             }
 
+            // Get common base values for normalized charts
+            const baseValues = normalize ? getCommonBaseValues(data) : {};
+
             // Add series for each ticker
             let colorIndex = 0;
             for (const [ticker, points] of Object.entries(data)) {
@@ -462,8 +490,8 @@
                     priceFormat = { type: 'price', precision: 2, minMove: 0.01 };
                 }
 
-                // Convert data format, apply rebasing if normalize=true
-                const chartData = normalize ? rebaseData(points) : points.map(p => ({
+                // Convert data format, apply rebasing if normalize=true (using common base)
+                const chartData = normalize ? rebaseData(points, baseValues[ticker]) : points.map(p => ({
                     time: p.time,
                     value: p.value
                 }));
