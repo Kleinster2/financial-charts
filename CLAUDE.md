@@ -41,7 +41,9 @@ They are not separate concerns—they are one system.
    git checkout main
    git pull
    git fetch --prune
+   git status --short  # IMPORTANT: Check for stray uncommitted changes
    ```
+   **If `git status` shows unexpected modifications**, they persisted from before the merge. Inspect and either commit or restore them.
 
 5. Clean stale local branches:
    ```bash
