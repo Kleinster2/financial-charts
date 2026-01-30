@@ -464,12 +464,16 @@ Notes should be complete on creation, not patched later.
 
 See [[Note structures#Currency and specificity]] for full requirements.
 
-### Leadership (companies only)
-- [ ] Leadership section exists with table format
-- [ ] CEO and CFO included (CFO for public/PE-backed)
-- [ ] Board members with notable affiliations (PE sponsors, major investors)
-- [ ] Executives wikilinked if they have own notes or cross-vault affiliations
-- [ ] Brief backgrounds: years experience, prior roles, education if notable
+### Leadership & Board (companies only)
+- [ ] **Leadership table** exists (executives)
+  - [ ] CEO and CFO included (CFO required for public/PE-backed)
+  - [ ] Other key C-suite as relevant (COO, CTO, etc.)
+  - [ ] Brief backgrounds: years experience, prior roles, education if notable
+- [ ] **Board composition table** exists (separate from leadership)
+  - [ ] Chair identified
+  - [ ] Independent vs insider directors noted
+  - [ ] Notable affiliations (PE sponsors, major investors, other boards)
+- [ ] All names wikilinked if they have own notes or cross-vault affiliations
 
 ### Charts
 - [ ] Price chart exists (all public instruments need one)

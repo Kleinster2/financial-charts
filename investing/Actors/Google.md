@@ -7,6 +7,35 @@ aliases: [GOOGL, GOOG, [[Google DeepMind]], DeepMind, Alphabet]
 
 ---
 
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | [[Sundar Pichai]] | Google CEO since 2015, Alphabet CEO since 2019. Product-focused leader. |
+| CFO | Anat Ashkenazi | Joined Jul 2024 from [[Eli Lilly]] (CFO). |
+| President & CIO | [[Ruth Porat]] | Former CFO (2015-2024). Oversees Other Bets, infrastructure. |
+| Cloud CEO | Thomas Kurian | Joined 2019, ex-Oracle. Grew GCP to #3 cloud. |
+
+---
+
+## Board of Directors
+
+| Name | Role | Background |
+|------|------|------------|
+| [[John Hennessy]] | Chair | Former Stanford President (2000-2016). Chair since 2018. |
+| [[Sundar Pichai]] | Director | CEO |
+| [[Larry Page]] | Director | Co-founder. Controlling shareholder. |
+| [[Sergey Brin]] | Director | Co-founder. Controlling shareholder. |
+| [[John Doerr]] | Director | [[Kleiner Perkins]] partner. Early Google investor. |
+| Robin Washington | Director | [[Gilead Sciences]] CFO. Joined 2018. |
+| Ann Mather | Director | Former Pixar CFO. |
+| Frances Arnold | Director | Nobel laureate (Chemistry, 2018). Caltech professor. |
+| K. Ram Shriram | Director | Early Google investor. Founding board member. |
+
+*11 directors total. Page & Brin retain majority voting control.*
+
+---
+
 ## Why Google matters
 
 Google is the most vertically integrated AI hyperscaler:

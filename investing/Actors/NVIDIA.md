@@ -7,6 +7,36 @@ aliases: [NVDA]
 
 ---
 
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| President, CEO & Chair | [[Jensen Huang]] | Co-founder (1993). Net worth ~$164B (Jan 2026). IEEE Medal of Honor 2026. |
+| CFO | Colette Kress | EVP & CFO since 2013. Ex-[[Microsoft]], [[Cisco]]. Prominent female CFO. |
+| EVP Operations | Debora Shoquist | Joined 2007. Supply chain, manufacturing. |
+| CTO | Michael Kagan | Chief Technology Officer. |
+| General Counsel | Tim Teter | EVP, General Counsel & Secretary. |
+| EVP Worldwide Field Ops | Jay Puri | Sales and field operations. |
+
+---
+
+## Board of Directors
+
+| Name | Role | Background |
+|------|------|------------|
+| [[Jensen Huang]] | Chair & CEO | Founder |
+| Stephen Neal | Lead Independent Director | Former [[Cooley LLP]] CEO and Chairman. |
+| Harvey C. Jones | Director | Managing partner, Square Wave Ventures. |
+| Melissa B. Lora | Director | Former President, Taco Bell International. |
+| Brooke Seawell | Director | Venture partner, New Enterprise Associates. |
+| Aarti Shah | Director | Former CIO, [[Eli Lilly]]. |
+| Mark Stevens | Director | Managing partner, S-Cubed Capital. Early NVIDIA investor. |
+| Dawn Hudson | Director | Former CEO, Academy of Motion Picture Arts. Ex-[[PepsiCo]]. |
+
+*10 directors. Recent departures: Ellen Ochoa (Aug 2025), Persis Drell (Jan 2026, $26M stock).*
+
+---
+
 ## 2025 milestone ([[Gartner]], Jan 2026)
 
 | Metric | Value |

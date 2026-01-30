@@ -7,22 +7,48 @@ aliases: [MSFT]
 
 ---
 
-## Relevance to semis
+## Leadership
 
-Microsoft is the largest AI infrastructure spender. OpenAI partnership makes them critical demand driver for NVIDIA GPUs.
+| Role | Name | Background |
+|------|------|------------|
+| Chairman & CEO | [[Satya Nadella]] | CEO since 2014, Chairman since 2021. Transformed MSFT to cloud-first. |
+| CFO | [[Amy Hood]] | CFO since 2013. First female CFO in MSFT history. Ex-Goldman. |
+| COO | Carolina Dybeck Happe | Joined 2024. Ex-CFO of [[GE]] and Maersk. |
+| CMO | Takeshi Numoto | EVP & CMO. |
+| CPO | Amy Coleman | Chief People Officer. Led hybrid work transition. |
 
 ---
 
-## Charts
+## Board of Directors
 
-![[msft-90d.png]]
+| Name | Role | Background |
+|------|------|------------|
+| [[John W. Thompson]] | Chair | Chair since 2014. Former [[Symantec]] CEO. |
+| [[Satya Nadella]] | Director | CEO |
+| [[Reid Hoffman]] | Director | [[LinkedIn]] co-founder. Board member since 2017. |
+| Hugh Johnston | Director | Former [[PepsiCo]] CFO and Vice Chairman. |
+| Penny Pritzker | Director | Former US Commerce Secretary. [[Hyatt]] heiress. |
+| Charles Scharf | Director | [[Wells Fargo]] CEO. |
+| Emma Walmsley | Director | [[GSK]] CEO. |
+| Padmasree Warrior | Director | Former [[Cisco]] CTO. Fable CEO. |
+| Teri List | Director | Former [[Gap]] CFO. |
+| Sandi Peterson | Director | Former [[Johnson & Johnson]] exec. |
+
+*12 directors. Bill Gates left board Mar 2020.*
+
+---
+
+Microsoft is the largest AI infrastructure spender. OpenAI partnership makes them critical demand driver for NVIDIA GPUs.
+
+
+![[msft-1y.png]]
 
 ![[msft-vs-qqq.png]]
 *[[Nasdaq|QQQ]]*
 
 ![[msft-fundamentals.png]]
 
-*Q2 2012 loss (-$492M, aQuantive writedown) excluded from chart.*
+*Q2 FY26 net income spike ($38.5B) includes $7.6B OpenAI mark-to-market gain. Historical gaps exclude [[Nokia]] write-down (Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax (Dec 2017).*
 
 ---
 
@@ -97,7 +123,7 @@ The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not t
 
 ## Q2 FY2026 earnings (Jan 28, 2026)
 
-**Beat estimates, but stock -5% afterhours on slowing Azure**
+**Beat estimates, but stock -10% on slowing Azure growth**
 
 | Metric | Q2 FY26 | vs Est | YoY |
 |--------|---------|--------|-----|
@@ -108,6 +134,7 @@ The $7.6B is the *incremental* adjustment from the Oct 2025 restructuring, not t
 | Gross margin | **68%** | — | 3-year low |
 
 **Segment breakdown:**
+
 | Segment | Revenue | YoY |
 |---------|---------|-----|
 | Intelligent Cloud | $32.9B | +29% |
@@ -160,6 +187,7 @@ Unlike Google ([[Gemini]]-focused), Azure positioned as neutral AI facilitator:
 Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product focus.
 
 **Key appointments:**
+
 | Role | Person | Background |
 |------|--------|------------|
 | CoreAI (developer tools) | Jay Parikh | Ex-Meta engineering head (left 2021) |
@@ -180,6 +208,7 @@ Nadella in "founder mode" — weekly cross-team AI meetings, hands-on product fo
 ## Competitive position (Jan 2026)
 
 **AI coding tools market share (CB Insights):**
+
 | Product | Share |
 |---------|-------|
 | GitHub Copilot | 24.9% |
@@ -243,7 +272,7 @@ See [[Short interest]] for interpretation framework.
 | Metric | Value |
 |--------|-------|
 | Ticker | MSFT (NASDAQ) |
-| Market cap | ~$3.4T |
+| Market cap | ~$3.2T |
 | Q2 FY26 revenue | $81.27B (+17% YoY) |
 | Q2 FY26 EPS | $4.14 adj |
 | Azure growth | **39%** (decelerating) |
@@ -255,13 +284,7 @@ See [[Short interest]] for interpretation framework.
 | Gross margin | 68% (3-year low) |
 | Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
-*Updated 2026-01-28 (Q2 FY26 earnings)*
-
-![[msft-price-chart.png]]
-
-![[msft-fundamentals.png]]
-
-*Note: Net income gaps in 2015 and 2017 exclude one-time charges — [[Nokia]] write-down ($7.6B, Jul 2015) and [[Tax Cuts and Jobs Act]] transition tax ($6.3B, Dec 2017).*
+*Updated 2026-01-30 (post-earnings selloff)*
 
 ---
 
