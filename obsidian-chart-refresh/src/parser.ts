@@ -48,6 +48,12 @@ export function parseChartFilename(filename: string): ParseResult {
     return parsePriceChart(name);
   }
 
+  // Check for duration pattern (e.g., goog-90d, aapl-30d, msft-1y)
+  const durationResult = parseDurationChart(name);
+  if (durationResult) {
+    return durationResult;
+  }
+
   // Unknown pattern
   return { type: "unknown", filename };
 }
@@ -151,6 +157,51 @@ function parsePriceChart(name: string): ParseResult {
   }
 
   return { type: "parsed", params };
+}
+
+/**
+ * Parse duration chart: goog-90d.png, aapl-30d.png, msft-1y.png
+ * Supported durations: 30d, 60d, 90d, 180d, 1y, 2y, 3y, 5y
+ */
+function parseDurationChart(name: string): ParseResult | null {
+  // Match pattern: ticker-NNd or ticker-Ny
+  const match = name.match(/^(.+)-(\d+)(d|y)$/i);
+  if (!match) {
+    return null;
+  }
+
+  const [, tickerPart, num, unit] = match;
+  const duration = parseInt(num, 10);
+
+  // Convert underscores to dots, uppercase
+  const ticker = tickerPart.replace(/_/g, ".").toUpperCase();
+
+  // Validate ticker
+  if (!/^[A-Z0-9.]{1,15}$/.test(ticker)) {
+    return null;
+  }
+
+  // Calculate start date
+  const now = new Date();
+  let daysBack: number;
+
+  if (unit.toLowerCase() === "y") {
+    daysBack = duration * 365;
+  } else {
+    daysBack = duration;
+  }
+
+  const startDate = new Date(now.getTime() - daysBack * 24 * 60 * 60 * 1000);
+  const startStr = startDate.toISOString().split("T")[0];
+
+  return {
+    type: "parsed",
+    params: {
+      tickers: [ticker],
+      normalize: false,
+      start: startStr,
+    },
+  };
 }
 
 /**
