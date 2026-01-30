@@ -1,9 +1,9 @@
 ---
-aliases: [Copper Mining, Copper Industry]
+aliases: [Copper Industry, Copper Miners]
 ---
 #sector #commodities #metals #infrastructure
 
-**Copper** — Critical metal for electrification and AI infrastructure. Structural supply deficit emerging as demand accelerates from data centers, EVs, grid, and defense.
+**Copper Mining** — The industry that extracts and refines copper. Structural supply deficit emerging as demand accelerates from data centers, EVs, grid, and defense. See [[Copper]] for the commodity itself.
 
 ---
 
@@ -66,20 +66,6 @@ S&P notes deficits remain "hypothetical" — prices ration demand and incentiviz
 
 ---
 
-## Why copper matters
-
-| Use case | Copper intensity |
-|----------|------------------|
-| Data centers | Dense cabling, busbars, cooling |
-| EVs | 50-80 kg/vehicle (vs 20 kg ICE) |
-| Grid upgrades | Transmission, substations |
-| Renewables | Wind, solar, storage |
-| Defense | Electronics, wiring, munitions |
-
-**"Dr. Copper"** — historically a GDP proxy, now an AI infrastructure proxy.
-
----
-
 ## Defense / Munitions
 
 Copper is the **second-highest material by weight** in US defense production.
@@ -113,7 +99,7 @@ US investing **$5B** in munitions factory upgrades.
 | [[Freeport-McMoRan]] | FCX | ~2M tonnes | Largest public, Grasberg |
 | [[Southern Copper]] | SCCO | ~1M tonnes | Lowest cost, 60yr reserves |
 | [[BHP]] | BHP | ~1.7M tonnes | Diversified major |
-| Rio Tinto | RIO | ~0.6M tonnes | Growing copper focus |
+| [[Rio Tinto]] | RIO | ~0.6M tonnes | Growing copper focus |
 | [[Antofagasta]] | ANTO.L | ~0.7M tonnes | Pure-play Chile |
 | Teck Resources | TECK | ~0.3M tonnes | Copper growth story |
 | First Quantum | FM.TO | ~0.4M tonnes | Cobre Panama disruption |
@@ -159,20 +145,6 @@ US investing **$5B** in munitions factory upgrades.
 
 ---
 
-## Price dynamics
-
-| Metric | Value |
-|--------|-------|
-| Current price (Jan 2026) | **$13,000/tonne** |
-| April 2025 | $8,000/tonne |
-| Move | +62% in 9 months |
-| All-time high | Current levels |
-| S&P incentive price | $12,000+ needed |
-
-Trump tariffs and mining disruptions driving recent surge. Prices now above incentive level for new supply.
-
----
-
 ## Recycling
 
 | Metric | 2025 | 2040 |
@@ -186,6 +158,7 @@ Recycling doubles but still leaves 10M tonne gap.
 
 ## Related
 
+- [[Copper]] — the commodity (prices, forecasts, demand drivers)
 - [[Copper for AI]] — thesis note
 - [[Defense]] — munitions demand driver
 - [[Long global rearmament]] — defense spending thesis
@@ -200,4 +173,3 @@ Recycling doubles but still leaves 10M tonne gap.
 ---
 
 *Created 2026-01-10*
-

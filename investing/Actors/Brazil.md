@@ -72,7 +72,7 @@ aliases: [Brasil, BRL, Brazilian]
 | **[[Fintech]]** | [[Nubank]], [[StoneCo]], [[PagSeguro]] | [[Pix]]-driven, high growth |
 | **Software** | [[TOTVS]], [[Linx]] | ERP, retail tech |
 | **Banking** | [[Itaú Unibanco]], [[Bradesco]], [[BTG Pactual]] | Competing with fintechs |
-| **[[Commodities]]** | [[Vale]], [[Petrobras]] | Iron ore, oil |
+| **[[Commodities]]** | [[Vale]], [[Petrobras]], [[Companhia Brasileira de Alumínio\|CBA]] | Iron ore, oil, aluminum |
 | **Protein** | [[JBS]], BRF | Global meat exporters |
 | **[[Aerospace]]** | [[Embraer]] | Regional jets |
 
@@ -105,6 +105,7 @@ aliases: [Brasil, BRL, Brazilian]
 - #1 iron ore supplier ([[Vale]])
 - Soybean exporter
 - China slowdown = Brazil commodity risk
+- **Chinese M&A:** [[Chinalco]] near acquiring [[Companhia Brasileira de Alumínio|CBA]] ($1.15B, Jan 2026) — securing non-China aluminum supply
 
 ### Currency as swing factor
 - BRL volatility creates timing opportunities
@@ -140,8 +141,12 @@ aliases: [Brasil, BRL, Brazilian]
 ### Concepts
 - [[Fintech boom (2020-2021)]] — Brazil fintechs caught in global cycle
 
+### Commodities
+- [[Companhia Brasileira de Alumínio|CBA]] — largest aluminum producer (480K t/yr), [[Votorantim]] subsidiary, [[Chinalco]] acquisition target
+- [[Votorantim]] — major conglomerate (69% CBA owner)
+
 ### Regional
-- [[China]] — commodity trade partner
+- [[China]] — commodity trade partner, [[Chinalco]] CBA acquisition
 
 ---
 

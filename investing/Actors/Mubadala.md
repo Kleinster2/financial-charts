@@ -54,7 +54,7 @@ Mubadala has shifted focus:
 | Mubadala Capital | Third-party fund management |
 | [[ADIC]] | Abu Dhabi Investment Council |
 | [[GlobalFoundries]] | Semiconductor manufacturing |
-| [[Emirates Global Aluminium]] | Metals |
+| [[Emirates Global Aluminium]] | Metals (joint w/ Dubai ICD); lost [[Companhia Brasileira de Alumínio\|CBA]] bid to [[Chinalco]] (Jan 2026) |
 
 ---
 
@@ -169,6 +169,7 @@ Mubadala has shifted focus:
 - [[Anthropic]] — portfolio company
 - [[OpenAI]] — portfolio company
 - [[GlobalFoundries]] — subsidiary
+- [[Emirates Global Aluminium]] — subsidiary (lost [[Companhia Brasileira de Alumínio|CBA]] bid)
 - [[BlackRock]] — major partner
 - [[Apollo]] — $12B private credit anchor
 

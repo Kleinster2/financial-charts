@@ -120,7 +120,7 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 ---
 
-## CEO: Marc Ganzi
+#### CEO: [[Marc Ganzi]]
 
 **30+ years** in digital infrastructure. Operator-turned-investor.
 

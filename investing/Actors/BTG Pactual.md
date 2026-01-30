@@ -83,6 +83,38 @@ Building global footprint beyond LatAm.
 
 ---
 
+## V.tal / Digital infrastructure
+
+**[[V.tal]] controlling shareholder** — Brazil's largest neutral fiber network:
+
+| Metric | Value |
+|--------|-------|
+| Fiber network | 450,000+ km (Brazil) + 26,000 km submarine |
+| Partners | GIC (Singapore), CPP Investments (Canada) |
+| Origin | Acquired [[Oi]] fiber assets (2021) |
+
+**Oi involvement:**
+- 2021: Acquired Oi fiber → created V.tal
+- 2024-25: Advised Oi on restructuring (with Citi)
+- Sep 2025: BTG-backed supplier challenged Oi DIP financing
+- V.tal close to acquiring Oi's retail fiber customers (ClientCo, R$7.3B)
+
+---
+
+## AUM breakdown
+
+| Segment | AUM |
+|---------|-----|
+| Total AUM | R$920B (~$160B, Q2 2024) |
+| Asset Management | $61B+ |
+| Wealth Management | $21B+ |
+| Real Estate | R$33.5B |
+| Timberland | $3.5B |
+
+AUM grew from R$768B (Q2 2023) to R$920B (Q2 2024).
+
+---
+
 ## Investment relevance
 
 **Why BTG Pactual matters:**
@@ -104,6 +136,10 @@ Building global footprint beyond LatAm.
 ### Founder
 - André Esteves — Chairman, ~$6.9B net worth
 
+### Portfolio/Controlled
+- [[V.tal]] — controlling shareholder (fiber)
+- [[Oi]] — restructuring client, fiber source
+
 ### Peers
 - [[Itaú Unibanco]] — commercial bank
 - [[Bradesco]] — commercial bank
@@ -114,6 +150,7 @@ Building global footprint beyond LatAm.
 ### Sector
 - [[Brazil]] — geography
 - [[Banks]] — sector
+- [[Digital infrastructure]] — V.tal investment
 
 ---
 

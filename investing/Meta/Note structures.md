@@ -110,11 +110,38 @@ For any ownership change, acquisition, or restructuring, always capture:
 
 | Actor type | Required content |
 |------------|------------------|
-| **Public companies** | Extensive historical financials (see [[Financials templates]]) |
-| **Private companies** | Full cap table, historical financials, derivative arrangements (see below) |
+| **Public companies** | Leadership, historical financials (see [[Financials templates]]) |
+| **Private companies** | Leadership, full cap table, historical financials, derivative arrangements (see below) |
 | **Research shops / funds** | Key analysts, AUM, notable positions, recent calls |
 | **Individuals** | Role, affiliations, key decisions, track record |
 | **Geographies** | Economic data, key sectors, policy environment |
+
+### Leadership section
+
+All company notes (public and private) require a **Leadership** section:
+
+```markdown
+## Leadership
+
+| Role | Name | Background |
+|------|------|------------|
+| CEO | [[Name]] | Brief background |
+| CFO | Name | Brief background |
+| Board Chair | Name | Affiliation |
+```
+
+**Required roles:**
+- CEO / President
+- CFO (if public or PE-backed)
+- Key founders (if still involved)
+- Board members with notable affiliations (PE sponsors, major investors)
+
+**Wikilink executives when:**
+- They have their own note (major figures)
+- They're affiliated with other vault actors (e.g., DigitalBridge advisor)
+- They sit on multiple boards in the vault
+
+**Background format:** Keep brief — years experience, notable prior roles, education if relevant. Example: "20+ yrs tech/infra; ex-IBM VP LatAm, UOL Diveo COO"
 
 ### Private company depth standard
 

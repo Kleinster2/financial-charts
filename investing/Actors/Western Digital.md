@@ -3,7 +3,7 @@ aliases: [WDC, WD, [[SanDisk]]]
 ---
 #actor #storage #hdd #nand #semiconductor
 
-**Western Digital** — HDD + NAND. Spun off flash business ([[SanDisk]]). Nearline HDDs for data centers.
+**Western Digital** — Pure-play HDD company. Completed flash business spin-off to [[SanDisk]] (Feb 2025). Nearline HDDs for data centers.
 
 ---
 
@@ -14,10 +14,10 @@ Dual exposure to storage trends:
 | Metric | Value |
 |--------|-------|
 | Ticker | WDC |
-| Market cap | ~$15-20B |
-| Business | HDD + NAND flash |
+| Market cap | ~$25B+ |
+| Business | HDD only (post-Feb 2025 spin-off) |
 | Customers | Hyperscalers, enterprise, consumer |
-| Competitor | [[Seagate]] (HDD), [[Micron]]/Kioxia (NAND) |
+| Competitor | [[Seagate]] (HDD) |
 
 ---
 
@@ -25,47 +25,48 @@ Dual exposure to storage trends:
 
 | Segment | Products | Trend |
 |---------|----------|-------|
-| **HDD** | Nearline, enterprise, consumer | Nearline growing |
-| **Flash** | SSDs, embedded, consumer | Cyclical recovery |
+| **Nearline HDD** | High-capacity data center drives | AI storage demand surge |
+| **Enterprise HDD** | Mission-critical storage | Stable |
+| **Consumer HDD** | Desktop, portable drives | Declining |
+
+Post-separation, WDC is a pure HDD company. Flash business now operates as [[SanDisk]].
 
 ---
 
-## Flash business spin-off
+## Flash business spin-off (completed)
 
-**[[SanDisk]] / Flash spin-off (2024):**
-- WD split into HDD and Flash companies
-- Flash = [[SanDisk]] brand
-- Kioxia JV complicates structure
-- Aimed to unlock value
+**[[SanDisk]] separation (Feb 21, 2025):**
+- WDC completed spin-off of flash business into [[SanDisk]] Corporation
+- WDC retained HDD business; SanDisk took NAND flash and SSDs
+- WDC has **fully exited the SSD market**
+- Both companies trade independently
 
-**Post-split**: Allows pure-play positioning for each business.
+**Result:** Pure-play HDD company, unlocking value and strategic clarity.
 
 ---
 
-## Kioxia relationship
+## Kioxia relationship (historical)
 
-| Aspect | Details |
-|--------|---------|
-| JV fabs | Joint NAND manufacturing in [[Japan]] |
-| Ownership | Minority stake in Kioxia |
-| Complexity | Shared capex, separate products |
-| Risk | Coordination challenges |
+**Pre-separation:** WDC had joint NAND manufacturing with [[Kioxia]] in [[Japan]].
 
-See [[Kioxia]] for NAND JV details.
+**Post-separation (Feb 2025):** The Kioxia JV relationship transferred to [[SanDisk]]. WDC no longer involved in NAND.
+
+See [[Kioxia]] and [[SanDisk]] for current JV details.
 
 ---
 
 ## AI storage angle
 
-Same as Seagate — AI data needs storage:
+Post-separation, WDC is a **pure-play HDD** company like [[Seagate]]:
 
-| Layer | WDC product |
-|-------|-------------|
-| Hot (fast) | Enterprise SSDs |
-| Warm | Capacity SSDs |
-| Cold | Nearline HDDs |
+| Storage tier | WDC role |
+|--------------|----------|
+| Cold/Archive | **Nearline HDDs** — bulk storage |
+| Training data | **High-capacity drives** — petabytes |
 
-**Advantage over Seagate**: WDC plays both SSD and HDD.
+AI data centers need massive cold storage for training data, checkpoints, and archives. HDD remains cost-effective for capacity-tier storage.
+
+**Post-separation**: WDC and [[Seagate]] are pure HDD peers; [[SanDisk]] competes in flash.
 
 ---
 
@@ -85,27 +86,45 @@ Same as Seagate — AI data needs storage:
 | Factor | Western Digital | [[Seagate]] |
 |--------|-----------------|-------------|
 | HDD | Strong #2 | #1 nearline |
-| NAND | Yes (Kioxia JV) | No |
-| Technology | ePMR, MAMR | HAMR |
-| Complexity | Higher (two businesses) | Simpler |
+| Technology | ePMR, MAMR | HAMR (leading) |
+| Focus | Pure HDD (post-spin) | Pure HDD |
+| Structure | Simpler (post-spin) | Simple |
+
+Post-separation, WDC and Seagate are direct HDD peers. Seagate leads on HAMR technology; WDC competing on ePMR/MAMR.
+
+---
+
+## Q2 FY2026 earnings (Jan 29, 2026)
+
+| Metric | Result | vs Est |
+|--------|--------|--------|
+| Revenue | $3.02B | beat |
+| YoY growth | +25% | — |
+| EPS | $2.13 | beat $1.91 |
+
+Cloud and AI data center storage demand driving results. Stock up **~11% on Jan 28** after [[Seagate]]'s blowout quarter.
+
+**Analyst upgrades:**
+- [[Citi]]: PT raised to **$280** from $200 (Buy)
+- [[Mizuho]]: PT raised to **$240** from $180 (Outperform)
+
+Thesis: Storage industry facing genuine supply crunch with pricing power.
 
 ---
 
 ## Investment case
 
 **Bull:**
-- AI data storage demand
-- NAND cycle recovery
-- Spin-off unlocks value
-- Dual HDD/SSD exposure
+- AI data storage demand (nearline HDDs)
+- Supply crunch creating pricing power
+- Spin-off complete — pure-play clarity
 - [[Hyperscaler capex]] tailwind
 
 **Bear:**
-- Kioxia JV complexity
-- NAND commoditized
-- Seagate HAMR leadership in HDD
+- [[Seagate]] HAMR technology leadership
 - [[Consumer]] storage declining
-- Execution risk on spin-off
+- HDD long-term share loss to SSD
+- Single-product company risk
 
 ---
 
@@ -117,18 +136,17 @@ Same as Seagate — AI data needs storage:
 | HQ | San Jose, California |
 | Founded | 1970 |
 | CEO | David Goeckeler |
-| Employees | ~50,000 |
+| Market cap | ~$25B+ |
+| Business | HDD only (post-Feb 2025 spin) |
 
-*Updated 2026-01-03*
+*Updated 2026-01-29*
 
 ---
 
 ## Related
 
-- [[Seagate]] — competitor (HDD)
-- [[Kioxia]] — JV partner (NAND)
-- [[Micron]] — competitor (NAND)
-- [[Samsung]] — competitor (NAND)
-- [[SK Hynix]] — competitor (NAND)
+- [[Seagate]] — direct competitor (HDD)
+- [[SanDisk]] — former flash business (spin-off Feb 2025)
+- [[Kioxia]] — former JV partner (now with SanDisk)
 - [[Long memory]] — thesis (storage demand)
 - [[AI hyperscalers]] — customers

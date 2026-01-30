@@ -102,7 +102,8 @@ Bullish drivers: rate cuts, dollar weakness, investor demand for real assets.
 ## Related
 
 - [[Copper]] — often grouped with base metals
-- [[Aluminum]] — largest base metal market
+- [[Aluminum]] — largest base metal market (standalone note)
+- [[Aluminum Mining]] — sector hub (producers)
 - [[Nickel]] — EV battery connection
 - [[China]] — dominant consumer
 - [[Commodities]] — broader context

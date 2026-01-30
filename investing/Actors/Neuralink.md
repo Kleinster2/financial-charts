@@ -126,8 +126,10 @@ aliases: []
 
 ## Related
 
+- [[Brain-computer interface]] — sector/technology overview
 - [[Elon Musk]] — founder
 - [[Valor Equity Partners]] — investor
+- [[Founders Fund]] — investor
 - [[Biopharma]] — sector adjacent
 
 ---

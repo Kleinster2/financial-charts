@@ -1,6 +1,7 @@
+---
+aliases: [XAG, silver, Silver price]
+---
 #concept #commodity #macro #industrial
-
-# Silver
 
 **Silver** — Hybrid precious/industrial metal. Solar + electronics demand meets monetary hedge. [[China]] export controls 2026. **+150% in 2025** — strongest year on record.
 
@@ -10,12 +11,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Price | **$90.42/oz** (Jan 16) |
+| All-time high | **$93.75/oz** (Jan 15, 2026) |
+| Current | ~$88/oz (after pullback) |
 | 2025 return | **+150%** (strongest year on record) |
 | Start of 2025 | ~$30/oz |
+| Gold/silver ratio | ~52x (historically low) |
 | 2026 bull target | $100/oz |
 
-**Jan 16, 2026:** Silver broke above $90 for the first time ever (+3.5% on day).
+**Jan 15, 2026:** Hit $93.75 ATH, then -7.3% profit-taking after Trump held off on critical mineral tariffs.
 
 ---
 
@@ -41,6 +44,15 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 - 40-year technical breakout
 - [[China]] export controls catalyzed supply fears
 
+### Rally anatomy
+
+| Phase | Driver |
+|-------|--------|
+| **2024 H2** | Gold rotation, solar demand |
+| **2025 H1** | Short squeeze begins |
+| **2025 H2** | Tariff fears → US warehouse hoarding |
+| **2026 Jan** | China speculation + Fed fears → $93.75 ATH |
+
 ---
 
 ## Industrial demand drivers
@@ -50,6 +62,14 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 - Each GW of solar capacity = ~20 tons silver
 - Global solar installations accelerating
 - No substitute at scale
+
+| Year | Solar silver demand |
+|------|---------------------|
+| 2020 | ~100M oz |
+| 2023 | ~150M oz |
+| 2025 | ~200M oz (est) |
+
+**Risk:** Thrifting (less silver per panel) and substitution efforts.
 
 **Electronics:**
 - Best electrical conductor of all metals
@@ -80,6 +100,32 @@ Unlike gold (primarily monetary), silver has real industrial consumption.
 - Part of broader strategic materials leverage
 
 See [[Rare earth leverage]] for [[China]]'s export control strategy.
+
+---
+
+## Tariff/warehouse dynamics (Jan 2026)
+
+**US hoarding:**
+- Fears of import tariffs on critical minerals
+- Silver held in US warehouses instead of exported
+- Created artificial tightness globally
+- Short squeeze dynamics
+
+**Trump decision (Jan 2026):**
+- Held off on broad tariffs
+- Will negotiate bilateral agreements
+- Price floors floated, not ruled out levies
+- "More surgical approach" — TD Securities
+
+---
+
+## Volatility warning
+
+**Ole Hansen (Saxo Bank):**
+> "Much of what traders see on the screen reflects forced flows, margin dynamics, option hedging and short covering rather than genuine supply-demand price discovery. In this environment, technical levels lose reliability, stops are easily triggered, and even correct macro views struggle to survive short-term noise."
+
+**Christopher Wong (OCBC):**
+> Medium-term narrative "firmly constructive, underpinned by supply shortfalls, industrial consumption and spillover demand from gold." But "velocity of recent moves warrants some near-term caution."
 
 ---
 
@@ -157,6 +203,11 @@ See [[Rare earth leverage]] for [[China]]'s export control strategy.
 
 ## Supply dynamics
 
+**Structural deficit:**
+- Mine supply: ~800M oz/year
+- Total demand: ~1.2B oz/year
+- Deficit covered by above-ground stocks (depleting)
+
 **Production sources:**
 
 | Source | Share |
@@ -166,7 +217,7 @@ See [[Rare earth leverage]] for [[China]]'s export control strategy.
 | Peru | ~15% |
 | Other | ~45% |
 
-**Key constraint:** ~70% of silver is byproduct production — supply doesn't respond quickly to price.
+**Key constraint:** ~70% of silver is byproduct production (copper/zinc/lead mines) — supply doesn't respond quickly to price.
 
 ---
 
@@ -183,16 +234,28 @@ See [[Rare earth leverage]] for [[China]]'s export control strategy.
 
 ---
 
-*Updated 2026-01-17*
+*Updated 2026-01-29*
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Symbol | XAG |
+| All-time high | $93.75 (Jan 2026) |
+| 2025 return | +150% |
+| Primary use | Industrial (solar) + investment |
+| Supply | ~800M oz/year (deficit) |
 
 ---
 
 ## Related
 
 - [[Gold]] — precious metal comparison
+- [[Copper]] — industrial metal peer
 - [[PGMs]] — platinum, palladium, rhodium
 - [[Uranium]] — energy commodity
 - [[Lithium]] — battery metal
-- [[Copper for AI]] — industrial metal peer
 - [[Rare earth leverage]] — [[China]] export control context
 - [[Southern Copper]] — silver as byproduct

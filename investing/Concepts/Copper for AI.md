@@ -123,6 +123,8 @@ S&P notes actual deficits remain "hypothetical" — price adjustments influence 
 - Liquid cooling adoption increases copper intensity per rack
 - AI accelerators (GPUs/TPUs) run hotter → more cooling copper
 - Multi-year buildout commitments lock in demand
+- **[[JPMorgan]] (Jan 2026):** Data center demand **475K tons in 2026** (up from 110K in 2025) — "inelastic demand"
+- [[Wood Mackenzie]]: "When developers require copper for data centers, it is used with little concern for the copper price"
 
 ### Grid infrastructure
 - AI data centers need massive grid upgrades
@@ -142,13 +144,14 @@ S&P notes actual deficits remain "hypothetical" — price adjustments influence 
 
 | Metric | Value |
 |--------|-------|
-| Current price (Jan 2026) | **$13,000/tonne** |
+| Current price (Jan 29, 2026) | **$13,900/tonne** (hit $14,500 intraday) |
+| Jan 29 move | **+6.1%** (biggest single day in 16+ years) |
 | April 2025 | $8,000/tonne |
-| Move | +62% in 9 months |
-| All-time high | $13,000+ (current) |
+| Move since April | +75% in 10 months |
+| All-time high | **$14,500/t** (Jan 29, 2026 intraday) |
 | S&P incentive price | $12,000+ needed for new supply |
 
-Trump tariffs and mining disruptions driving recent surge.
+**Jan 29 rally:** Chinese speculative frenzy (record SHFE volumes), USD at 4-year lows. But COMEX inventories topped 500K tons (record) and LME at highest since May 2025 — inventories contradict scarcity narrative. StoneX: "fundamentals certainly do not support copper at current levels."
 
 ---
 
@@ -223,7 +226,8 @@ Copper rallying alongside gold and silver:
 
 ## Related
 
-- [[Copper]] — sector hub
+- [[Copper]] — the commodity (prices, forecasts)
+- [[Copper Mining]] — sector hub (producers, supply)
 - [[Lithium]] — battery metal peer
 - [[Power constraints]] — AI power demand driving grid upgrades
 - [[Clean energy for AI]] — Renewables need copper
