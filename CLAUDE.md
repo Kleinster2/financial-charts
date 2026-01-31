@@ -549,6 +549,39 @@ This scans the entire vault for capitalized terms that appear 50+ times but have
 
 **Run periodically** to catch gaps in coverage. High-frequency orphans often indicate foundational concepts that everything else references but nobody created a note for.
 
+### Domain completeness check
+
+**When answering questions about a topic, don't just search for what exists — ask what MUST exist.**
+
+Orphan detection is reactive (finds missing notes via mention counts). Domain completeness is proactive: given a topic, what foundational entities are implied by the domain itself?
+
+**Example failure:** Asked "what do we have on crypto", the response listed Coinbase, miners, and the Crypto concept — but never checked if Bitcoin or Ethereum had notes. These are the foundational assets that define the domain.
+
+**The fix:** For any domain query, enumerate the canonical entities that must exist:
+
+| Domain | Must-have notes |
+|--------|-----------------|
+| Crypto | Bitcoin, Ethereum (the actual assets) |
+| Semiconductors | Foundry, fabless, memory, logic (business models) |
+| AI infrastructure | Training, inference, GPUs (the concepts) |
+| Banking | Deposits, lending, capital ratios |
+| Retail | E-commerce, brick-and-mortar, omnichannel |
+
+**When exploring a domain:**
+
+1. **Search what exists** — grep, glob, read sector hubs
+2. **Enumerate what must exist** — what foundational concepts define this domain?
+3. **Check the gap** — do those foundational notes exist?
+4. **Flag missing** — report gaps before answering
+
+This applies to:
+- User questions ("what do we have on X?")
+- Creating new sector hubs
+- Reviewing domain coverage
+- Any time you're summarizing vault content in an area
+
+**Don't confuse infrastructure with foundations.** Coinbase is crypto infrastructure; Bitcoin is a crypto foundation. TSMC is semiconductor infrastructure; "foundry" is a semiconductor foundation. The infrastructure notes should link to foundation notes, not replace them.
+
 ---
 
 # Vault Guidelines
