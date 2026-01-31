@@ -145,6 +145,7 @@ Elea and Scala both building GW-scale "AI City" projects — Elea in Rio de Jane
 - [[Rio de Janeiro Data Hub]] — Rio AI City location
 - [[Scala Data Centers]] — competitor (Scala AI City)
 - [[Brazil]] — primary market
+- [[Brazil AI]] — REDATA beneficiary (tax incentives)
 - [[Oracle]] — Rio AI City partner
 - [[Data Centers]] — sector
 - [[Bradesco BBI]] — lead debenture coordinator

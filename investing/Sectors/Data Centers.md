@@ -5,6 +5,9 @@ aliases: [Datacenters, Data centre, Colocation, Data center infrastructure]
 
 # Data Centers
 
+> [!info] Industry Overview
+> This is an industry overview, not a tradeable sector. The validated trading clusters are [[DC REITs]] (0.69) and [[Crypto-to-AI]] (0.61).
+
 Physical infrastructure for cloud computing and AI — colocation, hyperscale, GPU clouds, power/cooling.
 
 ---
@@ -93,9 +96,36 @@ See [[Crypto-to-AI pivot]] for full analysis.
 | [[Phoenix Data Hub]] | Land, power availability |
 | [[Columbus Ohio]] | Midwest hub, Intel investment |
 | [[São Paulo Data Hub]] | LatAm leader |
+| [[Rio de Janeiro Data Hub]] | Rio AI City (3.2GW) |
 | [[Singapore Tech]] | Asia-Pacific hub |
 | London | European financial hub |
 | Frankfurt | European cloud hub |
+
+---
+
+## Brazil / Latin America
+
+**LatAm's largest DC market** — two GW-scale "AI City" projects under development, all private.
+
+| Operator | Owner | Key Project | Potential |
+|----------|-------|-------------|-----------|
+| [[Scala Data Centers]] | [[DigitalBridge]] | Scala AI City (RS) | **4.75GW** |
+| [[Elea Data Centers]] | [[Goldman Sachs]]/[[Piemonte Holding]] | Rio AI City | **3.2GW** |
+| [[Ascenty]] | [[Digital Realty]]/[[Brookfield]] | 38 facilities | 4,000+ km fiber |
+| [[ODATA]] | [[Aligned Data Centers]] (Macquarie) | 23 facilities | ~2GW buildout |
+| [[V.tal]] (Tecto) | [[BTG Pactual]]/GIC/CPP | Fiber + DC | $1B investment |
+
+**Why Brazil for AI:**
+- 80%+ renewable grid (hydro) — sustainability credentials
+- Sub-80ms latency to US via [[Malbec Cable]]
+- Lower power costs than US/Europe
+- Growing domestic demand (fintech, enterprise)
+
+**REDATA incentives (PM 1,318/2025):** Tax suspensions (PIS/Cofins, IPI, import duties) for DCs meeting 100% renewable + strict water efficiency (≤0.05 L/kWh). R$5.2B budget, R$2T investment potential over 10 years. Effective Jan 1, 2026. **Legislative risk:** Must convert to law by Feb 25, 2026 — Congress slow to act. See [[Brazil AI]] for details.
+
+**Financing:** Brazilian domestic [[Green bonds]] dominant. [[Bradesco BBI]] leads, with [[UBS BB]], [[Itaú BBA]], [[Santander Brasil]]. Scala issued BRL 5.32B total — record for Brazil DC sector.
+
+**No public exposure:** All major Brazil DC operators are private. Indirect plays: [[DigitalBridge]] (DBRG) owns Scala, [[Digital Realty]] (DLR) owns 51% of Ascenty.
 
 ---
 
@@ -192,14 +222,28 @@ See [[Power constraints]] and [[Clean energy for AI]].
 
 ---
 
+## Correlation structure
+
+*Data Centers as a whole: 0.39 — too weak. Splits into distinct sub-sectors.*
+
+| Sub-sector | Correlation | Key players |
+|------------|-------------|-------------|
+| **[[DC REITs]]** | **0.69** | EQIX, DLR |
+| **[[Crypto-to-AI]]** | **0.61** | CORZ, HUT, IREN, WULF |
+| **Cross-sector** | 0.08-0.20 | REITs vs Crypto barely correlated |
+
+REITs and Crypto-to-AI are fundamentally different businesses despite both owning data centers.
+
+---
+
 ## Sub-sectors
 
-| Sub-sector | Key players | Sister concept |
-|------------|-------------|----------------|
-| **Colocation REITs** | [[Equinix]], [[Digital Realty]] | — |
-| **GPU clouds (neoclouds)** | [[CoreWeave]], [[Lambda Labs]] | [[Neocloud financing]] |
-| **Cooling/power equipment** | [[Vertiv]], [[Schneider Electric]], [[Modine Manufacturing]] | [[Water constraints]] |
-| **Crypto-to-AI pivots** | [[Core Scientific]], [[Hut 8]], [[IREN]] | [[Crypto-to-AI pivot]] |
+| Sub-sector | Correlation | Key players | Sister concept |
+|------------|-------------|-------------|----------------|
+| **[[DC REITs]]** | 0.69 | [[Equinix]], [[Digital Realty]] | — |
+| **[[Crypto-to-AI]]** | 0.61 | [[Core Scientific]], [[Hut 8]], [[IREN]], [[TeraWulf]] | [[Crypto-to-AI pivot]] |
+| **GPU clouds (neoclouds)** | — | [[CoreWeave]], [[Lambda Labs]] | [[Neocloud financing]] |
+| **Cooling/power equipment** | — | [[Vertiv]], [[Schneider Electric]], [[Modine Manufacturing]] | [[Water constraints]] |
 
 ---
 
@@ -224,9 +268,19 @@ See [[Power constraints]] and [[Clean energy for AI]].
 - [[Nuclear power for AI]] — power solution
 - [[Neocloud financing]] — financing patterns (→ GPU clouds sub-sector)
 - [[Crypto-to-AI pivot]] — sector trend (→ crypto pivots sub-sector)
+- [[Latin America AI competitiveness]] — Brazil DC thesis
 
 ### Geographies
 - [[Ashburn]] — major hub
+- [[São Paulo Data Hub]] — LatAm leader
+- [[Rio de Janeiro Data Hub]] — Rio AI City
+
+### Brazil / LatAm operators
+- [[Scala Data Centers]] — largest LatAm hyperscale (DigitalBridge)
+- [[Elea Data Centers]] — Rio AI City (Goldman Sachs)
+- [[Ascenty]] — Digital Realty/Brookfield JV
+- [[ODATA]] — Aligned/Macquarie
+- [[V.tal]] — fiber + Tecto DCs (BTG Pactual)
 
 ---
 
@@ -235,4 +289,4 @@ See [[Power constraints]] and [[Clean energy for AI]].
 - Synergy Research Group
 - Company filings
 
-*Created 2026-01-09*
+*Created 2026-01-09, updated 2026-01-31*

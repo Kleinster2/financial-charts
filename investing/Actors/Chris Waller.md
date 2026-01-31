@@ -1,9 +1,9 @@
 ---
 aliases: [Christopher Waller, Waller]
 ---
-#actor #individual #usa #macro #fedcandidate
+#actor #individual #usa #macro
 
-**Chris Waller** — Fed Governor (2020-present). Academic economist, former St. Louis Fed research director. Dovish on rates, emphasizes Fed independence. Fed Chair candidate.
+**Chris Waller** — Fed Governor (2020-present). Academic economist, former St. Louis Fed research director. Dovish on rates, emphasizes Fed independence. Was considered for Fed Chair; [[Kevin Warsh]] nominated instead (Jan 30, 2026).
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Christopher Waller, Waller]
 | Metric | Value |
 |--------|-------|
 | Current role | Fed Governor |
-| Fed Chair odds | In contention (behind Warsh) |
+| Fed Chair | **Passed over** — Warsh nominated Jan 30, 2026 |
 | Age | 65 |
 | Education | PhD Economics (Washington State) |
 | Term expires | January 2030 |
@@ -46,18 +46,15 @@ aliases: [Christopher Waller, Waller]
 
 ---
 
-## Fed Chair candidacy
+## Fed Chair candidacy (resolved)
 
-| Factor | Assessment |
-|--------|------------|
-| Trump relationship | Trump nominee (2020), policy alignment on rates |
-| Fed experience | 4+ years on Board |
-| Academic credentials | Strongest among candidates |
-| Independence | Emphasizes Fed autonomy |
+### Passed over for Warsh (Jan 30, 2026)
 
-**Bessent meeting:** Met with Treasury Secretary, said he "fits the bill" for leadership.
+Trump nominated [[Kevin Warsh]] instead. Waller remains as Fed Governor (term through Jan 2030).
 
-**Jan 28, 2026 dissent:** Waller dissented in favor of 25bp cut (joined [[Stephen Miran]]). First dissent since joining Board in 2020. Speculation that dissent was intended to bolster Fed Chair candidacy by signaling alignment with Trump's preference for lower rates.
+**Bessent meeting:** Had met with Treasury Secretary, who said Waller "fits the bill" for leadership.
+
+**Jan 28, 2026 dissent:** Two days before the Warsh nomination, Waller dissented in favor of 25bp cut (joined [[Stephen Miran]]). First dissent since joining Board in 2020. Speculation that dissent was intended to bolster Fed Chair candidacy by signaling alignment with Trump's preference for lower rates — but it wasn't enough.
 
 ---
 
@@ -86,7 +83,7 @@ aliases: [Christopher Waller, Waller]
 
 ---
 
-*Created 2026-01-17*
+*Created 2026-01-17 · Updated 2026-01-30*
 
 ---
 
@@ -94,7 +91,7 @@ aliases: [Christopher Waller, Waller]
 
 - [[Federal Reserve]] — employer
 - [[Jerome Powell]] — current Chair
-- [[Kevin Warsh]] — rival candidate (front-runner)
+- [[Kevin Warsh]] — won Fed Chair nomination
 - [[Kevin Hassett]] — rival candidate
 - [[Michelle Bowman]] — rival candidate
 - [[Fed independence]] — key issue

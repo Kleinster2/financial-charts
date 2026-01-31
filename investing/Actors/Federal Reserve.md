@@ -78,32 +78,26 @@ aliases: [Fed, FOMC, Federal Reserve System]
 |--------|--------|
 | Current chair | [[Jerome Powell]] — term ends May 15, 2026 |
 | Trump stance | Will not reappoint Powell |
-| Announcement | **"In the next week or so"** — Bessent (Jan 29) |
-| Market impact | "Battle of the Kevins" |
+| **Nominee** | **[[Kevin Warsh]]** (Jan 30, 2026) |
+| Confirmation | Pending Senate |
 
-### Leading candidates
+### Warsh nomination (Jan 30, 2026)
 
-| Candidate | Odds | Background | Concern |
-|-----------|------|------------|---------|
-| [[Kevin Warsh]] | **60%** | Former Fed Governor, [[Morgan Stanley]] | 15 years away |
-| [[Kevin Hassett]] | **16%** | NEC Director, daily Trump contact | Independence |
-| [[Michelle Bowman]] | — | Current Fed Governor | — |
-| [[Chris Waller]] | — | Current Fed Governor | — |
-| [[Rick Rieder]] | — | [[BlackRock]] CIO Fixed Income | Interviewed Jan 15 |
+Trump named former Fed Governor [[Kevin Warsh]] as his pick to replace Powell. Markets fell on the news — S&P -0.43%, Nasdaq -0.94% — as rising Treasury yields reflected expectations of a less dovish Fed.
 
-### Odds history
+**Warsh background:**
+- Fed Governor 2006-2011 (served through GFC)
+- [[Morgan Stanley]] (1995-2002)
+- Hoover Institution fellow since 2011
+- Perceived as more independent than [[Kevin Hassett]]
+
+### "Battle of the Kevins" (resolved)
 
 | Date | Warsh | Hassett | Event |
 |------|-------|---------|-------|
-| Jan 14 | 39-41% | 40-50% | "Battle of the Kevins" |
-| **Jan 16** | **60%** | **16%** | Trump: "I want to keep you where you are" (to Hassett) |
-
-### Market view
-
-- **Warsh now front-runner:** Bond yields rose on Jan 16 — Warsh seen as more hawkish
-- **Hassett fading:** Trump signaled he wants him to stay at NEC
-- **Key risk:** Too-dovish chair could trigger bond vigilante response
-- **Key risk:** Too-dovish chair could trigger bond vigilante response
+| Jan 14 | 39-41% | 40-50% | Neck-and-neck |
+| Jan 16 | 60% | 16% | Trump: "I want to keep you where you are" (to Hassett) |
+| **Jan 30** | **Nominated** | — | Trump names Warsh |
 
 **Wall Street view:**
 > "We don't know who will be the Fed Chairman, nor how dovish a post-Powell Fed will be. However, we think it's a reasonable assumption that an unusually high level of dissent among Fed officials will be a defining feature of next year's Fed." — **Tallbacken Capital**
@@ -163,7 +157,7 @@ See [[Fed independence]] for full concept analysis.
 
 ---
 
-*Updated 2026-01-28*
+*Updated 2026-01-30*
 
 ---
 

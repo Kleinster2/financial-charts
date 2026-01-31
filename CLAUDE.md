@@ -613,8 +613,36 @@ Don't just add a wikilink and move on. If you're touching a note, refresh it.
 4. **Always update daily notes** — use event date, not article date
 5. **Check for events** — M&A, bankruptcy, IPO → create Event note
 6. **Recognize systemic events** — see below
+7. **Trace repercussions** — see below
 
 See [[Note structures]] for event criteria and templates.
+
+### Tracing market repercussions
+
+**After processing news, ask: how did markets react?**
+
+News isn't fully captured until you've traced the market response. Check for moves in:
+
+| Asset class | What to look for |
+|-------------|------------------|
+| Treasuries | Yield curve shifts (2Y, 10Y, 30Y) |
+| Equities | Index moves, sector rotation |
+| FX | Dollar, relevant currency pairs |
+| Commodities | Gold, oil if macro-relevant |
+| Sector ETFs | Rate-sensitive (XLF, XLU, XLRE), growth vs value |
+
+**Process:**
+1. Update primary actor note(s) with the news
+2. Search for market reaction ("Warsh nomination market reaction")
+3. Add reaction data to the daily note Markets section
+4. Add to Journal sections of affected concept/sector notes (Treasuries, Banks, Gold, etc.)
+5. If significant, add to actor notes too
+
+**Example:** Warsh nominated for Fed Chair →
+- Treasuries: 10Y +Xbp (less dovish Fed expected)
+- Equities: S&P -0.43%, Nasdaq -0.94%
+- Rate-sensitive: Banks, REITs reaction
+- Gold: Safe haven move?
 
 ### Systemic vs company-specific news
 

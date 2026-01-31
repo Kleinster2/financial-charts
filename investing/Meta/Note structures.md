@@ -110,11 +110,41 @@ For any ownership change, acquisition, or restructuring, always capture:
 
 | Actor type | Required content |
 |------------|------------------|
-| **Public companies** | Leadership, historical financials (see [[Financials templates]]) |
+| **Public companies** | Leadership, historical financials, sector correlation (see below) |
 | **Private companies** | Leadership, full cap table, historical financials, derivative arrangements (see below) |
 | **Research shops / funds** | Key analysts, AUM, notable positions, recent calls |
 | **Individuals** | Role, affiliations, key decisions, track record |
 | **Geographies** | Economic data, key sectors, policy environment |
+
+### Sector correlation (public companies)
+
+Public company notes should include a **Sector correlation** section showing how the stock trades relative to validated sectors.
+
+```markdown
+## Sector correlation
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[Defense IT Services]] | **0.65** | Primary |
+| [[Defense Primes]] | 0.42 | Secondary |
+| [[Cybersecurity]] | 0.35 | Weak |
+```
+
+**Fit categories:**
+- **Primary** — ≥0.55, stock belongs in this sector
+- **Secondary** — 0.40-0.54, meaningful but weaker exposure
+- **Weak** — <0.40, not a sector play
+
+**Orphan stocks** don't fit any sector (all correlations <0.50). Mark with callout:
+
+```markdown
+> [!warning] Sector Orphan
+> BA does not trade with any validated sector. Idiosyncratic story.
+```
+
+**Examples of orphans:** BA (commercial aerospace), INTC (turnaround), NU (LatAm), PYPL (loosely attached to payments)
+
+**When to include:** Required for stocks that are outliers, borderline, or have multi-sector exposure. Optional for stocks clearly in one sector.
 
 ### Leadership section
 
@@ -182,6 +212,161 @@ Any puts, calls, earnouts, convertibles, or warrants get a dedicated section:
 | Estimated price | ~$XB | "Substantially below" |
 
 Include: exact terms, pricing formulas, exercise windows, amendments, and **strategic implications for each party** (why they'd exercise or not).
+
+---
+
+## Industry vs Sector notes
+
+**Two distinct note types based on correlation:**
+
+| Type | Correlation | Purpose | Tradeable? |
+|------|-------------|---------|------------|
+| **Industry** | <0.50 or umbrella | Overview, themes, market structure | No |
+| **Sector** | ≥0.50 | Validated trading cluster | Yes, as basket |
+
+### Industry notes
+
+Industry notes provide context but are NOT tradeable baskets. Mark with callout:
+
+```markdown
+> [!info] Industry Overview
+> This is an industry overview, not a tradeable sector. See related sectors below for validated trading clusters.
+```
+
+**Examples:** Data Centers, Defense, Fintech, Semiconductors, Memory
+
+**Required content:** Market size, themes, value chain, key players, related sectors
+
+### Sector notes
+
+Sector notes are validated trading clusters (correlation ≥0.50). These CAN be traded as baskets.
+
+**Examples:** DC REITs (0.69), Defense IT Services (0.61), Payments Networks (0.86), WFE (0.70)
+
+**Required content:** Correlation structure, sector chart, key actors
+
+Sector notes should include a **Correlation structure** section to validate the grouping.
+
+### Correlation structure template
+
+```markdown
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| **Avg correlation** | **0.XX** | Strong/Moderate/Weak |
+| Range | 0.XX - 0.XX | Loosest to tightest pair |
+| vs [other sector] | 0.XX | Cross-sector comparison |
+| Period | 2024-01 to present | 1-2 year lookback |
+```
+
+### Interpretation scale
+
+| Correlation | Label | Meaning |
+|-------------|-------|---------|
+| ≥0.60 | **Strong** | Tight sector, moves as unit |
+| 0.40-0.59 | **Moderate** | Valid sector grouping |
+| 0.25-0.39 | **Weak** | Loose grouping, consider splitting |
+| <0.25 | **Very weak** | Not a meaningful sector |
+
+### Benchmarks (2024-01 to 2026-01)
+
+| Sector | Correlation | Assessment |
+|--------|-------------|------------|
+| GS-MS (Investment Banks) | 0.87 | Very strong (near-identical) |
+| V-MA (Payments Networks) | 0.86 | Very strong (duopoly) |
+| Regional Banks | 0.85 | Strong |
+| US Banks (all) | 0.77 | Strong |
+| EDA | 0.75 | Strong |
+| WFE | 0.70 | Strong |
+| DC REITs | 0.69 | Strong |
+| Defense IT Services | 0.61 | Strong |
+| AI Compute | 0.61 | Strong |
+| Crypto-to-AI | 0.61 | Strong |
+| Connectivity | 0.58 | Moderate |
+| Korea Memory | 0.53 | Moderate |
+| Hyperscalers | 0.52 | Moderate |
+| Digital Fintechs | 0.51 | Moderate |
+| US Memory | 0.50 | Moderate |
+| Defense Primes (ex-BA) | 0.49 | Moderate |
+| Defense (all incl BA) | 0.40 | Weak — BA is outlier |
+| Data Centers (all) | 0.39 | Weak — splits into REITs vs Crypto |
+| Foundry (TSM+INTC) | 0.28 | Weak — INTC is turnaround story |
+
+**Notes on weak sectors:**
+- **Foundry** doesn't exist as tradeable sector — TSMC trades with customers (NVDA 0.69, AMD 0.56) not "peers"
+- **INTC** is uncorrelated with everything (0.28-0.34) — IDM turnaround/restructuring play
+- **Boeing** is uncorrelated with defense primes (0.12-0.33) — commercial aerospace story
+- **Data Centers** splits into DC REITs (0.69) and Crypto-to-AI (0.61) with only 0.08-0.20 cross-correlation
+
+**When to split a sector:** If cross-correlation is <0.30 within a sector, create sub-sectors (e.g., Data Centers → DC REITs + Crypto-to-AI).
+
+### ETF benchmarks by sector
+
+Some sectors have ETFs that track well; others are market-uncorrelated with no good benchmark.
+
+| Sector | Best Benchmark | Correlation | Notes |
+|--------|----------------|-------------|-------|
+| AI Compute | SMH | 0.71-0.84 | Semis ETF covers NVDA, AMD, TSM |
+| WFE | SMH | 0.54-0.86 | Equipment makers in semis ETF |
+| Connectivity | SOXX | 0.75-0.80 | Networking chips |
+| Banks | KBE | 0.68-0.76 | Regional bank ETF; XLF too diluted |
+| Payments Networks | SPY | 0.39-0.40 | Weak fit; V-MA are unique duopoly |
+| US Retail Trading | ARKF | 0.74-0.80 | Fintech ETF covers HOOD, COIN |
+| DC REITs | VNQ | 0.57-0.64 | Real estate ETF; partial fit |
+| Crypto-to-AI | BITO | 0.41-0.58 | Bitcoin futures; loose fit |
+| Defense Primes | — | 0.11-0.34 vs SPY | **Market-uncorrelated** |
+| Defense IT Services | — | ~0.30 vs SPY | **Market-uncorrelated** |
+| Life Insurance | — | 0.27-0.45 vs SPY | **Market-uncorrelated** |
+| P&C Insurance | — | 0.18-0.28 vs SPY | **Most market-uncorrelated** |
+| Alt Managers | — | 0.47-0.51 vs SPY | **Weak market correlation** |
+
+**Market-uncorrelated sectors** (Defense, Insurance, Alt Managers) trade on industry-specific drivers (defense budgets, underwriting cycles, AUM/deal flow) rather than GDP or tech earnings. These function as natural hedges against growth/tech exposure.
+
+### Sector charts
+
+**Every sector note requires a comparison chart** showing normalized performance of all key actors.
+
+```bash
+# Sector chart (all actors, normalized, no title since legend shows tickers)
+curl "http://localhost:5000/api/chart/lw?tickers=ASML,AMAT,LRCX,KLAC&start=2024-01-01&normalize=true" \
+  -o investing/attachments/wfe-sector-chart.png
+```
+
+**Chart placement:** Immediately after the intro paragraph, before Key actors table.
+
+**Chart caption:** Italicized line below explaining what the chart shows — which names outperforming, correlation visible in movement, any divergences worth noting.
+
+```markdown
+![[wfe-sector-chart.png]]
+*LRCX outperforming, but all four move together. AMAT-LRCX especially tight (0.90 correlation).*
+```
+
+**Naming convention:** `{sector-name}-sector-chart.png` (lowercase, hyphenated).
+
+### Journal section
+
+**Concept and sector notes should include a Journal section** for logging significant market-moving events. This gives structural notes a timestamped record of catalysts without mixing them into reference content.
+
+```markdown
+## Journal
+
+| Date | Event | Impact |
+|------|-------|--------|
+| 2026-01-30 | [[Kevin Warsh]] nominated Fed Chair | Curve steepened, deregulation expectations |
+| 2026-01-28 | FOMC holds rates | First pause since July |
+```
+
+**When to add entries:**
+- Policy changes affecting the sector/concept
+- Major earnings that move the group
+- Regulatory actions
+- Leadership changes at key institutions
+- Significant price moves with clear catalysts
+
+**Placement:** After the main structural content, before Related section.
+
+**Link to daily notes:** Journal entries should also appear in the corresponding daily note's Markets section with full detail. The journal is a quick-reference log; the daily has the full narrative.
 
 ---
 

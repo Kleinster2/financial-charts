@@ -2963,6 +2963,7 @@ def get_chart_lw():
                 labels[key.strip().upper()] = val.strip()
 
     metrics_param = request.args.get('metrics', '').strip().lower()
+    combine_panes = request.args.get('combine', 'false').lower() == 'true'  # Combine multiple metrics into single pane
     product_param = product_param_early  # Already parsed above
     product_metrics_param = request.args.get('product_metrics', '').strip().lower()  # e.g., global_mau,revenue
 
@@ -3082,10 +3083,15 @@ def get_chart_lw():
         'netincome': ('income_statement_quarterly', 'net_income', 'Net Income'),
         'eps': ('earnings_quarterly', 'reported_eps', 'EPS'),
         'fcf': ('cash_flow_quarterly', 'free_cash_flow', 'Free Cash Flow'),
+        'ocf': ('cash_flow_quarterly', 'operating_cashflow', 'Operating CF'),
         'operatingincome': ('income_statement_quarterly', 'operating_income', 'Op Income'),
         'ebitda': ('income_statement_quarterly', 'ebitda', 'EBITDA'),
         'grossprofit': ('income_statement_quarterly', 'gross_profit', 'Gross Profit'),
         'capex': ('cash_flow_quarterly', 'capital_expenditures', 'CapEx'),
+        'dividends': ('cash_flow_quarterly', 'dividend_payout', 'Dividends'),
+        'buybacks': ('cash_flow_quarterly', 'share_repurchases', 'Buybacks'),
+        'cash': ('balance_sheet_quarterly', 'IFNULL(cash_and_equivalents,0) + IFNULL(short_term_investments,0)', 'Cash Position'),
+        'employees': ('employee_count', 'employees', 'Employees'),
     }
 
     # If metrics specified, fetch fundamentals instead of price
@@ -3103,9 +3109,9 @@ def get_chart_lw():
                     table, column, label = metric_map[metric]
                     series_name = f"{ticker} {label}" if len(tickers) > 1 or len(metrics) > 1 else label
 
-                    # Build query with optional date filters
+                    # Build query with optional date filters (alias column as 'metric_value' for expressions)
                     query = f"""
-                        SELECT fiscal_date_ending, {column}
+                        SELECT fiscal_date_ending, ({column}) as metric_value
                         FROM {table}
                         WHERE ticker = ?
                     """
@@ -3124,7 +3130,7 @@ def get_chart_lw():
                         for _, row in df.iterrows():
                             try:
                                 date_str = fiscal_to_calendar_quarter(row['fiscal_date_ending'])
-                                value = row[column]
+                                value = row['metric_value']
                                 if pd.notna(value) and value != 0:
                                     data_points.append({'time': date_str, 'value': float(value)})
                             except Exception:
@@ -3184,8 +3190,8 @@ def get_chart_lw():
                 'isFundamentals': True,
                 'forecastStart': forecast_start if forecast_start else None,
                 'labels': labels if labels else None,
-                'separatePanes': len(metrics) > 1,
-                'paneGroups': pane_groups if pane_groups else None
+                'separatePanes': len(metrics) > 1 and not combine_panes,
+                'paneGroups': pane_groups if (pane_groups and not combine_panes) else None
             }
 
             # Render with Playwright

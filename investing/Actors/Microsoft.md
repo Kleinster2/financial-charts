@@ -42,6 +42,7 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 
 
 ![[msft-1y.png]]
+*1-year: Rallied from $355 (Apr 2025) to $540 (Jul), then sold off to ~$440 on AI capex/margin concerns and Q2 FY26 Azure deceleration.*
 
 ![[msft-vs-qqq.png]]
 *[[Nasdaq|QQQ]]*
@@ -70,6 +71,100 @@ Microsoft is the largest AI infrastructure spender. OpenAI partnership makes the
 | 2025 | $281.7B | $101.8B | $13.71 | $477 |
 
 *Source: Company filings. Stock price = fiscal year-end close (Jun). FY2018 impacted by TCJA transition tax.*
+
+### Quarterly (recent)
+
+| Quarter | Revenue | Net Income | EPS | Gross Margin | Op Margin |
+|---------|---------|------------|-----|--------------|-----------|
+| Q2 FY26 (Dec 2025) | $81.3B | $38.5B* | $5.16 | 68.0% | 47.1% |
+| Q1 FY26 (Sep 2025) | $77.7B | $27.7B | $3.72 | 69.1% | 48.9% |
+| Q4 FY25 (Jun 2025) | $76.4B | $27.2B | $3.65 | 68.6% | 44.9% |
+| Q3 FY25 (Mar 2025) | $70.1B | $25.8B | $3.46 | — | — |
+| Q2 FY25 (Dec 2024) | $69.6B | $24.1B | $3.23 | — | — |
+
+*Q2 FY26 net income includes $7.6B OpenAI mark-to-market gain.*
+
+### Balance Sheet (Dec 2025)
+
+| Item | Value |
+|------|-------|
+| Total Assets | $665.3B |
+| Total Liabilities | $274.4B |
+| Shareholders' Equity | $390.9B |
+| Cash + Short-term Investments | $89.5B |
+| Total Debt | $123.3B |
+| Net Debt | $33.8B |
+| PP&E | $286.2B |
+| Goodwill | $119.6B |
+
+### Cash Flow & CapEx
+
+| FY | Operating CF | CapEx | Free Cash Flow | Dividends | Buybacks |
+|----|--------------|-------|----------------|-----------|----------|
+| TTM (Dec 2025) | $160.5B | $83.1B | $77.4B | $25.3B | $22.4B |
+| 2025 | $136.2B | $64.6B | $71.6B | $24.1B | $18.4B |
+| 2024 | $118.5B | $44.5B | $74.1B | $21.8B | $17.3B |
+| 2023 | $87.6B | $28.1B | $59.5B | — | — |
+| 2022 | $89.0B | $23.9B | $65.1B | — | — |
+| 2021 | $76.7B | $20.6B | $56.1B | — | — |
+
+*CapEx tripled in 4 years ($21B → $65B → $83B TTM). AI infrastructure build compressing FCF margin.*
+
+![[msft-cashflow.png]]
+*Full capital allocation picture. Cash position (cyan) dropped $12B from $102B→$90B in Q2 FY26 as FCF ($5.9B) couldn't cover dividends ($6.8B) + buybacks ($7.4B). CapEx ($30B) consuming most of OCF ($36B). 2023 dip = Activision acquisition. Plenty of runway at $90B but AI investment squeezing FCF.*
+
+### Profitability Ratios
+
+| Metric | FY2025 | FY2024 | FY2023 |
+|--------|--------|--------|--------|
+| ROE | 33.3% | 37.1% | 38.8% |
+| ROA | 14.2% | 14.8% | 14.2% |
+| FCF Margin | 25% | 30% | 28% |
+
+*ROE declining as equity base grows faster than net income.*
+
+### Employees (25-year history)
+
+![[msft-employees.png]]
+*39K (2000) → 228K (2025). Nokia acquisition spike (2014), subsequent layoffs (2015-16). Pandemic hiring surge 2021-22 (+40K). Flat 2024-25 as focus shifts to efficiency + AI.*
+
+| FY | Employees | Change | Notes |
+|----|-----------|--------|-------|
+| 2025 | 228,000 | 0% | Layoffs offset by hiring |
+| 2024 | 228,000 | +3% | |
+| 2022 | 221,000 | +22% | Pandemic/cloud hiring |
+| 2021 | 181,000 | +11% | |
+| 2016 | 114,000 | -11% | Nokia layoffs |
+| 2014 | 128,000 | +29% | Nokia acquisition |
+| 2010 | 89,000 | — | Pre-Nadella baseline |
+| 2000 | 39,000 | — | Dot-com peak |
+
+---
+
+## Hyperscaler Comparison
+
+### Latest Quarter (Q2 FY26 vs peers Q3 2025)
+
+| Metric | Microsoft | Google | Amazon |
+|--------|-----------|--------|--------|
+| Revenue | $81.3B | $102.3B | $180.2B |
+| Operating Income | $38.3B | $31.2B | $19.9B |
+| Net Income | $38.5B* | $35.0B | $21.2B |
+| Gross Margin | 68.0% | 59.6% | 50.8% |
+| Operating Margin | 47.1% | 30.5% | 11.1% |
+| Net Margin | 47.3%* | 34.2% | 11.8% |
+
+*MSFT includes $7.6B OpenAI gain. Amazon's retail drag kills margins.*
+
+### Cloud Growth (Latest)
+
+| Cloud | Growth | Notes |
+|-------|--------|-------|
+| Azure | +39% | Decelerating (was 40% Q1) |
+| Google Cloud | ~28-30% | Accelerating |
+| AWS | ~19% | Mature, slowing |
+
+Azure still fastest-growing hyperscaler but deceleration spooked market.
 
 ---
 
@@ -273,18 +368,34 @@ See [[Short interest]] for interpretation framework.
 |--------|-------|
 | Ticker | MSFT (NASDAQ) |
 | Market cap | ~$3.2T |
+| TTM revenue | $305.5B |
 | Q2 FY26 revenue | $81.27B (+17% YoY) |
-| Q2 FY26 EPS | $4.14 adj |
-| Azure growth | **39%** (decelerating) |
-| Revenue (FY26E) | ~$327B |
-| AI capex | $50B+ annually |
+| Q2 FY26 EPS | $5.16 GAAP / $4.14 adj |
+| Azure growth | **39%** (decelerating to ~31-32%) |
+| Commercial backlog (RPO) | $625B (+110% YoY) |
+| TTM Free Cash Flow | $77.4B |
+| TTM CapEx | $83.1B |
+| Operating margin | 47.1% |
+| Gross margin | 68% (3-year low) |
+| ROE | 33.3% |
+| **Employees** | **228,000** (FY25, flat YoY) |
 | Primary chip | [[NVIDIA]] GPUs |
 | Custom silicon | Maia 200 (AI inference, 3nm), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
-| Gross margin | 68% (3-year low) |
 | Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
-*Updated 2026-01-30 (post-earnings selloff)*
+**Headcount by function (FY25):**
+
+| Function | Employees |
+|----------|-----------|
+| Operations (DC, support, manufacturing) | 89,000 |
+| Product R&D | 80,000 |
+| Sales & Marketing | 44,000 |
+| G&A | 15,000 |
+
+*125K US, 103K international. R&D down ~1K YoY, Operations up ~3K (datacenter buildout). ~9K layoffs in 2025 offset by hiring.*
+
+*Updated 2026-01-31*
 
 ---
 

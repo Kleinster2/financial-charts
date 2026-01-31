@@ -73,4 +73,5 @@ Aligned majority owned by funds managed by [[Macquarie]] Asset Management.
 - [[Patria]] — original owner/founder
 - [[Macquarie]] — Aligned's majority owner
 - [[Brazil]] — primary market
+- [[Brazil AI]] — REDATA beneficiary (tax incentives)
 - [[Data Centers]] — sector

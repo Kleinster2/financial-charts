@@ -115,64 +115,28 @@ First Scala data center location.
 
 All debentures are CDI-linked (floating rate tied to Brazil Interbank Deposit Rate). Spread evolution: CDI+3.15% (Dec 2022) → CDI+2.0-2.4% (Aug 2024) — improved credit profile.
 
-#### SCLL11 (Mar 2022) — Early redeemed
-
-| Term | Value |
-|------|-------|
-| Ticker | SCLL11 |
-| ISIN | BRSCLLDBS017 |
-| Series | Única (1st issuance) |
-| Amount | BRL 1B |
-| Issue date | March 11, 2022 |
-| Maturity | March 11, 2027 |
-| Coupon | **CDI + 3.25% p.a.** |
-| Payment | Quarterly (from Jun 2022) |
-| Amortization | 2.5% quarterly from Mar 2024 |
-| Security | Senior Unsecured (Quirografária) |
-| Green bond | **No** |
-| Incentivized | No |
-| Status | **Early redeemed** (Dec 2022) |
 
 #### SCLL12 (Dec 2022) — Landmark issuance
 
 **First DC green bond in Brazil. Largest ESG bond in Brazil at time of issue.**
 
-| Term         | Value                                |
-| ------------ | ------------------------------------ |
-| Ticker       | SCLL12                               |
-| ISIN         | BRSCLLDBS025                         |
-| Amount       | BRL 2B (~$385M)                      |
-| Issue date   | December 15, 2022                    |
-| Maturity     | December 15, 2027                    |
-| Coupon       | **CDI + 3.15% p.a.**                 |
-| Payment      | Quarterly                            |
-| Amortization | 2.5% p.a. quarterly from Dec 2024    |
-| Security     | **Secured** (Garantia Real)          |
-| Demand       | BRL 4.5B+ (2.25x oversubscribed)     |
-| Framework    | Scala Green Bond Framework           |
-| Green bond   | **Yes** ([[Sustainalytics]] [[Second-Party Opinion|SPO]]) |
-| Incentivized | No                                   |
-| Status       | Outstanding                          |
-
-**Coordinators:** [[Bradesco BBI]] (lead), [[Itaú BBA]], [[UBS BB]], [[Santander Brasil]], [[MUFG]], [[Deutsche Bank\|Deutsche Bank Brazil]]
-
 **Use of proceeds**: Energy efficiency ([[PUE]] <1.40), 100% renewable energy, green building certifications, carbon neutrality. Qualified for [[Green bonds\|green debentures]] (not [[Sustainability-linked bonds\|SLBs]]) because Scala already had sustainable operations.
 
-| Ticker       |     |                            SCLL13                             |                                       SCLL14                                       |                                       SCLL24                                       |
-| :----------- | :-: | :-----------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| ISIN         |     |                         BRSCLLDBS033                          |                                    BRSCLLDBS041                                    |                                    BRSCLLDBS058                                    |
-| Amount       |     |                      BRL 1.07B (~$215M)                       |                                      BRL 750M                                      |                                      BRL 750M                                      |
-| Issue date   |     |                       November 17, 2023                       |                                  August 10, 2024                                   |                                  August 10, 2024                                   |
-| Maturity     |     |                       November 17, 2029                       |                                  August 10, 2030                                   |                                  August 10, 2030                                   |
-| Coupon       |     |                      **CDI + 2.5% p.a.**                      |                                **CDI + 2.0% p.a.**                                 |                                **CDI + 2.4% p.a.**                                 |
-| Payment      |     |                   Quarterly (from Feb 2024)                   |                                                                                    |                                                                                    |
-| Amortization |     |                    Quarterly from Nov 2025                    |                              Quarterly from Aug 2026                               |                              Quarterly from Aug 2026                               |
-| Security     |     |                  **Secured** (Garantia Real)                  |                            **Secured** (Garantia Real)                             |                            **Secured** (Garantia Real)                             |
-| Demand       |     |                                                               |                       3.2x oversubscribed (record for Scala)                       |                       3.2x oversubscribed (record for Scala)                       |
-| Green bond   |     | **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]]) |           **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]])            |           **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]])            |
-| Incentivized |     |                              No                               |                                         No                                         |                                         No                                         |
-| Status       |     |                          Outstanding                          |                                    Outstanding                                     |                                    Outstanding                                     |
-| Coordinators |     |            [[Bradesco BBI]] (lead),<br>[[UBS BB]]             | [[Bradesco BBI]] (lead), <br>[[UBS BB]],<br>[[Santander Brasil]], <br>[[Itaú BBA]] | [[Bradesco BBI]] (lead), <br>[[UBS BB]],<br>[[Santander Brasil]], <br>[[Itaú BBA]] |
+| Ticker       |              SCLL11              |                                                 SCLL12                                                  |                            SCLL13                             |                                       SCLL14                                       |                                       SCLL24                                       |
+| :----------- | :------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------: | :--------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
+| ISIN         |           BRSCLLDBS017           |                                              BRSCLLDBS025                                               |                         BRSCLLDBS033                          |                                    BRSCLLDBS041                                    |                                    BRSCLLDBS058                                    |
+| Amount       |              BRL 1B              |                                             BRL 2B (~$385M)                                             |                      BRL 1.07B (~$215M)                       |                                      BRL 750M                                      |                                      BRL 750M                                      |
+| Issue date   |          March 11, 2022          |                                            December 15, 2022                                            |                       November 17, 2023                       |                                  August 10, 2024                                   |                                  August 10, 2024                                   |
+| Maturity     |          March 11, 2027          |                                            December 15, 2027                                            |                       November 17, 2029                       |                                  August 10, 2030                                   |                                  August 10, 2030                                   |
+| Coupon       |       **CDI + 3.25% p.a.**       |                                          **CDI + 3.15% p.a.**                                           |                      **CDI + 2.5% p.a.**                      |                                **CDI + 2.0% p.a.**                                 |                                **CDI + 2.4% p.a.**                                 |
+| Payment      |    Quarterly (from Jun 2022)     |                                                Quarterly                                                |                   Quarterly (from Feb 2024)                   |                                                                                    |                                                                                    |
+| Amortization |   2.5% quarterly from Mar 2024   |                                    2.5% p.a. quarterly from Dec 2024                                    |                    Quarterly from Nov 2025                    |                              Quarterly from Aug 2026                               |                              Quarterly from Aug 2026                               |
+| Security     | Senior Unsecured (Quirografária) |                                     **Secured**<br>(Garantia Real)                                      |                  **Secured** (Garantia Real)                  |                            **Secured** (Garantia Real)                             |                            **Secured** (Garantia Real)                             |
+| Demand       |                                  |                                    BRL 4.5B+ (2.25x oversubscribed)                                     |                                                               |                       3.2x oversubscribed (record for Scala)                       |                       3.2x oversubscribed (record for Scala)                       |
+| Green bond   |              **No**              |                      **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]])                      | **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]]) |           **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]])            |           **Yes**<br>([[Sustainalytics]] [[Second-Party Opinion\|SPO]])            |
+| Incentivized |                No                |                                                   No                                                    |                              No                               |                                         No                                         |                                         No                                         |
+| Status       |  **Early redeemed** (Dec 2022)   |                                               Outstanding                                               |                          Outstanding                          |                                    Outstanding                                     |                                    Outstanding                                     |
+| Coordinators |                                  | [[Bradesco BBI]] (lead), [[Itaú BBA]], [[UBS BB]], [[Santander Brasil]], [[MUFG]],<br>[[Deutsche Bank]] |            [[Bradesco BBI]] (lead),<br>[[UBS BB]]             | [[Bradesco BBI]] (lead), <br>[[UBS BB]],<br>[[Santander Brasil]], <br>[[Itaú BBA]] | [[Bradesco BBI]] (lead), <br>[[UBS BB]],<br>[[Santander Brasil]], <br>[[Itaú BBA]] |
 
 ### Other debt
 
@@ -250,6 +214,7 @@ Net debt more than doubled to fund expansion — justified by growth trajectory.
 
 - [[DigitalBridge]] — majority owner
 - [[Brazil]] — primary market
+- [[Brazil AI]] — REDATA beneficiary (tax incentives)
 - [[Latin America AI competitiveness]] — regional context
 - [[São Paulo Data Hub]] — Tamboré campus market
 - [[Data Centers]] — sector

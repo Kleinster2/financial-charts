@@ -5,7 +5,20 @@ aliases: [Banking, Bank sector, Commercial banks, US banks]
 
 # Banks
 
-Overview of the US banking sector.
+Overview of the US banking sector. Trades as a tight sector (0.77 correlation) — no sub-sector splits needed.
+
+---
+
+## Correlation structure
+
+| Group | Correlation | Key players |
+|-------|-------------|-------------|
+| **All major banks** | **0.77** | JPM, BAC, WFC, C, GS, MS |
+| Money center | 0.77 | JPM, BAC, WFC, C |
+| Regionals | **0.85** | PNC, USB, TFC, FITB |
+| Investment banks | **0.87** | GS, MS |
+
+Despite different business models (consumer vs IB vs regional), all banks trade together. No geographic or business-model split needed — this is one sector.
 
 ---
 
@@ -138,6 +151,14 @@ JPM generates **40% more revenue per employee** than WFC and **2x profit per emp
 
 ---
 
+## Journal
+
+| Date | Event | Impact |
+|------|-------|--------|
+| 2026-01-30 | [[Kevin Warsh]] nominated Fed Chair | XLF stable, KRE (regionals) outperformed. Deregulation expectations — Warsh critic of Dodd-Frank. Yield curve steepened (benefits NIM) |
+
+---
+
 ## Related
 
 - [[Berkshire Hathaway]] — owns BofA stake
@@ -148,4 +169,4 @@ JPM generates **40% more revenue per employee** than WFC and **2x profit per emp
 
 - TBD
 
-*Updated 2026-01-08*
+*Updated 2026-01-30*

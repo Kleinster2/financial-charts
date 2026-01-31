@@ -7,18 +7,20 @@ aliases: [USD, DXY, dollar, greenback]
 
 ---
 
-## Current status (Jan 28, 2026)
+## Current status (Jan 30, 2026)
 
 | Metric | Value |
 |--------|-------|
-| DXY (dollar index) | **96.16** (4-year low) |
+| DXY (dollar index) | **~97** (rebounding from 4-year low) |
 | 2025 return | **-9%** (DXY basis) |
-| Jan 2026 MTD | **-2.5%** |
+| Jan 2026 MTD | **-2%** |
 | Fed rate | 3.50-3.75% (held) |
-| 10Y Treasury | ~4.5% |
-| Gold | **$5,300+** (record) |
+| 10Y Treasury | 4.25% |
+| Gold | **~$5,150** (down from record) |
 
 **Jan 24-28 selloff:** DXY fell 2.26% in 5 days after NY Fed "rate check" and Trump endorsement of weakness.
+
+**Jan 30 rebound:** Dollar rallied on [[Kevin Warsh]] nomination — markets saw credible, independent choice for Fed Chair.
 
 ---
 
@@ -70,13 +72,20 @@ Jan 2026: Middle of the smile — but political factors (rate check, Trump endor
 
 Unprecedented: DOJ subpoenas of Fed officials in Jan 2026.
 
-| Scenario | USD impact |
-|----------|------------|
-| Fed independence preserved | Neutral/supportive |
-| Political pressure succeeds | Bearish (credibility loss) |
-| Fed chair replaced | Very bearish |
+| Scenario | USD impact | Example |
+|----------|------------|---------|
+| Fed independence preserved | Neutral/supportive | — |
+| Political pressure succeeds | Bearish (credibility loss) | Jan 14-28 selloff |
+| **Credible Fed chair named** | **Bullish** | **Jan 30 Warsh → rally** |
+| Dovish Fed chair named | Very bearish | — |
 
 **El-Erian:** "Price of gold indicates at the margin, people are reducing their exposure to the U.S. dollar."
+
+### Warsh nomination rebound (Jan 30)
+
+Dollar reversed when Trump nominated [[Kevin Warsh]] — a former Fed Governor with [[Morgan Stanley]] background, seen as more credible/independent than alternatives like [[Kevin Hassett]].
+
+**BMO:** "By selecting Warsh, the Administration has clearly offered a nod to the necessity of Fed credibility."
 
 ---
 

@@ -192,7 +192,7 @@ Noted Paul Volcker attended a Supreme Court case in 1985 — precedented behavio
 | Meetings remaining | **2** (as of Jan 29, 2026) |
 | Board seat | Could stay until 2028 if chooses |
 | Trump stance | Will not reappoint as Chair |
-| Successor | TBD — Bessent said "in the next week or so" (Jan 29) |
+| Successor | **[[Kevin Warsh]]** (nominated Jan 30, 2026) |
 | Legacy | COVID response, inflation fight, defended independence |
 
 **Market uncertainty:** New chair's policy stance unknown. Could be more dovish under political pressure.
@@ -215,7 +215,7 @@ Noted Paul Volcker attended a Supreme Court case in 1985 — precedented behavio
 
 ---
 
-*Created 2026-01-14*
+*Created 2026-01-14 · Updated 2026-01-30*
 
 ---
 

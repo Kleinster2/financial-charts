@@ -71,6 +71,7 @@ V.tal entering new cycle — potentially three independent companies:
 - [[BTG Pactual]] — controlling shareholder
 - [[Oi]] — fiber assets origin (2021 spin-off)
 - [[Brazil]] — primary market
+- [[Brazil AI]] — REDATA beneficiary (Tecto DCs)
 - [[Data Centers]] — Tecto subsidiary
 - [[Scala Data Centers]] — competitor
 - [[Elea Data Centers]] — competitor

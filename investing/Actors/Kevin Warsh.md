@@ -3,7 +3,7 @@ aliases: [Warsh]
 ---
 #actor #individual #usa #macro #fedcandidate
 
-**Kevin Warsh** — Former Fed Governor (2006-2011), top candidate for Fed Chair. "Battle of the Kevins" frontrunner. [[Stanford]]/[[Morgan Stanley]] background. Perceived as more independent than Hassett.
+**Kevin Warsh** — Trump's nominee for Fed Chair (Jan 30, 2026). Former Fed Governor (2006-2011). [[Stanford]]/[[Morgan Stanley]] background. Would replace [[Jerome Powell]] when term ends May 2026.
 
 ---
 
@@ -11,8 +11,8 @@ aliases: [Warsh]
 
 | Metric | Value |
 |--------|-------|
+| Status | **Nominated for Fed Chair** (Jan 30, 2026) |
 | Current role | Distinguished Visiting Fellow, Hoover Institution ([[Stanford]]) |
-| Fed Chair odds | **60%** (Kalshi, Jan 16) |
 | Age | 55 |
 | Education | [[Stanford]] (BA), Harvard Law |
 | Party | Republican |
@@ -53,9 +53,34 @@ aliases: [Warsh]
 
 ---
 
-## Fed Chair candidacy
+## Fed Chair nomination
 
-### "Battle of the Kevins"
+### Nominated Jan 30, 2026
+
+Trump named Warsh as his pick to replace [[Jerome Powell]].
+
+**Market reaction:**
+
+| Asset | Move | Interpretation |
+|-------|------|----------------|
+| 10Y yield | +2bp to 4.25% | Less dovish Fed expected |
+| 2Y yield | -2bp to 3.53% | Near-term cuts still priced |
+| 30Y yield | +3bp to 4.89% | Balance sheet concerns (Warsh opposes Fed holding bonds/MBS) |
+| S&P 500 | -0.4% | |
+| Nasdaq | -0.6% | |
+| Dollar | ↑ | Credibility boost |
+| Gold | ↓↓ | Safe haven unwind |
+| XLF | Stable | Deregulation, steeper curve |
+| KRE | Outperform | Dodd-Frank relief expected |
+
+**Curve steepened** — Warsh seen as more hawkish long-term but aligned with Trump on near-term cuts.
+
+**Analyst reaction:**
+- **BMO:** "By selecting Warsh, the Administration has clearly offered a nod to the necessity of Fed credibility"
+- **El-Erian:** "Strong mix of deep expertise, broad experience, and sharp communication skills"
+- **Jamie Dimon:** Had signaled support, called Warsh candidate with "market credibility"
+
+### "Battle of the Kevins" (resolved)
 
 | Metric | Warsh | [[Kevin Hassett]] |
 |--------|-------|-------------------|
@@ -116,7 +141,7 @@ Traders see Warsh as "Goldilocks" solution:
 
 ---
 
-*Created 2026-01-14*
+*Created 2026-01-14 · Updated 2026-01-30*
 
 ---
 

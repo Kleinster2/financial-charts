@@ -110,6 +110,15 @@ The extra yield investors demand for holding long-duration bonds beyond expected
 
 ---
 
+## Journal
+
+| Date | Event | Impact |
+|------|-------|--------|
+| 2026-01-30 | [[Kevin Warsh]] nominated Fed Chair | Curve steepened: 10Y +2bp (4.25%), 2Y -2bp (3.53%), 30Y +3bp (4.89%). Long end up on balance sheet concerns — Warsh opposes Fed holding bonds/MBS |
+| 2026-01-28 | FOMC holds at 3.50-3.75% | First pause since July. Waller/Miran dissented for 25bp cut |
+
+---
+
 ## Related
 
 - [[Steepener trade]] — betting on curve shape changes

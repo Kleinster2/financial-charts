@@ -1,9 +1,9 @@
 ---
 aliases: [Hassett]
 ---
-#actor #individual #usa #macro #fedcandidate
+#actor #individual #usa #macro
 
-**Kevin Hassett** — Director of National Economic Council (Trump II), former CEA Chair. Top candidate for Fed Chair. Close to Trump — daily contact. Independence concerns.
+**Kevin Hassett** — Director of National Economic Council (Trump II), former CEA Chair. Was considered for Fed Chair but passed over for [[Kevin Warsh]] (Jan 30, 2026). Remains at NEC.
 
 ---
 
@@ -12,17 +12,10 @@ aliases: [Hassett]
 | Metric | Value |
 |--------|-------|
 | Current role | Director, National Economic Council (NEC) |
-| Fed Chair odds | **16%** (Kalshi, Jan 16) |
+| Fed Chair | **Passed over** — Warsh nominated Jan 30, 2026 |
 | Age | 63 |
 | Education | PhD Economics (UPenn), BA (Swarthmore) |
 | Party | Republican |
-
-### Fed Chair odds history
-
-| Date | Kalshi | Event |
-|------|--------|-------|
-| Jan 14 | 40-50% | Front-runner, daily Trump access |
-| **Jan 16** | **16%** | Trump: "I want to keep you where you are" |
 
 ---
 
@@ -53,47 +46,28 @@ aliases: [Hassett]
 
 ---
 
-## Fed Chair candidacy
+## Fed Chair candidacy (resolved)
 
-### "Battle of the Kevins"
+### Passed over for Warsh (Jan 30, 2026)
 
-| Metric | Hassett | [[Kevin Warsh]] |
-|--------|---------|-----------------|
-| Kalshi odds (Jan 16) | **16%** | **60%** |
-| Trump proximity | Daily contact (NEC) | Distant |
-| Independence perception | Lower | Higher |
-| Market credibility | Lower | Higher |
+Trump nominated [[Kevin Warsh]] instead. Hassett remains at NEC per Trump's earlier signal: "I want to keep you where you are" (Jan 16).
 
-**Jan 16 shift:** Trump publicly said he wants Hassett to stay at NEC. Warsh now clear front-runner.
+### "Battle of the Kevins" — timeline
 
-### Market reaction (Jan 16)
+| Date | Event |
+|------|-------|
+| Jan 14 | 40-50% odds — front-runner with daily Trump access |
+| Jan 16 | 16% odds — Trump signals he wants Hassett to stay at NEC |
+| **Jan 30** | **Warsh nominated** — Hassett passed over |
 
-| Metric | Move |
-|--------|------|
-| 10Y yield | 3.96% → 4.02% (+6bp) |
-| Hassett odds | 80%+ peak → 16% |
-
-Curve steepened — market pricing fewer cuts under Warsh.
-
-**Evercore:** Powell investigation "making it harder to confirm Hassett, who is distinctively close to the president. Warsh is trusted by Senate Republicans and would be much easier to confirm."
-
-### Hassett advantages
-
-| Factor | Detail |
-|--------|--------|
-| Trump relationship | Daily conversations, high trust |
-| Current position | Already in administration |
-| Political experience | Multiple campaigns, two Trump terms |
-| Academic credentials | PhD economics, former professor |
-
-### Hassett concerns
+### Why Hassett lost
 
 | Factor | Detail |
 |--------|--------|
 | Independence | Too close to Trump — markets worried |
 | Fed experience | Brief stint as staffer, never on Board |
 | Market credibility | Less than Warsh (no Wall Street background) |
-| Past predictions | Some forecasts didn't pan out |
+| Confirmation risk | Evercore: "harder to confirm... distinctively close to the president" |
 
 ---
 
@@ -115,7 +89,7 @@ Investors concerned that Hassett's proximity to Trump would compromise [[Fed ind
 
 ---
 
-*Created 2026-01-14*
+*Created 2026-01-14 · Updated 2026-01-30*
 
 ---
 
@@ -123,5 +97,5 @@ Investors concerned that Hassett's proximity to Trump would compromise [[Fed ind
 
 - [[Federal Reserve]] — potential chair
 - [[Jerome Powell]] — would replace
-- [[Kevin Warsh]] — rival candidate ("Battle of the Kevins")
+- [[Kevin Warsh]] — won Fed Chair nomination over Hassett
 - [[Trump II]] — current employer, appointing authority

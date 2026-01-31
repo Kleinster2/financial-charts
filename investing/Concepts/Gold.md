@@ -7,12 +7,13 @@ aliases: [XAU, Gold price, Bullion]
 
 ---
 
-## Current status (Jan 28, 2026)
+## Current status (Jan 30, 2026)
 
 | Metric | Value |
 |--------|-------|
-| Spot price | **$5,300+/oz** (record high Jan 28) |
-| YTD return | **+22%** |
+| Spot price | **~$5,150/oz** (profit-taking from record) |
+| Jan 30 | **-4.6%** ("flash crash" on Warsh) |
+| YTD return | **+15%** monthly gain (strongest since 1980s) |
 | 2025 return | +65% (best since 1979) |
 | 2024 return | +27% |
 | Silver | $93.75/oz ATH (Jan 15), now ~$88 |
@@ -21,8 +22,21 @@ aliases: [XAU, Gold price, Bullion]
 1. DOJ investigation of [[Jerome Powell]] (Jan 14) — Fed independence crisis
 2. NY Fed "rate check" (Jan 24) — market interpreted as coordinated dollar weakening
 3. Trump endorsed dollar decline (Jan 28) — "I think it's great"
+4. **[[Kevin Warsh]] nominated** (Jan 30) — safe haven unwind, "flash crash"
 
-Gold surged +3% on Jan 28 alone as [[US dollar]] hit 4-year lows (DXY 96.16).
+Gold surged +3% on Jan 28 as [[US dollar]] hit 4-year lows (DXY 96.16), then gave back gains on Warsh nomination.
+
+### Warsh reaction (Jan 30)
+
+Gold and silver sold off sharply when Trump nominated [[Kevin Warsh]] for Fed Chair. Markets interpreted Warsh as a credible, independent choice — reducing the Fed independence crisis premium that had driven gold to records.
+
+| Signal | Interpretation |
+|--------|----------------|
+| Gold flash crash | Safe haven unwind |
+| Dollar rally | Credibility restored |
+| 30Y yield +3bp | Warsh will shrink balance sheet |
+
+**Key insight:** Gold's Fed independence correlation works both ways. Crisis = rally, resolution = selloff.
 
 ---
 
@@ -71,12 +85,13 @@ Gold surged +3% on Jan 28 alone as [[US dollar]] hit 4-year lows (DXY 96.16).
 
 ## Fed independence correlation
 
-| Scenario | Gold response |
-|----------|---------------|
-| Fed independence threatened | Rally (safe haven) |
-| Political pressure on rates | Rally (credibility concerns) |
-| Dovish Fed chair appointed | Rally (inflation fears) |
-| Fed credibility restored | Consolidation |
+| Scenario | Gold response | Example |
+|----------|---------------|---------|
+| Fed independence threatened | Rally (safe haven) | Jan 14 DOJ probe → gold +$200 |
+| Political pressure on rates | Rally (credibility concerns) | 2025 trend |
+| Dovish Fed chair appointed | Rally (inflation fears) | — |
+| **Credible Fed chair appointed** | **Selloff** | **Jan 30 Warsh → -4.6%** |
+| Fed credibility restored | Consolidation | — |
 
 **Julius Baer (Jan 2026):**
 > "We see increased interference with the Fed as a key bullish wildcard for the precious metals in 2026."

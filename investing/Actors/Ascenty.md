@@ -72,5 +72,6 @@ Digital Realty boosted Brazil presence via Ascenty acquisition — reflects glob
 - [[Digital Realty]] — majority owner
 - [[Brookfield]] — minority owner
 - [[Brazil]] — primary market
+- [[Brazil AI]] — REDATA beneficiary (tax incentives)
 - [[Data Centers]] — sector
 - [[Scala Data Centers]] — competitor
