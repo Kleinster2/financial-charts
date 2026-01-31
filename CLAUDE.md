@@ -532,6 +532,23 @@ python scripts/check_note_compliance.py investing/Actors/NewNote.md
 
 **Exit codes:** 0 = pass (warnings OK), 1 = errors found
 
+### Vault-wide orphan detection
+
+**Find terms mentioned frequently but without notes:**
+
+```bash
+python scripts/check_note_compliance.py --orphans --min-mentions 50
+```
+
+This scans the entire vault for capitalized terms that appear 50+ times but have no corresponding note. Useful for finding fundamental concepts that slipped through (like "Bitcoin" appearing 114 times without a note).
+
+**Output shows:**
+- Term and mention count
+- Sample files where it appears
+- Top 10 candidates for new notes
+
+**Run periodically** to catch gaps in coverage. High-frequency orphans often indicate foundational concepts that everything else references but nobody created a note for.
+
 ---
 
 # Vault Guidelines
