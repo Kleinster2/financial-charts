@@ -16,6 +16,20 @@ aliases: [INTC]
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> INTC does not trade with any semiconductor sector. IDM turnaround story dominates.
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[AI Compute]] (TSM, NVDA, AMD) | 0.28-0.34 | Weak |
+| [[WFE]] (ASML, AMAT, LRCX, KLAC) | 0.30-0.46 | Weak |
+
+INTC trades on foundry turnaround progress, not AI demand or equipment cycles. The correlation data confirms it's an idiosyncratic restructuring bet, not a sector play.
+
+---
+
 ## Distinction from Intel Foundry Services
 
 This note covers Intel as a company. For the foundry business specifically, see [[Intel Foundry Services]].

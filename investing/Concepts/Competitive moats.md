@@ -115,6 +115,7 @@ See [[Network effects]] for detail.
 - [[Network effects]] — platform moats
 - [[Switching costs]] — stickiness
 - [[Pricing power]] — moat expression
+- [[Flywheel]] — what moats protect (self-reinforcing loops)
 
 ### Companies
 - [[Visa]] — payment network moat

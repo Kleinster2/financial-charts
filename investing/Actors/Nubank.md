@@ -21,6 +21,20 @@ Largest digital bank outside [[China]].
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> NU does not trade with US fintech names. LatAm story dominates.
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[US Retail Trading]] (SOFI, HOOD, COIN) | 0.37-0.46 | Weak |
+| [[Payments Networks]] (V, MA) | 0.28-0.31 | Weak |
+
+NU trades on Brazil macro, BRL/USD, and LatAm fintech adoption — not US fintech sentiment. Despite being a "neobank," it has more in common with emerging market banks than SOFI or HOOD.
+
+---
+
 ## Business model
 
 | Segment | Description |

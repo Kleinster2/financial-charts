@@ -33,16 +33,17 @@ Second-largest NAND producer, but structurally disadvantaged:
 
 ---
 
-## Western Digital JV
+## SanDisk JV
 
 | Aspect | Details |
 |--------|---------|
 | Structure | Joint NAND fabs in [[Japan]] (Yokkaichi, Kitakami) |
 | Economics | Shared capex, separate products |
-| History | Dates back to [[SanDisk]] partnership |
-| Complexity | Coordination on investment timing |
+| History | Dates back to 2000; continued post-WDC spinoff |
+| Extension | Jan 2026: Extended from 2029 → **2034** |
+| Payment | [[SanDisk]] paying Kioxia **$1.165B** (2026-2029) |
 
-**The arrangement**: WD and Kioxia share fab costs but compete on products. Awkward but capital-efficient.
+**The arrangement**: [[SanDisk]] and Kioxia share fab costs but compete on products. Capital-efficient scale to compete with Korean giants.
 
 ---
 
@@ -169,7 +170,8 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 ## Related
 
-- [[Western Digital]] — JV partner (shared NAND fabs)
+- [[SanDisk]] — JV partner (shared NAND fabs, extended to 2034)
+- [[Western Digital]] — former JV parent (pre-2025 spinoff)
 - [[Samsung]] — competitor (#1 NAND)
 - [[SK Hynix]] — competitor (NAND + [[HBM]] leader)
 - [[Micron]] — competitor (NAND + DRAM)

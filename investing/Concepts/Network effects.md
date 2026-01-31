@@ -84,6 +84,8 @@
 ### Concepts
 - [[Platform economics]] — business model
 - [[Marketplace dynamics]] — two-sided
+- [[Flywheel]] — self-reinforcing loops (network effects often power flywheels)
+- [[Competitive moats]] — network effects as moat type
 
 ---
 

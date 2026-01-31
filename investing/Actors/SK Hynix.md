@@ -189,11 +189,20 @@ SK Hynix isn't a foundry, but:
 
 ## Related
 
-- [[Foundry Wars]] — context (challenging TSMC packaging)
-- [[Advanced packaging]] — thesis (2.5D packaging push)
+### Sectors
+- [[Korea Memory]] — sub-sector (corr 0.57 with Samsung)
+- [[Memory]] — parent sector
+
+### Competitors
+- [[Samsung]] — Korean rival in memory (#2 HBM)
+- [[Micron]] — US competitor (#3 HBM)
 - [[TSMC]] — dependency/competitor (packaging)
-- [[Samsung]] — competitor (Korean rival in memory)
-- [[Memory shortage 2025-2026]] — thesis ([[HBM]] shortage driver)
+
+### Customers
 - [[NVIDIA]] — customer ([[HBM]] for GPUs)
+
+### Context
+- [[Memory shortage 2025-2026]] — thesis ([[HBM]] shortage driver)
 - [[Project Stargate]] — demand driver (900K wafers/month committed)
+- [[Advanced packaging]] — thesis (2.5D packaging push)
 - [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US [[HBM]] demand

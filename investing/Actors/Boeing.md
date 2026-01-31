@@ -22,6 +22,20 @@ Half of commercial aviation duopoly with [[Airbus]].
 
 ---
 
+## Sector correlation
+
+> [!warning] Sector Orphan
+> BA does not trade with defense primes. Commercial aerospace recovery is the dominant story.
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[Defense]] Primes | 0.12-0.33 | Weak |
+| Aerospace (commercial) | — | Primary (no sector exists) |
+
+BA's correlation with LMT (0.12), NOC (0.15), GD (0.28), RTX (0.33) is near-zero. It trades on 737 MAX production, 787 ramp, and commercial aviation cycle — not defense budgets.
+
+---
+
 ## Business segments
 
 | Segment | Revenue | Margin | Status |

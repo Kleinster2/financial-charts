@@ -5,7 +5,33 @@ aliases: [Defense IT, GovCon IT, Government IT contractors, Defense services]
 
 # Defense IT Services
 
-Government and defense IT services contractors. Distinct from hardware primes — services-based business model with cost-plus contracts, civilian agency exposure, and recurring revenue.
+Government and defense IT services contractors. Distinct from hardware primes — services-based business model with cost-plus contracts, civilian agency exposure, and recurring revenue. Trades as a tight cluster (0.61 correlation).
+
+![[defense-it-services-sector-chart.png]]
+*LDOS and CACI outperforming. All four move together — validated as distinct sub-sector from hardware primes.*
+
+---
+
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| **Avg correlation** | **0.61** | Strong (tight sector) |
+| Range | 0.56 - 0.65 | LDOS-BAH to LDOS-CACI |
+| vs Hardware primes | ~0.35 | Distinct clusters |
+| Period | 2024-01 to present | |
+
+**Pairwise detail:**
+| Pair | Correlation |
+|------|-------------|
+| LDOS - CACI | **0.65** |
+| LDOS - SAIC | 0.63 |
+| SAIC - CACI | 0.62 |
+| BAH - SAIC | 0.61 |
+| BAH - CACI | 0.58 |
+| LDOS - BAH | 0.56 |
+
+IT Services trades distinctly from hardware primes — different business model (labor vs product), different margins, different cycle.
 
 ---
 

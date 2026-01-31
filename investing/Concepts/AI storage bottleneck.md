@@ -106,7 +106,7 @@ At frontier scale, storage becomes THE limiting factor, not compute.
 
 | Category | Examples |
 |----------|----------|
-| Flash memory | [[Samsung]], [[SK Hynix]], [[Micron]] |
+| Flash memory | [[SanDisk]], [[Samsung]], [[SK Hynix]], [[Micron]] |
 | Networking | Arista, [[Cisco]] (InfiniBand, Ethernet) |
 | Data orchestration | Alluxio, Hammerspace |
 

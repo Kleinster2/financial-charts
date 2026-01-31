@@ -21,6 +21,17 @@ PayPal is the incumbent digital payments leader:
 
 ---
 
+## Sector correlation
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[Payments Networks]] (V, MA) | 0.44-0.46 | Borderline |
+| [[US Retail Trading]] (SOFI, HOOD, COIN) | 0.34-0.46 | Weak |
+
+PYPL is loosely attached to payments networks but doesn't trade with them (V-MA at 0.86, PYPL-V at 0.44). Different business model — PYPL competes for transactions while V/MA take a toll on all transactions.
+
+---
+
 ## Scale
 
 | Metric | Value |

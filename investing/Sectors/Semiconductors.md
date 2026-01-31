@@ -39,7 +39,7 @@ This is the capex flowing to [[AI hyperscalers]], neoclouds, and enterprises for
 |---------|-------------|----------|
 | **Design (fabless)** | [[NVIDIA]], [[AMD]], [[Qualcomm]], [[Broadcom]] | IP + design, outsource manufacturing |
 | **Foundry** | [[TSMC]], [[Samsung]], [[Intel]], [[GlobalFoundries]] | Capital-intensive, scale economies |
-| **Memory** | [[SK Hynix]], [[Samsung]], [[Micron]] | Cyclical, HBM premium |
+| **[[Memory]]** | [[SK Hynix]], [[Samsung]], [[Micron]], [[SanDisk]] | Cyclical, HBM premium |
 | **Equipment (WFE)** | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Oligopolies, long lead times |
 | **EDA** | [[Synopsys]], [[Cadence]] | Duopoly, recurring revenue |
 | **OSAT** | [[ASE]], [[Amkor]] | Packaging/test, [[Advanced packaging]] growth |
@@ -134,14 +134,23 @@ Design → Foundry → Packaging → Test → System integration
 
 ## Sub-sectors
 
-| Sub-sector | Key players | Sister concept |
-|------------|-------------|----------------|
-| **Foundry** | [[TSMC]], [[Samsung]], [[Intel]] | [[Leading edge race]], [[Taiwan concentration risk]] |
-| **Memory** | [[SK Hynix]], [[Samsung]], [[Micron]] | [[Memory shortage 2025-2026]] |
-| **Equipment (WFE)** | [[ASML]], [[Applied Materials]], [[Lam Research]] | — |
-| **[[Semiconductor Materials]]** | [[JSR Corporation]], [[Tokyo Ohka Kogyo]], [[Shin-Etsu]] | [[Export controls]] |
-| **EDA** | [[Synopsys]], [[Cadence]] | — |
-| **OSAT** | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
+*Validated by correlation analysis — see [[Note structures]] for methodology.*
+
+| Sub-sector | Correlation | Key players | Notes |
+|------------|-------------|-------------|-------|
+| **[[AI Compute]]** | 0.61 | [[TSMC]], [[NVIDIA]], [[AMD]] | Foundry + customers trade together |
+| **[[Connectivity]]** | 0.58 | [[Broadcom]], [[Qualcomm]], [[Marvell]] | Networking cluster |
+| **[[WFE]]** | 0.70 | [[ASML]], [[Applied Materials]], [[Lam Research]], [[KLA]] | Tightest cluster |
+| **[[Memory]]** | — | See sub-sectors | Splits by geography |
+| ↳ [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | USD exposure |
+| ↳ [[Korea Memory]] | 0.53 | [[SK Hynix]], [[Samsung]] | KRW exposure, HBM dominant |
+| **EDA** | 0.75 | [[Synopsys]], [[Cadence]] | Duopoly, very tight |
+| **[[Semiconductor Materials]]** | — | [[JSR Corporation]], [[Shin-Etsu]] | [[Export controls]] |
+| **OSAT** | — | [[ASE]], [[Amkor]] | [[Advanced packaging]] |
+
+**Special cases:**
+- **[[Intel]]** — Uncorrelated with sector (0.28-0.34). IDM turnaround story, not a sector play.
+- **"Foundry"** — Not a tradeable sector. TSMC has no peers; trades with customers instead.
 
 ---
 

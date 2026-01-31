@@ -5,7 +5,23 @@ aliases: [Defense sector, Defense contractors, Military industrial, Aerospace an
 
 # Defense
 
+> [!info] Industry Overview
+> This is an industry overview, not a tradeable sector. The validated trading clusters are [[Defense IT Services]] (0.61) and Defense Primes ex-BA (0.49). Boeing trades separately (commercial aerospace).
+
 Global defense and aerospace sector. Structural rearmament underway across US, Europe, and Asia-Pacific.
+
+---
+
+## Correlation structure
+
+| Sub-sector | Correlation | Key players | Notes |
+|------------|-------------|-------------|-------|
+| **[[Defense IT Services]]** | **0.61** | LDOS, BAH, SAIC, CACI | Tightest cluster |
+| **Primes (ex-BA)** | 0.49 | LMT, RTX, NOC, GD, LHX | Moderate |
+| **Drones** | 0.48 | AVAV, KTOS | Only 2 stocks |
+| **All primes + BA** | 0.40 | Weak — BA is outlier | |
+
+**Boeing anomaly:** BA correlates only 0.12-0.33 with defense primes. It's primarily a commercial aerospace story (787, MAX recovery), not a defense play. Including BA weakens the "Defense" sector correlation.
 
 ---
 
@@ -232,9 +248,12 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 ## Related
 
 **Sub-sectors:**
+- [[Defense IT Services]] — LDOS, BAH, SAIC, CACI (0.61 correlation)
 - [[Software-defined Defense]] — Anduril, Shield AI, Palantir, Skydio
-- [[Defense IT Services]] — Leidos, Booz Allen, SAIC, CACI, ManTech
 - [[Drone warfare]] — attritable concept, Ukraine validation
+
+**Special cases:**
+- [[Boeing]] — Uncorrelated with defense primes (0.12-0.33). Commercial aerospace, not defense play.
 
 **Theses:**
 - [[Long global rearmament]] — investment thesis

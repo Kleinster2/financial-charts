@@ -5,7 +5,26 @@ aliases: [Financial technology, Fintech sector, Digital payments, Neobanks]
 
 # Fintech
 
+> [!info] Industry Overview
+> This is an industry overview, not a tradeable sector. The validated trading clusters are [[Payments Networks]] (0.86) and US Retail Trading (0.61). NU trades separately (LatAm).
+
 Financial technology — payments, neobanks, lending, crypto, insurtech.
+
+---
+
+## Correlation structure
+
+*Fintech as an industry does NOT trade as a unit. The validated sectors are:*
+
+| Sector | Correlation | Key players | Notes |
+|--------|-------------|-------------|-------|
+| **[[Payments Networks]]** | **0.86** | V, MA | Duopoly, toll booth model |
+| **[[US Retail Trading]]** | **0.61** | SOFI, HOOD, COIN | Trading/crypto exposure |
+
+**Outliers:**
+- **PYPL** (0.44-0.46 with V/MA) — digital payments, loosely attached to networks
+- **NU** (0.34-0.46 with US names) — LatAm story, different market
+- **AFRM** (0.41-0.63) — BNPL, between payments and trading
 
 ---
 

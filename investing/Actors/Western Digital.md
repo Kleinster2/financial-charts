@@ -145,6 +145,7 @@ Thesis: Storage industry facing genuine supply crunch with pricing power.
 
 ## Related
 
+- [[David Goeckeler]] — former CEO (2020-2025), chose [[SanDisk]] in spinoff
 - [[Seagate]] — direct competitor (HDD)
 - [[SanDisk]] — former flash business (spin-off Feb 2025)
 - [[Kioxia]] — former JV partner (now with SanDisk)

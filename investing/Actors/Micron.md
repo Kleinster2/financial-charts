@@ -153,7 +153,7 @@ Validates [[Memory shortage 2025-2026]] — when suppliers exit consumer, shorta
 - Largest private investment in NY state history
 - 4 chip fabrication plants planned
 - 50,000 jobs expected
-- Attendees: [[Howard Lutnick]], Gov. Hochul, Chuck Schumer, CEO Sanjay Mehrotra
+- Attendees: [[Howard Lutnick]], Gov. Hochul, Chuck Schumer, CEO [[Sanjay Mehrotra]]
 
 **$200B US investment commitment:**
 - $150B manufacturing
@@ -223,12 +223,24 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ## Related
 
+### Sectors
+- [[US Memory]] — sub-sector (corr 0.50 with SNDK, WDC)
+- [[Memory]] — parent sector
+
+### People
+- [[Sanjay Mehrotra]] — CEO since 2017 (co-founded [[SanDisk]])
+
+### Competitors
 - [[SK Hynix]] — competitor (#1 [[HBM]], Micron #3)
 - [[Samsung]] — competitor (#2 [[HBM]])
+- [[CXMT]] — [[China]] competitor (catching up)
+- [[SanDisk]] — US memory peer (NAND)
+
+### Customers
 - [[NVIDIA]] — customer ([[HBM]] for GPUs)
+
+### Context
 - [[Memory shortage 2025-2026]] — crisis context (beneficiary)
 - [[Export controls]] — less exposed than Korea
-- [[CXMT]] — [[China]] competitor (catching up)
-- [[Foundry Wars]] — context
 - [[Long memory]] — thesis
 - [[Howard Lutnick]] — industrial policy beneficiary

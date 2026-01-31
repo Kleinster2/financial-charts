@@ -22,6 +22,17 @@ CoreWeave is the largest "neocloud" — GPU-focused cloud competing with hypersc
 
 ---
 
+## Sector correlation
+
+| Sector | Correlation | Fit |
+|--------|-------------|-----|
+| [[Crypto-to-AI]] (CORZ, HUT, IREN) | 0.38-0.53 | Secondary |
+| [[DC REITs]] (EQIX, DLR) | 0.23-0.38 | Weak |
+
+CRWV sits between sectors — more correlated with crypto-to-AI pivots (GPU hosting model) than traditional DC REITs (lease model). Not a clean fit for either, but leans toward Crypto-to-AI cluster.
+
+---
+
 ## Revenue outlook (Jan 2026)
 
 **Lowered forecast:**

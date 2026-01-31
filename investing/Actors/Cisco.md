@@ -140,6 +140,7 @@ Legacy strength, AI weakness.
 
 ## Related
 
+- [[David Goeckeler]] — former EVP (19 yrs), now CEO of [[SanDisk]]
 - [[Arista Networks]] — competitor (AI data center networking)
 - [[NVIDIA]] — competitor (InfiniBand vs Ethernet)
 - [[Broadcom]] — competitor (networking silicon)
