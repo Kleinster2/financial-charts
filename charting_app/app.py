@@ -141,6 +141,118 @@ def get_table_columns(table_name, conn=None, force_refresh=False):
         if close_conn:
             conn.close()
 
+
+# --- Short Interest Synthetic Ticker Support ---
+# Patterns: AAPL_SI_PCT -> short_percent_float, AAPL_SI_DAYS -> days_to_cover
+SI_PATTERNS = {
+    '_SI_PCT': 'short_percent_float',
+    '_SI_DAYS': 'days_to_cover',
+}
+
+
+def parse_si_ticker(ticker):
+    """Parse a synthetic SI ticker into (base_ticker, column) or (None, None) if not SI."""
+    for suffix, column in SI_PATTERNS.items():
+        if ticker.endswith(suffix):
+            return ticker[:-len(suffix)], column
+    return None, None
+
+
+def get_si_tickers_with_data():
+    """Get list of base tickers that have short interest data."""
+    conn = get_db_connection()
+    try:
+        cursor = conn.execute("SELECT DISTINCT ticker FROM short_interest")
+        return [row[0] for row in cursor.fetchall()]
+    except sqlite3.OperationalError:
+        return []
+    finally:
+        conn.close()
+
+
+def get_si_timeseries(base_ticker, column, start_date=None, end_date=None):
+    """
+    Get short interest time series with forward-fill to trading dates.
+
+    SI data is published bi-monthly on settlement dates. This function:
+    1. Fetches SI settlement data for the ticker
+    2. Gets all trading dates from stock_prices_daily
+    3. Forward-fills SI values to each trading date
+
+    Returns: list of {time: unix_seconds, value: float}
+    """
+    conn = get_db_connection()
+    try:
+        # Resolve ticker alias
+        db_ticker = resolve_ticker_alias(base_ticker)
+
+        # Build date filters
+        date_filter = ""
+        if start_date:
+            date_filter += f" AND settlement_date >= '{start_date}'"
+        if end_date:
+            date_filter += f" AND settlement_date <= '{end_date}'"
+
+        # Get SI settlement data
+        si_query = f"""
+            SELECT settlement_date, {column}
+            FROM short_interest
+            WHERE ticker = ? {date_filter}
+            ORDER BY settlement_date ASC
+        """
+        cursor = conn.execute(si_query, (db_ticker,))
+        si_data = cursor.fetchall()
+
+        if not si_data:
+            return []
+
+        # Get all trading dates from stock_prices_daily
+        # Use Date column presence to get trading days
+        dates_query = """
+            SELECT DISTINCT date(Date) as d
+            FROM stock_prices_daily
+            WHERE Date IS NOT NULL
+        """
+        if start_date:
+            dates_query += f" AND date(Date) >= '{start_date}'"
+        if end_date:
+            dates_query += f" AND date(Date) <= '{end_date}'"
+        dates_query += " ORDER BY d ASC"
+
+        cursor = conn.execute(dates_query)
+        trading_dates = [row[0] for row in cursor.fetchall()]
+
+        if not trading_dates:
+            return []
+
+        # Forward-fill SI values to each trading date
+        result = []
+        si_idx = 0
+        current_value = None
+
+        for date_str in trading_dates:
+            # Advance SI index while settlement_date <= current date
+            while si_idx < len(si_data) and si_data[si_idx][0] <= date_str:
+                current_value = si_data[si_idx][1]
+                si_idx += 1
+
+            if current_value is not None:
+                # Convert date to unix timestamp
+                try:
+                    dt = pd.to_datetime(date_str)
+                    unix_time = int(dt.timestamp())
+                    result.append({'time': unix_time, 'value': float(current_value)})
+                except (ValueError, TypeError):
+                    continue
+
+        return result
+    except sqlite3.OperationalError as e:
+        app.logger.warning(f"SI query failed for {base_ticker}: {e}")
+        return []
+    finally:
+        conn.close()
+
+
 # Diagnostic: run the same transform as /api/data for a single ticker
 @app.route('/api/diag_reduce')
 def diag_reduce():
@@ -359,6 +471,15 @@ def get_tickers():
                     tickers.append(f"PORTFOLIO_{row[0]}")
             except sqlite3.OperationalError:
                 pass
+            # Add SI synthetic tickers
+            try:
+                cursor = conn.execute("SELECT DISTINCT ticker FROM short_interest")
+                for row in cursor.fetchall():
+                    base = row[0]
+                    for suffix in SI_PATTERNS.keys():
+                        tickers.append(f"{base}{suffix}")
+            except sqlite3.OperationalError:
+                pass
             conn.close()
             tickers = sorted(set(tickers))
             app.logger.info(f"[DuckDB] Found {len(tickers)} tickers")
@@ -407,6 +528,16 @@ def get_tickers():
                 tickers_set.add(f"PORTFOLIO_{portfolio_id}")
         except sqlite3.OperationalError:
             app.logger.info("Table 'portfolios' not found - portfolio feature not available.")
+
+        # Add SI synthetic tickers
+        try:
+            cursor = conn.execute("SELECT DISTINCT ticker FROM short_interest")
+            for row in cursor.fetchall():
+                base = row[0]
+                for suffix in SI_PATTERNS.keys():
+                    tickers_set.add(f"{base}{suffix}")
+        except sqlite3.OperationalError:
+            app.logger.info("Table 'short_interest' not found - SI synthetic tickers not available.")
 
         conn.close()
         tickers = sorted(tickers_set)
@@ -573,18 +704,49 @@ def get_data():
 
     tickers = [t.strip().upper() for t in tickers_str.split(',') if t.strip()]
     interval = request.args.get('interval', 'daily').lower()
+    start_date = request.args.get('start')
+    end_date = request.args.get('end')
+
+    # --- Handle SI synthetic tickers ---
+    chart_data = {}
+    regular_tickers = []
+
+    for ticker in tickers:
+        base_ticker, si_column = parse_si_ticker(ticker)
+        if base_ticker:
+            # This is an SI synthetic ticker
+            si_data = get_si_timeseries(base_ticker, si_column, start_date, end_date)
+            # Apply interval resampling if needed
+            if si_data and interval in ('weekly', 'monthly'):
+                df = pd.DataFrame(si_data)
+                df['Date'] = pd.to_datetime(df['time'], unit='s')
+                df = df.set_index('Date')
+                if interval == 'weekly':
+                    df = df.resample('W-FRI')['value'].last().dropna().reset_index()
+                else:
+                    df = df.resample('M')['value'].last().dropna().reset_index()
+                df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
+                si_data = df[['time', 'value']].to_dict(orient='records')
+            chart_data[ticker] = si_data
+        else:
+            regular_tickers.append(ticker)
+
+    # If no regular tickers, return SI data only
+    if not regular_tickers:
+        app.logger.info(f"/api/data: returned {len(chart_data)} SI tickers")
+        return jsonify(chart_data)
 
     # Use DuckDB if enabled
     if USE_DUCKDB and DUCKDB_AVAILABLE:
-        chart_data = get_price_data(tickers)
+        price_data = get_price_data(regular_tickers)
 
         # Apply interval resampling if needed
         if interval in ('weekly', 'monthly'):
-            for ticker in chart_data:
-                if not chart_data[ticker]:
+            for ticker in price_data:
+                if not price_data[ticker]:
                     continue
                 # Convert to DataFrame for resampling
-                df = pd.DataFrame(chart_data[ticker])
+                df = pd.DataFrame(price_data[ticker])
                 df['Date'] = pd.to_datetime(df['time'], unit='s')
                 df = df.set_index('Date')
 
@@ -594,8 +756,10 @@ def get_data():
                     df = df.resample('M')['value'].last().dropna().reset_index()
 
                 df['time'] = (df['Date'].astype('int64') // 10**9).astype(int)
-                chart_data[ticker] = df[['time', 'value']].to_dict(orient='records')
+                price_data[ticker] = df[['time', 'value']].to_dict(orient='records')
 
+        # Merge SI data with price data
+        chart_data.update(price_data)
         app.logger.info(f"[DuckDB] /api/data: returned {len(chart_data)} tickers")
         return jsonify(chart_data)
 
@@ -628,8 +792,8 @@ def get_data():
     # Assign each requested ticker to *exactly one* source table to prevent
     # duplicate column names that break pd.concat (InvalidIndexError).
     # Build chart_data per ticker to avoid column duplication issues entirely
-    chart_data = {}
-    for ticker in tickers:
+    # (SI synthetic tickers already added to chart_data above)
+    for ticker in regular_tickers:
         # Check futures table first for =F tickers (has more recent data)
         if ticker in futures_cols and ticker.endswith('=F'):
             table = 'futures_prices_daily'
