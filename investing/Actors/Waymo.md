@@ -3,101 +3,7 @@ aliases: []
 ---
 #actor #ai #autonomous #usa #subsidiary
 
-**Waymo** — Alphabet's robotaxi. Leading US autonomous deployment. 100K+ weekly paid rides.
-
----
-
-## Why Waymo matters
-
-Most advanced commercial AV:
-
-| Metric | Value |
-|--------|-------|
-| Parent | [[Google]] / Alphabet |
-| Status | Commercial robotaxi |
-| Cities | SF, Phoenix, LA, Austin |
-| Weekly rides | 100K+ (2024) |
-| Founded | 2009 (Google) |
-
----
-
-## Commercial operations
-
-**Waymo One robotaxi:**
-
-| City | Status |
-|------|--------|
-| Phoenix | Fully driverless |
-| San Francisco | Fully driverless |
-| Los Angeles | Launched 2024 |
-| Austin | Launched 2024 |
-
-Actually operating at scale.
-
----
-
-## Technology stack
-
-| Component | Details |
-|-----------|---------|
-| [[Sensors]] | Lidar + cameras + radar |
-| Compute | Custom TPU-based |
-| Vehicle | Jaguar I-PACE, [[Zeekr]] |
-| Miles driven | 20M+ autonomous |
-
----
-
-## Scale metrics
-
-**2024 milestones:**
-- 100K+ paid rides/week
-- 700+ vehicles in SF
-- Expanding to new cities
-- 24/7 operations
-
----
-
-## Alphabet investment
-
-**Cumulative spend:**
-- $5B+ invested over 15 years
-- Still losing money
-- Path to profitability unclear
-- Alphabet's long bet
-
----
-
-## Competitive position
-
-| Competitor | Status | Waymo vs |
-|------------|--------|----------|
-| [[Cruise]] | Paused (2023 incident) | Operating |
-| [[Tesla]] FSD | Supervised only | Fully driverless |
-| [[Zoox]] | Limited deployment | More cities |
-| [[Aurora]] | Trucks focus | Robotaxi focus |
-
-Waymo = clear leader in robotaxi.
-
----
-
-## Challenges
-
-| Challenge | Impact |
-|-----------|--------|
-| Unit economics | Not profitable |
-| Scaling costs | Each city expensive |
-| Regulation | City-by-city approval |
-| Competition | Tesla, [[China]] |
-
----
-
-## Investment implications
-
-**Part of Alphabet (GOOGL):**
-- Small % of Alphabet value
-- "Other Bets" segment
-- Hard to value separately
-- Watch for potential spin-off
+**Waymo** — Alphabet's robotaxi. Leading US autonomous deployment. 450K weekly paid rides, targeting 1M/week by end of 2026.
 
 ---
 
@@ -105,12 +11,152 @@ Waymo = clear leader in robotaxi.
 
 | Metric | Value |
 |--------|-------|
-| Parent | Alphabet (GOOGL) |
+| Parent | [[Google]] / Alphabet |
 | Status | Commercial robotaxi |
-| Weekly rides | 100K+ |
-| Cities | SF, Phoenix, LA, Austin |
+| Weekly rides | 450K (Dec 2025) |
+| Total rides | 14M in 2025, 20M+ lifetime |
+| Cities | 5 operational, 20+ planned 2026 |
+| Fleet | ~2,500 vehicles |
+| Valuation | $110B (Jan 2026 round) |
+| Revenue run rate | $350M+ |
+| Founded | 2009 (as Google Self-Driving Car Project) |
 
-*Updated 2026-01-01*
+*Updated 2026-02-01*
+
+---
+
+## Leadership
+
+| Name | Role | Background |
+|------|------|------------|
+| [[Dmitri Dolgov]] | Co-CEO | Joined 2009 as engineer, former CTO; previously Toyota, Stanford autonomous research |
+| [[Tekedra Mawakana]] | Co-CEO | Joined 2017 as Global Head of Policy, then COO; previously eBay, Steptoe & Johnson |
+| Steve Fieler | CFO | Appointed Dec 2025; formerly [[Google]] executive |
+| Dan Chu | Chief Product Officer | Leads product, UX, analytics |
+| Mauricio Peña | Chief Safety Officer | |
+| Amar Mehta | Chief Legal Officer | |
+
+Co-CEO structure since April 2021 when [[John Krafcik]] stepped down.
+
+---
+
+## Commercial operations
+
+**Waymo One robotaxi — operational cities (2025):**
+
+| City | Status | Miles driven |
+|------|--------|--------------|
+| Phoenix | Fully driverless | 56.5M |
+| San Francisco | Fully driverless | 38.8M |
+| Los Angeles | Fully driverless | |
+| Austin | Fully driverless (+ [[Uber]] partnership) | |
+| Atlanta | Launched late 2025 (+ [[Uber]] partnership) | |
+
+127M total autonomous miles through Sep 2025. Primary hailing via Waymo app; Uber partnership for secondary markets.
+
+**2026 expansion pipeline:**
+
+| Region | Cities |
+|--------|--------|
+| Texas | Dallas, Houston, San Antonio |
+| Florida | Miami, Orlando |
+| West | Las Vegas, San Diego, Denver |
+| Midwest | Detroit, Nashville |
+| East | Washington DC, New York |
+| Testing | Minneapolis, New Orleans, Tampa, Philadelphia, Pittsburgh, Baltimore, St. Louis |
+| International | London (first intl market), Tokyo (testing) |
+
+Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Arizona to build 2,000+ additional vehicles.
+
+---
+
+## Technology stack
+
+| Component | Details |
+|-----------|---------|
+| Sensors | Lidar + cameras + radar (proprietary) |
+| Compute | Custom TPU-based |
+| Vehicle | Jaguar I-PACE (~2,500 fleet) |
+| Next-gen vehicles | [[Hyundai]] Ioniq 5, [[Zeekr]] van (cost reduction) |
+
+---
+
+## Scale metrics
+
+**2025 growth:**
+
+| Metric | Feb 2025 | Dec 2025 | Growth |
+|--------|----------|----------|--------|
+| Weekly rides | 200K | 450K | +125% |
+| Annual rides | — | 14M | 3x vs 2024 |
+| Fleet size | — | ~2,500 | |
+
+**2026 targets:**
+- 1M rides/week by year-end (per co-CEO Mawakana at TechCrunch Disrupt)
+- 20+ new city launches
+- London international debut
+
+---
+
+## Funding
+
+| Round | Date | Amount | Valuation | Investors |
+|-------|------|--------|-----------|-----------|
+| Series A | 2020 | $2.5B | | Alphabet, [[Silver Lake]], others |
+| Series B | 2021 | $3.2B | | Alphabet, [[Andreessen Horowitz]], others |
+| Series C | Oct 2024 | $5.6B | $45B | Alphabet (lead), a16z, [[Fidelity]], [[Tiger Global]], [[T. Rowe Price]], Silver Lake |
+| Series D | Jan 2026 | $16B | $110B | Alphabet (>75%), [[Sequoia]], [[Dragoneer]], [[DST Global]], [[Mubadala]], a16z |
+
+Series D initially reported Dec 2025 at ~$100B valuation; closed Jan 2026 at $110B after 3x oversubscription (FT).
+
+**Total raised:** $27B+.
+
+**Revenue:** $350M+ annual recurring revenue. Still unprofitable but scaling rapidly.
+
+---
+
+## Competitive position
+
+| Competitor | Status | Waymo advantage |
+|------------|--------|-----------------|
+| [[Cruise]] | Resumed limited ops (2024) | Larger fleet, more cities, no fatal incidents |
+| [[Tesla]] FSD | Austin robotaxi (w/ safety observer); Level 2 only | Level 4 fully driverless; no supervision required |
+| [[Zoox]] ([[Amazon]]) | Limited SF deployment | 5 cities operational, 20+ pipeline |
+| [[Aurora]] | Trucking focus | Consumer robotaxi focus |
+| [[Baidu]] Apollo | China only | US/international markets |
+
+Waymo = clear leader in commercial robotaxi globally.
+
+**Tesla comparison:** Tesla's camera-only approach (no Lidar) faces safety questions. Lost $243M Florida lawsuit over fatal Autopilot accident. Austin robotaxi still requires safety observer or trailing vehicle. Cybercab (dedicated robotaxi) announced but not yet in production.
+
+---
+
+## Challenges
+
+| Challenge | Details |
+|-----------|---------|
+| Unit economics | $350M revenue vs $5B+ annual burn (est.) |
+| Scaling costs | Lidar hardware, HD mapping each city |
+| Regulation | City-by-city approval; California more permissive than some states |
+| Weather | Denver expansion tests cold weather capability |
+| Competition | Tesla aims for unsupervised FSD; China players advancing |
+
+---
+
+## Investment implications
+
+**Part of Alphabet (GOOGL):**
+
+At $110B valuation vs Alphabet's ~$2T market cap, Waymo represents ~5.5% of Alphabet's value. Alphabet contributed >75% of the $16B Series D round.
+
+| Factor | Implication |
+|--------|-------------|
+| "Other Bets" segment | Revenue not broken out separately |
+| External investors | a16z, Tiger Global, T. Rowe Price have stakes |
+| Spin-off potential | Possible if hits profitability |
+| Tesla risk | FSD success could commoditize robotaxi |
+
+Waymo is the most valuable asset in Other Bets, but still a small slice of Alphabet.
 
 ---
 
@@ -118,7 +164,26 @@ Waymo = clear leader in robotaxi.
 
 - [[Google]] — parent (Alphabet subsidiary)
 - [[Tesla]] — competitor (FSD approach)
-- [[Cruise]] — competitor (paused after incident)
+- [[Cruise]] — competitor (GM-backed, resumed limited ops)
 - [[Aurora]] — competitor (trucking focus)
+- [[Zoox]] — competitor ([[Amazon]]-owned)
+- [[Baidu]] — competitor (Apollo, China)
 - [[Mobileye]] — competitor (chips + ADAS)
+- [[Magna]] — manufacturing partner (Arizona plant)
+- [[Autonomous vehicles]] — concept
+- [[Robotics]] — sector
+
+**Investors:**
+- [[Andreessen Horowitz]] — Series B, C, D
+- [[Sequoia]] — Series D (new)
+- [[Dragoneer]] — Series D (new)
+- [[DST Global]] — Series D (new)
+- [[Mubadala]] — Series D (new, hundreds of millions)
+- [[Tiger Global]] — Series C
+- [[T. Rowe Price]] — Series C
+- [[Fidelity]] — Series C
+- [[Silver Lake]] — Series A, C
+
+**Partners:**
+- [[Uber]] — ride-hailing partnership (Austin, Atlanta)
 

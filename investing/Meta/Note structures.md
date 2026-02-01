@@ -44,6 +44,29 @@ For any ownership change, acquisition, or restructuring, always capture:
 
 **Example:** TikTok US deal — "American investors hold 80% equity" is incomplete without noting ByteDance retains algorithm IP and ~50% of profits via licensing.
 
+### Preserving timelines
+
+When facts evolve over time, preserve the progression rather than overwriting:
+
+| Wrong | Right |
+|-------|-------|
+| Overwrite "$100B valuation" → "$110B valuation" | "Initially reported at ~$100B (Dec 2025); closed at $110B (Jan 2026)" |
+| Replace "Series D pending" → "Series D closed" | Show both the initial reporting and final close |
+
+Financial data has a lifecycle: initial reports → negotiations → final close. Each stage is information.
+
+**When to preserve vs. replace:**
+
+| Data type | Preserve history? |
+|-----------|-------------------|
+| Funding rounds (amount, valuation) | Yes — show initial reports and final terms |
+| Deal negotiations | Yes — terms often change |
+| Earnings/revenue | No — just update to latest |
+| Headcount, MAU, fleet size | No — just update to latest |
+| Ownership stakes | Yes if contested; no if routine |
+
+**The test:** Would knowing the previous value provide insight? If a valuation jumped 10% during negotiations, that's signal. If revenue grew 5% quarter-over-quarter, that's just normal updating.
+
 ---
 
 ## Markdown formatting

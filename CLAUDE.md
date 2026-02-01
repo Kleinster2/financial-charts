@@ -675,6 +675,17 @@ Don't just add a wikilink and move on. If you're touching a note, refresh it.
 
 **Quality check:** Whenever you read any actor note (whether asked to or encountered during other work), check it against [[Note structures]] depth standards. Flag gaps proactively — especially private companies: full cap table, historical financials, derivative arrangements.
 
+### Preserving timelines
+
+When facts evolve over time (funding rounds, valuations, deal terms), preserve the progression rather than overwriting:
+
+| Wrong | Right |
+|-------|-------|
+| Overwrite "$100B valuation" → "$110B valuation" | "Initially reported at ~$100B (Dec 2025); closed at $110B (Jan 2026)" |
+| Replace "Series D pending" → "Series D closed" | Show both the initial reporting and final close |
+
+Financial data especially has a lifecycle: initial reports → negotiations → final close. Each stage is information. Don't flatten history into just the current state.
+
 ## Processing new information
 
 **Every piece of news needs an atomic home — daily notes are never the only location.**
