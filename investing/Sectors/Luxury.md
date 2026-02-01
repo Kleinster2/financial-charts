@@ -149,6 +149,7 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 - [[Puig]] — luxury fragrance
 - [[Estée Lauder]] · [[L'Oréal]] — luxury beauty players
 - [[Department store decline]] — distribution channel under pressure
+- [[Modern luxury]] — generational shift toward quiet, everyday luxury
 - [[Designer jewelry]] — independent fine jewelry brands
 - [[Alexis Bittar]] · [[Spinelli Kilcollin]] — designer jewelry
 - [[Celine]] · [[Loewe]] — LVMH fashion houses
