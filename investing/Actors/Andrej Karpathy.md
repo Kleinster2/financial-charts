@@ -173,6 +173,9 @@ Active investor since leaving OpenAI (2024):
 - [[Lamini]] — LLM fine-tuning ([[Andrew Ng]] connection)
 - [[dev-agents|/dev/agents]] — AI agent infrastructure
 
+### Commentary
+- [[Moltbook]] — called it "most incredible sci-fi takeoff-adjacent thing I have seen recently" (Jan 2026)
+
 ### Beneficiaries of vibe coding
 - [[Supabase]] — infrastructure for vibe-coded apps
 - [[Lovable]] — $6.6B vibe coding leader

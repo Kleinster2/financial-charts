@@ -37,12 +37,31 @@ Legacy IT services company divesting non-core assets:
 
 | Component | Details |
 |-----------|---------|
-| HPE Enterprise Services | Spin-off from [[HPE]] |
-| CSC | Computer Sciences Corporation |
+| [[HPE Enterprise Services]] | Spin-off from [[HPE]] (originally [[EDS]], acquired 2008) |
+| [[Computer Sciences Corporation\|CSC]] | Founded 1959, pioneer IT services/federal contractor |
 | Transaction value | $13.5B (to HPE after-tax) |
 | Ownership | 50.1% ex-HPE shareholders, 49.9% ex-CSC |
+| Combined scale | $26B revenue, 170,000 employees, 6,000 clients |
 
 Name: "DXC is not an acronym" — reference to digital transformation mission.
+
+---
+
+## Predecessor lineage
+
+**Two legacy IT giants combined:**
+
+### [[Computer Sciences Corporation|CSC]] (1959-2017)
+- Founded by Roy Nutt (Fortran co-creator) and Fletcher Jones with $100
+- By 1963: Largest US software company, first on AMEX
+- Major federal contractor: NASA, DoD, FBI, CIA, DHS
+- 2015: Spun off federal business as [[CSRA]]
+
+### [[HPE Enterprise Services]] (2008-2017)
+- **[[EDS]] heritage**: Ross Perot founded 1962, pioneered outsourcing
+- HP acquired EDS for $13.9B (Aug 2008)
+- HP wrote off $8B in 2012 — value destruction
+- Rebranded HP Enterprise Services (2009), EDS name retired
 
 ---
 
@@ -66,7 +85,13 @@ Name: "DXC is not an acronym" — reference to digital transformation mission.
 
 ## Related
 
-- [[HPE]] — merger parent (Enterprise Services)
+- [[HPE Enterprise Services]] — merger component (50.1%)
+- [[Computer Sciences Corporation]] — merger component (49.9%)
+- [[EDS]] — HPE ES predecessor (Ross Perot, 1962)
+- [[HPE]] — HPE ES parent
+- [[CSRA]] — CSC federal spin-off (2015)
 - [[Elea Data Centers]] — acquired Brazil DC (2024)
+- [[Perspecta]] — DXC federal spin-off (2018)
 - [[IT services]] — sector
 - [[Accenture]] — competitor
+- [[IBM]] — competitor

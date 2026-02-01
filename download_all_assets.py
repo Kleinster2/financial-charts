@@ -45,7 +45,16 @@ ADR_TICKERS = [
     "VNET",     # VNET Group (China data centers)
     # Chinese EV/Auto ADRs & HK Stocks
     "GELYF",    # Geely Automobile Holdings (OTC, owns Volvo, Polestar, Lotus)
-    "0175.HK"   # Geely Automobile Holdings (Hong Kong Stock Exchange)
+    "0175.HK",  # Geely Automobile Holdings (Hong Kong Stock Exchange)
+    # Chinese Oil & Energy ADRs & HK Stocks
+    "PTR",      # PetroChina (ADR)
+    "SNP",      # Sinopec (ADR)
+    "CEO",      # CNOOC (ADR)
+    "COIHY",    # China Oilfield Services (OTC)
+    "0857.HK",  # PetroChina (HK)
+    "0386.HK",  # Sinopec (HK)
+    "2883.HK",  # China Oilfield Services (HK)
+    "0883.HK",  # CNOOC (HK)
 ]
 
 ETF_TICKERS = [

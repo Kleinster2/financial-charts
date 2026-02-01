@@ -1,9 +1,61 @@
 ---
-aliases: [DELL]
+aliases: [DELL, Dell Technologies]
 ---
-#actor #pc #usa #memory-victim
+#actor #pc #enterprise #publiccompany
 
-**Dell** — PC/server OEM. "Never witnessed costs escalating at current pace." Memory squeeze hitting margins.
+**Dell Technologies** (DELL) — PC/server/storage giant. [[Michael Dell]] founded 1984, took private 2013 ($24B), acquired EMC 2016 ($67B), re-IPO'd 2018, spun VMware 2021. $96B revenue.
+
+---
+
+## Leadership
+
+| Name | Role | Background |
+|------|------|------------|
+| **Michael Dell** | Chairman & CEO | Founded Dell 1984 at age 19 in UT Austin dorm. Took company private 2013, led EMC acquisition |
+| **Jeff Clarke** | Vice Chairman & COO | 33 years at Dell (since 1987). Started as quality engineer. Now oversees daily ops + CSG (PC unit) |
+| **Yvonne McGill** | CFO | — |
+
+---
+
+## Corporate history
+
+| Year | Event |
+|------|-------|
+| 1984 | Michael Dell founds company in UT Austin dorm room |
+| 1988 | IPO |
+| 2009 | Acquires [[Perot Systems]] for $3.9B |
+| 2013 | Michael Dell + Silver Lake take company private for $24.4B |
+| 2016 | Acquires [[EMC]] for $67B (largest tech acquisition ever) |
+| 2018 | Re-IPO via VMware tracking stock conversion |
+| 2021 | Spins off [[VMware]] (81% stake); receives $9.3B to pay down debt |
+| 2023 | [[Broadcom]] acquires VMware for $69B |
+
+---
+
+## EMC acquisition (2016)
+
+**Largest tech acquisition in history** at the time:
+
+| Metric | Value |
+|--------|-------|
+| Price | $67B |
+| Closed | Sep 7, 2016 |
+| Debt raised | ~$70B |
+| Rationale | Transform from PC company to enterprise IT leader |
+| Assets gained | EMC storage, [[VMware]] (81%), RSA Security, Pivotal |
+
+Created $74B enterprise IT giant spanning storage, virtualization, servers, PCs.
+
+---
+
+## VMware spin-off (2021)
+
+| Metric | Value |
+|--------|-------|
+| Dell's stake | 81% |
+| Special dividend | $12B total ($9.3B to Dell) |
+| Use of proceeds | Debt paydown → investment grade rating |
+| VMware fate | [[Broadcom]] acquired for $69B (Nov 2023) |
 
 ---
 
@@ -68,6 +120,9 @@ Dell is a price taker on memory — no leverage.
 
 *Source: Company filings. Stock price = fiscal year-end close (Jan). Dell re-IPO'd 2018; pre-2019 EPS not comparable. FY2023-24 dip from PC downturn.*
 
+![[dell-fundamentals.png]]
+*Revenue grew from ~$14B/Q (2015) to ~$25B/Q (2025). EMC acquisition (2016) drove the step-up. Net income volatile: loss in 2016-17 (EMC integration), profit spikes 2019-21 ([[VMware]] gains), normalizing ~$1-2B/Q now.*
+
 ---
 
 ## AI server opportunity
@@ -125,23 +180,28 @@ Smaller vendors (see [[Corsair]]) hit harder.
 
 | Metric | Value |
 |--------|-------|
-| Ticker | DELL |
-| Market cap | ~$70B+ |
+| Founded | 1984 |
+| Ticker | DELL (NYSE) |
+| Revenue | $95.6B (FY2025) |
+| Employees | ~120,000 |
 | HQ | Round Rock, TX |
-| Business | PCs, servers, storage |
-| Memory exposure | High |
+| CEO | Michael Dell |
+| Fortune 500 | #44 (2025) |
 
-*Updated 2026-01-01*
+*Updated 2026-01-31*
 
 ---
 
 ## Related
 
-- [[Memory shortage victims]] — thesis context (example victim)
+- [[EMC]] — acquired 2016 ($67B)
+- [[VMware]] — spun off 2021 (now [[Broadcom]])
+- [[Perot Systems]] — acquired 2009 ($3.9B)
+- [[HPE]] — competitor (servers, storage)
+- [[Lenovo]] — competitor (PCs)
+- [[Memory shortage victims]] — thesis context
 - [[Memory shortage 2025-2026]] — crisis context
-- [[Lenovo]] — competitor (same memory squeeze)
-- [[NVIDIA]] — partner (AI server supplier)
-- [[AI hyperscalers]] — customer (AI servers)
+- [[NVIDIA]] — partner (AI servers)
 - [[Micron]] — supplier (memory)
 - [[SK Hynix]] — supplier (memory)
-- [[Corsair]] — comparison (smaller vendors hit harder)
+- [[Silver Lake]] — partner (2013 take-private)

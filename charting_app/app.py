@@ -2973,6 +2973,8 @@ def get_chart_lw():
         'us_mau': ('US MAU', 'M'),
         'revenue': ('Revenue', 'B'),
         'dau': ('DAU', 'M'),
+        'memory_gb': ('Memory', 'GB'),
+        'bandwidth_tb': ('Bandwidth', 'TB/s'),
     }
 
     # Handle product metrics (e.g., TikTok MAU/DAU/Revenue)

@@ -94,4 +94,4 @@ Sovereign, on-premise deployment is key selling point.
 - [[Telegram]] — competitor
 - [[Slack]] — enterprise competitor
 - [[Open source commoditization]] — Matrix as open alternative
-- [[Clawdbot]] — integrates with Matrix
+- [[OpenClaw]] — integrates with Matrix

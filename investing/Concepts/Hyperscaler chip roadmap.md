@@ -18,6 +18,24 @@ Custom AI chip programs across hyperscalers. Updated Dec 2025.
 
 MediaTek appearing = Broadcom disintermediation progressing.
 
+### TPU vs NVIDIA performance (BF16 Dense TFLOPs)
+
+![[tpu-vs-nvidia-tflops.png]]
+*Source: [[SemiAnalysis]] — [TPUv7: Google Takes a Swing at the King](https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the)*
+
+| Chip | Release | TFLOPs |
+|------|---------|--------|
+| **NVIDIA A100** | Jun 2020 | ~312 |
+| TPU v4 | Jun 2022 | ~275 |
+| **NVIDIA H100** | Jun 2022 | ~1,000 |
+| TPU v5e | Jun 2023 | ~197 |
+| TPU v5p | Dec 2023 | ~459 |
+| TPU v6 | Jun 2024 | ~918 |
+| **NVIDIA GB200** | Jun 2025 | ~2,500 |
+| TPU v7 | Dec 2025 | ~2,340 |
+
+**Key insight:** NVIDIA maintained 2-3x performance lead throughout 2020-2024. TPU v7 finally closes the gap to 94% of GB200. However, Vera Rubin (H2 2026) will extend NVIDIA's lead again.
+
 ---
 
 ## Meta

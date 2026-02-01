@@ -89,5 +89,5 @@ Plans for 2025-2026 IPO. Profitable with clear growth trajectory. Regulatory ris
 - [[WhatsApp]] — competitor
 - [[Signal]] — competitor (privacy-focused)
 - [[Discord]] — competitor (communities)
-- [[Clawdbot]] — integrates with Telegram
+- [[OpenClaw]] — integrates with Telegram
 - [[Crypto]] — TON blockchain integration

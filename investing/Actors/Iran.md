@@ -4,25 +4,25 @@
 
 ---
 
-## Iranian Rial (IRR) — January 2026
+## [[Iranian Rial]] (IRR) — January 2026
 
-| Rate type | Level | Date |
-|-----------|-------|------|
-| **Market/unofficial** | ~1,455,000 IRR/USD | Jan 11, 2026 |
-| **Record low** | 1,470,000 IRR/USD | Jan 6, 2026 |
-| Official | ~1,000,000 IRR/USD | Jan 8, 2026 |
+| Rate type             | Level              | Date         |
+| --------------------- | ------------------ | ------------ |
+| **Market/unofficial** | 1,593,500 IRR/USD  | Jan 31, 2026 |
+| Previous record       | 1,470,000 IRR/USD  | Jan 6, 2026  |
+| Official              | ~1,000,000 IRR/USD | Jan 8, 2026  |
 
-**2025 collapse:**
+**2025-2026 collapse:**
 - Started 2025: 817,500 IRR/USD
-- End 2025: ~1,450,000 IRR/USD
-- **78% depreciation in one year**
+- End 2025: ~1,450,000 IRR/USD (78% depreciation)
+- **Jan 2026: another 10% collapse** — from 1,455,000 (Jan 11) to 1,593,500 (Jan 31)
 
 **Consequences:**
 - Central Bank governor Mohammad Reza Farzin resigned Dec 29, 2025
 - [[Inflation]] running 36-42% annualized
 - Currency collapse contributed to 2025-2026 Iranian protests
 
-**[[Gap]] analysis:** Official rate (~1M) vs market (~1.45M) = 45% black market premium. Reflects capital controls and sanctions pressure.
+**Gap analysis:** Official rate (~1M) vs market (~1.59M) = **59% black market premium**. Widening gap reflects accelerating capital flight and sanctions pressure.
 
 **Data sources:**
 

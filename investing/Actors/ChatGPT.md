@@ -105,5 +105,5 @@ ChatGPT is 75% of OpenAI's revenue. [[Consumer]]-heavy (unlike [[Anthropic]]'s 8
 - [[Gemini]] — [[Google]] competitor
 - [[Sam Altman]] — OpenAI CEO
 - [[Microsoft]] — OpenAI's primary investor/partner
-- [[Clawdbot]] — open-source agent that can use GPT as backend
+- [[OpenClaw]] — open-source agent that can use GPT as backend
 - [[Agentic AI]] — product direction

@@ -9,7 +9,8 @@ aliases: [High Bandwidth Memory, HBM3, HBM3E, HBM4]
 
 ## Why it matters
 
-AI training/inference is memory-bound:
+AI training/inference is memory-bound. See [[GPU memory scaling]] for the structural trend driving HBM demand.
+
 - GPUs need to feed data faster than traditional DRAM allows
 - HBM stacks DRAM dies vertically with through-silicon vias (TSVs)
 - Enables 10x+ bandwidth vs standard DDR
@@ -122,6 +123,7 @@ Only 3 suppliers:
 
 ## Related
 
+- [[GPU memory scaling]] — the structural trend driving HBM demand
 - [[SK Hynix]] — supplier (#1 HBM, won't supply [[China]])
 - [[Samsung]] — supplier (#2 HBM, aligned with US)
 - [[Micron]] — supplier (#3 HBM, US company)

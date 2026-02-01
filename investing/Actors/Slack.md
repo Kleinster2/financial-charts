@@ -80,4 +80,4 @@ Integrated into Salesforce's enterprise services portfolio.
 - [[Salesforce]] — parent company
 - [[Teams]] — primary competitor ([[Microsoft]])
 - [[Discord]] — competitor
-- [[Clawdbot]] — integrates with Slack
+- [[OpenClaw]] — integrates with Slack

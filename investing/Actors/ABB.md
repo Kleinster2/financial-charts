@@ -53,6 +53,19 @@ Originally planned as 2026 spin-off IPO — SoftBank swooped in.
 
 ---
 
+## Data center infrastructure
+
+![[dc-supplier-map-quartr.png]]
+*ABB appears in 5 categories: MV distribution, backup power, UPS, HVAC, building automation. Diversified DC infrastructure player alongside [[Eaton]], [[Schneider Electric]].*
+
+**DC products:**
+- Medium voltage switchgear
+- UPS systems
+- Power distribution
+- Building automation/controls
+
+---
+
 ## [[Robotics]] division details
 
 | Metric | 2024 Value |
@@ -111,4 +124,8 @@ Originally planned as 2026 spin-off IPO — SoftBank swooped in.
 - [[Boston Dynamics]] — SoftBank portfolio (robotics)
 - [[Figure AI]] — humanoid robotics
 - [[Masayoshi Son]] — SoftBank CEO
+- [[Data center infrastructure]] — DC supply chain (ABB in 5 categories)
+- [[Eaton]] — peer (power distribution)
+- [[Schneider Electric]] — peer (power, automation)
+- [[Vertiv]] — peer (DC infrastructure)
 

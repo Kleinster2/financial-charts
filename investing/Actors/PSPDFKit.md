@@ -23,4 +23,4 @@ Known for high-quality, well-documented APIs. Premium pricing, enterprise custom
 ## Related
 
 - [[Peter Steinberger]] — founder
-- [[Clawdbot]] — Steinberger's other major project
+- [[OpenClaw]] — Steinberger's other major project

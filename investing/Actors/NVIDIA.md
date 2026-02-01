@@ -118,6 +118,23 @@ NVIDIA + [[Apple]] locking [[TSMC]] 2nm capacity forces [[AMD]] and others to al
 | [[Intel]]                           | Low          | Far behind on AI accelerators         |
 | Custom silicon ([[Google]] TPU, [[Amazon]]) | Medium       | Hyperscalers building own chips       |
 
+### TPU catching up (Jan 2026)
+
+![[tpu-vs-nvidia-tflops.png]]
+*[[Google]] TPU. Source: [[SemiAnalysis]] — [TPUv7: Google Takes a Swing at the King](https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the)*
+
+| Chip | Release | BF16 TFLOPs |
+|------|---------|-------------|
+| **A100** | Jun 2020 | ~312 |
+| **H100** | Jun 2022 | ~1,000 |
+| **GB200** | Jun 2025 | ~2,500 |
+| TPU v7 | Dec 2025 | ~2,340 |
+
+TPU v7 reaches **94% of GB200 performance** — first time Google has achieved near-parity. Previous TPU generations were 2-3x behind NVIDIA flagships. However:
+- CUDA ecosystem still dominant
+- GB200 shipping at scale; TPU v7 constrained by CoWoS
+- Vera Rubin (H2 2026) will extend lead again
+
 ---
 
 ## Moat expansion strategy
@@ -570,3 +587,4 @@ See [[CES 2026]] for event details.
 - [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics
 - [[DeepSeek]] — Chinese AI lab; technical assistance allegations (Jan 2026)
 - [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
+- [[Hyperscaler chip roadmap]] — custom silicon competition (TPU, Trainium, Maia)

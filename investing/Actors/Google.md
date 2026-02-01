@@ -109,8 +109,23 @@ Google is the most vertically integrated AI hyperscaler:
 | TPU v1-v4 | Deployed | Internal + Cloud |
 | TPU v5 | Current | Widely available |
 | TPU v6 (Trillium) | Ramping | Latest generation |
-| TPU v7 | Development | Next-gen |
+| TPU v7 (Ironwood) | Shipping (Nov 2025) | Closes gap with NVIDIA |
 | TPU v9 | Planned (2027) | Exploring [[Intel]] EMIB |
+
+### TPU vs NVIDIA performance (BF16 Dense TFLOPs)
+
+![[tpu-vs-nvidia-tflops.png]]
+*[[NVIDIA]]. Source: [[SemiAnalysis]] — [TPUv7: Google Takes a Swing at the King](https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the)*
+
+| Chip | Release | TFLOPs | Gap to NVIDIA |
+|------|---------|--------|---------------|
+| TPU v4 | Jun 2022 | ~275 | 3.6x behind H100 |
+| TPU v5e | Jun 2023 | ~197 | Efficiency variant |
+| TPU v5p | Dec 2023 | ~459 | 2.2x behind H100 |
+| TPU v6 | Jun 2024 | ~918 | Still behind H100 |
+| **TPU v7** | Dec 2025 | **~2,340** | **94% of GB200** |
+
+**Key insight:** TPU v7 nearly closes the gap — first time Google has reached parity with NVIDIA's flagship. Previous generations were 2-3x behind.
 
 ### CoWoS bottleneck (Jan 2026)
 
@@ -309,3 +324,4 @@ See [[Short interest]] for interpretation framework.
 - [[Hyperscaler disintermediation]] — Broadcom risk
 - [[Demis Hassabis]] — DeepMind CEO
 - [[Tax Cuts and Jobs Act]] — ~$50B repatriation (2018)
+- [[Hyperscaler chip roadmap]] — TPU generational roadmap, custom silicon competition

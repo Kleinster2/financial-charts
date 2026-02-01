@@ -118,7 +118,7 @@ Differentiated by real-time + voice.
 - [[Slack]] — enterprise competitor
 - [[Teams]] — enterprise competitor
 - [[Telegram]] — community competitor
-- [[Clawdbot]] — integrates with Discord
+- [[OpenClaw]] — integrates with Discord
 
 ---
 

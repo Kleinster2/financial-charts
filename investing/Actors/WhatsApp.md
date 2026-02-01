@@ -72,4 +72,4 @@ Largest messaging platform globally. 100M+ MAU in US alone.
 - [[Signal]] — encryption protocol provider
 - [[Telegram]] — competitor
 - [[iMessage]] — competitor (US)
-- [[Clawdbot]] — integrates with WhatsApp
+- [[OpenClaw]] — integrates with WhatsApp

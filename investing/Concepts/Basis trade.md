@@ -100,7 +100,7 @@ Market stabilized by April 11, but yields remained elevated.
 | Regulator | Concern |
 |-----------|---------|
 | Bank of England | Borrowing by small number of large hedge funds |
-| [[BIS]] | Potential financial stability risk |
+| [[Bank for International Settlements|BIS]] | Potential financial stability risk |
 | SEC | Push trades into central clearinghouses |
 | **Fed panel (Mar 2025)** | Advised emergency program for basis trade unwinding |
 

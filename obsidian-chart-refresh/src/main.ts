@@ -1,5 +1,5 @@
 import { Notice, Plugin, TFile } from "obsidian";
-import { parseChartFilename, buildApiUrl } from "./parser";
+import { parseChartFilename, buildApiUrl, parseRegistry, registryEntryToParams, RegistryEntry } from "./parser";
 import { fetchChartImage, writeChartImage, isApiAvailable } from "./chart-fetcher";
 import {
   ChartRefreshSettings,
@@ -10,13 +10,18 @@ import {
 // Regex to match image embeds: ![[filename.png]]
 const IMAGE_EMBED_REGEX = /!\[\[([^\]]+\.png)\]\]/gi;
 
+// Registry file path
+const REGISTRY_PATH = "chart-registry.md";
+
 export default class ChartRefreshPlugin extends Plugin {
   settings: ChartRefreshSettings;
   private lastRefreshTimes: Map<string, number> = new Map();
   private apiAvailable: boolean | null = null;
+  private registry: Map<string, RegistryEntry> = new Map();
 
   async onload() {
     await this.loadSettings();
+    await this.loadRegistry();
 
     // Add settings tab
     this.addSettingTab(new ChartRefreshSettingTab(this.app, this));
@@ -42,7 +47,33 @@ export default class ChartRefreshPlugin extends Plugin {
       },
     });
 
+    // Add command: reload registry
+    this.addCommand({
+      id: "reload-chart-registry",
+      name: "Reload chart registry",
+      callback: async () => {
+        await this.loadRegistry();
+        new Notice(`Loaded ${this.registry.size} chart(s) from registry`);
+      },
+    });
+
     console.log("Chart Refresh plugin loaded");
+  }
+
+  /**
+   * Load chart registry from chart-registry.md
+   */
+  async loadRegistry() {
+    try {
+      const file = this.app.vault.getAbstractFileByPath(REGISTRY_PATH);
+      if (file && file instanceof TFile) {
+        const content = await this.app.vault.read(file);
+        this.registry = parseRegistry(content);
+        console.log(`Loaded ${this.registry.size} chart(s) from registry`);
+      }
+    } catch (error) {
+      console.log(`Could not load chart registry: ${error}`);
+    }
   }
 
   onunload() {
@@ -83,8 +114,23 @@ export default class ChartRefreshPlugin extends Plugin {
       }
 
       if (result.type === "unknown") {
-        // TODO: check registry fallback
-        console.log(`Unknown chart pattern: ${filename}`);
+        // Check registry fallback
+        const registryEntry = this.registry.get(filename);
+        if (registryEntry) {
+          if (registryEntry.skip) {
+            continue; // Explicitly skipped in registry
+          }
+          const params = registryEntryToParams(registryEntry);
+          if (params) {
+            if (!manual && !this.shouldRefresh(filename)) {
+              continue;
+            }
+            const apiUrl = buildApiUrl(this.settings.apiBaseUrl, params);
+            chartsToRefresh.push({ filename, apiUrl });
+          }
+        } else {
+          console.log(`Unknown chart pattern (not in registry): ${filename}`);
+        }
         continue;
       }
 
@@ -130,6 +176,19 @@ export default class ChartRefreshPlugin extends Plugin {
           this.lastRefreshTimes.set(filename, Date.now());
           refreshedCount++;
         }
+      }
+    }
+
+    // Force Obsidian to reload the view to show updated images
+    if (refreshedCount > 0) {
+      // Small delay to ensure file write is complete
+      await new Promise(resolve => setTimeout(resolve, 100));
+
+      // Trigger view refresh by toggling edit mode
+      const leaf = this.app.workspace.activeLeaf;
+      if (leaf?.view?.getViewType() === 'markdown') {
+        const state = leaf.view.getState();
+        await leaf.view.setState(state, { history: false });
       }
     }
 

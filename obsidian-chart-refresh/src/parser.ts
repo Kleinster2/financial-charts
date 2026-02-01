@@ -205,6 +205,77 @@ function parseDurationChart(name: string): ParseResult | null {
 }
 
 /**
+ * Registry entry from chart-registry.md frontmatter
+ */
+export interface RegistryEntry {
+  tickers?: string;
+  normalize?: boolean;
+  start?: string;
+  skip?: boolean;
+}
+
+/**
+ * Parse chart-registry.md frontmatter to extract chart configurations
+ */
+export function parseRegistry(content: string): Map<string, RegistryEntry> {
+  const registry = new Map<string, RegistryEntry>();
+
+  // Extract YAML frontmatter between ---
+  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return registry;
+
+  const yaml = match[1];
+
+  // Find charts: section
+  const chartsMatch = yaml.match(/charts:\n([\s\S]*?)(?=\n[^\s]|$)/);
+  if (!chartsMatch) return registry;
+
+  const chartsSection = chartsMatch[1];
+
+  // Parse each chart entry (simple YAML parsing)
+  // Pattern: "  filename.png:\n    key: value"
+  const entryRegex = /^\s{2}([^\s:]+\.png):\n((?:\s{4}[^\n]+\n?)*)/gm;
+  let entryMatch;
+
+  while ((entryMatch = entryRegex.exec(chartsSection)) !== null) {
+    const filename = entryMatch[1];
+    const propsText = entryMatch[2];
+
+    const entry: RegistryEntry = {};
+
+    // Parse properties
+    const tickersMatch = propsText.match(/tickers:\s*([^\n]+)/);
+    if (tickersMatch) entry.tickers = tickersMatch[1].trim();
+
+    const normalizeMatch = propsText.match(/normalize:\s*(true|false)/);
+    if (normalizeMatch) entry.normalize = normalizeMatch[1] === 'true';
+
+    const startMatch = propsText.match(/start:\s*([^\n]+)/);
+    if (startMatch) entry.start = startMatch[1].trim();
+
+    const skipMatch = propsText.match(/skip:\s*(true|false)/);
+    if (skipMatch) entry.skip = skipMatch[1] === 'true';
+
+    registry.set(filename, entry);
+  }
+
+  return registry;
+}
+
+/**
+ * Convert registry entry to ChartParams
+ */
+export function registryEntryToParams(entry: RegistryEntry): ChartParams | null {
+  if (entry.skip || !entry.tickers) return null;
+
+  return {
+    tickers: entry.tickers.split(',').map(t => t.trim()),
+    normalize: entry.normalize ?? false,
+    start: entry.start,
+  };
+}
+
+/**
  * Build API URL from chart params
  */
 export function buildApiUrl(baseUrl: string, params: ChartParams): string {

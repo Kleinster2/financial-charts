@@ -14,9 +14,17 @@ AI chips generate massive heat — Vertiv provides the cooling:
 | Metric | Value |
 |--------|-------|
 | Market position | #1 data center thermal/power |
+| Stock performance | +1900%+ since Jan 2020 |
 | Products | Cooling, [[UPS]], racks, monitoring |
 | AI exposure | Liquid cooling for GPU clusters |
 | Stock performance | +200%+ since 2023 |
+
+---
+
+## Price performance
+
+![[vertiv-price-chart.png]]
+*VRT +1900% since Jan 2020 — the defining DC infrastructure trade. Massively outperforms diversified peers [[Eaton|ETN]] (+400%) and [[nVent Electric|NVT]] (+250%). Pure-play on AI datacenter buildout.*
 
 ---
 
@@ -37,6 +45,9 @@ AI chips generate massive heat — Vertiv provides the cooling:
 ---
 
 ## Product portfolio
+
+![[dc-supplier-map-quartr.png]]
+*Vertiv appears in 5 categories: LV distribution, UPS, server cabinets, HVAC, building automation. The DC infrastructure pure-play.*
 
 | Category | Products |
 |----------|----------|

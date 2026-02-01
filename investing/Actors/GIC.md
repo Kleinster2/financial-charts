@@ -58,8 +58,9 @@ Diversified across asset classes.
 ## Data center investments
 
 **Infrastructure focus:**
-- Equinix investor
-- Digital Realty
+- [[Equinix]] investor
+- [[Digital Realty]]
+- [[V.tal]] — 9.9% stake (Oct 2021), Brazil fiber + [[Tecto Data Centers]]
 - Global DC platforms
 - Real assets approach
 
@@ -132,6 +133,8 @@ Part of trend in [[Private credit]] where top PE sponsors extracting cov-lite te
 - [[Temasek]] — peer (Singapore's other SWF)
 - [[Equinix]] — investment (DC REIT)
 - [[Digital Realty]] — investment (DC REIT)
+- [[V.tal]] — 9.9% stake (Brazil fiber)
+- [[Tecto Data Centers]] — via V.tal
 - [[AI infrastructure financing]] — thesis context
 - [[Private credit]] — cov-lite lending participation
 - [[Permira]] — borrower (JTC deal)

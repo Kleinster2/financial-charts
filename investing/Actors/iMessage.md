@@ -88,4 +88,4 @@ Still green bubbles. Social stigma preserved.
 - [[Apple]] — parent company
 - [[WhatsApp]] — global competitor
 - [[Telegram]] — competitor
-- [[Clawdbot]] — integrates with iMessage (via BlueBubbles)
+- [[OpenClaw]] — integrates with iMessage (via BlueBubbles)

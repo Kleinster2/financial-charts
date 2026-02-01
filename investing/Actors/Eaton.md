@@ -32,6 +32,9 @@ aliases: [ETN]
 
 ## Data center products
 
+![[dc-supplier-map-quartr.png]]
+*Eaton appears in 5 categories: MV distribution, LV distribution, UPS, server cabinets, building automation. One of the most diversified DC infrastructure plays.*
+
 **Critical DC infrastructure:**
 
 | Product | Function |

@@ -111,6 +111,6 @@ Multi-cloud strategy reduces single-vendor dependency.
 - [[Anthropic]] — parent company
 - [[ChatGPT]] — primary competitor
 - [[Gemini]] — [[Google]] competitor
-- [[Clawdbot]] — open-source agent that uses Claude as backend
+- [[OpenClaw]] — open-source agent that uses Claude as backend; Anthropic C&D forced rebrand from "Clawdbot"
 - [[Agentic AI]] — Claude Code's category
 - [[AI agents]] — broader category

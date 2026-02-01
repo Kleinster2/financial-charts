@@ -93,7 +93,7 @@ Spawned "PKM" (Personal Knowledge Management) movement:
 - Knowledge graph visualization
 - Daily notes workflow
 
-[[Clawdbot]] stores memory as Obsidian-compatible Markdown files.
+[[OpenClaw]] stores memory as Obsidian-compatible Markdown files.
 
 ---
 
@@ -112,7 +112,7 @@ Spawned "PKM" (Personal Knowledge Management) movement:
 
 ## Related
 
-- [[Clawdbot]] — stores memory in Obsidian-compatible format
+- [[OpenClaw]] — stores memory in Obsidian-compatible format
 - [[Notion]] — competitor (cloud-first)
 - [[Roam Research]] — competitor (outliner)
 - [[AI agents]] — Obsidian as memory layer

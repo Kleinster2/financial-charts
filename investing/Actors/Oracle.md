@@ -1,5 +1,6 @@
 ---
-aliases: [ORCL]
+aliases:
+  - ORCL
 ---
 #actor #hyperscaler #cloud #usa
 

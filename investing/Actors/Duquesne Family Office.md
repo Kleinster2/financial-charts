@@ -1,9 +1,9 @@
 ---
-aliases: [Duquesne, Stanley Druckenmiller, Druckenmiller]
+aliases: [Duquesne]
 ---
 #actor #investor #hedgefund #macro #usa #private
 
-**Duquesne Family Office** — Stanley Druckenmiller's family office. Former Duquesne Capital. Never had a losing year.
+**Duquesne Family Office** — [[Stanley Druckenmiller]]'s family office. Former Duquesne Capital. Never had a losing year.
 
 ---
 
@@ -97,10 +97,15 @@ Druckenmiller made the actual trades.
 
 ## Related
 
+### People
+- [[Stanley Druckenmiller]] — founder
+- [[Kevin Warsh]] — partner; Fed Chair nominee (Jan 2026)
+
+### Peers
 - [[Soros Fund Management]] — mentor
 - [[Bridgewater]] — peer (macro)
 - [[Tudor Investment Corp]] — peer (macro)
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-01-31*

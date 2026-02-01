@@ -34,7 +34,7 @@ They're not a hyperscaler — they're an **enabler** that provides:
 | OpenAI | [[Titan]] chips | $10B deal |
 | Others | Various ASICs | Varies |
 
-**Anthropic deal (Jan 2026, per SemiAnalysis):**
+**Anthropic deal (Jan 2026, per [[SemiAnalysis]]):**
 - ~1,000,000 TPUv7 units purchased directly from Broadcom
 - Deployed in Anthropic-controlled facilities (not Google Cloud)
 - DC infrastructure from [[TeraWulf]], [[Hut 8]], [[Cipher Mining]]

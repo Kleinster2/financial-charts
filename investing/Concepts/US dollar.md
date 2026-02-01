@@ -121,6 +121,29 @@ Dollar reversed when Trump nominated [[Kevin Warsh]] — a former Fed Governor w
 
 ---
 
+## Dollar as global credit supply
+
+[[Hyun Song Shin]]'s research at [[Bank for International Settlements|BIS]] shows the dollar isn't just about competitiveness — it's a **credit supply variable**.
+
+**Traditional view:** Strong dollar → US imports cheaper, exports pricier → trade adjusts via price competitiveness
+
+**Shin's view:** Strong dollar → dollar credit tightens globally → working capital for [[Global Value Chains|GVCs]] gets expensive → supply chains contract
+
+| Finding | Source |
+|---------|--------|
+| ~80% of trade finance is dollar-denominated | BIS CGFS |
+| Exporters reliant on dollar credit suffer more when dollar rises | Bruno & Shin (2019) |
+| GVC length is determined by financing costs, not just labor arbitrage | Kim & Shin (2023) |
+
+**Implication:** The broad dollar index (DXY) is a proxy for **global financial conditions**. Fed tightening transmits to world trade through the working capital channel — even trade between non-US countries contracts when the dollar strengthens.
+
+This explains why:
+- Trade volumes fall when dollar rises (even for non-US pairs)
+- GVCs shorten during financial stress
+- "Reshoring" accelerates when dollar funding is scarce
+
+---
+
 ## Key levels (DXY)
 
 | Level | Significance |
@@ -157,6 +180,11 @@ Dollar reversed when Trump nominated [[Kevin Warsh]] — a former Fed Governor w
 - [[De-dollarization]] — structural headwind
 - [[Petrodollar]] — oil pricing system
 - [[Carry trade]] — USD as funding/target
+- [[Global Value Chains]] — dollar as trade finance currency
+
+### Research
+- [[Hyun Song Shin]] — dollar as credit supply channel
+- [[Bank for International Settlements]] — GVC/trade finance research
 
 ### Other currencies
 - [[Euro]] — primary alternative reserve

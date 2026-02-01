@@ -94,10 +94,10 @@ Sector hub for hedge funds and alternative asset managers.
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| **Total AUM** | **$5T+** (record) | HFR |
-| **Net inflows** | **$116B** (most since 2007) | HFR |
-| **Performance gains** | $527B | HFR |
-| **Avg return** | 12.5% (best in 16 yrs) | HFR |
+| **Total AUM** | **$5T+** (record) | [[HFR]] |
+| **Net inflows** | **$116B** (most since 2007) | [[HFR]] |
+| **Performance gains** | $527B | [[HFR]] |
+| **Avg return** | 12.5% (best in 16 yrs) | [[HFR]] |
 
 ### Regional returns
 
@@ -109,7 +109,7 @@ Sector hub for hedge funds and alternative asset managers.
 | US | 12% |
 | S&P 500 | 16% |
 
-*Sources: Hedge Fund Research Inc. (Jan 2026), JPMorgan note to clients*
+*Sources: [[HFR|Hedge Fund Research Inc.]] (Jan 2026), JPMorgan note to clients*
 
 ### Market context
 
@@ -130,7 +130,7 @@ This broke a multi-year drought. From Jun 2020 to Jun 2025, the industry receive
 *[[Hedge fund capital concentration]]*
 
 > "Uncertainty remains the dominant theme. Hedge fund managers are responding with flexible, tactical, and opportunistic strategies that can adapt as conditions change... investors continue to increase allocations to hedge funds, pushing capital beyond this historic milestone and fueling a growth trend that is expected to accelerate into 2026."
-> — Kenneth Heinz, HFR President
+> — Kenneth Heinz, [[HFR]] President
 
 **Boutique revival (Jan 2026):** Several $1B+ fund debuts (stock-picking, credit derivatives) as Citadel/Millennium convergence opens allocator appetite.
 
@@ -322,7 +322,11 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 - [[IMC Trading]] — Amsterdam options
 
 ### Concepts
+- [[Multi-manager hedge funds]] — pod shop model
 - [[Hedge fund capital concentration]] — pod shops absorbing all capital; zero-sum flows; convergence risk
+
+### Data providers
+- [[HFR]] — industry-standard indices and data
 
 ### Sectors
 - [[Market Makers]] — HFT and liquidity providers

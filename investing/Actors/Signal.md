@@ -88,4 +88,4 @@ Grows via privacy controversies at competitors.
 - [[WhatsApp]] — uses Signal Protocol, competitor
 - [[Telegram]] — competitor
 - [[Meta]] — WhatsApp parent (Signal = anti-Meta)
-- [[Clawdbot]] — integrates with Signal
+- [[OpenClaw]] — integrates with Signal

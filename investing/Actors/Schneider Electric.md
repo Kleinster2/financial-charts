@@ -23,6 +23,9 @@ Critical data center infrastructure:
 
 ## Data center business
 
+![[dc-supplier-map-quartr.png]]
+*Schneider appears in 6 categories: MV distribution, LV distribution, UPS, server cabinets, HVAC, building automation. Most diversified alongside [[Eaton]].*
+
 **Full-stack infrastructure:**
 
 | Product | Category |

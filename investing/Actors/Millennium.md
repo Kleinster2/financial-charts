@@ -25,7 +25,7 @@ aliases: [Millennium Management, Millennium Partners]
 
 ## The pod model
 
-Millennium pioneered the multi-manager "pod shop" structure now widely copied.
+Millennium pioneered the [[Multi-manager hedge funds|multi-manager "pod shop"]] structure now widely copied.
 
 | Component | Detail |
 |-----------|--------|
@@ -178,6 +178,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 - [[Izzy Englander]] — founder, CEO, $18.9B net worth
 
 ### Concepts
+- [[Multi-manager hedge funds]] — the pod model Millennium pioneered
 - [[Hedge fund capital concentration]] — pod shops absorbing all industry capital; convergence risk
 
 ### Peer pod shops

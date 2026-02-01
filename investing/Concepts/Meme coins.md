@@ -32,7 +32,7 @@ A 2024-2025 phenomenon — [[AI agents]] (or accounts claiming to be AI) launch 
 | Token | Agent | Peak | Notes |
 |-------|-------|------|-------|
 | $GOAT | Truth Terminal | ~$1B mcap | First AI agent token; Andy Ayrey's [[Claude]]-based bot |
-| $CLAWD | [[Clawdbot]] | $16M | Solana; viral AI entity; now ~$4M |
+| $CLAWD | [[OpenClaw]] | $16M | Solana; viral AI entity; now ~$4M (token kept name despite project rebrand) |
 | $TURBO | GPT-4 experiment | $50M+ | "First memecoin made by AI" |
 
 **The dynamic:** AI accounts build followings on X, sometimes receive token "gifts" from fans, prices pump on virality. Blurs line between genuine AI behavior and human manipulation.

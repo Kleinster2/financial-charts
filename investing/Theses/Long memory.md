@@ -18,6 +18,7 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 
 ### HBM for AI
 - Every AI GPU needs HBM (High Bandwidth Memory)
+- [[GPU memory scaling]]: V100 32GB → B200 192GB (6x in 8 years)
 - [[NVIDIA]] H100/H200/Blackwell all require HBM3/HBM3e
 - [[SK Hynix]] dominates HBM with 90%+ share
 - HBM production cannibalizes DRAM wafer supply
@@ -157,6 +158,7 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 - [[Export controls]] — catalyst (VEU revoked, supply constrained)
 - [[Short TSMC long Korea]] — complementary thesis
 - [[HBM]] — driver (AI demand cannibalizing commodity DRAM)
+- [[GPU memory scaling]] — structural trend (6x memory per GPU in 8 years)
 - [[Star Performers]] — tracking (Micron +229% YTD momentum)
 
 ---

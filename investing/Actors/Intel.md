@@ -95,11 +95,11 @@ Part of broader US semiconductor sovereignty push. Government directly backing I
 
 ---
 
-## [[Europe]] expansion shelved
+## Europe expansion shelved
 
-| Project | Status |
-|---------|--------|
-| **[[Germany]] fab** | Shelved |
+| Project             | Status  |
+| ------------------- | ------- |
+| **Germany fab**     | Shelved |
 | **Poland facility** | Shelved |
 
 Financial pressures and foundry transformation challenges led Intel to pause European expansion. Focus shifted to US facilities with CHIPS Act support.

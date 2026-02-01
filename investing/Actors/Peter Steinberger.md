@@ -3,7 +3,7 @@ aliases: [steipete]
 ---
 #actor #individual #developer #austria
 
-**Peter Steinberger** — Vienna-based developer. Founded [[PSPDFKit]] (PDF SDK). Created [[Clawdbot]] (open-source AI assistant).
+**Peter Steinberger** — Vienna-based developer. Founded [[PSPDFKit]] (PDF SDK). Created [[OpenClaw]] (open-source AI assistant, 100k+ stars).
 
 ---
 
@@ -14,15 +14,21 @@ Prolific developer with track record of shipping high-quality software:
 | Project | Role | Notes |
 |---------|------|-------|
 | [[PSPDFKit]] | Founder | PDF SDK used by major apps |
-| [[Clawdbot]] | Creator | Open-source AI assistant, 18k+ stars |
+| [[OpenClaw]] | Creator | Open-source AI assistant, 100k+ stars |
 
 Known for macOS/iOS development excellence. Philosophy: "Apps will melt away. The prompt is your new interface."
 
 ---
 
-## Clawdbot
+## OpenClaw
 
-Created as personal assistant "Clawd" — a space lobster character. Runs on his Mac Mini at 3 AM drafting newsletters, responding to messages. Personal tool → open-source project with ~18,500 GitHub stars.
+Created as personal assistant "Clawd" — a space lobster character. Runs on his Mac Mini at 3 AM drafting newsletters, responding to messages. Personal tool → open-source phenomenon.
+
+**The rebrand chaos (Jan 2026):**
+- **Clawdbot** → **Moltbot** (Jan 27, [[Anthropic]] C&D over "Clawd" trademark)
+- **Moltbot** → **OpenClaw** (Jan 30)
+
+Now 100,000+ GitHub stars, 2M visitors in one week. One of fastest-growing open-source projects in GitHub history.
 
 Core team: Steinberger + Mario Zechner (@badlogicc, security/Pi).
 
@@ -34,14 +40,15 @@ Core team: Steinberger + Mario Zechner (@badlogicc, security/Pi).
 |--------|-------|
 | Location | Vienna, Austria |
 | Twitter | [@steipete](https://twitter.com/steipete) |
-| Known for | PSPDFKit, Clawdbot |
+| Known for | PSPDFKit, OpenClaw |
 
-*Updated 2026-01-25*
+*Updated 2026-01-31*
 
 ---
 
 ## Related
 
-- [[Clawdbot]] — open-source AI assistant he created
+- [[OpenClaw]] — open-source AI assistant he created
 - [[PSPDFKit]] — PDF SDK company he founded
-- [[AI agents]] — category Clawdbot represents
+- [[Anthropic]] — sent C&D over Clawdbot trademark
+- [[AI agents]] — category OpenClaw represents

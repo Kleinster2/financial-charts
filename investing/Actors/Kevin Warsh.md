@@ -12,7 +12,9 @@ aliases: [Warsh]
 | Metric | Value |
 |--------|-------|
 | Status | **Nominated for Fed Chair** (Jan 30, 2026) |
-| Current role | Distinguished Visiting Fellow, Hoover Institution ([[Stanford]]) |
+| Current roles | Partner, [[Duquesne Family Office]] (with [[Stanley Druckenmiller|Druckenmiller]]) |
+| | Shepard Family Distinguished Visiting Fellow, Hoover Institution |
+| | Lecturer, Stanford Graduate School of Business |
 | Age | 55 |
 | Education | [[Stanford]] (BA), Harvard Law |
 | Party | Republican |
@@ -30,13 +32,19 @@ aliases: [Warsh]
 
 | Period | Role |
 |--------|------|
-| 1995-2002 | [[Morgan Stanley]] |
-| 2002-2006 | White House — economic policy (Bush administration) |
-| 2006-2011 | Fed Board of Governors |
-| 2011-present | Hoover Institution, [[Stanford]] |
+| Pre-2002 | [[Morgan Stanley]] M&A (VP, Executive Director) |
+| 2002-2006 | White House — Special Assistant to President, Executive Secretary of NEC |
+| 2006-2011 | Fed Board of Governors (**youngest ever at 35**) |
+| 2011-present | Hoover Institution, [[Stanford]]; Partner at [[Duquesne Family Office]] |
 | Various | Board: [[UPS]], Coupang; Advisor to Congressional Budget Office |
 
-**At the Fed:** Served as Board's G-20 representative. Tenure overlapped 2008 financial crisis and Great Recession.
+**At the Fed:**
+- G-20 representative
+- Emissary to Emerging and Advanced Economies in Asia
+- Administrative Governor (managed Board operations, personnel, financial performance)
+- Served through 2008 financial crisis and Great Recession
+
+**Bank of England:** Authored independent report proposing monetary policy reforms. Parliament adopted the recommendations.
 
 ---
 
@@ -119,7 +127,8 @@ Curve steepened — Warsh = fewer rate cuts vs Hassett ("cut early, cut often").
 |--------|--------|
 | Trump relationship | Less close than Hassett |
 | Dovish views | May cut aggressively under pressure |
-| Academic since 2011 | 15 years away from markets/policy |
+
+~~Academic since 2011~~ — Countered by [[Stanley Druckenmiller|Druckenmiller]] partnership at [[Duquesne Family Office]].
 
 ---
 
@@ -141,7 +150,23 @@ Traders see Warsh as "Goldilocks" solution:
 
 ---
 
-*Created 2026-01-14 · Updated 2026-01-30*
+## Structural risks (Sandbu analysis)
+
+[[Martin Sandbu]] ([[Financial Times]], Jan 31, 2026) argues the key risks aren't about Warsh's policy views:
+
+| Risk | Detail |
+|------|--------|
+| **Political pressure** | Fed Chair role now under sustained pressure not seen for decades — tilts mandate toward growth/employment regardless of Warsh's orthodoxy |
+| **Global public goods** | Swap lines and global bank regulation may be curtailed — Warsh's tolerance for "market self-correction" compounds this |
+| **[[Greenspan put]] tension** | Warsh's "tough love" instinct vs Trump's expectation of turbocharged market bailouts |
+
+> "That tension, rather than monetary policy, may be the real challenge Warsh will sooner or later have to face."
+
+The insight: personnel matters less than the structural change in the job itself.
+
+---
+
+*Created 2026-01-14 · Updated 2026-01-31*
 
 ---
 
@@ -158,3 +183,4 @@ Traders see Warsh as "Goldilocks" solution:
 ### Context
 - [[Kevin Hassett]] — rival candidate ("Battle of the Kevins")
 - [[Trump II]] — appointing authority
+- [[Duquesne Family Office]] — partner ([[Stanley Druckenmiller|Druckenmiller]])

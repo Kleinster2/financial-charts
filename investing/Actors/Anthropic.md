@@ -71,6 +71,26 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
+### Pentagon clash over military AI (Jan 2026)
+
+**Anthropic and the Pentagon are at an impasse** over a contract worth up to $200M. After weeks of negotiation, Anthropic refused to remove safeguards blocking:
+1. Autonomous weapons targeting
+2. U.S. domestic surveillance
+
+**Timeline:**
+- **Jan 16**: Defense Secretary [[Pete Hegseth]] criticized Anthropic when announcing [[xAI]]'s Grok would join Pentagon AI providers, railing against models that "won't allow you to fight wars"
+- **Jan 30**: Reuters reported the $200M contract standoff
+
+**Pentagon's position:** Commercial AI should be deployable as long as it complies with U.S. law—regardless of corporate usage policies. The military, not tech companies, should decide how purchased technology gets used.
+
+**Anthropic's position:** [[Dario Amodei]] wrote that AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." Company feels responsible for ensuring models aren't used beyond their capabilities in lethal contexts.
+
+**Significance:** First major test of whether AI companies can impose ethical constraints on military use. Other Pentagon AI contractors ([[Google]], [[OpenAI]], [[xAI]]) have not drawn the same lines.
+
+*Sources: Semafor (Jan 16), Reuters (Jan 30)*
+
+---
+
 ### Trump AI Czar endorsement at Davos (Jan 23, 2026)
 
 **[[David Sacks]]** (White House AI/[[Crypto]] Czar) highlighted Claude Code at Davos as the product "everyone's going crazy over":
@@ -220,7 +240,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-01-26*
+*Updated 2026-01-31*
 
 ## Related
 

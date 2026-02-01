@@ -86,4 +86,4 @@ Bundling is existential threat to Slack.
 - [[Microsoft]] — parent company
 - [[Slack]] — primary competitor
 - [[Zoom]] — video competitor
-- [[Clawdbot]] — integrates with Teams
+- [[OpenClaw]] — integrates with Teams

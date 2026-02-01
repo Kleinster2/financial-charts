@@ -82,4 +82,4 @@ Workspace shops use it. Everyone else uses Slack or Teams.
 - [[Google]] — parent company
 - [[Slack]] — competitor
 - [[Teams]] — competitor
-- [[Clawdbot]] — integrates with Google Chat
+- [[OpenClaw]] — integrates with Google Chat

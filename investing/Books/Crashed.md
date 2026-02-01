@@ -22,7 +22,7 @@ The conventional fear was a "dollar crisis"—everyone selling dollars, fleeing 
 | US isolated | Transatlantic implosion |
 | National crisis | Global macro-financial crisis |
 
-**Why this matters:** European banks had built massive dollar-denominated liabilities through the eurodollar market (run primarily through the City of London). When liquidity markets froze, they had no source of dollar funding. BIS estimated European banks' dollar funding gap at **$2+ trillion**.
+**Why this matters:** European banks had built massive dollar-denominated liabilities through the eurodollar market (run primarily through the City of London). When liquidity markets froze, they had no source of dollar funding. [[Bank for International Settlements|BIS]] estimated European banks' dollar funding gap at **$2+ trillion**.
 
 ---
 

@@ -62,6 +62,13 @@ Boeing trades on 737 MAX production, 787 ramp, and commercial aviation — not d
 
 ---
 
+## Capital returns
+
+![[defense-buybacks-dividends-since-2020.png]]
+*Primes return cash aggressively — Lockheed leads at ~$37B total. Boeing's minimal returns reflect its commercial aerospace struggles and balance sheet repair.*
+
+---
+
 ## Why market-uncorrelated
 
 Defense primes trade on:

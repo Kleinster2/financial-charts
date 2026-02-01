@@ -27,6 +27,13 @@ AI infrastructure buildout requires massive datacenter expansion. Hyperscalers c
 
 ---
 
+## Supply chain map
+
+![[dc-supplier-map-quartr.png]]
+*Source: Quartr Pro. [[Eaton]], [[Vertiv]], [[Schneider Electric]], [[ABB]], [[Delta Electronics]] appear across 4+ categories.*
+
+---
+
 ## Investment vehicles
 
 | Category | Players | Access |
@@ -34,7 +41,10 @@ AI infrastructure buildout requires massive datacenter expansion. Hyperscalers c
 | **Public [[REITs]]** | [[Equinix]], [[Digital Realty]] | EQIX, DLR |
 | **Private platforms** | [[QTS]] ([[Blackstone]]), CyrusOne ([[KKR]]) | Via parent |
 | **Financiers** | [[Blue Owl]], [[Blackstone]] | OWL, BX |
-| **Builders** | [[Modine Manufacturing]], [[Vertiv]] | MOD, VRT |
+| **Builders** | [[Modine Manufacturing]], [[Vertiv]], [[nVent Electric]] | MOD, VRT, NVT |
+| **Power equipment** | [[Eaton]], [[Schneider Electric]], [[Delta Electronics]] | ETN, SBGSY, 2308.TW |
+| **HVAC/Cooling** | [[Trane Technologies]], [[Carrier Global]], [[Daikin]] | TT, CARR, 6367.T |
+| **Backup power** | [[Generac]], [[Caterpillar]] | GNRC, CAT |
 
 ---
 
@@ -122,12 +132,26 @@ See [[Power-constrained geography]] for details.
 
 ## Related
 
+### REITs & Financiers
 - [[Equinix]] — long (interconnection REIT)
 - [[Digital Realty]] — long (hyperscale REIT)
 - [[Blackstone]] — long ([[QTS]] platform)
 - [[Blue Owl]] — long (DC financing)
-- [[Power constraints]] — context (44GW gap)
-- [[Power-constrained geography]] — context (geographic shift)
-- [[AI hyperscalers]] — demand driver
-- [[Vertiv]] — beneficiary (cooling infrastructure)
+
+### Infrastructure suppliers
+- [[Vertiv]] — beneficiary (cooling pure-play, +1900% since 2020)
 - [[Modine Manufacturing]] — beneficiary (thermal management)
+- [[nVent Electric]] — beneficiary (enclosures, liquid cooling)
+- [[Eaton]] — beneficiary (power distribution)
+- [[Schneider Electric]] — beneficiary (power, cooling)
+- [[Delta Electronics]] — beneficiary (power supplies)
+- [[Trane Technologies]] — beneficiary (HVAC, liquid cooling)
+- [[Carrier Global]] — beneficiary (HVAC)
+- [[Generac]] — beneficiary (backup generators)
+
+### Context
+- [[Data center infrastructure]] — supply chain map
+- [[Power constraints]] — enabling bottleneck (44GW gap)
+- [[Power-constrained geography]] — geographic shift
+- [[AI hyperscalers]] — demand driver
+- [[AI datacenter architecture]] — design requirements

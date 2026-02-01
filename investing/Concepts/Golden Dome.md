@@ -8,6 +8,9 @@ Trump's signature missile defense program. Multi-layer system to protect US from
 
 ## Overview
 
+![[golden-dome-cost-stacks.png]]
+*Bloomberg estimates 4-6x Trump's $175B figure. Even the "modest" Russia-only scenario costs $844B.*
+
 | Metric | Value |
 |--------|-------|
 | Executive order | Jan 27, 2025 |
@@ -42,6 +45,12 @@ More modest scenario ([[Russia]] only) still costs **$844B**.
 Four integrated layers from ground to space:
 
 ### [[Space]]-based layer ($161B-$542B)
+
+![[golden-dome-tracking-satellites.png]]
+*OPIR satellites detect missile launches; separate constellation tracks hypersonic/cruise missiles in atmosphere.*
+
+![[golden-dome-space-interceptors.png]]
+*Space-based interceptors target ICBMs in boost phase. 960 satellites at $602.5B — technology doesn't exist yet.*
 
 | Component | Contractor | Function |
 |-----------|------------|----------|
@@ -79,6 +88,9 @@ Four integrated layers from ground to space:
 | GBI | Boeing/Northrop | Ground-based interceptors (AK, CA) |
 
 ### Mid atmosphere layer
+
+![[golden-dome-air-defense.png]]
+*E-2D provides radar coverage; F-15/F-16 intercept with missiles; Patriot/THAAD catch what gets through.*
 
 | System | Contractor | Function |
 |--------|------------|----------|

@@ -37,6 +37,7 @@ Index of economists, market commentators, and central bankers tracked in the vau
 | [[Ed Yardeni]] | Yardeni Research | Equity strategy, "Roaring 20s" thesis |
 | [[Cliff Asness]] | [[AQR]] | Factor investing, quant research |
 | [[Ray Dalio]] | [[Bridgewater]] | Macro, "All Weather" framework |
+| [[Martin Sandbu]] | [[Financial Times]] | European economics, Fed structural analysis |
 
 ---
 

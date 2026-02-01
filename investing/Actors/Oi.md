@@ -27,7 +27,7 @@ Brazil's largest corporate bankruptcy — cautionary tale:
 
 - **Scale**: Once Brazil's 4th largest telecom
 - **Duration**: First restructuring 2016-2022, second 2023-2025
-- **Asset sales**: Fiber → V.tal, Mobile → TIM/Vivo/Claro, DCs → Elea/Piemonte
+- **Asset sales**: Fiber → [[V.tal]], Mobile → [[TIM Brasil]]/[[Vivo]]/[[Claro]], DCs → [[Elea Data Centers|Elea]]/[[Piemonte Holding|Piemonte]]
 - **Continuity**: Anatel confirms services continue under trustee
 
 ---

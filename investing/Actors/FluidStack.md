@@ -31,7 +31,7 @@ Critical deployment layer for AI infrastructure:
 
 ## Anthropic deal (Jan 2026)
 
-**Per SemiAnalysis:** FluidStack handles physical operations for Anthropic's ~1M TPUv7 deployment:
+**Per [[SemiAnalysis]]:** FluidStack handles physical operations for Anthropic's ~1M TPUv7 deployment:
 
 | Service | Description |
 |---------|-------------|

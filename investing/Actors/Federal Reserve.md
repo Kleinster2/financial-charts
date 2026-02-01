@@ -46,6 +46,20 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 ---
 
+## Global functions
+
+Beyond domestic monetary policy, the Fed provides global public goods:
+
+| Function | Mechanism | Significance |
+|----------|-----------|--------------|
+| **Swap lines** | Currency agreements with foreign central banks | Global dollar liquidity in crises |
+| **Bank regulation** | Supervision of globally systemic banks | Financial stability |
+| **Lender of last resort** | Emergency lending | Crisis firefighting |
+
+**At risk under Warsh?** [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance for "market self-correction" plus reduced appetite for international coordination could shrink the Fed's global firefighting capacity.
+
+---
+
 ## Current cycle (2022-2026)
 
 | Phase | Dates | Action |
@@ -157,7 +171,7 @@ See [[Fed independence]] for full concept analysis.
 
 ---
 
-*Updated 2026-01-30*
+*Updated 2026-01-31*
 
 ---
 
@@ -165,9 +179,10 @@ See [[Fed independence]] for full concept analysis.
 
 ### Leadership
 - [[Jerome Powell]] — current chair (term ends May 2026)
-- [[Kevin Warsh]] — chair candidate (former Fed Governor)
-- [[Kevin Hassett]] — chair candidate (NEC Director)
+- [[Kevin Warsh]] — chair nominee (former Fed Governor)
+- [[Kevin Hassett]] — NEC Director (former chair candidate)
 - [[Mohamed El-Erian]] — prominent Fed commentator
+- [[Martin Sandbu]] — FT commentator on Fed structural risks
 
 ### Concepts
 - [[Fed independence]] — principle under threat (Jan 2026 crisis)

@@ -7,7 +7,7 @@ aliases: []
 
 ---
 
-## Why [[Brazil]] matters
+## Why it matters
 
 Clean energy + AI infrastructure:
 

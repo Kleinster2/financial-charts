@@ -24,6 +24,8 @@ The 12.5% average return (best in 16 years) likely drove the reversal — alloca
 
 ## Why pod shops absorb capital
 
+See [[Multi-manager hedge funds]] for the structural mechanics of the pod model.
+
 | Factor | Detail |
 |--------|--------|
 | Diversification | 300+ uncorrelated pods = textbook diversification |
@@ -100,6 +102,7 @@ The question Bloomberg poses: does the convergence represent one bad year, or th
 
 ## Related
 
+- [[Multi-manager hedge funds]] — the pod shop model driving concentration
 - [[Citadel]] — largest pod shop, convergence in 2025
 - [[Millennium]] — pioneer of pod model, convergence in 2025
 - [[Point72]] — [[Steve Cohen]] pod shop
