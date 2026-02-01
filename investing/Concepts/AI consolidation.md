@@ -15,6 +15,8 @@ Big Tech will use two strategies to consolidate AI:
 
 Result: Big Tech entrenches dominance, picks up talent and IP while startups struggle.
 
+**Ecosystem damage:** Licensing deals are "detrimental to Silicon Valley ecosystem" — traditional acquisitions benefit all employees (stock vests), but licensing deals take top talent and IP while leaving rank-and-file behind. Startup equity used to be reliable path to wealth even for non-founders; this is eroding.
+
 **Key quote:** "There's sadly little chance that any of them — even large ones like [[OpenAI]] and [[Anthropic]] — will unseat the so-called Magnificent Seven."
 
 ---
@@ -55,6 +57,7 @@ Result: Big Tech entrenches dominance, picks up talent and IP while startups str
 | Date | Acquirer | [[Target]] | Value | Structure |
 |------|----------|--------|-------|-----------|
 | Dec 2025 | [[NVIDIA]] | [[Groq]] | $20B | Licensing (backdoor) |
+| ~2025 | — | [[Scale AI]] | ~$30B | — |
 | Dec 2025 | [[Meta]] | Manus | $2B | Outright (Chinese startup) |
 | 2025 | [[Google]] | Windsurf | $2.4B | Assets + talent |
 | 2024 | [[Google]] | [[Character.AI]] | $2.7B | Acqui-hire |

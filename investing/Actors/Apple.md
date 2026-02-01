@@ -184,6 +184,21 @@ Major Siri overhaul underway (codename "Campos"):
 
 Reportedly powered by [[Google]] [[Gemini]] as backend (see [[Apple-Google AI deal]]).
 
+### Q.ai acquisition (Jan 2026)
+
+[[Apple acquires Q.ai|Acquired Q.ai]] for ~$2B — second-largest acquisition ever after [[Beats]].
+
+| Aspect | Value |
+|--------|-------|
+| Price | ~$2B |
+| Technology | Silent speech from facial micro-movements |
+| CEO | [[Aviad Maizels]] (previously sold [[PrimeSense]] → Face ID) |
+| Team | ~100 employees |
+
+**Strategic value:** Enables non-verbal Siri commands through AirPods, Vision Pro, future glasses. Differentiated approach vs pure LLM competitors.
+
+Tim Cook (Q3 2025): "We're open to M&A that accelerates our roadmap." This is the first major AI acquisition under that mandate.
+
 **Competitive context:** [[Google]] says its AI glasses shipping 2026. [[Demis Hassabis]]: "one of the things I'm personally working on."
 
 ---
@@ -268,3 +283,5 @@ See [[Short interest]] for interpretation framework.
 - [[OpenAI]] — competing for AI device market
 - [[Humane]] — AI pin predecessor (failed)
 - [[AI wearables]] — category
+- [[Q.ai]] — acquired Jan 2026 (~$2B) for silent speech tech
+- [[Aviad Maizels]] — Q.ai CEO, previously sold PrimeSense (Face ID)

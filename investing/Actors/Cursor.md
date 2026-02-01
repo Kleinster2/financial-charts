@@ -78,6 +78,10 @@ All four are now **billionaires** (mid-20s). Met at MIT, left to found [[Anysphe
 
 **Philosophy:** AI should be the foundation of development, not just an assistant.
 
+### Continual learning edge
+
+Cursor updates Composer model weights **every 90 minutes** based on real-world user feedback. This is the closest thing to production [[Continual learning]] happening today — the model improves in near-real-time from how developers actually use it.
+
 ---
 
 ## Pricing

@@ -5,6 +5,8 @@ aliases: [DeepSeek AI, DeepSeek R1]
 
 **DeepSeek** — Hangzhou-based AI lab. DeepSeek R1 model notable for efficiency. Available on Azure, competitive with frontier models at lower cost.
 
+**The DeepSeek moment:** R1's January 2025 release surprised everyone — near state-of-the-art with allegedly much less compute. Kicked off a movement in China similar to how ChatGPT kicked off US AI boom. Secretive in communication but open in technical reports.
+
 ---
 
 ## Why DeepSeek matters

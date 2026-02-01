@@ -107,6 +107,18 @@ Llama powers Meta AI across:
 
 **Unique position:** Only major US lab with open weights. Bridge between closed ([[OpenAI]]/[[Anthropic]]) and Chinese open models.
 
+### 2025-26 challenges
+
+Llama's relevance declined as Chinese open models (DeepSeek, Qwen, Kimi) surged. Researcher sentiment: "RIP Llama."
+
+**What went wrong:**
+- Internal political fighting and misaligned incentives
+- Benchmark overfitting — Llama 4 models trained to score well but underperformed in practice
+- Lack of small, usable models — focused on giant MoE architectures nobody could run
+- Community backlash after underwhelming releases hurt Meta's reputation
+
+**Leadership question:** Alexander Wang brought in for fresh AI leadership, reportedly less committed to open source than Zuckerberg's original vision.
+
 ---
 
 ## Investment implications
