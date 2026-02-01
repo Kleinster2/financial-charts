@@ -14,6 +14,9 @@ SOFR measures the cost of borrowing cash overnight, collateralized by US Treasur
 - **Risk-free rate proxy** — based on actual repo transactions (~$3 trillion daily), not bank submissions like LIBOR
 - **Fed policy transmission** — moves closely with the [[federal funds rate]]
 
+![[sofr-fedfunds.png]]
+*Fed Funds rate (SOFR tracks within ~10bp). COVID plunge to near-zero, fastest hiking cycle in decades (2022–23), then gradual easing as inflation cooled.*
+
 ## Key Variants
 
 | Rate | Description |
