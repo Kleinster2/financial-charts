@@ -136,4 +136,5 @@ If SPARC works, ARC follows.
 
 - [[Helion Energy]] — Competitor (different approach)
 - [[TAE Technologies]] — Competitor
+- [[EnergyX]] — Supplier (Li-6 for tritium breeding)
 - [[Nuclear power for AI]] — Context (fusion = long shot)

@@ -54,9 +54,25 @@ aliases: [Sephora LVMH]
 |--------|--------|
 | New stores | ~200/year through 2028 |
 | [[UK]] | 5 opened 2024, 20 by 2027 |
+| Ireland | First store February 2026 (Belfast) |
 | Middle East | Growing presence |
 | Latin America | Strong growth |
 | [[Asia]] | Selective, [[China]] cautious |
+
+**Korea exit (2024):** Sephora withdrew entirely from South Korea, unable to compete with [[Olive Young]]'s 1,390+ store dominance and K-beauty curation strength.
+
+---
+
+## Olive Young partnership (2026)
+
+| Detail | Value |
+|--------|-------|
+| Announced | January 2026 |
+| Launch | H2 2026 |
+| Format | [[Olive Young]]-curated K-beauty zones inside Sephora stores |
+| Markets | US, Canada, Singapore, Malaysia, Thailand, Hong Kong |
+
+Interesting reversal: partnering with the competitor that defeated them in Korea to access K-beauty expertise and product pipeline.
 
 ---
 
@@ -113,7 +129,8 @@ aliases: [Sephora LVMH]
 - [[Beauty]] — sector hub
 - [[LVMH]] — parent company
 - [[Ulta Beauty]] — primary US competitor
+- [[Olive Young]] — K-beauty partner, defeated Sephora in Korea
 - [[Estée Lauder]] — key brand partner
 - [[L'Oréal]] — key brand partner
 
-*Created 2026-01-24*
+*Updated 2026-02-01*

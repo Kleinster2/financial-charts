@@ -46,6 +46,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 | **Utilities** | [[Constellation Energy]], [[Vistra]] | Existing fleet, PPAs signed |
 | **SMR developers** | [[Oklo]], [[NuScale]] | Next-gen, high risk/reward |
 | **[[Uranium]]** | [[Cameco]], [[Energy Fuels]] | Upstream fuel supply |
+| **Materials** | [[EnergyX]], [[Centrus Energy]] | Li isotopes, HALEU |
 | **Startups** | [[Fermi]] | Nuclear-powered DC (11GW target) |
 
 ---
@@ -96,6 +97,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 | 2025-12 | Amazon-Talen [[Susquehanna]] deal | Pattern confirmed |
 | 2025-12 | [[Morgan Stanley]]: 44GW power gap | Demand quantified |
 | 2026-01 | Fermi IPO +55% first day | Market enthusiasm |
+| 2026-01 | [[EnergyX]] launches NUKE-it platform | Materials supply chain forming |
 
 ---
 
@@ -113,5 +115,7 @@ Nuclear power is the only scalable, baseload solution for AI data center demand.
 - [[Cameco]] — long (uranium)
 - [[Energy Fuels]] — long (US uranium)
 - [[Fermi]] — speculative (11GW nuclear DC)
+- [[EnergyX]] — materials (Li-6 for fusion, Li-7 for MSRs)
+- [[Centrus Energy]] — materials (HALEU supplier)
 - [[Microsoft]] — customer (TMI PPA)
 - [[Amazon]] — customer (Talen PPA)
