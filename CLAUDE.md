@@ -83,6 +83,16 @@ git restore "path/to/file.md"
 
 **Countries go in Actors, not Regions.** Countries are economic/financial actors (monetary policy, fiscal policy, trade). The geopolitics vault (`obsidian/geopolitics`) handles countries as geopolitical actors. Regions folder is reserved for multi-country groupings that aren't single sovereign actors.
 
+**Country notes are hubs, not mega-documents.** Keep country notes ~100-150 lines max. Break out detailed content into sub-notes:
+
+| Sub-note | Content |
+|----------|---------|
+| `[Country] macro` | Fiscal policy, budget, monetary policy, real estate, reserves |
+| `[Country] tech dependence` | Manufacturing constraints, R&D gap, China leverage |
+| `[Country] sectors` | Detailed sector breakdowns (if needed beyond hub) |
+
+Country hub keeps: quick stats, indices, ADRs, key companies table, brief investment themes, brief risks, Related section with links to all sub-notes. See `India.md` as template.
+
 **DEPRECATED**: The old "My Vault" at `C:\Users\klein\onedrive\pictures\documents\my vault` is deprecated.
 
 ## Cache Busting
