@@ -13,6 +13,14 @@
 | US alliance | Treaty ally since 1951 |
 | Key tension | [[China]] (Taiwan, Senkaku/Diaoyu) |
 
+## Key indices
+
+| Index | Focus |
+|-------|-------|
+| Nikkei 225 | Blue chips |
+| TOPIX | Broad market |
+| JPX-Nikkei 400 | Governance focus |
+
 ---
 
 ## Government

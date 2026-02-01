@@ -20,6 +20,16 @@ aliases: [Brasil, BRL, Brazilian]
 | Exchange | [[B3]] (Brasil Bolsa Balcão) |
 | Main index | Ibovespa |
 
+## ADR access
+
+| ADR | Company |
+|-----|---------|
+| VALE | Vale |
+| PBR | Petrobras |
+| ITUB | Itaú |
+| BBD | Bradesco |
+| NU | Nubank |
+
 ---
 
 ## Macro (Jan 2026)
@@ -110,6 +120,24 @@ aliases: [Brasil, BRL, Brazilian]
 ### Currency as swing factor
 - BRL volatility creates timing opportunities
 - USD strength pressures EM broadly
+
+---
+
+## Monetary policy history
+
+Brazil is a case study in [[Time consistency]] — both violations and successful reforms. See [[Banco Central do Brasil]] for full institutional detail.
+
+| Era | Policy | Outcome |
+|-----|--------|---------|
+| **1980-1994** | CB financed deficits, no independence | Hyperinflation (3,000%/year), six failed stabilization plans |
+| **1994 Plano Real** | Fiscal reform + credible currency | Inflation: 90%/month → single digits |
+| **2003-2011 Lula I/II** | Maintained post-Real consensus | Credibility preserved despite leftist president |
+| **2011-2016 Dilma** | Replaced CB board, "New Economic Matrix" | Inflation doubled (5.9% → 10.7%), impeachment |
+| **2021** | Formal CB independence law (Bolsonaro) | Fixed terms, can't fire governor at will |
+| **2023-2024 Lula III** | Attacked CB, called independence "nonsense" | CB held firm under Campos Neto |
+| **2025 Galípolo** | Lula's pick takes over Jan 1, 2025 | **Most aggressive hiking cycle in years** — Selic 10.75% → 15% |
+
+**Current status (Jan 2026):** Gabriel Galípolo — Lula's own pick — turned out to be a credible inflation hawk. Raised Selic by 450bp (10.75% → 15%) and held despite Lula's pressure. **K-P vindicated** — the 2021 independence law worked; even Lula's appointee prioritizes credibility over politics.
 
 ---
 

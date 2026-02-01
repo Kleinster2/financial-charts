@@ -73,12 +73,15 @@ git restore "path/to/file.md"
 ### Vault
 
 - **Vault root**: `investing/`
-- **Actors**: `investing/Actors/` (companies, orgs, people, geographies)
+- **Actors**: `investing/Actors/` (companies, orgs, people, **countries**)
+- **Regions**: `investing/Regions/` (multi-country groupings only: LATAM, GCC, Southeast Asia)
 - **Concepts**: `investing/Concepts/` (ideas, dynamics, phenomena)
 - **Events**: `investing/Events/` (discrete happenings)
 - **Theses**: `investing/Theses/` (investment theses)
 - **Daily notes**: `investing/Daily/` (inbox, changelog)
 - **Sectors**: `investing/Sectors/` (industry hubs)
+
+**Countries go in Actors, not Regions.** Countries are economic/financial actors (monetary policy, fiscal policy, trade). The geopolitics vault (`obsidian/geopolitics`) handles countries as geopolitical actors. Regions folder is reserved for multi-country groupings that aren't single sovereign actors.
 
 **DEPRECATED**: The old "My Vault" at `C:\Users\klein\onedrive\pictures\documents\my vault` is deprecated.
 
@@ -765,27 +768,23 @@ When user asks for "today's news", cover these categories:
 
 **CRITICAL: Use exact date format.** `"January 27 2026"` not `"January 2026"`. Month-only queries return the month's biggest stories (e.g., CES), not today's news.
 
-| Category | Search terms |
-|----------|--------------|
-| **Market movers** | "biggest stock gainers losers [exact date]" |
-| **Markets** | "stock market news [exact date]" |
-| **USD/FX** | "US dollar DXY [exact date]" |
-| **Treasuries** | "treasury yields bonds [exact date]" |
-| **Commodities** | "gold oil copper prices [exact date]" |
-| **Semiconductors** | "semiconductor chip news [exact date]" |
-| **AI/Tech** | "AI news [exact date]" |
-| **China macro** | "China economy news [exact date]" |
-| **China tech** | "China tech news [exact date]" |
-| **Fed/Rates** | "Federal Reserve news [exact date]" |
-| **Energy/Nuclear** | "energy power grid news [exact date]" |
-| **Robotics** | "robotics humanoid news [exact date]" |
-| **Japan tech** | "Japan semiconductor news [exact date]" |
-| **Korea semis** | "Korea semiconductor memory news [exact date]" |
-| **Trade/Tariffs** | "tariffs trade war news [exact date]" |
-| **Europe** | "Europe tech news [exact date]" |
-| **Earnings** | Check calendar for major reports |
+| Category | Search terms | Notes |
+|----------|--------------|-------|
+| **Market movers** | "biggest stock gainers losers [date]" | Catches outliers other searches miss |
+| **Macro** | "markets treasury dollar Fed [date]" | Markets, FX, rates combined |
+| **Semiconductors** | "semiconductor chip memory [date]" | Core thesis area |
+| **AI** | "AI artificial intelligence [date]" | Core thesis area |
+| **China** | "China economy tech [date]" | Macro + tech combined |
+| **Asia semis** | "Japan Korea semiconductor [date]" | Japan + Korea combined |
+| **Trade/Policy** | "tariffs trade regulation policy [date]" | Trade + AI policy combined |
+| **Defense** | "Pentagon military defense tech [date]" | Defense + gov tech combined |
+| **Energy** | "energy power grid nuclear [date]" | AI power demand thesis |
+| **Europe** | "Europe economy tech [date]" | Weekly, lower priority |
+| **Earnings** | Check calendar | Scheduled events |
 
 **Market movers catch what categories miss.** Corning +16.6% on Meta deal wouldn't appear in "semiconductor" or "AI" searches — but it's a top mover.
+
+**Defense/policy stories live on different beats.** The Anthropic/Pentagon clash (Jan 2026) didn't surface in "AI news" — it was broken by national security reporters.
 
 **Don't miss:** China domestic news (GDP, [[NDRC]], stimulus, regulatory) — often absent from US-focused searches.
 

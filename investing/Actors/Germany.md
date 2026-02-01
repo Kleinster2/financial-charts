@@ -14,6 +14,14 @@
 | Government | CDU/CSU-SPD coalition |
 | Chancellor | Friedrich Merz (since 2025) |
 
+## Key indices
+
+| Index | Focus |
+|-------|-------|
+| DAX 40 | Blue chips |
+| MDAX | Mid caps |
+| TecDAX | Technology |
+
 ---
 
 ## Zeitenwende (turning point)

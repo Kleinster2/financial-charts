@@ -13,6 +13,23 @@
 | Growth | ~6.5% (fastest major economy) |
 | PM | Narendra Modi (BJP) |
 
+## Key indices
+
+| Index | Focus |
+|-------|-------|
+| Nifty 50 | Large caps |
+| Sensex | BSE 30 stocks |
+| Nifty Bank | Financials |
+
+## ADR access
+
+| ADR | Underlying |
+|-----|------------|
+| INFY | Infosys |
+| WIT | Wipro |
+| IBN | ICICI Bank |
+| HDB | HDFC Bank |
+
 ---
 
 ## Macro outlook — Jan 2026
@@ -56,6 +73,37 @@ Finance Minister Sitharaman confirmed (Sep 2025) RBI taking a "very considered d
 **Outlook:** Pepperstone's Michael Brown: even a trade deal will only stabilize holdings, not reverse the trend. Capital Economics (top rupee forecaster): speed of US-India deterioration "jolted policymakers to reduce vulnerabilities."
 
 *Source: Bloomberg (Ananya Bhattacharya), RBI, US Department of Treasury, Jan 2026*
+
+### Budget 2026-27 (Feb 1, 2026)
+
+FM Nirmala Sitharaman's 9th consecutive budget.
+
+| Metric | Target |
+|--------|--------|
+| Fiscal deficit | 4.2% GDP (from 4.4%) |
+| Capex | ~₹12 lakh cr (~$140B) |
+| Debt-to-GDP | 56% → 50% by FY31 |
+| GDP growth (govt) | 6.8-7.2% |
+| GDP growth (economists) | ~6.5% |
+
+**Key priorities:**
+- Job creation, manufacturing boost
+- MSME support (70% of CXOs want priority)
+- Infrastructure via PPP, asset monetization
+- Trade diversification (EU FTA signed, reducing US/China dependence)
+- Export resilience amid 50% US tariffs
+
+**PLI scheme progress:**
+- ₹21,534 cr disbursed across 12 schemes
+- ₹16.5 lakh cr production linked
+- 12 lakh+ jobs created
+- Electronics output FY25: ₹11.3 lakh cr
+
+### Monetary Policy
+
+- RBI cut rates to 3yr low (Jan 2026)
+- Injecting liquidity to ease borrowing costs
+- RBI dividend to govt: ~₹3.2 lakh cr expected
 
 ---
 ## US-India relations

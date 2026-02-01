@@ -17,6 +17,18 @@ aliases: [United Kingdom, Britain, Great Britain]
 | Government | Labour (Keir Starmer) |
 | Currency | GBP |
 
+## Key indices
+
+| Index | Focus |
+|-------|-------|
+| FTSE 100 | Large caps, global |
+| FTSE 250 | Mid caps, domestic |
+| AIM | Small caps, growth |
+
+## ADR access
+
+Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
+
 ---
 
 ## Key sectors
