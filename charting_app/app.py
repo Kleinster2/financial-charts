@@ -2940,7 +2940,7 @@ def get_chart_lw():
     title = request.args.get('title', ', '.join(tickers) if tickers else product_param_early or 'Chart')
     width = int(request.args.get('width', 1200))
     height = int(request.args.get('height', 800))
-    show_title = request.args.get('show_title', 'true').lower() != 'false'
+    show_title = request.args.get('show_title', 'false').lower() == 'true'
     show_last_date = request.args.get('show_last_date', 'true').lower() != 'false'
     normalize = request.args.get('normalize', 'false').lower() == 'true'
 

@@ -1,66 +1,106 @@
----
-aliases: [INR, USDINR, rupee]
----
-#concept #currency #fx #emerging-markets
+#currency #india #emerging #forex
 
-**Indian rupee** — [[Asia]]'s most stable EM currency due to RBI management. Modest depreciation trend vs USD despite strong economy.
+**Indian Rupee (INR)** — Managed float currency. Structurally weak due to current account deficit. RBI actively intervenes.
+
+![[usdinr-chart.png]]
+*Steady depreciation from ~71 (2020) to ~92 (Jan 2026). Sharp moves in late 2022 (Fed hikes, oil spike) and late 2025 (tariff fears, foreign outflows). RBI smooths but can't reverse the structural trend.*
 
 ---
 
-## Current status (Jan 2026)
+## Key characteristics
+
+| Factor | Impact |
+|--------|--------|
+| Current account | Persistent deficit (~2% GDP) |
+| Oil dependency | ~85% crude imported — oil up = INR down |
+| FII flows | Heavy foreign ownership of equities — outflows pressure INR |
+| Inflation differential | Higher than US — gradual depreciation trend |
+| RBI intervention | Active management via forex reserves |
+
+---
+
+## Recent moves (Jan 2026)
 
 | Metric | Value |
 |--------|-------|
-| USDINR | ~85.5 |
-| 2025 return | **-6%** vs USD (INR weakened) |
-| RBI rate | 6.50% |
-| Fed rate | 3.50-3.75% |
+| USD/INR | 91.98 (record low, Jan 31) |
+| Monthly move | Worst since Sep 2022 |
+| Key drivers | US tariff uncertainty, foreign outflows |
+| RBI response | Heavy dollar sales, rate cuts |
 
 ---
 
-## RBI management style
+## Structural dynamics
 
-RBI (Reserve Bank of India) manages rupee with heavy hand:
+### Why INR trends weaker
+1. **Twin deficits** — Current account + fiscal deficit
+2. **Oil import bill** — ~$150B annually
+3. **Inflation differential** — India runs hotter than US
+4. **Dollar strength cycles** — EM currencies suffer
 
-| Tool | Approach |
-|------|----------|
-| **FX intervention** | Smooth volatility, not target level |
-| **Reserves** | $600B+ war chest |
-| **NDF market** | Monitor offshore activity |
-
-Result: INR has low volatility for EM, but steady depreciation trend (~3-4%/year).
-
----
-
-## Structural factors
-
-**Positive:**
-- Strong GDP growth (6-7%)
-- IT services exports
-- Remittances ($100B+/year)
-- Young demographics
-
-**Negative:**
-- Current account deficit (oil imports)
-- [[Inflation]] (food prices volatile)
-- Capital account restrictions
+### Why INR doesn't collapse
+1. **RBI reserves** — ~$600B+ war chest
+2. **Remittances** — World's largest ($100B+/year)
+3. **IT services exports** — $200B+ annual inflows
+4. **FDI** — Steady manufacturing/tech investment
 
 ---
 
-## Investment vehicles
+## RBI intervention toolkit
 
-| Vehicle | Ticker | Notes |
-|---------|--------|-------|
-| WisdomTree Indian Rupee | ICN | Pure INR exposure |
-| iShares [[MSCI]] India | INDA | India equity + INR |
+| Tool | Mechanism |
+|------|-----------|
+| Spot intervention | Direct dollar sales |
+| Forward book | NDF market participation |
+| Rate policy | Higher rates attract carry |
+| Capital controls | Liberalization pace |
+
+---
+
+## Trading dynamics
+
+| Factor | Note |
+|--------|------|
+| Carry trade | Positive vs USD (~4% differential) |
+| Volatility | Low by EM standards (RBI smoothing) |
+| Seasonality | Weak in oil import months |
+| Correlation | Moves with EM basket, inverse to DXY |
+
+---
+
+## Key levels
+
+| Level | Significance |
+|-------|--------------|
+| 92.00 | Psychological resistance (Jan 2026) |
+| 85.00 | Pre-2024 range top |
+| 80.00 | 2023 support zone |
+
+---
+
+## Investment implications
+
+| Theme | Expression |
+|-------|------------|
+| Hedging | ADRs avoid INR exposure |
+| Long INR | When oil drops, risk-on, Fed dovish |
+| Short INR | Oil spikes, US tariffs, EM selloff |
 
 ---
 
 ## Related
 
-- [[India]] — economy, RBI policy
-- [[Chinese yuan]] — [[Asia]] EM comparison
+### Regions
+- [[India]] — macro context
+
+### Concepts
+- [[De-dollarization]] — India's bilateral trade push
+- [[Emerging markets]] — INR as EM proxy
+- [[Petrodollar]] — oil import dynamics
+
+### Actors
+- [[Reserve Bank of India]] — currency manager
 
 ---
 
-*Created Jan 2026.*
+*Created 2026-01-31*

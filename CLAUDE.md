@@ -153,7 +153,9 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 
 **Fundamentals charts use separate panes** when multiple metrics are requested. Revenue and net income have different scales (revenue always positive and large, net income can be negative and smaller), so they render in stacked panes with independent Y-axes. This is automatic — just include both metrics.
 
-**API parameters:** `tickers` (required for stocks), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (false — legend already shows ticker), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low), `primary` (actor ticker — always gets first color, blue #2962FF)
+**Charts don't need titles.** The legend already shows ticker names and dates — adding a title is redundant. Leave `show_title=false` (the default).
+
+**API parameters:** `tickers` (required for stocks), `start`, `end`, `title`, `width` (1200), `height` (800), `show_title` (false), `normalize` (false), `metrics` (revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit), `forecast_start` (date to begin dotted forecast line), `labels` (custom legend labels, e.g., `labels=SMH_1_44X:SMH%201.44x%20Lev`), `sort_by_last` (sort legend by final value, high→low), `primary` (actor ticker — always gets first color, blue #2962FF)
 
 **Product metrics (for #product notes):** Use `product` and `product_metrics` instead of `tickers`:
 ```bash
@@ -475,11 +477,19 @@ See [[Note structures#Currency and specificity]] for full requirements.
   - [ ] Notable affiliations (PE sponsors, major investors, other boards)
 - [ ] All names wikilinked if they have own notes or cross-vault affiliations
 
+### Principals (funds & asset managers)
+- [ ] **Always include principals** when creating fund or asset manager notes
+- [ ] Leadership table with: name, role, background (years experience, prior firms, notable deals)
+- [ ] For PE/VC funds: founding partners, managing partners, key investment professionals
+- [ ] For sovereign funds: CEO, CIO, key sector heads
+- [ ] For hedge funds: founder, PM, key analysts if known
+
 ### Charts
 - [ ] Price chart exists (all public instruments need one)
 - [ ] Price chart uses `primary=TICKER` (actor is always blue)
 - [ ] Price chart has actor + peers/benchmark (companies: actor + peers + sector ETF; ETFs: vs SPY or parent index)
 - [ ] Fundamentals chart exists (companies only, not ETFs)
+- [ ] **No chart titles** — legend already shows tickers; don't use `show_title=true`
 - [ ] Read the generated images to verify they rendered correctly
 - [ ] Chart captions mention all tickers shown
 - [ ] **Research major moves before explaining them** — don't fabricate explanations for outperformance/underperformance; web search the actual causes (earnings, macro, sector events)
@@ -528,6 +538,7 @@ python scripts/check_note_compliance.py investing/Actors/NewNote.md
 **What it does NOT check (manual):**
 - Currency — is the note up to date?
 - Specificity — are claims drilled with real detail?
+- Chart titles — verify charts don't have redundant titles (legend suffices)
 - These must be verified via web search BEFORE running the checker.
 
 **Exit codes:** 0 = pass (warnings OK), 1 = errors found
