@@ -43,7 +43,7 @@
 | Financials | [[HDFC Bank]], [[ICICI Bank]], SBI | Competition from fintechs |
 | [[Semiconductors]] | India Semiconductor Mission | Legacy nodes only (28nm+) |
 
-See [[India tech dependence]] for manufacturing constraints.
+See [[India sectors]] for manufacturing constraints.
 
 ---
 
@@ -64,7 +64,7 @@ See [[India tech dependence]] for manufacturing constraints.
 | Theme | Expression | Caveat |
 |-------|------------|--------|
 | Infrastructure boom | [[Larsen & Toubro]], cement, steel | Execution risk |
-| [[China+1]] manufacturing | Electronics, pharma | Assembly only — see [[India tech dependence]] |
+| [[China+1]] manufacturing | Electronics, pharma | Assembly only — see [[India sectors]] |
 | Digital / IT services | [[TCS]], [[Infosys]] | Talent competition |
 | [[India AI]] | Compute buildout | Behind US/China |
 
@@ -75,7 +75,7 @@ See [[India tech dependence]] for manufacturing constraints.
 | Risk | Impact |
 |------|--------|
 | [[Trump II]] tariffs | 50% on goods, trade deal uncertain |
-| [[India tech dependence]] | Can't build batteries, EVs domestically |
+| [[India sectors]] | Can't build batteries, EVs domestically |
 | [[Indian rupee]] | Persistent depreciation |
 | Real estate | Construction slowdown — see [[India macro]] |
 
@@ -93,9 +93,9 @@ See [[India tech dependence]] for manufacturing constraints.
 - [[EU-India FTA]] — "mother of all deals" (Jan 2026)
 - [[Trump II]] — 50% tariff pressure
 
-**Structural:**
-- [[India tech dependence]] — R&D gap, battery failure, China constraints
-- [[China battery leverage]] — why Make in India failed
+**Sectors:**
+- [[India sectors]] — IT services, financials, pharma, manufacturing constraints
+- [[China battery leverage]] — why battery manufacturing failed
 - [[India AI]] — $1.2B AI mission
 
 **Companies:**
