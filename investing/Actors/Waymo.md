@@ -98,6 +98,31 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ---
 
+## Financials (estimated)
+
+*Private company — limited disclosure. Estimates from analyst reports and news.*
+
+| Year | Rides | Revenue | Burn rate | Notes |
+|------|-------|---------|-----------|-------|
+| 2022 | ~500K | ~$10M | ~$2B | Phoenix/SF limited ops |
+| 2023 | ~2M | ~$40M | ~$3B | LA launch |
+| 2024 | ~4.7M | ~$100M | ~$4B | Austin, Atlanta launches |
+| 2025 | 14M | ~$350M | ~$5B | 3x ride growth, 5 cities |
+| 2026E | 40M+ | ~$800M+ | ~$5B | Target: 1M rides/week |
+
+**Unit economics (est.):**
+
+| Metric | Value |
+|--------|-------|
+| Avg fare | ~$20-25/ride |
+| Cost per ride | ~$30-50 (incl. ops, support, R&D allocation) |
+| Gross margin | Negative (scaling phase) |
+| Path to profitability | Not yet disclosed |
+
+*Revenue derived from ride volume × avg fare. Burn rate estimates from FT, The Information. Alphabet does not break out Waymo in "Other Bets" segment.*
+
+---
+
 ## Funding
 
 | Round | Date | Amount | Valuation | Investors |
