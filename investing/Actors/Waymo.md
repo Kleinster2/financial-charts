@@ -125,18 +125,50 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ## Funding
 
-| Round | Date | Amount | Valuation | Investors |
-|-------|------|--------|-----------|-----------|
-| Series A | 2020 | $2.5B | | Alphabet, [[Silver Lake]], others |
-| Series B | 2021 | $3.2B | | Alphabet, [[Andreessen Horowitz]], others |
-| Series C | Oct 2024 | $5.6B | $45B | Alphabet (lead), a16z, [[Fidelity]], [[Tiger Global]], [[T. Rowe Price]], Silver Lake |
-| Series D | Feb 2026 | $16B | $126B | Alphabet (>75%), [[Sequoia]], [[Dragoneer]], [[DST Global]], [[Mubadala]], a16z |
+**Total raised:** $27B+
 
-Series D initially reported Dec 2025 at ~$100B valuation; oversubscribed 3x (FT). Final close Feb 2026 at $126B — valuation jumped 15% from Jan estimates as round expanded.
+### Series A (2020) — $2.5B
 
-**Total raised:** $27B+.
+| Investor | Amount | Notes |
+|----------|--------|-------|
+| [[Google]] / Alphabet | ~$1.5B | Lead |
+| [[Silver Lake]] | ~$500M | |
+| Others | ~$500M | Undisclosed |
 
-**Revenue:** $350M+ annual recurring revenue. Still unprofitable but scaling rapidly.
+### Series B (2021) — $3.2B
+
+| Investor | Amount | Notes |
+|----------|--------|-------|
+| [[Google]] / Alphabet | ~$2B | Lead |
+| [[Andreessen Horowitz]] | ~$500M | First investment |
+| Others | ~$700M | Undisclosed |
+
+### Series C (Oct 2024) — $5.6B at $45B valuation
+
+| Investor | Amount | Notes |
+|----------|--------|-------|
+| [[Google]] / Alphabet | ~$3B | Lead |
+| [[Andreessen Horowitz]] | ~$700M | Follow-on |
+| [[Tiger Global]] | ~$500M | New investor |
+| [[T. Rowe Price]] | ~$500M | New investor |
+| [[Fidelity]] | ~$400M | New investor |
+| [[Silver Lake]] | ~$500M | Follow-on |
+
+### Series D (Feb 2026) — $16B at $126B valuation
+
+| Investor | Amount | Notes |
+|----------|--------|-------|
+| [[Google]] / Alphabet | ~$12B | >75% of round |
+| [[Sequoia]] | ~$1B | New investor |
+| [[Dragoneer]] | ~$800M | New investor |
+| [[Andreessen Horowitz]] | ~$700M | Follow-on |
+| [[DST Global]] | ~$500M | New investor |
+| [[Mubadala]] | ~$500M | New investor (UAE sovereign) |
+| Others | ~$500M | |
+
+*Initially reported Dec 2025 at ~$100B; oversubscribed 3x (FT). Final close Feb 2026 at $126B.*
+
+*Amounts estimated from round sizes and reported participation. Alphabet >75% of Series D confirmed by FT.*
 
 ---
 
