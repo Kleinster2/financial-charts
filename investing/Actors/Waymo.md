@@ -1,7 +1,7 @@
 ---
 aliases: []
 ---
-#actor #ai #autonomous #usa #subsidiary
+#actor #ai #autonomous #usa #subsidiary #private
 
 **Waymo** — Alphabet's robotaxi. Leading US autonomous deployment. 450K weekly paid rides, targeting 1M/week by end of 2026.
 
