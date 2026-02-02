@@ -115,6 +115,28 @@ Series D initially reported Dec 2025 at ~$100B valuation; oversubscribed 3x (FT)
 
 ---
 
+## Cap table (estimated)
+
+*At $126B valuation (Feb 2026):*
+
+| Shareholder | Ownership | Value | Notes |
+|-------------|-----------|-------|-------|
+| **[[Google]]** / Alphabet | ~80% | ~$101B | >75% confirmed; lead all rounds |
+| [[Andreessen Horowitz]] | ~5% | ~$6B | Series B, C, D participant |
+| [[Silver Lake]] | ~3% | ~$4B | Series A, C |
+| [[Tiger Global]] | ~2% | ~$2.5B | Series C |
+| [[T. Rowe Price]] | ~2% | ~$2.5B | Series C |
+| [[Fidelity]] | ~2% | ~$2.5B | Series C |
+| [[Sequoia]] | ~1.5% | ~$2B | Series D (new) |
+| [[Dragoneer]] | ~1.5% | ~$2B | Series D (new) |
+| [[DST Global]] | ~1% | ~$1.3B | Series D (new) |
+| [[Mubadala]] | ~1% | ~$1.3B | Series D (new) |
+| Other / Employee pool | ~1% | ~$1B | |
+
+*Estimates based on round sizes and reported participation. Alphabet ownership >75% per FT. External stakes diluted across 4 rounds totaling $27B+.*
+
+---
+
 ## Competitive position
 
 | Competitor | Status | Waymo advantage |
