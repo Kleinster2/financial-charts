@@ -127,7 +127,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 **Total raised:** $27B+
 
-### Series A (2020) — $2.5B
+### Series A (Mar 2020) — $2.5B at ~$30B valuation (est.)
 
 | Investor | Amount | Notes |
 |----------|--------|-------|
@@ -135,13 +135,17 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 | [[Silver Lake]] | ~$500M | |
 | Others | ~$500M | Undisclosed |
 
-### Series B (2021) — $3.2B
+*First outside funding. Valuation not officially disclosed.*
+
+### Series B (Jun 2021) — $3.2B at ~$30-32B valuation (est.)
 
 | Investor | Amount | Notes |
 |----------|--------|-------|
 | [[Google]] / Alphabet | ~$2B | Lead |
 | [[Andreessen Horowitz]] | ~$500M | First investment |
 | Others | ~$700M | Undisclosed |
+
+*Flat valuation during COVID period. Not officially disclosed.*
 
 ### Series C (Oct 2024) — $5.6B at $45B valuation
 
