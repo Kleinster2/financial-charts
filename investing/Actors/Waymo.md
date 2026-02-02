@@ -131,14 +131,16 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 *Assuming ~1B shares outstanding (not disclosed). Share price = pre-money / shares.*
 
-| Round | Raised | Post-money | Pre-money | Price/Share |
-|-------|--------|------------|-----------|-------------|
-| Series A | $2.5B | ~$30B | ~$27.5B | ~$27.50 |
-| Series B | $3.2B | ~$30B | ~$26.8B | ~$26.80 |
-| Series C | $5.6B | $45B | $39.4B | ~$39.40 |
-| Series D | $16B | $126B | $110B | ~$110.00 |
+| Round | Raised | Post-money | Pre-money | Price/Share | Secondary Mkt |
+|-------|--------|------------|-----------|-------------|---------------|
+| Series A | $2.5B | ~$30B | ~$27.5B | ~$27.50 | — |
+| Series B | $3.2B | ~$30B | ~$26.8B | ~$26.80 | — |
+| Series C | $5.6B | $45B | $39.4B | ~$39.40 | — |
+| Series D | $16B | $126B | $110B | ~$110.00 | — |
 
 *Series D investors paid 2.8x Series C price and 4x Series A/B price.*
+
+*Secondary market: No public trading data. As Alphabet subsidiary, share transfers likely restricted. Not listed on Forge, EquityZen, or similar platforms.*
 
 ### Series A (Mar 2020) — $2.5B at ~$30B valuation (est.)
 
