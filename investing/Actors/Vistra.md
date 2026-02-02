@@ -128,6 +128,19 @@ Re-rated as AI infrastructure.
 
 ---
 
+## Cogentrix acquisition (Jan 2026)
+
+| Metric | Value |
+|--------|-------|
+| Deal value | $4.7B |
+| Capacity | 5.5 GW natural gas |
+| Assets | 3 CCGT + 2 CT (PJM), 4 CCGT (ISO-NE), 1 cogen (ERCOT) |
+| Expected close | Mid-to-late 2026 |
+
+Expands gas fleet across PJM and New England. Post-close capacity: ~41 GW total.
+
+---
+
 ## PJM BYOG risk (Jan 2026)
 
 PJM's "Bring Your Own Generation" proposal threatens the existing-capacity grab strategy:
@@ -142,7 +155,7 @@ PJM's "Bring Your Own Generation" proposal threatens the existing-capacity grab 
 
 This is a shot across the bow for Vistra, Constellation, and Talen — incumbents who've ridden the AI wave by selling existing capacity at premium prices.
 
-*Updated 2026-01-21*
+*Updated 2026-02-02*
 
 ---
 

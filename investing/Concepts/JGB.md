@@ -1,6 +1,8 @@
+#concept #bonds #japan #rates
+
 # JGB
 
-Japanese Government Bonds — the world's second-largest sovereign bond market (~$9T outstanding). JGB yields rising is a global macro event because Japan has been the anchor of low rates for decades, funding carry trades worldwide.
+Japanese Government Bonds — the world's third-largest sovereign bond market (~$7.2T outstanding). JGB yields rising is a global macro event because Japan has been the anchor of low rates for decades, funding carry trades worldwide.
 
 ## Why JGBs matter globally
 
@@ -15,12 +17,17 @@ When JGB yields rise, Japanese capital repatriates → sells foreign bonds → g
 
 | Metric | Value |
 |--------|-------|
-| Outstanding | ~¥1,200T (~$9T) |
+| Outstanding | ~¥1,100T (~$7.2T) |
 | BOJ holdings | ~50% |
-| 10Y yield (Jan 2026) | ~1.2% |
-| 30Y yield (Jan 2026) | ~2.5% (record highs) |
+| Foreign share | 65% of monthly cash transactions (up from 12% in 2009) |
+| 10Y yield (Jan 2026) | ~1.8% |
+| 30Y yield (Jan 2026) | **~3.66%** (record highs post-crash) |
+| 40Y yield (Jan 2026) | **>4%** — first JGB maturity above 4% in 30+ years |
 
-The market is illiquid because BOJ absorbed so much supply. Price discovery is impaired.
+The market is dangerously illiquid because BOJ absorbed so much supply. Price discovery is impaired. See [[JGB crash January 2026]] — $280M of trading caused $41B wipeout.
+
+![[jgb-ownership-breakdown.png]]
+*BOJ holdings surged from ~10% (2012) to ~50%+ (2023), crowding out other buyers.*
 
 ## Yield history
 
@@ -70,10 +77,18 @@ See [[Carry trade]] for August 2024 unwind specifics.
 ## Current dynamics (Jan 2026)
 
 - BOJ raised rates to 0.5% in Dec 2025 — highest in 30 years
-- 30Y JGB yields at record highs (~2.5%)
-- Market pricing further normalization
-- Yen volatility elevated
+- **40Y yields >4%** — first JGB maturity above 4% in 30+ years
+- **30Y JGB yields at ~3.66%** (record highs post-Jan 21 crash)
+- Bloomberg dislocation index hit all-time high
+- Market structure fragility exposed — [[JGB crash January 2026]]
+- Big 4 life insurers: **$60B combined unrealized losses** on domestic bonds (4x prior year)
+- Foreign investors now 65% of cash trading volume
+- Japan has steepest yield curve among major markets (10Y-30Y spread ~140-160 bps)
 - Carry trade remains structural risk
+
+**BOJ QT:** Cutting monthly purchases — slowing from ¥400B/month reduction to ¥200B/quarter from April. Ueda said bank would increase purchases "in exceptional cases" to stabilize market.
+
+**Key risk:** $280M of trading caused $41B wipeout. Thin liquidity + constrained dealer balance sheets = vulnerable to further shocks.
 
 ## Investment implications
 
@@ -86,8 +101,11 @@ See [[Carry trade]] for August 2024 unwind specifics.
 
 ## Related
 
+- [[JGB crash January 2026]] — $280M trading → $41B wipeout
 - [[BOJ policy]] — policy framework driving JGB yields
 - [[Carry trade]] — JGBs as funding source
 - [[Treasuries]] — US comparison
 - [[Japan]] — macro context
 - [[VIX ETPs]] — vol spike during unwinds
+- [[UK gilt crisis]] — comparison (Truss moment)
+- [[Bond market fragility]] — structural theme

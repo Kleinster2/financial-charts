@@ -131,6 +131,7 @@ Multi-year contracts (like Meta-Corning) lock in supply amid tight capacity.
 
 ## Related
 
+- [[Dark fiber]] — unlit fiber infrastructure
 - [[Corning]] — largest fiber beneficiary
 - [[Meta]] — $6B fiber deal (Jan 2026)
 - [[AI Infrastructure]] — broader AI buildout

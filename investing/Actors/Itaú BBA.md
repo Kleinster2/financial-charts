@@ -145,6 +145,7 @@ Flávio Souza oversees Corporate & Investment Banking, Commercial Banking, Distr
 
 ### Concepts
 - [[Green bonds]] — growth area
+- [[Lei 4131]] — foreign currency loan framework; Itaú BBA arranges 4131 loans
 - [[Brazil]] — home market
 
 ---

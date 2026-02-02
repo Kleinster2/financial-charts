@@ -201,6 +201,7 @@ BRL is not fully convertible — no liquid deliverable offshore market.
 
 ## Related
 
+- [[Lei 4131]] — legal framework for USD loans to Brazilian corporates
 - [[Cross-currency swaps]] — uses cupom cambial as implied USD rate
 - [[Cross-currency basis]] — related CIP deviation concept
 - [[CDI]] — BRL floating rate benchmark

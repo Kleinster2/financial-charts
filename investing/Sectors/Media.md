@@ -25,6 +25,14 @@ Entertainment, streaming, gaming, and traditional media companies.
 | [[SiriusXM]] | SIRI | 150M | Satellite + Pandora, Liberty controlled |
 | [[iHeartMedia]] | IHRT | — | Radio, podcasts, events |
 
+### Music labels (Big 3)
+| Company | Ticker | Market share | Notes |
+|---------|--------|--------------|-------|
+| [[Universal Music Group]] | UMG (AMS) | ~32% | Largest, Interscope/Republic/Def Jam |
+| [[Sony]] (Sony Music) | SONY | ~22% | Columbia, RCA, Epic |
+| [[Warner Music Group]] | WMG | ~16% | Atlantic, Warner Records, Blavatnik-controlled |
+| [[Tencent Music]] | TME | — | China streaming, 126M subs |
+
 ### Gaming
 | Company | Ticker | Key IP | Notes |
 |---------|--------|--------|-------|

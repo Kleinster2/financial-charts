@@ -168,6 +168,7 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 
 ### Concepts
 - [[Fintech boom (2020-2021)]] — Brazil fintechs caught in global cycle
+- [[Lei 4131]] — foreign capital law, governs FDI registration and profit remittances
 
 ### Commodities
 - [[Companhia Brasileira de Alumínio|CBA]] — largest aluminum producer (480K t/yr), [[Votorantim]] subsidiary, [[Chinalco]] acquisition target

@@ -21,7 +21,7 @@ aliases: [Scala]
 | 2030 commitment | R$50B                        |
 | Key project     | Scala AI City (4.75GW)       |
 
-*Updated 2026-01-29*
+*Updated 2026-02-01*
 
 ---
 
@@ -244,7 +244,7 @@ Net debt more than doubled to fund expansion — justified by growth trajectory.
 | Role | Name | Background |
 |------|------|------------|
 | CEO, Co-Founder | [[Marcos Peigo]] | 20+ yrs tech/infra; ex-IBM VP LatAm, UOL Diveo COO |
-| CFO | Ana Paula Romantini | 28 yrs finance; ex-Santo Antônio Energia (13 yrs); USP, Insper MBA |
+| CFO | Clayton Malheiros | 25+ yrs; ex-Burger King Brazil (co-founder, IPO), Equatorial Energia, Pátria; PUC-RJ, IBMEC, Imperial College M&A, FGV MBA |
 | Corporate VP | Luciano Fialho | 20+ yrs M&A/finance/legal; MIT MBA, USP doctorate |
 | Chief of Staff, VP Marketing & Sustainability | Christiana Weisshuhn | Top 100 Women 2025 (DC Magazine) |
 | Chief of Staff | Décio Miname | 30+ yrs IT; ex-IBM, Motorola, UOL Diveo; UNICAMP |

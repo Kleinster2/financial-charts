@@ -19,6 +19,44 @@ Guidelines for folder structure, note hierarchy, and finding links.
 
 ---
 
+## Sector composition rules
+
+Sectors are **correlation clusters**, not GICS categories. Three rules:
+
+| Rule | Rationale |
+|------|-----------|
+| **Actual correlation** | Group what moves together in markets |
+| **Private peers included** | Same competitive dynamics, even without ticker |
+| **Segments as peers** | Alienware with gaming hardware, not with Dell |
+
+This makes sectors into **competitive landscapes**. Alienware competes with Razer, not Dell's PowerEdge servers.
+
+**Practical use:** Sector peers define comparison chart groups. A Corsair chart compares to Razer, MSI, Logitech — not random GICS "Technology Hardware" peers.
+
+### Structure template
+
+```
+### Public pure-play
+- Ticker, exchange, focus
+
+### Segments (parent diversified)
+- Segment → [[Parent]]
+
+### Private
+- Company, focus
+```
+
+### Why not GICS?
+
+| GICS | Vault sectors |
+|------|---------------|
+| 11 fixed sectors | 80+ flexible clusters |
+| Mutually exclusive | Overlapping allowed |
+| Company-level | Segments can belong to peers |
+| Static | Evolves with investment focus |
+
+---
+
 ## Concept vs Sector hub
 
 | | **Concept** | **Sector Hub** |

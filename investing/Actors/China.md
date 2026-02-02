@@ -52,7 +52,61 @@ Cement tells the construction story most clearly — after decades of growth, Ch
 
 ### Monetary policy
 
-**PBOC:** Held 1-year and 5-year LPR at 3%/3.5% — 8th consecutive month unchanged.
+**[[PBOC]]:** Held 1-year and 5-year LPR at 3.1%/3.6% — 8th consecutive month unchanged.
+
+**Policy stance:** "Moderately loose" — first use of this language since 2008 financial crisis.
+
+---
+
+## Bond market dynamics (Feb 2026)
+
+Chinese banks are deploying excess cash into government bonds, compressing long-end yields despite heavy issuance.
+
+### Mechanism
+
+1. [[PBOC]] injected net **1 trillion yuan** ($144B) via MLF and outright reverse repo (Jan 2026)
+2. Bank deposits elevated, loan demand weak
+3. 1-year [[China NCD|NCD]] yields crushed to ~1.6% (near 1-year lows)
+4. 30-year CGB yields at ~2.3% = **60+ bps spread** (widest since 2022)
+5. Banks bid for duration → long-end yields decline
+
+### Bank funding costs vs bond yields
+
+| Metric | Yield | Notes |
+|--------|-------|-------|
+| 1-year NCD | ~1.6% | Bank funding cost |
+| 10-year CGB | ~1.8% | Near Nov lows |
+| 30-year CGB | ~2.3% | Recovering from 2024 highs |
+| **Carry (30y - NCD)** | **~60+ bps** | Incentive for duration extension |
+
+### Regulatory tailwind
+
+Chinese regulators loosened interest rate risk measures (per Basel standards) from Jan 2026. This expanded banks' capacity to hold longer-duration bonds.
+
+### Supply absorption
+
+| Metric | 2026 |
+|--------|------|
+| Jan issuance (central + local) | 1.8T yuan |
+| Long-tenor share (15y+) | ~30% |
+| Full-year long-bond estimate | 7.12T yuan (+700B vs 2025) |
+
+Despite heavy issuance concentrated in long tenors, bank buying is absorbing supply. 7-year auction bids hit all-time high relative to debt sold.
+
+### Equity-bond rotation
+
+As regulators dampened the equity rally, capital rotated from stocks back to bonds. Shanghai Composite cooled from January highs, reinforcing the bid for government debt.
+
+### Analyst views
+
+| Firm | 10-year CGB range |
+|------|-------------------|
+| CGS International | 1.7% - 2.1% |
+| Nanhua Futures | Expects curve flattening (10y-30y spread to narrow) |
+
+*Source: Bloomberg, Feb 2026*
+
+---
 
 ### Stimulus (Jan 2026)
 
@@ -335,10 +389,12 @@ Bulls on China exposure would say:
 
 ---
 
-*Updated 2026-01-21*
+*Updated 2026-02-02*
 
 ## Related
 
+- [[PBOC]] — central bank, liquidity injections
+- [[China NCD]] — bank funding benchmark
 - [[Export controls]] — US policy constraining chip access
 - [[TSMC]] — customer (constrained by [[N-2 rule]])
 - [[Samsung]] — has China fabs (VEU risk)

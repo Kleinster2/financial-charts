@@ -110,3 +110,69 @@ Include:
 - Book value per share
 - Tangible book value per share
 - AUM (if wealth management segment)
+
+---
+
+## Crypto Tokens
+
+Tokens use different metrics than equities. **Do not use revenue/margins/EPS.**
+
+### Required metrics
+
+| Metric | What it measures |
+|--------|------------------|
+| **Price** | Current token price (USD) |
+| **Market cap** | Circulating supply × price |
+| **FDV** | Fully diluted valuation — total supply × price |
+| **Circulating supply** | Tokens currently tradeable |
+| **Total supply** | Max tokens that will ever exist |
+| **FDV/MC ratio** | Dilution indicator (>2x = significant unlocks ahead) |
+| **Volume (24h)** | Trading activity, liquidity proxy |
+| **TVL** | Total value locked (DeFi protocols only) |
+| **Holders** | Wallet count, concentration |
+
+### Token economics table
+
+| Metric | Value |
+|--------|-------|
+| Token | TOKEN |
+| Price | $X.XX |
+| Market cap | $X.XB |
+| FDV | $X.XB |
+| Circulating supply | X.XB (XX%) |
+| Total supply | X.XB |
+| 24h volume | $XXM |
+
+### Unlock schedule (critical)
+
+| Period | Amount | % of supply | Recipient |
+|--------|--------|-------------|-----------|
+| Launch | 150M | 15% | Public sale |
+| Month 12 (cliff) | 100M | 10% | Team/investors |
+| Months 13-48 | 20M/mo | 2%/mo | Linear vest |
+| Ongoing | 50M/yr | 5%/yr | Ecosystem grants |
+
+**Always include:**
+- Cliff dates (when large unlocks hit)
+- Weekly/monthly unlock amounts
+- End date of major vesting
+- Link to [[Token unlocks]] concept
+
+### Allocation breakdown
+
+| Category | % | Tokens | Lock period |
+|----------|---|--------|-------------|
+| Community/airdrops | 60% | 6B | Gradual |
+| Team | 15% | 1.5B | 4-year vest, 1-year cliff |
+| Investors | 15% | 1.5B | 2-year vest, 6-mo cliff |
+| Treasury | 10% | 1B | DAO-controlled |
+
+### Historical prices (optional)
+
+| Date | Price | Market cap | Event |
+|------|-------|------------|-------|
+| Launch | $0.10 | $100M | TGE |
+| ATH | $5.00 | $2.5B | Bull market peak |
+| Current | $0.50 | $500M | — |
+
+*Source: CoinGecko/CoinMarketCap, [date]*

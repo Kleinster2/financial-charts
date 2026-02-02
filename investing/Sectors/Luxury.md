@@ -135,7 +135,7 @@ Luxury brands are **buying** flagship locations rather than leasing — a struct
 - [[Fifth Avenue luxury corridor]] — owned real estate trend
 - [[Retail real estate as hidden value]] — broader concept
 - [[LVMH]] · [[Hermès]] · [[Richemont]] · [[Kering]] · [[Prada]] · [[OTB]] — key conglomerates
-- [[Chanel]] · [[Valentino]] · [[Moncler]] · [[Burberry]] · [[Balmain]] — other luxury houses
+- [[Chanel]] · [[Valentino]] · [[Moncler]] · [[Burberry]] · [[Balmain]] · [[Goyard]] — other luxury houses
 - [[Maison Margiela]] · [[Jil Sander]] · [[Diesel]] — OTB brands
 - [[Chloé]] · [[Saint Laurent]] — Richemont/Kering fashion
 - [[Mayhoola]] — Qatar sovereign investor (Valentino, Balmain)

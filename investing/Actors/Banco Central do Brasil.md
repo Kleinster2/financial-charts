@@ -169,6 +169,9 @@ See [[Time consistency#Brazil 2011-2016 — Dilma Rousseff]]
 
 ## Related
 
+### Regulation
+- [[Lei 4131]] — foreign capital law; BCB administers registration
+
 ### Leadership
 - [[Gabriel Galípolo]] — current president (create)
 - [[Roberto Campos Neto]] — predecessor (create)

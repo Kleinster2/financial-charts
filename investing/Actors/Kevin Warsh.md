@@ -77,9 +77,12 @@ Trump named Warsh as his pick to replace [[Jerome Powell]].
 | S&P 500 | -0.4% | |
 | Nasdaq | -0.6% | |
 | Dollar | ↑ | Credibility boost |
-| Gold | ↓↓ | Safe haven unwind |
+| **Gold** | **-9%** | Worst day in decade; safe haven unwind |
+| **Silver** | **-26%** | Largest single-day drop on record |
 | XLF | Stable | Deregulation, steeper curve |
 | KRE | Outperform | Dodd-Frank relief expected |
+
+**Precious metals crash:** The nomination triggered the [[Silver crash January 2026]] — silver plunged 26% ($40/oz) in under 20 hours, the largest single-day drop on record. Gold fell 9%, its worst day in over a decade. The dollar rally unwound a speculative [[Gamma squeeze]] that had driven silver to $121/oz and gold to $5,595/oz.
 
 **Curve steepened** — Warsh seen as more hawkish long-term but aligned with Trump on near-term cuts.
 

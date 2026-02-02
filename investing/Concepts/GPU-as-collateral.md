@@ -181,7 +181,7 @@ GPU financing commands premium rates due to higher risk.
 
 - [[AI infrastructure financing]] — broader context
 - [[AI infrastructure deals]] — detailed case studies
-- [[AI infrastructure SPVs]] — alternative structure
+- [[AI infrastructure vehicles]] — alternative structure
 - [[CoreWeave]] — pioneer ($7.5B Blackstone)
 - [[xAI]] — Colossus ($12.5B debt portion)
 - [[Blackstone]] — key lender

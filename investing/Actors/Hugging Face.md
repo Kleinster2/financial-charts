@@ -3,7 +3,7 @@ aliases: [HF]
 ---
 #actor #ai #opensource #usa #private
 
-**Hugging Face** — "GitHub for ML." $4.5B valuation. 120k+ open-source models. Used by everyone.
+**Hugging Face** — "GitHub for ML." $7B valuation. 1M+ open-source models. Used by everyone.
 
 ---
 
@@ -13,11 +13,13 @@ The platform where AI models live:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | $4.5B |
-| Total raised | $396M |
-| Models hosted | 120,000+ |
-| Datasets | 20,000+ |
-| Corporate users | 7,700+ |
+| Valuation | $7B (Aug 2025) |
+| Total raised | $1.7B |
+| Models hosted | 1,000,000+ |
+| Datasets | 250,000+ |
+| Registered users | 5M |
+| Monthly visitors | 18M |
+| Corporate users | 10,000+ |
 
 ---
 
@@ -43,7 +45,8 @@ The platform where AI models live:
 | Series B | 2021 | $40M | — |
 | Series C | 2022 | $100M | $2B |
 | Series D | 2023 | $235M | $4.5B |
-| **Total** | | **$396M** | |
+| Series E | Aug 2025 | ~$500M | $7B |
+| **Total** | | **$1.7B** | |
 
 **Key investors:**
 
@@ -78,7 +81,7 @@ The platform where AI models live:
 
 **Enterprise clients:** [[Microsoft]], [[Intel]], [[eBay]], 1,000+ companies.
 
-**Revenue:** ~$70M ARR (2023), growing 367% YoY.
+**Revenue:** ~$70M ARR (2023), growing 367% YoY. Consulting contracts with [[NVIDIA]], [[Amazon]], [[Microsoft]] drove growth.
 
 ---
 
@@ -152,12 +155,12 @@ Hugging Face = where models are discovered.
 | Metric | Value |
 |--------|-------|
 | Ticker | Private |
-| Valuation | $4.5B |
-| Total raised | $396M |
-| Models hosted | 120k+ |
+| Valuation | $7B |
+| Total raised | $1.7B |
+| Models hosted | 1M+ |
 | CEO | Clement Delangue |
 
-*Updated 2026-01-01*
+*Updated 2026-02-02*
 
 ---
 

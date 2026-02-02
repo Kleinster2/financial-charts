@@ -159,8 +159,17 @@ Abu Dhabi sovereign funds are among BlackRock's most important global clients �
 
 ---
 
+## Altice exposure
+
+**Altice France:** BlackRock, Fidelity, and PIMCO took 45% equity stake in Feb 2025 restructuring that wiped €8.6B debt. [[Patrick Drahi]] retained 55% control.
+
+**Altice USA:** Sued by [[Altice]] (now Optimum) alongside [[Apollo]] and [[Ares Management]] in late 2025, alleging "illegal cartel" among lenders holding majority of $26B debt.
+
+---
+
 ## Related
 
+- [[Altice]] — France equity stake, USA debt exposure/litigation
 - [[Abu Dhabi Sovereign Wealth]] — major sovereign client ecosystem
 - [[ADIA]] — $14B+ allocation
 - [[Mubadala]] — $30B AI infrastructure partnership

@@ -120,6 +120,44 @@
 
 ---
 
+## Pillar 6: FCF deficit & xAI capital drain (NEW)
+
+**Evercore forecasts $5-7B cash burn in 2026:**
+
+![[tsla-fcf-evercore.png]]
+*FCF peaked at ~$8B in 2022, now projected to go deeply negative.*
+
+| Metric | 2025 | 2026E | Swing |
+|--------|------|-------|-------|
+| Free cash flow | ~$6B | **-$5 to -$7B** | -$11-13B |
+| Capex | ~$10B | **>$20B** | +$10B+ |
+
+*Source: Bloomberg, Evercore ISI (Jan 2026)*
+
+**Where the cash goes:**
+- $2B committed to [[xAI]]
+- Capex more than doubling (EV plants, batteries, robots, AI infra)
+- Tesla selling Megapacks to xAI ($430M in 2024)
+
+**The xAI entanglement:**
+- xAI burning ~$1B/month (~$11B for 2025)
+- X carrying ~$13B debt (interest = half of revenue)
+- Merger speculation: Tesla/SpaceX/xAI combinations under discussion
+
+**Ownership math:**
+
+| Company | Musk stake |
+|---------|------------|
+| xAI | 51% |
+| [[SpaceX]] | 42% |
+| Tesla | **11%** |
+
+A merger would increase Musk's combined stake. Tesla shareholders would be diluted while funding his AI ambitions.
+
+**Bear thesis:** Tesla is becoming a piggy bank for Musk's AI empire while its core auto business declines
+
+---
+
 ## Key risks to short
 
 | Risk | Probability | Impact |
@@ -165,6 +203,10 @@
 
 | Date | Evidence | Direction |
 |------|----------|-----------|
+| **2026-01-30** | **Evercore: $5-7B FCF deficit forecast for 2026** | **Bearish** |
+| **2026-01-30** | **Tesla/SpaceX/xAI merger speculation (Bloomberg)** | **Bearish** |
+| **2026-01-28** | **$2B Tesla investment in xAI announced** | **Bearish** |
+| **2026-01-28** | **Capex guidance >$20B (doubling YoY)** | **Bearish** |
 | 2026-01-12 | L&F contract collapsed ($2.9B → $7K) | Bearish |
 | 2026-01-02 | Q4 deliveries miss (418K vs 426K expected) | Bearish |
 | 2025-12 | Austin unsupervised FSD testing started | Neutral |

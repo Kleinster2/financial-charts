@@ -64,6 +64,7 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 | **Showtime** | Premium cable (merged into Paramount+) |
 | **Pluto TV** | FAST leader (80M+ MAU) |
 | **NFL rights** | CBS Sunday games |
+| **Grammy Awards** | CBS broadcast (Fulwell 73 produces) |
 
 ---
 

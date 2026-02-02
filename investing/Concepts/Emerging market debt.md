@@ -107,8 +107,24 @@ EM debt highly sensitive to USD:
 
 ---
 
+## Country spotlight: India
+
+[[India]] represents a key EM local currency market. FY2026 budget (Feb 2026) announced record borrowing:
+
+| Metric | Value |
+|--------|-------|
+| Gross borrowing | ₹17.2T ($187B), +18% YoY |
+| Fiscal deficit | 4.3% of GDP |
+| 10Y yield | 6.73%, could push to 7% |
+
+Pressure from supply (record issuance + state borrowing) and weak demand (pension funds, RBI FX interventions draining liquidity). See [[India FY2026 budget]].
+
+---
+
 ## Related
 
+- [[India FY2026 budget]] — record issuance announcement
+- [[Lei 4131]] — Brazil's foreign capital framework (example of EM regulatory structure)
 - [[High yield bonds]] — similar risk profile
 - [[Investment grade bonds]] — lower risk comparison
 - [[US dollar]] — key driver

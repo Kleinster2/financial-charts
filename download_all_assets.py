@@ -92,7 +92,7 @@ ETF_TICKERS = [
     "^GSPC", "^DJI", "^IXIC", "^RUT",  # US: S&P 500, Dow, Nasdaq, Russell 2000
     "^N225", "^FTSE", "^GDAXI", "^FCHI", "^STOXX50E", "^IBEX", "^AEX",  # Asia/Europe
     "^BVSP", "^MXX", "^GSPTSE",  # Americas
-    "^AXJO", "^HSI", "^NSEI", "^BSESN", "^KS11", "^TWII", "^STI",  # Asia-Pacific
+    "^AXJO", "^HSI", "^NSEI", "^BSESN", "^KS11", "^KQ11", "^TWII", "^STI",  # Asia-Pacific
     # Additional Vanguard ETFs
     "VIG", "VUG", "VTV", "VYM", "VGT", "VNQ", "VB", "VBR", "VOO", "IVV",
     "VEA", "VXUS", "VT", "VEU", "SCZ", "DXJ", "HEDJ",

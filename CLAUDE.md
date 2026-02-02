@@ -113,6 +113,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 - No titles needed — legend suffices
 - Always add italicized interpretation below charts
 - Verify output by reading generated images
+- **Charts must live in notes** — never save to attachments without embedding in a relevant note
 
 ---
 

@@ -9,9 +9,45 @@
 | Business | Status | Relevance |
 |----------|--------|-----------|
 | **New Glenn** | First launch 2024 | Heavy-lift rocket |
-| **New Shepard** | Operational | Suborbital tourism |
-| **Lunar lander** | NASA contract | Artemis program |
+| **New Shepard** | **Paused** (Jan 2026) | Suborbital tourism |
+| **Blue Moon** | NASA contract | [[Artemis]] V lander ($3.4B) |
 | **[[Space]] data centers** | Vision | 10-20 year timeline |
+
+---
+
+## New Shepard pause (Jan 2026)
+
+**Halting space tourism to focus on lunar program:**
+
+| Detail | Value |
+|--------|-------|
+| Announced | Jan 30, 2026 |
+| Duration | **2+ years minimum** |
+| Last flight | Jan 22, 2026 |
+| Reason | Redirect resources to [[Artemis]] lunar lander |
+
+New Shepard flew 38 missions, carried 98 humans above Kármán line (including Bezos, Shatner, Katy Perry, Michael Strahan).
+
+**Signal:** Blue Origin prioritizing $3.4B NASA contract over tourism revenue. Blue Moon Mk 1 uncrewed lunar landing targeted for 2026; Mk 2 crewed lander for [[Artemis]] V (~2030).
+
+---
+
+## [[Artemis]] lunar lander
+
+**Blue Moon program:**
+
+| Variant | Mission | Timeline |
+|---------|---------|----------|
+| **Mk 1** | Uncrewed demo + VIPER delivery | 2026 |
+| **Mk 2** | Crewed landing ([[Artemis]] V) | ~2030 |
+
+| Financial | Value |
+|-----------|-------|
+| NASA contract | **$3.4B** |
+| Blue Origin contribution | $3.5B+ additional |
+| Total development | ~$7B |
+
+Second human landing system after [[SpaceX]] Starship HLS.
 
 ---
 
@@ -96,14 +132,16 @@ SpaceX far ahead on execution; Blue Origin catching up.
 | Founder | [[Jeff Bezos]] |
 | Employees | ~10,000 |
 
-*Updated 2026-01-15*
+*Updated 2026-02-02*
 
 ---
 
 ## Related
 
+- [[Artemis]] — Blue Moon lander ($3.4B contract)
 - [[SpaceX]] — competitor (Musk)
 - [[Space data centers]] — Bezos vision (10-20 years)
 - [[Power constraints]] — problem space DCs solve
 - [[Amazon]] — Bezos's other company (Kuiper satellite)
 - [[Jeff Bezos]] — founder
+- [[Tory Bruno]] — joined Dec 2025 (former ULA CEO)

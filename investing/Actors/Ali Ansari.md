@@ -70,18 +70,43 @@ Ansari's own phrase for his protection strategy: **give every faction a share so
 
 **The result:** Cross-factional complicity. Every faction had reason to block investigation.
 
-### Mojtaba Khamenei link
+### [[Mojtaba Khamenei]] link
 
-Documented proximity to **Mojtaba Khamenei**, son of Supreme Leader Ali Khamenei.
+Principal intermediary for [[Mojtaba Khamenei]]'s offshore empire. Western intelligence assessment identifies Ansari as vital to the deals.
 
-- [[UK]] reports: Ansari's companies (including Iran Mall International Development Company) allegedly act as fronts for money laundering tied to Mojtaba's network
-- Social media in Iran: Users pointed to Mojtaba connection when Ayandeh collapsed, arguing it shielded Ansari from scrutiny
+| Detail | Value |
+|--------|-------|
+| First meeting | Late 1980s, Iran-Iraq War |
+| Private meetings | House in Tehran's Zafaraniyeh district |
+| Business meetings | Ayandeh Bank offices |
+| Role | Primary account holder for Mojtaba's network |
 
-**What this meant:**
+**The network:**
+- Ansari holds assets that trace back to Mojtaba through shell companies
+- Funds originate primarily from Iranian oil sales
+- UK property (£100M+), European hotels, UAE villa
+- Routing through Swiss, Liechtenstein, UAE banks
+
+**Ansari's denial:** Through lawyer, "strongly denies that he has ever had any financial or personal relationship with Mojtaba Khamenei."
+
+**What this meant domestically:**
 - Regulatory scrutiny avoided for years
-- Criminal charges didn't stick
+- Criminal charges didn't stick (2022 embezzlement)
 - Bank allowed to operate obvious Ponzi dynamics
 - CBI continued lending despite insolvency
+
+### Moris Mashali — co-director
+
+Iranian-born British solicitor. Co-director with Ansari at multiple offshore entities.
+
+| Entity | Shared role |
+|--------|-------------|
+| Ziba Leisure Ltd | Directors |
+| Allsco Gravenbruch (Frankfurt hotel) | Mashali is MD |
+| Veritas Reales Investment Ltd | Directors |
+| A&A Leisure Ltd | Directors (dissolved 2024) |
+
+Mashali stated connection to Ansari was as "regulated lawyer providing legal advice."
 
 ### Ahmadinejad administration
 
@@ -174,26 +199,72 @@ Public deposits → Ayandeh (high rates promised)
 
 ## International assets
 
-### [[UK]] property
+### [[UK]] property (£100M+ network)
 
-| Detail | Value |
-|--------|-------|
-| Property | Mansion on Bishop's Avenue ("Billionaire's Row"), North London |
-| Value | £33.7 million |
-| Holding vehicle | Birch Ventures Limited (Isle of Man company) |
-| Service address | Dubai |
-| Features | 8 bedrooms, 3 reception rooms, indoor pool, cinema, games rooms, library |
-| Total [[UK]] real estate | £73 million+ |
+| Property | Location | Value | Vehicle |
+|----------|----------|-------|---------|
+| Mansion | The Bishops Avenue ("Billionaires Row") | £33.7M (2014) | Birch Ventures Ltd |
+| Multiple properties | The Bishops Avenue | — | Birch Ventures Ltd |
+| Other properties | Exclusive London neighborhoods | — | Various |
+| **Total UK** | — | **£100M+** | — |
+
+**Birch Ventures Ltd:** Isle of Man registered. Ansari listed as sole active beneficial owner in UK Companies House records.
+
+### European hotels
+
+| Property | Location | Holding structure |
+|----------|----------|-------------------|
+| Hilton Frankfurt Gravenbruch | Frankfurt, Germany | Allsco Gravenbruch Hotelbetriebsgesellschaft (owned by Ziba Leisure) |
+| Hotel | Mallorca, Spain | — |
+
+**Frankfurt hotel:** Spa, country club, two ballrooms. Hosts international stars and heads of state. Rebranded under Hilton 2024. Managing director: Moris Mashali.
+
+### UAE property
+
+| Property | Location |
+|----------|----------|
+| Villa | "Beverly Hills of Dubai" |
+
+### Divested properties
+
+| Property | Location | Sale |
+|----------|----------|------|
+| Penthouse | Four Seasons Private Residences, Toronto | C$10.5M (2020) |
+| Building section | Paris | 2023 |
+
+### Shell company network
+
+| Entity | Jurisdiction | Role |
+|--------|--------------|------|
+| **Birch Ventures Ltd** | Isle of Man | UK property |
+| **Ziba Leisure Ltd** | St. Kitts & Nevis | Hotels, financial routing |
+| **A&A Leisure Ltd** | UK | Dissolved 2024 |
+| **Midas Oil Industries FZC** | UAE | Oil/funds routing |
+| **Midas Oil Trading DMCC** | UAE | Oil/funds routing |
+| **Allsco Gravenbruch Hotelbetriebsgesellschaft** | Germany | Frankfurt hotel |
+| **Veritas Reales Investment Ltd** | UK | Investment vehicle |
+
+### Banking relationships
+
+Funds routed through accounts at banks in:
+- UK
+- Switzerland
+- Liechtenstein
+- UAE
+
+**Example flow:** UAE intermediary → Abu Dhabi Islamic Bank → Ziba Leisure (per SWIFT messages, Bloomberg).
 
 ### Other passports
 
-| Citizenship | Status |
-|-------------|--------|
-| **Iran** | Primary |
-| **Cyprus** | Reported |
-| **St. Kitts & Nevis** | Reported (CBI passport program) |
+| Citizenship | Status | Purpose |
+|-------------|--------|---------|
+| **Iran** | Primary | — |
+| **Cyprus** | 2016 | Enabled European accounts, masked Iranian ties |
+| **St. Kitts & Nevis** | CBI passport | Caribbean entity formation |
 
-The multiple passports enabled international asset placement while maintaining Iranian base.
+Cyprus passport under investigation for potential revocation due to IRGC/Khamenei links.
+
+The multiple passports enabled international asset placement while masking Iranian political connections.
 
 ---
 
@@ -261,6 +332,10 @@ Ansari is the template for **regime-connected extraction** in Iran:
 
 ## Related
 
+### Offshore network
+- [[Mojtaba Khamenei]] — principal for offshore empire
+- [[SETAD]] — Supreme Leader's wealth vehicle (separate from Mojtaba's network)
+
 ### Comparison
 - [[Ayandeh-Master comparison]] — parallel collapse one month apart ([[Brazil]] Nov 2025); same [[Bank cronyism]] pattern, different outcomes
 
@@ -269,6 +344,7 @@ Ansari is the template for **regime-connected extraction** in Iran:
 - [[Iranian banking]] — sector context
 - [[Iranian economic collapse]] — Ayandeh as accelerant
 - [[Iran]] — country context
+- [[IRGC]] — Ansari sanctioned for IRGC financing
 
 ### Pattern
 - [[Bank cronyism]] — the pattern (Ansari as case study)
@@ -279,4 +355,4 @@ Ansari is the template for **regime-connected extraction** in Iran:
 
 ---
 
-*Created 2026-01-18*
+*Updated 2026-02-01 with Bloomberg investigation details. Created 2026-01-18.*

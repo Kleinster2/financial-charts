@@ -55,9 +55,10 @@
 - Iron, furniture, mobile phone markets
 
 **Political protection:**
-- Documented proximity to **Mojtaba Khamenei** (Supreme Leader's son)
+- Primary intermediary for [[Mojtaba Khamenei]]'s offshore empire (Supreme Leader's son)
 - Charged with embezzlement in 2022 — escaped prosecution
 - Connections shielded him from scrutiny for years
+- Also controls £100M+ UK property, European hotels for Khamenei network
 
 **Who knew and when:**
 
@@ -252,7 +253,9 @@ See [[Ayandeh-Master comparison]] for full analysis.
 
 ## Related
 
-- [[Ali Ansari]] — founder, extracted $1B+
+- [[Ali Ansari]] — founder, extracted $1B+, Khamenei intermediary
+- [[Mojtaba Khamenei]] — principal behind Ansari's network
+- [[SETAD]] — Supreme Leader's separate $95B+ vehicle
 - [[Iranian banking]] — sector context, systemic crisis
 - [[Iranian economic collapse]] — Ayandeh as accelerant
 - [[Bank cronyism]] — the pattern (Ayandeh as case study)
@@ -265,4 +268,4 @@ See [[Ayandeh-Master comparison]] for full analysis.
 
 ---
 
-*Created 2026-01-18*
+*Updated 2026-02-01. Created 2026-01-18.*

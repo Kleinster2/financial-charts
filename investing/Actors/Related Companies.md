@@ -99,8 +99,17 @@ Related is both a developer (merchant builder) and long-term owner — unlike pu
 
 ---
 
+## Equinox ownership
+
+Related Companies is majority owner of [[Equinox]] (since 2006). Stephen Ross led investment in luxury fitness. [[L Catterton]] is minority investor.
+
+**Blink Fitness:** Budget gym brand owned by Equinox filed Chapter 11 bankruptcy in August 2024 — €280M+ debt, 100+ locations. Equinox parent not affected.
+
+---
+
 ## Related
 
+- [[Equinox]] — majority owned fitness brand
 - [[Private Real Estate]] — sector hub
 - [[Housing]] — residential development
 - [[Data Centers]] — Related Digital platform

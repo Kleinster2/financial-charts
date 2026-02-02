@@ -129,8 +129,17 @@ Apollo is a top destination for Abu Dhabi sovereign capital seeking private cred
 
 ---
 
+## Altice USA litigation
+
+[[Altice]] (now Optimum Communications) sued Apollo, [[Ares Management]], and [[BlackRock]] in late 2025, alleging an "illegal cartel" among lenders holding majority of its $26B debt. Lawsuit claims cooperation agreement barred one-on-one negotiations unless two-thirds of creditors consented.
+
+Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telecom empire restructures.
+
+---
+
 ## Related
 
+- [[Altice]] — $26B debt exposure, litigation
 - [[Abu Dhabi Sovereign Wealth]] — major sovereign client ecosystem
 - [[Mubadala]] — $12B private credit anchor
 - [[Marc Rowan]] — CEO & Chairman, co-founder, architect of credit/insurance model

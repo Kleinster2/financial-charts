@@ -87,9 +87,16 @@ Beneficiary of bank deleveraging.
 
 ---
 
+## Altice USA litigation
+
+[[Altice]] (now Optimum Communications) sued Ares, [[Apollo]], and [[BlackRock]] in late 2025, alleging an "illegal cartel" among lenders holding majority of its $26B debt. [[Patrick Drahi]]'s aggressive creditor management as his telecom empire restructures.
+
+---
+
 ## Related
 
-- [[Apollo]] — peer (alts)
+- [[Altice]] — $26B debt exposure, litigation
+- [[Apollo]] — peer (alts), co-defendant in Altice suit
 - [[Blackstone]] — peer (alts)
 - [[Blue Owl]] — peer (direct lending)
 - [[Oaktree Capital]] — peer (credit)

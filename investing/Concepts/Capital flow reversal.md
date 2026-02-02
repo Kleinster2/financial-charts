@@ -222,6 +222,7 @@ See [[China economic transition]] — traditional economy lost 5pp of GDP (2023-
 
 ## Related
 
+- [[Lei 4131]] — Brazil's legal framework for FDI registration
 - [[Nearshoring thesis]] — [[Mexico]] caught in middle
 - [[CATL]] — [[Germany]] factory, Indonesia battery plant
 - [[Rare earth leverage]] — [[China]] capital funding supply chain control

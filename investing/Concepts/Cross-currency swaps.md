@@ -245,6 +245,7 @@ New infrastructure debenture framework:
 
 ## Related
 
+- [[Lei 4131]] — Brazil's foreign capital law; swaps often hedge 4131 loan FX exposure
 - [[Scala Data Centers]] — example: BRL debentures + USD swap
 - [[Aura Minerals]] — comparable transaction
 - [[CDI]] — Brazilian floating rate benchmark

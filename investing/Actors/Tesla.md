@@ -65,6 +65,52 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 - Investing **$2B in [[xAI]]** (Musk's AI company)
 - FSD active subscriptions hit 1.1M milestone
 - Robotaxi production on track for April 2026
+- Capex guidance: **>$20B for 2026** (more than doubling)
+
+---
+
+## 2026 cash flow crisis (Evercore forecast)
+
+**Wall Street bracing for FCF deficit:**
+
+![[tsla-fcf-evercore.png]]
+*Evercore sees $5-7B cash flow deficit in 2026 — a potential $13B swing from 2022 peak.*
+
+| Metric | 2025 | 2026E | Swing |
+|--------|------|-------|-------|
+| Free cash flow | ~$6B | **-$5 to -$7B** | -$11-13B |
+| Capex | ~$10B | **>$20B** | +$10B+ |
+| Cash on hand | $44B | Declining | — |
+
+*Source: Bloomberg, Evercore ISI (Jan 2026)*
+
+**Drivers:**
+- Capex more than doubling for EV ramp, battery plants, robots
+- $2B committed to [[xAI]]
+- AI infrastructure for FSD training and [[Tesla Optimus]] "brain"
+- [[Tesla Energy]] expansion (Houston 50 GWh Megablock plant)
+
+**The xAI entanglement:**
+- [[xAI]] burning ~$1B/month
+- Tesla sold $430M in [[Megapack]]s to xAI in 2024
+- Grok integration in Tesla vehicles
+- xAI to power Optimus humanoid robots
+- **Merger speculation:** Tesla/SpaceX/xAI combination under discussion
+
+**Musk ownership math:** 11% Tesla, 42% [[SpaceX]], 51% [[xAI]] — merger would increase his combined stake significantly
+
+**$1T pay package implications:**
+- Tesla shareholders approved blockbuster pay package (2024)
+- Milestones would be adjusted for any merger per agreement terms
+- SpaceX in fold = additional growth avenues to hit targets
+- Bloomberg Intel view: SpaceX-xAI merger (without Tesla) may avoid distraction from pay package milestones
+
+**Retail shareholder angle:**
+- Tesla's devoted retail base could shape merger reception
+- @TeslaBoomerMama (220K followers): merger would "give retail shareholders in the only public company... the right to participate in the other two"
+- Many retail investors already view Tesla/SpaceX/xAI as one ecosystem
+
+**Risk:** Tesla becoming a piggy bank for Musk's AI ambitions while core auto business declines
 
 ---
 
@@ -202,7 +248,8 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 
 ## For theses
 
-**[[Short Tesla]]**: 4680 failure, FSD delays, valuation disconnect
+**[[Short Tesla]]**: 4680 failure, FSD delays, valuation disconnect, FCF deficit
+**[[AI capex arms race]]**: Tesla as cash source for Musk's AI ambitions
 **[[Short TSMC long Korea]]**: If Tesla/xAI anchor Samsung, bullish Korea
 **[[Automotive semiconductors]]**: Major EV maker, demand signal for auto semis
 **[[Long TSMC]]**: Dojo currently TSMC
@@ -310,7 +357,7 @@ See [[Short interest]] for interpretation framework.
 | Energy business | ~$12.75B/year |
 | Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
 
-*Updated 2026-01-28 (Q4 2025 earnings)*
+*Updated 2026-02-01 (Q4 2025 earnings + Evercore FCF forecast)*
 
 ![[tsla-price-chart.png]]
 

@@ -30,9 +30,16 @@ aliases: [DBRG]
 - DigitalBridge's Vantage building Stargate Wisconsin (~1GW)
 - Deep LP relationships — SoftBank (proven capital raiser) + DigitalBridge investor network = fundraising synergies
 
-**SoftBank also:** In talks to acquire Switch separately at ~$50B. Sold entire [[NVIDIA]] stake ($5.83B) to fund AI infrastructure.
+**Why two deals?** SoftBank needs separate transactions because DBRG doesn't own the assets — it manages them for LPs:
 
-**Why only $4B for $108B AUM?** Asset manager math — DBRG doesn't own the $108B, they manage it for LPs:
+| Transaction | What SoftBank buys | Seller | Price |
+|-------------|-------------------|--------|-------|
+| **DBRG acquisition** | Management company (GP) | DBRG shareholders | $4B |
+| **Switch acquisition** | The actual DC asset | Fund LPs | ~$50B |
+
+The $4B buys the fee stream and carried interest rights. To own Switch itself, SoftBank must buy it from the fund's limited partners (pension funds, sovereigns, etc.) — that's why it's a "separate" deal at ~$50B.
+
+**Why only $4B for $108B AUM?** Asset manager math:
 
 | Metric | Value |
 |--------|-------|
@@ -74,18 +81,18 @@ DigitalBridge is the only large pure-play digital infrastructure investor:
 
 ## Portfolio companies
 
-| Company | Segment | Notes |
-|---------|---------|-------|
-| Vantage [[Data Centers]] | Hyperscale DC | Building Stargate Wisconsin (~1GW) |
-| DataBank | Edge/enterprise DC | — |
-| [[Switch]] | Hyperscale DC | **SoftBank in separate talks at ~$50B** (acquired 2022 for $11B = 4.5x) |
-| Scala [[Data Centers]] | Latin America DC | — |
-| AtlasEdge | Edge DC | — |
-| AIMS | [[Asia]]-Pacific DC | — |
-| JTOWER | [[Japan]] towers | Acquired 76% stake for $466M (Oct 2024), taking private |
-| Yondr Group | Hyperscale DC | Acquired Oct 2024, 420MW capacity, 1GW planned |
-| Various tower cos | Cell towers | — |
-| Fiber assets | Connectivity | — |
+| Company                  | Segment            | Notes                                                                       |
+| ------------------------ | ------------------ | --------------------------------------------------------------------------- |
+| [[Vantage Data Centers]] | Hyperscale DC      | Building Stargate Wisconsin (~1GW)                                          |
+| [[DataBank]]             | Edge/enterprise DC | —                                                                           |
+| [[Switch]]               | Hyperscale DC      | Owned by fund LPs; SoftBank in talks to buy from LPs at ~$50B (was $11B in 2022) |
+| [[Scala Data Centers]]   | Latin America DC   | —                                                                           |
+| [[AtlasEdge]]            | Edge DC            | —                                                                           |
+| [[AIMS]]                 | Asia-Pacific DC    | —                                                                           |
+| [[JTOWER]]               | Japan towers       | Acquired 76% stake for $466M (Oct 2024), taking private                     |
+| [[Yondr Group]]          | Hyperscale DC      | Acquired Oct 2024, 420MW capacity, 1GW planned                              |
+| Various tower cos        | Cell towers        | —                                                                           |
+| [[Zayo]]                 | [[Dark fiber]]     | Largest US provider; acquiring Crown Castle fiber ($4.25B, H1 2026)         |
 
 ---
 
@@ -215,3 +222,4 @@ Builder who has exited to strategics before. Knows the playbook.
 - [[AI infrastructure financing]] — thesis context
 - [[Digital infrastructure]] — asset class overview
 - [[Alternative asset manager valuation]] — why $4B for $108B AUM
+- [[Dark fiber]] — Zayo segment (acquiring Crown Castle fiber for $4.25B)

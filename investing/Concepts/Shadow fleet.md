@@ -49,6 +49,16 @@ Old tankers with:
 | Destination | ~90% to [[China]] |
 | Floating storage | 52M barrels (late 2025) |
 | Method | Ship-to-ship near Malaysia, relabeled as "Malaysian" or "Indonesian" |
+| Annual revenue | ~$35B |
+
+**Major trading networks:**
+
+| Network | Controller | Scale |
+|---------|------------|-------|
+| [[Milavous Group]] | [[Hossein Shamkhani]] ("Hector") | ~$15B turnover (2022), 60+ ships |
+| Two other networks | Unknown | Similar scale |
+
+[[Hossein Shamkhani]] is son of [[Ali Shamkhani]] (former security chief, Khamenei adviser). Operates from Dubai, blends Iranian crude with other origins in Fujairah so testing can't identify source.
 
 ### [[Venezuela]]
 
@@ -183,13 +193,20 @@ Sanctioned country loads tanker
 
 ## Related
 
+### Trading networks
+- [[Hossein Shamkhani]] — "Hector," major Iranian oil trader
+- [[Milavous Group]] — Shamkhani's trading vehicle
+- [[Ali Shamkhani]] — father, former security chief
+
+### Sanctions & policy
 - [[Secondary sanctions]] — enforcement mechanism
 - [[Iranian economic collapse]] — shadow fleet as lifeline
 - [[Russia]] — largest shadow fleet operator
 - [[Chinese teapot refineries]] — primary buyers
 - [[US Sanctions]] — policy framework
 - [[Oil]] — supply/demand impact
+- [[Iran]] — country context
 
 ---
 
-*Created 2026-01-18*
+*Updated 2026-02-01. Created 2026-01-18.*

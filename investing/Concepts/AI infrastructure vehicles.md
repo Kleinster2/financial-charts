@@ -1,8 +1,8 @@
 #concept #finance #datacenter #ai
 
-Off-balance-sheet SPVs for AI data center financing. Template set by [[Meta]]-[[Blue Owl]] Hyperion deal (Oct 2025).
+Financing vehicles for AI infrastructure — SPVs, JVs, and strategic structures. Template SPV set by [[Meta]]-[[Blue Owl]] Hyperion deal (Oct 2025).
 
-For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new — used for decades in real estate, airlines, shipping, project finance. This note covers the AI infrastructure application.
+For SPV fundamentals, see [[SPV financing]]. "Vehicles" encompasses SPVs (bankruptcy-remote entities), JVs, and related structures used to finance AI buildout.
 
 ---
 

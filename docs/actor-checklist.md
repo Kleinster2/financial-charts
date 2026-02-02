@@ -100,7 +100,7 @@ For any domain query, enumerate canonical entities:
 
 | Domain | Must-have notes |
 |--------|-----------------|
-| Crypto | Bitcoin, Ethereum |
+| Crypto | Bitcoin, Ethereum, token economics, unlock schedules |
 | Semiconductors | Foundry, fabless, memory, logic |
 | AI infrastructure | Training, inference, GPUs |
 | Banking | Deposits, lending, capital ratios |

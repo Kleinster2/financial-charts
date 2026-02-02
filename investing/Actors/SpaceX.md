@@ -20,18 +20,53 @@ aliases: [[[Starlink]], Starshield]
 
 ## IPO (2026)
 
-**Targeting mid-to-late 2026:**
+**Targeting June 2026 (around Musk's birthday):**
 
 | Metric | Value |
 |--------|-------|
 | [[Target]] valuation | **$1.5T** (would rival [[Saudi Aramco]] IPO) |
+| **IPO raise target** | **$50B** (would be largest IPO ever) |
 | Recent internal valuation | $800B ($421/share, Dec 2025) |
 | July 2025 valuation | $400B ($212/share) |
 | 2025 revenue | ~$15B |
 | 2026 revenue forecast | $22-24B |
 | Revenue driver | [[Starlink]] (majority) |
 
+**Purpose:** Fund space-based data centers and AI infrastructure. Not just a rocket bet — framed as AI infrastructure play.
+
 **Bull case:** Ark Invest sees $2.5T+ by 2030 if [[Starlink]] and space AI scale.
+
+---
+
+## Merger speculation (Jan 2026)
+
+**SpaceX considering combinations with Tesla and/or xAI:**
+
+| Scenario | Logic |
+|----------|-------|
+| **SpaceX + xAI** | Capital infusion, aligned AI infra vision |
+| **SpaceX + Tesla** | Convergence of energy, manufacturing, space |
+| **All three** | Full Musk empire consolidation |
+
+**Musk ownership:** 42% of SpaceX vs 11% of Tesla — merger math favors increasing his combined stake
+
+**Bloomberg Intel view:** SpaceX-xAI merger may make more sense than Tesla-xAI, avoids distraction from Tesla $1T pay package milestones
+
+**Musk quote:** "My companies are, surprisingly in some ways, trending towards convergence."
+
+---
+
+## Defense applications
+
+**Critical upcoming contracts requiring Starship:**
+
+| Program | Description |
+|---------|-------------|
+| **Golden Dome** | Missile shield program |
+| **Artemis** | NASA moon missions |
+| **US Space Force** | Various launch contracts |
+
+SpaceX-xAI merger would help Musk complete Starship development to compete for these launches. Starship full reusability not yet achieved — 2025 testing had multiple unplanned explosions.
 
 ---
 
@@ -173,7 +208,7 @@ See [[Space data centers]] for full concept analysis.
 | 2025 revenue | ~$15B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-01-16*
+*Updated 2026-02-01*
 
 ---
 
@@ -185,6 +220,12 @@ See [[Space data centers]] for full concept analysis.
 |--------|--------|-------|
 | Approved satellites | 7,500 | **15,000** |
 | Operational | 9,000+ | Growing |
+
+---
+
+## For theses
+
+**[[AI capex arms race]]**: $50B IPO to fund AI infrastructure (space data centers)
 
 ---
 

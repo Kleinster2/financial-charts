@@ -59,6 +59,91 @@ Iran is uninvestable for most Western capital, but matters for:
 
 ---
 
+## Khamenei family offshore empire
+
+Supreme Leader's family controls significant offshore assets despite [[US sanctions]].
+
+### [[SETAD]] — domestic wealth vehicle
+
+| Metric | Value |
+|--------|-------|
+| Full name | Execution of Imam Khomeini's Order |
+| Founded | 1989 |
+| Estimated value | $95B+ (Reuters 2013) |
+| Sectors | Insurance, energy, telecoms, real estate |
+| Oversight | None — answers only to Supreme Leader |
+
+Created through post-revolution property seizures from Shah, emigres, minorities.
+
+### [[Mojtaba Khamenei]] — offshore network
+
+Supreme Leader's son controls separate international portfolio through intermediary [[Ali Ansari]].
+
+| Asset class | Value | Locations |
+|-------------|-------|-----------|
+| UK property | £100M+ | The Bishops Avenue, London neighborhoods |
+| European hotels | — | Frankfurt (Hilton), Mallorca |
+| UAE property | — | Dubai villa |
+| **Total estimated** | **Billions** | UK, Germany, Spain, UAE, Switzerland |
+
+**Key holding vehicles:**
+- Birch Ventures Ltd (Isle of Man)
+- Ziba Leisure Ltd (St. Kitts & Nevis)
+- Midas Oil entities (UAE)
+
+**Funding source:** Iranian oil sales, routed through shell companies and non-Iranian banks.
+
+**Sanctions status:**
+- Mojtaba: US-sanctioned (2019)
+- Ali Ansari: UK-sanctioned (Oct 2025) — freezes UK assets
+
+### Contradiction
+
+State media depicts Khamenei family as austere, pious — revolutionary movement that toppled monarch in name of poor. Hidden offshore billions contradict this, fueling **aghazadeh** anger (pejorative for elite children enriching via political connections).
+
+*Source: Bloomberg investigation, Jan 2026*
+
+---
+
+## Shadow oil trading networks
+
+Despite comprehensive US sanctions, Iran exports ~$35B/year in oil through opaque trading networks.
+
+### [[Hossein Shamkhani]] ("Hector") network
+
+Son of [[Ali Shamkhani]] (former IRGC naval commander, defense minister, Khamenei adviser) runs one of Iran's three largest oil trading operations.
+
+| Metric | Value |
+|--------|-------|
+| Main vehicle | [[Milavous Group]] (Dubai) |
+| 2022 turnover | ~$15B |
+| Ships controlled | 60+ unsanctioned, 12+ sanctioned |
+| Methods | Blending, rebranding, yuan transactions |
+| Hub | Fujairah (UAE) |
+
+**How it works:**
+1. Iranian/Russian crude shipped to Fujairah
+2. Blended with oil from non-sanctioned countries
+3. Rebranded so testing can't identify origin
+4. Sold to China (yuan), India, others
+5. Yuan transactions outside US dollar system
+
+**Political protection:** Father [[Ali Shamkhani]] advises Supreme Leader. Son not personally sanctioned despite FBI/Treasury investigation.
+
+### Why sanctions fail
+
+| Factor | Detail |
+|--------|--------|
+| UAE | Doesn't enforce US Iran/Russia sanctions |
+| China | 90%+ of Iran's oil exports, pays in yuan |
+| Blending | Origin untraceable after mixing |
+| Whac-A-Mole | Sanction one entity, another replaces it |
+| Oil prices | US hesitates to disrupt supply |
+
+*Source: Bloomberg investigation, Aug 2024*
+
+---
+
 ## 2025-2026 protests and internet blackout
 
 **Timeline:**
@@ -126,6 +211,16 @@ Iran is uninvestable for most Western capital, but matters for:
 
 ## Related
 
+### Elite wealth & oil networks
+- [[Mojtaba Khamenei]] — Supreme Leader's son, offshore billions
+- [[Ali Ansari]] — intermediary for Khamenei network
+- [[SETAD]] — Supreme Leader's $95B+ domestic vehicle
+- [[Ayandeh Bank]] — Ansari's extraction vehicle, collapsed Oct 2025
+- [[Hossein Shamkhani]] — "Hector," major oil trader
+- [[Ali Shamkhani]] — father, former security chief
+- [[Milavous Group]] — Shamkhani oil trading vehicle
+
+### Sanctions & economy
 - [[Iranian economic collapse]] — currency as instability indicator
 - [[UN snapback]] — multilateral sanctions reimposed Sep 2025
 - [[Secondary sanctions]] — tariff-based approach (25%, Jan 2026)
@@ -133,6 +228,8 @@ Iran is uninvestable for most Western capital, but matters for:
 - [[Shadow fleet]] — oil export evasion mechanism
 - [[Chinese teapot refineries]] — primary oil buyers
 - [[US-China tariffs]] — could escalate to 74%+ via Iran link
+
+### Geopolitics
 - [[Oil]] — Iran supply dynamics
 - [[Israel]] — regional adversary
 - [[GCC]] — regional context

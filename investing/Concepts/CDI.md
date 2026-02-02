@@ -111,6 +111,7 @@ The CDI receive leg exactly offsets the debenture coupon, leaving only USD expos
 
 ## Related
 
+- [[Lei 4131]] — foreign capital law; 4131 loans compete with CDI-based local funding
 - [[Selic]] — BCB policy rate, CDI tracks closely
 - [[B3]] — exchange/clearinghouse, publishes CDI
 - [[Cupom cambial]] — implied USD rate, uses CDI in calculation

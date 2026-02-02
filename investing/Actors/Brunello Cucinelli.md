@@ -5,7 +5,7 @@ aliases: [BC, Cucinelli]
 
 # Brunello Cucinelli
 
-**Italian luxury cashmere house** — the "quiet luxury" poster child. Founded 1978 by Brunello Cucinelli in Solomeo, Umbria. €1.27B revenue (2024, +12.2% CC), one of the strongest growers in luxury. "Humanistic capitalism" philosophy — pays above-market wages, restored medieval village as HQ. Trading at ~50x forward PE — the most expensive stock in luxury. Majority family-owned (59.8%).
+**Italian luxury cashmere house** — the "quiet luxury" poster child. Founded 1978 by Brunello Cucinelli in Solomeo, Umbria. Record €1.41B revenue (2025, +11.5% CC), one of the strongest growers in luxury while peers struggled. "Humanistic capitalism" philosophy — pays above-market wages, restored medieval village as HQ. Trading at ~45x forward PE — the most expensive stock in luxury. Majority family-owned (59.8%). Guiding for +10% growth in 2026.
 
 ---
 
@@ -13,11 +13,11 @@ aliases: [BC, Cucinelli]
 
 | Metric | Value |
 |--------|-------|
-| Ticker | BC (Milan) |
-| Market cap | ~€10B |
-| Revenue (2024) | €1,267M (+12.2% CC) |
+| Ticker | BC (Milan), BCUCY (ADR) |
+| Market cap | ~€11B |
+| Revenue (2025) | €1,408M (+11.5% CC) |
 | EBITDA margin | ~22% |
-| Net income (2024) | ~€140M |
+| Net income (H1 2025) | €76.7M (+16% YoY) |
 | Founder/CEO | Brunello Cucinelli |
 | Family stake | 59.8% |
 | HQ | Solomeo, Italy |
@@ -26,28 +26,27 @@ aliases: [BC, Cucinelli]
 
 ## Financial performance
 
-| Metric | 2022 | 2023 | 2024 |
-|--------|------|------|------|
-| Revenue (€M) | 920 | 1,139 | 1,267 |
-| Revenue growth (CC) | +31% | +24% | +12.2% |
-| EBITDA (€M) | ~185 | ~240 | ~280 |
-| EBITDA margin | ~20% | ~21% | ~22% |
-| Net income (€M) | ~96 | ~122 | ~140 |
+| Metric | 2022 | 2023 | 2024 | 2025 |
+|--------|------|------|------|------|
+| Revenue (€M) | 920 | 1,139 | 1,267 | 1,408 |
+| Revenue growth (CC) | +31% | +24% | +12.2% | +11.5% |
+| EBITDA (€M) | ~185 | ~240 | ~280 | ~310 |
+| EBITDA margin | ~20% | ~21% | ~22% | ~22% |
+| Net income (€M) | ~96 | ~122 | ~140 | ~160 |
 
-Revenue CAGR ~17% over 2022-2024. Growth decelerating from post-COVID highs but still well above luxury sector average.
+Revenue CAGR ~15% over 2022-2025. Growth stabilizing at double-digits while luxury peers (LVMH, Kering) saw declines. Guiding +10% for 2026, targeting €1.8B by 2028.
 
 ---
 
-## Regional breakdown (2024)
+## Regional breakdown (2025)
 
-| Region | Revenue (€M) | Growth (CC) |
-|--------|--------------|-------------|
-| Americas | ~370 | +12% |
-| [[Europe]] | ~440 | +11% |
-| [[Asia]] Pacific | ~350 | +14% |
-| Italy | ~110 | +10% |
+| Region | Growth (CC) |
+|--------|-------------|
+| Americas | +11.9% |
+| [[Europe]] | +8.1% |
+| [[Asia]] Pacific | +15.3% |
 
-**Balanced geographic mix** — no single region >35%. [[Asia]] growing fastest but not over-exposed to [[China]] like peers.
+**Balanced geographic mix** — no single region >35%. [[Asia]] growing fastest (+15%), driven by [[China]] recovery while not over-exposed like peers. Retail channel +12.9%, wholesale +8.5%.
 
 ---
 
@@ -79,23 +78,56 @@ Cucinelli's philosophy creates brand equity that's difficult to replicate — th
 
 ---
 
+## Recent developments (2025-2026)
+
+**Manufacturing expansion:** Completed 2024-2026 investment plan six months early. Doubled Solomeo HQ size, built two new men's tailoring facilities in Gubbio and Penne. €145M capex in 2025 (~10.5% of revenue).
+
+**Analyst sentiment:** UBS Buy (Jan 2026), Jefferies Hold, RBC Hold. Premium valuation remains key debate.
+
+---
+
+## Solomei AI
+
+In-house AI research center, born from a 2019 symposium in Solomeo featuring [[Reid Hoffman]]. Team formed 2021, unveiled July 2024 at Milan's Piccolo Teatro. Cucinelli calls it "Human Artificial Intelligence" — AI that respects humanistic values.
+
+**Callimacus platform (Jan 2026):** Pageless, dynamic e-commerce that interprets user intent in real-time. Named after the Hellenistic poet who catalogued Alexandria's library. Live in Italy, US, UK.
+
+| AI Agent | Role |
+|----------|------|
+| Callimachus | Reads, writes, translates, communicates |
+| Dioscuri | Monitors conversation correctness |
+| Demosthenes | Conducts natural dialogue with users |
+| Thamyris | Visual/image generation |
+
+[[Shopify]] president Harley Finkelstein visited Solomeo after seeing demo, called it "something new." Strategic differentiator — luxury brands typically outsource tech, BC builds in-house.
+
+---
+
 ## Investment case
 
 **Bull:**
 - Quiet luxury secular trend favoring Cucinelli's positioning
-- +12% growth in a year most luxury peers declined
-- Balanced geographic exposure (not [[China]]-dependent)
+- Consistent double-digit growth while [[LVMH]]/[[Kering]] declined
+- Balanced geographic exposure with [[China]] upside
 - Brand pricing power — minimal discounting
-- Strong DTC mix (growing monobrand network)
-- Succession plan in place (next generation active)
+- Strong DTC mix (retail +12.9% in 2025)
+- Manufacturing investments completed ahead of schedule
+- Clear path to €1.8B by 2028
 
 **Bear:**
-- ~50x forward PE — most expensive luxury stock
-- Growth decelerating (31% → 24% → 12%)
-- Small scale (€1.3B) limits diversification
-- Founder risk — brand identity tied to Brunello himself
+- ~45x forward PE — most expensive luxury stock
+- Growth stabilizing at 10-11% (down from 30%+ post-COVID)
+- Small scale (€1.4B) limits diversification
+- Founder risk — brand identity tied to Brunello himself (age 71)
 - "Quiet luxury" trend may be cyclical, not structural
-- Cashmere concentration (category risk)
+- Cashmere concentration (category/climate risk)
+
+---
+
+## Luxury sector comparison
+
+![[brunello-cucinelli-vs-peers.png]]
+*Hermès (+50%) vs LVMH (-7%) since Jan 2023. BC not in database but tracks closer to Hermès — both benefited from "quiet luxury" while LVMH's aspirational brands struggled.*
 
 ---
 
@@ -107,5 +139,7 @@ Cucinelli's philosophy creates brand equity that's difficult to replicate — th
 - [[Hermès]] — ultra-luxury peer
 - [[Moncler]] — Italian luxury peer
 - [[Zegna]] — Italian luxury menswear peer
+- [[Shopify]] — Finkelstein visited after Callimacus demo
+- [[AI agents]] — Solomei AI's approach
 
-*Created 2026-01-24*
+*Updated 2026-02-01*

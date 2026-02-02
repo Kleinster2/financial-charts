@@ -3,7 +3,7 @@ aliases: [CEG]
 ---
 #actor #energy #nuclear #usa #public
 
-**Constellation Energy** — Largest US nuclear operator. Microsoft Three Mile Island deal. AI power play.
+**Constellation Energy** — Largest US power producer (post-Calpine). 55 GW capacity. Microsoft Three Mile Island deal. AI power play.
 
 ---
 
@@ -15,9 +15,24 @@ Nuclear renaissance for AI:
 |--------|-------|
 | Ticker | CEG |
 | Market cap | ~$75B |
-| Nuclear fleet | 21 reactors |
-| Capacity | ~23 GW |
+| Total capacity | 55 GW (post-Calpine) |
+| Nuclear fleet | 21 reactors (~21 GW) |
+| Gas + geothermal | ~34 GW (from Calpine) |
 | 2024 return | +150%+ |
+
+---
+
+## Calpine acquisition (Jan 2026)
+
+| Metric | Value |
+|--------|-------|
+| Deal value | $16.4B cash + stock ($26.6B incl. debt) |
+| Capacity added | ~28 GW |
+| Natural gas | 26 GW |
+| Geothermal | ~2 GW (The Geysers, CA) |
+| Close date | January 7, 2026 |
+
+Creates nation's largest power producer. "Building the foundation for America's next great era of innovation — powering the data centers, advanced manufacturing facilities and critical infrastructure that will define the AI age."
 
 ---
 
@@ -127,7 +142,7 @@ PJM's "Bring Your Own Generation" proposal threatens incumbent generators:
 
 **Market reaction:** Constellation shares fell sharply on Jan 17 alongside [[Vistra]] and [[Talen Energy]] when PJM released these proposals.
 
-*Updated 2026-01-21*
+*Updated 2026-02-02*
 
 ---
 

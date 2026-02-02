@@ -22,6 +22,24 @@
 | Sensex | BSE 30 stocks |
 | Nifty Bank | Financials |
 
+## Fiscal & bonds (FY2026)
+
+| Metric | Value |
+|--------|-------|
+| Gross borrowing | ₹17.2T ($187B) — record, +18% YoY |
+| Net borrowing | ₹11.7T |
+| Fiscal deficit | 4.3% of GDP (target) |
+| Redemptions | ₹5.5T (~70% YoY increase) |
+| 10Y yield | 6.73% (Jan 2026) |
+
+**Pressure points:**
+- Heavy state government issuance
+- [[Reserve Bank of India]] FX interventions tightening liquidity
+- Pension/insurance fund demand softening
+- Yields could push to 7% near-term
+
+See [[India FY2026 budget]] for details.
+
 ## ADR access
 
 | ADR | Underlying |

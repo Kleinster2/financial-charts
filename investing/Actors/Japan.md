@@ -28,7 +28,10 @@
 | Role | Name | Notes |
 |------|------|-------|
 | PM | Sanae Takaichi | Conservative, hawkish on [[China]] |
+| Finance Minister | [[Satsuki Katayama]] | Called for market calm during Jan 2026 bond rout |
 | Party | LDP | Dominant since 1955 |
+
+**Snap election Feb 8, 2026:** Takaichi called early election, promised 2-year food tax suspension. Main opposition (Centrist Reform Alliance) pledged permanent abolition — fiscal discipline concerns across political spectrum.
 
 **Takaichi stance:** Said Taiwan "contingency" could threaten Japan's security and necessitate military response. Triggered major [[China]] retaliation (Jan 2026).
 
@@ -138,6 +141,39 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 ---
 
+## Bond market crisis (Jan 2026)
+
+**[[JGB crash January 2026]]:** $280 million of trading triggered a $41 billion wipeout across the JGB curve on January 21. Ultra-long yields hit record highs. [[Scott Bessent]] called it a "six-standard-deviation move."
+
+| Metric | Value |
+|--------|-------|
+| 30Y yield (post-crash) | **~3.66%** (record) |
+| 40Y yield (post-crash) | **>4%** — first JGB maturity above 4% in 30+ years |
+| Trigger volume | $280M (30Y + 40Y combined) |
+| Market cap loss | $41B |
+| Dislocation index | All-time high |
+
+### Why it happened
+
+| Factor | Detail |
+|--------|--------|
+| BOJ holdings | 50%+ of JGBs — supply absorbed, market illiquid |
+| Foreign dominance | 65% of monthly cash transactions (up from 12% in 2009) |
+| Life insurer retreat | Traditional long-end buyers stepped back |
+| Fiscal concerns | PM Takaichi's sales tax pause on food (¥5T/year) |
+| Nov stimulus | ¥21.3T ($137B) package — biggest since pandemic |
+| Inflation normalization | Decades of deflation ending |
+
+### Life insurer impact
+
+Big 4 life insurers reported **$60B combined unrealized losses** on domestic bond holdings — 4x prior year. Higher yields mean huge paper losses on accumulated portfolios.
+
+### Contagion risk
+
+Citi estimates JGB turmoil risks up to **$130B Treasury selling** as Japanese institutions repatriate capital. Rising JGB yields → domestic bonds attractive → sell foreign bonds → UST pressure.
+
+---
+
 ## Key companies
 
 | Sector | Companies |
@@ -162,11 +198,14 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 - [[China]] retaliation (rare earths, tourism, trade)
 - Demographic decline
 - Government debt (~260% of GDP)
+- [[JGB]] market fragility — [[JGB crash January 2026]] showed $280M can move market $41B
 
 ---
 
 ## Related
 
+- [[JGB]] — government bond market
+- [[JGB crash January 2026]] — $280M → $41B wipeout
 - [[China-Japan relations]] — escalating tensions
 - [[Japan Semiconductor Revival]] — chip strategy
 - [[Japan Chikyu rare earth mission 2026-01]] — domestic rare earth mining attempt
@@ -181,4 +220,4 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 ---
 
-*Created 2026-01-10*
+*Updated 2026-02-02*

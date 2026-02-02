@@ -11,10 +11,11 @@ aliases: [Together, TogetherAI]
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$3B+ (2024) |
+| Valuation | $3.3B (Feb 2025) |
+| Total funding | $534M |
+| Revenue | $50M (2024) → $120M (2025 proj) |
 | Focus | AI training & inference cloud |
 | Differentiation | Open-source models, cost efficiency |
-| Customers | Startups, enterprises avoiding hyperscaler lock-in |
 
 ---
 
@@ -89,18 +90,23 @@ aliases: [Together, TogetherAI]
 | Seed | 2022 | $20M | — |
 | Series A | 2023 | $102M | ~$700M |
 | Series A-1 | 2024 | $106M | ~$1.25B |
-| Series B | 2024 | — | ~$3B |
+| Series B | Feb 2025 | $305M | $3.3B |
 
 **Key investors:**
 
 | Investor | Notes |
 |----------|-------|
 | [[NVIDIA]] | Strategic (GPU supply relationship) |
+| General Catalyst | Co-lead Series B |
+| Prosperity7 | Co-lead Series B |
 | [[Kleiner Perkins]] | Lead Series A |
 | [[Salesforce]] Ventures | Enterprise AI focus |
+| Coatue | Growth investor |
 | [[NEA]] | Growth investor |
 
-**Total raised:** ~$250M+
+**Total raised:** $534M
+
+**Infrastructure:** 200 MW power capacity secured. Partnership with Hypertec for 36,000 NVIDIA GB200 NVL72 GPUs.
 
 **NVIDIA relationship:** Strategic investor — suggests GPU access/priority.
 
