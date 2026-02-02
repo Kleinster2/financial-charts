@@ -6,6 +6,27 @@ For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new �
 
 ---
 
+## SPV model taxonomy
+
+| Model | Collateral | Borrower | Credit | Term | Example |
+|-------|------------|----------|--------|------|---------|
+| **Hyperscaler SPV** | Real estate + equipment | Meta, Google | IG (A+) | 20-40yr | Meta-Blue Owl |
+| **GPU-as-collateral ("Box")** | GPUs + offtake contracts | CoreWeave | High yield | 5yr | CoreWeave-Blackstone |
+| **Hybrid SPV** | GPUs, NVIDIA co-invests | xAI | High yield | 5yr | xAI Colossus (Valor) |
+| **Construction JV** | Project assets | Developer | Varies | 15yr+ | Crusoe-OpenAI (JPMorgan) |
+| **Chip vendor financing** | Supply agreements | Labs | N/A | Per-GW | OpenAI-NVIDIA/AMD |
+
+**Key distinctions:**
+- **Hyperscaler SPV**: Real estate financing with IG credit — lowest risk, lowest rates
+- **CoreWeave Box**: GPU depreciation risk but offtake de-risks; "equity slug" upside
+- **xAI Hybrid**: NVIDIA takes equity in SPV itself — chip vendor becomes financier
+- **Construction JV**: Traditional project finance with long-term lease anchor
+- **Chip vendor**: Not debt — equity/warrants tied to deployment milestones
+
+See [[AI infrastructure deals]] for detailed capital stacks on each.
+
+---
+
 ## Why hyperscalers use SPVs
 
 | Motivation | Benefit |
