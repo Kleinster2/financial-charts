@@ -15,6 +15,7 @@ For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new �
 | **Hybrid SPV** | **Yes** | GPUs, NVIDIA co-invests | xAI | High yield | 5yr | xAI Colossus (Valor) |
 | **Construction JV** | Partial | Project assets | Developer | Varies | 15yr+ | Crusoe-OpenAI (JPMorgan) |
 | **Chip vendor financing** | **No** | None (equity deal) | Labs | N/A | Per-GW | OpenAI-NVIDIA/AMD |
+| **VC syndication SPV** | **Yes** | Company equity | AI labs | N/A | Fund life | Thrive → OpenAI |
 
 ### What makes an SPV?
 
@@ -37,7 +38,215 @@ An SPV (Special Purpose Vehicle) is a **bankruptcy-remote legal entity** that is
 **No:**
 - **Chip vendor financing**: Direct corporate agreements (NVIDIA-OpenAI, AMD-OpenAI). No separate entity. Supply contracts with equity/warrant kickers — not debt, not SPV.
 
-See [[AI infrastructure deals]] for detailed capital stacks on each.
+**Yes (equity layer):**
+- **VC syndication SPV**: [[Thrive Capital]] pools LP capital into Delaware LLC to invest in OpenAI rounds. True SPV — bankruptcy-remote, single cap table line. Feeds the equity layer that funds AI capex.
+
+See [[AI infrastructure deals]] for detailed capital stacks on each. See [[Private market secondaries]] for VC syndication SPV mechanics.
+
+---
+
+## Model 1: Hyperscaler SPV (Meta-Blue Owl)
+
+**Who uses it:** Hyperscalers with investment-grade credit (Meta, Google)
+
+**How it works:**
+1. PE firm (Blue Owl) creates SPV ("Beignet Investor LLC")
+2. SPV owns the data center building and equipment
+3. Blue Owl owns 80%, hyperscaler owns 20%
+4. Hyperscaler leases back the facility long-term
+5. Hyperscaler guarantees residual value at lease end
+
+**Collateral:** Real estate + equipment (the building itself)
+
+**Why it gets IG rates (4-6%):**
+- Real estate doesn't depreciate like GPUs
+- Meta's A+ credit backstops the structure
+- 20-40 year terms match building useful life
+- Residual value guarantee from hyperscaler
+
+**Who bears risk:**
+- Credit risk: Meta (via guarantee)
+- Depreciation risk: Minimal (real estate holds value)
+- Upside: Blue Owl (owns 80%)
+
+**Key insight:** This is essentially real estate financing dressed up for tech. The building is the asset, not the GPUs inside it.
+
+---
+
+## Model 2: GPU-as-collateral / "The Box" (CoreWeave)
+
+**Who uses it:** Neoclouds without IG credit (CoreWeave, smaller players)
+
+**How it works:**
+1. CoreWeave creates SPV ("The Box")
+2. SPV holds: GPUs + offtake contract (e.g., 5-year Microsoft deal) + DC contract + PPA
+3. Revenue flows into Box, pays out in waterfall:
+   - Power costs
+   - Data center costs
+   - Principal + interest
+   - **Then** CoreWeave gets paid
+4. After 5 years: debt paid, CoreWeave owns GPUs ("equity slug")
+
+**Collateral:** GPUs + offtake contracts
+
+**Why it works despite junk credit:**
+- Lenders underwrite **Microsoft's** credit, not CoreWeave's
+- The offtake contract guarantees revenue stream
+- GPUs are pre-sold, not speculative
+- CoreWeave doesn't touch money until debt cleared
+
+**Who bears risk:**
+- Credit risk: Microsoft (via offtake contract)
+- Depreciation risk: CoreWeave (but they get "equity slug" upside)
+- Upside: CoreWeave (residual GPU value)
+
+**Key insight:** CoreWeave can't borrow cheap on its own credit. The Box lets them borrow against Microsoft's creditworthiness. Intrator calls this "East Coast capital" — debt markets that just want their money back.
+
+---
+
+## Model 3: Hybrid SPV (xAI Colossus)
+
+**Who uses it:** AI labs with deep NVIDIA relationships (xAI)
+
+**How it works:**
+1. Valor Equity Partners creates SPV ("Valor Compute Infrastructure L.P.")
+2. SPV holds: GPUs (300K-550K chips)
+3. **NVIDIA invests $2B equity directly into the SPV**
+4. Apollo/Diameter provide $12.5B debt
+5. xAI signs triple-net lease (pays all operating costs)
+6. Collateral is GPUs directly, not xAI corporate assets
+
+**Collateral:** GPUs (isolated from xAI corporate)
+
+**What makes it different:**
+- NVIDIA co-invests in the financing vehicle itself
+- NVIDIA is financing its own hardware sale
+- If xAI defaults, NVIDIA loses alongside other investors
+- Creates alignment: NVIDIA has skin in the game
+
+**Who bears risk:**
+- Credit risk: Shared (Apollo + NVIDIA)
+- Depreciation risk: NVIDIA (co-invested)
+- Upside: Valor/NVIDIA (own SPV)
+
+**Key insight:** NVIDIA becomes a financier, not just a supplier. This is demand orchestration — NVIDIA creates chip demand by helping finance the purchase. De-risks lenders because NVIDIA wouldn't co-invest if they expected default.
+
+---
+
+## Model 4: Construction JV (Crusoe-OpenAI)
+
+**Who uses it:** Developers building greenfield data centers
+
+**How it works:**
+1. Developer (Crusoe) + PE (Blue Owl) form JV
+2. Bank (JPMorgan) provides construction loan ($9.6B)
+3. Long-term tenant (Oracle, 15-year lease) provides takeout
+4. Customer chain: Crusoe → Oracle → OpenAI
+5. Loan repaid from lease payments over time
+
+**Collateral:** Project assets (land, building under construction)
+
+**Why it's "partial" SPV:**
+- May include SPV elements for bankruptcy remoteness
+- But primary structure is JV + construction loan
+- More traditional project finance than tech SPV
+
+**Who bears risk:**
+- Credit risk: Oracle (via 15-year lease)
+- Construction risk: Developer/JV
+- Upside: Developer (owns asset after lease)
+
+**Key insight:** Old-school project finance applied to AI. JPMorgan is underwriting Oracle's credit, not Crusoe's. Works when you have a creditworthy long-term anchor tenant.
+
+---
+
+## Model 5: Chip Vendor Financing (OpenAI-NVIDIA/AMD)
+
+**Who uses it:** Frontier labs with massive chip needs (OpenAI)
+
+**How it works:**
+- **NVIDIA**: Progressive equity investment — $10B per GW deployed, up to $100B total
+- **AMD**: Warrants — 160M shares at $0.01 strike, vesting on deployment milestones
+
+**Why it's NOT an SPV:**
+- No separate legal entity
+- No bankruptcy remoteness
+- No debt, no collateral
+- Direct corporate agreements with equity kickers
+
+**What it actually is:**
+- Supply agreement + strategic investment
+- Chip vendor bets on customer's success
+- Favorable supply terms in exchange for ownership stake
+
+**Who bears risk:**
+- OpenAI: Equity dilution if successful
+- NVIDIA/AMD: Lose investment if OpenAI fails
+- Upside: NVIDIA/AMD (own equity in leading lab)
+
+**Key insight:** Not financing — it's a strategic bet. AMD's $0.01 warrants mean OpenAI could own 10% of AMD at essentially zero cost if milestones hit. NVIDIA gets non-controlling equity as each GW deploys. Both vendors are betting on OpenAI winning the AI race.
+
+---
+
+## Model 6: VC Syndication SPV (Thrive → OpenAI)
+
+**Who uses it:** VCs with allocation in oversubscribed AI rounds ([[Thrive Capital]], [[a16z]])
+
+**How it works:**
+1. VC (Thrive) gets allocation in funding round (e.g., OpenAI $6.6B)
+2. Round oversubscribed — more LP demand than VC's allocation
+3. VC creates SPV (Delaware LLC)
+4. LPs invest into SPV ($100K-$1M minimums)
+5. SPV buys company shares as single cap table line
+6. VC earns carry on SPV capital
+
+**Structure:**
+```
+         ┌─────────────┐
+         │  Thrive LP1 │──┐
+         └─────────────┘  │
+         ┌─────────────┐  │    ┌─────────┐    ┌─────────┐
+         │  Thrive LP2 │──┼───▶│   SPV   │───▶│ OpenAI  │
+         └─────────────┘  │    └─────────┘    └─────────┘
+         ┌─────────────┐  │
+         │  Thrive LP3 │──┘
+         └─────────────┘
+```
+
+**Why it's a true SPV:**
+- Separate legal entity (Delaware LLC)
+- Bankruptcy-remote from Thrive
+- Single cap table entry vs. many individuals
+- Creditors/LPs have recourse only to SPV assets
+
+**How it connects to infrastructure:**
+- VC SPV → AI lab equity → AI lab capex → Infrastructure SPVs
+- Thrive SPV funds OpenAI → OpenAI spends on Stargate → Crusoe/JPMorgan JV builds DC
+- Equity layer feeds debt layer
+
+**Who bears risk:**
+- LPs: Company performance, illiquidity
+- VC: Reputation if deal fails
+- Upside: LPs (returns) + VC (carry)
+
+**Key insight:** Different from other models — this is **equity syndication** feeding the AI capital stack, not asset financing. But it's still an SPV, and it's part of how AI infrastructure gets funded. The capital flows: LP → VC SPV → AI lab → infrastructure.
+
+See [[Private market secondaries]] for full mechanics.
+
+---
+
+## Risk summary: Who underwrites what?
+
+| Model | Credit risk borne by | Depreciation risk | Upside goes to |
+|-------|---------------------|-------------------|----------------|
+| Hyperscaler SPV | Hyperscaler (guarantee) | Minimal (real estate) | PE firm (80%) |
+| CoreWeave Box | Offtake customer (Microsoft) | CoreWeave | CoreWeave ("equity slug") |
+| xAI Hybrid | NVIDIA + Apollo (shared) | NVIDIA (co-invested) | Valor/NVIDIA |
+| Construction JV | Anchor tenant (Oracle) | Developer | Developer |
+| Chip vendor | Lab (equity dilution) | N/A (no asset) | NVIDIA/AMD |
+| VC syndication | LPs (company performance) | N/A (equity) | LPs + VC (carry) |
+
+**The innovation:** Each structure finds a way to borrow against someone else's credit (or pool capital for equity access). CoreWeave borrows against Microsoft. Crusoe borrows against Oracle. xAI borrows with NVIDIA co-signing. Only hyperscalers can borrow against their own credit at IG rates.
 
 ---
 
