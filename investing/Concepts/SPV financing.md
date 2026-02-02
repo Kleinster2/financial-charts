@@ -155,7 +155,7 @@ In the August 2025 [[Distressed debt exchange]], Saks created SGUS to issue seni
 - [[Minority investor subordination]] — how SPV structure failed Amazon
 - [[Payment waterfall]] — SPV creditors in priority stack
 - [[DIP financing]] — can override SPV protections
-- [[AI infrastructure vehicles]] — AI data center application ([[Meta]]-[[Blue Owl]] template)
+- [[AI financing structures]] — AI data center application ([[Meta]]-[[Blue Owl]] template)
 - [[AI infrastructure financing]] — broader AI financing context
 - [[Private market secondaries]] — VC syndication SPVs (Thrive model)
 

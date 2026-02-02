@@ -1,8 +1,8 @@
 #concept #finance #datacenter #ai
 
-Financing vehicles for AI infrastructure — SPVs, JVs, and strategic structures. Template SPV set by [[Meta]]-[[Blue Owl]] Hyperion deal (Oct 2025).
+Financing structures for AI infrastructure — SPVs, JVs, and strategic deals. Template SPV set by [[Meta]]-[[Blue Owl]] Hyperion deal (Oct 2025).
 
-For SPV fundamentals, see [[SPV financing]]. "Vehicles" encompasses SPVs (bankruptcy-remote entities), JVs, and related structures used to finance AI buildout.
+For SPV fundamentals, see [[SPV financing]]. This note covers 6 models: hyperscaler SPVs, GPU-as-collateral, hybrid SPVs, construction JVs, chip vendor financing, and VC syndication.
 
 ---
 

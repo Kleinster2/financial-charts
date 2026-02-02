@@ -2,7 +2,7 @@
 
 Detailed capital stack breakdowns for major AI infrastructure deals (2024-2026).
 
-For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collateral]], [[AI infrastructure vehicles]]
+For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collateral]], [[AI financing structures]]
 
 ---
 
@@ -10,7 +10,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 | Deal | Size | Type | Key Structure |
 |------|------|------|---------------|
-| Meta-Blue Owl | $60B | [[AI infrastructure vehicles]] | 80/20 JV + $30B bonds |
+| Meta-Blue Owl | $60B | [[AI financing structures]] | 80/20 JV + $30B bonds |
 | xAI Colossus | $20B+ | SPV + [[GPU-as-collateral]] | Valor/[[Apollo]] + [[NVIDIA]] equity |
 | Crusoe-OpenAI | $15B | Construction JV | JPMorgan debt |
 | CoreWeave | $18B+ | [[GPU-as-collateral]] | Blackstone-led |
@@ -24,7 +24,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 ## 1. Meta-Blue Owl Hyperion ($60B, Oct 2025)
 
-**The template deal** — see [[AI infrastructure vehicles]] for structure explanation.
+**The template deal** — see [[AI financing structures]] for structure explanation.
 
 ### Capital stack
 
@@ -59,7 +59,7 @@ For financing concepts, see: [[AI infrastructure financing]], [[GPU-as-collatera
 
 ## 2. xAI Colossus ($20B+, Oct 2025)
 
-**Hybrid:** [[AI infrastructure vehicles]] + [[GPU-as-collateral]]
+**Hybrid:** [[AI financing structures]] + [[GPU-as-collateral]]
 
 ### Capital stack
 
@@ -316,7 +316,7 @@ Abilene TX (flagship), Shackelford County TX, Dona Ana County NM, Lordstown OH, 
 
 - [[AI infrastructure financing]] — overview and context
 - [[GPU-as-collateral]] — financing structure (CoreWeave, xAI)
-- [[AI infrastructure vehicles]] — financing structure (Meta template)
+- [[AI financing structures]] — financing structure (Meta template)
 - [[OpenAI]] — multiple deals ([[NVIDIA]], [[AMD]], [[SoftBank]], Stargate)
 - [[xAI]] — Colossus $20B+
 - [[Meta]] — Blue Owl Hyperion $60B

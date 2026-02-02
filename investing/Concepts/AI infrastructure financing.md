@@ -5,7 +5,7 @@ The capital stack behind AI buildout. Hyperscalers need $100Bs — private credi
 **Deep dives:**
 - [[AI infrastructure deals]] — detailed capital stacks for 10 major deals
 - [[GPU-as-collateral]] — CoreWeave model, 11-14% rates
-- [[AI infrastructure vehicles]] — Meta-Blue Owl template
+- [[AI financing structures]] — Meta-Blue Owl template
 
 ---
 
@@ -28,7 +28,7 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | **[[Microsoft]]** | Azure credits, existing investment |
 | **Revenue** | $20B ARR funds some capex |
 | **Chip partner deals** | [[NVIDIA]]/[[AMD]] provide hardware at favorable terms |
-| **[[AI infrastructure vehicles]]** | Sale-leasebacks, JVs |
+| **[[AI financing structures]]** | Sale-leasebacks, JVs |
 | **Debt** | Bank financing, bonds |
 
 **The $10B/GW milestone is just one layer.** Full builds use multiple capital sources.
@@ -65,7 +65,7 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 
 | Structure | How it works | Example |
 |-----------|--------------|---------|
-| **[[AI infrastructure vehicles]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
+| **[[AI financing structures]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
 | **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B ("The Box") |
 | **Construction JV** | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
 | **Chip vendor equity** | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
@@ -186,7 +186,7 @@ Sources:
 
 - [[AI infrastructure deals]] — detailed capital stacks (10 deals)
 - [[GPU-as-collateral]] — financing concept
-- [[AI infrastructure vehicles]] — financing concept
+- [[AI financing structures]] — financing concept
 - [[AI infrastructure financing risk]] — counterpoint (cascade risk)
 - [[Blue Owl]] — key financier
 - [[Blackstone]] — key financier
