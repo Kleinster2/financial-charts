@@ -6,22 +6,36 @@ For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new �
 
 ---
 
-## SPV model taxonomy
+## AI infrastructure financing models
 
-| Model | Collateral | Borrower | Credit | Term | Example |
-|-------|------------|----------|--------|------|---------|
-| **Hyperscaler SPV** | Real estate + equipment | Meta, Google | IG (A+) | 20-40yr | Meta-Blue Owl |
-| **GPU-as-collateral ("Box")** | GPUs + offtake contracts | CoreWeave | High yield | 5yr | CoreWeave-Blackstone |
-| **Hybrid SPV** | GPUs, NVIDIA co-invests | xAI | High yield | 5yr | xAI Colossus (Valor) |
-| **Construction JV** | Project assets | Developer | Varies | 15yr+ | Crusoe-OpenAI (JPMorgan) |
-| **Chip vendor financing** | Supply agreements | Labs | N/A | Per-GW | OpenAI-NVIDIA/AMD |
+| Model | SPV? | Collateral | Borrower | Credit | Term | Example |
+|-------|------|------------|----------|--------|------|---------|
+| **Hyperscaler SPV** | **Yes** | Real estate + equipment | Meta, Google | IG (A+) | 20-40yr | Meta-Blue Owl |
+| **GPU-as-collateral ("Box")** | **Yes** | GPUs + offtake contracts | CoreWeave | High yield | 5yr | CoreWeave-Blackstone |
+| **Hybrid SPV** | **Yes** | GPUs, NVIDIA co-invests | xAI | High yield | 5yr | xAI Colossus (Valor) |
+| **Construction JV** | Partial | Project assets | Developer | Varies | 15yr+ | Crusoe-OpenAI (JPMorgan) |
+| **Chip vendor financing** | **No** | None (equity deal) | Labs | N/A | Per-GW | OpenAI-NVIDIA/AMD |
 
-**Key distinctions:**
-- **Hyperscaler SPV**: Real estate financing with IG credit — lowest risk, lowest rates
-- **CoreWeave Box**: GPU depreciation risk but offtake de-risks; "equity slug" upside
-- **xAI Hybrid**: NVIDIA takes equity in SPV itself — chip vendor becomes financier
-- **Construction JV**: Traditional project finance with long-term lease anchor
-- **Chip vendor**: Not debt — equity/warrants tied to deployment milestones
+### What makes an SPV?
+
+An SPV (Special Purpose Vehicle) is a **bankruptcy-remote legal entity** that isolates assets from the parent company's credit risk. Key features:
+- Separate legal entity (LLC, LP)
+- Assets can't be clawed back if parent defaults
+- Creditors have recourse only to SPV assets, not parent
+- Enables borrowing against asset quality, not corporate credit
+
+### Which are true SPVs?
+
+**Yes — true SPVs:**
+- **Meta-Blue Owl**: "Beignet Investor LLC" holds DC assets, bankruptcy-remote from Meta
+- **CoreWeave Box**: SPV holds GPUs + offtake contracts, isolated from CoreWeave corporate
+- **xAI Colossus**: "Valor Compute Infrastructure L.P." holds GPUs, managed by Valor
+
+**Partial:**
+- **Construction JV**: Project finance structure, may include SPV elements, but primary vehicle is JV with construction loan
+
+**No:**
+- **Chip vendor financing**: Direct corporate agreements (NVIDIA-OpenAI, AMD-OpenAI). No separate entity. Supply contracts with equity/warrant kickers — not debt, not SPV.
 
 See [[AI infrastructure deals]] for detailed capital stacks on each.
 
