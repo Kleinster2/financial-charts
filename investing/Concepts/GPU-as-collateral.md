@@ -74,6 +74,38 @@ See [[AI infrastructure deals]] for full capital stack details.
 
 ---
 
+## "The Box" — CoreWeave's SPV mechanics (Davos, Jan 2026)
+
+**Mike Intrator explained** the detailed mechanics at Barron's Davos interview. "The Box" is CoreWeave's internal term for their SPV.
+
+**What goes in the Box:**
+- GPUs (collateral)
+- Offtake contract (e.g., 5-year Microsoft deal)
+- Data center contract
+- Power purchase agreement
+
+**Waterfall** — money flows through the Box in priority order:
+1. Power costs
+2. Data center costs
+3. Principal + interest
+4. **Then** CoreWeave gets paid
+
+**Key insight:** CoreWeave doesn't touch revenue until all obligations cleared. Debt amortizes within contract term.
+
+**"The equity slug"** — Intrator's term for residual GPU value:
+- After 5-year contract: debt paid off, CoreWeave owns GPUs outright
+- "I want to own the equity slug... they have option value embedded in them"
+- Contrary to depreciation critics, GPUs retain utility after contract
+
+**Not speculative:** GPUs are pre-sold to counterparties (Microsoft, Meta) before purchase. Risk capital only goes to "the long pole" — physical data centers.
+
+**"East Coast capital vs West Coast capital":**
+- East Coast (debt): "Pay me my goddamn money back" — infrastructure financing
+- West Coast (equity): Technology innovation, software layer
+- CoreWeave uses both: equity for software, debt for hardware
+
+---
+
 ## Risks
 
 ### For lenders
@@ -143,7 +175,7 @@ GPU financing commands premium rates due to higher risk.
 
 ---
 
-*Created 2026-01-26*
+*Updated 2026-02-02*
 
 ## Related
 
