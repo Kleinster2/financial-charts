@@ -24,10 +24,15 @@ Google's largest clean energy acquisition — vertical integration into power:
 ## The $4.75B acquisition
 
 **Why Google bought Intersect:**
-- Bypass grid bottlenecks
+
+**The 12-year problem:** Marsden Hanna (Google Global Head of Sustainability) stated grid connection wait times exceed **12 years** in some US areas. The interconnection queue — not capital, land, or chips — is the binding constraint on AI infrastructure.
+
+**Intersect solves this:**
+- Bypass grid bottlenecks via co-location
 - Secure power for AI data centers
 - Vertical integration into energy
 - Co-located generation + compute
+- Connect at substation level, skip interconnection queue
 
 **Deal structure:**
 - $4.75B cash

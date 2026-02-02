@@ -198,10 +198,25 @@ Google backs Anthropic while competing with [[Claude]] via Gemini — hedging li
 
 ## Power strategy
 
-**Nuclear for AI:**
-- [[Kairos Power]] SMR deal — 500MW
-- Long-term carbon-free baseload
-- Part of [[BYOP]] trend
+**The grid bottleneck (Jan 2026):**
+
+Marsden Hanna (Global Head of Sustainability and Climate Policy): Grid connection wait times exceed **12 years** in some US areas — a major obstacle to data center expansion.
+
+Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next to power generation and creating these industrial parks — still connected to the grid at the substation or interconnection point, but removing the bottlenecks to bringing generation online and also loads online."
+
+**Response: Vertical integration into power**
+
+| Deal | Value | Strategy |
+|------|-------|----------|
+| [[Intersect Power]] acquisition | **$4.75B** (Dec 2025) | Co-located solar + storage + DC |
+| [[Kairos Power]] SMR | 500MW | Nuclear baseload |
+| [[TPG]] Rise Climate partnership | $20B target | Clean energy parks |
+
+**Colocation model:**
+- Data centers sited next to power plants
+- Industrial parks with integrated generation + compute
+- Connected at substation level — bypasses 12-year interconnection queue
+- First co-located project: operational 2026, fully complete 2027
 
 **Data centers:** Expanding globally, power constraints apply. See [[Power constraints]].
 

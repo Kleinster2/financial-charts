@@ -338,6 +338,16 @@ This is the first time data center investment exceeds oil exploration/production
 | Northern Virginia | **7 years** |
 | [[UK]] / [[EU]] | **7-10 years** |
 | Dublin | **Closed until 2028** |
+| **US (Google quote)** | **12+ years** (some areas) |
+
+**Google interconnection bottleneck (Feb 2026):**
+
+| Source | Quote |
+|--------|-------|
+| **Marsden Hanna** (Google Global Head of Sustainability) | Wait times for grid connections can exceed **12 years** in some US areas |
+| **Amanda Peterson Corio** (Google Global Head of DC Energy) | "We're looking at siting next to power generation and creating these industrial parks — still connected to the grid at the substation or interconnection point, but removing the bottlenecks" |
+
+**Google's response:** $4.75B [[Intersect Power]] acquisition (Dec 2025) — vertical integration into power generation to bypass grid queues. Colocation strategy: DCs sited next to power plants, connected at substation level, skipping the interconnection queue.
 
 **Grid investment lag:**
 - Electricity generation investment: +70% since 2015
@@ -572,3 +582,5 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 - [[NPU]] — inference efficiency (mitigating factor)
 - [[FuriosaAI]] — NPU example (2-3x perf/watt)
 - [[Groq]] — inference efficiency (acquired by NVIDIA Dec 2025)
+- [[Google]] — 12-year grid queue quote, colocation strategy
+- [[Intersect Power]] — Google's $4.75B acquisition to bypass grid queues
