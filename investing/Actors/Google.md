@@ -236,14 +236,14 @@ Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next 
 
 **Alphabet structure separates:**
 
-| Bet | Status |
-|-----|--------|
-| [[Waymo]] | Leader in autonomous driving |
-| Verily | Life sciences |
-| [[Wing]] | Drone delivery |
-| Calico | Longevity research |
+| Bet | Status | Valuation |
+|-----|--------|-----------|
+| [[Waymo]] | Leader in autonomous driving | $126B (Feb 2026) |
+| Verily | Life sciences | — |
+| [[Wing]] | Drone delivery | — |
+| Calico | Longevity research | — |
 
-Waymo is most relevant — potential robotaxi monetization.
+**Waymo** is the crown jewel — $16B raised Feb 2026 at $126B valuation (~6% of Alphabet market cap). Only 1/6th of [[OpenAI]]'s valuation despite commercial robotaxi operations in 5 cities. Alphabet owns >75% post-round.
 
 ---
 

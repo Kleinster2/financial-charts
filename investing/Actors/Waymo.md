@@ -17,11 +17,11 @@ aliases: []
 | Total rides | 14M in 2025, 20M+ lifetime |
 | Cities | 5 operational, 20+ planned 2026 |
 | Fleet | ~2,500 vehicles |
-| Valuation | $110B (Jan 2026 round) |
+| Valuation | $126B (Feb 2026 round) |
 | Revenue run rate | $350M+ |
 | Founded | 2009 (as Google Self-Driving Car Project) |
 
-*Updated 2026-02-01*
+*Updated 2026-02-02*
 
 ---
 
@@ -105,9 +105,9 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 | Series A | 2020 | $2.5B | | Alphabet, [[Silver Lake]], others |
 | Series B | 2021 | $3.2B | | Alphabet, [[Andreessen Horowitz]], others |
 | Series C | Oct 2024 | $5.6B | $45B | Alphabet (lead), a16z, [[Fidelity]], [[Tiger Global]], [[T. Rowe Price]], Silver Lake |
-| Series D | Jan 2026 | $16B | $110B | Alphabet (>75%), [[Sequoia]], [[Dragoneer]], [[DST Global]], [[Mubadala]], a16z |
+| Series D | Feb 2026 | $16B | $126B | Alphabet (>75%), [[Sequoia]], [[Dragoneer]], [[DST Global]], [[Mubadala]], a16z |
 
-Series D initially reported Dec 2025 at ~$100B valuation; closed Jan 2026 at $110B after 3x oversubscription (FT).
+Series D initially reported Dec 2025 at ~$100B valuation; oversubscribed 3x (FT). Final close Feb 2026 at $126B — valuation jumped 15% from Jan estimates as round expanded.
 
 **Total raised:** $27B+.
 
@@ -147,7 +147,9 @@ Waymo = clear leader in commercial robotaxi globally.
 
 **Part of Alphabet (GOOGL):**
 
-At $110B valuation vs Alphabet's ~$2T market cap, Waymo represents ~5.5% of Alphabet's value. Alphabet contributed >75% of the $16B Series D round.
+At $126B valuation vs Alphabet's ~$2T market cap, Waymo represents ~6.3% of Alphabet's value. Alphabet contributed >75% of the $16B Series D round.
+
+**Valuation context:** $126B is only 1/6th of [[OpenAI]]'s ~$750B and less than half of [[Anthropic]]'s ~$300B — despite Waymo having commercial robotaxi operations at scale (450K weekly rides).
 
 | Factor | Implication |
 |--------|-------------|
