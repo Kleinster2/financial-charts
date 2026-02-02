@@ -138,6 +138,9 @@ class NoteChecker:
         # Has #brand tag = subsidiary/brand, not standalone public
         if "#brand" in content:
             return False
+        # Has #subsidiary tag = private subsidiary, not standalone public
+        if "#subsidiary" in content:
+            return False
         # Is an actor without #private = assume public
         if "#actor" in content and "#person" not in content:
             return True
