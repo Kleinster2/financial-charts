@@ -71,16 +71,22 @@ For SPV fundamentals, see [[SPV financing]]. Off-balance-sheet SPVs aren't new â
 
 ---
 
-## How it differs from GPU-as-collateral
+## How it differs from GPU-as-collateral ("The Box")
 
-| Aspect | Off-balance-sheet SPV | [[GPU-as-collateral]] |
-|--------|----------------------|----------------------|
+[[CoreWeave]] calls their GPU-collateral SPV structure "The Box" (see [[GPU-as-collateral]] for mechanics).
+
+| Aspect | Meta-Blue Owl SPV | CoreWeave "Box" |
+|--------|-------------------|-----------------|
 | Collateral | Real estate + equipment | GPUs only |
-| Typical borrower | Hyperscalers (Meta, [[Google]]) | AI cloud ([[CoreWeave]], xAI) |
+| Typical borrower | Hyperscalers (Meta, [[Google]]) | Neoclouds ([[CoreWeave]], [[xAI]]) |
 | Credit quality | Investment grade | High yield |
 | Rates | 4-6% (IG) | 11-14% |
 | Term | 20-40 years | 3-5 years |
 | Risk profile | Real estate-like | Technology obsolescence |
+| Residual value | Building ownership | "Equity slug" (GPUs with option value) |
+| Capital source | "East Coast capital" (institutional) | "East Coast capital" (debt) + "West Coast capital" (equity) |
+
+**Key distinction:** Meta-Blue Owl is essentially real estate financing with hyperscaler credit. CoreWeave's Box is asset-backed lending with GPU depreciation risk, but Intrator argues the "equity slug" (owning GPUs after contract term) has embedded option value.
 
 ---
 
@@ -174,7 +180,7 @@ See [[AI infrastructure deals]] for full details.
 
 ---
 
-*Created 2026-01-26*
+*Updated 2026-02-02*
 
 ## Related
 
