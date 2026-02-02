@@ -50,6 +50,13 @@ CRWV sits between sectors — more correlated with crypto-to-AI pivots (GPU host
 - Faster deployment than hyperscalers
 - Focus on AI training/inference workloads
 
+**Intrator's three pillars (Davos, Jan 2026):**
+1. **Software layer** — parallelized computing solution, "years ahead of everybody"
+2. **Physical infrastructure** — 42 data centers (own + colocation via Equinix, Switch, DigitalBridge)
+3. **Capital structure** — "East Coast capital" (debt) for infrastructure, "West Coast capital" (equity) for software
+
+**Key quote:** "Planetary scale computing buildout" — infrastructure at a scale "that defied the imagination."
+
 **Customers:**
 - Microsoft (65% of revenue)
 - AI startups
@@ -60,11 +67,19 @@ CRWV sits between sectors — more correlated with crypto-to-AI pivots (GPU host
 
 ## NVIDIA relationship
 
+**"Symbiotic but not equal"** — Intrator's phrase (Davos, Jan 2026).
+
 **NVIDIA is investor and supplier:**
 - Strategic investment in CoreWeave
 - Priority GPU allocation
 - CoreWeave helps absorb GPU production
-- Symbiotic: NVIDIA needs buyers, CoreWeave needs GPUs
+- First to deploy new architectures at scale: H100 → H200 → GB200 → Rubin
+
+**Why CoreWeave gets chips first:**
+- CoreWeave's software layer allows rapid deployment and troubleshooting at production scale
+- NVIDIA develops in labs at sub-production scale, needs real-world testing
+- CoreWeave acts as the bridge between NVIDIA labs and production deployment
+- Jensen confirmed CoreWeave will be "among the first" with Rubin
 
 **The demand orchestration allegation:**
 
@@ -84,7 +99,36 @@ See [[Neocloud financing]] for broader pattern.
 
 ---
 
-## Financing
+## Financing: "The Box" structure
+
+**Intrator's innovation** — "East Coast capital" (debt) for infrastructure, "West Coast capital" (equity) for software.
+
+**The Box SPV structure (Davos, Jan 2026):**
+
+```
+Microsoft/Meta contract → SPV ("The Box") → Waterfall payout
+```
+
+**What goes in the Box:**
+- GPUs (collateral)
+- Offtake contract (e.g., 5-year Microsoft deal)
+- Data center contract
+- Power purchase agreement
+
+**Waterfall:**
+1. Power costs
+2. Data center costs
+3. Principal + interest
+4. **Then** CoreWeave gets paid
+
+**Key insight:** CoreWeave doesn't touch revenue until all obligations paid. Debt amortizes within contract term.
+
+**The "equity slug":**
+- After 5-year contract: debt paid off, CoreWeave owns GPUs outright
+- Intrator: "I want to own the equity slug... they have option value embedded in them"
+- GPUs still useful after contract (contrary to depreciation critics)
+
+**Not speculative:** GPUs are pre-sold to counterparties before purchase. Risk capital goes to "the long pole" — physical data centers.
 
 **Debt load:**
 - $7.5B+ debt financing (Blackstone, others)
@@ -157,6 +201,8 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 
 **Origin story:** Former Natsource commodities traders started crypto mining in 2017. Stored hardware in Venturo's grandfather's garage. Pivoted to AI after crypto struggled.
 
+**Intrator's background:** Wall Street, commodities, structured finance. Not a technical founder — finance DNA enabled "The Box" SPV innovation. Understands project finance and asset-backed lending.
+
 **Insider selling:** $1B+ sold since lockup expired Aug 2025.
 
 ---
@@ -168,14 +214,14 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 | Ticker | CRWV |
 | Founded | 2017 |
 | IPO | March 2025 ($23B valuation) |
-| Data centers | 33+ (US/[[Europe]]) |
+| Data centers | **42** (US, Canada, Western Europe, Nordics) |
 | GPUs | 250,000+ |
 | Stock since IPO | +90% |
 | Key customer | [[Microsoft]] (65%) |
 | Key backer | [[NVIDIA]] |
 | CDS spread | 773 bps |
 
-*Updated 2026-01-05*
+*Updated 2026-02-02*
 
 ---
 

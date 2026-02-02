@@ -66,11 +66,37 @@ If it costs ~$30B to build 1 GW but investors commit ~$10B per GW, where's the g
 | Structure | How it works | Example |
 |-----------|--------------|---------|
 | **[[AI infrastructure SPVs]]** | PE takes 80%, hyperscaler leases back | Meta-Blue Owl $60B |
-| **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B |
+| **[[GPU-as-collateral]]** | GPUs secure debt, 11-14% rates | CoreWeave $7.5B ("The Box") |
 | **Construction JV** | Bank finances build, long-term lease | Crusoe-JPMorgan $15B |
 | **Chip vendor equity** | [[NVIDIA]]/[[AMD]] invest for supply lock | OpenAI-[[NVIDIA]] $100B |
 
 See [[AI infrastructure deals]] for detailed capital stacks.
+
+---
+
+## CoreWeave's "Box" structure (Davos, Jan 2026)
+
+**Mike Intrator explained the neocloud financing innovation:**
+
+| Component | What goes in "The Box" (SPV) |
+|-----------|------------------------------|
+| Collateral | GPUs |
+| Revenue | Offtake contract (e.g., 5-year Microsoft deal) |
+| Costs | Data center contract + PPA |
+
+**Waterfall:**
+1. Power costs
+2. Data center costs
+3. Principal + interest
+4. **Then** CoreWeave gets paid
+
+**Key insight:** "Pay me my goddamn money back" — Intrator's summary of East Coast capital's only rule. CoreWeave doesn't touch revenue until obligations cleared.
+
+**The "equity slug":** After contract term (5 years), debt is paid off and CoreWeave owns GPUs outright. Intrator believes residual value exists despite depreciation concerns.
+
+**Not speculative:** GPUs are pre-sold to counterparties before purchase. Only the "long pole" (physical data centers) is risk capital.
+
+See [[CoreWeave]] for full business model.
 
 ---
 
@@ -150,7 +176,7 @@ See [[Significant risk transfer]], [[AI infrastructure financing risk]].
 
 ---
 
-*Updated 2026-01-26*
+*Updated 2026-02-02*
 
 Sources:
 - Bloomberg (Oct 31, 2025) — off-balance-sheet trend

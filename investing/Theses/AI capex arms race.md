@@ -190,6 +190,7 @@ See [[AI infrastructure financing]].
 | Date | Observation | Implication |
 |------|-------------|-------------|
 | 2026-02-02 | Google: grid connection waits exceed **12 years** in some US areas | Power, not capital, is the binding constraint |
+| 2026-01-21 | CoreWeave CEO Intrator (Davos): "systemically pinned on demand" — nobody can deliver enough compute | Validates supply-side constraints across stack |
 | 2026-01-30 | Bloomberg: Tesla/SpaceX/xAI merger talks | Restructuring response to capital needs |
 | 2026-01-30 | xAI burning ~$1B/mo, $11B 2025 | Validates brutal economics |
 | 2026-01-29 | Microsoft largest selloff on AI skepticism | Market questioning ROI |
