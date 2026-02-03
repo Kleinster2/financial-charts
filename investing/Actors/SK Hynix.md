@@ -184,6 +184,7 @@ SK Hynix isn't a foundry, but:
 - [[Long memory]] — [[HBM]] leader, purest play on memory shortage
 - [[Short TSMC long Korea]] — packaging bet funds challenge to TSMC moat
 - [[Long OSAT and test equipment]] — more memory chips = more test demand
+- [[Memory squeeze thesis]] — HBM supply locked, consumer DRAM squeezed
 
 ---
 
@@ -206,3 +207,5 @@ SK Hynix isn't a foundry, but:
 - [[Project Stargate]] — demand driver (900K wafers/month committed)
 - [[Advanced packaging]] — thesis (2.5D packaging push)
 - [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US [[HBM]] demand
+- [[HBM economics]] — structural shift (4x wafer capacity per GB)
+- [[Memory squeeze thesis]] — HBM supply locked to hyperscalers

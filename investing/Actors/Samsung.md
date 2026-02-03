@@ -185,11 +185,26 @@ What consensus assumes (update when you see estimates):
 
 ---
 
+## HBM supply locks
+
+Samsung has locked multi-year [[HBM]] supply deals with AI hyperscalers, guaranteeing volume at favorable pricing:
+
+| Customer | Product | Status |
+|----------|---------|--------|
+| [[NVIDIA]] | HBM3E/HBM4 | Multi-year agreement |
+| AI hyperscalers | HBM for accelerators | Capacity committed |
+| [[Project Stargate]] | 900K wafers/month (with [[SK Hynix]]) | Committed |
+
+This contributes to [[HBM economics]] — consumer DRAM getting squeezed as capacity shifts to HBM. See [[Memory squeeze thesis]].
+
+---
+
 ## For theses
 
 - [[Short TSMC long Korea]] — foundry upside from low expectations
 - [[Long memory]] — memory margins fund foundry bets, shortage tailwind
 - [[Long OSAT and test equipment]] — more chips = more test demand
+- [[Memory squeeze thesis]] — HBM supply locked, consumer squeezed
 
 ---
 
@@ -210,3 +225,5 @@ What consensus assumes (update when you see estimates):
 - [[Leading edge race]] — context (Taylor fab 2nm bet)
 - [[Project Stargate]] — demand driver (900K wafers/month with SK Hynix)
 - [[Section 232 semiconductor tariff]] — hyperscaler exemption protects US memory demand
+- [[HBM economics]] — structural shift to HBM
+- [[Memory squeeze thesis]] — HBM supply locks, consumer impact

@@ -219,6 +219,11 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 - Complicates the thesis — Micron benefits from same drivers
 - Alternative: Long Korea + Long Micron for diversification
 
+**[[Memory squeeze thesis]]**:
+- Exited Crucial consumer brand (Feb 2026) — validates squeeze
+- Full pivot to enterprise/AI memory
+- HBM supply locked to hyperscalers
+
 ---
 
 ## Related
@@ -244,3 +249,5 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 - [[Export controls]] — less exposed than Korea
 - [[Long memory]] — thesis
 - [[Howard Lutnick]] — industrial policy beneficiary
+- [[HBM economics]] — structural shift to HBM
+- [[Memory squeeze thesis]] — exited consumer, validates squeeze

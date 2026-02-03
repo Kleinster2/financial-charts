@@ -133,6 +133,33 @@ Cloudflare positioning for AI inference at edge — complementary to centralized
 
 ---
 
+## Agentic AI infrastructure (Feb 2025)
+
+**[[Clawdbot viral growth|Clawdbot]] adoption drove Cloudflare stock +20%** — single viral open-source project demonstrating infrastructure value.
+
+### Why Cloudflare Tunnels
+
+[[Agentic AI]] and [[Local-first AI]] need to expose local services safely:
+- AI gateway runs on localhost
+- Needs internet access for webhooks, remote triggers
+- Opening ports is dangerous
+- Cloudflare Tunnels = one command to secure expose
+
+| Feature | Benefit for agents |
+|---------|-------------------|
+| **Authentication** | Control who accesses your agent |
+| **Encryption** | HTTPS everywhere |
+| **DDoS protection** | Agent endpoints will be attacked |
+| **Free tier** | Developers start here |
+
+### Thesis: [[Cloudflare agentic infrastructure]]
+
+If local AI agents need secure tunnels to expose home networks safely, Cloudflare is picks-and-shovels winner. The [[Clawdbot viral growth|Clawdbot phenomenon]] (82k+ GitHub stars, fastest-growing OSS project ever) validated this — stock moved 20% on adoption.
+
+**Net new TAM:** Every developer running a local AI agent is a potential Cloudflare customer. This wasn't true two years ago.
+
+---
+
 ## Competitive position
 
 | Competitor | Cloudflare advantage |
@@ -196,6 +223,8 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 - [[Urban digitization]] — edge security for retrofit cities
 - [[Data gravity]] — Cloudflare R2 challenges with zero egress
 - [[Zero Trust]] — SASE market
+- [[Agentic AI]] — Tunnels for local agent exposure
+- [[Local-first AI]] — infrastructure layer
 
 ### Actors
 - [[NYC smart city]] — 500M requests blocked/month
@@ -203,6 +232,12 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 - Akamai — legacy CDN competitor
 - Fastly — developer-focused competitor
 - [[Zscaler]] — Zero Trust competitor
+
+### Events
+- [[Clawdbot viral growth]] — stock +20% on adoption (Feb 2025)
+
+### Theses
+- [[Cloudflare agentic infrastructure]] — AI agent infrastructure play
 
 ### Sectors
 - [[Data Centers]] — edge vs centralized

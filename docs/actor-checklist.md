@@ -70,6 +70,8 @@ python scripts/check_note_compliance.py investing/Actors/NewNote.md
 - Missing Quick stats section
 - Missing historical financials (10-year for public)
 - Missing cap table (private)
+- Missing funding rounds table (private)
+- Missing ownership % estimates table (private, warning)
 
 **Does NOT check (manual):**
 - Currency — is note up to date?

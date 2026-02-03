@@ -1,162 +1,112 @@
-#concept #ai #agents #bullish
+---
+aliases: [AI agents, agentic, autonomous AI]
+---
+#concept #ai #software
 
-# Agentic AI
-
-[[AI agents]] that can take actions, use tools, and complete multi-step tasks autonomously. The next wave after chatbots.
+**Agentic AI** — AI systems that act autonomously rather than just suggest. The critical shift from "AI that advises" to "AI that does."
 
 ---
 
-## Why agents are different
+## The tradeoff
 
-| Chatbots | Agents |
-|----------|--------|
-| Answer questions | Complete tasks |
-| Single turn | Multi-step workflows |
-| Human does the work | Agent does the work |
-| Fuzzy ROI | Measurable output |
+| Mode | Capability | Risk |
+|------|-----------|------|
+| **Advisor** (Siri, ChatGPT) | Suggests actions, waits for approval | Safe but limited |
+| **Agent** (Clawdbot, Devin) | Takes actions autonomously | Useful but dangerous |
 
-**Key insight**: Agents can actually DO work, not just talk about it. This changes the ROI equation.
+The core tension: **"Siri is safe because it's neutered. Agents are useful because they're dangerous."**
 
----
-
-## Market size (Dec 2025)
-
-| Metric | Value |
-|--------|-------|
-| 2025 market | $7.9B |
-| 2034 projected | $236B |
-| 2024 startup funding | $3.8B (3x prior year) |
-| [[Gartner]] 2026 prediction | 40% of enterprise apps will have agents (up from <5%) |
+Agents require broad permissions to be useful — access to calendars, email, file systems, APIs, credentials. This creates a security/utility tradeoff that defines the category.
 
 ---
 
-## Adoption signals
+## Examples
 
-- **35%** of organizations already using agentic AI
-- **44%** more planning to deploy soon
-- **79%** say agents being adopted in their companies
-- **66%** of adopters seeing measurable value
-- **88%** planning budget increases for agentic AI
-- **171%** average projected ROI
+| Task | Advisor approach | Agent approach |
+|------|-----------------|----------------|
+| Calendar management | "You have a conflict on Tuesday" | Reschedules meetings, sends apologies |
+| Email triage | "Here are important emails" | Drafts responses, archives spam, flags urgent |
+| Travel booking | "Here are flight options" | Books flights, hotels, adds to calendar |
+| Coding | "Here's how to fix that bug" | Writes code, runs tests, commits, deploys |
 
-Source: [[PwC]] AI Agent Survey, [[McKinsey]] State of AI 2025
-
----
-
-## Where agents work
-
-**Strong use cases:**
-- **Coding** — [[Claude]] Code, Devin, [[Cursor]] (clear output, measurable)
-- **Customer service** — Handling tickets, routing, resolution
-- **Data analysis** — Gathering, processing, reporting
-- **Sales/SDR** — Outreach, qualification, scheduling
-- **IT operations** — Monitoring, incident response
-
-**Weaker use cases:**
-- Open-ended strategy
-- Creative work requiring taste
-- High-stakes decisions (legal, medical)
+The difference: agents complete workflows end-to-end while you sleep.
 
 ---
 
-## Key players
+## Architecture patterns
 
-| Company | Product | Status |
-|---------|---------|--------|
-| [[Anthropic]] | [[Claude]] Code | Production, proven |
-| **[[Meta]]** | **Manus** | **Acquired Jan 2026 (~$2B+)** |
-| [[Cognition]] Labs | Devin | $4B valuation, [[Goldman Sachs]] pilot |
-| GitHub | Copilot | Production, 77M+ developers |
-| [[OpenAI]] | GPT agents, Operator | Expanding |
-| [[Salesforce]] | Agentforce | Enterprise focus |
+### [[Local-first AI]]
 
-**Meta/Manus acquisition (Jan 2026):**
-- ~$2B+ deal — Meta's 3rd largest ever
-- Chinese-founded, "hailed as the next [[DeepSeek]]"
-- ~100 staff, general-purpose autonomous agent
-- Alexandr Wang (ex-[[Scale AI]]) now leading Meta AI
-- Signals agents becoming strategic priority for hyperscalers
+AI gateway runs locally (conversation history, credentials stay on machine) but routes to cloud APIs for intelligence. "Own the agent layer, rent the intelligence."
+
+Example: [[Clawdbot viral growth|Clawdbot]] — local daemon that orchestrates [[Claude]], [[GPT-4]], other models while keeping secrets local.
+
+### Cloud-native
+
+Full cloud execution — agent runs in provider infrastructure.
+
+Example: [[OpenAI]]'s GPT Actions, [[Anthropic]]'s Computer Use.
 
 ---
 
-## The Devin example
+## Security implications
 
-- [[Goldman Sachs]] piloting alongside 12,000 human developers
-- Devin 2.0: $20/month (down from $500)
-- Reality check: completes ~15% of complex tasks without assistance
-- Best for: defined, contained projects — not open-ended development
+Agents expose attack surface that advisors don't:
 
-**Pattern**: Agents augment, not replace. Human-in-the-loop still needed.
+| Risk | Example |
+|------|---------|
+| **Credential theft** | Agent stores API keys, OAuth tokens |
+| **Prompt injection** | Malicious content hijacks agent |
+| **Lateral movement** | Compromised agent accesses connected services |
+| **Data exfiltration** | Agent with file access can leak |
 
----
-
-## Consolidation wave
-
-Agents now strategic enough that hyperscalers are acquiring rather than building:
-- [[Meta]] → Manus ($2B+, Jan 2026)
-- [[Google]] → Windsurf team ($2.4B acqui-hire)
-- Expect more: [[Amazon]], [[Microsoft]] watching
-
-**Implication for startups:** Exit path is acquisition, not IPO. Build something strategic and get bought.
+[[Clawdbot viral growth|Clawdbot security issues]] illustrated this — localhost auth bypass exposed running instances to the internet.
 
 ---
 
-## Infrastructure stack
+## Infrastructure winners
 
-> **For the full competitive landscape of agent infrastructure → see [[Agent harnesses]]**
+If agents need to expose local services safely, picks-and-shovels plays emerge:
 
-Three layers: **Runtime** (LangGraph) → **Framework** (LangChain, AutoGen) → **Harness** ([[Claude]] Code, Codex, [[Cursor]], Devin)
+| Need | Solution | Winner |
+|------|----------|--------|
+| Secure tunnels | Expose localhost without opening firewall | [[Cloudflare]] Tunnels |
+| Authentication | Identity for agent-to-service | Auth0, Okta |
+| Monitoring | Observability for agent actions | Datadog |
+| Sandboxing | Isolate agent execution | Container runtimes |
 
-"2025 was agents. 2026 is agent harnesses." The harness layer is where competitive moats form and value accrues.
-
----
-
-## [[Trade]] implications
-
-**Bullish:**
-- Agent infrastructure (model providers, orchestration)
-- Coding tools specifically (proven category)
-- [[Anthropic]] — [[Claude]] Code is an agent play
-- Enterprise software with agent integration
-
-**Watch:**
-- Pure-play agent startups (high burn, unproven unit economics)
-- Automation vendors being disrupted
-- Chinese AI talent brain drain to US
-
-**The thesis:**
-Agents are the application layer that makes AI useful. Chatbots had fuzzy ROI. Agents do actual work with measurable output.
+[[Cloudflare agentic infrastructure|Cloudflare's stock moved +20%]] on a single viral project adopting Cloudflare Tunnels.
 
 ---
 
-## Relationship to other concepts
+## Market signal
 
-- [[Agent harnesses]] — infrastructure layer (where moats form)
-- [[Enterprise AI adoption]] — Agents are the exception to "95% fail"
-- [[Model lab economics]] — Agent products ([[Claude]] Code) drive enterprise revenue
-- [[Inference economics]] — Agents consume lots of inference (bullish compute)
+The [[Clawdbot viral growth|Clawdbot phenomenon]] (82k+ GitHub stars in weeks) signals pent-up demand for "AI that actually does things." Users are willing to accept security tradeoffs for capability.
 
----
-
-## Open questions
-
-- Can agent startups build moats, or do model providers/hyperscalers win?
-- Will agents commoditize like inference?
-- How fast does reliability improve?
-- When do agents replace vs augment workers?
-- Will US-[[China]] tensions block more acquisitions like Manus?
+This is a leading indicator — [[Consumer|consumer]] tolerance for agent risk is higher than enterprise assumptions.
 
 ---
 
-*Updated 2026-01-11*
+## For theses
+
+- [[Cloudflare agentic infrastructure]] — infrastructure picks-and-shovels
+- [[Memory squeeze thesis]] — agents need local compute (Mac Minis, etc.)
+
+---
 
 ## Related
 
-- [[Agent harnesses]] — infrastructure (runtime/framework/harness stack)
-- [[Enterprise AI adoption]] — context (agents = exception to 95% fail)
-- [[Anthropic]] — player ([[Claude]] Code = agent product)
-- [[OpenAI]] — player (Codex, Operator)
-- [[Meta]] — player (acquired Manus $2B+)
-- [[Anysphere]] — player ([[Cursor]] $29B)
-- [[Model lab economics]] — context (agents drive enterprise revenue)
-- [[Model Context Protocol]] — infrastructure (agent-tool connectivity)
+### Concepts
+- [[Local-first AI]] — architecture pattern for agent deployment
+- [[HBM economics]] — memory pressure from AI workloads
+
+### Actors
+- [[Cloudflare]] — infrastructure for exposing agents safely
+- [[Apple]] — Mac Mini demand from local AI agents
+- [[Anthropic]] — Claude powers many agents
+- [[OpenAI]] — GPT-4 agent capabilities
+
+### Events
+- [[Clawdbot viral growth]] — fastest growing open-source project, Feb 2025
+
+*Created 2026-01-28*

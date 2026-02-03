@@ -122,6 +122,19 @@ ATT demonstrated Apple's platform power — one policy change wiped $230B from M
 
 ---
 
+## Local AI hardware demand (Feb 2025)
+
+**Mac Mini experiencing supply chain squeeze** — attributed partly to [[Local-first AI]] agent demand.
+
+The [[Clawdbot viral growth|Clawdbot phenomenon]] (82k+ GitHub stars) triggered a wave of developers setting up local AI infrastructure:
+- AI gateway requires 16-64GB+ RAM
+- Mac Mini = popular choice for always-on agent host
+- Buying frenzy partly a hedge against [[Memory squeeze thesis|rising memory costs]]
+
+Combined with [[HBM economics]] squeezing consumer DRAM supply, the window for affordable local AI hardware may be closing.
+
+---
+
 ## Memory cost impact (Nov 2025)
 
 **CFO Kevan Parekh — most sanguine assessment among OEMs:**
@@ -277,6 +290,10 @@ See [[Short interest]] for interpretation framework.
 - [[Foundry Wars]] — manufacturing context
 - [[N-2 rule]] — design excellence context
 - [[Memory shortage 2025-2026]] — insulated by scale (CFO: "managing costs well")
+- [[Local-first AI]] — Mac Mini demand from agent developers
+- [[Clawdbot viral growth]] — triggered local AI hardware demand
+- [[Memory squeeze thesis]] — hardware buying hedge
+- [[Agentic AI]] — Siri upgrade, AI device portfolio
 - [[Google]] — [[Gemini]] powering Siri backend
 - [[Meta]] — ATT impact (~$10B), AI glasses competitor
 - [[Snap]] — ATT impact (~$546M)

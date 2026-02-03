@@ -105,6 +105,8 @@ class NoteChecker:
         # Cap table checks (private companies, not products)
         if is_private and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_cap_table(content, filepath))
+            issues.extend(self._check_funding_rounds(content, filepath))
+            issues.extend(self._check_ownership_table(content, filepath))
             issues.extend(self._check_private_financials(content, filepath))
 
         # Leadership check (companies, not ETFs/people/geographies/products)
@@ -398,6 +400,53 @@ class NoteChecker:
 
         if not has_cap_table:
             issues.append(Issue("error", "cap-table", "Private company missing cap table / funding history"))
+
+        return issues
+
+    def _check_funding_rounds(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for funding rounds table in private company notes."""
+        issues = []
+
+        funding_patterns = [
+            "## Funding rounds",
+            "### Funding rounds",
+            "## Funding history",
+            "### Funding history",
+            "## Investment rounds",
+            "### Investment rounds",
+        ]
+
+        has_funding_rounds = any(pattern in content for pattern in funding_patterns)
+
+        # Also check for a table with Series/Round info
+        if not has_funding_rounds:
+            has_funding_rounds = bool(re.search(r'\|\s*(Series\s*[A-Z]|Seed|Round)\s*\|', content, re.IGNORECASE))
+
+        if not has_funding_rounds:
+            issues.append(Issue("error", "funding-rounds", "Private company missing funding rounds table"))
+
+        return issues
+
+    def _check_ownership_table(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for ownership/cap table with % estimates in private company notes."""
+        issues = []
+
+        ownership_patterns = [
+            "### Ownership",
+            "## Ownership",
+            "### Ownership estimates",
+            "## Ownership estimates",
+            "### Cap table",  # With ownership % column
+        ]
+
+        has_ownership_section = any(pattern in content for pattern in ownership_patterns)
+
+        # Also check for a table with ownership % column
+        has_ownership_column = bool(re.search(r'\|\s*(Est\.?\s*)?Ownership\s*\|', content, re.IGNORECASE))
+        has_pct_column = bool(re.search(r'\|\s*%\s*\||\|\s*Stake\s*\|', content, re.IGNORECASE))
+
+        if not has_ownership_section and not has_ownership_column and not has_pct_column:
+            issues.append(Issue("warning", "ownership-table", "Private company missing ownership % estimates table"))
 
         return issues
 

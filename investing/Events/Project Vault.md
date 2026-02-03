@@ -86,6 +86,35 @@ See [[Critical minerals]], [[Rare earth leverage]], [[US-China commodity leverag
 
 ---
 
+## Actors
+
+**Government:**
+- [[Donald Trump]] — announced initiative
+- [[Howard Lutnick]] — Commerce Secretary, coordinating deals
+- [[EXIM Bank]] — $10B loan facility
+
+**Companies:**
+- [[GM]] — represented by CEO Mary Barra at announcement
+- [[MP Materials]] — key US rare earth producer
+- USA Rare Earth — domestic mining + magnets
+- Critical Metals Corp
+- First Phosphate
+
+**Commodity traders (procurement):**
+- [[Hartree Partners]]
+- [[Traxys North America]]
+- [[Mercuria Energy Group]]
+
+**Individuals:**
+- Robert Friedland — mining billionaire, attended announcement
+- Mary Barra — GM CEO
+
+**Countries:**
+- [[China]] — supply/price manipulation threat
+- [[Japan]] — affected by China export bans
+
+---
+
 ## Related
 
 - [[Critical minerals]] — [[China]] dominance context

@@ -203,6 +203,7 @@ A merger would increase Musk's combined stake. Tesla shareholders would be dilut
 
 | Date | Evidence | Direction |
 |------|----------|-----------|
+| **2026-01-31** | **Ford-Xiaomi/BYD JV talks (FT) — Chinese EVs may enter US via partnerships** | **Bearish** |
 | **2026-01-30** | **Evercore: $5-7B FCF deficit forecast for 2026** | **Bearish** |
 | **2026-01-30** | **Tesla/SpaceX/xAI merger speculation (Bloomberg)** | **Bearish** |
 | **2026-01-28** | **$2B Tesla investment in xAI announced** | **Bearish** |
@@ -223,5 +224,7 @@ A merger would increase Musk's combined stake. Tesla shareholders would be dilut
 - [[Waymo]] — robotaxi competitor with working product
 - [[CATL]] — battery leader, Tesla supplier alternative
 - [[Xiaomi]] — [[China]] EV competitor, faster to profitability
+- [[Ford]] — exploring China JV, could bring Chinese competition to US
+- [[Geely]] — signaling US entry within 3 years
 
 *Created 2026-01-12*
