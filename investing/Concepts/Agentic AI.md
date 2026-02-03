@@ -7,7 +7,23 @@ aliases: [AI agents, agentic, autonomous AI]
 
 ---
 
-## Market adoption (McKinsey 2025)
+## Market size (Grand View Research 2026)
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| 2025 market size | **$7.63 billion** | Grand View Research |
+| 2033 projected | **$182.97 billion** | Grand View Research |
+| CAGR (2026-2033) | **49.6%** | Grand View Research |
+| North America share | **39.63%** | Grand View Research |
+
+**Key segments:**
+- Machine learning technology: 30.56% share
+- Single agent systems: 59.24% share
+- Enterprise end-use: largest segment
+
+---
+
+## Enterprise adoption (McKinsey 2025)
 
 | Metric | Value | Source |
 |--------|-------|--------|
@@ -155,8 +171,23 @@ Larger organizations more likely to expect AI-related workforce reductions.
 - [[Anthropic]] — Claude Code, Claude powers many agents
 - [[OpenAI]] — GPT-4 agent capabilities
 
+## Recent industry developments (Jan 2026)
+
+| Date | Company | Development |
+|------|---------|-------------|
+| Dec 2025 | [[Google]] | Released Workspace Studio — AI agents across Gmail, Drive, Chat using Gemini 3 |
+| Dec 2025 | Fujitsu | Multi-agent systems for supply chain collaboration |
+| Nov 2025 | Baidu | ERNIE 5.0 omni-modal model + GenFlow AI agent platform |
+| Oct 2025 | KPMG | Global Business Services with AI agent orchestration on ServiceNow |
+| Oct 2025 | Palo Alto | Rubrik Agent Cloud for enterprise AI agent deployment |
+| Jan 2026 | [[Cloudflare]] | Moltworker — self-hosted AI agent infrastructure |
+
+---
+
 ### Sources
+- [Grand View Research: AI Agents Market Report](https://www.grandviewresearch.com/industry-analysis/ai-agents-market-report)
 - [McKinsey: The State of AI in 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 - [Claude Code Documentation](https://code.claude.com/docs/en/overview)
+- [Cloudflare Moltworker Blog](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
 
-*Created 2026-01-28 | Updated with McKinsey 2025 data*
+*Created 2026-01-28 | Updated with Grand View Research market data*

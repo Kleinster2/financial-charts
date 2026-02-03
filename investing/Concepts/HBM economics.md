@@ -37,11 +37,13 @@ AI accelerators ([[NVIDIA]] GPUs, Google TPUs, custom ASICs) require massive HBM
 |--------|-------|--------|
 | DDR4 8G spot price | ~$30.76-30.90 | TrendForce Feb 2026 |
 | DRAM spot market | "Weak demand, suppliers lowering quotes" | TrendForce |
-| [[Micron]] revenue (TTM) | **$42.3B** | Yahoo Finance |
+| [[Micron]] Q1 FY26 revenue | **$13.64B** | YCharts |
+| [[Micron]] gross margin | **56.00%** | YCharts |
+| [[Micron]] profit margin | **38.41%** | YCharts |
 | [[Micron]] 1-year return | **+351.74%** | Yahoo Finance |
 | [[Micron]] market cap | **$461.7B** | Yahoo Finance |
 
-**Micron's dominance:** Investing $24B in new Singapore manufacturing facility for memory chips, driven by AI demand. Stock up from $61.54 to $410+ in one year.
+**Micron's dominance:** Investing $24B in new Singapore manufacturing facility for memory chips, driven by AI demand. Stock up from $61.54 to $410+ in one year. Gross margin of 56% reflects HBM pricing power.
 
 ---
 

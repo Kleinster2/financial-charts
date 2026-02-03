@@ -79,15 +79,24 @@ Official agentic coding tool — the most polished local-first implementation:
 From [Claude Code docs](https://code.claude.com/docs/en/overview):
 > "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks."
 
-### Cloudflare Moltworker
+### Cloudflare Moltworker (Jan 29, 2026)
 
-Cloudflare's published solution for running local agents entirely on their platform:
-- AI Gateway for Claude API routing
-- Sandboxes for agent runtime
-- R2 for persistent storage
-- Browser Rendering for web automation
+Cloudflare's [official solution](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) for running AI agents without dedicated hardware:
 
-Shows infrastructure vendors actively building for this architecture.
+> "The Internet woke up this week to a flood of people buying Mac minis to run Moltbot... But what if you don't want to buy new dedicated hardware?"
+
+**Architecture:**
+| Component | Cloudflare Product | Purpose |
+|-----------|-------------------|---------|
+| AI routing | **AI Gateway** | Proxy to Claude/OpenAI with BYOK or Unified Billing |
+| Agent runtime | **Sandboxes** | Isolated container execution via Sandbox SDK |
+| Persistent storage | **R2** | Mounted as filesystem for agent memory |
+| Web automation | **Browser Rendering** | Headless Chromium for browsing tasks |
+| Authentication | **Zero Trust Access** | JWT-based API protection |
+
+**Cost:** $5/month Workers paid plan minimum, other products have free tiers.
+
+**Key insight:** Cloudflare explicitly positioned this as an alternative to buying Mac Minis — showing they see agentic AI infrastructure as a growth opportunity.
 
 ---
 
@@ -160,9 +169,21 @@ Strategic land-grab: Tunnels became free in April 2021 to capture developers, up
 - [[Anthropic]] — Claude Code, Claude powers agents ($183B valuation)
 - [[Apple]] — Mac Mini demand from local AI
 
+## Moltbot → OpenClaw naming history
+
+| Date | Name | Event |
+|------|------|-------|
+| Early 2025 | Clawdbot | Original launch |
+| ~Feb 2025 | Moltbot | Renamed (likely trademark concerns) |
+| Jan 30, 2026 | **OpenClaw** | [Final rename](https://openclaw.ai/blog/introducing-openclaw) |
+
+The rapid naming changes reflect both growth and trademark pressure in the AI agent space.
+
+---
+
 ### Sources
 - [Claude Code Documentation](https://code.claude.com/docs/en/overview)
-- [Cloudflare Moltworker Blog Post](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
+- [Cloudflare Moltworker Blog](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
 - [McKinsey: State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
-*Created 2026-01-28 | Updated with McKinsey data, Cloudflare pricing*
+*Created 2026-01-28 | Updated with Moltworker technical details*

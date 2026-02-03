@@ -25,7 +25,16 @@ Claude Code is [[Anthropic]]'s official agentic coding tool:
 
 ## Market context
 
-The broader [[Agentic AI]] space is exploding:
+### AI Agents market size (Grand View Research)
+
+| Metric | Value |
+|--------|-------|
+| 2025 market size | **$7.63 billion** |
+| 2033 projected | **$182.97 billion** |
+| CAGR (2026-2033) | **49.6%** |
+| North America share | 39.63% |
+
+### Enterprise adoption (McKinsey 2025)
 
 | Metric | Value | Source |
 |--------|-------|--------|
@@ -48,6 +57,16 @@ Local-first AI agents need secure tunneling:
 - [[Cloudflare]] Tunnels for localhost exposure
 - Authentication, encryption, DDoS protection
 - Drives [[Cloudflare agentic infrastructure]] thesis
+
+**Cloudflare Moltworker (Jan 29, 2026):** Cloudflare directly responded to the Mac Mini buying frenzy by publishing [Moltworker](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/), showing how to run the agent (then called Moltbot, now OpenClaw) entirely on Cloudflare infrastructure.
+
+### OpenClaw naming history
+
+| Date | Name |
+|------|------|
+| Early 2025 | Clawdbot |
+| ~Feb 2025 | Moltbot |
+| Jan 30, 2026 | **OpenClaw** |
 
 ### 3. Security wake-up call
 

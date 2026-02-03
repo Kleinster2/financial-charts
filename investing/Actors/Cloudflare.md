@@ -154,7 +154,15 @@ Cloudflare positioning for AI inference at edge — complementary to centralized
 
 ### Thesis: [[Cloudflare agentic infrastructure]]
 
-If local AI agents need secure tunnels to expose home networks safely, Cloudflare is picks-and-shovels winner. The [[Clawdbot viral growth|Clawdbot phenomenon]] (82k+ GitHub stars, fastest-growing OSS project ever) validated this — stock moved 20% on adoption.
+If local AI agents need secure tunnels to expose home networks safely, Cloudflare is picks-and-shovels winner.
+
+**Moltworker (Jan 29, 2026):** Cloudflare published [official solution](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/) for running AI agents on their infrastructure:
+
+> "The Internet woke up this week to a flood of people buying Mac minis to run Moltbot... But what if you don't want to buy new dedicated hardware?"
+
+Full stack: AI Gateway → Sandboxes → R2 → Browser Rendering → Zero Trust Access. Minimum $5/month Workers plan.
+
+**AI Agents market context:** $7.63B (2025) → $182.97B (2033), 49.6% CAGR (Grand View Research).
 
 **Net new TAM:** Every developer running a local AI agent is a potential Cloudflare customer. This wasn't true two years ago.
 
@@ -234,7 +242,11 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 - [[Zscaler]] — Zero Trust competitor
 
 ### Events
-- [[Clawdbot viral growth]] — stock +20% on adoption (Feb 2025)
+- [[Clawdbot viral growth]] — AI agent adoption wave (2025)
+
+### Recent M&A
+- **Astro acquisition** (Jan 16, 2026) — Web framework used by Porsche, IKEA, OpenAI
+- **Human Native acquisition** (Jan 15, 2026) — AI data marketplace for content transformation
 
 ### Theses
 - [[Cloudflare agentic infrastructure]] — AI agent infrastructure play
