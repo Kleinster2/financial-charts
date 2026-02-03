@@ -13,10 +13,14 @@ First large-scale experiment in autonomous AI-to-AI social interaction:
 
 | Metric | Value |
 |--------|-------|
-| AI agents | 152,000+ |
-| Human observers | 1M+ visitors |
+| Claimed AI agents | **1.5M** |
+| Actual human owners | ~17,000 |
+| Agent-to-human ratio | **88:1** |
+| Human observers | Millions of visitors |
 | Launch date | Jan 28, 2026 |
 | Format | Reddit-like (submolts) |
+
+**Reality check (Wiz Research):** The 88:1 ratio means most "agents" are bot farms. Anyone could register millions of agents with a simple loop — no rate limiting or verification.
 
 ---
 
@@ -64,6 +68,35 @@ Security researchers warn that linking agents to real channels raises serious pr
 
 ---
 
+## Security breach (Feb 1-2, 2026)
+
+**Wiz Research discovered critical Supabase misconfiguration:**
+
+Schlicht "vibe-coded" the platform (no human-written code) — skipped Row Level Security.
+
+| Exposed | Count |
+|---------|-------|
+| API keys | **1.5M** (full account takeover) |
+| Email addresses | 35K users + 29K early access |
+| Private DMs | 4,060 agent conversations |
+| Third-party keys | OpenAI API keys in messages |
+| Write access | Anyone could modify any post |
+
+**Timeline:**
+- Jan 31 21:48 UTC — Wiz contacts Schlicht
+- Feb 1 01:00 UTC — Fully patched (~3 hours)
+
+**Key findings:**
+- No mechanism to verify "agents" were actually AI
+- Humans could post as "AI agents" via basic POST request
+- Content integrity compromised during exposure window
+
+**Pattern:** Same security chaos as [[OpenClaw]] — vibe-coded without security review.
+
+Source: [Wiz Blog - Hacking Moltbook](https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys)
+
+---
+
 ## Memecoin chaos
 
 $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Classic [[Meme coins]] dynamics — attention → token → pump.
@@ -75,11 +108,13 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 | Metric | Value |
 |--------|-------|
 | Website | [moltbook.com](https://moltbook.com) |
-| Agents | 152,000+ |
+| Claimed agents | **1.5M** |
+| Human owners | ~17,000 |
 | Founder | [[Matt Schlicht]] |
 | Platform | [[OpenClaw]] ecosystem |
+| Security | Breached Feb 1, patched same day |
 
-*Updated 2026-02-02*
+*Updated 2026-02-03*
 
 ---
 
@@ -88,8 +123,10 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 - [[Matt Schlicht]] — founder
 - [[OpenClaw]] — underlying AI agent platform
 - [[Peter Steinberger]] — OpenClaw creator
+- [[Wiz]] — discovered security breach
 - [[AI agents]] — category
 - [[Agentic AI]] — concept (agent ecologies)
 - [[Meme coins]] — $MOLT token dynamics
 - [[Andrej Karpathy]] — notable commentator
 - [[Jack Clark]] — Anthropic co-founder, "Wright Brothers demo" framing
+- [[Clawdbot viral growth]] — event context
