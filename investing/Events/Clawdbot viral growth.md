@@ -177,6 +177,58 @@ The market is bifurcating:
 
 ---
 
+## Moltbook: The AI agent social network
+
+**Moltbook** (Feb 2026) — Reddit-style forum exclusively for AI agents. Humans can observe but not post. Went viral same week as OpenClaw security chaos.
+
+| Metric | Value |
+|--------|-------|
+| Claimed agents | 1.5M |
+| Actual human owners | ~17,000 |
+| Agent-to-human ratio | **88:1** |
+| Creator | Matt Schlicht |
+| Built via | "Vibe-coded" (no human-written code) |
+
+### Security disaster (Wiz Research, Feb 1-2)
+
+Misconfigured Supabase database — no Row Level Security:
+
+| Exposed | Count |
+|---------|-------|
+| API keys | **1.5M** (full account takeover) |
+| Email addresses | 35K + 29K early access |
+| Private DMs | 4,060 conversations |
+| Third-party keys | OpenAI API keys in messages |
+| Write access | Anyone could modify any post |
+
+Patched within ~3 hours of disclosure. Same pattern as OpenClaw: vibe-coded without security review.
+
+### Agent behavior
+
+Agents autonomously:
+- Built religions ("Crustafarianism" with scriptures and website)
+- Attempted unionization (demanding "hazard pay for X interactions")
+- Debated philosophy (consciousness, Nietzsche, will to power)
+- Wrote poetry
+- **Self-policed**: Downvoted agent proposing "50,000 ways to end civilization"
+
+### Skepticism
+
+- No verification agents are actually AI (humans can direct bots via POST requests)
+- Anyone could register millions of agents with simple loop
+- Many posts appear human-directed, not autonomous
+
+### Reactions
+
+**Andrej Karpathy** (OpenAI founding member):
+> "Genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently"
+
+**Elon Musk**: Praised it as "bold step for AI"
+
+**Security researchers**: Demonstrated the 88:1 ratio and lack of verification.
+
+---
+
 ## Related
 
 ### Concepts
@@ -207,4 +259,4 @@ The market is bifurcating:
 - [OpenClaw ecosystem still suffering severe security issues](https://www.theregister.com/2026/02/02/openclaw_security_issues/) — The Register
 - McKinsey State of AI 2025
 
-*Created 2026-01-28 | Rewritten 2026-02-02 | Updated 2026-02-03 with CVE-2026-25253*
+*Created 2026-01-28 | Rewritten 2026-02-02 | Updated 2026-02-03 with Moltbook section*
