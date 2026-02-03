@@ -476,9 +476,25 @@ Brief summary of what happened and why it matters.
 
 ---
 
+## Deal terms (for M&A/funding)
+
+| Metric | Value |
+|--------|-------|
+| Combined valuation | $X |
+| Exchange ratio | X:1 |
+| Cash option | $X/share |
+
+---
+
 ## What happened
 
 Timeline, key facts, numbers.
+
+---
+
+## The real story (for major events)
+
+Historical arc showing motivations — trace back years if needed.
 
 ---
 
@@ -505,6 +521,163 @@ Impact, implications, what changed.
 - [[Other Event]] — connected event
 ```
 
+### Deal terms checklist (M&A events)
+
+For mergers, acquisitions, and major funding rounds, capture transaction mechanics:
+
+| Required | Field |
+|----------|-------|
+| ✓ | Valuation (pre/post, implied multiples) |
+| ✓ | Consideration (cash/stock mix, exchange ratio) |
+| ✓ | Premium to prior round/trading price |
+| ○ | Cash option (if any) |
+| ○ | Legal counsel (both sides) |
+| ○ | Conditions/regulatory approvals needed |
+| ○ | Timeline (signing → expected close) |
+| ○ | Break fees |
+
+**Example (SpaceX-xAI):**
+```markdown
+| Metric | Value |
+|--------|-------|
+| Combined valuation | **$1.25 trillion** |
+| SpaceX valuation | $1 trillion |
+| xAI valuation | $250 billion |
+| Exchange ratio | 0.1433 xAI → 1 SpaceX |
+| Cash option | $75.46/share (for xAI execs) |
+| Legal counsel | Sullivan & Cromwell (SpaceX), Gibson Dunn (xAI) |
+```
+
+### Historical arc section ("The real story")
+
+**For strategic events, trace the story back years.** Surface-level deal announcements miss the "why now" — the motivations, failed attempts, and relationships that led here.
+
+**When to include:**
+- M&A between companies with prior relationship
+- Strategic pivots reversing earlier decisions
+- Deals involving serial acquirers or repeat players
+- Events with regulatory/political backstory
+
+**Format:** Timeline table showing key moments, then narrative connecting them.
+
+```markdown
+## The real story: The 12-year arc
+
+| Year | Event |
+|------|-------|
+| 2012 | Hassabis warns Musk: AI could follow humans to Mars |
+| 2014 | Google acquires DeepMind; Musk tried to block |
+| 2015 | Musk + Altman found OpenAI as counterweight |
+| 2018 | Musk leaves OpenAI board after equity dispute |
+| 2023 | Launches xAI (4 months after signing AI moratorium) |
+| **2026** | **SpaceX acquires xAI** |
+
+**Court documents** (Musk v. OpenAI, trial Apr 2026):
+- Musk wanted $80B foundation with his children controlling AGI
+- Called Hassabis capable of creating "AGI dictatorship"
+```
+
+**Source types for historical arc:**
+- Court filings and depositions
+- SEC filings (proxy fights, 13D/G, S-1 risk factors)
+- Prior interview quotes with dates
+- Regulatory submissions
+- Contemporary news reports (not retrospective summaries)
+
+### Comparative financial tables
+
+**When covering a struggling or controversial company, show metrics against a healthier peer.** Raw numbers lack context; ratios reveal the real story.
+
+```markdown
+## xAI's burn problem
+
+| Metric | xAI | OpenAI |
+|--------|-----|--------|
+| Monthly burn | ~$1B | ~$750M |
+| 2025 revenue | ~$500M | ~$12-13B |
+| Burn-to-revenue | **26:1** | 0.7:1 |
+| MAU | 64M | 800-900M WAU |
+
+**Translation:** xAI's valuation only makes sense with exit strategy.
+```
+
+**When to use:**
+- Company burning cash faster than peers
+- Valuation premium without revenue support
+- Strategic rationale depends on comparison (acquirer vs target)
+
+**Key ratios:**
+- Burn-to-revenue (monthly burn ÷ monthly revenue)
+- Valuation-to-revenue (market cap or valuation ÷ ARR)
+- Relative growth rates
+- Unit economics comparison
+
+### Key quotes section
+
+**For events with notable public statements, collect quotes with attribution and date.**
+
+```markdown
+## Key quotes
+
+**Musk on merger (Feb 2026):**
+> "This marks not just the next chapter, but the next book..."
+
+**Musk on existential stakes (Dec 2025):**
+> "We might have AI smarter than any human by the end of this year..."
+```
+
+**When to include:**
+- CEO/founder statements explaining strategic rationale
+- Quotes that contradict prior positions
+- Statements with legal/regulatory implications
+- Predictions with specific timelines (track later)
+
+### Regulatory exposure section
+
+**For events involving regulated industries or antitrust risk, create a systematic matrix.**
+
+```markdown
+## Regulatory exposure
+
+| Agency | Concern |
+|--------|---------|
+| **CFIUS** | National security — defense contracts + foreign investors |
+| **FTC/DOJ** | $1.25T consolidation across multiple sectors |
+| **SEC** | Self-dealing between controller's entities |
+| **FCC** | 1 million satellite authorization pending |
+```
+
+**When to include:**
+- Cross-border M&A (CFIUS)
+- Large horizontal mergers (FTC/DOJ)
+- Deals involving government contractors
+- Related-party transactions (SEC)
+- Sector-specific regulators (FCC, FDA, FERC, etc.)
+
+### Corporate structure diagrams
+
+**For complex ownership or consolidation events, use ASCII diagrams to show relationships.**
+
+```markdown
+## "Muskonomy" consolidation
+
+```
+Tesla ($2B invested in xAI → now SpaceX subsidiary)
+    ↓
+xAI (Grok + X platform)
+    ↓
+SpaceX (rockets, Starlink, Starshield, space DCs)
+```
+```
+
+**When to use:**
+- Holding company structures
+- Related-party transactions (who owns what % of whom)
+- Vertical integration chains
+- Before/after ownership comparisons
+
+**Keep it simple:** ASCII diagrams should clarify, not complicate. If the structure needs more than 10 lines, consider a table instead.
+
 ### When to create an Event note
 
 | Event type | Create Event note? |
@@ -520,6 +693,45 @@ Impact, implications, what changed.
 | Minor executive changes | No (stays in actor) |
 | Small funding rounds | No (stays in actor/daily) |
 | Routine product updates | No (stays in actor) |
+
+### Concept note maintenance
+
+**When an event validates, changes, or advances a concept, update the concept note with a dated section linking back.**
+
+The concept note should remain a structural reference — don't bloat it with event details. Instead, add a brief dated section at the end that:
+1. States what changed
+2. Links to the event note for full analysis
+3. Updates any estimates/timelines
+
+**Example (Space data centers → SpaceX-xAI merger):**
+
+```markdown
+## SpaceX-xAI merger (Feb 2, 2026)
+
+**Merger rationale explicitly cites space DCs:**
+
+> "Global electricity demand for AI simply cannot be met with terrestrial solutions..."
+
+**Musk's updated timeline:**
+- "Within 2-3 years, lowest cost to generate AI compute will be in space"
+- 100 GW/year of solar-powered AI satellites within decade
+
+See [[SpaceX xAI merger]] for full analysis.
+
+*Updated 2026-02-03*
+```
+
+**When to update concept notes:**
+- Major company commits to the concept (validates thesis)
+- Timeline estimates change materially
+- New technical approach announced
+- Regulatory environment shifts
+- Concept moves from speculative → concrete (or vice versa)
+
+**What NOT to do:**
+- Don't duplicate event details in concept note
+- Don't remove structural content to make room
+- Don't update for minor news that doesn't change the concept
 
 ### Actor notes reference events
 

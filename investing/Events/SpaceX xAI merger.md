@@ -39,6 +39,8 @@
 - ~10,000 Starship flights/year required
 - Long-term: 1 TW/year, eventually 100 TW (lunar manufacturing)
 
+**FCC filing (Jan 30, 2026):** SpaceX requested authorization for **1 million satellites** — orbital data center constellation at 500-2,000km altitude. 99% sunlight exposure in sun-synchronous orbit.
+
 **Musk at Davos (Jan 2026):**
 > "To harness even a millionth of our Sun's energy would require over a million times more energy than our civilization currently uses!"
 
@@ -95,6 +97,35 @@
 
 ---
 
+## Regulatory/antitrust exposure
+
+| Agency | Concern |
+|--------|---------|
+| **[[CFIUS]]** | National security — SpaceX defense contracts + xAI foreign investors ([[Qatar]], [[MGX]], [[Kingdom Holding]]) |
+| **[[FTC]]/[[DOJ]]** | $1.25T consolidation across space, AI, social media |
+| **[[SEC]]** | Self-dealing between Musk entities |
+| **[[FCC]]** | 1 million satellite authorization |
+
+**The "super-conglomerate" concern:** Combining rockets, satellite internet, AI infrastructure, and social media (X) into one Musk-controlled entity raises monopoly questions.
+
+**CFIUS wild card:** xAI has significant Middle East sovereign investment. SpaceX holds classified Starshield contracts. Combination may trigger mandatory national security review.
+
+---
+
+## Competitor space DC plans
+
+| Player | Plans |
+|--------|-------|
+| **SpaceX/xAI** | 1M satellites, 100GW (largest) |
+| [[Blue Origin]] (Bezos) | "Gigawatt data centers in 10+ years" |
+| Eric Schmidt (Relativity) | Acquired rocket company for orbital compute |
+| [[China]] | 200,000 satellite constellation proposed |
+| NTT, Axiom, Ramon.Space | Various smaller efforts |
+
+**SpaceX advantages:** 9,000+ operational Starlink satellites, Starship for heavy payload, vertical integration, first-mover at scale.
+
+---
+
 ## IPO implications
 
 **SpaceX IPO expected mid-2026:**
@@ -105,6 +136,10 @@
 | Raise | $30-50B (largest IPO ever) |
 | Purpose | Fund Starship, space data centers |
 | Timing | ~June 2026 (Musk's birthday) |
+
+**Lead underwriters:** [[Morgan Stanley]] (lead), [[Goldman Sachs]], [[JPMorgan]], [[Bank of America]]
+
+Morgan Stanley advantage: 15-year Musk relationship, led Tesla 2010 IPO and Twitter acquisition financing.
 
 **Investors:** xAI investors convert at 0.1433 ratio → liquidity via IPO.
 
@@ -165,8 +200,12 @@ SpaceX (rockets, Starlink, Starshield, space DCs)
 ## Sources
 
 - [Reuters - SpaceX acquires xAI](https://www.reuters.com/business/musks-spacex-merge-with-xai-combined-valuation-125-trillion-bloomberg-news-2026-02-02/)
+- [Bloomberg - SpaceX combines with xAI at $1.25T](https://www.bloomberg.com/news/articles/2026-02-02/elon-musk-s-spacex-said-to-combine-with-xai-ahead-of-mega-ipo)
+- [CNBC - SpaceX acquiring xAI ahead of IPO](https://www.cnbc.com/2026/02/02/elon-musk-spacex-xai-ipo.html)
 - [Guardian - Merger analysis](https://www.theguardian.com/science/2026/feb/02/elon-musk-spacex-xai-merger)
-- [Al Jazeera - Space DC plans](https://www.aljazeera.com/news/2026/2/3/musk-merges-spacex-and-xai-firms-plans-for-space-based-ai-data-centres)
+- [SpaceNews - Million satellite FCC filing](https://spacenews.com/spacex-files-plans-for-million-satellite-orbital-data-center-constellation/)
+- [TechCrunch - Space data center plans](https://techcrunch.com/2026/02/02/elon-musk-spacex-acquires-xai-data-centers-space-merger/)
+- [Electrek - What it means for Tesla](https://electrek.co/2026/02/02/spacex-bails-out-xai-in-mega-deal-heres-what-it-means-for-tesla/)
 - [R&D World - 12-year quest](https://www.rdworldonline.com/the-12-year-quest-behind-the-spacex-xai-merger/)
 - [OpenAI - "The Truth Elon Left Out"](https://openai.com/index/the-truth-elon-left-out/)
 
@@ -181,6 +220,28 @@ SpaceX (rockets, Starlink, Starshield, space DCs)
 - [[xAI]] — target, now SpaceX subsidiary
 - [[Elon Musk]] — controller
 - [[Tesla]] — excluded from deal, $2B xAI investment converted
+- [[X (Twitter)]] — merged with xAI 2025, now SpaceX subsidiary
+
+### Competitors
+- [[Blue Origin]] — Bezos orbital compute vision
+- [[Anthropic]] — AI competitor (higher revenue, similar valuation tier)
+- [[OpenAI]] — AI competitor, Musk v. OpenAI trial Apr 2026
+
+### Investors/Banks
+- [[Morgan Stanley]] — lead IPO underwriter
+- [[Goldman Sachs]] — underwriter
+- [[JPMorgan]] — underwriter
+- [[Bank of America]] — underwriter
+- [[Valor Equity Partners]] — xAI lead investor
+- [[Fidelity]] — SpaceX + xAI investor
+- [[MGX]] — xAI sovereign investor (Abu Dhabi)
+- [[Qatar Investment Authority]] — xAI sovereign investor
+- [[Kingdom Holding]] — xAI sovereign investor (Saudi)
+
+### Regulatory
+- [[CFIUS]] — national security review possible
+- [[FTC]] — antitrust concern
+- [[FCC]] — 1M satellite authorization
 
 ### Concepts
 - [[Space data centers]] — strategic rationale
