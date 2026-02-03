@@ -143,6 +143,33 @@ Claude Code is Anthropic's official agentic coding CLI. OpenClaw is the open-sou
 
 ---
 
+## Competing responses
+
+### Zo Computer: The managed alternative
+
+[[Zo Computer]] ([[Ben Guo]], ex-[[Stripe]]) positioned itself as "the fix" for OpenClaw's chaos:
+
+| | OpenClaw | Zo Computer |
+|--|----------|-------------|
+| Architecture | Local-first, DIY | Cloud-hosted, managed |
+| Security | User responsibility | Platform handles |
+| Setup | Complex (VPS, tunnels) | Instant |
+| Target | Technical power users | "AWS for your mom" |
+
+Ben Guo: "Clawdbot is the homebrew version of Zo... I think [managed] will always be the better choice for most people."
+
+**Traction signals**: Endorsements from Pieter Levels, Guillermo Rauch (Vercel CEO), Sunil Pai (Cloudflare).
+
+### VC response
+
+The viral growth triggered VC interest in managed agent platforms. Multiple funded competitors emerged within days of the OpenClaw explosion.
+
+The market is bifurcating:
+1. **DIY/local-first** — OpenClaw, technical users, maximum control
+2. **Managed/cloud** — Zo Computer et al, broader market, platform security
+
+---
+
 ## Related
 
 ### Concepts
@@ -157,6 +184,8 @@ Claude Code is Anthropic's official agentic coding CLI. OpenClaw is the open-sou
 - [[Tailscale]] — mesh VPN alternative
 - [[DVULN]] — security researcher who exposed vulnerabilities
 - [[Insight Partners]] — bought Steinberger's previous company
+- [[Zo Computer]] — managed alternative ("AWS for your mom")
+- [[Ben Guo]] — Zo founder, ex-Stripe
 
 ### Theses
 - [[Cloudflare agentic infrastructure]] — infrastructure for agent tunneling
