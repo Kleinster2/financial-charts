@@ -109,9 +109,21 @@ BYD represents the vertically integrated EV model:
 | Latin America | [[Brazil]], [[Mexico]] | Expanding |
 | Middle East | UAE focus | Entering |
 | **Nepal** | Direct sales | **Market leader** |
-| US | Blocked (tariffs, politics) | No entry path |
+| US | Blocked (tariffs, politics) | **JV talks with [[Ford]]** |
 
 **Key barrier:** US 100% tariff on Chinese EVs makes direct entry impossible.
+
+### US market development (Jan 2026)
+
+**FT: Ford held talks with BYD about potential US collaboration**
+
+- Ford also spoke with [[Xiaomi]] and "other Chinese carmakers"
+- Trump (Jan 2026): Open to Chinese companies building US plants
+- Ford denied the report; BYD declined to comment
+
+**Political reality:** Even with Trump's openness, Congressional opposition (House China Committee) makes any deal controversial. [[Geely]] also signaling US entry within 3 years.
+
+*Source: Financial Times, Jan 31 2026*
 
 ### Nepal case study (Jan 2026)
 

@@ -113,6 +113,33 @@ Non-vertically-integrated Android OEMs hurt most.
 
 ---
 
+## US market opportunity (Jan 2026)
+
+**FT: Ford held preliminary JV talks with Xiaomi**
+
+| Element | Detail |
+|---------|--------|
+| Structure | US manufacturing joint venture |
+| Status | Preliminary, Ford denies |
+| Context | Jim Farley personally owns SU7, called it "existential threat" |
+
+**Political landscape:**
+- Trump (Jan 2026): "I love" Chinese companies building US plants
+- Pentagon history: Xiaomi was on military list (Trump 2021), removed under Biden after lawsuit
+- Congressional pressure: Dec 2025 letter urging Hegseth to re-list Xiaomi
+
+**Why Xiaomi:**
+- SU7 "crying loud warning sign" for Western OEMs (ex-VW China CEO)
+- Profitable in 18 months vs Tesla's years
+- Software integration praised (MKBHD)
+- Consumer electronics brand could appeal to US buyers
+
+**Barrier:** 100% tariff on Chinese EV imports makes direct entry impossible. JV with US manufacturing is only path.
+
+*Source: Financial Times, Jan 31 2026*
+
+---
+
 ## Investment case
 
 **Bear:**
@@ -128,6 +155,7 @@ Non-vertically-integrated Android OEMs hurt most.
 - Strong brand in emerging markets
 - If memory normalizes
 - Xring chip = vertical integration step
+- **US market access via Ford JV (speculative)**
 
 ---
 

@@ -21,14 +21,50 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ---
 
+## Funding rounds
+
+| Date | Round | Amount | Valuation | Lead Investors |
+|------|-------|--------|-----------|----------------|
+| Apr 2022 | Seed/Series A | $580M | — | Incl. $500M FTX |
+| Sep 2023 | Strategic | $1.25B | — | Amazon (start of $4B) |
+| Oct 2023 | Strategic | $500M | — | Google (start of $2B) |
+| Mar 2024 | Strategic | $2.75B | — | Amazon (completing $4B) |
+| Nov 2024 | Strategic | $4B | — | Amazon (now $8B total) |
+| **Mar 2025** | **Series E** | **$3.5B** | **$61.5B** | Lightspeed |
+| Mar 2025 | Strategic | $1B | — | Google (now $3B total) |
+| **Sep 2025** | **Series F** | **$13B** | **$183B** | Iconiq, Fidelity, Lightspeed, QIA |
+| Nov 2025 | Strategic | ~$15B | — | NVIDIA ($10B) + Microsoft ($5B) |
+| **Dec 2025** | **Series G** | **$10B** | **$350B** | Coatue, GIC (term sheet) |
+
+**Total raised:** ~$50B+
+
+---
+
 ## Cap table
+
+### Ownership estimates (@ $350B valuation)
+
+| Investor | Invested | Est. Ownership | Value @ $350B | Notes |
+|----------|----------|----------------|---------------|-------|
+| **Founders/employees** | — | ~25-30% | $88-105B | Dario, Daniela Amodei + team |
+| **[[Amazon]]** | $8B | ~12-15% | $42-52B | Earliest large investor, best basis |
+| **[[Google]]** | $3B | ~8-10% | $28-35B | Multiple rounds, cloud partner |
+| **[[NVIDIA]]** | $10B | ~3% | $10.5B | Late 2025, high entry |
+| **[[Microsoft]]** | $5B | ~1.5% | $5.25B | Late 2025, hedging OpenAI |
+| **[[Salesforce]]** | $750M | ~2-3% | $7-10B | 2023, good entry |
+| **[[Spark Capital]]** | — | ~3-5% | $10-18B | Series A/B lead |
+| **[[Menlo Ventures]]** | — | ~2-4% | $7-14B | Early investor |
+| **Coatue / GIC** | $10B | ~3% | $10.5B | Series G (Dec 2025 term sheet) |
+| **Other (QIA, Fidelity, etc.)** | — | ~10-15% | $35-52B | Series E/F participants |
+
+*Estimates based on investment size vs. round valuation. Actual ownership undisclosed.*
 
 ### Key investors
 
 | Investor | Amount | Notes |
 |----------|--------|-------|
-| **[[Google]]** | $2B+ | Cloud partner, multiple rounds |
-| **[[Amazon]]** | $4B | AWS partnership, Bedrock distribution |
+| **[[Google]]** | $3B+ | Cloud partner, multiple rounds |
+| **[[Amazon]]** | $8B | AWS partnership, Bedrock distribution |
 | **[[Microsoft]]** | $5B | Late 2025, despite OpenAI relationship |
 | **[[NVIDIA]]** | $10B | Late 2025 |
 | **[[Salesforce]]** | $750M | 2023 |
@@ -38,7 +74,7 @@ Burning **14x less cash** than OpenAI before profitability.
 | **Jaan Tallinn** | — | Skype co-founder, safety-focused |
 | **Eric Yuan** | — | [[Zoom]] founder |
 
-**Total raised:** $15B+
+**Total raised:** ~$50B+
 
 **Notable:** Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging).
 

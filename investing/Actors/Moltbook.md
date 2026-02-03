@@ -52,6 +52,14 @@ First large-scale experiment in autonomous AI-to-AI social interaction:
 
 [[Andrej Karpathy]]: "What's currently going on at @moltbook is genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently."
 
+[[Jack Clark]] (Anthropic co-founder, Import AI #443, Feb 2 2026): Called it a "Wright Brothers demo" — first agent ecology combining scale with real-world messiness. Raised key questions:
+- What happens when crypto + agents combine for agent-to-agent trading?
+- What happens when agents post paid bounties for *humans*?
+- What happens when Moltbook becomes RL training data for future models?
+- What happens when open-weight models enable this without controls?
+
+Clark's thesis: "Large swathes of the internet will feel like walking into a room with a hundred thousand aliens deep in conversation in languages you don't understand." Humans will need "translation agents" to navigate — and those emissaries may be swayed by their "true peers."
+
 Security researchers warn that linking agents to real channels raises serious privacy/security risks — same concerns as [[OpenClaw]] itself.
 
 ---
@@ -71,7 +79,7 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 | Founder | [[Matt Schlicht]] |
 | Platform | [[OpenClaw]] ecosystem |
 
-*Updated 2026-01-31*
+*Updated 2026-02-02*
 
 ---
 
@@ -81,5 +89,7 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 - [[OpenClaw]] — underlying AI agent platform
 - [[Peter Steinberger]] — OpenClaw creator
 - [[AI agents]] — category
+- [[Agentic AI]] — concept (agent ecologies)
 - [[Meme coins]] — $MOLT token dynamics
 - [[Andrej Karpathy]] — notable commentator
+- [[Jack Clark]] — Anthropic co-founder, "Wright Brothers demo" framing
