@@ -117,4 +117,16 @@ See [[Venezuela oil rebuild]] for rare earths section.
 
 ---
 
-*Updated 2026-01-10*
+## US policy response
+
+| Date | Action | Scale |
+|------|--------|-------|
+| 2022 | [[CHIPS Act]] passed | $52B semiconductors |
+| 2022 | IRA critical minerals tax credits | Varies |
+| **Feb 2026** | **[[Project Vault]] announced** | **$12B stockpile** |
+
+**[[Project Vault]]:** $12B strategic minerals stockpile combining private funding with $10B [[EXIM Bank]] loan. First major government-backed mineral stockpile since Cold War.
+
+---
+
+*Updated 2026-02-02*
