@@ -87,6 +87,38 @@ Data = recurring, high-margin revenue.
 
 ---
 
+## ICE Clear (clearing houses)
+
+**Six clearing houses:**
+
+| Entity | Location | Focus |
+|--------|----------|-------|
+| **ICE Clear Credit** | Chicago | CDS (~95% global share), US Treasuries |
+| **ICE Clear Europe** | London | Energy derivatives, futures |
+| **ICE Clear US** | New York | Softs, equity derivatives, metals, FX |
+| ICE Clear Singapore | Singapore | Asia-Pacific futures |
+| ICE Clear Netherlands | Amsterdam | European products |
+| ICE NGX | Calgary | Canadian natural gas/electricity |
+
+**Scale:** ~6M derivatives transactions cleared daily across all houses.
+
+**ICE Clear Credit dominance:**
+- Clears ~95% of all CDS globally
+- September 2024: First CDS clearing house to process >$1T notional in one day
+- $350T+ cumulative notional since inception
+- **Designated SIFMU** under Dodd-Frank
+
+**Treasury clearing (2026):**
+- SEC approved ICE Clear Credit for Treasury clearing (February 2026)
+- First alternative venue to incumbent [[DTCC]]/FICC
+- [[SEC]] mandate: December 31, 2026 for cash market, June 30, 2027 for repo
+
+**CDS clearing consolidation (2023):**
+- ICE consolidated CDS clearing from London to Chicago (October 2023)
+- ~65% migrated to ICE Clear Credit, ~35% to [[LCH]] CDSClear
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -120,10 +152,12 @@ Data = recurring, high-margin revenue.
 ## Related
 
 - [[Nasdaq]] — competitor (exchange, data)
-- [[CME Group]] — competitor (derivatives)
+- [[CME Group]] — competitor (derivatives, clearing)
 - [[CBOE]] — competitor (options)
 - [[HKEX]] — peer ([[Asia]] exchange)
-- [[London Stock Exchange Group]] — peer (exchange + data)
+- [[London Stock Exchange Group]] — peer (exchange + data), owns [[LCH]]
+- [[LCH]] — competitor (CDS clearing via CDSClear)
+- [[DTCC]] — Treasury clearing incumbent
 - [[Financial data industry]] — data segment context
 
 *Updated 2026-01-19 (2024 financials, acquisitions)*

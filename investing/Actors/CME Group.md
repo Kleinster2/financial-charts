@@ -72,6 +72,30 @@ CME benefits from uncertainty.
 
 ---
 
+## CME Clearing
+
+**Scale (2024-2025):**
+
+| Metric | Value |
+|--------|-------|
+| Daily transactions | 20M |
+| Annual notional guaranteed | $1+ quadrillion |
+| ADV (2025) | 28.1M contracts (record) |
+| Initial margin held | ~$258B |
+| US CCP market share (by IM) | ~50% |
+
+**Designated SIFMU** under Dodd-Frank. Primary regulator: [[CFTC]].
+
+**SPAN margining:** Industry standard used by 50+ exchanges globally. SPAN 2 rolling out (July 2024 for energy) with enhanced modeling.
+
+**OTC clearing:** <3% share in interest rate swaps vs [[LCH]]'s 95%+. Portfolio margining favors LCH ($102B margin savings vs CME's ~$7B).
+
+**Treasury clearing (2026):** CME Securities Clearing Inc. approved by [[SEC]] December 2025. Launching Q2 2026 to compete with [[DTCC]]/FICC.
+
+**November 2025 outage:** 11+ hour outage from cooling system failure at CyrusOne data center. Longest downtime since 2017. Exposed single point of failure risk.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -104,7 +128,9 @@ CME benefits from uncertainty.
 
 ## Related
 
-- [[Intercontinental Exchange]] — competitor (ICE Futures)
+- [[Intercontinental Exchange]] — competitor (ICE Futures, ICE Clear)
+- [[LCH]] — competitor (OTC rates clearing)
+- [[DTCC]] — Treasury clearing competitor
 - [[Nasdaq]] — peer (equities)
 - [[CBOE]] — competitor (options, [[VIX]])
 - [[OPEC]] — CME trades oil futures
