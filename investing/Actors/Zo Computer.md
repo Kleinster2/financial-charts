@@ -67,6 +67,18 @@ From Ben Guo's LinkedIn: "Clawdbot is the homebrew version of Zo... Zo gives you
 - Habit tracking dashboards
 - Coding agents running overnight
 
+**TikTok influencer seeding:**
+Running paid campaigns targeting OpenClaw/Mac Mini audience. Example: @erickzo0 (Florida tech creator):
+
+| Video | Views | Pitch |
+|-------|-------|-------|
+| "Clawd or Zo?" | 422 | Head-to-head (ad) |
+| "Before you buy a Mac Mini..." | 936 | Don't buy hardware (ad) |
+| "Is clawdbot worth it?" | 541 | Zo is easier |
+| "Before using clawdbot, try this" | 862 | Alternative pitch |
+
+GTM strategy: Ride competitor's viral wave, position as easier alternative.
+
 ---
 
 ## Competitive dynamics
