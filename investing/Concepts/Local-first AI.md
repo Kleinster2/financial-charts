@@ -63,17 +63,43 @@ This is the "picks and shovels" layer — the agent infrastructure that routes t
 
 ---
 
-## Example: Clawdbot
+## Key products
 
-[[Clawdbot viral growth|Clawdbot]] (82k+ GitHub stars, Feb 2025) is the canonical local-first AI agent:
+### Claude Code ([[Anthropic]])
 
-| Component | Location |
-|-----------|----------|
-| Gateway daemon | Local machine |
-| Conversation history | Local files |
-| API keys | Local config |
-| Tool execution | Local shell |
-| Intelligence | Cloud API (Claude, GPT-4) |
+Official agentic coding tool — the most polished local-first implementation:
+
+| Feature | Detail |
+|---------|--------|
+| Interface | Terminal CLI + IDE extensions |
+| Key capability | Directly edit files, run commands, create commits |
+| MCP protocol | Connect to Figma, Google Drive, Slack |
+| Integrations | GitHub Actions, GitLab CI/CD, VS Code, JetBrains |
+
+From [Claude Code docs](https://code.claude.com/docs/en/overview):
+> "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks."
+
+### Cloudflare Moltworker
+
+Cloudflare's published solution for running local agents entirely on their platform:
+- AI Gateway for Claude API routing
+- Sandboxes for agent runtime
+- R2 for persistent storage
+- Browser Rendering for web automation
+
+Shows infrastructure vendors actively building for this architecture.
+
+---
+
+## Market adoption (McKinsey 2025)
+
+| Metric | Value |
+|--------|-------|
+| Organizations experimenting with agents | **62%** |
+| Organizations scaling agentic AI | **23%** |
+| High performers scaling agents | **3x** more likely |
+
+Most adoption still in IT and knowledge management functions. Full enterprise deployment remains rare.
 
 ---
 
@@ -83,11 +109,11 @@ Local-first AI creates demand for:
 
 | Need | Solution | Winner |
 |------|----------|--------|
-| **Secure tunnels** | Expose localhost to internet safely | [[Cloudflare]] Tunnels |
+| **Secure tunnels** | Expose localhost to internet safely | [[Cloudflare]] Tunnels (free) |
 | **Local compute** | Run gateway, tools, context | Mac Mini, workstations |
 | **Local memory** | Store embeddings, context | DDR5, high-RAM configs |
 
-This drives the [[Memory squeeze thesis]] — as more developers run local AI gateways, demand for consumer hardware with lots of RAM increases, right as [[HBM economics|HBM demand]] squeezes supply.
+This drives the [[Memory squeeze thesis]] — as more developers run local AI gateways, demand for consumer hardware with lots of RAM increases.
 
 ---
 
@@ -100,18 +126,19 @@ This drives the [[Memory squeeze thesis]] — as more developers run local AI ga
 | Prompt injection | Local review of agent actions |
 | Data exfiltration | All data stays local by default |
 
-[[Clawdbot viral growth|Clawdbot's security issues]] showed the importance of secure tunneling — exposed instances without proper auth were vulnerable.
+Agent security remains largely unsolved at scale — 51% of organizations using AI report at least one negative consequence (McKinsey 2025).
 
 ---
 
-## Market signal
+## Cloudflare Tunnels pricing
 
-Demand for local-first architecture is real:
-- [[Clawdbot viral growth|Clawdbot]] — fastest growing open-source project ever
-- [[Apple]] Mac Mini supply constrained (local AI agent demand)
-- [[Cloudflare]] stock +20% on Clawdbot adoption
+| Tier | Price | Tunnels | Users |
+|------|-------|---------|-------|
+| **Free** | $0 | Up to 1,000 | 50 |
+| **Pay-as-you-go** | $7/user/mo | Same | Unlimited |
+| **Enterprise** | Custom | Custom | Custom + SLA |
 
-Developers want AI that acts autonomously but keeps secrets local.
+Strategic land-grab: Tunnels became free in April 2021 to capture developers, upsell to Zero Trust.
 
 ---
 
@@ -125,14 +152,17 @@ Developers want AI that acts autonomously but keeps secrets local.
 ## Related
 
 ### Concepts
-- [[Agentic AI]] — what local-first enables
-- [[HBM economics]] — memory pressure affecting local hardware
+- [[Agentic AI]] — what local-first enables (62% experimenting)
+- [[HBM economics]] — memory pressure affecting hardware costs
 
 ### Actors
-- [[Cloudflare]] — Tunnels for secure local exposure
+- [[Cloudflare]] — Tunnels + full AI agent stack ($64B market cap)
+- [[Anthropic]] — Claude Code, Claude powers agents ($183B valuation)
 - [[Apple]] — Mac Mini demand from local AI
 
-### Events
-- [[Clawdbot viral growth]] — canonical local-first success
+### Sources
+- [Claude Code Documentation](https://code.claude.com/docs/en/overview)
+- [Cloudflare Moltworker Blog Post](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
+- [McKinsey: State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
-*Created 2026-01-28*
+*Created 2026-01-28 | Updated with McKinsey data, Cloudflare pricing*

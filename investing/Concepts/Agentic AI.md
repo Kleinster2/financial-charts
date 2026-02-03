@@ -7,12 +7,25 @@ aliases: [AI agents, agentic, autonomous AI]
 
 ---
 
+## Market adoption (McKinsey 2025)
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Organizations experimenting with agents | **62%** | McKinsey Global Survey 2025 |
+| Organizations scaling agentic AI | **23%** | McKinsey |
+| High performers scaling agents | **3x** more likely than peers | McKinsey |
+| Organizations using AI in 3+ functions | **50%** | McKinsey |
+
+Leading sectors: Technology, media & telecom, healthcare. Leading functions: IT, knowledge management (service-desk, deep research use cases).
+
+---
+
 ## The tradeoff
 
 | Mode | Capability | Risk |
 |------|-----------|------|
 | **Advisor** (Siri, ChatGPT) | Suggests actions, waits for approval | Safe but limited |
-| **Agent** (Clawdbot, Devin) | Takes actions autonomously | Useful but dangerous |
+| **Agent** (Claude Code, Devin) | Takes actions autonomously | Useful but dangerous |
 
 The core tension: **"Siri is safe because it's neutered. Agents are useful because they're dangerous."**
 
@@ -33,19 +46,38 @@ The difference: agents complete workflows end-to-end while you sleep.
 
 ---
 
+## Key products
+
+### [[Anthropic]] Claude Code
+
+Official agentic coding tool (launched 2025):
+- Runs in terminal, VS Code, JetBrains IDEs
+- Directly edits files, runs commands, creates commits
+- Integrates with GitHub Actions, GitLab CI/CD
+- MCP protocol connects to external data (Figma, Slack, Google Drive)
+- Requires Claude subscription (Pro/Max/Teams/Enterprise)
+
+### [[OpenAI]] GPT Actions
+
+GPT-4 with tool use, ability to call external APIs.
+
+### Computer use agents
+
+[[Anthropic]] Computer Use, various open-source alternatives — agents that control mouse/keyboard.
+
+---
+
 ## Architecture patterns
 
 ### [[Local-first AI]]
 
 AI gateway runs locally (conversation history, credentials stay on machine) but routes to cloud APIs for intelligence. "Own the agent layer, rent the intelligence."
 
-Example: [[Clawdbot viral growth|Clawdbot]] — local daemon that orchestrates [[Claude]], [[GPT-4]], other models while keeping secrets local.
+Example: Claude Code — local daemon that orchestrates AI while keeping secrets local.
 
 ### Cloud-native
 
 Full cloud execution — agent runs in provider infrastructure.
-
-Example: [[OpenAI]]'s GPT Actions, [[Anthropic]]'s Computer Use.
 
 ---
 
@@ -60,7 +92,7 @@ Agents expose attack surface that advisors don't:
 | **Lateral movement** | Compromised agent accesses connected services |
 | **Data exfiltration** | Agent with file access can leak |
 
-[[Clawdbot viral growth|Clawdbot security issues]] illustrated this — localhost auth bypass exposed running instances to the internet.
+Security architecture critical — localhost exposure, authentication, sandboxing all unsolved at scale.
 
 ---
 
@@ -75,15 +107,32 @@ If agents need to expose local services safely, picks-and-shovels plays emerge:
 | Monitoring | Observability for agent actions | Datadog |
 | Sandboxing | Isolate agent execution | Container runtimes |
 
-[[Cloudflare agentic infrastructure|Cloudflare's stock moved +20%]] on a single viral project adopting Cloudflare Tunnels.
+---
+
+## Enterprise adoption barriers
+
+McKinsey findings on why most organizations haven't scaled:
+
+| Barrier | Detail |
+|---------|--------|
+| Workflow redesign | Only high performers fundamentally redesign workflows |
+| Leadership | High performers 3x more likely to have senior ownership |
+| Investment | High performers commit 20%+ of digital budgets to AI |
+| Talent | Software engineers, data engineers most in demand |
+
+Only **39%** of organizations report enterprise-level EBIT impact from AI — most value still captured at use-case level.
 
 ---
 
-## Market signal
+## Workforce implications (McKinsey 2025)
 
-The [[Clawdbot viral growth|Clawdbot phenomenon]] (82k+ GitHub stars in weeks) signals pent-up demand for "AI that actually does things." Users are willing to accept security tradeoffs for capability.
+| Expectation | Share of respondents |
+|-------------|---------------------|
+| Workforce decrease 3%+ | **32%** |
+| No change | **43%** |
+| Workforce increase 3%+ | **13%** |
 
-This is a leading indicator — [[Consumer|consumer]] tolerance for agent risk is higher than enterprise assumptions.
+Larger organizations more likely to expect AI-related workforce reductions.
 
 ---
 
@@ -103,10 +152,11 @@ This is a leading indicator — [[Consumer|consumer]] tolerance for agent risk i
 ### Actors
 - [[Cloudflare]] — infrastructure for exposing agents safely
 - [[Apple]] — Mac Mini demand from local AI agents
-- [[Anthropic]] — Claude powers many agents
+- [[Anthropic]] — Claude Code, Claude powers many agents
 - [[OpenAI]] — GPT-4 agent capabilities
 
-### Events
-- [[Clawdbot viral growth]] — fastest growing open-source project, Feb 2025
+### Sources
+- [McKinsey: The State of AI in 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+- [Claude Code Documentation](https://code.claude.com/docs/en/overview)
 
-*Created 2026-01-28*
+*Created 2026-01-28 | Updated with McKinsey 2025 data*

@@ -27,28 +27,31 @@ AI accelerators ([[NVIDIA]] GPUs, Google TPUs, custom ASICs) require massive HBM
 1. **HBM consumes wafer starts** — Samsung, [[SK Hynix]], [[Micron]] shift capacity to HBM
 2. **Standard DRAM gets squeezed** — same fabs, competing allocation
 3. **Consumer memory starves** — DDR5 for PCs, phones deprioritized
-4. **Prices spike** — DRAM prices up **172%** since early 2025
+4. **Prices spike** — significant DRAM price increases through 2025-2026
 
 ---
 
-## Current market (Jan 2026)
+## Current market (Feb 2026)
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| DRAM price increase | **+172%** since early 2025 | Industry data |
-| Server memory pricing | Expected to **double** by late 2026 | [[Bank of America]] |
-| HBM TAM | $35B (2025) → $100B (2028) | [[Micron]] |
-| Consumer DRAM supply | Severely constrained | Multiple OEMs |
+| DDR4 8G spot price | ~$30.76-30.90 | TrendForce Feb 2026 |
+| DRAM spot market | "Weak demand, suppliers lowering quotes" | TrendForce |
+| [[Micron]] revenue (TTM) | **$42.3B** | Yahoo Finance |
+| [[Micron]] 1-year return | **+351.74%** | Yahoo Finance |
+| [[Micron]] market cap | **$461.7B** | Yahoo Finance |
+
+**Micron's dominance:** Investing $24B in new Singapore manufacturing facility for memory chips, driven by AI demand. Stock up from $61.54 to $410+ in one year.
 
 ---
 
 ## Who wins
 
-| Player | Position |
-|--------|----------|
-| [[SK Hynix]] | **#1 HBM** — 50%+ share, pricing power |
-| [[Samsung]] | **#2 HBM** — catching up, multi-year hyperscaler deals |
-| [[Micron]] | **#3 HBM** — ramping, exited consumer (Crucial) |
+| Player | Position | Market cap |
+|--------|----------|------------|
+| [[SK Hynix]] | **#1 HBM** — 50%+ share, pricing power | ~$100B+ |
+| [[Samsung]] | **#2 HBM** — catching up, multi-year hyperscaler deals | ~$300B |
+| [[Micron]] | **#3 HBM** — ramping, exited consumer | **$461.7B** |
 
 All three have locked multi-year HBM supply deals with AI hyperscalers ([[NVIDIA]], Google, [[Microsoft]], etc.), guaranteeing volume at favorable pricing.
 
@@ -59,8 +62,8 @@ All three have locked multi-year HBM supply deals with AI hyperscalers ([[NVIDIA
 | Loser | Impact |
 |-------|--------|
 | **PC OEMs** | [[Dell]], [[HP Inc.]], [[Lenovo]] facing cost spikes |
-| **Smartphone makers** | [[Xiaomi]] +25% DRAM cost per phone |
-| **Consumer upgraders** | DIY PC builders priced out |
+| **Smartphone makers** | Higher DRAM cost per phone |
+| **Consumer upgraders** | DIY PC builders face higher costs |
 | **Local AI builders** | Mac Mini, workstation RAM costs rising |
 
 The [[Memory squeeze thesis]] argues consumer-grade hardware window may be closing.
@@ -69,7 +72,7 @@ The [[Memory squeeze thesis]] argues consumer-grade hardware window may be closi
 
 ## Structural vs cyclical
 
-This is **structural**, not just a cycle:
+This appears **structural**, not just a cycle:
 
 | Factor | Implication |
 |--------|-------------|
@@ -78,7 +81,9 @@ This is **structural**, not just a cycle:
 | HBM generations | HBM4 even more capacity-intensive |
 | Fab investment lag | New capacity takes 2-3 years |
 
-The memory industry has never seen demand this concentrated in high-capacity products. Traditional boom/bust cycles may not apply.
+The memory industry has never seen demand this concentrated in high-capacity products.
+
+**Caveat:** TrendForce Feb 2026 notes "weak" spot market demand with suppliers lowering quotes — monitor for cyclical vs structural dynamics.
 
 ---
 
@@ -104,4 +109,8 @@ The memory industry has never seen demand this concentrated in high-capacity pro
 ### Sectors
 - [[Memory]] — parent sector
 
-*Created 2026-01-28*
+### Sources
+- [TrendForce DRAMeXchange](http://www.dramexchange.com/)
+- [Yahoo Finance - MU](https://finance.yahoo.com/quote/MU/)
+
+*Created 2026-01-28 | Updated with Feb 2026 spot prices*

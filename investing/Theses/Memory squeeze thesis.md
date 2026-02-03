@@ -3,56 +3,56 @@ aliases: [consumer memory squeeze]
 ---
 #thesis #memory #ai #consumer
 
-**Memory squeeze thesis** — Consumer RAM is getting squeezed as [[Samsung]], [[SK Hynix]], and [[Micron]] lock [[HBM]] supply to AI hyperscalers. The window for affordable local AI hardware may be closing.
+**Memory squeeze thesis** — Consumer RAM is getting squeezed as [[Samsung]], [[SK Hynix]], and [[Micron]] prioritize [[HBM]] supply to AI hyperscalers. The window for affordable local AI hardware may be narrowing.
 
 ---
 
 ## The thesis
 
-[[HBM economics]] creates a structural shift: HBM consumes ~4x wafer capacity per GB vs standard DRAM. As AI hyperscalers ([[NVIDIA]], Google, [[Microsoft]], etc.) lock multi-year HBM supply deals, memory manufacturers are allocating capacity away from consumer products.
+[[HBM economics]] creates a structural shift: HBM consumes ~4x wafer capacity per GB vs standard DRAM. As AI hyperscalers ([[NVIDIA]], Google, [[Microsoft]], etc.) lock multi-year HBM supply deals, memory manufacturers may allocate capacity away from consumer products.
 
-Result: DRAM prices **up 172%** since early 2025. Server memory expected to **double** by late 2026.
-
-For anyone wanting to run [[Local-first AI]] or [[Agentic AI]] on personal hardware, the cost is rising fast.
+For anyone wanting to run [[Local-first AI]] or [[Agentic AI]] on personal hardware, this could mean rising costs.
 
 ---
 
-## Evidence
+## Current market data (Feb 2026)
 
-### Supplier behavior
+| Metric | Value | Source |
+|--------|-------|--------|
+| DDR4 8G spot price | **$30.76-30.90** | TrendForce Feb 2026 |
+| Spot market demand | "Weak, suppliers lowering quotes" | TrendForce |
+| [[Micron]] stock (1Y) | **+351.74%** | Yahoo Finance |
+| [[Micron]] market cap | **$461.7B** | Yahoo Finance |
+| [[Micron]] revenue (TTM) | **$42.3B** | Yahoo Finance |
 
-| Supplier | Action | Signal |
-|----------|--------|--------|
-| [[Micron]] | **Killed Crucial brand** (Feb 2026) | Exiting consumer memory |
-| [[Samsung]] | Multi-year HBM deals with hyperscalers | Capacity locked |
-| [[SK Hynix]] | 2026 HBM **fully sold out** | No spare capacity |
-
-When suppliers exit consumer markets during a shortage, it's severe.
-
-### OEM responses
-
-| OEM | Response |
-|-----|----------|
-| [[Dell]] | "Never seen costs move at this rate" |
-| [[Lenovo]] | Hoarding 50% extra inventory |
-| [[HP Inc.]] | Warning of H2 2026 price hikes |
-| [[Xiaomi]] | +25% DRAM cost per phone |
-| [[Apple]] | "Managing costs well" (scale advantage) |
-
-### Hardware demand
-
-[[Apple]] Mac Mini experiencing supply chain squeeze — attributed partly to local AI agent demand. Developers building [[Local-first AI]] setups need high-RAM machines, right as supply tightens.
+**Important caveat:** TrendForce Feb 2026 reports "weak" DRAM spot demand with suppliers lowering quotes — monitor whether squeeze thesis is materializing or overstated.
 
 ---
 
-## Why this matters
+## Memory manufacturer positioning
+
+| Supplier | Position | Market cap | HBM rank |
+|----------|----------|------------|----------|
+| [[SK Hynix]] | 50%+ HBM share, pricing power | ~$100B+ | #1 |
+| [[Samsung]] | Multi-year hyperscaler deals | ~$300B | #2 |
+| [[Micron]] | US-based, HBM ramping | **$461.7B** | #3 |
+
+All three benefit from AI-driven HBM demand. [[Micron]]'s stock performance (+351% in one year) reflects this thesis playing out.
+
+---
+
+## Why this matters for local AI
 
 [[Agentic AI]] is creating demand for local compute:
-- Run AI gateway locally ([[Clawdbot viral growth|Clawdbot]], etc.)
+- Run AI gateway locally (Claude Code, etc.)
 - Store conversation history, embeddings
 - Execute tools, scripts, automation
 
-This requires RAM — ideally 32GB+, often 64GB+. As prices spike, the addressable market for local AI shrinks to those who bought hardware early or can afford premium pricing.
+Per McKinsey 2025:
+- **62%** of organizations experimenting with AI agents
+- **23%** scaling agentic AI systems
+
+This requires RAM — ideally 32GB+, often 64GB+. If prices rise, the addressable market for local AI shrinks.
 
 ---
 
@@ -60,38 +60,35 @@ This requires RAM — ideally 32GB+, often 64GB+. As prices spike, the addressab
 
 ### Long memory manufacturers
 
-| Ticker | Thesis |
-|--------|--------|
-| [[SK Hynix]] | #1 HBM, pricing power |
-| [[Samsung]] | #2 HBM, catching up |
-| [[Micron]] | #3 HBM, US-based |
+| Ticker | 1Y Return | Thesis |
+|--------|-----------|--------|
+| [[Micron]] (MU) | **+351.74%** | #3 HBM, US-based |
+| [[SK Hynix]] | Strong | #1 HBM, pricing power |
+| [[Samsung]] | Mixed | #2 HBM, foundry diversification |
 
-All three benefit from shortage dynamics. See [[Long memory]].
+All three benefit from AI demand. [[Micron]] is investing $24B in new Singapore facility.
 
 ### Potential losers
 
 | Loser | Impact |
 |-------|--------|
 | PC OEMs | Margin compression unless pass-through pricing |
-| Consumer hardware | DIY market shrinks |
-| Budget local AI | Barrier to entry rising |
-
-### Hedge consideration
-
-**Buy local AI hardware now** — if thesis is correct, 64GB Mac Mini today is cheaper than 64GB Mac Mini in 2027.
-
-The [[Clawdbot viral growth|Clawdbot phenomenon]] partly reflects this — developers racing to set up local AI infrastructure before costs rise further.
+| Consumer hardware | DIY market could shrink |
+| Budget local AI | Barrier to entry may rise |
 
 ---
 
 ## Risks to thesis
 
-| Risk | Impact |
-|------|--------|
-| AI demand slows | Memory prices normalize |
-| New capacity comes online | 2028+ relief possible |
-| Alternative architectures | Reduce memory requirements |
-| [[China]] memory ([[CXMT]]) | Adds supply, breaks oligopoly |
+| Risk | Severity | Notes |
+|------|----------|-------|
+| **AI demand slows** | Medium | Would normalize prices |
+| **New capacity online** | Medium | 2028+ relief possible |
+| **Current spot weakness** | High | TrendForce shows soft demand |
+| **China memory (CXMT)** | Medium | Adds supply, breaks oligopoly |
+| **Alternative architectures** | Low | Could reduce memory needs |
+
+**Key uncertainty:** Feb 2026 spot market shows weak demand with suppliers lowering quotes. This may indicate the squeeze is not (yet) materializing in consumer markets, or reflects cyclical softness.
 
 ---
 
@@ -99,10 +96,10 @@ The [[Clawdbot viral growth|Clawdbot phenomenon]] partly reflects this — devel
 
 | Signal | Bullish for thesis | Bearish |
 |--------|-------------------|---------|
-| Consumer DRAM prices | Keep rising | Stabilize or fall |
-| OEM commentary | More warnings | "Manageable" |
-| Memory capex | Stays HBM-focused | Consumer allocation returns |
-| [[Micron]] Crucial exit | Permanent | Reversed |
+| DDR5 pricing | Rising | Stable/falling |
+| OEM commentary | Cost warnings | "Manageable" |
+| Memory capex | HBM-focused | Consumer allocation returns |
+| Spot market | Tight supply | "Weak demand, lowering quotes" |
 
 ---
 
@@ -111,18 +108,20 @@ The [[Clawdbot viral growth|Clawdbot phenomenon]] partly reflects this — devel
 ### Concepts
 - [[HBM economics]] — structural driver
 - [[Local-first AI]] — demand driver
-- [[Agentic AI]] — why local compute matters
+- [[Agentic AI]] — 62% of orgs experimenting
 
 ### Actors
-- [[Samsung]] — #2 HBM, supply locked
-- [[SK Hynix]] — #1 HBM, supply locked
-- [[Micron]] — #3 HBM, exited consumer
-- [[Apple]] — Mac Mini supply squeeze
+- [[Micron]] — $461.7B market cap, +351% 1Y
+- [[SK Hynix]] — #1 HBM
+- [[Samsung]] — #2 HBM
+- [[Apple]] — Mac Mini demand from local AI
 
-### Events
-- [[Clawdbot viral growth]] — local AI demand signal
+### Sources
+- [TrendForce DRAMeXchange](http://www.dramexchange.com/)
+- [Yahoo Finance - MU](https://finance.yahoo.com/quote/MU/)
+- [McKinsey: State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
 ### Theses
 - [[Long memory]] — related thesis
 
-*Created 2026-01-28*
+*Created 2026-01-28 | Updated with Feb 2026 data*

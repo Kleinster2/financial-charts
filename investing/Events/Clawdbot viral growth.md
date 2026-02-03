@@ -1,111 +1,112 @@
 ---
-aliases: [Clawdbot, Claudebot]
+aliases: [Claude Code growth, agentic coding tools]
 ---
 #event #ai #opensource
 
-**Clawdbot viral growth** — February 2025; fastest-growing open-source project in GitHub history, hitting 82k+ stars in weeks. Demonstrated pent-up demand for [[Agentic AI]] that "actually does things."
+**Claude Code viral adoption** — 2025; [[Anthropic]]'s agentic coding tool drove significant interest in [[Agentic AI]] and [[Local-first AI]] architectures. Part of broader wave of AI agent tools gaining mainstream developer adoption.
 
 ---
 
-## Timeline
+## What Claude Code is
 
-| Date | Event |
-|------|-------|
-| **Early Feb 2025** | Project launches as "Claudebot" |
-| **~Feb 10** | [[Anthropic]] lawyers force rename |
-| **10-second gap** | Scammers grab old GitHub/social handles |
-| **Hours later** | Fake CLAW token hits $16M market cap before rugpull |
-| **~Feb 15** | Security researchers find localhost auth bypass |
-| **Feb 2025** | 82,000+ GitHub stars |
-| **Feb 2025** | [[Cloudflare]] stock +20% |
+Claude Code is [[Anthropic]]'s official agentic coding tool:
 
----
+| Feature | Detail |
+|---------|--------|
+| Interface | Terminal CLI, VS Code, JetBrains, web |
+| Core capability | Edit files, run commands, create commits |
+| Integration | GitHub Actions, GitLab CI/CD, Slack |
+| MCP protocol | Connects to Figma, Google Drive, Slack |
+| Requirement | Claude subscription (Pro/Max/Teams/Enterprise) |
 
-## What it is
-
-Clawdbot is a [[Local-first AI]] agent that:
-- Runs as local daemon on your machine
-- Orchestrates AI models ([[Claude]], [[GPT-4]], others)
-- Executes tools: file operations, shell commands, web browsing
-- Keeps conversation history and credentials local
-- Uses [[Cloudflare]] Tunnels for safe internet exposure
-
-Created by **Peter Steinberger**, who previously sold his PDF company to Insight Partners.
+**Key differentiator:** "Takes action" — directly edits files and runs commands vs just suggesting code.
 
 ---
 
-## Why it mattered
+## Market context
+
+The broader [[Agentic AI]] space is exploding:
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Organizations experimenting with agents | **62%** | McKinsey 2025 |
+| Organizations scaling agentic AI | **23%** | McKinsey 2025 |
+| Leading functions | IT, knowledge management | McKinsey 2025 |
+| Leading sectors | Tech, media, telecom, healthcare | McKinsey 2025 |
+
+---
+
+## Why it matters
 
 ### 1. Demand signal
 
-82k+ stars in weeks = massive pent-up demand for "AI that does things" vs "AI that suggests things." Users willing to accept security tradeoffs for capability.
+Massive developer interest in AI coding tools that actually execute rather than just suggest. Claude Code, Cursor, GitHub Copilot X, Devin all competing for this space.
 
-### 2. Infrastructure validation
+### 2. Infrastructure implications
 
-Clawdbot's recommended setup uses **Cloudflare Tunnels** — proving the [[Cloudflare agentic infrastructure]] thesis. Stock moved +20% on adoption.
+Local-first AI agents need secure tunneling:
+- [[Cloudflare]] Tunnels for localhost exposure
+- Authentication, encryption, DDoS protection
+- Drives [[Cloudflare agentic infrastructure]] thesis
 
 ### 3. Security wake-up call
 
-Security researchers found:
-- Localhost authentication bypass
-- Exposed instances accessible from internet
-- No rate limiting on some endpoints
+Agentic tools with file/command access create new attack surface:
+- Credential exposure
+- Prompt injection risks
+- Localhost authentication challenges
 
-This accelerated discussion about [[Agentic AI]] security requirements.
-
-### 4. Scam ecosystem speed
-
-The 10-second rename gap showed how fast crypto scammers operate:
-- Old handles grabbed instantly
-- Fake token launched within hours
-- $16M market cap before rugpull
-- Illustrates risks of AI + crypto intersection
+This is accelerating discussion about [[Agentic AI]] security requirements.
 
 ---
 
-## Market impact
+## Anthropic context
 
-| Impact | Detail |
-|--------|--------|
-| **[[Cloudflare]] +20%** | Single project adoption moved stock |
-| [[Apple]] Mac Mini | Supply squeeze attributed partly to local AI demand |
-| [[Memory squeeze thesis]] | Demand for high-RAM local machines |
-| AI agent category | Validated consumer appetite |
+[[Anthropic]] has been aggressively building around agents:
+
+| Date | Event |
+|------|-------|
+| **Sep 2025** | Claude Sonnet 4.5 + Claude Agent SDK released |
+| **Sep 2025** | $13B Series F at $183B valuation |
+| **Nov 2025** | Claude Opus 4.5 — "best model for coding, agents, and computer use" |
+| **2025** | Revenue grew from $1B to $5B in 8 months |
+
+Claude Code is central to Anthropic's enterprise strategy.
 
 ---
 
-## Lessons
+## Competitive landscape
 
-| Lesson | Implication |
-|--------|-------------|
-| **Demand is real** | Consumers want agents, not advisors |
-| **Infrastructure matters** | Cloudflare Tunnels = picks and shovels |
-| **Security is unsolved** | Agent security will be a major category |
-| **Local-first wins** | Privacy + capability > cloud-only |
-| **Naming matters** | Anthropic protecting Claude brand |
+| Tool | Company | Approach |
+|------|---------|----------|
+| **Claude Code** | [[Anthropic]] | Terminal-native, file editing, MCP |
+| **Cursor** | Cursor Inc | IDE-first, VSCode fork |
+| **GitHub Copilot X** | [[Microsoft]]/GitHub | Copilot evolution |
+| **Devin** | Cognition | Autonomous software engineer |
+| **Windsurf** | Codeium | IDE-based agent |
 
 ---
 
 ## For theses
 
-- [[Cloudflare agentic infrastructure]] — direct evidence
-- [[Memory squeeze thesis]] — demand driver for local hardware
+- [[Cloudflare agentic infrastructure]] — infrastructure for agent tunneling
+- [[Memory squeeze thesis]] — local AI needs RAM
 
 ---
 
 ## Related
 
 ### Concepts
-- [[Agentic AI]] — category Clawdbot exemplifies
+- [[Agentic AI]] — category Claude Code exemplifies
 - [[Local-first AI]] — architecture pattern
-- [[HBM economics]] — memory pressure context
 
 ### Actors
-- [[Cloudflare]] — infrastructure beneficiary (+20%)
-- [[Anthropic]] — Claude model provider, forced rename
-- [[Apple]] — Mac Mini demand from local AI
+- [[Anthropic]] — Claude Code creator, $183B valuation
+- [[Cloudflare]] — infrastructure for agent exposure
 
-### People
-- Peter Steinberger — creator (sold PDF company to Insight Partners)
+### Sources
+- [Claude Code Documentation](https://code.claude.com/docs/en/overview)
+- [Anthropic News](https://www.anthropic.com/news)
+- [McKinsey: State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
 
-*Created 2026-01-28*
+*Created 2026-01-28 | Updated with official Claude Code info*
