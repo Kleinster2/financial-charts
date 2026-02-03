@@ -45,20 +45,27 @@ The impostor accounts promoted a fake **CLAW token on Solana** that hit **$16M m
 
 ## Security nightmare
 
-[[DVULN]] (security researcher Jameson O'Reilly) discovered critical vulnerabilities:
+[[DVULN]] (security researcher Jamieson O'Reilly) discovered critical vulnerabilities via Shodan scanning:
 
 | Finding | Detail |
 |---------|--------|
-| **Localhost auth bypass** | Default setup allowed unauthenticated access |
-| **Exposed instances** | Hundreds of publicly accessible agents found |
-| **Fully open instances** | **8 completely unprotected** — anyone could execute commands |
+| **Exposed instances** | **900+** found searching "Clawdbot Control" on port 18789 |
+| **Zero-auth instances** | **8 completely unprotected** — anyone could execute commands |
+| **Signal integration exposed** | One deployment exposed full message access |
+| **Proxy misconfiguration** | Could leak API keys, OAuth tokens, chat histories |
 | **Prompt injection** | Matt Vukoule got a private key via malicious email in **5 minutes** |
 
-### ClawdHub: Zero moderation
+### CVE-2026-25253 (CVSS 8.8)
 
-The community skill marketplace ("ClawdHub") had no vetting:
+Critical one-click RCE vulnerability via cross-site WebSocket hijacking. Disclosed Feb 2026, patched in version 2026.1.29 on January 30, 2026.
 
-> DVULN uploaded a benign test skill. Within days, installations appeared from **7 different countries**. No review, no verification.
+### ClawdHub supply chain attack
+
+O'Reilly demonstrated the marketplace's vulnerability with a proof-of-concept:
+- Uploaded a publicly available skill
+- Artificially inflated download counts
+- Result: **4,000+ downloads from 7 countries**
+- No review process, no moderation
 
 O'Reilly's warning:
 
@@ -196,7 +203,8 @@ The market is bifurcating:
 ## Sources
 
 - [Cloudflare Moltworker announcement](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
-- DVULN security research (2025)
+- [OpenClaw Bug Enables One-Click RCE](https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html) — The Hacker News
+- [OpenClaw ecosystem still suffering severe security issues](https://www.theregister.com/2026/02/02/openclaw_security_issues/) — The Register
 - McKinsey State of AI 2025
 
-*Created 2026-01-28 | Rewritten 2026-02-02 to focus on OpenClaw project*
+*Created 2026-01-28 | Rewritten 2026-02-02 | Updated 2026-02-03 with CVE-2026-25253*

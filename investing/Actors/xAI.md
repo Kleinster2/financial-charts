@@ -3,7 +3,7 @@ aliases: [Grok, Macrohard]
 ---
 #actor #ai #hyperscaler
 
-**xAI** — Elon Musk's AI company (Grok). Building massive GPU clusters. Macrohard project to simulate Microsoft with AI.
+**xAI** — Elon Musk's AI company (Grok). **Now a SpaceX subsidiary** after Feb 2026 acquisition. Building massive GPU clusters. Macrohard project to simulate Microsoft with AI.
 
 ---
 
@@ -245,15 +245,18 @@ See [[AI infrastructure financing]].
 
 | Round | Date | Amount | Valuation | Notes |
 |-------|------|--------|-----------|-------|
+| Series A | Dec 2023 | $135M | — | SEC filing, part of $1B target |
 | Series B | May 2024 | $6B | $24B | Valor, Sequoia, [[a16z]] led |
 | Series C | Dec 2024 | $6B | $50B | [[Fidelity]], [[BlackRock]], Sequoia |
-| Equity | Sep 2025 | $10B | ~$200B | — |
+| Series D | Sep 2025 | $10B | $200B | — |
 | Debt | Oct 2025 | $12.5B | — | [[Morgan Stanley]] arranged |
 | **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target |
 
-**Total raised:** ~$40B equity + debt
+**Total raised:** ~$42B+ equity + debt
 
-**Valuation trajectory:** $24B → $50B → $200B → **$230B** (10x in 18 months)
+**Valuation trajectory:** $24B → $50B → $200B → **$230B** → **~$250B** (SpaceX merger implied)
+
+**Note:** X Corp investors received 25% of xAI (announced Nov 2023).
 
 ---
 
@@ -300,36 +303,30 @@ See [[AI infrastructure financing]].
 
 ---
 
-## Merger speculation (Jan 2026)
+## SpaceX acquisition (Feb 2, 2026)
 
-**Musk exploring corporate consolidation to fund AI ambitions:**
+**xAI is now a SpaceX subsidiary:**
 
-| Scenario | Logic | Complication |
-|----------|-------|--------------|
-| **xAI + SpaceX** | Capital infusion without Tesla pay package distraction | Less public market access |
-| **xAI + Tesla** | Pool cash flows, Tesla $44B balance sheet | Dilutes Musk's control |
-| **SpaceX + Tesla + xAI** | Full convergence, retail access to all three | Complex, regulatory |
+| Metric | Value |
+|--------|-------|
+| Combined valuation | **$1.25T** |
+| xAI implied value | ~$250B (up from $230B) |
+| Share price | $526.59/share |
+| IPO timing | Mid-2026 |
 
-**Musk ownership stakes:**
+**Why merger happened:**
+- xAI burning ~$1B/month with minimal revenue
+- $230B valuation = premium to [[Anthropic]] despite lower revenue
+- Difficult to raise more independently
+- SpaceX's ~$8B 2025 profit can fund AI infrastructure buildout
 
-| Company | Musk stake |
-|---------|------------|
-| xAI | 51% |
-| [[SpaceX]] | 42% |
-| [[Tesla]] | 11% |
+**Tesla excluded:** Tesla's $2B xAI investment converted to SpaceX subsidiary position — raising fiduciary concerns.
 
-**Why consolidation:**
-- xAI burning ~$1B/month
-- AI labs have raised $100B+ combined in 12 months ([[OpenAI]], [[Anthropic]], xAI)
-- xAI's $230B valuation is premium to rivals per revenue
-- Difficult to raise more without combination
+**Strategic vision:** Orbital data centers. SpaceX filed for 1 million satellite authorization (Jan 30, 2026). xAI = anchor customer for space-based AI compute.
 
-**Valuation premium problem (per Bloomberg Intelligence):**
-- [[Anthropic]]'s revenue growth "far outpacing" xAI despite similar valuation tier (~$350B vs $230B)
-- xAI may find it difficult to seek bigger rounds outside of a merger
-- Premium valuation relative to revenue makes fundraising harder
+**Musk quote:** "Within 2 to 3 years, the lowest cost to generate AI compute will be in space."
 
-**Musk quote (X, Jan 2026):** "My companies are, surprisingly in some ways, trending towards convergence."
+See [[SpaceX xAI merger]] for full analysis.
 
 ---
 
@@ -345,20 +342,19 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 | Metric | Value |
 |--------|-------|
+| Status | **SpaceX subsidiary** (acquired Feb 2026) |
 | Founder | Elon Musk |
 | Product | Grok (LLM), Macrohard |
-| Valuation | **$230B** (Jan 2026) |
+| Implied valuation | **~$250B** (in SpaceX merger) |
 | Total raised | **~$40B** (equity + debt) |
 | 2025 revenue (Jan-Sep) | $208M |
 | 2025 EBITDA (Jan-Sep) | -$2.4B |
 | **Monthly burn** | **~$1B** |
-| **2025 burn estimate** | **~$11B** |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
-| [[Target]] capacity | 2GW |
-| Potential foundry | [[Samsung]] (via Tesla relationship) |
+| [[Target]] capacity | 2GW + orbital |
 | X debt load | ~$13B (inherited) |
 
-*Updated 2026-02-01*
+*Updated 2026-02-03*
 
 ---
 
@@ -374,11 +370,15 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 
 ## Related
 
+### Events
+- [[SpaceX xAI merger]] — Feb 2026 acquisition, now SpaceX subsidiary
+
 ### Products
 - [[Grok]] — AI model (Colossus 200K GPUs)
 
 ### People/Partners
 - [[Elon Musk]] — founder and controller
+- [[SpaceX]] — **parent company** (acquired xAI Feb 2026)
 - [[Greg Yang]] — co-founder (departed Jan 2026), Tensor Programs, recruiting
 - [[Igor Babuschkin]] — co-founder (departed Aug 2025), built Colossus, led Grok dev
 - [[Tesla]] — Musk connection (Samsung anchor potential), car computer deployment

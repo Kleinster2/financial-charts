@@ -3,7 +3,7 @@ aliases: [[[Starlink]], Starshield]
 ---
 #actor #space #usa #private
 
-**SpaceX** — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. **2026 IPO planned** at $1.5T target valuation.
+**SpaceX** — Musk's rocket/satellite company. [[Starlink]] dominates satellite internet. **Acquired [[xAI]] Feb 2026** at $1.25T combined valuation ahead of mega-IPO.
 
 ---
 
@@ -38,21 +38,24 @@ aliases: [[[Starlink]], Starshield]
 
 ---
 
-## Merger speculation (Jan 2026)
+## xAI acquisition (Feb 2, 2026)
 
-**SpaceX considering combinations with Tesla and/or xAI:**
+**SpaceX acquired xAI — deal closed:**
 
-| Scenario | Logic |
-|----------|-------|
-| **SpaceX + xAI** | Capital infusion, aligned AI infra vision |
-| **SpaceX + Tesla** | Convergence of energy, manufacturing, space |
-| **All three** | Full Musk empire consolidation |
+| Metric | Value |
+|--------|-------|
+| Combined valuation | **$1.25T** |
+| SpaceX contribution | ~$1T (25% step-up from $800B) |
+| xAI contribution | ~$250B |
+| IPO target | **$50B raise** |
 
-**Musk ownership:** 42% of SpaceX vs 11% of Tesla — merger math favors increasing his combined stake
+**Why now:** xAI burning ~$1B/month with $208M revenue (9M 2025). SpaceX's ~$8B 2025 profit can fund xAI's infrastructure buildout.
 
-**Bloomberg Intel view:** SpaceX-xAI merger may make more sense than Tesla-xAI, avoids distraction from Tesla $1T pay package milestones
+**Tesla excluded:** Tesla's $2B xAI investment now in SpaceX subsidiary — raising fiduciary concerns.
 
-**Musk quote:** "My companies are, surprisingly in some ways, trending towards convergence."
+**Musk ownership post-deal:** 42% SpaceX (with 79% voting control), 51% xAI stake converts to SpaceX equity.
+
+See [[SpaceX xAI merger]] for full analysis.
 
 ---
 
@@ -202,13 +205,15 @@ See [[Space data centers]] for full concept analysis.
 | Metric | Value |
 |--------|-------|
 | Status | Private (2026 IPO planned) |
-| Valuation | $800B (internal, Dec 2025) |
-| IPO target | $1.5T |
-| Satellites | 9,000+ |
+| Valuation | **$1.25T** (combined with xAI, Feb 2026) |
+| IPO target | $1.25-1.5T |
+| IPO raise | **$30-50B** |
+| Satellites | 9,000+ (1M applied for) |
 | 2025 revenue | ~$15B |
+| 2025 profit | ~$8B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-02-01*
+*Updated 2026-02-03*
 
 ---
 
@@ -231,9 +236,10 @@ See [[Space data centers]] for full concept analysis.
 
 ## Related
 
+- [[SpaceX xAI merger]] — Feb 2026 acquisition, $1.25T combined
 - [[Elon Musk]] — CEO
-- [[Tesla]] — sibling company
-- [[xAI]] — sibling company
+- [[Tesla]] — sibling company (not included in merger)
+- [[xAI]] — **subsidiary** (acquired Feb 2026)
 - [[Samsung]] — chip partner (AI modem, 3nm)
 - [[Submarine Cables]] — terrestrial competition
 - [[Iran]] — Jan 2026 [[Starlink]] deployment discussion

@@ -90,12 +90,13 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 - AI infrastructure for FSD training and [[Tesla Optimus]] "brain"
 - [[Tesla Energy]] expansion (Houston 50 GWh Megablock plant)
 
-**The xAI entanglement:**
-- [[xAI]] burning ~$1B/month
+**The xAI entanglement (post-merger Feb 2026):**
+- Tesla's $2B xAI investment now in **SpaceX subsidiary**
+- [[xAI]] burning ~$1B/month (now funded by SpaceX)
 - Tesla sold $430M in [[Megapack]]s to xAI in 2024
 - Grok integration in Tesla vehicles
 - xAI to power Optimus humanoid robots
-- **Merger speculation:** Tesla/SpaceX/xAI combination under discussion
+- **Fiduciary concerns:** Tesla excluded from [[SpaceX xAI merger]] but subsidized xAI
 
 **Musk ownership math:** 11% Tesla, 42% [[SpaceX]], 51% [[xAI]] — merger would increase his combined stake significantly
 
@@ -110,7 +111,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 - @TeslaBoomerMama (220K followers): merger would "give retail shareholders in the only public company... the right to participate in the other two"
 - Many retail investors already view Tesla/SpaceX/xAI as one ecosystem
 
-**Risk:** Tesla becoming a piggy bank for Musk's AI ambitions while core auto business declines
+**Risk:** Tesla excluded from SpaceX/xAI mega-deal while providing $2B capital. See [[SpaceX xAI merger]].
 
 ---
 
@@ -369,9 +370,10 @@ See [[Short interest]] for interpretation framework.
 
 ## Related
 
+- [[SpaceX xAI merger]] — Feb 2026 (Tesla excluded, but $2B invested in xAI)
 - [[Elon Musk]] — CEO
-- [[SpaceX]] — Musk sibling company (2026 IPO)
-- [[xAI]] — Musk sibling company (potential Samsung anchor)
+- [[SpaceX]] — Musk sibling company (acquired xAI, 2026 IPO)
+- [[xAI]] — now SpaceX subsidiary (Tesla holds preferred stock)
 - [[DOGE]] — Musk political role
 - [[Tesla Optimus]] — humanoid robot (key narrative)
 - [[BYD]] — competitor (#1 globally)

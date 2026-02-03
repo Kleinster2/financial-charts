@@ -10,9 +10,9 @@ Musk's combined entities represent significant chip demand and policy influence:
 
 | Entity | Role | Relevance |
 |--------|------|-----------|
-| [[xAI]] | Founder/CEO | 100k+ H100s (Colossus), 1M+ GPU plans |
-| [[Tesla]] | CEO | FSD chips, potential foundry customer |
-| [[SpaceX]] | CEO | Custom satellite chips, 2026 IPO |
+| [[SpaceX]] | CEO | **Acquired xAI Feb 2026**, $1.25T combined, 2026 IPO |
+| [[xAI]] | Founder | Now SpaceX subsidiary, 100k+ H100s (Colossus) |
+| [[Tesla]] | CEO | FSD chips, $2B invested in xAI (now SpaceX sub) |
 | [[DOGE]] | Co-lead (departed) | AI policy, export controls influence |
 
 **Combined leverage:** Tesla + xAI together could anchor [[Samsung]] Taylor fab — one of the bull cases for Korea.
@@ -90,19 +90,21 @@ See [[xAI]] for details.
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$400B+ (fluctuates) |
-| Companies | Tesla, xAI, SpaceX, [[Neuralink]], Boring Co |
+| Companies | SpaceX/xAI (merged), Tesla, [[Neuralink]], Boring Co |
+| SpaceX/xAI valuation | **$1.25T** (Feb 2026) |
 | GPU demand | 100k+ current, 1M+ planned |
-| Political role | DOGE co-lead |
+| Political role | DOGE co-lead (departed) |
 
-*Updated 2026-01-01*
+*Updated 2026-02-03*
 
 ---
 
 ## Related
 
-- [[xAI]] — founder/CEO (100k+ H100s, Colossus)
+- [[SpaceX xAI merger]] — Feb 2026, $1.25T combined
+- [[SpaceX]] — CEO (acquired xAI, 2026 IPO)
+- [[xAI]] — founder (now SpaceX subsidiary)
 - [[Tesla]] — CEO (FSD chips, Optimus)
-- [[SpaceX]] — CEO (Starlink, 2026 IPO)
 - [[DOGE]] — co-founder (departed Dec 2025)
 - [[Samsung]] — potential anchor customer (Taylor fab)
 - [[NVIDIA]] — customer (massive GPU buyer)

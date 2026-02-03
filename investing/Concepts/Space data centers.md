@@ -185,4 +185,20 @@ High orbits needed to avoid congestion but add significant delay.
 - [[AI hyperscalers]] — potential customers
 - [[GPU deployment bottleneck]] — related constraint
 
-*Created 2026-01-15*
+---
+
+## SpaceX-xAI merger (Feb 2, 2026)
+
+**Merger rationale explicitly cites space DCs:**
+
+> "Global electricity demand for AI simply cannot be met with terrestrial solutions, even in the near term, without imposing hardship on communities and the environment. In the long term, space-based AI is obviously the only way to scale."
+
+**Musk's updated timeline:**
+- "Within 2-3 years, lowest cost to generate AI compute will be in space"
+- 100 GW/year of solar-powered AI satellites within decade
+- ~10,000 Starship flights/year required
+- Long-term: 1 TW/year, eventually 100 TW (lunar manufacturing)
+
+See [[SpaceX xAI merger]] for full analysis.
+
+*Created 2026-01-15 | Updated 2026-02-03*

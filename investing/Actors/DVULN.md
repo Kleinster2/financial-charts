@@ -1,9 +1,9 @@
 ---
-aliases: [Jameson O'Reilly, DVULN Security]
+aliases: [Jamieson O'Reilly, DVULN Security]
 ---
 #actor #security #researcher
 
-**DVULN** — Security research firm led by Jameson O'Reilly. Gained prominence exposing critical vulnerabilities in [[Clawdbot viral growth|OpenClaw]] (2025), including localhost authentication bypass and hundreds of exposed instances. Warns that [[Agentic AI]] is fundamentally breaking 20 years of security boundaries.
+**DVULN** — Australian security research firm led by Jamieson O'Reilly. Gained prominence exposing critical vulnerabilities in [[Clawdbot viral growth|OpenClaw]] (Jan 2026), including 900+ exposed instances via Shodan and a supply chain attack on ClawHub. Warns that [[Agentic AI]] is fundamentally breaking 20 years of security boundaries.
 
 ---
 
@@ -11,36 +11,45 @@ aliases: [Jameson O'Reilly, DVULN Security]
 
 | Metric | Value |
 |--------|-------|
-| Researcher | Jameson O'Reilly |
-| Firm | DVULN |
-| Focus | AI security, agent vulnerabilities |
-| Notable work | OpenClaw/Clawdbot security audit (2025) |
+| Founder/CEO | Jamieson O'Reilly |
+| Founded | 2016 |
+| HQ | Sydney, Australia |
+| Offices | Sydney, Melbourne, Brisbane |
+| Employees | ~9 |
+| Revenue | ~$750K (2025) |
+| Certifications | CREST-certified |
+| Focus | Pentesting, red teaming, AI agent security |
+| Notable work | OpenClaw security audit (Jan 2026), CVE-2026-25253 |
 
 ---
 
-## OpenClaw findings (2025)
+## OpenClaw findings (Jan 2026)
 
-DVULN discovered critical vulnerabilities in the viral AI agent project:
+DVULN discovered critical vulnerabilities in the viral AI agent project via systematic Shodan scanning:
 
 | Finding | Severity | Detail |
 |---------|----------|--------|
-| **Localhost auth bypass** | Critical | Default configuration allowed unauthenticated access |
-| **Publicly exposed instances** | High | Hundreds of agents accessible from internet |
-| **Fully open instances** | Critical | **8 instances** with zero authentication |
-| **Prompt injection vector** | High | Malicious emails could extract secrets |
+| **Exposed instances** | Critical | **900+** agents found searching "Clawdbot Control" on port 18789 |
+| **Zero-auth instances** | Critical | **8 instances** with no authentication at all |
+| **Signal integration exposed** | Critical | One deployment exposed full Signal message access |
+| **Proxy misconfiguration** | High | Could expose API keys, OAuth tokens, chat histories |
+| **CVE-2026-25253** | Critical (CVSS 8.8) | One-click RCE via cross-site WebSocket hijacking |
+
+The CVE was patched in OpenClaw version 2026.1.29 on January 30, 2026.
 
 ### The 5-minute attack
 
 Security researcher Matt Vukoule demonstrated:
 > Sent a crafted email to an AI agent. Within **5 minutes**, the agent had sent him a private key via [[prompt injection]].
 
-### ClawdHub skill marketplace
+### ClawHub supply chain attack (proof-of-concept)
 
-DVULN tested the community skill marketplace:
-- Uploaded a benign test "skill"
+O'Reilly demonstrated the marketplace's vulnerability:
+- Uploaded a publicly available skill to ClawHub
 - No review process, no moderation
-- Within days: **installations from 7 different countries**
-- Zero verification of skill safety
+- Artificially inflated download counts
+- Result: **4,000+ downloads from 7 countries**
+- Zero verification of skill safety or authenticity
 
 ---
 
@@ -79,6 +88,16 @@ DVULN's findings demonstrate:
 
 ---
 
+## Other work
+
+| Project | Detail |
+|---------|--------|
+| **Casino pentesting** | Legally hacked Australia's two largest casinos |
+| **PPQM** | Co-author of post-quantum encryption specification |
+| **Speaking** | Keynote at Regulating the Game 2025 (Sydney) |
+
+---
+
 ## Agentic AI security landscape
 
 DVULN is part of emerging AI security research community:
@@ -113,8 +132,9 @@ DVULN is part of emerging AI security research community:
 
 ## Sources
 
-- DVULN security research disclosures (2025)
-- Security conference presentations
-- Industry interviews
+- [OpenClaw Bug Enables One-Click RCE](https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html) — The Hacker News
+- [OpenClaw ecosystem still suffering severe security issues](https://www.theregister.com/2026/02/02/openclaw_security_issues/) — The Register
+- [Clawdbot becomes Moltbot, but can't shed security concerns](https://www.theregister.com/2026/01/27/clawdbot_moltbot_security_concerns/) — The Register
+- [DVULN keynote at Regulating the Game 2025](https://www.regulatingthegame.com/news/dvulns-lead-hacker-and-ceo-to-deliver-cybersecurity-keynote-at-regulating-the-game-2025-in-sydney)
 
-*Created 2026-02-02*
+*Created 2026-02-02 | Updated 2026-02-03 with CVE-2026-25253 and company details*
