@@ -1,131 +1,173 @@
 ---
-aliases: [Claude Code growth, agentic coding tools]
+aliases: [OpenClaw viral growth, Moltbot viral growth]
 ---
-#event #ai #opensource
+#event #ai #opensource #security
 
-**Claude Code viral adoption** — 2025; [[Anthropic]]'s agentic coding tool drove significant interest in [[Agentic AI]] and [[Local-first AI]] architectures. Part of broader wave of AI agent tools gaining mainstream developer adoption.
+**OpenClaw viral growth** — Jan-Feb 2025; Peter Steinberger's open-source AI agent became the fastest-growing project in GitHub history (82k+ stars). Forced renames by [[Anthropic]] lawyers, a $16M Solana scam token, and security researchers finding localhost backdoors exposed the chaotic reality of [[Agentic AI]] going mainstream.
 
 ---
 
-## What Claude Code is
+## What OpenClaw is
 
-Claude Code is [[Anthropic]]'s official agentic coding tool:
+Peter Steinberger built an open-source AI agent after stepping away from PSPDFKit (PDF SDK company sold to [[Insight Partners]]). Originally called "Clawdbot" — a play on Claude + bot.
 
 | Feature | Detail |
 |---------|--------|
-| Interface | Terminal CLI, VS Code, JetBrains, web |
-| Core capability | Edit files, run commands, create commits |
-| Integration | GitHub Actions, GitLab CI/CD, Slack |
-| MCP protocol | Connects to Figma, Google Drive, Slack |
-| Requirement | Claude subscription (Pro/Max/Teams/Enterprise) |
+| Type | Open-source AI agent |
+| Core capability | File editing, terminal commands, autonomous coding |
+| Architecture | [[Local-first AI]] — runs on your machine |
+| Popularity | **82,000+ GitHub stars** |
+| Record | Fastest-growing open-source project ever |
 
-**Key differentiator:** "Takes action" — directly edits files and runs commands vs just suggesting code.
+The project went viral in Jan 2025, with developers buying Mac Minis specifically to run it 24/7.
 
 ---
 
-## Market context
+## The naming drama
 
-### AI Agents market size (Grand View Research)
+[[Anthropic]] lawyers forced multiple renames due to trademark concerns:
 
-| Metric | Value |
-|--------|-------|
-| 2025 market size | **$7.63 billion** |
-| 2033 projected | **$182.97 billion** |
-| CAGR (2026-2033) | **49.6%** |
-| North America share | 39.63% |
+| Date | Name | Trigger |
+|------|------|---------|
+| Early 2025 | **Clawdbot** | Original name |
+| ~Feb 2025 | **Moltbot** | Anthropic C&D |
+| Jan 30, 2026 | **OpenClaw** | Final rebrand |
 
-### Enterprise adoption (McKinsey 2025)
+### The 10-second gap
+
+During the Clawdbot → Moltbot rename, Steinberger had to release the original GitHub/Twitter handles. Scammers were waiting:
+
+> Within **10 seconds** of handles being released, crypto scammers grabbed them.
+
+The impostor accounts promoted a fake **CLAW token on Solana** that hit **$16M market cap** before the inevitable rugpull. Classic memecoin playbook weaponized against open-source.
+
+---
+
+## Security nightmare
+
+[[DVULN]] (security researcher Jameson O'Reilly) discovered critical vulnerabilities:
+
+| Finding | Detail |
+|---------|--------|
+| **Localhost auth bypass** | Default setup allowed unauthenticated access |
+| **Exposed instances** | Hundreds of publicly accessible agents found |
+| **Fully open instances** | **8 completely unprotected** — anyone could execute commands |
+| **Prompt injection** | Matt Vukoule got a private key via malicious email in **5 minutes** |
+
+### ClawdHub: Zero moderation
+
+The community skill marketplace ("ClawdHub") had no vetting:
+
+> DVULN uploaded a benign test skill. Within days, installations appeared from **7 different countries**. No review, no verification.
+
+O'Reilly's warning:
+
+> "We've spent 20 years building security boundaries between apps... agents require us to tear that down."
+
+---
+
+## Market impact
+
+### Cloudflare +20%
+
+[[Cloudflare]] stock rallied ~20% because OpenClaw's default setup recommends **Cloudflare Tunnels** for exposing local agents:
+
+| Recommendation | Why |
+|----------------|-----|
+| Cloudflare Tunnels | Free, secure, one-command setup |
+| vs [[ngrok]] | Paid ($20/month for production) |
+| vs raw port forwarding | Dangerous, no auth/encryption |
+
+**Moltworker (Jan 29, 2026):** Cloudflare published official infrastructure for running the agent on their platform, capitalizing on the Mac Mini buying frenzy.
+
+### High-profile endorsement
+
+[[Andrej Karpathy]] (former Tesla AI chief, OpenAI founding member) publicly praised the project, accelerating mainstream developer adoption.
+
+---
+
+## AI agents market context
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| 2025 market size | **$7.63 billion** | Grand View Research |
+| 2033 projected | **$182.97 billion** | Grand View Research |
+| CAGR (2026-2033) | **49.6%** | Grand View Research |
 
 | Metric | Value | Source |
 |--------|-------|--------|
 | Organizations experimenting with agents | **62%** | McKinsey 2025 |
 | Organizations scaling agentic AI | **23%** | McKinsey 2025 |
-| Leading functions | IT, knowledge management | McKinsey 2025 |
-| Leading sectors | Tech, media, telecom, healthcare | McKinsey 2025 |
 
 ---
 
 ## Why it matters
 
-### 1. Demand signal
+### 1. Security is not ready
 
-Massive developer interest in AI coding tools that actually execute rather than just suggest. Claude Code, Cursor, GitHub Copilot X, Devin all competing for this space.
+The security model for AI agents is fundamentally broken. Localhost authentication, prompt injection, and skill marketplaces are all attack surfaces that barely existed two years ago.
 
-### 2. Infrastructure implications
+### 2. Infrastructure picks-and-shovels
 
-Local-first AI agents need secure tunneling:
-- [[Cloudflare]] Tunnels for localhost exposure
-- Authentication, encryption, DDoS protection
-- Drives [[Cloudflare agentic infrastructure]] thesis
+Whoever provides secure tunneling for local AI agents wins. [[Cloudflare]] is currently winning by default because:
+- Free tier removes friction
+- Already trusted by developers
+- OpenClaw docs recommend it
 
-**Cloudflare Moltworker (Jan 29, 2026):** Cloudflare directly responded to the Mac Mini buying frenzy by publishing [Moltworker](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/), showing how to run the agent (then called Moltbot, now OpenClaw) entirely on Cloudflare infrastructure.
+See: [[Cloudflare agentic infrastructure]]
 
-### OpenClaw naming history
+### 3. Open-source velocity
 
-| Date | Name |
-|------|------|
-| Early 2025 | Clawdbot |
-| ~Feb 2025 | Moltbot |
-| Jan 30, 2026 | **OpenClaw** |
+82k stars in weeks demonstrates developer hunger for autonomous coding tools. The market is moving faster than security, compliance, or enterprise can keep up.
 
-### 3. Security wake-up call
+### 4. Crypto will attach to everything
 
-Agentic tools with file/command access create new attack surface:
-- Credential exposure
-- Prompt injection risks
-- Localhost authentication challenges
-
-This is accelerating discussion about [[Agentic AI]] security requirements.
+Any viral project with a memorable name will spawn scam tokens within seconds. The 10-second handle grab shows how professionalized crypto fraud has become.
 
 ---
 
-## Anthropic context
+## OpenClaw vs Claude Code
 
-[[Anthropic]] has been aggressively building around agents:
+These are **different products**:
 
-| Date | Event |
-|------|-------|
-| **Sep 2025** | Claude Sonnet 4.5 + Claude Agent SDK released |
-| **Sep 2025** | $13B Series F at $183B valuation |
-| **Nov 2025** | Claude Opus 4.5 — "best model for coding, agents, and computer use" |
-| **2025** | Revenue grew from $1B to $5B in 8 months |
+| | OpenClaw | Claude Code |
+|--|----------|-------------|
+| Creator | Peter Steinberger | [[Anthropic]] |
+| Type | Open-source project | Subscription product |
+| Model | Any (Claude, GPT, etc.) | Claude only |
+| Cost | Free | Claude subscription required |
+| Distribution | GitHub | Anthropic official |
+| Governance | Community | Corporate |
 
-Claude Code is central to Anthropic's enterprise strategy.
-
----
-
-## Competitive landscape
-
-| Tool | Company | Approach |
-|------|---------|----------|
-| **Claude Code** | [[Anthropic]] | Terminal-native, file editing, MCP |
-| **Cursor** | Cursor Inc | IDE-first, VSCode fork |
-| **GitHub Copilot X** | [[Microsoft]]/GitHub | Copilot evolution |
-| **Devin** | Cognition | Autonomous software engineer |
-| **Windsurf** | Codeium | IDE-based agent |
-
----
-
-## For theses
-
-- [[Cloudflare agentic infrastructure]] — infrastructure for agent tunneling
-- [[Memory squeeze thesis]] — local AI needs RAM
+Claude Code is Anthropic's official agentic coding CLI. OpenClaw is the open-source project that went viral and drove infrastructure demand.
 
 ---
 
 ## Related
 
 ### Concepts
-- [[Agentic AI]] — category Claude Code exemplifies
+- [[Agentic AI]] — category OpenClaw exemplifies
 - [[Local-first AI]] — architecture pattern
+- [[Prompt injection]] — security risk demonstrated
 
 ### Actors
-- [[Anthropic]] — Claude Code creator, $183B valuation
-- [[Cloudflare]] — infrastructure for agent exposure
+- [[Anthropic]] — forced the rename, also makes Claude Code
+- [[Cloudflare]] — infrastructure beneficiary (+20% on adoption)
+- [[ngrok]] — paid alternative for secure tunneling
+- [[Tailscale]] — mesh VPN alternative
+- [[DVULN]] — security researcher who exposed vulnerabilities
+- [[Insight Partners]] — bought Steinberger's previous company
 
-### Sources
-- [Claude Code Documentation](https://code.claude.com/docs/en/overview)
-- [Anthropic News](https://www.anthropic.com/news)
-- [McKinsey: State of AI 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai)
+### Theses
+- [[Cloudflare agentic infrastructure]] — infrastructure for agent tunneling
+- [[Memory squeeze thesis]] — local AI needs RAM
 
-*Created 2026-01-28 | Updated with official Claude Code info*
+---
+
+## Sources
+
+- [Cloudflare Moltworker announcement](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
+- DVULN security research (2025)
+- McKinsey State of AI 2025
+
+*Created 2026-01-28 | Rewritten 2026-02-02 to focus on OpenClaw project*
