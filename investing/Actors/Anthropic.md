@@ -82,6 +82,32 @@ Burning **14x less cash** than OpenAI before profitability.
 
 ## Recent developments
 
+### Claude Cowork launch + $285B selloff (Jan-Feb 2026)
+
+**Jan 12:** Launched Claude Cowork — "Claude Code for the rest of your work." Agentic file management, document creation, multi-step tasks. Initially Max subscribers only.
+
+**Jan 30:** Launched **11 Cowork plugins** targeting specific job functions:
+- Legal (contract review, research)
+- Financial (analysis, modeling)
+- Sales (lead gen, CRM)
+- Marketing (campaigns, content)
+- Data viz, enterprise search
+
+**Feb 3-4: $285B rout** — Software, legal analytics, Indian IT services collapsed. Goldman software basket -6%. Software P/E 33x → 23x.
+
+| Company | Move | Notes |
+|---------|------|-------|
+| [[Thomson Reuters]] | -18% | Record daily loss |
+| [[RELX]] | -14% | Worst since 1988 |
+| [[LegalZoom]] | -20% | Most exposed |
+| [[Infosys]] | -7.4% | Indian IT |
+
+Market dubbed it the "SaaSpocalypse." JPMorgan: software stocks "sentenced before trial."
+
+See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
+
+---
+
 ### Harness crackdown (Jan 2026)
 
 **Jan 9**: Blocked third-party tools (OpenCode, etc.) from spoofing Claude Code headers to access Max subscription benefits.
@@ -276,7 +302,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-01-31*
+*Updated 2026-02-04*
 
 ## Related
 
@@ -297,3 +323,5 @@ See [[Long Anthropic]] for full thesis.
 - [[Long Anthropic]] — thesis
 - [[Agentic AI]] — core capability (Claude Code)
 - [[Model lab economics]] — profitability context
+- [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
+- [[AI workflow disruption basket]] — tracking software disruption exposure

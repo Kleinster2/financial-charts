@@ -58,7 +58,74 @@ Batch API offers 50% discount for async processing.
 
 **Claude Code** — Terminal-based coding agent. Agentic, can edit files, run commands, create PRs. Hit $1B milestone. See [[Anthropic]] for harness crackdown details.
 
+**Claude Cowork** — Enterprise collaboration agent (Jan 2026). "Claude Code for the rest of your work." Agentic file management, document creation, multi-step tasks. Triggered [[Claude Cowork disruption February 2026|$285B software selloff]] when plugins launched Jan 30.
+
 **Agent SDK** — Platform for building custom agents on Claude
+
+---
+
+## Claude Code — Deep Dive
+
+### Current capabilities
+
+| Feature | Description |
+|---------|-------------|
+| File operations | Read, edit, create files |
+| Command execution | Run shell commands |
+| Git integration | Commits, PRs, branch management |
+| Subagents | Spawn specialized agents for tasks |
+| Plan mode | Multi-step task orchestration |
+| IDE integration | VS Code, JetBrains |
+
+### TeammateTool / Swarm Mode (Feb 2026)
+
+**Upcoming feature** — found in v2.1.19, currently feature-flagged:
+
+| Capability | Description |
+|------------|-------------|
+| Role-based subagents | Specialist teammates for different tasks |
+| Plan mode coordinators | Orchestration across agents |
+| Broadcast messaging | Team-wide communication |
+| Parallel execution | Multiple agents working simultaneously |
+| tmux backend | Process isolation for teammates |
+
+**Why it matters:**
+- Single-agent Claude uses 80-90% context before reset
+- Team orchestration uses ~40%, each teammate carries own context
+- Tasks that take 1 agent 2 hours → swarm does in 30 minutes
+
+**Status:** Fully implemented, gated behind feature flags. Not yet in official docs.
+
+---
+
+## Claude Cowork — Deep Dive
+
+### Timeline
+
+| Date | Event |
+|------|-------|
+| **Jan 12** | Cowork launches (research preview, Max subscribers) |
+| Jan 16 | Expands to Pro subscribers |
+| Jan 23 | Expands to Team/Enterprise |
+| **Jan 30** | **Plugins launch** — 11 open-source job-specific plugins |
+| Feb 3-4 | **$285B market selloff** ("SaaSpocalypse") |
+
+### Cowork plugins (Jan 30)
+
+| Plugin | Target |
+|--------|--------|
+| Legal | Contract review, legal research |
+| Financial | Analysis, modeling |
+| Sales | Lead gen, CRM automation |
+| Marketing | Campaign creation, content |
+| Data viz | Charts, reporting |
+| Enterprise search | Cross-tool search |
+
+### Market impact
+
+See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
+
+Software P/E compression: 33x → 23x (-30%). Hardest hit: [[Thomson Reuters]] (-18%), [[RELX]] (-14%), [[LegalZoom]] (-20%).
 
 ---
 
@@ -102,7 +169,7 @@ Multi-cloud strategy reduces single-vendor dependency.
 | Pro price | $20/mo |
 | Context | 200K-500K tokens |
 
-*Updated 2026-01-25*
+*Updated 2026-02-04*
 
 ---
 
@@ -114,3 +181,5 @@ Multi-cloud strategy reduces single-vendor dependency.
 - [[OpenClaw]] — open-source agent that uses Claude as backend; Anthropic C&D forced rebrand from "Clawdbot"
 - [[Agentic AI]] — Claude Code's category
 - [[AI agents]] — broader category
+- [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
+- [[AI workflow disruption basket]] — tracking software disruption exposure
