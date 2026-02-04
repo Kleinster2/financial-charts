@@ -85,6 +85,29 @@ Non-filing sources: note it — "~210k employees (company website, Jan 2026)"
 
 Forward guidance often moves stocks more than backward-looking beats.
 
+### Earnings Calendar (CRITICAL)
+
+**Always check earnings calendar when doing daily news.** Don't rely on category searches to surface earnings.
+
+1. **Search:** `"earnings reports week [date]"` or `"earnings calendar [date]"`
+2. **Check prior day's after-hours** — results release after market close
+3. **Check today's pre-market** — some report before open
+
+**Must-cover earnings (beyond focus areas):**
+
+| Category | Tickers | Why |
+|----------|---------|-----|
+| Mag 7 | AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA | Market leaders |
+| Financials | JPM, GS, BAC | Credit/macro signal |
+| Consumer | DIS, PYPL, NFLX, SBUX | Spending signal |
+| Industrial | CAT, UPS, FDX | Economy signal |
+| Semis | AMD, INTC, QCOM, MU, TXN | Cycle signal |
+
+**For each earnings report:**
+- Add section to actor note (EPS, revenue, guidance, stock reaction)
+- Add to daily note
+- Note CEO changes, guidance surprises, strategic shifts
+
 ---
 
 ## Processing New Information

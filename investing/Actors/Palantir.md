@@ -7,6 +7,25 @@ aliases: [PLTR]
 
 ---
 
+## Q4 2025 earnings (Feb 2, 2026)
+
+**Beat + massive guidance raise. Stock +11%.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| EPS | **$0.25** | $0.21 |
+| Revenue (Q4) | — | — |
+| FY26 revenue guidance | **$7.19B** | $6.27B |
+| Q1 2026 revenue guidance | **$1.53B** | Beat |
+
+**FY26 guidance implies +61% YoY growth** — significantly above Street expectations.
+
+Stock had fallen 29% from November peak, down 15% YTD before report. Still trades at 142x expected earnings (3rd highest in S&P 500).
+
+*Source: Bloomberg, Feb 2 2026*
+
+---
+
 ## Why Palantir matters
 
 Profitable AI applications at scale, government relationships:
@@ -132,7 +151,7 @@ Palantir provides the intelligence layer.
 | CEO | Alex Karp |
 | Founded | 2003 |
 
-*Updated 2026-01-01*
+*Updated 2026-02-03 (Q4 2025 earnings)*
 
 ---
 

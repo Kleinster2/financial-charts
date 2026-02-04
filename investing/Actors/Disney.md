@@ -7,6 +7,34 @@ aliases: [DIS, Walt Disney, Walt Disney Company]
 
 ---
 
+## Q1 FY2026 earnings (Feb 2, 2026)
+
+**Beat on both lines, CEO succession imminent.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| EPS (adj) | **$1.63** | $1.57 |
+| Revenue | **$25.98B** | $25.74B |
+| Net income | $2.48B | — |
+
+**Segment highlights:**
+- **Experiences** crossed $10B quarterly revenue for first time (+7% YoY domestic, +7% international)
+- **Streaming** operating income $450M (+72% YoY), revenue +13%
+- **Sports** operating income -23% to $191M — YouTube TV dispute cost $110M
+- **Box office:** Zootopia 2 = highest-grossing animated film ever ($1.7B+)
+
+**FY2026 guidance:**
+- Double-digit EPS growth
+- $19B operating cash flow
+- $7B stock buyback on track
+- Q2 streaming OI ~$500M (+$200M YoY)
+
+**CEO succession:** Board meeting this week expected to name Iger successor. Josh D'Amaro (Experiences Chairman) seen as frontrunner.
+
+*Source: CNBC, company filings, Feb 2 2026*
+
+---
+
 ## Why Disney matters
 
 | Metric | Value |
@@ -163,4 +191,4 @@ Iger returned to fix streaming losses, succession unclear.
 
 ---
 
-*Updated 2026-01-16*
+*Updated 2026-02-03 (Q1 FY26 earnings)*

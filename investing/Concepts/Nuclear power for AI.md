@@ -16,7 +16,7 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 
 ---
 
-## The deals (2024-2025)
+## The deals (2024-2026)
 
 | Company | Partner | Deal | Capacity |
 |---------|---------|------|----------|
@@ -24,8 +24,33 @@ Nuclear is emerging as the preferred baseload power solution for AI data centers
 | [[Amazon]] | [[Talen Energy]] | [[Susquehanna]] co-location | 960 MW |
 | [[Google]] | [[Kairos Power]] | SMR development | 500 MW by 2030 |
 | [[Oracle]] | TBD | [[Larry Ellison]]: "already got building permits" for nuclear DCs | 1 GW+ |
+| [[Meta]] | [[Vistra]] | 20-year PPA, 3 OH/PA plants | **2.6 GW** |
+| [[Meta]] | [[TerraPower]] | Advanced reactor partnership | TBD |
+| [[Meta]] | [[Oklo]] | SMR deal | TBD |
+| [[Meta]] | [[Constellation Energy]] | $10B Louisiana DC | TBD |
+
+**Meta total:** Up to **6.6 GW** of nuclear capacity by 2035 — one of the largest corporate nuclear buyers in US history.
 
 **Pattern:** Every major hyperscaler is pursuing nuclear. Not optional — it's table stakes.
+
+---
+
+## DOE investment (Feb 2026)
+
+**$2.7B awarded for domestic enriched uranium** — historic investment in nuclear fuel capacity.
+
+Addresses HALEU bottleneck for advanced SMRs.
+
+---
+
+## China SMR leadership
+
+**Linglong One** (CNNC):
+- World's first commercial onshore SMR
+- On track for **H1 2026** commercial operations
+- Located in Hainan
+
+China moving ahead while US SMR projects face delays.
 
 ---
 
@@ -150,7 +175,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 
 ---
 
-*Updated 2026-01-01*
+*Updated 2026-02-03 (Meta deals, DOE funding, China SMR)*
 
 ## Related
 

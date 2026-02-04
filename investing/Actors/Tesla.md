@@ -221,9 +221,24 @@ EV motors require permanent magnets with rare earth elements:
 | US market contracting | -29% forecast (1.1M units) |
 | Trump ended tax incentives | $7,500 credit gone |
 | [[China]] competition | BYD, [[Xiaomi]], others pricing down |
-| [[Europe]] slowing | +14% vs prior 20%+ growth |
+| [[Europe]] collapsing | See Jan 2026 data below |
 
 **US EV market:** 1.5M (2025) → 1.1M (2026 forecast)
+
+### Europe sales collapse (Jan 2026)
+
+| Market | Jan 2026 sales | YoY change |
+|--------|----------------|------------|
+| France | 661 units | **-42%** |
+| Norway | — | **-88%** |
+
+France sales lowest in 3+ years. Norway historically Tesla's strongest European market.
+
+**Drivers:**
+- Musk political backlash (DOGE, Trump administration role)
+- Chinese EV competition ([[BYD]], [[Xiaomi]] entering)
+- End of subsidies in multiple countries
+- Brand damage from US political polarization
 
 ---
 
@@ -358,7 +373,7 @@ See [[Short interest]] for interpretation framework.
 | Energy business | ~$12.75B/year |
 | Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
 
-*Updated 2026-02-01 (Q4 2025 earnings + Evercore FCF forecast)*
+*Updated 2026-02-03 (Europe sales collapse)*
 
 ![[tsla-price-chart.png]]
 

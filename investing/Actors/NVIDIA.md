@@ -464,6 +464,43 @@ See [[CES 2026]] for event details.
 
 ---
 
+## OpenAI inference concerns (Feb 2026)
+
+[[Reuters]] exclusive revealed tension with biggest AI customer:
+
+| Issue | Detail |
+|-------|--------|
+| Customer | [[OpenAI]] |
+| Problem | Inference speed for specific workloads |
+| Affected | [[Codex]] (coding), agent-to-agent comms |
+| Scale | ~10% of OpenAI's inference compute needs |
+
+**What OpenAI wants:** SRAM-heavy chips (memory on silicon) for faster inference. Traditional GPUs use external memory → slower fetch times.
+
+**Alternatives OpenAI explored:**
+- [[AMD]] — purchased GPUs
+- [[Cerebras]] — commercial deal signed (Jan 2026)
+- [[Groq]] — talks shut down after NVIDIA acquisition
+
+**The $100B investment:**
+- NVIDIA proposed investing up to $100B in OpenAI (Sept 2025)
+- Expected to close "within weeks" — still in negotiations
+- Jensen Huang (Bloomberg): Investment "was never a commitment"
+- Huang (CNBC, Feb 3): "There's no drama involved"
+
+**Sam Altman response:** NVIDIA makes "the best AI chips in the world." OpenAI hopes to remain "gigantic customer for a very long time."
+
+**NVIDIA's defensive moves:**
+- Acquired [[Groq]] IP for $20B (Dec 2025) — hired chip designers
+- Non-exclusive licensing deal — Groq pivoting to cloud software
+- Pattern: buy potential alternatives before customers can switch
+
+**Stock reaction (Feb 3):** Modest; market treating as manageable. Inference is smaller market than training where NVIDIA dominates.
+
+*Updated 2026-02-04*
+
+---
+
 ## Recent developments (Dec 2025)
 
 **Groq acquisition details:**

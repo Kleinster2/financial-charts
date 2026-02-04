@@ -7,6 +7,51 @@ aliases: [PYPL]
 
 ---
 
+## Q4 2025 earnings (Feb 3, 2026)
+
+**Major miss. Stock -15% premarket. New CEO named.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Revenue | **$8.68B** | $8.80B |
+| EPS (adj) | **$1.23** | Higher |
+
+**Branded checkout collapse:**
+- Q4 growth decelerated to **1%** (vs 6% YoY)
+- US retail weakness + international headwinds
+
+**FY2026 guidance:** Profit to decline low-single-digits to flat — far below expectations.
+
+**CEO change:** HP's Enrique Lores named president and CEO, effective March 1. Alex Chriss out after ~2 years.
+
+**First dividend:** Declared cash dividend (payable March 25).
+
+**The problem:** Branded checkout losing share to Apple Pay, Shop Pay. Turnaround not working.
+
+*Source: CNBC, company filings, Feb 3 2026*
+
+---
+
+## Checkout wars pressure
+
+PayPal is losing the [[Checkout wars]] — the battle for who owns the checkout button.
+
+| Competitor | Threat |
+|------------|--------|
+| [[Apple Pay]] | Surpassing PayPal in US online volumes (2025) |
+| [[Shop Pay]] | +57% YoY growth, 200M users, taking Shopify share |
+| [[Stripe]] Link | 200M users, 7-14% conversion lift |
+| [[Google]] Pay | Android-native, growing |
+
+**Why PayPal loses on friction:**
+- Apple Pay: One-tap Face ID vs PayPal login
+- Shop Pay: Pre-saved across 2M merchants vs PayPal redirect
+- Conversion data: PayPal shows **14% lower** mobile conversion than card checkout
+
+The branded checkout decline (1% growth Q4 2025) reflects structural share loss, not just macro weakness.
+
+---
+
 ## Why PayPal matters
 
 PayPal is the incumbent digital payments leader:
@@ -75,11 +120,13 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 - New CEO (Alex Chriss) turnaround
 
 **Bear:**
-- [[Apple]] Pay eating share
-- Checkout competition (Shop Pay, etc.)
+- [[Checkout wars]] structural loss — Apple Pay, Shop Pay taking share
+- Branded checkout collapsed to 1% growth (Q4 2025)
+- Friction disadvantage vs one-tap competitors
 - Venmo still not profitable
 - Growth deceleration
 - PayPal "mafia" talent long gone
+- New CEO (third in 3 years) — turnaround fatigue
 
 ---
 
@@ -125,8 +172,13 @@ PayPal itself no longer has this talent density.
 
 ## Related
 
+- [[Checkout wars]] — structural competitive pressure
+- [[Apple Pay]] — taking branded checkout share
+- [[Shop Pay]] — Shopify's accelerated checkout, growing 57% YoY
+- [[Stripe]] — competitor (Stripe Link)
 - [[Block]] — competitor
 - [[Robinhood]] — fintech peer
 - [[Coinbase]] — crypto peer
 - [[Elon Musk]] — co-founder (X.com merger)
+- [[Fintech]] — sector
 

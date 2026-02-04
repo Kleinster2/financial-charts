@@ -77,12 +77,38 @@ Irish brothers, started in 2010, [[Stanford]] dropouts.
 | Product | Description |
 |---------|-------------|
 | **Payments** | Core processing |
+| **Link** | One-click checkout (see below) |
 | **Billing** | Subscriptions, invoicing |
 | **Connect** | Marketplace payments |
 | **Atlas** | Company incorporation |
 | **Radar** | Fraud prevention |
 | **Treasury** | Banking-as-a-service |
 | **Climate** | Carbon removal |
+
+---
+
+## Stripe Link: Checkout wars entrant
+
+Link is Stripe's one-click checkout competing in the [[Checkout wars]].
+
+| Metric | Value |
+|--------|-------|
+| Users | **200M** |
+| Checkout time | **6 seconds** (3x faster than non-Link) |
+| Conversion lift | **+7%** average, **+14%** returning users |
+| Purchase frequency | Link users buy **4x** more often |
+| BFCM 2024 | 914,000 minutes saved |
+
+**How it works:** Customers save payment info once, then one-click checkout at any Stripe merchant. 200M Link users accessible to hundreds of thousands of Stripe-powered sites.
+
+**Competitive position:**
+- vs [[PayPal]]: Faster, less friction, no app switch
+- vs [[Apple Pay]]: Works on any device, not iOS-only
+- vs [[Shop Pay]]: Any Stripe merchant, not just Shopify
+
+**Key insight:** Only 40% of North American sites support one-click checkout, but 75% of consumers more likely to complete purchase if offered. Massive greenfield opportunity.
+
+Link is a network effect play — more users = more merchants adopt = more users.
 
 ---
 
@@ -127,6 +153,7 @@ Irish brothers, started in 2010, [[Stanford]] dropouts.
 - $129B valuation, growing
 - $1.4T payment volume
 - AI customers driving growth
+- **Link** — 200M user checkout network, +7-14% conversion lift
 - Profitable (2024)
 - Developer-first moat
 
@@ -152,9 +179,13 @@ Irish brothers, started in 2010, [[Stanford]] dropouts.
 
 ## Related
 
+- [[Checkout wars]] — Link competing for checkout button
+- [[Shop Pay]] — powers Shopify Payments, both winning vs PayPal
+- [[Apple Pay]] — checkout competitor
+- [[PayPal]] — checkout competitor (losing share)
+- [[Shopify]] — Shopify Payments powered by Stripe
 - [[Fintech]] — sector
 - [[Visa]] — payments ecosystem
-- [[PayPal]] — competitor
 - [[Block]] — competitor
 
 ---

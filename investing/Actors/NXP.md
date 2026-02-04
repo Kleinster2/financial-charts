@@ -7,6 +7,31 @@ aliases: [NXP Semiconductors, NXPI]
 
 ---
 
+## Q4 2025 earnings (Feb 2, 2026)
+
+**Beat estimates, stock -5% on soft Q1 guidance.**
+
+| Metric | Q4 actual | Q1 guidance |
+|--------|-----------|-------------|
+| Revenue | **$3.34B** (+7% YoY) | $3.05-3.25B |
+| EPS (adj) | **$3.35** | — |
+| EPS (GAAP) | $1.81 | — |
+| Gross margin | 54% | ~57% |
+
+**Full year 2025:** $12.27B revenue, FCF $2.4B. Returned $1.9B to shareholders (79% of FCF).
+
+**Corporate actions:**
+- Sold MEMS sensors business for $900M (to [[STMicro]])
+- Acquired Aviva Links ($243M) and Kinara ($307M)
+
+**Management:** "Quarterly revenue of $3.34B, surpassing the midpoint of our guidance and reflecting sequential improvement across all end markets."
+
+**Stock reaction:** -4.8% in extended trading — market wanted stronger Q1 outlook.
+
+*Source: GlobeNewswire, Feb 2 2026*
+
+---
+
 ## Why NXP matters
 
 NXP is the ADAS/connectivity specialist:
@@ -198,7 +223,7 @@ NXP = connectivity/radar specialist. Infineon = power/MCU leader.
 | NFC position | #1 |
 | Gross margin | ~57% |
 
-*Updated 2026-01-28*
+*Updated 2026-02-03 (Q4 2025 earnings)*
 
 ---
 

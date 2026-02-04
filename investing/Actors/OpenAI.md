@@ -202,6 +202,47 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
+## Nvidia inference concerns (Feb 2026)
+
+**[[Reuters]] exclusive (Feb 2):** OpenAI dissatisfied with some [[NVIDIA]] chips, actively seeking alternatives.
+
+| Issue | Detail |
+|-------|--------|
+| Problem | Inference speed for specific workloads |
+| Affected products | [[Codex]] (coding), agent-to-agent comms |
+| Need | Faster "time to first token" |
+| Target | ~10% of inference compute from alternatives |
+
+**Chip requirements:**
+- SRAM-heavy architecture (memory embedded on silicon)
+- Traditional GPUs rely on external memory → slower fetch times
+- Inference needs more memory bandwidth than training
+
+**Alternatives explored:**
+
+| Company | Status |
+|---------|--------|
+| [[AMD]] | GPUs purchased |
+| [[Cerebras]] | Commercial deal signed (Jan 2026) |
+| [[Groq]] | Talks shut down after NVIDIA acquisition |
+
+**Impact on Nvidia investment:**
+- Nvidia's proposed $100B stake (announced Sept 2025) delayed for months
+- Expected to close "within weeks" — still in negotiations
+- Jensen Huang: Investment "was never a commitment" (Bloomberg)
+- Huang denies drama: "There's no drama involved" (CNBC Feb 3)
+
+**Sam Altman response (Feb 2):** Nvidia makes "the best AI chips in the world." OpenAI hopes to remain "gigantic customer for a very long time."
+
+**[[Nvidia]] defensive moves:**
+- Acquired [[Groq]] IP for $20B (Dec 2025)
+- Hired away Groq chip designers
+- Non-exclusive licensing deal — Groq pivoting to cloud software
+
+*Updated 2026-02-04*
+
+---
+
 ## Key risks
 
 - **Cash burn** — $74B losses before profitability

@@ -127,6 +127,28 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 
 ---
 
+## Daily News Workflow
+
+### Earnings (CRITICAL)
+
+**Always check earnings calendar when doing daily news.** Major earnings move markets and affect actors.
+
+1. **Search:** `"earnings reports week [date]"` or check Yahoo Finance calendar
+2. **Capture all relevant earnings** — not just focus areas. Disney, PayPal, consumer names matter for macro context
+3. **For each earnings report:**
+   - Add section to actor note with key metrics (EPS, revenue, guidance)
+   - Add to daily note with stock reaction
+   - Note any CEO changes, guidance surprises, or strategic shifts
+4. **Don't wait for "today's" earnings** — search for prior day's after-hours and pre-market results
+
+**Earnings that matter beyond focus areas:**
+- Mag 7 (AAPL, MSFT, GOOGL, AMZN, META, NVDA, TSLA)
+- Major financials (JPM, GS, BAC)
+- Consumer bellwethers (DIS, PYPL, NFLX, SBUX)
+- Industrial/macro signals (CAT, UPS, FDX)
+
+---
+
 ## Vault Guidelines
 
 ### Philosophy

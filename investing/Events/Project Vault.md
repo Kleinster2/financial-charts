@@ -1,18 +1,18 @@
-#event #minerals #policy #trump #supplychain
+#event #minerals #policy #trump #supplychain #2026
 
-**Project Vault** — $12B strategic critical minerals stockpile announced Feb 2, 2026. First-of-its-kind government-backed reserve for US private sector, designed to counter [[China]] price manipulation and supply disruptions.
+# Project Vault
+
+**Project Vault** — first-of-its-kind government-backed critical minerals stockpile announced Feb 2, 2026 to secure [[United States|U.S.]] supply and counter [[China]] price leverage.
 
 ---
 
-## Announcement
+## What happened
 
-Announced by President Trump at Oval Office event, Feb 2, 2026:
-
-> "For years, American businesses have risked running out of critical minerals during market disruptions. Today, we're launching what will be known as Project Vault to ensure that American businesses and workers are never harmed by any shortage."
-
-**Key attendees:**
-- [[GM]] CEO Mary Barra (representing end users)
-- Robert Friedland, mining billionaire (representing producers)
+- Feb 2, 2026: President [[Donald Trump]] announced Project Vault in the Oval Office, positioning it as a 60-day emergency minerals reserve for U.S. manufacturers.
+- Financing structure targets ~$12B: $10B [[EXIM Bank]] loan plus ~$1.7-2B private capital.
+- Procurement will be handled by commodity traders [[Hartree Partners]], [[Traxys North America]], and [[Mercuria Energy Group]].
+- Initial scope includes [[Rare earth elements]], [[Gallium]], [[Cobalt]], and other [[Critical minerals]] used in [[Electric vehicles]], [[Defense]] systems, and [[Advanced manufacturing]].
+- Administration compared access mechanics to a [[Costco]]-style membership for participating companies.
 
 ---
 
@@ -24,31 +24,18 @@ Announced by President Trump at Oval Office event, Feb 2, 2026:
 | Private capital | ~$1.7-2B | Institutional investors (TBD) |
 | **Total** | **~$12B** | |
 
-**Procurement managers:** [[Hartree Partners]], [[Traxys North America]], [[Mercuria Energy Group]] — commodities trading firms will source raw materials.
+**Procurement managers:** [[Hartree Partners]], [[Traxys North America]], [[Mercuria Energy Group]]
 
-**Governance:** Executive structure to be established; EXIM likely to have board seat.
+**Governance:** Executive structure to be established; [[EXIM Bank]] likely to have board seat.
 
 ---
 
 ## Goals
 
-1. **60-day emergency supply** of minerals for US manufacturers
-2. **Price stabilization** — offset [[China]] manipulation of lithium, nickel, rare earths
+1. **60-day emergency supply** of minerals for [[United States|U.S.]] manufacturers
+2. **Price stabilization** — offset [[China]] manipulation of [[Lithium]], [[Nickel]], and [[Rare earth elements]]
 3. **Balance sheet relief** — companies access materials without carrying inventory risk
-4. **Domestic mining support** — create stable demand for US producers
-
-Administration official compared logistics to "Costco membership" — buying in volume for members.
-
----
-
-## Minerals included
-
-Per WSJ: rare earths, gallium, cobalt, and other [[critical minerals]].
-
-Core targets are inputs for:
-- Electric vehicles
-- High-tech weaponry
-- Advanced manufacturing
+4. **Domestic mining support** — create stable demand for [[United States|U.S.]] producers
 
 ---
 
@@ -59,22 +46,62 @@ After-hours moves on announcement:
 | Company | Move | Exposure |
 |---------|------|----------|
 | [[MP Materials]] (MP) | +2% | Mountain Pass mine, CA |
-| USA Rare Earth (USAR) | +2% | Domestic mining + magnets |
-| Critical Metals Corp (CRML) | +1% | |
-| First Phosphate (FRSPF) | +12% | Canadian phosphate |
+| [[USA Rare Earth]] (USAR) | +2% | Domestic mining + magnets |
+| [[Critical Metals Corp]] (CRML) | +1% | |
+| [[First Phosphate]] (FRSPF) | +12% | Canadian phosphate |
 
-USA Rare Earth already in talks with Commerce Secretary Lutnick for ~$1.6B funding deal with government equity stake.
+[[USA Rare Earth]] already in talks with Commerce Secretary [[Howard Lutnick]] for ~$1.6B funding deal with government equity stake.
 
 ---
 
-## Context
+## The real story
 
 Builds on prior government involvement:
-- **Jul 2025:** DoD took equity stake in [[MP Materials]], established price floor + long-term purchase agreement
+
+- **Jul 2025:** [[U.S. Department of Defense]] took equity stake in [[MP Materials]], established price floor + long-term purchase agreement
 - **Jan 2026:** Bipartisan bill introduced for $2.5B stockpile (separate from Project Vault)
 - **Jan 2026:** [[China]] imposed dual-use equipment export ban on [[Japan]]
 
-See [[Critical minerals]], [[Rare earth leverage]], [[US-China commodity leverage]].
+---
+
+## Insights
+
+- The stockpile shifts inventory risk from private firms to a government-backed balance sheet while preserving private procurement execution.
+- Financing mixes sovereign-style credit ([[EXIM Bank]]) with private capital, signaling durability beyond a single budget cycle.
+- The program targets [[China]]'s leverage over strategic minerals more than near-term price moves.
+
+---
+
+## Actors involved
+
+| Actor | Role |
+|------|------|
+| [[Donald Trump]] | Announced initiative |
+| [[Howard Lutnick]] | Commerce Secretary coordinating deals |
+| [[EXIM Bank]] | $10B loan facility |
+| [[GM]] | End-user represented at announcement |
+| [[Mary Barra]] | GM CEO in attendance |
+| [[Robert Friedland]] | Mining investor representing producers |
+| [[Hartree Partners]] | Procurement manager |
+| [[Traxys North America]] | Procurement manager |
+| [[Mercuria Energy Group]] | Procurement manager |
+| [[MP Materials]] | Key U.S. rare earth producer |
+| [[USA Rare Earth]] | Domestic mining + magnets |
+| [[Critical Metals Corp]] | Public miner beneficiary |
+| [[First Phosphate]] | Public miner beneficiary |
+| [[China]] | Policy target |
+| [[Japan]] | Export-ban counterparty |
+
+---
+
+## Related
+
+- [[Critical minerals]] — [[China]] dominance context
+- [[Rare earth elements]]
+- [[MP Materials]] — key [[United States|U.S.]] producer
+- [[EXIM Bank]] — record loan
+- [[Manufacturing reshoring]]
+- [[US-China relations]]
 
 ---
 
@@ -83,46 +110,6 @@ See [[Critical minerals]], [[Rare earth leverage]], [[US-China commodity leverag
 - [Reuters](https://www.reuters.com/world/china/trump-launches-12-billion-minerals-stockpile-counter-china-bloomberg-news-2026-02-02/) — Ernest Scheyder, Feb 2, 2026
 - [CNBC](https://www.cnbc.com/2026/02/02/rare-earth-miners-jump-as-trump-is-reportedly-eyeing-mineral-stockpile-.html) — Feb 2, 2026
 - [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-02/trump-unveils-12-billion-mineral-reserve-with-record-ex-im-loan) — Feb 2, 2026
-
----
-
-## Actors
-
-**Government:**
-- [[Donald Trump]] — announced initiative
-- [[Howard Lutnick]] — Commerce Secretary, coordinating deals
-- [[EXIM Bank]] — $10B loan facility
-
-**Companies:**
-- [[GM]] — represented by CEO Mary Barra at announcement
-- [[MP Materials]] — key US rare earth producer
-- USA Rare Earth — domestic mining + magnets
-- Critical Metals Corp
-- First Phosphate
-
-**Commodity traders (procurement):**
-- [[Hartree Partners]]
-- [[Traxys North America]]
-- [[Mercuria Energy Group]]
-
-**Individuals:**
-- Robert Friedland — mining billionaire, attended announcement
-- Mary Barra — GM CEO
-
-**Countries:**
-- [[China]] — supply/price manipulation threat
-- [[Japan]] — affected by China export bans
-
----
-
-## Related
-
-- [[Critical minerals]] — [[China]] dominance context
-- [[Rare earth elements]]
-- [[MP Materials]] — key US producer
-- [[EXIM Bank]] — record loan
-- [[Manufacturing reshoring]]
-- [[US-China relations]]
 
 ---
 

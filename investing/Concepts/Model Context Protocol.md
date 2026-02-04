@@ -33,9 +33,12 @@ Formed Dec 2025 under Linux Foundation. Founding projects:
 | Public MCP servers | 10,000+ | Dec 2025 |
 
 **Key adopters:**
-- [[OpenAI]] — integrated across ChatGPT desktop app (Mar 2025)
+- [[OpenAI]] — integrated across ChatGPT desktop app (Mar 2025), publicly embraced MCP
+- [[Microsoft]] — publicly embraced MCP (Feb 2026)
 - [[Google DeepMind]]
 - Zed, Sourcegraph, other developer tools
+
+**Feb 2026 status:** MCP becoming the de facto industry standard for AI-tool connections. Both OpenAI and Microsoft publicly embraced the protocol, validating Anthropic's open-source strategy.
 
 ## Investment Implications
 

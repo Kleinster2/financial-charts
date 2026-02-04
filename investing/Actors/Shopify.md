@@ -57,13 +57,35 @@ Merchant solutions now majority of revenue.
 
 ---
 
+## Shop Pay: Checkout weapon
+
+[[Shop Pay]] is Shopify's accelerated checkout — and it's winning the [[Checkout wars]].
+
+| Metric | Value |
+|--------|-------|
+| Users | **200M+** (Q4 2024) |
+| Q1 2025 GMV | **$22B** |
+| YoY growth | **+57%** |
+| Share of Shopify GMV | **38%** (up from 33% in 2023) |
+| Conversion lift | **+36%** for returning users |
+
+**Why it matters:**
+- Higher take rate than basic Shopify Payments
+- Network effect: 200M users across 2M merchants
+- Taking share from [[PayPal]] (which collapsed to 1% branded checkout growth)
+- Creates merchant lock-in (leave Shopify, lose checkout network)
+
+Shop Pay is powered by [[Stripe]] backend but branded Shopify — the customer relationship belongs to Shopify.
+
+---
+
 ## Competitive position
 
 | Strength | Detail |
 |----------|--------|
 | SMB dominance | Easy setup |
 | Ecosystem | Apps, themes, partners |
-| Shop Pay | 100M+ users |
+| **Shop Pay** | **200M+ users**, 57% YoY growth, [[Checkout wars]] winner |
 | International | Multi-currency, multi-language |
 
 ---
@@ -96,7 +118,8 @@ Refocused after over-expansion.
 
 **Bull:**
 - E-commerce secular growth
-- Merchant solutions expansion
+- Merchant solutions expansion (Shop Pay driving take rate)
+- [[Checkout wars]] winner — Shop Pay +57% YoY vs PayPal +1%
 - International opportunity
 - AI-powered tools
 
@@ -121,9 +144,14 @@ Refocused after over-expansion.
 
 ## Related
 
-- [[Amazon]] — competitor
+- [[Shop Pay]] — accelerated checkout (200M users, +57% YoY)
+- [[Checkout wars]] — competitive landscape Shop Pay is winning
+- [[Stripe]] — powers Shopify Payments backend
+- [[PayPal]] — checkout competitor (losing share)
+- [[Apple Pay]] — complementary checkout option
+- [[Amazon]] — e-commerce competitor
 - [[Block]] — payments competitor
-- [[BigCommerce]] — competitor
+- [[BigCommerce]] — platform competitor
 - [[SaaS]] — sector
 
 ---

@@ -28,6 +28,22 @@ AI training/inference is memory-bound. See [[GPU memory scaling]] for the struct
 
 ---
 
+## 2026 market forecast
+
+| Source | 2026 HBM market | YoY growth |
+|--------|-----------------|------------|
+| Bank of America | **$54.6B** | +58% |
+| Goldman Sachs | HBM for ASIC-based AI chips | +82% demand |
+
+**Memory price outlook:** +40% through Q2 2026 (Counterpoint Research).
+
+**Drivers:**
+- AI accelerator ramp (NVIDIA Blackwell, AMD MI400)
+- Custom ASIC proliferation (Google TPU, Amazon Trainium)
+- HBM4 launch (SK Hynix, Feb 2026)
+
+---
+
 ## HBM4 launch (Jan 2026)
 
 **SK Hynix 16-layer HBM4 launching February 2026:**
@@ -117,7 +133,7 @@ Only 3 suppliers:
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-02-03 (market forecast)*
 
 ---
 

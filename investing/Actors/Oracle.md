@@ -147,6 +147,22 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 ---
 
+## Reported layoffs (Feb 2026)
+
+**Oracle reportedly planning 20,000-30,000 layoffs to fund AI data center expansion.**
+
+| Detail | Value |
+|--------|-------|
+| Layoff range | 20K-30K employees |
+| Rationale | Fund AI DC expansion |
+| Status | Reported, not confirmed |
+
+Context: Part of broader AI infrastructure pivot — redirecting headcount costs to capex.
+
+*Source: Media reports, Feb 2026*
+
+---
+
 ## [[Guggenheim Partners]] "decade stock" thesis (Jan 2026)
 
 **John DiFucci's $400 price target** — 118% upside from $183 (Barron's, Jan 20, 2026):
@@ -196,7 +212,7 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 | Stargate role | JV partner |
 | xAI connection | Colossus on OCI |
 
-*Updated 2026-01-20*
+*Updated 2026-02-03 (layoff reports)*
 
 ![[orcl-price-chart.png]]
 
