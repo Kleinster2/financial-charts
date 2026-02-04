@@ -85,8 +85,24 @@ Stock down ~40% from highs. P/E ~19x.
 
 ---
 
+## February 2026: Claude Cowork selloff
+
+**Feb 3-4, 2026:** Stock fell **-10.5%** on [[Claude Cowork disruption February 2026|Claude Cowork launch]].
+
+| Metric | Value |
+|--------|-------|
+| Two-day decline | -10.5% |
+| Catalyst | Claude Cowork data analytics automation |
+
+**Disruption thesis:** AI agents automating buy-side research workflows — the core FactSet use case. If analysts can query data and generate reports via natural language, FactSet's terminal moat weakens.
+
+**Bull case:** Proprietary data feeds and integrations are the moat, not the interface. FactSet can layer AI on top.
+
+---
+
 ## Related
 
+- [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
 - [[Bloomberg LP]] — main competitor
 - [[S&P Global]] — competitor (Capital IQ)
 - [[Refinitiv]] — competitor

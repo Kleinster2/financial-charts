@@ -84,8 +84,29 @@ Investing heavily in AI for legal/tax:
 
 ---
 
+## February 2026: Claude Cowork selloff
+
+**Feb 3-4, 2026:** Stock fell **-18%** — record single-day loss — on [[Claude Cowork disruption February 2026|Claude Cowork launch]]. Hit lowest level since June 2021.
+
+| Metric | Value |
+|--------|-------|
+| Two-day decline | -18% |
+| Level | Lowest since Jun 2021 |
+| Catalyst | Claude Cowork legal automation |
+
+**Why Thomson Reuters is exposed:**
+- Westlaw's value proposition: saving lawyer time on research
+- AI legal assistants could commoditize this workflow
+- CoCounsel (their own AI) may not differentiate enough
+- High P/E left room for compression
+
+**Bull case:** Westlaw's proprietary case law database is the moat, not the interface. AI needs data to work — Thomson Reuters has it.
+
+---
+
 ## Related
 
+- [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
 - [[Refinitiv]] — former financial data business
 - [[London Stock Exchange Group]] — 15% stake from Refinitiv sale
 - [[Blackstone]] — bought Refinitiv stake 2018

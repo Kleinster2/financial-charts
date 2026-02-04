@@ -71,8 +71,25 @@ Largest IT services company globally by market cap.
 
 ---
 
+## February 2026: Claude Cowork selloff
+
+**Feb 3-4, 2026:** Stock fell **-7%** on [[Claude Cowork disruption February 2026|Claude Cowork launch]].
+
+| Metric | Value |
+|--------|-------|
+| Two-day decline | -7% |
+| Catalyst | Claude Cowork automation of services workflows |
+
+**Disruption thesis:** TCS's 600K-employee model is built on labor arbitrage. AI agents that automate enterprise workflows threaten the entire value proposition.
+
+**Bull case:** Scale and client relationships are sticky. Complex transformations still need humans. TCS can become an AI implementation partner.
+
+---
+
 ## Related
 
-- [[Infosys]] — competitor
+- [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
+- [[Infosys]] — competitor (same exposure)
+- [[HCL Tech]] — competitor (same exposure)
 - [[Regions/Asia|Asia]] — regional hub
 

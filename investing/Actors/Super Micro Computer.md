@@ -136,6 +136,19 @@ High risk/high reward.
 
 ---
 
+## Q2 FY26 earnings (Feb 2026)
+
+**February 4, 2026:** Supermicro reported Q2 FY26 results — blowout quarter.
+
+| Metric | Q2 FY26 | YoY |
+|--------|---------|-----|
+| Revenue | $12.68B | **+123%** |
+| Q3 FY26 guide | $12.3B | — |
+
+Demand for AI servers remains insatiable. Liquid cooling and NVIDIA partnership continue driving share gains.
+
+---
+
 ## Related
 
 - [[NVIDIA]] — partner (first to market with H100 racks)

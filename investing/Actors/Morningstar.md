@@ -96,8 +96,24 @@ Acquired 2016. Now the leading private markets database.
 
 ---
 
+## February 2026: Claude Cowork selloff
+
+**Feb 3-4, 2026:** Stock fell **-9%** on [[Claude Cowork disruption February 2026|Claude Cowork launch]].
+
+| Metric | Value |
+|--------|-------|
+| Two-day decline | -9% |
+| Catalyst | Claude Cowork data analytics automation |
+
+**Disruption thesis:** AI agents generating investment research and fund analysis. Morningstar's star ratings and analyst reports could be commoditized if AI can synthesize the same insights.
+
+**Bull case:** Brand trust and methodology are the moat. Advisors won't replace Morningstar ratings with AI-generated analysis overnight.
+
+---
+
 ## Related
 
+- [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
 - [[Bloomberg LP]] — competitor (different segment)
 - [[S&P Global]] — competitor (ratings)
 - [[FactSet]] — competitor (research)
