@@ -163,9 +163,14 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 - **Deep research before creating** — web search, multiple sources, hard data
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"
-- **Verify before creating** — always check if actor exists first:
+- **Verify before creating** — always check if note exists first:
   ```bash
+  # Actors
   cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
+  # Concepts
+  git ls-files "Concepts/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
+  # Events
+  git ls-files "Events/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
   ```
 
 ### Detailed References
