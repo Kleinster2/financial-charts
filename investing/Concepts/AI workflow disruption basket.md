@@ -74,6 +74,20 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 
 **Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — legal, data analytics, Indian IT. Same sector, different AI exposures.
 
+### SaaS vs Services breakdown
+
+![[aiwd-saas-vs-services.png]]
+*TRI, FDS (SaaS) vs INFY, OMC (services) since Oct 2025. Different dynamics, same Feb convergence.*
+
+| Type | Weight | Pre-Feb trend | Feb move | Now |
+|------|--------|---------------|----------|-----|
+| **SaaS** (TRI, FDS) | 60% | Already weak | Crushed | -20% to -27% |
+| **Services** (INFY, OMC) | 40% | Flat to +20% | Crushed | -5% to -12% |
+
+**Key insight:** SaaS (legal/data) was under pressure all year — market already worried about AI disruption. Services (Indian IT, ad agencies) were fine until Cowork plugins launched — then got hit hard. INFY moved from +20% to -5% in weeks.
+
+**Implication:** Services names may have more recovery potential if Cowork fears fade. SaaS names have structural concerns beyond the catalyst.
+
 ---
 
 ## Feb 3-4, 2026 performance
