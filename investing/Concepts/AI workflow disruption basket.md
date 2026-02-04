@@ -67,6 +67,13 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 ![[aiwd-vs-spy.png]]
 *AIWD -18% vs SPY +20% since Jan 2025. ~38 percentage points of underperformance. AI disruption thesis playing out.*
 
+### vs IGV (Software ETF)
+
+![[aiwd-vs-igv.png]]
+*AIWD (blue) -18% vs IGV (red) -10% since Jan 2025. AIWD underperforming by 8pp.*
+
+**Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — legal, data analytics, Indian IT. Same sector, different AI exposures.
+
 ---
 
 ## Feb 3-4, 2026 performance
