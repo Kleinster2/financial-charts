@@ -22,7 +22,22 @@ Non-filing sources: note it — "~210k employees (company website, Jan 2026)"
 
 ## Daily News Search
 
-**CRITICAL: Use exact date format.** `"January 27 2026"` not `"January 2026"`.
+### Search API Tips
+
+**Prefer freshness filters over exact date strings.** Exact dates like `"February 4 2026"` often return 0 results — articles don't always include the literal date string. Instead:
+
+```
+# Good — uses API freshness filter
+web_search(query="stock market gainers losers", freshness="pd")  # past day
+web_search(query="AMD earnings", freshness="pw")  # past week
+
+# Often fails — exact date string
+web_search(query="\"February 4 2026\" stock market")  # returns 0
+```
+
+**Rate limiting (Brave free tier):** 1 request/second. Run searches sequentially, not in parallel. Paid tier ($5/mo) allows 15 req/sec.
+
+### Category Searches
 
 | Category | Search terms |
 |----------|--------------|
@@ -148,3 +163,24 @@ Forward guidance often moves stocks more than backward-looking beats.
 | Macro event | Concept note |
 
 Actor notes answer "how does this affect THIS company specifically?" — don't re-explain sector-wide context.
+
+### Actor Note Discipline (CRITICAL)
+
+**Daily notes are never sufficient.** Every company mentioned in daily news must have its actor note updated or created.
+
+**For existing notes:**
+- Add dated section with the new development
+- Include stock move with %
+- Link to relevant Event/Concept notes
+
+**For missing notes:**
+- Create the actor note before finishing daily note
+- Do brief web research to establish basics (what they do, market cap, key metrics)
+- Follow actor note structure from [[Note structures]]
+
+**Systemic events — order of operations:**
+1. Create Event/Concept note for the catalyst FIRST
+2. Update all affected actor notes (link back to event)
+3. Update daily note (link to event and actors)
+
+Example: Claude Cowork disruption (Feb 2026) hit 10+ companies → create `[[Claude Cowork disruption February 2026]]` event note first, then update Thomson Reuters, RELX, ServiceNow, etc. with links back to the event.
