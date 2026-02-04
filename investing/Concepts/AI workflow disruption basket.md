@@ -57,6 +57,11 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 ![[aiwd-index.png]]
 *AIWD basket from Jan 2025. Sharp drop at right edge = Claude Cowork plugins selloff (Feb 3-4, 2026).*
 
+### Components breakdown
+
+![[aiwd-components.png]]
+*AIWD (blue) vs key components since Oct 2025. Thomson Reuters (red) hardest hit at -28%. Note Feb convergence — the correlation event.*
+
 ### vs S&P 500
 
 ![[aiwd-vs-spy.png]]
