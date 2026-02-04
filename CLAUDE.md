@@ -207,11 +207,12 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 - **Numbers matter** — exact figures with sources, not "significant"
 - **Verify before creating** — always check if note exists first:
   ```bash
-  # Actors
-  cd /c/Users/klein/financial-charts/investing && git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
-  # Concepts
+  # Search ALL folders (use when unsure of entity type or verifying non-existence)
+  cd /c/Users/klein/financial-charts/investing && git ls-files "**/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
+
+  # Or search specific folder if you know the type
+  git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
   git ls-files "Concepts/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
-  # Events
   git ls-files "Events/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
   ```
 
