@@ -63,6 +63,48 @@ git restore "path/to/file.md"             # restore if damaged
 
 ## Database
 
+**Location:** `market_data.db` (root directory)
+
+### Schema
+
+**Wide format** — tickers are columns, not rows:
+
+```sql
+-- stock_prices_daily: Date column + one column per ticker
+SELECT Date, AAPL, MSFT, GOOGL FROM stock_prices_daily LIMIT 5;
+
+-- Check if ticker exists
+PRAGMA table_info(stock_prices_daily);  -- lists all columns
+```
+
+**Key tables:**
+
+| Table | Description |
+|-------|-------------|
+| `stock_prices_daily` | Daily close prices (wide format) |
+| `ticker_metadata` | Ticker names, date ranges, data points |
+| `income_statement_annual` | Annual financials |
+| `income_statement_quarterly` | Quarterly financials |
+| `short_interest` | Short interest data |
+
+### Adding Tickers
+
+```bash
+python scripts/add_ticker.py TRI RELX MORN  # adds multiple tickers
+```
+
+This downloads history via yfinance, adds columns to `stock_prices_daily`, and updates `ticker_metadata`.
+
+### Synthetic Indices
+
+Create custom weighted baskets:
+
+```bash
+python scripts/create_aiwd_index.py --store  # AI Workflow Disruption basket
+```
+
+See `scripts/create_aiwd_index.py` for pattern — define weights dict, calculate returns, store as new column.
+
 ### Date Format (CRITICAL)
 
 All dates in `stock_prices_daily` use `'YYYY-MM-DD HH:MM:SS'`. **Never insert date-only format.**
