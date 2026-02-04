@@ -14,10 +14,11 @@ aliases: [SMCI, Supermicro]
 | Metric | Value |
 |--------|-------|
 | Ticker | SMCI |
-| Market cap | ~$20B (volatile) |
-| Revenue | ~$15B (FY24) |
-| Growth | 100%+ |
-| Issue | Accounting concerns |
+| Market cap | ~$25B |
+| FY26 revenue guide | $40B+ |
+| Growth | +123% YoY (Q2) |
+| Gross margin | 6.4% |
+| Key risk | 63% customer concentration |
 
 ---
 
@@ -128,24 +129,41 @@ High risk/high reward.
 | Metric | Value |
 |--------|-------|
 | Ticker | SMCI |
-| Market cap | ~$20B (volatile) |
+| Market cap | ~$25B |
+| FY26 revenue guide | $40B+ |
 | Growth | 100%+ |
-| Issue | Accounting concerns |
+| Gross margin | 6.4% (Q2) |
+| Key risk | 63% customer concentration |
 
-*Updated 2026-01-01*
+*Updated 2026-02-04*
 
 ---
 
-## Q2 FY26 earnings (Feb 2026)
+## Q2 FY26 earnings (Feb 3, 2026)
 
-**February 4, 2026:** Supermicro reported Q2 FY26 results — blowout quarter.
+**Blowout revenue, margin pressure. Stock +5% after hours.**
 
-| Metric | Q2 FY26 | YoY |
-|--------|---------|-----|
-| Revenue | $12.68B | **+123%** |
-| Q3 FY26 guide | $12.3B | — |
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Revenue | $12.7B | $10.34B |
+| EPS (adj) | $0.69 | $0.49 |
+| Revenue YoY | +123% | — |
+| Revenue QoQ | +153% | — |
+| Gross margin | **6.4%** | — |
 
-Demand for AI servers remains insatiable. Liquid cooling and NVIDIA partnership continue driving share gains.
+**Guidance raised:**
+- Q3 revenue: at least $12.3B (vs $10.2B expected)
+- Q3 EPS: at least $0.60 (vs $0.52 expected)
+- FY26 revenue: at least $40B (up from prior $33B guide)
+
+**Key concerns:**
+- **63% revenue concentration** — single hyperscaler customer
+- Gross margin compressed to 6.4% (product mix, freight, production costs)
+- Component shortages and pricing volatility
+
+**Other:** Secured $2B revolving credit facility from [[JPMorgan]] through 2030.
+
+Demand undeniable, but margin structure shows SMCI is a hardware assembler, not a chip designer.
 
 ---
 
