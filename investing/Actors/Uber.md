@@ -7,6 +7,28 @@ aliases: [UBER]
 
 ---
 
+## Q4 2025 earnings (Feb 4, 2026)
+
+**Beat on revenue, soft guidance. Stock -6%.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Q4 Revenue | **$14.4B** | $14.3B |
+| Gross Bookings | **$54.1B** | $53.1B |
+| EBITDA | **$2.5B** | — |
+| MAUs | **202M** | +18% YoY |
+| Trips | 3.8B | +22% YoY |
+
+**Full year 2025:** $193B gross bookings, $9.8B free cash flow (+42% YoY).
+
+**Q1 2026 guidance:** EBITDA $2.37-2.47B (soft, stock sold off 6% post-call).
+
+**AV progress:** Expects AV trips in up to **15 cities globally by end of 2026**. AV trips per vehicle 30% higher on Uber platform vs standalone competitors.
+
+*Source: CNBC, company filings, Feb 4 2026*
+
+---
+
 ## Why Uber matters
 
 | Metric | Value |

@@ -7,6 +7,23 @@ aliases: [LLY, Lilly]
 
 ---
 
+## Q4 2025 earnings (Feb 4, 2026)
+
+**Blowout quarter. Stock soaring.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Q4 Revenue | **$19.3B** | $18.0B |
+| Q4 EPS | **$7.54** adj | $6.93 |
+| YoY Revenue | **+43%** | — |
+| 2026 EPS Guide | **$34.25** mid | $33.30 |
+
+Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important year for Lilly."
+
+**Context:** While [[Novo Nordisk]] guided -5% to -13% sales decline, Lilly delivered +43% growth. GLP-1 market share divergence accelerating.
+
+---
+
 ## Why Eli Lilly matters
 
 | Metric | Value |
@@ -70,4 +87,4 @@ aliases: [LLY, Lilly]
 - [[Agentic AI]] — drug discovery applications
 - [[Novo Nordisk]] — GLP-1 competitor (losing patent protection)
 
-*Updated 2026-01-15*
+*Updated 2026-02-04 (Q4 2025 earnings)*
