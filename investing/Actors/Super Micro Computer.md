@@ -163,7 +163,34 @@ High risk/high reward.
 
 **Other:** Secured $2B revolving credit facility from [[JPMorgan]] through 2030.
 
-Demand undeniable, but margin structure shows SMCI is a hardware assembler, not a chip designer.
+---
+
+## Business model reality
+
+**Hardware assembler, not chip designer:**
+
+| Company | Role | Gross margin |
+|---------|------|--------------|
+| [[NVIDIA]] | Chip designer | ~73% |
+| [[AMD]] | Chip designer | ~50% |
+| **SMCI** | Server assembler | **6.4%** |
+| [[Dell]] | Server assembler | ~22% |
+
+SMCI buys NVIDIA GPUs at market price, adds motherboards/cooling/racks, sells to hyperscalers. The value-add is speed-to-market and liquid cooling integration — not proprietary silicon.
+
+**Why margins are thin:**
+- No IP moat on core components (GPUs, memory)
+- Commodity server parts (motherboards, power supplies)
+- Price competition from Dell, HPE
+- Hyperscaler customers have negotiating power
+
+**Why it still works:**
+- First-mover on new GPU architectures
+- Liquid cooling expertise (hard to replicate quickly)
+- Volume + speed = market share
+- $40B revenue at 6% margin = $2.4B gross profit
+
+The bull case is volume growth outpacing margin compression. The bear case is Dell/HPE catching up on liquid cooling while hyperscalers squeeze pricing.
 
 ---
 
