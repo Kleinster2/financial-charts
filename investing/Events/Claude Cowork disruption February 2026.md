@@ -5,13 +5,23 @@ date: 2026-02-03
 
 # Claude Cowork disruption February 2026
 
-**[[Anthropic]]** launched "Claude Cowork" plug-ins on Friday January 31, 2026 — a suite of AI agents that automate legal, sales, marketing, and data analysis workflows. The market response was immediate and brutal.
+**[[Anthropic]]** launched Claude Cowork plugins on Thursday January 30, 2026 — 11 open-source plugins targeting legal, sales, marketing, and financial workflows. The market response was immediate and brutal.
 
 ---
 
-## The launch
+## Timeline
 
-**Friday, January 31, 2026:** Anthropic announced Claude Cowork, a new product category of specialized AI plug-ins targeting enterprise workflows:
+| Date | Event |
+|------|-------|
+| **Jan 12** | Cowork launches (research preview, Max subscribers) |
+| Jan 16 | Cowork expands to Pro subscribers |
+| Jan 23 | Cowork expands to Team/Enterprise |
+| **Jan 30** | **Cowork Plugins launch** — 11 job-specific plugins |
+| Feb 3-4 | Market selloff ("SaaSpocalypse") |
+
+**Cowork** (Jan 12) was "Claude Code for the rest of your work" — an agentic file manager that could read files, organize folders, and execute multi-step tasks. Markets shrugged.
+
+**Cowork Plugins** (Jan 30) changed everything. The 11 plugins targeted specific professional workflows:
 
 | Plug-in | Target workflow | Disruption thesis |
 |---------|-----------------|-------------------|
