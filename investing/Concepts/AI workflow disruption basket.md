@@ -110,6 +110,31 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 
 ---
 
+## Constituent earnings: fundamentals vs sentiment
+
+### Thomson Reuters Q4 2025 (Feb 5, 2026)
+
+First AIWD constituent to report after the selloff. Key test of whether fundamentals justify the -18% move.
+
+| Metric | Q4 2025 | YoY |
+|--------|---------|-----|
+| Revenue | $2,009M | +5% |
+| Organic revenue | **+7%** | |
+| Adj EBITDA | $777M | +8% |
+| FY EBITDA margin | 39.2% | +100bp |
+| "Big 3" organic growth | **+9%** | Legal, Corporates, Tax |
+| 2026 organic guide | **7.5-8.0%** | |
+| 2026 margin guide | +100bp | |
+| Dividend | +10% to $2.62 | 33rd consecutive raise |
+
+**The verdict:** Fundamentals are fine. 7% organic growth, margin expanding, dividend growing. Nothing in the numbers says "business is being disrupted." But the stock was already down ~20% from the Feb 3 selloff before reporting — market is pricing in future disruption, not current weakness.
+
+**The tension:** TRI's CoCounsel AI tool generates $32B in efficiency savings for legal clients. This is both the bull case (TRI *is* the AI tool) and the bear case (if AI commoditizes legal research, why pay Westlaw premium pricing?).
+
+**Watch:** Stock reaction on Feb 5 will signal whether the market sees TRI as AI-resilient (moat holds, numbers prove it) or AI-vulnerable (good quarter doesn't matter if the product gets disrupted). This sets the template for how other AIWD names trade through earnings.
+
+---
+
 ## Tracking thesis
 
 This basket should:
@@ -119,8 +144,9 @@ This basket should:
 
 Watch for:
 - Next Anthropic/OpenAI product launch
-- Earnings from Thomson Reuters (Feb 5), RELX
+- RELX earnings — second major AIWD constituent to report
 - Signs of pricing power erosion in legal/data contracts
+- TRI stock reaction post-earnings as template for basket
 
 ---
 
@@ -154,4 +180,4 @@ No Wall Street firm has built an equivalent curated disruption basket. Closest a
 - [[BVP Nasdaq Cloud Index]] — SaaS benchmark
 - [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket
 
-*Created 2026-02-04*
+*Created 2026-02-04 · Updated 2026-02-05 (TRI earnings)*
