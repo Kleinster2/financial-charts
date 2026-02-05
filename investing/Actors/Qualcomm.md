@@ -11,11 +11,11 @@ aliases: [QCOM]
 
 Qualcomm has:
 - **Modem monopoly**: Only viable [[5G]] modem supplier (Apple trying to escape)
-- **Snapdragon**: Leading Android SoC, ARM-based
+- **Snapdragon**: Leading Android SoC, [[ARM]]-based
 - **Licensing**: Collects royalties on nearly all smartphones
 
 ![[qcom-vs-peers.png]]
-*Qualcomm +120% since 2018 — underperformed [[Semiconductors|SMH]] (+330%). Mobile focus, missed AI data center wave.*
+*QCOM +230% since 2018 vs [[Semiconductors|SMH]] +800%. Tracked together through 2022, then SMH pulled away on AI/data center demand. QCOM's mobile focus missed the wave.*
 
 *vs [[Semiconductors|SMH]]*
 
@@ -46,11 +46,24 @@ Qualcomm has:
 - Snapdragon X Elite: On-device AI for PCs
 - [[NPU]] (Neural Processing Unit) in mobile chips
 - Edge inference play vs cloud-based AI
-- Acquired Nuvia (Apple silicon veterans) for CPU cores
+- Acquired [[Nuvia]] ([[Apple]] silicon veterans) for CPU cores
+
+---
+
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO | Cristiano Amon | Jun 2021 |
+| COO & CFO | Akash Palkhiwala | Jan 2024 (CFO since 2019, added COO) |
+| Board Chair | Mark McLaughlin | Aug 2019 |
 
 ---
 
 ## Financials
+
+![[qcom-fundamentals.png]]
+*QCOM quarterly revenue and net income. FY2018 net income trough from tax/legal charges. Revenue doubled from pre-[[5G]] levels (~$6B/quarter) to $12B+ by Q1 FY2026.*
 
 ### Annual (10 years, fiscal year ends Sep)
 
@@ -105,6 +118,29 @@ Qualcomm has:
 
 ---
 
+## Q1 FY2026 earnings (Feb 2026)
+
+**Record quarter — but memory constraints cloud outlook:**
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Revenue | **$12.3B** (record) | Beat estimates |
+| Non-GAAP EPS | **$3.50** | Upper end of guidance |
+| QCT (chips) | $10.6B | Flagship handset + auto strength |
+| QCT Handsets | $7.8B | Premium segment sell-through |
+| QCT [[Automotive]] | $1.1B | +15% YoY, Snapdragon digital chassis |
+| QCT IoT | $1.7B | +9% YoY |
+
+**Q2 FY2026 guidance:** Revenue $10.2B-$11.0B, EPS $2.45-$2.65 — sequential step-down.
+
+**Memory constraint (key risk):** DRAM suppliers redirecting capacity to [[HBM]] for AI data centers → industry-wide memory shortage and price increases constraining the handset market through FY2026. This is the same [[HBM]] demand surge benefiting [[SK Hynix]] and [[Micron]] but squeezing downstream OEMs.
+
+**Acquisitions completed:**
+- **[[Alphawave Semi]]** — high-speed wired connectivity IP
+- **Ventana Micro Systems** — RISC-V computing (reduces ARM dependency)
+
+---
+
 ## Foundry diversification (Jan 2026)
 
 **Exploring Samsung as alternative to TSMC:**
@@ -146,11 +182,11 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 |--------|-------|
 | Ticker | QCOM (NASDAQ) |
 | Market cap | ~$180B |
-| Revenue (TTM) | ~$40B |
-| QCT (chips) revenue | ~$33B |
+| Revenue (TTM) | ~$45B |
+| QCT (chips) revenue | ~$35B |
 | QTL (licensing) revenue | ~$6B |
 | Gross margin | ~56% |
-| P/E | ~18x |
+| P/E | ~16x |
 | Dividend yield | ~2% |
 
 ---
@@ -161,10 +197,11 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 - [[China]] exposure ([[Huawei]] was major customer pre-ban)
 - Licensing model under regulatory pressure
 - Geopolitical risk on future M&A (see [[Weaponized antitrust]])
+- [[HBM]]-driven DRAM shortage constraining handset volumes (FY2026)
 
 ---
 
-*Updated 2026-01-04*
+*Updated 2026-02-05*
 
 ---
 
@@ -179,3 +216,5 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 - [[Weaponized antitrust]] — context ([[China]] blocked NXP deal)
 - [[Why Samsung's aggression may be rational]] — context (TSMC overflow)
 - [[Tax Cuts and Jobs Act]] — ~$30B repatriation (2018)
+- [[Alphawave Semi]] — acquired Q1 FY2026 (high-speed connectivity)
+- [[HBM]] — DRAM redirection constraining handset market

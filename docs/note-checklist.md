@@ -1,6 +1,6 @@
-# Actor Note Completion Checklist
+# Note Completion Checklist
 
-Run before marking any public actor note "done" (companies AND ETFs).
+Run before marking any vault note "done" (actors, concepts, events, theses, sectors).
 
 ## Pre-flight (MUST DO FIRST)
 
@@ -33,6 +33,7 @@ Run before marking any public actor note "done" (companies AND ETFs).
 - [ ] Price chart exists with `primary=TICKER` (actor always blue)
 - [ ] Price chart has actor + peers/benchmark
 - [ ] Fundamentals chart exists (companies only, not ETFs)
+- [ ] **Open and verify chart images** — confirm legend matches caption (tickers actually plotted, not drifted)
 - [ ] **No chart titles** — legend suffices
 - [ ] Chart captions mention all tickers shown
 - [ ] **Research major moves** — don't fabricate explanations; web search actual causes

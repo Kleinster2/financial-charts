@@ -221,7 +221,7 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 | Topic | Location |
 |-------|----------|
 | Chart API, forecasts, data setup | `docs/chart-api.md` |
-| Actor completion checklist | `docs/actor-checklist.md` |
+| Note completion checklist | `docs/note-checklist.md` |
 | News search, verification, sourcing | `docs/research-workflow.md` |
 | Note templates, Related format | `[[Note structures]]` |
 | Folder rules, concept vs sector | `[[Linking and hierarchy]]` |
