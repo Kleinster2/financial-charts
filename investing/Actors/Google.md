@@ -93,9 +93,13 @@ Google is the most vertically integrated AI hyperscaler:
 | Operating cash flow | $52.4B | — | Record |
 | Free cash flow | $24.6B | — | — |
 
-Stock fell ~3% after-hours despite beat — market spooked by capex guidance.
+**First company to cross $400B annual revenue.**
 
-**2026 capex guidance: $175-185B** — nearly double $91B spent in 2025, well above $119.5B consensus. Primarily for AI compute, technical infrastructure, and cloud growth. This is the most aggressive AI spending commitment from any hyperscaler.
+**2026 capex guidance: $175-185B** — nearly double $91B spent in 2025, **55% above $119.5B consensus**. Primarily for AI compute, technical infrastructure, and cloud growth. Most aggressive AI spending commitment from any hyperscaler.
+
+**Market reaction:** Stock whipsawed after hours — fell 6% on the capex shock, then recovered as Cloud +48% sank in. Settled -2.4% premarket Feb 5. YouTube ads the only miss ($11.4B vs $11.8B).
+
+**Ripple effects:** [[Broadcom]] +5.6% premarket (provides custom TPU silicon for Google). Capex guide implies total Mag 7 AI spend heading well above $500B for 2026 — bullish for [[NVIDIA]], data center REITs, power infrastructure.
 
 ---
 
