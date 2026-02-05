@@ -1,4 +1,27 @@
 /**
+ * Index tickers that use ^ prefix but can't have ^ in filenames
+ */
+const INDEX_ALIASES: Record<string, string> = {
+  "VIX": "^VIX",
+  "VIX1D": "^VIX1D",
+  "VIX3M": "^VIX3M",
+  "VIX6M": "^VIX6M",
+  "VIX9D": "^VIX9D",
+  "VVIX": "^VVIX",
+  "GSPC": "^GSPC",
+  "DJI": "^DJI",
+  "IXIC": "^IXIC",
+  "TNX": "^TNX",
+};
+
+/**
+ * Resolve a ticker, applying index aliases where needed
+ */
+function resolveTicker(ticker: string): string {
+  return INDEX_ALIASES[ticker] ?? ticker;
+}
+
+/**
  * Chart parameters extracted from filename or registry
  */
 export interface ChartParams {
@@ -48,6 +71,12 @@ export function parseChartFilename(filename: string): ParseResult {
     return parsePriceChart(name);
   }
 
+  // Check for YTD pattern (e.g., vix-ytd)
+  const ytdResult = parseYtdChart(name);
+  if (ytdResult) {
+    return ytdResult;
+  }
+
   // Check for duration pattern (e.g., goog-90d, aapl-30d, msft-1y)
   const durationResult = parseDurationChart(name);
   if (durationResult) {
@@ -94,7 +123,7 @@ function parseComparisonChart(name: string): ParseResult {
     if (isForex) {
       ticker = ticker + "=X";
     }
-    return ticker;
+    return resolveTicker(ticker);
   });
 
   // Validate: need at least 2 tickers
@@ -103,9 +132,9 @@ function parseComparisonChart(name: string): ParseResult {
   }
 
   // Validate: tickers should look like tickers
-  // Allow alphanumeric, dots (for international), and =X suffix (for forex)
+  // Allow alphanumeric, dots, ^ prefix (indices), and =X suffix (forex)
   for (const ticker of tickers) {
-    if (!/^[A-Z0-9.]{1,15}(=X)?$/.test(ticker)) {
+    if (!/^\^?[A-Z0-9.]{1,15}(=X)?$/.test(ticker)) {
       return { type: "unknown", filename: name };
     }
   }
@@ -137,13 +166,15 @@ function parsePriceChart(name: string): ParseResult {
   if (startYear) {
     ticker = ticker.replace(/-\d{4}$/, "");
   }
-  ticker = ticker
-    .replace(/-price-chart$/, "")
-    .replace(/_/g, ".")
-    .toUpperCase();
+  ticker = resolveTicker(
+    ticker
+      .replace(/-price-chart$/, "")
+      .replace(/_/g, ".")
+      .toUpperCase()
+  );
 
-  // Validate ticker (allow dots for international tickers)
-  if (!/^[A-Z0-9.]{1,15}$/.test(ticker)) {
+  // Validate ticker (allow dots, ^ prefix for indices)
+  if (!/^\^?[A-Z0-9.]{1,15}$/.test(ticker)) {
     return { type: "unknown", filename: name };
   }
 
@@ -160,6 +191,36 @@ function parsePriceChart(name: string): ParseResult {
 }
 
 /**
+ * Parse YTD chart: vix-ytd.png → single ticker from Jan 1 of current year
+ * Also supports comparison: aapl-vs-qqq-ytd.png
+ */
+function parseYtdChart(name: string): ParseResult | null {
+  if (!name.endsWith("-ytd")) return null;
+
+  const base = name.replace(/-ytd$/, "");
+  const startYear = new Date().getFullYear().toString();
+
+  // Could be a comparison (aapl-vs-qqq-ytd)
+  if (base.includes("-vs-")) {
+    const result = parseComparisonChart(base + `-${startYear}`);
+    return result;
+  }
+
+  // Single ticker
+  const ticker = resolveTicker(base.replace(/_/g, ".").toUpperCase());
+  if (!/^\^?[A-Z0-9.]{1,15}$/.test(ticker)) return null;
+
+  return {
+    type: "parsed",
+    params: {
+      tickers: [ticker],
+      normalize: false,
+      start: `${startYear}-01-01`,
+    },
+  };
+}
+
+/**
  * Parse duration chart: goog-90d.png, aapl-30d.png, msft-1y.png
  * Supported durations: 30d, 60d, 90d, 180d, 1y, 2y, 3y, 5y
  */
@@ -173,11 +234,11 @@ function parseDurationChart(name: string): ParseResult | null {
   const [, tickerPart, num, unit] = match;
   const duration = parseInt(num, 10);
 
-  // Convert underscores to dots, uppercase
-  const ticker = tickerPart.replace(/_/g, ".").toUpperCase();
+  // Convert underscores to dots, uppercase, resolve aliases
+  const ticker = resolveTicker(tickerPart.replace(/_/g, ".").toUpperCase());
 
   // Validate ticker
-  if (!/^[A-Z0-9.]{1,15}$/.test(ticker)) {
+  if (!/^\^?[A-Z0-9.]{1,15}$/.test(ticker)) {
     return null;
   }
 

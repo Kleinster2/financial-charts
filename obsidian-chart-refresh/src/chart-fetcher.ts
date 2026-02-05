@@ -27,7 +27,9 @@ export async function fetchChartImage(
 }
 
 /**
- * Write chart image to vault attachments folder
+ * Write chart image to vault attachments folder.
+ * Uses vault.adapter.writeBinary to bypass Obsidian's file index,
+ * which may not have all attachment PNGs indexed.
  */
 export async function writeChartImage(
   vault: Vault,
@@ -37,18 +39,7 @@ export async function writeChartImage(
 ): Promise<boolean> {
   try {
     const path = `${attachmentsFolder}/${filename}`;
-
-    // Check if file exists
-    const existing = vault.getAbstractFileByPath(path);
-
-    if (existing) {
-      // Modify existing file
-      await vault.modifyBinary(existing as any, data);
-    } else {
-      // Create new file
-      await vault.createBinary(path, data);
-    }
-
+    await vault.adapter.writeBinary(path, new Uint8Array(data));
     return true;
   } catch (error) {
     console.error(`Failed to write chart image: ${error}`);

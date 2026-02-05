@@ -1,4 +1,4 @@
-import { Notice, Plugin, TFile } from "obsidian";
+import { MarkdownView, Notice, Plugin, TFile } from "obsidian";
 import { parseChartFilename, buildApiUrl, parseRegistry, registryEntryToParams, RegistryEntry } from "./parser";
 import { fetchChartImage, writeChartImage, isApiAvailable } from "./chart-fetcher";
 import {
@@ -10,14 +10,15 @@ import {
 // Regex to match image embeds: ![[filename.png]]
 const IMAGE_EMBED_REGEX = /!\[\[([^\]]+\.png)\]\]/gi;
 
-// Registry file path
-const REGISTRY_PATH = "chart-registry.md";
+// Registry file path — try both vault root and investing/ subfolder
+const REGISTRY_PATHS = ["chart-registry.md", "investing/chart-registry.md"];
 
 export default class ChartRefreshPlugin extends Plugin {
   settings: ChartRefreshSettings;
   private lastRefreshTimes: Map<string, number> = new Map();
   private apiAvailable: boolean | null = null;
   private registry: Map<string, RegistryEntry> = new Map();
+  private isRefreshing = false;
 
   async onload() {
     await this.loadSettings();
@@ -29,7 +30,7 @@ export default class ChartRefreshPlugin extends Plugin {
     // Register file-open event
     this.registerEvent(
       this.app.workspace.on("file-open", async (file) => {
-        if (file && this.settings.autoRefresh) {
+        if (file && this.settings.autoRefresh && !this.isRefreshing) {
           await this.refreshChartsInNote(file);
         }
       })
@@ -57,6 +58,16 @@ export default class ChartRefreshPlugin extends Plugin {
       },
     });
 
+    // Refresh the already-open note (file-open fires before plugins load)
+    this.app.workspace.onLayoutReady(() => {
+      if (this.settings.autoRefresh) {
+        const file = this.app.workspace.getActiveFile();
+        if (file) {
+          this.refreshChartsInNote(file);
+        }
+      }
+    });
+
     console.log("Chart Refresh plugin loaded");
   }
 
@@ -64,15 +75,18 @@ export default class ChartRefreshPlugin extends Plugin {
    * Load chart registry from chart-registry.md
    */
   async loadRegistry() {
-    try {
-      const file = this.app.vault.getAbstractFileByPath(REGISTRY_PATH);
-      if (file && file instanceof TFile) {
-        const content = await this.app.vault.read(file);
-        this.registry = parseRegistry(content);
-        console.log(`Loaded ${this.registry.size} chart(s) from registry`);
+    for (const path of REGISTRY_PATHS) {
+      try {
+        const file = this.app.vault.getAbstractFileByPath(path);
+        if (file && file instanceof TFile) {
+          const content = await this.app.vault.read(file);
+          this.registry = parseRegistry(content);
+          console.log(`Loaded ${this.registry.size} chart(s) from registry (${path})`);
+          return;
+        }
+      } catch (error) {
+        console.log(`Could not load chart registry from ${path}: ${error}`);
       }
-    } catch (error) {
-      console.log(`Could not load chart registry: ${error}`);
     }
   }
 
@@ -92,108 +106,112 @@ export default class ChartRefreshPlugin extends Plugin {
    * Find and refresh all chart images embedded in a note
    */
   async refreshChartsInNote(file: TFile, manual = false) {
-    // Read note content
-    const content = await this.app.vault.read(file);
+    try {
+      // Read note content
+      const content = await this.app.vault.read(file);
 
-    // Find all image embeds
-    const matches = [...content.matchAll(IMAGE_EMBED_REGEX)];
-    if (matches.length === 0) return;
-
-    // Extract unique filenames
-    const filenames = [...new Set(matches.map((m) => m[1]))];
-
-    // Filter to parseable chart images
-    const chartsToRefresh: { filename: string; apiUrl: string }[] = [];
-
-    for (const filename of filenames) {
-      const result = parseChartFilename(filename);
-
-      if (result.type === "skip") {
-        // Fundamentals chart - skip
-        continue;
+      // Find all image embeds
+      const matches = [...content.matchAll(IMAGE_EMBED_REGEX)];
+      if (matches.length === 0) {
+        if (manual) new Notice("No chart embeds found in this note");
+        return;
       }
 
-      if (result.type === "unknown") {
-        // Check registry fallback
-        const registryEntry = this.registry.get(filename);
-        if (registryEntry) {
-          if (registryEntry.skip) {
-            continue; // Explicitly skipped in registry
-          }
-          const params = registryEntryToParams(registryEntry);
-          if (params) {
-            if (!manual && !this.shouldRefresh(filename)) {
-              continue;
-            }
-            const apiUrl = buildApiUrl(this.settings.apiBaseUrl, params);
-            chartsToRefresh.push({ filename, apiUrl });
-          }
-        } else {
-          console.log(`Unknown chart pattern (not in registry): ${filename}`);
-        }
-        continue;
-      }
+      // Extract unique filenames
+      const filenames = [...new Set(matches.map((m) => m[1]))];
 
-      if (result.type === "parsed") {
-        // Check cache TTL
-        if (!manual && !this.shouldRefresh(filename)) {
+      // Filter to parseable chart images
+      const chartsToRefresh: { filename: string; apiUrl: string }[] = [];
+
+      for (const filename of filenames) {
+        const result = parseChartFilename(filename);
+
+        if (result.type === "skip") {
           continue;
         }
 
-        const apiUrl = buildApiUrl(this.settings.apiBaseUrl, result.params);
-        chartsToRefresh.push({ filename, apiUrl });
-      }
-    }
+        if (result.type === "unknown") {
+          // Check registry fallback
+          const registryEntry = this.registry.get(filename);
+          if (registryEntry) {
+            if (registryEntry.skip) {
+              continue;
+            }
+            const params = registryEntryToParams(registryEntry);
+            if (params) {
+              if (!manual && !this.shouldRefresh(filename)) {
+                continue;
+              }
+              const apiUrl = buildApiUrl(this.settings.apiBaseUrl, params);
+              chartsToRefresh.push({ filename, apiUrl });
+            }
+          }
+          continue;
+        }
 
-    if (chartsToRefresh.length === 0) return;
+        if (result.type === "parsed") {
+          // Check cache TTL
+          if (!manual && !this.shouldRefresh(filename)) {
+            continue;
+          }
 
-    // Check if API is available (only once per session until it succeeds)
-    if (this.apiAvailable === null || this.apiAvailable === false) {
-      this.apiAvailable = await isApiAvailable(this.settings.apiBaseUrl);
-    }
-
-    if (!this.apiAvailable) {
-      if (manual) {
-        new Notice("Chart API not available");
-      }
-      return;
-    }
-
-    // Refresh each chart
-    let refreshedCount = 0;
-    for (const { filename, apiUrl } of chartsToRefresh) {
-      const imageData = await fetchChartImage(apiUrl);
-
-      if (imageData) {
-        const success = await writeChartImage(
-          this.app.vault,
-          filename,
-          imageData,
-          this.settings.attachmentsFolder
-        );
-
-        if (success) {
-          this.lastRefreshTimes.set(filename, Date.now());
-          refreshedCount++;
+          const apiUrl = buildApiUrl(this.settings.apiBaseUrl, result.params);
+          chartsToRefresh.push({ filename, apiUrl });
         }
       }
-    }
 
-    // Force Obsidian to reload the view to show updated images
-    if (refreshedCount > 0) {
-      // Small delay to ensure file write is complete
-      await new Promise(resolve => setTimeout(resolve, 100));
-
-      // Trigger view refresh by toggling edit mode
-      const leaf = this.app.workspace.activeLeaf;
-      if (leaf?.view?.getViewType() === 'markdown') {
-        const state = leaf.view.getState();
-        await leaf.view.setState(state, { history: false });
+      if (chartsToRefresh.length === 0) {
+        if (manual) new Notice("No charts to refresh");
+        return;
       }
-    }
 
-    if (manual && refreshedCount > 0) {
-      new Notice(`Refreshed ${refreshedCount} chart(s)`);
+      // Check if API is available
+      if (this.apiAvailable === null || this.apiAvailable === false) {
+        this.apiAvailable = await isApiAvailable(this.settings.apiBaseUrl);
+      }
+
+      if (!this.apiAvailable) {
+        if (manual) new Notice("Chart API not available");
+        return;
+      }
+
+      // Refresh each chart
+      let refreshedCount = 0;
+      for (const { filename, apiUrl } of chartsToRefresh) {
+        const imageData = await fetchChartImage(apiUrl);
+
+        if (imageData) {
+          const success = await writeChartImage(
+            this.app.vault,
+            filename,
+            imageData,
+            this.settings.attachmentsFolder
+          );
+
+          if (success) {
+            this.lastRefreshTimes.set(filename, Date.now());
+            refreshedCount++;
+          }
+        }
+      }
+
+      // Reopen the file to force Obsidian to re-render all images
+      if (refreshedCount > 0) {
+        await new Promise(resolve => setTimeout(resolve, 200));
+        const leaf = this.app.workspace.getLeaf(false);
+        if (leaf) {
+          this.isRefreshing = true;
+          await leaf.openFile(file, { active: true });
+          this.isRefreshing = false;
+        }
+      }
+
+      if (manual) {
+        new Notice(`Refreshed ${refreshedCount} chart(s)`);
+      }
+    } catch (error) {
+      new Notice(`Chart Refresh error: ${error}`);
+      console.error("Chart Refresh error:", error);
     }
   }
 

@@ -1369,6 +1369,8 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
         conn.commit()
         # Normalize datetime index to consistent string format (prevents duplicate date entries)
         combined_df.index = pd.to_datetime(combined_df.index).strftime('%Y-%m-%d %H:%M:%S')
+        # Remove any duplicate dates (keep last occurrence which has the freshest data)
+        combined_df = combined_df[~combined_df.index.duplicated(keep='last')]
         # Convert NA/None to NaN before casting to float (fixes pandas NAType issue)
         combined_df.fillna(np.nan).astype(float).to_sql(staging_table, conn, if_exists="replace", index=True, index_label=index_label)
 
@@ -1411,6 +1413,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
             cursor.execute(f"CREATE TABLE stock_prices_daily_old AS SELECT * FROM {backup_table}")
 
         cursor.execute(f"ALTER TABLE {staging_table} RENAME TO stock_prices_daily")
+        cursor.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_prices_date ON stock_prices_daily(Date)")
 
         conn.commit()
         vprint(f"  [OK] Prices table updated successfully")
