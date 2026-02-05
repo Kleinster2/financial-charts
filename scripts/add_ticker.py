@@ -101,7 +101,7 @@ def add_tickers(tickers, database_path='market_data.db'):
 
         # Extract close prices
         if len(tickers) == 1:
-            close_data = pd.DataFrame({tickers[0]: data['Close']})
+            close_data = pd.DataFrame({tickers[0]: data['Close'].squeeze()})
         else:
             close_data = data['Close']
 

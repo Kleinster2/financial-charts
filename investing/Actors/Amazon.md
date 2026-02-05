@@ -90,6 +90,32 @@ Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic ali
 
 ---
 
+## Project LEO (satellite broadband)
+
+**Rebranded from Project Kuiper** — Amazon's LEO satellite constellation targeting broadband, enterprise, and public safety.
+
+| Metric | Value |
+|--------|-------|
+| Constellation | 3,236 satellites planned |
+| FCC deadline | Half launched by July 30, 2026 |
+| TAM estimate | $20-34B by 2030 |
+| Launch providers | [[Blue Origin]], [[SpaceX]], Arianespace, ULA |
+
+### AT&T partnership (Feb 2026)
+
+AT&T selected Amazon LEO as primary satellite layer for enterprise and public safety fixed broadband. Deal includes:
+- AWS hybrid cloud migration of major AT&T workloads
+- High-capacity AT&T fiber connecting AWS data centers
+- Fixed broadband for enterprise clients — **not** direct-to-cell
+
+**Stock impact:** Announcement hammered satellite pure-plays — [[AST SpaceMobile]] fell ~11%, [[Globalstar]] fell ~7%. Market feared vertically integrated "super-platforms" (rockets + satellites + cloud + AI) would erode smaller players' moats.
+
+**Clarification:** AT&T stated the Amazon LEO deal does not impact plans with [[AST SpaceMobile]] for direct-to-cell. Different use cases: Amazon LEO = fixed broadband/backhaul; AST = "cell tower in the sky" for smartphones.
+
+**Strategic significance:** Secures guaranteed revenue base for LEO constellation during deployment. Serves as counterweight to [[Starlink]] dominance — Amazon betting on "high-integration" model vs SpaceX's satellite-count lead.
+
+---
+
 ## Partnerships
 
 | Partner       | Relationship                                |
@@ -98,6 +124,7 @@ Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic ali
 | [[NVIDIA]]    | 15-year collaboration, NVLink Fusion coming |
 | [[Marvell]]   | Trainium/Inferentia design partner          |
 | [[OpenAI]]    | Potential $10B investment (reported)        |
+| [[AT&T]]      | Project LEO satellite broadband + AWS cloud |
 
 ---
 
@@ -165,6 +192,8 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 - [ ] Anthropic IPO timing and Amazon's stake value
 - [ ] AWS AI Factories enterprise traction
 - [ ] Project Rainier utilization rates
+- [ ] Project LEO satellite deployment pace vs July 2026 FCC deadline
+- [ ] LEO competitive traction vs [[Starlink]]
 
 ---
 
@@ -212,3 +241,9 @@ See [[Short interest]] for interpretation framework.
 - [[Saks-Neiman merger]] — the deal Amazon backed
 - [[Saks bankruptcy]] — Jan 2026, flagship collateral fight
 - [[Minority investor subordination]] — consent rights failed in distress
+- [[AT&T]] — Project LEO satellite broadband partner
+- [[AST SpaceMobile]] — AT&T's direct-to-cell partner (different from LEO)
+- [[Globalstar]] — Apple's satellite partner, competitor
+- [[Starlink]] — primary LEO broadband competitor
+- [[Blue Origin]] — Bezos-owned, Project LEO launch provider
+- [[Satellite primer]] — industry context
