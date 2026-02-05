@@ -11,13 +11,11 @@ aliases: [QCOM]
 
 Qualcomm has:
 - **Modem monopoly**: Only viable [[5G]] modem supplier (Apple trying to escape)
-- **Snapdragon**: Leading Android SoC, [[ARM]]-based
+- **Snapdragon**: Leading Android SoC, [[Arm Holdings|ARM]]-based
 - **Licensing**: Collects royalties on nearly all smartphones
 
 ![[qcom-vs-peers.png]]
 *QCOM +230% since 2018 vs [[Semiconductors|SMH]] +800%. Tracked together through 2022, then SMH pulled away on AI/data center demand. QCOM's mobile focus missed the wave.*
-
-*vs [[Semiconductors|SMH]]*
 
 ---
 
