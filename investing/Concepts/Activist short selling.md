@@ -117,7 +117,7 @@ The Andrew Left case may establish new legal boundaries for the practice.
 
 - [[Muddy Waters]] — pioneer of the model
 - [[Claritev]] — Muddy Waters SPAC target
-- [[SPACs]] — frequent short targets
+- [[SPAC]] — frequent short targets
 - [[Paulson & Co]] — victim of Sino-Forest fraud
 
 ---

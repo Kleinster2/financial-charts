@@ -119,7 +119,7 @@ Third Lane Mobility — consortium of Bird's second-lien (John Bitove / Obelysk)
 ## Related
 
 - [[Micromobility]] — concept: boom-bust cycle, unit economics
-- [[SPACs]] — funding mechanism; $2.5B SPAC merger, bankrupt 2 years later
+- [[SPAC]] — funding mechanism; $2.5B SPAC merger, bankrupt 2 years later
 - [[Lime]] — competitor, sole survivor of original cohort, now IPO-bound
 - [[Electric Scooters]] — sector hub
 - [[Lyft]] — VanderZanden's former employer

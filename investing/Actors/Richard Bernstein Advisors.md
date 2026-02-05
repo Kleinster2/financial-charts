@@ -30,7 +30,7 @@ RBA takes clear, contrarian positions with specific reasoning. Their calls are t
 
 ## "Everything bubble" call (Jan 2026)
 
-**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's [[SPACs]], it's IG credit, it's high-yield credit."** — Contopoulos
+**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's [[SPAC]], it's IG credit, it's high-yield credit."** — Contopoulos
 
 ### Drivers
 

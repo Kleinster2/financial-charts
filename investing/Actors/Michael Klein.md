@@ -105,4 +105,4 @@ Klein personally bought $6M of CCCX shares — unusual insider confidence signal
 - [[Claritev]] — prior deal (-89%)
 - [[Lucid]] — prior deal (-87%)
 - [[Quantum computing]] — Infleqtion's sector
-- [[SPACs]] — structure
+- [[SPAC]] — structure

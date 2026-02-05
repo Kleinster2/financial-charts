@@ -152,7 +152,7 @@ Most 2021 fintechs were valued as tech but had bank economics.
 - [[Capital One]] — bought Brex $5.15B
 
 ### Concepts
-- [[SPACs]] — parallel bubble, similar timing
+- [[SPAC]] — parallel bubble, similar timing
 - [[2026 IPO pipeline]] — recovery wave
 
 ### Macro

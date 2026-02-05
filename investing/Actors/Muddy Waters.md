@@ -80,7 +80,7 @@ The timing of reports is strategic — Claritev report came exactly as the SPAC 
 
 - [[Claritev]] — 2020 short target
 - [[Activist short selling]] — strategy/sector
-- [[SPACs]] — frequent targets of short sellers
+- [[SPAC]] — frequent targets of short sellers
 
 ---
 

@@ -117,7 +117,7 @@ No market outside Taiwan has achieved meaningful scale yet.
 ## Related
 
 - [[Electric Scooters]] — sector hub
-- [[SPACs]] — listed via SPAC Apr 2022; 99% value destruction
+- [[SPAC]] — listed via SPAC Apr 2022; 99% value destruction
 - [[Yadea]] — JV partner, world's largest two-wheeler maker
 - [[NIU Technologies]] — Chinese competitor (different model)
 - [[Micromobility]] — shared segment concept

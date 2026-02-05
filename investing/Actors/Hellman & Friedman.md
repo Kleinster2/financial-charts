@@ -79,7 +79,7 @@ H&F remained largest shareholder after merger — unusual for PE to not exit cle
 - [[Claritev]] — PE flip gone wrong
 - [[Michael Klein]] — SPAC sponsor for Claritev deal
 - [[Private Equity]] — sector
-- [[SPACs]] — exit vehicle for Claritev
+- [[SPAC]] — exit vehicle for Claritev
 
 ---
 

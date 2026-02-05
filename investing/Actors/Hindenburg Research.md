@@ -99,7 +99,7 @@ Adani denied all allegations; stock has partially recovered.
 
 - [[Activist short selling]] — strategy
 - [[Muddy Waters]] — inspiration and peer
-- [[SPACs]] — Nikola, Lordstown were SPAC targets
+- [[SPAC]] — Nikola, Lordstown were SPAC targets
 
 ---
 

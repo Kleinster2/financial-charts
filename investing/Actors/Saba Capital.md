@@ -29,7 +29,7 @@ aliases: [Saba Capital Management, Saba]
 | **Credit relative value** | Core strategy; capital structure arbitrage, CDS trading |
 | **Tail hedge** | Disaster insurance; returned 99% in 2020 COVID crash |
 | **Closed-end fund activism** | Exploit NAV discounts; pressure boards for buybacks/liquidation |
-| **[[SPACs]]** | Was 4th largest SPAC hedge fund investor by end of 2021 |
+| **[[SPAC]]** | Was 4th largest SPAC hedge fund investor by end of 2021 |
 
 ---
 

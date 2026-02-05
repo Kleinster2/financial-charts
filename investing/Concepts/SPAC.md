@@ -1,5 +1,5 @@
 ---
-aliases: [SPAC, Special Purpose Acquisition Company, Blank check company, De-SPAC]
+aliases: [SPACs, Special Purpose Acquisition Company, Blank check company, De-SPAC]
 ---
 #concept #finance #capital-markets #ipo
 

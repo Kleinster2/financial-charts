@@ -90,6 +90,28 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 
 ---
 
+## Correlation structure
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| **Avg correlation** | **0.25** | Weak (event-driven) |
+| Range | 0.03 - 0.54 | LZ-FDS to TRI-RELX |
+| Strongest pair | TRI-RELX | 0.54 (legal duopoly) |
+| vs SPY | ~0.30 | Low market beta |
+| Period | 2024-01 to present | |
+
+**Why so low?** This is an *event basket*, not a sector. Constituents span legal (TRI, RELX), IT services (INFY), advertising (OMC) — different industries that don't normally move together. Correlation spikes on AI capability announcements (Claude Cowork, GPT releases) then reverts.
+
+**Pairwise clusters:**
+
+| Cluster | Tickers | Internal corr |
+|---------|---------|---------------|
+| Legal | TRI-RELX | 0.54 |
+| Data | FDS-MORN | 0.40 |
+| Cross-sector | LZ-FDS | 0.03 |
+
+---
+
 ## Feb 3-4, 2026 performance
 
 | Constituent | Move |

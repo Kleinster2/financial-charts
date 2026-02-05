@@ -140,7 +140,7 @@ Renamed from MultiPlan to Claritev in February 2025. Ticker changed from MPLN to
 ## Related
 
 - [[Michael Klein]] — SPAC sponsor
-- [[SPACs]] — structure that enabled the deal
+- [[SPAC]] — structure that enabled the deal
 - [[Hellman & Friedman]] — private equity seller
 - [[Muddy Waters]] — short seller who exposed problems
 - [[UnitedHealth]] — largest customer, now competitor

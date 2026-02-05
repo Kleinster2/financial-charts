@@ -114,7 +114,7 @@ Early track record was strong before SPAC losses.
 
 ## Related
 
-- [[SPACs]] — primary vehicle; 12 launched, ~$750M sponsor profits
+- [[SPAC]] — primary vehicle; 12 launched, ~$750M sponsor profits
 - [[David Sacks]] — All-In co-host
 - [[Virgin Galactic]] — SPAC target
 

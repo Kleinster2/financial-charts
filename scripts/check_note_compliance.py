@@ -63,6 +63,14 @@ class NoteChecker:
         if self.suggest_links and note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
+        # Concept-specific checks
+        if note_type == "concept":
+            issues.extend(self._check_singular_name(content, filepath))
+
+        # Sector and index checks
+        if note_type in ("sector", "index"):
+            issues.extend(self._check_correlation_structure(content, filepath))
+
         # Remaining checks are actor-specific
         if note_type not in ("actor", "etf", "benchmark"):
             return issues
@@ -121,6 +129,10 @@ class NoteChecker:
             if "#etf" in content or "#benchmark" in content:
                 return "etf"
             return "actor"
+        if "#index" in content:
+            return "index"
+        if "#sector" in content:
+            return "sector"
         if "#concept" in content:
             return "concept"
         if "#event" in content:
@@ -172,6 +184,61 @@ class NoteChecker:
 
         if "## Related" not in content:
             issues.append(Issue("error", "structure", "Missing '## Related' section"))
+
+        return issues
+
+    def _check_singular_name(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that concept notes use singular names."""
+        issues = []
+        name = filepath.stem
+
+        # Skip if name doesn't end in 's' or ends in common non-plural suffixes
+        non_plural_suffixes = ('ss', 'us', 'is', 'sis', 'ness', 'ics', 'ous')
+        if not name.endswith('s') or name.lower().endswith(non_plural_suffixes):
+            return issues
+
+        # Check if singular form exists as alias
+        singular = name[:-1]  # Remove trailing 's'
+
+        # Parse frontmatter for aliases
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                frontmatter = content[3:second_dash]
+                if f"aliases:" in frontmatter:
+                    # Check if singular form is in aliases (case-insensitive)
+                    aliases_match = re.search(r'aliases:\s*\[([^\]]+)\]', frontmatter)
+                    if aliases_match:
+                        aliases = [a.strip().strip('"\'') for a in aliases_match.group(1).split(',')]
+                        if any(a.lower() == singular.lower() for a in aliases):
+                            return issues  # Singular form exists as alias, OK
+
+        issues.append(Issue(
+            "warning",
+            "naming",
+            f"Concept note uses plural name '{name}'. Consider renaming to '{singular}' (singular)"
+        ))
+        return issues
+
+    def _check_correlation_structure(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that sector and index notes have a correlation structure section."""
+        issues = []
+
+        if "## Correlation structure" not in content:
+            issues.append(Issue(
+                "warning",
+                "structure",
+                "Missing '## Correlation structure' section"
+            ))
+            return issues
+
+        # Check for avg correlation value
+        if not re.search(r'Avg correlation.*\d+\.\d+', content, re.IGNORECASE):
+            issues.append(Issue(
+                "warning",
+                "structure",
+                "Correlation structure missing average correlation value"
+            ))
 
         return issues
 

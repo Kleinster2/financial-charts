@@ -98,7 +98,7 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 **Mike Contopoulos** ([[Richard Bernstein Advisors]], deputy CIO):
 
-**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's [[SPACs]], it's IG credit, it's high-yield credit."**
+**"We're kind of in an everything bubble at the moment. It's not just AI — it's crypto, it's meme stocks, it's [[SPAC]], it's IG credit, it's high-yield credit."**
 
 | Driver | Details |
 |--------|---------|

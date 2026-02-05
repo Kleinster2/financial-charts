@@ -1,6 +1,20 @@
 # Linking and Hierarchy
 
-Guidelines for folder structure, note hierarchy, and finding links.
+Guidelines for folder structure, note hierarchy, and linking.
+
+**Enforcement:** `scripts/check_note_compliance.py` enforces rules marked with ✓. Unmarked rules are guidance only.
+
+| Enforced | Rule |
+|----------|------|
+| ✓ | Dead links detected |
+| ✓ | Missing links (`--suggest-links` flag) |
+| ✓ | Singular names (concept notes) |
+| | Never remove wikilinks (process) |
+| | Verify before creating (process) |
+| | Folder placement |
+| | Sector composition |
+| | Concept vs Sector distinction |
+| | Intermediate hierarchy levels |
 
 ---
 
@@ -137,6 +151,73 @@ AI storage bottleneck.md (concept)
 | 3+ actors in same competitive space | Consider sub-sector |
 | Sub-sector has non-obvious "why it matters" | Create sister concept |
 | Concept explains dynamics across multiple sectors | Keep as standalone concept (not sister) |
+
+---
+
+## Creating notes
+
+### Never remove wikilinks
+
+If a `[[link]]` is dead, create the missing note. Never downgrade a link to plain text. When compliance checker flags dead links, create the missing note — never remove brackets to silence the warning.
+
+### Verify before creating
+
+Always check if note exists first. If a similar name exists (e.g., `SPACs.md` when creating `SPAC.md`), **read it to check aliases** before creating a duplicate.
+
+```bash
+# Search ALL folders
+cd /c/Users/klein/financial-charts/investing && git ls-files "**/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
+
+# Or search specific folder
+git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
+```
+
+### Singular names
+
+Concept notes use singular form: `SPAC.md` not `SPACs.md`, `Direct lender.md` not `Direct lenders.md`.
+
+---
+
+## Linking practices
+
+### Core principle: If it's mentioned, it's linked
+
+**Every actor, company, person, or concept mentioned in a note should be a wikilink.** No exceptions. This applies to:
+
+- Intros and summaries
+- Tables (investors, customers, competitors, partners)
+- Body text mentions
+- Related sections
+
+**Why this matters:**
+- Broken links show what notes need to be created
+- Links get resolved automatically when notes are created
+- The graph reveals connections across the vault
+- Readers can navigate to learn more
+
+### Specific rules
+
+**Link in intros.** If a note mentions multiple entities (e.g., "OTB owns Diesel, Margiela, Marni, Jil Sander"), link them all — not just ones with existing notes.
+
+**Link in tables.** Investor tables, customer lists, competitor comparisons — every named entity should be linked:
+
+```markdown
+| Investor | Role |
+|----------|------|
+| [[Tiger Global]] | Series D lead |      ✓ Correct
+| Greenoaks | Series B lead |              ✗ Wrong — should be [[Greenoaks]]
+```
+
+**Link in body text.** Don't leave company names, people, or concepts as plain text:
+
+```markdown
+✗ Wrong: "Acquired by Capital One for $5.15B"
+✓ Right: "Acquired by [[Capital One]] for $5.15B"
+```
+
+**After creating notes, revisit links.** When you create related notes, go back and ensure all cross-references are properly linked.
+
+**Update linked notes.** When you create a new note, add it to the Related sections of notes that reference it.
 
 ---
 

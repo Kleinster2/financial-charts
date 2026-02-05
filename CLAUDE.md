@@ -205,7 +205,8 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 - **Deep research before creating** — web search, multiple sources, hard data
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"
-- **Verify before creating** — always check if note exists first:
+- **Never remove wikilinks** — create missing notes instead. See `[[Linking and hierarchy]]` for details.
+- **Verify before creating** — check if note exists, including aliases. See `[[Linking and hierarchy]]`:
   ```bash
   # Search ALL folders (use when unsure of entity type or verifying non-existence)
   cd /c/Users/klein/financial-charts/investing && git ls-files "**/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"

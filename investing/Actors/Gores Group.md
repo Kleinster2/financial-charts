@@ -125,7 +125,7 @@ Focus: Technology, industrials, healthcare. Operational improvement of underperf
 
 ## Related
 
-- [[SPACs]] — structure Gores pioneered
+- [[SPAC]] — structure Gores pioneered
 - [[Michael Klein]] — fellow prolific SPAC sponsor
 - [[Chamath Palihapitiya]] — fellow SPAC sponsor
 - [[Lucid]] — comparable EV SPAC disaster (Klein's)
