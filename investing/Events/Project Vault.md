@@ -11,7 +11,7 @@
 - Feb 2, 2026: President [[Donald Trump]] announced Project Vault in the Oval Office, positioning it as a 60-day emergency minerals reserve for U.S. manufacturers.
 - Financing structure targets ~$12B: $10B [[EXIM Bank]] loan plus ~$1.7-2B private capital.
 - Procurement will be handled by commodity traders [[Hartree Partners]], [[Traxys North America]], and [[Mercuria Energy Group]].
-- Initial scope includes [[Rare earth elements]], [[Gallium]], [[Cobalt]], and other [[Critical minerals]] used in [[Electric vehicles]], [[Defense]] systems, and [[Advanced manufacturing]].
+- Initial scope includes [[Rare earth elements]], [[Copper]], [[Lithium]], [[Gallium]], [[Cobalt]], and other [[Critical minerals]] used in [[Electric vehicles]], [[Defense]] systems, and [[Advanced manufacturing]].
 - Administration compared access mechanics to a [[Costco]]-style membership for participating companies.
 
 ---
@@ -21,12 +21,14 @@
 | Component | Amount | Source |
 |-----------|--------|--------|
 | [[EXIM Bank]] loan | $10B | Approved same day |
-| Private capital | ~$1.7-2B | Institutional investors (TBD) |
+| Private capital | $2B | Institutional investors |
 | **Total** | **~$12B** | |
 
 **Procurement managers:** [[Hartree Partners]], [[Traxys North America]], [[Mercuria Energy Group]]
 
-**Governance:** Executive structure to be established; [[EXIM Bank]] likely to have board seat.
+**Governance:** Led by independent CEO; [[EXIM Bank]] has board seat.
+
+**Membership model:** Companies pay annual fee for right to withdraw minerals during supply emergencies. Vault takes small operational fee; procurement traders also take small cut. Vault itself not designed to profit.
 
 ---
 
@@ -64,6 +66,12 @@ Builds on prior government involvement:
 
 ---
 
+## Analyst reaction
+
+Tim Puko ([[Eurasia Group]]): Not an immediate game-changer for reducing China dependence, but important initiative that could stabilize market longer-term. Key test is follow-through and proving credibility to partners.
+
+---
+
 ## Insights
 
 - The stockpile shifts inventory risk from private firms to a government-backed balance sheet while preserving private procurement execution.
@@ -79,8 +87,11 @@ Builds on prior government involvement:
 | [[Donald Trump]] | Announced initiative |
 | [[Howard Lutnick]] | Commerce Secretary coordinating deals |
 | [[EXIM Bank]] | $10B loan facility |
-| [[GM]] | End-user represented at announcement |
+| [[General Motors]] | Founding member |
 | [[Mary Barra]] | GM CEO in attendance |
+| [[Lockheed Martin]] | Founding member |
+| [[Google]] | Founding member |
+| [[Clarios]] | Founding member (battery maker) |
 | [[Robert Friedland]] | Mining investor representing producers |
 | [[Hartree Partners]] | Procurement manager |
 | [[Traxys North America]] | Procurement manager |
@@ -100,6 +111,8 @@ Builds on prior government involvement:
 - [[Rare earth elements]]
 - [[MP Materials]] — key [[United States|U.S.]] producer
 - [[EXIM Bank]] — record loan
+- [[Clarios]] — founding member
+- [[Eurasia Group]] — analyst coverage
 - [[Manufacturing reshoring]]
 - [[US-China relations]]
 
@@ -110,7 +123,8 @@ Builds on prior government involvement:
 - [Reuters](https://www.reuters.com/world/china/trump-launches-12-billion-minerals-stockpile-counter-china-bloomberg-news-2026-02-02/) — Ernest Scheyder, Feb 2, 2026
 - [CNBC](https://www.cnbc.com/2026/02/02/rare-earth-miners-jump-as-trump-is-reportedly-eyeing-mineral-stockpile-.html) — Feb 2, 2026
 - [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-02/trump-unveils-12-billion-mineral-reserve-with-record-ex-im-loan) — Feb 2, 2026
+- [Financial Times](https://www.ft.com/content/project-vault-critical-minerals) — Camilla Hodgson, Feb 2, 2026
 
 ---
 
-*Created 2026-02-02 · Updated with sourced research*
+*Created 2026-02-02 · Updated 2026-02-04*

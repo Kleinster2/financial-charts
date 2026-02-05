@@ -42,7 +42,7 @@ Google is the most vertically integrated AI hyperscaler:
 
 | Metric | Value |
 |--------|-------|
-| AI capex | $50B+ annually |
+| AI capex | $91B (2025), $175-185B guided (2026) |
 | AI lab | DeepMind (Gemini) |
 | Custom silicon | TPU (7 generations) |
 | Cloud | GCP (#3 behind AWS, Azure) |
@@ -76,9 +76,26 @@ Google is the most vertically integrated AI hyperscaler:
 | 2022 | $283.0B | $60.0B | $4.56 | $89 |
 | 2023 | $307.4B | $73.8B | $5.80 | $141 |
 | 2024 | $350.0B | $100.1B | $8.04 | $192 |
-| 2025E | $385.5B | $124.3B | $10.10 | $195 |
+| **2025** | **$403.0B** | **$112.4B** | **$10.70** | **$195** |
 
 *Source: Company filings. Stock price = year-end close. 2021+ EPS reflects 20:1 stock split (Jul 2022). Pre-split years shown in original form.*
+
+### Q4 2025 earnings (Feb 4, 2026)
+
+| Metric | Actual | Estimate | YoY |
+|--------|--------|----------|-----|
+| Revenue | $113.8B | $111.4B | +18% |
+| EPS | $2.82 | $2.63 | — |
+| Net income | $34.46B | — | +30% |
+| Cloud revenue | $17.66B | $16.18B | +48% |
+| YouTube ads | $11.38B | $11.84B | Miss |
+| Advertising total | $82.28B | — | +13.5% |
+| Operating cash flow | $52.4B | — | Record |
+| Free cash flow | $24.6B | — | — |
+
+Stock fell ~3% after-hours despite beat — market spooked by capex guidance.
+
+**2026 capex guidance: $175-185B** — nearly double $91B spent in 2025, well above $119.5B consensus. Primarily for AI compute, technical infrastructure, and cloud growth. This is the most aggressive AI spending commitment from any hyperscaler.
 
 ---
 
@@ -91,12 +108,17 @@ Google is the most vertically integrated AI hyperscaler:
 
 | Model | Tier | Notes |
 |-------|------|-------|
+| **Gemini 3** | Latest | Released Q1 2026, outperforms competitors on benchmarks |
+| Gemini 2.0 | Previous gen | Agentic capabilities |
 | Gemini Ultra | Flagship | Multimodal |
 | Gemini Pro | Mid-tier | API access |
 | Gemini Nano | On-device | Mobile/edge |
-| Gemini 2.0 | Latest | Agentic capabilities |
 
-**Competitive position:** Roughly par with OpenAI, catching up on consumer mindshare.
+**Scale:** 750M MAU (up from 650M in Q3 2025). Serving unit costs down 78% over 2025 through model optimizations and efficiency improvements.
+
+**Apple deal:** Multiyear agreement for [[Apple]] to use Gemini in revamped [[Siri]], expected late 2026. Major distribution win.
+
+**Competitive position:** Roughly par with OpenAI, gaining on consumer mindshare. Gemini 3 benchmarks ahead of competitors.
 
 ---
 
@@ -188,6 +210,8 @@ Google backs Anthropic while competing with [[Claude]] via Gemini — hedging li
 | Azure | ~23% |
 | **GCP** | ~11% |
 
+**Q4 2025:** $17.66B revenue (+48% YoY). Backlog surged to $240B — up 55% sequentially and 2x YoY.
+
 **AI differentiation:**
 - TPU access (vs NVIDIA-only competitors)
 - [[Vertex]] AI platform
@@ -238,12 +262,14 @@ Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next 
 
 | Bet | Status | Valuation |
 |-----|--------|-----------|
-| [[Waymo]] | Leader in autonomous driving | $126B (Feb 2026) |
+| [[Waymo]] | Leader in autonomous driving | $126B (Feb 2026), 6 cities |
 | Verily | Life sciences | — |
 | [[Wing]] | Drone delivery | — |
 | Calico | Longevity research | — |
 
-**Waymo** is the crown jewel — $16B raised Feb 2026 at $126B valuation (~6% of Alphabet market cap). Only 1/6th of [[OpenAI]]'s valuation despite commercial robotaxi operations in 5 cities. Alphabet owns >75% post-round.
+**Waymo** is the crown jewel — $16B raised Feb 2026 at $126B valuation (~6% of Alphabet market cap). Only 1/6th of [[OpenAI]]'s valuation despite commercial robotaxi operations in 6 cities. Alphabet owns >75% post-round.
+
+20M+ fully autonomous trips completed. 400K+ weekly rides. Launched Miami (6th city) in Jan 2026. Took $2.1B stock-based compensation charge in Q4 2025 tied to funding round.
 
 ---
 
@@ -255,6 +281,18 @@ Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next 
 | [[Amazon]] | AI research depth | Cloud dominance |
 | [[Meta]] | Cloud business | Open-source momentum |
 | [[OpenAI]] | Distribution (Search, Android) | [[Consumer]] mindshare |
+
+---
+
+## Antitrust
+
+**Jan 2026:** Federal judge ruled Google must face consumer antitrust lawsuit alleging illegal dominance in online search market. Adds to ongoing DOJ case.
+
+---
+
+## Project Vault
+
+Signed up as founding member of [[Project Vault]], the $12B US [[critical minerals]] stockpile (Feb 2026). Alongside [[Lockheed Martin]], [[General Motors]], [[Clarios]], and 12+ other companies.
 
 ---
 
@@ -283,11 +321,10 @@ See [[Short interest]] for interpretation framework.
 |--------|-------|
 | Ticker | GOOG / GOOGL (NASDAQ) |
 | Market cap | ~$2.0T |
-| Revenue (2025E) | $400B |
-| Revenue (2026E) | $456B |
-| EPS (2025E) | $10.57 |
-| EPS (2026E) | $11.23 |
-| AI capex | $50B+ annually |
+| Revenue (2025) | $403B |
+| EPS (2025) | $10.70 |
+| AI capex (2025) | $91B |
+| AI capex (2026 guided) | $175-185B |
 | TPU generations | v1 through v7 |
 | Cloud rank | #3 (GCP) |
 | AI lab | DeepMind |
@@ -296,13 +333,13 @@ See [[Short interest]] for interpretation framework.
 | Anthropic stake | $2B+ |
 | Short interest | **1.12%** (Jan 2026) |
 
-*Updated 2026-01-20*
+*Updated 2026-02-04 — Q4 2025 earnings*
 
 ![[goog-price-chart.png]]
 
 ![[goog-fundamentals.png]]
 
-*Notable: Revenue growing 14% but EPS only 6% in 2026 — margin compression from $50B+ AI capex.*
+*Notable: $175-185B 2026 capex guidance nearly doubles 2025 spend. Market selling the beat on capex concerns — same pattern as every hyperscaler this cycle.*
 
 ---
 
@@ -318,7 +355,8 @@ See [[Short interest]] for interpretation framework.
 ## Related
 
 ### Products
-- [[Gemini]] — AI model (650M MAU, #3 global)
+- [[Gemini]] — AI model (750M MAU)
+- [[Apple]] — Gemini-Siri deal (late 2026)
 
 ### Partners/Competitors
 - [[Broadcom]] — TPU design partner (disintermediating)

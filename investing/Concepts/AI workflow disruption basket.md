@@ -124,11 +124,34 @@ Watch for:
 
 ---
 
+## Competitive landscape
+
+No Wall Street firm has built an equivalent curated disruption basket. Closest analogs:
+
+| Index | Firm | Type | vs AIWD |
+|-------|------|------|---------|
+| [[UBS European AI Disruption Basket]] | UBS | Europe-only disruption | Closest analog; broader (SAP, Sage) but Europe-only |
+| [[GS US Software Basket]] | Goldman Sachs | Sector | Broad software, mixes winners and victims |
+| [[IGV]] | iShares/BlackRock | ETF | 110 names, includes MSFT/PLTR (AI winners dilute signal) |
+| [[BVP Nasdaq Cloud Index]] | BVP/Nasdaq | SaaS index | Medium-high disruption purity, not curated |
+| [[JPMorgan JPAMAIDE]] | JPMorgan | AI infrastructure bull | Opposite side — AI beneficiaries, no bear basket |
+| [[GS AI Productivity Beneficiaries]] | Goldman Sachs | AI adoption bull | Inverse of AIWD — same force, opposite trade |
+
+**AIWD differentiation:** Cross-sector (legal + IT services + advertising), globally scoped, weighted by directness of AI revenue displacement. Only disruption-specific basket with a trackable ticker in our database.
+
+---
+
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst event
 - [[Software bear market]] — broader thesis
 - [[AI disruption]] — macro theme
 - [[Indian IT services]] — sub-theme
+- [[GS AI Productivity Beneficiaries]] — inverse basket (companies that benefit from same disruption)
+- [[UBS European AI Disruption Basket]] — closest Wall Street analog
+- [[GS US Software Basket]] — GS sector basket
+- [[IGV]] — iShares software ETF proxy
+- [[BVP Nasdaq Cloud Index]] — SaaS benchmark
+- [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket
 
 *Created 2026-02-04*

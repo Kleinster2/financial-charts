@@ -92,6 +92,14 @@ See [[Market forecasts]] for full details.
 
 ---
 
+## Thematic baskets
+
+**[[GS AI Productivity Beneficiaries]]** (GSXUPROD) — "Most important trade of 2026." Non-tech companies benefiting from AI-driven labor productivity. ~60 names across banks, logistics, restaurants, retail, healthcare. Screened from Russell 1000 by wage cost exposure to AI automation.
+
+Also maintains: GSTMTAIP (broad AI), GSTMTDAT (AI data centers), GSXUPCAI (AI PC/mobile upgrades), plus US software sector basket (cited in Feb 3 selloff coverage, -6%).
+
+---
+
 ## AI infrastructure research
 
 **Notable reports:**
