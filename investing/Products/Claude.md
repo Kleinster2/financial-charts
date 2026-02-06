@@ -20,13 +20,31 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers.
 
 ---
 
-## Model family
+## Version history
+
+| Version | Release | Key changes |
+|---------|---------|-------------|
+| Claude | Mar 2023 | Initial launch |
+| Claude 2 | Jul 2023 | 100K context, improved coding |
+| Claude 2.1 | Nov 2023 | 200K context, reduced hallucination |
+| **Claude 3** | Mar 2024 | Opus/Sonnet/Haiku tiers, vision |
+| Claude 3.5 Sonnet | Jun 2024 | Matched Opus quality at Sonnet speed |
+| Claude 3.5 Haiku | Oct 2024 | Faster, cheaper |
+| Claude 3.5 Sonnet v2 | Oct 2024 | Computer use, improved coding |
+| **Claude 4** | 2025 | Agentic capabilities, extended thinking |
+| Claude 4.5 Opus | Feb 2025 | Current flagship |
+| Claude 4.5 Sonnet | 2025 | Balanced tier |
+| Claude 4.5 Haiku | 2025 | Fast/cheap tier |
+
+---
+
+## Current model family
 
 | Model | Positioning | API pricing (per M tokens) |
 |-------|-------------|---------------------------|
-| **Opus 4.5** | Most capable, reasoning | $5 input / $25 output |
+| **Opus 4.5** | Most capable, reasoning | $15 input / $75 output |
 | **Sonnet 4.5** | Balanced, default | $3 input / $15 output |
-| **Haiku 4.5** | Fastest, cheapest | $1 input / $5 output |
+| **Haiku 4.5** | Fastest, cheapest | $0.80 input / $4 output |
 
 Batch API offers 50% discount for async processing.
 

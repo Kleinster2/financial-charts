@@ -22,14 +22,31 @@ Guidelines for folder structure, note hierarchy, and linking.
 
 | Folder | Purpose |
 |--------|---------|
-| Actors | Companies, orgs, entities |
-| Concepts | Ideas, dynamics, phenomena |
+| Actors | Companies, orgs, people, countries — entities with agency |
+| Products | Things made by Actors — chips, models, drugs, vehicles |
+| Concepts | Ideas, dynamics, phenomena, categories |
 | Sectors | Industry hubs with value chains |
 | Theses | Investment theses (Long/Short/Pairs) |
 | Questions | Open research questions |
 | Events | Discrete happenings worth noting |
 | Daily | Daily notes (inbox/capture) |
 | Meta | Vault conventions and meta-notes |
+
+### Products vs Actors
+
+Products are made by Actors but lack agency. The parent Actor makes all decisions.
+
+| Test | Actor | Product |
+|------|-------|---------|
+| Does it make decisions? | Yes | No |
+| Does it have employees/leadership? | Yes | No |
+| Is it an instance of a Concept category? | Sometimes | Always |
+| Can you invest in it directly? | Usually | No |
+
+**Examples:**
+- NVIDIA (Actor) → H100 (Product) → AI accelerators (Concept)
+- Anthropic (Actor) → Claude (Product) → Frontier models (Concept)
+- Novo Nordisk (Actor) → Ozempic (Product) → GLP-1 drugs (Concept)
 
 ---
 

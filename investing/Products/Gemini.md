@@ -36,9 +36,24 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 
 ---
 
-## Model family
+## Version history
 
-### Current generation
+| Version | Release | Key changes |
+|---------|---------|-------------|
+| Bard | Mar 2023 | Pre-Gemini chatbot (LaMDA/PaLM) |
+| **Gemini 1.0** | Dec 2023 | Ultra/Pro/Nano tiers, native multimodal |
+| Gemini 1.0 Ultra | Feb 2024 | Flagship, beat GPT-4 on benchmarks |
+| Gemini 1.5 Pro | Feb 2024 | 1M context window breakthrough |
+| Gemini 1.5 Flash | May 2024 | Fast/cheap tier |
+| **Gemini 2.0** | Dec 2024 | Agentic capabilities, Project Astra |
+| Gemini 2.0 Flash | Dec 2024 | Default model |
+| Gemini 2.5 Pro | 2025 | Deep Think reasoning |
+| Gemini 2.5 Flash | 2025 | Improved efficiency |
+| **Gemini 3 Flash** | Nov 2025 | Current default, outperforms 2.5 Pro |
+
+---
+
+## Current model family
 
 | Model | Status | Notes |
 |-------|--------|-------|
@@ -47,6 +62,8 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 | Gemini 2.5 Flash | Available | Fast, efficient |
 | Gemini 2.5 Deep Think | AI Ultra only | Multi-stream reasoning |
 | Gemini 2.5 Computer Use | Specialized | UI interaction |
+
+---
 
 ### Gemini 2.5 Pro specs
 

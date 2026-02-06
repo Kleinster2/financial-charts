@@ -25,6 +25,22 @@ aliases: [DeepSeek AI, DeepSeek R1]
 
 ---
 
+## Version history
+
+| Version | Release | Key changes |
+|---------|---------|-------------|
+| DeepSeek LLM | Nov 2023 | Initial 7B/67B models |
+| DeepSeek-Coder | Jan 2024 | Code-specialized |
+| DeepSeek-VL | Mar 2024 | Vision-language |
+| DeepSeek-V2 | May 2024 | MoE architecture, efficiency focus |
+| DeepSeek-V2.5 | Sep 2024 | Unified chat + code |
+| **DeepSeek-V3** | Dec 2024 | 671B params, $6M training claim |
+| **DeepSeek-R1** | Jan 2025 | Reasoning model, triggered [[DeepSeek day]] |
+| R1 distilled | Jan 2025 | 1.5B-70B distilled versions |
+| **DeepSeek-R2** | Feb 2026 (expected) | Next reasoning model |
+
+---
+
 ## DeepSeek V3 (Dec 2024)
 
 The early warning that most missed:

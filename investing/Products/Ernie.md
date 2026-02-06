@@ -21,6 +21,23 @@ Baidu's core AI asset — integrated into search, maps, autonomous driving.
 
 ---
 
+## Version history
+
+| Version | Release | Key changes |
+|---------|---------|-------------|
+| ERNIE 1.0 | 2019 | Knowledge-enhanced pretraining |
+| ERNIE 2.0 | 2019 | Continual pretraining |
+| ERNIE 3.0 | 2021 | 260B params, unified framework |
+| ERNIE Bot | Mar 2023 | ChatGPT competitor launch |
+| ERNIE 3.5 | Jun 2023 | Improved reasoning |
+| **ERNIE 4.0** | Oct 2023 | Multimodal, GPT-4 competitor |
+| ERNIE 4.0 Turbo | 2024 | Fast/cheap variant |
+| ERNIE 4.5 | 2024 | Multimodal generalist |
+| ERNIE X1 | 2024 | Reasoning specialist (like o1) |
+| **ERNIE 5.0** | Nov 2025 | Natively omni-modal |
+
+---
+
 ## User growth
 
 | Date | Users | Notes |

@@ -22,6 +22,28 @@ China's AI usage leader — and did it with minimal marketing.
 
 ---
 
+## Version history
+
+| Version | Release | Key changes |
+|---------|---------|-------------|
+| Doubao 1.0 | Aug 2023 | Initial launch |
+| Doubao 1.5 | 2024 | Multimodal (image understanding) |
+| Doubao Pro | 2024 | Enhanced reasoning |
+| Doubao Voice | Dec 2025 | Real-time voice assistant |
+| Doubao Agentic | Dec 2025 | Transaction completion via Douyin |
+
+**Underlying models (Seed family):**
+
+| Model | Params | Notes |
+|-------|--------|-------|
+| Seed 1.0 | — | Initial |
+| Seed 1.5 | — | Multi-turn improvement |
+| Seed 2.0 | 1.8T | MoE architecture |
+
+ByteDance doesn't publish as much model detail as peers.
+
+---
+
 ## Growth trajectory
 
 | Date | MAU | Notes |

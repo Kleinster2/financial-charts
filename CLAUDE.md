@@ -48,6 +48,7 @@ git restore "path/to/file.md"             # restore if damaged
 **Vault:**
 - Root: `investing/`
 - Actors: `investing/Actors/` (companies, orgs, people, **countries**)
+- Products: `investing/Products/` (chips, AI models, drugs, vehicles — things made by Actors)
 - Regions: `investing/Regions/` (multi-country only: LATAM, GCC, Southeast Asia)
 - Concepts: `investing/Concepts/`
 - Events: `investing/Events/`
@@ -56,6 +57,8 @@ git restore "path/to/file.md"             # restore if damaged
 - Sectors: `investing/Sectors/`
 
 **Countries go in Actors, not Regions.** See `India.md` for hub template (~100-150 lines max).
+
+**Products vs Actors:** Products lack agency — the parent Actor makes decisions. NVIDIA (Actor) → H100 (Product). See `[[Linking and hierarchy]]`.
 
 **Cache busting:** After modifying JS, increment `?v=` in `charting_sandbox/index.html`.
 
@@ -203,6 +206,7 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 ### Key Rules
 
 - **Deep research before creating** — web search, multiple sources, hard data
+- **No info outside note** — all research findings go in the note, not just conversation
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"
 - **Never remove wikilinks** — create missing notes instead. See `[[Linking and hierarchy]]` for details.
@@ -216,6 +220,12 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
   git ls-files "Concepts/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
   git ls-files "Events/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
   ```
+- **Run compliance after creating/editing actor notes**:
+  ```bash
+  python scripts/check_note_compliance.py investing/Actors/NewNote.md
+  ```
+  Fix errors before moving on. Warnings (dead links) are expected for new notes.
+- **Create stubs for dead links** — after compliance check, create minimal stub notes for any dead-linked entities. Stubs need: frontmatter with aliases, tags, one-line description, Quick stats table, Related section.
 
 ### Detailed References
 
