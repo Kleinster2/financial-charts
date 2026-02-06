@@ -98,6 +98,25 @@ python scripts/add_ticker.py TRI RELX MORN  # adds multiple tickers
 
 This downloads history via yfinance, adds columns to `stock_prices_daily`, and updates `ticker_metadata`.
 
+### Adding Fundamentals (for metrics charts)
+
+Price data and fundamentals are **separate**. If you need `metrics=revenue,netincome` charts:
+
+```bash
+# Step 1: Add price data (yfinance)
+python scripts/add_ticker.py PM
+
+# Step 2: Add fundamentals (Alpha Vantage) — required for metrics charts
+python fetch_fundamentals.py PM
+```
+
+Without step 2, fundamentals charts return `{"error": "No fundamentals data found"}` instead of an image.
+
+**Check existing fundamentals:**
+```sql
+SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;
+```
+
 ### Synthetic Indices
 
 Create custom weighted baskets:
@@ -202,6 +221,16 @@ Planned. See `docs/obsidian-chart-refresh-plugin.md`.
 - **Self-contained** — reader understands without clicking links
 - **Links over hierarchy** — structure from `[[connections]]`
 - **Daily notes as inbox** — capture first, extract when mature
+
+### Entity Linking (CRITICAL)
+
+**Before editing ANY note that mentions an entity:**
+
+1. **Check** if entity note exists (including aliases)
+2. **If missing** → create stub OR flag dead link
+3. **Always use `[[wikilinks]]`** for entities in the edit
+
+This applies to daily notes, earnings additions, news items — everything. Entity linking is a **pre-edit gate**, not post-edit cleanup.
 
 ### Key Rules
 
