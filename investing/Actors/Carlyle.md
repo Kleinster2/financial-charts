@@ -18,7 +18,25 @@ aliases: [Carlyle Group, CG]
 | CFO | Justin Plouffe | Jan 2026 |
 | Vice Chairman | Admiral James Stavridis | Jan 2026 |
 
-Schwartz is ex-Goldman Sachs President/COO. Major leadership restructure effective Jan 1, 2026.
+Schwartz is ex-Goldman Sachs President/COO.
+
+### Jan 2026 restructure
+
+Announced Jul 28, 2025. Three Co-Presidents created — all Carlyle veterans:
+- **Redett** → Global Private Equity (CPE + Real Assets), was CFO
+- **Jenkins** → Global Credit & Insurance
+- **Nedelman** → Global Client Business
+
+Plouffe (Deputy CIO Global Credit since 2007) backfilled CFO. Michael Wand became Head of EMEA Investments. Jeffrey Ferguson (General Counsel) retired Dec 2025.
+
+### 2022 CEO crisis
+
+[[Kewsong Lee]] departed abruptly Aug 2022 after falling out with founders ([[David Rubenstein]], [[William Conway Jr.]], [[Daniel D'Aniello]]):
+- Lee (CEO 2018-2022) pushed founders to step back, rebuffed their advice
+- Stock down 31% YTD — worst among PE peers
+- Disagreements over org structure and management style
+
+[[William Conway Jr.]] served as interim CEO until Schwartz arrived. Lee had joined from [[Warburg Pincus]] in 2013, served as co-CEO with [[Glenn Youngkin]] (2018-2020) before becoming sole CEO.
 
 ---
 
@@ -40,7 +58,7 @@ Schwartz is ex-Goldman Sachs President/COO. Major leadership restructure effecti
 | Ticker | CG (NASDAQ) |
 | AUM | $474B |
 | Founded | 1987 |
-| Founders | David Rubenstein, William Conway Jr., Daniel D'Aniello |
+| Founders | [[David Rubenstein]], [[William Conway Jr.]], [[Daniel D'Aniello]] |
 | HQ | Washington, D.C. |
 
 ---
@@ -100,7 +118,10 @@ CEO Schwartz exceeded 2025 targets — FRE growth was double the goal. Wealth or
 - [[KKR]] — peer
 - [[Blackstone]] — peer
 - [[Apollo]] — peer
+- [[Warburg Pincus]] — peer
 - [[Private Equity]] — category
+- [[David Rubenstein]] — co-founder
+- [[Kewsong Lee]] — former CEO (2018-2022)
 
 ---
 
