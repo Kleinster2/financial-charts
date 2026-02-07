@@ -1,7 +1,7 @@
 ---
 aliases: [lodging industry]
 ---
-#sector #realestate #hospitality
+#sector #hospitality #consumer-discretionary
 
 **Hotel industry** — Global lodging sector. Highly cyclical, sensitive to travel demand, macro conditions, and [[Real estate cycles]]. Asset-light franchise models dominate public markets.
 
@@ -126,9 +126,21 @@ Lower operating costs (less housekeeping), stickier guests, higher margins. Key 
 
 ---
 
-## Taxonomy note
+## Correlation structure
 
-> **Correlation cluster validation pending.** Current placement under [[Real estate]] reflects asset economics, but asset-light operators (MAR, HLT) have consumer-discretionary earnings tied to travel demand. Future analysis should test whether hotel stocks correlate more with REITs, OTAs ([[Booking Holdings|BKNG]], [[Expedia|EXPE]]), or form their own distinct cluster.
+Asset-light hotel operators form a distinct tradeable cluster. Analysis (2022-present):
+
+| Cluster | Avg Correlation |
+|---------|-----------------|
+| Asset-light (MAR, HLT, H, WH, IHG) | **0.62** |
+| vs Hotel REITs (HST, PK, RHP) | 0.51 |
+| vs OTAs (BKNG, EXPE, ABNB) | 0.55 |
+| vs Airlines (DAL, UAL, LUV) | 0.51 |
+| vs Office/Retail REITs (SPG, VNO) | **0.38** |
+
+**Key finding:** Hotels correlate poorly with traditional REITs (0.38) but strongly within the lodging vertical. MAR and HLT specifically correlate 0.72-0.74 with HST (hotel REIT), versus 0.38 with SPG/VNO.
+
+**Implication:** Hotels are consumer-discretionary, not real estate. Standalone sector, linked to [[Travel]] but not subordinate to [[Real estate]].
 
 ---
 

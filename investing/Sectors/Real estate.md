@@ -17,7 +17,7 @@ Umbrella sector covering residential, commercial, and specialty property. Highly
 | **Residential** | [[Housing]], [[Residential Mortgage]], [[Multifamily housing]] | Affordability crisis, institutional buyers |
 | **REITs** | [[REITs]], [[DC REITs]], [[Mortgage REITs]] | Public market access to RE |
 | **Private** | [[Private Real Estate]] | PE/institutional ownership |
-| **Specialty** | [[Senior Living]], [[Hotel industry]] | Demographic and travel driven |
+| **Specialty** | [[Senior Living]] | Demographic driven |
 
 ## Key concepts
 
