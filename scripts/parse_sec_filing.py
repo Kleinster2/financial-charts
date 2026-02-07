@@ -100,18 +100,72 @@ def get_latest_filing_url(cik: str, filing_type: str | None = None) -> tuple[str
     raise ValueError(f"No {filing_type or '10-K/10-Q'} found for CIK {cik}")
 
 
+def html_table_to_markdown(table_html: str) -> str:
+    """Convert an HTML table to markdown format."""
+    # Extract rows
+    rows = re.findall(r'<tr[^>]*>(.*?)</tr>', table_html, re.DOTALL | re.IGNORECASE)
+    if not rows:
+        return ""
+
+    md_rows = []
+    for row in rows:
+        # Extract cells (th or td)
+        cells = re.findall(r'<t[hd][^>]*>(.*?)</t[hd]>', row, re.DOTALL | re.IGNORECASE)
+        if not cells:
+            continue
+        # Clean cell content
+        cleaned = []
+        for cell in cells:
+            # Strip tags, decode entities, normalize whitespace
+            text = re.sub(r'<[^>]+>', ' ', cell)
+            text = unescape(text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            # Escape pipe characters
+            text = text.replace('|', '\\|')
+            cleaned.append(text)
+        if any(cleaned):  # Skip empty rows
+            md_rows.append('| ' + ' | '.join(cleaned) + ' |')
+
+    if len(md_rows) < 1:
+        return ""
+
+    # Add header separator after first row
+    num_cols = md_rows[0].count('|') - 1
+    separator = '|' + '---|' * num_cols
+
+    if len(md_rows) >= 1:
+        result = md_rows[0] + '\n' + separator
+        if len(md_rows) > 1:
+            result += '\n' + '\n'.join(md_rows[1:])
+        return result
+    return ""
+
+
 def strip_html(html: str) -> str:
-    """Remove HTML tags and decode entities."""
-    # Remove script/style
+    """Convert HTML to clean text, preserving tables as markdown."""
+    # Remove script/style/xml tags
     html = re.sub(r'<script[^>]*>.*?</script>', ' ', html, flags=re.DOTALL | re.IGNORECASE)
     html = re.sub(r'<style[^>]*>.*?</style>', ' ', html, flags=re.DOTALL | re.IGNORECASE)
-    # Remove tags
+    html = re.sub(r'<xml[^>]*>.*?</xml>', ' ', html, flags=re.DOTALL | re.IGNORECASE)
+
+    # Convert tables to markdown before stripping other tags
+    def replace_table(match):
+        md = html_table_to_markdown(match.group(0))
+        return '\n\n' + md + '\n\n' if md else ' '
+
+    html = re.sub(r'<table[^>]*>.*?</table>', replace_table, html, flags=re.DOTALL | re.IGNORECASE)
+
+    # Strip remaining tags
     html = re.sub(r'<[^>]+>', ' ', html)
+
     # Decode entities
     html = unescape(html)
-    # Normalize whitespace but preserve some structure
+
+    # Normalize whitespace but preserve structure
     html = re.sub(r'[ \t]+', ' ', html)
-    html = re.sub(r'\n\s*\n', '\n\n', html)
+    html = re.sub(r'\n[ \t]+', '\n', html)
+    html = re.sub(r'\n{3,}', '\n\n', html)
+
     return html.strip()
 
 
