@@ -1,7 +1,7 @@
 ---
 aliases: [Claude AI, Claude 4.5, Opus, Sonnet, Haiku]
 ---
-#actor #ai #product
+#product-family #ai
 
 **Claude** — [[Anthropic]]'s AI assistant. Known for reasoning, coding, and safety. Competes with [[ChatGPT]].
 

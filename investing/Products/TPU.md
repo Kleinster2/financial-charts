@@ -7,7 +7,7 @@ aliases:
   - TPU v5p
   - TPU v5e
 tags:
-  - product
+  - product-family
   - semiconductor
   - ai-accelerator
 parent_actor: "[[Google]]"

@@ -1,7 +1,7 @@
 ---
 aliases: [ERNIE Bot, 文心一言, Wenxin Yiyan, ERNIE 5.0]
 ---
-#actor #product #ai #china
+#product-family #ai #china
 
 **Ernie** (文心一言, Wenxin Yiyan) — [[Baidu]]'s AI model family. **300M users** (Jun 2024). Natively omni-modal (text, image, audio, video). Powers Baidu Search, autonomous driving, enterprise.
 

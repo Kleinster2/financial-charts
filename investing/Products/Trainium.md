@@ -6,7 +6,7 @@ aliases:
   - Trn1
   - Trn2
 tags:
-  - product
+  - product-family
   - semiconductor
   - ai-accelerator
 parent_actor: "[[Amazon]]"

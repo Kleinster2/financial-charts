@@ -7,7 +7,7 @@ aliases:
   - Ascend 910C
   - Atlas
 tags:
-  - product
+  - product-family
   - semiconductor
   - ai-accelerator
   - china

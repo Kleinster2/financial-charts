@@ -6,7 +6,7 @@ aliases:
   - Intel Gaudi
   - Habana Gaudi
 tags:
-  - product
+  - product-family
   - semiconductor
   - ai-accelerator
 parent_actor: "[[Intel]]"

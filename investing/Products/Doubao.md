@@ -1,7 +1,7 @@
 ---
 aliases: [豆包, ByteDance AI]
 ---
-#actor #ai #llm #china #subsidiary
+#product-family #ai #china
 
 **Doubao** — ByteDance's AI chatbot. **100M+ DAU**, 159M MAU. China's most popular AI app (passed [[DeepSeek]]). Lowest user acquisition cost of any ByteDance product to reach 100M. Now powering agentic commerce via [[Douyin]].
 

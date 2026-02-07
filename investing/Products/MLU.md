@@ -6,7 +6,7 @@ aliases:
   - Siyuan
   - Machine Learning Unit
 tags:
-  - product
+  - product-family
   - semiconductor
   - ai-accelerator
   - china

@@ -1,7 +1,7 @@
 ---
 aliases: [Google Gemini, Gemini AI, Gemini 2.5, Gemini 3]
 ---
-#actor #product #ai #usa
+#product-family #ai
 
 **Gemini** — [[Google]]'s AI model family. **650M MAU** (Nov 2025). #3 global AI platform. Native multimodal with 1M+ token context. Powers Google Search, Android, Workspace.
 

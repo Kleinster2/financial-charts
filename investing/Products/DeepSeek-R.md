@@ -5,7 +5,7 @@ aliases:
   - DeepSeek R1
   - R1
 tags:
-  - product
+  - product-family
   - ai
   - china
 parent_actor: "[[DeepSeek]]"

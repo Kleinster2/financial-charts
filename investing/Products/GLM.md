@@ -1,7 +1,7 @@
 ---
 aliases: [ChatGLM, GLM-4, Z.ai GLM]
 ---
-#actor #product #ai #china
+#product-family #ai #china
 
 **GLM** — [[Zhipu]]'s (Z.ai) AI model family. Open source. **GLM-4.7** matches Claude Sonnet 4.5 on coding at **$3/month** (or free locally). First major model trained on **Huawei hardware only**.
 

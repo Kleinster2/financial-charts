@@ -1,7 +1,7 @@
 ---
 aliases: [GPT-5, GPT-4, ChatGPT Plus, ChatGPT Pro]
 ---
-#actor #ai #product
+#product-family #ai
 
 **ChatGPT** — [[OpenAI]]'s AI chatbot. Largest consumer AI product. 700M weekly active users.
 
