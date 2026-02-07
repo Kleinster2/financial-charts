@@ -40,7 +40,7 @@ BASE_DATE = '2026-02-03'
 INITIAL_VALUE = 100.0
 
 
-def get_component_prices(start_date: str = '2024-01-01'):
+def get_component_prices(start_date: str = '2021-07-01'):
     """Get historical prices for all component tickers."""
     conn = sqlite3.connect(DB_PATH)
 
@@ -60,7 +60,7 @@ def get_component_prices(start_date: str = '2024-01-01'):
     return df
 
 
-def calculate_aitw_index(start_date: str = '2024-01-01'):
+def calculate_aitw_index(start_date: str = '2021-07-01'):
     """Calculate AITW index values."""
 
     print(f"\n{'='*70}")

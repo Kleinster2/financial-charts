@@ -1,8 +1,13 @@
-#concept #index #custom #ai #transition
+---
+aliases: [AITW]
+tags: [concept, index, custom, ai, transition]
+---
 
 # AI Transition Winners basket
 
 Stocks initially expected to be AI disruption victims that are instead repositioning as AI implementation beneficiaries. Splintered from [[AI workflow disruption basket|AIWD]] after performance divergence.
+
+**The result:** AITW +70% vs AIWD +7% since July 2021. The "winners vs victims" split was the right call.
 
 ---
 
@@ -29,6 +34,7 @@ HCLTECH.NS, PUB.PA
 - **Weighting:** Equal weight
 - **Rebalance:** Quarterly
 - **Base date:** Feb 3, 2026 = 100
+- **History:** July 2021 – present (matched to AIWD)
 - **Calculation:** Price return, USD-adjusted
 - **Script:** `scripts/create_aitw_index.py --store`
 
@@ -57,15 +63,17 @@ Original [[AI workflow disruption basket|AIWD]] thesis assumed all white-collar 
 
 ## Performance
 
-![[aiwd-aitw-spy.png]]
-*AITW (red) flat vs AIWD (green) -11% since Jan 2024. SPY +50% for context. The 10pp spread validates the splinter — winners got lumped with victims.*
+![[aitw-aiwd-spy.png]]
+*AITW (blue) +70% vs AIWD (red) +7% vs SPY (green) +65% since July 2021. Transition winners beat the market; disruption victims got destroyed.*
+
+| Period | AITW | SPY | AIWD | AITW vs AIWD |
+|--------|------|-----|------|--------------|
+| July 2021 – Feb 2026 | **+70%** | +65% | +7% | **+63pp** |
+
+**Key insight:** The splinter wasn't just about avoiding losses. HCL and Publicis actually outperformed the S&P 500 while their former basket-mates collapsed. Same sector exposure, radically different AI positioning.
 
 ![[aitw-components.png]]
-*HCL Tech +21% vs Publicis +6%. HCL peaked at +45% in early 2025 before AI hype pullback. Both still outperforming AIWD constituents.*
-
-| Period | AIWD | AITW | Spread |
-|--------|------|------|--------|
-| Jan 2024 - Feb 2026 | -11% | -1% | +10pp |
+*HCL Tech vs Publicis. Both outperforming AIWD constituents.*
 
 ---
 
@@ -76,3 +84,5 @@ Original [[AI workflow disruption basket|AIWD]] thesis assumed all white-collar 
 - [[Publicis]] — Epsilon data moat
 - [[Indian IT services]] — sector context
 - [[AI disruption]] — macro theme
+
+*Created 2026-02-05 · Updated 2026-02-07 (extended history to July 2021)*
