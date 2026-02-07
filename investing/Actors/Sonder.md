@@ -36,13 +36,23 @@ The model required constant expansion to amortize fixed lease costs. When growth
 
 ## Financial trajectory
 
-| Year | Revenue | Net Loss | Accumulated Deficit |
-|------|---------|----------|---------------------|
-| 2022 | — | — | — |
-| 2023 | — | — | $1.4B |
-| 2024 | $621M | Negative | >$1.4B |
+| Year | Revenue | Net Loss | Cumulative Loss |
+|------|---------|----------|-----------------|
+| 2021 | $234M | -$294M | — |
+| 2022 | $465M | -$245M | — |
+| 2023 | $602M | -$296M | — |
+| 2024 | $621M | -$224M | — |
+| H1 2025 | $266M | -$101M | **~$1.4B** |
 
-The company never achieved positive cash flow in its entire history. Revenue growth couldn't outpace lease obligations and operating costs.
+*Source: SEC 10-K and 10-Q filings*
+
+Revenue nearly tripled from 2021 to 2024, but losses never stopped. The company burned through $1B+ in cash while growing — classic "growth at all costs" until the capital markets closed.
+
+**2025 collapse trajectory:**
+- Q1 2025: Revenue $119M (-11% YoY), loss $57M
+- Q2 2025: Revenue $147M (-11% YoY), loss $45M
+- Bookable nights down 21% YoY as portfolio optimization (unit exits) accelerated
+- RevPAR improved to $184 (+13%) but couldn't offset volume decline
 
 ## The Marriott deal that failed
 
