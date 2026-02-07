@@ -40,10 +40,16 @@ git restore "path/to/file.md"             # restore if damaged
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
-  - Downloads 10-K/10-Q from EDGAR, strips HTML, outputs clean text
-  - Use with subagent: download filing, then Task agent reads and extracts what's relevant
+  - Downloads 10-K/10-Q from EDGAR, strips HTML, outputs clean text (~200K chars, fits in context)
+  - **Use 10-K for annual, 10-Q for quarterly** — these contain the actual financials
+  - Avoid 8-K for earnings — it's just a wrapper; the numbers are in exhibits
+  - Workflow: download filing → Task agent reads and extracts what's relevant to the note
   - LLM does the analysis — no keyword matching assumptions
-  - ~200K chars typical (fits in context)
+  ```bash
+  # Example: quarterly earnings analysis
+  python scripts/parse_sec_filing.py AMZN --type 10-Q --save /tmp/amzn-10q.txt
+  # Then Task agent: "Read /tmp/amzn-10q.txt, extract revenue, margins, segment performance, risks"
+  ```
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
