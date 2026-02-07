@@ -1,7 +1,18 @@
 ---
-aliases: [ChatGLM, GLM-4, Z.ai GLM]
+aliases:
+  - GLM
+  - ChatGLM
+  - GLM-4
+  - GLM-4.7
+  - Z.ai GLM
+tags:
+  - product-family
+  - ai
+  - china
+  - open-source
+parent_actor: "[[Zhipu]]"
+parent_concept: "[[Frontier models]]"
 ---
-#product-family #ai #china
 
 **GLM** — [[Zhipu]]'s (Z.ai) AI model family. Open source. **GLM-4.7** matches Claude Sonnet 4.5 on coding at **$3/month** (or free locally). First major model trained on **Huawei hardware only**.
 

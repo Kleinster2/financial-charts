@@ -1,9 +1,31 @@
 ---
-aliases: [Claude AI, Claude 4.5, Opus, Sonnet, Haiku]
+aliases:
+  - Claude AI
+  - Claude 3
+  - Claude 3.5
+  - Claude 4
+  - Claude 4.5
+  - Claude Opus
+  - Claude Sonnet
+  - Claude Haiku
+  - Opus
+  - Sonnet
+  - Haiku
+tags:
+  - product-family
+  - ai
+parent_actor: "[[Anthropic]]"
+parent_concept: "[[Frontier models]]"
 ---
-#product-family #ai
 
-**Claude** — [[Anthropic]]'s AI assistant. Known for reasoning, coding, and safety. Competes with [[ChatGPT]].
+# Claude
+
+[[Anthropic]]'s AI assistant family. Known for reasoning, coding, and safety. Competes with [[ChatGPT]].
+
+**Structure:** One model family with generations (3, 3.5, 4, 4.5) and capability tiers:
+- **Opus** — Most capable, deep reasoning
+- **Sonnet** — Balanced performance/cost
+- **Haiku** — Fastest, cheapest
 
 ---
 
