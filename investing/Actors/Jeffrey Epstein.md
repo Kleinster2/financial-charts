@@ -182,6 +182,74 @@ Bought legitimacy and access through university giving:
 
 ---
 
+## Takeaways
+
+### 1. Capital buys access, access buys legitimacy
+
+Post-conviction playbook was systematic:
+- Invest in elite funds (Renaissance, Valar) → credibility as "serious investor"
+- Get intros to founders (Pierce → Coinbase, Barak → Thiel) → deal flow
+- Host at properties (townhouse, island, ranch) → social proximity
+- Donate to universities (Harvard, MIT) → intellectual legitimacy
+
+A registered sex offender maintained Wall Street and Silicon Valley relationships for 11 years.
+
+### 2. Due diligence theater
+
+Everyone who took his money had a story:
+- Valar: "well-known adviser to world leaders, universities"
+- Renaissance: Invited weeks after indictment
+- JPMorgan: Kept accounts 15 years despite red flags
+- Deutsche Bank: Opened 40+ accounts after JPMorgan exited
+- Harvard/MIT: Accepted donations post-conviction
+
+Institutions performed just enough diligence for plausible deniability, not enough to say no.
+
+### 3. The returns were real
+
+| Investment | Return |
+|------------|--------|
+| Coinbase | $3M → $15M+ (5x) |
+| Valar | $40M → $170M (4x) |
+| Highbridge | $10M + $15M fee |
+| D.B. Zwirn | $80M → $140M |
+
+He wasn't a fraud as an investor. Real returns made it easier to rationalize the relationship.
+
+### 4. Opacity as product
+
+- Wealth source never explained publicly
+- 30+ shell companies across USVI, BVI, Bermuda
+- "Wealth management" with only 2 confirmed clients
+- 90% tax exemption via offshore structure
+
+The mystery was the product. Billionaires paid for discretion, not disclosed expertise.
+
+### 5. Estate reveals priorities
+
+| Recipient | Amount |
+|-----------|--------|
+| Victims | ~$170M |
+| USVI/IRS | ~$185M (clawed back) |
+| Beneficiaries (girlfriends, advisers) | ~$145M remaining |
+
+Victims got less than the girlfriend. The $170M Valar stake goes to estate beneficiaries when it liquidates.
+
+### 6. Proximity ≠ guilt, but ≠ innocence
+
+The 2026 releases showed 20+ tech executives in correspondence. Important distinctions:
+- **Investment relationships** (Thiel, Coinbase): Financial, documented, defensible
+- **Social contact** (Musk's "wildest party" emails): Harder to explain
+- **Advisory claims** (Gates meetings): Disputed but damaging
+
+The documents created reputational exposure regardless of what actually happened.
+
+---
+
+**Bottom line:** Epstein exploited a system where money launders reputation. The same VCs, banks, and universities that trumpet ESG took his capital with minimal friction. The 2026 releases didn't reveal a conspiracy — they revealed how ordinary the access-for-capital exchange was.
+
+---
+
 ## Related
 
 ### Investments
