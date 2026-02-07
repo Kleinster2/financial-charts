@@ -1,99 +1,32 @@
 ---
-aliases: [DeepSeek AI, DeepSeek R1]
+aliases: [DeepSeek AI]
 ---
-#actor #china #ai #models #private
+#actor #china #ai #private
 
-**DeepSeek** — Hangzhou-based AI lab. DeepSeek R1 model notable for efficiency. Available on Azure, competitive with frontier models at lower cost.
-
-**The DeepSeek moment:** R1's January 2025 release surprised everyone — near state-of-the-art with allegedly much less compute. Kicked off a movement in China similar to how ChatGPT kicked off US AI boom. Secretive in communication but open in technical reports.
+**DeepSeek** — [[Hangzhou]]-based AI lab. Division of High-Flyer quant fund. Known for efficiency — [[DeepSeek-R|R1]] triggered [[DeepSeek day]], wiping $600B from [[NVIDIA]].
 
 ---
 
-## Why DeepSeek matters
-
-[[China]]'s most prominent open-ish AI lab, known for efficiency:
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | HQ | [[Hangzhou]] |
-| Key model | DeepSeek R1 |
-| Global chatbot share | **4%** (vs [[ChatGPT]] 68%, [[Gemini]] 18%) |
+| Structure | High-Flyer division (not standalone) |
+| Founder | Liang Wenfeng |
+| Global chatbot share | **4%** |
 | Approach | Efficiency-focused, open weights |
-| Availability | Azure, [[Hugging Face]], self-host |
-| Backed by | High-Flyer (quant fund) |
-| Next model | Expected within weeks (R2) |
 
 ---
 
-## Version history
+## Products
 
-| Version | Release | Key changes |
-|---------|---------|-------------|
-| DeepSeek LLM | Nov 2023 | Initial 7B/67B models |
-| DeepSeek-Coder | Jan 2024 | Code-specialized |
-| DeepSeek-VL | Mar 2024 | Vision-language |
-| DeepSeek-V2 | May 2024 | MoE architecture, efficiency focus |
-| DeepSeek-V2.5 | Sep 2024 | Unified chat + code |
-| **DeepSeek-V3** | Dec 2024 | 671B params, $6M training claim |
-| **DeepSeek-R1** | Jan 2025 | Reasoning model, triggered [[DeepSeek day]] |
-| R1 distilled | Jan 2025 | 1.5B-70B distilled versions |
-| **DeepSeek-R2** | Feb 2026 (expected) | Next reasoning model |
+| Family | Description |
+|--------|-------------|
+| [[DeepSeek-V]] | General-purpose models (V2, V3) |
+| [[DeepSeek-R]] | Reasoning models (R1, R2) |
 
----
-
-## DeepSeek V3 (Dec 2024)
-
-The early warning that most missed:
-
-| Spec | Details |
-|------|---------|
-| Parameters | 671B total, 37B active per query |
-| Architecture | Mixture of Experts (MoE) |
-| Training compute | 2048 H800s (~2M GPU hours) |
-| Claimed cost | ~$6M (final run only) |
-| Performance | Competitive with GPT-4 Turbo |
-
-**Who noticed:** Some VCs, quant funds, [[China]] watchers. Wall Street largely missed it.
-
----
-
-## The cost/chip debate
-
-**The $6M claim is misleading:**
-
-| What it includes | What it excludes |
-|------------------|------------------|
-| Final training run | Prior experiments, failed runs |
-| Compute only | Infrastructure, salaries, R&D |
-
-**Real investment:** Likely $100M+ over 2+ years. Still far below US labs.
-
-**The chip situation:**
-
-| Question | Answer |
-|----------|--------|
-| What chips? | H800s ([[China]]-legal), possibly some H100s |
-| How many? | 10,000-50,000 (estimates vary) |
-| Gray market? | Widely suspected, unconfirmed |
-| The point | Made fewer/weaker chips work through efficiency |
-
----
-
-## DeepSeek R1 (Jan 2025)
-
-| Spec | Details |
-|------|---------|
-| Type | Reasoning model (like [[OpenAI]] o1) |
-| Architecture | MoE with chain-of-thought |
-| Efficiency | Lower cost/token than GPT-4 |
-| Weights | Open (downloadable) |
-| Inference | Runs on consumer hardware |
-
-**Why it matters:** Proves [[China]] can build competitive models despite GPU restrictions. Efficiency offsets hardware disadvantage.
-
-**Why R1 hit harder than V3:** Reasoning models are the hardest task — proving efficiency works here meant it works everywhere.
-
-**Market impact:** R1 release triggered [[DeepSeek day]] (Jan 27, 2025) — NVIDIA lost $600B, largest single-day market cap loss in US history.
+See product notes for specs and versions.
 
 ---
 
@@ -296,15 +229,13 @@ DeepSeek represents [[China]]'s response to GPU constraints:
 
 ## Related
 
+- [[DeepSeek-R]] — reasoning model family
+- [[DeepSeek-V]] — general model family
 - [[DeepSeek day]] — event (Jan 27, 2025 market crash)
 - [[Hangzhou]] — HQ ([[China]]'s AI hub)
 - [[Microsoft]] — distribution (Azure)
-- [[Model landscape]] — context ([[China]] open models)
-- [[China AI clusters]] — context (compute infrastructure)
 - [[Export controls]] — constraint (GPU restrictions)
-- [[Inference economics]] — thesis (efficiency implications)
-- [[Open source commoditization]] — trend (open weights pressure)
 - [[Alibaba]] — peer ([[Qwen]] models)
 - [[ByteDance]] — peer ([[Doubao]])
-- [[NVIDIA]] — affected (largest single-day loss); technical assistance allegations
+- [[NVIDIA]] — affected; technical assistance allegations
 - [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
