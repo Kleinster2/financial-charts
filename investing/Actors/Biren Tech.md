@@ -21,21 +21,15 @@ Advanced China GPU maker, but sanctioned:
 
 ---
 
-## BR100 GPU
+## Products
 
-**Flagship AI chip:**
+| Product | Description |
+|---------|-------------|
+| [[BR100]] | Flagship GPU, 77B transistors, 64GB HBM |
+| BR104 | Scaled-down single-die variant |
+| Biren 106 | 2025 series, 1,000+ TFLOPS BF16 |
 
-| Spec | Value |
-|------|-------|
-| Transistors | 77 billion |
-| Die size | 1074mm² (dual-die) |
-| Process | TSMC 7nm |
-| Memory | 64GB HBM2E (4 stacks) |
-| FP32 | 256 TFLOPS |
-| INT8 | 2 PFLOPS |
-| Packaging | CoWoS |
-
-**BR104:** Scaled-down version, 128 FP32 TFLOPS.
+See [[BR100]] for detailed specs.
 
 ---
 
@@ -51,18 +45,6 @@ Advanced China GPU maker, but sanctioned:
 - Using older/domestic fabs
 - Technology constrained
 - But still shipping to China cloud providers
-
----
-
-## BiLiren architecture
-
-**2025 developments:**
-- Biren 106 series launched
-- 1,000+ TFLOPS BF16 (claimed)
-- Supports [[Alibaba]] Tongyi QWQ-32B inference
-- Full-stack [[DeepSeek]]-V3 training
-
-Optimizing within constraints.
 
 ---
 
@@ -146,6 +128,7 @@ Biren is the only one sanctioned — limits manufacturing options but still stro
 
 ## Related
 
+- [[BR100]] — flagship GPU product
 - [[Moore Threads]] — peer (Four Little Dragons)
 - [[MetaX]] — peer (Four Little Dragons)
 - [[Enflame]] — peer (Four Little Dragons)
