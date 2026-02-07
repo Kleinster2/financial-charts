@@ -279,6 +279,7 @@ This applies to daily notes, earnings additions, news items — everything. Enti
 - **No info outside note** — all research findings go in the note, not just conversation
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"
+- **Never replace, always add** — when adding new data, augment existing content, never overwrite it
 - **Never remove wikilinks** — create missing notes instead. See `[[Linking and hierarchy]]` for details.
 - **MUST run before creating ANY new note** — check for existing notes and aliases:
   ```bash
