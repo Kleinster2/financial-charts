@@ -49,6 +49,10 @@ git restore "path/to/file.md"             # restore if damaged
   ```bash
   python scripts/parse_sec_filing.py AMZN --save /tmp/amzn.txt
   # Task agent: "Read /tmp/amzn.txt, extract revenue, margins, risks"
+
+  # Multiple filings for trend analysis
+  python scripts/parse_sec_filing.py AMZN --type 10-Q --count 4 --save /tmp/amzn
+  # Creates: /tmp/amzn-10-Q-2025-11-01.txt, etc.
   ```
 
 **App:**
@@ -190,6 +194,28 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 - Verify output by reading generated images
 - **Charts must live in notes** — never save to attachments without embedding in a relevant note
 
+### Chart Naming Convention (CRITICAL)
+
+The obsidian-chart-refresh plugin auto-refreshes charts when notes are opened. It parses tickers from filenames:
+
+| Pattern | Example | Parsed as |
+|---------|---------|-----------|
+| `ticker-vs-ticker-price-chart.png` | `open-vs-opad-vs-comp-price-chart.png` | OPEN, OPAD, COMP (normalized) |
+| `ticker-price-chart.png` | `aapl-price-chart.png` | AAPL only (single ticker) |
+| `*-fundamentals.png` | `nvda-fundamentals.png` | Skipped (no auto-refresh) |
+
+**For comparison charts, always use `-vs-` format.** The first ticker becomes blue (primary).
+
+```bash
+# Wrong — plugin will strip comparisons on refresh
+curl "...?tickers=OPEN,OPAD,COMP" -o open-price-chart.png
+
+# Correct — plugin preserves all tickers
+curl "...?tickers=OPEN,OPAD,COMP" -o open-vs-opad-vs-comp-price-chart.png
+```
+
+For charts that can't follow this pattern, add to `investing/chart-registry.md`.
+
 ---
 
 ## Pending Design Decisions
@@ -198,7 +224,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 Database/API/dashboard complete. Chart overlay pending — see `docs/PROPOSALS.md`.
 
 ### Obsidian chart refresh plugin
-Planned. See `docs/obsidian-chart-refresh-plugin.md`.
+Implemented. See naming convention above and `docs/obsidian-chart-refresh-plugin.md`.
 
 ---
 
