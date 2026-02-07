@@ -39,7 +39,10 @@ git restore "path/to/file.md"             # restore if damaged
 **Tools:**
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
-- SEC parser: `python scripts/parse_sec_filing.py TICKER`
+- SEC parser: `python scripts/parse_sec_filing.py TICKER` — **preferred over browser scrolling**
+  - Downloads 10-K/10-Q from EDGAR, extracts key terms (going concern, material weakness, litigation, etc.)
+  - SEC requires User-Agent with email; script handles gzip decompression
+  - Faster and more comprehensive than browser navigation through EDGAR
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
