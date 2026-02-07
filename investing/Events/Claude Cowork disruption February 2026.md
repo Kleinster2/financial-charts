@@ -1,7 +1,8 @@
 ---
 date: 2026-02-03
+aliases: [SaaSpocalypse, SaaS Apocalypse, February 2026 SaaSpocalypse, Cowork selloff]
+tags: [event, ai, disruption, software]
 ---
-#event #ai #disruption #software
 
 # Claude Cowork disruption February 2026
 
@@ -11,13 +12,13 @@ date: 2026-02-03
 
 ## Timeline
 
-| Date | Event |
-|------|-------|
+| Date       | Event                                               |
+| ---------- | --------------------------------------------------- |
 | **Jan 12** | Cowork launches (research preview, Max subscribers) |
-| Jan 16 | Cowork expands to Pro subscribers |
-| Jan 23 | Cowork expands to Team/Enterprise |
+| Jan 16     | Cowork expands to Pro subscribers                   |
+| Jan 23     | Cowork expands to Team/Enterprise                   |
 | **Jan 30** | **Cowork Plugins launch** — 11 job-specific plugins |
-| Feb 3-4 | Market selloff ("SaaSpocalypse") |
+| Feb 3-4    | Market selloff ("SaaSpocalypse")                    |
 
 **Cowork** (Jan 12) was "Claude Code for the rest of your work" — an agentic file manager that could read files, organize folders, and execute multi-step tasks. Markets shrugged.
 

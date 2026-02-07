@@ -1,46 +1,62 @@
-#concept #index #ai #disruption #correlation
+---
+aliases: [AIWD, SaaSpocalypse basket, SaaS Apocalypse basket]
+tags: [concept, index, custom, ai, disruption]
+---
 
 # AI workflow disruption basket
 
 Stocks that correlate on AI capability announcements threatening white-collar workflows. Emerged as a distinct factor during the [[Claude Cowork disruption February 2026|February 2026 SaaSpocalypse]].
 
+Wall Street now calls this phenomenon the **"SaaSpocalypse"** — the thesis that AI agents fundamentally break seat-based SaaS pricing. If one agent does the work of ten humans, why pay for ten seats? ~$285B in market cap erased Feb 3-4, 2026. We had the basket before it had a name.
+
 ---
 
 ## Constituents
 
-### Legal & Data Analytics (60%)
+*Rebalanced Feb 7, 2026: Move-weighted methodology. Weights derived from Feb 3-4 "SaaSpocalypse" selloff — bigger drop = higher weight. Market-revealed disruption exposure.*
 
-| Ticker | Company | Weight | Notes |
-|--------|---------|--------|-------|
-| TRI | [[Thomson Reuters]] | 15% | Westlaw, legal research |
-| RELX | [[RELX]] | 15% | LexisNexis |
-| WKL.AS | [[Wolters Kluwer]] | 10% | Legal, tax, compliance |
-| LZ | [[LegalZoom]] | 5% | Consumer legal |
-| FDS | [[FactSet]] | 10% | Financial data |
-| MORN | [[Morningstar]] | 5% | Investment research |
+### SaaS Platforms — hardest hit (43%)
 
-### Indian IT Services (25%)
+| Ticker | Company | Weight | Feb Move |
+|--------|---------|--------|----------|
+| INTU | [[Intuit]] | 16% | -34% |
+| NOW | [[ServiceNow]] | 14% | -28% |
+| CRM | [[Salesforce]] | 13% | -26% |
 
-| Ticker | Company | Weight | Notes |
-|--------|---------|--------|-------|
-| INFY | [[Infosys]] | 10% | ADR (offshore services) |
-| TCS.NS | [[TCS]] | 10% | Largest IT services |
-| HCLTECH.NS | [[HCL Tech]] | 5% | |
+### Legal & Data Analytics (51%)
 
-### Advertising & Agencies (15%)
+| Ticker | Company | Weight | Feb Move |
+|--------|---------|--------|----------|
+| LZ | [[LegalZoom]] | 10% | -20% |
+| TRI | [[Thomson Reuters]] | 9% | -18% |
+| RELX | [[RELX]] | 6% | -14% |
+| WKL.AS | [[Wolters Kluwer]] | 6% | -13% |
+| LSEG.L | [[LSEG]] | 6% | -13% |
+| TEAM | [[Atlassian]] | 5% | -12% |
+| FDS | [[FactSet]] | 5% | -10.5% |
+| MORN | [[Morningstar]] | 4% | -9% |
 
-| Ticker | Company | Weight | Notes |
-|--------|---------|--------|-------|
-| OMC | [[Omnicom]] | 7.5% | Ad holding company |
-| PUB.PA | [[Publicis]] | 7.5% | Ad holding company |
+### Advertising (6%)
 
-**Total: 100%** — tilted toward legal/data (most directly exposed)
+| Ticker | Company | Weight | Feb Move |
+|--------|---------|--------|----------|
+| OMC | [[Omnicom]] | 6% | -11% |
+
+**Total: 100%** — 12 constituents, move-weighted
+
+### Removed: Indian IT Services
+
+| Ticker | Company | Feb Move | Why removed |
+|--------|---------|----------|-------------|
+| INFY | [[Infosys]] | -7.4% | Different thesis |
+| TCS.NS | [[TCS]] | -7% | Different thesis |
+
+**Rationale:** Indian IT is exposed to AI margin compression (billable hours → AI workflows), not product replacement (seats → agents). The -7% move vs -34% for SaaS shows the market sees them as less directly exposed. They may recover faster if Cowork fears fade. See [[Indian IT services]] for the separate thesis.
 
 ### Database tickers
 
-All 11 constituents now in `market_data.db`:
 ```
-TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
+INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 ```
 
 ---
@@ -48,45 +64,45 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 ## Index methodology
 
 - **Ticker:** AIWD
-- **Weighting:** Modified equal weight (larger weight to most directly exposed)
-- **Rebalance:** Quarterly
+- **Weighting:** Move-weighted (Feb 3-4 selloff magnitude = weight)
+- **Rebalance:** Event-driven (re-weight on next major AI disruption catalyst)
 - **Base date:** Feb 3, 2026 = 100
 - **Calculation:** Price return, USD-adjusted for non-US tickers
 - **Script:** `scripts/create_aiwd_index.py --store`
 
+**Rationale:** Let the market tell us disruption exposure. Intuit fell 34% vs TCS 7% — the market is pricing Intuit as 5x more exposed to AI workflow disruption. We follow the signal.
+
 ![[aiwd-index.png]]
-*AIWD basket from Jan 2025. Sharp drop at right edge = Claude Cowork plugins selloff (Feb 3-4, 2026).*
+*AIWD basket since Jan 2025. Sharp drop at right edge = SaaSpocalypse (Feb 3-4, 2026).*
 
 ### Components breakdown
 
 ![[aiwd-components.png]]
-*AIWD (blue) vs key components since Oct 2025. Thomson Reuters (red) hardest hit at -28%. Note Feb convergence — the correlation event.*
+*12 constituents, move-weighted. Range: LZ +20% to INTU -60%. SaaS platforms (INTU, NOW, CRM) drive 43% of the basket.*
 
 ### vs S&P 500
 
 ![[aiwd-vs-spy.png]]
-*AIWD -18% vs SPY +20% since Jan 2025. ~38 percentage points of underperformance. AI disruption thesis playing out.*
+*AIWD -27% vs SPY +17% since Jan 2025. ~44 percentage points of underperformance. AI disruption thesis validated.*
 
 ### vs IGV (Software ETF)
 
 ![[aiwd-vs-igv.png]]
-*AIWD (blue) -18% vs IGV (red) -10% since Jan 2025. AIWD underperforming by 8pp.*
+*AIWD (blue) vs IGV (red) since Jan 2025. Both software, radically different AI exposure.*
 
-**Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — legal, data analytics, Indian IT. Same sector, different AI exposures.
+**Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — SaaS seats, legal research, IT services.
 
-### SaaS vs Services breakdown
+### SaaS vs Advertising breakdown
 
 ![[aiwd-saas-vs-services.png]]
-*TRI, FDS (SaaS) vs INFY, OMC (services) since Oct 2025. Different dynamics, same Feb convergence.*
+*Top 3 SaaS (INTU, NOW, CRM) vs advertising (OMC) since Oct 2025.*
 
 | Type | Weight | Pre-Feb trend | Feb move | Now |
 |------|--------|---------------|----------|-----|
-| **SaaS** (TRI, FDS) | 60% | Already weak | Crushed | -20% to -27% |
-| **Services** (INFY, OMC) | 40% | Flat to +20% | Crushed | -5% to -12% |
+| **SaaS** (INTU, NOW, CRM) | 43% | Mixed | Crushed | -30% to -55% |
+| **Advertising** (OMC) | 6% | Flat | Hit | -10% to -15% |
 
-**Key insight:** SaaS (legal/data) was under pressure all year — market already worried about AI disruption. Services (Indian IT, ad agencies) were fine until Cowork plugins launched — then got hit hard. INFY moved from +20% to -5% in weeks.
-
-**Implication:** Services names may have more recovery potential if Cowork fears fade. SaaS names have structural concerns beyond the catalyst.
+**Key insight:** SaaS with seat-based pricing got destroyed. Advertising less exposed — client relationships, creative judgment, media buying still need humans. But both are "product replacement" plays, unlike Indian IT services which is margin compression.
 
 ---
 
@@ -114,21 +130,22 @@ TRI, RELX, WKL.AS, LZ, FDS, MORN, INFY, TCS.NS, HCLTECH.NS, OMC, PUB.PA
 
 ## Feb 3-4, 2026 performance
 
-| Constituent | Move |
-|-------------|------|
-| LegalZoom | -20% |
-| Thomson Reuters | -18% |
-| RELX | -14% |
-| Wolters Kluwer | -13% |
-| Omnicom | -11% |
-| FactSet | -10.5% |
-| Publicis | -9% |
-| Morningstar | -9% |
-| Infosys | -7.4% |
-| TCS | -7% |
-| HCL Tech | -4.6% |
+| Constituent | Move | Weight |
+|-------------|------|--------|
+| Intuit | -34% | 16% |
+| ServiceNow | -28% | 14% |
+| Salesforce | -26% | 13% |
+| LegalZoom | -20% | 10% |
+| Thomson Reuters | -18% | 9% |
+| RELX | -14% | 6% |
+| Wolters Kluwer | -13% | 6% |
+| LSEG | -13% | 6% |
+| Atlassian | -12% | 5% |
+| Omnicom | -11% | 6% |
+| FactSet | -10.5% | 5% |
+| Morningstar | -9% | 4% |
 
-**Basket (weighted):** ~-11.5%
+**Basket (move-weighted):** -19.8%
 
 ---
 
@@ -185,7 +202,7 @@ No Wall Street firm has built an equivalent curated disruption basket. Closest a
 | [[JPMorgan JPAMAIDE]] | JPMorgan | AI infrastructure bull | Opposite side — AI beneficiaries, no bear basket |
 | [[GS AI Productivity Beneficiaries]] | Goldman Sachs | AI adoption bull | Inverse of AIWD — same force, opposite trade |
 
-**AIWD differentiation:** Cross-sector (legal + IT services + advertising), globally scoped, weighted by directness of AI revenue displacement. Only disruption-specific basket with a trackable ticker in our database.
+**AIWD differentiation:** Pure SaaS/data disruption exposure (legal, analytics, SaaS platforms, advertising). Move-weighted from Feb 3-4 selloff. Only disruption-specific basket with a trackable ticker in our database.
 
 ---
 
@@ -194,7 +211,7 @@ No Wall Street firm has built an equivalent curated disruption basket. Closest a
 - [[Claude Cowork disruption February 2026]] — catalyst event
 - [[Software bear market]] — broader thesis
 - [[AI disruption]] — macro theme
-- [[Indian IT services]] — sub-theme
+- [[Indian IT services]] — removed from basket (margin compression thesis, not product replacement)
 - [[GS AI Productivity Beneficiaries]] — inverse basket (companies that benefit from same disruption)
 - [[UBS European AI Disruption Basket]] — closest Wall Street analog
 - [[GS US Software Basket]] — GS sector basket
@@ -202,4 +219,4 @@ No Wall Street firm has built an equivalent curated disruption basket. Closest a
 - [[BVP Nasdaq Cloud Index]] — SaaS benchmark
 - [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket
 
-*Created 2026-02-04 · Updated 2026-02-05 (TRI earnings)*
+*Created 2026-02-04 · Updated 2026-02-07 (move-weighted rebalance, 14 constituents)*

@@ -5,10 +5,10 @@ create_aiwd_index.py
 Create AI Workflow Disruption (AIWD) basket index.
 Tracks stocks exposed to AI disruption of white-collar workflows.
 
-Constituents (Feb 2026):
-- Legal/Data: TRI, RELX, WKL.AS, LZ, FDS, MORN
-- Indian IT: INFY, TCS.NS, HCLTECH.NS
-- Advertising: OMC, PUB.PA
+Methodology (Feb 2026 rebalance):
+- Weights derived from Feb 3-4 2026 "SaaSpocalypse" selloff moves
+- Bigger drop = higher weight (market-revealed disruption exposure)
+- 14 constituents across SaaS, legal/data, IT services, advertising
 
 Usage:
     python scripts/create_aiwd_index.py [--store]
@@ -25,24 +25,27 @@ from datetime import datetime
 
 DB_PATH = Path(__file__).parent.parent / 'market_data.db'
 
-# Index constituents and weights
+# Index constituents and weights (Feb 2026 rebalance)
+# Move-weighted: Feb 3-4 selloff magnitude determines weight
+# Removed Indian IT (INFY, TCS) — different disruption thesis (margin compression, not product replacement)
 AIWD_WEIGHTS = {
-    # Legal & Data Analytics (60%)
-    'TRI': 0.15,       # Thomson Reuters
-    'RELX': 0.15,      # RELX (LexisNexis)
-    'WKL.AS': 0.10,    # Wolters Kluwer
-    'LZ': 0.05,        # LegalZoom
-    'FDS': 0.10,       # FactSet
-    'MORN': 0.05,      # Morningstar
+    # SaaS platforms — hardest hit (43%)
+    'INTU': 0.16,      # Intuit (-34%)
+    'NOW': 0.14,       # ServiceNow (-28%)
+    'CRM': 0.13,       # Salesforce (-26%)
 
-    # Indian IT Services (25%)
-    'INFY': 0.10,      # Infosys
-    'TCS.NS': 0.10,    # TCS
-    'HCLTECH.NS': 0.05, # HCL Tech
+    # Legal & Data Analytics (51%)
+    'LZ': 0.10,        # LegalZoom (-20%)
+    'TRI': 0.09,       # Thomson Reuters (-18%)
+    'RELX': 0.06,      # RELX/LexisNexis (-14%)
+    'WKL.AS': 0.06,    # Wolters Kluwer (-13%)
+    'LSEG.L': 0.06,    # London Stock Exchange (-13%)
+    'TEAM': 0.05,      # Atlassian (-12%)
+    'FDS': 0.05,       # FactSet (-10.5%)
+    'MORN': 0.04,      # Morningstar (-9%)
 
-    # Advertising (15%)
-    'OMC': 0.075,      # Omnicom
-    'PUB.PA': 0.075,   # Publicis
+    # Advertising (6%)
+    'OMC': 0.06,       # Omnicom (-11%)
 }
 
 # Base date for index = 100
