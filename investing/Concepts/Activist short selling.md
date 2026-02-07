@@ -31,6 +31,7 @@ The model's power comes from information asymmetry — short sellers often spend
 | **Wolfpack Research** | Dan David | 2019 | Active | B. Riley (backed by Muddy Waters) |
 | **Iceberg Research** | Arnaud Vagner | 2014 | Active | Noble Group, EOS Energy |
 | **[[Gotham City Research]]** | Daniel Yu | 2012 | Active | Gowex (fraud exposed 2014), [[Carvana]] (Jan 2026) |
+| **[[Bleecker Street Research]]** | — | — | Active | [[LuxUrban Hotels]] (fake lease exposed 2024) |
 
 ---
 
