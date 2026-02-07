@@ -43,7 +43,6 @@ git restore "path/to/file.md"             # restore if damaged
   - WebFetch gets 403'd by SEC — use this script instead (has required User-Agent header)
   - Auto-detects most recent 10-K or 10-Q (use `--type` to force specific)
   - Preserves tables as markdown (financial data structure intact)
-  - 10-K = annual (includes Q4), 10-Q = Q1/Q2/Q3 only
   - Avoid 8-K for earnings — just a wrapper; numbers are in exhibits
   - Workflow: download → Task agent extracts what's relevant
   ```bash
@@ -54,6 +53,13 @@ git restore "path/to/file.md"             # restore if damaged
   python scripts/parse_sec_filing.py AMZN --type 10-Q --count 4 --save /tmp/amzn
   # Creates: /tmp/amzn-10-Q-2025-11-01.txt, etc.
   ```
+  - **Complete quarterly data requires both 10-Qs and 10-Ks:**
+    | Quarter | Source |
+    |---------|--------|
+    | Q1, Q2, Q3 | 10-Q filings |
+    | Q4 | 10-K annual minus (Q1+Q2+Q3) |
+
+    10-Ks report full year only — Q4 must be calculated.
   - **Always extract granular segment data** — not just top-level revenue/margins
     - Break out each business segment (revenue, operating income, margin)
     - Geographic breakdown if material

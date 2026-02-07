@@ -244,7 +244,31 @@ INSERT INTO segment_quarterly VALUES
 
 ### Workflow
 
-1. **Extract from 10-Q** using SEC filing script + Task agent
-2. **Insert to database** using SQL inserts
-3. **Generate charts** using segment endpoint
-4. **Embed in notes** with interpretation captions
+**Complete quarterly data requires both 10-Qs and 10-Ks:**
+
+| Quarter | Source |
+|---------|--------|
+| Q1, Q2, Q3 | 10-Q filings (direct extraction) |
+| Q4 | 10-K annual minus (Q1+Q2+Q3) — must be calculated |
+
+**Steps:**
+
+1. **Download 10-Qs** for Q1/Q2/Q3 data:
+   ```bash
+   python scripts/parse_sec_filing.py GOOGL --type 10-Q --count 12 --save /tmp/googl-10q
+   ```
+
+2. **Download 10-Ks** for annual totals (to calculate Q4):
+   ```bash
+   python scripts/parse_sec_filing.py GOOGL --type 10-K --count 3 --save /tmp/googl-10k
+   ```
+
+3. **Extract with Task agent** — have agent read filings and extract segment data
+
+4. **Calculate Q4** as: `FY annual - (Q1 + Q2 + Q3)`
+
+5. **Insert to database** using SQL inserts
+
+6. **Generate charts** using segment endpoint
+
+7. **Embed in notes** with interpretation captions
