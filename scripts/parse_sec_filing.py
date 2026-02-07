@@ -16,6 +16,10 @@ Usage:
     python scripts/parse_sec_filing.py AAPL --type 10-K
     python scripts/parse_sec_filing.py AAPL --type 10-Q
 
+    # Download multiple filings for comparison
+    python scripts/parse_sec_filing.py AAPL --type 10-Q --count 4 --save /tmp/aapl
+    # Creates: /tmp/aapl-10-Q-2025-11-01.txt, /tmp/aapl-10-Q-2025-08-02.txt, ...
+
     # By CIK or direct URL
     python scripts/parse_sec_filing.py --cik 1819395
     python scripts/parse_sec_filing.py --url <edgar_url>
@@ -75,8 +79,8 @@ def get_cik_from_ticker(ticker: str) -> str:
     raise ValueError(f"Could not find CIK for ticker: {ticker}")
 
 
-def get_latest_filing_url(cik: str, filing_type: str | None = None) -> tuple[str, str]:
-    """Get URL of latest filing. If no type specified, gets most recent 10-K or 10-Q."""
+def get_filing_urls(cik: str, filing_type: str | None = None, count: int = 1) -> list[tuple[str, str, str]]:
+    """Get URLs of filings. Returns list of (url, form_type, date) tuples."""
     cik_padded = cik.zfill(10)
     url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
     data = fetch_url(url).decode('utf-8')
@@ -86,18 +90,26 @@ def get_latest_filing_url(cik: str, filing_type: str | None = None) -> tuple[str
     forms = filings.get('form', [])
     accessions = filings.get('accessionNumber', [])
     primary_docs = filings.get('primaryDocument', [])
+    dates = filings.get('filingDate', [])
 
     # If no type specified, find most recent 10-K or 10-Q
     target_types = [filing_type] if filing_type else ["10-K", "10-Q"]
 
+    results = []
     for i, form in enumerate(forms):
         if form in target_types:
             accession = accessions[i].replace('-', '')
             doc = primary_docs[i]
             filing_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession}/{doc}"
-            return filing_url, form
+            filing_date = dates[i] if i < len(dates) else "unknown"
+            results.append((filing_url, form, filing_date))
+            if len(results) >= count:
+                break
 
-    raise ValueError(f"No {filing_type or '10-K/10-Q'} found for CIK {cik}")
+    if not results:
+        raise ValueError(f"No {filing_type or '10-K/10-Q'} found for CIK {cik}")
+
+    return results
 
 
 def html_table_to_markdown(table_html: str) -> str:
@@ -178,7 +190,8 @@ def main():
     parser.add_argument("--cik", help="CIK number")
     parser.add_argument("--url", help="Direct filing URL")
     parser.add_argument("--type", help="Filing type (default: most recent 10-K or 10-Q)")
-    parser.add_argument("--save", help="Save output to file")
+    parser.add_argument("--count", type=int, default=1, help="Number of filings to download (default: 1)")
+    parser.add_argument("--save", help="Save output to file (prefix for multiple filings)")
     parser.add_argument("--raw", action="store_true", help="Keep raw HTML instead of stripping")
     parser.add_argument("--quiet", action="store_true", help="Suppress status messages")
 
@@ -192,35 +205,43 @@ def main():
         if not args.quiet:
             print(msg, file=sys.stderr)
 
-    # Get filing URL
+    # Get filing URL(s)
     if args.url:
-        filing_url = args.url
-        filing_type = args.type
+        filings = [(args.url, args.type or "filing", "unknown")]
     else:
         cik = args.cik or get_cik_from_ticker(args.ticker)
         log(f"CIK: {cik}")
-        filing_url, filing_type = get_latest_filing_url(cik, args.type)
+        filings = get_filing_urls(cik, args.type, args.count)
 
-    log(f"Fetching: {filing_url}")
+    # Process each filing
+    for idx, (filing_url, filing_type, filing_date) in enumerate(filings):
+        log(f"Fetching: {filing_url}")
 
-    # Download filing
-    html_content = fetch_url(filing_url)
-    log(f"Downloaded: {len(html_content):,} bytes")
+        # Download filing
+        html_content = fetch_url(filing_url)
+        log(f"Downloaded: {len(html_content):,} bytes")
 
-    # Process
-    if args.raw:
-        output = html_content.decode('utf-8', errors='replace')
-    else:
-        html = html_content.decode('utf-8', errors='replace')
-        output = strip_html(html)
-        log(f"Text length: {len(output):,} chars")
+        # Process
+        if args.raw:
+            output = html_content.decode('utf-8', errors='replace')
+        else:
+            html = html_content.decode('utf-8', errors='replace')
+            output = strip_html(html)
+            log(f"Text length: {len(output):,} chars")
 
-    # Output
-    if args.save:
-        Path(args.save).write_text(output, encoding='utf-8')
-        log(f"Saved to: {args.save}")
-    else:
-        print(output)
+        # Output
+        if args.save:
+            if args.count > 1:
+                # Multiple filings: use prefix-type-date.txt format
+                save_path = f"{args.save}-{filing_type}-{filing_date}.txt"
+            else:
+                save_path = args.save
+            Path(save_path).write_text(output, encoding='utf-8')
+            log(f"Saved to: {save_path}")
+        else:
+            if args.count > 1:
+                print(f"\n{'='*60}\n{filing_type} - {filing_date}\n{'='*60}\n")
+            print(output)
 
 
 if __name__ == "__main__":
