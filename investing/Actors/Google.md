@@ -103,39 +103,43 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
-### Quarterly trends (10-Q comparison)
+### Quarterly trends (10-Q comparison, Q2 2023 – Q3 2025)
 
 **Summary:**
 
-| Quarter | Revenue | YoY | Cloud | Cloud YoY | Op Margin | CapEx (YTD) |
-|---------|---------|-----|-------|-----------|-----------|-------------|
-| Q3 2024 | $88.3B | +15% | $11.4B | +35% | 32% | $38.3B |
-| Q1 2025 | $90.2B | +12% | $12.3B | +28% | 34% | $17.2B |
-| Q2 2025 | $96.4B | +14% | $13.6B | +32% | 32% | $39.6B |
-| Q3 2025 | $102.4B | +16% | $15.2B | +33% | 31% | $63.6B |
+| Quarter | Revenue | YoY | Cloud | Cloud Margin | Op Margin | CapEx (YTD) |
+|---------|---------|-----|-------|--------------|-----------|-------------|
+| Q2 2023 | $74.6B | — | $8.0B | 4.9% | 29% | $13.2B |
+| Q3 2023 | $76.7B | — | $8.4B | 3.2% | 28% | $21.2B |
+| Q1 2024 | $80.5B | — | $9.6B | 9.4% | 32% | $12.0B |
+| Q2 2024 | $84.7B | +14% | $10.3B | 11.3% | 32% | $25.2B |
+| Q3 2024 | $88.3B | +15% | $11.4B | 17.2% | 32% | $38.3B |
+| Q1 2025 | $90.2B | +12% | $12.3B | 17.8% | 34% | $17.2B |
+| Q2 2025 | $96.4B | +14% | $13.6B | 20.7% | 32% | $39.6B |
+| Q3 2025 | $102.4B | +16% | $15.2B | 23.7% | 31% | $63.6B |
 
-*CapEx up 66% YoY through 9 months — aggressive AI buildout.*
+*Cloud margin: 3.2% → 23.7% over 8 quarters. CapEx up 66% YoY in 2025.*
 
 **Google Services revenue by product ($B):**
 
-| Product | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 | YoY |
-|---------|---------|---------|---------|---------|-----|
-| Google Search | 49.4 | 50.7 | 54.2 | 56.6 | +15% |
-| YouTube ads | 8.9 | 8.9 | 9.8 | 10.3 | +15% |
-| Google Network | 7.5 | 7.3 | 7.4 | 7.4 | -3% |
-| Subscriptions/devices | 10.7 | 10.4 | 11.2 | 12.9 | +21% |
-| **Services total** | 76.5 | 77.3 | 82.5 | 87.1 | +14% |
+| Product | Q2 2023 | Q3 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 |
+|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+| Google Search | 42.6 | 44.0 | 46.2 | 48.5 | 49.4 | 50.7 | 54.2 | 56.6 |
+| YouTube ads | 7.7 | 8.0 | 8.1 | 8.7 | 8.9 | 8.9 | 9.8 | 10.3 |
+| Google Network | 7.9 | 7.7 | 7.4 | 7.4 | 7.5 | 7.3 | 7.4 | 7.4 |
+| Subs/devices | 8.1 | 8.3 | 8.7 | 9.3 | 10.7 | 10.4 | 11.2 | 12.9 |
+| **Services total** | 66.3 | 68.0 | 70.4 | 73.9 | 76.5 | 77.3 | 82.5 | 87.1 |
 
 **Segment operating income ($B):**
 
-| Segment | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 | YoY |
-|---------|---------|---------|---------|---------|-----|
-| Google Services | 30.9 | 32.7 | 33.1 | 33.5 | +9% |
-| Google Cloud | 1.9 | 2.2 | 2.8 | 3.6 | +85% |
-| Other Bets | (1.1) | (1.2) | (1.2) | (1.4) | — |
-| **Total** | 28.5 | 30.6 | 31.3 | 31.2 | +10% |
+| Segment | Q2 2023 | Q3 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 |
+|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+| Google Services | 23.5 | 23.9 | 27.9 | 29.7 | 30.9 | 32.7 | 33.1 | 33.5 |
+| Google Cloud | 0.4 | 0.3 | 0.9 | 1.2 | 1.9 | 2.2 | 2.8 | 3.6 |
+| Other Bets | (0.8) | (1.2) | (1.0) | (1.1) | (1.1) | (1.2) | (1.2) | (1.4) |
+| **Total** | 21.8 | 21.3 | 25.5 | 27.4 | 28.5 | 30.6 | 31.3 | 31.2 |
 
-**Cloud margin expansion:** 17.2% → 23.7% (+6.5pp YoY)
+**Cloud operating income trajectory:** $0.3B (Q3 2023) → $3.6B (Q3 2025) — 12x in 8 quarters.
 
 **Geographic mix ($B, Q3 2025):**
 
@@ -148,14 +152,15 @@ Google is the most vertically integrated AI hyperscaler:
 
 *Source: 10-Q filings.*
 
-**Key trends:**
-- Search still 55% of revenue, growing 15% YoY
-- YouTube ads accelerated ($8.9B → $10.3B over 4 quarters)
-- Google Network declining (-3% YoY) — third-party ad network under pressure
-- Subscriptions/devices growing fastest (+21%) — YouTube Premium, Pixel
-- Cloud margin expanded 6.5pp while revenue grew 34%
-- APAC growing fastest (+23%), gaining share
-- Services margin compressed 40.3% → 38.5% from AI investment
+**Key trends (8 quarters):**
+- Search grew $42.6B → $56.6B (+33%), still 55% of revenue
+- YouTube ads: $7.7B → $10.3B (+34%)
+- Google Network: $7.9B → $7.4B (-6%) — structural decline, third-party ad network under pressure
+- Subscriptions/devices: $8.1B → $12.9B (+59%) — fastest growing segment (YouTube Premium, Pixel)
+- Cloud margin: 3.2% → 23.7% (+20.5pp) — profitability inflection
+- Cloud operating income: $0.3B → $3.6B — 12x growth
+- Total operating margin: 28% → 31%, peaked at 34% in Q1 2025 before AI spend ramped
+- APAC growing fastest (+23% YoY), gaining share vs US
 
 ---
 
