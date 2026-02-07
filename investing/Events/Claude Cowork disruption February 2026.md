@@ -18,6 +18,7 @@ tags: [event, ai, disruption, software]
 | Jan 16     | Cowork expands to Pro subscribers                   |
 | Jan 23     | Cowork expands to Team/Enterprise                   |
 | **Jan 30** | **Cowork Plugins launch** — 11 job-specific plugins |
+| **Feb 2** | [[Palantir]] Q4 earnings call — SAP ERP migration statement |
 | Feb 3-4    | Market selloff ("SaaSpocalypse")                    |
 
 **Cowork** (Jan 12) was "Claude Code for the rest of your work" — an agentic file manager that could read files, organize folders, and execute multi-step tasks. Markets shrugged.
@@ -79,6 +80,22 @@ tags: [event, ai, disruption, software]
 
 ---
 
+## Secondary catalyst: Palantir earnings (Feb 2)
+
+The night before the main selloff, [[Palantir]] held their Q4 2025 earnings call. CTO Shyam Sankar made a statement that rippled through enterprise software:
+
+> "AIFD is now capable of powering complex SAP ERP migrations from ECC to S/4. Years of work now done in as little as two weeks."
+
+**Why it mattered:**
+- SAP migrations are multi-year, multi-million dollar projects — the bread and butter of enterprise IT consulting
+- Palantir isn't an AI startup making promises — they're a $100B+ company with government and enterprise customers
+- The statement made the Cowork plugins feel less theoretical and more immediate
+- [[SAP]] lost €40B market cap; analysts called the €10B buyback response a "band-aid on a bullet wound"
+
+The Palantir statement came 4 days after the plugins launch but hours before the main selloff — it may have been the catalyst that turned concern into panic.
+
+---
+
 ## Bull case (recovery thesis)
 
 - **Enterprise sales cycles are long** — adoption will take years
@@ -100,12 +117,15 @@ tags: [event, ai, disruption, software]
 ## Related
 
 - [[Anthropic]] — launched Claude Cowork
+- [[Palantir]] — secondary catalyst (SAP ERP statement)
+- [[SAP]] — €40B market cap loss
 - [[Thomson Reuters]] — hardest hit major cap
 - [[RELX]] — worst day since 1988
 - [[LegalZoom]] — most exposed percentage-wise
 - [[FactSet]] — financial data disruption
 - [[Morningstar]] — investment research disruption
 - [[Indian IT services]] — margin compression thesis
+- [[AI workflow disruption basket]] — tracks the victims
 - [[AI disruption]] — broader context
 
-*Event date: February 3-4, 2026*
+*Event date: February 3-4, 2026 · Updated 2026-02-07*
