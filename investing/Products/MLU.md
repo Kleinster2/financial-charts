@@ -1,10 +1,10 @@
 ---
 aliases:
-  - Cambricon
   - MLU
   - MLU370
   - MLU590
   - Siyuan
+  - Machine Learning Unit
 tags:
   - product
   - semiconductor
@@ -14,9 +14,9 @@ parent_actor: "[[Cambricon Technologies]]"
 parent_concept: "[[AI accelerators]]"
 ---
 
-# Cambricon
+# MLU
 
-[[Cambricon Technologies]]' AI accelerator family. Chinese fabless chip designer. MLU (Machine Learning Unit) series. Second-largest domestic AI chip in [[China]] after [[Ascend]].
+[[Cambricon Technologies]]' AI accelerator family. Machine Learning Unit. Second-largest domestic AI chip in [[China]] after [[Ascend]].
 
 ## Quick stats (MLU590)
 
@@ -60,21 +60,6 @@ Competitive with Ascend on specs. Key advantage: TSMC access (for now).
 
 ---
 
-## Origins
-
-| Aspect | Details |
-|--------|---------|
-| Founded | 2016 |
-| Origin | Chinese Academy of Sciences spin-off |
-| Founders | Chen Tianshi, Chen Yunji (brothers) |
-| IPO | 2020 (Shanghai STAR Market) |
-| Ticker | 688256.SS |
-| Early customer | Huawei (Kirin NPU IP) |
-
-Cambricon designed the NPU in Huawei's early Kirin smartphone chips before Huawei went in-house.
-
----
-
 ## Software stack (Neuware)
 
 | Component | Status |
@@ -115,20 +100,6 @@ Cambricon has presence in Chinese cloud providers alongside Ascend.
 
 ---
 
-## Financials
-
-| Metric | Value |
-|--------|-------|
-| 2023 revenue | ~¥1.4B ($190M) |
-| Gross margin | ~60% |
-| Net income | Negative (still investing) |
-| R&D spend | >60% of revenue |
-| Market cap | ~¥40B ($5.5B) |
-
-Revenue growing but not yet profitable. Heavy R&D investment phase.
-
----
-
 ## Competitive position
 
 | vs | Cambricon advantage | Cambricon disadvantage |
@@ -146,13 +117,11 @@ Second player in Chinese AI chips — benefits from domestic preference but trai
 
 | Risk | Details |
 |------|---------|
-| TSMC access | Could lose foundry access under future controls |
-| Competition | Huawei scaling Ascend aggressively |
-| Profitability | Still burning cash |
-| Talent | Competes with Huawei for engineers |
-| Software | Ecosystem adoption slower than Ascend |
+| [[TSMC]] access | Could lose foundry under tighter [[Export controls]] |
+| Software ecosystem | Neuware less mature than CUDA, CANN |
+| [[Ascend]] competition | Huawei scaling aggressively |
 
-TSMC dependency is key vulnerability — if export controls tighten, Cambricon could face Huawei's predicament.
+TSMC dependency is key vulnerability.
 
 ---
 
