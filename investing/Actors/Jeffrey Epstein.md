@@ -66,6 +66,7 @@ IGO Company LLC (Coinbase investment), JEGE LLC, Cypress Inc., Hyperion Air LLC,
 | Company | Amount | Year | Outcome |
 |---------|--------|------|---------|
 | [[Coinbase]] | $3M | 2014 | Via IGO Company LLC. Sold half for ~$15M (2018). |
+| [[Blockstream]] | $500K | 2014 | Via Kyara Investments III (co-owned with Joi Ito). Sold months later. |
 | [[Valar Ventures]] | $40M | 2015-16 | Now ~$170M — largest estate asset |
 | [[Carbyne]] | $1-1.5M | 2015 | Co-invested with [[Ehud Barak]] via Southern Trust (BVI) |
 | [[Jawbone]] | $5M → $11.25M | 2012-17 | Total loss (liquidated 2017). Threatened lawsuit against founder. |
@@ -158,10 +159,25 @@ Bought legitimacy and access through university giving:
 - 2017: Epstein agreed to $50K donation to dinner honoring Lutnick
 
 ### Others
-- [[Reid Hoffman]]: Made introductions (later expressed regret)
+- [[Reid Hoffman]]: Hub in network — introduced Thiel and Zuckerberg to Epstein, stayed at townhouse
 - Sergey Brin: Social contact via Maxwell
 - Larry Page: Emails about helicopter use in Caribbean
 - Masha Drokova: Publicist from 2017, connected him to tech founders
+
+### Steve Bannon
+
+Hundreds of texts over ~1 year. Bannon was key to Epstein's reputation rehabilitation effort:
+
+| Activity | Detail |
+|----------|--------|
+| Documentary | 15 hours of video interviews filmed 2019 — planned as sympathetic rehab piece |
+| Strategy | Workshopped legal and media strategies via text |
+| Secret meetings | "Access that's not the front door" due to 24/7 surveillance on Epstein |
+| Pivot | Post-Epstein death, Bannon reframed footage as exposé "The Monsters" (5-part series, early 2026) |
+
+Bannon coached Epstein on messaging: "We let them blow up the argument while showing the 12 you redeemed."
+
+Congress pursuing subpoena for Bannon's unreleased Epstein footage.
 
 ---
 
