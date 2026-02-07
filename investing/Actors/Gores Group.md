@@ -3,7 +3,7 @@ aliases: [Alec Gores, Gores Holdings]
 ---
 #actor #private-equity #usa #spac
 
-**Gores Group** — Beverly Hills private equity firm founded by Alec Gores in 1987. Most prolific SPAC sponsor in history with 13+ vehicles and $38B+ in transaction value. Credited with reviving the SPAC market via Hostess Brands (2015). Mixed track record: Polestar down 90%+, Sonder bankrupt, but some early wins.
+**Gores Group** — Beverly Hills private equity firm founded by Alec Gores in 1987. Most prolific SPAC sponsor in history with 13+ vehicles and $38B+ in transaction value. Credited with reviving the SPAC market via Hostess Brands (2015). Mixed track record: Polestar down 90%+, [[Sonder]] bankrupt, but some early wins.
 
 ---
 
@@ -29,7 +29,7 @@ aliases: [Alec Gores, Gores Holdings]
 
 **Cautionary tale.** Despite the volume, results have been mixed to poor:
 - **Polestar** — $20B valuation at merger, now trading under $1 (down 90%+), facing Nasdaq delisting
-- **Sonder** — $2.2B valuation at merger, filed Chapter 7 bankruptcy November 2025
+- **[[Sonder]]** — $2.2B valuation at merger, filed Chapter 7 bankruptcy November 2025
 - **UWM** — $16B valuation (largest SPAC ever at time), now ~$5 (down 50%+ from $10)
 
 The pattern: massive valuations at merger, steep declines post-close.
@@ -60,11 +60,11 @@ Classic immigrant success story — arrived with $40 and two suitcases, built a 
 | Gores Holdings V | Ardagh Metal Packaging | — | AMBP | — |
 | Gores Holdings VI | Matterport | — | MTTR | +109% early, then crashed |
 | Gores Holdings VII | Luminar | — | LAZR | +75% early, then crashed |
-| Gores Metropoulos II | Sonder | $2.2B | SOND | **Bankrupt Nov 2025** |
+| Gores Metropoulos II | [[Sonder]] | $2.2B | SOND | **Bankrupt Nov 2025** |
 | Gores Guggenheim | Polestar | $20B | PSNY | **-90%+, near delisting** |
 | Gores Holdings X | (searching) | — | — | Raised $360M (May 2025) |
 
-**Pattern:** Early SPAC returns looked strong (Hostess, Luminar, Matterport), but most gains evaporated. Later deals (Polestar, Sonder) have been disasters.
+**Pattern:** Early SPAC returns looked strong (Hostess, Luminar, Matterport), but most gains evaporated. Later deals (Polestar, [[Sonder]]) have been disasters.
 
 ---
 
@@ -129,6 +129,7 @@ Focus: Technology, industrials, healthcare. Operational improvement of underperf
 - [[Michael Klein]] — fellow prolific SPAC sponsor
 - [[Chamath Palihapitiya]] — fellow SPAC sponsor
 - [[Lucid]] — comparable EV SPAC disaster (Klein's)
+- [[Sonder]] — hospitality SPAC, Chapter 7 (2025)
 - [[Private Equity]] — sector
 
 ---

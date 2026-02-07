@@ -145,7 +145,7 @@ A $200M SPAC with 20% promote = ~$40M in equity for $25K investment. Even if the
 | **Clover Health**     | Social Capital       | ~$7B day-one      | DOJ/SEC investigation, stock ~$0.80    |
 | **IronNet**           | LGL Systems          | —                 | Bankrupt 2023                          |
 | **Polestar**          | Gores Guggenheim     | $20B EV           | Down 90% from $10                      |
-| **Sonder**            | Gores Metropoulos II | —                 | Down 99% from $10                      |
+| **[[Sonder]]**        | Gores Metropoulos II | $2.2B             | Bankrupt Nov 2025                      |
 | **[[Claritev]]**      | Churchill III        | —                 | Down 89% from $10                      |
 | **[[Lucid]]**         | Churchill IV         | $4.4B merger      | Down 85% from debut                    |
 

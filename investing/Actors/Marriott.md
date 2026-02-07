@@ -137,6 +137,16 @@ Marriott leads on room count and brand breadth. Hilton outperforming on stock re
 
 ---
 
+## Failed Sonder partnership
+
+**Aug 2024:** Marriott announced a licensing agreement with [[Sonder]], a tech-enabled short-term rental company. Thousands of Sonder units would join Marriott's distribution and Bonvoy loyalty program.
+
+**Nov 2025:** Marriott terminated the agreement after integration challenges. One day later, Sonder filed Chapter 7 bankruptcy.
+
+The deal illustrated risks of partnerships with cash-burning startups — even Marriott's distribution power couldn't save a fundamentally unprofitable model.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -165,3 +175,4 @@ Marriott leads on room count and brand breadth. Hilton outperforming on stock re
 - [[David Lichtenstein]] — Lightstone founder
 - [[Hotel industry]] — sector context
 - [[Travel recovery]] — post-COVID dynamics
+- [[Sonder]] — failed licensing partnership (2024-2025)

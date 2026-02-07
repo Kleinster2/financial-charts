@@ -155,3 +155,4 @@ Asset-light hotel operators form a distinct tradeable cluster. Analysis (2022-pr
 - [[Travel recovery]] — post-COVID dynamics
 - [[Multifamily housing]] — adjacent RE sector
 - [[LuxUrban Hotels]] — asset-light fraud, Chapter 7 (2025)
+- [[Sonder]] — lease-heavy hospitality, Chapter 7 (2025)
