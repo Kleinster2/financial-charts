@@ -54,6 +54,7 @@ The model required constant expansion to amortize fixed lease costs. When growth
 **Balance sheet at bankruptcy (Dec 31, 2024):**
 - Cash: $21M (down from $96M)
 - Operating lease liabilities: $1.18B
+- Debt: $35M SVB loan (now First Citizens)
 - **Accumulated deficit: $1.58B**
 - **Stockholders' deficit: $599M**
 
@@ -64,6 +65,18 @@ Revenue nearly tripled from 2021 to 2024, but losses never stopped. The company 
 - Q2 2025: Revenue $147M (-11% YoY), loss $45M
 - Bookable nights down 21% YoY as portfolio optimization (unit exits) accelerated
 - RevPAR improved to $184 (+13%) but couldn't offset volume decline
+
+## Red flags before collapse
+
+**Aug 2023:** Data breach led to class action lawsuit — failed to secure customer personal data.
+
+**March 2024:** Accounting restatement announced — errors in lease right-of-use asset valuations required restating 2022-2023 financials. Delayed SEC filings.
+
+**Ongoing:** Material weaknesses in internal controls over financial reporting (34 mentions in 10-K).
+
+**2024:** Already defaulting on certain lease agreements due to non-payment of rent.
+
+---
 
 ## Going concern warning
 
@@ -126,6 +139,7 @@ Unlike Chapter 11 (reorganization), Chapter 7 means liquidation — shareholders
 - **Partnership dependency is risk** — betting survival on a single integration (Marriott) created single point of failure
 - **Accumulated deficits compound** — $1.58B hole with $21M cash meant any setback was fatal
 - **Going concern warnings are real** — 10-K explicitly flagged substantial doubt; bankruptcy followed 4 months later
+- **Red flags compound** — data breach, accounting restatement, material weaknesses, lease defaults all preceded collapse
 
 ## Comparison to LuxUrban
 
