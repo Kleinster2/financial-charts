@@ -39,11 +39,11 @@ git restore "path/to/file.md"             # restore if damaged
 **Tools:**
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
-- SEC parser: `python scripts/parse_sec_filing.py TICKER --terms "term1,term2"` — **preferred over browser scrolling**
-  - Downloads 10-K/10-Q from EDGAR, searches for custom terms relevant to the analysis
-  - No hardcoded assumptions — pass terms appropriate to the note (distress terms for troubled companies, growth terms for growth companies)
-  - SEC requires User-Agent with email; script handles gzip decompression
-  - Faster and more comprehensive than browser navigation through EDGAR
+- SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
+  - Downloads 10-K/10-Q from EDGAR, strips HTML, outputs clean text
+  - Use with subagent: download filing, then Task agent reads and extracts what's relevant
+  - LLM does the analysis — no keyword matching assumptions
+  - ~200K chars typical (fits in context)
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
