@@ -103,6 +103,25 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
+### Quarterly trends (10-Q comparison)
+
+| Quarter | Revenue | YoY | Cloud | Cloud YoY | Op Margin | CapEx (YTD) |
+|---------|---------|-----|-------|-----------|-----------|-------------|
+| Q3 2024 | $88.3B | +15% | $11.4B | +35% | 32% | $38.3B |
+| Q1 2025 | $90.2B | +12% | $12.3B | +28% | 34% | $17.2B |
+| Q2 2025 | $96.4B | +14% | $13.6B | +32% | 32% | $39.6B |
+| Q3 2025 | $102.4B | +16% | $15.2B | +33% | 31% | $63.6B |
+
+*Source: 10-Q filings. Q3 2025 crossed $100B quarterly revenue for first time.*
+
+**Key trends:**
+- Revenue growth re-accelerated after Q1 2025 dip
+- Cloud operating income nearly doubled YoY ($1.95B → $3.59B in Q3)
+- Operating margin compressed 34% → 31% as AI infrastructure spend ramped
+- CapEx up 66% YoY through 9 months — aggressive AI buildout
+
+---
+
 ## DeepMind / Gemini
 
 **Google's AI research arm:**
