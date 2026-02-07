@@ -64,16 +64,7 @@ parent_concept: "[[Frontier models]]"
 
 **Real investment:** Likely $100M+ over 2+ years. Still far below US labs.
 
----
-
-## Chip situation
-
-| Question | Answer |
-|----------|--------|
-| What chips? | H800s ([[China]]-legal), possibly some H100s |
-| How many? | 10,000-50,000 (estimates vary) |
-| Gray market? | Widely suspected, unconfirmed |
-| The point | Fewer/weaker chips + efficiency gains |
+See [[DeepSeek]] for chip situation and efficiency thesis (company-wide context).
 
 ---
 

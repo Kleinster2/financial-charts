@@ -155,6 +155,16 @@ Azure listing is notable — Microsoft offering Chinese model alongside [[OpenAI
 
 ---
 
+## Chip situation
+
+| Question | Answer |
+|----------|--------|
+| What chips? | H800s ([[China]]-legal), possibly some H100s |
+| How many? | 10,000-50,000 (estimates vary) |
+| Gray market? | Widely suspected, unconfirmed |
+
+---
+
 ## Efficiency thesis
 
 DeepSeek represents [[China]]'s response to GPU constraints:
