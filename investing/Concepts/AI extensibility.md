@@ -29,7 +29,7 @@ The ability to extend AI systems with custom tools, plugins, and integrations. A
 | **Plugin marketplace** | Third-party extensions, curated store | GPT Store |
 | **Protocol standard** | Open spec for tool integration | Anthropic MCP |
 | **Native integrations** | First-party deep integrations | Copilot + M365 |
-| **SDK/Agent frameworks** | Developer builds on model | LangChain, Claude Code SDK |
+| **SDK/Agent frameworks** | Developer builds on model | [[LangChain]], [[AutoGen]], Claude Code SDK |
 
 ---
 
@@ -43,7 +43,7 @@ From low-level primitives to autonomous systems:
 | **Skills** | Pre-packaged prompt workflows | Claude Code `/commit`, [[OpenClaw]] skills repo |
 | **Plugins** | Third-party code + marketplace | GPT Store apps |
 | **Agents** | Autonomous multi-step execution | Devin, Claude Code |
-| **Multi-agent systems** | Specialized agents collaborating | AutoGen, CrewAI |
+| **Multi-agent systems** | Specialized agents collaborating | [[AutoGen]], [[CrewAI]] |
 | **Agent orchestration** | Coordination layer managing fleets | Enterprise workflow engines |
 | **Autonomous operations** | End-to-end processes, minimal human | Lights-out SOCs, automated trading |
 
@@ -71,7 +71,7 @@ Each layer builds on those below. Higher = more autonomy, more coordination, mor
 | **Skills** | [[Anthropic]] (Claude Code), [[OpenClaw]] | Claude Code proprietary; OpenClaw open-source alternative |
 | **Plugins** | [[OpenAI]] (GPT Store), [[Microsoft]] (Copilot) | Marketplace land grab |
 | **Agents** | [[Cognition]] (Devin), [[Anthropic]] (Claude Code), [[Cursor]] | Coding-first, expanding to knowledge work |
-| **Multi-agent** | [[Microsoft]] (AutoGen), [[Salesforce]] (Agentforce), [[ServiceNow]] | Enterprise workflow focus |
+| **Multi-agent** | [[Microsoft]] ([[AutoGen]]), [[Salesforce]] (Agentforce), [[CrewAI]] | Enterprise + open-source competition |
 | **Orchestration** | [[Salesforce]], [[ServiceNow]], [[Palantir]] | Existing enterprise software has distribution |
 | **Autonomous ops** | [[Torq]], [[Tines]] (security); prop trading firms | Vertical-specific; highest trust bar |
 
@@ -108,6 +108,20 @@ Strategic bet: if MCP becomes standard, Anthropic positioned as ecosystem leader
 | Open vs. closed standards | Interoperability vs. lock-in tradeoff |
 | Third-party tool quality | Ecosystem health indicator |
 
+### By layer
+
+| Layer | Investment angle | Plays |
+|-------|------------------|-------|
+| **Function calling** | Commodity — no edge here | — |
+| **Skills/SDK** | Framework risk — may commoditize | [[LangChain]] (private), model labs |
+| **Plugins** | Marketplace take-rate | [[OpenAI]] (private), [[Microsoft]] |
+| **Agents** | Coding agents = largest near-term TAM | [[Anthropic]] (private), [[Cognition]] (private) |
+| **Multi-agent** | Enterprise workflow disruption | [[Salesforce]], [[ServiceNow]] |
+| **Orchestration** | Incumbents with distribution | [[Palantir]], [[Salesforce]], [[ServiceNow]] |
+| **Autonomous ops** | Vertical-specific, high trust bar | [[Torq]] (private), security/fintech names |
+
+**Key insight:** Public market exposure concentrates in orchestration layer (enterprise SaaS). Agent and framework layers mostly private.
+
 ---
 
 ## Risks
@@ -124,12 +138,19 @@ Strategic bet: if MCP becomes standard, Anthropic positioned as ecosystem leader
 
 ## Related
 
+### Concepts
 - [[Tool use]] — the underlying capability
 - [[AI agents]] — extensibility enables agentic workflows
 - [[Platform economics]] — the business model parallel
 - [[Agentic AI security]] — risk surface from extensions
+
+### Key players
 - [[Anthropic]] — MCP originator
 - [[OpenAI]] — GPT Store approach
+- [[LangChain]] — SDK layer
+- [[AutoGen]] — Microsoft multi-agent
+- [[CrewAI]] — open-source multi-agent
+- [[OpenClaw]] — open-source skills
 
 ---
 
