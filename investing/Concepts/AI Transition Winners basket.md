@@ -1,6 +1,6 @@
 ---
 aliases: [AITW]
-tags: [concept, index, custom, ai, transition]
+tags: [basket, ai, transition]
 ---
 
 # AI Transition Winners basket

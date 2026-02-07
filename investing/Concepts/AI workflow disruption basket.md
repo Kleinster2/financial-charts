@@ -1,6 +1,6 @@
 ---
 aliases: [AIWD, SaaSpocalypse basket, SaaS Apocalypse basket]
-tags: [concept, index, custom, ai, disruption]
+tags: [basket, ai, disruption]
 ---
 
 # AI workflow disruption basket
