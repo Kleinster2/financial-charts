@@ -38,7 +38,7 @@ Four-pillar ecosystem, pivoting from pure iBuying:
 
 ## Price chart
 
-![[opad-price-chart.png]]
+![[opad-vs-open-price-chart.png]]
 *OPAD (blue) vs [[Opendoor|OPEN]]. Both iBuyers destroyed — OPAD down ~99%, OPEN down ~60%. Sector carnage.*
 
 ---

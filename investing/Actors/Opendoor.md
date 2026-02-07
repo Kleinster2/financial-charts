@@ -39,7 +39,7 @@ New products:
 
 ## Price chart
 
-![[open-price-chart.png]]
+![[open-vs-opad-vs-comp-price-chart.png]]
 *OPEN (blue) vs [[Offerpad|OPAD]], [[Compass|COMP]]. iBuyers decimated — OPEN down ~60%, OPAD down ~99%. Compass recovered better.*
 
 ---
