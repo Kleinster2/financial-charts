@@ -50,6 +50,7 @@ Year ago this wasn't possible. Now transformative.
 
 ## Related
 
+- [[AI extensibility]] — tool use is the foundation of the extensibility stack
 - [[Inference-time scaling]] — enables iterative tool use
 - [[RLVR]] — training that taught tool use
 - [[Claude Code]] — product built on this

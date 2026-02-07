@@ -83,6 +83,7 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 
 ## Related
 
+- [[AI extensibility]] — agents sit atop the extensibility stack
 - [[Anthropic]] — [[Claude]] computer use
 - [[OpenAI]] — GPT agents, Operator
 - [[Cognition]] — Devin coding agent

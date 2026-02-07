@@ -73,6 +73,7 @@ aliases: []
 
 ## Related
 
+- [[AI extensibility]] — autonomous operations layer
 - [[Cybersecurity]] — sector
 - [[AI agents]] — technology
 - [[Israel Tech]] — geography

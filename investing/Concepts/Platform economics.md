@@ -87,6 +87,7 @@
 ## Related
 
 ### Concepts
+- [[AI extensibility]] — platform economics applied to AI
 - [[Network effects]] — moat source
 - [[Marketplace dynamics]] — two-sided
 - [[SaaS]] — subscription platforms

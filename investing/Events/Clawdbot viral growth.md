@@ -3,7 +3,9 @@ aliases: [OpenClaw viral growth, Moltbot viral growth]
 ---
 #event #ai #opensource #security
 
-**OpenClaw viral growth** — Jan-Feb 2025; Peter Steinberger's open-source AI agent became the fastest-growing project in GitHub history (82k+ stars). Forced renames by [[Anthropic]] lawyers, a $16M Solana scam token, and security researchers finding localhost backdoors exposed the chaotic reality of [[Agentic AI]] going mainstream.
+**OpenClaw viral growth** — Jan-Feb 2026; Peter Steinberger's open-source AI agent became the fastest-growing project in GitHub history (150k+ stars by Feb 2026). Forced renames by [[Anthropic]] lawyers, a $16M Solana scam token, and security researchers finding localhost backdoors exposed the chaotic reality of [[Agentic AI]] going mainstream.
+
+*For ongoing developments, see [[OpenClaw]].*
 
 ---
 
@@ -16,10 +18,10 @@ Peter Steinberger built an open-source AI agent after stepping away from PSPDFKi
 | Type | Open-source AI agent |
 | Core capability | File editing, terminal commands, autonomous coding |
 | Architecture | [[Local-first AI]] — runs on your machine |
-| Popularity | **82,000+ GitHub stars** |
+| Popularity | **150,000+ GitHub stars** (Feb 2026) |
 | Record | Fastest-growing open-source project ever |
 
-The project went viral in Jan 2025, with developers buying Mac Minis specifically to run it 24/7.
+The project went viral in Jan 2026, with developers buying Mac Minis specifically to run it 24/7.
 
 ---
 
@@ -29,8 +31,8 @@ The project went viral in Jan 2025, with developers buying Mac Minis specificall
 
 | Date | Name | Trigger |
 |------|------|---------|
-| Early 2025 | **Clawdbot** | Original name |
-| ~Feb 2025 | **Moltbot** | Anthropic C&D |
+| Nov 2025 | **Clawdbot** | Original name |
+| Jan 27, 2026 | **Moltbot** | Anthropic C&D |
 | Jan 30, 2026 | **OpenClaw** | Final rebrand |
 
 ### The 10-second gap
@@ -59,7 +61,7 @@ The impostor accounts promoted a fake **CLAW token on Solana** that hit **$16M m
 
 Critical one-click RCE vulnerability via cross-site WebSocket hijacking. Disclosed Feb 2026, patched in version 2026.1.29 on January 30, 2026.
 
-### ClawdHub supply chain attack
+### ClawHub supply chain attack
 
 O'Reilly demonstrated the marketplace's vulnerability with a proof-of-concept:
 - Uploaded a publicly available skill
@@ -70,6 +72,8 @@ O'Reilly demonstrated the marketplace's vulnerability with a proof-of-concept:
 O'Reilly's warning:
 
 > "We've spent 20 years building security boundaries between apps... agents require us to tear that down."
+
+**February 2026 escalation:** The attack surface expanded significantly — Bitdefender found **17% of analyzed skills were malicious**, with 400+ malware packages distributed via ClawHub. A fake "Twitter" skill became the top download while serving as a macOS infostealer delivery vehicle. See [[OpenClaw]] for full details.
 
 ---
 
@@ -179,15 +183,18 @@ The market is bifurcating:
 
 ## Moltbook: The AI agent social network
 
-**Moltbook** (Feb 2026) — Reddit-style forum exclusively for AI agents. Humans can observe but not post. Went viral same week as OpenClaw security chaos.
+**Moltbook** (launched Jan 28, 2026) — Reddit-style forum exclusively for AI agents. Humans can observe but not post. Went viral same week as OpenClaw security chaos.
 
 | Metric | Value |
 |--------|-------|
-| Claimed agents | 1.5M |
+| Registered bots | **1.6M** (Feb 2026) |
+| AI-generated posts | **7.5M+** |
 | Actual human owners | ~17,000 |
-| Agent-to-human ratio | **88:1** |
+| Agent-to-human ratio | **94:1** |
 | Creator | Matt Schlicht |
 | Built via | "Vibe-coded" (no human-written code) |
+
+*For ongoing developments, see [[Moltbook]].*
 
 ### Security disaster (Wiz Research, Feb 1-2)
 
@@ -233,6 +240,7 @@ Agents autonomously:
 
 ### Concepts
 - [[Agentic AI]] — category OpenClaw exemplifies
+- [[AI extensibility]] — skills layer, supply chain risks
 - [[Local-first AI]] — architecture pattern
 - [[Prompt injection]] — security risk demonstrated
 
@@ -259,4 +267,4 @@ Agents autonomously:
 - [OpenClaw ecosystem still suffering severe security issues](https://www.theregister.com/2026/02/02/openclaw_security_issues/) — The Register
 - McKinsey State of AI 2025
 
-*Created 2026-01-28 | Rewritten 2026-02-02 | Updated 2026-02-03 with Moltbook section*
+*Created 2026-01-28 | Rewritten 2026-02-02 | Updated 2026-02-07 with Feb stats and pointers*

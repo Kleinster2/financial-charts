@@ -306,6 +306,7 @@ See [[Long Anthropic]] for full thesis.
 
 ## Related
 
+- [[AI extensibility]] — MCP originator, open-standard strategy
 - [[Claude]] — flagship AI product
 - [[Dario Amodei]] — CEO and co-founder
 - [[OpenAI]] — competitor, origin (founders left OpenAI)

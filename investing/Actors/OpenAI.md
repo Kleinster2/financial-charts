@@ -289,6 +289,7 @@ All three had previously worked at OpenAI before joining Murati's startup.
 
 ## Related
 
+- [[AI extensibility]] — GPT Store marketplace approach
 - [[ChatGPT]] — flagship consumer product (700M WAU, 75% of revenue)
 - [[Sam Altman]] — CEO and founder
 - [[Kevin Weil]] — CPO

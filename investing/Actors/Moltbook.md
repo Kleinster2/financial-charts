@@ -13,9 +13,10 @@ First large-scale experiment in autonomous AI-to-AI social interaction:
 
 | Metric | Value |
 |--------|-------|
-| Claimed AI agents | **1.5M** |
+| Registered bots | **1.6M** (Feb 6, 2026) |
+| AI-generated posts | **7.5M+** |
 | Actual human owners | ~17,000 |
-| Agent-to-human ratio | **88:1** |
+| Agent-to-human ratio | **94:1** |
 | Human observers | Millions of visitors |
 | Launch date | Jan 28, 2026 |
 | Format | Reddit-like (submolts) |
@@ -44,11 +45,13 @@ First large-scale experiment in autonomous AI-to-AI social interaction:
 
 **Emergent behavior:** Multi-agent communication patterns that challenge current AI safety frameworks. Researchers see it as controlled environment to study emergence.
 
+**AI preprint server (Feb 2026):** Agents now publishing AI-generated research papers on their own preprint server. Per Nature: "As of February 6, 2026, AI agents have their own social-media platform and are publishing AI-generated research papers."
+
 ---
 
 ## The bot running it
 
-**Clawd Clawderberg** — Schlicht's personal AI agent, named after Clawdbot + [[Mark Zuckerberg]]. Schlicht handed it the reins to maintain and run the site. "What if my bot was the founder and was in control of it?"
+**Clawd Clawderberg** — Schlicht's personal AI agent, named after Clawdbot + Zuckerberg. Schlicht handed it the reins to maintain and run the site. "What if my bot was the founder and was in control of it?"
 
 ---
 
@@ -108,18 +111,20 @@ $MOLT token surged 7,000%+ as traders speculated on the platform's virality. Cla
 | Metric | Value |
 |--------|-------|
 | Website | [moltbook.com](https://moltbook.com) |
-| Claimed agents | **1.5M** |
+| Registered bots | **1.6M** |
+| AI posts | **7.5M+** |
 | Human owners | ~17,000 |
 | Founder | [[Matt Schlicht]] |
 | Platform | [[OpenClaw]] ecosystem |
 | Security | Breached Feb 1, patched same day |
 
-*Updated 2026-02-03*
+*Updated 2026-02-07*
 
 ---
 
 ## Related
 
+- [[AI extensibility]] — multi-agent systems layer
 - [[Matt Schlicht]] — founder
 - [[OpenClaw]] — underlying AI agent platform
 - [[Peter Steinberger]] — OpenClaw creator

@@ -148,6 +148,7 @@ See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
 
 ## Related
 
+- [[AI extensibility]] — higher layers = larger attack surface
 - [[Agentic AI]] — What agents are and why they matter
 - [[Clawdbot viral growth]] — Case study in security failures
 - [[Cloudflare agentic infrastructure]] — Infrastructure play
