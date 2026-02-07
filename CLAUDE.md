@@ -40,6 +40,7 @@ git restore "path/to/file.md"             # restore if damaged
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
+  - WebFetch gets 403'd by SEC — use this script instead (has required User-Agent header)
   - Auto-detects most recent 10-K or 10-Q (use `--type` to force specific)
   - Preserves tables as markdown (financial data structure intact)
   - 10-K = annual (includes Q4), 10-Q = Q1/Q2/Q3 only
