@@ -3409,17 +3409,6 @@ def get_chart_segment():
     title = request.args.get('title', '')
     chart_type = request.args.get('chart_type', 'line').lower()
 
-    # Segment display names
-    segment_names = {
-        'cloud': 'Cloud',
-        'services': 'Services',
-        'search': 'Search',
-        'youtube': 'YouTube',
-        'network': 'Network',
-        'subs': 'Subs/Devices',
-        'other_bets': 'Other Bets',
-    }
-
     # Metric labels
     metric_labels = {
         'revenue': 'Revenue ($B)',
@@ -3432,7 +3421,7 @@ def get_chart_segment():
         chart_data = {}
 
         for segment in segments:
-            display_name = segment_names.get(segment, segment.title())
+            display_name = segment.replace('_', ' ').title()
 
             query = """
                 SELECT fiscal_date_ending, value
