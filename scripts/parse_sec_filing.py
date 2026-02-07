@@ -2,24 +2,32 @@
 """
 Parse SEC EDGAR filings.
 
-Downloads 10-K/10-Q filings and extracts key information:
-- Going concern warnings
-- Risk factors
-- MD&A highlights
-- Key financial terms
-- Litigation/lawsuits
-- Material weaknesses
+Downloads 10-K/10-Q filings and extracts information based on custom search terms.
+No hardcoded assumptions — pass the terms relevant to your analysis.
 
 Usage:
-    python scripts/parse_sec_filing.py SOND          # Latest 10-K for ticker
-    python scripts/parse_sec_filing.py --cik 1819395 # By CIK
-    python scripts/parse_sec_filing.py --url <edgar_url>  # Direct URL
-    python scripts/parse_sec_filing.py SOND --type 10-Q   # 10-Q instead of 10-K
+    # Download and search for specific terms
+    python scripts/parse_sec_filing.py AAPL --terms "revenue,growth,margin"
+
+    # Distressed company analysis
+    python scripts/parse_sec_filing.py SOND --terms "going concern,material weakness,default"
+
+    # Growth company analysis
+    python scripts/parse_sec_filing.py NVDA --terms "revenue,market share,data center,AI"
+
+    # Just download the filing (no term search)
+    python scripts/parse_sec_filing.py AAPL --save filing.html
+
+    # By CIK or direct URL
+    python scripts/parse_sec_filing.py --cik 1819395 --terms "litigation"
+    python scripts/parse_sec_filing.py --url <edgar_url> --terms "dividend,buyback"
+
+    # 10-Q instead of 10-K
+    python scripts/parse_sec_filing.py AAPL --type 10-Q --terms "guidance,outlook"
 """
 
 import argparse
 import gzip
-import io
 import json
 import re
 import sys
@@ -31,26 +39,7 @@ from urllib.error import HTTPError
 # SEC requires declared user agent
 USER_AGENT = "klein-financial-charts research@example.com"
 
-# Key terms to search for and count
-KEY_TERMS = [
-    "going concern",
-    "substantial doubt",
-    "material weakness",
-    "restatement",
-    "default",
-    "covenant",
-    "litigation",
-    "class action",
-    "securities and exchange commission",
-    "termination",
-    "impairment",
-    "goodwill",
-    "fraud",
-    "investigation",
-    "subpoena",
-]
-
-# Patterns for extracting dollar amounts (more precise)
+# Pattern for extracting dollar amounts
 DOLLAR_PATTERN = re.compile(r'\$\s*\d+(?:\.\d+)?\s*(?:million|billion)', re.IGNORECASE)
 
 
@@ -162,81 +151,51 @@ def extract_dollar_amounts(text: str) -> dict[str, int]:
     return dict(sorted(counts.items(), key=lambda x: -x[1])[:20])
 
 
-def find_section(text: str, section_name: str) -> str | None:
-    """Try to extract a named section from the filing."""
-    # Common section patterns
-    patterns = [
-        rf'(?:Item\s*\d+[A-Z]?\.?\s*)?{re.escape(section_name)}[^\n]*\n(.*?)(?=Item\s*\d|$)',
-        rf'{re.escape(section_name)}(.*?)(?=Item\s*\d|$)',
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
-        if match:
-            content = match.group(1)[:5000]  # First 5000 chars
-            return content.strip()
-    return None
-
-
-def analyze_filing(html_content: bytes) -> dict:
-    """Analyze a filing and extract key information."""
+def analyze_filing(html_content: bytes, terms: list[str]) -> dict:
+    """Analyze a filing and extract information for given terms."""
     html = html_content.decode('utf-8', errors='replace')
     text = strip_html(html)
 
     results = {
-        "term_counts": count_terms(text, KEY_TERMS),
+        "term_counts": count_terms(text, terms) if terms else {},
         "dollar_amounts": extract_dollar_amounts(text),
-        "key_excerpts": {},
-        "warnings": [],
+        "excerpts": {},
     }
 
-    # Extract context for important terms
-    important_terms = ["going concern", "substantial doubt", "material weakness", "class action", "default"]
-    for term in important_terms:
+    # Extract context for terms with matches
+    for term in terms:
         if results["term_counts"].get(term, 0) > 0:
-            results["key_excerpts"][term] = extract_context(text, term)
-
-    # Check for red flags
-    if results["term_counts"].get("going concern", 0) > 10:
-        results["warnings"].append("HIGH going concern mentions (>10)")
-    if results["term_counts"].get("material weakness", 0) > 5:
-        results["warnings"].append("Material weakness in internal controls")
-    if results["term_counts"].get("restatement", 0) > 5:
-        results["warnings"].append("Financial restatement mentioned")
-    if results["term_counts"].get("class action", 0) > 3:
-        results["warnings"].append("Class action litigation")
+            results["excerpts"][term] = extract_context(text, term)
 
     return results
 
 
-def print_report(results: dict, filing_url: str, filing_type: str):
+def print_report(results: dict, filing_url: str, filing_type: str, terms: list[str]):
     """Print analysis report."""
     print("=" * 60)
     print(f"SEC FILING ANALYSIS: {filing_type}")
     print(f"URL: {filing_url}")
     print("=" * 60)
 
-    # Warnings
-    if results["warnings"]:
-        print("\n[!] RED FLAGS:")
-        for w in results["warnings"]:
-            print(f"   * {w}")
-
     # Term counts
-    print("\nKEY TERM COUNTS:")
-    for term, count in sorted(results["term_counts"].items(), key=lambda x: -x[1]):
-        if count > 0:
+    if results["term_counts"]:
+        print("\nTERM COUNTS:")
+        for term, count in sorted(results["term_counts"].items(), key=lambda x: -x[1]):
             bar = "#" * min(count, 30)
-            print(f"   {term:20} {count:4}  {bar}")
+            print(f"   {term:25} {count:4}  {bar}")
+    else:
+        print("\nNo search terms specified. Use --terms to search for specific terms.")
 
     # Dollar amounts
-    print("\nTOP DOLLAR AMOUNTS MENTIONED:")
-    for amt, count in list(results["dollar_amounts"].items())[:10]:
-        print(f"   {amt:20} ({count}x)")
+    if results["dollar_amounts"]:
+        print("\nTOP DOLLAR AMOUNTS MENTIONED:")
+        for amt, count in list(results["dollar_amounts"].items())[:10]:
+            print(f"   {amt:25} ({count}x)")
 
-    # Key excerpts
-    if results["key_excerpts"]:
-        print("\nKEY EXCERPTS:")
-        for term, excerpts in results["key_excerpts"].items():
+    # Excerpts
+    if results["excerpts"]:
+        print("\nEXCERPTS:")
+        for term, excerpts in results["excerpts"].items():
             print(f"\n   [{term.upper()}]")
             for i, exc in enumerate(excerpts, 1):
                 # Truncate long excerpts
@@ -248,11 +207,22 @@ def print_report(results: dict, filing_url: str, filing_type: str):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Parse SEC EDGAR filings")
+    parser = argparse.ArgumentParser(
+        description="Parse SEC EDGAR filings with custom search terms",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s AAPL --terms "revenue,growth,margin"
+  %(prog)s SOND --terms "going concern,material weakness"
+  %(prog)s NVDA --type 10-Q --terms "data center,AI"
+  %(prog)s AAPL --save apple-10k.html
+        """
+    )
     parser.add_argument("ticker", nargs="?", help="Stock ticker symbol")
     parser.add_argument("--cik", help="CIK number")
     parser.add_argument("--url", help="Direct filing URL")
     parser.add_argument("--type", default="10-K", help="Filing type (default: 10-K)")
+    parser.add_argument("--terms", help="Comma-separated terms to search for")
     parser.add_argument("--json", action="store_true", help="Output as JSON")
     parser.add_argument("--save", help="Save HTML to file")
 
@@ -261,6 +231,11 @@ def main():
     if not any([args.ticker, args.cik, args.url]):
         parser.print_help()
         sys.exit(1)
+
+    # Parse terms
+    terms = []
+    if args.terms:
+        terms = [t.strip().lower() for t in args.terms.split(",")]
 
     # Get filing URL
     if args.url:
@@ -283,13 +258,13 @@ def main():
         print(f"Saved to: {args.save}")
 
     # Analyze
-    results = analyze_filing(html_content)
+    results = analyze_filing(html_content, terms)
 
     # Output
     if args.json:
         print(json.dumps(results, indent=2))
     else:
-        print_report(results, filing_url, filing_type)
+        print_report(results, filing_url, filing_type, terms)
 
 
 if __name__ == "__main__":
