@@ -3369,6 +3369,140 @@ def get_chart_lw():
         return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
 
 
+@app.route('/api/chart/segment')
+def get_chart_segment():
+    """Generate segment-level charts from segment_quarterly table.
+
+    Query params:
+        ticker: Ticker symbol (required), e.g., GOOGL
+        segments: Comma-separated segments (required), e.g., cloud,services
+        metric: Metric to chart (required): revenue, operating_income, margin
+        width: Image width (optional, default 1200)
+        height: Image height (optional, default 600)
+        title: Chart title (optional)
+        chart_type: line or bar (optional, default line)
+
+    Returns: PNG image
+    """
+    if not _check_playwright():
+        return jsonify({
+            'error': 'Playwright not installed. Run: pip install playwright && playwright install chromium'
+        }), HTTP_INTERNAL_ERROR
+
+    from playwright.sync_api import sync_playwright
+
+    ticker = request.args.get('ticker', '').strip().upper()
+    if not ticker:
+        return jsonify({'error': 'ticker parameter required'}), HTTP_BAD_REQUEST
+
+    segments_param = request.args.get('segments', '').strip().lower()
+    if not segments_param:
+        return jsonify({'error': 'segments parameter required'}), HTTP_BAD_REQUEST
+
+    metric = request.args.get('metric', '').strip().lower()
+    if not metric:
+        return jsonify({'error': 'metric parameter required (revenue, operating_income, margin)'}), HTTP_BAD_REQUEST
+
+    segments = [s.strip() for s in segments_param.split(',') if s.strip()]
+    width = int(request.args.get('width', 1200))
+    height = int(request.args.get('height', 600))
+    title = request.args.get('title', '')
+    chart_type = request.args.get('chart_type', 'line').lower()
+
+    # Segment display names
+    segment_names = {
+        'cloud': 'Cloud',
+        'services': 'Services',
+        'search': 'Search',
+        'youtube': 'YouTube',
+        'network': 'Network',
+        'subs': 'Subs/Devices',
+        'other_bets': 'Other Bets',
+    }
+
+    # Metric labels
+    metric_labels = {
+        'revenue': 'Revenue ($B)',
+        'operating_income': 'Operating Income ($B)',
+        'margin': 'Margin (%)',
+    }
+
+    try:
+        conn = get_db_connection()
+        chart_data = {}
+
+        for segment in segments:
+            display_name = segment_names.get(segment, segment.title())
+
+            query = """
+                SELECT fiscal_date_ending, value
+                FROM segment_quarterly
+                WHERE ticker = ? AND segment = ? AND metric = ?
+                ORDER BY fiscal_date_ending ASC
+            """
+            df = pd.read_sql(query, conn, params=[ticker, segment, metric])
+
+            if not df.empty:
+                data_points = []
+                for _, row in df.iterrows():
+                    try:
+                        date_str = pd.to_datetime(row['fiscal_date_ending']).strftime('%Y-%m-%d')
+                        value = row['value']
+                        if pd.notna(value):
+                            data_points.append({'time': date_str, 'value': float(value)})
+                    except Exception:
+                        continue
+                if data_points:
+                    chart_data[display_name] = data_points
+
+        conn.close()
+
+        if not chart_data:
+            return jsonify({'error': f'No segment data found for {ticker}'}), HTTP_NOT_FOUND
+
+        # Build title if not provided
+        if not title:
+            metric_label = metric_labels.get(metric, metric.title())
+            title = f"{ticker} — {metric_label}"
+
+        chart_config = {
+            'data': chart_data,
+            'title': title,
+            'width': width,
+            'height': height,
+            'showTitle': False,
+            'showLastDate': True,
+            'showLastValue': False,
+            'normalize': False,
+            'isFundamentals': chart_type == 'bar',
+            'forecastStart': None,
+            'labels': None,
+        }
+
+        # Render with Playwright
+        template_path = os.path.join(basedir, 'templates', 'chart_render.html')
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page(viewport={'width': width, 'height': height})
+            page.goto(f'file://{template_path}')
+            page.evaluate(f'''
+                window.CHART_CONFIG = {json.dumps(chart_config)};
+                renderChart(window.CHART_CONFIG);
+            ''')
+            page.wait_for_function('window.chartReady === true', timeout=10000)
+            page.wait_for_timeout(200)
+            screenshot_bytes = page.screenshot(type='png')
+            browser.close()
+
+        return Response(screenshot_bytes, mimetype='image/png')
+
+    except Exception as e:
+        app.logger.error(f"Segment chart error: {e}")
+        traceback.print_exc()
+        return jsonify({'error': str(e)}), HTTP_INTERNAL_ERROR
+
+
 # Register portfolio routes
 try:
     from portfolio_routes import portfolio_bp

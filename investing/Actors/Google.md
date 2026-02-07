@@ -162,6 +162,20 @@ Google is the most vertically integrated AI hyperscaler:
 - Total operating margin: 28% → 31%, peaked at 34% in Q1 2025 before AI spend ramped
 - APAC growing fastest (+23% YoY), gaining share vs US
 
+**Segment charts:**
+
+![[goog-cloud-margin.png]]
+*Cloud margin: 3.2% → 23.7%. Profitability inflection began Q1 2024.*
+
+![[goog-cloud-operating-income.png]]
+*Cloud operating income: $0.3B → $3.6B (12x). Now a real profit contributor.*
+
+![[goog-cloud-vs-services-opex.png]]
+*Cloud vs Services operating income. Cloud still <15% of Services, but growing fast.*
+
+![[goog-services-product-mix.png]]
+*Services revenue mix. Search dominant, Network declining, Subs/Devices fastest growth.*
+
 ---
 
 ## DeepMind / Gemini
