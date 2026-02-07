@@ -1,5 +1,5 @@
 ---
-aliases: [壁仞科技, 6082]
+aliases: [Biren, 壁仞科技, 6082]
 ---
 #actor #gpu #china #fabless
 
