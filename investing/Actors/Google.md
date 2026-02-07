@@ -103,43 +103,45 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
-### Quarterly trends (10-Q comparison, Q2 2023 – Q3 2025)
+### Quarterly trends (12 quarters, Q4 2022 – Q3 2025)
 
 **Summary:**
 
-| Quarter | Revenue | YoY | Cloud | Cloud Margin | Op Margin | CapEx (YTD) |
-|---------|---------|-----|-------|--------------|-----------|-------------|
-| Q2 2023 | $74.6B | — | $8.0B | 4.9% | 29% | $13.2B |
-| Q3 2023 | $76.7B | — | $8.4B | 3.2% | 28% | $21.2B |
-| Q1 2024 | $80.5B | — | $9.6B | 9.4% | 32% | $12.0B |
-| Q2 2024 | $84.7B | +14% | $10.3B | 11.3% | 32% | $25.2B |
-| Q3 2024 | $88.3B | +15% | $11.4B | 17.2% | 32% | $38.3B |
-| Q1 2025 | $90.2B | +12% | $12.3B | 17.8% | 34% | $17.2B |
-| Q2 2025 | $96.4B | +14% | $13.6B | 20.7% | 32% | $39.6B |
-| Q3 2025 | $102.4B | +16% | $15.2B | 23.7% | 31% | $63.6B |
+| Quarter | Cloud | Cloud Margin | Cloud OpInc | Services OpInc |
+|---------|-------|--------------|-------------|----------------|
+| Q4 2022 | $7.3B | -6.6% | ($0.5B) | $21.1B |
+| Q1 2023 | $7.5B | 2.6% | $0.2B | $21.7B |
+| Q2 2023 | $8.0B | 4.9% | $0.4B | $23.5B |
+| Q3 2023 | $8.4B | 3.2% | $0.3B | $23.9B |
+| Q4 2023 | $9.2B | 8.7% | $0.8B | $26.8B |
+| Q1 2024 | $9.6B | 9.4% | $0.9B | $27.9B |
+| Q2 2024 | $10.3B | 11.3% | $1.2B | $29.7B |
+| Q3 2024 | $11.4B | 17.2% | $1.9B | $30.9B |
+| Q4 2024 | $11.9B | 17.6% | $2.1B | $32.8B |
+| Q1 2025 | $12.3B | 17.8% | $2.2B | $32.7B |
+| Q2 2025 | $13.6B | 20.7% | $2.8B | $33.1B |
+| Q3 2025 | $15.2B | 23.7% | $3.6B | $33.5B |
 
-*Cloud margin: 3.2% → 23.7% over 8 quarters. CapEx up 66% YoY in 2025.*
+*Cloud margin: -6.6% → 23.7% over 12 quarters. From loss-making to highly profitable.*
 
 **Google Services revenue by product ($B):**
 
-| Product | Q2 2023 | Q3 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-| Google Search | 42.6 | 44.0 | 46.2 | 48.5 | 49.4 | 50.7 | 54.2 | 56.6 |
-| YouTube ads | 7.7 | 8.0 | 8.1 | 8.7 | 8.9 | 8.9 | 9.8 | 10.3 |
-| Google Network | 7.9 | 7.7 | 7.4 | 7.4 | 7.5 | 7.3 | 7.4 | 7.4 |
-| Subs/devices | 8.1 | 8.3 | 8.7 | 9.3 | 10.7 | 10.4 | 11.2 | 12.9 |
-| **Services total** | 66.3 | 68.0 | 70.4 | 73.9 | 76.5 | 77.3 | 82.5 | 87.1 |
+| Product | Q4'22 | Q1'23 | Q2'23 | Q3'23 | Q4'23 | Q1'24 | Q2'24 | Q3'24 | Q4'24 | Q1'25 | Q2'25 | Q3'25 |
+|---------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Search | 42.6 | 40.4 | 42.6 | 44.0 | 48.0 | 46.2 | 48.5 | 49.4 | 54.0 | 50.7 | 54.2 | 56.6 |
+| YouTube | 8.0 | 6.7 | 7.7 | 8.0 | 9.1 | 8.1 | 8.7 | 8.9 | 10.4 | 8.9 | 9.8 | 10.3 |
+| Network | 8.5 | 7.5 | 7.9 | 7.7 | 8.2 | 7.4 | 7.4 | 7.5 | 8.1 | 7.3 | 7.4 | 7.4 |
+| Subs | 8.8 | 7.4 | 8.1 | 8.3 | 10.9 | 8.7 | 9.3 | 10.7 | 11.6 | 10.4 | 11.2 | 12.9 |
 
 **Segment operating income ($B):**
 
-| Segment | Q2 2023 | Q3 2023 | Q1 2024 | Q2 2024 | Q3 2024 | Q1 2025 | Q2 2025 | Q3 2025 |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-| Google Services | 23.5 | 23.9 | 27.9 | 29.7 | 30.9 | 32.7 | 33.1 | 33.5 |
-| Google Cloud | 0.4 | 0.3 | 0.9 | 1.2 | 1.9 | 2.2 | 2.8 | 3.6 |
-| Other Bets | (0.8) | (1.2) | (1.0) | (1.1) | (1.1) | (1.2) | (1.2) | (1.4) |
-| **Total** | 21.8 | 21.3 | 25.5 | 27.4 | 28.5 | 30.6 | 31.3 | 31.2 |
+| Segment | Q4'22 | Q1'23 | Q2'23 | Q3'23 | Q4'23 | Q1'24 | Q2'24 | Q3'24 | Q4'24 | Q1'25 | Q2'25 | Q3'25 |
+|---------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Services | 21.1 | 21.7 | 23.5 | 23.9 | 26.8 | 27.9 | 29.7 | 30.9 | 32.8 | 32.7 | 33.1 | 33.5 |
+| Cloud | (0.5) | 0.2 | 0.4 | 0.3 | 0.8 | 0.9 | 1.2 | 1.9 | 2.1 | 2.2 | 2.8 | 3.6 |
+| Other Bets | (1.6) | (1.2) | (0.8) | (1.2) | (0.9) | (1.0) | (1.1) | (1.1) | (1.2) | (1.2) | (1.2) | (1.4) |
 
-**Cloud operating income trajectory:** $0.3B (Q3 2023) → $3.6B (Q3 2025) — 12x in 8 quarters.
+**Cloud operating income trajectory:** ($0.5B) loss (Q4 2022) → $3.6B profit (Q3 2025) — complete turnaround in 12 quarters.
 
 **Geographic mix ($B, Q3 2025):**
 
@@ -152,26 +154,25 @@ Google is the most vertically integrated AI hyperscaler:
 
 *Source: 10-Q filings.*
 
-**Key trends (8 quarters):**
-- Search grew $42.6B → $56.6B (+33%), still 55% of revenue
-- YouTube ads: $7.7B → $10.3B (+34%)
-- Google Network: $7.9B → $7.4B (-6%) — structural decline, third-party ad network under pressure
-- Subscriptions/devices: $8.1B → $12.9B (+59%) — fastest growing segment (YouTube Premium, Pixel)
-- Cloud margin: 3.2% → 23.7% (+20.5pp) — profitability inflection
-- Cloud operating income: $0.3B → $3.6B — 12x growth
-- Total operating margin: 28% → 31%, peaked at 34% in Q1 2025 before AI spend ramped
-- APAC growing fastest (+23% YoY), gaining share vs US
+**Key trends (12 quarters):**
+- Cloud margin: -6.6% → 23.7% (+30pp) — from loss-making to highly profitable
+- Cloud operating income: ($0.5B) → $3.6B — complete turnaround
+- Search: $42.6B → $56.6B (+33%), still ~55% of revenue
+- YouTube ads: $6.7B → $10.3B (+54%)
+- Google Network: $8.5B → $7.4B (-13%) — structural decline, third-party ad network under pressure
+- Subscriptions/devices: $7.4B → $12.9B (+74%) — fastest growing segment (YouTube Premium, Pixel)
+- Services operating income: $21.1B → $33.5B (+59%)
 
-**Segment charts:**
+**Segment charts (12 quarters):**
 
 ![[goog-cloud-margin.png]]
-*Cloud margin: 3.2% → 23.7%. Profitability inflection began Q1 2024.*
+*Cloud margin: -6.6% (Q4 2022) → 23.7% (Q3 2025). Turned profitable Q1 2023, inflection Q4 2023.*
 
 ![[goog-cloud-operating-income.png]]
-*Cloud operating income: $0.3B → $3.6B (12x). Now a real profit contributor.*
+*Cloud operating income: ($0.5B) loss → $3.6B profit. Complete turnaround in 3 years.*
 
 ![[goog-cloud-vs-services-opex.png]]
-*Cloud vs Services operating income. Cloud still <15% of Services, but growing fast.*
+*Cloud vs Services operating income. Cloud now ~11% of Services, growing faster.*
 
 ![[goog-services-product-mix.png]]
 *Services revenue mix. Search dominant, Network declining, Subs/Devices fastest growth.*
