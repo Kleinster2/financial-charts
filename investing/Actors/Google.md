@@ -58,6 +58,7 @@ Google is the most vertically integrated AI hyperscaler:
 *[[Nasdaq|QQQ]]*
 
 ![[goog-fundamentals.png]]
+*Q4 2017 net income excluded (–$3B TCJA repatriation tax charge).*
 
 ---
 
