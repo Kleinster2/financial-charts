@@ -239,16 +239,11 @@ This applies to daily notes, earnings additions, news items — everything. Enti
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"
 - **Never remove wikilinks** — create missing notes instead. See `[[Linking and hierarchy]]` for details.
-- **Verify before creating** — check if note exists, including aliases. See `[[Linking and hierarchy]]`:
+- **MUST run before creating ANY new note** — check for existing notes and aliases:
   ```bash
-  # Search ALL folders (use when unsure of entity type or verifying non-existence)
-  cd /c/Users/klein/financial-charts/investing && git ls-files "**/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
-
-  # Or search specific folder if you know the type
-  git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
-  git ls-files "Concepts/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
-  git ls-files "Events/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "keyword"
+  python scripts/check_before_create.py "Proposed Note Name"
   ```
+  If conflicts found, link to existing note instead of creating. This is a **hard gate** — never skip it.
 - **Run compliance after creating/editing actor notes**:
   ```bash
   python scripts/check_note_compliance.py investing/Actors/NewNote.md
