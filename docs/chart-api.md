@@ -191,3 +191,60 @@ UPDATE income_statement_quarterly SET net_income = NULL WHERE ticker = 'MSFT' AN
    ```
 
    `forecast_start` = day after last actual quarter.
+
+---
+
+## Segment Charts
+
+For granular segment-level data (Cloud margin, product mix, etc.), use the segment endpoint:
+
+```bash
+# Cloud margin trajectory
+curl "http://localhost:5000/api/chart/segment?ticker=GOOGL&segments=cloud&metric=margin" \
+  -o investing/attachments/goog-cloud-margin.png
+
+# Cloud vs Services operating income
+curl "http://localhost:5000/api/chart/segment?ticker=GOOGL&segments=cloud,services&metric=operating_income&chart_type=bar" \
+  -o investing/attachments/goog-cloud-vs-services-opex.png
+
+# Services product revenue mix
+curl "http://localhost:5000/api/chart/segment?ticker=GOOGL&segments=search,youtube,network,subs&metric=revenue" \
+  -o investing/attachments/goog-services-product-mix.png
+```
+
+| Parameter | Description |
+|-----------|-------------|
+| `ticker` | Required. Ticker symbol (e.g., GOOGL) |
+| `segments` | Required. Comma-separated segments (e.g., cloud,services) |
+| `metric` | Required. `revenue`, `operating_income`, or `margin` |
+| `chart_type` | Optional. `line` (default) or `bar` |
+| `width`, `height` | Optional. Image dimensions |
+
+### Adding Segment Data
+
+Data lives in `segment_quarterly` table (normalized format):
+
+```sql
+-- Schema
+CREATE TABLE segment_quarterly (
+    ticker TEXT,
+    fiscal_date_ending TEXT,  -- YYYY-MM-DD
+    segment TEXT,             -- cloud, services, search, youtube, etc.
+    metric TEXT,              -- revenue, operating_income, margin
+    value REAL,
+    PRIMARY KEY (ticker, fiscal_date_ending, segment, metric)
+);
+
+-- Insert example
+INSERT INTO segment_quarterly VALUES
+('GOOGL', '2025-09-30', 'cloud', 'margin', 23.7),
+('GOOGL', '2025-09-30', 'cloud', 'revenue', 15.2),
+('GOOGL', '2025-09-30', 'cloud', 'operating_income', 3.6);
+```
+
+### Workflow
+
+1. **Extract from 10-Q** using SEC filing script + Task agent
+2. **Insert to database** using SQL inserts
+3. **Generate charts** using segment endpoint
+4. **Embed in notes** with interpretation captions
