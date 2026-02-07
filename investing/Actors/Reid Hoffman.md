@@ -108,6 +108,44 @@ One of original OpenAI supporters.
 
 ---
 
+## Epstein connection (2026 DOJ revelations)
+
+Hoffman was a **hub** in Epstein's tech network — more than a passing acquaintance.
+
+### Role as introducer
+
+| Introduction | Detail |
+|--------------|--------|
+| [[Peter Thiel]] → Epstein | Led to $40M [[Valar Ventures]] investment |
+| Mark Zuckerberg → Epstein | Formal intro after 2015 dinner |
+| MIT Media Lab | Served on Advisory Board (2014-2021) via Joi Ito |
+
+### Access and meetings
+
+| Date | Activity |
+|------|----------|
+| 2015 | "Wild" dinner with Epstein, Musk, Zuckerberg, Thiel |
+| Dec 2014 | Stayed overnight at Epstein's Manhattan townhouse |
+| Dec 2014 | Breakfast party with Epstein and Bill Gates |
+| 2016-2018 | 3 meetings + 3 Skype calls (per calendar entries) |
+
+Also discussed visits to Epstein's island and New Mexico ranch.
+
+### Timeline discrepancy
+
+| Claim | Reality |
+|-------|---------|
+| 2019 (Axios): "Last meeting was 2015" | Calendar showed meetings in 2016 and 2018 |
+| 2026: Admitted "mistaken" | After DOJ documents contradicted him |
+
+### Current status
+
+- Trump administration ordered investigation into Hoffman's Epstein ties
+- Multiple public apologies: "I helped repair his reputation and perpetuate injustice"
+- No victim allegations against Hoffman personally
+
+---
+
 ## Related
 
 ### [[PayPal]] mafia
@@ -121,6 +159,9 @@ One of original OpenAI supporters.
 - [[Greylock Partners]] — partner
 - [[Inflection AI]] — co-founded
 
+### Controversy
+- [[Jeffrey Epstein]] — introduced Thiel, Zuckerberg; stayed at townhouse
+
 ---
 
-*Created 2026-01-16*
+*Updated 2026-02-07*
