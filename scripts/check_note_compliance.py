@@ -174,6 +174,9 @@ class NoteChecker:
 
         if "aliases:" not in frontmatter:
             issues.append(Issue("warning", "frontmatter", "Missing aliases in frontmatter"))
+        elif "[[" in frontmatter:
+            # Wikilinks in aliases cause Obsidian type mismatch errors
+            issues.append(Issue("error", "frontmatter", "Aliases contain [[wikilinks]] — use plain text only"))
 
         return issues
 
