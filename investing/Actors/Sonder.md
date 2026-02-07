@@ -42,9 +42,15 @@ The model required constant expansion to amortize fixed lease costs. When growth
 | 2022 | $465M | -$245M | — |
 | 2023 | $602M | -$296M | — |
 | 2024 | $621M | -$224M | — |
-| H1 2025 | $266M | -$101M | **~$1.4B** |
+| H1 2025 | $266M | -$101M | — |
 
 *Source: SEC 10-K and 10-Q filings*
+
+**Balance sheet at bankruptcy (Dec 31, 2024):**
+- Cash: $21M (down from $96M)
+- Operating lease liabilities: $1.18B
+- **Accumulated deficit: $1.58B**
+- **Stockholders' deficit: $599M**
 
 Revenue nearly tripled from 2021 to 2024, but losses never stopped. The company burned through $1B+ in cash while growing — classic "growth at all costs" until the capital markets closed.
 
@@ -90,7 +96,7 @@ Unlike Chapter 11 (reorganization), Chapter 7 means liquidation — shareholders
 - **Tech wrapper doesn't change unit economics** — app-based check-in and design aesthetics don't solve the fundamental profitability problem
 - **SPAC timing matters** — went public at peak SPAC mania, never traded above $10.50; retail investors down 98%+
 - **Partnership dependency is risk** — betting survival on a single integration (Marriott) created single point of failure
-- **Accumulated deficits compound** — $1.4B hole by end of 2023 meant any setback was fatal
+- **Accumulated deficits compound** — $1.58B hole with $21M cash meant any setback was fatal
 
 ## Comparison to LuxUrban
 
