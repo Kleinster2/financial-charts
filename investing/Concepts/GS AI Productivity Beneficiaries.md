@@ -1,4 +1,6 @@
-#concept #index #ai #productivity #goldman
+---
+tags: [basket, ai, productivity, goldman]
+---
 
 # GS AI Productivity Beneficiaries (GSXUPROD)
 

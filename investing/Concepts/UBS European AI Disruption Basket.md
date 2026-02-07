@@ -1,4 +1,6 @@
-#concept #index #ai #disruption #europe
+---
+tags: [basket, ai, disruption, ubs, europe]
+---
 
 # UBS European AI Disruption Basket
 

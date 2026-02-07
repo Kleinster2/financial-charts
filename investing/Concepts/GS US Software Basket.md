@@ -1,4 +1,6 @@
-#concept #index #software #goldman
+---
+tags: [basket, software, goldman]
+---
 
 # GS US Software Basket
 
