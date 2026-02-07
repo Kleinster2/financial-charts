@@ -41,6 +41,7 @@ git restore "path/to/file.md"             # restore if damaged
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
   - Auto-detects most recent 10-K or 10-Q (use `--type` to force specific)
+  - Preserves tables as markdown (financial data structure intact)
   - 10-K = annual (includes Q4), 10-Q = Q1/Q2/Q3 only
   - Avoid 8-K for earnings — just a wrapper; numbers are in exhibits
   - Workflow: download → Task agent extracts what's relevant
