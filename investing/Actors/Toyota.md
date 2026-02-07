@@ -113,13 +113,30 @@ Toyota was better prepared than some competitors due to inventory practices.
 
 ---
 
+## Q4 FY2025 earnings (Feb 6, 2026)
+
+**Beat on both lines, CEO transition announced.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Operating income | ¥1.2T ($7.6B) | Below YoY but beat |
+| Revenue | ¥13.4T ($85B) | ¥12.8T ($81B) |
+
+**CEO change:** CFO [[Kenta Kon]] becomes CEO and president in April 2026, replacing [[Koji Sato]]. Sato remains vice chairman.
+
+**Management commentary:** "Despite the continued impact of US tariffs, strong demand supported by product competitiveness has led to increased sales volumes, and we achieved a high level of profit due to price revisions."
+
+Stock +2% on results.
+
+---
+
 ## Financial position
 
 | Metric | Value |
 |--------|-------|
 | Ticker | TM (NYSE), 7203.T (Tokyo) |
 | Market cap | ~$250B |
-| Revenue (FY24) | ~$300B |
+| Revenue (FY25) | ~$320B |
 | Vehicles sold | ~10M/year |
 | Operating margin | ~10% |
 | P/E | ~8x |
@@ -155,7 +172,7 @@ Toyota was better prepared than some competitors due to inventory practices.
 | Rapidus | Investor |
 | Woven City | Under construction |
 
-*Updated 2026-01-04*
+*Updated 2026-02-06 — Q4 FY2025 earnings, CEO succession*
 
 ---
 

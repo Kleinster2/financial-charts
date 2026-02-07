@@ -66,4 +66,6 @@ tags: [actor, tobacco, consumer, smoke-free]
 | Operating margin | 40.4% | — |
 | 2026 EPS guidance | $8.38-$8.53 (+11-13%) | — |
 
-Fifth consecutive year of volume growth. Stock -2.75% on slight revenue miss.
+**Smoke-free segment:** Q4 shipment volumes +8.5% YoY, cigarette volumes -2.2%. Smoke-free now 41% of revenue.
+
+Fifth consecutive year of volume growth. Stock -2% premarket on weaker-than-expected FY26 profit guidance.
