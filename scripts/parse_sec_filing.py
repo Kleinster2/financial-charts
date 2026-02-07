@@ -2,17 +2,18 @@
 """
 Download SEC EDGAR filings and output clean text.
 
-Downloads 10-K/10-Q filings, strips HTML, outputs text for context ingestion.
+Downloads most recent 10-K or 10-Q, strips HTML, outputs text for context ingestion.
 Analysis is done by the LLM, not by keyword matching.
 
 Usage:
-    # Download latest 10-K as clean text
+    # Download most recent filing (10-K or 10-Q, whichever is latest)
     python scripts/parse_sec_filing.py AAPL
 
     # Save to file for subagent ingestion
-    python scripts/parse_sec_filing.py AAPL --save aapl-10k.txt
+    python scripts/parse_sec_filing.py AAPL --save aapl-filing.txt
 
-    # 10-Q instead of 10-K
+    # Force specific type
+    python scripts/parse_sec_filing.py AAPL --type 10-K
     python scripts/parse_sec_filing.py AAPL --type 10-Q
 
     # By CIK or direct URL
@@ -74,8 +75,8 @@ def get_cik_from_ticker(ticker: str) -> str:
     raise ValueError(f"Could not find CIK for ticker: {ticker}")
 
 
-def get_latest_filing_url(cik: str, filing_type: str = "10-K") -> tuple[str, str]:
-    """Get URL of latest filing of given type."""
+def get_latest_filing_url(cik: str, filing_type: str | None = None) -> tuple[str, str]:
+    """Get URL of latest filing. If no type specified, gets most recent 10-K or 10-Q."""
     cik_padded = cik.zfill(10)
     url = f"https://data.sec.gov/submissions/CIK{cik_padded}.json"
     data = fetch_url(url).decode('utf-8')
@@ -86,14 +87,17 @@ def get_latest_filing_url(cik: str, filing_type: str = "10-K") -> tuple[str, str
     accessions = filings.get('accessionNumber', [])
     primary_docs = filings.get('primaryDocument', [])
 
+    # If no type specified, find most recent 10-K or 10-Q
+    target_types = [filing_type] if filing_type else ["10-K", "10-Q"]
+
     for i, form in enumerate(forms):
-        if form == filing_type:
+        if form in target_types:
             accession = accessions[i].replace('-', '')
             doc = primary_docs[i]
             filing_url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{accession}/{doc}"
             return filing_url, form
 
-    raise ValueError(f"No {filing_type} found for CIK {cik}")
+    raise ValueError(f"No {filing_type or '10-K/10-Q'} found for CIK {cik}")
 
 
 def strip_html(html: str) -> str:
@@ -119,7 +123,7 @@ def main():
     parser.add_argument("ticker", nargs="?", help="Stock ticker symbol")
     parser.add_argument("--cik", help="CIK number")
     parser.add_argument("--url", help="Direct filing URL")
-    parser.add_argument("--type", default="10-K", help="Filing type (default: 10-K)")
+    parser.add_argument("--type", help="Filing type (default: most recent 10-K or 10-Q)")
     parser.add_argument("--save", help="Save output to file")
     parser.add_argument("--raw", action="store_true", help="Keep raw HTML instead of stripping")
     parser.add_argument("--quiet", action="store_true", help="Suppress status messages")
