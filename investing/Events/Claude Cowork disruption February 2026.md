@@ -90,7 +90,7 @@ The night before the main selloff, [[Palantir]] held their Q4 2025 earnings call
 - SAP migrations are multi-year, multi-million dollar projects — the bread and butter of enterprise IT consulting
 - Palantir isn't an AI startup making promises — they're a $100B+ company with government and enterprise customers
 - The statement made the Cowork plugins feel less theoretical and more immediate
-- [[SAP]] lost €40B market cap; analysts called the €10B buyback response a "band-aid on a bullet wound"
+- [[SAP]] often cited as losing €40B market cap, but that was primarily the Jan 29 earnings miss (-15%), not the SaaSpocalypse (-4.8% on Feb 3)
 
 The Palantir statement came 4 days after the plugins launch but hours before the main selloff — it may have been the catalyst that turned concern into panic.
 

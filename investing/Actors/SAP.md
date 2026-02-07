@@ -129,6 +129,41 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 
 ---
 
+## Jan-Feb 2026: Earnings miss + SaaSpocalypse
+
+Two separate events hit SAP in quick succession:
+
+### Q4 2025 earnings miss (Jan 29)
+
+| Metric | Actual | Expected | Miss |
+|--------|--------|----------|------|
+| Cloud backlog growth | 16% | 26% | -10pp |
+| Stock move | **-15.2%** | — | Biggest drop since Oct 2020 |
+
+Management guided 2026 cloud revenue growth to 23-25% (down from 26% in 2025). Market punished the deceleration.
+
+### SaaSpocalypse (Feb 3-4)
+
+| Date | Price | Move | Event |
+|------|-------|------|-------|
+| Jan 29 | $200.21 | -15.2% | Earnings miss |
+| Feb 2 | $207.23 | +3.1% | Recovery |
+| Feb 3 | $197.29 | **-4.8%** | SaaSpocalypse |
+
+The [[Claude Cowork disruption February 2026|SaaSpocalypse]] move was -4.8% — much smaller than the earnings drop. SAP's €40B market cap loss was primarily earnings-driven, not AI-fear-driven.
+
+### Palantir statement (Feb 2)
+
+[[Palantir]] CTO Shyam Sankar on Q4 earnings call:
+
+> "AIFD is now capable of powering complex SAP ERP migrations from ECC to S/4. Years of work now done in as little as two weeks."
+
+**The threat:** SAP's S/4HANA migration business depends on complexity. If AI agents can do migrations in 2 weeks, the multi-year consulting moat evaporates. This directly challenges the 2027 forcing function thesis.
+
+**Counter-thesis:** Palantir statement may be marketing — real enterprise ERP migrations involve data quality, change management, and regulatory compliance that AI can't shortcut. But the narrative damage was done.
+
+---
+
 ## Investment relevance
 
 **Why SAP matters:**
@@ -157,6 +192,10 @@ Cloud mix increasing = more predictable, higher-margin revenue.
 - [[Cloud vs on-premise valuation]] — explains re-rating
 - [[SaaS]] — sector
 
+### Events
+- [[Claude Cowork disruption February 2026]] — SaaSpocalypse (SAP -4.8% on Feb 3)
+- [[Palantir]] — SAP ERP migration statement
+
 ### Sector
 - [[SaaS]] — sector hub
 
@@ -168,4 +207,4 @@ Sources:
 - [[[Nasdaq]] - SAP Q4 Earnings](https://www.nasdaq.com/articles/saps-q4-earnings-revenues-y-y-cloud-demand-2025-view-updated)
 - [Straits Research - S/4HANA Market](https://straitsresearch.com/report/sap-s-4hana-application-market)
 
-*Created 2026-01-25*
+*Created 2026-01-25 · Updated 2026-02-07 (Jan-Feb 2026 events)*
