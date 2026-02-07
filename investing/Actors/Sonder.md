@@ -30,9 +30,14 @@ Tech-enabled hospitality company that leased apartments and boutique hotels, pro
 
 Sonder leased apartments and boutique hotel properties on long-term master leases, then operated them as short-term rentals with tech-enabled service. Design-forward aesthetic, app-based check-in, no front desk. Targeted millennial/Gen-Z travelers seeking hotel alternatives.
 
-At peak: ~9,000 units across 40+ cities globally.
+At peak: ~16,000 units (total portfolio). By Dec 2024: 9,900 live units at 195 properties across 40+ cities.
 
-The model required constant expansion to amortize fixed lease costs. When growth stalled, the burn rate became unsustainable.
+**Cost structure (2024):**
+- Cost of revenue: 61% of revenue (high for "tech")
+- Operations & support: 30% of revenue
+- G&A: 20% of revenue
+
+The model required constant expansion to amortize fixed lease costs. When growth stalled, the burn rate became unsustainable. Portfolio shrank 33% (16,000 → 10,700) as they exited unprofitable leases.
 
 ## Financial trajectory
 
@@ -60,13 +65,36 @@ Revenue nearly tripled from 2021 to 2024, but losses never stopped. The company 
 - Bookable nights down 21% YoY as portfolio optimization (unit exits) accelerated
 - RevPAR improved to $184 (+13%) but couldn't offset volume decline
 
+## Going concern warning
+
+The FY 2024 10-K (filed July 2025) contained explicit going concern language:
+
+> "Our management has concluded there is **substantial doubt about the Company's ability to continue as a going concern**, which is not alleviated, for one year from the date of issuance of this Annual Report."
+
+> "We believe that our existing cash on hand combined with our anticipated estimated Adjusted FCF **may be insufficient to fund our operations and debt obligations for at least the next 12 months**."
+
+Management's stated plans to address the going concern:
+- Engage financial advisor for strategic alternatives
+- Cost optimization initiatives
+- Portfolio optimization (exit underperforming properties)
+- Improve revenue through Marriott integration
+
+Four months later, they filed Chapter 7.
+
 ## The Marriott deal that failed
 
-**Aug 2024:** Sonder announced a licensing deal with [[Marriott]] — thousands of units would join Marriott's distribution and Bonvoy loyalty program. Positioned as a lifeline.
+**Aug 2024:** Sonder announced a licensing deal with [[Marriott]]:
+- Units join Marriott distribution and Bonvoy loyalty program
+- Marriott invested **$15M "Key Money"** as part of the deal
+- Positioned as lifeline for struggling company
 
-**Nov 2025:** Marriott terminated the agreement. Interim CEO Janice Sears blamed "unexpected challenges in aligning technology frameworks" — the integration required more investment than anticipated, and revenue declined sharply during the transition.
+**Q2 2025:** Full Marriott integration completed — all Sonder properties available on Marriott.com under "Sonder by Marriott Bonvoy" collection.
 
-One day after Marriott pulled out, Sonder announced it would wind down operations immediately.
+**Nov 9, 2025:** Marriott terminated the agreement, citing Sonder's contractual default. Inventory immediately removed from all Marriott channels.
+
+**Nov 10, 2025:** Board concluded company could no longer operate as going concern. Announced immediate wind-down.
+
+Interim CEO Janice Sears blamed "unexpected challenges in aligning technology frameworks" — integration required more investment than anticipated, revenue declined during transition.
 
 ## Timeline
 
@@ -97,6 +125,7 @@ Unlike Chapter 11 (reorganization), Chapter 7 means liquidation — shareholders
 - **SPAC timing matters** — went public at peak SPAC mania, never traded above $10.50; retail investors down 98%+
 - **Partnership dependency is risk** — betting survival on a single integration (Marriott) created single point of failure
 - **Accumulated deficits compound** — $1.58B hole with $21M cash meant any setback was fatal
+- **Going concern warnings are real** — 10-K explicitly flagged substantial doubt; bankruptcy followed 4 months later
 
 ## Comparison to LuxUrban
 
