@@ -54,6 +54,10 @@ git restore "path/to/file.md"             # restore if damaged
   python scripts/parse_sec_filing.py AMZN --type 10-Q --count 4 --save /tmp/amzn
   # Creates: /tmp/amzn-10-Q-2025-11-01.txt, etc.
   ```
+  - **Always extract granular segment data** — not just top-level revenue/margins
+    - Break out each business segment (revenue, operating income, margin)
+    - Geographic breakdown if material
+    - Product line detail where reported
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
