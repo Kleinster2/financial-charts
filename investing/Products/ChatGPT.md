@@ -1,9 +1,17 @@
 ---
-aliases: [GPT-5, GPT-4, ChatGPT Plus, ChatGPT Pro]
+aliases:
+  - ChatGPT
+  - ChatGPT Plus
+  - ChatGPT Pro
+tags:
+  - product
+  - ai
+parent_actor: "[[OpenAI]]"
 ---
-#product-family #ai
 
-**ChatGPT** — [[OpenAI]]'s AI chatbot. Largest consumer AI product. 700M weekly active users.
+# ChatGPT
+
+[[OpenAI]]'s consumer AI interface. 700M weekly active users. Powered by [[GPT]] and [[o]] model families.
 
 ---
 
@@ -43,41 +51,16 @@ Go tier ($8/mo) launched 2026 — cheaper entry point with "Instant" model optim
 
 ---
 
-## Version history
+## Models
 
-### GPT series (general models)
+Powered by two model families:
 
-| Model | Release | Key changes |
-|-------|---------|-------------|
-| GPT-3.5 | Nov 2022 | ChatGPT launch model |
-| GPT-3.5 Turbo | Mar 2023 | Faster, cheaper API |
-| **GPT-4** | Mar 2023 | Multimodal, major reasoning leap |
-| GPT-4 Turbo | Nov 2023 | 128K context, cheaper |
-| GPT-4o | May 2024 | Omni — native voice, vision, speed |
-| GPT-4o mini | Jul 2024 | Cheap/fast tier |
-| **GPT-5** | 2025 | Current flagship |
-| GPT-5.2 "Instant" | 2026 | Speed-optimized for Go tier |
+| Family | Type | Examples |
+|--------|------|----------|
+| [[GPT]] | General-purpose | GPT-4o, GPT-5 |
+| [[o]] | Reasoning | o1, o3 |
 
-### o-series (reasoning models)
-
-| Model | Release | Key changes |
-|-------|---------|-------------|
-| **o1-preview** | Sep 2024 | Chain-of-thought reasoning |
-| o1-mini | Sep 2024 | Faster reasoning |
-| **o1** | Dec 2024 | Full reasoning model |
-| o1 Pro | Dec 2024 | Pro-tier exclusive, extended thinking |
-| **o3** | 2025 | Current reasoning flagship |
-| o3-mini | 2025 | Efficient reasoning |
-| o4-mini | 2026 | Latest reasoning model |
-
-### Specialized models
-
-| Model | Purpose |
-|-------|---------|
-| DALL-E 3 | Image generation |
-| Whisper | Speech-to-text |
-| TTS | Text-to-speech |
-| Codex | Code generation (deprecated) |
+See product notes for version history.
 
 ---
 
@@ -127,9 +110,9 @@ ChatGPT is 75% of OpenAI's revenue. [[Consumer]]-heavy (unlike [[Anthropic]]'s 8
 ## Related
 
 - [[OpenAI]] — parent company
+- [[GPT]] — general model family
+- [[o]] — reasoning model family
 - [[Claude]] — primary competitor ([[Anthropic]])
 - [[Gemini]] — [[Google]] competitor
 - [[Sam Altman]] — OpenAI CEO
 - [[Microsoft]] — OpenAI's primary investor/partner
-- [[OpenClaw]] — open-source agent that can use GPT as backend
-- [[Agentic AI]] — product direction
