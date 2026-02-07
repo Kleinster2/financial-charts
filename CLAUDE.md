@@ -41,7 +41,7 @@ git restore "path/to/file.md"             # restore if damaged
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
   - Downloads 10-K/10-Q from EDGAR, strips HTML, outputs clean text (~200K chars, fits in context)
-  - **Use 10-K for annual, 10-Q for quarterly** — these contain the actual financials
+  - **10-K = annual (includes Q4), 10-Q = Q1/Q2/Q3 only** — Q4 numbers are in the 10-K, not a separate 10-Q
   - Avoid 8-K for earnings — it's just a wrapper; the numbers are in exhibits
   - Workflow: download filing → Task agent reads and extracts what's relevant to the note
   - LLM does the analysis — no keyword matching assumptions
