@@ -1,5 +1,5 @@
 ---
-aliases: [hospitality industry, lodging industry]
+aliases: [lodging industry]
 ---
 #sector #realestate #hospitality
 
@@ -126,6 +126,12 @@ Lower operating costs (less housekeeping), stickier guests, higher margins. Key 
 
 ---
 
+## Taxonomy note
+
+> **Correlation cluster validation pending.** Current placement under [[Real estate]] reflects asset economics, but asset-light operators (MAR, HLT) have consumer-discretionary earnings tied to travel demand. Future analysis should test whether hotel stocks correlate more with REITs, OTAs ([[Booking Holdings|BKNG]], [[Expedia|EXPE]]), or form their own distinct cluster.
+
+---
+
 ## Related
 
 - [[Marriott]] — largest hotel company
@@ -136,3 +142,4 @@ Lower operating costs (less housekeeping), stickier guests, higher margins. Key 
 - [[Real estate cycles]] — hospitality highly cyclical
 - [[Travel recovery]] — post-COVID dynamics
 - [[Multifamily housing]] — adjacent RE sector
+- [[LuxUrban Hotels]] — asset-light fraud, Chapter 7 (2025)
