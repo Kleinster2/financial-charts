@@ -107,6 +107,23 @@ Major Republican donor (Steve Bannon, Breitbart, Trump). Resigned as co-CEO in 2
 
 ---
 
+## Epstein investment
+
+Jeffrey Epstein invested in Renaissance via a Citigroup feeder fund:
+
+| Detail | Value |
+|--------|-------|
+| Date | August 2006 |
+| Amount | $1M |
+| Vehicle | Citigroup/Smith Barney feeder fund |
+| Context | Weeks after Epstein charged with soliciting prostitution |
+
+Greg Hersch, a wealth manager at Smith Barney, invited Epstein to invest as the fund neared its 499-investor cap. Epstein's Financial Trust Company made the investment.
+
+**Note:** This was an external fund (likely RIEF), not the employees-only Medallion Fund. Renaissance's external funds accept outside capital; Medallion has been closed to outsiders since 1993.
+
+---
+
 ## Political donations
 
 Renaissance employees span political spectrum:
@@ -171,4 +188,4 @@ Sources:
 - [Quartr - Medallion Fund](https://quartr.com/insights/edge/renaissance-technologies-and-the-medallion-fund)
 - [QuantifiedStrategies - Medallion returns](https://www.quantifiedstrategies.com/decoding-the-medallion-fund-what-we-know-about-its-annual-returns/)
 
-*Updated 2026-01-12*
+*Updated 2026-02-07*

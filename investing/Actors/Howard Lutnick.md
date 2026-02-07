@@ -66,6 +66,22 @@ aliases: [Lutnick]
 
 ---
 
+## Epstein connection (2026 DOJ revelations)
+
+2026 document releases revealed deeper ties than previously known, contradicting Lutnick's claims he avoided Epstein after 2005:
+
+| Year | Contact |
+|------|---------|
+| 2011-12 | Correspondence via intermediaries ("Howard Lutnick returned your call") |
+| 2012 | **Adfin investment** — business partnership via Southern Trust Company (9 shareholders) |
+| 2012 | Assistant arranged St. Thomas holiday meeting |
+| 2015 | Sent Epstein invite to "intimate fundraising event with Hillary Clinton" |
+| 2017 | Epstein agreed to $50K donation to dinner honoring Lutnick |
+
+Contradicts confirmation hearing testimony minimizing Epstein relationship.
+
+---
+
 *Created 2026-01-17*
 
 ---
@@ -79,3 +95,4 @@ aliases: [Lutnick]
 - [[Taiwan]] — trade deal partner
 - [[Scott Bessent]] — Treasury counterpart
 - [[Tariffs]] — policy tool
+- [[Jeffrey Epstein]] — business partner (Adfin, 2012)
