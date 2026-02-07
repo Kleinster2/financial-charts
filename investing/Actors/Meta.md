@@ -5,10 +5,30 @@ aliases: [META]
 
 **Meta (Facebook)** — Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
+---
+
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| Founder, Chairman & CEO | **Mark Zuckerberg** | 2004 |
+| CFO | Susan Li | 2022 |
+| COO | Javier Olivan | 2022 |
+| Chief Product Officer | Chris Cox | 2014 (returned 2020) |
+| Chief Global Affairs | Joel Kaplan | 2025 |
+| CTO | Andrew Bosworth | 2022 |
+
+Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]], [[Daniel Gross]].
+
+---
+
+## Charts
+
 ![[meta-vs-peers.png]]
 *Meta +560% since 2018 — outperformed [[Nasdaq|QQQ]] (+285%) massively post-2022 "Year of Efficiency" turnaround.*
 
-*vs [[Nasdaq|QQQ]]*
+![[meta-fundamentals.png]]
+*Meta revenue and net income*
 
 ---
 
@@ -113,16 +133,18 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 
 ---
 
-## Nuclear energy (Jan 2026)
+## Nuclear energy (Feb 2026 update)
 
 **Meta becoming one of the largest corporate nuclear buyers in US history:**
 
-| Partner | Deal |
-|---------|------|
-| **[[Constellation Energy]]** | $10B Louisiana data center |
-| **[[Vistra]]** | 2.6 GW from 3 OH/PA nuclear plants (20-year PPA) |
-| **[[TerraPower]]** | Advanced reactor partnership |
-| **[[Oklo]]** | Small modular reactor deal |
+| Partner | Deal | Capacity |
+|---------|------|----------|
+| **[[Constellation Energy]]** | $10B Louisiana data center | — |
+| **[[Vistra]]** | 20-year PPA, 3 OH/PA plants | 2.6 GW |
+| **[[TerraPower]]** | Advanced reactor partnership | TBD |
+| **[[Oklo]]** | SMRs (by 2032) | 690 MW |
+
+**Feb 2026 announcement:** Joel Kaplan stated these deals make "Meta one of the most significant corporate purchasers of nuclear energy in American history." Combined capacity up to **6.6 GW** over 20 years.
 
 **Vistra deal details (Jan 2026):**
 - 20-year PPA at premium price
@@ -132,9 +154,7 @@ Wang hired summer 2025, Friedman and Gross joined June 2025. Meta also acquiring
 - Vistra claims deal underwrites license extension applications
 - Stock fell on PJM's BYOG proposal — signals era of existing-capacity grabs may be ending
 
-**Capacity:** Up to **6.6 GW** of new and existing clean energy by 2035.
-
-**Jobs:** Thousands of construction jobs, hundreds of long-term operational positions.
+**New nuclear capacity:** 2 SMRs under construction expected online by 2032 (690 MW combined).
 
 **Context:** Hyperscalers racing to secure nuclear for AI data center power. See also [[Microsoft]] Constellation deal, [[Amazon]] nuclear investments, [[Oracle]] energy strategy.
 
@@ -339,7 +359,7 @@ See [[Short interest]] for interpretation framework.
 | Infra lead | Dina Powell McCormick (Jan 2026) |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-[[Tesla]] |
 
-*Updated 2026-01-29*
+*Updated 2026-02-06 — 6.6 GW nuclear announcement*
 
 ---
 

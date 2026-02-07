@@ -227,13 +227,31 @@ Despite expansion, shortage expected to persist through 2027 — capacity takes 
 
 ---
 
-*Updated 2026-01-23*
+## Qualcomm Q1 FY2026 confirmation (Feb 4, 2026)
+
+**Direct from earnings call — memory shortage now affecting guidance:**
+
+| Metric | Value |
+|--------|-------|
+| Q2 guidance | $10.2B-$11.0B (below $11B Street) |
+| Cause | Memory shortage constraining OEMs |
+| Duration | "Can't predict if this continues for '27 or '28" |
+| China OEMs | Reducing build plans, cutting channel inventory |
+
+CEO Amon confirmed memory is now binding constraint on handset volumes through FY2026. Stock fell 8.5% despite Q1 beat.
+
+**Key quote:** OEM customers "reducing build plans and channel inventory" — not just higher costs, but actual capacity constraints preventing production.
+
+---
+
+*Updated 2026-02-06*
 
 ## Related
 
 - [[SK Hynix]] — beneficiary (HBM leader, pricing power)
 - [[Samsung]] — beneficiary (memory margins expand)
 - [[Micron]] — beneficiary (same dynamics)
+- [[Qualcomm]] — victim (Q1 FY2026 guidance cut, OEMs cutting builds)
 - [[Export controls]] — driver ([[China]] fabs constrained)
 - [[Memory shortage victims]] — losers (OEMs, consumers)
 - [[HBM]] — cause (HBM cannibalizes commodity DRAM)

@@ -59,7 +59,8 @@ class NoteChecker:
         # Determine note type from hashtags
         note_type = self._get_note_type(content)
 
-        # Missing links check applies to all note types
+        # Link checks apply to all note types
+        issues.extend(self._check_dead_links(content, filepath))
         if self.suggest_links and note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
@@ -81,6 +82,7 @@ class NoteChecker:
         is_person = "#person" in content
         is_geography = "#geography" in content or any(tag in content for tag in ["#country", "#region", "#city"])
         is_vc = "#vc" in content
+        is_investor = "#investor" in content or "#hedgefund" in content or "#pe" in content
         is_product = "#product" in content  # Products belong to parent companies
 
         # Structure checks
@@ -88,9 +90,6 @@ class NoteChecker:
         issues.extend(self._check_related_section(content, filepath))
         issues.extend(self._check_quick_stats(content, filepath))
         issues.extend(self._check_table_formatting(content, filepath))
-
-        # Link checks
-        issues.extend(self._check_dead_links(content, filepath))
 
         # Chart checks (public companies and ETFs, not products)
         if (is_public or is_etf) and not is_product:
@@ -110,8 +109,8 @@ class NoteChecker:
         if is_public and not is_etf and not is_person and not is_geography and not is_vc and not is_product:
             issues.extend(self._check_historical_financials(content, filepath))
 
-        # Cap table checks (private companies, not products)
-        if is_private and not is_person and not is_geography and not is_vc and not is_product:
+        # Cap table checks (private companies, not investment firms or products)
+        if is_private and not is_person and not is_geography and not is_vc and not is_investor and not is_product:
             issues.extend(self._check_cap_table(content, filepath))
             issues.extend(self._check_funding_rounds(content, filepath))
             issues.extend(self._check_ownership_table(content, filepath))
@@ -275,6 +274,133 @@ class NoteChecker:
                 issues.append(Issue("warning", "dead-link", f"Dead link: [[{link}]]"))
 
         return issues
+
+    def get_dead_links(self, content: str) -> list[str]:
+        """Get list of dead links from content."""
+        wikilinks = re.findall(r'\[\[([^\]|\\]+)(?:\\?\|[^\]]+)?\]\]', content)
+        dead = []
+        seen = set()
+        for link in wikilinks:
+            if link.endswith(('.png', '.jpg', '.jpeg', '.gif', '.svg')):
+                continue
+            if link in seen:
+                continue
+            seen.add(link)
+            if link not in self.existing_notes:
+                dead.append(link)
+        return dead
+
+    def create_stub_note(self, name: str, source_filepath: Path) -> Path:
+        """Create a minimal stub note for a dead link.
+
+        Returns the path to the created stub.
+        """
+        # Determine folder based on name heuristics
+        # People: names with spaces that look like "First Last"
+        # Concepts: abstract terms, often lowercase-ish or descriptive
+        # Default to Actors for companies/entities
+
+        words = name.split()
+        is_person = (
+            len(words) == 2 and
+            words[0][0].isupper() and
+            words[1][0].isupper() and
+            not any(corp in name for corp in ['Inc', 'Corp', 'Ltd', 'LLC', 'Co', 'Group', 'Fund', 'Capital', 'Partners', 'Ventures'])
+        )
+
+        is_concept = any(keyword in name.lower() for keyword in [
+            'theory', 'effect', 'law', 'principle', 'strategy', 'model',
+            'cycle', 'thesis', 'hypothesis', 'paradigm', 'framework',
+            'advertising', 'market', 'sector', 'industry', 'trend',
+            'shortage', 'crisis', 'boom', 'bubble', 'war', 'disruption'
+        ])
+
+        # Determine folder
+        if is_concept:
+            folder = self.vault_root / "Concepts"
+            tags = "#concept"
+        elif is_person:
+            folder = self.vault_root / "Actors"
+            tags = "#actor #person"
+        else:
+            folder = self.vault_root / "Actors"
+            tags = "#actor"
+
+        stub_path = folder / f"{name}.md"
+
+        # Don't overwrite existing files
+        if stub_path.exists():
+            return stub_path
+
+        # Create stub content
+        if is_person:
+            stub_content = f"""---
+aliases: []
+---
+{tags}
+
+**{name}** —
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Role | |
+
+---
+
+## Related
+
+- [[{source_filepath.stem}]]
+
+"""
+        elif is_concept:
+            stub_content = f"""---
+aliases: []
+---
+{tags}
+
+**{name}** —
+
+---
+
+## Related
+
+- [[{source_filepath.stem}]]
+
+"""
+        else:
+            stub_content = f"""---
+aliases: []
+---
+{tags}
+
+**{name}** —
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | |
+| Market cap | |
+
+---
+
+## Related
+
+- [[{source_filepath.stem}]]
+
+"""
+        stub_path.write_text(stub_content, encoding="utf-8")
+
+        # Add to existing notes index
+        self.existing_notes.add(name)
+
+        return stub_path
 
     def _check_missing_links(self, content: str, filepath: Path) -> list[Issue]:
         """Suggest wikilinks for mentioned notes that aren't linked."""
@@ -491,6 +617,50 @@ class NoteChecker:
 
         if not has_funding_rounds:
             issues.append(Issue("error", "funding-rounds", "Private company missing funding rounds table"))
+            return issues
+
+        # Check for lazy catch-all rows like "Earlier" or "Various"
+        lazy_patterns = [
+            r'\|\s*Earlier\s*\|',
+            r'\|\s*Various\s*\|',
+            r'\|\s*Prior\s*(rounds?)?\s*\|',
+            r'\|\s*Other\s*\|',
+            r'\|\s*Previous\s*\|',
+        ]
+        for pattern in lazy_patterns:
+            if re.search(pattern, content, re.IGNORECASE):
+                issues.append(Issue("warning", "funding-rounds",
+                    "Funding table has catch-all row (Earlier/Various) — expand to individual rounds"))
+                break
+
+        # Check for gaps in series letters
+        # Only look within funding/cap table sections to avoid false positives
+        # from portfolio company mentions
+        funding_section = ""
+        for section_header in ["## Funding", "### Funding", "## Cap table", "### Cap table"]:
+            if section_header in content:
+                start = content.find(section_header)
+                # Find next ## section or end of file
+                next_section = content.find("\n## ", start + 1)
+                if next_section == -1:
+                    funding_section = content[start:]
+                else:
+                    funding_section = content[start:next_section]
+                break
+
+        if funding_section:
+            series_matches = re.findall(r'\|\s*Series\s*([A-Z])\b', funding_section, re.IGNORECASE)
+            if series_matches:
+                series_letters = sorted(set(s.upper() for s in series_matches))
+                if series_letters:
+                    # Check for gaps: if we have Series D, we should have A, B, C
+                    highest = series_letters[-1]
+                    expected = [chr(i) for i in range(ord('A'), ord(highest) + 1)]
+                    missing = [s for s in expected if s not in series_letters]
+                    if missing:
+                        missing_str = ", ".join(f"Series {s}" for s in missing)
+                        issues.append(Issue("warning", "funding-rounds",
+                            f"Funding table missing rounds: {missing_str}"))
 
         return issues
 
@@ -877,6 +1047,7 @@ def main():
     parser.add_argument("--min-mentions", type=int, default=5, help="Minimum mentions for orphan detection (default: 5)")
     parser.add_argument("--suggest-links", action="store_true", help="Suggest missing wikilinks")
     parser.add_argument("--fix", action="store_true", help="Auto-fix missing wikilinks (requires --suggest-links)")
+    parser.add_argument("--create-stubs", action="store_true", help="Create stub notes for dead links")
     parser.add_argument("--all", action="store_true", help="Check all notes (Actors, Concepts, Events, Theses)")
     parser.add_argument("--log", action="store_true", help="Log fixes to today's daily note")
     parser.add_argument("--limit", "-n", type=int, help="Stop after N files")
@@ -954,9 +1125,11 @@ def main():
     total_errors = 0
     total_warnings = 0
     total_fixed = 0
+    total_stubs = 0
     files_checked = 0
     total_files = len(files)
     fixes_by_file = {}  # Track for logging
+    stubs_created = []  # Track created stubs
     files_processed = []  # Track which files were checked
 
     def print_summary(interrupted=False):
@@ -975,6 +1148,10 @@ def main():
                     print(f"  {name}: {links}")
                 else:
                     print(f"  {name}: (no fixes)")
+        if args.create_stubs and stubs_created:
+            print(f"Stubs created: {total_stubs}")
+            for stub_name, source in stubs_created:
+                print(f"  + {stub_name} (from {source})")
         if args.log and fixes_by_file:
             log_to_daily_note(vault_root, fixes_by_file)
 
@@ -1009,6 +1186,16 @@ def main():
             total_fixed += len(fixed)
             if fixed:
                 fixes_by_file[filepath.name] = fixed
+
+        # Create stub notes for dead links if requested
+        if args.create_stubs:
+            content = filepath.read_text(encoding="utf-8")
+            dead_links = checker.get_dead_links(content)
+            for link_name in dead_links:
+                stub_path = checker.create_stub_note(link_name, filepath)
+                if stub_path.name not in [s[0] for s in stubs_created]:
+                    stubs_created.append((stub_path.name, filepath.stem))
+                    total_stubs += 1
 
         # Always show file name when fixing
         if args.fix:

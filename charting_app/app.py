@@ -3280,16 +3280,31 @@ def get_chart_lw():
 
         # Sort series by last value (high to low) if requested
         if sort_by_last and chart_data:
+            # For normalized charts, find common start date (latest start across all tickers)
+            # This matches the JavaScript normalization logic in chart_render.html
+            common_start = None
+            if normalize:
+                start_dates = []
+                for ticker, points in chart_data.items():
+                    if points:
+                        start_dates.append(points[0]['time'])
+                if start_dates:
+                    common_start = max(start_dates)  # Latest start = common start
+
             def get_sort_value(ticker):
                 points = chart_data.get(ticker, [])
                 if not points or len(points) < 2:
                     return float('-inf')
-                if normalize:
-                    # For normalized charts, sort by % change from first to last
-                    first_val = points[0]['value']
+                if normalize and common_start:
+                    # Find value at common start date (first point >= common_start)
+                    base_val = None
+                    for p in points:
+                        if p['time'] >= common_start:
+                            base_val = p['value']
+                            break
                     last_val = points[-1]['value']
-                    if first_val and first_val != 0:
-                        return ((last_val - first_val) / first_val) * 100
+                    if base_val and base_val != 0:
+                        return ((last_val - base_val) / base_val) * 100
                     return float('-inf')
                 else:
                     # For raw charts, sort by last value

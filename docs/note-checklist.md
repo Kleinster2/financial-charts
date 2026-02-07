@@ -7,6 +7,7 @@ Run before marking any vault note "done" (actors, concepts, events, theses, sect
 - [ ] **Web search for recent news** — verify note reflects current reality
 - [ ] Key facts are current (not stale by weeks/months)
 - [ ] Numbers are latest available (MAU, revenue, valuations, ownership stakes)
+- [ ] **No info left outside note** — all research findings go in the note, not just conversation
 
 ## Specificity
 

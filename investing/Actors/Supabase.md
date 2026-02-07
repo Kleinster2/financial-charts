@@ -2,7 +2,7 @@
 
 #actor #startup #private #usa #developer-tools #database
 
-**Supabase** — Open-source Firebase alternative built on Postgres. Backend-as-a-service (BaaS) offering database, auth, storage, edge functions, and realtime subscriptions. **$70M ARR (2025), growing 250% YoY. $5B valuation.** YC W20. Benefiting massively from "vibe coding" boom — ~40% of recent YC batches build on Supabase.
+**Supabase** — Open-source Firebase alternative built on Postgres. Backend-as-a-service (BaaS) offering database, auth, storage, edge functions, and real-time subscriptions. **$70M ARR (2025), growing 250% YoY. $5B valuation.** YC W20. Benefiting massively from "vibe coding" boom — ~40% of recent YC batches build on Supabase.
 
 ---
 

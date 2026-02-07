@@ -19,13 +19,29 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 - [[Taiwan concentration risk]] — the elephant in the room
 - [[Advanced packaging]] — CoWoS monopoly, another moat beyond foundry
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| Chairman & CEO | **Dr. C.C. Wei** | Jun 2024 (CEO since 2018) |
+| Former Chairman | Dr. Mark Liu | 2018-2024 |
+| Founder | Morris Chang | Founded 1987, retired 2018 |
+| CFO | Wendell Huang | 2012 |
+
+Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu retired to found UC Berkeley's Technology Competitiveness center.
+
+---
+
 ## Charts
 
 ![[tsm-90d.png]]
+*TSM 90-day price*
 
 ![[tsm-price-chart.png]]
+*TSM price history*
 
 ![[tsm-fundamentals.png]]
+*TSM revenue and net income*
 
 ## Financials
 
@@ -48,12 +64,13 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 
 ## Key events
 
+- **Japan 3nm production** (Feb 5, 2026) — TSMC announced it will manufacture **3nm AI semiconductors** at Kumamoto Fab 2 in Japan. First advanced node production outside [[Taiwan]]/Arizona. Validates [[Japan]] as AI semiconductor hub.
 - **US-[[Taiwan]] trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total [[Taiwan]] chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for [[Taiwan]]. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
 - **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns [[Taiwan]]/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
 - **Q4 2025 earnings** (Jan 16, 2026) — NT$505.7B ($16B) net income, beat estimates. FY2025 revenue >$100B (first time ever). 2026 capex guidance $52-56B (≥25% growth), revenue growth ~30%.
 - **Q4 2024 record revenue** (Jan 2025) — NT$1,046B (~$33B), first quarter above NT$1T. Beat consensus by ~1%. YoY +20%, gross margin 59%. AI demand driving.
 - [[TSMC Arizona expansion]] — U.S. geographic diversification (land buy Jan 2026)
-- **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
+- **Kumamoto Fab 2 pivot** (Dec 2025) — Scrapping 6nm plan, jumping to 2nm/3nm for autonomous/AI. JASM posted NT$6.2B loss H1 2025 vs Arizona's NT$4.7B profit.
 - **Nanjing VEU expiring Dec 31** — TSMC dismisses concerns, says Chinese clients can access advanced nodes globally. [[Xiaomi]] 3nm chip as proof.
 
 ## Open questions
@@ -78,11 +95,13 @@ TSMC operates as a capital-disciplined monopolist. Its strategy: protect and com
 | **FY2025 revenue** | **>$100B** (first time) |
 | **Short interest** | **0.5%** of float (Jan 2026) |
 
-*Updated 2026-01-17*
+*Updated 2026-02-06 — Japan 3nm announcement*
 
 ![[tsm-price-chart.png]]
+*TSM price history*
 
 ![[tsm-fundamentals.png]]
+*TSM revenue and net income*
 
 ---
 

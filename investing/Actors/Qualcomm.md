@@ -116,22 +116,29 @@ Qualcomm has:
 
 ---
 
-## Q1 FY2026 earnings (Feb 2026)
+## Q1 FY2026 earnings (Feb 4, 2026)
 
 **Record quarter — but memory constraints cloud outlook:**
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Revenue | **$12.3B** (record) | Beat estimates |
-| Non-GAAP EPS | **$3.50** | Upper end of guidance |
+| Revenue | **$12.3B** (record) | Beat $12.21B est. |
+| Non-GAAP EPS | **$3.50** | Beat $3.41 est. |
 | QCT (chips) | $10.6B | Flagship handset + auto strength |
-| QCT Handsets | $7.8B | Premium segment sell-through |
+| QCT Handsets | $7.8B | +3% YoY, premium segment sell-through |
 | QCT [[Automotive]] | $1.1B | +15% YoY, Snapdragon digital chassis |
 | QCT IoT | $1.7B | +9% YoY |
+| QTL (licensing) | $1.6B | +4% YoY, 77% EBT margin |
 
-**Q2 FY2026 guidance:** Revenue $10.2B-$11.0B, EPS $2.45-$2.65 — sequential step-down.
+**Q2 FY2026 guidance:** Revenue $10.2B-$11.0B, EPS $2.45-$2.65 — below Street $11.0B/$2.87.
+
+**Stock reaction:** -8.5% (Feb 4-5). Beat on earnings, sold on guidance.
 
 **Memory constraint (key risk):** DRAM suppliers redirecting capacity to [[HBM]] for AI data centers → industry-wide memory shortage and price increases constraining the handset market through FY2026. This is the same [[HBM]] demand surge benefiting [[SK Hynix]] and [[Micron]] but squeezing downstream OEMs.
+
+**CEO Amon:** "Can't really predict if this will continue for '27 or '28." Several OEMs, especially in [[China]], reducing build plans.
+
+**Samsung Galaxy S26:** Qualcomm expects "approximately 75% share" — validation of premium handset positioning.
 
 **Acquisitions completed:**
 - **[[Alphawave Semi]]** — high-speed wired connectivity IP
@@ -199,7 +206,7 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 
 ---
 
-*Updated 2026-02-05*
+*Updated 2026-02-06 — Q1 FY2026 stock reaction*
 
 ---
 

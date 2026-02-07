@@ -9,7 +9,7 @@ aliases: [PYPL]
 
 ## Q4 2025 earnings (Feb 3, 2026)
 
-**Major miss. Stock -15% premarket. New CEO named.**
+**Major miss. Stock -20%. New CEO named.**
 
 | Metric | Actual | Expected |
 |--------|--------|----------|
@@ -24,7 +24,7 @@ aliases: [PYPL]
 
 **CEO change:** HP's Enrique Lores named president and CEO, effective March 1. Alex Chriss out after ~2 years.
 
-**First dividend:** Declared cash dividend (payable March 25).
+**First dividend:** $0.14/share (ex-date March 4, payable March 25).
 
 **The problem:** Branded checkout losing share to Apple Pay, Shop Pay. Turnaround not working.
 
@@ -81,8 +81,8 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 
 | Metric | Value |
 |--------|-------|
-| Active accounts | 430M+ |
-| Payment volume | $1.5T+ annually |
+| Active accounts | 439M |
+| Payment volume | $1.5T+ annually ($475B Q4 2025) |
 | Merchants | 35M+ |
 | Venmo users | 90M+ |
 
@@ -112,12 +112,12 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 ## Investment case
 
 **Bull:**
-- Massive scale (430M accounts)
+- Massive scale (439M accounts)
 - Venmo monetization opportunity
 - Braintree growth
 - PYUSD stablecoin potential
-- Valuation compressed
-- New CEO (Alex Chriss) turnaround
+- Valuation compressed (50% below 52-week high)
+- New CEO (Enrique Lores, ex-HP) fresh start
 
 **Bear:**
 - [[Checkout wars]] structural loss — Apple Pay, Shop Pay taking share
@@ -126,7 +126,8 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 - Venmo still not profitable
 - Growth deceleration
 - PayPal "mafia" talent long gone
-- New CEO (third in 3 years) — turnaround fatigue
+- Third CEO in 3 years — turnaround fatigue
+- Withdrew 2027 guidance — no longer committing to investor day targets
 
 ---
 
@@ -135,12 +136,12 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 | Metric | Value |
 |--------|-------|
 | Ticker | PYPL (NASDAQ) |
-| Market cap | ~$85B |
-| Revenue (TTM) | ~$31B |
-| Active accounts | 430M+ |
+| Market cap | ~$70B |
+| Revenue (TTM) | ~$32B |
+| Active accounts | 439M |
 | Payment volume | $1.5T+ |
 | Founded | 1998 |
-| CEO | Alex Chriss (2023) |
+| CEO | Enrique Lores (March 2026) |
 
 ---
 
@@ -162,11 +163,35 @@ PayPal itself no longer has this talent density.
 
 | Aspect | PayPal | [[Block]] |
 |--------|--------|----------|
-| Scale | Larger (430M vs 55M) |  Smaller |
+| Scale | Larger (439M vs 55M) |  Smaller |
 | Growth | Slower | Faster |
 | [[Crypto]] | Multi-coin | Bitcoin-only |
 | SMB | Braintree | Square |
 | Vision | Broad fintech | Bitcoin maximalist |
+
+---
+
+## Charts
+
+![[pypl-price.png]]
+*PYPL vs V/MA since 2020: PayPal down ~50% while Visa and Mastercard up ~80%. Same payments sector, completely different business models and outcomes.*
+
+![[pypl-fundamentals.png]]
+*Revenue grew steadily but net income volatile. COVID spike in 2020-2021, then profitability pressure from competition and restructuring.*
+
+---
+
+## Quick stats
+
+| Metric | Value |
+|--------|-------|
+| Ticker | PYPL |
+| Market cap | ~$70B |
+| Revenue (TTM) | ~$32B |
+| Active accounts | 439M |
+| CEO | Enrique Lores (March 2026) |
+
+*Updated Feb 2026*
 
 ---
 

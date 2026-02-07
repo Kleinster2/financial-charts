@@ -157,3 +157,13 @@ Cursor updates Composer model weights **every 90 minutes** based on real-world u
 - [[Agentic AI]] — category
 - [[OpenAI]] — model provider
 - [[Anthropic]] — model provider
+- [[Replit]] — browser IDE competitor
+- [[Bolt.new]] — vibe coding competitor
+- [[Lovable]] — vibe coding competitor
+
+---
+
+## Sources
+
+- [Sacra - Cursor](https://sacra.com/c/cursor/)
+- [Sacra - Cursor at $500M ARR](https://sacra.com/research/cursor-at-200m-arr/)

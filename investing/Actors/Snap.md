@@ -12,10 +12,10 @@ aliases: [Snapchat, SNAP]
 | Metric | Value |
 |--------|-------|
 | Ticker | SNAP (NYSE) |
-| Market cap | $12.5B (Jan 2026) |
-| DAUs | 477M (Q3 2025) |
-| MAUs | 943M |
-| Revenue | $5.6B (TTM) |
+| Market cap | ~$13B |
+| DAUs | 474M (Q4 2025) |
+| MAUs | 946M |
+| Revenue | $5.93B (2025) |
 | HQ | Santa Monica |
 
 Third-largest social platform in US. Reaches 75%+ of 13-34 year-olds in 25+ countries.
@@ -41,7 +41,7 @@ Third-largest social platform in US. Reaches 75%+ of 13-34 year-olds in 25+ coun
 | 2022 | $4.6B | -$1.4B | 375M |
 | 2023 | $4.6B | -$1.3B | 414M |
 | 2024 | $5.4B | -$0.7B | 453M |
-| TTM Q3 2025 | $5.6B | -$0.5B | 477M |
+| **2025** | **$5.93B** | ~breakeven | 474M |
 
 ---
 
@@ -66,6 +66,34 @@ First major external AI partner integration. Gives Perplexity access to 943M MAU
 
 ---
 
+## Q4 2025 earnings (Feb 4, 2026)
+
+**Beat on revenue and EBITDA. Stock +2%.**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Revenue | **$1.72B** | $1.70B |
+| EPS | $0.03 | — |
+| Adj. EBITDA | **$358M** | $300M |
+| DAU | 474M | 478M (miss) |
+| ARPU | $3.62 | $3.56 |
+
+**Full year 2025:** $5.93B revenue (+11% YoY)
+
+**Key announcements:**
+- **$500M stock buyback** authorized
+- **Specs Inc.** — new subsidiary for AR glasses, Spiegel says consumer launch coming 2026
+- **Snapchat+ hit 24M subscribers** (+71% YoY, up from 12M)
+- **946M MAUs** — approaching 1B goal
+
+**Concern:** North America DAU declined 94M (from 98M in Q3) — age verification impact.
+
+**Q1 2026 guidance:** $1.50-1.53B revenue (below $1.55B consensus), adj. EBITDA $170-190M.
+
+*Source: company filings, CNBC, Feb 4 2026*
+
+---
+
 ## Recent developments
 
 **Jan 2026:**
@@ -73,11 +101,6 @@ First major external AI partner integration. Gives Perplexity access to 943M MAU
 - Settled California social media addiction lawsuit pre-trial
 - Announced AR lens feature upgrades
 - Matthew McRae (Arlo CEO) joined board
-
-**Q4 2025:**
-- Q4 earnings due Feb 3, 2026
-- Guidance: $1.68-1.71B revenue (8-10% YoY), $280-310M adj. EBITDA
-- DAU may decline due to age verification rollout
 
 ---
 
@@ -90,7 +113,7 @@ First major external AI partner integration. Gives Perplexity access to 943M MAU
 
 ARPU improving but still 3-4x behind Meta. Active advertisers doubled YoY in Q4 2024.
 
-Snapchat+ subscriptions: 12M+ paying users, $500M+ ARR (2024 exit rate). 131% YoY growth in "Other Revenue."
+Snapchat+ subscriptions: **24M paying users** (+71% YoY), ~$1B ARR run rate.
 
 ---
 
@@ -122,15 +145,16 @@ Spiegel maintains control via dual-class stock.
 **Bull:**
 - Unique youth audience Meta can't reach
 - AR/VR positioning, hardware optionality
-- Snapchat+ subscription growth ($500M+ ARR)
+- Snapchat+ hit 24M subs (~$1B ARR)
 - Perplexity deal validates platform value
-- Losses narrowing, approaching profitability
-- $12B valuation vs $400M/yr from Perplexity alone
+- Profitable in Q4 2025 ($45M net income)
+- $500M buyback signals confidence
+- Specs AR glasses consumer launch 2026
 
 **Bear:**
 - [[TikTok]] competition (Spotlight losing)
 - 3-4x ARPU gap vs Meta
-- User growth slowing in mature markets
+- North America DAU declining (98M → 94M Q4)
 - No moat—features easily copied
 - [[Apple]] ATT impact on ad targeting
 - CEO selling shares
@@ -142,12 +166,12 @@ Spiegel maintains control via dual-class stock.
 | Metric | Value |
 |--------|-------|
 | Ticker | SNAP (NYSE) |
-| Market cap | $12.5B |
-| DAUs | 477M |
-| MAUs | 943M |
-| Revenue (TTM) | $5.6B |
-| Stock (Jan 2026) | ~$7.70 |
-| 52-week range | $6.90 - $11.77 |
+| Market cap | ~$13B |
+| DAUs | 474M |
+| MAUs | 946M |
+| Revenue (2025) | $5.93B |
+| Snapchat+ subs | 24M |
+| CEO | [[Evan Spiegel]] |
 
 ---
 
@@ -165,4 +189,4 @@ Spiegel maintains control via dual-class stock.
 
 ---
 
-*Created 2026-01-16 · Updated 2026-01-27*
+*Created 2026-01-16 · Updated 2026-02-06*

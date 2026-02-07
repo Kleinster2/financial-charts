@@ -19,14 +19,51 @@ Amazon is central to multiple vault theses:
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO | **Andy Jassy** | Jul 2021 |
+| CFO | Brian Olsavsky | 2015 |
+| CEO, AWS | Matt Garman | Jun 2024 |
+| CEO, Worldwide Stores | Doug Herrington | 2022 |
+| Founder & Exec Chairman | Jeff Bezos | 1994 |
+
+Jassy promoted from AWS CEO when Bezos stepped back. New "shadow" advisor: Dharmesh Mehta (Feb 2026).
+
+---
+
 ## Charts
 
 ![[amzn-90d.png]]
+*AMZN 90-day price*
 
 ![[amzn-vs-qqq.png]]
-*[[Nasdaq|QQQ]]*
+*AMZN vs [[Nasdaq|QQQ]]*
 
 ![[amzn-fundamentals.png]]
+*AMZN revenue and net income*
+
+---
+
+## Financials
+
+### Annual (10 years)
+
+| Year | Revenue | Net Income | EPS | Stock Price |
+|------|---------|------------|-----|-------------|
+| 2016 | $136.0B | $2.4B | $4.90 | $750 |
+| 2017 | $177.9B | $3.0B | $6.15 | $1,169 |
+| 2018 | $232.9B | $10.1B | $20.14 | $1,502 |
+| 2019 | $280.5B | $11.6B | $23.01 | $1,848 |
+| 2020 | $386.1B | $21.3B | $41.83 | $3,257 |
+| 2021 | $469.8B | $33.4B | $64.81 | $3,334 |
+| 2022 | $514.0B | -$2.7B | -$0.27 | $84 |
+| 2023 | $574.8B | $30.4B | $2.90 | $152 |
+| 2024 | $638.0B | $59.2B | $5.53 | $220 |
+| **2025** | **$716.9B** | **$62.0B** | **$5.78** | **$230** |
+
+*Source: Company filings. Stock price = year-end close. 2022 reflects Rivian investment losses. Post-2022 EPS reflects 20:1 stock split (Jun 2022).*
 
 ---
 
@@ -210,19 +247,49 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Q4 2025 earnings (Feb 5, 2026)
+
+**Strong beat on revenue and AWS, EPS slight miss, capex shocked the Street:**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Revenue | **$213.4B** | $211.3B |
+| EPS | $1.95 | $1.97 (miss) |
+| YoY revenue | +14% | — |
+| AWS revenue | **$35B** (+24%) | +21.4% |
+| AWS growth | Fastest in 13 quarters | — |
+| AWS backlog | **$244B** (+40% YoY, +22% QoQ) | — |
+| Custom chips run rate | **$10B** (triple-digit YoY growth) | — |
+| FY 2025 revenue | **$716.9B** (+12% YoY) | — |
+| FY 2025 capex | $131.8B | — |
+| **2026 capex guidance** | **$200B** | **$146.6B** |
+
+**Custom silicon milestone:** Trainium/Inferentia chips hit **$10B annual run rate** — first hyperscaler custom chip business at this scale.
+
+**Jassy commentary:** "With such strong demand for our existing offerings and seminal opportunities like AI, chips, robotics, low earth orbit satellites, we expect to invest about $200B in capital expenditures across Amazon in 2026." Spending "predominantly" goes to AWS.
+
+**Q1 2026 guidance:** Revenue $173.5B-$178.5B (+11-15% YoY), roughly in line.
+
+**Stock reaction:** -10%+ after hours on $200B capex shock (37% above Street).
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | AMZN (NASDAQ) |
-| Market cap | ~$2.4T |
-| Revenue (TTM) | ~$620B |
-| AWS revenue | ~$110B/year |
-| AI capex | $75B+ (2025) |
-| P/E | ~45x |
+| Market cap | ~$2.2T |
+| Revenue (FY 2025) | **$716.9B** |
+| AWS revenue (Q4 ann.) | ~$140B/year |
+| AWS backlog | **$244B** |
+| Custom chips run rate | **$10B** |
+| AI capex (2025) | $131.8B |
+| **AI capex (2026 guided)** | **$200B** |
+| P/E | ~40x |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-01-20*
+*Updated 2026-02-06 — Q4 2025 earnings*
 
 ## Related
 

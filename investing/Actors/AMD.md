@@ -11,6 +11,20 @@ AMD has closed the hardware gap with NVIDIA but the [[CUDA moat]] kept them lock
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO | **[[Lisa Su]]** | Oct 2014 |
+| CFO | Jean Hu | Jan 2023 |
+| CTO | Mark Papermaster | 2011 |
+| EVP, Computing & Graphics | Rick Bergman | 2020 |
+| EVP, Data Center Solutions | Forrest Norrod | 2023 |
+
+Lisa Su is AMD's transformational CEO — took company from near-bankruptcy to $300B+ market cap.
+
+---
+
 ## Key strengths
 
 - **CPU leadership**: EPYC server CPUs taking share from Intel
@@ -114,28 +128,53 @@ See [[CES 2026]] for event context.
 
 ---
 
+## Q4 2025 earnings (Feb 3, 2026)
+
+**Record quarter — beat expectations but guidance disappointed:**
+
+| Metric | Actual | Expected |
+|--------|--------|----------|
+| Q4 Revenue | **$10.3B** (record) | $9.7B |
+| Q4 EPS (GAAP) | $0.92 | — |
+| Q4 EPS (Non-GAAP) | **$1.53** (record) | $1.24 |
+| Data Center | $5.4B (+39% YoY) | — |
+| FY 2025 Revenue | **$34.6B** (record) | — |
+| FY 2025 EPS | $2.65 | — |
+| Q1 2026 Guidance | $9.8B ± $300M | ~$10.0B |
+
+**Beat and sell-off:** Stock fell 17% — worst day since 2017 despite beating. Q1 guidance disappointed bulls expecting stronger AI acceleration.
+
+**Data center strength:** +39% YoY driven by EPYC CPUs and Instinct AI GPUs. But $390M from non-recurring China GPU sales inflated the Q4 beat.
+
+**Lisa Su:** "2025 was a defining year for AMD, with record revenue and earnings driven by strong execution and broad-based demand for our high-performance and AI platforms."
+
+**China exposure:** Q1 guidance includes ~$100M from Instinct MI308 sales to China — unclear regulatory runway.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | AMD (NASDAQ) |
-| Market cap | ~$375B |
-| Revenue (2025E) | $34.1B |
-| Revenue (2026E) | $45.1B |
-| EPS (2025E) | $3.97 |
-| EPS (2026E) | $6.57 |
+| Market cap | ~$290B |
+| Revenue (FY 2025) | **$34.6B** |
+| Revenue (2026E) | ~$45B |
+| EPS (FY 2025) | $2.65 |
+| EPS (2026E) | ~$6.50 |
+| Data Center (Q4) | $5.4B (+39% YoY) |
 | Primary foundry | [[TSMC]] |
 | Potential foundry | [[Samsung]] (2nm EPYC) |
 | Key acquisition | NodAI (late 2023) |
 | CES 2026 | Helios rack (2.9 exaFLOPS) |
 
-*Updated 2026-01-20*
+*Updated 2026-02-06 — Q4 2025 earnings*
 
 ![[amd-price-chart.png]]
+*AMD price history*
 
 ![[amd-fundamentals.png]]
-
-*Chart starts 2018 (Lisa Su turnaround era). Q1 2023 net income excluded (small loss distorts scale).*
+*AMD revenue and net income. Chart starts 2018 ([[Lisa Su]] turnaround era). Q1 2023 net income excluded (small loss distorts scale).*
 
 ---
 
