@@ -67,13 +67,14 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 - **Weighting:** Move-weighted (Feb 3-4 selloff magnitude = weight)
 - **Rebalance:** Event-driven (re-weight on next major AI disruption catalyst)
 - **Base date:** Feb 3, 2026 = 100
+- **History:** July 2021 – present (limited by LZ IPO)
 - **Calculation:** Price return, USD-adjusted for non-US tickers
 - **Script:** `scripts/create_aiwd_index.py --store`
 
 **Rationale:** Let the market tell us disruption exposure. Intuit fell 34% vs TCS 7% — the market is pricing Intuit as 5x more exposed to AI workflow disruption. We follow the signal.
 
 ![[aiwd-index.png]]
-*AIWD basket since Jan 2025. Sharp drop at right edge = SaaSpocalypse (Feb 3-4, 2026).*
+*AIWD basket since July 2021 (LZ IPO). Peaked late 2021, ground down through 2022-24, then SaaSpocalypse collapse Feb 2026.*
 
 ### Components breakdown
 
@@ -83,12 +84,12 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 ### vs S&P 500
 
 ![[aiwd-vs-spy.png]]
-*AIWD -27% vs SPY +17% since Jan 2025. ~44 percentage points of underperformance. AI disruption thesis validated.*
+*AIWD +7% vs SPY +65% since July 2021. Tracked together through 2023, then AI narrative divergence accelerated. ~58pp underperformance.*
 
 ### vs IGV (Software ETF)
 
 ![[aiwd-vs-igv.png]]
-*AIWD (blue) vs IGV (red) since Jan 2025. Both software, radically different AI exposure.*
+*AIWD (blue) vs IGV (red) since July 2021. Same sector, opposite AI exposure. IGV includes AI winners; AIWD is pure disruption.*
 
 **Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — SaaS seats, legal research, IT services.
 
