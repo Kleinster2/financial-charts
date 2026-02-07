@@ -39,6 +39,7 @@ git restore "path/to/file.md"             # restore if damaged
 **Tools:**
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
+- SEC parser: `python scripts/parse_sec_filing.py TICKER`
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
