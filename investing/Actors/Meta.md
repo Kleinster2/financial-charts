@@ -24,8 +24,8 @@ Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]],
 
 ## Charts
 
-![[meta-vs-peers.png]]
-*Meta +560% since 2018 — outperformed [[Nasdaq|QQQ]] (+285%) massively post-2022 "Year of Efficiency" turnaround.*
+![[meta-vs-qqq-price-chart.png]]
+*Meta +260% since 2018 vs [[Nasdaq|QQQ]] +260% — massive 2022 drawdown (-75% peak to trough) followed by "Year of Efficiency" recovery.*
 
 ![[meta-fundamentals.png]]
 *Dashed line = consensus estimates (Yahoo Finance, Feb 2026). Q3-Q4 2026 implied from FY using FY24 H2 weights; 2027 quarters from uniform 17.4% growth.*
