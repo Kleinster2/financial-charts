@@ -5,7 +5,7 @@ aliases: [Levi's, LEVI]
 
 # Levi Strauss
 
-American denim company, founded 1853. Publicly traded (NYSE: LEVI). Revenue $6.35B (FY24), pivoting to DTC-first strategy under CEO Michelle Gass. Sold [[Dockers]] for $195M (Jul 2025) to focus on the Levi's brand and [[Beyond Yoga]]. DTC now ~46% of revenue and growing. The company that [[Athleisure]] nearly broke — forced to add stretch denim in 2014 when US teenagers chose yoga pants over jeans — has repositioned as a "head-to-toe denim lifestyle" brand.
+American denim company, founded 1853. Publicly traded (NYSE: LEVI, ~$7.8B market cap). Revenue $6.28B (FY25, ended Nov 2025), +4% reported / +7% organic. Pivoting to DTC-first strategy under CEO Michelle Gass. Sold [[Dockers]] to [[Authentic Brands Group]] for $311M (up to $391M with earnout, Jul 2025) to focus on the Levi's brand and [[Beyond Yoga]]. DTC now ~50% of revenue. The company that [[Athleisure]] nearly broke — forced to add stretch denim in 2014 when US teenagers chose yoga pants over jeans — has repositioned as a "head-to-toe denim lifestyle" brand.
 
 ---
 
@@ -14,10 +14,12 @@ American denim company, founded 1853. Publicly traded (NYSE: LEVI). Revenue $6.3
 | Metric | Value |
 |--------|-------|
 | Ticker | LEVI (NYSE) |
-| Revenue (FY24) | $6.35B (+3% YoY) |
-| Net income (FY24) | $211M |
-| Adj. net income (FY24) | $503M |
-| DTC share | ~46% of revenue (Q3 FY25) |
+| Market cap | ~$7.8B (Feb 2026) |
+| Revenue (FY25) | $6.28B (+4% reported, +7% organic) |
+| Net income (FY25) | $502M (continuing ops) |
+| Adj. diluted EPS (FY25) | $1.34 |
+| Gross margin (FY25) | 61.7% |
+| DTC share | ~50% of revenue |
 | US stores | ~458 (potential to double per CEO) |
 | HQ | San Francisco, California |
 | Founded | 1853 |
@@ -38,11 +40,11 @@ American denim company, founded 1853. Publicly traded (NYSE: LEVI). Revenue $6.3
 | Period | Revenue | Growth | Notes |
 |--------|---------|--------|-------|
 | FY23 | $6.17B | — | — |
-| FY24 | $6.35B | +3% | Adj. net income $503M |
-| Q4 FY24 | $1.8B | +12% | DTC +19%, wholesale +7% |
-| Q3 FY25 | $1.5B | +7% | DTC +11%, net income $122M |
+| FY24 | $6.35B | +3% | Net income $211M; adj. net income $503M |
+| FY25 | $6.28B | +4% / +7% organic | Net income $502M; adj. EPS $1.34; gross margin 61.7% |
+| Q4 FY25 | — | — | Beyond Yoga +37% / +45% organic; e-commerce +19% |
 
-FY25 guidance: adjusted diluted EPS $1.20-$1.25 (includes ~$0.20 FX/tax headwind). Mid-single-digit growth expected in 2026+. Targeting 15% adjusted EBIT margin.
+FY26 guidance: revenue $6.6-6.7B (+5-6% reported, +4-5% organic); adj. EPS $1.40-1.46. Targeting 15% adj. EBIT margin. 50-60 net new stores planned.
 
 ---
 
@@ -52,7 +54,7 @@ FY25 guidance: adjusted diluted EPS $1.20-$1.25 (includes ~$0.20 FX/tax headwind
 |-------|--------|-------|
 | Levi's | Core (~90%+ of revenue) | Denim + lifestyle expansion |
 | [[Beyond Yoga]] | Growing | Revenue +37% in Q4 FY24; acquired 2021; took $111M in impairment charges (FY24) |
-| [[Dockers]] | Sold Jul 2025 | $195M gross proceeds; remaining international ops closing Q1 2026 |
+| [[Dockers]] | Sold Jul 2025 | $311M to [[Authentic Brands Group]] (up to $391M with earnout); remaining international ops closing Q1 2026 |
 
 ---
 
@@ -62,7 +64,7 @@ Gass is executing a shift from wholesale-dependent to DTC-first:
 
 | Metric | Trajectory |
 |--------|-----------|
-| DTC share of revenue | ~46% (Q3 FY25), growing |
+| DTC share of revenue | ~50% (FY25), 15 consecutive quarters of positive comps |
 | US store count | ~458, potential to double |
 | US DTC growth (Q3 FY25) | +7% |
 | Asia DTC growth (Q3 FY25) | +14% |

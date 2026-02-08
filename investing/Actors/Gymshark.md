@@ -50,7 +50,22 @@ Ben Francis and co-founder Lewis Morgan started the company from a garage with a
 | FY23 (to Jul 2023) | £556M | £13.0M |
 | FY24 (to Jul 2024) | £607M | £11.8M |
 
-Revenue growing but profit declining — the company is investing in physical retail, US expansion, and brand building ahead of profitability optimization.
+Revenue growing but profit declining — the company is investing in physical retail, US expansion, and brand building ahead of profitability optimization. In Apr 2025, Gymshark put 296 of 841 roles (35%) at risk of redundancy while creating 168 new positions, citing macroeconomic volatility.
+
+IPO speculation ongoing — banks pitching London listing aggressively. Francis met UK Chancellor Rachel Reeves (Oct 2025) for listing discussions. No filing as of early 2026.
+
+---
+
+## Geographic split (FY24)
+
+| Region | Revenue | Share | YoY (GBP) |
+|--------|---------|-------|-----------|
+| [[United States]] | £251M | ~41% | Flat (+6% ex-FX) |
+| UK | £136M | ~22% | +22% |
+| Europe (ex-UK) | £146M | ~24% | +13% |
+| Rest of World | ~£74M | ~12% | — |
+
+International growth was 20% ex-FX. 14 international online stores, 10M+ customer base across 200+ countries.
 
 ---
 
@@ -58,15 +73,17 @@ Revenue growing but profit declining — the company is investing in physical re
 
 | Location | Status |
 |----------|--------|
-| Regent Street, London | Opened Oct 2022 (first store) |
+| Regent Street, London (flagship) | Opened Oct 2022 (first store) |
 | Westfield Stratford, London | Open |
 | Westfield White City, London | Open |
-| Trafford Centre, Manchester | Planned Jul 2025 |
-| Miami | Lease signed 2025 |
-| New York City | 12-month pop-up announced |
-| [[Dick's Sporting Goods]] partnership | Launched Oct 2025 (US wholesale) |
+| Dubai Mall | Opened Jan 2025 (first non-UK) |
+| Amsterdam (Kalverstraat) | Opened 2025 (first mainland Europe) |
+| Trafford Centre, Manchester | Jul 2025 |
+| Roosevelt Field Mall, Long Island | Oct 2025 (first permanent US store) |
+| 11 Bond Street, Manhattan (flagship) | Dec 2025 (13,000 sq ft, 4 floors) |
+| [[Dick's Sporting Goods]] partnership | Launched Oct 2025 — 12 House of Sport locations across 10 states |
 
-Primarily digital — 14 international online stores — but pivoting to physical retail and US wholesale to reach new customers.
+Pivoting from pure DTC to omnichannel. E-commerce sales reportedly increase when a physical store opens nearby (halo effect).
 
 ---
 
