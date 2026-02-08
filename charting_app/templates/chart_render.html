@@ -362,7 +362,7 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups } = config;
+            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay } = config;
 
             // Use multi-pane rendering for fundamentals with multiple metrics
             if (separatePanes && paneGroups && Object.keys(paneGroups).length > 1) {
@@ -429,7 +429,10 @@
                     mode: 1  // Logarithmic mode always
                 },
                 leftPriceScale: {
-                    visible: false
+                    visible: !!overlay,
+                    borderColor: '#ccc',
+                    scaleMargins: { top: 0.1, bottom: 0.3 },
+                    mode: 0  // Normal mode for percentages
                 },
                 crosshair: {
                     horzLine: { visible: false },
@@ -556,6 +559,55 @@
                 }
 
                 colorIndex++;
+            }
+
+            // Render overlay series (e.g., short interest)
+            if (overlay && overlay.data) {
+                // Muted overlay colors — one per ticker, tinted gray
+                const overlayColors = [
+                    'rgba(120, 120, 160, 0.6)',
+                    'rgba(160, 120, 120, 0.6)',
+                    'rgba(120, 160, 120, 0.6)',
+                    'rgba(160, 160, 120, 0.6)'
+                ];
+                const overlayFills = [
+                    ['rgba(120, 120, 160, 0.15)', 'rgba(120, 120, 160, 0.02)'],
+                    ['rgba(160, 120, 120, 0.15)', 'rgba(160, 120, 120, 0.02)'],
+                    ['rgba(120, 160, 120, 0.15)', 'rgba(120, 160, 120, 0.02)'],
+                    ['rgba(160, 160, 120, 0.15)', 'rgba(160, 160, 120, 0.02)']
+                ];
+
+                let overlayIdx = 0;
+                for (const [seriesName, points] of Object.entries(overlay.data)) {
+                    const oColor = overlayColors[overlayIdx % overlayColors.length];
+                    const [topColor, bottomColor] = overlayFills[overlayIdx % overlayFills.length];
+
+                    const areaSeries = chart.addSeries(LightweightCharts.AreaSeries, {
+                        priceScaleId: 'left',
+                        lineColor: oColor,
+                        topColor: topColor,
+                        bottomColor: bottomColor,
+                        lineWidth: 1,
+                        lastValueVisible: false,
+                        priceLineVisible: false,
+                        crosshairMarkerVisible: false,
+                        priceFormat: {
+                            type: 'custom',
+                            minMove: 0.1,
+                            formatter: (v) => v.toFixed(1) + '%'
+                        }
+                    });
+                    areaSeries.setData(points);
+
+                    // Add overlay legend entry with lighter styling
+                    const item = document.createElement('div');
+                    item.className = 'legend-item';
+                    item.style.opacity = '0.7';
+                    item.innerHTML = `<div class="legend-color" style="background:${oColor}; height: 8px;"></div><span>${seriesName}</span>`;
+                    legendEl.appendChild(item);
+
+                    overlayIdx++;
+                }
             }
 
             // Add date to legend after tickers

@@ -200,6 +200,8 @@ def get_chart_lw():
                 key, val = pair.split(':', 1)
                 labels[key.strip().upper()] = val.strip()
 
+    overlay_param = request.args.get('overlay', '').strip().lower()  # e.g., overlay=si for short interest
+
     metrics_param = request.args.get('metrics', '').strip().lower()
     combine_panes = request.args.get('combine', 'false').lower() == 'true'  # Combine multiple metrics into single pane
     product_param = product_param_early  # Already parsed above
@@ -559,6 +561,62 @@ def get_chart_lw():
             chart_data = {primary_ticker: chart_data[primary_ticker],
                           **{t: v for t, v in chart_data.items() if t != primary_ticker}}
 
+        # Fetch overlay data (short interest)
+        overlay_config = None
+        if overlay_param == 'si' and chart_data:
+            try:
+                si_conn = get_db_connection()
+                si_cursor = si_conn.cursor()
+                overlay_data = {}
+
+                for ticker in chart_data.keys():
+                    si_cursor.execute('''
+                        SELECT settlement_date, short_percent_float
+                        FROM short_interest
+                        WHERE ticker = ? AND short_percent_float IS NOT NULL
+                        ORDER BY settlement_date ASC
+                    ''', (ticker,))
+                    si_rows = si_cursor.fetchall()
+
+                    if not si_rows:
+                        continue
+
+                    # Build SI lookup: list of (date, value as percentage)
+                    # DB stores as ratio (0.05 = 5%), convert to percentage for display
+                    si_points = [(row[0], float(row[1]) * 100) for row in si_rows]
+
+                    # Forward-fill: for each price date, find most recent SI value
+                    price_dates = [pt['time'] for pt in chart_data[ticker]]
+                    filled_points = []
+                    si_idx = 0
+
+                    for price_date in price_dates:
+                        # Advance si_idx to the last SI point <= price_date
+                        while si_idx < len(si_points) - 1 and si_points[si_idx + 1][0] <= price_date:
+                            si_idx += 1
+
+                        # Only include if we have an SI point at or before this date
+                        if si_points[si_idx][0] <= price_date:
+                            filled_points.append({
+                                'time': price_date,
+                                'value': si_points[si_idx][1]
+                            })
+
+                    if filled_points:
+                        series_label = f"{ticker} SI%" if len(chart_data) > 1 else "SI %"
+                        overlay_data[series_label] = filled_points
+
+                si_conn.close()
+
+                if overlay_data:
+                    overlay_config = {
+                        'type': 'si',
+                        'data': overlay_data,
+                        'label': 'SI % Float'
+                    }
+            except Exception as e:
+                logger.warning(f"Failed to fetch SI overlay data: {e}")
+
         # Prepare config for the HTML template
         chart_config = {
             'data': chart_data,
@@ -570,7 +628,8 @@ def get_chart_lw():
             'showLastValue': show_last_value,
             'normalize': normalize,
             'forecastStart': forecast_start if forecast_start else None,
-            'labels': labels if labels else None
+            'labels': labels if labels else None,
+            'overlay': overlay_config
         }
         # Get the HTML template path
         template_path = os.path.join(basedir, 'templates', 'chart_render.html')

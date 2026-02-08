@@ -39,6 +39,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 | `metrics` | | Fundamentals: revenue, netincome, eps, fcf, operatingincome, ebitda, grossprofit |
 | `forecast_start` | | Date to begin dotted forecast line |
 | `labels` | | Custom legend labels (e.g., `SMH_1_44X:SMH%201.44x%20Lev`) |
+| `overlay` | | Overlay data on price chart. `si` = short interest % float (left Y-axis) |
 | `sort_by_last` | false | Sort legend by final value, high→low |
 | `show_title` | false | Don't use — legend suffices |
 | `width` | 1200 | Image width |
@@ -54,6 +55,24 @@ curl "http://localhost:5000/api/chart/lw?product=TikTok&product_metrics=global_m
 ```
 
 Available: `global_mau`, `us_mau`, `dau`, `revenue`. Data must exist in `product_metrics` table.
+
+## Short Interest Overlay
+
+Overlay SI % of float on price charts using `overlay=si`. Shows area series on the left Y-axis.
+
+```bash
+# Single ticker with SI overlay
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL&overlay=si" \
+  -o investing/attachments/aapl-si-overlay.png
+
+# Multi-ticker normalized with SI
+curl "http://localhost:5000/api/chart/lw?tickers=AAPL,GME&normalize=true&overlay=si&start=2024-01-01" \
+  -o investing/attachments/aapl-vs-gme-si.png
+```
+
+- SI data is bi-monthly (~26 points/year) — forward-filled to align with daily prices
+- Tickers without SI data are silently skipped (price chart still renders)
+- Only works in price chart mode (not with `metrics` or `product` params)
 
 ## Chart Best Practices
 
