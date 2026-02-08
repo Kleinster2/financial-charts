@@ -60,6 +60,21 @@ Google is the most vertically integrated AI hyperscaler:
 ![[goog-fundamentals.png]]
 *Q4 2017 net income excluded (–$3B TCJA repatriation tax charge).*
 
+| Quarter | Revenue | Net Income |
+|---------|---------|------------|
+| Q1 2023 | $69.8B | $15.1B |
+| Q2 2023 | $74.6B | $18.4B |
+| Q3 2023 | $76.7B | $19.7B |
+| Q4 2023 | $86.3B | $20.7B |
+| Q1 2024 | $80.5B | $23.7B |
+| Q2 2024 | $84.7B | $23.6B |
+| Q3 2024 | $88.3B | $26.3B |
+| Q4 2024 | $96.5B | $26.5B |
+| Q1 2025 | $90.2B | $34.5B |
+| Q2 2025 | $96.4B | $28.2B |
+| Q3 2025 | $102.3B | $35.0B |
+| Q4 2025 | $113.9B | $34.5B |
+
 ---
 
 ## Financials
@@ -77,7 +92,7 @@ Google is the most vertically integrated AI hyperscaler:
 | 2022 | $283.0B | $60.0B | $4.56 | $89 |
 | 2023 | $307.4B | $73.8B | $5.80 | $141 |
 | 2024 | $350.0B | $100.1B | $8.04 | $192 |
-| **2025** | **$403.0B** | **$112.4B** | **$10.70** | **$195** |
+| **2025** | **$403.0B** | **$132.2B** | **$10.70** | **$195** |
 
 *Source: Company filings. Stock price = year-end close. 2021+ EPS reflects 20:1 stock split (Jul 2022). Pre-split years shown in original form.*
 
