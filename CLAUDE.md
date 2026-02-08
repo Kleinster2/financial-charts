@@ -91,6 +91,8 @@ git restore "path/to/file.md"             # restore if damaged
 
 ## Database
 
+**CRITICAL: Never DELETE or UPDATE data without explicit user authorization.** Filter at query time instead. Data is irreplaceable — re-fetching may not restore original values.
+
 **Location:** `market_data.db` (root directory)
 
 ### Schema
