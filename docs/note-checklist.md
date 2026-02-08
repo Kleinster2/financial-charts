@@ -2,85 +2,74 @@
 
 Run before marking any vault note "done" (actors, concepts, events, theses, sectors).
 
-## Pre-flight (MUST DO FIRST)
+## 1. Run automated check FIRST
+
+```bash
+python scripts/check_note_compliance.py investing/Actors/NewNote.md
+```
+
+Fix all errors before proceeding to manual checks.
+
+**Automated checks:**
+- Frontmatter (exists, has aliases)
+- Dead links (wikilinks to non-existent notes)
+- Missing price/fundamentals charts
+- Missing chart captions
+- Missing Related section
+- Missing Quick stats section
+- Missing Leadership section with CEO
+- Missing historical financials (10-year for public)
+- Missing cap table (private)
+- Funding rounds table — exists, complete (no gaps/catch-all rows), individual rounds listed
+- Missing ownership % estimates table (private)
+- Table formatting (blank lines before tables)
+
+**Exit codes:** 0 = pass, 1 = errors
+
+---
+
+## 2. Manual checks
+
+These cannot be automated. Review each one.
+
+### Currency
 
 - [ ] **Web search for recent news** — verify note reflects current reality
 - [ ] Key facts are current (not stale by weeks/months)
 - [ ] Numbers are latest available (MAU, revenue, valuations, ownership stakes)
-- [ ] **No info left outside note** — all research findings go in the note, not just conversation
 
-## Specificity
+### Completeness
+
+- [ ] **No info left outside note** — all research findings go in the note, not just conversation
+- [ ] Board table exists (companies) — Chair, independent vs insider, notable affiliations
+- [ ] Principals table exists (funds) — PE/VC: founding partners; sovereign funds: CEO, CIO; hedge funds: founder, PM
+
+### Specificity
 
 - [ ] **No lazy shorthand** — "American-owned" needs: who owns what %, board composition, economic rights vs equity
 - [ ] Ownership changes include: exact stakes, governance, economic rights, compliance concerns
 - [ ] Revenue/valuation claims have exact figures, not "significant" or "major"
 - [ ] Partnerships/deals specify: terms, duration, exclusivity, economics
 
-## Leadership & Board (companies only)
+### Charts
 
-- [ ] **Leadership table** — CEO, CFO (required for public/PE-backed), other C-suite
-- [ ] **Board table** — Chair, independent vs insider, notable affiliations
-- [ ] All names wikilinked if they have notes
-
-## Principals (funds & asset managers)
-
-- [ ] Leadership table with: name, role, background
-- [ ] PE/VC: founding partners, managing partners
-- [ ] Sovereign funds: CEO, CIO, sector heads
-- [ ] Hedge funds: founder, PM, key analysts
-
-## Charts
-
-- [ ] Price chart exists with `primary=TICKER` (actor always blue)
-- [ ] Price chart has actor + peers/benchmark
-- [ ] Fundamentals chart exists (companies only, not ETFs)
-- [ ] **Open and verify chart images** — confirm legend matches caption (tickers actually plotted, not drifted)
+- [ ] Price chart has actor + peers/benchmark (not just actor alone)
+- [ ] **Open and verify chart images** — confirm legend matches caption
 - [ ] **No chart titles** — legend suffices
-- [ ] Chart captions mention all tickers shown
 - [ ] **Research major moves** — don't fabricate explanations; web search actual causes
 - [ ] Link captions to vault notes
 
-## Links
+### Links
 
 - [ ] Every entity in tables is `[[wikilinked]]`
 - [ ] Every entity in body text is `[[wikilinked]]`
 - [ ] Related section includes all linked entities
 
-### Quick link audit
-
+Quick link audit:
 ```bash
 grep -oE '\b[A-Z][a-z]+\b' note.md | sort -u
 ```
-
 Compare against wikilinks. If proper noun appears without `[[brackets]]`, fix it.
-
----
-
-## Automated Compliance Check
-
-**REQUIRED:** Run after creating/modifying any actor note:
-
-```bash
-python scripts/check_note_compliance.py investing/Actors/NewNote.md
-```
-
-**Checks:**
-- Dead links (wikilinks to non-existent notes)
-- Missing price/fundamentals charts
-- Missing chart captions
-- Missing Related section
-- Missing Quick stats section
-- Missing historical financials (10-year for public)
-- Missing cap table (private)
-- Missing funding rounds table (private)
-- Missing ownership % estimates table (private, warning)
-
-**Does NOT check (manual):**
-- Currency — is note up to date?
-- Specificity — are claims drilled with detail?
-- Chart titles — verify no redundant titles
-
-**Exit codes:** 0 = pass, 1 = errors
 
 ---
 
