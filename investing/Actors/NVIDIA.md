@@ -223,6 +223,19 @@ Jensen Huang plans to visit [[China]] in coming days ahead of mid-February Lunar
 
 *Source: CNBC, Jan 23 2026*
 
+**Feb 6, 2026 — Bloomberg explainer update:**
+
+- [[China]] restricted H20 chip in Aug 2025 — security risk of embedding US tech in sensitive systems
+- Beijing will allow limited H200 access but block use in military, government agencies, critical infrastructure
+- **Paired purchase mandate:** Chinese customers must also buy domestic chips alongside NVIDIA purchases — protects [[Huawei]], [[Cambricon]], [[Moore Threads]]
+- [[China]] chip market = $229B annual revenue (1/3 of global total) in 2024
+- Jensen expects Chinese AI chip spending to reach $50B/year within 2-3 years
+- [[Moore Threads]], MetaX surged several-fold in IPOs — bets on Beijing self-sufficiency policy
+- Bernstein: H200 still significantly better than Chinese alternatives
+- [[David Sacks]] (White House AI Czar) backed Huang's arguments in Washington
+
+*Source: Bloomberg, Feb 6 2026*
+
 **Dual ecosystem forming:**
 - Training: NVIDIA (high barriers)
 - Inference: Chinese chips (cost sensitive, volume)

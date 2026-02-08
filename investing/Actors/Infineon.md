@@ -7,6 +7,20 @@ aliases: [Infineon Technologies]
 
 ---
 
+## Price
+
+![[ifnny-price-chart.png]]
+*Infineon (IFNNY) since 2020 — recovered through the 2022-2023 auto/industrial downcycle to new highs above $50, driven by AI data center pivot.*
+
+<!-- no fundamentals chart: Alpha Vantage does not cover IFNNY OTC ADR -->
+
+### vs peers
+
+![[ifnny-vs-nxpi-vs-stm-price-chart.png]]
+*Infineon (blue) vs [[NXP]] vs [[STMicro]] since 2022. Infineon and NXP both ~+10%, roughly tracking each other. STMicro has collapsed ~38% — worst among European auto/power semis, reflecting heavier auto exposure and lack of AI offset.*
+
+---
+
 ## Why Infineon matters
 
 Infineon is the global leader in two critical categories:
@@ -141,11 +155,84 @@ Made Infineon more complete in automotive.
 
 ---
 
+## Leadership
+
+| Role | Name | Since |
+|------|------|-------|
+| CEO | Jochen Hanebeck | 2022 |
+| CFO | Sven Schneider | 2022 |
+
+---
+
+## AI / data center pivot (Feb 2026)
+
+Infineon is aggressively diversifying into AI infrastructure as auto/industrial demand stalls. CFO Sven Schneider called AI "the biggest growth driver in the history of the company."
+
+| Metric | Value |
+|--------|-------|
+| FY2026 AI/data center capex | ~€2.7B (up from €2.2B planned) |
+| FY2026 data center revenue | ~€1.5B (~10% of sales) |
+| FY2027 data center revenue target | €2.5B |
+| AI sales growth | ~10x in three years (per CEO) |
+
+Key products for AI: GaN power semiconductors for data center power delivery. Power management becoming critical as AI rack power density rises.
+
+**Q1 FY2026 earnings (reported Feb 4, 2026):**
+
+| Metric | Actual | Estimate |
+|--------|--------|----------|
+| Revenue | €3.66B | €3.62B |
+| Adj. operating margin | 17.9% | 16.8% |
+| Auto segment revenue | €1.8B | Slightly ahead |
+| Q2 revenue guidance | ~€3.8B | €3.8B |
+| Q2 margin guidance | Mid-to-high teens | 17.5% |
+
+Auto/industrial described as "gone beyond the trough" but no real recovery yet. Company reiterated "moderate revenue growth" for full FY2026 (ending Sep 2026).
+
+**[[AMS-OSRAM]] sensor deal:** Agreed to acquire automotive, industrial and medical sensor business for $673M cash. Expected ~€230M annual sales. Sensors detect movement, sound — used in vehicles, health trackers, robots.
+
+**Peers:** [[STMicro]] CEO said auto market not yet "stable." [[NXP]] showed slightly slower auto growth than anticipated. Uneven recovery across European analog/power names.
+
+---
+
+## Financials
+
+Infineon reports on an October fiscal year (FY ends September).
+
+### Annual (€B, FY ends September)
+
+| Metric | FY2017 | FY2018 | FY2019 | FY2020 | FY2021 | FY2022 | FY2023 | FY2024 | FY2025 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Revenue | 7.1 | 7.6 | 8.0 | 8.6 | 11.1 | 14.2 | 16.3 | 15.0 | 14.7 |
+| Net income | 0.7 | 1.1 | 0.8 | 0.4 | 1.1 | 2.2 | 3.1 | ~1.3 | — |
+
+*FY2020 Cypress acquisition drove step-change in revenue. FY2023 was peak — auto/industrial downcycle compressed FY2024-25. Net income fell ~57% in FY2024 from FY2023 peak.*
+
+### Quarterly (Q1 FY2026, reported Feb 4, 2026)
+
+| Metric | Q1 FY2026 | Q4 FY2025 | Q1 FY2025 |
+|--------|-----------|-----------|-----------|
+| Revenue | €3.66B | ~€3.6B | ~€3.5B |
+| Adj. op. margin | 17.9% | — | — |
+| Auto segment | €1.8B | — | — |
+
+### Segment mix (approximate)
+
+| Segment | % of revenue |
+|---------|--------------|
+| Automotive | ~50% |
+| Green Industrial Power | ~20% |
+| Power & Sensor Systems | ~20% |
+| Connected Secure Systems | ~10% |
+
+---
+
 ## Investment implications
 
 **Bull case:**
 - #1 in two growing markets
 - [[EV transition]] = secular tailwind
+- AI data center power = new growth vector (~10x in 3 years)
 - European strategic asset
 - Cypress integration complete
 
@@ -168,7 +255,7 @@ Made Infineon more complete in automotive.
 | Power semi rank | #1 globally |
 | EV content | ~$200/vehicle |
 
-*Updated 2026-01-04*
+*Updated 2026-02-08*
 
 ---
 

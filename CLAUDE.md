@@ -314,6 +314,16 @@ Implemented. See naming convention above and `docs/obsidian-chart-refresh-plugin
 
 This applies to daily notes, earnings additions, news items — everything. Entity linking is a **pre-edit gate**, not post-edit cleanup.
 
+### Concept Extraction
+
+**After creating or editing a note, scan for terms that deserve their own concept note.** Pattern-matching and frequency tools can't catch this — it requires domain judgment.
+
+Ask: "Are there specific named frameworks, classifications, or mechanisms mentioned here that apply across multiple actors or theses?" Examples:
+- **Yes:** "Regional Transmission Organization" (regulatory classification linking PJM, MISO, ISO-NE) → create concept note
+- **No:** "wholesale electricity market" (too generic), "independent federal agency" (description, not a concept)
+
+The bar: would a reader benefit from a dedicated note explaining this term and linking the entities it connects? If yes, create the concept note and wikilink it in the same editing pass — don't leave it for a later cleanup.
+
 ### Key Rules
 
 - **Deep research before creating** — web search, multiple sources, hard data

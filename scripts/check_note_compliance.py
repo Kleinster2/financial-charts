@@ -61,7 +61,7 @@ class NoteChecker:
 
         # Link checks apply to all note types
         issues.extend(self._check_dead_links(content, filepath))
-        if self.suggest_links and note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
+        if note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
 
         # Concept-specific checks
@@ -141,7 +141,14 @@ class NoteChecker:
         return "unknown"
 
     def _is_public_company(self, content: str) -> bool:
-        """Check if note is for a public company."""
+        """Check if note is for a public company.
+
+        Design principle: prefer false positives over missed checks.
+        Non-public entities (#actor/private, #actor/government) may trigger
+        chart/financials errors — that's intentional. A spurious error on a
+        government agency is cheap; a missed check on an actual public company
+        that should have charts is not.
+        """
         # Has ticker in quick stats
         if re.search(r"Ticker\s*\|\s*[A-Z]{1,5}\s*\(", content):
             return True
@@ -406,8 +413,14 @@ aliases: []
         return stub_path
 
     def _check_missing_links(self, content: str, filepath: Path) -> list[Issue]:
-        """Suggest wikilinks for mentioned notes that aren't linked."""
+        """Check for existing vault entities mentioned without wikilinks.
+
+        Runs by default as a warning-level check. With --suggest-links,
+        uses "suggestion" severity to enable --fix auto-linking.
+        """
         issues = []
+        # "suggestion" when --suggest-links (enables --fix); "warning" by default
+        severity = "suggestion" if self.suggest_links else "warning"
 
         # Get already-linked notes
         linked = set(re.findall(r'\[\[([^\]|\\]+)(?:\\?\|[^\]]+)?\]\]', content))
@@ -424,7 +437,7 @@ aliases: []
 
             # Case-sensitive whole-word match in content without links
             if re.search(rf'\b{re.escape(note_name)}\b', content_without_links):
-                issues.append(Issue("suggestion", "missing-link",
+                issues.append(Issue(severity, "missing-link",
                     f"Mentions '{note_name}' — consider [[{note_name}]]"))
 
         return issues

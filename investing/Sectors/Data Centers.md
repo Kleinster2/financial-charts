@@ -1,5 +1,11 @@
 ---
-aliases: [Datacenters, Data centre, Colocation, Data center infrastructure]
+aliases:
+  - Datacenters
+  - Data centre
+  - Colocation
+  - Data center infrastructure
+  - data centers
+  - data center
 ---
 #sector #datacenter #reit #infrastructure #ai
 

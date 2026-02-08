@@ -20,8 +20,12 @@ Data center demand is growing 22-23% annually, but grid interconnection delays n
 | Interconnection queue | 5+ years | Berkeley Lab |
 | AEP queue backlog | 190 GW (5x current system) | AEP |
 | New gas capacity online | Not before 2029 | PJM |
+| **[[PJM]] projected shortfall** | **60 GW (next decade)** | **Bloomberg, Feb 2026** |
+| [[PJM]] last auction shortfall | 6.5 GW (Dec 2025) | Bloomberg |
+| Cost to solve 60 GW gap | ~$180B | PJM |
+| [[PJM]] reliability gap starts | Mid-2027 | PJM |
 
-**Gap:** 85 GW new data center requests by 2030, but only ~100 GW total capacity (including surplus) available.
+**Gap:** 85 GW new data center requests by 2030, but only ~100 GW total capacity (including surplus) available. [[PJM]]'s 60 GW shortfall warning (Feb 2026) is the most concrete quantification yet — equivalent to 60 nuclear reactors' worth of new capacity.
 
 ---
 
@@ -80,8 +84,9 @@ Independent power producers benefit from:
 | Phase | Timeframe |
 |-------|-----------|
 | Acute shortage | 2025-2029 |
-| New gas online | 2029+ |
+| **PJM emergency auction** | **Sep 2026 (planned)** |
 | Queue reforms | April 2026 (FERC) |
+| New gas online | 2029+ |
 | Nuclear expansion | 2030s |
 
 ---
@@ -93,6 +98,9 @@ Independent power producers benefit from:
 - [[Constellation]] — Largest US generator (post-Calpine)
 - [[Equinix]] — Data center REIT
 - [[Digital Realty]] — Data center REIT
+
+**Grid operators:**
+- [[PJM]] — Largest US grid; 60 GW shortfall warning (Feb 2026)
 
 **Concepts:**
 - [[Power constraints]] — Technical overview
