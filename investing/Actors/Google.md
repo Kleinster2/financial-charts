@@ -101,6 +101,8 @@ Google is the most vertically integrated AI hyperscaler:
 | 2023 | $307.4B | $73.8B | $5.80 | $141 |
 | 2024 | $350.0B | $100.1B | $8.04 | $192 |
 | **2025** | **$403.0B** | **$132.2B** | **$10.70** | **$195** |
+| *2026* | *$467.2B* | *$139.9B* | *$11.45* | *—* |
+| *2027* | *$536.3B* | *$162.6B* | *$13.31* | *—* |
 
 *Source: Company filings. Stock price = year-end close. 2021+ EPS reflects 20:1 stock split (Jul 2022). Pre-split years shown in original form.*
 
