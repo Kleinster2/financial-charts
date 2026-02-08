@@ -3112,12 +3112,14 @@ def get_chart_lw():
                     series_name = f"{ticker} {label}" if len(tickers) > 1 or len(metrics) > 1 else label
 
                     # Build query with optional date filters (alias column as 'metric_value' for expressions)
+                    # Skip date('now') filter if forecast_start is provided (allows future forecast data)
                     query = f"""
                         SELECT fiscal_date_ending, ({column}) as metric_value
                         FROM {table}
                         WHERE ticker = ?
-                        AND fiscal_date_ending <= date('now')
                     """
+                    if not forecast_start:
+                        query += " AND fiscal_date_ending <= date('now')"
                     params = [ticker]
                     if start_date:
                         query += " AND fiscal_date_ending >= ?"

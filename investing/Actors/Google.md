@@ -58,7 +58,7 @@ Google is the most vertically integrated AI hyperscaler:
 *[[Nasdaq|QQQ]]*
 
 ![[goog-fundamentals.png]]
-*Q4 2017 net income excluded (–$3B TCJA repatriation tax charge).*
+*Q4 2017 net income excluded (–$3B TCJA repatriation tax charge). Dashed line = consensus estimates (Yahoo Finance, Feb 2026). Q3-Q4 2026 implied from FY using FY25 H2 weights; 2027 quarters from uniform 14.8% growth on 2026 base.*
 
 | Quarter | Revenue | Net Income |
 |---------|---------|------------|
@@ -74,6 +74,14 @@ Google is the most vertically integrated AI hyperscaler:
 | Q2 2025 | $96.4B | $28.2B |
 | Q3 2025 | $102.3B | $35.0B |
 | Q4 2025 | $113.9B | $34.5B |
+| *Q1 2026* | *$106.3B* | *$31.8B* |
+| *Q2 2026* | *$112.9B* | *$33.9B* |
+| *Q3 2026* | *$117.3B* | *$35.2B* |
+| *Q4 2026* | *$130.7B* | *$39.1B* |
+| *Q1 2027* | *$122.0B* | *$36.9B* |
+| *Q2 2027* | *$129.6B* | *$39.4B* |
+| *Q3 2027* | *$134.6B* | *$40.9B* |
+| *Q4 2027* | *$150.0B* | *$45.5B* |
 
 ---
 
