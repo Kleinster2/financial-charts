@@ -29,6 +29,7 @@ export interface ChartParams {
   normalize: boolean;
   start?: string; // ISO date string, e.g., "2020-01-01"
   sortByLast?: boolean; // Sort legend by last value (high to low)
+  primary?: string; // First ticker = blue in chart (the actor the note is about)
 }
 
 /**
@@ -143,6 +144,7 @@ function parseComparisonChart(name: string): ParseResult {
     tickers,
     normalize: true,
     sortByLast: true,
+    primary: tickers[0], // First ticker in filename = blue (the actor)
   };
 
   if (startYear) {
@@ -273,6 +275,7 @@ export interface RegistryEntry {
   normalize?: boolean;
   start?: string;
   skip?: boolean;
+  primary?: string;
 }
 
 /**
@@ -317,6 +320,9 @@ export function parseRegistry(content: string): Map<string, RegistryEntry> {
     const skipMatch = propsText.match(/skip:\s*(true|false)/);
     if (skipMatch) entry.skip = skipMatch[1] === 'true';
 
+    const primaryMatch = propsText.match(/primary:\s*([^\n]+)/);
+    if (primaryMatch) entry.primary = primaryMatch[1].trim();
+
     registry.set(filename, entry);
   }
 
@@ -329,10 +335,12 @@ export function parseRegistry(content: string): Map<string, RegistryEntry> {
 export function registryEntryToParams(entry: RegistryEntry): ChartParams | null {
   if (entry.skip || !entry.tickers) return null;
 
+  const tickers = entry.tickers.split(',').map(t => t.trim());
   return {
-    tickers: entry.tickers.split(',').map(t => t.trim()),
+    tickers,
     normalize: entry.normalize ?? false,
     start: entry.start,
+    primary: entry.primary ?? tickers[0], // Default to first ticker
   };
 }
 
@@ -353,6 +361,10 @@ export function buildApiUrl(baseUrl: string, params: ChartParams): string {
 
   if (params.sortByLast) {
     url.searchParams.set("sort_by_last", "true");
+  }
+
+  if (params.primary) {
+    url.searchParams.set("primary", params.primary);
   }
 
   return url.toString();

@@ -144,6 +144,38 @@ Without step 2, fundamentals charts return `{"error": "No fundamentals data foun
 SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;
 ```
 
+### Data freshness (CRITICAL)
+
+**If financial data is publicly available, do your utmost to find and ingest it.** The vault should never be behind publicly available data just because a third-party API hasn't synced yet.
+
+**When this rule fires:**
+- Generating or regenerating any fundamentals chart
+- Writing or updating actor notes with financial data
+- Processing earnings in daily news workflow
+
+**Procedure:**
+
+1. **Check** if the latest reported period is in the database — compare `fiscal_date_ending` to the company's most recent earnings release
+2. **Search** for numbers from earnings releases, press releases, or SEC filings
+3. **Verify currency** — match the reporting currency already in the database for that ticker
+4. **Insert manually** using correct schema, date format (`YYYY-MM-DD`), and all available fields
+5. **Mark preliminary data** — if results are preliminary (not final filing), note this in the actor note so it can be replaced later
+6. **Regenerate** affected charts so the vault reflects the latest public data
+7. **Replace when final** — when `fetch_fundamentals.py` picks up the final data, it will overwrite the manual entry
+
+```sql
+-- Check what's in the database
+SELECT fiscal_date_ending, total_revenue/1e9, net_income/1e9
+FROM income_statement_quarterly WHERE ticker='STLA'
+ORDER BY fiscal_date_ending DESC LIMIT 4;
+
+-- Insert preliminary result (will be overwritten by fetch_fundamentals.py later)
+INSERT INTO income_statement_quarterly (ticker, fiscal_date_ending, total_revenue, net_income, last_updated)
+VALUES ('STLA', '2025-12-31', 79000000000, -17800000000, datetime('now'));
+```
+
+**Price data** also goes stale — run `python update_market_data.py --lookback 10` before generating price charts if data is more than a day old.
+
 ### Synthetic Indices
 
 Create custom weighted baskets:

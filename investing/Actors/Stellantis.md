@@ -1,7 +1,7 @@
 ---
 aliases: [STLA, Stellantis NV]
 ---
-#actor #automotive #netherlands #public
+	#actor #automotive #netherlands #public
 
 # Stellantis
 
@@ -19,15 +19,18 @@ aliases: [STLA, Stellantis NV]
 | Net profit (2024) | ~€3B (-70% YoY) |
 | Vehicles sold (2024) | ~5.5M |
 | Employees | ~250,000 |
-| CEO | **Interim** (Tavares resigned Dec 2024) |
+| CEO | Antonio Filosa (appointed Jan 2025) |
 | HQ | Amsterdam |
 
 ---
 
 ## Charts
 
-![[stellantis-price-chart.png]]
-*vs [[S&P 500]] since merger (Jan 2021)*
+![[stla-vs-spy-price-chart.png]]
+*vs [[S&P 500]] since merger (Jan 2021) — SPY +100% while STLA -7%*
+
+![[stla-fundamentals.png]]
+*Revenue and net income since merger — H2 2025 writedowns crater net income*
 
 ---
 
@@ -101,6 +104,34 @@ No controlling shareholder. Exor is largest but doesn't control.
 
 ---
 
+## Feb 2026 strategic reset
+
+**€22.2B ($26.5B) in one-time charges** announced Feb 6, 2026 — largest writedown in company history:
+
+| Charge category | Amount (€B) |
+|-----------------|-------------|
+| Product plan realignment | 14.7 |
+| Warranty costs | 4.1 |
+| EV supply chain resizing | 2.1 |
+| European restructuring | 1.3 |
+| **Total** | **22.2** |
+
+CEO Filosa blamed prior management for overestimating EV transition pace. Pivoting toward range-extended EVs (EREVs) and traditional hybrids. Dividend cancelled for 2026. Issued €5B nonconvertible hybrid bond. CFO João Laranjo expects group profitability throughout 2026.
+
+**Shares plunged 25% on Feb 6** — largest single-day drop on record. Market cap rout approaching **€70B** since early 2024.
+
+### Battery manufacturing retreat
+
+**[[ACC]] (Automotive Cells Company)** — JV with [[Mercedes-Benz]] and [[TotalEnergies]] — definitively shelved gigafactory plans for **Kaiserslautern (Germany)** and **Termoli (Italy)** on Feb 7, 2026. Projects on standby since May 2024; prerequisites to restart not expected to be met. French plant (Douvrin) maintained but in partial unemployment talks.
+
+**Canadian JV with [[LG Energy Solution]]** — sold 49% stake for **$100**, writing off $980M investment. Fewer battery factories needed as EV plans shrink.
+
+**[[Samsung SDI]] StarPlus Energy JV** (Kokomo, Indiana) — 33 GWh Phase 1, status unclear given broader EV pullback.
+
+Stellantis committed to e-DCT gearbox line at Termoli by end of 2026 and Euro 7 GSE engine investments to extend ICE production beyond 2030.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -130,5 +161,12 @@ No controlling shareholder. Exor is largest but doesn't control.
 - [[Ford]] — US competitor
 - [[General Motors]] — US competitor
 - [[Volkswagen]] — European competitor
+- [[ACC]] — battery JV with Mercedes-Benz, TotalEnergies
+- [[LG Energy Solution]] — Canadian JV partner (sold for $100)
+- [[Samsung SDI]] — StarPlus Energy JV (Kokomo)
+- [[TotalEnergies]] — ACC partner
+- [[Mercedes-Benz]] — ACC partner
+- [[EV transition]] — slowing demand reshaping strategy
+- [[Lyten]] — next-gen battery investment (May 2023)
 
-*Created 2026-01-24*
+*Created 2026-01-24 · Updated 2026-02-08*
