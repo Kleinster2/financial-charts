@@ -19,7 +19,7 @@ aliases: [PUM, Puma SE]
 | EBIT (2024) | ~€620M |
 | EBIT margin | ~7% |
 | CEO | Arne Freundt (since Jul 2023) |
-| Major shareholder | Artémis (Pinault family) ~29%, Kering ~6% |
+| Major shareholder | [[Anta Sports]] 29% (Feb 2026), Kering ~6% |
 | HQ | Herzogenaurach, [[Germany]] |
 
 ---
@@ -67,6 +67,26 @@ Puma is smallest, slowest-growing, and lowest-margin of the big three.
 
 ---
 
+## Anta stake (Feb 2026)
+
+[[Anta Sports]] acquired 29% of Puma, becoming largest shareholder and displacing Artémis (Pinault family).
+
+**China struggles:**
+- Sales in China dropped **>20%** between 2023-2025 (Nomura)
+- Slow store updates, weak online channels
+- Over-reliance on few retail partners
+
+**The deal:**
+- Anta brings China expertise — distribution, digital, localization
+- Anta owns [[Fila]] (China license), [[Jack Wolfskin]], now Puma stake
+- Pattern: Western brand + Anta China execution = turnaround attempt
+
+**Context:** [[Nike]] admits China turnaround "behind schedule" — becoming "lifestyle brand competing on price." [[Adidas]] now designs >50% of China clothes locally. Localization is table stakes.
+
+Asia Pacific is ~20% of Puma's sales — overall recovery still depends on Europe/US execution.
+
+---
+
 ## Category breakdown
 
 | Category | Status |
@@ -102,6 +122,7 @@ Puma is smallest, slowest-growing, and lowest-margin of the big three.
 ## Related
 
 - [[Fashion]] — sector hub
+- [[Anta Sports]] — largest shareholder (29%, Feb 2026)
 - [[Adidas]] — direct competitor, took Puma's CEO
 - [[Nike]] — largest competitor
 - [[On Running]] — emerging competitor
