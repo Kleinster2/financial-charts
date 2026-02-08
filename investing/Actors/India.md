@@ -65,6 +65,26 @@ See [[India sectors]] for manufacturing constraints.
 
 ---
 
+## Lithium & critical minerals
+
+In Feb 2023, the [[Geological Survey of India]] announced 5.9 million tonnes of inferred [[Lithium]] resources in the Salal-Haimana area of Reasi district, [[Jammu and Kashmir]] — India's first major lithium find. Additional deposits identified in Mandya ([[Karnataka]]), Degana ([[Rajasthan]]), and Katghora ([[Chhattisgarh]]).
+
+| Detail | Value |
+|--------|-------|
+| Reasi resource | 5.9Mt inferred (G3 stage) |
+| Exploration status | G2 stage targeted for completion Jan 2026 |
+| Auction attempts | 2 failed (Nov 2023, Jul 2024) — no bidders due to insufficient data |
+| Other sites | Karnataka (~1,600t), Rajasthan (Degana), Chhattisgarh (Katghora) |
+
+**Challenges:**
+- G3 = inferred only — needs G2/G1 upgrade before commercial viability is clear
+- Reasi is remote, mountainous terrain — infrastructure gap
+- Two failed auctions signal industry skepticism on grade/extractability
+- India imports ~100% of lithium needs; even if viable, years from production
+- [[China battery leverage]] persists — India still depends on Chinese lithium processing
+
+---
+
 ## Key companies
 
 | Company | Ticker | Sector |
@@ -93,7 +113,7 @@ See [[India sectors]] for manufacturing constraints.
 | Risk | Impact |
 |------|--------|
 | [[Trump II]] tariffs | 50% on goods, trade deal uncertain |
-| [[India sectors]] | Can't build batteries, EVs domestically |
+| [[India sectors]] | Can't build batteries, EVs domestically — lithium finds years from production |
 | [[Indian rupee]] | Persistent depreciation |
 | Real estate | Construction slowdown — see [[India macro]] |
 
@@ -114,6 +134,7 @@ See [[India sectors]] for manufacturing constraints.
 **Sectors:**
 - [[India sectors]] — IT services, financials, pharma, manufacturing constraints
 - [[China battery leverage]] — why battery manufacturing failed
+- [[Lithium]] — Reasi deposit, critical mineral exploration
 - [[India AI]] — $1.2B AI mission
 
 **Companies:**
@@ -124,4 +145,4 @@ See [[India sectors]] for manufacturing constraints.
 
 ---
 
-*Created 2026-01-10 · Updated 2026-02-01*
+*Created 2026-01-10 · Updated 2026-02-07*
