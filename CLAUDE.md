@@ -205,6 +205,7 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 - Always add italicized interpretation below charts
 - Verify output by reading generated images
 - **Charts must live in notes** — never save to attachments without embedding in a relevant note
+- **Every chart needs a corresponding data table** — reader should see the underlying numbers, not just the visualization
 
 ### Chart Naming Convention (CRITICAL)
 
