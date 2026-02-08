@@ -3116,6 +3116,7 @@ def get_chart_lw():
                         SELECT fiscal_date_ending, ({column}) as metric_value
                         FROM {table}
                         WHERE ticker = ?
+                        AND fiscal_date_ending <= date('now')
                     """
                     params = [ticker]
                     if start_date:
