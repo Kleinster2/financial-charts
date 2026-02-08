@@ -28,7 +28,26 @@ Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]],
 *Meta +560% since 2018 — outperformed [[Nasdaq|QQQ]] (+285%) massively post-2022 "Year of Efficiency" turnaround.*
 
 ![[meta-fundamentals.png]]
-*Meta revenue and net income*
+*Dashed line = consensus estimates (Yahoo Finance, Feb 2026). Q3-Q4 2026 implied from FY using FY24 H2 weights; 2027 quarters from uniform 17.4% growth.*
+
+| Quarter | Revenue | Net Income |
+|---------|---------|------------|
+| Q1 2024 | $36.5B | $12.4B |
+| Q2 2024 | $39.1B | $13.5B |
+| Q3 2024 | $40.6B | $15.7B |
+| Q4 2024 | $48.4B | $20.8B |
+| Q1 2025 | $42.3B | $16.6B |
+| Q2 2025 | $47.5B | $18.3B |
+| Q3 2025 | $51.2B | $20.8B |
+| Q4 2025 | $59.9B | $22.8B |
+| *Q1 2026* | *$55.5B* | *$16.9B* |
+| *Q2 2026* | *$59.6B* | *$18.3B* |
+| *Q3 2026* | *$62.1B* | *$18.6B* |
+| *Q4 2026* | *$73.8B* | *$22.1B* |
+| *Q1 2027* | *$65.1B* | *$19.7B* |
+| *Q2 2027* | *$69.9B* | *$21.2B* |
+| *Q3 2027* | *$72.9B* | *$21.6B* |
+| *Q4 2027* | *$86.6B* | *$25.7B* |
 
 ---
 
@@ -78,7 +97,9 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 | 2022 | $116.6B | $23.2B | $8.59 | $120 |
 | 2023 | $134.9B | $39.1B | $14.87 | $354 |
 | 2024 | $164.5B | $62.4B | $23.86 | $595 |
-| 2025E | $189.0B | $58.5B | $22.58 | $620 |
+| **2025** | **$200.9B** | **$78.5B** | **$30.22** | **$661** |
+| *2026* | *$250.9B* | *$75.9B* | *$29.58* | *—* |
+| *2027* | *$294.5B* | *$88.3B* | *$34.41* | *—* |
 
 *Source: Company filings. Stock price = year-end close. 2022 was "Year of Efficiency" restructuring.*
 
