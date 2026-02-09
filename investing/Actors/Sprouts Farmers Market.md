@@ -112,7 +112,13 @@ Geographic concentration:
 
 ## Stock performance
 
+![[sfm-vs-kr-vs-cost-price-chart.png]]
+*SFM outperformed [[Kroger]] and [[Costco]] from 2020-mid 2025, then gave back half the gains on decelerating comps. Normalized to 100 at start.*
+
 All-time high of $179.53 on June 2, 2025. Down >50% since, to ~$69 (Feb 2026). Driven by decelerating comp growth (11.7% → 8.3% → 5.9% → guided 0-2%) and valuation compression. Current P/E of ~14x below 10-year median of 18x.
+
+![[sfm-fundamentals.png]]
+*Quarterly revenue stepped up from ~$1.5B to $2.2B (2021-2025). Net income expanded from $40-90M/quarter to $120-180M/quarter, reflecting structural margin improvement.*
 
 ---
 

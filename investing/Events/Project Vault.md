@@ -16,19 +16,62 @@
 
 ---
 
-## Structure
+## Financing structure
 
-| Component | Amount | Source |
-|-----------|--------|--------|
-| [[EXIM Bank]] loan | $10B | Approved same day |
-| Private capital | $2B | Institutional investors |
-| **Total** | **~$12B** | |
+~83% debt / ~17% equity:
 
-**Procurement managers:** [[Hartree Partners]], [[Traxys North America]], [[Mercuria Energy Group]]
+| Component | Amount | Source | Type |
+|-----------|--------|--------|------|
+| [[EXIM Bank]] direct loan | $10B | Government-rate, long-term | Debt |
+| Private capital | ~$2B | Institutional investors | Equity |
+| **Total** | **~$12B** | | |
+
+Largest financing in [[EXIM Bank]] history (more than double the previous record). The government-backed debt de-risks economics that private capital alone won't touch — because [[China]] can undercut prices at will, banks won't lend to alternatives without sovereign credit support.
 
 **Governance:** Led by independent CEO; [[EXIM Bank]] has board seat.
 
-**Membership model:** Companies pay annual fee for right to withdraw minerals during supply emergencies. Vault takes small operational fee; procurement traders also take small cut. Vault itself not designed to profit.
+**Procurement managers:** [[Hartree Partners]], [[Traxys North America]], [[Mercuria Energy Group]] — handle sourcing for a small cut.
+
+---
+
+## Membership mechanics
+
+OEM partners commit to:
+
+1. **Pay upfront membership fees** — annual access fee
+2. **Lock in a purchase price** for specific minerals at enrollment
+3. **Draw rights** — withdraw minerals from the stockpile at the locked price as needed
+4. **Replenishment obligation** — must replenish withdrawn supplies after use
+5. **Emergency full draw** — in a major supply disruption, members can withdraw their full allotment at once
+
+Revenue model: membership fees + small operational fee on draws. Procurement traders take a small cut. Vault itself not designed to profit — covers debt service and operating costs.
+
+**Founding OEM members:**
+
+| Company | Sector |
+|---------|--------|
+| [[General Motors]] | Automotive |
+| [[Stellantis]] | Automotive |
+| [[Boeing]] | Aerospace |
+| [[Lockheed Martin]] | Defense |
+| [[Google]] | Tech |
+| [[Corning]] | Materials/tech |
+| [[GE Vernova]] | Energy |
+| [[Western Digital]] | Semiconductors/storage |
+| [[Clarios]] | Batteries |
+
+---
+
+## Separate: government equity stakes in miners
+
+Distinct from Project Vault's debt-funded stockpile, the administration has also been converting federal grants into direct equity stakes:
+
+| Company | Deal | Agency |
+|---------|------|--------|
+| [[MP Materials]] | Equity stake + price floor + offtake (Jul 2025) | [[U.S. Department of Defense]] |
+| [[USA Rare Earth]] | ~$1.6B funding with equity stake (in talks) | Commerce ([[Howard Lutnick]]) |
+| Lithium Americas | Equity stake | Government |
+| Trilogy Metals | Equity stake | Government |
 
 ---
 
@@ -87,11 +130,16 @@ Tim Puko ([[Eurasia Group]]): Not an immediate game-changer for reducing China d
 | [[Donald Trump]] | Announced initiative |
 | [[Howard Lutnick]] | Commerce Secretary coordinating deals |
 | [[EXIM Bank]] | $10B loan facility |
-| [[General Motors]] | Founding member |
+| [[General Motors]] | Founding OEM member |
 | [[Mary Barra]] | GM CEO in attendance |
-| [[Lockheed Martin]] | Founding member |
-| [[Google]] | Founding member |
-| [[Clarios]] | Founding member (battery maker) |
+| [[Stellantis]] | Founding OEM member |
+| [[Boeing]] | Founding OEM member |
+| [[Lockheed Martin]] | Founding OEM member |
+| [[Google]] | Founding OEM member |
+| [[Corning]] | Founding OEM member |
+| [[GE Vernova]] | Founding OEM member |
+| [[Western Digital]] | Founding OEM member |
+| [[Clarios]] | Founding OEM member (batteries) |
 | [[Robert Friedland]] | Mining investor representing producers |
 | [[Hartree Partners]] | Procurement manager |
 | [[Traxys North America]] | Procurement manager |
@@ -113,6 +161,8 @@ Tim Puko ([[Eurasia Group]]): Not an immediate game-changer for reducing China d
 - [[EXIM Bank]] — record loan
 - [[Clarios]] — founding member
 - [[Eurasia Group]] — analyst coverage
+- [[Strategic mineral stockpiles]] — global comparison (SPR, NDS, China, [[JOGMEC]])
+- [[JOGMEC]] — Japan's model (template for Project Vault)
 - [[Manufacturing reshoring]]
 - [[US-China relations]]
 
