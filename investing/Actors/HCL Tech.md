@@ -36,10 +36,10 @@ aliases: [HCL Technologies, HCLTECH]
 
 | Company | Market cap | Notes |
 |---------|------------|-------|
-| [[TCS]] | ~$180B | #1 India |
-| [[Infosys]] | ~$75B | #2 India |
-| Wipro | ~$30B | #3 India |
-| **HCL Tech** | ~$50B | #4 India |
+| [[TCS]] | ~$180B | \#1 India |
+| [[Infosys]] | ~$75B | \#2 India |
+| Wipro | ~$30B | \#3 India |
+| **HCL Tech** | ~$50B | \#4 India |
 
 **Differentiation:** Stronger in engineering services and product-led businesses (HCL Software) vs. pure services peers.
 
@@ -93,8 +93,8 @@ Top clients include major enterprises across:
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
-- [[TCS]] — competitor (#1 India)
-- [[Infosys]] — competitor (#2 India)
+- [[TCS]] — competitor (\#1 India)
+- [[Infosys]] — competitor (\#2 India)
 - [[India]] — country context
 
 *Created 2026-02-04*

@@ -15,7 +15,7 @@ aliases: [MGNI, Rubicon Project, Telaria]
 | Market cap | ~$2B |
 | Revenue (2024) | ~$700M |
 | CTV % | ~50%+ |
-| Position | #1 independent SSP |
+| Position | \#1 independent SSP |
 
 ---
 
@@ -39,7 +39,7 @@ aliases: [MGNI, Rubicon Project, Telaria]
 | CTV % of revenue | ~50%+ |
 | CTV growth | 20%+ |
 | Key clients | Disney, Roku, Warner, Paramount |
-| Position | #1 CTV SSP |
+| Position | \#1 CTV SSP |
 
 ---
 

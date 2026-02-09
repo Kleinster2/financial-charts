@@ -39,7 +39,7 @@ They don't design or manufacture chips — they package and test what foundries 
 | Ticker | ASX (NYSE) |
 | Market cap | ~$22B |
 | Revenue (TTM) | ~$20B |
-| Market position | #1 OSAT globally |
+| Market position | \#1 OSAT globally |
 | 2025 capex increase | +$1B for AI/HPC capacity |
 | AI/HPC revenue | Projected to more than double |
 | Gross margin | ~18% |
@@ -51,7 +51,7 @@ They don't design or manufacture chips — they package and test what foundries 
 
 | Competitor | Notes |
 |------------|-------|
-| Amkor | #2 OSAT, similar positioning |
+| Amkor | \#2 OSAT, similar positioning |
 | JCET | Chinese OSAT, lower end |
 | [[TSMC]] | Competes in advanced packaging (CoWoS), not test |
 
@@ -98,7 +98,7 @@ ASE benefits as [[Taiwan]] OSAT leader — lower tariffs on packaged/tested chip
 
 ## For theses
 
-- [[Long OSAT and test equipment]] — core holding, #1 OSAT
+- [[Long OSAT and test equipment]] — core holding, \#1 OSAT
 - [[Long memory]] — more memory = more packaging/test
 - Foundry-agnostic: benefits regardless of TSMC vs Samsung outcome
 
@@ -113,7 +113,7 @@ ASE benefits as [[Taiwan]] OSAT leader — lower tariffs on packaged/tested chip
 - [[US-Taiwan relations]] — trade deal beneficiary (Jan 2026)
 - [[TSMC]] — customer (tests/packages TSMC wafers), competitor (CoWoS)
 - [[NVIDIA]] — customer (AI chip packaging/test)
-- [[Amkor]] — competitor (#2 OSAT)
+- [[Amkor]] — competitor (\#2 OSAT)
 - [[Cohu]] — test equipment supplier
 - [[Advanced packaging]] — key opportunity
 - [[Final test bottleneck]] — key opportunity

@@ -14,7 +14,7 @@ aliases: [CJ Olive Young, 올리브영]
 | Parent | [[CJ Group]] |
 | Founded | 1999 |
 | Stores | 1,390+ |
-| Position | #1 health & beauty in Korea |
+| Position | \#1 health & beauty in Korea |
 
 Name means "All Live Young" — healthy, beautiful living.
 

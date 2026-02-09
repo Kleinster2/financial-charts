@@ -13,7 +13,7 @@ aliases: [RIG]
 |--------|-------|
 | Ticker | RIG (NYSE) |
 | Market cap | ~$5B |
-| Position | #1 offshore driller |
+| Position | \#1 offshore driller |
 | Fleet | ~40 rigs |
 
 ---

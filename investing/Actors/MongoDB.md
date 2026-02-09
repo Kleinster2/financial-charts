@@ -17,7 +17,7 @@ aliases: [MDB]
 | Customers | 54,500+ |
 | Stock 2025 | +38% |
 
-**Position:** Leader in document databases, #2 vector database (most loved).
+**Position:** Leader in document databases, \#2 vector database (most loved).
 
 ---
 
@@ -36,7 +36,7 @@ aliases: [MDB]
 ## AI positioning
 
 **Vector search leadership:**
-- Atlas Vector Search — #1 most loved, #2 most used
+- Atlas Vector Search — \#1 most loved, \#2 most used
 - Voyage AI acquisition — embedding/reranking models
 - MCP Server — standardized AI model connections ([[Claude]], Windsurf)
 

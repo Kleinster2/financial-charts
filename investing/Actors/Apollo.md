@@ -34,7 +34,7 @@ Credit = majority of business (different from Blackstone).
 
 **[[Insurance]] platform:**
 - Merged with [[Athene]] (Jan 2022, ~$11B all-stock)
-- #1 US individual annuity seller, $430B total assets
+- \#1 US individual annuity seller, $430B total assets
 - Permanent capital vehicle — low-cost float for credit deployment
 - Spread-based income
 

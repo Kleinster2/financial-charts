@@ -48,7 +48,7 @@ Jensen doesn't just run NVIDIA — he shapes the AI hardware landscape:
 
 ## TSMC relationship
 
-- NVIDIA is TSMC's largest customer (or #2 after [[Apple]])
+- NVIDIA is TSMC's largest customer (or \#2 after [[Apple]])
 - Jensen personally negotiates capacity
 - Locked N3/N2 capacity years ahead
 - Forces AMD to secondary slots
@@ -99,7 +99,7 @@ See [[Groq]] for details.
 ## Risks / Considerations
 
 - NVIDIA valuation depends on Jensen's vision
-- Succession unclear (no obvious #2)
+- Succession unclear (no obvious \#2)
 - Age 61 — likely decade+ more, but not forever
 - Insider selling at highs
 

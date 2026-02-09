@@ -3,7 +3,7 @@ aliases: [NXP Semiconductors, NXPI]
 ---
 #actor #semiconductor #netherlands #automotive #iot
 
-**NXP Semiconductors** — Dutch semiconductor company. #2 in automotive (radar, V2X, ADAS), NFC/security leader. Survived Qualcomm acquisition attempt.
+**NXP Semiconductors** — Dutch semiconductor company. \#2 in automotive (radar, V2X, ADAS), NFC/security leader. Survived Qualcomm acquisition attempt.
 
 ---
 
@@ -38,9 +38,9 @@ NXP is the ADAS/connectivity specialist:
 
 | Role | Details |
 |------|---------|
-| Auto semis | #2 globally |
+| Auto semis | \#2 globally |
 | Radar/ADAS | Market leader |
-| NFC/security | #1 globally |
+| NFC/security | \#1 globally |
 | V2X | Leading position |
 
 | Metric | Value |
@@ -88,10 +88,10 @@ NXP has underperformed ADI and ON over 7 years, tracking closer to TXN. The 2018
 
 | Segment | Position |
 |---------|----------|
-| Automotive | #2 globally (after [[Infineon]]) |
-| Automotive radar | #1 |
-| NFC | #1 globally |
-| Secure elements | #1 |
+| Automotive | \#2 globally (after [[Infineon]]) |
+| Automotive radar | \#1 |
+| NFC | \#1 globally |
+| Secure elements | \#1 |
 | V2X (vehicle-to-everything) | Leader |
 
 ---
@@ -124,7 +124,7 @@ NXP has underperformed ADI and ON over 7 years, tracking closer to TXN. The 2018
 
 | Metric | Value |
 |--------|-------|
-| Radar market share | #1 |
+| Radar market share | \#1 |
 | Customers | Most major OEMs |
 | Technology | 77GHz imaging radar |
 | Trend | More radar per vehicle |
@@ -218,9 +218,9 @@ NXP = connectivity/radar specialist. Infineon = power/MCU leader.
 | Ticker | NXPI |
 | Market cap | ~$58B |
 | Revenue | $12.6B |
-| Auto semi rank | #2 globally |
-| Radar position | #1 |
-| NFC position | #1 |
+| Auto semi rank | \#2 globally |
+| Radar position | \#1 |
+| NFC position | \#1 |
 | Gross margin | ~57% |
 
 *Updated 2026-02-03 (Q4 2025 earnings)*
@@ -229,7 +229,7 @@ NXP = connectivity/radar specialist. Infineon = power/MCU leader.
 
 ## Related
 
-- [[Infineon]] — competitor (#1 automotive)
+- [[Infineon]] — competitor (\#1 automotive)
 - [[STMicro]] — competitor (European auto)
 - [[Renesas]] — competitor (auto MCUs)
 - [[Qualcomm]] — blocked acquirer ($44B deal)

@@ -87,7 +87,7 @@ SFG is the institutional broker-dealer arm. Covers ~200 companies with different
 
 | Analyst | Coverage | TipRanks rank | Success rate |
 |---------|----------|---------------|--------------|
-| **Mehdi Hosseini** | Semi equipment, foundries, OSAT, displays | #319 / 9,143 | 58.6% |
+| **Mehdi Hosseini** | Semi equipment, foundries, OSAT, displays | \#319 / 9,143 | 58.6% |
 | **Christopher Rolland** | [[Semiconductors]] (NVIDIA, AMD, Broadcom, etc.) | Top tier | 52.2% |
 
 ### Mehdi Hosseini

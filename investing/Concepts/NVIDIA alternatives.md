@@ -68,7 +68,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 
 | Company | Approach | Status |
 |---------|----------|--------|
-| [[AMD]] | MI300X GPU | #2, gaining share |
+| [[AMD]] | MI300X GPU | \#2, gaining share |
 | [[Intel]] | Gaudi | Struggling |
 | [[Broadcom]] | Custom ASICs | Google TPU partner |
 
@@ -148,7 +148,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 - Groq, Cerebras, Tenstorrent — need private access or IPO
 
 **Public alternatives:**
-- [[AMD]] — #2 GPU, MI300X competitive
+- [[AMD]] — \#2 GPU, MI300X competitive
 - [[Broadcom]] — custom ASIC for Google
 
 **Indirect:**
@@ -165,7 +165,7 @@ aliases: [AI chip alternatives, GPU alternatives, NVIDIA competitors]
 - [[Cerebras]], [[Tenstorrent]], [[SambaNova]] — US alternatives
 - [[FuriosaAI]] — Korean alternative (leading independent)
 - [[Ascend]] — [[China]] alternative
-- [[AMD]] — #2 GPU
+- [[AMD]] — \#2 GPU
 - [[CUDA moat]] — why NVIDIA is hard to displace
 - [[Inference disaggregation]] — structural trend
 - [[Power constraints]] — why efficiency matters

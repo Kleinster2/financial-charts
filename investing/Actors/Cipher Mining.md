@@ -66,7 +66,7 @@ Second-best performer in crypto-to-AI pivot, now with Anthropic deal:
 | [[Hut 8]] | +139% | Full transformation |
 | [[Marathon]] | Lagging | Bitcoin pure-play |
 
-Cipher = strong #2 in pivot execution.
+Cipher = strong \#2 in pivot execution.
 
 ---
 
@@ -119,7 +119,7 @@ Cipher = strong #2 in pivot execution.
 
 ## Related
 
-- [[IREN]] — competitor, peer (#1 in crypto-AI pivot)
+- [[IREN]] — competitor, peer (\#1 in crypto-AI pivot)
 - [[Hut 8]] — peer (Anthropic consortium)
 - [[TeraWulf]] — peer (Anthropic consortium)
 - [[Core Scientific]] — competitor, peer

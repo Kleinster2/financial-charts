@@ -3,7 +3,7 @@ aliases: [AMH, American Homes]
 ---
 #actor #housing #reit #usa #public
 
-**American Homes 4 Rent** — #2 single-family rental REIT. 61,000+ homes across Southeast, Midwest, Southwest, Mountain West. NYSE: AMH.
+**American Homes 4 Rent** — \#2 single-family rental REIT. 61,000+ homes across Southeast, Midwest, Southwest, Mountain West. NYSE: AMH.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [AMH, American Homes]
 | Metric | Value |
 |--------|-------|
 | Homes owned | **61,000+** (Sep 2025) |
-| Market position | #2 SFR REIT (behind [[Invitation Homes]]) |
+| Market position | \#2 SFR REIT (behind [[Invitation Homes]]) |
 | Revenue (2024) | $1.73B (+6.5% YoY) |
 | Earnings (2024) | $397M (+8.8% YoY) |
 | 2025 EPS guidance | $1.86–$1.88 |
@@ -92,7 +92,7 @@ See [[Institutional homebuying ban]] for full context.
 
 ## Related
 
-- [[Invitation Homes]] — #1 SFR REIT, main competitor
+- [[Invitation Homes]] — \#1 SFR REIT, main competitor
 - [[Blackstone]] — PE pioneer in SFR space
 - [[Single-family rental]] — asset class context
 - [[Institutional homebuying ban]] — policy risk

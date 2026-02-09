@@ -7,7 +7,7 @@ aliases:
 
 # Bradesco BBI
 
-**[[Bradesco]]'s investment banking arm** — #1 Brazil investment bank by most metrics. 2025 Euromoney "Brazil's Best Investment Bank" + LatinFinance Infrastructure Bank of the Year. R$479B DCM volume (2024), 447 transactions. Dominant in infrastructure, green bonds, and Brazilian capital markets.
+**[[Bradesco]]'s investment banking arm** — \#1 Brazil investment bank by most metrics. 2025 Euromoney "Brazil's Best Investment Bank" + LatinFinance Infrastructure Bank of the Year. R$479B DCM volume (2024), 447 transactions. Dominant in infrastructure, green bonds, and Brazilian capital markets.
 
 ---
 
@@ -126,7 +126,7 @@ Marcelo Noronha (Bradesco CEO since Nov 2023) came up through BBI — held VP ro
 - [[Bradesco]] — parent bank
 
 ### Competitors
-- [[Itaú BBA]] — #1 competitor
+- [[Itaú BBA]] — \#1 competitor
 - [[BTG Pactual]] — pure-play IB competitor
 - [[UBS BB]] — competitor (UBS + Banco do Brasil JV)
 - [[Santander Brasil]] — competitor

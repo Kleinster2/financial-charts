@@ -2,7 +2,7 @@
 
 [[Samsung]]'s "leapfrog" behavior reflects structural position, not organizational dysfunction. And TSMC's capacity constraints are now validating this bet.
 
-> **Key insight:** Being #2 in foundry requires high-variance strategies. Patience from #2 position = permanent irrelevance.
+> **Key insight:** Being \#2 in foundry requires high-variance strategies. Patience from \#2 position = permanent irrelevance.
 
 ---
 
@@ -100,7 +100,7 @@ The [[Samsung Taylor pivot]] looks like recklessness. It may be **rational asymm
 ## Related
 
 - [[Samsung]] — subject (~12% vs TSMC's ~60%)
-- [[TSMC]] — incumbent (patience is affordable from #1)
+- [[TSMC]] — incumbent (patience is affordable from \#1)
 - [[Samsung Taylor pivot]] — example (leapfrog = rational asymmetric bet)
 - [[Why TSMC can afford patience]] — counterpoint
 - [[Execution risk in foundries]] — trade-off (high variance acceptable)

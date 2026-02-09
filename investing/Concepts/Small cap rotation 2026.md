@@ -66,8 +66,8 @@ Small caps more rate-sensitive. Fed pause/cuts benefit:
 
 ## Tracking
 
-![[iwm-vs-qqq.png]]
-*IWM (blue) vs QQQ (red) since Oct 2025. Divergence accelerated Jan 2026.*
+![[iwm-vs-qqq-price-chart.png]]
+*IWM (blue) vs QQQ (red), last 90 days. ~12pp divergence — IWM +8% vs QQQ -4%. SaaSpocalypse week hit QQQ but small caps held.*
 
 | Ticker | Description |
 |--------|-------------|

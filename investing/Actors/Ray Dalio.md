@@ -13,7 +13,7 @@ aliases: [Raymond Dalio, Raymond Thomas Dalio]
 |--------|-------|
 | Born | August 8, 1949, Jackson Heights, Queens, NY |
 | Net worth | $15.4B (2025) |
-| Forbes rank | #124 globally (Dec 2024) |
+| Forbes rank | \#124 globally (Dec 2024) |
 | Education | BA Finance, C.W. Post/Long Island University; MBA, Harvard Business School (1973) |
 | Firm | [[Bridgewater]] (founded 1975, exited 2024) |
 
@@ -145,7 +145,7 @@ See [[Dalio Principles]] for the full framework — radical truth, radical trans
 | Date | Amount |
 |------|--------|
 | 2025 | $15.4B |
-| Dec 2024 | #124 Forbes global |
+| Dec 2024 | \#124 Forbes global |
 | Primary source | Former stake in Bridgewater |
 
 ---

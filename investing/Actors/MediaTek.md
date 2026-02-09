@@ -3,7 +3,7 @@ aliases: [MTK]
 ---
 #actor #fabless #taiwan
 
-**MediaTek** — [[Taiwan]] fabless chip designer, #4 globally. Mobile SoCs (#2 after Qualcomm), emerging as [[Broadcom]] alternative for hyperscaler ASICs.
+**MediaTek** — [[Taiwan]] fabless chip designer, \#4 globally. Mobile SoCs (\#2 after Qualcomm), emerging as [[Broadcom]] alternative for hyperscaler ASICs.
 
 ---
 
@@ -13,7 +13,7 @@ MediaTek is becoming the anti-Broadcom for hyperscalers:
 
 | Role | Details |
 |------|---------|
-| Mobile SoCs | #2 globally (after Qualcomm) |
+| Mobile SoCs | \#2 globally (after Qualcomm) |
 | Hyperscaler ASICs | Google, Microsoft, [[ByteDance]] |
 | [[Automotive]] | Growing segment |
 | Foundry | TSMC customer ([[Taiwan]]-to-[[Taiwan]]) |
@@ -57,11 +57,11 @@ Google's TPUv8 "Zebrafish" uses MediaTek for supporting chips as Google attempts
 
 ## Mobile SoC business
 
-**Core business (#2 globally):**
+**Core business (\#2 globally):**
 
 | Segment | Position |
 |---------|----------|
-| Mobile SoCs | #2 (after Qualcomm) |
+| Mobile SoCs | \#2 (after Qualcomm) |
 | Market share | ~35% of Android |
 | Segments | Flagship, mid-range, budget |
 | Key product | Dimensity series |
@@ -76,7 +76,7 @@ Google's TPUv8 "Zebrafish" uses MediaTek for supporting chips as Google attempts
 
 ## Smart home / IoT
 
-**#1 in smart home:**
+**\#1 in smart home:**
 
 | Product | Applications |
 |---------|--------------|
@@ -196,7 +196,7 @@ MediaTek as [[Taiwan]] fabless company benefits from:
 | Ticker | 2454.TW |
 | Market cap | ~$50B |
 | Revenue | ~$15B |
-| Mobile position | #2 globally |
+| Mobile position | \#2 globally |
 | Key ASIC customer | Google (TPU) |
 | Foundry | TSMC |
 

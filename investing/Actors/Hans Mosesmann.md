@@ -13,7 +13,7 @@ aliases: [Mosesmann]
 |----------|--------|
 | NVIDIA conviction | First Street analyst to $1,000+ (pre-split) |
 | Track record | 71% success rate, 35% avg return |
-| Ranking | #35 of 5,097 analysts |
+| Ranking | \#35 of 5,097 analysts |
 | Software thesis | Sees NVIDIA software as underappreciated driver |
 
 ---
@@ -35,7 +35,7 @@ aliases: [Mosesmann]
 | Success rate | 70.7% profitable |
 | Avg return | 34.7% per transaction |
 | PT hit rate | 67% |
-| Analyst rank | #35 / 5,097 |
+| Analyst rank | \#35 / 5,097 |
 
 **Style:** Aggressive, conviction-driven. Willing to have Street-high price targets and defend them on CNBC.
 

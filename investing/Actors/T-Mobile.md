@@ -27,7 +27,7 @@ US wireless disruptor:
 - Price disruption
 - Sprint merger (2020)
 - Took share from AT&T/Verizon
-- Now #1 or #2 US carrier
+- Now \#1 or \#2 US carrier
 
 ---
 

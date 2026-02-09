@@ -124,7 +124,7 @@ Partnership legitimizes battery swap model.
 
 ## Related
 
-- [[BYD]] — competitor (#1 [[China]] EV)
+- [[BYD]] — competitor (\#1 [[China]] EV)
 - [[Tesla]] — competitor
 - [[CATL]] — battery partner
 - [[Xiaomi]] — competitor ([[China]] EV entrant)

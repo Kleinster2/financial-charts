@@ -93,7 +93,7 @@ aliases: [VSNT, Versant Media Group, SpinCo]
 | Rebranded | November 15, 2025 |
 | Reason | Remove NBC branding ahead of spin |
 | Strategy | DTC streaming service launching 2026 |
-| Position | #2 cable news behind Fox News |
+| Position | \#2 cable news behind Fox News |
 
 See [[TV news]] for details.
 

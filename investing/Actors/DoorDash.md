@@ -3,7 +3,7 @@ aliases: [DASH]
 ---
 #actor #delivery #marketplace #usa #public
 
-**DoorDash** — Food delivery leader. #1 US share (~65%). Expanding grocery, retail.
+**DoorDash** — Food delivery leader. \#1 US share (~65%). Expanding grocery, retail.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [DASH]
 
 | Market | Position |
 |--------|----------|
-| US food delivery | **#1** (~65% share) |
+| US food delivery | **\#1** (~65% share) |
 | [[Canada]] | Strong |
 | [[Australia]] | Expanding |
 | [[Germany]]/[[Europe]] | Wolt acquisition |

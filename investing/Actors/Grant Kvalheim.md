@@ -37,7 +37,7 @@ The CEO transition aligns with Athene's five-year growth plan announced at the 2
 - Scale from $430B toward $600B+ in assets
 - Expand [[Japan]]/[[Asia]] operations (FCA Re sidecar with [[Fortitude Re]])
 - Deepen defined contribution market (ARS acquisition with [[Apollo]])
-- Maintain #1 US individual annuity market position
+- Maintain \#1 US individual annuity market position
 
 Kvalheim told Semafor he's in a hurry — the retirement savings gap ($4T US, $51T global) represents a generational opportunity, and Athene's scale + Apollo asset management = structural competitive advantage.
 

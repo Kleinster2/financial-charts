@@ -16,8 +16,8 @@ Korean memory giants. Trades as a distinct cluster (0.56 correlation) separate f
 
 | Company | Focus | Position |
 |---------|-------|----------|
-| [[Samsung]] | DRAM + NAND + HBM | #1 DRAM, #1 NAND, #2 HBM |
-| [[SK Hynix]] | DRAM + NAND + HBM | #2 DRAM, #2 NAND (via Solidigm), **#1 HBM** |
+| [[Samsung]] | DRAM + NAND + HBM | \#1 DRAM, \#1 NAND, \#2 HBM |
+| [[SK Hynix]] | DRAM + NAND + HBM | \#2 DRAM, \#2 NAND (via Solidigm), **\#1 HBM** |
 
 ---
 
@@ -45,9 +45,9 @@ Korea Memory moves with Korean market/won, not US memory peers.
 
 | Company | HBM Position | Notes |
 |---------|--------------|-------|
-| [[SK Hynix]] | **#1** | NVIDIA preferred supplier |
-| [[Samsung]] | #2 | Catching up, yield issues |
-| [[Micron]] | #3 | Distant third |
+| [[SK Hynix]] | **\#1** | NVIDIA preferred supplier |
+| [[Samsung]] | \#2 | Catching up, yield issues |
+| [[Micron]] | \#3 | Distant third |
 
 Korea controls **~95% of HBM production** — the premium AI memory product.
 
@@ -57,7 +57,7 @@ Korea controls **~95% of HBM production** — the premium AI memory product.
 
 | Factor | Korea Memory | vs US Memory |
 |--------|--------------|--------------|
-| HBM exposure | Dominant (#1, #2) | Micron catching up (#3) |
+| HBM exposure | Dominant (\#1, \#2) | Micron catching up (\#3) |
 | Scale | Samsung largest memory co globally | Micron smaller |
 | Currency | KRW exposure | USD |
 | Geopolitical | China exposure risk | CHIPS Act tailwind |
@@ -67,7 +67,7 @@ Korea controls **~95% of HBM production** — the premium AI memory product.
 ## Investment angle
 
 **Why separate from US Memory:**
-- HBM leadership (SK Hynix #1, Samsung #2)
+- HBM leadership (SK Hynix \#1, Samsung \#2)
 - KRW currency exposure
 - Different risk profile (China proximity)
 - Correlation data confirms distinct trading behavior

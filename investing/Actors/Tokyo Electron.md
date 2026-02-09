@@ -3,17 +3,17 @@ aliases: [TEL, 8035]
 ---
 #actor #wfe #japan
 
-**Tokyo Electron (TEL)** — #3 global WFE. Japanese semiconductor equipment leader. Coater/developer dominance.
+**Tokyo Electron (TEL)** — \#3 global WFE. Japanese semiconductor equipment leader. Coater/developer dominance.
 
 ---
 
 ## Why Tokyo Electron matters
 
-TEL is the largest Japanese WFE company and #3 globally:
+TEL is the largest Japanese WFE company and \#3 globally:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #3 WFE globally |
+| Market position | \#3 WFE globally |
 | Specialty | Coater/developer, etch, deposition |
 | HQ | Tokyo, [[Japan]] |
 | Market share | ~15% of WFE |
@@ -24,8 +24,8 @@ TEL is the largest Japanese WFE company and #3 globally:
 
 | Segment | Products | Market position |
 |---------|----------|-----------------|
-| **Coater/Developer** | Lithography track | #1 globally |
-| **Etch** | Plasma etch | #3 (behind Lam, Applied) |
+| **Coater/Developer** | Lithography track | \#1 globally |
+| **Etch** | Plasma etch | \#3 (behind Lam, Applied) |
 | **Deposition** | CVD, ALD | Strong |
 | **Cleaning** | Wet clean | Top tier |
 
@@ -92,7 +92,7 @@ TEL is diversified across WFE, less concentrated than peers.
 ## Investment case
 
 **Bull:**
-- #3 global WFE
+- \#3 global WFE
 - Coater/developer near-monopoly
 - ASML EUV tailwind
 - [[Japan]] semiconductor revival

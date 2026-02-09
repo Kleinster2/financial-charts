@@ -15,7 +15,7 @@ Solar trackers maximize energy output — essential for utility-scale:
 |--------|-------|
 | Product | Single-axis solar trackers |
 | Benefit | 20-25% more energy vs fixed |
-| Market position | #2 US (behind Nextracker) |
+| Market position | \#2 US (behind Nextracker) |
 | Focus | Utility-scale solar |
 
 ---
@@ -52,8 +52,8 @@ Solar trackers maximize energy output — essential for utility-scale:
 **US utility-scale solar:**
 | Company | Position |
 |---------|----------|
-| Nextracker | #1 |
-| **Array** | #2 |
+| Nextracker | \#1 |
+| **Array** | \#2 |
 | Others | Fragmented |
 
 **Competitive dynamics:**
@@ -83,7 +83,7 @@ Solar trackers maximize energy output — essential for utility-scale:
 - Utility-scale growth
 
 **Bear:**
-- #2 to Nextracker
+- \#2 to Nextracker
 - Commodity hardware risk
 - Tariff/trade policy exposure
 - Installation labor dependency
@@ -99,7 +99,7 @@ Solar trackers maximize energy output — essential for utility-scale:
 | Market cap | ~$2B |
 | HQ | Albuquerque, NM |
 | Product | Solar trackers |
-| Market position | #2 US |
+| Market position | \#2 US |
 
 *Updated 2026-01-01*
 

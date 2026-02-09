@@ -13,8 +13,8 @@ aliases: [豆包, ByteDance AI]
 |--------|-------|
 | DAU | **100M+** (Dec 2025) |
 | MAU | **159M** (Oct 2025) |
-| China AI rank | **#1** (passed DeepSeek Aug 2025) |
-| Global AI rank | #4 (behind ChatGPT, [[Gemini]], Copilot) |
+| China AI rank | **\#1** (passed DeepSeek Aug 2025) |
+| Global AI rank | \#4 (behind ChatGPT, [[Gemini]], Copilot) |
 | Parent | [[ByteDance]] |
 | Marketing spend | Lowest of any ByteDance 100M DAU product |
 
@@ -48,7 +48,7 @@ ByteDance doesn't publish as much model detail as peers.
 
 | Date | MAU | Notes |
 |------|-----|-------|
-| Feb 2025 | 82M | #1 China AI app |
+| Feb 2025 | 82M | \#1 China AI app |
 | Aug 2025 | 157M | Passed DeepSeek |
 | Oct 2025 | 159M | 2x nearest competitor |
 | Dec 2025 | **100M DAU** | Milestone with minimal spend |
@@ -63,7 +63,7 @@ ByteDance doesn't publish as much model detail as peers.
 | [[Alibaba]] [[Qwen]] | ~100M |
 | Baidu Ernie | — |
 
-Doubao leads by 2x over #3.
+Doubao leads by 2x over \#3.
 
 ---
 
@@ -198,8 +198,8 @@ See [[ByteDance]] for GPU spending details.
 | Parent | [[ByteDance]] |
 | DAU | 100M+ |
 | MAU | 159M |
-| China rank | #1 AI app |
-| Global rank | #4 AI app |
+| China rank | \#1 AI app |
+| Global rank | \#4 AI app |
 | Launched | 2023 |
 | Status | Product (not standalone) |
 
@@ -211,7 +211,7 @@ See [[ByteDance]] for GPU spending details.
 
 - [[ByteDance]] — parent company
 - [[Douyin]] — distribution channel, commerce integration
-- [[DeepSeek]] — competitor (#2 in China)
+- [[DeepSeek]] — competitor (\#2 in China)
 - [[Alibaba]] — competitor ([[Qwen]])
 - [[Tencent]] — competitor (Yuanbao)
 - [[NVIDIA]] — GPU supplier

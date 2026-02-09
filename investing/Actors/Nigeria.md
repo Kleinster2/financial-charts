@@ -30,7 +30,7 @@ aliases: []
 | Solar imports | <500 MW | **1,721 MW** |
 | Sun King sales | 3,000 kits/month | **75,000 kits/month** |
 
-Nigeria is #2 in [[Africa]] for solar imports (after South [[Africa]]).
+Nigeria is \#2 in [[Africa]] for solar imports (after South [[Africa]]).
 
 **Muhammad Wakil (GEAPP):** "Solar is coming in to replace a lot of that inefficient individual power generation. And it's happening for residential, it's happening at the commercial level."
 

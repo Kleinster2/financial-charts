@@ -3,7 +3,7 @@ aliases: [ON Semiconductor, ON]
 ---
 #actor #semiconductor #power #sic #usa #public
 
-**onsemi** — Power semiconductor leader. SiC specialist for EVs. #1 in automotive image sensors.
+**onsemi** — Power semiconductor leader. SiC specialist for EVs. \#1 in automotive image sensors.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [ON Semiconductor, ON]
 | Market cap | ~$25B |
 | 2024 revenue | $7.1B |
 | Position | Top 5 power semis |
-| SiC position | #2-3 (behind STMicro) |
+| SiC position | \#2-3 (behind STMicro) |
 
 onsemi is the SiC + image sensor play on automotive electrification and ADAS.
 
@@ -78,7 +78,7 @@ ON massively outperformed analog peers 2018-2022 on EV/SiC hype. Stock has corre
 **SiC advantage:** Higher efficiency than silicon IGBTs for EV inverters (800V systems).
 
 **SiC market dynamics:**
-- onsemi #2-3 behind STMicro in auto SiC
+- onsemi \#2-3 behind STMicro in auto SiC
 - Targeting $1B+ SiC revenue by 2024
 - Long-term supply agreements (LTSAs) lock in customers
 - 200mm transition critical for cost competitiveness
@@ -91,7 +91,7 @@ ON massively outperformed analog peers 2018-2022 on EV/SiC hype. Stock has corre
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 automotive image sensors |
+| Market position | \#1 automotive image sensors |
 | Global share | ~50% of auto image sensors |
 | Key product | AR0820 (8MP, ADAS-grade) |
 | Customers | Tesla, Mobileye, Tier 1s |
@@ -130,7 +130,7 @@ Automotive dominant = high cyclicality.
 | Competitor | Focus | vs onsemi |
 |------------|-------|-----------|
 | [[STMicro]] | SiC leader, Tesla supplier | Ahead in SiC scale |
-| [[Infineon]] | Power broad, #1 auto | Larger, less SiC focus |
+| [[Infineon]] | Power broad, \#1 auto | Larger, less SiC focus |
 | Wolfspeed | Pure-play SiC | Better substrates, worse financials |
 | [[Texas Instruments]] | Analog broad | Different focus |
 | [[Analog Devices]] | Mixed-signal | Different focus |
@@ -152,7 +152,7 @@ Automotive dominant = high cyclicality.
 
 **Bull:**
 - SiC growth with EV adoption (long-term)
-- Image sensor moat (#1 position)
+- Image sensor moat (\#1 position)
 - Vertical integration advantage
 - CHIPS Act beneficiary
 - LTSAs provide revenue visibility
@@ -186,8 +186,8 @@ Automotive dominant = high cyclicality.
 | 2024 revenue | $7.1B |
 | HQ | Phoenix, AZ |
 | Auto revenue | ~55% |
-| SiC position | #2-3 |
-| Image sensor position | #1 auto |
+| SiC position | \#2-3 |
+| Image sensor position | \#1 auto |
 
 *Updated 2026-01-28*
 
@@ -197,7 +197,7 @@ Automotive dominant = high cyclicality.
 
 - [[Automotive semiconductors]] — context (SiC for EVs)
 - [[STMicro]] — competitor (SiC leader)
-- [[Infineon]] — competitor (#1 auto power)
+- [[Infineon]] — competitor (\#1 auto power)
 - [[Tesla]] — customer (EV SiC demand)
 - [[Mobileye]] — partner (image sensors)
 - [[Wolfspeed]] — competitor (pure-play SiC)

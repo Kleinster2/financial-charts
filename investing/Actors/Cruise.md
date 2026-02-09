@@ -57,7 +57,7 @@ AV cautionary tale:
 
 ## Pre-incident status
 
-**Was #2 in robotaxi:**
+**Was \#2 in robotaxi:**
 - SF operations (driverless)
 - Phoenix expansion
 - Growing rides

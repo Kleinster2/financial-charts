@@ -3,7 +3,7 @@ aliases: [Nikon Corporation, Nikon Precision]
 ---
 #actor #equipment #semiconductor #japan #public
 
-**Nikon** — Japanese precision equipment company. Was #1 in lithography before [[ASML]]. Now ~5% DUV market share. Lost EUV race. Focuses on cost-effective DUV for mature nodes (7nm+). TYO: 7731.
+**Nikon** — Japanese precision equipment company. Was \#1 in lithography before [[ASML]]. Now ~5% DUV market share. Lost EUV race. Focuses on cost-effective DUV for mature nodes (7nm+). TYO: 7731.
 
 ---
 

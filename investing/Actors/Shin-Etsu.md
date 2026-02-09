@@ -3,7 +3,7 @@ aliases: [Shin-Etsu Chemical, 4063.T]
 ---
 #actor #semiconductor #materials #japan #public
 
-**Shin-Etsu Chemical** — World's largest silicon wafer maker. ~30% global share. Also #1 in PVC. Japanese materials giant.
+**Shin-Etsu Chemical** — World's largest silicon wafer maker. ~30% global share. Also \#1 in PVC. Japanese materials giant.
 
 ---
 
@@ -101,13 +101,13 @@ Every chip starts with a silicon wafer. Shin-Etsu makes more than anyone:
 ## Related
 
 - [[Long Japan wafers]] — investment thesis (Shin-Etsu as diversified play)
-- [[Sumco]] — #2 wafer competitor ([[Japan]])
-- [[Siltronic]] — #3 wafer competitor ([[Germany]])
+- [[Sumco]] — \#2 wafer competitor ([[Japan]])
+- [[Siltronic]] — \#3 wafer competitor ([[Germany]])
 - [[TSMC]] — largest customer
 - [[Samsung]] — customer
 - [[Long WFE]] — upstream picks and shovels
 - [[Japan Semiconductor Revival]] — national context
-- [[JSR Corporation]] — #1 photoresist competitor (private)
-- [[Tokyo Ohka Kogyo]] — #2 photoresist competitor
+- [[JSR Corporation]] — \#1 photoresist competitor (private)
+- [[Tokyo Ohka Kogyo]] — \#2 photoresist competitor
 - [[Fujifilm]] — photoresist competitor
 - [[Sumitomo Chemical]] — photoresist competitor

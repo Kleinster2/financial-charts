@@ -144,7 +144,7 @@ Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app
 
 1. **Fastest B2B fintech growth** — $7.65B → $32B in 8 months.
 
-2. **Brex exit validates category** — Capital One paid $5.15B for #2 player; Ramp is #1.
+2. **Brex exit validates category** — Capital One paid $5.15B for \#2 player; Ramp is \#1.
 
 3. **IPO candidate** — At $32B and $1B+ revenue, likely 2026-2027 IPO.
 

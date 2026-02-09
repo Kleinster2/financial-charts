@@ -3,7 +3,7 @@ aliases: [WFRD]
 ---
 #actor #energy #oilservices #usa #public
 
-**Weatherford** — #4 oil services company. Post-bankruptcy turnaround. Drilling, completions, production optimization. [[Venezuela]] rebuild beneficiary.
+**Weatherford** — \#4 oil services company. Post-bankruptcy turnaround. Drilling, completions, production optimization. [[Venezuela]] rebuild beneficiary.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [WFRD]
 |--------|-------|
 | Ticker | WFRD (NASDAQ) |
 | Market cap | ~$7B |
-| Position | #4 oil services |
+| Position | \#4 oil services |
 | Focus | Full-cycle services |
 
 ---
@@ -89,7 +89,7 @@ See [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Schlumberger]] — peer (#1)
-- [[Halliburton]] — peer (#2)
-- [[Baker Hughes]] — peer (#3)
+- [[Schlumberger]] — peer (\#1)
+- [[Halliburton]] — peer (\#2)
+- [[Baker Hughes]] — peer (\#3)
 - [[Venezuela oil rebuild]] — thesis

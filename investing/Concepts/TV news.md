@@ -23,9 +23,9 @@ The US television news landscape — broadcast news divisions, cable news networ
 
 | Network | Owner | Ticker | Position |
 |---------|-------|--------|----------|
-| **Fox News** | [[Fox Corporation]] | FOX | #1 cable news (23 years) |
-| **MS NOW** (fka MSNBC) | [[Versant]] (Comcast spinoff) | TBD | #2, left-leaning |
-| **CNN** | [[Warner Bros Discovery]] | WBD | #3, struggling |
+| **Fox News** | [[Fox Corporation]] | FOX | \#1 cable news (23 years) |
+| **MS NOW** (fka MSNBC) | [[Versant]] (Comcast spinoff) | TBD | \#2, left-leaning |
+| **CNN** | [[Warner Bros Discovery]] | WBD | \#3, struggling |
 
 ### Ratings (2024-25 average)
 
@@ -74,7 +74,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 
 | Property | Description |
 |----------|-------------|
-| **World News Tonight** | David Muir, often #1 ratings |
+| **World News Tonight** | David Muir, often \#1 ratings |
 | **Good Morning America** | Competes with Today |
 | **This Week** | Sunday politics (George Stephanopoulos) |
 | **20/20** | Newsmagazine |
@@ -181,7 +181,7 @@ The US television news landscape — broadcast news divisions, cable news networ
 
 | Role | Person | Network |
 |------|--------|---------|
-| Evening news #1 ratings | David Muir | ABC |
+| Evening news \#1 ratings | David Muir | ABC |
 | Evening news (CBS) | Transition | CBS |
 | Evening news (NBC) | Lester Holt | NBC |
 | Most influential cable | Sean Hannity | Fox News |

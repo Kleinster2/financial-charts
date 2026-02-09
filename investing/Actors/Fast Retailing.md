@@ -5,7 +5,7 @@ aliases: [Uniqlo, 9983, Fast Retailing Co]
 
 # Fast Retailing
 
-**World's third-largest fashion retailer** (behind Inditex and H&M by revenue, but #1 by market cap at times). ¥3.4T (~$22B) revenue in FY2025 (Aug year-end), +13% growth. Uniqlo is the core brand (~85% of revenue). Founder Tadashi Yanai is [[Japan]]'s richest person (~$42B). 3,600+ stores globally. "LifeWear" positioning — functional, high-quality basics at accessible prices. Not fashion-forward, but engineered essentials.
+**World's third-largest fashion retailer** (behind Inditex and H&M by revenue, but \#1 by market cap at times). ¥3.4T (~$22B) revenue in FY2025 (Aug year-end), +13% growth. Uniqlo is the core brand (~85% of revenue). Founder Tadashi Yanai is [[Japan]]'s richest person (~$42B). 3,600+ stores globally. "LifeWear" positioning — functional, high-quality basics at accessible prices. Not fashion-forward, but engineered essentials.
 
 ---
 
@@ -103,7 +103,7 @@ Uniqlo doesn't compete on trends — it competes on material innovation and func
 
 - [[Fashion]] — sector hub
 - [[Inditex]] — largest competitor
-- [[H&M]] — #2 fast fashion competitor
+- [[H&M]] — \#2 fast fashion competitor
 - [[Nike]] — competing in athletic basics (LifeWear overlap)
 
 *Created 2026-01-24*

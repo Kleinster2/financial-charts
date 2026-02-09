@@ -261,7 +261,7 @@ China is central to every major semiconductor thesis:
 
 **Strategic response:** Chinese exporters restructured supply chains — shifted lower-end manufacturing to third countries (SE [[Asia]]) facing lower US tariffs.
 
-**[[Africa]] = fastest growing destination:** Exports +26%, $348B total trade. Belt & Road investment in [[Africa]] hit $39B in H1 2025 (#1 destination). See [[China-Africa trade]].
+**[[Africa]] = fastest growing destination:** Exports +26%, $348B total trade. Belt & Road investment in [[Africa]] hit $39B in H1 2025 (\#1 destination). See [[China-Africa trade]].
 
 ---
 

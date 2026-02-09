@@ -40,7 +40,7 @@ Shenzhen is where hardware gets built:
 | [[Huawei]] | [[Telecom]], chips | HQ, under sanctions |
 | [[BYD]] | EVs, batteries | World's largest EV maker |
 | [[DJI]] | [[Drones]] | ~70% global market share |
-| ZTE | [[Telecom]] | #2 to Huawei |
+| ZTE | [[Telecom]] | \#2 to Huawei |
 | Tencent | Internet | [[Gaming]], WeChat (technically HQ) |
 | Foxconn | Manufacturing | Major facilities |
 | [[CXMT]] | DRAM | Domestic memory |

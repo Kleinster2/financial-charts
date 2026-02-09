@@ -62,8 +62,8 @@ Under Barra, GM has pivoted aggressively toward EVs:
 
 ## Recognition
 
-- Fortune Most Powerful Women: #1 (2015, 2017, 2024, 2025)
-- Forbes Most Powerful Women: #4-9 (various years)
+- Fortune Most Powerful Women: \#1 (2015, 2017, 2024, 2025)
+- Forbes Most Powerful Women: \#4-9 (various years)
 - TIME 100 Most Influential (2014, 2021)
 - Automotive Hall of Fame inductee (2023)
 - National Academy of Engineering (2018)

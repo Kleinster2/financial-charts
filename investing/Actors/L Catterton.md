@@ -77,7 +77,7 @@ Merger in 2016 combined:
 
 ## Rankings & scale
 
-- **#39** in PEI 300 (2024) — world's largest PE firms
+- **\#39** in PEI 300 (2024) — world's largest PE firms
 - Largest consumer-dedicated PE firm globally
 - 94 acquisitions, 27 IPOs in portfolio history
 

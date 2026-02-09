@@ -13,7 +13,7 @@ aliases: [E]
 |--------|-------|
 | Ticker | E (NYSE/Milan) |
 | Market cap | ~$45B |
-| Position | #6 Western major |
+| Position | \#6 Western major |
 | Owner | Italian government (~30%) |
 
 ---

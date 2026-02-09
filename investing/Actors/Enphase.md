@@ -13,7 +13,7 @@ Enphase dominates residential solar electronics:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 microinverters (US residential) |
+| Market position | \#1 microinverters (US residential) |
 | Differentiation | Software, reliability, ecosystem |
 | Attach rate | [[Batteries]], EV chargers |
 | Margin profile | High-margin vs commodity inverters |

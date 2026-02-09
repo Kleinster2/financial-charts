@@ -61,9 +61,9 @@ Worked under [[Satya Nadella]] in Server & Tools before both rose to top roles.
 
 | Year | Forbes Most Powerful Women |
 |------|---------------------------|
-| 2013 | #63 |
-| 2021 | #28 |
-| 2023 | #23 |
+| 2013 | \#63 |
+| 2021 | \#28 |
+| 2023 | \#23 |
 
 ---
 

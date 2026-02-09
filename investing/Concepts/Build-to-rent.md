@@ -42,7 +42,7 @@ aliases: [BTR, build to rent, purpose-built rental]
 
 | State | Units | Notes |
 |-------|-------|-------|
-| **Texas** | 21,800 | #1 by far |
+| **Texas** | 21,800 | \#1 by far |
 | Arizona | 14,000 | Phoenix metro |
 | Florida | 14,000 | Multiple metros |
 | North Carolina | — | +152% inventory jump |

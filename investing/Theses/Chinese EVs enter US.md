@@ -154,7 +154,7 @@ If Ford partners with Xiaomi:
 
 - [[Ford]] — JV talks with Xiaomi, BYD
 - [[Xiaomi]] — Ford JV candidate, SU7 success
-- [[BYD]] — Ford talks, global #1
+- [[BYD]] — Ford talks, global \#1
 - [[Geely]] — Volvo/Polestar pathway
 - [[Tesla]] — would face Chinese competition in home market
 - [[Short Tesla]] — related thesis

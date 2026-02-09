@@ -27,9 +27,9 @@ NUDT's flagship achievement:
 
 | System | Year | Peak performance | Note |
 |--------|------|------------------|------|
-| Tianhe-1 | 2009 | 2.5 PFLOPS | First [[China]] #1 ranking |
-| Tianhe-1A | 2010 | 4.7 PFLOPS | World #1 (briefly) |
-| Tianhe-2 | 2013 | 54.9 PFLOPS | World #1 for years |
+| Tianhe-1 | 2009 | 2.5 PFLOPS | First [[China]] \#1 ranking |
+| Tianhe-1A | 2010 | 4.7 PFLOPS | World \#1 (briefly) |
+| Tianhe-2 | 2013 | 54.9 PFLOPS | World \#1 for years |
 | Tianhe-2A | 2018 | 100+ PFLOPS | Upgraded |
 | Tianhe-3 | 2021+ | Exascale target | In development |
 

@@ -2,7 +2,7 @@
 
 # Long Agent Harnesses
 
-**Status**: High conviction — #1 thesis
+**Status**: High conviction — \#1 thesis
 **Created**: 2026-01-11
 **Last reviewed**: 2026-01-11
 

@@ -3,7 +3,7 @@ aliases: [United Wholesale Mortgage, UWM Holdings, UWMC]
 ---
 #actor #finance #mortgage #usa #public
 
-**UWM (United Wholesale Mortgage)** — Largest wholesale mortgage lender. Works exclusively through brokers. #1 originator 2023-2024 with $139.7B volume. NYSE: UWMC.
+**UWM (United Wholesale Mortgage)** — Largest wholesale mortgage lender. Works exclusively through brokers. \#1 originator 2023-2024 with $139.7B volume. NYSE: UWMC.
 
 ---
 
@@ -16,7 +16,7 @@ aliases: [United Wholesale Mortgage, UWM Holdings, UWMC]
 | 2024 originations | **$139.7B** (366,078 loans) |
 | Market share | ~6% |
 | Channel | 100% wholesale (brokers) |
-| Consecutive years #1 wholesale | 10 |
+| Consecutive years \#1 wholesale | 10 |
 
 ---
 
@@ -67,13 +67,13 @@ aliases: [United Wholesale Mortgage, UWM Holdings, UWMC]
 
 **Threat from Rocket:**
 - Rocket + Mr. Cooper = recapture machine
-- Could return Rocket to #1 in 2026
+- Could return Rocket to \#1 in 2026
 - UWM needs "something spectacular" to maintain lead
 
 **UWM's defense:**
 - Broker loyalty programs
 - Technology/speed advantage
-- Purchase lending strength (#1 purchase lender)
+- Purchase lending strength (\#1 purchase lender)
 
 ---
 
@@ -103,7 +103,7 @@ aliases: [United Wholesale Mortgage, UWM Holdings, UWMC]
 ## Investment implications
 
 **Bull case:**
-- #1 originator momentum
+- \#1 originator momentum
 - Purchase lending strength
 - Broker channel growing share
 - Operating leverage on volume

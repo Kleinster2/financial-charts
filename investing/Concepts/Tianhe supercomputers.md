@@ -27,7 +27,7 @@ The most important system in the series:
 | Location | Guangzhou (National Supercomputer Center) |
 | Architecture | [[Intel]] Xeon + Xeon Phi |
 | Peak | 54.9 PFLOPS |
-| Reign | #1 from June 2013 to June 2016 |
+| Reign | \#1 from June 2013 to June 2016 |
 | Applications | Weather, materials, genomics |
 
 **The wake-up call:** Tianhe-2 demonstrated [[China]] could build world's fastest computer. Triggered US response.

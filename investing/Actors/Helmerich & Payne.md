@@ -13,7 +13,7 @@ aliases: [HP]
 |--------|-------|
 | Ticker | HP (NYSE) |
 | Market cap | ~$4B |
-| Position | #2 US land driller |
+| Position | \#2 US land driller |
 | Rigs | ~150 total, ~100 active |
 
 ---
@@ -104,7 +104,7 @@ See [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Patterson-UTI]] — peer (#1 land driller)
+- [[Patterson-UTI]] — peer (\#1 land driller)
 - [[Nabors]] — peer (land driller)
 - [[Schlumberger]] — partner (directional)
 - [[Venezuela oil rebuild]] — thesis

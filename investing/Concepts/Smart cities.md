@@ -91,10 +91,10 @@
 
 | City/Country | Initiative | Status |
 |--------------|------------|--------|
-| **Singapore** | Smart Nation | #7 global smart city index |
+| **Singapore** | Smart Nation | \#7 global smart city index |
 | **China (Xiong'an)** | Tech-driven new city | Under construction |
 | **Shanghai** | IoT integration | DiDi, smart traffic |
-| **Beijing** | Smart infrastructure | #12 global index |
+| **Beijing** | Smart infrastructure | \#12 global index |
 | **South Korea** | Songdo | Operating |
 
 ### North America (31% market share)
@@ -110,10 +110,10 @@
 
 | City | Focus | Rank |
 |------|-------|------|
-| Zürich | #1 global index | Sustainability |
-| Oslo | #2 global index | EV infrastructure |
-| Copenhagen | #4 global index | Carbon neutral goal |
-| London | #6 global index | [[Transport]], safety |
+| Zürich | \#1 global index | Sustainability |
+| Oslo | \#2 global index | EV infrastructure |
+| Copenhagen | \#4 global index | Carbon neutral goal |
+| London | \#6 global index | [[Transport]], safety |
 | Barcelona | [[Sensors]], IoT pioneer | Early mover |
 
 ---

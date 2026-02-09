@@ -105,6 +105,6 @@ Significant carbon-free baseload for data centers.
 
 - [[Southern Company]] — peer (Southeast utility)
 - [[Dominion Energy]] — peer (Virginia utility)
-- [[NextEra Energy]] — peer (#1 utility)
+- [[NextEra Energy]] — peer (\#1 utility)
 - [[Power constraints]] — context (DC power demand)
 - [[Long nuclear]] — thesis (nuclear fleet value)

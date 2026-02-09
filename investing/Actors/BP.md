@@ -13,7 +13,7 @@ aliases: [British Petroleum]
 |--------|-------|
 | Ticker | BP (NYSE/LSE) |
 | Market cap | ~$90B |
-| Position | #5 Western major |
+| Position | \#5 Western major |
 | Strategy | Transition refocus |
 
 ---

@@ -96,9 +96,9 @@ Live TV streaming. 8M+ subscribers. $72.99/month. Largest internet-delivered liv
 ### Music
 | Competitor | Position |
 |------------|----------|
-| [[Spotify]] | #1 streaming |
-| Apple Music | #2 streaming |
-| Amazon Music | #3 streaming |
+| [[Spotify]] | \#1 streaming |
+| Apple Music | \#2 streaming |
+| Amazon Music | \#3 streaming |
 
 ### Live TV
 | Competitor | Position |
@@ -107,7 +107,7 @@ Live TV streaming. 8M+ subscribers. $72.99/month. Largest internet-delivered liv
 | Sling TV | ~2M subs |
 | fuboTV | ~1.5M subs |
 
-**YouTube TV is #1** in internet live TV.
+**YouTube TV is \#1** in internet live TV.
 
 ## Shorts vs TikTok
 

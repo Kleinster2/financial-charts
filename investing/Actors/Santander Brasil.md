@@ -7,7 +7,7 @@ aliases:
 ---
 #actor #company #bank #brazil #public
 
-**[[Santander]]'s Brazilian subsidiary** — #5 bank in Brazil, largest foreign bank. [[B3]]: SANB11**, NYSE ADR: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
+**[[Santander]]'s Brazilian subsidiary** — \#5 bank in Brazil, largest foreign bank. [[B3]]: SANB11**, NYSE ADR: BSBR. ~R$116B market cap (~$23B). Contributes ~30% of Santander group profits. Built through Banespa (2000) and Banco Real (2007) acquisitions.
 
 ---
 
@@ -17,7 +17,7 @@ aliases:
 |--------|-------|
 | Ticker | SANB11 (B3), BSBR (NYSE ADR) |
 | Parent | [[Santander]] (Spain) |
-| Rank | #5 Brazil by assets |
+| Rank | \#5 Brazil by assets |
 | Market cap | ~R$116B (~$23B) |
 | Branches | 3,000+ |
 | Customers | 60M+ |
@@ -32,7 +32,7 @@ aliases:
 
 **Largest foreign bank in Brazil with full-service platform:**
 
-- **Scale**: #5 by assets, 60M+ customers, 3,000+ branches
+- **Scale**: \#5 by assets, 60M+ customers, 3,000+ branches
 - **Parent support**: Santander group backing + global CIB network
 - **Profit engine**: ~30% of Santander group profits from Brazil alone
 - **Investment banking**: Active in DCM, ECM, M&A — 2024 LatinFinance Bond House of the Year
@@ -108,11 +108,11 @@ Mario Leão rose through Santander CIB Brazil before taking the top job — know
 
 | Bank | Rank | Notes |
 |------|------|-------|
-| [[Itaú Unibanco]] | #1 | Largest, most profitable |
-| [[Bradesco]] | #2 | Struggling with fintech |
-| [[Banco do Brasil]] | #3 | State-owned |
-| Caixa | #4 | State-owned, housing focus |
-| **Santander Brasil** | **#5** | Largest foreign bank |
+| [[Itaú Unibanco]] | \#1 | Largest, most profitable |
+| [[Bradesco]] | \#2 | Struggling with fintech |
+| [[Banco do Brasil]] | \#3 | State-owned |
+| Caixa | \#4 | State-owned, housing focus |
+| **Santander Brasil** | **\#5** | Largest foreign bank |
 
 **Advantage**: Global parent support, CIB network. **Disadvantage**: Foreign ownership limits some government relationships.
 
@@ -140,13 +140,13 @@ Mario Leão rose through Santander CIB Brazil before taking the top job — know
 - [[Santander]] — Spanish parent (owns majority)
 
 ### Competitors
-- [[Itaú Unibanco]] — #1 Brazil bank
-- [[Bradesco]] — #2 Brazil bank
+- [[Itaú Unibanco]] — \#1 Brazil bank
+- [[Bradesco]] — \#2 Brazil bank
 - [[BTG Pactual]] — investment bank competitor
 - [[Nubank]] — fintech competitor
 
 ### Investment banking competitors
-- [[Itaú BBA]] — #1 DCM competitor
+- [[Itaú BBA]] — \#1 DCM competitor
 - [[Bradesco BBI]] — competitor
 - [[UBS BB]] — competitor
 

@@ -282,9 +282,9 @@ Chinese customers are huge (2024 Hopper shipments, [[Omdia]]):
 
 | Customer | GPUs (000s) | Notes |
 |----------|-------------|-------|
-| [[Microsoft]] | ~485K | #1 overall |
-| ByteDance | ~250K | #2 overall, Chinese |
-| Tencent | ~220K | #3 overall, Chinese |
+| [[Microsoft]] | ~485K | \#1 overall |
+| ByteDance | ~250K | \#2 overall, Chinese |
+| Tencent | ~220K | \#3 overall, Chinese |
 | Meta | ~200K | |
 | [[Tesla]]/[[xAI]] | ~170K | |
 | [[Amazon]] | ~130K | |
@@ -661,8 +661,8 @@ Market positioning (Dec 2025):
 - [[Lambda Labs]] — NVIDIA-financed neocloud
 - [[SEA chip diversion]] — gray market [[China]] revenue (tailwind + risk)
 - [[Southeast Asia]] tech race — Chinese DC buildout destination
-- [[ByteDance]] — #2 GPU customer (~250K Hopper, 2024)
-- [[Tencent]] — #3 GPU customer (~220K Hopper, 2024)
+- [[ByteDance]] — \#2 GPU customer (~250K Hopper, 2024)
+- [[Tencent]] — \#3 GPU customer (~220K Hopper, 2024)
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)
 - [[Baseten]] — inference infrastructure investment ($150M, Jan 2026)
 - [[CES 2026]] — Vera Rubin, Alpamayo, Cosmos, robotics

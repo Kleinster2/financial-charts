@@ -3,7 +3,7 @@ aliases: [LYFT]
 ---
 #actor #rideshare #mobility #usa #public
 
-**Lyft** — #2 US rideshare. Uber competitor. Bikes/scooters. Autonomous partnerships.
+**Lyft** — \#2 US rideshare. Uber competitor. Bikes/scooters. Autonomous partnerships.
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [LYFT]
 | Metric | Value |
 |--------|-------|
 | US market share | ~28% |
-| vs Uber | Distant #2 |
+| vs Uber | Distant \#2 |
 | Geography | US + [[Canada]] only |
 | Differentiation | Driver-friendly, bikes |
 
@@ -107,7 +107,7 @@ Docked bikeshare solves the problems that killed shared scooters: fixed stations
 - Value vs Uber
 
 **Bear:**
-- Distant #2 to Uber
+- Distant \#2 to Uber
 - No delivery diversification
 - Autonomous commoditizes rideshare
 - Limited growth vectors

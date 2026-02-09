@@ -13,7 +13,7 @@ The global beauty industry — skincare, fragrance, makeup, haircare — spannin
 
 | Company | Revenue | Focus | Status |
 |---------|---------|-------|--------|
-| **[[L'Oréal]]** | €43.5B | Mass to luxury, all categories | #1 globally, record margins |
+| **[[L'Oréal]]** | €43.5B | Mass to luxury, all categories | \#1 globally, record margins |
 | **[[Estée Lauder]]** | $14.3B | 100% prestige | Crisis (-80% stock, China collapse) |
 | Unilever (beauty) | ~€12B | Mass + prestige (Dove, TRESemmé) | Separating beauty unit? |
 | Shiseido | ~¥1T (~$7B) | Prestige, Japan/Asia | Restructuring |
@@ -46,7 +46,7 @@ The global beauty industry — skincare, fragrance, makeup, haircare — spannin
 | **Haircare** | ~12% | +5% | Premium growing |
 
 ### Fragrance boom
-- Now #2 category in prestige (dethroned skincare)
+- Now \#2 category in prestige (dethroned skincare)
 - Parfums/EDP concentrations: +43% / +14%
 - Gen Z treating fragrance as mood/identity expression
 - [[L'Oréal]] acquiring Creed (~€4B from [[Kering]])
@@ -77,7 +77,7 @@ China luxury beauty market shrank 18-20% in 2024 (Bain). Asia travel retail (Hai
 
 | Channel | Trend | Notes |
 |---------|-------|-------|
-| **Amazon** | #1 US beauty retailer (2025) | Dupe-driven, mass growth |
+| **Amazon** | \#1 US beauty retailer (2025) | Dupe-driven, mass growth |
 | **Sephora** ([[LVMH]]) | Prestige leader | Expanding, gaining share |
 | **Ulta** | Mass + prestige | US-focused |
 | **TikTok Shop** | Explosive growth | Social commerce, younger demo |
@@ -131,9 +131,9 @@ Mass gained 5 percentage points of share globally over past 5 years, primarily i
 
 - [[Luxury]] — luxury goods (beauty as sub-category)
 - [[Consumer]] — parent sector
-- [[L'Oréal]] — #1 globally, record margins
-- [[Estée Lauder]] — #2, China crisis
-- [[Shiseido]] — Japan's #1, restructuring
+- [[L'Oréal]] — \#1 globally, record margins
+- [[Estée Lauder]] — \#2, China crisis
+- [[Shiseido]] — Japan's \#1, restructuring
 - [[Coty]] — fragrance pure-play, licensed brands
 - [[Puig]] — luxury fragrance, Charlotte Tilbury
 - [[Amorepacific]] — K-beauty leader, Americas pivot

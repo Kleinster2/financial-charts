@@ -135,7 +135,7 @@ See [[China-Japan relations]], [[Critical minerals]].
 
 | Company | Ticker | Focus |
 |---------|--------|-------|
-| **Sony** | SONY | Image sensors (#1) |
+| **Sony** | SONY | Image sensors (\#1) |
 | **Infineon** | IFNNY | Automotive sensors, radar |
 | **ON Semiconductor** | ON | Image, power, automotive |
 | **STMicroelectronics** | STM | MEMS, automotive |

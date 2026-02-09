@@ -57,7 +57,7 @@ Tencent's AI strategy: embed into WeChat's 1.3B users rather than compete as sta
 |-------|------|-------|
 | **Hunyuan 2.0** | Flagship MoE | 406B/32B active |
 | Hunyuan-A13B | Hybrid inference | Open source |
-| Hunyuan Image 3.0 | Image generation | 80B params, #8 LM Arena |
+| Hunyuan Image 3.0 | Image generation | 80B params, \#8 LM Arena |
 | Hunyuan 3D Engine | 3D generation | Global launch |
 | Hunyuan Translation | 30+ languages | Open source |
 
@@ -66,7 +66,7 @@ Tencent's AI strategy: embed into WeChat's 1.3B users rather than compete as sta
 | Metric | Value |
 |--------|-------|
 | Parameters | **80B** (largest open-source image model) |
-| LM Arena rank | **#8** (1152 score) |
+| LM Arena rank | **\#8** (1152 score) |
 | Votes | 97,000+ |
 | Strength | Chinese/English text rendering |
 
@@ -148,7 +148,7 @@ Tencent subsidizing developers to build on Hunyuan within WeChat ecosystem.
 | Parent | [[Tencent]] |
 | WeChat AI search | 90% of questions |
 | Flagship | Hunyuan 2.0 (406B) |
-| Image model | #8 LM Arena |
+| Image model | \#8 LM Arena |
 | Distribution | WeChat 1.3B MAU |
 
 *Created 2026-01-27*
@@ -159,7 +159,7 @@ Tencent subsidizing developers to build on Hunyuan within WeChat ecosystem.
 
 - [[Tencent]] — parent company
 - [[WeChat]] — primary distribution
-- [[Doubao]] — competitor (#1 [[China]])
+- [[Doubao]] — competitor (\#1 [[China]])
 - [[Qwen]] — competitor ([[Alibaba]])
 - [[Ernie]] — competitor ([[Baidu]])
 - [[DeepSeek]] — integrated into WeChat search

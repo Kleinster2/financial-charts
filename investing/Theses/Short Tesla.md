@@ -73,7 +73,7 @@
 - Trump ended $7,500 tax credit
 
 **Competition intensifying:**
-- BYD passed Tesla as #1 globally (2025)
+- BYD passed Tesla as \#1 globally (2025)
 - Chinese EVs 30-50% cheaper
 - Xiaomi SU7 profitable in 9 months
 - European market slowing
@@ -219,7 +219,7 @@ A merger would increase Musk's combined stake. Tesla shareholders would be dilut
 
 - [[Tesla]] — the short target
 - [[L&F]] — 4680 supply contract collapse
-- [[BYD]] — long pair candidate, #1 globally
+- [[BYD]] — long pair candidate, \#1 globally
 - [[Panasonic]] — also 4680 supplier, read-through
 - [[Waymo]] — robotaxi competitor with working product
 - [[CATL]] — battery leader, Tesla supplier alternative

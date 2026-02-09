@@ -3,7 +3,7 @@ aliases: [WFG, WFG Title, Williston Financial Group]
 ---
 #actor #insurance #realestate #usa #private
 
-**WFG National Title Insurance Company** — Independent title underwriter. **2.7% market share** (#7 overall). Founded 2010 by [[Patrick Stone]], former President/COO of [[Fidelity National Financial]]. Known for agent-centric "three C's" philosophy: Character, Capacity, Capital.
+**WFG National Title Insurance Company** — Independent title underwriter. **2.7% market share** (\#7 overall). Founded 2010 by [[Patrick Stone]], former President/COO of [[Fidelity National Financial]]. Known for agent-centric "three C's" philosophy: Character, Capacity, Capital.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [WFG, WFG Title, Williston Financial Group]
 
 | Metric | Value |
 |--------|-------|
-| Market share | **2.7%** (#7) |
+| Market share | **2.7%** (\#7) |
 | Model | Direct + Agency |
 | Founded | 2010 |
 | Founder | [[Patrick Stone]] (ex-FNF President/COO) |
@@ -89,10 +89,10 @@ aliases: [WFG, WFG Title, Williston Financial Group]
 
 - [[Title Insurance]] — sector
 - [[Patrick Stone]] — founder, ex-FNF
-- [[Fidelity National Financial]] — founder's former employer, #1 title insurer
-- [[First American Financial]] — #2 title insurer
-- [[Old Republic International]] — #3 title insurer
-- [[Stewart Information Services]] — #4 title insurer
+- [[Fidelity National Financial]] — founder's former employer, \#1 title insurer
+- [[First American Financial]] — \#2 title insurer
+- [[Old Republic International]] — \#3 title insurer
+- [[Stewart Information Services]] — \#4 title insurer
 - [[Westcor Land Title]] — largest independent
 - [[Title Resources]] — independent peer
 - [[Housing]] — transaction volume driver

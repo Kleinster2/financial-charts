@@ -14,7 +14,7 @@ aliases: [ABBN.SW, ABB Ltd]
 | Ticker | ABBN.SW (Zurich), ABB (NYSE) |
 | Market cap | ~$100B |
 | [[Robotics]] revenue (2024) | $2.3B |
-| [[Robotics]] position | #2 globally (13% share) |
+| [[Robotics]] position | \#2 globally (13% share) |
 
 ---
 
@@ -73,7 +73,7 @@ Originally planned as 2026 spin-off IPO — SoftBank swooped in.
 | Revenue | $2.3B |
 | EBITA margin | 12.1% |
 | Order growth | +17% YoY |
-| Market share | 13% (#2 global) |
+| Market share | 13% (\#2 global) |
 
 **Products:** Industrial robots, cobots, software
 
@@ -120,7 +120,7 @@ Originally planned as 2026 spin-off IPO — SoftBank swooped in.
 ## Related
 
 - [[SoftBank]] — acquiring robotics unit
-- [[Fanuc]] — competitor (#1 CNC, #3 robotics)
+- [[Fanuc]] — competitor (\#1 CNC, \#3 robotics)
 - [[Boston Dynamics]] — SoftBank portfolio (robotics)
 - [[Figure AI]] — humanoid robotics
 - [[Masayoshi Son]] — SoftBank CEO

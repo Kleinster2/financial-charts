@@ -57,7 +57,7 @@ Headquartered in NYC; active in 26 states.
 | 1986 | [[David Lichtenstein]] buys $89,000 two-family home (NJ) |
 | 1988 | Lightstone founded in Lakewood, NJ |
 | 1990s | Grew to 20,000 apartments in 28 states |
-| 2003 | Acquired Prime Retail (37 outlet malls) for $638M — #2 US outlet owner |
+| 2003 | Acquired Prime Retail (37 outlet malls) for $638M — \#2 US outlet owner |
 | 2005 | Worth ~$3B |
 | 2006 | Launched first REIT (Lightstone Value Plus, $300M) |
 | 2007 | Acquired Extended Stay Hotels ($8B) from [[Blackstone]] |

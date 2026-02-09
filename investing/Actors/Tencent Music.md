@@ -22,8 +22,8 @@
 | Platform | Position | Focus |
 |----------|----------|-------|
 | QQ Music | Premium | Quality-focused, younger |
-| Kugou | #1 by users | Mass market, karaoke |
-| Kuwo | #3 | Catalog depth |
+| Kugou | \#1 by users | Mass market, karaoke |
+| Kuwo | \#3 | Catalog depth |
 | WeSing | Social | Karaoke app |
 
 ---

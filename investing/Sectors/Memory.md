@@ -109,13 +109,13 @@ Semiconductor memory — DRAM for active compute, NAND for storage. Cyclical but
 ## Key actors
 
 ### Integrated (DRAM + NAND)
-- [[Samsung]] — #1 DRAM, #1 NAND
-- [[SK Hynix]] — #2 DRAM, #2 NAND (via Solidigm), #1 HBM
-- [[Micron]] — #3 DRAM, #4 NAND, #3 HBM
+- [[Samsung]] — \#1 DRAM, \#1 NAND
+- [[SK Hynix]] — \#2 DRAM, \#2 NAND (via Solidigm), \#1 HBM
+- [[Micron]] — \#3 DRAM, \#4 NAND, \#3 HBM
 
 ### NAND specialists
-- [[Kioxia]] — #3 NAND, Japan-based, [[SanDisk]] JV
-- [[SanDisk]] — #5 NAND, pure-play post-WDC spinoff
+- [[Kioxia]] — \#3 NAND, Japan-based, [[SanDisk]] JV
+- [[SanDisk]] — \#5 NAND, pure-play post-WDC spinoff
 
 ### China challengers
 - [[CXMT]] — DRAM, catching up
@@ -143,7 +143,7 @@ Korean memory stocks move with Korean market/won, not US memory peers. For portf
 
 | Sub-sector | Correlation | Key actors | Characteristics |
 |------------|-------------|------------|-----------------|
-| [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | CHIPS Act, USD, HBM #3 |
+| [[US Memory]] | 0.50 | [[Micron]], [[SanDisk]], [[Western Digital]] | CHIPS Act, USD, HBM \#3 |
 | [[Korea Memory]] | 0.56 | [[Samsung]], [[SK Hynix]] | HBM dominant, KRW, China risk |
 
 ### By product

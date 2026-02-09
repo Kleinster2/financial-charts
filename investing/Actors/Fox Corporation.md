@@ -14,7 +14,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 | Ticker | FOX (B shares), FOXA (A shares) |
 | Market cap | ~$20B |
 | Revenue (FY24) | ~$14B |
-| Fox News viewers | #1 cable news |
+| Fox News viewers | \#1 cable news |
 | Control | Murdoch family |
 
 ---
@@ -33,7 +33,7 @@ aliases: [FOX, FOXA, Fox News, Fox Sports]
 
 | Metric | Value |
 |--------|-------|
-| Position | #1 cable news (23 years) |
+| Position | \#1 cable news (23 years) |
 | Primetime viewers | ~2.5M average |
 | Revenue share | ~50% of company |
 | Margin | Very high |

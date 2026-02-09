@@ -13,7 +13,7 @@ aliases: [WMB, Williams]
 |--------|-------|
 | Ticker | WMB (NYSE) |
 | Market cap | ~$65B |
-| Position | #2 natural gas pipelines |
+| Position | \#2 natural gas pipelines |
 | Transco | Largest US gas pipeline |
 
 ---
@@ -50,7 +50,7 @@ Serves highest-value demand markets on East Coast.
 
 | Factor | Relevance |
 |--------|-----------|
-| Northern Virginia | #1 DC market, Transco serves |
+| Northern Virginia | \#1 DC market, Transco serves |
 | PJM grid | Major gas-fired generation |
 | Baseload reliability | 24/7 DC power needs |
 | Expansion projects | Adding capacity for demand |
@@ -112,7 +112,7 @@ Northern Virginia data center alley depends on Transco gas.
 
 ## Related
 
-- [[Kinder Morgan]] — peer (#1 gas pipelines)
+- [[Kinder Morgan]] — peer (\#1 gas pipelines)
 - [[Enterprise Products]] — peer (NGL/gas)
 - [[Power constraints]] — context (gas for AI power)
 - [[Equinix]] — context (NoVA data centers)

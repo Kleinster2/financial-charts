@@ -56,7 +56,7 @@ Ross operates in 44 states. dd's in 22 states — targeting more value-conscious
 | **Ross Stores** | $21B | 2,233 | ~$49B |
 | **[[Burlington]]** | $10.6B | 1,211 | ~$20B |
 
-Ross is solidly #2 but less than half TJX's scale. Burlington is the fastest-growing but smallest.
+Ross is solidly \#2 but less than half TJX's scale. Burlington is the fastest-growing but smallest.
 
 ---
 
@@ -77,7 +77,7 @@ Tariff escalation is the key near-term risk for Ross. More [[China]]-dependent t
 
 **Bull:**
 - Off-price structural tailwind (value-seeking consumers)
-- #2 position with room to grow (TJX has 5,000+ stores vs Ross 2,233)
+- \#2 position with room to grow (TJX has 5,000+ stores vs Ross 2,233)
 - dd's DISCOUNTS addresses lower-income demographic
 - Consistent EPS growth
 - New CEO Jim Conroy (former RH) brings fresh perspective
@@ -94,8 +94,8 @@ Tariff escalation is the key near-term risk for Ross. More [[China]]-dependent t
 ## Related
 
 - [[Fashion]] — sector hub
-- [[TJX]] — #1 competitor
-- [[Burlington]] — #3 competitor
+- [[TJX]] — \#1 competitor
+- [[Burlington]] — \#3 competitor
 - [[Retail apocalypse]] — structural tailwind
 
 *Created 2026-01-24*

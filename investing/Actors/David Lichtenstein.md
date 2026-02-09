@@ -39,7 +39,7 @@ Born 1960, Brooklyn (Sheepshead Bay). One of seven children — parents were pub
 | 1988 | Founded [[Lightstone Group]] in Lakewood, NJ |
 | 1990s | Grew to 20,000+ apartments in 28 states; top 30 US apartment owner |
 | 2002 | Entered retail: $36.5M mall acquisition from Prime Retail |
-| 2003 | Acquired Prime Retail portfolio (37 outlet malls) for $638M — became #2 outlet mall owner |
+| 2003 | Acquired Prime Retail portfolio (37 outlet malls) for $638M — became \#2 outlet mall owner |
 | 2006 | Launched Lightstone Value Plus REIT ($300M) |
 | 2007 | Acquired Extended Stay Hotels from [[Blackstone]] for $8B |
 | 2009 | Extended Stay filed Chapter 11; Lichtenstein paid $100M personally |

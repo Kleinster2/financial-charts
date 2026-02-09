@@ -3,7 +3,7 @@ aliases: [Veterans United Home Loans, VUHL]
 ---
 #actor #finance #realestate #usa #private
 
-**Veterans United Home Loans** — **#1 VA lender by loan count.** $23.8B volume (FY 2025), ~15% VA market share. Columbia, MO based. VA loan specialist — doesn't do conventional. Highest J.D. Power satisfaction score (2024).
+**Veterans United Home Loans** — **\#1 VA lender by loan count.** $23.8B volume (FY 2025), ~15% VA market share. Columbia, MO based. VA loan specialist — doesn't do conventional. Highest J.D. Power satisfaction score (2024).
 
 ---
 
@@ -25,7 +25,7 @@ aliases: [Veterans United Home Loans, VUHL]
 ## Insights
 
 - **Pure VA play** — Unlike [[Freedom Mortgage]] (VA + FHA + conventional), Veterans United focuses exclusively on VA loans. Deep specialization in veteran homebuying.
-- **Massive lead over #2** — $19.3B vs [[UWM]]'s $15.6B in VA loans (2024). ~25% more volume than the #1 overall mortgage lender's VA business.
+- **Massive lead over \#2** — $19.3B vs [[UWM]]'s $15.6B in VA loans (2024). ~25% more volume than the \#1 overall mortgage lender's VA business.
 - **Customer satisfaction leader** — Highest score in 2024 J.D. Power Mortgage Origination Satisfaction Study. Specialization enables better service.
 
 ---
@@ -65,8 +65,8 @@ Veterans United analysis reveals **$28B in untapped VA loan volume** — eligibl
 | Factor | Veterans United Edge |
 |--------|---------------------|
 | **Specialization** | 100% VA focus |
-| **Satisfaction** | #1 J.D. Power score |
-| **Volume** | ~25% more than #2 |
+| **Satisfaction** | \#1 J.D. Power score |
+| **Volume** | ~25% more than \#2 |
 | **Expertise** | Staff trained only on VA |
 
 ---
@@ -76,7 +76,7 @@ Veterans United analysis reveals **$28B in untapped VA loan volume** — eligibl
 | Lender | VA Strategy | Other Loans |
 |--------|-------------|-------------|
 | **Veterans United** | **Pure specialist** | No |
-| [[Freedom Mortgage]] | #1 by $ (VA + FHA) | Yes |
+| [[Freedom Mortgage]] | \#1 by $ (VA + FHA) | Yes |
 | [[UWM]] | Part of wholesale mix | Yes |
 | [[Navy Federal Credit Union]] | Credit union benefit | Yes |
 | [[Pennymac]] | Part of correspondent | Yes |
@@ -103,7 +103,7 @@ Veterans United analysis reveals **$28B in untapped VA loan volume** — eligibl
 
 - [[Residential Mortgage]] — sector
 - [[Mortgage]] — sector hub
-- [[Freedom Mortgage]] — #1 VA by $ (different methodology)
+- [[Freedom Mortgage]] — \#1 VA by $ (different methodology)
 - [[Navy Federal Credit Union]] — VA loan competitor
 - [[Ginnie Mae]] — securitizes VA loans
-- [[UWM]] — #2 VA lender
+- [[UWM]] — \#2 VA lender

@@ -71,7 +71,7 @@ aliases: [ULTA, Ulta]
 |----------|-------|-----------|-------|
 | **Ulta** | Mass + prestige, standalone | 1,473 | Recovering |
 | **[[Sephora]]** | Prestige-only, standalone + Kohl's | ~700 + 1,000 Kohl's | Gaining share |
-| **[[Amazon]]** | Online, all price points | — | #1 beauty retailer (2025) |
+| **[[Amazon]]** | Online, all price points | — | \#1 beauty retailer (2025) |
 | **[[TikTok]] Shop** | Social commerce | — | Explosive growth |
 | **[[Walmart]]/[[Target]]** | Mass beauty sections | — | Improving assortment |
 
@@ -112,7 +112,7 @@ aliases: [ULTA, Ulta]
 - Marketplace adds long-tail brands without inventory risk
 - 44M loyalty members = data advantage
 - $2.2B buyback remaining
-- Gen Z's #2 favorite in-store shopping destination
+- Gen Z's \#2 favorite in-store shopping destination
 
 **Bear:**
 - [[Amazon]] taking beauty share aggressively

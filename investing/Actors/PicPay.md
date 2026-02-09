@@ -140,7 +140,7 @@ PicPay agreed to acquire [[Kovr Participacoes SA]], an insurance company previou
 | Metric | Value |
 |--------|-------|
 | Clients | 67M |
-| Ranking | #3 Brazil digital banks |
+| Ranking | \#3 Brazil digital banks |
 | Net income (2024) | R$252M |
 | IPO target | ~$2.5B |
 | Owner | [[Batista family]] |
@@ -150,8 +150,8 @@ PicPay agreed to acquire [[Kovr Participacoes SA]], an insurance company previou
 
 ## Related
 
-- [[Nubank]] — larger competitor (#1 Brazil), last Brazilian IPO (2021)
-- [[Mercado Libre]] — competitor (#2 Brazil fintech)
+- [[Nubank]] — larger competitor (\#1 Brazil), last Brazilian IPO (2021)
+- [[Mercado Libre]] — competitor (\#2 Brazil fintech)
 - [[JBS]] — parent company (Batista family)
 - [[Batista family]] — owners
 - [[Pix]] — Brazil instant payments (commoditized PicPay's original business)

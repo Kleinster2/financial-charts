@@ -3,7 +3,7 @@ aliases: [DFH, Dream Finders]
 ---
 #actor #housing #homebuilder #usa #public
 
-**Dream Finders Homes** — Fast-growing homebuilder. #14 on Builder 100. Founded 2008 by [[Patrick Zalupski]]. **$4.4B homebuilding revenue (2024)**, 8,583 closings. Southeast, Mid-Atlantic, Midwest focus. **Acquired [[Alliant National]] (Apr 2025)** — vertical integration into title underwriting.
+**Dream Finders Homes** — Fast-growing homebuilder. \#14 on Builder 100. Founded 2008 by [[Patrick Zalupski]]. **$4.4B homebuilding revenue (2024)**, 8,583 closings. Southeast, Mid-Atlantic, Midwest focus. **Acquired [[Alliant National]] (Apr 2025)** — vertical integration into title underwriting.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [DFH, Dream Finders]
 | Revenue | **$4.4B** (2024 homebuilding) |
 | Closings | 8,583 (2024 record) |
 | Pre-tax income | $438M (2024) |
-| Builder 100 rank | #14 |
+| Builder 100 rank | \#14 |
 | CEO | [[Patrick Zalupski]] |
 | HQ | Jacksonville, FL |
 | Founded | 2008 |
@@ -24,7 +24,7 @@ aliases: [DFH, Dream Finders]
 
 ## Insights
 
-**Growth machine** — 17 consecutive years of growth. From startup (2008) to $4.4B revenue and #14 builder in 16 years.
+**Growth machine** — 17 consecutive years of growth. From startup (2008) to $4.4B revenue and \#14 builder in 16 years.
 
 **Vertical integration strategy** — Unlike pure homebuilders, DFH is capturing ancillary revenue:
 - **Cherry Creek Mortgage** — mortgage origination
@@ -135,4 +135,4 @@ aliases: [DFH, Dream Finders]
 - [[Title Insurance]] — via Alliant National
 - [[Homebuilders]] — sector
 - [[D.R. Horton]] — largest builder
-- [[Lennar]] — #2 builder
+- [[Lennar]] — \#2 builder

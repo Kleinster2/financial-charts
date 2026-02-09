@@ -82,7 +82,7 @@ aliases: [BTC, BTC-USD]
 | ETF | Issuer | AUM |
 |-----|--------|-----|
 | IBIT | [[BlackRock]] | Largest, 55% share |
-| FBTC | [[Fidelity]] | #2 |
+| FBTC | [[Fidelity]] | \#2 |
 | GBTC | Grayscale | Converted from trust |
 | ARKB | ARK/21Shares | |
 

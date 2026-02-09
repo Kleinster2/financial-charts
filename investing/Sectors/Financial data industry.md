@@ -93,7 +93,7 @@ End users (traders, analysts, portfolio managers)
 
 ### Data providers
 - [[Bloomberg LP]] — dominant terminal
-- [[Refinitiv]] — #2, owned by LSEG
+- [[Refinitiv]] — \#2, owned by LSEG
 - [[S&P Global]] — ratings + Capital IQ
 - [[FactSet]] — buy-side focus
 - [[Morningstar]] — retail/advisor focus
@@ -110,6 +110,6 @@ End users (traders, analysts, portfolio managers)
 
 - [[Bloomberg LP]] — market leader
 - [[Michael Bloomberg]] — founder
-- [[Refinitiv]] — #2 player
+- [[Refinitiv]] — \#2 player
 - [[S&P Global]] — diversified data/ratings
 - [[FactSet]] — buy-side specialist

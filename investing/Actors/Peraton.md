@@ -87,7 +87,7 @@ Veritas typically holds 4-6 years before exit. Peraton at scale since 2021.
 |--------|-------|
 | AUM | ~$45B |
 | CEO | Ramzi Musallam |
-| PEI 300 rank | #46 (2024) |
+| PEI 300 rank | \#46 (2024) |
 | Strategy | Defense, government, healthcare tech |
 
 Veritas also owns [[Cubic]] (defense IT, acquired 2024).

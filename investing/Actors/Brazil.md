@@ -112,7 +112,7 @@ aliases: [Brasil, BRL, Brazilian]
 - Growth stocks compressed; could re-rate on cuts
 
 ### China dependency
-- #1 iron ore supplier ([[Vale]])
+- \#1 iron ore supplier ([[Vale]])
 - Soybean exporter
 - China slowdown = Brazil commodity risk
 - **Chinese M&A:** [[Chinalco]] near acquiring [[Companhia Brasileira de Alumínio|CBA]] ($1.15B, Jan 2026) — securing non-China aluminum supply
@@ -162,9 +162,9 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 - [[Linx]] — retail software (acquired by TOTVS)
 
 ### Banking
-- [[Itaú Unibanco]] — #1 LatAm bank, ~$80B mkt cap
-- [[Bradesco]] — #2 Brazil, struggling with digital (-70% 5yr)
-- [[BTG Pactual]] — #1 LatAm investment bank, Esteves
+- [[Itaú Unibanco]] — \#1 LatAm bank, ~$80B mkt cap
+- [[Bradesco]] — \#2 Brazil, struggling with digital (-70% 5yr)
+- [[BTG Pactual]] — \#1 LatAm investment bank, Esteves
 
 ### Concepts
 - [[Fintech boom (2020-2021)]] — Brazil fintechs caught in global cycle

@@ -85,8 +85,8 @@ Limited US market access. Most exposure through [[Samsung]] OTC or ETFs.
 
 | Sector | Leaders | Position |
 |--------|---------|----------|
-| Memory | [[Samsung]], [[SK Hynix]] | Global #1, #2 |
-| Foundry | Samsung Foundry | Distant #2 to [[TSMC]] |
+| Memory | [[Samsung]], [[SK Hynix]] | Global \#1, \#2 |
+| Foundry | Samsung Foundry | Distant \#2 to [[TSMC]] |
 | Automotive | [[Hyundai]], Kia | Top 5 global |
 | Shipbuilding | HD Hyundai, Samsung Heavy | Global leaders |
 | Defense | Hanwha, Korea Aerospace | Emerging exporter |

@@ -13,7 +13,7 @@ aliases: [James Simons, James Harris Simons]
 |--------|-------|
 | Born | April 25, 1938, Brookline, MA |
 | Died | May 10, 2024 (age 86), New York City |
-| Net worth at death | $31.4B (#55 globally) |
+| Net worth at death | $31.4B (\#55 globally) |
 | Education | BS Mathematics, MIT; PhD Mathematics, UC Berkeley (1961, age 23) |
 | Firm | [[Renaissance Technologies]] (founded 1982) |
 
@@ -189,7 +189,7 @@ Founded program to improve math education in US public schools.
 | Metric | Value |
 |--------|-------|
 | Amount | $31.4B |
-| Global rank | #55 |
+| Global rank | \#55 |
 | Primary source | Medallion Fund returns |
 
 ---

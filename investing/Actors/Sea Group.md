@@ -52,11 +52,11 @@ Cash cow funding other segments.
 
 | Market | Position |
 |--------|----------|
-| Indonesia | #1-2 |
-| Thailand | #1-2 |
-| Vietnam | #1-2 |
-| Malaysia | #1-2 |
-| Philippines | #1-2 |
+| Indonesia | \#1-2 |
+| Thailand | \#1-2 |
+| Vietnam | \#1-2 |
+| Malaysia | \#1-2 |
+| Philippines | \#1-2 |
 | [[Brazil]] | Expanding |
 
 Aggressive market share strategy.

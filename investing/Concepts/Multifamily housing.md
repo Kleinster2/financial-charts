@@ -31,7 +31,7 @@ The homeownership affordability gap remains elevated — mortgage rates + home p
 | Aimco | -0.4% |
 | **Sector average** | **-5.4%** |
 
-Multifamily REITs rank #2 among all property sectors — but still negative returns due to supply overhang.
+Multifamily REITs rank \#2 among all property sectors — but still negative returns due to supply overhang.
 
 ---
 

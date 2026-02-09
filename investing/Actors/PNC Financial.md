@@ -104,7 +104,7 @@ Transformational acquisition.
 | Ticker | PNC (NYSE) |
 | Market cap | ~$75B |
 | Assets | ~$560B |
-| Rank | #5 US bank |
+| Rank | \#5 US bank |
 
 ---
 

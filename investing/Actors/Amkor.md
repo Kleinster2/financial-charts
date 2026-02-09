@@ -3,7 +3,7 @@ aliases: [AMKR]
 ---
 #actor #semiconductor #osat #packaging #usa #public
 
-**Amkor Technology** — #2 OSAT globally. [[Advanced packaging]]. US-headquartered alternative to ASE.
+**Amkor Technology** — \#2 OSAT globally. [[Advanced packaging]]. US-headquartered alternative to ASE.
 
 ---
 
@@ -16,7 +16,7 @@ Second largest packaging/test:
 | Ticker | AMKR |
 | Market cap | ~$7B |
 | Revenue | ~$6.5B |
-| Position | #2 OSAT globally |
+| Position | \#2 OSAT globally |
 | HQ | Arizona, USA |
 
 ---
@@ -100,7 +100,7 @@ Apple exposure = iPhone cycles.
 
 | Metric | Amkor | [[ASE]] |
 |--------|-------|---------|
-| Rank | #2 | #1 |
+| Rank | \#2 | \#1 |
 | Market cap | $7B | $20B+ |
 | HQ | USA | [[Taiwan]] |
 | Apple exposure | Higher | Lower |
@@ -132,7 +132,7 @@ Similar thesis, different profile.
 |--------|-------|
 | Ticker | AMKR |
 | Market cap | ~$7B |
-| Position | #2 OSAT |
+| Position | \#2 OSAT |
 | Focus | [[Advanced packaging]] |
 
 *Updated 2026-01-01*
@@ -141,7 +141,7 @@ Similar thesis, different profile.
 
 ## Related
 
-- [[ASE]] — competitor (#1 OSAT)
+- [[ASE]] — competitor (\#1 OSAT)
 - [[TSMC]] — competes in advanced packaging (CoWoS)
 - [[Apple]] — major customer (~20% revenue)
 - [[NVIDIA]] — growing customer (AI chips)

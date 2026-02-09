@@ -3,7 +3,7 @@ aliases: [Zhilin Yang, 杨植麟]
 ---
 #actor #person #ai #china
 
-**Yang Zhilin** (杨植麟) — Founder/CEO of [[Moonshot AI]]. [[Transformer]]-XL and XLNet author. Tsinghua CS #1 in class, CMU PhD in 4 years. [[China]]'s most credentialed AI founder.
+**Yang Zhilin** (杨植麟) — Founder/CEO of [[Moonshot AI]]. [[Transformer]]-XL and XLNet author. Tsinghua CS \#1 in class, CMU PhD in 4 years. [[China]]'s most credentialed AI founder.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Zhilin Yang, 杨植麟]
 |--------|-------|
 | Company | [[Moonshot AI]] ($4.8B) |
 | Key papers | [[Transformer]]-XL, XLNet |
-| Education | Tsinghua #1, CMU PhD (4 yrs) |
+| Education | Tsinghua \#1, CMU PhD (4 yrs) |
 | Age at first startup | 23 (Recurrent AI, 2016) |
 | Age at Moonshot founding | ~30 (2023) |
 
@@ -140,7 +140,7 @@ Founded company on album's anniversary because it was his favorite.
 | Metric | Value |
 |--------|-------|
 | Born | ~1993 |
-| Education | Tsinghua #1, CMU PhD |
+| Education | Tsinghua \#1, CMU PhD |
 | Key papers | [[Transformer]]-XL, XLNet |
 | Company | [[Moonshot AI]] ($4.8B) |
 | Role | Founder & CEO |

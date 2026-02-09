@@ -95,8 +95,8 @@ Spun out of [[Vivendi]] in Sept 2021. US listing planned.
 
 ## Related
 
-- [[Warner Music Group]] — #2 label
-- [[Sony]] — #3 via Sony Music
+- [[Warner Music Group]] — \#2 label
+- [[Sony]] — \#3 via Sony Music
 - [[Tencent Music]] — China streaming partner
 - [[Spotify]] — largest DSP
 - [[Live Nation]] — concert promotion

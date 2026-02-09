@@ -13,8 +13,8 @@ aliases: [SHEL, Royal Dutch Shell]
 |--------|-------|
 | Ticker | SHEL (NYSE/LSE) |
 | Market cap | ~$200B |
-| Position | #3 Western major |
-| [[LNG]] | #1 global trader |
+| Position | \#3 Western major |
+| [[LNG]] | \#1 global trader |
 
 ---
 
@@ -86,7 +86,7 @@ Scaled back some renewable targets (2023) to focus on shareholder returns.
 ## Related
 
 - [[Exxon]] — peer (US supermajor)
-- [[Chevron]] — peer (US #2)
+- [[Chevron]] — peer (US \#2)
 - [[TotalEnergies]] — peer (European major)
 - [[BP]] — peer ([[UK]] major)
 - [[Power constraints]] — context (gas for AI power)

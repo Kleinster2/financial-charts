@@ -13,7 +13,7 @@ Diversified Korean tech giant:
 
 | Division | Position |
 |----------|----------|
-| **OLED TVs** | #1 globally (Samsung catching up) |
+| **OLED TVs** | \#1 globally (Samsung catching up) |
 | **[[Home]] appliances** | Top 3 globally |
 | **EV batteries** | Via [[LG Energy Solution]] (spun off) |
 | **Vehicle components** | Growing |
@@ -57,10 +57,10 @@ Diversified Korean tech giant:
 
 | Category | LG | Samsung |
 |----------|-----|---------|
-| OLED TVs | #1 (defending) | #2 (attacking) |
-| LCD TVs | #2 | #1 |
+| OLED TVs | \#1 (defending) | \#2 (attacking) |
+| LCD TVs | \#2 | \#1 |
 | Appliances | Strong | Strong |
-| Smartphones | Exited (2021) | #1 Android |
+| Smartphones | Exited (2021) | \#1 Android |
 | [[Batteries]] | [[LG Energy Solution]] | [[Samsung SDI]] |
 
 LG exited smartphones in 2021 — major strategic retreat.
@@ -89,7 +89,7 @@ LG exited smartphones in 2021 — major strategic retreat.
 |--------|-------|
 | Ticker | 066570 (KRX) |
 | HQ | Seoul, South Korea |
-| OLED position | #1 globally |
+| OLED position | \#1 globally |
 | Related | [[LG Energy Solution]] (373220) |
 
 *Created 2026-01-05*

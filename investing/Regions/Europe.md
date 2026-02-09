@@ -35,7 +35,7 @@ Regional hub for European markets.
 | Company | Role | Significance |
 |---------|------|--------------|
 | [[ASML]] | EUV lithography | Global monopoly |
-| [[NXP]] | Automotive semis | #1 auto chips |
+| [[NXP]] | Automotive semis | \#1 auto chips |
 | [[Nexperia]] | Discrete components | China-controlled (contested) |
 
 ### Geopolitics

@@ -11,7 +11,7 @@ aliases: [SK On Co]
 
 | Metric | Value |
 |--------|-------|
-| Global rank | #5 battery maker |
+| Global rank | \#5 battery maker |
 | Market share | ~5% |
 | Parent | SK Innovation (SK Group) |
 | Founded | 2021 (spun off) |

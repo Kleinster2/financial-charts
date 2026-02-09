@@ -34,7 +34,7 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 
 | Player | Role |
 |--------|------|
-| [[Trade Desk]] | #1 independent DSP |
+| [[Trade Desk]] | \#1 independent DSP |
 | [[Google]] DV360 | Walled garden DSP |
 | [[Amazon]] DSP | Walled garden DSP |
 | Agencies | Buying on behalf of brands |
@@ -43,7 +43,7 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 
 | Player | Role |
 |--------|------|
-| [[Magnite]] | #1 independent SSP |
+| [[Magnite]] | \#1 independent SSP |
 | FreeWheel | [[Comcast]]-owned SSP |
 | [[Google]] Ad Manager | Walled garden |
 | [[Roku]] | Platform + SSP |
@@ -125,8 +125,8 @@ Connected TV (CTV) advertising — the fastest-growing segment of digital advert
 
 | Position | Rationale |
 |----------|-----------|
-| **[[Trade Desk]]** | #1 independent DSP, 45% CTV |
-| **[[Magnite]]** | #1 independent SSP, 50%+ CTV |
+| **[[Trade Desk]]** | \#1 independent DSP, 45% CTV |
+| **[[Magnite]]** | \#1 independent SSP, 50%+ CTV |
 | **[[Roku]]** | Platform + ad revenue |
 | **Streamers** | Ad tier monetization |
 

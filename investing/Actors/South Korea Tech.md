@@ -61,9 +61,9 @@ Korea controls ~68% of DRAM.
 
 | Company | [[HBM]] Status |
 |---------|------------|
-| SK Hynix | #1 [[HBM]] supplier |
+| SK Hynix | \#1 [[HBM]] supplier |
 | Samsung | Catching up |
-| Micron | Distant #3 |
+| Micron | Distant \#3 |
 
 SK Hynix = NVIDIA's primary [[HBM]] supplier.
 
@@ -85,7 +85,7 @@ Vertically integrated tech giant.
 ## Foundry ambitions
 
 **Samsung Foundry:**
-- #2 foundry globally
+- \#2 foundry globally
 - 3nm GAA technology
 - [[Apple]]/[[Qualcomm]] customer
 - Texas fab investment
@@ -250,7 +250,7 @@ Impacts Samsung, SK Hynix, Hyundai exports to US. Memory chips likely exempt und
 | Memory share | ~60% global |
 | Key players | Samsung, SK Hynix |
 | [[HBM]] leader | SK Hynix |
-| Foundry rank | #2 (Samsung) |
+| Foundry rank | \#2 (Samsung) |
 
 *Updated 2026-01-28*
 
@@ -259,7 +259,7 @@ Impacts Samsung, SK Hynix, Hyundai exports to US. Memory chips likely exempt und
 ## Related
 
 - [[Samsung]] — national champion (memory, foundry)
-- [[SK Hynix]] — national champion (#1 [[HBM]])
+- [[SK Hynix]] — national champion (\#1 [[HBM]])
 - [[NVIDIA]] — customer ([[HBM]] buyer) + 260K GPU deal
 - [[TSMC]] — competitor (Samsung Foundry vs)
 - [[Hyundai]] — physical AI partnership (NVIDIA)

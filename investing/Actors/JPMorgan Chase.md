@@ -177,7 +177,7 @@ JPMorgan is the most active bank in AI data center financing:
 | **Citi** | Syndicate participant |
 | **Wells Fargo** | Some DC exposure |
 
-JPM is #1; others participate in syndicates.
+JPM is \#1; others participate in syndicates.
 
 ---
 
@@ -393,8 +393,8 @@ See [[Venezuela]].
 - [[Pure Storage]] — enterprise storage (1 of 9 top investment banks using Pure)
 
 ### Peers
-- [[Bank of America]] — #2 US bank
-- [[Wells Fargo]] — #4 US bank
+- [[Bank of America]] — \#2 US bank
+- [[Wells Fargo]] — \#4 US bank
 - [[Citigroup]] — peer
 - [[Goldman Sachs]] — peer (investment banking)
 

@@ -151,7 +151,7 @@ aliases: [EAEU, EEU, Eurasian Union]
 
 | Company | Sector |
 |---------|--------|
-| [[Kazatomprom]] | [[Uranium]] (world #1) |
+| [[Kazatomprom]] | [[Uranium]] (world \#1) |
 | Tengizchevroil | [[Oil]] ([[Chevron]] JV) |
 | Kaspi | [[Fintech]], payments |
 | Kazakh banks | Halyk, Kaspi |

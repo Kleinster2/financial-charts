@@ -3,7 +3,7 @@ aliases: [SBUX]
 ---
 #actor #restaurant #consumer #usa #public
 
-**Starbucks** — Global coffee chain (#1 worldwide). Mobile ordering pioneer. Turnaround underway under CEO Brian Niccol. Q1 FY2026: first US traffic growth in 2 years.
+**Starbucks** — Global coffee chain (\#1 worldwide). Mobile ordering pioneer. Turnaround underway under CEO Brian Niccol. Q1 FY2026: first US traffic growth in 2 years.
 
 | Metric | Value |
 |--------|-------|

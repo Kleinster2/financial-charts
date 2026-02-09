@@ -14,7 +14,7 @@ aliases: [mortgage-backed securities, MBS, agency MBS, CMBS, RMBS]
 | Share of US fixed income | **~20%** |
 | Share of Bloomberg Agg | ~25% |
 | Bank holdings (Dec 2025) | $2.7 trillion |
-| Ranking | #2 after [[Treasuries]] |
+| Ranking | \#2 after [[Treasuries]] |
 
 ---
 

@@ -60,7 +60,7 @@ Actual: Leverage during trade war
 ## Counterfactual
 
 If approved, Qualcomm-NXP would have been:
-- #1 in automotive semiconductors
+- \#1 in automotive semiconductors
 - Dominant in NFC/secure elements
 - Diversified away from mobile modem risk
 - Potentially less vulnerable to [[Apple]]'s modem efforts

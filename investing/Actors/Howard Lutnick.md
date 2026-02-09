@@ -3,7 +3,7 @@ aliases: [Lutnick]
 ---
 #actor #individual #usa #policy
 
-**Howard Lutnick** — US Commerce Secretary ([[Trump II]]). Former Cantor Fitzgerald CEO. Leading semiconductor industrial policy — 100% tariff threats on Asian chipmakers.
+**Howard Lutnick** — US Commerce Secretary ([[Trump II]]). Former [[Cantor Fitzgerald]] CEO. Leading semiconductor industrial policy — 100% tariff threats on Asian chipmakers.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Lutnick]
 |--------|-------|
 | Role | Commerce Secretary |
 | Since | January 2025 |
-| Prior role | Cantor Fitzgerald CEO (30+ years) |
+| Prior role | [[Cantor Fitzgerald]] CEO (30+ years) |
 | Policy focus | Semiconductor reshoring, tariffs |
 
 ---
@@ -95,4 +95,6 @@ Contradicts confirmation hearing testimony minimizing Epstein relationship.
 - [[Taiwan]] — trade deal partner
 - [[Scott Bessent]] — Treasury counterpart
 - [[Tariffs]] — policy tool
+- [[Cantor Fitzgerald]] — CEO for 30+ years
+- [[Tether]] — Cantor holds 5% equity rights, reserve custodian for USAT
 - [[Jeffrey Epstein]] — business partner (Adfin, 2012)

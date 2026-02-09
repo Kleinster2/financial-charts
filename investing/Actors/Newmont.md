@@ -13,7 +13,7 @@ aliases: [Newmont Corp, NEM]
 |--------|-------|
 | Ticker | NEM (NYSE) |
 | Market cap | ~$60B |
-| Position | #1 gold producer globally |
+| Position | \#1 gold producer globally |
 | 2025 return | **+100%+** (doubled) |
 
 ---
@@ -68,7 +68,7 @@ At $4,600 gold → massive margins.
 - Acquired Newcrest Mining ([[Australia]])
 - $17B deal
 - Added ~2M oz/year production
-- Cemented #1 position
+- Cemented \#1 position
 
 ---
 
@@ -107,7 +107,7 @@ Previous boom cycles marred by bad acquisitions.
 | Market cap | ~$60B |
 | 2025 return | +100%+ |
 | Production | ~6M oz/year |
-| Position | #1 gold miner |
+| Position | \#1 gold miner |
 
 *Created 2026-01-15*
 
@@ -116,6 +116,6 @@ Previous boom cycles marred by bad acquisitions.
 ## Related
 
 - [[Gold]] — primary commodity exposure
-- [[Agnico Eagle]] — peer (#2 gold miner)
+- [[Agnico Eagle]] — peer (\#2 gold miner)
 - [[Barrick Gold]] — peer, Nevada JV partner
 - [[Silver]] — precious metals complex

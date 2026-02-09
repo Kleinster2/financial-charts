@@ -257,8 +257,8 @@ See [[AI in banking]] for industry context.
 ## Related
 
 ### Peers
-- [[JPMorgan Chase]] — #1 US bank, "AI arms race" leader
-- [[Bank of America]] — #2 US bank, customer-facing AI (Erica)
+- [[JPMorgan Chase]] — \#1 US bank, "AI arms race" leader
+- [[Bank of America]] — \#2 US bank, customer-facing AI (Erica)
 - [[Citigroup]] — restructuring + AI
 
 ### AI Strategy

@@ -50,9 +50,9 @@ aliases: [OMC, Omnicom Group]
 | Company | Revenue | Notes |
 |---------|---------|-------|
 | WPP | ~$15B | Largest by revenue |
-| **Omnicom** | ~$15B | #2 |
+| **Omnicom** | ~$15B | \#2 |
 | [[Publicis]] | ~$14B | Largest by market cap |
-| Interpublic | ~$10B | #4 |
+| Interpublic | ~$10B | \#4 |
 
 ---
 

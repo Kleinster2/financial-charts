@@ -93,7 +93,7 @@ Trading at 0.5x P/B — cheap if legacy foundry demand holds.
 
 | Company             | Position                                     |
 | ------------------- | -------------------------------------------- |
-| [[Samsung]]         | #1 Korea foundry, pivoting to advanced nodes |
+| [[Samsung]]         | \#1 Korea foundry, pivoting to advanced nodes |
 | [[TSMC]]            | Global leader, reducing 8-inch exposure      |
 | [[UMC]]             | Taiwan-based, similar mature-node focus      |
 | [[GlobalFoundries]] | US-based, abandoned leading edge             |
@@ -110,7 +110,7 @@ DB HiTek's niche: pure-play 8-inch specialist in a market where giants are exiti
 
 ## Related
 
-- [[Samsung Electronics]] — Korea #1 foundry, competitor
+- [[Samsung Electronics]] — Korea \#1 foundry, competitor
 - [[TSMC]] — Global foundry leader, retreating from 8-inch
 - [[DB Group]] — Parent conglomerate
 - [[Power semiconductors]] — GaN, SiC growth driver

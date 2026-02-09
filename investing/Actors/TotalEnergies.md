@@ -13,7 +13,7 @@ aliases: [TTE, Total]
 |--------|-------|
 | Ticker | TTE (NYSE/Paris) |
 | Market cap | ~$150B |
-| Position | #4 Western major |
+| Position | \#4 Western major |
 | Strategy | "Multi-energy" |
 
 ---

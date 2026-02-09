@@ -34,7 +34,7 @@
 | Price per share | $50.00 (all cash) |
 | Total consideration | $4.5B + $2B debt |
 | Combined AUM | $1.5T |
-| Combined rank | #6 independent manager globally |
+| Combined rank | \#6 independent manager globally |
 
 **Strategic rationale:** Franklin Templeton was retail-heavy, Legg Mason institutional-heavy. Combined = 50/50 mix.
 

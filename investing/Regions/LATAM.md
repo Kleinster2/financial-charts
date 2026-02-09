@@ -76,7 +76,7 @@ See [[Nearshoring thesis]].
 | Copper | Codelco (state), BHP, Freeport |
 | Lithium | [[SQM]], Albemarle |
 
-Chile = #1 copper producer, #2 lithium.
+Chile = \#1 copper producer, \#2 lithium.
 
 ---
 

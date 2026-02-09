@@ -27,7 +27,7 @@ Global maritime shipping: container lines, ports, and port equipment.
 
 | Operator | Key asset | Throughput |
 |----------|-----------|------------|
-| [[SIPG]] | [[Yangshan Deep Water Port]] | 50M+ TEU (world #1) |
+| [[SIPG]] | [[Yangshan Deep Water Port]] | 50M+ TEU (world \#1) |
 | [[PSA Singapore]] | Singapore terminals | 39M TEU |
 | [[Hutchison Ports]] | Global network | 83M TEU total |
 | [[DP World]] | Jebel Ali, global | 90M+ TEU total |

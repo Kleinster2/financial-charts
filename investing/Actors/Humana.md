@@ -56,10 +56,10 @@ Most Medicare-focused of major insurers.
 
 | Insurer | MA Enrollment |
 |---------|---------------|
-| [[UnitedHealth]] | #1 |
-| **Humana** | #2 |
-| [[CVS Health]] (Aetna) | #3 |
-| [[Cigna]] | #4 |
+| [[UnitedHealth]] | \#1 |
+| **Humana** | \#2 |
+| [[CVS Health]] (Aetna) | \#3 |
+| [[Cigna]] | \#4 |
 
 ~5M Medicare Advantage members.
 
@@ -116,7 +116,7 @@ Most Medicare-focused of major insurers.
 ## Related
 
 - [[Medicare Advantage]] — 85% of revenue, Jan 2026 rate shock
-- [[UnitedHealth]] — competitor (#1 MA)
+- [[UnitedHealth]] — competitor (\#1 MA)
 - [[CVS Health]] — competitor (Aetna)
 - [[Cigna]] — competitor
 

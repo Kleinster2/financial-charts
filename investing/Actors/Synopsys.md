@@ -17,7 +17,7 @@ Every advanced chip needs Synopsys tools:
 | Market cap | ~$80B |
 | Revenue | ~$6B |
 | Margin | 30%+ operating |
-| Position | #1 EDA |
+| Position | \#1 EDA |
 
 ---
 
@@ -58,9 +58,9 @@ Without EDA tools, no chips get made.
 
 | Player | Position | Notes |
 |--------|----------|-------|
-| Synopsys | #1 | 32% market share |
-| [[Cadence]] | #2 | 30% market share |
-| [[Siemens EDA]] | #3 | Mentor Graphics |
+| Synopsys | \#1 | 32% market share |
+| [[Cadence]] | \#2 | 30% market share |
+| [[Siemens EDA]] | \#3 | Mentor Graphics |
 
 Effective duopoly for advanced nodes.
 
@@ -110,7 +110,7 @@ Picks and shovels for chip design.
 
 ## Related
 
-- [[Cadence]] — competitor (#2 EDA, effective duopoly)
+- [[Cadence]] — competitor (\#2 EDA, effective duopoly)
 - [[NVIDIA]] — customer (chip design tools)
 - [[AMD]] — customer (chip design tools)
 - [[TSMC]] — partner (manufacturing flow integration)

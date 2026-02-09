@@ -15,7 +15,7 @@ aliases: [BLK]
 | Market cap | ~$150B |
 | AUM | **$14T** (record, Q4 2024) |
 | ETF AUM | **$5.5T** |
-| Position | #1 asset manager globally |
+| Position | \#1 asset manager globally |
 
 ---
 

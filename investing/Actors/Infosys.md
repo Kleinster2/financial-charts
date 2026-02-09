@@ -33,10 +33,10 @@ aliases: [INFY]
 
 | Company | Revenue |
 |---------|---------|
-| [[TCS]] | #1 [[India]] |
-| **Infosys** | #2 [[India]] |
-| Wipro | #3 [[India]] |
-| HCL Tech | #4 [[India]] |
+| [[TCS]] | \#1 [[India]] |
+| **Infosys** | \#2 [[India]] |
+| Wipro | \#3 [[India]] |
+| HCL Tech | \#4 [[India]] |
 
 ---
 

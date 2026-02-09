@@ -13,8 +13,8 @@ BYD represents the vertically integrated EV model:
 
 | Role | Details |
 |------|---------|
-| EV sales | #1 globally (overtook Tesla 2025) |
-| [[Batteries]] | #2 globally (after CATL) |
+| EV sales | \#1 globally (overtook Tesla 2025) |
+| [[Batteries]] | \#2 globally (after CATL) |
 | [[Semiconductors]] | Own power chips, MCUs |
 | Integration | Cells → pack → vehicle → chips |
 
@@ -55,7 +55,7 @@ BYD represents the vertically integrated EV model:
 | External sales | Growing (other OEMs) |
 | IPO status | Delayed (poor market conditions) |
 
-**Strategic value:** Reduces reliance on [[Infineon]] (global #1) and [[STMicro]].
+**Strategic value:** Reduces reliance on [[Infineon]] (global \#1) and [[STMicro]].
 
 ---
 
@@ -177,7 +177,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 | Ticker | 1211.HK (HK), 002594.SZ ([[Shenzhen]]) |
 | Market cap | ~$100B |
 | Revenue (2024) | ~$90B |
-| EV sales | **4.6M (2025)** — world #1 |
+| EV sales | **4.6M (2025)** — world \#1 |
 | Operating margin | ~6% |
 | P/E | ~20x |
 | Key investor | [[Berkshire Hathaway]] (reduced stake) |
@@ -200,7 +200,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 ## Investment implications
 
 **Bull case:**
-- #1 global EV maker
+- \#1 global EV maker
 - Vertical integration cost advantage
 - Semiconductor self-sufficiency growing
 - LFP battery leadership
@@ -218,7 +218,7 @@ See [[China retaliatory toolkit]] for the broader pattern.
 
 ## Related
 
-- [[Tesla]] — competitor (#2 now)
+- [[Tesla]] — competitor (\#2 now)
 - [[Xiaomi]] — China EV competitor (SU7)
 - [[NIO]] — China EV competitor (premium segment)
 - [[CATL]] — battery competitor/supplier

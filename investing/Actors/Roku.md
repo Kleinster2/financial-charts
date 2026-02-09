@@ -49,7 +49,7 @@ aliases: [ROKU]
 |--------|-------|
 | Model | FAST (free, ad-supported) |
 | Content | Licensed movies, shows, originals |
-| Reach | #1 FAST channel |
+| Reach | \#1 FAST channel |
 | Monetization | 100% ad revenue to Roku |
 
 ---

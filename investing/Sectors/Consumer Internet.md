@@ -38,7 +38,7 @@
 | [[DoorDash]] | 500M+ | ~$60B | US delivery leader |
 | [[Uber]] (Eats) | — | ~$150B | Global delivery |
 | Instacart | — | ~$10B | Grocery |
-| Grubhub | — | Just Eat sub | US #3 |
+| Grubhub | — | Just Eat sub | US \#3 |
 
 ---
 

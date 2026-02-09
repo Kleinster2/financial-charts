@@ -89,8 +89,8 @@ Len Blavatnik's Access Industries took WMG private in 2011, re-IPO'd in 2020. Du
 
 ## Related
 
-- [[Universal Music Group]] — #1 label
-- [[Sony]] — #2 via Sony Music
+- [[Universal Music Group]] — \#1 label
+- [[Sony]] — \#2 via Sony Music
 - [[Access Industries]] — Len Blavatnik's holdco, 72% owner
 - [[Spotify]] — largest DSP
 - [[Media]] — sector

@@ -56,12 +56,12 @@ Not dependent on AI — but participates in upside.
 
 | Factor | Amphenol |
 |--------|----------|
-| Scale | #2 globally in connectors |
+| Scale | \#2 globally in connectors |
 | Breadth | 100,000+ products |
 | Customers | Every major OEM |
 | M&A | Serial acquirer |
 
-Molex (#1) is private. Amphenol = best public pure-play.
+Molex (\#1) is private. Amphenol = best public pure-play.
 
 ---
 

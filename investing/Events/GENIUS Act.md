@@ -48,7 +48,7 @@
 *   **US Treasury** (Stablecoins become major buyers of T-bills)
 
 **Losers:**
-*   **Tether (USDT)** (Offshore, opaque, faces pressure)
+*   **[[Tether]] (USDT)** (Offshore, opaque, faces pressure)
 *   **Algorithmic Stablecoins** (Likely banned/restricted)
 
 ---

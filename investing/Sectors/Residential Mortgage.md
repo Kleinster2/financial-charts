@@ -198,8 +198,8 @@ See [[GSE reform]] for privatization discussion.
 - Margin compression continues
 
 **Related public equities:**
-- [[Rocket Companies]] (RKT) — #2 originator
-- [[UWM]] (UWMC) — #1 originator
+- [[Rocket Companies]] (RKT) — \#2 originator
+- [[UWM]] (UWMC) — \#1 originator
 - [[loanDepot]] (LDI) — struggling
 - [[Pennymac]] (PFSI) — correspondent + servicing
 - [[Mr. Cooper]] (COOP) — acquired by Rocket Oct 2025
@@ -216,15 +216,15 @@ See [[GSE reform]] for privatization discussion.
 - [[Commercial Mortgage]] — CRE lending
 
 **Origination:**
-- [[UWM]] — #1, wholesale
-- [[Rocket Companies]] — #2, retail/DTC
-- [[Pennymac]] — #3, correspondent
-- [[CrossCountry Mortgage]] — #4, retail
+- [[UWM]] — \#1, wholesale
+- [[Rocket Companies]] — \#2, retail/DTC
+- [[Pennymac]] — \#3, correspondent
+- [[CrossCountry Mortgage]] — \#4, retail
 - [[loanDepot]] — struggling
 
 **Servicing:**
 - [[Mr. Cooper]] — largest servicer (acquired by Rocket Oct 2025)
-- [[Freedom Mortgage]] — $625B portfolio, #1 VA/FHA
+- [[Freedom Mortgage]] — $625B portfolio, \#1 VA/FHA
 - [[Pennymac]] — originate + service
 
 **Securitization:**
@@ -242,8 +242,8 @@ See [[GSE reform]] for privatization discussion.
 - [[Mortgage rates]] — rate dynamics
 
 **VA/FHA specialists:**
-- [[Freedom Mortgage]] — #1 VA and FHA lender
-- [[Veterans United]] — #1 VA lender by count
+- [[Freedom Mortgage]] — \#1 VA and FHA lender
+- [[Veterans United]] — \#1 VA lender by count
 - [[Navy Federal Credit Union]] — top 10 VA lender
 
 **Banks:**

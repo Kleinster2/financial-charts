@@ -124,7 +124,7 @@ See [[Institutional homebuying ban]] for full context.
 ## Related
 
 - [[Blackstone]] — original owner/creator
-- [[American Homes 4 Rent]] — #2 SFR REIT, main competitor
+- [[American Homes 4 Rent]] — \#2 SFR REIT, main competitor
 - [[Single-family rental]] — asset class context
 - [[Institutional homebuying ban]] — Trump policy (Jan 2026)
 - [[Housing]] — sector hub

@@ -3,7 +3,7 @@ aliases: [Toshiba Memory]
 ---
 #actor #memory #japan #nand #semiconductor
 
-**Kioxia** — Japanese NAND flash maker. #2 globally. WD joint venture. IPO stalled. [[Bain Capital]] owned.
+**Kioxia** — Japanese NAND flash maker. \#2 globally. WD joint venture. IPO stalled. [[Bain Capital]] owned.
 
 ---
 
@@ -13,7 +13,7 @@ Second-largest NAND producer, but structurally disadvantaged:
 
 | Metric | Value |
 |--------|-------|
-| NAND rank | #2 globally |
+| NAND rank | \#2 globally |
 | Ownership | [[Bain Capital]] (~56%), Toshiba, others |
 | Status | Private (IPO attempts failed) |
 | JV partner | [[Western Digital]] |
@@ -25,7 +25,7 @@ Second-largest NAND producer, but structurally disadvantaged:
 
 | Segment | Position | Notes |
 |---------|----------|-------|
-| NAND | #2 (behind Samsung) | ~20% market share |
+| NAND | \#2 (behind Samsung) | ~20% market share |
 | DRAM | None | Not a player |
 | [[HBM]] | None | Not a player |
 
@@ -132,7 +132,7 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 **Bull:**
 - NAND cycle recovery
-- #2 position has value
+- \#2 position has value
 - WD JV provides scale
 - IPO could unlock value
 - [[Japan]] government support
@@ -172,7 +172,7 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 - [[SanDisk]] — JV partner (shared NAND fabs, extended to 2034)
 - [[Western Digital]] — former JV parent (pre-2025 spinoff)
-- [[Samsung]] — competitor (#1 NAND)
+- [[Samsung]] — competitor (\#1 NAND)
 - [[SK Hynix]] — competitor (NAND + [[HBM]] leader)
 - [[Micron]] — competitor (NAND + DRAM)
 - [[Memory shortage 2025-2026]] — tailwind (NAND pricing)

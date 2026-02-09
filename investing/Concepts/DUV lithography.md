@@ -127,8 +127,8 @@ ArF immersion fastest growing segment.
 
 **Companies:**
 - [[ASML]] — dominant supplier
-- [[Nikon]] — #2, ArF dry
-- [[Canon]] — #3, legacy focus
+- [[Nikon]] — \#2, ArF dry
+- [[Canon]] — \#3, legacy focus
 - [[SMIC]] — uses DUV for 7nm
 - SMEE — Chinese domestic
 

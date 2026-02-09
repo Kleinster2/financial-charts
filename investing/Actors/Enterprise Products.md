@@ -13,7 +13,7 @@ aliases: [EPD]
 |--------|-------|
 | Ticker | EPD (NYSE) |
 | Market cap | ~$70B |
-| Position | #1 NGL infrastructure |
+| Position | \#1 NGL infrastructure |
 | Structure | MLP (K-1) |
 
 ---

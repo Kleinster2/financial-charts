@@ -76,7 +76,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 | Aspect | Halliburton | [[Schlumberger]] | [[Baker Hughes]] |
 |--------|-------------|------------------|------------------|
-| Size | #2 | #1 | #3 |
+| Size | \#2 | \#1 | \#3 |
 | Focus | N. America | International | Diversified |
 | Tech | Fracking leader | Broad portfolio | [[LNG]]/digital |
 

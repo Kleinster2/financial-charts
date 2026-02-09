@@ -19,9 +19,9 @@ aliases: [Rare earth controls, [[Critical minerals]] leverage]
 
 | Country | Output | Reserves |
 |---------|--------|----------|
-| [[China]] | 270,000 tons | 44M tons (#1) |
-| US | 45,000 tons | 1.9M tons (#7) |
-| [[Australia]] | — | #4 globally |
+| [[China]] | 270,000 tons | 44M tons (\#1) |
+| US | 45,000 tons | 1.9M tons (\#7) |
+| [[Australia]] | — | \#4 globally |
 
 [[China]] doubled output over 5 years. US has just 4% of [[China]]'s reserves.
 
@@ -37,7 +37,7 @@ The processing bottleneck is the real chokepoint. Even ore mined elsewhere often
 
 | Metric | Value |
 |--------|-------|
-| Global rank | **#3** (after [[China]], US) |
+| Global rank | **\#3** (after [[China]], US) |
 | Dy/Tb share | **~50% of global mining** |
 | [[China]] import share | **50% by value** |
 | Processing | **100% goes to [[China]]** |

@@ -147,7 +147,7 @@ Asset-light hotel operators form a distinct tradeable cluster. Analysis (2022-pr
 ## Related
 
 - [[Marriott]] — largest hotel company
-- [[Hilton]] — #2, outperforming
+- [[Hilton]] — \#2, outperforming
 - [[Lightstone Group]] — Moxy developer, Extended Stay history
 - [[David Lichtenstein]] — Extended Stay bankruptcy
 - [[Blackstone]] — major hotel investor (sold Extended Stay 2007)

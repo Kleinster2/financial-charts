@@ -3,7 +3,7 @@ aliases: [Lawrence Ellison, Ellison]
 ---
 #actor #person #investor #tech #usa
 
-**Larry Ellison** — [[Oracle]] co-founder. #4 richest person (~$150B). Backing son David's Paramount acquisition. Major [[Tesla]] investor/board member.
+**Larry Ellison** — [[Oracle]] co-founder. \#4 richest person (~$150B). Backing son David's Paramount acquisition. Major [[Tesla]] investor/board member.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Lawrence Ellison, Ellison]
 | Metric | Value |
 |--------|-------|
 | Net worth | **~$150B** |
-| Forbes rank | #4 globally |
+| Forbes rank | \#4 globally |
 | Primary wealth | [[Oracle]] (co-founder, CTO) |
 | Age | 80 |
 

@@ -3,7 +3,7 @@ aliases: [TTD, The [[Trade]] Desk]
 ---
 #actor #adtech #ctv #usa #public
 
-**[[Trade]] Desk** — #1 independent demand-side platform (DSP). CTV advertising leader. ~$60B market cap. Beneficiary of streaming ad tiers.
+**[[Trade]] Desk** — \#1 independent demand-side platform (DSP). CTV advertising leader. ~$60B market cap. Beneficiary of streaming ad tiers.
 
 ---
 
@@ -39,7 +39,7 @@ aliases: [TTD, The [[Trade]] Desk]
 | CTV % of revenue | ~45% |
 | CTV growth | 30%+ |
 | Partners | Roku, Disney, Netflix, Paramount, etc. |
-| Position | #1 independent CTV buyer |
+| Position | \#1 independent CTV buyer |
 
 **Thesis:** Every streaming ad tier needs programmatic buying → [[Trade]] Desk.
 

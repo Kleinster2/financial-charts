@@ -35,7 +35,7 @@ Largest messaging platform globally. 100M+ MAU in US alone.
 
 | Region | Status |
 |--------|--------|
-| [[India]] | #1 messaging app |
+| [[India]] | \#1 messaging app |
 | [[Brazil]] | Dominant |
 | [[Europe]] | Dominant |
 | US | Growing (behind iMessage) |

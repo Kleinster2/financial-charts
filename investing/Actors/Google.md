@@ -14,7 +14,7 @@ aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
 | CEO | [[Sundar Pichai]] | Google CEO since 2015, Alphabet CEO since 2019. Product-focused leader. |
 | CFO | Anat Ashkenazi | Joined Jul 2024 from [[Eli Lilly]] (CFO). |
 | President & CIO | [[Ruth Porat]] | Former CFO (2015-2024). Oversees Other Bets, infrastructure. |
-| Cloud CEO | Thomas Kurian | Joined 2019, ex-Oracle. Grew GCP to #3 cloud. |
+| Cloud CEO | Thomas Kurian | Joined 2019, ex-Oracle. Grew GCP to \#3 cloud. |
 
 ---
 
@@ -45,7 +45,7 @@ Google is the most vertically integrated AI hyperscaler:
 | AI capex | $91B (2025), $175-185B guided (2026) |
 | AI lab | DeepMind (Gemini) |
 | Custom silicon | TPU (7 generations) |
-| Cloud | GCP (#3 behind AWS, Azure) |
+| Cloud | GCP (\#3 behind AWS, Azure) |
 | AI investment | [[Anthropic]] ($2B+) |
 
 ---
@@ -308,7 +308,7 @@ Google backs Anthropic while competing with [[Claude]] via Gemini — hedging li
 
 ## Google Cloud (GCP)
 
-**#3 cloud provider:**
+**\#3 cloud provider:**
 
 | Provider | Market share |
 |----------|--------------|
@@ -432,7 +432,7 @@ See [[Short interest]] for interpretation framework.
 | AI capex (2025) | $91B |
 | AI capex (2026 guided) | $175-185B |
 | TPU generations | v1 through v7 |
-| Cloud rank | #3 (GCP) |
+| Cloud rank | \#3 (GCP) |
 | AI lab | DeepMind |
 | Key model | Gemini |
 | Foundry | [[TSMC]] (via Broadcom) |

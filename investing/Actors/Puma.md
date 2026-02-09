@@ -105,7 +105,7 @@ Asia Pacific is ~20% of Puma's sales — overall recovery still depends on Europ
 - Stock at 9-year low, ~10x PE — valuation floor
 - €8.8B revenue base is not going away
 - Speedcat/retro shoe cycle could provide momentum
-- Nike's struggles create opportunity for #2/#3 brands
+- Nike's struggles create opportunity for \#2/\#3 brands
 - Motorsport/F1 partnership growing culturally
 - Kering stake overhang clearing (selling down)
 

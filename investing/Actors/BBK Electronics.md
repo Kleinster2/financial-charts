@@ -1,6 +1,6 @@
 #actor #smartphone #china #conglomerate
 
-**BBK Electronics** — Chinese conglomerate owning Oppo, Vivo, [[OnePlus]], Realme, iQOO. Combined #2-3 global smartphone shipper behind Apple/Samsung.
+**BBK Electronics** — Chinese conglomerate owning Oppo, Vivo, [[OnePlus]], Realme, iQOO. Combined \#2-3 global smartphone shipper behind Apple/Samsung.
 
 ---
 

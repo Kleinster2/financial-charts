@@ -37,7 +37,7 @@ Insurance float funds everything else.
 
 | Entity | Type |
 |--------|------|
-| **GEICO** | Auto insurance (#2 US) |
+| **GEICO** | Auto insurance (\#2 US) |
 | **Gen Re** | Reinsurance |
 | **Berkshire Hathaway Primary** | Commercial |
 | **National Indemnity** | Specialty |

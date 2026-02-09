@@ -37,7 +37,7 @@ aliases: [IHRT, iHeart, iHeartRadio, Clear Channel]
 | Stations | 860+ |
 | Markets | 160+ |
 | Formats | All major formats |
-| Reach | #1 audio company |
+| Reach | \#1 audio company |
 
 **Challenge:** Radio ad revenue declining ~5% annually.
 
@@ -47,7 +47,7 @@ aliases: [IHRT, iHeart, iHeartRadio, Clear Channel]
 
 | Metric | Value |
 |--------|-------|
-| iHeartPodcast Network | #1 podcast publisher |
+| iHeartPodcast Network | \#1 podcast publisher |
 | Downloads | 1B+ monthly |
 | Shows | 900+ |
 | Strategy | Scale + ad tech |

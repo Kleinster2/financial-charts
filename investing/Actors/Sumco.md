@@ -3,7 +3,7 @@ aliases: [3436.T]
 ---
 #actor #semiconductor #materials #japan #public
 
-**Sumco** — #2 silicon wafer maker globally. ~25% share. Pure-play wafers (unlike diversified Shin-Etsu).
+**Sumco** — \#2 silicon wafer maker globally. ~25% share. Pure-play wafers (unlike diversified Shin-Etsu).
 
 ---
 
@@ -86,7 +86,7 @@ Second-largest wafer maker, pure-play exposure:
 
 - [[Long Japan wafers]] — investment thesis (Sumco as primary vehicle)
 - [[Semiconductor Materials]] — sector context
-- [[Shin-Etsu]] — #1 wafer competitor (also photoresists)
+- [[Shin-Etsu]] — \#1 wafer competitor (also photoresists)
 - [[Siltronic]] — European competitor
 - [[TSMC]], [[Samsung]] — customers
 - [[Long WFE]] — upstream supply chain

@@ -56,8 +56,8 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 | Company | Strength | HBM position |
 |---------|----------|--------------|
 | [[SK Hynix]] | HBM leader, 90%+ share | Dominant |
-| [[Samsung]] | Scale, DRAM/NAND breadth | #2 HBM, catching up |
-| [[Micron]] | U.S.-based, [[CHIPS Act]] beneficiary | #3 HBM, improving |
+| [[Samsung]] | Scale, DRAM/NAND breadth | \#2 HBM, catching up |
+| [[Micron]] | U.S.-based, [[CHIPS Act]] beneficiary | \#3 HBM, improving |
 
 ---
 
@@ -87,7 +87,7 @@ Memory (DRAM/HBM/NAND) is entering a structural shortage driven by AI demand, co
 - Memory is cyclical — but this cycle has structural tailwinds
 - SK Hynix: purest HBM play, premium valuation
 - Samsung: memory + foundry, mixed narrative
-- Micron: U.S.-based, [[CHIPS Act]] angle, #3 position
+- Micron: U.S.-based, [[CHIPS Act]] angle, \#3 position
 
 ---
 

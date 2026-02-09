@@ -51,10 +51,10 @@ aliases: [Rocket Mortgage, RKT, Quicken Loans]
 
 | Period | Volume | Notes |
 |--------|--------|-------|
-| 2024 (full year) | $101.2B | #2 behind UWM |
+| 2024 (full year) | $101.2B | \#2 behind UWM |
 | Q1 2025 | $18.2B | -4.1% YoY |
 
-**Lost #1 to [[UWM]] in 2023-2024** — wholesale vs retail model. Mr. Cooper acquisition aims to reclaim lead via recapture.
+**Lost \#1 to [[UWM]] in 2023-2024** — wholesale vs retail model. Mr. Cooper acquisition aims to reclaim lead via recapture.
 
 ---
 
@@ -82,7 +82,7 @@ aliases: [Rocket Mortgage, RKT, Quicken Loans]
 | **Rocket** | 361,071 | $101.2B | Retail/DTC |
 | PennyMac | — | — | Mixed |
 
-**With Mr. Cooper recapture:** Expected to return to #1 in 2026.
+**With Mr. Cooper recapture:** Expected to return to \#1 in 2026.
 
 ---
 
@@ -126,7 +126,7 @@ aliases: [Rocket Mortgage, RKT, Quicken Loans]
 
 ## Related
 
-- [[UWM]] — main competitor (#1 wholesale)
+- [[UWM]] — main competitor (\#1 wholesale)
 - [[Mortgage rates]] — key driver
 - [[MBS market]] — sells loans into
 - [[Mortgage REITs]] — MBS buyers

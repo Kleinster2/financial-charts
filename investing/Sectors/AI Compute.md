@@ -17,8 +17,8 @@ TSMC + its largest AI/compute customers. Trades as a tight cluster (0.60 avg cor
 | Company | Role | Position |
 |---------|------|----------|
 | [[TSMC]] | Foundry | Manufactures for NVDA, AMD |
-| [[NVIDIA]] | AI GPUs | #1 TSMC customer, AI leader |
-| [[AMD]] | CPUs + GPUs | #2 TSMC customer, NVDA challenger |
+| [[NVIDIA]] | AI GPUs | \#1 TSMC customer, AI leader |
+| [[AMD]] | CPUs + GPUs | \#2 TSMC customer, NVDA challenger |
 
 ---
 
@@ -46,7 +46,7 @@ TSMC's stock moves with its AI customers, not "foundry peers."
 
 **TSMC's revenue concentration:**
 - NVDA is TSMC's largest customer (~25% of revenue)
-- AMD is #2-3 customer
+- AMD is \#2-3 customer
 - AI/HPC is TSMC's highest-margin segment
 
 **Shared demand driver:**

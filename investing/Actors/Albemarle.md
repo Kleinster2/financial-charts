@@ -3,7 +3,7 @@ aliases: [ALB]
 ---
 #actor #lithium #mining #usa #public
 
-**Albemarle** — #1 Western lithium producer. EV battery supply chain. Stock +74% in 2025 on deficit expectations.
+**Albemarle** — \#1 Western lithium producer. EV battery supply chain. Stock +74% in 2025 on deficit expectations.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [ALB]
 | Market cap | ~$17B |
 | Stock price | ~$141 |
 | 52-week range | $49 - $152 |
-| Position | #1 Western lithium |
+| Position | \#1 Western lithium |
 
 ---
 
@@ -95,7 +95,7 @@ Preparing for lithium winter, positioned for spring.
 ## Investment case
 
 **Bull:**
-- #1 Western lithium producer
+- \#1 Western lithium producer
 - 2026 deficit coming
 - Cost cuts complete
 - Stock still below 2022 highs
@@ -118,7 +118,7 @@ Preparing for lithium winter, positioned for spring.
 | Market cap | ~$17B |
 | 2025 return | +74% |
 | 2026 EBITDA | $1.45B |
-| Position | #1 Western lithium |
+| Position | \#1 Western lithium |
 
 *Created 2026-01-05*
 

@@ -3,7 +3,7 @@ aliases: [CRM]
 ---
 #actor #software #enterprise #usa #public
 
-**Salesforce** — #1 CRM platform globally. Enterprise cloud pioneer. Einstein AI and Agentforce for AI-powered sales/service.
+**Salesforce** — \#1 CRM platform globally. Enterprise cloud pioneer. Einstein AI and Agentforce for AI-powered sales/service.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [CRM]
 |--------|-------|
 | Ticker | CRM (NYSE) |
 | Market cap | ~$280B |
-| Position | #1 CRM globally |
+| Position | \#1 CRM globally |
 | Customers | 150,000+ |
 
 ![[crm-vs-peers.png]]

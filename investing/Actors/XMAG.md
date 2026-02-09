@@ -124,9 +124,9 @@ Top 10 = 18.8% of assets. Diversified vs Mag 7 concentration.
 - [[Sector rotation]] — primary thesis
 - [[Mega-cap tech acronyms]] — what it excludes
 - [[Broadcom]] — top holding (3.97%)
-- [[Eli Lilly]] — #2 holding (2.25%)
-- [[JPMorgan Chase]] — #3 holding, financials rotation
-- [[Berkshire Hathaway]] — #4 holding
+- [[Eli Lilly]] — \#2 holding (2.25%)
+- [[JPMorgan Chase]] — \#3 holding, financials rotation
+- [[Berkshire Hathaway]] — \#4 holding
 - [[NVIDIA]] — largest exclusion
 - [[Apple]] — largest exclusion
 - [[Goldman Sachs]] — S&P 493 calls

@@ -129,6 +129,6 @@ All large PC OEMs similarly squeezed.
 - [[Memory shortage victims]] — thesis context (PC OEM hit)
 - [[Memory shortage 2025-2026]] — crisis context
 - [[Dell]] — competitor (same squeeze)
-- [[Lenovo]] — competitor (#1 PC maker)
+- [[Lenovo]] — competitor (\#1 PC maker)
 - [[Micron]] — supplier (memory)
 - [[SK Hynix]] — supplier (memory)

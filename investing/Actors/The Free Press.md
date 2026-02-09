@@ -64,8 +64,8 @@ aliases: [Free Press, TFP, Common Sense]
 |--------|-------|
 | Total subscribers | 1.5M |
 | Paid subscribers | 170K+ |
-| [[Substack]] rank | **#1 by revenue** |
-| Politics rank | **#1** |
+| [[Substack]] rank | **\#1 by revenue** |
+| Politics rank | **\#1** |
 | Annual revenue | ~$15M (subscriptions) |
 
 ---

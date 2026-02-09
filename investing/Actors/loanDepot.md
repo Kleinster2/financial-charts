@@ -77,10 +77,10 @@ aliases: [loanDepot Inc, LDI]
 
 | Lender | 2024 Position | Status |
 |--------|---------------|--------|
-| [[UWM]] | #1 | Dominant |
-| [[Rocket Companies]] | #2 | Consolidating |
-| [[Pennymac]] | #3 | Profitable |
-| CrossCountry | #4 | Growing |
+| [[UWM]] | \#1 | Dominant |
+| [[Rocket Companies]] | \#2 | Consolidating |
+| [[Pennymac]] | \#3 | Profitable |
+| CrossCountry | \#4 | Growing |
 | **loanDepot** | Top 10 | **Struggling** |
 
 ---

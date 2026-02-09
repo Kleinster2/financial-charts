@@ -13,7 +13,7 @@ aliases: [NBR]
 |--------|-------|
 | Ticker | NBR (NYSE) |
 | Market cap | ~$1B |
-| Position | #3 US land driller |
+| Position | \#3 US land driller |
 | Rigs | ~200+ globally |
 
 ---
@@ -101,7 +101,7 @@ See [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Patterson-UTI]] — peer (#1 US land)
-- [[Helmerich & Payne]] — peer (#2 US land)
+- [[Patterson-UTI]] — peer (\#1 US land)
+- [[Helmerich & Payne]] — peer (\#2 US land)
 - [[Saudi Aramco]] — major customer
 - [[Venezuela oil rebuild]] — thesis

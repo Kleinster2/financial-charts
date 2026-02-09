@@ -15,7 +15,7 @@ aliases: [CFR, Compagnie Financière Richemont]
 | Market cap | ~CHF 80B |
 | Key brand | Cartier |
 | Focus | Jewelry, watches |
-| Position | #2 luxury (behind [[LVMH]]) |
+| Position | \#2 luxury (behind [[LVMH]]) |
 
 ---
 
@@ -153,7 +153,7 @@ Stock reversed gains post-results on margin worries.
 ## Related
 
 - [[Luxury]] — sector hub
-- [[LVMH]] — competitor (#1 luxury)
+- [[LVMH]] — competitor (\#1 luxury)
 - [[Kering]] — competitor
 - [[Chloé]] — fashion brand (loss-making segment)
 - [[Chemena Kamali]] — Chloé creative director

@@ -24,7 +24,7 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 |--------|-------|
 | Single-family homes (US) | ~86 million |
 | Single-family rentals | **15 million units** |
-| SFR as % of rentals | #2 largest rental type |
+| SFR as % of rentals | \#2 largest rental type |
 | Institutional SFR ownership | **~3%** (400K homes) |
 | Home prices (2020-Q3 2025) | +55% |
 | Mortgage payment vs rent | **$1,091/month premium** |
@@ -128,13 +128,13 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 
 *Homebuilders:*
 - [[DR Horton]] — largest homebuilder
-- [[Lennar]] — #2 homebuilder
+- [[Lennar]] — \#2 homebuilder
 - [[PulteGroup]] — move-up/55+ focus
 - [[Toll Brothers]] — luxury segment
 
 *SFR REITs:*
 - [[Invitation Homes]] — largest SFR REIT
-- [[American Homes 4 Rent]] — #2 SFR REIT
+- [[American Homes 4 Rent]] — \#2 SFR REIT
 - [[Blackstone]] — PE, built Invitation Homes
 
 *GSEs:*
@@ -142,19 +142,19 @@ US housing sector — homebuilders, single-family rental REITs, and related poli
 
 *Mortgage lenders:*
 - [[Rocket Companies]] — largest lender/servicer
-- [[UWM]] — #1 wholesale lender
+- [[UWM]] — \#1 wholesale lender
 
 *Mortgage REITs:*
 - [[Annaly Capital]] — largest mREIT
 - [[AGNC]] — pure Agency MBS
 
 *Title insurance:*
-- [[Fidelity National Financial]] — #1 (32% share)
-- [[First American Financial]] — #2
+- [[Fidelity National Financial]] — \#1 (32% share)
+- [[First American Financial]] — \#2
 
 *Real estate tech:*
-- [[Zillow]] — #1 traffic
-- [[CoStar Group]] — #1 commercial, Homes.com
+- [[Zillow]] — \#1 traffic
+- [[CoStar Group]] — \#1 commercial, Homes.com
 
 *Real estate brokerages:*
 - [[Compass]] — tech brokerage, acquired [[Anywhere Real Estate]] Jan 2026

@@ -137,7 +137,7 @@ Each advantage feeds the others. The flywheel accelerates.
 - [[Advanced packaging]] — component (CoWoS as second lock-in)
 - [[Customer lock-in via co-design]] — component (design dependency)
 - [[TSMC]] — leader (executes this playbook)
-- [[Samsung]] — challenger (#2, improving but structurally disadvantaged)
+- [[Samsung]] — challenger (\#2, improving but structurally disadvantaged)
 - [[Intel Foundry Services]] — challenger (turnaround attempt)
 - [[Foundry Wars]] — context (the competitive landscape)
 - [[Taiwan concentration risk]] — the one thing that could break it

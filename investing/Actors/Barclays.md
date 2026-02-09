@@ -3,7 +3,7 @@ aliases: [BCS, Barclays PLC]
 ---
 #actor #bank #uk #investment-bank
 
-**Barclays** — British multinational bank. [[UK]]'s #2 by assets (after HSBC). £1.48T total assets (2023). HQ Canary Wharf, London. Investment banking is profit engine (~64% IB revenue from Global Markets). CEO CS Venkatakrishnan (2021-) executing 3-year restructuring: cut £2B costs, return £10B to shareholders by 2026, reduce IB reliance.
+**Barclays** — British multinational bank. [[UK]]'s \#2 by assets (after HSBC). £1.48T total assets (2023). HQ Canary Wharf, London. Investment banking is profit engine (~64% IB revenue from Global Markets). CEO CS Venkatakrishnan (2021-) executing 3-year restructuring: cut £2B costs, return £10B to shareholders by 2026, reduce IB reliance.
 
 ---
 
@@ -140,7 +140,7 @@ Tariff-driven volatility in 2025 boosted trading revenues beyond plan.
 - [[Deutsche Bank]] — European peer
 - [[UBS]] — European peer
 - [[JPMorgan Chase]] — US competitor
-- [[HSBC]] — [[UK]] #1 by assets
+- [[HSBC]] — [[UK]] \#1 by assets
 - [[Investment Banks]] — sector
 
 ---

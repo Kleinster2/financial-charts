@@ -12,7 +12,7 @@ aliases: [Husk Power, Husk]
 | Metric | Value |
 |--------|-------|
 | Type | Solar minigrid operator |
-| Position | **#1 globally** |
+| Position | **\#1 globally** |
 | Nigeria systems | ~70 |
 | Fundraise | $400M (ongoing) |
 | Markets | Nigeria, [[India]] |

@@ -51,7 +51,7 @@ aliases: [Weiss]
 |--------|-------|
 | Subscribers | 1.5M |
 | Paid subscribers | 170K+ |
-| [[Substack]] rank | #1 by revenue |
+| [[Substack]] rank | \#1 by revenue |
 | Acquisition price | $150M |
 
 See [[The Free Press]] for details.

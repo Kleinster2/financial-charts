@@ -55,6 +55,25 @@ Overview of power generation and utilities, with focus on AI-driven demand.
 | NRG Energy | Retail + generation | — |
 | AES | Renewables + storage | — |
 
+### Grid infrastructure and T&D contractors
+
+| Company | Focus | Key exposure |
+|---------|-------|-------------|
+| [[Quanta Services]] | \#1 utility contractor | Data center grid buildout, $39B backlog |
+| [[ATCO]] | Regulated utilities (Alberta) | Yellowhead pipeline (~C$2.9B), [[LUMA Energy]] JV |
+| MasTec | Telecom, renewables | — |
+| [[Eaton]] | Electrical equipment | Power management |
+
+### Grid privatization (Puerto Rico)
+
+| Entity | Role | Status |
+|--------|------|--------|
+| [[PREPA]] | Asset owner | Bankrupt since 2017, ~$8.5B debt |
+| [[LUMA Energy]] | T&D operator | 15-year contract, governor seeking termination |
+| [[Genera PR]] ([[New Fortress Energy]]) | Generation operator | 10-year contract, capacity crisis |
+
+See [[Puerto Rico]], [[LUMA Energy]], [[PREPA]].
+
 ### Nuclear
 
 | Company | Type | Status |
@@ -99,6 +118,16 @@ See [[Power constraints]].
 
 ## Investment themes
 
+### Grid infrastructure super-cycle
+
+Three independent drivers converging on grid buildout: AI power demand, climate resilience, and electrification. See [[Grid infrastructure super-cycle]].
+
+| Driver | Expression |
+|--------|------------|
+| AI / data centers | [[Quanta Services]], [[Eaton]], [[GE Vernova]] |
+| Climate hardening | [[LUMA Energy]] (Puerto Rico), [[PG&E]] undergrounding |
+| Electrification | Renewable interconnection, EV charging |
+
 ### Nuclear renaissance
 
 | Thesis | Expression |
@@ -117,6 +146,15 @@ See [[Long nuclear]].
 | Utility demand growth | Dominion, Duke |
 | IPP pricing power | Constellation, Vistra |
 | Equipment | GE Vernova, Siemens Energy |
+| Grid buildout | [[Quanta Services]], [[Eaton]] |
+
+### Grid privatization
+
+| Thesis | Expression |
+|--------|------------|
+| T&D concessions | [[LUMA Energy]] (Puerto Rico model) |
+| Grid contractors | [[Quanta Services]] |
+| Distressed utility debt | [[PREPA]] bonds (~80% haircut proposed) |
 
 ---
 
@@ -144,8 +182,17 @@ See [[Long nuclear]].
 
 ---
 
+## Software-to-energy rotation (Feb 2026)
+
+US energy sector up 17% YTD as capital rotates out of software on AI disruption fears. XLE +24% vs IGV -20% over 12 months (~44pp divergence). US majors trade at >75% EV/EBITDA premium to European peers.
+
+See [[AI workflow disruption basket]] for the other side of this trade.
+
+---
+
 ## Related
 
+- [[AI workflow disruption basket]] — software selloff driving rotation into energy
 - [[Power constraints]] — AI bottleneck
 - [[Long nuclear]] — thesis
 - [[Nuclear renaissance]] — context
@@ -153,9 +200,13 @@ See [[Long nuclear]].
 - [[Project Stargate]] — $500B AI infra (power needs)
 - [[Clean energy for AI]] — concept
 - [[Utility wildfire risk]] — PSPS, wildfire liability
+- [[Puerto Rico]] — grid privatization case study
+- [[LUMA Energy]] — T&D privatization
+- [[PREPA]] — bankrupt state utility
+- [[Quanta Services]] — \#1 grid contractor
 
 ## Sources
 
 - TBD
 
-*Updated 2026-01-08*
+*Updated 2026-02-09*

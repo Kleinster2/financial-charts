@@ -20,9 +20,9 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 
 | Segment | Position |
 |---------|----------|
-| DRAM | #3 (behind Samsung, SK Hynix) |
-| NAND | #4 (behind Samsung, SK Hynix, [[Kioxia]]) |
-| [[HBM]] | #3 (behind SK Hynix, Samsung) |
+| DRAM | \#3 (behind Samsung, SK Hynix) |
+| NAND | \#4 (behind Samsung, SK Hynix, [[Kioxia]]) |
+| [[HBM]] | \#3 (behind SK Hynix, Samsung) |
 
 ---
 
@@ -37,7 +37,7 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 
 ## Key weaknesses
 
-- **[[HBM]] behind**: SK Hynix has the lead, Samsung #2
+- **[[HBM]] behind**: SK Hynix has the lead, Samsung \#2
 - **Scale disadvantage**: Smaller than Samsung in memory
 - **Technology gap**: Historically trailed Korean leaders on density/cost
 
@@ -88,8 +88,8 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 |--------|-------|
 | Ticker | MU (NASDAQ) |
 | HQ | Boise, Idaho, USA |
-| Position | #3 DRAM, #4 NAND |
-| [[HBM]] | Ramping, #3 — share now in line with DRAM share |
+| Position | \#3 DRAM, \#4 NAND |
+| [[HBM]] | Ramping, \#3 — share now in line with DRAM share |
 | **Stock 2025** | **+239%** |
 | **Stock Jan 2026** | +27% MTD |
 | **US investment** | **$200B** ($150B mfg + $50B R&D) |
@@ -213,7 +213,7 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 **[[Long memory]]**:
 - Benefits from same shortage dynamics as Korea
 - U.S.-based = geopolitical diversification
-- #3 [[HBM]] but ramping
+- \#3 [[HBM]] but ramping
 
 **[[Short TSMC long Korea]]**:
 - Complicates the thesis — Micron benefits from same drivers
@@ -236,8 +236,8 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 - [[Sanjay Mehrotra]] — CEO since 2017 (co-founded [[SanDisk]])
 
 ### Competitors
-- [[SK Hynix]] — competitor (#1 [[HBM]], Micron #3)
-- [[Samsung]] — competitor (#2 [[HBM]])
+- [[SK Hynix]] — competitor (\#1 [[HBM]], Micron \#3)
+- [[Samsung]] — competitor (\#2 [[HBM]])
 - [[CXMT]] — [[China]] competitor (catching up)
 - [[SanDisk]] — US memory peer (NAND)
 

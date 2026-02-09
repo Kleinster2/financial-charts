@@ -13,7 +13,7 @@ GE Vernova is THE chokepoint for fast-deploying AI data center power:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 gas turbine manufacturer |
+| Market position | \#1 gas turbine manufacturer |
 | Market share | ~35% (with [[Siemens]], Mitsubishi = 70%+) |
 | Waitlist | 3-5 years for LM6000 |
 | Stock performance | +239% past year |

@@ -63,7 +63,7 @@ Agency model (commission-based).
 |--------|----------|
 | [[Europe]] | Dominant |
 | [[Asia]] | Strong (Agoda) |
-| US | #2 to Expedia |
+| US | \#2 to Expedia |
 | LatAm | Growing |
 
 ---

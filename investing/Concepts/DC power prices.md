@@ -63,7 +63,7 @@ Data center demand is driving electricity price increases across the US, with wh
 |--------|---------|------|
 | US DC share of electricity | ~4% | **~9%** |
 | Growth comparison | — | "Biggest surge since air conditioning caught on in 1960s" |
-| Global DC electricity rank | — | **#4 country** (behind [[China]], US, [[India]]) |
+| Global DC electricity rank | — | **\#4 country** (behind [[China]], US, [[India]]) |
 
 ---
 

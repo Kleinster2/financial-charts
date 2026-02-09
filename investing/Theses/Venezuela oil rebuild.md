@@ -91,7 +91,7 @@ Trump announced US will "run" Venezuela and take control of oil reserves. Americ
 | Company | Role | Leverage |
 |---------|------|----------|
 | [[Schlumberger]] | Largest services, international | High |
-| [[Halliburton]] | #2 services, historical presence | High |
+| [[Halliburton]] | \#2 services, historical presence | High |
 | [[Baker Hughes]] | Diversified, equipment | Moderate |
 
 ### Tier 3: Heavy crude buyers ([[Gulf Coast refiners]])

@@ -80,7 +80,7 @@ aliases: [EOG]
 | Aspect | EOG | [[ConocoPhillips]] | Pioneer (acquired) |
 |--------|-----|--------------------|--------------------|
 | Focus | US shale only | Global | Permian pure-play |
-| Size | #1 independent | Largest E&P | Was #2 Permian |
+| Size | \#1 independent | Largest E&P | Was \#2 Permian |
 | Efficiency | Best-in-class | Strong | Strong |
 | Strategy | Organic growth | M&A active | Acquired by Exxon |
 

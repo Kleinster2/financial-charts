@@ -98,7 +98,7 @@ ByteDance is a stealth AI hyperscaler — spending rivals US big tech:
 | [[Baidu]] | [[Ernie]], autonomous driving |
 | [[Tencent]] | [[Gaming]] AI, WeChat |
 
-ByteDance is #1 in China AI infrastructure.
+ByteDance is \#1 in China AI infrastructure.
 
 ---
 
@@ -171,7 +171,7 @@ Contributes to [[Memory shortage 2025-2026]].
 ### Products
 - [[Douyin]] — China short video (766M DAU, 65% of revenue)
 - [[TikTok]] — Global short video (1.67B MAU)
-- [[Doubao]] — AI chatbot (100M+ DAU, #1 China AI app)
+- [[Doubao]] — AI chatbot (100M+ DAU, \#1 China AI app)
 - CapCut — Video editing
 - Lark — Enterprise collaboration
 

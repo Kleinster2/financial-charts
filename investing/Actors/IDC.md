@@ -73,6 +73,6 @@ IDC data useful for:
 
 - [[Dell]] — PC market share data
 - [[HP Inc.]] — PC market share data
-- [[Lenovo]] — #1 PC maker (IDC rankings)
+- [[Lenovo]] — \#1 PC maker (IDC rankings)
 - [[Apple]] — smartphone/PC data
 - [[Xiaomi]] — smartphone share data

@@ -3,7 +3,7 @@ aliases: [Stewart, STC, Stewart Title]
 ---
 #actor #insurance #realestate #usa #public
 
-**Stewart Information Services** — #4 US title insurer. 160+ year history. Pure-play title and real estate services. **9.2% market share** — down from 10.6% in 2019, working to recover. Technology investments to improve efficiency.
+**Stewart Information Services** — \#4 US title insurer. 160+ year history. Pure-play title and real estate services. **9.2% market share** — down from 10.6% in 2019, working to recover. Technology investments to improve efficiency.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Stewart, STC, Stewart Title]
 | Ticker | STC (NYSE) |
 | Market cap | ~$1.8B |
 | TTM Revenue | $2.66B |
-| Title market share | **9.2%** (#4) |
+| Title market share | **9.2%** (\#4) |
 | History | 160+ years |
 | International | 6% of revenue |
 
@@ -81,12 +81,12 @@ aliases: [Stewart, STC, Stewart Title]
 
 | Company | Market Share | Notes |
 |---------|-------------|-------|
-| [[Fidelity National Financial]] | 27% | #1, tech leader |
-| [[First American Financial]] | 23% | #2, 135-year history |
-| [[Old Republic International]] | 14% | #3, diversified |
-| **Stewart** | **9.2%** | #4, recovering |
+| [[Fidelity National Financial]] | 27% | \#1, tech leader |
+| [[First American Financial]] | 23% | \#2, 135-year history |
+| [[Old Republic International]] | 14% | \#3, diversified |
+| **Stewart** | **9.2%** | \#4, recovering |
 
-**Gap to #3:** 5 percentage points behind Old Republic.
+**Gap to \#3:** 5 percentage points behind Old Republic.
 
 ---
 
@@ -115,7 +115,7 @@ aliases: [Stewart, STC, Stewart Title]
 ## Related
 
 - [[Title Insurance]] — sector
-- [[Fidelity National Financial]] — #1 title insurer
-- [[First American Financial]] — #2 title insurer
-- [[Old Republic International]] — #3 title insurer
+- [[Fidelity National Financial]] — \#1 title insurer
+- [[First American Financial]] — \#2 title insurer
+- [[Old Republic International]] — \#3 title insurer
 - [[Housing]] — transaction volume driver

@@ -15,7 +15,7 @@ Kazatomprom is the Saudi Arabia of uranium:
 |--------|-------|
 | Global market share | ~25% |
 | Production (2024) | ~22,000 tonnes U |
-| Ranking | #1 globally |
+| Ranking | \#1 globally |
 | Ticker | KAP (LSE, AIX) |
 
 ---

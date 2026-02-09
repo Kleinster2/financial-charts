@@ -24,11 +24,11 @@ aliases: [MA, Medicare Advantage plans, Part C]
 
 | Insurer | MA Enrollment | MA as % Revenue |
 |---------|---------------|-----------------|
-| [[UnitedHealth]] | #1 | ~30% |
-| [[Humana]] | #2 | **~85%** |
-| [[CVS Health]] (Aetna) | #3 | ~25% |
-| [[Cigna]] | #4 | ~15% |
-| [[Elevance Health]] | #5 | ~20% |
+| [[UnitedHealth]] | \#1 | ~30% |
+| [[Humana]] | \#2 | **~85%** |
+| [[CVS Health]] (Aetna) | \#3 | ~25% |
+| [[Cigna]] | \#4 | ~15% |
+| [[Elevance Health]] | \#5 | ~20% |
 
 **Concentration risk:** [[Humana]] is a pure-play — most exposed to rate changes.
 
@@ -153,8 +153,8 @@ For years, MA was considered defensive growth — aging demographics + consisten
 
 ## Related
 
-- [[UnitedHealth]] — #1 MA insurer, -20% Jan 27
-- [[Humana]] — #2 MA insurer, 85% exposure, -21% Jan 27
-- [[CVS Health]] — #3 via Aetna, -11% Jan 27
-- [[Cigna]] — #4 MA insurer
-- [[Elevance Health]] — #5 MA insurer (Anthem BCBS)
+- [[UnitedHealth]] — \#1 MA insurer, -20% Jan 27
+- [[Humana]] — \#2 MA insurer, 85% exposure, -21% Jan 27
+- [[CVS Health]] — \#3 via Aetna, -11% Jan 27
+- [[Cigna]] — \#4 MA insurer
+- [[Elevance Health]] — \#5 MA insurer (Anthem BCBS)

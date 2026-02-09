@@ -7,7 +7,7 @@ aliases:
 
 # Itaú BBA
 
-**[[Itaú Unibanco]]'s investment banking arm** — LatAm's largest corporate investment bank. 2024 LatinFinance "Investment Bank of the Year – Brazil" + Euromoney "Best Securities House in Brazil." #1 DCM in Brazil (8 of last 10 years). $17.2B DCM volume (2024), 238 deals, 19% market share.
+**[[Itaú Unibanco]]'s investment banking arm** — LatAm's largest corporate investment bank. 2024 LatinFinance "Investment Bank of the Year – Brazil" + Euromoney "Best Securities House in Brazil." \#1 DCM in Brazil (8 of last 10 years). $17.2B DCM volume (2024), 238 deals, 19% market share.
 
 ---
 
@@ -20,8 +20,8 @@ aliases:
 | Global IB Head | Roderick Greenlees (since 2015) |
 | CIB Head | Cristiano Guimarães |
 | DCM (2024) | $17.2B, 238 deals, 19% share |
-| DCM (2025) | $19.4B (#1 in Brazil) |
-| ANBIMA rank | #1 DCM (8 of last 10 years) |
+| DCM (2025) | $19.4B (\#1 in Brazil) |
+| ANBIMA rank | \#1 DCM (8 of last 10 years) |
 
 ---
 
@@ -41,8 +41,8 @@ aliases:
 
 | Year | Volume | Deals | Market share | Rank |
 |------|--------|-------|--------------|------|
-| 2024 | $17.2B | 238 | 19.09% | #1 |
-| 2025 | $19.4B | — | — | #1 |
+| 2024 | $17.2B | 238 | 19.09% | \#1 |
+| 2025 | $19.4B | — | — | \#1 |
 
 **Landmark deal:** R$25.6B ($4.6B) debentures for Águas do Rio — largest sanitation project financing in Brazil history.
 
@@ -102,7 +102,7 @@ Flávio Souza oversees Corporate & Investment Banking, Commercial Banking, Distr
 |------|-------|--------|
 | 2024 | Investment Bank of the Year – Brazil | LatinFinance |
 | 2024 | Best Securities House in Brazil | Euromoney |
-| Multiple | #1 ANBIMA DCM ranking | 8 of last 10 years |
+| Multiple | \#1 ANBIMA DCM ranking | 8 of last 10 years |
 
 ---
 
@@ -118,7 +118,7 @@ Flávio Souza oversees Corporate & Investment Banking, Commercial Banking, Distr
 
 **Why Itaú BBA matters:**
 
-1. **Brazil capital markets proxy** — When Brazil raises debt, Itaú BBA is usually on the ticket. 8 of 10 years #1 in DCM.
+1. **Brazil capital markets proxy** — When Brazil raises debt, Itaú BBA is usually on the ticket. 8 of 10 years \#1 in DCM.
 
 2. **Infrastructure exposure** — Sanitation, energy, airports. Every major Brazil infrastructure financing flows through Itaú BBA.
 
@@ -134,7 +134,7 @@ Flávio Souza oversees Corporate & Investment Banking, Commercial Banking, Distr
 - [[Itaú Unibanco]] — parent bank
 
 ### Competitors
-- [[Bradesco BBI]] — #1 competitor (2025 Euromoney winner)
+- [[Bradesco BBI]] — \#1 competitor (2025 Euromoney winner)
 - [[BTG Pactual]] — pure-play IB competitor
 - [[UBS BB]] — competitor (UBS + Banco do Brasil JV)
 - [[Santander Brasil]] — competitor

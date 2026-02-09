@@ -43,7 +43,7 @@ Growth moderating from double-digit to mid-single-digit as strong 2022-2023 comp
 
 | Brand | Revenue | Growth (2024) | Positioning |
 |-------|---------|---------------|-------------|
-| **Nivea** (+ Labello) | €5.6B | **+9.0%** | World's #1 skincare brand |
+| **Nivea** (+ Labello) | €5.6B | **+9.0%** | World's \#1 skincare brand |
 | **Eucerin** | €1.37B+ | +10.6% | Dermatological skincare |
 | **La Prairie** | €509M | -6.2% | Ultra-luxury skincare |
 | **Hansaplast** | ~€400M | — | Wound care |
@@ -73,7 +73,7 @@ Growth moderating from double-digit to mid-single-digit as strong 2022-2023 comp
 | La [[Roche]]-Posay (L'Oréal) | — | +16% | Key competitor |
 | CeraVe (L'Oréal) | — | +20%+ | Key competitor |
 
-Beiersdorf's Eucerin is #2 in dermatological beauty behind L'Oréal's CeraVe/La [[Roche]]-Posay. Category growing 16%+ driven by ingredient-savvy consumers.
+Beiersdorf's Eucerin is \#2 in dermatological beauty behind L'Oréal's CeraVe/La [[Roche]]-Posay. Category growing 16%+ driven by ingredient-savvy consumers.
 
 ---
 

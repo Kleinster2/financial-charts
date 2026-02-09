@@ -16,7 +16,7 @@ Schwab is the scale player in retail brokerage:
 | Client assets | $9T+ |
 | Brokerage accounts | 35M+ |
 | Bank deposits | $300B+ |
-| RIA custody | #1 platform |
+| RIA custody | \#1 platform |
 
 ---
 

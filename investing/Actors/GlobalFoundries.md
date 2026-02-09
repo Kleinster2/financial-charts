@@ -13,7 +13,7 @@ GF occupies a strategic niche between leading-edge and commodity:
 
 | Role | Details |
 |------|---------|
-| Position | #3 foundry (after TSMC, Samsung) |
+| Position | \#3 foundry (after TSMC, Samsung) |
 | Strategy | Mature nodes, specialty processes |
 | Ownership | Mubadala (Abu Dhabi) ~85% |
 | US presence | Malta NY fab — geopolitical value |
@@ -171,7 +171,7 @@ Mubadala provides patient capital — not forcing leading-edge race.
 | Ticker | GFS |
 | Market cap | ~$25B |
 | Revenue | ~$7B |
-| Position | #3 foundry |
+| Position | \#3 foundry |
 | Nodes | 12nm+ (mature) |
 | US fab | Malta, NY |
 | Owner | Mubadala (~85%) |
@@ -182,8 +182,8 @@ Mubadala provides patient capital — not forcing leading-edge race.
 
 ## Related
 
-- [[TSMC]] — competitor (#1 foundry)
-- [[Samsung]] — competitor (#2 foundry)
+- [[TSMC]] — competitor (\#1 foundry)
+- [[Samsung]] — competitor (\#2 foundry)
 - [[Intel Foundry Services]] — competitor (US foundry)
 - [[UMC]] — competitor (mature nodes)
 - [[SMIC]] — competitor ([[China]])

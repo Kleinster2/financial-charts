@@ -120,6 +120,6 @@ Agnico = quality, Newmont = scale.
 ## Related
 
 - [[Gold]] — primary commodity exposure
-- [[Newmont]] — peer (#1 gold miner)
+- [[Newmont]] — peer (\#1 gold miner)
 - [[Barrick Gold]] — peer
 - [[Silver]] — precious metals complex

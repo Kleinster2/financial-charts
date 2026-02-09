@@ -3,7 +3,7 @@ aliases: [BNPP, BNP]
 ---
 #actor #bank #france #projectfinance
 
-**BNP Paribas** — Europe's #2 bank, #8 globally. #1 worldwide for sustainable bonds and loans ($69.2B in 2024). Active in LatAm infrastructure and energy transition financing.
+**BNP Paribas** — Europe's \#2 bank, \#8 globally. \#1 worldwide for sustainable bonds and loans ($69.2B in 2024). Active in LatAm infrastructure and energy transition financing.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [BNPP, BNP]
 | Metric | Value |
 |--------|-------|
 | Total assets | $2.87T (2024) |
-| Global rank | #8 worldwide, #2 Europe, #1 France |
+| Global rank | \#8 worldwide, \#2 Europe, \#1 France |
 | HQ | Paris, France |
 | Employees | 178,000+ |
 | Countries | 64 |
@@ -30,7 +30,7 @@ aliases: [BNPP, BNP]
 
 ## Sustainable finance leadership
 
-#1 worldwide for sustainable bonds and loans (Dealogic 2024):
+\#1 worldwide for sustainable bonds and loans (Dealogic 2024):
 - $69.2B in sustainable finance volume
 - GTS 2025 plan: Low Carbon Transition covering minerals, power, renewables, hydrogen
 

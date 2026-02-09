@@ -54,16 +54,16 @@ Brokers sit between insurers and corporates — they don't take risk, they inter
 
 | Broker | 2024 revenue | Market cap | Specialty |
 |--------|-------------|-----------|-----------|
-| **Marsh McLennan** | $24.5B | ~$90B | #1 overall, reinsurance |
-| [[Aon]] | $15.7B | ~$75B | #2, reinsurance analytics |
-| Willis Towers Watson | ~$9B | ~$30B | #3, HR/benefits |
-| Arthur J. Gallagher | ~$11B | ~$70B | #4, middle market |
+| **Marsh McLennan** | $24.5B | ~$90B | \#1 overall, reinsurance |
+| [[Aon]] | $15.7B | ~$75B | \#2, reinsurance analytics |
+| Willis Towers Watson | ~$9B | ~$30B | \#3, HR/benefits |
+| Arthur J. Gallagher | ~$11B | ~$70B | \#4, middle market |
 
 ---
 
 ## Related
 
-- [[Aon]] — #2 broker, direct competitor
+- [[Aon]] — \#2 broker, direct competitor
 - [[Munich Re]] — reinsurance client (Guy Carpenter places business)
 - [[Swiss Re]] — reinsurance client
 - [[Reinsurance sidecars]] — Guy Carpenter advises on sidecar structures

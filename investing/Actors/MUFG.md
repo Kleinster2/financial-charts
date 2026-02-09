@@ -17,7 +17,7 @@ aliases: [Mitsubishi UFJ Financial Group, MUFG Bank, Bank of Tokyo-Mitsubishi UF
 | CEO | Hironori Kamezawa |
 | Total assets | ¥400T+ (~$2.7T) |
 | Employees | ~120,000 |
-| Global rank | #5 by assets |
+| Global rank | \#5 by assets |
 
 *Updated 2026-01-29*
 

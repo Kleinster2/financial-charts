@@ -94,7 +94,7 @@ Dedicated financing for climate transition:
 
 **Headwinds:**
 - Q1 2025 issuance down 18.6% (geopolitics)
-- DZ Bank forecasts flat 2025 (~$975B)
+- [[DZ Bank]] forecasts flat 2025 (~$975B)
 
 **Tailwinds:**
 - Transition bond growth (ASEAN decarbonization)

@@ -23,7 +23,7 @@ aliases: [Meridian Capital, Meridian]
 
 ## Insights
 
-**#1 by transaction count** — Meridian built dominance by serving small/mid-size building owners who needed financing. Volume-driven model with hundreds of brokers nationwide.
+**\#1 by transaction count** — Meridian built dominance by serving small/mid-size building owners who needed financing. Volume-driven model with hundreds of brokers nationwide.
 
 **Freddie Mac scandal (2023)** — Brokers allegedly falsified client financials to obtain larger loans. Freddie Mac barred Meridian from placing deals through seller-servicers. Existential threat to agency lending business.
 
@@ -83,8 +83,8 @@ aliases: [Meridian Capital, Meridian]
 
 | Broker | Positioning |
 |--------|-------------|
-| **Meridian** | #1 by transaction count, small/mid-market focus |
-| [[CBRE]] | #1 by volume, institutional focus |
+| **Meridian** | \#1 by transaction count, small/mid-market focus |
+| [[CBRE]] | \#1 by volume, institutional focus |
 | [[JLL]] | Global, institutional |
 | [[Newmark]] | Full-service CRE |
 | [[Walker & Dunlop]] | Multifamily specialist |

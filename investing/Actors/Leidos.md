@@ -78,7 +78,7 @@ Kudu Dynamics acquisition (May 2025) — offensive cyber and electromagnetic spe
 
 | Factor | Leidos strength |
 |--------|-----------------|
-| Scale | **#1 by revenue** |
+| Scale | **\#1 by revenue** |
 | Diversification | Defense + civil + health |
 | Sentinel role | Critical ICBM program |
 | M&A track record | Proven integrator |

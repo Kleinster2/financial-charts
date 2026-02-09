@@ -48,8 +48,8 @@ If Cuba opens to US business (via regime change, negotiated opening, or sanction
 | Company | Angle | Status |
 |---------|-------|--------|
 | [[Carnival]] | Largest cruise operator | Had Cuba cruises (suspended) |
-| [[Royal Caribbean]] | #2 cruise operator | Cuba-ready ships |
-| Norwegian | #3 cruise operator | Caribbean focus |
+| [[Royal Caribbean]] | \#2 cruise operator | Cuba-ready ships |
+| Norwegian | \#3 cruise operator | Caribbean focus |
 
 **Why cruises:** 90 miles from Florida ports. Day trips possible. No hotel needed.
 

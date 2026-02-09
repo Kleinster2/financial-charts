@@ -41,7 +41,7 @@ Son of Indian Administrative Service officer. Wanted to be professional crickete
 - [[Activision Blizzard]] — $69B (2023)
 
 **Strategic:**
-- Azure cloud pivot — now #2 behind [[AWS]]
+- Azure cloud pivot — now \#2 behind [[AWS]]
 - [[OpenAI]] partnership — $13B+ invested, 27% equity stake
 - "Mobile-first, cloud-first" → "AI-first" transformation
 - In "founder mode" as of Jan 2026 — weekly cross-team AI meetings

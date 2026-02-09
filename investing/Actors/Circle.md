@@ -30,7 +30,7 @@ Circle issues the second-largest stablecoin:
 |--------|------|------|
 | Issuer | Circle | Tether |
 | Transparency | High (audited) | Lower |
-| Size | #2 (~$30B) | #1 (~$120B) |
+| Size | \#2 (~$30B) | \#1 (~$120B) |
 | Trust | Higher | Questions |
 
 ---

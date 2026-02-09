@@ -3,7 +3,7 @@ aliases: [TRV, Travelers Companies, The Travelers Companies]
 ---
 #actor #finance #insurance #propertyandcasualty #usa #public
 
-**Travelers** — Major US P&C insurer. ~$61B market cap. $48B+ TTM revenue. DJIA component. Specialty: mid-market commercial insurance + surety (#1 North American writer). Delivered record $8.96 EPS in Q4 2025 (beat by 35%). Combined ratio 83.2%. Selling Canadian business for $2.4B.
+**Travelers** — Major US P&C insurer. ~$61B market cap. $48B+ TTM revenue. DJIA component. Specialty: mid-market commercial insurance + surety (\#1 North American writer). Delivered record $8.96 EPS in Q4 2025 (beat by 35%). Combined ratio 83.2%. Selling Canadian business for $2.4B.
 
 ---
 
@@ -28,7 +28,7 @@ aliases: [TRV, Travelers Companies, The Travelers Companies]
 | Segment | Focus |
 |---------|-------|
 | **Business [[Insurance]]** | Commercial P&C for mid-size companies (core) |
-| **Bond & Specialty** | Surety (#1 North America), professional liability, management liability |
+| **Bond & Specialty** | Surety (\#1 North America), professional liability, management liability |
 | **Personal [[Insurance]]** | Auto, homeowners (smaller, more volatile) |
 
 ---

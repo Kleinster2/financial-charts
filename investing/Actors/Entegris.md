@@ -3,7 +3,7 @@ aliases: [ENTG]
 ---
 #actor #semiconductor #materials #usa #public
 
-**Entegris** — US semiconductor materials and contamination control leader. Acquired CMC Materials (2022) to become #2 in CMP slurries. Critical supplier for advanced node manufacturing.
+**Entegris** — US semiconductor materials and contamination control leader. Acquired CMC Materials (2022) to become \#2 in CMP slurries. Critical supplier for advanced node manufacturing.
 
 ---
 
@@ -16,7 +16,7 @@ Controls contamination = controls yield. Entegris provides the materials and equ
 | Ticker | ENTG (NASDAQ) |
 | Market cap | ~$18B |
 | 2024 revenue | ~$3.5B |
-| CMP slurry share | ~25% (#2 globally) |
+| CMP slurry share | ~25% (\#2 globally) |
 | Pad share | Smaller ([[DuPont]]/Qnity dominates) |
 
 ---
@@ -38,7 +38,7 @@ Controls contamination = controls yield. Entegris provides the materials and equ
 | Price | $6.5B |
 | CMC revenue | ~$1.2B |
 | Strategic rationale | CMP slurry leadership |
-| Result | #2 in slurries behind [[Fujifilm]] |
+| Result | \#2 in slurries behind [[Fujifilm]] |
 
 CMC Materials (formerly Cabot Microelectronics) was the original CMP slurry pioneer.
 
@@ -48,8 +48,8 @@ CMC Materials (formerly Cabot Microelectronics) was the original CMP slurry pion
 
 | Company | Slurry share | Notes |
 |---------|--------------|-------|
-| **[[Fujifilm]]** | ~31% | #1, strong in Cu slurry |
-| **Entegris** | ~25% | #2, CMC acquisition |
+| **[[Fujifilm]]** | ~31% | \#1, strong in Cu slurry |
+| **Entegris** | ~25% | \#2, CMC acquisition |
 | Fujimi | ~15% | [[Japan]] |
 | Others | ~29% | Fragmented |
 

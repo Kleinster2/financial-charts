@@ -89,7 +89,7 @@ aliases: [SPOT]
 | Metric | Value |
 |--------|-------|
 | Markets | 180+ countries |
-| #1 position | Global music streaming |
+| \#1 position | Global music streaming |
 | Competition | Apple Music, [[Amazon]], YouTube |
 
 ---

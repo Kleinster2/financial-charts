@@ -17,7 +17,7 @@ aliases: [EXPE, Expedia Group]
 | Revenue | ~$13B |
 | HQ | Seattle |
 
-#2 global OTA after Booking.
+\#2 global OTA after Booking.
 
 ---
 

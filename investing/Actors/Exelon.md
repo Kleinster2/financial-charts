@@ -14,7 +14,7 @@ aliases: [EXC]
 | Ticker | EXC (NYSE) |
 | Market cap | ~$40B |
 | Customers | 10+ million |
-| Position | #1 by customer count |
+| Position | \#1 by customer count |
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [TXN, TI]
 ---
 #actor #semiconductor #analog #usa #public
 
-**Texas Instruments** — #1 analog semiconductor company. Owns fabs (300mm advantage). Automotive, industrial, and data center focus. Q4 2025 slight miss; data center grew 70%.
+**Texas Instruments** — \#1 analog semiconductor company. Owns fabs (300mm advantage). Automotive, industrial, and data center focus. Q4 2025 slight miss; data center grew 70%.
 
 | Metric | Value |
 |--------|-------|
@@ -23,7 +23,7 @@ aliases: [TXN, TI]
 | Price | ~$197 |
 | P/E | 35.9x |
 | Dividend yield | 2.8% |
-| Position | #1 analog semis globally |
+| Position | \#1 analog semis globally |
 | Model | IDM (integrated) |
 | Employees | ~34,000 |
 
@@ -135,7 +135,7 @@ Tax rate expected 13-14% for 2026.
 
 | Competitor | Focus | TI advantage |
 |------------|-------|--------------|
-| [[Analog Devices]] | #2 analog | Scale, 300mm fabs |
+| [[Analog Devices]] | \#2 analog | Scale, 300mm fabs |
 | [[Infineon]] | Power/auto | Broader analog portfolio |
 | [[NXP]] | Auto MCUs | Analog breadth |
 | [[onsemi]] | Power/SiC | Legacy analog, cost |
@@ -193,7 +193,7 @@ TI is the **only major analog company with leading-edge 300mm fabs** — competi
 ## Related
 
 ### Competitors
-- [[Analog Devices]] — #2 analog
+- [[Analog Devices]] — \#2 analog
 - [[NXP]] — auto semiconductors
 - [[Infineon]] — power/auto
 - [[onsemi]] — power semiconductors

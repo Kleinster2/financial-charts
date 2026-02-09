@@ -79,7 +79,7 @@ See [[China-Japan relations]] for full analysis.
 - Soybeans = biggest US agricultural export ($24.5B)
 - [[China]] = top destination (>50% of US soy exports)
 - US farmers = key Republican voting bloc
-- [[Brazil]] can substitute (world's #1 grower)
+- [[Brazil]] can substitute (world's \#1 grower)
 
 **Impact on US:**
 - Farmers stuck with overflowing silos

@@ -113,8 +113,8 @@ CEO O'Sullivan: "This is the kind of environment where the off-price model is at
 ## Related
 
 - [[Fashion]] — sector hub
-- [[TJX]] — #1 competitor
-- [[Ross Stores]] — #2 competitor
+- [[TJX]] — \#1 competitor
+- [[Ross Stores]] — \#2 competitor
 - [[Retail apocalypse]] — structural tailwind
 
 *Created 2026-01-24*

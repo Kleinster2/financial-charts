@@ -51,9 +51,9 @@ AI accelerators ([[NVIDIA]] GPUs, Google TPUs, custom ASICs) require massive HBM
 
 | Player | Position | Market cap |
 |--------|----------|------------|
-| [[SK Hynix]] | **#1 HBM** — 50%+ share, pricing power | ~$100B+ |
-| [[Samsung]] | **#2 HBM** — catching up, multi-year hyperscaler deals | ~$300B |
-| [[Micron]] | **#3 HBM** — ramping, exited consumer | **$461.7B** |
+| [[SK Hynix]] | **\#1 HBM** — 50%+ share, pricing power | ~$100B+ |
+| [[Samsung]] | **\#2 HBM** — catching up, multi-year hyperscaler deals | ~$300B |
+| [[Micron]] | **\#3 HBM** — ramping, exited consumer | **$461.7B** |
 
 All three have locked multi-year HBM supply deals with AI hyperscalers ([[NVIDIA]], Google, [[Microsoft]], etc.), guaranteeing volume at favorable pricing.
 
@@ -104,9 +104,9 @@ The memory industry has never seen demand this concentrated in high-capacity pro
 - [[Advanced packaging]] — HBM packaging bottleneck
 
 ### Actors
-- [[SK Hynix]] — #1 HBM, 50%+ share
-- [[Samsung]] — #2 HBM, multi-year supply deals
-- [[Micron]] — #3 HBM, exited consumer
+- [[SK Hynix]] — \#1 HBM, 50%+ share
+- [[Samsung]] — \#2 HBM, multi-year supply deals
+- [[Micron]] — \#3 HBM, exited consumer
 
 ### Sectors
 - [[Memory]] — parent sector

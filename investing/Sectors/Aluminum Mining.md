@@ -23,8 +23,8 @@ aliases: [Aluminum Industry, Aluminium Industry, Aluminum Producers]
 
 | Company | Production | Notes |
 |---------|------------|-------|
-| **[[Chinalco]]** (Chalco) | ~7.1M tonnes | World's #1; state-owned; acquiring [[Companhia Brasileira de Aluminio\|CBA]] |
-| **China Hongqiao** | ~6M tonnes | World's #2; Shandong-based; largest private |
+| **[[Chinalco]]** (Chalco) | ~7.1M tonnes | World's \#1; state-owned; acquiring [[Companhia Brasileira de Aluminio\|CBA]] |
+| **China Hongqiao** | ~6M tonnes | World's \#2; Shandong-based; largest private |
 | **Shandong Xinfa** | ~3M tonnes | Major regional player |
 
 Combined Chinese majors: >13M tonnes (nearly 20% of global).
@@ -33,7 +33,7 @@ Combined Chinese majors: >13M tonnes (nearly 20% of global).
 
 | Company | Production | Notes |
 |---------|------------|-------|
-| **Rusal** | ~3.7M tonnes | #1 outside China; Moscow HQ; sanctions exposure |
+| **Rusal** | ~3.7M tonnes | \#1 outside China; Moscow HQ; sanctions exposure |
 
 ### Western majors
 
@@ -47,10 +47,10 @@ Combined Chinese majors: >13M tonnes (nearly 20% of global).
 
 | Company | Ticker | Production | Notes |
 |---------|--------|------------|-------|
-| **[[Hindalco]]** | HINDALCO.NS | ~1.3M tonnes | India #1; Aditya Birla Group; world's largest aluminum roller |
+| **[[Hindalco]]** | HINDALCO.NS | ~1.3M tonnes | India \#1; Aditya Birla Group; world's largest aluminum roller |
 | **[[Emirates Global Aluminium]]** | Private | ~2.4M tonnes | UAE (Mubadala/Dubai); world's largest single-site smelter |
-| **[[Companhia Brasileira de Aluminio\|CBA]]** | CBAV3.SA | ~480K tonnes | Brazil #1; low-carbon; Chinalco acquisition target |
-| **Vedanta Aluminium** | VEDL.NS | ~2.3M tonnes | India #2; Odisha operations |
+| **[[Companhia Brasileira de Aluminio\|CBA]]** | CBAV3.SA | ~480K tonnes | Brazil \#1; low-carbon; Chinalco acquisition target |
+| **Vedanta Aluminium** | VEDL.NS | ~2.3M tonnes | India \#2; Odisha operations |
 
 ---
 
@@ -72,7 +72,7 @@ Combined Chinese majors: >13M tonnes (nearly 20% of global).
 | Country | Share | Notes |
 |---------|-------|-------|
 | **Guinea** | ~30% | 80% of China's imports |
-| **Australia** | ~25% | #1 producer by volume |
+| **Australia** | ~25% | \#1 producer by volume |
 | China | ~15% | Domestic consumption |
 | Indonesia | ~10% | Export ban lifted |
 | Brazil | ~8% | [[Mineracao Rio do Norte]] |
@@ -178,11 +178,11 @@ Aluminum smelting is carbon-intensive (coal power in China). **Green aluminum** 
 
 - [[Aluminum]] — the commodity (prices, forecasts, demand)
 - [[Chinalco]] — world's largest producer
-- [[Companhia Brasileira de Aluminio|CBA]] — Brazil #1, acquisition target
+- [[Companhia Brasileira de Aluminio|CBA]] — Brazil \#1, acquisition target
 - [[Emirates Global Aluminium]] — UAE producer
 - [[Alcoa]] — US pure-play
 - [[Rio Tinto]] — diversified major
-- [[Hindalco]] — India #1
+- [[Hindalco]] — India \#1
 - [[Mubadala]] — EGA co-owner
 - [[Votorantim]] — CBA seller
 - [[China]] — dominant producer/consumer

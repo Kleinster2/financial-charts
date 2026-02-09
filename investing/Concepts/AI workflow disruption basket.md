@@ -195,6 +195,25 @@ Fundamental disconnect: S&P 500 software/services earnings projected +19% for 20
 
 ---
 
+## Rotation beneficiary: energy
+
+The mirror image of the SaaSpocalypse is capital rotating into old-economy, asset-heavy sectors. US energy (XLE) is the clearest expression.
+
+![[xle-vs-igv-price-chart.png]]
+*XLE (energy) vs IGV (software), last 90 days. ~43pp divergence — steady drift from November, then violent acceleration in February as SaaSpocalypse capital rotates into picks-and-shovels names.*
+
+| Metric | XLE | IGV |
+|--------|-----|-----|
+| YTD 2026 | +17% | -20% |
+| 12-month | +24% | -20% |
+| Divergence | ~44pp since Jan 2025 | |
+
+US oil majors ([[Exxon]], [[Chevron]], [[ConocoPhillips]]) up 25% combined market cap over 12 months. Trading at >75% forward EV/EBITDA premium to European peers ([[Shell]], [[BP]], [[TotalEnergies]]). The market is repricing longevity — [[IEA]] now sees [[Oil|oil demand]] growing until 2050.
+
+*Source: Financial Times, Feb 5 2026*
+
+---
+
 ## Tracking thesis
 
 This basket should:

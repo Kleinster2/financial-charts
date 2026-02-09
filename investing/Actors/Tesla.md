@@ -3,7 +3,7 @@ aliases: [TSLA]
 ---
 #actor #auto #ai #usa
 
-Tesla — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer. #2 to BYD in global EV sales (2025).
+Tesla — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer. \#2 to BYD in global EV sales (2025).
 
 ---
 
@@ -240,7 +240,7 @@ Mitigation attempts:
 
 | Challenge | Impact |
 |-----------|--------|
-| BYD overtook Tesla (2025) | #2 globally now |
+| BYD overtook Tesla (2025) | \#2 globally now |
 | US market contracting | -29% forecast (1.1M units) |
 | Trump ended tax incentives | $7,500 credit gone |
 | [[China]] competition | BYD, [[Xiaomi]], others pricing down |
@@ -414,7 +414,7 @@ See [[Short interest]] for interpretation framework.
 - [[xAI]] — now SpaceX subsidiary (Tesla holds preferred stock)
 - [[DOGE]] — Musk political role
 - [[Tesla Optimus]] — humanoid robot (key narrative)
-- [[BYD]] — competitor (#1 globally)
+- [[BYD]] — competitor (\#1 globally)
 - [[Xiaomi]] — [[China]] competitor (profitable faster)
 - [[NIO]] — [[China]] competitor (premium, battery swap)
 - [[Rivian]] — US competitor (R2 launch 2026)

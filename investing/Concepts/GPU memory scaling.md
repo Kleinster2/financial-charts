@@ -57,9 +57,9 @@ New reality: AI GPUs create **structural demand growth** that overrides the cycl
 
 | Beneficiary | Why |
 |-------------|-----|
-| [[SK Hynix]] | #1 HBM supplier, NVIDIA's primary partner |
-| [[Samsung]] | #2 HBM, catching up |
-| [[Micron]] | #3 HBM, ramping |
+| [[SK Hynix]] | \#1 HBM supplier, NVIDIA's primary partner |
+| [[Samsung]] | \#2 HBM, catching up |
+| [[Micron]] | \#3 HBM, ramping |
 | [[TSMC]] | CoWoS packaging for HBM integration |
 | [[Hanmi Semiconductor]] | HBM bonding equipment |
 
@@ -107,8 +107,8 @@ The 2023 memory downturn was real. The 2025-26 HBM boom is structural. GPU memor
 - [[HBM]] — the product enabling this scaling
 - [[Memory shortage 2025-2026]] — current manifestation
 - [[SK Hynix]] — primary beneficiary
-- [[Samsung]] — #2 HBM supplier
-- [[Micron]] — #3 HBM supplier
+- [[Samsung]] — \#2 HBM supplier
+- [[Micron]] — \#3 HBM supplier
 - [[NVIDIA]] — demand driver
 - [[Long memory]] — investment thesis
 - [[Advanced packaging]] — required for HBM integration

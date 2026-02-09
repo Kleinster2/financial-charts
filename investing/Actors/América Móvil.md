@@ -22,7 +22,7 @@ aliases: [AMX, America Movil]
 
 | Region | Brands |
 |--------|--------|
-| **[[Mexico]]** | Telcel (#1 mobile) |
+| **[[Mexico]]** | Telcel (\#1 mobile) |
 | **[[Brazil]]** | Claro |
 | **Colombia** | Claro |
 | **[[Chile]]** | Claro |

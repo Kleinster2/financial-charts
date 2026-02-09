@@ -78,7 +78,7 @@ Consistent comps, expanding margins, steady EPS growth.
 | Margin | ~12% pretax | ~12% | ~8% |
 | International | Yes ([[Europe]], [[Australia]]) | No | No |
 
-TJX is 2.5x larger than #2 (Ross). Scale = buying power advantage.
+TJX is 2.5x larger than \#2 (Ross). Scale = buying power advantage.
 
 ---
 
@@ -109,7 +109,7 @@ TJX is 2.5x larger than #2 (Ross). Scale = buying power advantage.
 - [[Department store decline]] — TJX benefits from liquidation
 - [[Macy's]] — losing share to TJX
 - [[Nordstrom]] — lost share to Nordstrom Rack (TJX competitor model)
-- [[Ross Stores]] — #2 off-price competitor
-- [[Burlington]] — #3 off-price competitor
+- [[Ross Stores]] — \#2 off-price competitor
+- [[Burlington]] — \#3 off-price competitor
 
 *Created 2026-01-24*

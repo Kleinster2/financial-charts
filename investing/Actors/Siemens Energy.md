@@ -3,7 +3,7 @@ aliases: [ENR]
 ---
 #actor #power #turbines #germany
 
-**[[Siemens]] Energy** — #2 gas turbine manufacturer. German industrial, wind + gas portfolio.
+**[[Siemens]] Energy** — \#2 gas turbine manufacturer. German industrial, wind + gas portfolio.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [ENR]
 
 | Metric | Value |
 |--------|-------|
-| Market position | #2 gas turbine manufacturer |
+| Market position | \#2 gas turbine manufacturer |
 | Market share | ~25% (GE, [[Siemens]], Mitsubishi = 70%+) |
 | HQ | Munich, [[Germany]] |
 | Portfolio | Gas turbines + wind |
@@ -87,7 +87,7 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). [[Siemens]] provid
 | [[GE Vernova]] | Scale, US presence | European market |
 | Mitsubishi | [[Asia]] presence | Full portfolio |
 
-[[Siemens]] is #2 but benefits from same supply constraints.
+[[Siemens]] is \#2 but benefits from same supply constraints.
 
 ---
 
@@ -126,7 +126,7 @@ Part of Meta's hybrid fleet (4 turbine types, ~307 MW gross). [[Siemens]] provid
 
 - [[Power constraints]] — thesis context (gas turbine demand)
 - [[BYOP]] — on-site generation pattern
-- [[GE Vernova]] — competitor (#1 turbine maker)
+- [[GE Vernova]] — competitor (\#1 turbine maker)
 - [[Ansaldo Energia]] — competitor ([[OpenAI]] deal)
 - [[Solar Turbines]] — co-supplier (Meta Socrates South)
 - [[Meta]] — customer (Socrates South)

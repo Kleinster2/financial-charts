@@ -33,11 +33,11 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Producer | Production | Notes |
 |----------|------------|-------|
-| US | ~13M bpd | Shale revolution, #1 producer |
+| US | ~13M bpd | Shale revolution, \#1 producer |
 | Saudi Arabia | ~10M bpd | [[OPEC]] leader, swing producer |
 | [[Russia]] | ~10M bpd | Sanctioned, discounted sales |
 | [[Canada]] | ~5M bpd | Oil sands, heavy crude |
-| Iraq | ~4.5M bpd | [[OPEC]] #2 |
+| Iraq | ~4.5M bpd | [[OPEC]] \#2 |
 | [[China]] | ~4M bpd | Declining, major importer |
 | UAE | ~3.5M bpd | [[OPEC]] |
 | [[Venezuela]] | ~1M bpd | Collapsed, 303B reserves |

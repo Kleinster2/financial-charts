@@ -82,7 +82,7 @@ aliases: [NTRA]
 
 | Feature | Detail |
 |---------|--------|
-| Market position | #1 NIPT provider |
+| Market position | \#1 NIPT provider |
 | Technology | SNP-based (proprietary) |
 | Applications | Chromosomal abnormalities, twins |
 | New: Fetal Focus | Single-gene testing (maternal only) |

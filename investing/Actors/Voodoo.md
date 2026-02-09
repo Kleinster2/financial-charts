@@ -3,7 +3,7 @@ aliases: [Voodoo.io]
 ---
 #actor #gaming #consumer #private #france
 
-**Voodoo** — French mobile game publisher. #3 worldwide by downloads (after [[Google]], [[Meta]]). Hyper-casual games pioneer. Acquired [[BeReal]] (2024).
+**Voodoo** — French mobile game publisher. \#3 worldwide by downloads (after [[Google]], [[Meta]]). Hyper-casual games pioneer. Acquired [[BeReal]] (2024).
 
 ---
 

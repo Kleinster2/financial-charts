@@ -16,7 +16,7 @@ Baidu was [[China]]'s AI first mover and leads in autonomous driving:
 | Core business | Search (~70% [[China]] share) |
 | AI model | Ernie (文心一言) — early mover |
 | Autonomous | [[Apollo]] — [[China]] leader |
-| Cloud | #4 [[China]] |
+| Cloud | \#4 [[China]] |
 
 ---
 
@@ -54,7 +54,7 @@ Baidu was [[China]]'s AI first mover and leads in autonomous driving:
 
 ## Baidu Cloud
 
-**#4 in [[China]] cloud:**
+**\#4 in [[China]] cloud:**
 - Behind Alibaba, Tencent, [[Huawei]]
 - AI cloud focus
 - Enterprise customers
@@ -92,7 +92,7 @@ See [[Kunlunxin]] for full details.
 | Challenge | Details |
 |-----------|---------|
 | Search competition | ByteDance, Xiaohongshu eroding |
-| Cloud position | #4, hard to catch up |
+| Cloud position | \#4, hard to catch up |
 | AV monetization | Unclear path to profit |
 | AI differentiation | Competitors have caught up |
 
@@ -122,7 +122,7 @@ See [[Kunlunxin]] for full details.
 
 **Bear:**
 - Search declining
-- Cloud #4 (hard to catch leaders)
+- Cloud \#4 (hard to catch leaders)
 - AV profitability unclear
 - AI lead eroding
 - Geopolitical risk

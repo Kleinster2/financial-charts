@@ -3,7 +3,7 @@ aliases: [TIM Brazil, TIM]
 ---
 #actor #telecom #brazil #publiccompany
 
-**TIM Brasil** — Brazil's #2 mobile carrier. [[Telecom Italia]] subsidiary. 72.6M customers. 5G pioneer. Acquired [[Oi]] mobile assets (2022).
+**TIM Brasil** — Brazil's \#2 mobile carrier. [[Telecom Italia]] subsidiary. 72.6M customers. 5G pioneer. Acquired [[Oi]] mobile assets (2022).
 
 ---
 

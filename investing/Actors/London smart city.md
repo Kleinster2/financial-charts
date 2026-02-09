@@ -3,7 +3,7 @@ aliases: [Smart London]
 ---
 #actor #geography #smartcity #europe
 
-**London smart city** — #6 global smart city index. Pioneer of congestion charging (2003), contactless transit (Oyster), and ULEZ. TfL planning £1.5B network overhaul. Waymo autonomous trials 2026.
+**London smart city** — \#6 global smart city index. Pioneer of congestion charging (2003), contactless transit (Oyster), and ULEZ. TfL planning £1.5B network overhaul. Waymo autonomous trials 2026.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Smart London]
 
 | Metric | Value |
 |--------|-------|
-| Global rank | #6 (Smart City Index 2023) |
+| Global rank | \#6 (Smart City Index 2023) |
 | Population | 9M+ |
 | Lead agency | Chief Digital Officer for London |
 | Key operator | [[Transport]] for London (TfL) |

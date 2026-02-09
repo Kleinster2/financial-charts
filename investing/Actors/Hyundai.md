@@ -14,7 +14,7 @@ aliases: [Hyundai Motor Group, HMG, HYMTF]
 | Market cap | ~$45B |
 | Ticker | 005380 (KRX), HYMTF (OTC) |
 | Auto brands | Hyundai, Kia, Genesis |
-| Global rank | #4 by sales volume |
+| Global rank | \#4 by sales volume |
 | [[Robotics]] | Boston Dynamics (80%), Motional (AV JV) |
 
 ---

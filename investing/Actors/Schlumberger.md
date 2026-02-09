@@ -78,7 +78,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 | Aspect | Schlumberger | [[Halliburton]] | [[Baker Hughes]] |
 |--------|--------------|-----------------|------------------|
-| Size | #1 | #2 | #3 |
+| Size | \#1 | \#2 | \#3 |
 | Focus | International | N. America | Diversified |
 | Tech | Broadest | Fracking | [[LNG]]/digital |
 | Margin | Highest | Mid | Lower |
@@ -87,8 +87,8 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Halliburton]] — peer (#2)
-- [[Baker Hughes]] — peer (#3)
+- [[Halliburton]] — peer (\#2)
+- [[Baker Hughes]] — peer (\#3)
 - [[Venezuela]] — rebuild opportunity
 - [[Chevron]], [[Exxon]] — customers
 

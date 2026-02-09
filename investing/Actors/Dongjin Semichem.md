@@ -17,7 +17,7 @@ Korea's domestic photoresist champion, reducing reliance on [[Japan]]:
 | Market cap | ~$1.2B |
 | Revenue (TTM) | ~$1B |
 | Photoresist exports (2022-24) | $186M |
-| Position | #1 Korea, top 7 global |
+| Position | \#1 Korea, top 7 global |
 
 ---
 

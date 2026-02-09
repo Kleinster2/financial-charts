@@ -13,7 +13,7 @@ aliases: [Aramco, 2222.SR]
 |--------|-------|
 | Ticker | 2222 (Tadawul) |
 | Market cap | ~$1.8T |
-| Position | #1 oil company globally |
+| Position | \#1 oil company globally |
 | Owner | Saudi government (~98%) |
 
 ---

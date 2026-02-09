@@ -38,11 +38,11 @@ World's most active sovereign wealth fund in 2024 (Global SWF). More than half o
 ## Industry evolution
 
 ![[abu-dhabi-industry-ranking.png]]
-*Abu Dhabi funds' industry focus over time: AI/data centers (bold) rocketed from bottom to #2 by 2025. (Bloomberg, Dec 2025)*
+*Abu Dhabi funds' industry focus over time: AI/data centers (bold) rocketed from bottom to \#2 by 2025. (Bloomberg, Dec 2025)*
 
 Mubadala has shifted focus:
 - **2020:** Asset managers/finance dominated
-- **2025:** AI, data centers, chips now #2 — overtaking traditional finance
+- **2025:** AI, data centers, chips now \#2 — overtaking traditional finance
 
 ---
 

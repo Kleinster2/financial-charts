@@ -104,10 +104,10 @@ aliases: [Itaú, Itau, ITUB, Banco Itaú]
 ## Related
 
 ### Subsidiaries
-- [[Itaú BBA]] — investment banking arm (#1 DCM in Brazil)
+- [[Itaú BBA]] — investment banking arm (\#1 DCM in Brazil)
 
 ### Peers
-- [[Bradesco]] — #2 Brazil bank
+- [[Bradesco]] — \#2 Brazil bank
 - [[BTG Pactual]] — investment bank
 
 ### Competitors

@@ -3,7 +3,7 @@ aliases: [LEN]
 ---
 #actor #housing #homebuilder #usa #public
 
-**Lennar** — #2 US homebuilder. Miami-based. Diversified price points.
+**Lennar** — \#2 US homebuilder. Miami-based. Diversified price points.
 
 ---
 
@@ -88,7 +88,7 @@ Stock dipped on Trump's institutional homebuying ban announcement:
 ## Investment case
 
 **Bull:**
-- Scale advantages (#2)
+- Scale advantages (\#2)
 - Diversified price points
 - Financial services integration
 - [[Housing shortage]] tailwind
@@ -119,7 +119,7 @@ Stock dipped on Trump's institutional homebuying ban announcement:
 ## Related
 
 - [[Housing]] — sector hub
-- [[DR Horton]] — peer (#1 builder)
+- [[DR Horton]] — peer (\#1 builder)
 - [[PulteGroup]] — peer (move-up)
 - [[Toll Brothers]] — peer (luxury)
 - [[Invitation Homes]] — SFR REIT (build-to-rent buyer)

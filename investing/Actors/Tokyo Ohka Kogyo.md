@@ -3,7 +3,7 @@ aliases: [TOK, 4186.T]
 ---
 #actor #semiconductor #materials #japan #public #photoresist
 
-**Tokyo Ohka Kogyo (TOK)** — #2 global photoresist maker. The largest publicly traded pure-play in the space. Aggressive capacity expansion targeting 2nm nodes.
+**Tokyo Ohka Kogyo (TOK)** — \#2 global photoresist maker. The largest publicly traded pure-play in the space. Aggressive capacity expansion targeting 2nm nodes.
 
 ---
 
@@ -129,8 +129,8 @@ Pure-play scarcity premium — with JSR private, TOK is the cleanest public expo
 ## Related
 
 - [[Long Japan photoresists]] — investment thesis (TOK as primary vehicle)
-- [[JSR Corporation]] — #1 competitor (private)
-- [[Shin-Etsu]] — #3 competitor (wafers + photoresists)
+- [[JSR Corporation]] — \#1 competitor (private)
+- [[Shin-Etsu]] — \#3 competitor (wafers + photoresists)
 - [[Fujifilm]] — diversified competitor
 - [[Sumitomo Chemical]] — growing competitor
 - [[Samsung]] — major customer

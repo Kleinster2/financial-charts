@@ -8,7 +8,7 @@ aliases:
 
 # Bradesco
 
-**#2 Brazilian bank by assets** — universal bank with retail, corporate, insurance. **NYSE: BBD**, [[B3]]: BBDC4. ~$31-36B market cap. Stock down 70% over 5 years despite profit growth — struggling with digital transformation and fintech competition.
+**\#2 Brazilian bank by assets** — universal bank with retail, corporate, insurance. **NYSE: BBD**, [[B3]]: BBDC4. ~$31-36B market cap. Stock down 70% over 5 years despite profit growth — struggling with digital transformation and fintech competition.
 
 ---
 
@@ -121,7 +121,7 @@ See [[Bradesco BBI]] for full details on deals, awards, and performance.
 - [[Bradesco BBI]] — investment banking arm (winning)
 
 ### Peers
-- [[Itaú Unibanco]] — #1 Brazil bank (winning)
+- [[Itaú Unibanco]] — \#1 Brazil bank (winning)
 - [[BTG Pactual]] — investment bank
 
 ### Competitors

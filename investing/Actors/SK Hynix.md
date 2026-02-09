@@ -30,7 +30,7 @@ SK Hynix dominates [[HBM]] but depends on [[TSMC]] for [[Advanced packaging|pack
 
 **Major expansion announced:**
 - Investment: **4x previous levels** announced
-- Equipment spending: $29.66B industry total (+27.2%) — Korea back to #2 globally
+- Equipment spending: $29.66B industry total (+27.2%) — Korea back to \#2 globally
 - Server DRAM pricing: Seeking **+70% price hikes**
 
 **M15X fab (Cheongju, Korea):**
@@ -148,7 +148,7 @@ SK Hynix isn't a foundry, but:
 
 | Metric | Value |
 |--------|-------|
-| [[HBM]] position | #1 globally (**50%+ share**) |
+| [[HBM]] position | \#1 globally (**50%+ share**) |
 | HBM4 status | **Paid samples delivered to NVIDIA** (Dec 2025) |
 | HBM3E pricing | **+20% for 2026** |
 | Q4 2025 gross margin | **63-67%** (exceeding TSMC, first since Q4 2018) |
@@ -195,8 +195,8 @@ SK Hynix isn't a foundry, but:
 - [[Memory]] — parent sector
 
 ### Competitors
-- [[Samsung]] — Korean rival in memory (#2 HBM)
-- [[Micron]] — US competitor (#3 HBM)
+- [[Samsung]] — Korean rival in memory (\#2 HBM)
+- [[Micron]] — US competitor (\#3 HBM)
 - [[TSMC]] — dependency/competitor (packaging)
 
 ### Customers

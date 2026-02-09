@@ -3,7 +3,7 @@ aliases: [ROK, Rockwell]
 ---
 #actor #industrial #automation #usa #public
 
-**Rockwell Automation** — #1 industrial automation pure-play in North America. Factory AI, PLCs, robotics integration. Benefits from reshoring.
+**Rockwell Automation** — \#1 industrial automation pure-play in North America. Factory AI, PLCs, robotics integration. Benefits from reshoring.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [ROK, Rockwell]
 |--------|-------|
 | Ticker | ROK (NYSE) |
 | Market cap | ~$35B |
-| Position | #1 North American automation |
+| Position | \#1 North American automation |
 | Focus | Discrete manufacturing |
 
 ---

@@ -151,9 +151,9 @@ See [[Long Japan photoresists]] for the full thesis.
 
 - [[Long Japan photoresists]] — investment thesis
 - [[Semiconductor Materials]] — sector context
-- [[JSR Corporation]] — #1 (private)
-- [[Tokyo Ohka Kogyo]] — #2 (public pure-play)
-- [[Shin-Etsu]] — #3 (diversified)
+- [[JSR Corporation]] — \#1 (private)
+- [[Tokyo Ohka Kogyo]] — \#2 (public pure-play)
+- [[Shin-Etsu]] — \#3 (diversified)
 - [[Dongjin Semichem]] — Korea alternative
 - [[ASML]] — equipment chokepoint (complementary)
 - [[Export controls]] — policy context

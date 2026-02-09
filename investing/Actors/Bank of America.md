@@ -99,8 +99,8 @@ aliases: [BAC, BofA, BoA]
 
 | Bank | Assets | Focus |
 |------|--------|-------|
-| [[JPMorgan Chase]] | ~$4T | #1, full-service |
-| **Bank of America** | ~$3.3T | #2, consumer strength |
+| [[JPMorgan Chase]] | ~$4T | \#1, full-service |
+| **Bank of America** | ~$3.3T | \#2, consumer strength |
 | [[Citigroup]] | ~$2.4T | Global, trading |
 | [[Wells Fargo]] | ~$1.9T | [[Consumer]], recovering |
 
@@ -170,7 +170,7 @@ aliases: [BAC, BofA, BoA]
 | Ticker | BAC |
 | Price | ~$53 |
 | Market cap | ~$350B |
-| Rank | #2 US bank |
+| Rank | \#2 US bank |
 | CEO | Brian Moynihan |
 | Q4 2025 | Beat (EPS $0.98 vs $0.96) |
 
@@ -181,7 +181,7 @@ aliases: [BAC, BofA, BoA]
 ## Related
 
 ### Peers
-- [[JPMorgan Chase]] — #1 US bank
+- [[JPMorgan Chase]] — \#1 US bank
 - [[Citigroup]] — peer
 - [[Wells Fargo]] — peer
 - [[Goldman Sachs]] — peer (investment banking)

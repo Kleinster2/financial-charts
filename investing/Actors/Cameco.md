@@ -15,7 +15,7 @@ Uranium = nuclear fuel:
 |--------|-------|
 | Ticker | CCJ |
 | Market cap | ~$25B |
-| Position | #1 uranium producer |
+| Position | \#1 uranium producer |
 | Country | [[Canada]] |
 | 2024 return | +30%+ |
 
@@ -79,8 +79,8 @@ Uranium up 3x in 4 years.
 
 | Producer | Country |
 |----------|---------|
-| [[Kazatomprom]] | Kazakhstan (#1 global) |
-| Cameco | [[Canada]] (#2) |
+| [[Kazatomprom]] | Kazakhstan (\#1 global) |
+| Cameco | [[Canada]] (\#2) |
 | Orano | [[France]] |
 | [[Uranium Energy Corp]] | USA |
 
@@ -109,7 +109,7 @@ Uranium up 3x in 4 years.
 |--------|-------|
 | Ticker | CCJ |
 | Market cap | ~$25B |
-| Position | #1 Western uranium |
+| Position | \#1 Western uranium |
 | Key asset | McArthur River |
 
 *Updated 2026-01-01*

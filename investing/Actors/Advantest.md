@@ -3,7 +3,7 @@ aliases: [6857.T]
 ---
 #actor #semiconductor #equipment #japan #public
 
-**Advantest** — #1 semiconductor test equipment maker. Tests every chip before shipping. AI complexity = more testing.
+**Advantest** — \#1 semiconductor test equipment maker. Tests every chip before shipping. AI complexity = more testing.
 
 ---
 

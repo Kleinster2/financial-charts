@@ -3,7 +3,7 @@ aliases: [Walker Dunlop, WD]
 ---
 #actor #finance #realestate #usa #public
 
-**Walker & Dunlop** — Leading multifamily and commercial mortgage lender. **#1 Fannie Mae DUS lender.** $40B origination volume (2024), $1.1B revenue. Public (NYSE: WD). Pure-play CRE finance — origination, brokerage, servicing.
+**Walker & Dunlop** — Leading multifamily and commercial mortgage lender. **\#1 Fannie Mae DUS lender.** $40B origination volume (2024), $1.1B revenue. Public (NYSE: WD). Pure-play CRE finance — origination, brokerage, servicing.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [Walker Dunlop, WD]
 
 ## Insights
 
-- **#1 Fannie Mae DUS lender** — Delegated Underwriting and Servicing (DUS) allows direct underwriting without GSE approval per loan. Prestigious designation, sticky relationships.
+- **\#1 Fannie Mae DUS lender** — Delegated Underwriting and Servicing (DUS) allows direct underwriting without GSE approval per loan. Prestigious designation, sticky relationships.
 - **Pure-play CRE finance** — Unlike banks (balance sheet constraints) or diversified brokers (CBRE, JLL), Walker & Dunlop is focused entirely on CRE capital markets.
 - **Multifamily specialist** — ~80% of business is multifamily, benefiting from GSE liquidity and housing shortage tailwinds.
 
@@ -58,10 +58,10 @@ aliases: [Walker Dunlop, WD]
 
 | Lender | Focus | Differentiator |
 |--------|-------|----------------|
-| **Walker & Dunlop** | Multifamily | #1 Fannie DUS, pure-play |
-| [[Berkadia]] | Multifamily | #1 Freddie, Berkshire/Jefferies backing |
+| **Walker & Dunlop** | Multifamily | \#1 Fannie DUS, pure-play |
+| [[Berkadia]] | Multifamily | \#1 Freddie, Berkshire/Jefferies backing |
 | [[CBRE]] | All CRE | Scale, global, diversified |
-| [[Meridian Capital Group]] | All CRE | #1 by count, small/mid-market |
+| [[Meridian Capital Group]] | All CRE | \#1 by count, small/mid-market |
 | [[Arbor Realty Trust]] | Multifamily | Balance sheet lender (REIT) |
 
 ---
@@ -70,7 +70,7 @@ aliases: [Walker Dunlop, WD]
 
 | GSE | Ranking | Program |
 |-----|---------|---------|
-| [[Fannie Mae]] | **#1** | DUS (Delegated Underwriting) |
+| [[Fannie Mae]] | **\#1** | DUS (Delegated Underwriting) |
 | [[Freddie Mac]] | Top 5 | Optigo Seller/Servicer |
 | HUD/FHA | Top 5 | MAP lender |
 
@@ -81,7 +81,7 @@ aliases: [Walker Dunlop, WD]
 ## Investment implications
 
 **Bull case:**
-- #1 Fannie Mae position defensible
+- \#1 Fannie Mae position defensible
 - Multifamily fundamentals solid (housing shortage)
 - Rate cuts → volume recovery
 - Servicing portfolio provides recurring income
@@ -103,9 +103,9 @@ aliases: [Walker Dunlop, WD]
 
 - [[Commercial Mortgage]] — sector
 - [[Mortgage]] — sector hub
-- [[Berkadia]] — top competitor (#1 Freddie)
+- [[Berkadia]] — top competitor (\#1 Freddie)
 - [[Arbor Realty Trust]] — multifamily peer
 - [[Meridian Capital Group]] — CRE broker
-- [[Fannie Mae]] — #1 DUS lender for
+- [[Fannie Mae]] — \#1 DUS lender for
 - [[Freddie Mac]] — Optigo relationship
 - [[Multifamily]] — primary collateral type

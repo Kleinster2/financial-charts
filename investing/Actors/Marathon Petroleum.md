@@ -85,7 +85,7 @@ Most diversified refiner geographically.
 
 | Aspect | [[Marathon]] | [[Valero]] | [[Phillips 66]] |
 |--------|----------|------------|-----------------|
-| Capacity | Largest ([[3M]]) | #2 (3.2M) | Smaller (2.2M) |
+| Capacity | Largest ([[3M]]) | \#2 (3.2M) | Smaller (2.2M) |
 | Focus | Pure refining + MPLX | Pure refining | Diversified |
 | Gulf Coast | ~1.2M bpd | ~2M bpd | ~0.7M bpd |
 | Venezuela beta | High | Highest | Moderate |

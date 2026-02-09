@@ -13,7 +13,7 @@ aliases: [CRWD]
 |--------|-------|
 | Ticker | CRWD (NASDAQ) |
 | Market cap | ~$90B |
-| Position | #1 endpoint security |
+| Position | \#1 endpoint security |
 | Key product | Falcon platform |
 
 ---
@@ -52,7 +52,7 @@ aliases: [CRWD]
 |------------|-------|
 | **CrowdStrike** | Endpoint leader |
 | [[Palo Alto Networks]] | Platform consolidation |
-| [[SentinelOne]] | #2 endpoint |
+| [[SentinelOne]] | \#2 endpoint |
 | [[Microsoft]] Defender | Bundled with Windows |
 
 ---
@@ -102,7 +102,7 @@ See [[China cybersecurity ban]] for full context.
 ## Related
 
 - [[Palo Alto Networks]] — competitor (platform consolidation)
-- [[SentinelOne]] — competitor (#2 endpoint)
+- [[SentinelOne]] — competitor (\#2 endpoint)
 - [[Cybersecurity consolidation]] — thesis context
 - [[Zscaler]] — peer (zero trust)
 - [[China cybersecurity ban]] — banned in China (Jan 2026)

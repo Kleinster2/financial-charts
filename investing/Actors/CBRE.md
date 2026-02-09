@@ -3,7 +3,7 @@ aliases: [CBRE Group, CB Richard Ellis]
 ---
 #actor #realestate #finance #usa #public
 
-**CBRE Group** — **World's largest commercial real estate services firm.** $35.8B revenue (2024). 140,000+ employees in 100+ countries. #1 in leasing, property sales, property management, valuation. Fortune 500, S&P 500. Also largest US commercial property developer.
+**CBRE Group** — **World's largest commercial real estate services firm.** $35.8B revenue (2024). 140,000+ employees in 100+ countries. \#1 in leasing, property sales, property management, valuation. Fortune 500, S&P 500. Also largest US commercial property developer.
 
 ---
 
@@ -57,11 +57,11 @@ aliases: [CBRE Group, CB Richard Ellis]
 
 | Category | CBRE Rank |
 |----------|-----------|
-| Commercial leasing | **#1 globally** |
-| Property sales | **#1 globally** |
-| Property management | **#1 globally** |
-| Valuation | **#1 globally** |
-| US commercial development | **#1** |
+| Commercial leasing | **\#1 globally** |
+| Property sales | **\#1 globally** |
+| Property management | **\#1 globally** |
+| Valuation | **\#1 globally** |
+| US commercial development | **\#1** |
 
 ---
 
@@ -81,11 +81,11 @@ Separate business from services — earns management fees on real estate portfol
 | Firm | Revenue | Employees | Focus |
 |------|---------|-----------|-------|
 | **CBRE** | **$35.8B** | **140K** | Largest, diversified |
-| [[JLL]] | $23.4B | 112K | #2, global |
-| [[Cushman & Wakefield]] | ~$9B | ~50K | #3, occupier focus |
+| [[JLL]] | $23.4B | 112K | \#2, global |
+| [[Cushman & Wakefield]] | ~$9B | ~50K | \#3, occupier focus |
 | [[Newmark]] | $2.8B | 8K | Capital markets growth |
 
-**Gap to #2:** CBRE is 50%+ larger than JLL by revenue.
+**Gap to \#2:** CBRE is 50%+ larger than JLL by revenue.
 
 ---
 
@@ -123,7 +123,7 @@ Separate business from services — earns management fees on real estate portfol
 
 - [[Commercial Mortgage]] — sector
 - [[Commercial real estate]] — sector
-- [[JLL]] — #2 competitor
+- [[JLL]] — \#2 competitor
 - [[Newmark]] — competitor
 - [[Cushman & Wakefield]] — competitor
 - [[Meridian Capital Group]] — capital markets competitor

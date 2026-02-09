@@ -33,7 +33,7 @@
 
 | Date | Net worth | Rank |
 |------|-----------|------|
-| Feb 2022 | $18.5B | #63 world |
+| Feb 2022 | $18.5B | \#63 world |
 | Sept 2025 | $16B | Forbes 400 |
 
 At various times: richest person in Oklahoma, one of richest in America.

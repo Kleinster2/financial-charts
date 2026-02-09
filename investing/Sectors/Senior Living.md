@@ -201,7 +201,7 @@ The two giants are pivoting heavily toward senior housing:
 | 80+ population growth | +3.2% annually (2025-26) |
 | Largest operator | Brookdale (584 communities) |
 | Largest REIT | Welltower (~$80B market cap) |
-| #2 REIT | Ventas (~$38B market cap) |
+| \#2 REIT | Ventas (~$38B market cap) |
 
 ---
 
@@ -216,9 +216,9 @@ The two giants are pivoting heavily toward senior housing:
 - Ensign Group (ENSG) — acquisitive, decentralized model
 
 **Healthcare REITs:**
-- Welltower (WELL) — #1 by market cap (~$80B), S&P 500, senior housing pivot
-- Ventas (VTR) — #2 by market cap (~$38B), S&P 500, SHOP focus
-- Omega Healthcare (OHI) — #3, skilled nursing dominant
+- Welltower (WELL) — \#1 by market cap (~$80B), S&P 500, senior housing pivot
+- Ventas (VTR) — \#2 by market cap (~$38B), S&P 500, SHOP focus
+- Omega Healthcare (OHI) — \#3, skilled nursing dominant
 - Sabra Healthcare (SBRA) — diversified, growing SHOP
 - CareTrust REIT (CTRE) — SNF + senior housing
 - LTC Properties (LTC) — 50/50 SNF/AL

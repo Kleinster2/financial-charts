@@ -43,7 +43,7 @@ Evernorth (PBM) is majority of revenue.
 
 | Company | Focus |
 |---------|-------|
-| [[UnitedHealth]] | #1 insurer + Optum |
+| [[UnitedHealth]] | \#1 insurer + Optum |
 | [[CVS Health]] | Aetna + CVS + Caremark |
 | **Cigna** | Evernorth PBM + insurance |
 | [[Humana]] | [[Medicare Advantage]] focus |

@@ -59,7 +59,7 @@ aliases: [Navy Federal, NFCU]
 
 | Lender | VA Loan Position |
 |--------|------------------|
-| [[Veterans United]] | #1 (4x Navy Federal volume) |
+| [[Veterans United]] | \#1 (4x Navy Federal volume) |
 | **Navy Federal** | **Top 10** |
 | [[Pennymac]] | Top producer |
 | [[Freedom Mortgage]] | FHA/VA specialist |

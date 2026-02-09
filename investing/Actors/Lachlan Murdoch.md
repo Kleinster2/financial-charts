@@ -48,7 +48,7 @@ aliases: [Lachlan]
 | Strategy | Execution |
 |----------|-----------|
 | Focus on news/sports | Sold entertainment to [[Disney]] |
-| Fox News dominance | Maintained #1 position |
+| Fox News dominance | Maintained \#1 position |
 | Tubi (FAST) | Grew to 80M+ MAU |
 | [[Sports rights]] | Locked up NFL, World Cup |
 | Cost discipline | Lean operation |

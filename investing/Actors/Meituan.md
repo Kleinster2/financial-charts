@@ -96,8 +96,8 @@ Meituan's food delivery business requires massive last-mile logistics. Investing
 
 | Company | Position |
 |---------|----------|
-| **Meituan** | #1 food delivery (60-70%) |
-| Ele.me ([[Alibaba]]) | #2 food delivery |
+| **Meituan** | \#1 food delivery (60-70%) |
+| Ele.me ([[Alibaba]]) | \#2 food delivery |
 | JD.com | Grocery, logistics |
 | Didi | Ride-hailing |
 

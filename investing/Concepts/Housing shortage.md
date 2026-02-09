@@ -130,6 +130,6 @@ aliases: [housing deficit, housing undersupply, housing gap]
 - [[Single-family rental]] — demand beneficiary
 - [[Sunbelt migration]] — regional demand driver
 - [[DR Horton]] — largest homebuilder
-- [[Lennar]] — #2 homebuilder
+- [[Lennar]] — \#2 homebuilder
 
 *Created 2026-01-16*

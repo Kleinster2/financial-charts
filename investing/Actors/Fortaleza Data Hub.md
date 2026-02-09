@@ -15,7 +15,7 @@ aliases: [Ceará, Ceara Data Center]
 |--------|-------|
 | Location | Fortaleza, Ceará state |
 | Submarine cables | 14 landing at Praia do Futuro |
-| Global rank | #2 submarine cable hub |
+| Global rank | \#2 submarine cable hub |
 | Key project | [[TikTok]]/ByteDance DC |
 
 ---
@@ -106,7 +106,7 @@ Geopolitical infrastructure play.
 
 | Metric | Fortaleza | [[São Paulo Data Hub]] |
 |--------|-----------|------------------------|
-| Cables | 14 (world #2) | Fewer |
+| Cables | 14 (world \#2) | Fewer |
 | Latency to [[EU]] | Lower | Higher |
 | DC capacity | Growing | Dominant |
 | Cost | Lower | Higher |
@@ -132,7 +132,7 @@ Fortaleza = connectivity; São Paulo = capacity.
 |--------|-------|
 | Location | Fortaleza, Ceará |
 | Submarine cables | 14 |
-| Global rank | #2 cable hub |
+| Global rank | \#2 cable hub |
 | Key project | [[TikTok]] DC |
 
 *Updated 2026-01-01*
@@ -146,5 +146,5 @@ Fortaleza = connectivity; São Paulo = capacity.
 - [[Rio de Janeiro Data Hub]] — peer hub
 - [[ByteDance]] — [[TikTok]] DC investor (R$200B)
 - [[EllaLink]] — cable landing (direct [[Europe]])
-- [[Submarine Cables]] — 14 cables (#2 global hub)
+- [[Submarine Cables]] — 14 cables (\#2 global hub)
 

@@ -13,7 +13,7 @@ aliases: [COP]
 |--------|-------|
 | Ticker | COP (NYSE) |
 | Market cap | ~$130B |
-| Position | #1 US independent E&P |
+| Position | \#1 US independent E&P |
 | Focus | Pure-play upstream |
 
 ---

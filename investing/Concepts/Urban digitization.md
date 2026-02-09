@@ -111,8 +111,8 @@
 
 | City | Rank | Key achievement | Link |
 |------|------|-----------------|------|
-| **Singapore** | #7 global | 99% digital govt transactions | [[Singapore smart city]] |
-| **London** | #6 global | TfL contactless, congestion charge | [[London smart city]] |
+| **Singapore** | \#7 global | 99% digital govt transactions | [[Singapore smart city]] |
+| **London** | \#6 global | TfL contactless, congestion charge | [[London smart city]] |
 | **NYC** | Top 10 | LinkNYC 17M subscribers | [[NYC smart city]] |
 | **Tokyo** | Top 15 | Earthquake systems, 5G push | [[Tokyo smart city]] |
 | **Barcelona** | Pioneer | 19,000 sensors, €92M savings | [[Barcelona smart city]] |
@@ -154,7 +154,7 @@
 - [[Smart cities]] — includes both retrofit and greenfield
 
 ### City notes
-- [[Singapore smart city]] — #7 global, Smart Nation
+- [[Singapore smart city]] — \#7 global, Smart Nation
 - [[London smart city]] — TfL, congestion charge
 - [[NYC smart city]] — LinkNYC, 311
 - [[Tokyo smart city]] — Earthquake systems, Olympics legacy

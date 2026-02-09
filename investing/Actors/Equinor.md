@@ -13,7 +13,7 @@ aliases: [EQNR, Statoil]
 |--------|-------|
 | Ticker | EQNR (NYSE/Oslo) |
 | Market cap | ~$70B |
-| Position | #1 Norwegian continental shelf |
+| Position | \#1 Norwegian continental shelf |
 | Owner | Norwegian government (67%) |
 
 ---

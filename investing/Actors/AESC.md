@@ -11,7 +11,7 @@ aliases: [Envision AESC]
 
 | Metric | Value |
 |--------|-------|
-| Global rank | #7 battery maker |
+| Global rank | \#7 battery maker |
 | Market share | ~3% |
 | Owner | Envision Group ([[China]]) |
 | HQ | [[Japan]] (operations), [[China]] (parent) |

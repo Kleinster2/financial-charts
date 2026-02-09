@@ -271,7 +271,7 @@ Sodium instead of lithium. Cheaper, abundant, but lower energy density.
 
 | Company | Chemistry focus | Strength |
 |---------|-----------------|----------|
-| [[CATL]] | LFP, NMC, sodium | Scale (#1 globally) |
+| [[CATL]] | LFP, NMC, sodium | Scale (\#1 globally) |
 | [[BYD]] | LFP (Blade) | Vertical integration |
 | LG Energy | NMC, pouch | Premium EVs |
 | [[Panasonic]] | NCA, cylindrical | [[Tesla]] partnership |

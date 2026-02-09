@@ -3,7 +3,7 @@ aliases: [VAL]
 ---
 #actor #energy #drilling #offshore #usa #public
 
-**Valaris** — #2 offshore drilling contractor. Diversified fleet across water depths. Post-bankruptcy with clean balance sheet.
+**Valaris** — \#2 offshore drilling contractor. Diversified fleet across water depths. Post-bankruptcy with clean balance sheet.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [VAL]
 |--------|-------|
 | Ticker | VAL (NYSE) |
 | Market cap | ~$5B |
-| Position | #2 offshore driller |
+| Position | \#2 offshore driller |
 | Fleet | ~50 rigs |
 
 ---
@@ -102,6 +102,6 @@ See [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Transocean]] — peer (#1 offshore)
+- [[Transocean]] — peer (\#1 offshore)
 - [[Saudi Aramco]] — major jackup customer
 - [[Venezuela oil rebuild]] — thesis (jackup relevance)

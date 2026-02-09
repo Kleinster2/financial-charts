@@ -3,7 +3,7 @@ aliases: [Natixis CIB]
 ---
 #actor #bank #france #projectfinance
 
-**Natixis** — Corporate and investment banking arm of [[BPCE]] Group (France's #3 bank). Strong LatAm infrastructure franchise. MLA of the Year, North America (IJGlobal 2024).
+**Natixis** — Corporate and investment banking arm of [[BPCE]] Group (France's \#3 bank). Strong LatAm infrastructure franchise. MLA of the Year, North America (IJGlobal 2024).
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Natixis CIB]
 |--------|-------|
 | Parent | [[BPCE]] Group |
 | BPCE assets | ~$1.5T |
-| BPCE rank | #6 Europe, #21 global |
+| BPCE rank | \#6 Europe, \#21 global |
 | Natixis IM AUM | €1,317B (Dec 2024, record) |
 | Status | Delisted 2021, 100% BPCE-owned |
 | HQ | Paris (CIB), Boston (IM) |

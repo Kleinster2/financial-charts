@@ -133,8 +133,8 @@ Revenue €18.4B (+5.1% CC, +1.6% reported). Net income €2.8B (+0.8%). FX head
 
 - [[Fashion]] — sector hub
 - [[Shein]] — fast fashion competitor/disruptor
-- [[H&M]] — #2 fast fashion competitor
-- [[Fast Retailing]] — #3 competitor (Uniqlo)
+- [[H&M]] — \#2 fast fashion competitor
+- [[Fast Retailing]] — \#3 competitor (Uniqlo)
 - [[Consumer]] — parent sector
 
 *Created 2026-01-24*

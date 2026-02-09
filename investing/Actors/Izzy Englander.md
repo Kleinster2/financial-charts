@@ -13,7 +13,7 @@ aliases: [Israel Englander, Israel "Izzy" Englander]
 |--------|-------|
 | Born | 1948, Brooklyn, NY |
 | Net worth | $18.9B (Sep 2025) |
-| Forbes rank | #164 globally |
+| Forbes rank | \#164 globally |
 | Education | BA Finance, NYU (1970) |
 | Firm | [[Millennium]] (founded 1989) |
 

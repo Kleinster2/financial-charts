@@ -63,7 +63,7 @@ The top ten players hold ~48% market share collectively.
 | Company | Position | Status |
 |---------|----------|--------|
 | [[Nike]] | Largest athletic brand overall | Public |
-| [[Adidas]] | Global #2 athletic | Public |
+| [[Adidas]] | Global \#2 athletic | Public |
 | [[Lululemon]] | Category pioneer, $10.6B revenue (FY24) | Public |
 | [[Puma]] | Athletic/lifestyle | Public |
 | [[Under Armour]] | Performance-focused, struggling | Public |

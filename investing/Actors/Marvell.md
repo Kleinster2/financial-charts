@@ -60,7 +60,7 @@ Not competing with NVIDIA — enabling alternatives.
 **PAM4 optical technology:**
 - Enables 400G/800G links
 - AI clusters need bandwidth
-- Marvell = #1 in optical DSPs
+- Marvell = \#1 in optical DSPs
 - Every hyperscaler uses this
 
 ---

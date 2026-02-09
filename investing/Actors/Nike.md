@@ -122,7 +122,7 @@ But: Q4 FY25 EPS collapsed to $0.14 (-86%) on aggressive reinvestment and invent
 - Innovation pipeline refilling
 - $46B revenue at trough — massive base
 - Stock at decade-low valuation (~20x trough earnings)
-- Brand still #1 globally in recognition
+- Brand still \#1 globally in recognition
 
 **Bear:**
 - Turnaround "will take a while" (Hill's own words)
@@ -138,7 +138,7 @@ But: Q4 FY25 EPS collapsed to $0.14 (-86%) on aggressive reinvestment and invent
 
 - [[Fashion]] — sector hub
 - [[Adidas]] — primary competitor, resurgent
-- [[Puma]] — #3 sportswear competitor
+- [[Puma]] — \#3 sportswear competitor
 - [[On Running]] — performance running disruptor
 - [[Deckers]] — competitor (Hoka)
 - [[New Balance]] — competitor, taking share

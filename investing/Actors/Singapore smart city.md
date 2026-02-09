@@ -3,7 +3,7 @@ aliases: [Smart Nation Singapore]
 ---
 #actor #geography #smartcity #asia
 
-**Singapore smart city** — World's most advanced urban digitization. Smart Nation initiative (2014) achieved 99% digital govt transactions, 99% household internet, 95% SME digital adoption. #7 global smart city index. Model for retrofit approach.
+**Singapore smart city** — World's most advanced urban digitization. Smart Nation initiative (2014) achieved 99% digital govt transactions, 99% household internet, 95% SME digital adoption. \#7 global smart city index. Model for retrofit approach.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Smart Nation Singapore]
 
 | Metric | Value |
 |--------|-------|
-| Global rank | #7 (Smart City Index 2023) |
+| Global rank | \#7 (Smart City Index 2023) |
 | Initiative | Smart Nation (2014) |
 | Current phase | Smart Nation 2.0 (2024) |
 | Lead agency | Ministry of Digital Development & Information |

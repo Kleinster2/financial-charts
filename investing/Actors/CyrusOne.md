@@ -98,7 +98,7 @@ CyrusOne has historically been more enterprise-focused than QTS, though hypersca
 | [[Digital Realty]] | Public | 300+ |
 | [[Equinix]] | Public | 260+ |
 
-CyrusOne is #2 among private platforms, behind Blackstone's QTS.
+CyrusOne is \#2 among private platforms, behind Blackstone's QTS.
 
 ---
 

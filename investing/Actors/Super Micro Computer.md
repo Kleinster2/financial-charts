@@ -9,7 +9,7 @@ aliases: [SMCI, Supermicro]
 
 ## Why Supermicro matters
 
-#1 AI server company (with drama):
+\#1 AI server company (with drama):
 
 | Metric | Value |
 |--------|-------|

@@ -3,7 +3,7 @@ aliases: [WAF.DE]
 ---
 #actor #semiconductor #materials #germany #public
 
-**Siltronic** — #3 silicon wafer maker globally. ~13% share. European player. Publishes useful wafer demand data.
+**Siltronic** — \#3 silicon wafer maker globally. ~13% share. European player. Publishes useful wafer demand data.
 
 ---
 

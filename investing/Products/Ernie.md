@@ -177,7 +177,7 @@ AI model → autonomous driving → real-world deployment. Unique among Chinese 
 ## Related
 
 - [[Baidu]] — parent company
-- [[Doubao]] — competitor (#1 [[China]])
+- [[Doubao]] — competitor (\#1 [[China]])
 - [[Qwen]] — competitor ([[Alibaba]])
 - [[Hunyuan]] — competitor ([[Tencent]])
 - [[DeepSeek]] — competitor (efficiency)

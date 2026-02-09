@@ -15,7 +15,7 @@ aliases: [DLR]
 
 ## Why Digital Realty matters
 
-Digital Realty is the #2 data center REIT, focused on larger deployments:
+Digital Realty is the \#2 data center REIT, focused on larger deployments:
 
 | Metric | Value |
 |--------|-------|

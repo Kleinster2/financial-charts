@@ -82,7 +82,7 @@ Regional hub for Gulf Cooperation Council markets (Saudi Arabia, UAE, Qatar, Kuw
 
 | Metric | Value |
 |--------|-------|
-| LNG exports | #1 or #2 globally |
+| LNG exports | \#1 or \#2 globally |
 | North Field expansion | Massive capacity add |
 | QatarEnergy | State company |
 

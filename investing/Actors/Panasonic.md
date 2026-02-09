@@ -12,7 +12,7 @@ aliases: [Panasonic Energy, 6752.T]
 | Metric | Value |
 |--------|-------|
 | Ticker | 6752.T (Tokyo) |
-| Position | #4 global EV batteries |
+| Position | \#4 global EV batteries |
 | Key customer | Tesla |
 | 4680 production | March 2025 ([[Japan]]) |
 
@@ -119,8 +119,8 @@ Racing CATL, [[Toyota]], Samsung to commercialization.
 ## Related
 
 - [[Tesla]] — key customer (Gigafactory Nevada)
-- [[CATL]] — competitor (#1 globally)
-- [[LG Energy Solution]] — competitor (#3 globally)
+- [[CATL]] — competitor (\#1 globally)
+- [[LG Energy Solution]] — competitor (\#3 globally)
 - [[Samsung]] — competitor (SDI division)
 - [[Lithium]] — key input
 

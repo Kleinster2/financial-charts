@@ -14,7 +14,7 @@ aliases: [cryptocurrency, blockchain, digital assets]
 | Tokenization | Infrastructure for [[Tokenized private shares]] |
 | [[Fintech]] | [[Robinhood]], [[Coinbase]] revenue driver |
 | Bitcoin | [[Block]] strategy, store of value thesis |
-| Stablecoins | USDC ([[Circle]]), payments infrastructure |
+| Stablecoins | [[Circle\|USDC]], [[Tether\|USDT]], payments infrastructure |
 | AI intersection | Compute tokens, AI model marketplaces |
 
 ---
@@ -25,7 +25,7 @@ aliases: [cryptocurrency, blockchain, digital assets]
 |-------|-------------|
 | Bitcoin (BTC) | Digital gold, store of value |
 | Ethereum (ETH) | Smart contract platform |
-| Stablecoins | Dollar-pegged (USDC, USDT) |
+| Stablecoins | Dollar-pegged ([[Circle\|USDC]], [[Tether\|USDT]]) |
 | Others | Thousands of altcoins |
 
 ---
@@ -148,6 +148,7 @@ Early stage, mostly speculative.
 - [[Coinbase]] — largest US exchange
 - [[Block]] — Bitcoin-focused fintech
 - [[Robinhood]] — crypto trading
+- [[Tether]] — USDT stablecoin (~$187B market cap, 60% share)
 - [[Circle]] — USDC stablecoin
 - [[PayPal]] — PYUSD stablecoin
 - [[SEC]] — securities regulator

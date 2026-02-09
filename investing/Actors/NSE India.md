@@ -3,7 +3,7 @@ aliases: [National Stock Exchange, NSE]
 ---
 #actor #company #exchange #india #ipo
 
-**NSE India** (National Stock Exchange) — India's largest stock exchange. World's #5 by market cap. 93.6% domestic equity cash share, 99.9% equity futures. ~$58B valuation. IPO expected late 2026 after SEBI settlement cleared long-pending regulatory hurdle. Would be India's largest IPO ever (~₹47,500 crore).
+**NSE India** (National Stock Exchange) — India's largest stock exchange. World's \#5 by market cap. 93.6% domestic equity cash share, 99.9% equity futures. ~$58B valuation. IPO expected late 2026 after SEBI settlement cleared long-pending regulatory hurdle. Would be India's largest IPO ever (~₹47,500 crore).
 
 ---
 
@@ -16,7 +16,7 @@ aliases: [National Stock Exchange, NSE]
 | Net worth (FY25) | ₹30,353 crore |
 | Revenue (Q1 FY26) | ₹4,032 crore |
 | EBITDA margin | 78% |
-| Global ranking | #5 stock exchange |
+| Global ranking | \#5 stock exchange |
 | Shareholders | 172,000 (no promoter) |
 
 ---

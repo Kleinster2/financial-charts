@@ -100,9 +100,14 @@ US investing **$5B** in munitions factory upgrades.
 | [[Southern Copper]] | SCCO | ~1M tonnes | Lowest cost, 60yr reserves |
 | [[BHP]] | BHP | ~1.7M tonnes | Diversified major |
 | [[Rio Tinto]] | RIO | ~0.6M tonnes | Growing copper focus |
-| [[Antofagasta]] | ANTO.L | ~0.7M tonnes | Pure-play Chile |
-| Teck Resources | TECK | ~0.3M tonnes | Copper growth story |
-| First Quantum | FM.TO | ~0.4M tonnes | Cobre Panama disruption |
+| [[Antofagasta]] | ANTO.L | ~0.65M tonnes | Pure-play [[Chile]] |
+| [[Glencore]] | GLEN.L | ~0.85M tonnes | Mining + trading, 1.6Mt target by 2035 |
+| [[Ivanhoe Mines]] | IVN.TO | ~0.4M tonnes | Kamoa-Kakula ([[DRC]]), ramping to 550kt |
+| [[Teck Resources]] | TECK | ~0.5M tonnes | Copper pivot post coal sale |
+| [[First Quantum Minerals]] | FM.TO | ~0.4M tonnes | Cobre Panama disruption |
+| [[Lundin Mining]] | LUN.TO | ~0.33M tonnes | Targeting top-10, Vicuña JV with [[BHP]] |
+| [[Capstone Copper]] | CS.TO | ~0.22M tonnes | Mantoverde expansion, Santo Domingo |
+| [[Ero Copper]] | ERO | ~0.07M tonnes | Brazil, Tucuma ramp-up |
 
 ### State-owned
 
@@ -164,9 +169,19 @@ Recycling doubles but still leaves 10M tonne gap.
 - [[Long global rearmament]] — defense spending thesis
 - [[Freeport-McMoRan]] — largest public producer
 - [[Southern Copper]] — lowest-cost producer
+- [[Glencore]] — mining + trading, copper growth
+- [[Ivanhoe Mines]] — Kamoa-Kakula ([[DRC]])
+- [[Teck Resources]] — copper pivot
+- [[Antofagasta]] — pure-play [[Chile]]
+- [[Lundin Mining]] — mid-tier growth
+- [[First Quantum Minerals]] — Cobre Panama risk/reward
+- [[Capstone Copper]] — Americas growth
+- [[Ero Copper]] — Brazil growth
+- [[Barrick Gold]] — copper as growth pillar
 - [[Chile]] — dominant producing region
 - [[Codelco]] — state-owned giant
 - [[BHP]] — diversified major
+- [[Rio Tinto]] — copper pivot
 - [[Lithium]] — battery metal peer
 - [[Power constraints]] — drives grid copper demand
 

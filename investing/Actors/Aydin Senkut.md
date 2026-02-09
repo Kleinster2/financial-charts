@@ -2,7 +2,7 @@
 
 #actor #vc #usa #investor
 
-**Aydin Senkut** — Founder & Managing Partner of [[Felicis Ventures]]. [[Google]] employee #63, first Product Manager. Turkish-American. Forbes Midas List 12 consecutive years (2014-2025). Speaks 5 languages.
+**Aydin Senkut** — Founder & Managing Partner of [[Felicis Ventures]]. [[Google]] employee \#63, first Product Manager. Turkish-American. Forbes Midas List 12 consecutive years (2014-2025). Speaks 5 languages.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## [[Google]] years
 
-Joined as employee #63 in 1999:
+Joined as employee \#63 in 1999:
 
 | Role | Accomplishment |
 |------|----------------|
@@ -104,7 +104,7 @@ Left [[Google]] in 2005, founded Felicis 2006.
 - [[Canva]] — design
 
 ### Career
-- [[Google]] — employee #63, first PM
+- [[Google]] — employee \#63, first PM
 
 ---
 

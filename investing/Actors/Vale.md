@@ -13,7 +13,7 @@ aliases: [VALE]
 |--------|-------|
 | Ticker | VALE (NYSE/[[B3]]) |
 | Market cap | ~$45B |
-| Position | #1 iron ore globally |
+| Position | \#1 iron ore globally |
 | [[Copper]] | Growing focus |
 
 ---
@@ -22,7 +22,7 @@ aliases: [VALE]
 
 | Commodity | Share | Position |
 |-----------|-------|----------|
-| Iron ore | ~80% | #1 globally |
+| Iron ore | ~80% | \#1 globally |
 | Nickel | ~10% | Top 3 globally |
 | [[Copper]] | ~5% | Growing |
 | Other | ~5% | Manganese, coal |
@@ -117,7 +117,7 @@ Ongoing remediation and settlements.
 
 ## Related
 
-- [[BHP]] — peer (#2 iron ore, copper)
-- [[Rio Tinto]] — peer (#3 iron ore, copper)
+- [[BHP]] — peer (\#2 iron ore, copper)
+- [[Rio Tinto]] — peer (\#3 iron ore, copper)
 - [[Freeport-McMoRan]] — peer (copper pure-play)
 - [[Copper for AI]] — thesis (infrastructure demand)

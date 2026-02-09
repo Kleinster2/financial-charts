@@ -20,7 +20,7 @@
 ## Key Themes
 
 ### 1. Market Definition (YouTube as Competitor?)
-- **Netflix's argument:** YouTube is the #1 platform by TV viewing time (~13% vs Netflix ~9%). They compete for same viewers, content, ad dollars, and creators. "YouTube is not just cat videos anymore. YouTube is TV."
+- **Netflix's argument:** YouTube is the \#1 platform by TV viewing time (~13% vs Netflix ~9%). They compete for same viewers, content, ad dollars, and creators. "YouTube is not just cat videos anymore. YouTube is TV."
 - **Lee's pushback:** YouTube is free, doesn't produce studio content, not the same business. "They're not producing full-length feature films written by screenwriters produced by full studios."
 - **Paramount's Delrahim** called Netflix's market definition "tortured and absurd" and "psychedelic antitrust"
 - This is THE key regulatory question — if market = SVOD only, Netflix+HBO would exceed 30% share (presumption of illegality). If market = all TV viewing, they'd be ~10%.

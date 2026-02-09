@@ -70,7 +70,7 @@ aliases: [CAT]
 | Competitor | Focus |
 |------------|-------|
 | **Caterpillar** | Full line leader |
-| Komatsu | [[Japan]], #2 global |
+| Komatsu | [[Japan]], \#2 global |
 | [[Deere]] | [[Agriculture]] + construction |
 | Hitachi | Mining, excavators |
 | Volvo CE | European focus |

@@ -26,7 +26,7 @@ Dominant Korean internet platform.
 
 | Segment | Focus |
 |---------|-------|
-| Search | #1 Korean search |
+| Search | \#1 Korean search |
 | Commerce | Shopping, payments |
 | Content | Webtoon, news |
 | Cloud | Naver Cloud |
@@ -85,7 +85,7 @@ Naver dominates Korean search.
 ## LINE Corporation
 
 **[[Japan]] messaging:**
-- #1 [[Japan]] messenger
+- \#1 [[Japan]] messenger
 - 90M+ [[Japan]] users
 - [[Fintech]] services
 - Yahoo [[Japan]] merger

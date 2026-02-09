@@ -19,7 +19,7 @@ aliases: [National Center for Artificial Intelligence [[Chile]], Centro Nacional
 | Funding | Chilean government + partners |
 | Mission | AI research, Latam-GPT development |
 
-[[Chile]] ranked **#1 in Latin America** for [[AI regulation]] and institutional development (UNDP Atlas of AI, 2025).
+[[Chile]] ranked **\#1 in Latin America** for [[AI regulation]] and institutional development (UNDP Atlas of AI, 2025).
 
 ---
 

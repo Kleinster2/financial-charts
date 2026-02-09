@@ -12,7 +12,7 @@ aliases: [Arnault]
 | Metric | Value |
 |--------|-------|
 | Net worth | ~$190B (Jan 2026) |
-| Forbes rank | #1-3 (fluctuates) |
+| Forbes rank | \#1-3 (fluctuates) |
 | Age | 75 (born Mar 1949) |
 | Role | Chairman & CEO, [[LVMH]] |
 | LVMH stake | ~48% (via Agache) |
@@ -24,7 +24,7 @@ aliases: [Arnault]
 
 Net worth has been volatile:
 - **Dec 2022**: Overtook [[Elon Musk]] as world's richest
-- **2023-2024**: Frequently #1 globally
+- **2023-2024**: Frequently \#1 globally
 - **Jan 2025**: ~$211B peak
 - **June 2025**: Dropped to $146B (luxury slowdown)
 - **Oct 2025**: Rebounded $19B overnight to $192B

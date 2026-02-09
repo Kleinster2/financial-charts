@@ -49,10 +49,10 @@ Sportsbook is primary revenue driver.
 
 | Operator | Position |
 |----------|----------|
-| FanDuel (Flutter) | #1 market share |
-| **DraftKings** | #2 market share |
-| BetMGM | #3 |
-| Caesars | #4 |
+| FanDuel (Flutter) | \#1 market share |
+| **DraftKings** | \#2 market share |
+| BetMGM | \#3 |
+| Caesars | \#4 |
 
 Duopoly with FanDuel.
 
@@ -105,7 +105,7 @@ State-by-state legalization.
 | Ticker | DKNG ([[Nasdaq]]) |
 | Market cap | ~$20B |
 | Revenue | ~$4B |
-| Position | #2 US sportsbook |
+| Position | \#2 US sportsbook |
 
 ---
 

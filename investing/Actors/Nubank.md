@@ -138,8 +138,8 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 
 ## Related
 
-- [[PicPay]] — [[Brazil]] peer (#3 digital bank); IPO Jan 2026 (first since Nubank)
-- [[Mercado Libre]] — LatAm peer (#2 [[Brazil]] fintech)
+- [[PicPay]] — [[Brazil]] peer (\#3 digital bank); IPO Jan 2026 (first since Nubank)
+- [[Mercado Libre]] — LatAm peer (\#2 [[Brazil]] fintech)
 - [[Revolut]] — peer (global neobank)
 - [[Block]] — peer (fintech)
 - [[Fintech]] — sector

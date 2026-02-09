@@ -159,10 +159,10 @@ Some states regulate title insurance rates, affecting agency economics.
 - [[Alliant National]] — agent-only, owned by [[Dream Finders Homes]]
 
 **Big Four underwriters:**
-- [[Fidelity National Financial]] — #1 underwriter (operates direct + agency)
-- [[First American Financial]] — #2 underwriter
-- [[Old Republic International]] — #3 underwriter
-- [[Stewart Information Services]] — #4 underwriter
+- [[Fidelity National Financial]] — \#1 underwriter (operates direct + agency)
+- [[First American Financial]] — \#2 underwriter
+- [[Old Republic International]] — \#3 underwriter
+- [[Stewart Information Services]] — \#4 underwriter
 
 **Related:**
 - [[Mortgage]] — parent value chain

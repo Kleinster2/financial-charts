@@ -13,7 +13,7 @@ aliases: [National Oilwell Varco]
 |--------|-------|
 | Ticker | NOV (NYSE) |
 | Market cap | ~$7B |
-| Position | #1 rig equipment |
+| Position | \#1 rig equipment |
 | Focus | Capital equipment |
 
 ---

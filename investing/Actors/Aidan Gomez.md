@@ -76,7 +76,7 @@ Built [[Cohere]] into a $7B enterprise AI company:
 
 ## Recognition
 
-- #1 on Maclean's AI Trailblazers Power List (2023) — with co-founders
+- \#1 on Maclean's AI Trailblazers Power List (2023) — with co-founders
 - Forbes 30 Under 30
 - One of few Transformer authors to build enduring company
 

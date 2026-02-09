@@ -13,7 +13,7 @@ Largest PC OEM + Motorola smartphones:
 
 | Metric | Value |
 |--------|-------|
-| Position | #1 global PC maker |
+| Position | \#1 global PC maker |
 | Ticker | 0992 (HK), LNVGY (ADR) |
 | Market cap | ~$15B |
 | HQ | Beijing, [[China]] |
@@ -111,9 +111,9 @@ Lenovo is a buyer, not a chip maker.
 
 | Competitor | Position |
 |------------|----------|
-| **Lenovo** | #1 PC, hoarding inventory |
-| [[Dell]] | #2-3, raising prices |
-| HP | #2-3, warning of hikes |
+| **Lenovo** | \#1 PC, hoarding inventory |
+| [[Dell]] | \#2-3, raising prices |
+| HP | \#2-3, warning of hikes |
 
 All large OEMs similarly squeezed.
 
@@ -138,7 +138,7 @@ All large OEMs similarly squeezed.
 - Hoarding ties up capital
 
 **Bull:**
-- #1 market position
+- \#1 market position
 - Hoarding = supply security
 - Enterprise strength
 - AI PC opportunity
@@ -152,7 +152,7 @@ All large OEMs similarly squeezed.
 | Ticker | 0992 (HK), LNVGY (ADR) |
 | Market cap | ~$15B |
 | HQ | Beijing, [[China]] |
-| Position | #1 global PC |
+| Position | \#1 global PC |
 | Strategy | Hoarding memory |
 
 *Updated 2026-01-08*

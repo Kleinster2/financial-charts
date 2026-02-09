@@ -44,7 +44,7 @@ India's premium electric scooter maker. Founded 2013 by Tarun Mehta and Swapnil 
 | Founders | Tarun Mehta (CEO), Swapnil Jain (CTO) |
 | Key backer | Hero MotoCorp (38% stake, promoter) |
 | Manufacturing | Hosur, Tamil Nadu |
-| Market position | #4 Indian EV two-wheeler |
+| Market position | \#4 Indian EV two-wheeler |
 | Key products | Ather 450X, Ather Rizta |
 | Charging network | Ather Grid (proprietary) |
 | Annual capacity | 110K scooters, 120K battery packs |

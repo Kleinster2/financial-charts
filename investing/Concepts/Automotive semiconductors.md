@@ -26,13 +26,13 @@
 
 | Rank | Company | 2024 Rev | Key products |
 |------|---------|----------|--------------|
-| #1 | [[Infineon]] | ~$7B | Power, MCUs |
-| #2 | [[NXP]] | ~$6B | Radar, MCUs |
-| #3 | [[Renesas]] | ~$5B | MCUs (#1 globally) |
-| #4 | [[STMicro]] | ~$4B | SiC, power |
-| #5 | [[Texas Instruments]] | ~$3B | Analog |
-| #6 | [[Analog Devices]] | ~$2.5B | Analog, BMS |
-| #7 | [[onsemi]] | ~$2B | SiC, image sensors |
+| \#1 | [[Infineon]] | ~$7B | Power, MCUs |
+| \#2 | [[NXP]] | ~$6B | Radar, MCUs |
+| \#3 | [[Renesas]] | ~$5B | MCUs (\#1 globally) |
+| \#4 | [[STMicro]] | ~$4B | SiC, power |
+| \#5 | [[Texas Instruments]] | ~$3B | Analog |
+| \#6 | [[Analog Devices]] | ~$2.5B | Analog, BMS |
+| \#7 | [[onsemi]] | ~$2B | SiC, image sensors |
 
 **Note:** These are automotive-specific revenues; total company revenues are larger.
 
@@ -84,7 +84,7 @@ IGBTs, MOSFETs for motor control, power management.
 [[Sensors]], compute for driver assistance.
 
 **Key players:**
-- [[Mobileye]] ([[Intel]]) — EyeQ chips, #1 in L2 ADAS
+- [[Mobileye]] ([[Intel]]) — EyeQ chips, \#1 in L2 ADAS
 - [[NVIDIA]] — Drive platform, high-end compute
 - [[Qualcomm]] — Snapdragon Ride, infotainment crossover
 
@@ -102,9 +102,9 @@ IGBTs, MOSFETs for motor control, power management.
 The "nervous system" of the car — body control, safety, powertrain.
 
 **Key players:**
-- [[Renesas]] — #1 globally in auto MCUs
-- [[NXP]] — #2, strong in [[Europe]]
-- [[Infineon]] — #3, power + MCU
+- [[Renesas]] — \#1 globally in auto MCUs
+- [[NXP]] — \#2, strong in [[Europe]]
+- [[Infineon]] — \#3, power + MCU
 - [[STMicro]] — Growing share
 
 **Content per vehicle:**
@@ -267,11 +267,11 @@ STMicro SiC revenue trajectory tells the story:
 
 ## Related
 
-- [[Infineon]] — #1 auto semis (power, MCUs)
-- [[NXP]] — #2 auto semis (radar, MCUs)
-- [[Renesas]] — #1 auto MCUs globally
+- [[Infineon]] — \#1 auto semis (power, MCUs)
+- [[NXP]] — \#2 auto semis (radar, MCUs)
+- [[Renesas]] — \#1 auto MCUs globally
 - [[STMicro]] — SiC leader, Tesla supplier
-- [[Analog Devices]] — #2 analog, BMS chips
+- [[Analog Devices]] — \#2 analog, BMS chips
 - [[onsemi]] — SiC, image sensors
 - [[NVIDIA]] — ADAS compute (Drive platform)
 - [[Qualcomm]] — ADAS, infotainment

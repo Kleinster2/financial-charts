@@ -26,7 +26,7 @@
 | [[BlackRock]] | Down | Also exposed |
 | [[Apollo]] | Down | PE peer |
 | [[DR Horton]] | Slight dip | Largest homebuilder |
-| [[Lennar]] | Slight dip | #2 homebuilder |
+| [[Lennar]] | Slight dip | \#2 homebuilder |
 | [[PulteGroup]] | Slight dip | Homebuilder |
 
 ---
@@ -91,7 +91,7 @@
 | Company | Exposure |
 |---------|----------|
 | [[Invitation Homes]] | Largest single-family landlord |
-| American Homes 4 Rent | #2 single-family |
+| American Homes 4 Rent | \#2 single-family |
 | [[Blackstone]] | ~2% of RE AUM, 230K apartments |
 | [[BlackRock]] | Various RE funds |
 | [[Apollo]] | PE real estate |
@@ -148,12 +148,12 @@ Watch Davos for details.
 
 - [[Housing]] — sector hub
 - [[Single-family rental]] — asset class context
-- [[Invitation Homes]] — #1 SFR REIT, most exposed
-- [[American Homes 4 Rent]] — #2 SFR REIT
+- [[Invitation Homes]] — \#1 SFR REIT, most exposed
+- [[American Homes 4 Rent]] — \#2 SFR REIT
 - [[Blackstone]] — major PE exposure, built Invitation Homes
 - [[BlackRock]] — asset manager exposure
 - [[DR Horton]] — largest homebuilder
-- [[Lennar]] — #2 homebuilder
+- [[Lennar]] — \#2 homebuilder
 - [[PulteGroup]] — homebuilder
 - [[Toll Brothers]] — luxury homebuilder
 

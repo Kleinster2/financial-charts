@@ -72,7 +72,7 @@ Extraordinary growth and profitability. Revenue nearly tripled in two years.
 | Model | Group buying, gamification, agriculture |
 | Positioning | Value/discount, tier 2-4 cities |
 
-Pinduoduo is #3 in China e-commerce (behind [[Alibaba]], JD.com) but growing fastest.
+Pinduoduo is \#3 in China e-commerce (behind [[Alibaba]], JD.com) but growing fastest.
 
 ---
 

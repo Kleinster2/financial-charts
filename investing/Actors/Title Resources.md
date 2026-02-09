@@ -3,7 +3,7 @@ aliases: [Title Resources Guaranty, TRG, Title Resources Guaranty Company]
 ---
 #actor #insurance #realestate #usa #private
 
-**Title Resources Guaranty Company** — Independent title underwriter. **3.1% market share** (#6 overall). Founded 1984 in Texas. **Acquired [[Doma Holdings]] September 2024** — absorbed failed proptech's technology and operations. Now fifth-largest independent.
+**Title Resources Guaranty Company** — Independent title underwriter. **3.1% market share** (\#6 overall). Founded 1984 in Texas. **Acquired [[Doma Holdings]] September 2024** — absorbed failed proptech's technology and operations. Now fifth-largest independent.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [Title Resources Guaranty, TRG, Title Resources Guaranty Company]
 
 | Metric | Value |
 |--------|-------|
-| Market share | **3.1%** (#6) |
+| Market share | **3.1%** (\#6) |
 | Model | Agent-focused |
 | Founded | 1984 |
 | HQ | Texas |
@@ -84,10 +84,10 @@ aliases: [Title Resources Guaranty, TRG, Title Resources Guaranty Company]
 
 - [[Title Insurance]] — sector
 - [[Doma Holdings]] — acquired Sept 2024
-- [[Fidelity National Financial]] — #1 title insurer
-- [[First American Financial]] — #2 title insurer
-- [[Old Republic International]] — #3 title insurer
-- [[Stewart Information Services]] — #4 title insurer
+- [[Fidelity National Financial]] — \#1 title insurer
+- [[First American Financial]] — \#2 title insurer
+- [[Old Republic International]] — \#3 title insurer
+- [[Stewart Information Services]] — \#4 title insurer
 - [[Westcor Land Title]] — largest independent
 - [[WFG National Title]] — independent peer
 - [[Housing]] — transaction volume driver

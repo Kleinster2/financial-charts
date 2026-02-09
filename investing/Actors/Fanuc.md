@@ -3,7 +3,7 @@ aliases: [FANUY, 6954.T]
 ---
 #actor #robotics #automation #japan #public
 
-**Fanuc** — #1 industrial robotics company globally. CNC systems, factory automation. [[Japan]] manufacturing backbone.
+**Fanuc** — \#1 industrial robotics company globally. CNC systems, factory automation. [[Japan]] manufacturing backbone.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [FANUY, 6954.T]
 |--------|-------|
 | Ticker | 6954.T (Tokyo), FANUY (OTC) |
 | Market cap | ~$30B |
-| Position | #1 industrial robots, #1 CNC (50% share) |
+| Position | \#1 industrial robots, \#1 CNC (50% share) |
 | Revenue (TTM) | ~$5.5B |
 
 ---
@@ -38,7 +38,7 @@ aliases: [FANUY, 6954.T]
 
 | Segment | % Sales | Position |
 |---------|---------|----------|
-| Factory Automation (CNC) | ~33% | #1 globally (50% share) |
+| Factory Automation (CNC) | ~33% | \#1 globally (50% share) |
 | [[Robotics]] | ~33% | Top 3 globally |
 | Robomachines | ~33% | Injection molding, wire EDM |
 

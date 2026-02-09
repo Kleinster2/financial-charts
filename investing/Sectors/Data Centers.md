@@ -257,7 +257,7 @@ REITs and Crypto-to-AI are fundamentally different businesses despite both ownin
 
 ### Actors
 - [[QTS Data Centers]] — largest private platform (Blackstone)
-- [[CyrusOne]] — #2 private platform (KKR)
+- [[CyrusOne]] — \#2 private platform (KKR)
 - [[Equinix]] — largest DC REIT
 - [[Digital Realty]] — hyperscale REIT
 - [[CoreWeave]] — GPU cloud leader

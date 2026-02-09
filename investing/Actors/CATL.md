@@ -3,7 +3,7 @@ aliases: [Contemporary Amperex Technology]
 ---
 #actor #battery #china #public
 
-**CATL** — #1 global EV battery maker. 38% market share. Supplies Tesla, VW, [[BMW]]. Critical supply chain node.
+**CATL** — \#1 global EV battery maker. 38% market share. Supplies Tesla, VW, [[BMW]]. Critical supply chain node.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Contemporary Amperex Technology]
 |--------|-------|
 | Ticker | 300750.SZ ([[Shenzhen]]), 3750.HK (Hong Kong) |
 | Market share | **38%** global EV batteries (2025) |
-| Position | #1 since 2017 |
+| Position | \#1 since 2017 |
 | Key customers | Tesla, VW, [[BMW]], Mercedes |
 
 ---
@@ -131,10 +131,10 @@ See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories 
 
 ## Related
 
-- [[BYD]] — competitor (#2 globally, vertically integrated)
+- [[BYD]] — competitor (\#2 globally, vertically integrated)
 - [[Tesla]] — customer (LFP supplier)
 - [[Lithium]] — key input
-- [[LG Energy Solution]] — competitor (#3 globally)
+- [[LG Energy Solution]] — competitor (\#3 globally)
 - [[Panasonic]] — competitor (Tesla Gigafactory partner)
 - [[NIO]] — customer (battery swap partnership)
 - [[Capital flow reversal]] — exemplar of [[China]] outbound investment

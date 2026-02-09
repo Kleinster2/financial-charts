@@ -50,7 +50,7 @@ aliases: [ABT, Abbott Laboratories]
 | **Volt PFA System** | Cardiac ablation | FDA approved Dec 2025 |
 | **TactiFlex Duo** | EP catheter | CE Mark Jan 2026 |
 | **Navitor** | TAVR valve | Expanded indications |
-| **Similac** | Infant formula | #2 US market share |
+| **Similac** | Infant formula | \#2 US market share |
 
 ---
 

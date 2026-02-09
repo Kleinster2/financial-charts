@@ -3,7 +3,7 @@ aliases: [Newmark Group, NMRK]
 ---
 #actor #realestate #finance #usa #public
 
-**Newmark Group** — Commercial real estate services firm. **#1 CRE mortgage broker by volume (2024)** — $48B originations (+80% YoY). ~$2.8B revenue. Founded 1929. Fastest-growing CRE services firm since 2011 (+1,000% revenue). CEO [[Barry Gosin]].
+**Newmark Group** — Commercial real estate services firm. **\#1 CRE mortgage broker by volume (2024)** — $48B originations (+80% YoY). ~$2.8B revenue. Founded 1929. Fastest-growing CRE services firm since 2011 (+1,000% revenue). CEO [[Barry Gosin]].
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [Newmark Group, NMRK]
 
 ## Insights
 
-- **#1 CRE mortgage broker (2024)** — Overtook CBRE with $48B volume, up 80% YoY. Aggressive growth in capital markets.
+- **\#1 CRE mortgage broker (2024)** — Overtook CBRE with $48B volume, up 80% YoY. Aggressive growth in capital markets.
 - **Fastest-growing CRE firm** — Revenue up +1,000% since 2011 under Barry Gosin. Organic + acquisitions.
 - **Howard Lutnick connection** — Lutnick (now Commerce Secretary) was Chairman until Feb 2025. BGC Group (Lutnick's company) spun off Newmark in 2018.
 
@@ -59,7 +59,7 @@ aliases: [Newmark Group, NMRK]
 |--------|------|
 | CRE origination volume | **$48B** |
 | YoY growth | **+80%** |
-| Ranking | **#1** |
+| Ranking | **\#1** |
 
 Newmark's capital markets business drove 2024 outperformance as transaction volume recovered.
 
@@ -80,7 +80,7 @@ Newmark's capital markets business drove 2024 outperformance as transaction volu
 
 | Firm | 2024 Revenue | CRE Volume | Focus |
 |------|--------------|------------|-------|
-| **Newmark** | $2.8B | **$48B (#1)** | Capital markets momentum |
+| **Newmark** | $2.8B | **$48B (\#1)** | Capital markets momentum |
 | [[CBRE]] | $35.8B | — | Largest overall |
 | [[JLL]] | $23.4B | — | Global diversified |
 | [[Cushman & Wakefield]] | ~$9B | — | Occupier services |
@@ -90,7 +90,7 @@ Newmark's capital markets business drove 2024 outperformance as transaction volu
 ## Investment implications
 
 **Bull case:**
-- #1 capital markets position
+- \#1 capital markets position
 - Market share gains continuing
 - CRE transaction recovery tailwind
 - Leaner cost structure than peers

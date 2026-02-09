@@ -3,7 +3,7 @@ aliases: [LGES, 373220.KS]
 ---
 #actor #battery #korea #public
 
-**LG Energy Solution** — #3 global EV battery maker. GM Ultium partner. US plants paused amid EV demand slump.
+**LG Energy Solution** — \#3 global EV battery maker. GM Ultium partner. US plants paused amid EV demand slump.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [LGES, 373220.KS]
 | Metric | Value |
 |--------|-------|
 | Ticker | 373220.KS (Korea) |
-| Position | #3 global EV batteries |
+| Position | \#3 global EV batteries |
 | Market share | ~9.3% (2025) |
 | Key partner | GM (Ultium Cells) |
 
@@ -114,9 +114,9 @@ aliases: [LGES, 373220.KS]
 ## Related
 
 - [[GM]] — partner (Ultium Cells JV)
-- [[CATL]] — competitor (#1 globally)
-- [[Panasonic]] — competitor (#4 globally)
-- [[BYD]] — competitor (#2 globally)
+- [[CATL]] — competitor (\#1 globally)
+- [[Panasonic]] — competitor (\#4 globally)
+- [[BYD]] — competitor (\#2 globally)
 - [[Ford]] — customer
 - [[Lithium]] — key input
 

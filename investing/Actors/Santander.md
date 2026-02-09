@@ -28,7 +28,7 @@ aliases: [Banco Santander, Santander Brazil, Santander Brasil]
 **Largest eurozone bank with dominant LatAm franchise:**
 
 - **Scale**: €1.8T+ assets, €12B+ annual profit
-- **Brazil dominance**: Largest foreign bank, #5 overall, ~30% of group profits
+- **Brazil dominance**: Largest foreign bank, \#5 overall, ~30% of group profits
 - **Geographic diversity**: Spain, UK, Brazil, Mexico, US, Portugal, Poland
 - **Digital**: 60M+ digital customers
 
@@ -49,7 +49,7 @@ aliases: [Banco Santander, Santander Brazil, Santander Brasil]
 
 ## [[Santander Brasil]]
 
-**[[Santander Brasil]]** is the crown jewel — #5 Brazil bank, ~30% of group profits. B3: SANB11, NYSE: BSBR. ~R$116B market cap. Built through Banespa (2000) and Banco Real (2007) acquisitions.
+**[[Santander Brasil]]** is the crown jewel — \#5 Brazil bank, ~30% of group profits. B3: SANB11, NYSE: BSBR. ~R$116B market cap. Built through Banespa (2000) and Banco Real (2007) acquisitions.
 
 See [[Santander Brasil]] for full details on financials, investment banking, and deals.
 
@@ -69,7 +69,7 @@ See [[Santander Brasil]] for full details on financials, investment banking, and
 ## Related
 
 ### Subsidiaries
-- [[Santander Brasil]] — Brazilian subsidiary (#5 bank, ~30% of profits)
+- [[Santander Brasil]] — Brazilian subsidiary (\#5 bank, ~30% of profits)
 
 ### Markets
 - [[Brazil]] — largest profit market

@@ -1,6 +1,6 @@
 #actor #company #agtech #agriculture #china #stateowned
 
-**Syngenta Group** — World's largest agrochemical company. #1 crop protection, #3 seeds globally. $60B valuation. Owned 99% by [[ChemChina]] (state-owned). Approved for $9B Shanghai IPO but listing repeatedly delayed. Formed 2020 from merger of Syngenta AG + Adama + Sinochem agriculture.
+**Syngenta Group** — World's largest agrochemical company. \#1 crop protection, \#3 seeds globally. $60B valuation. Owned 99% by [[ChemChina]] (state-owned). Approved for $9B Shanghai IPO but listing repeatedly delayed. Formed 2020 from merger of Syngenta AG + Adama + Sinochem agriculture.
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [Sachem Head Capital Management]
 ---
 #actor #hedgefund #activist #lsequity #usa
 
-**Sachem Head** — Activist hedge fund. Founded by Scott Ferguson (ex-Pershing Square). **+40.6% in 2025** — #1 performer among major funds.
+**Sachem Head** — Activist hedge fund. Founded by Scott Ferguson (ex-Pershing Square). **+40.6% in 2025** — \#1 performer among major funds.
 
 ---
 

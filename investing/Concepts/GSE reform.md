@@ -118,8 +118,8 @@ aliases: [GSE privatization, Fannie Freddie reform, conservatorship exit]
 
 ## Related
 
-- [[Fannie Mae]] — GSE #1
-- [[Freddie Mac]] — GSE #2
+- [[Fannie Mae]] — GSE \#1
+- [[Freddie Mac]] — GSE \#2
 - [[FHFA]] — regulator
 - [[Housing]] — sector hub
 - [[Housing affordability crisis]] — policy context

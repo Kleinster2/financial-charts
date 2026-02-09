@@ -16,7 +16,7 @@ Major smartphone OEM publicly warning on memory costs:
 | Business | Smartphones, IoT, EVs |
 | Memory impact | +25% DRAM cost/phone (2026 budget) |
 | Response | Raising device prices |
-| Position | #3 global smartphone |
+| Position | \#3 global smartphone |
 
 ---
 
@@ -37,7 +37,7 @@ Major smartphone OEM publicly warning on memory costs:
 
 | Metric | Value |
 |--------|-------|
-| Global rank | #3 (behind Apple, Samsung) |
+| Global rank | \#3 (behind Apple, Samsung) |
 | Markets | [[China]], [[India]], [[Europe]] |
 | Strategy | Value flagship |
 | Memory per phone | 8-16GB typical |
@@ -166,7 +166,7 @@ Non-vertically-integrated Android OEMs hurt most.
 | Ticker | 1810 (HK), XIACY (ADR) |
 | Market cap | ~$60B |
 | HQ | Beijing, [[China]] |
-| Smartphone rank | #3 global |
+| Smartphone rank | \#3 global |
 | Memory cost impact | +25% per phone (2026) |
 
 *Updated 2026-01-04*

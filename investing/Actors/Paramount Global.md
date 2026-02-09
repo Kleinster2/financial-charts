@@ -58,7 +58,7 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 
 | Asset | Description |
 |-------|-------------|
-| **CBS** | #1 broadcast network |
+| **CBS** | \#1 broadcast network |
 | **Paramount Pictures** | Top Gun, Mission Impossible |
 | **MTV/Nickelodeon** | Youth/family brands |
 | **Showtime** | Premium cable (merged into Paramount+) |

@@ -74,7 +74,7 @@ Originally targeted 2025, now pushed to H2 2026.
 | Users | 94M |
 | PH population | 118M |
 | Penetration | ~80% |
-| Position | Dominant (#1 digital wallet) |
+| Position | Dominant (\#1 digital wallet) |
 
 GCash is the clear leader in Philippine mobile payments.
 

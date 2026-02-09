@@ -33,9 +33,9 @@ For anyone wanting to run [[Local-first AI]] or [[Agentic AI]] on personal hardw
 
 | Supplier | Position | Market cap | HBM rank |
 |----------|----------|------------|----------|
-| [[SK Hynix]] | 50%+ HBM share, pricing power | ~$100B+ | #1 |
-| [[Samsung]] | Multi-year hyperscaler deals | ~$300B | #2 |
-| [[Micron]] | US-based, HBM ramping | **$461.7B** | #3 |
+| [[SK Hynix]] | 50%+ HBM share, pricing power | ~$100B+ | \#1 |
+| [[Samsung]] | Multi-year hyperscaler deals | ~$300B | \#2 |
+| [[Micron]] | US-based, HBM ramping | **$461.7B** | \#3 |
 
 All three benefit from AI-driven HBM demand. [[Micron]]'s stock performance (+351% in one year) reflects this thesis playing out.
 
@@ -62,9 +62,9 @@ This requires RAM — ideally 32GB+, often 64GB+. If prices rise, the addressabl
 
 | Ticker | 1Y Return | Thesis |
 |--------|-----------|--------|
-| [[Micron]] (MU) | **+351.74%** | #3 HBM, US-based |
-| [[SK Hynix]] | Strong | #1 HBM, pricing power |
-| [[Samsung]] | Mixed | #2 HBM, foundry diversification |
+| [[Micron]] (MU) | **+351.74%** | \#3 HBM, US-based |
+| [[SK Hynix]] | Strong | \#1 HBM, pricing power |
+| [[Samsung]] | Mixed | \#2 HBM, foundry diversification |
 
 All three benefit from AI demand. [[Micron]] is investing $24B in new Singapore facility.
 
@@ -112,8 +112,8 @@ All three benefit from AI demand. [[Micron]] is investing $24B in new Singapore 
 
 ### Actors
 - [[Micron]] — $461.7B market cap, +351% 1Y
-- [[SK Hynix]] — #1 HBM
-- [[Samsung]] — #2 HBM
+- [[SK Hynix]] — \#1 HBM
+- [[Samsung]] — \#2 HBM
 - [[Apple]] — Mac Mini demand from local AI
 
 ### Sources

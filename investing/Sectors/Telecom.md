@@ -194,7 +194,7 @@ Telecommunications — wireless carriers, fiber networks, tower REITs, equipment
 
 ## Related
 
-- [[Verizon]] — US #1 network
+- [[Verizon]] — US \#1 network
 - [[AT&T]] — US carrier, fiber focus
 - [[T-Mobile]] — US growth carrier
 - [[Deutsche Telekom]] — European leader

@@ -3,7 +3,7 @@ aliases: [[[Samsung]] Foundry, [[Samsung]] Electronics Semiconductor]
 ---
 #actor #foundry #memory #korea #public
 
-**[[Samsung]] Semiconductor** — World's largest memory maker, #2 foundry. Aggressive but struggling vs TSMC. Part of [[Samsung]] Electronics conglomerate.
+**[[Samsung]] Semiconductor** — World's largest memory maker, \#2 foundry. Aggressive but struggling vs TSMC. Part of [[Samsung]] Electronics conglomerate.
 
 ---
 
@@ -13,10 +13,10 @@ aliases: [[[Samsung]] Foundry, [[Samsung]] Electronics Semiconductor]
 
 | Business | Position |
 |----------|----------|
-| DRAM | #1 globally (~40% share) |
-| NAND | #2 (behind SK Hynix in value) |
-| Foundry | #2 (distant behind TSMC) |
-| HBM | #3 (behind SK Hynix, Micron) |
+| DRAM | \#1 globally (~40% share) |
+| NAND | \#2 (behind SK Hynix in value) |
+| Foundry | \#2 (distant behind TSMC) |
+| HBM | \#3 (behind SK Hynix, Micron) |
 
 ---
 
@@ -46,9 +46,9 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 
 | Product | Position |
 |---------|----------|
-| DRAM | #1 market share |
-| NAND | #2 (SK Hynix gaining) |
-| HBM | **#3** — struggling |
+| DRAM | \#1 market share |
+| NAND | \#2 (SK Hynix gaining) |
+| HBM | **\#3** — struggling |
 
 **HBM problem:** SK Hynix dominates AI memory. [[Samsung]] late, quality issues with NVIDIA qualification.
 
@@ -102,7 +102,7 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 |--------|-------|
 | Parent | [[Samsung]] Electronics (005930.KS) |
 | Semiconductor revenue | ~$70B |
-| Memory share | DRAM #1, NAND #2 |
+| Memory share | DRAM \#1, NAND \#2 |
 | Foundry share | ~12% (vs TSMC ~60%) |
 | HBM share | ~15% (vs SK Hynix ~50%) |
 | Foundry capex | $300B+ planned over decade |
@@ -115,9 +115,9 @@ See [[Can Samsung ever catch TSMC]] for analysis.
 
 | Aspect | [[Samsung]] | [[TSMC]] | [[SK Hynix]] |
 |--------|---------|----------|--------------|
-| Memory | #1 DRAM | None | #2 DRAM, #1 HBM |
-| Foundry | #2 (struggling) | #1 (dominant) | None |
-| HBM | #3 | None | #1 |
+| Memory | \#1 DRAM | None | \#2 DRAM, \#1 HBM |
+| Foundry | \#2 (struggling) | \#1 (dominant) | None |
+| HBM | \#3 | None | \#1 |
 | Focus | Both | Logic only | Memory only |
 
 ---

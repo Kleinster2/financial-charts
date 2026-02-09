@@ -14,7 +14,7 @@ Alibaba is reinventing itself as an AI company:
 | Metric | Value |
 |--------|-------|
 | AI investment | **$53B+** pledged (2025) |
-| Cloud position | #1 in China (~35% share) |
+| Cloud position | \#1 in China (~35% share) |
 | AI model | Qwen (通义千问) — open source |
 | Developers | 16M on ModelScope |
 | Quark app | ~150M MAU |
@@ -287,7 +287,7 @@ See [[Wearable AI]] for competitive landscape.
 | Market cap | ~$200B+ |
 | HQ | Hangzhou, China |
 | AI investment | $53B+ pledged |
-| Cloud share | #1 China (~35%) |
+| Cloud share | \#1 China (~35%) |
 | AI model | Qwen (open source) |
 | Qwen app | **100M users** |
 | [[Hugging Face]] downloads | **700M+** |

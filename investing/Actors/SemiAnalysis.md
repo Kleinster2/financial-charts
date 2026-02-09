@@ -1,6 +1,6 @@
 #actor #research #semiconductors #ai
 
-**SemiAnalysis** — preeminent independent semiconductor and AI research firm. Founded by [[Dylan Patel]] (2020). #1 tech newsletter on Substack (221K+ subscribers). Known for supply chain scoops, leaked documents, and granular infrastructure tracking.
+**SemiAnalysis** — preeminent independent semiconductor and AI research firm. Founded by [[Dylan Patel]] (2020). \#1 tech newsletter on Substack (221K+ subscribers). Known for supply chain scoops, leaked documents, and granular infrastructure tracking.
 
 ---
 
@@ -23,7 +23,7 @@
 | Role | Name | Background |
 |------|------|------------|
 | Founder, CEO, Chief Analyst | Dylan Patel | University of Georgia. Started consulting 2017, full-time 2020. Tracks AI infra via satellite imagery. |
-| President | Doug O'Laughlin | UT Dallas. Ex-Bowie Capital (Texas). Also runs [[Fabricated Knowledge]] (81K subs, #8 tech Substack). Based in NYC. |
+| President | Doug O'Laughlin | UT Dallas. Ex-Bowie Capital (Texas). Also runs [[Fabricated Knowledge]] (81K subs, \#8 tech Substack). Based in NYC. |
 | COO, Director of Research | Daniel Nishball | Prolific co-author on AI accelerators, supply chain |
 | Analyst | Myron Xie | AI accelerators, HBM focus. Monash (BCom/LLB). |
 | Head of AIUR | Wei Zhou | — |

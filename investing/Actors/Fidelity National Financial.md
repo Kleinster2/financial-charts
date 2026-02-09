@@ -11,10 +11,10 @@ aliases: [FNF, [[Fidelity]] National Title, Chicago Title]
 
 | Metric | Value |
 |--------|-------|
-| Market share | **32%** (#1 in US) |
+| Market share | **32%** (\#1 in US) |
 | Ticker | FNF |
-| Fortune 500 rank | #313 (highest in title industry) |
-| State rankings | #1 or #2 in 39 states |
+| Fortune 500 rank | \#313 (highest in title industry) |
+| State rankings | \#1 or \#2 in 39 states |
 
 ---
 
@@ -87,7 +87,7 @@ aliases: [FNF, [[Fidelity]] National Title, Chicago Title]
 ## Investment implications
 
 **Bull case:**
-- #1 market share, wide moat
+- \#1 market share, wide moat
 - Technology driving margin expansion
 - Commercial strength offsetting residential weakness
 - Housing recovery = volume upside
@@ -103,7 +103,7 @@ aliases: [FNF, [[Fidelity]] National Title, Chicago Title]
 ## Related
 
 - [[Title Insurance]] — sector
-- [[First American Financial]] — #2 title insurer
+- [[First American Financial]] — \#2 title insurer
 - [[Housing]] — sector context
 - [[Mortgage rates]] — refi volume driver
 - [[Rocket Companies]] — customer (title services)

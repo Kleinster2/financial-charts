@@ -13,7 +13,7 @@ aliases: [CHX]
 |--------|-------|
 | Ticker | CHX (NASDAQ) |
 | Market cap | ~$5B |
-| Position | #1 production chemicals |
+| Position | \#1 production chemicals |
 | Focus | Production optimization |
 
 ---

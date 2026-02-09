@@ -147,7 +147,7 @@ COVID devastated, now recovered.
 
 ### OTAs
 - [[Booking Holdings]] — global leader
-- [[Expedia]] — #2 OTA
+- [[Expedia]] — \#2 OTA
 - [[Airbnb]] — alternative lodging
 
 ### Adjacent

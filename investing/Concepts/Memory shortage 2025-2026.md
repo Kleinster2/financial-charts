@@ -196,7 +196,7 @@ These are among the sharpest single-company revisions of the shortage — confir
 | **Both** | Seeking **+70% server DRAM price hikes** |
 | **Stargate** | 900K DRAM wafers/month committed |
 
-**Equipment spending:** Korea back to #2 globally ($29.66B, +27.2% YoY).
+**Equipment spending:** Korea back to \#2 globally ($29.66B, +27.2% YoY).
 
 **New fabs:**
 - SK Hynix M15X (Cheongju) — starting early (Feb 2026)

@@ -107,7 +107,7 @@ See [[Battery supply chain]] for detailed breakdown.
 - [[LFP batteries]] — dominant low-cost chemistry
 - [[Lithium]] — key input material
 - [[Tesla Energy]] — Megapack leader
-- [[CATL]] — global #1
+- [[CATL]] — global \#1
 - [[BYD]] — vertically integrated
 - [[Clean energy for AI]] — storage for datacenters
 

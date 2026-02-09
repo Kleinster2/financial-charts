@@ -96,7 +96,7 @@
 | US purchase volume share | 19% | 52% | 24% |
 | Cards globally | 141M | 1.3B | 1.1B |
 | Avg spend per card | $20,000 | ~$8,000 | ~$8,000 |
-| Premium card market share | **24%** (leads) | #2 | #3 |
+| Premium card market share | **24%** (leads) | \#2 | \#3 |
 | Corporate/T&E spend share | **42%** (leads) | — | — |
 
 **Network model:**

@@ -55,7 +55,7 @@ The cam integration is the [[Flywheel]]: models buy Lovense devices to earn more
 
 | Location | Address | Function |
 |----------|---------|----------|
-| Singapore | 160 Robinson Road, #17-08 | Incorporation, HQ |
+| Singapore | 160 Robinson Road, \#17-08 | Incorporation, HQ |
 | Hong Kong | 12/F AT Tower, 180 Electric Rd, North Point | Regional office |
 | Guangzhou | Room A438, Building 13, Dongsanlu | Operations, R&D |
 

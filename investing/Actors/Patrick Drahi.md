@@ -10,7 +10,7 @@ Acquired Portuguese citizenship in 2015 through Sephardic Jewish heritage (desce
 
 ## Empire Building
 
-**France**: Built Numericable cable network, then acquired SFR from Vivendi (2014) for ~$24B enterprise value, creating France's #2 telecom.
+**France**: Built Numericable cable network, then acquired SFR from Vivendi (2014) for ~$24B enterprise value, creating France's \#2 telecom.
 
 **US**: Bought 70% of Suddenlink (2015), then Cablevision from the Dolan family, forming Altice USA (now Optimum Communications).
 
@@ -24,7 +24,7 @@ Acquired Portuguese citizenship in 2015 through Sephardic Jewish heritage (desce
 
 ## The Unwind
 
-Net worth peaked at $26.5B (2015, Forbes #56 globally, Israel's richest). By Sep 2025: ~$8B (#415) as highly leveraged structure collapsed amid rising rates and cord-cutting.
+Net worth peaked at $26.5B (2015, Forbes \#56 globally, Israel's richest). By Sep 2025: ~$8B (\#415) as highly leveraged structure collapsed amid rising rates and cord-cutting.
 
 Drahi has executed three major creditor-hostile maneuvers in two years, moving assets out of collateral pools and suing lenders. Maintains control through voting shares despite shrinking economic stake.
 

@@ -3,7 +3,7 @@ aliases: [Z, ZG, Zillow Group]
 ---
 #actor #technology #realestate #usa #public
 
-**Zillow** — #1 real estate website by traffic. 227 million monthly users. Zestimate home valuations. Exited iBuying (2021). NASDAQ: Z, ZG.
+**Zillow** — \#1 real estate website by traffic. 227 million monthly users. Zestimate home valuations. Exited iBuying (2021). NASDAQ: Z, ZG.
 
 ---
 
@@ -12,7 +12,7 @@ aliases: [Z, ZG, Zillow Group]
 | Metric | Value |
 |--------|-------|
 | Monthly unique visitors | **227 million** |
-| Market position | **#1** real estate web traffic |
+| Market position | **\#1** real estate web traffic |
 | 2024 revenue | $2.2B (+15% YoY) |
 | Q1 2025 revenue | $598M (+13% YoY) |
 | Ticker | Z (Class C), ZG (Class A) |
@@ -63,12 +63,12 @@ aliases: [Z, ZG, Zillow Group]
 
 | Company | Focus |
 |---------|-------|
-| **Zillow** | #1 traffic, consumer brand |
-| [[CoStar Group]] (Homes.com) | #2 traffic, aggressive growth |
+| **Zillow** | \#1 traffic, consumer brand |
+| [[CoStar Group]] (Homes.com) | \#2 traffic, aggressive growth |
 | Realtor.com (News Corp) | NAR partnership |
 | Redfin | Now part of [[Rocket Companies]] |
 
-**Threat:** CoStar's Homes.com grew to #2 with 111M monthly visitors.
+**Threat:** CoStar's Homes.com grew to \#2 with 111M monthly visitors.
 
 ---
 
@@ -87,7 +87,7 @@ aliases: [Z, ZG, Zillow Group]
 ## Investment implications
 
 **Bull case:**
-- Dominant consumer brand (#1 traffic)
+- Dominant consumer brand (\#1 traffic)
 - Housing recovery = more transactions
 - Mortgage business growing
 - Rental marketplace expansion

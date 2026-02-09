@@ -85,7 +85,7 @@ Lowest margins among Big Three, but specialty focus improving mix.
 
 **Bear case:**
 - Customer concentration risk (lost OptumRx, could lose others)
-- #3 position in oligopoly
+- \#3 position in oligopoly
 - Medical products segment margin pressure
 - Opioid litigation tail risk
 
@@ -94,8 +94,8 @@ Lowest margins among Big Three, but specialty focus improving mix.
 ## Related
 
 - [[Healthcare]] — sector hub
-- [[McKesson]] — Big Three peer (#1), took OptumRx contract
-- [[Cencora]] — Big Three peer (#2)
+- [[McKesson]] — Big Three peer (\#1), took OptumRx contract
+- [[Cencora]] — Big Three peer (\#2)
 - [[UnitedHealth]] — former customer (OptumRx)
 
 ---

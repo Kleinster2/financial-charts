@@ -43,7 +43,7 @@ After water, the most consumed substance on Earth — 25-30 billion metric tons 
 | Company | HQ | Notes |
 |---------|-----|-------|
 | **Holcim** | Switzerland | Largest globally, spun from LafargeHolcim |
-| **HeidelbergCement** | Germany | #2 globally |
+| **HeidelbergCement** | Germany | \#2 globally |
 | **Cemex** | Mexico | LatAm leader |
 | **Anhui Conch** | China | Largest Chinese producer |
 | **China National Building Material** | China | State-owned consolidator |

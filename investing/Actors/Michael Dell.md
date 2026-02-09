@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #founder #investor
 
-**Michael Dell** — Founder & CEO of [[Dell|Dell Technologies]]. Founded 1984 at 19 in UT Austin dorm. Net worth $151B (#10 globally). Runs [[DFO Management]] family office.
+**Michael Dell** — Founder & CEO of [[Dell|Dell Technologies]]. Founded 1984 at 19 in UT Austin dorm. Net worth $151B (\#10 globally). Runs [[DFO Management]] family office.
 
 ---
 

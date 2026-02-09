@@ -1,6 +1,6 @@
 #actor #vc #usa #investor
 
-**Glynn Capital** — Growth-stage tech VC based in Menlo Park. **$1.6B AUM**. Focuses on Series C/D rounds. 22 unicorns in portfolio. Lead investor in [[Infleqtion]] Series C. Ranked #198 on TIME's Top VCs 2025.
+**Glynn Capital** — Growth-stage tech VC based in Menlo Park. **$1.6B AUM**. Focuses on Series C/D rounds. 22 unicorns in portfolio. Lead investor in [[Infleqtion]] Series C. Ranked \#198 on TIME's Top VCs 2025.
 
 ---
 

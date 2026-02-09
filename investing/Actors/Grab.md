@@ -18,7 +18,7 @@ SEA super-app:
 | Headquarters | Singapore |
 | Markets | 8 SEA countries |
 
-#1 ride-hailing in [[Southeast Asia]].
+\#1 ride-hailing in [[Southeast Asia]].
 
 ---
 
@@ -39,13 +39,13 @@ Super-app model.
 
 | Country | Position |
 |---------|----------|
-| Singapore | #1 |
-| Malaysia | #1 |
-| Indonesia | Strong (#2 to Gojek) |
+| Singapore | \#1 |
+| Malaysia | \#1 |
+| Indonesia | Strong (\#2 to Gojek) |
 | Vietnam | Strong |
-| Thailand | #1 |
-| Philippines | #1 |
-| Cambodia | #1 |
+| Thailand | \#1 |
+| Philippines | \#1 |
+| Cambodia | \#1 |
 | Myanmar | Exited |
 
 Regional dominance except Indonesia GoTo.

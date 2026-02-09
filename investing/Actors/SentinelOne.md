@@ -3,7 +3,7 @@ aliases: [S]
 ---
 #actor #cybersecurity #usa #public
 
-**SentinelOne** — #2 endpoint security. AI-native platform. CrowdStrike challenger.
+**SentinelOne** — \#2 endpoint security. AI-native platform. CrowdStrike challenger.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [S]
 |--------|-------|
 | Ticker | S (NYSE) |
 | Market cap | ~$8B |
-| Position | #2 endpoint security |
+| Position | \#2 endpoint security |
 | Key product | Singularity platform |
 
 ---
@@ -37,7 +37,7 @@ aliases: [S]
 
 | Factor | SentinelOne | CrowdStrike |
 |--------|-------------|-------------|
-| Market share | #2 | #1 |
+| Market share | \#2 | \#1 |
 | AI approach | Autonomous | Human + AI |
 | July 2024 outage | Beneficiary | Suffered |
 | Scale | Smaller | Larger |
@@ -55,7 +55,7 @@ aliases: [S]
 - Platform expansion
 
 **Bear:**
-- Distant #2 to CrowdStrike
+- Distant \#2 to CrowdStrike
 - Not yet profitable
 - [[Microsoft]] bundling threat
 - Palo Alto platformization
@@ -77,6 +77,6 @@ aliases: [S]
 
 ## Related
 
-- [[CrowdStrike]] — competitor (#1 endpoint)
+- [[CrowdStrike]] — competitor (\#1 endpoint)
 - [[Palo Alto Networks]] — competitor (platform)
 - [[Cybersecurity consolidation]] — thesis context

@@ -38,8 +38,8 @@ Overview of consumer sector: retail, e-commerce, consumer goods, and discretiona
 | Segment | Position |
 |---------|----------|
 | E-commerce | ~40% US share |
-| Cloud (AWS) | #1 globally |
-| Advertising | #3 (after Google, Meta) |
+| Cloud (AWS) | \#1 globally |
+| Advertising | \#3 (after Google, Meta) |
 | Logistics | Rival to UPS/FedEx |
 
 ---

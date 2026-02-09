@@ -20,7 +20,7 @@ Applied Materials is the most diversified WFE play. Exposure across deposition, 
 | Segment | Description | Position |
 |---------|-------------|----------|
 | Deposition (CVD, PVD) | Deposits thin films | Leader |
-| Etch | Removes material | Strong (#2 to Lam) |
+| Etch | Removes material | Strong (\#2 to Lam) |
 | Ion implant | Dopes silicon with impurities | Leader |
 | CMP | Chemical-mechanical polishing | Strong |
 | Inspection | Process control | Growing |

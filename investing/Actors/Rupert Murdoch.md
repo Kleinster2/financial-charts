@@ -64,7 +64,7 @@ aliases: [Murdoch, Keith Rupert Murdoch]
 
 | Metric | Value |
 |--------|-------|
-| Position | #1 cable news (23 years) |
+| Position | \#1 cable news (23 years) |
 | Revenue | ~50% of Fox Corporation |
 | Margin | Extremely high |
 | Influence | Republican kingmaker |

@@ -3,7 +3,7 @@ aliases: [Freedom Mortgage Corporation]
 ---
 #actor #finance #realestate #usa #private
 
-**Freedom Mortgage** — **#1 VA and FHA lender.** $122B production volume (2024), $625B servicing portfolio, 2.5M homeowners serviced. Founded 1990 by Stanley Middleman. Private, Boca Raton HQ. Government-insured loan specialist.
+**Freedom Mortgage** — **\#1 VA and FHA lender.** $122B production volume (2024), $625B servicing portfolio, 2.5M homeowners serviced. Founded 1990 by Stanley Middleman. Private, Boca Raton HQ. Government-insured loan specialist.
 
 ---
 
@@ -16,7 +16,7 @@ aliases: [Freedom Mortgage Corporation]
 | 2024 loans funded | 316,000+ |
 | Servicing portfolio | **$625B** |
 | Homeowners serviced | 2.5M |
-| VA/FHA rank | **#1** |
+| VA/FHA rank | **\#1** |
 | Founded | 1990 |
 | HQ | Boca Raton, FL |
 | Founder/CEO | Stanley C. Middleman |
@@ -25,9 +25,9 @@ aliases: [Freedom Mortgage Corporation]
 
 ## Insights
 
-- **Government loan dominance** — #1 VA and FHA lender for multiple years. Serves veterans and first-time homebuyers that conventional lenders often avoid.
+- **Government loan dominance** — \#1 VA and FHA lender for multiple years. Serves veterans and first-time homebuyers that conventional lenders often avoid.
 - **Servicing is the strategy** — Grew correspondent and bulk acquisition channels to build servicing portfolio. $625B UPB is the recurring revenue engine.
-- **Middleman's vision** — 30+ years building Freedom Mortgage. Biography "Seeing Around Corners" (Forbes Books, 2024) was Amazon #1 in multiple categories.
+- **Middleman's vision** — 30+ years building Freedom Mortgage. Biography "Seeing Around Corners" (Forbes Books, 2024) was Amazon \#1 in multiple categories.
 
 ---
 
@@ -61,8 +61,8 @@ aliases: [Freedom Mortgage Corporation]
 
 | Award | Notes |
 |-------|-------|
-| **#1 VA lender** | Multiple years |
-| **#1 FHA lender** | Multiple years |
+| **\#1 VA lender** | Multiple years |
+| **\#1 FHA lender** | Multiple years |
 | **Fannie Mae STAR Performer** | 9th consecutive year (2025) |
 
 ---
@@ -81,8 +81,8 @@ Middleman founded Freedom Mortgage in 1990. Over 30 years in mortgage banking. A
 
 | Lender | VA/FHA Focus | Model |
 |--------|--------------|-------|
-| **Freedom Mortgage** | **#1 VA, #1 FHA** | Originate + service |
-| [[Veterans United]] | #1 VA by count | VA specialist |
+| **Freedom Mortgage** | **\#1 VA, \#1 FHA** | Originate + service |
+| [[Veterans United]] | \#1 VA by count | VA specialist |
 | [[Pennymac]] | Top producer | Correspondent + service |
 | [[Navy Federal Credit Union]] | Top 10 VA | Credit union |
 

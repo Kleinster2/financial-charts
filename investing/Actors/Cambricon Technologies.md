@@ -80,7 +80,7 @@ Revenue growing but not yet profitable. Heavy R&D investment.
 
 | vs | Position |
 |----|----------|
-| [[Huawei]] | #2 in China, trails Ascend scale |
+| [[Huawei]] | \#2 in China, trails Ascend scale |
 | [[Biren]] | Similar tier, competing |
 | NVIDIA | Domestic alternative |
 

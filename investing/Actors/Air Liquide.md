@@ -17,7 +17,7 @@ Largest European semiconductor gas supplier, expanding aggressively:
 | Market cap | ~€90B |
 | Group revenue | ~€27B |
 | Electronics revenue | €2.5B (2024) |
-| Position | #1 [[Europe]], top 3 global |
+| Position | \#1 [[Europe]], top 3 global |
 
 ---
 

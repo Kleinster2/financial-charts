@@ -42,7 +42,7 @@ Open-source multimodal model:
 
 | [[Benchmark]] | Score |
 |-----------|-------|
-| HLE-Full | **#1** (highest ever) |
+| HLE-Full | **\#1** (highest ever) |
 | SWE-Bench Verified | 76.8% |
 | SWE-Bench Multilingual | 73.0% |
 | Terminal-Bench 2.0 | 50.8% |

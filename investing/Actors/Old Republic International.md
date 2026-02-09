@@ -3,7 +3,7 @@ aliases: [Old Republic, ORI, Old Republic Title]
 ---
 #actor #insurance #realestate #usa #public
 
-**Old Republic International** — Diversified insurer with major title insurance business. **#3 title insurer** (14% share). Two segments: Specialty Insurance + Title Insurance. 100+ year history. Strong capital returns ($2.50 special dividend Dec 2025).
+**Old Republic International** — Diversified insurer with major title insurance business. **\#3 title insurer** (14% share). Two segments: Specialty Insurance + Title Insurance. 100+ year history. Strong capital returns ($2.50 special dividend Dec 2025).
 
 ---
 
@@ -14,7 +14,7 @@ aliases: [Old Republic, ORI, Old Republic Title]
 | Ticker | ORI (NYSE) |
 | Market cap | ~$10B |
 | TTM Revenue | $9.2B |
-| Title market share | **14%** (#3) |
+| Title market share | **14%** (\#3) |
 | 2025 net income | $935M |
 | Book value/share | $24.21 (+22% YoY) |
 | Special dividend | $2.50 (Dec 2025) |
@@ -112,7 +112,7 @@ ECM acquisition (announced Oct 2025) expands specialty insurance.
 - Conservative underwriting
 
 **Bear case:**
-- #3 in title (smaller than FNF, FAF)
+- \#3 in title (smaller than FNF, FAF)
 - Specialty insurance cyclicality
 - Combined ratio widening (96% vs 92.7%)
 - Less technology investment than leaders
@@ -126,8 +126,8 @@ ECM acquisition (announced Oct 2025) expands specialty insurance.
 ## Related
 
 - [[Title Insurance]] — sector
-- [[Fidelity National Financial]] — #1 title insurer
-- [[First American Financial]] — #2 title insurer
-- [[Stewart Information Services]] — #4 title insurer
+- [[Fidelity National Financial]] — \#1 title insurer
+- [[First American Financial]] — \#2 title insurer
+- [[Stewart Information Services]] — \#4 title insurer
 - [[Insurance]] — parent sector
 - [[Housing]] — transaction volume driver

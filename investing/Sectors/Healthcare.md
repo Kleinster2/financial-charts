@@ -180,8 +180,8 @@ See [[AI drug discovery]] for detail.
 - [[Boston Scientific]] — fastest-growing large-cap, FARAPULSE PFA
 
 **Hospitals:**
-- [[HCA Healthcare]] — #1 for-profit, 190 hospitals, Sun Belt focus
-- [[Universal Health Services]] — #2 for-profit, behavioral health leader
+- [[HCA Healthcare]] — \#1 for-profit, 190 hospitals, Sun Belt focus
+- [[Universal Health Services]] — \#2 for-profit, behavioral health leader
 
 **Distributors/PBMs:** See [[Drug Distribution]]
 - [[McKesson]] · [[Cencora]] · [[Cardinal Health]]

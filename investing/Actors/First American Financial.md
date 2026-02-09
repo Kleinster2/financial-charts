@@ -3,7 +3,7 @@ aliases: [FAF, First American Title]
 ---
 #actor #finance #insurance #realestate #usa #public
 
-**First American Financial** — #2 US title insurer. 135-year history. Leading digital transformation with proprietary technology. NYSE: FAF.
+**First American Financial** — \#2 US title insurer. 135-year history. Leading digital transformation with proprietary technology. NYSE: FAF.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: [FAF, First American Title]
 
 | Metric | Value |
 |--------|-------|
-| Market position | **#2** title insurer |
+| Market position | **\#2** title insurer |
 | Ticker | FAF |
 | History | 135 years |
 | TTM revenue (Sep 2025) | $7.1B |
@@ -48,10 +48,10 @@ aliases: [FAF, First American Title]
 
 | Company | Market position |
 |---------|-----------------|
-| [[Fidelity National Financial]] | #1 (32% share) |
-| **First American** | **#2** |
-| Old [[Republic]] | #3 |
-| Stewart | #4 |
+| [[Fidelity National Financial]] | \#1 (32% share) |
+| **First American** | **\#2** |
+| Old [[Republic]] | \#3 |
+| Stewart | \#4 |
 
 **Four-player oligopoly** — high barriers (licensing, data, relationships).
 
@@ -83,7 +83,7 @@ aliases: [FAF, First American Title]
 ## Investment implications
 
 **Bull case:**
-- #2 in oligopoly market
+- \#2 in oligopoly market
 - Digital transformation leader
 - Strong revenue recovery (+41% Q3)
 - Commercial strength
@@ -92,7 +92,7 @@ aliases: [FAF, First American Title]
 **Bear case:**
 - Cyclical business
 - Rate sensitivity
-- #2 to FNF's #1
+- \#2 to FNF's \#1
 - Transaction volume volatility
 
 ---
@@ -100,7 +100,7 @@ aliases: [FAF, First American Title]
 ## Related
 
 - [[Title Insurance]] — sector
-- [[Fidelity National Financial]] — #1 competitor
+- [[Fidelity National Financial]] — \#1 competitor
 - [[Housing]] — sector context
 - [[Mortgage rates]] — volume driver
 - [[Rocket Companies]] — customer

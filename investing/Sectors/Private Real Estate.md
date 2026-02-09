@@ -15,8 +15,8 @@ Private real estate investment — developers, operators, and fund managers who 
 
 | Firm | RE AUM | Total AUM | Notes |
 |------|--------|-----------|-------|
-| **[[Blackstone]]** | $339B | $1.2T | #1 since 2008, BREIT, opportunistic + core |
-| **[[Brookfield]]** | ~$277B | ~$1T | #2, diversified global portfolio |
+| **[[Blackstone]]** | $339B | $1.2T | \#1 since 2008, BREIT, opportunistic + core |
+| **[[Brookfield]]** | ~$277B | ~$1T | \#2, diversified global portfolio |
 | **Starwood Capital** | $115B | — | Barry Sternlicht, hospitality roots |
 
 [[Blackstone]] raised $52B for closed-end RE funds in 5 years — 2x the next competitor.
@@ -25,7 +25,7 @@ Private real estate investment — developers, operators, and fund managers who 
 
 | Firm | 5-Year RE Fundraising | 2025 PERE Rank |
 |------|----------------------|----------------|
-| **[[KKR]]** | — | #5 (jumped from #12) |
+| **[[KKR]]** | — | \#5 (jumped from \#12) |
 | **[[Carlyle Group]]** | — | Top 10 (new entrant) |
 | **[[Ares Management]]** | $14.6B | Top 10 |
 
@@ -208,9 +208,9 @@ Select retail formats recovering:
 - [[Housing]] — residential real estate
 
 **Mega-managers:**
-- [[Blackstone]] — #1 private RE manager ($339B)
-- [[Brookfield]] — #2 private RE manager (~$277B)
-- [[KKR]] — #5 in 2025 PERE rankings
+- [[Blackstone]] — \#1 private RE manager ($339B)
+- [[Brookfield]] — \#2 private RE manager (~$277B)
+- [[KKR]] — \#5 in 2025 PERE rankings
 - [[Carlyle Group]] — top 10 in 2025
 - [[Ares Management]] — top 10, acquired GLP non-China
 

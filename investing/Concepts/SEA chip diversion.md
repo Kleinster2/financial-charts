@@ -77,13 +77,13 @@ Instead of smuggling chips into mainland [[China]], Chinese tech firms now build
 
 ## Chinese companies are major NVIDIA buyers
 
-Despite "zero [[China]] forecast," Chinese companies are #2 and #3 NVIDIA customers (2024 Hopper shipments, [[Omdia]]):
+Despite "zero [[China]] forecast," Chinese companies are \#2 and \#3 NVIDIA customers (2024 Hopper shipments, [[Omdia]]):
 
 | Customer | GPUs (000s) | Notes |
 |----------|-------------|-------|
-| [[Microsoft]] | ~485K | #1 |
-| **ByteDance** | **~250K** | #2, Chinese |
-| **Tencent** | **~220K** | #3, Chinese |
+| [[Microsoft]] | ~485K | \#1 |
+| **ByteDance** | **~250K** | \#2, Chinese |
+| **Tencent** | **~220K** | \#3, Chinese |
 | [[Meta]] | ~200K | |
 | [[Tesla]]/[[xAI]] | ~170K | |
 

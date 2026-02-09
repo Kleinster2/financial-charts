@@ -12,7 +12,7 @@ aliases: [Greenlight Planet]
 | Metric | Value |
 |--------|-------|
 | Type | Off-grid solar equipment |
-| Position | **#1 globally** |
+| Position | **\#1 globally** |
 | Nigeria sales | **75,000 kits/month** |
 | 2020 Nigeria sales | 3,000 kits/month |
 | Growth | **25x in 4 years** |

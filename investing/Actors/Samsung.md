@@ -16,7 +16,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 
 ## Key concepts
 
-- [[Why Samsung's aggression may be rational]] — #2 position forces risk-taking
+- [[Why Samsung's aggression may be rational]] — \#2 position forces risk-taking
 - [[Execution risk in foundries]] — Samsung's defining challenge
 - [[Yield as competitive moat]] — the gap Samsung must close
 
@@ -67,7 +67,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 - Expected operational: 2028
 - Focus: Advanced memory for AI
 
-**Context:** Korea back to #2 in global chip equipment spending ($29.66B, +27.2% YoY).
+**Context:** Korea back to \#2 in global chip equipment spending ($29.66B, +27.2% YoY).
 
 ## Open questions
 
@@ -162,7 +162,7 @@ What consensus assumes (update when you see estimates):
 
 ## [[Consumer]] electronics / Display ([[CES 2026]])
 
-**Samsung is also world's #1 TV maker.** Non-semiconductor revenue diversification:
+**Samsung is also world's \#1 TV maker.** Non-semiconductor revenue diversification:
 
 **Micro RGB technology (Jan 2026):**
 - New LCD backlighting tech — individual R/G/B backlights vs white/blue
@@ -215,8 +215,8 @@ This contributes to [[HBM economics]] — consumer DRAM getting squeezed as capa
 - [[Memory]] — parent sector
 
 ### Competitors
-- [[SK Hynix]] — Korean rival ([[HBM]] leader, Samsung #2)
-- [[TSMC]] — foundry competitor (#1 foundry, Samsung #2)
+- [[SK Hynix]] — Korean rival ([[HBM]] leader, Samsung \#2)
+- [[TSMC]] — foundry competitor (\#1 foundry, Samsung \#2)
 - [[Micron]] — US memory competitor
 
 ### Context

@@ -16,8 +16,8 @@ US-based memory companies. Trades as a distinct cluster (0.50 correlation) separ
 
 | Company | Focus | Position |
 |---------|-------|----------|
-| [[Micron]] | DRAM + NAND + HBM | #3 DRAM, #4 NAND, #3 HBM |
-| [[SanDisk]] | NAND (pure-play) | #5 NAND, spun from WDC Feb 2025 |
+| [[Micron]] | DRAM + NAND + HBM | \#3 DRAM, \#4 NAND, \#3 HBM |
+| [[SanDisk]] | NAND (pure-play) | \#5 NAND, spun from WDC Feb 2025 |
 | [[Western Digital]] | HDD (post-spinoff) | Former memory, now storage |
 
 ---
@@ -46,7 +46,7 @@ US Memory moves with US market sentiment, not Korean memory peers.
 
 | Factor | US Memory | vs Korea Memory |
 |--------|-----------|-----------------|
-| HBM exposure | Micron #3 (catching up) | SK Hynix #1, Samsung #2 |
+| HBM exposure | Micron \#3 (catching up) | SK Hynix \#1, Samsung \#2 |
 | NAND strength | SanDisk pure-play | Kioxia JV partner |
 | Geopolitical | CHIPS Act beneficiary | Export control risk |
 | Currency | USD | KRW exposure |

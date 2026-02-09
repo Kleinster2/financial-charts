@@ -92,7 +92,7 @@ See [[Susquehanna]] for full firm profile.
 | Cycle | Amount | Notes |
 |-------|--------|-------|
 | 2020 | $25.[[3M]] | Top 10 US donor; 47 recipients sought to overturn 2020 election |
-| 2022 | $47M | #3 conservative donor |
+| 2022 | $47M | \#3 conservative donor |
 | 2024 | ~$100M | To Republican groups/campaigns |
 | 2025 (H1) | $16M | MAGA Inc. — largest donor to the PAC |
 
@@ -109,7 +109,7 @@ See [[Susquehanna]] for full firm profile.
 
 ### School choice focus
 
-By all accounts, Yass's #1 political priority is **school choice** — taxpayer funding for private school alternatives.
+By all accounts, Yass's \#1 political priority is **school choice** — taxpayer funding for private school alternatives.
 
 - Co-founded Students First PAC
 - Donations contingent on candidates' school choice positions

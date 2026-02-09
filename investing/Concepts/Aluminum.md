@@ -99,8 +99,8 @@ Aluminum production: Bauxite → Alumina → Primary Aluminum
 
 | Country | Position | Notes |
 |---------|----------|-------|
-| **Guinea** | #1 exporter | 99.8M tonnes H1 2025 (+36% YoY); 80% of China imports |
-| **Australia** | #1 producer | 100-105M tonnes/year; domestic refining |
+| **Guinea** | \#1 exporter | 99.8M tonnes H1 2025 (+36% YoY); 80% of China imports |
+| **Australia** | \#1 producer | 100-105M tonnes/year; domestic refining |
 | **Indonesia** | Growing | Export ban lifted; domestic smelter focus |
 | **Sierra Leone** | Emerging | 5M tonnes 2025 → 7M tonnes 2026 |
 | **Cameroon** | Emerging | Minim Martap: 6M tonnes by Q1 2026 |

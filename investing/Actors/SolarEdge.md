@@ -13,7 +13,7 @@ SolarEdge is a cautionary tale in clean energy:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #2 inverters (behind Enphase in resi) |
+| Market position | \#2 inverters (behind Enphase in resi) |
 | Architecture | String inverters + DC optimizers |
 | Crisis | Inventory glut, demand collapse (2023-24) |
 | Geography | More European exposure than Enphase |

@@ -59,7 +59,7 @@ parent_concept: "[[Frontier models]]"
 | Multimodal | Yes (vision) |
 | Multilingual | Yes |
 | License | Apache 2.0 |
-| Ranking | #2 OSS non-reasoning (LMArena) |
+| Ranking | \#2 OSS non-reasoning (LMArena) |
 
 ---
 

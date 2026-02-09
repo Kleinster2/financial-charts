@@ -20,7 +20,7 @@
 
 | Goal | Description |
 |------|-------------|
-| Permian dominance | #1 Permian producer |
+| Permian dominance | \#1 Permian producer |
 | Inventory | 20+ years drilling locations |
 | Synergies | $2B+ cost savings |
 | Scale | 1.[[3M]] boe/d production |

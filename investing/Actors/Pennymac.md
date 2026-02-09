@@ -3,7 +3,7 @@ aliases: [PennyMac, PennyMac Financial Services, PFSI, Pennymac Financial]
 ---
 #actor #finance #realestate #usa #public
 
-**Pennymac Financial Services** — **#2 mortgage producer, #6 servicer, #1 correspondent lender.** ~$100B annual correspondent volume (~20% market share). Dual model: originate + service. Public (NYSE: PFSI). Also manages [[PennyMac Mortgage Investment Trust]] (PMT).
+**Pennymac Financial Services** — **\#2 mortgage producer, \#6 servicer, \#1 correspondent lender.** ~$100B annual correspondent volume (~20% market share). Dual model: originate + service. Public (NYSE: PFSI). Also manages [[PennyMac Mortgage Investment Trust]] (PMT).
 
 ---
 
@@ -42,7 +42,7 @@ aliases: [PennyMac, PennyMac Financial Services, PFSI, Pennymac Financial]
 
 | Channel | Description | Volume |
 |---------|-------------|--------|
-| **Correspondent** | Buy closed loans from originators | ~$100B/year, #1 |
+| **Correspondent** | Buy closed loans from originators | ~$100B/year, \#1 |
 | **Broker** | Fund broker-originated loans | $7.2B locked Q2 2025 |
 | **Consumer direct** | Retail origination | Smaller |
 
@@ -83,9 +83,9 @@ aliases: [PennyMac, PennyMac Financial Services, PFSI, Pennymac Financial]
 
 | Lender | Model | Strength |
 |--------|-------|----------|
-| [[UWM]] | Wholesale | #1 wholesale |
+| [[UWM]] | Wholesale | \#1 wholesale |
 | [[Rocket Companies]] | Retail/DTC + servicing | Scale, brand |
-| **Pennymac** | **Correspondent + servicing** | #1 correspondent |
+| **Pennymac** | **Correspondent + servicing** | \#1 correspondent |
 | [[loanDepot]] | Retail | Struggling |
 
 ---

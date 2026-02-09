@@ -46,7 +46,7 @@ See [[Venezuela]], [[Maduro capture 2026]].
 
 | Product | US was | Now |
 |---------|--------|-----|
-| Soybeans | #1 supplier to [[China]] | #2 ([[Brazil]] is #1) |
+| Soybeans | \#1 supplier to [[China]] | \#2 ([[Brazil]] is \#1) |
 | Other grains | Major | Diversified |
 
 **2018 lesson:** [[China]] pivoted to [[Brazil]]/[[Argentina]] during trade war. Never came back fully.

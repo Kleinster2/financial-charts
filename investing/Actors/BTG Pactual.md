@@ -37,7 +37,7 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 |--------|-------|
 | Role | Senior Partner & Chairman |
 | Net worth | ~$6.9B (Forbes, Mar 2025) |
-| Rank | #6 richest Brazilian |
+| Rank | \#6 richest Brazilian |
 | Background | Ex-[[UBS]] Latin America CEO |
 
 **Story:** Esteves co-founded BTG (Banking & Trading Group), then acquired [[UBS]] Pactual in 2009 after [[UBS]] needed to sell during financial crisis. Built it into LatAm's largest investment bank.
@@ -64,7 +64,7 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 
 | Segment | Description |
 |---------|-------------|
-| **Investment Banking** | M&A, ECM, DCM — #1 in LatAm |
+| **Investment Banking** | M&A, ECM, DCM — \#1 in LatAm |
 | **Corporate Lending** | Credit to large corporates |
 | **Sales & Trading** | Fixed income, equities, FX |
 | **Wealth Management** | HNWI and family offices |
@@ -119,7 +119,7 @@ AUM grew from R$768B (Q2 2023) to R$920B (Q2 2024).
 
 **Why BTG Pactual matters:**
 
-1. **LatAm IB monopoly** — #1 investment bank, dominates M&A/capital markets.
+1. **LatAm IB monopoly** — \#1 investment bank, dominates M&A/capital markets.
 
 2. **Esteves factor** — Brilliant but controversial; key man risk.
 

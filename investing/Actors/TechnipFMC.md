@@ -13,7 +13,7 @@ aliases: [FTI, Technip]
 |--------|-------|
 | Ticker | FTI (NYSE) |
 | Market cap | ~$12B |
-| Position | #1 subsea |
+| Position | \#1 subsea |
 | Focus | Offshore/deepwater |
 
 ---

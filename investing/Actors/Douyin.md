@@ -64,9 +64,9 @@ China's most engaging social platform and fastest-growing e-commerce channel.
 
 | Platform | Live commerce GMV share |
 |----------|------------------------|
-| **Douyin** | #1 (overtook Taobao) |
-| Kuaishou | #2 |
-| Taobao | #3 (was #1 until 2022) |
+| **Douyin** | \#1 (overtook Taobao) |
+| Kuaishou | \#2 |
+| Taobao | \#3 (was \#1 until 2022) |
 
 **Why Douyin wins at live commerce:**
 - Discovery-based (algorithm serves products you didn't know you wanted)

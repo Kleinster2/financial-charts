@@ -3,7 +3,7 @@ aliases: [Sociedad Química y Minera]
 ---
 #actor #lithium #mining #chile #public
 
-**SQM** — Chilean lithium giant. Atacama Desert operations. #2 global lithium producer.
+**SQM** — Chilean lithium giant. Atacama Desert operations. \#2 global lithium producer.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Sociedad Química y Minera]
 |--------|-------|
 | Ticker | SQM (NYSE ADR) |
 | Market cap | ~$12B |
-| Position | #2 global lithium |
+| Position | \#2 global lithium |
 | Key asset | Atacama Desert (Chile) |
 
 ---
@@ -108,7 +108,7 @@ SQM benefits from any lithium price recovery.
 |--------|-------|
 | Ticker | SQM (NYSE) |
 | Market cap | ~$12B |
-| Position | #2 global lithium |
+| Position | \#2 global lithium |
 | Key asset | Atacama Desert |
 | Risk | Nationalization |
 
@@ -119,7 +119,7 @@ SQM benefits from any lithium price recovery.
 ## Related
 
 - [[Lithium]] — commodity
-- [[Albemarle]] — competitor (#1 Western)
+- [[Albemarle]] — competitor (\#1 Western)
 - [[Chile]] — country (political risk)
 - [[CATL]] — customer
 - [[Tesla]] — end customer

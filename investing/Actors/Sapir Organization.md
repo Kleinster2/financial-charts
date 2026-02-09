@@ -30,7 +30,7 @@ Family-controlled NYC developer with an outsized history relative to current sca
 - Started with a taxi medallion and an electronics store on lower Fifth Avenue
 - Traded electronics and clothing for exclusive rights to sell Soviet oil to American companies in the 1980s
 - Invested profits into Manhattan real estate during the early 1990s slump
-- Net worth peaked at $2B (Forbes 2007); ranked #246 on Forbes 400 (2008)
+- Net worth peaked at $2B (Forbes 2007); ranked \#246 on Forbes 400 (2008)
 - Died September 26, 2014, cardiac arrest, age 67
 
 **Alex Sapir (b. 1980):**

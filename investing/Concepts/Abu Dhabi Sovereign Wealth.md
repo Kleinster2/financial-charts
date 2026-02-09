@@ -74,7 +74,7 @@ Both Sheikh Tahnoon and Sheikh Mansour are brothers — sons of UAE founding fat
 ## Industry evolution
 
 ![[abu-dhabi-industry-ranking.png]]
-*Abu Dhabi's investment focus shifted dramatically: AI/data centers rose from near-bottom to #2 by 2025. (Bloomberg, Dec 2025)*
+*Abu Dhabi's investment focus shifted dramatically: AI/data centers rose from near-bottom to \#2 by 2025. (Bloomberg, Dec 2025)*
 
 | Year | Top sectors |
 |------|-------------|

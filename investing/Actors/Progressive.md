@@ -46,10 +46,10 @@ aliases: [PGR]
 
 | Insurer | Auto Premiums |
 |---------|---------------|
-| State Farm | #1 |
-| GEICO (Berkshire) | #2 |
-| **Progressive** | #3 |
-| Allstate | #4 |
+| State Farm | \#1 |
+| GEICO (Berkshire) | \#2 |
+| **Progressive** | \#3 |
+| Allstate | \#4 |
 
 Gaining share via direct channel.
 

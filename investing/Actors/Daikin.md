@@ -85,7 +85,7 @@ US is key focus for DC opportunity.
 ## Investment case
 
 **Bull:**
-- World's largest HVAC (#1 globally)
+- World's largest HVAC (\#1 globally)
 - 3x DC revenue target by 2030
 - US expansion (acquisitions, manufacturing)
 - Deep hyperscaler relationships

@@ -3,7 +3,7 @@ aliases: [NOW]
 ---
 #actor #software #enterprise #usa #public
 
-ServiceNow — Enterprise workflow automation platform. #1 in IT service management (ITSM) with 40%+ market share. CEO [[Bill McDermott]] positioning company as the [[AI agents]] leader for enterprise workflows.
+ServiceNow — Enterprise workflow automation platform. \#1 in IT service management (ITSM) with 40%+ market share. CEO [[Bill McDermott]] positioning company as the [[AI agents]] leader for enterprise workflows.
 
 ---
 

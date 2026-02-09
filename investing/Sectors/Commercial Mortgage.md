@@ -114,12 +114,12 @@ Result: Many loans underwater, unable to refinance.
 
 | Player | 2024 Volume | Model | Specialty |
 |--------|-------------|-------|-----------|
-| [[Newmark]] | $48B | Broker | #1 overall (+80% YoY) |
-| [[CBRE]] | — | Broker | #2 by $, institutional |
-| [[Walker & Dunlop]] | $40B | Originator | **#1 Fannie DUS**, multifamily |
-| [[Berkadia]] | ~$24B | Originator | **#1 Freddie**, Berkshire/Jefferies JV |
+| [[Newmark]] | $48B | Broker | \#1 overall (+80% YoY) |
+| [[CBRE]] | — | Broker | \#2 by $, institutional |
+| [[Walker & Dunlop]] | $40B | Originator | **\#1 Fannie DUS**, multifamily |
+| [[Berkadia]] | ~$24B | Originator | **\#1 Freddie**, Berkshire/Jefferies JV |
 | [[JLL]] | — | Broker | Global, institutional |
-| [[Meridian Capital Group]] | $27B | Broker | #1 by count, small/mid-market |
+| [[Meridian Capital Group]] | $27B | Broker | \#1 by count, small/mid-market |
 | [[Arbor Realty Trust]] | $5.5B | Balance sheet | REIT, small balance multifamily |
 | [[Eastdil Secured]] | — | Broker | CMBS leader (private) |
 
@@ -177,15 +177,15 @@ Result: Many loans underwater, unable to refinance.
 - [[Residential Mortgage]] — home lending
 
 **Brokers:**
-- [[Newmark]] — #1 by volume 2024 ($48B)
-- [[Meridian Capital Group]] — #1 by transactions
-- [[CBRE]] — #2 by volume, institutional
+- [[Newmark]] — \#1 by volume 2024 ($48B)
+- [[Meridian Capital Group]] — \#1 by transactions
+- [[CBRE]] — \#2 by volume, institutional
 - [[JLL]] — global institutional
 - [[Eastdil Secured]] — CMBS, complex deals (private)
 
 **Lenders/Originators:**
-- [[Walker & Dunlop]] — #1 Fannie DUS, multifamily
-- [[Berkadia]] — #1 Freddie, Berkshire/Jefferies JV
+- [[Walker & Dunlop]] — \#1 Fannie DUS, multifamily
+- [[Berkadia]] — \#1 Freddie, Berkshire/Jefferies JV
 - [[Arbor Realty Trust]] — balance sheet REIT, small balance
 - [[Fannie Mae]] — multifamily programs
 - [[Freddie Mac]] — multifamily programs

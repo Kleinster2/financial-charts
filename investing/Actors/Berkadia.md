@@ -3,7 +3,7 @@ aliases: [Berkadia Commercial Mortgage]
 ---
 #actor #finance #realestate #usa #private
 
-**Berkadia** — Leading commercial mortgage originator and servicer. **JV of [[Berkshire Hathaway]] and [[Jefferies]].** #1 Freddie Mac lender, #2 Fannie Mae, #1 HUD. $400B+ servicing portfolio. Formed 2009 from Capmark bankruptcy.
+**Berkadia** — Leading commercial mortgage originator and servicer. **JV of [[Berkshire Hathaway]] and [[Jefferies]].** \#1 Freddie Mac lender, \#2 Fannie Mae, \#1 HUD. $400B+ servicing portfolio. Formed 2009 from Capmark bankruptcy.
 
 ---
 
@@ -23,7 +23,7 @@ aliases: [Berkadia Commercial Mortgage]
 ## Insights
 
 - **Berkshire + Jefferies backing** — Unique ownership gives access to permanent capital (Berkshire) and capital markets expertise (Jefferies). Competitive advantage in volatile markets.
-- **#1 Freddie Mac lender since 2021** — Dominant GSE relationship. Also #2 Fannie Mae, #1 HUD.
+- **\#1 Freddie Mac lender since 2021** — Dominant GSE relationship. Also \#2 Fannie Mae, \#1 HUD.
 - **Full-service platform** — Origination, servicing, and investment sales. Competes across the CRE capital stack.
 
 ---
@@ -56,9 +56,9 @@ aliases: [Berkadia Commercial Mortgage]
 
 | GSE | Ranking | Notes |
 |-----|---------|-------|
-| [[Freddie Mac]] | **#1** | Optigo lender since 2021 |
-| [[Fannie Mae]] | **#2** | DUS lender |
-| HUD/FHA | **#1** | By volume (2023) |
+| [[Freddie Mac]] | **\#1** | Optigo lender since 2021 |
+| [[Fannie Mae]] | **\#2** | DUS lender |
+| HUD/FHA | **\#1** | By volume (2023) |
 
 ---
 
@@ -77,7 +77,7 @@ aliases: [Berkadia Commercial Mortgage]
 
 ## Competitive position
 
-| Lender | #1 GSE | Ownership |
+| Lender | \#1 GSE | Ownership |
 |--------|--------|-----------|
 | **Berkadia** | **Freddie Mac** | Berkshire/Jefferies |
 | [[Walker & Dunlop]] | Fannie Mae | Public (WD) |
@@ -109,8 +109,8 @@ Under Katai: Mortgage banking +150%, investment sales +423% since 2014.
 - [[Mortgage]] — sector hub
 - [[Berkshire Hathaway]] — 50% owner
 - [[Jefferies]] — 50% owner
-- [[Walker & Dunlop]] — top competitor (#1 Fannie)
+- [[Walker & Dunlop]] — top competitor (\#1 Fannie)
 - [[Arbor Realty Trust]] — multifamily peer
-- [[Freddie Mac]] — #1 lender for
-- [[Fannie Mae]] — #2 lender for
+- [[Freddie Mac]] — \#1 lender for
+- [[Fannie Mae]] — \#2 lender for
 - [[Multifamily]] — primary focus

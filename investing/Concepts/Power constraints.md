@@ -545,7 +545,9 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 
 ---
 
-*Updated 2026-01-22*
+See also [[Grid infrastructure super-cycle]] — AI power demand is one of three converging drivers of grid buildout (alongside climate resilience and electrification).
+
+*Updated 2026-02-09*
 
 ---
 

@@ -13,7 +13,7 @@ AI chips generate massive heat — Vertiv provides the cooling:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 data center thermal/power |
+| Market position | \#1 data center thermal/power |
 | Stock performance | +1900%+ since Jan 2020 |
 | Products | Cooling, [[UPS]], racks, monitoring |
 | AI exposure | Liquid cooling for GPU clusters |

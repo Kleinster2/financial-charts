@@ -15,7 +15,7 @@ aliases: [AIR]
 | Market cap | ~$130B |
 | Revenue | ~$70B |
 | HQ | Toulouse, [[France]] |
-| Position | #1 commercial aircraft (deliveries) |
+| Position | \#1 commercial aircraft (deliveries) |
 
 ---
 

@@ -126,7 +126,7 @@ Via J&F Investimentos:
 
 | Company | Sector |
 |---------|--------|
-| [[PicPay]] | [[Fintech]] (Brazil #3 digital bank) |
+| [[PicPay]] | [[Fintech]] (Brazil \#3 digital bank) |
 | Eldorado Brasil | Pulp/paper |
 | Flora | Personal care |
 | Âmbar Energia | Energy |

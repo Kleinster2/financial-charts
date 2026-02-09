@@ -3,7 +3,7 @@ aliases: [pembrolizumab, Keytruda QLEX]
 ---
 #actor #product #pharma #oncology
 
-**Keytruda** — [[Merck]]'s blockbuster cancer immunotherapy. #1 drug globally by revenue. 40+ indications. Patent cliff 2028. Subcutaneous formulation (QLEX) launched Oct 2025.
+**Keytruda** — [[Merck]]'s blockbuster cancer immunotherapy. \#1 drug globally by revenue. 40+ indications. Patent cliff 2028. Subcutaneous formulation (QLEX) launched Oct 2025.
 
 ---
 
@@ -18,7 +18,7 @@ aliases: [pembrolizumab, Keytruda QLEX]
 | 2026 peak est. | ~$32.7B |
 | Patent expiry | **2028 (US)** |
 
-**Scale:** ~40% of Merck's total revenue. #1 selling drug globally.
+**Scale:** ~40% of Merck's total revenue. \#1 selling drug globally.
 
 ---
 

@@ -13,7 +13,7 @@ AI clusters need massive bandwidth — Coherent provides the optical components:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 optical components |
+| Market position | \#1 optical components |
 | Products | Transceivers, lasers, modulators |
 | AI exposure | 800G/1.6T pluggables |
 | Key customers | Hyperscalers, network OEMs |

@@ -56,9 +56,9 @@ Regional hub for Asian markets and companies.
 | Company | Role | Global share |
 |---------|------|--------------|
 | [[TSMC]] | Foundry | ~60% logic |
-| [[ASE]] | OSAT | #1 globally |
+| [[ASE]] | OSAT | \#1 globally |
 | [[UMC]] | Mature nodes | Top 5 |
-| [[MediaTek]] | Fabless (mobile) | #2 mobile SoC |
+| [[MediaTek]] | Fabless (mobile) | \#2 mobile SoC |
 
 ### Risk
 
@@ -73,8 +73,8 @@ Regional hub for Asian markets and companies.
 
 | Company | Position |
 |---------|----------|
-| [[SK Hynix]] | #1 HBM, #2 DRAM |
-| [[Samsung]] | #1 DRAM, foundry challenger |
+| [[SK Hynix]] | \#1 HBM, \#2 DRAM |
+| [[Samsung]] | \#1 DRAM, foundry challenger |
 
 ### Investment thesis
 
@@ -89,7 +89,7 @@ Regional hub for Asian markets and companies.
 
 | Company | Role |
 |---------|------|
-| [[Tokyo Electron]] | WFE (#3 globally) |
+| [[Tokyo Electron]] | WFE (\#3 globally) |
 | [[Screen Holdings]] | Cleaning equipment |
 | [[Advantest]] | Test equipment |
 

@@ -13,7 +13,7 @@ aliases: [PTEN, Patterson]
 |--------|-------|
 | Ticker | PTEN (NASDAQ) |
 | Market cap | ~$4B |
-| Position | #1 US land driller |
+| Position | \#1 US land driller |
 | Rigs | ~120 active |
 
 ---
@@ -34,7 +34,7 @@ NexTier merger created integrated drilling + completion company.
 
 **Combination benefits:**
 
-- #1 land driller + top pressure pumper
+- \#1 land driller + top pressure pumper
 - Integrated services offering
 - Cost synergies
 - Scale advantages
@@ -71,7 +71,7 @@ See [[Venezuela oil rebuild]] for context.
 ## Investment case
 
 **Bull:**
-- #1 land driller scale
+- \#1 land driller scale
 - Integrated model
 - Merger synergies
 - Permian activity

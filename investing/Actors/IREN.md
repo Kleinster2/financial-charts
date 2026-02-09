@@ -126,4 +126,4 @@ IREN = clear leader in pivot execution.
 - [[Core Scientific]] — competitor, peer
 - [[Cipher Mining]] — competitor, peer
 - [[NVIDIA]] — GPU supplier (4,300+ deployed)
-- [[Crypto-to-AI pivot]] — thesis context (#1 performer)
+- [[Crypto-to-AI pivot]] — thesis context (\#1 performer)

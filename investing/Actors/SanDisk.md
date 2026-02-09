@@ -198,7 +198,7 @@ The margin expansion from 29.9% → 51.1% → 65-67% reflects NAND pricing power
 - [[SK Hynix]] — HBF collaboration
 
 ### Competitors
-- [[Samsung]] — NAND #1
+- [[Samsung]] — NAND \#1
 - [[Micron]] — NAND + DRAM
 - [[Western Digital]] — former parent, HDD-focused
 

@@ -156,7 +156,7 @@ Premium reflects quality and consistency.
 ### Competitors
 - [[Walmart]] — Sam's Club
 - [[Amazon]] — e-commerce threat
-- BJ's Wholesale — distant #3
+- BJ's Wholesale — distant \#3
 
 ### Sectors
 - [[Consumer Staples]] — sector

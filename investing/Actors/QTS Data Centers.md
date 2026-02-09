@@ -101,10 +101,10 @@ Blackstone committed $25B to Pennsylvania digital and energy infrastructure thro
 
 | Platform | Owner | Scale |
 |----------|-------|-------|
-| **QTS** | [[Blackstone]] | #1 private (2+ GW) |
-| [[CyrusOne]] | [[KKR]]/GIP | #2 private (1+ GW) |
-| [[Equinix]] | Public | #1 public ($80B market cap) |
-| [[Digital Realty]] | Public | #2 public ($50B market cap) |
+| **QTS** | [[Blackstone]] | \#1 private (2+ GW) |
+| [[CyrusOne]] | [[KKR]]/GIP | \#2 private (1+ GW) |
+| [[Equinix]] | Public | \#1 public ($80B market cap) |
+| [[Digital Realty]] | Public | \#2 public ($50B market cap) |
 
 QTS competes primarily in wholesale/hyperscale segment vs enterprise-focused Equinix.
 

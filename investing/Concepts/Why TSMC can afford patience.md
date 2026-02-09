@@ -44,7 +44,7 @@
 | Customers stay with TSMC | No reason to switch |
 | Investors punish stagnation | Multiple compression |
 
-**The #2 trap:** "Disciplined" execution from #2 position = permanent irrelevance.
+**The \#2 trap:** "Disciplined" execution from \#2 position = permanent irrelevance.
 
 **[[Intel]]'s dilemma:**
 - [[Intel Foundry Services]] faces similar pressure
@@ -103,7 +103,7 @@ Even TSMC's patience has limits:
 ## Related
 
 - [[TSMC]] — beneficiary (~60% market share enables patience)
-- [[Samsung]] — forced (must be aggressive from #2)
+- [[Samsung]] — forced (must be aggressive from \#2)
 - [[Intel Foundry Services]] — forced (similar pressure)
 - [[Why Samsung's aggression may be rational]] — counterpoint
 - [[Customer lock-in via co-design]] — enabler (moat protects patience)

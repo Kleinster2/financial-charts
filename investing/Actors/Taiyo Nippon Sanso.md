@@ -3,7 +3,7 @@ aliases: [Nippon Sanso Holdings, 4091.T]
 ---
 #actor #semiconductor #materials #japan #public
 
-**Taiyo Nippon Sanso** — [[Japan]]'s largest industrial gas company. #1 in semiconductor specialty gases in [[Japan]]. Part of Mitsubishi Chemical Holdings.
+**Taiyo Nippon Sanso** — [[Japan]]'s largest industrial gas company. \#1 in semiconductor specialty gases in [[Japan]]. Part of Mitsubishi Chemical Holdings.
 
 ---
 
@@ -16,7 +16,7 @@ Semiconductor fabs need ultra-pure gases for etching, deposition, and cleaning:
 | Ticker | 4091.T (Tokyo) |
 | Market cap | ~$16B |
 | Revenue | ~$8.6B |
-| Position | #1 [[Japan]] specialty gas, top 5 global |
+| Position | \#1 [[Japan]] specialty gas, top 5 global |
 | Parent | Mitsubishi Chemical Holdings |
 
 ---
@@ -51,7 +51,7 @@ Semiconductor fabs need ultra-pure gases for etching, deposition, and cleaning:
 
 ### [[Japan]] market
 
-**#1 in [[Japan]]** for semiconductor specialty gases.
+**\#1 in [[Japan]]** for semiconductor specialty gases.
 
 ---
 

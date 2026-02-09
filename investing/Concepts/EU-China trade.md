@@ -22,8 +22,8 @@
 | EU imports from China (2024) | ~€500B |
 | EU exports to China (2024) | ~€230B |
 | Deficit | ~€270B |
-| China rank for EU | #2 trade partner (after US) |
-| EU rank for China | #2 trade partner (after US) |
+| China rank for EU | \#2 trade partner (after US) |
+| EU rank for China | \#2 trade partner (after US) |
 
 ---
 

@@ -11,7 +11,7 @@ aliases: [United Kingdom, Britain, Great Britain]
 
 | Metric | Value |
 |--------|-------|
-| GDP | ~$3.3T (#6 globally) |
+| GDP | ~$3.3T (\#6 globally) |
 | Population | 67M |
 | Key sectors | Finance, pharma, defense, tech IP |
 | Government | Labour (Keir Starmer) |
@@ -37,7 +37,7 @@ Major UK stocks trade as ADRs: BP, HSBC, GSK, AZN, RIO, SHEL
 
 | Institution | Role |
 |-------------|------|
-| London | Global financial center (#2) |
+| London | Global financial center (\#2) |
 | [[HSBC]] | Largest UK bank ([[Asia]] focus) |
 | [[Barclays]] | Investment banking |
 | Lloyd's | [[Insurance]] market |

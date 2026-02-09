@@ -14,7 +14,7 @@ aliases: [UR, Cobot]
 | HQ | Odense, Denmark |
 | Founded | 2005 |
 | Owner | Teradyne (since 2015) |
-| Market position | **#1 cobot maker** |
+| Market position | **\#1 cobot maker** |
 | Installed base | 75,000+ cobots |
 
 ---
@@ -108,7 +108,7 @@ aliases: [UR, Cobot]
 ## Investment case
 
 **Bull:**
-- #1 cobot market share
+- \#1 cobot market share
 - SMB adoption tailwind
 - UR+ ecosystem moat
 - Teradyne backing

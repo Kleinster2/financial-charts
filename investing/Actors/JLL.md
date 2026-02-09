@@ -3,7 +3,7 @@ aliases: [Jones Lang LaSalle, JLL Inc]
 ---
 #actor #realestate #finance #usa #public
 
-**JLL (Jones Lang LaSalle)** — **#2 global commercial real estate services firm.** $23.4B revenue (2024, +13%). 112,000 employees in 80+ countries. Full-service: leasing, capital markets, property management, investment management ($89B AUM via LaSalle).
+**JLL (Jones Lang LaSalle)** — **\#2 global commercial real estate services firm.** $23.4B revenue (2024, +13%). 112,000 employees in 80+ countries. Full-service: leasing, capital markets, property management, investment management ($89B AUM via LaSalle).
 
 ---
 
@@ -24,7 +24,7 @@ aliases: [Jones Lang LaSalle, JLL Inc]
 
 ## Insights
 
-- **#2 globally, strong #2** — $23B revenue vs CBRE's $36B. Solidly ahead of Cushman ($9B) and Newmark ($3B).
+- **\#2 globally, strong \#2** — $23B revenue vs CBRE's $36B. Solidly ahead of Cushman ($9B) and Newmark ($3B).
 - **LaSalle Investment Management** — $89B AUM provides fee income separate from transactional brokerage. Diversification.
 - **2024 recovery** — Operating income +51% as transaction markets recovered. Capital Markets +32% in Q4.
 
@@ -96,14 +96,14 @@ Balanced between recurring and transactional revenue.
 ## Investment implications
 
 **Bull case:**
-- Strong #2 position globally
+- Strong \#2 position globally
 - LaSalle provides diversification
 - CRE transaction recovery
 - Operating leverage showing (income +51%)
 - Tech investments (JLL Technologies)
 
 **Bear case:**
-- Distant #2 to CBRE
+- Distant \#2 to CBRE
 - CRE market cyclicality
 - Office exposure in advisory
 - Competition from specialists
@@ -118,7 +118,7 @@ Balanced between recurring and transactional revenue.
 
 - [[Commercial Mortgage]] — sector
 - [[Commercial real estate]] — sector
-- [[CBRE]] — #1 competitor
+- [[CBRE]] — \#1 competitor
 - [[Newmark]] — competitor
 - [[Cushman & Wakefield]] — competitor
 - [[Meridian Capital Group]] — capital markets competitor

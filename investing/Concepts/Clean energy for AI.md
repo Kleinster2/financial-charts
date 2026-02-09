@@ -136,7 +136,7 @@ Driving demand for clean DC locations.
 - [[Santiago Data Hub]] — location ([[Chile]] hydro + solar)
 - [[HAVFRUE Cable]] — connectivity (Nordics to US)
 - [[Form Energy]] — storage (iron-air 100-hour batteries)
-- [[Ørsted]] — offshore wind developer (#1 globally)
+- [[Ørsted]] — offshore wind developer (\#1 globally)
 - [[Yieldcos]] — investment vehicle (renewable energy yield companies)
 - [[Google]] — customer (24/7 carbon-free by 2030)
 - [[Microsoft]] — customer (carbon negative by 2030)

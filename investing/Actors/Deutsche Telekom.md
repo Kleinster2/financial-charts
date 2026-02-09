@@ -36,7 +36,7 @@ Most valuable asset is American.
 
 | Market | Position |
 |--------|----------|
-| [[Germany]] | Incumbent (#1) |
+| [[Germany]] | Incumbent (\#1) |
 | Poland | T-Mobile Polska |
 | Austria | Magenta |
 | Various | Pan-European |

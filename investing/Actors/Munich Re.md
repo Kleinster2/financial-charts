@@ -72,8 +72,8 @@ Munich Re also participates in the ILS/sidecar market as a sponsor — its own I
 
 ## Related
 
-- [[Swiss Re]] — #2 global reinsurer, peer
-- [[Berkshire Hathaway]] — #4 reinsurer, competitor
+- [[Swiss Re]] — \#2 global reinsurer, peer
+- [[Berkshire Hathaway]] — \#4 reinsurer, competitor
 - [[Reinsurance sidecars]] — Munich Re sponsors ILS vehicles; PE sidecars disrupt life/annuity
 - [[PE-insurance convergence]] — Munich Re as traditional incumbent
 - [[Athene]] — PE-owned competitor in life/annuity reinsurance

@@ -13,7 +13,7 @@ aliases: [Athene Holding, Athene Annuity]
 |--------|-------|
 | Total assets | $430B (Sep 2025) |
 | Annual earnings | >$3B |
-| 2024 annuity sales | $36B (record, #1 US individual annuity seller) |
+| 2024 annuity sales | $36B (record, \#1 US individual annuity seller) |
 | US market share | >12% of individual annuities |
 | CEO | [[Grant Kvalheim]] (July 2025) |
 | Executive Chairman | [[Jim Belardi]] (co-founder) |
@@ -73,7 +73,7 @@ Post-merger, Athene maintains a separate capital structure and credit profile. A
 
 ### Fixed annuities (core)
 - Individual fixed and indexed annuities
-- #1 US seller by volume (2024)
+- \#1 US seller by volume (2024)
 - Targeting the $4T retirement savings gap (2026 outlook)
 
 ### Pension risk transfer (PRT)
@@ -136,7 +136,7 @@ Athene's Jan 2026 outlook highlights:
 **Bull:**
 - Permanent capital with low cost of funds (~3-4%)
 - Secular tailwind: baby boomer retirement, pension de-risking
-- #1 market position in individual annuities
+- \#1 market position in individual annuities
 - ACRA structure multiplies capital efficiency
 - Apollo integration = superior asset origination
 

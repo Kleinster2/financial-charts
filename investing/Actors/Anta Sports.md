@@ -82,8 +82,8 @@ Acquiring 29% of [[Puma]], becoming largest shareholder (displacing Artémis/Pin
 
 - [[Fashion]] — sector hub
 - [[Puma]] — 29% stake, largest shareholder
-- [[Nike]] — global #1, competitor
-- [[Adidas]] — global #2, competitor
+- [[Nike]] — global \#1, competitor
+- [[Adidas]] — global \#2, competitor
 - [[Li Ning]] — Chinese competitor
 - [[Fila]] — licensed brand (China)
 - [[China]] — home market

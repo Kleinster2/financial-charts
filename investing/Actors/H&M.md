@@ -104,7 +104,7 @@ H&M is squeezed in the middle: not fast/cheap enough to compete with Shein, not 
 ## Related
 
 - [[Fashion]] — sector hub
-- [[Inditex]] — #1 competitor (Zara)
+- [[Inditex]] — \#1 competitor (Zara)
 - [[Shein]] — ultra-fast fashion disruptor
 
 *Created 2026-01-24*

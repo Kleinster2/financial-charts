@@ -45,7 +45,7 @@ Cooling (liquid cooling, Vertiv, Modine)
 | Player | Product | Position |
 |--------|---------|----------|
 | [[NVIDIA]] | H100/H200/Blackwell | Dominant (80%+ AI training) |
-| [[AMD]] | MI300 | Distant #2 |
+| [[AMD]] | MI300 | Distant \#2 |
 | [[Intel]] | Gaudi | Struggling |
 | [[Google]] | TPU | Captive |
 | [[Amazon]] | Trainium/Inferentia | Captive |

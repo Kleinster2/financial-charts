@@ -12,7 +12,7 @@ aliases: [Guggenheim, Guggenheim Securities]
 | Strength | Detail |
 |----------|--------|
 | Restructuring | $4T+ liabilities restructured — preeminent franchise |
-| Software research | John DiFucci — #1 II-ranked analyst, Oracle "decade stock" call |
+| Software research | John DiFucci — \#1 II-ranked analyst, Oracle "decade stock" call |
 | Sports ownership | CEO owns Dodgers, Lakers, Sparks, PWHL |
 | Bear Stearns DNA | Alan Schwartz rebuilt IB post-2008 |
 
@@ -58,7 +58,7 @@ aliases: [Guggenheim, Guggenheim Securities]
 | Metric | Value |
 |--------|-------|
 | Sector experience | 23 years |
-| II ranking | Former #1 software |
+| II ranking | Former \#1 software |
 | Success rate | 62% profitable calls |
 | Avg return | 17.8% per trade |
 | Best call | ARM +174% (Oct 2023-2024) |
@@ -82,7 +82,7 @@ See [[Oracle]] for the full DiFucci thesis.
 - Insight Sourcing/Accenture
 - Various healthcare capital raises (Phathom, Verastem, Olema)
 
-**Vault 2026:** #1 Best IB Firm for Summer Internships.
+**Vault 2026:** \#1 Best IB Firm for Summer Internships.
 
 **Competitors:** Centerview, Evercore, Lazard, Moelis, PJT, Perella Weinberg.
 

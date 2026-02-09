@@ -64,6 +64,19 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 ---
 
+## Spread chart
+
+![[ig-vs-hy-spreads.png]]
+
+*IG spreads (blue) near cycle lows at 76 bps despite massive TMT supply. HY (red) showing sharper widening — 265 → 297 bps in two weeks as AI disruption fears hit lower-quality credit. Divergence suggests stress is concentrated in weaker credits while IG absorbs supply.*
+
+| Metric | Latest (Feb 5) | 2 weeks prior | Move |
+|--------|---------------|---------------|------|
+| IG OAS (BAMLC0A0CM) | 76 bps | 73 bps | +3 bps |
+| HY OAS (BAMLH0A0HYM2) | 297 bps | 265 bps | **+32 bps** |
+
+---
+
 ## Spread context
 
 | Metric | Level (Jan 2026) | Notes |

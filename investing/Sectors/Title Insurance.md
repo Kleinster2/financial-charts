@@ -53,10 +53,10 @@
 
 | Company | Q1 2025 Share | Ticker | Notes |
 |---------|---------------|--------|-------|
-| **[[Fidelity National Financial]]** | 27% (combined) | FNF | #1 overall (includes Chicago Title) |
-| **[[First American Financial]]** | 22.9% | FAF | #1 individual underwriter |
+| **[[Fidelity National Financial]]** | 27% (combined) | FNF | \#1 overall (includes Chicago Title) |
+| **[[First American Financial]]** | 22.9% | FAF | \#1 individual underwriter |
 | **[[Old Republic International]]** | 14% | ORI | Diversified insurer |
-| **[[Stewart Information Services]]** | 9.2% | STC | #4, lost share since 2019 |
+| **[[Stewart Information Services]]** | 9.2% | STC | \#4, lost share since 2019 |
 
 **Fidelity brands:** Fidelity National Title, Chicago Title (12.9%), Commonwealth Land Title, Alamo Title.
 
@@ -173,10 +173,10 @@ Some states regulate title insurance rates — limits pricing power but also lim
 
 | Company | Ticker | Share | Notes |
 |---------|--------|-------|-------|
-| [[Fidelity National Financial]] | FNF | 27% | #1, highest margins |
-| [[First American Financial]] | FAF | 23% | #2, 135-year history |
-| [[Old Republic International]] | ORI | 14% | #3, diversified |
-| [[Stewart Information Services]] | STC | 9% | #4, market share recovery focus |
+| [[Fidelity National Financial]] | FNF | 27% | \#1, highest margins |
+| [[First American Financial]] | FAF | 23% | \#2, 135-year history |
+| [[Old Republic International]] | ORI | 14% | \#3, diversified |
+| [[Stewart Information Services]] | STC | 9% | \#4, market share recovery focus |
 
 ### Leading independents
 
@@ -196,15 +196,15 @@ Some states regulate title insurance rates — limits pricing power but also lim
 ## Related
 
 **Big Four:**
-- [[Fidelity National Financial]] — #1 title insurer
-- [[First American Financial]] — #2 title insurer
-- [[Old Republic International]] — #3 title insurer
-- [[Stewart Information Services]] — #4 title insurer
+- [[Fidelity National Financial]] — \#1 title insurer
+- [[First American Financial]] — \#2 title insurer
+- [[Old Republic International]] — \#3 title insurer
+- [[Stewart Information Services]] — \#4 title insurer
 
 **Independents:**
-- [[Westcor Land Title]] — #5, largest independent, agent-only
-- [[Title Resources]] — #6, acquired Doma
-- [[WFG National Title]] — #7, ex-FNF founder
+- [[Westcor Land Title]] — \#5, largest independent, agent-only
+- [[Title Resources]] — \#6, acquired Doma
+- [[WFG National Title]] — \#7, ex-FNF founder
 - [[Alliant National]] — agent-only, owned by [[Dream Finders Homes]]
 - [[Doma Holdings]] — failed proptech, acquired by Title Resources
 

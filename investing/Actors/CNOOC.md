@@ -47,7 +47,7 @@ Still trades in Hong Kong.
 | Aspect | CNOOC | [[CNPC]] | [[Sinopec]] |
 |--------|-------|----------|-------------|
 | Focus | Offshore | Upstream | Downstream |
-| Size | #3 | #1 | #2 |
+| Size | \#3 | \#1 | \#2 |
 | International | High | High | Moderate |
 | US status | Delisted | Never listed | Delisted |
 

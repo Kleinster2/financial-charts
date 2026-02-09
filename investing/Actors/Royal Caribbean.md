@@ -92,7 +92,7 @@ aliases: [RCL, Royal Caribbean Group]
 
 | Aspect | Royal Caribbean | [[Carnival]] |
 |--------|-----------------|--------------|
-| Size | #2 | Largest |
+| Size | \#2 | Largest |
 | Positioning | Premium | Mass market |
 | Margins | Higher | Lower |
 | Debt | Lower | Higher |
@@ -103,7 +103,7 @@ aliases: [RCL, Royal Caribbean Group]
 
 ## Related
 
-- [[Carnival]] — peer (#1)
+- [[Carnival]] — peer (\#1)
 - [[Cuba]] — opening opportunity
 - [[Cuba opening]] — thesis
 - [[Venezuela]] — regional context

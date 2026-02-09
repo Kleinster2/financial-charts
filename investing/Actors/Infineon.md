@@ -3,7 +3,7 @@ aliases: [Infineon Technologies]
 ---
 #actor #semiconductor #germany #automotive #power
 
-**Infineon** — German semiconductor company. #1 globally in automotive and power semiconductors. European champion.
+**Infineon** — German semiconductor company. \#1 globally in automotive and power semiconductors. European champion.
 
 ---
 
@@ -27,8 +27,8 @@ Infineon is the global leader in two critical categories:
 
 | Role | Details |
 |------|---------|
-| Auto semis | #1 globally |
-| Power semis | #1 globally |
+| Auto semis | \#1 globally |
+| Power semis | \#1 globally |
 | EV exposure | Major beneficiary |
 | European | German champion |
 
@@ -38,8 +38,8 @@ Infineon is the global leader in two critical categories:
 
 | Segment | Position | Share |
 |---------|----------|-------|
-| [[Automotive]] semiconductors | #1 globally | ~13% |
-| Power semiconductors | #1 globally | ~20% |
+| [[Automotive]] semiconductors | \#1 globally | ~13% |
+| Power semiconductors | \#1 globally | ~20% |
 | Security ICs | Top 3 | — |
 | Industrial | Top 5 | — |
 
@@ -230,7 +230,7 @@ Infineon reports on an October fiscal year (FY ends September).
 ## Investment implications
 
 **Bull case:**
-- #1 in two growing markets
+- \#1 in two growing markets
 - [[EV transition]] = secular tailwind
 - AI data center power = new growth vector (~10x in 3 years)
 - European strategic asset
@@ -251,8 +251,8 @@ Infineon reports on an October fiscal year (FY ends September).
 | Ticker | IFX |
 | Market cap | ~$50B |
 | Revenue | ~€15B |
-| Auto semi rank | #1 globally |
-| Power semi rank | #1 globally |
+| Auto semi rank | \#1 globally |
+| Power semi rank | \#1 globally |
 | EV content | ~$200/vehicle |
 
 *Updated 2026-02-08*
@@ -263,7 +263,7 @@ Infineon reports on an October fiscal year (FY ends September).
 
 - [[Sensors]] — automotive radar, sensors
 - [[STMicro]] — competitor (European auto/power)
-- [[NXP]] — competitor (#2 automotive)
+- [[NXP]] — competitor (\#2 automotive)
 - [[Renesas]] — competitor (auto MCUs)
 - [[Tesla]] — customer (power semis)
 - [[Toyota]] — customer

@@ -89,7 +89,7 @@ Announced by Mayor Eduardo Paes at Web Summit Rio, April 2025.
 
 | Metric | Rio | [[São Paulo Data Hub]] |
 |--------|-----|------------------------|
-| Market size | Smaller | Dominant (#1 in LatAm) |
+| Market size | Smaller | Dominant (\#1 in LatAm) |
 | Growth rate | Faster (9.69%) | Slower |
 | Cost | Lower | Higher |
 | Focus | AI (Rio AI City) | General enterprise |

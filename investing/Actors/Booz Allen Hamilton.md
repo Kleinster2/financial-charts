@@ -19,7 +19,7 @@ aliases: [BAH, Booz Allen]
 
 ## Why Booz Allen matters
 
-**#1 AI supplier to U.S. government** — not just an IT contractor, but the government's AI partner.
+**\#1 AI supplier to U.S. government** — not just an IT contractor, but the government's AI partner.
 
 | Metric | Value |
 |--------|-------|
@@ -104,7 +104,7 @@ Rozanski: Argentine immigrant, Booz Allen intern in 1991, rose through ranks. 20
 
 | Factor | Booz Allen strength |
 |--------|---------------------|
-| AI | **#1 government AI supplier** |
+| AI | **\#1 government AI supplier** |
 | Consulting DNA | Strategy + implementation |
 | Clearances | Deep IC relationships |
 | Brand | 110-year history |

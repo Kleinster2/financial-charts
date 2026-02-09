@@ -43,7 +43,7 @@ Born July 5, 1967 in London. Grew up between England and Heidelberg, [[Germany]]
 
 **Platform:** [[Substack]]
 **Launched:** November 2020
-**Subscribers:** 172,000+ (ranked #1 Rising in History on [[Substack]])
+**Subscribers:** 172,000+ (ranked \#1 Rising in History on [[Substack]])
 **Frequency:** Multiple times per week
 **Model:** Freemium (free tier available)
 

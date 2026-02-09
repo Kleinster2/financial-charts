@@ -21,7 +21,7 @@ The framing captures dynamics that "competition" undersells:
 The four foundries competing for advanced logic manufacturing:
 
 - [[TSMC]] — dominant incumbent, ~60% share
-- [[Samsung]] — aggressive #2, ~7% share
+- [[Samsung]] — aggressive \#2, ~7% share
 - [[Intel Foundry Services]] — attempting transformation
 - [[Rapidus]] — Japan's 2nm national champion, small batch model
 
@@ -29,7 +29,7 @@ Adjacent players:
 
 - [[SK Hynix]] — HBM leader, pushing into packaging to challenge TSMC's CoWoS monopoly
 - [[Samsung]] — also memory (DRAM/NAND), not just foundry
-- [[Micron]] — U.S. memory, #3 DRAM, benefits from shortage
+- [[Micron]] — U.S. memory, \#3 DRAM, benefits from shortage
 - [[CXMT]] — Chinese memory, beneficiary of Samsung IP leak
 
 Equipment (WFE):
@@ -61,7 +61,7 @@ AI hyperscalers (demand side):
 Other:
 
 - [[Intel]] — IDM parent company (see [[Intel Foundry Services]] for foundry)
-- [[Kioxia]] — Japan NAND #3
+- [[Kioxia]] — Japan NAND \#3
 
 ---
 
@@ -79,7 +79,7 @@ Ideas that explain the competitive dynamics:
 - [[Supply chain bottlenecks]] — power, materials, foundry, packaging, memory, test
 - [[Memory shortage 2025-2026]] — "largest ever supply-demand gap" (Micron)
 - [[Final test bottleneck]] — hidden constraint
-- [[ASE]] — #1 OSAT, packaging + test
+- [[ASE]] — \#1 OSAT, packaging + test
 - [[Cohu]] — test handlers, Eclipse platform
 
 **Demand**

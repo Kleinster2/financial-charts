@@ -117,7 +117,7 @@ Domestic alternative (SMEE) attempting EUV via laser-driven plasma, but years be
 - [[Carl Zeiss SMT]] — mirror supplier
 - [[TRUMPF]] — laser supplier
 - [[TSMC]] — largest EUV customer
-- [[Samsung]] — #2 customer
+- [[Samsung]] — \#2 customer
 - [[Intel]] — aggressive adopter
 
 **Context:**

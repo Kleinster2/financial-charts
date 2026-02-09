@@ -15,19 +15,19 @@ Is there any realistic path for [[Samsung]] foundry to achieve parity with [[TSM
 
 ## Paths that probably won't work
 
-- Incremental improvement from #2 position (see [[Why TSMC can afford patience]])
+- Incremental improvement from \#2 position (see [[Why TSMC can afford patience]])
 - Cost competition (similar equipment costs)
 - Subsidies alone (TSMC gets them too)
 
 ## What the [[Samsung Taylor pivot]] tells us
 
-Samsung is betting on path #1 or #2. The pivot is either:
+Samsung is betting on path \#1 or \#2. The pivot is either:
 - A catastrophic self-inflicted wound, OR
 - Rational asymmetric betting (see [[Why Samsung's aggression may be rational]])
 
 ## Current view
 
-Unlikely without exogenous shock. Samsung's best realistic outcome is "credible #2" that captures geopolitically-constrained customers.
+Unlikely without exogenous shock. Samsung's best realistic outcome is "credible \#2" that captures geopolitically-constrained customers.
 
 ---
 

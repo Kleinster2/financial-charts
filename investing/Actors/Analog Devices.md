@@ -3,7 +3,7 @@ aliases: [ADI]
 ---
 #actor #semiconductor #analog #usa #public
 
-**Analog Devices** — #2 analog chipmaker globally. Mixed-signal leader. Industrial, auto, communications exposure.
+**Analog Devices** — \#2 analog chipmaker globally. Mixed-signal leader. Industrial, auto, communications exposure.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [ADI]
 |--------|-------|
 | Ticker | ADI (NASDAQ) |
 | Market cap | ~$149B |
-| Position | #2 analog (after Texas Instruments) |
+| Position | \#2 analog (after Texas Instruments) |
 | FY2025 revenue | $11.0B |
 
 ---
@@ -144,7 +144,7 @@ ADI = premium analog, higher margins.
 | Market cap | ~$149B |
 | FY2025 revenue | $11.0B |
 | FCF margin | 39% |
-| Position | #2 analog |
+| Position | \#2 analog |
 
 *Updated 2026-01-28*
 
@@ -152,7 +152,7 @@ ADI = premium analog, higher margins.
 
 ## Related
 
-- [[Texas Instruments]] — competitor (#1 analog)
+- [[Texas Instruments]] — competitor (\#1 analog)
 - [[NXP]] — competitor (auto focus)
 - [[Infineon]] — competitor (power)
 - [[Automotive semiconductors]] — end market

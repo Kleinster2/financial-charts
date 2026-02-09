@@ -27,7 +27,7 @@ aliases: [TCG, Chernin Group, Chernin Entertainment]
 | Reported to | [[Rupert Murdoch]] |
 | Oversaw | Fox Broadcasting, 20th Century Fox, Fox News launch |
 
-**Pedigree:** #2 at News Corp for 13 years — ran entire entertainment operation.
+**Pedigree:** \#2 at News Corp for 13 years — ran entire entertainment operation.
 
 ---
 
@@ -105,7 +105,7 @@ aliases: [TCG, Chernin Group, Chernin Entertainment]
 | Founder | Peter Chernin |
 | Focus | Media/entertainment |
 | Best exit | Crunchyroll ($1.2B) |
-| Background | Ex-News Corp #2 |
+| Background | Ex-News Corp \#2 |
 
 ---
 

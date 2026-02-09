@@ -3,7 +3,7 @@ aliases: [CrossCountry, CCM]
 ---
 #actor #finance #realestate #usa #private
 
-**CrossCountry Mortgage** — **#1 retail mortgage lender (2025), #4 overall originator.** Cleveland-based, 8,000+ employees, 700+ branches. Private. Led industry with 504 loan officers on 2025 Scotsman Guide Top Originators list.
+**CrossCountry Mortgage** — **\#1 retail mortgage lender (2025), \#4 overall originator.** Cleveland-based, 8,000+ employees, 700+ branches. Private. Led industry with 504 loan officers on 2025 Scotsman Guide Top Originators list.
 
 ---
 
@@ -12,8 +12,8 @@ aliases: [CrossCountry, CCM]
 | Metric | Value |
 |--------|-------|
 | Ownership | Private |
-| 2024 HMDA rank | **#4** |
-| 2025 retail rank | **#1** |
+| 2024 HMDA rank | **\#4** |
+| 2025 retail rank | **\#1** |
 | Employees | 8,000+ |
 | Branches | 700+ |
 | States | All 50 + DC |
@@ -23,7 +23,7 @@ aliases: [CrossCountry, CCM]
 
 ## Insights
 
-- **Retail dominance** — #1 distributed retail lender. 504 originators on Scotsman Guide Top Originators (more than any other lender).
+- **Retail dominance** — \#1 distributed retail lender. 504 originators on Scotsman Guide Top Originators (more than any other lender).
 - **Branch model scales** — 700+ branches gives local presence, competes on service vs [[Rocket Companies]]' digital-first approach.
 - **Purchase-focused** — Financed 1 in 37 homes in Q2-Q3 2024, 83,000+ purchase loans in trailing 12 months.
 
@@ -36,7 +36,7 @@ aliases: [CrossCountry, CCM]
 | Q2 2024 purchase volume | ~$10B (company record) |
 | 2024 purchase loans | 83,000+ |
 | Market penetration | 1 in 37 homes (Q2-Q3 2024) |
-| HMDA rank | #4 (up from lower) |
+| HMDA rank | \#4 (up from lower) |
 
 ---
 
@@ -44,7 +44,7 @@ aliases: [CrossCountry, CCM]
 
 | Award | Year |
 |-------|------|
-| #1 Retail Lender (Scotsman Guide) | 2024, 2025 |
+| \#1 Retail Lender (Scotsman Guide) | 2024, 2025 |
 | Most Top Originators (504) | 2025 |
 | Most Top Veteran Originators | 2025 |
 | Most Emerging Stars | 2025 |

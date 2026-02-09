@@ -13,7 +13,7 @@ aliases: [Tongyi Qianwen, 通义千问, Qwen3]
 |--------|-------|
 | MAU | **100M+** (Jan 2026) |
 | Nov 2025 growth | **+149%** MoM |
-| Global AI app rank | **#3** (behind [[Doubao]], [[ChatGPT]]) |
+| Global AI app rank | **\#3** (behind [[Doubao]], [[ChatGPT]]) |
 | Open model usage | **30%** of global (with DeepSeek) |
 | Parent | [[Alibaba]] |
 | License | Apache 2.0 (open weights) |
@@ -175,7 +175,7 @@ Alibaba undercutting everyone on price while open-sourcing the models.
 ## Related
 
 - [[Alibaba]] — parent company
-- [[Doubao]] — competitor (#1 [[China]])
+- [[Doubao]] — competitor (\#1 [[China]])
 - [[DeepSeek]] — open source peer
 - [[Moonshot AI]] — competitor (Kimi)
 - [[Hunyuan]] — competitor ([[Tencent]])

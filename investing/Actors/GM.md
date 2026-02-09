@@ -49,7 +49,7 @@ GM represents the legacy OEM [[EV transition]] challenge:
 
 | Role | Details |
 |------|---------|
-| Position | #1 US automaker (by revenue) |
+| Position | \#1 US automaker (by revenue) |
 | EV strategy | Ultium platform |
 | Autonomy | Cruise (paused) |
 | Challenge | Compete with [[Tesla]], [[BYD]] |

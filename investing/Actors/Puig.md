@@ -5,7 +5,7 @@ aliases: [PUIG, Puig Brands]
 
 # Puig
 
-**Spanish luxury fragrance and fashion house** — family-controlled, IPO'd May 2024 (largest European IPO since 2022). €4.79B revenue (2024, +10.9% LFL). Fragrance & [[Fashion]] is 73% of revenue, growing +13.6%. Owns Charlotte Tilbury, Jean Paul Gaultier, Carolina Herrera, Rabanne (Paco Rabanne). World's #3 fragrance company by market share (11.5%). Stock -25% from IPO price. Puig family retains 92.5% voting rights.
+**Spanish luxury fragrance and fashion house** — family-controlled, IPO'd May 2024 (largest European IPO since 2022). €4.79B revenue (2024, +10.9% LFL). Fragrance & [[Fashion]] is 73% of revenue, growing +13.6%. Owns Charlotte Tilbury, Jean Paul Gaultier, Carolina Herrera, Rabanne (Paco Rabanne). World's \#3 fragrance company by market share (11.5%). Stock -25% from IPO price. Puig family retains 92.5% voting rights.
 
 ---
 
@@ -86,7 +86,7 @@ Fragrance is overwhelmingly the growth driver — Puig is essentially a fragranc
 | Metric | Value |
 |--------|-------|
 | Global selective fragrance share | 11.5% |
-| Rank | #3 globally |
+| Rank | \#3 globally |
 | Top 10 fragrance brands | 3 Puig brands |
 | Category tailwind | Fragrance +12% in 2024 (fastest beauty category) |
 

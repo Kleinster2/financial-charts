@@ -62,7 +62,7 @@ aliases: [Rolex SA, Rolex Group, Tudor]
 | **Scarcity** | Intentional production limits (1.18M/yr) |
 | **Pricing power** | Annual increases, no discounting |
 | **Resale value** | Many models trade above retail |
-| **Brand recognition** | #1 luxury brand globally (multiple surveys) |
+| **Brand recognition** | \#1 luxury brand globally (multiple surveys) |
 | **Foundation ownership** | No shareholder pressure, infinite time horizon |
 | **Vertical integration** | Own foundry, movements, dials, cases |
 
@@ -131,7 +131,7 @@ The Swiss watch industry contracted ~3% in 2024 (top 50 brands: CHF 35.3B). But 
 ## Related
 
 - [[Luxury]] — sector hub
-- [[Richemont]] — Cartier competitor (#2 in watches)
+- [[Richemont]] — Cartier competitor (\#2 in watches)
 - [[Fifth Avenue luxury corridor]] — NYC real estate purchases
 - [[Gold]] — raw material exposure
 

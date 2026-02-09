@@ -59,7 +59,7 @@ aliases: [Gucci parent, KER.PA]
 | Brand | 2024 Revenue | YoY Change | Status |
 |-------|--------------|------------|--------|
 | **[[Gucci]]** | €7.65B | **-23%** | Turnaround, Demna appointed |
-| **[[Saint Laurent]]** | ~€3B | -13% | #2 brand, stable |
+| **[[Saint Laurent]]** | ~€3B | -13% | \#2 brand, stable |
 | **Bottega Veneta** | ~€1.7B | +4% | Outperformer |
 | **Balenciaga** | ~€1.5B | Declining | Lost Demna |
 | Other (Brioni, McQueen, jewelry) | ~€3B | Mixed | Smaller houses |
@@ -151,7 +151,7 @@ See [[Fifth Avenue luxury corridor]] for context on luxury brand buying spree.
 ## Related
 
 - [[Gucci]] — flagship brand, in turnaround
-- [[Saint Laurent]] — #2 brand
+- [[Saint Laurent]] — \#2 brand
 - [[François-Henri Pinault]] — chairman, controlling family
 - [[Luxury]] — sector hub
 - [[LVMH]] — larger rival, taking share

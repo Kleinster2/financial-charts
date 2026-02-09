@@ -17,7 +17,7 @@ aliases: [GE, [[General Electric]] Aerospace]
 | Orders backlog | $150B+ |
 | HQ | Cincinnati |
 
-#1 in commercial jet engines.
+\#1 in commercial jet engines.
 
 ---
 

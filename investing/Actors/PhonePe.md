@@ -62,7 +62,7 @@ Part of [[India]] digital champion IPO wave (see [[Asia IPO pipeline 2026]]).
 
 | Competitor | Notes |
 |------------|-------|
-| [[Google]] Pay | Strong #2 |
+| [[Google]] Pay | Strong \#2 |
 | Paytm | Struggling post-IPO |
 | [[Amazon]] Pay | Smaller |
 | CRED | Niche (credit card) |
@@ -74,7 +74,7 @@ PhonePe and [[Google]] Pay dominate UPI market share.
 ## Investment case
 
 **Bull:**
-- #1 in massive [[India]] payments market
+- \#1 in massive [[India]] payments market
 - Walmart backing
 - UPI adoption still growing
 - Expanding financial services

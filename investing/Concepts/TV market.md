@@ -62,7 +62,7 @@ Global television market — mature but evolving. Key battleground between Korea
 
 | Category | Samsung | LG |
 |----------|---------|-----|
-| Overall share | #1 | #2 |
+| Overall share | \#1 | \#2 |
 | OLED | Catching up (QD-OLED) | Incumbent (WOLED) |
 | LCD/LED | Dominant | Strong |
 | Differentiator | [[Micro RGB]], brightness | Black levels, viewing angles |
@@ -108,7 +108,7 @@ Global television market — mature but evolving. Key battleground between Korea
 
 ## Related
 
-- [[Samsung]] — #1 TV maker
-- [[LG Electronics]] — #2, OLED leader
+- [[Samsung]] — \#1 TV maker
+- [[LG Electronics]] — \#2, OLED leader
 - [[CES 2026]] — annual showcase
 - [[Perplexity]] — AI integration example

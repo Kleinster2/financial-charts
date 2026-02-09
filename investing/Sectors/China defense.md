@@ -13,9 +13,9 @@ China's defense industrial base — dominated by state-owned enterprises (SOEs) 
 
 | Company | Chinese | Focus | Global rank (SIPRI 2019) |
 |---------|---------|-------|--------------------------|
-| **AVIC** | 中国航空工业集团 | Aviation, aircraft | #6 |
-| **[[Norinco]]** | 中国兵器工业集团 | Ground systems, armor, artillery | #9 |
-| **CETC** | 中国电子科技集团 | Electronics, radar, C4ISR | #8 |
+| **AVIC** | 中国航空工业集团 | Aviation, aircraft | \#6 |
+| **[[Norinco]]** | 中国兵器工业集团 | Ground systems, armor, artillery | \#9 |
+| **CETC** | 中国电子科技集团 | Electronics, radar, C4ISR | \#8 |
 | **CASC** | 中国航天科技集团 | Space, missiles, satellites | Top 15 |
 | **CASIC** | 中国航天科工集团 | Missiles, aerospace | Top 15 |
 
@@ -62,7 +62,7 @@ China's defense industrial base — dominated by state-owned enterprises (SOEs) 
 
 **SOE reform:**
 - 3-year reform plan largely implemented
-- AVIC #1 defense SOE four years running
+- AVIC \#1 defense SOE four years running
 - Consolidation (CSSC + CSIC merger)
 
 ---

@@ -3,7 +3,7 @@ aliases: [Mentor Graphics]
 ---
 #actor #semiconductor #eda #germany #subsidiary
 
-**[[Siemens]] EDA** — #3 EDA player (formerly Mentor Graphics). Part of [[Siemens]]. [[Automotive]]/industrial focus.
+**[[Siemens]] EDA** — \#3 EDA player (formerly Mentor Graphics). Part of [[Siemens]]. [[Automotive]]/industrial focus.
 
 ---
 
@@ -16,7 +16,7 @@ Third player in EDA, different angle:
 | Parent | [[Siemens]] AG (SIEGY) |
 | Acquired | 2017 for $4.5B |
 | Focus | PCB, automotive, industrial |
-| Position | #3 EDA |
+| Position | \#3 EDA |
 
 ---
 
@@ -103,8 +103,8 @@ Niche player with specific strengths.
 
 ## Related
 
-- [[Synopsys]] — competitor (#1 EDA)
-- [[Cadence]] — competitor (#2 EDA)
+- [[Synopsys]] — competitor (\#1 EDA)
+- [[Cadence]] — competitor (\#2 EDA)
 - [[TSMC]] — customer (Calibre used for verification)
 - [[Intel]] — customer (automotive/industrial)
 

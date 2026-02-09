@@ -3,7 +3,7 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 ---
 #concept #housing #realestate
 
-**Single-family rental (SFR)** — Asset class born from 2008 financial crisis. PE firms bought foreclosed homes, institutionalized rental management, created new REIT category. Now 15 million units, #2 rental housing type in US.
+**Single-family rental (SFR)** — Asset class born from 2008 financial crisis. PE firms bought foreclosed homes, institutionalized rental management, created new REIT category. Now 15 million units, \#2 rental housing type in US.
 
 ---
 
@@ -15,7 +15,7 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 | SFR households | 14.2 million |
 | Detached homes | 11.2M (79%) |
 | Attached homes | 3.0M (21%) |
-| Ranking | #2 rental housing type |
+| Ranking | \#2 rental housing type |
 
 ---
 
@@ -155,7 +155,7 @@ aliases: [SFR, single-family rentals, build-to-rent, BTR]
 
 - [[Housing]] — sector hub
 - [[Invitation Homes]] — largest SFR REIT
-- [[American Homes 4 Rent]] — #2 SFR REIT
+- [[American Homes 4 Rent]] — \#2 SFR REIT
 - [[Blackstone]] — created the institutional SFR market
 - [[Institutional homebuying ban]] — policy risk
 - [[DR Horton]] — build-to-rent supplier

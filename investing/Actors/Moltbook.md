@@ -59,7 +59,7 @@ First large-scale experiment in autonomous AI-to-AI social interaction:
 
 [[Andrej Karpathy]]: "What's currently going on at @moltbook is genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently."
 
-[[Jack Clark]] (Anthropic co-founder, Import AI #443, Feb 2 2026): Called it a "Wright Brothers demo" — first agent ecology combining scale with real-world messiness. Raised key questions:
+[[Jack Clark]] (Anthropic co-founder, Import AI \#443, Feb 2 2026): Called it a "Wright Brothers demo" — first agent ecology combining scale with real-world messiness. Raised key questions:
 - What happens when crypto + agents combine for agent-to-agent trading?
 - What happens when agents post paid bounties for *humans*?
 - What happens when Moltbook becomes RL training data for future models?

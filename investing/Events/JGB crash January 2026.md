@@ -97,7 +97,7 @@ Japan's credit market also hit — average yields on high-grade corporate bonds 
 | [[Scott Bessent]] | Sought reassurances from [[BOJ]]; called it "6-sigma move" |
 | [[Satsuki Katayama]] | Finance Minister called for market calm |
 | [[BOJ]] | Policy decision Friday Jan 24 watched closely |
-| [[SMFG]] | Japan's #2 bank announced big JGB purchases after rout |
+| [[SMFG]] | Japan's \#2 bank announced big JGB purchases after rout |
 | Traders | Called it most chaotic session in recent memory |
 | Reed Capital | Bought JGBs during panic — "markets were so dislocated" |
 | T. Rowe Price | Covered underweight position during selloff |

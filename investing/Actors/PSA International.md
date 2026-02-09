@@ -36,7 +36,7 @@ World's largest fully automated container terminal (under expansion):
 ## 2025 Performance
 
 - Jan–Apr 2025: 14.18M TEU handled
-- Ranked #1 global maritime hub for 12th consecutive year (Xinhua-Baltic Index, score 99.5/100)
+- Ranked \#1 global maritime hub for 12th consecutive year (Xinhua-Baltic Index, score 99.5/100)
 
 ## Investment Angle
 

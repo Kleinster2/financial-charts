@@ -69,7 +69,7 @@ Memory cyclicality is a risk but [[HBM]] demand provides structural tailwind.
 - "50% affiliate rule" restricts shipments to certain domestic Chinese customers
 - Estimated ~$600M revenue impact for full CY2026
 
-**Analyst reaction:** Stock +7% pre-earnings on Evercore upgrade. Zacks Rank #1 (Strong Buy).
+**Analyst reaction:** Stock +7% pre-earnings on Evercore upgrade. Zacks Rank \#1 (Strong Buy).
 
 **Outlook:** Management projects robust WFE investment growth in 2026, driven by AI infrastructure demand.
 

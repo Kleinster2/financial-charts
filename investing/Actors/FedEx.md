@@ -135,7 +135,7 @@ Transition from founder-led to professional management.
 
 | Region | Position |
 |--------|----------|
-| US | #2 behind UPS |
+| US | \#2 behind UPS |
 | [[Europe]] | Strong via TNT |
 | [[Asia]] | Express leader |
 | Global | 220+ countries |

@@ -3,7 +3,7 @@ aliases: [HLT, Hilton Worldwide, Hilton Hotels]
 ---
 #actor #hospitality #usa #public
 
-**Hilton** — World's #2 hotel company by rooms. Pure asset-light franchise model. Outperforming [[Marriott]] since 2020.
+**Hilton** — World's \#2 hotel company by rooms. Pure asset-light franchise model. Outperforming [[Marriott]] since 2020.
 
 ---
 
@@ -117,7 +117,7 @@ Adding ~1,000 hotels in 2025. Small Luxury Hotels of the World partnership expan
 
 ## Related
 
-- [[Marriott]] — primary competitor (#1 by rooms)
+- [[Marriott]] — primary competitor (\#1 by rooms)
 - [[Hyatt]] — competitor (luxury-focused)
 - [[IHG]] — competitor (international)
 - [[Wyndham]] — competitor (economy)

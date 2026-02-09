@@ -5,7 +5,7 @@ aliases: [EL, Estee Lauder Companies, ELC]
 
 # Estée Lauder
 
-**World's #2 prestige beauty company** — owns Estée Lauder, Clinique, MAC, La Mer, Tom [[Ford]] Beauty, Jo Malone, Aveda. In crisis: revenue down to $14.3B in FY25 (-8%), stock lost ~$100B from peak, dividend cut, outlook withdrawn. Root cause: ~30% exposure to China + [[Asia]] travel retail, which collapsed. Losing US market share to [[L'Oréal]].
+**World's \#2 prestige beauty company** — owns Estée Lauder, Clinique, MAC, La Mer, Tom [[Ford]] Beauty, Jo Malone, Aveda. In crisis: revenue down to $14.3B in FY25 (-8%), stock lost ~$100B from peak, dividend cut, outlook withdrawn. Root cause: ~30% exposure to China + [[Asia]] travel retail, which collapsed. Losing US market share to [[L'Oréal]].
 
 ---
 
@@ -89,7 +89,7 @@ aliases: [EL, Estee Lauder Companies, ELC]
 | Revenue | $14.3B | €43.5B |
 | Prestige focus | 100% prestige | 30% luxe (+ mass) |
 | China exposure | ~30% | Lower, diversified |
-| US share | Losing | Gaining (#1 in luxury beauty) |
+| US share | Losing | Gaining (\#1 in luxury beauty) |
 | Stock (2024-25) | -80% | Flat |
 | Fragrance | Tom [[Ford]], Jo Malone | Acquired [[Kering]] Beauté/Creed |
 

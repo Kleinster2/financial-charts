@@ -32,7 +32,7 @@
 
 | Institution | Focus |
 |-------------|-------|
-| [[UBS]] | Wealth management (#1 globally) |
+| [[UBS]] | Wealth management (\#1 globally) |
 | Credit Suisse | Acquired by [[UBS]] (2023) |
 | Julius Baer | Private banking |
 | [[Swiss Re]] | Reinsurance |

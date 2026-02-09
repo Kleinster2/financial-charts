@@ -35,7 +35,7 @@ aliases: [UBER]
 |--------|-------|
 | Ticker | UBER (NYSE) |
 | Market cap | ~$150B |
-| Position | #1 rideshare globally |
+| Position | \#1 rideshare globally |
 | Segments | Mobility, Delivery, Freight |
 
 ---
@@ -97,8 +97,8 @@ Uber exited AV development (sold ATG to Aurora) but partners with leaders.
 
 | Competitor | Market |
 |------------|--------|
-| [[Lyft]] | US rideshare #2 |
-| [[DoorDash]] | US delivery #1 |
+| [[Lyft]] | US rideshare \#2 |
+| [[DoorDash]] | US delivery \#1 |
 | Didi | [[China]] (exited) |
 | Grab | [[Southeast Asia]] (invested) |
 

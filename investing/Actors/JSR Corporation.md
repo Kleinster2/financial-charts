@@ -13,7 +13,7 @@ aliases: [JSR, JSR Corp]
 
 | Metric | Value |
 |--------|-------|
-| Global photoresist share | ~27% (#1) |
+| Global photoresist share | ~27% (\#1) |
 | EUV photoresist share | ~30% (with TOK, Shin-Etsu = 90%) |
 | Acquisition price | ¥909B ($6.4B) |
 | Delisted | June 25, 2024 (TSE) |
@@ -86,8 +86,8 @@ This is a critical chokepoint — no EUV photoresist, no leading-edge chips. The
 
 | Company | Share | Notes |
 |---------|-------|-------|
-| **JSR** | ~27% | #1, now private |
-| [[Tokyo Ohka Kogyo]] | ~20-25% | #2, public |
+| **JSR** | ~27% | \#1, now private |
+| [[Tokyo Ohka Kogyo]] | ~20-25% | \#2, public |
 | [[Shin-Etsu]] | ~15% | Also does wafers |
 | [[Fujifilm]] | ~10% | Diversified |
 | [[Sumitomo Chemical]] | ~8% | Growing |
@@ -124,7 +124,7 @@ This is a critical chokepoint — no EUV photoresist, no leading-edge chips. The
 ## Related
 
 - [[Long Japan photoresists]] — investment thesis
-- [[Tokyo Ohka Kogyo]] — #2 competitor (public)
+- [[Tokyo Ohka Kogyo]] — \#2 competitor (public)
 - [[Shin-Etsu]] — wafers + photoresists (public)
 - [[Fujifilm]] — diversified competitor
 - [[Japan Investment Corporation]] — acquirer

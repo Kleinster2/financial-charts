@@ -13,7 +13,7 @@ aliases: [Steven A. Cohen, Steven Cohen]
 |--------|-------|
 | Born | June 11, 1956, Great Neck, NY |
 | Net worth | $17-22B (2025 estimates vary) |
-| Forbes rank | #30 richest American (2024) |
+| Forbes rank | \#30 richest American (2024) |
 | Education | BA Economics, Wharton (1978) |
 | Firm | [[Point72]] (founded 2014) |
 | Other | Owner, NY Mets (97%+ stake) |

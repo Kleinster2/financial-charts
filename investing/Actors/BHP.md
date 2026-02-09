@@ -13,7 +13,7 @@ aliases: [BHP Group]
 |--------|-------|
 | Ticker | BHP (ASX/NYSE/LSE) |
 | Market cap | ~$150B |
-| Position | #1 mining globally |
+| Position | \#1 mining globally |
 | Key commodities | Iron ore, copper, coal |
 
 ---
@@ -22,7 +22,7 @@ aliases: [BHP Group]
 
 | Commodity | Share | Position |
 |-----------|-------|----------|
-| Iron ore | ~50% | #2 globally (after [[Vale]]) |
+| Iron ore | ~50% | \#2 globally (after [[Vale]]) |
 | [[Copper]] | ~25% | Growing focus |
 | Coal | ~15% | Met coal (steelmaking) |
 | Other | ~10% | Nickel, potash |
@@ -82,6 +82,6 @@ aliases: [BHP Group]
 
 ## Related
 
-- [[Rio Tinto]] — peer (#2 mining)
+- [[Rio Tinto]] — peer (\#2 mining)
 - [[Copper for AI]] — thesis (electrification demand)
 - [[Lithium]] — adjacent (Rio has, BHP doesn't)

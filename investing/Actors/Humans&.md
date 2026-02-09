@@ -27,7 +27,7 @@ The thesis: AI that strengthens how people work together is more valuable than A
 | Name | Role | Background |
 |------|------|------------|
 | Eric Zelikman | CEO | [[xAI]] (led Grok 2 post-training, Grok 3 reasoning RL, Grok 4 agent infrastructure); [[Stanford]] PhD; wrote STaR (Self-Taught Reasoner), first paper training LLMs to reason using their own rationales |
-| Georges Harik | Co-founder, Lead investor | [[Google]] employee #7; wrote AdWords business plan, helped define AdSense targeting; recent research on Quiet-STaR and probabilistic programming |
+| Georges Harik | Co-founder, Lead investor | [[Google]] employee \#7; wrote AdWords business plan, helped define AdSense targeting; recent research on Quiet-STaR and probabilistic programming |
 | Noah Goodman | Co-founder | [[Stanford]] professor (psychology + CS); [[Google DeepMind]] (contributed to Gemini post-training); Zelikman's PhD advisor |
 | Andi Peng | Co-founder | [[Anthropic]] (RL and post-training for Claude 3.5 through 4.5) |
 | Yuchen He | Co-founder | [[xAI]] (helped develop [[Grok]]) |

@@ -77,7 +77,7 @@ See [[Nuclear power for AI]] for context.
 |--------|-------|
 | Cloud revenue | ~$20B/year |
 | Growth rate | 25%+ |
-| Market position | #4 (behind AWS, Azure, GCP) |
+| Market position | \#4 (behind AWS, Azure, GCP) |
 | AI focus | NVIDIA GPU clusters |
 
 **Differentiation:**

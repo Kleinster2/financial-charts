@@ -47,7 +47,7 @@ aliases: [WMT]
 **PhonePe spinoff:**
 - Walmart owns ~85%
 - $12B+ valuation (2023 round)
-- #1 UPI payments in [[India]]
+- \#1 UPI payments in [[India]]
 - IPO expected (timeline TBD)
 
 Significant [[India]] fintech exposure through PhonePe.

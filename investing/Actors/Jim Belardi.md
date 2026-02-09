@@ -14,7 +14,7 @@ aliases: [James Belardi, James R. Belardi]
 | Education | [[Stanford]] BA (economics), UCLA MBA |
 | Prior role | President, SunAmerica Life; EVP/CIO, [[AIG]] Retirement Services ($250B portfolio) |
 | Athene role | Co-founder (2009), CEO (2009–2025), now Executive Chairman/CIO |
-| Achievement | Built Athene from startup to $430B assets, #1 US annuity seller |
+| Achievement | Built Athene from startup to $430B assets, \#1 US annuity seller |
 | Annual earnings | >$3B under his leadership |
 | Market share | >12% US individual annuities |
 
@@ -36,7 +36,7 @@ aliases: [James Belardi, James R. Belardi]
 
 **Building the platform (2009–2025):**
 - Grew from zero to $430B total assets
-- Built #1 US individual annuity franchise (12%+ market share)
+- Built \#1 US individual annuity franchise (12%+ market share)
 - Record $36B in sales (2024)
 - Innovated ACRA [[Reinsurance sidecars|reinsurance sidecar]] (2019) — first life/annuity sidecar
 - Expanded to US, Bermuda, [[Canada]], [[Japan]]

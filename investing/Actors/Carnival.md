@@ -90,7 +90,7 @@ aliases: [CCL, Carnival Corporation]
 
 | Aspect | Carnival | [[Royal Caribbean]] | Norwegian |
 |--------|----------|---------------------|-----------|
-| Size | Largest | #2 | #3 |
+| Size | Largest | \#2 | \#3 |
 | Ships | ~90 | ~65 | ~30 |
 | Debt | Higher | Moderate | Moderate |
 | Cuba leverage | Highest | High | Moderate |
@@ -99,7 +99,7 @@ aliases: [CCL, Carnival Corporation]
 
 ## Related
 
-- [[Royal Caribbean]] — peer (#2)
+- [[Royal Caribbean]] — peer (\#2)
 - [[Cuba]] — opening opportunity
 - [[Cuba opening]] — thesis
 - [[Venezuela]] — regional context

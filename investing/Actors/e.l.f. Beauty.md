@@ -5,7 +5,7 @@ aliases: [ELF, elf Beauty, elf cosmetics]
 
 # e.l.f. Beauty
 
-**Mass cosmetics disruptor** — 25 consecutive quarters of sales and market share growth (unprecedented among ~1,000 tracked brands). Revenue grew 77% in FY24, 28% in FY25 to ~$1.3B. #1 US cosmetics brand by unit share, #2 by dollar share. Gained 190bps market share in FY25. The "dupe economy" poster child — prestige quality at mass prices. Stock 10x'd from 2020 lows before correcting.
+**Mass cosmetics disruptor** — 25 consecutive quarters of sales and market share growth (unprecedented among ~1,000 tracked brands). Revenue grew 77% in FY24, 28% in FY25 to ~$1.3B. \#1 US cosmetics brand by unit share, \#2 by dollar share. Gained 190bps market share in FY25. The "dupe economy" poster child — prestige quality at mass prices. Stock 10x'd from 2020 lows before correcting.
 
 ---
 
@@ -20,7 +20,7 @@ aliases: [ELF, elf Beauty, elf cosmetics]
 | Adjusted EBITDA (FY25) | $297M (+26%) |
 | CEO | Tarang Amin |
 | HQ | Oakland, California |
-| US market share | #1 by units, #2 by dollars |
+| US market share | \#1 by units, \#2 by dollars |
 
 ---
 
@@ -58,9 +58,9 @@ aliases: [ELF, elf Beauty, elf cosmetics]
 |--------|--------|---------------|
 | Growth (FY25) | +28% | Declining (Maybelline, CoverGirl) |
 | [[Target]] share | 21% of cosmetics category | — |
-| [[Walmart]] rank | #2 (from #4) | — |
-| Unit share | **#1 in US** | — |
-| Dollar share | **#2 in US** | — |
+| [[Walmart]] rank | \#2 (from \#4) | — |
+| Unit share | **\#1 in US** | — |
+| Dollar share | **\#2 in US** | — |
 
 Taking share from [[L'Oréal]] (Maybelline), Coty (CoverGirl), Revlon consistently.
 
@@ -132,7 +132,7 @@ e.l.f. is the beneficiary of beauty's dupe trend:
 - 25 straight quarters of share gains — unprecedented
 - Only 33% brand awareness (vs 55% for leader) = headroom
 - International only 20%, growing 60%
-- #1 by units in US cosmetics
+- \#1 by units in US cosmetics
 - Gen Z loyalty + social media moat
 - Skincare expansion (Naturium) diversifies
 

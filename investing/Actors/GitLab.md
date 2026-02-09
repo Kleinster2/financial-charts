@@ -40,7 +40,7 @@
 
 - First partly-Ukrainian unicorn (2018)
 - Zaporozhets became richest Ukrainian techie
-- Forbes 2021: estimated his fortune at $450M (#23 richest Ukrainian)
+- Forbes 2021: estimated his fortune at $450M (\#23 richest Ukrainian)
 
 ---
 

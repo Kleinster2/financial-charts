@@ -3,7 +3,7 @@ aliases: [VITL, Vital Farms Inc]
 ---
 #actor #consumer #food #usa #public
 
-**Vital Farms** — Pasture-raised eggs and butter. #1 U.S. brand by retail dollar sales. Asset-light farmer network model. Certified B Corp.
+**Vital Farms** — Pasture-raised eggs and butter. \#1 U.S. brand by retail dollar sales. Asset-light farmer network model. Certified B Corp.
 
 ## Why Vital Farms matters
 

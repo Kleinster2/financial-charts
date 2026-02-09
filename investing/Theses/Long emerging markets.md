@@ -117,14 +117,14 @@ See [[Venezuela]] for full context.
 
 | Country | AI supply chain role |
 |---------|---------------------|
-| **South Korea** | [[HBM]] (SK Hynix #1, Samsung #2) |
+| **South Korea** | [[HBM]] (SK Hynix \#1, Samsung \#2) |
 | [[Taiwan]] | Advanced logic ([[TSMC]]) |
 | Malaysia | Backend packaging |
 | Vietnam | Assembly |
 
 **South Korea positioning:**
 - SK Hynix = [[HBM]] industry leader
-- Samsung = #2 in [[HBM]]
+- Samsung = \#2 in [[HBM]]
 - Kospi up **11.5% YTD**
 
 ---
@@ -187,7 +187,7 @@ See [[Venezuela]] for full context.
 - [[Turkey]] — PIMCO favorite (local-currency bonds)
 - [[Rare earth leverage]] — Commodity stockpiling driver
 - [[SK Hynix]] — AI supply chain ([[HBM]] leader)
-- [[Samsung]] — AI supply chain ([[HBM]] #2)
+- [[Samsung]] — AI supply chain ([[HBM]] \#2)
 - [[Capital flow reversal]] — Related macro theme
 
 *Created 2026-01-15*

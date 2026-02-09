@@ -64,7 +64,7 @@ World's largest e-commerce platform by merchandise volume.
 | Metric | Value |
 |--------|-------|
 | 2022 live-stream GMV | ¥770B (~$110B) |
-| Market position | Founded live commerce (2016), now #3 |
+| Market position | Founded live commerce (2016), now \#3 |
 | Challenge | Douyin, Kuaishou taking share |
 
 **2026 China live commerce market:** Projected to exceed $1 trillion.

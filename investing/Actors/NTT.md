@@ -24,7 +24,7 @@ aliases: [Nippon Telegraph and Telephone, NTT Corporation]
 
 | Company | Focus |
 |---------|-------|
-| NTT DOCOMO | Japanese mobile (#1) |
+| NTT DOCOMO | Japanese mobile (\#1) |
 | NTT Data | IT services (global) |
 | NTT Communications | Enterprise |
 | NTT East/West | Regional fixed |

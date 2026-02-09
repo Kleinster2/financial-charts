@@ -3,7 +3,7 @@ aliases: [Renesas Electronics]
 ---
 #actor #semiconductor #japan #automotive #mcu
 
-**Renesas Electronics** — Japanese semiconductor company. #1 in automotive MCUs globally, major auto chip supplier.
+**Renesas Electronics** — Japanese semiconductor company. \#1 in automotive MCUs globally, major auto chip supplier.
 
 ---
 
@@ -13,7 +13,7 @@ Renesas is the dominant automotive MCU supplier:
 
 | Role | Details |
 |------|---------|
-| Auto MCUs | #1 globally (~30% share) |
+| Auto MCUs | \#1 globally (~30% share) |
 | [[Automotive]] | Major Tier 1 supplier |
 | Analog/power | Growing via acquisitions |
 | [[Japan]] champion | Largest Japanese semi |
@@ -22,11 +22,11 @@ Renesas is the dominant automotive MCU supplier:
 
 ## Market position
 
-**#1 in automotive MCUs:**
+**\#1 in automotive MCUs:**
 
 | Segment | Position |
 |---------|----------|
-| [[Automotive]] MCUs | #1 globally |
+| [[Automotive]] MCUs | \#1 globally |
 | [[Automotive]] analog | Top 5 |
 | Industrial | Strong |
 | IoT | Growing |
@@ -135,7 +135,7 @@ Renesas is MCU-centric; competitors stronger in power/analog.
 | Ticker | 6723.T |
 | Market cap | ~$27B |
 | Revenue | ~$10B |
-| Auto MCU share | ~30% (#1) |
+| Auto MCU share | ~30% (\#1) |
 | Key customers | Toyota, Honda, Nissan |
 
 *Updated 2026-01-04*
@@ -145,8 +145,8 @@ Renesas is MCU-centric; competitors stronger in power/analog.
 ## Related
 
 - [[Toyota]] — major customer
-- [[Infineon]] — competitor (#1 power, #1 overall auto)
-- [[NXP]] — competitor (#2 auto)
+- [[Infineon]] — competitor (\#1 power, \#1 overall auto)
+- [[NXP]] — competitor (\#2 auto)
 - [[STMicro]] — competitor (European auto)
 - [[Automotive semiconductors]] — market context
 - [[Japan Semiconductor Revival]] — national context

@@ -18,7 +18,7 @@ aliases: [HD]
 | Employees | 475K+ |
 | HQ | Atlanta |
 
-#1 home improvement retailer globally.
+\#1 home improvement retailer globally.
 
 ---
 
@@ -158,7 +158,7 @@ Premium for scale and execution.
 ## Related
 
 ### Competitors
-- [[Lowe's]] — #2 home improvement
+- [[Lowe's]] — \#2 home improvement
 - [[Amazon]] — e-commerce threat
 
 ### Sectors

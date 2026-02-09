@@ -278,7 +278,7 @@ See [[Short interest]] for broader framework on interpreting this signal.
 
 - [[US-Taiwan relations]] — trade deal (Jan 2026 land buy, $500B framework)
 - [[Foundry Wars]] — context (dominant player)
-- [[Samsung]] — competitor (#2 foundry)
+- [[Samsung]] — competitor (\#2 foundry)
 - [[Intel Foundry Services]] — competitor (US alternative)
 - [[Apple]] — customer (largest, exclusive)
 - [[NVIDIA]] — customer (GPU leader)

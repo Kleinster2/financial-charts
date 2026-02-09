@@ -29,7 +29,7 @@ See [[Title Insurance]] sector note for full coverage. See [[Title Agencies]] fo
 | Company | Focus | Market cap | Key metric |
 |---------|-------|------------|------------|
 | [[Berkshire Hathaway]] | GEICO, reinsurance, conglomerate | ~$1T | Float model (original) |
-| [[Travelers]] | Commercial mid-market, surety (#1 NA) | ~$61B | Combined ratio 83.2% |
+| [[Travelers]] | Commercial mid-market, surety (\#1 NA) | ~$61B | Combined ratio 83.2% |
 | [[Chubb]] | Commercial, high-net-worth | ~$115B | Discipline, global |
 | [[AIG]] | Commercial P&C | ~$50B | Post-restructuring |
 | [[Allstate]] | Personal auto, home | ~$50B | Direct + agent |
@@ -56,7 +56,7 @@ See [[Title Insurance]] sector note for full coverage. See [[Title Agencies]] fo
 
 | Platform | PE Sponsor | Total assets | Market share |
 |----------|-----------|-------------|--------------|
-| [[Athene]] | [[Apollo]] | $430B | #1 US individual annuity (12%+) |
+| [[Athene]] | [[Apollo]] | $430B | \#1 US individual annuity (12%+) |
 | [[Global Atlantic]] | [[KKR]] | >$200B | Top 5 fixed annuity |
 | [[American Equity]] | [[Brookfield]] | $130B | Leading FIA provider |
 | [[Fortitude Re]] | [[Carlyle Group]] | $106B | Reinsurance/run-off |
@@ -68,20 +68,20 @@ See [[PE-insurance convergence]] for the thesis.
 
 | Company | HQ | Market cap | Specialty |
 |---------|-----|-----------|-----------|
-| [[Munich Re]] | Germany | ~$85B | #1 (AM Best), P&C cat |
-| [[Swiss Re]] | Switzerland | ~$50B | #1 life/health reinsurer |
-| [[Berkshire Hathaway]] | USA | ~$1T | #4 reinsurer |
-| Hannover Re | Germany | ~$30B | #3, balanced book |
+| [[Munich Re]] | Germany | ~$85B | \#1 (AM Best), P&C cat |
+| [[Swiss Re]] | Switzerland | ~$50B | \#1 life/health reinsurer |
+| [[Berkshire Hathaway]] | USA | ~$1T | \#4 reinsurer |
+| Hannover Re | Germany | ~$30B | \#3, balanced book |
 | Lloyd's | UK | Market | Specialty, syndicate model |
 
 ### Insurance Brokers (distribution layer)
 
 | Company | Focus | Market cap | 2024 revenue |
 |---------|-------|-----------|-------------|
-| [[Marsh McLennan]] | #1 broker, reinsurance (Guy Carpenter) | ~$90B | $24.5B |
-| [[Aon]] | #2 broker, analytics, ILS advisory | ~$75B | $15.7B |
-| Arthur J. Gallagher | #4, middle market | ~$70B | ~$11B |
-| Willis Towers Watson | #3, HR/benefits | ~$30B | ~$9B |
+| [[Marsh McLennan]] | \#1 broker, reinsurance (Guy Carpenter) | ~$90B | $24.5B |
+| [[Aon]] | \#2 broker, analytics, ILS advisory | ~$75B | $15.7B |
+| Arthur J. Gallagher | \#4, middle market | ~$70B | ~$11B |
+| Willis Towers Watson | \#3, HR/benefits | ~$30B | ~$9B |
 
 ---
 

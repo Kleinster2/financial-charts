@@ -64,7 +64,7 @@ aliases: [ADS, Adidas AG]
 
 | Model | Status |
 |-------|--------|
-| **Samba** | #1 sneaker globally (2024) |
+| **Samba** | \#1 sneaker globally (2024) |
 | **Gazelle** | Fashion staple |
 | **Campus** | Growing fast |
 | **Spezial** | Collector/enthusiast |
@@ -135,7 +135,7 @@ aliases: [ADS, Adidas AG]
 
 - [[Fashion]] — sector hub
 - [[Nike]] — primary competitor
-- [[Puma]] — #3 competitor, took their CEO
+- [[Puma]] — \#3 competitor, took their CEO
 - [[On Running]] — performance running competitor
 - [[Deckers]] — competitor (Hoka)
 - [[New Balance]] — competitor, cultural heat

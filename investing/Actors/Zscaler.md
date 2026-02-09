@@ -13,7 +13,7 @@ aliases: [ZS]
 |--------|-------|
 | Ticker | ZS (NASDAQ) |
 | Market cap | ~$30B |
-| Position | #1 zero trust/SASE |
+| Position | \#1 zero trust/SASE |
 | Key product | Zero Trust Exchange |
 
 ---

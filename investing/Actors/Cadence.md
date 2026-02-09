@@ -3,7 +3,7 @@ aliases: [CDNS]
 ---
 #actor #semiconductor #eda #usa #public
 
-**Cadence Design Systems** — #2 EDA company. Custom IC design leader. Duopoly with Synopsys.
+**Cadence Design Systems** — \#2 EDA company. Custom IC design leader. Duopoly with Synopsys.
 
 ---
 
@@ -17,7 +17,7 @@ Critical chip design infrastructure:
 | Market cap | ~$75B |
 | Revenue | ~$4.5B |
 | Margin | 30%+ operating |
-| Position | #2 EDA |
+| Position | \#2 EDA |
 
 ---
 

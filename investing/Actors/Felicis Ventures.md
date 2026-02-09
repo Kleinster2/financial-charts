@@ -2,7 +2,7 @@
 
 #actor #vc #usa #private #early-stage
 
-**Felicis Ventures** — Early-stage VC founded by Aydin Senkut ([[Google]] employee #63). **$900M Fund X (2025), 50+ unicorns, 125+ exits.** Notable: [[Shopify]], Credit Karma, [[Adyen]], [[Notion]], [[Canva]], [[Supabase]]. Known for founder-friendly terms — contractual promise to never vote against founders.
+**Felicis Ventures** — Early-stage VC founded by Aydin Senkut ([[Google]] employee \#63). **$900M Fund X (2025), 50+ unicorns, 125+ exits.** Notable: [[Shopify]], Credit Karma, [[Adyen]], [[Notion]], [[Canva]], [[Supabase]]. Known for founder-friendly terms — contractual promise to never vote against founders.
 
 ---
 
@@ -25,7 +25,7 @@
 
 | Detail | Value |
 |--------|-------|
-| Background | [[Google]] employee #63, first product manager |
+| Background | [[Google]] employee \#63, first product manager |
 | [[Google]] tenure | 1999-2005 |
 | Origin | Turkish, speaks 5 languages |
 | Education | Boston University, Wharton MBA |

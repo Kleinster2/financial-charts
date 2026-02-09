@@ -227,7 +227,7 @@ Laser links between satellites. Reduce ground station dependency.
 | Company | Status |
 |---------|--------|
 | **[[SpaceX]]** | Dominant (~90% of commercial mass to orbit) |
-| **[[Rocket Lab]]** | #2, growing with Neutron |
+| **[[Rocket Lab]]** | \#2, growing with Neutron |
 | **ULA** | Government-focused |
 | **[[Blue Origin]]** | New Glenn in development |
 

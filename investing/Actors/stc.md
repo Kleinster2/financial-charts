@@ -16,7 +16,7 @@ Saudi's telecom champion:
 | Ticker | 7010.SR (Tadawul) |
 | Market cap | ~$60B |
 | Ownership | 64% PIF |
-| Position | #1 Saudi telecom |
+| Position | \#1 Saudi telecom |
 
 ---
 
@@ -108,7 +108,7 @@ Expanding beyond Saudi.
 | Ticker | 7010.SR |
 | Market cap | ~$60B |
 | PIF stake | 64% |
-| Position | #1 Saudi telecom |
+| Position | \#1 Saudi telecom |
 
 *Updated 2026-01-01*
 

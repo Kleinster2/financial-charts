@@ -138,7 +138,7 @@ Perplexity = pure-play AI search.
 **[[Samsung]] ([[CES 2026]]):**
 - Perplexity AI agent integrated into Samsung TVs
 - Alongside Bixby ([[Samsung]]) and [[Microsoft]]
-- Major consumer distribution channel — Samsung is #1 TV maker globally
+- Major consumer distribution channel — Samsung is \#1 TV maker globally
 
 Shows path to consumer distribution beyond mobile/web.
 

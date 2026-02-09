@@ -43,12 +43,12 @@ aliases: [090430, Amorepacific Corporation, AmorePacific]
 | Region | Revenue | Growth | Notes |
 |--------|---------|--------|-------|
 | **Korea** | KRW 2.16T | -2.4% | Duty-free decline offsetting domestic growth |
-| **Americas** | — | **+83%** | Now #1 global market (surpassed China) |
+| **Americas** | — | **+83%** | Now \#1 global market (surpassed China) |
 | **Greater China** | KRW 510B | **-27%** | Deliberate inventory reduction |
 | **EMEA** | — | **+229%** | Laneige, COSRX expansion |
 | **[[Asia]] ex-China** | — | Growing | [[Japan]] strong |
 
-The geographic rebalancing is dramatic: Americas went from minor to #1 market in one year.
+The geographic rebalancing is dramatic: Americas went from minor to \#1 market in one year.
 
 ---
 

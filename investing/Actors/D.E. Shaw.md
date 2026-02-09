@@ -117,7 +117,7 @@ Day-to-day management by Executive Committee; Shaw focused on D.E. Shaw Research
 
 **Why track D.E. Shaw**:
 
-1. **Top performer** — #1 hedge fund ranking in 2024. Oculus never had a down year.
+1. **Top performer** — \#1 hedge fund ranking in 2024. Oculus never had a down year.
 
 2. **Quant + discretionary** — Rare successful hybrid approach. Most firms are one or the other.
 

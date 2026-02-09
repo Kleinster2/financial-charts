@@ -135,7 +135,7 @@ Major banks providing cross-currency swaps to Brazilian corporates:
 | [[Itaú BBA]] | Largest private bank in LatAm, top-tier derivatives desk |
 | [[Bradesco BBI]] | Major local player, frequent lead coordinator |
 | [[Santander Brasil]] | Full-service investment bank |
-| [[BTG Pactual]] | #1 in Institutional Investor LatAm rankings |
+| [[BTG Pactual]] | \#1 in Institutional Investor LatAm rankings |
 | [[UBS BB]] | JV with Banco do Brasil |
 | [[MUFG]] | Active in larger deals |
 

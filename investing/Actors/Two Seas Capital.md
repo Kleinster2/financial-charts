@@ -3,7 +3,7 @@ aliases: [Two Seas Capital Management]
 ---
 #actor #hedgefund #lsequity #usa
 
-**Two Seas Capital** — Long/short equity hedge fund. **+39.8% in 2025** — #2 performer among major funds. +31.2% in 2024.
+**Two Seas Capital** — Long/short equity hedge fund. **+39.8% in 2025** — \#2 performer among major funds. +31.2% in 2024.
 
 ---
 
@@ -41,8 +41,8 @@ aliases: [Two Seas Capital Management]
 ## Related
 
 - [[Hedge Funds]] — sector hub
-- [[Sachem Head]] — L/S peer (#1 performer)
-- [[Light Street]] — L/S peer (#3 performer)
+- [[Sachem Head]] — L/S peer (\#1 performer)
+- [[Light Street]] — L/S peer (\#3 performer)
 - [[Marshall Wace]] — L/S peer
 
 ---

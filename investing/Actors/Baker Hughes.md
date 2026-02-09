@@ -90,7 +90,7 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 | Aspect | Baker Hughes | [[Schlumberger]] | [[Halliburton]] |
 |--------|--------------|------------------|-----------------|
-| Size | #3 | #1 | #2 |
+| Size | \#3 | \#1 | \#2 |
 | Focus | Diversified | International | N. America |
 | LNG | Leader | Limited | None |
 | Transition | Best positioned | Moderate | [[Oil]]-focused |
@@ -99,8 +99,8 @@ See [[Maduro capture 2026]] and [[Venezuela oil rebuild]] for context.
 
 ## Related
 
-- [[Schlumberger]] — peer (#1)
-- [[Halliburton]] — peer (#2)
+- [[Schlumberger]] — peer (\#1)
+- [[Halliburton]] — peer (\#2)
 - [[Venezuela]] — rebuild opportunity
 - [[LNG]] — growth driver
 

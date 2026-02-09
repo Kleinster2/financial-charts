@@ -3,7 +3,7 @@ aliases: [0700, TCEHY]
 ---
 #actor #hyperscaler #china #ai
 
-**Tencent** — WeChat, gaming giant. [[China]] cloud #2. Hunyuan AI model.
+**Tencent** — WeChat, gaming giant. [[China]] cloud \#2. Hunyuan AI model.
 
 ---
 
@@ -15,7 +15,7 @@ Tencent is [[China]]'s largest company by market cap and a major AI investor:
 |--------|-------|
 | Market cap | ~$400B+ (largest [[China]] tech) |
 | Core products | WeChat, gaming, cloud |
-| Cloud position | #2 [[China]] (~20% share) |
+| Cloud position | \#2 [[China]] (~20% share) |
 | AI model | Hunyuan (混元) |
 
 ---
@@ -26,7 +26,7 @@ Tencent is [[China]]'s largest company by market cap and a major AI investor:
 |---------|---------|
 | **WeChat** | 1.3B+ MAU, super-app, payments |
 | **[[Gaming]]** | World's largest (Riot, Supercell stakes) |
-| **Cloud** | #2 [[China]], enterprise focus |
+| **Cloud** | \#2 [[China]], enterprise focus |
 | **[[Fintech]]** | WeChat Pay, WeSure |
 | **Investments** | Massive portfolio (Epic, [[Spotify]], etc.) |
 
@@ -34,7 +34,7 @@ Tencent is [[China]]'s largest company by market cap and a major AI investor:
 
 ## Tencent Cloud
 
-**[[China]]'s #2 cloud:**
+**[[China]]'s \#2 cloud:**
 - ~20% market share
 - Behind [[Alibaba]] (~35%)
 - Ahead of Huawei Cloud, Baidu
@@ -128,7 +128,7 @@ Tencent is also a major tech investor, not just operator.
 | Market cap | ~$400B+ |
 | HQ | [[Shenzhen]], [[China]] |
 | WeChat MAU | 1.3B+ |
-| Cloud share | #2 [[China]] (~20%) |
+| Cloud share | \#2 [[China]] (~20%) |
 
 *Updated 2026-01-01*
 
@@ -140,7 +140,7 @@ Tencent is also a major tech investor, not just operator.
 - [[Hunyuan]] — AI model (90% of WeChat question queries)
 
 ### Competitors/Peers
-- [[Alibaba]] — competitor (cloud #1 vs #2)
+- [[Alibaba]] — competitor (cloud \#1 vs \#2)
 - [[ByteDance]] — competitor ([[Doubao]] vs Hunyuan)
 - [[Baidu]] — competitor ([[China]] AI)
 - [[Export controls]] — constraint (GPU access limited)

@@ -55,7 +55,7 @@ Fungible raw materials — US has weak cards.
 | Commodity | Controller | Leverage |
 |-----------|------------|----------|
 | [[Venezuela]] oil | US (new) | Medium |
-| [[Agriculture]] | US was #1 | Weak ([[Brazil]]/[[Argentina]]) |
+| [[Agriculture]] | US was \#1 | Weak ([[Brazil]]/[[Argentina]]) |
 
 See [[US-China commodity leverage]].
 

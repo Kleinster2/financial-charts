@@ -21,7 +21,7 @@ aliases: [LR.PA, LGRDY]
 
 ## Why Legrand matters
 
-**#1 in DC white space:**
+**\#1 in DC white space:**
 
 | Metric | Value |
 |--------|-------|
@@ -83,7 +83,7 @@ Aggressive M&A driving DC segment growth.
 ## Investment case
 
 **Bull:**
-- #1 white space equipment globally
+- \#1 white space equipment globally
 - +24% DC growth
 - €2B+ DC revenue
 - 7 acquisitions expanding position

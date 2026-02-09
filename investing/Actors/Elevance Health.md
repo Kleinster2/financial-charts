@@ -63,7 +63,7 @@ Health insurers face different dynamics than life/P&C:
 
 ## Related
 
-- [[UnitedHealth]] — #1 peer (largest US health insurer)
+- [[UnitedHealth]] — \#1 peer (largest US health insurer)
 - [[Cigna]] — peer (Evernorth PBM)
 - [[Humana]] — peer ([[Medicare Advantage]] focused)
 - [[CVS Health]] — peer (Aetna + Caremark PBM)

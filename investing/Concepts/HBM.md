@@ -66,8 +66,8 @@ AI training/inference is memory-bound. See [[GPU memory scaling]] for the struct
 
 Only 3 suppliers:
 - [[SK Hynix]] — Market leader, [[NVIDIA]]'s primary supplier
-- [[Samsung]] — #2, catching up
-- [[Micron]] — Distant #3, ramping HBM3E
+- [[Samsung]] — \#2, catching up
+- [[Micron]] — Distant \#3, ramping HBM3E
 
 ---
 
@@ -140,9 +140,9 @@ Only 3 suppliers:
 ## Related
 
 - [[GPU memory scaling]] — the structural trend driving HBM demand
-- [[SK Hynix]] — supplier (#1 HBM, won't supply [[China]])
-- [[Samsung]] — supplier (#2 HBM, aligned with US)
-- [[Micron]] — supplier (#3 HBM, US company)
+- [[SK Hynix]] — supplier (\#1 HBM, won't supply [[China]])
+- [[Samsung]] — supplier (\#2 HBM, aligned with US)
+- [[Micron]] — supplier (\#3 HBM, US company)
 - [[Memory shortage 2025-2026]] — context (HBM demand causing shortage)
 - [[Advanced packaging]] — requirement (CoWoS for integration)
 - [[NVIDIA]] — customer (primary HBM buyer)

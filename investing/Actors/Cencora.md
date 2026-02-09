@@ -96,8 +96,8 @@ Like [[McKesson]], ultra-thin margins on massive volumes. Growth comes from spec
 ## Related
 
 - [[Healthcare]] — sector hub
-- [[McKesson]] — Big Three peer (#1)
-- [[Cardinal Health]] — Big Three peer (#3)
+- [[McKesson]] — Big Three peer (\#1)
+- [[Cardinal Health]] — Big Three peer (\#3)
 - Walgreens — major customer
 
 ---

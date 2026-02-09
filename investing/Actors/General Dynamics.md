@@ -66,7 +66,7 @@ See [[Trump defense budget]] for full context.
 ## Investment case
 
 **Bull:**
-- Columbia-class is "no fail" program (#1 DoD priority)
+- Columbia-class is "no fail" program (\#1 DoD priority)
 - Submarine demand ([[China]] threat)
 - Gulfstream business jet cycle
 - $90B+ backlog visibility

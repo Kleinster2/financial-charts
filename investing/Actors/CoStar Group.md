@@ -3,7 +3,7 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 ---
 #actor #technology #realestate #usa #public
 
-**CoStar Group** — #1 commercial real estate data provider. Aggressively building Homes.com to challenge [[Zillow]]. 57 consecutive quarters of double-digit revenue growth. NASDAQ: CSGP.
+**CoStar Group** — \#1 commercial real estate data provider. Aggressively building Homes.com to challenge [[Zillow]]. 57 consecutive quarters of double-digit revenue growth. NASDAQ: CSGP.
 
 ---
 
@@ -50,13 +50,13 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 | Metric | Value |
 |--------|-------|
 | Monthly unique visitors | **111 million** |
-| Market position | **#2** (behind Zillow) |
+| Market position | **\#2** (behind Zillow) |
 | [[Consumer]] awareness | 36% (vs 4% pre-Feb 2024) |
 | Sales force | 370 reps → 500 by mid-2025 |
 | Demo-to-close rate | 50%+ |
 | Member agent listing wins | +62% vs non-members |
 
-**Built to #2 in one year** — unprecedented growth.
+**Built to \#2 in one year** — unprecedented growth.
 
 ---
 
@@ -85,7 +85,7 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 | Metric | CoStar (Homes.com) | [[Zillow]] |
 |--------|-------------------|------------|
 | Monthly visitors | 111M | 227M |
-| Market position | #2 | #1 |
+| Market position | \#2 | \#1 |
 | Growth rate | Explosive | Mature |
 | Commercial RE | Dominant | None |
 | Strategy | Agent-friendly | Lead gen |
@@ -105,7 +105,7 @@ aliases: [CSGP, CoStar, Homes.com, LoopNet]
 
 **Bear case:**
 - Homes.com heavy investment drag
-- Zillow entrenched #1
+- Zillow entrenched \#1
 - Premium valuation
 - Residential is money-losing
 

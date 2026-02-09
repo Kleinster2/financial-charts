@@ -14,7 +14,7 @@ aliases: [Scotiabank, BNS]
 | Ticker | BNS (TSX, NYSE) |
 | HQ | Toronto, [[Canada]] |
 | Assets | ~C$1.4T |
-| Position | #3 Canadian bank by assets |
+| Position | \#3 Canadian bank by assets |
 | Strength | LatAm/Caribbean exposure |
 
 ---

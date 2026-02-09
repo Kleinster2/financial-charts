@@ -67,7 +67,7 @@ OTB doesn't disclose individual brand revenue:
 | Market | Status |
 |--------|--------|
 | **[[Japan]]** | Largest market, historically strong |
-| **[[Europe]]** | #2 market |
+| **[[Europe]]** | \#2 market |
 | **[[China]]** | Grew rapidly through pandemic |
 
 ---

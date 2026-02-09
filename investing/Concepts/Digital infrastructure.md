@@ -83,7 +83,7 @@ aliases: [digital infra, DI, digital real estate]
 
 ### REITs (public, liquid)
 - [[Equinix]] (EQIX) — largest DC REIT, 270+ DCs globally
-- [[Digital Realty]] (DLR) — #2, hyperscale focus
+- [[Digital Realty]] (DLR) — \#2, hyperscale focus
 - [[American Tower]] (AMT) — largest tower REIT
 - Crown Castle (CCI) — towers + small cells + fiber
 
@@ -154,7 +154,7 @@ aliases: [digital infra, DI, digital real estate]
 - [[Long datacenter infrastructure]] — thesis
 - [[DigitalBridge]] — pure-play DI manager (SoftBank acquisition)
 - [[Equinix]] — largest DC REIT
-- [[Digital Realty]] — #2 DC REIT
+- [[Digital Realty]] — \#2 DC REIT
 - [[American Tower]] — largest tower company
 - [[Switch]] — hyperscale DC operator
 - [[QTS]] — Blackstone DC platform

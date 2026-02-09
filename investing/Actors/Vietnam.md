@@ -1,6 +1,6 @@
 #actor #country #asia #emerging #china-plus-one
 
-**Vietnam** — Southeast Asia's manufacturing breakout. #2 destination for [[China+1]] supply chain diversification after [[India]].
+**Vietnam** — Southeast Asia's manufacturing breakout. \#2 destination for [[China+1]] supply chain diversification after [[India]].
 
 ---
 

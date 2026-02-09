@@ -186,7 +186,7 @@ Smaller vendors (see [[Corsair]]) hit harder.
 | Employees | ~120,000 |
 | HQ | Round Rock, TX |
 | CEO | Michael Dell |
-| Fortune 500 | #44 (2025) |
+| Fortune 500 | \#44 (2025) |
 
 *Updated 2026-01-31*
 

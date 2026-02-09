@@ -19,9 +19,41 @@ Capital flows between sectors based on cycle positioning, relative valuations, a
 
 ---
 
-## Current rotation (January 2026)
+## Two concurrent rotations (2026)
 
-**Theme:** Mag 7 → everything else. Earnings growth broadening.
+Capital is leaving the AI/software narrative via two distinct channels with the same sell side but different buy sides:
+
+| | Software → Energy | Large → Small |
+|---|---|---|
+| **Sell side** | SaaS, software (IGV -25%) | Mag 7, Nasdaq |
+| **Buy side** | Large cap energy (XLE +18%) | Russell 2000 (+7% YTD) |
+| **Buy side market cap** | Mega ([[Exxon]] ~$530B, [[Chevron]] ~$300B) | Small |
+| **Thesis** | Peak oil repricing, AI-proof cash flows | Valuation gap at 25-year extreme |
+| **Driver** | Longevity repricing, leverage advantage | Earnings broadening, rate sensitivity |
+| **Expression** | XLE vs IGV | IWM vs QQQ |
+| **Tracking note** | [[AI workflow disruption basket]] | [[Small cap rotation 2026]] |
+
+| | XLE vs IGV (~43pp) | IWM vs QQQ (~12pp) |
+|---|---|---|
+| | ![[xle-vs-igv-price-chart.png]] | ![[iwm-vs-qqq-price-chart.png]] |
+| | *Software → energy, 90 days* | *Large cap → small cap, 90 days* |
+
+**Divergence scenarios:**
+
+| Scenario | Software → Energy | Large → Small |
+|----------|-------------------|---------------|
+| Recession fears rise | **Holds** — cash flows, dividends, low leverage | **Reverses** — small caps hit harder (higher leverage) |
+| AI fears fade | **Partially reverses** — but peak-oil thesis has independent legs | **Reverses** — software recovers, valuation gap narrows |
+| Oil price spike | **Accelerates** — direct earnings boost | **Mixed** — input cost pressure on small industrials |
+| Rate cuts | **Neutral** — oil majors not rate-sensitive | **Accelerates** — small caps benefit from floating-rate relief |
+
+The key question: is energy a rotation beneficiary (temporary, reverses when software recovers) or a structural repricing (permanent, peak oil thesis independent of SaaSpocalypse)? The FT article argues the latter — the [[IEA]] pushing demand out to 2050 is not about software fears.
+
+---
+
+## Rotation 1: Mag 7 → everything else (January 2026)
+
+**Theme:** Earnings growth broadening.
 
 ### The setup
 
@@ -182,14 +214,51 @@ This is the rotation signal: when the index beats its biggest components, leader
 
 ## Historical rotations
 
-| Period | Rotation | Trigger | Duration |
-|--------|----------|---------|----------|
-| **2022** | Growth → Value | Fed hiking cycle | Full year |
-| **2020-21** | Value → Growth | Covid, zero rates | 18 months |
-| **2018 Q4** | Risk-off | Fed overtightening fears | 3 months |
-| **2016** | Growth → Value | Trump election, reflation | 6 months |
-| **2000-02** | Growth → Value | Dot-com bust | 2+ years |
-| **1973-74** | Growth → Value | Nifty Fifty collapse | 2 years |
+| Period | Rotation | Trigger | Sell side | Buy side | Duration |
+|--------|----------|---------|-----------|----------|----------|
+| **2026** | Software → Energy | [[Claude Cowork disruption February 2026\|SaaSpocalypse]], AI disruption | SaaS, software (IGV -25%) | Energy (XLE +18%), old economy | Ongoing |
+| **2026** | Large → Small | AI disruption + valuation gap | Mag 7, Nasdaq | Russell 2000 (+7% YTD) | Ongoing |
+| **2022** | Growth → Value | Fed hiking cycle | Unprofitable tech | Energy, financials | Full year |
+| **2020-21** | Value → Growth | Covid, zero rates | Cyclicals | Stay-at-home tech | 18 months |
+| **2018 Q4** | Risk-off | Fed overtightening fears | Everything | Treasuries, cash | 3 months |
+| **2016** | Growth → Value | Trump election, reflation | Tech, bonds | Industrials, financials | 6 months |
+| **2000-02** | Growth → Value | Dot-com bust | Tech, telecom | Energy, staples | 2+ years |
+| **1973-74** | Growth → Value | Nifty Fifty collapse | Growth at any price | Value, commodities | 2 years |
+
+**Pattern:** Energy shows up as a rotation beneficiary in 2000-02, 2022, and 2026 — every time a tech narrative breaks.
+
+### 2000-02: Dot-com bust
+
+![[rotation-2000-03-dotcom.png]]
+*XLE (energy) vs QQQ (tech) 2000-02. QQQ fell ~70%, XLE held flat — ~70pp divergence. The original tech-to-energy rotation.*
+
+### 2016: Trump election reflation
+
+![[rotation-2016-trump.png]]
+*QQQ vs XLE, Sep 2016 – May 2017. Energy surged +14% post-election on reflation trade, then rolled over as tech resumed leadership by spring 2017. Rotation lasted ~6 months.*
+
+### 2018 Q4: Fed overtightening scare
+
+![[rotation-2018-q4-riskoff.png]]
+*SPY vs QQQ, Sep 2018 – Feb 2019. Not a classic rotation — everything sold off. QQQ hit -22%, SPY -15%. Both recovered by March. Risk-off, not reallocation.*
+
+### 2020-21: COVID growth trade
+
+![[rotation-2020-21-covid.png]]
+*QQQ vs XLE, Mar 2020 – Nov 2021. QQQ +80%, XLE +35% — but XLE started from -50%. Stay-at-home tech dominated. Energy recovered but never caught up.*
+
+### 2022: Fed hiking cycle
+
+![[rotation-2022-fed-hike.png]]
+*XLE vs QQQ, 2022. The sharpest rotation: XLE +55%, QQQ -30% — ~85pp divergence. Energy's best year in decades as Fed crushed growth multiples.*
+
+### 2026: SaaSpocalypse
+
+US energy sector +17% YTD. [[Exxon]], [[Chevron]], [[ConocoPhillips]] combined market cap +25% over 12 months. US oil majors trade at >75% forward EV/EBITDA premium to European peers ([[Shell]], [[BP]], [[TotalEnergies]]). Commodity is down ~10% over 12 months but stocks diverging upward — market repricing longevity, not current cash flows. [[IEA]] now sees [[Oil|oil demand]] potentially growing until 2050.
+
+See [[AI workflow disruption basket]] for the sell side of this trade.
+
+*Source: Financial Times, Feb 5 2026*
 
 ### Historical parallels to watch
 
@@ -262,8 +331,12 @@ This is the rotation signal: when the index beats its biggest components, leader
 - [[JPMorgan Chase]] — rotation beneficiary (financials)
 - [[Bank of America]] — rotation beneficiary (financials)
 - [[Ed Yardeni]] — coined "AI fatigue"
+- [[AI workflow disruption basket]] — SaaSpocalypse sell side
+- [[Energy and Utilities]] — energy as rotation beneficiary
+- [[Small cap rotation 2026]] — parallel rotation episode
+- [[Oil]] — peak demand repricing
 
-*Updated 2026-01-15*
+*Updated 2026-02-08*
 
 ---
 

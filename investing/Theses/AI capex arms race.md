@@ -219,7 +219,7 @@ See [[AI infrastructure financing]].
 ### AI Labs
 - [[xAI]] — Musk's lab, $1B/mo burn, merger speculation
 - [[OpenAI]] — Largest lab, $1.4T infra ambition
-- [[Anthropic]] — #3 by valuation, multi-cloud strategy
+- [[Anthropic]] — \#3 by valuation, multi-cloud strategy
 - [[Google DeepMind]] — Integrated into Google capex
 
 ### Musk Empire

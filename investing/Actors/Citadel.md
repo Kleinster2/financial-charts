@@ -12,7 +12,7 @@ aliases: [Citadel LLC, [[Citadel Securities]]]
 | Metric | Value |
 |--------|-------|
 | HF AUM | ~$65B |
-| [[Citadel Securities]] | #1 market maker |
+| [[Citadel Securities]] | \#1 market maker |
 | Founder | **Ken Griffin** |
 | Track record | 19% net annualized since 1990 |
 | HQ | Miami (moved from Chicago) |
@@ -136,7 +136,7 @@ See [[Hedge fund capital concentration]] for the structural dynamics.
 | HF AUM | ~$65B |
 | Founder | Ken Griffin |
 | Track record | 19% net since 1990 |
-| Market making | #1 in US equities |
+| Market making | \#1 in US equities |
 
 ---
 

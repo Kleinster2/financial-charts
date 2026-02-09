@@ -9,8 +9,8 @@ World's largest law firm by revenue ($8.8B in 2024). Dominates private equity an
 | Revenue (2024) | $8.8B |
 | YoY growth | +22% |
 | Profits per partner | $9.25M |
-| Rank | #1 Am Law 200, #1 Global 200 |
-| Gap to #2 (Latham) | $1.8B |
+| Rank | \#1 Am Law 200, \#1 Global 200 |
+| Gap to \#2 (Latham) | $1.8B |
 
 First law firm to hit $7B revenue. Litigation practice alone now ~$3B.
 

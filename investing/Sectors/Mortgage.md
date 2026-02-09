@@ -62,10 +62,10 @@ aliases: [Mortgage industry, Mortgage lending]
 - [[Commercial Mortgage]] — CRE lending ($4.7T)
 
 **Key players:**
-- [[Rocket Companies]] — #2 residential originator
-- [[UWM]] — #1 residential originator
-- [[Meridian Capital Group]] — #1 commercial broker by count
-- [[CBRE]] — #1 commercial broker by volume
+- [[Rocket Companies]] — \#2 residential originator
+- [[UWM]] — \#1 residential originator
+- [[Meridian Capital Group]] — \#1 commercial broker by count
+- [[CBRE]] — \#1 commercial broker by volume
 
 **Securitization:**
 - [[Fannie Mae]] — residential + multifamily GSE

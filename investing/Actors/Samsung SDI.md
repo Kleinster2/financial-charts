@@ -13,7 +13,7 @@ aliases: [SDI]
 |--------|-------|
 | Ticker | 006400.KS |
 | Market cap | ~$20B |
-| Global rank | #6 battery maker |
+| Global rank | \#6 battery maker |
 | Market share | ~5% |
 | Parent | [[Samsung]] Group |
 

@@ -15,9 +15,9 @@ The pharmaceutical supply chain: wholesalers who move drugs from manufacturers t
 
 | Company | Ticker | FY Revenue | Market Share | Notes |
 |---------|--------|------------|--------------|-------|
-| [[McKesson]] | MCK | $359B | ~33% | #1, specialty/oncology focus |
-| [[Cencora]] | COR | $294B | ~33% | #2, formerly AmerisourceBergen |
-| [[Cardinal Health]] | CAH | $223B | ~25% | #3, recovering from OptumRx loss |
+| [[McKesson]] | MCK | $359B | ~33% | \#1, specialty/oncology focus |
+| [[Cencora]] | COR | $294B | ~33% | \#2, formerly AmerisourceBergen |
+| [[Cardinal Health]] | CAH | $223B | ~25% | \#3, recovering from OptumRx loss |
 
 **Combined:** >90% of US pharmaceutical distribution. ~$900B in annual revenue.
 
@@ -168,9 +168,9 @@ All three distributors are pivoting toward specialty drugs (biologics, oncology)
 - [[Insurance]] — insurer-PBM relationships
 
 **Distributors:**
-- [[McKesson]] — #1 distributor
-- [[Cencora]] — #2 distributor (formerly AmerisourceBergen)
-- [[Cardinal Health]] — #3 distributor
+- [[McKesson]] — \#1 distributor
+- [[Cencora]] — \#2 distributor (formerly AmerisourceBergen)
+- [[Cardinal Health]] — \#3 distributor
 
 **PBM parents:**
 - [[UnitedHealth]] — OptumRx

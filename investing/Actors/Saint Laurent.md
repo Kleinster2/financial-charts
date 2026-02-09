@@ -58,7 +58,7 @@ aliases: [YSL, Yves Saint Laurent, SL]
 **Results:**
 - Built brand to €3.3B peak (2022)
 - Now declining alongside Kering portfolio
-- Q3 2025: #1 on Lyst Index (hottest brand ranking)
+- Q3 2025: \#1 on Lyst Index (hottest brand ranking)
 
 **Challenge:** Revenue declining despite cultural buzz
 
@@ -77,7 +77,7 @@ aliases: [YSL, Yves Saint Laurent, SL]
 
 ## Kering context
 
-Saint Laurent = #2 brand at [[Kering]] after Gucci. Both struggling:
+Saint Laurent = \#2 brand at [[Kering]] after Gucci. Both struggling:
 
 | Brand | 2024 revenue | Growth |
 |-------|--------------|--------|

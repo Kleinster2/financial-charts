@@ -33,10 +33,10 @@ aliases: [ALL]
 
 | Insurer | Auto Rank |
 |---------|-----------|
-| State Farm | #1 |
-| GEICO | #2 |
-| Progressive | #3 |
-| **Allstate** | #4 |
+| State Farm | \#1 |
+| GEICO | \#2 |
+| Progressive | \#3 |
+| **Allstate** | \#4 |
 
 Agency model vs Progressive's direct model.
 

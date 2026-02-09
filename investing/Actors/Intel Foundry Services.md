@@ -149,7 +149,7 @@ What consensus assumes (update when you see estimates):
 - [[Intel]] — parent company
 - [[Foundry Wars]] — competitive context
 - [[TSMC]] — dominant competitor
-- [[Samsung]] — competitor (#2 foundry)
+- [[Samsung]] — competitor (\#2 foundry)
 - [[CHIPS Act]] — $8.5B funding, 9.9% govt equity
 - [[Microsoft]] — Maia 2 potential customer
 - [[Execution risk in foundries]] — key challenge

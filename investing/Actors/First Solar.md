@@ -13,7 +13,7 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 | Metric | Value |
 |--------|-------|
-| Market position | #1 US solar manufacturer |
+| Market position | \#1 US solar manufacturer |
 | Technology | Thin-film CdTe (not silicon) |
 | Manufacturing | US, Malaysia, Vietnam, [[India]] |
 | Policy tailwind | IRA domestic content, [[China]] tariffs |

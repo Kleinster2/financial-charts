@@ -20,7 +20,7 @@ aliases: [HSBC Holdings, Hongkong and Shanghai Banking Corporation]
 | CEO | Georges Elhedery (Jul 2024-) |
 | Ticker | **HSBC** (NYSE), 5 ([[HKEX]]) |
 
-[[UK]]'s #1 bank by assets. One of world's largest banking organizations.
+[[UK]]'s \#1 bank by assets. One of world's largest banking organizations.
 
 ![[hsbc-vs-peers.png]]
 *HSBC +125% since 2018 — outperforming [[EUFN]] benchmark (+65%) and [[Asia]] peer Standard Chartered (+45%), but trailing Barclays (+185%). [[Asia]] pivot showing in StanChart gap.*

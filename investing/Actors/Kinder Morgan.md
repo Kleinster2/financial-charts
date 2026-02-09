@@ -13,7 +13,7 @@ aliases: [KMI]
 |--------|-------|
 | Ticker | KMI (NYSE) |
 | Market cap | ~$60B |
-| Position | #1 natural gas pipelines |
+| Position | \#1 natural gas pipelines |
 | Network | 70,000+ miles |
 
 ---
@@ -109,7 +109,7 @@ Data centers need reliable power → gas plants need pipelines.
 
 ## Related
 
-- [[Williams Companies]] — peer (#2 gas pipelines)
+- [[Williams Companies]] — peer (\#2 gas pipelines)
 - [[Enterprise Products]] — peer (NGL/gas)
 - [[Power constraints]] — context (gas for AI power)
 - [[Constellation Energy]] — customer type (gas plants)

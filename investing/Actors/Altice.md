@@ -39,7 +39,7 @@ Drahi's response has been a series of aggressive creditor maneuvers:
 
 French-Israeli-Portuguese billionaire (b. 1963 Morocco). Built Altice from 2001 Amsterdam founding through aggressive M&A funded with high-yield debt. Also owns [[Sotheby's]] (acquired 2019) and 24.5% of BT Group.
 
-Net worth collapsed from $26.5B peak (2015, #56 Forbes Global) to ~$8B (2025, #415) as leverage unwound. Maintains control through dual-class shares despite minority economic interest.
+Net worth collapsed from $26.5B peak (2015, \#56 Forbes Global) to ~$8B (2025, \#415) as leverage unwound. Maintains control through dual-class shares despite minority economic interest.
 
 Drahi's longtime business partner Armando Pereira was detained in Portugal (July 2023) over corruption and tax fraud allegations at Altice Portugal.
 

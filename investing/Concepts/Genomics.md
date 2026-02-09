@@ -59,7 +59,7 @@ Gene sequencing, editing, and diagnostics — enabling precision medicine, drug 
 | Company | Product | Market position |
 |---------|---------|-----------------|
 | [[Natera]] | Panorama, Fetal Focus | Market leader |
-| [[Illumina]] | VeriSeq | Strong #2 |
+| [[Illumina]] | VeriSeq | Strong \#2 |
 | Myriad | Prequel | Growing |
 | Labcorp | MaterniT | Legacy player |
 

@@ -91,6 +91,7 @@ Intersection with AI power demand:
 - [[Xcel Energy]] — expanding PSPS to Colorado
 - [[Energy and Utilities]] — sector context
 - [[Power constraints]] — grid stress compounds fire risk
+- [[Grid infrastructure super-cycle]] — wildfire hardening is one driver of multi-decade grid buildout
 - [[P&C Insurance]] — insured wildfire losses at record highs
 
 *Created 2026-02-08*

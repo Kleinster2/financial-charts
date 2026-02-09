@@ -3,7 +3,7 @@ aliases: [Swiss Reinsurance, SREN]
 ---
 #actor #finance #reinsurance #insurance #switzerland #public
 
-**Swiss Re** — #1 or #2 global reinsurer (depending on methodology). ~$50B market cap. H1 2025 net income $2.6B. Strong in life/health reinsurance (#1 worldwide). Operations in 29 countries, 14,000+ employees. Traditional reinsurance incumbent alongside [[Munich Re]].
+**Swiss Re** — \#1 or \#2 global reinsurer (depending on methodology). ~$50B market cap. H1 2025 net income $2.6B. Strong in life/health reinsurance (\#1 worldwide). Operations in 29 countries, 14,000+ employees. Traditional reinsurance incumbent alongside [[Munich Re]].
 
 ---
 
@@ -27,7 +27,7 @@ aliases: [Swiss Reinsurance, SREN]
 | Segment | % of revenue | [[Target]] (2025) |
 |---------|-------------|---------------|
 | P&C Reinsurance | 42.7% | Combined ratio <85% |
-| Life & Health Reinsurance | 36.9% (#1 worldwide) | Net income $1.6B |
+| Life & Health Reinsurance | 36.9% (\#1 worldwide) | Net income $1.6B |
 | Corporate Solutions (primary) | ~20% | Combined ratio <91% |
 
 ---
@@ -45,7 +45,7 @@ aliases: [Swiss Reinsurance, SREN]
 
 ## Life/health reinsurance leadership
 
-Swiss Re is the world's #1 life/health reinsurer. The life reinsurance market grew to $81B in 2024. This positions Swiss Re at the intersection of the [[PE-insurance convergence]] — as both a competitor to and potential partner with PE-owned platforms.
+Swiss Re is the world's \#1 life/health reinsurer. The life reinsurance market grew to $81B in 2024. This positions Swiss Re at the intersection of the [[PE-insurance convergence]] — as both a competitor to and potential partner with PE-owned platforms.
 
 Unlike PE firms that use life reinsurance as a capital source for private credit deployment, Swiss Re's model is traditional risk transfer: mortality, longevity, and health risk management for primary insurers.
 
@@ -66,8 +66,8 @@ Swiss Re's life/health franchise could be disrupted if PE platforms continue exp
 
 ## Related
 
-- [[Munich Re]] — peer (#1/#2 global reinsurer)
-- [[Berkshire Hathaway]] — peer (#4 reinsurer)
+- [[Munich Re]] — peer (\#1/\#2 global reinsurer)
+- [[Berkshire Hathaway]] — peer (\#4 reinsurer)
 - [[Reinsurance sidecars]] — alternative capital competing with traditional reinsurance
 - [[PE-insurance convergence]] — Swiss Re as traditional incumbent in life/health
 - [[Athene]] — PE-owned competitor in life reinsurance

@@ -14,7 +14,7 @@ Sony spans both sides — memory victim (PlayStation) and semiconductor supplier
 | Segment | Relevance |
 |---------|-----------|
 | [[Gaming]] | PS6 delay risk from memory costs |
-| [[Semiconductors]] | #1 image sensors (separate dynamic) |
+| [[Semiconductors]] | \#1 image sensors (separate dynamic) |
 
 ---
 
@@ -50,7 +50,7 @@ Sony may wait for memory normalization (2028+).
 ## Sony Semiconductor Solutions
 
 **Separate business — image sensors:**
-- #1 global image sensor supplier
+- \#1 global image sensor supplier
 - Apple iPhone main supplier
 - [[Automotive]] sensors growing
 - Not directly memory-related
@@ -100,7 +100,7 @@ Sony may wait for memory normalization (2028+).
 | Market cap | ~$100B+ |
 | HQ | Tokyo, [[Japan]] |
 | [[Gaming]] | PlayStation |
-| Semis | Image sensors (#1) |
+| Semis | Image sensors (\#1) |
 
 *Updated 2026-01-01*
 
@@ -108,7 +108,7 @@ Sony may wait for memory normalization (2028+).
 
 ## Related
 
-- [[Sensors]] — sector (#1 in image sensors)
+- [[Sensors]] — sector (\#1 in image sensors)
 - [[Image sensors]] — technology deep dive
 - [[Memory shortage victims]] — thesis (PS6 delay risk)
 - [[Nintendo]] — peer (launched [[Switch]] 2 anyway)

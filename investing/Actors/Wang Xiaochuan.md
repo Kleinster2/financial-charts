@@ -28,7 +28,7 @@ Leading voice for open-weights AI in [[China]]:
 | 1996 | Tsinghua | CS degree, stayed for research |
 | 2000 | Sohu | Joined as engineer |
 | 2004 | Sogou | Founded as Sohu spinoff |
-| 2004-2021 | Sogou CEO | Built into #2 search engine |
+| 2004-2021 | Sogou CEO | Built into \#2 search engine |
 | 2021 | Tencent acquisition | Sogou acquired for $3.5B |
 | 2023 | Baichuan | Founded AI model company |
 

@@ -13,7 +13,7 @@ aliases: [John Albert Overdeck]
 |--------|-------|
 | Born | 1969, New Jersey |
 | Net worth | $6.8-8B (2025 estimates vary) |
-| Forbes rank | #1 richest in New Jersey (Apr 2025) |
+| Forbes rank | \#1 richest in New Jersey (Apr 2025) |
 | Education | BS Mathematics (with distinction), MS Statistics, [[Stanford]] |
 | Firm | [[Two Sigma]] (co-founded 2001) |
 | Current role | Co-Chairman (stepped down as co-CEO Sep 2024) |

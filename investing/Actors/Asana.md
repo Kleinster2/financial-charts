@@ -49,7 +49,7 @@ Land-and-expand model.
 
 | Fact | Detail |
 |------|--------|
-| Background | Facebook co-founder (#3) |
+| Background | Facebook co-founder (\#3) |
 | Net worth | ~$10B |
 | Role | CEO |
 | Philosophy | Mission-driven |

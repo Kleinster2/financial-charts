@@ -15,7 +15,7 @@ aliases: []
 | HQ | Frankfurt, [[Germany]] |
 | Indices | 25,000+ |
 | AUM tracking | $300B+ |
-| Position | #4 global index provider |
+| Position | \#4 global index provider |
 
 ---
 
@@ -33,10 +33,10 @@ aliases: []
 
 | Provider | Market share | Strength |
 |----------|--------------|----------|
-| S&P Dow Jones | #1 | [[Benchmark]] indices (S&P 500) |
-| MSCI | #2 | International, [[ESG]] |
-| FTSE Russell | #3 | [[UK]], Russell indices |
-| **Solactive** | #4 | Low-cost, custom |
+| S&P Dow Jones | \#1 | [[Benchmark]] indices (S&P 500) |
+| MSCI | \#2 | International, [[ESG]] |
+| FTSE Russell | \#3 | [[UK]], Russell indices |
+| **Solactive** | \#4 | Low-cost, custom |
 
 **Disruptor:** Offers 50-70% lower fees than big 3.
 

@@ -28,7 +28,7 @@ aliases: [MRK, Merck & Co]
 | Revenue | **$31.7B** (2025E) |
 | Share of total sales | **49%** |
 | Indications | 40+ cancer types |
-| Market position | #1 cancer drug globally (or #2 behind tirzepatide combined) |
+| Market position | \#1 cancer drug globally (or \#2 behind tirzepatide combined) |
 | Patent expiry | **December 2028** (US) |
 
 **The cliff:** [[Keytruda]] is half of Merck revenue. December 2028 expiry is existential — but AbbVie navigated a similar cliff with Humira and returned 460% over the following decade.

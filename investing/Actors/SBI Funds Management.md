@@ -12,7 +12,7 @@ aliases: [SBI Mutual Fund, SBI AMC, SBIFML]
 | Metric | Value |
 |--------|-------|
 | AUM | ₹16.3T (~$195B) |
-| Market share | 15.55% (#1 India) |
+| Market share | 15.55% (\#1 India) |
 | ETF market share | 43% |
 | [[Target]] valuation | ₹95,000cr - ₹1.1T (~$12-14B) |
 | IPO size | ₹8,000-15,000 crore (~$1-1.8B) |
@@ -62,7 +62,7 @@ First Indian fund house to cross ₹10 lakh crore AUM.
 
 | Metric | Value |
 |--------|-------|
-| AUM rank | #1 India |
+| AUM rank | \#1 India |
 | SIP market share | 10% of all live SIPs |
 | ETF market share | 43% |
 | Distribution | Largest retail reach via SBI branches |

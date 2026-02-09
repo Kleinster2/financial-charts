@@ -106,7 +106,7 @@ De-risking but [[Taiwan]] still dominant.
 
 | Factor | [[Taiwan]] | Korea |
 |--------|--------|-------|
-| Foundry | Dominant | #2 |
+| Foundry | Dominant | \#2 |
 | Memory | Minor | Dominant |
 | Packaging | Leading | Developing |
 | Geopolitical risk | Higher | Lower |

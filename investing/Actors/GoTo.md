@@ -49,7 +49,7 @@ Three pillars.
 **Indonesia e-commerce:**
 - Founded 2009
 - C2C/B2C marketplace
-- #1-2 in Indonesia
+- \#1-2 in Indonesia
 - [[Alibaba]] investment
 
 ---
@@ -84,7 +84,7 @@ GoPay = most used Indonesian e-wallet.
 |--------|------|------|
 | Origin | Indonesian | Singaporean |
 | E-commerce | Yes (Tokopedia) | No |
-| Ride-hailing | #1-2 | #1-2 |
+| Ride-hailing | \#1-2 | \#1-2 |
 | Local knowledge | Deep | Good |
 
 GoTo = Indonesia specialist.

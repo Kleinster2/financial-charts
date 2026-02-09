@@ -12,12 +12,12 @@ aliases: [Sumitomo Mitsui Banking Corporation, SMBC Group, Sumitomo Mitsui]
 | Metric | Value |
 |--------|-------|
 | Total assets | ~$2T (¥249.7T, Mar 2024) |
-| Global rank | #14 (Japan #2, behind [[MUFG]]) |
+| Global rank | \#14 (Japan \#2, behind [[MUFG]]) |
 | HQ | Tokyo, Japan |
 | Founded | 2002 (SMFG holding) |
 | Presence | 40+ countries |
 | PF professionals | 470+ globally |
-| PF ranking | #3 global (2023 league tables) |
+| PF ranking | \#3 global (2023 league tables) |
 
 ---
 

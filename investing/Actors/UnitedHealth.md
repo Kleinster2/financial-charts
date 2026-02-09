@@ -148,6 +148,6 @@ Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change [[Healthcare]] cy
 - [[Medicare Advantage]] — key business segment, Jan 2026 rate shock
 - [[CVS Health]] — competitor (Aetna)
 - [[Cigna]] — competitor
-- [[Elevance Health]] — competitor (#2 managed care, BCBS)
+- [[Elevance Health]] — competitor (\#2 managed care, BCBS)
 - [[Humana]] — competitor (Medicare pure-play)
 

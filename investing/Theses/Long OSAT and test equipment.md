@@ -29,7 +29,7 @@ Whoever wins foundry, chips still need packaging and testing.
 
 ## Long ASE
 
-[[ASE]] — #1 OSAT globally
+[[ASE]] — \#1 OSAT globally
 
 | Catalyst | Status |
 |----------|--------|
@@ -139,7 +139,7 @@ Can hold both theses simultaneously. They're not mutually exclusive.
 
 ## Related
 
-- [[ASE]] — long (#1 OSAT, AI/HPC revenue doubling)
+- [[ASE]] — long (\#1 OSAT, AI/HPC revenue doubling)
 - [[Cohu]] — long (test handler equipment, Eclipse platform)
 - [[Aehr Test Systems]] — test equipment (SiC wafer-level burn-in)
 - [[Final test bottleneck]] — catalyst (emerging constraint)

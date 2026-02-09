@@ -3,7 +3,7 @@ aliases: [VZ]
 ---
 #actor #telecom #usa #public
 
-**Verizon** — #1 US wireless. Fios fiber. Enterprise connectivity.
+**Verizon** — \#1 US wireless. Fios fiber. Enterprise connectivity.
 
 ---
 

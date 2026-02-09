@@ -19,7 +19,7 @@ aliases: [H&F, Hellman Friedman]
 | Team | ~130 people, 56 partners |
 | Capital raised | $50B+ since founding |
 | Companies invested | 100+ |
-| PEI 300 rank | #13 (June 2024) |
+| PEI 300 rank | \#13 (June 2024) |
 
 ---
 

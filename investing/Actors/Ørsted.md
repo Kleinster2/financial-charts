@@ -12,7 +12,7 @@ aliases: [Orsted, ORSTED.CO]
 | Metric | Value |
 |--------|-------|
 | Ticker | ORSTED.CO (Copenhagen) |
-| Position | #1 offshore wind globally |
+| Position | \#1 offshore wind globally |
 | US exposure | Major — Revolution Wind, Sunrise Wind |
 | Crisis | Trump administration halted projects |
 
@@ -71,7 +71,7 @@ aliases: [Orsted, ORSTED.CO]
 ## Investment case
 
 **Bull:**
-- #1 offshore wind developer
+- \#1 offshore wind developer
 - European projects progressing
 - Legal challenge may succeed
 - Capital raise strengthens balance sheet
@@ -92,7 +92,7 @@ aliases: [Orsted, ORSTED.CO]
 |--------|-------|
 | Ticker | ORSTED.CO |
 | Market cap | ~$20B |
-| Position | #1 offshore wind |
+| Position | \#1 offshore wind |
 | US crisis | Projects halted |
 | Rights issue | $9.4B raised |
 

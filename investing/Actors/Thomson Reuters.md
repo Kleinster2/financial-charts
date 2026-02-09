@@ -76,7 +76,7 @@ Investing heavily in AI for legal/tax:
 
 | Market | Position | Competitors |
 |--------|----------|-------------|
-| Legal research | #1 (Westlaw) | LexisNexis (RELX) |
+| Legal research | \#1 (Westlaw) | LexisNexis (RELX) |
 | Tax software | Top 3 | [[Intuit]], Wolters Kluwer |
 | News | Reuters News | Bloomberg, AP |
 

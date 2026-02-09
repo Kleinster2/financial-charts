@@ -92,7 +92,7 @@ Fans post finds on [[Reddit]] (r/aldi) and Facebook groups (4M+ members).
 
 | Chain | 2024 Revenue | Notes |
 |-------|--------------|-------|
-| [[Walmart]] | ~$450B (grocery) | #1 by far |
+| [[Walmart]] | ~$450B (grocery) | \#1 by far |
 | Kroger | ~$150B | Traditional supermarket |
 | [[Costco]] | ~$100B (grocery) | Membership/bulk |
 | **Aldi** | **$29B** | Fastest-growing by store count |
@@ -228,7 +228,7 @@ Both brothers died (Karl 2014, Theo 2010). Next generation manages companies.
 - [[Trader Joe's]] — owned by Aldi Nord (Theo's heirs)
 
 ### Competitors
-- [[Walmart]] — #1 US grocery
+- [[Walmart]] — \#1 US grocery
 - Lidl — German rival, gaining in [[Europe]]
 - [[Costco]] — bulk/membership model
 - Kroger — traditional supermarket

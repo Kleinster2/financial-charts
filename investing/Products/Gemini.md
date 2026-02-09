@@ -3,7 +3,7 @@ aliases: [Google Gemini, Gemini AI, Gemini 2.5, Gemini 3]
 ---
 #product-family #ai
 
-**Gemini** — [[Google]]'s AI model family. **650M MAU** (Nov 2025). #3 global AI platform. Native multimodal with 1M+ token context. Powers Google Search, Android, Workspace.
+**Gemini** — [[Google]]'s AI model family. **650M MAU** (Nov 2025). \#3 global AI platform. Native multimodal with 1M+ token context. Powers Google Search, Android, Workspace.
 
 ---
 
@@ -13,7 +13,7 @@ aliases: [Google Gemini, Gemini AI, Gemini 2.5, Gemini 3]
 |--------|-------|
 | MAU | **650M** (Nov 2025) |
 | DAU | 35-45M |
-| Global AI rank | **#3** (behind ChatGPT, Copilot) |
+| Global AI rank | **\#3** (behind ChatGPT, Copilot) |
 | Market share | 13-14% |
 | Context window | 1M tokens (2M coming) |
 | Parent | [[Google]] / DeepMind |
@@ -78,7 +78,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 
 | [[Benchmark]] | Score/Rank |
 |-----------|------------|
-| LMArena | **#1** (human preference) |
+| LMArena | **\#1** (human preference) |
 | GPQA | Top tier (math/science) |
 | AIME 2025 | Top tier |
 | SWE-Bench Verified | 63.8% (custom agent) |
@@ -157,7 +157,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 |--------|-------|
 | Parent | [[Google]] |
 | MAU | 650M |
-| Global rank | #3 AI platform |
+| Global rank | \#3 AI platform |
 | Flagship | Gemini 3 Flash |
 | Context | 1M tokens |
 
@@ -168,7 +168,7 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 ## Related
 
 - [[Google]] — parent company
-- [[ChatGPT]] — competitor (#1)
+- [[ChatGPT]] — competitor (\#1)
 - [[Claude]] — competitor
 - [[Grok]] — competitor ([[xAI]])
 - [[Qwen]] — competitor ([[China]])

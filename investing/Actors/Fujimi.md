@@ -27,8 +27,8 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 
 | Company | Share | Notes |
 |---------|-------|-------|
-| [[Fujifilm]] | ~31% | #1 overall, Cu slurry leader |
-| [[Entegris]] | ~25% | #2, CMC acquisition |
+| [[Fujifilm]] | ~31% | \#1 overall, Cu slurry leader |
+| [[Entegris]] | ~25% | \#2, CMC acquisition |
 | **Fujimi** | ~15% | [[Japan]], silicon wafer focus |
 | Others | ~29% | Fragmented |
 
@@ -37,8 +37,8 @@ Dominant in silicon wafer CMP slurries — the polishing step that prepares wafe
 | Company | Share |
 |---------|-------|
 | **Fujimi** | Dominant |
-| Entegris | #2 |
-| [[DuPont]]/[[Qnity]] | #3 |
+| Entegris | \#2 |
+| [[DuPont]]/[[Qnity]] | \#3 |
 
 **[[Japan]] = 70% of silicon wafer CMP slurry production.**
 

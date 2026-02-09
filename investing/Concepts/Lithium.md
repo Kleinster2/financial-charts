@@ -114,7 +114,7 @@ Energy storage becoming as important as EVs for lithium demand.
 
 | Company | Ticker | Notes |
 |---------|--------|-------|
-| [[Albemarle]] | ALB | #1 Western producer, +74% in 2025 |
+| [[Albemarle]] | ALB | \#1 Western producer, +74% in 2025 |
 | [[SQM]] | SQM | Chilean brine, Atacama |
 | Livent | LTHM | Pure-play lithium |
 | Piedmont Lithium | PLL | US development |
@@ -143,12 +143,12 @@ Energy storage becoming as important as EVs for lithium demand.
 
 ## Related
 
-- [[Albemarle]] — #1 Western producer
-- [[SQM]] — Chilean producer (#2 global)
+- [[Albemarle]] — \#1 Western producer
+- [[SQM]] — Chilean producer (\#2 global)
 - [[Rio Tinto]] — diversifying into lithium (Arcadium acquisition)
 - [[BYD]] — major EV/battery producer
 - [[Tesla]] — EV demand driver
-- [[CATL]] — #1 battery maker
+- [[CATL]] — \#1 battery maker
 - [[NIO]] — battery swap EV
 - [[Rivian]] — US EV demand
 - [[Rare earth leverage]] — [[China]] supply chain control

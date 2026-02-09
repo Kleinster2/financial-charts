@@ -85,7 +85,7 @@ AI data centers need massive cold storage for training data, checkpoints, and ar
 
 | Factor | Western Digital | [[Seagate]] |
 |--------|-----------------|-------------|
-| HDD | Strong #2 | #1 nearline |
+| HDD | Strong \#2 | \#1 nearline |
 | Technology | ePMR, MAMR | HAMR (leading) |
 | Focus | Pure HDD (post-spin) | Pure HDD |
 | Structure | Simpler (post-spin) | Simple |

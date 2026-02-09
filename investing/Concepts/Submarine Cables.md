@@ -81,7 +81,7 @@ Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 
 | Hub | Cables | Region |
 |-----|--------|--------|
-| [[Fortaleza Data Hub]] | 14 | [[Brazil]] (world #2) |
+| [[Fortaleza Data Hub]] | 14 | [[Brazil]] (world \#2) |
 | Singapore | Major | [[Asia]]-Pacific |
 | Marseille | Major | [[Europe]] |
 | Virginia Beach | Major | US East |
@@ -114,7 +114,7 @@ Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 
 ## Related
 
-- [[Fortaleza Data Hub]] — hub (14 cables, world #2)
+- [[Fortaleza Data Hub]] — hub (14 cables, world \#2)
 - [[Project Waterworth]] — project (Meta 50,000 km, 100% owned)
 - [[Humboldt Cable]] — project (first S. America-[[Asia]] Pacific)
 - [[EllaLink]] — project (first direct [[Brazil]]-[[Europe]])

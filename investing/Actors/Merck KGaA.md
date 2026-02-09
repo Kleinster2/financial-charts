@@ -68,9 +68,9 @@ Electronics includes Semiconductor Solutions (€2.6B) and Display Solutions/Opt
 
 | Company | Notes |
 |---------|-------|
-| [[JSR Corporation]] | #1, private |
-| [[Tokyo Ohka Kogyo]] | #2, [[Japan]] |
-| [[Shin-Etsu]] | #3, [[Japan]] |
+| [[JSR Corporation]] | \#1, private |
+| [[Tokyo Ohka Kogyo]] | \#2, [[Japan]] |
+| [[Shin-Etsu]] | \#3, [[Japan]] |
 | **[[Merck]] KGaA** | Largest non-Japanese |
 | [[DuPont]] / [[Qnity]] | US player |
 

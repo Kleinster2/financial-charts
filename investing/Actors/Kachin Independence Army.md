@@ -30,7 +30,7 @@ aliases: [KIA, Kachin Independence Organization, KIO]
 
 | Metric | Value |
 |--------|-------|
-| Myanmar global REE rank | **#3** (after [[China]], US) |
+| Myanmar global REE rank | **\#3** (after [[China]], US) |
 | Dy/Tb share | ~50% of global mining |
 | [[China]] import share | 50% by value |
 

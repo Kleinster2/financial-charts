@@ -5,7 +5,7 @@ aliases: [OR, L'Oreal, Loreal]
 
 # L'Oréal
 
-**World's largest beauty company** — €43.5B revenue (2024, +5.1%), record 20% operating margin. Four divisions: Consumer Products, L'Oréal Luxe, Dermatological Beauty, Professional Products. Became #1 in US luxury beauty for the first time. Acquiring Kering Beauté (Creed fragrance) for ~€4B. [[China]] returned to growth in 2025. Bettencourt-Meyers family controls ~33%.
+**World's largest beauty company** — €43.5B revenue (2024, +5.1%), record 20% operating margin. Four divisions: Consumer Products, L'Oréal Luxe, Dermatological Beauty, Professional Products. Became \#1 in US luxury beauty for the first time. Acquiring Kering Beauté (Creed fragrance) for ~€4B. [[China]] returned to growth in 2025. Bettencourt-Meyers family controls ~33%.
 
 ---
 
@@ -75,7 +75,7 @@ aliases: [OR, L'Oreal, Loreal]
 | Revenue | €43.5B | $14.3B |
 | Growth (2024) | +5.1% | -8% |
 | Margin | 20% | Declining |
-| US luxury beauty | **#1** (first time) | Losing share |
+| US luxury beauty | **\#1** (first time) | Losing share |
 | [[China]] exposure | Diversified | ~30% concentrated |
 | Stock | Stable | -80% from peak |
 | Strategy | Acquisitive, growing | Defensive, restructuring |
@@ -112,7 +112,7 @@ aliases: [OR, L'Oreal, Loreal]
 | **R&D** | €1.1B+/year, 4,000+ researchers |
 | **Acquisitions** | Consistent bolt-on strategy |
 | **Beauty tech** | AI skin diagnostics, virtual try-on |
-| **Category leadership** | #1 or #2 in every segment |
+| **Category leadership** | \#1 or \#2 in every segment |
 | **Bettencourt family** | Patient capital, long-term view |
 
 ---

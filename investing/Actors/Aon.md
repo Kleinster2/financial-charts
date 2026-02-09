@@ -3,7 +3,7 @@ aliases: [AON, Aon plc]
 ---
 #actor #finance #insurance #broker #reinsurance #usa #public
 
-**Aon** — #2 global insurance and reinsurance broker. ~$75B market cap. $15.7B revenue (2024). Strong in reinsurance analytics and alternative capital advisory. Acquired NFP for $13B (2024). Publishes key ILS/sidecar market data.
+**Aon** — \#2 global insurance and reinsurance broker. ~$75B market cap. $15.7B revenue (2024). Strong in reinsurance analytics and alternative capital advisory. Acquired NFP for $13B (2024). Publishes key ILS/sidecar market data.
 
 ---
 
@@ -70,7 +70,7 @@ Aon differentiates from [[Marsh McLennan]] through:
 
 ## Related
 
-- [[Marsh McLennan]] — #1 broker, primary competitor
+- [[Marsh McLennan]] — \#1 broker, primary competitor
 - [[Reinsurance sidecars]] — Aon publishes market data, advises on structures
 - [[Munich Re]] — reinsurance client
 - [[Swiss Re]] — reinsurance client

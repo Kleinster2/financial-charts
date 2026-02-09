@@ -3,7 +3,7 @@ aliases: [China [[Africa]] relations, Sino-African trade]
 ---
 #concept #geopolitics #china #africa #trade
 
-**China-[[Africa]] trade** — Surging trade axis as China redirects exports away from US. $348B in 2025 (+18%). [[Africa]] is #1 Belt & Road destination.
+**China-[[Africa]] trade** — Surging trade axis as China redirects exports away from US. $348B in 2025 (+18%). [[Africa]] is \#1 Belt & Road destination.
 
 ---
 
@@ -52,7 +52,7 @@ aliases: [China [[Africa]] relations, Sino-African trade]
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| **[[Africa]] BRI investment** | **$39B** | #1 destination globally |
+| **[[Africa]] BRI investment** | **$39B** | \#1 destination globally |
 | [[Africa]] construction contracts | **$30.5B** | +395% YoY |
 | Total global BRI (H1 2025) | $124B | Record — exceeds all of 2024 |
 

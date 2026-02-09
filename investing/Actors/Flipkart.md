@@ -68,8 +68,8 @@ Never profitable, but operational leverage improving.
 
 | Competitor | Position |
 |------------|----------|
-| **Flipkart** | #1 e-commerce (market leader) |
-| [[Amazon]] India | #2, strong competition |
+| **Flipkart** | \#1 e-commerce (market leader) |
+| [[Amazon]] India | \#2, strong competition |
 | [[Meesho]] | Social commerce |
 | [[JioMart]] | [[Reliance Industries]] entry |
 

@@ -18,7 +18,7 @@ BPO powerhouse:
 | BPO employment | 1.5M+ |
 | Language | English proficiency |
 
-World's #1 BPO destination.
+World's \#1 BPO destination.
 
 ---
 
