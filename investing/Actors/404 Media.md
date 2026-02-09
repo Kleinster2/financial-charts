@@ -157,6 +157,7 @@ Bear:
 - [[Meta]] — frequent subject of investigations
 - [[NVIDIA]] — AI scraping exposé
 - [[OpenAI]] — AI training data investigations
+- [[Reporter-owned media]] — business model / concept
 - [[Media]] — sector
 
 ---

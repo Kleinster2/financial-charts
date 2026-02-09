@@ -25,8 +25,8 @@ Axon — Public safety technology company. Makes TASERs, body cameras, and evide
 
 ## Price
 
-![[axon-price-chart.png]]
-*~10x from 2020 lows to 2025 highs. Pulled back from ~$800 peak to ~$600 range.*
+![[axon-vs-pltr-vs-bwxt-vs-ptc-vs-msi-price-chart.png]]
+*+450% since 2020, trailing only [[Palantir|PLTR]] (~1600%) among govtech/defense peers. Outperformed [[BWX Technologies|BWXT]] (+290%), [[Motorola Solutions|MSI]] (+165%), and [[PTC]] (+85%).*
 
 ---
 

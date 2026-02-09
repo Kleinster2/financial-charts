@@ -22,13 +22,13 @@
 
 ## 2025 valuation run
 
-| Date | Valuation | Round | Lead |
-|------|-----------|-------|------|
-| Mar 2024 | $7.65B | Series D | Khosla, [[Founders Fund]] |
-| Mar 2025 | $13B | Secondary | — |
-| Jun 2025 | $16B | Series E | [[Founders Fund]] |
-| Jul 2025 | $22.5B | Series E-2 | [[Thrive Capital]] |
-| Nov 2025 | **$32B** | $300M raise | Lightspeed |
+| Date     | Valuation | Round       | Lead                                   |
+| -------- | --------- | ----------- | -------------------------------------- |
+| Mar 2024 | $7.65B    | Series D    | [[Khosla Ventures]], [[Founders Fund]] |
+| Mar 2025 | $13B      | Secondary   | —                                      |
+| Jun 2025 | $16B      | Series E    | [[Founders Fund]]                      |
+| Jul 2025 | $22.5B    | Series E-2  | [[Thrive Capital]]                     |
+| Nov 2025 | **$32B**  | $300M raise | [[Lightspeed Venture Partners]]        |
 
 **+320% in 8 months** — from $7.65B to $32B.
 
@@ -44,7 +44,7 @@
 
 ### Paribus (YC S15)
 
-Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app that tracked price drops and got refunds for online purchases. YC S15. **Acquired by [[Capital One]]** (~2016) for undisclosed amount. Both stayed at Capital One until 2019, then left to start Ramp.
+Glyman and Atiyeh first met at Harvard. In 2014, they founded Paribus — an app that tracked price drops and got refunds for online purchases. YC S15. Acquired by [[Capital One]] (~2016) for undisclosed amount. Both stayed at Capital One until 2019, then left to start Ramp.
 
 ---
 

@@ -114,7 +114,7 @@ During shortages, thousands of compounding pharmacies and telehealth companies p
 | Company | Approach | Scale |
 |---------|----------|-------|
 | [[Hims & Hers]] (HIMS) | Telehealth + owned compounding pharmacy | ~$725M weight loss revenue guided for 2025 |
-| Ro (private) | Telehealth prescribing + pharmacy partnerships | Major DTC competitor |
+| [[Ro]] (private) | Vertically integrated telehealth + in-house pharmacy | ~$370M GLP-1 revenue (2024 est., Sacra); Novo's preferred D2C partner after Hims termination |
 | LifeMD (LFMD) | Telehealth + compounding | Q3 2025 revenue $60M total; weight management 50%+ of revenue |
 | Noom | Weight management + compounded GLP-1s | Continued offering post-shortage |
 | Mochi Health | Telehealth weight loss | Continued offering "personalized" versions |
@@ -136,6 +136,8 @@ During shortages, thousands of compounding pharmacies and telehealth companies p
 | Feb 5, 2026 | [[Hims & Hers]] launches $49/month compounded oral semaglutide pill |
 | Feb 6, 2026 | FDA announces restrictions on compounded GLP-1 ingredients; HHS refers Hims to DOJ for potential federal drug law violations. HIMS drops ~16% |
 | Feb 8, 2026 | Hims halts oral semaglutide offering after "constructive conversations" with regulators |
+| Feb 9, 2026 | [[Novo Nordisk]] sues [[Hims & Hers]] over compounded obesity drugs; [[Ro]] and LifeMD unaffected |
+| Feb 9, 2026 | [[Ro]] airs Super Bowl LX ad with Serena Williams ("Healthier on Ro") — first major telehealth Super Bowl buy for GLP-1 |
 
 Current status (Feb 2026): The compounding loophole is closing rapidly. FDA Commissioner Martin Makary stated the agency will use "all enforcement tools -- including seizures and injunctions." The DOJ referral of [[Hims & Hers]] signals zero tolerance. However, litigation continues -- the Outsourcing Facilities Association has sued the FDA over the shortage resolution determination.
 
@@ -274,6 +276,7 @@ FTC issued notice to [[Novo Nordisk]] in Apr 2024 identifying improper listing o
 | [[Novo Nordisk]] | NVO | Dominant semaglutide franchise | Stock -50% in 2025; 2026 sales decline guided |
 | [[Eli Lilly]] | LLY | Tirzepatide + deep pipeline | Gaining share; ~decade patent protection |
 | [[Hims & Hers]] | HIMS | Compounded GLP-1 distribution | DOJ referral Feb 2026; existential regulatory risk to ~31% of revenue |
+| [[Ro]] | Private | Vertically integrated telehealth + branded GLP-1 | ~$370M GLP-1 revenue (2024 est.); Novo's preferred D2C partner; Wegovy pill Day 1 launch; Super Bowl LX ad (Feb 2026) |
 | LifeMD | LFMD | Telehealth + GLP-1 prescribing | Pivoted to branded partnerships (NovoCare, LillyDirect); Q3 2025 revenue $60M |
 | [[Amgen]] | AMGN | MariTide (antibody, less frequent dosing) | Differentiated mechanism; monthly dosing |
 | [[Pfizer]] | PFE | Danuglipron (oral GLP-1, discontinued 2024) | Failed program; now pursuing alternatives |
@@ -301,6 +304,7 @@ FTC issued notice to [[Novo Nordisk]] in Apr 2024 identifying improper listing o
 - [[Novo Nordisk]] -- semaglutide franchise
 - [[Eli Lilly]] -- tirzepatide franchise
 - [[Hims & Hers]] -- compounding distributor, regulatory target
+- [[Ro]] -- vertically integrated telehealth, Novo's preferred D2C partner
 - [[Medical sciences primer]] -- drug development fundamentals
 - [[Biopharma]] -- sector overview
 - [[Healthcare]] -- sector overview

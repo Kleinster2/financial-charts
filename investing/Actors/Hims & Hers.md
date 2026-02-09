@@ -17,7 +17,7 @@ exchange: NYSE
 
 Direct-to-consumer telehealth platform offering virtual consultations, prescriptions, and subscription-based ongoing care. Founded 2017 by Andrew Dudum (CEO), went public Jan 2021 via [[SPAC]] with Oaktree Acquisition Corp at ~$1.6B valuation. HQ San Francisco. Dual-class structure gives founders ~90% voting power.
 
-Vertically integrated — owns compounding pharmacy, fulfillment, and affiliated medical group. Product categories: sexual health (original), hair/dermatology, mental health, and weight loss ([[GLP-1 receptor agonists|GLP-1s]], the growth driver and the regulatory lightning rod).
+	Vertically integrated — owns compounding pharmacy, fulfillment, and affiliated medical group. Product categories: sexual health (original), hair/dermatology, mental health, and weight loss ([[GLP-1 receptor agonists|GLP-1s]], the growth driver and the regulatory lightning rod).
 
 ## Quick stats
 
