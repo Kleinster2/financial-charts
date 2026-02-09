@@ -66,12 +66,16 @@
 
 ## Sports betting / iGaming
 
+See [[US Sports Betting and iGaming]] for full sector coverage.
+
 | Company | Focus | Status |
 |---------|-------|--------|
 | [[DraftKings]] | Sportsbook, DFS | Public |
-| FanDuel (Flutter) | Sportsbook | Flutter subsidiary |
-| Penn Entertainment | Sportsbook, ESPN Bet | Public |
-| MGM (BetMGM) | Casino, sportsbook | JV |
+| [[FanDuel]] ([[Flutter Entertainment]]) | Sportsbook | Flutter subsidiary |
+| [[Penn Entertainment]] | theScore Bet | Public |
+| [[BetMGM]] ([[MGM Resorts]] / [[Entain]]) | Casino, sportsbook | JV |
+| [[Fanatics]] | Sportsbook, commerce | Private |
+| [[Caesars Entertainment]] | Casino, sportsbook | Public |
 
 ---
 
@@ -156,7 +160,12 @@
 ### Infrastructure
 - [[Unity Technologies]] — game engine
 - [[Discord]] — community platform
+
+### Sports betting / iGaming
+- [[US Sports Betting and iGaming]] — full sector note
 - [[DraftKings]] — sports betting
+- [[FanDuel]] — sports betting (#1)
+- [[Fanatics]] — sports + commerce platform
 
 ### Concepts
 - [[Streaming wars]] — platform competition
