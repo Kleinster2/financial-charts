@@ -16,37 +16,52 @@ aliases: [NFLX]
 | Revenue (2025) | ~$42B |
 | 2026 guide | $50.7-51.7B |
 | Subscribers | **325M** (Q4 2025) |
-| Content spend | $17B/year |
+| Content spend | $20B (2026 plan) |
 | HQ | Los Gatos, CA |
 
 Largest pure-play streaming company globally.
 
 ---
 
-## Warner Bros acquisition (Jan 2026)
+## Warner Bros acquisition (Dec 2025 – present)
 
-**Netflix acquiring Warner Bros Discovery** — largest M&A in streaming history.
+**Netflix acquiring Warner Bros studios + HBO/HBO Max** — largest M&A in streaming history.
 
 | Detail | Value |
 |--------|-------|
 | Price | **$27.75/share** all-cash |
-| Deal value | ~$42B |
-| Bridge facility | $42.2B committed |
-| Announced | Jan 20, 2026 |
-| Structure change | Cash+stock → all-cash (to expedite shareholder vote) |
+| Deal value | **~$83B** |
+| Announced | Dec 5, 2025 |
+| Structure change | Cash+stock → all-cash (Jan 2026, to counter Paramount) |
+| Rival bid | Paramount Skydance hostile bid — $108B for all of WBD |
 
 **What Netflix gets:**
-- **HBO/HBO Max** — prestige content brand, subscriber base
-- **Warner Bros studio** — theatrical + TV production
-- **[[Sports rights]]** — NBA, MLB, NHL (through TNT Sports)
-- **Content library** — DC, Harry Potter, Game of Thrones, Friends, etc.
-- **CNN** — news assets (may divest)
+- **HBO/HBO Max** — prestige content brand, ~117M subscribers
+- **Warner Bros studio** — theatrical + TV production (one of "Big Five")
+- **Content library** — DC, Harry Potter, Game of Thrones, Friends, Sopranos, etc.
+- **DC Studios** — superhero franchise
+- **Warner Bros Games, Tours, Retail**
+- **Studio facilities** — Burbank + Leavesden
+
+**What Netflix does NOT get (stays with "Discovery Global"):**
+- CNN, TBS, HGTV, Discovery Channel, TNT Sports
+- Linear TV networks spin off separately
 
 **Strategic rationale:**
-- Consolidation play as streaming wars mature
-- [[Sports rights]] bundle (live content moat)
-- HBO prestige brand + Netflix scale
-- Cost synergies in content/tech
+- Primarily **vertical** merger (distribution + production)
+- HBO as premium "add-on" — 80% of HBO Max subs already have Netflix
+- 100 years of iconic IP + theatrical distribution capability
+- Not "Noah's Ark problem" — WB assets are things Netflix doesn't have
+- Counter YouTube's growing TV dominance (~13% viewing share vs Netflix ~9%)
+
+**Regulatory status (as of Feb 2026):**
+- DOJ Antitrust Division reviewing
+- EU authorities reviewing
+- Some state AGs engaged
+- Senate hearing held Feb 3, 2026 — [[Netflix-WB Senate Antitrust Hearing 2026-02-03|full notes]]
+- Key risk: market definition (SVOD-only → 30%+ share = presumption of illegality)
+- Political wild card: Trump bought $2M in NFLX/WBD bonds post-announcement
+- Sarandos pledged 45-day theatrical windows **under oath**
 
 **Stock reaction:** NFLX -5% on higher content spending warning alongside deal.
 
@@ -240,8 +255,11 @@ Expanding beyond on-demand to live programming.
 - [[Streaming wars]] — competitive landscape
 
 ### Acquisitions
-- [[Warner Bros Discovery]] — acquiring for $42B (Jan 2026)
+- [[Warner Bros Discovery]] — acquiring studios + HBO for ~$83B (Dec 2025)
+
+### Events
+- [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
 
 ---
 
-*Updated 2026-01-21*
+*Updated 2026-02-09*

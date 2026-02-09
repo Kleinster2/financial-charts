@@ -63,14 +63,44 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 ---
 
+## Netflix Acquisition (Dec 2025 – present)
+
+| Detail | Value |
+|--------|-------|
+| Acquirer | [[Netflix]] |
+| Price | **$27.75/share** all-cash |
+| Deal value | **~$83B** |
+| Announced | Dec 5, 2025 |
+| Senate hearing | Feb 3, 2026 — [[Netflix-WB Senate Antitrust Hearing 2026-02-03|full notes]] |
+
+**Deal structure:**
+- Netflix acquires **studios + HBO/HBO Max** (Warner Bros. entity)
+- **Discovery Global** spins off separately (CNN, TBS, HGTV, TNT Sports, Discovery)
+- Board unanimously chose Netflix over Paramount Skydance ($108B hostile bid) and one other unnamed bidder
+- Still evaluating competing offers per Delaware law
+
+**Key arguments (from Campbell testimony):**
+- Primarily vertical merger — Netflix distribution + WB production
+- 80% of HBO Max subs already subscribe to Netflix (complementary, not competing)
+- HBO Max positioned as premium "add-on," not anchor service
+- Netflix's reach gives WB content global audience
+- Netflix's financial backing (investment-grade, predictable cash flow)
+
+**Regulatory risks:**
+- DOJ, EU, state AGs all reviewing
+- Market definition is the key question
+- Trump involvement as political wild card
+
+---
+
 ## Corporate restructuring
 
 | Initiative | Status |
 |------------|--------|
 | Internal split | Warner Bros vs Discovery Global |
-| Formal separation | Expected mid-2026 |
-| Sale evaluation | Ongoing |
-| Potential suitors | Netflix, Paramount, [[Apple]], [[Amazon]] |
+| Formal separation | Via Netflix merger (studios+HBO) + Discovery Global spinoff |
+| Netflix deal | $83B all-cash, pending regulatory approval |
+| Rival bid | Paramount Skydance — $108B hostile for all of WBD |
 
 ---
 
@@ -126,4 +156,4 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 - [WBD Q3 2025](https://www.wbd.com/news/warner-bros-discovery-reports-third-quarter-2025-results)
 - [Deadline Coverage](https://deadline.com/2025/02/warner-bros-discovery-losses-widen-linear-networks-max-1236303209/)
 
-*Created 2026-01-09*
+*Updated 2026-02-09*
