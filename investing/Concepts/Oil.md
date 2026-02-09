@@ -112,11 +112,11 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | View | Timeline | Driver |
 |------|----------|--------|
-| Bullish | Never / 2040+ | Developing world growth |
+| Bullish | Never / 2050 | Developing world growth; [[IEA]] 2026 forecast |
 | Moderate | 2030s | EV adoption gradual |
 | Bearish | Late 2020s | Rapid EV + policy |
 
-**Reality:** Oil demand still growing, but growth slowing. [[Transport]] ~50% of demand.
+**Reality:** Oil demand still growing, but growth slowing. [[Transport]] ~50% of demand. Peak oil date keeps receding — the [[IEA]] now sees demand potentially growing until 2050 (as of Feb 2026). [[Citigroup]] notes European oil stocks have repriced from "very negative" to "much less negative" terminal values.
 
 ---
 

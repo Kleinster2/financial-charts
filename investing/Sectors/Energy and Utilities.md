@@ -25,12 +25,12 @@ Overview of power generation and utilities, with focus on AI-driven demand.
 
 | Metric | Definition | Good / Target | Why it matters |
 |--------|------------|---------------|----------------|
-| **Dividend Yield** | Annual dividend / Share price | **>3-4% (Utilities)** | Income stability, value (Utilities) |
-| **P/E Ratio** | Share price / Earnings per share | **15-20x (Utilities)** | Valuation relative to earnings (Utilities) |
-| **P/FCF** | Price / Free Cash Flow per share | **<10x (Producers)** | Valuation for cash-generative firms (Energy Producers) |
-| **Reserve Life** | Proven Reserves / Annual Production | **>10-15 years (E&P)** | Longevity of resource base (Exploration & Production) |
-| **Capacity Factor** | Actual output / Max possible output | **>90% (Nuclear)**, **>50% (Renewables)** | Operational efficiency of power plants |
-| **AUM Growth** (for fund managers) | Assets Under Management Growth | **>10% annually** | Indicates strong client acquisition (relevant for some energy funds) |
+| Dividend Yield | Annual dividend / Share price | >3-4% (Utilities) | Income stability, value (Utilities) |
+| P/E Ratio | Share price / Earnings per share | 15-20x (Utilities) | Valuation relative to earnings (Utilities) |
+| P/FCF | Price / Free Cash Flow per share | <10x (Producers) | Valuation for cash-generative firms (Energy Producers) |
+| Reserve Life | Proven Reserves / Annual Production | >10-15 years (E&P) | Longevity of resource base (Exploration & Production) |
+| Capacity Factor | Actual output / Max possible output | >90% (Nuclear), >50% (Renewables) | Operational efficiency of power plants |
+| AUM Growth (for fund managers) | Assets Under Management Growth | >10% annually | Indicates strong client acquisition (relevant for some energy funds) |
 
 ---
 
@@ -44,7 +44,7 @@ Overview of power generation and utilities, with focus on AI-driven demand.
 | [[Dominion Energy]] | Virginia | Northern VA data centers |
 | [[NextEra Energy]] | Florida, renewables | Clean energy PPAs |
 | Southern Company | Southeast | Nuclear, data centers |
-| Xcel Energy | Midwest | Wind/solar |
+| [[Xcel Energy]] | Midwest | Wind/solar |
 
 ### Independent power producers (IPPs)
 
@@ -81,7 +81,7 @@ See [[Long nuclear]], [[Nuclear renaissance]].
 | Hyperscaler campus | 500 MW - 2 GW |
 | US data center load (2030E) | 35+ GW |
 
-**Constraint:** Grid can't add capacity fast enough.
+Constraint: Grid can't add capacity fast enough.
 
 See [[Power constraints]].
 
@@ -124,10 +124,10 @@ See [[Long nuclear]].
 
 | Regulation | Impact |
 |------------|--------|
-| **Rate base** | Utilities earn regulated return |
-| **PPA contracts** | IPP revenue visibility |
-| **IRA incentives** | Nuclear/renewable tax credits |
-| **NRC licensing** | SMR approval timeline |
+| Rate base | Utilities earn regulated return |
+| PPA contracts | IPP revenue visibility |
+| IRA incentives | Nuclear/renewable tax credits |
+| NRC licensing | SMR approval timeline |
 
 ---
 
@@ -135,11 +135,12 @@ See [[Long nuclear]].
 
 | Risk | Impact |
 |------|--------|
-| **AI demand slowdown** | Power demand below forecasts |
-| **Renewable intermittency** | Grid reliability |
-| **Nuclear cost overruns** | New build economics |
-| **Rate case outcomes** | Utility earnings |
-| **Natural gas prices** | IPP margins |
+| AI demand slowdown | Power demand below forecasts |
+| Renewable intermittency | Grid reliability |
+| Nuclear cost overruns | New build economics |
+| Rate case outcomes | Utility earnings |
+| Natural gas prices | IPP margins |
+| [[Utility wildfire risk]] | Existential liability — [[PG&E]] bankruptcy, [[Edison International]] Eaton fire lawsuits |
 
 ---
 
@@ -151,6 +152,7 @@ See [[Long nuclear]].
 - [[Constellation Energy]] — largest US nuclear
 - [[Project Stargate]] — $500B AI infra (power needs)
 - [[Clean energy for AI]] — concept
+- [[Utility wildfire risk]] — PSPS, wildfire liability
 
 ## Sources
 

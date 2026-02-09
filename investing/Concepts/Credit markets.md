@@ -137,6 +137,71 @@ Corporate and sovereign bond issuance. Tracks debt financing conditions, spreads
 
 ---
 
+## February 2026 — AI credit stress emerges
+
+*Source: Bloomberg Credit Weekly, Feb 7 2026*
+
+### Software debt selloff
+
+AI disruption fears hit credit markets directly for the first time:
+
+| Metric | Value | Period |
+|--------|-------|--------|
+| Software leveraged loan prices | **-4% YTD** | Through Feb 6 |
+| BDC equity index | **-4.6%** | Week of Feb 3 |
+| BDC avg software exposure | >20% of portfolios | Barclays |
+| Software share of IG/HY | ~3% each | Barclays |
+| IG spread (Feb 6) | **75 bps** | Widened ~2 bps on week |
+
+AI tools from [[Anthropic]] and others targeting professional services (finance, software dev) are causing investors to price in obsolescence risk for software companies.
+
+### TMT bond supply surge
+
+| Metric | Value |
+|--------|-------|
+| [[Oracle]] single-day issuance (Feb 3) | **$25B** |
+| JPMorgan TMT bond forecast (2026) | **$400B+** (could climb) |
+| [[Google]] 2026 capex guidance | **$185B** (>3 years combined) |
+| [[Amazon]] 2026 capex guidance | **$200B** |
+| High-grade bond inflows (week of Feb 4) | **$6.44B** (5-year high) |
+| Global bond issuance | Hit **$1T** in record time |
+
+New issues underperformed JPMorgan US Liquid Index by 4 bps over prior 10 days — largest underperformance since October.
+
+### Cash flow pressure (FT, Feb 8)
+
+Big Tech capex now exceeding cash from operations — forcing bond/equity raises:
+
+| Company | 2026 capex | Cash from ops (est.) | FCF gap |
+|---------|-----------|----------------------|---------|
+| [[Amazon]] | $200B | $180B | **-$20B** |
+| [[Meta]] | $135B | $130B | **-$5B** |
+| [[Google\|Alphabet]] | $185B | $195B | +$10B (before buybacks) |
+
+- [[Amazon]] filed regulatory notice signaling potential capital raise (debt or equity)
+- [[Google\|Alphabet]] long-term debt: $10.9B (2024) → **$46.5B** (2025) — 4x in one year
+- TD Securities expects **$80B** IG issuance week of Feb 10 (2x normal pace), driven by potential "mega deals" from Amazon, Meta, Alphabet
+- US IG spreads widening in anticipation of Big Tech supply
+
+BNP Paribas: FCF at Oracle, Alphabet, Amazon, Meta "plummeting toward negative territory" — only [[Microsoft]] appears "more resilient, at least for now."
+
+### Notable deals (Feb 2026)
+
+| Issuer | Amount | Notes |
+|--------|--------|-------|
+| [[Oracle]] | $25B | Monday single-day sale |
+| Cipher Mining (for [[Amazon]] DC) | $2B | Junk bonds for data center |
+| Stonepeak (BP Castrol) | $3.75B | May include junk tranche |
+| Bank of America | $7B | IG multi-tranche |
+
+### Key quotes
+
+- "The AI spending bonanza is finding buyers today but leaves little upside and even less room for error" — Alexander Morris, F/m Investments
+- "It doesn't take too many adverse events to create a selloff and for the prices to collapse" — Ali Meli, Monachil Capital Partners
+- "Tight valuations make credit susceptible to potential disruption" — Barclays (Brad Rogoff, Dominique Toublan)
+
+---
+
 ## [[AI infrastructure financing]]
 
 Anticipated wave of bond issuance for:
@@ -173,7 +238,7 @@ See [[AI Infrastructure]], [[Data Centers]], [[Power constraints]]
 - [[Amazon]] — $440B capex cohort
 - [[Meta]] — $440B capex cohort
 
-*Updated 2026-01-11*
+*Updated 2026-02-08*
 
 ---
 

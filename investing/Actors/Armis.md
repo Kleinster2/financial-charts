@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #cybersecurity #israel #private #acquired
 
-**Armis** — Cyber exposure management and OT/IoT security platform. Being acquired by [[ServiceNow]] for $7.75B (Dec 2025).
+Armis — Cyber exposure management and OT/IoT security platform. Being acquired by [[ServiceNow]] for $7.75B (Dec 2025).
 
 ---
 
@@ -26,7 +26,7 @@ aliases: []
 
 Armis provides real-time visibility and protection across the entire digital attack surface — IT, operational technology (OT), medical devices, and IoT. The platform discovers and monitors every connected asset, prioritizes vulnerabilities, and enables automated remediation.
 
-**Key capabilities:**
+Key capabilities:
 - Asset discovery across IT/OT/IoT
 - Cyber exposure management
 - Vulnerability prioritization
@@ -53,29 +53,44 @@ Founded in 2015 in Israel, emerged as leader in agentless device security — pa
 | Date | Round | Amount | Valuation | Lead investors |
 |------|-------|--------|-----------|----------------|
 | Nov 2025 | Late stage | $435M | $6.1B | — |
+| 2020 | Acquisition by [[Insight Partners]] | $1.1B | — | [[Insight Partners]], [[CapitalG]] |
 | Earlier rounds | — | — | — | [[Sequoia]], [[CapitalG]], [[Insight Partners]] |
 
 Total funding: $600M+
 
-The Nov 2025 round was one of the largest private cybersecurity financings of the year. Armis had been preparing for IPO (targeted late 2026) before accepting ServiceNow's acquisition offer.
+The Nov 2025 round was one of the largest private cybersecurity financings of the year. Armis had been preparing for IPO (targeted late 2026) and weighing 6-7 investor offers (Sep 2025) before accepting ServiceNow's acquisition. [[Thoma Bravo]] had previously explored a deal.
 
 ---
 
 ## ServiceNow acquisition (Dec 2025)
 
-**Deal terms:**
+Deal terms:
 - Price: $7.75B all cash
 - Multiple: 23x ARR
 - Announced: December 23, 2025
 - Expected close: H2 2026 (regulatory approval pending)
 
-**Strategic rationale:**
+Strategic rationale:
 - Expands [[ServiceNow]] security offerings into OT/IoT
 - Creates unified security exposure and operations stack
 - More than triples ServiceNow's addressable market for security solutions
 - Advances [[AI agents]]-driven autonomous cybersecurity vision
 
 ServiceNow funding via cash on hand + debt.
+
+---
+
+## Cyber M&A wave context
+
+The Armis deal is part of a 2025 cybersecurity consolidation wave fueled by AI-driven threat detection:
+
+| Deal | Price | Date |
+|------|-------|------|
+| [[Google]] → [[Wiz]] | $32B cash | Mar 2025 |
+| [[Palo Alto Networks]] → [[CyberArk]] | ~$25B | Jul 2025 |
+| [[ServiceNow]] → Armis | $7.75B cash | Dec 2025 |
+
+*Source: Bloomberg (Martin, Gould, Ford), Dec 23 2025*
 
 ---
 

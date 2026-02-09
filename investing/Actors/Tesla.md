@@ -3,7 +3,7 @@ aliases: [TSLA]
 ---
 #actor #auto #ai #usa
 
-**Tesla** — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer. **#2 to BYD in global EV sales (2025).**
+Tesla — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer. #2 to BYD in global EV sales (2025).
 
 ---
 
@@ -39,7 +39,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 | 2022 | $81.5B | $12.6B | $3.62 | 1.31M | $123 |
 | 2023 | $96.8B | $15.0B | $4.30 | 1.81M | $249 |
 | 2024 | $97.7B | $7.1B | $2.04 | 1.79M | $403 |
-| 2025 | $97.7B | $7.1B | $2.04 | **1.63M** | $403 |
+| 2025 | $97.7B | $7.1B | $2.04 | 1.63M | $403 |
 
 *Source: Company filings. Stock price = year-end close. Prices adjusted for 3:1 split (Aug 2022) and 5:1 split (Aug 2020). 2024-25 profits declined due to EV price war. 2025 = first annual delivery decline.*
 
@@ -47,78 +47,78 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ## Q4 2025 earnings (Jan 28, 2026)
 
-**Beat estimates, stock +3% afterhours to $445**
+Beat estimates, stock +3% afterhours to $445
 
 | Metric | Q4 2025 | vs Est |
 |--------|---------|--------|
 | Revenue | $24.9B | Beat |
 | EPS (adj) | $0.50 | Beat |
 | Deliveries | 418K | Miss (423K est) |
-| FSD subscribers | **1.1M** | +38% YoY |
+| FSD subscribers | 1.1M | +38% YoY |
 
-**Full year 2025:**
+Full year 2025:
 - Revenue: ~$97.7B (first annual decline on record)
-- Profit: **-46% YoY**
+- Profit: -46% YoY
 - Deliveries: 1.63M (-8.5% YoY)
 
-**Key announcements:**
-- Investing **$2B in [[xAI]]** (Musk's AI company)
+Key announcements:
+- Investing $2B in [[xAI]] (Musk's AI company)
 - FSD active subscriptions hit 1.1M milestone
 - Robotaxi production on track for April 2026
-- Capex guidance: **>$20B for 2026** (more than doubling)
+- Capex guidance: >$20B for 2026 (more than doubling)
 
 ---
 
 ## 2026 cash flow crisis (Evercore forecast)
 
-**Wall Street bracing for FCF deficit:**
+Wall Street bracing for FCF deficit:
 
 ![[tsla-fcf-evercore.png]]
 *Evercore sees $5-7B cash flow deficit in 2026 — a potential $13B swing from 2022 peak.*
 
 | Metric | 2025 | 2026E | Swing |
 |--------|------|-------|-------|
-| Free cash flow | ~$6B | **-$5 to -$7B** | -$11-13B |
-| Capex | ~$10B | **>$20B** | +$10B+ |
+| Free cash flow | ~$6B | -$5 to -$7B | -$11-13B |
+| Capex | ~$10B | >$20B | +$10B+ |
 | Cash on hand | $44B | Declining | — |
 
 *Source: Bloomberg, Evercore ISI (Jan 2026)*
 
-**Drivers:**
+Drivers:
 - Capex more than doubling for EV ramp, battery plants, robots
 - $2B committed to [[xAI]]
 - AI infrastructure for FSD training and [[Tesla Optimus]] "brain"
 - [[Tesla Energy]] expansion (Houston 50 GWh Megablock plant)
 
-**The xAI entanglement (post-merger Feb 2026):**
-- Tesla's $2B xAI investment now in **SpaceX subsidiary**
+The xAI entanglement (post-merger Feb 2026):
+- Tesla's $2B xAI investment now in SpaceX subsidiary
 - [[xAI]] burning ~$1B/month (now funded by SpaceX)
 - Tesla sold $430M in [[Megapack]]s to xAI in 2024
 - Grok integration in Tesla vehicles
 - xAI to power Optimus humanoid robots
-- **Fiduciary concerns:** Tesla excluded from [[SpaceX xAI merger]] but subsidized xAI
+- Fiduciary concerns: Tesla excluded from [[SpaceX xAI merger]] but subsidized xAI
 
-**Musk ownership math:** 11% Tesla, 42% [[SpaceX]], 51% [[xAI]] — merger would increase his combined stake significantly
+Musk ownership math: 11% Tesla, 42% [[SpaceX]], 51% [[xAI]] — merger would increase his combined stake significantly
 
-**$1T pay package implications:**
+$1T pay package implications:
 - Tesla shareholders approved blockbuster pay package (2024)
 - Milestones would be adjusted for any merger per agreement terms
 - SpaceX in fold = additional growth avenues to hit targets
 - Bloomberg Intel view: SpaceX-xAI merger (without Tesla) may avoid distraction from pay package milestones
 
-**Retail shareholder angle:**
+Retail shareholder angle:
 - Tesla's devoted retail base could shape merger reception
 - @TeslaBoomerMama (220K followers): merger would "give retail shareholders in the only public company... the right to participate in the other two"
 - Many retail investors already view Tesla/SpaceX/xAI as one ecosystem
 
-**Risk:** Tesla excluded from SpaceX/xAI mega-deal while providing $2B capital. See [[SpaceX xAI merger]].
+Risk: Tesla excluded from SpaceX/xAI mega-deal while providing $2B capital. See [[SpaceX xAI merger]].
 
 ---
 
 ## Custom silicon
 
-- **Dojo**: Custom AI training chip for FSD (Full Self-Driving)
-- **FSD chip**: Inference chip in vehicles
+- Dojo: Custom AI training chip for FSD (Full Self-Driving)
+- FSD chip: Inference chip in vehicles
 - Designed in-house
 
 ---
@@ -133,7 +133,7 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ## FSD / Robotaxi (2026 narrative)
 
-**Current status (Jan 2026):**
+Current status (Jan 2026):
 
 | Metric | Value |
 |--------|-------|
@@ -142,46 +142,69 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 | Safety driver | Still required (human in passenger seat) |
 | Unsupervised testing | Started Dec 2025 (Austin) |
 
-**Cybercab:**
-- Production starts **April 2026** (Giga Texas)
+Cybercab:
+- Production starts April 2026 (Giga Texas)
 - No steering wheel or pedals
 - "Less than 10-second cycle time" (Musk)
 - Regulatory approval timing uncertain
 
-**FSD expansion:**
+FSD expansion:
 - [[Europe]] demo rides ongoing
 - Supervised FSD [[Europe]] launch Q1 2026 (target)
 - Still requires constant driver attention
 
-**Challenges:**
+Challenges:
 - Unsupervised FSD not approved yet
 - Early incidents: wrong-side driving, phantom braking
 - Federal regulator scrutiny
 - AI5 chip delayed → Cybercab may launch on AI4 hardware
 
-**Bull thesis:** Robotaxi = $5T+ market opportunity if Tesla solves autonomy
-**Bear thesis:** Perpetually "next year" — FSD promised since 2016
+Bull thesis: Robotaxi = $5T+ market opportunity if Tesla solves autonomy
+Bear thesis: Perpetually "next year" — FSD promised since 2016
 
 ---
 
 ## Energy / Megapack
 
-**[[Tesla Energy]] = fastest growing, most profitable division:**
+[[Tesla Energy]] = fastest growing, most profitable division:
 
 | Metric | 2024 | 2025 |
 |--------|------|------|
-| Storage deployed | 31.4 GWh | **46.7 GWh** |
+| Storage deployed | 31.4 GWh | 46.7 GWh |
 | Revenue | $10.1B | ~$12.75B |
-| Gross margin | ~26% | **31.4%** |
-| % of Tesla profit | — | **23%** (vs 13% of revenue) |
+| Gross margin | ~26% | 31.4% |
+| % of Tesla profit | — | 23% (vs 13% of revenue) |
 
-**Manufacturing capacity:**
+Manufacturing capacity:
 - Lathrop, CA: 40 GWh/year
 - Shanghai: 40 GWh/year
 - Houston (2026): 50 GWh/year (Megablock)
-- **Total: ~133 GWh/year** when Houston operational
+- Total: ~133 GWh/year when Houston operational
 
-**Bull case:** Energy could surpass automotive revenue by 2029. Some project $200B+ by 2030.
+Bull case: Energy could surpass automotive revenue by 2029. Some project $200B+ by 2030.
+
+---
+
+## Solar cell manufacturing push (Feb 2026)
+
+[[Elon Musk]] announced 100 GW/year solar cell production target for [[Tesla]] and [[SpaceX]] combined — to power data centers on Earth and in space. Active site evaluations underway:
+
+| Location | Status |
+|----------|--------|
+| Buffalo, NY (existing) | Expansion to 10 GW capacity |
+| Second NY facility | Under consideration |
+| Arizona | Under consideration |
+| Idaho | Under consideration |
+
+Led by VP Bonne Eggleston (hiring for domestic solar manufacturing). Musk on podcast: current US solar import tariffs are "gigantic" — "We are going to make solar."
+
+Context: US produces only ~3 GW of solar cells annually (BloombergNEF). Most domestic manufacturing is panels, not cells — cells are dominated by [[China]]. Tesla/SpaceX teams recently visited Chinese solar companies to inquire about manufacturing equipment.
+
+[[First Solar]] (current US leader) expects 14 GW US capacity in 2026. Tesla's 100 GW target would dwarf all US production combined. First Solar stock fell ~7% on the news.
+
+Previous solar efforts: 2016 SolarCity acquisition (~$2B) failed to scale beyond niche Solar Roof product. This pivot is industrial-scale cell manufacturing, not residential.
+
+*Source: Bloomberg (Ludlow, Chediak, Hull), Feb 6 2026*
 
 ---
 
@@ -204,9 +227,9 @@ EV motors require permanent magnets with rare earth elements:
 | Neodymium | Permanent magnets | ~90% |
 | [[Dysprosium]] | High-temp stability | ~99% |
 
-**Risk**: [[China]]'s 2025 rare earth controls directly threaten Tesla's supply chain. See [[Rare earth leverage]].
+Risk: [[China]]'s 2025 rare earth controls directly threaten Tesla's supply chain. See [[Rare earth leverage]].
 
-**Mitigation attempts**:
+Mitigation attempts:
 - Reducing rare earth content per motor
 - Exploring alternative motor designs
 - Giga Shanghai = potential local sourcing advantage
@@ -217,24 +240,24 @@ EV motors require permanent magnets with rare earth elements:
 
 | Challenge | Impact |
 |-----------|--------|
-| **BYD overtook Tesla (2025)** | #2 globally now |
+| BYD overtook Tesla (2025) | #2 globally now |
 | US market contracting | -29% forecast (1.1M units) |
 | Trump ended tax incentives | $7,500 credit gone |
 | [[China]] competition | BYD, [[Xiaomi]], others pricing down |
 | [[Europe]] collapsing | See Jan 2026 data below |
 
-**US EV market:** 1.5M (2025) → 1.1M (2026 forecast)
+US EV market: 1.5M (2025) → 1.1M (2026 forecast)
 
 ### Europe sales collapse (Jan 2026)
 
 | Market | Jan 2026 sales | YoY change |
 |--------|----------------|------------|
-| France | 661 units | **-42%** |
-| Norway | — | **-88%** |
+| France | 661 units | -42% |
+| Norway | — | -88% |
 
 France sales lowest in 3+ years. Norway historically Tesla's strongest European market.
 
-**Drivers:**
+Drivers:
 - Musk political backlash (DOGE, Trump administration role)
 - Chinese EV competition ([[BYD]], [[Xiaomi]] entering)
 - End of subsidies in multiple countries
@@ -244,51 +267,51 @@ France sales lowest in 3+ years. Norway historically Tesla's strongest European 
 
 ## 4680 battery program struggles
 
-**L&F contract collapse (Jan 2026):**
+L&F contract collapse (Jan 2026):
 
 | Metric | Original | Revised |
 |--------|----------|---------|
 | Contract value | $2.9B | $7,386 |
-| Change | — | **-99.9997%** |
+| Change | — | -99.9997% |
 
 South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to effectively zero due to "change in supply quantity."
 
-**4680 status:**
+4680 status:
 - Only used in Cybertruck (20-25K units/year vs 250K Giga Texas capacity)
 - Promised $25K EV dependent on 4680 cost savings — no timeline
 - Competitors ([[BMW]], Rivian) adopting 46XX format independently
 
-**Implications:** In-house battery strategy appears to have failed. Tesla may need to rely on external suppliers (CATL, Panasonic) for future vehicles, compressing margins.
+Implications: In-house battery strategy appears to have failed. Tesla may need to rely on external suppliers (CATL, Panasonic) for future vehicles, compressing margins.
 
 ---
 
 ## For theses
 
-**[[Short Tesla]]**: 4680 failure, FSD delays, valuation disconnect, FCF deficit
-**[[AI capex arms race]]**: Tesla as cash source for Musk's AI ambitions
-**[[Short TSMC long Korea]]**: If Tesla/xAI anchor Samsung, bullish Korea
-**[[Automotive semiconductors]]**: Major EV maker, demand signal for auto semis
-**[[Long TSMC]]**: Dojo currently TSMC
+[[Short Tesla]]: 4680 failure, FSD delays, valuation disconnect, FCF deficit
+[[AI capex arms race]]: Tesla as cash source for Musk's AI ambitions
+[[Short TSMC long Korea]]: If Tesla/xAI anchor Samsung, bullish Korea
+[[Automotive semiconductors]]: Major EV maker, demand signal for auto semis
+[[Long TSMC]]: Dojo currently TSMC
 
 ---
 
 ## 2025 delivery decline
 
-**Full year 2025: first annual decline**
+Full year 2025: first annual decline
 
 | Metric | 2025 | 2024 | Change |
 |--------|------|------|--------|
 | Deliveries | 1.64M | 1.79M | -8.6% |
 | Production | 1.65M | 1.77M | -7% |
 
-**Q4 2025 specifically:**
+Q4 2025 specifically:
 
 | Metric | Q4 2025 | Q4 2024 | Change |
 |--------|---------|---------|--------|
 | Deliveries | 418,227 | 495,570 | -16% |
 | vs expectations | Miss (426K expected) | — | — |
 
-**Causes:**
+Causes:
 - Boycotts tied to Musk's political views
 - Competition from lower-cost Chinese EVs
 - US market contraction (Trump ended $7,500 credit)
@@ -297,7 +320,7 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 
 ## Analyst sentiment (Jan 2026)
 
-**Consensus: Hold** (32 analysts)
+Consensus: Hold (32 analysts)
 
 | Rating | Count |
 |--------|-------|
@@ -305,7 +328,7 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 | Hold | 10 |
 | Sell | 9 |
 
-**Mean price target: $393.90** (implies ~10% downside from $438)
+Mean price target: $393.90 (implies ~10% downside from $438)
 
 | Analyst | Rating | [[Target]] | View |
 |---------|--------|--------|------|
@@ -313,13 +336,13 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 | [[Morgan Stanley]] | Hold | $425 | Limited near-term upside |
 | [[Truist]] | Hold | $439 | Cautious on valuation |
 
-**Investor focus shifting:** From deliveries → FSD/robotaxi execution in 2026.
+Investor focus shifting: From deliveries → FSD/robotaxi execution in 2026.
 
 ---
 
 ## Investment thesis
 
-**Bull case:**
+Bull case:
 - Robotaxi/FSD = $5T+ TAM if solved
 - Energy business growing 50%+ annually, 31% margins
 - Optimus humanoid robot optionality
@@ -327,7 +350,7 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 - Musk political influence (DOGE, Trump access)
 - Brand loyalty despite headwinds
 
-**Bear case:**
+Bear case:
 - 100x+ P/E on declining deliveries
 - FSD perpetually "next year" since 2016
 - BYD, Chinese EVs winning on cost
@@ -340,17 +363,17 @@ South Korean cathode supplier [[L&F]] reduced its Tesla contract from $2.9B to e
 
 ## Short interest history (quarterly)
 
-**Note:** Tesla historically has HIGH short interest and is squeeze-prone — different pattern from other Mag 7.
+Note: Tesla historically has HIGH short interest and is squeeze-prone — different pattern from other Mag 7.
 
 | Quarter | SI % float | Stock | Note |
 |---------|------------|-------|------|
-| **Q1 2026** | **2.7%** | $438 | Highest Mag 7, rose from 71M to 78M shares |
+| Q1 2026 | 2.7% | $438 | Highest Mag 7, rose from 71M to 78M shares |
 | Q4 2025 | 2.5% | $— | |
 | Q3 2025 | — | $— | |
 | Q2 2025 | — | $— | |
-| 2020-21 | **15-20%+** | $— | Historic squeeze era |
+| 2020-21 | 15-20%+ | $— | Historic squeeze era |
 
-**Pattern:** Still highest SI in Mag 7, but far below squeeze-era levels. Some bears remain but not crowded.
+Pattern: Still highest SI in Mag 7, but far below squeeze-era levels. Some bears remain but not crowded.
 
 See [[Short interest]] for interpretation framework.
 
@@ -367,11 +390,11 @@ See [[Short interest]] for interpretation framework.
 | EPS (2025) | $2.04 |
 | EPS (2026E) | $2.17 |
 | [[Automotive]] margin | ~17% |
-| Deliveries (2025) | **1.63M** (-8.5% YoY, first decline) |
-| FSD subscribers | **1.1M** (+38% YoY) |
+| Deliveries (2025) | 1.63M (-8.5% YoY, first decline) |
+| FSD subscribers | 1.1M (+38% YoY) |
 | P/E | ~288x |
 | Energy business | ~$12.75B/year |
-| Short interest | **2.7%** (Jan 2026) — highest Mag 7 |
+| Short interest | 2.7% (Jan 2026) — highest Mag 7 |
 
 *Updated 2026-02-03 (Europe sales collapse)*
 
@@ -405,3 +428,5 @@ See [[Short interest]] for interpretation framework.
 - [[STMicro]] — supplier (SiC for EVs)
 - [[Rare earth leverage]] — supply chain risk
 - [[Waymo]] — robotaxi competitor
+- [[First Solar]] — solar competitor (Tesla 100 GW target vs FSLR 14 GW)
+- [[Tesla Energy]] — energy division (Megapack + solar)

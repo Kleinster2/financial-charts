@@ -1,6 +1,6 @@
 #region #canada #northamerica #developed
 
-**Canada** — G7 economy. $2.1T GDP. Resources, financials, US integration. Commodity currency.
+Canada — G7 economy. $2.1T GDP. Resources, financials, US integration. Commodity currency.
 
 ---
 
@@ -70,6 +70,24 @@
 
 ---
 
+## Auto sector (Feb 2026)
+
+Canadian auto sector under pressure from US tariffs. Government pivoting to attract non-US investment:
+
+| Development | Detail |
+|-------------|--------|
+| [[GM]] | Layoffs at Canadian plants |
+| [[Stellantis]] | Reneged on Toronto-area [[Jeep]] factory restart |
+| Chinese EV JV | [[Magna]], [[Linamar]], [[Martinrea]] + [[BYD]]/[[Chery]] — export-oriented |
+| EV tariff exemption | 49,000 Chinese-built EVs/year exempt from 100% tariff |
+| Korean target | [[Hyundai]]/[[Kia]] sell hundreds of thousands but make zero in Canada |
+| Import credit system | Build more in Canada → pay less on US imports; tradeable credits |
+| Current production | Honda and [[Toyota]] = ~75% of Canadian auto output |
+
+See [[Canada-China relations]] for JV details.
+
+---
+
 ## Investment themes
 
 | Theme | Expression |
@@ -79,6 +97,7 @@
 | US integration | Trade, banking |
 | Immigration | Population growth |
 | Housing | Bubble concerns |
+| Auto sector restructuring | Chinese EV JV, Korean courtship, import credit system |
 
 ---
 
@@ -98,8 +117,9 @@
 |------|--------|
 | Housing bubble | Bank exposure |
 | Commodity prices | TSX volatility |
-| US policy | Trade dependency |
+| US policy | Trade dependency — [[Trump II]] tariffs hitting auto sector |
 | Rate sensitivity | Household debt |
+| Auto restructuring | GM/Stellantis retreating, Chinese JV politically risky |
 
 ---
 
@@ -112,7 +132,14 @@
 
 ### Companies
 - [[Shopify]] — tech champion
+- [[Magna]] — auto parts, potential Chinese EV JV partner
+
+### Geopolitics
+- [[Canada-China relations]] — Carney thaw, EV JV, mining deals
+- [[Mark Carney]] — PM, architect of China pivot
+- [[Trump II]] — US tariffs driving diversification
+- [[USMCA]] — trade framework under stress
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-02-08*

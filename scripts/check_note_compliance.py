@@ -59,7 +59,8 @@ class NoteChecker:
         # Determine note type from hashtags
         note_type = self._get_note_type(content)
 
-        # Link checks apply to all note types
+        # Universal checks (all note types)
+        issues.extend(self._check_bold_formatting(content, filepath))
         issues.extend(self._check_dead_links(content, filepath))
         if note_type in ("actor", "etf", "benchmark", "concept", "event", "thesis"):
             issues.extend(self._check_missing_links(content, filepath))
@@ -260,6 +261,36 @@ class NoteChecker:
 
         return issues
 
+    def _check_bold_formatting(self, content: str, filepath: Path) -> list[Issue]:
+        """Flag any bold formatting (**text**) in the note."""
+        issues = []
+
+        # Skip frontmatter
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        # Find bold patterns: **text** (but not inside code blocks)
+        # Remove code blocks first
+        body_no_code = re.sub(r'```.*?```', '', body, flags=re.DOTALL)
+        body_no_code = re.sub(r'`[^`]+`', '', body_no_code)
+
+        bold_matches = re.findall(r'\*\*(.+?)\*\*', body_no_code)
+
+        if bold_matches:
+            # Show first few examples
+            examples = bold_matches[:3]
+            preview = ", ".join(f'**{b}**' for b in examples)
+            remaining = len(bold_matches) - len(examples)
+            msg = f"Contains {len(bold_matches)} bold instances: {preview}"
+            if remaining > 0:
+                msg += f" (+{remaining} more)"
+            issues.append(Issue("error", "bold", msg))
+
+        return issues
+
     def _check_dead_links(self, content: str, filepath: Path) -> list[Issue]:
         """Check for wikilinks that don't resolve to existing notes."""
         issues = []
@@ -441,6 +472,37 @@ aliases: []
                     f"Mentions '{note_name}' — consider [[{note_name}]]"))
 
         return issues
+
+    def fix_bold(self, filepath: Path) -> int:
+        """Remove all bold formatting (**text**) from a note. Returns count of fixes."""
+        content = filepath.read_text(encoding="utf-8")
+
+        # Preserve frontmatter
+        frontmatter = ""
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                frontmatter = content[:second_dash + 3]
+                body = content[second_dash + 3:]
+
+        # Count bold instances in body (outside code blocks)
+        count = len(re.findall(r'\*\*(.+?)\*\*', body))
+
+        if count > 0:
+            # Replace **text** with text, but skip code blocks
+            # Split by code fences, only process non-code parts
+            parts = re.split(r'(```.*?```)', body, flags=re.DOTALL)
+            new_parts = []
+            for part in parts:
+                if part.startswith('```'):
+                    new_parts.append(part)  # Keep code blocks as-is
+                else:
+                    new_parts.append(re.sub(r'\*\*(.+?)\*\*', r'\1', part))
+            body = ''.join(new_parts)
+            filepath.write_text(frontmatter + body, encoding="utf-8")
+
+        return count
 
     def fix_missing_links(self, filepath: Path) -> list[str]:
         """Auto-fix missing wikilinks in a note. Returns list of fixed names."""
@@ -1079,10 +1141,8 @@ def main():
         print(f"Error: Vault not found at {vault_root}", file=sys.stderr)
         sys.exit(1)
 
-    # --fix requires --suggest-links
-    if args.fix and not args.suggest_links:
-        print("Error: --fix requires --suggest-links", file=sys.stderr)
-        sys.exit(1)
+    # --fix for link suggestions requires --suggest-links
+    # (bold fix always works with --fix)
 
     checker = NoteChecker(vault_root, suggest_links=args.suggest_links)
 
@@ -1195,6 +1255,14 @@ def main():
         total_errors += len(errors)
         total_warnings += len(warnings)
 
+        # Auto-fix bold if requested
+        bold_fixed = 0
+        if args.fix:
+            bold_issues = [i for i in issues if i.rule == "bold"]
+            if bold_issues:
+                bold_fixed = checker.fix_bold(filepath)
+                total_fixed += bold_fixed
+
         # Auto-fix missing links if requested
         fixed = []
         if args.fix and suggestions:
@@ -1215,8 +1283,13 @@ def main():
 
         # Always show file name when fixing
         if args.fix:
-            if fixed:
-                print(f"\n{filepath.name}: fixed {len(fixed)} links")
+            if bold_fixed or fixed:
+                parts = []
+                if bold_fixed:
+                    parts.append(f"{bold_fixed} bold")
+                if fixed:
+                    parts.append(f"{len(fixed)} links")
+                print(f"\n{filepath.name}: fixed {', '.join(parts)}")
                 for name in fixed:
                     print(f"  + [[{name}]]")
             else:

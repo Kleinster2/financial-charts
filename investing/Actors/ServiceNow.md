@@ -3,7 +3,7 @@ aliases: [NOW]
 ---
 #actor #software #enterprise #usa #public
 
-**ServiceNow** — Enterprise workflow automation platform. #1 in IT service management (ITSM) with 40%+ market share. CEO [[Bill McDermott]] positioning company as the [[AI agents]] leader for enterprise workflows.
+ServiceNow — Enterprise workflow automation platform. #1 in IT service management (ITSM) with 40%+ market share. CEO [[Bill McDermott]] positioning company as the [[AI agents]] leader for enterprise workflows.
 
 ---
 
@@ -63,11 +63,11 @@ aliases: [NOW]
 
 ## Why ServiceNow matters
 
-**Platform of platforms** — ServiceNow connects enterprise systems. Started in ITSM (help desk, incident management), expanded to HR, customer service, security, and now [[AI agents]]. The platform becomes more valuable as more workflows run through it.
+Platform of platforms — ServiceNow connects enterprise systems. Started in ITSM (help desk, incident management), expanded to HR, customer service, security, and now [[AI agents]]. The platform becomes more valuable as more workflows run through it.
 
-**Enterprise lock-in** — 98%+ renewal rates. Once ServiceNow manages your workflows, switching costs are enormous. 85% of Fortune 500 are customers.
+Enterprise lock-in — 98%+ renewal rates. Once ServiceNow manages your workflows, switching costs are enormous. 85% of Fortune 500 are customers.
 
-**AI monetization** — Now Assist (gen AI across platform) drives upsell to existing 8,100+ customers. Shifting to consumption-based pricing for AI features.
+AI monetization — Now Assist (gen AI across platform) drives upsell to existing 8,100+ customers. Shifting to consumption-based pricing for AI features.
 
 ---
 
@@ -95,39 +95,55 @@ aliases: [NOW]
 | Document intelligence | Automated processing |
 | Code generation | Workflow automation |
 
-**[[Anthropic]] partnership** (Jan 2026) — Expanded integration of [[Claude]] models for enterprise customers.
+[[Anthropic]] partnership (Jan 2026) — Expanded integration of [[Claude]] models for enterprise customers.
 
-**[[Thinking Machines Lab]] investment** (2025) — Strategic investor in [[Mira Murati]]'s $2B seed round ($12B valuation). TML focuses on enterprise AI fine-tuning, aligning with ServiceNow's workflow automation.
+[[Thinking Machines Lab]] investment (2025) — Strategic investor in [[Mira Murati]]'s $2B seed round ($12B valuation). TML focuses on enterprise AI fine-tuning, aligning with ServiceNow's workflow automation.
 
-**Monetization shift** — Moving AI Agents into Pro Plus and Enterprise Plus SKUs. Forgoing upfront subscriptions to drive adoption, monetizing usage over time.
+Monetization shift — Moving AI Agents into Pro Plus and Enterprise Plus SKUs. Forgoing upfront subscriptions to drive adoption, monetizing usage over time.
 
 ---
 
 ## Recent M&A
 
-| Acquisition   | Price       | Strategic rationale              |
-| ------------- | ----------- | -------------------------------- |
-| [[Armis]]     | $7.75B      | Cybersecurity, identity security |
-| [[Moveworks]] | ~$3B        | Conversational AI for IT         |
-| [[Veza]]      | Undisclosed | Identity security platform       |
+| Acquisition   | Price       | Date | Strategic rationale              |
+| ------------- | ----------- | ---- | -------------------------------- |
+| [[Armis]]     | $7.75B cash | Dec 2025 | OT/IoT cybersecurity, device visibility |
+| [[Moveworks]] | $2.85B      | Mar 2025 | Conversational AI for IT         |
+| [[Genesys]] investment | $750M | 2025 | Contact center software |
+| [[Veza]]      | Undisclosed | 2025 | Identity security platform       |
 
-Aggressive M&A to build AI and security capabilities. Armis deal announced Jan 2026.
+Total 2025 M&A/investment spend: $12B+ across 9 deals (6 without disclosed prices).
+
+### Deal spree concerns
+
+[[Bill McDermott]]'s acquisition pace drawing comparisons to his SAP tenure (2010-2019), where he engineered SAP's largest-ever deals including the $8B [[Qualtrics]] purchase — months after telling CNBC big acquisitions weren't on the horizon.
+
+| Analyst | Firm | View |
+|---------|------|------|
+| Matthew Hedberg | RBC Capital Markets | Unhappy deal may be used to boost slowing revenue growth |
+| John DiFucci | Guggenheim | "Deja vu" — buying spree looks like rehabilitating slowing growth inorganically vs savvy tuck-ins |
+
+ServiceNow response: comparing to SAP is "apples to oranges" — ServiceNow doesn't need M&A for market traction. Strategy "fundamentally unchanged."
+
+Stock reaction: NOW was already -18% YTD before Armis news broke (Dec 13), then dropped another -12% after. Wall Street expected sub-20% organic revenue growth in 2026 — acquisitions seen as compensating.
+
+*Source: Bloomberg (Brody Ford), Dec 26 2025*
 
 ---
 
 ## Q4 2025 results (Jan 28, 2026)
 
-- **Subscription revenue**: $3.47B (21% YoY, 19.5% constant currency)
-- **Total revenue**: $3.57B (beat $3.53B estimate)
-- **EPS**: $0.92 adjusted (beat $0.88 estimate)
-- **cRPO**: $12.85B (25% YoY growth)
-- **Stock reaction**: Down 3%+ despite beat
+- Subscription revenue: $3.47B (21% YoY, 19.5% constant currency)
+- Total revenue: $3.57B (beat $3.53B estimate)
+- EPS: $0.92 adjusted (beat $0.88 estimate)
+- cRPO: $12.85B (25% YoY growth)
+- Stock reaction: Down 3%+ despite beat
 
-**2026 guidance:**
+2026 guidance:
 - Q1 subscription revenue: $3.65-3.66B
 - FY2026 subscription revenue: $15.53-15.57B (~21% growth)
 
-**Capital return:**
+Capital return:
 - $5B additional share repurchase authorized
 - $2B accelerated share repurchase launching
 
@@ -163,7 +179,7 @@ McDermott joined 2019, drove expansion beyond IT into "platform of platforms" st
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Mission-critical platform (98%+ retention)
 - [[AI agents]] monetization opportunity
 - 20%+ revenue growth at $13B+ scale
@@ -171,7 +187,7 @@ McDermott joined 2019, drove expansion beyond IT into "platform of platforms" st
 - Workflow automation TAM expanding
 - Rule of 55+ profile
 
-**Bear:**
+Bear:
 - Premium valuation (77x P/E)
 - Stock down significantly from 2024 highs
 - AI commoditization risk ([[Microsoft]] Copilot, open source)

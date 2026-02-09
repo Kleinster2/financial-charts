@@ -3,7 +3,7 @@ aliases: [DeepMind, GDM]
 ---
 #actor #ai #modellab #uk #usa
 
-**Google DeepMind** — Google's AI research lab. Merged DeepMind ([[UK]]) + Google Brain (US). Created AlphaGo, AlphaFold, [[Gemini]].
+Google DeepMind — Google's AI research lab. Merged DeepMind ([[UK]]) + Google Brain (US). Created AlphaGo, AlphaFold, [[Gemini]].
 
 ---
 
@@ -22,20 +22,20 @@ GDM is Google's frontier AI effort:
 
 ## History
 
-**Two labs merged (2023):**
+Two labs merged (2023):
 
 | Lab | Origin | Strength |
 |-----|--------|----------|
 | DeepMind | [[UK]], acquired 2014 for $500M | Research, RL, science |
 | Google Brain | US, internal | Scale, infrastructure |
 
-**Leader:** Demis Hassabis (DeepMind founder) now leads combined entity.
+Leader: Demis Hassabis (DeepMind founder) now leads combined entity.
 
 ---
 
 ## [[Gemini]] model family
 
-**Google's answer to GPT:**
+Google's answer to GPT:
 
 | Model | Use case |
 |-------|----------|
@@ -44,7 +44,7 @@ GDM is Google's frontier AI effort:
 | [[Gemini]] Nano | On-device |
 | [[Gemini]] Flash | Fast, cheap inference |
 
-**Distribution:** Google Search, Android, Cloud, Workspace.
+Distribution: Google Search, Android, Cloud, Workspace.
 
 ---
 
@@ -58,7 +58,7 @@ GDM is Google's frontier AI effort:
 | Products | [[Gemini]], Bard, Search | [[ChatGPT]], API |
 | Open source | Gemma | Limited |
 
-**Google's advantage:** Distribution to billions through Search, Android, Gmail.
+Google's advantage: Distribution to billions through Search, Android, Gmail.
 
 ---
 
@@ -74,7 +74,7 @@ GDM is Google's frontier AI effort:
 
 ## Scientific achievements
 
-**Beyond chatbots:**
+Beyond chatbots:
 
 | Project | Impact |
 |---------|--------|
@@ -82,14 +82,26 @@ GDM is Google's frontier AI effort:
 | AlphaGo/Zero | Reinforcement learning breakthrough |
 | Gato | Generalist agent (2022) |
 | GraphCast | Weather prediction |
+| [[Genie 3]] (2026) | World-building AI -- generates interactive virtual environments from text prompts |
 
 GDM is more research-oriented than OpenAI.
+
+### [[Genie 3]] (Feb 2026)
+
+World model that constructs virtual environments from text prompts. Triggered selloff in game dev/graphics companies when demos released.
+
+Applications beyond gaming:
+- [[Waymo]]: customized for autonomous driving simulation — generates synthetic driving footage and lidar-like depth data for edge-case training
+- Robotics: potential for sim-to-real transfer
+- Content creation: virtual world generation
+
+*Source: Bloomberg, Feb 6 2026*
 
 ---
 
 ## Investment angle
 
-**Not directly investable** — part of Alphabet (GOOGL/GOOG).
+Not directly investable — part of Alphabet (GOOGL/GOOG).
 
 Google's AI capabilities are underappreciated:
 - Distribution advantage (Search, Android)
@@ -118,4 +130,5 @@ Google's AI capabilities are underappreciated:
 - [[Anthropic]] — competitor (founded by ex-OpenAI)
 - [[Demis Hassabis]] — CEO
 - [[AI hyperscalers]] — category
+- [[Waymo]] -- [[Genie 3]] applied to AV simulation (Feb 2026)
 

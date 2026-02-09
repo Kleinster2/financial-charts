@@ -3,7 +3,7 @@ aliases: [MGA]
 ---
 #actor #auto #manufacturing #canada
 
-**Magna International** — Global auto parts supplier and contract manufacturer. Building [[Waymo]] vehicles in Arizona.
+Magna International — Global auto parts supplier and contract manufacturer. Building [[Waymo]] vehicles in Arizona.
 
 ---
 
@@ -41,8 +41,25 @@ One of few Tier 1 suppliers capable of complete vehicle assembly — enables OEM
 
 ---
 
+## Canada-China EV JV (Feb 2026)
+
+Industry Minister Mélanie Joly named Magna as a potential partner in a Chinese-Canadian EV joint venture for global export. Magna already has operations in China.
+
+| Detail | Value |
+|--------|-------|
+| Canadian partners named | Magna, [[Linamar]], [[Martinrea]] |
+| Chinese firms in talks | [[BYD]], [[Chery]] |
+| Magna's advantage | One of few Tier 1s capable of complete vehicle assembly |
+| Software | [[BlackBerry]] QNX (Canadian) could address security concerns |
+
+See [[Canada-China relations]] for full deal context.
+
+---
+
 ## Related
 
 - [[Waymo]] — customer (robotaxi manufacturing)
 - [[Autonomous vehicles]] — sector
 - [[EVs]] — sector exposure
+- [[Canada-China relations]] — potential EV JV partner
+- [[Canada]] — home market, auto sector restructuring

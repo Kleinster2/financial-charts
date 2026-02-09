@@ -3,7 +3,7 @@ aliases: [FSLR]
 ---
 #actor #solar #usa #energy
 
-**First Solar** — Only major US solar panel manufacturer. Thin-film CdTe technology. Beneficiary of IRA and [[China]] tariffs.
+First Solar — Only major US solar panel manufacturer. Thin-film CdTe technology. Beneficiary of IRA and [[China]] tariffs.
 
 ---
 
@@ -22,13 +22,13 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 ## Technology differentiation
 
-**Cadmium Telluride (CdTe) thin-film:**
+Cadmium Telluride (CdTe) thin-film:
 - Different from Chinese crystalline silicon
 - Better hot-climate performance
 - Lower temperature coefficient
 - Vertically integrated manufacturing
 
-**Vs Chinese silicon panels:**
+Vs Chinese silicon panels:
 | Aspect | First Solar | Chinese silicon |
 |--------|-------------|-----------------|
 | Technology | Thin-film CdTe | Crystalline Si |
@@ -40,13 +40,13 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 
 ## AI data center opportunity
 
-**Why data centers choose First Solar:**
+Why data centers choose First Solar:
 - Domestic content for IRA credits
 - Avoids [[China]] tariff/ban risk
 - Utility-scale focus
 - Reliable supply
 
-**Hyperscaler demand:**
+Hyperscaler demand:
 - Amazon, Microsoft, Google, [[Meta]] all buying solar
 - 98.7% of corporate PPAs from hyperscalers
 - First Solar = preferred domestic supplier
@@ -64,18 +64,18 @@ First Solar is the only US-headquartered solar manufacturer at scale:
 | Vietnam | ~3 GW |
 | [[India]] | ~3 GW |
 
-**US expansion:** IRA incentives driving domestic buildout.
+US expansion: IRA incentives driving domestic buildout.
 
 ---
 
 ## Policy tailwinds
 
-**[[Inflation]] Reduction Act (IRA):**
+[[Inflation]] Reduction Act (IRA):
 - Domestic content bonuses
 - Manufacturing tax credits
 - 10-year visibility
 
-**[[China]] tariffs:**
+[[China]] tariffs:
 - AD/CVD duties on Chinese panels
 - [[Southeast Asia]] circumvention crackdown
 - First Solar exempt (CdTe, not silicon)
@@ -91,12 +91,12 @@ First Solar uses tellurium, not rare earths — different risk profile:
 | Tellurium | CdTe thin-film | [[China]] ~60% refining |
 | Cadmium | CdTe thin-film | Byproduct of zinc |
 
-**Better positioned than silicon solar**:
+Better positioned than silicon solar:
 - Rare earth magnets not required (no motors)
 - Tellurium not on [[China]]'s 2025 export control list
 - But still some [[China]] supply chain exposure
 
-**Vs Chinese silicon panels**:
+Vs Chinese silicon panels:
 - Chinese panels require rare earths (inverters, trackers)
 - First Solar's vertically integrated manufacturing reduces touchpoints
 - IRA domestic content requirements favor US supply chains
@@ -105,9 +105,34 @@ See [[Rare earth leverage]] for the broader context.
 
 ---
 
+## Tesla solar threat (Feb 2026)
+
+[[Tesla]] and [[SpaceX]] announced 100 GW/year solar cell production target — would dwarf First Solar's entire US operation. First Solar stock fell ~7% on news.
+
+| Metric | First Solar | Tesla target |
+|--------|-------------|--------------|
+| US capacity (2026) | 14 GW | 100 GW (aspirational) |
+| Technology | Thin-film CdTe | Crystalline Si (presumed) |
+| Current status | Operating at scale | Evaluating factory sites |
+
+Locations under evaluation: Buffalo NY (expansion to 10 GW), second NY facility, Arizona, Idaho.
+
+Mitigants for First Solar:
+- Tesla's 100 GW is aspirational — no proven cell manufacturing at scale
+- SolarCity acquisition (2016) failed to realize solar ambitions
+- CdTe thin-film is different technology — not direct cell competition
+- Tesla teams visited Chinese equipment suppliers — execution risk
+- First Solar has decade of manufacturing experience
+
+Risk: If Tesla executes even partially (10-20 GW), US solar manufacturing capacity glut could compress panel prices and erode First Solar's domestic premium.
+
+*Source: Bloomberg, Feb 6 2026*
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Only US solar manufacturer at scale
 - IRA domestic content tailwind
 - [[China]] tariff beneficiary
@@ -115,7 +140,7 @@ See [[Rare earth leverage]] for the broader context.
 - Contracted backlog visibility
 - Less rare earth exposed than silicon solar
 
-**Bear:**
+Bear:
 - Technology efficiency gap vs silicon
 - Tariff policy risk (administration change)
 - Execution on US expansion
@@ -149,3 +174,5 @@ See [[Rare earth leverage]] for the broader context.
 - [[AI hyperscalers]] — customers (98.7% of corporate PPAs)
 - [[Array Technologies]] — peer (solar trackers)
 - [[Clean energy for AI]] — thesis context
+- [[Tesla]] — solar cell competitor (100 GW target, Feb 2026)
+- [[SpaceX]] — also targeting 100 GW solar cells

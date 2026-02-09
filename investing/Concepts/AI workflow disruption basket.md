@@ -7,7 +7,7 @@ tags: [basket/internal, ai, disruption]
 
 Stocks that correlate on AI capability announcements threatening white-collar workflows. Emerged as a distinct factor during the [[Claude Cowork disruption February 2026|February 2026 SaaSpocalypse]].
 
-Wall Street now calls this phenomenon the **"SaaSpocalypse"** — the thesis that AI agents fundamentally break seat-based SaaS pricing. If one agent does the work of ten humans, why pay for ten seats? ~$285B in market cap erased Feb 3-4, 2026. We had the basket before it had a name.
+Wall Street now calls this phenomenon the "SaaSpocalypse" — the thesis that AI agents fundamentally break seat-based SaaS pricing. If one agent does the work of ten humans, why pay for ten seats? ~$285B in market cap erased Feb 3-4, 2026. We had the basket before it had a name.
 
 ---
 
@@ -42,7 +42,7 @@ Wall Street now calls this phenomenon the **"SaaSpocalypse"** — the thesis tha
 |--------|---------|--------|----------|
 | OMC | [[Omnicom]] | 6% | -11% |
 
-**Total: 100%** — 12 constituents, move-weighted
+Total: 100% — 12 constituents, move-weighted
 
 ### Removed: Indian IT Services
 
@@ -51,7 +51,7 @@ Wall Street now calls this phenomenon the **"SaaSpocalypse"** — the thesis tha
 | INFY | [[Infosys]] | -7.4% | Different thesis |
 | TCS.NS | [[TCS]] | -7% | Different thesis |
 
-**Rationale:** Indian IT is exposed to AI margin compression (billable hours → AI workflows), not product replacement (seats → agents). The -7% move vs -34% for SaaS shows the market sees them as less directly exposed. They may recover faster if Cowork fears fade. See [[Indian IT services]] for the separate thesis.
+Rationale: Indian IT is exposed to AI margin compression (billable hours → AI workflows), not product replacement (seats → agents). The -7% move vs -34% for SaaS shows the market sees them as less directly exposed. They may recover faster if Cowork fears fade. See [[Indian IT services]] for the separate thesis.
 
 ### Database tickers
 
@@ -63,15 +63,15 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 
 ## Index methodology
 
-- **Ticker:** AIWD
-- **Weighting:** Move-weighted (Feb 3-4 selloff magnitude = weight)
-- **Rebalance:** Event-driven (re-weight on next major AI disruption catalyst)
-- **Base date:** Feb 3, 2026 = 100
-- **History:** July 2021 – present (limited by LZ IPO)
-- **Calculation:** Price return, USD-adjusted for non-US tickers
-- **Script:** `scripts/create_aiwd_index.py --store`
+- Ticker: AIWD
+- Weighting: Move-weighted (Feb 3-4 selloff magnitude = weight)
+- Rebalance: Event-driven (re-weight on next major AI disruption catalyst)
+- Base date: Feb 3, 2026 = 100
+- History: July 2021 – present (limited by LZ IPO)
+- Calculation: Price return, USD-adjusted for non-US tickers
+- Script: `scripts/create_aiwd_index.py --store`
 
-**Rationale:** Let the market tell us disruption exposure. Intuit fell 34% vs TCS 7% — the market is pricing Intuit as 5x more exposed to AI workflow disruption. We follow the signal.
+Rationale: Let the market tell us disruption exposure. Intuit fell 34% vs TCS 7% — the market is pricing Intuit as 5x more exposed to AI workflow disruption. We follow the signal.
 
 ![[aiwd-index.png]]
 *AIWD basket since July 2021 (LZ IPO). Peaked late 2021, ground down through 2022-24, then SaaSpocalypse collapse Feb 2026.*
@@ -91,7 +91,7 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 ![[aiwd-vs-igv.png]]
 *AIWD (blue) vs IGV (red) since July 2021. Same sector, opposite AI exposure. IGV includes AI winners; AIWD is pure disruption.*
 
-**Why the gap?** IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — SaaS seats, legal research, IT services.
+Why the gap? IGV includes software that *benefits* from AI (platforms, infrastructure, dev tools). AIWD is pure disruption exposure — SaaS seats, legal research, IT services.
 
 ### SaaS vs Advertising breakdown
 
@@ -100,10 +100,10 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 
 | Type | Weight | Pre-Feb trend | Feb move | Now |
 |------|--------|---------------|----------|-----|
-| **SaaS** (INTU, NOW, CRM) | 43% | Mixed | Crushed | -30% to -55% |
-| **Advertising** (OMC) | 6% | Flat | Hit | -10% to -15% |
+| SaaS (INTU, NOW, CRM) | 43% | Mixed | Crushed | -30% to -55% |
+| Advertising (OMC) | 6% | Flat | Hit | -10% to -15% |
 
-**Key insight:** SaaS with seat-based pricing got destroyed. Advertising less exposed — client relationships, creative judgment, media buying still need humans. But both are "product replacement" plays, unlike Indian IT services which is margin compression.
+Key insight: SaaS with seat-based pricing got destroyed. Advertising less exposed — client relationships, creative judgment, media buying still need humans. But both are "product replacement" plays, unlike Indian IT services which is margin compression.
 
 ---
 
@@ -111,15 +111,15 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| **Avg correlation** | **0.25** | Weak (event-driven) |
+| Avg correlation | 0.25 | Weak (event-driven) |
 | Range | 0.03 - 0.54 | LZ-FDS to TRI-RELX |
 | Strongest pair | TRI-RELX | 0.54 (legal duopoly) |
 | vs SPY | ~0.30 | Low market beta |
 | Period | 2024-01 to present | |
 
-**Why so low?** This is an *event basket*, not a sector. Constituents span legal (TRI, RELX), IT services (INFY), advertising (OMC) — different industries that don't normally move together. Correlation spikes on AI capability announcements (Claude Cowork, GPT releases) then reverts.
+Why so low? This is an *event basket*, not a sector. Constituents span legal (TRI, RELX), IT services (INFY), advertising (OMC) — different industries that don't normally move together. Correlation spikes on AI capability announcements (Claude Cowork, GPT releases) then reverts.
 
-**Pairwise clusters:**
+Pairwise clusters:
 
 | Cluster | Tickers | Internal corr |
 |---------|---------|---------------|
@@ -146,7 +146,7 @@ INTU, NOW, CRM, LZ, TRI, RELX, WKL.AS, LSEG.L, TEAM, FDS, MORN, OMC
 | FactSet | -10.5% | 5% |
 | Morningstar | -9% | 4% |
 
-**Basket (move-weighted):** -19.8%
+Basket (move-weighted): -19.8%
 
 ---
 
@@ -159,28 +159,48 @@ First AIWD constituent to report after the selloff. Key test of whether fundamen
 | Metric | Q4 2025 | YoY |
 |--------|---------|-----|
 | Revenue | $2,009M | +5% |
-| Organic revenue | **+7%** | |
+| Organic revenue | +7% | |
 | Adj EBITDA | $777M | +8% |
 | FY EBITDA margin | 39.2% | +100bp |
-| "Big 3" organic growth | **+9%** | Legal, Corporates, Tax |
-| 2026 organic guide | **7.5-8.0%** | |
+| "Big 3" organic growth | +9% | Legal, Corporates, Tax |
+| 2026 organic guide | 7.5-8.0% | |
 | 2026 margin guide | +100bp | |
 | Dividend | +10% to $2.62 | 33rd consecutive raise |
 
-**The verdict:** Fundamentals are fine. 7% organic growth, margin expanding, dividend growing. Nothing in the numbers says "business is being disrupted." But the stock was already down ~20% from the Feb 3 selloff before reporting — market is pricing in future disruption, not current weakness.
+The verdict: Fundamentals are fine. 7% organic growth, margin expanding, dividend growing. Nothing in the numbers says "business is being disrupted." But the stock was already down ~20% from the Feb 3 selloff before reporting — market is pricing in future disruption, not current weakness.
 
-**The tension:** TRI's CoCounsel AI tool generates $32B in efficiency savings for legal clients. This is both the bull case (TRI *is* the AI tool) and the bear case (if AI commoditizes legal research, why pay Westlaw premium pricing?).
+The tension: TRI's CoCounsel AI tool generates $32B in efficiency savings for legal clients. This is both the bull case (TRI *is* the AI tool) and the bear case (if AI commoditizes legal research, why pay Westlaw premium pricing?).
 
-**Watch:** Stock reaction on Feb 5 will signal whether the market sees TRI as AI-resilient (moat holds, numbers prove it) or AI-vulnerable (good quarter doesn't matter if the product gets disrupted). This sets the template for how other AIWD names trade through earnings.
+Watch: Stock reaction on Feb 5 will signal whether the market sees TRI as AI-resilient (moat holds, numbers prove it) or AI-vulnerable (good quarter doesn't matter if the product gets disrupted). This sets the template for how other AIWD names trade through earnings.
+
+---
+
+## Positioning and valuation (Feb 8, 2026)
+
+Bloomberg reported the full-week damage from the SaaSpocalypse was wider than initially captured:
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Stocks hit | 164 across software, financial services, asset management | Bloomberg |
+| Total market cap erased | $611B (full week, vs $285B on Feb 3-4 alone) | Bloomberg |
+| Hedge fund net software exposure | Record low <3% (from 18% peak in 2023) | [[Goldman Sachs]] PB |
+| Software | Most net-sold sector YTD | GS PB data |
+| GS software basket P/E | Record low 21x (from 100+ in late 2021) | Bloomberg |
+| [[IGV]] RSI | 15 on Feb 6 (lowest in ~15 years; <30 = oversold) | Bloomberg |
+| [[Salesforce]] P/E | 14x forward (10-year avg: 46x) | Bloomberg |
+
+Fundamental disconnect: S&P 500 software/services earnings projected +19% for 2026 (up from +16% months ago). No fundamental deterioration visible yet -- market pricing future disruption risk.
+
+*Source: Bloomberg (Wittenstein, Vlastelica), Feb 8 2026*
 
 ---
 
 ## Tracking thesis
 
 This basket should:
-1. **Spike down** on major AI capability announcements (new models, agent products)
-2. **Correlate internally** more than with broad market
-3. **Diverge on company-specific news** (earnings, moats proving durable)
+1. Spike down on major AI capability announcements (new models, agent products)
+2. Correlate internally more than with broad market
+3. Diverge on company-specific news (earnings, moats proving durable)
 
 Watch for:
 - Next Anthropic/OpenAI product launch
@@ -203,7 +223,7 @@ No Wall Street firm has built an equivalent curated disruption basket. Closest a
 | [[JPMorgan JPAMAIDE]] | JPMorgan | AI infrastructure bull | Opposite side — AI beneficiaries, no bear basket |
 | [[GS AI Productivity Beneficiaries]] | Goldman Sachs | AI adoption bull | Inverse of AIWD — same force, opposite trade |
 
-**AIWD differentiation:** Pure SaaS/data disruption exposure (legal, analytics, SaaS platforms, advertising). Move-weighted from Feb 3-4 selloff. Only disruption-specific basket with a trackable ticker in our database.
+AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS platforms, advertising). Move-weighted from Feb 3-4 selloff. Only disruption-specific basket with a trackable ticker in our database.
 
 ---
 

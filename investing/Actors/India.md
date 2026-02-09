@@ -1,6 +1,6 @@
 #actor #country #asia #emerging #tariffs
 
-**India** — World's 5th largest economy, fastest-growing major economy. Caught between US and China.
+India — World's 5th largest economy, fastest-growing major economy. Caught between US and China.
 
 ---
 
@@ -32,7 +32,7 @@
 | Redemptions | ₹5.5T (~70% YoY increase) |
 | 10Y yield | 6.73% (Jan 2026) |
 
-**Pressure points:**
+Pressure points:
 - Heavy state government issuance
 - [[Reserve Bank of India]] FX interventions tightening liquidity
 - Pension/insurance fund demand softening
@@ -76,7 +76,7 @@ In Feb 2023, the [[Geological Survey of India]] announced 5.9 million tonnes of 
 | Auction attempts | 2 failed (Nov 2023, Jul 2024) — no bidders due to insufficient data |
 | Other sites | Karnataka (~1,600t), Rajasthan (Degana), Chhattisgarh (Katghora) |
 
-**Challenges:**
+Challenges:
 - G3 = inferred only — needs G2/G1 upgrade before commercial viability is clear
 - Reasi is remote, mountainous terrain — infrastructure gap
 - Two failed auctions signal industry skepticism on grade/extractability
@@ -108,11 +108,39 @@ In Feb 2023, the [[Geological Survey of India]] announced 5.9 million tonnes of 
 
 ---
 
+## US-India trade deal (Feb 2026)
+
+India secured an interim tariff reduction from 50% to 18% by partially opening its ~$580B agriculture sector to US imports.
+
+| Detail | Value |
+|--------|-------|
+| Tariff (old → new) | 50% → 18% (interim deal) |
+| Agriculture sector size | ~$580B (McKinsey) |
+| Seed oil imports | 16M tons/year |
+| Products opened | DDGS, red sorghum, soybean oil, tree nuts, fruit |
+| Products excluded | Dairy, poultry, raw soybeans, GM food crops |
+
+Nuances:
+- DDGS (distillers' dried grains with solubles) is a GM corn byproduct — India technically allows it as animal feed while banning GM food crops directly
+- Farmer lobby is politically powerful — Modi risks backlash from rural constituencies
+- India already imports ~70% of edible oil needs — opening soybean oil formalizes existing dependency on US/Argentina/Brazil
+- US pushed hard on dairy and poultry but India held firm — religious and political sensitivity
+
+Implications:
+- Positive for [[Trump II]] bilateral relationship — deal structure avoids full confrontation
+- Opens door for deeper [[EU-India FTA]] negotiations (EU watching US concessions)
+- Agricultural commodity importers ([[Adani Group]], ITC) may benefit from formalized channels
+- Risk: if US demands escalate, India's concession space narrows further
+
+*Source: Bloomberg, Feb 7 2026*
+
+---
+
 ## Risks
 
 | Risk | Impact |
 |------|--------|
-| [[Trump II]] tariffs | 50% on goods, trade deal uncertain |
+| [[Trump II]] tariffs | Reduced to 18% from 50% (Feb 2026 interim deal) — agri concessions required |
 | [[India sectors]] | Can't build batteries, EVs domestically — lithium finds years from production |
 | [[Indian rupee]] | Persistent depreciation |
 | Real estate | Construction slowdown — see [[India macro]] |
@@ -121,23 +149,23 @@ In Feb 2023, the [[Geological Survey of India]] announced 5.9 million tonnes of 
 
 ## Related
 
-**Macro & Markets:**
+Macro & Markets:
 - [[India macro]] — budget, monetary policy, real estate, reserve diversification
 - [[Indian rupee]] — currency dynamics
 - [[Reserve Bank of India]] — central bank
 
-**Geopolitics:**
+Geopolitics:
 - [[India-China relations]] — thawing but shallow
 - [[EU-India FTA]] — "mother of all deals" (Jan 2026)
-- [[Trump II]] — 50% tariff pressure
+- [[Trump II]] — tariff reduced to 18% from 50% (Feb 2026 interim deal)
 
-**Sectors:**
+Sectors:
 - [[India sectors]] — IT services, financials, pharma, manufacturing constraints
 - [[China battery leverage]] — why battery manufacturing failed
 - [[Lithium]] — Reasi deposit, critical mineral exploration
 - [[India AI]] — $1.2B AI mission
 
-**Companies:**
+Companies:
 - [[Reliance Industries]] — largest company
 - [[Larsen & Toubro]] — infrastructure
 - [[HDFC Bank]], [[ICICI Bank]] — top banks
@@ -145,4 +173,4 @@ In Feb 2023, the [[Geological Survey of India]] announced 5.9 million tonnes of 
 
 ---
 
-*Created 2026-01-10 · Updated 2026-02-07*
+*Created 2026-01-10 · Updated 2026-02-08*

@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #ai #autonomous #usa #subsidiary #private
 
-**Waymo** — Alphabet's robotaxi. Leading US autonomous deployment. 450K weekly paid rides, targeting 1M/week by end of 2026.
+Waymo — Alphabet's robotaxi. Leading US autonomous deployment. 450K weekly paid rides, targeting 1M/week by end of 2026.
 
 ---
 
@@ -14,7 +14,7 @@ aliases: []
 | Parent | [[Google]] / Alphabet |
 | Status | Commercial robotaxi |
 | Weekly rides | 450K (Dec 2025) |
-| Total rides | 14M in 2025, 20M+ lifetime |
+| Total rides | 20M+ lifetime (Feb 2026) |
 | Cities | 5 operational, 20+ planned 2026 |
 | Fleet | ~2,500 vehicles |
 | Valuation | $126B (Feb 2026 round) |
@@ -42,7 +42,7 @@ Co-CEO structure since April 2021 when [[John Krafcik]] stepped down.
 
 ## Commercial operations
 
-**Waymo One robotaxi — operational cities (2025):**
+Waymo One robotaxi — operational cities (2025):
 
 | City | Status | Miles driven |
 |------|--------|--------------|
@@ -54,7 +54,7 @@ Co-CEO structure since April 2021 when [[John Krafcik]] stepped down.
 
 127M total autonomous miles through Sep 2025. Primary hailing via Waymo app; Uber partnership for secondary markets.
 
-**2026 expansion pipeline:**
+2026 expansion pipeline:
 
 | Region | Cities |
 |--------|--------|
@@ -83,7 +83,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ## Scale metrics
 
-**2025 growth:**
+2025 growth:
 
 | Metric | Feb 2025 | Dec 2025 | Growth |
 |--------|----------|----------|--------|
@@ -91,7 +91,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 | Annual rides | — | 14M | 3x vs 2024 |
 | Fleet size | — | ~2,500 | |
 
-**2026 targets:**
+2026 targets:
 - 1M rides/week by year-end (per co-CEO Mawakana at TechCrunch Disrupt)
 - 20+ new city launches
 - London international debut
@@ -110,7 +110,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 | 2025 | 14M | ~$350M | ~$5B | 3x ride growth, 5 cities |
 | 2026E | 40M+ | ~$800M+ | ~$5B | Target: 1M rides/week |
 
-**Unit economics (est.):**
+Unit economics (est.):
 
 | Metric | Value |
 |--------|-------|
@@ -125,7 +125,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ## Funding
 
-**Total raised:** $27B+
+Total raised: $27B+
 
 ### Valuation & share price summary
 
@@ -197,7 +197,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 | Shareholder | Ownership | Value | Notes |
 |-------------|-----------|-------|-------|
-| **[[Google]]** / Alphabet | ~80% | ~$101B | >75% confirmed; lead all rounds |
+| [[Google]] / Alphabet | ~80% | ~$101B | >75% confirmed; lead all rounds |
 | [[Andreessen Horowitz]] | ~5% | ~$6B | Series B, C, D participant |
 | [[Silver Lake]] | ~3% | ~$4B | Series A, C |
 | [[Tiger Global]] | ~2% | ~$2.5B | Series C |
@@ -213,6 +213,33 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ---
 
+## Waymo World Model -- [[Genie 3]] integration (Feb 2026)
+
+Waymo using [[Google DeepMind]]'s [[Genie 3]] AI model to create synthetic driving worlds for edge-case training. Published Feb 6 2026.
+
+| Capability | Detail |
+|------------|--------|
+| Synthetic footage | Generates driving video as if captured by vehicle cameras |
+| Depth perception | Simulates lidar sensor data |
+| Dashcam conversion | Takes real-life footage → scene + depth maps for simulation |
+| Edge cases | "Explore situations never directly observed by our fleet" |
+| Scaling | Helps prepare autonomous systems for new cities |
+
+[[Genie 3]] drew attention the prior week with "world-building" demos — triggered selloff in game dev/graphics tool companies. Waymo customized it for autonomous driving.
+
+Context: NHTSA and NTSB probing Waymo after school bus incidents in Austin (prompted voluntary software recall). Larger training datasets address safety validation gap.
+
+Competitors with world models:
+- [[NVIDIA]] + [[Uber]]: millions of hours of robotaxi-specific driving data
+- Wayve ([[SoftBank]]-backed): own world model for UK robotaxi trials on Uber platform
+- [[Tesla]]: built similar simulator for FSD training
+
+Milestone: Waymo surpassed 20M autonomous trips (Alphabet disclosure, Feb 5 2026).
+
+*Source: Bloomberg (Natalie Lung), Feb 6 2026*
+
+---
+
 ## Competitive position
 
 | Competitor | Status | Waymo advantage |
@@ -225,7 +252,7 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 Waymo = clear leader in commercial robotaxi globally.
 
-**Tesla comparison:** Tesla's camera-only approach (no Lidar) faces safety questions. Lost $243M Florida lawsuit over fatal Autopilot accident. Austin robotaxi still requires safety observer or trailing vehicle. Cybercab (dedicated robotaxi) announced but not yet in production.
+Tesla comparison: Tesla's camera-only approach (no Lidar) faces safety questions. Lost $243M Florida lawsuit over fatal Autopilot accident. Austin robotaxi still requires safety observer or trailing vehicle. Cybercab (dedicated robotaxi) announced but not yet in production.
 
 ---
 
@@ -243,11 +270,11 @@ Waymo = clear leader in commercial robotaxi globally.
 
 ## Investment implications
 
-**Part of Alphabet (GOOGL):**
+Part of Alphabet (GOOGL):
 
 At $126B valuation vs Alphabet's ~$2T market cap, Waymo represents ~6.3% of Alphabet's value. Alphabet contributed >75% of the $16B Series D round.
 
-**Valuation context:** $126B is only 1/6th of [[OpenAI]]'s ~$750B and less than half of [[Anthropic]]'s ~$300B — despite Waymo having commercial robotaxi operations at scale (450K weekly rides).
+Valuation context: $126B is only 1/6th of [[OpenAI]]'s ~$750B and less than half of [[Anthropic]]'s ~$300B — despite Waymo having commercial robotaxi operations at scale (450K weekly rides).
 
 | Factor | Implication |
 |--------|-------------|
@@ -273,7 +300,7 @@ Waymo is the most valuable asset in Other Bets, but still a small slice of Alpha
 - [[Autonomous vehicles]] — concept
 - [[Robotics]] — sector
 
-**Investors:**
+Investors:
 - [[Andreessen Horowitz]] — Series B, C, D
 - [[Sequoia]] — Series D (new)
 - [[Dragoneer]] — Series D (new)
@@ -284,6 +311,8 @@ Waymo is the most valuable asset in Other Bets, but still a small slice of Alpha
 - [[Fidelity]] — Series C
 - [[Silver Lake]] — Series A, C
 
-**Partners:**
+Partners:
 - [[Uber]] — ride-hailing partnership (Austin, Atlanta)
+- [[Google DeepMind]] -- [[Genie 3]] world model for AV simulation
+- [[NVIDIA]] — competitor (Uber data partnership for AV training)
 

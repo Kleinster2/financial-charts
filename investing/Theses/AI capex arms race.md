@@ -35,11 +35,11 @@ Frontier AI requires capital at unprecedented scale. The economics of training a
 | Company | 2025 capex | 2026 guidance | Notes |
 |---------|------------|---------------|-------|
 | [[Microsoft]] | ~$80B | Flat/up | Stock sold off Jan 29 on AI skepticism |
-| [[Google]] | ~$75B | ~$100B | Emerging AI winner |
-| [[Amazon]] | ~$85B | In talks for $50B OpenAI investment | |
+| [[Google]] | ~$75B | **$185B** | More than past 3 years combined |
+| [[Amazon]] | ~$85B | **$200B** | Largest single-company outlay |
 | [[Meta]] | ~$65B | **$135B** | 2x increase |
 
-**Total Big Tech AI capex 2026E:** $400B+
+**Total Big Tech AI capex 2026E:** **$660B+** (FT, Feb 2026)
 
 ### Funding raised
 
@@ -189,6 +189,16 @@ See [[AI infrastructure financing]].
 
 | Date | Observation | Implication |
 |------|-------------|-------------|
+| 2026-02-08 | FT: Total Big Tech capex now **$660B+**, capex exceeding cash-from-ops at Amazon (-$20B gap) and Meta (-$5B gap) | Asset-light → capital-intensive transition |
+| 2026-02-08 | Amazon regulatory filing signals potential capital raise (debt or equity); shares -5.6% | Equity/debt financing pressure |
+| 2026-02-08 | Alphabet long-term debt jumped from $10.9B (2024) to **$46.5B** (2025) — 4x in one year | Rapid balance sheet leverage |
+| 2026-02-08 | JPMorgan: tech/media IG bond issuance forecast **$337B+** for 2026; TD expects **$80B** in single week | Unprecedented TMT debt issuance |
+| 2026-02-08 | BNP Paribas: FCF at Oracle, Alphabet, Amazon, Meta "plummeting toward negative territory" — only Microsoft resilient | Cash flow sustainability questioned |
+| 2026-02-07 | Bloomberg Credit Weekly: software leveraged loans down 4% YTD, BDC index -4.6% in one week — AI disruption fears hitting credit | Credit contagion from AI disruption thesis |
+| 2026-02-07 | [[Google]] guides **$185B** capex, [[Amazon]] **$200B** — both above prior expectations | Arms race accelerating, total Big Tech now $600B+ |
+| 2026-02-07 | [[Oracle]] sold **$25B** of debt in single day (Mon Feb 3) | Massive TMT bond issuance to fund AI |
+| 2026-02-07 | JPMorgan forecast $400B+ TMT high-grade bond sales in 2026, figure could climb | Debt-funded capex at unprecedented scale |
+| 2026-02-07 | UBS: private credit defaults could surge to **13%** if AI triggers aggressive disruption | Bear case crystallizing in credit |
 | 2026-02-02 | Google: grid connection waits exceed **12 years** in some US areas | Power, not capital, is the binding constraint |
 | 2026-01-21 | CoreWeave CEO Intrator (Davos): "systemically pinned on demand" — nobody can deliver enough compute | Validates supply-side constraints across stack |
 | 2026-01-30 | Bloomberg: Tesla/SpaceX/xAI merger talks | Restructuring response to capital needs |

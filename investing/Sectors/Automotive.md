@@ -1,6 +1,6 @@
 #sector #automotive #manufacturing #consumer
 
-**Automotive** — Global auto industry. $3T+ market. EV transition, autonomy, China competition.
+Automotive — Global auto industry. $3T+ market. EV transition, autonomy, China competition.
 
 ---
 
@@ -49,10 +49,10 @@
 
 | Segment | Key players |
 |---------|-------------|
-| **OEMs** | Toyota, VW, Tesla, BYD |
-| **Batteries** | [[CATL]], LG Energy, Panasonic |
-| **Semiconductors** | [[Infineon]], NXP, [[ON Semiconductor]] |
-| **Tier 1 suppliers** | Bosch, Denso, Continental |
+| OEMs | Toyota, VW, Tesla, BYD |
+| Batteries | [[CATL]], LG Energy, Panasonic |
+| Semiconductors | [[Infineon]], NXP, [[ON Semiconductor]] |
+| Tier 1 suppliers | Bosch, Denso, Continental |
 
 ---
 
@@ -80,6 +80,16 @@
 
 ---
 
+## US pricing crisis
+
+Average new car hit $50,326 (Dec 2025) — up 61% since 2010. Takes 36.2 weeks of household income, above pre-Covid norm. Buyers earning <$75,000 leaving market. US-made OEM average ([[GM]], [[Ford]], [[Stellantis]]): $54,380, 13% above industry.
+
+Causes: SUV/truck shift killed affordable sedans, pandemic supply disruption, EV price premium (~$8K above average), tariff absorption, regulation-driven feature creep. Auto insurance +65% and repair costs +44% (5yr) compound ownership burden.
+
+See [[US auto affordability]].
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -89,6 +99,7 @@
 | Tariffs | Supply chain disruption |
 | UAW/labor | Cost pressure |
 | Autonomy delays | Valuation reset |
+| Affordability crisis | Sub-$75K buyers leaving new-car market — see [[US auto affordability]] |
 
 ---
 
@@ -113,13 +124,13 @@
 | Battery tech | Can't source — [[China battery leverage]] |
 | Regional competition | Losing to [[BYD]] |
 
-**Nepal case study (Jan 2026):**
+Nepal case study (Jan 2026):
 - 75% of Nepal car sales are now EVs
 - [[BYD]] is market leader
 - Indian gasoline/diesel car dominance "evaporated"
 - Indian EVs can't compete on quality or price
 
-**Why:** India's 0.6% R&D spending (flat for 27 years) means no indigenous EV capability. Chinese tech transfer blocked. Pattern may repeat across South Asia.
+Why: India's 0.6% R&D spending (flat for 27 years) means no indigenous EV capability. Chinese tech transfer blocked. Pattern may repeat across South Asia.
 
 *Source: Bloomberg Opinion (Andy Mukherjee), Jan 2026*
 
@@ -142,6 +153,7 @@
 - [[EV transition]] — industry shift
 - [[Autonomous vehicles]] — future tech
 - [[China battery leverage]] — why India can't compete
+- [[US auto affordability]] — $50K+ average, pricing out consumers
 
 ### Regions
 - [[Japan]] — auto exports

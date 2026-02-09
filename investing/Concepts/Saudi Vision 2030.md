@@ -3,7 +3,7 @@ aliases: [Vision 2030]
 ---
 #concept #saudi #macro #policy
 
-**Saudi Vision 2030** — Saudi Arabia's $7T+ economic transformation program launched in 2016 by Crown Prince Mohammed bin Salman (MBS). Goal: diversify economy away from oil through mega-projects, tourism, entertainment, and tech.
+Saudi Vision 2030 — Saudi Arabia's $7T+ economic transformation program launched in 2016 by Crown Prince Mohammed bin Salman (MBS). Goal: diversify economy away from oil through mega-projects, tourism, entertainment, and tech.
 
 ---
 
@@ -40,7 +40,7 @@ Progress is real but uneven. Social targets (women's employment, entertainment) 
 | ROSHN | — | Real estate developer, active |
 | Diriyah Gate | $20B | Historical tourism, under construction |
 
-**The Line reality check:** Original plan called for 1.5M residents by 2030. Now targeting 300k. WSJ reported internal estimates of 2080 completion at $8.8T total cost. Sept 2025 suspension shifted focus to industrial/data center use.
+The Line reality check: Original plan called for 1.5M residents by 2030. Now targeting 300k. WSJ reported internal estimates of 2080 completion at $8.8T total cost. Sept 2025 suspension shifted focus to industrial/data center use.
 
 ---
 
@@ -49,25 +49,30 @@ Progress is real but uneven. Social targets (women's employment, entertainment) 
 | Metric | Value |
 |--------|-------|
 | Fiscal breakeven oil price | ~$96/bbl (IMF) |
-| 2025 budget deficit | $27B (2.3% GDP), Q1 alone was $15.7B |
+| 2025 actual deficit | 5.3% of GDP (worse than 2.3% budget) |
+| 2026 deficit target | 3.3% (Wall Street estimates higher) |
+| 2026 financing needs | ~$58B |
 | Public debt | 29.9% of GDP (rising) |
 | Oil share of fiscal revenue | ~75% |
+| 2025 GDP growth | Fastest in 3 years (OPEC+ supply policy) |
 
-The paradox: Vision 2030 aims to reduce oil dependence, but oil prices must stay high to fund the transition. At $70-80 oil, deficits widen and project timelines slip further.
+The paradox: Vision 2030 aims to reduce oil dependence, but oil prices must stay high to fund the transition. At $70-80 oil, deficits widen and project timelines slip further. Budget deficits every year since 2022 — officials call sustained shortfalls a deliberate choice to support investment.
 
-**Finance Minister Al-Jadaan (Dec 2025):** "We have no ego—absolutely no ego. If we need to adjust, accelerate, defer, or cancel [projects], we will without blinking."
+Finance Minister Al-Jadaan (Feb 2026, AlUla Conference): Focal areas for next 5 years are tourism, manufacturing, logistics, and technology. Strategy update coming — discussing communication now but no release date. "We continue to reprioritize, rework our policies, making sure we enable the private sector to lead the economy."
+
+Finance Minister Al-Jadaan (Dec 2025): "We have no ego—absolutely no ego. If we need to adjust, accelerate, defer, or cancel [projects], we will without blinking."
 
 ---
 
 ## What's working
 
-**Social transformation:**
+Social transformation:
 - Women driving (2018), working (36% participation)
 - Entertainment (concerts, cinemas, sports leagues)
 - Tourism visas (109M visitors by 2025)
 - Quality of life improvements
 
-**Economic structure:**
+Economic structure:
 - Non-oil GDP at 76% (up from ~50%)
 - Non-oil revenue doubled since 2016
 - FDI exceeding targets
@@ -77,13 +82,14 @@ The paradox: Vision 2030 aims to reduce oil dependence, but oil prices must stay
 
 ## What's struggling
 
-**Mega-projects:**
+Mega-projects:
 - The Line suspended, scope reduced 98%
 - NEOM pivoting from utopia to data centers
+- FIFA 2034 World Cup stadiums being scaled back
 - Timelines pushed years/decades
 - $50B+ already spent on NEOM with minimal output
 
-**Structural issues:**
+Structural issues:
 - Still 75% fiscal oil dependence
 - Breakeven oil price rising, not falling
 - Talent attraction difficult (human rights concerns)
@@ -108,17 +114,17 @@ AI may be more achievable than mirrored cities in the desert.
 
 ## Investment implications
 
-**Direct exposure:**
+Direct exposure:
 - [[Saudi PIF]] investments (via stakes in [[Lucid]], [[SoftBank Vision Fund]], etc.)
 - Contractors (engineering, construction, consulting)
 - Tech suppliers ([[NVIDIA]], cloud providers)
 
-**Indirect signals:**
+Indirect signals:
 - Oil price sensitivity—if Brent falls below $70, project cuts accelerate
 - Debt issuance—Saudi tapping bond markets to fund deficits
 - Competition with [[UAE]] for tech/AI leadership
 
-**Not investable:** Most giga-projects are PIF-owned, not public.
+Not investable: Most giga-projects are PIF-owned, not public.
 
 ---
 
@@ -133,6 +139,7 @@ AI may be more achievable than mirrored cities in the desert.
 | 2021 | NEOM/The Line announced |
 | 2024 | Reality check—projects scaled back |
 | 2025 | The Line suspended (Sept), AI pivot accelerates |
+| 2026 | Updated 5-year strategy being prepared (Al-Jadaan, Feb 2026) |
 | 2026-2030 | "Third phase"—full delivery mode |
 
 ---
@@ -147,7 +154,7 @@ AI may be more achievable than mirrored cities in the desert.
 | Total investment | $7T+ planned through 2030 |
 | Status | 85% of 1,502 initiatives complete or on track |
 
-*Updated 2026-01-29*
+*Updated 2026-02-08*
 
 ---
 

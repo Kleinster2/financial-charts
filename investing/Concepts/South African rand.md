@@ -23,7 +23,7 @@ aliases: [ZAR, USDZAR, rand]
 | Factor | Impact |
 |--------|--------|
 | **Commodity prices** | Gold, platinum, coal |
-| **Load shedding** | Eskom crisis = ZAR negative |
+| **Load shedding** | [[Eskom]] crisis = ZAR negative |
 | **Political risk** | ANC/GNU dynamics |
 | **Global risk appetite** | High beta to SPX |
 | **Rate differential** | Carry trade flows |
@@ -49,8 +49,10 @@ aliases: [ZAR, USDZAR, rand]
 
 ## Related
 
-- [[Carry trade]] — ZAR is high-yielder
-- [[Gold]] — commodity link
+- [[Carry trade]] -- ZAR is high-yielder
+- [[Gold]] -- commodity link
+- [[Eskom]] -- state utility, load shedding crisis
+- [[South Africa]] -- country
 
 ---
 
