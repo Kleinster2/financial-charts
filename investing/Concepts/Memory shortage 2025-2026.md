@@ -244,7 +244,35 @@ CEO Amon confirmed memory is now binding constraint on handset volumes through F
 
 ---
 
-*Updated 2026-02-06*
+## China memory makers abandon low-price strategy (Feb 2026)
+
+**The "China will flood the market with cheap memory" narrative is dead.**
+
+| Claim | Reality |
+|-------|---------|
+| CXMT dumping DDR4 at deep discounts | **Denied by CXMT** — market speculation |
+| Chinese DRAM will undercut Korea | **Prices converging toward Korean levels** |
+| YMTC NAND will be cheap alternative | **Also not underpricing** contract rates |
+
+**Why China can't be the cheap alternative:**
+
+| Constraint | Impact |
+|-----------|--------|
+| **No EUV access** | CXMT DDR5 dies are **40-50% larger** than SK Hynix — higher cost per chip |
+| **DUV workarounds** | SAQP, aggressive binning, higher voltages — works but doesn't scale |
+| **No ecosystem trust** | Apple, HP, Dell won't buy unproven modules without extensive validation |
+| **Regulatory walls** | YMTC on Entity List (Dec 2022); CXMT flagged under Section 1260H |
+| **Domestic demand absorbs supply** | CXMT capacity serves China alone — no surplus for export |
+
+**Strategic pivot:** CXMT moving from DDR4 → DDR5/LPDDR5X production. Not trying to win on price — trying to serve China's domestic AI/datacenter buildout.
+
+**Investment implication:** Bullish SK Hynix, Samsung, Micron. Chinese competition won't pressure memory pricing through 2026-2027. Supply stays tight, margins stay healthy.
+
+Sources: [DigiTimes](https://www.digitimes.com/news/a20260204PD210/market-dram-nand-cxmt-ddr4.html), [WCCFTech](https://wccftech.com/can-chinese-memory-save-us-from-the-ongoing-ram-shortages/), [TrendForce](https://www.trendforce.com/news/2025/10/27/news-memory-makers-reportedly-halt-quotes-on-select-dram-nand-products-as-china-faces-daily-pricing/)
+
+---
+
+*Updated 2026-02-10*
 
 ## Related
 

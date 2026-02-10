@@ -172,12 +172,16 @@ AI tools from [[Anthropic]] and others targeting professional services (finance,
 
 | Metric | Value |
 |--------|-------|
+| [[Google\|Alphabet]] USD bond sale (Feb 9) | **$20B** (7 tranches, $100B+ orders) |
 | [[Oracle]] single-day issuance (Feb 3) | **$25B** |
 | JPMorgan TMT bond forecast (2026) | **$400B+** (could climb) |
+| [[Morgan Stanley]] hyperscaler forecast (2026) | **$400B** (up from $165B in 2025) |
 | [[Google]] 2026 capex guidance | **$185B** (>3 years combined) |
 | [[Amazon]] 2026 capex guidance | **$200B** |
 | High-grade bond inflows (week of Feb 4) | **$6.44B** (5-year high) |
 | Global bond issuance | Hit **$1T** in record time |
+
+Alphabet's deal is the largest tech bond offering in history. Longest USD tranche matures 2066 at ~95 bps over Treasuries (tightened from ~120 bps guidance). Also planning a sterling [[Century Bond]] — first tech century bond since [[Motorola]] 1997. See [[Hyperscaler bond issuance]] for the full deal tracker.
 
 New issues underperformed JPMorgan US Liquid Index by 4 bps over prior 10 days — largest underperformance since October.
 
@@ -189,7 +193,7 @@ Big Tech capex now exceeding cash from operations — forcing bond/equity raises
 |---------|-----------|----------------------|---------|
 | [[Amazon]] | $200B | $180B | **-$20B** |
 | [[Meta]] | $135B | $130B | **-$5B** |
-| [[Google\|Alphabet]] | $185B | $195B | +$10B (before buybacks) |
+| [[Google\|Alphabet]] | $185B | $195B | +$10B (before buybacks). LT debt 4x to $46.5B in 2025 |
 
 - [[Amazon]] filed regulatory notice signaling potential capital raise (debt or equity)
 - [[Google\|Alphabet]] long-term debt: $10.9B (2024) → **$46.5B** (2025) — 4x in one year
@@ -202,6 +206,7 @@ BNP Paribas: FCF at Oracle, Alphabet, Amazon, Meta "plummeting toward negative t
 
 | Issuer | Amount | Notes |
 |--------|--------|-------|
+| [[Google\|Alphabet]] | $20B | 7-part USD sale + sterling [[Century Bond]] + CHF debut |
 | [[Oracle]] | $25B | Monday single-day sale |
 | Cipher Mining (for [[Amazon]] DC) | $2B | Junk bonds for data center |
 | Stonepeak (BP Castrol) | $3.75B | May include junk tranche |
@@ -245,13 +250,15 @@ See [[AI Infrastructure]], [[Data Centers]], [[Power constraints]]
 - [[Data Centers]] — bond-funded buildout
 - [[Banks]] — underwriters + issuers post-earnings
 - [[Richard Bernstein Advisors]] — "everything bubble" call
+- [[Hyperscaler bond issuance]] — dedicated tracker for AI-driven tech debt wave
+- [[Century Bond]] — Alphabet 100-year sterling bond (Feb 2026)
 - [[Sector rotation]] — AI fatigue context
 - [[Microsoft]] — $440B capex cohort
 - [[Google]] — $440B capex cohort
 - [[Amazon]] — $440B capex cohort
 - [[Meta]] — $440B capex cohort
 
-*Updated 2026-02-08*
+*Updated 2026-02-09*
 
 ---
 

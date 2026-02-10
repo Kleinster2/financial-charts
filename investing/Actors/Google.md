@@ -396,6 +396,29 @@ Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next 
 
 ---
 
+## Bond issuance (Feb 9, 2026)
+
+**Largest tech bond offering in history:**
+
+| Component | Details |
+|-----------|---------|
+| USD bond sale | **$20B** across 7 tranches (initially targeted $15B) |
+| Demand | **$100B+** in orders — among strongest ever for a corporate bond |
+| Longest USD tranche | Matures 2066, priced at ~95 bps over Treasuries (tightened from ~120 bps guidance) |
+| Sterling century bond | **100-year maturity** — Alphabet's debut in UK bond market, pricing ~Feb 10 |
+| Swiss franc debut | Additional tranches planned |
+| Purpose | Fund $175-185B 2026 capex (AI infrastructure) |
+
+**First [[Century Bond]] from a tech company since [[Motorola]] in 1997.** The sterling century bond market is tiny — only Oxford, EDF, and the Wellcome Trust have previously issued there.
+
+**Debt trajectory:** Long-term debt quadrupled in 2025 to $46.5B. Alphabet last tapped the US market in Nov 2025 ($17.5B, ~$90B orders). [[Morgan Stanley]] estimates hyperscaler bond issuance of $400B in 2026 to fund AI, driving high-grade issuance toward a record $2.25T.
+
+**[[Michael Burry]] warning:** Drew parallel to [[Motorola]]'s 1997 century bond — Motorola was a top-25 US company by market cap and revenue at the time, with America's most valuable brand. By 1998 Nokia overtook it; after iPhone it faded to 232nd by market cap. Burry's broader point: century bonds imply permanence, but tech dominance is fragile.
+
+**Counterpoint:** $100B+ demand at tightening spreads shows institutional conviction in Alphabet's creditworthiness. But a 100-year bond from a tech company is inherently a bet that cash flows survive a century of technological disruption.
+
+---
+
 ## Project Vault
 
 Signed up as founding member of [[Project Vault]], the $12B US [[critical minerals]] stockpile (Feb 2026). Alongside [[Lockheed Martin]], [[General Motors]], [[Clarios]], and 12+ other companies.
@@ -437,9 +460,10 @@ See [[Short interest]] for interpretation framework.
 | Key model | Gemini |
 | Foundry | [[TSMC]] (via Broadcom) |
 | Anthropic stake | $2B+ |
+| Long-term debt | $46.5B (4x in 2025) |
 | Short interest | **1.12%** (Jan 2026) |
 
-*Updated 2026-02-04 — Q4 2025 earnings*
+*Updated 2026-02-09 — bond issuance*
 
 ![[goog-price-chart.png]]
 
@@ -484,3 +508,6 @@ See [[Short interest]] for interpretation framework.
 - [[Demis Hassabis]] — DeepMind CEO
 - [[Tax Cuts and Jobs Act]] — ~$50B repatriation (2018)
 - [[Hyperscaler chip roadmap]] — TPU generational roadmap, custom silicon competition
+- [[Century Bond]] — 100-year sterling bond (Feb 2026), first tech century bond since Motorola 1997
+- [[Michael Burry]] — warned Alphabet century bond mirrors Motorola's 1997 decline
+- [[Morgan Stanley]] — estimates $400B hyperscaler issuance in 2026

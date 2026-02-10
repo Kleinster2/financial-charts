@@ -21,6 +21,30 @@ Lenovo's mobile arm:
 
 ---
 
+## 1997 century bond
+
+**Cautionary precedent for tech [[Century Bond|century bonds]]:**
+
+In 1997, Motorola issued a 100-year bond — the last tech company to do so until [[Google|Alphabet]] in Feb 2026. At the time:
+
+| Metric (1997) | Status |
+|----------------|--------|
+| Market cap rank | Top 25 in the US |
+| Revenue rank | Top 25 in the US |
+| Brand value | #1 in America (above [[Microsoft]]) |
+| Cell phone position | Global leader |
+
+**What happened next:**
+- 1998 — [[Nokia]] overtook Motorola in cellular market share
+- 2007 — [[Apple]] iPhone launched, obsoleted Motorola's portfolio
+- 2012 — Google acquired Motorola Mobility for $12.5B (mostly for patents)
+- 2014 — Google sold hardware to [[Lenovo]] for $2.9B
+- Today — 232nd by market cap, ~$11B revenue
+
+[[Michael Burry]] cited this trajectory in Feb 2026 when warning against Alphabet's planned century bond — tech dominance is fragile over 100-year timescales.
+
+---
+
 ## Ownership history
 
 | Owner | Period | Price |
@@ -147,6 +171,9 @@ Motorola = value alternative with foldable expertise.
 - [[Lenovo]] — parent company (acquired 2014)
 - [[CES 2026]] — Razr Fold, Signature unveil
 - [[Samsung]] — foldable competitor
-- [[Google]] — former owner, Pixel competitor
-- [[Apple]] — premium competitor
+- [[Google]] — former owner, Pixel competitor; Alphabet's 2026 century bond references Motorola 1997 precedent
+- [[Apple]] — premium competitor; iPhone destroyed Motorola's mobile relevance
+- [[Century Bond]] — 1997 century bond, cautionary case for tech 100-year debt
+- [[Michael Burry]] — cited Motorola's decline when warning against Alphabet's century bond
+- [[Nokia]] — overtook Motorola in cellular (1998)
 
