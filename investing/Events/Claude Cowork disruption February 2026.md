@@ -159,5 +159,7 @@ Catalysts cited: [[Anthropic]] Cowork plugins, [[Google DeepMind]] [[Genie 3]] (
 - [[Indian IT services]] — margin compression thesis
 - [[AI workflow disruption basket]] — tracks the victims
 - [[AI disruption]] — broader context
+- [[AI disintermediation]] — common thesis with insurance selloff
+- [[Insurify insurance broker selloff February 2026]] — parallel event one week later
 
 *Event date: February 3-4, 2026 · Updated 2026-02-07*

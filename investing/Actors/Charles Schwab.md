@@ -75,6 +75,7 @@ Schwab is the scale player in retail brokerage:
 - [[Fintech]] competition
 - Slow to innovate
 - [[Crypto]]/tokenization laggard
+- [[AI disintermediation]] — [[Altruist]] Hazel AI commoditizes tax planning/advisory, threatening fee model. SCHW fell 8.1% on Feb 10 launch.
 
 ---
 
@@ -110,4 +111,7 @@ Schwab is the scale player in retail brokerage:
 - [[Fidelity]] — peer
 - [[Interactive Brokers]] — peer
 - [[Citadel Securities]] — PFOF relationship
+- [[Altruist]] — disruptive custodian + AI platform competitor
+- [[AI disintermediation]] — threat to advisory fee model
+- [[Altruist wealth management selloff February 2026]] — SCHW -8.1%
 

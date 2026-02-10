@@ -66,6 +66,23 @@ Alphabet's planned sterling century bond (Feb 2026) is the first corporate entry
 
 ---
 
+## Embedded options on century bonds
+
+Century bonds carry standard IG embedded options, but the extreme maturity makes them behave differently:
+
+| Feature | Standard long bond | Century bond |
+|---------|-------------------|--------------|
+| Make-whole call | Moderately expensive | Essentially worthless to issuer at issuance — NPV of 100 years of coupons is prohibitive |
+| Par call date | 3-6 months before maturity | Critical question — if set at year 30-40, the century bond is really a callable long bond |
+| Duration sensitivity | High | Extreme — small rate changes produce outsized price moves |
+| Investor option value | Minimal | Zero (no put provisions in standard IG) |
+
+The par call date is the key embedded option on a century bond. If [[Google|Alphabet]] sets a par call at year 30, investors bear 100 years of credit risk but only get guaranteed duration through year 30. After that, if rates fall, Alphabet calls at par and investors face reinvestment risk. If rates rise, Alphabet lets the bond run and investors hold an underwater position for decades.
+
+This asymmetry means century bond investors are short a call option — they receive a higher coupon than a 30-year bond as compensation, but the option-adjusted spread (OAS) may be tighter than the nominal spread suggests. The Alphabet sterling century bond terms (including par call date) are not yet public — prospectus expected after pricing (~Feb 10).
+
+---
+
 ## Related
 
 - [[Google]] — $20B USD bond sale + sterling century bond (Feb 2026)

@@ -158,7 +158,8 @@ Competitive on NAND technology, but technology alone doesn't fix the business mo
 
 | Metric | Value |
 |--------|-------|
-| Status | Private |
+| Ticker | 285A.T (TYO) |
+| Status | Public (IPO Dec 2024) |
 | HQ | Tokyo, [[Japan]] |
 | Founded | 2017 (spun from Toshiba) |
 | Employees | ~15,000 |

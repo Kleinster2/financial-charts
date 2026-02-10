@@ -255,6 +255,7 @@ AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS
 - [[GS AI Productivity Beneficiaries]] — inverse basket (companies that benefit from same disruption)
 - [[UBS European AI Disruption Basket]] — closest Wall Street analog
 - [[GS US Software Basket]] — GS sector basket
+- [[AI financial disintermediation basket]] — companion basket (insurance brokers + wealth managers)
 - [[IGV]] — iShares software ETF proxy
 - [[BVP Nasdaq Cloud Index]] — SaaS benchmark
 - [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket

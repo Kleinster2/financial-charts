@@ -43,8 +43,11 @@ AI demand for HBM is cannibalizing commodity memory supply. Structural, not cycl
 | [[SK Hynix]] | HBM leader + DRAM pricing power |
 | [[Samsung]] | Memory margins improve |
 | [[Micron]] | Same dynamics |
+| [[Nanya Technology]] | DDR4 pricing inversion, +851% 1yr |
+| [[Winbond Electronics]] | Dual NOR + DDR4 exposure, +648% 1yr |
+| [[Macronix]] | NOR flash shortage, +383% 1yr |
 
-Memory profits fund other bets (foundry, packaging).
+Memory profits fund other bets (foundry, packaging). Taiwan specialty memory makers are the surprise beneficiaries — as Big Three exit commodity DRAM for [[HBM]], [[Nanya Technology]] and [[Winbond Electronics]] inherit DDR4 pricing power.
 
 ---
 
@@ -282,4 +285,7 @@ Sources: [DigiTimes](https://www.digitimes.com/news/a20260204PD210/market-dram-n
 - [[Qualcomm]] — victim (Q1 FY2026 guidance cut, OEMs cutting builds)
 - [[Export controls]] — driver ([[China]] fabs constrained)
 - [[Memory shortage victims]] — losers (OEMs, consumers)
+- [[Nanya Technology]] — beneficiary (DDR4 pricing inversion, Taiwan DRAM)
+- [[Winbond Electronics]] — beneficiary (dual NOR + DDR4 exposure)
+- [[Macronix]] — beneficiary (NOR flash shortage)
 - [[HBM]] — cause (HBM cannibalizes commodity DRAM)

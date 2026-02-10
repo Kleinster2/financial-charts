@@ -34,6 +34,33 @@ AI capex is now outpacing cash generation at most hyperscalers, forcing them int
 | Feb 10, 2026 (est.) | [[Google\|Alphabet]] | TBD | — | Sterling debut incl. [[Century Bond]] + Swiss franc debut |
 | TBD | [[Amazon]] | TBD | — | Filed regulatory notice signaling capital raise |
 
+### Alphabet Feb 9 USD tranches (detail)
+
+| Tranche | Amount | Coupon | Maturity | Spread |
+|---------|--------|--------|----------|--------|
+| 3-year | $2.5B | 3.700% | 2029 | T+27 |
+| 5-year | $3.0B | 4.100% | 2031 | — |
+| 7-year | $3.0B | 4.400% | 2033 | — |
+| 10-year | $4.25B | 4.800% | 2036 | — |
+| 20-year | $1.5B | 5.500% | 2046 | — |
+| 30-year | $4.0B | 5.650% | 2056 | — |
+| 40-year | $1.75B | 5.750% | 2066 | ~T+95 (from ~T+120) |
+
+### Embedded options
+
+Standard IG make-whole call expected across all hyperscaler deals (confirmed in prior Alphabet, Meta, Oracle prospectuses):
+
+| Feature | Detail |
+|---------|--------|
+| Make-whole call | Redeemable at any time at greater of par or NPV of remaining coupons (Treasury + spread) |
+| Par call date | Typically 3-6 months before maturity — after which issuer redeems at 100% |
+| Sinking fund | None |
+| Tax call | Par redemption if withholding obligations arise |
+
+For the sterling [[Century Bond]], the par call date is the key embedded option question. If set at year 30-40, the century bond effectively becomes a callable long bond — investors bear full duration risk without guaranteed duration reward. The make-whole call itself is essentially worthless to the issuer at issuance (too expensive to exercise on a 5.75%+ coupon in a ~4.5% rate environment).
+
+424B2 for the Feb 2026 USD deal expected after close (Feb 13). Sterling prospectus not yet available.
+
 ### Structured / project finance
 
 See [[AI infrastructure deals]] for SPV and [[GPU-as-collateral]] structures ([[xAI]] $20B, [[CoreWeave]] $18B, Crusoe-[[OpenAI]] $15B, [[BlackRock]] AIP $100B target).

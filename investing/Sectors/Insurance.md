@@ -80,8 +80,8 @@ See [[PE-insurance convergence]] for the thesis.
 |---------|-------|-----------|-------------|
 | [[Marsh McLennan]] | \#1 broker, reinsurance (Guy Carpenter) | ~$90B | $24.5B |
 | [[Aon]] | \#2 broker, analytics, ILS advisory | ~$75B | $15.7B |
-| Arthur J. Gallagher | \#4, middle market | ~$70B | ~$11B |
-| Willis Towers Watson | \#3, HR/benefits | ~$30B | ~$9B |
+| [[Arthur J. Gallagher]] | \#4, middle market | ~$70B | ~$11B |
+| [[Willis Towers Watson]] | \#3, HR/benefits | ~$30B | ~$9B |
 
 ---
 
@@ -156,6 +156,7 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 | **PBM scrutiny** | Regulatory risk | Health |
 | **Japan/Asia expansion** | KKR, Apollo tapping $5.8T pool | Life/annuity |
 | **Bermuda regulation** | BMA, IAIS reviewing PE-owned reinsurers | Life/annuity |
+| **[[AI disintermediation]]** | Insurify ChatGPT app → broker selloff (Feb 2026) | Brokers |
 
 ---
 
@@ -180,6 +181,8 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 - [[Brookfield]] — via [[American Equity]]
 - [[Drexel Burnham Lambert]] — origin of PE firms that now own insurers
 - [[Private Equity]] — sector hub for PE firms
+- [[AI disintermediation]] — AI disruption threat to broker layer
+- [[Insurify insurance broker selloff February 2026]] — Feb 2026 broker selloff
 
 ---
 
