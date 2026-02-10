@@ -130,3 +130,4 @@ All major players staying independent — AI value too high.
 - [[Cipher Mining]] — competitor, peer
 - [[NVIDIA]] — GPU supplier
 - [[Crypto-to-AI pivot]] — thesis context
+- [[Cadillac]] — Official Data Center Partner (F1 2026)
