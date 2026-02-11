@@ -24,9 +24,9 @@ The effective rate typically equals the target. BCB conducts open market operati
 
 | Date | Selic target |
 |------|--------------|
-| Jan 2026 | 12.25% |
+| Feb 2026 | 15.00% |
 
-COPOM raised rates through 2024-2025 cycle to combat inflation.
+COPOM hiked aggressively through 2024-2025 (10.75% → 15%) and is now holding. No easing imminent — COPOM signaling any future cuts will be cautious and data-dependent. Market consensus expects ~12% by year-end 2026, but election-year fiscal uncertainty clouds the path. See [[Brazil corporate bond rout February 2026]] for corporate impact.
 
 ---
 
@@ -110,7 +110,7 @@ Brazil's real rate (Selic minus inflation) among highest globally:
 
 | Country | Policy rate | Inflation | Real rate |
 |---------|-------------|-----------|-----------|
-| [[Brazil]] | 12.25% | ~5% | ~7% |
+| [[Brazil]] | 15.00% | ~4.3% | ~10.7% |
 | [[Mexico]] | 10.00% | ~4% | ~6% |
 | US | 4.50% | ~3% | ~1.5% |
 

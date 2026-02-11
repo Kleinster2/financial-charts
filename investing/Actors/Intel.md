@@ -259,6 +259,12 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 
 ---
 
+## Debt profile
+
+$47.2B face value (Dec 2025), fair value $41.8B (11.5% discount — credit deterioration). Rated BBB/Baa2 with Fitch negative outlook — two notches above junk, down from A+/A1 in 2022. Seven downgrades in under three years. Interest expense doubled from $496M (2022) to $1,034M (2024). Dividend suspended Q1 2025. See [[Intel bonds]] for full inventory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -270,8 +276,10 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 | HQ | Santa Clara, CA |
 | Model | IDM (design + fabs) |
 | Gross margin | 37.9% (Q4), 34.5% (Q1 guide) |
+| Long-term debt | $47.2B face (Dec 2025). See [[Intel bonds]] |
+| Credit rating | BBB/Baa2 (Fitch negative outlook) |
 
-*Updated 2026-01-29*
+*Updated 2026-02-10*
 
 ---
 
@@ -300,3 +308,4 @@ Intel's EMIB becoming a CoWoS alternative as TSMC capacity tightens:
 - [[Mobileye]] — subsidiary (ADAS)
 - [[CES 2026]] — Panther Lake (18A) launch
 - [[Lenovo]] — ThinkPad partner (Panther Lake)
+- [[Intel bonds]] — $47.2B bond inventory (BBB/Baa2, unprecedented downgrade trajectory)

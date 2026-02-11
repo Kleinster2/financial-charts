@@ -262,6 +262,12 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Debt profile
+
+$91.3B face value outstanding across 7 currencies (USD, EUR, GBP, AUD, CHF). Rated Aaa/AA+ — one of two Aaa-rated corporates (with [[Microsoft]]). Deleveraging from ~$118B peak (2021). No revolving credit facility. See [[Apple bonds]] for full inventory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -273,8 +279,9 @@ See [[Short interest]] for interpretation framework.
 | Gross margin | ~46% |
 | P/E | ~32x |
 | Cash position | ~$160B |
+| Long-term debt | $91.3B face (Sep 2025). See [[Apple bonds]] |
 | Short interest | **0.78%** (Jan 2026) |
-*Updated 2026-01-26*
+*Updated 2026-02-10*
 
 ![[aapl-price-chart.png]]
 
@@ -302,3 +309,4 @@ See [[Short interest]] for interpretation framework.
 - [[AI wearables]] — category
 - [[Q.ai]] — acquired Jan 2026 (~$2B) for silent speech tech
 - [[Aviad Maizels]] — Q.ai CEO, previously sold PrimeSense (Face ID)
+- [[Apple bonds]] — $91.3B bond inventory (Aaa/AA+)

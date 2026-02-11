@@ -274,6 +274,12 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Debt profile
+
+$68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rated AA/AA-/A1 (Moody's positive outlook). May 2021 $18.5B deal set record for lowest-ever corporate bond spread. New shelf registration (S-3ASR) filed Feb 2026 signaling more issuance. $30B CP program, $15B revolver, $5B short-term revolver — all undrawn. See [[Amazon bonds]] for full inventory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -287,9 +293,10 @@ See [[Short interest]] for interpretation framework.
 | AI capex (2025) | $131.8B |
 | **AI capex (2026 guided)** | **$200B** |
 | P/E | ~40x |
+| Long-term debt | $68.8B face (Dec 2025). See [[Amazon bonds]] |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-02-06 — Q4 2025 earnings*
+*Updated 2026-02-10*
 
 ## Related
 
@@ -314,3 +321,4 @@ See [[Short interest]] for interpretation framework.
 - [[Starlink]] — primary LEO broadband competitor
 - [[Blue Origin]] — Bezos-owned, Project LEO launch provider
 - [[Satellite primer]] — industry context
+- [[Amazon bonds]] — $68.8B bond inventory (AA, record-low spreads)

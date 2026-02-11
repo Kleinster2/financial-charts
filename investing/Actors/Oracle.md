@@ -197,6 +197,12 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ---
 
+## Debt profile
+
+~$133B pro forma face value (Feb 2026) — **largest non-financial IG issuer**. Rated BBB/Baa2 with negative outlooks (two notches above junk). $57B issued in 18 months (Sep 2024-Feb 2026) for AI infrastructure. Cash-flow negative at operating/capex level. See [[Oracle bonds]] for full inventory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -209,10 +215,12 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 | EPS (FY27E) | $7.95 |
 | Cloud revenue | ~$20B |
 | AI capex | $10B+ |
+| Long-term debt | ~$133B face (pro forma Feb 2026). See [[Oracle bonds]] |
+| Credit rating | BBB/Baa2 (negative outlook) |
 | Stargate role | JV partner |
 | xAI connection | Colossus on OCI |
 
-*Updated 2026-02-03 (layoff reports)*
+*Updated 2026-02-10*
 
 ![[orcl-price-chart.png]]
 
@@ -235,3 +243,4 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 - [[BYOP]] — power strategy context
 - [[AI hyperscalers]] — category (tier 2)
 - [[Tax Cuts and Jobs Act]] — ~$35B repatriation (2018)
+- [[Oracle bonds]] — ~$133B bond inventory (BBB/Baa2, largest non-financial IG issuer)

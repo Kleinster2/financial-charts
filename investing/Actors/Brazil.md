@@ -32,15 +32,17 @@ aliases: [Brasil, BRL, Brazilian]
 
 ---
 
-## Macro (Jan 2026)
+## Macro (Feb 2026)
 
 | Metric | Current | [[Target]]/Outlook |
 |--------|---------|----------------|
-| **Selic rate** | 15.00% | Easing expected early 2026 → ~11.5% by year-end |
+| **Selic rate** | 15.00% | COPOM holding — no easing imminent; market expects ~12% by year-end |
 | **[[Inflation]]** | 4.26% (Dec 2025) | [[Target]] 3% (±1.5pp tolerance) |
-| **GDP growth** | 3.2% avg (2022-24) | 2.0-2.2% (2025-27) |
+| **GDP growth** | 3.2% avg (2022-24) | 2.0-2.2% (2025-27), signs of cooling |
+| **Public debt/GDP** | ~78% | Rising; projected R$9.3-10.3T federal debt by year-end |
+| **10Y yield** | ~13.6% | Sticky risk premia, election-year uncertainty |
 
-**Macro story:** High rates constraining growth but anchoring inflation. Easing cycle expected to begin 2026.
+**Macro story:** 15% [[Selic]] crushing corporates — record bankruptcy filings, [[Raizen]] downgraded from investment grade to CCC in a single day (Feb 2026). [[Banco Central do Brasil]] holding firm despite political pressure. Easing timeline uncertain; 2026 presidential election reduces fiscal consolidation appetite. See [[Brazil corporate bond rout February 2026]].
 
 ---
 
@@ -106,10 +108,11 @@ aliases: [Brasil, BRL, Brazilian]
 - [[StoneCo]], [[Nubank]] competing with traditional banks
 - AI + [[WhatsApp]] payments emerging (Itaú, [[PicPay]])
 
-### Rate cycle
-- Selic at 15% — one of highest globally
-- Easing expected 2026
-- Growth stocks compressed; could re-rate on cuts
+### Rate cycle & corporate distress
+- [[Selic]] at 15% — highest in ~20 years, COPOM holding
+- Record 2,273 bankruptcy filings in 2024 (+62% YoY); 8.1M businesses with negative credit
+- [[Raizen]], [[CSN]] downgrades signal broader corporate stress — see [[Brazil corporate bond rout February 2026]]
+- Growth stocks compressed; could re-rate on eventual cuts, but timing uncertain
 
 ### China dependency
 - \#1 iron ore supplier ([[Vale]])
@@ -145,8 +148,9 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 
 | Risk | Impact |
 |------|--------|
-| Fiscal slippage | Debt concerns, inflation expectations unanchored |
-| Prolonged high rates | Growth stocks underperform |
+| Fiscal slippage | Debt ~78% GDP, interest payments potentially >60% of tax revenue |
+| Corporate distress spiral | 15% rates → defaults → fiscal pressure → harder to cut → doom loop risk |
+| Prolonged high rates | Growth stocks underperform, leveraged corporates restructure |
 | China slowdown | Commodity exports hit |
 | Political volatility | Policy uncertainty |
 | USD strength | BRL weakness, capital outflows |
@@ -165,6 +169,9 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 - [[Itaú Unibanco]] — \#1 LatAm bank, ~$80B mkt cap
 - [[Bradesco]] — \#2 Brazil, struggling with digital (-70% 5yr)
 - [[BTG Pactual]] — \#1 LatAm investment bank, Esteves
+
+### Events
+- [[Brazil corporate bond rout February 2026]] — [[Raizen]]/[[CSN]] downgrades, 15% [[Selic]] squeeze
 
 ### Concepts
 - [[Fintech boom (2020-2021)]] — Brazil fintechs caught in global cycle

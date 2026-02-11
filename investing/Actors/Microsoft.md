@@ -362,6 +362,12 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Debt profile
+
+$46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rated corporates (with [[Apple]]). **No new cash issuance since 2017** — only exchange offers and assumed Activision debt. Interest coverage ~80x. See [[Microsoft bonds]] for full inventory.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -382,6 +388,7 @@ See [[Short interest]] for interpretation framework.
 | Primary chip | [[NVIDIA]] GPUs |
 | Custom silicon | Maia 200 (AI inference, 3nm), Cobalt (CPU) |
 | Foundry exposure | [[TSMC]] |
+| Long-term debt | $46.2B face (Dec 2025). See [[Microsoft bonds]] |
 | Short interest | **0.65%** (Jan 2026) — lowest Mag 7 |
 
 **Headcount by function (FY25):**
@@ -421,3 +428,4 @@ See [[Short interest]] for interpretation framework.
 - [[AI datacenter architecture]] — Fairwater campus design
 - [[GPU deployment bottleneck]] — Satya's "can't plug in" quote
 - [[Tax Cuts and Jobs Act]] — ~$130B repatriation (2018)
+- [[Microsoft bonds]] — $46.2B bond inventory (AAA/Aaa, deleveraging)

@@ -327,6 +327,12 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 
 ---
 
+## Debt profile
+
+$59B face value across 20 tranches (Dec 2025) + $27.3B off-balance-sheet Hyperion SPV. Rated AA-/Aa3. Went from zero debt to $59B in 3.5 years. Net cash position ~$22.6B. See [[Meta bonds]] for full inventory.
+
+---
+
 ## $60B financing (Oct 2025)
 
 **Largest AI capital raise in history:**
@@ -378,9 +384,10 @@ See [[Short interest]] for interpretation framework.
 | 2025 AI M&A | ~$4B+ (Manus + Rivos) |
 | AI leads | Alexandr Wang + [[Nat Friedman]] |
 | Infra lead | Dina Powell McCormick (Jan 2026) |
+| Long-term debt | $59B face + $27.3B Hyperion SPV (Dec 2025). See [[Meta bonds]] |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-[[Tesla]] |
 
-*Updated 2026-02-06 — 6.6 GW nuclear announcement*
+*Updated 2026-02-10*
 
 ---
 
@@ -416,6 +423,9 @@ See [[Short interest]] for interpretation framework.
 - [[Blue Owl]] — Hyperion DC JV partner
 - [[Anduril]] — defense partnership (AI helmet, Jan 2026)
 - [[Corning]] — $6B fiber-optic deal for AI data centers (Jan 2026)
+
+### Debt
+- [[Meta bonds]] — $59B bond inventory (AA-/Aa3, zero to $59B in 3.5 years)
 
 ### Infrastructure
 - [[Edge Network Services]] — submarine cable subsidiary (20+ projects)
