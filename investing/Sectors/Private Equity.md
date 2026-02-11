@@ -95,6 +95,7 @@
 - [[Venture Capital]] — early-stage
 - [[Growth Equity]] — minority stakes
 - [[Leveraged Finance]] — PE debt
+- [[PE software talent drain]] — structural talent problem for PE-owned tech companies
 
 ---
 

@@ -24,6 +24,7 @@ Back-to-back downgrades of [[Raizen]] and [[CSN]] reignited fears of broader cor
 | Feb 4, 2026  | [[Raizen]] mulls debt haircut among restructuring options; hires advisers                  |
 | Feb 9, 2026  | Fitch slashes [[Raizen]] from BBB- to B, then B to CCC in same day                         |
 | Feb 10, 2026 | S&P and Moody's also cut [[Raizen]] to junk; broader bond rout                             |
+| Feb 11, 2026 | [[Raizen]] bondholders form creditor committee; hire [[White & Case]] as legal adviser      |
 
 ---
 
@@ -211,7 +212,23 @@ Five banks took combined R$20B (US$3.6B) loss in the [[Americanas]] Dec 2025 set
 | Unemployment | 7.8% → 13% | Less severe; labor market tighter |
 | Key difference | Actual recession + sovereign junk | Higher corporate filings but no recession; the pain is concentrated in balance sheets |
 
-Rate cuts expected from March 2026 (Focus consensus: [[Selic]] to ~12% by year-end; BofA: 11.25%). But the damage is already locked into balance sheets — the R$100B+ debt maturity wall in 2025-2026 means many companies cannot wait for relief.
+Rate cuts expected from March 2026 (Focus consensus: [[Selic]] to ~12% by year-end; BofA: 11.25%; BBVA: 11.50%). But the damage is already locked into balance sheets — the R$100B+ debt maturity wall in 2025-2026 means many companies cannot wait for relief.
+
+### Contagion channels
+
+The distress is spreading through three channels beyond direct bondholder losses:
+
+1. Primary market freeze — credit blowups are scuttling new corporate bond issuance. Companies scrapping or scaling down debt market plans because spreads have widened too far. This is the real contagion: healthy companies losing access to capital because distressed names have poisoned the market.
+
+2. Structured product spillover — [[Ambipar]] and [[Braskem]] collapses triggered early maturity clauses in COEs (Structured Transaction Certificates) sold by [[XP Inc]] and [[BTG Pactual]]. Retail investors lost up to 93% of capital. Brokerage clients eating losses on structured products referencing credits they may not have understood.
+
+3. Debt rollover ratio — Treasury debt rollovers running at ~140% of maturities (vs ~100% historical average). The government is crowding out corporate issuers by absorbing more capital market capacity, pushing corporate spreads wider.
+
+[[Vontobel]]'s framing: the stress is Brazil-specific, not EM-systemic. Idiosyncratic triggers ([[Banco Master]] collapse → [[Ambipar]], Chinese overcapacity → [[Braskem]], [[Selic]] squeeze → [[Raizen]]/[[CSN]]) rather than a macro contagion chain. Brazilian corporate bonds returned -5.3% average vs -0.6% for EM benchmark — significant underperformance but contained to Brazil. They see selective opportunity in credits where operating performance is intact but bonds are trading at distressed levels due to market-wide risk aversion.
+
+### Braskem update (Jan-Feb 2026)
+
+[[Braskem]] bonds stabilized in the 60-cent range (up from low 30s in Sep 2025). Company made coupon payments on Jan 12 and Jan 23 (hybrid bonds), easing immediate default fears. But hired [[Lazard]], [[Cleary Gottlieb]], and Munhoz to review capital structure — action plan expected within 4-6 weeks. Still rated CC by Fitch. Chinese petrochemical overcapacity is the structural driver; [[Selic]] squeeze is the accelerant.
 
 ---
 
@@ -391,5 +408,12 @@ Sources:
 - [Investing.com — Banco do Brasil Facing Record Agribusiness Default Levels](https://www.investing.com/news/stock-market-news/banco-do-brasil-facing-record-agribusiness-default-levels-ceo-says-4195703)
 - [Fitch — Brazilian Corporate Downgrades Could Accelerate (Jan 2025)](https://www.fitchratings.com/research/corporate-finance/brazilian-corporate-downgrades-could-accelerate-in-2025-amid-rate-hikes-15-01-2025)
 - [BNamericas — Record Bankruptcy Filings Expected in 2025](https://www.bnamericas.com/en/interviews/brazil-likely-to-see-a-record-number-of-bankruptcy-protection-requests-in-2025)
+- [Bloomberg — Raizen Bondholders Form Creditor Committee (Feb 11, 2026)](https://www.bloomberg.com/news/articles/2026-02-11/raizen-bondholders-form-creditor-committee-hire-legal-adviser)
+- [Bloomberg — Raizen Silence Led to S&P Rare 7-Notch Cut (Feb 11, 2026)](https://www.bloomberg.com/news/articles/2026-02-11/raizen-silence-on-debt-plans-rout-led-to-s-p-rare-7-notch-cut)
+- [Bloomberg Law — Credit Blowups Scuttling Corporate Bond Deals](https://news.bloomberglaw.com/bankruptcy-law/credit-blowups-in-brazil-are-scuttling-corporate-borrowing-plans)
+- [Vontobel — Brazil Credit: Stress and Opportunity](https://am.vontobel.com/en/insights/brazil-credit-stress-and-opportunity)
+- [CPG — Ambipar/Braskem Early Maturity Triggers COE Losses](https://en.clickpetroleoegas.com.br/queda-de-ambipar-e-braskem-aciona-clausula-de-vencimento-antecipado-e-faz-investidores-da-xp-e-btg-perderem-quase-tudo-btl96/)
+- [Bloomberg — Braskem Makes Coupon Payment Amid Debt Review (Jan 12, 2026)](https://www.bloomberg.com/news/articles/2026-01-12/braskem-makes-coupon-payment-amid-ongoing-review-of-debt-load)
+- [Bloomberg — Braskem Pays Hybrid Bond Interest (Jan 23, 2026)](https://www.bloomberg.com/news/articles/2026-01-23/braskem-makes-interest-payment-on-pandemic-era-hybrid-bonds)
 
-*Created 2026-02-10*
+*Created 2026-02-10. Updated 2026-02-11.*

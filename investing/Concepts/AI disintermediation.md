@@ -37,9 +37,21 @@ The middleman's margin is a function of complexity and opacity. AI reduces both.
 
 [[Altruist wealth management selloff February 2026|Altruist selloff]] — [[Altruist]]'s Hazel AI tax planning tool commoditized one of the highest-value advisory services. Wealth management stocks sold off: [[Raymond James]] -8.5%, [[LPL Financial]] -8.4%, [[Charles Schwab]] -8.1%, [[Stifel Financial]] -7.2%.
 
+### Week 2 continued: Financial data middlemen (Feb 11)
+
+**Dealogic/Mergermarket bonds hit by AI fears** — [[ION Group]]'s bonds — parent of financial data providers [[Dealogic]] and [[Mergermarket]] — sold off as AI tools threaten to replicate deal intelligence and M&A data products. Dealogic provides deal league tables, origination data, and analytics to the top 50 investment banks. Mergermarket provides predictive M&A intelligence. Both are classic information intermediaries. ION Group's leveraged debt structure makes it particularly vulnerable if revenue comes under pressure. The AI narrative complicates ION's planned refinancing of expensive private debt.
+
+### Week 2 continued: Industrial software (Feb 11)
+
+[[Dassault Systèmes]] crashed 18-21% after weak Q4 + soft 2026 guide — worst day in company history, ~€6B wiped. The biggest European SaaSpocalypse casualty. Down >50% over 12 months. JPMorgan: "worse than even the most negative had feared." Industrial software (CAD/PLM/simulation) faces the same AI replacement logic as legal/financial data software.
+
+### Week 2 continued: European wealth management (Feb 11)
+
+[[St. James's Place]] (UK's largest wealth manager, £220B FUM) sold off on AI disruption fears — the Altruist selloff pattern crossing the Atlantic. Not just SJP — [[Quilter]] (-5%), [[AJ Bell]] (-6.5%), [[Rathbones]] (-4%), and European peers [[DWS]], [[Julius Baer]], [[Swissquote]], [[FinecoBank]] all fell. Irony: SJP's actual FY2025 was strong (net inflows +42%, profits +40%, record FUM). Counter-thesis: UK regulatory moat + 94.9% retention.
+
 ### The common thread
 
-All three events hit the distribution/advisory layer, not the production/execution layer. SaaS companies that aggregate/present data got crushed; the underlying databases survived. Insurance brokers who compare/advise got crushed; the underwriters survived. Wealth managers got crushed; pure execution platforms like [[Interactive Brokers]] (IBKR, +15% YTD) were immune.
+All events hit the distribution/advisory/middleware layer, not the production/execution layer. SaaS companies that aggregate/present data got crushed; the underlying databases survived. Insurance brokers who compare/advise got crushed; the underwriters survived. Wealth managers got crushed; pure execution platforms like [[Interactive Brokers]] (IBKR, +15% YTD) were immune.
 
 ---
 
@@ -53,6 +65,9 @@ All three events hit the distribution/advisory layer, not the production/executi
 | Advertising | [[Omnicom]], [[Publicis]] | AI creates campaigns directly | Hit in SaaSpocalypse |
 | IT consulting | [[Infosys]], [[TCS]], [[Accenture]] | AI automates implementation work | Hit in SaaSpocalypse |
 | Real estate | Brokers/agents | AI comparison, virtual tours, automated transactions | Partial (Zillow/Redfin era) |
+| **Financial data** | [[Dealogic]], [[Mergermarket]], [[ION Group]] | AI replicates deal intel, M&A data, league tables | **Bond selloff (Feb 11)** |
+| **Industrial software** | [[Dassault Systèmes]], [[PTC]], [[Autodesk]] | AI generates 3D models, automates simulation/PLM | **DSY -18% (Feb 11)** |
+| **European wealth mgmt** | [[St. James's Place]], [[Quilter]], [[AJ Bell]], [[Rathbones]], [[Julius Baer]] | AI tax planning, portfolio construction | **Selloff (Feb 11)** |
 | Recruiting | Staffing agencies | AI matching, screening, outreach | Early stage |
 | Financial advisory | Wealth managers, RIAs | AI portfolio construction, tax optimization | Robo-advisors + AI agents |
 | Travel | OTAs, travel agents | AI trip planning, booking agents | Ongoing since 2000s |
@@ -108,6 +123,9 @@ Long the producers:
 | 2026 | Software/data middlemen | [[Anthropic]] Cowork | -$611B in one week |
 | 2026 | Insurance brokers | [[Insurify]] / ChatGPT | S&P Insurance -3.9% in one day |
 | 2026 | Wealth managers | [[Altruist]] Hazel AI | SCHW -8%, RJF -8.5% in one day |
+| 2026 | Financial data providers | AI deal intel tools | [[ION Group]] bonds sell off (Feb 11) |
+| 2026 | Industrial software | AI CAD/PLM/simulation | [[Dassault Systèmes]] -18% (Feb 11) |
+| 2026 | European wealth mgmt | [[Altruist]] Hazel AI contagion | [[St. James's Place]] selloff (Feb 11) |
 
 Each wave follows the same arc: technology makes comparison free → incumbents lose pricing power → margins compress → industry consolidates.
 
@@ -128,6 +146,8 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 - [[Insurify insurance broker selloff February 2026]] — insurance disintermediation event
 - [[AI workflow disruption basket]] — tracks SaaS/data victims
 - [[AI financial disintermediation basket]] — tracks insurance broker + wealth management victims
+- [[Alternative asset managers basket]] — control group (sold off in Wave 1, recovered — not real intermediaries)
+- [[PE software talent drain]] — structural reason PE software portfolios can't respond to AI disruption
 - [[Hyperscaler disintermediation]] — related concept (infrastructure layer)
 - [[Anthropic]] — Cowork plugins triggered SaaS selloff
 - [[OpenAI]] — ChatGPT app directory enabled insurance disruption
@@ -139,4 +159,14 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 - [[Thomson Reuters]] — exemplar SaaS victim
 - [[Willis Towers Watson]] — exemplar broker victim
 
-*Created 2026-02-10*
+- [[ION Group]] — Dealogic/Mergermarket parent, bonds hit by AI fears
+- [[Dealogic]] — financial data provider (deal league tables, origination data)
+- [[Mergermarket]] — M&A intelligence provider
+- [[Dassault Systèmes]] — industrial software victim (-18%, Feb 11, biggest European casualty)
+- [[St. James's Place]] — UK wealth manager, AI fears contagion from Altruist selloff
+- [[Quilter]] — UK wealth manager (-5%, Feb 11)
+- [[AJ Bell]] — UK investment platform (-6.5%, Feb 11)
+- [[Rathbones]] — UK wealth manager (-4%, Feb 11)
+- [[Julius Baer]] — Swiss private bank, hit by contagion
+
+*Updated 2026-02-11 — Added European wealth management contagion (Quilter, AJ Bell, Rathbones, Julius Baer)*

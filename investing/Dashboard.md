@@ -42,3 +42,6 @@
 
 ![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png]]
 *[[XLK]] · [[XLF]] · [[XLE]] · [[XLV]] · [[XLI]] · [[XLY]] · [[XLP]] · [[XLU]] · [[XLRE]] · [[XLB]] · [[XLC]]*
+
+![[vgt-vs-xlk-price-chart.png]]
+*[[VGT]] · [[XLK]] · S&P Info Tech — VGT tracks the index more faithfully than XLK due to GICS classification gaps*

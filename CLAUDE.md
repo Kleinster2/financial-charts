@@ -311,6 +311,7 @@ The bar: would a reader benefit from a dedicated note explaining this term and l
 ### Key Rules
 
 - **Deep research before creating** — web search, multiple sources, hard data
+- **Harvest source charts** — when researching, if source articles contain useful charts or visualizations (bond prices, market data, analyst graphics), save them to `investing/attachments/` and show them to the user. Embed in the relevant note with attribution.
 - **No info outside note** — all research findings go in the note, not just conversation
 - **Everything linked** — every entity gets a `[[wikilink]]`
 - **Numbers matter** — exact figures with sources, not "significant"

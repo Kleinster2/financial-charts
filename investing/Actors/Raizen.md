@@ -5,7 +5,7 @@ aliases: [Raizen SA, RAIZ4, Raizen Energia]
 
 # Raizen
 
-World's largest sugarcane ethanol producer — JV between [[Shell]] (44%) and [[Cosan]] (44%), with ~12% public float (IPO'd 2021). Operates 24 mills across sugar, ethanol, power generation, and [[Shell]]-branded fuel distribution in [[Brazil]] and Argentina. Pioneer in second-generation cellulosic ethanol. Ticker: RAIZ4 on [[B3]].
+World's largest sugarcane [[ethanol]] producer — JV between [[Shell]] (44%) and [[Cosan]] (44%), with ~12% public float (IPO'd 2021). Operates 24 mills across sugar, ethanol, power generation, and [[Shell]]-branded fuel distribution in Brazil and Argentina. Pioneer in second-generation cellulosic ethanol. Ticker: RAIZ4 on [[B3]].
 
 ---
 
@@ -43,23 +43,23 @@ Stock below [[B3]]'s R$1 minimum price threshold since October — must recover 
 
 ## Business segments
 
-| Segment | Scale |
-|---------|-------|
-| Ethanol | 24 mills, ~73.5Mt crushing capacity, >2.2B US gallons/yr; world's largest |
-| Sugar | 11.3Mt (FY22/23) |
-| Fuel distribution | 7,000+ [[Shell]]-branded stations (Brazil + Argentina); 2nd largest distributor in Brazil; 31B liters/yr |
-| Power generation | 1.3 GW biomass, 2.1 TWh/yr; largest biomass power producer in Brazil |
-| E2G (cellulosic ethanol) | Bonfim plant (world's largest E2G facility), 82M liters/yr capacity; target 440M liters/yr |
+| Segment                  | Scale                                                                                                    |
+| ------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Ethanol                  | 24 mills, ~73.5Mt crushing capacity, >2.2B US gallons/yr; world's largest                                |
+| Sugar                    | 11.3Mt (FY22/23)                                                                                         |
+| Fuel distribution        | 7,000+ [[Shell]]-branded stations (Brazil + Argentina); 2nd largest distributor in Brazil; 31B liters/yr |
+| Power generation         | 1.3 GW biomass, 2.1 TWh/yr; largest biomass power producer in Brazil                                     |
+| E2G (cellulosic ethanol) | Bonfim plant (world's largest E2G facility), 82M liters/yr capacity; target 440M liters/yr               |
 
 ---
 
 ## Rating collapse
 
-| Agency | Pre-crisis | Final (Feb 9-10) | Notches dropped |
-|--------|-----------|-------------------|-----------------|
-| Fitch | BBB (Jun 2024) | CCC | 10 |
-| S&P | BBB (Jan 2025) | CCC+ | 8 |
-| Moody's | Baa3 | Caa1 | 9 |
+| Agency            | Pre-crisis     | Final (Feb 9-10) | Notches dropped |
+| ----------------- | -------------- | ---------------- | --------------- |
+| [[Fitch Ratings]] | BBB (Jun 2024) | CCC              | 10              |
+| [[S&P Global]]    | BBB (Jan 2025) | CCC+             | 8               |
+| [[Moody's]]       | Baa3           | Caa1             | 9               |
 
 Fitch timeline: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B (morning Feb 9) → CCC (evening Feb 9). Trigger: "failure of shareholders to execute a material capital injection."
 
@@ -75,6 +75,9 @@ Fitch timeline: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B 
 | Jan 2035 | 5.70% | $1,000M | 68.25 cents (YTW 11.90%) |
 | 2037 | 6.70% | $1,000M | |
 | Mar 2054 | 6.95% | $1,250M | 62.875 cents (-30% in 2 days, Oct 2025) |
+
+![[raizen-dollar-bonds-bondbloX.png]]
+*Jun-Oct 2025: 2034, 2035, and 2054 bonds traded near par until the Oct crash — 2054s fell from 97 to 80 in two days. Source: [[BondbloX]].*
 
 Forced selling: institutional investors mandated to hold only investment-grade paper are now forced sellers.
 
@@ -96,6 +99,7 @@ Forced selling: institutional investors mandated to hold only investment-grade p
 | [[Raizen]] | [[Rothschild]], [[Citigroup]], [[Pinheiro Neto]], [[Cleary Gottlieb]] |
 | [[Cosan]]  | [[Itaú BBA]]                                                          |
 | [[Shell]]  | [[Lazard]]                                                            |
+| Bondholders | [[White & Case]] (creditor committee formed Feb 11, 2026)            |
 
 ### Options under discussion
 

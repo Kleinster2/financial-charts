@@ -116,6 +116,7 @@ Watch for:
 ## Related
 
 - [[AI workflow disruption basket]] — companion basket (software/data victims)
+- [[Alternative asset managers basket]] — control group (sold off in Wave 1 as collateral damage, then recovered)
 - [[AI disintermediation]] — thesis driving both baskets
 - [[Insurify insurance broker selloff February 2026]] — insurance catalyst (Feb 9)
 - [[Altruist wealth management selloff February 2026]] — wealth management catalyst (Feb 10)

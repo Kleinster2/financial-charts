@@ -64,6 +64,9 @@ Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu
 
 ## Key events
 
+- **Record January 2026 sales** (reported Feb 10-11, 2026) — NT$401.3B (~$12.7B), +37% YoY, +20% MoM. Highest monthly sales in company history. HPC now 58% of revenue. Signals AI chip demand accelerating, not plateauing.
+- **A16 "Angstrom Era"** (Feb 2026) — TSMC's 1.6nm-class A16 process enters mass production late 2026. Introduces backside power delivery — radical re-architecting of how power reaches transistors. First confirmed partner: [[NVIDIA]] Feynman GPU architecture. Semiconductor industry crosses from nanometer to sub-nanometer scale.
+- **NVIDIA poised to overtake Apple** — Reports suggest [[NVIDIA]] will surpass [[Apple]] as TSMC's largest customer by revenue in 2026, reflecting AI GPU dominance.
 - **Japan 3nm production** (Feb 5, 2026) — TSMC announced it will manufacture **3nm AI semiconductors** at Kumamoto Fab 2 in Japan. First advanced node production outside [[Taiwan]]/Arizona. Validates [[Japan]] as AI semiconductor hub.
 - **US-[[Taiwan]] trade deal + Section 232** (Jan 14-15, 2026) — Part of [[US-Taiwan relations]] breakthrough. 25% Section 232 tariff on advanced AI chips (H200, MI325X) took effect Jan 15. In exchange, TSMC gets **"preferential Section 232 treatment"** — duty-free imports at ratios tied to US investment milestones. $500B total [[Taiwan]] chip investment framework ($250B direct + $250B credit guarantees). Tariffs cut to 15% for [[Taiwan]]. TSMC bought hundreds of acres adjacent to Arizona site for potential Phase 4+ expansion. Commits to **4+ more US fabs** (~$100B additional capex). The more TSMC builds in US, the less it pays — tariffs as industrial policy tools.
 - **Lutnick 100% tariff threat** (Jan 17, 2026) — [[Howard Lutnick]] warns [[Taiwan]]/Korea chipmakers face 100% tariffs unless they build in US. "That's industrial policy." Quota relief during construction (2.5x capacity tariff-free), falling to 1.5x post-production.
@@ -95,7 +98,7 @@ Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu
 | **FY2025 revenue** | **>$100B** (first time) |
 | **Short interest** | **0.5%** of float (Jan 2026) |
 
-*Updated 2026-02-06 — Japan 3nm announcement*
+*Updated 2026-02-11 — Record Jan sales, A16/Feynman*
 
 ![[tsm-price-chart.png]]
 *TSM price history*

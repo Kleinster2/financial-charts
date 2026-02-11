@@ -3,7 +3,7 @@ aliases: [GFS, GloFo]
 ---
 #actor #foundry #usa
 
-**GlobalFoundries** — Third-largest foundry globally. Spun off from AMD (2009). Focus on mature/specialty nodes (12nm+) — automotive, RF, IoT. Mubadala-controlled, US fabs.
+GlobalFoundries — Third-largest foundry globally. Spun off from AMD (2009). Focus on mature/specialty nodes (12nm+) — automotive, RF, IoT. Mubadala-controlled, US fabs.
 
 ---
 
@@ -22,7 +22,7 @@ GF occupies a strategic niche between leading-edge and commodity:
 
 ## Strategic decision: exit leading edge (2018)
 
-**Pivotal choice:**
+Pivotal choice:
 
 | Decision | Rationale |
 |----------|-----------|
@@ -37,7 +37,7 @@ Avoided the Samsung trap of bleeding cash on leading-edge race.
 
 ## Product portfolio
 
-**Specialty processes:**
+Specialty processes:
 
 | Technology | Applications |
 |------------|--------------|
@@ -57,7 +57,7 @@ Avoided the Samsung trap of bleeding cash on leading-edge race.
 | Dresden, [[Germany]] | 22nm-28nm | Former AMD fab |
 | Singapore | 40nm-65nm | Acquired from Chartered |
 
-**US fab = geopolitical asset** — DoD supplier, CHIPS Act beneficiary.
+US fab = geopolitical asset — DoD supplier, CHIPS Act beneficiary.
 
 ---
 
@@ -78,7 +78,7 @@ Auto and RF are core verticals.
 
 ## [[Automotive]] focus
 
-**Sweet spot for auto semis:**
+Sweet spot for auto semis:
 
 | Advantage | Details |
 |-----------|---------|
@@ -93,7 +93,7 @@ Competes with tower Semiconductor, UMC, SMIC on mature auto nodes.
 
 ## CHIPS Act funding
 
-**US government support:**
+US government support:
 
 | Award | Details |
 |-------|---------|
@@ -120,7 +120,7 @@ GF is a key beneficiary of US reshoring push.
 
 ## Mubadala ownership
 
-**Abu Dhabi sovereign wealth:**
+Abu Dhabi sovereign wealth:
 
 | Metric | Value |
 |--------|-------|
@@ -149,18 +149,46 @@ Mubadala provides patient capital — not forcing leading-edge race.
 
 ## Investment implications
 
-**Bull case:**
+Bull case:
 - Specialty node leader
 - US fab = geopolitical premium
 - CHIPS Act beneficiary
 - [[Automotive]] secular growth
 - Less cyclical than leading-edge
 
-**Bear case:**
+Bear case:
 - Low float, Mubadala control
 - Margin pressure from UMC, SMIC
 - No leading-edge upside
 - Auto semi cycle exposure
+
+---
+
+## Q4 2025 earnings (Feb 11, 2026)
+
+Solid beat, strategic acquisitions, $500M buyback:
+
+| Metric | Q4 2025 | Notes |
+|--------|---------|-------|
+| Revenue | $1,830M | At/above high end of guide |
+| Gross margin | 27.8% / 29.0% (non-IFRS) | +400bps YoY (non-IFRS) |
+| Net income | $200M | — |
+| Non-IFRS EPS | $0.55 | — |
+| Adj EBITDA | $641M | — |
+| Adj FCF | $264M | — |
+
+FY2025: Revenue $6.79B, net income $888M, adj FCF $1.16B.
+
+Acquisitions:
+- [[Advanced Micro Foundry]] — acquired
+- Infinilink — acquired
+- [[Synopsys]] ARC Processor IP — definitive agreement. Will integrate with [[MIPS]] (GFS company) for comprehensive processor IP suite targeting physical AI. Expected close H2 2026.
+
+Capital return: $500M share repurchase authorized (12 months).
+
+Q1 2026 guide: Revenue $1,625M ± $25M (seasonal decline). IFRS diluted EPS ~$0.23 ± $0.05.
+
+Stock -3.7% — market may have wanted stronger forward guide.
 
 ---
 
@@ -170,13 +198,13 @@ Mubadala provides patient capital — not forcing leading-edge race.
 |--------|-------|
 | Ticker | GFS |
 | Market cap | ~$25B |
-| Revenue | ~$7B |
+| Revenue | $6.79B (FY2025) |
 | Position | \#3 foundry |
 | Nodes | 12nm+ (mature) |
 | US fab | Malta, NY |
 | Owner | Mubadala (~85%) |
 
-*Updated 2026-01-04*
+*Updated 2026-02-11*
 
 ---
 
@@ -194,3 +222,5 @@ Mubadala provides patient capital — not forcing leading-edge race.
 - [[Infineon]] — customer (specialty)
 - [[Automotive semiconductors]] — key market
 - [[Taiwan concentration risk]] — GF as hedge
+- [[Synopsys]] — acquiring ARC Processor IP (2026)
+- [[MIPS]] — GFS company, integrating ARC IP
