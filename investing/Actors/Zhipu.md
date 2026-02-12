@@ -3,7 +3,7 @@ aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI, 2513.HK]
 ---
 #actor #ai #china #models #public
 
-**Zhipu** — Chinese AI model company. **First major Chinese AI startup to IPO** (Jan 8, 2026). Hong Kong listed.
+Zhipu — Chinese AI model company. First major Chinese AI startup to IPO (Jan 8, 2026). Hong Kong listed.
 
 ![[zhipu-price-chart.png]]
 *IPO'd at HK$116.20 (Jan 8), peaked HK$250 (+115%) mid-month, now trading HK$233 (+100% from IPO).*
@@ -22,52 +22,63 @@ First Chinese AI lab to go public:
 | IPO date | January 8, 2026 |
 | Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
 
-**Tang Jie on US gap (Jan 2026):** "The real answer is that the gap may actually be widening."
+Tang Jie on US gap (Jan 2026): "The real answer is that the gap may actually be widening."
 
 ---
 
 ## Product: GLM models
 
-**ChatGLM series:**
-- Open-source foundation models
-- Bilingual (Chinese/English)
-- Competing with [[ChatGPT]], [[Ernie]], [[Qwen]]
-- Enterprise API available
+ChatGLM series — open-source foundation models, bilingual (Chinese/English).
 
-Part of [[China]]'s "rising stars" in AI alongside Moonshot, MiniMax.
+### GLM-5 (Feb 11, 2026)
+
+| Metric | GLM-5 | GLM-4.7 |
+|--------|-------|---------|
+| Parameters | 744B | 355B |
+| Training data | 28.5T tokens | — |
+| Architecture | DeepSeek Sparse Attention | — |
+| License | Open-source | — |
+
+Claims industry-leading scores for open models in coding and agentic tasks, surpassing [[Google]] DeepMind's Gemini 3 Pro on internal benchmarks. Still lags [[Claude]] on coding.
+
+Milestone: trained GLM-Image entirely on [[Huawei]] Ascend chips — first Chinese AI company to train a major model fully on domestic silicon. [[DeepSeek]] has struggled with Huawei hardware.
+
+Stock up >50% in the week following launch + JPMorgan coverage initiation.
+
+Competing with [[ChatGPT]], [[Ernie]], [[Qwen]], [[DeepSeek]]. Enterprise API available. Part of [[China]]'s "rising stars" alongside Moonshot, MiniMax.
 
 ---
 
 ## Hong Kong IPO (Jan 8, 2026)
 
-**First major Chinese AI startup to IPO** — beat [[OpenAI]] and [[Anthropic]] to public markets.
+First major Chinese AI startup to IPO — beat [[OpenAI]] and [[Anthropic]] to public markets.
 
 | Metric | Value |
 |--------|-------|
 | IPO size | $558M |
 | IPO price | HK$116.20 |
 | First day close | HK$131.50 (+13.2%) |
-| Post-debut (Jan 10) | **+36%** from IPO price |
+| Post-debut (Jan 10) | +36% from IPO price |
 | Valuation | $7.4B |
-| Retail subscription | **1,159x oversubscribed** |
+| Retail subscription | 1,159x oversubscribed |
 
-**Use of proceeds:** 70% to R&D for general-purpose AI models.
+Use of proceeds: 70% to R&D for general-purpose AI models.
 
-**Investors (pre-IPO):** Alibaba, [[Tencent]], [[Meituan]], [[Xiaomi]], [[Saudi Aramco]], Prosperity7
+Investors (pre-IPO): Alibaba, [[Tencent]], [[Meituan]], [[Xiaomi]], [[Saudi Aramco]], Prosperity7
 
 Part of wave of Chinese AI/chip firms listing in HK:
 
 | Company | Date | Performance |
 |---------|------|-------------|
 | [[Biren Tech]] | Jan 3 | +76% |
-| **Zhipu** | Jan 8 | +13.2% |
+| Zhipu | Jan 8 | +13.2% |
 | [[MiniMax]] | Jan 9 | — |
 
 ---
 
 ## Competitive position
 
-**[[China]] AI labs:**
+[[China]] AI labs:
 
 | Company | Backing | Model |
 |---------|---------|-------|
@@ -75,7 +86,7 @@ Part of wave of Chinese AI/chip firms listing in HK:
 | [[Alibaba]] | Alibaba Group | [[Qwen]] |
 | [[ByteDance]] | ByteDance | [[Doubao]] |
 | [[Baidu]] | Baidu | [[Ernie]] |
-| **Zhipu** | Independent | GLM |
+| Zhipu | Independent | GLM |
 | [[MiniMax]] | Independent | Various |
 | Moonshot | VC-backed | Kimi |
 
@@ -83,19 +94,19 @@ Part of wave of Chinese AI/chip firms listing in HK:
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Leading [[China]] AI lab
 - HK listing = international capital
 - [[China]] AI demand growing
 - Model performance improving
 
-**Bear:**
+Bear:
 - Crowded market (many [[China]] AI labs)
 - DeepSeek efficiency shock pressures pricing
 - Profitability unclear
 - Export control risk on compute access
 
-**M&A angle (Jan 2026):** Bloomberg Opinion (Parmy Olson) named Zhipu and Moonshot AI as potential US acquisition targets for Alphabet or [[Microsoft]]. However, HK IPO makes outright acquisition less likely than if still private. See [[AI consolidation]].
+M&A angle (Jan 2026): Bloomberg Opinion (Parmy Olson) named Zhipu and Moonshot AI as potential US acquisition targets for Alphabet or [[Microsoft]]. However, HK IPO makes outright acquisition less likely than if still private. See [[AI consolidation]].
 
 ---
 
@@ -125,14 +136,14 @@ Part of wave of Chinese AI/chip firms listing in HK:
 | HQ | Beijing |
 | Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
 
-*Updated 2026-01-27*
+*Updated 2026-02-11*
 
 ---
 
 ## Related
 
 ### Products
-- [[GLM]] — AI model (GLM-4.7, $3/mo coding)
+- [[GLM]] — AI model family (GLM-5: 744B params, Feb 2026)
 
 ### Competitors/Peers
 - [[MiniMax]] — peer (HK IPO same week)

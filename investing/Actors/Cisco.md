@@ -3,7 +3,7 @@ aliases: [CSCO]
 ---
 #actor #semiconductor #networking #usa #public
 
-**Cisco** — Legacy networking giant. Playing catch-up in AI data centers. Acquiring Splunk.
+Cisco — Legacy networking giant. Playing catch-up in AI data centers. Acquiring Splunk.
 
 ---
 
@@ -15,7 +15,7 @@ Largest networking company, AI pivot:
 |--------|-------|
 | Ticker | CSCO |
 | Market cap | ~$230B |
-| Revenue | ~$55B |
+| Revenue | ~$61B (FY2026 guide) |
 | Dividend yield | ~3% |
 | Focus | Enterprise networking |
 
@@ -60,11 +60,22 @@ Largest networking company, AI pivot:
 
 ## AI data center push
 
-**Late but big:**
-- Silicon One custom ASICs
-- 400G/800G switches
-- AI networking fabric
-- Competing with Arista
+### Silicon One G300 (Feb 10, 2026)
+
+| Spec | Value |
+|------|-------|
+| Throughput | 102.4 Tbps |
+| Process | [[TSMC]] 3nm |
+| Cooling | 100% liquid option (~70% energy improvement) |
+| GPU utilization | +28% job completion time |
+| Network utilization | +33% |
+| Availability | H2 2026 |
+
+Unveiled at Cisco Live EMEA (Amsterdam). Targets gigawatt-scale AI clusters. "Shock absorber" features handle traffic spikes. Competing with [[NVIDIA]] (networking in Vera Rubin), [[Broadcom]] (Tomahawk), and [[Arista Networks]] for the $600B AI infrastructure spend.
+
+### Q2 FY2026 AI orders
+
+Hyperscaler AI infrastructure orders hit $2.1B in the quarter, with networking product orders accelerating to >20% YoY. This is Cisco's most credible signal yet of regaining AI share.
 
 ---
 
@@ -76,7 +87,7 @@ Cisco held ~$70B overseas pre-[[Tax Cuts and Jobs Act]]. Repatriated $67B and de
 
 ## Splunk acquisition
 
-**$28B deal (2024):**
+$28B deal (2024):
 - Observability/security
 - Recurring revenue
 - Enterprise software
@@ -110,14 +121,14 @@ Legacy strength, AI weakness.
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Massive installed base
 - Enterprise relationships
 - Splunk recurring revenue
 - Dividend income
 - AI catch-up potential
 
-**Bear:**
+Bear:
 - Lost hyperscaler AI race
 - Arista/NVIDIA ahead
 - Legacy business declining
@@ -134,7 +145,7 @@ Legacy strength, AI weakness.
 | Dividend | ~3% yield |
 | Focus | Enterprise networking |
 
-*Updated 2026-01-01*
+*Updated 2026-02-11*
 
 ---
 

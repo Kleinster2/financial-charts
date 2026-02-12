@@ -3,7 +3,7 @@ aliases: [NBIS, Nebius Group]
 ---
 #actor #ai #cloud #infrastructure #public
 
-**Nebius** — AI cloud infrastructure company spun out of Yandex. NASDAQ-listed. GPU cloud competing with CoreWeave, Lambda Labs. European/international focus.
+Nebius — AI cloud infrastructure company spun out of Yandex. NASDAQ-listed. GPU cloud competing with CoreWeave, Lambda Labs. European/international focus.
 
 ---
 
@@ -21,7 +21,7 @@ aliases: [NBIS, Nebius Group]
 
 ## Yandex spinoff
 
-**Post-sanctions restructuring:**
+Post-sanctions restructuring:
 
 | Timeline | Event |
 |----------|-------|
@@ -30,13 +30,13 @@ aliases: [NBIS, Nebius Group]
 | 2024 | Nebius spun out as international AI infra |
 | 2024 | NASDAQ listing (NBIS) |
 
-**Clean break:** Nebius has no Russia operations — fully divested to comply with sanctions.
+Clean break: Nebius has no Russia operations — fully divested to comply with sanctions.
 
 ---
 
 ## Business model
 
-**GPU cloud for AI:**
+GPU cloud for AI:
 
 | Service | Description |
 |---------|-------------|
@@ -45,7 +45,7 @@ aliases: [NBIS, Nebius Group]
 | Data services | Labeling, annotation (Toloka) |
 | Self-driving | Avride autonomous vehicle unit |
 
-**Customers:** AI startups, enterprises needing GPU compute without hyperscaler lock-in.
+Customers: AI startups, enterprises needing GPU compute without hyperscaler lock-in.
 
 ---
 
@@ -53,18 +53,18 @@ aliases: [NBIS, Nebius Group]
 
 | Player | Positioning |
 |--------|-------------|
-| **Nebius** | European AI cloud, Yandex tech heritage |
+| Nebius | European AI cloud, Yandex tech heritage |
 | [[CoreWeave]] | US GPU cloud leader |
 | [[Lambda Labs]] | Developer-focused GPU cloud |
 | AWS/Azure/GCP | Hyperscalers (more expensive, more services) |
 
-**Differentiation:** European presence, competitive pricing, Yandex ML expertise.
+Differentiation: European presence, competitive pricing, Yandex ML expertise.
 
 ---
 
 ## Data center buildout
 
-**Expanding GPU capacity:**
+Expanding GPU capacity:
 - Finland data center (Nordic cooling advantage)
 - European expansion
 - NVIDIA GPU procurement
@@ -74,7 +74,7 @@ aliases: [NBIS, Nebius Group]
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Pure-play AI infrastructure
 - European market opportunity
 - Yandex technical talent
@@ -82,7 +82,7 @@ aliases: [NBIS, Nebius Group]
 - Not hyperscaler-locked
 - Public (unlike CoreWeave until recently)
 
-**Bear:**
+Bear:
 - Yandex association (reputational)
 - Competing vs well-funded CoreWeave
 - Hyperscalers have more resources
@@ -93,7 +93,7 @@ aliases: [NBIS, Nebius Group]
 
 ## [[Microsoft]] deal (Sept 2025)
 
-Stock soared ~50% on announcement of deal worth up to **$19.4B**.
+Stock soared ~50% on announcement of deal worth up to $19.4B.
 
 ---
 
@@ -101,13 +101,23 @@ Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 
 | Detail | Value |
 |--------|-------|
-| Net worth | **$2.6B** (Bloomberg, Nov 2025) |
+| Net worth | $2.6B (Bloomberg, Nov 2025) |
 | Background | Yandex founder |
 | Born | Soviet Union, 1964 |
 | Moved to | Tel Aviv (pre-invasion) |
 | [[EU]] sanctions | Applied 2022, lifted 2024 |
 
-**2023 statement:** Called Russia's actions in Ukraine "barbaric." Sanctions lifted after full Russia divestiture.
+2023 statement: Called Russia's actions in Ukraine "barbaric." Sanctions lifted after full Russia divestiture.
+
+---
+
+## Tavily acquisition (Feb 10, 2026)
+
+Acquired [[Tavily]] for $275M ($400M with earnout) — agentic search company enabling LLMs to retrieve real-time data. 3M+ monthly SDK downloads, 1M+ developer community, Fortune 500 clients including [[IBM]]. Founded 2024, raised only $25M prior.
+
+Complements Nebius Token Factory (inference) with real-time web access for factual accuracy. CEO Rotem Weiss joining Nebius, brand continues independently.
+
+Agentic AI market projected $7B (2025) → $140-200B (early 2030s).
 
 ---
 
@@ -131,4 +141,5 @@ Stock soared ~50% on announcement of deal worth up to **$19.4B**.
 - [[NVIDIA]] — GPU supplier
 - [[NVIDIA alternatives]] — ecosystem context
 - [[Russia]] — origin (divested)
+- [[Tavily]] — acquired (Feb 2026, $275M, agentic search)
 

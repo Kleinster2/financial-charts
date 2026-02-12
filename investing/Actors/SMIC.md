@@ -24,9 +24,9 @@ SMIC is the test case for [[China]]'s semiconductor independence:
 | 7nm (N+2) | Production | Multi-patterning DUV (no EUV) |
 | 5nm | R&D | Extreme multi-patterning, low yields |
 
-**7nm achievement**: Using 4-5x more DUV exposures than normal. Higher cost, lower yields, but functional. Kirin 9000S proves viability.
+7nm achievement: Using 4-5x more DUV exposures than normal. Higher cost, lower yields, but functional. Kirin 9000S proves viability.
 
-**[[Gap]] to TSMC**: 4-5 years behind. TSMC at N3/N2, SMIC struggling with reliable 7nm.
+[[Gap]] to TSMC: 4-5 years behind. TSMC at N3/N2, SMIC struggling with reliable 7nm.
 
 ---
 
@@ -52,7 +52,7 @@ Aggressive mature node expansion — adding 28nm capacity while competitors focu
 | DUV restrictions | Older tools still accessible |
 | US equipment | [[Applied Materials]], Lam restricted |
 
-**Workarounds**:
+Workarounds:
 - Stockpiled equipment pre-restrictions
 - DUV multi-patterning for 7nm
 - Domestic equipment development (SMEE)
@@ -74,13 +74,13 @@ Lost access to most Western customers due to Entity List status.
 
 ## Memory shortage impact (Nov 2025)
 
-**SMIC warning on memory constraining production:**
+SMIC warning on memory constraining production:
 - Memory shortage coming as manufacturers prioritize business with [[NVIDIA]]
 - NVIDIA placing emphasis on highest-value AI data center systems
 - Memory allocation to AI = shortage for other applications
-- SMIC warned memory shortage may constrain **car and electronics production in 2026**
+- SMIC warned memory shortage may constrain car and electronics production in 2026
 
-**Logic chip knock-on:**
+Logic chip knock-on:
 - SMIC is a logic foundry, not memory maker
 - But customers can't place logic orders if they can't secure memory
 - Memory shortage indirectly constrains SMIC's business
@@ -98,6 +98,20 @@ Lost access to most Western customers due to Entity List status.
 
 ---
 
+## Q4 2025 results and overcapacity warning (Feb 11, 2026)
+
+| Metric | Q4 2025 |
+|--------|---------|
+| Revenue | $2.49B (+12.8% YoY, beat) |
+| Net income | +60.7% YoY (beat) |
+| 2025 capex | $8.1B (+10.5%) |
+| 2026 capex guide | ~$8.1B (flat) |
+| 2026 capacity adds | +40K 12" wafers/mo |
+
+Co-CEO Zhao Haijun warned AI data center capacity "has not been fully thought through" — compared current buildout to Chinese suburban data centers built in the early 2020s that still lack tenants. Revenue guidance flat as low-end orders (smartphones, consumer) squeezed by AI chip demand prioritization.
+
+---
+
 ## What to watch
 
 - [ ] 5nm progress and yield reports
@@ -105,6 +119,7 @@ Lost access to most Western customers due to Entity List status.
 - [ ] New fab announcements
 - [ ] Huawei chip roadmap (SMIC-dependent)
 - [ ] US tightening of DUV restrictions
+- [ ] AI data center utilization rates — Zhao's overcapacity warning
 
 ---
 
@@ -114,7 +129,7 @@ Lost access to most Western customers due to Entity List status.
 |--------|-------|
 | Ticker | 0981.HK (HK), 688981.SS (Shanghai) |
 | Market cap | ~$30B |
-| Revenue (2024) | ~$8B |
+| Revenue (Q4 2025) | $2.49B (+12.8% YoY) |
 | Global foundry share | ~6% |
 | Gross margin | ~20% |
 | Status | Entity Listed (US) |

@@ -29,13 +29,13 @@ Three pillars after late-2025 divestiture of gaming ("Apps") to Tripledot Studio
 
 | Segment | Description |
 |---------|-------------|
-| **AppDiscovery** | User acquisition powered by AXON 2.0—helps advertisers find high-value users through predictive modeling. Primary revenue driver. |
-| **MAX** | Header-bidding mediation platform—developers auction ad space to highest bidder in real-time |
-| **Adjust** | Measurement and attribution suite for campaign tracking |
+| AppDiscovery | User acquisition powered by AXON 2.0—helps advertisers find high-value users through predictive modeling. Primary revenue driver. |
+| MAX | Header-bidding mediation platform—developers auction ad space to highest bidder in real-time |
+| Adjust | Measurement and attribution suite for campaign tracking |
 
-**Revenue mix (2024):** Advertising $3.22B (68% of total, +75% YoY), up from 56% in 2023. Pure software company now.
+Revenue mix (2024): Advertising $3.22B (68% of total, +75% YoY), up from 56% in 2023. Pure software company now.
 
-**Margins:** EBITDA margin hit 81% in advertising segment by Q1 2025.
+Margins: EBITDA margin hit 81% in advertising segment by Q1 2025.
 
 ## AXON AI engine
 
@@ -67,15 +67,24 @@ From IPO (Apr 2021) through early 2023, tracked peers in the post-ZIRP mobile/ad
 | 2022 | $3.03B | -$193M | -6% |
 | 2023 | $3.28B | $357M | 11% |
 | 2024 | $4.71B | $1.58B | 34% |
+| 2025 | $5.48B (+70%) | — | — |
 
-**Quarterly (2024):**
+### Q4 2025 (Feb 11, 2026)
 
-| Quarter | Revenue | Net Income |
-|---------|---------|------------|
-| Q1 2024 | $1.06B | $236M |
-| Q2 2024 | $1.08B | $310M |
-| Q3 2024 | $1.20B | $434M |
-| Q4 2024 | $1.37B | $599M |
+| Metric | Q4 2025 | YoY |
+|--------|---------|-----|
+| Revenue | $1.66B | +66% |
+| GAAP EPS | $3.24 | Beat by 10% |
+| Adj EBITDA | $1.40B | +82% |
+| EBITDA margin | 84.4% | +700bps |
+| Operating margin | 76.9% | vs 44.3% prior yr |
+| FCF | $1.31B | +88% |
+| FCF margin | 79% | — |
+| FY 2025 FCF | $3.95B | +91% |
+
+Q1 2026 guidance: Revenue $1.745-1.775B (~52% YoY), adj EBITDA $1.465-1.495B (84% margin). Both above consensus.
+
+84% EBITDA and 79% FCF margins are software industry records at this scale. Stock sold off despite the beat — swept up in broader software sector panic.
 
 ## Short seller attacks
 
@@ -99,14 +108,14 @@ Oct 2025: SEC Cyber and Emerging Technologies unit probing data collection pract
 
 ## History
 
-- **2012:** Founded, operated in stealth
-- **2014:** Emerged from stealth with $4M seed (Streamlined Ventures, Webb Investment Network). Early customers: OpenTable, Spotify
-- **2018-2020:** Acquisition spree—gaming studios (Machine Zone, PeopleFun), Adjust
-- **Apr 2021:** IPO at $70/share, $24B valuation
-- **2022-2023:** Mobile ad recession, stock fell 80%+
-- **2024:** AXON 2.0 breakout, +700% stock return
-- **Late 2025:** Divested gaming (Apps segment) to Tripledot Studios
-- **Sep 2025:** Added to S&P 500
+- 2012: Founded, operated in stealth
+- 2014: Emerged from stealth with $4M seed (Streamlined Ventures, Webb Investment Network). Early customers: OpenTable, Spotify
+- 2018-2020: Acquisition spree—gaming studios (Machine Zone, PeopleFun), Adjust
+- Apr 2021: IPO at $70/share, $24B valuation
+- 2022-2023: Mobile ad recession, stock fell 80%+
+- 2024: AXON 2.0 breakout, +700% stock return
+- Late 2025: Divested gaming (Apps segment) to Tripledot Studios
+- Sep 2025: Added to S&P 500
 
 ## Related
 
