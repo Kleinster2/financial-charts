@@ -56,7 +56,11 @@ A 222-year-old City of London institution — one of the last major independent 
 
 **Advisers:** BNP Paribas (Nuveen), Wells Fargo + Barclays (Schroders)
 
-**Deal risk discount:** Stock trading ~588p vs 612p offer — ~4% spread. Only 41% irrevocable commitments. Morningstar sees room for holdouts to push higher. Market fairly confident on completion but pricing in time value + regulatory approval risk.
+**Deal risk discount (day 1):** Stock trading ~588p vs 612p offer — ~4% spread.
+- Only 41% irrevocable commitments — significant room for holdouts
+- Morningstar (Johann Scholtz): "Despite board support, only 41% of shareholders have given irrevocable backing, suggesting significant room for holdouts to push for a higher price. With the fundamentals improving and shareholder alignment far from locked, this story is unlikely to end at the current terms"
+- Possible competing bid? Unlikely given TIAA's deep pockets, but improving fundamentals + cheap UK valuations could attract interest
+- Market fairly confident on completion but pricing in time value + regulatory approval risk
 
 ---
 
