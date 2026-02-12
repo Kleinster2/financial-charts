@@ -192,6 +192,20 @@ Mascot: Space lobster named Clawd. Tagline references Doctor Who's TARDIS. Leans
 
 ---
 
+## Ecosystem forks / alternatives
+
+The OpenClaw explosion spawned focused alternatives — the unbundling pattern:
+
+| Project | Focus | Language | Differentiator |
+|---------|-------|----------|---------------|
+| **[[NanoClaw]]** | Security | TypeScript | Container isolation, ~500 lines |
+| **[[PicoClaw]]** | Embedded | Go | <10MB RAM, $10 RISC-V hardware |
+| **[[Zo Computer]]** | Managed cloud | — | "AWS for your mom," hosted |
+
+Each carves a niche OpenClaw doesn't serve well: NanoClaw for security-conscious users, PicoClaw for edge/IoT, Zo for non-technical consumers.
+
+---
+
 ## Related
 
 - [[AI extensibility]] — skills layer, open-source approach
@@ -204,3 +218,6 @@ Mascot: Space lobster named Clawd. Tagline references Doctor Who's TARDIS. Leans
 - [[Claude]] — one of the LLM backends; trademark conflict
 - [[OpenAI]] — alternative LLM backend
 - [[Obsidian]] — memory stored as Obsidian-compatible Markdown
+- [[NanoClaw]] — security-focused fork (~500 lines, container isolation)
+- [[PicoClaw]] — ultra-lightweight Go fork (<10MB RAM, Sipeed RISC-V)
+- [[Zo Computer]] — managed cloud alternative

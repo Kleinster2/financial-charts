@@ -39,14 +39,14 @@ Zo is a cloud-hosted Linux server with an AI interface:
 
 Ben Guo describes the vision as **"AWS for your mom"** — managed cloud compute for non-technical users who want AI agents.
 
-| | OpenClaw | Zo Computer |
-|--|----------|-------------|
-| Architecture | Local-first | Cloud-hosted |
-| Data location | Your machine | Their servers |
-| Security burden | You | Zo |
-| Setup complexity | High (VPS, tunnels) | Low (managed) |
-| Target user | Technical DIYers | Everyone |
-| Customization | Unlimited | Platform limits |
+| | OpenClaw | [[NanoClaw]] | [[PicoClaw]] | Zo Computer |
+|--|----------|----------|----------|-------------|
+| Architecture | Local-first | Containerized | Embedded | Cloud-hosted |
+| Data location | Your machine | Your machine (isolated) | Your device | Their servers |
+| Security | App-level | OS-level containers | App-level | Managed |
+| Setup complexity | High | Medium | Low (single binary) | Low (managed) |
+| Target user | Power users | Security-conscious | IoT/embedded | Everyone |
+| Min hardware | Mac Mini/$600 | Mac/Linux | $10 RISC-V board | None (cloud) |
 
 From Ben Guo's LinkedIn: "Clawdbot is the homebrew version of Zo... Zo gives you a managed server, friendly UI, and tons of built-in integrations. I think this will always be the better choice for most people."
 
@@ -122,6 +122,10 @@ GitHub repos reference `docs.substrate.run`. Substrate is an AI compute engine f
 - [[Stripe]] — founder's background
 - [[Anthropic]] — AI provider
 - [[Cloudflare]] — infrastructure comparison
+
+### Alternatives
+- [[NanoClaw]] — security-focused, container isolation
+- [[PicoClaw]] — ultra-lightweight, $10 hardware
 
 ### Concepts
 - [[Agentic AI]] — the category
