@@ -107,6 +107,26 @@ Global footprint = enterprise appeal.
 
 ---
 
+## Q4 2025 / FY 2025 results (Feb 11, 2026)
+
+| Metric | Q4 2025 | FY 2025 |
+|--------|---------|---------|
+| Revenue | $2,420M | $9,217M (+5%) |
+| Adj EBITDA | — | $4,530M (49% margin) |
+| AFFO | — | $3,761M (+12%) |
+| AFFO/share | — | $38.33 (+9%) |
+| Gross bookings | $474M (record, +42%) | $1,600M (+27%) |
+| Interconnections | 500,000+ | — |
+| AI % of large deals | ~60% | Up from ~50% |
+
+2026 guidance: Revenue $10.1-10.2B (+10-11%), adj EBITDA $5.1-5.2B (~51% margin), AFFO/share $41.93-42.74 (+9-12%), capex $3.7-4.2B. Dividend +10% (11th consecutive year).
+
+52 expansion projects across 14 metros. Added ~1 GW powered land. xScale JV planning $15B deployment. Stock +8.6%.
+
+60% of largest deals now AI-driven — accelerating from ~50% earlier in year. Confirms AI workload demand is becoming Equinix's primary growth driver.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -117,7 +137,7 @@ Global footprint = enterprise appeal.
 | Countries | 30+ |
 | Structure | REIT |
 
-*Updated 2026-01-01*
+*Updated 2026-02-12*
 
 ---
 

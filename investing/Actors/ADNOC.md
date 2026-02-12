@@ -26,6 +26,7 @@ aliases: [Abu Dhabi National [[Oil]] Company]
 | **Downstream** | Refining, petrochemicals |
 | **Distribution** | ADNOC Distribution (public) |
 | **[[LNG]]** | ADNOC Gas (public) |
+| **Logistics** | [[ADNOC Logistics]] (public) |
 
 ---
 
@@ -45,6 +46,7 @@ aliases: [Abu Dhabi National [[Oil]] Company]
 **Partially investable** via:
 - ADNOC Distribution (ADX listed)
 - ADNOC Gas (ADX listed)
+- [[ADNOC Logistics]] (ADX: ADNOCLS)
 
 Parent company state-owned.
 

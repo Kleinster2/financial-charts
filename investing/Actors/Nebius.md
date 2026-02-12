@@ -121,6 +121,18 @@ Agentic AI market projected $7B (2025) → $140-200B (early 2030s).
 
 ---
 
+## Q4 2025 results (Feb 12, 2026)
+
+| Metric | Q4 2025 | Notes |
+|--------|---------|-------|
+| EPS | -$0.684 | Missed -$0.54 est (-26.7%) |
+| Revenue | — | +$189.8M YoY |
+| Stock | $91.00 | +2.7% on results |
+
+CEO [[Arkady Volozh]] targeting $7-9B annualized revenue run rate by end-2026. Plans to increase contracted capacity to 2.5 GW (from 1 GW). Prior quarter: $3B [[Meta]] contract, $17-19B [[Microsoft]] deal. Revenue trajectory matters more than near-term EPS miss — Nebius is in hypergrowth investment mode.
+
+---
+
 ## Financials
 
 | Metric | Value |
@@ -128,8 +140,8 @@ Agentic AI market projected $7B (2025) → $140-200B (early 2030s).
 | Ticker | NBIS (NASDAQ) |
 | Market cap | ~$9B |
 | [[Microsoft]] deal | Up to $19.4B |
-| Revenue | Growing rapidly |
-| Status | Investment phase |
+| Revenue run rate target | $7-9B (end-2026) |
+| Status | Investment phase, hypergrowth |
 
 ---
 

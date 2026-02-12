@@ -156,4 +156,20 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 - [WBD Q3 2025](https://www.wbd.com/news/warner-bros-discovery-reports-third-quarter-2025-results)
 - [Deadline Coverage](https://deadline.com/2025/02/warner-bros-discovery-losses-widen-linear-networks-max-1236303209/)
 
-*Updated 2026-02-09*
+## Paramount hostile competing bid (Feb 2026)
+
+[[Paramount Global]] (post-Skydance) launched a **hostile $30/share all-cash bid for all of WBD** — enterprise value ~$108.4B. This competes with [[Netflix]]'s $27.75/share offer for studios + HBO only.
+
+- **$30 vs $27.75** — Paramount offering ~9% more than current trading price (~$27.57)
+- **Feb 10:** Paramount added **25¢/share quarterly ticking fee** if not closed by Dec 31, 2026
+- WBD board advised shareholders to **take no action**
+- Activist **Ancora** pushing board to formally engage with Paramount
+- Senate antitrust hearing held Feb 3; DOJ review ongoing for both bids
+
+The Paramount bid is for the *entire* company (including CNN, Discovery networks, TNT Sports), while Netflix's bid carves out only studios/HBO. Paramount's offer is richer but faces greater antitrust hurdles.
+
+See: [[Major Pending M&A Deals Feb 2026]]
+
+---
+
+*Updated 2026-02-12*

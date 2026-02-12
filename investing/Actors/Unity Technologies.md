@@ -97,12 +97,33 @@ Major self-inflicted wound.
 
 ---
 
+## Q4 2025 / Feb 2026 crash
+
+**Q4 2025 results (Feb 11, 2026):**
+
+| Metric | Q4 2025 | YoY |
+|--------|---------|-----|
+| Revenue | $503.1M | +10% |
+| Adj EPS | $0.24 | Beat $0.21 est |
+| Create Solutions | $165M | +8% |
+| Grow Solutions | $338M | +11% |
+
+**Q1 2026 guidance (the miss):** Revenue $480-490M (below $492M est), EBITDA $105-110M (below $116.9M est).
+
+**Stock -26% premarket (Feb 12).** Down 52% YTD. SaaSpocalypse + [[Genie 3]] fear.
+
+[[Google]]'s [[Genie 3]] — an AI tool generating interactive 3D environments from text prompts — threatens Unity's core game engine business. This is [[AI disintermediation]] hitting gaming infrastructure.
+
+Vector platform targeting $1B quarterly run rate by end-2026. Refinanced $690M of 2026 convertibles to 2030. Cash >$2B.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | U (NYSE) |
-| Market cap | ~$10B |
+| Market cap | ~$5B (post-crash) |
 | Revenue | ~$2B |
 | Focus | Game engine |
 
@@ -113,7 +134,9 @@ Major self-inflicted wound.
 - [[Roblox]] — customer/peer
 - [[Electronic Arts]] — customer
 - [[Gaming]] — sector
+- [[Genie 3]] — AI threat to game engine model
+- [[Claude Cowork disruption February 2026]] — SaaSpocalypse context
 
 ---
 
-*Created 2026-01-16*
+*Updated 2026-02-12*

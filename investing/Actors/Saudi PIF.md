@@ -123,4 +123,6 @@ AI = post-oil economy.
 - [[Saudi Arabia Tech]] — national context
 - [[NEOM]] — portfolio ($500B smart city)
 - [[Saudi Vision 2030]] — strategic framework (PIF is execution vehicle)
+- [[Future Investment Initiative]] — flagship summit ("Davos in the Desert")
+- [[Richard Attias & Associates]] — FII organizer (planning ~$1B IPO)
 

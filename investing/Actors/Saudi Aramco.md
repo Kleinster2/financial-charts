@@ -36,8 +36,9 @@ Unmatched scale and cost position.
 | Segment | Focus |
 |---------|-------|
 | Upstream | Massive oil/gas fields |
+| Unconventional gas | [[Jafurah]] (229 Tcf GIP, first gas Dec 2025, targeting 2 Bcf/d by 2030) |
 | Downstream | SATORP, Motiva (US) |
-| Chemicals | SABIC acquisition |
+| Chemicals | [[SABIC]] acquisition |
 | New energy | Hydrogen, carbon capture |
 
 ---
@@ -48,6 +49,13 @@ Unmatched scale and cost position.
 - Sets global oil prices
 - Spare capacity holder
 - Geopolitical leverage
+
+**Gas strategy:**
+- [[Jafurah]] flagship — $100B+ lifecycle investment, largest non-US unconventional gas play
+- Targeting ~80% gas production growth over 2021 levels by 2030
+- Displacing 300,000-500,000 bpd of crude burn for domestic power
+- Condensate output outside [[OPEC]] quota — incremental export revenue
+- Redirected $40B (2024-2028) from crude capacity expansion to gas
 
 **Vision 2030 funding:**
 - Dividends fund Saudi transformation
@@ -99,8 +107,13 @@ Potential data center power supplier via gas.
 
 ## Related
 
+- [[Jafurah]] — product (flagship unconventional gas project)
 - [[Aramco Digital]] — subsidiary (tech arm)
+- [[SABIC]] — subsidiary (chemicals)
 - [[Saudi Arabia Tech]] — context (Vision 2030)
 - [[Saudi PIF]] — related (sovereign wealth fund)
+- [[Saudi Vision 2030]] — context (strategic driver)
 - [[Exxon]] — peer (largest Western major)
 - [[OPEC]] — context (cartel membership)
+- [[Schlumberger|SLB]] — contractor (unconventional gas services)
+- [[Global Infrastructure Partners]] — related (Jafurah midstream JV)

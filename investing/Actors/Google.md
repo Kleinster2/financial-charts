@@ -127,6 +127,22 @@ Google is the most vertically integrated AI hyperscaler:
 
 **Ripple effects:** [[Broadcom]] +5.6% premarket (provides custom TPU silicon for Google). Capex guide implies total Mag 7 AI spend heading well above $500B for 2026 — bullish for [[NVIDIA]], data center REITs, power infrastructure.
 
+### ~$32B bond sale (Feb 10, 2026)
+
+Alphabet raised ~$32B in debt in <24 hours — largest tech bond sale in history:
+
+| Tranche | Size | Notes |
+|---------|------|-------|
+| US Dollar | $20B | 7-part, 3yr to 40yr maturities |
+| Sterling | £1B+ | Includes 100-year bond (first tech century bond since [[Motorola]] 1997) |
+| Swiss Franc | — | Largest-ever CHF corporate bond |
+
+Order book >$100B at peak. USD tranche upsized from initial $15B plan. 100-year bond drew ~10x oversubscription.
+
+Funding the $185B AI capex for 2026. Long-term debt quadrupled in 2025 to $46.5B. Alphabet acknowledged potential "excess capacity" risk from AI investments in bond disclosures.
+
+Context: [[Oracle]] raised $25B last week. [[Meta]] preparing large debt offering. Morgan Stanley estimates tech hyperscalers will borrow ~$400B in 2026 (2x 2025's $165B).
+
 ---
 
 ### Quarterly trends (12 quarters, Q4 2022 – Q3 2025)

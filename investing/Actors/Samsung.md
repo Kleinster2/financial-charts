@@ -100,7 +100,7 @@ Samsung foundry is a high-variance, high-execution-risk bet on catching [[TSMC]]
 | [[CHIPS Act]] | $6.4B |
 | Q4 2025 operating profit | **KRW 20T+ (~$14B)**, 30% above consensus |
 
-*Updated 2026-01-23*
+*Updated 2026-02-12*
 
 ---
 
@@ -121,7 +121,7 @@ What consensus assumes (update when you see estimates):
 - TSMC dominance continues
 
 **Not priced in (potential surprises):**
-- AMD deal closes (Jan 2026 decision)
+- **AMD deal close** — reportedly nearing SF2P (2nm) deal for EPYC Venice server CPUs (TrendForce, Dec 2025). Would establish AMD dual-foundry strategy
 - **[[NVIDIA]] second foundry** — After [[Groq]] licensing deal, industry sources say [[NVIDIA]] exploring Samsung as backup to TSMC (Dec 2025)
 - ~~Yields improve faster than expected~~ **CONFIRMED: 55-60% (Dec 2025)**
 - [[Taiwan]] disruption revalues Samsung capacity
@@ -182,6 +182,34 @@ What consensus assumes (update when you see estimates):
 - Automatic picture/sound optimization
 
 **Market trend:** "Super big screens" (98-130 inch) fastest-growing TV segment, expected to double in 2026.
+
+---
+
+## Q4 FY2025 earnings (reported Jan 2026)
+
+| Metric | Q4 FY2025 | YoY |
+|--------|-----------|-----|
+| Revenue | ₩93.8T | +24% |
+| Device Solutions | ₩44.0T | +46% |
+| Memory | ₩37.1T | +62% |
+
+Foundry began mass production of first-gen 2nm products and shipped 4nm [[HBM]] base-die.
+
+---
+
+## Foundry recovery (Feb 2026)
+
+Samsung foundry entering a significant recovery phase:
+
+| Development | Detail |
+|-------------|--------|
+| **AMD EPYC Venice** | Reportedly nearing SF2P (2nm) deal — dual-foundry with [[TSMC]] |
+| **Apple CIS deal** | Manufacturing iPhone camera sensors at Austin, TX — breaking [[Sony]] exclusivity. SemiAnalysis: 20-30% of Apple CIS volume by 2027 ($1-1.5B/yr) |
+| **2nm pricing** | Wafer price reportedly cut to $20K — **undercutting [[TSMC]] by 33%** |
+| **TSMC overflow** | Rising TSMC prices + capacity constraints making Samsung increasingly attractive |
+| **Taylor, TX fab** | On track for 2026 opening, ~1,500 permanent employees by year-end. $17B — largest single foreign investment in Texas. [[Tesla]] as anchor client through 2033 |
+
+**Galaxy S26 Unpacked (Feb 25, 2026):** S26 Ultra with Snapdragon 8 Elite Gen 5, privacy display. New Bixby AI assistant with [[Perplexity]] integration. Galaxy S26 Edge cancelled, S26 Plus revived.
 
 ---
 

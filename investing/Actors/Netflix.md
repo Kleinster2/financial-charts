@@ -262,4 +262,17 @@ Expanding beyond on-demand to live programming.
 
 ---
 
-*Updated 2026-02-09*
+## Paramount competing bid for WBD (Feb 2026)
+
+[[Paramount Global]] launched a **hostile $30/share all-cash bid** for all of [[Warner Bros Discovery]] — $108.4B including debt — competing directly with Netflix's $27.75 carve-out offer for studios + HBO.
+
+- Paramount sweetened **Feb 10** with a **25¢/share quarterly ticking fee** if not closed by Dec 31, 2026
+- If Paramount wins, Netflix loses HBO/Max and Warner Bros studios
+- Netflix's offer is narrower (studios/HBO only) but faces less antitrust risk than Paramount's full-company bid
+- WBD board told shareholders to take no action; activist Ancora pushing engagement with Paramount
+
+See: [[Major Pending M&A Deals Feb 2026]]
+
+---
+
+*Updated 2026-02-12*

@@ -134,4 +134,20 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 - [Paramount IR](https://ir.paramount.com/)
 - [Skydance merger details](https://variety.com/paramount-skydance/)
 
-*Created 2026-01-16*
+## Hostile bid for Warner Bros Discovery (Feb 2026)
+
+Post-Skydance merger, Paramount launched a **hostile $30/share all-cash bid for all of [[Warner Bros Discovery]]** — enterprise value ~$108.4B including debt. Competing with [[Netflix]]'s $27.75 carve-out offer.
+
+- **Feb 10:** Sweetened with **25¢/share quarterly ticking fee** if not closed by Dec 31, 2026
+- Would create a massive combined media empire (CBS + Paramount+ + HBO/Max + CNN + Discovery networks)
+- WBD board told shareholders to take no action
+- **Massive antitrust risk** — Senate hearing Feb 3, DOJ review ongoing
+- Activist Ancora pushing WBD to engage
+
+This would be the largest media merger ever if completed. The strategic logic: Paramount gains HBO/Max content library, Warner Bros studios, and CNN to complement CBS and Paramount+.
+
+See: [[Major Pending M&A Deals Feb 2026]]
+
+---
+
+*Updated 2026-02-12*

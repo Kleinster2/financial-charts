@@ -34,7 +34,7 @@ Burning 14x less cash than OpenAI before profitability.
 | Mar 2025 | Strategic | $1B | — | Google (now $3B total) |
 | Sep 2025 | Series F | $13B | $183B | Iconiq, Fidelity, Lightspeed, QIA |
 | Nov 2025 | Strategic | ~$15B | — | NVIDIA ($10B) + Microsoft ($5B) |
-| Feb 2026 | Series G | $20B+ | $350B | Coatue, GIC, Iconiq, NVIDIA (~$10B), Microsoft (~$5B), Altimeter, Sequoia, Lightspeed, Menlo |
+| Feb 2026 | Series G | $20B+ | $350B | Co-leads: [[Founders Fund]], [[D.E. Shaw]], [[Dragoneer]], [[Iconiq]], [[MGX]]. Strategic: NVIDIA (~$10B), Microsoft (~$5B). Also: [[Coatue]], [[GIC]], [[Altimeter]], [[Sequoia]], [[Lightspeed]], [[Menlo Ventures]] |
 
 Total raised: ~$60B+
 

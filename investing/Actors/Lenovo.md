@@ -59,6 +59,36 @@ See [[CES 2026]] for event context.
 
 ---
 
+## Q3 FY2025/26 earnings (Feb 12, 2026)
+
+**Record revenue, profit decline.**
+
+| Metric | Q3 FY25/26 | YoY |
+|--------|------------|-----|
+| Revenue | $22.2B (record) | +18% |
+| Net profit | $546M | -21% |
+| Adjusted net income | $589M | +36% |
+| Adjusted operating income | $903M | +28% |
+| Gross margin | 16.07% | +13.2% |
+
+**Segment detail:**
+
+| Segment | Revenue | YoY | Notes |
+|---------|---------|-----|-------|
+| **IDG** (devices) | ~$16B | +14% | PC share 25.3% (+1pp) |
+| **SSG** (services) | $2.7B | +18% | OM >22%, 19th consecutive growth quarter |
+| **ISG** (infrastructure) | — | — | $285M one-time restructuring charge; $200M+ annual run-rate savings over 3 yrs |
+
+- AI-related revenue surged **70%+ YoY**, now nearly a third of total revenue
+- Revenue beat ($22.2B vs $20.6B est), profit beat ($546M vs $451M est)
+- Net profit decline driven by rising memory costs, ISG restructuring charge, and infrastructure expansion
+
+**Analyst concern:** customers may have front-loaded PC purchases to beat memory price hikes — risk of "demand air pocket" in H1 CY2026. Most maintain structural AI upgrade cycle provides a floor.
+
+**Lenovo Tech World** in New Delhi (Feb 11-12) — enterprise AI, hybrid AI infrastructure, India's role in global AI landscape.
+
+---
+
 ## Memory cost impact
 
 **CFO Winston Cheng:**
@@ -154,8 +184,10 @@ All large OEMs similarly squeezed.
 | HQ | Beijing, [[China]] |
 | Position | \#1 global PC |
 | Strategy | Hoarding memory |
+| **Q3 FY25/26 revenue** | $22.2B (+18% YoY, record) |
+| **AI revenue share** | ~1/3 of total (+70% YoY) |
 
-*Updated 2026-01-08*
+*Updated 2026-02-12*
 
 ---
 

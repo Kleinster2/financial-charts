@@ -103,6 +103,28 @@ Brookfield is generalist infrastructure; others more DC-focused.
 
 ---
 
+## Q4/FY 2025 results (Feb 12, 2026)
+
+| Metric | Q4 2025 | FY 2025 |
+|--------|---------|---------|
+| Net income (to shareholders) | $743M | $1.3B |
+| DE before realizations | $1.5B ($0.63/sh) | $5.4B ($2.27/sh, +11%) |
+| Total DE | $1.6B ($0.67/sh) | $6.0B ($2.54/sh) |
+| Fee-bearing capital | — | $603B (+12%) |
+| Fee-related earnings | — | $3.0B (+22%) |
+| Capital raised | — | $112B |
+| Monetizations | — | $91B |
+| Deployable capital | — | $188B (record) |
+| Dividend increase | +17% to $0.28/yr | — |
+| Share buybacks | — | $1B+ at avg $36/sh |
+| Unrealized carried interest | — | $11.6B |
+
+Wealth Solutions: DE $1.7B, annuity sales $20B, insurance assets $143B.
+
+Key: Launched **inaugural AI infrastructure fund** in 2025. With $188B deployable capital and $603B fee-bearing capital, Brookfield is a major allocator to AI buildout. Validates [[ALTM]] thesis — alt managers are capital deployers benefiting from AI infrastructure demand, not intermediaries being disrupted.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -112,7 +134,7 @@ Brookfield is generalist infrastructure; others more DC-focused.
 | HQ | Toronto |
 | Focus | Infrastructure, renewables, RE, PE |
 
-*Updated 2026-01-01*
+*Updated 2026-02-12*
 
 ---
 

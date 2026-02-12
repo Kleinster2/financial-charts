@@ -49,6 +49,16 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 - Qualified with NVIDIA — ramping supply
 - Key question: Can they catch up on [[HBM]] margins?
 
+**HBM4 milestone (Feb 11, 2026):** CFO Mark Murphy announced at Wolfe Research Conference that HBM4 is in mass production and shipping to customers — a full year ahead of schedule. Denied rumors of exclusion from [[NVIDIA]] next-gen supply chain. Stock +10% to $410.34. Analyst upgrades: TD Cowen $600 PT (Street high), Deutsche Bank $500, Morgan Stanley $450. Triggered global semiconductor rally ([[Samsung]] +2%, [[SK Hynix]] +2.7%, SMH +2.7%).
+
+**CEO [[Sanjay Mehrotra]] — Davos & earnings call (Jan 2026):**
+- Memory is now a "strategic asset, not just a component in the system"
+- AI-driven demand is "accelerating and irreversible"
+- Customers "concerned about long-term access to memory" — lining up for multi-year contracts
+- Cleanroom lead times lengthening across geographies
+- Aggregate industry supply "substantially short of demand for the foreseeable future"
+- Bernstein's Mark Li raised PT to $330 (from $270), forecasting 20-25% sequential DRAM price increase; DRAM prices projected +55% in Q1
+
 ---
 
 ## Financials
@@ -93,8 +103,10 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 | **Stock 2025** | **+239%** |
 | **Stock Jan 2026** | +27% MTD |
 | **US investment** | **$200B** ($150B mfg + $50B R&D) |
+| **FQ1 2026 revenue** | $13.6B (+57% YoY), record |
+| **FQ2 2026 guide** | $18.7B, ~68% GM (record) |
 
-*Updated 2026-01-17*
+*Updated 2026-02-12*
 
 ---
 
