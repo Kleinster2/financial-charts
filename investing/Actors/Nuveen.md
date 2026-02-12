@@ -1,6 +1,6 @@
 #actor #assetmanager #usa #investor
 
-**Nuveen** — [[TIAA]]'s asset management arm. $1.3T AUM. Major alternatives and infrastructure investor.
+**Nuveen** — [[TIAA]]'s asset management arm. Acquiring [[Schroders]] for $13.5B to create a $2.5T AUM global giant.
 
 ---
 
@@ -10,11 +10,35 @@
 | --------- | ---------------------------- |
 | Parent    | [[TIAA]]                     |
 | HQ        | Chicago                      |
-| AUM       | $1.3T                        |
+| AUM       | $1.4T (pre-Schroders)        |
+| Combined AUM | **$2.5T** (post-Schroders) |
 | Founded   | 1898 (acquired by TIAA 2014) |
+| CEO       | William (Bill) Huffman       |
 | Employees | ~3,000                       |
 
-*Updated 2026-01-30*
+*Updated 2026-02-12*
+
+---
+
+## Schroders acquisition (Feb 12, 2026)
+
+**Largest-ever acquisition of a European fund manager.**
+
+| Detail | Value |
+|--------|-------|
+| Target | [[Schroders]] (SDR.L) |
+| Price | £9.9B ($13.5B), all-cash |
+| Per share | 612p (590p + 22p dividends) |
+| Premium | 34% to prior close |
+| Combined AUM | ~$2.5T |
+| Combined private markets | $414B |
+| Global rank | ~9th largest asset manager |
+
+**Strategic rationale:**
+- Nuveen was 94% Americas — Schroders brings EMEA footprint (~2/3 of its £824B AUM)
+- Combined $414B private markets platform
+- CEO Huffman: "open to further deals to grow"
+- Schroders brand maintained, London HQ stays
 
 ---
 
@@ -22,9 +46,10 @@
 
 One of largest global asset managers with deep alternatives expertise:
 
-- **Scale**: $1.3T AUM across public and private markets
-- **Alternatives**: Real assets, private credit, infrastructure
+- **Scale**: $2.5T combined AUM (post-Schroders)
+- **Alternatives**: Real assets, private credit, infrastructure, $414B private markets
 - **TIAA backing**: Stable capital base from parent's retirement assets
+- **Global reach**: Americas (Nuveen) + EMEA (Schroders)
 
 ---
 
@@ -50,6 +75,10 @@ One of largest global asset managers with deep alternatives expertise:
 ## Related
 
 - [[TIAA]] — parent company
+- [[Schroders]] — acquiring for $13.5B (Feb 2026)
 - [[Vantage Data Centers]] — portfolio company
 - [[Infrastructure]] — investment focus
+- [[BlackRock]] — competitor
+- [[Amundi]] — competitor (Europe's largest, slightly above combined entity)
+- [[Aberdeen]] — peer, potential next consolidation target
 
