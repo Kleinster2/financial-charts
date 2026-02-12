@@ -56,6 +56,8 @@ A 222-year-old City of London institution — one of the last major independent 
 
 **Advisers:** BNP Paribas (Nuveen), Wells Fargo + Barclays (Schroders)
 
+**Deal risk discount:** Stock trading ~588p vs 612p offer — ~4% spread. Only 41% irrevocable commitments. Morningstar sees room for holdouts to push higher. Market fairly confident on completion but pricing in time value + regulatory approval risk.
+
 ---
 
 ## Turnaround under Oldfield
