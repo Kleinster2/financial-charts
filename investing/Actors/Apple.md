@@ -195,7 +195,17 @@ Major Siri overhaul underway (codename "Campos"):
 - **Personal data integration** — tap into apps, calendar, files
 - **Universal search** — better web + app results
 
-Reportedly powered by [[Google]] [[Gemini]] as backend (see [[Apple-Google AI deal]]).
+Powered by [[Google]] [[Gemini]] under multiyear deal (see [[Apple-Google AI deal]]).
+
+**Timeline (updated Feb 12, 2026):**
+- ~~iOS 26.4 (March)~~ — many capabilities **pushed to iOS 26.5 (May/June)**
+- **Personal context features** (tap into apps, calendar, files) — likely **iOS 27 (September)**
+- Full chatbot revamp expected with **iOS 27** alongside fall iPhone launch
+- Features may ship ~2 years after initial WWDC 2024 announcement
+
+**Feb 12 snag (Bloomberg/Gurman):** Testing setbacks in recent weeks forced staggered rollout. Gurman: Google Gemini collaboration is the reason Apple will still ship this year — Apple's own models being improved by Gemini team. Competitive risk: [[OpenAI]], [[Anthropic]], [[Google]] will be further ahead by September.
+
+**Privacy:** Runs through [[Apple]] devices and [[Private Cloud Compute]]. Tim Cook (Q1 FY26 call): Gemini-powered Siri will be personalized but won't access users' Gmail or Google data.
 
 ### Q.ai acquisition (Jan 2026)
 

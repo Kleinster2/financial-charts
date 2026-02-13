@@ -105,6 +105,9 @@ charting_sandbox/global-search.js
 charting_sandbox/israel.html
 charting_app/workspace_broken.json
 
+# EDGAR filing cache (raw HTML, regenerated on demand)
+data/edgar_cache/
+
 # Miscellaneous data files
 top_100_stocks.txt
 test_bond_api.json

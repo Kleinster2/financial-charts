@@ -100,18 +100,47 @@ Recovering from SPAC valuations.
 
 ---
 
+## Q4 / FY2025 results (reported Feb 12 2026)
+
+First full-year net profit in company history:
+
+| Metric | Q4 2025 | FY 2025 |
+|--------|---------|---------|
+| Revenue | $906M (+19%) | $3.38B |
+| Net income | $171M (+533%) | First full-year profit |
+| Adj EBITDA | $148M | $500M+ |
+| MTU | 50.5M (record) | — |
+| On-demand GMV | $6.1B (record) | — |
+| Operating cash flow | — | $79M (down from $852M) |
+
+Revenue missed consensus ($959.5M). Operating cash flow plunged due to lending growth cash outflows.
+
+2026 guidance: Revenue $4.04-4.10B (+20-22%), Adj EBITDA $700-720M.
+
+Medium-term (2025-2028): 20% revenue CAGR, $1.5B Adj EBITDA in 2028, 80% adj FCF conversion.
+
+Key moves:
+- **$500M share buyback** authorized
+- **[[Stash Financial]] acquisition** — $425M for 50.1% of US-based AI investing platform
+- **Lending:** Net loan portfolio $1.18B (+120% YoY), doubling target in 2026
+- **Grocery:** 1.7x faster growth than food delivery
+- Financial services EBITDA breakeven expected H2 2026
+
+---
+
 ## Investment case
 
 **Bull:**
 - SEA ride-hailing leader
 - Super-app ecosystem
-- [[Fintech]] upside
-- Path to profitability
+- [[Fintech]] upside — loan portfolio $1.18B doubling in 2026
+- First full-year profit achieved
+- 20% revenue CAGR guide through 2028
 
 **Bear:**
 - GoTo competition
-- Profitability pressure
-- Regulatory risks
+- Operating cash flow deterioration ($852M → $79M)
+- Stash Financial acquisition risk ($425M US expansion)
 - SPAC valuation hangover
 
 ---
@@ -122,10 +151,12 @@ Recovering from SPAC valuations.
 |--------|-------|
 | Ticker | GRAB |
 | Market cap | ~$15B+ |
-| Core business | Ride-hailing |
-| Growth driver | [[Fintech]] |
+| Revenue (FY2025) | $3.38B |
+| MTU | 50.5M |
+| Core business | Ride-hailing + delivery |
+| Growth driver | [[Fintech]], grocery |
 
-*Updated 2026-01-01*
+*Updated 2026-02-12*
 
 ---
 
@@ -136,4 +167,5 @@ Recovering from SPAC valuations.
 - [[GoTo]] — competitor (Gojek in Indonesia)
 - [[Indonesia Tech]] — key market
 - [[Southeast Asia tech race]] — regional context
+- [[Stash Financial]] — acquired Feb 2026 ($425M, US AI investing platform)
 

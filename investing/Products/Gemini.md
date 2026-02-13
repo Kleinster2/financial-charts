@@ -108,8 +108,9 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 | Workspace | Docs, Gmail, Sheets |
 | [[Vertex]] AI | Enterprise API |
 | AI Studio | Developer access |
+| **[[Apple]] [[Siri]]** | **Multiyear deal — powers revamped Siri (spring 2026). See [[Apple-Google AI deal]]** |
 
-**Key advantage:** 2B+ Android devices, billions of Search users.
+**Key advantage:** 2B+ Android devices, billions of Search users, **+2.5B Apple devices via Siri deal**.
 
 ---
 
@@ -151,23 +152,42 @@ Google's answer to [[ChatGPT]] — leveraging Android/Search distribution.
 
 ---
 
+## Gemini 3 Deep Think upgrade (Feb 12 2026)
+
+Major update to Deep Think, a specialized reasoning mode that explores multiple solution paths in parallel:
+
+| Benchmark | Score | Notes |
+|-----------|-------|-------|
+| Humanity's Last Exam | 48.4% (no tools) | New SOTA |
+| ARC-AGI-2 | 84.6% | Verified by ARC Prize Foundation |
+| Codeforces Elo | 3455 | — |
+| IMO 2025 | Gold medal level | — |
+
+Designed for advanced math, coding, scientific analysis, and planning. New capability: converting sketches to 3D-printable files. Available to Google AI Ultra subscribers. API early access launching.
+
+[[Google|Alphabet]] stock spiked ~1% on the announcement. [[Demis Hassabis]] and Koray Kavukcuoglu indicated additional Gemini 3 series models coming soon.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Parent | [[Google]] |
 | MAU | 650M |
+| AI Overviews | 2B monthly users |
 | Global rank | \#3 AI platform |
-| Flagship | Gemini 3 Flash |
+| Flagship | Gemini 3 (Flash, Deep Think) |
 | Context | 1M tokens |
 
-*Created 2026-01-27*
+*Updated 2026-02-12*
 
 ---
 
 ## Related
 
 - [[Google]] — parent company
+- [[Apple]] — multiyear Siri deal (spring 2026). See [[Apple-Google AI deal]]
 - [[ChatGPT]] — competitor (\#1)
 - [[Claude]] — competitor
 - [[Grok]] — competitor ([[xAI]])

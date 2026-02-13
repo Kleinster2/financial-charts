@@ -25,6 +25,7 @@ Back-to-back downgrades of [[Raizen]] and [[CSN]] reignited fears of broader cor
 | Feb 9, 2026  | Fitch slashes [[Raizen]] from BBB- to B, then B to CCC in same day                         |
 | Feb 10, 2026 | S&P and Moody's also cut [[Raizen]] to junk; broader bond rout                             |
 | Feb 11, 2026 | [[Raizen]] bondholders form creditor committee; hire [[White & Case]] as legal adviser      |
+| Feb 12, 2026 | [[Raizen]] bondholders hire [[Moelis]] as financial adviser alongside [[White & Case]]       |
 
 ---
 
@@ -63,12 +64,14 @@ Fitch timeline: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B 
 
 ### USD bond prices (distressed)
 
-| Bond | Price | Yield |
-|------|-------|-------|
-| 5.70% 2035 | 68.25 cents (-14.25 in one session) | 11.90% YTW |
-| 6.95% 2054 | 62.875 cents (-30% in 2 days, Oct) | |
-| 6.25% 2032 | Crashed 12 cents in one day | >14% (vs 6.5% at issuance) |
-| 6.45% 2034 | ~86.7 cents (pre-Feb 9, likely lower now) | 8.7% |
+| Bond | Price (early Feb) | Price (Feb 12) | Yield (Feb 12) |
+|------|-------------------|----------------|----------------|
+| 5.70% 2035 | 68.25 cents (Feb 4) | ~44 cents (implied) | 18.76% YTM, Z-spread 1,512 bps |
+| 6.95% 2054 | 62.875 cents | Lower (no update) | |
+| 6.25% 2032 | Crashed 12 cents in one day | | >14% (vs 6.5% at issuance) |
+| 6.45% 2034 | ~86.7 cents (pre-Feb 9) | 42.4 cents | |
+
+Source: [[BondbloX]] (Feb 12, 2026). The 2035 bond yield nearly doubled from 11.90% to 18.76% in eight days — implying ~35% price decline from 68 to ~44 cents. Z-spread of 1,512 bps confirms deep distress pricing.
 
 ### Why shareholders won't inject capital
 
@@ -82,6 +85,7 @@ Fitch timeline: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B 
 | [[Raizen]] | [[Rothschild]], [[Citigroup]], [[Pinheiro Neto]], [[Cleary Gottlieb]] |
 | [[Cosan]] | [[Itaú BBA]] |
 | [[Shell]] | [[Lazard]] |
+| Bondholders | [[White & Case]] (legal), [[Moelis]] (financial); includes [[PIMCO]], [[BlackRock]], [[T. Rowe Price]]; holds majority of USD bonds |
 
 Options under discussion (all early stage):
 - Debt haircut / restructuring
@@ -416,4 +420,6 @@ Sources:
 - [Bloomberg — Braskem Makes Coupon Payment Amid Debt Review (Jan 12, 2026)](https://www.bloomberg.com/news/articles/2026-01-12/braskem-makes-coupon-payment-amid-ongoing-review-of-debt-load)
 - [Bloomberg — Braskem Pays Hybrid Bond Interest (Jan 23, 2026)](https://www.bloomberg.com/news/articles/2026-01-23/braskem-makes-interest-payment-on-pandemic-era-hybrid-bonds)
 
-*Created 2026-02-10. Updated 2026-02-11.*
+- [Bloomberg — Raizen's Bondholders Choose Moelis as Financial Adviser (Feb 12, 2026)](https://www.bloomberg.com/news/articles/2026-02-12/raizen-s-bondholders-choose-moelis-as-financial-adviser)
+
+*Created 2026-02-10. Updated 2026-02-12.*

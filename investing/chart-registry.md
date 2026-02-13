@@ -12,6 +12,16 @@ charts:
     skip: true
   gpu-memory-scaling.png:
     skip: true
+  brazil-2026-ipo-comparison.png:
+    tickers: PICS,NU,STNE,PAGS
+    normalize: true
+    start: 2026-01-29
+    primary: PICS
+  brazil-fintech-comparison.png:
+    tickers: NU,STNE,PAGS,PICS
+    normalize: true
+    start: 2021-12-09
+    primary: NU
 ---
 
 # Chart Registry

@@ -28,7 +28,7 @@ World's largest sugarcane [[ethanol]] producer — JV between [[Shell]] (44%) an
 | FCF outlook | Negative through 2027 |
 | USD bonds outstanding | ~$5.3B across 6 issues |
 | Rating (Feb 10, 2026) | CCC (Fitch), CCC+ (S&P), Caa1 (Moody's) |
-| Stock (early Feb 2026) | R$0.81-0.84 (all-time high: R$7.60 in Aug 2021) |
+| Stock (Feb 12, 2026) | R$0.67 (intraday low R$0.63); ATH R$7.60 (Aug 2021) |
 
 Stock below [[B3]]'s R$1 minimum price threshold since October — must recover by May 2026 or face sanctions.
 
@@ -37,7 +37,7 @@ Stock below [[B3]]'s R$1 minimum price threshold since October — must recover 
 ## Price
 
 ![[raiz4.sa-price-chart.png]]
-*R$7.60 at IPO (Aug 2021) to R$0.77 — a 90% destruction of equity value. Below [[B3]]'s R$1 minimum since Oct 2025.*
+*R$7.60 at IPO (Aug 2021) to R$0.67 — a 91% destruction of equity value. Below [[B3]]'s R$1 minimum since Oct 2025. Fell another 13% on Feb 12 as bondholders formalized Moelis appointment.*
 
 ---
 
@@ -71,8 +71,8 @@ Fitch timeline: BBB → BBB (negative, Jun 2025) → BBB- (RWN, Oct 2025) → B 
 |----------|--------|-------------|------------------|
 | Jan 2027 | 5.30% | $342M (from $725M via tender) | |
 | Jul 2032 | 6.25% | $750M | Yields >14% (vs 6.5% at issuance) |
-| Mar 2034 | 6.45% | $1,000M | ~86.7 cents (pre-Feb 9) |
-| Jan 2035 | 5.70% | $1,000M | 68.25 cents (YTW 11.90%) |
+| Mar 2034 | 6.45% | $1,000M | 42.4 cents (Feb 12; was ~86.7 pre-Feb 9) |
+| Jan 2035 | 5.70% | $1,000M | ~44 cents (YTM 18.76%, Z-spread 1,512 bps; was 68.25 cents/11.90% on Feb 4) |
 | 2037 | 6.70% | $1,000M | |
 | Mar 2054 | 6.95% | $1,250M | 62.875 cents (-30% in 2 days, Oct 2025) |
 
@@ -99,7 +99,7 @@ Forced selling: institutional investors mandated to hold only investment-grade p
 | [[Raizen]] | [[Rothschild]], [[Citigroup]], [[Pinheiro Neto]], [[Cleary Gottlieb]] |
 | [[Cosan]]  | [[Itaú BBA]]                                                          |
 | [[Shell]]  | [[Lazard]]                                                            |
-| Bondholders | [[White & Case]] (creditor committee formed Feb 11, 2026)            |
+| Bondholders | [[White & Case]] (legal), [[Moelis]] (financial) — creditor committee formed Feb 11; includes [[PIMCO]], [[BlackRock]], [[T. Rowe Price]]; holds majority of USD bonds |
 
 ### Options under discussion
 
@@ -153,4 +153,6 @@ Sources:
 - [Investing.com — Raizen Q2 25/26 Presentation](https://www.investing.com/news/company-news/raizen-q2-2526-presentation-net-loss-widens-despite-efficiency-gains-93CH-4360858)
 - [LatinFinance — Restructuring Concerns Grow (Feb 9, 2026)](https://latinfinance.com/daily-brief/2026/02/09/restructuring-concerns-grow-as-raizen-hires-advisors/)
 
-*Created 2026-02-10*
+- [Bloomberg — Raizen's Bondholders Choose Moelis (Feb 12, 2026)](https://www.bloomberg.com/news/articles/2026-02-12/raizen-s-bondholders-choose-moelis-as-financial-adviser)
+
+*Created 2026-02-10. Updated 2026-02-12.*

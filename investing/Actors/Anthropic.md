@@ -191,6 +191,7 @@ Product milestones:
 - Agent Skills open standard launched (Dec 18) — integrations with [[Notion]], [[Canva]], [[Figma]], [[Atlassian]]
 
 Partnerships:
+- [[Man Group]] — $214B hedge fund embedding Claude across investment + ops (Feb 11 2026). Alpha generation (AlphaGPT), risk modeling, data synthesis. Anthropic engineers on-site.
 - DOE Genesis Mission — Multi-year partnership across 17 national labs
 - Accenture — 30,000 professionals to be trained, enterprise deployment focus
 
@@ -337,3 +338,4 @@ See [[Long Anthropic]] for full thesis.
 - [[Model lab economics]] — profitability context
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
 - [[AI workflow disruption basket]] — tracking software disruption exposure
+- [[Man Group]] — enterprise AI partnership (Feb 2026)

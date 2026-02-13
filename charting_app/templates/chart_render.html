@@ -150,13 +150,17 @@
                     visible: isLastPane,  // Only show time scale on last pane
                     secondsVisible: false,
                     rightOffset: 5,
-                    borderColor: '#ccc'
+                    borderColor: '#ccc',
+                    fixLeftEdge: true,
+                    fixRightEdge: true,
+                    uniformDistribution: true
                 },
                 rightPriceScale: {
                     visible: true,
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
-                    mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals (can go negative), log for prices
+                    mode: isFundamentals ? 0 : 1,  // Arithmetic for fundamentals (can go negative), log for prices
+                    minimumWidth: isFundamentals ? 110 : 0
                 },
                 leftPriceScale: {
                     visible: false
@@ -238,7 +242,7 @@
             return chart;
         }
 
-        // Render multi-pane chart for fundamentals
+        // Render multi-pane chart for fundamentals using v5 native panes (single chart, shared time axis)
         function renderMultiPaneChart(config) {
             const { data, title, width, height, showLastDate, paneGroups, forecastStart, isFundamentals } = config;
 
@@ -297,67 +301,144 @@
                 }
             }
 
-            // Calculate pane heights
-            const paneNames = Object.keys(paneGroups);
+            // Create chart container div with legend offset
+            const chartWrapper = document.createElement('div');
+            chartWrapper.style.position = 'relative';
+            chartWrapper.style.marginTop = '70px';
+            const chartDiv = document.createElement('div');
+            chartDiv.id = 'multi-pane-chart';
+            chartWrapper.appendChild(chartDiv);
+            container.appendChild(chartWrapper);
+
             const legendHeight = 70;
-            const paneGap = 8;
-            const totalPaneHeight = height - legendHeight - (paneGap * (paneNames.length - 1));
-            const paneHeight = Math.floor(totalPaneHeight / paneNames.length);
+            const chartHeight = height - legendHeight;
 
-            // Create panes
-            const charts = [];
-            paneNames.forEach((paneName, index) => {
-                const seriesKeys = paneGroups[paneName];
-                const paneData = {};
-                for (const key of seriesKeys) {
-                    if (data[key]) paneData[key] = data[key];
+            // Create a single chart instance — all panes share one time axis
+            const chart = LightweightCharts.createChart(chartDiv, {
+                width: width || 1200,
+                height: chartHeight,
+                layout: {
+                    background: { type: 'solid', color: '#ffffff' },
+                    textColor: '#333',
+                    fontSize: 18
+                },
+                grid: {
+                    vertLines: { color: '#eee' },
+                    horzLines: { color: '#eee' }
+                },
+                timeScale: {
+                    secondsVisible: false,
+                    rightOffset: 5,
+                    borderColor: '#ccc',
+                    fixLeftEdge: true,
+                    fixRightEdge: true
+                },
+                rightPriceScale: {
+                    visible: true,
+                    borderColor: '#ccc',
+                    scaleMargins: { top: 0.1, bottom: 0.1 },
+                    mode: 0
+                },
+                leftPriceScale: {
+                    visible: false
+                },
+                crosshair: {
+                    horzLine: { visible: false },
+                    vertLine: { visible: false }
                 }
-
-                // Create pane container
-                const paneWrapper = document.createElement('div');
-                paneWrapper.style.position = 'relative';
-                paneWrapper.style.marginTop = index === 0 ? legendHeight + 'px' : paneGap + 'px';
-
-                const paneDiv = document.createElement('div');
-                paneDiv.className = 'chart-pane';
-                paneWrapper.appendChild(paneDiv);
-
-                // Add pane label
-                const label = document.createElement('div');
-                label.className = 'pane-label';
-                label.style.top = '8px';
-                label.textContent = paneName;
-                paneWrapper.appendChild(label);
-
-                container.appendChild(paneWrapper);
-
-                const isLastPane = index === paneNames.length - 1;
-                const chart = createChartPane(paneDiv, paneData, config, paneHeight, colorMap, isLastPane);
-                charts.push(chart);
             });
 
-            // Sync time scales across all charts
-            if (charts.length > 1) {
-                let isSyncing = false;
-                charts.forEach((chart, i) => {
-                    chart.timeScale().subscribeVisibleLogicalRangeChange(range => {
-                        if (isSyncing || !range) return;
-                        isSyncing = true;
-                        charts.forEach((otherChart, j) => {
-                            if (i !== j) {
-                                otherChart.timeScale().setVisibleLogicalRange(range);
+            // Price formatter for fundamentals
+            const priceFormat = {
+                type: 'custom',
+                minMove: 1,
+                formatter: formatLargeNumber
+            };
+
+            // Add series to panes — paneIndex 0 for first metric, 1 for second, etc.
+            const paneNames = Object.keys(paneGroups);
+            paneNames.forEach((paneName, paneIndex) => {
+                const seriesKeys = paneGroups[paneName];
+
+                for (const key of seriesKeys) {
+                    if (!data[key]) continue;
+
+                    const color = colorMap[key] || '#2962FF';
+                    const chartData = data[key].map(p => ({ time: p.time, value: p.value }));
+
+                    if (forecastStart) {
+                        const historicalData = chartData.filter(p => p.time < forecastStart);
+                        const forecastData = chartData.filter(p => p.time >= forecastStart);
+
+                        if (historicalData.length > 0 && forecastData.length > 0) {
+                            forecastData.unshift(historicalData[historicalData.length - 1]);
+                        }
+
+                        if (historicalData.length > 0) {
+                            const historicalSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                                color: color,
+                                lineWidth: 2,
+                                lastValueVisible: forecastData.length > 0,
+                                priceLineVisible: false,
+                                crosshairMarkerVisible: false,
+                                priceFormat: priceFormat
+                            }, paneIndex);
+                            historicalSeries.setData(historicalData);
+
+                            if (forecastData.length > 0) {
+                                const lastPoint = historicalData[historicalData.length - 1];
+                                LightweightCharts.createSeriesMarkers(historicalSeries, [{
+                                    time: lastPoint.time,
+                                    position: 'inBar',
+                                    color: color,
+                                    shape: 'circle',
+                                    size: 2
+                                }]);
                             }
-                        });
-                        isSyncing = false;
-                    });
-                });
-            }
+                        }
+
+                        if (forecastData.length > 0) {
+                            const forecastSeries = chart.addSeries(LightweightCharts.LineSeries, {
+                                color: color,
+                                lineWidth: 2,
+                                lineStyle: 1,
+                                lastValueVisible: false,
+                                priceLineVisible: false,
+                                crosshairMarkerVisible: false,
+                                priceFormat: priceFormat
+                            }, paneIndex);
+                            forecastSeries.setData(forecastData);
+                        }
+                    } else {
+                        const series = chart.addSeries(LightweightCharts.LineSeries, {
+                            color: color,
+                            lineWidth: 2,
+                            lastValueVisible: false,
+                            priceLineVisible: false,
+                            crosshairMarkerVisible: false,
+                            priceFormat: priceFormat
+                        }, paneIndex);
+                        series.setData(chartData);
+                    }
+                }
+            });
+
+            // Add pane labels as overlays positioned within the chart wrapper
+            const paneCount = paneNames.length;
+            const paneUnitHeight = chartHeight / paneCount;
+            paneNames.forEach((paneName, index) => {
+                const label = document.createElement('div');
+                label.className = 'pane-label';
+                label.style.top = (index * paneUnitHeight + 16) + 'px';
+                label.textContent = paneName;
+                chartWrapper.appendChild(label);
+            });
 
             // Fit content and signal ready
             setTimeout(() => {
-                charts.forEach(chart => chart.timeScale().fitContent());
+                chart.timeScale().fitContent();
                 window.chartReady = true;
-            }, 100);
+            }, 150);
         }
 
         // Chart configuration will be injected via window.CHART_CONFIG
@@ -426,7 +507,7 @@
                     visible: true,
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
-                    mode: 1  // Logarithmic mode always
+                    mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals (can go negative), log for prices
                 },
                 leftPriceScale: {
                     visible: !!overlay,

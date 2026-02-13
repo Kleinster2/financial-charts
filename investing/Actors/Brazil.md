@@ -90,13 +90,17 @@ aliases: [Brasil, BRL, Brazilian]
 
 ---
 
-## Brazil-listed actors we track
+## US-listed Brazilian actors
 
-| Company | Ticker | Sector |
-|---------|--------|--------|
-| [[StoneCo]] | STNE ([[Nasdaq]]) | Payments |
-| [[TOTVS]] | TOTS3.SA | Software |
-| [[Nubank]] | NU (NYSE) | Neobank |
+| Company | Ticker | Exchange | Sector | IPO year |
+|---------|--------|----------|--------|----------|
+| [[PagSeguro]] | PAGS | NYSE | Payments/Banking | 2018 |
+| [[StoneCo]] | STNE | NASDAQ | Payments | 2018 |
+| [[Nubank]] | NU | NYSE | Neobank | 2021 |
+| [[PicPay]] | PICS | NASDAQ | Neobank/Credit | 2026 |
+| [[Agibank]] | AGBK | NYSE | Consumer lending | 2026 |
+| [[Vinci Partners]] | VINP | NASDAQ | Asset management | 2021 |
+| [[JBS]] | JBS | NYSE | Protein (dual listing) | 2025 |
 
 ---
 
@@ -123,6 +127,26 @@ aliases: [Brasil, BRL, Brazilian]
 ### Currency as swing factor
 - BRL volatility creates timing opportunities
 - USD strength pressures EM broadly
+
+### US IPO pipeline (2026 revival)
+
+After a 4-year drought (2022-2025) with essentially zero Brazilian IPOs on US exchanges, two fintechs listed in early 2026:
+
+| Company | Ticker | Exchange | Date | Raised | Post-IPO |
+|---------|--------|----------|------|--------|----------|
+| [[PicPay]] | PICS | NASDAQ | Jan 29 | ~$434M | Down ~20% |
+| [[Agibank]] | AGBK | NYSE | Feb 11 | $240M (slashed from $785M) | Down ~11% |
+
+**Both listings struggled.** PicPay's post-IPO decline directly caused Agibank to slash its deal size by >50% hours before pricing. Bloomberg called it a "bumpy comeback."
+
+**Why US over [[B3]]:**
+- US exchanges allow **dual-class shares** (supervoting for founders) — [[B3]]'s Novo Mercado requires one-share-one-vote
+- Higher valuations for fintech/tech from US investor base
+- Deeper capital pools, broader institutional demand
+- Precedent from [[PagSeguro]], [[StoneCo]], [[Nubank]] (2018-2021 wave)
+- [[Foreign Private Issuer]] status: relaxed reporting, IFRS instead of GAAP
+
+**Pipeline:** UBS BB poll shows institutional investors expect 10+ Brazilian IPOs in 2026 (domestic + US). 100+ companies reportedly IPO-ready. New [[Base Exchange]] (backed by [[Mubadala]]) targeting April 2026 launch in Rio adds optionality beyond [[B3]].
 
 ---
 
@@ -163,6 +187,9 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 - [[StoneCo]] — payments leader
 - [[TOTVS]] — software leader
 - [[Nubank]] — neobank
+- [[PagSeguro]] — payments + banking (NYSE: PAGS)
+- [[PicPay]] — neobank/credit (NASDAQ: PICS, IPO Jan 2026)
+- [[Agibank]] — consumer lending / Smart Hubs (NYSE: AGBK, IPO Feb 2026)
 - [[Linx]] — retail software (acquired by TOTVS)
 
 ### Banking

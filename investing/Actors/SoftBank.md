@@ -149,6 +149,30 @@ Arm architecture in virtually every smartphone. Now pushing into:
 
 ---
 
+## Q3 FY2025 results (Oct-Dec 2025, reported Feb 12 2026)
+
+Fourth consecutive quarterly profit — first time since 2021:
+
+| Metric | Q3 FY2025 | 9M FY2025 |
+|--------|-----------|-----------|
+| Net profit | ¥248.6B ($1.62B) | ¥3.17T ($20.7B) |
+| YoY | vs ¥369B loss | 5x year-ago |
+| OpenAI investment gain | — | $19.8B (cumulative) |
+| OpenAI stake | 11% | ~$34.6B invested |
+
+Capital moves:
+- Exited [[NVIDIA]] position entirely
+- Sold [[T-Mobile]] stake: $12.7B (Jun-Dec)
+- Expanded [[Arm Holdings|Arm]] margin loan: $13.5B → $20B
+- Increased [[SoftBank Corp]] borrowings: ¥800B → ¥1.2T
+- In talks to invest additional $30B in [[OpenAI]] at $750-830B valuation
+
+BTIG analyst Jesse Sobelson: SoftBank is "the only real way to directly play [[OpenAI]] in today's public markets" — OpenAI represents ~30% of NAV.
+
+US ADR (SFTBY) +3% on results.
+
+---
+
 ## Financial position
 
 | Metric | Value |
@@ -190,10 +214,11 @@ Arm architecture in virtually every smartphone. Now pushing into:
 | Market cap | ~$100B |
 | NAV | ~$150B+ |
 | Arm stake | ~90% (~$150B) |
+| OpenAI stake | 11% (~$34.6B invested, $19.8B gain) |
 | Vision Fund | $150B+ AUM |
 | Stargate role | Lead investor ($100B+) |
 
-*Updated 2026-01-04*
+*Updated 2026-02-12*
 
 ---
 
@@ -206,6 +231,7 @@ Arm architecture in virtually every smartphone. Now pushing into:
 - [[Switch]] — in acquisition talks (~$50B)
 - [[OpenAI]] — Stargate partner
 - [[Oracle]] — Stargate partner
-- [[NVIDIA]] — GPU supplier (Stargate), sold stake ($5.83B)
+- [[NVIDIA]] — GPU supplier (Stargate), exited position entirely
+- [[T-Mobile]] — sold $12.7B stake (Jun-Dec 2025)
 - [[Saudi PIF]] — Vision Fund LP
 - [[AI hyperscalers]] — Stargate positions SoftBank in this category

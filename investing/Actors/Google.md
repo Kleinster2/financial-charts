@@ -238,7 +238,7 @@ Context: [[Oracle]] raised $25B last week. [[Meta]] preparing large debt offerin
 
 **Scale:** 750M MAU (up from 650M in Q3 2025). Serving unit costs down 78% over 2025 through model optimizations and efficiency improvements.
 
-**Apple deal:** Multiyear agreement for [[Apple]] to use Gemini in revamped [[Siri]], expected late 2026. Major distribution win.
+**Apple deal:** Multiyear agreement for [[Apple]] to use Gemini in revamped [[Siri]]. Initial features iOS 26.5 (**May/June 2026**), full chatbot revamp iOS 27 (**September 2026**) — delayed from original March target after testing snags (Feb 12 Gurman). Reaches Apple's 2.5B active devices — major distribution win. Gurman: Gemini collaboration is the reason Apple can still ship this year. See [[Apple-Google AI deal]].
 
 **Competitive position:** Roughly par with OpenAI, gaining on consumer mindshare. Gemini 3 benchmarks ahead of competitors.
 
@@ -496,7 +496,7 @@ See [[Short interest]] for interpretation framework.
 
 ### Products
 - [[Gemini]] — AI model (750M MAU)
-- [[Apple]] — Gemini-Siri deal (late 2026)
+- [[Apple]] — Gemini-Siri deal (spring 2026). See [[Apple-Google AI deal]]
 
 ### Partners/Competitors
 - [[Broadcom]] — TPU design partner (disintermediating)

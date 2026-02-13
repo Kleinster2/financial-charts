@@ -26,9 +26,9 @@ aliases: [STNE, Stone]
 ## Price
 
 ![[brazil-fintech-comparison.png]]
-*[[Nubank|NU]] · [[PagSeguro]] (PAGS)*
+*[[Nubank|NU]] · [[PagSeguro|PAGS]] · [[PicPay|PICS]]*
 
-*All three crashed 80-90% from 2021 peaks in [[Fintech boom (2020-2021)]] bust. Nubank recovering best; StoneCo weighed down by [[Linx]] disaster.*
+*All three incumbents crashed 80-90% from 2021 peaks in [[Fintech boom (2020-2021)]] bust. Nubank recovering best; StoneCo weighed down by [[Linx]] disaster. PICS (orange, far right) appeared Jan 2026 — already down ~24% from IPO.*
 
 ---
 

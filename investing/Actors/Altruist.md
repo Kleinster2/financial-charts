@@ -88,6 +88,28 @@ Launched Sep 2025 after acquiring Thyme (Y Combinator-backed AI startup).
 
 ---
 
+## CEO Bloomberg interview (Feb 12 2026)
+
+Jason Wenk appeared on Bloomberg Tech after the Hazel tax planning launch (Feb 10) triggered a wealth management selloff:
+
+| Stock | Move (Feb 10-11) |
+|-------|-----------------|
+| [[LPL Financial]] | -8.3% |
+| [[Charles Schwab]] | -7.4% |
+| [[Raymond James]] | -8.8% |
+
+Key quotes:
+- "No one could have thought that somewhere between tens of billions to maybe $100 billion of market cap would be wiped out in a week"
+- Altruist is **not** looking to replace wealth managers — AI is "an incredible equalizer"
+- Tax planning is "just the start" — more agents coming
+- Hundreds of large wealth management firms reached out in 48 hours to explore partnerships
+- Hazel available to any independent advisor regardless of custodian — deliberately separated from Altruist's custodian business
+- "It's more important that you are the platform and not just a feature"
+
+*Updated 2026-02-12*
+
+---
+
 ## Related
 
 - [[Altruist wealth management selloff February 2026]] — market event triggered by Hazel tax planning launch

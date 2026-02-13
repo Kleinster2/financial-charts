@@ -34,11 +34,20 @@
 ![[dbc-vs-gsg-2025.png]]
 *[[DBC]] · [[GSG]] · [[Commodities]]*
 
+![[btc-usd-vs-eth-usd-vs-sol-usd-vs-xrp-usd-vs-bnb-usd-vs-mstr-2025.png]]
+*[[Bitcoin]] · [[Ethereum]] · [[Solana]] · [[XRP]] · [[Binance|BNB]] · [[MicroStrategy]] · [[Crypto]]*
+
 ![[hyg-vs-lqd-vs-emb-2025.png]]
 *[[HYG]] · [[LQD]] · [[EMB]] · [[High yield bonds]] · [[Investment grade bonds]] · [[Emerging market debt]]*
 
 ![[spy-vs-eem-vs-efa-2025.png]]
 *[[SPY]] · [[EEM]] · [[EFA]] · [[Emerging markets]] · [[Developed ex-US equities]]*
+
+![[ewj-vs-ewg-vs-ewu-vs-ewq-vs-ewl-vs-ewd-vs-ewa-vs-ewc-2025.png]]
+*[[Japan|EWJ]] · [[Germany|EWG]] · [[UK|EWU]] · [[France|EWQ]] · [[Switzerland|EWL]] · [[Sweden|EWD]] · [[Australia|EWA]] · [[Canada|EWC]]*
+
+![[ewz-vs-inda-vs-ewt-vs-ewy-vs-eww-vs-ewh-vs-eido-vs-eza-vs-tur-vs-epol-2025.png]]
+*[[Brazil|EWZ]] · [[India|INDA]] · [[Taiwan|EWT]] · [[South Korea|EWY]] · [[Mexico|EWW]] · [[Hong Kong|EWH]] · [[Indonesia|EIDO]] · [[South Africa|EZA]] · [[Turkey|TUR]] · [[Poland|EPOL]]*
 
 ![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png]]
 *[[XLK]] · [[XLF]] · [[XLE]] · [[XLV]] · [[XLI]] · [[XLY]] · [[XLP]] · [[XLU]] · [[XLRE]] · [[XLB]] · [[XLC]]*

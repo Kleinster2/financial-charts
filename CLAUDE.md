@@ -18,20 +18,6 @@ git add <files> && git commit -m "Description" && git push origin main
 
 If CI fails, fix forward or `git revert HEAD && git push origin main`.
 
-### Tool Error Recovery
-
-After Edit/Write tool errors, check for unintended modifications:
-```bash
-git status --short
-```
-
-If unexpected files modified, compare and restore:
-```bash
-git show HEAD:"path/to/file.md" | wc -l  # committed
-wc -l "path/to/file.md"                   # working
-git restore "path/to/file.md"             # restore if damaged
-```
-
 ---
 
 ## Tools & Locations
@@ -146,33 +132,7 @@ SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;
 
 ### Data freshness (CRITICAL)
 
-**If financial data is publicly available, do your utmost to find and ingest it.** The vault should never be behind publicly available data just because a third-party API hasn't synced yet.
-
-**When this rule fires:**
-- Generating or regenerating any fundamentals chart
-- Writing or updating actor notes with financial data
-- Processing earnings in daily news workflow
-
-**Procedure:**
-
-1. **Check** if the latest reported period is in the database — compare `fiscal_date_ending` to the company's most recent earnings release
-2. **Search** for numbers from earnings releases, press releases, or SEC filings
-3. **Verify currency** — match the reporting currency already in the database for that ticker
-4. **Insert manually** using correct schema, date format (`YYYY-MM-DD`), and all available fields
-5. **Mark preliminary data** — if results are preliminary (not final filing), note this in the actor note so it can be replaced later
-6. **Regenerate** affected charts so the vault reflects the latest public data
-7. **Replace when final** — when `fetch_fundamentals.py` picks up the final data, it will overwrite the manual entry
-
-```sql
--- Check what's in the database
-SELECT fiscal_date_ending, total_revenue/1e9, net_income/1e9
-FROM income_statement_quarterly WHERE ticker='STLA'
-ORDER BY fiscal_date_ending DESC LIMIT 4;
-
--- Insert preliminary result (will be overwritten by fetch_fundamentals.py later)
-INSERT INTO income_statement_quarterly (ticker, fiscal_date_ending, total_revenue, net_income, last_updated)
-VALUES ('STLA', '2025-12-31', 79000000000, -17800000000, datetime('now'));
-```
+**If financial data is publicly available, do your utmost to find and ingest it.** The vault should never be behind publicly available data just because a third-party API hasn't synced yet. Use `/earnings TICKER` for the full procedure.
 
 **Price data** also goes stale — run `python update_market_data.py --lookback 10` before generating price charts if data is more than a day old.
 
@@ -188,13 +148,7 @@ See `scripts/create_aiwd_index.py` for pattern — define weights dict, calculat
 
 ### Date Format (CRITICAL)
 
-All dates in `stock_prices_daily` use `'YYYY-MM-DD HH:MM:SS'`. **Never insert date-only format.**
-
-SQLite treats these as different strings → silent duplicates. Fix with:
-```sql
-DELETE FROM stock_prices_daily WHERE Date NOT LIKE '%00:00:00'
-AND (Date || ' 00:00:00') IN (SELECT Date FROM stock_prices_daily WHERE Date LIKE '%00:00:00');
-```
+All dates in `stock_prices_daily` use `'YYYY-MM-DD HH:MM:SS'`. **Never insert date-only format.** SQLite treats date-only and datetime as different strings → silent duplicates.
 
 ### Updating Prices
 
@@ -263,19 +217,11 @@ For charts that can't follow this pattern, add to `investing/chart-registry.md`.
 
 ---
 
-## Pending Design Decisions
-
-### Short interest charting
-Database/API/dashboard complete. Chart overlay pending — see `docs/PROPOSALS.md`.
-
-### Obsidian chart refresh plugin
-Implemented. See naming convention above and `docs/obsidian-chart-refresh-plugin.md`.
-
----
-
 ## Daily News Workflow
 
 Use `/news` skill for the full ingestion workflow (source discovery, date gate, article ingestion, earnings check, compliance). See `.claude/skills/news/SKILL.md`.
+
+Use `/earnings TICKER` to process earnings — check DB, find latest data, insert, regenerate charts, update notes. See `.claude/skills/earnings/SKILL.md`.
 
 ---
 
@@ -287,6 +233,10 @@ Use `/news` skill for the full ingestion workflow (source discovery, date gate, 
 - **Self-contained** — reader understands without clicking links
 - **Links over hierarchy** — structure from `[[connections]]`
 - **Daily notes as inbox** — capture first, extract when mature
+
+### Daily Note Update (CRITICAL)
+
+**Whenever processing news, earnings, or events — update today's daily note (`investing/Daily/YYYY-MM-DD.md`).** This is a **post-edit gate**: after updating actor/product/event notes, always add a summary entry to the daily note before considering the task done. If today's daily note doesn't exist yet, create it with a `#daily` tag.
 
 ### Entity Linking (CRITICAL)
 

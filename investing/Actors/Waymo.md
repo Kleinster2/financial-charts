@@ -240,6 +240,29 @@ Milestone: Waymo surpassed 20M autonomous trips (Alphabet disclosure, Feb 5 2026
 
 ---
 
+## 2026 expansion strategy (Feb 12 Bloomberg interview)
+
+Co-CEO Tekedra Mawakana outlined scale targets and international expansion:
+
+| Metric | Current | 2026 Target |
+|--------|---------|-------------|
+| Weekly paid rides | 450K+ | 1M (year-end) |
+| US cities active | 4 | 20+ |
+| London boroughs testing | 30+ of 60 | Commercial launch |
+| Tokyo | — | Launch with [[Nihon Kotsu]] / Go |
+
+US pipeline: Nashville (driverless testing started this week), Washington, Detroit, Las Vegas, San Diego, Denver — all planned with [[Lyft]] partnership.
+
+**London:** Testing in 30+ of 60 boroughs (~60% of city). Partnership with [[Moove]] for fleet operations. UK regulators described as "forward-leaning." If Labour government passes AV rules, commercial driverless service could launch this year — potentially the largest citywide deployment from start.
+
+**Tokyo:** Partnering with local taxi champions ([[Nihon Kotsu]], Go) — positioning autonomy as gradual evolution within trusted institutions.
+
+**Federal AV framework:** Mawakana advocated for US federal standards with safety-based and transparency requirements. NYC remains blocked — no rules allowing removal of human operator. Organic "I want Waymo" campaigns emerging in cities where service isn't available.
+
+**On Tesla:** Defended multi-sensor approach but did not rule out future sensor stack trimming for cost.
+
+---
+
 ## Competitive position
 
 | Competitor | Status | Waymo advantage |
@@ -313,6 +336,9 @@ Investors:
 
 Partners:
 - [[Uber]] — ride-hailing partnership (Austin, Atlanta)
+- [[Lyft]] — ride-hailing partner (Nashville, other 2026 launches)
+- [[Moove]] — fleet operations partner (London)
+- [[Nihon Kotsu]] — taxi partner (Tokyo)
 - [[Google DeepMind]] -- [[Genie 3]] world model for AV simulation
 - [[NVIDIA]] — competitor (Uber data partnership for AV training)
 

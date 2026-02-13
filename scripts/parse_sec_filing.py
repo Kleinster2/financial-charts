@@ -41,6 +41,54 @@ from urllib.error import HTTPError
 # SEC requires declared user agent
 USER_AGENT = "klein-financial-charts research@example.com"
 
+# Cache raw HTML to avoid re-downloading immutable filings
+CACHE_DIR = Path(__file__).resolve().parent.parent / "data" / "edgar_cache"
+
+
+def get_cache_path(filing_url: str) -> Path | None:
+    """Derive cache path from an EDGAR filing URL."""
+    match = re.search(r'/Archives/edgar/data/\d+/(\w+)/(.+)$', filing_url)
+    if not match:
+        return None
+    accession, doc = match.groups()
+    return CACHE_DIR / accession / doc
+
+
+def update_cache_index(accession: str, ticker: str, filing_type: str, filing_date: str, size: int):
+    """Record a cached filing in the index."""
+    index_path = CACHE_DIR / "cache_index.json"
+    index = {}
+    if index_path.exists():
+        index = json.loads(index_path.read_text(encoding='utf-8'))
+    index[accession] = {
+        "ticker": ticker.upper(),
+        "type": filing_type,
+        "date": filing_date,
+        "size": size,
+    }
+    index_path.write_text(json.dumps(index, indent=2), encoding='utf-8')
+
+
+def list_cache():
+    """Print cached filings."""
+    index_path = CACHE_DIR / "cache_index.json"
+    if not index_path.exists():
+        print("Cache is empty.")
+        return
+    index = json.loads(index_path.read_text(encoding='utf-8'))
+    if not index:
+        print("Cache is empty.")
+        return
+    # Sort by ticker then date
+    entries = sorted(index.values(), key=lambda e: (e["ticker"], e["date"]))
+    for e in entries:
+        size_mb = e["size"] / (1024 * 1024)
+        if size_mb >= 1:
+            size_str = f"{size_mb:.1f}M"
+        else:
+            size_str = f"{e['size'] / 1024:.0f}K"
+        print(f"{e['ticker']:<6} {e['type']:<6} {e['date']}  {size_str:>6}")
+
 
 def fetch_url(url: str) -> bytes:
     """Fetch URL with proper SEC headers."""
@@ -193,9 +241,15 @@ def main():
     parser.add_argument("--count", type=int, default=1, help="Number of filings to download (default: 1)")
     parser.add_argument("--save", help="Save output to file (prefix for multiple filings)")
     parser.add_argument("--raw", action="store_true", help="Keep raw HTML instead of stripping")
+    parser.add_argument("--no-cache", action="store_true", help="Skip cache, re-download from SEC")
+    parser.add_argument("--list-cache", action="store_true", help="List cached filings and exit")
     parser.add_argument("--quiet", action="store_true", help="Suppress status messages")
 
     args = parser.parse_args()
+
+    if args.list_cache:
+        list_cache()
+        return
 
     if not any([args.ticker, args.cik, args.url]):
         parser.print_help()
@@ -215,11 +269,22 @@ def main():
 
     # Process each filing
     for idx, (filing_url, filing_type, filing_date) in enumerate(filings):
-        log(f"Fetching: {filing_url}")
-
-        # Download filing
-        html_content = fetch_url(filing_url)
-        log(f"Downloaded: {len(html_content):,} bytes")
+        # Check cache first
+        cache_path = get_cache_path(filing_url) if not args.no_cache else None
+        if cache_path and cache_path.exists():
+            html_content = cache_path.read_bytes()
+            log(f"Cache hit: {cache_path} ({len(html_content):,} bytes)")
+        else:
+            log(f"Fetching: {filing_url}")
+            html_content = fetch_url(filing_url)
+            log(f"Downloaded: {len(html_content):,} bytes")
+            # Cache raw HTML
+            if cache_path:
+                cache_path.parent.mkdir(parents=True, exist_ok=True)
+                cache_path.write_bytes(html_content)
+                accession = cache_path.parent.name
+                update_cache_index(accession, args.ticker or args.cik or "unknown", filing_type, filing_date, len(html_content))
+                log(f"Cached: {cache_path}")
 
         # Process
         if args.raw:

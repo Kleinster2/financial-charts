@@ -1012,6 +1012,12 @@ def get_sp500_tickers():
     
     return tickers, sp500
 
+# Non-index B3 tickers tracked in the vault (not in Ibovespa but have actor notes)
+VAULT_BRAZIL_TICKERS = [
+    "RAIZ4.SA",   # Raizen — restructuring
+    "AMBP3.SA",   # Ambipar — judicial protection
+]
+
 def get_ibovespa_tickers():
     """Return a list of Ibovespa constituent tickers formatted for Yahoo Finance (ending with '.SA').
     Uses a static list (Ibovespa as of October 2025).
@@ -1026,7 +1032,7 @@ def get_ibovespa_tickers():
         "LREN3.SA","MGLU3.SA","MRFG3.SA","MRVE3.SA","MULT3.SA","NEOE3.SA","PETR3.SA","PETR4.SA","PRIO3.SA",
         "QUAL3.SA","RAIL3.SA","RENT3.SA","SANB11.SA","SBSP3.SA","SULA11.SA","SUZB3.SA","TAEE11.SA","TIMS3.SA",
         "TOTS3.SA","UGPA3.SA","USIM5.SA","VALE3.SA","VIVT3.SA","WEGE3.SA","YDUQ3.SA",
-    ]
+    ] + VAULT_BRAZIL_TICKERS
 
 # --- Main function to orchestrate the download ---
 def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = None):

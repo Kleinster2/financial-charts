@@ -11,6 +11,7 @@
 | Segment breakdown | 10-K, 10-Q | Investor presentations |
 | Guidance | Earnings calls, 8-K | News coverage |
 | Ownership/cap table | Proxy (DEF 14A), 13-F | News (flag as estimate) |
+| Bond prices/yields | Bloomberg terminal | BondbloX (free yield/Z-spread/duration; news articles have actual prices) |
 
 Non-filing sources: note it — "~210k employees (company website, Jan 2026)"
 

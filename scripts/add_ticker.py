@@ -145,7 +145,22 @@ def add_tickers(tickers, database_path='market_data.db'):
         cursor.execute('DROP INDEX IF EXISTS ix_stock_prices_daily_staging_Date')
         conn.commit()
 
-        existing.astype(float).to_sql('stock_prices_daily_staging', conn, if_exists='replace', index=True, index_label='Date')
+        # Build CREATE TABLE with properly quoted column names (handles dots in tickers)
+        float_cols = existing.columns.tolist()
+        col_defs = ', '.join([f'"{col}" REAL' for col in float_cols])
+        cursor.execute(f'CREATE TABLE stock_prices_daily_staging ("Date" TEXT, {col_defs})')
+        conn.commit()
+
+        # Insert data in chunks
+        placeholders = ', '.join(['?'] * (len(float_cols) + 1))
+        insert_sql = f'INSERT INTO stock_prices_daily_staging VALUES ({placeholders})'
+        df_out = existing.astype(float)
+        for i in range(0, len(df_out), 5000):
+            chunk = df_out.iloc[i:i+5000]
+            rows = [(idx.strftime('%Y-%m-%d %H:%M:%S') if hasattr(idx, 'strftime') else str(idx), *vals)
+                    for idx, vals in zip(chunk.index, chunk.values.tolist())]
+            cursor.executemany(insert_sql, rows)
+        conn.commit()
 
         # Atomic swap
         cursor.execute('DROP TABLE IF EXISTS stock_prices_daily_old')
