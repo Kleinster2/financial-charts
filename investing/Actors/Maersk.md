@@ -61,6 +61,19 @@ aliases: [A.P. Moller-Maersk]
 
 ---
 
+## Panama Canal ports — APM Terminals tapped to replace [[CK Hutchison]] (Feb 2026)
+
+Panama authorities asked APM Terminals (Maersk subsidiary) to temporarily take over operations of Balboa and Cristóbal ports after the Supreme Court ruled [[CK Hutchison]]'s concession unconstitutional.
+
+- [[CK Hutchison]] threatened legal action against Maersk (Feb 12, 2026)
+- APM Terminals said it was not party to the legal dispute — offered to step in "to mitigate risks to essential services for regional and global trade"
+- Maersk shares fell 3%+ in Copenhagen on the news
+- Geopolitical flashpoint: US-China proxy battle, with Panama caught between
+
+Risk: legal liability from CKH arbitration. Opportunity: operating two of the world's most strategic port positions.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -84,5 +97,7 @@ aliases: [A.P. Moller-Maersk]
 - [[COSCO]] — competitor
 - [[CMA CGM]] — competitor
 - [[Amazon]] — logistics competitor
+- [[CK Hutchison]] — Panama ports dispute (APM Terminals tapped to replace)
+- [[Panama]] — port operations flashpoint
 
-*Updated 2026-01-10*
+*Updated 2026-02-13*
