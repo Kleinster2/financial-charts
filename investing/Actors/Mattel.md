@@ -76,13 +76,47 @@ Cost savings: $50M expected in 2026, total program raised to $225M.
 
 ---
 
+## Mattel Studios (film & TV)
+
+In June 2025, Mattel merged its Films and Television divisions into **Mattel Studios**, led by Robbie Brenner (produced the Barbie movie). This is the core of the IP monetization strategy post-Barbie.
+
+| Project | Studio partner | Status | Notes |
+|---------|---------------|--------|-------|
+| Barbie (2023) | [[Warner Bros. Discovery\|WBD]] | Released | $1.4B box office, proved the model |
+| Masters of the Universe | [[Amazon\|MGM]] | **June 5, 2026** | Directed by Travis Knight (Laika). First trailer Jan 2026 |
+| Matchbox | TBD | Expected 2026 | Live-action |
+| Hot Wheels | TBD | In development | Live-action |
+| Barney | TBD | In development | Live-action |
+| Thomas & Friends | TBD | In development | Live-action |
+| American Girl | TBD | In development | — |
+| Polly Pocket | [[Lionsgate]] | In development | Lily Collins attached |
+| Magic 8 Ball | TBD | In development | — |
+| Rock 'Em Sock 'Em Robots | [[Universal]] | In development | — |
+| Barbie 25th anniversary | — | 2026 | Animated special |
+| Tony the Tattooed Man | TBD | Early development | Tracie Laymon directing |
+
+Mattel has 14+ projects in various stages. The pipeline is the bull case — if Masters of the Universe lands, it validates the repeatable IP-to-film model beyond Barbie.
+
+---
+
+## Hasbro contrast (Feb 2026)
+
+Reuters called it "a tale of two toymakers." Both gave weak 2026 guidance, but:
+- [[Hasbro]] shares +9% — Wizards of the Coast/digital gaming segment revenue +86%, Magic: The Gathering +141%, 45% operating margin
+- Mattel shares -27% — worst single-day drop in 20+ years
+
+The gap: Hasbro already has a scaled digital gaming business. Mattel is investing $110M in 2026 to build one (via [[Mattel163]] acquisition + new initiatives), but it's margin-dilutive in the near term. D.A. Davidson: "Mattel is in the early stages of an investment similar to Hasbro's investment in gaming over seven years ago."
+
+---
+
 ## IP & entertainment strategy
 
 Mattel has pivoted from toy manufacturer to IP company:
 - Barbie movie (2023): $1.4B box office, proved entertainment value of toy IP
-- Film pipeline: [[Hot Wheels]], Polly Pocket, American Girl, Masters of the Universe
-- Digital: Mattel163 mobile games, first-party data platform
+- Film pipeline: 14+ projects via Mattel Studios (see above)
+- Digital: [[Mattel163]] mobile games (full acquisition from [[NetEase]]), $110M digital investment in 2026
 - D2C: Mattel Creations (limited drops, collectors)
+- First-party data platform + AI investments
 
 ---
 
@@ -128,6 +162,9 @@ Bear:
 - [[Fisher-Price]] — core brand (declining)
 - [[Consumer]] — sector
 - [[Teenage Mutant Ninja Turtles]] — licensed brand (2027+)
+- [[Hasbro]] — competitor with superior digital gaming (Wizards of the Coast)
+- [[NetEase]] — former JV partner ([[Mattel163]])
+- [[Mattel163]] — mobile games studio (full acquisition pending)
 
 ---
 
