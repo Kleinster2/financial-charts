@@ -1,9 +1,9 @@
 ---
-aliases: [ANET]
+aliases: [ANET, Arista]
 ---
-#actor #semiconductor #networking #usa #public
+#actor #networking #usa #public
 
-**Arista Networks** — Data center switches. AI cluster networking. 400G/800G leader.
+**Arista Networks** (ANET) — Cloud networking company. Data center switches. AI cluster networking. 400G/800G leader. Founded 2004, HQ Santa Clara.
 
 ---
 
@@ -40,6 +40,7 @@ Critical AI infrastructure:
 
 | Product | Use Case |
 |---------|----------|
+| EOS | Extensible Operating System — cloud-native, software-defined |
 | 7800R3 | Spine switches |
 | 7060X | Leaf switches |
 | 7130 | Ultra-low latency |
@@ -169,6 +170,9 @@ Blowout quarter — first time crossing $1B quarterly net income.
 - [[NVIDIA]] — competitor (InfiniBand) and adjacent (GPU clusters)
 - [[Broadcom]] — supplier (merchant silicon)
 - [[Cisco]] — competitor (legacy networking)
+- [[HPE]] — competitor (via [[Juniper Networks]])
 - [[Credo Semiconductor]] — adjacent (cables in same clusters)
 - [[AI hyperscalers]] — customer category
+- [[Data Centers]] — customer vertical
+- [[AI infrastructure]] — growth driver
 
