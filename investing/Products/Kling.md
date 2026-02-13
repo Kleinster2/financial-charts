@@ -5,6 +5,7 @@ aliases:
   - Kling 2.0
   - Kling 2.5
   - Kling 2.6
+  - Kling 3.0
 tags:
   - product-family
   - ai
@@ -16,18 +17,18 @@ parent_concept: "[[Generative AI]]"
 
 # Kling
 
-[[Kuaishou]]'s video generation model. Longest duration in category (3 minutes). Kling 2.6 (Dec 2025) first to generate synchronized audio. $240M ARR, 22M users.
+[[Kuaishou]]'s video generation model. Longest duration in category (3 minutes). Kling 3.0 (Feb 4, 2026) introduced native 4K, 15-second multi-shot clips, and "AI Director" paradigm. $240M ARR, 60M+ creators, 600M+ videos generated.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Current version | Kling 2.6 (Dec 2025) |
-| Max duration | **3 minutes** (vs 40s Runway, 35s Sora) |
-| Resolution | Up to 1080p @ 48fps |
+| Current version | **Kling 3.0** (Feb 4, 2026) |
+| Max duration | 15 seconds per generation (multi-shot), 3 min via chaining |
+| Resolution | **Native 4K @ 60fps** (up from 1080p @ 48fps) |
 | ARR | $240M (Dec 2025) |
-| Users | 22M+ |
-| Videos generated | 168M+ |
+| Users | 60M+ creators |
+| Videos generated | 600M+ |
 
 ---
 
@@ -40,7 +41,8 @@ parent_concept: "[[Generative AI]]"
 | Kling 2.0 | Apr 2025 | Major upgrade |
 | Kling 2.1 | May 2025 | Quality modes |
 | Kling 2.5 | Sep 2025 | 40% faster, 30% cheaper |
-| **Kling 2.6** | Dec 2025 | **Synchronized audio** |
+| Kling 2.6 | Dec 2025 | Synchronized audio |
+| **Kling 3.0** | **Feb 4, 2026** | **Native 4K, 60fps, AI Director (6-shot), 15s clips, lip-sync in 5 languages, reference video input** |
 
 ---
 
@@ -72,16 +74,37 @@ First AI video model with synchronized audio in single pass:
 
 ---
 
+## Kling 3.0 — "AI Director" paradigm (Feb 2026)
+
+Major architectural leap. Kuaishou calls it a "unified multimodal framework" — generates synchronized video and audio in a single pass via Multi-modal Visual Language (MVL) training.
+
+| Feature | Kling 2.6 | Kling 3.0 |
+|---------|-----------|-----------|
+| Resolution | 1080p | **Native 4K** |
+| Frame rate | 48fps | **60fps** |
+| Duration | 10s | **15s** |
+| Multi-shot | No | **Up to 6 shots per clip** |
+| Reference video | No | **Yes** |
+| Lip-sync languages | 2 | **5** (CN, EN, JP, KR, ES) |
+| Audio | Generated separately | **Native single-pass** |
+
+**AI Director:** Instead of generating isolated clips and stitching in post, Kling 3.0 generates up to 6 distinct camera shots within a single 15-second generation. This enables storyboard-style filmmaking from a single prompt.
+
+**Competitive context:** Launched same week as [[Seedance]] 2.0 ([[ByteDance]]). Chinese AI video models are leapfrogging US competitors ([[Sora]], [[Runway Gen]]) on features and accessibility.
+
+---
+
 ## Key capabilities
 
 | Feature | Details |
 |---------|---------|
-| Duration | Up to 3 minutes (industry-leading) |
-| Resolution | 1080p @ 30-48fps |
+| Duration | Up to 3 minutes (via chaining), 15s per generation |
+| Resolution | Native 4K @ 60fps |
 | Motion control | Full-body, martial arts, dance |
 | Hand rendering | Artifact-free |
-| Input modes | Text-to-video, image-to-video |
-| Audio | Native generation (2.6+) |
+| Input modes | Text-to-video, image-to-video, **reference-to-video** |
+| Audio | Native generation (single-pass) |
+| Multi-shot | Up to 6 shots per clip |
 
 ---
 
@@ -113,5 +136,6 @@ Key differentiator: Duration + native audio.
 - [[Sora]] — competitor
 - [[Runway Gen]] — competitor
 - [[Pika]] — competitor
+- [[Seedance]] — competitor ([[ByteDance]])
 - [[Generative AI]] — category
 - [[China]] — market
