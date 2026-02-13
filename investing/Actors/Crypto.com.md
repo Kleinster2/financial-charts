@@ -32,6 +32,8 @@
 | 2016 | Founded as "Monaco" in Hong Kong |
 | 2017 | $26.7M ICO |
 | 2018 | Acquired crypto.com domain (~$5-10M from Matt Blaze) |
+| **Feb 2026** | **Acquired AI.com for $70M (record domain sale) — paid in crypto** |
+| Feb 2026 | Launched AI.com agentic AI product at [[Super Bowl LX]] |
 | 2018 | Rebranded to Crypto.com |
 | 2021 | User base 10M → 100M by 2024 |
 | 2021 | Staples Center renamed Crypto.com Arena |
@@ -125,3 +127,6 @@
 - [[Truth Social]] — Truth Predict partnership
 - [[CFTC]] — regulator
 - [[Crypto]] — core business
+- [[AI.com Domain Sale 2026]] — $70M domain acquisition
+- [[Super Bowl LX]] — AI.com launch event
+- [[Crypto Super Bowl 2022]] — historical context
