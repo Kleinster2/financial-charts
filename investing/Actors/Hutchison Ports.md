@@ -1,6 +1,6 @@
 # Hutchison Ports
 
-World's leading port investor/operator by global reach. Subsidiary of CK Hutchison (Li Ka-shing family).
+World's leading port investor/operator by global reach. Subsidiary of [[CK Hutchison]] ([[Li Ka-shing]] family).
 
 ## Key Data
 
