@@ -13,11 +13,16 @@ Critical AI infrastructure:
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ANET |
+| Ticker | ANET (NYSE) |
 | Market cap | ~$120B |
-| Revenue | ~$6.5B |
-| Growth | 25%+ |
-| Focus | Data center switches |
+| Revenue (FY2025) | $9.0B (+28.6% YoY) |
+| Q4 2025 revenue | $2.49B (+28.9% YoY, +7.8% QoQ) |
+| Q4 GAAP EPS | $0.75 (+21% YoY) |
+| Q4 non-GAAP EPS | $0.82 (+24% YoY) |
+| Q4 non-GAAP GM | 63.4% |
+| Q4 operating margin | 47.5% |
+| Q1 2026 guide | $2.6B |
+| Focus | Data center switches, AI networking |
 
 ---
 
@@ -108,16 +113,52 @@ Arista benefits from Ethernet adoption in AI.
 
 ---
 
+## Q4 2025 / FY2025 Earnings (Feb 12, 2026)
+
+Blowout quarter — first time crossing $1B quarterly net income.
+
+| Metric | Q4 2025 | Q4 2024 | YoY |
+|--------|---------|---------|-----|
+| Revenue | $2.49B | $1.93B | +28.9% |
+| GAAP GM | 62.9% | 63.8% | -90bps |
+| Non-GAAP GM | 63.4% | 64.2% | -80bps |
+| GAAP net income | $955.8M | $801.0M | +19.3% |
+| Non-GAAP net income | $1.047B | $849.6M | +23.2% |
+| GAAP EPS | $0.75 | $0.62 | +21% |
+| Non-GAAP EPS | $0.82 | $0.66 | +24% |
+
+| Metric | FY2025 | FY2024 | YoY |
+|--------|--------|--------|-----|
+| Revenue | $9.006B | $7.003B | +28.6% |
+| GAAP net income | $3.511B | $2.852B | +23.1% |
+| GAAP EPS | $2.75 | $2.23 | +23.3% |
+| Non-GAAP EPS | $2.98 | $2.32 | +28.4% |
+
+**Key highlights:**
+- 150 million cumulative ports shipped milestone
+- Acquired **VeloCloud SD-WAN** portfolio from [[Broadcom]]
+- Launched R4 series platforms for AI/data center networking
+- Arista AVA: agentic AI for network operations
+- ESUN (Ethernet for Scale-Up Networks) initiative with OCP
+- Todd Nightingale appointed President
+- **Q1 2026 guidance: $2.6B revenue** — implies continued ~25%+ growth
+
+**Margin compression note:** Non-GAAP GM ticked down from 65.2% (Q3) to 63.4% (Q4) — likely mix shift toward higher-bandwidth AI networking equipment (400G/800G), which carries lower margins but higher ASPs.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Ticker | ANET |
+| Ticker | ANET (NYSE) |
 | Market cap | ~$120B |
-| Focus | Data center switches |
-| Key customers | Microsoft, Meta |
+| Revenue (FY2025) | $9.0B |
+| Focus | Data center switches, AI networking |
+| Key customers | [[Microsoft]], [[Meta]] |
+| Q1 2026 guide | $2.6B |
 
-*Updated 2026-01-01*
+*Updated 2026-02-13*
 
 ---
 

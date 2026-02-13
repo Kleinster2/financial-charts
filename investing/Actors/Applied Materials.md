@@ -84,14 +84,47 @@ This is a structural tailwind — more complex transistors = more AMAT tools per
 
 ---
 
+## Q1 FY2026 Earnings (Feb 12, 2026)
+
+Fiscal quarter ended January 25, 2026. Beat EPS estimates, stock initially dipped ~3% after-hours then recovered +12%.
+
+| Metric | Q1 FY2026 | Q1 FY2025 | YoY |
+|--------|-----------|-----------|-----|
+| Revenue | $7.01B | $7.15B | -2% |
+| GAAP GM | 49.0% | 48.8% | +20bps |
+| GAAP operating margin | 26.1% | 30.4% | -430bps |
+| GAAP EPS | $2.54 | $1.45 | +75% |
+| Non-GAAP EPS | $2.38 | $2.41 | -1% |
+| Cash from ops | $1.69B | — | — |
+| Non-GAAP free cash flow | $1.04B | — | +91% YoY |
+| Capital returned | $702M | — | ($337M buybacks, $365M dividends) |
+
+**Key highlights:**
+- **Record DRAM revenue** in Semiconductor Systems segment
+- **Record services and spares revenue** in Applied Global Services
+- [[HBM]] demand visibility "through multiple quarters" — patterning, dielectric, advanced packaging, TSV
+- Advanced packaging called "strong growth vector" — hybrid bonding, wafer-level packaging
+- [[China]]: mixed — mature nodes steady, leading-edge restricted by [[export controls]]
+- Book-to-bill around unity, backlog remains elevated
+- No material order cancellations; some timing shifts described as typical
+- **Q2 FY2026 guide: $7.65B ± $500M revenue, non-GAAP EPS $2.64 ± $0.20** — implies acceleration
+
+**Revenue dip context:** The -2% YoY is against a tough comp (Q1 FY2025 was $7.15B). Sequential +3% from Q4 FY2025. Guidance for Q2 at $7.65B midpoint would be a meaningful step-up.
+
+**"Sell the news" pattern:** StockTitan flagged that AMAT has declined after each of its last 5 earnings beats. This time may be different — stock up 12% post-release.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | AMAT (NASDAQ) |
-| Revenue | ~$27B (FY24) |
+| Revenue | ~$28.4B (FY2025 record) |
+| Q1 FY2026 revenue | $7.01B |
+| Q2 FY2026 guide | $7.65B ± $500M |
 | Segment | Diversified WFE |
-| Primary customers | TSMC, Samsung, [[Intel]], [[Micron]] |
+| Primary customers | [[TSMC]], [[Samsung]], [[Intel]], [[Micron]] |
 
 ---
 
