@@ -18,6 +18,9 @@ aliases: [Repsol SA, REP.MC, REPYY]
 | Dividend yield | ~4.5% forward |
 | CEO | Josu Jon Imaz (since 2014) |
 
+![[repyy-vs-shel-vs-bp-vs-tte-vs-bno-price-chart.png]]
+*Repsol, Shell, and TotalEnergies have all significantly outperformed Brent crude (BNO, ~+30%) since 2020. BP is the laggard, tracking the commodity itself. TTE leads at ~+100% on renewables and LNG positioning.*
+
 ---
 
 ## Business segments
@@ -33,6 +36,19 @@ Net income 9M 2025: EUR 1.177B (down 34% YoY on lower crude prices).
 
 ---
 
+## Financials
+
+| Year | Revenue (EUR B) | Net income (EUR B) | Dividend/share (EUR) |
+|------|-----------------|--------------------|-----------------------|
+| 2022 | 79.3 | 3.22 | 0.70 |
+| 2023 | 55.3 | 3.11 | 0.85 |
+| 2024 | 56.4 | 1.76 | 0.975 |
+| 9M 2025 | — | 1.18 | — |
+
+Shareholder returns target: EUR 10B through 2027 (30-35% of CFFO). EUR 700M buyback in 2025. Dividend rising to >EUR 1.00/share in 2026, EUR 1.10 target by 2027.
+
+---
+
 ## Production & reserves
 
 | Metric | Value |
@@ -43,7 +59,7 @@ Net income 9M 2025: EUR 1.177B (down 34% YoY on lower crude prices).
 | Reserve mix | 37% oil / 63% gas |
 | Production mix | 34% liquids / 66% gas |
 
-**Key upstream assets:**
+Key upstream assets:
 - [[Marcellus Shale]] — ~187 kboe/d, Appalachia gas anchor
 - Eagle Ford — Texas shale
 - Pikka (Alaska) — 49% stake (Santos 51%), first oil expected early 2026, 80 kboe/d capacity
@@ -65,7 +81,7 @@ EIG holds 25% stake in upstream unit (valued at $19B incl. debt in 2022 deal).
 | Puertollano | Castile-La Mancha, Spain | 150,000 |
 | A Coruña | Galicia, Spain | 120,000 |
 | La Pampilla | Lima, Peru (51%) | 102,000 |
-| **Total** | | **~998,000** |
+| Total | | ~998,000 |
 
 Near-monopoly on Iberian refining — 5 of Spain's 9 refineries.
 
@@ -73,20 +89,18 @@ Near-monopoly on Iberian refining — 5 of Spain's 9 refineries.
 
 ## Energy transition & catalysts
 
-**2024-2027 Strategic Plan:**
+2024-2027 Strategic Plan:
 - EUR 16-19B net investment; >35% allocated to low-carbon
 - Iberian Peninsula: 60% of capex; US: 25%
 - Target: 30% increase in cash generated per barrel by 2027
 - Net-zero by 2050
 
-**Key projects (2026):**
-- **Pikka Phase 1** — first oil early 2026, 80 kboe/d
-- **Puertollano renewable fuels plant** — 200k tonnes/year capacity
-- **Green hydrogen** — 100 MW electrolyzer at Cartagena (IPCEI-funded)
-- **Sines biomethane plant** (Portugal)
-- **Upstream liquidity event** — potential IPO or reverse merger with [[APA Corporation]]; exploratory talks for NYSE listing
-
-**Shareholder returns target:** EUR 10B through 2027 (30-35% of CFFO); EUR 700M buyback in 2025; dividend rising to >EUR 1.00/share in 2026.
+Key projects (2026):
+- Pikka Phase 1 — first oil early 2026, 80 kboe/d
+- Puertollano renewable fuels plant — 200k tonnes/year capacity
+- Green hydrogen — 100 MW electrolyzer at Cartagena (IPCEI-funded)
+- Sines biomethane plant (Portugal)
+- Upstream liquidity event — potential IPO or reverse merger with [[APA Corporation]]; exploratory talks for NYSE listing
 
 ---
 
@@ -98,7 +112,7 @@ Near-monopoly on Iberian refining — 5 of Spain's 9 refineries.
 | [[TotalEnergies]] | ~$150B | ~2,500 | ~19 GW | Most aggressive green buildout |
 | [[BP]] | ~$90B | ~2,300 | Scaled back | Pivoted back to fossil fuels |
 | [[Eni]] | ~$50B | ~1,700 | Bio-refinery | Mediterranean gas focus |
-| **Repsol** | **~$23B** | **~550** | **~5 GW** | **Balanced; renewable fuels niche** |
+| Repsol | ~$23B | ~550 | ~5 GW | Balanced; renewable fuels niche |
 
 Repsol's edge: renewable fuels leadership (Nexa Diesel), dominant Iberian refining position, US-facing growth via upstream IPO path. Smallest major but highest dividend yield in the group.
 
@@ -106,14 +120,14 @@ Repsol's edge: renewable fuels leadership (Nexa Diesel), dominant Iberian refini
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Pikka Phase 1 adds ~40 kboe/d net production in 2026
 - Upstream IPO/relisting could unlock value (EIG 2022 valuation: $19B vs ~$23B total mkt cap)
 - Renewable fuels differentiation — ahead of peers
 - Cheap vs European majors on production multiple
 - Rising dividend (EUR 0.975 → >EUR 1.00 → EUR 1.10 by 2027)
 
-**Bear:**
+Bear:
 - Oil price sensitivity — net income fell 34% in 9M 2025
 - Rising net debt (+EUR 1.2B since June 2025)
 - Iberian concentration (60% of investment) — single-country regulatory risk
