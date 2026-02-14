@@ -270,6 +270,31 @@ Some mid-market lenders still securing conventional covenants. But competitive p
 
 ---
 
+## Software concentration risk (Feb 2026)
+
+The biggest emerging risk in private credit — software/tech is now the largest sector concentration, and AI disruption threatens the underlying cash flows.
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Software share of BDC investments | ~17% by deal count (#2 sector) | PitchBook |
+| Software in speculative-grade credit | $597B-$681B (14-16%) | Deutsche Bank |
+| Default rate — aggressive AI disruption | **13%** (vs 8% lev loans, 4% HY) | UBS |
+| Software share of PIK loans | #1 sector | PitchBook LCD |
+
+**The mechanism:** PE firms loaded up on software buyout debt since 2020 — attracted by recurring revenue, high margins, sticky customers. But AI (especially agentic AI) threatens to replicate what enterprise software charges for, weakening cash flows → defaults rise.
+
+**Trigger (Feb 2026):** Anthropic's new AI tools sparked a software selloff. Private credit stocks followed: [[Ares Management]] -12%, [[Blue Owl]] -8%, [[KKR]] -10%, [[TPG]] -7%.
+
+**Still lending:** Despite warnings, firms keep deploying — Blue Owl led $1.4B for OneStream (Hg buyout), Ares leading €1.4B for EG A/S (Scandinavian software). The incentive structures haven't changed.
+
+**Jamie Dimon's "cockroaches"** (late 2025): Stress in one borrower signals more hidden trouble. Software PIK loans are the tell — borrowers deferring interest payments because cash flows aren't there.
+
+**Kenny Tang (PitchBook LCD):** "AI disruption could be a credit risk for some Software & Services sector borrowers... depends on which ones are behind the AI curve and which ones are on top of it."
+
+**Mark Zandi (Moody's):** "There will surely be significant credit problems... the private credit industry is probably currently able to absorb any losses reasonably well, this may not be the case a year from now if the current credit growth continues."
+
+---
+
 ## For theses
 
 - **Long private credit (HPS, Blue Owl)**: Growing market, but watch cov-lite exposure
@@ -293,4 +318,9 @@ Some mid-market lenders still securing conventional covenants. But competitive p
 - [[Preqin]] — private markets data provider ($1.7T figure)
 - [[BlackRock]] — acquiring HPS, $3.5T 2028 forecast
 
-*Updated 2026-01-15*
+- [[Ares Management]] — software exposure ~6% of total assets
+- [[KKR]] — PE/credit, software-heavy
+- [[TPG]] — PE/credit exposure
+- [[Wesleyan Endowment]] — endowment with 25% VC allocation, AI disruption exposure
+
+*Updated 2026-02-13*
