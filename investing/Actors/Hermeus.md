@@ -18,6 +18,7 @@ Hermeus -- hypersonic aircraft company developing Mach 5+ autonomous aircraft fo
 | Employees | 275+ |
 | Locations | Atlanta, Los Angeles, DC, Jacksonville |
 | Total raised | $239-358M |
+| Valuation | ~$985M (2026 est.) |
 | Focus | Hypersonic aircraft (Mach 5+) |
 
 ---
@@ -33,7 +34,7 @@ Hermeus -- hypersonic aircraft company developing Mach 5+ autonomous aircraft fo
 | President | Zachary Shore |
 | CTO | Steve Furger |
 
-Piplica previously led Generation Orbit Launch Services (X-60A program, a USAF X-plane).
+All four co-founders previously worked at Generation Orbit Launch Services (X-60A, a USAF X-plane) and have roots at Georgia Tech / SpaceWorks Enterprises. Smayda and Shuford are former [[SpaceX]]. Shuford also ex-[[Northrop Grumman]] and Aerojet. Case is ex-[[Blue Origin]].
 
 ---
 
@@ -45,7 +46,7 @@ Piplica previously led Generation Orbit Launch Services (X-60A program, a USAF X
 | Series B | Mar 2022 | $100M | [[Sam Altman]] |
 | Latest | Jun 2024 | $40M | -- |
 
-Series B investors: [[Founders Fund]], [[In-Q-Tel]], [[Khosla Ventures]], Canaan Partners, Bling Capital. RTX Ventures also invested (undisclosed).
+Series B investors: [[Founders Fund]], [[In-Q-Tel]], [[Khosla Ventures]], Canaan Partners, Bling Capital, Revolution's Rise of the Rest. RTX Ventures also invested (undisclosed) -- their first-ever investment. 25+ total investors per PitchBook.
 
 ---
 
@@ -63,15 +64,38 @@ Iterative development toward Mach 5:
 | Mk 3 | In development | Mach 3.3+ |
 | Final | Target 2026 | Mach 5 |
 
-### Darkhorse (production)
+### Darkhorse (military UAS)
 
-Uncrewed hypersonic military jet designed for mass production. Multi-mission reusable UAS for defense and national security. Powered by Chimera II engine (tested on Quarterhorse Mk 3 first, then mass-produced for Darkhorse). Targeting USAF arsenal within the decade.
+Uncrewed hypersonic military jet designed for mass production. Multi-mission reusable UAS for ISR and strike in contested environments. 1,000+ lb payload. Powered by Chimera II engine (tested on Quarterhorse Mk 3 first, then mass-produced for Darkhorse). Target first flight ~2027. Targeting USAF arsenal within the decade.
+
+### Halcyon (commercial passenger -- aspirational)
+
+| Spec | Value |
+|------|-------|
+| Speed | Mach 5 (~3,300 mph) |
+| Passengers | ~20 |
+| Range | 4,600 miles (125+ routes) |
+| NYC-London | ~90 minutes |
+| Altitude | 100,000+ feet |
+| Target price | Business class fares |
+| First test flight | ~2029 (aspirational) |
+
+Analyst skepticism: Richard Aboulafia estimated odds in the "1% range" of achieving hypersonic transport at business class prices by late 2030s.
 
 ---
 
 ## Propulsion: Chimera engine
 
 Turbine-based combined cycle (TBCC) -- hybrid turbojet/ramjet. Pre-cooled turbine transitions to ramjet at high Mach. Enables takeoff from runway, acceleration through sound barrier, and cruise at Mach 5+. No rocket boost needed.
+
+| Detail | Value |
+|--------|-------|
+| Development | Built in 21 months for $18M |
+| 3D printing | 15% of engine is additively manufactured |
+| Key milestone | Nov 2022: turbojet-to-ramjet mode transition demonstrated at Notre Dame Turbomachinery Lab (simulated up to Mach 4) |
+| Precooler | Proprietary tech lowering inlet air temp, extending turbine operating range |
+
+First commercially-developed TBCC engine. Uses off-the-shelf gas turbine cores (saves billions vs clean-sheet).
 
 ---
 
@@ -83,12 +107,19 @@ Turbine-based combined cycle (TBCC) -- hybrid turbojet/ramjet. Pre-cooled turbin
 | USAF STRATFI | 2021 | $60M | 3-year: build/test 3 Quarterhorse aircraft + propulsion |
 | DIU HyCAT | 2023 | $23M/yr | Multi-year hypersonic capability demonstration |
 | SBIR Phase II | Ongoing | -- | Hypersonic analysis for OUSD R&E, AFRL, PACAF |
+| Kratos MACH-TB 2.0 | 2025 | Part of $1.45B prime | Quarterhorse as test platform for Navy/MDA hypersonic test bed |
 
 ---
 
-## Project Ranger
+## Facilities
 
-Groundbreaking on 1,000-acre hypersonic manufacturing campus in New Mexico. Intended for Darkhorse mass production.
+| Location | Purpose | Status |
+|----------|---------|--------|
+| Atlanta, GA | HQ, manufacturing, Mk 2 assembly | Operational |
+| Cecil Airport, Jacksonville, FL | HEAT facility (engine testing) | $135M investment, 100+ jobs. Sea-level static tests started late 2024. Weekly flight-test cadence expected 2026 |
+| Spaceport America, NM | Mk 2.1 flight testing | Mk 2.1 arrived Jan 2026 |
+| Edwards AFB, CA | Mk 1 flight testing | Completed May 2025 |
+| Project Ranger, NM | 1,000-acre hypersonic manufacturing campus | Groundbreaking. Intended for Darkhorse mass production |
 
 ---
 
