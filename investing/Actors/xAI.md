@@ -326,6 +326,22 @@ See [[AI infrastructure financing]].
 
 **Musk quote:** "Within 2 to 3 years, the lowest cost to generate AI compute will be in space."
 
+### Lunar factory & MassDriver (Feb 10, 2026)
+
+At an xAI all-hands meeting, Musk told employees the company should build a factory on the Moon to manufacture AI satellites, and use a massive electromagnetic catapult (mass driver) dubbed **"MassDriver"** to launch them into orbit.
+
+| Element | Detail |
+|---------|--------|
+| Concept | Lunar factory producing AI satellites |
+| Launch system | Electromagnetic mass driver (space catapult) |
+| Rationale | "You have to go to the Moon" — scaling AI compute beyond Earth's constraints |
+| Moon city | Self-sustaining city on Moon in <10 years |
+| Mars | Pushed to 20+ years (was previously 5-7 year timeline) |
+
+**Context:** This represents Musk's Mars-to-Moon pivot. He spent years denigrating lunar missions as a "distraction" from Mars — now the Moon is "faster" for securing civilization. SpaceX filed for 1M satellite authorization (Jan 30, 2026). The "sentient sun" concept = vast constellation of AI satellites forming an orbital intelligence network.
+
+*Source: NYT, Feb 10 2026*
+
 See [[SpaceX xAI merger]] for full analysis.
 
 ---
