@@ -243,6 +243,44 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
+## Aardvark — security research agent (Feb 2026)
+
+**Aardvark** is [[OpenAI]]'s AI-powered security research agent — the first product in its planned **Codex Security** suite. It uses frontier models to autonomously find security vulnerabilities in codebases.
+
+| Detail | Value |
+|--------|-------|
+| Product type | Security research agent (automated vuln discovery) |
+| Launch | ~Oct/Nov 2025 (private beta) |
+| Status | **Expanding private beta** (Feb 2026) |
+| Led by | [[Matt Knight]] (VP/CISO, first security hire — resigned Jan 2026 after launch) |
+| Pricing | Not public (beta) |
+| Branding | First "Codex Security" product |
+
+**Key milestones:**
+- Launched in private beta ~Q4 2025 under Matt Knight's security product team
+- Feb 5, 2026 (GPT-5.3-Codex launch): OpenAI announced expanded Aardvark beta alongside "Trusted Access for Cyber" pilot and $10M API credits for OSS/critical infrastructure cyber defense
+- Used to identify disclosed vulnerabilities in widely-used OSS projects (e.g., [[Next.js]])
+- Knight resigned ~late Jan 2026, calling Aardvark "one of the most fulfilling chapters" — Sam Altman publicly credited him for the launch
+
+**Strategic significance:**
+- **Enterprise security push** — moves OpenAI beyond consumer chatbot and API into security tooling, a high-value enterprise vertical
+- **Code generation → code security pipeline** — LLMs generate more code, creating more vulnerabilities; OpenAI is trying to own both sides of the equation
+- **Early mover among AI labs** — [[Anthropic]] launched Claude Code "security review" command + GitHub Action; [[AWS]] built security agents; but all described as "demoware" by industry analysts (Boring AppSec, Jan 2026)
+
+**Competitive landscape:**
+
+| Competitor | Product | Status |
+|------------|---------|--------|
+| [[Snyk]] | SAST/SCA platform | Established, thriving despite GHAS |
+| [[Semgrep]] | Code analysis | Growing, strong OSS community |
+| [[GitHub]] (GHAS) | GitHub Advanced Security | Native to 100M+ dev workflow |
+| [[Anthropic]] | Claude Code security review | Launched but stagnant (no updates in 5 months) |
+| [[AWS]] | Security Agent | Underwhelming (checks only 11 controls) |
+
+**Industry view (Boring AppSec, Jan 2026):** Most lab security products are "demoware" — demonstrating capability rather than building world-class AppSec tools. But labs are getting serious: Anthropic hired a [[SentinelOne]] executive for cybersecurity products; OpenAI has dedicated researchers on Aardvark. History suggests both platform and point solutions survive (cf. GuardDuty vs [[Wiz]]).
+
+---
+
 ## Key risks
 
 - **Cash burn** — $74B losses before profitability
@@ -261,7 +299,7 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
-*Updated 2026-01-28*
+*Updated 2026-02-15*
 
 ## Key people
 
@@ -309,3 +347,6 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[Cerebras]] — $10B+ compute deal (Jan 2026)
 - [[MGX]] — $50B fundraise target (Jan 2026)
 - [[AI infrastructure financing]] — GW economics (1 GW = $10B funding)
+- [[Aardvark]] — security research agent, first Codex Security product (Q4 2025)
+- [[Matt Knight]] — former VP/CISO, led Aardvark launch
+- [[AI-powered AppSec]] — frontier labs entering application security
