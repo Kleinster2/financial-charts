@@ -57,6 +57,21 @@ Buffett still active at 94, but succession planned.
 
 ---
 
+## Performance and alpha debate
+
+| Period | Annual alpha vs R1000V | t-stat |
+|--------|----------------------|--------|
+| 1981–2002 | +16.8% | 3.13 (significant) |
+| 2003–2025 | ~0% or negative | <2.0 (not significant) |
+
+Berkshire's Sharpe ratio of 0.76 is the highest of any stock or fund with a 30+ year history. But the [[Buffett's Alpha]] paper (Frazzini, Kabiller & Pedersen) showed this alpha becomes insignificant after controlling for leverage (~1.6x via insurance float) and systematic tilts toward low-beta, high-quality stocks.
+
+[[Chamath Palihapitiya]] argued (Feb 2026) that the performance break aligns with [[Regulation Fair Disclosure]] — pre-2000, selective disclosure of material info to favored investors was legal, and Buffett had extraordinary corporate access. Post-Reg FD, that edge disappeared.
+
+More likely a combination: Reg FD removed information advantages, but size constraints ($900B+ market cap), factor crowding (quality/value widely replicated), cash drag ($347B+ pile), and sector mismatch (underweight tech) would have eroded alpha regardless.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -95,5 +110,7 @@ Buffett still active at 94, but succession planned.
 - [[Munich Re]] — reinsurance peer
 - [[Permanent capital]] — original insurance float model
 - [[Insurance]] — sector hub
+- [[Buffett's Alpha]] — academic decomposition of Berkshire's returns
+- [[Regulation Fair Disclosure]] — competing explanation for post-2000 alpha decline
 - [[JPMorgan Chase]] — peer (financials)
 

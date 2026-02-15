@@ -99,7 +99,7 @@ Baron classifies SpaceX as "less-liquid" rather than illiquid under [[Rule 22e-4
 | TSLA | [[Tesla]] | 6,455,000 | 29.96% |
 | — | [[SpaceX]] (5 tranches) | ~3,005,434 | 32.10% |
 | ACGL | [[Arch Capital Group]] | 6,175,000 | 6.11% |
-| H | [[Hyatt Hotels]] | 3,310,000 | 5.48% |
+| H | [[Hyatt]] | 3,310,000 | 5.48% |
 | CSGP | [[CoStar Group]] | 6,865,000 | 4.76% |
 | MSCI | [[MSCI]] | 800,000 | 4.74% |
 | SCHW | [[Charles Schwab]] | 4,400,000 | 4.54% |
@@ -127,8 +127,8 @@ Baron classifies SpaceX as "less-liquid" rather than illiquid under [[Rule 22e-4
 | [[MSCI]] | 5.1% |
 | [[Interactive Brokers]] | 4.6% |
 | [[IDEXX Laboratories]] | 4.6% |
-| [[On Holding]] | 4.1% |
-| [[Hyatt Hotels]] | 4.0% |
+| [[On Running]] | 4.1% |
+| [[Hyatt]] | 4.0% |
 | [[Vail Resorts]] | 4.0% |
 | [[Spotify]] | 3.8% |
 | [[FactSet]] | 3.7% |
