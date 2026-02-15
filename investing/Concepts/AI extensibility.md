@@ -25,7 +25,7 @@ The ability to extend AI systems with custom tools, plugins, and integrations. A
 | Approach | Description | Example |
 |----------|-------------|---------|
 | **Function calling** | LLM invokes structured APIs | OpenAI function calling, Claude tools |
-| **Skills/Prompt workflows** | Pre-packaged prompt templates, user-definable | Claude Code `/commit`, custom skills |
+| **Skills/Prompt workflows** | Pre-packaged prompt templates, user-definable | [[Claude Skills]], Claude Code `/commit` |
 | **Plugin marketplace** | Third-party extensions, curated store | GPT Store |
 | **Protocol standard** | Open spec for tool integration | Anthropic MCP |
 | **Native integrations** | First-party deep integrations | Copilot + M365 |
@@ -68,7 +68,7 @@ Each layer builds on those below. Higher = more autonomy, more coordination, mor
 | Layer | Key players | Notes |
 |-------|-------------|-------|
 | **Function calling** | [[OpenAI]], [[Anthropic]], [[Google]] | Commodity — all major labs have this |
-| **Skills** | [[Anthropic]] (Claude Code), [[OpenClaw]] | Claude Code proprietary; OpenClaw open-source alternative |
+| **Skills** | [[Anthropic]] ([[Claude Skills]]), [[OpenClaw]] | Open standard (Jan 2026); OpenClaw open-source alternative |
 | **Plugins** | [[OpenAI]] (GPT Store), [[Microsoft]] (Copilot) | Marketplace land grab |
 | **Agents** | [[Cognition]] (Devin), [[Anthropic]] (Claude Code), [[Cursor]] | Coding-first, expanding to knowledge work |
 | **Multi-agent** | [[Microsoft]] ([[AutoGen]]), [[Salesforce]] (Agentforce), [[CrewAI]] | Enterprise + open-source competition |
