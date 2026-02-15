@@ -189,6 +189,59 @@ AT&T selected Amazon LEO as primary satellite layer for enterprise and public sa
 
 ---
 
+## Robotics & automation
+
+Amazon operates the **largest fleet of warehouse robots in the world** — over 1 million deployed across 300+ fulfillment centers as of mid-2025. Robotics is a core pillar of Amazon's fulfillment strategy, originating from the $775M acquisition of [[Kiva Systems]] in 2012 (rebranded [[Amazon Robotics]], HQ in Westborough, MA).
+
+### Fleet growth
+
+| Year | Robots | Employees | Robots per 1K employees |
+|------|--------|-----------|------------------------|
+| 2013 | 1K | 88K | 11 |
+| 2015 | 30K | 154K | 195 |
+| 2020 | 265K | 798K | 332 |
+| **2025** | **1,000,000** | **1,556,000** | **643** |
+
+*Source: Ark Invest via Jason Calacanis, Yahoo Finance, Visual Capitalist. Amazon confirmed 1M robot milestone Jul 2025.*
+
+Key insight: robots and employees have scaled **together** — Amazon has added ~1.5M employees since 2013 while growing robots 1,000x. Automation has not replaced human labor at aggregate level; it has enabled throughput scaling that would be impossible with humans alone.
+
+### Robot systems
+
+Amazon's next-gen fulfillment center (Shreveport, LA — launched 2024) deploys **8 integrated robotic systems**:
+
+| System | Function | Key capability |
+|--------|----------|---------------|
+| **Sequoia** | Inventory sortation & storage | 75% faster inventory identification; AI + computer vision |
+| **Hercules** | Mobile drive unit (pod transport) | Brings inventory pods to workers; 3D camera navigation |
+| **Titan** | Heavy-duty drive unit | 2x Hercules payload; bulky items, pallets |
+| **Vulcan** | Robotic arm (pick & stow) | **First Amazon robot with sense of touch**; handles ~75% of item types |
+| **Sparrow** | Robotic arm (item picking) | AI-powered individual item recognition and picking |
+| **Cardinal** | Robotic arm (package loading) | Loads packages into carts for outbound |
+| **Proteus** | Autonomous mobile robot | First Amazon robot that operates **among humans** (not fenced off) |
+| **Blue Jay** | Ceiling-mounted multi-arm system | Same-Day delivery network; coordinated pick/stow/consolidate |
+
+**Newer systems:**
+- **CW1000** — automated packaging machine, creates custom paper bags
+- **[[Digit]]** ([[Agility Robotics]]) — bipedal humanoid robot, 5'9", tested for tote handling in fulfillment centers. Amazon is anchor investor and deployment partner.
+
+### AI layer
+
+- **DeepFleet** (announced Jul 2025) — generative AI foundation model coordinating movement of entire robot fleet across 300+ facilities. Expected to improve robot travel efficiency by **10%** network-wide.
+- **Project Eluna** — agentic AI model helping operators build safer, more efficient workflows.
+
+### Strategic significance
+
+Andy Jassy (Q4 2025 earnings call): *"We expect that over time, we will have a fulfillment network where robots and humans complement each other and work together. I think you're going to continue to see us invest very significantly in robotics."*
+
+Jassy explicitly named **robotics** alongside AI, chips, and LEO satellites as drivers of the $200B 2026 capex plan.
+
+**Labor implications:** Amazon's robotics strategy is **complementary, not substitutional** — at least so far. The company has consistently grown headcount alongside robot deployment. However, the robot-to-employee ratio has increased from 11 per 1,000 employees (2013) to 643 (2025), and systems like Vulcan and Sparrow are beginning to handle tasks (picking, stowing) that were previously human-only. The long-term trajectory points toward fewer incremental human hires per unit of throughput growth.
+
+**Competitive moat:** No other retailer or logistics company operates robotics at this scale. The combination of proprietary hardware (10+ robot types), AI coordination (DeepFleet), and 300+ facility deployment creates a flywheel: more robots → more data → better AI → more efficient robots.
+
+---
+
 ## Partnerships
 
 | Partner       | Relationship                                |
@@ -198,6 +251,7 @@ AT&T selected Amazon LEO as primary satellite layer for enterprise and public sa
 | [[Marvell]]   | Trainium/Inferentia design partner          |
 | [[OpenAI]]    | Potential $10B investment (reported)        |
 | [[AT&T]]      | Project LEO satellite broadband + AWS cloud |
+| [[Agility Robotics]] | Digit humanoid robot testing in fulfillment centers |
 
 ---
 
@@ -269,6 +323,9 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 - [ ] Amazon Leo service rollout (expected H2 2026)
 - [ ] Gen2/Polar satellite production ramp and launch cadence (20+ in 2026, 30+ in 2027)
 - [ ] LEO competitive traction vs [[Starlink]] (~9M customers head start)
+- [ ] DeepFleet AI model impact on fulfillment efficiency
+- [ ] Digit (Agility Robotics) deployment scale in fulfillment centers
+- [ ] Vulcan/Sparrow impact on per-facility headcount trends
 
 ---
 
@@ -378,4 +435,6 @@ Amazon deploys strategic investments through several entities:
 - [[Starlink]] — primary LEO broadband competitor
 - [[Blue Origin]] — Bezos-owned, Project LEO launch provider
 - [[Satellite primer]] — industry context
+- [[Agility Robotics]] — Digit humanoid robot partner
+- [[Kiva Systems]] — acquired 2012 ($775M), became Amazon Robotics
 - [[Amazon bonds]] — $68.8B bond inventory (AA, record-low spreads)
