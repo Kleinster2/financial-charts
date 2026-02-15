@@ -55,6 +55,10 @@ def get_chart_image():
     title = request.args.get('title', ticker)
     width = float(request.args.get('width', 10))
     height = float(request.args.get('height', 6))
+    log_scale = request.args.get('log', '').lower() in ('true', '1', 'yes')
+    label = request.args.get('label', ticker)
+    markers = request.args.get('markers', '').lower() in ('true', '1', 'yes')
+    point_labels_raw = request.args.get('point_labels', '')  # comma-separated labels for each data point
 
     try:
         conn = get_db_connection()
@@ -96,23 +100,78 @@ def get_chart_image():
 
         # Create chart
         fig, ax = plt.subplots(figsize=(width, height))
-        ax.plot(df['Date'], df['Close'], linewidth=1.5, color='#2962FF')
+        fig.patch.set_facecolor('#ffffff')
+        ax.set_facecolor('#ffffff')
+        ax.plot(df['Date'], df['Close'], linewidth=3, color='#2962FF')
+
+        # Markers and point labels
+        if markers or point_labels_raw:
+            ax.scatter(df['Date'], df['Close'], color='#2962FF', s=60, zorder=4,
+                       edgecolors='white', linewidths=0.8)
+
+        if point_labels_raw:
+            point_labels_list = [l.strip() for l in point_labels_raw.split(',')]
+            n = len(df)
+            for i, (_, row) in enumerate(df.iterrows()):
+                if i < len(point_labels_list) and point_labels_list[i]:
+                    text = point_labels_list[i]
+                    price = row['Close']
+                    # Alternate left/right, horizontally aligned with dot
+                    if i % 2 == 0:
+                        xytext, ha = (12, 0), 'left'
+                    else:
+                        xytext, ha = (-12, 0), 'right'
+                    ax.annotate(text, (row['Date'], price),
+                                textcoords='offset points', xytext=xytext,
+                                fontsize=12, color='#555', ha=ha, va='center')
+
+        # Log scale if requested
+        if log_scale:
+            ax.set_yscale('log')
+            ax.yaxis.set_major_formatter(plt.FuncFormatter(
+                lambda x, p: f'${x:,.0f}' if x >= 1 else f'${x:.2f}'))
 
         # Style
-        ax.set_title(title, fontsize=14, fontweight='bold')
         ax.set_xlabel('')
-        ax.set_ylabel('Price', fontsize=10)
-        ax.grid(True, alpha=0.3)
-        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+        ax.grid(True, alpha=0.3, color='#ddd', which='major')
+        if log_scale:
+            ax.grid(True, alpha=0.15, color='#eee', which='minor')
+        ax.tick_params(colors='#333', labelsize=18)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
         ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+        ax.yaxis.tick_right()
+        ax.yaxis.set_label_position('right')
+        ax.spines['top'].set_visible(False)
+        ax.spines['left'].set_visible(False)
+        ax.spines['right'].set_color('#ccc')
+        ax.spines['bottom'].set_color('#ccc')
+
+        # Reference grid lines
+        if log_scale:
+            ax.axhline(y=1000, color='#bbb', linewidth=1, linestyle='--', zorder=1)
         fig.autofmt_xdate()
 
-        # Add price annotation
-        last_price = df['Close'].iloc[-1]
+        # Legend label
+        ax.text(0.02, 0.95, label, transform=ax.transAxes,
+                fontsize=24, fontweight=600, color='#2962FF', va='top', ha='left',
+                bbox=dict(boxstyle='round,pad=0.4', facecolor=(1, 1, 1, 0.9), edgecolor='none'))
+
+        # Last date
         last_date = df['Date'].iloc[-1]
-        ax.annotate(f'${last_price:.2f}', xy=(last_date, last_price),
-                   xytext=(10, 0), textcoords='offset points',
-                   fontsize=10, fontweight='bold', color='#2962FF')
+        date_str = last_date.strftime('%b %d, %Y')
+        ax.text(0.02, 0.87, date_str, transform=ax.transAxes,
+                fontsize=16, color='#666', va='top', ha='left')
+
+        # Watermark
+        ax.text(0.99, 0.01, 'Financial Charts', transform=ax.transAxes, fontsize=13,
+                color=(0, 0, 0, 0.3), va='bottom', ha='right')
+
+        # Add price annotation (skip if point_labels already label everything)
+        last_price = df['Close'].iloc[-1]
+        if not point_labels_raw:
+            ax.annotate(f'${last_price:.2f}', xy=(last_date, last_price),
+                       xytext=(10, 0), textcoords='offset points',
+                       fontsize=16, fontweight='bold', color='#2962FF')
 
         plt.tight_layout()
 

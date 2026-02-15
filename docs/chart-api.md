@@ -1,6 +1,6 @@
 # Chart API Reference
 
-**ALWAYS use the charting app API. NEVER use matplotlib or other tools.**
+**ALWAYS use the charting app API (`/api/chart/lw` or `/api/chart/image`). NEVER use standalone matplotlib scripts.**
 
 ## Critical Warning
 
@@ -91,6 +91,42 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL,GME&normalize=true&overlay
 ```
 
 **Chart notes:** Add 1-2 sentence interpretation below charts (peaks, catalysts, current context).
+
+---
+
+## Static Image Endpoint (`/api/chart/image`)
+
+Matplotlib-based endpoint for single-ticker charts. **Use this instead of `/api/chart/lw` when:**
+
+- Data is sparse (funding rounds, private market marks, annual snapshots) — LW Charts spaces points equally regardless of time gaps
+- Price range spans orders of magnitude (e.g., $0.10 → $588) — LW Charts' `fitContent()` auto-zooms to dense recent data and clips early history
+- You need log scale with labeled data points
+
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| `ticker` | required | Single ticker column from `stock_prices_daily` |
+| `start` | | Start date (YYYY-MM-DD) |
+| `end` | | End date |
+| `log` | false | Log scale y-axis |
+| `label` | ticker | Legend label (e.g., `SpaceX (private)`) |
+| `markers` | false | Show dots at data points |
+| `point_labels` | | Comma-separated labels for each data point |
+| `width` | 10 | Image width in inches |
+| `height` | 6 | Image height in inches |
+
+```bash
+# Private market funding rounds with log scale and labeled points
+curl "http://localhost:5000/api/chart/image?ticker=SPACEX_PRIVATE&start=2002-01-01&log=true\
+&label=SpaceX%20(private)&width=14&height=10&markers=true\
+&point_labels=Series%20A,Series%20B,Series%20C" \
+  -o investing/attachments/spacex-private-price-chart.png
+```
+
+### Sparse data tips
+
+- **Don't forward-fill** sparse data to daily rows — matplotlib draws straight lines between actual points, which is the correct behavior for funding rounds
+- **Store only actual data points** in the DB column (e.g., 24 rows for 24 funding rounds, not 8,555 forward-filled daily rows)
+- When log scale is enabled, a $1,000 dashed reference line is auto-drawn; y-axis appears on the right
 
 ---
 
