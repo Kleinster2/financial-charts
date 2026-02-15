@@ -32,6 +32,8 @@ aliases: [[[Starlink]], Starshield]
 | 2026 revenue forecast | $22-24B |
 | Revenue driver | [[Starlink]] (majority) |
 
+**[[Dual-class shares]] structure (Feb 13, 2026):** Bloomberg reports SpaceX weighing a formal dual-class share structure for the IPO. Musk already holds ~42% equity with ~79% voting control — a dual-class IPO would formalize this for public markets, ensuring he retains control post-dilution from the $30-50B raise. Follows the [[Google]]/[[Meta]]/[[Snap]] playbook. Key institutional concern: "key-man risk" amplified when that key man can't be checked by shareholders. S&P reversed its dual-class ban in April 2023, so index inclusion no longer blocked — but governance-focused investors may still push for sunset provisions.
+
 **Purpose:** Fund space-based data centers and AI infrastructure. Not just a rocket bet — framed as AI infrastructure play.
 
 **Bull case:** Ark Invest sees $2.5T+ by 2030 if [[Starlink]] and space AI scale.
@@ -117,6 +119,20 @@ SpaceX-xAI merger would help Musk complete Starship development to compete for t
 **Dependency:** Requires Starship full reusability (not yet achieved). 2025 testing had multiple unplanned explosions.
 
 See [[Space data centers]] for full concept analysis.
+
+### Lunar factory & MassDriver (Feb 10, 2026)
+
+Musk told xAI employees (now SpaceX subsidiary) that the company needs a lunar factory to manufacture AI satellites, with an electromagnetic mass driver ("MassDriver") to catapult them into orbit. This represents a **major Mars-to-Moon pivot:**
+
+| Shift | Before | Now |
+|-------|--------|-----|
+| Priority | Mars city in 5-7 years | **Moon city in <10 years** |
+| Mars timeline | 5-7 years | **20+ years** |
+| Rationale | "Make life multiplanetary" | "Moon is faster" for securing civilization |
+
+**Musk (Feb 2026):** "SpaceX has already shifted focus to building a self-growing city on the Moon, as we can potentially achieve that in less than 10 years, whereas Mars would take 20+ years."
+
+**IPO implication:** Moon-first is a more credible near-term narrative for institutional investors than Mars. Lunar infrastructure for AI satellites ties directly to the orbital data center thesis and gives the $50B IPO raise a tangible near-term use of proceeds story.
 
 ---
 
