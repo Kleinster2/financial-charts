@@ -43,7 +43,7 @@ aliases: [Skydance, Skydance Animation, David Ellison]
 | [[Oracle]] stake | Larry providing capital for deal |
 | [[RedBird Capital]] | Co-investor (Gerry Cardinale) |
 
-**Key insight:** Larry Ellison's fortune (~$150B) backstops Skydance's ambitions.
+**Key insight:** Larry Ellison's fortune (~$150B) backstops Skydance's ambitions. See [[Ellison AI-IP vertical integration]] for the full family thesis.
 
 ---
 

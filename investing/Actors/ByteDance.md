@@ -132,6 +132,23 @@ Contributes to [[Memory shortage 2025-2026]].
 
 ---
 
+## Seedance 2.0 IP controversy (Feb 2026)
+
+[[Seedance]] 2.0 launched Feb 10, 2026 and immediately went viral generating Hollywood-quality video from simple text prompts — including copyrighted characters (Spider-Man, Star Wars, Marvel) and celebrity likenesses (Tom Cruise, Brad Pitt):
+
+| Date | Event |
+|------|-------|
+| Feb 10 | Seedance 2.0 limited beta launch |
+| Feb 11 | Viral Tom Cruise vs Brad Pitt fight clip; Deadpool writer Rhett Reese: "It's likely over for us" |
+| Feb 13 | [[Disney]] cease-and-desist — called it "virtual smash-and-grab" of Disney IP |
+| Feb 13 | [[SAG-AFTRA]] condemned "blatant infringement" of member likenesses |
+| Feb 13 | [[MPA]] accused ByteDance of "massive scale" unauthorized use of US IP |
+| Feb 14 | [[Paramount Global]] cease-and-desist |
+
+**Irony:** ByteDance's Seedance pirates American IP while its [[TikTok]] US operations run on [[Oracle]] infrastructure — and Oracle's founder [[Larry Ellison]] is backing his son [[David Ellison]]'s acquisition of the very studios whose IP is being pirated. See [[Ellison AI-IP vertical integration]].
+
+---
+
 ## Risks / Considerations
 
 - TikTok ban reduces US revenue/influence
@@ -186,3 +203,6 @@ Contributes to [[Memory shortage 2025-2026]].
 - [[AI hyperscalers]] — peer category
 - [[Memory shortage 2025-2026]] — demand driver
 - [[Long memory]] — thesis ([[HBM]] demand)
+- [[Seedance]] — AI video generation product
+- [[Oracle]] — TikTok US infrastructure partner
+- [[Ellison AI-IP vertical integration]] — thesis (ByteDance as catalyst)

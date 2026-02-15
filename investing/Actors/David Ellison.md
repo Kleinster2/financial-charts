@@ -81,14 +81,36 @@ aliases: [Ellison]
 
 ---
 
+## Warner Bros Discovery hostile bid (Dec 2025–present)
+
+After closing the Paramount acquisition, David launched an unprecedented hostile bid for all of [[Warner Bros Discovery]]:
+
+| Detail | Value |
+|--------|-------|
+| Offer | **$30/share all-cash** (~$108.4B enterprise value) |
+| Equity backing | **$43.6B** from [[Larry Ellison]] + [[Gerry Cardinale\|RedBird Capital]] |
+| Debt financing | ~$54B ([[Bank of America]], [[Citigroup]], [[Apollo]]) |
+| Sovereign wealth | Saudi, Qatari, Abu Dhabi funds |
+| Competing bid | [[Netflix]] at $27.75/share (studios + HBO only) |
+| European lobbying | Visited Macron, UK officials (Jan 2026) |
+| Sweetener (Feb 10) | +25¢/share/quarter ticking fee if not closed by Dec 31, 2026 |
+| Status | WBD board reviewing; activist [[Ancora Alternatives\|Ancora]] pushing engagement |
+
+Called Netflix-WBD "the new Standard Oil" in lobbying materials. If successful, would control arguably the deepest IP vault in entertainment.
+
+See [[Ellison AI-IP vertical integration]] for the family thesis.
+
+---
+
 ## Investment relevance
 
 | Angle | Detail |
 |-------|--------|
 | **Paramount** | His leadership = turnaround bet |
+| **WBD hostile bid** | $108B play for IP consolidation |
 | **Media sector** | New generation of mogul |
 | **Not investable directly** | Skydance is private |
-| **Exposure** | PARA stock |
+| **Exposure** | PARA stock, WBD if bid succeeds |
 
 ---
 
@@ -109,6 +131,9 @@ aliases: [Ellison]
 - [[Skydance Media]] — founded and runs
 - [[Paramount Global]] — acquiring
 - [[Gerry Cardinale]] — co-investor (RedBird)
+- [[Warner Bros Discovery]] — hostile bid target
+- [[Netflix]] — competing WBD bidder
+- [[Ellison AI-IP vertical integration]] — thesis
 - [[Media]] — sector
 
 ---

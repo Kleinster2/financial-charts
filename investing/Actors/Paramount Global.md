@@ -29,7 +29,7 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 | Skydance founder | [[David Ellison]] |
 | Status | Regulatory review |
 
-**Rationale:** Fresh capital, tech expertise, content focus.
+**Rationale:** Fresh capital, tech expertise, content focus. See [[Ellison AI-IP vertical integration]] for the family thesis.
 
 ---
 

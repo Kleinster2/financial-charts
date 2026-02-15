@@ -43,9 +43,22 @@ Officially unveiled Feb 10, 2026 (select beta) with full launch Feb 12. Immediat
 
 ---
 
-## Controversy: Hollywood IP regurgitation
+## Hollywood IP controversy (Feb 2026)
 
-Deadline (Feb 13, 2026) reported Seedance 2.0 going viral for "regurgitating Hollywood IP on an epic scale" — generating convincing scenes with Tom Cruise, Brad Pitt, and other actors/characters. This raises significant copyright and deepfake concerns that could affect commercial deployment.
+Seedance 2.0 triggered the most serious AI copyright confrontation yet — generating Hollywood-quality clips using copyrighted characters and celebrity likenesses without permission:
+
+| Date | Event |
+|------|-------|
+| Feb 11 | Viral Tom Cruise vs Brad Pitt fight clip; Deadpool writer Rhett Reese: "It's likely over for us" |
+| Feb 13 | [[Disney]] cease-and-desist via Jenner & Block — called it a "virtual smash-and-grab" treating Disney IP as "free public domain clip art" |
+| Feb 13 | [[SAG-AFTRA]]: "unacceptable... undercuts the ability of human talent to earn a livelihood" |
+| Feb 13 | [[MPA]]: "massive scale" unauthorized use of US IP |
+| Feb 14 | [[Paramount Global]] cease-and-desist |
+| Feb 15 | Human Artistry Campaign condemned it as "an attack on every creator around the world" |
+
+Generated content included Spider-Man, Star Wars, Stranger Things, Marvel characters — all from 2-line prompts.
+
+**Connection to Ellison thesis:** The same [[ByteDance]] pirating American IP has [[Oracle]] (founded by [[Larry Ellison]]) as its US infrastructure partner. Meanwhile Larry's son [[David Ellison]] is acquiring the very studios whose IP Seedance pirates. See [[Ellison AI-IP vertical integration]].
 
 ---
 
@@ -72,3 +85,8 @@ Chinese models ([[Kling]], Seedance) are pulling ahead on features and speed of 
 - [[DeepSeek]] — comparison point (text AI "Sputnik moment")
 - [[Generative AI]] — category
 - [[China]] — market
+- [[Ellison AI-IP vertical integration]] — thesis (Seedance as catalyst)
+- [[Disney]] — cease-and-desist plaintiff
+- [[Paramount Global]] — cease-and-desist plaintiff
+- [[SAG-AFTRA]] — condemned IP infringement
+- [[MPA]] — condemned IP infringement

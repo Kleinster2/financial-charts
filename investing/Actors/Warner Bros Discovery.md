@@ -168,7 +168,7 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 The Paramount bid is for the *entire* company (including CNN, Discovery networks, TNT Sports), while Netflix's bid carves out only studios/HBO. Paramount's offer is richer but faces greater antitrust hurdles.
 
-See: [[Major Pending M&A Deals Feb 2026]]
+See: [[Major Pending M&A Deals Feb 2026]], [[Ellison AI-IP vertical integration]]
 
 ---
 

@@ -84,11 +84,25 @@ aliases: [Lawrence Ellison, Ellison]
 
 ---
 
+## TikTok partnership (via Oracle)
+
+Oracle holds ~15% equity in TikTok USDS Joint Venture LLC (Jan 2026 deal). Oracle serves as "trusted technology partner" — controls algorithm replication, hosts 170M+ Americans' data on OCI. Larry's Oracle is now infrastructure partner for the same [[ByteDance]] whose [[Seedance]] 2.0 is generating Hollywood-quality AI content from American IP.
+
+See [[Ellison AI-IP vertical integration]] for the full thesis.
+
+---
+
+## Warner Bros Discovery backing
+
+Larry personally guaranteed Paramount Skydance's hostile bid for [[Warner Bros Discovery]] — **$43.6B equity commitment** alongside [[Gerry Cardinale\|RedBird Capital]] and Middle Eastern sovereign wealth funds. $108.4B all-cash offer at $30/share. If both Paramount and WBD deals close, the Ellison family controls the deepest IP vault in entertainment.
+
+---
+
 ## Family
 
 | Person | Relationship |
 |--------|--------------|
-| [[David Ellison]] | Son (Skydance) |
+| [[David Ellison]] | Son (Skydance/Paramount CEO) |
 | Megan Ellison | Daughter (Annapurna Pictures) |
 
 **Both children run film studios.**
@@ -111,6 +125,9 @@ aliases: [Lawrence Ellison, Ellison]
 - [[David Ellison]] — son, Skydance founder
 - [[Skydance Media]] — backed by Larry
 - [[Paramount Global]] — acquisition target
+- [[TikTok]] — Oracle infrastructure partnership
+- [[Warner Bros Discovery]] — backing David's hostile bid
+- [[Ellison AI-IP vertical integration]] — thesis
 - [[Media]] — sector
 
 ---

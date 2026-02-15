@@ -102,6 +102,24 @@ Unlike [[Google]]/[[Amazon]]/[[Meta]], Oracle hasn't announced custom AI chips �
 
 ---
 
+## TikTok infrastructure partnership (Jan 2026)
+
+Oracle became [[TikTok]]'s "trusted technology partner" in the US restructuring:
+
+| Detail | Value |
+|--------|-------|
+| Oracle equity stake | **~15%** of TikTok USDS JV |
+| Role | Data custodian, algorithm replication, security |
+| US users hosted | **170M+** on OCI |
+| [[ByteDance]] retained | 19.9% stake |
+| US investor total | 80.1% |
+
+Oracle controls algorithm retraining under US jurisdiction and manages all data audits. This makes OCI the infrastructure backbone of America's most-used social app.
+
+**Connection to Ellison IP thesis:** The same [[ByteDance]] whose [[Seedance]] 2.0 generates Hollywood-quality AI video from American IP now runs its US operations on Oracle infrastructure. See [[Ellison AI-IP vertical integration]].
+
+---
+
 ## [[Larry Ellison]]
 
 **Founder/CTO driving AI strategy:**
@@ -109,6 +127,7 @@ Unlike [[Google]]/[[Amazon]]/[[Meta]], Oracle hasn't announced custom AI chips �
 - Close to Musk (xAI relationship)
 - Vocal about AI infrastructure needs
 - Personally pursuing nuclear permits
+- Backing son [[David Ellison]]'s $108B hostile bid for [[Warner Bros Discovery]]
 
 ---
 
@@ -244,3 +263,7 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 - [[AI hyperscalers]] — category (tier 2)
 - [[Tax Cuts and Jobs Act]] — ~$35B repatriation (2018)
 - [[Oracle bonds]] — ~$133B bond inventory (BBB/Baa2, largest non-financial IG issuer)
+- [[TikTok]] — infrastructure partnership (15% equity, data custodian)
+- [[ByteDance]] — TikTok parent
+- [[Ellison AI-IP vertical integration]] — family thesis
+- [[David Ellison]] — Larry's son, Paramount Skydance CEO
