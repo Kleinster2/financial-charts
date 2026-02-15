@@ -127,16 +127,52 @@ Anthropic using Trainium2/3 to train and deploy [[Claude]] models. Strategic ali
 
 ---
 
-## Project LEO (satellite broadband)
+## Amazon Leo (satellite broadband)
 
-**Rebranded from Project Kuiper** — Amazon's LEO satellite constellation targeting broadband, enterprise, and public safety.
+**Rebranded from Project Kuiper (Nov 2025)** — Amazon's LEO satellite constellation targeting broadband, enterprise, and public safety.
 
 | Metric | Value |
 |--------|-------|
-| Constellation | 3,236 satellites planned |
-| FCC deadline | Half launched by July 30, 2026 |
+| Gen1 constellation | 3,236 satellites planned |
+| **Gen2 + Polar (approved Feb 10, 2026)** | **4,504 additional satellites** |
+| **Total planned constellation** | **~7,700 satellites** |
+| Gen1 FCC deadline | Half by Jul 30, 2026 (extension to Jul 2028 requested Jan 2026) |
+| Gen2 FCC deadline | 50% by Feb 10, 2032; 100% by Feb 10, 2035 |
+| Satellites in orbit | **200+** (as of Feb 12, 2026, 8 missions completed) |
+| Total investment | **$10B+** (launch contracts alone ~$10B; total Gen1 capex est. $16.5-20B) |
+| 2026 incremental spend | ~$1B additional |
+| 2026 launches planned | 20+ |
+| 2027 launches planned | 30+ |
 | TAM estimate | $20-34B by 2030 |
-| Launch providers | [[Blue Origin]], [[SpaceX]], Arianespace, ULA |
+| Launch providers | [[ULA]] (Atlas V), [[SpaceX]] (Falcon 9), [[Arianespace]] (Ariane 6), [[Blue Origin]] (New Glenn) |
+| Service status | Beta waitlist opened Nov 2025; consumer service rollout expected H2 2026 |
+| Competitor benchmark | [[Starlink]]: 9,000+ satellites, ~9M customers |
+
+### FCC Gen2 expansion (Feb 10, 2026)
+
+The [[FCC]] approved Amazon's request to deploy 4,504 additional LEO satellites across two new systems: **Gen2** and **Polar**. Key features:
+- Expands total planned constellation from ~3,200 to **~7,700 satellites**
+- Adds **V-band and Ku-band** frequency support
+- Extends coverage to **polar regions** (previously uncovered)
+- Second-generation satellites operate at altitudes up to ~400 miles
+- Deployment deadlines: 50% by Feb 2032, remainder by Feb 2035
+
+This positions Amazon Leo to eventually rival [[Starlink]]'s scale (~12,000 approved, expanding to 42,000). Amazon is producing satellites faster than available rockets can launch them — a bottleneck that prompted the Gen1 deadline extension request.
+
+### Launch history
+
+| # | Mission | Vehicle | Date | Sats | Total |
+|---|---------|---------|------|------|-------|
+| 1 | KA-01 | ULA Atlas V | Apr 28, 2025 | 27 | 27 |
+| 2 | KA-02 | ULA Atlas V | Jun 23, 2025 | 27 | 54 |
+| 3 | KF-01 | SpaceX Falcon 9 | Jul 16, 2025 | 24 | 78 |
+| 4 | KF-02 | SpaceX Falcon 9 | Aug 11, 2025 | 24 | 102 |
+| 5 | KA-03 | ULA Atlas V | Sep 25, 2025 | 27 | 129 |
+| 6 | KF-03 | SpaceX Falcon 9 | Oct 13, 2025 | 24 | 153 |
+| 7 | LA-04 | ULA Atlas V | Dec 16, 2025 | 27 | 180 |
+| 8 | LE-01 | Arianespace Ariane 64 | Feb 12, 2026 | 32 | 212 |
+
+LE-01 was the first heavy-lift mission (Ariane 64, four-booster config) and largest payload to date. Amazon has 17 additional Arianespace missions booked.
 
 ### AT&T partnership (Feb 2026)
 
@@ -229,8 +265,10 @@ Bee is a $50 always-listening wearable that records/transcribes daily activities
 - [ ] Anthropic IPO timing and Amazon's stake value
 - [ ] AWS AI Factories enterprise traction
 - [ ] Project Rainier utilization rates
-- [ ] Project LEO satellite deployment pace vs July 2026 FCC deadline
-- [ ] LEO competitive traction vs [[Starlink]]
+- [ ] Amazon Leo Gen1 deadline extension ruling (requested Jul 2028, FCC pending)
+- [ ] Amazon Leo service rollout (expected H2 2026)
+- [ ] Gen2/Polar satellite production ramp and launch cadence (20+ in 2026, 30+ in 2027)
+- [ ] LEO competitive traction vs [[Starlink]] (~9M customers head start)
 
 ---
 
