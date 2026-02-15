@@ -296,7 +296,26 @@ $68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rate
 | Long-term debt | $68.8B face (Dec 2025). See [[Amazon bonds]] |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-02-10*
+*Updated 2026-02-15*
+
+---
+
+## Investment vehicles
+
+Amazon deploys strategic investments through several entities:
+
+| Vehicle | Type | Purpose | Notable investments |
+|---------|------|---------|-------------------|
+| **[[Amazon Climate Pledge Fund]]** | Corporate VC ($2B) | Net-zero by 2040 — climate tech | [[Rivian]], [[Beta Technologies]], ZeroAvia, Redwood Materials, CarbonCure |
+| **Amazon.com NV Investment Holdings LLC** | Investment holding (Nevada LLC) | Primary strategic equity vehicle | Holds public stakes (e.g., [[Beta Technologies]] 5.3%). Amazon retains full voting/investment control |
+| **Amazon Alexa Fund** | Corporate VC | Voice/AI ecosystem | Smart home, NLP startups |
+| **AWS re:Invent Fund** | Corporate VC | Cloud ecosystem | AWS-adjacent startups |
+
+**NV Investment Holdings** is registered in Carson City, Nevada (C/O Corporation Service Company) with operational HQ at 410 Terry Avenue North, Seattle. It's the entity that appears on SEC 13G filings when Amazon holds public company stakes — including the [[Beta Technologies]] filing that caused the Feb 2026 misinformation pump.
+
+**Climate Pledge Fund** also sponsors Climate Pledge Arena (Seattle) — the first arena to achieve Zero Carbon certification (2023).
+
+---
 
 ## Related
 
