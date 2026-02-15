@@ -11,6 +11,7 @@ Guidelines for folder structure, note hierarchy, and linking.
 | ✓ | Singular names (concept notes) |
 | | Never remove wikilinks (process) |
 | | Verify before creating (process) |
+| | Aliases ≠ notes for distinct entities (process) |
 | | Folder placement |
 | | Sector composition |
 | | Concept vs Sector distinction |
@@ -188,6 +189,17 @@ cd /c/Users/klein/financial-charts/investing && git ls-files "**/*.md" | sed 's|
 # Or search specific folder
 git ls-files "Actors/*.md" | sed 's|.*/||; s|\.md$||' | grep -iE "name"
 ```
+
+### Aliases are not substitutes for notes
+
+Aliases are for alternate names of the same entity (e.g., "OXY" → `Occidental Petroleum.md`). If a subsidiary, fund, or division operates independently or is referenced in a distinct context, it gets its own note — not an alias on the parent.
+
+| Wrong | Right |
+|-------|-------|
+| `Draper Fisher Jurvetson.md` with alias "DFJ Growth" | Separate `DFJ Growth.md` linking to `[[Draper Fisher Jurvetson]]` as parent |
+| `Baron Capital.md` with alias "BPTRX" | BPTRX is a fund ticker alias (acceptable — same entity, different name) |
+
+Test: would a reader looking up this name expect to land on the parent, or on something more specific? If more specific → own note.
 
 ### Singular names
 

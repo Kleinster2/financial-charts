@@ -118,5 +118,6 @@ Waterfall position is heavily negotiated:
 - [[Distressed debt exchange]] — how waterfalls get created
 - [[Lien priority]] — secured vs. unsecured
 - [[Minority investor subordination]] — equity at bottom
+- [[Liquidation preference]] — preferred equity priority within the equity tier
 
 *Created 2026-01-18*
