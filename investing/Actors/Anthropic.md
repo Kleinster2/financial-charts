@@ -272,6 +272,24 @@ Polling: 69% of Americans think government "not doing enough to regulate AI."
 
 ---
 
+### Skills platform launch (Dec 2025 – Feb 2026)
+
+Anthropic launched **Skills** — packaged instruction folders that teach Claude reusable workflows. Published as an **open standard** designed to be portable across AI platforms, not just Claude. This is Anthropic's developer ecosystem/platform play beyond just selling model access.
+
+| Detail | Value |
+|--------|-------|
+| Launch | Organization-level deployment Dec 18, 2025 |
+| API | `/v1/skills` endpoint, `container.skills` parameter in Messages API |
+| Format | `SKILL.md` + scripts/references/assets per skill folder |
+| Architecture | Three-level progressive disclosure (frontmatter → SKILL.md body → linked files) |
+| Surfaces | [[Claude]].ai, [[Claude]] Code, API |
+| Built-in tooling | skill-creator skill in Claude.ai |
+| Partner directory | [[Asana]], [[Atlassian]], [[Canva]], [[Figma]], [[Sentry]], [[Zapier]] |
+
+**Strategic significance:** Skills are Anthropic's answer to [[OpenAI]]'s custom GPTs and agent SDK approach, but with a key difference — open standard portability vs. platform lock-in. By publishing Skills as a specification any AI platform can adopt, Anthropic is betting that ecosystem gravity (developer tooling, partner integrations) matters more than proprietary lock-in. Same playbook as [[MCP]] — originate the standard, benefit from adoption.
+
+Combined with [[MCP]] (tool connectivity) and [[Claude]] Code (agentic execution), Skills complete a three-layer developer platform: **what Claude can connect to** (MCP) → **what Claude knows how to do** (Skills) → **where Claude runs** (Code/API). This positions Anthropic as a full-stack AI developer platform, not just a model provider.
+
 ### Claude Code GitHub penetration (Feb 2026)
 
 4% of GitHub public commits now authored by Claude Code. Projected to reach 20%+ of daily commits by end of 2026. Claude Code business subscriptions quadrupled since start of 2026. More than half of Claude Code revenue ($2.5B run rate) comes from enterprise.
@@ -287,7 +305,7 @@ Polling: 69% of Americans think government "not doing enough to regulate AI."
 Product milestones:
 - Claude Code run rate $2.5B (launched publicly May 2025)
 - Bun acquisition — JavaScript runtime, infrastructure play
-- Agent Skills open standard launched (Dec 18) — integrations with [[Notion]], [[Canva]], [[Figma]], [[Atlassian]]
+- Skills open standard launched (Dec 18) — see Skills platform section above. Partner integrations: [[Asana]], [[Atlassian]], [[Canva]], [[Figma]], [[Sentry]], [[Zapier]]
 
 Partnerships:
 - [[Man Group]] — $214B hedge fund embedding Claude across investment + ops (Feb 11 2026). Alpha generation (AlphaGPT), risk modeling, data synthesis. Anthropic engineers on-site.
@@ -417,7 +435,7 @@ See [[Long Anthropic]] for full thesis.
 
 ## Related
 
-- [[AI extensibility]] — MCP originator, open-standard strategy
+- [[AI extensibility]] — MCP originator, Skills open standard, platform strategy
 - [[Claude]] — flagship AI product
 - [[Dario Amodei]] — CEO and co-founder
 - [[OpenAI]] — competitor, origin (founders left OpenAI)

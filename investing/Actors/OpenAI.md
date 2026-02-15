@@ -124,6 +124,8 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 **[[Claude]] Code threat:** [[Anthropic]]'s [[Claude]] Code getting more hype in agentic coding space. OpenAI lacks comparable offering.
 
+**Skills platform threat (Feb 2026):** [[Anthropic]] launched Skills as an open standard — portable instruction packages that work across AI platforms. Partner directory ([[Asana]], [[Atlassian]], [[Canva]], [[Figma]], [[Sentry]], [[Zapier]]) with Skills API (`/v1/skills`). Competes directly with OpenAI's custom GPTs and agent SDK approach, but Anthropic's open-standard bet (same playbook as [[MCP]]) creates ecosystem gravity without platform lock-in. OpenAI's GPT Store has struggled with discovery and monetization; Skills could capture the developer workflow layer that custom GPTs missed.
+
 **Switching costs:** Low. Memory/context could be moat but easily exportable ("print everything you know about me" → paste into competitor).
 
 ---
