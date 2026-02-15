@@ -72,7 +72,8 @@ AI is core to unit economics — better matching = lower costs.
 
 | Partner | Focus |
 |---------|-------|
-| [[Waymo]] | Robotaxi deployment |
+| [[Waymo]] | Robotaxi deployment (US) |
+| [[WeRide]] | Robotaxi (Middle East — 1,200 vehicles by ~2027) |
 | Aurora | [[Autonomous trucking]] |
 | Motional | Robotaxi ([[Hyundai]]/Aptiv) |
 | Nuro | Autonomous delivery |
@@ -142,4 +143,5 @@ Uber is the only global scale player.
 - [[Aurora]] — partner (autonomous trucking)
 - [[Tesla]] — potential competitor (robotaxi)
 - [[Grab]] — investment ([[Southeast Asia]])
+- [[WeRide]] — partner (Middle East robotaxi, 1,200 vehicles)
 - [[Lime]] — strategic investment, demand channel for shared scooters/e-bikes
