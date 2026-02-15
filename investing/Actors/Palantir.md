@@ -162,3 +162,5 @@ Palantir provides the intelligence layer.
 - [[Scale AI]] — peer (AI infrastructure)
 - [[a16z]] — investor (Thiel connections)
 - [[Dan Ives]] — Wedbush analyst ("Messi of AI," +523% call)
+- [[Anthropic]] — Pentagon AI partnership (~$200M contract), Claude deployed via Palantir
+- [[Maduro capture 2026]] — Claude used in operation via Palantir platform

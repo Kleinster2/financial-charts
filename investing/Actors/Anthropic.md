@@ -144,23 +144,28 @@ Thesis implication: Not harness moat defense — compute arbitrage enforcement. 
 
 ---
 
-### Pentagon clash over military AI (Jan 2026)
+### Pentagon clash over military AI (Jan–Feb 2026)
 
-Anthropic and the Pentagon are at an impasse over a contract worth up to $200M. After weeks of negotiation, Anthropic refused to remove safeguards blocking:
-1. Autonomous weapons targeting
-2. U.S. domestic surveillance
+Anthropic and the Pentagon are in an escalating standoff over a ~$200M contract (via [[Palantir]] partnership). Pentagon pushing all four AI contractors ([[Google]], [[OpenAI]], [[xAI]], Anthropic) to allow "all lawful purposes" military use — including weapons development, intelligence collection, and battlefield operations. Anthropic alone is holding two red lines:
+1. Fully autonomous weapons
+2. Mass surveillance of Americans
 
-Timeline:
+**Timeline:**
 - Jan 16: Defense Secretary [[Pete Hegseth]] criticized Anthropic when announcing [[xAI]]'s Grok would join Pentagon AI providers, railing against models that "won't allow you to fight wars"
 - Jan 30: Reuters reported the $200M contract standoff
+- Feb 12: Reuters reported Pentagon pushing AI companies onto classified networks without standard restrictions
+- Feb 13: Axios/WSJ reported Claude was used during the [[Maduro capture operation]] (via [[Palantir]])
+- Feb 15: Axios exclusive — Pentagon "fed up," threatening to cut Anthropic entirely. Administration official: "everything's on the table… but there'll have to be an orderly replacement"
 
-Pentagon's position: Commercial AI should be deployable as long as it complies with U.S. law—regardless of corporate usage policies. The military, not tech companies, should decide how purchased technology gets used.
+**Pentagon's position:** Commercial AI should be deployable for all lawful purposes — the military, not tech companies, decides how purchased technology gets used. Not willing to negotiate case-by-case or accept unexpected model blocks. The categories in dispute (autonomous weapons, domestic surveillance) have "considerable grey area."
 
-Anthropic's position: [[Dario Amodei]] wrote that AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." Company feels responsible for ensuring models aren't used beyond their capabilities in lethal contexts.
+**Anthropic's position:** [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." Spokesperson: "committed to using frontier AI in support of US national security" — first frontier AI company deployed on classified networks. Company says conversations have focused on usage policy questions, not specific operations.
 
-Significance: First major test of whether AI companies can impose ethical constraints on military use. Other Pentagon AI contractors ([[Google]], [[OpenAI]], [[xAI]]) have not drawn the same lines.
+**Competitive dynamics:** The other three contractors ([[Google]], [[OpenAI]], [[xAI]]) are showing more flexibility. At least one has already agreed to "all lawful purposes" terms. All three have agreed to forego standard safeguards for Pentagon work and are negotiating classified network deployment.
 
-*Sources: Semafor (Jan 16), Reuters (Jan 30)*
+**Investor implications:** The $200M contract itself is immaterial vs. $14B run rate. But the dispute signals broader risk: if Anthropic's safety stance costs it government business, that's a ceiling on the massive defense/intelligence AI market. Conversely, capitulating would undermine the safety brand that differentiates Anthropic from competitors and justifies its $380B valuation premium. The dispute broke just 3 days after the $30B Series G close — investors bought into the safety-differentiated thesis.
+
+*Sources: Axios (Feb 13, Feb 15), Reuters (Feb 12, Feb 15), WSJ (Feb 14), Semafor (Jan 16), Reuters (Jan 30), Livemint (Feb 15)*
 
 ---
 
@@ -408,7 +413,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-02-13*
+*Updated 2026-02-15*
 
 ## Related
 
@@ -437,3 +442,6 @@ See [[Long Anthropic]] for full thesis.
 - [[Man Group]] — enterprise AI partnership (Feb 2026)
 - [[Public First Action]] — $20M AI safety PAC donation (Feb 2026)
 - [[Clean energy for AI]] — grid infrastructure pledge context
+- [[Palantir]] — Pentagon contract partner (~$200M)
+- [[Maduro capture 2026]] — Claude used in operation via Palantir
+- [[Pete Hegseth]] — Defense Secretary, criticized Anthropic's safeguards
