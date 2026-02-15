@@ -14,7 +14,7 @@ Strongest IPO performance of [[China]] GPU wave:
 | Metric | Value |
 |--------|-------|
 | Founded | Sept 2020 |
-| Founders | Ex-AMD (Chen Weiliang, senior director) |
+| Founders | Ex-AMD ([[Chen Weiliang]], senior director) |
 | IPO | Dec 17, 2025 (Shanghai) |
 | First day | +693% |
 | Raise | 4.2B yuan (~$594M) |
@@ -61,7 +61,7 @@ High R&D costs, but revenue surging.
 ## Founding team
 
 **Ex-AMD leadership:**
-- Chen Weiliang (Chairman/[[GM]]) — former AMD senior director
+- [[Chen Weiliang]] (Chairman/[[GM]]) — former AMD senior director, net worth $4.21B (Bloomberg, Feb 2026)
 - Other AMD veterans
 - Different DNA than Moore Threads (NVIDIA) and Biren (mixed)
 
@@ -126,7 +126,10 @@ MetaX = best performing IPO of the group.
 - [[Moore Threads]] — peer (Four Little Dragons)
 - [[Biren Tech]] — peer (Four Little Dragons)
 - [[Enflame]] — peer (Four Little Dragons)
+- [[Chen Weiliang]] — founder ($4.21B, Bloomberg Feb 2026)
+- [[China AI billionaires]] — Bloomberg ranking
 - [[AMD]] — founder origin (ex-AMD leadership)
+- [[H3C Technologies]] — biggest client
 - [[NVIDIA]] — competitor (54% [[China]] share)
 - [[TSMC]] — foundry (still has access)
 - [[Export controls]] — context (not sanctioned)

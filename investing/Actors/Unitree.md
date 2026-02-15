@@ -3,7 +3,7 @@ aliases: [Unitree [[Robotics]]]
 ---
 #actor #china #robotics #ai
 
-**Unitree** — Hangzhou-based robotics company. Quadruped robots (robot dogs). [[China]]'s answer to Boston Dynamics at consumer price points.
+Unitree — Hangzhou-based robotics company. Quadruped robots (robot dogs). [[China]]'s answer to Boston Dynamics at consumer price points.
 
 ---
 
@@ -17,6 +17,8 @@ Most visible Chinese robotics company globally:
 | Focus | Quadruped robots (robot dogs) |
 | Price point | [[Consumer]]/prosumer (~$1,600-$150,000) |
 | Comparison | Boston Dynamics but 10x cheaper |
+| Founder | [[Wang Xingxing]] |
+| Founder net worth | $2.15B (Bloomberg Feb 2026) |
 | Status | Private |
 
 ---
@@ -30,7 +32,7 @@ Most visible Chinese robotics company globally:
 | H1 | Humanoid | ~$90,000 | Research, demo |
 | G1 | Humanoid | ~$16,000 | Education, prosumer |
 
-**Key differentiator:** Dramatically lower price than Western competitors. Boston Dynamics Spot = $75,000+. Unitree Go2 = $1,600.
+Key differentiator: Dramatically lower price than Western competitors. Boston Dynamics Spot = $75,000+. Unitree Go2 = $1,600.
 
 ---
 
@@ -38,13 +40,13 @@ Most visible Chinese robotics company globally:
 
 | Company | HQ | Focus | Price tier | Status |
 |---------|-----|-------|------------|--------|
-| **Unitree** | Hangzhou | Quadruped + humanoid | Low-mid | Private |
+| Unitree | Hangzhou | Quadruped + humanoid | Low-mid | Private |
 | Boston Dynamics | US | Quadruped + humanoid | High | [[Hyundai]] subsidiary |
 | [[Figure AI]] | US | Humanoid | High | Private ($2.6B) |
 | [[Agility Robotics]] | US | Humanoid (Digit) | High | Private |
 | [[Tesla]] Optimus | US | Humanoid | TBD | Tesla division |
 
-**Unitree's niche:** Volume + affordability. Not the most capable, but most accessible.
+Unitree's niche: Volume + affordability. Not the most capable, but most accessible.
 
 ---
 
@@ -68,7 +70,7 @@ Most visible Chinese robotics company globally:
 | Computer vision | Built-in |
 | SDK | Open for developers |
 
-**Viral moments:** Videos of Unitree robots doing backflips, dancing, navigating rough terrain. Good for awareness.
+Viral moments: Videos of Unitree robots doing backflips, dancing, navigating rough terrain. Good for awareness.
 
 ---
 
@@ -83,26 +85,26 @@ Most visible Chinese robotics company globally:
 | Revenue | Not disclosed (product sales) |
 | Unit economics | Positive gross margin (low-cost manufacturing) |
 
-**Funding history:**
+Funding history:
 | Round | Year | Amount |
 |-------|------|--------|
 | Series A | 2018 | $10M |
 | Series B | 2021 | Undisclosed |
 | Series C | 2024 | $100M+ |
 
-**Path to liquidity:** IPO likely (HK or Shanghai STAR). Could be 2026-2027 if robotics momentum continues.
+Path to liquidity: IPO likely (HK or Shanghai STAR). Could be 2026-2027 if robotics momentum continues.
 
 ---
 
 ## Investment implications
 
-**Private company** — not directly investable.
+Private company — not directly investable.
 
-**Indirect exposure:**
+Indirect exposure:
 - [[Robotics]] component suppliers
 - [[China]] robotics ETFs (limited)
 
-**Thesis implications:**
+Thesis implications:
 - [[China]] can compete in robotics at scale
 - Price disruption similar to [[China]] EV playbook
 - [[Hangzhou]] validated as robotics hub
@@ -121,7 +123,7 @@ Most visible Chinese robotics company globally:
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-02-13*
 
 ---
 

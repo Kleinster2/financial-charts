@@ -102,6 +102,8 @@ Investing heavily in AI for legal/tax:
 
 **Bull case:** Westlaw's proprietary case law database is the moat, not the interface. AI needs data to work — Thomson Reuters has it.
 
+**Tooze framing (Feb 2026):** [[Adam Tooze]] cited Reuters' legal database sell-off as a concrete example of markets pricing AI agent disruption — anticipating that AI agents will replace database search services. Part of his analysis of how $650B in AI capex is already rippling through individual corporate names even before macro-level productivity data is clear.
+
 ---
 
 ## Related

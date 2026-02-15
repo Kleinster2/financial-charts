@@ -20,9 +20,26 @@ Chinese AI chip company. Designs [[MLU]] accelerators. Spin-off from Chinese Aca
 | Founded | 2016 |
 | HQ | Beijing |
 | Ticker | 688256.SS |
-| Market cap | ~¥40B ($5.5B) |
+| Market cap | ~¥40B |
 | Employees | ~1,500 |
 | Founders | Chen Tianshi, Chen Yunji |
+| Founder net worth | $21.53B (Chen Tianshi, Bloomberg Feb 2026) |
+
+---
+
+## China AI infrastructure billionaires (Bloomberg, Feb 2, 2026)
+
+![[china-ai-billionaires-bloomberg-feb2026.png]]
+*Source: Bloomberg Billionaires Index. Chen Tianshi tops the list at $21.53B — remarkable for a CAS spinoff that was ~¥40B market cap.*
+
+| Name | Company | Net Worth |
+|------|---------|-----------|
+| Chen Tianshi | [[Cambricon Technologies]] | $21.53B |
+| Wang Weixiu | [[Zhongji Innolight]] | $14.35B |
+| Zhou Chaonan | [[Range Intelligent]] | $10.96B |
+| Chen Tao | [[Victory Giant]] | $9.35B |
+| Cai Huabo | [[Longsys Electronics]] | $7.07B |
+| Zhang Jianzhong | [[Moore Threads]] | $4.16B |
 
 ---
 

@@ -106,12 +106,18 @@ BYD represents the vertically integrated EV model:
 |--------|----------|--------|
 | [[Europe]] | Direct sales, local partners | Growing fast |
 | [[Southeast Asia]] | Thailand factory | Operational |
-| Latin America | [[Brazil]], [[Mexico]] | Expanding |
+| Latin America | [[Brazil]], [[Mexico]] | Expanding — bidding for [[COMPAS Mexico plant sale 2026\|COMPAS plant]] |
 | Middle East | UAE focus | Entering |
 | **Nepal** | Direct sales | **Market leader** |
 | US | Blocked (tariffs, politics) | **JV talks with [[Ford]]** |
 
 **Key barrier:** US 100% tariff on Chinese EVs makes direct entry impossible.
+
+### Mexico plant bid (Feb 2026)
+
+BYD is one of three finalists (with [[Geely]] and [[VinFast]]) to acquire the 230,000-unit [[COMPAS Mexico plant sale 2026|COMPAS factory]] in [[Aguascalientes]], [[Mexico]] — a $1B [[Nissan]]-[[Mercedes-Benz]] JV plant closing May 2026. BYD previously abandoned a greenfield Mexico factory due to regulatory red tape; acquiring an existing plant bypasses that. China's commerce ministry delayed the greenfield approval in Mar 2025 citing tech leakage concerns.
+
+*Source: Reuters, Feb 12 2026*
 
 ### US market development (Jan 2026)
 
@@ -232,6 +238,9 @@ See [[China retaliatory toolkit]] for the broader pattern.
 - [[NXP]] — competitor (MCUs)
 - [[Renesas]] — competitor (MCUs)
 - [[China]] — home market
+- [[Nissan]] — COMPAS plant seller
+- [[VinFast]] — competing COMPAS bidder
+- [[COMPAS Mexico plant sale 2026]] — Mexico plant bid
 - [[Export controls]] — constrains US market access
 - [[EV market 2026]] — market context
 - [[EU-China EV tariffs]] — European market access preserved

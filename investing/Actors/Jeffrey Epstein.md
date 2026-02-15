@@ -66,7 +66,7 @@ IGO Company LLC (Coinbase investment), JEGE LLC, Cypress Inc., Hyperion Air LLC,
 | Company | Amount | Year | Outcome |
 |---------|--------|------|---------|
 | [[Coinbase]] | $3M | 2014 | Via IGO Company LLC. Sold half for ~$15M (2018). |
-| [[Blockstream]] | $500K | 2014 | Via Kyara Investments III (co-owned with Joi Ito). Sold months later. |
+| [[Blockstream]] | $500K | 2014 | Via Kyara Investments III (co-owned with Joi Ito). Initially $50K seed, increased to $500K. Sold months later. |
 | [[Valar Ventures]] | $40M | 2015-16 | Now ~$170M — largest estate asset |
 | [[Carbyne]] | $1-1.5M | 2015 | Co-invested with [[Ehud Barak]] via Southern Trust (BVI) |
 | [[Jawbone]] | $5M → $11.25M | 2012-17 | Total loss (liquidated 2017). Threatened lawsuit against founder. |
@@ -125,7 +125,7 @@ Bought legitimacy and access through university giving:
 | Institution | Amount | Access gained |
 |-------------|--------|---------------|
 | **Harvard** | $6.5M (pledged $30M) | Program for Evolutionary Dynamics. Sat on Mind, Brain & Behavior committee. Weekly calls with faculty. |
-| **MIT Media Lab** | $850K total | 9 campus visits (2013-17). Named contingent beneficiary of 2014 Trust. Claimed to arrange anonymous $2M from Gates, $5M from Black. |
+| **MIT Media Lab** | $850K total ($525K to DCI) | 9 campus visits (2013-17, codename "Voldemort"). Named contingent beneficiary of 2014 Trust. Claimed to arrange anonymous $2M from Gates, $5M from Black. $525K funded [[MIT]] Digital Currency Initiative — became paymaster for Bitcoin Core developers after Bitcoin Foundation bankruptcy (2015). |
 | Arizona State (Origins Project) | $250K | Lawrence Krauss relationship |
 
 ---
@@ -241,7 +241,11 @@ He wasn't a fraud as an investor. Real returns made it easier to rationalize the
 
 The mystery was the product. Billionaires paid for discretion, not disclosed expertise.
 
-### 5. Estate reveals priorities
+### 5. Bitcoin development influence
+
+Epstein's $525K to MIT's Digital Currency Initiative (DCI) funded three Bitcoin Core developers — Gavin Andresen, Wladimir van der Laan, Cory Fields — after the Bitcoin Foundation's 2015 bankruptcy. Joichi Ito emailed Epstein: "This is a big win for us." Epstein replied about Andresen: "gavin is clever." DCI became the institutional home for Bitcoin's core maintainers, making an academic lab partially underwritten by a convicted sex offender the de facto paymaster of Bitcoin development. No evidence Epstein exercised protocol-level control, but the funding channel raises questions about institutional capture of a supposedly decentralized project.
+
+### 6. Estate reveals priorities
 
 | Recipient | Amount |
 |-----------|--------|
@@ -251,7 +255,7 @@ The mystery was the product. Billionaires paid for discretion, not disclosed exp
 
 Victims got less than the girlfriend. The $170M Valar stake goes to estate beneficiaries when it liquidates.
 
-### 6. Proximity ≠ guilt, but ≠ innocence
+### 7. Proximity ≠ guilt, but ≠ innocence
 
 The 2026 releases showed 20+ tech executives in correspondence. Important distinctions:
 - **Investment relationships** (Thiel, Coinbase): Financial, documented, defensible
@@ -279,11 +283,17 @@ The documents created reputational exposure regardless of what actually happened
 - [[Leslie Wexner]] — ~$200M in fees
 - [[Leon Black]] — $158-170M in fees
 
+### Crypto / Bitcoin
+- [[Bitcoin]] — funded core developers via MIT DCI ($525K)
+- [[Blockstream]] — $500K investment (2014)
+- [[MIT]] — Digital Currency Initiative funding
+
 ### Key figures
 - [[Ehud Barak]] — co-investor, frequent contact
 - [[Peter Thiel]] — Valar founder
 - [[Brock Pierce]] — Coinbase intro
 - [[Ghislaine Maxwell]] — associate, convicted 2021
+- [[Joichi Ito]] — MIT Media Lab director, DCI co-conspirator in funding
 
 ### Banks
 - [[JPMorgan Chase]] — $365M settlements

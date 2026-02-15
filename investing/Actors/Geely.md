@@ -53,6 +53,12 @@ Geely could potentially use Volvo/Polestar infrastructure as Trojan horse.
 
 *Source: Financial Times, Jan 31 2026*
 
+### Mexico plant bid (Feb 2026)
+
+Geely is one of three finalists (with [[BYD]] and [[VinFast]]) to acquire the 230,000-unit [[COMPAS Mexico plant sale 2026|COMPAS factory]] in [[Aguascalientes]], [[Mexico]] — a $1B [[Nissan]]-[[Mercedes-Benz]] JV plant closing May 2026. Would complement Geely's existing North American footprint via [[Volvo Cars]] (South Carolina factory) and [[Polestar]] (US sales). 230K-unit capacity could serve both Mexican domestic market (~10% Chinese share, up from 0% in 2020) and potential USMCA-routed US exports.
+
+*Source: Reuters, Feb 12 2026*
+
 ---
 
 ## Quick stats
@@ -76,3 +82,7 @@ Geely could potentially use Volvo/Polestar infrastructure as Trojan horse.
 - [[Xiaomi]] — Chinese competitor
 - [[Ford]] — potential US partner
 - [[China]] — home market
+- [[Nissan]] — COMPAS plant seller
+- [[Mexico]] — manufacturing expansion target
+- [[COMPAS Mexico plant sale 2026]] — plant acquisition bid
+- [[VinFast]] — competing bidder

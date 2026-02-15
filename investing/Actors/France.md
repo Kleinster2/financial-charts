@@ -73,6 +73,30 @@
 
 ---
 
+## "Buy European" agenda
+
+Macron pushes **"buy European"** — procurement preference for European defense and industrial goods, paired with joint EU borrowing for defense. [[Germany]] prefers **"made with Europe"** (supply chain integration) as less protectionist.
+
+**EV subsidy design:** France doesn't directly mandate "buy European" — instead uses carbon lifecycle standards. Chinese EVs produced with coal-based electricity don't qualify. French production, powered by nuclear, does. Clever regulatory protectionism.
+
+**Nuclear deterrence question:** As [[Germany]] emerges as Europe's dominant conventional military power ($189B budget by 2029), whether France would extend its nuclear umbrella to cover Europe — and on what terms — becomes a live question.
+
+---
+
+## Franco-German friction (Feb 2026)
+
+Three sources of German frustration with France:
+
+| Issue | French position | German frustration |
+|-------|-----------------|-------------------|
+| [[EU-Mercosur agreement]] | French bloc in EU Parliament | Obstructing finalized deal |
+| FCAS (6th-gen fighter) | [[Dassault Aviation]] uncooperative with [[Airbus]] on tech sharing | Paris hasn't intervened |
+| "Buy European" | Procurement preference | Too protectionist; threatens China business |
+
+Merz has responded by aligning with [[Italy]]'s Meloni — presenting Germany and Italy as Europe's manufacturing/defense powerhouses. [[Leonardo]] as alternative defense partner to Dassault/French industry.
+
+---
+
 ## Structural factors
 
 | Factor | Impact |
@@ -111,8 +135,11 @@
 - [[Airbus]] — aerospace champion
 - [[European defense spending]] — [[Thales]], Dassault
 - [[Nuclear renaissance]] — French nuclear strength
-- [[EU-Mercosur agreement]] — French farmer opposition
+- [[EU-Mercosur agreement]] — French farmer opposition, Franco-German friction
+- [[Germany]] — "buy European" vs "made with Europe" tension
+- [[Dassault Aviation]] — FCAS technology sharing dispute
+- [[Italy]] — Merz-Meloni axis as counterweight
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Updated 2026-02-14.*

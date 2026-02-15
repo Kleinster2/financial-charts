@@ -3,7 +3,7 @@ aliases: [ABNB]
 ---
 #actor #travel #marketplace #usa #public
 
-**Airbnb** — [[Home]]-sharing marketplace. 133M+ nights booked. $4.5B FCF. ~$12B revenue.
+Airbnb — [[Home]]-sharing marketplace. 133M+ nights booked. $4.5B FCF. ~$12B revenue.
 
 ---
 
@@ -13,19 +13,37 @@ aliases: [ABNB]
 |--------|-------|
 | Ticker | ABNB |
 | Market cap | ~$78B |
-| TTM revenue | **$11.9B** |
-| Q3 2025 revenue | $4.1B |
+| TTM revenue | ~$12.3B |
+| Q4 2025 revenue | $2.78B (+12% YoY) |
 | [[Free cash flow]] | ~$4.5B |
 
 ---
 
 ## 2025 financial performance
 
-| Quarter | Revenue | YoY | Nights booked |
-|---------|---------|-----|---------------|
+| Quarter | Revenue | YoY | Nights & seats booked |
+|---------|---------|-----|----------------------|
 | Q1 2025 | $2.3B | +6% | 143.1M |
 | Q2 2025 | $3.1B | +13% | Growing |
-| Q3 2025 | $4.1B | +10% | **133.6M** |
+| Q3 2025 | $4.1B | +10% | 133.6M |
+| Q4 2025 | $2.78B | +12% | 121.9M (beat 117.6M est) |
+
+### Q4 2025 (reported Feb 12, 2026)
+
+Revenue beat ($2.78B vs est), EPS missed ($0.56 vs $0.66 est). GBV $20.4B (+16% YoY) — highest-growth quarter in 2+ years. Adjusted EBITDA $786M.
+
+Share repurchases: $1.1B in Q4, $3.8B full-year 2025.
+
+Q1 2026 guidance: $2.59-2.63B (14-16% YoY growth, above $2.53B consensus). FY 2026 expects at least low double-digit revenue growth with stable adj EBITDA margins.
+
+Key developments:
+- "Reserve Now, Pay Later" launched in US — $0 upfront for eligible stays, drove Q4 booking acceleration
+- Hired [[Ahmad Al-Dahle]] (ex-Meta head of generative AI) as new CTO
+- AI search being tested — prioritized over sponsored listings
+- FIFA World Cup 2026 supply playbook across 16 North American cities
+- CFO Mertz: One Big Beautiful Bill Act should reduce effective tax rate to mid-to-high teens starting 2026
+
+Stock reaction: +2% after-hours
 
 ---
 
@@ -33,9 +51,9 @@ aliases: [ABNB]
 
 | Metric | Q3 2025 |
 |--------|---------|
-| Net income margin | **34%** |
-| Adjusted EBITDA margin | **50%** |
-| Gross margin | **83%** |
+| Net income margin | 34% |
+| Adjusted EBITDA margin | 50% |
+| Gross margin | 83% |
 | FCF TTM | ~$4.5B |
 
 ---
@@ -44,10 +62,10 @@ aliases: [ABNB]
 
 | Revenue stream | Description |
 |----------------|-------------|
-| **Guest fees** | Service fee on bookings |
-| **Host fees** | Commission on bookings |
-| **Experiences** | Activities (relaunched 2025) |
-| **Services** | New offering (May 2025) |
+| Guest fees | Service fee on bookings |
+| Host fees | Commission on bookings |
+| Experiences | Activities (relaunched 2025) |
+| Services | New offering (May 2025) |
 
 ---
 
@@ -85,14 +103,14 @@ aliases: [ABNB]
 
 ## Investment case
 
-**Bull:**
+Bull:
 - 50% EBITDA margins
 - $4.5B+ FCF
 - International growth ([[India]], [[Japan]])
 - Services/Experiences expansion
 - Strong balance sheet ($11.7B)
 
-**Bear:**
+Bear:
 - NA growth slowing to single digits
 - [[Travel]] discretionary spending risk
 - Regulatory pressure (cities)
@@ -106,7 +124,7 @@ aliases: [ABNB]
 | Metric | Value |
 |--------|-------|
 | Ticker | ABNB |
-| TTM revenue | ~$12B |
+| TTM revenue | ~$12.3B |
 | EBITDA margin | 50% |
 | Focus | [[Home]]-sharing |
 
@@ -122,7 +140,8 @@ aliases: [ABNB]
 
 ## Sources
 
+- [Airbnb Q4 2025 Financial Results](https://news.airbnb.com/airbnb-q4-2025-financial-results/)
+- [CNBC Q4 Earnings](https://www.cnbc.com/2026/02/12/q4-airbnb-abnb-earnings-2025.html)
 - [Airbnb Q3 2025](https://news.airbnb.com/airbnb-q3-2025-financial-results/)
-- [CNBC Q3 Results](https://www.cnbc.com/2025/11/06/airbnb-abnb-q3-results-2025.html)
 
-*Created 2026-01-09*
+*Created 2026-01-09 · Updated 2026-02-13*

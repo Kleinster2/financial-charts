@@ -3,7 +3,7 @@ aliases: [商汤科技, SenseTime Group]
 ---
 #actor #china #ai #cv #public
 
-**SenseTime** — [[China]]'s largest computer vision company. Tsinghua/CUHK spinoff. Public (HK: 0020). On US Entity List. Surveillance, autonomous driving, smart city.
+SenseTime — [[China]]'s largest computer vision company. Tsinghua/CUHK spinoff. Public (HK: 0020). On US Entity List. Surveillance, autonomous driving, smart city.
 
 ---
 
@@ -16,9 +16,42 @@ The flagship [[China]] AI company — large, public, controversial:
 | HQ | Hong Kong / Shanghai |
 | Founded | 2014 |
 | Listing | [[HKEX]]: 0020 (Dec 2021) |
-| Market cap | ~$10B (volatile) |
+| Market cap | ~$10B |
+| Stock price | HK$2.51 (Feb 11) |
 | Focus | Computer vision, AI platform |
 | Status | US Entity List (2019) |
+
+---
+
+## Recent developments (Feb 2026)
+
+### MSCI China Index inclusion (Feb 11, 2026)
+
+Added to [[MSCI]] China Index — a catalyst for passive fund inflows. Stock rose 5.5% on the day to HK$2.51.
+
+### SenseNova open-source models
+
+| Model | Date | Claim |
+|-------|------|-------|
+| SenseNova-SI-1.3 | Feb 6, 2026 | #1 across 8 spatial intelligence benchmarks |
+| SenseNova-MARS | Jan 30, 2026 | Multimodal search and reasoning breakthrough |
+| SenseNova V6.5 | 2025 | #1 multimodal LLM in [[China]] (2025) |
+| Office Raccoon app | Jan 14, 2026 | AI productivity app |
+
+Pivot from pure computer vision to foundation model developer. SenseNova series positions SenseTime in the generative AI race alongside [[Zhipu]], [[DeepSeek]], [[Alibaba]].
+
+### ACE Robotics spinout
+
+SenseTime-backed embodied robotics startup [[ACE Robotics]] closed an angel round led by [[Ant Group]]. Co-led by SenseTime co-founder Wang Xiaogang and chief scientist Tao Dacheng. Other investors: [[Qiming Venture Partners]], GVC, [[Hony Capital]], [[Lenovo Capital]], Shanghai Jiao Tong's Lotus Capital.
+
+### Alumni network as talent pipeline
+
+SenseTime alumni increasingly recognized as a founder factory for [[China]] AI. Notable spinouts:
+- [[Momenta]] — autonomous driving (founder Cao Xudong, ex-SenseTime R&D director)
+- [[MiniMax]] — foundation models
+- [[ACE Robotics]] — embodied AI
+
+Investors tracking the SenseTime alumni network as a signal, similar to [[DJI]]'s role in Shenzhen hardware.
 
 ---
 
@@ -30,7 +63,7 @@ The flagship [[China]] AI company — large, public, controversial:
 | Xu Li | CEO, Tsinghua + CUHK |
 | Others | Academic researchers |
 
-**Academic origins:** Spun out of CUHK computer vision lab. Research-first culture.
+Academic origins: Spun out of CUHK computer vision lab. Research-first culture.
 
 ---
 
@@ -43,7 +76,7 @@ The flagship [[China]] AI company — large, public, controversial:
 | Smart Life | ~15% | Mobile apps, photo enhancement |
 | Smart Auto | ~10% | Autonomous driving, ADAS |
 
-**Revenue concentration:** Smart City (surveillance) is controversial but significant.
+Revenue concentration: Smart City (surveillance) is controversial but significant.
 
 ---
 
@@ -56,7 +89,7 @@ The flagship [[China]] AI company — large, public, controversial:
 | Video analytics | Real-time processing |
 | AI platform (SenseCore) | Training + inference infrastructure |
 
-**[[Benchmark]] performance:** Consistently top rankings on academic CV benchmarks.
+[[Benchmark]] performance: Consistently top rankings on academic CV benchmarks.
 
 ---
 
@@ -71,7 +104,7 @@ Added to US Entity List in 2019:
 | US customers | None |
 | Workarounds | Domestic chips, third-party procurement |
 
-**Stock impact:** IPO was delayed, priced lower. Ongoing overhang.
+Stock impact: IPO was delayed, priced lower. Ongoing overhang.
 
 ---
 
@@ -88,34 +121,40 @@ Added to US Entity List in 2019:
 
 ## Financial snapshot
 
-| Metric | 2023 | Trend |
-|--------|------|-------|
-| Revenue | ~$5B RMB | Growing |
+| Metric | TTM (Jun 2025) | Trend |
+|--------|----------------|-------|
+| Revenue | $609M | Growing |
 | Gross margin | ~65% | Stable |
 | Net income | Negative | Improving |
 | R&D spend | ~70% of revenue | High |
+| Total funding | $2.82B (10 rounds) | — |
 
-**Profitability:** Still losing money. Heavy R&D investment.
+Next earnings: March 31, 2026.
+
+Profitability: Still losing money. Heavy R&D investment. Pivot to generative AI (SenseNova) could shift margin mix.
 
 ---
 
 ## Investment implications
 
-**Investable:** [[HKEX]]: 0020
+Investable: [[HKEX]]: 0020
 
-**Bull case:**
-- [[China]] AI leader in CV
-- Platform approach (SenseCore)
+Bull:
+- [[China]] AI leader in CV, now expanding to generative AI (SenseNova)
+- MSCI China inclusion (Feb 2026) — passive fund inflows
+- Platform approach (SenseCore) + open-source model strategy
 - Autonomous driving optionality
+- Alumni network creating ecosystem value ([[Momenta]], [[MiniMax]], [[ACE Robotics]])
 - Valuation depressed by Entity List
 
-**Bear case:**
-- Entity List overhang
+Bear:
+- Entity List overhang (since 2019)
 - Surveillance exposure ([[ESG]] concerns)
-- Profitability unclear
-- Competition from Big Tech (ByteDance, [[Alibaba]])
+- Profitability unclear — heavy R&D burn
+- Late entrant to generative AI vs [[DeepSeek]], [[Zhipu]]
+- Competition from Big Tech ([[ByteDance]], [[Alibaba]])
 
-**Key metrics to watch:**
+Key metrics to watch:
 - Smart Auto revenue growth
 - Gross margin stability
 - Path to profitability
@@ -131,19 +170,31 @@ Added to US Entity List in 2019:
 | Entity List | US government concern |
 | Response | Company denies human rights violations |
 
-**Investor caution:** Some [[ESG]]-focused funds exclude SenseTime.
+Investor caution: Some [[ESG]]-focused funds exclude SenseTime.
 
 ---
 
-*Updated 2026-01-03*
+*Updated 2026-02-13*
 
 ---
 
 ## Related
 
+### Competitors/Peers
 - [[Megvii]] — competitor (Face++)
+- [[Zhipu]] — Chinese AI peer (generative AI)
+- [[DeepSeek]] — Chinese AI peer
+- [[MiniMax]] — spinout connection (alumni)
+
+### Spinouts/Alumni
+- [[Momenta]] — autonomous driving (founder ex-SenseTime)
+- [[ACE Robotics]] — embodied AI (co-founder Wang Xiaogang)
+
+### Context
 - [[MSR Asia]] — heritage (founder alumnus)
 - [[China university-AI pipeline]] — origin (CUHK spinoff)
 - [[Sinovation Ventures]] — investor
+- [[Ant Group]] — ACE Robotics lead investor
+- [[MSCI]] — China Index inclusion (Feb 2026)
 - [[Export controls]] — context (Entity List)
 - [[China AI Tigers]] — peer (though older)

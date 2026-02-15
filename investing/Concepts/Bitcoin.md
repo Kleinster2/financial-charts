@@ -35,6 +35,7 @@ aliases: [BTC, BTC-USD]
 | 2020-21 | COVID stimulus + institutions | $5K → $69K |
 | 2022 | Terra/FTX collapses | $48K → $15.6K (-67%) |
 | 2024-25 | ETF approval + Trump | $40K → $126K |
+| 2026 | Institutional leverage unwind | $126K → sub-$60K |
 
 ---
 
@@ -118,7 +119,8 @@ See [[Strategic Bitcoin Reserve]] for details.
 
 | Risk | Evidence |
 |------|----------|
-| **Volatility** | 50%+ drawdowns routine ($126K → $82K in 4 months) |
+| **Volatility** | 50%+ drawdowns routine ($126K → sub-$60K by Feb 2026) |
+| **Fractional reserve dynamics** | Futures/derivatives markets may trade "paper Bitcoin" without full on-chain backing — [[BlockFills]] suspension (Feb 2026) exposed institutional leverage |
 | **No cash flow** | Pure speculation, no yield, no earnings |
 | **Energy use** | ~212 TWh/year (~0.8% global electricity) |
 | **Regulatory** | No comprehensive US framework |
@@ -161,6 +163,13 @@ See [[Crypto-to-AI]] for miners pivoting to AI hosting.
 ### Miners
 - [[Marathon Digital]], [[Riot Platforms]], [[CleanSpark]], [[Bitdeer]]
 - [[TeraWulf]], [[Core Scientific]], [[Hut 8]], [[IREN]]
+
+### Institutional lending
+- [[BlockFills]] — [[Susquehanna]]-backed lender, suspended withdrawals Feb 2026
+- [[Coinbase]] — $718M unrealized crypto write-down Q4 2025
+
+### Development history
+- [[MIT]] — Digital Currency Initiative funded Bitcoin Core developers (2015) with [[Jeffrey Epstein]]-linked donations
 
 ### Comparison
 - [[Ethereum]] — smart contract platform (different use case)

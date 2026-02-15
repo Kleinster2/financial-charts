@@ -110,6 +110,52 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 
 ---
 
+## Stagnation (2019-2026)
+
+Germany has grown **0.1% since 2019** — worst five-year stretch in Federal Republic history (since 1949).
+
+| Economy | Growth since 2019 |
+|---------|-------------------|
+| **US** | +12% |
+| **EU average** | +4% |
+| **Italy** | >0.1% |
+| **Germany** | **+0.1%** |
+
+**No tech dynamism:** Top R&D spenders are the same companies as 20 years ago, all clustered around automotive. No platform economy, no big tech equivalents.
+
+**Low working hours:** ~1,300 hrs/year vs US ~1,750 — Americans work 25-30% more. Rational explanations (childcare availability, work-life balance) rather than Merz's "lifestyle part-time work" framing.
+
+**Merz supply-side populism:** Targeting part-time work protections and telephone sick notes — Tooze calls this "supply-side policy for dummies." High absenteeism likely reflects systemic causes, not malingering.
+
+---
+
+## European positioning
+
+### "Made with Europe" vs "Buy European"
+
+Germany prefers **"made with Europe"** (supply chain integration) over [[France]]'s **"buy European"** (procurement preference). France's EV subsidy uses carbon standards that favor nuclear-powered production — Chinese EVs don't qualify. Germany resists this as too protectionist, partly to protect its [[China]] business ties.
+
+### Merz-Meloni axis
+
+Merz has aligned with [[Italy]]'s Meloni on manufacturing and defense — presenting Germany and Italy as Europe's two industrial powerhouses. Ironic given [[Olaf Scholz]]'s stated fear of a post-fascist Italian government.
+
+**Three sources of frustration with [[France]]:**
+1. [[EU-Mercosur agreement]] — French block in EU Parliament
+2. FCAS next-gen fighter — [[Dassault Aviation]] uncooperative with [[Airbus]] on technology sharing
+3. "Buy European" protectionism
+
+### Defense leadership ambitions
+
+Merz has openly stated he wants Germany as **Europe's leading military power** — unprecedented for a postwar chancellor. Bundeswehr spending could reach **$189B by 2029**, dwarfing France, UK, Italy, Spain.
+
+This creates a structural imbalance: France/Italy/Spain can't match without EU common debt, and EU SAFE package (~EUR 160B) is smaller than Germany's projected national budget alone. Germany controls whether Europe issues common debt.
+
+**European army logic:** Combined European spending already ~2x Russia's — a single force could achieve full-spectrum capability. National budgets cannot. Historical precedent: the 1950s European Defense Community (joint army) was rejected by French parliament in 1954; NATO membership was the fallback.
+
+See [[European defense spending]].
+
+---
+
 ## Structural challenges
 
 | Challenge | Impact |
@@ -119,6 +165,8 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 | **Demographics** | Aging workforce, immigration debates |
 | **Underinvestment** | Infrastructure, digitization lagging |
 | **Bureaucracy** | Slow permitting, regulation |
+| **No tech sector** | No platform economy or big tech equivalents |
+| **Venture capital** | Weakest among major economies |
 
 ---
 
@@ -171,13 +219,19 @@ Germany emerging as potential space power with plans to invest **€35B** in spa
 - [[Rheinmetall]] — defense champion
 - [[Infineon]] — semiconductor champion
 - [[Siemens]] — industrial champion
-- [[European defense spending]] — Zeitenwende
+- [[European defense spending]] — Zeitenwende, $189B by 2029
 - [[EU Chips Act]] — semiconductor policy
 - [[BYD]] — auto competition threat
-- [[EU-Mercosur agreement]] — auto industry beneficiary
+- [[EU-Mercosur agreement]] — auto industry beneficiary, source of Franco-German friction
 - [[Isar Aerospace]] — leading domestic launch startup
 - [[Space]] — €35B space-defense investment by 2030
+- [[Dassault Aviation]] — FCAS technology sharing friction
+- [[Italy]] — Merz-Meloni manufacturing/defense axis
+- [[Leonardo]] — potential defense partner via Italy
+- [[Poland]] — defense spending driven by distrust of Germany
+- [[France]] — "buy European" vs "made with Europe" tension
+- [[Adam Tooze]] — stagnation analysis, bubble typology
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Updated 2026-02-14.*

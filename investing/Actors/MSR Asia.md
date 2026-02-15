@@ -1,15 +1,17 @@
 ---
-aliases: [Microsoft Research [[Asia]], 微软亚洲研究院, MSRA]
+aliases:
+  - Microsoft Research Asia
+  - MSRA
 ---
 #actor #china #ai #talent #microsoft
 
 **MSR [[Asia]] (Microsoft Research [[Asia]])** — The "Whampoa Military Academy" of [[China]] AI. Founded by Kai-Fu Lee. Alumni lead AI at every major [[China]] tech company.
 
-> **Key insight:** One research lab trained a generation of [[China]]'s AI leaders. MSR [[Asia]] alumni are now competitors to Microsoft.
+> **Key insight:** One research lab trained a generation of [[China]]'s AI leaders. MSR Asia alumni are now competitors to Microsoft.
 
 ---
 
-## Why MSR [[Asia]] matters
+## Why MSR Asia matters
 
 The most influential AI research lab in [[China]]'s history:
 
@@ -25,7 +27,7 @@ The most influential AI research lab in [[China]]'s history:
 
 ## The "Whampoa" nickname
 
-Named after the Whampoa Military Academy that trained leaders for both sides of [[China]]'s civil war. MSR [[Asia]] similarly trained leaders who went everywhere:
+Named after the Whampoa Military Academy that trained leaders for both sides of [[China]]'s civil war. MSR Asia similarly trained leaders who went everywhere:
 
 | Alumni | Role |
 |--------|------|

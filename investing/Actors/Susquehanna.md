@@ -170,6 +170,7 @@ Yass is a major libertarian donor, historically focused on school choice and fre
 
 ### Investments
 - [[ByteDance]] — 15% stake, [[TikTok]] parent
+- [[BlockFills]] — crypto lender/trading ($37M Series A lead, 2022). Suspended withdrawals Feb 2026.
 
 ### Peer trading firms (market makers)
 - [[Citadel Securities]] — largest US market maker, Ken Griffin

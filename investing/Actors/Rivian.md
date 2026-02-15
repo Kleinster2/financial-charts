@@ -142,16 +142,32 @@ Demand waned for aging R1 platform. R2 critical for growth. First annual gross p
 
 ---
 
+## [[Volkswagen]] JV (10-K details)
+
+50/50 JV established Nov 2024. Rivian is primary beneficiary (consolidated). Focus: electrical architecture, software, ECUs, network architecture.
+
+| Metric | 2024 | 2025 |
+|--------|------|------|
+| JV revenue from VW | $73M | **$836M** |
+| Deferred VW revenue | $1,526M | $1,794M |
+| JV assets | ~$250M | ~$800M |
+
+VW funding received: $1,295M (IP license) + $750M equity ($14.56/share) + $250M milestone. **Up to $2.5B more expected** — $1.5B in equity/convertible debt + $1.0B committed term loan (available Oct 2026).
+
+**Mind Robotics JV (Nov 2025):** Rivian 53.5%, [[Eclipse Ventures]] + others 46.5%. Industrial AI and robotics. Third parties contributed ~$112M, Rivian ~$128M (cash + IP). Consolidated as VIE.
+
+---
+
 ## Amazon partnership
 
 | Detail | Value |
 |--------|-------|
 | Original deal | 100,000 EDVs |
-| Fleet size (2023) | 10,000+ |
+| 2025 revenue from Amazon | $900M |
 | Exclusivity | Ended Oct 2023 |
 | Status | Can now sell to other fleets |
 
-Amazon ~20% owner of Rivian.
+Amazon ~20% owner of Rivian. [[Chase Bank]] represented ~36% of new EV revenues in 2025 via leasing arrangements.
 
 ---
 
@@ -164,13 +180,16 @@ The bull case:
 | Starting price | ~$45,000 |
 | vs R1 price | ~50% cheaper |
 | Build cost | ~50% lower material cost than R1 |
-| Production capacity | 155,000/year |
+| R2 capacity (Normal) | 155,000/year |
+| Total Normal capacity | 215,000/year (all platforms) |
 | First customer deliveries | Q2 2026 |
 | Full unveil / pricing | March 12 (SXSW) |
 
-First R2 manufacturing validation builds completed mid-January 2026 using production tools and processes at Normal, IL plant. R2 expected to be "majority of volume" by end of 2027 (Scaringe).
+First R2 manufacturing validation builds completed mid-January 2026 using production tools and processes at Normal, IL plant. New 1.6M sq ft logistics park with direct tunnel connector to reduce dock-to-line lead times.
 
-R2 could nearly triple Rivian's addressable market.
+**Stanton Springs North (Georgia):** Second MSP plant. 400K/year capacity in two phases of 200K. Vertical construction 2026, production 2028. Supported by ~$6.0B DOE ATVM loan ($3.4B Note A + $2.6B Note B) and $1.5B Georgia incentive package.
+
+R2 expected to be "majority of volume" by end of 2027 (Scaringe). R2 + R3 could nearly triple Rivian's addressable market.
 
 ---
 

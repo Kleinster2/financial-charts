@@ -36,7 +36,7 @@ Record $41B FDI in first three quarters of 2025 (+15% YoY). Key stats:
 - **Sources:** US (30%), Spain, Netherlands, Japan, Canada
 - **2026 forecast:** $40-45B
 
-Chinese investment notably cautious given US/Mexico scrutiny and tariff uncertainty.
+Chinese investment notably cautious given US/Mexico scrutiny and tariff uncertainty — though that may be changing. In Feb 2026, [[BYD]], [[Geely]], and [[VinFast]] emerged as finalists to acquire the 230K-unit [[COMPAS Mexico plant sale 2026|COMPAS plant]] in Aguascalientes from [[Nissan]]-[[Mercedes-Benz]]. Economy ministry quietly stalling Chinese automaker investments pending US trade talks, but Mexico can't legally block a private factory sale. Chinese auto brands have gone from 0% to ~10% of Mexico's ~1.5M annual car market since 2020.
 
 ## MXN dynamics
 
@@ -72,6 +72,11 @@ President Claudia Sheinbaum (took office Oct 2024):
 - [[Mexico Tech]] — tech sector specifics
 - [[China]] — decoupling driving nearshoring
 - [[United States]] — primary trade/investment partner
+- [[BYD]] — bidding for COMPAS plant
+- [[Geely]] — bidding for COMPAS plant
+- [[Nissan]] — closing two Mexico factories
+- [[COMPAS Mexico plant sale 2026]] — Chinese automaker plant acquisition
+- [[Chinese EVs enter US]] — Mexico as pathway thesis
 
 ---
 

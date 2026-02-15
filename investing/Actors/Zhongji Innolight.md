@@ -17,6 +17,24 @@ Optical modules are critical for AI data center interconnects:
 | Secondary listing | Hong Kong ($3B+, 2026) |
 | Business | Optical communication modules |
 | End market | Data centers, AI networking |
+| Founder | Wang Weixiu |
+| Founder net worth | $14.35B (Bloomberg Feb 2026) |
+
+---
+
+## China AI infrastructure billionaires (Bloomberg, Feb 2, 2026)
+
+![[china-ai-billionaires-bloomberg-feb2026.png]]
+*Source: Bloomberg Billionaires Index. Wang Weixiu ranks #2 among China AI infrastructure founders at $14.35B.*
+
+| Name | Company | Net Worth |
+|------|---------|-----------|
+| Chen Tianshi | [[Cambricon Technologies]] | $21.53B |
+| Wang Weixiu | [[Zhongji Innolight]] | $14.35B |
+| Zhou Chaonan | [[Range Intelligent]] | $10.96B |
+| Chen Tao | [[Victory Giant]] | $9.35B |
+| Cai Huabo | [[Longsys Electronics]] | $7.07B |
+| Zhang Jianzhong | [[Moore Threads]] | $4.16B |
 
 ---
 
@@ -34,12 +52,12 @@ Key beneficiary of AI infrastructure buildout.
 
 ## Hong Kong listing
 
-| Metric | Value |
-|--------|-------|
-| [[Target]] raise | **$3B+** |
-| Exchange | [[HKEX]] |
-| [[Banks]] | Selected |
-| Status | In preparation |
+| Metric       | Value          |
+| ------------ | -------------- |
+| Target raise | **$3B+**       |
+| Exchange     | [[HKEX]]       |
+| Banks        | Selected       |
+| Status       | In preparation |
 
 Part of wave of [[Shenzhen]]-listed Chinese firms adding HK listings (see [[Asia IPO pipeline 2026]]).
 

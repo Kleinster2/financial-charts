@@ -13,21 +13,42 @@ Leading [[China]] GPU challenger, founded by NVIDIA veteran:
 
 | Metric | Value |
 |--------|-------|
-| Founder | James Zhang (ex-NVIDIA VP, 14 years) |
+| Founder | [[Zhang Jianzhong|James Zhang Jianzhong]] (ex-NVIDIA Global VP, 15 years) |
+| Co-founders | [[Zhang Yubo]] (CTO, $1.6B), [[Zhou Yuan]] (Director, $1.32B), [[Wang Dong]] (VP, $1.32B) |
+| Founder net worth | $4.16B (Bloomberg Feb 2026) |
 | IPO | Dec 2025, +400% on debut |
 | Market cap | 312B yuan (~$43B) |
 | Platform | MUSA (CUDA alternative) |
+| Entity List | October 2023 |
 | Status | Unprofitable |
+
+---
+
+## China AI infrastructure billionaires (Bloomberg, Feb 2, 2026)
+
+![[china-ai-billionaires-bloomberg-feb2026.png]]
+*Source: Bloomberg Billionaires Index. Zhang Jianzhong at $4.16B — lowest on the list but Moore Threads has the highest market cap (~$43B) among the six.*
+
+| Name | Company | Net Worth |
+|------|---------|-----------|
+| Chen Tianshi | [[Cambricon Technologies]] | $21.53B |
+| Wang Weixiu | [[Zhongji Innolight]] | $14.35B |
+| Zhou Chaonan | [[Range Intelligent]] | $10.96B |
+| Chen Tao | [[Victory Giant]] | $9.35B |
+| Cai Huabo | [[Longsys Electronics]] | $7.07B |
+| Zhang Jianzhong | [[Moore Threads]] | $4.16B |
 
 ---
 
 ## Founding story
 
-**James Zhang Jianzhong:**
-- 14 years at NVIDIA
-- VP and [[GM]] of [[China]] operations
+**[[Zhang Jianzhong|James Zhang Jianzhong]]:**
+- 15 years at NVIDIA as Global VP
 - Left 2020 to found Moore Threads
+- Named the company to imply "Do More" than NVIDIA allowed
 - Brought NVIDIA know-how to [[China]]
+- Co-founders: [[Zhang Yubo]] (CTO, PhD [[UC Davis]]), [[Zhou Yuan]] (Director), [[Wang Dong]] (VP, ex-NVIDIA Sales Director)
+- All founders added to US [[Entity List]] (October 2023)
 
 ---
 
@@ -136,7 +157,7 @@ Moore Threads is one of [[China]]'s "Four Little Dragons" of GPUs:
 | Ticker | Shanghai (688410?) |
 | Market cap | ~$43B |
 | HQ | Beijing |
-| Founder | James Zhang (ex-NVIDIA) |
+| Founder | [[Zhang Jianzhong|James Zhang]] (ex-NVIDIA Global VP) |
 | Platform | MUSA |
 
 *Updated 2026-01-01*
@@ -156,7 +177,13 @@ Moore Threads is one of [[China]]'s "Four Little Dragons" of GPUs:
 - [[MetaX]] — peer (Four Little Dragons)
 - [[Enflame]] — peer (Four Little Dragons)
 - [[Lisuan]] — peer (consumer gaming GPU)
-- [[NVIDIA]] — competitor (founder origin, 14 years)
+- [[Zhang Jianzhong]] — founder & CEO ($4.16B)
+- [[Zhang Yubo]] — co-founder & CTO ($1.6B)
+- [[Zhou Yuan]] — co-founder & director ($1.32B)
+- [[Wang Dong]] — co-founder & VP ($1.32B)
+- [[China AI billionaires]] — Bloomberg ranking
+- [[Entity List]] — sanctioned October 2023
+- [[NVIDIA]] — competitor (founder origin, 15 years)
 - [[Huawei]] — competitor (domestic alternative)
 - [[Export controls]] — context (NVIDIA blocked)
 - [[SMIC]] — likely foundry

@@ -192,6 +192,8 @@ France most vocal opponent:
 
 **Von der Leyen/Merz position:** Push ahead regardless. Merz at Davos (Jan 22): "We will not be stopped. The [[Mercosur]] deal is fair and balanced."
 
+**Franco-German friction driver (Feb 2026):** [[Adam Tooze]] identifies the French EU Parliament block on Mercosur as one of three sources of German frustration with [[France]] — alongside FCAS technology sharing disputes ([[Dassault Aviation]]/[[Airbus]]) and "buy European" protectionism. This frustration has pushed Merz toward alignment with [[Italy]]'s Meloni.
+
 ---
 
 ## Geopolitical context

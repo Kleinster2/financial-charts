@@ -6,7 +6,7 @@ aliases: [Zhipu AI, 智谱AI, Knowledge Atlas Technology, Z.AI, 2513.HK]
 Zhipu — Chinese AI model company. First major Chinese AI startup to IPO (Jan 8, 2026). Hong Kong listed.
 
 ![[zhipu-price-chart.png]]
-*IPO'd at HK$116.20 (Jan 8). Surged to HK$405 (+249%) on Feb 12 after GLM-5 launch + JPMorgan Overweight initiation. Chart data lags — Feb spike not yet captured by yfinance.*
+*IPO'd at HK$116.20 (Jan 8). Hit record HK$496 on Feb 13 (+327% from IPO). Chart data lags — Feb spike not yet captured by yfinance.*
 
 ---
 
@@ -18,7 +18,7 @@ First Chinese AI lab to go public:
 |--------|-------|
 | Full name | Knowledge Atlas Technology JSC Ltd. |
 | Ticker | 2513.HK ([[HKEX]]) |
-| Market cap | ~$19B (Feb 12) |
+| Market cap | ~$22B (Feb 13) |
 | IPO date | January 8, 2026 |
 | IPO valuation | $6.6B |
 | Founders | Tang Jie, Li Juanzi (Tsinghua professors) |
@@ -46,7 +46,7 @@ Milestone: trained GLM-Image entirely on [[Huawei]] Ascend chips — first Chine
 
 Framing shift: Zhipu describes GLM-5 as moving from "vibe coding" to "agentic engineering" — AI-automated coding at larger scale.
 
-Stock surged ~70% in the week of launch (Feb 10-12), hitting HK$405 (+249% from IPO). Catalysts: GLM-5 release + JPMorgan Overweight initiation (see below).
+Stock surged ~120% in the week of launch (Feb 10-13), hitting record HK$496 (+327% from IPO). Catalysts: GLM-5 release + JPMorgan Overweight initiation (see below).
 
 Competing with [[ChatGPT]], [[Ernie]], [[Qwen]], [[DeepSeek]]. Enterprise API available. Part of [[China]]'s "rising stars" alongside Moonshot, MiniMax.
 
@@ -76,6 +76,14 @@ Part of wave of Chinese AI/chip firms listing in HK:
 | [[Biren Tech]] | Jan 3 | +76% |
 | Zhipu | Jan 8 | +13.2% |
 | [[MiniMax]] | Jan 9 | — |
+
+---
+
+## Shanghai dual listing (Feb 2026)
+
+Planning a second listing on [[Shanghai]]'s Star Market following the HK IPO. Hired [[Guotai Haitong Securities]] and [[CICC]] as advisers. Stock jumped 23.4% to record HK$496 on the news (Feb 13), extending gain since IPO to ~320%.
+
+If completed, Zhipu would trade on both [[HKEX]] and SSE — accessing mainland investor pools and government-linked capital.
 
 ---
 
@@ -175,8 +183,8 @@ Cloud deployment gross margin collapsed: 76.1% (2022) → -0.4% (H1 2025) — re
 
 | Metric | Value |
 |--------|-------|
-| Market cap | ~$19B (Feb 12, 2026) |
-| P/S (2024 revenue) | ~150x |
+| Market cap | ~$22B (Feb 13, 2026) |
+| P/S (2024 revenue) | ~175x |
 | P/S (2025E) | ~39x |
 | JPMorgan breakeven | 2029 |
 | IPO proceeds | $558M (70% to R&D) |
@@ -192,15 +200,16 @@ China AI market rank: #1 among independent foundation model labs, #3 overall (af
 | Ticker | 2513.HK |
 | IPO date | Jan 8, 2026 |
 | IPO price | HK$116.20 |
-| Current price | HK$405 (Feb 12) |
-| Market cap | ~$19B |
+| Current price | HK$496 (Feb 13) |
+| Market cap | ~$22B |
 | 2024 revenue | RMB 312M |
 | Net loss (H1 2025) | RMB (2.36B) |
 | HQ | Beijing |
-| Founders | Tang Jie, Li Juanzi (Tsinghua) |
+| Founders | Tang Jie, [[Liu Debing]], Li Juanzi ([[Tsinghua University|Tsinghua]]) |
+| Liu Debing net worth | $1.58B (Bloomberg Feb 2026) |
 | Analyst | JPMorgan OW, PT HK$400 |
 
-*Updated 2026-02-12*
+*Updated 2026-02-13*
 
 ---
 

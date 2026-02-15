@@ -68,6 +68,13 @@ Geely signaling US entry "within 3 years." Could route Chinese EV tech through S
 - BYD, other Chinese OEMs exploring Mexico plants
 - Risk: Congress could close loophole
 
+**Feb 2026 — [[COMPAS Mexico plant sale 2026|COMPAS plant bid]]:**
+- [[BYD]], [[Geely]], [[VinFast]] are finalists to acquire 230K-unit [[Nissan]]-[[Mercedes-Benz]] COMPAS factory in Aguascalientes
+- $1B plant closing May 2026 — instant manufacturing footprint vs years of greenfield delays
+- Chinese brands already ~10% of Mexico's ~1.5M annual car market (up from 0% in 2020)
+- Mexico economy ministry quietly stalling Chinese investment pending US trade talks
+- BYD doesn't need government approval to buy — only for greenfield builds
+
 ### 4. Direct entry (requires policy shift)
 
 **Trump's openness:**
@@ -135,6 +142,7 @@ If Ford partners with Xiaomi:
 | Trump policy reversal | Low | High |
 | Chinese OEMs decide US not worth hassle | Low | Medium |
 | Mexico loophole closed | Medium | Medium |
+| COMPAS sale blocked politically | Medium | Medium |
 
 ---
 
@@ -142,6 +150,7 @@ If Ford partners with Xiaomi:
 
 | Date | Evidence | Direction |
 |------|----------|-----------|
+| **2026-02-12** | **BYD, Geely finalists for 230K-unit Mexico plant (Reuters)** | **Bullish** |
 | **2026-01-31** | **Ford-Xiaomi/BYD JV talks (FT, 4 sources)** | **Bullish** |
 | **2026-01-31** | **Geely: US entry "within 3 years"** | **Bullish** |
 | **2026-01** | **Trump: "I love" Chinese plants in US** | **Bullish** |
@@ -160,5 +169,9 @@ If Ford partners with Xiaomi:
 - [[Short Tesla]] — related thesis
 - [[China]] — policy uncertainty
 - [[CATL]] — Ford battery deal precedent
+- [[Nissan]] — COMPAS plant seller
+- [[VinFast]] — competing COMPAS bidder
+- [[COMPAS Mexico plant sale 2026]] — Mexico pathway materializing
+- [[Mexico]] — manufacturing base
 
 *Created 2026-02-02*

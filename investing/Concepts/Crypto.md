@@ -126,6 +126,7 @@ See [[Tokenized private shares]] for deep dive.
 | Security | Exchange hacks, wallet loss |
 | Fraud | Scams, rug pulls |
 | Obsolescence | Technology risk |
+| **Institutional leverage** | Crypto lending/derivatives create fractional reserve dynamics — [[BlockFills]] suspension (Feb 2026) showed institutional plumbing breaking before retail |
 
 ---
 

@@ -60,6 +60,8 @@ Leading the Franco-German-Spanish Future Combat Air System:
 
 Competes with [[UK]]-led Tempest (BAE, [[Leonardo]], [[Japan]]).
 
+**Technology sharing friction (Feb 2026):** [[Adam Tooze]] reports Dassault is being "incredibly uncooperative" with [[Airbus]] on technology sharing for the next-gen fighter. Paris has not intervened to bring Dassault into line. This is one of three sources of German frustration with [[France]] (alongside [[EU-Mercosur agreement]] and "buy European" protectionism), contributing to Merz's alignment with [[Italy]]'s Meloni and interest in [[Leonardo]] as alternative defense partner for [[Rheinmetall]]/Airbus.
+
 ---
 
 ## Investment thesis

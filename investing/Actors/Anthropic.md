@@ -4,20 +4,23 @@ Anthropic — AI lab, maker of Claude. More capital-efficient than [[OpenAI]].
 
 ---
 
-## Financial position (Jan 2026)
+## Financial position (Feb 2026)
 
 | Metric | Value |
 |--------|-------|
-| Revenue | $9B+ annualized (was $87M early 2024) |
+| Revenue | $14B annualized run rate (was $9B in Jan, $87M early 2024) |
+| Claude Code run rate | $2.5B (launched publicly May 2025) |
 | Revenue mix | 80% enterprise, 20% consumer |
 | Business customers | 300,000+ |
 | Large accounts ($100K+ ARR) | 7x growth in past year |
+| $1M+ ARR customers | 500 (was 12 two years ago) |
+| Fortune 10 clients | 8 of 10 |
 | 2025 loss | $5.6B (confirmed Jan 2026) |
 | Burn rate | Dropping to 9% of revenue by 2027 |
 | Break-even target | 2028 |
-| Valuation | $350B (Series G, Feb 2026) |
+| Valuation | $380B (Series G close, Feb 12 2026) |
 
-Burning 14x less cash than OpenAI before profitability.
+Burning 14x less cash than OpenAI before profitability. CFO [[Krishna Rao]]: "Claude is increasingly becoming critical to how businesses work."
 
 ---
 
@@ -34,50 +37,57 @@ Burning 14x less cash than OpenAI before profitability.
 | Mar 2025 | Strategic | $1B | — | Google (now $3B total) |
 | Sep 2025 | Series F | $13B | $183B | Iconiq, Fidelity, Lightspeed, QIA |
 | Nov 2025 | Strategic | ~$15B | — | NVIDIA ($10B) + Microsoft ($5B) |
-| Feb 2026 | Series G | $20B+ | $350B | Co-leads: [[Founders Fund]], [[D.E. Shaw]], [[Dragoneer]], [[Iconiq]], [[MGX]]. Strategic: NVIDIA (~$10B), Microsoft (~$5B). Also: [[Coatue]], [[GIC]], [[Altimeter]], [[Sequoia]], [[Lightspeed]], [[Menlo Ventures]] |
+| Feb 2026 | Series G | $30B | $380B | [[GIC]], [[Coatue Management\|Coatue]], [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]] (36+ total) |
 
-Total raised: ~$60B+
+Total raised: ~$57B+ (per Fortune)
+
+Second-largest private tech financing on record, behind [[OpenAI]]'s $40B+. Nearly doubled valuation from $183B to $380B in five months.
 
 ---
 
 ## Cap table
 
-### Ownership estimates (@ $350B valuation)
+### Ownership estimates (@ $380B valuation)
 
-| Investor | Invested | Est. Ownership | Value @ $350B | Notes |
-|----------|----------|----------------|---------------|-------|
-| Founders/employees | — | ~25-30% | $88-105B | Dario, Daniela Amodei + team |
-| [[Amazon]] | $8B | ~12-15% | $42-52B | Earliest large investor, best basis |
-| [[Google]] | $3B | ~8-10% | $28-35B | Multiple rounds, cloud partner |
-| [[NVIDIA]] | $10B | ~3% | $10.5B | Late 2025, high entry |
-| [[Microsoft]] | $5B | ~1.5% | $5.25B | Late 2025, hedging OpenAI |
-| [[Salesforce]] | $750M | ~2-3% | $7-10B | 2023, good entry |
-| [[Spark Capital]] | — | ~3-5% | $10-18B | Series A/B lead |
-| [[Menlo Ventures]] | — | ~2-4% | $7-14B | Early investor |
-| Coatue / GIC / Iconiq | $3B+ | ~1% | $3.5B | Series G ($1B+ each) |
-| Altimeter / Sequoia | TBD | <1% | TBD | Series G (both also OpenAI backers) |
-| Other (QIA, Fidelity, etc.) | — | ~10-15% | $35-52B | Series E/F participants |
+| Investor                                                                          | Invested | Est. Ownership | Value @ $380B | Notes                               |
+| --------------------------------------------------------------------------------- | -------- | -------------- | ------------- | ----------------------------------- |
+| Founders/employees                                                                | —        | ~25-30%        | $95-114B      | Dario, Daniela Amodei + team        |
+| [[Amazon]]                                                                        | $8B      | ~12-15%        | $46-57B       | Earliest large investor, best basis |
+| [[Google]]                                                                        | $3B      | ~8-10%         | $30-38B       | Multiple rounds, cloud partner      |
+| [[NVIDIA]]                                                                        | $10B     | ~3%            | $11.4B        | Late 2025, high entry               |
+| [[Microsoft]]                                                                     | $5B      | ~1.5%          | $5.7B         | Late 2025, hedging OpenAI           |
+| [[Salesforce]]                                                                    | $750M    | ~2-3%          | $7.6-11.4B    | 2023, good entry                    |
+| [[Spark Capital]]                                                                 | —        | ~3-5%          | $11-19B       | Series A/B lead                     |
+| [[Menlo Ventures]]                                                                | —        | ~2-4%          | $7.6-15.2B    | Early investor                      |
+| [[GIC]] / [[Coatue]]                                                              |          | ~2-3%          | $7.6-11.4B    | Series G co-leads                   |
+| [[Iconiq]]                                                                        | —        | ~1-2%          | $3.8-7.6B     | Series F + G                        |
+| [[Altimeter]] / [[Sequoia]]                                                       | TBD      | <1%            | TBD           | Series G (both also OpenAI backers) |
+| Other ([[QIA]], [[Jane Street]], [[Accel]], [[General Catalyst]], Fidelity, etc.) | —        | ~10-15%        | $38-57B       | Series E/F/G participants           |
 
 *Estimates based on investment size vs. round valuation. Actual ownership undisclosed.*
 
 ### Key investors
 
-| Investor | Amount | Notes |
-|----------|--------|-------|
-| [[Google]] | $3B+ | Cloud partner, multiple rounds |
-| [[Amazon]] | $8B | AWS partnership, Bedrock distribution |
-| [[Microsoft]] | $5B | Late 2025, despite OpenAI relationship |
-| [[NVIDIA]] | $10B | Late 2025 |
-| [[Salesforce]] | $750M | 2023 |
-| [[Spark Capital]] | — | Early investor, led Series A/B |
-| [[Menlo Ventures]] | — | Early investor |
-| Sound Ventures | — | Ashton Kutcher's fund |
-| Jaan Tallinn | — | Skype co-founder, safety-focused |
-| Eric Yuan | — | [[Zoom]] founder |
+| Investor            | Amount   | Notes                                         |                                      |            |
+| ------------------- | -------- | --------------------------------------------- | ------------------------------------ | ---------- |
+| [[Google]]          | $3B+     | Cloud partner, multiple rounds                |                                      |            |
+| [[Amazon]]          | $8B      | AWS partnership, Bedrock distribution         |                                      |            |
+| [[Microsoft]]       | $5B      | Late 2025, despite OpenAI relationship        |                                      |            |
+| [[NVIDIA]]          | $10B     | Late 2025                                     |                                      |            |
+| [[GIC]]             | Co-lead  | Series G co-lead (Singapore sovereign wealth) |                                      |            |
+| [[Coatue Management | Coatue]] | Co-lead                                       | Series G co-lead ([[Philippe Laffont | Laffont]]) |
+| [[QIA]]             | —        | Qatar Investment Authority, Series F + G      |                                      |            |
+| [[Jane Street]]     | —        | Series G (quant trading firm)                 |                                      |            |
+| [[Salesforce]]      | $750M    | 2023                                          |                                      |            |
+| [[Spark Capital]]   | —        | Early investor, led Series A/B                |                                      |            |
+| [[Menlo Ventures]]  | —        | Early investor                                |                                      |            |
+| [[Sound Ventures]]  | —        | [[Ashton Kutcher]]'s fund                     |                                      |            |
+| [[Jaan Tallinn]]    | —        | [[Skype]] co-founder, safety-focused          |                                      |            |
+| [[Eric Yuan]]       | —        | [[Zoom]] founder                              |                                      |            |
 
-Total raised: ~$60B+
+Total raised: ~$57B+ (per Fortune)
 
-Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). Altimeter and Sequoia — both OpenAI backers — also investing in Anthropic's Series G.
+Notable: Both Google AND Amazon invested (rare). Microsoft invested despite OpenAI partnership (hedging). [[Altimeter]] and [[Sequoia]] — both OpenAI backers — also investing in Anthropic's Series G.
 
 ---
 
@@ -171,22 +181,106 @@ Significance: First time a sitting White House official has publicly endorsed a 
 
 ---
 
-### Series G closes at $20B+ (Feb 2026)
+### Series G closes at $30B / $380B (Feb 12, 2026)
 
-Originally sought $10B, closing at $20B+ due to excess investor demand. Nearly doubles prior $183B valuation to $350B. Comes just 5 months after $13B Series F. Employee tender offer also planned at $350B valuation.
+Originally sought $10B, closed at $30B due to excess investor demand — second-largest private tech financing on record (behind [[OpenAI]]'s $40B+). Nearly doubles prior $183B valuation to $380B. Comes just 5 months after $13B Series F. Employee tender offer also planned at $380B valuation.
 
-Key new investors: [[Altimeter Capital]], [[Sequoia Capital]] (both also OpenAI backers — hedging across labs), [[Coatue]], GIC, [[Iconiq]].
+Co-leads: [[GIC]], [[Coatue Management|Coatue]] ([[Philippe Laffont|Laffont]]: Anthropic has "ability to rapidly scale its offerings"). Co-investors: [[D.E. Shaw]], [[Dragoneer]], [[Founders Fund]], [[Iconiq]], [[MGX]], [[Accel]], [[General Catalyst]], [[Jane Street]], [[QIA]], [[Altimeter]], [[Sequoia]], 36+ investors total. Partial deployment of Nov 2025 [[NVIDIA]]/[[Microsoft]] commitments.
 
-Context: Closing the same week Anthropic released Claude Cowork enterprise plugins that triggered a $285B software selloff. Investors betting coding agents will expand to autonomous enterprise AI across sectors.
+Revenue run rate disclosed at $14B (from $9B weeks earlier). $1M+ ARR customers: 500 (from 12 two years ago). 8 of Fortune 10 are clients.
 
-*Source: Bloomberg, Feb 7 2026*
+Competitive context: [[OpenAI]] at $500B nominal valuation, seeking ~$750B in 2026. [[SpaceX]] at $1.25T remains highest-valued private company. [[SoftBank]] invested additional $22.5B in OpenAI in late 2025.
+
+*Sources: Bloomberg (Feb 12), TechCrunch (Feb 12), Fortune (Feb 13), PYMNTS (Feb 12)*
+
+---
+
+### Claude Opus 4.6 launch (Feb 5, 2026)
+
+Most capable model to date. Key improvements over Opus 4.5:
+
+| Benchmark | Opus 4.6 | Opus 4.5 | Notes |
+|-----------|----------|----------|-------|
+| Terminal-Bench 2.0 | 65.4% | — | #1 agentic coding eval |
+| Humanity's Last Exam | #1 | — | Multidisciplinary reasoning |
+| GDPval-AA | +190 Elo vs 4.5 | — | Also +144 Elo vs GPT-5.2 |
+| ARC-AGI-2 | 68.8% | 37.6% | Near-doubling |
+| OSWorld | 72.7% | — | Best computer-use model |
+| MRCR v2 (long context) | 76% | 18.5% | 8-needle, 1M token |
+
+New capabilities:
+- 1M token context window (beta, API) — first for Opus-class. Premium pricing above 200K: $10/$37.50 per MTok
+- Agent teams — multiple agents splitting tasks in parallel, each owning a piece (research preview in Claude Code)
+- Adaptive thinking — model picks up contextual cues on how much extended thinking to use
+- Context compaction — auto-summarizes older context during long conversations
+- Effort controls — four levels (low/medium/high/max) for developer control over intelligence/speed/cost
+- Fast mode — research preview, up to 2.5x faster output token generation at premium pricing
+
+Standard pricing: $5/$25 per MTok input/output (unchanged). Available on claude.ai, API, [[Amazon|Amazon Bedrock]], [[Google|Vertex AI]], [[Microsoft|Microsoft Foundry]].
+
+Scott White (Anthropic head of product, enterprise): "We are now transitioning almost into vibe working."
+
+*Sources: Anthropic blog (Feb 5), CNBC (Feb 5), TechCrunch (Feb 5)*
+
+---
+
+### Grid infrastructure pledge (Feb 11, 2026)
+
+Anthropic committed to covering 100% of electricity price increases that consumers face from its data centers:
+
+1. Grid upgrades: Pay 100% of interconnection costs that would otherwise be passed to ratepayers
+2. New power generation: Bring new generation online rather than buying credits or contracting existing power
+3. Peak demand curtailment: Investing in systems that cut DC power during peak demand + grid optimization tools
+4. Utility collaboration: Where new generation isn't yet available, work with utilities and independent experts to assess and offset price increases
+
+[[Dario Amodei]]: American households shouldn't foot the bill for AI development.
+
+Scale context: Training a single frontier model will soon require gigawatts. US AI sector needs 50+ GW of capacity. Data centers currently ~4.4% of US power, could surge to 12% by 2028 (with ~25% generation price increase risk).
+
+DC locations (from Nov 2025 $50B [[FluidStack]] partnership): Mitchell County TX, Niagara County NY, southeast Louisiana. Hundreds of permanent jobs, thousands of construction positions.
+
+Follows [[Donald Trump|Trump]]'s Truth Social request for Big Tech to "pay their own way." [[Microsoft]] already showed willingness. [[OpenAI]] also pledged similarly. Anthropic also calling for systemic reform — faster permitting, transmission development, grid interconnection.
+
+*Sources: Anthropic blog (Feb 11), NBC News (Feb 12), Tom's Hardware (Feb 13)*
+
+---
+
+### $20M donation to [[Public First Action]] (Feb 12, 2026)
+
+Anthropic donating $20M to [[Public First Action]], a bipartisan 501(c)(4) supporting AI safety regulation in 2026 midterms. Founded by two former members of Congress. Plans to back 30-50 candidates from both parties in state and federal races.
+
+Policy priorities:
+- Frontier AI company transparency and public visibility into risk management
+- Robust federal AI governance (opposing state preemption without strong federal standard)
+- Smart export controls on AI chips
+- Targeted regulation on AI-enabled bioweapons and cyberattacks
+
+Initial campaigns: Ads supporting Sen. [[Marsha Blackburn]] (R-TN, running for governor). Affiliated Defending Our Values PAC supporting Sen. [[Pete Ricketts]] (R-NE, reelection).
+
+Opposed by Leading the Future PAC ($125M budget, backed by [[Greg Brockman]], [[Andreessen Horowitz]]) — pushing lighter regulation.
+
+[[David Sacks]] responded on X: Anthropic "running a sophisticated regulatory capture strategy based on fear-mongering" and "principally responsible for the state regulatory frenzy."
+
+Polling: 69% of Americans think government "not doing enough to regulate AI."
+
+*Sources: Anthropic blog (Feb 12), CNBC (Feb 12), Bloomberg (Feb 12), Axios (Feb 12)*
+
+---
+
+### Claude Code GitHub penetration (Feb 2026)
+
+4% of GitHub public commits now authored by Claude Code. Projected to reach 20%+ of daily commits by end of 2026. Claude Code business subscriptions quadrupled since start of 2026. More than half of Claude Code revenue ($2.5B run rate) comes from enterprise.
+
+*Source: The Register (Feb 13)*
+
+---
 
 ### IPO prep (Dec 2025)
 - Engaged Wilson Sonsini (law firm)
-- Valuation $350B post Series G
+- Valuation $380B post Series G
 
 Product milestones:
-- Claude Code hit $1B milestone
+- Claude Code run rate $2.5B (launched publicly May 2025)
 - Bun acquisition — JavaScript runtime, infrastructure play
 - Agent Skills open standard launched (Dec 18) — integrations with [[Notion]], [[Canva]], [[Figma]], [[Atlassian]]
 
@@ -314,7 +408,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-02-08*
+*Updated 2026-02-13*
 
 ## Related
 
@@ -322,10 +416,12 @@ See [[Long Anthropic]] for full thesis.
 - [[Claude]] — flagship AI product
 - [[Dario Amodei]] — CEO and co-founder
 - [[OpenAI]] — competitor, origin (founders left OpenAI)
-- [[Google]] — $2B+ investor, cloud partner
+- [[Google]] — $3B+ investor, cloud partner
 - [[Amazon]] — $8B investor, primary cloud partner
 - [[Microsoft]] — $5B investor (hedging OpenAI)
 - [[NVIDIA]] — $10B investor
+- [[GIC]] — Series G co-lead
+- [[Coatue Management]] — Series G co-lead
 - [[Broadcom]] — TPU supplier (~1M TPUv7 direct)
 - [[TSMC]] — foundry for TPUs
 - [[TeraWulf]] — DC infrastructure partner
@@ -339,3 +435,5 @@ See [[Long Anthropic]] for full thesis.
 - [[Claude Cowork disruption February 2026]] — $285B selloff catalyst
 - [[AI workflow disruption basket]] — tracking software disruption exposure
 - [[Man Group]] — enterprise AI partnership (Feb 2026)
+- [[Public First Action]] — $20M AI safety PAC donation (Feb 2026)
+- [[Clean energy for AI]] — grid infrastructure pledge context

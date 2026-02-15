@@ -68,6 +68,20 @@ Chartbook is "more substantial than the Twitter feed, and more freewheeling" tha
 
 Co-hosted with Cameron Abadi (Foreign Policy deputy editor) since September 2021. Weekly conversations on economics, geopolitics, and current events.
 
+### AI capex bubble typology (Feb 14, 2026)
+
+Proposed three-part framework for evaluating whether $650B in AI capex constitutes a bubble:
+
+| Type | Example | Outcome |
+|------|---------|---------|
+| **Metaverse** | Metaverse, tulips | Technology not useful; money wasted |
+| **Railways** | 19th-century railroads | Transformative technology, but financial timeline mismatch causes repeated crises |
+| **Airlines** | Airlines, Chinese involution | Transforms world but can't be monetized; great for consumers, terrible for investors |
+
+Overlaid with **K-shaped economy** framing: AI boom balanced on a seesaw with deflating non-AI economy. 21% of US household wealth in equities (record). Dotcom-level correction = $10T+ wealth loss, but equity-based (not leveraged), so more likely wealth-effect recession than financial crisis.
+
+Also covered [[Germany]]'s economic stagnation (0.1% since 2019), Merz-Meloni defense axis, and the structural imbalance in European defense spending.
+
 ---
 
 ## Key concept: Polycrisis

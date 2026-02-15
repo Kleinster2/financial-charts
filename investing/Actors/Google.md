@@ -406,6 +406,77 @@ Amanda Peterson Corio (Global Head of DC Energy): "We're looking at siting next 
 
 ---
 
+## Google TV (smart TV platform)
+
+**Google's smart TV operating system** — successor to Android TV (2014), rebranded as Google TV in 2020 when it unified Chromecast and Android TV under a new content-discovery-focused UI. Now powering smart TVs, streaming devices, set-top boxes, and portable projectors.
+
+### History
+
+| Year | Milestone |
+|------|-----------|
+| 2014 | Android TV launched (replacing failed Google TV 1.0 from 2010) |
+| 2020 | Rebranded to Google TV with Chromecast unification |
+| 2023 | 150M monthly active devices |
+| 2024 | 270M monthly active devices announced |
+| 2025 | Likely surpassed 300M devices. Budget cuts + layoffs (~25% of 300-person team) |
+
+### Market position
+
+| Platform | Global smart TV OS share | US position |
+|----------|--------------------------|-------------|
+| Android TV / Google TV | ~35% (global leader) | \#3-4 behind [[Roku]], [[Samsung]] Tizen |
+| [[Samsung]] Tizen | ~20% | \#2 |
+| [[LG]] webOS | ~25% | Strong |
+| [[Roku]] | ~10% globally | **\#1 in US** (90M+ streaming households) |
+| [[Amazon]] Fire TV | — | \#2-3 in US |
+
+**Global vs US disconnect:** Google TV leads globally (40% ex-North America, ex-China per research firms) but trails in the lucrative US market where ad monetization is highest. Many global devices are pay-TV operator set-top boxes with minimal monetization for Google.
+
+### OEM partnerships
+
+| Partner | Relationship |
+|---------|-------------|
+| [[Sony]] | Long-standing, flagship Google TV partner |
+| [[TCL]] | Shifted from [[Roku]] to Google TV (CES 2024-2025) |
+| [[Hisense]] | Shifted from [[Roku]] to Google TV, but [[Amazon]] poached Costco shelf space |
+| [[Chromecast]] | Google's own hardware (now Google TV Streamer) |
+| Various projector OEMs | Google TV built into portable projectors |
+
+### Revenue model & monetization problem
+
+Google TV follows the **platform subsidy model** — invest in scale first, monetize later. But monetization has lagged:
+
+- **Ad inventory sharing:** Google required publishers to share ad inventory to be on the platform. In 2024, reversed course and gave inventory back — tacit admission publishers sell ads better than Google does
+- **Now taking revenue cuts** instead of inventory — lower-margin arrangement
+- **Retail bounties:** Google pays TV makers and retailers per activated device. [[Amazon]] outspends Google (~$50/activated TV), poaching partners like [[Hisense]] from Google TV at [[Costco]]
+- **Not yet break-even:** Google has spent hundreds of millions annually on Google TV without reaching profitability (per The Verge, Aug 2025)
+
+### YouTube tension
+
+YouTube is Google's real TV winner — 12.5% of all US TV viewing (May 2025, Nielsen), $50B+ in annual ad + subscription revenue. YouTube executives have shown "little interest" in Google TV, with some arguing the budget should be redirected to YouTube. YouTube's dominance means Google no longer needs Google TV as leverage in content negotiations — YouTube can dictate terms to device makers directly.
+
+### Competitive dynamics
+
+| Competitor | Advantage over Google TV | Google TV advantage |
+|------------|--------------------------|---------------------|
+| [[Roku]] | \#1 US market share, better ad monetization | Google TV gaining OEM share globally |
+| [[Amazon]] Fire TV | Aggressive bounties, [[Costco]] displacement | Broader global OEM adoption |
+| [[Apple]] tvOS | Premium ecosystem, privacy | Scale (300M+ vs Apple's niche) |
+| [[Samsung]] Tizen | Captive Samsung TV install base | OEM-agnostic, works across brands |
+| [[LG]] webOS | Licensed to other brands now | Larger global footprint |
+
+### Emerging threats
+
+New entrants crowding the market: **TiVo**, **Whale TV**, and [[The Trade Desk]]'s **Ventura** platform all entering TV OS space (2025-2026).
+
+### Strategic outlook
+
+Google TV sits in an awkward position: dominant globally but money-losing, with YouTube rendering it strategically less essential. The 2025 budget cuts and team reduction (25% layoff) signal a shift toward AI-driven efficiency ([[Gemini]] integration for search/discovery) rather than headcount-driven growth. Google is seeking shorter-term bounty agreements with TV makers — suggesting potential further pullback.
+
+**For investors:** Google TV revenue falls within the "Subscriptions, platforms, and devices" line item (~$12.9B/quarter as of Q3 2025), which also includes YouTube Premium, Pixel, Google One, etc. Google TV's specific contribution is not broken out but is likely a small fraction given it hasn't reached break-even.
+
+---
+
 ## Antitrust
 
 **Jan 2026:** Federal judge ruled Google must face consumer antitrust lawsuit alleging illegal dominance in online search market. Adds to ongoing DOJ case.
@@ -497,6 +568,11 @@ See [[Short interest]] for interpretation framework.
 ### Products
 - [[Gemini]] — AI model (750M MAU)
 - [[Apple]] — Gemini-Siri deal (spring 2026). See [[Apple-Google AI deal]]
+
+### Platforms
+- [[Google TV]] — smart TV OS (300M+ devices, not yet profitable)
+- [[Roku]] — #1 US smart TV platform, Google TV competitor
+- [[Amazon]] Fire TV — aggressive competitor (bounty wars)
 
 ### Partners/Competitors
 - [[Broadcom]] — TPU design partner (disintermediating)
