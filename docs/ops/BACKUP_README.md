@@ -1,41 +1,45 @@
-# Workspace Backup System
+# Backup Systems
 
-## Overview
+## Database Backup (market_data.db)
+
+`market_data.db` (~878 MB) contains irreplaceable data (B3 DI yield curve, bond prices, portfolio data) that cannot be re-downloaded from APIs.
+
+### Automated Schedule
+
+A Windows Task Scheduler job (`BackupMarketData`) runs weekly on Sundays at 6:00 AM. It uses SQLite's online backup API, which is safe to run while the database is open.
+
+- **Script:** `scripts/backup_db.py`
+- **Destination:** `G:\My Drive\backups\financial-charts\` (Google Drive, synced to cloud)
+- **Retention:** Last 3 backups (~2.6 GB total)
+- **Requires:** Machine awake at scheduled time; Google Drive running
+
+### Manual Usage
+
+```powershell
+python scripts/backup_db.py              # backup now
+python scripts/backup_db.py --keep 5     # backup, keep last 5
+python scripts/backup_db.py --list       # show existing backups
+```
+
+Run manually before risky operations (migrations, schema changes, one-off scripts).
+
+### Task Scheduler Management
+
+```powershell
+schtasks /query /tn "BackupMarketData" /v /fo list   # check status
+schtasks /run /tn "BackupMarketData"                  # run now
+schtasks /delete /tn "BackupMarketData" /f            # remove
+```
+
+---
+
+## Workspace Backup (workspace.json)
+
+### Overview
 
 This backup system protects your chart configurations from accidental loss. It creates timestamped backups and maintains a history of your workspace changes.
 
-## Current Status
-
-**WARNING**: Your workspace was recently lost - you had 26 pages of charts but only 2 charts remain. The page names are preserved:
-
-1. Main
-2. Correlation Pairs
-3. Brazil
-4. Crypto
-5. China
-6. Cboe
-7. Quantum
-8. Ark
-9. Semis
-10. PAVE
-11. Clean
-12. RiskPar
-13. Metals
-14. STAR
-15. Drugs
-16. ICE
-17. Portfolios
-18. John Deere
-19. ALLW
-20. Global Markets
-21. NatSec
-22. Argentina
-23. ICE
-24. Global Markets
-25. Gaming & iGaming
-26. NEW
-
-## Usage
+### Usage
 
 ### Create a Backup
 
@@ -153,10 +157,3 @@ If you lose charts:
 
 **Backup shows wrong chart count**: Check if the Flask server has different data than the local file
 
-## Next Steps
-
-To prevent future data loss:
-
-1. Set up daily automated backups using Task Scheduler
-2. Manually backup before testing new features
-3. Consider committing important workspace states to git

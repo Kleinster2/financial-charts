@@ -1,6 +1,8 @@
 # Ignore SQLite databases and other large or generated data files
 sp500_data.db
 *.db
+*.db-wal
+*.db-shm
 *.csv
 
 # BUT track data_backup folder (hard-to-recreate scraped data)
@@ -37,6 +39,7 @@ patch_*.py
 simple_*.py
 temp_*.py
 backup_*.py
+!scripts/backup_db.py
 export_*.py
 fix_*.py
 populate_*.py

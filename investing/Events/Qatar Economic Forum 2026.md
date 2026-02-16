@@ -3,21 +3,21 @@ aliases: [QEF 2026, Qatar Forum 2026]
 ---
 #event #conference #middle-east #2026
 
-**Qatar Economic Forum 2026** — 6th edition. Bloomberg-powered, invite-only. May 12-14, Fairmont Doha. 3,000+ delegates from 95+ countries (2025 benchmark). Collaboration between [[Bloomberg]] and Qatar's Ministry of Commerce and Industry (MoCI).
+**Qatar Economic Forum 2026** — 6th edition. Bloomberg-powered, invite-only. May 12-14, Fairmont Doha. 3,000+ delegates from 95+ countries (2025 benchmark). Collaboration between [[Bloomberg LP]] and [[Qatar]]'s Ministry of Commerce and Industry (MoCI).
 
 ---
 
 ## Event details
 
-| Metric | Value |
-|--------|-------|
-| Dates | May 12-14, 2026 |
-| Location | Fairmont Doha, Qatar |
-| Edition | 6th annual |
-| Organizers | [[Bloomberg]], MoCI, PCOC |
-| Access | Invitation only |
-| 2025 attendance | 3,000+ from 95 countries |
-| Broadcast | Bloomberg Terminal, Bloomberg TV, Bloomberg.com |
+| Metric          | Value                                           |
+| --------------- | ----------------------------------------------- |
+| Dates           | May 12-14, 2026                                 |
+| Location        | Fairmont Doha, Qatar                            |
+| Edition         | 6th annual                                      |
+| Organizers      | [[Bloomberg LP]], MoCI, PCOC                    |
+| Access          | Invitation only                                 |
+| 2025 attendance | 3,000+ from 95 countries                        |
+| Broadcast       | Bloomberg Terminal, Bloomberg TV, Bloomberg.com |
 
 ---
 
@@ -51,14 +51,14 @@ Additional speakers to be announced.
 
 ## Key thematic tracks
 
-| Track | Focus |
-|-------|-------|
-| Geopolitics & trade realignment | Industrial policy, security pressures redefining global flows |
-| [[GCC]] economic transformation | National visions vs. regional security pressures, new US policy environment |
-| Capital & investment strategy | Outperformance amid volatility, tightening capital, rewritten rules |
-| Energy transition | [[Oil]], gas, and the long-term renewable shift — power brokers setting terms |
-| Sovereign capital & AI deal activity | Deep sovereign wealth + AI-driven deal flow as defining force |
-| Innovation & resilience | Sustainable growth, economic resilience across finance/tech/energy/industry |
+| Track                                | Focus                                                                       |
+| ------------------------------------ | --------------------------------------------------------------------------- |
+| Geopolitics & trade realignment      | Industrial policy, security pressures redefining global flows               |
+| [[GCC]] economic transformation      | National visions vs. regional security pressures, new US policy environment |
+| Capital & investment strategy        | Outperformance amid volatility, tightening capital, rewritten rules         |
+| Energy transition                    | Oil, gas, and the long-term renewable shift — power brokers setting terms   |
+| Sovereign capital & AI deal activity | Deep sovereign wealth + AI-driven deal flow as defining force               |
+| Innovation & resilience              | Sustainable growth, economic resilience across finance/tech/energy/industry |
 
 ---
 
@@ -86,7 +86,7 @@ The theme itself — "The Global Rebalance" — is the [[GCC]]'s self-conception
 
 - [[GCC]] — host region, sovereign capital theme
 - [[QIA]] — Qatar Investment Authority, sovereign context
-- [[Bloomberg]] — organizer, editorial curation
+- [[Bloomberg LP]] — organizer, editorial curation
 - [[KKR]] — Petraeus speaking
 - [[Carlyle]] — Schwartz speaking
 - [[General Atlantic]] — Ford speaking
