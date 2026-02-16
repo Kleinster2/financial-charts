@@ -1,6 +1,6 @@
 # Chart API Reference
 
-**ALWAYS use the charting app API (`/api/chart/lw` or `/api/chart/image`). NEVER use standalone matplotlib scripts.**
+**Use the charting app API (`/api/chart/lw` or `/api/chart/image`) for standard charts.** Exception: dual-axis log-scale charts require standalone matplotlib — LW Charts has a bug where dual-axis log mode displays incorrect prices (see "Known limitations" below).
 
 ## Critical Warning
 
@@ -95,6 +95,8 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL,GME&normalize=true&overlay
 ---
 
 ## Static Image Endpoint (`/api/chart/image`)
+
+> **Parameter name is `ticker` (singular), NOT `tickers`.** This endpoint is single-ticker only — no normalization or comparisons. Use `/api/chart/lw` for multi-ticker charts. Using `tickers=` here silently returns a JSON error that curl saves as a corrupt `.png`.
 
 Matplotlib-based endpoint for single-ticker charts. **Use this instead of `/api/chart/lw` when:**
 
@@ -327,3 +329,22 @@ INSERT INTO segment_quarterly VALUES
 6. **Generate charts** using segment endpoint
 
 7. **Embed in notes** with interpretation captions
+
+---
+
+## Known limitations
+
+### LW Charts dual-axis log mode is broken
+
+When `dual_axis=true` with both price scales in log mode (`mode: 1`), LW Charts displays **incorrect prices** — `lastValueVisible` labels show stale values and the axis scaling is distorted. Linear mode (`mode: 0`) works correctly but compresses early data on long timeframes.
+
+**Workaround:** For dual-axis log charts, use standalone matplotlib with `ax.semilogy()`. Name the output file so the obsidian-chart-refresh plugin can't parse it (no `-vs-` or `-price-chart.png` suffix), e.g. `bptrx-spacex-dual-axis.png`. The plugin pattern-matches filenames *before* checking `chart-registry.md`, so `skip: true` alone is not reliable.
+
+### Plugin auto-refresh naming
+
+The obsidian-chart-refresh plugin parses tickers from filenames:
+- `ticker-vs-ticker-price-chart.png` → refreshed via `/api/chart/lw`
+- `ticker-price-chart.png` → refreshed via `/api/chart/lw`
+- `*-fundamentals.png` → skipped
+
+Charts that must **not** be auto-refreshed (matplotlib, custom) should use filenames that don't match these patterns. The `chart-registry.md` `skip: true` is a secondary safeguard but not sufficient on its own.

@@ -177,6 +177,11 @@ Bear:
 
 ## Cap table
 
+### Private market price history
+
+![[spacex-private-price-chart.png]]
+*Split-adjusted price per share across all funding rounds, secondaries, and tender offers (log scale). $0.10 (Series A, 2002) → $588 (Jan 2026 secondary) = 5,880x over 24 years. Staircase pattern reflects discrete private-market price events. The 2010-2015 gap ($0.75 → $7.75) corresponds to the Falcon 9 proving flights and early [[Starlink]] development. The 2024-2026 acceleration ($112 → $588, 5.2x in 18 months) reflects [[Starlink]] profitability, the [[SpaceX xAI merger]], and IPO anticipation.*
+
 ### Funding rounds (complete)
 
 Total raised: ~$12B across 31 rounds from 229+ investors. All preferred series carry 1x non-participating [[Liquidation preference|liquidation preference]].
@@ -204,12 +209,13 @@ Total raised: ~$12B across 31 rounds from 229+ investors. All preferred series c
 | Series M             | Feb 2020   | $600.2M              | $220.00      | $22.00            | ~$36B     | —                           | —                                                                                                                      |
 | Series N             | Aug 2020   | $2.567B              | $270.00      | $27.00            | ~$46B     | [[Legendary Ventures]]      | —                                                                                                                      |
 | Equity round         | Feb 2021   | $1.61B               | ~$420        | ~$42              | ~$74B     | [[Sequoia Capital]]         | [[Valor Equity Partners]], [[Coatue]], [[Fidelity]] (99 investors)                                                     |
-| —                    | Oct 2021   | —                    | —            | —                 | ~$100.3B  | —                           | —                                                                                                                      |
+| Secondary sale       | Oct 2021   | $755M (insiders)     | $560.00      | $56.00            | ~$100.3B  | —                           | Insider shares sold to new and existing investors; no primary capital raised                                            |
 | *10:1 split*         | *Feb 2022* | —                    | —            | —                 | —         | —                           | *Common only; preferred not split*                                                                                     |
-| Equity round         | Jun 2022   | $1.68B               | —            | —                 | ~$127B    | [[Mirae Asset]]             | [[Space.VC]], [[Kinetic Partners]]                                                                                     |
-| Equity round         | Jan 2023   | $750M                | —            | —                 | ~$137B    | [[a16z]]                    | —                                                                                                                      |
+| Equity round         | Jun 2022   | $1.68B               | —            | $70               | ~$127B    | [[Mirae Asset]]             | [[Space.VC]], [[Kinetic Partners]]                                                                                     |
+| Equity round         | Jan 2023   | $750M                | —            | ~$77              | ~$137B    | [[a16z]]                    | —                                                                                                                      |
 | Debt                 | Oct 2023   | —                    | —            | —                 | —         | [[Intesa Sanpaolo]]         | —                                                                                                                      |
-| Secondary sale       | Jun 2024   | —                    | —            | —                 | ~$210B    | —                           | —                                                                                                                      |
+| Tender offer         | Dec 2023   | —                    | —            | $97               | ~$180B    | —                           | Insider tender; raised from initial $95 to $97/share                                                                   |
+| Tender offer         | Jun 2024   | —                    | —            | $112              | ~$210B    | —                           | —                                                                                                                      |
 | Secondary / buyback  | Dec 2024   | $1.25B               | —            | $185              | ~$350B    | —                           | Incl. $500M buyback of common                                                                                          |
 | Tender offer         | Jul 2025   | —                    | —            | $212              | ~$400B    | —                           | —                                                                                                                      |
 | Tender offer 8       | Dec 2025   | up to $2.56B buyback | —            | $421              | ~$800B    | —                           | —                                                                                                                      |

@@ -22,6 +22,8 @@ charts:
     normalize: true
     start: 2021-12-09
     primary: NU
+  bptrx-vs-spacex_private-price-chart.png:
+    skip: true
 ---
 
 # Chart Registry

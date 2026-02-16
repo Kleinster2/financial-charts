@@ -151,6 +151,8 @@
                     secondsVisible: false,
                     rightOffset: 5,
                     borderColor: '#ccc',
+                    minBarSpacing: 0.1,
+                    fixLeftEdge: true,
                     fixLeftEdge: true,
                     fixRightEdge: true,
                     uniformDistribution: true
@@ -330,6 +332,7 @@
                     secondsVisible: false,
                     rightOffset: 5,
                     borderColor: '#ccc',
+                    minBarSpacing: 0.1,
                     fixLeftEdge: true,
                     fixRightEdge: true
                 },
@@ -443,7 +446,7 @@
 
         // Chart configuration will be injected via window.CHART_CONFIG
         function renderChart(config) {
-            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay } = config;
+            const { data, title, width, height, showTitle, showLastDate, showLastValue, normalize, isFundamentals, forecastStart, labels, separatePanes, paneGroups, overlay, dualAxis, primaryTicker } = config;
 
             // Use multi-pane rendering for fundamentals with multiple metrics
             if (separatePanes && paneGroups && Object.keys(paneGroups).length > 1) {
@@ -501,19 +504,23 @@
                 timeScale: {
                     secondsVisible: false,
                     rightOffset: 5,
-                    borderColor: '#ccc'
+                    borderColor: '#ccc',
+                    minBarSpacing: 0.1,
+                    fixLeftEdge: true
                 },
                 rightPriceScale: {
                     visible: true,
                     borderColor: '#ccc',
                     scaleMargins: { top: 0.1, bottom: 0.1 },
-                    mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals (can go negative), log for prices
+                    autoScale: true,
+                    mode: isFundamentals ? 0 : 1  // Arithmetic for fundamentals, log for prices
                 },
                 leftPriceScale: {
-                    visible: !!overlay,
+                    visible: !!overlay || !!dualAxis,
                     borderColor: '#ccc',
-                    scaleMargins: { top: 0.1, bottom: 0.3 },
-                    mode: 0  // Normal mode for percentages
+                    scaleMargins: { top: 0.1, bottom: 0.1 },
+                    autoScale: true,
+                    mode: isFundamentals ? 0 : 1
                 },
                 crosshair: {
                     horzLine: { visible: false },
@@ -540,6 +547,7 @@
             let colorIndex = 0;
             for (const [ticker, points] of Object.entries(data)) {
                 const color = colors[colorIndex % colors.length];
+                const useLeftAxis = dualAxis && primaryTicker && ticker !== primaryTicker;
 
                 // Add legend item (use custom label if provided)
                 const item = document.createElement('div');
@@ -596,7 +604,8 @@
                             lastValueVisible: showLastValueForSeries,
                             priceLineVisible: false,
                             crosshairMarkerVisible: false,
-                            priceFormat: priceFormat
+                            priceFormat: priceFormat,
+                            ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                         });
                         historicalSeries.setData(historicalData);
 
@@ -622,7 +631,8 @@
                             lastValueVisible: false,
                             priceLineVisible: false,
                             crosshairMarkerVisible: false,
-                            priceFormat: priceFormat
+                            priceFormat: priceFormat,
+                            ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                         });
                         forecastSeries.setData(forecastData);
                     }
@@ -634,7 +644,8 @@
                         lastValueVisible: showLastValue || false,
                         priceLineVisible: false,
                         crosshairMarkerVisible: false,
-                        priceFormat: priceFormat
+                        priceFormat: priceFormat,
+                        ...(useLeftAxis ? { priceScaleId: 'left' } : {})
                     });
                     series.setData(chartData);
                 }

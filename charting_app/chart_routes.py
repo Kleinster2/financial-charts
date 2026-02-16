@@ -250,6 +250,7 @@ def get_chart_lw():
     show_last_value = request.args.get('show_last_value', 'false').lower() == 'true'  # Show last price label on chart
     sort_by_last = request.args.get('sort_by_last', 'false').lower() == 'true'  # Sort series by last value (high to low)
     primary_ticker = request.args.get('primary', '').strip().upper()  # Primary ticker gets first color (index 0)
+    dual_axis = request.args.get('dual_axis', 'false').lower() == 'true'  # Put non-primary tickers on left y-axis
 
     # Parse custom labels
     labels = {}
@@ -688,7 +689,9 @@ def get_chart_lw():
             'normalize': normalize,
             'forecastStart': forecast_start if forecast_start else None,
             'labels': labels if labels else None,
-            'overlay': overlay_config
+            'overlay': overlay_config,
+            'dualAxis': dual_axis,
+            'primaryTicker': primary_ticker if primary_ticker else None
         }
         # Get the HTML template path
         template_path = os.path.join(basedir, 'templates', 'chart_render.html')

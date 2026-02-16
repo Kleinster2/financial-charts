@@ -18,6 +18,13 @@ Non-filing sources: note it — "~210k employees (company website, Jan 2026)"
 **SEC EDGAR shortcuts:**
 - All filings: `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TICKER&type=10-K`
 - Recent 10-K: search `"[company] 10-K 2024 filetype:pdf"`
+- CLI: `python scripts/parse_sec_filing.py TICKER --save /tmp/filing.txt` (run `--help` for full usage)
+
+**Quarterly data from SEC filings:**
+- Q1, Q2, Q3 come from 10-Q filings
+- Q4 must be **calculated**: 10-K annual total minus (Q1+Q2+Q3) — 10-Ks only report full-year figures
+- Avoid 8-K for earnings — just a wrapper; numbers are in exhibits
+- Always extract **granular segment data**, not just top-level revenue/margins (business segments, geographic breakdown, product line detail)
 
 ---
 

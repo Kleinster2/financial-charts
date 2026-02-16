@@ -16,8 +16,8 @@
 ![[usdjpy-vs-usdeur-vs-usdgbp-vs-usdchf-fx-2025.png]]
 *[[Japanese yen]] · [[Euro]] · [[British pound]] · [[Swiss franc]] · [[US dollar]]*
 
-![[usdcny-vs-usdbrl-vs-usdmxn-vs-usdzar-vs-usdinr-fx-2025.png]]
-*[[Chinese yuan]] · [[Brazilian real]] · [[Mexican peso]] · [[South African rand]] · [[Indian rupee]]*
+![[usdcny-vs-usdbrl-vs-usdmxn-vs-usdzar-vs-usdinr-vs-usdils-fx-2025.png]]
+*[[Chinese yuan]] · [[Brazilian real]] · [[Mexican peso]] · [[South African rand]] · [[Indian rupee]] · [[Israeli shekel]]*
 
 ![[gld-vs-slv-vs-pplt-vs-pall-2025.png]]
 *[[GLD]] · [[SLV]] · [[PPLT]] · [[PALL]] · [[Gold]] · [[Silver]] · [[Platinum]] · [[Palladium]]*
@@ -44,10 +44,10 @@
 *[[SPY]] · [[EEM]] · [[EFA]] · [[Emerging markets]] · [[Developed ex-US equities]]*
 
 ![[ewj-vs-ewg-vs-ewu-vs-ewq-vs-ewl-vs-ewd-vs-ewa-vs-ewc-2025.png]]
-*[[Japan|EWJ]] · [[Germany|EWG]] · [[UK|EWU]] · [[France|EWQ]] · [[Switzerland|EWL]] · [[Sweden|EWD]] · [[Australia|EWA]] · [[Canada|EWC]]*
+*[[EWJ]] · [[EWG]] · [[EWU]] · [[EWQ]] · [[EWL]] · [[EWD]] · [[EWA]] · [[EWC]]*
 
-![[ewz-vs-inda-vs-ewt-vs-ewy-vs-eww-vs-ewh-vs-eido-vs-eza-vs-tur-vs-epol-2025.png]]
-*[[Brazil|EWZ]] · [[India|INDA]] · [[Taiwan|EWT]] · [[South Korea|EWY]] · [[Mexico|EWW]] · [[Hong Kong|EWH]] · [[Indonesia|EIDO]] · [[South Africa|EZA]] · [[Turkey|TUR]] · [[Poland|EPOL]]*
+![[ewz-vs-inda-vs-ewt-vs-ewy-vs-eww-vs-ewh-vs-eido-vs-eza-vs-tur-vs-epol-vs-eis-2025.png]]
+*[[EWZ]] · [[INDA]] · [[EWT]] · [[EWY]] · [[EWW]] · [[EWH]] · [[EIDO]] · [[EZA]] · [[TUR]] · [[EPOL]] · [[EIS]]*
 
 ![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png]]
 *[[XLK]] · [[XLF]] · [[XLE]] · [[XLV]] · [[XLI]] · [[XLY]] · [[XLP]] · [[XLU]] · [[XLRE]] · [[XLB]] · [[XLC]]*

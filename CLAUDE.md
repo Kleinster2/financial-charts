@@ -26,30 +26,8 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 - gh CLI: `/c/Users/klein/Downloads/gh_2.86.0_windows_amd64/bin/gh.exe`
 - Playwright: `npx playwright install chromium` (first-time)
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
-  - WebFetch gets 403'd by SEC — use this script instead (has required User-Agent header)
-  - Auto-detects most recent 10-K or 10-Q (use `--type` to force specific)
-  - Preserves tables as markdown (financial data structure intact)
-  - Avoid 8-K for earnings — just a wrapper; numbers are in exhibits
-  - Workflow: download → Task agent extracts what's relevant
-  ```bash
-  python scripts/parse_sec_filing.py AMZN --save /tmp/amzn.txt
-  # Task agent: "Read /tmp/amzn.txt, extract revenue, margins, risks"
-
-  # Multiple filings for trend analysis
-  python scripts/parse_sec_filing.py AMZN --type 10-Q --count 4 --save /tmp/amzn
-  # Creates: /tmp/amzn-10-Q-2025-11-01.txt, etc.
-  ```
-  - **Complete quarterly data requires both 10-Qs and 10-Ks:**
-    | Quarter | Source |
-    |---------|--------|
-    | Q1, Q2, Q3 | 10-Q filings |
-    | Q4 | 10-K annual minus (Q1+Q2+Q3) |
-
-    10-Ks report full year only — Q4 must be calculated.
-  - **Always extract granular segment data** — not just top-level revenue/margins
-    - Break out each business segment (revenue, operating income, margin)
-    - Geographic breakdown if material
-    - Product line detail where reported
+  - WebFetch gets 403'd by SEC — use this script instead
+  - Run `python scripts/parse_sec_filing.py --help` for full usage (multi-filing, type selection, Q4 calculation)
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
@@ -189,31 +167,15 @@ curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome"
 - Prefer peer comparisons (2-4 tickers) over single-ticker charts
 - No titles needed — legend suffices
 - Always add italicized interpretation below charts
-- Verify output by reading generated images
+- Verify output by checking file size (`wc -c`) before reading images — files under 1KB are errors, not PNGs
 - **Charts must live in notes** — never save to attachments without embedding in a relevant note
 - **Every chart needs a corresponding data table** — reader should see the underlying numbers, not just the visualization
 
 ### Chart Naming Convention (CRITICAL)
 
-The obsidian-chart-refresh plugin auto-refreshes charts when notes are opened. It parses tickers from filenames:
+**Use `-vs-` format for comparison charts** (e.g. `aapl-vs-qqq-price-chart.png`). The obsidian-chart-refresh plugin parses tickers from filenames to auto-refresh. First ticker becomes blue (primary).
 
-| Pattern | Example | Parsed as |
-|---------|---------|-----------|
-| `ticker-vs-ticker-price-chart.png` | `open-vs-opad-vs-comp-price-chart.png` | OPEN, OPAD, COMP (normalized) |
-| `ticker-price-chart.png` | `aapl-price-chart.png` | AAPL only (single ticker) |
-| `*-fundamentals.png` | `nvda-fundamentals.png` | Skipped (no auto-refresh) |
-
-**For comparison charts, always use `-vs-` format.** The first ticker becomes blue (primary).
-
-```bash
-# Wrong — plugin will strip comparisons on refresh
-curl "...?tickers=OPEN,OPAD,COMP" -o open-price-chart.png
-
-# Correct — plugin preserves all tickers
-curl "...?tickers=OPEN,OPAD,COMP" -o open-vs-opad-vs-comp-price-chart.png
-```
-
-For charts that can't follow this pattern, add to `investing/chart-registry.md`.
+Exceptions, fallbacks, and plugin limitations: see `docs/chart-api.md` and `investing/chart-registry.md`.
 
 ---
 
@@ -250,13 +212,7 @@ This applies to daily notes, earnings additions, news items — everything. Enti
 
 ### Concept Extraction
 
-**After creating or editing a note, scan for terms that deserve their own concept note.** Pattern-matching and frequency tools can't catch this — it requires domain judgment.
-
-Ask: "Are there specific named frameworks, classifications, or mechanisms mentioned here that apply across multiple actors or theses?" Examples:
-- **Yes:** "Regional Transmission Organization" (regulatory classification linking PJM, MISO, ISO-NE) → create concept note
-- **No:** "wholesale electricity market" (too generic), "independent federal agency" (description, not a concept)
-
-The bar: would a reader benefit from a dedicated note explaining this term and linking the entities it connects? If yes, create the concept note and wikilink it in the same editing pass — don't leave it for a later cleanup.
+**After creating or editing a note, scan for terms that deserve their own concept note.** The bar: would a reader benefit from a dedicated note explaining this term and linking the entities it connects? If yes, create it and wikilink in the same pass. See `docs/note-checklist.md` for examples.
 
 ### Key Rules
 

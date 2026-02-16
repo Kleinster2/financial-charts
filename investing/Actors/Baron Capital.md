@@ -153,8 +153,26 @@ Private firm — no public financials. Revenue driven by management fees (typica
 
 ## Fund price performance
 
+![[bptrx-spacex-dual-axis.png]]
+*BPTRX NAV (right axis, $251) vs [[SpaceX]] private share price (left axis, $588) since 2002. Both were under $5 through the mid-2000s. SpaceX's hockey-stick inflection came post-2020 as [[Starlink]] revenue ramped — going from ~$25 to $588 in five years. BPTRX tracked a similar trajectory on a smaller scale ($3 → $251), with the 2022 [[Tesla]] drawdown creating a visible divergence that SpaceX's private marks never reflected.*
+
+![[bptrx-vs-barax-vs-qqq-vs-spy-price-chart.png]]
+*Baron's two flagships vs benchmarks since 2000. BPTRX (~+4,900%) and BARAX (~+5,900%) both roughly 7-10x the return of QQQ (~+700%) and SPY (~+500%). The two Baron funds track closely until 2020, when BPTRX's Tesla/SpaceX concentration drives higher volatility in both directions.*
+
+![[bptrx-vs-barax-vs-bscfx-price-chart.png]]
+*The three oldest Baron funds since 1997. BSCFX (Small Cap, +8,900%) leads, benefiting from small-cap exposure during the 2020-2021 rally. BARAX (Asset Fund, +5,400%) and BPTRX (Partners, +4,800%) run neck-and-neck. All three suffered deep 2022 drawdowns but recovered by 2024.*
+
+![[baron-core-funds-price-chart.png]]
+*Six core funds since 2010. BPTRX (+2,400%) pulls away from the pack post-2020 on Tesla/SpaceX. BFGIX and BFGFX cluster around +1,400-1,800%. BIGFX (International Growth, +300%) materially lags — international growth exposure has been a drag relative to US-focused funds.*
+
+![[baron-all-funds-price-chart.png]]
+*All 15 Baron funds since 2020. Wide performance dispersion: BSCFX leads (+80%), most funds cluster +10-40%. BPTRX underperforms from 2020 start due to 2022 Tesla drawdown, though it has the sharpest post-2023 recovery. The Dec 2025 SpaceX revaluation spike is visible across funds with SpaceX exposure.*
+
 ![[bptrx-vs-bfgix-price-chart.png]]
 *BPTRX and BFGIX both up ~450% since Jan 2020, driven by [[Tesla]] and [[SpaceX]] appreciation. The Dec 4, 2025 SpaceX revaluation spike is visible in late 2025. BPTRX runs higher volatility due to greater SpaceX concentration (32% vs 19%). Both funds suffered ~43% drawdowns in 2022 when Tesla cratered.*
+
+![[barax-price-chart.png]]
+*BARAX (Baron Asset Fund) full history since 1987 inception. From under $1 to $84 — an 84x return over 39 years. The compounding curve is textbook: nearly flat for the first 15 years, then exponential as the base grows.*
 
 ![[bptrx-price-chart.png]]
 *BPTRX NAV from ~$30 (Mar 2020 low) to $251 (Feb 2026). The fund's 8x move is almost entirely attributable to Tesla and SpaceX — combined ~62% of assets.*

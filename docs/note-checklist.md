@@ -105,3 +105,19 @@ For any domain query, enumerate canonical entities:
 4. Flag missing
 
 Don't confuse infrastructure with foundations. Coinbase is crypto infrastructure; Bitcoin is a crypto foundation.
+
+## 7. Concept extraction
+
+After creating or editing a note, scan for terms that deserve their own concept note. This requires domain judgment — pattern-matching can't catch it.
+
+Ask: "Are there specific named frameworks, classifications, or mechanisms mentioned here that apply across multiple actors or theses?"
+
+**Create a concept note:**
+- "Regional Transmission Organization" — regulatory classification linking PJM, MISO, ISO-NE
+- "Rule 22e-4" — SEC liquidity rule affecting fund structure decisions
+
+**Don't create a concept note:**
+- "wholesale electricity market" — too generic
+- "independent federal agency" — description, not a concept
+
+If yes, create the concept note and wikilink it in the same editing pass — don't leave it for later cleanup.
