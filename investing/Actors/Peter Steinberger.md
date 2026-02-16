@@ -1,54 +1,42 @@
----
-aliases: [steipete]
----
-#actor #individual #developer #austria
+#actor #person #ai #agents
 
-**Peter Steinberger** — Vienna-based developer. Founded [[PSPDFKit]] (PDF SDK). Created [[OpenClaw]] (open-source AI assistant, 100k+ stars).
-
----
-
-## Why Steinberger matters
-
-Prolific developer with track record of shipping high-quality software:
-
-| Project | Role | Notes |
-|---------|------|-------|
-| [[PSPDFKit]] | Founder | PDF SDK used by major apps |
-| [[OpenClaw]] | Creator | Open-source AI assistant, 100k+ stars |
-
-Known for macOS/iOS development excellence. Philosophy: "Apps will melt away. The prompt is your new interface."
-
----
-
-## OpenClaw
-
-Created as personal assistant "Clawd" — a space lobster character. Runs on his Mac Mini at 3 AM drafting newsletters, responding to messages. Personal tool → open-source phenomenon.
-
-**The rebrand chaos (Jan 2026):**
-- **Clawdbot** → **Moltbot** (Jan 27, [[Anthropic]] C&D over "Clawd" trademark)
-- **Moltbot** → **OpenClaw** (Jan 30)
-
-Now 100,000+ GitHub stars, 2M visitors in one week. One of fastest-growing open-source projects in GitHub history.
-
-Core team: Steinberger + Mario Zechner (@badlogicc, security/Pi).
+**Peter Steinberger** — Austrian software engineer and entrepreneur. Founder of [[PSPDFKit]] (bootstrapped 2011, exited after 13 years) and creator of [[OpenClaw]]. Joined [[OpenAI]] in Feb 2026 to lead personal agent development.
 
 ---
 
 ## Quick stats
 
-| Metric | Value |
+| Detail | Value |
 |--------|-------|
-| Location | Vienna, Austria |
-| Twitter | [@steipete](https://twitter.com/steipete) |
-| Known for | PSPDFKit, OpenClaw |
+| Based | Vienna / London |
+| Background | iOS/developer tools engineering |
+| Known for | [[PSPDFKit]] (2011-2024), [[OpenClaw]] (2025-) |
+| Current role | [[OpenAI]] — personal agents |
+| Joined OpenAI | Feb 15, 2026 |
 
-*Updated 2026-01-31*
+---
+
+## Career
+
+**PSPDFKit (2011-2024):** Bootstrapped PDF framework company for 13 years. Raised first outside capital ($116M) in Oct 2021. Nearly 1B people used apps powered by PSPDFKit. Successfully exited.
+
+**OpenClaw (2025-2026):** Created as personal AI agent project (originally Clawdbot/Moltbot). Went viral — 100K+ GitHub stars, 2M visitors/week. Moving to independent foundation as Steinberger joins OpenAI.
+
+**OpenAI (Feb 2026-):** Hired to "drive the next generation of personal agents." [[Sam Altman]] called him "a genius with amazing ideas about smart agents interacting with each other" and said "we expect this will quickly become core to our product offerings."
+
+---
+
+## Significance
+
+Steinberger represents a new pattern: **open-source agent builder → frontier lab hire**. OpenAI is acquiring agent expertise from the grassroots/open-source community rather than building purely in-house. His PSPDFKit background (developer tools, SDKs, cross-platform frameworks) maps directly to building agent infrastructure.
+
+Notable: tweeted about getting access to [[Aardvark]] (OpenAI's security agent) on Feb 14, 2026 — one day before the hire announcement.
 
 ---
 
 ## Related
 
-- [[OpenClaw]] — open-source AI assistant he created
-- [[PSPDFKit]] — PDF SDK company he founded
-- [[Anthropic]] — sent C&D over Clawdbot trademark
-- [[AI agents]] — category OpenClaw represents
+- [[OpenAI]] — employer (Feb 2026-)
+- [[OpenClaw]] — created, now moving to foundation
+- [[PSPDFKit]] — previous company (bootstrapped, exited)
+- [[Agentic AI]] — product focus at OpenAI

@@ -9,7 +9,7 @@ aliases: [Teapots, Teapot refineries, Shandong refineries, Independent refinerie
 
 ## What are teapots
 
-Private Chinese refineries operating outside the state-owned system ([[Sinopec]], PetroChina, [[CNOOC]]). Called "teapots" because they were originally small-scale — now some are massive.
+Private Chinese refineries operating outside the state-owned system ([[Sinopec]], [[CNPC]], [[CNOOC]]). Called "teapots" because they were originally small-scale — now some are massive.
 
 | Metric | Value |
 |--------|-------|
@@ -61,7 +61,10 @@ Beijing controls teapot imports through quota allocations:
 | Allocator | Ministry of Commerce |
 | Frequency | Tranches throughout year |
 | 2025 allocation | ~7-8M tons to ~20 teapots per tranche |
+| 2026 total | 257M metric tons (non-state firms), unchanged from 2025 |
 | Exhaustion risk | Teapots stop buying when quota runs out |
+
+**2026 quota structure:** First two batches expected to cover ~70% of yearly allocation. In 2025, the first two batches accounted for each refiner's full-year allocation.
 
 **Fall 2025 bottleneck:** Many teapots exhausted quotas by Oct-Nov, stopped buying Iranian crude → 52M barrels stuck in floating storage → Iran's USD inflows collapsed → rial accelerated decline.
 
@@ -94,11 +97,37 @@ Beijing controls teapot imports through quota allocations:
 | Mar 2025 | 46% (slight recovery) |
 | Late 2025 | Subdued, weak margins |
 
+Of 49 independent refineries in Shandong, only 27 were operational as of early 2025 — the rest idled without access to domestic crude production.
+
 **Drivers of low utilization:**
 - US sanctions disrupting supply
 - Weak domestic fuel demand (China slowdown)
 - Quota constraints
 - Margin compression
+- Since Jan 2025, Beijing allows only 40-80% consumption tax offset on fuel oil imports (vs. 100% prior), adding ~$2/bbl to import costs
+- EV adoption and LNG-powered trucks eating into transportation fuel demand
+
+---
+
+## Comeback and consolidation (mid-2025)
+
+Despite the headwinds, bankrupt teapots are being acquired and restarted under new ownership:
+
+| Refinery | Buyer | Status |
+|----------|-------|--------|
+| Shandong Changyi Petrochemical (ex-[[Sinochem]]) | Weifang Hongrun Petrochemical | **Resumed operations** on domestic crude |
+| Zhenghe Group | In talks with buyers | Bankrupt, pending acquisition |
+| Shandong Huaxing Petrochemical Group | In talks with buyers | Bankrupt, pending acquisition |
+
+All three are applying for government import quotas — combined ask of up to ~300K bpd.
+
+**Central vs. local government tension:** Beijing wants to consolidate — shuttering small plants to clear the way for a large-scale private refining and petrochemical complex on Yulong Island. But Shandong provincial government is actively supporting teapot survival as an economic driver, even increasing consumption tax rebates for six local refiners. Advanced liquids-to-chemicals complexes in neighboring provinces are eroding Shandong's competitiveness, adding urgency to the provincial pushback.
+
+---
+
+## Supply diversification
+
+[[Rystad Energy]] suggests teapots may pivot from [[Iran]]ian crude toward [[Russia]], Brazil, or Middle Eastern suppliers if sanctions make Iranian oil costlier. Alternatively, they reduce runs further. China's crude imports hit a record 11.6M bpd in 2025 as low prices and geopolitical tensions spurred stockpile building.
 
 ---
 
@@ -111,6 +140,7 @@ Beijing controls teapot imports through quota allocations:
 | Hebei Xinhai Chemical | Hebei | **Sanctioned** (May 2025) |
 | Dongming Petrochemical | Shandong | Active, large |
 | Hengli Petrochemical | Liaoning | Active, integrated |
+| Shandong Changyi Petrochemical | Shandong | Restarted (mid-2025), new ownership |
 
 ---
 
@@ -136,10 +166,13 @@ Beijing controls teapot imports through quota allocations:
 ## What to watch
 
 - [ ] Additional teapot sanctions designations
-- [ ] Quota allocation announcements
+- [ ] Quota allocation announcements (2026 tranches)
 - [ ] Operating rate data (Oilchem)
 - [ ] Iranian floating storage levels
 - [ ] Refining margin trends
+- [ ] Yulong Island consolidation progress
+- [ ] Bankrupt teapot acquisitions (Zhenghe, Huaxing)
+- [ ] Supplier diversification away from Iran
 
 ---
 

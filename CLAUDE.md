@@ -8,6 +8,12 @@ This project is an integrated system: **database → charts → vault**.
 
 ---
 
+## Code Changes — Explore First
+
+**Before modifying any code file, explore the surrounding codebase first.** Check for existing patterns, utility scripts, and similar implementations elsewhere in the project. Never edit a file you haven't explored the context of. The sequence is always: explore → understand existing patterns → write code that follows them.
+
+---
+
 ## Git Workflow
 
 **Direct push to main** — no PRs required. CI runs after push.

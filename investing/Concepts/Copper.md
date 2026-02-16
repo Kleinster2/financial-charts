@@ -9,6 +9,13 @@ aliases: [copper, CPER, HG, Dr. Copper]
 
 ---
 
+## Copper price (COMEX futures, since 2020)
+
+![[copper-price-chart.png]]
+*From ~$2.10/lb at the COVID low to ~$6.00/lb in early 2026 — nearly tripled. The 2024-2025 range ($4.00-5.20) gave way to a sharp breakout driven by AI/data center demand, supply disruptions (Grasberg force majeure), and tariff-related stockpiling. Priced in $/lb on COMEX; multiply by ~2,205 for $/tonne equivalent.*
+
+---
+
 ## Current status (Jan 29, 2026)
 
 | Metric | Value |
@@ -93,6 +100,20 @@ Grid buildout for electrification is the dominant growth driver. [[JPMorgan]]'s 
 Commerce Department recommendation on copper tariffs expected by **June 2026**. Goldman base case: 25%+ refined copper tariff shortly after.
 
 Impact: Accelerated US stockpiling ahead of tariffs, potential price divergence between US and global markets.
+
+---
+
+## Miner re-rating — copper as the common thread
+
+The 2025-2026 rally in [[Iron ore|iron ore]] miners is best explained by copper, not iron ore. [[Iron ore]] prices remain weak (~$101/t, less than half the 2021 peak), yet all three majors rallied sharply. MSCI Metals & Mining Index surged ~90% since start of 2025 — beating semis, banks, and the Mag 7 — as fund managers rotated into materials on supercycle thesis.
+
+| Miner | Stock move | Copper share of EBITDA | Copper production |
+|-------|-----------|----------------------|-------------------|
+| [[BHP]] | Re-rated | ~45% (FY2025) | >2 Mtpa |
+| [[Rio Tinto]] | +47% (2025) | ~15% (FY2024) | 883 kt (2025 actual) → 1 Mtpa target |
+| [[Vale]] | +82% (52-wk) | Not disclosed | 382 kt → targeting 900 kt |
+
+The rally started in fall 2025 and accelerated into 2026. Common catalysts: copper breakout to ~$6/lb (US tariff stockpiling, AI/data center demand at 475 kt, Grasberg force majeure, Chile grade declines), [[China]]'s 15th Five-Year Plan pivoting from real estate to advanced manufacturing/EVs/renewables, and a copper-driven M&A wave ([[Rio Tinto]]-[[Glencore]] merger talks, [[Anglo American]]-[[Teck Resources]]). Company-specific layers: Rio's Arcadium lithium deal + new CEO (Trott), Vale's dam settlement clearing + record operational execution, BHP's OZ Minerals integration. Sector still trades at ~20% discount to long-term price-to-book vs MSCI World despite the 90% gain.
 
 ---
 

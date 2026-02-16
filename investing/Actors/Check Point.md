@@ -46,6 +46,20 @@ See [[China cybersecurity ban]] for full context.
 
 ---
 
+## Three-startup acquisition spree (Feb 2026)
+
+On Feb 12, 2026, Check Point acquired three early-stage Israeli startups for a combined ~$150M:
+
+| Company | Focus | Seed raised | Est. deal value |
+|---------|-------|-------------|-----------------|
+| Cyclops Security | Agentic exposure management / CAASM | $12.5M | ~$85M |
+| [[Cyata]] | Agentic identity governance | $8.5M | — |
+| Rotate | MSP security platform (acqui-hire) | ~$8M | — |
+
+CEO Nadav Zafrir framed it as securing customers' AI transformation. [[Cyata]] adds AI agent discovery, governance, and control — addressing the [[Agentic AI security]] gap where traditional IAM and NHI tools fall short. Cyclops provides attack surface management across cloud/OT/SaaS. Rotate accelerates Check Point's MSP channel.
+
+---
+
 ## Competitive position
 
 | Company | Focus | Origin |
@@ -94,3 +108,6 @@ See [[China cybersecurity ban]] for full context.
 - [[China cybersecurity ban]] — banned in China (Jan 2026)
 - [[China]] — policy driver
 - [[Israel]] — home country
+- [[Cyata]] — acquired Feb 2026 (agentic identity)
+- [[Agentic AI security]] — category entered via Cyata
+- [[CyberTech Global Tel Aviv 2026]] — keynote participant

@@ -283,6 +283,23 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
+## Peter Steinberger hire & OpenClaw foundation (Feb 15, 2026)
+
+**[[Peter Steinberger]]** — creator of [[OpenClaw]] and founder of [[PSPDFKit]] — joining OpenAI to "drive the next generation of personal agents."
+
+| Detail | Value |
+|--------|-------|
+| Role | Personal agents lead |
+| Background | Founded [[PSPDFKit]] (bootstrapped 13 years, $116M raise, ~1B users), created [[OpenClaw]] (100K+ GitHub stars) |
+| Altman quote | "A genius with amazing ideas about smart agents interacting with each other" |
+| Impact | "We expect this will quickly become core to our product offerings" |
+
+**[[OpenClaw]] → foundation:** Altman announced OpenClaw will become an independent open-source foundation with continued OpenAI support. "The future is going to be extremely multi-agent and it's important to us to support open source as part of that."
+
+**Strategic read:** This is OpenAI's answer to [[Anthropic]]'s [[MCP]]/[[Skills]] open-standard strategy. Both labs now backing open agent infrastructure to build ecosystem gravity. OpenAI gets Steinberger's agent expertise + open-source community goodwill; the foundation structure prevents lock-in accusations.
+
+---
+
 ## Key risks
 
 - **Cash burn** — $74B losses before profitability
@@ -301,7 +318,7 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
-*Updated 2026-02-15*
+*Updated 2026-02-16*
 
 ## Key people
 
@@ -310,6 +327,7 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 | [[Sam Altman]] | CEO |
 | [[Kevin Weil]] | CPO (joined 2024, ex-Twitter/Instagram) |
 | [[Fidji Simo]] | Executive (Zoph reports to her) |
+| [[Peter Steinberger]] | Personal agents (joined Feb 2026, [[OpenClaw]] creator) |
 
 ---
 
@@ -352,3 +370,6 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[Aardvark]] — security research agent, first Codex Security product (Q4 2025)
 - [[Matt Knight]] — former VP/CISO, led Aardvark launch
 - [[AI-powered AppSec]] — frontier labs entering application security
+- [[Peter Steinberger]] — personal agents lead (joined Feb 2026, [[OpenClaw]] creator)
+- [[OpenClaw]] — open-source agent platform, moving to foundation (Feb 2026)
+- [[PSPDFKit]] — Steinberger's previous company

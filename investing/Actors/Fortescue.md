@@ -27,7 +27,7 @@ Fortescue has the lowest mine-site C1 cash costs among the [[Iron ore|iron ore]]
 ## Price vs peers (since 2020)
 
 ![[fsugy-vs-bhp-rio-price-chart.png]]
-*Fortescue has dramatically outperformed [[BHP]] and [[Rio Tinto]] since 2020, driven by the post-COVID iron ore supercycle and leverage to price swings — though with far higher volatility. The 2024 drawdown (-37%) shows the downside of that leverage.*
+*Fortescue has dramatically outperformed all three peers since 2020, driven by higher beta to [[Iron ore|iron ore]] price swings. [[Vale]] lagged the Pilbara miners through mid-2025 (Brumadinho/Mariana overhang) before rallying sharply. The 2024 drawdown (-37%) shows the downside of Fortescue's leverage.*
 
 ---
 

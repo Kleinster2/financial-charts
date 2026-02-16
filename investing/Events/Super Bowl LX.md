@@ -50,7 +50,8 @@ The game itself was secondary to what LX revealed about advertising spend: AI co
 | [[Meta]] | Oakley Meta glasses | "Athletic Intelligence" rebrand of AI; Marshawn Lynch, Spike Lee |
 | [[Amazon]] | AI presence | Part of broader tech bloc |
 | GenSpark | 2x airings — Matthew Broderick | "Let AI finish your work, take Monday off" |
-| Base44 | AI chatbot ad | Less-familiar entrant |
+| [[Wix]] | "The New Way to Create" — Wix Harmony | AI website builder; Candi Staton "You Got the Love"; 7-year SB hiatus return |
+| [[Base44]] ([[Wix]]) | "It's App to You" | Vibe coding app builder; [[Wix]] bought double feature; in-house creative, directed by Tal Rosenthal/Noam Sharon |
 | Svedka | "Shake Your Bots Off" | First "primarily" AI-generated national SB spot |
 
 Reception was mixed to negative. Ad Age/Harris consumer survey showed mostly negative sentiment toward AI ad saturation. Sports Illustrated reported fans were visibly annoyed before halftime. Commentary drew parallels to sector-specific bubble indicators.
@@ -184,5 +185,7 @@ Two of the top pharma spots were [[GLP-1 receptor agonists]] related — a first
 - [[Intuit]] — TurboTax 13th consecutive year
 - [[Redfin]] — Rocket Mortgage joint debut post-acquisition
 - [[Coinbase]] — returning, poorly received
+- [[Wix]] — double feature (Wix Harmony + Base44), 7-year SB return
+- [[Base44]] — vibe coding spot, acquired by Wix for ~$80M
 - [[CES 2026]] — Dreame CES-to-Super Bowl pipeline
 - [[Comcast|NBCUniversal]] — broadcaster, Peacock streaming strategy

@@ -21,5 +21,6 @@ aliases: []
 
 - [[United States]] — strategic ally, AI hub partnership
 - [[Lyft]] — Israel R&D operations
+- [[Hagag Group]] — luxury real estate developer, Tel Aviv-focused
 
 *Created 2026-02-11*

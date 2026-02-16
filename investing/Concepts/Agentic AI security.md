@@ -126,12 +126,17 @@ The big tech assistants are products designed to protect corporate liability. Op
 
 ## Investment Implications
 
-Security tooling for agentic AI is an emerging category:
+Security tooling for agentic AI is an emerging category with real M&A activity:
 
-- **Infrastructure:** [[Cloudflare]] (tunnels, Zero Trust), identity providers
-- **Monitoring:** Agent observability, anomaly detection
-- **Sandboxing:** Isolated execution environments
-- **Supply chain:** Plugin/skill verification systems
+| Layer | Focus | Players |
+|-------|-------|---------|
+| Agent identity/governance | Control what agents can do, audit trails | [[Cyata]] (acquired by [[Check Point]] Feb 2026, ~7 months post-stealth) |
+| Infrastructure | Tunnels, Zero Trust, compute isolation | [[Cloudflare]], Zero Networks |
+| Monitoring | Agent observability, anomaly detection | Emerging |
+| Sandboxing | Isolated execution environments | Emerging |
+| Supply chain | Plugin/skill verification | Emerging |
+
+[[Check Point]]'s acquisition of [[Cyata]] is the first major M&A signal that agentic identity governance is a real enterprise need, not just a research concern.
 
 See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
 
@@ -153,6 +158,9 @@ See [[Cloudflare agentic infrastructure]] for picks-and-shovels thesis.
 - [[Clawdbot viral growth]] — Case study in security failures
 - [[Cloudflare agentic infrastructure]] — Infrastructure play
 - [[Local-first AI]] — Architecture pattern with security tradeoffs
+- [[Cyata]] — First agentic identity startup acquired ([[Check Point]], Feb 2026)
+- [[Check Point]] — Acquirer, entering agentic security via M&A
+- [[CyberTech Global Tel Aviv 2026]] — Conference context
 
 ---
 
