@@ -67,25 +67,9 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 
 ### Schema
 
-**Wide format** — tickers are columns, not rows:
+**Wide format** — tickers are columns, not rows. `PRAGMA table_info(stock_prices_daily)` to check columns.
 
-```sql
--- stock_prices_daily: Date column + one column per ticker
-SELECT Date, AAPL, MSFT, GOOGL FROM stock_prices_daily LIMIT 5;
-
--- Check if ticker exists
-PRAGMA table_info(stock_prices_daily);  -- lists all columns
-```
-
-**Key tables:**
-
-| Table | Description |
-|-------|-------------|
-| `stock_prices_daily` | Daily close prices (wide format) |
-| `ticker_metadata` | Ticker names, date ranges, data points |
-| `income_statement_annual` | Annual financials |
-| `income_statement_quarterly` | Quarterly financials |
-| `short_interest` | Short interest data |
+**Tables:** `stock_prices_daily` (wide, Date + ticker columns), `ticker_metadata`, `income_statement_annual`, `income_statement_quarterly`, `short_interest`.
 
 ### Adding Tickers
 
@@ -97,22 +81,14 @@ This downloads history via yfinance, adds columns to `stock_prices_daily`, and u
 
 ### Adding Fundamentals (for metrics charts)
 
-Price data and fundamentals are **separate**. If you need `metrics=revenue,netincome` charts:
+Price data and fundamentals are **separate**. Metrics charts require both:
 
 ```bash
-# Step 1: Add price data (yfinance)
-python scripts/add_ticker.py PM
-
-# Step 2: Add fundamentals (Alpha Vantage) — required for metrics charts
-python fetch_fundamentals.py PM
+python scripts/add_ticker.py PM          # Step 1: price data (yfinance)
+python fetch_fundamentals.py PM          # Step 2: fundamentals (Alpha Vantage)
 ```
 
-Without step 2, fundamentals charts return `{"error": "No fundamentals data found"}` instead of an image.
-
-**Check existing fundamentals:**
-```sql
-SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;
-```
+Without step 2, metrics charts return an error. Check existing: `SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;`
 
 ### Data freshness (CRITICAL)
 
@@ -122,13 +98,7 @@ SELECT DISTINCT ticker FROM income_statement_annual ORDER BY ticker;
 
 ### Synthetic Indices
 
-Create custom weighted baskets:
-
-```bash
-python scripts/create_aiwd_index.py --store  # AI Workflow Disruption basket
-```
-
-See `scripts/create_aiwd_index.py` for pattern — define weights dict, calculate returns, store as new column.
+Custom weighted baskets: `python scripts/create_aiwd_index.py --store`. See that script for the pattern.
 
 ### Date Format (CRITICAL)
 
@@ -136,13 +106,9 @@ All dates in `stock_prices_daily` use `'YYYY-MM-DD HH:MM:SS'`. **Never insert da
 
 ### Updating Prices
 
-```bash
-python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv
-```
+`python update_market_data.py --lookback 10 --assets stocks etfs mutualfunds adrs fx crypto futures iv`
 
-Delisted ticker warnings are expected and harmless.
-
-**Never remove historical data for delisted tickers** — data remains valuable.
+Delisted ticker warnings are expected and harmless. **Never remove historical data for delisted tickers.**
 
 ---
 
@@ -153,21 +119,9 @@ Delisted ticker warnings are expected and harmless.
 
 **Full reference:** See `docs/chart-api.md`
 
-### Quick Start
+Start server: `cd /c/Users/klein/financial-charts && python charting_app/app.py`
 
-```bash
-cd /c/Users/klein/financial-charts && python charting_app/app.py
-
-# Price comparison
-curl "http://localhost:5000/api/chart/lw?tickers=AAPL,QQQ&normalize=true&start=2020-01-01" \
-  -o investing/attachments/aapl-vs-qqq.png
-
-# Fundamentals
-curl "http://localhost:5000/api/chart/lw?tickers=AAPL&metrics=revenue,netincome" \
-  -o investing/attachments/aapl-fundamentals.png
-```
-
-**Key parameters:** `tickers`, `start`, `normalize`, `primary` (actor = blue), `metrics`, `forecast_start`
+**Key parameters:** `tickers`, `start`, `normalize`, `primary` (actor = blue), `metrics`, `forecast_start`. See `docs/chart-api.md` for curl examples and full parameter reference.
 
 **Best practices:**
 - Prefer peer comparisons (2-4 tickers) over single-ticker charts
@@ -202,23 +156,11 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 - **Links over hierarchy** — structure from `[[connections]]`
 - **Daily notes as inbox** — capture first, extract when mature
 
-### Daily Note Update (CRITICAL)
+### Edit Gates (CRITICAL)
 
-**Whenever processing news, earnings, or events — update today's daily note (`investing/Daily/YYYY-MM-DD.md`).** This is a **post-edit gate**: after updating actor/product/event notes, always add a summary entry to the daily note before considering the task done. If today's daily note doesn't exist yet, create it with a `#daily` tag.
-
-### Entity Linking (CRITICAL)
-
-**Before editing ANY note that mentions an entity:**
-
-1. **Check** if entity note exists (including aliases)
-2. **If missing** → create stub OR flag dead link
-3. **Always use `[[wikilinks]]`** for entities in the edit
-
-This applies to daily notes, earnings additions, news items — everything. Entity linking is a **pre-edit gate**, not post-edit cleanup.
-
-### Concept Extraction
-
-**After creating or editing a note, scan for terms that deserve their own concept note.** The bar: would a reader benefit from a dedicated note explaining this term and linking the entities it connects? If yes, create it and wikilink in the same pass. See `docs/note-checklist.md` for examples.
+1. **Pre-edit — Entity linking:** Before editing ANY note, check if mentioned entities have notes (including aliases). If missing → create stub. Always use `[[wikilinks]]`.
+2. **Post-edit — Daily note:** After updating actor/product/event notes, add a summary entry to today's daily note (`investing/Daily/YYYY-MM-DD.md`) before considering the task done. Create with `#daily` tag if it doesn't exist.
+3. **Post-edit — Concept extraction:** Scan for terms that deserve their own concept note. Bar: would a reader benefit from a dedicated note? If yes, create and wikilink in the same pass. See `docs/note-checklist.md`.
 
 ### Key Rules
 
