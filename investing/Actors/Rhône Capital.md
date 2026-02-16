@@ -1,5 +1,5 @@
 ---
-aliases: [Rhone Capital, Rhône]
+aliases: [Rhone Capital, Rhône, Rhône Group, Rhone Group]
 ---
 #actor #privateequity #usa #europe #private
 
@@ -17,7 +17,7 @@ aliases: [Rhone Capital, Rhône]
 | HQ | New York / London |
 | Focus | [[Consumer]], industrial, services |
 | AUM | ~$5B |
-| Notable investment | [[Saks Global]] (lead investor) |
+| Notable investments | [[Saks Global]] (lead investor), [[Illycaffè]] (~20%) |
 
 ---
 
@@ -53,5 +53,6 @@ Rhône served as **lead investor** in the [[Saks-Neiman merger]] financing (2024
 - [[Saks bankruptcy]] — investment loss
 - [[Richard Baker]] — co-investor
 - [[Amazon]] — co-investor (23% stake)
+- [[Illycaffè]] — ~20% minority stake (acquired 2019-2020)
 
 *Created 2026-01-18*

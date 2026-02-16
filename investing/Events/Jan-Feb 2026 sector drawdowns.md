@@ -118,3 +118,4 @@ Screened 1,343 tickers with sufficient data. Drawdown = (current price - period 
 - [[DraftKings]] — Q4 beat but 2026 guide disappointed, -13% AH
 - [[Coinbase]] — Q4 miss, -8%
 - [[Morgan Stanley]] — same week raised GDP forecast to 2.6% on hyperscaler capex, bullish macro vs bearish sectors
+- [[SaaS stock meltdown 2026]] — deep-dive on the SaaS/agent repricing specifically, with FT taxonomy and per-name performance

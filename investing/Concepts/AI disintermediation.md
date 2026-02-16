@@ -1,5 +1,5 @@
 ---
-aliases: [AI middleman disruption, AI-driven disintermediation, AI distribution disruption]
+aliases: [AI middleman disruption, AI-driven disintermediation, AI distribution disruption, AI disruption]
 tags: [concept, ai, disruption, thesis]
 ---
 

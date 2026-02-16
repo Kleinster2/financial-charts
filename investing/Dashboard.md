@@ -7,6 +7,9 @@
 ![[smh-vs-nvda-vs-amd-vs-tsm-vs-intc-vs-asml-vs-amat-vs-lrcx-2025.png]]
 *[[SMH]] · [[NVIDIA]] · [[AMD]] · [[TSMC]] · [[Intel]] · [[ASML]] · [[Applied Materials]] · [[Lam Research]]*
 
+![[drgn-vs-kweb-vs-cqqq-price-chart.png]]
+*[[DRGN]] · [[KWEB]] · [[CQQQ]] · [[China]] · [[DeepSeek]] — DRGN (gen-AI pure play) sharply outperforming broader China internet/tech since July '25 launch*
+
 ![[bil-vs-shy-vs-iei-vs-ief-vs-tlt-2025.png]]
 *[[BIL]] · [[SHY]] · [[IEI]] · [[IEF]] · [[TLT]] · [[Federal Reserve]] · [[Credit markets]]*
 

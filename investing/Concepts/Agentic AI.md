@@ -190,4 +190,10 @@ Larger organizations more likely to expect AI-related workforce reductions.
 - [Claude Code Documentation](https://code.claude.com/docs/en/overview)
 - [Cloudflare Moltworker Blog](https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/)
 
-*Created 2026-01-28 | Updated with Grand View Research market data*
+## SaaS stock meltdown (Feb 2026)
+
+The market's most dramatic response to agentic AI so far. [[Anthropic]] and [[OpenAI]] repositioning code-generation tools as general-purpose agents for non-technical workers triggered a sector-wide repricing of [[SaaS]] stocks. Large-cap SaaS names fell -25% to -40% YTD while SPY sat flat. The *Financial Times* editorial board (Feb 15) framed agents as a new computing layer that could usurp established software, drawing a taxonomy: non-essential workflow SaaS (highest risk), systems of record (medium), agent infrastructure (beneficiary). See [[SaaS stock meltdown 2026]] for full data.
+
+---
+
+*Created 2026-01-28 | Updated with Grand View Research market data, SaaS meltdown context*

@@ -145,10 +145,13 @@ aliases: [Software as a Service, Cloud Software, Software-as-a-service, Subscrip
 
 ## Investment themes
 
-### AI integration
-- Every SaaS company adding AI features
+### AI agent disruption (Feb 2026 repricing)
+- Every SaaS company adding AI features, but market now pricing agents as existential threat
 - AI-native revenue becoming material (Datadog 11%+)
-- Agents replacing traditional workflows
+- Agents replacing traditional workflows — [[Anthropic]] and [[OpenAI]] repositioned as general-purpose agent platforms
+- **Feb 2026 selloff:** large-cap SaaS -25% to -40% YTD, workflow tools (MNDY, BRZE) -49% to -51%, while SPY flat
+- *Financial Times* framework: non-essential workflow SaaS (highest risk) vs systems of record (medium) vs agent infrastructure (beneficiary)
+- See [[SaaS stock meltdown 2026]] for full data and charts
 
 ### Multi-cloud
 - Enterprise flexibility demands

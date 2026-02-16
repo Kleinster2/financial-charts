@@ -23,15 +23,18 @@ parent_concept: "[[Generative AI]]"
 | Current version | Seedance 2.0 (Feb 10, 2026) |
 | Developer | [[ByteDance]] |
 | Resolution | Native 1080p |
+| Max duration | 15 seconds |
 | Multimodal | Text, images, audio, video simultaneously |
-| Access | Limited beta via Jimeng AI (ByteDance's AI platform) |
+| Access (China) | Jianying app (ByteDance's Chinese editor) |
+| Access (Global) | Dreamina / [[CapCut]] (rolling out), free tier with quota |
+| API | BytePlus ModelArk (free playground quota, Feb 2026) |
 | Target use | Professional film, e-commerce, advertising |
 
 ---
 
 ## Seedance 2.0 — viral launch (Feb 2026)
 
-Officially unveiled Feb 10, 2026 (select beta) with full launch Feb 12. Immediately went viral:
+Officially unveiled Feb 10, 2026 (select beta) with full launch Feb 12. Available via Jianying in China; international access via Dreamina/[[CapCut]] (pre-release as of Feb 16). BytePlus ModelArk offered free playground quota. Immediately went viral:
 
 - Weibo hashtags racked up tens of millions of views
 - One viral video (~1M views): Kanye West and Kim Kardashian as characters in an Imperial Chinese palace drama, speaking and singing in Mandarin
@@ -57,6 +60,12 @@ Seedance 2.0 triggered the most serious AI copyright confrontation yet — gener
 | Feb 15 | Human Artistry Campaign condemned it as "an attack on every creator around the world" |
 
 Generated content included Spider-Man, Star Wars, Stranger Things, Marvel characters — all from 2-line prompts.
+
+| Date | Event |
+|------|-------|
+| Feb 15 | [[Paramount Global]] cease-and-desist: content "often indistinguishable, both visually and audibly" from Paramount films; cited Star Trek, South Park, Dora the Explorer |
+| Feb 15 | [[TechCrunch]]: "Hollywood isn't happy about the new Seedance 2.0 video generator" |
+| Feb 16 | ByteDance pledges to "strengthen safeguards" and "respects intellectual property rights" ([[Reuters]], [[BBC]]) |
 
 **Connection to Ellison thesis:** The same [[ByteDance]] pirating American IP has [[Oracle]] (founded by [[Larry Ellison]]) as its US infrastructure partner. Meanwhile Larry's son [[David Ellison]] is acquiring the very studios whose IP Seedance pirates. See [[Ellison AI-IP vertical integration]].
 

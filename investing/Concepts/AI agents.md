@@ -77,6 +77,12 @@ Autonomous AI systems that can execute multi-step tasks, use tools, and interact
 
 ---
 
+## Market impact — SaaS meltdown (Feb 2026)
+
+The agent threat moved from theoretical to market-moving in early 2026. [[Anthropic]] and [[OpenAI]] announced general-purpose agents capable of replacing SaaS workflows for non-technical workers, triggering a -25% to -50% selloff in [[SaaS]] stocks while the [[S&P 500|SPY]] sat flat. The *Financial Times* editorial board (Feb 15) identified the core dynamic: agents become a new computing interface layer, a chokepoint for AI firms to claim corporate IT budgets that currently flow to SaaS incumbents. See [[SaaS stock meltdown 2026]].
+
+---
+
 *Created 2026-01-17*
 
 ---
