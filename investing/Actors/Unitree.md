@@ -99,7 +99,7 @@ Bull:
 - Structural cost moat via [[Unitree Cost Architecture|vertical integration + Chinese supply chain]]
 - [[Unitree Quadruped Bridge|Quadruped bridge]] gives 2-3 year head start over humanoid-first competitors
 - IPO mid-2026 at $7B — potentially conservative by STAR Market standards
-- Government-endorsed ([[Xi Jinping]] meeting, gala visibility, fast-tracked IPO)
+- Government-endorsed ([[Xi Jinping]] meeting, gala visibility, [[Pre-IPO tutoring]] completed in 4 months)
 
 Bear:
 - Q1 2025 revenue spike may be one-time orders, not sustainable demand
@@ -122,6 +122,8 @@ Bear:
 - [[Unitree GTM Strategy]] — consumer-first disruption, enterprise migration
 - [[Unitree Financials]] — revenue, margins, IPO valuation
 - [[Hangzhou Robotics Cluster]] — Six Little Dragons ecosystem
+- [[Pre-IPO tutoring]] — completed Nov 2025 (4 months, CITIC Securities)
+- [[STAR Market]] — target listing venue (mid-2026)
 - [[2026 Spring Festival Gala]] — "Wu BOT" performance
 - [[Boston Dynamics]] — high-cost incumbent
 - [[Figure AI]] — US humanoid competitor
