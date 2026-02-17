@@ -272,4 +272,5 @@ Infineon reports on an October fiscal year (FY ends September).
 - [[Automotive semiconductors]] — market context
 - [[Germany]] — home country
 - [[EU Chips Act]] — European semiconductor policy
+- [[EU Made in Europe Tech Rules 2026]] — EU local content rules benefiting European chipmakers
 - [[Europe]] — regional hub

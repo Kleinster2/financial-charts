@@ -211,3 +211,5 @@ Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 - [[STMicro AWS deal]] — multi-billion hyperscale engagement (Feb 2026)
 - [[AWS]] — customer (data center/cloud)
 - [[STMicro acquires NXP MEMS]] — $950M MEMS deal (closed Feb 2026)
+- [[Macronix]] — partner (STM32N6 NOR flash integration)
+- [[EU Made in Europe Tech Rules 2026]] — EU local content / procurement rules benefiting European chipmakers

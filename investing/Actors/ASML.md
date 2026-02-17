@@ -340,6 +340,7 @@ See [[Rare earth leverage]] for geopolitical context.
 
 **Regulatory:**
 - [[Export controls]] — blocks [[China]] EUV/advanced DUV sales
+- [[EU Made in Europe Tech Rules 2026]] — EU industrial policy affecting semiconductor equipment supply chains
 
 **Theses:**
 - [[Long WFE]] — crown jewel position

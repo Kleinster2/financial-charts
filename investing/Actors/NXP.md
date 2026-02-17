@@ -241,3 +241,5 @@ NXP = connectivity/radar specialist. Infineon = power/MCU leader.
 - [[Qualcomm NXP blocked deal]] — key event
 - [[Weaponized antitrust]] — context
 - [[Automotive semiconductors]] — market context
+- [[EU Chips Act]] — European semiconductor policy
+- [[EU Made in Europe Tech Rules 2026]] — EU local content rules affecting Dutch/European semis

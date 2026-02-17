@@ -112,6 +112,8 @@
 - [[Intel]] — Magdeburg project (paused)
 - [[TSMC]] — Dresden fab partner
 - [[Semiconductor incentive programs]] — global comparison
+- [[EU Made in Europe Tech Rules 2026]] — complementary EU industrial policy (local content, procurement)
+- [[NXP]] — Dutch semiconductor champion
 - [[Europe]] — regional hub
 
 ---
