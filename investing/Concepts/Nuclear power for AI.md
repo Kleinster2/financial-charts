@@ -147,6 +147,7 @@ But still slow. A new nuclear plant takes 10-15 years in US. Restarts are faster
 **Speculative:**
 - [[Oklo]] — Altman-backed, pre-revenue
 - NuScale — struggling but only public pure-play SMR
+- [[Fermi]] — 11GW nuclear+gas campus REIT, zero revenue, class action
 
 **Indirect beneficiaries:**
 - Hyperscalers with nuclear PPAs have power advantage

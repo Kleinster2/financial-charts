@@ -13,14 +13,14 @@ Wang Xingxing — founder and CEO of [[Unitree]]. Net worth $2.15B (Bloomberg Bi
 
 ## Quick stats
 
-| Metric | Value |
-|--------|-------|
-| Role | Founder & CEO, [[Unitree]] |
-| Net worth | $2.15B (Feb 2026) |
-| Born | 1990, Yuyao/Ningbo, [[Zhejiang]] |
-| Age | 35 |
+| Metric    | Value                                                                        |
+| --------- | ---------------------------------------------------------------------------- |
+| Role      | Founder & CEO, [[Unitree]]                                                   |
+| Net worth | $2.15B (Feb 2026)                                                            |
+| Born      | 1990, Yuyao/Ningbo, [[Zhejiang]]                                             |
+| Age       | 35                                                                           |
 | Education | Zhejiang Sci-Tech University (undergrad), [[Shanghai University]] (master's) |
-| Sector | Robotics (quadruped + humanoid) |
+| Sector    | Robotics (quadruped + humanoid)                                              |
 
 ---
 
