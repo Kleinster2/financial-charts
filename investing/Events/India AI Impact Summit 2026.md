@@ -21,8 +21,12 @@ tags:
 | Dates | Feb 16–20, 2026 |
 | Venue | Bharat Mandapam, New Delhi ($300M convention complex) |
 | Expected visitors | 250,000+ |
-| Exhibitors | 300+ |
+| Exhibitors | 840+ (incl. national delegations, ministerial groups, startups, research labs) |
 | Countries | 100+ |
+| Heads of government | 15–20 |
+| Ministers | 50+ |
+| CEOs | 40+ |
+| Side events | 500+ alongside main programme |
 
 ---
 
@@ -60,20 +64,42 @@ tags:
 
 ## India's AI strategy
 
-India is betting on **application-led innovation** over frontier model development. India's Economic Survey (Jan 2026) urged focus on large-scale deployment rather than chasing mega-models.
+India is betting on **application-led innovation** over frontier model development. India's Economic Survey (Jan 2026) urged focus on large-scale deployment rather than chasing mega-models. No globally dominant frontier AI model yet — competitive edge is scale of deployment + talent.
 
-Key data points:
-- [[Google]], [[Microsoft]], [[Amazon]] have committed a combined **$68B** in AI and cloud infrastructure in India through 2030
-- 72M+ daily ChatGPT users by late 2025; 100M+ weekly (Altman, Feb 2026)
+**Three pillars: infrastructure, users, talent**
+
+Infrastructure:
+- [[Google]], [[Microsoft]], [[Amazon]] committed a combined **$68B** in AI and cloud infrastructure in India through 2030
+- India approved **$18B** in semiconductor projects to build domestic chip supply chain
+- Dec 2025: Amazon, Microsoft, Intel made additional AI infrastructure/chip commitments
+
+Users:
+- 72M+ daily ChatGPT users by late 2025; **100M+ weekly** (Altman, Feb 2026) — India is OpenAI's largest market
+- India is [[Anthropic]]'s 2nd largest market for [[Claude]] after the US
+- No major domestic chatbot rival — US labs competing for users and training data via free tiers
+- Day 2: homegrown startups Sarvam AI and IIT Bombay-led BharatGen unveiling sovereign LLMs
+
+Talent:
+- 60%+ of Global Capability Centers (GCCs) established in last 2 years focused on AI/data/digital engineering
+- 80%+ of GCCs expected in next 6–8 months will be AI-led
+- "Chief AI Officer" roles increasingly being created in India (ANSR)
+- [[Tech Mahindra]] CTO: India is an "AI talent factory"
+
+**Disruption risks:**
 - India's $283B IT sector faces AI disruption — [[Jefferies]] predicts call centres could face **50% revenue hit** by 2030
 - [[Vinod Khosla]]: IT services and BPOs "can almost completely disappear within five years"
 - HCL CEO: Indian IT companies "will focus on turning profits and not being job creators"
+- Indian IT stocks dipping on AI disruption fears
+
+**Notable absence:** [[Jensen Huang]] ([[Nvidia]] CEO) withdrew Feb 14 due to "unforeseen circumstances" — was originally expected to attend.
 
 ---
 
-## Context
+## Geopolitical context
 
 Previous AI summits: Bletchley Park (UK, 2023), Seoul (2024), Paris (2025) — focused on safety commitments and voluntary pledges, criticized for producing few enforceable outcomes. India positioning itself as voice of the developing world in AI governance.
+
+Summit coincides with US-India trade reset — the two nations pushing toward an interim trade deal. Modi government wants India to be a tech superpower: semiconductor manufacturing, Apple production shifts, VC-backed startup ecosystem, IPO surge on Indian exchanges.
 
 Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,000+. India's Supreme Court allowed video conferencing for advocates during summit week due to traffic.
 
