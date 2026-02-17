@@ -82,15 +82,17 @@ Unitree's GTM is the opposite of Boston Dynamics (enterprise/government first) o
 
 ### Hangzhou/ZJU ecosystem
 
-Unitree is headquartered in [[Hangzhou]], with a new 10,000 sqm factory (opened Apr 2025), Shenzhen subsidiary, and Shanghai/Beijing branch offices.
+→ *Deep dive: [[Hangzhou Robotics Cluster]]*
 
-**Talent.** Zhejiang University (ZJU) and Zhejiang Sci-Tech University provide robotics/AI graduates. Wang himself is from this ecosystem. Hangzhou is also home to [[Alibaba]], attracting tech talent broadly.
+Unitree is headquartered in [[Hangzhou]], with a new 10,000 sqm factory (opened Apr 2025), Shenzhen subsidiary, and Shanghai/Beijing branch offices. Unitree is one of the "[[Hangzhou Robotics Cluster|Six Little Dragons]]" (六小龙) — alongside [[DeepSeek]], [[Game Science]], [[Deep Robotics]], [[BrainCo]], and [[Manycore Tech]] — a branding that gives collective visibility beyond any single company.
 
-**Government support.** Hangzhou municipal government actively supported the factory buildout. Pre-IPO tutoring completed in just 4 months (typical: 6-12), signaling regulatory fast-tracking. China's national push to mass-produce humanoids by 2025 and corner the market by 2027 creates policy tailwinds.
+**Talent.** [[Zhejiang University]] (ZJU) and Zhejiang Sci-Tech University provide robotics/AI graduates. Wang himself is from this ecosystem (though notably *not* a ZJU product — Zhejiang Sci-Tech undergrad, [[Shanghai University]] master's). Hangzhou is also home to [[Alibaba]], attracting tech talent broadly. Hangzhou leads China in net talent inflow. 200+ robotics-related companies registered in Hangzhou as of Dec 2024.
 
-**Supply chain.** Yangtze River Delta manufacturing corridor for motors, sensors, electronics. Shenzhen subsidiary taps the Pearl River Delta for hardware components. Tightly integrated production and supply chain around Hangzhou gives logistical advantages.
+**Government support.** Hangzhou municipal government actively supported the factory buildout. Unitree was an early beneficiary of "Project Eagle" (雏鹰计划, est. 2010), which provides public funding to tech startups. Binjiang District (Unitree's HQ) allocates at least 15% of annual budget to high-tech industries. Pre-IPO tutoring completed in just 4 months (typical: 6-12), signaling regulatory fast-tracking — this appears systemic: [[Deep Robotics]] also began IPO tutoring rapidly. Zhejiang pioneered the "chain leader system" (链长制) in 2019, extending party-state coordination over supply chains. China's national push to mass-produce humanoids by 2025 and corner the market by 2027 creates policy tailwinds. In Jan 2025, Hangzhou allocated 15% of industrial policy funds to future industries (AI, humanoid robots) and announced ¥300B ($40B) annual investment.
 
-**Moat assessment:** The Hangzhou/Zhejiang ecosystem is a real but replicable advantage. Deep Robotics (also in Hangzhou, also completed pre-IPO tutoring) shows the cluster effect works for others too. The true moat is Unitree's 8-year head start in vertical integration and volume — the ecosystem accelerates but doesn't solely explain their position.
+**Supply chain.** [[Yangtze River Delta]] manufacturing corridor for motors, sensors, electronics — all robot components sourceable within a 4-hour drive. [[Ningbo]] port (world's busiest cargo port) is 1.5 hours away for export logistics. Shenzhen subsidiary taps the Pearl River Delta for hardware components. Tightly integrated dual supply chain access (YRD + PRD) gives logistical advantages.
+
+**Moat assessment:** The Hangzhou/Zhejiang ecosystem is a real but narrow advantage — strongest specifically for *quadruped/humanoid robotics startups* where ZJU's legged locomotion expertise, government speed, and founder density intersect. [[Deep Robotics]] (also in Hangzhou, also on IPO track, ~¥8B valuation) shows the cluster effect works for others too. The true moat is Unitree's 8-year head start in vertical integration and volume — the ecosystem accelerates but doesn't solely explain their position. See [[Hangzhou Robotics Cluster]] for the full analysis.
 
 ### Profitable since 2020: the unit economics
 
