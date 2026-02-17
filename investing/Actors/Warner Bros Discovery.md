@@ -170,6 +170,30 @@ The Paramount bid is for the *entire* company (including CNN, Discovery networks
 
 See: [[Major Pending M&A Deals Feb 2026]], [[Ellison AI-IP vertical integration]]
 
+### Feb 17 — WBD rejects $30, opens 7-day window for "best and final"
+
+WBD board rejected Paramount's $30/share bid but gave a **7-day window (until Feb 23)** for a "best and final offer" — first time the board has formally engaged with Paramount after rejecting six prior offers. Key details:
+
+- Paramount verbally floated **$31/share** (not a formal offer), which enticed the board to the table
+- WBD board: "We have not determined that your proposal is reasonably likely to result in a transaction that is superior to the Netflix merger"
+- WBD secured a **special waiver from Netflix** to negotiate with Paramount — legal loophole under the merger agreement
+- **Shareholder vote on Netflix deal set for March 20**
+- **Discovery Global spinoff** valued at $1.33–$6.86/share (WBD estimate)
+
+**Unresolved issues in Paramount bid:**
+- Who covers potential $1.5B junior lien financing fee
+- What happens if debt financing falls through
+- Whether [[Larry Ellison]]'s $40B personal equity guarantee is fully certain
+- $2.8B breakup fee to Netflix if WBD walks
+
+**Activist pressure:**
+- [[Ancora Holdings]] (~$200M stake) plans to oppose the Netflix deal, argues board hasn't adequately engaged with Paramount
+- [[Pentwater Capital]] (~50M WBD shares) backs Paramount; CEO Matt Halbower eyed as potential WBD board nominee
+
+**Market reaction (Feb 17):** Paramount +6%, WBD +2.3%, Netflix -1.4%.
+
+Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-reporting/warner-bros-rejects-paramounts-revised-offer-gives-studio-week-negotiate-better-2026-02-17/)
+
 ---
 
-*Updated 2026-02-12*
+*Updated 2026-02-17*

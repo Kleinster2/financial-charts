@@ -431,7 +431,21 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-02-15*
+*Updated 2026-02-17*
+
+## February 2026: India expansion
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Anthropic]] announced its first [[India]] office in Bengaluru. [[India]] is [[Claude]]'s 2nd largest market after the US. [[Anthropic]] is partnering with [[Infosys]] to deploy [[Claude]] and [[Claude Code]] for enterprise AI agents — starting in the telecom sector — with a dedicated Anthropic Center of Excellence inside [[Infosys]].
+
+| Detail | Value |
+|--------|-------|
+| India office | Bengaluru (first) |
+| India market rank | #2 for [[Claude]] (after US) |
+| Enterprise partner | [[Infosys]] |
+| Initial sector | Telecom |
+| Structure | Anthropic Center of Excellence at [[Infosys]] |
+
+---
 
 ## Related
 
@@ -463,3 +477,5 @@ See [[Long Anthropic]] for full thesis.
 - [[Palantir]] — Pentagon contract partner (~$200M)
 - [[Maduro capture 2026]] — Claude used in operation via Palantir
 - [[Pete Hegseth]] — Defense Secretary, criticized Anthropic's safeguards
+- [[India AI Impact Summit 2026]] — Bengaluru office, [[Infosys]] partnership
+- [[Infosys]] — enterprise AI agent deployment partner (India)

@@ -159,6 +159,20 @@ See [[Institutional homebuying ban]] for full context.
 
 ---
 
+## February 2026: Neysa AI investment (India)
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Blackstone]] announced a majority stake in Indian AI startup **Neysa**, with a **$600M equity raise** and plans for **$600M in debt financing**. The investment targets **20,000+ GPUs** for AI compute in [[India]].
+
+| Detail | Value |
+|--------|-------|
+| Target | Neysa (Indian AI startup) |
+| Stake | Majority |
+| Equity raise | $600M |
+| Planned debt | $600M |
+| GPU target | 20,000+ |
+
+---
+
 ## Related
 
 - [[F&G Annuities]] — insurance partnership ($1B sidecar, Aug 2025)
@@ -176,3 +190,5 @@ See [[Institutional homebuying ban]] for full context.
 - [[Private credit]] — cov-lite lending trend
 - [[Permira]] — borrower (JTC deal)
 - [[Lightstone Group]] — sold Extended Stay Hotels ($8B, 2007)
+- [[India AI Impact Summit 2026]] — Neysa majority stake ($600M equity + $600M debt)
+- [[India]] — AI compute expansion

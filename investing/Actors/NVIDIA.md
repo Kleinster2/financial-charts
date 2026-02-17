@@ -632,6 +632,12 @@ Market positioning (Dec 2025):
 
 ---
 
+## February 2026: India AI summit withdrawal
+
+[[Jensen Huang]] withdrew from the [[India AI Impact Summit 2026]] on Feb 14, citing "unforeseen circumstances." He had been expected to deliver a keynote at the first [[Global South]] AI summit. The absence was notable given the scale of AI investment commitments announced at the event.
+
+---
+
 ## Related
 
 - [[Jensen Huang]] — CEO and founder
@@ -669,3 +675,4 @@ Market positioning (Dec 2025):
 - [[DeepSeek]] — Chinese AI lab; technical assistance allegations (Jan 2026)
 - [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
 - [[Hyperscaler chip roadmap]] — custom silicon competition (TPU, Trainium, Maia)
+- [[India AI Impact Summit 2026]] — [[Jensen Huang]] withdrew Feb 14 ("unforeseen circumstances")

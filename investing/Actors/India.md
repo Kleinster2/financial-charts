@@ -171,6 +171,32 @@ Companies:
 - [[HDFC Bank]], [[ICICI Bank]] — top banks
 - [[TCS]], [[Infosys]] — IT services
 
+Events:
+- [[India AI Impact Summit 2026]] — first Global South AI summit (Feb 2026)
+
 ---
 
-*Created 2026-01-10 · Updated 2026-02-08*
+## February 2026: India AI Impact Summit
+
+[[India]] hosted the [[India AI Impact Summit 2026]] (Feb 16–20) at Bharat Mandapam, New Delhi — the **first AI summit held in the developing world**. 250,000+ visitors, 840+ exhibitors, 100+ countries, 15–20 heads of government.
+
+**Government AI push:**
+- **$1.1B** earmarked for state-backed VC fund targeting AI and advanced manufacturing startups
+- **$18B** in semiconductor projects approved to build domestic chip supply chain
+- Sovereign LLM push: [[Sarvam AI]] and [[IIT Bombay]]-led **BharatGen** unveiling sovereign LLMs
+- Application-led innovation over frontier model development (Economic Survey Jan 2026)
+
+**Foreign investment commitments:**
+- [[Google]], [[Microsoft]], [[Amazon]]: combined **$68B** in AI/cloud infrastructure through 2030
+- [[Adani Group]]: **$100B** AI data centers with renewable energy by 2035
+- [[Blackstone]]: majority stake in Neysa ($600M equity + $600M debt, 20,000+ GPUs)
+- [[Anthropic]]: first [[India]] office in Bengaluru, [[Infosys]] partnership
+- [[AMD]] + [[TCS]]: Helios rack-scale AI infrastructure
+
+**User scale:** [[India]] is [[OpenAI]]'s #2 market (100M+ weekly [[ChatGPT]] users) and [[Anthropic]]'s #2 market for [[Claude]].
+
+**Notable absence:** [[Jensen Huang]] ([[NVIDIA]]) withdrew Feb 14, "unforeseen circumstances."
+
+---
+
+*Created 2026-01-10 · Updated 2026-02-17*

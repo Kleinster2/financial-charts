@@ -412,6 +412,12 @@ Amazon deploys strategic investments through several entities:
 
 ---
 
+## February 2026: India AI infrastructure commitment
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Amazon]] was part of a combined **$68B commitment** with [[Google]] and [[Microsoft]] for AI and cloud infrastructure in [[India]] through 2030.
+
+---
+
 ## Related
 
 - [[Anthropic]] — $8B investor, primary cloud partner
@@ -438,3 +444,4 @@ Amazon deploys strategic investments through several entities:
 - [[Agility Robotics]] — Digit humanoid robot partner
 - [[Kiva Systems]] — acquired 2012 ($775M), became Amazon Robotics
 - [[Amazon bonds]] — $68.8B bond inventory (AA, record-low spreads)
+- [[India AI Impact Summit 2026]] — part of $68B combined commitment (with [[Google]], [[Microsoft]]) for AI/cloud in [[India]] through 2030

@@ -413,6 +413,12 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 
 ---
 
+## February 2026: India AI infrastructure commitment
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Microsoft]] was part of a combined **$68B commitment** with [[Google]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030.
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — Tier 1 spender
@@ -429,3 +435,4 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 - [[GPU deployment bottleneck]] — Satya's "can't plug in" quote
 - [[Tax Cuts and Jobs Act]] — ~$130B repatriation (2018)
 - [[Microsoft bonds]] — $46.2B bond inventory (AAA/Aaa, deleveraging)
+- [[India AI Impact Summit 2026]] — part of $68B combined commitment (with [[Google]], [[Amazon]]) for AI/cloud in [[India]] through 2030

@@ -345,6 +345,18 @@ All three had previously worked at OpenAI before joining Murati's startup.
 
 ---
 
+## February 2026: India market dominance
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Sam Altman]] revealed [[India]] has **100M+ weekly active [[ChatGPT]] users** — second only to the US and up from 72M+ daily in late 2025. [[India]] is also [[OpenAI]]'s largest student user base globally. US AI labs are racing for Indian users and training data via free tiers, with no major domestic chatbot rival yet.
+
+| Detail | Value |
+|--------|-------|
+| India WAU | 100M+ (Feb 2026, per [[Sam Altman]]) |
+| Global rank | #2 after US |
+| Student users | Largest globally |
+
+---
+
 ## Related
 
 - [[AI extensibility]] — GPT Store marketplace approach
@@ -373,3 +385,5 @@ All three had previously worked at OpenAI before joining Murati's startup.
 - [[Peter Steinberger]] — personal agents lead (joined Feb 2026, [[OpenClaw]] creator)
 - [[OpenClaw]] — open-source agent platform, moving to foundation (Feb 2026)
 - [[PSPDFKit]] — Steinberger's previous company
+- [[India AI Impact Summit 2026]] — 100M+ WAU in India, largest student base
+- [[India]] — #2 market globally

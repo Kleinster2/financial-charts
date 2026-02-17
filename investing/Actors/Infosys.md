@@ -89,6 +89,21 @@ aliases: [INFY]
 
 ---
 
+## February 2026: Anthropic enterprise partnership
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Infosys]] announced a partnership with [[Anthropic]] to deploy [[Claude]] models and [[Claude Code]] for Indian enterprises. The partnership starts with the telecom sector and includes a dedicated **Anthropic Center of Excellence** within [[Infosys]]. This positions Infosys as [[Anthropic]]'s primary channel partner in [[India]] for enterprise AI agent deployment.
+
+| Detail | Value |
+|--------|-------|
+| Partner | [[Anthropic]] |
+| Products | [[Claude]], [[Claude Code]] |
+| Initial sector | Telecom |
+| Structure | Anthropic Center of Excellence |
+
+**Strategic read:** Infosys pivoting from labor-arbitrage to AI-implementation-as-a-service — exactly the bull case articulated during the [[Claude Cowork disruption February 2026|Claude Cowork selloff]].
+
+---
+
 ## Related
 
 - [[Claude Cowork disruption February 2026]] — catalyst for Feb 2026 selloff
@@ -96,4 +111,8 @@ aliases: [INFY]
 - [[HCL Tech]] — competitor (same exposure)
 - [[Regions/Asia|Asia]] — regional hub
 - [[India AI]] — country context
+- [[Anthropic]] — enterprise AI partnership (Feb 2026)
+- [[India AI Impact Summit 2026]] — Anthropic partnership announcement
+- [[Claude]] — deployed via Infosys for Indian enterprises
+- [[Claude Code]] — enterprise agent deployment
 

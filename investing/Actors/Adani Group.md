@@ -76,6 +76,19 @@ Stock has largely recovered; debt restructured.
 
 ---
 
+## February 2026: $100B AI data center commitment
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Adani Group]] announced a **$100B commitment for AI data centers** with renewable energy in [[India]] by 2035. The group expects an additional **$150B** in supporting industries including server manufacturing, cloud platforms, and electrical infrastructure.
+
+| Detail | Value |
+|--------|-------|
+| AI DC commitment | $100B by 2035 |
+| Energy | Renewable |
+| Supporting industries | $150B additional expected |
+| Areas | Server manufacturing, cloud platforms, electrical infrastructure |
+
+---
+
 ## Related
 
 ### Regions
@@ -84,7 +97,8 @@ Stock has largely recovered; debt restructured.
 ### Sectors
 - [[Infrastructure]] — core business
 - [[Renewable Energy]] — growth area
+- [[India AI Impact Summit 2026]] — $100B AI data center commitment
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 · Updated 2026-02-17*

@@ -199,6 +199,18 @@ See [[CES 2026]] for event context.
 
 ---
 
+## February 2026: TCS Helios partnership (India)
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[AMD]] announced a partnership with [[TCS]] to develop rack-scale AI infrastructure on AMD's "Helios" platform — extending the [[CES 2026]] Helios unveil into [[India]]'s enterprise market.
+
+| Detail | Value |
+|--------|-------|
+| Partner | [[TCS]] |
+| Platform | Helios (rack-scale AI) |
+| Market | [[India]] enterprise |
+
+---
+
 ## Related
 
 - [[Lisa Su]] — CEO
@@ -212,3 +224,5 @@ See [[CES 2026]] for event context.
 - [[CES 2026]] — Helios unveil, Lisa Su keynote
 - [[Lenovo]] — partner (Tech World @ CES)
 - [[Meta]] — Helios built on Meta OCP design
+- [[TCS]] — Helios rack-scale AI partnership (India)
+- [[India AI Impact Summit 2026]] — TCS partnership announcement

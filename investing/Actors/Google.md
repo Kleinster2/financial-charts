@@ -563,6 +563,12 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## February 2026: India AI summit commitment
+
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Google]] was part of a combined **$68B commitment** with [[Microsoft]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030. [[Sundar Pichai]] was a keynote speaker at the summit.
+
+---
+
 ## Related
 
 ### Products
@@ -598,3 +604,4 @@ See [[Short interest]] for interpretation framework.
 - [[Century Bond]] — 100-year sterling bond (Feb 2026), first tech century bond since Motorola 1997
 - [[Michael Burry]] — warned Alphabet century bond mirrors Motorola's 1997 decline
 - [[Morgan Stanley]] — estimates $400B hyperscaler issuance in 2026
+- [[India AI Impact Summit 2026]] — part of $68B combined commitment (with [[Microsoft]], [[Amazon]]) for AI/cloud in [[India]] through 2030; [[Sundar Pichai]] keynote speaker
