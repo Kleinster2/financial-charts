@@ -209,29 +209,222 @@ The cost advantage is **structural but not permanent**. It has multiple layers, 
 
 ### Quadruped → humanoid bridge
 
-Unitree didn't start with humanoids. It spent 2016–2023 perfecting quadruped locomotion — balance, terrain adaptation, dynamic movement, Sim2Real transfer using [[NVIDIA]] Isaac Sim — before launching the H1 humanoid in mid-2023. This sequence matters:
+Unitree didn't start with humanoids. It spent 2016–2023 perfecting quadruped locomotion — balance, terrain adaptation, dynamic movement, Sim2Real transfer using [[NVIDIA]] Isaac Sim — before launching the H1 humanoid in mid-2023. This sequence matters enormously, and may be Unitree's most underappreciated structural advantage.
 
-**Shared engineering stack.** The same actuator technology, control algorithms, and reinforcement learning pipelines developed for the Go/A/B-series quadrupeds directly transfer to humanoids. The H1 uses similar motor-gearbox-encoder assemblies. The Sim2Real pipeline (train in simulation → transfer to physical robot) was battle-tested on thousands of deployed quadrupeds before being applied to bipeds.
+#### 1. Locomotion transfer: algorithms that cross morphologies
 
-**Balance and locomotion expertise.** Quadrupeds are simpler than bipeds (four contact points vs. two), but the core problems — dynamic balance, terrain reaction, gait optimization, fall recovery — are the same mathematical domain. Companies that start directly with humanoids (like [[Figure AI]] or early [[Tesla]] Optimus) have to solve these problems from scratch. Unitree had years of real-world deployment data from 23,700+ quadrupeds shipped by 2024.
+The core control problems in legged locomotion — dynamic balance, contact scheduling, terrain reaction, gait optimization, fall recovery — exist in the same mathematical domain regardless of leg count. Quadrupeds (four contact points) are simpler than bipeds (two), but the algorithmic foundations are shared:
 
-**Speed of iteration.** The H1 set a world-record running speed (3.3 m/s) and was the first full-sized electric biped to do a standing backflip — within ~18 months of launch. The G1 (scaled-down, $16,000) followed in May 2024 and was mass-production-ready by August 2024. This pace only makes sense if you're porting proven locomotion systems, not building from zero.
+**Reinforcement learning pipelines.** Unitree trains locomotion policies using [[Proximal Policy Optimization]] (PPO) in massively parallel simulation environments. Their open-source `unitree_rl_gym` repository (GitHub) supports training for Go2, H1, H1-2, and G1 in a unified framework — the same RL infrastructure handles both quadrupeds and humanoids. Policies are trained in [[NVIDIA]] Isaac Gym (and more recently Isaac Lab) at 200 Hz simulation frequency, then exported as JIT-compiled PyTorch models for zero-shot deployment on physical robots. Unitree also maintains `unitree_rl_lab` (Isaac Lab-based) and `unitree_rl_mjlab` (MuJoCo-based) repositories, reflecting a multi-simulator validation approach.
 
-**Capability ladder.** Quadrupeds → small humanoids (G1, 127cm, 35kg) → full-size humanoids (H1, H2 at 1.8m). Each step builds on the last. The 2026 Spring Festival Gala "Wu BOT" performance (force-controlled weapon strikes, 3-meter aerial flips, cluster repositioning at 4 m/s) demonstrated capabilities that were science fiction 18 months prior.
+**Model Predictive Control (MPC) → RL transition.** Early quadrupeds (A1, 2020) used classical model predictive control for gait generation — convex MPC solving for contact forces at each timestep. The Go2 generation transitioned to learned policies (RL) for locomotion, with MPC as a fallback/safety layer. This same hybrid architecture (RL primary + MPC safety) carried directly to the H1/G1 humanoids. The transition was battle-tested on quadrupeds where failure consequences were lower (a robot dog falling over is a $1,600 problem; a humanoid falling is a $16,000-$90,000 problem).
+
+**Domain randomization.** Unitree's sim-to-real transfer relies heavily on domain randomization — varying physical parameters (friction, mass, motor response delays, terrain geometry) during training so the policy generalizes to real-world conditions. A Stanford CS224R study (2025) trained policies for both the Go2 quadruped and H1-2 humanoid, finding that the randomization strategies developed for quadrupeds transferred effectively to bipeds with minimal tuning. CMU's Tairan He (MSR Thesis, 2025) demonstrated zero-shot sim-to-real transfer of 10 diverse skills on the G1 humanoid, achieving 8× higher generalization success than prior work — built on foundations from quadruped RL.
+
+**Specific algorithmic transfers:**
+- **Contact-implicit trajectory optimization** — developed for quadruped gaits, directly applicable to humanoid walking/running
+- **Terrain-adaptive policies** — trained on procedurally generated terrains for Go2, reused for H1 outdoor locomotion
+- **Whole-body control (WBC)** — coordinating leg joints for balance while upper body performs tasks; the quadruped version (coordinating leg + head camera) is a simpler instance of the humanoid version (legs + arms + manipulation)
+- **Teacher-student distillation** — training a privileged "teacher" policy with full state access in simulation, then distilling to a "student" policy using only onboard sensors; used for both Go2 and G1 deployment
+
+**BumbleBee intelligent control system.** For humanoid-specific motion (dance, martial arts, manipulation), Unitree developed a three-layer "Decomposition–Refinement–Integration" architecture that captures 3D joint kinematic data from human choreography, refines it for physical feasibility, and integrates it with the RL-based locomotion policy. This builds on the motion capture → policy training pipeline originally developed for quadruped agility demonstrations.
+
+#### 2. Shared hardware: the actuator bridge
+
+The M107 joint motor powering the H1/G1 humanoids is not a clean-sheet design — it is a scaled-up evolution of the quadruped actuator architecture:
+
+| Feature | Quadruped actuator (Go2) | Humanoid actuator (M107) | Design continuity |
+|---------|--------------------------|--------------------------|-------------------|
+| Motor type | Outrunner BLDC PMSM | Inner-rotor PMSM | Same motor family, different topology |
+| Reduction | Single-stage planetary (~6.2:1) | Planetary (ratio varies by joint) | Same gearbox philosophy |
+| Electronics | Integrated FOC controller | Integrated FOC controller | Same control board lineage |
+| Encoder | Magnetic absolute encoder | Dual encoders (position + velocity) | Enhanced version |
+| Peak torque | 23.7 N·m | 360 N·m (knee), 220 N·m (hip), 75 N·m (arm) | Scaled up by ~15x for legs |
+| Torque density | ~40 N·m/kg (est.) | 189 N·m/kg (claimed) | 4.7x improvement |
+| Shaft design | Solid | Hollow (cable routing) | Humanoid-specific innovation |
+
+The M107 also features in Unitree's B2 industrial quadruped — confirming the hardware bridge between product lines. The hollow shaft design (routing cables through the motor center) was a humanoid-specific innovation, but the underlying PMSM + planetary + integrated FOC architecture is directly descended from 8 years of quadruped actuator refinement.
+
+**Shared compute platforms.** Both quadrupeds and humanoids use [[NVIDIA]] Jetson-series edge compute (Orin NX/AGX) for inference, with commodity ARM SoCs (RockChip RK3588) handling basic I/O. The perception stack — LiDAR, stereo cameras, depth sensors — carries over with minimal modification. Unitree's in-house 4D LiDAR appears in both the B2 quadruped and H1 humanoid.
+
+**Shared sensor suite.** Six-dimensional force sensors developed for quadruped foot contact detection are reused for humanoid feet and (with modifications) for dexterous hand force feedback. The [[Orbbec]] 3D depth cameras (72% of perception procurement) serve both product lines.
+
+#### 3. Timeline advantage: quadruped experience as accelerator
+
+Unitree's prototype-to-mass-production timeline for humanoids is historically unprecedented:
+
+| Company | First humanoid prototype | Mass production | Time to mass production | Prior robotics experience |
+|---------|-------------------------|----------------|------------------------|--------------------------|
+| **Unitree** | H1 (Aug 2023) | G1 mass production (Aug 2024) | **~12 months** | 7 years of quadrupeds (2016–2023) |
+| [[Tesla]] Optimus | Prototype (Sep 2022) | ~1,000 prototypes by mid-2025; targeting external sales 2026+ | **~4+ years and counting** | Zero prior robotics (automotive AI/manufacturing) |
+| [[Figure AI]] | Figure 01 (Mar 2023) | Figure 03 announced; BotQ facility planned | **~3+ years, not yet mass** | Zero prior robotics (founded 2022) |
+| [[Agility Robotics]] | Digit v1 (~2019) | RoboFab opened (2023), limited production | **~4+ years** | Cassie biped research (2017+) |
+| [[1X Technologies]] | NEO prototype (2023) | Not yet mass production | **~3+ years, pre-mass** | EVE wheeled humanoid (2022+) |
+| [[Boston Dynamics]] | Atlas hydraulic (2013) | Electric Atlas (2024), no mass production | **11+ years, still not mass** | Decades of quadrupeds (BigDog, Spot) |
+| [[UBTech]] | Walker (2018) | Walker S2 mass delivery (Nov 2025) | **~7 years** | Consumer/education robots (2012+) |
+
+The contrast is stark. Unitree went from zero humanoid experience to shipping 5,500+ humanoid units in 2025 — in roughly 2 years. No competitor has matched this pace. The quadruped experience is the most plausible explanation:
+
+- **Manufacturing infrastructure** already existed (factory, supply chain, actuator production lines)
+- **RL/control software** required adaptation, not invention from scratch
+- **Hardware design patterns** (actuator standardization, modular assemblies, injection molding) were proven and scalable
+- **Testing and validation** protocols were established
+- **Regulatory and safety frameworks** were understood from quadruped deployments
+
+By contrast, [[Figure AI]] and [[1X Technologies]] — both founded in 2022 with zero prior robotics experience — are still pre-mass-production despite comparable or greater funding ($2.6B for Figure). [[Tesla]] has automotive manufacturing scale but no legged locomotion expertise; Optimus prototypes (~1,000 by mid-2025) are deployed internally only. The quadruped bridge didn't just help Unitree — it gave them a 2-3 year head start on companies that went straight to humanoids.
+
+#### 4. Sim-to-real pipeline: battle-tested on thousands of quadrupeds
+
+Unitree's simulation-to-reality transfer pipeline follows the standard modern approach but benefits from years of quadruped refinement:
+
+**Training stack:**
+1. **Simulation environment:** NVIDIA Isaac Gym (GPU-accelerated parallel simulation, 4,096+ environments simultaneously) or Isaac Lab. MuJoCo used for validation/sim-to-sim transfer.
+2. **Policy architecture:** Typically MLP or transformer-based actor-critic networks. Recent work (ULT, 2025) uses transformer architectures for unified locomotion policies.
+3. **Training algorithm:** PPO (Proximal Policy Optimization) with domain randomization across friction, terrain, mass distribution, motor latency, and sensor noise.
+4. **Reward shaping:** Multi-objective rewards balancing velocity tracking, energy efficiency, joint smoothness, and stability. Lipschitz-constrained policies (Wang et al., 2025) improve smoothness of humanoid locomotion.
+5. **Deployment:** Policies exported as TorchScript JIT modules, running at 50-300 Hz on Jetson edge compute.
+
+**Sim-to-real success rates.** The academic literature using Unitree platforms shows consistently high zero-shot transfer rates — the robot walks/runs in the real world on the first deployment without additional fine-tuning. This is a consequence of extensive domain randomization, which Unitree perfected over years of quadruped deployment. CMU demonstrated zero-shot transfer of 10 diverse skills (including basketball jumpshots and sustained passing) to the G1 humanoid.
+
+**The quadruped advantage:** When sim-to-real transfer fails on a quadruped, the failure mode is typically manageable (robot stumbles, falls from low height). This allowed Unitree engineers to iterate rapidly on their randomization strategies, reward functions, and policy architectures without catastrophic consequences. By the time they applied the same pipeline to humanoids, the engineering was mature.
+
+**[[Lingyun Optical]] motion capture integration.** Unitree uses Lingyun Optical's FZmotion system (sub-millimeter precision) for capturing human motion data used to train humanoid policies via motion imitation RL. The motion capture → retargeting → RL training → sim-to-real pipeline is end-to-end, enabling the Spring Festival Gala performances and Wang Leehom dance collaborations.
+
+#### 5. Competitors who started with humanoids: the cold-start disadvantage
+
+Companies that went straight to bipedal humanoids face several structural disadvantages:
+
+**No revenue during R&D.** [[Figure AI]] ($2.6B raised, zero revenue from robot sales through 2024), [[1X Technologies]] ($500M+ raised), and [[Apptronik]] all burned through venture capital developing humanoids with no commercial product generating cash flow. Unitree's quadruped sales funded humanoid R&D organically — the company has been profitable since 2020.
+
+**No deployed fleet for data.** Unitree had 50,000+ Go1/Go2 units deployed worldwide generating real-world locomotion data — terrain conditions, failure modes, environmental interactions — before building a single humanoid. Competitors starting with humanoids have no equivalent data source. [[Tesla]] partially compensates through FSD driving data (vision/planning transfer), but legs ≠ wheels.
+
+**No battle-tested supply chain.** Unitree's actuator suppliers, injection molding partners, electronics assemblers, and logistics channels were established and optimized for the quadruped business. Spinning up humanoid production was incremental, not greenfield. Figure AI, by contrast, is building its "BotQ" factory from scratch.
+
+**No iterative hardware refinement.** Unitree went through A1 → Go1 → Go2 → B1 → B2 (five quadruped generations) before the H1. Each generation refined the actuator design, control electronics, and manufacturing process. Competitors building their first-ever robot have no iteration history.
+
+**Counterargument: advantages of starting fresh.** Companies like [[Figure AI]] and [[Tesla]] aren't constrained by quadruped-legacy design decisions. They can optimize specifically for humanoid form factors — e.g., Tesla's use of linear actuators (better force-position control for manipulation) vs. Unitree's rotary actuator heritage. Figure's focus on whole-body manipulation (BMW factory deployment) addresses use cases that quadruped-first companies may not prioritize. And [[Tesla]]'s automotive-scale manufacturing expertise could eventually overwhelm Unitree's volume advantage — if they achieve millions of units.
+
+#### 6. Academic backing and research ecosystem
+
+Unitree robots have become the **de facto standard platform** for academic legged locomotion research, creating a virtuous cycle of published improvements:
+
+**Key papers and projects using Unitree platforms:**
+- "Learning Agile Robotic Locomotion Skills by Imitating Animals" (RSS 2020) — DeepMimic-style objectives on Unitree quadruped; foundational for motion imitation RL
+- "MASQ: Multi-Agent Reinforcement Learning for Single Quadruped Robot Locomotion" (2024) — novel multi-agent RL framework validated on Go2
+- "Unified Locomotion Transformer" (ULT, 2025) — transformer-based unified framework for simultaneous teacher-student optimization, deployed on Unitree A1 with zero-shot sim-to-real
+- "Learning Smooth Humanoid Locomotion through Lipschitz-Constrained Policies" (2025) — validated on H1, Berkeley Humanoid, and G1
+- "SoFTA: Learning Gentle Humanoid Locomotion and End-Effector Control" (2025) — whole-body control for G1 humanoid, trained in Isaac Gym
+- CMU MSR Thesis (Tairan He, 2025) — 10-skill zero-shot sim-to-real transfer on G1
+- Stanford CS224R (2025) — domain randomization study on Go2 and H1-2
+
+**University adoption.** Unitree's EDU variants are purchased by robotics labs globally. Per 36Kr, hundreds of university procurement orders (mostly ¥100K-500K range) have been disclosed. The Go2 EDU and G1 EDU are used at Stanford, CMU, MIT, ETH Zurich, University of Trento, and dozens of Chinese universities (ZJU, Tsinghua, PKU, SJTU). The low price point ($8,000-$16,000 for research-grade robots vs. $75,000+ for Spot) makes Unitree accessible to labs that could never afford [[Boston Dynamics]].
+
+**Published book.** Unitree published "Quadruped Robot Control Algorithm — Modeling, Control and Practice" with accompanying open-source code (`unitreerobotics/Quadruped-robot-control-algorithm`), establishing intellectual credibility and training the next generation of engineers on their platform.
+
+**The research flywheel:** More academic papers → more researchers trained on Unitree platforms → more talent available for Unitree or competitors using their ecosystem → more published improvements that Unitree can incorporate → more citations attracting more researchers. This is identical to how [[NVIDIA]] GPUs became the standard ML training platform — a community lock-in effect that compounds over time.
 
 ### Go-to-market: volume first, enterprise second
 
-Unitree's GTM is the opposite of Boston Dynamics (enterprise/government first) or Figure AI (factory automation first):
+Unitree's GTM is the opposite of [[Boston Dynamics]] (enterprise/government first) or [[Figure AI]] (factory automation first). It's a textbook [[Clayton Christensen]] disruption pattern — start cheap, build volume, improve, move upmarket — executed with unusual discipline.
 
-**Consumer/education/research → enterprise/industrial.** The Go1 (2021, ~$2,700) was the world's first consumer-grade robot dog. Go2 ($1,600) pushed further. G1 humanoid at $16,000 targets education and prosumers. This creates:
-- **Volume** → manufacturing scale → cost reduction flywheel
-- **Developer ecosystem** → open SDK, thousands of researchers using Unitree robots → community-driven improvements
-- **Real-world data** → deployed robots generate locomotion data at scale
-- **Brand awareness** → viral moments (Spring Festival Gala, Super Bowl, Olympics) drive demand
+#### 1. Consumer-first approach: why sell $1,600 robot dogs?
 
-**Then move upmarket.** The B2 ($20,000, industrial-grade, waterproof) serves power grid inspection, fire response, hazardous environments. [[BYD]] and [[Geely]] deploy Unitree humanoids on production lines. This is the classic Christensen disruption pattern: enter low-end, improve, and expand into incumbent territory.
+The Go1 (2021, ~$2,700) was the world's first consumer-grade robot dog. Go2 ($1,600) pushed further. R1 humanoid at $5,900 (Jul 2025) brought humanoids to consumer price points. This strategy looks irrational if you think robots are enterprise products. It's brilliant if you understand the flywheel it creates:
 
-**Revenue mix (2024 IPO filing data).** ~65% robot dogs, ~30% humanoids, ~5% other. Robot dogs are the cash cow; humanoids are the growth vector.
+**Volume → cost reduction.** 23,700 quadrupeds in 2024 (~70% global market share) drives actuator production to 284,400+/year. This volume creates commodity pricing that no competitor can match. Every unit sold reduces per-unit cost for the next one.
+
+**Real-world deployment data.** 50,000+ Go1/Go2 units deployed worldwide generate continuous locomotion data across diverse environments — pavement, grass, stairs, rain, snow, indoor/outdoor transitions. This is the equivalent of [[Tesla]]'s FSD data flywheel but for legs. Competitors shipping hundreds of units can't match this data density.
+
+**Developer ecosystem → community-driven improvements.** Open SDK means thousands of researchers and hobbyists building on Unitree platforms, publishing papers, filing bug reports, and creating content. Each paper that uses a Go2 or G1 is free R&D for Unitree.
+
+**Brand awareness through virality.** $1,600 robots get into the hands of YouTubers, TikTokers, and hobbyists who create viral content. The Spring Festival Gala performances (2025 YangBOT, 2026 Wu BOT), CES appearances, and Super Bowl-adjacent demos drive consumer awareness that enterprise-only companies can never generate. Wang Xingxing understands this: he met [[Xi Jinping]] weeks after the 2025 gala performance.
+
+**Feedback loops for product improvement.** Consumer buyers are unforgiving — they expect things to work out of the box, post reviews publicly, and return defective units. This forces quality discipline that enterprise-only companies (where a dedicated support engineer masks product issues) never develop.
+
+#### 2. Education market: the EDU variant strategy
+
+The EDU variant is Unitree's cleverest business model innovation. The Go2 EDU ($8,000-$12,000) is essentially identical hardware to the Go2 Air ($1,600) with a better compute module (NVIDIA Jetson vs. RockChip) and full SDK access. The $6,000-$10,000 premium is almost pure software margin.
+
+**University procurement.** Per 36Kr, hundreds of disclosed university orders, mostly ¥100K-500K ($14K-$70K) per order. Known institutional buyers include Stanford, CMU, MIT, ETH Zurich, University of Trento, and dozens of Chinese universities (ZJU, Tsinghua, PKU, SJTU, Harbin Institute of Technology). The Go2 EDU is now the default quadruped research platform globally, displacing [[Boston Dynamics]] Spot ($75,000+) in budget-constrained labs.
+
+**G1 EDU humanoid.** The G1 EDU ($16,000-$30,000 depending on variant) targets humanoid research labs. At 127cm/35kg with 43 DOF, it's small enough for safe indoor research while having enough complexity for serious locomotion/manipulation work. The U2 advanced variant includes dexterous hands. This price point opens humanoid research to hundreds of labs that couldn't afford the H1 ($90,000) or any competitor's humanoid.
+
+**The education-to-enterprise pipeline.** Researchers trained on Unitree platforms in grad school bring that familiarity to industry jobs. This is the same dynamic that made MATLAB, [[NVIDIA]] CUDA, and Python dominant — education adoption creates generational lock-in.
+
+**International vs. domestic split.** Roughly 80% of quadruped sales are in research, education, and consumer markets (per 36Kr IPO filing data). International sales are growing — the Go2 is sold on Amazon, through distributors in Europe/Japan/Korea, and via Unitree's own website. The $1,600 price point makes international shipping economics viable (robot + shipping < $2,000 to most destinations).
+
+#### 3. Developer ecosystem: open by design
+
+Unitree's developer ecosystem is structurally open — the polar opposite of [[Boston Dynamics]]' locked-down approach:
+
+**Open-source repositories.** Unitree maintains 30+ public GitHub repositories under `unitreerobotics/`, covering:
+- `unitree_rl_gym` — RL training for Go2, H1, H1-2, G1 (Isaac Gym)
+- `unitree_rl_lab` — Isaac Lab-based RL training
+- `unitree_rl_mjlab` — MuJoCo-based RL training
+- `unitree_ros2` — ROS2 SDK based on CycloneDDS (supports Go2, B2, H1)
+- `unitree_sim_isaaclab` — full Isaac Lab simulation environments
+- `unitree_IL_lerobot` — imitation learning framework for G1 dexterous hands using HuggingFace LeRobot
+- `xr_teleoperate` — XR device teleoperation for humanoids
+- Published book code: "Quadruped Robot Control Algorithm"
+
+**ROS2 native support.** SDK2 implements robot communication via CycloneDDS (the ROS2 default DDS implementation). Third-party community packages (e.g., `go2_ros2_sdk` with 200+ stars) extend support further. The Go2 and G1 are rated "Best Overall Developer Experience" and "Best Humanoid SDK" respectively by AwesomeRobots (2025 comparison).
+
+**Comparison to [[Boston Dynamics]].** Spot's SDK requires a licensed "Spot SDK" with restricted API access, commercial terms, and no low-level motor control. You cannot train your own RL policies and deploy them on Spot without significant workarounds. Unitree provides low-level joint torque/position/velocity control out of the box on EDU variants. This openness is why academics overwhelmingly choose Unitree — the robot is a research tool, not a black box.
+
+**Community size.** The `unitree` GitHub topic aggregates 100+ community repositories. The `awesome-unitree-robots` curated list (2026) catalogs dozens of projects across simulation, motion control, RL, vision, and manipulation. Multiple active Discord/WeChat communities exist for developers.
+
+#### 4. Enterprise migration: from toys to factories
+
+The upmarket migration is now underway:
+
+**Automotive factory deployments.** [[Great Wall Motors]] announced a strategic partnership with Unitree (Apr 2025, Shanghai Stock Exchange filing) to develop humanoid and quadruped robots for auto production lines. [[BYD]] and [[Geely]] have deployed Unitree humanoids on production lines (CNBC, Sep 2025). Note: BYD and Geely also work with [[UBTech]] (Walker S2 series), so Unitree faces competition even in its home market for factory deployments.
+
+**What robots do in factories.** Current factory deployments are narrow-scope: quality inspection (walking through production lines with cameras/sensors), parts transport (moving components between stations), and simple assembly assistance. Full autonomous manipulation on production lines remains aspirational — the gap between "robot walks around factory" and "robot replaces assembly worker" is still enormous. BYD's commitment to 20,000 humanoid robot units by 2026 (per Axis Intelligence) signals confidence, but most units will likely serve inspection/patrol roles initially.
+
+**China Mobile procurement.** In Jun 2025, Unitree won a ¥46M procurement package from China Mobile (Hangzhou) for small-sized humanoid robots, computing power backpacks, and dexterous hands — part of a ¥120M total humanoid procurement (the largest single tender order in China at the time). This signals telecom/infrastructure enterprise demand.
+
+**Industrial quadruped (B2).** The B2 ($20,000, IP67 waterproof) serves power grid inspection, fire response, hazardous environments, and construction site monitoring. This is the mature enterprise product — the B2's use cases are proven and repeatable, unlike humanoid factory deployments which remain early-stage.
+
+#### 5. Channel strategy: omnichannel at every price point
+
+**Direct sales.** unitree.com for international orders. Chinese domestic sales via direct website + Taobao/Tmall/JD.com storefronts.
+
+**Distributors.** Network of regional distributors in Europe, Japan, South Korea, and Southeast Asia. Top3DShop, QUADRUPED Robotics (Germany), and others serve as authorized resellers with local support.
+
+**Amazon.** Go2 Air available on Amazon in multiple markets — the ultimate signal of consumer-grade positioning. No other humanoid/quadruped company sells on Amazon.
+
+**Enterprise direct.** Large procurement deals (China Mobile, Great Wall Motors, BYD) handled through direct enterprise sales and government procurement channels.
+
+**Rental market.** A secondary rental market has emerged in China — daily rental prices dropped from ¥10,000 to ~¥3,000 (per 36Kr), suggesting oversupply at current volumes but also indicating experimentation-stage demand from companies testing use cases before committing to purchase.
+
+#### 6. Christensen disruption pattern: where Unitree sits on the curve
+
+Mapping Unitree against [[Clayton Christensen]]'s classic disruption framework:
+
+| Phase | Christensen pattern | Unitree trajectory |
+|-------|--------------------|--------------------|
+| **Entry** | Enter low-end market ignored by incumbents | Go1 at $2,700 (2021): consumer robot dog. [[Boston Dynamics]] didn't compete here — Spot was $75,000+ for enterprise |
+| **Foothold** | Establish volume and cost advantage in low-end | Go2 at $1,600 (2023): 23,700 units/year, 70% global share. No competitor can match price |
+| **Improvement** | Incrementally improve product, move upmarket | B2 at $20,000 (industrial); G1 at $16,000 (education humanoid); H1 at $90,000 (research); R1 at $5,900 (consumer humanoid) |
+| **Enterprise invasion** | Product becomes "good enough" for mainstream enterprise | Great Wall Motors, BYD, China Mobile partnerships (2025). Factory deployments beginning |
+| **Incumbent disruption** | Incumbents lose core markets | ❌ **Not yet here.** Boston Dynamics' Spot still superior for harsh industrial environments. Figure/Tesla targeting enterprise from day one |
+
+**Current position: Phase 3-4 transition.** Unitree has a dominant foothold in consumer/education and is actively invading enterprise. The critical question is whether humanoid capabilities improve fast enough to threaten [[Boston Dynamics]]' enterprise install base and preempt [[Tesla]]'s manufacturing-scale entry. The R1 at $5,900 (Jul 2025) — a full humanoid at consumer electronics pricing — is the most aggressive Christensen move yet.
+
+**The disruption risk for incumbents:** [[Boston Dynamics]] faces the classic "good enough from below" threat. If Unitree's industrial robots reach 80% of Spot's capability at 20% of the price, enterprise buyers will switch. [[Boston Dynamics]] can't cost-reduce to match without abandoning its harmonic-drive, machined-aluminum architecture — the classic innovator's dilemma.
+
+#### 7. Revenue mix evolution
+
+| Period | Robot dogs | Humanoids | Components/other | Notes |
+|--------|-----------|-----------|-----------------|-------|
+| 2020-2022 | ~95% | ~0% | ~5% | Pure quadruped company |
+| 2023 | ~85% | ~10% | ~5% | H1 launches, initial research sales |
+| 2024 | ~65% | ~30% | ~5% | G1 mass production; 1,500+ humanoids shipped |
+| 2025 (est.) | ~50% | ~45% | ~5% | 5,500+ humanoids shipped; R1 at $5,900 drives consumer humanoid volume |
+
+The shift is dramatic — humanoids went from 0% to an estimated 45% of revenue in just 2 years. Quadrupeds remain the cash cow (stable demand, high margins, proven use cases) while humanoids are the growth vector. By 2027, humanoids will likely exceed quadruped revenue if current trajectory holds.
+
+**Revenue scale.** Annual revenue exceeded 1B yuan (~$140M) by mid-2025 (Wang Xingxing at Summer Davos). Q1 2025: 3.27B yuan revenue, 480M yuan net profit (~14.7% net margin). The company targets ~$7B IPO valuation on Shanghai [[STAR Market]] mid-2026 — implying ~50x forward P/E if profits grow at current pace, or ~15-20x forward revenue. Expensive by traditional metrics, but in line with Chinese tech IPO premiums and the humanoid robotics narrative.
 
 ### Hangzhou/ZJU ecosystem
 
