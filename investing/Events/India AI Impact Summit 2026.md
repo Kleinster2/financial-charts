@@ -63,9 +63,13 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | C2i | $15M Series A from [[Peak XV]] for data center power solutions |
 | Sarvam | Teased "Sarvam Kaze" smart glasses — AI devices designed and built in India |
 | Cartesia / Blue Machines | Voice AI deployment for Indian enterprises with local data residency |
-| [[Google]] | "America-India Connect" subsea cable initiative (India↔Singapore, South Africa, Australia + 4 US-India fiber routes); Vizag AI Hub (₹1.25L cr, gigawatt-scale); $60M in AI grants; DeepMind national partnerships; AI skilling for 20M+ public servants |
+| [[Google]] | "America-India Connect" subsea cable initiative (India↔Singapore, South Africa, Australia + 4 US-India fiber routes); Vizag AI Hub (₹1.25L cr / ~$15B, gigawatt-scale); $60M in AI grants; DeepMind national partnerships; AI skilling for 20M+ public servants |
+| [[Microsoft]] | On pace to invest $50B by 2030 for "Global South" AI expansion (atop $17.5B India commitment from 2025) |
 | [[Nvidia]] | Partnerships with Yotta, L&T, E2E Networks for AI cloud infra; Nemotron/NeMo access; AI-powered factory partnerships with Siemens, Cadence, Synopsys |
+| [[Yotta Data Services]] | $2B spend on Nvidia's latest chips for AI computing hub; raising up to $1.2B ahead of potential IPO |
 | [[OpenAI]] | Education partnerships with IIT-Delhi, IIM-A, AIIMS, Manipal + ed-tech (PhysicsWallah, upGrad, HCL GUVI); 100K students to benefit |
+| India govt | 20,000 GPUs to be added to existing 38,000 national AI compute base (Vaishnaw); Guinness World Record for 250,946 "Responsible AI" pledges in 24 hours |
+| [[Sarvam AI]] | Unveiled India-tailored AI model (competitor to ChatGPT/Claude for Indian market) |
 
 ---
 
@@ -136,12 +140,24 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **Guardian framing**: "battle between AI colonialism from US tech firms and techno-Gandhism" — summit as first AI summit in Global South
 - **Yoshua Bengio** (AI godfather) warned AI safety progress lagging behind capability advances, urged world leaders to intervene
 - **Sriram Krishnan** (White House AI adviser) — highest-ranked US representative; no senior White House delegation sent
+- **Microsoft**: on pace to invest **$50B by 2030** for Global South AI expansion (atop $17.5B India commitment from 2025)
+- **Yotta Data Services**: $2B spend on latest Nvidia chips for AI computing hub; raising up to $1.2B ahead of potential IPO
+- **Sarvam AI** unveiled India-tailored AI model positioned as local alternative to ChatGPT/Claude
+- **Vaishnaw: 20,000 GPUs** to be added to India's existing 38,000 national compute base
+- **Guinness World Record**: 250,946 valid "Responsible AI" pledges in 24 hours (Feb 16–17)
+- **Crown Prince of Abu Dhabi** arrived for summit
+- **PM Modi held 9 bilateral meetings** with world leaders and business executives
+- **Summit schedule change**: expo extended to Saturday Feb 21 for public; Bharat Mandapam **closed to public Thu Feb 19** (leaders-only day)
 
-### Day 4 — Feb 19 (Wed): PM Modi inaugural address
-- Modi to deliver official inaugural address and likely host CEO roundtable
+### Day 4 — Feb 19 (Thu): Leaders' day (closed to public)
+- PM Modi inaugural address and CEO roundtable expected
+- Modi-Macron bilateral; Bharat Mandapam closed to general public
 
-### Day 5 — Feb 20 (Thu): CEO day
+### Day 5 — Feb 20 (Fri): CEO day
 - Modi-Macron co-appearance; Pichai, Altman, Amodei, Hassabis sessions expected
+
+### Day 6 — Feb 21 (Sat): Extended expo day
+- Expo reopened to public due to overwhelming demand
 
 ---
 
