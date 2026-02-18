@@ -5,7 +5,7 @@ tags: [actor, startup, ai, design]
 
 #actor #startup #ai #design
 
-**Flora** — node-based generative AI design tool. Unifies fragmented AI creative tools into a single platform. Pitched as "the next [[Adobe]]" for the generative era.
+**Flora** — node-based generative AI design tool. Unifies fragmented AI creative tools into a single platform. Pitched as "the next [[Adobe]]" for the generative era — or the [[Figma]] for AI workflows.
 
 ---
 
