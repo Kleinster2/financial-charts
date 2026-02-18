@@ -19,8 +19,8 @@ Voice AI company. Founded 2022. Industry leader in speech synthesis and voice cl
 |--------|-------|
 | Founded | 2022 |
 | HQ | New York / London |
-| Funding | $100M+ |
-| Valuation | $1B+ (unicorn) |
+| Funding | ~$700M+ |
+| Valuation | **$11B** (Series D, Feb 2026) |
 | Focus | Voice synthesis, cloning |
 
 ---
@@ -31,7 +31,11 @@ Voice AI company. Founded 2022. Industry leader in speech synthesis and voice cl
 |-------|------|--------|
 | Seed | 2023 | $2M |
 | Series A | Jan 2023 | $19M |
-| Series B | Jan 2024 | $80M |
+| Series B | Jan 2024 | $80M | |
+| Series C | 2024 | ~$100M | |
+| **Series D** | **Feb 4, 2026** | **$500M** | **[[Sequoia Capital]] (lead)**, [[Lightspeed Venture Partners]], Evantic Capital, [[a16z]], [[Iconiq]] |
+
+Andrew Reed ([[Sequoia Capital]]) joined board. $11B valuation — 11x growth from unicorn status.
 
 ---
 
@@ -50,3 +54,7 @@ Voice AI company. Founded 2022. Industry leader in speech synthesis and voice cl
 - [[ElevenLabs]] — product
 - [[Suno]] — audio AI peer
 - [[Generative AI]] — category
+- [[Sequoia Capital]] — Series D lead
+- [[a16z]] — investor
+- [[Iconiq]] — investor
+- [[Lightspeed Venture Partners]] — Series D investor
