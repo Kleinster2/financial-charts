@@ -41,11 +41,18 @@ Andrew Reed ([[Sequoia Capital]]) joined board. $11B valuation — 11x growth fr
 
 ## Products
 
-- [[ElevenLabs]] — voice synthesis platform
-- Voice cloning
-- AI dubbing
-- Conversational AI agents
-- Eleven Music
+- **Voice synthesis platform** — text-to-speech, voice cloning, AI dubbing
+- **Conversational AI agents** — voice-first AI interactions
+- **Eleven Music** — AI music generation
+- **Iconic Voice Marketplace** (Nov 2025) — brands legally license AI-replicated voices of celebrities and historical figures for ads, entertainment, branded storytelling
+
+### Iconic Voice Marketplace
+
+Launched Nov 2025 at ElevenLabs Summit. 28 initial voices including Michael Caine, Maya Angelou, Alan Turing, Mark Twain. Solves the ethical/legal dilemma of AI voice cloning — rights holders license their voice IP, brands pay to use it. Revenue share model.
+
+[[Matthew McConaughey]] invested in ElevenLabs alongside the marketplace launch.
+
+**Strategic significance:** Creates a two-sided marketplace for voice IP — similar to how music licensing works but for AI-generated speech. First-mover advantage in defining the legal framework for celebrity voice licensing. As voice AI proliferates, this could become the standard clearinghouse.
 
 ---
 
