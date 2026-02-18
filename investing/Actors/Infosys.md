@@ -106,7 +106,7 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Infosys]] announced a pa
 
 Stock rose **+2.8%** on the announcement, outperforming Indian IT peers — though still **-17% month-to-date** from [[Claude Cowork disruption February 2026|AI disruption fears]].
 
-**Strategic read:** Infosys pivoting from labor-arbitrage to AI-implementation-as-a-service — exactly the bull case articulated during the [[Claude Cowork disruption February 2026|Claude Cowork selloff]]. The irony: partnering with the same company whose product caused the selloff.
+**Strategic read:** Five weeks after [[Claude Cowork disruption February 2026|Claude Cowork]] triggered a -7.4% two-day selloff on fears that AI agents would automate Indian IT's labor-arbitrage model, Infosys announces a major partnership with the same company whose product caused the panic. The pivot: from *doing the work* to *implementing the AI that does the work*. Infosys becomes Anthropic's distribution channel into regulated enterprises, using domain expertise and client relationships as the moat instead of cheap labor. The open question is whether margins on "AI implementation services" approach the margins on having 300K people doing the work directly.
 
 *Source: WSJ (Feb 17, Kosaku Narioka)*
 
