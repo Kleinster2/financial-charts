@@ -168,6 +168,20 @@ Challenges:
 Bull thesis: Robotaxi = $5T+ market opportunity if Tesla solves autonomy
 Bear thesis: Perpetually "next year" — FSD promised since 2016
 
+### California Autopilot ruling (Feb 2026)
+
+California DMV ruled (Dec 2025) that Tesla's use of "Autopilot" and "Full Self-Driving" branding was misleading and violated state law. Judge found Tesla's naming followed "a long but unlawful tradition of intentionally using ambiguity to mislead consumers."
+
+| Detail | Value |
+|--------|-------|
+| Original penalty | 30-day suspension of manufacturer + dealer licenses |
+| Final outcome | Suspension stayed; 60 days to stop using "Autopilot" |
+| Tesla response | Removed "Autopilot" branding in California (Feb 2026) |
+| Broader action | Discontinued Autopilot nationwide in Jan 2026 |
+| FSD change | Moved to subscription-only ($99/mo), eliminated $8,000 purchase option |
+
+California is Tesla's largest US market. The subscription pivot (coinciding with compliance deadline Feb 14) reframes FSD as recurring revenue — forces driver engagement and may boost adoption vs one-time purchase barrier.
+
 ---
 
 ## Energy / Megapack

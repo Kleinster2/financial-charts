@@ -3,7 +3,7 @@ aliases: [CDNS]
 ---
 #actor #semiconductor #eda #usa #public
 
-**Cadence Design Systems** — \#2 EDA company. Custom IC design leader. Duopoly with Synopsys.
+Cadence Design Systems — \#2 EDA company. Custom IC design leader. Duopoly with Synopsys.
 
 ---
 
@@ -15,8 +15,8 @@ Critical chip design infrastructure:
 |--------|-------|
 | Ticker | CDNS |
 | Market cap | ~$75B |
-| Revenue | ~$4.5B |
-| Margin | 30%+ operating |
+| Revenue | ~$5.3B |
+| Margin | ~45% operating |
 | Position | \#2 EDA |
 
 ---
@@ -35,7 +35,7 @@ Critical chip design infrastructure:
 
 ## Virtuoso dominance
 
-**Analog/mixed-signal:**
+Analog/mixed-signal:
 - Industry standard for analog design
 - Used by every major chipmaker
 - Decades of entrenchment
@@ -45,7 +45,7 @@ Critical chip design infrastructure:
 
 ## Hardware verification
 
-**Emulation/prototyping:**
+Emulation/prototyping:
 - [[Palladium]] (emulation)
 - Protium (prototyping)
 - Faster chip verification
@@ -67,7 +67,7 @@ Duopoly = pricing power.
 
 ## AI angle
 
-**AI chip design:**
+AI chip design:
 - More complex chips = more EDA
 - AI-assisted design tools (Cadence Cerebrus)
 - Emulation demand for AI chips
@@ -75,16 +75,37 @@ Duopoly = pricing power.
 
 ---
 
+## Q4 FY2025 earnings (Feb 17, 2026)
+
+| Metric | Q4 2025 | FY 2025 |
+|--------|---------|---------|
+| Revenue | $1.44B (+6.2% YoY) | $5.30B (+14% YoY) |
+| Non-GAAP EPS | $1.99 (beat $1.91 est) | — |
+| Operating margin | — | 44.6% |
+| Backlog | — | $7.8B (record) |
+| Operating cash flow | $554M (+25% YoY) | — |
+| Stock reaction | +7% AH | — |
+
+Key highlights:
+- Core EDA revenue grew 13% in 2025; recurring software reaccelerated to double-digit growth in Q4
+- Hardware business delivered record year — 30+ new customers, substantially higher repeat demand from AI and hyperscalers
+- IP business saw ~25% revenue growth in 2025, driven by AI, HPC, and automotive
+- 7 of top 10 customers in 2025 were "Dynamic Duo" (EDA + hardware) customers
+
+FY2026 guidance: Revenue $5.9-6.0B, non-GAAP operating margin 44.75-45.75%, non-GAAP EPS $8.05-8.15, operating cash flow ~$2B. Pending [[Hexagon]] design/engineering acquisition not included.
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - Duopoly with Synopsys
 - Virtuoso moat
 - AI chip boom beneficiary
 - High switching costs
 - Recurring revenue
 
-**Bear:**
+Bear:
 - Synopsys+Ansys = bigger competitor
 - High valuation
 - [[China]] concerns
@@ -98,10 +119,10 @@ Duopoly = pricing power.
 |--------|-------|
 | Ticker | CDNS |
 | Market cap | ~$75B |
-| Revenue | ~$4.5B |
+| Revenue | ~$5.3B |
 | Focus | EDA software |
 
-*Updated 2026-01-01*
+*Updated 2026-02-18*
 
 ---
 
