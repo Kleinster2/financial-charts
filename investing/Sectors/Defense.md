@@ -209,6 +209,22 @@ See [[Long defense AI]].
 
 ---
 
+## US-Iran escalation (Feb 18, 2026)
+
+Major catalyst: VP Vance declared Iran failed Geneva nuclear talk red lines, strikes "on the table." [[Polymarket]] odds at **67%**. Two carrier groups deployed. European defense stocks surged 4-6x more than US primes.
+
+| Segment | Feb 18 move | Interpretation |
+|---------|-------------|----------------|
+| European defense | **+3.8% to +5.9%** | Not yet priced for conflict |
+| US small-cap ([[Karman Holdings]], [[Kratos Defense]]) | **+5-9%** | Direct missile/hypersonic exposure |
+| US primes (LMT, GD, LHX) | **+1.0-1.6%** | Already priced via [[Trump defense budget]] |
+| Oil (WTI) | **+4.6%** | [[Strait of Hormuz]] closure risk |
+| Gold | **+$61 to $4,957** | Safe haven bid |
+
+See [[US-Iran nuclear escalation February 2026]] for full event coverage.
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -274,4 +290,4 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 
 ---
 
-*Updated 2026-01-23*
+*Updated 2026-02-18*

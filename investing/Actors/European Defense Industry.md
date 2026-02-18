@@ -130,6 +130,26 @@ Key beneficiary: **[[Rheinmetall]]** (largest European munitions producer).
 
 ---
 
+## US-Iran escalation (Feb 18, 2026)
+
+European defense stocks **led global defense** on Iran strike news, outperforming US primes 4-6x. Market not yet priced for Middle East conflict (unlike US primes which re-rated on [[Trump defense budget]]).
+
+| Company | Feb 18 move |
+|---------|-------------|
+| [[Thales]] | **+5.9%** |
+| [[Leonardo]] | **+5.4%** |
+| [[Rheinmetall]] | **+5.0%** |
+| [[Saab]] | **+4.7%** |
+| [[BAE Systems]] | **+4.4%** |
+| Hensoldt | **+3.8%** |
+| Safran | **+2.3%** |
+
+European names have more beta to geopolitical shock — still re-rating on baseline rearmament ([[European defense spending]]), so Iran adds a second catalyst layer. [[Polymarket]] strike odds at **67%**.
+
+See [[US-Iran nuclear escalation February 2026]].
+
+---
+
 ## Related
 
 - [[Defense]] — sector hub
@@ -139,4 +159,4 @@ Key beneficiary: **[[Rheinmetall]]** (largest European munitions producer).
 
 ---
 
-*Created 2026-01-10*
+*Updated 2026-02-18*

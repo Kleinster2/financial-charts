@@ -97,6 +97,20 @@ Different risk profiles — primes have program risk, IT services have recompete
 
 ---
 
+## US-Iran escalation (Feb 18, 2026)
+
+US primes lagged European defense and US small-caps on Iran strike news. Market interpretation: primes already re-rated on [[Trump defense budget]] ($1.5T FY27), leaving less upside from conflict catalyst.
+
+| Prime | Feb 18 move | vs European avg +4.5% |
+|-------|-------------|----------------------|
+| [[L3Harris]] | +1.6% | Lagging |
+| [[General Dynamics]] | +1.3% | Lagging |
+| [[Lockheed Martin]] | +1.0% | Lagging |
+
+Small-caps with direct strike-relevant capabilities outperformed: [[Karman Holdings]] +5.1% (penetrator warheads), [[Kratos Defense]] +5-9% (hypersonics). See [[US-Iran nuclear escalation February 2026]].
+
+---
+
 ## Related
 
 ### Parent
@@ -119,4 +133,4 @@ Different risk profiles — primes have program risk, IT services have recompete
 - [[Global rearmament]] — demand driver
 - [[Golden Dome]] — major program
 
-*Created 2026-01-30*
+*Updated 2026-02-18*
