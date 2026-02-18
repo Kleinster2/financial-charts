@@ -73,6 +73,27 @@ Critical upcoming contracts requiring Starship:
 
 SpaceX-xAI merger would help Musk complete Starship development to compete for these launches. Starship full reusability not yet achieved — 2025 testing had multiple unplanned explosions.
 
+### Pentagon autonomous drone swarm contest (Feb 16, 2026)
+
+SpaceX and subsidiary [[xAI]] competing in a $100M Pentagon prize challenge to produce voice-controlled, autonomous drone swarming technology:
+
+| Detail | Value |
+|--------|-------|
+| Prize pool | $100M |
+| Duration | 6 months |
+| Organizers | Defense Innovation Unit + Defense Autonomous Warfare Group (DAWG) |
+| DAWG parent | US Special Operations Command |
+| Phases | 5 — software → live platforms → target awareness → "launch to termination" |
+
+Key details:
+- SpaceX and xAI working on the entire project together — software to coordinate drone movements across air and sea domains
+- [[OpenAI]] supporting a separate bid from [[Applied Intuition]], limited to voice-to-digital "mission control" translation only (no drone operation or targeting)
+- xAI hiring engineers with "secret" and "top secret" clearances for federal contractor work; already has $200M Pentagon contract to integrate [[Grok]] into military systems
+- Contest launched Jan 2026, continuing work from Biden-era Replicator initiative (expendable autonomous drones)
+- Marks controversial new direction — Musk previously signed open letter (2015) against offensive autonomous weapons
+- Defense officials expressed concern about integrating generative AI (prone to hallucinations) into weapons platforms
+- DAWG official: human-machine interaction "will directly impact the lethality and effectiveness of these systems"
+
 ---
 
 ## [[Starlink]]
@@ -308,3 +329,6 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 - [[Rule 22e-4]] — SEC liquidity rule relevant to fund holders
 - [[Draper Fisher Jurvetson]] — early investor (Series B, D, F)
 - [[Founders Fund]] — early investor (Series A, C, E, G)
+- [[Applied Intuition]] — competitor in Pentagon drone swarm contest (with [[OpenAI]])
+- [[Lockheed Martin]] — co-provider of Pentagon satellite launches
+- [[Anduril]] — defense tech peer

@@ -178,6 +178,14 @@ That's it. No middle management. Everyone an engineer — including sales team.
 
 ---
 
+## Pentagon drone swarm contest (Feb 16, 2026)
+
+xAI and parent [[SpaceX]] competing together in a $100M Pentagon prize challenge to produce voice-controlled, autonomous drone swarming technology. 6-month contest organized by Defense Innovation Unit and Defense Autonomous Warfare Group (DAWG). xAI hiring engineers with active security clearances; already has $200M Pentagon contract for [[Grok]] integration into military systems. Marks a new frontier — combining xAI's generative AI with offensive weapons development.
+
+See [[SpaceX]] for full details.
+
+---
+
 ## Financials (2025)
 
 **Bloomberg reported (Jan 2026):**
