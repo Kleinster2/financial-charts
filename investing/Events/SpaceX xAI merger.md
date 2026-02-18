@@ -143,6 +143,8 @@ Morgan Stanley advantage: 15-year Musk relationship, led Tesla 2010 IPO and Twit
 
 **Investors:** xAI investors convert at 0.1433 ratio → liquidity via IPO.
 
+**[[HUMAIN]] (Saudi [[PIF]]):** Invested $3B in xAI Series E just prior to acquisition (announced Feb 18, 2026). Holdings converted to SpaceX shares, making HUMAIN a significant minority shareholder in SpaceX. Builds on HUMAIN-xAI 500MW AI data center partnership in Saudi Arabia (Nov 2025). Saudi sovereign wealth now has exposure to SpaceX via both [[Kingdom Holding]] (earlier rounds) and HUMAIN.
+
 ---
 
 ## "Muskonomy" consolidation

@@ -1,5 +1,5 @@
 ---
-aliases: [Coatue Management, Philippe Laffont]
+aliases: [Coatue Management]
 ---
 #actor #hedgefund #tigercub #tech #crossover #usa
 

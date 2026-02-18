@@ -250,7 +250,7 @@ See [[AI infrastructure financing]].
 | Series C | Dec 2024 | $6B | $50B | [[Fidelity]], [[BlackRock]], Sequoia |
 | Series D | Sep 2025 | $10B | $200B | — |
 | Debt | Oct 2025 | $12.5B | — | [[Morgan Stanley]] arranged |
-| **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target |
+| **Series E** | **Jan 2026** | **$20B** | **$230B** | Exceeded $15B target. Includes $3B from [[HUMAIN]] (Saudi [[PIF]]) |
 
 **Total raised:** ~$42B+ equity + debt
 
@@ -275,6 +275,7 @@ See [[AI infrastructure financing]].
 | **Qatar Investment Authority** | Sovereign | Series E |
 | **[[MGX]] (Abu Dhabi)** | Sovereign | Series C, E |
 | **[[Kingdom Holding]]** | Saudi (Prince Alwaleed) | Series B, C |
+| **[[HUMAIN]]** | Saudi ([[PIF]]) | Series E ($3B) — shares converted to SpaceX |
 | **[[Baron Capital]]** | Asset manager | Series E |
 | **[[StepStone Group]]** | PE | Series E |
 | **[[AMD]]** | Strategic | Series C |
