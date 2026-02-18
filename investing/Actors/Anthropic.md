@@ -151,21 +151,33 @@ Anthropic and the Pentagon are in an escalating standoff over a ~$200M contract 
 2. Mass surveillance of Americans
 
 **Timeline:**
-- Jan 16: Defense Secretary [[Pete Hegseth]] criticized Anthropic when announcing [[xAI]]'s Grok would join Pentagon AI providers, railing against models that "won't allow you to fight wars"
+- Jan 9: Defense Secretary [[Pete Hegseth]]'s AI strategy memo states Pentagon needs models "free from usage policy constraints"
+- Jan 16: Hegseth criticized Anthropic when announcing [[xAI]]'s Grok would join Pentagon AI providers, railing against models that "won't allow you to fight wars"
 - Jan 30: Reuters reported the $200M contract standoff
 - Feb 12: Reuters reported Pentagon pushing AI companies onto classified networks without standard restrictions
-- Feb 13: Axios/WSJ reported Claude was used during the [[Maduro capture operation]] (via [[Palantir]])
+- Feb 13: Axios/WSJ reported Claude was used during the [[Maduro capture operation]] (via [[Palantir]]). An Anthropic employee subsequently asked [[Palantir]] how Claude was being used in the operation
 - Feb 15: Axios exclusive — Pentagon "fed up," threatening to cut Anthropic entirely. Administration official: "everything's on the table… but there'll have to be an orderly replacement"
+- Feb 17-18: Escalation — Pentagon reviewing entire Anthropic partnership, may ask contractors to **certify they don't use Claude**. Pentagon now designates Anthropic a **"supply-chain risk"** — a term typically reserved for foreign adversaries
 
 **Pentagon's position:** Commercial AI should be deployable for all lawful purposes — the military, not tech companies, decides how purchased technology gets used. Not willing to negotiate case-by-case or accept unexpected model blocks. The categories in dispute (autonomous weapons, domestic surveillance) have "considerable grey area."
 
 **Anthropic's position:** [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." Spokesperson: "committed to using frontier AI in support of US national security" — first frontier AI company deployed on classified networks. Company says conversations have focused on usage policy questions, not specific operations.
 
-**Competitive dynamics:** The other three contractors ([[Google]], [[OpenAI]], [[xAI]]) are showing more flexibility. At least one has already agreed to "all lawful purposes" terms. All three have agreed to forego standard safeguards for Pentagon work and are negotiating classified network deployment.
+**Competitive dynamics:** [[OpenAI]], [[Google]], and [[xAI]] have all agreed to deploy for all lawful military uses — Anthropic alone has not. All three rivals are negotiating classified network deployment without standard restrictions.
 
-**Investor implications:** The $200M contract itself is immaterial vs. $14B run rate. But the dispute signals broader risk: if Anthropic's safety stance costs it government business, that's a ceiling on the massive defense/intelligence AI market. Conversely, capitulating would undermine the safety brand that differentiates Anthropic from competitors and justifies its $380B valuation premium. The dispute broke just 3 days after the $30B Series G close — investors bought into the safety-differentiated thesis.
+**Political liability:**
+- [[Dario Amodei]] called [[Donald Trump|Trump]] a "feudal warlord" pre-election and criticized chip sales policies at Davos
+- [[Daniela Amodei]] posted about [[ICE]] killing American citizens
+- Anthropic hired former Biden AI adviser [[Ben Buchanan]] and former [[NSC]] official [[Tarun Chhabra]]
+- [[1789 Capital]] (pro-Trump VC where Trump's son is a partner) declined a nine-figure Anthropic investment citing ideological concerns — Anthropic leaders' Trump criticism, Biden officials on payroll, AI regulation lobbying
+- [[Omeed Malik]] ([[1789 Capital]]) at a defense summit: "I'm not gonna embarrass anyone, cough, Anthropic" — crowd laughed
+- [[Dean Ball]] (ex-Trump AI policy adviser): "It would be hard to think of a more strategically unwise move for the U.S. military" (re: cutting Anthropic)
 
-*Sources: Axios (Feb 13, Feb 15), Reuters (Feb 12, Feb 15), WSJ (Feb 14), Semafor (Jan 16), Reuters (Jan 30), Livemint (Feb 15)*
+**Olive branch:** Anthropic added [[Chris Liddell]] (Trump 1st term deputy chief of staff) to its board in Feb 2026 — a political bridge-building move.
+
+**Investor implications:** The $200M contract itself is immaterial vs. $14B run rate. But the "supply-chain risk" designation is extraordinary — equating Anthropic with foreign adversaries. If the Pentagon follows through, it would create a chilling effect across the entire defense/intelligence AI market. Conversely, capitulating would undermine the safety brand that differentiates Anthropic from competitors and justifies its $380B valuation premium. The dispute broke just 3 days after the $30B Series G close — investors bought into the safety-differentiated thesis. The [[1789 Capital]] rejection signals political risk is now extending to the fundraising pipeline.
+
+*Sources: Axios (Feb 13, Feb 15, Feb 18), Reuters (Feb 12, Feb 15), WSJ (Feb 14, Feb 18), Semafor (Jan 16), Reuters (Jan 30), Livemint (Feb 15)*
 
 ---
 

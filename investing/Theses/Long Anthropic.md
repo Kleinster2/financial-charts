@@ -107,6 +107,8 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 - [ ] Anthropic burns cash faster than expected
 - [ ] Key talent leaves
 - [ ] **[[Meta]] Manus integration succeeds** — $2B acquisition, $100M ARR in 8 months
+- [ ] **Pentagon "supply-chain risk" designation sticks** — defense/intel market closed, chilling effect on government contracts broadly. If contractors must certify they don't use Claude, this extends beyond Pentagon to entire defense supply chain
+- [ ] **Political risk becomes fundraising risk** — [[1789 Capital]] already declined nine-figure investment on ideological grounds. If pro-Trump capital avoids Anthropic systematically, IPO pricing suffers
 
 ---
 
@@ -174,6 +176,7 @@ Anthropic is the Western DeepSeek — proving efficiency beats brute-force scali
 | **2025-12-30** | **Amazon $9.5B unrealized gain** (Q3 2025 mark-to-market) | **Third-party valuation validation** |
 | **2026-01-10** | **Capital efficiency confirmed**: $12-15B to break-even vs [[OpenAI]] $115-143B | **"Real DeepSeek" angle — efficiency beats scale** |
 | **2026-01-11** | **Manus uses [[Claude]] as core reasoning engine** (3.5 Sonnet → 3.7 → 4) | **Even Meta-acquired harnesses pay Anthropic** |
+| **2026-02-18** | **Pentagon designates Anthropic "supply-chain risk"** — may require contractors to certify no Claude use. [[1789 Capital]] (Trump-connected) declined nine-figure investment on ideological grounds. Rivals ([[OpenAI]], [[Google]], [[xAI]]) all agreed to unrestricted military deployment | **Major bear case: political risk now concrete. Safety stance that justifies $380B premium is same stance that could lock Anthropic out of defense/intel market and poison fundraising with politically-connected capital** |
 
 ---
 
