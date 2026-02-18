@@ -1,6 +1,6 @@
 #actor #country #asia #ally #defense
 
-**Japan** — World's 4th largest economy. Key US ally in Indo-Pacific. Remilitarizing amid [[China]] tensions.
+Japan — World's 4th largest economy. Key US ally in Indo-Pacific. Remilitarizing amid [[China]] tensions.
 
 ---
 
@@ -31,9 +31,9 @@
 | Finance Minister | [[Satsuki Katayama]] | Called for market calm during Jan 2026 bond rout |
 | Party | LDP | Dominant since 1955 |
 
-**Snap election Feb 8, 2026:** Takaichi called early election, promised 2-year food tax suspension. Main opposition (Centrist Reform Alliance) pledged permanent abolition — fiscal discipline concerns across political spectrum.
+Snap election Feb 8, 2026: Takaichi called early election, promised 2-year food tax suspension. Main opposition (Centrist Reform Alliance) pledged permanent abolition — fiscal discipline concerns across political spectrum.
 
-**Takaichi stance:** Said Taiwan "contingency" could threaten Japan's security and necessitate military response. Triggered major [[China]] retaliation (Jan 2026).
+Takaichi stance: Said Taiwan "contingency" could threaten Japan's security and necessitate military response. Triggered major [[China]] retaliation (Jan 2026).
 
 ---
 
@@ -41,7 +41,7 @@
 
 See [[China-Japan relations]] for full analysis.
 
-**Current status (Jan 2026):** Major escalation.
+Current status (Jan 2026): Major escalation.
 
 | [[China]] action | Impact |
 |--------------|--------|
@@ -49,7 +49,7 @@ See [[China-Japan relations]] for full analysis.
 | Anti-dumping probe | Dichlorosilane (chip manufacturing) |
 | Soft pressure | Canceled business delegation, travel restrictions |
 
-**Trigger:** Takaichi's Taiwan comments. [[China]] views as interference; wants her out.
+Trigger: Takaichi's Taiwan comments. [[China]] views as interference; wants her out.
 
 ---
 
@@ -57,9 +57,9 @@ See [[China-Japan relations]] for full analysis.
 
 See [[Japan Chikyu rare earth mission 2026-01]].
 
-**The problem**: Japan 60% dependent on [[China]] for rare earths (down from 90% in 2010). Almost 100% dependent for heavy REEs like [[Dysprosium]].
+The problem: Japan 60% dependent on [[China]] for rare earths (down from 90% in 2010). Almost 100% dependent for heavy REEs like [[Dysprosium]].
 
-**The solution**: Minamitori Island deep-sea mining project.
+The solution: Minamitori Island deep-sea mining project.
 
 | Metric | Value |
 |--------|-------|
@@ -68,7 +68,7 @@ See [[Japan Chikyu rare earth mission 2026-01]].
 | Next phase | Full mining trial (Feb 2027) |
 | Depth | ~6 km (world first) |
 
-**Diversification to date**:
+Diversification to date:
 - Sojitz/Lynas partnership (Australian rare earths)
 - Recycling programs
 - Manufacturing processes using less REE
@@ -84,7 +84,7 @@ See [[Japan Chikyu rare earth mission 2026-01]].
 | US bases | Okinawa, Yokosuka, Misawa, others |
 | [[AUKUS]] coordination | Observer status discussions |
 
-**Shift:** Post-WWII pacifism eroding. Constitutional reinterpretation allows collective self-defense (2014).
+Shift: Post-WWII pacifism eroding. Constitutional reinterpretation allows collective self-defense (2014).
 
 ---
 
@@ -94,12 +94,12 @@ See [[Japan Semiconductor Revival]].
 
 ### FY2026 budget (Jan 2026)
 
-**Japan quadrupling AI/semiconductor spending:**
+Japan quadrupling AI/semiconductor spending:
 
 | Metric | Value |
 |--------|-------|
-| FY2026 budget | **¥1.23T ($7.9B)** |
-| vs previous | **~4x increase** |
+| FY2026 budget | ¥1.23T ($7.9B) |
+| vs previous | ~4x increase |
 | Rapidus allocation | ¥150B (total now ¥250B) |
 | Focus | Advanced semiconductors, AI |
 
@@ -119,7 +119,7 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 [[China]] investigating Japanese dichlorosilane imports — key semiconductor manufacturing chemical. Japan controls 72% of [[China]]'s domestic supply (2022-2024 average). Probe covers Jul 2024 - Jun 2025.
 
-**Strategic significance:** Potential retaliation tool in tech war. Japan's three leading producers (Tokuyama, Mitsubishi Chemical, [[Shin-Etsu]]) dominate global supply. If [[China]] imposes duties, must find alternatives or develop domestic capacity.
+Strategic significance: Potential retaliation tool in tech war. Japan's three leading producers (Tokuyama, Mitsubishi Chemical, [[Shin-Etsu]]) dominate global supply. If [[China]] imposes duties, must find alternatives or develop domestic capacity.
 
 *Source: UPI, Jan 7 2026*
 
@@ -127,15 +127,15 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 ## Nuclear restart
 
-**Kashiwazaki-Kariwa Unit 6 restart (Jan 2026):** TEPCO restarted first reactor at world's largest nuclear complex (7 units, 8.2 GW total capacity). First TEPCO nuclear operation since Fukushima (2011).
+Kashiwazaki-Kariwa Unit 6 restart (Jan 2026): TEPCO restarted first reactor at world's largest nuclear complex (7 units, 8.2 GW total capacity). First TEPCO nuclear operation since Fukushima (2011).
 
-**Significance:**
+Significance:
 - Before 2011, nuclear = ~30% of Japan's electricity
 - Currently nuclear = ~7% (only 12 of 33 operable reactors running)
 - Energy security critical for semiconductor manufacturing (power-intensive)
 - Reduces [[LNG]] import dependence
 
-**Remaining capacity:** If all operable reactors restart, Japan could recover ~20% of electricity from nuclear. Political and safety hurdles remain significant.
+Remaining capacity: If all operable reactors restart, Japan could recover ~20% of electricity from nuclear. Political and safety hurdles remain significant.
 
 *Source: Japan Today, Jan 2026*
 
@@ -143,12 +143,12 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 ## Bond market crisis (Jan 2026)
 
-**[[JGB crash January 2026]]:** $280 million of trading triggered a $41 billion wipeout across the JGB curve on January 21. Ultra-long yields hit record highs. [[Scott Bessent]] called it a "six-standard-deviation move."
+[[JGB crash January 2026]]: $280 million of trading triggered a $41 billion wipeout across the JGB curve on January 21. Ultra-long yields hit record highs. [[Scott Bessent]] called it a "six-standard-deviation move."
 
 | Metric | Value |
 |--------|-------|
-| 30Y yield (post-crash) | **~3.66%** (record) |
-| 40Y yield (post-crash) | **>4%** — first JGB maturity above 4% in 30+ years |
+| 30Y yield (post-crash) | ~3.66% (record) |
+| 40Y yield (post-crash) | >4% — first JGB maturity above 4% in 30+ years |
 | Trigger volume | $280M (30Y + 40Y combined) |
 | Market cap loss | $41B |
 | Dislocation index | All-time high |
@@ -166,11 +166,11 @@ Prime Minister Sanae Takaichi's cabinet approved the draft budget. Parliamentary
 
 ### Life insurer impact
 
-Big 4 life insurers reported **$60B combined unrealized losses** on domestic bond holdings — 4x prior year. Higher yields mean huge paper losses on accumulated portfolios.
+Big 4 life insurers reported $60B combined unrealized losses on domestic bond holdings — 4x prior year. Higher yields mean huge paper losses on accumulated portfolios.
 
 ### Contagion risk
 
-Citi estimates JGB turmoil risks up to **$130B Treasury selling** as Japanese institutions repatriate capital. Rising JGB yields → domestic bonds attractive → sell foreign bonds → UST pressure.
+Citi estimates JGB turmoil risks up to $130B Treasury selling as Japanese institutions repatriate capital. Rising JGB yields → domestic bonds attractive → sell foreign bonds → UST pressure.
 
 ---
 
@@ -186,15 +186,41 @@ Citi estimates JGB turmoil risks up to **$130B Treasury selling** as Japanese in
 
 ---
 
+## US-Japan $36B energy/critical minerals deal (Feb 17-18, 2026)
+
+First tranche of Japan's $550B total investment commitment under the Trump trade deal. Three projects:
+
+| Project | Value | Operator | Location | Notes |
+|---------|-------|----------|----------|-------|
+| Natural gas power plant | $33B | SB Energy ([[SoftBank]]) | Portsmouth, Ohio | 9.2 GW — "largest natural gas generation facility in history" |
+| Deepwater crude oil export terminal | $2.1B | Sentinel Midstream | Texas (GulfLink) | Could generate ~$30B/year in US crude exports at full capacity |
+| Synthetic diamond manufacturing | $600M | [[Element Six]] ([[De Beers]]) | Georgia | Industrial diamonds for advanced manufacturing |
+
+Context:
+- Part of $550B total pledge — in exchange, Trump lowered tariffs on Japanese exports (especially automotive)
+- PM [[Sanae Takaichi|Takaichi]]: projects designed to build resilient supply chains in areas crucial for economic security
+- Financed via [[JBIC]] and NEXI (government-backed), not direct corporate investment — only 1-2% is cash, rest is loans/guarantees
+- Japan has 45 business days to fund after selection; failure could trigger tariff reimposition
+- Next milestone: Takaichi-Trump meeting in Washington, Mar 19
+
+Investment implications:
+- SoftBank's SB Energy now a major US power player — 9.2 GW plant would be among the largest in the US
+- Synthetic diamond facility signals Japan-US critical minerals cooperation beyond rare earths
+- Crude export terminal deepens US-Japan energy security ties
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/trump-announces-first-japan-investments-under-trade-deal)
+
+---
+
 ## Investment relevance
 
-**Themes:**
+Themes:
 - [[Defense]] spending increase → MHI, Kawasaki Heavy
 - Semiconductor revival → [[Tokyo Electron]], equipment suppliers
 - Yen weakness → exporters benefit
 - [[China]] decoupling risk → supply chain disruption
 
-**Risks:**
+Risks:
 - [[China]] retaliation (rare earths, tourism, trade)
 - Demographic decline
 - Government debt (~260% of GDP)
@@ -217,7 +243,9 @@ Citi estimates JGB turmoil risks up to **$130B Treasury selling** as Japanese in
 - [[EU-Japan EPA]] — [[EU]] trade deal (model FTA)
 - [[RCEP]] — [[Asia]] trade bloc member
 - [[CPTPP]] — de facto leader post-US withdrawal
+- [[SoftBank]] — SB Energy operating $33B Portsmouth gas plant
+- [[De Beers]] — Element Six synthetic diamond facility in Georgia
 
 ---
 
-*Updated 2026-02-02*
+*Updated 2026-02-18*

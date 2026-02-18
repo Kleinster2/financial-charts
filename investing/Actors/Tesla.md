@@ -115,6 +115,12 @@ Risk: Tesla excluded from SpaceX/xAI mega-deal while providing $2B capital. See 
 
 ---
 
+## Memory fab consideration (Feb 2026)
+
+Musk declared Tesla may build its own memory fabrication plant due to the [[Memory shortage 2025-2026|global DRAM shortage]]. Quote (late Jan 2026): "We've got two choices: hit the chip wall or make a fab." Tesla among a dozen major corporations signaling that DRAM shortage will constrain production in 2026.
+
+---
+
 ## Custom silicon
 
 - Dojo: Custom AI training chip for FSD (Full Self-Driving)

@@ -33,6 +33,8 @@ Nintendo is the clearest victim of AI-driven memory reallocation:
 - 256GB NAND storage
 - $450 launch price (higher than [[Switch]] 1)
 
+Bloomberg (Feb 15): Nintendo contemplating **raising Switch 2 price in 2026** due to ongoing memory cost pressure. Contributed to surplus demand in 2025 as Switch 2 console drove storage card purchases.
+
 **Margin reality:**
 - Selling at slim profit in [[Japan]]
 - Break-even or loss in other markets

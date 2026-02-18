@@ -39,6 +39,10 @@ Small positions: Infrastructure software ([[Cloudflare]], [[Snowflake]]) — "pl
 
 Key concern beyond revenue disruption: employee stock comp pressure. As software stocks fall, companies must pay more cash to retain talent, squeezing FCF further. Acquisition of AI startups adds to financial strain.
 
+**Counterpoint:** [[JPMorgan]] strategists said software stocks could rebound following recent "extreme price action." They favor [[Microsoft]] and [[ServiceNow]].
+
+Evans's response: "We don't believe current prices reflect the terminal value uncertainty or the pressure on free cash flow." Expects most application software companies to go the way of newspapers in the 2000s. Disruption is "accelerating" as models improve.
+
 ---
 
 ## Related

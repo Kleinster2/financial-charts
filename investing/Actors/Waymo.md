@@ -81,6 +81,70 @@ Target: 20+ new cities in 2026. Manufacturing partnership with [[Magna]] in Ariz
 
 ---
 
+## 6th-generation Waymo Driver (Feb 2026)
+
+Fully driverless operations began Feb 12 2026 — Waymo's most cost-effective hardware stack. First unveiled Aug 2024, validated for autonomous ops after ~200M driverless miles across 10+ cities.
+
+### Sensor suite
+
+| Component | 5th gen (I-PACE) | 6th gen | Change |
+|-----------|-----------------|---------|--------|
+| Cameras | 29 | 13 | -55% |
+| Lidar | 5 | 4 | -20% |
+| Radar | — | 6 | — |
+| Total sensors | ~40 | 23 | -42% |
+
+Key upgrades despite fewer sensors:
+- **17-megapixel camera** — generation ahead in resolution, dynamic range, low-light sensitivity
+- **Custom lidar chips** and optical components designed and built in California
+- **Short-range lidars** provide centimeter-scale accuracy for pedestrians, car doors, urban obstacles
+- Surround view up to **500 meters**, day and night
+- External audio receivers (EARs) retained
+
+### Weather resilience
+
+Major upgrade over 5th gen (which was effectively warm-weather only):
+- Hydrophobic coatings on all sensors
+- Mechanical cleaning systems
+- Modular sensor components swappable per climate (e.g. cold-weather sensor cleaning)
+- Tested in snow-heavy cities: Boston, Pittsburgh, Denver
+- Opens northern US markets (Detroit, New York) previously off-limits
+
+### Cost
+
+| Metric | Value |
+|--------|-------|
+| Driver hardware cost | <$20K per unit (on top of vehicle) |
+| Reduction vs 5th gen | >50% |
+
+### Vehicle platforms
+
+Designed as platform-agnostic — one Driver, multiple vehicle form factors:
+
+| Vehicle | Partner | Notes |
+|---------|---------|-------|
+| "Ojai" minivan | [[Zeekr]] | Purpose-built robotaxi: flat floor, low step-in, integrated B-pillar doors |
+| IONIQ 5 | [[Hyundai]] | 50K unit deal reported — largest single AV vehicle order ever |
+| Consumer vehicles | [[Toyota]] | Separate partnership |
+
+### Manufacturing
+
+Production ramping at Waymo's autonomous vehicle factory in Mesa/Metro Phoenix ([[Magna]] partnership). Scaling toward capacity of **tens of thousands of units per year**.
+
+### Competitive comparison (per-ride economics)
+
+| Metric | Waymo | [[Tesla]] robotaxi |
+|--------|-------|-------------------|
+| Cost per km | $5.72 | $1.99 |
+| Autonomy level | SAE Level 4 (fully driverless) | Level 2+ (supervised) |
+| Wait times | Standard | 3-5x longer |
+| Safety data | 90% fewer serious injuries vs human drivers (127M mi) | Limited disclosure |
+| Cities (driverless) | 6+ | 0 (supervised only) |
+
+*Sources: Waymo blog (Feb 12 2026), Electrek (Feb 12 2026), Waymo blog (Aug 2024)*
+
+---
+
 ## Scale metrics
 
 2025 growth:

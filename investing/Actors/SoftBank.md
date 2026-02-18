@@ -3,7 +3,7 @@ aliases: [SoftBank Group, SBG]
 ---
 #actor #investor #japan
 
-**SoftBank Group** — Japanese conglomerate and tech investor. Led by [[Masayoshi Son]]. Owns [[Arm Holdings]] (~90%), leads [[Project Stargate]] ($500B AI infrastructure).
+SoftBank Group — Japanese conglomerate and tech investor. Led by [[Masayoshi Son]]. Owns [[Arm Holdings]] (~90%), leads [[Project Stargate]] ($500B AI infrastructure).
 
 ---
 
@@ -22,7 +22,7 @@ SoftBank is making the largest AI infrastructure bet in history:
 
 ## Project Stargate (Jan 2025)
 
-**Lead investor in $500B AI infrastructure initiative:**
+Lead investor in $500B AI infrastructure initiative:
 
 | Metric | Value |
 |--------|-------|
@@ -31,7 +31,7 @@ SoftBank is making the largest AI infrastructure bet in history:
 | Partners | [[OpenAI]], [[Oracle]], [[MGX]] |
 | Role | Lead investor, chairman (Masa) |
 
-**Announced at White House** with Trump administration endorsement.
+Announced at White House with Trump administration endorsement.
 
 See [[Project Stargate]] for full details.
 
@@ -39,61 +39,61 @@ See [[Project Stargate]] for full details.
 
 ## DigitalBridge acquisition (Dec 2025)
 
-**Acquiring digital infrastructure investor to support AI ambitions:**
+Acquiring digital infrastructure investor to support AI ambitions:
 
 | Detail | Value |
 |--------|-------|
 | [[Target]] | [[DigitalBridge]] |
-| Price | **$4B** |
+| Price | $4B |
 | DigitalBridge AUM | $108B |
 | DC capacity | 5.4GW in development/operation |
 | Expected close | H2 2026 |
 
-**Strategic rationale:**
+Strategic rationale:
 - DigitalBridge portfolio company Vantage building Stargate Wisconsin DC (~1GW)
 - Need physical infrastructure to support AI ambitions
 
-**Also in talks to acquire [[Switch]]:**
+Also in talks to acquire [[Switch]]:
 
 | Detail | Value |
 |--------|-------|
 | [[Target]] | Switch (DigitalBridge portfolio company) |
-| Asking price | **~$50B** (including debt) |
+| Asking price | ~$50B (including debt) |
 | 2022 acquisition | $11B (4.5x appreciation) |
 | Flagship | Core Campus Las Vegas (495MW) |
 
-**Switch IPO alternative:** If acquisition fails, Switch preparing IPO early 2026 at **~$60B** valuation (including debt) — $10B higher than acquisition ask.
+Switch IPO alternative: If acquisition fails, Switch preparing IPO early 2026 at ~$60B valuation (including debt) — $10B higher than acquisition ask.
 
-**Bloomberg Intelligence on Stargate (Jan 2026):**
-> Headline $500B but actual SoftBank cash needs closer to **$40B** — adjusting for 40% JV stake and project financing with only 20% equity. SoftBank participation "less active than expected."
+Bloomberg Intelligence on Stargate (Jan 2026):
+> Headline $500B but actual SoftBank cash needs closer to $40B — adjusting for 40% JV stake and project financing with only 20% equity. SoftBank participation "less active than expected."
 
 ---
 
 ## 2025 AI shopping spree
 
-**Acquisitions and commitments:**
+Acquisitions and commitments:
 
 | [[Target]] | Amount | Status |
 |--------|--------|--------|
-| [[OpenAI]] | **$41B** | **Completed (Dec 2025)** — ~11% stake |
-| [[Ampere Computing]] | **$6.5B** | Acquired |
-| [[DigitalBridge]] | **$4B** | In talks |
-| [[ABB]] robotics unit | **$5.4B** | Proposed |
+| [[OpenAI]] | $41B | Completed (Dec 2025) — ~11% stake |
+| [[Ampere Computing]] | $6.5B | Acquired |
+| [[DigitalBridge]] | $4B | In talks |
+| [[ABB]] robotics unit | $5.4B | Proposed |
 | [[Intel]] | Undisclosed | Stake acquired |
-| [[Switch]] | **~$50B** | In talks |
+| [[Switch]] | ~$50B | In talks |
 
-**Funding sources:**
-- Sold entire NVIDIA stake (**$5.83B**) — Masa "cried"
+Funding sources:
+- Sold entire NVIDIA stake ($5.83B) — Masa "cried"
 - Expanded Arm Holdings margin loan
 - SoftBank Corp (telecom) ramping [[Japan]] DC spend
 
-**Stock reaction:** SoftBank shares nearly **2x** in 2025.
+Stock reaction: SoftBank shares nearly 2x in 2025.
 
 ---
 
 ## Arm Holdings
 
-**Crown jewel (~90% ownership):**
+Crown jewel (~90% ownership):
 
 | Metric | Value |
 |--------|-------|
@@ -111,17 +111,17 @@ Arm architecture in virtually every smartphone. Now pushing into:
 
 ## Vision Fund
 
-**Two funds totaling $150B+:**
+Two funds totaling $150B+:
 
 | Fund | Size | Backers |
 |------|------|---------|
 | Vision Fund 1 | ~$100B | Saudi PIF, Abu Dhabi |
 | Vision Fund 2 | ~$56B | Mostly SoftBank |
 
-**Track record:**
-- **Wins:** Coupang, [[DoorDash]], [[ByteDance]]
-- **Losses:** WeWork, Katerra, Greensill
-- **Mixed:** Many still private
+Track record:
+- Wins: Coupang, [[DoorDash]], [[ByteDance]]
+- Losses: WeWork, Katerra, Greensill
+- Mixed: Many still private
 
 ---
 
@@ -130,7 +130,7 @@ Arm architecture in virtually every smartphone. Now pushing into:
 | Asset | Stake | Value | Notes |
 |-------|-------|-------|-------|
 | [[Arm Holdings]] | ~90% | ~$150B | Crown jewel |
-| [[OpenAI]] | **~11%** | **~$55B** | $41B invested (Dec 2025) |
+| [[OpenAI]] | ~11% | ~$55B | $41B invested (Dec 2025) |
 | [[ByteDance]] | ~2% | ~$7B | Early investor |
 | [[Alibaba]] | Reduced | ~$10B | Was largest holder |
 | [[T-Mobile]] | — | Exited | Sprint merger |
@@ -139,13 +139,13 @@ Arm architecture in virtually every smartphone. Now pushing into:
 
 ## Masayoshi Son's AI vision
 
-**Masa believes:**
+Masa believes:
 - AGI coming within 10 years
 - SoftBank must lead AI infrastructure buildout
 - Arm + Stargate = foundation for AI future
 - Willing to bet the company on AI
 
-**Risk:** Concentrated bet on one man's vision.
+Risk: Concentrated bet on one man's vision.
 
 ---
 
@@ -183,7 +183,7 @@ US ADR (SFTBY) +3% on results.
 | Net debt | ~$40B |
 | LTV ratio | ~15% |
 
-**Discount to NAV:** SoftBank typically trades at 30-50% discount due to:
+Discount to NAV: SoftBank typically trades at 30-50% discount due to:
 - Conglomerate structure
 - Masa execution risk
 - Vision Fund volatility
@@ -192,17 +192,25 @@ US ADR (SFTBY) +3% on results.
 
 ## Investment implications
 
-**Bull case:**
+Bull case:
 - Stargate = $500B AI infrastructure play
 - Arm in every AI device (phones, edge, cars)
 - Discount to NAV may close
 - Masa right about AGI timeline
 
-**Bear case:**
+Bear case:
 - Execution risk (WeWork, etc.)
 - Concentrated bets
 - [[Japan]] conglomerate discount persistent
 - Stargate may not deploy full $500B
+
+---
+
+## SB Energy — $33B Portsmouth gas plant (Feb 2026)
+
+SB Energy, a SoftBank subsidiary, will operate the Portsmouth Powered Land Project — a $33B, 9.2 GW natural gas generation facility in Portsmouth, Ohio. Described as "the largest natural gas generation facility in history." Part of the $36B US-Japan deal (first tranche of Japan's $550B total commitment under the Trump trade deal).
+
+The facility underscores SoftBank's pivot beyond tech investing into physical AI infrastructure — 9.2 GW is enough to power multiple hyperscaler data center campuses. Connects to SoftBank's broader [[Project Stargate]] ambitions.
 
 ---
 

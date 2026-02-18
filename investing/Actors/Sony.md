@@ -22,6 +22,7 @@ Sony spans both sides — memory victim (PlayStation) and semiconductor supplier
 
 **Next-gen delay consideration:**
 - Sony reportedly weighing PS6 delay past 2028
+- Bloomberg (Feb 15): now considering pushing PS6 debut to **2028 or even 2029** — would upset carefully orchestrated strategy to sustain user engagement between hardware generations
 - Memory costs 35%+ of console BOM by 2026
 - Current pricing model unsustainable
 

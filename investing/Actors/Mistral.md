@@ -171,6 +171,22 @@ Bear case:
 
 ---
 
+## India expansion (Feb 18, 2026)
+
+Mensch announced at [[India AI Impact Summit 2026]] that Mistral plans to open its first India office in 2026. India is a major expansion target as global tech giants compete for the market.
+
+At the same event, Mensch told CNBC that >50% of current enterprise software could be replaced by AI — the most aggressive public estimate from an AI lab CEO. This aligns with the [[Claude Cowork disruption February 2026|SaaSpocalypse]] narrative.
+
+---
+
+## Openness thesis (Feb 18, 2026)
+
+Bloomberg interview: Mensch argued AI dominance hinges on openness, not geography. The competition is between open vs. closed systems, not US vs. Europe. He also reiterated that claims of Chinese AI lagging are a "fairy tale" (first said at Davos, Jan 2026 — referring to [[DeepSeek]], [[Moonshot AI]] and others).
+
+Mistral targeting $1B capex in 2026 alongside $1B revenue target — vertical integration into compute infrastructure. Planned Mistral Compute platform launching in 2026 with [[NVIDIA]]'s 18,000 Grace Blackwell chips at nuclear-powered Swedish facility ([[EcoDataCenter]]).
+
+---
+
 ## IPO outlook
 
 Mensch said an IPO is not necessary in 2026 — debt financing available. But on the long-term radar. [[OpenAI]] and [[Anthropic]] both targeting 2026 IPOs.
@@ -189,7 +205,7 @@ Mensch said an IPO is not necessary in 2026 — debt financing available. But on
 | Key model | Mistral Large 3 (675B MoE) |
 | Total raised | ~€2.8B ($3B+) |
 
-*Updated 2026-02-11*
+*Updated 2026-02-18*
 
 ---
 
@@ -209,3 +225,5 @@ Mensch said an IPO is not necessary in 2026 — debt financing available. But on
 - [[Sovereign AI race]] — context (European AI)
 - [[Open source commoditization]] — thesis context
 - [[Data Centers]] — infrastructure vertical integration
+- [[India AI Impact Summit 2026]] — Mensch spoke, India office announcement
+- [[Claude Cowork disruption February 2026]] — Mensch's >50% enterprise software replacement claim aligns
