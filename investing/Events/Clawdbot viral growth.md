@@ -34,7 +34,7 @@ The project went viral in Jan 2026, with developers buying Mac Minis specificall
 | Nov 2025 | **Clawdbot** launched | Original name |
 | Jan 9, 2026 | **OAuth access revoked** | Anthropic cut Claude Code OAuth for third-party integrations, breaking Clawdbot — 18 days before any legal action |
 | Jan 27, 2026 | **Cease & desist** | Anthropic lawyers forced rename to **Moltbot** |
-| Jan 30, 2026 | **OpenClaw** | Final rebrand after community backlash |
+| Jan 30, 2026 | **OpenClaw** | Final rebrand — purchased domains, completed trademark searches, coordinated account exchange with "Manhattan Project level secrecy"; **$10K to buy dormant Twitter handle** |
 
 ### The 10-second gap
 
@@ -61,6 +61,34 @@ The impostor accounts promoted a fake **CLAW token on Solana** that hit **$16M m
 ### CVE-2026-25253 (CVSS 8.8)
 
 Critical one-click RCE vulnerability via cross-site WebSocket hijacking. Disclosed Feb 2026, patched in version 2026.1.29 on January 30, 2026.
+
+### Security patch timeline (Feb 2026)
+
+*(Source: Lex Fridman interview, Feb 2026)*
+
+| Version | Date | Key changes |
+|---------|------|-------------|
+| v2026.2.1 | Feb 1 | TLS 1.3 minimum, system prompt guardrails — security basics |
+| v2026.2.7 | Feb 7 | Code safety scanner, new model support |
+| v2026.2.12 | Feb 12 | **40+ dedicated security patches** — prompt injection, RCE, browser control, unauthenticated config tampering |
+
+v2026.2.12 shipped just 2 days before Steinberger announced joining [[OpenAI]]. He fortified the project before handing it to the foundation.
+
+### "Soul evil" hook
+
+During the v2026.2.12 security audit, a bundled hook identified as **"soul evil"** was found to have inadvertently remained in the codebase. Removed as part of the 40+ patch sweep. *(Source: Lex Fridman interview, Feb 2026)*
+
+### Expanded exposure (21,000 instances)
+
+Census identified **21,000+ exposed OpenClaw instances** publicly accessible on the internet (up from ~1,000 days earlier, and up from the 900+ found via Shodan in the initial scan). *(Source: Lex Fridman interview, Feb 2026)*
+
+### ClawHub secrets mishandling (Snyk)
+
+[[Snyk]] reported that **70% of the nearly 4,000 skills in [[ClawHub]] mishandled secrets** (API keys leaked through LLM context windows). *(Source: Lex Fridman interview, Feb 2026)*
+
+### Shadow's warning
+
+OpenClaw maintainer **Shadow** warned on Discord: "If someone can't understand how to run a command line, this project is far too dangerous to use safely." Highlighted the gap between OpenClaw's power and the safety requirements for non-technical users. *(Source: Lex Fridman interview, Feb 2026)*
 
 ### ClawHub supply chain attack
 

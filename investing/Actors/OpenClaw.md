@@ -10,8 +10,10 @@
 |--------|-------|
 | Creator | [[Peter Steinberger]] |
 | Founded | Nov 2025 |
-| GitHub stars | 100,000+ |
+| GitHub stars | **200,000+** (fastest-growing repo in GitHub history) |
 | Peak traffic | 2M visitors/week |
+| Contributors | 600+ |
+| Total commits | 10,000+ in 3 months |
 | License | Open source |
 | Status | **Moving to independent foundation** (Feb 2026) |
 
@@ -47,6 +49,41 @@ The OAuth cutoff preceded and was distinct from the naming dispute. Anthropic's 
 - 100K+ GitHub stars in weeks
 - 2M visitors in single week
 - China's industry ministry warned about security risks from improperly configured instances (Feb 5, 2026)
+
+---
+
+## Architecture & capabilities
+
+*(Source: Lex Fridman interview, Feb 2026)*
+
+| Component | Detail |
+|-----------|--------|
+| Gateway architecture | Central hub for agent communication |
+| Skills marketplace | [[ClawHub]] — community-built extensions |
+| Browser control | Can operate web browsers autonomously |
+| Cron scheduling | Timed/recurring task execution |
+| Multi-model | Supports Claude, ChatGPT, Grok, Deepseek, open-source LLMs |
+| Messaging | WhatsApp, Telegram, Slack, Discord, Signal, iMessage |
+| Platforms | macOS, Linux, Docker |
+| Self-modification | **Can modify its own source code** — most unsettling feature per researchers |
+
+---
+
+## "Kill 80% of apps" prediction
+
+Steinberger told [[Lex Fridman]] that OpenClaw-style agents would kill 80% of apps. Logic: every app is just a slow API to what the user wants. An agent that knows your location, sleep patterns, stress levels, and calendar doesn't need separate apps for fitness tracking, food ordering, or scheduling. *(Source: Lex Fridman interview, Feb 2026)*
+
+---
+
+## Delegation as third UI paradigm
+
+The broader significance per the Lex Fridman analysis: OpenClaw demonstrated a **third interface paradigm** after GUIs (30 years) and touch interfaces (15 years) — **delegation**. You don't tap an icon or type a query; you tell the agent what you want done, and it figures out which APIs to call, which tools to use, which steps to take. *(Source: Lex Fridman interview, Feb 2026)*
+
+---
+
+## Chrome/Chromium model
+
+Steinberger floated a **Chrome/Chromium analogy** for OpenClaw's future: OpenClaw as the open-source foundation (like Chromium), with [[OpenAI]]'s consumer products as the polished commercial layer (like Chrome). Risk: Google's influence on Chromium is dominant — Google engineers contribute the majority of commits and set architectural priorities. Independent Chromium-based browsers (Brave, Edge) operate within Google's framework. Same risk applies to OpenClaw with Steinberger now inside OpenAI. *(Source: Lex Fridman interview, Feb 2026)*
 
 ---
 

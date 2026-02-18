@@ -84,6 +84,24 @@ He chose mission over empire. "It's not really exciting for me" — referring to
 
 ---
 
+## Competitive context (Feb 2026)
+
+*(Source: Lex Fridman interview, Feb 2026)*
+
+| Product | Status |
+|---------|--------|
+| [[Anthropic]] Claude Code | **$1B ARR** in 6 months — default coding tool for a generation of developers |
+| [[OpenAI]] Codex | Launched as macOS app early Feb 2026 — positioned as "coding surface" combining reasoning models + dev tools |
+| Steinberger's role | Self-described "biggest unpaid promoter for Codex" — built OpenClaw using OpenAI models, recorded 3-hour [[Lex Fridman]] episode comparing Codex vs Claude side-by-side |
+
+OpenAI needed Steinberger because Codex was playing catch-up against Claude Code in a market where developer loyalty was becoming sticky. Steinberger's public advocacy for Codex was worth more than any marketing campaign.
+
+### Multi-agent architecture signal
+
+Altman's phrasing — "smart agents interacting with each other to do useful things" — signals interest in multi-agent systems. Aligns with OpenAI's harness engineering case study: 3 engineers used Codex to produce 1,500+ PRs across a million-line codebase with zero human-written code. Extension from coding to personal productivity is the natural next step.
+
+---
+
 ## Significance
 
 ### 1. Distribution beats capability in agent wars
