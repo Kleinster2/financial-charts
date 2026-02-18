@@ -25,8 +25,13 @@ aliases: [MGX Fund Management]
 
 | Role | Name | Background |
 |------|------|------------|
-| Chairman | Sheikh Tahnoun bin Zayed | UAE National Security Advisor |
+| Chairman | Sheikh Tahnoun bin Zayed | UAE National Security Advisor, brother of UAE President |
 | Vice Chair | [[Khaldoon Al Mubarak]] | Mubadala CEO, Man City chairman |
+| CEO | Ahmed Yahia Al Idrissi | Ex-CEO Mubadala direct investments platform |
+| AI Investment Chief | Ali Osman | ~15 years at Mubadala (tech & life sciences) |
+| Chief Strategy & Safety Officer | David Scott | Ex-US diplomat, ex-[[NSA]], joined early 2025 |
+
+~30 staff, ~1/3 based in New York.
 
 ---
 
@@ -34,10 +39,12 @@ aliases: [MGX Fund Management]
 
 | Area | Examples |
 |------|----------|
-| **AI infrastructure** | Data centers, connectivity |
-| **[[Semiconductors]]** | Logic, memory, design, manufacturing |
-| **AI core tech** | Models, software, data, robotics |
-| **Life sciences** | AI applications |
+| AI infrastructure | Data centers, connectivity |
+| [[Semiconductors]] | Logic, memory, design, manufacturing (e.g. [[Altera]] via [[Silver Lake]]) |
+| AI core tech | Models, software, data |
+| Life sciences | AI applications |
+
+Explicitly avoids: AI consumer apps, neo-clouds, robotics, quantum computing, energy providers. Strategy: invest across the "entire stack" — chips → data centers → models — to see demand signals across layers.
 
 ---
 
@@ -64,13 +71,15 @@ MGX is among the investors Altman is meeting. This follows their participation i
 |------------|--------|---------|
 | [[xAI]] | Undisclosed | Series C, E |
 | [[OpenAI]] | Part of $6.6B round | — |
-| [[Anthropic]] | Undisclosed | — |
-| [[Databricks]] | Undisclosed | — |
-| [[France]] AI campus | **$31-52B** | [[Mistral]], [[NVIDIA]] |
-| Aligned [[Data Centers]] | Part of **$40B** deal | [[BlackRock]] GIP, AIP |
+| [[Anthropic]] | Undisclosed (entered at $17B) | Series G co-lead ($380B, Feb 2026) |
+| [[Databricks]] | Undisclosed | Now valued at $134B (2x since entry) |
+| [[Altera]] | Undisclosed | [[Silver Lake]] (chipmaker) |
+| [[France]] AI campus | $31-52B | [[Mistral]], [[NVIDIA]] |
+| Aligned [[Data Centers]] | Part of $40B deal | [[BlackRock]] GIP, AIP |
 | [[TikTok]] US | ~45% stake (consortium) | Oracle, [[Silver Lake]] |
 | Binance | $2B minority | World Liberty stablecoin |
 | Stargate Project | Partner | OpenAI, [[SoftBank]], Oracle |
+| AI infra consortium | Raising $30B | In progress |
 
 ---
 
@@ -98,11 +107,33 @@ $500B AI infrastructure initiative.
 
 ---
 
+## Spending cadence & strategy (Feb 17, 2026)
+
+Bloomberg deep-dive based on first in-depth interview with Ali Osman and David Scott (Davos, WEF):
+
+- Plans to deploy up to $10B/year on select companies over the next few years
+- Portfolio of ~20 firms as of Feb 2026
+- Osman forecasts generative AI will grow to a $700B market within 5 years — above most mainstream estimates
+- Entered [[Anthropic]] at $17B valuation; now worth $380B post-money (Series G, Feb 2026)
+- [[Databricks]] has doubled to $134B valuation since MGX first invested (2024)
+- Assembling a $30B consortium for AI infrastructure funding
+- Structured like a VC/buyout firm: partners receive carried interest, external investors seek returns — unlike typical sovereign funds
+- Compares itself to [[NVIDIA]] (invests across AI stack, not a traditional PE/VC model)
+- Minimum check size reportedly $500M+ (per entrepreneur anecdote; Osman denies formal threshold)
+
+On AI lab index strategy (backing [[OpenAI]], [[Anthropic]], [[xAI]] simultaneously): Osman sees them serving different markets — OpenAI in consumer, Anthropic in enterprise, xAI in robotics. "The TAM is so significant that the next net dollar gained is not at the expense of someone else."
+
+Scott on risk: "We're not in places where there's a lot of speculation" — avoids neo-clouds, unknown developers, unzoned data center sites.
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/openai-anthropic-deals-power-abu-dhabi-s-100-billion-ai-bet)
+
+---
+
 ## Capital raising
 
 | Status | Amount |
 |--------|--------|
-| [[Target]] | $100B AUM |
+| Target | $100B AUM |
 | Exploring | $25B additional raise |
 | [[Lunate]] talks | $1B commitment |
 
@@ -157,7 +188,11 @@ $500B AI infrastructure initiative.
 - [[Abu Dhabi Sovereign Wealth]] — ecosystem overview
 - [[xAI]] — portfolio company
 - [[OpenAI]] — portfolio company
-- [[Anthropic]] — portfolio company
+- [[Anthropic]] — portfolio company (entered at $17B, now $380B)
+- [[Databricks]] — portfolio company ($134B valuation)
+- [[Altera]] — chipmaker investment (via [[Silver Lake]])
+- [[Silver Lake]] — deal partner (Altera, TikTok)
+- [[BlackRock]] — deal partner (Aligned Data Centers)
 - [[UAE Tech]] — regional context
 - [[Project Stargate]] — partner
 - [[AI Infrastructure]] — sector focus
@@ -170,4 +205,6 @@ $500B AI infrastructure initiative.
 - [Mubadala announcement](https://www.mubadala.com/en/news/abu-dhabi-launches-comprehensive-global-investment-strategy-on-artificial-intelligence)
 - [CNBC on MGX investments](https://www.cnbc.com/2025/10/15/abu-dhabis-mgx-investments-in-trump-crypto-tiktok-openai-.html)
 
-*Updated 2026-01-26*
+- [Bloomberg deep dive — $100B AI bet](https://www.bloomberg.com/news/articles/2026-02-17/openai-anthropic-deals-power-abu-dhabi-s-100-billion-ai-bet)
+
+*Updated 2026-02-17*

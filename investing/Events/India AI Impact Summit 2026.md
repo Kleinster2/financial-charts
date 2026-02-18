@@ -105,6 +105,41 @@ Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,00
 
 ---
 
+## Day-by-day log
+
+### Day 1 — Feb 16 (Sun): Expo inauguration
+- PM Modi inaugurated AI Impact Expo at Bharat Mandapam; 600+ startups exhibiting
+- Modi visited Jio Intelligence Pavilion; Akash Ambani briefed him on Jio's AI ecosystem
+- Massive public turnout; logistical issues (long queues, overcrowding) drew criticism on social media
+- Key announcements: Adani $100B data centers, Blackstone/Neysa, Anthropic/Infosys, AMD/TCS, Cohere multilingual models
+
+### Day 2 — Feb 17 (Mon): Applied AI & sovereign AI
+- **Vaishnaw: $200B AI investment target** across all 5 layers of the AI stack in next 2 years (compute, data, models, apps, energy)
+- **"AI ka UPI"** — Vaishnaw revealed plans for a UPI-like platform providing AI solutions for developers/enterprises
+- Vaishnaw called AI the "5th industrial revolution"; called for stronger deepfake regulation
+- **Modi: India should be top-3 AI superpowers by 2047**; allayed youth job fears, said skilling is "present imperative"
+- **Gnani.ai** launched 5B-parameter voice-to-voice foundational model for Indian languages (under IndiaAI Mission)
+- **Sarvam AI & BharatGen** (IIT Bombay) expected to unveil sovereign LLMs
+- **Indian Army** showcased dual-use AI: AI Examiner (automated assessment), SAM-UN (geospatial situational awareness)
+- **Lt Gen Rana** (Strategic Forces Command): AI predicted Chinese military movement in Arunachal Pradesh, helped avoid casualties
+- **DRDO DG Chandrika Kaushik**: indigenous AI critical for defence; AI is "going to the battlefield"
+- Health Minister **J.P. Nadda** launched **SAHI** (Secure AI for Health Initiative) and **BODH** (Benchmarking Open Data Platform for Health AI)
+- **WHO** hailed India as first in SE Asia to adopt national health AI strategy
+- **Amitabh Kant** (G20 Sherpa): Global South must build AI models on local datasets
+- **Sridhar Vembu** (Zoho): universities must play central role in AI development
+- India ranked 3rd globally in Stanford's 2025 Global AI Index (per Vaishnaw)
+- Bloomberg: "Modi seizes AI summit to assert India's global ambitions after tough year"
+
+### Day 3 — Feb 18 (Tue): [upcoming]
+
+### Day 4 — Feb 19 (Wed): PM Modi inaugural address
+- Modi to deliver official inaugural address and likely host CEO roundtable
+
+### Day 5 — Feb 20 (Thu): CEO day
+- Modi-Macron co-appearance; Pichai, Altman, Amodei, Hassabis sessions expected
+
+---
+
 ## Related
 
 - [[India]] — host country

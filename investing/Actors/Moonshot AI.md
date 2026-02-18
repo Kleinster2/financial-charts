@@ -13,15 +13,31 @@ Among the "AI Dragons" — [[China]]'s leading post-[[ChatGPT]] AI labs:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **$4.8B** (Jan 2026) |
-| Total raised | **$1.77B** over 3 rounds |
+| Valuation | $4.8B (Jan 2026); targeting $10B (Feb 2026) |
+| Total raised | $1.77B over 3 rounds; $700M+ committed to new tranche |
 | Cash reserves | >RMB 10B (~$1.4B) |
 | HQ | [[Beijing]] |
 | Founded | March 2023 |
 | Kimi MAU | ~10-15M (down from 36M peak) |
 | Key product | Kimi chatbot, K2.5 model |
 
-**The Dragons:** [[MiniMax]] (IPO), [[Zhipu]] (IPO), Moonshot (private), Stepfun (private), [[DeepSeek]] (bootstrapped).
+**The Dragons:** [[MiniMax]] (IPO, >$29B), [[Zhipu]] (IPO, >$29B), Moonshot (private, targeting $10B), Stepfun (private), [[DeepSeek]] (bootstrapped).
+
+---
+
+## $10B valuation target (Feb 17, 2026)
+
+Moonshot is expanding its latest funding round, targeting a $10B valuation — more than double the $4.3B from its Series C just weeks earlier:
+
+- Kicked off discussions in late January to satisfy pent-up investor demand
+- Existing backers [[Alibaba]], [[Tencent]], and 5Y Capital have committed >$700M to the first tranche
+- At $10B, still undershoots closest rivals: [[Zhipu]] and [[MiniMax]] both valued >$29B after Hong Kong IPOs this year (raised >$1B combined)
+- K2.5 is #2 on Artificial Analysis open-source rankings (behind Zhipu's GLM-5) and among the most-used LLMs on OpenRouter, ahead of [[DeepSeek]] and [[Google]] Gemini
+- Launched OpenClaw cloud agent service for paid users (Feb 2026)
+- Yang wrote internal memo (Dec 2025) saying company is in no rush for IPO — 10B yuan ($1.4B) cash on hand
+- Paying users (China + overseas) grew 170% MoM during Sep-Nov 2025
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/china-ai-startup-moonshot-seeks-10-billion-value-in-new-funding)
 
 ---
 
@@ -101,9 +117,10 @@ Claims to beat GPT-5.2 on several benchmarks. Generally within a few points of C
 | Series A | Feb 2024 | $1B | $2.5B | [[Alibaba]] |
 | Series B | Aug 2024 | $300M | $3.3B | [[Tencent]], Gaorong |
 | Series C | Jan 2026 | $500M | $4.3B | IDG Capital |
-| Latest | Jan 2026 | — | **$4.8B** | — |
+| Latest | Jan 2026 | — | $4.8B | — |
+| Expansion | Feb 2026 | $700M+ committed | Targeting $10B | Alibaba, Tencent, 5Y Capital |
 
-**Total raised:** $1.77B
+Total raised: $1.77B + $700M+ new tranche in progress
 
 **Key investors:** [[Alibaba]], [[Tencent]], IDG Capital, Sequoia [[China]], [[Meituan]], Xiaohongshu, Gaorong Capital.
 
@@ -175,14 +192,14 @@ Limited public disclosure. Known details:
 
 | Metric | Value |
 |--------|-------|
-| Status | Private |
-| Valuation | $4.8B |
-| Total raised | $1.77B |
-| Key model | Kimi K2.5 |
+| Status | Private (no rush for IPO per Dec 2025 memo) |
+| Valuation | Targeting $10B (Feb 2026); last closed at $4.8B |
+| Total raised | $1.77B + $700M+ new tranche |
+| Key model | Kimi K2.5 (#2 open-source on Artificial Analysis) |
 | Kimi MAU | 10-15M |
 | HQ | [[Beijing]] |
 
-*Updated 2026-01-27*
+*Updated 2026-02-17*
 
 ---
 

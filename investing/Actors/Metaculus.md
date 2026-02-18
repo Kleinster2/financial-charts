@@ -28,7 +28,7 @@ tags:
 
 ## Bridgewater partnership
 
-[[Bridgewater Associates]] partnered with Metaculus for a 2026 forecasting competition ($30K prize pool + career/internship opportunities). Weekly question drops covering macro, AI, trade policy, markets. Runs Jan 12 – March 13, 2026. Bridgewater uses it as both a crowdsourced intelligence tool and talent pipeline.
+[[Bridgewater]] partnered with Metaculus for a 2026 forecasting competition ($30K prize pool + career/internship opportunities). Weekly question drops covering macro, AI, trade policy, markets. Runs Jan 12 – March 13, 2026. Bridgewater uses it as both a crowdsourced intelligence tool and talent pipeline.
 
 ---
 
@@ -53,5 +53,5 @@ tags:
 
 ## Related
 
-- [[Bridgewater Associates]] — forecasting competition partner
+- [[Bridgewater]] — forecasting competition partner
 - [[Prediction markets]] — related concept

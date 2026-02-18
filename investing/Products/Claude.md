@@ -5,12 +5,7 @@ aliases:
   - Claude 3.5
   - Claude 4
   - Claude 4.5
-  - Claude Opus
-  - Claude Sonnet
-  - Claude Haiku
-  - Opus
-  - Sonnet
-  - Haiku
+  - Claude 4.6
 tags:
   - product-family
   - ai
@@ -22,10 +17,10 @@ parent_concept: "[[Frontier models]]"
 
 [[Anthropic]]'s AI assistant family. Known for reasoning, coding, and safety. Competes with [[ChatGPT]].
 
-**Structure:** One model family with generations (3, 3.5, 4, 4.5) and capability tiers:
-- **Opus** — Most capable, deep reasoning
-- **Sonnet** — Balanced performance/cost
-- **Haiku** — Fastest, cheapest
+Structure: One model family with generations (3, 3.5, 4, 4.5) and capability tiers:
+- [[Claude Opus]] — Most capable, deep reasoning
+- [[Claude Sonnet]] — Balanced performance/cost
+- [[Claude Haiku]] — Fastest, cheapest
 
 ---
 
@@ -49,14 +44,16 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers.
 | Claude | Mar 2023 | Initial launch |
 | Claude 2 | Jul 2023 | 100K context, improved coding |
 | Claude 2.1 | Nov 2023 | 200K context, reduced hallucination |
-| **Claude 3** | Mar 2024 | Opus/Sonnet/Haiku tiers, vision |
+| Claude 3 | Mar 2024 | Opus/Sonnet/Haiku tiers, vision |
 | Claude 3.5 Sonnet | Jun 2024 | Matched Opus quality at Sonnet speed |
 | Claude 3.5 Haiku | Oct 2024 | Faster, cheaper |
 | Claude 3.5 Sonnet v2 | Oct 2024 | Computer use, improved coding |
-| **Claude 4** | 2025 | Agentic capabilities, extended thinking |
-| Claude 4.5 Opus | Feb 2025 | Current flagship |
+| Claude 4 | 2025 | Agentic capabilities, extended thinking |
+| Claude 4.5 Opus | Feb 2025 | Previous flagship |
 | Claude 4.5 Sonnet | 2025 | Balanced tier |
 | Claude 4.5 Haiku | 2025 | Fast/cheap tier |
+| [[Claude Opus|Claude Opus 4.6]] | Feb 5 2026 | 1M context, agent teams, 65.4% Terminal-Bench |
+| [[Claude Sonnet|Claude Sonnet 4.6]] | Feb 17 2026 | Opus-level reasoning at Sonnet pricing, 1M context (beta), 72.5% OSWorld |
 
 ---
 
@@ -64,11 +61,11 @@ Enterprise-focused: 80% of Anthropic's revenue from enterprise customers.
 
 | Model | Positioning | API pricing (per M tokens) |
 |-------|-------------|---------------------------|
-| **Opus 4.5** | Most capable, reasoning | $15 input / $75 output |
-| **Sonnet 4.5** | Balanced, default | $3 input / $15 output |
-| **Haiku 4.5** | Fastest, cheapest | $0.80 input / $4 output |
+| [[Claude Opus|Opus 4.6]] | Most capable, reasoning | $5 input / $25 output |
+| [[Claude Sonnet|Sonnet 4.6]] | Balanced, default (free + pro) | $3 input / $15 output |
+| [[Claude Haiku|Haiku 4.5]] | Fastest, cheapest | $0.80 input / $4 output |
 
-Batch API offers 50% discount for async processing.
+Batch API offers 50% discount for async processing. 1M context window available in beta for Opus 4.6 and Sonnet 4.6 (premium pricing above 200K).
 
 ---
 
@@ -94,87 +91,22 @@ Batch API offers 50% discount for async processing.
 
 ## Key products
 
-**Claude.ai** — Web/mobile chat interface (consumer, teams, enterprise)
+Claude.ai — Web/mobile chat interface (consumer, teams, enterprise)
 
-**Claude Code** — Terminal-based coding agent. Agentic, can edit files, run commands, create PRs. Hit $1B milestone. See [[Anthropic]] for harness crackdown details.
+[[Claude Code]] — Terminal-based coding agent. Agentic, can edit files, run commands, create PRs. Hit $2.5B run rate. See [[Anthropic]] for harness crackdown details.
 
-**Claude Cowork** — Enterprise collaboration agent (Jan 2026). "Claude Code for the rest of your work." Agentic file management, document creation, multi-step tasks. Triggered [[Claude Cowork disruption February 2026|$285B software selloff]] when plugins launched Jan 30.
+[[Claude Cowork]] — Enterprise collaboration agent (Jan 2026). Triggered [[Claude Cowork disruption February 2026|$285B software selloff]] when plugins launched Jan 30. Native macOS desktop app announced Feb 17 2026.
 
-**Agent SDK** — Platform for building custom agents on Claude
-
----
-
-## Claude Code — Deep Dive
-
-### Current capabilities
-
-| Feature | Description |
-|---------|-------------|
-| File operations | Read, edit, create files |
-| Command execution | Run shell commands |
-| Git integration | Commits, PRs, branch management |
-| Subagents | Spawn specialized agents for tasks |
-| Plan mode | Multi-step task orchestration |
-| IDE integration | VS Code, JetBrains |
-
-### TeammateTool / Swarm Mode (Feb 2026)
-
-**Upcoming feature** — found in v2.1.19, currently feature-flagged:
-
-| Capability | Description |
-|------------|-------------|
-| Role-based subagents | Specialist teammates for different tasks |
-| Plan mode coordinators | Orchestration across agents |
-| Broadcast messaging | Team-wide communication |
-| Parallel execution | Multiple agents working simultaneously |
-| tmux backend | Process isolation for teammates |
-
-**Why it matters:**
-- Single-agent Claude uses 80-90% context before reset
-- Team orchestration uses ~40%, each teammate carries own context
-- Tasks that take 1 agent 2 hours → swarm does in 30 minutes
-
-**Status:** Fully implemented, gated behind feature flags. Not yet in official docs.
-
----
-
-## Claude Cowork — Deep Dive
-
-### Timeline
-
-| Date | Event |
-|------|-------|
-| **Jan 12** | Cowork launches (research preview, Max subscribers) |
-| Jan 16 | Expands to Pro subscribers |
-| Jan 23 | Expands to Team/Enterprise |
-| **Jan 30** | **Plugins launch** — 11 open-source job-specific plugins |
-| Feb 3-4 | **$285B market selloff** ("SaaSpocalypse") |
-
-### Cowork plugins (Jan 30)
-
-| Plugin | Target |
-|--------|--------|
-| Legal | Contract review, legal research |
-| Financial | Analysis, modeling |
-| Sales | Lead gen, CRM automation |
-| Marketing | Campaign creation, content |
-| Data viz | Charts, reporting |
-| Enterprise search | Cross-tool search |
-
-### Market impact
-
-See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption basket]] for full analysis.
-
-Software P/E compression: 33x → 23x (-30%). Hardest hit: [[Thomson Reuters]] (-18%), [[RELX]] (-14%), [[LegalZoom]] (-20%).
+Agent SDK — Platform for building custom agents on Claude
 
 ---
 
 ## Capabilities
 
-- **Extended thinking** — Multi-step reasoning before responding
-- **200K context** — Understands multi-file codebases
-- **[[Google]] Workspace** — Read/edit Docs, Gmail, Drive (2026)
-- **Computer use** — Can control desktop applications
+- Extended thinking — Multi-step reasoning before responding
+- 1M context (beta) — Available on [[Claude Opus|Opus 4.6]] and [[Claude Sonnet|Sonnet 4.6]]
+- [[Google]] Workspace — Read/edit Docs, Gmail, Drive (2026)
+- Computer use — Can control desktop applications
 
 ---
 
@@ -207,15 +139,20 @@ Multi-cloud strategy reduces single-vendor dependency.
 | Parent | [[Anthropic]] |
 | Users | ~18.9M professional |
 | Pro price | $20/mo |
-| Context | 200K-500K tokens |
+| Context | 200K-1M tokens (1M beta) |
 
-*Updated 2026-02-04*
+*Updated 2026-02-17*
 
 ---
 
 ## Related
 
 - [[Anthropic]] — parent company
+- [[Claude Opus]] — most capable tier
+- [[Claude Sonnet]] — balanced tier
+- [[Claude Haiku]] — fastest/cheapest tier
+- [[Claude Code]] — terminal-based coding agent
+- [[Claude Cowork]] — enterprise collaboration agent
 - [[ChatGPT]] — primary competitor
 - [[Gemini]] — [[Google]] competitor
 - [[OpenClaw]] — open-source agent that uses Claude as backend; Anthropic C&D forced rebrand from "Clawdbot"

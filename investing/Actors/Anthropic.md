@@ -119,9 +119,9 @@ See [[Claude Cowork disruption February 2026]] and [[AI workflow disruption bask
 
 ---
 
-### Harness crackdown (Jan 2026)
+### Harness crackdown + Clawdbot OAuth cutoff (Jan 2026)
 
-Jan 9: Blocked third-party tools (OpenCode, etc.) from spoofing Claude Code headers to access Max subscription benefits.
+Jan 9: Restricted Claude Code OAuth access, blocking third-party tools (OpenCode, [[OpenClaw|Clawdbot]], etc.) from using Max subscription benefits. This broke [[OpenClaw|Clawdbot]] integrations 18 days *before* the Jan 27 cease-and-desist over the "Clawdbot" name (Anthropic trademark claim on "Claude"). The OAuth cutoff — not the naming dispute — was the initial disruption that forced the project to adapt. Sources: HackerNoon, Business Insider, Reddit.
 
 What happened:
 - Claude Code enforces token limits client-side: 5-hour rolling windows (~220K tokens for Max20) + weekly token caps
@@ -197,6 +197,27 @@ Revenue run rate disclosed at $14B (from $9B weeks earlier). $1M+ ARR customers:
 Competitive context: [[OpenAI]] at $500B nominal valuation, seeking ~$750B in 2026. [[SpaceX]] at $1.25T remains highest-valued private company. [[SoftBank]] invested additional $22.5B in OpenAI in late 2025.
 
 *Sources: Bloomberg (Feb 12), TechCrunch (Feb 12), Fortune (Feb 13), PYMNTS (Feb 12)*
+
+---
+
+### Claude Sonnet 4.6 launch (Feb 17, 2026)
+
+Second major model launch in under two weeks (after Opus 4.6 on Feb 5). Brings frontier-class capabilities to Free and Pro users at Sonnet pricing ($3/$15 per MTok — unchanged from Sonnet 4.5).
+
+| Benchmark | Sonnet 4.6 | Notes |
+|-----------|------------|-------|
+| OSWorld-Verified | 72.5% | Computer use, up from 14.9% at Oct 2024 launch |
+| Complex reasoning | 77% | +15 points over Sonnet 4.5 |
+| Claude Code preference | 70% vs Sonnet 4.5 | Internal testing |
+| Claude Code preference | 59% vs Opus 4.5 | Internal testing — Sonnet beating prior flagship |
+
+Key improvements: less over-engineering and "laziness," better instruction following, fewer hallucinations, more consistent multi-step follow-through. 1M token context window (beta) — double previous Sonnet maximum.
+
+Also announced: **Claude Cowork desktop app** (macOS, Windows coming) — native app controlling mouse, keyboard, and browser for multi-step tasks (file organization, document editing, web browsing). Extends Cowork from cloud to local desktop.
+
+Available on claude.ai, API, [[Amazon|Amazon Bedrock]], [[Google|Vertex AI]], [[Microsoft|Microsoft Foundry]].
+
+*Sources: CNBC (Feb 17), TechCrunch (Feb 17), VentureBeat (Feb 17)*
 
 ---
 

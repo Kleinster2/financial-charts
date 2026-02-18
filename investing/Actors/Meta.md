@@ -112,6 +112,20 @@ Meta is one of the largest NVIDIA GPU buyers. Their AI capex flows directly to [
 - Testing first in-house training chip ([[RISC-V]] based, Mar 2025)
 - Open-source AI (Llama) drives broader GPU demand ecosystem
 
+### NVIDIA multiyear deal (Feb 17, 2026)
+
+Signed multiyear pact to deploy "millions" of [[NVIDIA]] processors:
+
+- **Scope:** Blackwell (current), Vera Rubin (next-gen AI accelerators), Grace/Vera CPUs, plus networking equipment
+- **CPU first:** Meta becomes first large DC operator to use NVIDIA Grace CPUs in **standalone servers** (not paired with GPU accelerators) — encroaching on [[Intel]] and [[AMD]] territory
+- **Grace CPU use cases:** backend data center workloads (databases, data manipulation, ML). NVIDIA claims 2x performance/watt vs incumbents
+- **No dollar figure or timeline disclosed**
+- Zuckerberg: expanding partnership to "deliver personal superintelligence to everyone in the world"
+- Meta also developing in-house chips (MTIA) and in talks with [[Google]] about using TPUs — deal signals NVIDIA retaining dominant share despite alternatives
+- Meta accounts for ~9% of NVIDIA revenue (~$13B annualized at current run rate)
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/meta-deepens-nvidia-ties-with-pact-to-use-millions-of-chips)
+
 ---
 
 ## AI leadership
@@ -407,7 +421,7 @@ See [[Short interest]] for interpretation framework.
 
 ### Partners/Competitors
 - [[AI hyperscalers]] — Tier 1 spender ($65B capex)
-- [[NVIDIA]] — primary GPU supplier (350K H100s + 400K Blackwell)
+- [[NVIDIA]] — primary GPU supplier (350K H100s + 400K Blackwell + multiyear "millions" deal, Feb 2026)
 - [[TSMC]] — foundry (via NVIDIA)
 - [[Google]], [[Amazon]], [[Microsoft]] — hyperscaler peers
 - [[Anthropic]], [[OpenAI]] — AI lab competitors

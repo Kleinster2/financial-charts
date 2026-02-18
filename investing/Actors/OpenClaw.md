@@ -29,6 +29,18 @@
 
 ---
 
+## Anthropic conflict timeline
+
+| Date | Event |
+|------|-------|
+| Nov 2025 | Launched as "Clawdbot" — personal project by [[Peter Steinberger]] |
+| Jan 9, 2026 | [[Anthropic]] restricted Claude Code OAuth access, breaking Clawdbot integrations. This was the initial disruption — 18 days before any naming dispute |
+| Jan 27, 2026 | Anthropic sent cease-and-desist over "Clawdbot" name (trademark claim on "Claude") |
+| Jan 2026 | Rebranded Clawdbot → Moltbot → OpenClaw |
+| Feb 15, 2026 | [[Sam Altman]] announced Steinberger joining [[OpenAI]]; OpenClaw moving to independent foundation |
+
+The OAuth cutoff preceded and was distinct from the naming dispute. Anthropic's crackdown on third-party Claude Code access (targeting tools like OpenCode, Clawdbot) broke integrations before any trademark action. This sequence drew significant developer community backlash (Craig Weiss tweet: "Anthropic messed up so badly with how they handled Clawdbot" — 580 likes, 27K views, Feb 2026).
+
 ## Viral growth
 
 - Launched Nov 2025 as a personal project

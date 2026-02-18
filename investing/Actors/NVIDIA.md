@@ -477,6 +477,14 @@ See [[CES 2026]] for event details.
 
 ---
 
+## Meta multiyear chip deal (Feb 17, 2026)
+
+[[Meta]] signed multiyear pact to deploy "millions" of NVIDIA processors — Blackwell, Vera Rubin, Grace/Vera CPUs, and networking equipment. Meta becomes first large DC operator to use Grace CPUs in standalone servers, encroaching on [[Intel]]/[[AMD]] CPU territory. NVIDIA's Ian Buck: Grace delivers 2x performance/watt on backend workloads. No dollar figure disclosed. Meta (~9% of NVIDIA revenue) also developing in-house chips and exploring [[Google]] TPUs — deal signals NVIDIA retaining dominant share. [[AMD]] fell 3%+ on the news.
+
+*Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/meta-deepens-nvidia-ties-with-pact-to-use-millions-of-chips)*
+
+---
+
 ## Jensen Huang defends AI capex (Feb 2026)
 
 Two Bloomberg interviews in one week — Huang pushing back on capex fears and software selloff:
@@ -667,6 +675,7 @@ Market positioning (Dec 2025):
 - [[Lambda Labs]] — NVIDIA-financed neocloud
 - [[SEA chip diversion]] — gray market [[China]] revenue (tailwind + risk)
 - [[Southeast Asia]] tech race — Chinese DC buildout destination
+- [[Meta]] — multiyear "millions" chip deal (Blackwell + Vera Rubin + Grace CPUs, Feb 2026)
 - [[ByteDance]] — \#2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — \#3 GPU customer (~220K Hopper, 2024)
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)

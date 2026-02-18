@@ -19,7 +19,7 @@ aliases: [COTY, Coty Inc]
 | Adjusted operating income (FY24) | $863M (14.1% margin, +80bps) |
 | Leverage | 2.9x (targeting <2.5x) |
 | CEO | Sue Nabi |
-| Major shareholder | JAB Holdings (~37%) |
+| Major shareholder | [[JAB Holding]] (~52%, Sep 2024) |
 | HQ | New York / Amsterdam |
 
 ---
@@ -120,7 +120,7 @@ Coty retained Wella stake after selling control. Full exit would accelerate leve
 - License renewal risk (brands can walk)
 - Growth normalizing (H1 FY25: +2% vs +11% prior)
 - Still levered (~2.9x)
-- JAB Holdings overhang (~37% stake)
+- [[JAB Holding]] overhang (~52% stake)
 - Mass cosmetics structurally challenged
 
 ---
