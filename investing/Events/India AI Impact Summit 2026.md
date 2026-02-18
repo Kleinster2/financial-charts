@@ -63,6 +63,9 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | C2i | $15M Series A from [[Peak XV]] for data center power solutions |
 | Sarvam | Teased "Sarvam Kaze" smart glasses — AI devices designed and built in India |
 | Cartesia / Blue Machines | Voice AI deployment for Indian enterprises with local data residency |
+| [[Google]] | "America-India Connect" subsea cable initiative (India↔Singapore, South Africa, Australia + 4 US-India fiber routes); Vizag AI Hub (₹1.25L cr, gigawatt-scale); $60M in AI grants; DeepMind national partnerships; AI skilling for 20M+ public servants |
+| [[Nvidia]] | Partnerships with Yotta, L&T, E2E Networks for AI cloud infra; Nemotron/NeMo access; AI-powered factory partnerships with Siemens, Cadence, Synopsys |
+| [[OpenAI]] | Education partnerships with IIT-Delhi, IIM-A, AIIMS, Manipal + ed-tech (PhysicsWallah, upGrad, HCL GUVI); 100K students to benefit |
 
 ---
 
@@ -114,7 +117,25 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 
 *Source: Digit.in (Feb 18), Central Chronicle (Feb 13), ANI (Feb 18)*
 
-### Day 3 — Feb 18 (Tue): [upcoming]
+### Day 3 — Feb 18 (Wed): Research Symposium & Google mega-announcements
+- **Sundar Pichai met PM Modi**; said India is "well-positioned, no impediments" for next global AI champion to emerge from India; praised Flipkart/Oyo as proof of ecosystem maturity
+- **Google "America-India Connect" initiative** — new subsea cable routes connecting India to Singapore, South Africa, Australia + 4 strategic fiber-optic routes boosting US-India-Southern Hemisphere connectivity (part of existing $15B India investment)
+- **Google Vizag AI Hub** — ₹1.25 lakh crore (~$15B) hub in Visakhapatnam: gigawatt-scale compute, clean-energy data centers, subsea cable gateway — Google's largest AI investment outside the US (partnership with [[Adani Group]])
+- **Google $60M in AI grants**: $30M "Government Innovation Impact Challenge" (AI for public services worldwide) + $30M "AI for Science Impact Challenge" (AI-powered scientific breakthroughs)
+- **Google DeepMind "National Partnerships for AI"** — partnering Indian govt bodies and institutions to expand frontier AI access for national priorities
+- **Google skilling**: AI Professional Certificate in English & Hindi; partnership with Karmayogi Bharat (20M+ public servants); GenAI tools for 10,000 Atal Tinkering Labs schools
+- **Google product updates**: Live speech-to-speech translation model; Gemini JEE Main practice tests for Indian students
+- **Nvidia partnerships**: working with [[Yotta]], [[L&T]], [[E2E Networks]] on AI cloud infrastructure; data center capacity reserved for Indian model builders, startups, researchers; providing Nemotron (open-source LLMs) and NeMo (AI agent suite)
+- **Nvidia manufacturing AI**: partnering Siemens, Cadence, Synopsys to build AI-powered software-defined factories; $134B Indian manufacturing investment as backdrop
+- **OpenAI education partnerships**: IIT-Delhi, IIM-Ahmedabad, AIIMS New Delhi, Manipal, UPES, Pearl Academy — 100K students/staff to benefit; also partnering PhysicsWallah, upGrad, HCL GUVI for AI skilling courses
+- **Netherlands PM Dick Schoof** addressed summit
+- **Sweden Deputy PM Ebba Busch** arrived for summit
+- **PM Modi met Kazakhstan PM Olzhas Bektenov**
+- **Galgotias University expelled** from expo for presenting Chinese robotic dog as its own innovation; university apologized
+- **Expo extended**: extra day (Saturday) added for public due to overwhelming demand; expo hours extended to 8 PM
+- **Guardian framing**: "battle between AI colonialism from US tech firms and techno-Gandhism" — summit as first AI summit in Global South
+- **Yoshua Bengio** (AI godfather) warned AI safety progress lagging behind capability advances, urged world leaders to intervene
+- **Sriram Krishnan** (White House AI adviser) — highest-ranked US representative; no senior White House delegation sent
 
 ### Day 4 — Feb 19 (Wed): PM Modi inaugural address
 - Modi to deliver official inaugural address and likely host CEO roundtable
