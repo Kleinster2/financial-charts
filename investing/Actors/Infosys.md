@@ -91,16 +91,24 @@ aliases: [INFY]
 
 ## February 2026: Anthropic enterprise partnership
 
-At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Infosys]] announced a partnership with [[Anthropic]] to deploy [[Claude]] models and [[Claude Code]] for Indian enterprises. The partnership starts with the telecom sector and includes a dedicated **Anthropic Center of Excellence** within [[Infosys]]. This positions Infosys as [[Anthropic]]'s primary channel partner in [[India]] for enterprise AI agent deployment.
+At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Infosys]] announced a partnership with [[Anthropic]] to deploy [[Claude]] models and [[Claude Code]] for Indian enterprises. Starts in telecom, expanding to **financial services, manufacturing, and software development**. Includes a dedicated **Anthropic Center of Excellence** within [[Infosys]].
 
 | Detail | Value |
 |--------|-------|
 | Partner | [[Anthropic]] |
 | Products | [[Claude]], [[Claude Code]] |
 | Initial sector | Telecom |
+| Expansion sectors | Financial services, manufacturing, software development |
 | Structure | Anthropic Center of Excellence |
+| Agent use cases | Claims processing, code gen/testing, compliance reviews |
 
-**Strategic read:** Infosys pivoting from labor-arbitrage to AI-implementation-as-a-service — exactly the bull case articulated during the [[Claude Cowork disruption February 2026|Claude Cowork selloff]].
+[[Dario Amodei]]: "Infosys has exactly that kind of expertise across important industries." CEO [[Salil Parekh]]: "Our collaboration with Anthropic marks a strategic leap toward advancing enterprise AI."
+
+Stock rose **+2.8%** on the announcement, outperforming Indian IT peers — though still **-17% month-to-date** from [[Claude Cowork disruption February 2026|AI disruption fears]].
+
+**Strategic read:** Infosys pivoting from labor-arbitrage to AI-implementation-as-a-service — exactly the bull case articulated during the [[Claude Cowork disruption February 2026|Claude Cowork selloff]]. The irony: partnering with the same company whose product caused the selloff.
+
+*Source: WSJ (Feb 17, Kosaku Narioka)*
 
 ---
 
