@@ -20,8 +20,8 @@ AI video generation company. Founded 2018. Pioneered commercial text-to-video. G
 |--------|-------|
 | Founded | 2018 |
 | HQ | New York |
-| Funding | ~$240M+ |
-| Valuation | $1.5B+ (2023) |
+| Funding | ~$555M+ |
+| Valuation | **$5.3B** (Series E, Feb 2026) |
 | Focus | Video generation, creative tools |
 
 ---
@@ -34,6 +34,7 @@ AI video generation company. Founded 2018. Pioneered commercial text-to-video. G
 | Series B | 2021 | $35M | Coatue |
 | Series C | 2022 | $50M | Felicis, Coatue |
 | Series D | 2023 | $141M | Google, NVIDIA, Salesforce |
+| **Series E** | **Feb 2026** | **$315M** | **[[General Atlantic]] (lead)**, [[NVIDIA]], [[Adobe]] Ventures, [[AllianceBernstein]], [[AMD]] Ventures, [[Fidelity]], Mirae Asset, Emphatic Capital, [[Felicis]] |
 
 ---
 
@@ -67,6 +68,7 @@ Positioned as creative tool, not replacement.
 | Mar 2023 | Gen-2 (text-to-video) |
 | Jun 2024 | **Gen-3 Alpha** |
 | 2025 | **Gen-4** — consistency, controllability |
+| **Feb 2026** | **Series E: $315M at $5.3B** — pivoting messaging toward "world simulation" and "world models," not just video generation |
 
 ---
 
