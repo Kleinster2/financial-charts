@@ -13,8 +13,8 @@
 | CEO | Keller Rinaudo Cliffton |
 | Employees | ~2,000 |
 | Status | Private |
-| Valuation | ~$4.2B (2023) |
-| Funding | $450M+ raised |
+| Valuation | **$7.6B** (Jan 2026) |
+| Funding | **$1B+** raised |
 
 ---
 
@@ -29,7 +29,7 @@
 | **US** | Expanding | Retail (Walmart), pharma |
 | **[[Japan]]** | 2024+ | Medical |
 
-**Scale:** 1M+ commercial deliveries completed. Largest autonomous delivery operation globally.
+**Scale:** **2M+ commercial deliveries** completed. Largest autonomous delivery operation globally.
 
 ---
 
@@ -56,6 +56,12 @@
 | **MultiCare** | Hospital resupply | Pilot |
 
 **Challenge:** FAA BVLOS (beyond visual line of sight) approvals slower in US than [[Africa]].
+
+### Jan 2026: $600M raise + US expansion
+
+Raised **$600M+** at **$7.6B valuation** (Jan 21, 2026) — nearly doubled from $4.2B. Expanding to **Houston and Phoenix** in early 2026, with more metro areas later in the year. Surpassed **2M commercial deliveries** milestone.
+
+*Sources: TechCrunch, Reuters, Axios (Jan 21, 2026)*
 
 ---
 
