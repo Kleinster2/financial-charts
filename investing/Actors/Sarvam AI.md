@@ -23,9 +23,19 @@ tags:
 
 ---
 
+## Products
+
+| Product | Details |
+|---------|---------|
+| **Sarvam Vision** | 3B parameter vision-language/OCR model for Indian documents. 22 languages + English. 84.3% on olmOCR-Bench — outperforms [[Google]] Gemini 3 Pro, [[OpenAI]] ChatGPT, DeepSeek OCR v2 on multi-script documents. 93.28% on OmniDocBench |
+| **Bulbul V3** | TTS system, 11 Indian languages + Indian-accented English. 30+ speaker voices, control over pace/tone/expressivity. 8-48 kHz output |
+| **Sarvam Kaze** | Smart glasses — first Made-in-India AI wearable. Teased at [[India AI Impact Summit 2026]] |
+
+---
+
 ## Overview
 
-Sarvam AI is part of [[India]]'s push for sovereign AI capabilities. At the [[India AI Impact Summit 2026]] (Feb 2026), Sarvam teased "Sarvam Kaze" smart glasses — AI devices designed and built in India. The company is part of a broader government-backed effort alongside [[IIT Bombay]]'s BharatGen project to develop Indian-language frontier models.
+Sarvam AI positions itself as a full-stack AI platform making "AI that gets India." One of 12 teams shortlisted by the IndiaAI Mission for indigenous foundation model development. At the [[India AI Impact Summit 2026]] (Feb 2026), emerged as the most visible private player in India's sovereign AI push.
 
 ---
 

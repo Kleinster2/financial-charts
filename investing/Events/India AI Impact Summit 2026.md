@@ -91,6 +91,29 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 - India ranked 3rd globally in Stanford's 2025 Global AI Index (per Vaishnaw)
 - Bloomberg: "Modi seizes AI summit to assert India's global ambitions after tough year"
 
+### IndiaAI Mission — 12 teams shortlisted for indigenous foundation models
+
+The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereign AI foundation models, announced at the summit:
+
+| Team | Focus |
+|------|-------|
+| [[Sarvam AI]] | Full-stack AI platform; Sarvam Vision (OCR, 22 languages, 84.3% olmOCR-Bench); Bulbul V3 TTS (11 languages, 30+ voices) |
+| [[BharatGen]] (IIT Bombay) | Sovereign multilingual models; Param 2 — 17B parameter MoE model, 22 Indian languages |
+| [[Gnani AI]] | Inya VoiceOS — 5B parameter voice-to-voice model, 15+ languages, 14M hours training data, sub-second latency |
+| [[Soket AI]] | Pragna 1B (open-source, 6 languages); Project EKA (100B+ parameter planned) |
+| [[Gan AI]] | Generative media and agent tooling |
+| [[Avataar AI]] | Generative media and agent tooling |
+| [[GenLoop]] | Personalised LLM infrastructure |
+| [[ZenteiQ]] | Engineering-grade AI |
+| [[IntelliHealth]] | Healthcare-focused LLMs |
+| [[Shodh AI]] | Research-focused LLMs on domain datasets |
+| [[Fractal Analytics]] | Enterprise AI/analytics |
+| [[Tech Mahindra]] Maker's Lab | Corporate R&D, enterprise generative AI |
+
+**Also notable:** Dhi-5B — 5B parameter multimodal model built by an IIT Guwahati researcher on a budget of ₹1 lakh (~$1,200).
+
+*Source: Digit.in (Feb 18), Central Chronicle (Feb 13), ANI (Feb 18)*
+
 ### Day 3 — Feb 18 (Tue): [upcoming]
 
 ### Day 4 — Feb 19 (Wed): PM Modi inaugural address
