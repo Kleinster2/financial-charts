@@ -1,104 +1,59 @@
 ---
-aliases: [Essilor, Luxottica, EL]
+aliases: [Essilor, Luxottica, ESLX, ESLOY, EL]
 ---
-#actor #consumer #wearables #france #italy
+#actor #luxury #eyewear #france #public
 
-# EssilorLuxottica
+# EssilorLuxottica (EPA: EL)
 
-Franco-Italian eyewear giant. World's largest eyewear company. Key partner for [[Meta]]'s smart glasses strategy (Ray-Ban Meta).
-
----
-
-## Why it matters
-
-- **Meta's hardware partner** — manufactures Ray-Ban Meta smart glasses
-- **Meta took 3% stake** ($3.5B, July 2025) — may expand to 5%
-- **Smart glasses growth** — Ray-Ban Meta sales 3x'd YoY in Q1 2025
-- **Picks-and-shovels play** on screenless AI wearables
-
----
+World's largest eyewear company. Controls lens manufacturing (Essilor) + frame brands (Luxottica: Ray-Ban, Oakley, Persol) + retail (LensCrafters, Sunglass Hut). Near-monopoly in premium eyewear.
 
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| Ticker | EL (Euronext Paris) |
-| Market cap | ~$130B (July 2025) |
-| 2024 revenue | €26.5B |
-| 9M 2025 revenue | €20.9B (+8.8% YoY) |
-| H1 2025 net income | €1.39B |
-| 2026-27 target | €27-28B revenue |
+| Ticker | EL (Euronext Paris), ESLOY (OTC) |
+| Market cap | ~€100B |
+| Revenue (FY2025) | €28.5B (+11.2% cc) |
+| Adj. operating margin | 16.0% |
+| CEO | Francesco Milleri |
+| HQ | Paris |
+| Employees | ~200,000 |
+| Key brands | Ray-Ban, Oakley, Persol, Oliver Peoples, Costa |
+| Retail | LensCrafters, Sunglass Hut, Target Optical, GrandVision |
 
----
+## Meta smart glasses partnership
 
-## Meta partnership
+EssilorLuxottica's biggest growth catalyst — and biggest strategic risk.
 
-| Detail | Info |
-|--------|------|
-| Partnership start | 2019 |
-| Meta stake | ~3% (~$3.5B, July 2025) |
-| Potential expansion | To 5% |
-| Products | Ray-Ban Meta smart glasses |
+| Metric | Value |
+|--------|-------|
+| Partner since | 2019 |
+| Units sold (2025) | **7M+** (3x from 2M cumulative in 2023-24) |
+| Latest model | Ray-Ban Display ($799, hand gestures, neural control, small display) |
+| Production target | Discussing **20M units** by end of 2026 |
+| Deal structure | Long-term partnership extended "into next decade" (2024) |
 
-**Timeline:**
-- 2021: First Ray-Ban Stories launched (modest success)
-- 2023: Ray-Ban Meta Gen 2 (breakout hit)
-- Q1 2025: Sales **tripled** YoY
-- July 2025: Meta takes equity stake
-- Q3 2025: Shares hit all-time high on wearables momentum
+**The bull case:** Iconic brands drive adoption where tech companies can't. 7M units in one year proves eyewear brands matter for wearable AI. Meta needs EssilorLuxottica more than reverse.
 
-**Strategic value:** EssilorLuxottica provides manufacturing, fashion credibility, and retail distribution. Meta provides AI and tech. Neither could do it alone.
+**The bear case:** [[Apple]] N50 glasses going in-house on frames (Feb 2026, -7% stock reaction). [[Google]] partnered with [[Warby Parker]], not Essilor. If tech companies conclude they can design premium frames themselves, EssilorLuxottica becomes a bypassed middleman. The brand premium erodes when the value shifts to the AI platform, not the frame.
 
----
+## AI disruption exposure
 
-## Business segments
+EssilorLuxottica sits at the intersection of two disruption vectors:
 
-| Segment | Brands |
-|---------|--------|
-| Luxury eyewear | Ray-Ban, Oakley, Persol |
-| Lenses | Essilor, Varilux |
-| Retail | LensCrafters, Sunglass Hut, [[Target]] Optical |
-| Licenses | [[Chanel]], [[Prada]], Armani, Versace |
+1. **Tech companies designing own frames** — Apple N50 going in-house, premium acrylic materials. If this succeeds, the playbook spreads. See [[AI hardware vertical integration]].
 
-**Vertical integration:** Designs, manufactures, AND retails eyewear. Massive distribution moat.
+2. **AI commoditizing luxury brand value** — When the glasses' value is primarily the AI assistant (Siri, Meta AI), the frame brand becomes secondary. Similar to how smartphone value shifted from hardware design to software ecosystem.
 
----
-
-## Smart glasses opportunity
-
-**Why EssilorLuxottica wins:**
-- Already makes glasses people want to wear
-- Global retail footprint for distribution
-- [[Fashion]] credibility (vs. "Glasshole" stigma)
-- Manufacturing scale
-
-**Risk:** If smart glasses go mainstream, becomes a hardware margin play rather than luxury brand play.
-
----
-
-## Thesis implications
-
-| Thesis | Impact |
-|--------|--------|
-| [[Screenless AI]] | Picks-and-shovels — whoever wins smart glasses, EL manufactures |
-| [[Long Meta]] | Validates Meta's hardware bet; 3% stake = alignment |
-
----
-
-## What to watch
-
-- [ ] Meta stake expansion to 5%
-- [ ] Ray-Ban Meta Gen 3 (full AR features?)
-- [ ] Smart glasses attach rate at retail
-- [ ] Apple glasses partnership (if Apple goes external)
-- [ ] Chinese smart glasses competition impact
-
----
+**Current position:** Strong — Meta partnership is thriving, 7M units proves brand pull. But the -7% on Apple N50 news shows the market sees the risk.
 
 ## Related
 
-- [[Luxury]] — sector hub (eyewear luxury)
-- [[Meta]] — smart glasses partner, 3% investor
-- [[Screenless AI]] — category context
-- [[Apple]] — potential future partner/competitor
-- [[Google]] — Glass history, Android XR
+- [[Meta]] — smart glasses partner, Ray-Ban AI glasses
+- [[Apple]] — N50 glasses competitor, going in-house on frames
+- [[Google]] — partnered with Warby Parker instead
+- [[Warby Parker]] — Google's glasses partner
+- [[AI hardware vertical integration]] — the pattern threatening Essilor
+- [[Luxury and fashion AI disruption]] — broader thesis
+
+*Created 2026-02-18*
