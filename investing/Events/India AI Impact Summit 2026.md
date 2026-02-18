@@ -10,7 +10,9 @@ tags:
 
 #event #ai #india
 
-**India AI Impact Summit 2026** — four-day global AI summit hosted by [[India]] in New Delhi (Feb 16–20, 2026) at Bharat Mandapam. First AI summit held in the developing world. 250,000+ expected visitors, 300+ exhibitors, 70,000 sqm expo.
+**India AI Impact Summit 2026** — four-day global AI summit hosted by [[India]] in New Delhi (Feb 16–20, 2026) at Bharat Mandapam. First AI summit held in the developing world. Positioned India as the voice of the Global South in AI governance, following summits at Bletchley Park (2023), Seoul (2024), and Paris (2025).
+
+For India's broader AI strategy, infrastructure commitments, talent dynamics, and disruption risks, see [[India]].
 
 ---
 
@@ -43,6 +45,8 @@ tags:
 | [[Mukesh Ambani]] | [[Reliance Industries]] Chairman |
 | [[Vinod Khosla]] | [[Khosla Ventures]] founder |
 
+**Notable absence:** [[Jensen Huang]] ([[Nvidia]] CEO) withdrew Feb 14 due to "unforeseen circumstances" — was originally expected to attend.
+
 ---
 
 ## Major announcements
@@ -59,61 +63,6 @@ tags:
 | C2i | $15M Series A from [[Peak XV]] for data center power solutions |
 | Sarvam | Teased "Sarvam Kaze" smart glasses — AI devices designed and built in India |
 | Cartesia / Blue Machines | Voice AI deployment for Indian enterprises with local data residency |
-
----
-
-## India's AI strategy
-
-India is betting on **application-led innovation** over frontier model development. India's Economic Survey (Jan 2026) urged focus on large-scale deployment rather than chasing mega-models. No globally dominant frontier AI model yet — competitive edge is scale of deployment + talent.
-
-**Three pillars: infrastructure, users, talent**
-
-Infrastructure:
-- [[Google]], [[Microsoft]], [[Amazon]] committed a combined **$68B** in AI and cloud infrastructure in India through 2030
-- India approved **$18B** in semiconductor projects to build domestic chip supply chain
-- Dec 2025: Amazon, Microsoft, Intel made additional AI infrastructure/chip commitments
-
-Users:
-- 72M+ daily ChatGPT users by late 2025; **100M+ weekly** (Altman, Feb 2026) — India is OpenAI's largest market
-- India is [[Anthropic]]'s 2nd largest market for [[Claude]] after the US
-- No major domestic chatbot rival — US labs competing for users and training data via free tiers
-- Day 2: homegrown startups Sarvam AI and IIT Bombay-led BharatGen unveiling sovereign LLMs
-
-Talent:
-- 60%+ of Global Capability Centers (GCCs) established in last 2 years focused on AI/data/digital engineering
-- 80%+ of GCCs expected in next 6–8 months will be AI-led
-- "Chief AI Officer" roles increasingly being created in India (ANSR)
-- [[Tech Mahindra]] CTO: India is an "AI talent factory"
-
-**Frugal AI model:**
-India positioning its approach — affordable, localized AI tools — as a blueprint for the developing world. Government subsidizes compute access (under $1/hour for startups/researchers from a pool of AI chips). Key example: **Adalat AI**, trained on Indian case law and fluent in Indian languages, recording witness depositions and producing hearing records in thousands of courts — solving the 50M pending cases backlog. Adalat AI CTO Arghya Bhattacharya: "You don't need large models. You need models smaller and customized for every setting." [[Anthropic]] opened India office and is partnering with Adalat AI to provide case updates via [[Claude]] in local languages. Adalat AI also accessed [[Microsoft]] grants for supercomputing power housed in India.
-
-**Infrastructure commitments (updated):**
-- **$70B in DC spending** already in early execution stages (tech minister Ashwini Vaishnaw)
-- [[Google]]: **$15B** in southeastern India DCs (Oct 2025)
-- [[Microsoft]]: **$17.5B** (largest-ever Asia investment) for cloud/AI infra (Dec 2025)
-- [[Amazon]]: **$35B** across India operations over 5 years (same day as Microsoft)
-- New Indian data localization rules helped attract these investments
-- India accounts for a tiny share of $226B in global AI VC funding (CB Insights, 2025)
-- US has 75% and China 15% of AI supercomputing clusters (Epoch AI)
-
-**Disruption risks:**
-- India's $283B IT sector faces AI disruption — [[Jefferies]] predicts call centres could face **50% revenue hit** by 2030
-- [[Vinod Khosla]]: IT services and BPOs "can almost completely disappear within five years"
-- HCL CEO: Indian IT companies "will focus on turning profits and not being job creators"
-- Indian IT stocks dipping on AI disruption fears
-
-**Notable absence:** [[Jensen Huang]] ([[Nvidia]] CEO) withdrew Feb 14 due to "unforeseen circumstances" — was originally expected to attend.
-
----
-
-## Geopolitical context
-
-Previous AI summits: Bletchley Park (UK, 2023), Seoul (2024), Paris (2025) — focused on safety commitments and voluntary pledges, criticized for producing few enforceable outcomes. India positioning itself as voice of the developing world in AI governance.
-
-Summit coincides with US-India trade reset — the two nations pushing toward an interim trade deal. Modi government wants India to be a tech superpower: semiconductor manufacturing, Apple production shifts, VC-backed startup ecosystem, IPO surge on Indian exchanges.
-
-Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,000+. India's Supreme Court allowed video conferencing for advocates during summit week due to traffic.
 
 ---
 
@@ -152,9 +101,16 @@ Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,00
 
 ---
 
+## Summit logistics
+
+- Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,000+
+- India's Supreme Court allowed video conferencing for advocates during summit week due to traffic
+
+---
+
 ## Related
 
-- [[India]] — host country
+- [[India]] — host country, AI strategy details
 - [[India AI]] — national AI program
 - [[OpenAI]] — largest user base in India
 - [[Anthropic]] — opening Bengaluru office
