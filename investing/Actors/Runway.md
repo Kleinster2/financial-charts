@@ -68,7 +68,7 @@ Positioned as creative tool, not replacement.
 | Mar 2023 | Gen-2 (text-to-video) |
 | Jun 2024 | **Gen-3 Alpha** |
 | 2025 | **Gen-4** — consistency, controllability |
-| **Feb 2026** | **Series E: $315M at $5.3B** — pivoting messaging toward "world simulation" and "world models," not just video generation |
+| **Feb 2026** | **Series E: $315M at $5.3B** — pivoting messaging toward "world simulation" and [[World Models|world models]], not just video generation |
 
 ---
 
@@ -89,3 +89,5 @@ Positioned as creative tool, not replacement.
 - [[Kling]] — competitor
 - [[Pika]] — competitor
 - [[Generative AI]] — category
+- [[World Models]] — strategic direction (Series E pivot)
+- [[General Atlantic]] — Series E lead
