@@ -251,6 +251,33 @@ Apple is hedging against [[China]]'s [[Rare earth leverage]]:
 
 ---
 
+## Nasdaq decoupling — the "anti-AI" trade (Feb 2026)
+
+![[aapl-qqq-40d-correlation.png]]
+*40-day rolling correlation between AAPL and QQQ. Red dashed line = current 0.21 level (lowest since 2006).*
+
+Apple's 40-day correlation to the [[Nasdaq]] 100 dropped to **0.21** in Feb 2026 — the lowest since 2006 and down from 0.92 in May 2025. Apple has become the market's "anti-AI" safe haven.
+
+| Metric | AAPL | Nasdaq 100 | Mag 7 Index |
+|--------|------|-----------|-------------|
+| Feb 2026 MTD | **+1.7%** | -3.3% | -7.5% (worst since March) |
+
+**Why Apple is insulated:**
+- Not participating in AI capex spending bonanza
+- No major business line at risk from [[Claude Cowork disruption February 2026|Claude-style disruption]]
+- Hardware > software in AI disruption calculus
+- Record quarterly sales (Jan 2026), strong iPhone, better-than-expected outlook
+
+Art Hogan (B. Riley Wealth, $25B AUM): "We're in an environment of AI whack-a-mole, where investors are so nervous about what will be disrupted next they're shooting first and asking questions later."
+
+Wayne Kaufman (Phoenix Financial): "There's a lot less risk for hardware than software. Regardless of anything else, people can't use AI to code themselves a new iPhone."
+
+**The catch:** 30x forward P/E — higher than every Mag 7 peer except [[Tesla]]. Revenue growth decelerating (11% FY2026 → 6.7% FY2027). Not a bargain — the market is giving it "benefit of the doubt" as a volatility hedge.
+
+*Source: Bloomberg (Feb 18, 2026)*
+
+---
+
 ## For theses
 
 **[[Long TSMC]]**: Apple relationship proves co-design moat depth
