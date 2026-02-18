@@ -146,6 +146,22 @@ Catalysts cited: [[Anthropic]] Cowork plugins, [[Google DeepMind]] [[Genie 3]] (
 
 ---
 
+## Practitioner positioning: Polar Capital (Feb 16, 2026)
+
+[[Polar Capital]]'s Nick Evans ($12B global tech fund, beat 99% of peers over 1 year) — one of the clearest articulations of the bear case from an active manager:
+
+- Sold all application software holdings except small [[Microsoft]] position + calls. "We won't go back to these companies"
+- Thesis: AI coding tools can already replicate and modify existing software → established firms face competition from their own clients building internal tools + AI startups
+- 7 of top 10 positions now semiconductors, led by [[NVIDIA]] (~10%). Also long networking, fiber optics, power/energy infrastructure
+- Small infrastructure software positions ([[Cloudflare]], [[Snowflake]]) — "plumbing" layer still benefiting
+- Neutral cybersecurity — no immediate AI threat
+- Additional pressure: employee stock comp squeeze. Falling share prices → must pay more cash to retain talent → FCF pressure
+- JPMorgan strategists counter: software could rebound after "extreme price action," favor [[Microsoft]] and [[ServiceNow]]
+- Evans: investors should be "significantly underweight application software... as the models get better, the disruption is accelerating"
+- Software ETF down 22% while semiconductor stocks soared
+
+---
+
 ## Related
 
 - [[Anthropic]] — launched Claude Cowork
@@ -161,5 +177,6 @@ Catalysts cited: [[Anthropic]] Cowork plugins, [[Google DeepMind]] [[Genie 3]] (
 - [[AI disruption]] — broader context
 - [[AI disintermediation]] — common thesis with insurance selloff
 - [[Insurify insurance broker selloff February 2026]] — parallel event one week later
+- [[Polar Capital]] — Nick Evans sold all app software, 99th percentile fund
 
 *Event date: February 3-4, 2026 · Updated 2026-02-07*
