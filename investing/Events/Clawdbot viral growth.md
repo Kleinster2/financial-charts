@@ -29,11 +29,12 @@ The project went viral in Jan 2026, with developers buying Mac Minis specificall
 
 [[Anthropic]] lawyers forced multiple renames due to trademark concerns:
 
-| Date | Name | Trigger |
-|------|------|---------|
-| Nov 2025 | **Clawdbot** | Original name |
-| Jan 27, 2026 | **Moltbot** | Anthropic C&D |
-| Jan 30, 2026 | **OpenClaw** | Final rebrand |
+| Date | Event | Detail |
+|------|-------|--------|
+| Nov 2025 | **Clawdbot** launched | Original name |
+| Jan 9, 2026 | **OAuth access revoked** | Anthropic cut Claude Code OAuth for third-party integrations, breaking Clawdbot — 18 days before any legal action |
+| Jan 27, 2026 | **Cease & desist** | Anthropic lawyers forced rename to **Moltbot** |
+| Jan 30, 2026 | **OpenClaw** | Final rebrand after community backlash |
 
 ### The 10-second gap
 
