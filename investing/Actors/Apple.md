@@ -182,10 +182,39 @@ Apple developing multiple AI-powered devices. Most ambitious hardware push since
 | Device | Status | Notes |
 |--------|--------|-------|
 | **Smart home hub** | Spring 2026 | Display, speakers, **robotic swiveling base** |
-| **Smart glasses** | In development | Competing with [[Meta]] Raybans |
+| **Smart glasses (N50)** | Prototypes distributed | Production Dec 2026, release 2027. See below |
 | **AR glasses** | In development | Full augmented reality |
 | **Enhanced AirPods** | In development | AI sensors |
 | **Security camera** | In development | AI-powered |
+
+### N50 Smart Glasses (Bloomberg, Feb 18 2026)
+
+Apple's most concrete AI hardware bet after the AI Pin. Codename **N50**. Broader prototypes now distributed within hardware engineering.
+
+| Detail | Value |
+|--------|-------|
+| Codename | N50 |
+| Display | **None** — audio/camera interface only (like Meta Ray-Bans) |
+| Cameras | **Dual lens**: high-res (photos/video) + computer vision (depth/context) |
+| Interface | Speakers, mics, cameras, Siri |
+| Frames | **In-house** (initially tested off-the-shelf brands, considered partnerships) |
+| Materials | Acrylic elements, premium build |
+| Production | Target **December 2026** |
+| Release | **2027** |
+| Future | Multiple styles/colors planned over time |
+
+**Key capabilities:**
+- All-day AI companion — understands what user is seeing in real time
+- Object identification, meal ingredient analysis
+- OCR → action (e.g., event poster → calendar entry)
+- Photo/video capture via high-res lens
+- Phone calls, music, Siri integration
+
+**Differentiation vs [[Meta]] Ray-Bans:** Build quality and camera technology. Dual-lens system (high-res + computer vision) vs Meta's single camera. Apple going in-house on frames rather than partnering ([[EssilorLuxottica]] ADRs dropped 7% on the news).
+
+**Design evolution:** Early prototypes used external cable to battery pack + iPhone. Newer versions have all components embedded in frame.
+
+**Market signal:** EssilorLuxottica -7%, Apple +2.7% on announcement day. Market reads this as Apple competing directly rather than partnering with existing eyewear brands.
 
 ### Siri upgrade ("Campos")
 
@@ -344,6 +373,7 @@ $91.3B face value outstanding across 7 currencies (USD, EUR, GBP, AUD, CHF). Rat
 - [[OpenAI]] — competing for AI device market
 - [[Humane]] — AI pin predecessor (failed)
 - [[AI wearables]] — category
+- [[EssilorLuxottica]] — Meta's glasses partner, -7% on N50 news
 - [[Q.ai]] — acquired Jan 2026 (~$2B) for silent speech tech
 - [[Aviad Maizels]] — Q.ai CEO, previously sold PrimeSense (Face ID)
 - [[Apple bonds]] — $91.3B bond inventory (Aaa/AA+)
