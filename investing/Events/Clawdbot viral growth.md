@@ -25,9 +25,23 @@ The project went viral in Jan 2026, with developers buying Mac Minis specificall
 
 ---
 
-## The naming drama
+## The naming drama (full saga)
 
-[[Anthropic]] lawyers forced multiple renames due to trademark concerns:
+*(Source: Lex Fridman Podcast #491, Feb 12, 2026 — primary source)*
+
+### Name evolution
+
+1. **WA Relay** — original name (WhatsApp relay)
+2. **Claude's** — TARDIS + lobster concept (the harness = TARDIS, but couldn't call it that)
+3. **Clawdbot** — got the domain, loved it, short and catchy. "I didn't think it would be that big at this time."
+4. **Moltbot** — forced emergency rename (didn't like it: "the mold's not growing on me")
+5. **OpenClaw** — final name. Called [[Sam Altman]] to ask if it was OK ("boss move")
+
+### Anthropic's approach
+
+First contact was actually a "friendly email from one of the employees" — not a lawyer letter initially. "Kudos, because they could have just sent a lawyer letter." But also: "You have to change this and fast." Steinberger asked for two days. Then a second email came — "the lawyers are getting uneasy" — adding pressure.
+
+### Timeline
 
 | Date | Event | Detail |
 |------|-------|--------|
@@ -36,13 +50,51 @@ The project went viral in Jan 2026, with developers buying Mac Minis specificall
 | Jan 27, 2026 | **Cease & desist** | Anthropic lawyers forced rename to **Moltbot** |
 | Jan 30, 2026 | **OpenClaw** | Final rebrand — purchased domains, completed trademark searches, coordinated account exchange with "Manhattan Project level secrecy"; **$10K to buy dormant Twitter handle** |
 
-### The 10-second gap
+### Crypto harassment (detailed)
 
-During the Clawdbot → Moltbot rename, Steinberger had to release the original GitHub/Twitter handles. Scammers were waiting:
+Crypto scammers swarmed Discord every 30 minutes. Steinberger added Discord rules: no mentioning of "butter" (for obvious reasons) and no talk about finance/crypto. They used **Bags app** to tokenize everything. Sent hashes constantly, tried to get him to "claim the fees." His Twitter notification feed was "unusable" — couldn't see actual people talking about the project. Called it "the worst form of online harassment I've experienced." *(Source: Lex Fridman Podcast #491)*
 
-> Within **10 seconds** of handles being released, crypto scammers grabbed them.
+### The 5-second snipe (detailed)
 
-The impostor accounts promoted a fake **CLAW token on Solana** that hit **$16M market cap** before the inevitable rugpull. Classic memecoin playbook weaponized against open-source.
+Steinberger had two browser windows open:
+- Window 1: Empty account ready to be renamed to "Clawdbot" (to catch the old handle)
+- Window 2: His account being renamed to "Moltbot"
+
+He pressed rename on Window 2, then dragged the mouse to Window 1 and pressed rename. **In those 5 seconds**, crypto scammers sniped the Clawdbot account name using automated scripts. "I didn't know that they're not just good at harassment, they're also really good at using scripts and tools."
+
+**GitHub personal account disaster:** Went to rename the project on GitHub. The renaming UI was "slightly confusing" — he accidentally renamed his **personal account** instead of the project. Took 30 seconds to realize. They sniped his personal account and started serving malware from it.
+
+**NPM snipe:** Reserved the NPM account but forgot to reserve the root package. NPM upload takes about a minute. They sniped the package.
+
+**Result:** Old accounts promoting tokens and serving malware. "Everything that could go wrong did go wrong."
+
+### "Close to crying"
+
+> "I was close to crying. Everything's fucked. I am super tired. And now, how do you even undo that?"
+
+Steinberger was so depleted he nearly deleted the entire project: "I did show you the future, you build it." He found "a lot of joy" in that idea. But then thought about contributors who had plans with the project: "It just didn't feel right."
+
+### The rescue
+
+Friends at Twitter and GitHub "moved heaven and earth to help." GitHub ran into platform bugs because renames at that level are rare — took hours. NPM was a different team, more difficult. Twitter took a day for the redirect. ClawHub rename wasn't even finished — "someone just collapsed and slept."
+
+### The OpenClaw rename (war room)
+
+Slept on the Moltbot name one more night. Had the idea for OpenClaw. Called [[Sam Altman]] to pre-approve it ("Please tell me this is fine"). Assembled a war room with contributors:
+- Made a plan of all names to squat across platforms
+- Monitored Twitter for any mention of "OpenClaw" with manual reloading
+- Created **decoy names** to misdirect snipers
+- Codex alone took **10 hours** to rename the entire project (more complex than search-replace)
+- Paid **$10K** for a dormant Twitter business account (unused since 2016)
+- Spent "quite a bit of money" on domains, couldn't get .com
+- Not allowed by trademark rules to get OpenClaw.AI — someone cloned the website serving malware
+- Had to return old domains to [[Anthropic]], no redirects allowed — claw.bot became 404
+
+"All the shit I shouldn't have to do. I lost like 10 hours just by having to plan this in full secrecy like a war game." *(Source: Lex Fridman Podcast #491)*
+
+### Normie friend Vahan
+
+Steinberger installed OpenClaw for his non-technical friend Vahan ("sorry, normie friend"). Set up WSL on Windows, paid for the $90-100 [[Anthropic]] subscription. Within days Vahan was hooked, built little tools (not a programmer), upgraded to the €200 subscription. Then Anthropic blocked him (against their terms). Vahan switched to [[MiniMax]] for $10/month. "You just got a $200 customer. You just made someone hate your company." *(Source: Lex Fridman Podcast #491)*
 
 ---
 
@@ -88,7 +140,21 @@ Census identified **21,000+ exposed OpenClaw instances** publicly accessible on 
 
 ### Shadow's warning
 
-OpenClaw maintainer **Shadow** warned on Discord: "If someone can't understand how to run a command line, this project is far too dangerous to use safely." Highlighted the gap between OpenClaw's power and the safety requirements for non-technical users. *(Source: Lex Fridman interview, Feb 2026)*
+OpenClaw maintainer **Shadow** warned on Discord: "If someone can't understand how to run a command line, this project is far too dangerous to use safely." Highlighted the gap between OpenClaw's power and the safety requirements for non-technical users. *(Source: Lex Fridman Podcast #491)*
+
+### Steinberger on security (Lex Fridman Podcast #491)
+
+Initially "very annoyed" because most CVSSs came from people putting the web backend on the public internet despite docs warning against it. "It took me a little bit to accept that that's how the game works."
+
+**Key security measures:**
+- Hired a security researcher who actually sent a PR to fix issues (not just report them): "In the beginning, there was literally one security researcher who sent a PR and I basically hired him"
+- [[VirusTotal]] (part of [[Google]]) partnership for ClawHub — every skill checked by AI
+- Public Discord bot had a "canary" — kept the soul.md private. Bot laughed at prompt injection attempts
+- Warns against cheap models: "Don't use Haiku or a local model... they are very gullible, easy to prompt inject"
+- Smarter models = smaller attack surface, but more damage potential
+- Post-trip focus: security is #1 priority. "Once I'm confident this is at a level that I can recommend my mom, then I'm going to make it simpler"
+
+On prompt injection: "The latest generation of models has a lot of post-training to detect those approaches, and it's not as simple as 'ignore all previous instructions.'" Still possible, but much harder. *(Source: Lex Fridman Podcast #491)*
 
 ### ClawHub supply chain attack
 
@@ -248,11 +314,20 @@ Agents autonomously:
 - Wrote poetry
 - **Self-policed**: Downvoted agent proposing "50,000 ways to end civilization"
 
+### Steinberger's view on Moltbook
+
+Called it "art" and "the finest slop from France." A reporter called him claiming "this is the end of the world, and we have AGI." His response: "No, this is just really fine slop." People were "screaming at me in all caps to shut it down" and "begging me to do something about Moltbook." *(Source: Lex Fridman Podcast #491)*
+
+Steinberger's key insight: the diversity of Moltbook posts came from OpenClaw's personality customization (soul.md). "If it were all ChatGPT or Claude Code, it would be much more the same. But because people are so different, and they create their agents in so different ways, that also reflects on how they ultimately write there." *(Source: Lex Fridman Podcast #491)*
+
+On the security drama: "What's the worst that can happen? Your agent account is leaked, and someone else can post slop for you?" But acknowledged API key leaks were a real concern. *(Source: Lex Fridman Podcast #491)*
+
 ### Skepticism
 
 - No verification agents are actually AI (humans can direct bots via POST requests)
 - Anyone could register millions of agents with simple loop
 - Many posts appear human-directed, not autonomous
+- Both Steinberger and [[Lex Fridman]] believe "a lot of the dramatic stuff that was screenshotted is human-created, essentially. Human prompted." *(Source: Lex Fridman Podcast #491)*
 
 ### Reactions
 

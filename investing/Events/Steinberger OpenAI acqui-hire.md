@@ -30,23 +30,40 @@ Both [[Mark Zuckerberg]] and [[Sam Altman]] personally courted Steinberger. [[Sa
 ### Zuckerberg / Meta
 
 - Reached out via WhatsApp
-- Steinberger insisted on calling immediately; Zuckerberg asked for 10 minutes to finish coding
-- They argued for 10 minutes about Claude Code vs Codex
-- Zuckerberg was actively tinkering with OpenClaw (not just doing corporate diligence)
+- Steinberger insisted on calling immediately; Zuckerberg asked for 10 minutes to finish coding — "that gives you street cred, he's still writing code"
+- They had a "10-minute fight" about Claude Code vs Codex on the first call
+- "Ned and Mark basically played all week with my product" — sent real feedback: "This is great," "This is shit, I need to change this," funny anecdotes
+- Steinberger: "People using your stuff is the biggest compliment and shows me they actually care about it"
 - Zuckerberg called Steinberger "eccentric, but brilliant"
+
+*(Source: Lex Fridman Podcast #491, Feb 12, 2026)*
 
 ### Altman / OpenAI
 
-- Steinberger called him "very thoughtful, brilliant"
-- Pitch included compute power tied to [[Cerebras]] partnership
+- Steinberger called him "very thoughtful, brilliant, and I like him a lot"
+- "I didn't get the same" hands-on tinkering feedback as from Zuckerberg/Meta
+- But: "I got to see some other stuff that I find really cool"
+- Pitch included compute power tied to [[Cerebras]] partnership — exact numbers under NDA but "you can be creative and think of the Cerebras deal and how that would translate into speed. You give me Thor's hammer." Described as "been lured with tokens"
 - Alignment on mission: agent "even my mum can use" required frontier model access + distribution to billions
 - OpenAI had the consumer distribution Meta lacked
+- Steinberger called Sam to pre-approve the "OpenClaw" name during the rename crisis
+
+*(Source: Lex Fridman Podcast #491)*
 
 ### Why OpenAI won
 
 Steinberger's own words: "What I want is to change the world, not build a large company, and teaming up with OpenAI is the fastest way to bring this to everyone."
 
 Non-negotiable condition: OpenClaw stays open source. Chromium model — open core with commercial layers on top.
+
+### The decision process (Lex Fridman Podcast #491)
+
+Steinberger described the decision as comparable in difficulty to past relationship breakups. "They're both amazing. I cannot go wrong." Key factors:
+- OpenAI: tech he loves (Codex), felt "gratifying to put a price on all the work I did for free," Cerebras compute deal
+- Meta: Zuckerberg and [[Satya Nadella]] ("Ned") personally tinkered with his product all week, more hands-on engagement
+- He "knew no people at OpenAI" beforehand but loved their tech
+- Joked: "I would love if those companies just got merged"
+- On personally wanting the experience: "I never worked at a large company, and I'm intrigued."
 
 ---
 
