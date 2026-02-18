@@ -85,6 +85,18 @@ Talent:
 - "Chief AI Officer" roles increasingly being created in India (ANSR)
 - [[Tech Mahindra]] CTO: India is an "AI talent factory"
 
+**Frugal AI model:**
+India positioning its approach — affordable, localized AI tools — as a blueprint for the developing world. Government subsidizes compute access (under $1/hour for startups/researchers from a pool of AI chips). Key example: **Adalat AI**, trained on Indian case law and fluent in Indian languages, recording witness depositions and producing hearing records in thousands of courts — solving the 50M pending cases backlog. Adalat AI CTO Arghya Bhattacharya: "You don't need large models. You need models smaller and customized for every setting." [[Anthropic]] opened India office and is partnering with Adalat AI to provide case updates via [[Claude]] in local languages. Adalat AI also accessed [[Microsoft]] grants for supercomputing power housed in India.
+
+**Infrastructure commitments (updated):**
+- **$70B in DC spending** already in early execution stages (tech minister Ashwini Vaishnaw)
+- [[Google]]: **$15B** in southeastern India DCs (Oct 2025)
+- [[Microsoft]]: **$17.5B** (largest-ever Asia investment) for cloud/AI infra (Dec 2025)
+- [[Amazon]]: **$35B** across India operations over 5 years (same day as Microsoft)
+- New Indian data localization rules helped attract these investments
+- India accounts for a tiny share of $226B in global AI VC funding (CB Insights, 2025)
+- US has 75% and China 15% of AI supercomputing clusters (Epoch AI)
+
 **Disruption risks:**
 - India's $283B IT sector faces AI disruption — [[Jefferies]] predicts call centres could face **50% revenue hit** by 2030
 - [[Vinod Khosla]]: IT services and BPOs "can almost completely disappear within five years"
