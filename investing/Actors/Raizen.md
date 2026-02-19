@@ -250,6 +250,7 @@ Fitch said shareholder pledges were **"too little, too late"** to prevent the 8-
 - [[PIMCO]] — creditor committee member
 - [[BlackRock]] — creditor committee member
 - [[T. Rowe Price]] — creditor committee member
+- [[Raizen debt crisis 2026]] — event (full crisis timeline and analysis)
 
 ---
 
