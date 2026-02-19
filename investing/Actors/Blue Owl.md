@@ -26,6 +26,63 @@ Blue Owl is becoming the bank for AI infrastructure:
 
 ---
 
+## Portfolio composition (OBDC platform, Q3 2025)
+
+Blue Owl's BDCs share the same lending platform — OBDC, OBDC II, and OTIC hold overlapping positions in the same borrowers. The $1.4B loan sale cut across 128 companies in 27 industries. Largest sector: **internet software & services at 13%**.
+
+### Top software/tech positions (OBDC, fair value $M)
+
+| Holding entity | Known as | $M | AI disruption risk |
+|---------------|----------|-----|-------------------|
+| Litera Bidco | **Litera** (legal tech) | 161 | Medium — workflow automation |
+| Crewline Buyer | **New Relic** (observability) | 147 | High — AI-native monitoring emerging |
+| Cornerstone OnDemand | **Cornerstone** (HR/learning) | 144 | High — AI agents replacing LMS |
+| Bayshore Intermediate | **Boomi** (iPaaS) | 91+ | Medium — integration layer |
+| Delinea Buyer | **Delinea** (PAM security) | 88 | Low — security sticky |
+| Denali Intermediate | **Dun & Bradstreet** (data) | 76 | Medium — data moats defensible |
+| CivicPlus | **CivicPlus** (gov tech) | 80+ | Low — government sticky |
+| QAD Inc. | **QAD** (mfg ERP) | 72 | Medium — ERP has switching costs |
+| BCTO BSI Buyer | **Buildertrend** (construction) | 71 | Medium — vertical SaaS |
+| Hyland Software | **Hyland** (content mgmt) | 66 | High — document AI replacing ECM |
+| Anaplan | **Anaplan** (planning) | 64 | High — AI planning tools emerging |
+| MINDBODY | **Mindbody** (fitness SaaS) | 62 | Medium — SMB vertical |
+| H&F Opportunities | **Checkmarx** (AppSec) | 51 | Low — security sticky |
+| Einstein Parent | **Smartsheet** (work mgmt) | 43 | High — AI project tools emerging |
+| By Light Professional | **By Light** (defense IT) | 41 | Low — government/defense |
+| Azurite Intermediate | **Alteryx** (analytics) | 16 | High — AI replacing drag-and-drop analytics |
+| Barracuda Parent | **Barracuda** (security) | 10 | Low — security sticky |
+
+**Pattern:** These are overwhelmingly **PE-backed SaaS buyouts** — companies taken private at high valuations with leveraged debt, now carrying significant floating-rate obligations while facing AI disruption to their core products. The highest-risk names (New Relic, Cornerstone, Hyland, Anaplan, Smartsheet, Alteryx) are exactly the categories where AI agents are creating alternatives.
+
+### Top non-software positions (OBDC, fair value $M)
+
+| Company | Industry | $M |
+|---------|----------|-----|
+| Associations Inc. | Buildings/real estate | 446 |
+| Fifth Season Investments | Insurance | 403 |
+| Blue Owl Credit SLF | Joint ventures | 415 |
+| Rocket BidCo (Recochem) | Chemicals | 260 |
+| Minotaur Acq. (Inspira Financial) | Financial services | 256 |
+| Metis HoldCo (Mavis Tire) | Automotive services | 252 |
+| LSI Financing (pharma) | Pharmaceuticals | 211 |
+| Aerosmith Bidco (Audiotonix) | Leisure/entertainment | 209 |
+| Gaylord Chemical | Chemicals | 184 |
+| HGH Purchaser (Horizon Services) | Household products | 180 |
+| OB Hospitalist Group | Healthcare | 165 |
+| Intelerad Medical Systems | Healthcare tech | 169 |
+| Galls LLC | Specialty retail | 163 |
+| Gerson Lehrman Group | Professional services | 156 |
+| Monotype Imaging | Advertising/media | 152 |
+| Inovalon Holdings | Healthcare tech | 150+ |
+| Faraday Buyer (MacLean Power) | Manufacturing | 149 |
+| Patriot Acq. (Corza Health) | Healthcare equipment | 158 |
+
+**Diversification reality:** The portfolio is genuinely diversified across healthcare, insurance, chemicals, manufacturing, food & beverage, and business services. Software at 13% is the largest single sector but not dominant. The risk is that software names are the ones most likely to deteriorate simultaneously under AI pressure — correlated defaults in an otherwise diversified book.
+
+*Source: OBDC portfolio holdings page (as of Sep 30, 2025)*
+
+---
+
 ## Major [[AI infrastructure deals]]
 
 | Deal | Size | Partner | Status |
