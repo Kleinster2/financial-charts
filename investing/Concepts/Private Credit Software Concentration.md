@@ -127,9 +127,13 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 
 **The pattern:** Retail investors sold the promise of private credit yield with quarterly liquidity → redemptions spiked as AI fears hit software valuations → fund forced to sell assets and gate investors. This is the liquidity mismatch risk that critics have warned about since the retail push began.
 
+**Industry-wide redemption surge:** BDCs with >$1B AUM saw **$2.9B in withdrawal requests in Q4 2025**, up **200% from Q3** (Robert A Stanger & Co.). The exodus is not confined to Blue Owl — it's an industry-wide retail flight from private credit.
+
 **Contagion risk:** If redemption pressure spreads to larger retail BDCs ([[Ares Management]], [[Apollo]], [[Blackstone]]), the $1.8T private credit market faces a broader liquidity event. OBDC II ($1.7B) is small — but it's a template.
 
-*Sources: CNBC, Bloomberg, Reuters (Feb 18-19, 2026)*
+**Regulatory risk:** Sen. Elizabeth Warren seized on the OBDC II gate to call for increased bank capital requirements for private credit exposures, greater data disclosure from funds, and a formal stress test for the market. If Congress or regulators act, it could constrain the entire industry's retail fundraising machine.
+
+*Sources: CNBC, Bloomberg (Fishlow/DiMauro/Brown), Reuters (Feb 18-19, 2026)*
 
 ---
 
