@@ -81,6 +81,16 @@ Became standard framework for understanding 2010s economy.
 
 **On gold:** Rising price indicates "at the margin, people are reducing their exposure to the U.S. dollar."
 
+**On [[Blue Owl OBDC II redemption gate]] (Feb 19, 2026):**
+
+Drew explicit parallel to August 2007 — when Bear Stearns hedge funds gated investors months before the broader financial crisis:
+
+> *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007? The question will be on the minds of some investors and policymakers this morning."*
+
+Said it raises questions about systemic risks in [[Private credit]] and warned that *"a significant — and necessary — valuation hit is looming for specific assets."* The comparison landed: alt managers sold off 4-9% across the board.
+
+See: [[Private credit retail liquidity crisis 2026]]
+
 ---
 
 ## Board positions
@@ -105,7 +115,7 @@ Frequent commentator on:
 
 ---
 
-*Created 2026-01-14*
+*Updated 2026-02-19*
 
 ---
 
@@ -118,3 +128,6 @@ Frequent commentator on:
 - [[Allianz]] — current employer
 - [[Gold]] — USD exposure signal
 - [[UK mini-budget crisis 2022]] — cited as bond vigilante precedent
+- [[Blue Owl OBDC II redemption gate]] — "August 2007" comparison (Feb 2026)
+- [[Private credit retail liquidity crisis 2026]] — systemic risk warning
+- [[Blue Owl]] — target of analysis
