@@ -60,6 +60,22 @@ aliases: [ISRG, da Vinci]
 
 ---
 
+## Zacks top AI stock (Feb 2026)
+
+Ranked #3 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
+
+| Metric | Value |
+|--------|-------|
+| Price | $500.76 |
+| Forward P/E | 49.18 |
+| 12-week price change | -14.8% |
+| Proj EPS growth (1Y) | +12.3% |
+| Proj sales growth (1Y) | +14.9% |
+
+Pullback creates entry opportunity. AI-assisted surgery as non-obvious AI beneficiary.
+
+---
+
 ## Related
 
 - [[Agentic AI]] — surgical automation

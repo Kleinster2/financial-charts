@@ -89,6 +89,22 @@ Memory cyclicality is a risk but [[HBM]] demand provides structural tailwind.
 
 ---
 
+## Zacks top AI stock (Feb 2026)
+
+Ranked #4 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
+
+| Metric | Value |
+|--------|-------|
+| Price | $240.09 |
+| Forward P/E | 44.81 |
+| 12-week price change | +55.1% |
+| Proj EPS growth (1Y) | +27.0% |
+| Proj sales growth (1Y) | +20.0% |
+
+Etch/deposition demand rising with advanced packaging and HBM. Solid growth at reasonable semi-equipment P/E.
+
+---
+
 ## For theses
 
 - [[Long WFE]] — core holding, deposition/etch leader

@@ -238,6 +238,22 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ---
 
+## Zacks top AI stock (Feb 2026)
+
+Ranked #1 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
+
+| Metric | Value |
+|--------|-------|
+| Price | $420.95 |
+| Forward P/E | 11.83 |
+| 12-week price change | +78.1% |
+| Proj EPS growth (1Y) | +307.5% |
+| Proj sales growth (1Y) | +99.7% |
+
+Cheapest P/E of the five picks with the highest growth — classic memory cycle leverage.
+
+---
+
 ## Related
 
 ### Sectors

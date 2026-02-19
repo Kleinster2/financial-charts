@@ -102,6 +102,22 @@ Teradyne and Advantest dominate semiconductor ATE market.
 
 ---
 
+## Zacks top AI stock (Feb 2026)
+
+Ranked #2 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
+
+| Metric | Value |
+|--------|-------|
+| Price | $314.82 |
+| Forward P/E | 51.69 |
+| 12-week price change | +82.2% |
+| Proj EPS growth (1Y) | +49.3% |
+| Proj sales growth (1Y) | +28.5% |
+
+Strongest 12-week momentum of the five picks. AI chip complexity = more test steps per device.
+
+---
+
 ## Related
 
 - [[Advantest]] — primary competitor
