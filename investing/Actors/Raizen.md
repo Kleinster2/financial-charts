@@ -17,17 +17,21 @@ World's largest sugarcane [[ethanol]] producer — JV between [[Shell]] (44%) an
 | Ticker | RAIZ4 ([[B3]]) |
 | Ownership | 44% [[Shell]], 44% [[Cosan]], ~12% public |
 | Revenue (FY 3/2025) | R$255.3B |
-| Net loss (Q2 FY25/26) | R$2.3B (vs R$158M profit prior year) |
-| Gross debt (Sep 2025) | R$76.8B ($14.3B) |
-| Net debt | R$53.4B (+49% YoY) |
-| Leverage | 5.1x net debt/adj. EBITDA (vs 2.6x prior year) |
-| EBITDA (trailing) | ~R$13.3B; Fitch projects R$10.9B FY2026 |
-| Cash | R$18.6B + $1B unused revolvers |
-| Debt maturing in 18 months | R$10.5B |
-| Annual interest expense | ~R$9.5B |
+| Net loss (Q3 FY25/26) | **R$15.65B (~$2.7B)** — 6x YoY increase |
+| Impairment charge (Q3) | R$11.1B (~$1.9B) non-cash |
+| Underlying loss ex-impairment (Q3) | R$4.5B (~$776M) — nearly 2x YoY |
+| Net revenue (Q3) | R$60.4B (~$10.4B) — down 9.7% YoY |
+| Adj EBITDA (Q3) | R$3.15B — down 3.3% YoY |
+| Reported EBITDA (Q3) | **Negative R$4.4B** (impairment wipeout) |
+| Gross debt (Dec 2025) | **R$70B+ (~$12.1B)** — up R$18B in 12 months |
+| Net debt (Dec 2025) | **R$55.3B (~$9.5B)** — up 43% YoY |
+| Leverage | **5.3x** net debt/EBITDA (was 1.3x just 18 months ago) |
+| Interest paid (9-month) | **R$7.6B (~$1.3B)** |
 | FCF outlook | Negative through 2027 |
 | USD bonds outstanding | ~$5.3B across 6 issues |
+| Bond prices | **~30 cents on the dollar** |
 | Rating (Feb 10, 2026) | CCC (Fitch), CCC+ (S&P), Caa1 (Moody's) |
+| Fitch action | **8-notch downgrade** — shareholder pledges "too little, too late" |
 | Stock (Feb 12, 2026) | R$0.67 (intraday low R$0.63); ATH R$7.60 (Aug 2021) |
 
 Stock below [[B3]]'s R$1 minimum price threshold since October — must recover by May 2026 or face sanctions.
@@ -83,6 +87,100 @@ Forced selling: institutional investors mandated to hold only investment-grade p
 
 ---
 
+## Q3 FY25/26 results (Feb 13, 2026)
+
+**R$15.65 billion net loss** — the quarter that formalized the crisis in the accounts.
+
+| Metric | Q3 FY25/26 | Q3 prior year | Change |
+|--------|-----------|---------------|--------|
+| Net loss | **R$15.65B (~$2.7B)** | R$2.57B | 6x worse |
+| Net revenue | R$60.4B (~$10.4B) | R$66.9B | -9.7% |
+| Reported EBITDA | **-R$4.4B** | R$2.55B | Swing to negative |
+| Adj EBITDA | R$3.15B | R$3.26B | -3.3% |
+| Cane crushing | 10.6Mt | 13.8Mt | **-23%** |
+| Sugar production | 1.5Mt | 1.8Mt | -17% |
+| Ethanol sales | 778K m³ | 895K m³ | -13% |
+| Sugar sales | 1.33Mt | 1.17Mt | +14% (accelerated to generate cash) |
+
+**The R$11.1B impairment:** Non-cash write-down required after credit downgrades raised cost-of-capital assumptions, reducing present value of future cash flows. The company acknowledged that a significant portion of invested capital — across ethanol plants, cane fields, and expansion projects — is no longer expected to generate returns justifying its carrying value. Management: *"This provision has no cash impact and may be reversed in the future."*
+
+**Operational contraction:** Cane crushing collapsed 23% due to drought-damaged yields in São Paulo and the shrinking mill footprint from asset sales. Ethanol volumes fell 13%. Sugar sales rose 14% as Raízen accelerated shipments to generate cash.
+
+**The debt spiral:** Interest costs consumed R$7.6B in 9 months — faster than operations generate cash. At 5.3x leverage (was 1.3x just 18 months ago), the debt is self-reinforcing: interest accrues → more debt → more interest.
+
+---
+
+## How they got here — the "foretold crisis"
+
+The crisis unfolded over two years through five compounding failures:
+
+**1. Reckless expansion (2016-2024):**
+- Heavy capex across fuel distribution, convenience stores (Oxxo JV with [[Femsa]]), [[E2G]], sugar/ethanol capacity
+- Created "a more complex portfolio than ideal and high leverage at an unfavorable moment in the interest rate cycle" (internal source)
+- Organizational bloat — new structures and management layers "distracted leadership's attention"
+
+**2. Disastrous Biosev acquisition (2021):**
+- Acquired 9 mills from [[Louis Dreyfus Company]] — some in regions where Raízen had never operated, far from existing clusters
+- Couldn't capture synergies or efficiency gains
+- Several of these mills now being sold back at losses
+
+**3. E2G underdelivered:**
+- [[E2G|Second-generation ethanol]] bet fell short of expectations
+- Bonfim plant (world's largest E2G facility) not delivering promised returns
+
+**4. Selic rate shock:**
+- [[Selic]] hikes in 2025 crushed floating-rate borrowers
+- Reverse factoring (90-day) was converted to longer-term bonds at much higher rates
+- R$10.9B in new financial instruments replaced R$6-8B/year of reverse factoring
+- Gross debt surged R$18B in 12 months (R$52B → R$70B)
+
+**5. Asset sales too slow:**
+- R$5B divested in 12 months but couldn't keep pace with debt costs
+- CEO Nelson Gomes replaced Ricardo Mussa (Oct-Nov 2024) to lead restructuring
+- Cost-cutting and simplification plan launched but overtaken by the debt spiral
+
+**One bright spot:** Intensified enforcement against fuel fraud — shutdown of Refit alone opened ~10% of the distribution market in São Paulo and Rio, absorbed by compliant operators like Raízen.
+
+---
+
+## The rescue battle (Feb 2026)
+
+Two competing proposals on the table:
+
+### Shell plan (Feb 18)
+
+| Detail | Value |
+|--------|-------|
+| Total injection | ~R$5B |
+| Shell contribution | **>R$3.5B** (larger than Cosan) |
+| Cosan/Ometto contribution | Remainder |
+| Structure | **Keep Raízen whole** |
+| Next step | Negotiate with R$55B creditors after injection |
+| Debt conversion | Initial conversion of debt into equity likely |
+| Follow-on offering | Possible — would dilute Shell if it doesn't participate |
+
+Shell had previously demanded equal contributions but shifted after failing to find a third investor. Shell would not become controlling shareholder — follow-on offering and creditor equity conversion would rebalance. Creditor banks favor this simpler/faster approach.
+
+### BTG/Cosan plan
+
+| Detail | Value |
+|--------|-------|
+| Total injection | **R$8.3B+** |
+| Partners (Cosan + BTG) | R$3B |
+| BTG PE arm | R$5.3B (into distribution business) |
+| Structure | **Split into two companies** — sugar/ethanol + fuel distribution |
+| Additional | Could increase with follow-on offering |
+
+Some creditor banks oppose this — argue splitting the company at this stage would weaken it further and complicate debt negotiations.
+
+### CEO statement (Feb 16)
+Nelson Gomes said shareholders are "ready to inject capital" and that cutting debt is "absolutely" a priority for controlling shareholders. Not filing for court-supervised restructuring — for now.
+
+### Fitch response (Feb 19)
+Fitch said shareholder pledges were **"too little, too late"** to prevent the 8-notch downgrade. Uncertainty remains over the form and timing of any injection.
+
+---
+
 ## Why shareholders won't inject
 
 - [[Shell]] (44%) — won't push above 50%; crossing that threshold forces [[IFRS]] consolidation of R$76.8B gross debt onto [[Shell]]'s balance sheet
@@ -103,17 +201,19 @@ Forced selling: institutional investors mandated to hold only investment-grade p
 
 ### Options under discussion
 
-- Debt haircut / restructuring
-- Business carve-out (ethanol vs fuel distribution)
-- Equity offering
-- Capital injection from [[Shell]]/[[Cosan]]/[[BTG Pactual]] (up to R$10B)
+- **Shell plan:** ~R$5B injection, keep whole, then negotiate with creditors (see rescue battle section above)
+- **BTG/Cosan plan:** R$8.3B+ injection, split into two companies
+- Debt haircut / restructuring (discussed in Feb 4 meetings with advisers)
+- Debt-to-equity conversion for creditors
+- Follow-on equity offering
 - Stake sale to [[Mitsubishi]] (talks since Sep 2025; [[Mitsui]] also interested)
+- **Not filing for court-supervised restructuring** — for now
 
 ### Asset sales underway
 
 | Asset                                                          | Value          | Status                    |
 | -------------------------------------------------------------- | -------------- | ------------------------- |
-| Argentina ops (Dock Sud refinery 101k bbl/day + ~700 stations) | >$1B           | [[Mercuria Energy Group]] |
+| Argentina ops (Dock Sud refinery 101k bbl/day + ~700 stations) | >$1B           | [[Mercuria Energy Group]] — close to completion |
 | Sao Paulo sugar plant (Leme)                                   | R$425M         | Sold                      |
 | Santa Elisa mill shutdown                                      | R$1.045B freed | Completed                 |
 | Aviation fuel distribution unit                                | Up to $200M    | Under evaluation          |
@@ -140,6 +240,16 @@ Forced selling: institutional investors mandated to hold only investment-grade p
 - [[Brazil corporate bond rout February 2026]] — event context
 - [[Brazil]] — country
 - [[Selic]] — rate environment driving distress
+- [[E2G]] — cellulosic ethanol (underperforming investment)
+- [[Biomass]] — 1.3 GW power generation
+- [[Louis Dreyfus Company]] — former Biosev owner (disastrous acquisition)
+- [[Femsa]] — former Oxxo JV partner (unwound)
+- [[Lazard]] — Shell's adviser
+- [[Rothschild]] — Raízen's financial adviser
+- [[Moelis]] — bondholder financial adviser
+- [[PIMCO]] — creditor committee member
+- [[BlackRock]] — creditor committee member
+- [[T. Rowe Price]] — creditor committee member
 
 ---
 
@@ -154,5 +264,12 @@ Sources:
 - [LatinFinance — Restructuring Concerns Grow (Feb 9, 2026)](https://latinfinance.com/daily-brief/2026/02/09/restructuring-concerns-grow-as-raizen-hires-advisors/)
 
 - [Bloomberg — Raizen's Bondholders Choose Moelis (Feb 12, 2026)](https://www.bloomberg.com/news/articles/2026-02-12/raizen-s-bondholders-choose-moelis-as-financial-adviser)
+- [Bloomberg — Raízen Books $2.1B Impairment (Feb 13, 2026)](https://www.bloomberg.com/news/articles/2026-02-13/raizen-books-2-1-billion-impairment-as-debt-concerns-grow)
+- [Bloomberg — Raízen Mulls Debt Haircut (Feb 4, 2026)](https://www.bloomberg.com/news/articles/2026-02-04/raizen-mulls-debt-haircut-among-options-as-controller-talks-drag)
+- [Valor Internacional — Analysis: Raízen's 'foretold crisis' unfolds (Feb 13, 2026)](https://valorinternational.globo.com/business/news/2026/02/13/analysis-raizens-foretold-crisis-unfolds.ghtml)
+- [Valor Internacional — Shell makes bid for Raízen (Feb 18, 2026)](https://valorinternational.globo.com/business/news/2026/02/18/shell-makes-bid-for-raizen-with-larger-check-than-cosan-and-no-split.ghtml)
+- [Rio Times — Raízen's R$15.6B Loss (Feb 13, 2026)](https://www.riotimesonline.com/raizens-r-156b-loss-lays-bare-a-debt-crisis-with-no-easy-exit/)
+- [Bloomberg — Fitch Flags Uncertainty After Double Downgrade (Feb 19, 2026)](https://www.bloomberg.com/news/articles/2026-02-19/raizen-backers-moved-too-late-to-halt-rating-wipeout-fitch-says)
+- [LatinFinance — Raízen CEO Says Shareholders Ready to Inject Capital (Feb 16, 2026)](https://latinfinance.com/daily-brief/2026/02/16/raizen-ceo-says-shareholders-ready-to-inject-capital/)
 
-*Created 2026-02-10. Updated 2026-02-12.*
+*Created 2026-02-10. Updated 2026-02-19.*
