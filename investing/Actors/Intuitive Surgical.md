@@ -74,6 +74,11 @@ Ranked #3 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Pullback creates entry opportunity. AI-assisted surgery as non-obvious AI beneficiary.
 
+**Zacks detail:** Rank #1 (Strong Buy). Value D, Growth C, Momentum D. Market cap $172.5B. Last Q EPS growth +7.1%, last EPS surprise +12.4%. Next earnings: **April 28, 2026**. Strong procedure momentum across da Vinci and Ion platforms. Growing installed base worldwide. da Vinci 5's higher-compute, software-rich model driving 2026-2027 consensus up-curve. Navigating tariff impacts on equipment costs.
+
+![[isrg-eps-surprise-chart.jpg]]
+*ISRG EPS consensus steadily rising: $5.50 (2023) → $10+ (2027E). All green arrows (beats). Price pulled back from $580 peak. Source: Zacks*
+
 ---
 
 ## Related
