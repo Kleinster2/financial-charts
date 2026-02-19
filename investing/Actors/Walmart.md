@@ -54,6 +54,26 @@ Significant [[India]] fintech exposure through PhonePe.
 
 ---
 
+## Q4 FY2026 earnings preview (reports Feb 19, 2026)
+
+| Metric | Estimate | YoY change |
+|--------|----------|------------|
+| Revenue | ~$190B | +5.2% |
+| EPS | $0.73 | +10.6% |
+| Trailing 4Q avg surprise | +0.8% | — |
+| Last Q surprise | +1.6% | — |
+
+Key dynamics:
+- E-commerce +27% last Q (store-fulfilled pickup/delivery, marketplace expansion)
+- Higher-margin streams accelerating: advertising revenue, Walmart+ membership, retail media
+- Grocery + health & wellness driving traffic across income cohorts
+- International strength: [[China]], [[Mexico]], [[India]] (constant-currency)
+- Risks: tariff-related costs, higher claims expenses, category mix headwinds from grocery/consumables
+
+**Stock:** $133.89, +29% YoY (outpacing S&P 500 +13.9%). EPS consensus rising from $2.15 (2022) → $2.94 (2025E) → $3.29 (2027E). P/E expanding alongside earnings growth — market re-rating Walmart as a tech-enabled retail platform.
+
+---
+
 ## Investment case
 
 **Bull:**
