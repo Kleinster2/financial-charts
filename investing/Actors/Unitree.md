@@ -66,7 +66,7 @@ Three deep dives cover the structural advantages:
 
 ## Robots making robots (Feb 2026)
 
-Unitree deployed G1 humanoids in its own factory using the **UnifoLM-X1-0** embodied AI model. Robots performing assembly and inspection tasks alongside human workers — a self-referential proof of concept (robots building robots). Strengthens the IPO case by demonstrating real factory utility beyond demos. Mid-2026 IPO timeline on track.
+Unitree deployed G1 humanoids in its own factory using the [[UnifoLM|UnifoLM-X1-0]] embodied AI model. Robots performing assembly and inspection tasks alongside human workers — a self-referential proof of concept (robots building robots). Strengthens the IPO case by demonstrating real factory utility beyond demos. Mid-2026 IPO timeline on track. See [[UnifoLM]] for the full model family and data engine strategy.
 
 ---
 
@@ -140,4 +140,5 @@ Bear:
 - [[MagicLab]] — gala co-performer
 - [[Galbot]] — gala co-performer
 - [[Noetix]] — gala co-performer
+- [[UnifoLM]] — embodied AI model family (WMA, VLA, X1-0)
 - [[Robotics]] — sector overview
