@@ -63,6 +63,9 @@ Significant [[India]] fintech exposure through PhonePe.
 | Trailing 4Q avg surprise | +0.8% | — |
 | Last Q surprise | +1.6% | — |
 
+![[wmt-eps-surprise-chart.jpg]]
+*EPS surprise history and consensus estimates through 2027. Source: Zacks Investment Research*
+
 Key dynamics:
 - E-commerce +27% last Q (store-fulfilled pickup/delivery, marketplace expansion)
 - Higher-margin streams accelerating: advertising revenue, Walmart+ membership, retail media
