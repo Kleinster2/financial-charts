@@ -63,9 +63,29 @@ Super Bowl 2026 signaled the shift (Svedka Vodka AI-generated ad). The bigger ri
 
 ---
 
+## The workflow orchestration layer
+
+The real moat claim from vertical AI companies isn't "we use better models" — it's "we built the orchestration layer that chains AI capabilities into professional-grade workflows."
+
+What this looks like in practice:
+
+[[Legora]] Workflows (launched Jun 2025): lawyers enter a plain-language goal ("run due diligence on these 2,000 documents"), upload files, and the system autonomously plans multi-step execution — tabular extraction → case law web search → citation verification via legal database → draft report sections. No no-code builder. Firm-specific protocols baked in. Their Portal product goes further: firms productize their expertise and deliver to clients through custom AI workflows and playbooks.
+
+[[Harvey]]: similar multi-step chains for document review, contract analysis, brief drafting — integrated with LexisNexis, iManage, NetDocs for data retrieval.
+
+[[RELX]] / LexisNexis (Jan 2026): hundreds of pre-built, configurable workflows for disputes, case strategy, and other legal processes. Deployable out-of-box or tailored with firm-specific guidance.
+
+[[Anthropic]] Cowork: plug-ins + subagents for company-specific processes. Same agentic pattern, but generic — no domain-specific tool integrations, no firm protocol adherence, no legal database verification steps.
+
+The pattern across all of these: agentic AI that chains tools together in domain-specific sequences. The question is whether the domain-specific sequencing is the moat (vertical bull case) or whether horizontal platforms will learn those sequences from usage data (horizontal bull case).
+
+Key difference: vertical orchestration includes domain-specific quality checks (citation verification, compliance audit trails, regulatory flag triggers) that horizontal platforms skip. This is where Luminance's "consistency and trust" argument lands — it's not about the AI being smarter, it's about the chain having the right checkpoints.
+
+---
+
 ## The architecture question
 
-Most vertical AI companies are **application-layer businesses** built on horizontal model infrastructure:
+Most vertical AI companies are application-layer businesses built on horizontal model infrastructure:
 - [[Harvey]] uses Anthropic/[[OpenAI]] models
 - [[WPP]] uses Gemini/[[OpenAI]]/Anthropic
 - [[Pigment]] integrates AI into proprietary planning engines
