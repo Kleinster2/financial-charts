@@ -675,7 +675,7 @@ Market positioning (Dec 2025):
 - [[Lambda Labs]] — NVIDIA-financed neocloud
 - [[SEA chip diversion]] — gray market [[China]] revenue (tailwind + risk)
 - [[Southeast Asia]] tech race — Chinese DC buildout destination
-- [[Meta]] — multiyear "millions" chip deal (Blackwell + Vera Rubin + Grace CPUs, Feb 2026)
+- [[Meta]] — "multigenerational" deal: GPUs (Blackwell + Rubin) + CPUs (Vera) + networking. Full-stack standardization, millions of chips. Pushes into [[Intel]]/[[AMD]] CPU turf (Feb 2026)
 - [[ByteDance]] — \#2 GPU customer (~250K Hopper, 2024)
 - [[Tencent]] — \#3 GPU customer (~220K Hopper, 2024)
 - [[Archer Aviation]] — eVTOL partner (IGX Thor, CES 2026)
