@@ -104,8 +104,11 @@ Rising rates headwind for leveraged buyouts but tailwind for credit funds.
 ### Outliers
 - [[BlackRock]] — traditional asset manager, not PE
 
+### Sectors
+- [[Private Credit]] — sector hub (BDCs, direct lending, retail liquidity crisis)
+
 ### Concepts
-- [[Private credit]] — growth driver
+- [[Private credit]] — structural analysis
 - [[Dry powder]] — capital ready to deploy
 
 *Created 2026-01-30*
