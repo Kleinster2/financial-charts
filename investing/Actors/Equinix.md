@@ -151,3 +151,4 @@ Global footprint = enterprise appeal.
 - [[AI infrastructure financing]] — thesis context
 - [[Ashburn]] — major presence
 - [[Bogotá Data Hub]] — operator (since 2017)
+- [[Equinix Brasil]] — Brazilian subsidiary (8 DCs, 4 expansions, R$1.5B+ committed)
