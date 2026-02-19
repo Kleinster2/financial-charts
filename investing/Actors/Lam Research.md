@@ -103,6 +103,11 @@ Ranked #4 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Etch/deposition demand rising with advanced packaging and HBM. Solid growth at reasonable semi-equipment P/E.
 
+**Zacks detail:** Rank #1 (Strong Buy). Value F, Growth C, Momentum D. Market cap $294B. Last Q EPS growth +0.8%, last EPS surprise +8.6%. Next earnings: **April 22, 2026**. Advanced packaging momentum driven by AI — foundry-logic integration + next-gen HBM architectures. Management expects advanced packaging to outpace broader WFE growth. Vertical scaling as structural driver — each new node expands opportunity. Strong installed base expansion and share gains.
+
+![[lrcx-eps-surprise-chart.jpg]]
+*LRCX EPS breakout: 2026-2027 consensus inflecting sharply higher on AI equipment upcycle. Price $60→$240. Source: Zacks*
+
 ---
 
 ## For theses
