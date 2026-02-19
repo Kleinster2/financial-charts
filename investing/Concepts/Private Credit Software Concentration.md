@@ -152,3 +152,4 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 - [[Anthropic]] — AI tools triggered the selloff
 - [[Wesleyan Endowment]] — institutional allocator with VC/PE software exposure
 - [[SaaSpocalypse]] — related thesis on AI disrupting SaaS
+- [[Blue Owl OBDC II redemption gate]] — event (first retail BDC gate, Feb 2026)

@@ -208,3 +208,4 @@ Sources:
 - [[Private Credit Software Concentration]] — risk factor (13% internet software exposure)
 - [[Alternative asset managers basket]] — sector contagion from OBDC II gate
 - [[Private credit]] — market context ($1.8T market)
+- [[Blue Owl OBDC II redemption gate]] — event (Feb 2026, first retail BDC gate)
