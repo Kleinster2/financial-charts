@@ -238,6 +238,9 @@ Mobile squeeze is real — strongest profit momentum. Core DC weakest.
 
 ---
 
+![[mu-eps-surprise-chart.jpg]]
+*MU EPS explosion: from negative EPS (2023) to $45+ consensus (2027E). Consistent beats. Price $50→$420. Source: Zacks*
+
 ## Zacks top AI stock (Feb 2026)
 
 Ranked #1 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
