@@ -70,6 +70,10 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | [[OpenAI]] | Education partnerships with IIT-Delhi, IIM-A, AIIMS, Manipal + ed-tech (PhysicsWallah, upGrad, HCL GUVI); 100K students to benefit |
 | India govt | 20,000 GPUs to be added to existing 38,000 national AI compute base (Vaishnaw); Guinness World Record for 250,946 "Responsible AI" pledges in 24 hours |
 | [[Sarvam AI]] | Unveiled India-tailored AI model (competitor to ChatGPT/Claude for Indian market) |
+| [[Reliance Industries]] | ₹10 lakh crore ($109.8B) over 7 years for AI + data infrastructure (announced Day 4) |
+| [[Tata Group]] / [[OpenAI]] | Strategic partnership — OpenAI first customer of TCS data centres under Stargate; 100MW scalable to 1GW |
+| [[Tata Group]] | Working on industry-specific AI chips (Chandrasekaran, Day 4) |
+| [[Nvidia]] / [[L&T]] | Joint venture for gigawatt-scale AI factory and AI-ready data center infra |
 
 ---
 
@@ -149,12 +153,25 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **PM Modi held 9 bilateral meetings** with world leaders and business executives
 - **Summit schedule change**: expo extended to Saturday Feb 21 for public; Bharat Mandapam **closed to public Thu Feb 19** (leaders-only day)
 
-### Day 4 — Feb 19 (Thu): Leaders' day (closed to public)
-- PM Modi inaugural address and CEO roundtable expected
-- Modi-Macron bilateral; Bharat Mandapam closed to general public
+### Day 4 — Feb 19 (Thu): Leaders' Plenary & mega-deals (closed to public)
+- **PM Modi unveiled "MANAV Vision"** — human-centric AI governance framework (MANAV = "human" in Hindi); keynote at leaders' plenary urged Global South priorities at center of AI governance; "India sees future, not fear in AI"; "India not just part of AI revolution, but leading it"
+- **Mukesh Ambani: ₹10 lakh crore ($109.8B) Reliance/Jio investment** over 7 years in AI and data infrastructure — "patient, disciplined nation-building capital, not speculative"; one of largest private AI infra commitments globally
+- **Tata Group–OpenAI strategic partnership**: OpenAI becomes first customer of TCS data centre business under Stargate initiative; starting with 100MW capacity, scalable to 1GW; focused on data residency, security, domestic capability
+- **N. Chandrasekaran (Tata Sons)**: Tata working on industry-specific AI chips; data centres to semiconductors to vertical AI solutions; "work has already started" (no timeline given)
+- **Sam Altman**: called for "urgent" AI regulation; identified India as primary driver of future AI innovation, said India will wield "huge amount of influence" over how AI evolves globally
+- **Dario Amodei (Anthropic)**: appeared at summit alongside Altman — awkward onstage group photo moment with PM Modi (Altman: "Modi grabbed my hand and put it up, I wasn't sure what we were supposed to be doing")
+- **Emmanuel Macron**: "AI has become major field of strategic competition" — referenced Stargate and DeepSeek as landscape shifts; said no country should be "overlord" of another (implicit rebuke of Trump-era US posture); bilateral with Modi described as "highest point" in India-France ties
+- **Alexandr Wang (Meta Chief AI Officer)**: called for bold national strategies and deep public-private collaboration; 4 building blocks of AI: talent, energy, data, compute
+- **Bill Gates withdrew** from keynote hours before speech amid Epstein files controversy; Gates Foundation said withdrawal was to "ensure focus remains on summit's key priorities"; Foundation represented by Ankur Vora instead; follows Jensen Huang's earlier withdrawal (Feb 14)
+- **UK Deputy PM David Lammy**: 150 British companies now operating in India's AI sector, building on India-UK CETA signed in 2025
+- **Swiss President Guy Parmelin**: Switzerland to host **AI Summit 2027 in Geneva**; bilateral with Modi described as "excellent"
+- **Crown Prince of Abu Dhabi** attending summit
+- **$260B+ in cumulative AI investment pledges** announced across summit (Reliance $109.8B + Adani $100B + Microsoft $50B + Yotta $2B + others)
+- **Nvidia–L&T**: proposed venture to build gigawatt-scale AI factory / AI-ready data center infrastructure
+- **OpenAI on regulation**: Altman said regulation "urgently" needed but cautioned against premature rules that could stifle innovation
 
 ### Day 5 — Feb 20 (Fri): CEO day
-- Modi-Macron co-appearance; Pichai, Altman, Amodei, Hassabis sessions expected
+- Pichai, Altman, Amodei, Hassabis sessions expected; Modi-Macron co-appearance
 
 ### Day 6 — Feb 21 (Sat): Extended expo day
 - Expo reopened to public due to overwhelming demand
