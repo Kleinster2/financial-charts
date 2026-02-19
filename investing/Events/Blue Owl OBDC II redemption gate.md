@@ -64,11 +64,12 @@ Five layers of pressure converged:
 - Continued acceleration into early 2026
 
 ### 4. Botched merger destroyed trust
-- Nov 2025: Blue Owl tried to merge OBDC II into larger, publicly-traded OBDC
-- Would have imposed **~20% losses** on OBDC II investors
+- Late 2025: Blue Owl tried to merge OBDC II into publicly-traded OBDC
+- Would have imposed **~20% losses** on OBDC II investors due to trading price of public vehicle
 - Abandoned after stock selloff and investor backlash
 - Redemptions frozen during merger negotiations
 - Investors expected redemptions to resume Q1 2026 — instead got permanent halt
+- After merger failed, Blue Owl pivoted to loan sales as the exit path
 
 ### 5. Structural liquidity mismatch
 - Retail investors were sold quarterly 5% NAV redemption windows
@@ -96,7 +97,15 @@ Five layers of pressure converged:
 
 **Mohamed El-Erian:** *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007? The question will be on the minds of some investors and policymakers this morning."* Said it raises questions about systemic risks and *"a significant — and necessary — valuation hit is looming for specific assets."*
 
-**Craig Packer (Blue Owl co-President):** Framed the halt as orderly wind-down, not a crisis. Hopes to return capital "quickly" to OBDC II investors.
+**Craig Packer (Blue Owl co-President):** *"We aren't halting redemptions... We've been tendering for 5% of the shares of this fund for eight years. Instead of resuming 5% a quarter, we are in fact accelerating redemptions. And we're going to return to this investor group 30% of their capital at book value in the next 45 days."* Sold $1.4B at near-par — called it *"strong for any asset class to clear that kind of size at that kind of price."*
+
+**Michael Covello (Robert A Stanger & Co.):** Called it a *"favorable outcome"* — 30% distribution at book value better than the ~20% loss investors faced from the terminated merger.
+
+**Barclays:** Called the loan sale *"a strong step toward winding down the fund."*
+
+**Sen. Elizabeth Warren:** Called for increased bank capital requirements for private credit exposures, greater data disclosure, and a stress test. *"The Trump administration needs to wake up. Stop pushing these risky investments into Americans' retirement accounts."*
+
+**Blue Owl spokesperson:** *"Contrary to what has been reported by some, we are not halting investor liquidity."*
 
 **247 Wall Street analysis:** Pushes back on crisis narrative — OBDC II delivered **80% cumulative returns (9.3% annualized)** since inception, non-accruals under 2%, realized losses only 23 bps. This is a finite-life fund approaching its natural end date, not a blowup.
 
@@ -117,6 +126,8 @@ OBDC II is the **first major test** of this model under stress. At $1.7B, it's s
 | ARCC | $26B+ | [[Ares Management]] | Largest BDC |
 | Blackstone Private Credit | $50B+ | [[Blackstone]] | Largest private |
 | Apollo private credit retail | Various | [[Apollo]] | Growing fast |
+
+Industry-wide: BDCs with >$1B AUM saw **$2.9B in withdrawal requests in Q4 2025**, up **200% from Q3** (Robert A Stanger & Co.). The exodus is already underway.
 
 If redemption pressure spreads to these larger vehicles, the $1.8T private credit market faces a real liquidity event.
 
@@ -210,7 +221,7 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 | Middle-market default rate | 4.55% |
 | Downgrades > upgrades | 7 consecutive quarters |
 
-*Sources: Reuters, CNBC, Bloomberg, 247 Wall Street (Feb 18-19, 2026)*
+*Sources: Reuters, CNBC, Bloomberg (Fishlow/DiMauro/Brown), 247 Wall Street (Feb 18-19, 2026)*
 *Created 2026-02-19*
 
 ---

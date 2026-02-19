@@ -134,7 +134,11 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 - Sold loans at **99.7% of par** — no distress pricing
 - OBDC II historical performance: **80% cumulative returns, 9.3% annualized** since inception, non-accruals under 2%, realized losses only 23 bps
 
+**Industry-wide redemption pressure:** BDCs with >$1B AUM saw **$2.9B in withdrawal requests in Q4 2025**, up **200% from Q3** (Robert A Stanger & Co.). Not just a Blue Owl problem.
+
 **Contagion:** Alt manager stocks sold off across the board — [[Apollo]] -6%, [[Blackstone]] -6%, [[Ares Management]] -6%, [[KKR]] -4%, [[Carlyle Group]] -5%. Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007?"*
+
+**Political response:** Sen. Elizabeth Warren called for increased bank capital requirements for private credit exposures, greater data disclosure from funds, and a stress test for the market.
 
 **Bear vs bull read:**
 - **Bear:** First retail BDC to permanently gate investors. If redemption pressure spreads to larger vehicles (OBDC at $16B+, or competitor retail BDCs), the $1.8T private credit market faces a liquidity event. Software concentration (13% of sold loans) validates [[Private Credit Software Concentration]] thesis
@@ -142,7 +146,7 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 **Q4 2025 earnings call (same day, Feb 19):**
 
-CEO Craig Packer dismissed "halted redemptions" framing as a *"complete mischaracterization"* — said OBDC II is doing accelerated 30% pro rata capital return with continued quarterly 5% distributions. Key portfolio metrics undercut the crisis narrative:
+CEO Craig Packer dismissed "halted redemptions" framing as a *"complete mischaracterization"* — said OBDC II is doing accelerated 30% pro rata capital return with continued quarterly 5% distributions. Packer on earnings call: *"We've been tendering for 5% of the shares of this fund for eight years. Instead of resuming 5% a quarter, we are in fact accelerating redemptions."* Sold $1.4B at near-par across three vehicles to North American public pension funds and insurance companies. Barclays called it *"a strong step toward winding down the fund."* Key portfolio metrics undercut the crisis narrative:
 
 | Metric | Q4 2025 | Trend |
 |--------|---------|-------|
