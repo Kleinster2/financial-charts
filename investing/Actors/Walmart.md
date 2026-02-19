@@ -73,6 +73,12 @@ Key dynamics:
 - International strength: [[China]], [[Mexico]], [[India]] (constant-currency)
 - Risks: tariff-related costs, higher claims expenses, category mix headwinds from grocery/consumables
 
+![[wmt-price-vs-peers-chart.jpg]]
+*WMT +29% vs S&P 500 +13.9%, Retail-Supermarkets +28.2%, Retail-Wholesale -2.4% (1Y). Source: Zacks*
+
+![[wmt-pe-ratio-chart.jpg]]
+*WMT forward P/E (45.3x) vs Retail-Supermarkets industry (41.2x). Range: 30.5–48.6x over past year. Source: Zacks*
+
 **Valuation:** Forward P/E 45.3x vs industry avg 41.2x. Premium to [[Kroger]] (13.4x) and [[Target]] (14.9x), below [[Costco]] (48.4x). Market re-rating Walmart as a tech-enabled retail platform — but elevated multiple leaves little room for missteps.
 
 **Stock:** $133.89, +29% YoY — outpacing S&P 500 (+13.9%), [[Kroger]] (+9.2%), [[Costco]] (-3.9%), [[Target]] (-11.1%). EPS consensus rising from $2.15 (2022) → $2.94 (2025E) → $3.29 (2027E).
