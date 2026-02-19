@@ -113,24 +113,32 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 | OBDC | $400M | 2% | Normal operations |
 | OTIC | $400M | 6% | Normal operations |
 
-**The OBDC II bombshell:**
-- Semi-liquid retail-focused private credit fund — exactly the type of vehicle the industry has been pushing to Main Street investors
-- **Quarterly redemptions permanently ended** — replaced by "periodic payouts" funded by asset sales, earnings, and repayments
-- Investors receive up to **$2.35/share (~30% of NAV)** as return of capital
-- Board simultaneously approved **$300M stock buyback** (replacing prior $200M authorization)
-- Sold loans: 97% senior secured, 128 portfolio companies, 27 industries. Largest sector: **internet software & services at 13%**
+**OBDC II fund profile:**
+- Launched **2017** as a finite-life vehicle (~10-year horizon, wind-down around 2027)
+- Non-traded BDC aimed at **retail investors** with quarterly 5% NAV redemption windows
+- Semi-liquid private credit fund lending to US middle-market companies
+- Exactly the type of vehicle the industry has been pushing to Main Street
 
-**Context — the botched OBDC II merger (Nov 2025):**
-- Blue Owl attempted to merge OBDC II into the larger, publicly-traded OBDC
-- Would have imposed **~20% losses** on OBDC II investors
-- Abandoned after stock sold off and investor backlash
-- Redemptions were halted during the merger attempt — now permanently halted
+**What triggered the crisis (causal chain):**
 
-**Rising redemption requests** preceded the asset sale (Bloomberg). The fund was facing a classic liquidity mismatch: retail investors wanted quarterly liquidity from an illiquid private credit portfolio.
+1. **Credit quality deterioration** — middle-market borrower defaults climbed to **4.55%**. Downgrades outpacing upgrades for **7 consecutive quarters**. High interest rates squeezing floating-rate borrowers
+2. **Software selloff** — S&P 500 Software & Services index lost **~$2 trillion** since October peak, ~half in February alone. AI disruption fears hitting valuations of the exact companies OBDC II lent to
+3. **Redemption surge** — ~$150M in redemption requests in first 9 months of 2025, **up 20% YoY**. Investors questioning underlying loan quality
+4. **Botched OBDC II → OBDC merger (Nov 2025)** — would have imposed **~20% losses** on OBDC II investors. Abandoned after stock sold off and backlash. Redemptions frozen during merger attempt — investors expected them to resume this quarter
+5. **Liquidity mismatch** — underlying loans can't be sold quickly without losses. Honoring redemptions would benefit early redeemers at remaining investors' expense. Blue Owl chose to gate everyone equally
 
-**Contagion:** Alternative asset manager stocks sold off across the board — [[Apollo]], [[KKR]], [[Blackstone]], [[Ares Management]], [[Brookfield]] all hit. Validates the [[Private Credit Software Concentration]] thesis — 13% of sold loans were internet software.
+**The resolution:**
+- **Quarterly redemptions permanently ended** — replaced by pro-rata distributions funded by asset sales, earnings, and repayments
+- Investors receive up to **$2.35/share (~30% of NAV)** by end of March
+- Board approved **$300M stock buyback** (replacing prior $200M authorization)
+- Sold loans at **99.7% of par** — no distress pricing
+- OBDC II historical performance: **80% cumulative returns, 9.3% annualized** since inception, non-accruals under 2%, realized losses only 23 bps
 
-**The signal:** This is the first major retail-facing private credit fund to permanently gate investors. If redemption pressure spreads to larger vehicles (OBDC itself at $16B+, or competitors' retail BDCs), the $1.8T private credit market faces a liquidity event.
+**Contagion:** Alt manager stocks sold off across the board — [[Apollo]] -6%, [[Blackstone]] -6%, [[Ares Management]] -6%, [[KKR]] -4%, [[Carlyle Group]] -5%. Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007?"*
+
+**Bear vs bull read:**
+- **Bear:** First retail BDC to permanently gate investors. If redemption pressure spreads to larger vehicles (OBDC at $16B+, or competitor retail BDCs), the $1.8T private credit market faces a liquidity event. Software concentration (13% of sold loans) validates [[Private Credit Software Concentration]] thesis
+- **Bull:** Controlled wind-down of a finite-life fund approaching its natural end date. Sold at near-par (no fire sale). Strong historical returns. Pro-rata distribution treats all shareholders equally
 
 *Sources: CNBC, Bloomberg, Reuters (Feb 18-19, 2026)*
 
