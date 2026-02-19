@@ -9,7 +9,7 @@ aliases: []
 
 ## Why Equinix Brasil matters
 
-Brazil is Equinix's largest market in Latin America and one of its fastest-growing globally. The subsidiary is running 4 simultaneous expansion projects — unprecedented for the company in Brazil — as AI demand accelerates.
+[[Brazil]] is [[Equinix]]'s largest market in [[Latin America]] and one of its fastest-growing globally. The subsidiary is running 4 simultaneous expansion projects — unprecedented for the company in Brazil — as AI demand accelerates.
 
 | Metric | Value |
 |--------|-------|
@@ -43,7 +43,7 @@ Equinix announced a **$74 million** (~R$400 million) investment in one of its S�
 **Context:**
 - One of 4 expansion projects running simultaneously in Brazil
 - Brazil has 4 of Equinix's 52 global expansion projects — disproportionate share
-- This investment was committed **before** REDATA regulatory approval — signals deep confidence in Brazil
+- This investment was committed **before** [[REDATA]] regulatory approval — signals deep confidence in [[Brazil]]
 - Over R$1.5 billion committed to Brazil in the trailing 12 months, up from a baseline of R$1B+/year
 
 ---
@@ -52,9 +52,9 @@ Equinix announced a **$74 million** (~R$400 million) investment in one of its S�
 
 **Renewable energy coverage:**
 - All Rio and São Paulo units already used **certified renewable energy** (purchasing renewable energy credits)
-- Upgraded to a **PPA (Power Purchase Agreement) with Auren Energia**
-  - Equinix became a **co-investor/partner** in Auren's wind projects (not just an energy buyer)
-  - **Wind farms in the Nordeste (Northeast Brazil)**
+- Upgraded to a **PPA (Power Purchase Agreement) with [[Auren Energia]]**
+  - [[Equinix]] became a **co-investor/partner** in Auren's wind projects (not just an energy buyer)
+  - **Wind farms in the Nordeste (Northeast [[Brazil]])**
   - Operated by an **all-women team** — one of the only such projects in Brazil
   - Covers all São Paulo and Rio data centers
 
@@ -77,7 +77,7 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 
 **What REDATA proposes:**
 1. **Reduce import taxation** on data center equipment
-2. **Allow GPU imports without import tax** — critical for AI training
+2. **Allow [[GPU]] imports without import tax** — critical for AI training
 3. **Align AI regulation** with international frameworks — needed for companies to train models with proprietary data in Brazil
 4. **Privacy and confidentiality** framework compatible with global standards
 
@@ -87,8 +87,8 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 - Vitor Arnô's view: timing is critical — if not approved in this window, Brazil loses the opportunity to competitors
 
 **Why it matters beyond cost:**
-- Even with cheap GPUs, **nobody will train proprietary models in Brazil** without compatible AI regulation
-- REDATA addresses multiple layers: cost → legislation → privacy → AI framework
+- Even with cheap [[GPU]]s, **nobody will train proprietary models in [[Brazil]]** without compatible AI regulation
+- [[REDATA]] addresses multiple layers: cost → legislation → privacy → AI framework
 - One of several necessary steps, not sufficient alone
 
 ---
@@ -98,29 +98,29 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 **Competitive advantages:**
 1. **Renewable energy** — abundant generation (wind in Nordeste, solar)
 2. **Water abundance** — though modern DCs don't need it
-3. **Submarine cable connectivity** — Fortaleza is one of the largest cable landing points globally
-4. **Market demand** — largest market in Latin America, already the regional hub
+3. **Submarine cable connectivity** — [[Fortaleza]] is one of the largest cable landing points globally
+4. **Market demand** — largest market in [[Latin America]], already the regional hub
 5. **Talent pool**
 
 **Limitations:**
 - **Transmission constraints** — energy generation is abundant but grid delivery is uneven in certain regions
-- **Regulatory uncertainty** — REDATA approval window is narrow
+- **Regulatory uncertainty** — [[REDATA]] approval window is narrow
 - **Import costs** — structural disadvantage without reform
 
 **Competitive landscape:**
-- Competing with **Saudi Arabia**, **India**, and others for "global AI pole" status
+- Competing with [[Saudi Arabia]], [[India]], and others for "global AI pole" status
 - Multiple poles will exist globally — not winner-take-all
 - Brazil could be the **first major hub in the Southern Hemisphere**
 - Strategic geopolitical importance — AI is now directly tied to geopolitical positioning
 
-**2026 elections** may shift the regulatory landscape — adds urgency to passing REDATA now.
+**2026 elections** may shift the regulatory landscape — adds urgency to passing [[REDATA]] now.
 
 ---
 
 ## Fortaleza submarine cable hub
 
-- **Fortaleza** is one of the **largest submarine cable landing points in the world**
-- Receiving new cables **from Africa** and other locations
+- [[Fortaleza]] is one of the **largest submarine cable landing points in the world**
+- Receiving new cables **from [[Africa]]** and other locations
 - Strategically critical for Brazil's global connectivity position
 - **Praia Grande (São Paulo)** and **Rio de Janeiro** also serve as cable landing points
 - Must be developed further for Brazil to take the next step in global AI positioning
@@ -143,7 +143,7 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 - Telecommunications infrastructure must keep pace with DC buildout
 
 **Equinix Brasil's role:**
-- Serves as the **traffic exchange point** — when other providers build DCs in Brasília, BH, Curitiba, Porto Alegre, they connect back to Equinix in Rio/SP
+- Serves as the **traffic exchange point** — when other providers build DCs in Brasília, Belo Horizonte, Curitiba, Porto Alegre, they connect back to [[Equinix]] in Rio/SP
 - This is a global Equinix strategy: dominate the #1 and #2 economic centers, let partners serve secondary markets
 - A third Brazilian market (beyond Rio/SP) will come when demand justifies it
 
@@ -151,7 +151,7 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 
 ## Space-based data centers
 
-Vitor Arnô commented on Elon Musk's space data center concept:
+Vitor Arnô commented on [[Elon Musk]]'s space data center concept:
 - Some workloads **will** run in space — especially satellite-generated data processed in orbit (cheaper than downlinking)
 - **Will not replace** ground-based processing for user-proximate workloads
 - Part of the **distributed hybrid architecture** — complementary, not competing
@@ -161,10 +161,10 @@ Vitor Arnô commented on Elon Musk's space data center concept:
 
 ## 2026 outlook (Vitor Arnô)
 
-- Brazil continues as **Latin America's undisputed hub** — trend is irreversible
+- [[Brazil]] continues as [[Latin America]]'s undisputed hub — trend is irreversible
 - Data consumption only grows (mobile, real-time content)
 - **Positive growth year** expected regardless of regulation
-- If REDATA + AI policies pass: **"completely changes the face of the market"**
+- If [[REDATA]] + AI policies pass: **"completely changes the face of the market"**
   - New growth layers unlock
   - Brazil becomes attractive to international players
   - Potential for **unprecedented long-term capital inflows** into digital infrastructure
@@ -182,8 +182,8 @@ Vitor Arnô commented on Elon Musk's space data center concept:
 | Facilities | 8 (5 SP, 3 RJ) |
 | Active expansions | 4 simultaneous |
 | Annual investment | R$1B+ (accelerating to R$1.5B+) |
-| Energy | 100% renewable (Auren Energia PPA) |
-| Key regulation | REDATA (pending) |
+| Energy | 100% renewable ([[Auren Energia]] PPA) |
+| Key regulation | [[REDATA]] (pending) |
 
 *Source: CNBC Brasil interview with Vitor Arnô, Feb 2026*
 *Created 2026-02-19*
