@@ -116,6 +116,11 @@ Ranked #2 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Strongest 12-week momentum of the five picks. AI chip complexity = more test steps per device.
 
+**Zacks detail:** Rank #1 (Strong Buy). Growth Score A, Momentum C, Value F. Market cap $49.3B. Last Q EPS growth +111.8%, last EPS surprise +32.4%. Next earnings: **April 27, 2026**. Over 60% of revenue tied to AI applications, Semi Test ~80% of portfolio. Targeting $12–14B ATE market opportunity and path to $6B revenue. AI-led growth across compute, memory, photonics, high-performance interconnect. Robotics (Universal Robots) positioned around Physical AI.
+
+![[ter-eps-surprise-chart.jpg]]
+*TER EPS breakout: 2026-2027 consensus stair-stepping higher on AI test cycles. Price $100→$315. Source: Zacks*
+
 ---
 
 ## Related
