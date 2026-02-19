@@ -34,21 +34,21 @@ Companies that own proprietary data corpora accumulated over decades and sell an
 
 The central question for this sector: does AI strengthen or erode the data moat?
 
-**AI as tailwind (bull case):**
+AI as tailwind (bull case):
 - These companies own the training data and retrieval corpora AI models need
 - Can embed AI into existing products → charge more, expand margins
 - RELX operating margin: 33.9% → 34.8% as AI improves cost leverage
 - Customers want AI-enhanced analytics from trusted sources with audit trails
 - CEO Engstrom (RELX, Feb 2026): AI "enabling us to add more value"
 
-**AI as threat (bear case):**
+AI as threat (bear case):
 - Horizontal AI platforms ([[Anthropic]], [[OpenAI]]) could bypass proprietary data with web-scale training
 - AI startups ([[Harvey]], [[Legora]]) iterate faster on UX and workflow
 - Open access movements threaten academic publishing (Elsevier)
 - Clients could build their own tools with Claude/GPT instead of paying for packaged analytics
 - LLMs getting better at synthesizing publicly available information
 
-**The paradox:** AI startups often build on top of these companies' data. [[Harvey]] integrates with LexisNexis. Financial AI tools pull from Bloomberg/FactSet. The data owners are simultaneously the incumbents being disrupted and the infrastructure layer the disruptors depend on.
+The paradox: AI startups often build on top of these companies' data. [[Harvey]] integrates with LexisNexis. Financial AI tools pull from Bloomberg/FactSet. The data owners are simultaneously the incumbents being disrupted and the infrastructure layer the disruptors depend on.
 
 See [[Horizontal vs vertical AI]] for the deeper framework.
 
