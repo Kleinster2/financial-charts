@@ -38,6 +38,10 @@ Emerged just in time for Barbenheimer summer 2023. Debt-to-equity conversion gav
 | **Regal** | **~7,000** | **Cineworld (private)** |
 | [[Cinemark]] | ~4,500 | Public (CNK) |
 
+## Leadership
+
+- [[Mooky Greidinger]] — former Cineworld CEO, Israeli cinema dynasty (family stake ~29%)
+
 ## Related
 
 - [[Cineworld]] — parent company
