@@ -1,97 +1,55 @@
 ---
 aliases: [EBAY]
 ---
-#actor #company #ecommerce #marketplace #usa #public
+#actor #ecommerce #marketplace #usa #public
 
-**eBay** — Online marketplace pioneer. [[Nasdaq]]: EBAY. C2C and small business focus. $70B+ GMV.
+# eBay (NASDAQ: EBAY)
 
----
+Online marketplace pioneer, now focused on **C2C resale and pre-owned goods**. Pivoting from general marketplace to curated verticals (fashion, collectibles, motors, luxury).
 
-## Why eBay matters
-
-| Metric | Value |
-|--------|-------|
-| Ticker | EBAY ([[Nasdaq]]) |
-| Market cap | ~$30B |
-| GMV | $70B+ |
-| Active buyers | 130M+ |
-| HQ | San Jose |
-
-Original online marketplace, now focused niche.
-
----
-
-## Business model
-
-| Revenue | Source |
-|---------|--------|
-| Transaction fees | ~13% take rate |
-| Promoted listings | Advertising |
-| Payments | eBay Managed Payments |
-
----
-
-## Strategic focus
-
-| Category | Description |
-|----------|-------------|
-| **Enthusiast categories** | Collectibles, trading cards, parts |
-| **Refurbished** | Certified pre-owned |
-| **[[Luxury]]** | Authentication program |
-| **C2C** | Original strength |
-
-Moved away from competing with Amazon on commodities.
-
----
-
-## Key metrics
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
-| GMV | ~$74B |
-| Take rate | ~13% |
-| Active buyers | 132M |
-| Focus categories | Growing faster |
+| Ticker | EBAY (NASDAQ) |
+| CEO | Jamie Iannone |
+| HQ | San Jose, CA |
+| Founded | 1995 |
+| Status | Public |
 
----
+## Depop acquisition (Feb 18, 2026)
 
-## Investment thesis
+Acquiring [[Depop]] from [[Etsy]] for **$1.2B cash**. Expected to close Q2 2026.
 
-**Bull:**
-- Focus categories growing
-- Capital return (buybacks)
-- Advertising growth
-- Valuation reasonable
+| Detail | Value |
+|--------|-------|
+| Price | ~$1.2B cash |
+| Seller | [[Etsy]] (paid $1.625B in 2021 — taking ~$400M loss) |
+| Target | [[Depop]] — Gen Z secondhand fashion marketplace |
+| Depop GMS (2025) | ~$1B |
+| Depop active buyers | 7M (90% under 34) |
+| Depop active sellers | 3M |
 
-**Bear:**
-- Buyer decline
-- Amazon competition
-- Limited growth
-- Platform aging
+**Strategic logic:** Capture younger demographic, deepen fashion/resale vertical. eBay will plug Depop into its shipping, Authenticity Guarantee, financial services, and cross-listing infrastructure.
 
----
+**Announced alongside:** Q4 earnings beat + above-estimate Q1 guidance. Shares up.
 
-## Corporate actions
+## Strategic direction
 
-| Event | Impact |
-|-------|--------|
-| [[PayPal]] spin (2015) | Separated payments |
-| StubHub sale (2020) | $4B to Viagogo |
-| Managed Payments | Brought payments in-house |
-| TCGPlayer (2022) | Trading card acquisition |
+eBay under Iannone has been narrowing focus to **high-value verticals** where C2C and pre-owned have structural advantages:
+- **Fashion/resale** — Depop acquisition, Authenticity Guarantee for sneakers/luxury
+- **Collectibles** — trading cards, memorabilia
+- **Motors** — parts & accessories
+- **Refurbished** — certified pre-owned electronics
 
----
+The thesis: eBay can't out-Amazon Amazon on new goods, but owns the C2C resale graph.
 
 ## Related
 
-### Competitors
-- [[Amazon]] — e-commerce giant
-- [[Etsy]] — handmade marketplace
-- Mercari — C2C competitor
+- [[Depop]] — acquired Feb 2026 ($1.2B)
+- [[Etsy]] — sold Depop at a loss
+- [[Poshmark]] — competitor (resale fashion)
+- [[ThredUp]] — competitor (consignment)
+- [[Mercado Libre]] — LatAm marketplace peer
 
-### Sectors
-- [[Consumer Internet]] — sector
-
----
-
-*Created 2026-01-16*
+*Created 2026-02-18*
