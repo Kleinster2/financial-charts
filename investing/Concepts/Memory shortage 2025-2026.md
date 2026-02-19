@@ -279,6 +279,12 @@ Sources: [DigiTimes](https://www.digitimes.com/news/a20260204PD210/market-dram-n
 
 Major industry-wide escalation — shortage spreading beyond smartphones into gaming, PCs, autos, networking:
 
+![[bloomberg-nvidia-ram-per-generation.png]]
+*Each new [[NVIDIA]] AI chip requires as much memory as several powerful PCs. Source: Bloomberg, company specifications.*
+
+![[bloomberg-memory-prices-parabolic.png]]
+*Contract cost per GB going parabolic — [[Bernstein]] called the ascent "parabolic." Source: Bernstein estimates, DRAMeXchange.*
+
 ### Price dynamics
 
 | Metric | Value |

@@ -3,7 +3,7 @@ aliases: [MBLY]
 ---
 #actor #ai #autonomous #semiconductor #israel #public
 
-**Mobileye** — Autonomous driving chips/software. Intel subsidiary (IPO'd). ADAS market leader.
+**Mobileye** — Autonomous driving chips/software. Intel subsidiary (IPO'd). ADAS market leader. Expanding into "Physical AI" via [[Mentee Robotics]] acquisition ($900M, Jan 2026).
 
 ---
 
@@ -98,6 +98,12 @@ Powers most ADAS systems globally.
 
 ---
 
+## Mentee Robotics acquisition (Jan 2026)
+
+Acquired [[Mentee Robotics]] for $900M ($612M cash + 26.2M shares) at [[CES 2026]]. Co-founder [[Amnon Shashua]] founded both companies. Signals "Mobileye 3.0" — extending ADAS perception stack to humanoid robots. Warehouses targeted by 2028, home by 2030. Approved by [[Intel]]. Low-single-digit OpEx increase in 2026.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -136,5 +142,7 @@ Powers most ADAS systems globally.
 - [[Waymo]] — peer (different market segment)
 - [[Aurora]] — peer (trucking focus)
 - [[Israel Tech]] — context (Israeli company)
+- [[Mentee Robotics]] — humanoid robotics acquisition ($900M)
+- [[Amnon Shashua]] — co-founder, Mentee chairman
 - [[Autonomous vehicles]] — thesis context
 
