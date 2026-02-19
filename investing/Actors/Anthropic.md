@@ -466,6 +466,38 @@ See [[Long Anthropic]] for full thesis.
 
 *Updated 2026-02-17*
 
+## Cowork competitive reception across verticals (Feb 2026)
+
+FT (Anjli Raval, Feb 18): "Are Anthropic's new AI work tools game-changing for professionals?" Article maps the vertical-by-vertical reaction to Claude Cowork's January launch.
+
+**Enterprise adoption:** [[Goldman Sachs]] working with Anthropic on AI agent to automate bank roles. [[Uber]], [[Netflix]], [[Salesforce]], [[Allianz]] also building on Claude. Guillaume Princen (Anthropic, head of digital native businesses): Cowork is "same powerful agent, but much more accessible."
+
+**Market reaction:** Sparked investor worries about industry-specific AI companies. Wealth management share prices fell on disruption concerns. Employees across corporate offices began investigating alternatives.
+
+**Legal vertical — specialists pushing back:**
+- [[JPMorgan]]: Claude Cowork "just catching up with [[Harvey]] and [[RELX]]," lacks complete legal library
+- [[Harvey]] and [[Legora]] use Anthropic/[[OpenAI]] models underneath but built proprietary tooling on top
+- [[Legora]] CEO Max Junestrand dismissed plug-ins
+- [[Luminance]]'s Harry Borovick: domain-specific tools increase in value as generalists expand
+- Legal workers criticized Cowork's legal plug-in for using Wikipedia as a source
+
+**Advertising — more vulnerable:**
+- Generic models may pose MORE threat than vertical tools — enable clients to DIY, cutting out agencies
+- [[WPP]] already uses Gemini/[[OpenAI]]/Anthropic under the hood
+- Super Bowl 2026 showed AI takeover (Svedka Vodka ad)
+- Bigger risk: clients skip agencies entirely
+
+**Business planning — specialist defense:**
+- [[Pigment]] CEO Eléonore Crespo: "Generalists are for play, but specialists are for work"
+- Specialist providers succeed via unique data structures, workflow integration, governance/auditability
+- [[Supercell]] (Finnish gaming): monthly performance report went from 3 hours → 5 minutes with AI analyst agent via [[Pigment]]. No mistakes, references provided.
+
+Investment framing: The [[Horizontal vs vertical AI]] debate is now the central question for AI software investing. Legal and financial planning verticals appear defensible (deep data moats, regulatory requirements). Advertising/creative verticals more vulnerable to horizontal disruption.
+
+*Source: FT (Anjli Raval, Feb 18 2026)*
+
+---
+
 ## February 2026: India expansion
 
 At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Anthropic]] announced its first [[India]] office in Bengaluru. [[India]] is [[Claude]]'s 2nd largest market after the US. [[Anthropic]] is partnering with [[Infosys]] to deploy [[Claude]] and [[Claude Code]] for enterprise AI agents — starting in the telecom sector — with a dedicated Anthropic Center of Excellence inside [[Infosys]].
@@ -512,3 +544,8 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Anthropic]] announced it
 - [[Pete Hegseth]] — Defense Secretary, criticized Anthropic's safeguards
 - [[India AI Impact Summit 2026]] — Bengaluru office, [[Infosys]] partnership
 - [[Infosys]] — enterprise AI agent deployment partner (India)
+- [[Horizontal vs vertical AI]] — platform vs specialist debate triggered by Cowork
+- [[Pigment]] — business planning specialist pushing back on Cowork
+- [[Harvey]] — legal AI specialist, uses Claude underneath
+- [[Legora]] — legal AI, dismissed Cowork plug-ins
+- [[Luminance]] — legal AI, domain-specific value argument
