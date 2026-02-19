@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #datacenter #brazil #infrastructure
 
-**Equinix Brasil** — Brazilian subsidiary of [[Equinix]] (EQIX). Largest data center operator in Latin America. 8 facilities across São Paulo and Rio de Janeiro. Led by president Vitor Arnô.
+**Equinix Brasil** — Brazilian subsidiary of [[Equinix]] (EQIX). Largest data center operator in [[Latin America]]. 8 facilities across São Paulo and Rio de Janeiro. Led by president Vitor Arnô.
 
 ---
 
@@ -30,7 +30,7 @@ aliases: []
 
 **Rio de Janeiro (3 facilities):**
 - 3 data center complexes
-- Connected to submarine cable landing points
+- Connected to [[Submarine Cables|submarine cable]] landing points
 
 Each "data center" is a complex that may contain multiple halls/rooms internally. Equinix counts by complex, not by individual rooms.
 
@@ -96,14 +96,14 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 ## Brazil as global AI hub
 
 **Competitive advantages:**
-1. **Renewable energy** — abundant generation (wind in Nordeste, solar)
+1. **[[Clean energy for AI|Renewable energy]]** — abundant generation (wind in Nordeste, solar)
 2. **Water abundance** — though modern DCs don't need it
-3. **Submarine cable connectivity** — [[Fortaleza]] is one of the largest cable landing points globally
+3. **[[Submarine Cables|Submarine cable]] connectivity** — [[Fortaleza]] is one of the largest cable landing points globally
 4. **Market demand** — largest market in [[Latin America]], already the regional hub
 5. **Talent pool**
 
 **Limitations:**
-- **Transmission constraints** — energy generation is abundant but grid delivery is uneven in certain regions
+- **[[Power constraints|Transmission constraints]]** — energy generation is abundant but grid delivery is uneven in certain regions
 - **Regulatory uncertainty** — [[REDATA]] approval window is narrow
 - **Import costs** — structural disadvantage without reform
 
@@ -139,7 +139,7 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 **Proximity matters:**
 - Users increasingly dependent on real-time data
 - Physical distance to the data source is critical
-- Need both centralized processing (core) and user-proximate facilities (edge)
+- Need both centralized processing (core) and user-proximate facilities ([[Edge inference|edge]])
 - Telecommunications infrastructure must keep pace with DC buildout
 
 **Equinix Brasil's role:**
@@ -151,7 +151,7 @@ REDATA is a regulatory package critical to Brazil's data center and AI positioni
 
 ## Space-based data centers
 
-Vitor Arnô commented on [[Elon Musk]]'s space data center concept:
+Vitor Arnô commented on [[Elon Musk]]'s [[Space data centers|space data center]] concept:
 - Some workloads **will** run in space — especially satellite-generated data processed in orbit (cheaper than downlinking)
 - **Will not replace** ground-based processing for user-proximate workloads
 - Part of the **distributed hybrid architecture** — complementary, not competing
@@ -199,3 +199,8 @@ Vitor Arnô commented on [[Elon Musk]]'s space data center concept:
 - [[AI infrastructure financing]] — thesis context
 - [[Shadow grids]] — related concept (hyperscaler parallel power systems)
 - [[BYOP]] — related concept (build your own power)
+- [[Space data centers]] — Vitor Arnô commentary on orbital compute
+- [[Submarine Cables]] — Fortaleza as global landing point
+- [[Power constraints]] — Brazil positioning as solution to global DC power bottleneck
+- [[Latin America AI competitiveness]] — regional context
+- [[Clean energy for AI]] — Brazil's 88% renewable grid advantage
