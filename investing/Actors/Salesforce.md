@@ -158,6 +158,9 @@ A non-core strategic investment that resulted in total loss.
 | Revenue | ~$35B |
 | HQ | San Francisco |
 
+![[crm-eps-surprise-chart.jpg]]
+*CRM EPS surprise history and consensus estimates through 2027. Consistent beats (green arrows). Source: Zacks*
+
 ## Q3 FY2026 results
 
 | Metric | Value | YoY |
