@@ -87,7 +87,7 @@ Drew explicit parallel to August 2007 — when Bear Stearns hedge funds gated in
 
 > *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007? The question will be on the minds of some investors and policymakers this morning."*
 
-Said it raises questions about systemic risks in [[Private credit]] and warned that *"a significant — and necessary — valuation hit is looming for specific assets."* The comparison landed: alt managers sold off 4-9% across the board.
+His point isn't that 2008 is coming — it's that **systemic crises always start the same way**: a small fund gates, management calls it orderly, everyone says "contained," and the real question isn't this fund but what it reveals about the structure behind it. Bear Stearns' first gated fund also looked fine on paper. The crisis was never in the numbers — it was in the structure (opaque, concentrated, liquidity-mismatched, with retail money that shouldn't have been there). By the time consensus agrees it's systemic, it's too late. The comparison landed: alt managers sold off 4-9% across the board.
 
 See: [[Private credit retail liquidity crisis 2026]]
 

@@ -119,6 +119,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | $10T+ mortgage market | $1.8T private credit market |
 | Rating agencies asleep | Moody's *upgraded* OBDC in January |
 
+**El-Erian's actual argument** isn't that 2008 is coming — it's that **systemic crises always begin the same way**: a small fund gates, management says it's orderly, everyone calls it "contained," and the real question isn't this fund but what it reveals about the funds behind it. Bear Stearns' first gated fund also had fine numbers on paper. The crisis wasn't in the credit metrics — it was in the **structure**: opaque assets, liquidity mismatch, sector concentration, and retail money that shouldn't have been there. By the time everyone agrees it's systemic, it's too late to act. OBDC II's non-accruals are 1.1% and loans sold at 99.7% par — but the gate happened anyway. That's the signal.
+
 **Key difference:** Private credit ($1.8T) is much smaller and better capitalized than the 2007 mortgage market ($10T+). The systemic risk is real but bounded — unless contagion spreads to insurance companies and pension funds that are now the marginal buyers of private credit assets.
 
 **Key similarity:** In both cases, the first gate was dismissed as idiosyncratic. Bear Stearns said the same things Blue Owl is saying now.
