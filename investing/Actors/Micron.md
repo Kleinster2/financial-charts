@@ -255,6 +255,8 @@ Ranked #1 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Cheapest P/E of the five picks with the highest growth — classic memory cycle leverage.
 
+**Zacks detail:** Rank #1 (Strong Buy). Growth Score A, Momentum B, Value D. Market cap $463B. Last Q EPS growth +61.2%, last EPS surprise +22.3%. Next earnings: **March 19, 2026**. Record revenue across DRAM, NAND, and data center products. Cloud memory and DC units at highs with pricing strength. Supply constraints and lead times sustaining conditions. TAM projected at $100B by 2028. HBM3E ramp driving estimate inflection.
+
 ---
 
 ## Related
