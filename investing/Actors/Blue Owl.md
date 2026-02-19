@@ -140,7 +140,30 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 - **Bear:** First retail BDC to permanently gate investors. If redemption pressure spreads to larger vehicles (OBDC at $16B+, or competitor retail BDCs), the $1.8T private credit market faces a liquidity event. Software concentration (13% of sold loans) validates [[Private Credit Software Concentration]] thesis
 - **Bull:** Controlled wind-down of a finite-life fund approaching its natural end date. Sold at near-par (no fire sale). Strong historical returns. Pro-rata distribution treats all shareholders equally
 
-*Sources: CNBC, Bloomberg, Reuters (Feb 18-19, 2026)*
+**Q4 2025 earnings call (same day, Feb 19):**
+
+CEO Craig Packer dismissed "halted redemptions" framing as a *"complete mischaracterization"* — said OBDC II is doing accelerated 30% pro rata capital return with continued quarterly 5% distributions. Key portfolio metrics undercut the crisis narrative:
+
+| Metric | Q4 2025 | Trend |
+|--------|---------|-------|
+| Non-accruals (fair value) | **1.1%** | Down from 1.3% (Q3), below public market defaults |
+| Software borrower revenue growth (LTM) | **+10%** | Performing |
+| Software borrower EBITDA growth (LTM) | **+16%** | Performing |
+| Software as first-lien senior secured | **90%** | LTVs ~30% |
+| Total portfolio revenue growth | **+8% YoY** | Positive every sub-sector |
+| Total portfolio EBITDA growth | **+11% YoY** | Accelerating vs 2024 |
+| PIK as % of investment income | **10.3%** | Down from 13.2% a year ago |
+| Interest coverage | **~2x** | Healthy |
+| NAV/share | **$14.81** | Down $0.08 (write-downs on "watch list names") |
+| Adj NII/share | **$0.36** | Flat sequentially |
+
+Software is only **4 of top 25 investments**. Concentration will remain capped or decline — management affirmed "discriminating approach" given AI risks. No specific borrower defaults named publicly. Loan sale at 99.7% par with four unaffiliated buyers under standard LSTA procedures — Packer: *"There is nothing behind the scenes that would in any way undermine that conclusion."*
+
+**Moody's upgraded OBDC to Baa2** in January 2026 — one of few BDCs earning this rating.
+
+**The uncomfortable truth:** The gate happened at non-accruals of just 1.1%. This is a liquidity/structure problem, not a credit blowup — *yet*. The market is pricing in forward-looking AI disruption risk before defaults materialize. If non-accruals actually spike to 4-5% (Deutsche Bank's aggressive scenario), the damage would be far worse.
+
+*Sources: CNBC, Bloomberg, Reuters, OBDC Q4 2025 earnings call transcript (Feb 18-19, 2026)*
 
 ---
 

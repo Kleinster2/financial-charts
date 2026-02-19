@@ -145,6 +145,28 @@ This is the feedback loop the market is pricing in.
 
 ---
 
+## OBDC Q4 2025 earnings (same day)
+
+Blue Owl reported OBDC earnings the same morning as the gate news — the numbers undercut the crisis narrative:
+
+| Metric | Q4 2025 | Trend |
+|--------|---------|-------|
+| Non-accruals (fair value) | **1.1%** | Down from 1.3% (Q3), below public defaults |
+| Software revenue growth (LTM) | **+10%** | Performing |
+| Software EBITDA growth (LTM) | **+16%** | Performing |
+| Software first-lien secured | **90%** | LTVs ~30% |
+| Total portfolio revenue growth | **+8% YoY** | Positive every sub-sector |
+| Total portfolio EBITDA growth | **+11% YoY** | Accelerating vs 2024 |
+| PIK % of investment income | **10.3%** | Down from 13.2% YoY |
+| Interest coverage | **~2x** | Healthy |
+| NAV/share | **$14.81** | Down $0.08 on watch-list write-downs |
+
+CEO Packer called the "halted redemptions" framing a *"complete mischaracterization."* Software is only 4 of top 25 investments. **Moody's upgraded OBDC to Baa2** in January — one of few BDCs earning that rating.
+
+**No specific borrower defaults named.** The gate happened at non-accruals of just 1.1% — this is a **liquidity/structure crisis, not a credit blowup**. The market is pricing forward-looking AI disruption risk before defaults materialize. If non-accruals spike to 4-5% (Deutsche Bank's aggressive scenario), the impact would be far worse from an already-gated position.
+
+---
+
 ## Bear vs bull
 
 **Bear case (canary in the coalmine):**
