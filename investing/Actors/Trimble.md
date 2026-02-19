@@ -69,6 +69,11 @@ Ranked #5 on Zacks "Best AI Stocks to Buy" list (updated Feb 16, 2026):
 
 Cheapest P/E after [[Micron]] but slowest growth. Non-obvious AI pick — builds the physical world where AI lives.
 
+**Zacks detail:** Rank #1 (Strong Buy). Value D, Growth F, Momentum B. Market cap $15.8B. Last Q EPS growth +25.7%, last EPS surprise +4.2%. Next earnings: **May 6, 2026**. "Connect and scale" strategy linking design, construction, and operations into unified workflows via subscriptions. AI-based tools: autonomous procurement, autonomous quotation. Improving price action as investors discount AI-driven workflow adoption across construction and logistics.
+
+![[trmb-eps-surprise-chart.jpg]]
+*TRMB EPS consensus rising: $2.60 (2023) → $3.90 (2027E). Choppy base but 2026-2027 inflecting. Source: Zacks*
+
 ---
 
 ## Quick stats
