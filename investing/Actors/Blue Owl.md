@@ -1,9 +1,15 @@
 ---
-aliases: [OWL]
+aliases: [OWL, Owl Rock, Owl Rock Capital]
 ---
 #actor #finance #privateequity #usa
 
-**Blue Owl Capital** — Alternative asset manager. Largest financier of AI data center buildout.
+**Blue Owl Capital** — Alternative asset manager. Largest financier of AI data center buildout. Formed in 2021 from merger of **Owl Rock Capital** (direct lending) and **Dyal Capital** (GP stakes). The "O" in OBDC stands for Owl Rock.
+
+| Fund | Full name | Size | Structure | Status |
+|------|-----------|------|-----------|--------|
+| **OBDC** | Blue Owl Capital Corporation | $16B+ | Publicly traded BDC | Operating |
+| **OBDC II** | Blue Owl Capital Corp II | $1.7B | Non-traded retail BDC (finite-life) | 🔴 Gated (Feb 2026) |
+| **OTIC** | Blue Owl Technology Income Corp | Smaller | Tech-focused BDC | Operating |
 
 ---
 
