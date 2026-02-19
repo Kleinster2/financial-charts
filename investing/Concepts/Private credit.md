@@ -157,6 +157,55 @@ Private credit historically institutional-only. Now targeting high-net-worth ind
 
 **BCRED risk:** Saw redemption spike late 2022 as recession/default fears hit. Quarterly redemption caps (5%) prevent runs but limit liquidity.
 
+### The retail model breaks (Feb 2026)
+
+The retail push hit its first real stress test — and the model failed.
+
+**[[Blue Owl OBDC II redemption gate]] (Feb 19, 2026):** Blue Owl permanently halted quarterly redemptions at OBDC II, its retail-focused BDC. First major retail BDC to gate investors. The fund had promised quarterly 5% NAV liquidity for 8 years — until it couldn't.
+
+**Industry-wide exodus:** BDCs with >$1B AUM saw **$2.9B in withdrawal requests in Q4 2025**, up **200% from Q3** (Robert A Stanger & Co.). Not a Blue Owl problem — a structural problem.
+
+**The fundamental contradiction:**
+- **What was sold:** "Bond-like yields (8-12%) with quarterly liquidity"
+- **What exists:** Illiquid loans to middle-market companies that can't be sold quickly without losses
+- **What happens under stress:** Honoring redemptions benefits early redeemers at remaining investors' expense → classic bank run dynamics → gate everyone equally
+
+**Sequence at OBDC II:**
+1. Redemption requests spike 20% YoY through 2025
+2. Blue Owl tries to merge OBDC II into public BDC → would impose ~20% losses → abandoned
+3. Blue Owl sells $1.4B in loans at 99.7% par to pension funds/insurers
+4. Quarterly redemptions permanently ended → replaced by pro-rata distributions
+5. OWL -8.7%, alt managers -4% to -6% across the board
+
+**Craig Packer (Blue Owl co-President):** Framed it as accelerated capital return, not a halt. Returning 30% of capital at book value in 45 days. But the quarterly redemption window — the core retail selling point — is gone forever.
+
+**The scale problem:** OBDC II is $1.7B. What happens when the $2.9B/quarter redemption pace hits:
+
+| Fund | AUM | Manager | Status |
+|------|-----|---------|--------|
+| OBDC II | $1.7B | [[Blue Owl]] | **Gated** |
+| OBDC | $16B+ | [[Blue Owl]] | Watching |
+| ARCC | $26B+ | [[Ares Management]] | Largest BDC |
+| BCRED | $50B+ | [[Blackstone]] | Largest non-traded |
+
+**Regulatory response:** Sen. Elizabeth Warren called for increased bank capital requirements for private credit, greater data disclosure, and a stress test. If regulators act, the entire retail fundraising model gets constrained.
+
+**Mohamed El-Erian:** *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007?"*
+
+**The 2007 parallel:**
+
+| 2007 | 2026 |
+|------|------|
+| Bear Stearns hedge funds gated | Blue Owl OBDC II gated |
+| Subprime mortgage concentration | Software/tech loan concentration |
+| CDOs with liquidity mismatch | Retail BDCs with liquidity mismatch |
+| "Contained" narrative | "Finite-life wind-down" narrative |
+| $10T mortgage market | $1.8T private credit market |
+
+**Key difference:** Private credit is much smaller and better capitalized. But the pattern — opaque, concentrated, levered, with retail money in illiquid structures — rhymes.
+
+**March 31 quarter-end is the next systemic test** — when redemption requests hit across all semi-liquid funds simultaneously.
+
 ---
 
 ## Investor risks
@@ -323,4 +372,8 @@ The biggest emerging risk in private credit — software/tech is now the largest
 - [[TPG]] — PE/credit exposure
 - [[Wesleyan Endowment]] — endowment with 25% VC allocation, AI disruption exposure
 
-*Updated 2026-02-13*
+- [[Blue Owl OBDC II redemption gate]] — first retail BDC gate (Feb 2026)
+- [[Private Credit Software Concentration]] — software as concentration risk
+- [[Alternative asset managers basket]] — sector contagion from OBDC II gate
+
+*Updated 2026-02-19*
