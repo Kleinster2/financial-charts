@@ -103,6 +103,39 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 ---
 
+## OBDC II redemption crisis (Feb 2026)
+
+**Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four North American pension and insurance investors at 99.7% of par. OWL shares **-8.7%** on the news.
+
+| Fund | Amount sold | % of portfolio | Action |
+|------|-----------|----------------|--------|
+| **OBDC II** | $600M | 34% of $1.7B | **Permanently halted quarterly redemptions** |
+| OBDC | $400M | 2% | Normal operations |
+| OTIC | $400M | 6% | Normal operations |
+
+**The OBDC II bombshell:**
+- Semi-liquid retail-focused private credit fund — exactly the type of vehicle the industry has been pushing to Main Street investors
+- **Quarterly redemptions permanently ended** — replaced by "periodic payouts" funded by asset sales, earnings, and repayments
+- Investors receive up to **$2.35/share (~30% of NAV)** as return of capital
+- Board simultaneously approved **$300M stock buyback** (replacing prior $200M authorization)
+- Sold loans: 97% senior secured, 128 portfolio companies, 27 industries. Largest sector: **internet software & services at 13%**
+
+**Context — the botched OBDC II merger (Nov 2025):**
+- Blue Owl attempted to merge OBDC II into the larger, publicly-traded OBDC
+- Would have imposed **~20% losses** on OBDC II investors
+- Abandoned after stock sold off and investor backlash
+- Redemptions were halted during the merger attempt — now permanently halted
+
+**Rising redemption requests** preceded the asset sale (Bloomberg). The fund was facing a classic liquidity mismatch: retail investors wanted quarterly liquidity from an illiquid private credit portfolio.
+
+**Contagion:** Alternative asset manager stocks sold off across the board — [[Apollo]], [[KKR]], [[Blackstone]], [[Ares Management]], [[Brookfield]] all hit. Validates the [[Private Credit Software Concentration]] thesis — 13% of sold loans were internet software.
+
+**The signal:** This is the first major retail-facing private credit fund to permanently gate investors. If redemption pressure spreads to larger vehicles (OBDC itself at $16B+, or competitors' retail BDCs), the $1.8T private credit market faces a liquidity event.
+
+*Sources: CNBC, Bloomberg, Reuters (Feb 18-19, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -113,10 +146,12 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 - Public stock (OWL)
 
 **Bear:**
+- **OBDC II redemption gate** — first major retail BDC to permanently halt redemptions (Feb 2026)
 - Interest rate sensitivity
 - AI capex cycle could slow
 - Concentration in data centers
 - Competition from other PE firms
+- [[Private Credit Software Concentration]] — 13% of OBDC portfolio in internet software
 
 ---
 
@@ -144,7 +179,7 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Largest deal | Meta $30B |
 | HQ | New York |
 
-*Updated 2026-01-14*
+*Updated 2026-02-19*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
@@ -162,3 +197,6 @@ Sources:
 - [[AI infrastructure financing]] — thesis context
 - [[AI hyperscalers]] — customer base
 - [[Power constraints]] — drives demand for financing solutions
+- [[Private Credit Software Concentration]] — risk factor (13% internet software exposure)
+- [[Alternative asset managers basket]] — sector contagion from OBDC II gate
+- [[Private credit]] — market context ($1.8T market)

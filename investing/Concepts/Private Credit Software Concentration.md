@@ -115,8 +115,27 @@ The difference: private credit is smaller ($3T vs $10T+ mortgage market) and bet
 
 ---
 
+## Blue Owl OBDC II gate (Feb 19, 2026)
+
+**First major retail BDC to permanently halt redemptions.** [[Blue Owl]] sold $1.4B in loans from three funds, permanently ended quarterly redemptions at OBDC II (semi-liquid retail fund), and returned ~30% of NAV to investors. OWL shares **-8.7%**. Alternative asset managers sold off across the board.
+
+**Why this matters for software concentration:**
+- 13% of the sold loans were **internet software & services** — the largest single industry in the portfolio
+- OBDC II is a direct lending fund focused on US middle-market companies — exactly the borrower profile most exposed to AI disruption
+- Rising redemption requests preceded the sale — investors were already nervous
+- The botched Nov 2025 OBDC II → OBDC merger (which would have imposed ~20% losses) further eroded confidence
+
+**The pattern:** Retail investors sold the promise of private credit yield with quarterly liquidity → redemptions spiked as AI fears hit software valuations → fund forced to sell assets and gate investors. This is the liquidity mismatch risk that critics have warned about since the retail push began.
+
+**Contagion risk:** If redemption pressure spreads to larger retail BDCs ([[Ares Management]], [[Apollo]], [[Blackstone]]), the $1.8T private credit market faces a broader liquidity event. OBDC II ($1.7B) is small — but it's a template.
+
+*Sources: CNBC, Bloomberg, Reuters (Feb 18-19, 2026)*
+
+---
+
 ## Sources
 
+- [CNBC — Blue Owl curbs investor liquidity, shares plunge 8%](https://www.cnbc.com/2026/02/19/blue-owl-private-debt-investor-loan-liquidity-restriction-market-shares.html) (Feb 19, 2026)
 - [CNBC — Private credit worries resurface as AI pressures software firms](https://www.cnbc.com/2026/02/09/private-credit-software-firms-fall-ai-fears.html) (Feb 9, 2026)
 - [Bloomberg — Private Credit's Software Bet Is Even Bigger Than It Appears](https://www.bloomberg.com/news/articles/2026-02-13/private-credit-s-massive-software-bet-is-bigger-than-it-appears) (Feb 13, 2026)
 - [Bloomberg — Software Sector Poses 'All-Time' Credit Risk](https://www.bloomberg.com/news/articles/2026-02-09/software-among-all-time-concentration-risks-to-junk-deutsche) (Feb 9, 2026)
