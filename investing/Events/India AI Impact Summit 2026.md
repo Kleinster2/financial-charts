@@ -74,6 +74,7 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | [[Tata Group]] / [[OpenAI]] | Strategic partnership — OpenAI first customer of TCS data centres under Stargate; 100MW scalable to 1GW |
 | [[Tata Group]] | Working on industry-specific AI chips (Chandrasekaran, Day 4) |
 | [[Nvidia]] / [[L&T]] | Joint venture for gigawatt-scale AI factory and AI-ready data center infra |
+| [[Sarvam AI]] / [[HMD Global]] | AI assistant on Nokia/HMD feature phones — local-language AI chat for non-smartphone users |
 
 ---
 
@@ -169,6 +170,7 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **$260B+ in cumulative AI investment pledges** announced across summit (Reliance $109.8B + Adani $100B + Microsoft $50B + Yotta $2B + others)
 - **Nvidia–L&T**: proposed venture to build gigawatt-scale AI factory / AI-ready data center infrastructure
 - **OpenAI on regulation**: Altman said regulation "urgently" needed but cautioned against premature rules that could stifle innovation
+- **Sarvam AI–HMD Global partnership**: integrating Sarvam Personal Assistant into Nokia/HMD feature phones — AI chat in local languages for non-smartphone users; PM Modi viewed demo at expo; also demoed Sarvam on cars and "Sarvam Kaze" smart glasses
 
 ### Day 5 — Feb 20 (Fri): CEO day
 - Pichai, Altman, Amodei, Hassabis sessions expected; Modi-Macron co-appearance
