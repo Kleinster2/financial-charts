@@ -54,6 +54,8 @@ Acquired into full enterprise suite.
 
 Agentforce = [[AI agents]] that take actions, not just chat.
 
+**Q3 FY2026 AI metrics:** Agentforce + Data Cloud generated $1.4B in recurring revenues (+114% YoY). Agentforce alone: $540M recurring (+330% YoY).
+
 ---
 
 ## Agentforce
@@ -156,7 +158,19 @@ A non-core strategic investment that resulted in total loss.
 | Revenue | ~$35B |
 | HQ | San Francisco |
 
-*Created 2026-01-06*
+## Q3 FY2026 results
+
+| Metric | Value | YoY |
+|--------|-------|-----|
+| Revenue | ~$9.4B | +10% |
+| Non-GAAP EPS | beat by 14% | +34.9% |
+| RPO | $59.5B | +12% |
+| Non-GAAP op margin | 35.5% | +240bps |
+| Current RPO guidance | +15% Q4 | — |
+
+**Valuation:** Forward P/E 14.5x — cheaper than [[Oracle]] (20.2x). Zacks Rank #2 (Buy). Transitioning from growth-heavy to efficient + profitable.
+
+*Updated 2026-02-19*
 
 ---
 

@@ -137,6 +137,25 @@ Oracle repatriated ~$35B under the [[Tax Cuts and Jobs Act]] one-time tax holida
 
 ---
 
+## Q2 FY2026 results
+
+| Metric | Value | YoY |
+|--------|-------|-----|
+| Revenue | $16.1B | +14% |
+| Non-GAAP EPS | $2.26 | +54% |
+| Cloud infra revenue | $4.1B | +68% |
+| GPU demand (TTM) | — | +177% |
+| New commitments | $68B | [[Meta]], [[NVIDIA]] |
+| Cloud DB services | — | +30% |
+| Multi-cloud regions | 45 | +11 in Q |
+| Multi-cloud consumption | — | +817% |
+| Free cash flow | **-$10B** | miss |
+| Capex guidance (FY26) | ~$50B | +$15B raise |
+
+Q3 FY2026 guidance: revenue +19-21%. Execution risk: [[OpenAI]]'s $300B deal = majority of RPO growth (concentration). Forward P/E 20.2x — premium to [[Salesforce]] (14.5x) despite downward earnings revisions.
+
+---
+
 ## Financial position
 
 | Metric | Value |
