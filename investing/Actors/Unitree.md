@@ -38,7 +38,9 @@ Unitree — Hangzhou-based robotics company founded by [[Wang Xingxing]] in 2016
 
 Key differentiator: Go2 at $1,600 vs. [[Boston Dynamics]] Spot at $75,000+. 10x cheaper through in-house QDD actuators, injection-molded chassis, and [[Yangtze River Delta]] supply chain density. See [[Unitree Cost Architecture]].
 
-Unit sales (2024): 23,700 quadrupeds (~70% global share), 1,500+ humanoids. G1 shipped 5,000 units in H1 2025.
+Unit sales (2024): 23,700 quadrupeds (~70% global share), 1,500+ humanoids. G1 shipped 5,000 units in H1 2025. FY2025 total: ~5,500 humanoids shipped.
+
+**2026 production target: 10,000–20,000 humanoid robots** (CEO Wang Xingxing to 36Kr, Feb 2026). Would represent ~4x increase from 2025. Global humanoid shipments expected to reach "tens of thousands" with Unitree accounting for the bulk.
 
 ---
 
@@ -58,7 +60,13 @@ Three deep dives cover the structural advantages:
 
 2025 — "YangBOT": 16 humanoids performing Yangge folk dance. Went viral. [[Wang Xingxing]] met [[Xi Jinping]] at a tech symposium weeks later.
 
-2026 — "Wu BOT": With Henan Tagou Martial Arts School. H1/H2 performing parkour, Drunken Fist, nunchaku, trampoline backflips. Technical firsts: force-controlled weapon strikes, 3m aerial flips, 4 m/s cluster repositioning. Four companies paid ~100M yuan for 2026 partnerships: Unitree, [[MagicLab]], [[Galbot]], [[Noetix]]. See [[2026 Spring Festival Gala]].
+2026 — "Wu BOT": With Henan Tagou Martial Arts School. H1/H2 performing parkour, Drunken Fist, nunchaku, trampoline backflips. Technical firsts: force-controlled weapon strikes, 3m aerial flips, 4 m/s cluster repositioning. Four companies paid ~100M yuan for 2026 partnerships: Unitree, [[MagicLab]], [[Galbot]], [[Noetix]]. Kung fu segment performed "fully autonomously" by G1 robots. See [[2026 Spring Festival Gala]].
+
+---
+
+## Robots making robots (Feb 2026)
+
+Unitree deployed G1 humanoids in its own factory using the **UnifoLM-X1-0** embodied AI model. Robots performing assembly and inspection tasks alongside human workers — a self-referential proof of concept (robots building robots). Strengthens the IPO case by demonstrating real factory utility beyond demos. Mid-2026 IPO timeline on track.
 
 ---
 
@@ -110,7 +118,7 @@ Bear:
 
 ---
 
-*Updated 2026-02-16*
+*Updated 2026-02-19*
 
 ---
 
