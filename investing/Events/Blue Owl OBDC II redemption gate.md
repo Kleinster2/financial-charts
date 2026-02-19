@@ -5,6 +5,8 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 
 **Blue Owl OBDC II redemption gate** — On February 19, 2026, [[Blue Owl]] permanently halted quarterly redemptions at its retail-focused private credit fund OBDC II after selling $1.4B in loans. First major retail BDC to gate investors. Triggered a sector-wide selloff in alternative asset managers and raised systemic questions about the $1.8 trillion [[Private credit]] market's retail push.
 
+*First instance of the [[Private credit retail liquidity crisis 2026]].*
+
 ---
 
 ## Timeline
@@ -228,6 +230,7 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 
 ## Related
 
+- [[Private credit retail liquidity crisis 2026]] — parent event (industry-wide crisis)
 - [[Blue Owl]] — actor (fund manager)
 - [[Private Credit Software Concentration]] — thesis (software as concentration risk)
 - [[Private credit]] — market context ($1.8T)
