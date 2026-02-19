@@ -54,17 +54,25 @@ Significant [[India]] fintech exposure through PhonePe.
 
 ---
 
-## Q4 FY2026 earnings preview (reports Feb 19, 2026)
+## Q4 FY2026 results (Feb 19, 2026) — beat
 
-| Metric | Estimate | YoY change |
-|--------|----------|------------|
-| Revenue | ~$190B | +5.2% |
-| EPS | $0.73 | +10.6% |
-| Trailing 4Q avg surprise | +0.8% | — |
-| Last Q surprise | +1.6% | — |
+| Metric | Actual | Estimate | YoY |
+|--------|--------|----------|-----|
+| Revenue | **$190.66B** | $190.43B | +5.6% |
+| Adj EPS | **$0.74** | $0.73 | beat |
+| GAAP net income | $4.24B | — | -19% ($5.25B YA) |
+| US comp sales | +4.6% | — | — |
+| Sam's Club comp | +4.0% | — | ex-fuel |
+| US e-commerce | +27% | — | — |
 
 ![[wmt-eps-surprise-chart.jpg]]
 *EPS surprise history and consensus estimates through 2027. Source: Zacks Investment Research*
+
+**FY2027 guidance disappoints:** Net sales +3.5-4.5%, adj EPS $2.75-2.85 (vs Street $2.96). Stock +2% on Q4 beat but guidance miss may cap upside.
+
+**Milestone:** [[Amazon]] overtook Walmart as largest company by annual revenue ($716.9B vs $713.2B). Not apples-to-apples (AWS/cloud included) but symbolically significant.
+
+**CFO Rainey:** Higher-income households driving share gains. Fashion category growth almost entirely from $100K+ households. Tariff impact largely absorbed — inflation at Walmart US just above 1%.
 
 Key dynamics:
 - E-commerce +27% last Q (store-fulfilled pickup/delivery, marketplace expansion)
