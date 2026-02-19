@@ -70,13 +70,17 @@ Customer base nearly doubled (250 → 400+) and markets doubled (20 → 40+) in 
 
 ## Product
 
-Collaborative AI workspace for legal professionals:
-- Document review and research with precision
-- Drafting assistance
-- Team collaboration features
-- Built on [[Anthropic]] and [[OpenAI]] models with proprietary workflow layer
+Three-layer platform built on [[OpenAI]] (Azure, GPT-4o/o1) and [[Anthropic]] models:
 
-Differentiation vs [[Harvey]]: Legora emphasizes "collaborative" approach — working alongside firms from first interaction through full-scale rollout. Positions as a partner, not just a tool.
+Assistant — persistent AI that moves with you across the platform. Handles research, summarization, document comparison, insight extraction. Embeds directly into Microsoft Word (redline summaries, issues lists).
+
+Workflows (launched Jun 2025) — agentic orchestration layer. Lawyers enter a high-level goal in natural language, upload documents, and Legora plans and executes multi-step tasks autonomously. Can chain multiple tools in one workflow: tabular extraction → case law web search → citation verification via legal database → draft report. No "no-code builder" required — plain language orchestration. Custom workflows align to firm-specific protocols and standards.
+
+Example: due diligence that required manually reading thousands of documents, taking notes, combining into a report → upload docs, run workflow, Legora extracts key info, flags risks, drafts report sections.
+
+Portal — enables law firms to productize expertise and deliver to clients through custom AI workflows, playbooks, intelligent doc sharing, and live collaboration. Turns firm knowledge into a client-facing product.
+
+Differentiation vs [[Harvey]]: Legora emphasizes "collaborative" approach — working alongside firms from first interaction through full-scale rollout. Positions as a partner, not just a tool. Portal feature specifically addresses the firm-to-client collaboration gap.
 
 ## Competitive position
 
