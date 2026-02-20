@@ -75,6 +75,12 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | [[Tata Group]] | Working on industry-specific AI chips (Chandrasekaran, Day 4) |
 | [[Nvidia]] / [[L&T]] | Joint venture for gigawatt-scale AI factory and AI-ready data center infra |
 | [[Sarvam AI]] / [[HMD Global]] | AI assistant on Nokia/HMD feature phones — local-language AI chat for non-smartphone users |
+| India / US | India joined **Pax Silica** — US-led coalition for AI and semiconductor supply chain security |
+| "New Delhi Frontier AI" pact | Google, OpenAI, Anthropic, Microsoft, Meta + Sarvam, BharatGen, Gnani, Soket AI — inclusive frontier AI agreement |
+| Delhi Declaration | 70+ countries signed (expected 80+); more than Paris Action Summit's ~60 signatories |
+| [[Qualcomm]] | CEO Cristiano Amon met PM Modi (Day 5) |
+| [[OpenAI]] | India is fastest-growing market for Codex — 4× weekly users in 2 weeks (Altman, Day 5) |
+| Andhra Pradesh | 7 MoUs for Quantum Computing and AI infrastructure — "Quantum Valley in Amaravati" |
 
 ---
 
@@ -172,8 +178,26 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **OpenAI on regulation**: Altman said regulation "urgently" needed but cautioned against premature rules that could stifle innovation
 - **Sarvam AI–HMD Global partnership**: integrating Sarvam Personal Assistant into Nokia/HMD feature phones — AI chat in local languages for non-smartphone users; PM Modi viewed demo at expo; also demoed Sarvam on cars and "Sarvam Kaze" smart glasses
 
-### Day 5 — Feb 20 (Fri): CEO day
-- Pichai, Altman, Amodei, Hassabis sessions expected; Modi-Macron co-appearance
+### Day 5 — Feb 20 (Fri): GPAI Council, Pax Silica, CEO meetings & Delhi Declaration
+- **India formally joined Pax Silica** — US-led coalition for AI and critical mineral/semiconductor supply chain security; Vaishnaw: "very important for semiconductor supply chain"
+- **"New Delhi Frontier AI" pact** announced by Vaishnaw — inclusive global AI agreement signed by Google, OpenAI, Anthropic, Microsoft, Meta + Indian firms Sarvam, BharatGen, Gnani, Soket AI
+- **Delhi Declaration**: 70+ countries signed (expected to cross 80); more signatories than Paris "Action Summit" (~60); Vaishnaw called it "strong endorsement of our policy" (MANAV vision)
+- **GPAI Council Meeting** — member nations reviewed progress on responsible/inclusive AI governance
+- **Sundar Pichai keynote**: US-India partnership has "critical role to play to make benefit of AI available to everyone"; congratulated India-US on Pax Silica signing
+- **Sam Altman met PM Modi** at Hyderabad House; posted: "India is our fastest growing market for Codex globally, up 4x in weekly users in past 2 weeks alone"; said "only a couple of years away from true superintelligence"
+- **PM Modi roundtable** with CEOs/founders of 16 AI and deeptech startups; also held 7 back-to-back bilaterals + met Qualcomm CEO Cristiano Amon
+- **TCS CEO K Krithivasan**: "You can't have an LLM in one day and expect software engineers to go away" — roles to evolve toward "context engineering"
+- **IMF MD Kristalina Georgieva**: India "super fortunate" — young population embracing AI + strong digital infra push; congratulated Modi and Macron
+- **OECD Secretary General Mathias Cormann**: ~27% of employment at highest risk of AI automation; called for flexible, modular AI training
+- **Brazilian President Lula** addressed summit; Brazilian envoy said "Lula and Modi not just colleagues, they're friends"
+- **Andhra Pradesh** signed 7 MoUs for Quantum Computing and AI skills/infrastructure — aiming for "Quantum Valley in Amaravati"
+- **Shashi Tharoor** (Congress) praised summit, batted for open data regulatory framework with strong privacy protections; warned against "Digital Raj"
+- **Rishi Sunak** quipped: "AI can do many things, but can't fix Delhi's traffic"
+- **US envoy Sergio Gor**: "Secretary Rubio to visit India soon"; "Stay tuned" on possible Modi-Trump meeting
+- **Sriram Krishnan** (White House AI adviser) rejected global AI governance: US "totally rejects" idea
+- **Youth Congress protest**: ~10 detained for shirtless protest inside Bharat Mandapam expo hall with anti-Modi/trade deal slogans; political slugfest followed
+- **MEA summary**: 20 world leaders attended, 45 countries at ministerial level, ~100 nations represented; PM Modi held 16 bilateral meetings with world leaders across the summit
+- **Summit declared "grand success"** by MEA; expo extended to Saturday Feb 21 for public
 
 ### Day 6 — Feb 21 (Sat): Extended expo day
 - Expo reopened to public due to overwhelming demand
