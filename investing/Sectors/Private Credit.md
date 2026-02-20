@@ -105,11 +105,11 @@ Competition between banks and private credit may encourage riskier deals ([[Mood
 
 ---
 
-## Alt manager sell-off (YTD 2026)
+## Alt manager sell-off (since Jan 2025)
 
-![[alt-managers-selloff-feb2026.jpg]]
+![[owl-vs-bx-vs-ares-vs-apo-vs-kkr-vs-cg-vs-tpg-price-chart.png]]
 
-*Share prices rebased from Jan 6, 2026. Source: LSEG via FT. TPG worst (-38%), followed by Ares (-35%), Blue Owl (-28%), KKR (-25%), Apollo (-22%), Blackstone (-20%). Sell-off accelerated around Feb 2 and has not recovered. The market is repricing the entire sector — not just the gated fund.*
+*All 7 alt managers normalized from Jan 2025. OWL (Blue Owl, blue) is the worst performer at ~-50%, driven by the OBDC II gate. KKR and ARES cluster around -27 to -30%. BX, APO around -20%. CG (Carlyle) is the relative outperformer, having peaked +30% in Sept 2025 before pulling back to -20%. TPG also hit hard at -30%+. The Feb 2026 selloff is visible as a sharp synchronized drop across all names — but OWL's collapse is in a different league.*
 
 ## BDC price comparison
 
