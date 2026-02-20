@@ -84,14 +84,23 @@ Figma won designers.
 
 ---
 
-## Post-deal independence
+## IPO and Q4 2025 earnings (Feb 2026)
 
-| Plan | Status |
-|------|--------|
-| IPO | Likely path |
-| $1B cash | From Adobe termination |
-| Growth | Continued expansion |
-| AI | FigJam AI features |
+Figma went public. Q4 2025 results beat expectations:
+
+| Metric | Q4 2025 | YoY |
+|--------|---------|-----|
+| Revenue | **$303.8M** | +40% |
+| Net income | -$226.6M | vs +$33.1M prior year |
+| Q1 2026 guidance | $315-317M | +38% YoY (vs $292M expected) |
+
+Shares +15% after-hours, settled +7% on Feb 19. Despite the beat, analysts flagging AI risk — iShares Expanded Tech-Software ETF (IGV) down 20%+ YTD on AI disruption fears across SaaS.
+
+**Anthropic partnership (Feb 17, 2026):** Announced partnership with [[Anthropic]] for AI-powered code-from-designs workflow. Part of Figma's push to build AI into products rather than be disrupted by it.
+
+**Morgan Stanley:** "Best in class growth rates" can't insulate from GenAI disruption fears, but Q4 shows Figma is "a strong participant in the AI innovation cycle, not a company at risk of disruption."
+
+**BofA:** AI monetization timeline on track, but shares could stay pressured until tangible AI revenue disclosure.
 
 ---
 
@@ -115,20 +124,22 @@ Figma won designers.
 
 | Metric | Value |
 |--------|-------|
-| Valuation | ~$12.5B |
-| ARR | ~$600M+ |
+| Ticker | FIG |
+| ARR | ~$1.2B+ (based on Q4 run rate) |
+| Q4 2025 revenue | $303.8M (+40% YoY) |
 | Adobe deal | Blocked (Dec 2023) |
-| Status | Private, IPO likely |
+| Status | Public (IPO completed) |
 
 ---
 
 ## Related
 
 - [[Adobe]] — competitor, failed acquirer
+- [[Anthropic]] — AI partnership (Feb 2026)
 - [[Notion]] — productivity peer
 - [[Canva]] — design peer
 - [[SaaS]] — sector
 
 ---
 
-*Created 2026-01-16*
+*Updated 2026-02-20*

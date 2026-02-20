@@ -401,7 +401,9 @@ See [[Short interest]] for interpretation framework.
 | Long-term debt | $59B face + $27.3B Hyperion SPV (Dec 2025). See [[Meta bonds]] |
 | Short interest | **1.27%** (Jan 2026) — highest Mag 7 ex-[[Tesla]] |
 
-*Updated 2026-02-10*
+**Equity award cuts (Feb 19, 2026):** Cut stock awards by ~5% for most employees — second consecutive year (10% cut in 2025). Redirecting to AI capex ($115-135B guidance for 2026). Reality Labs also laid off ~10% (~1,500 of 15,000) as Meta shifts from VR to wearables. Reality Labs has accumulated $70B+ in losses since 2021.
+
+*Updated 2026-02-20*
 
 ---
 
