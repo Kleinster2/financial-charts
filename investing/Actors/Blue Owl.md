@@ -13,6 +13,14 @@ aliases: [OWL, Owl Rock, Owl Rock Capital]
 
 ---
 
+## Price: OWL vs peers
+
+![[owl-vs-arcc-price-chart.png]]
+
+*OWL (blue) vs ARCC (red) vs ARES (green) since OWL's June 2021 IPO. ARES (the management company) has massively outperformed (+225%). ARCC (Ares's BDC) is steady at +55%. OWL is the laggard, barely positive, with the Feb 2026 selloff (-28% YTD) pulling it back toward IPO levels.*
+
+---
+
 ## Why Blue Owl matters
 
 Blue Owl is becoming the bank for AI infrastructure:

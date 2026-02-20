@@ -111,6 +111,12 @@ Competition between banks and private credit may encourage riskier deals ([[Mood
 
 *Share prices rebased from Jan 6, 2026. Source: LSEG via FT. TPG worst (-38%), followed by Ares (-35%), Blue Owl (-28%), KKR (-25%), Apollo (-22%), Blackstone (-20%). Sell-off accelerated around Feb 2 and has not recovered. The market is repricing the entire sector — not just the gated fund.*
 
+## BDC price comparison
+
+![[obdc-vs-arcc-price-chart.png]]
+
+*OBDC (Blue Owl, blue) vs ARCC (Ares, red) normalized from Jan 2020. ARCC has roughly doubled (+100%) while OBDC is up ~20% — the gap widened sharply in Feb 2026 after the OBDC II gate. ARCC is the largest public BDC ($26B+) and the benchmark for the sector; OBDC's underperformance reflects Blue Owl-specific risk (redemption crisis, software concentration fears).*
+
 ---
 
 ## Active crisis: [[Private credit retail liquidity crisis 2026]]

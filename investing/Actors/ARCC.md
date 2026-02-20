@@ -7,6 +7,14 @@ aliases: [Ares Capital, Ares Capital Corporation]
 
 ---
 
+## Price: OBDC vs ARCC
+
+![[obdc-vs-arcc-price-chart.png]]
+
+*OBDC (Blue Owl BDC, blue) vs ARCC (Ares BDC, red) normalized from Jan 2020. ARCC has roughly doubled (+100%) while OBDC is up ~20%. The gap widened in Feb 2026 after the OBDC II gate. ARCC is the BDC sector benchmark — its relative resilience suggests the market sees the OBDC II crisis as Blue Owl-specific, not systemic (so far).*
+
+---
+
 ## Why ARCC matters
 
 Flagship vehicle for [[Ares Management]]'s direct lending strategy. BDCs provide capital to middle-market companies underserved by banks, earning floating-rate yields.
