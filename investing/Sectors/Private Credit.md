@@ -111,6 +111,10 @@ Competition between banks and private credit may encourage riskier deals ([[Mood
 
 *All 7 alt managers normalized from Jan 2025. OWL (Blue Owl, blue) is the worst performer at ~-50%, driven by the OBDC II gate. KKR and ARES cluster around -27 to -30%. BX, APO around -20%. CG (Carlyle) is the relative outperformer, having peaked +30% in Sept 2025 before pulling back to -20%. TPG also hit hard at -30%+. The Feb 2026 selloff is visible as a sharp synchronized drop across all names — but OWL's collapse is in a different league.*
 
+![[alt-managers-selloff-feb2026.jpg]]
+
+*Source: LSEG via FT, rebased from Jan 6, 2026. TPG worst (-38%), Ares (-35%), Blue Owl (-28%), KKR (-25%), Apollo (-22%), Blackstone (-20%).*
+
 ## BDC price comparison
 
 ![[obdc-vs-arcc-price-chart.png]]
