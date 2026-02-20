@@ -22,7 +22,7 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 |--------|-------|
 | Dates | Feb 16–20, 2026 |
 | Venue | Bharat Mandapam, New Delhi ($300M convention complex) |
-| Expected visitors | 250,000+ |
+| Registered / actual visitors | 250,000+ registered; 500,000+ attended |
 | Exhibitors | 840+ (incl. national delegations, ministerial groups, startups, research labs) |
 | Countries | 100+ |
 | Heads of government | 15–20 |
@@ -81,6 +81,14 @@ For India's broader AI strategy, infrastructure commitments, talent dynamics, an
 | [[Qualcomm]] | CEO Cristiano Amon met PM Modi (Day 5) |
 | [[OpenAI]] | India is fastest-growing market for Codex — 4× weekly users in 2 weeks (Altman, Day 5) |
 | Andhra Pradesh | 7 MoUs for Quantum Computing and AI infrastructure — "Quantum Valley in Amaravati" |
+| [[OpenAI]] | Opening two new India offices (Bengaluru + Mumbai) |
+| [[Sarvam AI]] | Released Sarvam 30B and Sarvam 105B open-source models; partnership with Qualcomm, HMD, Bosch for on-device AI (phones, cars, laptops, smartglasses) |
+| [[Gnani AI]] | "Vachana" — zero-shot voice cloning TTS model, 12 languages |
+| [[BharatGen]] (IIT Bombay) | "Param 2" — 17B parameter model, 22 Indian languages (confirmed release) |
+| JioHotstar | Using ChatGPT for conversational content discovery/search |
+| Emergent | Indian vibe-coding startup hit $100M ARR, launched mobile app |
+| US (Kratsios) | AI-focused Peace Corps program + new World Bank funding for countries to buy AI systems |
+| [[Anthropic]] | Hired Irina Ghose (3 decades in India) as MD of Anthropic India |
 
 ---
 
@@ -173,7 +181,7 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **UK Deputy PM David Lammy**: 150 British companies now operating in India's AI sector, building on India-UK CETA signed in 2025
 - **Swiss President Guy Parmelin**: Switzerland to host **AI Summit 2027 in Geneva**; bilateral with Modi described as "excellent"
 - **Crown Prince of Abu Dhabi** attending summit
-- **$260B+ in cumulative AI investment pledges** announced across summit (Reliance $109.8B + Adani $100B + Microsoft $50B + Yotta $2B + others)
+- **$270B+ in cumulative AI investment pledges** announced across summit (Reliance $109.8B + Adani $100B + Microsoft $50B + Yotta $2B + others)
 - **Nvidia–L&T**: proposed venture to build gigawatt-scale AI factory / AI-ready data center infrastructure
 - **OpenAI on regulation**: Altman said regulation "urgently" needed but cautioned against premature rules that could stifle innovation
 - **Sarvam AI–HMD Global partnership**: integrating Sarvam Personal Assistant into Nokia/HMD feature phones — AI chat in local languages for non-smartphone users; PM Modi viewed demo at expo; also demoed Sarvam on cars and "Sarvam Kaze" smart glasses
@@ -196,7 +204,14 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 - **US envoy Sergio Gor**: "Secretary Rubio to visit India soon"; "Stay tuned" on possible Modi-Trump meeting
 - **Sriram Krishnan** (White House AI adviser) rejected global AI governance: US "totally rejects" idea
 - **Youth Congress protest**: ~10 detained for shirtless protest inside Bharat Mandapam expo hall with anti-Modi/trade deal slogans; political slugfest followed
-- **MEA summary**: 20 world leaders attended, 45 countries at ministerial level, ~100 nations represented; PM Modi held 16 bilateral meetings with world leaders across the summit
+- **Dario Amodei** (CNBC TV18): "Even within Anthropic, we would need less software engineers than we have today"; can't guarantee more jobs created than destroyed; "not trying to replace existing industries" but disruption inevitable; called India "absolutely central" to managing AI's promise and risks
+- **Michael Kratsios** (White House OSTP director, US delegation lead): announced AI-focused Peace Corps program + World Bank AI funding; "every country will want to chart their own AI destiny"
+- **Sriram Krishnan** (White House AI adviser): US "totally rejects" global AI governance
+- **Om Birla** (Lok Sabha Speaker): deepfakes are "serious threat to democracy"
+- **Devendra Fadnavis** (Maharashtra CM): "Agriculture must sit at the heart of this mission"
+- **Chandrababu Naidu** (AP CM): "India will provide global leadership in AI"
+- **MEA summary**: 20 world leaders attended, 45 countries at ministerial level, ~100 nations represented; PM Modi held 16 bilateral meetings with world leaders across the summit; 500,000+ total visitors
+- **Cumulative investment pledges: $270B+** (Reliance $109.8B, Adani $100B, Microsoft $50B, Yotta $2B, others)
 - **Summit declared "grand success"** by MEA; expo extended to Saturday Feb 21 for public
 
 ### Day 6 — Feb 21 (Sat): Extended expo day
