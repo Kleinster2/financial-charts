@@ -219,10 +219,35 @@ The Indian government's IndiaAI Mission shortlisted 12 teams to develop sovereig
 
 ---
 
-## Summit logistics
+## Summit logistics — grand ambition, messy execution
 
-- Delhi hotel prices surged — Taj Palace suite went from ~$2,200/night to $33,000+
-- India's Supreme Court allowed video conferencing for advocates during summit week due to traffic
+The summit delivered unprecedented scale (largest AI summit ever, 100+ countries, $270B+ in pledges) but was widely criticized for chaotic organization. A recurring pattern for India: the vision outpaces the infrastructure.
+
+### Overcrowding
+- **500,000+ attended** vs 250,000 registered — double the expected turnout
+- Long queues for entry, some delegates unable to attend their own panels
+- Expo extended to Saturday (Feb 21) to absorb demand — hours also extended to 8 PM on earlier days
+
+### Security and access chaos
+- **Bharat Mandapam closed to public on Day 4 (Thursday)** at short notice — ostensibly for security (leaders-only day), but poor communication left many stranded
+- Altman, Amodei, and Hassabis delivered keynotes to a **more than half-empty hall** because entry was restricted at the last minute after being open earlier
+- 30+ minute security lines to enter the venue
+
+### Traffic and city disruption
+- VIP motorcades caused **traffic snarls across Delhi** — widespread road closures
+- **India's Supreme Court** allowed video conferencing for advocates during summit week because lawyers couldn't physically reach court
+- Hotel prices surged — **Taj Palace suite went from ~$2,200/night to $33,000+**
+
+### Incidents
+- **Galgotias University expelled** from expo after presenting a Chinese robotic dog as their own innovation; university issued apology
+- **Youth Congress protest** — ~10 detained for shirtless protest with anti-Modi/trade deal slogans inside the expo hall; political slugfest followed
+- **Gender imbalance** — TIME noted the "ladies' queues" for security were far shorter than men's, calling it *"an apt metaphor for the gender balance of AI as a whole"*
+
+### Media criticism
+- **Guardian**: framed as "battle between AI colonialism from US tech firms and techno-Gandhism"
+- **TIME**: noted the summit *"functioned as much as a trade fair and an advertisement for the host nation's AI prowess as a venue for international diplomacy"*
+- Multiple outlets described the organization as **chaotic**
+- Organizers insisted the chaos reflected overwhelming global interest rather than poor planning
 
 ---
 
