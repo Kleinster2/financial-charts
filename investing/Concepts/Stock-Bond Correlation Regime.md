@@ -61,5 +61,5 @@ When bonds stop hedging, investors search for alternatives:
 
 ## Related
 
-- [[Risk Parity]] — strategy most sensitive to correlation regime
+- [[Risk Parity]] — strategy most sensitive to correlation regime (see Risk Parity vault: `Diversification vs Correlation`, `Central Question of Risk Parity`)
 - [[Federal Reserve]] — policy regime determines correlation regime
