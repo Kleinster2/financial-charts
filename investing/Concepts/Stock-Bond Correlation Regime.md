@@ -48,10 +48,6 @@ When bonds stop hedging, investors search for alternatives:
 - Trend-following / managed futures — one of few strategies that profit from positive correlation regimes
 - Gold — historically works in both regimes
 
-## The private credit connection
-
-The post-2020 correlation shift is a key enabler of the [[Private credit retail liquidity crisis 2026]]. When traditional bonds stopped hedging and yielded little, retail investors accepted the pitch: "private credit gives you higher yields with low volatility." The low reported volatility was an artifact of quarterly marks, not genuine stability. The correlation regime shift created the demand; the liquidity mismatch created the risk.
-
 ## Who thinks about this
 
 - [[Russell Napier]] — financial repression thesis predicts sustained positive correlation
@@ -65,8 +61,5 @@ The post-2020 correlation shift is a key enabler of the [[Private credit retail 
 
 ## Related
 
-- [[Private credit]] — retail demand enabled by the correlation shift
-- [[Private credit retail liquidity crisis 2026]] — consequence of the "bond alternative" pitch
-- [[Sectors/Private Credit]] — sector dashboard
 - [[Risk Parity]] — strategy most sensitive to correlation regime
 - [[Federal Reserve]] — policy regime determines correlation regime
