@@ -16,8 +16,12 @@ aliases: [direct lending, private debt]
 | Year | AUM | Notes |
 |------|-----|-------|
 | 2015 | $500B | Early growth |
-| 2023 (Jun) | **$1.7T** | 3x growth in 8 years |
+| 2020 | ~$500B (US) | NY Fed baseline |
+| 2024 (Dec) | **$1.3T** (US) | NY Fed — now 30% of sub-IG debt (up from 13% post-GFC) |
+| 2025 | **$1.8T** (global) | Industry estimates |
 | 2028E | **$3.5T** | BlackRock forecast |
+
+**Context:** Private credit sits within a $4.2T leveraged finance market (2025) that provides >40% of financing to US companies. The rest is high-yield bonds and syndicated leveraged loans.
 
 ---
 
@@ -231,6 +235,10 @@ The retail push hit its first real stress test — and the model failed.
 - Quarterly valuations (varies by fund)
 - Third-party valuers optional
 - Unclear how far values would fall in recession
+
+**[[Renovo Home Partners]] case (Nov 2025):** [[BlackRock]] marked Renovo's debt at **100 cents on the dollar** — indicating a loan in perfect health. The company was already failing to make interest payments. One month later, Renovo declared bankruptcy and BlackRock prepared to book a **total loss on its $150M loan**. This is the valuation opacity problem in one data point.
+
+**Ludovic Phalippou (Oxford Saïd):** "The real risk in private credit is not a sudden explosion, it's a slow burn — losses that stay hidden for a long time, then show up quietly in lower returns, weaker insurer balance sheets and disappointed savers, without ever triggering a classic financial crisis."
 
 ---
 

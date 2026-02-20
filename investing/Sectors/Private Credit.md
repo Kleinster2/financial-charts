@@ -13,12 +13,18 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 
 | Metric | Value |
 |--------|-------|
-| Market size | **$1.8T** (2025) |
+| **Leveraged finance total** | **$4.2T** (2025) — >40% of US corporate financing |
+| Private credit (US) | **$1.3T** (Dec 2024, NY Fed) — 30% of sub-IG debt (up from 13% post-GFC) |
+| Private credit (global) | **$1.8T** (2025) |
 | 2028 forecast | $3.5T ([[BlackRock]]) |
-| Growth (2015-2025) | $500B → $1.8T (3.6x) |
+| Growth | $500B (2020) → $1.3T (2024) → $1.8T (2025) |
+| Bank exposure to private credit | **$300B** (Moody's, Oct 2025) |
+| US life insurer illiquid credit | **$2T** (Moody's) |
 | Retail BDC redemptions (Q4 2025) | **$2.9B** (+200% QoQ) |
 | Software concentration | 14-16% of spec-grade ("all-time" — Deutsche Bank) |
 | Middle-market default rate | 4.55% |
+| LMEs harming creditors ($500M+) | 33 (2024), 23 (2025) |
+| AI DC spending by 2030 | **$7T** (McKinsey) |
 
 ---
 
@@ -84,12 +90,31 @@ The retail model is breaking. After 5 years of selling illiquid loans as "bond a
 |------|--------|--------|
 | **Retail liquidity mismatch** | 🔴 Active | Illiquid loans in "quarterly liquid" wrappers. OBDC II broke first |
 | **Software concentration** | 🟡 Elevated | 14-16% of spec-grade. AI disruption compressing valuations |
-| **Covenant erosion** | 🟡 Trending | Cov-lite creeping into middle market. Recovery rates will suffer |
-| **Opacity** | 🟡 Structural | Quarterly marks lag reality. Losses hidden until forced recognition |
-| **Interconnection** | 🟡 Structural | Multiple lenders hold same borrowers. One forced sale → contagion |
-| **Regulatory** | 🟡 Emerging | Warren calling for capital requirements + stress tests |
+| **Covenant erosion / LMEs** | 🟡 Trending | 33 creditor-harming restructurings in 2024, 23 in 2025 ($500M+ debt each). Cov-lite creeping into middle market |
+| **Opacity / valuation lag** | 🟡 Structural | [[BlackRock]] marked [[Renovo Home Partners]] at 100 cents; bankrupt one month later, total loss on $150M |
+| **Bank interconnection** | 🟡 Growing | US bank exposure to private debt vehicles: **$300B** (Moody's, Oct 2025) |
+| **Insurer interconnection** | 🟡 Growing | US life insurer exposure to illiquid credit: **$2T** (Moody's). [[PE-insurance convergence]] deepening |
+| **Ratings shopping** | 🟡 Emerging | SEC probing [[Egan-Jones]] — rated 3,000+ private credit investments with ~20 analysts. UBS Chairman Kelleher: "massive growth in small rating agencies ticking the box" |
+| **Regulatory** | 🟡 Emerging | Warren calling for capital requirements + stress tests. BOE running first private markets stress test |
 
 See: [[Private credit]] (concept) for full structural analysis
+
+### Creditor abuse: liability management exercises (LMEs)
+
+PE-backed borrowers increasingly restructure debt in ways that slash creditor value while preserving sponsor equity — the opposite of traditional priority. In 2024, a record **33 US companies** with $500M+ debt restructured this way; **23 did so in 2025**.
+
+| Company | Sponsor | What happened |
+|---------|---------|---------------|
+| [[Tropicana Brands]] | PAI Partners | Cut debt value 30%+, PAI kept full ownership, extracted more cash from lenders |
+| Wellness Pet | PE-backed | Similar LME |
+| GoTo Group | PE-backed | Similar LME |
+| [[Rackspace]] | PE-backed | Similar LME |
+| Del Monte Foods | PE-backed | Similar LME |
+| [[Saks Global]] | — | Bondholders found restructuring loopholes, debt tanked 40%, bankruptcy Jan 14 2026 |
+| [[First Brands Group]] | — | $10B bankruptcy (Sept 2025), fraud alleged, lenders included [[Jefferies]] and [[UBS]] |
+| [[Renovo Home Partners]] | — | [[BlackRock]] marked loan at 100 cents, bankrupt one month later, total $150M loss |
+
+*Source: Bloomberg Markets (Feb 2026)*
 
 ---
 
@@ -160,5 +185,11 @@ See: [[Private credit]] (concept) for full structural analysis
 - [[HPS Investment Partners]] — largest pure-play, BlackRock acquiring
 - [[Carlyle Group]] — diversified
 - [[TPG]] — growing credit arm
+- [[First Brands Group]] — $10B bankruptcy with fraud (Sept 2025)
+- [[Renovo Home Partners]] — BlackRock valuation opacity case
+- [[Egan-Jones]] — ratings shopping, SEC probe
+- [[Kuvare]] — Blue Owl captive insurer, CLO buyer
+- [[PE-insurance convergence]] — insurer illiquid credit exposure ($2T)
+- [[CLO]] — leverage escalation (BDC 1x → CLO 9-10x)
 
-*Created 2026-02-19*
+*Updated 2026-02-20*

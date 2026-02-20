@@ -15,6 +15,7 @@ Largest economy globally. GDP ~$29T (2025E), growth slowing to ~1.7-2.0%. Inflat
 |--------|-------|
 | GDP (2025E) | ~$29T |
 | Real GDP growth (2025E) | ~1.7-2.0% |
+| Q4 2025 GDP (annualized) | **1.4%** (vs 2.9% expected) — released Feb 20, 2026 |
 | Population | ~335M |
 | CPI inflation (Sep 2025) | 3.0% (12-month) |
 | Unemployment (Nov 2025) | 4.6% |
@@ -70,6 +71,8 @@ Unemployment fluctuated 4.0-4.2% from May 2024 to Jul 2025, then rose to 4.3% in
 - Tariffs increasingly passed through to consumer prices
 - India secured interim reduction (50% → 18%, Feb 2026)
 - [[China]] tariffs remain elevated, driving supply chain restructuring
+
+SCOTUS IEEPA ruling (Feb 20, 2026): Supreme Court struck down IEEPA tariffs 6-3 ([[SCOTUS IEEPA ruling]]). Effective tariff rate drops from 16.1% → 10.4%. $175B+ in collected IEEPA revenue at risk of refund. Section 232 and Section 301 tariffs unaffected. Admin pivoting to replacement authorities.
 
 ---
 
