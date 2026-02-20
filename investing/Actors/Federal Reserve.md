@@ -24,11 +24,11 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 | Component | Role |
 |-----------|------|
-| **Board of Governors** | 7 members, 14-year terms, DC-based |
-| **FOMC** | Sets monetary policy (12 voting members) |
-| **Regional [[Banks]]** | 12 districts, implement policy |
+| Board of Governors | 7 members, 14-year terms, DC-based |
+| FOMC | Sets monetary policy (12 voting members) |
+| Regional [[Banks]] | 12 districts, implement policy |
 
-**FOMC composition:**
+FOMC composition:
 - 7 Board governors (permanent voters)
 - NY Fed president (permanent voter)
 - 4 rotating regional presidents
@@ -39,10 +39,10 @@ aliases: [Fed, FOMC, Federal Reserve System]
 
 | Tool | Current | Mechanism |
 |------|---------|-----------|
-| **Fed funds rate** | 3.50-3.75% | Overnight interbank rate |
-| **Quantitative tightening** | Ongoing | Balance sheet runoff |
-| **Discount window** | 4.50% | Emergency lending |
-| **Reserve requirements** | 0% | Suspended since 2020 |
+| Fed funds rate | 3.50-3.75% | Overnight interbank rate |
+| Quantitative tightening | Ongoing | Balance sheet runoff |
+| Discount window | 4.50% | Emergency lending |
+| Reserve requirements | 0% | Suspended since 2020 |
 
 ---
 
@@ -52,11 +52,11 @@ Beyond domestic monetary policy, the Fed provides global public goods:
 
 | Function | Mechanism | Significance |
 |----------|-----------|--------------|
-| **Swap lines** | Currency agreements with foreign central banks | Global dollar liquidity in crises |
-| **Bank regulation** | Supervision of globally systemic banks | Financial stability |
-| **Lender of last resort** | Emergency lending | Crisis firefighting |
+| Swap lines | Currency agreements with foreign central banks | Global dollar liquidity in crises |
+| Bank regulation | Supervision of globally systemic banks | Financial stability |
+| Lender of last resort | Emergency lending | Crisis firefighting |
 
-**At risk under Warsh?** [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance for "market self-correction" plus reduced appetite for international coordination could shrink the Fed's global firefighting capacity.
+At risk under Warsh? [[Martin Sandbu]] argues (Jan 2026) that Warsh's tolerance for "market self-correction" plus reduced appetite for international coordination could shrink the Fed's global firefighting capacity.
 
 ---
 
@@ -67,11 +67,11 @@ Beyond domestic monetary policy, the Fed provides global public goods:
 | Hiking | Mar 2022 - Jul 2023 | 0% → 5.25-5.50% (525bp) |
 | Pause | Jul 2023 - Sep 2024 | Held at 5.25-5.50% |
 | Cutting | Sep 2024 - Jan 2026 | 175bp cuts to 3.50-3.75% |
-| **Pause** | Jan 28, 2026 | First hold since July |
+| Pause | Jan 28, 2026 | First hold since July |
 
-**Jan 28-29, 2026 decision:**
+Jan 28-29, 2026 decision:
 - Rates held at 3.50-3.75% — first pause since July
-- **10-2 vote:** [[Stephen Miran]] and [[Chris Waller]] dissented for 25bp cut
+- 10-2 vote: [[Stephen Miran]] and [[Chris Waller]] dissented for 25bp cut
   - Miran's 4th consecutive dissent (first time at 25bp vs his usual 50bp)
   - Waller's first dissent — may be positioning for Fed Chair nomination
 - Removed "downside risks to employment rose" language — labor market stabilizing
@@ -82,7 +82,13 @@ Beyond domestic monetary policy, the Fed provides global public goods:
 - Services disinflation continuing
 - Fed hasn't yet complied with DOJ subpoenas (Bill Pulte was instigator)
 
-**Jan 24 rate check:** NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
+Feb 20, 2026 data release (Q4 2025):
+- Q4 GDP (annualized): 1.4% vs 2.9% expected — significant miss
+- PCE headline: +0.4% MoM, +2.9% YoY (above expectations)
+- Core PCE: +0.4% MoM, +3.0% YoY (above expectations)
+- Stagflationary signal — weak growth + sticky inflation. Complicates rate path: cuts needed for growth, but inflation argues against. [[SCOTUS IEEPA ruling]] (same day) could ease tariff-driven inflation if IEEPA tariffs not fully replaced.
+
+Jan 24 rate check: NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
 
 ---
 
@@ -92,14 +98,14 @@ Beyond domestic monetary policy, the Fed provides global public goods:
 |--------|--------|
 | Current chair | [[Jerome Powell]] — term ends May 15, 2026 |
 | Trump stance | Will not reappoint Powell |
-| **Nominee** | **[[Kevin Warsh]]** (Jan 30, 2026) |
+| Nominee | [[Kevin Warsh]] (Jan 30, 2026) |
 | Confirmation | Pending Senate |
 
 ### Warsh nomination (Jan 30, 2026)
 
 Trump named former Fed Governor [[Kevin Warsh]] as his pick to replace Powell. Markets fell on the news — S&P -0.43%, Nasdaq -0.94% — as rising Treasury yields reflected expectations of a less dovish Fed.
 
-**Warsh background:**
+Warsh background:
 - Fed Governor 2006-2011 (served through GFC)
 - [[Morgan Stanley]] (1995-2002)
 - Hoover Institution fellow since 2011
@@ -111,10 +117,10 @@ Trump named former Fed Governor [[Kevin Warsh]] as his pick to replace Powell. M
 |------|-------|---------|-------|
 | Jan 14 | 39-41% | 40-50% | Neck-and-neck |
 | Jan 16 | 60% | 16% | Trump: "I want to keep you where you are" (to Hassett) |
-| **Jan 30** | **Nominated** | — | Trump names Warsh |
+| Jan 30 | Nominated | — | Trump names Warsh |
 
-**Wall Street view:**
-> "We don't know who will be the Fed Chairman, nor how dovish a post-Powell Fed will be. However, we think it's a reasonable assumption that an unusually high level of dissent among Fed officials will be a defining feature of next year's Fed." — **Tallbacken Capital**
+Wall Street view:
+> "We don't know who will be the Fed Chairman, nor how dovish a post-Powell Fed will be. However, we think it's a reasonable assumption that an unusually high level of dissent among Fed officials will be a defining feature of next year's Fed." — Tallbacken Capital
 
 ---
 
@@ -129,7 +135,7 @@ See [[Fed independence]] for full concept analysis.
 | Market risk | Diminished credibility → higher long-term rates |
 | Gold signal | $4,641/oz record (Jan 14) on independence concerns |
 
-> "The biggest US debt market risk is diminished Fed independence, which could undermine inflation-fighting credibility and the dollar." — **Lazard**
+> "The biggest US debt market risk is diminished Fed independence, which could undermine inflation-fighting credibility and the dollar." — Lazard
 
 ---
 
@@ -142,7 +148,7 @@ See [[Fed independence]] for full concept analysis.
 | Current | ~$7T | QT (runoff) |
 | [[Target]] | ~$6T? | Uncertain endpoint |
 
-**QT pace:** ~$60B/month Treasury runoff, ~$35B/month MBS runoff
+QT pace: ~$60B/month Treasury runoff, ~$35B/month MBS runoff
 
 ---
 
