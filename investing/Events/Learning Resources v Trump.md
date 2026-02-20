@@ -182,6 +182,71 @@ IEEPA tariffs began with China (Feb 2025), expanded to Canada/Mexico (March 2025
 
 ---
 
+## Tariff exposure baskets — who benefits most from the ruling
+
+### Published baskets
+- **Goldman Sachs** (David Kostin, Feb 2025): compiled basket of stocks "most at risk" from IEEPA tariffs — heavy on retailers with high China import exposure. Full list behind paywall.
+- **Morningstar** (April 2025): event study around Liberation Day — filtered for stocks with >5% abnormal decline AND "direct first-order" tariff impact. Sectors: autos/parts, apparel, cyclical retail, defensive retail, medical devices, industrial distribution. Full list behind paywall.
+
+### Liberation Day revealed basket (April 3, 2025)
+The real-world stress test — stocks that got hammered hardest when tariffs were announced. These are the names with most to gain from the SCOTUS ruling:
+
+| Stock | Ticker | Liberation Day drop | Sector | Tariff exposure |
+|-------|--------|-------------------|--------|-----------------|
+| **Best Buy** | BBY | -18% | Electronics retail | Heavy China imports (TVs, appliances, components) |
+| **Nike** | NKE | -14% | Apparel/footwear | ~50% manufactured in China/Vietnam |
+| **Dollar Tree** | DLTR | -13% | Discount retail | Majority of goods China-sourced |
+| **Target** | TGT | -11% | General retail | Large private-label import program |
+| **Five Below** | FIVE | -10%+ | Discount | Nearly all products China-sourced |
+| **Deckers (UGG/Hoka)** | DECK | -10%+ | Footwear | Asia manufacturing |
+| **Ralph Lauren** | RL | -10%+ | Apparel | Global supply chain, China/Vietnam |
+| **Urban Outfitters** | URBN | -9% | Apparel | Asia imports |
+| **Skechers** | SKX | -9% | Footwear | China/Vietnam manufacturing |
+| **Crocs** | CROX | -9% | Footwear | Vietnam/China |
+| **VF Corp (North Face, Vans)** | VFC | -8% | Apparel | Global sourcing |
+| **Williams-Sonoma (Pottery Barn)** | WSM | -8% | Home furnishings | Asia imports |
+
+### E-commerce / de minimis beneficiaries
+Stocks that rallied on the ruling day (Feb 20, 2026) because de minimis exemption removal was struck down:
+
+| Stock | Ticker | Feb 20 move | Why |
+|-------|--------|-------------|-----|
+| **Etsy** | ETSY | +8% | Small sellers devastated by de minimis removal |
+| **eBay** | EBAY | +3% | Marketplace sellers, import costs |
+| **Amazon** | AMZN | +2% | Massive importer, third-party seller ecosystem |
+| **Wayfair** | W | +2% | Furniture/home goods heavily imported |
+| **PDD (Temu)** | PDD | +2% | Entire US model built on de minimis loophole |
+| **Shopify** | SHOP | +1% | Merchant base reliant on imports |
+
+### Companies that sued the government
+These companies had the strongest conviction that tariffs were illegal — and now may be first in line for refunds:
+
+| Company | Ticker | Sector |
+|---------|--------|--------|
+| **Costco** | COST | Retail (wholesale) |
+| **EssilorLuxottica** (Ray-Ban) | ESLX.PA | Eyewear |
+| **Yokohama Tire** | 5101.T | Auto parts |
+| **Kawasaki Motors** | 7012.T | Motorcycles/industrial |
+| **Bumble Bee Foods** | Private | Food (canned seafood) |
+| **Revlon** | Private | Cosmetics |
+
+### Sectors with most relief potential
+
+| Sector | Why | Key names |
+|--------|-----|-----------|
+| **Discount retail** | Near-100% import dependence on China | FIVE, DLTR, DG |
+| **Footwear** | Asia manufacturing dominance | NKE, SKX, CROX, DECK |
+| **Apparel** | China/Vietnam sourcing | VFC, RL, URBN, GPS |
+| **Consumer electronics** | Component and finished goods imports | BBY, AAPL (partial) |
+| **Home furnishings** | Asia manufacturing | WSM, W, RH |
+| **Autos (European/Japanese)** | Reciprocal tariffs on imports | BMW, Toyota, VW |
+| **E-commerce platforms** | De minimis + marketplace sellers | ETSY, EBAY, AMZN, SHOP |
+| **Medical devices** | Specialized imported components | Various |
+
+**Note:** Section 232 tariffs (steel, aluminum, autos) REMAIN — so auto-related relief is partial. European/Japanese automakers still face Section 232 duties even with IEEPA tariffs gone.
+
+---
+
 ## Historical significance
 
 This is the most significant judicial check on presidential trade power since the founding era. The Constitution gives Congress (not the president) the power to impose tariffs (Article I, Section 8). Over the 20th century, Congress gradually delegated trade authority to the executive through various statutes. *Learning Resources v. Trump* draws a line: emergency powers don't include tariffs.
