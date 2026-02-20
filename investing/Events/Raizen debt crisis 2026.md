@@ -241,7 +241,45 @@ Both events hit Feb 19, 2026 — one in Brazil (operational/rate-driven), one in
 | Rescue bids | Shell ~R$5B vs BTG/Cosan R$8.3B+ |
 | Capital needed (bank estimates) | R$18-25B |
 
-*Sources: Bloomberg, Valor Internacional, Rio Times, LatinFinance, Fitch, S&P, Moody's (Oct 2025 – Feb 2026)*
+---
+
+## Who saw it coming
+
+Multiple analysts flagged the crisis openly — but nobody acted decisively, and the rating agencies held investment grade until it was too late.
+
+### Aug 2025 — AInvest
+- Net debt had already surged **56% YoY to R$49B** by June 2025
+- Cash burn of **R$7B in Q1 alone**
+- E2G and sustainable aviation fuel investments "yet to yield financial returns"
+- Selic at 13.75% crushing borrowing costs
+- Citi analyst Gabriel Barra noted FCF would remain negative until 2026/27
+- Article literally framed it as "high-risk, high-reward" and warned of insolvency
+
+### May 2025 — AInvest
+- 6% sugarcane yield shortfall + wildfires damaged crops
+- Q3 FY24/25 net loss of R$2.57B (vs R$793M profit prior year)
+- "Asset sales may not reverse the trend fast enough"
+
+### Aug 2025 — Easy Brazil Investing
+- Warned "cheap can always get cheaper" and that extreme leverage could "raise the specter" of dilutive equity raises
+
+### Jun 2025 — Fitch
+- Revised outlook to **negative** while still affirming BBB — the first formal agency warning, 8 months before the 10-notch collapse
+
+### Raízen insiders (per Valor Internacional)
+- Internal sources acknowledged the portfolio was "more complex than ideal" with "high leverage at an unfavorable moment"
+- Organizational complexity "distracted leadership's attention"
+- Problems were known **"for at least two years"** before the Feb 2026 blowup
+
+### The pattern
+
+The warning signs were visible from mid-2024 onward — rising leverage, negative FCF, failed E2G bet, Biosev integration problems. But the rating agencies held investment grade until Feb 9, 2026. Fitch maintained BBB through Jun 2025, only went negative in Jun 2025, and still held BBB- through Oct 2025. **The 10-notch collapse in one week was a catch-up, not a leading indicator.**
+
+Nobody shorted it publicly in the way Hindenburg or Muddy Waters would — there's no activist short report on record. The warnings came from fundamental analysts who flagged the math but didn't sound the alarm loudly enough for it to matter.
+
+**The real story:** the rating agencies were the last to know, as usual. BBB in June 2025, CCC by February 2026. Investors who relied on ratings got crushed by the forced-selling cascade.
+
+*Sources: Bloomberg, Valor Internacional, Rio Times, LatinFinance, AInvest, Easy Brazil Investing, Fitch, S&P, Moody's (May 2025 – Feb 2026)*
 *Created 2026-02-19*
 
 ---
