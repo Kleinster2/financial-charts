@@ -46,9 +46,12 @@ The name combines *Pax* (Latin for peace) with *Silica* (silicon) — framing se
 | 🇦🇪 **UAE** | Energy, data centers, sovereign wealth |
 | 🇬🇧 **United Kingdom** | [[ARM]], chip design, AI research |
 
-### Invited / participating (not yet signed at launch)
+### Non-signatory participants (at the table but haven't signed)
+- 🇨🇦 **Canada**
+- 🇪🇺 **European Union** (as bloc, separate from individual member states)
 - 🇳🇱 **Netherlands** — [[ASML]] (lithography monopoly)
-- Others reportedly in discussions
+- 🇹🇼 **Taiwan** — [[TSMC]] dominance; can't formally sign due to diplomatic sensitivity (One China)
+- **OECD** — observer capacity
 
 ### Later signatories
 | Country | Date | Context |
@@ -86,9 +89,11 @@ Pax Silica formalizes the US strategy of building a **"trusted" parallel supply 
 - Pax Silica extends the logic: the **entire stack** (minerals → chips → AI) needs allied coordination
 
 ### Notably absent
-- **China** — the implicit adversary
-- **Taiwan** — conspicuously absent despite [[TSMC]]'s foundry dominance; likely due to diplomatic sensitivity (One China policy)
-- **EU as a bloc** — individual European countries (Greece, UK, Netherlands) involved, not the EU itself
+- **China** — the implicit adversary; entirely excluded
+
+### Present but can't formally sign
+- **Taiwan** — non-signatory participant (One China diplomatic constraints), but at the table given [[TSMC]]'s foundry dominance
+- **EU** — participates as non-signatory; individual member states (Greece, UK, Netherlands) signed or invited separately
 
 ### Relationship to other frameworks
 
@@ -117,6 +122,7 @@ Pax Silica is broader than any of these — it tries to connect the **entire sup
 
 ## Related
 
+- [[Jacob Helberg]] — architect; Under Secretary of State for Economic Affairs
 - [[India AI Impact Summit 2026]] — India joined Pax Silica here
 - [[India]] — newest member
 - [[CHIPS Act]] — US domestic semiconductor policy
