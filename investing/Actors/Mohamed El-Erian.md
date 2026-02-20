@@ -83,11 +83,21 @@ Became standard framework for understanding 2010s economy.
 
 **On [[Blue Owl OBDC II redemption gate]] (Feb 19, 2026):**
 
-Drew explicit parallel to August 2007 — when Bear Stearns hedge funds gated investors months before the broader financial crisis:
+Posted on X after Blue Owl permanently halted OBDC II redemptions. Direct quotes (via CNBCTV18, NYT):
 
-> *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007? The question will be on the minds of some investors and policymakers this morning."*
+> *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007?"*
 
-His point isn't that 2008 is coming — it's that **systemic crises always start the same way**: a small fund gates, management calls it orderly, everyone says "contained," and the real question isn't this fund but what it reveals about the structure behind it. Bear Stearns' first gated fund also looked fine on paper. The crisis was never in the numbers — it was in the structure (opaque, concentrated, liquidity-mismatched, with retail money that shouldn't have been there). By the time consensus agrees it's systemic, it's too late. The comparison landed: alt managers sold off 4-9% across the board.
+Key points from his commentary:
+- Private credit boom in developed markets may have gone "too far overall"
+- Warned of a "market for lemons" problem — weaker assets become indistinguishable from stronger ones during stress
+- Called valuation adjustments the "elephant in the room" — a "significant and necessary valuation hit" could be looming
+- Firms differ in structure and risk management, but sector-wide contagion risk is real
+- Clarified current risks "nowhere near" 2008 scale
+- Said he would share more thoughts in due course
+
+NYT: Blue Owl's redemption change "reminded him of the beginnings of the financial crisis when banks sought to contain damage from souring mortgage loans."
+
+The comparison landed: alt managers sold off 4-9% across the board on Feb 19.
 
 See: [[Private credit retail liquidity crisis 2026]]
 

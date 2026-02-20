@@ -97,7 +97,7 @@ Five layers of pressure converged:
 
 ## Key voices
 
-**Mohamed El-Erian:** *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007? The question will be on the minds of some investors and policymakers this morning."* Said it raises questions about systemic risks and *"a significant — and necessary — valuation hit is looming for specific assets."*
+**Mohamed El-Erian (X post, Feb 19):** *"Is this a 'canary-in-the-coalmine' moment, similar to August 2007?"* Said private credit boom may have gone "too far overall." Warned of a "market for lemons" problem — weaker assets indistinguishable from stronger ones during stress. Called valuation adjustments the "elephant in the room" — *"a significant and necessary valuation hit"* looming. Clarified "nowhere near" 2008 scale. NYT: redemption change "reminded him of the beginnings of the financial crisis."
 
 **Craig Packer (Blue Owl co-President):** *"We aren't halting redemptions... We've been tendering for 5% of the shares of this fund for eight years. Instead of resuming 5% a quarter, we are in fact accelerating redemptions. And we're going to return to this investor group 30% of their capital at book value in the next 45 days."* Sold $1.4B at near-par — called it *"strong for any asset class to clear that kind of size at that kind of price."*
 
