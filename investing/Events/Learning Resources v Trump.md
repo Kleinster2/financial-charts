@@ -135,6 +135,53 @@ Remanded to US Court of International Trade to sort out refund mechanics.
 
 ---
 
+## The refund bomb
+
+### Scale
+- **Penn Wharton Budget Model:** Up to **$175B** in refunds projected
+- **Reuters:** $150-200B range
+- **Tax Foundation:** At least $160B collected under IEEPA through Feb 20, 2026
+- **CBP reported** $133.5B collected through December 14, 2025 (last public update before ruling)
+- IEEPA tariffs represented **~50% of all US customs duties** at the time of the ruling
+
+### Who collected what (by trading partner)
+IEEPA tariffs began with China (Feb 2025), expanded to Canada/Mexico (March 2025), then went global with "Liberation Day" reciprocal tariffs (April 2025). China was the largest source of IEEPA revenue, followed by the EU, Canada, and Mexico.
+
+### Refund mechanics
+1. **Importers** are the legal payees — they paid the tariffs to US Customs and Border Protection (CBP)
+2. Importers generally have **180 days after goods are "liquidated"** to protest and request refunds from CBP
+3. Many entries are **not yet liquidated** — so the refund window is still open for most importers
+4. CBP began issuing refunds electronically via ACH as of February 6, 2026
+5. Case **remanded to US Court of International Trade** to work out refund procedures
+
+### The complications
+- **Passed-through costs:** Many importers already raised prices, passing tariff costs to consumers. Do they keep the refund AND the higher prices? Kavanaugh flagged this: *"some importers may have already passed on costs to consumers or others"*
+- **Bankrupt businesses:** Some small businesses went under because of tariff costs. Refunds can't resurrect them.
+- **Supply chain restructuring:** Companies that spent billions relocating supply chains (e.g., Temu building US logistics, manufacturers moving out of China) can't un-restructure
+- **Trade deal uncertainty:** Deals negotiated using IEEPA tariffs as leverage (China, UK, Japan) are now legally ambiguous — were concessions given for tariffs that were illegal?
+- **Timeline:** Could take **years** of litigation. Class action-style proceedings likely.
+- **Deficit impact:** Government loses IEEPA revenue (~50% of customs duties) AND must refund past collections. Penn Wharton: future tariff revenue collections will **"fall by half"** unless replaced. Bond market already pricing this in (yields rose on the ruling).
+
+### Who benefits most from refunds
+| Beneficiary | Why |
+|-------------|-----|
+| **Large importers** (Amazon, Walmart, Target) | Biggest volumes, most tariffs paid, best legal teams to file claims |
+| **Auto importers** | IEEPA reciprocal tariffs hit European/Japanese cars hard |
+| **Electronics importers** | China tariffs hit consumer electronics |
+| **Small businesses on Etsy/eBay/Shopify** | De minimis removal devastated them — but many already closed |
+| **Temu/Shein** | Built entire US model on de minimis; refund of tariffs paid since removal |
+
+### Who gets hurt
+| Loser | Why |
+|-------|-----|
+| **US Treasury** | $175B outflow + lost future revenue |
+| **Domestic producers** | Tariff protection removed — foreign competition returns |
+| **Workers in protected industries** | Jobs created by tariff protection may disappear |
+| **Bond holders** | Higher deficits → higher yields → lower bond prices |
+| **Trump's negotiating leverage** | Tariffs were the main card for trade deals; now invalidated |
+
+---
+
 ## Historical significance
 
 This is the most significant judicial check on presidential trade power since the founding era. The Constitution gives Congress (not the president) the power to impose tariffs (Article I, Section 8). Over the 20th century, Congress gradually delegated trade authority to the executive through various statutes. *Learning Resources v. Trump* draws a line: emergency powers don't include tariffs.
