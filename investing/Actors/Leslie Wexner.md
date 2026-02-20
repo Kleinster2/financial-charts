@@ -88,6 +88,29 @@ The company renamed to **L Brands** and progressively shed non-core chains, focu
 
 Epstein was Wexner's only known wealth management client initially. Epstein ran his business from a house Wexner owned. The relationship gave Epstein access to Wexner's social network, foundations, and the Victoria's Secret brand as cover.
 
+### Co-conspirator basis
+
+The FBI labeled Wexner an "unindicted co-conspirator" in investigative documents drafted after Epstein's 2019 death — but the same documents noted **"limited evidence"** against him. His lawyers say the AUSA in charge stated Wexner was "neither a co-conspirator nor target." The contradiction remains unresolved.
+
+**The likely basis is Wexner as enabler/infrastructure**, not direct trafficking participant:
+
+| Evidence | Significance |
+|----------|-------------|
+| **Power of attorney** (1991) | Gave Epstein financial credibility and social standing to operate |
+| **Manhattan townhouse transfer** | 9 E 71st became Epstein's base of operations |
+| **Co-president, New Albany Company** | Deep business entanglement beyond client relationship |
+| **VS model recruiter cover** | L Brands execs reported Epstein posing as VS recruiter in mid-1990s; Wexner allegedly failed to act |
+| **Maria Farmer assault on Wexner's property** (1996) | Assault occurred at Wexner's Ohio estate; Farmer says local sheriff connected to Wexner prevented her from leaving |
+| **Virginia Giuffre allegation** | Alleged she was sexually trafficked to Wexner directly (he denies, says they never met) |
+
+**Evidence of awareness:**
+- **Birthday card (2003):** Wexner gave Epstein a card with a hand-drawing of a woman's breasts — "I wanted to get you what you want... so here it is..." Suggests awareness of Epstein's predatory nature
+- **Email before guilty plea (2008):** Days before Epstein pleaded guilty to soliciting sex with a child, Wexner emailed: "All I can say is I feel sorry. Always be careful."
+
+**Wexner's defense:** Denies all knowledge of Epstein's crimes. Claims Epstein stole $46M from him. Says he cut ties in 2007. Has not been charged. Being deposed by House Oversight Committee (Feb 19, 2026).
+
+Ghislaine Maxwell told DOJ (Jul 2025) that Epstein "ran New Albany" — the Ohio community where Wexner built a 340-acre estate and Epstein owned at least two properties.
+
 ### Southern Air Transport connection
 
 In the 1990s, Wexner and Epstein were involved in relocating **Southern Air Transport** — a CIA front organization with ties to Iran-Contra — from Miami to Columbus. Southern Air transported goods for Wexner's businesses. In 1996, Customs found hidden cocaine on one of the planes. Southern Air shut down in 1998 after receiving federal relocation aid.
