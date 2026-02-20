@@ -82,11 +82,7 @@ Jan 28-29, 2026 decision:
 - Services disinflation continuing
 - Fed hasn't yet complied with DOJ subpoenas (Bill Pulte was instigator)
 
-Feb 20, 2026 data release (Q4 2025):
-- Q4 GDP (annualized): 1.4% vs 2.9% expected — significant miss
-- PCE headline: +0.4% MoM, +2.9% YoY (above expectations)
-- Core PCE: +0.4% MoM, +3.0% YoY (above expectations)
-- Stagflationary signal — weak growth + sticky inflation. Complicates rate path: cuts needed for growth, but inflation argues against. [[SCOTUS IEEPA ruling]] (same day) could ease tariff-driven inflation if IEEPA tariffs not fully replaced.
+**Feb 20 data:** Q4 GDP 1.4% (vs 2.9% expected), core PCE +3.0% YoY — stagflationary. See [[US economic indicators]] for full release.
 
 Jan 24 rate check: NY Fed conducted rare "rate check" with currency traders on USD/JPY — reportedly at [[Treasury]]'s request. Markets interpreted this as possible coordinated intervention to weaken dollar. DXY fell 2.26% over 5 days to 4-year low (96.16). See [[US dollar]].
 

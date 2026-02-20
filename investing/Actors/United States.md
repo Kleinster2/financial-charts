@@ -14,14 +14,11 @@ Largest economy globally. GDP ~$29T (2025E), growth slowing to ~1.7-2.0%. Inflat
 | Metric | Value |
 |--------|-------|
 | GDP (2025E) | ~$29T |
-| Real GDP growth (2025E) | ~1.7-2.0% |
-| Q4 2025 GDP (annualized) | **1.4%** (vs 2.9% expected) — released Feb 20, 2026 |
 | Population | ~335M |
-| CPI inflation (Sep 2025) | 3.0% (12-month) |
-| Unemployment (Nov 2025) | 4.6% |
-| Federal funds rate | Held steady (no cuts expected until Dec 2026) |
 | Currency | USD |
 | Central bank | [[Federal Reserve]] |
+
+For latest GDP, inflation, jobs, and other releases see [[US economic indicators]].
 
 ---
 
@@ -36,31 +33,9 @@ Largest economy globally. GDP ~$29T (2025E), growth slowing to ~1.7-2.0%. Inflat
 
 ---
 
-## Monetary policy
+## Monetary policy & labor
 
-The Fed paused rate cuts as inflation proved stickier than expected. FOMC Dec 2025 projections:
-
-| Metric | 2025 | 2026 | Longer run |
-|--------|------|------|------------|
-| Real GDP | 1.7% | 2.3% | — |
-| Unemployment | ~4.3% | 4.5% | — |
-| PCE inflation | — | 2.5% | 2.0% |
-| Fed funds (neutral) | — | — | 3.125% |
-
-Tariffs are expected to show up in consumer prices, with core PCE potentially reaching 3% in 2026. Fed likely holds until Dec 2026, reaching neutral rate mid-2027.
-
----
-
-## Labor market
-
-Payroll growth has weakened materially:
-
-| Period | Avg. monthly nonfarm payrolls |
-|--------|-------------------------------|
-| 2024 average | 168K |
-| Aug-Nov 2025 (3-month avg.) | 22K |
-
-Unemployment fluctuated 4.0-4.2% from May 2024 to Jul 2025, then rose to 4.3% in Aug and 4.6% by Nov 2025.
+See [[Federal Reserve]] for rate decisions, [[US economic indicators]] for data releases (GDP, PCE, CPI, jobs).
 
 ---
 
@@ -72,7 +47,7 @@ Unemployment fluctuated 4.0-4.2% from May 2024 to Jul 2025, then rose to 4.3% in
 - India secured interim reduction (50% → 18%, Feb 2026)
 - [[China]] tariffs remain elevated, driving supply chain restructuring
 
-SCOTUS IEEPA ruling (Feb 20, 2026): Supreme Court struck down IEEPA tariffs 6-3 ([[SCOTUS IEEPA ruling]]). Effective tariff rate drops from 16.1% → 10.4%. $175B+ in collected IEEPA revenue at risk of refund. Section 232 and Section 301 tariffs unaffected. Admin pivoting to replacement authorities.
+IEEPA tariffs struck down by Supreme Court (Feb 20, 2026) — see [[SCOTUS IEEPA ruling]]
 
 ---
 
@@ -90,6 +65,7 @@ SCOTUS IEEPA ruling (Feb 20, 2026): Supreme Court struck down IEEPA tariffs 6-3 
 ## Related
 
 Macro:
+- [[US economic indicators]] — GDP, inflation, jobs data
 - [[Federal Reserve]] — monetary policy
 - [[US Government]] — fiscal policy
 - [[Trump II]] — tariff regime, fiscal expansion
