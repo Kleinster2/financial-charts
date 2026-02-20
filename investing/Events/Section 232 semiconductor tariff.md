@@ -3,7 +3,7 @@ aliases: [Section 232 chip tariff, semiconductor tariff, AI chip tariff]
 ---
 #event #trade #chips #usa #2026
 
-**Section 232 semiconductor tariff** — 25% tariff on advanced AI chips (H200, MI325X) effective January 15, 2026. First time US monetizes chip exports to China through tariffs rather than pure restriction. Part of deal reopening NVIDIA China sales.
+Section 232 semiconductor tariff — 25% tariff on advanced AI chips (H200, MI325X) effective January 15, 2026. First time US monetizes chip exports to China through tariffs rather than pure restriction. Part of deal reopening NVIDIA China sales.
 
 ---
 
@@ -11,8 +11,8 @@ aliases: [Section 232 chip tariff, semiconductor tariff, AI chip tariff]
 
 Two things happened simultaneously:
 
-1. **25% tariff** on advanced AI chips under Section 232
-2. **NVIDIA China access reopened** under "managed access" framework
+1. 25% tariff on advanced AI chips under Section 232
+2. NVIDIA China access reopened under "managed access" framework
 
 This is industrial policy disguised as a national security tariff.
 
@@ -22,16 +22,16 @@ This is industrial policy disguised as a national security tariff.
 
 | Detail | Value |
 |--------|-------|
-| Rate | **25% ad valorem** |
+| Rate | 25% ad valorem |
 | Authority | Section 232, [[Trade]] Expansion Act 1962 |
 | Effective | January 15, 2026, 12:01 AM EST |
 | Investigation | 9-month Commerce Department probe |
-| Revenue | **$4-6B/year** → funds domestic manufacturing |
+| Revenue | $4-6B/year → funds domestic manufacturing |
 | Cost per GPU | ~$12K additional (analyst est.) |
 
-**Technical scope:** Chips with Total Processing Performance (TPP) 14,000-21,100 and DRAM bandwidth >4,500 GB/s.
+Technical scope: Chips with Total Processing Performance (TPP) 14,000-21,100 and DRAM bandwidth >4,500 GB/s.
 
-**Named chips:**
+Named chips:
 
 | Chip | TPP range | Status |
 |------|-----------|--------|
@@ -46,7 +46,7 @@ This is industrial policy disguised as a national security tariff.
 
 | Exempt use | Implication |
 |------------|-------------|
-| **US data centers** | Hyperscalers unaffected |
+| US data centers | Hyperscalers unaffected |
 | US R&D | Research labs exempt |
 | US startups | "Startup Shield" |
 | Non-DC consumer/industrial | Edge devices, automotive exempt |
@@ -54,7 +54,7 @@ This is industrial policy disguised as a national security tariff.
 | Domestic repairs | Replacement chips exempt |
 | Supply chain strengthening | Secretary's discretion |
 
-**Bottom line:** Tariff primarily hits **re-exports** — chips transiting US to non-exempt foreign buyers, especially China. US domestic consumption largely protected.
+Bottom line: Tariff primarily hits re-exports — chips transiting US to non-exempt foreign buyers, especially China. US domestic consumption largely protected.
 
 ---
 
@@ -63,18 +63,18 @@ This is industrial policy disguised as a national security tariff.
 | Detail | Value |
 |--------|-------|
 | Framework | "Managed access" (replaces Biden's "presumption of denial") |
-| Volume cap | China sales ≤ **50% of US domestic volume** |
+| Volume cap | China sales ≤ 50% of US domestic volume |
 | Verification | Every shipment → US third-party lab testing |
-| Routing | [[Taiwan]] → **US** → China (detour required) |
-| First shipment | **82,000 H200 GPUs**, mid-February 2026 |
+| Routing | [[Taiwan]] → US → China (detour required) |
+| First shipment | 82,000 H200 GPUs, mid-February 2026 |
 | Tariff bearer | NVIDIA (can pass to Chinese buyers) |
 
-**Requirements for Chinese buyers:**
+Requirements for Chinese buyers:
 - Security screening
 - Must demonstrate export won't impact US customer demand
 - Case-by-case [[BIS]] license approval (weeks to months)
 
-**China's response (same day, Jan 14):**
+China's response (same day, Jan 14):
 - Customs directive: H200 chips "not permitted"
 - Tech firms summoned, told not to purchase "unless necessary"
 - Exceptions only for "special circumstances" (university R&D)
@@ -86,12 +86,12 @@ This is industrial policy disguised as a national security tariff.
 
 | Phase | Timeline | Scope |
 |-------|----------|-------|
-| **Phase 1** (current) | Jan 15, 2026 | 25% on narrow advanced AI chips |
-| **Review** | Jul 1, 2026 | Commerce updates President — may modify |
-| **Phase 2** | If milestones missed | Could escalate to **100%** |
-| **Phase 3** | **Jun 2027** | Legacy/mature-node chips folded in |
+| Phase 1 (current) | Jan 15, 2026 | 25% on narrow advanced AI chips |
+| Review | Jul 1, 2026 | Commerce updates President — may modify |
+| Phase 2 | If milestones missed | Could escalate to 100% |
+| Phase 3 | Jun 2027 | Legacy/mature-node chips folded in |
 
-**Phase 3 significance:** [[Automotive]] and medical device industries get "glide path" to source domestic alternatives. This is the long-term endgame — all semiconductor imports eventually tariffed.
+Phase 3 significance: [[Automotive]] and medical device industries get "glide path" to source domestic alternatives. This is the long-term endgame — all semiconductor imports eventually tariffed.
 
 ---
 
@@ -105,7 +105,7 @@ This is industrial policy disguised as a national security tariff.
 | New fabs | 4-5 additional Arizona fabrication plants |
 | Timeline | 2026-2028 domestic capacity coming online |
 
-**The carrot:** The more TSMC builds in US, the less it pays in tariffs. Converts tariffs into industrial policy tools.
+The carrot: The more TSMC builds in US, the less it pays in tariffs. Converts tariffs into industrial policy tools.
 
 ---
 
@@ -113,12 +113,12 @@ This is industrial policy disguised as a national security tariff.
 
 | Factor | Section 232 | IEEPA |
 |--------|-------------|-------|
-| Legal challenge | Firmer ground | **Supreme Court reviewing** |
+| Legal challenge | Firmer ground | Struck down (Feb 20, 2026) |
 | Authority | [[Trade]] Expansion Act 1962 | Emergency powers |
 | Precedent | Steel/aluminum tariffs | Newer, untested at scale |
 | Scope | National security finding | Emergency declaration |
 
-Trump's IEEPA tariffs (used for [[Canada]], [[Mexico]], reciprocal) face Supreme Court challenge. Section 232 is legally safer — same authority used for steel/aluminum tariffs (2018).
+Trump's IEEPA tariffs (used for [[Canada]], [[Mexico]], reciprocal) were struck down by the Supreme Court on Feb 20, 2026 ([[SCOTUS IEEPA ruling]], 6-3). Section 232 proved to be the legally durable path — same authority used for steel/aluminum tariffs (2018). The administration's Jan 2026 decision to use Section 232 for semiconductors was vindicated.
 
 ---
 
@@ -127,16 +127,16 @@ Trump's IEEPA tariffs (used for [[Canada]], [[Mexico]], reciprocal) face Supreme
 | Era | Approach | Revenue | China access |
 |-----|----------|---------|--------------|
 | Biden (2022-2024) | Pure restriction | $0 | Blocked |
-| Trump 2.0 (2026) | **Controlled access + tariff** | **$4-6B/yr** | Managed |
+| Trump 2.0 (2026) | Controlled access + tariff | $4-6B/yr | Managed |
 
-**The logic:** If China will get chips anyway (through gray market, Huawei alternatives), better to sell them openly with a 25% tax than lose the revenue to intermediaries.
+The logic: If China will get chips anyway (through gray market, Huawei alternatives), better to sell them openly with a 25% tax than lose the revenue to intermediaries.
 
 ---
 
 ## Stacking rules
 
 - Section 232 semiconductor tariff takes precedence over other Section 232 tariffs
-- Does **not** stack with IEEPA Reciprocal, IEEPA [[Canada]], or IEEPA [[Mexico]] tariffs
+- Does not stack with IEEPA Reciprocal, IEEPA [[Canada]], or IEEPA [[Mexico]] tariffs
 - No duty drawback permitted
 - FTZ entries after Jan 15: must be privileged foreign status (tariff locked at admission)
 
@@ -146,12 +146,12 @@ Trump's IEEPA tariffs (used for [[Canada]], [[Mexico]], reciprocal) face Supreme
 
 | Actor | Position |
 |-------|----------|
-| **[[NVIDIA]]** | "Applauds" — lobbied hard for China access |
-| **[[AMD]]** | Complies with "all US export control laws and policies" |
-| **Democrats** | "Selling out national security for revenue" |
-| **Matt Pottinger** (ex-Trump [[Asia]] advisor) | "Wrong track" — hurts US in AI race |
-| **TSMC** | Stock dipped, then rebounded on $250B deal |
-| **China (Global Times)** | "Discriminatory" — targeted specifically at China |
+| [[NVIDIA]] | "Applauds" — lobbied hard for China access |
+| [[AMD]] | Complies with "all US export control laws and policies" |
+| Democrats | "Selling out national security for revenue" |
+| Matt Pottinger (ex-Trump [[Asia]] advisor) | "Wrong track" — hurts US in AI race |
+| TSMC | Stock dipped, then rebounded on $250B deal |
+| China (Global Times) | "Discriminatory" — targeted specifically at China |
 
 ---
 
@@ -159,13 +159,13 @@ Trump's IEEPA tariffs (used for [[Canada]], [[Mexico]], reciprocal) face Supreme
 
 | Actor | Impact |
 |-------|--------|
-| **[[NVIDIA]]** | **Mixed** — China revenue reopened ($10B+ opportunity) but 25% tariff eats margin |
-| **[[AMD]]** | **Slightly negative** — MI325X tariffed, no China deal announced |
-| **[[TSMC]]** | **Positive** — $250B deal, preferential treatment, more Arizona fabs |
-| **[[Intel]]** | **Positive** — domestic manufacturing advantage |
-| **Hyperscalers** | **Neutral** — exempted for US data center use |
-| **Chinese buyers** | **Negative** — 25% premium + verification delays + volume caps |
-| **[[Huawei]]/[[Ascend]]** | **Complex** — H200 availability reduces urgency for Chinese alternatives |
+| [[NVIDIA]] | Mixed — China revenue reopened ($10B+ opportunity) but 25% tariff eats margin |
+| [[AMD]] | Slightly negative — MI325X tariffed, no China deal announced |
+| [[TSMC]] | Positive — $250B deal, preferential treatment, more Arizona fabs |
+| [[Intel]] | Positive — domestic manufacturing advantage |
+| Hyperscalers | Neutral — exempted for US data center use |
+| Chinese buyers | Negative — 25% premium + verification delays + volume caps |
+| [[Huawei]]/[[Ascend]] | Complex — H200 availability reduces urgency for Chinese alternatives |
 
 ---
 

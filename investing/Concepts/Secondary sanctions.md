@@ -2,7 +2,7 @@
 
 #concept #geopolitics #sanctions #risk
 
-**Secondary sanctions** — Penalties on third parties (non-US companies/countries) for doing business with sanctioned targets. Key US foreign policy tool. Two mechanisms: traditional ([[OFAC]] financial) and tariff-based (novel, Jan 2026).
+Secondary sanctions — Penalties on third parties (non-US companies/countries) for doing business with sanctioned targets. Key US foreign policy tool. Two mechanisms: traditional ([[OFAC]] financial) and tariff-based (novel, Jan 2026).
 
 ---
 
@@ -16,7 +16,7 @@ Third-party country does business with [[Target]]
 US punishes third party (secondary sanctions)
 ```
 
-**Purpose:** Force global compliance even when third parties have no US nexus. Leverage dollar dominance and US market access.
+Purpose: Force global compliance even when third parties have no US nexus. Leverage dollar dominance and US market access.
 
 ---
 
@@ -24,12 +24,12 @@ US punishes third party (secondary sanctions)
 
 | | Traditional ([[OFAC]]) | Tariff-based (NEW) |
 |--|-------------------|---------------------|
-| **Tool** | SDN list, block USD access | Import tariffs |
-| **[[Target]]** | Specific companies, individuals, vessels | Entire countries |
-| **Legal basis** | Established sanctions law | IEEPA (novel, challenged) |
-| **Enforcement** | Treasury, seizures | Customs |
-| **Precedent** | Decades of use | First use Jan 2026 |
-| **Example** | Russia ([[Rosneft]], Lukoil) | Iran (25% tariff) |
+| Tool | SDN list, block USD access | Import tariffs |
+| [[Target]] | Specific companies, individuals, vessels | Entire countries |
+| Legal basis | Established sanctions law | IEEPA (struck down Feb 20, 2026) |
+| Enforcement | Treasury, seizures | Customs |
+| Precedent | Decades of use | First use Jan 2026 |
+| Example | Russia ([[Rosneft]], Lukoil) | Iran (25% tariff) |
 
 ---
 
@@ -44,9 +44,9 @@ US punishes third party (secondary sanctions)
 | Secondary sanctions | [[Rosneft]] + Lukoil (Jan 2025) |
 | Coverage | ~50% of Russian oil production |
 
-**Mechanism:** Non-US entities doing business with [[Rosneft]]/Lukoil blocked from US financial system.
+Mechanism: Non-US entities doing business with [[Rosneft]]/Lukoil blocked from US financial system.
 
-**Effectiveness:** Leaky — 27% of Russian crude moves via shadow fleet, revenues only slightly reduced.
+Effectiveness: Leaky — 27% of Russian crude moves via shadow fleet, revenues only slightly reduced.
 
 See [[Russia]] for details.
 
@@ -57,9 +57,9 @@ See [[Russia]] for details.
 | Tariff | 25% on any country "doing business with Iran" |
 | Announced | Jan 12, 2026 (Truth Social) |
 | Implementation | Unclear — no executive action published |
-| Legal authority | IEEPA (Supreme Court challenge pending) |
+| Legal authority | IEEPA (struck down — [[SCOTUS IEEPA ruling]]) |
 
-**Affected countries:**
+Affected countries:
 | Country | Iran exposure | Potential tariff |
 |---------|---------------|------------------|
 | China | 90%+ of Iran oil, $9B+ trade | +25% (to 74%+ total) |
@@ -75,11 +75,11 @@ See [[Iran]] for details.
 
 | Country | Russia exposure | Iran exposure | Risk level |
 |---------|-----------------|---------------|------------|
-| **China** | [[Oil]] buyer, tech supplier | 90% of oil trade | Very high |
-| **India** | Discounted oil buyer | Trading partner | High |
-| **UAE** | [[Trade]]/finance hub | [[Trade]] hub | Medium |
-| **Turkey** | Energy, trade | Regional partner | Medium |
-| **[[EU]]** | Limited (compliant) | Limited | Low |
+| China | [[Oil]] buyer, tech supplier | 90% of oil trade | Very high |
+| India | Discounted oil buyer | Trading partner | High |
+| UAE | [[Trade]]/finance hub | [[Trade]] hub | Medium |
+| Turkey | Energy, trade | Regional partner | Medium |
+| [[EU]] | Limited (compliant) | Limited | Low |
 
 ---
 
@@ -89,10 +89,10 @@ See [[Iran]] for details.
 
 | Risk | Detail |
 |------|--------|
-| **Direct exposure** | Companies trading with sanctioned entities |
-| **Supply chain** | Unknowing use of sanctioned suppliers |
-| **Financial services** | [[Banks]] processing sanctioned transactions |
-| **[[Shipping]]/insurance** | Vessels, coverage for sanctioned cargo |
+| Direct exposure | Companies trading with sanctioned entities |
+| Supply chain | Unknowing use of sanctioned suppliers |
+| Financial services | [[Banks]] processing sanctioned transactions |
+| [[Shipping]]/insurance | Vessels, coverage for sanctioned cargo |
 
 ### Country-level risk
 
@@ -106,11 +106,11 @@ See [[Iran]] for details.
 
 | Sector | Risk |
 |--------|------|
-| **Energy** | [[Oil]] traders, refiners with Russia/Iran exposure |
-| **[[Shipping]]** | Tanker companies, insurers |
-| **Banking** | Correspondent banking, trade finance |
-| **[[Commodities]]** | Metals, agriculture from sanctioned sources |
-| **Tech** | Components to sanctioned countries |
+| Energy | [[Oil]] traders, refiners with Russia/Iran exposure |
+| [[Shipping]] | Tanker companies, insurers |
+| Banking | Correspondent banking, trade finance |
+| [[Commodities]] | Metals, agriculture from sanctioned sources |
+| Tech | Components to sanctioned countries |
 
 ---
 
@@ -118,14 +118,14 @@ See [[Iran]] for details.
 
 | Method | How it works |
 |--------|--------------|
-| **Shadow fleet** | Old tankers, opaque ownership, non-Western insurance |
-| **Ship-to-ship transfers** | Transfer cargo at sea to clean vessels |
-| **Intermediaries** | Route through third countries (UAE, Turkey) |
-| **False documentation** | Fake origin certificates |
-| **Cryptocurrency** | Avoid traditional banking |
-| **Yuan/ruble settlement** | Bypass USD system |
+| Shadow fleet | Old tankers, opaque ownership, non-Western insurance |
+| Ship-to-ship transfers | Transfer cargo at sea to clean vessels |
+| Intermediaries | Route through third countries (UAE, Turkey) |
+| False documentation | Fake origin certificates |
+| Cryptocurrency | Avoid traditional banking |
+| Yuan/ruble settlement | Bypass USD system |
 
-**Scale:** ~600 shadow fleet vessels sanctioned by [[EU]], 27% of Russian crude moves through shadow channels.
+Scale: ~600 shadow fleet vessels sanctioned by [[EU]], 27% of Russian crude moves through shadow channels.
 
 ---
 
@@ -143,11 +143,11 @@ See [[Iran]] for details.
 
 | Issue | Status |
 |-------|--------|
-| IEEPA authority | Supreme Court challenge pending |
-| Tariff-based approach | Novel, untested |
+| IEEPA authority | Struck down — [[SCOTUS IEEPA ruling]] (Feb 20, 2026, 6-3) |
+| Tariff-based approach | Invalid — IEEPA does not authorize tariffs per Supreme Court |
 | Extraterritorial reach | Contested by [[EU]], China |
 
-**If IEEPA struck down:** Both China tariffs and Iran secondary tariffs at risk.
+IEEPA struck down (Feb 20, 2026): Both IEEPA-based China tariffs (reciprocal, fentanyl) and Iran secondary tariffs invalidated. Traditional [[OFAC]] sanctions unaffected. Admin pivoting to Section 232/301 replacement authorities. $175B+ in collected IEEPA revenue at risk of refund.
 
 ---
 
@@ -155,18 +155,18 @@ See [[Iran]] for details.
 
 | [[Target]] | Period | Outcome |
 |--------|--------|---------|
-| **Iran (pre-2015)** | 2010-2015 | Effective — forced nuclear deal |
-| **Iran (post-2018)** | 2018-present | Partial — China/India still buy oil |
-| **Russia** | 2022-present | Limited — shadow fleet evasion |
-| **[[Huawei]]** | 2019-present | Effective — cut off from US tech |
-| **North Korea** | Ongoing | Highly effective — isolated |
+| Iran (pre-2015) | 2010-2015 | Effective — forced nuclear deal |
+| Iran (post-2018) | 2018-present | Partial — China/India still buy oil |
+| Russia | 2022-present | Limited — shadow fleet evasion |
+| [[Huawei]] | 2019-present | Effective — cut off from US tech |
+| North Korea | Ongoing | Highly effective — isolated |
 
 ---
 
 ## What to watch
 
-- [ ] Supreme Court IEEPA ruling (Jan 2026)
-- [ ] Iran tariff implementation details
+- [x] Supreme Court IEEPA ruling — struck down 6-3 (Feb 20, 2026). See [[SCOTUS IEEPA ruling]]
+- [ ] Admin replacement for Iran tariffs (post-IEEPA)
 - [ ] China retaliation to secondary tariffs
 - [ ] Shadow fleet seizures and enforcement
 - [ ] India/UAE compliance decisions
@@ -178,6 +178,7 @@ See [[Iran]] for details.
 ### Policy
 - [[US Sanctions]] — parent concept
 - [[US-China tariffs]] — tariff mechanism
+- [[SCOTUS IEEPA ruling]] — Feb 20, 2026 decision invalidating IEEPA tariffs
 - [[Export controls]] — tech-specific restrictions
 
 ### Targets
