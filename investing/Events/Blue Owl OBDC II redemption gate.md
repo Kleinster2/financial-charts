@@ -24,6 +24,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | **Feb 13, 2026** | Apollo, Blackstone execs offer public reassurance on software exposure |
 | **Feb 18, 2026** | Blue Owl announces $1.4B loan sale across three funds; OBDC II quarterly redemptions **permanently halted** |
 | **Feb 19, 2026** | Market reacts: OWL **-9.8% intraday** (-8.7% close). Alt managers: APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
+| **Feb 20, 2026** | Selloff continues: OWL **-6%** again. CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
 
 ---
 
@@ -108,6 +109,12 @@ Five layers of pressure converged:
 **Sen. Elizabeth Warren:** Called for increased bank capital requirements for private credit exposures, greater data disclosure, and a stress test. *"The Trump administration needs to wake up. Stop pushing these risky investments into Americans' retirement accounts."*
 
 **Blue Owl spokesperson:** *"Contrary to what has been reported by some, we are not halting investor liquidity."*
+
+**Dan Rasmussen (Verdad Capital, Feb 20):** *"This is a canary in the coal mine. The private markets bubble is finally starting to burst."* Called it *"classic fool's yield"* — high yield that doesn't translate to returns because borrowers were too risky.
+
+**Guy LeBas (Janney Montgomery Scott):** *"The majority of loans in private credit funds that individual investors tend to own, they're high yield loans... Over the course of the cycle, you can anticipate some material defaults across these funds."*
+
+**Duke University Fuqua School of Business (Sept 2025 research):** Institutional BDC ownership has steadily declined to **~25% by 2023** — retail investors are now the dominant equity capital source for publicly traded BDCs.
 
 **247 Wall Street analysis:** Pushes back on crisis narrative — OBDC II delivered **80% cumulative returns (9.3% annualized)** since inception, non-accruals under 2%, realized losses only 23 bps. This is a finite-life fund approaching its natural end date, not a blowup.
 

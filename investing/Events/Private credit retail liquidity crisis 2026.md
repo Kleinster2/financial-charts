@@ -24,6 +24,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Feb 19, 2026** | **[[Blue Owl OBDC II redemption gate]]** — first retail BDC to permanently halt redemptions |
 | **Feb 19, 2026** | Alt managers sell off: OWL -8.7%, APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
 | **Feb 19, 2026** | Sen. Warren calls for capital requirements, disclosure, stress tests for private credit |
+| **Feb 20, 2026** | OWL -6% again (2-day cumulative ~15%). CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously |
 
 ---
@@ -136,6 +137,12 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 **Sen. Elizabeth Warren:** Called for bank capital requirements, disclosure, stress tests. *"The Trump administration needs to wake up. Stop pushing these risky investments into Americans' retirement accounts."*
 
 **Barclays:** Blue Owl loan sale is *"a strong step toward winding down the fund."*
+
+**Dan Rasmussen (Verdad Capital, Feb 20):** *"This is a canary in the coal mine. The private markets bubble is finally starting to burst."* Years of ultra-low rates and spreads led investors *"further and further out the risk spectrum"* — called it *"classic fool's yield."*
+
+**Guy LeBas (Janney Montgomery Scott):** *"Over the course of the cycle, you can anticipate some material defaults across these funds."*
+
+**Duke Fuqua School of Business (Sept 2025):** Institutional BDC ownership fell to **~25% by 2023** — retail investors now supply the majority of publicly traded BDC equity capital.
 
 **Jamie Dimon (late 2025):** Private credit's *"cockroaches"* — stress in one borrower signals more hidden trouble.
 
