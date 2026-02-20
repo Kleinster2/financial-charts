@@ -262,7 +262,7 @@ class NoteChecker:
         return issues
 
     def _check_bold_formatting(self, content: str, filepath: Path) -> list[Issue]:
-        """Flag any bold formatting (**text**) in the note."""
+        """Flag bold formatting (**text**) in the note, exempting the opening definition line."""
         issues = []
 
         # Skip frontmatter
@@ -279,12 +279,14 @@ class NoteChecker:
 
         bold_matches = re.findall(r'\*\*(.+?)\*\*', body_no_code)
 
-        if bold_matches:
-            # Show first few examples
-            examples = bold_matches[:3]
+        # Exempt the first bold instance (opening definition line convention)
+        extra_matches = bold_matches[1:]
+
+        if extra_matches:
+            examples = extra_matches[:3]
             preview = ", ".join(f'**{b}**' for b in examples)
-            remaining = len(bold_matches) - len(examples)
-            msg = f"Contains {len(bold_matches)} bold instances: {preview}"
+            remaining = len(extra_matches) - len(examples)
+            msg = f"Contains {len(extra_matches)} bold instances (excluding definition line): {preview}"
             if remaining > 0:
                 msg += f" (+{remaining} more)"
             issues.append(Issue("error", "bold", msg))
@@ -474,7 +476,8 @@ aliases: []
         return issues
 
     def fix_bold(self, filepath: Path) -> int:
-        """Remove all bold formatting (**text**) from a note. Returns count of fixes."""
+        """Remove bold formatting (**text**) from a note, preserving the first instance
+        (opening definition line convention). Returns count of fixes."""
         content = filepath.read_text(encoding="utf-8")
 
         # Preserve frontmatter
@@ -487,22 +490,36 @@ aliases: []
                 body = content[second_dash + 3:]
 
         # Count bold instances in body (outside code blocks)
-        count = len(re.findall(r'\*\*(.+?)\*\*', body))
+        total = len(re.findall(r'\*\*(.+?)\*\*', body))
 
-        if count > 0:
-            # Replace **text** with text, but skip code blocks
-            # Split by code fences, only process non-code parts
+        # Only fix if there are bold instances beyond the first (definition line)
+        if total > 1:
+            # Replace **text** with text, but skip code blocks and preserve first instance
             parts = re.split(r'(```.*?```)', body, flags=re.DOTALL)
             new_parts = []
+            first_seen = False
             for part in parts:
                 if part.startswith('```'):
                     new_parts.append(part)  # Keep code blocks as-is
                 else:
-                    new_parts.append(re.sub(r'\*\*(.+?)\*\*', r'\1', part))
+                    if not first_seen:
+                        # Preserve first bold, replace the rest
+                        state = {'seen': False}
+                        def replace_after_first(match):
+                            if not state['seen']:
+                                state['seen'] = True
+                                return match.group(0)  # Keep first bold
+                            return match.group(1)  # Strip bold from rest
+                        part = re.sub(r'\*\*(.+?)\*\*', replace_after_first, part)
+                        first_seen = True
+                    else:
+                        part = re.sub(r'\*\*(.+?)\*\*', r'\1', part)
+                    new_parts.append(part)
             body = ''.join(new_parts)
             filepath.write_text(frontmatter + body, encoding="utf-8")
+            return total - 1  # Don't count the preserved first instance
 
-        return count
+        return 0
 
     def fix_missing_links(self, filepath: Path) -> list[str]:
         """Auto-fix missing wikilinks in a note. Returns list of fixed names."""
