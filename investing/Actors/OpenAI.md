@@ -10,18 +10,35 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 
 ---
 
-## Financial position (Jan 2026)
+## Financial position (Feb 2026)
 
 | Metric | Value |
 |--------|-------|
-| **Valuation** | **$500B** (Oct 2025 restructuring) |
+| Valuation (Oct 2025) | $500B (restructuring) |
+| **Valuation (Feb 2026)** | **$850B+** (post-money, new round) |
+| Pre-money valuation | $730B |
 | Revenue | $13B annualized |
 | Burn rate | 57% of revenue |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
-| Seeking valuation | $750-830B (Jan 2026 round) |
 
 Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valuable private company.
+
+### $100B+ mega-round (Feb 2026)
+
+Largest private funding round in history. First tranche closing by end of February; VCs and sovereign wealth funds expected in a later tranche.
+
+| Investor | Amount | Status |
+|----------|--------|--------|
+| [[Amazon]] | Up to **$50B** | In talks |
+| [[SoftBank]] | ~**$30B** | In talks (on top of prior $41B) |
+| [[NVIDIA]] | ~**$20B** | Near deal |
+| [[Microsoft]] | TBD | Expected |
+| VCs + SWFs | TBD | Later tranche |
+
+*Source: Bloomberg, Feb 19, 2026.*
+
+$850B+ post-money is $20B above initial expectations. [[Amazon]] potentially contributing half the round — would make them a major OpenAI stakeholder alongside [[Microsoft]] and [[SoftBank]]. [[NVIDIA]] increasing from $250M (Oct 2024) to $20B signals deepening strategic ties despite inference chip tensions.
 
 **CFO argument (Jan 2026):** Sarah Frier published blog claiming revenue tracks compute 1:1 — 10x revenue growth (2023-2025) alongside 9.5x compute growth. Implies more capital = more revenue.
 
@@ -48,14 +65,14 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valu
 | Investor | Amount | Stake | Notes |
 |----------|--------|-------|-------|
 | **[[Microsoft]]** | $13.8B | **~27-30%** | Was 32.5% pre-dilution, ~10x return |
-| **[[SoftBank]]** | **$41B** | **~11%** | Largest single check ever (Dec 2025) |
+| **[[SoftBank]]** | **$41B + ~$30B** | **~11%+** | $41B (Dec 2025) + ~$30B in Feb 2026 round |
 | **[[Thrive Capital]]** | $1B+ | — | Led multiple rounds, Josh Kushner |
 | **[[MGX]]** (Abu Dhabi) | — | — | Part of Middle East push |
 | **[[Khosla Ventures]]** | — | — | Early investor ([[Vinod Khosla]]) |
 | **[[a16z]]** | — | — | Early investor |
 | **[[Sequoia Capital]]** | — | — | Multiple rounds |
 | **[[Tiger Global]]** | — | — | Growth rounds |
-| **[[NVIDIA]]** | $250M | — | Oct 2024 round |
+| **[[NVIDIA]]** | $250M + ~$20B | — | $250M (Oct 2024) + ~$20B in Feb 2026 round |
 | **T. Rowe Price** | — | — | Secondary purchases |
 | **Dragoneer** | — | — | Secondary purchases |
 | **[[Founders Fund]]** | — | — | Early investor |
@@ -66,18 +83,14 @@ Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valu
 - Thrive, Khosla, a16z are early investors with smaller but high-multiple positions
 - Employee equity pool is substantial (~30%) — retention tool
 
-### $50B Middle East round (Jan 2026)
+### Prior $50B Middle East round (Jan 2026)
 
 | Detail | Value |
 |--------|-------|
-| [[Target]] raise | **$50B+** |
-| [[Target]] valuation | $750-830B |
+| Raise | $50B+ |
+| Valuation | $750-830B |
 | Key investors | [[MGX]] (Abu Dhabi), other Gulf SWFs |
-| Status | Sam Altman touring Middle East (Jan 2026) |
-
-**Bull case:** Revenue tracks compute — more capital = more revenue growth.
-
-**Bear case:** Gulf States are "final boss" of fundraising. After this, only public markets remain. Unclear how many more mega-rounds possible before profitability required.
+| Status | Superseded by $100B+ mega-round (Feb 2026) |
 
 ---
 
@@ -318,7 +331,7 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 
 ---
 
-*Updated 2026-02-16*
+*Updated 2026-02-20*
 
 ## Key people
 
