@@ -49,6 +49,14 @@ $1.8T market of non-bank lending to corporates. The fastest-growing corner of al
 
 ---
 
+## Alt manager sell-off (YTD 2026)
+
+![[alt-managers-selloff-feb2026.jpg]]
+
+*Share prices rebased from Jan 6, 2026. Source: LSEG via FT. TPG worst (-38%), followed by Ares (-35%), Blue Owl (-28%), KKR (-25%), Apollo (-22%), Blackstone (-20%). Sell-off accelerated around Feb 2 and has not recovered. The market is repricing the entire sector — not just the gated fund.*
+
+---
+
 ## Active crisis: [[Private credit retail liquidity crisis 2026]]
 
 **Status: Unfolding** (Feb 2026 →)
