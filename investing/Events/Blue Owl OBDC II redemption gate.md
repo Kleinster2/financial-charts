@@ -39,6 +39,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | OTIC | $400M | 6% of portfolio | Normal operations continue |
 
 - Loans sold at **99.7% of par** — no distress pricing
+- **Buyers identified** (Bloomberg, Feb 20): [[CalPERS]], [[OMERS]], [[British Columbia Investment Management]], and [[Kuvare]] (Blue Owl's own insurer, acquired $750M in 2024)
 - 97% senior secured, 128 portfolio companies, 27 industries
 - Largest sector: **internet software & services at 13%**
 - OBDC II investors receive up to **$2.35/share (~30% of NAV)** by end of March
@@ -139,6 +140,17 @@ OBDC II is the **first major test** of this model under stress. At $1.7B, it's s
 Industry-wide: BDCs with >$1B AUM saw **$2.9B in withdrawal requests in Q4 2025**, up **200% from Q3** (Robert A Stanger & Co.). The exodus is already underway.
 
 If redemption pressure spreads to these larger vehicles, the $1.8T private credit market faces a real liquidity event.
+
+### The BDC → CLO leverage escalation (Barclays, Feb 20)
+
+[[Barclays]] warned the loan sale could become a **template** for shifting debt from BDCs into more opaque, more highly leveraged vehicles. Some sold assets likely end up in Blue Owl-managed [[CLO]]s — purchased by [[Kuvare]], Blue Owl's own insurance firm ($750M acquisition, 2024).
+
+| Structure | Typical leverage | Transparency |
+|-----------|-----------------|--------------|
+| BDC | ~1x equity | Public filings, quarterly reports |
+| CLO | **9-10x** | Opaque, limited disclosure |
+
+Barclays: "If similar transactions are repeated frequently, it would deepen the ties between these two parts of the non-bank sector, which could make it more difficult to track the risk." CLOs are attractive to insurers like Kuvare because of high ratings and beneficial capital treatment — but they add **an order of magnitude more leverage** to the same private credit assets. See [[PE-insurance convergence]].
 
 ### The [[Private Credit Software Concentration]] link
 
@@ -250,3 +262,8 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 - [[Ares Management]] — contagion (-6%), largest BDC (ARCC)
 - [[KKR]] — contagion (-4%)
 - [[Carlyle Group]] — contagion (-5%)
+- [[Kuvare]] — buyer (Blue Owl's own insurer, CLO leverage concern)
+- [[CalPERS]] — buyer (largest US public pension)
+- [[British Columbia Investment Management]] — buyer (Canadian pension)
+- [[Barclays]] — analyst (CLO leverage warning)
+- [[CLO]] — mechanism (9-10x leverage vs BDC 1x)

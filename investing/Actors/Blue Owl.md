@@ -168,7 +168,20 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 ## OBDC II redemption crisis (Feb 2026)
 
-**Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four North American pension and insurance investors at 99.7% of par. OWL shares **-8.7%** on the news.
+**Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four buyers at 99.7% of par. OWL shares **-8.7%** on the news.
+
+**Buyers (Bloomberg, Feb 20):**
+
+| Buyer | Type |
+|-------|------|
+| [[CalPERS]] | US public pension ($500B+) |
+| [[OMERS]] | Canadian public pension |
+| [[British Columbia Investment Management]] | Canadian public pension |
+| [[Kuvare]] | Chicago-based insurer — **owned by Blue Owl** ($750M acquisition, 2024) |
+
+Packer on demand: bidder interest so strong "they would have bought multiple amounts more."
+
+**Barclays CLO leverage warning (Feb 20):** Some sold assets likely end up in Blue Owl-managed [[CLO]]s purchased by Kuvare. BDCs carry ~1x leverage; CLOs carry 9-10x. Moving assets from visible BDCs into opaque, highly leveraged CLO structures "would add additional leverage to private credit assets" and deepen ties between private credit and insurance, making risk harder to track. Barclays warned this could become a **template** for future BDC → CLO transfers across the industry. See [[PE-insurance convergence]].
 
 | Fund | Amount sold | % of portfolio | Action |
 |------|-----------|----------------|--------|
@@ -299,3 +312,7 @@ Sources:
 - [[Alternative asset managers basket]] — sector contagion from OBDC II gate
 - [[Private credit]] — market context ($1.8T market)
 - [[Blue Owl OBDC II redemption gate]] — event (Feb 2026, first retail BDC gate)
+- [[Kuvare]] — owned insurer ($750M acquisition 2024), buyer of OBDC II loans
+- [[CalPERS]] — buyer of OBDC II loan portfolio
+- [[CLO]] — vehicle for repackaging BDC loans at 9-10x leverage (Barclays warning)
+- [[PE-insurance convergence]] — structural model
