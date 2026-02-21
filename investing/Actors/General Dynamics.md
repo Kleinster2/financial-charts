@@ -63,6 +63,14 @@ See [[Trump defense budget]] for full context.
 
 ---
 
+## Gulfstream certification dispute (Feb 2026)
+
+[[Donald Trump]] threatened to decertify all Canadian-built aircraft (i.e. [[Bombardier]]) and impose 50% tariffs unless [[Canada]] certified Gulfstream business jets. Transport Canada certified the G500 and G600 on Feb 15, 2026. The G700 and G800 remain pending due to a fuel-system icing concern — the [[FAA]] and EASA granted temporary exemptions, but Canada held to stricter standards.
+
+The dispute exposed the competitive tension: Bombardier's Global Express competes directly with Gulfstream in the ultra-long-range segment. See [[Canada Gulfstream certification]] for full timeline.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -87,12 +95,18 @@ See [[Trump defense budget]] for full context.
 **Policy:**
 - [[Trump defense budget]] — -4.2% on EO, shipbuilding cited
 
+**Competitors:**
+- [[Bombardier]] — business jet competitor (Global Express, Challenger)
+
 **Peers:**
 - [[RTX]], [[Northrop Grumman]] — defense primes
 - [[Lockheed Martin]], [[L3Harris]] — defense primes
 
 **Theses:**
 - [[Long defense AI]] — thesis (less direct)
+
+**Events:**
+- [[Canada Gulfstream certification]] — G500/G600 certified, G700/G800 pending
 
 **Context:**
 - [[European defense spending]] — contrast

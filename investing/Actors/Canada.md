@@ -88,6 +88,14 @@ See [[Canada-China relations]] for JV details.
 
 ---
 
+## Aircraft certification dispute (Feb 2026)
+
+Trump threatened to decertify all Canadian-built aircraft ([[Bombardier]]) and impose 50% tariffs unless Canada certified [[General Dynamics]]' Gulfstream business jets. Transport Canada certified the **G500 and G600** on Feb 15. The G700 and G800 remain pending (fuel-system icing concern). Allegation: Canada was slow-walking certification to protect [[Bombardier]], a domestic manufacturer.
+
+See [[Canada Gulfstream certification]] for full details.
+
+---
+
 ## Investment themes
 
 | Theme | Expression |
@@ -120,6 +128,7 @@ See [[Canada-China relations]] for JV details.
 | US policy | Trade dependency — [[Trump II]] tariffs hitting auto sector |
 | Rate sensitivity | Household debt |
 | Auto restructuring | GM/Stellantis retreating, Chinese JV politically risky |
+| Aircraft certification | US pressure to certify Gulfstream, Bombardier decertification threat |
 
 ---
 
@@ -133,6 +142,7 @@ See [[Canada-China relations]] for JV details.
 ### Companies
 - [[Shopify]] — tech champion
 - [[Magna]] — auto parts, potential Chinese EV JV partner
+- [[Bombardier]] — business jets, Gulfstream certification dispute
 
 ### Geopolitics
 - [[Canada-China relations]] — Carney thaw, EV JV, mining deals
@@ -142,4 +152,7 @@ See [[Canada-China relations]] for JV details.
 
 ---
 
-*Created 2026-01-16 · Updated 2026-02-08*
+### Events
+- [[Canada Gulfstream certification]] — Trump decertification threat, G500/G600 certified Feb 2026
+
+*Created 2026-01-16 · Updated 2026-02-21*

@@ -78,6 +78,10 @@ See [[Nearshoring thesis]].
 
 Chile = \#1 copper producer, \#2 lithium.
 
+### US-China infrastructure squeeze (Feb 2026)
+
+US revoked visas for [[Chile]]'s Transport Minister and two [[Subtel]] officials for advancing the [[Chile-China Express]] submarine cable (Valparaiso → Hong Kong, [[China Mobile]]). First visa sanctions against an allied cabinet minister over telecom. US prefers the [[Humboldt Cable]] (Google/NEC). Chile is caught between its #1 trade partner ([[China]], copper) and its security ally (US). Signal to all LatAm nations considering Chinese infrastructure. See [[US Chile cable visa sanctions]].
+
 ---
 
 ## Venezuela
@@ -138,6 +142,7 @@ See [[Cuba opening]].
 | Currency volatility | Brazil, Argentina |
 | Commodity cycles | Brazil, Chile |
 | US policy shifts | Cuba, Venezuela |
+| US-China infrastructure sanctions | Chile (Feb 2026), broader LatAm signal |
 
 ---
 
@@ -155,4 +160,8 @@ See [[Cuba opening]].
 - [[Pacific Alliance]] — Chile, Colombia, Mexico, Peru bloc
 - [[USMCA]] — Mexico-US-Canada
 
-*Updated 2026-01-10*
+- [[US Chile cable visa sanctions]] — US sanctions on Chilean officials over Chinese cable (Feb 2026)
+- [[Chile-China Express]] — disputed submarine cable
+- [[Humboldt Cable]] — US-preferred alternative
+
+*Updated 2026-02-21*

@@ -412,3 +412,6 @@ Bulls on China exposure would say:
 - [[Check Point]] — banned cybersecurity vendor (Israeli)
 - [[China-Africa trade]] — fastest growing export destination (+26%, $348B)
 - [[China A-share exchanges]] — Shanghai, [[Shenzhen]], Beijing exchanges (margin policy)
+- [[Chile-China Express]] — proposed submarine cable (Valparaiso → Hong Kong)
+- [[China Mobile]] — state telecom, cable operator
+- [[US Chile cable visa sanctions]] — US sanctions on Chilean officials over cable (Feb 2026)

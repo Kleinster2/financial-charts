@@ -114,13 +114,33 @@ See [[Russia]] for full context.
 
 ---
 
+## Visa sanctions on allied officials (Feb 2026)
+
+New vector: using personal visa revocations against allied government officials to block Chinese infrastructure projects.
+
+| Date | Action |
+|------|--------|
+| Feb 20, 2026 | State Dept revokes visas for [[Chile]]'s Transport Minister + two [[Subtel]] officials |
+| Trigger | Advancing [[Chile-China Express]] submarine cable (Valparaiso → Hong Kong, [[China Mobile]]) |
+| Rationale | "Compromised critical telecommunications infrastructure and undermined regional security" |
+
+First time the US sanctioned a sitting allied cabinet minister over telecom infrastructure. Distinct from Entity List or OFAC sanctions — this is State Dept visa authority used to personally punish allied officials who engage Chinese companies.
+
+The US prefers the [[Humboldt Cable]] (Google/NEC, Chile → Australia) — Western-aligned alternative already under installation.
+
+LatAm signal: message to [[Brazil]], [[Argentina]], [[Peru]] about consequences of Chinese infrastructure engagement.
+
+See [[US Chile cable visa sanctions]] for full details.
+
+---
+
 ## Key agencies
 
 | Agency | Role |
 |--------|------|
 | [[BIS]] (Commerce) | Export controls, Entity List |
 | [[OFAC]] (Treasury) | Financial sanctions, SDN List |
-| State Dept | Diplomatic coordination |
+| State Dept | Diplomatic coordination, visa sanctions on allied officials (new) |
 
 See [[US Government]] for full policy landscape.
 
@@ -142,6 +162,7 @@ See [[US Government]] for full policy landscape.
 | [[Target]] | Status |
 |--------|--------|
 | [[China]] chips | Escalating controls |
+| [[China]] telecom infra | Visa sanctions on allied officials (Chile, Feb 2026) |
 | Russia | Comprehensive |
 | Venezuela | Partial lift ([[Chevron]] license), now [[Maduro capture 2026]] |
 | Iran | Comprehensive |
@@ -167,5 +188,10 @@ See [[US Government]] for full policy landscape.
 - [[Huawei]] — entity list poster child
 - [[SMIC]] — sanctioned Chinese foundry
 
-*Updated 2026-01-14*
+### Telecom infrastructure
+- [[US Chile cable visa sanctions]] — visa revocations for allied officials over Chinese cable (Feb 2026)
+- [[Chile-China Express]] — disputed cable triggering sanctions
+- [[Submarine Cables]] — broader infrastructure battleground
+
+*Updated 2026-02-21*
 

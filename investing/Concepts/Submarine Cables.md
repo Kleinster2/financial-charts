@@ -72,8 +72,13 @@ Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 **Infrastructure = power:**
 - Data sovereignty concerns
 - US company dominance
-- [[China]] competing
+- [[China]] competing via [[China Mobile]], state-backed cable projects
 - [[BRICS]] alternative network proposed
+- **US now using visa sanctions** against allied officials to block Chinese cables — see [[US Chile cable visa sanctions]] (Feb 2026)
+
+### Chile-China Express dispute (Feb 2026)
+
+The [[Chile-China Express]] cable (Valparaiso → Hong Kong, [[China Mobile]]) triggered the first US visa sanctions against a sitting allied cabinet minister over telecom infrastructure. The US views it as a data-sovereignty threat under China's 2017 Cybersecurity Law and prefers the [[Humboldt Cable]] (Google/NEC, Chile → Australia). Signal to all LatAm nations considering Chinese infrastructure.
 
 ---
 
@@ -126,4 +131,7 @@ Google, Meta, Microsoft, [[Amazon]] now own infrastructure.
 - [[Malbec Cable]] — project (Brazil-Argentina, Meta co-owned)
 - [[V.tal]] — parent of GlobeNet
 - [[Hyperscaler disintermediation]] — context (59 cables now hyperscaler-owned)
+- [[Chile-China Express]] — disputed Chinese cable (Valparaiso → Hong Kong)
+- [[China Mobile]] — Chinese state telecom, cable operator
+- [[US Chile cable visa sanctions]] — US sanctions on Chilean officials (Feb 2026)
 

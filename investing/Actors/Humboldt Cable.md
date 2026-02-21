@@ -62,6 +62,8 @@ Via Pacific, avoiding US routing.
 - Security considerations
 - Western alignment
 
+**Now the US-preferred alternative to [[Chile-China Express]]** — In Feb 2026, the US revoked visas for three Chilean officials advancing the competing [[Chile-China Express]] cable (Valparaiso → Hong Kong, [[China Mobile]]). The Humboldt Cable — routing through allied nations with Western technology — is explicitly the cable the US wants [[Chile]] to prioritize. See [[US Chile cable visa sanctions]].
+
 ---
 
 ## Why it matters for LatAm
@@ -106,4 +108,6 @@ Via Pacific, avoiding US routing.
 - [[EllaLink]] — peer (LatAm submarine cable)
 - [[Google Pacific Connect]] — part of network
 - [[Submarine Cables]] — infrastructure context
+- [[Chile-China Express]] — competing Chinese cable (Valparaiso → Hong Kong)
+- [[US Chile cable visa sanctions]] — US sanctions favoring Humboldt over Chinese alternative
 
