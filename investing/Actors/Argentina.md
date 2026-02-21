@@ -97,6 +97,25 @@ Argentina leap-frogging with single mega-project.
 
 ---
 
+## Labor reform (Feb 2026)
+
+Milei passed a major labor flexibilization reform — causing strikes and protests but aimed at formalizing the **50%+ informal workforce**:
+
+| Change | Detail |
+|--------|--------|
+| Working hours | Up to 12hrs/day (40hrs/week maintained) |
+| Vacations | Split into 4 periods of 7 days |
+| Commuting accidents | Reduced employer liability |
+| Overtime | Time off compensation instead of pay |
+
+**Investment relevance:** Formalization = more tax revenue + larger consumer credit market + better economic data. Similar to [[Brazil]]'s 2017 Temer reform, which took years to show results but contributed to current low unemployment. Short-term disruption (strikes, political backlash) but long-term structural positive if sustained.
+
+**The 5-10 year view:** Argentina's reforms parallel Brazil's Plano Real trajectory — FHC stabilized the currency but it took until Lula's government (8-10 years later) for real stability. Milei's reforms will face similar timeline.
+
+*Source: @tv.viegas commentary, Feb 21, 2026*
+
+---
+
 ## Risks
 
 | Risk | Severity |
