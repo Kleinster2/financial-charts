@@ -318,7 +318,7 @@ Hedging AI lab risk:
 
 Google backs Anthropic while competing with [[Claude]] via Gemini — hedging like Microsoft backing both OpenAI and [[Mistral]].
 
-Anthropic TPU deal: ~1M TPUv7 direct from [[Broadcom]], not through Google Cloud. See [[Anthropic]].
+Anthropic TPU deal: ~1M TPUv7 direct from [[Broadcom]], not through Google Cloud. [[Broadcom]] disclosed Anthropic purchased **$21B worth of TPUs** — first concrete pricing data point for Google's custom silicon, and they're undercutting [[NVIDIA]] on price. See [[Anthropic]].
 
 ---
 
@@ -582,6 +582,22 @@ See [[Short interest]] for interpretation framework.
 ## February 2026: India AI summit commitment
 
 At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Google]] was part of a combined $68B commitment with [[Microsoft]] and [[Amazon]] for AI and cloud infrastructure in [[India]] through 2030. [[Sundar Pichai]] was a keynote speaker at the summit.
+
+---
+
+## February 2026: TPU competitive positioning strengthens
+
+GOOG +4% (Feb 21) on convergence of tailwinds:
+
+1. **Tariff relief** — lower tariffs stretch CapEx further and ease margin pressure on Android device partners. DA Davidson's Gil Luria calls this an "underappreciated second-order benefit" for the Google ecosystem
+2. **"Photoshoot" AI ad feature** — Google quietly updated its AI ad platform to automate high-end ad campaigns. Gene Munster ([[Deepwater Asset Management]]): incremental AI product improvements are the real stock driver
+3. **TPU pricing advantage crystallized** — [[Broadcom]] disclosed [[Anthropic]] bought **$21B in TPUs**, undercutting [[NVIDIA]] on price. Independent TPU sales growing
+4. **[[FluidStack]] investment** — WSJ reported Google looking to invest **$100M into [[FluidStack]]** to push TPUs into "neo cloud" ecosystem
+5. **GPU financing headwinds** — [[Blue Owl]] lenders balked at $4B [[CoreWeave]] data center financing, creating problems for the NVIDIA GPU complex while Google self-finances
+
+Analysts see Google at "pole position" in commercializing AI — spending as aggressively as any Mag 7 name but with better perceived ROI.
+
+*Source: CNBC, Feb 21, 2026.*
 
 ---
 

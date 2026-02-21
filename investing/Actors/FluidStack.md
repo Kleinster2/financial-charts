@@ -80,7 +80,11 @@ Google invests through FluidStack → FluidStack contracts with miners → Miner
 | Role | Deployment services |
 | Anthropic deal | ~1M TPUv7 operations |
 
-*Updated 2026-01-04*
+## Google $100M investment (Feb 2026)
+
+WSJ reported [[Google]] looking to invest **$100M into FluidStack** (Feb 21, 2026) — a play to push [[TPU]]s into the "neo cloud" ecosystem. Comes as GPU financing faces headwinds ([[Blue Owl]]/[[CoreWeave]] $4B deal rejection) and Google's custom silicon gains pricing advantage over [[NVIDIA]].
+
+*Updated 2026-02-21*
 
 ---
 

@@ -142,6 +142,17 @@ Microsoft/Meta contract → SPV ("The Box") → Waterfall payout
 
 ---
 
+## $4B data center financing rejected (Feb 2026)
+
+Lenders balked at financing a **$4B CoreWeave data center** (CNBC, Feb 21). [[Blue Owl]], a major AI infrastructure lender, was involved. The pullback signals tightening credit appetite for GPU-collateralized deals amid broader concerns about:
+- CoreWeave's high existing leverage ($7.5B+ debt)
+- GPU depreciation risk
+- [[Blue Owl]]'s own OBDC II redemption crisis creating risk aversion
+
+**Competitive impact:** Financing difficulty for GPU-based infrastructure positions [[Google]]'s [[TPU]] stack and custom silicon more favorably — Google self-finances, avoiding third-party credit risk.
+
+---
+
 ## The risk case
 
 CoreWeave is cited in [[AI infrastructure financing risk]] as key vulnerability:

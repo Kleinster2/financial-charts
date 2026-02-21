@@ -254,6 +254,8 @@ Software is only **4 of top 25 investments**. Concentration will remain capped o
 
 **Saba/Cox tender offers (Feb 20):** [[Saba Capital]] and [[Cox Capital Partners]] announced intention to launch cash tender offers for OBDC II, OTIC, and OCIC shares at **20-35% discount to NAV**. Extends Saba's closed-end fund activism playbook to non-traded BDCs. OWL +2.2% after-hours. See [[Blue Owl OBDC II redemption gate]].
 
+**CoreWeave financing pullback (Feb 2026):** Lenders balked at financing a **$4B [[CoreWeave]] data center** — a sign that credit appetite for GPU-collateralized infrastructure is tightening. This creates headwinds for the [[NVIDIA]] GPU complex to keep expanding and positions alternatives like [[Google]]'s TPU stack more favorably. See [[CoreWeave]].
+
 *Sources: CNBC, Bloomberg, Reuters, OBDC Q4 2025 earnings call transcript (Feb 18-19, 2026)*
 
 ---
