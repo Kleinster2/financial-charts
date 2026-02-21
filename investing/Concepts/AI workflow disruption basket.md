@@ -256,6 +256,7 @@ AIWD differentiation: Pure SaaS/data disruption exposure (legal, analytics, SaaS
 - [[UBS European AI Disruption Basket]] — closest Wall Street analog
 - [[GS US Software Basket]] — GS sector basket
 - [[AI financial disintermediation basket]] — companion basket (insurance brokers + wealth managers)
+- [[AI cybersecurity disruption basket]] — companion basket (cybersecurity stocks exposed to AI-native security tools, triggered by Claude Code Security Feb 20)
 - [[IGV]] — iShares software ETF proxy
 - [[BVP Nasdaq Cloud Index]] — SaaS benchmark
 - [[JPMorgan JPAMAIDE]] — AI infrastructure bull basket
