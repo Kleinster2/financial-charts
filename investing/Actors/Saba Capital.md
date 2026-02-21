@@ -79,6 +79,22 @@ Weinstein publicly stated [[BlackRock]] is "the worst company in the S&P 500 whe
 
 ---
 
+## Blue Owl BDC tender offers (Feb 2026)
+
+On Feb 17, 2026, Saba and [[Cox Capital Partners]] notified [[Blue Owl]] Capital Corporation II (OBDC II) of their intention to launch a cash tender offer for a portion of outstanding shares. Subsequently notified [[Blue Owl]] Technology Income Corp (OTIC) and Blue Owl Credit Income Corp (OCIC) of similar intentions.
+
+| Detail | Value |
+|--------|-------|
+| Targets | **OBDC II**, OTIC, OCIC (all non-traded BDCs) |
+| Price | **20-35% discount to NAV** |
+| Partner | [[Cox Capital Partners]] (secondary liquidity specialist) |
+| Trigger | [[Blue Owl OBDC II redemption gate]] — redemptions permanently ended, retail investors seeking exit |
+| OWL reaction | **+2.2% after-hours** |
+
+**Strategic significance:** Extends Saba's closed-end fund activism playbook to **non-traded BDCs** — a new frontier. Same pattern: identify vehicles where retail investors face illiquidity at a discount to NAV, offer cash exit at a discount, profit from NAV convergence. Cox Capital brings operational expertise in non-traded fund secondary markets.
+
+---
+
 ## Timeline
 
 | Date | Event |
@@ -94,6 +110,7 @@ Weinstein publicly stated [[BlackRock]] is "the worst company in the S&P 500 whe
 | Jun 2023 | Launched lawsuit against 16 closed-end funds over control-share provisions |
 | Aug 2023 | Attempted [[Sculptor Capital]] acquisition with [[Pershing Square]], [[Avenue Capital]] (failed) |
 | 2025 | Activist campaign against [[Baillie Gifford]] trusts |
+| Feb 2026 | Tender offers for [[Blue Owl]] BDCs (OBDC II, OTIC, OCIC) with [[Cox Capital Partners]] at 20-35% NAV discount |
 
 ---
 
@@ -126,6 +143,9 @@ Weinstein publicly stated [[BlackRock]] is "the worst company in the S&P 500 whe
 - [[JPMorgan Chase]] — London Whale counterparty
 - [[Pershing Square]] — co-investor in Sculptor bid
 - [[Hedge Funds]] — sector
+- [[Blue Owl]] — tender offer target (OBDC II, OTIC, OCIC BDCs, Feb 2026)
+- [[Cox Capital Partners]] — co-purchaser on Blue Owl tender offers
+- [[Blue Owl OBDC II redemption gate]] — catalyst for BDC tender offers
 
 ---
 

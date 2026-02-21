@@ -25,6 +25,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | **Feb 18, 2026** | Blue Owl announces $1.4B loan sale across three funds; OBDC II quarterly redemptions **permanently halted** |
 | **Feb 19, 2026** | Market reacts: OWL **-9.8% intraday** (-8.7% close). Alt managers: APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
 | **Feb 20, 2026** | Selloff continues: OWL **-6%** again. CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
+| **Feb 20, 2026** | [[Saba Capital]] and [[Cox Capital Partners]] announce intention to launch tender offers for OBDC II, OTIC, and OCIC shares at **20-35% discount to NAV**. OWL +2.2% after-hours |
 
 ---
 
@@ -218,6 +219,31 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 
 ---
 
+## Saba/Cox tender offers (Feb 20, 2026)
+
+[[Saba Capital]] and [[Cox Capital Partners]] disclosed on Feb 20 that they intend to launch cash tender offers for shares of three Blue Owl non-traded BDCs:
+
+| BDC | Notice date | Structure |
+|-----|-------------|-----------|
+| **OBDC II** (Blue Owl Capital Corp II) | Feb 17, 2026 | Non-traded, retail, redemptions permanently ended |
+| **OTIC** (Blue Owl Technology Income Corp) | After OBDC II | Non-traded |
+| **OCIC** (Blue Owl Credit Income Corp) | After OBDC II | Non-traded |
+
+**Price:** 20-35% discount to most recent estimated NAV — to be determined when offers formally commence after 10-business-day notice period.
+
+**Rationale:** Provide direct cash liquidity to retail investors in non-traded BDCs with limited or no redemption windows. Saba and Cox frame this as providing an exit for holders after OBDC II permanently ended redemptions.
+
+**Why it matters:**
+- [[Saba Capital]] (Boaz Weinstein) is known for closed-end fund activism — exploiting NAV discounts, pressuring boards. This extends the playbook to **non-traded BDCs** for the first time
+- [[Cox Capital Partners]] specializes in secondary liquidity for non-traded funds — previously launched $91.4M mini-tenders for FBCC (31% discount) and FSSL (42% discount) in 2025
+- OWL stock rose **+2.2% after-hours** on the news — market reads it as validation that the underlying shares have value (even at a discount)
+- Creates external pricing signal for illiquid BDC shares that previously had no market
+- Could accelerate Blue Owl's wind-down of OBDC II or pressure board to offer better terms
+
+**The trade:** Buy non-traded BDC shares at 20-35% discount to NAV from panicked retail investors, hold through wind-down or liquidation for NAV convergence. Classic Saba activism — profit from the gap between market panic and fundamental value.
+
+---
+
 ## What to watch
 
 - **OBDC redemption requests** — Blue Owl's $16B+ publicly-traded BDC. Any spike = escalation
@@ -226,6 +252,7 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 - **Software default rates** — currently 4.55% for middle-market. Deutsche Bank models 13% under aggressive AI scenario
 - **PIK loan growth** — payment-in-kind = borrowers can't service cash interest. Software is #1 PIK sector
 - **March 31 quarter-end** — next redemption window for most semi-liquid funds
+- **Saba/Cox tender offer terms** — final pricing within 20-35% discount range; number of shares sought; Blue Owl board response
 
 ---
 
@@ -267,3 +294,5 @@ CEO Packer called the "halted redemptions" framing a *"complete mischaracterizat
 - [[British Columbia Investment Management]] — buyer (Canadian pension)
 - [[Barclays]] — analyst (CLO leverage warning)
 - [[CLO]] — mechanism (9-10x leverage vs BDC 1x)
+- [[Saba Capital]] — tender offer for OBDC II, OTIC, OCIC at 20-35% NAV discount (Feb 2026)
+- [[Cox Capital Partners]] — co-purchaser with Saba, secondary liquidity specialist

@@ -8,8 +8,9 @@ aliases: [OWL, Owl Rock, Owl Rock Capital]
 | Fund | Full name | Size | Structure | Status |
 |------|-----------|------|-----------|--------|
 | **OBDC** | Blue Owl Capital Corporation | $16B+ | Publicly traded BDC | Operating |
-| **OBDC II** | Blue Owl Capital Corp II | $1.7B | Non-traded retail BDC (finite-life) | 🔴 Gated (Feb 2026) |
+| **OBDC II** | Blue Owl Capital Corp II | $1.7B | Non-traded retail BDC (finite-life) | 🔴 Redemptions permanently ended (Feb 2026) |
 | **OTIC** | Blue Owl Technology Income Corp | Smaller | Tech-focused BDC | Operating |
+| **OCIC** | Blue Owl Credit Income Corp | — | Non-traded BDC | Operating |
 
 ---
 
@@ -251,6 +252,8 @@ Software is only **4 of top 25 investments**. Concentration will remain capped o
 
 **The uncomfortable truth:** The gate happened at non-accruals of just 1.1%. This is a liquidity/structure problem, not a credit blowup — *yet*. The market is pricing in forward-looking AI disruption risk before defaults materialize. If non-accruals actually spike to 4-5% (Deutsche Bank's aggressive scenario), the damage would be far worse.
 
+**Saba/Cox tender offers (Feb 20):** [[Saba Capital]] and [[Cox Capital Partners]] announced intention to launch cash tender offers for OBDC II, OTIC, and OCIC shares at **20-35% discount to NAV**. Extends Saba's closed-end fund activism playbook to non-traded BDCs. OWL +2.2% after-hours. See [[Blue Owl OBDC II redemption gate]].
+
 *Sources: CNBC, Bloomberg, Reuters, OBDC Q4 2025 earnings call transcript (Feb 18-19, 2026)*
 
 ---
@@ -298,7 +301,7 @@ Blue Owl is differentiated by scale of AI-specific deals.
 | Largest deal | Meta $30B |
 | HQ | New York |
 
-*Updated 2026-02-19*
+*Updated 2026-02-21*
 
 Sources:
 - [Bloomberg - How AI Companies Are Keeping Debt Off Their Balance Sheets](https://www.bloomberg.com/news/articles/2025-10-31/meta-xai-starting-trend-for-billions-in-off-balance-sheet-debt) (Oct 31, 2025)
@@ -324,3 +327,5 @@ Sources:
 - [[CalPERS]] — buyer of OBDC II loan portfolio
 - [[CLO]] — vehicle for repackaging BDC loans at 9-10x leverage (Barclays warning)
 - [[PE-insurance convergence]] — structural model
+- [[Saba Capital]] — tender offer for OBDC II, OTIC, OCIC at 20-35% NAV discount (Feb 2026)
+- [[Cox Capital Partners]] — co-purchaser with Saba, secondary liquidity specialist
