@@ -116,6 +116,9 @@ Delisted ticker warnings are expected and harmless. **Never remove historical da
 
 > **CRITICAL: NEVER overwrite existing chart files without asking first.**
 > Read the existing image and ask before making changes.
+>
+> **NEVER remove attachment embeds (`![[...]]`) from notes without asking first.**
+> Adding new charts alongside existing ones is fine. Replacing or removing existing embeds requires explicit approval.
 
 **Full reference:** See `docs/chart-api.md`
 
