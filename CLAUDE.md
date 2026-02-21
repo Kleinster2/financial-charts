@@ -229,3 +229,5 @@ When a note has a meaningful counterpart in the other vault, add clickable `obsi
 - These links won't appear in graph view or backlinks — navigation aids only
 
 **Post-ingestion gate:** After creating a new event or making a major update, ask: *does this also belong in the geopolitics vault?* If the story involves statecraft, sanctions, diplomatic precedent, alliance dynamics, or infrastructure competition, flag it to the user. Don't silently skip — the default is to ask. Routine updates to existing notes don't trigger this.
+
+**History vault reference:** The **history vault** (`C:\Users\klein\obsidian\history\`) covers long-arc economic history — trade, institutions, innovation from prehistory to modernity. When writing about a topic with deep historical roots (sanctions, trade wars, infrastructure control, monetary policy, commodity economics, Monroe Doctrine, etc.), check the history vault for relevant precedent. This is a lookup relationship, not a feed — don't routinely ingest current events into the history vault.
