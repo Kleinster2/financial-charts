@@ -121,6 +121,10 @@ class NoteChecker:
         if (is_public or is_private) and not is_etf and not is_person and not is_geography and not is_product:
             issues.extend(self._check_leadership(content, filepath))
 
+        # Evolution check (companies/countries/institutions, not people/products/ETFs, not stubs)
+        if not is_etf and not is_person and not is_product:
+            issues.extend(self._check_evolution(content, filepath))
+
         return issues
 
     def _get_note_type(self, content: str) -> str:
@@ -848,6 +852,37 @@ aliases: []
 
         if not has_ceo:
             issues.append(Issue("warning", "leadership", "Leadership section may be missing CEO"))
+
+        return issues
+
+    def _check_evolution(self, content: str, filepath: Path) -> list[Issue]:
+        """Check for Evolution section in actor notes (companies, countries, institutions).
+
+        Stubs are exempt — Evolution is added when a note matures beyond stub level.
+        A note is considered a stub if it has fewer than 40 non-empty lines of body content.
+        """
+        issues = []
+
+        # Skip stubs: count non-empty lines after frontmatter
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues  # Stub — exempt
+
+        evolution_patterns = [
+            "## Evolution",
+            "### Evolution",
+        ]
+
+        has_evolution = any(pattern in content for pattern in evolution_patterns)
+
+        if not has_evolution:
+            issues.append(Issue("warning", "evolution", "Mature actor note missing Evolution section"))
 
         return issues
 
