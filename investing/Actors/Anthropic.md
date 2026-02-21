@@ -142,6 +142,8 @@ Response: OpenCode launched "OpenCode Black" ($200/mo) via enterprise gateways.
 
 Thesis implication: Not harness moat defense — compute arbitrage enforcement. Third-party harnesses still work via enterprise pricing (OpenCode Black). Anthropic protecting margin on Max subscription, not blocking competition.
 
+Feb 20 update: Anthropic revised its legal terms to make the ban explicit. Updated legal compliance page now states: "Using OAuth tokens obtained through Claude Free, Pro, or Max accounts in any other product, tool, or service — including the Agent SDK — is not permitted." OpenCode received a direct legal notice and pushed code the same day removing Claude Pro/Max and API key support, citing "anthropic legal requests." The Register reported the story. OpenAI's Thibault Sottiaux pointedly endorsed Codex subscription use in third-party harnesses — [[OpenAI]], [[GitHub]], and GitLab all explicitly allow subscription use in third-party tools. Anthropic is the only frontier provider actively blocking this. Community backlash intensifying — "vote with your wallets" sentiment growing.
+
 ---
 
 ### Pentagon clash over military AI (Jan–Feb 2026)
