@@ -220,7 +220,7 @@ Plus macro, rates, media, and wherever there's signal.
 
 ### Cross-Vault Linking
 
-> Full architecture: `C:\Users\klein\obsidian\vault-architecture.md`
+> Full architecture: `C:\Users\klein\obsidian\geopolitics\vault-architecture.md`
 
 The **geopolitics vault** (`C:\Users\klein\obsidian\geopolitics\`, repo `Kleinster2/geopolitics`) covers the same topics from a statecraft/frameworks angle. **Overlap is expected and desirable.** Both vaults need core facts; each adds its own lens. This vault includes geopolitical context when it affects investment flows. The geopolitics vault includes economic/business context when it shapes statecraft. Don't strip content just because it "belongs" in the other vault — strip it only if it's irrelevant to this vault's purpose.
 
