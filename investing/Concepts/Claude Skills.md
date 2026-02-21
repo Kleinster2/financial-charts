@@ -47,6 +47,26 @@ Every skill is a folder:
 
 A project with 20 skills doesn't waste tokens loading all 20 — only matching skills activate. This is the key efficiency insight vs. traditional system prompts that load everything always.
 
+### Critical technical rules
+
+From Anthropic's official guide:
+- SKILL.md must be exactly `SKILL.md` (case-sensitive — no SKILL.MD, skill.md, etc.)
+- Folder naming: kebab-case only (e.g. `notion-project-setup`), no spaces, no underscores, no capitals
+- No README.md inside the skill folder (all docs go in SKILL.md or references/)
+- YAML frontmatter: no XML angle brackets (`<` or `>`), no "claude" or "anthropic" in skill name (reserved)
+- Description field must include both what the skill does AND when to use it (trigger phrases), under 1024 characters
+
+### YAML frontmatter (minimal required format)
+
+```yaml
+---
+name: your-skill-name
+description: What it does. Use when user asks to [specific phrases].
+---
+```
+
+Optional fields: `license` (MIT, Apache-2.0), `compatibility` (1-500 chars, environment requirements), `metadata` (author, version, mcp-server).
+
 ### API surface
 
 | Endpoint | Purpose |
@@ -54,7 +74,7 @@ A project with 20 skills doesn't waste tokens loading all 20 — only matching s
 | `/v1/skills` | Skills CRUD — create, list, update, delete |
 | `container.skills` | Messages API parameter — attach skills to conversations |
 
-Available on Claude.ai, [[Claude]] Code, and API.
+Skills in the API require the Code Execution Tool beta. Available on Claude.ai, [[Claude]] Code, and API.
 
 ---
 
@@ -72,13 +92,13 @@ Available on Claude.ai, [[Claude]] Code, and API.
 
 From Anthropic's guide and early adopter experience:
 
-| Pattern | Description |
-|---------|-------------|
-| Sequential workflow | Step-by-step execution (A → B → C) |
-| Multi-MCP coordination | Orchestrate across multiple tool integrations |
-| Iterative refinement | Generate → evaluate → improve loops |
-| Context-aware tool selection | Dynamically pick tools based on task context |
-| Domain-specific intelligence | Embed expert knowledge for specialized domains |
+| Pattern | Use when | Key technique |
+|---------|----------|---------------|
+| Sequential workflow | Multi-step processes in specific order | Explicit step ordering, dependencies, rollback instructions |
+| Multi-MCP coordination | Workflows span multiple services (e.g., Figma → Drive → Linear → Slack) | Clear phase separation, data passing between MCPs, validation before next phase |
+| Iterative refinement | Output quality improves with iteration | Generate → validate via script → fix issues → re-validate loop |
+| Context-aware tool selection | Same outcome but different tools depending on context | Decision trees, fallback options, transparency about choices |
+| Domain-specific intelligence | Specialized knowledge beyond tool access (e.g., compliance, finance) | Domain expertise embedded in logic, compliance-before-action, audit trails |
 
 ---
 
@@ -125,7 +145,41 @@ Key differentiation: Anthropic is the only major lab publishing its customizatio
 
 ### Built-in tooling
 
-- skill-creator: Meta-skill built into Claude.ai that helps users build new skills interactively. 15-30 minutes to build and test a first working skill.
+- skill-creator: Meta-skill built into Claude.ai that helps users build new skills interactively. 15-30 minutes to build and test a first working skill. Can generate skills from natural language descriptions, review skills for common issues, and help iterate based on edge cases.
+
+### Testing approach (from guide)
+
+Three levels of rigor:
+1. Manual testing in Claude.ai — run queries and observe behavior
+2. Scripted testing in Claude Code — automate test cases
+3. Programmatic testing via Skills API — evaluation suites against defined test sets
+
+Three types of tests:
+- Triggering tests — does the skill load when it should? Does it NOT load when it shouldn't?
+- Functional tests — are outputs correct? Do API calls succeed? Are edge cases covered?
+- Performance comparison — fewer messages, fewer tool calls, fewer tokens vs. baseline without skill
+
+Pro tip from the guide: iterate on a single challenging task until Claude succeeds, then extract the winning approach into a skill. Faster signal than broad testing.
+
+### Distribution (current model, Jan 2026)
+
+For individual users:
+1. Download/clone skill folder
+2. Zip the folder
+3. Upload to Claude.ai via Settings > Capabilities > Skills
+4. Or place in Claude Code skills directory
+
+Organization-level: admins deploy workspace-wide with automatic updates and centralized management (shipped Dec 18, 2025).
+
+### Common troubleshooting
+
+| Problem | Cause | Fix |
+|---------|-------|-----|
+| "Could not find SKILL.md" | File not named exactly SKILL.md | Rename (case-sensitive) |
+| "Invalid frontmatter" | YAML formatting — missing delimiters or unclosed quotes | Ensure `---` delimiters wrap frontmatter |
+| Skill doesn't trigger | Description too vague or missing trigger phrases | Add specific phrases users would say; ask Claude "when would you use this skill?" |
+| Skill triggers too often | Description too broad | Add negative triggers ("Do NOT use for..."), be more specific about scope |
+| MCP calls fail | Server disconnected, auth expired, missing permissions | Check Settings > Extensions > connection status |
 
 ---
 
