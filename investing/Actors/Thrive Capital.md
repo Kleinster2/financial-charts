@@ -35,7 +35,8 @@ aliases: [Thrive]
 
 | Company | Stage | Status |
 |---------|-------|--------|
-| **[[OpenAI]]** | Growth (led $6.6B) | $157B → $500B |
+| **[[OpenAI]]** | Growth (led $6.6B) | $830B |
+| **[[SpaceX]]** | Growth | $1.25T (IPO pending) |
 | **Instagram** | Early | Acquired by Facebook |
 | **[[Stripe]]** | Growth | $129B |
 | **[[Spotify]]** | Growth | Public (SPOT) |
@@ -45,6 +46,7 @@ aliases: [Thrive]
 | **[[Databricks]]** | Growth | $134B |
 | **[[Discord]]** | Growth | Private |
 | **[[Ramp]]** | Growth | Private |
+| **[[Skims]]** | Growth | Private ("can't be disrupted by tech") |
 
 ---
 
@@ -67,9 +69,11 @@ aliases: [Thrive]
 | Trait | Description |
 |-------|-------------|
 | High conviction | Large checks, fewer bets |
-| Founder relationships | Close partnerships |
+| "Serial monogamists" | Don't back rivals — "ride or die" with founders |
+| Founder relationships | Close partnerships, portfolio services, go-to-market advice |
 | [[Consumer]] + enterprise | Both sectors |
 | Design-focused | Values product quality |
+| NYC-based | Not West Coast — historically saw themselves as "maverick and non-consensus" |
 
 ---
 
@@ -82,6 +86,21 @@ aliases: [Thrive]
 | Fund VI | 2020 | $1.5B |
 | Fund VII | 2021 | $2B |
 | Fund VIII | 2023 | $3B+ |
+| **Fund X** | **2026** | **$10B+** (turning money away) |
+
+### Fund X (Feb 2026)
+
+10th fund raising **$10B+**, having to turn investors away. Driven by outsized returns from concentrated early bets now paying off:
+
+| Investment | Current valuation | Return |
+|------------|-------------------|--------|
+| [[OpenAI]] | $830B | **30x+** |
+| [[SpaceX]] | $1.25T | Massive (IPO pending) |
+| [[Stripe]] | $129B | Multi-bagger |
+
+**Next areas:** AI applications, AI infrastructure, robotics, life sciences, space — but also "industries that can't be disrupted by technology" (e.g. [[Skims]], "you always need underwear").
+
+*Source: Bloomberg, Feb 2026*
 
 ---
 
@@ -106,6 +125,7 @@ Josh founded Oscar alongside Thrive investing.
 | Founder | Josh Kushner |
 | AUM | ~$15B |
 | Key deal | OpenAI $6.6B round |
+| Latest fund | Fund X, $10B+ (Feb 2026) |
 
 ---
 
@@ -115,8 +135,10 @@ Josh founded Oscar alongside Thrive investing.
 - [[Stripe]] — portfolio company
 - [[Databricks]] — portfolio company
 - [[Spotify]] — portfolio company
+- [[SpaceX]] — portfolio company ($1.25T)
+- [[Skims]] — portfolio company (disruption-proof thesis)
 - [[Private market secondaries]] — SPV syndication model
 
 ---
 
-*Created 2026-01-16*
+*Updated 2026-02-21*
