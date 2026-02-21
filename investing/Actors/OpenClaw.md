@@ -48,8 +48,8 @@ Feb 20, 2026: Anthropic formalized the ban — revised legal terms explicitly pr
 OpenClaw's exposure: OpenClaw runs on users' Claude Max subscriptions — not API keys. It works by wrapping the actual Claude Code CLI (the "Pi harness") rather than spoofing OAuth tokens independently. This is a gray area: OpenClaw doesn't extract or reuse OAuth tokens directly, but it orchestrates Claude Code through a wrapper, which could arguably fall under Anthropic's new language banning "any other product, tool, or service" from using subscription tokens. The distinction between "running Claude Code" and "orchestrating Claude Code through a wrapper" is technically thin.
 
 Three categories of third-party tool access:
-1. Direct OAuth token extraction (OpenCode, Cline) — explicitly banned, legal notices sent
-2. CLI wrapper/orchestration (OpenClaw) — gray area, not yet targeted but legally vulnerable
+1. Direct OAuth token extraction (OpenCode, Cline) — explicitly banned, legal notices sent. These tools bypassed Claude Code's client-side rate limiting entirely, enabling unlimited token consumption on $200/mo subscriptions (the "token arbitrage" that triggered the crackdown).
+2. CLI wrapper/orchestration (OpenClaw) — gray area, not yet targeted but legally vulnerable. Crucially different from category 1: because OpenClaw runs through the actual Claude Code CLI, all client-side rate limits (5-hour windows, weekly caps) are still enforced. No token arbitrage is possible.
 3. API key usage (pay-per-token) — explicitly allowed, no issues
 
 If Anthropic tightens enforcement from category 1 to category 2, OpenClaw would be directly affected. This is the primary existential risk to the project's Claude integration.
