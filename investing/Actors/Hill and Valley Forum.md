@@ -54,7 +54,7 @@ Secretary of the Interior [[Doug Burgum]] called it the *"conclave of Silicon Va
 
 ## What it represents
 
-Hill & Valley is the institutional expression of a political realignment: Silicon Valley's national security wing merging with Washington's China hawks. The network runs through the [[Peter Thiel]]/[[Palantir]] orbit:
+Hill & Valley is the operational engine of [[US-China decoupling]] — the institutional expression of Silicon Valley's national security wing merging with Washington's China hawks. Every major US tech-decoupling policy of 2023-2025 was either incubated here or championed by its members: The network runs through the [[Peter Thiel]]/[[Palantir]] orbit:
 
 ```
 Peter Thiel (Palantir co-founder, Founders Fund)
@@ -66,10 +66,12 @@ Peter Thiel (Palantir co-founder, Founders Fund)
             └── Pax Silica (State Dept flagship)
 ```
 
-The forum's policy wins:
-- **TikTok forced-sale bill** (2024) — directly lobbied for by Helberg and Khosla
-- **[[Pax Silica]]** (2025) — Helberg created it after becoming Under Secretary
-- **Defense tech mainstreaming** — Anduril, Palantir, Shield AI went from fringe to default Pentagon partners
+The forum's policy wins — each a concrete step in [[US-China decoupling]]:
+- TikTok forced-sale bill (2024) — directly lobbied for by Helberg and Khosla. The inaugural 2023 dinner was timed to TikTok CEO's congressional testimony.
+- [[Pax Silica]] (2025) — Helberg created it after becoming Under Secretary. A 10-nation semiconductor alliance designed to friend-shore the chip supply chain away from China.
+- CHIPS Act implementation — [[Todd Young]] (co-author) is a forum speaker. $52B+ reshoring US semiconductor manufacturing.
+- Defense tech mainstreaming — [[Anduril]], [[Palantir]], Shield AI went from fringe to default Pentagon partners, partly through relationships built here.
+- AI export controls — forum attendees ([[Jensen Huang]], [[Lisa Su]]) are both subject to and consulted on chip export restrictions to China.
 
 ---
 

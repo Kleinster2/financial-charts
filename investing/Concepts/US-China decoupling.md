@@ -56,11 +56,22 @@ Losers:
 
 ## Institutional nexus
 
-The [[Hill and Valley Forum]] is the primary private-sector venue where decoupling policy gets incubated. Key figures:
-- [[Jacob Helberg]] — Under Secretary of State, architect of [[Pax Silica]]
-- [[Peter Thiel]] — early China hawk, Palantir co-founder
-- [[Todd Young]] — CHIPS Act co-author
-- [[Lindsey Graham]] — defense hawk
+The [[Hill and Valley Forum]] is the primary private-sector venue where decoupling policy gets incubated. Founded in March 2023 — timed to the TikTok congressional hearing — it brings together the tech executives building the tools of decoupling with the lawmakers writing the legislation. Every major decoupling policy of 2023-2025 traces back to this network:
+
+| Policy | Forum connection |
+|--------|-----------------|
+| TikTok forced-sale bill (2024) | Lobbied by [[Jacob Helberg]] and [[Vinod Khosla]]; inaugural dinner timed to TikTok hearing |
+| [[Pax Silica]] (2025) | Created by Helberg after he became Under Secretary of State |
+| CHIPS Act ($52B+) | Co-authored by [[Todd Young]], forum speaker |
+| Defense tech mainstreaming | [[Palantir]] (Alex Karp), [[Anduril]] — forum speakers turned default Pentagon vendors |
+| AI export controls | [[Jensen Huang]] (NVIDIA), [[Lisa Su]] (AMD) — both speakers and subjects of the policy |
+
+Key figures:
+- [[Jacob Helberg]] — Under Secretary of State, forum founder, [[Pax Silica]] architect
+- [[Peter Thiel]] — core member, early China hawk, [[Palantir]] co-founder
+- [[Todd Young]] — CHIPS Act co-author, forum speaker
+- [[Lindsey Graham]] — defense hawk, forum speaker
+- [[Doug Burgum]] — Interior Secretary, called the forum "the conclave of Silicon Valley"
 
 ---
 
