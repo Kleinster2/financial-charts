@@ -208,3 +208,20 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 - **Manufacturing** — reshoring, industrial policy
 
 Plus macro, rates, media, and wherever there's signal.
+
+### Cross-Vault Linking
+
+The **geopolitics vault** (`C:\Users\klein\obsidian\geopolitics\`, repo `Kleinster2/geopolitics`) covers the same topics from a statecraft/frameworks angle. When a note has a meaningful counterpart in the other vault, add clickable `obsidian://` URI links.
+
+**Format:**
+```markdown
+### Cross-vault
+- [Geopolitics: Note Name](obsidian://open?vault=geopolitics&file=Folder%2FNote%20Name) — what the other perspective adds
+```
+
+**Rules:**
+- Place under `### Cross-vault` subheading at end of Related section
+- URL-encode paths: spaces → `%20`, slashes → `%2F`
+- Brief description of what the other vault's perspective adds
+- Only cross-link notes with meaningful counterparts — not every shared entity
+- These links won't appear in graph view or backlinks — navigation aids only
