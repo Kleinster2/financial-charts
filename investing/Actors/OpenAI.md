@@ -17,10 +17,14 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 | Valuation (Oct 2025) | $500B (restructuring) |
 | **Valuation (Feb 2026)** | **$850B+** (post-money, new round) |
 | Pre-money valuation | $730B |
-| Revenue | $13B annualized |
-| Burn rate | 57% of revenue |
+| 2025 revenue (actual) | **$13.1B** (above $10B target) |
+| 2025 cash burn (actual) | **$8B** (below $9B target) |
+| **2030 revenue projection** | **$280B** (consumer ≈ enterprise) |
+| **2030 compute spend target** | **~$600B** (down from $1.4T) |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
+| ChatGPT WAU | **900M+** (Feb 2026, up from 800M Oct) |
+| Codex WAU | **1.5M+** |
 
 Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valuable private company.
 
@@ -310,6 +314,26 @@ ChatGPT still leads but gap shrinking. [[Google]] has distribution advantage (Se
 **[[OpenClaw]] → foundation:** Altman announced OpenClaw will become an independent open-source foundation with continued OpenAI support. "The future is going to be extremely multi-agent and it's important to us to support open source as part of that."
 
 **Strategic read:** This is OpenAI's answer to [[Anthropic]]'s [[MCP]]/[[Skills]] open-standard strategy. Both labs now backing open agent infrastructure to build ecosystem gravity. OpenAI gets Steinberger's agent expertise + open-source community goodwill; the foundation structure prevents lock-in accusations.
+
+---
+
+## Compute spend reset (Feb 20, 2026)
+
+OpenAI told investors it's now targeting **~$600B in total compute spend by 2030**, down from the **$1.4T infrastructure commitment** touted by [[Sam Altman]] in late 2025. The revision came as broader concerns mounted that expansion ambitions were too great for potential revenue.
+
+| Metric | Previous | Revised |
+|--------|----------|---------|
+| Infrastructure target | $1.4T ("commitments") | **~$600B** (compute spend) |
+| Timeline | Vague ("coming years") | **By 2030** |
+| 2030 revenue forecast | Not disclosed | **$280B** |
+
+**Key nuance:** The $1.4T included partner commitments ([[SoftBank]], [[Oracle]] for [[Stargate]]); the $600B is OpenAI's own compute spend (training + inference). Still a massive number but more grounded and directly tied to revenue projections.
+
+The spending plan is meant to more directly tie to expected revenue growth — with $280B projected for 2030, split roughly equally between consumer ([[ChatGPT]]) and enterprise businesses.
+
+**2025 actuals:** $13.1B revenue (beat $10B target), $8B cash burn (below $9B target). ChatGPT at 900M+ WAU (record highs after a fall dip). [[Codex]] at 1.5M+ WAU.
+
+*Source: CNBC, Feb 20, 2026.*
 
 ---
 
