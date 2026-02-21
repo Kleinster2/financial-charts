@@ -168,6 +168,14 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 
 ---
 
+## Import tariff hike (Feb 2026)
+
+Government raised import tariffs on **1,000+ products** by up to 7.2 pp — smartphones, industrial machinery, medical equipment, electronics. Import penetration had risen above 45% of domestic consumption. Top import sources: US (34.7%), China (21.1%). Industry warns domestic manufacturers can't fill the gap and costs will cascade. Political irony: Brazil was criticizing Trump's tariffs while raising its own.
+
+*Source: G1/Globo, Feb 21, 2026*
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -178,6 +186,7 @@ Brazil is a case study in [[Time consistency]] — both violations and successfu
 | China slowdown | Commodity exports hit |
 | Political volatility | Policy uncertainty |
 | USD strength | BRL weakness, capital outflows |
+| Protectionism | Feb 2026 tariff hike raises input costs, risks inflation pass-through |
 
 ---
 
