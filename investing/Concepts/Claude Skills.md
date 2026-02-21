@@ -237,5 +237,6 @@ Skills don't generate direct revenue — they're a retention and expansion mecha
 ---
 
 *Source: Anthropic "Complete Guide to Building Skills for Claude" (Jan 29, 2026), claude.com/blog*
-*Full PDF: ![[anthropic-skills-guide.pdf]]*
+*Full PDF:
+![[anthropic-skills-guide.pdf]]*
 *Created 2026-02-15*

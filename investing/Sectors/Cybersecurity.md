@@ -59,16 +59,48 @@ Microsoft Defender becoming viable:
 
 ---
 
+## AI: the dual disruption
+
+AI is hitting cybersecurity from both sides simultaneously — amplifying attackers *and* threatening to displace incumbent vendors.
+
+### AI as threat amplifier (bullish for spend)
+
+AI collapses the time-to-breach and the skill threshold. A single operator with an LLM can now execute what previously required a team of specialists.
+
+| Event | Date | Detail |
+|-------|------|--------|
+| **[[Amazon]] / 600 firewalls** | Feb 2026 | Russian-speaking hackers (possibly one person) used commercial GenAI tools to breach 600+ firewalls across 55 countries in weeks. Exploited weak credentials/single-factor auth at scale. Staging for ransomware. |
+| **[[AWS]] 8-minute breach** | Nov 2025 (disclosed Feb 2026) | Attackers found creds in public S3 bucket, used LLM-generated code (Serbian, AI-generated exception handling patterns) to go from initial access to full exfiltration across Secrets Manager, EC2, CloudWatch, S3 — in ~8 minutes. Sysdig research. |
+| **Skill floor collapse** | Ongoing | ~3.5M unfilled cyber jobs globally. AI lets unskilled attackers punch above their weight — reconnaissance, exploit generation, lateral movement all accelerated. |
+
+Implication: attack surface growing faster than human defenders can scale → structural demand driver for security spend regardless of macro.
+
+### AI as vendor disruptor (bearish for incumbents)
+
+AI labs entering security directly, threatening to commoditize the detection layer.
+
+| Event | Date | Detail |
+|-------|------|--------|
+| **[[Claude Code Security]]** | Feb 20, 2026 | [[Anthropic]]'s AI vulnerability scanner. Opus 4.6 found 500+ bugs undetected for decades. Reasons about code contextually vs. pattern matching. Free for open-source. |
+| **[[Aardvark]]** | Oct 2025 | [[OpenAI]]'s autonomous vulnerability hunter. |
+| **Sector selloff** | Feb 20, 2026 | OKTA -9.2%, NET -8.1%, CRWD -8.0%, S -7.5% despite broader market rising. |
+
+See [[AI cybersecurity disruption basket]] for the full selloff breakdown and bear/bull cases.
+
+**Net read:** AI is both the disease and the cure. Spending *must* rise (bullish TAM), but it may flow to AI-native tools rather than legacy vendors (bearish for incumbents without AI integration).
+
+---
+
 ## Growth drivers
 
 | Driver | Impact |
 |--------|--------|
-| **Attack sophistication** | Continuous spend |
+| **AI-powered attacks** | Force multiplier — single operator = team-scale campaigns (see above) |
 | **Cloud migration** | New attack surface |
 | **Remote work** | Zero trust adoption |
 | **Regulatory compliance** | Mandatory spend |
-| **AI threats** | Next-gen attacks |
-| **AI defense** | Automation opportunity |
+| **AI-native defense tools** | Commoditization risk for detection layer |
+| **Skill shortage** | 3.5M unfilled jobs → automation tailwind |
 
 ---
 
@@ -104,8 +136,8 @@ Subscription/recurring = high visibility.
 | **Microsoft bundling** | Pricing pressure |
 | **Economic slowdown** | IT budget cuts |
 | **Breach at vendor** | Reputation (see CrowdStrike outage) |
-| **Commoditization** | Margin compression |
-| **AI disruption** | New attack/defense paradigms |
+| **AI labs entering security** | [[Claude Code Security]], [[Aardvark]] — commoditize detection layer |
+| **AI-accelerated attacks** | Faster breach cycles force faster vendor response or lose relevance |
 
 ---
 
@@ -116,9 +148,17 @@ Subscription/recurring = high visibility.
 - [[Fortinet]] — mid-market leader
 - [[Microsoft]] — bundling threat
 - [[Long defense AI]] — government cyber spend
+- [[AI cybersecurity disruption basket]] — tracks vendor disruption from AI labs
+- [[AI workflow disruption basket]] — sibling basket (SaaS disruption)
+- [[Claude Code Security]] — Anthropic's AI vulnerability scanner (Feb 2026 catalyst)
+- [[Aardvark]] — OpenAI's autonomous vulnerability hunter
+- [[Cybersecurity consolidation]] — sector M&A dynamics
+- [[Zero trust]] — architectural trend
+- [[Identity and Access Management]] — subsector
 
 ## Sources
 
-- TBD
+- Bloomberg, "Hackers Used AI to Breach 600 Firewalls in Weeks, Amazon Says" (Feb 20, 2026)
+- Sysdig, "Attackers Used AI to Breach an AWS Environment in 8 Minutes" (Feb 2026)
 
-*Updated 2026-01-08*
+*Updated 2026-02-21*

@@ -194,6 +194,25 @@ WBD board rejected Paramount's $30/share bid but gave a **7-day window (until Fe
 
 Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-reporting/warner-bros-rejects-paramounts-revised-offer-gives-studio-week-negotiate-better-2026-02-17/)
 
+### Feb 20 — Paramount clears HSR antitrust hurdle; WBD staff shift toward Netflix
+
+**Paramount clears DOJ/HSR waiting period (Feb 20):**
+- Paramount announced the Hart-Scott-Rodino waiting period expired after responding to DOJ's second request — "no statutory impediment in the U.S. to closing"
+- **But no deal exists to close** — Paramount filed HSR preemptively without a signed agreement
+- Netflix CLO David Hyman pushed back: "Routine HSR milestones do not signal DOJ approval... they are a long way from doing so"
+- Netflix still responding to its own DOJ second request (will trigger separate 30-day waiting period)
+- Paramount's CLO is **Makan Delrahim**, former Trump DOJ Antitrust Division chief — notable regulatory connection
+
+**WBD employee sentiment shifts to Netflix (Variety, Feb 20):**
+- Most WBD staffers now favor Netflix deal over Paramount takeover
+- Netflix co-CEOs Sarandos/Peters won people over with assurances + vision for combined company
+- Remaining skepticism centers on theatrical distribution — Netflix promised 45-day exhibition window
+- "Some familiarity with the idea" of becoming part of Netflix has set in
+
+**Countdown: Feb 23 deadline is Monday** — Paramount must submit "best and final" offer. Key question: will they go above $31/share (the verbal number that got them to the table)?
+
+**Next catalyst: March 20 shareholder vote on Netflix merger.**
+
 ---
 
-*Updated 2026-02-17*
+*Updated 2026-02-21*
