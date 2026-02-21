@@ -43,7 +43,16 @@
 
 The OAuth cutoff preceded and was distinct from the naming dispute. Anthropic's crackdown on third-party Claude Code access (targeting tools like OpenCode, Clawdbot) broke integrations before any trademark action. This sequence drew significant developer community backlash (Craig Weiss tweet: "Anthropic messed up so badly with how they handled Clawdbot" - 580 likes, 27K views, Feb 2026).
 
-Feb 20, 2026: Anthropic formalized the ban — revised legal terms explicitly prohibit OAuth tokens from Claude Free/Pro/Max in any third-party tool, including Anthropic's own Agent SDK. Sent legal notice to OpenCode, which immediately removed Claude subscription support. [[OpenAI]], [[GitHub]], and GitLab all explicitly allow subscription use in third-party tools — Anthropic is the only frontier provider blocking this. OpenClaw uses API keys (not subscription OAuth) so operates in a different category, but the broader ecosystem hostility affects the project's relationship with Anthropic models.
+Feb 20, 2026: Anthropic formalized the ban — revised legal terms explicitly prohibit OAuth tokens from Claude Free/Pro/Max in any third-party tool, including Anthropic's own Agent SDK. Sent legal notice to OpenCode (56K GitHub stars), which immediately removed Claude subscription support. [[OpenAI]], [[GitHub]], and GitLab all explicitly allow subscription use in third-party tools — Anthropic is the only frontier provider blocking this.
+
+OpenClaw's exposure: OpenClaw runs on users' Claude Max subscriptions — not API keys. It works by wrapping the actual Claude Code CLI (the "Pi harness") rather than spoofing OAuth tokens independently. This is a gray area: OpenClaw doesn't extract or reuse OAuth tokens directly, but it orchestrates Claude Code through a wrapper, which could arguably fall under Anthropic's new language banning "any other product, tool, or service" from using subscription tokens. The distinction between "running Claude Code" and "orchestrating Claude Code through a wrapper" is technically thin.
+
+Three categories of third-party tool access:
+1. Direct OAuth token extraction (OpenCode, Cline) — explicitly banned, legal notices sent
+2. CLI wrapper/orchestration (OpenClaw) — gray area, not yet targeted but legally vulnerable
+3. API key usage (pay-per-token) — explicitly allowed, no issues
+
+If Anthropic tightens enforcement from category 1 to category 2, OpenClaw would be directly affected. This is the primary existential risk to the project's Claude integration.
 
 ## Viral growth
 
