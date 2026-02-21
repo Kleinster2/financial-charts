@@ -186,6 +186,15 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
   Fix errors before moving on. Warnings (dead links) are expected for new notes.
 - **Create stubs for dead links** — after compliance check, create minimal stub notes for any dead-linked entities. Stubs need: frontmatter with aliases, tags, one-line description, Quick stats table, Related section.
 
+### Evolution Section (Actor Notes)
+
+Company, country, and institution actor notes should include an **Evolution** section — the key inflection points that explain why the entity looks the way it does today. Not a full history, but the strategic genealogy: pivotal acquisitions, divestitures, crises, pivots, and regime changes that shaped current positioning.
+
+- Wikilink to other investing vault entities (companies, products, people) mentioned in the evolution
+- Each bullet should be an inflection point that explains something about the present
+- When a company's evolution connects to a broader theme in the history vault, add a cross-vault URI link
+- Stubs don't need an Evolution section — add it when the note matures beyond a stub
+
 ### Detailed References
 
 | Topic | Location |
