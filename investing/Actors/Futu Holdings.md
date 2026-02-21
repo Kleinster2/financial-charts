@@ -12,7 +12,7 @@ CEO: [[Leaf Hua Li]] (founder, ex-[[Tencent]])
 Employees: 3,000+
 Largest investor: [[Tencent]]
 
-Tech-driven online brokerage and wealth management platform. Operates the Futubull brand (Asia-focused) and Moomoo brand (international/US-focused). Think [[Robinhood]] meets [[Interactive Brokers]] â€” commission-free trading with professional-grade tools, built for digitally native investors across Asia-Pacific.
+Tech-driven online brokerage and wealth management platform. Operates the Futubull brand (Asia-focused) and Moomoo brand (international/US-focused). Think [[Robinhood]] meets [[Interactive Brokers]] â€" commission-free trading with professional-grade tools, built for digitally native investors across Asia-Pacific.
 
 ---
 
@@ -22,9 +22,9 @@ Tech-driven online brokerage and wealth management platform. Operates the Futubu
 |--------|-------|-------|
 | Stock price | ~$155 | Feb 2026 |
 | Market cap | $21.6B | Feb 2026 |
-| P/E ratio | 17.2Ã— | Trailing |
-| Forward P/E | 10.7Ã— | Analyst consensus |
-| 52-week range | $70.60 â€“ $202.53 | |
+| P/E ratio | 17.2Ã- | Trailing |
+| Forward P/E | 10.7Ã- | Analyst consensus |
+| 52-week range | $70.60 â€" $202.53 | |
 | Beta | 0.36 | |
 | Revenue (TTM) | $2.44B | Q3 2025 |
 | Net income (TTM) | $1.26B | Q3 2025 |
@@ -50,7 +50,7 @@ Tech-driven online brokerage and wealth management platform. Operates the Futubu
 *FUTU since IPO (Mar 2019). Peaked ~$200 in early 2021 during the Chinese tech/retail trading boom, crashed to ~$25 on China regulatory fears, recovered to $150+ on international expansion success.*
 
 ![[futu-vs-hood-price-chart.png]]
-*FUTU (blue) vs [[Robinhood]] (HOOD) normalized since HOOD IPO (Jul 2021). Both crashed from peaks but FUTU has outperformed on fundamentals — 87% gross margins vs HOOD's ~50%.*
+*FUTU (blue) vs [[Robinhood]] (HOOD) normalized since HOOD IPO (Jul 2021). Both crashed from peaks but FUTU has outperformed on fundamentals - 87% gross margins vs HOOD's ~50%.*
 
 ---
 
@@ -67,7 +67,7 @@ Futu generates revenue from three main streams:
 - HK$3.05B ($391M) in Q3 2025, +79.2% YoY
 - Margin financing and securities lending
 - Margin balance: HK$63.1B, +55.2% YoY, +22.8% QoQ
-- This is the "hidden" profit engine â€” borrow cheap, lend to clients at spread
+- This is the "hidden" profit engine â€" borrow cheap, lend to clients at spread
 
 ### 3. Other income (7%)
 - HK$444M ($57M) in Q3 2025, +113% YoY
@@ -92,7 +92,7 @@ Key insight: Unlike [[Robinhood]] (which relies heavily on PFOF and crypto), Fut
 | [[Canada]] | Licensed | CIRO/CIPF member. |
 | [[China]] (mainland) | Blocked | CSRC ordered Futu to stop accepting new mainland customers in late 2022. Existing clients can trade but can't add new capital. Apps pulled from mainland. |
 
-China risk is the elephant in the room. Futu was founded to serve Chinese investors accessing global markets. The CSRC ban forced a pivot to international expansion â€” which has actually worked remarkably well (28.2M users, 3.1M funded accounts across 7+ markets). But [[Tencent]] remains the largest investor, and geopolitical/regulatory risk from [[China]] hasn't disappeared.
+China risk is the elephant in the room. Futu was founded to serve Chinese investors accessing global markets. The CSRC ban forced a pivot to international expansion â€" which has actually worked remarkably well (28.2M users, 3.1M funded accounts across 7+ markets). But [[Tencent]] remains the largest investor, and geopolitical/regulatory risk from [[China]] hasn't disappeared.
 
 ---
 
@@ -112,7 +112,7 @@ China risk is the elephant in the room. Futu was founded to serve Chinese invest
 | Client assets | HK$693B | HK$1.24T | +78.9% |
 | Trading volume | HK$1.90T | HK$3.90T | +104.8% |
 
-Margin expansion is the standout. Gross margins went from 82% to 88%, operating margins from 50% to 61%, net margins from 38% to 50% â€” all in one year. This is operating leverage: revenue nearly doubled while costs grew only 27%.
+Margin expansion is the standout. Gross margins went from 82% to 88%, operating margins from 50% to 61%, net margins from 38% to 50% â€" all in one year. This is operating leverage: revenue nearly doubled while costs grew only 27%.
 
 Cost discipline:
 - R&D: HK$574M, +49% YoY (investing in crypto + AI capabilities)
@@ -135,7 +135,7 @@ Cost discipline:
 | 2024 | $1.55B | $609M | 39.3% | 2.41M |
 | 2025 (TTM Q3) | $2.44B | $1.26B | 51.6% | 3.13M |
 
-Revenue compounded at ~48% CAGR from 2020-2025. Net margins expanded from 17% to 52% — exceptional operating leverage.
+Revenue compounded at ~48% CAGR from 2020-2025. Net margins expanded from 17% to 52% - exceptional operating leverage.
 
 ### Q3 2025 cost structure (HK$ millions)
 
@@ -161,7 +161,7 @@ Revenue compounded at ~48% CAGR from 2020-2025. Net margins expanded from 17% to
 | [[Tiger Brokers]] (TIGR) | ~$3B | Asia-Pacific | Direct competitor, similar model, smaller |
 | Futu (FUTU) | $21.6B | Asia-Pacific + US | Best mobile UX in Asia, social features, Tencent DNA |
 
-Revenue per funded account: ~6Ã— Robinhood's. Futu monetizes far better despite smaller user base â€” higher ARPU clients (Asia-Pacific investors tend to trade more actively and use margin).
+Revenue per funded account: ~6Ã- Robinhood's. Futu monetizes far better despite smaller user base â€" higher ARPU clients (Asia-Pacific investors tend to trade more actively and use margin).
 
 [[Goldman Sachs]] upgraded FUTU to Buy (Feb 1, 2026).
 
@@ -173,7 +173,7 @@ Revenue per funded account: ~6Ã— Robinhood's. Futu monetizes far better despi
 - Founder, Chairman, CEO
 - Former Head of Multimedia Business Unit at [[Tencent]] (joined Tencent in 2000, early employee)
 - Built Futu in 2012 with the insight that Asian retail investors wanted mobile-first, professional-grade trading tools
-- Tencent connection runs deep â€” Tencent is both the largest investor and the cultural DNA (social features, mobile-first design, gamification)
+- Tencent connection runs deep â€" Tencent is both the largest investor and the cultural DNA (social features, mobile-first design, gamification)
 
 ---
 
@@ -186,7 +186,7 @@ Revenue per funded account: ~6Ã— Robinhood's. Futu monetizes far better despi
 | Wealth management | All markets | Money market funds, fixed income, structured products. Self-service RFQ for structured products launched Q3 2025. |
 | Corporate services | HK-focused | IPO distribution (joint bookrunner for Chery Auto, Hesai Group, Lens Technology), IR services, ESOP solutions. 561 clients. |
 
-Social/community features are a key differentiator â€” embedded social media tools, KOL connectivity, community discussion. This is the [[Tencent]] DNA: turn a financial tool into a social network. Increases engagement and stickiness.
+Social/community features are a key differentiator â€" embedded social media tools, KOL connectivity, community discussion. This is the [[Tencent]] DNA: turn a financial tool into a social network. Increases engagement and stickiness.
 
 Crypto: Trading volume soared 161% QoQ in Q3 2025. [[Ethereum]] overtook [[Bitcoin]] as most traded coin. [[Solana]] launched in HK. "Very early innings of driving crypto penetration."
 
@@ -194,22 +194,22 @@ Crypto: Trading volume soared 161% QoQ in Q3 2025. [[Ethereum]] overtook [[Bitco
 
 ## Investment case
 
-### Bull case ðŸ‚
-- Explosive growth at scale â€” 86% revenue growth, 144% net income growth, with expanding margins
-- Incredible profitability â€” 88% gross margins, 61% operating margins, 50% net margins. These are software economics on a financial services business
-- Cheap valuation â€” 17Ã— trailing P/E, 10.7Ã— forward P/E for a company growing 80%+ YoY. Compare to [[Robinhood]] at higher multiples with lower margins
-- Multi-market optionality â€” already licensed in 7+ markets, each a growth vector. Malaysia in early innings. US accelerating.
-- Interest income base â€” $1.5B+ annualized in interest income provides a recurring floor even if trading volumes dip
-- Massive TAM â€” Asia-Pacific retail investing is underpenetrated vs. US. Rising middle class, generational wealth transfer, digitization of finance.
+### Bull case ðŸ'
+- Explosive growth at scale â€" 86% revenue growth, 144% net income growth, with expanding margins
+- Incredible profitability â€" 88% gross margins, 61% operating margins, 50% net margins. These are software economics on a financial services business
+- Cheap valuation â€" 17Ã- trailing P/E, 10.7Ã- forward P/E for a company growing 80%+ YoY. Compare to [[Robinhood]] at higher multiples with lower margins
+- Multi-market optionality â€" already licensed in 7+ markets, each a growth vector. Malaysia in early innings. US accelerating.
+- Interest income base â€" $1.5B+ annualized in interest income provides a recurring floor even if trading volumes dip
+- Massive TAM â€" Asia-Pacific retail investing is underpenetrated vs. US. Rising middle class, generational wealth transfer, digitization of finance.
 - $800M buyback authorized through 2027
 
 ### Bear case ðŸ»
-- China regulatory risk â€” CSRC already blocked mainland expansion. Further crackdowns on [[Tencent]] or cross-border finance could impact the stock. VIE structure adds complexity.
-- Tencent overhang â€” [[Tencent]] has been divesting positions. A large Tencent sale could pressure the stock.
-- Market-dependent revenue â€” trading volumes are cyclical. A prolonged bear market would crush commissions and margin lending
-- Interest rate sensitivity â€” falling rates compress NIM on margin financing
-- US-China geopolitical risk â€” NASDAQ-listed Chinese company faces delisting risk (though PCAOB audit access resolved this partially)
-- Competition â€” [[Robinhood]] expanding internationally, [[Interactive Brokers]] already global, local players in each market
+- China regulatory risk â€" CSRC already blocked mainland expansion. Further crackdowns on [[Tencent]] or cross-border finance could impact the stock. VIE structure adds complexity.
+- Tencent overhang â€" [[Tencent]] has been divesting positions. A large Tencent sale could pressure the stock.
+- Market-dependent revenue â€" trading volumes are cyclical. A prolonged bear market would crush commissions and margin lending
+- Interest rate sensitivity â€" falling rates compress NIM on margin financing
+- US-China geopolitical risk â€" NASDAQ-listed Chinese company faces delisting risk (though PCAOB audit access resolved this partially)
+- Competition â€" [[Robinhood]] expanding internationally, [[Interactive Brokers]] already global, local players in each market
 
 ---
 
@@ -226,9 +226,11 @@ Crypto: Trading volume soared 161% QoQ in Q3 2025. [[Ethereum]] overtook [[Bitco
 
 ## Related
 
-- [[Robinhood]] â€” peer (US-centric commission-free broker)
-- [[Interactive Brokers]] â€” peer (global professional broker)
-- [[Tiger Brokers]] â€” closest competitor (Asia-Pacific, similar model)
-- [[Tencent]] â€” largest investor, founder's alma mater
-- [[Hong Kong]] â€” core market
-- [[Leaf Hua Li]] â€” founder and CEO
+- [[Robinhood]] â€" peer (US-centric commission-free broker)
+- [[Interactive Brokers]] â€" peer (global professional broker)
+- [[Tiger Brokers]] â€" closest competitor (Asia-Pacific, similar model)
+- [[Tencent]] â€" largest investor, founder's alma mater
+- [[Hong Kong]] â€" core market
+- [[Leaf Hua Li]] â€" founder and CEO
+- [[Separately Managed Accounts]] â€" SMA market context for brokerage platforms
+- [[Avenue Securities]] â€" peer (cross-border brokerage for Brazilians)

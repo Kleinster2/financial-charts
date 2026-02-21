@@ -120,3 +120,5 @@ The alternative custodians ([[Interactive Brokers]], [[Charles Schwab]]) are mor
 - [[Separately Managed Accounts]] — Avenue as potential custodian for CVM consultants
 - [[Interactive Brokers]] — alternative custodian for Brazilian investors
 - [[Robinhood]] — US peer (different market)
+- [[Bruno Corano]] — NYC-based Brazilian investor serving same market (Corano Capital, $2B AUM)
+- [[BM&C News]] — Brazilian financial media, covers cross-border investing

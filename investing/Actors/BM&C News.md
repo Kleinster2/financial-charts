@@ -122,3 +122,4 @@ The channel's growth also reflects a broader trend: YouTube and social media rep
 - [[BTG Pactual]] — owns Exame
 - [[B3]] — Brazilian stock exchange; retail investor growth drove BM&C's audience
 - [[Avenue Securities]] — type of advertiser/partner for cross-border investing coverage
+- [[Bruno Corano]] — hosts Manhattan Connection and Wall Street Cast on BM&C

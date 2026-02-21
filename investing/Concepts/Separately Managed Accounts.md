@@ -163,3 +163,6 @@ This coordination burden is a real operational cost that investors often underes
 - [[Morgan Stanley]] — provider (owns [[Parametric]], largest direct indexing manager)
 - [[BlackRock]] — provider (Aperio acquisition)
 - [[Vanguard]] — provider (Personalized Indexing)
+- [[Avenue Securities]] — potential custodian for CVM consultants serving Brazilian clients
+- [[Bruno Corano]] — NYC-based Brazilian running $2B for Brazilian HNW clients (validates the market)
+- [[Inference economics]] — AI subscription pricing uses similar unit economics logic
