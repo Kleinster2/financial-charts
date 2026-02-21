@@ -193,5 +193,9 @@ See [[US Government]] for full policy landscape.
 - [[Chile-China Express]] — disputed cable triggering sanctions
 - [[Submarine Cables]] — broader infrastructure battleground
 
+### Cross-vault
+- [Geopolitics: Sanctions](obsidian://open?vault=geopolitics&file=Concepts%2FSanctions) — theory, effectiveness debate, frozen assets, evasion
+- [Geopolitics: Chile-China Cable Sanctions](obsidian://open?vault=geopolitics&file=Current%20Events%2FChile-China%20Cable%20Sanctions) — statecraft analysis
+
 *Updated 2026-02-21*
 

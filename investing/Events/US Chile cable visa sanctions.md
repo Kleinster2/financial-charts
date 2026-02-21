@@ -88,3 +88,8 @@ Minister Muñoz: "Lo lamento profundamente" (I deeply regret it). Stressed that 
 - [[Subtel]] — Chilean telecom regulator
 - [[US Sanctions]] — policy tool
 - [[Santiago Data Hub]] — Chile's data infrastructure
+
+### Cross-vault
+- [Geopolitics: Chile-China Cable Sanctions](obsidian://open?vault=geopolitics&file=Current%20Events%2FChile-China%20Cable%20Sanctions) — statecraft analysis, precedent, attribution
+- [Geopolitics: Sanctions](obsidian://open?vault=geopolitics&file=Concepts%2FSanctions) — sanctions as coercive tool
+- [Geopolitics: Digital Sovereignty](obsidian://open?vault=geopolitics&file=Concepts%2FDigital%20Sovereignty) — infrastructure control framework
