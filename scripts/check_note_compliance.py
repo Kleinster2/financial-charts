@@ -37,6 +37,15 @@ class NoteChecker:
         self.suggest_links = suggest_links
         self.existing_notes = self._index_existing_notes()
 
+    @staticmethod
+    def _has_tag(content: str, tag: str) -> bool:
+        """Check if content contains a hashtag as a whole token (not substring).
+
+        Matches #tag followed by whitespace, newline, or end-of-string.
+        Prevents #private from matching #privateequity, etc.
+        """
+        return bool(re.search(rf'(?<!\w){re.escape(tag)}(?=\s|$)', content, re.MULTILINE))
+
     def _index_existing_notes(self) -> set[str]:
         """Index all existing note names (without .md extension)."""
         notes = set()
@@ -78,13 +87,13 @@ class NoteChecker:
             return issues
 
         is_public = self._is_public_company(content)
-        is_etf = note_type in ("etf", "benchmark") or "#etf" in content or "#benchmark" in content
-        is_private = "#private" in content
-        is_person = "#person" in content
-        is_geography = "#geography" in content or any(tag in content for tag in ["#country", "#region", "#city"])
-        is_vc = "#vc" in content
-        is_investor = "#investor" in content or "#hedgefund" in content or "#pe" in content
-        is_product = "#product" in content  # Products belong to parent companies
+        is_etf = note_type in ("etf", "benchmark") or self._has_tag(content, "#etf") or self._has_tag(content, "#benchmark")
+        is_private = self._has_tag(content, "#private")
+        is_person = self._has_tag(content, "#person")
+        is_geography = self._has_tag(content, "#geography") or any(self._has_tag(content, tag) for tag in ["#country", "#region", "#city"])
+        is_vc = self._has_tag(content, "#vc")
+        is_investor = self._has_tag(content, "#investor") or self._has_tag(content, "#hedgefund") or self._has_tag(content, "#pe")
+        is_product = self._has_tag(content, "#product")  # Products belong to parent companies
 
         # Structure checks
         issues.extend(self._check_frontmatter(content, filepath))
@@ -129,19 +138,19 @@ class NoteChecker:
 
     def _get_note_type(self, content: str) -> str:
         """Determine note type from hashtags."""
-        if "#actor" in content:
-            if "#etf" in content or "#benchmark" in content:
+        if self._has_tag(content, "#actor"):
+            if self._has_tag(content, "#etf") or self._has_tag(content, "#benchmark"):
                 return "etf"
             return "actor"
-        if "#index" in content:
+        if self._has_tag(content, "#index"):
             return "index"
-        if "#sector" in content:
+        if self._has_tag(content, "#sector"):
             return "sector"
-        if "#concept" in content:
+        if self._has_tag(content, "#concept"):
             return "concept"
-        if "#event" in content:
+        if self._has_tag(content, "#event"):
             return "event"
-        if "#thesis" in content:
+        if self._has_tag(content, "#thesis"):
             return "thesis"
         return "unknown"
 
@@ -158,13 +167,13 @@ class NoteChecker:
         if re.search(r"Ticker\s*\|\s*[A-Z]{1,5}\s*\(", content):
             return True
         # Has #private tag = not public
-        if "#private" in content:
+        if self._has_tag(content, "#private"):
             return False
         # Has #brand tag = subsidiary/brand, not standalone public
-        if "#brand" in content:
+        if self._has_tag(content, "#brand"):
             return False
         # Is an actor without #private = assume public
-        if "#actor" in content and "#person" not in content:
+        if self._has_tag(content, "#actor") and not self._has_tag(content, "#person"):
             return True
         return False
 

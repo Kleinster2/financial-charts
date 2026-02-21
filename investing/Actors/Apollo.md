@@ -16,23 +16,51 @@ aliases: [APO, Apollo Global Management]
 | CEO | [[Marc Rowan]] (since Mar 2021) |
 | Founded | 1990 by [[Leon Black]], [[Marc Rowan]], [[Josh Harris]] |
 
+![[apo-vs-bx-kkr-ares-price-chart.png]]
+*APO vs alt asset peers since 2022. Apollo +100%, outperforming BX (+20%) and KKR (+40%), tracking ARES.*
+
 ---
 
 ## Business segments
 
 | Segment | AUM | Focus |
 |---------|-----|-------|
-| **Credit** | ~$500B | Corporate lending, distressed |
-| **Equity** | ~$100B | Traditional PE buyouts |
-| **Real Assets** | ~$100B | Real estate, infrastructure |
+| Credit | ~$500B | Corporate lending, distressed |
+| Equity | ~$100B | Traditional PE buyouts |
+| Real Assets | ~$100B | Real estate, infrastructure |
 
 Credit = majority of business (different from Blackstone).
 
 ---
 
+## Financials
+
+![[apo-fundamentals.png]]
+*Revenue stepped up sharply after Athene merger consolidation (2022). Net income turned consistently positive from 2021.*
+
+| Year | Revenue ($B) | Net Income ($B) | EBITDA ($B) |
+|------|-------------|----------------|------------|
+| 2015 | 1.0 | 0.1 | 0.5 |
+| 2016 | 2.1 | 0.4 | 1.1 |
+| 2017 | 2.8 | 0.6 | 1.8 |
+| 2018 | 1.1 | -0.03 | 0.2 |
+| 2019 | 2.9 | 0.8 | 1.6 |
+| 2020 | 2.4 | 0.2 | 1.0 |
+| 2021 | 6.0 | 1.8 | 5.8 |
+| 2022 | 11.0 | 2.0 | 1.0 |
+| 2023 | 32.6 | 5.1 | 6.7 |
+| 2024 | 26.1 | 4.4 | 8.9 |
+| 2025 | 30.3 | 4.5 | 10.5 |
+
+Revenue volatility pre-2022 reflects mark-to-market swings on investment gains/losses (typical for alt managers). 2022+ step-change from Athene consolidation — insurance premiums now flow through revenue. EBITDA trajectory shows underlying earnings power growing steadily.
+
+*Source: Alpha Vantage, Feb 2026.*
+
+---
+
 ## [[Athene]] integration
 
-**[[Insurance]] platform:**
+[[Insurance]] platform:
 - Merged with [[Athene]] (Jan 2022, ~$11B all-stock)
 - \#1 US individual annuity seller, $430B total assets
 - Permanent capital vehicle — low-cost float for credit deployment
@@ -42,9 +70,9 @@ Credit = majority of business (different from Blackstone).
 
 ## Private credit retail expansion
 
-**Targeting wealthy individuals:**
+Targeting wealthy individuals:
 
-**Jim Zelter (co-president):** "We're launching our European product platform in the coming months designed to offer a full suite of options to individuals in [[Europe]]."
+Jim Zelter (co-president): "We're launching our European product platform in the coming months designed to offer a full suite of options to individuals in [[Europe]]."
 
 Part of broader industry push to bring [[Private credit]] to high-net-worth individuals (following Blackstone's BCRED and Luxembourg fund).
 
@@ -88,13 +116,13 @@ Stock fell on Trump's institutional homebuying ban announcement:
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Credit focus = more stable
 - [[Athene]] = permanent capital ($430B)
 - Alternative asset secular growth
 - Marc Rowan leadership
 
-**Bear:**
+Bear:
 - Interest rate sensitivity
 - Credit cycle risk
 - Competition intensifying
@@ -104,21 +132,21 @@ Stock fell on Trump's institutional homebuying ban announcement:
 
 ## Evolution
 
-- **1977–1990 — [[Drexel Burnham Lambert]]:** All three founders came from [[Michael Milken]]'s shop. [[Leon Black]] (13 years, Head of M&A), [[Marc Rowan]] (Wharton '85, joined M&A directly), [[Josh Harris]] (analyst). Core insight from Drexel: credit markets are mispriced far more often than equity markets. Drexel collapsed Feb 1990 after Milken's guilty plea.
-- **1990 — Founding:** Black, Rowan, and Harris launched Apollo Advisors within six months of Drexel's bankruptcy. First fund raised ~$400M. Strategy: distressed debt — buying bonds of troubled companies at deep discounts, restructuring or converting to equity.
-- **1991 — Executive Life Insurance:** Apollo's first blockbuster. Acquired the seized insurer's high-yield bond portfolio at distressed prices. When junk bonds recovered, returns were enormous. Cemented Apollo's reputation as the premier distressed-debt shop (though it also drew regulatory scrutiny from California AG).
-- **2006–2008 — Mega-LBO era:** Scaled into leveraged buyouts during the pre-crisis boom. [[Caesars Entertainment]] ($27.8B with [[TPG]], Dec 2006, closed Jan 2008), ADT, Berry Plastics, Norwegian Cruise Line. AUM hit $40.3B by end of 2007, 53% CAGR from 2004.
-- **2008–2009 — LyondellBasell (greatest trade):** Wagered ~$2B on distressed debt of bankrupt LyondellBasell (bought as low as 20 cents on the dollar). Converted to 25% equity, cut $1B/year in fixed costs. U.S. fracking boom supercharged petrochemical margins. Extracted ~$9B total — roughly 4x invested capital. One of the most profitable single investments in PE history.
-- **2009 — [[Athene]] created:** Founded Athene Holding as a captive insurance/annuity platform to invest float in Apollo-originated credit. Co-founded by [[Jim Belardi]]. This was the structural innovation that enabled the credit pivot — [[Permanent capital]] without constant fundraising.
-- **2011 — IPO:** Listed on NYSE at $19/share, raised ~$565M. Lead underwriters: Goldman, JPM, BofA.
-- **2015 — Caesars bankruptcy:** [[Caesars Entertainment]] Operating Co. filed Chapter 11 under $18B of debt. Apollo and TPG's combined stake diluted from 60% to ~16% in the 2017 emergence. Apollo's most visible loss — cautionary tale about peak-cycle mega-LBOs.
-- **2016 — Credit becomes dominant:** By 2015, credit was 71% of AUM ($121B of $170B total). The pivot from traditional PE to credit-heavy was Apollo's defining strategic decision — more stable earnings, vastly larger addressable market ($40T investment-grade private credit), and differentiation from [[KKR]], [[Blackstone]], [[Carlyle]].
-- **Sep 2019 — C-corp conversion:** Converted from publicly traded partnership to C-corporation after 2017 tax reform dropped corporate rate to 21%. Opened Apollo to index fund inclusion and broader institutional ownership.
-- **Mar 2021 — Leon Black out:** Dechert review revealed Black paid [[Jeffrey Epstein]] $158M (2012–2017) for advisory services. Black stepped down as CEO and chairman effective immediately. [[Marc Rowan]] became CEO; [[Jay Clayton]] (former SEC chair) became non-executive chairman.
-- **Jan 2022 — [[Athene]] merger completed:** Acquired remaining Athene shares for ~$11B all-stock. Athene became wholly owned subsidiary. Retirement Services SRE now exceeds fee-related earnings ($3.4B vs $2.5B in 2025).
-- **2022 — Josh Harris departs:** Passed over for CEO in favor of Rowan. Left Apollo, founded [[26North]] (multi-asset alternatives). Acquired Washington Commanders for $6B (2023 record for U.S. sports franchise).
-- **Apr 2025 — Jay Clayton resigns:** Left board to become Interim U.S. Attorney, SDNY. Rowan took dual CEO/Chairman role; [[Gary Cohn]] became Lead Independent Director.
-- **2025 — Approaching $1T:** AUM reached $938B (Dec 2025, +25% YoY). Record origination exceeded $300B. Rowan targeting $1.5T AUM by 2029 and doubling annual credit origination to $200–250B. Apollo now has ~4,000 professionals across 16 origination platforms.
+- 1977–1990 — [[Drexel Burnham Lambert]]: All three founders came from [[Michael Milken]]'s shop. [[Leon Black]] (13 years, Head of M&A), [[Marc Rowan]] (Wharton '85, joined M&A directly), [[Josh Harris]] (analyst). Core insight from Drexel: credit markets are mispriced far more often than equity markets. Drexel collapsed Feb 1990 after Milken's guilty plea.
+- 1990 — Founding: Black, Rowan, and Harris launched Apollo Advisors within six months of Drexel's bankruptcy. First fund raised ~$400M. Strategy: distressed debt — buying bonds of troubled companies at deep discounts, restructuring or converting to equity.
+- 1991 — Executive Life Insurance: Apollo's first blockbuster. Acquired the seized insurer's high-yield bond portfolio at distressed prices. When junk bonds recovered, returns were enormous. Cemented Apollo's reputation as the premier distressed-debt shop (though it also drew regulatory scrutiny from California AG).
+- 2006–2008 — Mega-LBO era: Scaled into leveraged buyouts during the pre-crisis boom. [[Caesars Entertainment]] ($27.8B with [[TPG]], Dec 2006, closed Jan 2008), ADT, Berry Plastics, Norwegian Cruise Line. AUM hit $40.3B by end of 2007, 53% CAGR from 2004.
+- 2008–2009 — LyondellBasell (greatest trade): Wagered ~$2B on distressed debt of bankrupt LyondellBasell (bought as low as 20 cents on the dollar). Converted to 25% equity, cut $1B/year in fixed costs. U.S. fracking boom supercharged petrochemical margins. Extracted ~$9B total — roughly 4x invested capital. One of the most profitable single investments in PE history.
+- 2009 — [[Athene]] created: Founded Athene Holding as a captive insurance/annuity platform to invest float in Apollo-originated credit. Co-founded by [[Jim Belardi]]. This was the structural innovation that enabled the credit pivot — [[Permanent capital]] without constant fundraising.
+- 2011 — IPO: Listed on NYSE at $19/share, raised ~$565M. Lead underwriters: Goldman, JPM, BofA.
+- 2015 — Caesars bankruptcy: [[Caesars Entertainment]] Operating Co. filed Chapter 11 under $18B of debt. Apollo and TPG's combined stake diluted from 60% to ~16% in the 2017 emergence. Apollo's most visible loss — cautionary tale about peak-cycle mega-LBOs.
+- 2016 — Credit becomes dominant: By 2015, credit was 71% of AUM ($121B of $170B total). The pivot from traditional PE to credit-heavy was Apollo's defining strategic decision — more stable earnings, vastly larger addressable market ($40T investment-grade private credit), and differentiation from [[KKR]], [[Blackstone]], [[Carlyle]].
+- Sep 2019 — C-corp conversion: Converted from publicly traded partnership to C-corporation after 2017 tax reform dropped corporate rate to 21%. Opened Apollo to index fund inclusion and broader institutional ownership.
+- Mar 2021 — Leon Black out: Dechert review revealed Black paid [[Jeffrey Epstein]] $158M (2012–2017) for advisory services. Black stepped down as CEO and chairman effective immediately. [[Marc Rowan]] became CEO; [[Jay Clayton]] (former SEC chair) became non-executive chairman.
+- Jan 2022 — [[Athene]] merger completed: Acquired remaining Athene shares for ~$11B all-stock. Athene became wholly owned subsidiary. Retirement Services SRE now exceeds fee-related earnings ($3.4B vs $2.5B in 2025).
+- 2022 — Josh Harris departs: Passed over for CEO in favor of Rowan. Left Apollo, founded [[26North]] (multi-asset alternatives). Acquired Washington Commanders for $6B (2023 record for U.S. sports franchise).
+- Apr 2025 — Jay Clayton resigns: Left board to become Interim U.S. Attorney, SDNY. Rowan took dual CEO/Chairman role; [[Gary Cohn]] became Lead Independent Director.
+- 2025 — Approaching $1T: AUM reached $938B (Dec 2025, +25% YoY). Record origination exceeded $300B. Rowan targeting $1.5T AUM by 2029 and doubling annual credit origination to $200–250B. Apollo now has ~4,000 professionals across 16 origination platforms.
 
 ---
 
