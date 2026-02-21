@@ -227,3 +227,5 @@ When a note has a meaningful counterpart in the other vault, add clickable `obsi
 - Brief description of what the other vault's perspective adds
 - Only cross-link notes with meaningful counterparts — not every shared entity
 - These links won't appear in graph view or backlinks — navigation aids only
+
+**Post-ingestion gate:** After creating a new event or making a major update, ask: *does this also belong in the geopolitics vault?* If the story involves statecraft, sanctions, diplomatic precedent, alliance dynamics, or infrastructure competition, flag it to the user. Don't silently skip — the default is to ask. Routine updates to existing notes don't trigger this.
