@@ -32,7 +32,7 @@ Three decades of deflation ended when external shocks (Covid supply chains, Ukra
 
 Simultaneously, the [[Tokyo Stock Exchange]] under CEO [[Hiromi Yamaji]] implemented aggressive governance reforms starting 2023: demanding companies trading below book value explain why, pushing cross-shareholding unwinding, mandating independent directors. Result: record buybacks (¥35T in 2025), rising ROE, and more than half of listed companies now above book value. See [[Japan corporate governance revolution]].
 
-[[Warren Buffett]]'s $24B gain on Japanese trading houses (disclosed 2020, accumulated from 2019) served as a global signal. [[Apollo]]'s [[Mark Rowan]] calls it "generational change" across governance, rates, and government policy.
+[[Warren Buffett]]'s [[Buffett Japan sogo shosha trade|$24B gain on Japan's five trading houses]] — [[Mitsubishi Corp]], [[Mitsui & Co]], [[Itochu]], [[Marubeni]], [[Sumitomo Corp]] — served as a global signal. He funded the purchases by issuing yen-denominated bonds (borrowing cheap yen to buy yen assets — a free carry trade), and his 2023 Tokyo visit turbo-charged institutional interest. [[Apollo]]'s [[Mark Rowan]] calls it "generational change" across governance, rates, and government policy.
 
 ## Political catalyst — the Takaichi era
 
