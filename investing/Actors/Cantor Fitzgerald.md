@@ -1,29 +1,20 @@
 ---
-aliases: [Cantor]
+aliases:
+  - Cantor
+tags:
+  - actor
+  - finance
 ---
-#actor #finance #usa
 
-**Cantor Fitzgerald** — US financial services firm specializing in institutional equity, fixed income, and investment banking. Holds a convertible bond giving it 5% equity rights in [[Tether]] (purchased for >$600M). Serves as reserve custodian for [[Tether]]'s USAT stablecoin via [[Anchorage Digital Bank]]. Led by [[Howard Lutnick]] for 30+ years until his appointment as Commerce Secretary (Jan 2025).
+# Cantor Fitzgerald
 
----
+Wall Street financial services firm. Founded 1945. Now run by **[[Brandon Lutnick]]** after his father **[[Howard Lutnick]]** became Trump's Commerce Secretary (2025). Known for fixed income brokerage, real estate, and special situations.
 
-## Quick stats
-
-| Metric | Value |
-|--------|-------|
-| Founded | 1945 |
-| HQ | New York |
-| Former CEO | [[Howard Lutnick]] (now Commerce Secretary) |
-| Tether stake | 5% equity rights (convertible bond, >$600M) |
-| USAT role | Reserve custodian |
-| 9/11 losses | 658 employees |
-
----
+Entered the [[Tariff refund claims market]] in mid-2025, buying rights to IEEPA tariff refunds at cents on the dollar. Traded ~$10M+ with capacity for "several hundred million." Created a conflict-of-interest scandal given Howard Lutnick's role architecting the tariff policy his firm was betting against.
 
 ## Related
 
-- [[Tether]] — 5% equity rights, reserve custodian for USAT
-- [[Howard Lutnick]] — former CEO, current Commerce Secretary
-- [[Anchorage Digital Bank]] — USAT issuer partnership
-- [[Bo Hines]] — USAT CEO
-- [[Crypto]] — sector exposure via Tether relationship
+- [[Howard Lutnick]]
+- [[Brandon Lutnick]]
+- [[Tariff refund claims market]]
+- [[Learning Resources v Trump]]

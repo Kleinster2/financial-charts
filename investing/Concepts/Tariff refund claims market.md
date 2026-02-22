@@ -113,6 +113,18 @@ Tariff refund claims are closest to **litigation finance** — a binary bet on a
 
 ---
 
+## Cantor Fitzgerald conflict-of-interest scandal
+
+[[Cantor Fitzgerald]], formerly run by **[[Howard Lutnick]]** (now Trump's Commerce Secretary), entered the tariff claims market in mid-2025 under his son **[[Brandon Lutnick]]**. Per WIRED (Jul 2025), a Cantor salesman emailed clients that the firm had "already put a trade through representing about ~$10 million" in refund rights and "anticipate[s] that number will balloon in the coming weeks." Cantor claimed capacity to trade "up to several hundred million."
+
+**The conflict**: Howard Lutnick helped architect the very tariff policy that created the refund claims his family's firm was trading. After SCOTUS struck down IEEPA tariffs in [[Learning Resources v Trump]] (Feb 20, 2026), Senators [[Ron Wyden]] and [[Elizabeth Warren]] sent a letter to Brandon Lutnick demanding answers about potential insider dealing and conflict of interest. If Cantor bought claims at ~20¢ and they're now worth ~100¢, that's a 5x return on a bet where the firm's founder had inside knowledge of the policy's legal vulnerability.
+
+Cantor denied profiting from the SCOTUS ruling (Semafor, Feb 20, 2026), but the $10M trade was already confirmed in their own internal communications.
+
+*Sources: WIRED Jul 21, 2025; Senate Finance Committee letter Aug 13, 2025; Semafor Feb 20, 2026; Newsweek Feb 21, 2026.*
+
+---
+
 ## Post-ruling implications
 
 ### For existing claim buyers
@@ -159,3 +171,6 @@ This is a niche but revealing market:
 - [[Jefferies]] — broker for claims
 - [[Litigation finance]] — closest parallel asset class
 - [[Burford Capital]] — major litigation finance firm (potential beneficiary)
+- [[Cantor Fitzgerald]] — traded ~$10M+ in claims, conflict-of-interest scandal
+- [[Howard Lutnick]] — Commerce Secretary, former Cantor CEO, architected tariff policy
+- [[Brandon Lutnick]] — current Cantor CEO, Howard's son
