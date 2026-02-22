@@ -45,6 +45,35 @@ The 84% "never used AI" isn't random — it's concentrated in:
 
 This means AI adoption is even more concentrated than the numbers suggest — it's essentially a phenomenon of educated, English-speaking, internet-connected urbanites in rich countries.
 
+## Where agents are actually deployed
+
+![[ai-agent-domains-feb2026.jpg]]
+*AI agent tool calls by domain, Feb 2026. Source unknown.*
+
+| Domain | % of tool calls |
+|--------|----------------|
+| **Software engineering** | **49.7%** |
+| Back-office automation | 9.1% |
+| Other | 7.1% |
+| Marketing and copywriting | 4.4% |
+| Sales and CRM | 4.3% |
+| Finance and accounting | 4.0% |
+| Data analysis and BI | 3.5% |
+| Academic research | 2.8% |
+| Cybersecurity | 2.4% |
+| Customer service | 2.2% |
+| Gaming and interactive media | 2.1% |
+| Document and presentation creation | 1.9% |
+| Education and tutoring | 1.8% |
+| E-commerce operations | 1.3% |
+| Medicine and healthcare | 1.0% |
+| Legal | 0.9% |
+| Travel and logistics | 0.8% |
+
+Software engineering is half of all agent usage — consistent with the 0.04% coding scaffold tier generating disproportionate activity. Code is the ideal AI agent domain: output is verifiable (it runs or it doesn't), iteration loops are fast, tool-use is native (files, terminals, APIs), and the labor being replaced is expensive ($150K+ engineers).
+
+The long tail is where growth will come. Finance (4%), data/BI (3.5%), and cybersecurity (2.4%) are nascent. Legal (0.9%) and healthcare (1.0%) are barely started — regulatory constraints slow adoption but the eventual TAM is massive.
+
 ## Comparison to other technologies
 
 | Technology | Time to 1B users | Current AI equivalent |
