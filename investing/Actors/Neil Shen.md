@@ -37,6 +37,15 @@ The paradox: US capital funded the Chinese AI labs that are now eating into mark
 
 HSG says its investments comply with current regulations — most portfolio companies focus on consumer AI or foundational research not covered by export controls.
 
+### The regulatory timing gap
+
+Biden signed an executive order in August 2023 (effective 2024) restricting US outbound investment in Chinese AI:
+- **Prohibited**: investments in Chinese firms developing advanced AI for military/surveillance
+- **Notification required**: investments in other Chinese AI companies
+- **Targets**: VC, PE, joint ventures specifically
+
+But HSG raised its ~$9B **before** the restrictions took effect. The money was already deployed into [[MiniMax]], [[Moonshot AI]], etc. HSG's defense: portfolio companies focus on "consumer AI and foundational research" — technically true (MiniMax makes Talkie, a chatbot app), but foundational models are inherently dual-use. Same timing pattern as chip export controls — [[NVIDIA]] shipped billions in H100s to China before restrictions kicked in.
+
 ## Evolution
 
 - **1999**: Co-founds Ctrip (Chinese travel platform), takes it public on NASDAQ
