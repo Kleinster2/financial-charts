@@ -76,6 +76,16 @@ Mubadala has shifted focus:
 
 ---
 
+## Crypto / digital assets
+
+| Investment | Amount | Year |
+|------------|--------|------|
+| BlackRock Bitcoin ETF (IBIT) | **$1.38B** (accumulated) | 2025-2026 |
+
+Mubadala continued buying IBIT during the late 2025 / early 2026 crypto dip — one of the largest sovereign holders of Bitcoin ETF exposure globally. See [[Abu Dhabi Crypto Hub]].
+
+---
+
 ## Finance investments
 
 ![[abu-dhabi-finance-investments.png]]
@@ -170,7 +180,8 @@ Mubadala has shifted focus:
 - [[OpenAI]] — portfolio company
 - [[GlobalFoundries]] — subsidiary
 - [[Emirates Global Aluminium]] — subsidiary (lost [[Companhia Brasileira de Alumínio|CBA]] bid)
-- [[BlackRock]] — major partner
+- [[Abu Dhabi Crypto Hub]] — sovereign crypto strategy
+- [[BlackRock]] — major partner (incl. IBIT Bitcoin ETF)
 - [[Apollo]] — $12B private credit anchor
 
 ---
