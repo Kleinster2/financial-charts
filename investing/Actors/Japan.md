@@ -99,6 +99,7 @@ As [[Hiromi Yamaji]] notes: "There is a ceiling" for female and senior workforce
 ## Related
 
 - [[Japan corporate governance revolution]]
+- [[Japan-instead-of-China trade]]
 - [[Japan lost decades]]
 - [[BOJ]]
 - [[Tokyo Stock Exchange]]
