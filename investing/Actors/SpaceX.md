@@ -192,7 +192,7 @@ Bear:
 - Satellite economics unproven at scale
 - Musk distraction (Tesla, xAI, [[DOGE]])
 - Regulatory/spectrum risks
-- Competition ([[Amazon]] Kuiper)
+- Competition: [[Amazon]] Kuiper, [[SpaceSail]] (China, state-backed, 15,000 sats by 2030, already licensed in Brazil)
 
 ---
 
@@ -332,3 +332,4 @@ Jan 10, 2026: FCC approved 7,500 additional Gen2 [[Starlink]] satellites.
 - [[Applied Intuition]] — competitor in Pentagon drone swarm contest (with [[OpenAI]])
 - [[Lockheed Martin]] — co-provider of Pentagon satellite launches
 - [[Anduril]] — defense tech peer
+- [[SpaceSail]] — China's state-backed Starlink competitor (Qianfan constellation, Anatel-licensed in Brazil)
