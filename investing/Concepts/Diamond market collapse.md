@@ -37,7 +37,7 @@ The existential threat. Lab-grown diamonds are chemically, optically, and physic
 [[De Beers]] tried to maintain the "natural is special" narrative but simultaneously launched its own lab-grown brand (Lightbox) at $800/carat in 2018 — inadvertently validating the product it was trying to suppress.
 
 ### 2. China demand collapse
-Chinese retailers are offloading polished diamond inventory as consumer demand tanks (Fortune, Feb 2025). China was a critical growth market — the 2011 price spike was largely China's luxury boom. That bid is gone, adding a $2B+ inventory headache.
+The 2011 diamond spike to ~8,500 was largely [[China luxury boom and bust|China's luxury boom]] — a newly wealthy middle class discovering Western luxury brands all at once. [[De Beers]] deliberately imported the engagement ring tradition with targeted Chinese campaigns. That bid is now in full reverse: China's mainland luxury market fell 18-20% in 2024 (Bain), Chinese retailers are offloading $2B+ in polished diamond inventory (Fortune, Feb 2025), and younger Chinese consumers have embraced lab-grown diamonds faster than Western markets — less cultural attachment to the "natural is special" narrative.
 
 ### 3. De Beers / Anglo American breakup
 [[Anglo American]] announced it will spin off or sell [[De Beers]] (May 2024), ending an almost century-long relationship. De Beers essentially invented artificial diamond scarcity — controlling supply through its Central Selling Organisation, stockpiling rough diamonds, and spending billions on "A Diamond is Forever" marketing. With Anglo cutting it loose and writing down $5.2B+ in value, the entity that managed the diamond cartel is losing its grip.
@@ -81,4 +81,5 @@ The diamond market was never a free market. [[De Beers]] controlled 80%+ of glob
 - [[De Beers]]
 - [[Anglo American]]
 - [[Botswana]]
+- [[China luxury boom and bust]]
 - [[Commodity disruption]]
