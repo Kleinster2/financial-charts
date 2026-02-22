@@ -67,6 +67,69 @@ web_search(query="\"February 4 2026\" stock market")  # returns 0
 
 ---
 
+## Source Separation: Facts vs. Framing
+
+Every source — article, transcript, podcast, filing — contains two things: facts and framing. The vault imports facts. It never imports framing. We build our own.
+
+**Facts** are verifiable: dates, figures, events, quotes, legal filings, corporate actions. They can be confirmed or contradicted by independent sources.
+
+**Framing** is interpretation: narrative arcs ("rise and fall"), causal claims ("this triggered"), characterizations ("crown jewel," "aggressive," "hubris"), and editorial structure (villain/hero, genius/fraud). Every source has a story it's telling. That story is not our story.
+
+**The rule:** Extract what happened. Do not import why the source thinks it happened, how they feel about it, or the narrative structure they built around it. The vault reader forms their own interpretation from the facts.
+
+**Process the entire source.** Do not skim for key points or extract highlights. Go through every paragraph, every aside, every throwaway detail. The facts that matter most are often buried in parentheticals, background context, or passing mentions — not in the headline claims. A source that spends three paragraphs on a dramatic narrative arc may contain one sentence with a specific date, figure, or entity name that no other source has. That sentence is the value. Miss it by skimming and the ingestion was incomplete.
+
+**What this means in practice:**
+- "Acquired X for R$10M" → import
+- "In a brilliant move, acquired X" → do not import "brilliant"
+- "Stock fell 97%" → import
+- "The company was essentially worthless" → do not import the characterization
+- "Creditors executed collateral guarantees in Feb 2026" → import
+- "The empire collapsed like dominoes" → do not import the metaphor
+- "PF alleges hidden partnership" → import (attributed)
+- "This was the greatest financial engineering scheme in Brazilian history" → do not import the superlative
+
+**Narrative traps to watch for:**
+- Rise-and-fall arcs (sources love these; reality is messier)
+- Single-cause explanations ("X triggered everything" — usually multiple factors)
+- Hindsight framing ("this would later prove fatal" — we don't know that at time of writing)
+- Moral framing ("greed," "hubris," "reckless" — these are judgments, not facts)
+- Compression of ambiguity into certainty (investigations become convictions, allegations become facts)
+
+**When ambiguity exists, preserve it.** If something is alleged, say "alleged." If the outcome is contested, say "contested." If there are open questions, list them. The vault is not a courtroom and not a newspaper — it doesn't need to pick a side.
+
+---
+
+## Fact-Checking Non-Filing Sources
+
+Transcripts, podcasts, YouTube videos, and press interviews often contain inflated or imprecise figures. These sources are valuable for data points and claims — but numbers must be verified before entering the vault as fact.
+
+**Process:**
+1. Extract facts from the source (dates, figures, events, attributed claims)
+2. Do not carry over the source's narrative structure, characterizations, or causal framing
+3. Identify all quantitative claims and dateable assertions
+4. Cross-reference each against filings, Bloomberg, or reputable financial press
+5. Mark each claim in the notes:
+   - Verified → state as fact with source
+   - Contradicted → correct the figure, cite the better source
+   - Unverifiable → keep the claim, mark as "argued" or "unverified"
+
+**Never remove unverified claims.** The vault captures what was claimed. Use qualifiers:
+- "argued" — source asserts this but filings/data don't confirm
+- "unverified" — no independent source found to confirm or deny
+- "[figure] per [source]; [different figure] per [better source]" — when sources conflict
+
+**Common inflation patterns in oral sources:**
+- Market cap and revenue rounded up or cited at all-time highs
+- Margins quoted from best quarter, not trailing average
+- Production/output figures lagging behind recent acquisitions or disposals
+- Timelines compressed ("15 months later" when the full cycle was longer)
+- Nationality, birthplace, and biographical details garbled
+
+**Daily note documentation:** When ingesting a transcript or non-filing source, include a fact-check table in the daily note showing each claim, verdict, and any correction applied. This creates a permanent audit trail.
+
+---
+
 ## Verify Before Reporting
 
 **Summary articles recycle recent news as "context."** This pollutes results.
