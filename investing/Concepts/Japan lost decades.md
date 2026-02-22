@@ -51,16 +51,19 @@ Japan's experience is studied as a warning for:
 - **Europe**: aging population + low growth parallels
 - **US**: if deflation/secular stagnation had taken hold post-2008
 
-[[Apollo]]'s [[Mark Rowan]] notes Japan is "the first of the Western democracies to face real aging, retirement, and high levels of government debt" — making it a template for what comes next elsewhere.
+[[Apollo]]'s [[Marc Rowan]] notes Japan is "the first of the Western democracies to face real aging, retirement, and high levels of government debt" — making it a template for what comes next elsewhere.
 
 ## Related
 
 - [[Japan]]
-- [[Japan corporate governance revolution]]
+- [[Japan corporate governance revolution]] — reform response to stagnation
+- [[Abenomics]] — first major attempt to break the cycle (2012)
 - [[BOJ]]
 - [[Nikkei 225]]
 - [[Shinzo Abe]]
-- [[Richard Koo]]
+- [[Sanae Takaichi]] — successor regime in inflationary context
+- [[Richard Koo]] — balance sheet recession framework
+- [[Mireya Solís]] — argues lost decades image is "overused," undercurrents of change were real
 
 ### Cross-vault
 - [History: Japanese asset price bubble](obsidian://open?vault=history&file=Events%2FJapanese%20asset%20price%20bubble) — bubble mechanics and cultural context *(create if missing)*

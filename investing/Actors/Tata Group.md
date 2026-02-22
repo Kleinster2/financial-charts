@@ -60,12 +60,18 @@ TCS market cap fell ~29% in the year to Feb 2026, partly on AI disruption fears.
 
 ---
 
+## Iveco acquisition (announced Jul 2025)
+
+[[Tata Motors]] agreed to acquire [[Iveco Group]] for ~EUR 3.8B ($4.3B) in an all-cash tender offer at EUR 14.1/share — a 41% premium. Creates a combined commercial vehicle group with ~EUR 22B revenue and ~540,000 annual units (Europe ~50%, India ~35%, Americas ~15%). Iveco's defense business sold separately to [[Leonardo]] for EUR 1.7B. Italy granted conditional golden power approval (Oct 31, 2025): HQ stays Turin, no layoffs/plant closures for 2 years. Financed by EUR 3.875B bridge loan backed by Tata Sons. Expected close Q2 2026.
+
+---
+
 ## Key entities
 
 | Entity | Sector | Notes |
 |--------|--------|-------|
 | [[TCS]] | IT services | $107B market cap, largest Indian IT company |
-| [[Tata Motors]] | Automotive | Owns [[Jaguar Land Rover]]; EV push |
+| [[Tata Motors]] | Automotive | Owns [[Jaguar Land Rover]]; acquiring [[Iveco Group]] (EUR 3.8B) |
 | [[Tata Steel]] | Steel | One of world's largest steelmakers |
 | [[Tata Electronics]] | Semiconductors | Building India's first advanced chip fab (Gujarat) |
 | [[Tata Consumer Products]] | FMCG | Tea, coffee, water, snacks |
@@ -92,5 +98,7 @@ Unique among Indian conglomerates: **Tata Trusts** (charitable foundations) own 
 - [[N. Chandrasekaran]] — chairman
 - [[AI disintermediation]] — threat to TCS business model
 - [[Nvidia]] — AI chip supplier (L&T venture, not Tata directly)
+- [[Iveco Group]] — acquired by [[Tata Motors]] for EUR 3.8B (Q2 2026 close)
+- [[Leonardo]] — acquiring Iveco's defense unit (EUR 1.7B)
 - [[Infosys]] — competitor (IT services)
 - [[Wipro]] — competitor (IT services)

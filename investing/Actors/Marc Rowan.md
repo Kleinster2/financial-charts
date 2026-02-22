@@ -75,6 +75,10 @@ Rowan transformed Apollo from a distressed-debt/PE firm into a credit-and-insura
 
 **On rates (Dec 2025):** No need for further Fed rate cuts. Longer-term market forces are inflationary.
 
+**On Japan (Feb 2026):** "There's a new swagger" in Japan. Generational change across corporate governance, interest rates, and government policy. Japan is "the first of the Western democracies to face real aging, retirement, and high levels of government debt" — making it a template. Large long-term capital needs: manufacturing, energy, AI/data, infrastructure — "the scale is beyond anything we can comprehend... measured in trillions."
+
+**On risk (Feb 2026):** In normal times, 95% of outcomes fall between "two sidelines." Today, only 70-75% do. What's between the sidelines is "amazing" — capital cycle, growth, employment, inflation coming down. But increased tail risk from geopolitics, government deficits, rate volatility. "For the first time in a very long time, we are trying to address outcomes that perhaps could occur outside of what we normally see."
+
 ---
 
 ## Compensation structure
@@ -133,4 +137,8 @@ Married to fashion designer Carolyn Pleva (met on blind date). Four children. Li
 - [[Jay Clayton]] — former Apollo chairman, ex-SEC chair
 - [[Gary Cohn]] — current Lead Independent Director
 - [[Saks Global]] — Apollo's $1.15B credit exposure
+- [[Japan]] — "new swagger," major growth market
+- [[Eiji Ueda]] — Apollo head of Asia Pacific
+- [[Sony]] — music catalog financing partner
+- [[Panasonic Automotive]] — flagship Japanese carveout
 

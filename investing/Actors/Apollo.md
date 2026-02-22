@@ -177,6 +177,34 @@ Apollo is a top destination for Abu Dhabi sovereign capital seeking private cred
 
 ---
 
+## Japan strategy (Feb 2026)
+
+Apollo convened its 200 partners in Tokyo (Feb 2026) to see firsthand the investment opportunity in [[Japan]]. CEO [[Marc Rowan]]: "There's a new swagger" in Japan — generational change across corporate governance, interest rates, and government policy. Japan is "the first of the Western democracies to face real aging, retirement, and high levels of government debt."
+
+**Three pillars in Japan:**
+
+| Pillar | Description |
+|--------|-------------|
+| Retirement services | Long-standing reinsurance player in Japan. Creating products for Japanese retirees facing 3% inflation for first time |
+| Capital to industry | Private credit for corporates (Sony, SMBC, others). Long-dated, investment-grade — filling gap between bank debt and equity |
+| Buyouts | Active buyout business. [[Panasonic Automotive]] carveout (2024) is flagship deal |
+
+**Japan team:** [[Eiji Ueda]] (Head of Asia Pacific, ex-[[Goldman Sachs]]/[[GPIF]]), Tanaka-san (Japan chairman). Rowan: "The intellectual capital we've put here is second to none."
+
+**The private credit thesis:** Japan's financial system is primarily bank debt and equity. Corporate bond market is only ¥60T outstanding — small for a $4.2T economy. As capital needs grow (manufacturing, energy, AI/data, infrastructure), corporates need a third option: long-dated, complex financing that banks can't efficiently provide. Apollo positions as supplement to banks, not competitor. Working with Japanese banks as partners (providing capital, not advisory/hedging/M&A services).
+
+**Key deals:**
+- [[Sony]] — music catalog financing (low-risk, long-dated private credit for music assets)
+- [[SMBC]] — partnership
+- [[Panasonic Automotive]] — majority stake carveout from [[Panasonic]] (2024). Panasonic Holdings stock +70% since
+- Buy now, pay later financing for Japanese companies
+
+**Approach:** "Education, not resistance" — Japanese institutions and corporates are rational actors responding to new macro environment. Rowan sees an inflection point in the rate of change, spurred by higher inflation.
+
+**Wealth market:** Japanese household savings (¥2,000T, ~$13T+) shifting from 55% cash to productive assets. Apollo targeting safe yield and defensive equity products for retail/HNW investors.
+
+---
+
 ## Altice USA litigation
 
 [[Altice]] (now Optimum Communications) sued Apollo, [[Ares Management]], and [[BlackRock]] in late 2025, alleging an "illegal cartel" among lenders holding majority of its $26B debt. Lawsuit claims cooperation agreement barred one-on-one negotiations unless two-thirds of creditors consented.
@@ -209,6 +237,15 @@ Part of [[Patrick Drahi]]'s aggressive creditor management strategy as his telec
 - [[AI infrastructure financing]] — indirect exposure
 - [[Saks Global]] — $1.15B term loan exposure
 - [[Saks bankruptcy]] — credit impairment
+
+### Japan
+- [[Japan]] — major growth market, 200-partner meeting (Feb 2026)
+- [[Eiji Ueda]] — Head of Asia Pacific
+- [[Sony]] — music catalog financing
+- [[SMBC]] — banking partnership
+- [[Panasonic Automotive]] — majority-stake carveout from [[Panasonic]] (2024)
+- [[Masashi Nagayasu]] — Panasonic Automotive CEO
+- [[Hiroki Totoki]] — Sony CEO, music financing partner
 
 ### Cross-vault
 - [History: Leveraged Buyouts](obsidian://open?vault=history&file=05%20-%20Modern%2FLeveraged%20Buyouts) — Apollo's Drexel origins and Caesars deal in context of the 1980s–2000s LBO wave

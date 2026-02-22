@@ -19,12 +19,30 @@ OpenAI is the most prominent AI lab but also the most aggressive spender. The qu
 | Pre-money valuation | $730B |
 | 2025 revenue (actual) | **$13.1B** (above $10B target) |
 | 2025 cash burn (actual) | **$8B** (below $9B target) |
-| **2030 revenue projection** | **$280B** (consumer ≈ enterprise) |
+| **2030 revenue projection** | **$284B** (see segment breakdown below) |
 | **2030 compute spend target** | **~$600B** (down from $1.4T) |
 | Cumulative losses through 2028 | **$74B** |
 | Profitability target | **2030** |
 | ChatGPT WAU | **900M+** (Feb 2026, up from 800M Oct) |
 | Codex WAU | **1.5M+** |
+
+### Revenue trajectory by segment
+
+![[openai-revenue-ambitions-2030.jpg]]
+*OpenAI revenue ambitions. Source: The Information.*
+
+| Year | Total | Consumer (incl. ads) | B2B (agents, research) | Platform (API/Azure) | New products (hardware) |
+|------|-------|---------------------|----------------------|---------------------|----------------------|
+| 2023 | $1B | Dominant | Minimal | Small | — |
+| 2024 | $4B | Dominant | Growing | Growing | — |
+| 2025 | $13B | Dominant | Growing | Growing | — |
+| 2026* | $30B | ~50%+ | Growing | Growing | — |
+| 2027* | $62B | ~50%+ | Scaling | Scaling | — |
+| 2028* | $113B | ~50% | Large | Large | Appears |
+| 2029* | $184B | ~50% | Large | Large | Growing |
+| 2030* | $284B | ~50%+ | Large | Large | Meaningful |
+
+Key insight: **consumer stays dominant** through 2030. ChatGPT consumer (including ads) is ~50%+ of revenue even at $284B — this is an Instagram-scale consumer ads story, not enterprise SaaS. B2B (agents, research partnerships) grows fast but never overtakes consumer. "New products including hardware" appears 2028+ (rumored Jony Ive device). $284B would roughly match Google's current ad revenue.
 
 Burning 14x more cash than [[Anthropic]]. Now surpassing [[SpaceX]] as most valuable private company.
 

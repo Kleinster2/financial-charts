@@ -100,7 +100,7 @@ All three jets purchased 2022-2025, paid in cash (no financing).
 
 ### Hidden partner allegation
 
-Federal Police identified **Nelson Tanure** (investor in Light, Prio, distressed companies) as "sócio oculto" (hidden partner) of Master. Tanure denies any ownership.
+Federal Police identified [[Nelson Tanure]] (investor in [[Light SA]], [[PRIO]], distressed companies) as "sócio oculto" (hidden partner) of Master. Tanure denies any ownership.
 
 **Alleged scheme:** CVM report found "coordinated" action between Tanure and Master to inflate Ambipar shares (+700%). Tanure used MAM Asset (Vorcaro's fund manager) for major acquisitions including Copel [[Telecom]] (R$2.5B) and EMAE privatization.
 

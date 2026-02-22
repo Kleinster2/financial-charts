@@ -66,6 +66,12 @@ The Scala Chile deal was largest single-country DC project finance in LatAm hist
 
 ---
 
+## Apollo partnership
+
+[[Apollo]] CEO [[Marc Rowan]] cited SMBC as one of Apollo's key Japanese partnerships (Feb 2026). Apollo provides long-dated, investment-grade private credit to supplement what banks like SMBC do — not competing on advisory, hedging, derivatives, or M&A, but filling a capital gap that banks face due to regulatory capital constraints.
+
+---
+
 ## Related
 
 - [[Scala Data Centers]] — Chile $328M consortium
@@ -75,3 +81,5 @@ The Scala Chile deal was largest single-country DC project finance in LatAm hist
 - [[Data Centers]] — sector focus
 - [[Project finance]] — core capability
 - [[Japan]] — home market
+- [[Apollo]] — private credit partnership
+- [[Private credit]] — emerging financing complement

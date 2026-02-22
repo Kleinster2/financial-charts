@@ -116,11 +116,24 @@ Racing CATL, [[Toyota]], Samsung to commercialization.
 
 ---
 
+## Panasonic Automotive carveout (2024)
+
+Panasonic Holdings sold a majority interest in [[Panasonic Automotive]] to [[Apollo]] in 2024 as part of a strategic portfolio reorganization. The automotive unit had ~80 years of history within the Panasonic group. CEO [[Masashi Nagayasu]] (42-year Panasonic veteran) leads the carved-out entity.
+
+**Panasonic Holdings shares +70% since the deal closed** — market rewarded the portfolio focus.
+
+[[Hiromi Yamaji]] ([[Tokyo Stock Exchange]]) on the broader trend: Japanese companies are recognizing they are "not the best owner" of certain businesses. 280 carve-outs/spin-offs in H1 2025, part of the [[Japan corporate governance revolution]].
+
+---
+
 ## Related
 
 - [[Tesla]] — key customer (Gigafactory Nevada)
-- [[CATL]] — competitor (\#1 globally)
-- [[LG Energy Solution]] — competitor (\#3 globally)
+- [[CATL]] — competitor (#1 globally)
+- [[LG Energy Solution]] — competitor (#3 globally)
 - [[Samsung]] — competitor (SDI division)
 - [[Lithium]] — key input
+- [[Panasonic Automotive]] — carved out to [[Apollo]] (2024), stock +70%
+- [[Apollo]] — majority owner of Panasonic Automotive
+- [[Japan corporate governance revolution]] — carveout driven by governance reform
 

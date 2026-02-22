@@ -288,6 +288,22 @@ Marc Rowan (Apollo CEO, Nov 2025): "People have really just lost their minds, an
 
 ---
 
+## Japan expansion (Feb 2026)
+
+[[Apollo]] is leading private credit's push into [[Japan]] — a market historically served almost exclusively by bank debt and equity. The corporate bond market is only ¥60T outstanding, small for a $4.2T economy. As Japanese corporates face massive capex needs (manufacturing, energy, AI, infrastructure), banks face capital constraints limiting their lending capacity.
+
+[[Marc Rowan]] frames it as "the beginning of a trend" — Japanese CFOs and treasurers are learning there's a third type of financing beyond banks and equity: long-dated, investment-grade private credit. Key deals:
+- [[Sony]] — music catalog financing (low-risk, long-dated)
+- [[SMBC]] — banking partnership
+- [[Panasonic Automotive]] — majority carveout from [[Panasonic]]
+- Japanese buy-now-pay-later financing
+
+[[Hiromi Yamaji]] ([[Tokyo Stock Exchange]]): private credit is "a good alternative funding vehicle... banks were the main lenders, but because of capital restrictions, their capability to provide lending is getting to a limited amount."
+
+The ¥2,000T (~$13T+) household savings pool also presents a wealth management opportunity — Japanese retail investors facing 3% inflation for the first time need yield products beyond bank deposits and JGBs.
+
+---
+
 ## Sector dynamics
 
 **Bull case:**

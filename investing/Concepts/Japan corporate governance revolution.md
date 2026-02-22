@@ -45,11 +45,14 @@ Japan's uniquely interlocking ownership structure — where banks, insurers, and
 
 ## Impact
 
-- Record IPO and M&A activity on TSE (¥35T trading volume, 5,100+ listed companies)
+- Record M&A activity on TSE: ¥35T deal volume (2025), 5,100+ listed companies
+- **Delistings surging**: ~50/year historically → 125 (2025) → 16 announced already in 2026. Companies actively questioning whether listing is the best path for growth
+- **Carve-out revolution**: 280 carve-outs/spin-offs in H1 2025 alone (record). Flagship: [[Panasonic Automotive]] carved out to [[Apollo]] (2024) — [[Panasonic]] stock +70% since
 - [[Warren Buffett]]'s endorsement via trading house investments validated the thesis globally
-- [[Apollo]]'s [[Mark Rowan]]: "generational change in corporate governance"
+- [[Apollo]]'s [[Marc Rowan]]: "generational change in corporate governance." Apollo convened 200 partners in Tokyo (Feb 2026)
 - [[BlackRock]], [[J.P. Morgan]], [[State Street]] all publishing bullish Japan governance research
 - DXJ (yen-hedged Japan ETF) returned ~35% in 2025
+- **Household savings mobilizing**: ¥2,000T (~$13T+) in household financial assets, cash share declining from ~55% (2022) to ~50% (2024), equity exposure up to 14%
 
 ## Risks
 
@@ -63,7 +66,13 @@ Japan's uniquely interlocking ownership structure — where banks, insurers, and
 
 - [[Japan]]
 - [[Tokyo Stock Exchange]]
-- [[Hiromi Yamaji]]
-- [[Shinzo Abe]]
-- [[Sanae Takaichi]]
-- [[Japan lost decades]]
+- [[Hiromi Yamaji]] — TSE CEO, reform architect
+- [[Shinzo Abe]] — initiated governance codes (2015)
+- [[Sanae Takaichi]] — deepening with fiscal/industrial policy
+- [[Abenomics]] — reform origins
+- [[Japan lost decades]] — context (30 years of stagnation)
+- [[Apollo]] — private capital partner for carveouts
+- [[Panasonic Automotive]] — flagship carveout
+- [[Sony]] — entertainment transformation example
+- [[Mireya Solís]] — Brookings analyst tracking reform
+- [[Private credit]] — emerging financing channel

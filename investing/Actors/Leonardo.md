@@ -101,12 +101,19 @@ Cheapest European defense major by P/E.
 
 ---
 
+## Iveco Defence Vehicles acquisition (2025)
+
+Acquiring [[Iveco Group]]'s defense business (Iveco Defence Vehicles + Astra brand) for EUR 1.7B. Sale is a precondition for [[Tata Motors]]' EUR 3.8B acquisition of Iveco's commercial vehicle business. Expected to close by March 2026. Adds armored vehicles and heavy-duty off-road capability to Leonardo's portfolio.
+
+---
+
 ## Related
 
 - [[European Defense Industry]] — sector context
 - [[Defense]] — sector hub
 - [[BAE Systems]] — Tempest partner
 - [[Long global rearmament]] — thesis
+- [[Iveco Group]] — acquiring defense unit (IDV + Astra) for EUR 1.7B
 
 ---
 
