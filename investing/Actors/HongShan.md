@@ -15,7 +15,12 @@ Chinese venture capital firm, formerly Sequoia Capital China. Became independent
 
 Key AI portfolio: [[MiniMax]], [[Moonshot AI]], [[StepFun]], [[Manus AI]]. Also early investor in [[Unitree]], ByteDance, Meituan, Pinduoduo.
 
-Raised ~$9B from US institutional investors (pension funds, endowments) before US-China investment restrictions tightened. Also created a renminbi-denominated vehicle with more scope to invest in sensitive technologies (FT).
+Raised ~$9B in 2022 from global institutional investors before US-China investment restrictions tightened. Known LPs include:
+- **[[CalPERS]]** — California Public Employees' Retirement System (~$500B, largest US pension)
+- **[[CPP Investment Board]]** — Canada Pension Plan (~$600B CAD)
+- Plus unnamed pensions, endowments, family offices, and sovereign wealth funds from Europe, Middle East, and Southeast Asia
+
+Also created a renminbi-denominated vehicle with more scope to invest in sensitive technologies (FT). Opened London office in Oct 2024 for European deals.
 
 ## Related
 
