@@ -1,187 +1,48 @@
 ---
-aliases: [MiniMax Group, 稀宇科技]
----
-#actor #ai #china #models #public
-
-MiniMax — Chinese AI startup. Hong Kong IPO (Jan 2026). [[Alibaba]] + Abu Dhabi backed. One of the "AI dragons." 200M+ cumulative users across 200+ countries.
-
----
-
-## Why MiniMax matters
-
-First wave of Chinese post-[[ChatGPT]] AI firms going public:
-
-| Metric | Value |
-|--------|-------|
-| Ticker | 9961.HK |
-| Market cap | ~$11.5B (post-debut) |
-| IPO price | HK$165 |
-| Day 1 close | HK$345 (+109%) |
-| IPO raise | $710M (with greenshoe) |
-| Total raised | $1.15B (all rounds) |
-| Pre-IPO valuation | $4.2B |
-| Backers | [[Alibaba]], [[Tencent]], MiHoYo, Abu Dhabi |
-
+aliases:
+  - MiniMax AI
+tags:
+  - actor
+  - ai-lab
+  - china
 ---
 
-## Hong Kong IPO (Jan 2026)
+# MiniMax
 
-| Detail | Value |
-|--------|-------|
-| Exchange | [[HKEX]] (9961.HK) |
-| Price | HK$165 (top of range) |
-| Gross proceeds | HK$5.54B (~$710M) |
-| Cornerstone investors | $350M committed |
-| Trading starts | Jan 9, 2026 |
-| First day | +109% (HK$165 → HK$345) |
+Chinese AI lab producing frontier-competitive models. Backed by [[HongShan]] ([[Neil Shen]]). Consumer app **Talkie** has gained US market traction. Completed Hong Kong IPO.
 
-Cornerstone investors: Abu Dhabi Investment Authority, [[Alibaba]], Mirae Asset Securities, Boyu Capital, IDG, Perseverance Asset.
+## M2.5 (Feb 2026)
 
-Key shareholders:
-| Investor | Stake/Role |
-|----------|------------|
-| MiHoYo | 6.4% (angel) |
-| [[Tencent]] | Prior rounds |
-| Sequoia [[China]] | Prior rounds |
-| Hillhouse Capital | Prior rounds |
-| [[ZhenFund]] | 6 consecutive rounds |
+![[openrouter-leaderboard-feb2026.jpg]]
+*OpenRouter leaderboard, Feb 2026. MiniMax M2.5 #1 by token volume (3.07T, +524%).*
 
----
+![[minimax-m25-swebench-comparison.jpg]]
+*MiniMax M2.5 vs Claude Opus 4.5/4.6, Gemini 3 Pro, GPT-5.2 across coding benchmarks.*
 
-## Product: M-series models
+| Benchmark | M2.5 | Claude Opus 4.6 | GPT-5.2 | Gemini 3 Pro |
+|-----------|------|-----------------|---------|--------------|
+| SWE-Bench Verified | **80.2** | 80.8 | 80 | 78 |
+| SWE-Bench Pro | **55.4** | 55.4 | 55.6 | 54.1 |
+| Terminal Bench 2 | **51.7** | 55.1 | 54 | 54 |
+| Multi-SWE-Bench | **51.3** | 50.3 | — | 42.7 |
+| SWE-Bench Multilingual | **74.1** | 77.8 | 72 | 65 |
+| VIBE-Pro (AVG) | **54.2** | 55.6 | — | 36.9 |
 
-### M2.5 (Feb 12, 2026)
+Essentially tied with Western frontier models on coding benchmarks. Key differentiator: **speed**. Fireworks serves M2.5 at 273 tokens/sec — 2.5x the next provider.
 
-| Metric | M2.5 | M2 |
-|--------|------|----|
-| Parameters | 230B | 230B |
-| Focus | Cost efficiency, "real-world productivity" | General |
-| License | Open-source | — |
+![[minimax-m25-speed-benchmarks.jpg]]
+*MiniMax M2.5 output speed by provider. Fireworks at 273 tok/s, 2.5x faster than #2.*
 
-Claims performance matching [[Anthropic]] and [[OpenAI]] on coding and search benchmarks. Key differentiator is cost efficiency — same 230B parameter count as M2 but optimized inference. Enhanced AI agent tooling. Shares jumped 13.7% on launch day.
+## Token volume dominance
 
-MiniMax also offers chatbots, image generation, and video synthesis products. 200M+ cumulative users across 200+ countries (as of Sep 2025).
-
----
-
-## The "AI Dragons"
-
-MiniMax is one of [[China]]'s leading AI startups alongside:
-
-| Company | Status |
-|---------|--------|
-| MiniMax | IPO (Jan 2026) |
-| [[Zhipu]] | IPO same week |
-| [[Moonshot AI]] | Private ($4.8B) |
-| Stepfun | Private |
-| [[DeepSeek]] | Private (bootstrapped) |
-
-First wave of Chinese AI IPOs.
-
----
-
-## Competitive positioning
-
-Positioned as:
-- Chinese rival to [[Anthropic]], [[OpenAI]]
-- Generative AI focus
-- Government support tailwind
-- Going public before US AI labs
-
----
-
-## Investment case
-
-Bull:
-- First-mover in Chinese AI IPO — retail subscribed 1,830x
-- Revenue growing 174% YoY with 200M+ user base
-- M2.5 competitive on coding/search with much cheaper inference
-- [[JPMorgan]] Overweight, HK$700 PT (Feb 2026)
-- Government support for domestic AI labs
-
-Bear:
-- Massive losses — $512M net loss on $53.4M revenue (9M basis)
-- US-[[China]] tech competition / export controls
-- Crowded market — competing with [[DeepSeek]], [[Zhipu]], [[Alibaba]], [[ByteDance]]
-- Valuation stretched relative to revenue
-
----
-
-## Financials
-
-### Revenue
-
-| Period | Revenue | YoY |
-|--------|---------|-----|
-| 9M ending Sep 2025 | $53.4M | +174% |
-
-### Losses
-
-| Period | Net loss |
-|--------|----------|
-| 9M ending Sep 2025 | ($512M) |
-
-Pre-profit — heavy investment phase.
-
-### Funding
-
-| Metric | Value |
-|--------|-------|
-| Total raised | $1.15B (all rounds) |
-| IPO proceeds | $710M (with greenshoe) |
-| Pre-IPO valuation | $4.2B |
-| Post-debut market cap | ~$11.5B |
-
----
-
-## Stock performance (9961.HK)
-
-| Date | Price (HK$) | Note |
-|------|-------------|------|
-| Jan 9 (IPO) | 165 → 345 | +109% day 1 |
-| Jan 27 | ~499 | +202% from IPO |
-| Feb 12 | 70.5 | +13.7% on M2.5 launch |
-
-*Note: Stock split or restructuring likely between Jan and Feb — price levels shifted significantly. Automated charting unavailable — yfinance returns corrupted legacy ticker data. Manual tracking until data quality improves.*
-
----
-
-## Quick stats
-
-| Metric | Value |
-|--------|-------|
-| Ticker | 9961.HK |
-| IPO date | Jan 9, 2026 |
-| IPO price | HK$165 |
-| Market cap | ~$11.5B |
-| Revenue (9M Sep 2025) | $53.4M (+174% YoY) |
-| Net loss (9M Sep 2025) | ($512M) |
-| Users | 200M+ cumulative |
-| HQ | Shanghai |
-| Founder | [[Yan Junjie]] (ex-[[SenseTime]]) |
-| Founder net worth | $5.19B (Bloomberg Feb 2026) |
-| Founded | 2021 |
-| Backers | Alibaba, Abu Dhabi, Tencent, MiHoYo |
-| Analyst | JPMorgan OW, PT HK$700 |
-
-*Updated 2026-02-13*
-
----
+M2.5 leads OpenRouter with 3.07T tokens processed — 5x [[Anthropic]]'s Claude Opus 4.6 (617B). Combined with [[Moonshot AI]]'s Kimi K2.5 (1.16T) and [[Zhipu AI]]'s GLM 5 (1.03T), Chinese models dominate the top 3 by volume, suggesting developers are voting with their wallets on cost/performance.
 
 ## Related
 
-### Backers
-- [[Alibaba]] — cornerstone investor
-- [[Tencent]] — pre-IPO investor
-- [[Abu Dhabi Investment Authority]] — cornerstone investor
-
-### Competitors/Peers
-- [[Zhipu]] — Chinese AI peer (IPO same week)
-- [[DeepSeek]] — Chinese AI peer
-- [[Moonshot AI]] — Chinese AI peer (private)
-- [[Anthropic]], [[OpenAI]] — US competitors
-
-### Context
-- [[JPMorgan]] — coverage (Overweight, HK$700 PT, Feb 2026)
-- [[US-China AI race]] — competitive context
-- [[Asia IPO pipeline 2026]] — context
+- [[HongShan]]
+- [[Neil Shen]]
+- [[Moonshot AI]]
+- [[Zhipu AI]]
+- [[Chinese AI labs]]
+- [[Inference economics]]
+- [[AI adoption curve]]
