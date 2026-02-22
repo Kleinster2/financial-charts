@@ -120,3 +120,4 @@ China has **two** competing constellations — SpaceSail (Shanghai, commercially
 - [[US-China decoupling]]
 - [[Telebras]]
 - [[Trump Latin America Summit (March 2026)]]
+- [[US-China tech competition in the Global South]]
