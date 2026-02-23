@@ -135,15 +135,27 @@ See [[Nearshoring thesis]].
 
 ---
 
+## 2026 review developments
+
+| Date | Development |
+|------|-------------|
+| Feb 2026 | Trump privately musing about exiting the pact (Bloomberg) |
+| Feb 16 week | [[Canada]] Trade Minister Dominic LeBlanc + 370 business leaders in [[Mexico]] City for talks |
+| Feb 16 | LeBlanc and Mexico Economy Minister Marcelo Ebrard signed trade memorandum |
+
+Trump exit speculation injects uncertainty into the review process. [[Mexico]] and [[Canada]] actively coordinating — LeBlanc's delegation is largest Canada-Mexico trade mission to date.
+
+---
+
 ## Political context
 
 | Factor | Status |
 |--------|--------|
-| Trump negotiation | NAFTA "worst deal ever" |
+| Trump negotiation | NAFTA "worst deal ever" → now musing exit |
 | Biden continuation | Kept USMCA |
-| 2026 review | First test |
-| Mexico relations | Nearshoring vs fentanyl tensions |
-| [[Canada]] relations | Dairy, softwood lumber |
+| 2026 review | First test — Jul 2026 deadline |
+| Mexico relations | Nearshoring vs fentanyl tensions. Plan México struggling |
+| [[Canada]] relations | Dairy, softwood lumber. Active coordination with Mexico on review |
 
 ---
 

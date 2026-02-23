@@ -20,6 +20,10 @@ aliases: [OWL, Owl Rock, Owl Rock Capital]
 
 *OWL (blue) vs ARCC (red) vs ARES (green) since OWL's June 2021 IPO. ARES (the management company) has massively outperformed (+225%). ARCC (Ares's BDC) is steady at +55%. OWL is the laggard, barely positive, with the Feb 2026 selloff (-28% YTD) pulling it back toward IPO levels.*
 
+![[owl-obdc-otf-selloff-chart.png]]
+
+*Blue Owl (blue), OBDC (black), OTF (gray) — relative performance Aug 2025–Feb 2026. All three in sharp decline, with the management company (OWL) hit hardest at ~-40%. OBDC ~-20%, OTF ~-16%. Source: Bloomberg (Feb 22, 2026).*
+
 ---
 
 ## Why Blue Owl matters
@@ -177,7 +181,7 @@ Blue Owl pulled out of ~$10B Oracle Michigan data center:
 
 ## OBDC II redemption crisis (Feb 2026)
 
-**Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four buyers at 99.7% of par. OWL shares **-8.7%** on the news.
+**Feb 18-19, 2026:** Blue Owl sold **$1.4B in loans** from three BDC funds to four buyers at 99.7% of par. OWL shares **-8.7%** on the news, hitting lowest level in **~2.5 years**. For comparison, software debt in the public leveraged loan market was trading at **~91 cents on the dollar** — Blue Owl's sold loans clearing at par undercuts fire-sale narrative but also means they likely sold the best-priced assets first.
 
 **Buyers (Bloomberg, Feb 20):**
 
@@ -231,7 +235,7 @@ Packer on demand: bidder interest so strong "they would have bought multiple amo
 
 **Q4 2025 earnings call (same day, Feb 19):**
 
-CEO Craig Packer dismissed "halted redemptions" framing as a *"complete mischaracterization"* — said OBDC II is doing accelerated 30% pro rata capital return with continued quarterly 5% distributions. Packer on earnings call: *"We've been tendering for 5% of the shares of this fund for eight years. Instead of resuming 5% a quarter, we are in fact accelerating redemptions."* Sold $1.4B at near-par across three vehicles to North American public pension funds and insurance companies. Barclays called it *"a strong step toward winding down the fund."* Key portfolio metrics undercut the crisis narrative:
+Co-CEO **Marc Lipschultz** on the same call: *"We don't have red flags. In point of fact we don't have yellow flags. We actually have largely green flags."* CEO **Craig Packer** dismissed "halted redemptions" framing as a *"complete mischaracterization"* — said OBDC II is doing accelerated 30% pro rata capital return with continued quarterly 5% distributions. Packer on earnings call: *"We've been tendering for 5% of the shares of this fund for eight years. Instead of resuming 5% a quarter, we are in fact accelerating redemptions."* Sold $1.4B at near-par across three vehicles to North American public pension funds and insurance companies. Barclays called it *"a strong step toward winding down the fund."* Key portfolio metrics undercut the crisis narrative:
 
 | Metric | Q4 2025 | Trend |
 |--------|---------|-------|
@@ -247,6 +251,8 @@ CEO Craig Packer dismissed "halted redemptions" framing as a *"complete mischara
 | Adj NII/share | **$0.36** | Flat sequentially |
 
 Software is only **4 of top 25 investments**. Concentration will remain capped or decline — management affirmed "discriminating approach" given AI risks. No specific borrower defaults named publicly. Loan sale at 99.7% par with four unaffiliated buyers under standard LSTA procedures — Packer: *"There is nothing behind the scenes that would in any way undermine that conclusion."*
+
+**External skepticism:** [[Glenn Schorr]] (Evercore ISI): *"Investors are likely to focus on what wasn't sold — both within OBDC II and across Blue Owl's broader credit platform."* Bloomberg Intelligence: if there wasn't redemption pressure, the firm wouldn't be selling assets at all. One of Blue Owl's tech-focused credit vehicles (OTIC) saw **bigger withdrawals than rival funds** in Q4 2025.
 
 **Moody's upgraded OBDC to Baa2** in January 2026 — one of few BDCs earning this rating.
 

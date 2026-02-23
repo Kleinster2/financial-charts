@@ -100,6 +100,33 @@ Every source — article, transcript, podcast, filing — contains two things: f
 
 ---
 
+## Analysis Sections
+
+The vault's purpose is not just to store facts — it's to interpret them. Mature notes should include an Analysis section that connects the facts already in the note into investment-relevant interpretation.
+
+**The constraint:** Every claim in the editorial must trace back to a fact in the same note. If it requires outside knowledge, assumptions, or narrative imported from a source, it doesn't belong. The test: could someone read only the facts in the note and arrive at the same conclusions?
+
+**What good analysis does:**
+- Surface structural patterns (e.g., a portfolio table that shows no exits across nine holdings)
+- Identify tensions between facts in the same note (e.g., a CVM fine for the same pattern alleged decades later)
+- Describe mechanical relationships (e.g., how cross-collateral propagates a single default across unrelated holdings)
+- Name what's unresolved honestly — open questions, not false certainty
+
+**What analysis is not:**
+- Imported narrative from a source dressed up in our voice
+- Moral judgments ("reckless," "visionary," "fraudulent")
+- Predictions about outcomes of ongoing investigations or deals
+- Filler opinions on companies we don't have enough facts to interpret
+
+**When to include one:**
+- The note has enough factual surface area that patterns emerge from reading it
+- Stubs and thin notes skip this — three facts don't need analysis
+- When the facts are genuinely ambiguous or contradictory, the analysis is where that tension gets named
+
+**Format:** Place after Status/Open questions, before Related.
+
+---
+
 ## Fact-Checking Non-Filing Sources
 
 Transcripts, podcasts, YouTube videos, and press interviews often contain inflated or imprecise figures. These sources are valuable for data points and claims — but numbers must be verified before entering the vault as fact.

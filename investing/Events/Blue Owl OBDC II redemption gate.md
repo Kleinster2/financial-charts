@@ -26,6 +26,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | **Feb 19, 2026** | Market reacts: OWL **-9.8% intraday** (-8.7% close). Alt managers: APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
 | **Feb 20, 2026** | Selloff continues: OWL **-6%** again. CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
 | **Feb 20, 2026** | [[Saba Capital]] and [[Cox Capital Partners]] announce intention to launch tender offers for OBDC II, OTIC, and OCIC shares at **20-35% discount to NAV**. OWL +2.2% after-hours |
+| **Feb 22, 2026** | OWL hits **lowest level in ~2.5 years**. OBDC ~-20% over 6 months, OTF ~-16%. Lipschultz claims "largely green flags" on earnings call; Schorr (Evercore ISI) counters that investors will focus on what wasn't sold |
 
 ---
 
@@ -39,7 +40,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | OBDC | $400M | 2% of portfolio | Normal operations continue |
 | OTIC | $400M | 6% of portfolio | Normal operations continue |
 
-- Loans sold at **99.7% of par** — no distress pricing
+- Loans sold at **99.7% of par** — no distress pricing. For comparison, software debt in the public leveraged loan market was trading at **~91 cents on dollar**
 - **Buyers identified** (Bloomberg, Feb 20): [[CalPERS]], [[OMERS]], [[British Columbia Investment Management]], and [[Kuvare]] (Blue Owl's own insurer, acquired $750M in 2024)
 - 97% senior secured, 128 portfolio companies, 27 industries
 - Largest sector: **internet software & services at 13%**
@@ -117,6 +118,12 @@ Five layers of pressure converged:
 **Guy LeBas (Janney Montgomery Scott):** *"The majority of loans in private credit funds that individual investors tend to own, they're high yield loans... Over the course of the cycle, you can anticipate some material defaults across these funds."*
 
 **Duke University Fuqua School of Business (Sept 2025 research):** Institutional BDC ownership has steadily declined to **~25% by 2023** — retail investors are now the dominant equity capital source for publicly traded BDCs.
+
+**Marc Lipschultz (Blue Owl co-CEO, earnings call):** *"We don't have red flags. In point of fact we don't have yellow flags. We actually have largely green flags."*
+
+**Glenn Schorr (Evercore ISI):** *"Investors are likely to focus on what wasn't sold — both within OBDC II and across Blue Owl's broader credit platform."*
+
+**Bloomberg Intelligence:** If there wasn't pressure to pay out skittish clients, the firm wouldn't be selling assets at all. Sold best-priced assets first — bearish read is what's left behind is weaker.
 
 **247 Wall Street analysis:** Pushes back on crisis narrative — OBDC II delivered **80% cumulative returns (9.3% annualized)** since inception, non-accruals under 2%, realized losses only 23 bps. This is a finite-life fund approaching its natural end date, not a blowup.
 

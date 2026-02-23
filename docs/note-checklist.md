@@ -51,6 +51,14 @@ These cannot be automated. Review each one.
 - [ ] Revenue/valuation claims have exact figures, not "significant" or "major"
 - [ ] Partnerships/deals specify: terms, duration, exclusivity, economics
 
+### Analysis
+
+- [ ] **Mature notes have an Analysis section** — interpretation derived strictly from facts already in the note
+- [ ] Analysis does not import framing from sources — every claim traces to a fact in the note
+- [ ] Stubs and thin notes skip this (not enough surface area to interpret)
+- [ ] Tensions, contradictions, and structural patterns in the facts are surfaced
+- [ ] Open questions are explicit, not papered over with a tidy narrative
+
 ### Charts
 
 - [ ] Price chart has actor + peers/benchmark (not just actor alone)

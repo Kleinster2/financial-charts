@@ -44,6 +44,8 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 
 **2015 crisis:** Arrested in corruption probe (Operation Car Wash); stepped down temporarily. Returned as Chairman April 2022 after charges dropped.
 
+Esteves became Vice Chairman of [[Cosan]]'s board following BTG's R$4.5B participation in the Sep 2025 equity raise (~23-24.6% stake). BTG holds veto power on major moves under a 20-year shareholders' pact.
+
 ---
 
 ## History
@@ -57,6 +59,7 @@ aliases: [BTG, BPAC11, Banco BTG Pactual]
 | 2015 | Esteves arrested (Car Wash); stepped down |
 | 2022 | Esteves returns as Chairman |
 | 2025 | Opens Hong Kong office; acquires [[HSBC]] Uruguay |
+| Sep 2025 | R$4.5B into [[Cosan]] equity raise; ~23-24.6% stake; Esteves becomes Vice Chairman |
 
 ---
 
@@ -139,6 +142,7 @@ AUM grew from R$768B (Q2 2023) to R$920B (Q2 2024).
 ### Portfolio/Controlled
 - [[V.tal]] — controlling shareholder (fiber)
 - [[Oi]] — restructuring client, fiber source
+- [[Cosan]] — ~23-24.6% stake (Sep 2025); Esteves is Vice Chairman
 
 ### Peers
 - [[Itaú Unibanco]] — commercial bank

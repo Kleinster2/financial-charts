@@ -34,6 +34,10 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 - SEC filings: `python scripts/parse_sec_filing.py TICKER --save filing.txt`
   - WebFetch gets 403'd by SEC — use this script instead
   - Run `python scripts/parse_sec_filing.py --help` for full usage (multi-filing, type selection, Q4 calculation)
+- YouTube transcripts: `python scripts/transcribe_youtube.py URL --save output.txt`
+  - **Auto-trigger:** When the user pastes a YouTube URL, automatically run this script and present the transcript. No need to wait for explicit instruction.
+  - Tries YouTube subtitles first, falls back to Whisper if none available
+  - Use `--language pt` for Portuguese, `--model small` for better Whisper accuracy on long content
 
 **App:**
 - Dashboard: `charting_sandbox/chart-dashboard.js`
