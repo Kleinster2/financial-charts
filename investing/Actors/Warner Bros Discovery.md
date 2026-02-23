@@ -213,6 +213,28 @@ Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-rep
 
 **Next catalyst: March 20 shareholder vote on Netflix merger.**
 
+### Feb 23 — Deadline day: Paramount expected to bid ~$32/share
+
+**TODAY is the deadline** — Paramount's "best and final" offer due by 11:59 PM ET.
+
+**Key developments:**
+- Paramount expected to submit **~$32/share** (up from $30), per Variety/insiders — teams worked through the weekend
+- **Netflix has 4 days** after Paramount submits to match or walk away
+- Sarandos (Feb 20 interview): "We're super-disciplined buyers... willing to walk away and let someone else overpay for things. We have a rich history of that."
+- **MoffettNathanson** (Fishman): expects $32 minimum from Paramount; says $34 needed to truly win; Netflix matching above $30 makes "accretion math" difficult
+- **Paramount cleared HSR/DOJ antitrust hurdle** (Feb 20) — waiting period expired after second request response; but no signed deal exists to close
+- Netflix still responding to its own DOJ second request
+- Paramount's CLO is **Makan Delrahim** (former Trump DOJ Antitrust chief)
+- **Ancora Holdings** (~$200M stake) threatening proxy fight if board doesn't take Paramount seriously; will vote against Netflix deal
+- **Pentwater Capital** (~50M shares) backs Paramount; CEO Halbower eyed as WBD board nominee
+
+**Scenario tree from here:**
+1. Paramount bids $32+ → WBD board evaluates as "Superior Proposal" → Netflix has 4 days to match → bidding war or Netflix walks
+2. Paramount bids below expectations → WBD board rejects → March 20 shareholder vote on Netflix deal proceeds
+3. Netflix matches/raises → Paramount must decide whether to escalate further
+
+**Next catalyst: March 20 shareholder vote on Netflix merger.**
+
 ---
 
-*Updated 2026-02-21*
+*Updated 2026-02-23*

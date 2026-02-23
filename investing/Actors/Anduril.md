@@ -28,7 +28,10 @@ Leading defense tech startup:
 - Sold to Facebook ($2B)
 - Left Facebook controversially
 - Founded Anduril at 24
+- Co-founded [[Erebor Bank]] (2025) — tech-sector bank, $4.35B valuation
 - [[Defense]] tech visionary
+
+See [[Palmer Luckey]] for full profile.
 
 ---
 
@@ -206,6 +209,7 @@ Autonomous systems depend on rare earth permanent magnets:
 - [[Lockheed Martin]] — competitor (legacy defense)
 - [[NVIDIA]] — supplier (AI compute)
 - [[Peter Thiel]] — investor ([[Founders Fund]])
+- [[Erebor Bank]] — Luckey's bank venture, HQ near Arsenal-1 in Columbus
 - [[Rare earth leverage]] — supply chain risk (drone magnets)
 - [[China retaliatory toolkit]] — REE military denial risk
 

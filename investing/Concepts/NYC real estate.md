@@ -81,6 +81,14 @@ Even at the luxury level, NYC buyers are stretched:
 
 The high cost of living forces a lifestyle-maximizing, savings-minimizing approach even among high earners.
 
+### Fiscal burden on housing
+
+NYC's overall fiscal trajectory compounds housing unaffordability. Property taxes already >27% of homeownership cost (2022), above the national average. [[Zohran Mamdani]]'s FY2026 budget proposes either further income/corporate tax hikes or a ~10% property tax increase. For full budget and tax data see [[New York City budget]].
+
+City rental assistance spending: $263M (FY2020) → $1.34B (most recent FY) — a 5x increase. Housing costs worsened over the same period, consistent with subsidies bidding up prices rather than expanding supply.
+
+[[Matt Yglesias]] argument: build abundant market-rate housing to expand the tax base and make the budget affordable. Supply-side, not subsidy-side.
+
 ---
 
 ## Key submarkets
@@ -171,3 +179,6 @@ But still affected by:
 - [[Multifamily housing]] — rental sector
 - [[Real estate cycles]] — broader cycle context
 - [[Related Companies]] — major NYC developer
+- [[New York City budget]] — full fiscal data (taxes, education, per capita spending)
+- [[Zohran Mamdani]] — NYC mayor, $127B FY2026 budget proposal
+- [[Matt Yglesias]] — supply-side housing argument

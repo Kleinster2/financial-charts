@@ -89,7 +89,7 @@ AI/semiconductor punching above weight:
 
 **"Startup Nation":**
 - Military tech background (8200)
-- Strong VC ecosystem
+- Strong VC ecosystem ([[Jerusalem Venture Partners]], etc.)
 - US connections
 - [[Cybersecurity]] leadership
 - AI security growing
