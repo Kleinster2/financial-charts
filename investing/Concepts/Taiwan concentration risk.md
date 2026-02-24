@@ -171,6 +171,34 @@ Meanwhile, Trump told Jensen Huang in the Oval Office that Xi "breathes heavily"
 
 Raimondo's parting move before leaving office: sent Intel and TSMC a letter saying the government would support their working together, and warned Lutnick directly that "Intel needed help."
 
+### The tariff-as-leverage playbook (2025-2026)
+
+**Wei-Huang back channel:** TSMC's Wei and NVIDIA's Huang, who are close, agreed Nvidia would buy more Arizona chips so TSMC could justify building additional plants. Within weeks, TSMC told Lutnick it would increase US investment by **$100B and build 4 additional fabs by 2028** — two years ahead of plan.
+
+**Trump's approach — carrots replaced by sticks:**
+- Called CHIPS Act "a horrible, horrible thing" in State of the Union; urged Congress to kill it
+- Set 32% tariff on Taiwan; semiconductors excluded but with separate rates TBD
+- Lutnick told Taiwanese officials visiting Washington: encourage TSMC to invest more or operate Intel's plants
+- At Hay-Adams Hotel SIA meeting (Sep 2025): told executives to buy **50% of chips from American plants or face 100% tariff**
+
+**The Intel saga:**
+- Intel reported **$2.9B loss** (Jul 2025); new CEO Lip-Bu Tan flagged for previously leading a company that illegally sold chip tech to a Chinese military-linked university
+- Trump demanded Tan's resignation on social media ("highly CONFLICTED"), then turned it into leverage
+- Met Tan days later: suggested Intel give the US **10% of the business** — Tan agreed (legally questionable)
+- Intel got government equity in exchange for $8.9B CHIPS Act funds — without meeting financial benchmarks
+- **Nvidia invested $5B in Intel** + agreed to co-develop AI chips; Apple began all-day engineering evaluations of Intel manufacturing
+- **Samsung signed Tesla** as first customer for Taylor, Texas fab (Musk pursued deal after leaving Trump admin, citing Taiwan attack concerns)
+
+**The squeeze escalated:**
+- Lutnick struck deal: Taiwanese chip companies avoid some US tariffs if they produce in the US
+- TSMC agreed to buy **land for 5+ more Phoenix plants** (roughly doubling Arizona footprint)
+- Taiwan committed **$150B additional investment** in US + **$250B in credit guarantees**
+- Lutnick's stated goal: **40% of Taiwan's semiconductor manufacturing in the United States**
+
+**The punchline:** In October 2025, Huang flew to Phoenix to celebrate TSMC making Nvidia's first AI chip in America — calling it "a historic moment." He didn't mention the chip wasn't finished. Advanced packaging still requires **shipping it back to a factory in Taiwan.**
+
+Cook's $100B Apple investment, Su's AMD commitment, Amon's Qualcomm commitment — all came after the tariff threats, not the classified briefings. **Sticks worked where carrots failed.**
+
 *Updated 2026-02-24*
 
 ---
