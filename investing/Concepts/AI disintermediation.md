@@ -169,4 +169,6 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 - [[Rathbones]] — UK wealth manager (-4%, Feb 11)
 - [[Julius Baer]] — Swiss private bank, hit by contagion
 
-*Updated 2026-02-11 — Added European wealth management contagion (Quilter, AJ Bell, Rathbones, Julius Baer)*
+- [[Citrini 2028 Global Intelligence Crisis]] — viral scenario exercise (Feb 22, 2026) modeling the full chain: SaaS compression → intermediation collapse → payments disruption → white-collar displacement spiral → private credit blowup → mortgage stress. Coined "habitual intermediation" and "Ghost GDP." Triggered Dow -800 on Feb 23
+
+*Updated 2026-02-24 — Added Citrini scenario link*

@@ -238,7 +238,9 @@ Neither side has a model. Both are telling stories. The market, for now, is pric
 
 ## Related
 
-- [[AI and labor markets]]
+- [[AI disintermediation]] — the core concept. Citrini's "habitual intermediation" and friction-collapse thesis is an extension of this
+- [[AI workflow disruption basket]] — the basket of stocks most exposed to Citrini's Phase 1 (SaaS compression)
 - [[Private credit risk]]
 - [[SaaS valuation compression]]
 - [[Taiwan concentration risk]] — Taiwan/Korea identified as winners in the Citrini scenario (convex to AI infra)
+- [[Agentic AI]] — the capability driver behind the entire scenario
