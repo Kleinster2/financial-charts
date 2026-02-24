@@ -256,3 +256,4 @@ Neither side has a model. Both are telling stories. The market, for now, is pric
 - [[SaaS valuation compression]]
 - [[Taiwan concentration risk]] — Taiwan/Korea identified as winners in the Citrini scenario (convex to AI infra)
 - [[Agentic AI]] — the capability driver behind the entire scenario
+- [[February 2026 AI Disruption Cascade]] — umbrella event; Citrini was the Week 3 climax of a rolling 3-week sector-by-sector panic

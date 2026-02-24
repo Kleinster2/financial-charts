@@ -170,5 +170,6 @@ Each wave follows the same arc: technology makes comparison free → incumbents 
 - [[Julius Baer]] — Swiss private bank, hit by contagion
 
 - [[Citrini 2028 Global Intelligence Crisis]] — viral scenario exercise (Feb 22, 2026) modeling the full chain: SaaS compression → intermediation collapse → payments disruption → white-collar displacement spiral → private credit blowup → mortgage stress. Coined "habitual intermediation" and "Ghost GDP." Triggered Dow -800 on Feb 23
+- [[February 2026 AI Disruption Cascade]] — umbrella event note tracking the full 3-week rolling panic (software → insurance → wealth mgmt → industrial software → transport → cybersecurity → Citrini macro synthesis). >$1T in cumulative market cap destruction
 
-*Updated 2026-02-24 — Added Citrini scenario link*
+*Updated 2026-02-24 — Added Citrini scenario link, cascade umbrella event*
