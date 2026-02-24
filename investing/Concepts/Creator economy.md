@@ -128,3 +128,4 @@ Creator economy startups raised $767M (2023-2024), +49% YoY. AI-focused startups
 - [[Network effects]] — platform dynamics
 - [[Sextech]] — OnlyFans crossover
 - [[Influencer-to-brand playbook]] — creators launching standalone consumer brands
+- [[Creator as media company]] — creators replacing media institutions
