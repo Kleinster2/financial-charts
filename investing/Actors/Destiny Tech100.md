@@ -24,9 +24,9 @@ Destiny Tech100 -- publicly-traded closed-end fund (NYSE: DXYZ) offering retail 
 | Float | 13.7M shares |
 | Insider ownership | 10.0% |
 | Institutional ownership | 4.1% |
-| Stock price | ~$31 (Feb 2026) |
+| Stock price | ~$27 (Feb 23, 2026) |
 | NAV/share | $19.97 (Q4 2025) |
-| Premium to NAV | ~55% (Feb 2026) |
+| Premium to NAV | ~33% (Feb 2026) |
 | Portfolio fair value | $434M (Dec 2025) |
 
 ---
@@ -45,7 +45,10 @@ Prasad previously co-founded [[Forge Global]] (private markets platform). Destin
 ## Price history
 
 ![[dxyz-price-chart.png]]
-*Listed at $9 in Mar 2024, spiked to $105 within two weeks on retail frenzy, crashed to $8 by late 2024. Second rally to $80 in early 2025 faded. Now ~$30 -- down 70% from peak but well above IPO price. Extreme volatility reflects speculative flows, not NAV changes.*
+*Listed at $9 in Mar 2024, spiked to $105 within two weeks on retail frenzy, crashed to $8 by late 2024. Second rally to $80 in early 2025 faded. Now ~$27 -- down 74% from peak but well above IPO price. Premium to NAV compressed to ~33% as stock declines while NAV grows.*
+
+![[dxyz-price-vs-nav.png]]
+*Price (blue) vs quarterly NAV/share (orange), with premium to NAV shown below. Peak premium of 1,868% in Apr 2024. Convergence is happening from both directions: NAV surged from $6.31 to $19.97 in H2 2025 (SpaceX/OpenAI markups) while stock price fell from ~$40 to ~$27. Premium compressed to ~33% by Feb 2026.*
 
 Stock price has been wildly volatile since listing:
 
@@ -56,7 +59,7 @@ Stock price has been wildly volatile since listing:
 | Apr 2024 (late) | Crash | $27 |
 | 52-week low | | $19.71 |
 | 52-week high | | $55.38 |
-| Feb 2026 | Current | ~$31 |
+| Feb 23, 2026 | Current | ~$27 |
 
 Daily turnover hit 80% at peak -- average holding period of ~1.2 days. Short-selling costs exceeded 100% annualized, preventing arbitrage.
 
@@ -88,9 +91,9 @@ The defining feature of DXYZ. Acadian Asset Management documented a peak premium
 |--------|---------------|
 | Listing (Mar 2024) | ~86% |
 | Peak (Apr 2024) | ~2,000% |
-| Feb 2026 | ~55% |
+| Feb 2026 | ~33% |
 
-Premium has compressed as NAV grew and stock price declined. But even at ~55%, investors pay $1.55 for every $1 of NAV.
+Premium has compressed as NAV grew and stock price declined. At ~33%, investors pay $1.33 for every $1 of NAV — approaching rationality relative to the 2,000% peak.
 
 Key structural issue: CEFs don't issue new shares after IPO, so no creation/redemption mechanism exists to close the gap (unlike ETFs). Short-selling costs too high for arbitrage.
 
@@ -188,3 +191,7 @@ Bear:
 - [[Anthropic]] -- added Feb 2026
 - [[Stripe]] -- fintech position
 - [[Crypto]] -- fund structure draws comparisons to crypto speculation dynamics
+- [[Private Market Access]] — concept note on the retail private equity trend
+- [[Powerlaw Corp]] — competitor (PWRL, pending Nasdaq)
+- [[Fundrise]] — competitor (VCX, approved for NYSE, expected Mar 2026)
+- [[Robinhood]] — competitor (RVI, filing for NYSE)

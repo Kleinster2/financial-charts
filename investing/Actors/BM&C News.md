@@ -55,7 +55,7 @@ BM&C operates as an independent, multiplataform financial media company. Revenue
 5. Events and partnerships
 
 The core differentiator is editorial independence. BM&C emphasizes it is not owned by any bank, brokerage, or institution — unlike competitors:
-- [[InfoMoney]] — owned by [[XP Inc]]
+- [[InfoMoney]] — owned by [[XP]] Inc Inc
 - Exame — owned by [[BTG Pactual]]
 - InvestNews — owned by [[Banco Inter]]/[[SoftBank]]
 

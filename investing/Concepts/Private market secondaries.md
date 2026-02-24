@@ -274,3 +274,4 @@ Secondary markets are how non-VCs access AI winners:
 - [[Thrive Capital]] — SPV syndicator (OpenAI)
 - [[OpenAI]] — most active AI secondary market
 - [[Anthropic]] — secondary demand
+- [[Private Market Access]] — listed vehicles packaging secondaries for retail

@@ -106,12 +106,12 @@ Baillie Gifford hiked SpaceX valuation by **87%** in Dec 2025, adding £1B to Sc
 
 | Fund | Focus | Notes |
 |------|-------|-------|
-| **Scottish Mortgage** | Flagship growth | LSE: SMT; £14.1B |
-| **Schiehallion Fund** | Private companies | SpaceX, ByteDance, Stripe, Databricks, Chime |
+| [[Scottish Mortgage]] | Flagship growth | LSE: SMT; GBP 15.2B |
+| [[Schiehallion Fund]] | Private companies (~95%+) | LSE: MNTN; GBP 1.8B |
+| [[Edinburgh Worldwide]] | Global small-cap + private | LSE: EWI; GBP 852M |
+| [[Baillie Gifford US Growth]] | US growth + private (~35%) | LSE: USA; GBP 839M |
 | Baillie Gifford American | US growth | — |
 | Baillie Gifford Global Discovery | Small-cap growth | — |
-| Edinburgh Worldwide | Global small-cap | Proposed merger with US Growth Trust |
-| Baillie Gifford US Growth | US | — |
 
 ---
 
@@ -158,6 +158,11 @@ Scottish Mortgage and Edinburgh Worldwide exceeded 30%/25% limits on unquoted ho
 - [[Northvolt]] — written off (bankrupt 2025)
 - [[NVIDIA]] — public holding
 - [[Saba Capital]] — activist investor targeting Edinburgh Worldwide, US Growth Trust
+- [[Scottish Mortgage]] — flagship trust (SMT, GBP 15.2B)
+- [[Schiehallion Fund]] — pure private trust (MNTN, GBP 1.8B)
+- [[Edinburgh Worldwide]] — small-cap trust (EWI, GBP 852M)
+- [[Baillie Gifford US Growth]] — US growth trust (USA, GBP 839M)
+- [[Private Market Access]] — concept note on the retail private equity trend
 
 ---
 

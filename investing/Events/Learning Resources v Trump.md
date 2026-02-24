@@ -206,6 +206,28 @@ The real-world stress test — stocks that got hammered hardest when tariffs wer
 | **VF Corp (North Face, Vans)** | VFC | -8% | Apparel | Global sourcing |
 | **Williams-Sonoma (Pottery Barn)** | WSM | -8% | Home furnishings | Asia imports |
 
+![[liberation-day-basket-vs-spy-price-chart.png]]
+*Liberation Day basket vs SPY, normalized from April 1, 2025. FIVE and DLTR are the standout recoveries — both discount retailers benefited from the trade-down effect even as tariffs compressed margins. BBY and CROX remain underwater vs pre-Liberation levels. The Feb 20 ruling produced muted moves (biggest: CROX +3.7%, RL +2.2%) — JPM's 64% "immediately replaced" probability capped upside. SKX (Skechers) excluded — delisted/taken private.*
+
+#### Performance data (Apr 1, 2025 → Feb 20, 2026)
+
+| Ticker | Pre-Liberation | Post-Liberation | Liberation Day | Ruling day | Since Liberation |
+|--------|---------------|-----------------|----------------|------------|-----------------|
+| **SPY** | $557.05 | $534.97 | -4.0% | +0.7% | +24.0% |
+| **FIVE** | $76.43 | $58.80 | -23.1% | +1.9% | +187.8% |
+| **DLTR** | $71.39 | $62.41 | -12.6% | +0.9% | +74.8% |
+| **RL** | $247.37 | $217.03 | -12.3% | +2.2% | +72.7% |
+| **DECK** | $138.11 | $122.13 | -11.6% | +1.3% | +28.1% |
+| **WSM** | $174.30 | $153.16 | -12.1% | +1.9% | +23.3% |
+| **TGT** | $113.05 | $100.38 | -11.2% | +0.1% | +22.7% |
+| **URBN** | $62.52 | $56.42 | -9.8% | -0.5% | +9.3% |
+| **NKE** | $63.64 | $54.54 | -14.3% | +0.3% | +5.3% |
+| **VFC** | $22.09 | $16.02 | -27.5% | +2.0% | -3.9% |
+| **CROX** | $109.07 | $95.29 | -12.6% | +3.7% | -8.3% |
+| **BBY** | $75.43 | $62.71 | -16.9% | -2.7% | -11.6% |
+
+*Sorted by total return since Liberation Day. FIVE's +188% reflects both tariff sensitivity and a secular re-rating of the discount model during the trade-down cycle. BBY's continued underperformance (-11.6%) suggests the market sees Section 301 tariffs on Chinese electronics as the binding constraint, not IEEPA.*
+
 ### E-commerce / de minimis beneficiaries
 Stocks that rallied on the ruling day (Feb 20, 2026) because de minimis exemption removal was struck down:
 

@@ -14,7 +14,7 @@ aliases: [cryptocurrency, blockchain, digital assets]
 | Tokenization | Infrastructure for [[Tokenized private shares]] |
 | [[Fintech]] | [[Robinhood]], [[Coinbase]] revenue driver |
 | Bitcoin | [[Block]] strategy, store of value thesis |
-| Stablecoins | [[Circle\|USDC]], [[Tether\|USDT]], payments infrastructure |
+| Stablecoins | [[Circle\|USDC]], [[Tether\|USDT]], payments infrastructure. BRL-pegged: [[BBRL]], [[BRLV]], [[BRZ]], [[BRLA]], [[BRL1]], [[cREAL]], [[BRD]] (yield-bearing) |
 | AI intersection | Compute tokens, AI model marketplaces |
 
 ---
@@ -157,4 +157,6 @@ Early stage, mostly speculative.
 - [[Paul Atkins]] — SEC chairman (pro-crypto)
 - [[Michael Selig]] — CFTC chairman (pro-crypto)
 - [[Prediction markets]] — event contracts (CFTC jurisdiction)
+- [[Stablecoins]] — reserve economics, regulatory frameworks, yield mechanics
+- [[Brazilian real stablecoins]] — BRL-pegged ecosystem (7 tokens, 230x growth since 2021)
 

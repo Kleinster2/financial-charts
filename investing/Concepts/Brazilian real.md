@@ -54,6 +54,8 @@ BCB ([[Banco Central do Brasil]]) maintains hawkish stance.
 
 - [[Carry trade]] — BRL is high-yielder
 - [[Mexican peso]] — LatAm comparison
+- [[Brazilian real stablecoins]] — BRL-pegged token ecosystem (7 active tokens)
+- [[Selic]] — policy rate (~15%, Feb 2026)
 
 ---
 

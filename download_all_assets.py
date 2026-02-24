@@ -43,6 +43,18 @@ ADR_TICKERS = [
     "TCEHY",    # Tencent Holdings (OTC ADR)
     "UBSFY",    # UBS Group (OTC ADR)
     "VNET",     # VNET Group (China data centers)
+    # European / Global ADRs
+    "BCS",      # Barclays
+    "DASTY",    # Dassault Systemes
+    "FSUGY",    # Fujitsu
+    "FUTU",     # Futu Holdings (Chinese fintech)
+    "IFNNY",    # Infineon Technologies
+    "NINOY",    # Nikon
+    "REPYY",    # Repsol
+    "STM",      # STMicroelectronics
+    "TOTDY",    # TotalEnergies
+    "SID",      # CSN (Brazilian steel)
+    "GFS",      # GlobalFoundries
     # Chinese EV/Auto ADRs & HK Stocks
     "GELYF",    # Geely Automobile Holdings (OTC, owns Volvo, Polestar, Lotus)
     "0175.HK",  # Geely Automobile Holdings (Hong Kong Stock Exchange)
@@ -112,7 +124,11 @@ ETF_TICKERS = [
     # Electric Vehicle & Autonomous Driving ETFs
     "DRIV", "IDRV", "KARS",
     # International ETFs
-    "RSX", "INDA",
+    "RSX", "INDA", "EUFN",
+    # China tech / internet ETFs
+    "CQQQ", "KWEB",
+    # Sector ETFs (additional)
+    "IGV", "ITA", "KBE", "KRE", "WCLD",
     # Leveraged ETFs
     "QLD", "SSO", "UPRO", "TQQQ", "SOXL", "SPXL", "TMF",
     "TNA", "FAS", "ERX", "LABU", "NUGT", "JNUG", "UCO", "BOIL",
@@ -195,6 +211,9 @@ MUTUAL_FUND_TICKERS = [
     "BFTHX",            # Fifth Avenue Growth Fund
     "BTECX",            # Technology Fund
     "BFIUX",            # FinTech Fund
+    # Additional tracked mutual funds
+    "BFGIX",            # Baron Fifth Avenue Growth Institutional
+    "PRSCX",            # T. Rowe Price Small-Cap Stock
 ]
 
 # Core indices with the ^prefix
@@ -242,17 +261,36 @@ OTHER_HIGH_PROFILE_STOCKS = [
     # Private Equity / Alt Asset Managers
     "APO", "BX", "KKR", "CG", "ARES", "OWL", "BAM", "TPG",
     # Cybersecurity
-    "PANW", "ZS", "S", "CRWD", "FTNT", "RBRK",
+    "PANW", "ZS", "S", "CRWD", "FTNT", "RBRK", "CYBR",
     # Tech / SaaS
     "RDDT", "GDDY", "WIX", "GTLB", "BRZE", "FRSH", "WEAV", "CCOI", "HIMS",
-    # Consumer / Recent IPOs
+    "BILL", "CFLT", "HUBS", "IOT", "MDB", "MNDY", "TEAM", "TWLO", "VEEV", "WDAY",
+    # Consumer / Retail
     "CAVA", "CART", "BIRK", "KVUE", "MNSO", "SONO", "WMG",
-    # Infrastructure
-    "DY", "MTZ",
+    "CROX", "DECK", "FIVE", "ONON", "SFM", "WSM", "URBN",
+    # Infrastructure / Data Centers
+    "DY", "MTZ", "VRT",
+    # Financial / Capital Markets
+    "ARCC", "EVR", "HLI", "IBKR", "KNSL", "LPLA", "MORN", "OBDC", "RYAN", "SF",
+    # Data / Analytics
+    "RELX", "TRI",
+    # Logistics / Transport / Shipping
+    "CHRW", "SAIA", "XPO", "ZIM",
+    # Hotels / Hospitality
+    "H", "WH", "IHG", "PK", "RHP",
+    # Healthcare REITs / Seniors
+    "ENSG", "OHI", "SBRA", "CTRE", "LTC",
+    # Other REITs
+    "VNO", "BKD",
     # Meme / speculative
     "AMC", "GME", "DJT", "LUMN",
     # Misc
-    "SRAD", "Q", "UNIT", "IRBT", "OCS", "ASGN", "CGNX",
+    "SRAD", "Q", "UNIT", "IRBT", "OCS", "ASGN", "CGNX", "DXYZ",
+    "VFC", "NVT", "GSAT", "DSGX", "PLUR", "MC", "NWG", "LYG", "OPEN", "VITL",
+    # International single-stocks (non-regional-list)
+    "2222.SR",  # Saudi Aramco (Tadawul)
+    "HGG.TA",   # Harel Group (Tel Aviv)
+    "UI",        # Ubiquiti
 ]
 
 # Electric Vehicle (EV) stocks
@@ -384,6 +422,10 @@ AI_SEMICONDUCTOR_STOCKS = [
     "BBAI",   # BigBear.ai
     "PATH",   # UiPath
     "SNOW",   # Snowflake
+    # Taiwan-listed semiconductors
+    "2337.TW",  # Macronix International (NOR flash)
+    "2344.TW",  # Winbond Electronics (DRAM/flash)
+    "2408.TW",  # Nanya Technology (DRAM)
 ]
 
 # Space and aerospace equities
@@ -490,6 +532,7 @@ CHINA_A_SHARES = [
     "603986.SS",  # GigaDevice Semiconductor (flash memory)
     "688521.SS",  # VeriSilicon (IP/design services)
     "688095.SS",  # Empyrean Technology (EDA software)
+    "688008.SS",  # Loongson Technology (Chinese CPU)
     "600584.SS",  # JCET Group (packaging/testing)
     # Healthcare/Pharma
     "600276.SS",  # Jiangsu Hengrui Medicine
@@ -522,6 +565,9 @@ CHINA_A_SHARES = [
     "603486.SS",  # Keshun Waterproof Technology
     # Hong Kong-listed Chinese stocks (supplement to ADRs)
     "1810.HK",    # Xiaomi Corporation
+    "0522.HK",    # ASM Pacific Technology (semiconductor equipment)
+    "2020.HK",    # ANTA Sports
+    "2899.HK",    # Zijin Mining (HK)
     # Index ETFs (for reference)
     "510300.SS",  # CSI 300 ETF
     "510050.SS",  # SSE 50 ETF
@@ -586,6 +632,9 @@ KOREA_STOCKS = [
     "047810.KS",  # Korea Aerospace Industries (KAI)
     # Index ETF
     "069500.KS",  # KODEX 200 (KOSPI 200 ETF)
+    # Additional tracked
+    "000990.KS",  # DB HiTek (semiconductor foundry)
+    "042700.KS",  # Hanmi Semiconductor (packaging equipment)
 ]
 
 
@@ -876,6 +925,9 @@ JAPAN_STOCKS = [
     "6861.T",   # Keyence (sensors/automation)
     "7011.T",   # Mitsubishi Heavy Industries
     "7012.T",   # Kawasaki Heavy Industries
+    "7751.T",   # Canon
+    "7779.T",   # Cyberdyne (robotics/exoskeletons)
+    "285A.T",   # Kokusai Electric (semiconductor equipment)
 ]
 
 # European Defense Stocks
@@ -887,6 +939,32 @@ EUROPE_DEFENSE_STOCKS = [
     "SAF.PA",    # Safran (France)
     "LDO.MI",    # Leonardo (Italy)
     "SAAB-B.ST", # Saab (Sweden)
+]
+
+# European exchange-listed stocks (non-defense)
+EUROPE_STOCKS = [
+    # France (Euronext Paris)
+    "ACA.PA",    # Credit Agricole
+    "BNP.PA",    # BNP Paribas
+    "MC.PA",     # LVMH
+    "KER.PA",    # Kering
+    "OR.PA",     # L'Oreal
+    "RMS.PA",    # Hermes
+    "PUB.PA",    # Publicis Groupe
+    "CDI.PA",    # Christian Dior
+    # Italy (Borsa Italiana)
+    "UCG.MI",    # UniCredit
+    # UK (London Stock Exchange)
+    "LSEG.L",   # London Stock Exchange Group
+    "STJ.L",    # St. James's Place
+    "EMG.L",    # Man Group
+    # Germany (Frankfurt)
+    "ENR.DE",   # Siemens Energy
+    # Netherlands (Euronext Amsterdam)
+    "WKL.AS",   # Wolters Kluwer
+    "BESI.AS",  # BE Semiconductor Industries
+    # Germany (Frankfurt) - additional
+    "T2G.F",    # Telefonica Deutschland
 ]
 
 # Fintech & Brazil-related ADRs (not in main ADR list)
@@ -1067,7 +1145,7 @@ def update_sp500_data(verbose: bool = True, assets=None, lookback_days: int = No
                 ADTECH_STOCKS + GAMING_IGAMING_STOCKS + BIOTECH_STOCKS + MINING_RARE_EARTH_STOCKS + BATTERY_ENERGY_STORAGE_STOCKS +
                 NUCLEAR_ENERGY_STOCKS + AI_SEMICONDUCTOR_STOCKS + SPACE_AEROSPACE_STOCKS + DEFENSE_STOCKS +
                 FINTECH_LATAM_STOCKS + RECENT_IPOS_GROWTH + ROBOTICS_INDUSTRIAL + FIREARMS_STOCKS + DEFENSE_CONTRACTORS +
-                EUROPE_DEFENSE_STOCKS
+                EUROPE_DEFENSE_STOCKS + EUROPE_STOCKS
             ))) if t not in EXCLUDED_TICKERS],
             'etfs': ETF_TICKERS,
             'mutualfunds': MUTUAL_FUND_TICKERS,

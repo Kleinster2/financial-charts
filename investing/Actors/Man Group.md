@@ -100,6 +100,7 @@ Anthropic's Chris Ciauri positioned Man Group's 35-year systematic investing her
 
 ## Related
 
+- [[Man Active Income ETF]] (MANI), [[Man Active High Yield ETF]] (MHY) — first standalone ETFs (launched Sep 2025)
 - [[Anthropic]] — AI partnership (Feb 2026), Claude across investment workflows
 - [[AQR]] — peer (quant)
 - [[Two Sigma]] — peer (quant)

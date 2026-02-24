@@ -133,9 +133,9 @@ function parseComparisonChart(name: string): ParseResult {
   }
 
   // Validate: tickers should look like tickers
-  // Allow alphanumeric, dots, ^ prefix (indices), and =X suffix (forex)
+  // Allow alphanumeric, dots, hyphens (crypto like BTC-USD), ^ prefix (indices), and =X suffix (forex)
   for (const ticker of tickers) {
-    if (!/^\^?[A-Z0-9.]{1,15}(=X)?$/.test(ticker)) {
+    if (!/^\^?[A-Z0-9.\-]{1,15}(=X)?$/.test(ticker)) {
       return { type: "unknown", filename: name };
     }
   }
