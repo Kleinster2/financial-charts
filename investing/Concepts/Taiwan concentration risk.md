@@ -126,7 +126,52 @@ Arizona fabs are framed as "insurance" but:
 - Fabless companies most exposed (no alternative)
 - Memory less concentrated (Samsung, [[SK Hynix]], [[Micron]])
 
-*Updated 2026-01-04*
+---
+
+## NYT Investigation (Feb 24, 2026)
+
+A major New York Times investigation by Tripp Mickle — based on document reviews, chip plant visits, and 60+ interviews — revealed previously unreported details about how Washington tried and largely failed to move the industry:
+
+### The classified briefings
+
+| Date | Setting | Participants | Key message |
+|------|---------|-------------|-------------|
+| Fall 2021 | White House, Washington | Top semiconductor executives incl. Pat Gelsinger (Intel) | Blockade/invasion could halt chip manufacturing |
+| Feb 2022 | White House call | Executives | Russia's Ukraine invasion proved autocrats will seize territory even if it harms their economy |
+| Jul 2023 | Secure briefing room, Silicon Valley | Tim Cook (Apple), Jensen Huang (NVIDIA), Lisa Su (AMD), Cristiano Amon (Qualcomm, via video) | CIA's Burns + DNI Haines: China's military spending could mean a move on Taiwan in 2027 |
+
+**Tim Cook said afterward he "slept with one eye open."** But companies still didn't place significant new orders for US chips.
+
+### SIA/McKinsey confidential report (2022)
+
+Commissioned by the Semiconductor Industry Association, previously unreported:
+- Cutting Taiwan chip supply = **largest economic crisis since the Great Depression**
+- US GDP would fall **11%** (2x the 2008 recession)
+- China GDP would fall **16%**
+- Bloomberg Economics estimates a conflict would cost **>$10 trillion** globally
+- Taiwan enables ~$10T of world GDP
+- Most US tech companies would have "enough semiconductors for several months" before collapse
+
+Treasury Secretary Bessent (Davos, Jan 2026): *"97% of high-end chips are made in Taiwan. If that island were blockaded, that capacity were destroyed, it would be an economic apocalypse."*
+
+### The collective action failure
+
+Despite $52B CHIPS Act, $200B in planned US fab spending through 2030, and repeated classified warnings:
+- US will still account for **only 10% of global semiconductor production in 2030** — same as 2020
+- US-made chips cost **25%+ more** than Taiwan equivalents
+- Arizona fabs are a **generation behind** Taiwan (unofficial rule: cutting-edge goes to Taiwan first)
+- Intel and Samsung couldn't find customers → CHIPS Act grants **cut by $2.3B combined**
+- McKinsey's Bill Wiseman: *"Executives think, 'If we're screwed, everyone else is screwed,' so they don't take action."*
+
+### The Lutnick gambit (early 2025)
+
+Commerce Secretary Howard Lutnick met TSMC CEO C.C. Wei at Cantor Fitzgerald's NY office with an ultimatum: **invest in Intel and operate Intel's fabs, or build more TSMC plants in the US.** This followed Intel leadership visiting Lutnick requesting $50-70B ($25B from government).
+
+Meanwhile, Trump told Jensen Huang in the Oval Office that Xi "breathes heavily" when discussing Taiwan, and urged him to make chips in America. Nvidia subsequently committed to buying from TSMC's Arizona plants.
+
+Raimondo's parting move before leaving office: sent Intel and TSMC a letter saying the government would support their working together, and warned Lutnick directly that "Intel needed help."
+
+*Updated 2026-02-24*
 
 ---
 
