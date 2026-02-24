@@ -164,6 +164,9 @@ Scottish Mortgage and Edinburgh Worldwide exceeded 30%/25% limits on unquoted ho
 - [[Baillie Gifford US Growth]] — US growth trust (USA, GBP 839M)
 - [[Private Market Access]] — concept note on the retail private equity trend
 
+### Cross-vault
+- [History: Scottish Investment Trusts](obsidian://open?vault=history&file=05%20-%20Modern%2FScottish%20Investment%20Trusts) — how Dundee jute merchants invented the investment trust form (1868+), Edinburgh's persistence as a financial center
+
 ---
 
 *Created 2026-01-16 · Updated 2026-01-25*

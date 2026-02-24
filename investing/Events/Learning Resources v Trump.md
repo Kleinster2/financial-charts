@@ -228,7 +228,7 @@ The real-world stress test — stocks that got hammered hardest when tariffs wer
 
 *Sorted by total return since Liberation Day. FIVE's +188% reflects both tariff sensitivity and a secular re-rating of the discount model during the trade-down cycle. BBY's continued underperformance (-11.6%) suggests the market sees Section 301 tariffs on Chinese electronics as the binding constraint, not IEEPA.*
 
-### E-commerce / de minimis beneficiaries
+### E-commerce / de minimis beneficiaries (ruling day movers)
 Stocks that rallied on the ruling day (Feb 20, 2026) because de minimis exemption removal was struck down:
 
 | Stock | Ticker | Feb 20 move | Why |
@@ -239,6 +239,31 @@ Stocks that rallied on the ruling day (Feb 20, 2026) because de minimis exemptio
 | **Wayfair** | W | +2% | Furniture/home goods heavily imported |
 | **PDD (Temu)** | PDD | +2% | Entire US model built on de minimis loophole |
 | **Shopify** | SHOP | +1% | Merchant base reliant on imports |
+
+![[scotus-ruling-day-basket-vs-spy-price-chart.png]]
+*SCOTUS ruling day movers vs SPY, normalized from April 1, 2025. Wayfair (+155%) dominates — a dual beneficiary of tariff relief and housing recovery. EBAY (+33%) and SHOP (+29%) beat SPY. PDD (-14%) is the only name still underwater since pre-Liberation, reflecting permanent China decoupling damage that the ruling can't fix.*
+
+#### Performance data (Apr 1, 2025 → Feb 20, 2026)
+
+| Ticker | Pre-Liberation | Post-Liberation | Liberation Day | Ruling day | Since Liberation |
+|--------|---------------|-----------------|----------------|------------|-----------------|
+| **SPY** | $556.13 | $533.64 | -4.0% | +0.7% | +24.0% |
+| **W** | $31.94 | $25.09 | -21.4% | +2.3% | +154.9% |
+| **EBAY** | $66.10 | $65.66 | -0.7% | +3.9% | +33.2% |
+| **SHOP** | $97.64 | $82.29 | -15.7% | +1.9% | +29.3% |
+| **ETSY** | $46.92 | $48.41 | +3.2% | +8.4% | +11.2% |
+| **AMZN** | $201.36 | $178.41 | -11.4% | +2.6% | +4.3% |
+| **PDD** | $122.19 | $113.67 | -7.0% | +2.9% | -14.1% |
+
+*Sorted by total return since Liberation Day. ETSY actually rallied on Liberation Day (+3.2%) — the market initially saw tariffs as a net positive for domestic marketplace sellers. AMZN (+4.3%) has badly lagged SPY (+24.0%) since — its China-sourced third-party seller exposure weighs more than the de minimis relief helps.*
+
+### Two baskets, two stories
+
+These are distinct groups with surprisingly little overlap. The **Liberation Day basket** (physical importers — retailers, footwear, apparel) identifies who was most *exposed* to IEEPA tariffs. The **ruling day basket** (e-commerce platforms) identifies who had the most *remaining upside* at the moment of the decision.
+
+The key finding: **Liberation Day losers barely moved on ruling day.** BBY was actually *down* 2.7% on Feb 20. The market had already repriced physical importers over the prior 10 months — many recovered substantially as supply chains adjusted. The ruling day winners were e-commerce names where the de minimis reversal was a more binary surprise.
+
+This divergence reflects JPM's 64% "immediately replaced" scenario. Physical importers face replacement tariffs under Section 232/301 regardless. E-commerce platforms — especially those built on the de minimis loophole (PDD/Temu, ETSY sellers, Shopify merchants) — got a cleaner win, since de minimis is harder to replicate under other statutory authorities.
 
 ### Companies that sued the government
 These companies had the strongest conviction that tariffs were illegal — and now may be first in line for refunds:

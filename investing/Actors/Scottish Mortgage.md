@@ -140,4 +140,7 @@ AIC Dividend Hero — 43 consecutive annual increases. Semi-annual (May, Nov). Y
 - [[Elliott Management]] — former activist (5% stake, exited with ~30% return)
 - [[Private Market Access]] — concept note on the broader trend
 
+### Cross-vault
+- [History: Scottish Investment Trusts](obsidian://open?vault=history&file=05%20-%20Modern%2FScottish%20Investment%20Trusts) — origin story: from rubber plantation mortgages (1909) to SpaceX, and the jute-merchant genealogy
+
 *Created 2026-02-23*
