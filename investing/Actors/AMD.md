@@ -233,7 +233,8 @@ See [[Meta-AMD 6GW deal]] for full details.
 - [[Lenovo]] — partner (Tech World @ CES)
 - [[Meta]] — Helios built on Meta OCP design; 6GW GPU deal (Feb 2026)
 - [[OpenAI]] — first equity-for-volume deal (Oct 2025, 160M shares)
-- [[Amazon commercial warrants]] — similar deal pattern
+- [[Commercial warrants]] — equity-for-volume pattern (AMD + Amazon)
+- [[Amazon commercial warrants]] — Amazon's version
 - [[Meta-AMD 6GW deal]] — Feb 24, 2026 partnership details
 - [[TCS]] — Helios rack-scale AI partnership (India)
 - [[India AI Impact Summit 2026]] — TCS partnership announcement

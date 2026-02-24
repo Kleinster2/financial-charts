@@ -5,6 +5,8 @@ aliases: [Amazon warrant playbook, purchase-contingent warrants, commercial arra
 
 **Amazon commercial warrants** — recurring [[Amazon]] deal structure using equity warrants tied to commercial commitments. Amazon deploys this on both sides of its business: as buyer (locking in suppliers) and as seller (locking in AWS customers).
 
+*This note covers Amazon-specific deals. For the broader pattern (including AMD's equity-for-volume program), see [[Commercial warrants]].*
+
 ---
 
 ## How it works
@@ -80,6 +82,7 @@ Warrant fair value is typically recorded as a reduction to cost of revenue (for 
 
 ## Related
 
+- [[Commercial warrants]] — broader concept (Amazon + AMD + general pattern)
 - [[Amazon]] — architect of this playbook
 - [[AWS]] — cloud side of the warrant strategy
 - [[STMicro AWS deal]] — 2026 semiconductor warrant deal

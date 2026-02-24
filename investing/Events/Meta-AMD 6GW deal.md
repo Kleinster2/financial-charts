@@ -78,6 +78,7 @@ The 6GW figure is enormous. For context, AMD's entire data center revenue in Q4 
 - [[NVIDIA]] — competitor, Meta also committed to millions of NVIDIA GPUs
 - [[Lisa Su]] — AMD CEO
 - [[OpenAI]] — AMD's first equity-for-volume deal (Oct 2025)
-- [[Amazon commercial warrants]] — similar deal pattern
+- [[Commercial warrants]] — broader equity-for-volume pattern
+- [[Amazon commercial warrants]] — Amazon's version of this playbook
 - [[CUDA moat]] — AMD's software gap this deal helps overcome via scale
 - [[Helios]] — AMD's rack-scale AI platform (CES 2026)
