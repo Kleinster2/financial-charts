@@ -115,32 +115,44 @@ The authors note wryly that despite the total collapse of white-collar work: *"w
 
 ## Market Impact (Monday Feb 23, 2026)
 
-**Dow fell 800 points. All three major indexes dropped >1%.** The IGV (iShares Expanded Tech-Software ETF) hit a **52-week low, down 5% on the day, nearly -30% YTD** — erasing all gains since ChatGPT's launch in Nov 2022.
+**Dow fell 822 points (-1.7%). S&P 500 -1%. Nasdaq -1.1%.** Dow Jones Transportation Average -2.8%. The IGV (iShares Expanded Tech-Software ETF) hit a **52-week low, down 5% on the day, nearly -30% YTD** — erasing all gains since ChatGPT's launch in Nov 2022.
 
-VIX jumped 14%, crossing above 20. Gold rose 2.9% above $5,200/oz.
+**Flight to safety:** 10-year Treasury yield fell to 4.026% (lowest since late November). Gold +2.9% to $5,204.70/oz. Silver +5.2% to $86.52/oz.
+
+VIX jumped 14%, crossing above 20.
 
 ### Specific stock moves (Feb 23)
 
 | Stock | Company | Feb 23 | YTD |
 |-------|---------|--------|-----|
-| INTU | Intuit | **-8.0%** | -47.0% |
+| IBM | IBM | **-13.0%** | — |
 | CRWD | CrowdStrike | **-10.1%** | -26.4% |
 | ZS | Zscaler | **-9.9%** | -36.7% |
-| DOCU | DocuSign | **-7.4%** | -40.1% |
+| DDOG | Datadog | **-9%+** | — |
+| INTU | Intuit | **-8.0%** | -47.0% |
 | AXP | American Express | **-7.7%** | — |
-| DASH | DoorDash | **-7.0%** | — |
+| DOCU | DocuSign | **-7.4%** | -40.1% |
+| DASH | DoorDash | **-6.6%** | — |
 | MA | Mastercard | **-6.3%** | — |
 | CRM | Salesforce | **-5.3%** | -34.0% |
+| APO | Apollo Global | **-5.0%** | — |
 | ADBE | Adobe | **-4.8%** | -29.7% |
 | NOW | ServiceNow | **-4.6%** | -35.1% |
 | V | Visa | **-4.5%** | — |
+| OWL | Blue Owl Capital | **-3.4%** | — |
 
-*Source: Fintool, Invezz, market data Feb 23 2026*
+**Private credit contagion:** Blue Owl -3.4%, Apollo -5%. Lenders from Wall Street banks to regionals sold off. UBS told clients: *"From a credit standpoint, the key risk is speed of disruption rather than its existence. A rapid shock within 12 months could overwhelm contractual protections, but we view a multi-year adjustment as far more likely."*
+
+**Rotation:** Investors moved into energy and consumer staples, but these carry little index weight. Jordan Rizzuto (GammaRoad Capital): *"Be careful what kind of rotation you wish for."*
+
+*Source: WSJ, Fintool, Invezz, market data Feb 23 2026*
 
 **Note:** The selloff was amplified by concurrent factors:
 - Anthropic unveiled a new Claude security tool (Friday) → **CrowdStrike -8% Fri, -10% Mon** (25%+ YTD decline)
 - Trump announced 15% global tariffs after Supreme Court struck down broader "reciprocal" tariffs
 - Broader AI anxiety about OpenAI and Anthropic capabilities crushing enterprise software
+
+**DoorDash co-founder Andy Fang** responded on social media: *"The ground is shifting underneath our feet, and the industry is going to need to adapt to it."* Said agentic commerce would require the firm to evolve to work for both AI agents and real-world merchants.
 
 Jim Cramer on CNBC: *"I can't help but grow more pessimistic when I see how easily a piece of science fiction can crush the market as if it's science fact."* Called it a "dystopian tale" and "a reach."
 
