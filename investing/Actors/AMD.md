@@ -211,6 +211,14 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[AMD]] announced a partne
 
 ---
 
+## Feb 24, 2026: Meta 6GW deal
+
+[[Meta]] commits to deploying up to **6GW of AMD Instinct GPUs** — AMD's largest hyperscaler deal. First shipments of custom MI450 in [[Helios]] rack-scale servers begin H2 2026. Deal includes **warrants for 160M AMD shares** (~10% of company) vesting on deployment milestones — identical structure to the [[OpenAI]] deal (Oct 2025). AMD +7% on the news.
+
+See [[Meta-AMD 6GW deal]] for full details.
+
+---
+
 ## Related
 
 - [[Lisa Su]] — CEO
@@ -223,6 +231,9 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[AMD]] announced a partne
 - [[Leading edge race]] — node competition
 - [[CES 2026]] — Helios unveil, Lisa Su keynote
 - [[Lenovo]] — partner (Tech World @ CES)
-- [[Meta]] — Helios built on Meta OCP design
+- [[Meta]] — Helios built on Meta OCP design; 6GW GPU deal (Feb 2026)
+- [[OpenAI]] — first equity-for-volume deal (Oct 2025, 160M shares)
+- [[Amazon commercial warrants]] — similar deal pattern
+- [[Meta-AMD 6GW deal]] — Feb 24, 2026 partnership details
 - [[TCS]] — Helios rack-scale AI partnership (India)
 - [[India AI Impact Summit 2026]] — TCS partnership announcement

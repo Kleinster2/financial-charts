@@ -126,6 +126,18 @@ Signed multiyear pact to deploy "millions" of [[NVIDIA]] processors:
 
 Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-17/meta-deepens-nvidia-ties-with-pact-to-use-millions-of-chips)
 
+### AMD 6GW deal (Feb 24, 2026)
+
+One week after the NVIDIA deal, signed multiyear partnership with [[AMD]] for up to **6 gigawatts of Instinct GPUs**:
+
+- **First shipments:** H2 2026 — custom MI450 in [[Helios]] rack-scale servers + AI-optimized [[EPYC]] CPUs
+- **Warrants:** 160M AMD shares (~10% of company), vesting on deployment milestones (1GW → 6GW) + stock price thresholds
+- **Same structure** as AMD's [[OpenAI]] deal (Oct 2025) — also 160M shares
+- **Signal:** Meta diversifying GPU supply across both major vendors while maintaining $135B capex plan
+- AMD +7%, Meta flat on the news
+
+See [[Meta-AMD 6GW deal]] for full details.
+
 ---
 
 ## AI leadership
@@ -424,6 +436,7 @@ See [[Short interest]] for interpretation framework.
 ### Partners/Competitors
 - [[AI hyperscalers]] — Tier 1 spender ($65B capex)
 - [[NVIDIA]] — primary GPU supplier (350K H100s + 400K Blackwell + multiyear "millions" deal, Feb 2026)
+- [[AMD]] — 6GW Instinct GPU deal (Feb 24, 2026), warrants for 160M AMD shares (~10%). See [[Meta-AMD 6GW deal]]
 - [[TSMC]] — foundry (via NVIDIA)
 - [[Google]], [[Amazon]], [[Microsoft]] — hyperscaler peers
 - [[Anthropic]], [[OpenAI]] — AI lab competitors
