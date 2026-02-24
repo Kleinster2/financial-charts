@@ -127,3 +127,4 @@ Creator economy startups raised $767M (2023-2024), +49% YoY. AI-focused startups
 - [[Flywheel]] — creator flywheels (Roblox, Lovense)
 - [[Network effects]] — platform dynamics
 - [[Sextech]] — OnlyFans crossover
+- [[Influencer-to-brand playbook]] — creators launching standalone consumer brands
