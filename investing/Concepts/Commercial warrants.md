@@ -120,6 +120,7 @@ Expect more as AI capex scales — any GPU/chip company trying to compete with N
 
 ## Related
 
+- [[Tech equity-for-infrastructure deals]] — why this pattern is uniquely powerful in tech (switching costs, ecosystem lock-in, reflexivity)
 - [[Amazon commercial warrants]] — deepest case study, both directions
 - [[AMD]] — equity-for-volume to break CUDA moat
 - [[Meta-AMD 6GW deal]] — Feb 24, 2026
