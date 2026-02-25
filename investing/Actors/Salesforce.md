@@ -54,7 +54,7 @@ Acquired into full enterprise suite.
 
 Agentforce = [[AI agents]] that take actions, not just chat.
 
-**Q3 FY2026 AI metrics:** Agentforce + Data Cloud generated $1.4B in recurring revenues (+114% YoY). Agentforce alone: $540M recurring (+330% YoY).
+**Q4 FY2026 AI metrics:** Agentforce ARR $800M (+169% YoY). Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). 29,000 cumulative deals. $2/conversation pricing model.
 
 ---
 
@@ -155,7 +155,7 @@ A non-core strategic investment that resulted in total loss.
 |--------|-------|
 | Ticker | CRM |
 | Market cap | ~$280B |
-| Revenue | ~$35B |
+| Revenue | ~$41.5B |
 | HQ | San Francisco |
 
 ![[crm-eps-surprise-chart.jpg]]
@@ -177,6 +177,56 @@ A non-core strategic investment that resulted in total loss.
 
 ---
 
+## Q4 FY2026 earnings (Feb 25, 2026)
+
+### Quarter results
+
+| Metric | Value | YoY |
+|--------|-------|-----|
+| Revenue | $11.2B | +12% (fastest in 2 years) |
+| Non-GAAP EPS | $3.81 | beat $3.04 est by 25% |
+| Non-GAAP op margin | 34.1% | — |
+| cRPO | $35.1B | +16% |
+| RPO | $72B | +14% |
+
+Revenue includes $388M from [[Informatica]] (acquired).
+
+### Full year FY2026
+
+| Metric | Value | YoY |
+|--------|-------|-----|
+| Revenue | $41.5B | +10% |
+| OCF | $15.0B | +15% |
+| FCF | $14.4B | +16% |
+
+### Agentforce traction
+
+- Agentforce ARR $800M (+169% YoY)
+- Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY)
+- 29,000 cumulative deals (+50% Q/Q)
+- $2/conversation pricing model
+- All top 10 Q4 deals included Agentforce 360 + Data 360
+- Key wins: [[CrowdStrike]] (Claude in Agentforce), [[RBC]] Wealth ($689B AUM, tasks from 1+ hour to <1 min)
+
+### Guidance and capital return
+
+- FY2027 guide: $45.8-46.2B (+10-11%) — barely missed $46.02B consensus
+- Organic growth ex-[[Informatica]] only ~7-8%
+- FY2030 target raised to $63B (from $60B)
+- New $50B buyback authorization
+
+### [[Anthropic]] partnership (Feb 24, 2026)
+
+[[Claude]] integrated into Agentforce 360 — first LLM inside Salesforce trust boundary. Announced one day before earnings.
+
+### Market reaction
+
+Stock -5.6% AH on guidance miss despite strong beat. The gap between Q4 execution (12% growth, 25% EPS beat) and FY2027 guide (~7-8% organic) drove the sell-off.
+
+*Updated 2026-02-25*
+
+---
+
 ## Related
 
 - [[Microsoft]] — competitor (Dynamics, Copilot)
@@ -185,3 +235,6 @@ A non-core strategic investment that resulted in total loss.
 - [[Slack]] — subsidiary (collaboration)
 - [[Saks Global]] — minority equity stake (wiped)
 - [[Saks bankruptcy]] — investment loss
+- [[Anthropic]] — partner (Claude for Agentforce)
+- [[Informatica]] — acquired (data integration)
+- [[CrowdStrike]] — customer (Agentforce deployment)

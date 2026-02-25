@@ -37,6 +37,18 @@ Essentially tied with Western frontier models on coding benchmarks. Key differen
 
 M2.5 leads OpenRouter with 3.07T tokens processed — 5x [[Anthropic]]'s Claude Opus 4.6 (617B). Combined with [[Moonshot AI]]'s Kimi K2.5 (1.16T) and [[Zhipu AI]]'s GLM 5 (1.03T), Chinese models dominate the top 3 by volume, suggesting developers are voting with their wallets on cost/performance.
 
+## Distillation accusations (Feb 23, 2026)
+
+[[Anthropic]] accused MiniMax of the largest distillation campaign of the three Chinese labs — **13 million exchanges** with [[Claude]] via fraudulent accounts, targeting agentic coding, tool use, and orchestration. MiniMax redirected nearly half its traffic to siphon capabilities when [[Anthropic]] launched new [[Claude]] models.
+
+Part of a broader pattern: [[OpenAI]] accused [[DeepSeek]] on Feb 12, [[Anthropic]] named [[DeepSeek]], [[Moonshot AI]], and MiniMax on Feb 23. Combined: 24,000+ fake accounts, 16M+ exchanges.
+
+MiniMax's M2.5 benchmark performance (essentially tied with Western frontier models on coding — see above) raises the question of how much was built on distilled capabilities vs independent development.
+
+See [[AI distillation wars (2025-2026)]] and [[model distillation]].
+
+---
+
 ## Related
 
 - [[HongShan]]
@@ -46,3 +58,5 @@ M2.5 leads OpenRouter with 3.07T tokens processed — 5x [[Anthropic]]'s Claude 
 - [[Chinese AI labs]]
 - [[Inference economics]]
 - [[AI adoption curve]]
+- [[AI distillation wars (2025-2026)]] — largest distillation campaign (13M exchanges with Claude)
+- [[Model distillation]] — technique, accused by Anthropic (Feb 2026)

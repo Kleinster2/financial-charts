@@ -320,6 +320,16 @@ Anthropic launched **Skills** - packaged instruction folders that teach Claude r
 
 Combined with [[MCP]] (tool connectivity) and [[Claude]] Code (agentic execution), Skills complete a three-layer developer platform: **what Claude can connect to** (MCP) → **what Claude knows how to do** (Skills) → **where Claude runs** (Code/API). This positions Anthropic as a full-stack AI developer platform, not just a model provider.
 
+### Distillation disclosure (Feb 23, 2026)
+
+Published detailed evidence that three Chinese AI labs — [[DeepSeek]], [[Moonshot AI]], [[MiniMax]] — ran "industrial-scale distillation attacks" on [[Claude]]. 24,000+ fraudulent accounts, 16M+ exchanges. [[MiniMax]] was the largest (13M exchanges targeting agentic coding), [[Moonshot AI]] second (3.4M targeting agentic reasoning), [[DeepSeek]] most targeted in capability extraction (150K exchanges on logic/alignment). "Hydra cluster" proxy networks mixed distillation traffic with legitimate customer requests. [[MiniMax]] redirected half its traffic to new [[Claude]] models on launch day.
+
+Follows [[OpenAI]]'s similar accusations against [[DeepSeek]] (Feb 12). Both disclosures timed to the [[export controls]] debate — building the case that API access, not just chips, needs restrictions. Backlash was immediate: [[Anthropic]] itself settled $1.5B over training on pirated Library Genesis books.
+
+See [[AI distillation wars (2025-2026)]] for full arc and [[model distillation]] for the structural IP/moat analysis.
+
+---
+
 ### Claude Code GitHub penetration (Feb 2026)
 
 4% of GitHub public commits now authored by Claude Code. Projected to reach 20%+ of daily commits by end of 2026. Claude Code business subscriptions quadrupled since start of 2026. More than half of Claude Code revenue ($2.5B run rate) comes from enterprise.
@@ -548,4 +558,6 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Legora]] - legal AI, dismissed Cowork plug-ins
 - [[Luminance]] - legal AI, domain-specific value argument
 - [[Intuit]] - multi-year partnership (Feb 24, 2026): MCP integrations, Claude Agent SDK, custom AI agents
+- [[AI distillation wars (2025-2026)]] - published distillation evidence against DeepSeek, Moonshot, MiniMax (Feb 23)
+- [[Model distillation]] - concept (technique, IP landscape, moat implications)
 - [[February 2026 AI Disruption Cascade]] - both caused it (Cowork Plugins) and reversed it (enterprise partnerships)

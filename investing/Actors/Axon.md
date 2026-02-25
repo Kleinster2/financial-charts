@@ -17,9 +17,9 @@ Axon — Public safety technology company. Makes TASERs, body cameras, and evide
 | CEO | [[Rick Smith]] |
 | CFO/COO | [[Brittany Bagley]] |
 | President | [[Josh Isner]] |
-| Market cap | ~$50B |
+| Market cap | ~$60B |
 | Employees | ~4,000 |
-| ARR | ~$1.3B (Q3 2025) |
+| ARR | ~$1.3B (Q4 2025) |
 
 ---
 
@@ -49,13 +49,14 @@ GAAP operating income collapsed in FY2024 ($155M → $59M) due to $131M in Q4 st
 
 | Quarter | Revenue | YoY growth | Net income |
 |---------|---------|-----------|------------|
+| Q4 2025 | $797M | 39% | $3M |
 | Q3 2025 | $711M | 31% | -$2M |
 | Q2 2025 | $669M | 33% | $36M |
 | Q1 2025 | $604M | 31% | $88M |
 | Q4 2024 | $575M | 34% | -$16M |
 | Q3 2024 | $544M | 32% | $67M |
 
-FY2025 guidance: ~$2.74B revenue (~31% growth), ~25% adjusted EBITDA margin. Q3 2025 was first GAAP net loss in recent quarters — operating expenses +40% YoY and tariff headwinds.
+FY2025 actual: ~$2.74B revenue (~31% growth), ~25% adjusted EBITDA margin. Q4 reaccelerated to 39% YoY growth, returning to GAAP profitability after Q3's net loss. Stock +22% on results.
 
 ---
 
@@ -68,7 +69,7 @@ Reorganized from "TASER" and "Software & Sensors" to "Connected Devices" and "So
 | Connected Devices | TASERs (TASER 10), body cameras, in-car video, drones |
 | Software & Services | Evidence.com, records management, Axon 911, Draft One (AI) |
 
-Cloud & services revenue: $806M in FY2024, up from $561M in FY2023. ARR trajectory: $697M (end FY2023) → $1.0B (end FY2024) → $1.3B (Q3 2025).
+Cloud & services revenue: $806M in FY2024, up from $561M in FY2023. ARR trajectory: $697M (end FY2023) → $1.0B (end FY2024) → ~$1.3B (Q4 2025). Net revenue retention 125%.
 
 ---
 
@@ -97,10 +98,16 @@ Carbyne + Prepared add an estimated $5B to addressable market, bringing claimed 
 
 ## Key metrics
 
+- Q4 2025 adj EPS: $2.15 (beat $1.60 estimate)
+- Q4 2025 adj EBITDA: $206M (25.9% margin)
+- ARR: ~$1.3B, net revenue retention 125%
+- FY2026 guidance: $3.53-3.61B (+27-30%), vs $3.44B Street estimate
+- FY2028 target: $6B revenue, ~28% adj EBITDA margins
 - Future contracted bookings: $11.4B as of Q3 2025 (up 39% YoY)
 - Largest deal in company history awarded in 2024 (enterprise customer)
 - Major contracts: [[RCMP]] (body cameras + Axon Evidence), [[DEA]] (new federal segment)
 - Cash: $1.42B, debt: $2.0B in convertible/senior notes (Q3 2025)
+- Stock +22% on Q4 2025 results
 
 ---
 

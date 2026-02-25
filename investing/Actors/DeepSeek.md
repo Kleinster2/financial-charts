@@ -155,6 +155,33 @@ Azure listing is notable — Microsoft offering Chinese model alongside [[OpenAI
 
 ---
 
+## Distillation accusations (Feb 2026)
+
+Both [[OpenAI]] (Feb 12) and [[Anthropic]] (Feb 23) publicly accused DeepSeek of systematically distilling their frontier models:
+
+| Accuser | Date | Details |
+|---------|------|---------|
+| [[OpenAI]] | Feb 12 | DeepSeek employees used obfuscated routers to circumvent access restrictions on [[ChatGPT]] |
+| [[Anthropic]] | Feb 23 | ~150,000 exchanges via fraudulent accounts targeting foundational logic, alignment, and censorship-safe alternatives to policy-sensitive queries |
+
+[[Anthropic]]'s blog attributed the campaign "with high confidence" through IP correlation, request metadata, and corroboration from other labs. DeepSeek's operation was smaller in volume than [[MiniMax]] (13M) and [[Moonshot AI]] (3.4M) but focused on core reasoning capabilities.
+
+Both disclosures timed to the US [[export controls]] debate — building the argument that API access needs restrictions, not just chips. Significant backlash over hypocrisy: the accusing labs themselves trained on scraped internet data without compensating creators, and [[Anthropic]] settled $1.5B over Library Genesis.
+
+See [[AI distillation wars (2025-2026)]] and [[model distillation]].
+
+---
+
+## V4 model and Blackwell investigation (Feb 25, 2026)
+
+Reuters exclusive (Feb 25): DeepSeek is withholding its latest V4 model from US chipmakers including [[NVIDIA]], giving early access to [[Huawei]] instead. A senior US official told Reuters that DeepSeek trained V4 on banned [[Blackwell]] chips — "likely clustered at its data center in Inner Mongolia" — potentially violating [[export controls]].
+
+Federal investigation underway. [[NVIDIA]] has previously stated: "We're not shipping Blackwells to China." If confirmed, chips likely reached DeepSeek through gray market channels (see [[SEA chip diversion]]).
+
+The shift to [[Huawei]] early access is strategic: DeepSeek optimizing for [[Ascend]] chips rather than NVIDIA hardware, aligning with Beijing's domestic chip ecosystem push.
+
+---
+
 ## Chip situation
 
 | Question | Answer |
@@ -233,7 +260,7 @@ DeepSeek represents [[China]]'s response to GPU constraints:
 
 ---
 
-*Updated 2026-01-29*
+*Updated 2026-02-25*
 
 ---
 
@@ -249,3 +276,7 @@ DeepSeek represents [[China]]'s response to GPU constraints:
 - [[ByteDance]] — peer ([[Doubao]])
 - [[NVIDIA]] — affected; technical assistance allegations
 - [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
+- [[AI distillation wars (2025-2026)]] — accused by both OpenAI and Anthropic (Feb 2026)
+- [[Model distillation]] — technique used to extract capabilities from US labs
+- [[Huawei]] — V4 early access partner, Ascend chip ecosystem
+- [[SEA chip diversion]] — likely channel for banned Blackwell chips

@@ -247,6 +247,16 @@ Compute spend target revised from $1.4T → **~$600B by 2030** (Feb 2026). $10B+
 
 ---
 
+## Distillation accusations (Feb 2026)
+
+Feb 12: Publicly accused [[DeepSeek]] of using obfuscated third-party routers and proxy services to systematically distill [[ChatGPT]] models. Claimed DeepSeek employees developed methods to circumvent access restrictions. Framing: "DeepSeek's next model should be understood in the context of its ongoing efforts to free-ride on capabilities developed by OpenAI and other US frontier labs."
+
+[[Anthropic]] followed 11 days later (Feb 23) with more granular evidence — [[DeepSeek]], [[Moonshot AI]], [[MiniMax]] running 24,000+ fake accounts, 16M+ exchanges. Both disclosures timed to the [[export controls]] debate.
+
+See [[AI distillation wars (2025-2026)]] and [[model distillation]].
+
+---
+
 ## Key risks
 
 - **Cash burn** — $74B losses before profitability
@@ -335,3 +345,5 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Sam Altman]] revealed [[
 - [[PSPDFKit]] — Steinberger's previous company
 - [[India AI Impact Summit 2026]] — 100M+ WAU in India, largest student base
 - [[India]] — #2 market globally
+- [[AI distillation wars (2025-2026)]] — accused DeepSeek of distilling ChatGPT (Feb 12)
+- [[Model distillation]] — concept (technique, IP landscape)

@@ -168,7 +168,7 @@ See [[CES 2026]] for event context.
 | Key acquisition | NodAI (late 2023) |
 | CES 2026 | Helios rack (2.9 exaFLOPS) |
 
-*Updated 2026-02-06 — Q4 2025 earnings*
+*Updated 2026-02-25 — Meta $60B strategic partnership*
 
 ![[amd-price-chart.png]]
 *AMD price history*
@@ -211,11 +211,17 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[AMD]] announced a partne
 
 ---
 
-## Feb 24, 2026: Meta 6GW deal
+## Meta strategic partnership (Feb 24, 2026)
 
-[[Meta]] commits to deploying up to **6GW of AMD Instinct GPUs** — AMD's largest hyperscaler deal. First shipments of custom MI450 in [[Helios]] rack-scale servers begin H2 2026. Deal includes **warrants for 160M AMD shares** (~10% of company) vesting on deployment milestones — identical structure to the [[OpenAI]] deal (Oct 2025). AMD +7% on the news.
+[[AMD]] and [[Meta]] announced an expanded strategic partnership (Feb 24): up to $60B of AI chips over 5 years, starting with 1GW of MI450 GPUs in H2 2026. Total deployment target: 6GW.
 
-See [[Meta-AMD 6GW deal]] for full details.
+[[Meta]] issued a performance-based warrant for up to 160 million AMD shares — effectively giving Meta an equity stake contingent on the partnership's success. AMD stock +8.77% on the day.
+
+FT Lex called it "the Kim Kardashian theory of data centres" — AMD hopes Meta's endorsement will attract other hyperscalers to its GPU ecosystem, breaking [[NVIDIA]]'s lock on large-scale AI training.
+
+Separately, AMD buying $150M of [[Nutanix]] stock in a new cloud infrastructure partnership.
+
+See [[Meta-AMD 6GW deal]] for full deal terms and warrant structure.
 
 ---
 
@@ -231,10 +237,11 @@ See [[Meta-AMD 6GW deal]] for full details.
 - [[Leading edge race]] — node competition
 - [[CES 2026]] — Helios unveil, Lisa Su keynote
 - [[Lenovo]] — partner (Tech World @ CES)
-- [[Meta]] — Helios built on Meta OCP design; 6GW GPU deal (Feb 2026)
+- [[Meta]] — $60B strategic partnership (6GW MI450, Feb 2026)
 - [[OpenAI]] — first equity-for-volume deal (Oct 2025, 160M shares)
 - [[Commercial warrants]] — equity-for-volume pattern (AMD + Amazon)
 - [[Amazon commercial warrants]] — Amazon's version
 - [[Meta-AMD 6GW deal]] — Feb 24, 2026 partnership details
+- [[Nutanix]] — $150M equity partnership
 - [[TCS]] — Helios rack-scale AI partnership (India)
 - [[India AI Impact Summit 2026]] — TCS partnership announcement

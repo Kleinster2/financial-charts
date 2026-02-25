@@ -67,8 +67,9 @@ Context: Total 2025 semiconductor industry = $793B (+21% YoY). AI chips = ~1/3 o
 | 2023 | $27.0B | $4.4B | $0.17 | $145 |
 | 2024 | $60.9B | $29.8B | $1.19 | $490 |
 | 2025 | $130.5B | $72.9B | $2.94 | $135 |
+| **2026** | **$215.9B** | **$120.1B** | **$4.90** | **$196** |
 
-*Source: Company filings. Stock price = fiscal year-end close (Jan). Prices adjusted for 10:1 split (Jun 2024). FY2023 was crypto hangover.*
+*Source: Company filings. Stock price = fiscal year-end close (Jan). Prices adjusted for 10:1 split (Jun 2024). FY2023 was crypto hangover. FY2026 = first $200B revenue year for any semiconductor company.*
 
 ---
 
@@ -400,17 +401,21 @@ See [[Short interest]] for interpretation framework.
 
 | Metric | Value |
 |--------|-------|
-| Stock price | ~$190 |
-| Market cap | $4.7T (down from $5T+ record Jan 8) |
+| Stock price | ~$196 |
+| Market cap | ~$4.8T |
+| FY2026 revenue | $215.9B (+65% Y/Y) |
+| FY2026 net income | $120.1B |
+| FY2026 FCF | $96.6B |
+| Q1 FY27 guide | $78B ±2% (beat $72.6B est.) |
 | AI training share | >90% |
 | Primary foundry | [[TSMC]] |
 | Packaging | [[TSMC]] CoWoS (constrained) |
-| 2026 backlog | $275B |
-| CY2028 Blackwell+Rubin revenue | $500B+ booked |
+| Supply commitments | $95.2B (up from $50.3B end Q3) |
+| Cash + securities | $62.6B |
+| Inventories | $21.4B |
 | Short interest | 1.1% (Jan 2026) |
-| Next earnings | Feb 25, 2026 |
 
-*Updated 2026-01-29*
+*Updated 2026-02-25*
 
 ![[nvda-price-chart.png]]
 
@@ -637,6 +642,37 @@ Market positioning (Dec 2025):
 - [[Long TSMC]] — NVIDIA locks TSMC capacity, reinforces moat
 - [[Long memory]] — every GPU needs [[HBM]] from SK Hynix/Samsung
 - [[Long OSAT and test equipment]] — GPU testing drives [[ASE]]/[[Cohu]] demand
+
+---
+
+## Q4 FY2026 earnings (Feb 25, 2026)
+
+First $200B revenue year. Q4 revenue $68.1B (+73% Y/Y, +20% Q/Q), beating $66.2B consensus. Data Center $62.3B (+75% Y/Y) = 91.5% of total. Non-GAAP EPS $1.62 (beat $1.53). Gross margins recovered to 75.0% after H20 charges depressed H1.
+
+| Segment | Q4 FY26 | Y/Y |
+|---------|---------|-----|
+| Data Center | $62.3B | +75% |
+| Gaming & AI PC | $3.7B | +47% |
+| Pro Visualization | $1.32B | +159% |
+| Automotive | $604M | +6% (miss) |
+
+**Q1 FY27 guidance: $78B ±2% vs $72.6B consensus (+7.4% beat).** Zero China DC compute revenue assumed. SBC reclassification starting Q1 will mechanically reduce non-GAAP EPS by ~$0.08/quarter.
+
+**Vera Rubin:** First samples shipped to customers this week. Production H2 2026. 10x token cost reduction vs Blackwell. 10x perf/watt. Six new chips. First deployers: [[AWS]], [[Google]], [[Microsoft]], [[Oracle]], [[CoreWeave]], [[Lambda Labs]], [[Nebius]].
+
+**Blackwell:** Supply commitments $95.2B (up from $50.3B Q3). Expects to EXCEED $500B combined Blackwell+Rubin manufacturing CY2025-2026. Blackwell Ultra: 50x perf, 35x lower cost for agentic AI vs Hopper.
+
+**Networking:** $10.98B (+263% Y/Y) on NVLink and Spectrum-X.
+
+**Customer mix:** Hyperscalers "slightly over 50%" of DC revenue; growth led by non-hyperscaler customers (AI model makers, enterprises, sovereigns).
+
+**Supply chain diversification:** Blackwell GPUs at [[TSMC]] Arizona. Rack systems at new [[Foxconn]] Mexico plant. Memory shortage headwind to Gaming.
+
+**FY26 totals:** Revenue $215.9B, net income $120.1B, FCF $96.6B, shareholder returns $41.1B, $17.5B invested in private companies.
+
+Jensen: "AI compute demand is 1,000 times greater than traditional compute. The need is a lot more than $700 billion." / "Our strategy is to introduce an entirely new AI infrastructure every single year." / OpenAI deal: "We continue to work with OpenAI toward a partnership agreement and believe we are close."
+
+Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $261.54.
 
 ---
 
