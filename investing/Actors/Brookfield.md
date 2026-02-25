@@ -142,6 +142,48 @@ See [[Radiant (Brookfield)]] for full details.
 
 ---
 
+## Strategic analysis: The AI infrastructure financier
+
+### The full-stack thesis
+
+Brookfield is the **only major alt manager that owns every layer** of the AI infrastructure stack:
+
+| Layer | Brookfield asset | Competitor gap |
+|-------|-----------------|----------------|
+| **Capital** | $188B deployable, $100B AI program | [[Blackstone]] has scale but not power assets |
+| **Power generation** | Owns hydro, wind, solar globally | [[Blue Owl]]/[[DigitalBridge]] don't own generation |
+| **Power innovation** | $5B [[Bloom Energy]] fuel cells | Bypasses 3-5 year grid connection waits |
+| **Nuclear** | [[Westinghouse]] (with [[Cameco]]) | Unique nuclear exposure for baseload |
+| **Data centers** | DC operator investments | Generalist, not pure-play |
+| **GPUs/Compute** | [[Radiant (Brookfield)|Radiant]] (GPU-as-a-service) | First alt manager to own this layer |
+| **Software** | Ori platform (orchestration, inference, K8s) | Most infra investors have zero software |
+
+No other infrastructure investor can bundle power + space + compute + software in a single contract. This is Brookfield's bet: that the AI buildout needs an **infrastructure intermediary**, not just cloud providers.
+
+### Bull case
+
+- **$7T AI capex** thesis validated by [[Meta]] ($135B/yr), [[Microsoft]], [[Google]], [[Amazon]] spending acceleration
+- **Sovereign AI** is a real demand driver — every nation wants domestic compute, creating recurring global demand
+- **Low cost of capital** vs. GPU cloud startups — Brookfield raises infrastructure-grade capital at much lower rates than [[CoreWeave]]'s $7.5B+ debt
+- **NVIDIA alignment** — NVIDIA is both fund investor and supplier, creating mutual incentive (similar to [[commercial warrants]] logic)
+- **Power scarcity** is the real AI bottleneck — Brookfield's renewable portfolio becomes its deepest moat as data centers compete for grid access
+- **Take-or-pay contracts** eliminate demand risk — investment-grade counterparties locked in for ~5 years
+
+### Bear case
+
+- **GPU obsolescence risk** — 5-year chip life assumption may be too long; 2-3 year cycles could leave stranded assets
+- **"We will not take technology risk"** is aspirational — if customer defaults or demand shifts to new architectures, contracts may not hold
+- **Sovereign cloud may stay niche** — governments are slow procurers and politically unpredictable
+- **Execution complexity** — bundling six layers across multiple countries is exponentially harder than any single layer
+- **NVIDIA concentration** — single supplier dependency; allocation crunches favor hyperscalers over Brookfield
+- **Valuation already reflects AI thesis** — BAM/BN have rallied; how much AI premium is already priced in?
+
+### The historical analogy
+
+Brookfield is attempting what **J.P. Morgan did for railroads** and **infrastructure funds did for telecom**: provide the financial intermediation layer that makes a massive capital-intensive buildout possible. The AI buildout ($7T over a decade) is too large for tech companies to fund from cash flow alone. Someone has to intermediate between long-term capital (pension funds, sovereign wealth) and short-term infrastructure needs (GPUs, power, data centers). Brookfield is betting that "someone" is them.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
