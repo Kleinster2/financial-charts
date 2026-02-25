@@ -162,26 +162,19 @@ Anthropic and the Pentagon are in an escalating standoff over a ~$200M contract 
 - Feb 13: Axios/WSJ reported Claude was used during the [[Maduro capture operation]] (via [[Palantir]]). An Anthropic employee subsequently asked [[Palantir]] how Claude was being used in the operation
 - Feb 15: Axios exclusive - Pentagon "fed up," threatening to cut Anthropic entirely. Administration official: "everything's on the table… but there'll have to be an orderly replacement"
 - Feb 17-18: Escalation - Pentagon reviewing entire Anthropic partnership, may ask contractors to **certify they don't use Claude**. Pentagon now designates Anthropic a **"supply-chain risk"** - a term typically reserved for foreign adversaries
+- Feb 23: Hegseth summoned [[Dario Amodei]] to the Pentagon for a Tuesday morning meeting
+- Feb 24: Tense meeting. Hegseth set **Friday 5:01 PM ET deadline** (Feb 28). Told Dario no private company will dictate how the Pentagon makes operational decisions. Threatened two penalties: invoke the **[[Defense Production Act]]** to compel Claude deployment regardless of consent, and label Anthropic a **supply-chain risk** (normally reserved for foreign adversaries like [[Huawei]]). Anthropic spokesperson called it a "good-faith conversation"
+- Feb 25: Anthropic "digs in heels" — no plans to comply. [[xAI]] approved for classified network deployment — Pentagon now has a second supplier. Dario noted valuation and revenue have only grown since taking this stand
 
-**Pentagon's position:** Commercial AI should be deployable for all lawful purposes - the military, not tech companies, decides how purchased technology gets used. Not willing to negotiate case-by-case or accept unexpected model blocks. The categories in dispute (autonomous weapons, domestic surveillance) have "considerable grey area."
+See [[Pentagon AI access dispute 2026]] for the full event arc — DPA legal analysis, competitive dynamics, congressional vacuum, investor implications.
 
-**Anthropic's position:** [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries." Spokesperson: "committed to using frontier AI in support of US national security" - first frontier AI company deployed on classified networks. Company says conversations have focused on usage policy questions, not specific operations.
+**Anthropic's position:** Two hard red lines: no autonomous weapons, no mass surveillance of Americans. Willing to allow missile defense, cyber defense, and other specific uses. [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries."
 
-**Competitive dynamics:** [[OpenAI]], [[Google]], and [[xAI]] have all agreed to deploy for all lawful military uses - Anthropic alone has not. All three rivals are negotiating classified network deployment without standard restrictions.
+**Pentagon's position:** "All lawful use" without case-by-case negotiation. Commercial AI should be deployable the same way any purchased technology is — the military decides.
 
-**Political liability:**
-- [[Dario Amodei]] called [[Donald Trump|Trump]] a "feudal warlord" pre-election and criticized chip sales policies at Davos
-- [[Daniela Amodei]] posted about [[ICE]] killing American citizens
-- Anthropic hired former Biden AI adviser [[Ben Buchanan]] and former [[NSC]] official [[Tarun Chhabra]]
-- [[1789 Capital]] (pro-Trump VC where Trump's son is a partner) declined a nine-figure Anthropic investment citing ideological concerns - Anthropic leaders' Trump criticism, Biden officials on payroll, AI regulation lobbying
-- [[Omeed Malik]] ([[1789 Capital]]) at a defense summit: "I'm not gonna embarrass anyone, cough, Anthropic" - crowd laughed
-- [[Dean Ball]] (ex-Trump AI policy adviser): "It would be hard to think of a more strategically unwise move for the U.S. military" (re: cutting Anthropic)
+**Competitive dynamics:** [[OpenAI]], [[Google]], and [[xAI]] have all agreed to deploy for all lawful military uses — Anthropic alone has not. [[xAI]] now approved for classified networks (Feb 25), breaking Anthropic's monopoly.
 
-**Olive branch:** Anthropic added [[Chris Liddell]] (Trump 1st term deputy chief of staff) to its board in Feb 2026 - a political bridge-building move.
-
-**Investor implications:** The $200M contract itself is immaterial vs. $14B run rate. But the "supply-chain risk" designation is extraordinary - equating Anthropic with foreign adversaries. If the Pentagon follows through, it would create a chilling effect across the entire defense/intelligence AI market. Conversely, capitulating would undermine the safety brand that differentiates Anthropic from competitors and justifies its $380B valuation premium. The dispute broke just 3 days after the $30B Series G close - investors bought into the safety-differentiated thesis. The [[1789 Capital]] rejection signals political risk is now extending to the fundraising pipeline.
-
-*Sources: Axios (Feb 13, Feb 15, Feb 18), Reuters (Feb 12, Feb 15), WSJ (Feb 14, Feb 18), Semafor (Jan 16), Reuters (Jan 30), Livemint (Feb 15)*
+*Sources: Axios (Feb 13, 15, 16, 24), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24), NBC (Feb 13, 18)*
 
 ---
 
@@ -468,7 +461,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-02-17*
+*Updated 2026-02-25*
 
 ## Cowork competitive reception across verticals (Feb 2026)
 
@@ -545,7 +538,8 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Clean energy for AI]] - grid infrastructure pledge context
 - [[Palantir]] - Pentagon contract partner (~$200M)
 - [[Maduro capture 2026]] - Claude used in operation via Palantir
-- [[Pete Hegseth]] - Defense Secretary, criticized Anthropic's safeguards
+- [[Pentagon AI access dispute 2026]] - ultimatum, DPA threat, classified access at stake
+- [[Pete Hegseth]] - Defense Secretary, issued Friday deadline
 - [[India AI Impact Summit 2026]] - Bengaluru office, [[Infosys]] partnership
 - [[Infosys]] - enterprise AI agent deployment partner (India)
 - [[Horizontal vs vertical AI]] - platform vs specialist debate triggered by Cowork
