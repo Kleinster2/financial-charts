@@ -105,8 +105,8 @@
 
 ## Related
 
-### Sectors
-- [[SaaS]] — sector overview
+### Concepts
+- [[SaaS]] — business model overview
 
 ### Concepts
 - [[Subscription economy]] — business model
