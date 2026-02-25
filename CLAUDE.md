@@ -190,6 +190,13 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
   Fix errors before moving on. Warnings (dead links) are expected for new notes.
 - **Create stubs for dead links** — after compliance check, create minimal stub notes for any dead-linked entities. Stubs need: frontmatter with aliases, tags, one-line description, Quick stats table, Related section.
 
+### Note Formatting
+
+- Do NOT use bold (`**text**`) inside note bodies except for section headers and the note name on its first appearance in the body
+- All entity references must use `[[wikilinks]]`
+- Private companies must be tagged appropriately in frontmatter
+- Always include a funding rounds table where funding data exists — this applies to private companies and to the pre-IPO history of public companies
+
 ### Evolution Section (Actor Notes)
 
 Company, country, and institution actor notes should include an **Evolution** section — the key inflection points that explain why the entity looks the way it does today. Not a full history, but the strategic genealogy: pivotal acquisitions, divestitures, crises, pivots, and regime changes that shaped current positioning.

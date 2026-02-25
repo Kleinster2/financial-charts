@@ -66,6 +66,30 @@ These aren't always formal warrants, but the same mechanic: equity or quasi-equi
 
 ---
 
+## Two-way players
+
+Some tech companies are large enough to sit on **both sides** of equity-for-infrastructure deals — as buyer of someone else's infrastructure *and* as seller/platform locking in demand. The direction of equity flow reverses depending on which side they're on.
+
+| Company | As buyer (gives equity/cash) | As seller (receives commitment/equity) |
+|---------|------------------------------|---------------------------------------|
+| **[[Microsoft]]** | $13B → 27% of [[OpenAI]] | OpenAI commits $250B to Azure |
+| **[[Amazon]]** | $6.75B → [[Anthropic]] equity | AWS gets exclusive cloud commitment; receives warrants from [[STMicro]], [[Rivian]], [[Plug Power]] |
+| **[[Google]]** | ~$2B → [[Anthropic]] equity; subsidized cloud credits for startups | GCP gets Anthropic as secondary cloud; [[TPU]] ecosystem lock-in |
+
+**Microsoft** is the most intertwined — the same deal simultaneously gives equity (buying the AI lab's loyalty) *and* locks in $250B of demand (selling cloud). Buyer and seller in one transaction.
+
+**Amazon** does it as separate deals — investing in Anthropic on the buy side, extracting warrants from suppliers on the sell side. See [[Amazon commercial warrants]].
+
+**Google** is less formal — it subsidizes cloud credits rather than issuing structured warrants, but the economic logic is identical: equity-like consideration exchanged for ecosystem commitment.
+
+### Who's absent
+
+**[[Meta]]** — purely a buyer. Doesn't sell cloud to third parties, so it only appears on the buy side (NVIDIA deal, AMD deal). If Meta ever opens its infrastructure to third parties, expect it to flip to both sides.
+
+**[[NVIDIA]]** — purely a seller. ~90% GPU market share means it doesn't need to offer equity to anyone. **The day NVIDIA starts offering warrants or strategic equity to lock in customers is the signal that the GPU monopoly is genuinely under threat.** Watch for this.
+
+---
+
 ## The reflexivity problem
 
 What makes tech equity-for-infrastructure unique is **reflexivity**: the deal changes the value of the equity being exchanged.
