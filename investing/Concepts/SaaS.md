@@ -69,7 +69,8 @@ The market is repricing which SaaS categories survive AI agents:
 
 China's SaaS market operates under fundamentally different dynamics:
 
-- Lower ARPUs — SMBs resist paying for software when free alternatives exist
+- Cheap engineering talent inverts build-vs-buy — in the US, a $50/seat/month SaaS tool beats diverting a $200K/year engineer to build internally; in China, large enterprises (especially SOEs) maintain huge IT departments that build custom solutions for less than the subscription would cost
+- Lower ARPUs — the build-vs-buy inversion means SaaS vendors can't charge US-level prices even though their own labor costs are also lower
 - Platform bundling — [[WeChat]]/[[DingTalk]]/[[Feishu]] bundle SaaS-like tools for free, compressing standalone TAM
 - Government/SOE customers dominate enterprise spend, creating lumpy, relationship-driven sales cycles
 - [[Xinchuang]] (foreign software replacement mandate) creates captive demand for domestic vendors through 2027
