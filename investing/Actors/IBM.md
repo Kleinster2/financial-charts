@@ -191,6 +191,40 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 
 ---
 
+## Feb 23, 2026: Anthropic COBOL shock — worst day since 2000
+
+IBM fell **-13.2%** ($223.35) — wiping ~$40B in market cap — after [[Anthropic]] published a blog post claiming [[Claude Code]] could automate COBOL modernization. Stock down **-26% in February alone**, worst month since at least 1968. Rebounded +2% the next day on Anthropic's enterprise partnership announcements.
+
+### Why COBOL matters to IBM
+
+COBOL (Common Business-Oriented Language, 1959) is IBM's deepest moat:
+- **95% of US ATM transactions** run on COBOL
+- Hundreds of billions of lines in production daily — finance, airlines, government
+- The number of COBOL developers **shrinks every year** (average age ~60+)
+- Enterprises pay IBM massive recurring fees to maintain mainframe COBOL systems because **nobody else can touch the code**
+- Mainframe revenue growing +6% YoY (z16 cycle outperforming prior generations)
+- Infrastructure segment (~$14B/yr) is heavily tied to this lock-in
+
+### The Anthropic claim
+
+Claude Code can:
+- Map dependencies across thousands of lines of COBOL
+- Document workflows and identify risks that "would take human analysts months to surface"
+- Automate the exploration/analysis work that drives most modernization complexity
+- "AI flips the equation" — understanding legacy code used to cost more than rewriting it
+
+### IBM's response
+
+Rob Thomas (IBM Software & Chief Commercial Officer) blogged same day: **"Translating COBOL code isn't equivalent to modernizing enterprise systems."** Platform architecture, not the programming language, determines mainframe value. The argument: even if AI can read/translate COBOL, migrating off mainframes requires re-engineering integration points with every upstream/downstream system, recreating operational procedures, disaster recovery, and security controls.
+
+### The real question
+
+IBM is right that COBOL translation ≠ mainframe migration. But the threat isn't that customers migrate *tomorrow* — it's that **AI removes the last barrier to even considering it**. The COBOL talent shortage was the moat. If Claude Code can do what aging COBOL developers do, the conversation shifts from "we can't migrate" to "should we migrate?" That's an existential change in enterprise planning, even if actual migrations take 5-10 years.
+
+This is the same pattern as [[Teleperformance]]: the **threat of AI replacement** destroys equity value long before AI actually replaces the business.
+
+---
+
 ## Investment implications
 
 **Bull case:**
@@ -200,10 +234,12 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 - Dividend stability
 
 **Bear case:**
+- **COBOL/mainframe moat eroding** — AI removes talent scarcity barrier to migration consideration
 - Legacy business declining
 - Cloud competition intense
 - Watson overpromised historically
 - Slow growth overall
+- Stock -26% in Feb 2026 alone — market pricing in disruption risk
 
 ---
 
@@ -232,6 +268,9 @@ Watson Jeopardy was early AI milestone but overhyped commercially.
 - [[TSMC]] — research partner
 - [[Samsung]] — research partner
 - [[GlobalFoundries]] — former subsidiary (spun off)
+- [[Anthropic]] — COBOL disruption threat (Feb 2026), Claude Code modernization claims
+- [[February 2026 AI Disruption Cascade]] — IBM -13% on COBOL shock (Week 3)
+- [[Teleperformance]] — parallel: AI threat destroys equity value before actual replacement
 - [[AI hyperscalers]] — adjacent category
 - [[Illinois Quantum and Microelectronics Park]] — quantum partner
 - [[Chicago Quantum Exchange]] — quantum research investor
