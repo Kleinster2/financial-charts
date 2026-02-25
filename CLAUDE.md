@@ -146,6 +146,25 @@ Exceptions, fallbacks, and plugin limitations: see `docs/chart-api.md` and `inve
 
 ---
 
+## Known Limitations
+
+Dead ends that recur across sessions. Do NOT attempt these — use the documented workarounds.
+
+### Web Access
+- **SEC EDGAR**: WebFetch gets 403'd. ALWAYS use `python scripts/parse_sec_filing.py TICKER` — never attempt WebFetch on sec.gov URLs.
+- **Bloomberg**: Blocked via both WebFetch (403/paywall) AND Playwright (no browser cookies). There is no automated workaround — ask the user to paste article text or provide a summary.
+- **Paywalled data sources**: PitchBook, cbonds, Fitch credit reports, SPAC Research — do not attempt to scrape. Ask the user for the data or use alternative free sources.
+- **Playwright and authenticated sites**: Playwright uses its own browser context without cookies. It cannot access any site the user is logged into via Chrome. Use the Claude-in-Chrome MCP tools for authenticated browsing instead.
+
+### Data Pipeline
+- **Alpha Vantage rate limit (25/day free tier)**: `fetch_fundamentals.py` silently "succeeds" but stores 0 rows when rate-limited. The API returns a rate-limit message that the script doesn't detect. This produces 44-byte error JSON files that crash image reading. **Workaround**: manually insert fundamentals from StockAnalysis.com via SQL. If a chart returns a 44-byte file, do not attempt to re-fetch — Alpha Vantage is likely rate-limited for the day.
+- **44-byte chart files**: Any chart output under 1KB is an error JSON, not a PNG. **Hard gate**: always check file size with `wc -c` BEFORE attempting to Read as an image. Never read a sub-1KB "chart" file.
+
+### Windows/Environment
+- **Background Flask server**: `python charting_app/app.py &` does NOT work on Windows/Git Bash (`APP_PID=: command not found`). ALWAYS use `app.test_client()` for smoke testing. Never attempt `&` background processes.
+
+---
+
 ## Daily News Workflow
 
 Use `/news` skill for the full ingestion workflow (source discovery, date gate, article ingestion, earnings check, compliance). See `.claude/skills/news/SKILL.md`.
