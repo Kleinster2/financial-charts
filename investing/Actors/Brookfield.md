@@ -125,6 +125,23 @@ Key: Launched **inaugural AI infrastructure fund** in 2025. With $188B deployabl
 
 ---
 
+## Feb 24, 2026: Ori acquisition → Radiant launch
+
+Acquired UK cloud-computing firm **[[Radiant (Brookfield)|Ori Industries]]** (backed by [[Saudi Aramco]] Ventures), merged it into **[[Radiant (Brookfield)|Radiant]]** — a new GPU-as-a-service company.
+
+- **Model:** Take-or-pay GPU leasing to investment-grade customers across ~5-year chip life
+- **GPU supplier:** [[NVIDIA]] (including forthcoming [[Rubin]] chips)
+- **Target:** Sovereign cloud, Europe initially, Middle East expansion
+- **AI capex thesis:** Brookfield estimates $7T total AI investment needed, $3T for compute
+- **Fund context:** First deployment from AI infrastructure fund (seeking $10B commitments, up to $100B with leverage)
+- Also investing up to **$5B in [[Bloom Energy]]** (fuel cells for data centers)
+
+Sikander Rashid (Head of AI Infrastructure): "I think of it as a leasing business."
+
+See [[Radiant (Brookfield)]] for full details.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -140,6 +157,8 @@ Key: Launched **inaugural AI infrastructure fund** in 2025. With $188B deployabl
 
 ## Related
 
+- [[Radiant (Brookfield)]] — GPU-as-a-service (Ori Industries acquisition, Feb 2026)
+- [[Bloom Energy]] — $5B fuel cell investment for data centers
 - [[American Equity]] — annuity platform ($130B assets, acquired $4.3B Apr 2024)
 - [[Reinsurance sidecars]] — permanent capital model via insurance
 - [[Blackstone]] — peer (alternative asset manager)
