@@ -164,6 +164,46 @@ See [[Teleperformance]] for full deep dive including bull/bear case.
 
 ---
 
+## Week 4: The Anthropic reversal (Feb 24)
+
+**Anthropic enterprise agents event — the same company that started the cascade now reverses it**
+
+| Detail | |
+|--------|---|
+| Trigger | Anthropic announced Claude Cowork partnerships with [[Intuit]], [[Salesforce]]/Slack, [[DocuSign]], [[LegalZoom]], [[FactSet]], Gmail |
+| Market reaction | **Software stocks rallied sharply** — the first major bounce since the cascade began |
+
+| Stock | Feb 24 move |
+|-------|-------------|
+| [[Thomson Reuters]] | **+11%** |
+| [[FactSet]] | +6% |
+| [[Salesforce]] | +4% |
+| [[DocuSign]] | +2% |
+| [[LegalZoom]] | +2% |
+| [[IBM]] | +2% (reversal from -13% the day before) |
+| Cybersecurity (OKTA, NET, ZS, TENB, S) | +2-4% bounce |
+
+### The narrative flip
+
+Three weeks earlier, Anthropic's Cowork Plugins launch **triggered** the SaaSpocalypse — $611B wiped from software stocks. Now the same company's partnership announcements **reversed** it. The message shifted from "AI replaces software" to "AI augments software."
+
+**Wedbush:** AI competition risk is "overblown" — models can't replace workflows "deeply embedded" in software infrastructure. "These new AI tools will not rip and replace existing software ecosystems."
+
+### Why it matters
+
+The Intuit deal is the template. Rather than Claude replacing TurboTax/QuickBooks, Anthropic is embedding Intuit's domain expertise *inside* Claude via [[MCP]] integrations. Both companies benefit:
+- **Intuit** gets distribution through Claude's user base + AI-powered agents on its platform
+- **Anthropic** gets trusted financial data/tools that make Claude more useful
+- **Mid-market businesses** get custom AI agents built on Intuit's compliance framework
+
+This is the **"if you can't beat them, join them"** moment. The market realized that AI labs need software companies' data, compliance, and domain expertise — creating partnership value, not just displacement.
+
+### Caveat
+
+The bounce may be temporary. Partnerships don't prevent long-term disruption — they may just slow it. If Claude becomes the interface and Intuit becomes a back-end data provider, Intuit's pricing power could still erode over time. The stock is still -47% YTD despite the bounce.
+
+---
+
 ## Open questions
 
 1. **Is the market trigger-happy or prescient?** Transport stocks bounced back quickly. Will software/payments follow, or is this structural?

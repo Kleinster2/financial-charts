@@ -553,3 +553,5 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Harvey]] - legal AI specialist, uses Claude underneath
 - [[Legora]] - legal AI, dismissed Cowork plug-ins
 - [[Luminance]] - legal AI, domain-specific value argument
+- [[Intuit]] - multi-year partnership (Feb 24, 2026): MCP integrations, Claude Agent SDK, custom AI agents
+- [[February 2026 AI Disruption Cascade]] - both caused it (Cowork Plugins) and reversed it (enterprise partnerships)

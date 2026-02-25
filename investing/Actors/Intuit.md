@@ -103,8 +103,25 @@ aliases: [INTU]
 
 ---
 
+## Feb 24, 2026: Anthropic partnership
+
+Multi-year deal with [[Anthropic]] — the biggest narrative reversal in the [[February 2026 AI Disruption Cascade]]:
+
+- **MCP integrations** — TurboTax, Credit Karma, QuickBooks, Mailchimp surfaced inside Claude, Cowork, and Claude for Enterprise
+- **Custom AI agents** — mid-market businesses can build industry-specific agents on Intuit's platform using Claude Agent SDK
+- **Claude Code deployment** — Intuit rolling out across engineering organization
+- **Rolling out spring 2026**
+
+Stock bounced on the news after being **-47% YTD** from the SaaSpocalypse. The market read: AI labs *need* software companies' domain expertise and compliance frameworks. Partnership > replacement.
+
+**The strategic shift:** Intuit went from being an AI *victim* (Cowork could replace tax/accounting workflows) to an AI *partner* (Intuit's financial intelligence embedded inside Claude). Whether this is a sustainable moat or a slow-motion commoditization into a back-end data provider remains the key question.
+
+---
+
 ## Related
 
+- [[Anthropic]] — multi-year partnership (Feb 2026), MCP integrations
+- [[February 2026 AI Disruption Cascade]] — INTU was -47% YTD before partnership bounce
 - [[HubSpot]] — SMB peer
 - [[SaaS]] — sector
 
