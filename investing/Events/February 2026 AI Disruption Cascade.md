@@ -112,6 +112,7 @@ Every sub-event hit the **distribution/advisory/middleware layer**, not the prod
 | Wealth advisory | Schwab, Raymond James, LPL | Interactive Brokers (execution) |
 | SaaS workflows | ServiceNow, Salesforce, Intuit | Infrastructure (AWS, Azure) |
 | Payments intermediation | Visa, Mastercard, AmEx | — |
+| Customer service outsourcing | [[Teleperformance]], [[Concentrix]] | — |
 | Private credit to SaaS | Apollo, Blue Owl, KKR | — |
 
 The market learned to ask one question: **"Is this company's revenue a function of human friction?"** If yes, sell.
@@ -141,6 +142,25 @@ IGV (software ETF): **-30% YTD**, back to pre-ChatGPT levels.
 - **Jordan Rizzuto** (GammaRoad): *"Be careful what kind of rotation you wish for"*
 - **Jim Cramer:** *"I can't help but grow more pessimistic when I see how easily a piece of science fiction can crush the market as if it's science fact"*
 - **DoorDash co-founder Andy Fang:** *"The ground is shifting underneath our feet"*
+
+---
+
+## Ongoing: BPO sector (Feb 24+)
+
+**[[Teleperformance]] short interest surge**
+
+| Detail | |
+|--------|---|
+| Signal | Short interest rose to **6.4%** (from 3.8% in late Jan), vs 2.4% EU tech-services avg |
+| Stock | Down **85% from €402 ATH** (Jan 2022) to ~€60 |
+| Context | The OG AI disruption victim — [[Klarna]] chatbot crash (Feb 2024) was the first concrete proof point |
+| Pattern | Labor intermediaries — companies profiting from cheap human labor that AI directly replaces |
+| Catalyst | Rising evidence from [[Klarna]], [[Insurify]], and others that AI chatbots handle 60-70% of customer interactions |
+| Upcoming | TEP earnings Thursday Feb 27 — next data point |
+
+Teleperformance is the **canary that's been dying longest**. Unlike the SaaSpocalypse stocks (which crashed suddenly in Feb 2026), TEP has been in a slow-motion collapse since early 2024. It validates the Citrini thesis: AI disruption doesn't need to be sudden — gradual replacement of intermediary labor is equally destructive to equity value.
+
+See [[Teleperformance]] for full deep dive including bull/bear case.
 
 ---
 
