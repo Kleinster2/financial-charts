@@ -235,6 +235,29 @@ Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-rep
 
 **Next catalyst: March 20 shareholder vote on Netflix merger.**
 
+### Feb 24 — Paramount bids $31/share; WBD board reopens door, Netflix deal in doubt
+
+**Paramount submitted its "best and final" at $31/share all-cash** (below the $32 insiders expected) — for the entire company. WBD board confirmed receipt and is now weighing whether to declare it a "Superior Proposal" vs. the Netflix $27.75/share deal.
+
+**Key developments:**
+- **$31/share for all of WBD** vs Netflix's $27.75 for studios + HBO only (Discovery Global spins off separately under Netflix deal)
+- If WBD board deems Paramount's offer superior, **Netflix has 4 business days to match or improve** its bid under the merger agreement
+- **Theater-owner groups** warned that the Netflix–WB merger could harm theatrical film distribution
+- **Ancora Holdings** continues pressing board to engage seriously with Paramount; called prior engagement inadequate
+- **Pentwater Capital** (one of WBD's largest shareholders) backs Paramount; CEO Matt Halbower floated as potential WBD board nominee in proxy contest
+- **Reuters (Feb 25):** "Warner Bros reopens door to Paramount, putting Netflix deal in doubt" — strongest signal yet that board may flip
+
+**What happens next:**
+1. WBD board evaluates Paramount's $31 bid — could take days
+2. If declared "Superior Proposal" → Netflix gets 4-day matching right → potential bidding war
+3. If Netflix doesn't match → WBD pays $2.8B breakup fee to Netflix, pivots to Paramount
+4. If board sticks with Netflix → March 20 shareholder vote proceeds (activist opposition from Ancora/Pentwater)
+5. Sarandos signaled discipline: "willing to walk away and let someone else overpay"
+
+**Market implications:** The gap between Paramount ($31) and Netflix ($27.75) is ~12%. Netflix would need to raise significantly to match on a whole-company basis. The real question is whether Netflix's partial-acquisition structure (studios+HBO only) can compete with Paramount's full-company offer.
+
+**Next catalyst: WBD board decision on "Superior Proposal" designation → Netflix 4-day matching period → March 20 shareholder vote.**
+
 ---
 
-*Updated 2026-02-23*
+*Updated 2026-02-25*
