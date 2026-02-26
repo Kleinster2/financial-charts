@@ -393,6 +393,22 @@ Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Ma
 
 **SBC-adjusted FCF (2025):** $43.6B reported − $20.4B SBC = ~$23.2B. At ~$1.7T market cap, that's a ~1.4% adjusted FCF yield vs. ~2.6% headline.
 
+### Mag 7 SBC comparison (most recent full year)
+
+| Company | Period | SBC | FCF | Adj FCF | Mkt Cap | FCF Yield | Adj Yield | SBC/Buybacks |
+|---------|--------|-----|-----|---------|---------|-----------|-----------|--------------|
+| [[Apple]] | FY25 (Sep) | $12.9B | $98.8B | $85.9B | $4.0T | 2.5% | 2.2% | 14% |
+| [[NVIDIA]] | FY26 (Jan) | $6.4B | $96.7B | $90.3B | $4.5T | 2.1% | 2.0% | 16% |
+| [[Microsoft]] | FY25 (Jun) | $12.0B | $71.6B | $59.6B | $3.0T | 2.4% | 2.0% | 65% |
+| [[Alphabet]] | CY25 | $25.0B | $73.3B | $48.3B | $3.7T | 2.0% | 1.3% | 55% |
+| **[[Meta]]** | **CY25** | **$20.4B** | **$43.6B** | **$23.2B** | **$1.7T** | **2.6%** | **1.4%** | **68%** |
+| [[Amazon]] | CY25 | $19.5B | $7.7B | −$11.8B | $2.2T | 0.3% | neg | no buybacks |
+| [[Tesla]] | CY25 | $2.8B | $6.2B | $3.4B | $1.5T | 0.4% | 0.2% | no buybacks |
+
+*Adj FCF = FCF − SBC. SBC/Buybacks = % of buybacks that merely offset dilution. Market caps as of Feb 26, 2026. Sources: company 10-K/10-Q filings via StockAnalysis.*
+
+Among companies actively managing dilution through buybacks, Meta has the worst sterilization ratio — 68% of its $30.1B in repurchases merely offset SBC grants, vs. 14% at [[Apple]] and 16% at [[NVIDIA]]. [[Alphabet]] ($25.0B) has the largest SBC in absolute terms but better sterilization thanks to larger buybacks. [[Amazon]]'s SBC ($19.5B) exceeds its FCF ($7.7B), making adjusted FCF negative — masked by its decision not to buy back shares.
+
 **Equity award cuts:** Meta cut stock awards ~5% in Feb 2026 (after 10% cut in 2025), redirecting savings to AI capex. May accelerate employee churn to competitors.
 
 **Why Meta borrows despite profitability:** Debt is partly to fund buybacks needed to sterilize SBC. Interest on AA-rated debt (~4-5%) is cheaper and tax-deductible vs. the dilution cost of letting SBC flow through. This explains the zero-to-$59B debt trajectory since 2021.
