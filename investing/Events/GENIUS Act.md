@@ -53,9 +53,30 @@
 
 ---
 
+## Implementation timeline
+
+Regulators expected to finalize licensing, custody, and compliance requirements by **July 18, 2026** (one-year anniversary). OCC has begun granting conditional bank charters to stablecoin firms — [[Stripe]]'s Bridge subsidiary received one in Feb 2026.
+
+---
+
+## Meta stablecoin integration (Feb 2026)
+
+The GENIUS Act's regulatory clarity is enabling the largest potential stablecoin deployment yet: [[Meta]] is testing stablecoin payments across Facebook, Instagram, and WhatsApp for H2 2026, with [[Stripe]]/Bridge as the likely infrastructure partner. 3.5B daily active users. Focus on creator payouts and ~$100 cross-border transfers.
+
+This is precisely what the Act was designed to unlock — Big Tech adopting USD stablecoins as payment rails, reinforcing dollar dominance in digital commerce. [[Circle]] (USDC) is the likely beneficiary as the primary regulated, US-compliant stablecoin.
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-testing-stablecoin-payments-as-digital-currencies-take-off)
+
+---
+
 ## Related
 
-- [[Circle]] — primary beneficiary
+- [[Circle]] — primary beneficiary (USDC fully compliant, IPO'd Jun 2025)
+- [[Stripe]] — Bridge subsidiary received OCC charter (Feb 2026), leading Meta's stablecoin integration
+- [[Meta]] — testing stablecoin payments for 3.5B users (H2 2026)
+- [[Coinbase]] — USDC revenue share partner
+- [[Tether]] — offshore competitor under pressure
+- [[PayPal]] — PYUSD legitimized
 - [[US-China financial war]] — geopolitical context
 - [[Digital Yuan]] — the competitor
 - [[Trump II]] — administration policy
@@ -63,4 +84,4 @@
 
 ---
 
-*Created 2026-01-09*
+*Updated 2026-02-25*
