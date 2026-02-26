@@ -60,6 +60,23 @@ Modest recovery after challenging 2025 (ISM PMI at 47.9).
 
 ---
 
+## Trump II reversal (2025-26)
+
+Despite rhetoric about "factories pouring into the US," manufacturing has weakened under the second Trump administration:
+
+| Metric | Trend |
+|--------|-------|
+| Manufacturing employment | **Down** since inauguration |
+| Manufacturing construction spending | **Declining** (post-Biden peak) |
+| ISM PMI | Contractionary (47.9 in 2025) |
+| Job growth (total economy) | 15K/month avg vs 122K under Biden |
+
+**Key driver:** No replacement for [[CHIPS Act]] and [[IRA]] investment catalysts. Tariff uncertainty discouraging capex. WSJ reporting extensively on manufacturing jobs slump.
+
+→ See [[2026 State of the Union economic claims]] for Rattner's data breakdown
+
+---
+
 ## Challenges
 
 | Challenge | Impact |
