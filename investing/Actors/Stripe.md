@@ -3,7 +3,7 @@ aliases: []
 ---
 #actor #fintech #payments #usa #private
 
-**Stripe** — Payments infrastructure. $129B valuation. $1.4T processed. Profitable. No IPO planned.
+**Stripe** — Payments infrastructure. $159B valuation. $1.4T processed. Profitable. No IPO planned.
 
 ---
 
@@ -11,7 +11,7 @@ aliases: []
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **$129B** (Dec 2025) |
+| Valuation | **$159B** (Feb 2026) |
 | 2024 revenue | $5.1B |
 | 2025E revenue | ~$5.8B |
 | Payment volume | **$1.4T** (2024) |
@@ -29,7 +29,8 @@ aliases: []
 | Mar 2023 | $50B | Series I (down round) |
 | Feb 2025 | $91.5B | Tender offer |
 | Sep 2025 | $106.7B | Tender offer |
-| Dec 2025 | **$129B** | Implied |
+| Dec 2025 | $129B | Implied |
+| Feb 2026 | **$159B** | Share sale |
 
 ### Key investors
 
@@ -123,6 +124,30 @@ Link is a network effect play — more users = more merchants adopt = more users
 
 ---
 
+## Bridge acquisition & stablecoin infrastructure
+
+**Stripe acquired Bridge for ~$1.1B (Oct 2024)** — stablecoin orchestration platform that lets businesses accept, hold, and send dollar-backed stablecoins. Bridge received conditional OCC approval for a national trust bank charter in Feb 2026.
+
+**Why it matters:** Positions Stripe as the infrastructure layer for stablecoin payments — businesses integrate once with Stripe, get stablecoin rails without handling crypto compliance directly.
+
+### [[Meta]] stablecoin partnership (Feb 2026)
+
+[[Meta]] is integrating stablecoin-based payments across Facebook, Instagram, and WhatsApp, targeting H2 2026. Stripe/Bridge is the leading infrastructure partner:
+
+- **Patrick Collison joined [[Meta]] board** (Apr 2025) — deepened strategic relationship
+- [[Meta]] issued RFPs to external infrastructure firms; Stripe is front-runner
+- Focus: **creator payouts** and **~$100 cross-border transfers** for 3.5B daily active users
+- [[Meta]] not issuing own token — using Stripe as distribution partner at "arm's length"
+- Successor to [[Meta]]'s failed Libra/Diem project (wound down 2022)
+
+**Scale:** If adopted across Meta's apps, instantly the largest stablecoin payments network globally. Creator economy alone (~$50B annually across platforms) is a massive addressable flow.
+
+**Regulatory tailwind:** Friendlier US crypto environment under Trump. [[GENIUS Act]] implementation expected by July 2026. OCC granting bank charters to crypto firms.
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-testing-stablecoin-payments-as-digital-currencies-take-off), [CoinDesk](https://www.coindesk.com/business/2026/02/24/mark-zuckerberg-s-meta-is-planning-stablecoin-comeback-in-the-second-half-of-this-year)
+
+---
+
 ## AI customers
 
 | Company | Relationship |
@@ -150,10 +175,11 @@ Link is a network effect play — more users = more merchants adopt = more users
 ## Investment case
 
 **Bull:**
-- $129B valuation, growing
+- $159B valuation, growing
 - $1.4T payment volume
 - AI customers driving growth
 - **Link** — 200M user checkout network, +7-14% conversion lift
+- **Bridge/stablecoin** — infrastructure layer for crypto payments, OCC charter, [[Meta]] as anchor client
 - Profitable (2024)
 - Developer-first moat
 
@@ -163,6 +189,7 @@ Link is a network effect play — more users = more merchants adopt = more users
 - Take rate pressure
 - No IPO catalyst
 - Valuation premium
+- Meta partnership unconfirmed — RFP stage, not signed
 
 ---
 
@@ -170,15 +197,20 @@ Link is a network effect play — more users = more merchants adopt = more users
 
 | Metric | Value |
 |--------|-------|
-| Valuation | $129B |
+| Valuation | $159B (Feb 2026) |
 | Revenue | ~$5.8B (2025E) |
 | Volume | $1.4T |
+| Bridge acquisition | ~$1.1B (Oct 2024) |
+| OCC charter | Conditional (Feb 2026) |
 | Status | Private |
 
 ---
 
 ## Related
 
+- [[Meta]] — stablecoin payments partner (H2 2026 target). Collison on Meta board (Apr 2025). 3.5B DAU distribution
+- [[Circle]] — USDC issuer, potential stablecoin supplied via Bridge
+- [[GENIUS Act]] — stablecoin regulatory framework, implementation expected July 2026
 - [[Checkout wars]] — Link competing for checkout button
 - [[Shop Pay]] — powers Shopify Payments, both winning vs PayPal
 - [[Apple Pay]] — checkout competitor
@@ -195,4 +227,4 @@ Link is a network effect play — more users = more merchants adopt = more users
 - [CNBC Valuation](https://www.cnbc.com/2025/02/27/stripes-valuation-climbs-to-91point5-billion-in-secondary-stock-sale-.html)
 - [Motley Fool](https://www.fool.com/investing/how-to-invest/stocks/how-to-invest-in-stripe/)
 
-*Created 2026-01-09*
+*Updated 2026-02-25*

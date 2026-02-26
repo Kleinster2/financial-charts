@@ -284,6 +284,30 @@ See [[Wearable AI]] for competitive landscape.
 
 ---
 
+## Stablecoin payments (Feb 2026)
+
+**Meta testing stablecoin-based payments for H2 2026 launch:**
+
+- Issued RFPs to external infrastructure firms for stablecoin integration across Facebook, Instagram, and WhatsApp
+- **[[Stripe]]** is leading candidate — CEO Patrick Collison joined Meta board April 2025
+- [[Stripe]] acquired Bridge (stablecoin infrastructure) for ~$1.1B in Oct 2024; Bridge received conditional OCC national trust bank charter Feb 2026
+- **Not issuing own token** — Meta as distribution channel, not issuer. "They want to do this, but at arm's length"
+- Focus: **creator payouts** and **~$100 cross-border transfers**
+- New wallet implementation planned
+- Meta officially denied "re-entering" the stablecoin business — framing as payments integration
+
+**Scale:** 3.5B daily active users — if adopted, instantly the largest stablecoin payments network globally.
+
+**History:** Meta's 2019 Libra project (later rebranded Diem) was killed by regulatory opposition. [[Kevin Weil]] co-created Libra during his 2018-2021 tenure at Facebook/Novi. Diem assets sold to Silvergate for $182M in Jan 2022.
+
+**Regulatory context:** Friendlier US crypto environment under Trump. Congress actively working on stablecoin legislation. OCC granting bank charters to crypto firms.
+
+**Open questions:** Which stablecoins supported, onchain vs abstracted payouts, wallet custody model, non-US markets first as regulatory sandbox.
+
+Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-testing-stablecoin-payments-as-digital-currencies-take-off), [CoinDesk](https://www.coindesk.com/business/2026/02/24/mark-zuckerberg-s-meta-is-planning-stablecoin-comeback-in-the-second-half-of-this-year)
+
+---
+
 ## GPU deployment bottleneck
 
 Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment bottleneck]].
@@ -454,6 +478,9 @@ See [[Short interest]] for interpretation framework.
 - [[Blue Owl]] — Hyperion DC JV partner
 - [[Anduril]] — defense partnership (AI helmet, Jan 2026)
 - [[Corning]] — $6B fiber-optic deal for AI data centers (Jan 2026)
+
+### Payments
+- [[Stripe]] — leading stablecoin payments partner (Collison on Meta board, Apr 2025). Bridge subsidiary has OCC charter
 
 ### Debt
 - [[Meta bonds]] — $59B bond inventory (AA-/Aa3, zero to $59B in 3.5 years)

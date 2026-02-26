@@ -670,7 +670,11 @@ First $200B revenue year. Q4 revenue $68.1B (+73% Y/Y, +20% Q/Q), beating $66.2B
 
 **FY26 totals:** Revenue $215.9B, net income $120.1B, FCF $96.6B, shareholder returns $41.1B, $17.5B invested in private companies.
 
-Jensen: "AI compute demand is 1,000 times greater than traditional compute. The need is a lot more than $700 billion." / "Our strategy is to introduce an entirely new AI infrastructure every single year." / OpenAI deal: "We continue to work with OpenAI toward a partnership agreement and believe we are close."
+Jensen's "1000x manifesto" (final 7 min of call): Old compute = $350B/year of static "DVD-like" software. AI = real-time, generative, 1,000x more valuable → $350B × 1,000 = massive TAM. "The need is a lot more than $700 billion." See [[Jensen 1000x compute thesis]].
+
+Other Jensen quotes: "Our strategy is to introduce an entirely new AI infrastructure every single year." / OpenAI deal: "We continue to work with OpenAI toward a partnership agreement and believe we are close."
+
+**[[Gene Munster]] ([[Deepwater Asset Management]]) post-call:** Accelerating growth + flat stock mirrors [[Apple]]'s beat-and-fade pattern. Flagged [[Colette Kress]]'s supply/demand equilibrium confirmation as paradoxically negative — at equilibrium, "the numbers you see are what you get," removing the dream-bigger optics of supply constraints. CY2027 Street estimate of 28% "too conservative" — expects 50%+. Deepwater owns NVDA. Cited using [[OpenClaw]] and Claude Code agents as evidence AI utility has had "a meaningful step forward."
 
 Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $261.54.
 
@@ -721,3 +725,5 @@ Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $26
 - [[John Moolenaar]] — House China Committee chair; Jan 2026 investigation
 - [[Hyperscaler chip roadmap]] — custom silicon competition (TPU, Trainium, Maia)
 - [[India AI Impact Summit 2026]] — [[Jensen Huang]] withdrew Feb 14 ("unforeseen circumstances")
+- [[Deepwater Asset Management]] — [[Gene Munster]]'s firm, owns NVDA, Pressure Points podcast
+- [[Jensen 1000x compute thesis]] — 1,000x compute demand vs traditional infrastructure (Q4 FY26 call)
