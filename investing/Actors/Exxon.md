@@ -1,7 +1,7 @@
 ---
 aliases: [XOM, ExxonMobil]
 ---
-#actor #energy #oil #usa #public
+ #actor #energy #oil #usa #public
 
 **Exxon** — World's largest Western oil company. Massive cash flows funding energy transition hedges. Data center power potential via natural gas.
 

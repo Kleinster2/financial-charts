@@ -228,6 +228,12 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 ![[net-employees-chart.png]]
 *Headcount: 4,263 (2024) — up 15.8% YoY*
 
+## Vinext — Next.js reimplementation (Feb 2026)
+
+Launched **[[Vinext launch|Vinext]]** — AI-generated reimplementation of Next.js API on Vite. One engineer, Claude, 800+ sessions, $1,100, one week. 94% API coverage, 4.4× faster builds, 56% smaller bundles. [[Vercel]]'s [[Guillermo Rauch]] fired back disclosing 7 security vulnerabilities and calling it a "vibe-coded framework." See [[Vinext launch]] for full details.
+
+---
+
 ## Related
 
 ### Concepts

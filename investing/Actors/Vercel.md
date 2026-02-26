@@ -186,6 +186,12 @@ Invest in Next.js → More adoption
 
 ---
 
+## Vinext feud (Feb 2026)
+
+[[Cloudflare]] launched **[[Vinext launch|Vinext]]** — an AI-generated reimplementation of the Next.js API on Vite. One engineer, $1,100, one week. [[Guillermo Rauch]] responded by disclosing 7 security vulnerabilities (2 critical) and branding it a "vibe-coded framework." Also posted a "Migrate to Vercel from Cloudflare" guide. The episode highlights Next.js's tight coupling to Vercel as both a strength (ecosystem control) and vulnerability (competitors motivated to rewrite rather than adapt).
+
+---
+
 ## Competitive landscape
 
 | Competitor | Positioning |
