@@ -14,12 +14,122 @@ tags:
 
 ---
 
-## Mechanics
+## Instruments
+
+### Stock options
+
+**Right to buy shares at a fixed price (strike/exercise price) after vesting.**
+
+| Term | Meaning |
+|------|---------|
+| **Grant date** | When options are awarded |
+| **Strike price** | Fixed purchase price (usually FMV at grant) |
+| **Vesting** | Period before options become exercisable |
+| **Exercise** | Employee pays strike price, receives shares |
+| **Expiration** | Options expire if not exercised (typically 10 years) |
+
+**Example:** Employee gets 10,000 options at $100 strike, 4-year vest. After 2 years, 5,000 are vested. Stock is at $200. Employee exercises: pays $100 × 5,000 = $500K, gets shares worth $1M. Profit = $500K.
+
+**Two types:**
+- **ISOs (Incentive Stock Options)** — tax-advantaged, only for employees, $100K/year cap, AMT risk
+- **NSOs (Non-Qualified Stock Options)** — taxed as ordinary income at exercise, no cap, available to anyone (contractors, advisors)
+
+**Key risk:** Options can be **underwater** (stock below strike) → worthless. This is why options fell out of favor after the 2000 dot-com crash.
+
+### Restricted Stock Units (RSUs)
+
+**Promise to deliver shares after vesting. No strike price — they're always worth something.**
+
+| Term | Meaning |
+|------|---------|
+| **Grant** | Company promises X shares |
+| **Vesting** | Shares delivered on schedule |
+| **Settlement** | Actual shares deposited in brokerage |
+| **Tax event** | Ordinary income at FMV on vesting date |
+
+**Standard vesting:** 4-year with 1-year cliff. 25% vests at year 1, then monthly/quarterly thereafter.
+
+**Why RSUs dominate now:** After the 2008 crash, underwater options were useless for retention. RSUs always have value, making them better golden handcuffs. ~90% of Big Tech SBC is RSUs today.
+
+**Sell-to-cover:** Most employees immediately sell enough shares at vesting to cover the tax bill (~37-50% marginal rate). This creates predictable selling pressure on vesting dates.
+
+### Performance Stock Units (PSUs)
+
+RSUs that only vest if performance targets are met (revenue growth, stock price, TSR vs. peers). Common for executives. If targets are missed, shares are forfeited — stronger alignment but more complexity.
+
+### Employee Stock Purchase Plans (ESPPs)
+
+Employees buy stock at a discount (typically 15%) through payroll deductions. Usually 6-month offering periods with a lookback provision (discount applied to the lower of start or end price). Minor dilution source compared to RSUs/options.
+
+---
+
+## Vesting schedules
+
+| Type | Structure | Common at |
+|------|-----------|-----------|
+| **4-year with 1-year cliff** | 0% year 1, 25% at cliff, then monthly | Standard tech (Google, Meta, most startups) |
+| **4-year quarterly** | 6.25% per quarter, no cliff | Some public companies |
+| **3-year annual** | 33% per year | Microsoft, some finance |
+| **Back-loaded** | 5/15/40/40 over 4 years | Amazon (infamous) |
+| **Front-loaded** | Large initial grant, smaller refreshers | Apple tendency |
+
+**Amazon's back-loading:** Only 5% vests in year 1, 15% in year 2, then 40% in each of years 3-4. Designed to filter out short-tenure employees. Paired with cash signing bonuses to compensate for low early vesting.
+
+**Refresh grants:** Annual additional RSU grants to retain employees. The "golden handcuffs" — at any given time, an employee has unvested equity across multiple overlapping grants. Leaving = forfeiting all unvested shares.
+
+**Cliff risk:** If an employee is fired before the 1-year cliff, they get nothing. Creates perverse incentives around performance reviews near cliff dates.
+
+---
+
+## Tax treatment
+
+### For employees
+
+| Event | Options (NSO) | RSUs |
+|-------|---------------|------|
+| **Grant** | No tax | No tax |
+| **Vesting** | No tax | Ordinary income on FMV |
+| **Exercise** | Ordinary income on spread (FMV − strike) | N/A |
+| **Sale** | Capital gains on post-exercise appreciation | Capital gains on post-vest appreciation |
+
+### For companies
+
+| Benefit | Detail |
+|---------|--------|
+| **Tax deduction** | Company deducts SBC at exercise/vesting value (not grant-date expense) |
+| **Deduction > expense** | If stock rises between grant and vest, tax deduction exceeds GAAP expense |
+| **Cash tax savings** | Meta saved ~$4-5B in taxes annually from SBC deductions |
+
+**The tax windfall:** When stock rises significantly, the company's tax deduction (based on vesting-date value) far exceeds the GAAP expense (based on grant-date fair value). This creates a cash tax benefit that shows up in operating cash flow — further inflating reported FCF.
+
+### Section 409A (private companies)
+
+Private company stock must be independently valued (409A valuation) to set exercise prices. Undervaluation → IRS penalties. This is why startups hire firms like Carta, Armanino, or the Big 4 for annual 409A reports.
+
+---
+
+## Accounting (GAAP)
+
+| Rule | Detail |
+|------|--------|
+| **ASC 718** | SBC must be expensed at fair value on income statement |
+| **Grant-date measurement** | Options valued using Black-Scholes or Monte Carlo at grant |
+| **RSU measurement** | Valued at stock price on grant date |
+| **Amortization** | Expense recognized ratably over vesting period |
+| **Non-cash addback** | Added back to operating cash flow on cash flow statement |
+
+**Pre-2006:** Companies could use "intrinsic value" method → at-the-money options had zero expense. SFAS 123R (now ASC 718) closed this loophole.
+
+---
+
+## Mechanics (summary)
 
 1. **Company grants RSUs/options** to employees as part of compensation
-2. **New shares are issued** when they vest → dilutes existing shareholders
-3. **Company buys back shares** to offset dilution → costs real cash
-4. **SBC is excluded from FCF** because it's a "non-cash" expense under GAAP
+2. **Expense recognized** on income statement over vesting period (non-cash)
+3. **Shares issued** when they vest/exercise → dilutes existing shareholders
+4. **Company withholds shares** for tax (sell-to-cover) or employee sells
+5. **Company buys back shares** to offset dilution → costs real cash
+6. **SBC is excluded from FCF** because it's a "non-cash" expense under GAAP
 
 The paradox: SBC is "non-cash" on the income statement, but requires cash buybacks to prevent dilution. The cash cost is real — it just shows up in a different line item (financing activities, not operations).
 
