@@ -7,6 +7,10 @@ aliases: [HLT, Hilton Worldwide, Hilton Hotels]
 
 ---
 
+
+![[hlt-employees-chart.png]]
+*Headcount: 182,000 (2025) — up 0.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

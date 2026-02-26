@@ -154,6 +154,10 @@ Q1 2026 guide: FCF margin low-to-mid teens (below Q1 2025 — reinvestment phase
 
 ---
 
+
+![[shop-employees-chart.png]]
+*Headcount: 7,600 (2025) — down 6.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -92,6 +92,10 @@ aliases: [OKTA]
 
 ---
 
+
+![[okta-employees-chart.png]]
+*Headcount: 5,914 (2025) — up 0.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

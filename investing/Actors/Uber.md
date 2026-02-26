@@ -153,6 +153,10 @@ Bear:
 
 ---
 
+
+![[uber-employees-chart.png]]
+*Headcount: 34,000 (2025) — up 9.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

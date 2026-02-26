@@ -90,6 +90,10 @@ NVIDIA's moat isn't just GPUs — it's [[CUDA moat|CUDA]], the software ecosyste
 
 ---
 
+
+![[nvda-employees-chart.png]]
+*Headcount: 36,000 (2025) — up 21.6% YoY*
+
 ## Key strengths
 
 - CUDA ecosystem: 10+ years of libraries, tools, developer knowledge

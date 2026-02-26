@@ -113,6 +113,10 @@ CME benefits from uncertainty.
 
 ---
 
+
+![[cme-employees-chart.png]]
+*Headcount: 3,760 (2024) — up 5.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,10 @@ aliases: [OPAD, Offerpad Solutions]
 
 ---
 
+
+![[opad-employees-chart.png]]
+*Headcount: 200 (2024) — down 42.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

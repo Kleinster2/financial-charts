@@ -155,6 +155,10 @@ Missing the GLP-1 wave is significant.
 
 ---
 
+
+![[pfe-employees-chart.png]]
+*Headcount: 81,000 (2024) — down 8.0% YoY*
+
 ## Related
 
 ### Competitors

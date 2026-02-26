@@ -229,6 +229,10 @@ See [[AI in banking]] for industry context.
 
 ---
 
+
+![[wfc-employees-chart.png]]
+*Headcount: 205,000 (2025) — down 5.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

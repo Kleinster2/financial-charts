@@ -138,6 +138,10 @@ Morgan Stanley pivoted to wealth; Goldman stayed IB-focused.
 
 ---
 
+
+![[ms-employees-chart.png]]
+*Headcount: 83,000 (2025) — up 3.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

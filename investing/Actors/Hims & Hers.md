@@ -19,6 +19,10 @@ Direct-to-consumer telehealth platform offering virtual consultations, prescript
 
 	Vertically integrated — owns compounding pharmacy, fulfillment, and affiliated medical group. Product categories: sexual health (original), hair/dermatology, mental health, and weight loss ([[GLP-1 receptor agonists|GLP-1s]], the growth driver and the regulatory lightning rod).
 
+
+![[hims-employees-chart.png]]
+*Headcount: 2,442 (2025) — up 49.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

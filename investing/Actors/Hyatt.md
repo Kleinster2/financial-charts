@@ -7,6 +7,10 @@ aliases: [H, Hyatt Hotels]
 
 ---
 
+
+![[h-employees-chart.png]]
+*Headcount: 50,000 (2025) — down 3.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

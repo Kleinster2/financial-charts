@@ -85,6 +85,10 @@ Google is the most vertically integrated AI hyperscaler:
 
 ---
 
+
+![[goog-employees-chart.png]]
+*Headcount: 190,820 (2025) — up 4.1% YoY*
+
 ## Financials
 
 ### Annual (10 years)

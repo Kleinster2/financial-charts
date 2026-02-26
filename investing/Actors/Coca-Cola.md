@@ -83,6 +83,10 @@ aliases: [KO, Coke]
 
 ---
 
+
+![[ko-employees-chart.png]]
+*Headcount: 65,900 (2025) — down 5.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

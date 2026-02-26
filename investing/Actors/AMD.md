@@ -152,6 +152,10 @@ See [[CES 2026]] for event context.
 
 ---
 
+
+![[amd-employees-chart.png]]
+*Headcount: 31,000 (2025) — up 10.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

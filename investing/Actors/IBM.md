@@ -243,6 +243,10 @@ This is the same pattern as [[Teleperformance]]: the **threat of AI replacement*
 
 ---
 
+
+![[ibm-employees-chart.png]]
+*Headcount: 270,300 (2024) — down 4.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

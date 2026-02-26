@@ -7,6 +7,10 @@ aliases: [InterContinental Hotels Group, InterContinental]
 
 ---
 
+
+![[ihg-employees-chart.png]]
+*Headcount: 7,387 (2024) — up 1.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

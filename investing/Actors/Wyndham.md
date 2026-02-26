@@ -7,6 +7,10 @@ aliases: [WH, Wyndham Hotels]
 
 ---
 
+
+![[wh-employees-chart.png]]
+*Headcount: 2,000 (2025) — down 9.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

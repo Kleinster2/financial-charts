@@ -227,6 +227,10 @@ Bear:
 
 ---
 
+
+![[rivn-employees-chart.png]]
+*Headcount: 15,232 (2025) — up 2.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -7,6 +7,10 @@ aliases: [Sprouts, SFM]
 
 ---
 
+
+![[sfm-employees-chart.png]]
+*Headcount: 36,000 (2025) — up 2.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

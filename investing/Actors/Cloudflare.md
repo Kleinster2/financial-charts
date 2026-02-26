@@ -224,6 +224,10 @@ Cloudflare increasingly critical infrastructure for [[Urban digitization]] — a
 
 ---
 
+
+![[net-employees-chart.png]]
+*Headcount: 4,263 (2024) — up 15.8% YoY*
+
 ## Related
 
 ### Concepts

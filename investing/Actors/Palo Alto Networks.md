@@ -159,6 +159,10 @@ Bear:
 
 ---
 
+
+![[panw-employees-chart.png]]
+*Headcount: 16,068 (2025) — up 5.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

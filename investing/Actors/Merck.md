@@ -117,6 +117,10 @@ Merck repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] 
 
 ---
 
+
+![[mrk-employees-chart.png]]
+*Headcount: 75,000 (2024) — up 4.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

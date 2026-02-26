@@ -7,6 +7,10 @@ ServiceNow — Enterprise workflow automation platform. \#1 in IT service manage
 
 ---
 
+
+![[now-employees-chart.png]]
+*Headcount: 29,187 (2025) — up 11.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -43,6 +43,10 @@ Wei is first to hold both Chairman and CEO roles since founder Morris Chang. Liu
 ![[tsm-fundamentals.png]]
 *TSM revenue and net income*
 
+
+![[tsm-employees-chart.png]]
+*Headcount: 83,825 (2024) — up 9.6% YoY*
+
 ## Financials
 
 ### Annual (10 years)

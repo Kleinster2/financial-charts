@@ -181,6 +181,10 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 
 ---
 
+
+![[qcom-employees-chart.png]]
+*Headcount: 52,000 (2025) — up 6.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

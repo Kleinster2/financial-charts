@@ -55,6 +55,10 @@ Carlyle = PE with government expertise.
 
 ---
 
+
+![[cg-employees-chart.png]]
+*Headcount: 2,300 (2024) — up 4.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

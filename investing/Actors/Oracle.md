@@ -241,6 +241,10 @@ Context: Part of broader AI infrastructure pivot — redirecting headcount costs
 
 ---
 
+
+![[orcl-employees-chart.png]]
+*Headcount: 162,000 (2025) — up 1.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

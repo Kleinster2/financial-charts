@@ -35,6 +35,10 @@ aliases: [RACE, Ferrari NV, Scuderia Ferrari]
 
 ---
 
+
+![[race-employees-chart.png]]
+*Headcount: 5,718 (2025) — up 5.2% YoY*
+
 ## Leadership
 
 | Role | Name | Background |

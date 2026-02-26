@@ -81,6 +81,10 @@ Pullback creates entry opportunity. AI-assisted surgery as non-obvious AI benefi
 
 ---
 
+
+![[isrg-employees-chart.png]]
+*Headcount: 17,021 (2025) — up 8.8% YoY*
+
 ## Related
 
 - [[Agentic AI]] — surgical automation

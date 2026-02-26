@@ -92,6 +92,10 @@ aliases: [RBLX]
 
 ---
 
+
+![[rblx-employees-chart.png]]
+*Headcount: 3,065 (2025) — up 23.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -180,6 +180,10 @@ Returned $688M to shareholders in 2025 ($321M dividends, $367M buybacks).
 
 ---
 
+
+![[stm-employees-chart.png]]
+*Headcount: 49,602 (2024) — down 3.4% YoY*
+
 ## Quick stats
 
 | Metric | Value |

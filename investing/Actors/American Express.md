@@ -154,6 +154,10 @@ Amex wins on spend per card and premium segment; loses on volume and merchant ac
 
 ---
 
+
+![[axp-employees-chart.png]]
+*Headcount: 76,800 (2025) — up 2.3% YoY*
+
 ## Related
 
 - [[Visa]] — open-loop competitor, largest by volume

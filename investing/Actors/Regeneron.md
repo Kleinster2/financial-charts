@@ -88,6 +88,10 @@ aliases: [REGN]
 
 ---
 
+
+![[regn-employees-chart.png]]
+*Headcount: 15,410 (2025) — up 2.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

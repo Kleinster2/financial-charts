@@ -7,6 +7,10 @@ aliases: [ABT, Abbott Laboratories]
 
 ---
 
+
+![[abt-employees-chart.png]]
+*Headcount: 115,000 (2025) — up 0.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

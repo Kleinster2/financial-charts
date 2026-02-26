@@ -7,6 +7,10 @@ aliases: [HOUS, Realogy, Anywhere]
 
 ---
 
+
+![[hous-employees-chart.png]]
+*Headcount: 7,905 (2024) — down 2.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

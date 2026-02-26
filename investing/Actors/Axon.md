@@ -7,6 +7,10 @@ Axon — Public safety technology company. Makes TASERs, body cameras, and evide
 
 ---
 
+
+![[axon-employees-chart.png]]
+*Headcount: 4,100 (2024) — down 3.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -103,6 +103,10 @@ Capital IQ data feeds into ratings analysis, which feeds into index construction
 
 ---
 
+
+![[spgi-employees-chart.png]]
+*Headcount: 44,500 (2025) — up 5.1% YoY*
+
 ## Related
 
 - [[Moody's]] — ratings competitor

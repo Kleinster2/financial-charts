@@ -26,6 +26,10 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ---
 
+
+![[aapl-employees-chart.png]]
+*Headcount: 166,000 (2025) — up 1.2% YoY*
+
 ## Financials
 
 ### Annual (10 years, fiscal year ends Sep)

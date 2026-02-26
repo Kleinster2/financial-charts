@@ -74,6 +74,10 @@ aliases: [ZS]
 
 ---
 
+
+![[zs-employees-chart.png]]
+*Headcount: 7,923 (2025) — up 7.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

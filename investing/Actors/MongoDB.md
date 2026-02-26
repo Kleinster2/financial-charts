@@ -85,6 +85,10 @@ aliases: [MDB]
 
 ---
 
+
+![[mdb-employees-chart.png]]
+*Headcount: 5,558 (2025) — up 10.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -71,6 +71,10 @@ aliases: [PEP, Pepsi]
 
 ---
 
+
+![[pep-employees-chart.png]]
+*Headcount: 306,000 (2025) — down 4.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

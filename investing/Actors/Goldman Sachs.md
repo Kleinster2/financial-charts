@@ -143,6 +143,10 @@ See [[AI infrastructure financing]] for market context.
 
 ---
 
+
+![[gs-employees-chart.png]]
+*Headcount: 46,500 (2024) — up 2.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

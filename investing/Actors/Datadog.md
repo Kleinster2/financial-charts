@@ -104,6 +104,10 @@ aliases: [DDOG]
 
 ---
 
+
+![[ddog-employees-chart.png]]
+*Headcount: 8,100 (2025) — up 24.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

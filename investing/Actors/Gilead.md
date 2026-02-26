@@ -99,6 +99,10 @@ Gilead repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]]
 
 ---
 
+
+![[gild-employees-chart.png]]
+*Headcount: 17,000 (2025) — down 3.4% YoY*
+
 ## Quick stats
 
 | Metric | Value |

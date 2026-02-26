@@ -150,6 +150,10 @@ Bear:
 
 ---
 
+
+![[apo-employees-chart.png]]
+*Headcount: 2,540 (2022) — up 18.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

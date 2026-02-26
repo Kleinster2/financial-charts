@@ -46,6 +46,10 @@ Jassy promoted from AWS CEO when Bezos stepped back. New "shadow" advisor: Dharm
 
 ---
 
+
+![[amzn-employees-chart.png]]
+*Headcount: 1,576,000 (2025) — up 1.3% YoY*
+
 ## Financials
 
 ### Annual (10 years)

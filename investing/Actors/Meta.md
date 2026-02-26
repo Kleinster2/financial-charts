@@ -51,6 +51,10 @@ Superintelligence Labs co-heads: Alexandr Wang ([[Scale AI]]), [[Nat Friedman]],
 
 ---
 
+
+![[meta-employees-chart.png]]
+*Headcount: 78,865 (2025) — up 6.5% YoY*
+
 ## Q4 2025 earnings (Jan 28, 2026)
 
 **Strong beat, stock +10%:**

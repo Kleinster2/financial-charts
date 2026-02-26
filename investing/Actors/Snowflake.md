@@ -127,6 +127,10 @@ Revenue: ~$4.7B fiscal 2026 (~15x since IPO). Guided $5.66B product revenue for 
 
 ---
 
+
+![[snow-employees-chart.png]]
+*Headcount: 7,834 (2025) — up 11.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

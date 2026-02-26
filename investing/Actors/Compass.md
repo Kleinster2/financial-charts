@@ -7,6 +7,10 @@ aliases: [COMP, Compass Real Estate]
 
 ---
 
+
+![[comp-employees-chart.png]]
+*Headcount: 2,566 (2024) — up 0.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -98,6 +98,10 @@ Viral social media campaign (Dec 2025-Jan 2026) claimed Vital Farms eggs contain
 | CEO | Russell Diez-Canseco | Joined 2014 as COO, CEO since 2019. Led IPO and 4x revenue growth |
 | CFO | Thilo Wrede | Joined Feb 2023. Former CFO at [[Sabra Dipping Company]], ex-[[PepsiCo]] |
 
+
+![[vitl-employees-chart.png]]
+*Headcount: 598 (2024) — up 33.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

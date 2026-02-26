@@ -181,6 +181,10 @@ PayPal itself no longer has this talent density.
 
 ---
 
+
+![[pypl-employees-chart.png]]
+*Headcount: 23,800 (2025) — down 2.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

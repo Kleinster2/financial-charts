@@ -119,6 +119,10 @@ Student loan restart is tailwind.
 
 ---
 
+
+![[sofi-employees-chart.png]]
+*Headcount: 6,100 (2025) — up 22.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

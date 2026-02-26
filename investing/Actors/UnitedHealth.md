@@ -130,6 +130,10 @@ Note: 2024 net income hit by Q1 2024 loss (-$1.4B) from Change [[Healthcare]] cy
 
 ---
 
+
+![[unh-employees-chart.png]]
+*Headcount: 400,000 (2024) — down 9.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

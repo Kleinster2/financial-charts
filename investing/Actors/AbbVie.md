@@ -97,6 +97,10 @@ aliases: [ABBV]
 
 ---
 
+
+![[abbv-employees-chart.png]]
+*Headcount: 57,000 (2025) — up 3.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -265,6 +265,10 @@ $47.2B face value (Dec 2025), fair value $41.8B (11.5% discount — credit deter
 
 ---
 
+
+![[intc-employees-chart.png]]
+*Headcount: 85,100 (2025) — down 21.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

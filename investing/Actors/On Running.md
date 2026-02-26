@@ -140,6 +140,10 @@ Clean balance sheet with ~CHF 1B cash and declining inventory — no distress si
 
 ---
 
+
+![[onon-employees-chart.png]]
+*Headcount: 3,254 (2024) — up 38.3% YoY*
+
 ## Competitive positioning
 
 | Factor | On Running | [[Nike]] | [[Adidas]] | Hoka ([[Deckers]]) |

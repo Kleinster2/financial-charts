@@ -149,6 +149,10 @@ A non-core strategic investment that resulted in total loss.
 
 ---
 
+
+![[crm-employees-chart.png]]
+*Headcount: 76,453 (2025) — up 5.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

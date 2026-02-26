@@ -119,6 +119,10 @@ Bear:
 
 ---
 
+
+![[abnb-employees-chart.png]]
+*Headcount: 8,200 (2025) — up 12.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

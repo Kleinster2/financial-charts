@@ -155,6 +155,10 @@ Premium for scale and execution.
 
 ---
 
+
+![[hd-employees-chart.png]]
+*Headcount: 470,100 (2025) — up 1.5% YoY*
+
 ## Related
 
 ### Competitors

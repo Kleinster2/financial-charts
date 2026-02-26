@@ -105,6 +105,10 @@ Schwab is the scale player in retail brokerage:
 
 ---
 
+
+![[schw-employees-chart.png]]
+*Headcount: 32,100 (2024) — down 2.7% YoY*
+
 ## Related
 
 - [[Robinhood]] — fintech competitor

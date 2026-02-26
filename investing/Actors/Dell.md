@@ -176,6 +176,10 @@ Smaller vendors (see [[Corsair]]) hit harder.
 
 ---
 
+
+![[dell-employees-chart.png]]
+*Headcount: 108,000 (2025) — down 10.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

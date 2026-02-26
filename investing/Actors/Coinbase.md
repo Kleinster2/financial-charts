@@ -7,6 +7,10 @@ Coinbase — Largest US crypto exchange and first crypto company in the S&P 500 
 
 ---
 
+
+![[coin-employees-chart.png]]
+*Headcount: 4,951 (2025) — up 31.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -69,6 +69,10 @@ aliases: [V]
 
 ---
 
+
+![[v-employees-chart.png]]
+*Headcount: 34,100 (2025) — up 7.9% YoY*
+
 ## Related
 
 - [[Mastercard]] — duopoly peer

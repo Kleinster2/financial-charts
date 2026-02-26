@@ -72,6 +72,10 @@ Western duopoly = pricing power.
 
 ---
 
+
+![[unp-employees-chart.png]]
+*Headcount: 29,287 (2025) — down 9.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

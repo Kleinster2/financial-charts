@@ -368,6 +368,10 @@ $46.2B face value (Dec 2025), deleveraging. Rated AAA/Aaa — one of two AAA-rat
 
 ---
 
+
+![[msft-employees-chart.png]]
+*Headcount: 228,000 (2025) — down 0.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

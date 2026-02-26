@@ -46,6 +46,10 @@ tags: [actor, tobacco, consumer, smoke-free]
 
 ---
 
+
+![[pm-employees-chart.png]]
+*Headcount: 84,900 (2025) — up 2.2% YoY*
+
 ## Related
 
 - [[Altria]] — US tobacco (former parent)

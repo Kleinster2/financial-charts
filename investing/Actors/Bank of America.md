@@ -163,6 +163,10 @@ aliases: [BAC, BofA, BoA]
 
 ---
 
+
+![[bac-employees-chart.png]]
+*Headcount: 213,000 (2024) — down 0.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -25,6 +25,10 @@ Revenue mix ~2/3 M&A, ~1/3 non-M&A (restructuring, capital markets, private capi
 
 ---
 
+
+![[mc-employees-chart.png]]
+*Headcount: 1,308 (2024) — up 12.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

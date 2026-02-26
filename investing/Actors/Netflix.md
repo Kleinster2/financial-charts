@@ -99,6 +99,10 @@ Largest pure-play streaming company globally.
 
 ---
 
+
+![[nflx-employees-chart.png]]
+*Headcount: 16,000 (2025) — up 14.3% YoY*
+
 ## Subscriber breakdown
 
 | Region | Subscribers | ARPU |

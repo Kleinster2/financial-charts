@@ -7,6 +7,10 @@ aliases: [OPEN, Opendoor Technologies]
 
 ---
 
+
+![[open-employees-chart.png]]
+*Headcount: 1,470 (2024) — down 25.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

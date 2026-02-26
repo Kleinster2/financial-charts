@@ -125,6 +125,10 @@ Apollo and Blue Owl are most direct competitors in credit. Blackstone competes a
 
 ---
 
+
+![[ares-employees-chart.png]]
+*Headcount: 3,200 (2024) — up 12.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

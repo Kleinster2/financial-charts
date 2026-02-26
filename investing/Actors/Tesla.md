@@ -24,6 +24,10 @@ Tesla is both an automotive semiconductor consumer and a custom AI chip designer
 
 ---
 
+
+![[tsla-employees-chart.png]]
+*Headcount: 134,785 (2025) — up 7.3% YoY*
+
 ## Financials
 
 ### Annual (10 years)

@@ -121,6 +121,10 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 ---
 
+
+![[xom-employees-chart.png]]
+*Headcount: 58,000 (2025) — down 4.8% YoY*
+
 ## Related
 
 - [[Chevron]] — peer oil major

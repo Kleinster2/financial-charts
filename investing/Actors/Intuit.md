@@ -92,6 +92,10 @@ aliases: [INTU]
 
 ---
 
+
+![[intu-employees-chart.png]]
+*Headcount: 18,200 (2025) — down 3.2% YoY*
+
 ## Quick stats
 
 | Metric | Value |

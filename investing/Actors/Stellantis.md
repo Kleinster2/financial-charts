@@ -34,6 +34,10 @@ aliases: [STLA, Stellantis NV]
 
 ---
 
+
+![[stla-employees-chart.png]]
+*Headcount: 248,243 (2024) — down 11.8% YoY*
+
 ## Financial performance
 
 | Year | Revenue (€B) | Growth | Net Income (€B) | Margin | Notes |

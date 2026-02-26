@@ -131,6 +131,10 @@ Passive flows drive AI stock demand.
 
 ---
 
+
+![[blk-employees-chart.png]]
+*Headcount: 21,100 (2024) — up 6.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

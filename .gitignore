@@ -47,6 +47,7 @@ search_*.py
 calculate_*.py
 decompose_*.py
 fetch_*.py
+!scripts/fetch_employees.py
 generate_*.py
 get_*.py
 import_*.py

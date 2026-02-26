@@ -7,6 +7,10 @@ MercadoLibre — Latin America's largest e-commerce and fintech platform. Operat
 
 ---
 
+
+![[meli-employees-chart.png]]
+*Headcount: 18,282 (2024) — down 68.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

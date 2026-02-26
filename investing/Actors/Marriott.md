@@ -7,6 +7,10 @@ aliases: [MAR, Marriott International]
 
 ---
 
+
+![[mar-employees-chart.png]]
+*Headcount: 414,000 (2025) — down 1.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -175,6 +175,10 @@ Iger returned to fix streaming losses, succession unclear.
 
 ---
 
+
+![[dis-employees-chart.png]]
+*Headcount: 231,000 (2025) — down 1.2% YoY*
+
 ## Related
 
 ### Competitors

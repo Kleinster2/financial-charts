@@ -156,6 +156,10 @@ Key platform acquisitions:
 
 ---
 
+
+![[fsv-employees-chart.png]]
+*Headcount: 27,000 (2022) — up 8.0% YoY*
+
 ## Investment case
 
 Bull:

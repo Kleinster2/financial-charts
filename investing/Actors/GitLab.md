@@ -154,6 +154,10 @@
 
 ---
 
+
+![[gtlb-employees-chart.png]]
+*Headcount: 2,375 (2025) — up 11.5% YoY*
+
 ## Related
 
 ### Founders

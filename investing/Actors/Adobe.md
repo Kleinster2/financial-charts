@@ -98,6 +98,10 @@ aliases: [ADBE]
 
 ---
 
+
+![[adbe-employees-chart.png]]
+*Headcount: 31,360 (2025) — up 2.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

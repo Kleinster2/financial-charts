@@ -69,6 +69,10 @@ aliases: [MA]
 
 ---
 
+
+![[ma-employees-chart.png]]
+*Headcount: 39,800 (2025) — up 12.7% YoY*
+
 ## Related
 
 - [[Visa]] — duopoly peer

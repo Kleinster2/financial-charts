@@ -7,6 +7,10 @@ Crédit Agricole S.A. (Euronext: ACA) — listed holding company of the Crédit 
 
 ---
 
+
+![[aca-pa-employees-chart.png]]
+*Headcount: 81,948 (2025) — up 1.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

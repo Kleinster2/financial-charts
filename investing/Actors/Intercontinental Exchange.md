@@ -136,6 +136,10 @@ Data = recurring, high-margin revenue.
 
 ---
 
+
+![[ice-employees-chart.png]]
+*Headcount: 12,844 (2025) — down 0.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

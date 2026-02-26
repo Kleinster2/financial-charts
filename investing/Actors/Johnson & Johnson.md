@@ -96,6 +96,10 @@ J&J repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] on
 
 ---
 
+
+![[jnj-employees-chart.png]]
+*Headcount: 138,200 (2025) — up 0.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

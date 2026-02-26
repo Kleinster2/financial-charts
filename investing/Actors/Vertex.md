@@ -85,6 +85,10 @@ aliases: [VRTX, Vertex Pharmaceuticals]
 
 ---
 
+
+![[vrtx-employees-chart.png]]
+*Headcount: 6,400 (2025) — up 4.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

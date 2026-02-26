@@ -172,6 +172,10 @@ Sleep Number's competitive position is unique but increasingly fragile: it is th
 
 ---
 
+
+![[snbr-employees-chart.png]]
+*Headcount: 3,200 (2025) — down 5.9% YoY*
+
 ## Current situation (Feb 2026)
 
 Turnaround thesis: New CEO [[Linda Findley]] is running a classic cost-restructuring playbook — $130M+ in annualized cost cuts, store closures (from 650+ to ~550), 10% workforce reduction, extended credit facility maturity. Gross margins have held at ~60%. The bet is that demand stabilizes in 2026 (consensus: ~$1.46B revenue) and the lower cost base converts to positive free cash flow.

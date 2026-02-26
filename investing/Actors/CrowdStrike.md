@@ -86,6 +86,10 @@ See [[China cybersecurity ban]] for full context.
 
 ---
 
+
+![[crwd-employees-chart.png]]
+*Headcount: 10,118 (2025) — up 27.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

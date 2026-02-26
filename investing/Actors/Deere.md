@@ -82,6 +82,10 @@ aliases: [DE, John Deere]
 
 ---
 
+
+![[de-employees-chart.png]]
+*Headcount: 73,100 (2025) — down 3.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

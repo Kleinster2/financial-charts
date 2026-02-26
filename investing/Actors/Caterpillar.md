@@ -95,6 +95,10 @@ aliases: [CAT]
 
 ---
 
+
+![[cat-employees-chart.png]]
+*Headcount: 118,000 (2025) — up 4.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

@@ -558,6 +558,7 @@ At the [[India AI Impact Summit 2026]] (Feb 16-20), [[Anthropic]] announced its 
 - [[Legora]] - legal AI, dismissed Cowork plug-ins
 - [[Luminance]] - legal AI, domain-specific value argument
 - [[Intuit]] - multi-year partnership (Feb 24, 2026): MCP integrations, Claude Agent SDK, custom AI agents
+- [[DocuSign]] - Cowork MCP connector (Feb 24, 2026): IAM platform integration, agreement workflows via natural language
 - [[AI distillation wars (2025-2026)]] - published distillation evidence against DeepSeek, Moonshot, MiniMax (Feb 23)
 - [[Model distillation]] - concept (technique, IP landscape, moat implications)
 - [[February 2026 AI Disruption Cascade]] - both caused it (Cowork Plugins) and reversed it (enterprise partnerships)

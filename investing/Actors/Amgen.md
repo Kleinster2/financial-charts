@@ -94,6 +94,10 @@ Amgen repatriated significant overseas cash under the [[Tax Cuts and Jobs Act]] 
 
 ---
 
+
+![[amgn-employees-chart.png]]
+*Headcount: 31,500 (2025) — up 12.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

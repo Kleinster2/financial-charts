@@ -151,6 +151,10 @@ Premium reflects quality and consistency.
 
 ---
 
+
+![[cost-employees-chart.png]]
+*Headcount: 341,000 (2025) — up 2.4% YoY*
+
 ## Related
 
 ### Competitors

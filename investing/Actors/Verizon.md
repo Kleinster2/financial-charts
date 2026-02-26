@@ -77,6 +77,10 @@ Premium US network:
 
 ---
 
+
+![[vz-employees-chart.png]]
+*Headcount: 89,900 (2025) — down 9.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

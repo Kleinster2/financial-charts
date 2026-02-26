@@ -148,6 +148,10 @@ Blowout quarter — first time crossing $1B quarterly net income.
 
 ---
 
+
+![[anet-employees-chart.png]]
+*Headcount: 5,115 (2025) — up 15.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

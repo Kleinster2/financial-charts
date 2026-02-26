@@ -141,6 +141,10 @@ Refining swung from $(759)M loss to $542M profit — realized margins jumped fro
 
 ---
 
+
+![[psx-employees-chart.png]]
+*Headcount: 12,600 (2025) — down 4.5% YoY*
+
 ## Related
 
 - [[Valero]] — peer (largest refiner)

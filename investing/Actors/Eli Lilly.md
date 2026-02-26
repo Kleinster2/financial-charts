@@ -82,6 +82,10 @@ Mounjaro and Zepbound driving volume growth. CEO Ricks: "2025 was an important y
 
 ---
 
+
+![[lly-employees-chart.png]]
+*Headcount: 50,000 (2025) — up 6.4% YoY*
+
 ## Related
 
 - [[Agentic AI]] — drug discovery applications

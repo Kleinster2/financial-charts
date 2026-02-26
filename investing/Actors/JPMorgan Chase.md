@@ -251,6 +251,10 @@ JPM is \#1; others participate in syndicates.
 
 ---
 
+
+![[jpm-employees-chart.png]]
+*Headcount: 318,512 (2025) — up 0.4% YoY*
+
 ## Quick stats
 
 | Metric | Value |

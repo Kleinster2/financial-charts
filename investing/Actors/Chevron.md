@@ -132,6 +132,10 @@ See [[Venezuela]], [[Maduro capture 2026]], and [[WH oil executives Venezuela me
 
 ---
 
+
+![[cvx-employees-chart.png]]
+*Headcount: 43,039 (2025) — down 5.0% YoY*
+
 ## Related
 
 - [[Exxon]] — peer oil major

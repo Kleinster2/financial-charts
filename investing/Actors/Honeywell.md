@@ -103,6 +103,10 @@ Benefits from commercial aviation recovery.
 
 ---
 
+
+![[hon-employees-chart.png]]
+*Headcount: 101,000 (2025) — down 1.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

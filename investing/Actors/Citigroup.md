@@ -149,6 +149,10 @@ Said 10% cap would likely result "in a significant slowdown in the economy."
 
 ---
 
+
+![[c-employees-chart.png]]
+*Headcount: 226,000 (2025) — down 1.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |

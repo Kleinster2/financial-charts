@@ -175,6 +175,10 @@ TI is the **only major analog company with leading-edge 300mm fabs** — competi
 
 ---
 
+
+![[txn-employees-chart.png]]
+*Headcount: 33,000 (2025) — down 2.9% YoY*
+
 ## Quick stats
 
 | Metric | Value |

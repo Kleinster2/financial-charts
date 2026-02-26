@@ -109,6 +109,10 @@ Key dynamics:
 
 ---
 
+
+![[wmt-employees-chart.png]]
+*Headcount: 2,100,000 (2025) — down 0.0% YoY*
+
 ## Quick stats
 
 | Metric | Value |

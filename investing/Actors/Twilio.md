@@ -143,6 +143,10 @@ Bear:
 
 ---
 
+
+![[twlo-employees-chart.png]]
+*Headcount: 5,535 (2024) — down 5.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

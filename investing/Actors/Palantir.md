@@ -141,6 +141,10 @@ Palantir provides the intelligence layer.
 
 ---
 
+
+![[pltr-employees-chart.png]]
+*Headcount: 4,429 (2025) — up 12.5% YoY*
+
 ## Quick stats
 
 | Metric | Value |

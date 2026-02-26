@@ -192,6 +192,10 @@ Bear:
 
 ---
 
+
+![[spot-employees-chart.png]]
+*Headcount: 7,323 (2025) — down 4.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

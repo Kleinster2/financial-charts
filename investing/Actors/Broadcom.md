@@ -169,6 +169,10 @@ High concentration = risk if Google (Zebrafish) or [[Apple]] reduce orders.
 
 ---
 
+
+![[avgo-employees-chart.png]]
+*Headcount: 33,000 (2025) — down 10.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

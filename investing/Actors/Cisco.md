@@ -136,6 +136,10 @@ Bear:
 
 ---
 
+
+![[csco-employees-chart.png]]
+*Headcount: 86,200 (2025) — down 4.6% YoY*
+
 ## Quick stats
 
 | Metric | Value |

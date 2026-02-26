@@ -9,6 +9,10 @@ aliases: [CYBR]
 
 ---
 
+
+![[cybr-employees-chart.png]]
+*Headcount: 1,205 (2024) — down 60.1% YoY*
+
 ## Quick stats
 
 | Metric | Value |

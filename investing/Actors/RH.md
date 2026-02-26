@@ -145,6 +145,10 @@ By end of FY2025: 52% of upholstered furniture production in U.S. (North Carolin
 
 ---
 
+
+![[rh-employees-chart.png]]
+*Headcount: 6,340 (2025) — up 6.4% YoY*
+
 ## Investment case
 
 Bull:

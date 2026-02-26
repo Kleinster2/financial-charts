@@ -7,6 +7,10 @@ Occidental Petroleum — Major US oil and gas producer focused on the [[Permian 
 
 ---
 
+
+![[oxy-employees-chart.png]]
+*Headcount: 10,412 (2025) — down 21.8% YoY*
+
 ## Quick stats
 
 | Metric | Value |

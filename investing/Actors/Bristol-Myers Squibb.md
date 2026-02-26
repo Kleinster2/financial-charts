@@ -97,6 +97,10 @@ aliases: [BMY, BMS, Bristol-Myers]
 
 ---
 
+
+![[bmy-employees-chart.png]]
+*Headcount: 32,500 (2025) — down 4.7% YoY*
+
 ## Quick stats
 
 | Metric | Value |

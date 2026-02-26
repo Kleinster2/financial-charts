@@ -77,6 +77,10 @@ US connectivity backbone:
 
 ---
 
+
+![[t-employees-chart.png]]
+*Headcount: 133,030 (2025) — down 11.3% YoY*
+
 ## Quick stats
 
 | Metric | Value |
