@@ -122,6 +122,11 @@ Expands HPE networking vs [[Cisco]], [[Arista]].
 
 ---
 
+![[hpe-employees-chart.png]]
+*Headcount: 67,000 (2025) — up 12.4% YoY*
+
+---
+
 ## Related
 
 - [[HP Inc]] — sibling (2015 split)
