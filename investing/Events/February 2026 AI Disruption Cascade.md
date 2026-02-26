@@ -142,6 +142,7 @@ IGV (software ETF): **-30% YTD**, back to pre-ChatGPT levels.
 - **Jordan Rizzuto** (GammaRoad): *"Be careful what kind of rotation you wish for"*
 - **Jim Cramer:** *"I can't help but grow more pessimistic when I see how easily a piece of science fiction can crush the market as if it's science fact"*
 - **DoorDash co-founder Andy Fang:** *"The ground is shifting underneath our feet"*
+- **Jared Sleeper** (Avenir): *"If there was any effort to outsource your job to India, that's at risk"*
 
 ---
 
@@ -204,10 +205,85 @@ The bounce may be temporary. Partnerships don't prevent long-term disruption —
 
 ---
 
+## The incumbency debate (Feb 24)
+
+A day after the Anthropic partnership announcements, the SaaS industry was split on whether the cascade represents genuine structural disruption or cloud-transition-style panic. The central question: do AI agents replace enterprise software, or plug into it?
+
+### The disaggregation risk
+
+[[RBC]]'s Rishi Jaluria framed the bear case: AI agents sitting on top of SaaS apps create "long-term disaggregation risk" — value migrates from the application layer to the agent orchestration layer. Simultaneously, enterprises are diverting IT budgets toward AI spending, making traditional software cross-selling harder.
+
+AI revenue remains tiny relative to total SaaS revenue despite the narrative dominance:
+
+| Company | AI revenue | Total revenue | AI as % of total |
+|---------|------------|---------------|------------------|
+| [[ServiceNow]] | ~$600M annual (ahead of target) | ~$16B expected FY2026 | ~3.75% |
+| [[Salesforce]] | $540M ARR (Q3) → $800M (Q4) | ~$41.5B FY26 | ~1.3-1.9% |
+
+### The cloud transition analogy
+
+The bull case came from [[Aaron Levie]] ([[Box]]): the cloud was initially seen as an existential threat, but incumbents' business model "post-cloud was even better." [[Bernstein|AllianceBernstein]]'s Jim Tierney leaned toward agents plugging into existing systems rather than replacing them.
+
+[[ServiceNow]] CFO Gina Mastantuono's defense: ServiceNow has governance controls, security infrastructure, and business context that standalone AI agents lack.
+
+### The orchestration question
+
+"Orchestration" — managing constellations of AI agents alongside human workers — emerged as the key control point for the next computing platform. [[OpenAI]]'s Frontier agent framework claims to solve "fragmentation" between clouds, platforms, and applications. If the orchestration layer becomes the primary interface, companies like [[ServiceNow]] and [[Salesforce]] risk becoming back-end service providers — still necessary, but with diminished pricing power.
+
+The SaaS stocks chart tells the story: [[ServiceNow]], [[SAP]], [[Salesforce]], [[Atlassian]], [[Workday]] all peaked between Q1 and Q3 2025, declining since.
+
+*Source: FT, Richard Waters, Feb 24 2026*
+
+---
+
+## The financial structure problem
+
+The cascade exposed a structural vulnerability in SaaS financials that predates AI: there is no valuation floor.
+
+Jared Sleeper (Avenir, growth investor, ex-Coatue public software) on Bloomberg Odd Lots (Feb 11):
+
+| Metric | Value |
+|--------|-------|
+| Median public software co GAAP net income margin | **5%** |
+| Median growth rate (Q3 2025) | 18% (stable) |
+| Net revenue retention | ~110% (stable) |
+| Companies accelerating growth | Increasing each of last 3 quarters |
+
+Management teams are "addicted to reporting non-GAAP" which excludes stock-based compensation. A CFO tells the CEO they're running a 25% operating margin when reality is breakeven. No material GAAP earnings → no buybacks → no dividends → no value investors → no floor under the stock.
+
+FreshWorks example: 1.5x EV/sales, top-line results "pretty good," but no material GAAP earnings and no trajectory toward them. Stock -16% on earnings.
+
+### Terminal value vs current performance
+
+The disconnect is stark: fundamentals are not deteriorating, but stocks are pricing in terminal value destruction 3-5 years out. Sleeper's framework — two arguments against software:
+
+1. World stays the same, software just gets cheaper to build → he doesn't buy this (cost savings benefit incumbents too)
+2. World gets "really weird" — knowledge work itself changes, maybe no customer support reps, sales reps, or software engineers in 3-5 years → this is what's driving the selloff
+
+Pod shop dynamics amplify: [[Citadel]], Balyasny, Millennium are large share of trading volume, can't afford drawdowns, and "have no idea when it will stop" because the selloff isn't fundamental. One [[OpenAI]] or [[Anthropic]] model release away from more fear.
+
+### The intelligence reselling opportunity (bull case)
+
+If software companies capture the AI transition, the pricing paradigm shifts dramatically:
+
+| Old model | New model |
+|-----------|-----------|
+| $1,000/seat/year (tool for a $250-300K employee) | $50,000 to replace that employee |
+| Selling tools | Selling outcomes |
+| Per-seat pricing | Per-result or per-conversation pricing |
+
+Gross margins on reselling intelligence: 20-80% range, ~50% considered "about right." Intercom (customer support software) already demonstrating this: Fin AI product at ~$100M ARR on a ~$300M base — built on reselling model vendor intelligence with domain-specific context.
+
+[[DocuSign]] has more employees today than [[OpenAI]] and [[Anthropic]] combined — suggesting significant labor inefficiency across the sector that could be unlocked.
+
+*Source: Bloomberg Odd Lots, Jared Sleeper (Avenir), Feb 11 2026*
+
+---
+
 ## Open questions
 
 1. **Is the market trigger-happy or prescient?** Transport stocks bounced back quickly. Will software/payments follow, or is this structural?
-2. **Salesforce earnings this week** — the bellwether. AI pricing pressure commentary will determine if this is panic or early recognition
+2. **Salesforce earnings (Feb 25):** Q4 showed $800M [[Agentforce]] ARR (+169%) and fastest growth in 2 years, but FY27 guide barely missed ($46.0B vs $46.02B est). Organic growth ex-[[Informatica]] only ~7-8%. Seat compression risk vs AI consumption upside remains unresolved
 3. **Private credit marks** — the Citrini scenario's most actionable risk. PE-backed SaaS LBOs at peak multiples face a reckoning if revenues compress
 4. **Does the cascade continue?** Each week has hit a new sector. What's next — healthcare IT? Education tech? Consulting firms?
 5. **Policy response** — no government or central bank has addressed AI displacement risk. Will this cascade force the conversation?

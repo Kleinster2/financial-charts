@@ -55,6 +55,35 @@ aliases: [Moody's Ratings, Moody's Corporation, MCO]
 
 ---
 
+## Data centre accounting gap warning (Feb 25, 2026)
+
+[[Moody's]] warned that US GAAP allows hyperscalers to conceal tens of billions in potential data centre liabilities. The issue: growing use of SPVs (special purpose vehicles) to build data centres, with short-term leases and residual value guarantees.
+
+The accounting gap:
+
+| Threshold | GAAP standard | Effect |
+|-----------|---------------|--------|
+| Lease renewal recognition | "Reasonably certain" (~70%+ likely) | AI hardware has 4-6 year useful life, so renewal may not meet threshold |
+| Residual value guarantee (RVG) | "Probable" (>50% likely) | Non-renewal RVG doesn't need to be booked if renewal is expected |
+| Combined effect | Neither scenario triggers balance sheet recognition | Liability disappears from accounts |
+
+Analysts David Gonzales and Alastair Drake: lease renewal decisions depend on "willingness to make additional investments in hardware" with 4-6 year useful life — strict GAAP application means "many lease renewals may fall below the 'reasonably certain' standard."
+
+**Case study — [[Meta]] Hyperion:**
+- SPV: "Beignet Investor," financed by [[Blue Owl]]
+- Initial lease: 4 years, with options to renew up to 20
+- Residual value guarantee: up to **$28B** if property value falls
+- Balance sheet impact: **zero** — no liability recorded
+- Meta's filing: "RVG payments are not probable and therefore, no liability has been recorded"
+
+**Moody's response:** Will conduct independent probability assessments. "A quantitative debt adjustment would likely be made where we believe the reported lease liability understates the likely cash outflow."
+
+This extends Moody's January AI bubble report — the same $3T data centre buildout now has an accounting opacity problem on top of the valuation risk.
+
+*Source: FT, Stephen Foley, Feb 25 2026*
+
+---
+
 ## Business segments
 
 | Segment | Description |

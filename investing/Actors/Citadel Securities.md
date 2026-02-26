@@ -154,8 +154,19 @@ See [[Retail investor flows]] for the structural shift.
 
 ---
 
+## Feb 24, 2026: "The 2026 Global Intelligence Crisis" paper
+
+Published a macro strategy paper (by Frank Flight) directly countering the [[Citrini 2028 Global Intelligence Crisis]] Substack that crashed markets the day before. Key arguments: AI adoption follows S-curves not exponentials, Fed data shows flat workplace AI adoption, compute costs create natural ceilings, software engineer postings UP 11% YoY. The paper formalized the institutional counterpoint to the AI displacement narrative.
+
+See [[Citadel Securities 2026 Global Intelligence Crisis]] for full analysis.
+
+---
+
 ## Related
 
+- [[Citadel Securities 2026 Global Intelligence Crisis]] — macro strategy paper (Feb 2026)
+- [[Citrini 2028 Global Intelligence Crisis]] — the thesis Citadel responded to
+- [[February 2026 AI Disruption Cascade]] — market context
 - [[GameStop]] — meme stock controversy (Jan 2021)
 - [[Retail investor flows]] — structural beneficiary of elevated retail volumes
 - [[Robinhood]] — largest PFOF client

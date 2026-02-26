@@ -374,6 +374,8 @@ $59B face value across 20 tranches (Dec 2025) + $27.3B off-balance-sheet Hyperio
 - Maintains credit ratings
 - Meta only responsible for lease payments, not construction risk
 
+**[[Moody's]] accounting gap warning (Feb 25, 2026):** The Hyperion SPV ("Beignet Investor") has a 4-year initial lease with options to renew up to 20 years, plus a **$28B residual value guarantee** if Meta doesn't renew and property value falls. None of this appears on Meta's balance sheet — GAAP thresholds ("reasonably certain" for renewal, "probable" for RVG) mean neither scenario triggers recognition. Meta's filing: "RVG payments are not probable and therefore, no liability has been recorded." Moody's will make independent probability adjustments for credit ratings.
+
 **Context:** [[Morgan Stanley]] estimates $1.5T total external AI financing needed, $800B via private credit by 2028.
 
 See [[AI infrastructure financing]].

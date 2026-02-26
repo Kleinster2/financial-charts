@@ -27,6 +27,31 @@ For anyone wanting to run [[Local-first AI]] or [[Agentic AI]] on personal hardw
 
 **Important caveat:** TrendForce Feb 2026 reports "weak" DRAM spot demand with suppliers lowering quotes — monitor whether squeeze thesis is materializing or overstated.
 
+### FT evidence: squeeze materializing (Feb 25, 2026)
+
+FT Lex confirms the consumer squeeze is now hitting OEM margins:
+
+| Signal | Data |
+|--------|------|
+| Smartphone memory cost share | **20-30%** of materials cost (up from ~10%), per Counterpoint |
+| Trend | Set to keep rising through at least rest of 2026 |
+| [[Cisco]] Q3 gross margins | Below expectations, partly attributed to memory costs |
+| DRAM operating margins | Now exceed the 50-60% available on [[HBM]] last year |
+| Hyperscaler lock-ins | Contracting for **3 years** at fixed cost |
+| Chipmaker reversion | None — no manufacturer rushing back to consumer DRAM despite high DRAM margins |
+| Cycle severity | Five boom/bust cycles in four decades; FT calls this "among the most severe" |
+| OEM options | Raise prices (hits sales), reduce memory intensity, or watch margins shrink |
+| Scavenging | Some smartphone makers reportedly sourcing chips from old used handsets |
+
+![[memory-chip-suppliers-rebased-ft-feb2026.png]]
+*Memory chip suppliers, share prices rebased (Q1 2025 = 0). [[SK Hynix]] +400%, [[Micron]] +350%, [[Samsung]] +250%. Source: S&P Capital IQ via FT, Feb 2026*
+
+The thesis is strengthening: normal self-righting mechanisms (high margins attracting capacity reversion) are not operating because hyperscaler contracts are more attractive than consumer spot pricing.
+
+**Geopolitical wrinkle:** [[ChangXin Memory|CXMT]] and [[YMTC]] removed from US Pentagon blacklist (Feb 2026). Potentially easier for desperate consumer buyers to source from Chinese manufacturers — and for Chinese firms to acquire knowhow. May partially relieve consumer squeeze while strengthening Chinese memory capability.
+
+*Source: FT Lex, Feb 25 2026*
+
 ---
 
 ## Memory manufacturer positioning

@@ -90,6 +90,14 @@ Part of broader wave of Chinese chip IPOs seeking capital for self-reliance push
 
 ---
 
+## Pentagon blacklist removal (Feb 2026)
+
+YMTC and [[ChangXin Memory|CXMT]] removed from the US Pentagon's Chinese Military Companies blacklist (Feb 2026). Potentially makes it easier for YMTC to acquire knowhow, and for desperate consumer buyers to source NAND from Chinese manufacturers during the [[Memory squeeze thesis|AI-driven memory squeeze]]. May accelerate YMTC's ability to prove competitiveness ahead of any future cycle turn.
+
+*Source: FT Lex, Feb 25 2026*
+
+---
+
 ## Financials
 
 | Metric | Value |

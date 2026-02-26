@@ -20,7 +20,9 @@ ChangXin Memory Technologies ([[CXMT]]) — [[China]]'s leading DRAM manufacture
 | Yield rate | ~50% (vs 92%+ for Samsung/SK Hynix on mature nodes) |
 | Backing | Hefei city government, national funds (Phase 3 IC fund) |
 
-*Updated 2026-02-13*
+| IPO fundraising target | **$4.2B** (FT, Feb 2026) |
+
+*Updated 2026-02-25*
 
 ---
 
@@ -80,6 +82,22 @@ First Chinese company to begin mass-producing advanced mobile DRAM for smartphon
 As DRAM processes advance into the low 10nm range, [[ASML]] EUV lithography becomes essential. US restrictions make it impossible for CXMT to acquire EUV systems. This is the hard ceiling — domestic equipment cannot substitute for EUV at advanced nodes.
 
 **Potential CHIPS Act escalation:** US lawmakers (bipartisan) introduced a bill prohibiting CHIPS Act subsidy recipients from purchasing Chinese-made semiconductor equipment for 10 years — further isolating Chinese equipment ecosystem.
+
+---
+
+## HBM expansion (Feb 2026)
+
+CXMT expanding into [[HBM|high-bandwidth memory]] to serve [[Huawei]]. Part of broader Chinese push to build domestic HBM supply chain outside US-controlled ecosystem. If successful, would break the [[SK Hynix]]/[[Samsung]]/[[Micron]] HBM oligopoly — but faces the same EUV and equipment barriers constraining DRAM expansion.
+
+*Source: FT Lex, Feb 25 2026*
+
+---
+
+## Pentagon blacklist removal (Feb 2026)
+
+CXMT and [[YMTC]] removed from the US Pentagon's Chinese Military Companies blacklist (Feb 2026). This potentially makes it easier for CXMT to acquire knowhow and for non-Chinese buyers to source chips. Comes as consumer device makers face severe memory cost inflation from [[Memory squeeze thesis|the AI memory squeeze]].
+
+*Source: FT Lex, Feb 25 2026*
 
 ---
 

@@ -12,8 +12,8 @@ ServiceNow — Enterprise workflow automation platform. \#1 in IT service manage
 | Metric | Value |
 |--------|-------|
 | Ticker | NOW (NYSE) |
-| Market cap | $118B |
-| Stock price | $113 (Jan 2026) |
+| Market cap | ~$92B (down from ~$218B peak) |
+| Stock price | ~$88 (Feb 2026, -35% YTD) |
 | FY2025 revenue | $13.2B |
 | FY2025 subscription revenue | $12.9B |
 | Revenue growth | 21% YoY |
@@ -151,6 +151,24 @@ McDermott: "There is no AI company in the enterprise better positioned for susta
 
 ---
 
+## SaaSpocalypse impact (Feb 2026)
+
+[[ServiceNow]] became one of the highest-profile casualties of the [[February 2026 AI Disruption Cascade]]. The stock shed ~$100B in market cap over the prior year, falling from its ~$218B peak. After McDermott defended ServiceNow's AI positioning on the Q4 earnings call (Jan 28), the stock fell another 22% as the SaaSpocalypse unfolded — hitting -35% YTD by late February.
+
+The bear case crystallized around "long-term disaggregation risk" ([[RBC]]'s Rishi Jaluria): if AI agents become the primary workflow interface, ServiceNow risks becoming a back-end service provider rather than the platform layer. IT budget diversion toward AI spending also makes traditional software cross-selling harder.
+
+ServiceNow's defense: governance controls, security infrastructure, and business context that standalone AI agents cannot replicate. CFO Mastantuono argued that agents need a trusted enterprise platform to operate within — and ServiceNow's 98%+ retention, 85% Fortune 500 penetration, and workflow depth make it the natural host.
+
+AI revenue reality: ~$600M annual run rate (ahead of internal targets), but only ~3.75% of expected ~$16B FY2026 total revenue. The market is pricing in disruption faster than AI revenue can replace traditional subscription value.
+
+The Feb 24 [[Anthropic]] reversal — partnership announcements suggesting AI augments rather than replaces enterprise software — provided a temporary bounce. But the structural question remains open.
+
+See [[February 2026 AI Disruption Cascade]] for full cascade context.
+
+*Source: FT, Richard Waters, Feb 24 2026*
+
+---
+
 ## Competitive position
 
 | Competitor | Focus | ServiceNow advantage |
@@ -209,5 +227,7 @@ Bear:
 - [[Claude]] — AI model integration
 - [[Thinking Machines Lab]] — strategic investment ($2B seed, 2025)
 - [[Armis]] — acquisition (cybersecurity)
+- [[February 2026 AI Disruption Cascade]] — SaaSpocalypse impact (~$100B market cap lost, -35% YTD)
+- [[RBC]] — Jaluria disaggregation risk framework
 
-*Updated 2026-01-29*
+*Updated 2026-02-25*

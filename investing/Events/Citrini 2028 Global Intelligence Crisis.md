@@ -248,8 +248,15 @@ Neither side has a model. Both are telling stories. The market, for now, is pric
 
 ---
 
+## Institutional response
+
+**[[Citadel Securities 2026 Global Intelligence Crisis]]** — published Feb 24 (one day later) by Citadel Securities' Global Macro Strategy team. Direct counterpoint arguing displacement panic is overblown: adoption follows S-curves not exponentials, Fed data shows flat AI adoption at work, compute costs create natural ceilings, software engineer postings UP 11% YoY. The two papers now define the poles of the AI macro debate for 2026.
+
+---
+
 ## Related
 
+- [[Citadel Securities 2026 Global Intelligence Crisis]] — institutional counterpoint (Feb 24, 2026)
 - [[AI disintermediation]] — the core concept. Citrini's "habitual intermediation" and friction-collapse thesis is an extension of this
 - [[AI workflow disruption basket]] — the basket of stocks most exposed to Citrini's Phase 1 (SaaS compression)
 - [[Private credit risk]]

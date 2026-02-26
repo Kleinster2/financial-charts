@@ -130,6 +130,8 @@ Blue Owl's BDCs share the same lending platform — OBDC, OBDC II, and OTIC hold
 - Hyperscalers increasingly prefer leasing to owning (Nadella: "excited to be a leaser")
 - Made it easier for Meta to also raise $30B in traditional bonds
 
+**[[Moody's]] accounting gap warning (Feb 25, 2026):** Meta's Hyperion lease (4-year initial, renewal options to 20 years) plus **$28B residual value guarantee** — neither appears on Meta's balance sheet under GAAP. Moody's warned disclosures "may not show the full picture" and will make independent adjustments for credit ratings. SPV is called "Beignet Investor." This creates a template risk: as more hyperscalers use SPVs, aggregate hidden liabilities could reach tens of billions. See [[Moody's]].
+
 ---
 
 ## Crusoe Abilene deal
