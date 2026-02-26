@@ -118,11 +118,14 @@ Remaining legal matters: Coinbase continues pursuing its petition to force the S
 
 ## USDC stablecoin
 
-Co-created with Circle:
+Co-created with [[Circle]]:
 - Dollar-backed stablecoin
 - ~$30B+ market cap
 - Used for trading, payments, DeFi
-- Coinbase earns interest on reserves
+- Coinbase earns revenue share on USDC reserves — **$364M in Q4 2025** alone (stablecoin revenue line)
+- [[GENIUS Act]] (Jul 2025) legitimized USDC as part of US payment system
+
+**Meta/Stripe catalyst (Feb 2026):** [[Meta]] is testing stablecoin payments across its apps (3.5B DAUs) for H2 2026, with [[Stripe]]/Bridge as infrastructure partner. If USDC is the primary stablecoin routed through Bridge, Coinbase's revenue share scales directly with circulation growth. See [[Circle]] and [[Stripe]] for details.
 
 ---
 
@@ -163,7 +166,8 @@ Bull:
 - S&P 500 constituent (passive flows)
 - SEC lawsuit resolved
 - Derivatives expansion via Deribit
-- Subscription revenue growing
+- Subscription revenue growing (41% of net rev)
+- USDC revenue share scales with [[Meta]]/[[Stripe]] stablecoin adoption
 - Base blockchain growth
 - Tokenization tailwind
 
@@ -255,9 +259,12 @@ Epstein connection: Jeffrey Epstein invested $3M in the 2014 Series C via a USVI
 
 ## Related
 
+- [[Circle]] — USDC co-creator, Coinbase earns revenue share ($364M Q4 2025)
+- [[Meta]] — testing stablecoin payments (H2 2026), potential USDC circulation catalyst
+- [[Stripe]] — Bridge subsidiary likely routing Meta's stablecoin payments
+- [[GENIUS Act]] — regulatory framework legitimizing USDC
 - [[Tokenized private shares]] — infrastructure beneficiary
 - [[Robinhood]] — competitor (crypto trading)
 - [[Crypto]] — industry context
-- [[Circle]] — USDC partner
 - [[Deribit]] — acquired Aug 2025
 
