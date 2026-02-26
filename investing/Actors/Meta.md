@@ -381,6 +381,24 @@ Meta is the clearest example of "shipped ≠ deployed" — see [[GPU deployment 
 
 ---
 
+## Stock-based compensation
+
+Meta has the worst [[Stock-based compensation|SBC]] sterilization ratio among Mag 7. Over 10 years, **82% of $148B in buybacks** merely offset dilution from equity grants — only 18% actually reduced the float (3.9% net reduction).
+
+| Year | SBC Expense | % Revenue | Buyback $ |
+|------|-------------|-----------|-----------|
+| 2023 | $14.0B | 10.4% | $20.0B |
+| 2024 | $16.7B | 10.1% | $29.7B |
+| 2025 | $20.4B | 10.2% | $30.1B |
+
+**SBC-adjusted FCF (2025):** $43.6B reported − $20.4B SBC = ~$23.2B. At ~$1.7T market cap, that's a ~1.4% adjusted FCF yield vs. ~2.6% headline.
+
+**Equity award cuts:** Meta cut stock awards ~5% in Feb 2026 (after 10% cut in 2025), redirecting savings to AI capex. May accelerate employee churn to competitors.
+
+**Why Meta borrows despite profitability:** Debt is partly to fund buybacks needed to sterilize SBC. Interest on AA-rated debt (~4-5%) is cheaper and tax-deductible vs. the dilution cost of letting SBC flow through. This explains the zero-to-$59B debt trajectory since 2021.
+
+---
+
 ## Debt profile
 
 $59B face value across 20 tranches (Dec 2025) + $27.3B off-balance-sheet Hyperion SPV. Rated AA-/Aa3. Went from zero debt to $59B in 3.5 years. Net cash position ~$22.6B. See [[Meta bonds]] for full inventory.
