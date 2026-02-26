@@ -103,9 +103,11 @@ PYPL is loosely attached to payments networks but doesn't trade with them (V-MA 
 
 **Multi-coin approach:**
 - Buy/sell Bitcoin, Ethereum, others
-- PYUSD stablecoin (launched 2023)
+- PYUSD stablecoin (launched 2023, issued by Paxos, ~$870M market cap)
 - [[Crypto]] checkout for merchants
 - Less aggressive than [[Block]]
+
+**PYUSD competitive position:** Legitimized by the [[GENIUS Act]] (Jul 2025) but distant third behind USDT ([[Tether]], ~$187B) and USDC ([[Circle]], ~$75B). [[Meta]]'s stablecoin integration (H2 2026) via [[Stripe]]/Bridge likely routes through USDC, not PYUSD — another channel where PayPal is losing to infrastructure-first competitors. PYUSD's edge is PayPal/Venmo's 439M accounts, but without third-party distribution the stablecoin remains a captive product.
 
 ---
 
@@ -204,8 +206,11 @@ PayPal itself no longer has this talent density.
 - [[Checkout wars]] — structural competitive pressure
 - [[Apple Pay]] — taking branded checkout share
 - [[Shop Pay]] — Shopify's accelerated checkout, growing 57% YoY
-- [[Stripe]] — competitor (Stripe Link)
+- [[Stripe]] — competitor (Link checkout + Bridge stablecoin infrastructure for [[Meta]])
 - [[Block]] — competitor
+- [[Circle]] — USDC competitor to PYUSD, likely Meta's stablecoin of choice
+- [[Tether]] — USDT, dominant stablecoin (#1 vs PYUSD's distant #3)
+- [[GENIUS Act]] — stablecoin regulatory framework legitimizing PYUSD
 - [[Robinhood]] — fintech peer
 - [[Coinbase]] — crypto peer
 - [[Elon Musk]] — co-founder (X.com merger)
