@@ -81,6 +81,54 @@ Employees buy stock at a discount (typically 15%) through payroll deductions. Us
 
 ---
 
+## Company-by-company comparison
+
+### Mag 7 + major tech
+
+| Company | Primary instrument | Vesting | Structure | Notable features |
+|---------|-------------------|---------|-----------|------------------|
+| **[[Google\|Alphabet]]** | RSUs | 4yr, 1yr cliff, then quarterly | Standard | Generous refreshers; ~$22B annual SBC (2024) |
+| **[[Amazon]]** | RSUs | 4yr back-loaded: 5/15/40/40 | Unique | Cash signing bonus offsets low early vesting. ~$20-22B SBC. Highest attrition pressure from schedule |
+| **[[Apple]]** | RSUs | 4yr, annual vesting (25%/yr) | Front-loaded grants | Lower SBC/revenue (~2.8%) than peers. Large initial grants, smaller refreshers. Gold standard for buyback efficiency |
+| **[[Meta]]** | RSUs | 4yr, 1yr cliff, then quarterly | Standard | ~$20.4B SBC (2025). Cut equity awards 5% (2026), 10% (2025). 82% buyback sterilization |
+| **[[Microsoft]]** | RSUs | 4yr, annual vesting (25%/yr) | Standard | ~$10B SBC. Some PSUs for executives. Lower sterilization than Meta |
+| **[[NVIDIA]]** | RSUs | 4yr, 1yr cliff, then semi-annually | Standard | Semi-annual vesting dates (every 6 months). Refreshers based on performance scale (5-9). Massive paper wealth creation from stock run-up |
+| **[[Tesla]]** | Stock options + RSUs | Varies; options historically dominant | Options-heavy | Musk's $56B option package (voided by Delaware court, reapproved in Texas). Options used more than RSUs historically. Lower base salary, higher option leverage |
+
+### Non-Mag 7 notable approaches
+
+| Company | Approach | Why it's different |
+|---------|----------|--------------------|
+| **Netflix** | **Cash-first + stock options** | Employees choose how much salary to allocate to options (purchased at 40% of market price). No RSUs. Highest cash comp in tech. Philosophy: let employees decide their own risk appetite |
+| **Stripe** (private) | RSUs with annual conversion | RSUs converted to cash value yearly — limits both upside and downside. Double-trigger vesting (time + liquidity event). Controversial among employees |
+| **[[Salesforce]]** | RSUs | 4yr, quarterly vesting | Standard with PSUs for senior leaders |
+| **Palantir** | RSUs + options | Heavy SBC — ~25-30% of revenue historically. Among the worst SBC/revenue ratios in tech |
+| **Coinbase** | RSUs | 4yr, 1yr cliff, quarterly | Standard. High SBC relative to revenue given crypto volatility |
+| **Uber** | RSUs | 4yr, 1yr cliff, quarterly | Standard. SBC ~15% of revenue — improving but still high |
+
+### Private companies (startups)
+
+| Stage | Typical instrument | Notes |
+|-------|-------------------|-------|
+| **Pre-seed/Seed** | Stock options (ISOs) | Low strike price (409A valuation). High upside if company succeeds. 4yr vest, 1yr cliff standard |
+| **Series A-C** | Stock options (ISOs) | Strike price rising with each round. Early employees have lowest strikes |
+| **Late-stage** | Mix of options + RSUs | RSUs become more common as IPO approaches. Double-trigger vesting (time + IPO/acquisition) protects employees from tax on illiquid stock |
+| **Pre-IPO** | RSUs with double-trigger | Standard at Stripe, SpaceX, etc. No tax event until both vesting AND liquidity event occur |
+
+**Double-trigger explained:** At public companies, RSUs vest and immediately create a tax event (you owe income tax on shares you received). At private companies, double-trigger delays the tax event until a liquidity event (IPO, acquisition, or tender offer). Without this, employees would owe tax on stock they can't sell.
+
+### By philosophy
+
+| Philosophy | Companies | Logic |
+|------------|-----------|-------|
+| **Cash-first** | Netflix | Adults can decide what to do with their own money. Reduces golden handcuffs, but also reduces retention |
+| **Equity-heavy** | Tesla, Palantir, early-stage startups | Aligns employees with long-term stock performance. Attracts believers, repels mercenaries |
+| **Back-loaded retention** | Amazon | Forces employees to stay 3-4 years for the bulk of their equity. High attrition in years 1-2 is a feature, not a bug |
+| **Balanced** | Google, Meta, Microsoft, Apple | Standard 4-year vest, competitive refreshers. Retention through continuous new grants rather than schedule manipulation |
+| **Performance-gated** | Executive PSUs everywhere | Vest only if targets hit. Strongest alignment but can incentivize short-term metric gaming |
+
+---
+
 ## Tax treatment
 
 ### For employees
