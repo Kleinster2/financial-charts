@@ -145,7 +145,7 @@ USDC grew 73% in 2025 vs USDT's 36%. [[Circle]]'s regulatory compliance is its p
 | Regulatory fragmentation | Banned in EU; creating parallel US product rather than bringing USDT into compliance |
 | Concentration risk | <10 people control entity; opaque corporate structure across multiple jurisdictions |
 | Reserve illiquidity | BTC, gold, secured loans (~25% of reserves) may not be immediately liquidatable in a rapid-redemption scenario |
-| USDC gaining share | Compliance-first approach winning institutional and regulated exchange adoption |
+| USDC gaining share | Compliance-first approach winning institutional and regulated exchange adoption; [[Meta]]/[[Stripe]] stablecoin integration (H2 2026) likely routes through USDC, not USDT |
 | Political exposure | [[Howard Lutnick]] / [[Cantor Fitzgerald]] nexus creates conflict-of-interest risk |
 
 ---
@@ -159,7 +159,8 @@ USDC grew 73% in 2025 vs USDT's 36%. [[Circle]]'s regulatory compliance is its p
 - [[Solana]] — growing USDT chain
 
 ### Competitors
-- [[Circle]] — USDC issuer, main rival
+- [[Circle]] — USDC issuer, main rival. [[Meta]]/[[Stripe]] stablecoin integration (H2 2026) likely favors USDC
+- [[Stripe]] — Bridge subsidiary positioning as stablecoin infrastructure layer for Big Tech
 - [[MakerDAO]] — DAI/USDS, decentralized alternative
 - [[PayPal]] — PYUSD
 
