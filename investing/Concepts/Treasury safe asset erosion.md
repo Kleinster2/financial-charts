@@ -97,23 +97,43 @@ Robert Triffin (1960): To keep the world supplied with enough dollars, the US mu
 
 ## Credit market echoes (Feb 2026)
 
-The safe asset erosion is now propagating into credit markets:
+The safe asset erosion is now propagating into credit markets.
+
+![[corporate-bond-spreads-widest-months-bloomberg.jpg]]
+*Bloomberg Global Credit Corporate OAS to Treasury. Spreads bottomed ~1.0% in Jan 2026 and are now widening — at widest since Nov 2025. Source: Bloomberg.*
 
 | Signal | Detail |
 |--------|--------|
-| IG spreads | Hit **30-year lows** (~75-85bps) then started widening |
+| IG spreads | Hit **multi-decade lows**, now widened ~8bps in last month to **82bps** (still below 10Y avg of 119bps) |
 | Global spreads | Widened ~4bps in week of Feb 27 — largest move since Nov 2025 |
+| Asian IG dollar notes | +2bps wider on Feb 27 alone |
 | IG spread forecast | TD Securities expects **100-110bps**, up from 75-85 |
 | Corporate issuance | UBS projects **$900B** new global corporate debt in 2026 |
 | AI bond wave | **$400B+** from hyperscalers and DC builders flooding IG market |
 | Fed warning | Jan FOMC minutes: "historically low credit spreads" flagged by several participants |
 | Vanguard | Says investors are "full" on credit |
 
-**The doom loop:** In the old regime, credit spreads widen → Treasuries rally (flight to safety) → portfolio hedged. In the new positive stock-bond correlation regime, a growth shock could hit equities, corporates, *and* Treasuries simultaneously. Credit spreads have almost no cushion (~75bps) for a world where the hedge doesn't work.
+### The AI-private credit nexus
+
+The specific fear: **AI disruption could spike private credit defaults to 15%** (UBS credit strategists, Feb 2026). Private credit is a key funding source for technology firms — especially software companies. Bain separately warns software default rates could hit double digits.
+
+This creates a contagion channel:
+1. AI disrupts software business models → leveraged software borrowers default
+2. Private credit funds (key lenders) take losses → dividend cuts, redemptions ([[BlackRock|TCPC]] already cutting 32%)
+3. Sentiment spills into public credit → IG spreads widen
+4. **Market Financial Solutions Ltd** (UK mortgage-finance) collapsed into insolvency this week — loose underwriting. Last year: First Brands Group (auto parts) and Tricolor Holdings (sub-prime auto lender) bankruptcies already unsettled Wall Street.
+
+**CreditSights (Zerlina Zeng, Asia strategy):** "For now, we don't see severe contagion risk to public credits from the private market, given its relative size." But warns: watch for credit quality deterioration at smaller lenders and concentration risks in tech.
+
+**Eastspring Investments (Clement Chong):** "Valuations in the Asian market have tightened in sync with developed markets like the US, and we will not be immune to volatility there."
+
+### The doom loop
+
+In the old regime, credit spreads widen → Treasuries rally (flight to safety) → portfolio hedged. In the new positive stock-bond correlation regime, a growth shock could hit equities, corporates, *and* Treasuries simultaneously. Credit spreads have almost no cushion (~82bps vs 119bps avg) for a world where the hedge doesn't work.
 
 **Bridgewater positioning (Greg Jensen, Jan 2026):** Betting on the scenario where credit spreads widen and long-end Treasuries rally in flight-to-quality. This is a bet that the old regime still holds for extreme events. If it doesn't — and March 2020 and April 2025 suggest it might not — there's nowhere to hide except cash and gold.
 
-The wall of AI-related issuance ($400B+) is particularly dangerous because it's hitting a market at 30-year tight spreads with deteriorating Treasury safe-haven dynamics. If the AI capex cycle disappoints, this debt reprices violently with no Treasury offset.
+The wall of AI-related issuance ($400B+) is particularly dangerous because it's hitting a market at multi-decade tight spreads with deteriorating Treasury safe-haven dynamics. If the AI capex cycle disappoints, this debt reprices violently with no Treasury offset.
 
 ---
 
