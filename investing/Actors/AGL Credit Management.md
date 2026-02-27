@@ -127,23 +127,13 @@ AGL's conservative "loss avoidance" culture and focus on senior secured (top of 
 
 ---
 
-## Assessment
+## Bottom line
 
-**Strengths:**
-- Exceptional growth trajectory ($0 → $21B AUM in 6 years) with institutional validation (CLO Manager of the Year, 2024 & 2025)
-- Gleysteen's pedigree is rare — co-inventor of Market Flex, 40+ years in leveraged lending, previously built CIFC into a top-tier CLO manager
-- ADIA anchor capital provides stability and credibility that most CLO startups lack
-- Barclays exclusive origination agreement is a structural moat — access to large-cap, bank-quality deal flow without the overhead of running an origination platform
-- Conservative "loss avoidance" credit culture and senior secured focus place AGL at the top of the capital stack
+Strong shop. $0 to $21B in 6 years, CLO Manager of the Year back-to-back, founded by a guy who literally helped invent how leveraged loans are priced (Market Flex, 1997). ADIA anchor money + exclusive Barclays origination pipe means they get first look at high-quality large-cap deals without competing in the open market.
 
-**Positioning in current environment (Feb 2026):**
-- Private credit stress is concentrated in middle-market, lower-quality lending (e-commerce aggregators, sub-prime auto, software). AGL's large-cap, senior secured focus provides relative insulation
-- The Barclays channel favors higher-quality sponsor-backed credits vs the riskier direct lending market where BDCs like [[BlackRock|TCPC]] are taking losses
+In the current private credit stress environment — where [[BlackRock|TCPC]] is cutting dividends, Blue Owl is gating redemptions, and UBS is warning about 15% default rates — AGL's positioning looks relatively defensive: senior secured (top of capital stack), loss-avoidance culture, and large-cap focus vs the middle-market lending where the pain is concentrated.
 
-**Risks:**
-- Rapid AUM scaling ($14B → $21B in ~12 months) during a period of easy credit conditions — vintage risk if those loans were underwritten at cycle-peak terms
-- Systemic credit deterioration would hit even senior secured positions; CLO equity tranches are particularly exposed
-- CLO market depends on continued investor appetite for structured credit — a liquidity freeze would impact new issuance and refinancing
+**The risk:** They're still a CLO/private credit shop. If credit broadly deteriorates, even senior secured takes hits — and CLO equity tranches are particularly exposed. More importantly, they scaled fast during easy money ($14B → $21B in ~12 months). That's a lot of vintage risk if those loans were underwritten at cycle-peak terms. A liquidity freeze in structured credit would hit new issuance and refinancing hard.
 
 ---
 
