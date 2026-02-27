@@ -22,6 +22,44 @@ Templates and required content for different note types.
 | | Sector correlation section (actor notes) |
 | | Journal sections |
 | | Event note structure |
+| | Synopsis (actor notes) |
+| | Synthesis (concept/event notes) |
+
+---
+
+## Synopsis (actor notes)
+
+**Every actor note should open with a synopsis paragraph** immediately after the frontmatter one-liner. This is the lede — a reader should get the full picture from this paragraph alone.
+
+**What to include:**
+- What the company does (one clause)
+- Key current metrics (revenue, valuation, circulation — whatever matters most)
+- Recent catalyst or inflection point
+- Bull and bear case in brief
+- Forward-looking signal (what to watch next)
+
+**Example (Circle):**
+> Issuer of USDC, the #2 stablecoin ($75B in circulation). IPO'd June 2025 at $31, now trading ~$83 after a blowout first earnings report (Q4 revenue $770M, +77% YoY; FY $2.7B, +64%). The bull case: USDC is becoming the regulated stablecoin rail — Visa settlement, OCC charter, 55 financial institutions on Circle Payments Network, and Meta testing USDC payments for 3.5B users. The bear case: still GAAP-negative, rate cuts would compress reserve income, and Tether holds 60%+ market share.
+
+**Keep it to one paragraph.** Dense, specific, no filler. If you can't summarize the thesis in one paragraph, you don't understand it well enough.
+
+---
+
+## Synthesis (concept and event notes)
+
+**Concept and event notes should include a `## Synthesis` section** that connects all the threads and states what it means for positioning.
+
+This is NOT a summary — it's the analytical layer that emerges from reading all the evidence in the note. It should answer: What's the non-obvious conclusion? How do the pieces fit together? What's the investable takeaway?
+
+**What to include:**
+- The core dynamic and whether it's accelerating or decelerating
+- How recent evidence confirms or challenges the thesis
+- Who benefits and who gets hurt (specific names)
+- Position/conviction statement
+
+**Placement:** After the introductory section, before detailed evidence sections. Reader gets the conclusion first, then can drill into supporting data.
+
+**When to update:** Every time significant new evidence is added to the note, revisit the synthesis. A stale synthesis is worse than none.
 
 ---
 
