@@ -5,6 +5,8 @@ aliases: [NVDA]
 
 NVIDIA — dominant AI accelerator company with hardware + software moat. First semiconductor company to cross $100B revenue (2025).
 
+Dominant AI accelerator company with >90% data center AI training market share, powered by the CUDA software moat that locks in a decade of developer tooling. FY2026 revenue hit $215.9B (first $200B semiconductor company ever), up from $130.5B, with $120.1B net income. Revenue has grown 30x since FY2023's $27B. The bull case: AI capex supercycle is still early — hyperscalers guiding $175B+ in 2026 spend, Blackwell architecture ramping, and no credible CUDA alternative exists. The bear case: customer concentration risk (Meta, Microsoft, Google drive majority of revenue), custom silicon efforts (Trainium, TPU) eroding share at the margin, and cyclicality — the 2023 crypto hangover showed how fast demand can evaporate.
+
 ---
 
 ## Leadership

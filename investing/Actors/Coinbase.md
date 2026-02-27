@@ -5,6 +5,8 @@ aliases: [COIN]
 
 Coinbase — Largest US crypto exchange and first crypto company in the S&P 500 (May 2025). Infrastructure layer for tokenization. Now a global derivatives leader after Deribit acquisition.
 
+Largest US crypto exchange with ~$35B market cap, $7.2B FY2025 revenue (+9% YoY), and S&P 500 inclusion (May 2025). Subscription revenue ($2.8B, +23% YoY) now 41% of net revenue, providing counter-cyclical stability against trading volume swings. IPO'd via direct listing at $381 (Apr 2021), crashed to ~$35 in the 2022 bear market, peaked ~$440 in late 2025, then fell to ~$141 on Q4 crypto downturn. Q4 2025 net loss of $667M was driven by $718M unrealized crypto investment losses — operating income was $274M. The bull case: crypto infrastructure monopoly in the US, tokenization platform, Deribit acquisition for global derivatives. The bear case: revenue still heavily correlated to crypto cycles, regulatory overhang, and transaction fee compression as competition intensifies.
+
 ---
 
 

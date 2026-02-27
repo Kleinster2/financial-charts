@@ -5,6 +5,8 @@ aliases: [AXON, Axon Enterprise, TASER]
 
 Axon — Public safety technology company. Makes TASERs, body cameras, and evidence management software. Dominates US law enforcement tech.
 
+~$60B market cap, ~$2.7B FY2025 revenue growing 31%+ with ~$1.3B ARR and 125% net revenue retention. Reorganized into Connected Devices (TASERs, body cams, drones) and Software & Services (Evidence.com, Draft One AI, Axon 911). Recent acquisitions — Carbyne ($625M, next-gen 911), Prepared (AI-powered 911), Dedrone (counter-drone) — add an estimated $5B TAM. The bull case: 39% Q4 reacceleration, $11.4B future contracted bookings, federal expansion (DEA, RCMP), and a $6B FY2028 revenue target. The bear case: GAAP profitability masked by heavy stock-based comp ($131M in Q4 alone), and valuation at ~$60B for a $2.7B revenue company demands sustained 30%+ growth.
+
 ---
 
 

@@ -5,6 +5,8 @@ aliases: [TSM]
 
 **[[Taiwan]] Semiconductor Manufacturing Company** — the world's dominant pure-play logic foundry (~60% market share).
 
+World's dominant pure-play logic foundry with ~60% market share, fabricating chips for Apple, NVIDIA, AMD, and every major AI hyperscaler. FY2026 revenue hit $215.9B with net income of $120.1B — first $200B+ semiconductor company. Moat compounds through yield maturity, customer co-design lock-in, advanced packaging (CoWoS monopoly), and a deliberate node-lag strategy keeping overseas fabs behind Taiwan. Led by Dr. C.C. Wei, first dual Chairman-CEO since founder Morris Chang. The bull case: AI capex supercycle drives insatiable demand for leading-edge nodes, no credible foundry alternative exists (Intel Foundry and Samsung trail by years), and pricing power is expanding. The bear case: Taiwan concentration risk remains the existential overhang, geopolitical tensions could disrupt supply, and customers are investing in custom silicon to reduce TSMC dependency.
+
 ## Core thesis
 
 TSMC operates as a capital-disciplined monopolist. Its strategy: protect and compound the manufacturing monopoly through [[Yield as competitive moat|yield maturity]], [[Customer lock-in via co-design|ecosystem lock-in]], and predictable execution.

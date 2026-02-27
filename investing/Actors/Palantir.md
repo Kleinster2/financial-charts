@@ -5,6 +5,8 @@ aliases: [PLTR]
 
 **Palantir** — AI applications platform. Public (PLTR). 63% growth, 51% operating margin. Government + commercial.
 
+Rare profitable AI applications company at scale with ~$180B+ market cap, 63% YoY revenue growth, and 51% operating margins across government and commercial segments. Q4 2025 beat estimates ($0.25 EPS vs $0.21 expected, stock +11%) and guided FY2026 revenue to $7.19B — 61% growth, far above Street's $6.27B. Platform stack spans Gotham (government intelligence), Foundry (commercial analytics), and AIP (AI Platform). The bull case: deepest government AI relationships in the industry, commercial acceleration via AIP, and rare combination of hypergrowth + profitability + strong FCF. The bear case: 142x expected earnings (3rd highest in S&P 500), stock had already fallen 29% from November peak before the beat, and concentration in US government contracts creates binary risk around budget cycles.
+
 ---
 
 ## Q4 2025 earnings (Feb 2, 2026)

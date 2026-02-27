@@ -5,6 +5,8 @@ aliases: [TSLA]
 
 Tesla — EV maker, but increasingly an AI/compute company. Dojo chips, FSD, potential [[Samsung]] anchor customer. \#2 to BYD in global EV sales (2025).
 
+World's most valuable automaker with ~$97.7B FY2025 revenue (flat YoY, first annual decline on record) and 1.63M deliveries (-8.5% YoY). Pivoting from pure EV play to AI/compute: FSD hit 1.1M active subscriptions, robotaxi production targeted for April 2026, and capex guidance >$20B for 2026 (more than doubling). Invested $2B in Musk's xAI, now a SpaceX subsidiary post-merger. The bull case: FSD monetization inflection, Optimus humanoid robots, Tesla Energy expansion, and AI training infrastructure create optionality far beyond auto. The bear case: Evercore forecasts a $5-7B FCF deficit in 2026 as capex doubles, core auto margins compressed by EV price war, Musk attention split across SpaceX/xAI/DOGE, and BYD overtaking globally.
+
 ---
 
 ## Relevance to semis

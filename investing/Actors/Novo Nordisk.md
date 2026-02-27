@@ -5,6 +5,8 @@ aliases: [NVO]
 
 **Novo Nordisk** — GLP-1 leader. Ozempic, Wegovy. $33B semaglutide run-rate. Stock -50% in 2025 on growth concerns.
 
+Dominant GLP-1 franchise with ~$33B annualized semaglutide revenue across Ozempic (diabetes), Wegovy (obesity), and Rybelsus (oral). Stock fell 50% in 2025 — worst year on record — after three guidance cuts and sharp growth deceleration (Ozempic from +15% to +3% YoY, Wegovy from +67% to +18%). Eli Lilly's Mounjaro/Zepbound has seized 58% US GLP-1 share vs Novo's 42%. The bull case: oral Wegovy launching Jan 2026, CagriSema (next-gen combo) in Phase 3, and 68% international market share still intact. The bear case: US share losses accelerating, guidance credibility damaged, and Lilly's pipeline may be structurally superior.
+
 ---
 
 ## Why Novo Nordisk matters

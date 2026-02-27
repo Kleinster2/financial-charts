@@ -7,6 +7,8 @@ aliases: [AAPL]
 
 [[Consumer]] electronics giant with world-class silicon design team. TSMC's anchor customer.
 
+World's most valuable company with $416B FY2025 revenue and $112B net income, anchored by the iPhone ecosystem and an in-house silicon design team (A-series, M-series) that extracts more value from TSMC's leading-edge nodes than any competitor. First access to new TSMC nodes locks capacity ahead of rivals — A19 demonstrated 10% die shrink on N3P with design optimization beyond what the node itself provides. App Tracking Transparency reshaped the entire digital ad industry, wiping $230B from Meta's market cap in a single day. The bull case: vertical integration (hardware + software + silicon) creates compounding advantages, Services revenue growing, and Apple Intelligence positions them for on-device AI. The bear case: iPhone growth plateauing, China market risk, and regulatory pressure on App Store fees globally.
+
 ---
 
 ## Core thesis

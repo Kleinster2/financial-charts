@@ -5,6 +5,8 @@ aliases: [CRM]
 
 **Salesforce** — \#1 CRM platform globally. Enterprise cloud pioneer. Einstein AI and Agentforce for AI-powered sales/service.
 
+World's #1 CRM platform with ~$193B market cap, $41.5B FY2026 revenue, and 150,000+ customers across Sales, Service, Marketing, Commerce, Slack, Tableau, and MuleSoft clouds. AI pivot centers on Agentforce — autonomous AI agents that take actions, not just chat — with $800M ARR (+169% YoY), 29,000 cumulative deals, and a $2/conversation pricing model. Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). The bull case: Agentforce is the enterprise AI agent platform winner, pricing model aligns usage with value, and CRM dominance gives unmatched distribution for AI upsell. The bear case: AI agent monetization is still early and unproven at scale, competition from Microsoft Copilot and vertical AI startups, and organic growth in core CRM is slowing.
+
 ---
 
 ## Quick stats

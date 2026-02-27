@@ -5,6 +5,8 @@ aliases: []
 
 **Stripe** — Payments infrastructure. $159B valuation. $1.4T processed. Profitable. No IPO planned.
 
+World's most valuable private fintech at $159B (Feb 2026), processing $1.4T in payment volume on $5.1B 2024 revenue (~$5.8B estimated 2025). Founded by Irish brothers Patrick and John Collison (Stanford dropouts, 2010), backed by Sequoia, a16z, Founders Fund, Tiger Global, and sovereign wealth (GIC, Temasek). Valuation journey: peaked at $95B (Mar 2021), cut to $50B in the 2023 down round, then tripled to $159B through a series of tender offers. Profitable with no IPO planned. The bull case: payments infrastructure monopoly for internet commerce, expanding into financial services stack, and profitable growth at massive scale. The bear case: staying private limits liquidity and price discovery, competition from Adyen and legacy processors, and take-rate compression as merchants gain leverage.
+
 ---
 
 ## Why Stripe matters

@@ -7,6 +7,8 @@ aliases: [AMZN]
 
 Tier 1 AI hyperscaler, largest cloud provider, major custom silicon player (Trainium, Graviton). [[Anthropic]]'s primary cloud partner.
 
+Largest cloud provider (AWS, $200B backlog) and Tier 1 AI hyperscaler with $716.9B FY2025 revenue and $62.0B net income. Custom silicon strategy is the most advanced among hyperscalers: Trainium3 (3nm, shipping Dec 2025) delivers 2.52 PFLOPs FP8, and Trainium4 will be the first custom chip with NVIDIA NVLink Fusion interoperability. $8B invested in Anthropic as primary cloud/training partner. Led by Andy Jassy (promoted from AWS CEO when Bezos stepped back). The bull case: AWS dominance compounds with AI workloads, custom silicon reduces NVIDIA dependency and improves margins, and multi-GW infrastructure buildouts create structural advantage. The bear case: AI capex intensity pressuring near-term margins, Trainium adoption still unproven vs NVIDIA CUDA ecosystem at scale, and retail e-commerce margins remain razor-thin.
+
 ---
 
 ## Why it matters

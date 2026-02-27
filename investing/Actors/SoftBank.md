@@ -5,6 +5,8 @@ aliases: [SoftBank Group, SBG]
 
 SoftBank Group — Japanese conglomerate and tech investor. Led by [[Masayoshi Son]]. Owns [[Arm Holdings]] (~90%), leads [[Project Stargate]] ($500B AI infrastructure).
 
+Japanese tech conglomerate making the largest AI infrastructure bet in history: lead investor in Project Stargate ($500B over 4 years, $100B initial) alongside OpenAI, Oracle, and MGX. Crown jewel is ~90% ownership of Arm Holdings (~$150B+ market value). On a 2025 acquisition spree — $41B into OpenAI (~11% stake), $6.5B for Ampere Computing, $4B for DigitalBridge, $5.4B proposed for ABB robotics — funded partly by selling its entire NVIDIA stake ($5.83B). Stock nearly doubled in 2025. The bull case: Arm's mobile CPU monopoly + Stargate infrastructure + AI portfolio positions Masa as kingmaker of the AI era. The bear case: Bloomberg Intel estimates actual SoftBank cash needs closer to $40B vs $500B headline, Vision Fund track record is mixed ($150B+ deployed with volatile returns), and execution risk on simultaneous mega-deals is extreme.
+
 ---
 
 ## Why SoftBank matters

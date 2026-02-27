@@ -5,6 +5,8 @@ aliases: [GOOGL, GOOG, Google DeepMind, DeepMind, Alphabet]
 
 Google (Alphabet) — Tier 1 AI hyperscaler. DeepMind/Gemini, TPU pioneer, Anthropic investor, [[Broadcom]] disintermediation in progress.
 
+Most vertically integrated AI hyperscaler: owns DeepMind (Gemini), designs custom TPUs (7 generations), runs GCP (#3 cloud), and has invested $2B+ in Anthropic. AI capex was $91B in 2025 with $175-185B guided for 2026 — the largest infrastructure commitment of any hyperscaler. Controlled by co-founders Larry Page and Sergey Brin (majority voting power). Led by Sundar Pichai with new CFO Anat Ashkenazi (from Eli Lilly, Jul 2024). Broadcom disintermediation in progress as Google brings more silicon design in-house. The bull case: search moat + YouTube + Cloud + DeepMind AI lab is the deepest tech stack in the industry, and advertising revenue funds AI investment without dilution. The bear case: antitrust risk (DOJ cases on search and ad tech), AI search disruption could cannibalize core ad revenue, and GCP remains distant #3 behind AWS and Azure.
+
 ---
 
 ## Leadership

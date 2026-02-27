@@ -5,6 +5,8 @@ aliases: [MSFT]
 
 **Microsoft (Azure)** — Tier 1 AI hyperscaler, OpenAI partner, largest enterprise cloud.
 
+Tier 1 AI hyperscaler and largest enterprise cloud with $281.7B FY2025 revenue, $101.8B net income, and the deepest AI partnership in the industry through OpenAI (mark-to-market gain of $7.6B in Q2 FY26). Azure is the #2 cloud behind AWS, and Copilot AI integration spans Office, GitHub, and Dynamics. PP&E of $286.2B reflects massive infrastructure buildout. Led by Satya Nadella, who transformed Microsoft from Windows-centric to cloud-first since 2014. The bull case: OpenAI partnership gives first-mover advantage in enterprise AI, Azure growth compounding, and Copilot monetization across 400M+ Office users. The bear case: AI capex/margin pressure (stock sold off from $540 to ~$440 on concerns), Azure growth deceleration in Q2 FY26, and OpenAI dependency creates concentration risk if the partnership evolves.
+
 ---
 
 ## Leadership

@@ -5,6 +5,8 @@ aliases: [AMD]
 
 **AMD** — fabless chip designer competing in CPUs (vs Intel) and GPUs/AI (vs NVIDIA).
 
+Fabless chip designer with $300B+ market cap, led by transformational CEO Lisa Su who took the company from near-bankruptcy to competitive leadership. EPYC server CPUs are winning share from Intel, while GPU/AI efforts trail NVIDIA but gained a "non-zero chance" of challenging the CUDA moat after the NodAI acquisition (late 2023) reshaped AMD's software-hardware co-design approach. Manufacturing primarily through TSMC, but capacity constraints at 2nm are pushing AMD to evaluate Samsung for EPYC Venice. The bull case: CPU market share gains accelerating, AI software competence improving, chiplet architecture cost advantages, and cheaper valuation vs NVIDIA. The bear case: CUDA ecosystem lock-in keeps AMD marginal in AI training, TSMC capacity locked by Apple/NVIDIA, and Samsung 2nm is unproven.
+
 ## Core thesis
 
 AMD has closed the hardware gap with NVIDIA but the [[CUDA moat]] kept them locked out of AI. The NodAI acquisition (late 2023) is their attempt to build software competence. Now has "non-zero chance" of challenging CUDA — up from zero.

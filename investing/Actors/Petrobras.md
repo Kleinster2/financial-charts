@@ -5,6 +5,8 @@ aliases: [PBR, Petroleo Brasileiro]
 
 **Petrobras** — Brazilian state oil company. Largest in Latin America. Pre-salt deepwater expertise.
 
+Brazil's state-controlled oil giant (~$90B market cap) producing ~2.8 Mbpd, anchored by world-class pre-salt deepwater assets with lifting costs around $6/bbl and an estimated 50-100B barrels recoverable. Strong free cash flow and high dividend yield make it an income play, but the Brazilian government's majority ownership introduces persistent risks: fuel price controls, dividend policy uncertainty, management turnover with election cycles, and BRL currency exposure. The bull case: low-cost, long-life pre-salt reserves generating substantial FCF with deepwater technical expertise unmatched in Latin America. The bear case: political interference in pricing and capital allocation, dividend cuts tied to government priorities, and commodity price cyclicality.
+
 ---
 
 ## Why Petrobras matters

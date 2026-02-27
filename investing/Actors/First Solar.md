@@ -5,6 +5,8 @@ aliases: [FSLR]
 
 First Solar — Only major US solar panel manufacturer. Thin-film CdTe technology. Beneficiary of IRA and [[China]] tariffs.
 
+The only US-headquartered solar manufacturer at scale, using proprietary thin-film CdTe technology (not Chinese crystalline silicon) with better hot-climate performance and a vertically integrated supply chain across Ohio, Malaysia, Vietnam, and India. Primary beneficiary of IRA domestic content credits and China tariff/ban risk — 98.7% of corporate solar PPAs come from hyperscalers (Amazon, Microsoft, Google, Meta) who prefer domestic supply. The bull case: irreplaceable US manufacturing position, AI data center power demand driving utility-scale solar, and policy tailwinds from both IRA and trade restrictions. The bear case: lower panel efficiency vs Chinese silicon, capacity constraints, and policy risk if IRA incentives are rolled back.
+
 ---
 
 ## Why First Solar matters

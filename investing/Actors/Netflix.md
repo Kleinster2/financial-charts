@@ -5,6 +5,8 @@ aliases: [NFLX]
 
 **Netflix** — [[Streaming]] pioneer and leader. Nasdaq: NFLX. 325M subscribers (Q4 2025). Ad tier driving growth. Walked away from [[Warner Bros Discovery]] acquisition Feb 2026; collected $2.8B breakup fee.
 
+Largest pure-play streaming company with ~$365B market cap, 325M subscribers, $39B 2024 revenue, and $50.7-51.7B guided for 2026. Ad tier is the primary growth driver. Attempted the largest M&A in streaming history — an $83B all-cash bid for Warner Bros Discovery (HBO, DC, Warner Bros studio) — but walked away Feb 2026 after Paramount's hostile $108B counterbid, collecting a $2.8B breakup fee. Content spend planned at $20B for 2026. The bull case: dominant global streaming position, ad tier monetization inflection, $2.8B breakup fee is pure profit, and content library + originals moat deepens. The bear case: YouTube's growing TV dominance (~13% viewing share vs Netflix ~9%), content cost inflation, and the WBD walk-away leaves the IP acquisition thesis unfulfilled.
+
 ---
 
 ## Quick stats

@@ -5,6 +5,8 @@ aliases: [META]
 
 **Meta (Facebook)** — Tier 1 AI hyperscaler, massive NVIDIA buyer, open-source AI leader (Llama).
 
+Largest social media company with 3.5B daily active users, $200.9B FY2025 revenue (+22% YoY), and $78.5B net income. Q4 2025 beat estimates ($59.9B revenue, $8.88 EPS vs $8.16 expected) and guided Q1 2026 revenue $53.5-56.5B above consensus. AI capex guidance of $115-135B for 2026 (up 60-87% from $72.2B) makes Meta one of the largest NVIDIA GPU buyers — 350K H100s deployed, multiyear NVIDIA deal signed Feb 2026. Open-source Llama strategy may shift proprietary as Google Gemini 3 advances. The bull case: ad monetization compounding on engagement growth (+18% impressions), AI efficiency gains, and MTIA custom chips reducing GPU dependency. The bear case: Reality Labs burning $6B/quarter, $115-135B capex commitment with uncertain AI ROI, and FTC antitrust appeal on Instagram/WhatsApp acquisitions.
+
 ---
 
 ## Leadership

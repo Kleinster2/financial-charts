@@ -5,6 +5,8 @@ aliases: [Nu Holdings, NU]
 
 **Nubank** — Latin America's largest neobank. 131M customers. NYSE: NU. Founded 2013.
 
+Latin America's largest digital bank with 131M customers and ~$70B market cap — the largest digital bank outside China. Revenue hockey-sticking toward $5B/quarter ($4.86B in Q4 2025) with $895M net income, up from losses just two years ago. IPO'd at ~$9 (Dec 2021), bottomed at ~$3.50, recovered to $18+ before a Feb 2026 selloff to $15.06 (-9.5% on Q4 cost concerns). Trades as a sector orphan — uncorrelated with US fintech (0.37-0.46 vs SOFI/HOOD/COIN), driven instead by Brazil macro and BRL/USD. The bull case: massive TAM in underbanked LatAm, product expansion into lending, insurance, and investments, and proven ability to scale profitably. The bear case: Brazil macro and currency risk, rising cost concerns flagged in Q4, and competition from incumbents and other fintechs.
+
 ---
 
 ## Why Nubank matters
