@@ -120,22 +120,35 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 
 ## Structural imbalance (Feb 2026)
 
-[[Germany]]'s Bundeswehr budget could reach **$189B by 2029** — dwarfing every other European country. Merz has openly stated he wants Germany as Europe's **leading military power**, unprecedented for a postwar chancellor.
+[[Germany]]'s defense budget set to reach **€162B ($191B) by 2029** — dwarfing every other European country. [[Friedrich Merz]] has openly stated he wants Germany as Europe's **leading military power**, unprecedented for a postwar chancellor. Berlin recently criticized [[France]] for not spending enough on weapons — a barb that ignores Germany's decades of underspending and free-riding under the Western nuclear umbrella.
 
 | Country | Projected defense budget | Constraint |
 |---------|--------------------------|------------|
-| **Germany** | $189B by 2029 | None (Schuldenbremse reform) |
+| **Germany** | €162B ($191B) by 2029 | None (Schuldenbremse reform) |
 | **France** | Cannot match | Debt/GDP pressure |
 | **Italy** | Cannot match | ~140% debt/GDP |
 | **Spain** | Cannot match | Low interest in spending |
 
-**The debt trap:** France, Italy, and Spain can only match German spending through EU common debt issuance. But the EU SAFE lending package (~EUR 160B) is smaller than Germany's projected national budget alone. And who decides on common debt? Germany.
+**NATO Europe aggregate target:** €831B/year by 2035 — but a purely national approach sacrifices scale, interoperability, and capability.
+
+**The debt trap:** France, Italy, and Spain can only match German spending through EU common debt issuance. But the EU SAFE lending package (~EUR 160B) is smaller than Germany's projected national budget alone. And who decides on common debt? Germany. Merz opposes joint European borrowing, which Macron sees as the path to European self-reliance.
+
+**Bundesbank shift:** Even Bundesbank chief Joachim Nagel — hardly a monetary dove — has made the case for mutual European defense debt. Notable given German institutional resistance to debt mutualization since the euro crisis.
+
+**"Involuntary hegemony":** Liana Fix (Council on Foreign Relations) describes Germany's combined accumulation of economic and military power as "involuntary hegemony" — a concentration that European partners may want to constrain. The dynamic echoes euro crisis fights, now transposed to NATO precincts.
 
 **[[Poland]] hedging:** 4-5% of GDP on defense — driven not just by Russia threat but by distrust of Germany's reliability as a security partner. Poland doesn't believe the Bundeswehr will show up.
 
-**Merz-Meloni axis:** Germany and [[Italy]] positioning as manufacturing/defense partners. [[Leonardo]] as potential collaboration partner for [[Rheinmetall]]/[[Airbus]], partly because [[Dassault Aviation]] is being uncooperative on FCAS technology sharing with Airbus.
+**Merz-Meloni axis:** Germany and [[Italy]] positioning as manufacturing/defense partners. [[Leonardo]] as potential collaboration partner for [[Rheinmetall]]/[[Airbus]], partly because [[Dassault Aviation]] is being uncooperative on [[FCAS]] technology sharing with Airbus.
 
-**European army logic:** Combined European spending already ~2x Russia's. A single force could have full-spectrum capability (nuclear, space, cyber, naval). No national budget — not even Germany at $189B — can achieve this alone. Historical precedent: the 1950s European Defense Community (joint Franco-German army) was rejected by French parliament in 1954; NATO membership was the fallback. The question of a common European force is back on the horizon.
+**Germany First risk:** Berlin eyeing its own fighter jet program (beyond [[FCAS]]) and its own satellite constellation, plus preference for German arms manufacturers — risks turning the "European defense union" into national procurement. Former [[Airbus]] CEO Tom Enders dismissed a domestic German fighter as "national hubris." A solo satellite network cannot compete with [[Starlink]].
+
+**European army logic:** Combined European spending already ~2x Russia's. A single force could have full-spectrum capability (nuclear, space, cyber, naval). No national budget — not even Germany at €162B — can achieve this alone. Historical precedent: the 1950s European Defense Community (joint Franco-German army) was rejected by French parliament in 1954; NATO membership was the fallback. The question of a common European force is back on the horizon.
+
+**Grand bargain proposal:** French willingness to share its nuclear deterrent with Germany in return for German willingness to contemplate joint defense financing. Poll (Internationale Politik): 73% of Europeans believe the continent must ensure its own defense.
+
+![[europe-defense-spending-iiss-2020-2025.png]]
+*Source: IISS via Bloomberg. USD figures reflect IISS currency adjustments of national budget figures.*
 
 ---
 
@@ -170,10 +183,12 @@ NATO discovered it had ~2 weeks of ammunition for a conventional war.
 - [[Ukraine]] — demand driver
 - [[Helsing]] — Europe's top defense startup (€12B, AI + drones + autonomous vehicles)
 - [[Section 232 semiconductor tariff]] — AI chip access for defense applications (exempted)
+- [[FCAS]] — $115B Franco-German 6th-gen fighter in jeopardy
+- [[Global Combat Air Programme]] — competing UK-Italy-Japan program
 - [[Dassault Aviation]] — FCAS technology sharing friction with Airbus
 - [[Leonardo]] — Italian defense champion, potential Rheinmetall/Airbus partner
 - [[Adam Tooze]] — structural imbalance analysis (Feb 2026)
 
 ---
 
-*Updated 2026-02-14*
+*Updated 2026-02-27*

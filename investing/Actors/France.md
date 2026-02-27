@@ -90,10 +90,16 @@ Three sources of German frustration with France:
 | Issue | French position | German frustration |
 |-------|-----------------|-------------------|
 | [[EU-Mercosur agreement]] | French bloc in EU Parliament | Obstructing finalized deal |
-| FCAS (6th-gen fighter) | [[Dassault Aviation]] uncooperative with [[Airbus]] on tech sharing | Paris hasn't intervened |
+| [[FCAS]] (6th-gen fighter) | [[Dassault Aviation]] uncooperative with [[Airbus]] on tech sharing | Paris hasn't intervened |
 | "Buy European" | Procurement preference | Too protectionist; threatens China business |
 
-Merz has responded by aligning with [[Italy]]'s Meloni — presenting Germany and Italy as Europe's manufacturing/defense powerhouses. [[Leonardo]] as alternative defense partner to Dassault/French industry.
+[[Friedrich Merz]] has responded by aligning with [[Italy]]'s Meloni — presenting Germany and Italy as Europe's manufacturing/defense powerhouses. [[Leonardo]] as alternative defense partner to Dassault/French industry.
+
+**New friction (Feb 2026):** Berlin explicitly criticized France for not spending enough on weapons. France's yawning deficit limits military spending, but Paris notes Germany's decades of underspending and free-riding under the Western nuclear umbrella.
+
+**Nuclear deterrence bargain:** As Germany emerges as Europe's dominant conventional military power (€162B budget by 2029), France's nuclear deterrent becomes potential leverage. Proposed grand bargain: France shares nuclear umbrella with Germany in return for German willingness to contemplate joint defense financing. Even Bundesbank chief Joachim Nagel has made the case for mutual European debt.
+
+**Franco-German tank (MGCS):** Also falling significantly behind schedule, compounding FCAS frustration.
 
 ---
 
@@ -137,9 +143,10 @@ Merz has responded by aligning with [[Italy]]'s Meloni — presenting Germany an
 - [[Nuclear renaissance]] — French nuclear strength
 - [[EU-Mercosur agreement]] — French farmer opposition, Franco-German friction
 - [[Germany]] — "buy European" vs "made with Europe" tension
+- [[FCAS]] — $115B 6th-gen fighter, technology sharing dispute
 - [[Dassault Aviation]] — FCAS technology sharing dispute
 - [[Italy]] — Merz-Meloni axis as counterweight
 
 ---
 
-*Created 2026-01-10. Updated 2026-02-14.*
+*Created 2026-01-10. Updated 2026-02-27.*

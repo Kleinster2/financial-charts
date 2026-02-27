@@ -146,9 +146,11 @@ Merz has aligned with [[Italy]]'s Meloni on manufacturing and defense — presen
 
 ### Defense leadership ambitions
 
-Merz has openly stated he wants Germany as **Europe's leading military power** — unprecedented for a postwar chancellor. Bundeswehr spending could reach **$189B by 2029**, dwarfing France, UK, Italy, Spain.
+Merz has openly stated he wants Germany as **Europe's leading military power** — unprecedented for a postwar chancellor. Defense budget set to reach **€162B ($191B) by 2029**, dwarfing France, UK, Italy, Spain. Berlin has explicitly criticized [[France]] for not spending enough on weapons.
 
-This creates a structural imbalance: France/Italy/Spain can't match without EU common debt, and EU SAFE package (~EUR 160B) is smaller than Germany's projected national budget alone. Germany controls whether Europe issues common debt.
+This creates a structural imbalance: France/Italy/Spain can't match without EU common debt, and EU SAFE package (~EUR 160B) is smaller than Germany's projected national budget alone. Merz opposes joint European borrowing. Germany controls whether Europe issues common debt — though even Bundesbank chief Joachim Nagel has made the case for mutual defense debt.
+
+**"Germany First" risk (Feb 2026):** Preference for German arms manufacturers, cooling on [[FCAS]], eyeing a domestic fighter jet program and own satellite constellation. Former [[Airbus]] CEO Tom Enders dismissed a domestic German fighter as "national hubris." Liana Fix (CFR) calls the combined accumulation of economic and military power "involuntary hegemony."
 
 **European army logic:** Combined European spending already ~2x Russia's — a single force could achieve full-spectrum capability. National budgets cannot. Historical precedent: the 1950s European Defense Community (joint army) was rejected by French parliament in 1954; NATO membership was the fallback.
 
@@ -225,6 +227,7 @@ See [[European defense spending]].
 - [[EU-Mercosur agreement]] — auto industry beneficiary, source of Franco-German friction
 - [[Isar Aerospace]] — leading domestic launch startup
 - [[Space]] — €35B space-defense investment by 2030
+- [[FCAS]] — $115B 6th-gen fighter program in jeopardy
 - [[Dassault Aviation]] — FCAS technology sharing friction
 - [[Italy]] — Merz-Meloni manufacturing/defense axis
 - [[Leonardo]] — potential defense partner via Italy
@@ -234,4 +237,4 @@ See [[European defense spending]].
 
 ---
 
-*Created 2026-01-10. Updated 2026-02-14.*
+*Created 2026-01-10. Updated 2026-02-27.*

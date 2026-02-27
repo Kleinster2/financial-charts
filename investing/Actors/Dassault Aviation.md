@@ -48,9 +48,9 @@ Dassault family controls ~60%. Also owns 26% of Thales.
 
 ---
 
-## FCAS (6th gen)
+## [[FCAS]] (6th gen)
 
-Leading the Franco-German-Spanish Future Combat Air System:
+Leading the Franco-German-Spanish Future Combat Air System ($115B program):
 
 | Partner | Role |
 |---------|------|
@@ -58,9 +58,13 @@ Leading the Franco-German-Spanish Future Combat Air System:
 | [[Airbus]] | Teaming, drones |
 | Spain | Junior partner |
 
-Competes with [[UK]]-led Tempest (BAE, [[Leonardo]], [[Japan]]).
+Competes with [[UK]]-led [[Global Combat Air Programme]] (BAE, [[Leonardo]], [[Japan]]).
 
-**Technology sharing friction (Feb 2026):** [[Adam Tooze]] reports Dassault is being "incredibly uncooperative" with [[Airbus]] on technology sharing for the next-gen fighter. Paris has not intervened to bring Dassault into line. This is one of three sources of German frustration with [[France]] (alongside [[EU-Mercosur agreement]] and "buy European" protectionism), contributing to Merz's alignment with [[Italy]]'s Meloni and interest in [[Leonardo]] as alternative defense partner for [[Rheinmetall]]/Airbus.
+**Technology sharing friction:** Dassault demands a leadership role reflecting its Rafale combat aircraft success. Berlin, which is contributing equal funding, finds this hard to accept. Paris has not intervened to bring Dassault into line. This is one of three sources of German frustration with [[France]] (alongside [[EU-Mercosur agreement]] and "buy European" protectionism), contributing to [[Friedrich Merz]]'s alignment with [[Italy]]'s Meloni and interest in [[Leonardo]] as alternative defense partner for [[Rheinmetall]]/Airbus.
+
+**Enders critique (Feb 2026):** Former [[Airbus]] CEO Tom Enders — a German — told the FT that FCAS was a "mistake." He dismissed a domestic German fighter as "national hubris" and preferred joining the [[UK]]-led [[Global Combat Air Programme]].
+
+**Project at risk:** Merz has cooled on FCAS. Berlin is reportedly eyeing its own fighter jet program. Franco-German tank project (MGCS) also falling significantly behind.
 
 ---
 
@@ -106,11 +110,15 @@ Owns 26% of [[Thales]]:
 
 ## Related
 
+- [[FCAS]] — $115B 6th-gen program (lead designer, technology sharing dispute)
+- [[Global Combat Air Programme]] — competing UK-Italy-Japan program Enders prefers
 - [[European Defense Industry]] — sector context
 - [[Defense]] — sector hub
 - [[Thales]] — 26% stake, partner
 - [[Long global rearmament]] — thesis
+- [[Airbus]] — FCAS partner, work share dispute
+- [[Germany]] — equal funder, cooling on FCAS
 
 ---
 
-*Created 2026-01-10*
+*Created 2026-01-10. Updated 2026-02-27.*

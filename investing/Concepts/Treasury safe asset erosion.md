@@ -95,6 +95,28 @@ Robert Triffin (1960): To keep the world supplied with enough dollars, the US mu
 
 ---
 
+## Credit market echoes (Feb 2026)
+
+The safe asset erosion is now propagating into credit markets:
+
+| Signal | Detail |
+|--------|--------|
+| IG spreads | Hit **30-year lows** (~75-85bps) then started widening |
+| Global spreads | Widened ~4bps in week of Feb 27 — largest move since Nov 2025 |
+| IG spread forecast | TD Securities expects **100-110bps**, up from 75-85 |
+| Corporate issuance | UBS projects **$900B** new global corporate debt in 2026 |
+| AI bond wave | **$400B+** from hyperscalers and DC builders flooding IG market |
+| Fed warning | Jan FOMC minutes: "historically low credit spreads" flagged by several participants |
+| Vanguard | Says investors are "full" on credit |
+
+**The doom loop:** In the old regime, credit spreads widen → Treasuries rally (flight to safety) → portfolio hedged. In the new positive stock-bond correlation regime, a growth shock could hit equities, corporates, *and* Treasuries simultaneously. Credit spreads have almost no cushion (~75bps) for a world where the hedge doesn't work.
+
+**Bridgewater positioning (Greg Jensen, Jan 2026):** Betting on the scenario where credit spreads widen and long-end Treasuries rally in flight-to-quality. This is a bet that the old regime still holds for extreme events. If it doesn't — and March 2020 and April 2025 suggest it might not — there's nowhere to hide except cash and gold.
+
+The wall of AI-related issuance ($400B+) is particularly dangerous because it's hitting a market at 30-year tight spreads with deteriorating Treasury safe-haven dynamics. If the AI capex cycle disappoints, this debt reprices violently with no Treasury offset.
+
+---
+
 ## Investment implications
 
 - **60/40 is structurally impaired** — positive stock-bond correlation means bonds don't hedge equity drawdowns
