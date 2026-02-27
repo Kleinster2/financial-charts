@@ -52,6 +52,7 @@ Physical AI — robots that interact with the real world. CES 2026 declared "yea
 | [[AGIBOT]] | Portfolio | US debut CES 2026 | Industrial |
 | [[Fourier Intelligence]] | GR-1, GR-2, GR-3 | CES 2026 debut | Healthcare/care-bot |
 | [[X Square Robot]] | Quanta X1/X2 | **Deployed** | Industrial, logistics |
+| [[Reflex Robotics]] | Wheeled humanoid | Pilot | [[GXO Logistics]], warehouses |
 
 **China dominance:** 50% of CES humanoid exhibitors were Chinese. Morgan Stanley: China filed 7,705 humanoid patents vs 1,561 US in past 5 years.
 
@@ -71,9 +72,11 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 
 | Company | Valuation | Status |
 |---------|-----------|--------|
-| [[Figure AI]] | $39.5B (in talks) | Private |
+| [[Figure AI]] | $39B (Sep 2025) | Private |
 | [[1X Technologies]] | ~$1B+ | Private |
 | [[Agility Robotics]] | ~$1B+ | Private |
+| [[Apptronik]] | $5.3B (Feb 2026) | Private |
+| [[Reflex Robotics]] | Undisclosed ($7M seed) | Private |
 
 ### Reality check (Jan 2026)**Bloomberg/Gartner skepticism:**> "We've been saying for the last few years that the most practical application for a humanoid robot was to artificially inflate your share price. They look great walking on stage, but are entirely impractical in use." — Bill Ray, Gartner**CES 2026 demos — painfully slow:**- LG CLOiD loaded one towel into washing machine "almost painfully slowly"- Tasks took minutes that humans do in seconds- Fine motor control (especially thumbs) still a major obstacle**Home vs factory deployment:**| Environment | Viability | Timeline ||-------------|-----------|----------|| Factory | Higher | 2026-2027 || Home | Low | Years away |**Why homes are harder:**- Unpredictable (pets, clutter, children)- Cost: tens of thousands for minutes saved on laundry- Safety: liability in uncontrolled environments- Navigation: no standardized layouts**Near-term reality:** Single-task robots (lawn mowing, laundry) more viable than general-purpose humanoids. Factories first, homes later.
 ---
@@ -217,6 +220,18 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 
 ---
 
+## Business models
+
+| Model | Description | Examples |
+|-------|-------------|----------|
+| [[Robots as a Service\|RaaS]] | Subscription/lease, opex not capex | [[Reflex Robotics]], [[Figure AI]], [[Agility Robotics]], Locus |
+| Hardware sale | Traditional one-time purchase | [[Fanuc]], [[ABB]], [[Unitree]] |
+| Platform licensing | Software/AI stack for third-party robots | [[NVIDIA]] (Isaac), [[Google]] (DeepMind) |
+
+[[Robots as a Service|RaaS]] is becoming the default for humanoid deployments — customers won't commit to purchasing $100K+ unproven hardware. Market ~$2.1B (2025), projected $12-57B by end of decade. [[GXO Logistics]] is the most active evaluator, running RaaS pilots with [[Reflex Robotics]], [[Agility Robotics]], and [[Apptronik]].
+
+---
+
 ## Key risks
 
 | Risk | Impact |
@@ -261,6 +276,10 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 - [[iRobot]] — consumer robotics
 - [[NVIDIA]] — robotics platform
 - [[Hyundai]] — owns Boston Dynamics
+- [[Reflex Robotics]] — wheeled humanoid, teleoperation model
+- [[GXO Logistics]] — largest 3PL, humanoid robot evaluator
+- [[Robots as a Service]] — subscription business model for robotics
+- [[Teleoperation as data collection]] — bridge to autonomy
 - [[Sharpa]] — dexterous hands
 - [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world

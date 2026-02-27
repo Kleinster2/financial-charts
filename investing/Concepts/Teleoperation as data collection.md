@@ -31,6 +31,7 @@ The human provides the intelligence; the robot provides the embodied data in its
 |---------|--------|--------|
 | [[Unitree]] | Embodied Avatar | VR teleoperation of G1 → feeds [[UnifoLM]] training |
 | [[Figure AI]] | Teleop rigs | Human demonstrations → policy learning |
+| [[Reflex Robotics]] | Remote operators | Teleoperated deployment → learns from demos → gradual autonomy |
 | [[Tesla]] | Optimus data collection | Employees wearing motion-capture suits |
 | Toyota Research | Diffusion Policy | Bimanual teleoperation demos |
 | UC Berkeley | ALOHA / Mobile ALOHA | Low-cost bimanual teleop ($20K rigs) |
@@ -88,5 +89,6 @@ This mirrors the open-source LLM movement — shared data accelerates everyone, 
 - [[Unitree]] — Embodied Avatar platform, open-source datasets
 - [[Figure AI]] — teleoperation-based training
 - [[Tesla]] — motion capture for Optimus training
+- [[Reflex Robotics]] — teleoperation as commercial deployment model (revenue from day one)
 - [[Sim-to-real transfer]] — complementary data source (sim vs. teleop)
 - [[State estimation]] — required for accurate teleoperation recording

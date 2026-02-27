@@ -93,9 +93,12 @@ Humanoid gross margins ~8pp higher than quadruped. Revenue mix shifting fast: hu
 |---------|-----|-------|------------|--------|
 | Unitree | Hangzhou | Quadruped + humanoid | Low-mid | Private (IPO mid-2026) |
 | [[Boston Dynamics]] | US | Quadruped + humanoid | High | [[Hyundai]] subsidiary |
-| [[Figure AI]] | US | Humanoid | High | Private ($2.6B raised) |
+| [[Figure AI]] | US | Humanoid | High | Private ($39B val, $2.3B+ raised) |
 | [[Tesla]] Optimus | US | Humanoid | TBD | Tesla division |
 | [[AGIBOT]] | Shanghai | Humanoid portfolio | Mid | Private (HK IPO rumored) |
+| [[Agility Robotics]] | US | Humanoid (Digit) | High | Private ($2.1B val, $640M raised) |
+| [[Apptronik]] | US | Humanoid (Apollo) | High | Private ($5.3B val, $935M raised) |
+| [[Reflex Robotics]] | US | Wheeled humanoid | Low (~$10K) | Private ($7M raised) |
 | [[UBTech]] | Shenzhen | Humanoid (Walker) | Mid-high | HKEX listed |
 
 ---

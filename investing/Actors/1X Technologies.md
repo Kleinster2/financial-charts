@@ -1,35 +1,29 @@
 ---
-aliases: [1X]
+aliases: [1X, Halodi Robotics]
 ---
-#actor #ai #robotics #norway #private
+#actor #ai #robotics #norway #usa #private
 
-**1X Technologies** — OpenAI-backed humanoid robots. NEO robot. Norwegian company.
+**1X Technologies** — [[OpenAI]]-backed humanoid robotics company. Building NEO (bipedal, consumer/industrial) and EVE (wheeled, security). Founded in Norway as Halodi Robotics (2014), HQ relocated to Palo Alto (July 2025). Manufacturing remains in Norway.
 
 ---
 
 ## Why 1X matters
 
-OpenAI's robotics bet:
-
 | Metric | Value |
 |--------|-------|
-| Valuation | $480M (Series B) |
-| Raised | $125M+ |
-| Founded | 2014 |
-| HQ | Norway |
-| Robots | EVE, NEO |
+| Founded | 2014 (as Halodi Robotics) |
+| HQ | Palo Alto, CA (since July 2025) |
+| Manufacturing | Norway |
+| Valuation | $480M (Series B, Jan 2024) |
+| Reported target | $10B+ (seeking up to $1B, Sep 2025, unconfirmed) |
+| Total raised | $125M+ |
+| Robots | EVE (wheeled), NEO (bipedal) |
 
 ---
 
 ## OpenAI investment
 
-**Strategic backing:**
-- OpenAI led Series A2 (2023)
-- $23.5M round
-- Embodied AI focus
-- [[ChatGPT]] integration potential
-
-OpenAI's direct robotics exposure.
+[[OpenAI]] led the Series A2 ($23.5M, 2023) — their direct robotics bet. Also backs [[Figure AI]], hedging across form factors. Potential for [[ChatGPT]] integration in embodied AI.
 
 ---
 
@@ -44,17 +38,13 @@ OpenAI's direct robotics exposure.
 
 ## EVE
 
-**Wheeled humanoid:**
-- Already deployed
-- Security/patrol use case
-- ADT partnership
-- Revenue generating
+Wheeled humanoid — already deployed and revenue-generating. Security/patrol use case. ADT partnership.
 
 ---
 
 ## NEO
 
-**CES 2026: Pre-orders live**
+Pre-orders opened Oct 2025 (CES 2026 showcase). Company said pre-orders "far exceeded" goals.
 
 | Spec | Value |
 |------|-------|
@@ -64,24 +54,23 @@ OpenAI's direct robotics exposure.
 | Hands | 22 DOF (human-level dexterity) |
 | Noise | 22 dB (quieter than refrigerator) |
 | Body | Custom 3D lattice polymer (soft) |
-| AI | OpenAI customized model + Redwood AI |
+| AI | [[OpenAI]] customized model + Redwood AI |
 
-**Pricing:**
-- $20,000 (Early Access) or $499/month subscription
-- US shipments: 2026
-- Global expansion: 2027
+Pricing: $20,000 (Early Access) or $499/month subscription ([[Robots as a Service|RaaS]]).
 
-**[[EQT]] deal (Dec 2025):** Up to 10,000 NEO robots to [[EQT]]'s 300+ portfolio companies (2026-2030) for manufacturing, warehousing, logistics.
+Delivery timeline:
+- Q3-Q4 2026: US and Canada (Early Access buyers first)
+- 2027: Global expansion
+
+NEO is not fully autonomous at launch — requires [[Teleoperation as data collection|teleoperator support]] for complex tasks. Buyers should expect a capable but developing platform that improves via software updates.
+
+[[EQT]] deal (Dec 2025): Up to 10,000 NEO robots to [[EQT]]'s 300+ portfolio companies (2026-2030) for manufacturing, warehousing, logistics.
 
 ---
 
-## Norwegian advantage
+## HQ relocation
 
-**Why Norway:**
-- Strong robotics research
-- Talent pool
-- Government support
-- Lower costs than Bay Area
+July 2025: Relocated global headquarters from Norway to Palo Alto to access Silicon Valley talent and investor networks. Manufacturing operations remain in Norway. The move reflects the gravitational pull of the US robotics/AI ecosystem — same dynamic pulling [[Unitree]] and others toward US presence.
 
 ---
 
@@ -90,7 +79,7 @@ OpenAI's direct robotics exposure.
 | Product | Model |
 |---------|-------|
 | EVE | Lease to enterprises |
-| NEO | [[Consumer]] sales (future) |
+| NEO | $20K purchase or $499/mo [[Robots as a Service|RaaS]] subscription |
 
 ---
 
@@ -108,17 +97,18 @@ OpenAI hedging with multiple robotics bets.
 
 ## Investment case
 
-**Bull:**
-- OpenAI strategic backing
-- EVE already commercial
-- [[Consumer]] humanoid vision
-- Earlier stage = more upside
+Bull:
+- [[OpenAI]] strategic backing
+- EVE already commercial, revenue-generating
+- Consumer humanoid first mover (NEO pre-orders exceed expectations)
+- [[EQT]] deal provides industrial demand pipeline (10,000 units)
+- Potential $10B+ valuation jump from $480M
 
-**Bear:**
-- Smaller than Figure AI
-- [[Consumer]] robotics hard
-- Norwegian = less ecosystem
-- OpenAI backs Figure too
+Bear:
+- Massively outfunded by [[Figure AI]] ($2.3B+) and [[Apptronik]] ($935M)
+- Consumer robotics historically difficult market
+- NEO requires teleoperator support at launch — not fully autonomous
+- [[OpenAI]] backs [[Figure AI]] too
 
 ---
 
@@ -128,22 +118,21 @@ OpenAI hedging with multiple robotics bets.
 |-------|------|--------|-----------|
 | Series A | 2022 | $13M | — |
 | Series A2 | 2023 | $23.5M | — |
-| Series B | 2024 | $100M | $480M |
-| **Total** | | **$125M+** | |
+| Series B | Jan 2024 | $100M | $480M |
+| Series C (reported) | Sep 2025 | Up to $1B (seeking) | $10B+ target |
+| Total (confirmed) | | $125M+ | |
 
-**Key investors:**
+Series C status: The Information reported (Sep 2025, three sources close to CEO Bernt Børnich) that 1X is seeking up to $1B at $10B+ valuation. Not officially confirmed or closed as of Feb 2026.
+
+Key investors:
 
 | Investor | Notes |
 |----------|-------|
 | [[OpenAI]] | Lead (Series A2) — strategic |
 | [[Tiger Global]] | Growth (Series B) |
 | [[Samsung]] Next | Strategic |
-| [[EQT]] Ventures | Nordic VC |
+| [[EQT]] Ventures | Nordic VC, anchor NEO customer |
 | Skagerak Capital | Nordic VC |
-
-**Total raised:** $125M+
-
-**OpenAI relationship:** Strategic investor — potential [[ChatGPT]] integration for embodied AI.
 
 ---
 
@@ -152,11 +141,12 @@ OpenAI hedging with multiple robotics bets.
 | Metric | Value |
 |--------|-------|
 | Ticker | Private |
-| Valuation | $480M |
-| Backer | OpenAI |
+| Valuation | $480M (confirmed); $10B+ (target, unconfirmed) |
+| HQ | Palo Alto, CA |
+| Backer | [[OpenAI]] |
 | Robots | EVE, NEO |
 
-*Updated 2026-01-08*
+*Updated 2026-02-26*
 
 ---
 
@@ -168,5 +158,8 @@ OpenAI hedging with multiple robotics bets.
 - [[Unitree]] — competitor (Chinese humanoids)
 - [[Tesla]] — competitor (Optimus)
 - [[Agility Robotics]] — competitor (warehouse focus)
+- [[Apptronik]] — competitor (industrial humanoid)
+- [[Robots as a Service]] — NEO subscription model
+- [[Teleoperation as data collection]] — NEO requires teleop support at launch
 - [[CES 2026]] — NEO unveil
 
