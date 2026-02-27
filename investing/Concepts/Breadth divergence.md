@@ -142,15 +142,27 @@ See [[Sector rotation]] for current rotation dynamics.
 
 ---
 
-## Current status (Jan 2026)
+## Current status (Feb 2026)
+
+| Indicator | Reading | [[Signal]] |
+|-----------|---------|--------|
+| Single-stock dispersion | **Highest since 2009** ([[Citadel Securities]] data) | Extreme micro divergences |
+| S&P constituents ±20% YTD | **>20%** (risers ~2:1 over fallers) | Broad repricing, not concentrated |
+| S&P stocks beating index | **60%+** (broadest in decades) | Index masking broad strength |
+| Active funds outperforming | **>50%** (highest in ~20 years, [[Goldman Sachs]]) | Stockpicker's market |
+| Mag 7 YTD | **-5.6%** | Cap-weighted drag |
+| S&P sectors up | **7 of 11** | Broad participation |
+| Q4 2025 earnings | +12% YoY (4th double-digit quarter) | Fundamental strength underneath |
+
+**Interpretation (updated Feb 27):** Still not a bearish divergence — this is an extreme rotation. The index is flat but 60%+ of constituents are outperforming it. Dispersion at 2009 levels confirms the market is repricing individual businesses (AI winners vs losers) while aggregate demand and earnings remain strong. Revenue +9%, 7/11 sectors expanding margins. [[Société Générale|SocGen]]'s Kabra: *"The macro message underlying the index is actually boom."* [[Barclays]]' Krishna: *"violent rotations"* beneath subdued index volatility. This is the broadest participation in decades — active management's best environment since the mid-2000s.
+
+### Previous reading (Jan 2026)
 
 | Indicator | Reading | [[Signal]] |
 |-----------|---------|--------|
 | Russell 2000 vs S&P | 9-day outperformance streak | Rotation underway |
 | S&P 500 breadth (Jan 14) | 300+ up on down day | Healthy rotation |
 | Mag 7 vs S&P 493 | Mag 7 lagging since Oct 2025 | Leadership broadening |
-
-**Interpretation:** Not a bearish divergence (top forming) — this is rotation (leadership change). Breadth is improving as concentration decreases.
 
 ---
 
@@ -176,4 +188,4 @@ See [[Sector rotation]] for current rotation dynamics.
 - [CMT Association - Breadth Reveals What Indexes Conceal](https://cmtassociation.org/chartadvisor/beneath-the-surface-what-breadth-reveals-that-indexes-conceal/)
 - [[[Fidelity]] - Advance Decline Indicator](https://www.fidelity.com/learning-center/trading-investing/advance-decline)
 
-*Created 2026-01-14*
+*Created 2026-01-14, updated 2026-02-27*
