@@ -10,7 +10,7 @@ aliases:
   - Circle Internet Financial
 ---
 
-**Circle** — Issuer of USDC stablecoin. Partner with [[Coinbase]]. Critical infrastructure for crypto and tokenization.
+**Circle** — Issuer of USDC, the #2 stablecoin ($75B in circulation). IPO'd June 2025 at $31, now trading ~$83 after a blowout first earnings report (Q4 revenue $770M, +77% YoY; FY $2.7B, +64%). The bull case: USDC is becoming the regulated stablecoin rail — Visa settlement, OCC charter, 55 financial institutions on Circle Payments Network, and Meta testing USDC payments for 3.5B users via Stripe/Bridge. Interest income on reserves scales automatically with circulation. The bear case: still GAAP-negative (-$70M, $424M IPO SBC), rate cuts would compress reserve income, and [[Tether]] holds 60%+ market share. Building their own L1 blockchain (Arc, mainnet 2026) and expanding into euro stablecoins (EURC +284% YoY). [[GENIUS Act]] gives regulatory moat but implementation deadline is July 2026.
 
 ---
 
