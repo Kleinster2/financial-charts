@@ -79,13 +79,40 @@ This combination — high breadth, high dispersion, low correlation, low VIX —
 
 ## How to use
 
-### The dashboard
+### The dashboard — four tickers
 
-At any point, check these four readings to understand market structure:
+| Dimension | Ticker | Source | What it measures | Free? |
+|-----------|--------|--------|-----------------|-------|
+| **Breadth** | MMTH ($SPXA200R) | TradingView / StockCharts | % of S&P 500 above 200 DMA | Yes |
+| **Dispersion** | DSPX | [[CBOE]] | Implied dispersion from single-stock vs index option vols | Yes (delayed) |
+| **Correlation** | ICJ | CBOE | Implied correlation among S&P 500 constituents | Yes (delayed) |
+| **Volatility** | VIX | CBOE / everywhere | 30-day implied volatility of S&P 500 | Yes |
 
-1. **% above 200 DMA** → participation (>50% bullish, <30% oversold)
-2. **[[Single stock dispersion|Dispersion]]** → magnitude of individual moves (compare to historical range)
-3. **Implied correlation** → macro vs micro (high = macro-driven, low = stockpicker's market)
+### Measurement detail
+
+**Breadth — % above 200 DMA (MMTH / $SPXA200R)**
+
+% of S&P 500 constituents trading above their 200-day moving average. The 200 DMA version is the smoothed structural read. Thresholds: >50% = bullish, <30% = oversold, >70% = overheated. The 50 DMA version ($SPXA50R) is faster for tactical signals. Both available intraday.
+
+**Dispersion — CBOE S&P 500 Dispersion Index (DSPX)**
+
+The purpose-built indicator. Derived from individual stock option implied vols vs index option vol — the gap between them is dispersion. Higher DSPX = market expects more idiosyncratic moves. The realized equivalent is the cross-sectional standard deviation of constituent returns over a trailing window (20-day or 60-day), computable from price data. The ±20% constituent count that [[Citadel Securities]] cited is cruder but more intuitive.
+
+**Correlation — CBOE Implied Correlation Index (ICJ)**
+
+Measures implied correlation among S&P 500 stocks, derived from index vol vs single-stock vols. High ICJ = market expects stocks to move together (macro-driven). Low ICJ = stocks expected to move independently (micro-driven). Mathematically linked to dispersion: index vol ≈ avg stock vol × avg correlation. So DSPX high + ICJ low is the consistent "stockpicker's market" signal. Realized 20-day pairwise correlation is the backward-looking equivalent.
+
+**Volatility — VIX**
+
+30-day implied vol. For term structure context: VIX vs VIX3M (3-month). VIX > VIX3M = inverted term structure = near-term fear (backwardation). VIX < VIX3M = contango = calm. VVIX (vol of vol) is useful at extremes — very high VVIX means the market expects VIX itself to spike. SKEW measures tail risk but is noisy.
+
+### Reading the dashboard
+
+At any point, check these four to understand market structure:
+
+1. **MMTH** → participation (>50% bullish, <30% oversold, >70% overheated)
+2. **DSPX** → magnitude of individual moves (compare to historical range)
+3. **ICJ** → macro vs micro (high = macro-driven, low = stockpicker's market)
 4. **VIX** → index-level fear (<15 calm, 15-25 elevated, >25 fear, >35 panic)
 
 ### Regime shifts to watch for
