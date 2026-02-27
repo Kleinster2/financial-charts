@@ -82,6 +82,10 @@ class NoteChecker:
         if note_type in ("sector", "index"):
             issues.extend(self._check_correlation_structure(content, filepath))
 
+        # Synthesis check (concept and event notes, not stubs)
+        if note_type in ("concept", "event"):
+            issues.extend(self._check_synthesis(content, filepath))
+
         # Remaining checks are actor-specific
         if note_type not in ("actor", "etf", "benchmark"):
             return issues
@@ -133,6 +137,10 @@ class NoteChecker:
         # Evolution check (companies/countries/institutions, not people/products/ETFs, not stubs)
         if not is_etf and not is_person and not is_product:
             issues.extend(self._check_evolution(content, filepath))
+
+        # Synopsis check (actor notes, not stubs)
+        if note_type in ("actor", "etf", "benchmark"):
+            issues.extend(self._check_synopsis(content, filepath))
 
         return issues
 
@@ -923,6 +931,89 @@ aliases: []
 
         if not has_evolution:
             issues.append(Issue("warning", "evolution", "Mature actor note missing Evolution section"))
+
+        return issues
+
+    def _check_synopsis(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that actor notes have a synopsis paragraph after the one-liner.
+
+        The synopsis is the dense lede paragraph immediately after the opening
+        **Name** — definition line. It should be at least 100 characters to
+        qualify as a real synopsis (not just a stub sentence).
+
+        Stubs (< 40 non-empty body lines) are exempt.
+        """
+        issues = []
+
+        # Skip stubs
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues
+
+        # Find the opening definition line (starts with **)
+        body_lines = body.strip().split("\n")
+
+        # Skip tag lines (e.g., #actor #public) to find the definition line
+        def_line_idx = None
+        for i, line in enumerate(body_lines):
+            stripped = line.strip()
+            if not stripped:
+                continue
+            if stripped.startswith("#") and not stripped.startswith("##"):
+                continue  # tag line
+            if stripped.startswith("**") or " — " in stripped or " — " in stripped:
+                def_line_idx = i
+                break
+            break  # something else came first
+
+        if def_line_idx is None:
+            return issues
+
+        # Look for a substantial paragraph after the definition line
+        # (before the first ## heading or ---)
+        synopsis_text = []
+        for i in range(def_line_idx + 1, len(body_lines)):
+            stripped = body_lines[i].strip()
+            if stripped.startswith("##") or stripped == "---":
+                break
+            if stripped:
+                synopsis_text.append(stripped)
+
+        total_len = sum(len(s) for s in synopsis_text)
+
+        if total_len < 100:
+            issues.append(Issue("warning", "synopsis",
+                "Actor note missing synopsis paragraph after definition line"))
+
+        return issues
+
+    def _check_synthesis(self, content: str, filepath: Path) -> list[Issue]:
+        """Check that concept and event notes have a ## Synthesis section.
+
+        Stubs (< 40 non-empty body lines) are exempt.
+        """
+        issues = []
+
+        # Skip stubs
+        body = content
+        if content.startswith("---"):
+            second_dash = content.find("---", 3)
+            if second_dash != -1:
+                body = content[second_dash + 3:]
+
+        non_empty_lines = sum(1 for line in body.split("\n") if line.strip())
+        if non_empty_lines < 40:
+            return issues
+
+        if "## Synthesis" not in content:
+            issues.append(Issue("warning", "synthesis",
+                "Concept/event note missing '## Synthesis' section"))
 
         return issues
 

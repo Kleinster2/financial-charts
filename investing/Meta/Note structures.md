@@ -22,8 +22,8 @@ Templates and required content for different note types.
 | | Sector correlation section (actor notes) |
 | | Journal sections |
 | | Event note structure |
-| | Synopsis (actor notes) |
-| | Synthesis (concept/event notes) |
+| ✓ | Synopsis (actor notes) |
+| ✓ | Synthesis (concept/event notes) |
 
 ---
 
