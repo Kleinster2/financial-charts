@@ -82,7 +82,7 @@ V-MA at 0.86 is comparable to GS-MS (0.87) and AMAT-LRCX (0.90) — among the ti
 | Real-time payments (Pix, FedNow) | Medium | Account-to-account bypasses cards |
 | Big Tech (Apple Pay, Google Pay) | Low | Rides on V/MA rails |
 | BNPL (Klarna, Affirm) | Low | Often uses V/MA for funding |
-| Crypto/stablecoins | Low | Minimal volume, regulatory hurdles |
+| [[Stablecoins]] | Low | Not competing for consumer checkout. Gaining traction in segments cards don't serve well: cross-border remittances, creator payouts, EM dollar access. [[Meta]]/[[Stripe]] integration (H2 2026) is the first Big Tech deployment but targets creator payouts (~$100 transfers), not card swipes. The $150B interchange pool is protected by credit, chargebacks, and consumer habit |
 
 ---
 
@@ -117,6 +117,7 @@ V-MA at 0.86 is comparable to GS-MS (0.87) and AMAT-LRCX (0.90) — among the ti
 - [[Stripe]] — uses V/MA rails
 
 ### Concepts
+- [[Stablecoins]] — low threat to core interchange; gaining in gaps cards don't serve (remittances, creator payouts, EM)
 - [[Real-time payments]] — competitive threat
 - [[Interchange fees]] — regulatory risk
 
