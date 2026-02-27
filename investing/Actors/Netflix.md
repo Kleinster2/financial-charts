@@ -71,6 +71,29 @@ Regulatory status before collapse:
 
 The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the option to pursue other studio assets or build internally with its $20B content budget.
 
+### Post-walkaway: Netflix wins by losing (Feb 27, 2026)
+
+NFLX surged **~13%** the day after walking away. The market's verdict: losing the auction was winning.
+
+**The haul from losing:**
+- **$2.8B breakup fee** — pure profit for not buying something
+- **$5B share buyback program** — deploying capital that would've gone to WBD
+- **$20B content budget** for 2026 — unchanged, zero integration distraction
+- **Clean balance sheet** — no $83B in new debt/dilution
+
+**The Sarandos move:** He was at the White House the day he walked away. Went to DC on Feb 26, presumably to gauge regulatory appetite for a studio acquisition, then pulled the trigger immediately — didn't even use the 4-day matching window he was entitled to. Either supreme discipline or he learned something in Washington that made the math worse.
+
+**Strategic position is arguably stronger than if they'd won:**
+- The vertical integration thesis (studio + distribution) remains valid — they can revisit it later
+- $20B/year content spend lets them build or license what they need organically
+- If Paramount stumbles under $111B of debt in tightening credit markets, or hits antitrust walls, Netflix could come back for pieces of WBD at a discount
+- They're the only major streamer *not* drowning in M&A integration complexity — Disney digesting Fox, Paramount digesting WBD, while Netflix just... makes content
+- The breakup fee precedent is interesting: Netflix proved it can credibly threaten M&A (forcing higher prices for rivals) and still walk away profitably
+
+**The bear read:** The HBO/DC/WB IP is genuinely irreplaceable. You can't "build" Harry Potter, Game of Thrones, or the DC universe with a $20B content budget. If the Paramount-WBD merger closes and integration goes well, Netflix faces a combined studio/streaming rival with vastly deeper IP. The walk-away was disciplined but may look short-sighted in 5 years.
+
+**The bull read:** Sarandos just watched Paramount commit to $111B of execution risk in the worst credit environment since 2022, with DOJ review pending, activist shareholders circling, and linear TV assets (CNN, TBS) that are melting ice cubes. Netflix keeps its optionality, its balance sheet, and $2.8B of Paramount's money. If the deal blows up, they'll be there to pick up the pieces.
+
 ---
 
 ## Q4 2025 results (Jan 20, 2026)
@@ -318,4 +341,4 @@ See: [[Major Pending M&A Deals Feb 2026]]
 
 ---
 
-*Updated 2026-02-26*
+*Updated 2026-02-27*
