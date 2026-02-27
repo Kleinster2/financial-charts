@@ -547,7 +547,32 @@ Power and water constraints are linked — see [[Water constraints]] for full an
 
 See also [[Grid infrastructure super-cycle]] — AI power demand is one of three converging drivers of grid buildout (alongside climate resilience and electrification).
 
-*Updated 2026-02-09*
+## Gas generation cost inflation (Feb 2026)
+
+The cost advantage of [[Natural gas|natural gas]] over other generation technologies is eroding. US gas-fired LCOE jumped **48% in H2 2025 YoY** (Bloomberg NEF).
+
+| Metric | Value |
+|--------|-------|
+| CCGT cost (2023 avg, BNEF) | ~$1,000/kW |
+| CCGT cost (2025 avg, BNEF) | ~$2,000/kW |
+| Turbine backlog | 4+ years ([[GE Vernova]], [[Siemens Energy]], [[Mitsubishi]]) |
+| Surge pricing (implied, SoftBank OH plant) | ~$3,600/kW |
+| Gas LCOE H2 2025 vs H2 2024 | **+48%** |
+
+**The convergence problem:** [[SoftBank]]'s proposed 9.2 GW, $33B Ohio gas plant has an estimated LCOE of ~$75-80/MWh. Add transmission (~$15-20/MWh) and the all-in delivered cost approaches ~$100/MWh — similar to nuclear PPA prices in the [[PJM]] region. Gas is being priced like nuclear without the zero-carbon advantage. At $50/ton carbon, gas adds another $17.50/MWh.
+
+![[bnef-lcoe-gas-discount-disappearing-2025.png]]
+*US levelized cost of electricity for selected generation technologies. Source: Bloomberg NEF (Feb 2025). Median values calculated half-yearly.*
+
+**CreditSights (Andy DeVries):** New supply commitments reported by utilities are running far ahead of consensus data center demand forecasts, especially through end of decade. Overbuild risk if AI demand disappoints.
+
+**Modularity argument (Denning):** Locking in large slugs of expensive, carbon-emitting new supply for decades is risky for both hyperscalers and ratepayers, especially if AI demand is less than advertised. Smarter approach: hedge with smaller gas plants, faster-to-build renewables and [[Batteries|batteries]], and demand management. "Uberize" the grid — use existing infrastructure more productively by shaving peak hours rather than chasing peaks with expensive, underutilized capacity.
+
+*Source: Bloomberg Opinion (Liam Denning), Feb 25 2026*
+
+---
+
+*Updated 2026-02-27*
 
 ---
 

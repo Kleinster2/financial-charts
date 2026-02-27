@@ -123,6 +123,14 @@ If nuclear scales for AI, uranium demand increases:
 
 **Hyperscaler calculus:** Nuclear for baseload + renewables for incremental + gas for backup.
 
+### Gas-nuclear LCOE convergence (Feb 2026)
+
+The gas cost advantage that historically made nuclear a harder sell is disappearing. US gas-fired LCOE jumped **48% in H2 2025 YoY** (Bloomberg NEF). Turbine backlogs at [[GE Vernova]], [[Siemens Energy]], and [[Mitsubishi]] now exceed 4 years.
+
+[[SoftBank]]'s proposed 9.2 GW Ohio gas plant: all-in delivered cost ~$100/MWh (LCOE $75-80 + transmission $15-20) — essentially the same as nuclear PPAs in the [[PJM]] region. When gas is priced like nuclear, nuclear's zero-carbon advantage and decades-long operational life make it relatively more attractive. Strengthens the case for nuclear restarts and new builds.
+
+*Source: Bloomberg Opinion (Liam Denning), Feb 25 2026*
+
 ---
 
 ## Regulatory tailwinds

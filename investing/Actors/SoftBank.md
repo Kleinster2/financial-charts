@@ -208,9 +208,38 @@ Bear case:
 
 ## SB Energy — $33B Portsmouth gas plant (Feb 2026)
 
-SB Energy, a SoftBank subsidiary, will operate the Portsmouth Powered Land Project — a $33B, 9.2 GW natural gas generation facility in Portsmouth, Ohio. Described as "the largest natural gas generation facility in history." Part of the $36B US-Japan deal (first tranche of Japan's $550B total commitment under the Trump trade deal).
+SB Energy, a SoftBank subsidiary, will operate the Portsmouth Powered Land Project — a $33B, 9.2 GW [[Natural gas|natural gas]] generation facility in Portsmouth, Ohio. Described as "the largest natural gas generation facility in history." Part of the $36B US-Japan deal (first tranche of [[Japan]]'s $550B total commitment under the Trump trade deal).
 
-The facility underscores SoftBank's pivot beyond tech investing into physical AI infrastructure — 9.2 GW is enough to power multiple hyperscaler data center campuses. Connects to SoftBank's broader [[Project Stargate]] ambitions.
+| Metric | Value |
+|--------|-------|
+| Capacity | 9.2 GW (largest gas plant in US, among largest in world) |
+| Price tag | $33B |
+| Implied cost per kW | ~$3,600 |
+| CCGT avg cost (2023, BNEF) | ~$1,000/kW |
+| CCGT avg cost (2025, BNEF) | ~$2,000/kW |
+| Estimated LCOE | ~$75-80/MWh |
+| PJM average futures | <$60/MWh |
+| Transmission fees | ~$15-20/MWh |
+| All-in delivered cost | ~$100/MWh |
+| Comparable nuclear PPAs | ~$100/MWh |
+| Carbon cost at $50/ton | +$17.50/MWh |
+
+The $3,600/kW implied cost represents a new level in surge pricing for combined-cycle gas turbines. Turbine backlog from [[GE Vernova]], [[Siemens Energy]], and [[Mitsubishi]] has stretched to 4+ years as demand surges alongside AI electricity forecasts.
+
+Neither [[PJM]] nor Ohio regulators were reportedly aware of the plans, adding to doubts about whether the project is real vs. political signaling.
+
+The LCOE problem: at ~$75-80/MWh, the plant's levelized cost already exceeds prevailing [[PJM]] futures (<$60). Add transmission and the all-in cost approaches ~$100/MWh — similar to what hyperscalers have paid for nuclear PPAs in the region. Gas generation is being priced like nuclear, without nuclear's zero-carbon advantage.
+
+US gas-fired LCOE jumped 48% in H2 2025 YoY (Bloomberg NEF). The historical cost advantage of gas over other generation technologies is eroding rapidly:
+
+![[bnef-lcoe-gas-discount-disappearing-2025.png]]
+*US levelized cost of electricity for selected generation technologies. Source: Bloomberg NEF (Feb 2025). Median values calculated half-yearly. Gas refers to CCGT.*
+
+[[CreditSights]] warning (Andy DeVries): new supply commitments reported by utilities are running far ahead of consensus data center demand forecasts, especially through end of decade. Overbuild risk if AI demand disappoints.
+
+Denning's argument: the old model of building giant power plants to meet peak demand forecasts is unsustainable — economically, environmentally, and politically. A modular approach (smaller gas plants, renewables + [[Batteries|batteries]], demand management) hedges better against demand uncertainty. When gas power is priced like nuclear, developers should focus on demand management — avoiding grid use for a handful of peak hours/year — rather than chasing peaks with expensive, underutilized capacity.
+
+*Source: Bloomberg Opinion (Liam Denning), Feb 25 2026*
 
 ---
 
@@ -226,7 +255,7 @@ The facility underscores SoftBank's pivot beyond tech investing into physical AI
 | Vision Fund | $150B+ AUM |
 | Stargate role | Lead investor ($100B+) |
 
-*Updated 2026-02-12*
+*Updated 2026-02-27*
 
 ---
 
@@ -243,3 +272,8 @@ The facility underscores SoftBank's pivot beyond tech investing into physical AI
 - [[T-Mobile]] — sold $12.7B stake (Jun-Dec 2025)
 - [[Saudi PIF]] — Vision Fund LP
 - [[AI hyperscalers]] — Stargate positions SoftBank in this category
+- [[Power constraints]] — Portsmouth plant LCOE analysis
+- [[CreditSights]] — overbuild warning (Andy DeVries)
+- [[PJM]] — grid operator for Ohio plant region
+- [[GE Vernova]] — gas turbine supplier (4yr+ backlog)
+- [[Natural gas]] — LCOE converging with nuclear
