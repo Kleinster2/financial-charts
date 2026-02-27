@@ -177,7 +177,23 @@ TCPC is a middle-market lending fund. Statement: "The company's highest near-ter
 
 ### JGBs as safe asset alternative — "Golden Age"
 
-BlackRock called the current backdrop a **"golden age"** for investing in Japanese government bonds. Dollar-hedged JGBs can offer ~**6% yield** for US investors willing to take duration risk on long-dated [[Japan]] sovereign debt.
+**Navin Saigal** (BlackRock head of global fixed income, Asia Pacific) on Bloomberg TV called the current backdrop a **"golden age"** for investing in Japanese government bonds.
+
+| Maturity | JGB yield (unhedged) | Dollar-hedged yield | vs Treasury pickup |
+|----------|---------------------|--------------------|--------------------|
+| 20-year | ~4% | **~6.06%** | **+140bps** over comparable Treasury |
+| 30-year | ~4% | **~6%+** | **+175bps** over comparable Treasury |
+
+**The trade:** ~4% from JGB coupon + ~2% FX hedge pickup (lending dollars, receiving yen). PIMCO also highlighting this.
+
+![[jgb-fx-hedged-vs-treasuries-30y-bloomberg.jpg]]
+*30Y JGB FX-hedged (orange) vs Treasuries (white) vs JGB unhedged (gray). Since 2022, hedged JGBs have consistently yielded more than Treasuries. Source: Bloomberg.*
+
+**Risks:**
+- Long-dated JGBs are illiquid and volatile — 20Y and 30Y spiked last month on fears PM Takaichi would ramp fiscal spending, wiping out **$41B** from the bond market
+- Currency-hedged JGB returns (20Y+) fell **>15% last year** — worst in a decade
+- Japan still has **negative real yields** — so the real return story depends on the FX hedge holding
+- Saigal himself caveatted: "opportunistic trades" not core portfolio allocation; position smaller to control volatility
 
 **The subtext:** If the world's largest asset manager is publicly steering clients toward JGBs over Treasuries, that's a signal on relative safe asset attractiveness. Supports the [[Treasury safe asset erosion]] thesis — capital is being actively redirected away from Treasuries toward alternative sovereign debt.
 

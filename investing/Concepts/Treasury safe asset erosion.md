@@ -137,6 +137,17 @@ The wall of AI-related issuance ($400B+) is particularly dangerous because it's 
 
 ---
 
+## The smart money is already moving
+
+**[[BlackRock]]** (Navin Saigal, Feb 26 2026): Publicly called it a "golden age" for JGBs. Dollar-hedged 20Y JGBs yield **6.06%** — 140bps *more* than comparable Treasuries. 30Y JGBs offer **+175bps** pickup. PIMCO echoing the same view.
+
+![[jgb-fx-hedged-vs-treasuries-30y-bloomberg.jpg]]
+*30Y JGB FX-hedged (orange) vs Treasuries (white). Since 2022, hedged JGBs have consistently out-yielded Treasuries — the convenience yield has flipped. Source: Bloomberg.*
+
+When the world's largest asset manager goes on TV to tell you Japanese bonds are a better deal than Treasuries, the Treasury safe asset premium isn't just eroding — it's already gone at the long end.
+
+---
+
 ## Investment implications
 
 - **60/40 is structurally impaired** — positive stock-bond correlation means bonds don't hedge equity drawdowns
