@@ -111,7 +111,7 @@ Carbyne + Prepared add an estimated $5B to addressable market, bringing claimed 
 - Largest deal in company history awarded in 2024 (enterprise customer)
 - Major contracts: [[RCMP]] (body cameras + Axon Evidence), [[DEA]] (new federal segment)
 - Cash: $1.42B, debt: $2.0B in convertible/senior notes (Q3 2025)
-- Stock +22% on Q4 2025 results
+- Stock **+17.6% on Feb 26** (two-day post-earnings move from Feb 24 report)
 
 ---
 

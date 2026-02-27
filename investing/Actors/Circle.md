@@ -42,7 +42,7 @@ vs USDT ([[Tether]]):
 |--------|------|------|
 | Issuer | Circle | [[Tether]] |
 | Transparency | High (audited) | Lower |
-| Size | \#2 (~$30B) | \#1 (~$120B) |
+| Size | \#2 (~$75B) | \#1 (~$120B) |
 | Trust | Higher | Questions |
 
 ---
@@ -144,7 +144,8 @@ SPAC deal ($9B) fell through 2022. IPO'd June 2025 at $31/share (CRCL, [[NYSE]])
 |--------|-------|
 | Status | Public (CRCL, [[NYSE]]) |
 | IPO | June 2025 at $31/share |
-| USDC market cap | ~$30B+ |
+| USDC in circulation | ~$75.3B |
+| FY2025 revenue | $2.7B |
 | Q4 2025 revenue | $770M |
 | Founded | 2013 |
 | CEO | Jeremy Allaire |
@@ -168,15 +169,40 @@ Source: [Bloomberg](https://www.bloomberg.com/news/articles/2026-02-24/meta-test
 
 ## Q4 2025 earnings (Feb 25, 2026)
 
-First earnings report as a public company:
+First earnings report as a public company. Blowout results drove a **+35.5% two-day rally** (Feb 25-26) to $83.14.
 
-| Metric | Value |
-|--------|-------|
-| Revenue | $770M (beat estimates) |
-| Net profit | $133M |
-| Stock move | +35.5% to $83.14 |
+### Q4 highlights
 
-- USDC part of ~$300B stablecoin market
+| Metric | Q4 2025 | Y/Y |
+|--------|---------|-----|
+| Revenue + reserve income | **$770M** | +77% |
+| Net income | $133M | +$129M |
+| Adj EBITDA | $167M | +412% |
+| USDC in circulation | **$75.3B** | +72% |
+| USDC onchain txn volume | $11.9T | +247% |
+| On-platform USDC | $12.5B | +5.6x |
+
+### FY2025
+
+| Metric | FY2025 | Y/Y |
+|--------|--------|-----|
+| Revenue + reserve income | **$2.7B** | +64% |
+| Net loss (continuing ops) | -$70M | (IPO SBC: $424M) |
+| Adj EBITDA | $582M | +104% |
+
+### Business momentum
+
+- **Circle Payments Network (CPN):** 55 financial institutions enrolled, 74 in review. Annualized txn volume $5.7B (trailing 30-day as of Feb 20)
+- **Arc blockchain:** Public testnet live, 100+ participants, 2.3M daily txns, half-second finality. Mainnet on track for 2026
+- **EURC:** €310M in circulation (+284% Y/Y)
+- **OCC national trust charter:** Conditional approval received Dec 2025
+- **Visa:** US issuers/acquirers can now settle with Visa using USDC
+- **[[Intuit]]:** Multi-year strategic partnership for USDC integration across platform
+- **Polymarket:** USDC as core collateral/settlement asset
+- **Bermuda:** Plans to become world's first fully onchain national economy using Circle infrastructure
+
+### Regulatory context
+
 - [[GENIUS Act]] implementation: regulators finalizing licensing/custody/compliance requirements by July 18, 2026
 - [[CFTC]] pilot: USDC approved as derivatives margin collateral (Dec 2025)
 

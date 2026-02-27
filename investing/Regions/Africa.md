@@ -25,7 +25,7 @@
 | Algeria | $190B | Oil, gas |
 | Morocco | $140B | Manufacturing |
 | Kenya | $110B | Tech hub, agriculture |
-| Ethiopia | $100B | Agriculture, textiles |
+| Ethiopia | $100B | Agriculture, textiles, GERD hydropower |
 
 ---
 
@@ -125,4 +125,19 @@
 
 ---
 
-*Created 2026-01-16*
+## Horn of Africa Risk (February 2026)
+
+Ethiopia-Eritrea tensions at highest level since 2020-2022 Tigray War. ICG warns conflict "could erupt at any time." Key investment implications:
+
+- **GERD dam**: Africa's largest hydroelectric project. Will double Ethiopia's power generation capacity. Drives existential dispute with Egypt over Nile water rights. If resolved, transformative for Ethiopian economic development and regional power trade.
+- **Red Sea/Suez**: Potential state-on-state war at Bab el-Mandeb would compound Houthi shipping disruption. Egypt's Suez revenue (~$9B/year) further at risk.
+- **DP World**: 65% stake in Berbera port (Somaliland) caught in UAE-Somalia diplomatic rupture.
+- **Gulf capital flows**: UAE-Ethiopia investment axis vs Saudi-Egypt-Somalia counter-alignment.
+
+### Cross-vault
+- [Geopolitics: Ethiopia-Eritrea Crisis](obsidian://open?vault=geopolitics&file=Events%2FEthiopia-Eritrea%20Crisis) — full conflict system analysis
+- [Geopolitics: Ethiopia](obsidian://open?vault=geopolitics&file=Actors%2FEthiopia) — country profile with "Two Waters" doctrine
+
+---
+
+*Updated 2026-02-27*

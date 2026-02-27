@@ -78,7 +78,24 @@ Global maritime shipping: container lines, ports, and port equipment.
 | **Trade war / tariffs** | Volume decline |
 | **Overcapacity** | Container rate collapse |
 | **Cybersecurity regulation** | ZPMC revenue at risk |
-| **Red Sea / Suez** | Rerouting costs |
+| **Red Sea / Suez** | Rerouting costs; Horn of Africa escalation risk (see below) |
+
+---
+
+## Horn of Africa Escalation Risk (February 2026)
+
+Beyond the ongoing Houthi shipping disruption, the Horn of Africa faces potential **state-on-state conflict** between Ethiopia and Eritrea centered on the port of Assab — directly at the Bab el-Mandeb strait. ICG (February 18, 2026) warned conflict "could erupt at any time." An Ethiopia-Eritrea war would layer a conventional military conflict onto the existing Houthi disruption at the same chokepoint.
+
+**Market impact if conflict erupts:**
+- Further reduction in Red Sea/Suez transit volumes (already down ~75% from Houthi attacks as of mid-2025)
+- Extended Cape of Good Hope rerouting (adds ~10-14 days and fuel costs)
+- Bullish for container rates (capacity absorbed by longer routes)
+- [[DP World]]'s Berbera (Somaliland) concession directly exposed
+- Egypt's Suez revenue at further risk — compounds existing economic pressure
+
+### Cross-vault
+- [Geopolitics: Ethiopia-Eritrea Crisis](obsidian://open?vault=geopolitics&file=Events%2FEthiopia-Eritrea%20Crisis) — full conflict analysis and timeline
+- [Geopolitics: Horn of Africa](obsidian://open?vault=geopolitics&file=Events%2FHorn%20of%20Africa) — regional overview
 
 ---
 

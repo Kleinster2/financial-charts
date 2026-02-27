@@ -130,6 +130,32 @@ Risk: If Tesla executes even partially (10-20 GW), US solar manufacturing capaci
 
 ---
 
+## Q4 2025 earnings (Feb 25, 2026)
+
+Weak results and disappointing 2026 guidance triggered a **-13.6% single-day drop** on Feb 25 — steepest since June, wiping ~$4B in market cap.
+
+### Q4 results
+
+| Metric | Q4 2025 | vs Estimate |
+|--------|---------|-------------|
+| Revenue | **$1.68B** | Beat ($1.57B est.) |
+| EPS | **$4.84** | Miss ($5.14 est., -$0.30) |
+| Capex (FY2025) | $870M | Down from $1.5B prior year |
+
+### 2026 guidance
+
+| Metric | FY2026 Guide | Consensus |
+|--------|-------------|-----------|
+| Revenue | **$4.9B-$5.2B** | Well below Street |
+| Capex | $800M-$1B | — |
+| Core gross margin (ex-45X) | ~7% | — |
+
+**Why it matters:** Revenue guidance was the main catalyst for the selloff. Management cited tariff headwinds, underutilization costs, and transition to new capacity. Core gross margin of ~7% (excluding Section 45X manufacturing credits) exposes how dependent First Solar is on IRA subsidies for profitability.
+
+**Analyst reaction:** [[Goldman Sachs]] lowered price target. Multiple downgrades across the Street.
+
+---
+
 ## Investment case
 
 Bull:
@@ -160,7 +186,7 @@ Bear:
 | Technology | CdTe thin-film |
 | US capacity | ~6 GW+ |
 
-*Updated 2026-01-01*
+*Updated 2026-02-26*
 
 ---
 
