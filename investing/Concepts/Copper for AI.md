@@ -102,6 +102,40 @@ S&P notes actual deficits remain "hypothetical" — price adjustments influence 
 
 ---
 
+## Why aluminum substitution is a fantasy
+
+The bear argument — "if copper gets too expensive, switch to aluminum" — fails on physics in every high-growth application:
+
+### The Design Filter
+
+| Constraint | Winner | Applications |
+|-----------|--------|-------------|
+| **Span, weight, cost** | Aluminum (70% lighter) | Overhead power lines — old economy |
+| **Space, thermal, density** | Copper (non-negotiable) | Data centers, EVs, transformers — new economy |
+
+All new-economy demand falls into Constraint 2. The entire AI/EV/electrification buildout is a story of **density**, where copper is locked in by physics.
+
+### The numbers
+
+| Property | Copper | Aluminum | Consequence |
+|----------|--------|----------|-------------|
+| Conductivity (IACS) | 100% | 61% | Al needs **1.6× cross-section** for same ampacity |
+| Thermal conductivity | 390-400 W/m·K | 210-220 W/m·K | Cu conducts heat out **2× faster** |
+| Volume penalty | Baseline | **+60% space** | Non-starter in dense racks/panels |
+| Connection reliability | Conductive oxide, no creep | Insulating oxide + creep → thermal runaway | CPSC documented aluminum wiring fires in 1970s |
+
+In a data center, nobody cares about weight — they care about volume and heat. Aluminum's 60% space penalty and 2× thermal disadvantage make it **pro-cyclical to the heat problem**: it compounds the #1 challenge instead of solving it.
+
+**No engineer bets a $1B data center on "strict workmanship" across 10,000 aluminum connections.** Copper is a risk-management default, not just a performance choice.
+
+Substitution is real in low-density applications (solar farm cable runs, overhead grid) — and that's healthy, freeing scarce copper for density-constrained uses. But in AI/EV/data center applications, it's physically impossible.
+
+### The inverted bullwhip
+
+The supply chain is contracting at the smelter layer while demand explodes at the cable/connector end. See [[Copper smelter squeeze]] for the full mechanics of TC/RC collapse, shadow integration, and the Japanese strategic pivot away from primary smelting.
+
+---
+
 ## Supply crunch dynamics
 
 | Factor | Impact |
