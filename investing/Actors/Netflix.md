@@ -73,7 +73,7 @@ The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the
 
 ### Post-walkaway: Netflix wins by losing (Feb 27, 2026)
 
-NFLX surged **+8.3%** on Feb 25 (as walkaway became likely), then another **+9%** on Feb 27 (formal confirmation) — heading for its best daily performance since Jan 2025. Two-day move from $75 area low to $92+. The market's verdict: losing the auction was winning.
+NFLX surged **+13.8%** to $96.24 on Feb 27 on 191M shares (5× normal volume) — best daily performance since Jan 2025. The full rally: $76 (Feb 23 annual low) → $96.24 in a week, **+26.6%**. The market's verdict: losing the auction was winning.
 
 **The haul from losing:**
 - **$2.8B breakup fee** — pure profit for not buying something
