@@ -81,7 +81,15 @@ NFLX surged **+13.8%** to $96.24 on Feb 27 on 191M shares (5× normal volume) �
 - **$20B content budget** for 2026 — unchanged, zero integration distraction
 - **Clean balance sheet** — no $83B in new debt/dilution
 
-**The Sarandos move:** He was at the White House the day he walked away. Went to DC on Feb 26, presumably to gauge regulatory appetite for a studio acquisition, then pulled the trigger immediately — didn't even use the 4-day matching window he was entitled to. Either supreme discipline or he learned something in Washington that made the math worse.
+**The Sarandos move — "the fix was in":**
+
+Sarandos went to the White House on Feb 26 for a "long scheduled" meeting with WH staff and DOJ officials (not Trump) to discuss regulatory approval and Trump's demand to fire board member Susan Rice. The timing was devastating:
+
+- **1:00 PM PT:** Sarandos arrives at the White House
+- **1:18 PM PT:** *While he's sitting in meetings*, WBD board drops the Superior Proposal bombshell
+- **2:45 PM PT:** 90 minutes later, Netflix issues its walkaway. Deadline reported Sarandos signed off while still at the White House
+
+He didn't use a single minute of the 4-day matching window. Either the decision was already made before he went to DC, or he learned something in those meetings that confirmed the political math was unwinnable. Trump had been publicly hostile since Feb 21 ("fire Susan Rice or pay the consequences"), David Ellison had attended Trump's State of the Union just two days earlier, and Sarandos couldn't even get a meeting with POTUS. The writing was on the White House walls.
 
 **Strategic position is arguably stronger than if they'd won:**
 - The vertical integration thesis (studio + distribution) remains valid — they can revisit it later

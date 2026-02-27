@@ -20,9 +20,10 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | Feb 20, 2026 | Paramount clears HSR antitrust second request |
 | **Feb 23, late evening** | Paramount submits "best and final" $31/share at end of 7-day window |
 | **Feb 25, during market** | News leaks WBD board likely to declare Superior Proposal. NFLX +6% on anticipation |
-| **Feb 26, pre-market** | WBD board formally declares $31 a "Superior Proposal." Netflix given 4 business days (until Mar 4, 11:59 PM ET) to match |
-| **Feb 26, same day** | [[Ted Sarandos]] at the White House. Netflix declines immediately — doesn't use the 4-day window. Collects $2.8B breakup fee |
-| **Feb 26, close** | NFLX $84.59 (+2.3% on the day). Muted regular session — the walkaway news hit late |
+| **Feb 26, ~1:00 PM PT / 4:00 PM ET** | [[Ted Sarandos]] arrives at White House for meetings with WH staff + DOJ officials (not Trump). Purpose: Netflix-WBD regulatory approval + Trump's demand to fire Susan Rice |
+| **Feb 26, 1:18 PM PT / 4:18 PM ET** | *While Sarandos is in meetings*, WBD board drops "Superior Proposal" bombshell — Paramount's $31 now the preferred bid. Netflix given 4 business days (until Mar 4, 11:59 PM ET) to match |
+| **Feb 26, ~2:45 PM PT / 5:45 PM ET** | **90 minutes later**, Netflix issues walkaway statement. Per Deadline sources, Sarandos signed off *while still at the White House*. Netflix disputed this but wouldn't clarify. "At the price required to match Paramount Skydance's latest offer, the deal is no longer financially attractive" |
+| **Feb 26, close** | NFLX $84.59 (+2.3% on the day). Muted regular session — walkaway news hit after hours |
 | **Feb 27 (Fri), market open** | NFLX gaps up to $94.40 (overnight +11.6%), rallies to $96.75, closes **$96.24 (+13.8%)** on **191M shares** (5× normal vol). Best day since Jan 2025. WBD $28.26 (-1.9%) |
 | **Feb 27, afternoon** | Paramount and WBD formally announce the **$110B merger agreement** |
 | Mar 2, 8:30 AM ET | Paramount conference call / webcast on deal details |
@@ -116,6 +117,41 @@ Netflix stock rose on the news — the market read it as avoiding an overpriced 
 - [[YouTube]] as competitor was Netflix's core antitrust argument (~13% TV viewing share vs Netflix ~9%)
 - Paramount's CLO is Makan Delrahim, former Trump DOJ Antitrust Division chief
 - Trump bought $2M in NFLX/WBD bonds post-announcement
+
+### The Trump factor
+
+The political dimension of this deal cannot be separated from the outcome.
+
+**Trump-Ellison axis:**
+- David Ellison is Trump's "good friend" — attended Trump's State of the Union on Feb 24 (two days before WBD declared Superior Proposal)
+- Ellison had declined to testify before the Senate subcommittee earlier in 2026, unlike Sarandos who showed up for a "MAGA roasting" on Feb 3
+- Paramount-Skydance initially had backing interest from Jared Kushner's Affinity Partners (withdrew) and Gulf sovereign wealth funds (PIF, QIA, L'imad — may rejoin at close)
+
+**Trump-Netflix hostility:**
+- **Feb 21:** Trump on Truth Social: "Netflix should fire racist, Trump Deranged Susan Rice, IMMEDIATELY, or pay the consequences"
+- Triggered by Laura Loomer, who called to "kill the Netflix-Warner Bros. merger now" after Rice warned on a podcast that institutions that appease Trump will be held "accountable" when Democrats regain power
+- Sarandos tried to play it down on BBC Radio (Feb 23): "This is a business deal. It's not a political deal... Yeah, he likes to do a lot of things on social media"
+
+**The White House visit — "the fix was in":**
+
+Sarandos went to the White House on Feb 26 for a "long scheduled" visit to discuss regulatory approval and the Susan Rice situation. He met with WH staff and DOJ officials — **not Trump**. A White House official confirmed: "This meeting is not with POTUS."
+
+The timing was devastating. At 1:18 PM PT, *while Sarandos was sitting in meetings*, the WBD board issued the Superior Proposal declaration. Ninety minutes later, at ~2:45 PM PT, Netflix issued its walkaway statement. Deadline reported Sarandos signed off on the retreat while still at the White House — Netflix disputed this but wouldn't say what specifically was inaccurate.
+
+An Oscar-winning producer told Deadline: "I don't know if it was pre-planned, but the timing was brutal. And so embarrassing for Ted, to be at the White House."
+
+**Reading between the lines:** Sarandos went to DC to gauge his political standing and found out — either from the meetings themselves or from the news landing while he was there — that the political wind was blowing toward Ellison. He killed the deal within 90 minutes of the Superior Proposal. The speed of the decision (not using any of the 4-day matching window) suggests he either already knew he was walking, or learned something at the White House that made the path forward untenable.
+
+### Congressional reaction (post-walkaway)
+
+| Lawmaker | Position |
+|----------|----------|
+| **Sen. Adam Schiff (D-CA)** | Paramount-WBD deal should be subject to "highest levels of scrutiny" and "free from White House political influence" |
+| **Sen. Elizabeth Warren (D-MA)** | Called it an "antitrust disaster," questioned Trump influence |
+| **Sen. Cory Booker (D-NJ)** | Calling for David Ellison to testify at March 4 Senate subcommittee hearing |
+| **Sen. Mike Lee (R-UT)** | Clearly "Team Paramount" along with other Republicans |
+
+**March 4 Senate antitrust hearing** already scheduled — Booker wants Ellison to appear. This could be the next flashpoint.
 
 ---
 
