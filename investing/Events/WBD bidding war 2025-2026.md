@@ -164,8 +164,8 @@ An Oscar-winning producer told Deadline: "I don't know if it was pre-planned, bu
 
 ## Merger arb spread
 
-![[wbd-spread-to-deal-price.png]]
-*WBD premium/discount to best bid. Netflix $27.75 (Dec 5) → Paramount $30 (Feb 10, step-down) → Paramount $31 (Feb 24). Stock briefly traded at a premium to Netflix's bid in early Dec, then persistent 4-9% discount once Paramount's higher bids came in. Discount widened to -9.1% on day of formal announcement.*
+![[wbd-close-vs-best-bid.png]]
+*WBD close (orange) vs best bid level (blue step function). Netflix $27.75 (Dec 5) → Paramount $30 (Feb 10) → Paramount $31 (Feb 24). The gap between the stock and the bid widens at each step-up — the higher the bid, the wider the discount. Stock briefly traded above Netflix's $27.75 in early Dec, then persistent discount once Paramount's higher bids came in. Discount widened to -9.1% on day of formal announcement.*
 
 Key observations:
 - WBD briefly traded **above** Netflix's $27.75 in early Dec — market correctly anticipated a bidding war
