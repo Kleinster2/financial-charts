@@ -166,6 +166,10 @@ Anthropic and the Pentagon are in an escalating standoff over a ~$200M contract 
 - Feb 24: Tense meeting. Hegseth set **Friday 5:01 PM ET deadline** (Feb 28). Told Dario no private company will dictate how the Pentagon makes operational decisions. Threatened two penalties: invoke the **[[Defense Production Act]]** to compel Claude deployment regardless of consent, and label Anthropic a **supply-chain risk** (normally reserved for foreign adversaries like [[Huawei]]). Anthropic spokesperson called it a "good-faith conversation"
 - Feb 25: Anthropic "digs in heels" — no plans to comply. [[xAI]] approved for classified network deployment — Pentagon now has a second supplier. Dario noted valuation and revenue have only grown since taking this stand
 
+### Feb 26 — Pentagon retreats from DPA, Anthropic stands firm
+
+Dario said "virtually no progress" on negotiations. Pentagon backed away from [[Defense Production Act]] threat — now threatening contract termination + supply-chain risk designation only. DPA de-escalation meaningful but supply-chain risk label still threatens broader defense ecosystem access. [[NVIDIA]] CEO [[Jensen Huang]]: dispute is "not the end of the world." Friday Feb 28 5:01 PM deadline still stands.
+
 See [[Pentagon AI access dispute 2026]] for the full event arc — DPA legal analysis, competitive dynamics, congressional vacuum, investor implications.
 
 **Anthropic's position:** Two hard red lines: no autonomous weapons, no mass surveillance of Americans. Willing to allow missile defense, cyber defense, and other specific uses. [[Dario Amodei]] wrote AI should support national defense "in all ways except those which would make us more like our autocratic adversaries."
@@ -471,7 +475,7 @@ See [[Long Anthropic]] for full thesis.
 
 ---
 
-*Updated 2026-02-25*
+*Updated 2026-02-26*
 
 ## Cowork competitive reception across verticals (Feb 2026)
 

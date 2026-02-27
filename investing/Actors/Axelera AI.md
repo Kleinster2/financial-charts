@@ -34,6 +34,27 @@ Architecture: D-IMC processes data inside SRAM crossbar arrays, avoiding data mo
 
 ---
 
+## $250M+ funding round (Feb 24, 2026)
+
+Largest investment ever in a European AI semiconductor company.
+
+| Detail | Value |
+|--------|-------|
+| Round size | $250M+ |
+| Lead | Innovation Industries |
+| New investors | [[BlackRock]], SiteGround Capital |
+| Returning investors | Bitfury, Samsung Catalyst Fund, EU Innovation Council, CDP Venture Capital, SFPIM, Invest-NL |
+| Total raised (all-time) | $450M+ (equity + grants + venture debt) |
+| Customers | 500+ |
+| Sectors | Defense, manufacturing, retail, robotics, security, aerospace, telecom |
+| Use of funds | Europa chip manufacturing (launch before June 2026), software development |
+
+Europa chip: 629 TOPS at ~3x performance-per-watt vs competitors. Edge-first architecture avoids the [[NVIDIA]] data center moat by targeting on-device AI inference. European AI sovereignty play — policymakers increasingly uncomfortable with total dependence on US/Taiwan for AI compute.
+
+*Source: Bloomberg, Feb 24 2026*
+
+---
+
 ## Related
 
 - [[Inference economics]] — edge inference cost dynamics

@@ -119,6 +119,33 @@ aliases: [PARA, Paramount+, CBS, Viacom, ViacomCBS]
 
 ---
 
+## Q4 2025 (reported Feb 26, 2026)
+
+| Metric | Q4 | vs Est |
+|--------|-----|--------|
+| Adj EPS | **-$0.12** | Miss (est. -$0.01) |
+
+Weak quarter overshadowed by WBD bid victory (see below).
+
+## WBD acquisition — Superior Proposal accepted (Feb 26)
+
+[[Warner Bros Discovery]] board deemed Paramount Skydance's **$31/share all-cash bid** a "Superior Proposal" to [[Netflix]]'s $27.75/share offer. Netflix withdrew. Shareholder vote March 20.
+
+| Detail | Value |
+|--------|-------|
+| Bid | $31/share all-cash for all of WBD |
+| Enterprise value | ~$77B |
+| Netflix breakup fee | $2.8B (WBD pays to Netflix) |
+| Shareholder vote | March 20 |
+| Key backer | [[Larry Ellison]] $40B personal equity guarantee |
+| Antitrust | HSR waiting period already cleared (Feb 20) |
+
+If approved, combined entity would hold CBS, Paramount+, MTV, HBO, CNN, Discovery, TBS, TNT Sports, Warner Bros studio, DC — the most comprehensive media portfolio assembled since the old AT&T-TimeWarner.
+
+See: [[Warner Bros Discovery]], [[Netflix]], [[Ellison AI-IP vertical integration]]
+
+---
+
 ## Related
 
 - [[Warner Bros Discovery]] — media peer, similar challenges
@@ -150,4 +177,4 @@ See: [[Major Pending M&A Deals Feb 2026]]
 
 ---
 
-*Updated 2026-02-12*
+*Updated 2026-02-26*

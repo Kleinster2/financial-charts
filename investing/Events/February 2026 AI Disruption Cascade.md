@@ -163,6 +163,12 @@ Teleperformance is the **canary that's been dying longest**. Unlike the SaaSpoca
 
 See [[Teleperformance]] for full deep dive including bull/bear case.
 
+### Feb 26: Teleperformance earnings — the first test
+
+[[Teleperformance]] FY2025: revenue €10.21B (-0.7%), adj EBITA €1.49B (-3.4%). FY2026 guide: LFL growth 0-2%, margin 14.6% (beat est. 14.3%), FCF €800-850M (miss est. €918M). CEO succession: Daniel Julien exits, Jorge Amar takes over March 15.
+
+The bears expected faster collapse. Revenue is declining but not collapsing. Does this validate "melting ice cube" or "the market overreacted"? At 85% below ATH, the stock was already pricing near-zero growth — which is roughly what the company delivered. The AI disruption thesis isn't wrong, but its timeline may be slower than the equity market assumed.
+
 ---
 
 ## Week 4: The Anthropic reversal (Feb 24)
@@ -287,6 +293,34 @@ Gross margins on reselling intelligence: 20-80% range, ~50% considered "about ri
 3. **Private credit marks** — the Citrini scenario's most actionable risk. PE-backed SaaS LBOs at peak multiples face a reckoning if revenues compress
 4. **Does the cascade continue?** Each week has hit a new sector. What's next — healthcare IT? Education tech? Consulting firms?
 5. **Policy response** — no government or central bank has addressed AI displacement risk. Will this cascade force the conversation?
+
+---
+
+## Central bank response (Feb 26)
+
+**ECB President [[Christine Lagarde]]:** AI is boosting eurozone productivity but has "not yet" triggered a wave of layoffs. ECB will be "extremely attentive." First major central bank statement on AI employment effects since the cascade began.
+
+Lagarde's "not yet" framing aligns with the [[Citadel Securities 2026 Global Intelligence Crisis|Citadel Securities]] data (flat AI adoption at work, SW eng jobs +11% Y/Y) rather than the [[Citrini 2028 Global Intelligence Crisis|Citrini]] displacement scenario. The macro data and the market data are telling opposite stories: employment is stable, but stocks are pricing in displacement.
+
+**Policy question #5 (updated):** The ECB is now watching. The cascade has forced the conversation — but monitoring is not intervention. If AI-driven layoffs materialize in H2 2026, Lagarde's "extremely attentive" becomes a policy constraint on rate decisions.
+
+---
+
+## The Productivity Panic (Feb 26)
+
+Bloomberg Businessweek (Issie Lapowsky) profiled the cultural transformation driven by AI coding agents — [[Claude Code]] and [[OpenAI]] Codex specifically named.
+
+| Signal | Data |
+|--------|------|
+| Working hours | UC Berkeley: people offloading to AI agents but **working longer hours** |
+| C-suite perception gap | 40%+ execs say AI saves 8+ hrs/week; 67% non-managers say <2 hrs |
+| Productivity gains | [[Intuit]] engineers 30% more productive (code velocity) |
+| "Task expansion" | Non-technical staff vibe-coding creates cleanup work for engineers |
+| Monitoring | Companies tracking "interactions per day" with coding agents |
+
+The paradox: AI agents make workers more productive but also more anxious, surveilled, and overworked. "Vibe coding" — coined by [[Andrej Karpathy]] in Feb 2025 — has become a mandate to accelerate, not a path to leisure.
+
+This is the micro-level manifestation of the cascade's macro thesis: AI doesn't just destroy intermediary businesses, it also transforms the labor dynamics within surviving businesses.
 
 ---
 

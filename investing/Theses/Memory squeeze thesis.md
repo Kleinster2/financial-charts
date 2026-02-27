@@ -52,6 +52,24 @@ The thesis is strengthening: normal self-righting mechanisms (high margins attra
 
 *Source: FT Lex, Feb 25 2026*
 
+### IDC: smartphone market's worst-ever decline (Feb 26, 2026)
+
+IDC projects global smartphone shipments will contract **12.9% in 2026** — the largest annual decline ever recorded.
+
+| Metric | Value |
+|--------|-------|
+| 2026E shipments | ~1.1B units (from 1.26B in 2025) |
+| Decline | **-12.9%** — worst ever |
+| Smartphone ASP | **+14% to $523** (record) |
+| RAM price stabilization | Mid-2027 (IDC est.) |
+| Root cause | HBM wafer allocation displacing LPDDR5X for smartphones |
+
+IDC: "a crisis like no other." Every wafer allocated to HBM stacks for [[NVIDIA]] GPUs is denied to mid-range smartphone LPDDR5X modules. Winners: [[Apple]] and [[Samsung]] (premium positioning, first claim on supply). Losers: mid/low-range OEMs — some reportedly scavenging memory chips from used handsets.
+
+This is the strongest evidence yet that the thesis is playing out at scale. The "risks to thesis" section noted spot market weakness — IDC's data shows the squeeze is concentrated in contract/OEM pricing, not spot.
+
+*Source: Bloomberg, Feb 26 2026; IDC Global Memory Shortage Crisis report*
+
 ---
 
 ## Memory manufacturer positioning
@@ -109,7 +127,7 @@ All three benefit from AI demand. [[Micron]] is investing $24B in new Singapore 
 |------|----------|-------|
 | **AI demand slows** | Medium | Would normalize prices |
 | **New capacity online** | Medium | 2028+ relief possible |
-| **Current spot weakness** | High | TrendForce shows soft demand |
+| **Current spot weakness** | Medium | TrendForce shows soft spot demand, but IDC confirms OEM/contract pricing squeeze is severe |
 | **China memory (CXMT)** | Medium | Adds supply, breaks oligopoly |
 | **Alternative architectures** | Low | Could reduce memory needs |
 

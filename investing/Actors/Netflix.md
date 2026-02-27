@@ -65,6 +65,14 @@ Largest pure-play streaming company globally.
 
 **Stock reaction:** NFLX -5% on higher content spending warning alongside deal.
 
+### Feb 26 — Deal collapses; Netflix walks away
+
+[[Warner Bros Discovery]] board declared Paramount Skydance's $31/share all-cash bid a "Superior Proposal." Netflix elected not to match or raise its $27.75/share offer. Netflix receives a **$2.8B breakup fee.**
+
+Sarandos had telegraphed this: "We're super-disciplined buyers... willing to walk away and let someone else overpay for things." Netflix stock rose on the news — market approved the discipline.
+
+The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the option to pursue other studio assets or build internally with its $20B content budget.
+
 ---
 
 ## Q4 2025 results (Jan 20, 2026)
@@ -279,4 +287,4 @@ See: [[Major Pending M&A Deals Feb 2026]]
 
 ---
 
-*Updated 2026-02-12*
+*Updated 2026-02-26*

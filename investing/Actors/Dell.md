@@ -3,7 +3,7 @@ aliases: [DELL, Dell Technologies]
 ---
 #actor #pc #enterprise #publiccompany
 
-**Dell Technologies** (DELL) — PC/server/storage giant. [[Michael Dell]] founded 1984, took private 2013 ($24B), acquired EMC 2016 ($67B), re-IPO'd 2018, spun VMware 2021. $96B revenue.
+**Dell Technologies** (DELL) — PC/server/storage giant. [[Michael Dell]] founded 1984, took private 2013 ($24B), acquired EMC 2016 ($67B), re-IPO'd 2018, spun VMware 2021. $113.5B revenue (FY2026).
 
 ---
 
@@ -11,9 +11,9 @@ aliases: [DELL, Dell Technologies]
 
 | Name | Role | Background |
 |------|------|------------|
-| **Michael Dell** | Chairman & CEO | Founded Dell 1984 at age 19 in UT Austin dorm. Took company private 2013, led EMC acquisition |
-| **Jeff Clarke** | Vice Chairman & COO | 33 years at Dell (since 1987). Started as quality engineer. Now oversees daily ops + CSG (PC unit) |
-| **Yvonne McGill** | CFO | — |
+| Michael Dell | Chairman & CEO | Founded Dell 1984 at age 19 in UT Austin dorm. Took company private 2013, led EMC acquisition |
+| Jeff Clarke | Vice Chairman & COO | 33 years at Dell (since 1987). Started as quality engineer. Now oversees daily ops + CSG (PC unit) |
+| Yvonne McGill | CFO | — |
 
 ---
 
@@ -34,7 +34,7 @@ aliases: [DELL, Dell Technologies]
 
 ## EMC acquisition (2016)
 
-**Largest tech acquisition in history** at the time:
+Largest tech acquisition in history at the time:
 
 | Metric | Value |
 |--------|-------|
@@ -59,6 +59,39 @@ Created $74B enterprise IT giant spanning storage, virtualization, servers, PCs.
 
 ---
 
+## Q4 FY2026 (reported Feb 26, 2026)
+
+| Metric | Q4 FY26 | Y/Y | vs Est |
+|--------|---------|-----|--------|
+| Revenue | $33.4B | +39% | Beat ($31.4B) |
+| Non-GAAP EPS | $3.89 | — | Beat ($3.53) |
+| ISG (servers/storage) | $19.6B | +73% | — |
+| CSG (PCs) | $13.5B | +14% | — |
+| AI server shipments | $9.4B | — | — |
+
+### Full year FY2026
+
+| Metric | FY26 |
+|--------|------|
+| Revenue | $113.5B |
+| AI server shipments | $25B (+150% Y/Y) |
+| Operating cash flow | $11.2B |
+| Shareholder returns | $7.5B |
+
+### FY2027 guidance
+
+| Metric | Guide |
+|--------|-------|
+| Revenue | $138-142B (+22-25%) |
+| AI server revenue | ~$50B projected |
+| AI backlog | $43B |
+| New buyback | $10B authorization |
+| Dividend increase | +20% |
+
+ISG segment (+73%) driven by AI server demand. $43B AI backlog confirms enterprise AI infrastructure spending is accelerating. Dell is the clearest public-market proxy for enterprise AI infrastructure beyond [[NVIDIA]] — lower margin but high volume.
+
+---
+
 ## Why Dell matters for this vault
 
 ![[dell-vs-peers.png]]
@@ -79,10 +112,10 @@ Dell is a major memory buyer feeling the squeeze:
 
 ## Memory cost impact
 
-**COO Jeff Clarke (Nov 2025):**
+COO Jeff Clarke (Nov 2025):
 > "Never witnessed costs escalating at the current pace."
 
-**Response:**
+Response:
 - Planning double-digit PC price increases
 - Server costs also rising
 - Passing costs to customers
@@ -93,9 +126,9 @@ Dell is a major memory buyer feeling the squeeze:
 
 | Segment | Memory exposure |
 |---------|-----------------|
-| **Client (PCs)** | High — DRAM, SSD in every unit |
-| **ISG (Servers)** | Very high — servers memory-dense |
-| **Storage** | High — NAND-based |
+| Client (PCs) | High — DRAM, SSD in every unit |
+| ISG (Servers) | Very high — servers memory-dense |
+| Storage | High — NAND-based |
 
 Dell is a price taker on memory — no leverage.
 
@@ -127,13 +160,13 @@ Dell is a price taker on memory — no leverage.
 
 ## AI server opportunity
 
-**Offsetting factor:**
+Offsetting factor:
 - Dell sells AI servers (NVIDIA-based)
 - AI infrastructure demand strong
 - Higher ASPs on AI systems
 - But memory costs hit here too
 
-**Mixed picture:** AI demand helps revenue, memory costs hurt margins.
+Mixed picture: AI demand helps revenue, memory costs hurt margins.
 
 ---
 
@@ -141,7 +174,7 @@ Dell is a price taker on memory — no leverage.
 
 | Competitor | Situation |
 |------------|-----------|
-| **Dell** | Raising prices, absorbing some cost |
+| Dell | Raising prices, absorbing some cost |
 | [[Lenovo]] | Hoarding inventory, same squeeze |
 | HP | Warning of H2 2026 price hikes |
 
@@ -151,7 +184,7 @@ All PC OEMs in same boat.
 
 ## Why OEMs are less hurt than small vendors
 
-**Scale advantages:**
+Scale advantages:
 - Lock in orders early
 - Volume commitments with memory makers
 - Less exposed to spot pricing
@@ -163,12 +196,12 @@ Smaller vendors (see [[Corsair]]) hit harder.
 
 ## Investment case
 
-**Bear:**
+Bear:
 - Memory costs compressing margins
 - PC demand soft
 - Cost pass-through risks demand
 
-**Bull:**
+Bull:
 - AI server demand strong
 - Can pass costs to enterprise
 - Scale advantages vs smaller players
@@ -186,7 +219,7 @@ Smaller vendors (see [[Corsair]]) hit harder.
 |--------|-------|
 | Founded | 1984 |
 | Ticker | DELL (NYSE) |
-| Revenue | $95.6B (FY2025) |
+| Revenue | $113.5B (FY2026) |
 | Employees | ~120,000 |
 | HQ | Round Rock, TX |
 | CEO | Michael Dell |

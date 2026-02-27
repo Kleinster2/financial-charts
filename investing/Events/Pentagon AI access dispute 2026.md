@@ -58,8 +58,9 @@ This triggered a fundamental reassessment inside DOD. Pentagon officials began c
 | Feb 23 | Hegseth summoned [[Dario Amodei]] to the Pentagon for Tuesday morning meeting |
 | Feb 24 | Tense meeting. Hegseth sets Friday 5:01 PM deadline. Threatens DPA invocation + supply-chain risk label |
 | Feb 25 | Anthropic "digs in heels" — no plans to comply. [[xAI]] approved for classified deployment — Pentagon now has an alternative |
+| Feb 26 | Anthropic says "virtually no progress." Pentagon spokesperson walks back DPA threat — now threatening termination + supply-chain risk only. Jensen Huang: "not the end of the world" |
 
-*Sources: Axios (Feb 13, 15, 16, 24), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24)*
+*Sources: Axios (Feb 13, 15, 16, 24, 26), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24)*
 
 ---
 
@@ -111,6 +112,22 @@ Equates Anthropic with foreign adversaries like [[Huawei]]. Would effectively bl
 [[xAI]] was approved for classified deployment the week of Feb 24 — the second company after Anthropic. [[Elon Musk]] agreed to let the military use [[xAI]]'s models without restrictions.
 
 This is the most operationally consequential development. It breaks Anthropic's monopoly on classified deployment and gives the Pentagon an alternative supplier. Whether xAI's models match Claude's capability on classified work is a separate question — but the leverage dynamic has shifted.
+
+---
+
+## Feb 26 — DPA off the table, termination on
+
+Three developments shifted the dynamic:
+
+1. **Anthropic rejects final offer:** Dario said contract language received from the Pentagon made "virtually no progress" on the two red lines. The company will not accept.
+
+2. **Pentagon retreats from DPA:** Chief spokesperson Sean Parnell walked back the Defense Production Act threat. New language: "we will terminate our partnership with Anthropic and deem them a supply chain risk." DPA invocation no longer explicitly threatened — the legal uncertainty of applying a Korean War-era goods statute to AI usage policies likely spooked Pentagon lawyers.
+
+3. **Jensen Huang weighs in:** NVIDIA CEO told CNBC the dispute is "not the end of the world" — notable given NVIDIA's $10B Anthropic investment and massive Pentagon supply relationship. Positioned as neutral broker between the two sides.
+
+**Net effect:** The DPA de-escalation is meaningful — it was the most legally aggressive and precedent-setting threat. But termination + supply-chain risk designation still carries real consequences for Anthropic's government business and potentially the broader defense supply chain.
+
+*Sources: Axios (Feb 26), CNBC (Feb 26)*
 
 ---
 

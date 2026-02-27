@@ -258,6 +258,23 @@ Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-rep
 
 **Next catalyst: WBD board decision on "Superior Proposal" designation → Netflix 4-day matching period → March 20 shareholder vote.**
 
+### Feb 26 — WBD deems Paramount bid "Superior Proposal"; Netflix withdraws
+
+**WBD board officially declared Paramount Skydance's $31/share all-cash bid a "Superior Proposal."** Netflix immediately withdrew — will not submit a higher offer.
+
+| Detail | Value |
+|--------|-------|
+| Paramount offer | $31/share all-cash for all of WBD |
+| Enterprise value | ~$77B |
+| Netflix breakup fee | $2.8B |
+| Shareholder vote | March 20 |
+
+Netflix co-CEO [[Ted Sarandos]] had signaled throughout: "willing to walk away and let someone else overpay." Netflix shares rose on the withdrawal — market reads this as disciplined capital allocation.
+
+**Next:** Paramount and WBD must finalize detailed deal terms before March 20 vote. Open questions: $1.5B junior lien financing fee, debt financing contingency, [[Larry Ellison]]'s $40B personal equity guarantee certainty.
+
+Source: [CNBC](https://www.cnbc.com/2026/02/26/warner-bros-discovery-paramount-skydance-deal-superior-netflix.html), Feb 26
+
 ---
 
-*Updated 2026-02-25*
+*Updated 2026-02-26*

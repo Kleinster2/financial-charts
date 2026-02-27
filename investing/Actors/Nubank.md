@@ -3,7 +3,7 @@ aliases: [Nu Holdings, NU]
 ---
 #actor #company #fintech #neobank #brazil #public
 
-**Nubank** — Latin America's largest neobank. 100M+ customers. NYSE: NU. Founded 2013.
+**Nubank** — Latin America's largest neobank. 131M customers. NYSE: NU. Founded 2013.
 
 ---
 
@@ -39,11 +39,11 @@ NU trades on Brazil macro, BRL/USD, and LatAm fintech adoption — not US fintec
 
 | Segment | Description |
 |---------|-------------|
-| **Banking** | Checking, savings, debit |
-| **Credit cards** | Core product, no annual fee |
-| **Lending** | Personal loans, SMB |
-| **[[Insurance]]** | Life, device protection |
-| **Investments** | Brokerage, NuInvest |
+| Banking | Checking, savings, debit |
+| Credit cards | Core product, no annual fee |
+| Lending | Personal loans, SMB |
+| [[Insurance]] | Life, device protection |
+| Investments | Brokerage, NuInvest |
 
 ---
 
@@ -51,9 +51,9 @@ NU trades on Brazil macro, BRL/USD, and LatAm fintech adoption — not US fintec
 
 | Country | Customers | Status |
 |---------|-----------|--------|
-| **[[Brazil]]** | 90M+ | Dominant |
-| **[[Mexico]]** | 8M+ | Growing |
-| **Colombia** | 1M+ | Early |
+| [[Brazil]] | 90M+ | Dominant |
+| [[Mexico]] | 8M+ | Growing |
+| Colombia | 1M+ | Early |
 
 ---
 
@@ -61,11 +61,25 @@ NU trades on Brazil macro, BRL/USD, and LatAm fintech adoption — not US fintec
 
 | Metric | Value |
 |--------|-------|
-| Customers | 100M+ |
+| Customers | 131M |
 | Active rate | 83%+ |
 | Revenue/customer | Growing |
 | NIM | ~18% |
 | NPL ratio | Managed carefully |
+
+---
+
+## Q4 2025 (reported Feb 25, 2026)
+
+| Metric | Q4 2025 | Y/Y |
+|--------|---------|-----|
+| EPS | $0.19 | Beat ($0.18 est.) |
+| Revenue | $4.86B | Beat ($4.55B est.) |
+| Net income | $895M | +50% |
+| ROE | 33% | — |
+| Customers | 131M | — |
+
+Stock fell -9.55% to $15.06 on Feb 26 despite the beat. Concerns: rising costs, credit risk, BRL depreciation. Trading volume 216% above average — institutional rotation. Confirmed: NU trades on Brazil macro, not US fintech sentiment.
 
 ---
 
@@ -107,7 +121,7 @@ NU trades on Brazil macro, BRL/USD, and LatAm fintech adoption — not US fintec
 
 | Person | Role |
 |--------|------|
-| **David Vélez** | Founder, CEO |
+| David Vélez | Founder, CEO |
 | Cristina Junqueira | Co-founder |
 
 Vélez is Colombian, [[Stanford]]/Sequoia background.
@@ -131,7 +145,7 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 |--------|-------|
 | Ticker | NU (NYSE) |
 | Market cap | ~$60B |
-| Customers | 100M+ |
+| Customers | 131M |
 | Geography | [[Brazil]], [[Mexico]], Colombia |
 
 ---
