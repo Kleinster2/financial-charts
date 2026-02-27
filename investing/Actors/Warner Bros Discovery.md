@@ -216,6 +216,7 @@ Bear:
 | Feb 20 | Paramount clears HSR; WBD staff sentiment shifts toward Netflix |
 | Feb 23 | Paramount submits $31 "best and final" (below $32 expected) |
 | Feb 26 | Board declares $31 "Superior Proposal"; Netflix walks away |
+| Feb 27 | Formal announcement of Paramount-WBD merger |
 | Mar 20 | Shareholder vote scheduled |
 
 Discovery Global spinoff valued at $1.33–$6.86/share under the Netflix structure. Under Paramount's deal, entire company acquired — no spinoff.
@@ -226,4 +227,4 @@ Full arc: [[WBD bidding war 2025-2026]]
 
 ---
 
-*Updated 2026-02-26*
+*Updated 2026-02-27*
