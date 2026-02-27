@@ -144,7 +144,48 @@ Passive flows drive AI stock demand.
 | Dividend yield | ~2.2% |
 | HQ | New York |
 
-*Updated 2026-01-15*
+*Updated 2026-02-27*
+
+---
+
+## Week of Feb 24-27, 2026
+
+### TCPC dividend cut — private credit stress signal
+
+BlackRock TCP Capital (TCPC), a publicly traded BDC (business development company) managed by BlackRock, **slashed its dividend 32%** from $0.25 → $0.17/share.
+
+| Metric | Value |
+|--------|-------|
+| Q4 2025 NII | $0.26/share |
+| New dividend | **$0.17/share** (-32%) |
+| Net regulatory leverage | **1.41×** (elevated) |
+| Non-accruals | Rising — soured loans pressuring results |
+| Realized + unrealized losses | Significant |
+| Stock | Slumped on announcement |
+
+**Why it matters:** This is [[Private credit]] stress showing up in public markets. Declining rates compressed NII while loan losses mounted. TCPC is a canary for the broader private credit complex — if BlackRock's own BDC is cutting dividends, weaker BDCs are in deeper trouble. Connects to [[Treasury safe asset erosion|credit market echoes]].
+
+### JGBs as safe asset alternative — "Golden Age"
+
+BlackRock called the current backdrop a **"golden age"** for investing in Japanese government bonds. Dollar-hedged JGBs can offer ~**6% yield** for US investors willing to take duration risk on long-dated [[Japan]] sovereign debt.
+
+**The subtext:** If the world's largest asset manager is publicly steering clients toward JGBs over Treasuries, that's a signal on relative safe asset attractiveness. Supports the [[Treasury safe asset erosion]] thesis — capital is being actively redirected away from Treasuries toward alternative sovereign debt.
+
+### Kuwait Petroleum pipeline — $7B infrastructure deal
+
+KPC (Kuwait Petroleum Corp) held early-stage talks with **BlackRock, [[Brookfield]], EIG Partners, and [[KKR]]** over a **$7B stake sale** in its crude oil pipeline network.
+
+- Deal structure: ~$1.5B equity, remainder financed by debt
+- Fits BlackRock's GIP-powered infrastructure push
+- Gulf sovereign monetization trend continues (after Saudi Aramco pipeline deals)
+
+### IBIT Bitcoin accumulation
+
+iShares Bitcoin Trust (IBIT) received **4,309 BTC (~$289M)** from Coinbase Prime in under an hour on Feb 26. Part of **$507M total** US spot Bitcoin ETF inflows that day.
+
+### UBS upgrade
+
+UBS upgraded BLK stock, citing evolving profit engine across ETFs + private markets + Aladdin platform revenue.
 
 ---
 
