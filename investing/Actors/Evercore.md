@@ -1,5 +1,5 @@
 ---
-aliases: [EVR]
+aliases: [EVR, Evercore ISI]
 ---
 #actor #bank #advisory
 
