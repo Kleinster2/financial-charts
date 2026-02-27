@@ -88,6 +88,34 @@ This combination — high breadth, high dispersion, low correlation, low VIX —
 | **Correlation** | ICJ | CBOE | Implied correlation among S&P 500 constituents | Yes (delayed) |
 | **Volatility** | VIX | CBOE / everywhere | 30-day implied volatility of S&P 500 | Yes |
 
+### Charts
+
+**Volatility — VIX (since Jan 2024)**
+
+![[vix-1yr.png]]
+
+*Characteristic spike-and-revert pattern. Major spikes: Aug 2024 (~38, Japan carry-trade unwind), Apr 2025 (~52, tariff shock). Currently ~19.5 — subdued, masking the internal chaos captured by the other three dimensions.*
+
+**Dispersion — DSPX (since Apr 2023)**
+
+![[dspx-dispersion.png]]
+
+*CBOE S&P 500 Dispersion Index. Trended from ~23 in early 2024 to ~35+ in 2026, with a massive spike to ~47 during the Apr 2025 tariff shock. Currently elevated at ~35 — well above 2024 baseline, confirming the "extreme single-stock dispersion" regime. Note: DSPX and VIX can diverge significantly — DSPX stayed elevated post-Apr 2025 even as VIX normalized, meaning individual stocks remain volatile even though the index is calm.*
+
+**Breadth — RSP vs SPY (since Jan 2024)**
+
+![[rsp-vs-spy-price-chart.png]]
+
+*RSP (equal-weight, blue) vs SPY (cap-weight, red). SPY outperformed through 2024 (~48% vs ~32%) driven by [[Mega-cap tech acronyms|Mag 7]] concentration. The gap narrowed in late 2025 and early 2026 as breadth improved and mega-caps lagged. RSP outperforming SPY = the average stock is beating the mega-caps — the real-time scoreboard for breadth.*
+
+**Volatility term structure — VIX vs VIX3M (since Jan 2024)**
+
+![[vix-vs-vix3m-price-chart.png]]
+
+*VIX (30-day, blue) vs VIX3M (3-month, red). When VIX spikes above VIX3M, the term structure inverts (backwardation) — signaling acute near-term fear. Apr 2025: VIX +300% vs VIX3M +165%, extreme inversion. During calm periods they converge (contango = normal). Currently roughly at parity.*
+
+> **Note on ICJ (implied correlation):** Not available via yfinance or standard free data sources. Available on CBOE's website with delay, or via Bloomberg terminal. The mathematical relationship — index vol ≈ avg stock vol × avg correlation — means you can infer correlation directionally from VIX and DSPX: when DSPX is high but VIX is low, correlation must be low (stocks moving independently). This is exactly the Feb 2026 regime.
+
 ### Measurement detail
 
 **Breadth — % above 200 DMA (MMTH / $SPXA200R)**
