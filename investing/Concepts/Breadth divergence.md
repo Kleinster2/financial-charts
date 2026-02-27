@@ -156,8 +156,9 @@ See [[Sector rotation]] for current rotation dynamics.
 
 ## Related
 
-### Sister concept
+### Sister concepts
 - [[Sector rotation]] — current rotation uses breadth to distinguish from selloff
+- [[Single stock dispersion]] — measures magnitude of moves (how far) vs breadth's direction count (how many); both elevated in Feb 2026
 
 ### [[Market structure]]
 - [[Mega-cap tech acronyms]] — concentration that creates divergence risk
