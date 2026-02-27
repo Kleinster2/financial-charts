@@ -6,6 +6,38 @@
 
 ---
 
+## The family: breadth, dispersion, rotation, divergence
+
+These terms get used interchangeably but measure different things.
+
+**Breadth** is the parent concept — *how many stocks are participating?* Everything below is either a measure of breadth or a pattern that emerges from it.
+
+**Advance/Decline (A/D)** is the simplest breadth indicator — counting how many stocks went up vs down. Binary: up or down, regardless of magnitude. The cumulative A/D line tracks this over time.
+
+**[[Single stock dispersion|Dispersion]]** is fundamentally different. It measures *how far* stocks move, not *how many*. You can have high breadth (most stocks rising) with low dispersion (all rising ~2%) or high breadth with high dispersion (some up 25%, others down 30%, but more winners than losers).
+
+**Divergence** is a pattern, not a metric — what happens when breadth and the index disagree. Index making new highs while the A/D line makes lower highs = bearish divergence. It's a warning signal, not a market regime.
+
+**[[Sector rotation|Rotation]]** is the mechanism that *produces* the breadth and dispersion readings. Money leaving one sector and entering another shows up as high dispersion (big moves both ways) with decent breadth (more winners than losers) while the index stays flat.
+
+**RSP** (Invesco S&P 500 Equal Weight ETF) is the trade expression. SPY is cap-weighted ([[Mega-cap tech acronyms|Mag 7]] ≈ 30%), RSP weights every stock equally. RSP vs SPY spread is the real-time scoreboard for breadth — when RSP outperforms, the average stock is beating the mega-caps.
+
+### How they connect
+
+```
+Rotation (mechanism)
+  → produces Breadth (participation) + Dispersion (magnitude)
+    → measured by A/D line, % above MA, etc.
+    → expressed via RSP vs SPY spread
+    → Divergence = warning pattern when breadth contradicts index
+```
+
+### Feb 2026 regime
+
+Rotation out of tech → high breadth (7/11 sectors up) → high dispersion (20%+ moves in 1/5 of stocks) → RSP outperforming SPY → **no bearish divergence** because breadth is *confirming* the underlying strength, not contradicting it. The index is flat not because of weakness but because of cap-weight math.
+
+---
+
 ## The concept
 
 **Breadth** = participation. How many stocks are rising vs falling.
