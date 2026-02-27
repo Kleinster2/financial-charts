@@ -3,73 +3,69 @@ aliases: [NFLX]
 ---
 #actor #company #streaming #entertainment #usa #public
 
-**Netflix** — Streaming pioneer and leader. Nasdaq: NFLX. **325M subscribers** (Q4 2025). Ad tier driving growth. **Acquiring Warner Bros (HBO)** for ~$42B all-cash (Jan 2026).
+**Netflix** — [[Streaming]] pioneer and leader. Nasdaq: NFLX. 325M subscribers (Q4 2025). Ad tier driving growth. Walked away from [[Warner Bros Discovery]] acquisition Feb 2026; collected $2.8B breakup fee.
 
 ---
 
-## Why Netflix matters
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | NFLX (Nasdaq) |
-| Market cap | ~$400B |
-| Revenue (2025) | ~$42B |
+| Market cap | ~$365B |
+| Revenue (2024) | $39.0B |
 | 2026 guide | $50.7-51.7B |
-| Subscribers | **325M** (Q4 2025) |
+| Subscribers | 325M (Q4 2025) |
 | Content spend | $20B (2026 plan) |
 | HQ | Los Gatos, CA |
 
-Largest pure-play streaming company globally.
+Largest pure-play [[Streaming]] company globally.
 
 ---
 
-## Warner Bros acquisition (Dec 2025 – present)
+## Warner Bros acquisition (Dec 2025 – Feb 2026, collapsed)
 
-**Netflix acquiring Warner Bros studios + HBO/HBO Max** — largest M&A in streaming history.
+Netflix bid for [[Warner Bros Discovery]] studios + HBO/HBO Max — largest M&A attempt in [[Streaming]] history. Deal collapsed Feb 26 when Netflix walked away.
 
 | Detail | Value |
 |--------|-------|
-| Price | **$27.75/share** all-cash |
-| Deal value | **~$83B** |
+| Price | $27.75/share all-cash |
+| Deal value | ~$83B |
 | Announced | Dec 5, 2025 |
-| Structure change | Cash+stock → all-cash (Jan 2026, to counter Paramount) |
-| Rival bid | Paramount Skydance hostile bid — $108B for all of WBD |
+| Structure change | Cash+stock → all-cash (Jan 2026, to counter [[Paramount Global]]) |
+| Rival bid | [[Paramount Global]] Skydance hostile bid — $108B for all of WBD |
+| Outcome | Netflix walked away Feb 26; $2.8B breakup fee received |
 
-**What Netflix gets:**
-- **HBO/HBO Max** — prestige content brand, ~117M subscribers
-- **Warner Bros studio** — theatrical + TV production (one of "Big Five")
-- **Content library** — DC, Harry Potter, Game of Thrones, Friends, Sopranos, etc.
-- **DC Studios** — superhero franchise
-- **Warner Bros Games, Tours, Retail**
-- **Studio facilities** — Burbank + Leavesden
+What Netflix would have gotten:
+- HBO/HBO Max — prestige content brand, ~117M subscribers
+- Warner Bros studio — theatrical + TV production (one of "Big Five")
+- Content library — DC, Harry Potter, Game of Thrones, Friends, Sopranos, etc.
+- DC Studios — superhero franchise
+- Warner Bros Games, Tours, Retail
+- Studio facilities — Burbank + Leavesden
 
-**What Netflix does NOT get (stays with "Discovery Global"):**
+What would have stayed with "Discovery Global":
 - CNN, TBS, HGTV, Discovery Channel, TNT Sports
-- Linear TV networks spin off separately
+- [[Linear TV]] networks spin off separately
 
-**Strategic rationale:**
-- Primarily **vertical** merger (distribution + production)
+Strategic rationale:
+- Primarily vertical merger (distribution + production)
 - HBO as premium "add-on" — 80% of HBO Max subs already have Netflix
 - 100 years of iconic IP + theatrical distribution capability
-- Not "Noah's Ark problem" — WB assets are things Netflix doesn't have
-- Counter YouTube's growing TV dominance (~13% viewing share vs Netflix ~9%)
+- Counter [[YouTube]]'s growing TV dominance (~13% viewing share vs Netflix ~9%)
 
-**Regulatory status (as of Feb 2026):**
+Regulatory status before collapse:
 - DOJ Antitrust Division reviewing
-- EU authorities reviewing
-- Some state AGs engaged
+- [[EU]] authorities reviewing
 - Senate hearing held Feb 3, 2026 — [[Netflix-WB Senate Antitrust Hearing 2026-02-03|full notes]]
 - Key risk: market definition (SVOD-only → 30%+ share = presumption of illegality)
-- Political wild card: Trump bought $2M in NFLX/WBD bonds post-announcement
-- Sarandos pledged 45-day theatrical windows **under oath**
-
-**Stock reaction:** NFLX -5% on higher content spending warning alongside deal.
+- [[Ted Sarandos]] pledged 45-day theatrical windows under oath
 
 ### Feb 26 — Deal collapses; Netflix walks away
 
-[[Warner Bros Discovery]] board declared Paramount Skydance's $31/share all-cash bid a "Superior Proposal." Netflix elected not to match or raise its $27.75/share offer. Netflix receives a **$2.8B breakup fee.**
+[[Warner Bros Discovery]] board declared [[Paramount Global]] Skydance's $31/share all-cash bid a "Superior Proposal." Netflix elected not to match or raise its $27.75/share offer. Netflix receives a $2.8B breakup fee.
 
-Sarandos had telegraphed this: "We're super-disciplined buyers... willing to walk away and let someone else overpay for things." Netflix stock rose on the news — market approved the discipline.
+[[Ted Sarandos]] had telegraphed this: "We're super-disciplined buyers... willing to walk away and let someone else overpay for things." Netflix stock rose on the news — market approved the discipline.
 
 The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the option to pursue other studio assets or build internally with its $20B content budget.
 
@@ -81,7 +77,7 @@ The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the
 |--------|--------|----------|
 | EPS | $0.56 | $0.55 |
 | Revenue | $12.05B | $11.97B |
-| Subscribers | **325M** | — |
+| Subscribers | 325M | — |
 | YoY revenue | +18% | — |
 
 ### 2026 guidance
@@ -97,9 +93,10 @@ The strategic rationale for HBO/DC/WB content remains valid. Netflix retains the
 ## Charts
 
 ![[nflx-90d.png]]
+*NFLX 90-day: $112 → $84.59 — down 24% on WBD deal uncertainty, then bounced on walk-away*
 
 ![[nflx-vs-qqq.png]]
-*[[Nasdaq|QQQ]]*
+*NFLX vs [[Nasdaq|QQQ]] since Jan 2024 — still +68% vs QQQ +48%, but gap narrowing sharply*
 
 ![[nflx-fundamentals.png]]
 
@@ -175,7 +172,7 @@ Netflix is fundamentally an AI recommendation company.
 
 | Metric | Value | Trend |
 |--------|-------|-------|
-| Paid subs | **325M** | Growing |
+| Paid subs | 325M | Growing |
 | ARM (avg revenue/member) | $13+ | Rising |
 | Operating margin | 31.5% (2026 target) | Expanding |
 | FCF | $8B+ | Growing |
@@ -186,8 +183,8 @@ Netflix is fundamentally an AI recommendation company.
 
 | Person | Role | Since |
 |--------|------|-------|
-| Ted Sarandos | Co-CEO | 2020 |
-| Greg Peters | Co-CEO | 2023 |
+| [[Ted Sarandos]] | CEO (co) | 2020 |
+| Greg Peters | CEO (co) | 2023 |
 | Spencer Neumann | CFO | 2019 |
 
 Reed Hastings stepped back to Executive Chairman.
@@ -196,7 +193,7 @@ Reed Hastings stepped back to Executive Chairman.
 
 ## Investment thesis
 
-**Bull:**
+Bull:
 - Streaming leader with scale
 - Ad tier margin expansion
 - Password crackdown complete
@@ -204,7 +201,7 @@ Reed Hastings stepped back to Executive Chairman.
 - FCF generation accelerating
 - International growth runway
 
-**Bear:**
+Bear:
 - Content cost inflation
 - Competition intensifying
 - Subscriber saturation risk
@@ -250,6 +247,37 @@ Expanding beyond on-demand to live programming.
 
 ---
 
+## Financials
+
+| Year | Revenue | Net Income | Op. Income | Op. Margin |
+|------|---------|------------|------------|------------|
+| 2018 | $15.8B | $1.2B | $1.6B | 10.2% |
+| 2019 | $20.2B | $1.9B | $2.6B | 12.9% |
+| 2020 | $25.0B | $2.8B | $4.6B | 18.3% |
+| 2021 | $29.7B | $5.1B | $6.2B | 20.9% |
+| 2022 | $31.6B | $4.5B | $5.6B | 17.8% |
+| 2023 | $33.7B | $5.4B | $7.0B | 20.6% |
+| 2024 | $39.0B | $8.7B | $10.4B | 26.7% |
+
+Revenue CAGR 2018-2024: ~16%. Net income inflected upward sharply in 2024 on operating leverage — margin expansion from 10% to 27% in six years.
+
+---
+
+## Evolution
+
+- 1997 — Founded as DVD-by-mail rental; differentiated from Blockbuster on convenience and no late fees
+- 2007 — Launched [[Streaming]] service; pivoted business model while DVD still dominant
+- 2011 — Qwikster debacle (attempted DVD spinoff) cratered stock 75%; reversed within weeks, but the strategic lesson stuck: go all-in on streaming
+- 2013 — First original series (House of Cards); shifted from licensed content distributor to content creator
+- 2016-2019 — Massive international expansion; invested heavily in local-language content (La Casa de Papel, Sacred Games, Dark)
+- 2020 — COVID lockdowns drove subscriber surge to 200M+; content flywheel accelerated
+- 2022 — First subscriber loss in a decade (Q1 2022, -200K); stock fell 70% peak-to-trough. Responded with password-sharing crackdown and ad-supported tier launch (Nov 2022)
+- 2023 — Password crackdown added tens of millions of paying subscribers; ad tier ramped to 40M+ MAU
+- 2024 — Pushed into live events (NFL Christmas games, WWE Raw, boxing); 10:1 stock split. Revenue crossed $39B
+- 2025-2026 — Bid $83B for [[Warner Bros Discovery]] studios + HBO (Dec 2025); walked away Feb 2026 after [[Paramount Global]] outbid at $31/share. Collected $2.8B breakup fee. Demonstrated capital discipline over empire-building
+
+---
+
 ## Related
 
 ### Competitors
@@ -267,21 +295,22 @@ Expanding beyond on-demand to live programming.
 - [[Streaming wars]] — competitive landscape
 
 ### Acquisitions
-- [[Warner Bros Discovery]] — acquiring studios + HBO for ~$83B (Dec 2025)
+- [[Warner Bros Discovery]] — bid $83B for studios + HBO (Dec 2025); walked away Feb 2026
 
 ### Events
+- [[WBD bidding war 2025-2026]] — full arc: Netflix bid → Paramount competing bid → Netflix walks away
 - [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing on deal
 
 ---
 
 ## Paramount competing bid for WBD (Feb 2026)
 
-[[Paramount Global]] launched a **hostile $30/share all-cash bid** for all of [[Warner Bros Discovery]] — $108.4B including debt — competing directly with Netflix's $27.75 carve-out offer for studios + HBO.
+[[Paramount Global]] launched a hostile $30/share all-cash bid for all of [[Warner Bros Discovery]] — $108.4B including debt — competing directly with Netflix's $27.75 carve-out offer for studios + HBO.
 
-- Paramount sweetened **Feb 10** with a **25¢/share quarterly ticking fee** if not closed by Dec 31, 2026
-- If Paramount wins, Netflix loses HBO/Max and Warner Bros studios
-- Netflix's offer is narrower (studios/HBO only) but faces less antitrust risk than Paramount's full-company bid
-- WBD board told shareholders to take no action; activist Ancora pushing engagement with Paramount
+- Paramount sweetened Feb 10 with a 25¢/share quarterly ticking fee if not closed by Dec 31, 2026
+- WBD board declared Paramount's $31/share bid a "Superior Proposal" on Feb 26
+- Netflix elected not to match — collected $2.8B breakup fee instead
+- Netflix's offer was narrower (studios/HBO only) but faced less antitrust risk
 
 See: [[Major Pending M&A Deals Feb 2026]]
 

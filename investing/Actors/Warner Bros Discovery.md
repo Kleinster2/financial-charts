@@ -3,19 +3,19 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 ---
 #actor #media #streaming #usa #public
 
-**Warner Bros Discovery** — [[Media]] conglomerate. Max streaming (117M subs). Studios + linear. Exploring sale/spinoff.
+**Warner Bros Discovery** — [[Media]] conglomerate. Max [[Streaming]] (117M subs). Studios + [[Linear TV]]. Being acquired by [[Paramount Global]] for $31/share all-cash (~$77B EV) after [[Netflix]] walked away from competing $27.75 bid. Shareholder vote March 20, 2026.
 
 ---
 
-## Why Warner Bros Discovery matters
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | WBD |
 | Market cap | ~$25B |
 | TTM revenue | ~$38B |
-| Max subscribers | **117M** |
-| Status | **Sale/spinoff evaluation** |
+| Max subscribers | 117M |
+| Status | Being acquired by [[Paramount Global]] ($31/share) — vote Mar 20 |
 
 ---
 
@@ -33,9 +33,9 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 | Metric | Value |
 |--------|-------|
-| Global subscribers | **117M** |
+| Global subscribers | 117M |
 | 2026 target | 150M |
-| 2025E streaming profit | **$1.3B** |
+| 2025E streaming profit | $1.3B |
 | Q3 2025 streaming profit | $1B (+58%) |
 
 ---
@@ -44,10 +44,10 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 | Segment | Description |
 |---------|-------------|
-| **Studios** | Warner Bros, New Line, DC |
-| **Max** | Streaming (HBO, Max originals) |
-| **Networks** | CNN, Discovery, HGTV, TNT |
-| **Sports** | TNT Sports, Bleacher Report |
+| Studios | Warner Bros, New Line, DC |
+| Max | [[Streaming]] (HBO, Max originals) |
+| Networks | CNN, Discovery, HGTV, TNT |
+| Sports | TNT Sports, Bleacher Report |
 
 ---
 
@@ -63,33 +63,25 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 ---
 
-## Netflix Acquisition (Dec 2025 – present)
+## Acquisition by Paramount (resolved Feb 26, 2026)
+
+Bidding war between [[Netflix]] and [[Paramount Global]] ended Feb 26 when the board declared Paramount's $31/share bid a "Superior Proposal." Netflix declined to match its $27.75 offer.
 
 | Detail | Value |
 |--------|-------|
-| Acquirer | [[Netflix]] |
-| Price | **$27.75/share** all-cash |
-| Deal value | **~$83B** |
-| Announced | Dec 5, 2025 |
-| Senate hearing | Feb 3, 2026 — [[Netflix-WB Senate Antitrust Hearing 2026-02-03|full notes]] |
+| Winning bidder | [[Paramount Global]] ([[Skydance Media]]) |
+| Price | $31/share all-cash (entire company) |
+| Enterprise value | ~$77B |
+| Netflix bid (withdrawn) | $27.75/share for studios + HBO only (~$83B) |
+| Netflix breakup fee | $2.8B |
+| Shareholder vote | March 20, 2026 |
+| Financial backstop | [[Larry Ellison]] $40B personal equity guarantee |
 
-**Deal structure:**
-- Netflix acquires **studios + HBO/HBO Max** (Warner Bros. entity)
-- **Discovery Global** spins off separately (CNN, TBS, HGTV, TNT Sports, Discovery)
-- Board unanimously chose Netflix over Paramount Skydance ($108B hostile bid) and one other unnamed bidder
-- Still evaluating competing offers per Delaware law
+Unlike Netflix's carve-out (studios + HBO only, with Discovery Global spinning off), Paramount is acquiring the entire company — including CNN, TBS, HGTV, TNT Sports, and Discovery networks.
 
-**Key arguments (from Campbell testimony):**
-- Primarily vertical merger — Netflix distribution + WB production
-- 80% of HBO Max subs already subscribe to Netflix (complementary, not competing)
-- HBO Max positioned as premium "add-on," not anchor service
-- Netflix's reach gives WB content global audience
-- Netflix's financial backing (investment-grade, predictable cash flow)
+Open risks: Paramount financing complexity ($1.5B junior lien fee), debt load, [[Larry Ellison]] equity guarantee certainty, activist opposition at March 20 vote.
 
-**Regulatory risks:**
-- DOJ, EU, state AGs all reviewing
-- Market definition is the key question
-- Trump involvement as political wild card
+Full timeline: [[WBD bidding war 2025-2026]]
 
 ---
 
@@ -97,10 +89,11 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 | Initiative | Status |
 |------------|--------|
-| Internal split | Warner Bros vs Discovery Global |
-| Formal separation | Via Netflix merger (studios+HBO) + Discovery Global spinoff |
-| Netflix deal | $83B all-cash, pending regulatory approval |
-| Rival bid | Paramount Skydance — $108B hostile for all of WBD |
+| Internal split | Warner Bros vs Discovery Global (originally planned) |
+| Netflix carve-out | Collapsed Feb 26 — Netflix walked away |
+| Paramount full acquisition | $31/share for entire company — vote March 20 |
+
+Under the Netflix deal, Discovery Global (CNN, TBS, HGTV, TNT Sports) would have spun off separately. Under Paramount's deal, the entire company is acquired — the future of [[Linear TV]] assets remains an open question.
 
 ---
 
@@ -114,40 +107,95 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 
 ---
 
-## Investment case
+## Charts
 
-**Bull:**
-- Max reaching scale (117M subs)
-- Streaming profitable
-- Valuable content library
-- Sale/spinoff catalyst (+24% on news)
-- DC universe potential
+![[wbd-price-chart.png]]
+*WBD since Apr 2022 (post-merger listing) — cratered from $24 to $7 on write-downs and linear decline, then spiked to $29 on acquisition bids (Dec 2025). Trading at $28.80, ~7% below the $31 deal price*
 
-**Bear:**
-- Linear networks declining (-17% ad revenue)
-- Heavy debt load
-- Box office weakness
-- [[Cord-cutting]] accelerating
-- Execution risk on restructuring
+![[wbd-fundamentals-chart.png]]
+*Revenue tripled on WarnerMedia merger (2022) but massive goodwill write-downs drove net income deeply negative. The pre-2022 data reflects Discovery Inc. standalone*
 
 ---
 
-## Quick stats
+## Financials
 
-| Metric | Value |
-|--------|-------|
-| Ticker | WBD |
-| Max subs | 117M |
-| Status | Sale/spinoff evaluation |
-| Key asset | HBO/Max |
+| Year | Revenue | Net Income | Op. Income | Notes |
+|------|---------|------------|------------|-------|
+| 2019 | $11.1B | $2.1B | $3.0B | Discovery Inc. standalone |
+| 2020 | $10.7B | $1.2B | $2.5B | COVID impact |
+| 2021 | $12.2B | $1.0B | $2.0B | Last year pre-merger |
+| 2022 | $33.8B | -$7.4B | -$7.4B | WarnerMedia merger; massive goodwill impairment |
+| 2023 | $41.3B | -$3.1B | -$1.5B | Continued write-downs |
+| 2024 | $39.3B | -$11.3B | -$10.0B | Further impairments; linear decline |
+
+Revenue stepped up 3x with the WarnerMedia merger (Apr 2022) but the combined entity has been writing down goodwill relentlessly — $30B+ in cumulative impairments since the merger. The company has never reported positive net income as a combined entity.
+
+---
+
+## Leadership
+
+| Person | Role | Since |
+|--------|------|-------|
+| David Zaslav | CEO | 2022 (merger) |
+| Gunnar Wiedenfels | CFO | 2022 (merger) |
+| Bruce Campbell | CRO/CSO | 2022 |
+
+David Zaslav came from Discovery; the WarnerMedia side was AT&T-controlled before the spinoff-merger.
+
+---
+
+## Evolution
+
+- 1985 — Discovery Communications founded; grew into reality/documentary empire (Discovery Channel, Animal Planet, TLC, HGTV, Food Network via Scripps 2018 acquisition)
+- 2018 — Discovery acquires Scripps Networks ($14.6B) — added HGTV, Food Network, Travel Channel
+- Apr 2022 — [[AT&T]] spins off WarnerMedia, merges with Discovery to form Warner Bros Discovery. AT&T had acquired TimeWarner for $85B in 2018; the spinoff effectively reversed that deal after massive debt accumulation
+- 2022-2024 — $30B+ in goodwill write-downs as the legacy media model deteriorated faster than expected. [[Linear TV]] ad revenue declined 17%. Stock cratered from $24 to $7
+- 2023-2024 — Max [[Streaming]] service reached 117M subscribers and turned profitable ($1.3B estimated for 2025), but couldn't offset linear decline
+- Oct 2025 — Board began evaluating strategic alternatives (sale, spinoff, separation of studios from linear). Stock surged 24% on the news
+- Dec 2025 — [[Netflix]] bid $27.75/share for studios + HBO; [[Paramount Global]] countered with $31 for entire company. Board chose Paramount Feb 26, 2026
+
+---
+
+## Investment case
+
+Bull:
+- Paramount deal at $31/share — premium to pre-deal trading
+- Max reaching scale (117M subs)
+- Streaming profitable
+- Valuable content library
+- DC universe potential
+
+Bear:
+- Paramount deal execution risk (financing, integration)
+- [[Linear TV]] networks declining (-17% ad revenue)
+- Heavy debt load
+- [[Cord-cutting]] accelerating
+- March 20 vote — activist opposition possible
 
 ---
 
 ## Related
 
-- [[Netflix]] — streaming competitor
-- [[Disney]] — media competitor
-- [[Consumer]] — sector
+### Acquirers / bidders
+- [[Paramount Global]] — winning bidder ($31/share all-cash)
+- [[Netflix]] — former bidder, walked away with $2.8B breakup fee
+- [[Larry Ellison]] — $40B personal equity guarantee for Paramount deal
+- [[David Ellison]] — [[Skydance Media]] CEO, Paramount-Skydance architect
+
+### Competitors
+- [[Netflix]] — [[Streaming]]
+- [[Disney]] — [[Media]]
+- [[Amazon]] — Prime Video
+- [[Apple]] — Apple TV+
+
+### Events
+- [[WBD bidding war 2025-2026]] — full arc of acquisition battle
+- [[Netflix-WB Senate Antitrust Hearing 2026-02-03]] — Senate hearing
+- [[Major Pending M&A Deals Feb 2026]] — deal tracker
+
+### Concepts
+- [[Streaming wars]] — competitive landscape
+- [[Cord-cutting]] — structural pressure on linear assets
 
 ---
 
@@ -156,124 +204,25 @@ aliases: [WBD, Warner, WarnerMedia, Discovery]
 - [WBD Q3 2025](https://www.wbd.com/news/warner-bros-discovery-reports-third-quarter-2025-results)
 - [Deadline Coverage](https://deadline.com/2025/02/warner-bros-discovery-losses-widen-linear-networks-max-1236303209/)
 
-## Paramount hostile competing bid (Feb 2026)
+## Bidding war timeline (Dec 2025 – Feb 2026)
 
-[[Paramount Global]] (post-Skydance) launched a **hostile $30/share all-cash bid for all of WBD** — enterprise value ~$108.4B. This competes with [[Netflix]]'s $27.75/share offer for studios + HBO only.
+| Date | Event |
+|------|-------|
+| Dec 5, 2025 | [[Netflix]] bids $27.75/share for studios + HBO (~$83B) |
+| Jan 2026 | Netflix switches to all-cash |
+| Feb 3 | [[Netflix-WB Senate Antitrust Hearing 2026-02-03\|Senate antitrust hearing]] |
+| Feb 10 | [[Paramount Global]] sweetens to $30 + ticking fee |
+| Feb 17 | Board rejects $30, opens 7-day window; Paramount floats $31 |
+| Feb 20 | Paramount clears HSR; WBD staff sentiment shifts toward Netflix |
+| Feb 23 | Paramount submits $31 "best and final" (below $32 expected) |
+| Feb 26 | Board declares $31 "Superior Proposal"; Netflix walks away |
+| Mar 20 | Shareholder vote scheduled |
 
-- **$30 vs $27.75** — Paramount offering ~9% more than current trading price (~$27.57)
-- **Feb 10:** Paramount added **25¢/share quarterly ticking fee** if not closed by Dec 31, 2026
-- WBD board advised shareholders to **take no action**
-- Activist **Ancora** pushing board to formally engage with Paramount
-- Senate antitrust hearing held Feb 3; DOJ review ongoing for both bids
+Discovery Global spinoff valued at $1.33–$6.86/share under the Netflix structure. Under Paramount's deal, entire company acquired — no spinoff.
 
-The Paramount bid is for the *entire* company (including CNN, Discovery networks, TNT Sports), while Netflix's bid carves out only studios/HBO. Paramount's offer is richer but faces greater antitrust hurdles.
+[[Ancora Holdings]] (~$200M stake) and [[Pentwater Capital]] (~50M shares) backed Paramount throughout; may still oppose deal terms at vote.
 
-See: [[Major Pending M&A Deals Feb 2026]], [[Ellison AI-IP vertical integration]]
-
-### Feb 17 — WBD rejects $30, opens 7-day window for "best and final"
-
-WBD board rejected Paramount's $30/share bid but gave a **7-day window (until Feb 23)** for a "best and final offer" — first time the board has formally engaged with Paramount after rejecting six prior offers. Key details:
-
-- Paramount verbally floated **$31/share** (not a formal offer), which enticed the board to the table
-- WBD board: "We have not determined that your proposal is reasonably likely to result in a transaction that is superior to the Netflix merger"
-- WBD secured a **special waiver from Netflix** to negotiate with Paramount — legal loophole under the merger agreement
-- **Shareholder vote on Netflix deal set for March 20**
-- **Discovery Global spinoff** valued at $1.33–$6.86/share (WBD estimate)
-
-**Unresolved issues in Paramount bid:**
-- Who covers potential $1.5B junior lien financing fee
-- What happens if debt financing falls through
-- Whether [[Larry Ellison]]'s $40B personal equity guarantee is fully certain
-- $2.8B breakup fee to Netflix if WBD walks
-
-**Activist pressure:**
-- [[Ancora Holdings]] (~$200M stake) plans to oppose the Netflix deal, argues board hasn't adequately engaged with Paramount
-- [[Pentwater Capital]] (~50M WBD shares) backs Paramount; CEO Matt Halbower eyed as potential WBD board nominee
-
-**Market reaction (Feb 17):** Paramount +6%, WBD +2.3%, Netflix -1.4%.
-
-Source: [Reuters](https://www.reuters.com/sustainability/sustainable-finance-reporting/warner-bros-rejects-paramounts-revised-offer-gives-studio-week-negotiate-better-2026-02-17/)
-
-### Feb 20 — Paramount clears HSR antitrust hurdle; WBD staff shift toward Netflix
-
-**Paramount clears DOJ/HSR waiting period (Feb 20):**
-- Paramount announced the Hart-Scott-Rodino waiting period expired after responding to DOJ's second request — "no statutory impediment in the U.S. to closing"
-- **But no deal exists to close** — Paramount filed HSR preemptively without a signed agreement
-- Netflix CLO David Hyman pushed back: "Routine HSR milestones do not signal DOJ approval... they are a long way from doing so"
-- Netflix still responding to its own DOJ second request (will trigger separate 30-day waiting period)
-- Paramount's CLO is **Makan Delrahim**, former Trump DOJ Antitrust Division chief — notable regulatory connection
-
-**WBD employee sentiment shifts to Netflix (Variety, Feb 20):**
-- Most WBD staffers now favor Netflix deal over Paramount takeover
-- Netflix co-CEOs Sarandos/Peters won people over with assurances + vision for combined company
-- Remaining skepticism centers on theatrical distribution — Netflix promised 45-day exhibition window
-- "Some familiarity with the idea" of becoming part of Netflix has set in
-
-**Countdown: Feb 23 deadline is Monday** — Paramount must submit "best and final" offer. Key question: will they go above $31/share (the verbal number that got them to the table)?
-
-**Next catalyst: March 20 shareholder vote on Netflix merger.**
-
-### Feb 23 — Deadline day: Paramount expected to bid ~$32/share
-
-**TODAY is the deadline** — Paramount's "best and final" offer due by 11:59 PM ET.
-
-**Key developments:**
-- Paramount expected to submit **~$32/share** (up from $30), per Variety/insiders — teams worked through the weekend
-- **Netflix has 4 days** after Paramount submits to match or walk away
-- Sarandos (Feb 20 interview): "We're super-disciplined buyers... willing to walk away and let someone else overpay for things. We have a rich history of that."
-- **MoffettNathanson** (Fishman): expects $32 minimum from Paramount; says $34 needed to truly win; Netflix matching above $30 makes "accretion math" difficult
-- **Paramount cleared HSR/DOJ antitrust hurdle** (Feb 20) — waiting period expired after second request response; but no signed deal exists to close
-- Netflix still responding to its own DOJ second request
-- Paramount's CLO is **Makan Delrahim** (former Trump DOJ Antitrust chief)
-- **Ancora Holdings** (~$200M stake) threatening proxy fight if board doesn't take Paramount seriously; will vote against Netflix deal
-- **Pentwater Capital** (~50M shares) backs Paramount; CEO Halbower eyed as WBD board nominee
-
-**Scenario tree from here:**
-1. Paramount bids $32+ → WBD board evaluates as "Superior Proposal" → Netflix has 4 days to match → bidding war or Netflix walks
-2. Paramount bids below expectations → WBD board rejects → March 20 shareholder vote on Netflix deal proceeds
-3. Netflix matches/raises → Paramount must decide whether to escalate further
-
-**Next catalyst: March 20 shareholder vote on Netflix merger.**
-
-### Feb 24 — Paramount bids $31/share; WBD board reopens door, Netflix deal in doubt
-
-**Paramount submitted its "best and final" at $31/share all-cash** (below the $32 insiders expected) — for the entire company. WBD board confirmed receipt and is now weighing whether to declare it a "Superior Proposal" vs. the Netflix $27.75/share deal.
-
-**Key developments:**
-- **$31/share for all of WBD** vs Netflix's $27.75 for studios + HBO only (Discovery Global spins off separately under Netflix deal)
-- If WBD board deems Paramount's offer superior, **Netflix has 4 business days to match or improve** its bid under the merger agreement
-- **Theater-owner groups** warned that the Netflix–WB merger could harm theatrical film distribution
-- **Ancora Holdings** continues pressing board to engage seriously with Paramount; called prior engagement inadequate
-- **Pentwater Capital** (one of WBD's largest shareholders) backs Paramount; CEO Matt Halbower floated as potential WBD board nominee in proxy contest
-- **Reuters (Feb 25):** "Warner Bros reopens door to Paramount, putting Netflix deal in doubt" — strongest signal yet that board may flip
-
-**What happens next:**
-1. WBD board evaluates Paramount's $31 bid — could take days
-2. If declared "Superior Proposal" → Netflix gets 4-day matching right → potential bidding war
-3. If Netflix doesn't match → WBD pays $2.8B breakup fee to Netflix, pivots to Paramount
-4. If board sticks with Netflix → March 20 shareholder vote proceeds (activist opposition from Ancora/Pentwater)
-5. Sarandos signaled discipline: "willing to walk away and let someone else overpay"
-
-**Market implications:** The gap between Paramount ($31) and Netflix ($27.75) is ~12%. Netflix would need to raise significantly to match on a whole-company basis. The real question is whether Netflix's partial-acquisition structure (studios+HBO only) can compete with Paramount's full-company offer.
-
-**Next catalyst: WBD board decision on "Superior Proposal" designation → Netflix 4-day matching period → March 20 shareholder vote.**
-
-### Feb 26 — WBD deems Paramount bid "Superior Proposal"; Netflix withdraws
-
-**WBD board officially declared Paramount Skydance's $31/share all-cash bid a "Superior Proposal."** Netflix immediately withdrew — will not submit a higher offer.
-
-| Detail | Value |
-|--------|-------|
-| Paramount offer | $31/share all-cash for all of WBD |
-| Enterprise value | ~$77B |
-| Netflix breakup fee | $2.8B |
-| Shareholder vote | March 20 |
-
-Netflix co-CEO [[Ted Sarandos]] had signaled throughout: "willing to walk away and let someone else overpay." Netflix shares rose on the withdrawal — market reads this as disciplined capital allocation.
-
-**Next:** Paramount and WBD must finalize detailed deal terms before March 20 vote. Open questions: $1.5B junior lien financing fee, debt financing contingency, [[Larry Ellison]]'s $40B personal equity guarantee certainty.
-
-Source: [CNBC](https://www.cnbc.com/2026/02/26/warner-bros-discovery-paramount-skydance-deal-superior-netflix.html), Feb 26
+Full arc: [[WBD bidding war 2025-2026]]
 
 ---
 

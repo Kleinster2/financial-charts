@@ -13,7 +13,7 @@ Snapshot of the largest pending mergers and acquisitions as of Feb 12, 2026, wit
 
 | Target | Acquirer | Deal Value | Spread / Status | Expected Close |
 |--------|----------|-----------|----------------|----------------|
-| [[Warner Bros Discovery]] | [[Netflix]] / **[[Paramount Global]]** (competing) | $83B / $108.4B | ~0.7% (NFLX) / ~9% upside (PARA) | H2 2026 |
+| [[Warner Bros Discovery]] | [[Paramount Global]] (won) | $31/share (~$77B EV) | Resolved Feb 26 — Netflix walked | Vote Mar 20 |
 | Cox Communications | [[Charter Communications]] | $34.5B | Regulatory review | May 2026 (ext. to 2027) |
 | Schroders | Nuveen (TIAA) | $13.5B (£9.9B) | ~4% spread | 2026 |
 | [[Norfolk Southern]] | [[Union Pacific]] | ~$85B | Early stage / massive antitrust risk | 2027 |
@@ -28,24 +28,29 @@ Snapshot of the largest pending mergers and acquisitions as of Feb 12, 2026, wit
 
 ---
 
-## 1. Netflix / Warner Bros Discovery ($83B) — Paramount Competing Bid
+## 1. Paramount / Warner Bros Discovery ($31/share) — RESOLVED
 
-The marquee deal of the cycle. Netflix bid $27.75/share all-cash for WBD's studios + HBO/Max assets in Dec 2025. WBD currently trades ~$27.57, implying a tight **~0.7% spread** to Netflix's offer.
+Bidding war resolved Feb 26, 2026. WBD board declared [[Paramount Global]]'s $31/share all-cash bid a "Superior Proposal." [[Netflix]] declined to match its $27.75/share offer and collected a $2.8B breakup fee.
 
-**The twist: Paramount's hostile competing bid.**
+| Detail | Value |
+|--------|-------|
+| Winning bid | [[Paramount Global]] — $31/share all-cash for entire company |
+| Enterprise value | ~$77B |
+| Netflix bid (withdrawn) | $27.75/share for studios + HBO only (~$83B) |
+| Netflix breakup fee | $2.8B |
+| Shareholder vote | March 20, 2026 |
+| Financial backstop | [[Larry Ellison]] $40B personal equity guarantee |
 
-Paramount Global (post-Skydance merger) launched a hostile all-cash bid of **$30/share for all of WBD** — enterprise value ~$108.4B including debt. This is for the *entire* company (not just studios/HBO like Netflix's carve-out).
+Key timeline:
+- Dec 5, 2025: Netflix bid announced
+- Feb 10: Paramount sweetened to $30 + ticking fee
+- Feb 20: Paramount cleared HSR second request
+- Feb 23: Paramount submitted $31 "best and final"
+- Feb 26: WBD board declared Superior Proposal; Netflix walked away
 
-Key developments:
-- **Feb 10, 2026:** Paramount sweetened with a **25¢/share quarterly ticking fee** if the deal hasn't closed by Dec 31, 2026 — effectively raising the price over time
-- **WBD board** told shareholders to "take no action" on the Paramount offer
-- **Activist Ancora** pushing WBD board to formally engage with Paramount
-- **Senate antitrust hearing** held Feb 3, 2026 — concerns about media consolidation
-- **DOJ review** ongoing for both bids
+Remaining risk: shareholder vote (March 20), Paramount financing complexity, integration of entire WBD (including [[Linear TV]] assets Netflix didn't want).
 
-**Arb dynamics:** If Paramount wins, WBD shareholders get $30/share vs current ~$27.57 = **~9% upside**. The Netflix deal at $27.75 offers only ~0.7%. The market is pricing in Netflix as the likely winner but Paramount's bid creates meaningful optionality. The ticking fee mechanism adds urgency for WBD's board to either engage or reject formally.
-
-**Key risk:** Antitrust — both deals face DOJ scrutiny. A Paramount/WBD combination would be an enormous media conglomerate. Netflix/WBD is arguably less anticompetitive (streaming + studios vs. full horizontal merger).
+Full arc: [[WBD bidding war 2025-2026]]
 
 ---
 
@@ -144,9 +149,10 @@ Both standard pharma acquisitions with minimal deal risk.
 
 ## Related
 
-- [[Netflix]] — acquirer (WBD studios/HBO)
-- [[Warner Bros Discovery]] — target (competing bids)
-- [[Paramount Global]] — hostile bidder for WBD
+- [[Paramount Global]] — winning bidder for WBD ($31/share)
+- [[Warner Bros Discovery]] — target (resolved Feb 26)
+- [[Netflix]] — former bidder, walked away with $2.8B breakup fee
+- [[WBD bidding war 2025-2026]] — full event note
 - [[Charter Communications]] — acquirer (Cox)
 - [[Union Pacific]] — acquirer (Norfolk Southern)
 
