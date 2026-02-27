@@ -119,7 +119,7 @@ The specific fear: **AI disruption could spike private credit defaults to 15%** 
 
 This creates a contagion channel:
 1. AI disrupts software business models → leveraged software borrowers default
-2. Private credit funds (key lenders) take losses → dividend cuts, redemptions ([[BlackRock|TCPC]] already cutting 32%)
+2. Private credit funds (key lenders) take losses → dividend cuts, redemptions ([[BlackRock|TCPC]] -32% dividend, **Blue Owl Capital** halting withdrawals, **[[KKR]]/Future Standard** BDC also cutting)
 3. Sentiment spills into public credit → IG spreads widen
 4. **Market Financial Solutions Ltd** (UK mortgage-finance) collapsed into insolvency this week — loose underwriting. Last year: First Brands Group (auto parts) and Tricolor Holdings (sub-prime auto lender) bankruptcies already unsettled Wall Street.
 

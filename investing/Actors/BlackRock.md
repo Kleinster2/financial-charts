@@ -157,13 +157,23 @@ BlackRock TCP Capital (TCPC), a publicly traded BDC (business development compan
 | Metric | Value |
 |--------|-------|
 | Q4 2025 NII | $0.26/share |
-| New dividend | **$0.17/share** (-32%) |
+| New dividend | **$0.17/share** (-32% from $0.25) |
+| Stock reaction | **-8.7%** intraday |
+| NAV cut (Jan 2026) | **-19%** — sent shares tumbling |
 | Net regulatory leverage | **1.41×** (elevated) |
-| Non-accruals | Rising — soured loans pressuring results |
-| Realized + unrealized losses | Significant |
-| Stock | Slumped on announcement |
+| New investment yield | **9.7%** (Q4 new deployments) |
+| Exited investment yield | **11.1%** (negative yield migration) |
+| Key exposure losses | E-commerce aggregators (Amazon seller roll-ups), **Renovo Home Partners** (filed bankruptcy) |
 
-**Why it matters:** This is [[Private credit]] stress showing up in public markets. Declining rates compressed NII while loan losses mounted. TCPC is a canary for the broader private credit complex — if BlackRock's own BDC is cutting dividends, weaker BDCs are in deeper trouble. Connects to [[Treasury safe asset erosion|credit market echoes]].
+TCPC is a middle-market lending fund. Statement: "The company's highest near-term priority is to improve portfolio credit quality by working diligently to resolve challenged credits."
+
+**Declining rates are a double squeeze:** New investments yielding 9.7% vs 11.1% for exits — every dollar redeployed earns less. Meanwhile soured loans eat into the shrinking income.
+
+**Not isolated — BDC-wide stress:**
+- **Blue Owl Capital** halted quarterly withdrawals from one of its retail funds (same week)
+- **Future Standard / [[KKR]]** jointly managed BDC also plunged Thursday after cutting dividend more than forecast — same dynamics (lower rates + troubled investments)
+
+**Why it matters:** This is [[Private credit]] stress showing up in public markets. If BlackRock's own BDC is cutting dividends 32%, weaker BDCs are in deeper trouble. The Amazon seller roll-up exposure is particularly telling — these are exactly the kind of leveraged, low-quality borrowers that thrived in the easy money era and are now unraveling. Connects to [[Treasury safe asset erosion|credit market echoes]].
 
 ### JGBs as safe asset alternative — "Golden Age"
 
