@@ -34,6 +34,63 @@ aliases: [Contemporary Amperex Technology]
 
 ---
 
+## Capacity
+
+| Metric | Value |
+|--------|-------|
+| Operating capacity | **676 GWh** |
+| Under construction | 219 GWh |
+| Target (2027) | **>1 TWh** |
+| Manufacturing bases | 13 |
+| R&D centers | 6 |
+| Vehicles with CATL batteries | **17M+** (1 in 3 globally) |
+| ESS projects deployed | 1,700+ |
+
+---
+
+## Business mix (2024)
+
+| Segment | Share |
+|---------|-------|
+| EV batteries | 80% |
+| ESS (energy storage) | 20% |
+
+| Chemistry | Share |
+|-----------|-------|
+| LFP | 65% |
+| NMC | 35% |
+
+| Format | Share |
+|--------|-------|
+| Cell + pack | 70% |
+| Cell only | 30% |
+
+| Geography | Share |
+|-----------|-------|
+| China | 70% |
+| Europe | 22% |
+| US | 3% |
+| RoW | 5% |
+
+| Vehicle type | Share |
+|-------------|-------|
+| Passenger (PV) | 85% |
+| Commercial (CV) | 15% |
+
+---
+
+## The "self-funding bank" model
+
+CATL operates with **negative working capital** — it collects from customers before paying suppliers, effectively using supplier financing to fund its explosive capex. This is the machine beneath the margin story: the company self-funds growth from its dominant position in the supply chain, similar to how Amazon or Dell historically operated.
+
+**Key metrics (TSCS/Ozeco analysis, Nov 2025):**
+- Operating margins ~17% (2024)
+- **~18% incremental returns** on new factory investment
+- Revenue growth guided 20-25%
+- Valuation trajectory: $10B (2018 SZSE) → $170B (May 2025 HKEX) → **~$250B** (late 2025)
+
+---
+
 ## Financials
 
 **Q3 2025:**
@@ -48,7 +105,7 @@ aliases: [Contemporary Amperex Technology]
 - Net profit: RMB 14B (~$2B), +32.9% YoY
 
 **Hong Kong IPO (May 2025):**
-- Raised HK$35.7B (~$4.57B)
+- Raised HK$35.7B (~$4.57B / $5B) at ~$170B valuation
 - Strengthens international footprint
 
 ---
@@ -120,7 +177,7 @@ See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories 
 | Metric | Value |
 |--------|-------|
 | Ticker | 300750.SZ, 3750.HK |
-| Market cap | ~$150B |
+| Market cap | ~$250B (RMB 1.8T) |
 | Market share | 38% (EV), 36.5% (ESS) |
 | Customers | Tesla, VW, [[BMW]], Mercedes |
 | Founded | 2011 |
