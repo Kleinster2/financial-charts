@@ -162,6 +162,19 @@ An Oscar-winning producer told Deadline: "I don't know if it was pre-planned, bu
 
 ---
 
+## Merger arb spread
+
+![[wbd-spread-to-deal-price.png]]
+*WBD premium/discount to best bid. Netflix $27.75 (Dec 5) → Paramount $30 (Feb 10, step-down) → Paramount $31 (Feb 24). Stock briefly traded at a premium to Netflix's bid in early Dec, then persistent 4-9% discount once Paramount's higher bids came in. Discount widened to -9.1% on day of formal announcement.*
+
+Key observations:
+- WBD briefly traded **above** Netflix's $27.75 in early Dec — market correctly anticipated a bidding war
+- Settled at 1-3% premium to $27.75 through Jan — comfortable the Netflix deal would close
+- **Feb 10 step-down:** Paramount's $30 resets the reference higher → instant -7% discount because the market sees more execution risk with a hostile all-of-WBD deal
+- **Feb 24-27:** $31 bid → discount **widened** from -6% to -9.1% into the formal announcement. Not confidence.
+
+---
+
 ## Why WBD isn't trading at $31 (Feb 27)
 
 WBD closed ~$28.90 — a ~7% spread to the $31 deal price. The market isn't doubting the deal happens; it's pricing the risk and the wait.
