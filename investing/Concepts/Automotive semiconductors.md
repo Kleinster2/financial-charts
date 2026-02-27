@@ -133,10 +133,13 @@ Auto doesn't compete for leading edge capacity — different fabs, different bot
 
 | Vehicle type | Chip content | Key difference |
 |--------------|--------------|----------------|
-| ICE | ~$500 | Engine control, basic electronics |
-| Hybrid | ~$700 | + motor control, BMS |
-| BEV | ~$900-1,200 | SiC inverter, BMS, no ICE |
+| ICE | **~$750** | Engine control, basic electronics |
+| Hybrid | ~$700-900 | + motor control, BMS |
+| BEV | **~$1,300** | SiC inverter, BMS, no ICE (~1.7× ICE) |
 | BEV + L3 ADAS | ~$1,500+ | + ADAS compute |
+| BEV (2030 est.) | **~$2,000** | +53% growth from 2024 |
+
+**~70% of the ICE→BEV increase** comes from power semiconductors (mainly inverter). Remaining 30% from MCUs and sensors for infotainment, body & comfort. Power semi content alone is **~5× higher** in a BEV vs ICE.
 
 **What EVs add:**
 - SiC/IGBT power semiconductors (inverter)
