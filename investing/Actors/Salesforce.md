@@ -7,19 +7,16 @@ aliases: [CRM]
 
 ---
 
-## Why Salesforce matters
+## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | CRM (NYSE) |
-| Market cap | ~$280B |
+| Market cap | ~$193B |
+| Revenue (FY2026) | $41.5B |
 | Position | \#1 CRM globally |
 | Customers | 150,000+ |
-
-![[crm-vs-peers.png]]
-*CRM +145% since 2018 — underperformed [[Nasdaq|QQQ]] (+285%) as growth normalized post-pandemic.*
-
-*vs [[Nasdaq|QQQ]]*
+| HQ | San Francisco |
 
 ---
 
@@ -42,7 +39,7 @@ Acquired into full enterprise suite.
 
 ## AI strategy
 
-**Einstein AI → Agentforce:**
+Einstein AI → Agentforce:
 
 | Product | Function |
 |---------|----------|
@@ -54,13 +51,13 @@ Acquired into full enterprise suite.
 
 Agentforce = [[AI agents]] that take actions, not just chat.
 
-**Q4 FY2026 AI metrics:** Agentforce ARR $800M (+169% YoY). Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). 29,000 cumulative deals. $2/conversation pricing model.
+Q4 FY2026 AI metrics: Agentforce ARR $800M (+169% YoY). Combined Agentforce + Data 360 ARR ~$2.9B (+200% YoY). 29,000 cumulative deals. $2/conversation pricing model.
 
 ---
 
 ## Agentforce
 
-**Autonomous [[AI agents]] (2024 launch):**
+Autonomous [[AI agents]] (2024 launch):
 - Service agents handle cases end-to-end
 - Sales agents qualify leads
 - Commerce agents assist shopping
@@ -72,7 +69,7 @@ Salesforce betting on "agentic" AI as next platform shift.
 
 ## Data advantage
 
-**Customer data moat:**
+Customer data moat:
 - Decades of CRM data
 - Data Cloud unifies sources
 - Einstein trains on customer data
@@ -133,18 +130,18 @@ A non-core strategic investment that resulted in total loss.
 
 ## Investment case
 
-**Bull:**
-- CRM market leader
-- Agentforce differentiation
-- Data Cloud growth
-- Margin expansion (activism)
-- AI monetization
+Bull:
+- CRM market leader with 150K+ customers
+- Agentforce ARR $800M and accelerating
+- Margin expansion (34% non-GAAP op margin)
+- $14.4B FCF, $50B buyback authorization
+- [[Anthropic]] partnership (Claude in Agentforce)
 
-**Bear:**
-- Microsoft Copilot competition
-- Slower growth post-pandemic
-- Acquisition integration
-- Premium valuation
+Bear:
+- [[Microsoft]] Copilot competition
+- Organic growth only ~7-8% ex-[[Informatica]]
+- Stock -5.6% on FY2027 guidance miss
+- Premium valuation compressing (forward P/E ~14.5x)
 - Saks write-off (minor)
 
 ---
@@ -152,18 +149,6 @@ A non-core strategic investment that resulted in total loss.
 
 ![[crm-employees-chart.png]]
 *Headcount: 76,453 (2025) — up 5.2% YoY*
-
-## Quick stats
-
-| Metric | Value |
-|--------|-------|
-| Ticker | CRM |
-| Market cap | ~$280B |
-| Revenue | ~$41.5B |
-| HQ | San Francisco |
-
-![[crm-eps-surprise-chart.jpg]]
-*CRM EPS surprise history and consensus estimates through 2027. Consistent beats (green arrows). Source: Zacks*
 
 ## Q3 FY2026 results
 
@@ -175,9 +160,7 @@ A non-core strategic investment that resulted in total loss.
 | Non-GAAP op margin | 35.5% | +240bps |
 | Current RPO guidance | +15% Q4 | — |
 
-**Valuation:** Forward P/E 14.5x — cheaper than [[Oracle]] (20.2x). Zacks Rank #2 (Buy). Transitioning from growth-heavy to efficient + profitable.
-
-*Updated 2026-02-19*
+Valuation: Forward P/E 14.5x — cheaper than [[Oracle]] (20.2x). Transitioning from growth-heavy to efficient + profitable.
 
 ---
 
@@ -228,6 +211,51 @@ Revenue includes $388M from [[Informatica]] (acquired).
 Stock -5.6% AH on guidance miss despite strong beat. The gap between Q4 execution (12% growth, 25% EPS beat) and FY2027 guide (~7-8% organic) drove the sell-off.
 
 *Updated 2026-02-25*
+
+---
+
+## Charts
+
+![[crm-vs-peers.png]]
+*CRM vs [[Nasdaq|QQQ]] since 2018 — CRM +80% vs QQQ +300%. Significant underperformance as growth decelerated post-pandemic*
+
+![[salesforce-fundamentals-chart.png]]
+*Revenue compounding steadily ($6.7B FY2016 → $41.5B FY2026). Net income volatile from acquisition-related charges but inflecting upward on margin discipline*
+
+![[crm-employees-chart.png]]
+*Headcount: 76,453 (2025) — up 5.2% YoY*
+
+![[crm-eps-surprise-chart.jpg]]
+*CRM EPS surprise history and consensus estimates through 2027. Consistent beats (green arrows). Source: Zacks*
+
+---
+
+## Leadership
+
+| Person | Role | Since |
+|--------|------|-------|
+| [[Marc Benioff]] | CEO, Chair | 1999 (founder) |
+| Amy Weaver | CFO | 2021 |
+| Brian Millham | President, COO | 2023 |
+
+[[Marc Benioff]] founded Salesforce after leaving [[Oracle]]. Pioneered the SaaS/cloud model.
+
+---
+
+## Evolution
+
+- 1999 — Founded by [[Marc Benioff]] (ex-[[Oracle]]) with the "no software" vision — CRM delivered as a web service, not installed software
+- 2004 — IPO on NYSE. Early cloud pioneer at a time when enterprise software meant on-premise
+- 2009 — Launched Service Cloud, beginning the expansion from pure CRM into a multi-cloud platform
+- 2013 — Crossed $4B revenue; ExactTarget acquisition ($2.5B) built Marketing Cloud
+- 2016 — Acquired Demandware ($2.8B) for Commerce Cloud. Revenue crossed $6.7B
+- 2018 — MuleSoft acquisition ($6.5B) for integration/API management
+- 2019 — Tableau acquisition ($15.7B) — largest deal, added analytics. Revenue $13.3B
+- 2021 — [[Slack]] acquisition ($27.7B) — bet on collaboration. Revenue $21.3B. Peak share price ~$310
+- 2022-2023 — Post-pandemic growth slowdown. Activist investors (Elliott, Starboard, ValueAct) pushed margin discipline. Layoffs (10% of workforce, Jan 2023). Stock fell from $310 to $130
+- 2024 — Margin expansion story delivered: non-GAAP op margin expanded to 33%+, FCF $14B+. Stock recovered
+- 2025 — Launched Agentforce (autonomous AI agents). [[Informatica]] acquisition ($8B) for data integration. [[Anthropic]] partnership for Claude in Agentforce
+- Feb 2026 — Q4 FY2026: strong beat ($3.81 vs $3.04 EPS) but stock -5.6% on FY2027 guide miss (~7-8% organic growth)
 
 ---
 

@@ -122,10 +122,28 @@ Stock bounced on the news after being **-47% YTD** from the SaaSpocalypse. The m
 
 ---
 
+## AI coding agent adoption (Feb 2026)
+
+CTO Alex Balazs — "up at 5 AM writing code" with AI agents, deeper into Intuit's code than he's been in years. Product managers and designers encouraged to [[Vibe coding|vibe code]] their own features in [[QuickBooks]]. Not yet released to customers, but PMs can now come to engineers with working prototypes: "I want something like this."
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Engineer productivity gain | **30%** (code velocity shipped) | Bloomberg Businessweek |
+| Role evolution | PM/design roles becoming "hybrid" | Balazs |
+| Risk | "Task expansion" — engineers cleaning up vibe-coded output | UC Berkeley study |
+
+Previously hard-lined roles (PM → spec → engineer → ship) are blurring. [[Claude Code]] and [[OpenAI]] Codex are the named tools.
+
+*Source: Bloomberg Businessweek (Issie Lapowsky, Feb 26 2026)*
+
+---
+
 ## Related
 
 - [[Anthropic]] — multi-year partnership (Feb 2026), MCP integrations
 - [[February 2026 AI Disruption Cascade]] — INTU was -47% YTD before partnership bounce
+- [[Claude Code]] — engineering tool adoption, 30% productivity gain
+- [[Vibe coding]] — PMs/designers building prototypes
 - [[HubSpot]] — SMB peer
 - [[SaaS]] — sector
 
@@ -136,4 +154,4 @@ Stock bounced on the news after being **-47% YTD** from the SaaSpocalypse. The m
 - [Intuit FY25 results](https://investors.intuit.com/news-events/press-releases/detail/1266/intuit-reports-strong-fourth-quarter-and-full-year-fiscal-2025-results-sets-fiscal-2026-guidance-with-double-digit-revenue-growth-and-continued-operating-margin-expansion)
 - [CNBC: [[OpenAI]] deal](https://www.cnbc.com/2025/11/18/intuit-pays-openai-100-million-turbotax-integrates-chatgpt.html)
 
-*Created 2026-01-09*
+*Created 2026-01-09 | Updated 2026-02-26*

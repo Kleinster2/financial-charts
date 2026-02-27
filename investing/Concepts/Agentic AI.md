@@ -150,6 +150,21 @@ Only **39%** of organizations report enterprise-level EBIT impact from AI — mo
 
 Larger organizations more likely to expect AI-related workforce reductions.
 
+### Productivity paradox (Feb 2026)
+
+Bloomberg Businessweek (Feb 26 2026) documented the emerging pattern: AI agents increasing productivity metrics but also increasing hours worked and anxiety.
+
+| Finding | Source |
+|---------|--------|
+| Workers offloading to AI but **working longer hours** | UC Berkeley study (200-person org) |
+| C-suite: 40%+ say AI saves 8+ hrs/week | [[Section]] survey |
+| Non-managers: 67% say AI saves <2 hrs | [[Section]] survey |
+| [[Intuit]] engineers 30% more productive | Bloomberg |
+
+**"Task expansion":** Non-technical staff using [[Vibe coding|vibe coding]] tools creates more work — engineers must clean up prototypes built by PMs, designers, and marketing. Berkeley researchers named this dynamic. Companies now monitoring engineer "interactions per day" with coding agents and publishing weekly efficiency reports.
+
+[[Greg Brockman]] ([[OpenAI]] president): "feels like such a wasted opportunity every moment your agents aren't running." The productivity promise has become a productivity mandate.
+
 ---
 
 ## For theses

@@ -53,6 +53,24 @@ Status: Fully implemented, gated behind feature flags. Not yet in official docs.
 
 ---
 
+## Enterprise adoption signals (Feb 2026)
+
+Bloomberg Businessweek (Feb 26 2026) profiled how coding agents — Claude Code and [[OpenAI]] Codex specifically — are reshaping engineering culture:
+
+| Company | Signal |
+|---------|--------|
+| **[[Intuit]]** | Engineers 30% more productive (code velocity). CTO Alex Balazs "up at 5 AM writing code" with agents. Product managers vibe-coding [[QuickBooks]] features |
+| **DocuSketch** | Tracks "interactions per day" per engineer. Claude Code publishes weekly efficiency reports per engineer |
+| **Arcade.dev** | CEO tracks Claude Code bills, pressures engineers to spend more. Bills rose 10x after internal push |
+
+The pattern: senior leaders using coding agents to build things themselves, then raising expectations for engineering teams. [[Vibe coding]] promise of leisure inverted into productivity mandate.
+
+UC Berkeley study (200-person org): workers offloading to AI agents but simultaneously working longer hours. "Task expansion" — non-technical staff vibe-coding creates cleanup work for engineers.
+
+*Source: Bloomberg Businessweek (Feb 26 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |

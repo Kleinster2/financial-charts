@@ -113,6 +113,30 @@ Auth → Supabase
 
 ---
 
+## Productivity panic (Feb 2026)
+
+The vibe coding promise of leisure has inverted into a mandate to accelerate. Bloomberg Businessweek (Issie Lapowsky, Feb 26 2026) profiles the cultural shift:
+
+| Finding | Source |
+|---------|--------|
+| Workers offloading to AI agents but **simultaneously working longer hours** | UC Berkeley study, 200-person org |
+| 40%+ of C-suite say AI saves 8+ hrs/week | [[Section]] survey |
+| 67% of non-managers say AI saves <2 hrs | [[Section]] survey |
+| Engineers 30% more productive (code velocity) | [[Intuit]] (CTO Alex Balazs) |
+
+**"Task expansion"** — Berkeley researchers found non-technical staff vibe-coding creates *more* work for engineers, who must clean up the output. Product managers, designers, and marketing teams building prototypes that engineers then have to make production-ready.
+
+**Monitoring creep:**
+- DocuSketch tracks engineers' "interactions per day" with [[Claude Code]]; weekly efficiency reports published per engineer
+- Arcade.dev CEO calls out engineers for not spending enough on Claude Code; bills shot up 10x after internal pressure
+- [[OpenAI]] president [[Greg Brockman]]: "feels like such a wasted opportunity every moment your agents aren't running"
+
+**"Busyware" risk:** the minor website update no one would miss, the custom dashboard for an audience of one, the half-baked demo that engineers must make real. The biggest productivity hack may be knowing what *not* to build.
+
+*Source: Bloomberg Businessweek (Feb 26 2026)*
+
+---
+
 ## Concerns
 
 ### Technical debt
