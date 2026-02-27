@@ -146,15 +146,15 @@ See [[Sector rotation]] for current rotation dynamics.
 
 | Indicator | Reading | [[Signal]] |
 |-----------|---------|--------|
-| Single-stock dispersion | **Highest since 2009** ([[Citadel Securities]] data) | Extreme micro divergences |
-| S&P constituents ±20% YTD | **>20%** (risers ~2:1 over fallers) | Broad repricing, not concentrated |
-| S&P stocks beating index | **60%+** (broadest in decades) | Index masking broad strength |
-| Active funds outperforming | **>50%** (highest in ~20 years, [[Goldman Sachs]]) | Stockpicker's market |
-| Mag 7 YTD | **-5.6%** | Cap-weighted drag |
-| S&P sectors up | **7 of 11** | Broad participation |
-| Q4 2025 earnings | +12% YoY (4th double-digit quarter) | Fundamental strength underneath |
+| S&P sectors up | **7 of 11** | Decent sector-level breadth |
+| Mag 7 YTD | **-5.6%** | Cap-weighted drag on index |
+| S&P stocks beating index | **60%+** | More stocks up than down — but "beating a flat index" is a low bar |
 
-**Interpretation (updated Feb 27):** Still not a bearish divergence — this is an extreme rotation. The index is flat but 60%+ of constituents are outperforming it. Dispersion at 2009 levels confirms the market is repricing individual businesses (AI winners vs losers) while aggregate demand and earnings remain strong. Revenue +9%, 7/11 sectors expanding margins. [[Société Générale|SocGen]]'s Kabra: *"The macro message underlying the index is actually boom."* [[Barclays]]' Krishna: *"violent rotations"* beneath subdued index volatility. This is the broadest participation in decades — active management's best environment since the mid-2000s.
+**Interpretation (updated Feb 27):** Not a bearish divergence — the index is flat, not making new highs while breadth deteriorates. But the headline numbers need unpacking. 60%+ of stocks outperforming the index sounds like strong breadth, but the index is roughly flat — so "outperforming" mostly means "positive." The real story is **dispersion**, not breadth: [[Citadel Securities]] data shows single-stock dispersion at its highest since 2009, with >20% of S&P constituents moving ±20% YTD. That's extreme idiosyncratic repricing — big winners AND big losers — which is a different phenomenon from broad participation. Rotation (capital moving between sectors) can produce high dispersion without improving breadth if the buy side is narrow.
+
+**What would confirm genuine breadth improvement:** A/D line making new highs, % above 200 DMA expanding, new highs broadening — not just "most stocks beat a flat index." Need to check actual breadth indicators, not just infer breadth from rotation and dispersion data.
+
+See [[Sector rotation]] for the dispersion and rotation data (Feb 27 update).
 
 ### Previous reading (Jan 2026)
 
