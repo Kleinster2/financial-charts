@@ -127,6 +127,16 @@ AGL's conservative "loss avoidance" culture and focus on senior secured (top of 
 
 ---
 
+## Bottom line
+
+Strong shop. $0 to $21B in 6 years, CLO Manager of the Year back-to-back, founded by a guy who literally helped invent how leveraged loans are priced (Market Flex, 1997). ADIA anchor money + exclusive Barclays origination pipe means they get first look at high-quality large-cap deals without competing in the open market.
+
+In the current private credit stress environment — where TCPC is cutting dividends, Blue Owl is gating redemptions, and UBS is warning about 15% default rates — AGL's positioning looks relatively defensive: senior secured (top of capital stack), loss-avoidance culture, and large-cap focus (vs the middle-market lending where the pain is concentrated).
+
+The risk: they're still a CLO/private credit shop at the end of the day. If credit broadly deteriorates, even senior secured takes hits. And they've been scaling fast during the easy money era — $14B to $21B in one year is aggressive growth.
+
+---
+
 ## Related
 
 - [[ADIA]] — anchor investor, $993B sovereign wealth fund
