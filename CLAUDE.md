@@ -237,6 +237,10 @@ Company, country, and institution actor notes should include an **Evolution** se
 | Financials templates | `[[Financials templates]]` |
 | Thesis naming | `[[Thesis conventions]]` |
 
+### Writing Style
+
+Vault prose should be **sharp, not sterile**. Keep the punch and readability of conversational writing. Structure is good (strengths/risks/bull/bear), but don't sand off the edge to sound "professional." This is personal research — it should read like a smart person's honest take, not a consulting deck. If a casual explanation is clearer than a formal one, use the casual one.
+
 ### Focus Areas
 
 - **AI stack** — chips, infrastructure, hyperscalers, labs
