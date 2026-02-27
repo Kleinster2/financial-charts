@@ -60,6 +60,17 @@ AI training/inference is memory-bound. See [[GPU memory scaling]] for the struct
 
 **Production hub:** Yongin cluster (Korea) expected to become world's largest HBM production hub by 2027.
 
+### HBM4 pricing (Feb 2026)
+
+| Supplier | HBM4 unit price | Margin |
+|----------|----------------|--------|
+| [[Samsung]] | **~$700** (+30% vs HBM3E) | 50-60% operating margin |
+| [[SK Hynix]] | Mid-$500s (set Aug 2025) | May raise to match Samsung |
+
+Samsung has started mass production and shipped commercial HBM4 products. The 30% generation-on-generation price increase confirms pricing power in a tight market. Bloomberg Intelligence: if Samsung wins more [[NVIDIA]] HBM volume, the ASP gap between Samsung and SK Hynix narrows in 2026.
+
+*Source: Bloomberg / Chosun Ilbo, Feb 27 2026*
+
 ---
 
 ## Supply chain

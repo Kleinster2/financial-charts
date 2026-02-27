@@ -93,6 +93,54 @@ When gold/silver rally while DXY falls, capital is fleeing to hard assets rather
 - **30-year yield** behavior during equity selloffs (should fall in normal risk-off)
 - **Term premium** — rising compensation for duration risk
 
+## The $7T fundamental gap (Kaissar, Feb 2026)
+
+Bloomberg Opinion (Nir Kaissar) made the fundamental case against "Sell America" — the US lead over Europe runs far deeper than Big Tech.
+
+![[bloomberg-us-europe-revenue-fcf-gap.png]]
+*US companies expected to grow sales and profits faster than European peers through 2029. The gap is large even excluding Mag7 + Broadcom. Source: Bloomberg.*
+
+### Revenue and investment gap
+
+| Metric | US | US ex Big Tech | Europe |
+|--------|-----|----------------|--------|
+| Revenue growth (5yr avg) | **8%/yr** | 7%/yr | 3%/yr |
+| Revenue lead (FY2020) | +$3T | +$2T | — |
+| Revenue lead (FY2025) | **+$6.7T** | +$4.6T | — |
+| R&D + capex (5yr cumulative) | ~$9T | ~$7T | $4.7T |
+
+Europe matched US FCF growth despite lower revenue growth — but only by expanding FCF margins 5%/yr while US margins stayed flat. That margin expansion came from *lower investment*, not superior efficiency.
+
+### Forward estimates (consensus, FY2026-2029)
+
+| Metric | US | Europe |
+|--------|-----|--------|
+| Revenue growth | **8%/yr** | 6%/yr |
+| FCF margin growth | **13%/yr** | 4%/yr |
+| Projected revenue lead | **+$10.5T** ($6.5T ex Big Tech) | — |
+| Projected FCF lead | **+$2.1T** (~half from Big Tech) | — |
+
+### The bull case for Europe anyway
+
+| Factor | Europe edge |
+|--------|------------|
+| Dividend yield | Higher than US |
+| Valuations | Lower, more room for expansion |
+| Expectations | Easier to beat if fundamentals improve |
+| [[BlackRock]], [[UBS]] | Both expect higher stock returns from Europe than US |
+
+[[UBS]] CEO Sergio Ermotti: divesting from US is a "dangerous bet" given "highest level of innovation," but underweighting may work short-term.
+
+### The negative feedback loop risk
+
+Europe's modest margins and revenue growth leave less room for R&D investment. Without fresh capital, declining investment → deteriorating fundamentals → weaker case for future investment. This is the structural bear case for long-term Europe allocation.
+
+European stock funds average US allocation: well below 50% (vs 63% of global market cap). Already underweight, but the gap may widen.
+
+*Source: Bloomberg Opinion (Nir Kaissar), Feb 2 2026*
+
+---
+
 ## Implications
 
 **For portfolios:** Traditional 60/40 may not hedge as expected. The negative stock-bond correlation that underpinned decades of asset allocation is less reliable.
@@ -112,3 +160,6 @@ When gold/silver rally while DXY falls, capital is fleeing to hard assets rather
 - [[Steepener trade]] — related rates positioning
 - [[China]] — major holder, net seller
 - [[Japan]] — largest holder, currency dynamics matter
+- [[Developed ex-US equities]] — the "Buy Europe" investment vehicle (EFA)
+- [[Europe]] — regional context (defense rearmament, ASML, industrials)
+- [[Greenland]] — January 2026 trigger (NATO tariff threats)

@@ -285,6 +285,12 @@ Major industry-wide escalation — shortage spreading beyond smartphones into ga
 ![[bloomberg-memory-prices-parabolic.png]]
 *Contract cost per GB going parabolic — [[Bernstein]] called the ascent "parabolic." Source: Bernstein estimates, DRAMeXchange.*
 
+![[bloomberg-memory-makers-market-cap.png]]
+*Three top memory makers ([[Samsung]], [[SK Hynix]], [[Micron]]) added >$1T in combined market cap since Aug 2024, reaching ~$1.8T. Source: Bloomberg.*
+
+![[bloomberg-hyperscaler-capex-2026.png]]
+*Combined hyperscaler capex (Meta, Alphabet, Amazon, Microsoft, Oracle) expected to top $650B in 2026 — up from ~$217B in 2024. Source: Bloomberg.*
+
 ### Price dynamics
 
 | Metric | Value |

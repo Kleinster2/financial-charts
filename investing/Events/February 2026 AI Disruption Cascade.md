@@ -324,9 +324,59 @@ This is the micro-level manifestation of the cascade's macro thesis: AI doesn't 
 
 ---
 
+## Polar Capital: "application software faces an existential threat" (Feb 27)
+
+Nick Evans, [[Polar Capital]] fund manager running a $12B global technology fund (beat 99% of peers over 1 year, 97% over 5), has liquidated virtually all application software positions. Sold [[SAP]], [[ServiceNow]], [[Adobe]], [[HubSpot]] — "we won't go back to these companies."
+
+Only software position retained: small [[Microsoft]] holding + call options.
+
+![[bloomberg-long-hardware-short-software.png]]
+*SOX (Philadelphia Semiconductor Index) vs iShares Expanded Tech-Software ETF since Feb 2025. Chips +55%, software -22% — ~77pp divergence. Source: Bloomberg.*
+
+### Evans thesis
+
+| Claim | Detail |
+|-------|--------|
+| Core threat | AI coding tools ([[Claude Code|Claude Cowork]] named) can replicate and modify existing software |
+| Competition source | Clients building tools internally + AI startups |
+| Analogy | Application software = newspapers in the 2000s — most will die |
+| SAP resilience | Complex enterprise packages more resilient, but "considerable uncertainty" on long-term valuations |
+| Terminal value | "Current prices don't reflect the terminal value uncertainty or the pressure on free cash flow" |
+
+### Portfolio positioning (Jan 2026)
+
+| Allocation | Holdings |
+|------------|----------|
+| Top 10 | 7 of 10 are semiconductor companies |
+| Largest position | [[NVIDIA]] (~10% of fund) |
+| Bullish | Networking, fiber optics, power/energy infrastructure for data centers |
+| Added | [[Cloudflare]], [[Snowflake]] (infrastructure software) |
+| Neutral | Cybersecurity |
+| Total infra software + cyber | <7% of fund |
+
+### The SBC squeeze — second-order damage
+
+Stock-based compensation creates a vicious cycle when share prices fall: employees' equity comp loses value → management must pay more cash to retain talent → free cash flow compressed → further stock decline. Acquiring AI startups to stay competitive adds to the financial strain.
+
+### Infrastructure software divergence
+
+![[bloomberg-infra-software-recovery.png]]
+*iShares Expanded Tech-Software ETF vs [[Datadog]] and [[Cloudflare]] since Dec 31, 2025. Infrastructure software recovering from lows while broader software ETF down ~22%. Source: Bloomberg.*
+
+Evans' distinction: application software (seats, workflows) is existentially threatened. Infrastructure software (plumbing — CDN, observability, data platforms) benefits from AI traffic growth. [[Datadog]] +10% on earnings, [[Fastly]] more than doubled.
+
+### JPMorgan counterpoint
+
+[[JPMorgan]] strategists argued software stocks could rebound following "extreme price action." They favor [[Microsoft]] and [[ServiceNow]]. Evans disagrees on ServiceNow.
+
+*Source: Bloomberg, Feb 27 2026*
+
+---
+
 ## Related
 
 - [[AI disintermediation]] — the core concept driving all sub-events
+- [[Polar Capital]] — Evans' fund ($12B, 99th percentile)
 - [[AI workflow disruption basket]] — the basket tracking correlated victims
 - [[Claude Cowork disruption February 2026]] — the initial trigger (Week 1)
 - [[Insurify insurance broker selloff February 2026]] — insurance contagion (Week 2)

@@ -225,6 +225,26 @@ Samsung has locked multi-year [[HBM]] supply deals with AI hyperscalers, guarant
 
 This contributes to [[HBM economics]] — consumer DRAM getting squeezed as capacity shifts to HBM. See [[Memory squeeze thesis]].
 
+### HBM4 pricing (Feb 27, 2026)
+
+Samsung negotiating **~$700/unit** for HBM4 — **30% above** previous generation (Chosun Ilbo). Stock hit fresh record high (+5.4%).
+
+| Metric | Value |
+|--------|-------|
+| HBM4 unit price | **~$700** (Samsung) |
+| vs HBM3E | +30% |
+| Operating margin | **50-60%** (Bloomberg Intelligence, Masahiro Wakasugi) |
+| [[SK Hynix]] HBM4 price | Mid-$500s (set Aug 2025 for [[NVIDIA]]) — may raise to match |
+| Samsung HBM4 status | Mass production started, commercial shipments underway |
+
+Bloomberg Intelligence: "The gap between ASPs for Samsung and [[SK Hynix]] will be smaller in 2026 if Samsung supplies more HBM chips to [[NVIDIA]], as those prices should be higher than for other customers."
+
+Samsung regaining pricing leverage at the premium end after initially falling behind [[SK Hynix]] in HBM. Saxo Markets (Charu Chanana): "sign that the AI memory market is still tight."
+
+**Korea market context:** Kospi **+34% YTD** — world's best-performing stock market, driven by [[Memory shortage 2025-2026|memory shortage]] tailwind.
+
+*Source: Bloomberg, Feb 27 2026*
+
 ---
 
 ## For theses
