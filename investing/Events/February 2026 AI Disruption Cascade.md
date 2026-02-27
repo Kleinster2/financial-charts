@@ -14,6 +14,20 @@ The unifying thesis: **AI is collapsing the value of intermediation** — busine
 
 ---
 
+## Synthesis
+
+Four weeks in, the cascade has revealed its true structure: this is not a panic — it's a repricing of the entire intermediation layer of the economy, and the market is still sorting winners from losers in real time.
+
+The sell side initially called it overdone ([[JPMorgan]]: "sentenced before trial"). Then Anthropic's own partnership announcements on Feb 24 flipped the narrative from "AI replaces software" to "AI augments software," bouncing [[Thomson Reuters]] +11% and [[Salesforce]] +4% in a day. But the bounce didn't stick for application software — [[Polar Capital]]'s Nick Evans (99th percentile fund, $12B AUM) has liquidated all app software positions and says most companies will go the way of newspapers. [[Workday]] beat on every metric and still trades -50% from 2024 highs. The market is pricing terminal value destruction 3-5 years out while current fundamentals are fine — median public software GAAP net income margin is just 5%, so there's no earnings floor to catch the falling knife.
+
+The key distinction that's emerging: **application software** (seats, workflows — [[Intuit]], [[ServiceNow]], [[Salesforce]], [[Adobe]]) faces existential risk. **Infrastructure software** (plumbing — [[Cloudflare]], [[Datadog]], [[Snowflake]], [[Fastly]]) benefits from AI traffic growth and is recovering while the broader software ETF stays down 22%. SOX vs IGV divergence: ~77 percentage points. The rotation into hardware, energy, and infrastructure is accelerating.
+
+The structural vulnerability is the SBC vicious cycle: stock-based compensation loses value as shares fall → companies must pay more cash → free cash flow compressed → stock falls further. Add the cost of acquiring AI startups to stay competitive and many SaaS businesses face a financial squeeze even if revenues hold.
+
+Unresolved: Is the Anthropic partnership model (AI labs *need* software companies' data and compliance) a durable moat, or just a slower path to the same disintermediation? The [[Intuit]] deal — Claude embeds Intuit's domain expertise via [[MCP]] — is the template. Both sides benefit today. But if Claude becomes the interface and Intuit becomes a back-end data provider, Intuit's pricing power erodes over time. The cascade may have paused, but the structural question remains open.
+
+---
+
 ## Catalyst
 
 **January 30, 2026:** [[Anthropic]] launched **Cowork Plugins** — 11 open-source, job-specific plugins targeting legal, sales, marketing, financial, and data workflows. This made AI disruption of white-collar work tangible and immediate, not theoretical.

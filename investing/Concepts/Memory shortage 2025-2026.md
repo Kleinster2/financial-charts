@@ -4,6 +4,20 @@ Severe DRAM/NAND shortage driving prices up — and availability may become the 
 
 ---
 
+## Synthesis
+
+This is no longer a shortage — it's a structural reallocation of the world's memory supply toward AI, with no reversal mechanism in sight. Every new data point since Q3 2025 has confirmed and *accelerated* the thesis rather than moderating it.
+
+The core dynamic is irreversible on any near-term horizon: [[HBM]] for AI accelerators consumes 23% of DRAM wafer output (up from 19% in 2025) and is heading higher. Each [[NVIDIA]] NVL72 rack uses enough memory for 1,000 smartphones. [[Samsung]], [[SK Hynix]], and [[Micron]] are rationally prioritizing HBM at 50-60% operating margins over commodity DRAM — and Samsung is now pricing HBM4 at $700/unit, 30% above the prior generation. No manufacturer is rushing back to consumer DRAM despite high commodity prices, because hyperscaler contracts are more attractive.
+
+The victims are concrete and growing: IDC projects the worst smartphone decline ever (-12.9% in 2026), [[Sony]] is delaying PS6 to 2028-29, [[Xiaomi]] and Transsion have cut 115M units combined, and DRAM now accounts for 20-30% of smartphone bill of materials (up from 10%). [[Tesla]]'s Musk is talking about building his own memory fab. [[Cisco]] posted its worst share loss in four years. The "China will flood the market with cheap memory" counternarrative is dead — [[ChangXin Memory|CXMT]] can't compete without EUV and is pivoting to serve domestic AI demand instead.
+
+The supercycle framing is now consensus: [[Micron]] calls it the "most significant supply-demand disconnect in 25 years," [[Bank of America]] invokes the 1990s boom, and new fabs take 2-3 years to build. Pricing power is confirmed at the premium end. The question is no longer *whether* the shortage persists but *how long* — and every indicator says through 2027 at minimum.
+
+**Position:** Bullish memory makers ([[SK Hynix]], [[Samsung]], [[Micron]]), bearish consumer electronics OEMs without pricing power. Taiwan specialty names ([[Nanya Technology]], [[Winbond Electronics]]) are surprise beneficiaries as the Big Three exit commodity DRAM.
+
+---
+
 ## The situation
 
 - Spot and contract prices rising for multiple quarters

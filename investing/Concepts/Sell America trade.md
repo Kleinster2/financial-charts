@@ -2,6 +2,18 @@
 
 The simultaneous selling of US equities, [[Treasuries]], and the dollar—a correlation break signaling capital leaving the US entirely rather than rotating to safety within US markets.
 
+## Synthesis
+
+The "Sell America" trade is a real phenomenon with a fragile foundation. It has fired twice — April 2025 (Liberation Day) and January 2026 (Greenland tariffs) — and both times the pattern was unmistakable: equities, Treasuries, and dollar all falling simultaneously. The DXY lost 9.6% in 2025, its worst year since 2017. 93% of countries outperformed the US in early 2026.
+
+But the fundamental case for actually divesting from the US is weak. US companies generated $6.7T more revenue than European peers last year — $4.6T even excluding Big Tech. They invested $9T in R&D and capex over five years vs Europe's $4.7T. Europe's FCF margin catch-up came from *spending less*, not operating better — and consensus expects the US to pull further ahead through 2029 (8% revenue growth vs 6%, 13% FCF margin expansion vs 4%). [[UBS]] CEO Ermotti called full divestment a "dangerous bet."
+
+The trade works as a *tactical signal* — when DXY and Treasury yields decouple (correlation flips negative), capital is leaving America and traditional 60/40 portfolios lose their hedge. It's worth monitoring and trading around. But as a *structural allocation shift*, it faces a $7T revenue gap, a $4.3T R&D investment gap, and a negative feedback loop where European underinvestment erodes the very fundamentals that would justify reallocation. Europe's edge is valuation (lower multiples) and yield (higher dividends) — real advantages, enough for [[BlackRock]] and [[UBS]] to project higher near-term returns. But the long-term trajectory of European business points in an unfavorable direction without fresh capital and policy reform.
+
+**Watch for:** The trade re-fires on every new tariff threat, fiscal scare, or geopolitical provocation. The question isn't whether it happens again — it will — but whether it ever becomes *permanent* rather than episodic.
+
+---
+
 ## What makes it distinctive
 
 In normal risk-off episodes:
