@@ -93,6 +93,7 @@ The implication: in an earnings-driven market (vs multiple-expansion), index ret
 ## Related
 
 ### Sister concepts
+- [[Market internals framework]] — positions dispersion as one of four orthogonal dimensions (with breadth, correlation, volatility) for reading market structure
 - [[Breadth divergence]] — measures direction count vs dispersion's magnitude; both elevated now, signaling healthy rotation not a narrow top
 - [[Sector rotation]] — the mechanism through which dispersion manifests (money leaving tech, entering other sectors)
 

@@ -203,6 +203,7 @@ See [[Sector rotation]] for current rotation dynamics.
 ## Related
 
 ### Sister concepts
+- [[Market internals framework]] — positions breadth as one of four orthogonal dimensions for reading market structure; includes redundancy analysis of breadth indicators
 - [[Sector rotation]] — current rotation uses breadth to distinguish from selloff
 - [[Single stock dispersion]] — measures magnitude of moves (how far) vs breadth's direction count (how many); both elevated in Feb 2026
 
