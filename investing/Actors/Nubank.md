@@ -12,12 +12,26 @@ aliases: [Nu Holdings, NU]
 | Metric | Value |
 |--------|-------|
 | Ticker | NU (NYSE) |
-| Market cap | ~$60B |
-| Customers | 100M+ |
+| Market cap | ~$70B |
+| Customers | 131M |
 | HQ | São Paulo, [[Brazil]] |
 | Founded | 2013 |
 
 Largest digital bank outside [[China]].
+
+---
+
+## Price history
+
+![[nu-vs-meli-price-chart.png]]
+*NU since IPO (Dec 2021). IPO at ~$9, bottomed at ~$3.50 (mid-2022), recovered to $18+ before Feb 2026 selloff to $15.06 (-9.5% on Q4 cost concerns). +67% from IPO price despite the decline.*
+
+---
+
+## Fundamentals
+
+![[nu-fundamentals-chart.png]]
+*NU quarterly revenue and net income. Revenue hockey-sticking toward $5B/quarter. Net income turned positive mid-2023 and accelerated through ~$895M in Q4 2025. Alpha Vantage data through Q3 2025; Q4 2025 ($4.86B rev, $895M net income) not yet reflected.*
 
 ---
 
@@ -98,9 +112,9 @@ Stock fell -9.55% to $15.06 on Feb 26 despite the beat. Concerns: rising costs, 
 
 | Metric | Recent |
 |--------|--------|
-| Revenue | ~$10B run rate |
-| Net income | Profitable since 2023 |
-| ROE | Improving |
+| Revenue | ~$19.4B annualized (Q4 2025: $4.86B) |
+| Net income | $895M (Q4 2025), profitable since 2023 |
+| ROE | 33% (Q4 2025) |
 
 ---
 
@@ -144,7 +158,7 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 | Metric | Value |
 |--------|-------|
 | Ticker | NU (NYSE) |
-| Market cap | ~$60B |
+| Market cap | ~$70B |
 | Customers | 131M |
 | Geography | [[Brazil]], [[Mexico]], Colombia |
 
@@ -160,4 +174,4 @@ Vélez is Colombian, [[Stanford]]/Sequoia background.
 
 ---
 
-*Created 2026-01-16*
+*Created 2026-01-16 | Updated 2026-02-26*
