@@ -6,31 +6,45 @@
 
 ---
 
-## The family: breadth, dispersion, rotation, divergence
+## The family: concepts, indicators, patterns
 
-These terms get used interchangeably but measure different things.
+These terms get used interchangeably but operate at three distinct layers.
 
-**Breadth** is the parent concept — *how many stocks are participating?* Everything below is either a measure of breadth or a pattern that emerges from it.
+| Layer | What it answers | Examples |
+|-------|----------------|----------|
+| **Concept** | What are we measuring? | Breadth, [[Single stock dispersion\|dispersion]] |
+| **Indicator** | How do we measure it? | A/D line, McClellan Oscillator, RSP/SPY spread, % above 200 DMA |
+| **Pattern** | What does the data tell us? | Divergence, [[Sector rotation\|rotation]], confirmation |
 
-**Advance/Decline (A/D)** is the simplest breadth indicator — counting how many stocks went up vs down. Binary: up or down, regardless of magnitude. The cumulative A/D line tracks this over time.
+### Concepts
 
-**[[Single stock dispersion|Dispersion]]** is fundamentally different. It measures *how far* stocks move, not *how many*. You can have high breadth (most stocks rising) with low dispersion (all rising ~2%) or high breadth with high dispersion (some up 25%, others down 30%, but more winners than losers).
+**Breadth** — *how many* stocks are participating in a move. The question is directional: are most stocks going up or down?
 
-**Divergence** is a pattern, not a metric — what happens when breadth and the index disagree. Index making new highs while the A/D line makes lower highs = bearish divergence. It's a warning signal, not a market regime.
+**[[Single stock dispersion|Dispersion]]** — *how far* individual stocks move relative to the index. You can have high breadth with low dispersion (most stocks up ~2%) or high breadth with high dispersion (some up 25%, others down 30%, but more winners than losers). They're independent dimensions.
 
-**[[Sector rotation|Rotation]]** is the mechanism that *produces* the breadth and dispersion readings. Money leaving one sector and entering another shows up as high dispersion (big moves both ways) with decent breadth (more winners than losers) while the index stays flat.
+### Indicators
 
-**RSP** (Invesco S&P 500 Equal Weight ETF) is the trade expression. SPY is cap-weighted ([[Mega-cap tech acronyms|Mag 7]] ≈ 30%), RSP weights every stock equally. RSP vs SPY spread is the real-time scoreboard for breadth — when RSP outperforms, the average stock is beating the mega-caps.
+Indicators are the instruments that *measure* the concepts.
 
-### How they connect
+| Indicator | Measures | How |
+|-----------|----------|-----|
+| A/D line | Breadth | Cumulative count of advancers minus decliners. Binary — magnitude doesn't matter |
+| McClellan Oscillator | Breadth momentum | EMA of A/D spread. Like MACD for breadth |
+| % above 200 DMA | Breadth (long-term) | Share of stocks in uptrends. Threshold: >50% = bullish |
+| New highs vs new lows | Breadth (extremes) | Counts at the tails of the distribution |
+| RSP vs SPY spread | Breadth + dispersion | Equal-weight vs cap-weight return gap. SPY overweights [[Mega-cap tech acronyms\|Mag 7]] (~30%); RSP treats every stock equally. When RSP outperforms, the average stock is beating the mega-caps |
+| Cross-sectional return σ | Dispersion | Standard deviation of individual stock returns around the index. The pure dispersion metric |
+| ±20% constituent count | Dispersion | How many stocks made extreme moves. Cruder but intuitive |
 
-```
-Rotation (mechanism)
-  → produces Breadth (participation) + Dispersion (magnitude)
-    → measured by A/D line, % above MA, etc.
-    → expressed via RSP vs SPY spread
-    → Divergence = warning pattern when breadth contradicts index
-```
+### Patterns
+
+Patterns are what you *infer* from the indicators — they describe market regimes, not quantities.
+
+**Divergence** — breadth indicators and the index moving in opposite directions. Index new highs + A/D lower highs = bearish divergence (top forming). Index new lows + A/D higher lows = bullish divergence (bottom forming).
+
+**[[Sector rotation|Rotation]]** — money leaving one sector and entering another. Shows up as high dispersion (big moves both ways) with decent breadth (more winners than losers) and a flat index. Not a selloff — a leadership change.
+
+**Confirmation** — breadth and the index agreeing. Both rising = healthy trend. Both falling = genuine weakness.
 
 ### Feb 2026 regime
 
