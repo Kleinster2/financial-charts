@@ -154,6 +154,12 @@ class NoteChecker:
             return "thesis"
         return "unknown"
 
+    @staticmethod
+    def _extract_ticker(content: str) -> str | None:
+        """Extract primary ticker symbol from Quick stats table."""
+        m = re.search(r"Ticker\s*\|\s*([A-Z][A-Z0-9.]{0,9})", content)
+        return m.group(1) if m else None
+
     def _is_public_company(self, content: str) -> bool:
         """Check if note is for a public company.
 
@@ -593,7 +599,16 @@ aliases: []
 
         if not has_price_chart and not has_chart_exemption:
             chart_type = "ETF" if is_etf else "Public company"
-            issues.append(Issue("error", "chart", f"{chart_type} missing price chart"))
+            ticker = self._extract_ticker(content)
+            slug = filepath.stem.lower().replace(" ", "-")
+            fix_hint = ""
+            if ticker:
+                fix_hint = (
+                    f". Fix: generate via /api/chart/image?ticker={ticker}&primary={ticker}"
+                    f" -> save as investing/attachments/{slug}-price-chart.png"
+                    f" and embed with ![[{slug}-price-chart.png]]"
+                )
+            issues.append(Issue("error", "chart", f"{chart_type} missing price chart{fix_hint}"))
 
         return issues
 
@@ -611,7 +626,17 @@ aliases: []
         ))
 
         if not has_fundamentals and not has_exemption:
-            issues.append(Issue("error", "chart", "Company missing fundamentals chart"))
+            ticker = self._extract_ticker(content)
+            slug = filepath.stem.lower().replace(" ", "-")
+            fix_hint = ""
+            if ticker:
+                fix_hint = (
+                    f". Fix: ensure fundamentals exist (fetch_fundamentals.py {ticker}),"
+                    f" then generate via /api/chart/lw?tickers={ticker}&metrics=revenue,netincome"
+                    f" -> save as investing/attachments/{slug}-fundamentals-chart.png"
+                    f" and embed with ![[{slug}-fundamentals-chart.png]]"
+                )
+            issues.append(Issue("error", "chart", f"Company missing fundamentals chart{fix_hint}"))
 
         return issues
 
@@ -623,7 +648,13 @@ aliases: []
         has_chart = bool(re.search(r'!\[\[.*\.png\]\]', content))
 
         if not has_chart:
-            issues.append(Issue("error", "chart", "Product missing usage chart (MAU, DAU, GMV, etc.)"))
+            slug = filepath.stem.lower().replace(" ", "-")
+            fix_hint = (
+                f". Fix: generate via /api/chart/lw?product={filepath.stem}&product_metrics=global_mau,revenue"
+                f" -> save as investing/attachments/{slug}-usage-chart.png"
+                f" and embed with ![[{slug}-usage-chart.png]]"
+            )
+            issues.append(Issue("error", "chart", f"Product missing usage chart (MAU, DAU, GMV, etc.){fix_hint}"))
 
         return issues
 
