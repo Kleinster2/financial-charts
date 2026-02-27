@@ -77,10 +77,29 @@ Netflix stock rose on the news — the market read it as avoiding an overpriced 
 
 ---
 
-## Open questions (as of Feb 26)
+## Why WBD isn't trading at $31 (Feb 27)
 
-- Will Paramount actually close? Financing structure ($1.5B junior lien fee), debt load, and integration complexity remain
-- Shareholder vote March 20 — will activists try to block?
+WBD closed ~$28.90 — a ~7% spread to the $31 deal price. The market isn't doubting the deal happens; it's pricing the risk and the wait.
+
+**1. Shareholder vote (March 20):** Not a rubber stamp. Ancora Holdings and Pentwater Capital may still oppose. Proxy fights can delay or create noise even if they don't kill the deal.
+
+**2. DOJ antitrust:** Combining two major studios (Warner Bros + Paramount) is significant horizontal content consolidation. Paramount cleared HSR second request, but full DOJ review is ongoing. Timeline uncertain — deal expected Q3-Q4 2026, that's 6-9 months of carry.
+
+**3. The $7B reverse breakup fee tells you something:** Paramount committed a massive regulatory break fee. They wouldn't do that if antitrust clearance were a formality. The market reads this as real risk.
+
+**4. Financing risk:** $111B all-cash deal. Paramount needs to finance this in credit markets that are tightening — IG spreads widening, private credit under stress. [[Larry Ellison]]'s $40B personal equity guarantee helps, but the debt portion still needs to get done.
+
+**5. Time value of money:** Even if the deal closes at $31, capital is locked for 6-9 months. At current rates, ~7% annualized spread is roughly market-rate merger arb return — not a screaming discount, just fair compensation for the duration and risk.
+
+Bottom line: the spread is pricing it about right for a deal with real regulatory/vote/financing hurdles and a long close timeline. It's not skepticism about *whether* — it's pricing the *when* and the *what if*.
+
+---
+
+## Open questions (as of Feb 27)
+
+- Shareholder vote March 20 — will activists try to block or extract concessions?
+- DOJ timeline — how long for full antitrust review of horizontal studio consolidation?
+- Paramount financing execution in tightening credit markets
 - What does Paramount do with [[Linear TV]] assets (CNN, TBS, TNT, Discovery)?
 - Will Netflix pursue alternative studio acquisitions with the HBO thesis still valid?
 
