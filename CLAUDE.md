@@ -245,6 +245,18 @@ Company, country, and institution actor notes should include an **Evolution** se
 
 Vault prose should be **sharp, not sterile**. Keep the punch and readability of conversational writing. Structure is good (strengths/risks/bull/bear), but don't sand off the edge to sound "professional." This is personal research — it should read like a smart person's honest take, not a consulting deck. If a casual explanation is clearer than a formal one, use the casual one.
 
+### Vault Philosophy
+
+**Super analytical, factual. No assuming before extremely thorough homework.**
+
+The vault is a research engine, not a hot-take factory. Every claim should be backed by data, primary sources, or verified facts. When the story looks obvious, dig deeper — the real insight is usually in the details that surface only after thorough research (e.g., the minute-by-minute Sarandos White House timeline revealed the political dynamics behind what looked like simple "financial discipline"). 
+
+- Don't speculate when you can research
+- Don't summarize when you can get the primary source
+- Don't write "presumably" or "likely" when 10 more minutes of digging would give you the answer
+- When something doesn't add up (price action timing, conflicting narratives), investigate — don't paper over it
+- The vault earns its value by being more thorough than what's freely available. If it's just restating headlines, it's not worth having.
+
 ### Focus Areas
 
 - **AI stack** — chips, infrastructure, hyperscalers, labs
