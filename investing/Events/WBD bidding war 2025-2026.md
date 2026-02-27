@@ -18,9 +18,16 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | Feb 10, 2026 | [[Paramount Global]] sweetens hostile bid to $30/share + 25¢/quarter ticking fee |
 | Feb 17, 2026 | WBD board rejects $30, opens 7-day window; Paramount verbally floats $31 |
 | Feb 20, 2026 | Paramount clears HSR antitrust second request |
-| Feb 23, 2026 | Paramount submits "best and final" — $31/share (market expected ~$32) |
-| Feb 26, 2026 | WBD board declares $31 a "Superior Proposal"; Netflix declines to match |
-| Mar 20, 2026 | Scheduled shareholder vote on Paramount deal |
+| **Feb 23, late evening** | Paramount submits "best and final" $31/share at end of 7-day window |
+| **Feb 25, during market** | News leaks WBD board likely to declare Superior Proposal. NFLX +6% on anticipation |
+| **Feb 26, pre-market** | WBD board formally declares $31 a "Superior Proposal." Netflix given 4 business days (until Mar 4, 11:59 PM ET) to match |
+| **Feb 26, same day** | [[Ted Sarandos]] at the White House. Netflix declines immediately — doesn't use the 4-day window. Collects $2.8B breakup fee |
+| **Feb 26, after-hours** | NFLX +10% AH, PSKY +5%, WBD -2% |
+| **Feb 27, market open** | NFLX gaps to $94.40, rallies to $96.75, closes **$96.24 (+13.8%)** on **191M shares** (5× normal vol). Best day since Jan 2025 |
+| **Feb 27, afternoon** | Paramount and WBD formally announce the **$110B merger agreement** |
+| Mar 2, 8:30 AM ET | Paramount conference call / webcast on deal details |
+| Early spring 2026 | Shareholder vote expected |
+| Q3 2026 | Expected close (subject to regulatory + shareholder approval) |
 
 ---
 
@@ -31,10 +38,52 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | Price/share | $27.75 | $31.00 |
 | Structure | All-cash | All-cash |
 | Scope | Studios + HBO only | Entire company |
-| Enterprise value | ~$83B | ~$77B EV |
+| Enterprise value | ~$83B | **~$110B** |
 | Discovery Global | Spins off separately | Included |
 | Antitrust risk | Lower (vertical: distribution + production) | Higher (horizontal media consolidation) |
-| Financial backstop | Netflix balance sheet | [[Larry Ellison]] $40B personal equity guarantee |
+| Financial backstop | Netflix balance sheet | [[Larry Ellison]] family + RedBird Capital ($47B equity) |
+
+---
+
+## Formal deal terms (announced Feb 27, 2026)
+
+### Financing
+
+| Component | Amount | Source |
+|-----------|--------|--------|
+| **Equity** | **$47B** | Ellison Family + RedBird Capital Partners (fully committed). May include PIF (Saudi Arabia), L'imad Holding (Abu Dhabi), QIA (Qatar) at closing |
+| **New debt** | **$39B** | BofA, Citigroup, Apollo |
+| **WBD bridge backstop** | $15B | BofA, Citigroup, Apollo (backstops existing WBD bridge facility) |
+| **Revolver backstop** | $3.5B | BofA, Citigroup, Apollo |
+| **Total** | **~$110B** | |
+
+New Paramount Class B shares issued at **$16.02/share** to equity investors.
+
+**Who pulled out:** Jared Kushner's Affinity Partners withdrew. Tencent (China) also withdrew.
+
+### Operational commitments
+
+| Commitment | Detail |
+|-----------|--------|
+| Theatrical output | **30 films/year minimum** (15 per studio) |
+| Theatrical windows | **45-day minimum** globally + standard home video window before streaming |
+| Cost synergies | **$6B+** (technology integration, procurement, real estate consolidation, streaming stack merge) |
+| Combined library | **15,000+ film titles** + thousands of hours of TV |
+| Layoffs | "Thousands" expected (industry consensus) |
+
+### Combined content assets
+
+**Film franchises:** Harry Potter, Mission Impossible, Lord of the Rings, Game of Thrones, DC Universe, TMNT, Transformers, Star Trek, SpongeBob
+
+**Sports rights:** NFL, Olympics, UFC, PGA Tour, NHL, Big Ten, Big 12 Football, NCAA Basketball, Champions League
+
+**Cable networks:** CNN, TBS, TNT, HGTV, Discovery Channel + Discovery international (200+ countries)
+
+### Key quotes
+
+**David Ellison (Paramount CEO):** "By bringing together these world-class studios, our complementary streaming platforms, and the extraordinary talent behind them, we will create even greater value for audiences, partners and shareholders."
+
+**David Zaslav (WBD CEO):** "Our guiding principle throughout this process has been to secure a transaction that maximizes the value of our iconic assets and our century-old studio while delivering as much certainty as possible for our investors."
 
 ---
 
@@ -87,7 +136,7 @@ WBD closed ~$28.90 — a ~7% spread to the $31 deal price. The market isn't doub
 
 **3. The $7B reverse breakup fee tells you something:** Paramount committed a massive regulatory break fee. They wouldn't do that if antitrust clearance were a formality. The market reads this as real risk.
 
-**4. Financing risk:** $111B all-cash deal. Paramount needs to finance this in credit markets that are tightening — IG spreads widening, private credit under stress. [[Larry Ellison]]'s $40B personal equity guarantee helps, but the debt portion still needs to get done.
+**4. Financing risk:** $110B deal requiring $39B in new debt + $15B bridge backstop from BofA/Citi/Apollo — in credit markets that are tightening (IG spreads widening, private credit under stress). The $47B equity commitment from Ellison/RedBird is solid, but $54B+ of debt still needs to get placed. The Kushner and Tencent withdrawals aren't confidence-inspiring.
 
 **5. Time value of money:** Even if the deal closes at $31, capital is locked for 6-9 months. At current rates, ~7% annualized spread is roughly market-rate merger arb return — not a screaming discount, just fair compensation for the duration and risk.
 
@@ -97,7 +146,8 @@ Bottom line: the spread is pricing it about right for a deal with real regulator
 
 ## Open questions (as of Feb 27)
 
-- Shareholder vote March 20 — will activists try to block or extract concessions?
+- Shareholder vote early spring — will activists try to block or extract concessions?
+- Paramount conference call **Mon Mar 2, 8:30 AM ET** — watch for detail on financing terms, synergy timeline, integration plan
 - DOJ timeline — how long for full antitrust review of horizontal studio consolidation?
 - Paramount financing execution in tightening credit markets
 - What does Paramount do with [[Linear TV]] assets (CNN, TBS, TNT, Discovery)?
@@ -112,7 +162,7 @@ Bottom line: the spread is pricing it about right for a deal with real regulator
 - [[Warner Bros Discovery]] — target
 - [[Paramount Global]] — winning bidder
 - [[Skydance Media]] — Paramount's parent post-merger
-- [[Larry Ellison]] — $40B equity guarantee
+- [[Larry Ellison]] — $47B equity commitment (with RedBird)
 - [[David Ellison]] — Skydance CEO, Paramount-Skydance merger architect
 - [[Ted Sarandos]] — Netflix co-CEO
 
@@ -126,4 +176,4 @@ Bottom line: the spread is pricing it about right for a deal with real regulator
 
 ---
 
-*Created 2026-02-26*
+*Created 2026-02-26. Updated 2026-02-27 with formal deal terms, financing structure, tick-tock timeline.*
