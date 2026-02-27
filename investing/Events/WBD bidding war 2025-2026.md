@@ -22,8 +22,8 @@ The contest for [[Warner Bros Discovery]] — [[Netflix]]'s $27.75/share carve-o
 | **Feb 25, during market** | News leaks WBD board likely to declare Superior Proposal. NFLX +6% on anticipation |
 | **Feb 26, pre-market** | WBD board formally declares $31 a "Superior Proposal." Netflix given 4 business days (until Mar 4, 11:59 PM ET) to match |
 | **Feb 26, same day** | [[Ted Sarandos]] at the White House. Netflix declines immediately — doesn't use the 4-day window. Collects $2.8B breakup fee |
-| **Feb 26, after-hours** | NFLX +10% AH, PSKY +5%, WBD -2% |
-| **Feb 27, market open** | NFLX gaps to $94.40, rallies to $96.75, closes **$96.24 (+13.8%)** on **191M shares** (5× normal vol). Best day since Jan 2025 |
+| **Feb 26, close** | NFLX $84.59 (+2.3% on the day). Muted regular session — the walkaway news hit late |
+| **Feb 27 (Fri), market open** | NFLX gaps up to $94.40 (overnight +11.6%), rallies to $96.75, closes **$96.24 (+13.8%)** on **191M shares** (5× normal vol). Best day since Jan 2025. WBD $28.26 (-1.9%) |
 | **Feb 27, afternoon** | Paramount and WBD formally announce the **$110B merger agreement** |
 | Mar 2, 8:30 AM ET | Paramount conference call / webcast on deal details |
 | Early spring 2026 | Shareholder vote expected |
