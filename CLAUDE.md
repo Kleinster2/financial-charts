@@ -216,6 +216,10 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 - Private companies must be tagged appropriately in frontmatter
 - Always include a funding rounds table where funding data exists — this applies to private companies and to the pre-IPO history of public companies
 
+### Synopsis Section (Actor Notes)
+
+Every actor note (non-stub) must include a **Synopsis** section immediately after the frontmatter/one-liner intro and before Quick stats. This is a 2-4 paragraph dense summary that gives the reader the full picture without scrolling: what the entity is, the deal/structure mechanics if relevant, why it matters (valuation unlock, thesis, market opportunity), and the key risk. Write it as sharp prose with hard numbers — not a teaser, but a self-contained briefing. If someone reads only the synopsis, they should understand the investment case.
+
 ### Evolution Section (Actor Notes)
 
 Company, country, and institution actor notes should include an **Evolution** section that tells the full story of how the entity became what it is today. This is narrative history with analytical teeth — not a bullet-point timeline, but a chronological account where each entry explains *why* that moment mattered and what it caused.
