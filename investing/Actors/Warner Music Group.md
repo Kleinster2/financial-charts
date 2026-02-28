@@ -120,11 +120,11 @@ Morgan Stanley upgraded WMG to Overweight (Dec 2025), PT $37 — citing accelera
 - Kyncl's digital DNA (YouTube veteran)
 
 **Bear:**
-- Dual-class = zero governance rights for public holders
+- Dual-class = zero governance rights for public holders (see [[MFW framework]])
 - Smallest of Big Three — subscale in some markets
 - $4B debt load limits M&A flexibility
 - 23% profit decline in FY2025 (restructuring pain)
-- Blavatnik could take private again at unfavorable price
+- Blavatnik could take private again at unfavorable price — [[MFW framework]] gives him a legal roadmap
 - Short-form video platforms resisting licensing fees (TikTok precedent)
 
 ---
