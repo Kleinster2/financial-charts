@@ -120,16 +120,31 @@ Stock fell -9.55% to $15.06 on Feb 26 despite the beat. Concerns: rising costs, 
 
 ---
 
-## History
+## Evolution
 
-| Year | Event |
-|------|-------|
-| 2013 | Founded by David Vélez |
-| 2014 | Launched credit card |
-| 2017 | Launched bank account |
-| 2021 | IPO at $41B valuation (last Brazilian IPO until [[PicPay]] Jan 2026) |
-| 2023 | First profitable year |
-| 2024 | 100M customers milestone |
+The story of Nubank is the story of a Colombian outsider who looked at Brazil's banking oligopoly — the most profitable and most hated in the world — and decided to burn it down with a credit card and a smartphone app.
+
+- 1982-2012: David Vélez is born in Medellín, Colombia in 1982. When he's nine, his family flees to Costa Rica to escape cartel violence — his father had eleven siblings, each running their own business, and they were targets. Vélez eventually makes it to Stanford (undergrad '05) and Stanford GSB (MBA '12), with stints at [[Morgan Stanley]] (investment banking), [[General Atlantic]] (private equity), and [[Sequoia Capital]] (venture partner). At Sequoia, he's assigned to scout Latin American opportunities. He spends time in São Paulo and discovers something astonishing: Brazil's five big banks — [[Itaú Unibanco]], [[Bradesco]], [[Banco do Brasil]], [[Santander Brasil]], and Caixa — control 80%+ of deposits. Credit card interest rates top 160% annually. Personal loan rates hit 70%. Banking fees are among the highest on earth. And Brazilians *hate* their banks — customer satisfaction is abysmal. Yet no one has challenged the oligopoly because Brazilian regulation makes it nearly impossible: a constitutional provision bars foreign bank ownership, and a banking charter requires years of regulatory navigation. Vélez sees the opportunity and leaves Sequoia to pursue it himself
+
+- 2013-2014: Vélez co-founds Nubank in May 2013 with Brazilian Cristina Junqueira (ex-[[Itaú Unibanco]], where she saw the dysfunction from inside) and American Edward Wible (engineer). They can't start with bank accounts — the charter barrier is too high. Instead, they launch with a credit card: no annual fee, managed entirely through a mobile app, with real-time transaction tracking. In Brazil, where banks charge annual fees on everything and customer service requires physical branches, this is revolutionary. [[Sequoia Capital]] leads the $14.3M Series A in September 2014 — Sequoia's first-ever investment in Brazil. The story goes that Vélez brought the paperwork to the hospital for Junqueira to sign *while she was in labor with her first child*. First Nubank card transaction: April 1, 2014
+
+- 2015-2017: Viral growth through word of mouth. Nubank doesn't advertise — the purple card becomes a status symbol among young Brazilians who share their experience on social media. The waitlist creates FOMO. [[Tiger Global]] leads the Series B (June 2015). By 2017, Nubank launches NuConta — a digital bank account — and a loyalty program. The product expansion is deliberate: start with the credit card (low regulatory barrier, high pain point), build trust, then add banking services. Total funding crosses R$600M. The big banks notice but dismiss it: "digital banks can't handle credit risk" is the consensus. The Brazilian Central Bank, to its credit, begins actively supporting fintech competition through open banking initiatives — the regulator becomes an unlikely ally against the oligopoly it's supposed to oversee
+
+- 2018 (unicorn): [[Tencent]] buys a minority stake for $180M in October (half capital increase, half secondary shares), valuing Nubank at $4B — Brazil's third unicorn. Nubank launches debit payments. The Guinness Book records Nubank's new card design unboxing as the world's largest. At this point, Nubank has ~5M customers and still isn't profitable — but the growth curve is vertical and the unit economics are improving because the entire business runs on a modern tech stack (built on [[Clojure]], a functional programming language — an unusual but deliberate choice that lets a small engineering team move fast)
+
+- 2019-2020: International expansion begins. Nu México launches in May 2019 — Vélez is Colombian, the team is in São Paulo, and now they're entering Mexico, demonstrating that the playbook isn't Brazil-specific but LatAm-universal. Nubank makes its first acquisitions: Plataformatec (software engineering, Jan 2020), Cognitect (creators of Clojure/Datomic, July 2020), and Easynvest (investment brokerage, Sept 2020 — bringing NuInvest into the fold). Colombia operations launch in November 2020. Customer count crosses 30M. Revenue is growing but the company is still losing money — investment in growth over profitability
+
+- 2021 (IPO at the peak): [[Berkshire Hathaway]] leads a $750M Series G in June at a $30B valuation — Warren Buffett backing a Brazilian neobank is the ultimate credibility stamp. IPO on NYSE in December at $9/share, valuing Nubank at $41.5B — making it the most valuable bank in Latin America, ahead of [[Itaú Unibanco]]. On its first day of trading, it's worth more than the incumbent oligarchs it was built to destroy. Cristina Junqueira becomes the second self-made female billionaire in Brazilian history. Berkshire's total investment reaches $1B (pre-IPO + IPO). This is the last significant Brazilian IPO until [[PicPay]] in January 2026. Stock closes first day at $10.33
+
+- 2022 (the crash): Stock collapses from $10+ to $3.50 by mid-2022. The culprit isn't Nubank-specific: Brazil's Selic rate surges from 2% to 13.75% as the central bank fights inflation, BRL weakens, and EM fintech sells off globally. Growth investors who bought the IPO narrative flee. At $3.50, Nubank trades at a $15B market cap — less than half the IPO valuation. Yet the underlying business is accelerating: customers cross 70M, revenue is growing 80%+ YoY, and credit losses are within targets. The stock-price crash is a macro event, not a fundamental one
+
+- 2023 (profitability): The inflection point. Nubank posts its first full profitable year — $1.03B in net income on $8B revenue. ROE hits 25%+. Customer count reaches 90M. The unit economics thesis is proven: at scale, a digital bank with no branches and an 85% lower cost structure than incumbents can be enormously profitable even in a high-rate environment (actually *because* of it — high rates boost NIM on deposits). Stock recovers from $3.50 to $8-9 by year-end. Nubank begins using GPT-4 for AI-powered credit decisions and virtual customer service — applying to banks in Mexico
+
+- 2024-2025 (escape velocity): Revenue hockey-sticks. Q4 2025 revenue hits $4.86B (annualizing to ~$19.4B), net income $895M (+50% YoY), ROE 33%. Customer count reaches 131M — more than half of Brazil's adult population. 83%+ are monthly active. Mexico crosses 8M customers. Colombia reaches 1M. Nubank receives conditional OCC approval to establish a US national bank (Jan 2026). Stock recovers to $18+ before a Q4 selloff on cost concerns brings it to $15. At ~$70B market cap, Nubank is the largest digital bank outside China and one of the most valuable financial institutions in Latin America
+
+- 2026 (current): Q4 2025 beat on revenue and EPS but stock fell 9.5% on rising cost concerns and BRL/USD pressure. At $15/share, still +67% from the $9 IPO price. The fundamental question: can Nubank maintain 50%+ revenue growth while keeping credit losses manageable as it pushes deeper into lending (personal loans, payroll loans, SMB credit)? The TAM is massive — 650M people in LatAm, most underbanked — but currency risk and Brazil macro remain the swing factors
+
+The arc: Colombian refugee's kid → Stanford/Sequoia → attacks the most profitable banking oligopoly on earth with a purple credit card → viral growth through word-of-mouth → Berkshire backing → $41B IPO → 62% stock crash → proves profitability at 90M customers → 131M customers, $70B market cap, largest digital bank outside China. Vélez didn't just build a bank — he proved that the Brazilian banking oligopoly's profits were a tax on financial exclusion, and that a tech company could extract those profits while giving consumers a better deal.
 
 ---
 
