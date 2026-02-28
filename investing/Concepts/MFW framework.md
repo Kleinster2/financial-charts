@@ -75,7 +75,7 @@ The real risk: a controller who follows MFW perfectly can take you out at a "fai
 ## Related
 
 - [[Warner Music Group]] — Blavatnik's 98% voting control makes this directly relevant
-- [[Dual-class share structures]]
+- [[Dual-class shares]]
 - [[Minority shareholder risk]]
 
 ---
