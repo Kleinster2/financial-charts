@@ -300,6 +300,26 @@ Gross margins on reselling intelligence: 20-80% range, ~50% considered "about ri
 
 ---
 
+## Week 4: Block — the company confirms the thesis (Feb 26)
+
+**[[Block AI layoffs February 2026]]**
+
+| Detail | |
+|--------|---|
+| Trigger | [[Jack Dorsey]] cuts 4,000 employees (~40% of workforce), explicitly attributing to AI |
+| Stock reaction | **+24%** after-hours |
+| Q4 earnings | Gross profit +24% YoY, beat on EPS, guided up for FY2026 |
+| Restructuring charge | $450-500M |
+| Pattern | First major company to **confirm** the cascade thesis from inside — not market repricing, but corporate action |
+
+What sets this apart from every prior sub-event: the cascade started with the *market* repricing companies on AI disruption fears. Block is the first major company to say "the market is right — AI does replace these jobs" and act on it while posting record profits. Dorsey predicted "the majority of companies" would follow within a year.
+
+The +24% stock reaction creates the incentive loop: announce AI cuts → stock pops → other CEOs notice → more cuts. The cascade is no longer just market fear — it's becoming corporate strategy.
+
+See also: [[AI labor displacement]] for the broader pattern of explicit AI-attributed layoffs.
+
+---
+
 ## Open questions
 
 1. **Is the market trigger-happy or prescient?** Transport stocks bounced back quickly. Will software/payments follow, or is this structural?

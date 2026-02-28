@@ -59,6 +59,18 @@ Block bridges payments and crypto:
 
 ---
 
+## February 2026: The 40% cut
+
+On Feb 26, 2026, [[Jack Dorsey]] announced Block would cut ~4,000 employees — 40% of its workforce — explicitly attributing it to AI. Stock surged 24% after-hours. Restructuring charge: $450-500M.
+
+This was not a company in distress. Q4 2025 gross profit grew 24% YoY to $2.87B. FY2026 guide: $12.2B gross profit (+18%), adj EPS $3.66 (beat est. $3.22). Dorsey framed it as permanent structural change and predicted most companies would follow within a year.
+
+Fourth round of cuts since late 2023 (8% → 1,000 → 931 → 4,000), but first to name AI directly. The largest and most explicit [[AI labor displacement]] event to date.
+
+See [[Block AI layoffs February 2026]] for full detail.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -81,15 +93,17 @@ Block bridges payments and crypto:
 
 | Metric | Value |
 |--------|-------|
-| Ticker | SQ (NYSE) |
+| Ticker | XYZ (NYSE, formerly SQ) |
 | Market cap | ~$45B |
-| Revenue (TTM) | ~$22B |
-| Gross profit | ~$8B |
+| Revenue (FY2025) | ~$24B |
+| Gross profit (FY2025) | $10B+ |
+| FY2026 GP guide | $12.2B |
 | Cash App MAU | 55M+ |
+| Employees | ~10,200 → ~6,000 (post Feb 2026 cuts) |
 | Founded | 2009 |
 | CEO | Jack Dorsey |
 
-**Note:** Revenue includes Bitcoin pass-through (low margin). Gross profit better metric.
+**Note:** Revenue includes Bitcoin pass-through (low margin). Gross profit better metric. Ticker changed from SQ to XYZ.
 
 ---
 
@@ -111,4 +125,7 @@ Block bridges payments and crypto:
 - [[Coinbase]] — crypto peer
 - [[Robinhood]] — Cash App competitor
 - [[Crypto]] — Bitcoin focus
+- [[Block AI layoffs February 2026]] — the 40% AI-driven workforce cut
+- [[AI labor displacement]] — the pattern Block exemplifies
+- [[February 2026 AI Disruption Cascade]] — the market context
 
