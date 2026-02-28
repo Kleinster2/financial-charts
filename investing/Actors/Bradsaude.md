@@ -12,6 +12,18 @@ aliases:
 
 ---
 
+## Synopsis
+
+[[Bradesco]]'s new integrated healthcare holding, announced Feb 27 via Brazil's largest-ever reverse IPO on [[B3]]. [[Odontoprev]] (listed since 2006) absorbs all Bradesco health assets and renames itself Bradsaúde S.A. — [[Bradesco]] keeps 91.35%, minorities get 8.65%. No capital raise, no dilution.
+
+R$52B (~$9B) revenue, R$3.6B net profit, 24% ROE, 13M+ beneficiaries across seven components: Bradesco Saúde (flagship insurer, R$41B revenue), [[Odontoprev]] (9M dental clients), Atlântica Hospitais (3,600 beds), Meu Doutor Novamed (35 primary care clinics), Orizon (healthcare AI), Croma Oncologia (cancer JV), and a 25% stake in [[Grupo Fleury]] (diagnostics).
+
+Bradesco Saúde was printing billions but buried in the bank's consolidated P&L. [[BTG Pactual]] estimates the standalone entity trades at 10-12x earnings vs [[Bradesco]]'s 7.6x — could add R$0.80-1.50/share to BBDC4. [[Odontoprev]] surged 26% on the news.
+
+The thesis is verticalization in a massively fragmented market (649 operators, no one above 8% share). Immediate growth vector: 18M Brazilians with health insurance but no dental coverage. TAM R$435B. The risk is that [[Hapvida]]-[[NotreDame Intermédica]] proved vertical healthcare integration is brutal in Brazil (stock -70% post-merger), plus tiny minority float, [[ANS]] regulation pressure, and medical cost inflation.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
