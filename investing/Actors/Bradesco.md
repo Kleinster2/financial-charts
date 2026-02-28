@@ -107,7 +107,7 @@ See [[Bradesco BBI]] for full details on deals, awards, and performance.
 
 2. **[[Fintech]] pressure** — Most exposed of big banks to [[Nubank]]/[[Pix]] disruption.
 
-3. **[[Insurance]] optionality** — Bradesco Seguros is valuable, possibly underappreciated.
+3. **[[Insurance]] optionality** — Now being unlocked via [[Bradsaude|Bradsaúde]] reverse IPO (Feb 2026). R$52B revenue healthcare holdco listed separately on [[B3]].
 
 4. **Credit risk** — Aggressive SME/rural lending in high-rate environment.
 
@@ -118,6 +118,7 @@ See [[Bradesco BBI]] for full details on deals, awards, and performance.
 ## Related
 
 ### Subsidiaries
+- [[Bradsaude|Bradsaúde]] — integrated healthcare holding (R$52B revenue, 13M beneficiaries, reverse IPO Feb 2026)
 - [[Bradesco BBI]] — investment banking arm (winning)
 
 ### Peers
