@@ -5,9 +5,7 @@ tags: [actor, fintech, payments, crypto, usa, public]
 
 # Block
 
-**Block** (NYSE: XYZ, formerly SQ) is an American fintech company built around two ecosystems — [[Square]] for merchants and [[Cash App]] for consumers — plus a growing Bitcoin infrastructure vertical. Founded in 2009 by [[Jack Dorsey]] and [[Jim McKelvey]] after McKelvey couldn't accept a credit card payment for his glass art, Block has evolved from a white dongle card reader into a $30B+ financial services platform processing $250B in annual payments across 95 countries.
-
-The company is now at the center of two colliding narratives: a strong financial business accelerating into lending, banking, and commerce — and the most aggressive AI-driven workforce restructuring in corporate history.
+**Block** — fintech platform spanning merchant payments ([[Square]], $250B GPV, 4.5M sellers) and consumer finance ([[Cash App]], 59M MAU, $1.83B Q4 gross profit growing 33%). FY2025 gross profit hit $10.4B (+17%), guiding $12.2B for 2026 — then [[Jack Dorsey]] cut 40% of the workforce (4,000 jobs) on Feb 26, 2026, explicitly blaming AI, while posting record profits. Stock surged 24% — the market's clearest signal yet that it will reward [[AI labor displacement]]. The bull case: Cash App lending is scaling fast (+223% Q4 Borrow originations), margins are about to expand dramatically (adj op income guided +54%), and buybacks ($2.3B/yr) hit harder at 80% below ATH. The bear case: the [[Afterpay]] acquisition was a $13.9B mistake, Bitcoin revenue is volatile, and the "AI restructuring" narrative may be dressing up years of Dorsey's overhiring. Watch Q1-Q2 execution — can 6,000 people do what 10,000 did?
 
 ---
 
