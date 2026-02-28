@@ -129,3 +129,5 @@ Key concern for institutional investors: Musk's "key-man risk" is amplified when
 - [[Ford]] — Ford family control since 1956
 - [[Alibaba]] — partnership structure, rejected by HKEx
 - [[Council of Institutional Investors]] — "one share, one vote" advocacy
+- [[MFW framework]] — Delaware standard for when controllers exercise their power (squeeze-outs, self-dealing)
+- [[Warner Music Group]] — Blavatnik 98% voting control via [[Access Industries]]
