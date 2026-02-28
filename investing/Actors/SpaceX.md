@@ -35,6 +35,9 @@ The story of SpaceX is the story of a man who wanted to put a greenhouse on Mars
 
 The arc: greenhouse on Mars → laughed out of Russia → $100M personal bet → three failed launches → fourth flight saves everything → ISS resupply → reusable rockets (impossible → routine) → Starlink (launch company → infrastructure company) → first private astronaut launches → $1.25T valuation → space data centers. From $0.10/share to $588/share in 24 years — a 5,880x return. The man who got spat on in Moscow built the most valuable private company in history.
 
+![[spacex-private-price-chart.png]]
+*Split-adjusted price per share across all funding rounds, secondaries, and tender offers (log scale). $0.10 (Series A, 2002) → $588 (Jan 2026 secondary) = 5,880x over 24 years.*
+
 ---
 
 ## Why SpaceX matters
