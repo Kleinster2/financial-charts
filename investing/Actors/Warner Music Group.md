@@ -129,6 +129,12 @@ Morgan Stanley upgraded WMG to Overweight (Dec 2025), PT $37 — citing accelera
 
 ---
 
+## Cultural moments
+
+**Twenty One Pilots: "More Than We Ever Imagined"** (Feb 2026) — IMAX concert film from their Feb 20, 2025 show at Estadio GNP Seguros in Mexico City (65,000+ fans, Clancy World Tour). Shot by Mark Eshleman, who's been with the band since basement shows in Columbus 16 years ago. 9.5 IMDb. Demonstrates the stadium-scale reach of WMG's Fueled by Ramen roster — a band that started self-releasing music in Ohio now filling Latin American mega-venues and getting IMAX theatrical releases.
+
+---
+
 ## Related
 
 - [[Universal Music Group]] — #1 label, 35% share
