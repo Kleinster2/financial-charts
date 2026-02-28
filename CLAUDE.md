@@ -218,10 +218,30 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 
 ### Evolution Section (Actor Notes)
 
-Company, country, and institution actor notes should include an **Evolution** section — the key inflection points that explain why the entity looks the way it does today. Not a full history, but the strategic genealogy: pivotal acquisitions, divestitures, crises, pivots, and regime changes that shaped current positioning.
+Company, country, and institution actor notes should include an **Evolution** section that tells the full story of how the entity became what it is today. This is narrative history with analytical teeth — not a bullet-point timeline, but a chronological account where each entry explains *why* that moment mattered and what it caused.
 
+**Style:** Each bullet is a year or era, written as a dense paragraph. Open with a thesis sentence that frames the arc ("The story of X is the story of Y"). Each entry should:
+- Start with the date/era
+- State what happened
+- Explain *why* it mattered — the strategic logic, the mistake, the consequence
+- Connect to what came before and after (cause → effect chains)
+- Include hard numbers (valuations, GPV, MAU, stock prices) to anchor the narrative
+
+**What to cover:** Founding story, key pivots, acquisitions (with deal terms and whether they worked), leadership changes, crises, stock/valuation inflection points, competitive dynamics, and the current state. Don't skip the failures — a $29B acquisition that closed at $13.9B tells you more about management than five years of revenue growth.
+
+**What NOT to do:**
+- Don't write a dry timeline ("2018: Acquired X for $Y")
+- Don't skip years where nothing happened — if there's a gap, the gap is the story (stagnation, quiet building, etc.)
+- Don't editorialize without evidence — every opinion should be backed by a number or a fact in the same bullet
+
+**Length:** Scale to the company's complexity. A startup with 3 years of history needs 3-4 bullets. A company like Block with 17 years of pivots, acquisitions, and drama needs 10-12 dense paragraphs. The Evolution section can be the longest section in the note — that's fine. The reader should finish it understanding not just *what* the company is, but *how* and *why* it got there.
+
+**Template opening:** "The story of [Company] is the story of [core tension/arc]."
+
+**Reference:** See [[Block]] for the gold standard — founding origin story, IPO discount explained by dual-CEO risk, Cash App pivot from Venmo clone to neobank via Bitcoin/stocks hooks, COVID acceleration, peak-hubris acquisition spree, stock collapse, austerity, and AI restructuring. Each bullet explains something about the present.
+
+**Other rules:**
 - Wikilink to other investing vault entities (companies, products, people) mentioned in the evolution
-- Each bullet should be an inflection point that explains something about the present
 - When a company's evolution connects to a broader theme in the history vault, add a cross-vault URI link
 - Stubs don't need an Evolution section — add it when the note matures beyond a stub
 
