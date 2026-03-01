@@ -32,7 +32,7 @@
 *[[CPER]] · [[DBB]] · [[Copper]] · [[Base metals]]*
 
 ![[dba-vs-corn-vs-weat-vs-soyb-2025.png]]
-*[[DBA]] · [[CORN]] · [[WEAT]] · [[SOYB]] · [[Agriculture]]*
+*[[DBA]] · [[CORN]] · [[WEAT]] · [[SOYB]] · Coffee (KC=F) · [[Agriculture]]*
 
 ![[dbc-vs-gsg-2025.png]]
 *[[DBC]] · [[GSG]] · [[Commodities]]*

@@ -7,6 +7,14 @@ aliases: [commodities, commodity, DBC, GSG, raw materials]
 
 ---
 
+## Price performance
+
+![[commodities-ytd.png]]
+
+*GLD (gold), USO (oil), Coffee (KC=F) normalized since Jan 2025. Gold dominates at +97%, oil flat at +5%, coffee down -12% after a mid-2025 spike to +40%.*
+
+---
+
 ## Major sectors
 
 | Sector | Key commodities | Primary drivers |
