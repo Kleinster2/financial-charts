@@ -82,6 +82,41 @@ The key question: is energy a rotation beneficiary (temporary, reverses when sof
 | **Jan 14, 2026** | Russell 2000 beats S&P for 9th straight day |
 | **Jan 15, 2026** | Russell 2000 beats S&P for **10th straight day — longest streak since 1990** |
 
+### February 27, 2026 update — dispersion at 2009 extremes
+
+**[[Citadel Securities]] data:** Single-stock dispersion at its highest since the 2009 GFC aftermath.
+
+| Metric | Value |
+|--------|-------|
+| S&P constituents moved ±20% YTD | **>20%** (risers ~2:1 over fallers) |
+| S&P 500 YTD | ~Flat |
+| Mag 7 YTD | **-5.6%** |
+| S&P sectors up YTD | **7 of 11** |
+| S&P stocks outperforming index | **60%+** (broadest in decades) |
+| Active funds beating benchmark | **>50%** (highest in ~20 years) |
+| Q4 2025 earnings growth YoY | **+12%** (4th straight double-digit quarter) |
+| Revenue growth | **+9%** |
+| Sectors with margin expansion | **7 of 11** |
+
+**Earnings-driven market with suppressed index:** Revenue growing 9%, margins expanding broadly, 4th consecutive double-digit earnings quarter — but the index treads water because Mag 7 are dragging the cap-weighted benchmark. [[Société Générale|SocGen]]'s Manish Kabra: *"The macro message underlying the index is actually boom. Revenue is growing at 9 per cent. Seven out of 11 sectors have seen profit margin expansion."*
+
+**"Violent rotations"** — [[Barclays]]' Venu Krishna on the rapid capital flight from tech to consumer durables and other sectors. *"This is yet another sign of the numerous micro-narratives playing out beneath subdued index volatility."*
+
+**Active management revival:** The breadth of this market is rewarding stockpickers. More than half of large-cap mutual funds outperforming their benchmark — highest rate in almost two decades ([[Goldman Sachs]]). Active funds had lagged passive for years due to relentless Mag 7 gains. That concentration advantage has reversed.
+
+**The Kabra framework:** In an earnings-driven market, index expectations should be muted. *"But once you mute down index excitement, internally, if it's earnings driven, there will be parts of the market that get phenomenal returns."* — This is the environment where thesis-driven picking matters most.
+
+**Examples of extreme single-stock moves (Feb 2026):**
+
+| Stock | Move | Catalyst |
+|-------|------|----------|
+| [[Deere]] | +10% | Strong earnings |
+| [[Spotify]] | +15% (then -8% two days later) | 3x profit YoY, then profit-taking |
+| Software sector | Broadly down | AI existential threat to SaaS |
+| Logistics sector | Broadly down | AI disruption fears |
+
+*Source: Financial Times, Feb 27 2026*
+
 ### January 15, 2026 update
 
 **Historic small cap outperformance:**
@@ -336,7 +371,7 @@ See [[AI workflow disruption basket]] for the sell side of this trade.
 - [[Small cap rotation 2026]] — parallel rotation episode
 - [[Oil]] — peak demand repricing
 
-*Updated 2026-02-08*
+*Updated 2026-02-27*
 
 ---
 
@@ -345,3 +380,4 @@ See [[AI workflow disruption basket]] for the sell side of this trade.
 - [Bloomberg: AI 'Fatigue' Leaves Investors Focused on S&P's Other 493 Stocks](https://www.bloomberg.com/) (Jan 7, 2026)
 - [Bloomberg: Mag 7 underperformance charts](https://www.bloomberg.com/) (Jan 2026)
 - [Bloomberg: Stock Market Today](https://www.bloomberg.com/news/articles/2026-01-13/stock-market-today-dow-s-p-live-updates) (Jan 14, 2026) — Russell 2000 9-day streak
+- [Financial Times: Single stock dispersion at extreme levels](https://www.ft.com/) (Feb 27, 2026) — Citadel Securities data, active fund outperformance, Kabra/Krishna quotes
