@@ -205,7 +205,30 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 | Founder | Jonathan Ross (ex-Google TPU) |
 | NVIDIA deal | Dec 2025 licensing |
 
-*Updated 2026-01-22*
+## NVIDIA inference platform (GTC 2026)
+
+**Feb 28, 2026 (WSJ):** NVIDIA will unveil a dedicated inference processor at GTC (San Jose, March/April 2026) incorporating Groq's LPU chip. This is the first concrete product from the Dec 2025 licensing deal.
+
+| Detail | Value |
+|--------|-------|
+| Product | Dedicated inference platform (not a GPU) |
+| Groq's role | LPU chip integrated into NVIDIA system |
+| Key customer | [[OpenAI]] (one of the first and largest) |
+| Use case | Codex (agentic coding), AI agents |
+| Unveil | GTC 2026 developer conference |
+
+Jonathan Ross (now at NVIDIA) said GPUs are outstanding for training but Groq's chips are faster, lower cost, and more energy-efficient for inference. This is NVIDIA effectively admitting GPUs aren't optimal for decode -- after years of claiming otherwise.
+
+The competitive pressure is real:
+- [[OpenAI]] signed a multibillion-dollar inference deal with [[Cerebras]] last month
+- [[Anthropic]]'s Claude Code runs primarily on AWS and Google chips, not NVIDIA
+- [[Meta]] deployed first CPU-only (Vera, no GPU) system for ad-targeting agents
+
+NVIDIA paired this with a $30B investment commitment from OpenAI and a "dedicated inference capacity" deal -- locking in the customer before Cerebras/AWS could take the full wallet.
+
+NVIDIA is no longer defending "GPUs do everything." It's building a portfolio: GPUs for training + Groq LPU for decode + Vera CPUs for lightweight agentic workloads. The ~75% GPU margin structure may come under pressure as inference (high-volume, lower-margin) becomes the dominant workload.
+
+*Updated 2026-03-01*
 
 ---
 
@@ -222,4 +245,5 @@ TPU credibility mattered when NVIDIA evaluated external silicon.
 - [[Agentic AI]] — use case (fast decode for agents)
 - [[NPU]] — technology category
 - [[Power constraints]] — why inference efficiency matters
+
 
