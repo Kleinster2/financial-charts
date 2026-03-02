@@ -94,7 +94,7 @@ The hybrid oracle is the most critical - and fragile - component:
 ## Investment case
 
 ### Bull
-- **Massive TAM:** Private markets are a multi-trillion dollar asset class with virtually no retail access. If Ventuals becomes the Polymarket of private company speculation, the ceiling is high
+- **Massive TAM:** Private markets are a multi-trillion dollar asset class with virtually no retail access. If Ventuals becomes the [[Polymarket]] of private company speculation, the ceiling is high
 - **Right ecosystem:** [[Hyperliquid]] is the fastest-growing perps DEX, and HIP-3 gives builders a credible orderbook infrastructure without building from scratch
 - **[[Paradigm]] pedigree:** Incubated at one of crypto's most respected VCs, which provides credibility, office space, and network effects
 - **Lean team, real traction:** 4-5 people generating $215M cumulative volume is capital-efficient
@@ -102,7 +102,7 @@ The hybrid oracle is the most critical - and fragile - component:
 ### Bear
 - **Oracle risk is existential:** Private company valuations are inherently opaque and infrequently updated. A stale or manipulated oracle could blow up the system. The 50/50 onchain/offchain blend is a reasonable design, but "reasonable" isn't "battle-tested"
 - **Tiny scale:** $215M cumulative volume and $353K annualized revenue is negligible. The $3-5M OI caps on private perps mean this is more demo than market
-- **Regulatory target:** Synthetic equity derivatives on private companies screams SEC attention. No token offering protects against all risk, and the fact that it's DeFi doesn't make it immune
+- **Regulatory target:** Synthetic equity derivatives on private companies screams [[SEC]] attention. No token offering protects against all risk, and the fact that it's DeFi doesn't make it immune
 - **Liquidity chicken-and-egg:** Private perps need market makers willing to take the other side of illiquid, hard-to-hedge positions. The OI caps suggest this hasn't been solved yet
 - **Competitor risk:** Jarsy, PreStocks, and others are also tokenizing pre-IPO access. First mover doesn't mean winner in DeFi
 
