@@ -29,4 +29,5 @@ tags:
 ## Related
 
 - [[Marc Ecko]] — founder
-- [[Fashion]] — sector
+- [[Iconix Brand Group]] - acquired 51% (2009), full ownership (2013)
+- [[Fashion]] - sector
