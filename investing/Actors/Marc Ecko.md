@@ -75,7 +75,6 @@ Marc Ecko is more relevant as a **case study** than an investment target:
 
 ## Related
 
-- [[Fugazi]] — current-gen LES streetwear, explicitly avoiding the distribution mistakes Ecko made
 - [[Fashion]] — sector
 - [[Verizon]] — co-owner of Complex (2016-2021)
 - [[Luxury and fashion AI disruption]] — industry dynamics

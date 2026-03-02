@@ -29,5 +29,4 @@ tags:
 ## Related
 
 - [[Marc Ecko]] — founder
-- [[Fugazi]] — current-gen streetwear taking the opposite distribution approach
 - [[Fashion]] — sector
