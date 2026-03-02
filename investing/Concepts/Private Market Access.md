@@ -5,7 +5,7 @@ aliases: [retail private equity access, private market retail funds, private tec
 
 The emerging category of listed vehicles — closed-end funds, ETFs, interval funds, and investment trusts — that give retail investors direct exposure to private technology companies. Driven by the structural trend of companies staying private longer: US public companies declined from ~7,000 (2000) to ~4,000 (2024), locking retail out of the highest-growth phase.
 
-For how the underlying shares trade, see [[Private market secondaries]]. For the broader asset class, see [[Private markets]].
+For how the underlying shares trade, see [[Private market secondaries]]. For crypto-native perpetual futures on private valuations, see [[Ventuals]]. For the broader asset class, see [[Private markets]].
 
 ---
 

@@ -3,7 +3,7 @@ aliases: [tokenization, tokenized shares, private company tokens]
 ---
 #concept #fintech #crypto #private-markets
 
-**Tokenized private shares** — Using blockchain tokens to give retail investors "exposure" to private companies like OpenAI and [[SpaceX]]. Not actual equity — side bets on company performance.
+**Tokenized private shares** — Using blockchain tokens to give retail investors "exposure" to private companies like OpenAI and [[SpaceX]]. Not actual equity — side bets on company performance. [[Ventuals]] takes this further with perpetual futures on [[Hyperliquid]].
 
 ---
 

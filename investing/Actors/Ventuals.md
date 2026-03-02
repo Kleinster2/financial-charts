@@ -119,3 +119,9 @@ The hybrid oracle is the most critical - and fragile - component:
 - [[SpaceX]] - flagship listed market
 - [[OpenAI]] - listed market
 - [[Anthropic]] - listed market
+- [[Private Market Access]] - the broader landscape of retail private equity vehicles (closed-end funds, ETFs) that Ventuals competes with
+- [[Private market secondaries]] - traditional secondary market for private shares
+- [[Tokenized private shares]] - the crypto-native approach Ventuals belongs to
+- [[Forge Global]] - traditional secondary marketplace
+- [[Carta]] - cap table / private market infrastructure
+- [[Derivatives primer]] - perpetual futures mechanics
