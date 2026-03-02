@@ -132,9 +132,28 @@ The real test is a major private market repricing. When the next AI winter hits 
 
 ## Competitors
 
-- **Jarsy** - tokenized pre-IPO stocks
-- **PreStocks** - similar pre-IPO equity exposure
-- **Ostium** - pool-based RWA perps (different model - Ventuals uses orderbook)
+The pre-IPO crypto access space splits into two camps: synthetic derivatives (no real equity) and asset-backed tokens (claim on actual shares).
+
+### Synthetic / derivatives (no real equity)
+
+| Protocol | Chain | Model | Status |
+|----------|-------|-------|--------|
+| **Ventuals** | [[Hyperliquid]] (HIP-3) | Perp futures on valuations, orderbook | Live Oct 2025, $215M cumulative vol |
+| **Earlybird** | [[Solana]] | Prediction market-style pre-IPO price discovery | Early stage, ~Sep 2025 |
+| **Ostium** | — | Pool-based RWA perps (GMX-style, LPs take directional risk) | Live, fundamentally different model |
+
+### Asset-backed tokens (claim on real shares)
+
+| Protocol | Chain | Model | Status |
+|----------|-------|-------|--------|
+| **Jarsy** | — | 1:1 backed by actual pre-IPO shares, $10 minimums | Early, liquidity/scalability challenges |
+| **PreStocks** | [[Solana]] (Jupiter) | Similar to Jarsy, DEX-integrated, instant settlement | Launched Aug 2025, no public audit proofs |
+
+The distinction matters: Ventuals and Earlybird are pure derivatives - you never touch real shares, which sidesteps custody risk but means you're speculating on a number, not investing in a company. Jarsy and PreStocks claim actual equity backing, which gives more "real" exposure but creates custody risk and heavier regulatory burden.
+
+**Dead precedent:** Mango Markets ran synthetic mStock assets on [[Solana]] before it collapsed - cautionary tale for the whole category.
+
+The space is fragmented and tiny. Ventuals has the most credible infrastructure ([[Hyperliquid]] orderbook + [[Paradigm]] backing), Jarsy has the most interesting model (real shares), and PreStocks has the best ecosystem fit (Solana/Jupiter DeFi composability). None have meaningful scale yet.
 
 ## Related
 
