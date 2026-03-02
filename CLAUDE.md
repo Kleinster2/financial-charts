@@ -59,6 +59,8 @@ If CI fails, fix forward or `git revert HEAD && git push origin main`.
 
 **Products vs Actors:** Products lack agency — the parent Actor makes decisions. NVIDIA (Actor) → H100 (Product). See `[[Linking and hierarchy]]`.
 
+**Sector hubs vs subsector notes:** Sector hub notes (e.g., `Defense.md`) are for structure — correlation data, sub-sector taxonomy, key programs. Market reaction data (price moves, catalyst analysis) goes in subsector notes (e.g., `Defense Primes.md`, `Drones.md`). Don't put live market data in the hub.
+
 **Cache busting:** After modifying JS, increment `?v=` in `charting_sandbox/index.html`.
 
 ---
@@ -181,6 +183,7 @@ Use `/earnings TICKER` to process earnings — check DB, find latest data, inser
 - **Self-contained** — reader understands without clicking links
 - **Links over hierarchy** — structure from `[[connections]]`
 - **Daily notes as inbox** — capture first, extract when mature
+- **Event notes for multi-actor stories** — when a single event touches 3+ actor notes (e.g., a deal, a policy announcement, a market event), create a dedicated event note in `Events/` with the full detail. Actor notes carry short summaries + `[[link]]` to the event note. Prevents duplication, keeps actors focused.
 
 ### Edit Gates (CRITICAL)
 
@@ -297,6 +300,8 @@ Plus macro, rates, media, and wherever there's signal.
 > Full architecture: `C:\Users\klein\obsidian\geopolitics\vault-architecture.md`
 
 The **geopolitics vault** (`C:\Users\klein\obsidian\geopolitics\`, repo `Kleinster2/geopolitics`) covers the same topics from a statecraft/frameworks angle. **Overlap is expected and desirable.** Both vaults need core facts; each adds its own lens. This vault includes geopolitical context when it affects investment flows. The geopolitics vault includes economic/business context when it shapes statecraft. Don't strip content just because it "belongs" in the other vault — strip it only if it's irrelevant to this vault's purpose.
+
+**Scope rule:** Military operations, diplomatic timelines, casualty counts, and strategic assessments belong in the geopolitics vault. This vault covers the market impact — price action, sector moves, portfolio implications. When a geopolitical event moves markets, create the core event note in geopolitics and a market-impact note here, cross-linked.
 
 When a note has a meaningful counterpart in the other vault, add clickable `obsidian://` URI links.
 

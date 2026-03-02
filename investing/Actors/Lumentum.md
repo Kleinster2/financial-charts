@@ -115,7 +115,13 @@ EML technology leadership = differentiated position.
 | Key product | 200Gbps EML |
 | Focus | Optical components |
 
-*Updated 2026-01-01*
+*Updated 2026-03-02*
+
+---
+
+## NVIDIA $2B strategic investment (Mar 2, 2026)
+
+[[NVIDIA]] investing $2B in Lumentum — equity, multibillion-dollar purchase commitment, capacity rights for ultra-high-power lasers for co-packaged optics. Nonexclusive. Funding new US fabrication facility. LITE +8% premarket. Transforms the NVIDIA relationship from adjacent to strategic partner — NVIDIA becomes a shareholder with aligned incentives. See [[NVIDIA photonics investment March 2026]] for full deal structure and technical context.
 
 ---
 

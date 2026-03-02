@@ -1,4 +1,7 @@
 
+![[es-vs-nq-vs-cl-vs-gc-futures-2025.png]]
+*ES · NQ · CL · GC futures — live via `fill_live_futures.py`*
+
 ![[spy-vs-qqq-vs-iwm-vs-rsp-2025.png]]
 *[[SPY]] · [[QQQ]] · [[IWM]] · [[RSP]]*
 ![[vix-ytd.png]]
@@ -28,6 +31,9 @@
 ![[uso-vs-ung-vs-uga-2025.png]]
 *[[USO]] · [[UNG]] · [[UGA]] · [[Oil]] · [[Natural gas]] · [[OPEC]]*
 
+![[cl-contango-spread.png]]
+*CL6−CL1 spread — green = [[backwardation]] (supply tight), red = [[contango]] (supply loose). Currently ~−$1/bbl backwardation.*
+
 ![[cper-vs-dbb-2025.png]]
 *[[CPER]] · [[DBB]] · [[Copper]] · [[Base metals]]*
 
@@ -54,6 +60,12 @@
 
 ![[xlk-vs-xlf-vs-xle-vs-xlv-vs-xli-vs-xly-vs-xlp-vs-xlu-vs-xlre-vs-xlb-vs-xlc-2025.png]]
 *[[XLK]] · [[XLF]] · [[XLE]] · [[XLV]] · [[XLI]] · [[XLY]] · [[XLP]] · [[XLU]] · [[XLRE]] · [[XLB]] · [[XLC]]*
+
+![[dprime-vs-ita-2025.png]]
+*[[DPRIME]] · [[ITA]] · [[Defense Primes]] — equal-weight primes (LMT RTX NOC GD LHX) vs cap-weighted ITA. Divergence shows how much non-prime names (TransDigm, Howmet, etc.) drive ITA returns.*
+
+![[avav-vs-ktos-vs-dprime-vs-uso-vs-gld-vs-dal-2025.png]]
+*[[2026 Iran conflict market impact]] — [[AeroVironment|AVAV]] · [[Kratos Defense|KTOS]] · [[DPRIME]] · [[USO]] · [[GLD]] · [[DAL]]. Cross-asset conflict dispersion: havens/oil/defense up, airlines down.*
 
 ![[vgt-vs-xlk-price-chart.png]]
 *[[VGT]] · [[XLK]] · S&P Info Tech — VGT tracks the index more faithfully than XLK due to GICS classification gaps*

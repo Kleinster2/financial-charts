@@ -158,6 +158,24 @@ Bear:
 ![[pltr-employees-chart.png]]
 *Headcount: 4,429 (2025) — up 12.5% YoY*
 
+## UBS upgrade to Buy (Mar 1, 2026)
+
+UBS upgraded PLTR from Neutral to Buy with a $180 price target (+34% from current levels). Analyst rationale: the -35% pullback from peak creates an entry point for "the premier growth story in software."
+
+| Metric | UBS view |
+|--------|----------|
+| Rating | Buy (from Neutral) |
+| Price target | $180 |
+| 2026 revenue growth | ~70% projected |
+| Operating margins | Mid-50s% |
+| Valuation | 50x UBS 2027 FCF estimate; 69x multiple justified by AI/data/defense positioning |
+
+UBS: "Palantir is facing a very strong demand backdrop as it sits at the intersection of AI and data spend. This investment ramp in AI models and data is occurring right now, with Palantir a clear AI winner."
+
+Notable: upgrade comes amid [[2026 Iran conflict market impact|Iran conflict]] — Palantir's defense AI positioning gives it dual tailwinds (AI spend + defense spend). However, the Mar 2 stock move appears driven by the UBS upgrade rather than the conflict itself — [[Defense IT Services]] and software-defined defense names showed no Iran-driven move.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -168,7 +186,7 @@ Bear:
 | CEO | Alex Karp |
 | Founded | 2003 |
 
-*Updated 2026-02-03 (Q4 2025 earnings)*
+*Updated 2026-03-02*
 
 ---
 

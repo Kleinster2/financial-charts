@@ -221,7 +221,7 @@ Major catalyst: VP Vance declared Iran failed Geneva nuclear talk red lines, str
 | Oil (WTI) | **+4.6%** | [[Strait of Hormuz]] closure risk |
 | Gold | **+$61 to $4,957** | Safe haven bid |
 
-See [[US-Iran nuclear escalation February 2026]] for full event coverage.
+See [[US-Iran nuclear escalation February 2026]] for full event coverage. See [[2026 Iran conflict market impact]] for the Mar 2 kinetic-phase reaction.
 
 ---
 
@@ -290,4 +290,4 @@ Sector re-rated sharply in 2025 on rearmament thesis. Primes now trading well ab
 
 ---
 
-*Updated 2026-02-18*
+*Updated 2026-03-02*

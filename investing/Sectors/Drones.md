@@ -102,6 +102,21 @@ First flight January 11, 2026. Heavy cargo drone from [[Norinco]] subsidiary Xi'
 
 ---
 
+## Iran conflict — drone stocks lead defense rally (Mar 2, 2026)
+
+Drone pure-plays were the biggest movers in the defense sector following Operation Epic Fury, outperforming even primes. The market is pricing munitions burn and the Ukraine-validated cost asymmetry thesis.
+
+| Company | Mar 2 premarket | Notes |
+|---------|-----------------|-------|
+| [[AeroVironment]] | +10% | Switchblade loitering munitions, small UAS |
+| [[Kratos Defense]] | +10% | Attritable drones, hypersonic targets |
+
+vs primes at +5-7% and Defense IT flat. Drones led both the Feb 18 threat phase (+5-9%) and the Mar 2 kinetic phase (+10%), confirming the market thesis that drone/attritable munitions are the primary beneficiaries of active conflict.
+
+See [[2026 Iran conflict market impact]] for full cross-sector reaction.
+
+---
+
 ## Related
 
 ### Military

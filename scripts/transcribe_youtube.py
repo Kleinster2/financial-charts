@@ -36,11 +36,14 @@ import tempfile
 from pathlib import Path
 
 
+YT_DLP = [sys.executable, "-m", "yt_dlp"]
+
+
 def check_yt_dlp():
     """Verify yt-dlp is available."""
     try:
-        subprocess.run(["yt-dlp", "--version"], capture_output=True, check=True)
-    except FileNotFoundError:
+        subprocess.run(YT_DLP + ["--version"], capture_output=True, check=True)
+    except (FileNotFoundError, subprocess.CalledProcessError):
         print("Error: yt-dlp not found. Install with: pip install yt-dlp", file=sys.stderr)
         sys.exit(1)
 
@@ -48,7 +51,7 @@ def check_yt_dlp():
 def get_video_metadata(url: str) -> dict:
     """Extract video metadata without downloading."""
     result = subprocess.run(
-        ["yt-dlp", "--dump-json", "--no-download", url],
+        YT_DLP + ["--dump-json", "--no-download", url],
         capture_output=True, text=True
     )
     if result.returncode != 0:
@@ -71,8 +74,7 @@ def get_video_metadata(url: str) -> dict:
 def download_subtitles(url: str, language: str | None, tmpdir: str) -> str | None:
     """Try to download existing YouTube subtitles. Returns transcript text or None."""
     out_template = os.path.join(tmpdir, "subs")
-    cmd = [
-        "yt-dlp",
+    cmd = YT_DLP + [
         "--skip-download",
         "--write-sub",
         "--write-auto-sub",
@@ -120,8 +122,7 @@ def parse_vtt(vtt_text: str) -> str:
 def download_audio(url: str, tmpdir: str) -> str:
     """Download audio from YouTube video, return path to audio file."""
     out_template = os.path.join(tmpdir, "audio.%(ext)s")
-    cmd = [
-        "yt-dlp",
+    cmd = YT_DLP + [
         "--extract-audio",
         "--audio-format", "mp3",
         "--audio-quality", "5",  # moderate quality, smaller file

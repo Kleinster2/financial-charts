@@ -116,7 +116,15 @@ Coherent + II-VI merger created dominant optical player.
 | Focus | Optical components |
 | Key product | 800G transceivers |
 
-*Updated 2026-01-01*
+*Updated 2026-03-02*
+
+---
+
+## NVIDIA $2B strategic investment (Mar 2, 2026)
+
+[[NVIDIA]] investing $2B in Coherent — equity, multibillion-dollar purchase commitment, capacity rights across multiple product families. Builds on 20-year relationship. Nonexclusive. Expanding US manufacturing at Saxonburg, PA. COHR +6.5% premarket (stock already +218% over prior 12 months). Wall Street consensus moved to "Ultra-Bullish" with PTs raised to $300-$320. See [[NVIDIA photonics investment March 2026]] for full deal structure and technical context.
+
+Recent financials: Q2 FY2026 revenue $1.69B (+17% YoY), non-GAAP EPS $1.29 (beat), gross margins 39% (targeting 42%+), leverage ratio down to 1.7x from 2.3x. Networking segment is 72% of revenue.
 
 ---
 

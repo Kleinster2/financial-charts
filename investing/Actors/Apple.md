@@ -26,6 +26,9 @@ Apple's silicon team extracts more value from TSMC nodes than any competitor. Th
 
 ![[aapl-fundamentals.png]]
 
+![[aapl-revenue-waterfall.png]]
+*FY2024 revenue waterfall: \ → \ net income (24% margin). COGS takes 54%, then R&D + SG&A peel off 15%, taxes take another 7%.*
+
 ---
 
 
@@ -340,6 +343,23 @@ $91.3B face value outstanding across 7 currencies (USD, EUR, GBP, AUD, CHF). Rat
 
 ---
 
+## March 2026 launch week (Mar 2-4)
+
+Apple launching 5+ products across three days of announcements (press releases Mon-Wed, Special Experience media event Mar 4). Tim Cook: "big week ahead."
+
+| Product | Key specs | Significance |
+|---------|-----------|-------------|
+| **iPhone 17e** | Budget iPhone with [[Apple Intelligence]] | Replaces SE line; AI to mass market |
+| **MacBook (low-cost)** | New entry-level laptop | Price-point expansion |
+| **MacBook Air** | M5 chip | Mid-range refresh |
+| **MacBook Pro** | M5 Pro / M5 Max chips | Pro refresh |
+| **iPad Air** | M4 chip | Mid-range tablet refresh |
+| **iPad** | A18 chip + Apple Intelligence | Entry-level gets AI |
+
+**Strategic read:** This is Apple's AI hardware push — bringing Apple Intelligence down to entry-level price points across iPhone, iPad, and Mac. The iPhone 17e is the key product: it makes AI features accessible to the budget segment for the first time. Format is press release (not keynote) — Apple saving theatrical events for bigger moments.
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -353,7 +373,7 @@ $91.3B face value outstanding across 7 currencies (USD, EUR, GBP, AUD, CHF). Rat
 | Cash position | ~$160B |
 | Long-term debt | $91.3B face (Sep 2025). See [[Apple bonds]] |
 | Short interest | **0.78%** (Jan 2026) |
-*Updated 2026-02-10*
+*Updated 2026-03-02*
 
 ![[aapl-price-chart.png]]
 

@@ -111,6 +111,21 @@ Production → Liquefaction → [[Shipping]] → Regasification → Distribution
 
 ---
 
+## Strait of Hormuz disruption (Mar 2026)
+
+~25% of global LNG transits the [[Strait of Hormuz]]. The [[2026 Iran conflict market impact|Iran conflict]] closure hit LNG harder than crude — [[FGE]]'s Iman Nasseri: "Gas and LNG perhaps is not as easily replaceable if the situation prolongs."
+
+| Impact | Detail |
+|--------|--------|
+| European gas prices | +23% on Mar 2 |
+| Qatar LNG | Production halted after Iranian drone strikes on facilities |
+| LPG/naphtha to Asia | ~4M tons/day at risk ([[Japan]], [[South Korea]], [[China]]) |
+| Petrochemicals | Asian plants may shut in if supply disruption continues |
+
+Qatar is the world's largest LNG exporter alongside the US. Direct strikes on Qatari LNG facilities represent an unprecedented attack on global LNG supply infrastructure. If Hormuz remains closed, Asian importers who rely on Gulf LNG face shortages that cannot be quickly offset by US or Australian cargoes.
+
+---
+
 ## Investment case
 
 **Bull:**

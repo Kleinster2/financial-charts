@@ -429,6 +429,14 @@ See [[Short interest]] for interpretation framework.
 
 ---
 
+## Recent developments (Mar 2026)
+
+### $4B photonics investment — Lumentum + Coherent (Mar 2)
+
+$2B each in [[Lumentum]] and [[Coherent]] — equity, multibillion-dollar purchase commitments, capacity rights for co-packaged optics (CPO). Extends platform control into the physical interconnect layer as AI clusters scale beyond copper limits. LITE +8%, COHR +6.5% premarket. See [[NVIDIA photonics investment March 2026]] for full deal structure, technical architecture, and analyst commentary.
+
+---
+
 ## Recent developments (Jan 2026)
 
 Jan 27-29 — DeepSeek selloff + allegations:

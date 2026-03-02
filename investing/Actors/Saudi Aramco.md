@@ -75,6 +75,14 @@ Potential data center power supplier via gas.
 
 ---
 
+## Ras Tanura refinery attack (Mar 2, 2026)
+
+Two Iranian drones intercepted near Ras Tanura, [[Saudi Aramco]]'s largest refinery (~500K bbl/day capacity). Debris caused a fire in the surrounding area. No casualties reported. Saudi Defense Ministry confirmed interception.
+
+Ras Tanura had been targeted before (2019 Abqaiq-Khurais attacks temporarily knocked out 5.7M bbl/day), but this time defenses held. The attack followed [[IRGC]] strikes on Saudi infrastructure in Riyadh and came within hours of a GCC foreign ministers' joint statement asserting "the right to take all necessary measures to protect security and stability." See [[2026 Iran conflict market impact]].
+
+---
+
 ## Investment case
 
 **Bull:**

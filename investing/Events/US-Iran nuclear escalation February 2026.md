@@ -182,4 +182,10 @@ US small-caps ([[Karman Holdings]], [[Kratos Defense]]) with direct hypersonic/m
 
 ---
 
-*Created 2026-02-18*
+## Outcome
+
+Strikes launched February 28, 2026 — see [[2026 Iran conflict market impact]] for the actual conflict's market reaction. The scenario analysis above tracked well: oil toward $100, gold broke $5,000, defense up (especially drones/hardware), airlines down, shipping disrupted.
+
+---
+
+*Created 2026-02-18. Updated 2026-03-02.*

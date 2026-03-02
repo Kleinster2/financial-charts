@@ -104,6 +104,12 @@ See [[Venezuela oil rebuild]] and [[Monroe Doctrine]].
 
 ---
 
+## Iran conflict response (Mar 2026)
+
+OPEC+ decided to unwind only 206K bbl/day during the [[2026 Iran conflict market impact|Iran conflict]] — widely seen as inadequate given the scale of disruption (~20M+ bbl/day of [[Strait of Hormuz]] transit halted). [[FGE]] energy consultant Iman Nasseri (CNN, Mar 2): the response is "insignificant and basically not showing the level of concern or worry from the OPEC member countries." Market expecting emergency IEA stock release from OECD countries instead. If prices continue to reflect supply pressure, [[FGE]] believes both OPEC and OECD can bring new supply — but the signal so far is that OPEC is not stepping in.
+
+---
+
 ## Price targets
 
 OPEC broadly targets $80-90 Brent to:
@@ -111,7 +117,7 @@ OPEC broadly targets $80-90 Brent to:
 - Support Russian budget
 - Not destroy demand
 
-Current prices (~$60s) below target — pressure to cut.
+Current prices (~$70s-80s) reflecting Iran conflict supply disruption.
 
 ---
 

@@ -10,6 +10,9 @@ Major defense contractors (excluding Boeing). Trades as a moderate cluster (0.49
 ![[defense-primes-sector-chart.png]]
 *GD-LHX tightest pair (0.59). All primes moving together on defense budget cycle, separate from broad market.*
 
+![[dprime-vs-ita-2025.png]]
+*[[DPRIME]] (equal-weight LMT RTX NOC GD LHX) vs [[ITA]] since Jan 2024. DPRIME +18% vs ITA +90% — the gap is non-prime names (TransDigm, Howmet) and cap-weighting. ITA is not a primes benchmark.*
+
 ---
 
 ## Correlation structure
@@ -97,7 +100,9 @@ Different risk profiles — primes have program risk, IT services have recompete
 
 ---
 
-## US-Iran escalation (Feb 18, 2026)
+## Iran conflict — market reaction
+
+### Feb 18 (threat phase)
 
 US primes lagged European defense and US small-caps on Iran strike news. Market interpretation: primes already re-rated on [[Trump defense budget]] ($1.5T FY27), leaving less upside from conflict catalyst.
 
@@ -108,6 +113,22 @@ US primes lagged European defense and US small-caps on Iran strike news. Market 
 | [[Lockheed Martin]] | +1.0% | Lagging |
 
 Small-caps with direct strike-relevant capabilities outperformed: [[Karman Holdings]] +5.1% (penetrator warheads), [[Kratos Defense]] +5-9% (hypersonics). See [[US-Iran nuclear escalation February 2026]].
+
+### Mar 2 (kinetic phase — Operation Epic Fury)
+
+Primes repriced sharply once strikes actually began Feb 28 — the 4-5x jump vs Feb 18 shows the market had priced budget growth but not active munitions consumption.
+
+| Prime | Mar 2 premarket | vs Feb 18 |
+|-------|-----------------|-----------|
+| [[Lockheed Martin]] | +6.7% | 6.7x larger |
+| [[RTX]] | +6.6% | — |
+| [[L3Harris]] | +5.6% | 3.5x larger |
+| [[Northrop Grumman]] | +5.2% | — |
+| [[BAE Systems]] | +5.7% | Similar to European Feb 18 |
+
+Weapons directly used in strikes: B-2 (Northrop), Tomahawk (RTX), F-35 (Lockheed), JASSM (Lockheed). Primes with direct hardware in the operation outperformed. [[Defense IT Services]] cluster (LDOS, BAH, SAIC, CACI) showed no Iran-driven move — consulting doesn't reprice on kinetic events.
+
+See [[2026 Iran conflict market impact]] for full cross-sector reaction.
 
 ---
 
@@ -133,4 +154,4 @@ Small-caps with direct strike-relevant capabilities outperformed: [[Karman Holdi
 - [[Global rearmament]] — demand driver
 - [[Golden Dome]] — major program
 
-*Updated 2026-02-18*
+*Updated 2026-03-02*

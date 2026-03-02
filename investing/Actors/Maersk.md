@@ -74,6 +74,12 @@ Risk: legal liability from CKH arbitration. Opportunity: operating two of the wo
 
 ---
 
+## Strait of Hormuz avoidance (Mar 2, 2026)
+
+Maersk blocked all vessels from transiting the [[Strait of Hormuz]] after [[IRGC]] declared it closed during [[2026 Iran conflict market impact|Operation Epic Fury]]. Most shipping companies and insurers following suit — only 1-2 Iranian/Chinese-flagged vessels observed transiting eastbound. ~150 ships stalled behind the strait. Second major route disruption after [[Red Sea]] Houthi attacks — Maersk had already rerouted Red Sea traffic around the Cape of Good Hope.
+
+---
+
 ## Investment case
 
 **Bull:**
