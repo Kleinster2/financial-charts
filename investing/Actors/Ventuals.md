@@ -91,6 +91,30 @@ The hybrid oracle is the most critical - and fragile - component:
 - **Funding:** Hourly payments between longs and shorts to keep perp prices aligned with oracle. Uses a dampening multiplier (0.04575 on testnet) allowing wider divergence than crypto perps with real-time spot feeds
 - **Mark price:** Unbiased reference for PnL and liquidations - prevents manipulation during volatility
 
+### The oracle problem (vs [[Polymarket]])
+
+[[Polymarket]]'s oracle is easy mode - binary events (did Trump win? did the Fed cut?) are publicly verifiable facts with no ambiguity. Ventuals' oracle is playing on hard mode: what's [[SpaceX]] worth *right now*? The answer depends on who you ask:
+
+| Source | Implied valuation | Problem |
+|--------|------------------|---------|
+| Last funding round | Highest | Structured terms (liquidation prefs, ratchets) inflate headline numbers |
+| Mutual fund marks | Conservative | Lagging, updated quarterly at best |
+| Secondary sales ([[Forge Global]]) | Variable | Thin market, selection bias (sellers often bearish employees) |
+| 409A valuation | Lowest | Deliberately conservative for tax purposes |
+
+The "real" valuation is simultaneously all of these numbers. Ventuals blends them 50/50 with onchain trading data - but the onchain component is just other traders' guesses about the same opaque number. The circularity is structural.
+
+**Why this matters:**
+
+- **Manipulation surface:** On [[Polymarket]], you can't fake an election result. On Ventuals, anyone with knowledge of an upcoming secondary transaction can front-run the oracle update. The information asymmetry between insiders and public traders is structural, not incidental.
+- **Stale pricing:** Private valuations update maybe quarterly. Between updates, the oracle is flying blind and the onchain component is pricing rumors and vibes. When a company raises a new round and the oracle jumps 15%, everyone on the wrong side gets liquidated by what's essentially a scheduled information event insiders knew about first.
+- **No arbitrage anchor:** Crypto perps stay honest because if BTC-PERP diverges from BTC spot, arbitrageurs close the gap. There's no SpaceX spot market. If Ventuals' price drifts 20% from reality, there's no correction mechanism besides the next oracle update - which might be months away.
+- **Funding rate distortion:** Hourly funding payments assume the oracle price is "truth" and penalize deviation from it. If the oracle is stale or wrong, funding payments tax traders for being *more correct* than the oracle.
+
+The bull case despite all this: markets don't need perfect oracles - they need good enough ones. The stock market ran for decades on delayed, imperfect information. The 3x leverage cap and $3-5M OI limits suggest the team knows the oracle isn't battle-tested - they're deliberately keeping the blast radius small.
+
+The real test is a major private market repricing. When the next AI winter hits and private lab valuations get cut 40-60% simultaneously, does the oracle keep up? Or do traders get trapped while it slowly catches up to reality? That's when you find out if it's a market or a casino.
+
 ## Investment case
 
 ### Bull
