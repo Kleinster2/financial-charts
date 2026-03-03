@@ -57,6 +57,7 @@ IFS is an existential pivot masquerading as a growth initiative. Success require
 - **[[NVIDIA]] halted 18A testing** (Reuters) — evaluated but stopped moving forward
 - Operating loss $9.5B for FY2025
 - Manufacturing yield issues undercut turnaround narrative (Jan 23 earnings, stock -14% AH)
+- Kevin O'Buckley (SVP/GM, Intel Foundry Services) left for [[Qualcomm]] as EVP of Global Operations and Supply Chain (effective Mar 2, 2026)
 
 **Maia 2 significance**: Microsoft seeking US-based foundry capacity not exposed to TSMC constraints. If deal closes, validates 18A for external customers and opens door to other hyperscalers.
 
@@ -109,7 +110,7 @@ Strategic read: Intel prioritizing US operations where [[CHIPS Act]] support is 
 | DoD contract | **$3B "Secure Enclave"** |
 | Total U.S. investment | $100B+ over 5 years |
 
-*Updated 2025-12-30*
+*Updated 2026-03-03 — Qualcomm executive hire update*
 
 ---
 

@@ -73,12 +73,13 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 
 ---
 
-## Day 4 — March 3 intraday
+## Day 4 — March 3 (verified closes)
 
 ### Conflict developments (Mar 3)
 
 - **Israel campaign moving faster than planned** — source tells Reuters the 2-week plan is ahead of schedule; going through target list fast after early success killing Iran's leaders. Israel accelerating out of concern Washington might cut a deal and stop too soon
 - **Netanyahu:** war "not going to take years"
+- **Trump says conflict could continue 4+ weeks** — raises duration uncertainty
 - **US embassies in Saudi Arabia AND Kuwait shut** — both hit by Iranian drones; non-emergency personnel evacuated across Middle East
 - **US Embassy in Riyadh warns of imminent drone/rocket attacks on Dhahran** — home of [[Saudi Aramco]] HQ
 - **Hezbollah front opens:** Israel striking Beirut weapons storage + reinforcing ground positions in southern Lebanon; Hezbollah firing attack drones at Israel
@@ -86,7 +87,7 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 - **Tehran a "ghost town"** — hospital struck, state broadcaster HQ hit, civilians sheltering in basements
 - **IRGC official vows "not a single drop of oil" through Hormuz** (NYT)
 
-### Global equity damage (as of ~10:44 GMT / pre-US open)
+### Global equity damage (pre-US open)
 
 | Index | Move | Notes |
 |-------|------|-------|
@@ -95,16 +96,80 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 | [[KOSPI]] | **-7.2%** | Sharpest among majors |
 | S&P 500 futures | **-1.8%** | After flat close Monday |
 
-### Intraday levels (~11:20 AM ET)
+### US close — second consecutive dip-buy
 
-| Asset | Move (Mar 3) | Level | Notes |
-|-------|-------------|-------|-------|
-| S&P 500 | **-2.2%** after open | | Monday flat → Tuesday selloff |
-| Brent crude | +7% (2-day: **+17%**) | ~$84/bbl | Nearing $85 |
-| WTI | +7% (2-day: +14%) | ~$77/bbl | |
-| European gas | **+40% in 2 days** | | Punishing |
-| VLCC tanker rates | **4x in one week** | >$400K/day | All-time high |
-| Global equity losses | **$3.2T+ evaporated** | | Economic Times estimate |
+S&P opened -2.2%, wiping 2026 YTD gains, then recovered to close -0.88%. Second straight session of sharp intraday recovery after Monday's flat close from deep lows. Pattern: overnight panic → US session dip-buying.
+
+| Asset | Close | Day move | Cumulative (Day 1-4) | Notes |
+|-------|-------|----------|----------------------|-------|
+| **SPY** | $680.33 | **-0.88%** | -0.82% | Recovered from -2.2% open |
+| **QQQ** | $601.58 | **-1.07%** | | Tech underperforming |
+| **USO** | $90.15 | **+3.39%** | +10.0% | Oil still bid; only conflict trade holding |
+| **GLD** | $468.06 | **-4.48%** | | Massive reversal — profit-taking after $5,400 |
+| **10Y yield** | ~4.04% | | | Energy-driven inflation repricing |
+
+Gold's -4.48% is the day's surprise: safe haven unwind even as conflict escalated. Likely profit-taking after +23% run in a month.
+
+### Defense — gave back Day 3 gains (Mar 3 verified closes)
+
+| Company | Close | Day 4 | Day 3 | Notes |
+|---------|-------|-------|-------|-------|
+| [[AeroVironment]] (AVAV) | $228.30 | **+9.59%** | -17.4% | Bounced hard off SCAR panic |
+| [[Kratos Defense]] (KTOS) | $88.95 | **-1.95%** | +5.3% | Gave back gains |
+| [[Northrop Grumman]] (NOC) | $759.11 | **-1.16%** | +6.0% | |
+| [[RTX]] (RTX) | $206.52 | **-2.66%** | +4.7% | Sharpest prime reversal |
+| [[L3Harris]] (LHX) | $368.00 | **-2.77%** | +3.8% | |
+| [[Lockheed Martin]] (LMT) | $667.82 | **-1.31%** | +3.4% | |
+| [[General Dynamics]] (GD) | $364.70 | **-0.02%** | | Flat |
+| [[Boeing]] (BA) | $224.12 | **-2.45%** | | Commercial aero drag |
+
+AVAV's +9.59% bounce is notable — market digested SCAR recompetition risk and decided yesterday's -17.4% was overdone. Primes all reversed: Iran conflict bid fading as "quick war" narrative takes hold.
+
+### Energy — crude up, majors mixed (Mar 3 verified closes)
+
+| Company | Close | Day 4 | Notes |
+|---------|-------|-------|-------|
+| [[ExxonMobil]] (XOM) | $151.83 | **-1.55%** | |
+| [[Chevron]] (CVX) | $188.77 | **-0.44%** | |
+| [[ConocoPhillips]] (COP) | $118.52 | **+0.24%** | Only green major |
+| [[Shell]] (SHEL) | $82.33 | **-2.24%** | Gulf exposure discount |
+
+Oil majors NOT following crude higher — divergence suggesting equity market sees conflict as short-duration. USO +3.39% vs majors averaging -1%.
+
+### Travel — stabilized (Mar 3 verified closes)
+
+| Company | Close | Day 4 | Day 3 | Notes |
+|---------|-------|-------|-------|-------|
+| [[Delta Air Lines]] (DAL) | $64.60 | **+0.54%** | -2.2% | Recovery |
+| [[United Airlines]] (UAL) | $102.54 | **-0.65%** | -2.9% | Narrowing losses |
+| [[American Airlines]] (AAL) | $12.46 | **-0.48%** | -4.2% | |
+| [[Booking Holdings]] (BKNG) | $4,153.87 | **-0.62%** | -1.4% | |
+
+Airlines stabilized — market pricing quick resolution. DAL actually green.
+
+### Other movers (Mar 3 verified closes)
+
+| Company | Close | Day 4 | Notes |
+|---------|-------|-------|-------|
+| [[Target]] (TGT) | $120.80 | **+6.74%** | Q4 earnings beat: $2.44 EPS vs $2.16 est |
+| [[AeroVironment]] (AVAV) | $228.30 | **+9.59%** | SCAR panic bounce |
+| [[CrowdStrike]] (CRWD) | $391.42 | **+1.70%** | Q4 earnings AMC tonight |
+| [[Netflix]] (NFLX) | $97.70 | **+0.63%** | Defensive media |
+| [[Berkshire Hathaway]] (BRK-B) | $481.36 | **+0.25%** | Safe haven equity |
+| [[Warner Bros. Discovery]] (WBD) | $28.20 | **-1.05%** | Mar 20 vote approaching |
+| [[NVIDIA]] (NVDA) | $180.05 | **-1.33%** | Tech/semis weak |
+| [[Broadcom]] (AVGO) | $313.84 | **-1.56%** | |
+| [[AutoZone]] (AZO) | $3,637.17 | **-6.32%** | Sharp selloff |
+| BlueStar Israel Technology (PSKY) | $12.45 | **-6.67%** | Israel tech proxy hammered |
+| [[Ross Stores]] (ROST) | $197.64 | **-2.30%** | Consumer discretionary |
+
+### Insurance (Mar 3 verified closes)
+
+| Company | Close | Day 4 | Notes |
+|---------|-------|-------|-------|
+| [[MetLife]] (MET) | $72.67 | **-0.78%** | |
+| [[Chubb]] (CB) | $338.30 | **-1.30%** | |
+| [[Travelers]] (TRV) | $310.97 | **+0.10%** | Flat |
 
 ### JPMorgan trading desk sector calls (Mar 3)
 
@@ -120,6 +185,10 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 - **Cruise lines** — fuel costs (especially unhedged operators), regional port disruption
 - **Airlines** — fuel cost surge, regional route suspensions
 - **Travel / OTAs** — discretionary demand pullback, regional booking collapse
+
+### Day 4 synthesis
+
+The tape tells a clear story: US equity markets are pricing a **short, successful conflict**. Second consecutive session of aggressive dip-buying (Monday: -2% to flat; Tuesday: -2.2% to -0.88%). Defense primes gave back all Day 3 gains — the conflict premium is evaporating in equities even as oil stays bid. Gold's -4.48% reversal is the strongest signal: safe-haven demand unwinding despite active Hormuz closure and Hezbollah front opening. The disconnect between commodity markets (oil +3.4%) and equity markets (defense primes -1-3%, airlines recovering) suggests equity investors see duration risk as low while commodity traders hedge the tail.
 
 ---
 

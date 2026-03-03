@@ -55,6 +55,17 @@ Qualcomm has:
 | CEO | Cristiano Amon | Jun 2021 |
 | COO & CFO | Akash Palkhiwala | Jan 2024 (CFO since 2019, added COO) |
 | Board Chair | Mark McLaughlin | Aug 2019 |
+| EVP, Global Operations & Supply Chain | Kevin O'Buckley | Mar 2026 |
+
+---
+
+## Operations leadership update (Mar 2026)
+
+Qualcomm appointed Kevin O'Buckley (formerly SVP/GM of [[Intel Foundry Services]]) as EVP of Global Operations and Supply Chain, effective March 2, 2026.
+
+In this role he runs manufacturing engineering, foundry and supplier partnerships, supply chain, and procurement under COO/CFO [[Akash Palkhiwala]].
+
+Read-through: this is an execution hire aimed at reducing operational friction as Qualcomm scales AI/edge and PC programs, not a new product catalyst by itself.
 
 ---
 
@@ -210,7 +221,7 @@ Qualcomm's $44B bid for [[NXP]] was blocked when [[China]] withheld antitrust ap
 
 ---
 
-*Updated 2026-02-06 — Q1 FY2026 stock reaction*
+*Updated 2026-03-03 — operations leadership update (Kevin O'Buckley hire)*
 
 ---
 
