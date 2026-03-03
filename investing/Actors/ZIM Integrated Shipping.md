@@ -92,6 +92,49 @@ Mar 3 close: **-3.2%** despite tanker rate spike — container lines are getting
 
 ---
 
+## Merger arb spread
+
+Hapag-Lloyd deal implies ~$35/share. The spread has never tightened below 20% — the market priced significant deal risk from day one.
+
+| Phase | Dates | ZIM price | Spread to $35 | Driver |
+|-------|-------|-----------|---------------|--------|
+| Pre-deal | Dec–mid Feb | $20-22 | N/A | No deal priced |
+| Announcement pop | Feb 17 | $22 → $29 | **~20%** | Jumped but immediately wide |
+| Post-announcement | Feb 17–27 | $28.80-29.20 | 20-22% | Never tightened below 19.6% |
+| Iran conflict starts | Feb 28+ | $28.83 → $27.91 | **25.4%** | +4-5pp of conflict risk |
+
+A 20% spread on announcement day is extremely unusual for a signed deal. For comparison, WBD–Paramount ($31 deal) trades at ~7% spread. The market is pricing real break/delay risk.
+
+### What the spread is telling you
+
+**Base risk (~20%, pre-conflict):**
+- EU/competition review for shipping consolidation (Hapag-Lloyd becomes #5 global)
+- Israeli company with persistent Houthi targeting
+- Long/uncertain regulatory timeline
+- Possible MAC clause triggers
+
+**Conflict premium (~5%, added post-Feb 28):**
+- Active multi-front war involving Israel
+- Regulatory processes may freeze during hostilities
+- ZIM fleet/operations at elevated physical risk
+- Hapag-Lloyd may seek price renegotiation
+
+### What would compress the spread
+
+- Ceasefire → fastest catalyst (could take 5-10pp out immediately)
+- EU competition clearance
+- Firm closing date announced
+- Hapag-Lloyd reaffirms commitment publicly
+
+### What would blow it wider
+
+- MAC clause invoked or deal renegotiated lower
+- ZIM vessel damaged/lost in conflict
+- Prolonged war (Trump's "4+ weeks" warning)
+- Hapag-Lloyd walks entirely (ZIM reprices to ~$20 pre-deal level)
+
+---
+
 ## Investment case
 
 Bull:
