@@ -37,28 +37,33 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 
 ---
 
-## Defense sector reaction (March 2 premarket)
+## Defense sector reaction (March 2)
 
-### Key finding: hardware/kinetic names lead; IT services flat
+### Key finding: hardware/kinetic names lead; IT services flat — but AVAV reversed on idiosyncratic risk
 
-The market is pricing munitions burn and hardware demand, not consulting or software. Drones led, followed by primes. Defense IT (LDOS, BAH, SAIC, CACI) and software-defined defense ([[Palantir]]) showed no Iran-driven move.
+The market opened pricing munitions burn and hardware demand, not consulting or software. Drones and primes surged in premarket. Defense IT (LDOS, BAH, SAIC, CACI) and software-defined defense ([[Palantir]]) showed no Iran-driven move. But the session's defining story was [[AeroVironment]]'s intraday reversal — see below.
 
-### Drones — biggest movers
+### Drones — divergent by close
 
-| Company | Move | Thesis |
-|---------|------|--------|
-| [[AeroVironment]] | +10% | Switchblade loitering munitions, small UAS |
-| [[Kratos Defense]] | +10% | Attritable drones, hypersonic targets |
+| Company | Premarket | Close | Notes |
+|---------|-----------|-------|-------|
+| [[AeroVironment]] | **+20.1%** | **-17.4%** ($208.32) | ~40% intraday swing; SCAR recompetition + Raymond James triple-downgrade overwhelmed geopolitical bid |
+| [[Kratos Defense]] | +10% | **+5.3%** ($90.72) | Held gains but faded from highs |
 
-### Primes — strong
+**AVAV reversal explained:** Mid-morning, Space News reported the [[US Space Force]] had reopened competitive bidding for the **$1.4B SCAR contract** (Satellite Communications Augmentation Resource) — AeroVironment's largest program (~50% of $2.8B backlog), inherited via its May 2025 [[BlueHalo]] acquisition. Raymond James analyst Brian Gesuale issued a triple-downgrade (Strong Buy to Underperform), removing his $348 target. The SCAR news transformed AVAV from the Iran conflict's biggest winner to its biggest loser in a single session. See [[AeroVironment]] for full details.
 
-| Company | Move | Notes |
-|---------|------|-------|
-| [[Lockheed Martin]] | +6.7% | Tomahawk, JASSM, F-35 ops |
-| [[RTX]] | +6.6% | Missiles, Patriot air defense |
-| [[L3Harris]] | +5.6% | EW, communications |
-| [[BAE Systems]] | +5.7% | Full spectrum |
-| [[Northrop Grumman]] | +5.2% | B-21 bomber (used in strikes), ISR |
+### Primes — strong (premarket → close fade)
+
+| Company | Premarket | Close | Notes |
+|---------|-----------|-------|-------|
+| [[Northrop Grumman]] | +5.2% | **+6.0%** ($768) | B-21 bomber (used in strikes), ISR |
+| [[RTX]] | +6.6% | **+4.7%** ($212) | Missiles, Patriot air defense |
+| [[L3Harris]] | +5.6% | **+3.8%** ($378) | EW, communications |
+| [[Lockheed Martin]] | +6.7% | **+3.4%** ($677) | Tomahawk, JASSM, F-35 ops |
+| [[BAE Systems]] | +5.7% | — | Full spectrum |
+| [[General Dynamics]] | — | **+2.2%** ($365) | |
+
+Primes faded from premarket highs but held solidly positive. NOC was the standout — B-21 involvement in strikes likely drove outperformance.
 
 ### Defense IT — no signal
 
@@ -71,15 +76,15 @@ The market is pricing munitions burn and hardware demand, not consulting or soft
 
 ### Comparison to Feb 18 (threat phase)
 
-| Segment | Feb 18 move | Mar 2 move | Delta |
-|---------|-------------|------------|-------|
-| European defense | +3.8-5.9% | BAE +5.7% | Similar |
-| US primes | +1.0-1.6% | +5.2-6.7% | 4-5x larger |
-| US small-cap/drones | +5-9% | +10% | Modestly higher |
-| Oil (WTI) | +4.6% | +7.3% | ~60% larger |
-| Gold | +$61 ($4,957) | $5,400 | Continued surge |
+| Segment | Feb 18 move | Mar 2 premarket | Mar 2 close | Notes |
+|---------|-------------|-----------------|-------------|-------|
+| European defense | +3.8-5.9% | BAE +5.7% | — | Similar |
+| US primes | +1.0-1.6% | +5.2-6.7% | +2.2-6.0% | 2-4x larger than Feb 18 |
+| US small-cap/drones | +5-9% | +10-20% | AVAV -17%, KTOS +5% | AVAV reversed on idiosyncratic news |
+| Oil (WTI) | +4.6% | +7.3% | USO +6.4% | ~40% larger |
+| Gold | +$61 ($4,957) | $5,400 | GLD +1.3% | Continued surge |
 
-US primes were the biggest delta — they barely moved on Feb 18 (already priced for budget expansion) but repriced sharply on actual kinetic conflict. This suggests the market was pricing defense budget growth but not active munitions consumption.
+US primes were the biggest delta — they barely moved on Feb 18 (already priced for budget expansion) but repriced sharply on actual kinetic conflict. This suggests the market was pricing defense budget growth but not active munitions consumption. The AVAV reversal is a cautionary tale: idiosyncratic risk can overwhelm even the strongest sector tailwind.
 
 ---
 
@@ -87,10 +92,10 @@ US primes were the biggest delta — they barely moved on Feb 18 (already priced
 
 | Ticker | Move | Notes |
 |--------|------|-------|
-| [[Exxon]] (XOM) | +4% | |
-| [[Chevron]] (CVX) | +4% | |
-| [[Shell]] (SHEL) | +5.2% | Biggest move in 3 years |
-| [[ConocoPhillips]] (COP) | Up | |
+| [[Exxon]] (XOM) | **+1.1%** | Verified close via yfinance (Mar 2) |
+| [[Chevron]] (CVX) | **+1.5%** | Verified close via yfinance (Mar 2) |
+| [[Shell]] (SHEL) | **+0.9%** | Verified close via yfinance (Mar 2) |
+| [[ConocoPhillips]] (COP) | **+4.2%** | Verified close via yfinance (Mar 2) |
 
 ### Shipping/tankers
 
@@ -130,11 +135,11 @@ European gas +23% on March 2. ~25% of global [[LNG]] transits Hormuz. Qatar LNG 
 
 | Company | Move | Notes |
 |---------|------|-------|
-| [[Delta Air Lines]] (DAL) | -5.7% | Fuel cost + route disruption |
-| [[United Airlines]] (UAL) | -6%+ | |
-| [[American Airlines]] (AAL) | -6%+ | |
-| IAG | -13% | Steepest decline since Nov 2021 |
-| [[Booking Holdings]] (BKNG) | Down | Travel demand hit |
+| [[Delta Air Lines]] (DAL) | **-2.2%** | Verified close via yfinance (Mar 2); fuel cost + route disruption |
+| [[United Airlines]] (UAL) | **-2.9%** | Verified close via yfinance (Mar 2) |
+| [[American Airlines]] (AAL) | **-4.2%** | Verified close via yfinance (Mar 2) |
+| IAG | -13% | Europe-listed move (source-reported; not yfinance-verified in this pass) |
+| [[Booking Holdings]] (BKNG) | **-1.4%** | Verified close via yfinance (Mar 2) |
 
 Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspace closures/route disruptions. [[Emirates]], [[Qatar Airways]] face existential route disruption if conflict continues (Gulf hub model depends on overflying Iran/Gulf airspace).
 
@@ -163,9 +168,9 @@ This isn't a hard market repricing — it's underwriters choosing to **forgo pre
 | Company | Move | Driver |
 |---------|------|--------|
 | [[Berkshire Hathaway]] (BRK-B) | **-5%** | Q4 earnings miss (insurance underwriting -54%), not Iran |
-| [[MetLife]] (MET) | **-5.3%** | Broad financials selloff |
-| [[Chubb]] (CB) | +0.9% | Defensive, minimal Gulf exposure |
-| [[Travelers]] (TRV) | +0.8% | Domestic P&C, minimal Gulf exposure |
+| [[MetLife]] (MET) | **+1.6%** | Verified close via yfinance (Mar 2) |
+| [[Chubb]] (CB) | **+0.6%** | Verified close via yfinance (Mar 2) |
+| [[Travelers]] (TRV) | **+0.7%** | Verified close via yfinance (Mar 2) |
 
 **European/specialty insurance (March 2):**
 
@@ -186,6 +191,10 @@ Taiwan's largest life insurers conducting internal reviews of Middle East exposu
 - US Treasuries — flight-to-quality bid expected.
 
 ---
+
+## Tape verification pass (Mar 3 update)
+
+Ran a tape integrity check via yfinance and corrected several previously source-reported percentage moves (notably airlines, integrated oils, and US insurers). This note now prioritizes verified close-to-close data for US-listed tickers; any non-verified international quotes are explicitly labeled.
 
 ## Portfolio implications
 
@@ -211,7 +220,9 @@ Key variable is duration. A resolved conflict (days) = mean-reversion in oil/def
 - [[Strait of Hormuz]] — oil chokepoint
 - [[Shell]], [[Exxon]], [[Chevron]]
 - [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]], [[BAE Systems]]
-- [[AeroVironment]], [[Kratos Defense]] — drone pure-plays
+- [[AeroVironment]] — drone pure-play; +20% premarket → -17% close on SCAR recompetition
+- [[Kratos Defense]] — drone pure-play; held +5.3%
+- [[BlueHalo]] — AeroVironment acquisition that brought SCAR contract exposure
 - [[Gold]]
 - [[Insurance]] — sector hub; war risk repricing across marine/aviation/specialty
 - [[Hiscox]], [[Lancashire]], [[Conduit Re]] — Barclays-flagged most exposed London specialty names
