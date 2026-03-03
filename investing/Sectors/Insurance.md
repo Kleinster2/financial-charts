@@ -71,7 +71,7 @@ See [[PE-insurance convergence]] for the thesis.
 | [[Munich Re]] | Germany | ~$85B | \#1 (AM Best), P&C cat |
 | [[Swiss Re]] | Switzerland | ~$50B | \#1 life/health reinsurer |
 | [[Berkshire Hathaway]] | USA | ~$1T | \#4 reinsurer |
-| Hannover Re | Germany | ~$30B | \#3, balanced book |
+| [[Hannover Re]] | Germany | ~$30B | \#3, balanced book |
 | Lloyd's | UK | Market | Specialty, syndicate model |
 
 ### Insurance Brokers (distribution layer)
@@ -157,6 +157,7 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 | **Japan/Asia expansion** | KKR, Apollo tapping $5.8T pool | Life/annuity |
 | **Bermuda regulation** | BMA, IAIS reviewing PE-owned reinsurers | Life/annuity |
 | **[[AI disintermediation]]** | Insurify ChatGPT app → broker selloff (Feb 2026) | Brokers |
+| **War risk / Iran conflict** | P&I clubs canceling Gulf coverage (Mar 5); marine hull rates +25-50%; Lloyd's systemic exposure; stocks sold on tail risk not bought on premiums. See [[2026 Iran conflict market impact]] | Marine, aviation, reinsurance |
 
 ---
 
@@ -186,5 +187,5 @@ PE-owned platforms earn spread by investing in private credit/alternatives rathe
 
 ---
 
-*Updated 2026-01-24*
+*Updated 2026-03-02*
 

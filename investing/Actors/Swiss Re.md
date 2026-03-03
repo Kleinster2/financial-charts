@@ -71,4 +71,5 @@ Swiss Re's life/health franchise could be disrupted if PE platforms continue exp
 - [[Reinsurance sidecars]] — alternative capital competing with traditional reinsurance
 - [[PE-insurance convergence]] — Swiss Re as traditional incumbent in life/health
 - [[Athene]] — PE-owned competitor in life reinsurance
+- [[2026 Iran conflict market impact]] — Barclays flagged second-tier exposure via reinsurer aggregation risk; traded lower Mar 2
 

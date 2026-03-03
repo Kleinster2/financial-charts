@@ -140,6 +140,45 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 
 ---
 
+## Insurance / reinsurance
+
+### Marine war risk — coverage withdrawal, not repricing
+
+The defining insurance story is **coverage cancellation**, not premium increases. Major P&I clubs ([[Gard]], [[Skuld]], [[NorthStandard]], London P&I Club, American Club) announced cancellation of war risk cover for the Persian Gulf effective March 5. [[Japan]]'s MS&AD Insurance Group also suspended war risk underwriting for waters around Iran, Israel, and neighboring countries. The LMA Joint War Committee held an extraordinary meeting on March 2 to discuss the escalation.
+
+This isn't a hard market repricing — it's underwriters choosing to **forgo premium income rather than hold the risk**. [[Lloyd's]] underwrites ~40% of global marine cargo, making concentrated exposure a systemic concern. War risk is a small premium pool (<$3B/year globally across marine and aviation) with little standalone disclosure.
+
+[[Marsh McLennan|Marsh]] estimates marine hull insurance rates in the Gulf could rise **25-50%**. Shipping war risk costs from alternative providers have at least doubled. VLCC spot rates on the Middle East-to-China route hit ~W225 on Worldscale (~$12M), nearly tripling since start of 2026.
+
+### Adjacent coverage gaps
+
+- **Airlines**: operations disrupted for multiple days; revenue losses **not covered** by standard policies. War exclusions triggered.
+- **Commercial property**: war-related damage "almost always" excluded — [[Dubai]] Palm Jumeirah properties potentially uncovered
+- **Travel insurance**: many policies exclude military action benefits
+
+### Stock performance — sold on uncertainty, not bought on premiums
+
+**US insurance (March 2):**
+
+| Company | Move | Driver |
+|---------|------|--------|
+| [[Berkshire Hathaway]] (BRK-B) | **-5%** | Q4 earnings miss (insurance underwriting -54%), not Iran |
+| [[MetLife]] (MET) | **-5.3%** | Broad financials selloff |
+| [[Chubb]] (CB) | +0.9% | Defensive, minimal Gulf exposure |
+| [[Travelers]] (TRV) | +0.8% | Domestic P&C, minimal Gulf exposure |
+
+**European/specialty insurance (March 2):**
+
+Barclays flagged [[Hiscox]], [[Lancashire]], and [[Conduit Re]] as most exposed — marine, aviation, and political risk specialty premiums account for 5-15% of total premiums. Second tier: [[Swiss Re]], [[Munich Re]], [[Hannover Re]], [[SCOR]]. **All seven names traded lower on Monday.** War risk exposure is "critical and also intransparent" (Barclays).
+
+[[Beazley]] dipped -0.2% to 1,241.85p but is dominated by [[Zurich Insurance]]'s £8B takeover bid (1,335p/share, March 4 deadline).
+
+**Sector-level read:** Insurance is not getting a war premium in equities. The market is pricing the **convex risk profile** — premiums go up linearly but losses can be catastrophic and correlated across marine, aviation, property, and specialty lines simultaneously. Coverage withdrawal signals uncertainty too deep to price. Franklin Templeton named insurance among favored sectors, but the tape disagrees so far.
+
+Taiwan's largest life insurers conducting internal reviews of Middle East exposure. Hedge funds rushing to size up aggregation risk.
+
+---
+
 ## Safe havens
 
 - Gold $5,400 — confirmed breakout above $5,000 psychological level called in Feb 18 note. +23% past month.
@@ -157,6 +196,7 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 | Gold | Hold/add | Safe haven, $5,400 already stretched but Hormuz closure = more upside |
 | Airlines/travel | Underweight | Fuel costs + route disruption, duration-dependent |
 | Shipping | Overweight (tankers) | Rate spike on route disruption |
+| Insurance (specialty) | Neutral/avoid | Coverage withdrawal > premium windfall; tail risk from correlated claims |
 | Broad equity | Cautious | VIX elevated, risk-off, earnings visibility reduced |
 
 Key variable is duration. A resolved conflict (days) = mean-reversion in oil/defense. A prolonged campaign (weeks, as Axios predicted) = sustained repricing across all of these.
@@ -173,6 +213,9 @@ Key variable is duration. A resolved conflict (days) = mean-reversion in oil/def
 - [[Lockheed Martin]], [[RTX]], [[Northrop Grumman]], [[BAE Systems]]
 - [[AeroVironment]], [[Kratos Defense]] — drone pure-plays
 - [[Gold]]
+- [[Insurance]] — sector hub; war risk repricing across marine/aviation/specialty
+- [[Hiscox]], [[Lancashire]], [[Conduit Re]] — Barclays-flagged most exposed London specialty names
+- [[Swiss Re]], [[Munich Re]], [[Hannover Re]], [[SCOR]] — reinsurer aggregation risk
 
 ### Cross-vault
 - [Geopolitics: 2026 Iran conflict](obsidian://open?vault=geopolitics&file=Events%2F2026%20Iran%20conflict) — military timeline, casualties, diplomatic responses
