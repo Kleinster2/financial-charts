@@ -102,6 +102,21 @@ See [[Ellison AI-IP vertical integration]] for the family thesis.
 
 ---
 
+## Mar 2, 2026 call — Ellison's operating posture
+
+On Paramount's Mar 2 analyst call about the [[Warner Bros Discovery]] transaction, Ellison was notably explicit on operating choices that had been open questions pre-call:
+
+| Topic | Ellison position |
+|------|------------------|
+| HBO | "HBO should stay HBO" — keep creative independence under Casey Bloys |
+| Streaming | Merge Paramount+ and HBO Max into one platform |
+| Debt | Combined company starts near **$79B net debt** |
+| Cable assets | No immediate plan to divest/spin cable networks |
+| Cost synergies | **$6B+** target, much from non-labor tech/procurement integration |
+| Theatrical | Reaffirmed 30 films/year (15 per studio), pro-theatrical window stance |
+
+Interpretation: this is less a break-up strategy and more a scale-integration strategy. Ellison is betting he can preserve premium brands while extracting infrastructure synergies fast enough to stabilize leverage.
+
 ## Investment relevance
 
 | Angle | Detail |

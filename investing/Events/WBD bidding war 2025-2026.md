@@ -88,6 +88,26 @@ New Paramount Class B shares issued at **$16.02/share** to equity investors.
 
 ---
 
+## Mar 2 management call — incremental details
+
+Paramount's Mar 2 analyst call filled in the missing operational details after the Feb 27 merger announcement. The key update wasn't the headline (already known), but the execution posture: they are explicitly keeping the full linear bundle, centralizing streaming tech, and front-loading synergy capture into non-labor buckets.
+
+### New call disclosures
+
+| Topic | New detail from call | Why it matters |
+|------|----------------------|----------------|
+| Net debt at close | **~$79B** combined net debt | Sets the deleveraging baseline; confirms this is a heavily levered integration from day one |
+| Cable asset plan | **No divestiture/spin-off planned** | Removes near-term "sell the cable rump" upside story; integration risk stays inside the deal |
+| Streaming structure | Paramount+ and HBO Max to be folded into one platform | Core product bet is scale + distribution reach rather than two premium brands competing internally |
+| DTC scale | **200M+ DTC subscribers across 100+ regions** (management claim) | Frames strategic logic versus [[Netflix]] and [[Disney]] — scale first, ARPU optimization second |
+| Synergies | **$6B+** target, with a large share from **non-labor** (tech stack + cloud consolidation, procurement, real estate) | Suggests early savings can come before deep content cuts, though labor reductions are still likely later |
+| Studio output | Reaffirmed **30 films/year** (15 per studio) + theatrical commitment | Signals they are not abandoning theatrical windows to force streaming growth |
+| HBO positioning | "HBO should stay HBO" with creative autonomy under Casey Bloys | Attempts to protect the highest-value brand while integrating distribution underneath |
+
+### Read-through
+
+This call made the structure clearer: Ellison is trying to run a "keep the brands, merge the pipes" playbook. The upside is obvious (global scale, stack consolidation, franchise leverage). The risk is equally obvious: a $79B debt load plus two melting-ice-cube linear portfolios leaves little room for execution mistakes.
+
 ## Why Netflix walked away
 
 [[Ted Sarandos]] had telegraphed discipline throughout: "We're super-disciplined buyers... willing to walk away and let someone else overpay for things."

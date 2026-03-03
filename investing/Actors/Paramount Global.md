@@ -140,6 +140,8 @@ Timeline: initial $30 bid (Feb 10) → $30 rejected, 7-day window (Feb 17) → $
 
 Open risks: $1.5B junior lien financing fee, combined debt load, [[Larry Ellison]] equity guarantee certainty, activist shareholder dynamics at March 20 vote.
 
+Mar 2 analyst call added key execution details: management guided to ~**$79B net debt** at close, reiterated **no near-term cable asset spin/sale**, and confirmed Paramount+ + HBO Max platform consolidation as the core integration path. Synergy target remains **$6B+**, with emphasis on non-labor savings early (streaming stack/cloud/procurement).
+
 Full arc: [[WBD bidding war 2025-2026]]
 
 ---
