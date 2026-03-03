@@ -75,6 +75,17 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 
 ## Day 4 — March 3 intraday
 
+### Conflict developments (Mar 3)
+
+- **Israel campaign moving faster than planned** — source tells Reuters the 2-week plan is ahead of schedule; going through target list fast after early success killing Iran's leaders. Israel accelerating out of concern Washington might cut a deal and stop too soon
+- **Netanyahu:** war "not going to take years"
+- **US embassies in Saudi Arabia AND Kuwait shut** — both hit by Iranian drones; non-emergency personnel evacuated across Middle East
+- **US Embassy in Riyadh warns of imminent drone/rocket attacks on Dhahran** — home of [[Saudi Aramco]] HQ
+- **Hezbollah front opens:** Israel striking Beirut weapons storage + reinforcing ground positions in southern Lebanon; Hezbollah firing attack drones at Israel
+- **Iran death toll:** 800+ across Middle East since Saturday (Reuters)
+- **Tehran a "ghost town"** — hospital struck, state broadcaster HQ hit, civilians sheltering in basements
+- **IRGC official vows "not a single drop of oil" through Hormuz** (NYT)
+
 ### Global equity damage (as of ~10:44 GMT / pre-US open)
 
 | Index | Move | Notes |
@@ -83,6 +94,17 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 | [[Nikkei 225]] | **-3.1%** | |
 | [[KOSPI]] | **-7.2%** | Sharpest among majors |
 | S&P 500 futures | **-1.8%** | After flat close Monday |
+
+### Intraday levels (~11:20 AM ET)
+
+| Asset | Move (Mar 3) | Level | Notes |
+|-------|-------------|-------|-------|
+| S&P 500 | **-2.2%** after open | | Monday flat → Tuesday selloff |
+| Brent crude | +7% (2-day: **+17%**) | ~$84/bbl | Nearing $85 |
+| WTI | +7% (2-day: +14%) | ~$77/bbl | |
+| European gas | **+40% in 2 days** | | Punishing |
+| VLCC tanker rates | **4x in one week** | >$400K/day | All-time high |
+| Global equity losses | **$3.2T+ evaporated** | | Economic Times estimate |
 
 ### JPMorgan trading desk sector calls (Mar 3)
 

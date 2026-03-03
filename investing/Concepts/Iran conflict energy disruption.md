@@ -30,7 +30,11 @@ Integrated majors moved less than crude itself — market likely pricing duratio
 | DHT Holdings (DHT) | +7% |
 | International Seaways (INSW) | +6% |
 
-VLCC spot rates on the Middle East-to-China route hit ~W225 on Worldscale (~$12M), nearly tripling since start of 2026.
+VLCC spot rates on the Middle East-to-China route hit ~W225 on Worldscale (~$12M) on Mar 2, nearly tripling since start of 2026. By Mar 3, tanker rates had **quadrupled in one week to an all-time high >$400K/day** (Reuters).
+
+### Refined products outpacing crude (Mar 3)
+
+CNBC flagged that refined product prices are moving faster than crude — European diesel surged **20%** on Monday alone vs crude's 9%. The Strait isn't just a crude chokepoint; it's critical for refined products too. This widens refining margins and accelerates pass-through to consumers.
 
 ---
 
