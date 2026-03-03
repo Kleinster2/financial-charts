@@ -240,6 +240,25 @@ This is a working probability framework, not a claim of certainty. It should be 
 - **Up for delay probability:** new subpoenas/injunction signals, widening credit spreads, visible proxy fight escalation.
 - **Up for break probability:** financing commitments weaken materially, or shareholder sentiment flips ahead of vote.
 
+## What to watch into March 20 vote
+
+Use this as a live dashboard. If 2+ red flags trigger simultaneously, raise break/delay odds and tighten risk posture.
+
+| Signal | Green | Yellow | Red |
+|-------|-------|--------|-----|
+| **WBD merger spread to $31** | <4% discount | 4-8% | >8% sustained 2+ sessions |
+| **Debt market tone (HY/IG spreads)** | Stable/tightening | Modest widening | Sharp widening week-over-week |
+| **Financing language from banks/management** | "Fully committed" with no caveats | More conditional language | Any sign of resizing/repricing financing stack |
+| **Shareholder optics ahead of vote** | Broad support, limited activism noise | Mixed messaging | Coordinated opposition campaign with named large holders |
+| **Regulatory/legal chatter** | Routine process updates | State AG requests/comments | Injunction risk headlines or formal challenge signals |
+| **Management execution narrative** | Consistent message on integration + deleveraging | Shifting explanations | Contradictions on cable strategy, synergy timing, or debt path |
+
+### Practical interpretation rule
+
+- **0-1 red flags:** keep base case (Q3 close) as dominant.
+- **2 red flags:** shift probability mass from base → delay.
+- **3+ red flags:** treat break scenario as live tail risk, not just background noise.
+
 ## Related
 
 ### Actors
