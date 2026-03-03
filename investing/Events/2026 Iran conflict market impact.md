@@ -73,6 +73,34 @@ Airlines hit by dual headwind: oil surge raising fuel costs + Middle East airspa
 
 ---
 
+## Day 4 — March 3 intraday
+
+### Global equity damage (as of ~10:44 GMT / pre-US open)
+
+| Index | Move | Notes |
+|-------|------|-------|
+| STOXX 600 | **-3%+** | Worst session in 11 months for FTSE 100 (-2.9%) |
+| [[Nikkei 225]] | **-3.1%** | |
+| [[KOSPI]] | **-7.2%** | Sharpest among majors |
+| S&P 500 futures | **-1.8%** | After flat close Monday |
+
+### JPMorgan trading desk sector calls (Mar 3)
+
+**Winners:**
+- **Defense primes** — missile defense deployments, drone warfare adoption, munitions restocking
+- **North American energy** — E&Ps, refiners, domestic oilfield services, [[LNG]], midstream capturing supply gap as buyers seek alternatives
+- **Cybersecurity** — critical infrastructure protection in elevated threat environment
+- **Tankers** — rate spike on longer voyage distances as trade flows reroute
+- **Precious metals** — safe-haven demand
+
+**Losers:**
+- **Consumer discretionary / global brands** — inflation expectations, Asia supply chain risk, risk-off sentiment
+- **Cruise lines** — fuel costs (especially unhedged operators), regional port disruption
+- **Airlines** — fuel cost surge, regional route suspensions
+- **Travel / OTAs** — discretionary demand pullback, regional booking collapse
+
+---
+
 ## Portfolio implications
 
 | Theme | Action | Rationale |
