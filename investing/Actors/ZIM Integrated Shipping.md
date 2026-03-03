@@ -92,6 +92,26 @@ Mar 3 close: **-3.2%** despite tanker rate spike — container lines are getting
 
 ---
 
+## Insurance structure
+
+ZIM does **not** self-insure. It relies on commercial marine insurance (P&I clubs + hull/war risk underwriters) and passes war risk premium surcharges through to cargo customers "at cost."
+
+| Layer | Coverage | Status (Mar 2026) |
+|-------|----------|-------------------|
+| P&I (liability) | Third-party mutual clubs | Standard; war exclusions triggered in conflict zones |
+| Hull & machinery | Commercial underwriters | Standard |
+| War risk | Separate war risk attachment | Premiums surging; P&I clubs canceling Gulf cover effective Mar 5 |
+| Cargo war risk | Passed to customers as surcharge | Applied "at cost" per ZIM advisories |
+
+### Key dynamics
+
+- **Pass-through model:** ZIM's Oct 2023 advisories explicitly state surcharges come "as advised by our insurers" — ZIM doesn't absorb the cost, it bills customers.
+- **No government backstop (yet):** Israel debated state-guaranteed war risk insurance for **airlines** (El Al) in Oct 2023, setting a precedent. No equivalent program for shipping has been announced, but if commercial underwriters pull coverage for Israeli-owned vessels broadly, the government may step in.
+- **National service obligation:** ZIM's CEO pledged ships to transfer cargo for the Ministry of Defense and government "as a first priority" — a quasi-nationalized role during conflict, but without a corresponding insurance guarantee.
+- **Biggest risk:** if commercial war risk coverage becomes unavailable (not just expensive) for Israeli-flagged/Israeli-owned vessels, ZIM faces an existential operational question — you can't sail uninsured.
+
+---
+
 ## Merger arb spread
 
 Hapag-Lloyd deal implies ~$35/share. The spread has never tightened below 20% — the market priced significant deal risk from day one.
