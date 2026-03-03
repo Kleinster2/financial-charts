@@ -224,6 +224,22 @@ Bottom line: the spread is pricing it about right for a deal with real regulator
 
 ---
 
+## Scenario matrix (as of 2026-03-03)
+
+This is a working probability framework, not a claim of certainty. It should be updated after the March 20 vote and any state AG action.
+
+| Scenario | Probability | What has to happen | Market implication |
+|---------|-------------|--------------------|-------------------|
+| **Base case: vote passes, closes Q3 2026** | **60%** | Shareholders approve, financing syndication remains intact, no successful injunction | Merger arb spread compresses gradually; WBD drifts toward deal value with carry discount |
+| **Delay case: vote passes but close slips to Q4 2026+** | **30%** | State-level scrutiny and/or financing market wobble slows timeline | Spread stays wide longer; more event-driven volatility around legal/process headlines |
+| **Break case: vote fails or regulatory/legal block** | **10%** | Coordinated opposition (shareholder + legal) or financing rupture | WBD reprices sharply lower; PSKY relief rally possible on avoided leverage |
+
+### What would change these probabilities fast
+
+- **Up for close probability:** clear vote margin, stable debt placement terms, no major state challenge signals.
+- **Up for delay probability:** new subpoenas/injunction signals, widening credit spreads, visible proxy fight escalation.
+- **Up for break probability:** financing commitments weaken materially, or shareholder sentiment flips ahead of vote.
+
 ## Related
 
 ### Actors
