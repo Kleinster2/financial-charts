@@ -64,6 +64,53 @@ European gas +23% on March 2. ~25% of global [[LNG]] transits Hormuz. Qatar LNG 
 
 ---
 
+## Hormuz dependency — not just oil (Sky News, Mar 2)
+
+[Source: Sky News analysis](https://youtu.be/KRaNainwk5k)
+
+The Strait is a chokepoint for far more than crude:
+
+| Commodity | % of global supply transiting Hormuz |
+|-----------|--------------------------------------|
+| Fertilizer | ~34% |
+| LNG | ~25% |
+| Crude oil | ~20%+ |
+| Petrochemicals / pharma inputs | significant (unquantified) |
+| Grains | inbound to Gulf (import-dependent region) |
+
+### Traffic collapse timeline
+
+| Date | Strait traffic |
+|------|---------------|
+| Friday Feb 27 (pre-strike) | Normal (~100 ships/day) |
+| Saturday Feb 28 (strikes break) | Visibly thinning, ships collecting outside strait |
+| Sunday Mar 1 | Flows down **75%** |
+| Monday Mar 2 | ~6 ships transiting (vs ~100 normal) |
+
+### Ras Laffan shutdown
+
+Qatar's **Ras Laffan** — the world's largest LNG terminal, plugged into the **North Field** (the single largest gas field on earth, shared Qatar/Iran) — **shut down operations** as of Mar 2 after coming under attack. First operational shutdown in history.
+
+### UK gas exposure
+
+UK is rapidly increasing Qatari LNG dependency:
+
+| Year | Qatar share of UK gas |
+|------|----------------------|
+| 2024 | ~2% |
+| 2026+ | Ramping (new 10 BCM/yr contract) |
+| 2035 (projected) | ~20% — more than North Sea |
+
+UK gas prices surged **50% in a single day** on Mar 2 — the biggest one-day move since Russia's invasion of Ukraine (Feb 2022). Level is highest since Feb 2025, but the velocity of the move is the real signal.
+
+### No good alternatives
+
+- **East-West Pipeline** (Saudi): can reroute some crude to Red Sea, but limited spare capacity
+- **Bab el-Mandeb Strait**: Houthi attacks already disrupting Red Sea shipping
+- **Cape of Good Hope**: works for Red Sea bypass but adds weeks; **no alternative exists for Hormuz-dependent flows**
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
