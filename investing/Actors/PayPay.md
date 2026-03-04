@@ -32,15 +32,33 @@
 
 ---
 
-## US listing
+## US listing (Mar 2, 2026 — IPO filed)
 
 | Metric | Value |
 |--------|-------|
-| Exchange | US (confidential filing) |
-| Timeline | 2026 |
-| Structure | IPO |
+| Exchange | **Nasdaq** |
+| Ticker | **PAYP** |
+| Shares offered | ~55M ADSs |
+| Price range | $17-$20 per ADS |
+| Target raise | ~$1.1B at top |
+| Target valuation | **$13.4B** |
+| PayPay offering | ~31M ADSs |
+| SoftBank selling | ~24M shares |
+| Net proceeds to PayPay | ~$555M |
+| SoftBank post-IPO voting | **91.78%** |
 
-Seeking US listing for global investor access and higher multiples vs [[Japan]] market.
+**Cornerstone investors** (up to $220M combined):
+- Qatar Holding (QIA subsidiary)
+- [[Visa]]
+- Abu Dhabi Investment Authority (ADIA)
+
+**Business metrics:**
+- **72M registered users** (end-2025)
+- Revenue: ¥278.5B for 9 months through Dec 2025
+- Profit: ¥103.3B for same period
+- Owns **40% of Binance Japan**
+
+**IPO timing risk:** Road show postponed after markets jolted by [[2026 Iran conflict market impact|Iran conflict]]. Would be among the largest US listings by a Japanese firm.
 
 ---
 

@@ -204,6 +204,22 @@ See [[Pentagon AI access dispute 2026]] for the full event arc — DPA legal ana
 
 *Sources: Axios (Feb 13, 15, 16, 24), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24), NBC (Feb 13, 18)*
 
+### Feb 27-28 — Supply-chain risk designation, government ban
+
+Anthropic did not comply by the Friday 5:01 PM deadline. [[Pete Hegseth]] followed through:
+
+- **Feb 27:** Hegseth designated Anthropic a **"Supply-Chain Risk to National Security"** — a classification normally reserved for foreign adversaries like [[Huawei]]. Effective immediately: **no contractor, supplier, or partner doing business with the US military may conduct any commercial activity with Anthropic.** This is far broader than losing the ~$200M contract — it bars Anthropic from the entire defense ecosystem.
+- **Feb 27:** Trump ordered all US government agencies to stop using Claude.
+- **Feb 28:** [[OpenAI]] swooped in to take Anthropic's contract **hours after the ban**, agreeing to "any lawful purpose" military deployment. [[Sam Altman]]: "Anthropic seemed more focused on specific prohibitions in the contract, rather than citing applicable laws, which we felt comfortable with." OpenAI's deal does **not** explicitly prohibit bulk collection of Americans' publicly available information — the exact issue Anthropic flagged.
+
+**Anthropic's response:** Will challenge the designation in court. Dario: "We cannot in good conscience accede to their request." The company argues the designation is "legally unsound" and "sets a dangerous precedent for any American company that negotiates with the government."
+
+**Legal analysis (Lawfare):** The supply-chain designation is legally novel and unlikely to survive court challenge. It punishes a domestic company for **negotiating contract terms**, not for any security violation.
+
+**Financial impact:** The $200M contract is modest for a company on track for $18B revenue in 2026. But the supply-chain risk designation bars Anthropic from **all** defense contractor relationships — the secondary effects are far more damaging than the contract loss.
+
+*Sources: CNN (Feb 26), CNBC (Feb 27), Fortune (Feb 28), NPR (Feb 27), MIT Technology Review (Mar 2), Lawfare (Mar 1)*
+
 ---
 
 ### Trump AI Czar endorsement at Davos (Jan 23, 2026)

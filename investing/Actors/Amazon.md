@@ -397,7 +397,33 @@ $68.8B face value outstanding (Dec 2025), weighted-average life 14.1 years. Rate
 | Long-term debt | $68.8B face (Dec 2025). See [[Amazon bonds]] |
 | Short interest | **0.76%** (Jan 2026) |
 
-*Updated 2026-02-15*
+*Updated 2026-03-04*
+
+---
+
+## Stock worst month since Dec 2022 (Feb 2026)
+
+AMZN fell **12% in February 2026** — worst month since December 2022. 9-day losing streak in which the stock lost **$450B+ in market value**. Worst performer among Mag 7 for the month.
+
+**Catalyst:** $200B 2026 capex guidance shocked the Street. Free cash flow implications:
+
+| Metric | Value |
+|--------|-------|
+| Operating cash flow | ~$139.5B |
+| Cash capex | ~$128.3B |
+| Reported FCF | ~$11.2B (down from ~$38.2B end-2024) |
+| **Morgan Stanley 2026 FCF est** | **-$17B** |
+| **Bank of America 2026 FCF est** | **-$28B** |
+| ROIC | 12.4% in Q4 (down from 14.8% two quarters prior) |
+
+Would be first negative FCF year since 2022. Big Tech combined 2026 capex now ~$700B:
+
+| Company | 2026 Capex |
+|---------|-----------|
+| **Amazon** | **$200B** |
+| [[Google]] | $175-185B |
+| [[Microsoft]] | ~$150B |
+| [[Meta]] | up to $135B |
 
 ---
 

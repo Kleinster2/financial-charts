@@ -377,9 +377,37 @@ This is one of the "customer win" scenarios that validates the Korea thesis.
 | **Monthly burn** | **~$1B** |
 | Current GPUs | [[NVIDIA]] H100/Blackwell |
 | [[Target]] capacity | 2GW + orbital |
-| X debt load | ~$13B (inherited) |
+| X debt load | ~$12B (inherited from X acquisition) |
+| xAI new debt | ~$5B (Morgan Stanley, incl. $3B HY bonds at 12.5%) |
+| **Combined debt** | **$17.5B** |
 
-*Updated 2026-02-03*
+*Updated 2026-03-04*
+
+---
+
+## $17.5B debt repayment plan (Mar 2, 2026)
+
+Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay **$17.5B in debt in full.**
+
+| Component | Amount | Detail |
+|-----------|--------|--------|
+| Legacy X debt | ~$12B | Inherited when xAI acquired X (early 2025) |
+| xAI new debt | ~$5B | Morgan Stanley-led package |
+| — of which HY bonds | $3B | 12.5% coupon, sold at par, now trading at ~$1.17/dollar |
+
+**How:** Source "yet to be determined" but xAI raised **$20B Series E** (Jan 2026), providing ample liquidity. HY bonds will be redeemed early at ~17 cent premium.
+
+**Why now:** Pre-IPO balance sheet cleanup. [[SpaceX]] IPO targeting mid-2026 — clean debt profile improves the $1.75T valuation narrative.
+
+**Revenue sources (consolidated xAI + X):**
+
+| Stream | Scale |
+|--------|-------|
+| X advertising + premium | >$3.3B ARR (end-2025) |
+| X Premium alone | $1B ARR (Feb 2026) |
+| [[Grok]] subscriptions | ~$300M FY2025 (SuperGrok ~$30/mo, Heavy ~$300/mo) |
+| xAI standalone (ex-X ads) | ~$500M ARR exiting 2025, guided $2B+ in 2026 |
+| Government contracts | $300M DoD contracts + GSA ($0.42/user for 18 months) |
 
 ---
 

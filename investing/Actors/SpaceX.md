@@ -325,7 +325,29 @@ Total shares outstanding: ~55.64M (preferred). [[Elon Musk]] holds ~42% equity w
 | 2025 profit | ~$8B |
 | CEO | [[Elon Musk]] |
 
-*Updated 2026-02-03*
+*Updated 2026-03-04*
+
+---
+
+## PitchBook $1.75T valuation analysis (Mar 3, 2026)
+
+Senior analyst **Franco Granda** published *"When Venus and Jupiter Align"* — sum-of-the-parts places fair value between **$1.1T and $1.7T**, putting $1.75T IPO target at top of range but within it.
+
+**2025 segment breakdown:**
+
+| Segment | Revenue | EBITDA | Margin |
+|---------|---------|--------|--------|
+| [[Starlink]] | $10.6B | $5.8B | 54% |
+| Launch | $5.2B | $1.7B | 33% |
+| **Total** | **~$16B** | | |
+
+**Starlink metrics:** 9.2M subscribers (150+ countries, doubled 2 consecutive years). Direct-to-cell: 6M subscribers via 27 carrier partnerships in ~18 months. Acquired [[EchoStar]]'s wireless spectrum for $19.6B — converts D2C from carrier-dependent roaming into spectrum-owning platform.
+
+**2040 projections:** $150B total revenue. Starlink alone $120B at 70% EBITDA margin. D2C scaling to 1.1B subscribers. Launch $30B as Starship takes over. Implied forward multiple compresses from ~110x to ~12x.
+
+**IPO update:** Regulatory quiet period entered (SEC pre-S-1 step). Raise: $25-30B+, potentially beating [[Saudi Aramco]] 2019 record.
+
+**Key risk (PitchBook):** FAA environmental reviews for vehicle modifications proceeding slower than SpaceX's iteration cycle — single highest risk to 2026 launch cadence.
 
 ---
 

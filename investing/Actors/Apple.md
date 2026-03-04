@@ -358,6 +358,23 @@ Apple launching 5+ products across three days of announcements (press releases M
 
 **Strategic read:** This is Apple's AI hardware push — bringing Apple Intelligence down to entry-level price points across iPhone, iPad, and Mac. The iPhone 17e is the key product: it makes AI features accessible to the budget segment for the first time. Format is press release (not keynote) — Apple saving theatrical events for bigger moments.
 
+### MacBook price increases — memory crunch (Mar 3, 2026)
+
+Apple raised prices across MacBook Air and Pro lines, passing through [[Memory shortage 2025-2026|memory crunch]] costs:
+
+| Model | Old Price | New Price | Increase |
+|-------|-----------|-----------|----------|
+| MacBook Air 13" | $999 | $1,099 | +$100 |
+| MacBook Air 15" | $1,199 | $1,299 | +$100 |
+| MacBook Pro 14" (base M5) | $1,599 | $1,699 | +$100 |
+| MacBook Pro (higher-end) | varies | varies | +$200-$400 |
+
+**Root cause:** [[HBM]] for AI GPUs consumes ~3x the wafer capacity per GB vs DDR5. Every wafer allocated to HBM for an [[NVIDIA]] GPU is a wafer denied to LPDDR5X for consumer devices. Q1 2026 contract prices: conventional DRAM +55-60% QoQ, LPDDR4X/5X **+90% QoQ**, NAND +33-38% QoQ.
+
+**Gartner:** Memory will account for 23% of a PC's total BOM in 2026 (up from 16% in 2025). Average PC prices projected +17% YoY. Meaningful consumer memory relief not expected until 2028-2029.
+
+Apple's scale and premium positioning give it leverage with memory suppliers — it can pass costs to consumers more easily than commodity PC OEMs. But it validates the [[Memory shortage 2025-2026]] thesis in the most visible way: the world's most valuable company raising prices because of AI's memory appetite.
+
 ---
 
 ## Quick stats

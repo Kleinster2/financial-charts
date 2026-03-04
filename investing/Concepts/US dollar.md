@@ -144,12 +144,28 @@ This explains why:
 
 ---
 
+## Iran conflict impact (Feb 28 – present)
+
+[[Operation Epic Fury|2026 Iran conflict]] triggered a sharp dollar rally — DXY from ~97 to ~99.4 in four sessions — but the move is primarily short covering on deep pre-existing bearish positioning, not a structural safe-haven repricing. See [[Iran conflict FX dynamics]] for the full deep dive.
+
+| Metric | Pre-war (Feb 27) | Mar 4 | Change |
+|--------|-------------------|-------|--------|
+| DXY | ~97 | ~99.4 | +2.4% |
+| EUR/USD | ~$1.19 | $1.159 | -2.6% |
+| Fed June cut probability | ~100% | ~55% | Collapsed |
+| 10Y yield | ~4.04% | ~4.08% | Energy inflation repricing |
+
+**Key dynamic:** the war is creating opposing forces. Short-term: safe-haven bid + oil inflation delaying rate cuts = dollar supportive. Medium-term: accelerated [[De-dollarization]] as US military aggression reinforces the case for alternatives. Dollar reserves already at 57% (down from 71% in 2001). Reuters poll of 60 FX strategists (Mar 4) showed consensus *unchanged* — most still expect dollar weakness to resume.
+
+---
+
 ## Key levels (DXY)
 
 | Level | Significance |
 |-------|--------------|
 | 90 | 2020-2021 lows |
-| **96** | **Current (Jan 2026)** — 4-year low |
+| **96** | Pre-war level (Feb 2026) — 4-year low area |
+| **99.4** | **Current (Mar 4)** — war rally high |
 | 100 | Psychological support (broken) |
 | 105 | 2023-2024 range |
 | 114 | 2022 high (peak hawkishness) |
@@ -193,4 +209,4 @@ This explains why:
 
 ---
 
-*Updated 2026-01-28.*
+*Updated 2026-03-04.*

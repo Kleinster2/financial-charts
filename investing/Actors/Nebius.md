@@ -145,6 +145,23 @@ CEO [[Arkady Volozh]] targeting $7-9B annualized revenue run rate by end-2026. P
 
 ---
 
+## UK power flexibility trial (Mar 3, 2026)
+
+Nebius partnered with [[NVIDIA]], National Grid (UK grid operator), Emerald AI, and EPRI for a UK-first trial at a Nebius data center near London. Five-day trial (Dec 2025), results published Mar 2026:
+
+| Finding | Detail |
+|---------|--------|
+| Power demand cut | **Up to 40%** while critical workloads ran normally |
+| Response time | **Under 30 seconds** to grid signal |
+| GPUs tested | 96 [[NVIDIA]] Blackwell Ultra GPUs |
+| Simulated grid events | 200+ real-time |
+
+**Implications:** UK preparing to add 6+ GW of DC capacity by 2030. National Grid estimates flexible operation could provide **2 GW of availability** when required — data centers as virtual power reserves. Sites could qualify for faster/larger grid connections if they agree to flex on request. Challenges the assumption that every MW of DC capacity requires equivalent baseload generation — potentially reducing urgency of nuclear/gas buildout for AI power.
+
+**BloombergNEF context:** DC power demand forecast to reach **106 GW by 2035** (36% jump from prior outlook). US data centers projected at **8.6% of all electricity by 2035** (vs 3.5% today).
+
+---
+
 ## Related
 
 - [[Yandex]] — origin (spun out post-sanctions)

@@ -732,6 +732,7 @@ aliases: []
             "### Cap table",
             "## Ownership",
             "## Financing",
+            "## Funding history",
             "### Funding history",
             "### Valuation history",
         ]

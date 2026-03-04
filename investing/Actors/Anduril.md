@@ -3,13 +3,13 @@ aliases: []
 ---
 #actor #ai #defense #usa #private
 
-**Anduril** — [[Defense]] AI & autonomous systems founded by [[Palmer Luckey]]. **~$31B valuation**, ~$2B revenue (2025), $6B+ in global contracts. Talking IPO. [[Meta]] partnership (Jan 2026).
+**Anduril** — [[Defense]] AI & autonomous systems founded by [[Palmer Luckey]]. ~$31B valuation, ~$2B revenue (2025), $6B+ in global contracts. Talking IPO. [[Meta]] partnership (Jan 2026).
 
 ---
 
 ## Synopsis
 
-**Anduril** is the highest-profile insurgent in the U.S. defense-industrial base — a software-first weapons company built on the thesis that autonomous systems will replace the crewed platforms that legacy primes charge hundreds of millions to maintain. The pitch: AI-backed drones, fighter jets, submarines, and combat vehicles that sit dormant until activated, eliminating the personnel and logistics cost of traditional arsenals. Luckey calls them "Twinkies" — long shelf life, push a button when you need them.
+Anduril is the highest-profile insurgent in the U.S. defense-industrial base — a software-first weapons company built on the thesis that autonomous systems will replace the crewed platforms that legacy primes charge hundreds of millions to maintain. The pitch: AI-backed drones, fighter jets, submarines, and combat vehicles that sit dormant until activated, eliminating the personnel and logistics cost of traditional arsenals. Luckey calls them "Twinkies" — long shelf life, push a button when you need them.
 
 The business has scaled fast: ~$2B revenue in 2025, $6B+ in global contracts, nearly $7B raised at ~$31B valuation. Anduril won a spot in the Air Force's Collaborative Combat Aircraft program (April 2024) over [[Boeing]], [[Lockheed Martin]], and [[Northrop Grumman]], and has picked up targeted contracts — $99M Air Force autonomy software (Feb 2025), Microsoft's Army VR headset program (Feb 2025), $642M Marine Corps counter-drone (Mar 2025). A $1B factory near Columbus, Ohio is planned for up to 4,000 workers.
 
@@ -23,14 +23,14 @@ Leading defense tech startup:
 
 | Metric | Value |
 |--------|-------|
-| Valuation | **~$31B** (2025) |
-| Raised | **~$7B** |
+| Valuation | ~$31B (2025) |
+| Raised | ~$7B |
 | Founded | 2017 |
 | Founder | [[Palmer Luckey]] |
 | CEO | [[Brian Schimpf]] (ex-[[Palantir]]) |
-| Revenue | **~$2B** (2025) |
-| Global contracts | **$6B+** |
-| Employees | **7,000+** |
+| Revenue | ~$2B (2025) |
+| Global contracts | $6B+ |
+| Employees | 7,000+ |
 
 ---
 
@@ -46,6 +46,34 @@ Founder (not CEO) — Luckey avoids day-to-day corporate management and focuses 
 - Leads a "$1B+ founders" group chat ("B-boys club") discussing US-China conflict scenarios
 
 See [[Palmer Luckey]] for full profile.
+
+---
+
+## Leadership
+
+| Name | Role | Background |
+|------|------|------------|
+| [[Palmer Luckey]] | Founder | Oculus VR founder, sold to [[Meta]] for $2B. Focuses on product, not operations. |
+| [[Brian Schimpf]] | CEO | Previously head of engineering at [[Palantir]]. Runs day-to-day. |
+| [[Trae Stephens]] | Co-founder | Partner at [[Founders Fund]]. Defense/intelligence background. |
+
+---
+
+## Evolution
+
+The story of Anduril is the story of a grudge that became a thesis — and a thesis that happened to arrive at exactly the moment the Pentagon needed it.
+
+- 2017: [[Palmer Luckey]], fired from [[Meta]] at 24 with no explanation after a $9K political donation became a company-wide scandal, founded Anduril as a deliberate rejection of Silicon Valley's anti-defense consensus. The name comes from Aragorn's reforged sword in Lord of the Rings (the initials A.I. were a convenient bonus). [[Brian Schimpf]], ex-head of engineering at [[Palantir]], became CEO; [[Trae Stephens]] from [[Founders Fund]] co-founded. Luckey considered startups in obesity or prison reform but landed on defense — his grandfather flew for the military in Desert Storm, he'd interned on VR for veteran PTSD treatment, and the topic was unpopular enough to appeal to his contrarian streak. The company was based in Southern California, not the Bay Area — a geographic statement as much as a strategic one.
+
+- 2017: Anduril's first product was a border protection system with laser sensors for tracking people and identifying them — directly inspired by Trump's first-term border wall rhetoric. Luckey pitched Customs and Border Protection in June 2017, offering to self-fund development (a Silicon Valley move alien to defense contracting). By year-end the system was selected for testing along the San Diego-Mexico border. The business model was established early: build first, sell second. Own your IP rather than doing cost-plus government work.
+
+- 2019-2020: Raised $200M at $1.9B (Series C), then another $200M at $4.6B (Series D). Expanded from border tech into autonomous drones (Ghost), underwater vehicles (Dive-LD), and the Lattice AI operating system that ties all products together. The Roadrunner counter-drone interceptor — jet-powered, reusable, lands vertically — became a signature product. Revenue was still small but the Pentagon was paying attention.
+
+- 2022: Russia's invasion of [[Ukraine]] gave Luckey a live battlefield. On a weeklong trip, he watched Ukrainian soldiers pilot $3K Chinese consumer drones — half the cost of a traditional artillery shell — to precisely hit Russian targets. The autonomous warfare thesis was being proven in real time by hobbyist hardware. [[Ukraine]] agreed to test Anduril's Ghost drones and Altius autonomous munitions. Results were mixed: Ghost drones failed when they lost GPS signal and the Ukrainian army stopped using them. Altius performed better but was expensive relative to alternatives. The failures didn't slow fundraising — Series E brought $1.5B at $8.5B.
+
+- 2024: The year Anduril broke into the top tier. Series F raised another $1.5B at $14B. In April, Anduril beat [[Boeing]], [[Lockheed Martin]], and [[Northrop Grumman]] for a spot in the Air Force's Collaborative Combat Aircraft program — the effort to build unmanned autonomous fighter jets. Beating all three legacy primes on their home turf was the credibility inflection. Luckey took lawmakers and defense officials on tours of the SoCal factory, showed off VR goggles and his military vehicle collection, took them out on his retired Navy Mark V Special Operations Craft. Senator Kevin Cramer (R-ND) visited in February, later created the Senate Defense Modernization Caucus.
+
+- 2025: Trump's second term was purpose-built for Anduril's pitch. Before inauguration, Luckey personally suggested renaming the Department of Defense to the Department of War — Trump did it. Defense Secretary [[Pete Hegseth]] visited Anduril HQ in December, posted publicly that they were "rebuilding the Arsenal of Freedom." Contracts accelerated: $99M Air Force autonomy software (Feb), Microsoft's Army VR headset program taken over (Feb), $642M 10-year Marine Corps counter-drone contract (Mar). In May, the [[Meta]] reconciliation became official — a VR/AR battlefield partnership that gave Luckey access to the patent portfolio he'd originally created at Oculus. Revenue hit ~$2B, contracts exceeded $6B globally, headcount passed 7,000. Luckey launched an "I told you so tour" of media appearances. Later rounds pushed valuation to ~$31B with nearly $7B raised total. A $1B factory near Columbus, Ohio was announced (Arsenal-1, up to 4,000 workers). IPO discussions began.
 
 ---
 
@@ -150,8 +178,8 @@ Significance: Major consumer tech company partnering with defense startup. The d
 Luckey visited [[Ukraine]] for a week in 2022, observed how $3K Chinese consumer drones (half the cost of a traditional artillery shell) were precisely attacking targets.
 
 Field test results (mixed):
-- **Ghost drones**: failed when they lost GPS signal — Ukrainian army stopped using them
-- **Altius munitions**: more successful but expensive compared to alternatives — Anduril says deliveries continue
+- Ghost drones: failed when they lost GPS signal — Ukrainian army stopped using them
+- Altius munitions: more successful but expensive compared to alternatives — Anduril says deliveries continue
 - Experience informed Anduril's autonomy-first design philosophy — systems that can operate without GPS or continuous comms
 
 ---
@@ -168,15 +196,15 @@ Autonomous systems depend on rare earth permanent magnets:
 
 Dec 2025 military denial: [[China]] blocks all rare earth exports to military-affiliated buyers. See [[Rare earth leverage]].
 
-**Risk**: As a defense startup, Anduril has less stockpile buffer than [[Lockheed Martin]]. Supply chain disruption could delay production.
+Risk: As a defense startup, Anduril has less stockpile buffer than [[Lockheed Martin]]. Supply chain disruption could delay production.
 
-**Mitigation**: Smaller product volumes than legacy primes. [[AUKUS]] partners ([[Australia]]) developing rare earth capacity.
+Mitigation: Smaller product volumes than legacy primes. [[AUKUS]] partners ([[Australia]]) developing rare earth capacity.
 
 ---
 
 ## Investment case
 
-**Bull:**
+Bull:
 - Trump allocated $1T+ for military modernization — Anduril directly aligned
 - CCA win over all three legacy primes validates technology credibility
 - ~$2B revenue, $6B+ contracts — real business, not just demos
@@ -185,7 +213,7 @@ Dec 2025 military denial: [[China]] blocks all rare earth exports to military-af
 - [[AUKUS]] tailwind, [[Meta]] partnership expands capabilities
 - IPO path gives liquidity event
 
-**Bear:**
+Bear:
 - Ukraine field tests exposed weaknesses (Ghost GPS failure)
 - Pentagon officials privately flag scaling risk — less infrastructure than primes
 - Still has to prove mass production capability (Ohio factory not yet built)
@@ -199,7 +227,7 @@ Dec 2025 military denial: [[China]] blocks all rare earth exports to military-af
 
 ## Manufacturing
 
-**Arsenal-1** — $1B factory planned near Columbus, Ohio. Up to 4,000 workers. Intended for scaled production of autonomous systems.
+Arsenal-1 — $1B factory planned near Columbus, Ohio. Up to 4,000 workers. Intended for scaled production of autonomous systems.
 
 Anduril has talked about going public — IPO discussions underway as of early 2026. Also looking for additional funding.
 
@@ -216,9 +244,9 @@ Anduril has talked about going public — IPO discussions underway as of early 2
 | Series E | 2022 | $1.5B | $8.5B |
 | Series F | 2024 | $1.5B | $14B |
 | Later rounds | 2024-25 | — | ~$31B |
-| **Total** | | **~$7B** | |
+| Total | | ~$7B | |
 
-**Key investors:**
+Key investors:
 
 | Investor | Notes |
 |----------|-------|
@@ -230,7 +258,7 @@ Anduril has talked about going public — IPO discussions underway as of early 2
 | [[Elad Gil]] | Angel |
 | [[Lux Capital]] | Growth |
 
-**Total raised:** ~$7B
+Total raised: ~$7B
 
 ---
 
@@ -249,7 +277,7 @@ Hegseth's push to apply AI expansively in defense led to a clash with [[Anthropi
 | Metric | Value |
 |--------|-------|
 | Ticker | Private (IPO discussions underway) |
-| Valuation | **~$31B** |
+| Valuation | ~$31B |
 | Founder | [[Palmer Luckey]] |
 | CEO | [[Brian Schimpf]] |
 | Focus | Autonomous defense |

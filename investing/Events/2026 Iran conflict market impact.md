@@ -48,6 +48,7 @@ The [[US-Iran nuclear escalation February 2026|Feb 18 scenario analysis]] predic
 | **Defense** | [[Iran conflict defense repricing]] | Hardware/kinetic names led (+2-6%); AVAV reversed -17% on SCAR recompetition; defense IT flat |
 | **Energy** | [[Iran conflict energy disruption]] | Hormuz effectively closed; ~40M bbl disrupted in 2 days; European gas +23%; Qatar LNG halted |
 | **Insurance** | [[Iran conflict insurance impact]] | Coverage withdrawal, not repricing; P&I clubs canceling Gulf war risk; equities sold on tail risk |
+| **FX** | [[Iran conflict FX dynamics]] | Dollar rally is positioning squeeze; EUR/USD hit 3-month low; de-dollarization accelerating |
 
 ---
 
@@ -192,6 +193,42 @@ The tape tells a clear story: US equity markets are pricing a **short, successfu
 
 ---
 
+## Day 5 — March 4 (intraday, pre-US close)
+
+### Conflict developments (Mar 4)
+
+- **Iran peace outreach:** NYT reports Iranian operatives have offered to discuss terms for ending the war — first concrete diplomatic signal since strikes began
+- Israel campaign reportedly "ahead of schedule" — going through target list faster than the 2-week plan
+- Fog of war persists: unclear who in Tehran has authority to negotiate (Khamenei dead, president dead, potential successors sending contradictory signals)
+
+### FX — the big story today
+
+Dollar fell the most in nearly a month on the Iran outreach report. See [[Iran conflict FX dynamics]] for the full deep dive.
+
+| Metric | Level | Move | Notes |
+|--------|-------|------|-------|
+| DXY | ~99.4 → pulling back | -0.4% intraday | Biggest drop in a month on peace outreach |
+| EUR/USD | $1.1593 | Recovering from $1.1528 low | Breached 200-day MA yesterday |
+| USD/JPY | ~157 | ¥158 intervention line holding | Japan MOF threatening intervention |
+| WTI crude | ~$75.60 | Consolidating $74-77 range | Down from $79 peak |
+| Gold | ~$5,200 | Stabilizing after -4.48% reversal | Profit-taking continues |
+| 10Y yield | ~4.08% | +2bp | Inflation repricing still dominant |
+| KOSPI | **-12%** | Single-session crash | Still +21% YTD |
+
+### Reuters FX strategist poll (Mar 4)
+
+60 analysts surveyed during the first week of fighting:
+- **Consensus unchanged:** EUR/USD $1.18 end-March, $1.20 in six months
+- Dollar rally seen as **positioning squeeze**, not structural safe-haven bid
+- Only 5 of 45 strategists expect reversal to net long dollar by end-March
+- Fed rate cut expectations: June cut now only ~55% probability (was fully priced Feb 10)
+
+### Day 5 synthesis
+
+The FX market is telling a different story than equities. While stocks are pricing a quick war (dip-buying two sessions running), the currency market reveals the fragility: the dollar's 2.4% rally was built on short covering from the deepest net-short positioning since 2020, and it reversed hard the instant a peace signal appeared. The Reuters poll confirms: professional FX strategists haven't changed their year-end calls at all. If the conflict resolves quickly — which equities clearly expect — the dollar gives back the war premium and resumes its 2025-2026 downtrend. The bigger risk is structural: each act of US military/financial aggression accelerates the de-dollarization trend that's already taken dollar reserves from 71% to 57% over two decades.
+
+---
+
 ## Portfolio implications
 
 | Theme | Action | Rationale |
@@ -214,6 +251,7 @@ Key variable is duration. A resolved conflict (days) = mean-reversion in oil/def
 - [[Iran conflict defense repricing]] — defense sector deep dive
 - [[Iran conflict energy disruption]] — energy/oil/LNG deep dive
 - [[Iran conflict insurance impact]] — insurance sector deep dive
+- [[Iran conflict FX dynamics]] — dollar, euro, yen, EM currency dynamics
 - [[Iran conflict long-short basket]] — thesis
 - [[Defense]] — sector hub
 - [[Strait of Hormuz]] — oil chokepoint

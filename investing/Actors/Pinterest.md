@@ -81,6 +81,31 @@ Ready brought e-commerce expertise.
 
 ---
 
+## Elliott Management $1B investment (Mar 3, 2026)
+
+[[Elliott Management]] invested **$1B in 1.75% convertible senior notes** (due Mar 2031), becoming Pinterest's largest shareholder. Conversion price: $22.72/share (30% premium to Mar 2 close).
+
+| Detail | Value |
+|--------|-------|
+| Prior stake | 4.8% (~$725M), 3rd-largest shareholder |
+| New investment | $1B convertible notes |
+| Conversion price | $22.72 (30% premium) |
+| Maturity | March 1, 2031 |
+| Interest | 1.75%/year |
+| Board seat | Marc Steinberg through 2029 |
+
+**Buyback program triggered:**
+- New **$3.5B share repurchase** program (replacing prior)
+- **$2.0B near-term** (H1 2026):
+  - $1B accelerated share repurchase with [[Goldman Sachs]] (Mar 5 start)
+  - $500M via 10b5-1 plans
+  - $473M already completed
+- Elliott's $1B convertible proceeds fund the second $1B ASR
+
+**Stock reaction:** +9-10%. Elliott's thesis: AI-driven advertising growth — visual search and recommendation engine positions Pinterest as beneficiary of AI-powered ad targeting.
+
+---
+
 ## Investment case
 
 **Bull:**
@@ -88,6 +113,7 @@ Ready brought e-commerce expertise.
 - Shopping pivot
 - Under-monetized vs. Meta
 - Bill Ready execution
+- Elliott backing + $3.5B buyback = capital return catalyst
 
 **Bear:**
 - User growth slowing

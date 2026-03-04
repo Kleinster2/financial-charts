@@ -154,8 +154,13 @@ The plan is to replicate this model → Dubai → Riyadh → Singapore (via Grab
 | 1,200 robotaxis announced | Feb 6, 2026 | Deployment across entire Middle East, completion ~2027 |
 | Riyadh launch | Oct 2025 | First publicly available robotaxi in Saudi Arabia (via Uber) |
 | Dubai trial permit | Sep 2025 | Safety-driver operation; full driverless expected 2026 |
+| **Dubai fleet suspended** | **Mar 3, 2026** | **[[2026 Iran conflict market impact\|Iran conflict]] — operations halted as conflict widened to Gulf states** |
 
 **Scale plan:** 100 vehicles today → 500 by end 2026 → "tens of thousands" by 2030.
+
+### Iran conflict disruption (Mar 3, 2026)
+
+WeRide suspended its robotaxi fleet in Dubai as the [[2026 Iran conflict market impact|Iran conflict]] widened to Gulf states. [[Iran]] struck Gulf states hosting US bases, paralysing energy shipments and hundreds of flight routes. Dubai operations halted — the first direct impact of the conflict on autonomous vehicle deployments. Abu Dhabi and Riyadh status unclear but likely affected given proximity to strike zones. This is a setback for the "Abu Dhabi model" unit economics thesis — the template market is now in a conflict zone.
 
 ---
 

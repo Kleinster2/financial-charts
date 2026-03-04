@@ -349,4 +349,58 @@ See [[Rare earth leverage]] for geopolitical context.
 **Analysts:**
 - [[Morgan Stanley]] — top European semi pick
 
-*Updated 2026-01-28*
+*Updated 2026-03-04*
+
+---
+
+## Beyond EUV strategy (Reuters exclusive, Mar 2, 2026)
+
+New CTO **Marco Pieters** (promoted Oct 2025, succeeding Martin van den Brink) is expanding ASML from sole EUV supplier into a broader AI-era chipmaking tool platform. Three pillars on a 10-15 year horizon:
+
+### 1. Advanced packaging tools — TWINSCAN XT:260
+
+New scanning tool for advanced 3D chip packaging (disclosed Q3 2025 earnings):
+
+| Spec | Value |
+|------|-------|
+| Wavelength | i-line (365nm) step-and-scan |
+| Wafer size | 300mm |
+| Throughput | **270 WPH** (4x previous packaging solutions) |
+| Image field | 52mm × 66mm — interposers up to **3,432 mm²** without stitching |
+| Dose | 340 mJ |
+| Target market | [[HBM]] wafer-based and hybrid-bonding for AI chips |
+
+Advanced packaging market: $42-51B (2025) → $70-90B by 2034. Analysts project ASML could capture 5-10% tooling share over a decade. Threatens [[Onto Innovation]] (incumbent).
+
+### 2. Larger chip field size
+
+Engineers exploring optical and mechanical redesigns to expand the printable field beyond current postage-stamp limit. AI chips have grown significantly in physical size.
+
+### 3. Next-gen EUV wavelengths
+
+Exploring novel optics, potential next-generation wavelengths, and auxiliary systems that could work alongside or eventually succeed EUV in HVM.
+
+### 1000W EUV light source breakthrough (Feb 24, 2026)
+
+Demonstrated **1,000W EUV light source** under factory-ready conditions (up from current 600W):
+
+| Metric | Current | 1000W |
+|--------|---------|-------|
+| Tin droplet rate | ~50K/sec | **100K/sec** |
+| Laser sequences | 1 | **2 distinct sequences, 3 lasers** |
+| Throughput | ~220 WPH | **330 WPH** (+50%) |
+| Deployment | — | **~2030** |
+
+### EUV roadmap to Hyper-NA
+
+| System | NA | Timeline | Cost | Capability |
+|--------|-----|----------|------|------------|
+| Low-NA EUV | 0.33 | Current | ~€170M | Production workhorse |
+| High-NA EUV (EXE:5000/5200B) | 0.55 | 2025-2026 | $350-400M | 1nm production |
+| EXE:5400 | 0.55 | ~2028 | — | 3rd gen High-NA |
+| EXE:5600 | 0.55 | ~2030 | — | 4th gen, flexible illuminators |
+| **Hyper-NA EUV** | **0.75-0.85** | **~2030** | **~$720M** | Below 0.2nm (2 angstroms) |
+
+With multi-patterning, EXE series can reach 0.5nm (5 angstroms) by 2033. Hyper-NA targets nodes below 0.2nm.
+
+10-year vision: unified EUV platform spanning Low-NA → High-NA → Hyper-NA.

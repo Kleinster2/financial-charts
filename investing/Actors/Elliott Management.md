@@ -38,8 +38,13 @@ aliases: [Elliott, Elliott Investment Management]
 | **[[Dell]]** | 2013 | Opposed take-private |
 | **Salesforce** | 2023 | Board seats, changes |
 | **[[Pinterest]]** | 2022 | Strategic review |
+| **[[Pinterest]]** | **2026** | **$1B convertible note, $3.5B buyback, largest shareholder** |
 | **[[PayPal]]** | 2022 | Cost cuts |
 | **Softbank** | 2020 | Asset sales |
+
+### Pinterest $1B investment (Mar 3, 2026)
+
+Elliott was already Pinterest's 3rd-largest shareholder (4.8% stake, ~$725M). New $1B in 1.75% convertible senior notes due March 2031, conversion price $22.72/share (30% premium). Now [[Pinterest]]'s largest shareholder. Triggered $3.5B buyback program — $2B in near-term repurchases (H1 2026) including $1B accelerated share repurchase with [[Goldman Sachs]]. Elliott retains Marc Steinberg on Pinterest board through 2029. Thesis: AI-driven advertising growth. PINS stock +9-10% on announcement.
 
 ---
 

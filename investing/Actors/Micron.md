@@ -106,7 +106,23 @@ Micron benefits from the same [[Memory shortage 2025-2026]] dynamics as Korean p
 | **FQ1 2026 revenue** | $13.6B (+57% YoY), record |
 | **FQ2 2026 guide** | $18.7B, ~68% GM (record) |
 
-*Updated 2026-02-12*
+*Updated 2026-03-04*
+
+---
+
+## Apple MacBook price hikes validate memory crunch (Mar 3, 2026)
+
+[[Apple]] raised MacBook Air/Pro prices by $100-$400, explicitly driven by memory costs. This is the most visible consumer-facing confirmation of the [[Memory shortage 2025-2026]]:
+
+- Q1 2026 contract DRAM prices: +55-60% QoQ
+- LPDDR4X/5X: **+90% QoQ**
+- NAND: +33-38% QoQ
+- Demand growing ~35% in 2026 vs supply growth ~23% — widest gap in decades
+- AI forecast to consume **20% of global DRAM wafer capacity** in 2026
+- Gartner: memory = 23% of PC BOM in 2026 (vs 16% in 2025), average PC prices +17% YoY
+- Meaningful consumer memory relief not expected until **2028-2029**
+
+Micron exiting Crucial consumer brand (Feb 2026) + Apple passing costs to consumers = the squeeze is real and accelerating. Every HBM wafer for an [[NVIDIA]] GPU is a wafer denied to LPDDR5X for consumer devices.
 
 ---
 
