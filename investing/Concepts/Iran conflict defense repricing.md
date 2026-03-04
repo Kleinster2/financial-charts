@@ -66,6 +66,24 @@ US primes were the biggest delta — they barely moved on Feb 18 (already priced
 
 ---
 
+## Interceptor depletion — investment angle (Kagan, AEI, Mar 3)
+
+Source: [School of War Ep. 282](https://youtu.be/Vt6Mvxnf_TI)
+
+[[Fred Kagan]] (AEI Critical Threats Project) flagged interceptor stockpile depletion as a Pentagon accountability crisis: "Why are we short of interceptors four years into supporting Ukraine fighting an air missile war?" Called for mass production to be Hegseth's top priority.
+
+**The strike-intercept race:** coalition is destroying Iranian drone/missile storage and production facilities, aiming to exhaust Iran's launch capability before running short of interceptors. This is working but creates urgency.
+
+**Ukraine-Gulf cooperation opportunity:** Ukraine has developed cost-effective drone-on-drone interception (FPV drones vs Shaheds, Mirov interceptor drones). Gulf states need this tech as interceptor stocks deplete; Gulf states have cash Ukraine needs to scale production. Zelensky already called MBZ offering technical assistance.
+
+**Investment read-through:**
+- Interceptor production scale-up = multi-year procurement tailwind for [[RTX]] (Patriot), [[Lockheed Martin]] (THAAD), [[Raytheon]] missiles division
+- Low-cost interceptor drones = growth opportunity for drone pure-plays ([[AeroVironment]], [[Kratos Defense]], Shield AI)
+- Gulf defense spending likely to accelerate regardless of conflict duration — these countries just experienced what inadequate air defense feels like
+- Ukraine drone industry could attract significant Gulf investment (cash-for-tech deals)
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note
