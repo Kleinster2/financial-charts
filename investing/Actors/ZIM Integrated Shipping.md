@@ -110,6 +110,17 @@ ZIM does **not** self-insure. It relies on commercial marine insurance (P&I club
 - **National service obligation:** ZIM's CEO pledged ships to transfer cargo for the Ministry of Defense and government "as a first priority" — a quasi-nationalized role during conflict, but without a corresponding insurance guarantee.
 - **Biggest risk:** if commercial war risk coverage becomes unavailable (not just expensive) for Israeli-flagged/Israeli-owned vessels, ZIM faces an existential operational question — you can't sail uninsured.
 
+### Why no self-insurance matters for the arb
+
+ZIM's full dependency on commercial underwriters is one of the reasons the merger arb spread sits at 25% instead of 10%. If ZIM self-insured, the risk would be on their balance sheet but they'd have certainty of coverage — they could keep sailing regardless of market conditions.
+
+Because they don't, three scenarios exist if war risk coverage becomes unavailable:
+1. **Sail uninsured** — impossible; port authorities won't accept uninsured vessels
+2. **Israeli government backstop** — precedent exists for airlines (El Al, Oct 2023), not yet for shipping
+3. **Stop operating affected routes** — this could trigger a **MAC clause** and give Hapag-Lloyd a legal exit from the $4.2B deal
+
+Practical risk is currently low because ZIM's main routes (Asia–Americas, intra-Asia) don't transit Hormuz or the Gulf, and P&I cancellations target Gulf war zones specifically, not Israeli-owned ships globally. ZIM has operated under Houthi threat since 2023 via rerouting + customer surcharges. But the tail risk is real enough that the market won't price it out while Israel is in an active multi-front war.
+
 ---
 
 ## Merger arb spread
