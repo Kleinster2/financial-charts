@@ -25,6 +25,9 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Feb 19, 2026** | Alt managers sell off: OWL -8.7%, APO -6%, BX -6%, ARES -6%, KKR -4%, CG -5% |
 | **Feb 19, 2026** | Sen. Warren calls for capital requirements, disclosure, stress tests for private credit |
 | **Feb 20, 2026** | OWL -6% again (2-day cumulative ~15%). CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
+| **Mar 3, 2026** | **Blackstone BXSL** allows record **7.9% share redemptions** from flagship private credit fund |
+| **Mar 5, 2026** | **BlackRock TCP** writes down $25M Infinite Commerce loan **100 → 0 in one quarter**; second sudden wipeout (after Renovo in Nov); cuts dividend 25¢ → 17¢; 91% of valuation cuts from 2021-vintage deals |
+| **Mar 5, 2026** | Marc Rowan ([[Apollo]]) warns **shakeout coming** for private credit firms; same day Arougheti ([[Ares Management\|Ares]]) calls UBS 15% default forecast "absolutely wrong" |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously |
 
 ---
@@ -72,6 +75,21 @@ Retail investors are running **before defaults even spike** — non-accruals at 
 - Survived 2022 redemption spike via quarterly caps
 - Any sign of stress here = systemic escalation
 - Quarterly 5% cap means it takes 5 years to fully exit
+
+### BlackRock TCP — Infinite Commerce Holdings (Mar 5, 2026)
+- **$25M loan marked from 100 to 0 in one quarter** — zero recovery
+- Borrower is an "Amazon aggregator" (buys online marketplace sellers)
+- Infinite Commerce merged with another BlackRock debtor, **Razor Group**, in August — creating new debt structure valued at par
+- Previously, BlackRock had valued Razor loans at deeply distressed levels — the merger *reset marks to par*, then the combined entity immediately deteriorated
+- **Victory Park** also fully wrote off its Infinite Commerce position — blamed poor demand + tariff-driven inventory costs
+- BlackRock TCP also partially wrote down **SellerX** (another Amazon aggregator)
+- **Second sudden wipeout** for BlackRock TCP after Renovo Home Partners (Nov 2025)
+- **91% of valuation cuts** across the portfolio from 2021 or earlier vintage deals
+- Fund cut dividend from 25¢ to 17¢ per share → shares tumbled
+
+**The marks game exposed:** The Infinite Commerce saga shows how private credit valuation can be gamed. BlackRock held deeply distressed Razor Group loans → Razor merges with Infinite Commerce → new debt structure → marks reset to par at 100¢ → three months later, written to zero. The merger gave a one-quarter window where the books looked clean. Whether intentional or not, the optics are terrible.
+
+**Amazon aggregator context:** The entire sector boomed during COVID (Thrasio, Razor, Perch, SellerX) on a thesis of consolidating Amazon marketplace sellers. Most are now in restructuring or distress. It's a concentrated pocket of private credit losses.
 
 ### Ares ARCC (watching)
 - **$26B+** — largest publicly traded BDC
@@ -146,6 +164,10 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Jamie Dimon (late 2025):** Private credit's *"cockroaches"* — stress in one borrower signals more hidden trouble.
 
+**Marc Rowan (Apollo CEO, Mar 5):** Warned that **a shakeout is coming for private credit firms** — biggest name in the industry publicly acknowledging the reckoning.
+
+**Mike Arougheti (Ares CEO, Mar 5):** Called UBS forecast of **15% private credit default rates** "absolutely wrong" — same day as Rowan's shakeout warning. The industry can't agree on whether this is fine or existential.
+
 **Mark Zandi (Moody's):** *"The private credit industry is probably currently able to absorb any losses reasonably well, this may not be the case a year from now."*
 
 ---
@@ -158,7 +180,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | **March 31 quarter-end** | Next redemption window for all semi-liquid funds | Mar 31 |
 | **OBDC redemption requests** | Blue Owl's $16B+ fund — any spike = escalation | Quarterly |
 | **ARCC quarterly report** | Largest BDC ($26B+), industry canary | Next earnings |
-| **BCRED flows** | Blackstone's $50B+ non-traded fund | Quarterly |
+| **BCRED/BXSL flows** | Blackstone's $50B+ non-traded fund; BXSL allowed record 7.9% redemptions (Mar 3) | Quarterly |
 | **Software default rates** | Currently 4.55% middle-market. Deutsche Bank models 13% under aggressive AI | Ongoing |
 | **PIK loan growth** | Payment-in-kind = borrowers can't service cash interest | Quarterly |
 | **Warren legislation** | Capital requirements, disclosure, stress tests | Congressional calendar |
@@ -177,8 +199,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 | Middle-market default rate | 4.55% |
 | Alt manager contagion | OWL -8.7%, APO/BX/ARES -6%, KKR -4% |
 
-*Sources: Bloomberg (Fishlow/DiMauro/Brown), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank (Feb 2026)*
-*Created 2026-02-19*
+*Sources: Bloomberg (Fishlow/DiMauro/Brown/Scigliuzzo), Reuters, CNBC, Robert A Stanger & Co., Deutsche Bank (Feb 2026)*
+*Updated 2026-03-05*
 
 ---
 
