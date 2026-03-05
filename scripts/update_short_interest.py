@@ -37,6 +37,8 @@ PRIORITY_TICKERS = [
     'PLTR', 'COIN', 'SNOW', 'DDOG', 'NET', 'CRWD', 'PANW', 'ZS', 'MDB',
     # EVs
     'RIVN', 'LCID', 'NIO', 'LI', 'XPEV',
+    # Private credit / alt managers
+    'OWL', 'ARCC', 'ARES', 'BX', 'APO', 'KKR',
     # Other notable
     'GME', 'AMC', 'BBBY', 'CVNA', 'SMCI', 'MSTR',
 ]

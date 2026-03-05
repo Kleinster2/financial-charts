@@ -208,6 +208,21 @@ First earnings report as a public company. Blowout results drove a **+35.5% two-
 
 ---
 
+## Iran conflict tailwind (Mar 1-4, 2026)
+
+CRCL surged **+20% in the first week** of the [[2026 Iran conflict market impact|Iran conflict]], closing at $96.14 on March 4 (+15.2% from pre-strike levels). This came on top of a +45% post-earnings short squeeze the prior week.
+
+**Mizuho analysis:** Higher oil prices from Iran/Hormuz disruption → elevated inflation expectations → rate cuts pushed out → Circle keeps earning more on $75B+ USDC reserves. Mizuho raised PT from $90 to $100, maintaining Neutral.
+
+**Additional catalysts (same week):**
+- BTC recovered above $73K, supporting crypto sentiment
+- Trump administration comments on the "CLARITY Act" for stablecoins (deadline March 1)
+- CME FedWatch: probability of *zero* rate cuts in 2026 roughly doubled — right-tail scenario that supports Circle's reserve income model
+
+**The irony:** Circle benefits from the exact inflation dynamic that's crushing consumer discretionary. Higher-for-longer rates = more reserve income. War is bullish for stablecoins.
+
+---
+
 ## Related
 
 - [[Coinbase]] — partner, USDC co-creator

@@ -100,6 +100,12 @@ Relevant for space DC deployment.
 
 ---
 
+## March 2026: wartime satellite imagery demand
+
+PL surged **+9.2%** to $26.36 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] drove demand expectations for satellite imagery — military intelligence, damage assessment, maritime surveillance ([[Strait of Hormuz]] ship tracking), and open-source intelligence (OSINT) applications all benefit from Planet's daily global imaging capability.
+
+---
+
 ## Related
 
 - [[Google]] — Project Suncatcher partner

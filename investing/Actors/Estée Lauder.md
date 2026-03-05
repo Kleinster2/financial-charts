@@ -139,4 +139,8 @@ aliases: [EL, Estee Lauder Companies, ELC]
 - [[China]] — key demand driver
 - [[Consumer]] — parent sector
 
+## March 2026: conflict-driven consumer selloff
+
+EL dropped **-8.5%** to $100.19 on March 4, 2026 (breaching $100 for the first time). Part of a broader consumer discretionary selloff driven by oil/inflation fears from the [[2026 Iran conflict market impact|Iran conflict]]. Sold off alongside [[Wayfair]] (-9.8%) and [[RH]] (-8.8%). For a company already down ~80% from peak with heavy China/travel retail exposure, the added inflation headwind compounds an already difficult recovery story.
+
 *Created 2026-01-24*

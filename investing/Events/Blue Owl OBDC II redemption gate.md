@@ -27,6 +27,7 @@ aliases: [OBDC II gate, Blue Owl redemption halt, private credit gate February 2
 | **Feb 20, 2026** | Selloff continues: OWL **-6%** again. CNBC "canary in the coal mine" piece. Rasmussen (Verdad): "private markets bubble finally starting to burst" |
 | **Feb 20, 2026** | [[Saba Capital]] and [[Cox Capital Partners]] announce intention to launch tender offers for OBDC II, OTIC, and OCIC shares at **20-35% discount to NAV**. OWL +2.2% after-hours |
 | **Feb 22, 2026** | OWL hits **lowest level in ~2.5 years**. OBDC ~-20% over 6 months, OTF ~-16%. Lipschultz claims "largely green flags" on earnings call; Schorr (Evercore ISI) counters that investors will focus on what wasn't sold |
+| **Mar 4, 2026** | Short interest hits all-time high: **14.65%** of free float (S3 Partners), **17.9%** (S&P Global). Most borrowed US stock per EquiLend — 19M+ shares, borrowing up 46% MoM, financing rates up 266%. OWL +2.6% in broad rally but YTD ~-33% |
 
 ---
 

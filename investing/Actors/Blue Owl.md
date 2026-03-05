@@ -268,6 +268,27 @@ Software is only **4 of top 25 investments**. Concentration will remain capped o
 
 ---
 
+## Short interest hits record (Mar 4, 2026)
+
+Bearish bets on OWL climbed to all-time highs despite the stock already losing ~33% YTD:
+
+| Source | Metric | Value | Prior |
+|--------|--------|-------|-------|
+| S3 Partners | % free float short | **14.65%** (record) | 14.3% (Dec 2025 prior record) |
+| S&P Global Market Intelligence | % free float short | **17.9%** (Mar 3 close) | 14.9% (prior Tuesday) |
+| EquiLend | Shares borrowed | **19M+** (most borrowed US stock, Mar 4) | — |
+| EquiLend | Shares borrowed MoM change | **+46%** | — |
+| EquiLend | Financing rates MoM change | **+266%** | — |
+| S3 Partners | New borrow cost | **>200 bps/yr** | — |
+
+Nancy Allen (EquiLend, head of data & analytics): "striking moves that point to increased demand to borrow shares and a meaningfully higher cost to do so." Matthew Unterman (S3): "If a stock can fall more than 10% in two days, paying 2% per year to borrow the stock makes sense."
+
+Stock +2.6% on Mar 4 in broad market rally. Coming off steepest monthly decline ever (Feb) and record 7-month losing streak.
+
+*Source: Bloomberg (Mar 4, 2026)*
+
+---
+
 ## Investment case
 
 **Bull:**

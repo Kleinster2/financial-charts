@@ -411,6 +411,24 @@ Bloomberg (via Morgan Stanley notifications to lenders): X and xAI plan to repay
 
 ---
 
+## Ratepayer Protection Pledge (Mar 4, 2026)
+
+[[Gwynne Shotwell]] represented xAI at the White House [[Ratepayer Protection Pledge]] signing. Key commitments:
+
+| Commitment | Detail |
+|-----------|--------|
+| Power per DC | **1.2 GW** as primary power source — same commitment for every additional data center |
+| Megapack expansion | Expanding what is already the largest global megapack installation |
+| Grid backup | Sufficient backup power for the city of Memphis + town of South Haven, MS |
+| Grid infrastructure | Building new substations and electrical infrastructure |
+| Water recycling | ~**4.7 billion gallons/year** protected in Memphis aquifer |
+| Employment | Thousands of workers from Memphis area (TN + MS) |
+| Orbital data centers | Designing space-based DCs powered by solar — would free terrestrial plants for community use |
+
+Shotwell: "I've been in the space industry for nearly 40 years... I have never seen things move more quickly than under your administration."
+
+---
+
 ## For theses
 
 **[[AI capex arms race]]**: Poster child of brutal AI economics (~$1B/mo burn)

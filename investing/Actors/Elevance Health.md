@@ -61,6 +61,14 @@ Health insurers face different dynamics than life/P&C:
 
 ---
 
+## CMS Medicare Advantage enrollment freeze (Mar 2026)
+
+On March 3, 2026, [[CMS]] froze Elevance's [[Medicare Advantage]] enrollment — triggering a **-8.1%** decline (to $294.07 by Mar 4 close). This is a regulatory action, not conflict-related. MA enrollment freezes typically signal compliance or quality concerns from CMS.
+
+**Context:** MA is a major growth driver for Elevance (~46M total medical members). Any enrollment freeze directly caps near-term growth and signals potential quality rating downgrades, which affect future Star ratings and bonus payments.
+
+---
+
 ## Related
 
 - [[UnitedHealth]] — \#1 peer (largest US health insurer)

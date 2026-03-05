@@ -120,6 +120,12 @@ Uses "a segment" of both AT&T and Verizon's 850 MHz spectrum for US coverage.
 
 ---
 
+## March 2026: UBS price target doubled
+
+UBS raised ASTS price target from $43 to $85 on March 4, 2026. Stock rose **+9.8%** to $86.92. The raise reflects increased conviction in the direct-to-cell broadband opportunity as constellation deployment progresses. War-driven demand for resilient communications infrastructure likely contributed to sentiment.
+
+---
+
 ## Related
 
 - [[Amazon]] — AT&T's LEO partner (different use case)

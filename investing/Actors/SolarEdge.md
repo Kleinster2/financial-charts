@@ -115,6 +115,14 @@ SolarEdge is a cautionary tale in clean energy:
 
 ---
 
+## March 2026: Iran conflict energy security bid
+
+SEDG surged **+14.7%** to $40.60 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] and [[Strait of Hormuz]] closure triggered a broad energy security bid, benefiting solar/renewables as alternatives to disrupted fossil fuel supply. Despite the rally, UBS *lowered* its price target to $36 on the same day — suggesting the move is sentiment-driven rather than fundamental.
+
+**Irony:** An Israeli company (HQ in Herzliya) rallying on a war Israel is fighting. The energy security narrative overrides the geopolitical risk to operations.
+
+---
+
 ## Related
 
 - [[Enphase]] — competitor (outperforming)

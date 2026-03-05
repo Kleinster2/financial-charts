@@ -105,4 +105,15 @@ Housing cycle sensitive.
 
 ---
 
+## March 2026: tariff + conflict pressure
+
+Wayfair dropped **-9.8%** to $73.47 on March 4, 2026. Multiple headwinds converging:
+
+- **Tariffs** raising prices on imported furniture/materials
+- Co-founder **insider selling** ($2.1M in shares, reported Mar 1)
+- **Oil/inflation fears** from [[2026 Iran conflict market impact|Iran conflict]] squeezing consumer discretionary
+- Part of a broader consumer discretionary selloff alongside [[RH]] (-8.8%) and [[Estée Lauder]] (-8.5%)
+
+Piper Sandler reiterated rating, calling the decline "shorter-term trading dynamics" and expecting sales growth to accelerate in March/April from tax refunds.
+
 *Created 2026-01-16*

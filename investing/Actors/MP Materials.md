@@ -144,7 +144,11 @@ See [[Apple MP Materials partnership]] for full details.
 | Fort Worth | Texas |
 | Key partner | [[Apple]] |
 
-*Updated 2026-01-15*
+## March 2026: critical minerals security bid
+
+MP surged **+8.3%** to $63.73 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] amplified the critical minerals supply chain security narrative — rare earths are essential for defense electronics, guided munitions, and EV motors. Any escalation that disrupts global supply chains or heightens US-China tensions benefits the only integrated US rare earth mine-to-magnet operation.
+
+*Updated 2026-03-04*
 
 ---
 

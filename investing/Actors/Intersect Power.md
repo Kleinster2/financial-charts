@@ -16,7 +16,7 @@ Google's largest clean energy acquisition — vertical integration into power:
 | Acquirer | Google/Alphabet |
 | Price | $4.75B + debt |
 | Announced | Dec 22, 2025 |
-| Close | Expected H1 2026 |
+| Close | Imminent (Ruth Porat, Mar 4 2026: "we will very shortly close") |
 | Assets | Multi-GW development pipeline |
 
 ---
@@ -126,7 +126,7 @@ Solar generation + Battery storage + Data center
 | CEO | Sheldon Kimber |
 | Focus | Co-located energy + DC |
 
-*Updated 2026-01-01*
+*Updated 2026-03-04*
 
 ---
 

@@ -144,4 +144,15 @@ Key question: Can Compass integrate brands without destroying franchise value?
 - [[Housing]] — sector context
 - [[Apollo]] — former PE owner
 
+## FY2025 earnings (Mar 2026)
+
+Stock surged **+22.2%** to $17.64 on March 4, 2026 after reporting FY2025 results:
+
+| Metric | FY2025 | FY2024 | Change |
+|--------|--------|--------|--------|
+| Revenue | $5.96B | $5.69B | +4.7% |
+| Net loss | -$90M | -$128M | Narrowing |
+
+Combination of revenue growth and loss narrowing points to operational progress. The 44% surge in foreign buyer activity in the US and $6T generational wealth transfer were cited as macro tailwinds.
+
 *Created 2026-01-28*

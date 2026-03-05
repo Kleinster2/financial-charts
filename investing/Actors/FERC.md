@@ -29,6 +29,12 @@ FERC controls the rules that determine how fast new power plants and data center
 
 ---
 
+## Ratepayer Protection Pledge (Mar 4, 2026)
+
+All FERC commissioners attended the White House [[Ratepayer Protection Pledge]] signing. Commissioners Laura Swit, David Rosner, Lindsey C, and Judy Chang were recognized by name. [[Chris Wright]] (Energy Secretary) described FERC as having "worked hard, smartly, and practically to enable the revolution" of AI-led power buildout. Trump: "They're the most powerful people in the country." Changed behind-the-meter generation rules (per [[Michael Kratsios]] at Davos) to enable [[BYOP]] strategy.
+
+---
+
 ## Related
 
 - [[PJM]] — largest US grid operator, regulated by FERC

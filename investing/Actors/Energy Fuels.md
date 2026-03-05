@@ -100,6 +100,12 @@ Energy Fuels is building rare earth separation capacity at White Mesa:
 
 ---
 
+## March 2026: Iran conflict nuclear/energy security bid
+
+UUUU surged **+9.6%** to $23.37 on March 4, 2026. The [[2026 Iran conflict market impact|Iran conflict]] and [[Strait of Hormuz]] disruption amplified the energy security narrative — nuclear power as a hedge against fossil fuel supply disruption. UUUU's dual uranium + rare earth positioning makes it a direct beneficiary of both the nuclear renaissance and critical minerals security themes.
+
+---
+
 ## Related
 
 - [[Uranium Energy Corp]] — US uranium peer

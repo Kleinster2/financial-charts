@@ -137,6 +137,24 @@ Both valid strategies — depends on risk tolerance and scale.
 
 ---
 
+## Ratepayer Protection Pledge (Mar 4, 2026)
+
+**Trump formalized BYOP as federal policy** via the [[Ratepayer Protection Pledge]]. Seven hyperscalers ([[Google]], [[Meta]], [[Microsoft]], [[OpenAI]], [[Amazon]], [[Oracle]], [[xAI]]) signed five commitments: pay for all AI power generation, cover grid upgrades, negotiate separate utility rates (paying even for unused capacity), invest in local workforce, and provide backup power to grids.
+
+**Key capacity commitments from the signing:**
+
+| Company | Commitment |
+|---------|-----------|
+| [[Google]] | 7,800 MW new energy contracted in Texas; acquiring [[Intersect Power]] |
+| [[xAI]] | 1.2 GW per data center (and every future DC); orbital data centers in development |
+| [[Meta]] | $650M Louisiana ratepayer savings over 15 years |
+
+**Permitting acceleration:** [[Lee Zeldin]] (EPA) issuing permits in 2-3 weeks vs 20+ years historically. Trump claims the idea took 6 months to convince companies ("they thought I was kidding").
+
+**Structural critique:** Paying for generation doesn't build it faster. Natural gas plants still take years regardless of permit speed. The political cover for communities (no rate increases guaranteed by CEO signatures) may be more immediately impactful than the power commitments themselves.
+
+---
+
 ## Investment implications
 
 **Power suppliers win:**
@@ -166,7 +184,7 @@ Both valid strategies — depends on risk tolerance and scale.
 | Microsoft TMI | 835MW (nuclear) |
 | Amazon Talen | 960MW (nuclear) |
 
-*Updated 2026-01-21*
+*Updated 2026-03-04*
 
 ---
 
