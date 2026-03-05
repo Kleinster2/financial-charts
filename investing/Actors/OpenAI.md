@@ -336,6 +336,31 @@ The LaRossa statement is significant — [[OpenAI]] publicly defending [[Anthrop
 
 ---
 
+## GitHub rival: internal code repository (Mar 4, 2026)
+
+The Information reported (March 3, 2026) that OpenAI is developing an internal alternative to [[GitHub]] — [[Microsoft]]'s code repository platform. The project is early-stage (months from completion) and could eventually be offered externally to customers.
+
+**Trigger:** GitHub outages disrupted OpenAI's engineering teams, preventing code modifications and workflow coordination. This prompted internal discussions about building their own repo infrastructure.
+
+**Strategic logic:**
+- **Vertical integration** — Codex already writes, debugs, and tests code. Owning the repo where that code lives creates a tighter AI-native development loop than GitHub + Copilot
+- **Revenue diversification** — developer tooling is the natural adjacent market beyond API usage and ChatGPT subscriptions
+- **Reduced Microsoft dependency** — OpenAI doesn't want its engineering workflow dependent on a partner's infrastructure
+
+**The Microsoft tension:**
+- Microsoft has invested $13B+ in OpenAI and owns 49% of profit share
+- Microsoft owns GitHub (acquired 2018 for $7.5B)
+- GitHub Copilot (1.3M+ paid subscribers) runs on OpenAI's models
+- A commercialized OpenAI repo would compete directly with Microsoft's developer platform
+
+This follows the classic tech partnership lifecycle: complementary → overlap → compete. ChatGPT already competes with Bing/Office AI features; a code repo would open a second front against Microsoft's developer ecosystem.
+
+**Context:** Google and Meta both maintain proprietary internal code repos. But if OpenAI brings theirs to market, it would be the first time an AI company tried to displace the dominant developer platform — not by building better git hosting, but by making the AI agent the primary interface and the repo just the persistence layer.
+
+*Source: The Information (Mar 3, 2026), Reuters, PYMNTS*
+
+---
+
 ## Related
 
 - [[AI extensibility]] — GPT Store marketplace approach
@@ -372,3 +397,4 @@ The LaRossa statement is significant — [[OpenAI]] publicly defending [[Anthrop
 - [[NATO]] — pursuing unclassified network deployment (Mar 2026)
 - [[Pentagon AI access dispute 2026]] — agreed to Pentagon deal, then amended to match Anthropic's safeguards; defending Anthropic's designation
 - [[NSA]] — Pentagon deal explicitly excludes NSA use
+- GitHub — building internal alternative (Mar 2026), potential competitive threat to Microsoft

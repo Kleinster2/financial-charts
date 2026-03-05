@@ -425,12 +425,31 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Microsoft]] was part of 
 
 ---
 
+## OpenAI GitHub rival (Mar 2026)
+
+The Information reported (March 3, 2026) that [[OpenAI]] is building an internal code repository platform — a potential competitor to GitHub, which Microsoft acquired for $7.5B in 2018. The project was partly triggered by GitHub outages disrupting OpenAI's engineering teams.
+
+**Risk to Microsoft:**
+- GitHub has **1.3M+ paid Copilot subscribers** and is core developer infrastructure
+- GitHub Copilot runs on OpenAI's models — the irony of OpenAI potentially competing with a product it powers
+- If OpenAI commercializes the repo, it would create a vertically integrated AI-native dev platform (Codex agent + native repo) that could be more seamless than GitHub + Copilot
+- Follows the classic partnership lifecycle: complementary → overlap → compete (ChatGPT already competes with Bing/Office AI)
+
+**Mitigating factors:**
+- Project is early-stage, may remain internal
+- GitHub's network effects (150M+ developers) are enormous
+- Microsoft still holds significant economic rights in OpenAI ($13B+ invested, 49% profit share)
+
+This is another data point in the gradually fraying Microsoft-OpenAI relationship. The for-profit restructuring gave OpenAI more independence, and they're using it to expand into Microsoft's territory.
+
+---
+
 ## Related
 
 - [[AI hyperscalers]] — Tier 1 spender
 - [[NVIDIA]] — primary GPU supplier
 - [[TSMC]] — foundry (Maia, Cobalt chips)
-- [[OpenAI]] — exclusive partner (loosening)
+- [[OpenAI]] — exclusive partner (loosening); now building GitHub rival (Mar 2026)
 - [[Anthropic]] — [[Claude]] on Azure
 - [[Google]], [[Amazon]], [[Meta]] — hyperscaler peers
 - [[Intel Foundry Services]] — Maia 2 potential foundry
