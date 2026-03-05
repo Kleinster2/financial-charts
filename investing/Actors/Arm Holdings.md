@@ -1,5 +1,5 @@
 ---
-aliases: [ARM]
+aliases: [ARM, Arm]
 ---
 #actor #ip #uk #semiconductor
 
