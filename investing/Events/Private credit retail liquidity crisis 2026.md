@@ -32,6 +32,18 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 
 ---
 
+## "It's not bad loans that get you — it's liquidity draining away"
+
+Bloomberg Opinion (Mar 5, 2026) captured the essential irony: the banking gray beards always warned about how young private credit firms would cope with *failing borrowers*. But the first real crisis isn't defaults — it's **liquidity withdrawal**. Rich investors are pulling cash because of falling rates (lower floating-rate yields → less attractive vs alternatives), AI fears (software exposure), and now war. The loans haven't gone bad yet — the investors have just decided they'd rather be elsewhere.
+
+**The perverse dynamic:** Private credit firms are becoming "inventive" about meeting redemptions — some using their own balance sheet money to pay out investors. Nobody wants to gate because it would destroy their reputation and fundraising pipeline. So they're quietly bleeding to maintain the illusion of liquidity, which makes the underlying portfolios *more* concentrated and *less* liquid for the remaining investors.
+
+**The Blue Owl contagion fear:** Rival managers worry that OBDC II's wind-down (returning 30% of assets in Q1, then ~5%/quarter) created an expectation that "illiquid doesn't really mean illiquid" — that wealthy investors can demand cash back even from vehicles holding 5-year term loans. If that expectation spreads, every unlisted BDC faces the same pressure.
+
+*Source: Bloomberg Opinion (Marcus Sherwood, Mar 5, 2026)*
+
+---
+
 ## The fundamental contradiction
 
 Private credit's retail push was built on an inherent mismatch:
