@@ -168,6 +168,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Mike Arougheti (Ares CEO, Mar 5):** Called UBS forecast of **15% private credit default rates** "absolutely wrong" — same day as Rowan's shakeout warning. The industry can't agree on whether this is fine or existential.
 
+**Jim Zito (Apollo, Mar 5):** Pushed back on framing BDC withdrawals as a problem — "managers are making decisions on how to meet client needs." Acknowledged dispersion coming: *"There will be clear dispersion coming. It will be interesting to see."* Note: Apollo simultaneously warning of a shakeout (Rowan) while downplaying withdrawal concerns (Zito) — talking out of both sides.
+
 **Mark Zandi (Moody's):** *"The private credit industry is probably currently able to absorb any losses reasonably well, this may not be the case a year from now."*
 
 ---
