@@ -38,6 +38,26 @@ Unitree — Hangzhou-based robotics company founded by [[Wang Xingxing]] in 2016
 
 Key differentiator: Go2 at $1,600 vs. [[Boston Dynamics]] Spot at $75,000+. 10x cheaper through in-house QDD actuators, injection-molded chassis, and [[Yangtze River Delta]] supply chain density. See [[Unitree Cost Architecture]].
 
+### Go2 EDU / EDU Plus
+
+The EDU variants are the research and development tier — sold to universities, AI companies, and R&D labs. Hundreds deployed at US universities. Same chassis as Go2 Air/Pro but with programmable compute and sensor upgrades:
+
+| Spec | EDU | EDU Plus |
+|------|-----|----------|
+| Compute | [[NVIDIA]] Orin (40 TOPS, 8GB) | [[NVIDIA]] Orin (100 TOPS, 16GB) |
+| Depth sensor | Intel RealSense D435 | Intel RealSense D435 |
+| LiDAR | Standard (same as Air/Pro) | Standard |
+| Battery | 15,000 mAh (extended) | 15,000 mAh (extended) |
+| Runtime | 3.5-4.5 hours | 3.5-4.5 hours |
+| Weight | ~33 lbs | ~33 lbs |
+| Speed | 2 m/s | 2 m/s |
+| Foot sensors | Pressure sensors (standard) | Pressure sensors (standard) |
+| Charging | Autonomous docking | Autonomous docking |
+| Software | Python, ROS 2 | Python, ROS 2 |
+| Ports | USB, USB-C, Ethernet | USB, USB-C, Ethernet |
+
+The EDU Plus's 100 TOPS compute enables running external LiDAR (Livox XD16/Mid-360) and servo arms simultaneously. No difference in out-of-the-box app capabilities vs. Pro — the premium is entirely for secondary development. This is the [[Unitree GTM Strategy|EDU margin play]]: same chassis, software-defined differentiation, pure margin on the compute upgrade.
+
 Unit sales (2024): 23,700 quadrupeds (~70% global share), 1,500+ humanoids. G1 shipped 5,000 units in H1 2025. FY2025 total: ~5,500 humanoids shipped.
 
 **2026 production target: 10,000–20,000 humanoid robots** (CEO Wang Xingxing to 36Kr, Feb 2026). Would represent ~4x increase from 2025. Global humanoid shipments expected to reach "tens of thousands" with Unitree accounting for the bulk.

@@ -17,6 +17,7 @@ Physical AI — robots that interact with the real world. CES 2026 declared "yea
 | Service robotics | ~$40B | ~$90B | ~18% |
 | Surgical robotics | ~$8B | ~$18B | ~17% |
 | [[Rehabilitation robotics]] | ~$1.5B | ~$3.4B | ~17% |
+| Assistive / home care | ~$3.1B | ~$10B+ | ~12-18% |
 | Humanoid robotics | ~$2B | ~$30B+ | ~70% |
 
 **Total addressable market:** $150B+ by 2030
@@ -32,6 +33,7 @@ Physical AI — robots that interact with the real world. CES 2026 declared "yea
 | **Collaborative (cobots)** | Universal Robots, [[Fanuc]], [[ABB]] | Fastest growing industrial |
 | **Mobile (AMR/AGV)** | [[Rockwell Automation]], Locus, 6 River | Warehouse automation |
 | **Surgical** | [[Intuitive Surgical]], Medtronic, Stryker | High margin, regulated |
+| **Assistive / Home care** | [[Hello Robot]], [[Labrador Systems]], [[Diligent Robotics]], [[PAL Robotics]] | Grant-funded niche, demographic tailwinds |
 | **Consumer** | [[iRobot]], Ecovacs, Roborock | Commoditizing |
 | **Autonomous vehicles** | [[Waymo]], [[Aurora]], [[Cruise]] | See [[Transport]] |
 
@@ -281,6 +283,12 @@ Q1 2026: Robotics startups secured **$2.26B** in funding, 70%+ to warehouse/indu
 - [[Robots as a Service]] — subscription business model for robotics
 - [[Teleoperation as data collection]] — bridge to autonomy
 - [[Sharpa]] — dexterous hands
+- [[Hello Robot]] — open-source mobile manipulator (assistive)
+- [[Labrador Systems]] — home assistive robot (Retriever)
+- [[Diligent Robotics]] — hospital logistics (Moxi), acquired by [[Serve Robotics]]
+- [[PAL Robotics]] — European research platforms (TIAGo)
+- [[MAKIINA]] — ultra-low-cost dual-arm systems (Finland)
+- [[Serve Robotics]] — sidewalk delivery, acquired Diligent
 - [[Drones]] — aerial vehicles (separate sector)
 - [[Agentic AI]] — AI for physical world
 - [[AI Infrastructure]] — compute for training

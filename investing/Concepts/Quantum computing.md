@@ -66,6 +66,34 @@
 
 ---
 
+## Dilution refrigerators — the hidden chokepoint
+
+Superconducting qubits (the approach used by [[Google]], [[IBM]], Rigetti, and most quantum computers) only work at temperatures near absolute zero — around **10-15 millikelvin** (-459.67°F), colder than outer space. At any warmer temperature, thermal noise destroys fragile quantum states. The dilution refrigerator is the machine that makes this possible.
+
+### How they work
+
+A dilution refrigerator uses two isotopes of helium — helium-3 (³He) and helium-4 (⁴He) — mixed together. When helium-3 "dilutes" into helium-4, it absorbs heat at the quantum mechanical level (analogous to how evaporation cools skin, but at atomic scale). By cycling this process, the fridge extracts heat until reaching millikelvin temperatures. The quantum processor sits at the very bottom of the refrigerator — inside the iconic chandelier-like structures seen in quantum lab photos.
+
+### Supply chain
+
+| Supplier | Country | Notes |
+|----------|---------|-------|
+| **Bluefors** | Finland | Market leader, supplies Google, IBM |
+| **Oxford Instruments** | UK | Legacy cryogenics maker |
+| **Leiden Cryogenics** | Netherlands | Smaller specialist |
+
+Each unit costs **$1-5M+**, takes months to build, and requires helium-3 — a rare isotope primarily sourced from nuclear weapons tritium decay. Global helium-3 supply is constrained (~30,000 liters/year, mostly from US and Russian weapons programs). This makes dilution refrigerators both expensive and geopolitically sensitive.
+
+### Why it's a chokepoint
+
+Every superconducting quantum computer needs one. When the US banned dilution refrigerator exports to [[China]], it targeted the physical foundation of China's quantum program. Without these machines, superconducting qubits can't operate — period.
+
+**China's response:** Pan Jianwei's team at the Chinese Academy of Sciences independently built domestic dilution refrigerators to international standards after the ban. These now power the **Zuchongzhi** quantum processor series. See [[2026 Two Sessions]] for context on China's broader self-sufficiency push.
+
+**Analogy:** Banning dilution refrigerators to China is like banning [[ASML]] lithography to China's chip industry — except dilution refrigerators are less complex than EUV tools, making domestic replication more feasible. The fact that China achieved this relatively quickly validates the "bottleneck → springboard" pattern.
+
+---
+
 ## Investment thesis considerations
 
 **Bull case:**
@@ -166,3 +194,6 @@ This is the same "bottleneck → springboard" pattern seen in semiconductors ([[
 - [[Google]] — player (superconducting, Willow)
 - [[Amazon]] — player (Braket cloud platform)
 - [[IBM]] — player (superconducting, IQMP partner)
+- [[2026 Two Sessions]] — China quantum self-sufficiency push, dilution refrigerator independence
+- Bluefors — Finnish dilution refrigerator market leader
+- Oxford Instruments — UK cryogenics supplier

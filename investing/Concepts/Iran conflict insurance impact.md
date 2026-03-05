@@ -15,7 +15,41 @@ The defining insurance story is **coverage cancellation**, not premium increases
 
 This isn't a hard market repricing — it's underwriters choosing to **forgo premium income rather than hold the risk**. [[Lloyd's]] underwrites ~40% of global marine cargo, making concentrated exposure a systemic concern. War risk is a small premium pool (<$3B/year globally across marine and aviation) with little standalone disclosure.
 
-[[Marsh McLennan|Marsh]] estimates marine hull insurance rates in the Gulf could rise **25-50%**. Shipping war risk costs from alternative providers have at least doubled. VLCC spot rates on the Middle East-to-China route hit ~W225 on Worldscale (~$12M), nearly tripling since start of 2026.
+By March 5, war risk premiums had soared 12-fold: from ~0.25% of hull value pre-war to as high as 3% (FT, Lee Harris). Typical quotes in the high-risk zone: 1–1.5% of hull value, with US/UK/Israel-linked vessels quoted up to triple that (~3–4.5%). At least seven tankers struck in the Strait and surrounding waters since Sunday. Ships reporting radio messages, apparently from the IRGC, telling them to stay out. Strait traffic ground to a halt.
+
+[[Marsh McLennan|Marsh]] broker Dylan Mortimer confirmed the tiered pricing to the FT. Earlier Marsh estimates of 25-50% hull rate increases were quickly overtaken by events. VLCC spot rates on the Middle East-to-China route hit ~W225 on Worldscale (~$12M), nearly tripling since start of 2026.
+
+---
+
+## US government backstop — DFC guarantee (March 3)
+
+Trump ordered the [[US Development Finance Corporation|DFC]] to provide "political risk insurance and guarantees for the financial security of ALL maritime trade, especially energy" through the Gulf, available to all shipping lines at "a very reasonable price." Second prong: [[US Navy]] tanker escorts through the Strait, echoing [[Operation Earnest Will]] (1987-88 Tanker War).
+
+What's missing: no pricing, coverage limits, deductibles, or policy terms disclosed. No timeline for when DFC coverage would be available. The announcement was a Truth Social post, not a signed executive order. The DFC is a development finance institution — it has never underwritten marine war risk insurance.
+
+Navy capacity gap: US Navy officials privately told tanker executives "there is presently no availability for an escort mission" and offered no future guarantees (Lloyd's List). [[RBC Capital Markets|RBC]] flagged whether there are enough Navy assets to both escort ships and continue operations against [[Iran]].
+
+Industry reaction — skepticism:
+- Khalid Hashim ([[Precious Shipping]]): "Nothing is sure and we need immediate clarity. Lives are at risk, cargoes are at risk, ships are at risk."
+- [[RBC Capital Markets|RBC]]: questioned "how much planning has been done on the insurance backstop thus far"
+- [[ING]] (Warren Patterson): assistance "won't happen overnight"
+- Scale problem: proposed Gulf facility would operate far larger than any precedent ([[Ukraine]]'s 2023 grain corridor insurance was the closest analog, much smaller scope)
+
+The commercial coverage vacuum is real (P&I clubs canceling effective March 5). The government backstop is a headline, not a policy. Shippers need to see actual policy terms before rerouting vessels back through the Gulf. The gap between announcement and implementation is where the risk sits.
+
+### March 5 update: guarantee changed nothing (FT)
+
+London insurers were "racing to understand how the proposal might work." World's largest brokers said they were blindsided. David Smith ([[McGill and Partners|McGill]]): "We've heard absolutely nothing more, other than that Truth Social statement." Open questions include whether cover applies to, e.g., Chinese oil on a European tanker.
+
+Ed Finley-Richardson (Contango Research, shipping investor): "It might have been a way to take the edge off the oil price, but on the face of it I don't see how it changes anything. We already have insurance." The issue for most shipowners is freight costs and physical attack risk, not insurance availability per se — the 12x premium surge means cover exists but is prohibitively expensive.
+
+Some insurers canceled policies specifically to reinstate at higher prices reflecting current risk; others exited the market entirely and refuse to provide Strait transit cover at any price.
+
+Naval escort risk: a maritime security adviser (unnamed) warned that putting a warship into the Strait before Tehran's navy is degraded would make it a target — "every single Iranian missile will be fired at it. They will be overwhelmed entirely."
+
+Brent dipped slightly on the DFC announcement but remains ~$81/bbl, 12% above pre-war levels. The guarantee moved oil marginally, insurance not at all.
+
+*Source: FT, "Gulf insurance costs soar 12-fold despite Trump guarantee," Lee Harris, March 5, 2026*
 
 ---
 

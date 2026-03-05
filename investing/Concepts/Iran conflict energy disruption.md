@@ -115,6 +115,55 @@ UK gas prices surged **50% in a single day** on Mar 2 — the biggest one-day mo
 
 ---
 
+## Why oil hasn't hit $100 (FT, March 5)
+
+![[ft-oil-price-shocks-comparison-2026.avif]]
+*Historical oil price shocks compared (FT/Flourish)*
+
+![[ft-brent-crude-iran-conflict-2026.avif]]
+*Brent crude since Iran conflict start (FT/Flourish)*
+
+Brent hit $85/bbl on Tuesday (Mar 4) — highest since July 2024, up 30% since fighting started. But well below $128 reached after Russia invaded Ukraine (2022), and dwarfed by historic shocks: 1973-74 Arab embargo (+260%), 1979 Iran revolution (+160%), 1990 Kuwait invasion (+180%).
+
+Four days in, much of the worst-case scenario has materialized — Hormuz stalled, key facilities attacked (Qatar's largest LNG plant shut, Saudi refinery hit), 150+ tankers waiting outside the Strait. Yet no panic. Several structural reasons:
+
+### Buffers absorbing the shock
+
+| Buffer | Scale |
+|--------|-------|
+| [[China]] strategic reserves | 124 days of imports (Vortexa) |
+| Global onshore stockpiles | ~2B barrels (low end of seasonal range but still substantial vs ~16M bbl/day Gulf flows) |
+| Oil at sea (outside Gulf) | Additional floating buffer |
+| Sanctions-evading tankers (Russia/Iran) | 120-150M barrels that could return to open market in extreme scenario |
+| Saudi/UAE bypass pipelines | ~9M bbl/day can be diverted via pipelines bypassing Hormuz |
+| [[OPEC|OPEC+]] spare capacity | Unwinding only 206K bbl/day — insignificant vs disruption scale |
+| US Strategic Petroleum Reserve | Release expected; White House incentive to cap inflation ahead of midterms |
+
+### Structural shifts since the 1970s
+
+Developed economies are far less oil-intensive. US is now world's largest producer. New supply from [[Guyana]], [[Brazil]], [[Canada]]. The market has been rewired by Covid and Russia-Ukraine — traders are expert at rerouting.
+
+### Market positioning
+
+"This was much more clearly flagged than the 12-day event last year" — senior trader (FT). Many participants had already positioned for rising prices before the conflict. Cautious, wait-and-see reaction (Carlos Bellorin, [[Welligence]]).
+
+### Iraq's Rumaila shutdown (Mar 4)
+
+[[Iraq]] shut down Rumaila — the world's largest oilfield — after storage tanks reached "critical levels" (oil ministry notice). This is a consequence of Hormuz closure: if you can't ship, you can't store, and if you can't store, you shut in production.
+
+### $100 trigger: duration
+
+Consensus is that price trajectory hinges on duration and severity:
+- Wang Zhuwei ([[S&P Global]] Energy): base case $80-90 if Hormuz reopens quickly; prolonged disruption → $100+
+- Saul Kavonic ([[MST Financial]]): if Hormuz blocked 2 weeks, 250M+ barrels stranded, Gulf countries forced to shut production. That's when $100 breaks.
+- Bellorin (Welligence): Iran likely to escalate to build maximum leverage before any de-escalation. "If you look at the trend, there is a possibility it will hit the high 90s by the end of the week."
+
+The market isn't complacent — it's calculating. The question is whether this is a days-long disruption (manageable via buffers) or a weeks-long structural break (1970s-grade). The Iraq Rumaila shutdown suggests the storage constraint is already binding.
+
+*Source: FT, "Why has oil not hit $100 a barrel?", Malcolm Moore, March 5, 2026*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

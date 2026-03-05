@@ -75,7 +75,7 @@ If borrower breaches covenants: demand equity injection from PE sponsor, force a
 | [[Ares Management]] | ARES | $26B+ (ARCC) | ARCC (public BDC) | Largest public BDC |
 | [[Blue Owl]] | OWL | $16B+ (OBDC) | OBDC (public), OBDC II (**gated**) | First retail gate (Feb 2026) |
 | [[Apollo]] | APO | Various | Multiple vehicles | Insurance-heavy model |
-| [[KKR]] | KKR | Various | Multiple vehicles | PE/credit crossover |
+| [[KKR]] | KKR | Various | Multiple vehicles | PE/credit crossover — **now manages more credit than equity** |
 | [[HPS Investment Partners]] | — | $100B+ | Being acquired by [[BlackRock]] | Largest pure-play |
 | [[Carlyle Group]] | CG | Various | Multiple vehicles | PE-adjacent credit |
 | [[TPG]] | TPG | Various | Multiple vehicles | Growing credit arm |
@@ -222,6 +222,8 @@ Quarterly marks by the lender who holds the debt — no trading, no market price
 
 **[[Renovo Home Partners]] case (Nov 2025):** [[BlackRock]] marked Renovo's debt at 100 cents on the dollar. The company was already failing to make interest payments. One month later, bankruptcy. Total loss on $150M.
 
+**Jonathan Barzideh (Canyon Partners, co-head opportunistic credit):** "Companies get over their skis, and it's portrayed as a minor liquidity issue. So it falls apart within a year, because it was way bigger a problem than what they were willing to admit."
+
 **Ludovic Phalippou (Oxford Saïd):** "The real risk in private credit is not a sudden explosion, it's a slow burn — losses that stay hidden for a long time, then show up quietly in lower returns, weaker insurer balance sheets and disappointed savers, without ever triggering a classic financial crisis."
 
 **[[UBS]] Chairman Colm Kelleher (late 2023):** Warning of "dangerous bubble" in private credit.
@@ -238,6 +240,8 @@ The biggest emerging risk — software/tech is now the largest sector concentrat
 | Software in speculative-grade credit | $597B-$681B (14-16%) | Deutsche Bank |
 | Default rate — aggressive AI disruption | **13%** (vs 8% lev loans, 4% HY) | UBS |
 | Software share of PIK loans | #1 sector | PitchBook LCD |
+
+**AI infrastructure excess:** Demand so high that some data center borrowers seek to borrow more than total construction costs, assuming facilities will print money once rents flow. Sadek Wahba (I Squared Capital, Dec 2025): "Momentum is strong, but if this is irrational exuberance, investors will lose when the music stops."
 
 **The mechanism:** PE firms loaded up on software buyout debt since 2020 — attracted by recurring revenue, high margins, sticky customers. But AI (especially agentic AI) threatens to replicate what enterprise software charges for, weakening cash flows → defaults rise.
 
@@ -271,7 +275,7 @@ The biggest emerging risk — software/tech is now the largest sector concentrat
 
 **Private credit argument:** Capital locked in longer than bank deposits. Stronger underwriting. Floating rates adjust.
 
-**Reality:** No one knows. Industry untested through major recession since its 2008+ growth. Covenant-lite trend removes early warning tools. Bill Ammons (AlbaCore Capital): "I'm not going to say this is entirely 2007-like, but there are similarities. When companies have easy access to credit, it reinforces the need for a selective approach."
+**Reality:** No one knows. Industry untested through major recession since its 2008+ growth. Covenant-lite trend removes early warning tools. In 2025, lenders took over **13 large US companies** that failed to stick to loan terms — a dining chain, a food supplier, a PE-owned porta-potty business — the kind of low-profile, untested businesses now accessing far more credit than a decade ago. Bill Ammons (AlbaCore Capital): "I'm not going to say this is entirely 2007-like, but there are similarities. When companies have easy access to credit, it reinforces the need for a selective approach."
 
 Marc Rowan (Apollo CEO, Nov 2025): "People have really just lost their minds, and the headlines get more and more hysterical." Said much growth is in investment-grade assets with lower default risk.
 
@@ -282,6 +286,7 @@ Marc Rowan (Apollo CEO, Nov 2025): "People have really just lost their minds, an
 | Thesis | Note | Status |
 |--------|------|--------|
 | Software as concentration risk | [[Private Credit Software Concentration]] | Active — OBDC II gate validated |
+| Lender takeovers accelerating | [[Private credit lender takeovers 2025]] | Active — 45 in 9 months (2x prior year), 75% from 2021-22 vintage |
 | Retail liquidity mismatch | [[Private credit retail liquidity crisis 2026]] | Active — first gate occurred |
 | Covenant erosion storing losses | (this note) | Slow burn — untested in recession |
 | AI infrastructure financing | [[AI infrastructure financing]] | Bull case — Blue Owl Meta $30B |
@@ -354,6 +359,7 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 ### Events
 - [[Private credit retail liquidity crisis 2026]] — master event (unfolding)
 - [[Blue Owl OBDC II redemption gate]] — first instance (Feb 19, 2026)
+- [[Private credit lender takeovers 2025]] — 45 lender seizures, ~$25B principal, 75% from 2021-22 vintage
 - [[SaaS stock meltdown 2026]] — catalyst for software fears
 
 ### Actors
@@ -375,4 +381,6 @@ The ¥2,000T (~$13T+) household savings pool also presents a wealth management o
 - [[GIC]] — sovereign wealth, private credit lender
 - [[Permira]] — PE sponsor extracting cov-lite terms
 
-*Updated 2026-02-20*
+*Updated 2026-03-05*
+
+*Sources: Bloomberg Markets (Feb/Mar 2026 issue), Reuters, CNBC, FT*
