@@ -142,7 +142,15 @@ See [[Illinois Quantum and Microelectronics Park]] for details.
 
 ---
 
-*Updated 2026-01-28*
+## China: sanction-driven self-sufficiency (March 2026)
+
+At the [[2026 Two Sessions]], Pan Jianwei (Chinese Academy of Sciences) revealed that after the US banned dilution refrigerator exports to China, his team independently built domestic versions at international standards — now powering the **Zuchongzhi** quantum processor series.
+
+This is the same "bottleneck → springboard" pattern seen in semiconductors ([[Huawei]] Kirin 9020, [[SMIC]] 7nm). The 15th Five-Year Plan (2026-2030) explicitly includes quantum technology commercialization as a priority, with deep integration of industry-academia-research.
+
+**Implication:** Western quantum equipment exporters face the same long-term dynamic as semiconductor equipment makers — export controls create a protected market for Chinese domestic alternatives with state backing.
+
+*Updated 2026-03-05*
 
 ---
 

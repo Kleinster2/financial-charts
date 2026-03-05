@@ -182,7 +182,20 @@ See [[Capital flow reversal]] — CATL exemplifies [[China]] building factories 
 | Customers | Tesla, VW, [[BMW]], Mercedes |
 | Founded | 2011 |
 
-*Updated 2026-01-15*
+## Two Sessions 2026 (March 5)
+
+Chairman Zeng Yuqun spoke at the [[2026 Two Sessions|CPPCC opening]] (March 4, 2026), emphasizing CATL's independent innovation strategy:
+
+| Metric | Value |
+|--------|-------|
+| Annual R&D spend | CNY20B+ ($2.9B) |
+| R&D employees | 21,000+ |
+| Patents accumulated | 50,000+ |
+| Vehicles powered | 20M+ across dozens of countries |
+
+Zeng: "The most important thing is to persist in independent innovation." CATL positioned as the model of China's self-sufficiency playbook — state-backed R&D at scale producing globally competitive products. The 15th Five-Year Plan (2026-2030) will intensify this approach across batteries, semiconductors, and quantum.
+
+*Updated 2026-03-05*
 
 ---
 
