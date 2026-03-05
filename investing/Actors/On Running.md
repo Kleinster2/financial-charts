@@ -188,9 +188,29 @@ Bear:
 
 ---
 
+## FY2025 results (reported Mar 3, 2026)
+
+| Metric | FY2025 | FY2024 | Change |
+|--------|--------|--------|--------|
+| Net sales | CHF 3,003M | CHF 2,316M | +30% reported, +35.6% cc |
+| Q4 net sales | CHF 743.8M | CHF 606.7M | +22.6% reported, +30.6% cc |
+| Full-year gross margin | 62.8% | 60.6% | +220 bps |
+| Q4 gross margin | 63.9% | — | Record quarter |
+| Adj. EBITDA margin | ~19% | ~16% | Expanding |
+
+**2026 guidance:**
+- Net sales: at least CHF 3,440M (+23% cc), reported at current FX
+- Gross margin: at least 63.0%
+- Adj. EBITDA margin: 18.5%-19.0%
+
+Stock fell 9.7% to ~$39.25. Street expected CHF 3.68-3.73B in 2026 revenue — guidance of CHF 3.44B implies a deceleration from 30% to 23% cc growth. Beat on FY2025 top and bottom line, but the deceleration signal spooked growth investors.
+
+Execution remains strong — 30% growth at CHF 3B scale with 63% gross margins is exceptional in athletic footwear. The selloff is about multiple compression on decelerating growth, not deteriorating fundamentals. At ~$39/share (~30x forward), the valuation question is whether 23% cc growth at 63% margins deserves a premium multiple. Asia Pacific (+115% cc in 9M) is the growth engine that matters for re-acceleration.
+
+---
+
 ## Key dates
 
-- FY2025 results: March 3, 2026
 - Frank Sluis starts as CFO: May 1, 2026
 - On targets 30% constant currency CAGR from 2023-2026
 

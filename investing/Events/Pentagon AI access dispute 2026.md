@@ -15,6 +15,11 @@
 | Classified network access | Anthropic first (2025), [[xAI]] second (Feb 25, 2026) |
 | Ultimatum deadline | 5:01 PM ET, Friday February 28, 2026 |
 | Threatened penalties | Defense Production Act + supply-chain risk designation |
+| Outcome (Feb 27) | Anthropic designated supply-chain risk; Trump orders government-wide phaseout |
+| OpenAI reversal (Mar 3) | Altman admits deal "opportunistic," amends contract to prohibit domestic surveillance |
+| Public reaction | Claude surged to #1 on Apple App Store; all-time sign-up records |
+| Anthropic revenue run rate | ~$19B (as of Mar 4, up from $14B in mid-Feb) |
+| Industry response (Mar 4) | ITI letter; Lockheed compliance; Palantir Maven rebuild needed |
 
 ---
 
@@ -59,8 +64,13 @@ This triggered a fundamental reassessment inside DOD. Pentagon officials began c
 | Feb 24 | Tense meeting. Hegseth sets Friday 5:01 PM deadline. Threatens DPA invocation + supply-chain risk label |
 | Feb 25 | Anthropic "digs in heels" — no plans to comply. [[xAI]] approved for classified deployment — Pentagon now has an alternative |
 | Feb 26 | Anthropic says "virtually no progress." Pentagon spokesperson walks back DPA threat — now threatening termination + supply-chain risk only. Jensen Huang: "not the end of the world" |
+| Feb 27 | Hegseth designates Anthropic "Supply-Chain Risk to National Security." Trump orders all government agencies to cease use. OpenAI announces Pentagon classified deal hours later |
+| Feb 28 | Claude surges from #42 to #1 on Apple App Store. All-time sign-up records. Servers briefly crash from demand |
+| Mar 1 | Hundreds of tech workers sign open letter urging DoD to withdraw supply-chain risk designation |
+| Mar 3 | Altman admits Pentagon deal "looked opportunistic and sloppy." OpenAI amends contract to prohibit domestic surveillance — the same safeguard Anthropic demanded |
+| Mar 4 | ITI letter (NVIDIA, Amazon, Apple, OpenAI members) expresses concern over supply-chain risk designation. Anthropic investors mobilize — Lightspeed, Iconiq coordinating solutions. Revenue run rate hits ~$19B (up from $14B weeks ago). Palantir's Maven Smart Systems revealed to use Claude code; will need to rebuild. Lockheed Martin pledges compliance. OpenAI pursuing NATO contract (unclassified networks). Jensen Huang says $10B Anthropic and $30B OpenAI investments likely his last |
 
-*Sources: Axios (Feb 13, 15, 16, 24, 26), Reuters (Jan 30, Feb 12, 25), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26), TechCrunch (Feb 23, 24), Fortune (Feb 25), NPR (Feb 24)*
+*Sources: Axios (Feb 13, 15, 16, 24, 26, Mar 1), Reuters (Jan 30, Feb 12, 25, Mar 3-4), WSJ (Feb 14, 18), NBC (Feb 13, 18), Semafor (Jan 16, Feb 24), CNN (Feb 24), CNBC (Feb 18, 24, 26, 27, Mar 3), TechCrunch (Feb 23, 24, Mar 1-2), Fortune (Feb 25, 28, Mar 3), NPR (Feb 24, 27), Lawfare (Mar 1)*
 
 ---
 
@@ -128,6 +138,65 @@ Three developments shifted the dynamic:
 **Net effect:** The DPA de-escalation is meaningful — it was the most legally aggressive and precedent-setting threat. But termination + supply-chain risk designation still carries real consequences for Anthropic's government business and potentially the broader defense supply chain.
 
 *Sources: Axios (Feb 26), CNBC (Feb 26)*
+
+---
+
+## Feb 27 — Supply-chain risk designation + government ban
+
+- Feb 27: Hegseth designated Anthropic a "Supply-Chain Risk to National Security." Effective immediately: no contractor, supplier, or partner doing business with the US military may conduct commercial activity with Anthropic. Far broader than the ~$200M contract loss.
+- Feb 27: Trump ordered ALL US government agencies to cease use of Anthropic with 6-month phaseout
+- Feb 27: Hours later, [[OpenAI]] CEO [[Sam Altman]] announced Pentagon deal to deploy on classified networks. Agreed to "any lawful purpose."
+- Anthropic response: Will challenge designation in court. [[Dario Amodei|Dario]]: "retaliatory and punitive." Called it "legally unsound" and "dangerous precedent."
+- Lawfare analysis: designation "won't survive first contact with the legal system" — punishes domestic company for negotiating contract terms, not security violation
+- Hundreds of tech workers signed open letter urging DoD withdrawal (signatories from [[OpenAI]], Slack, IBM, Cursor, Salesforce Ventures)
+
+*Sources: CNBC (Feb 27), Fortune (Feb 28), NPR (Feb 27), Lawfare (Mar 1)*
+
+---
+
+## Feb 28-Mar 1 — Claude surge + public backlash
+
+- [[Claude]] surged from #42 to #1 on Apple US App Store free-app chart by Saturday Feb 28, overtaking [[ChatGPT]]
+- Anthropic hit all-time record for Claude sign-ups
+- Surge crashed Claude servers (elevated errors before restoration)
+- Public response overwhelmingly pro-Anthropic
+
+*Sources: TechCrunch (Mar 1-2), Axios (Mar 1)*
+
+---
+
+## Mar 3 — OpenAI backtracks
+
+- [[Sam Altman]] admitted Pentagon deal "looked opportunistic and sloppy" and "shouldn't have rushed"
+- [[OpenAI]] announced it would AMEND contract to include explicit language: "the AI system shall not be intentionally used for domestic surveillance of U.S. persons and nationals"
+- This is effectively the SAME safeguard [[Anthropic]] demanded and was blacklisted for
+- The reversal validates Anthropic's position retroactively
+
+*Sources: CNBC (Mar 3), Fortune (Mar 3)*
+
+---
+
+## Mar 4 — Industry mobilizes, Palantir exposure, NATO expansion
+
+**ITI letter:** The [[Information Technology Industry Council]] — members include [[NVIDIA]], [[Amazon]], [[Apple]], [[OpenAI]] — sent a letter to the Pentagon: "We are concerned by recent reports regarding the Department of War's consideration of imposing a supply-chain risk designation in response to a procurement dispute." Does not name Anthropic.
+
+**Investor mobilization:** [[Dario Amodei]] in talks with [[Amazon]] CEO [[Andy Jassy]]. VCs [[Lightspeed Venture Partners|Lightspeed]] and [[Iconiq Capital|Iconiq]] coordinating with other investors on solutions. Some reaching out to Trump administration contacts. Focus: preventing supply-chain risk designation from killing enterprise sales. Investor tension: some frustrated Dario "antagonized rather than cultivated" Pentagon officials, but acknowledge he can't capitulate without alienating employees and consumers.
+
+**Revenue surge:** Anthropic run rate now ~$19B (up from $14B weeks ago). Claude was #1 most-downloaded free app in Apple App Store on Monday. Enterprise sales ~80% of revenue. Employee share sales in process.
+
+**Palantir Maven exposure:** [[Palantir]]'s Maven Smart Systems — Pentagon's flagship AI program for intelligence analysis and targeting — uses Claude code in multiple prompts and workflows. Maven-related contracts with DoD and national security agencies potentially >$1B. Palantir will need to replace Claude and rebuild parts of the software — timeline unclear. [[Alex Karp]] at defense tech conference: companies that claim AI will take white-collar jobs and "screw the military" could lead to "nationalization of our technology."
+
+**Defense contractor compliance:** [[Lockheed Martin]]: "We will follow the president's and the Department of War's direction. We expect minimal impacts." [[General Dynamics]], [[RTX]], [[L3Harris]] declined to comment. Contractors complying despite questionable legal basis — same pattern as DEI certification removal last year. Franklin Turner (govt contracts attorney): "the threat is the point... it has already done harm." Jason Workmaster (Miller Chevalier): designation is "highly aggressive" with "high likelihood that DOD would be found not to have the authority." Alan Rozenshtein (UMinn law): "Capitalism and free markets rely on the rule of law. This is the opposite of that."
+
+**Legal authorities:** DOD Supply Chain Risk Authority can bar contractors from using Anthropic in government work but likely cannot ban it from their entire business. FASCSA requires specific steps (opportunity to respond, congressional notification) that haven't been publicly satisfied. Precedent: FASCSA used last year to bar intelligence agencies from [[Acronis AG]] (Swiss cybersecurity).
+
+**OpenAI NATO expansion:** [[OpenAI]] considering contract to deploy on [[NATO]]'s unclassified networks. [[Sam Altman]] initially told company meeting it was "all NATO classified networks" — corrected to unclassified. Pentagon deal now includes explicit language that AI won't be used by [[NSA]]. Altman on Pentagon deal: "a complex, but right decision with extremely difficult brand consequences."
+
+**OpenAI defends Anthropic:** Connie LaRossa (OpenAI national security policy) at Aspen Digital: "Our red lines were the same as Anthropic's... We are actually working to have the secure risk designation removed from Anthropic. That shouldn't be applied to a U.S. industry counterpart with such an important tool."
+
+**[[State Department]]** switching to [[OpenAI]] following Trump's 6-month phaseout order.
+
+*Sources: Reuters (Mar 3-4)*
 
 ---
 
@@ -199,7 +268,8 @@ The xAI classified clearance changes the game theory. When Anthropic was the sol
 - [[Palantir]] — DOD technology partner, Claude deployed via their suite
 - [[Maduro capture 2026]] — triggering event (Claude used in operation)
 - [[xAI]] — approved for classified deployment Feb 25, Pentagon's alternative
-- [[OpenAI]] — competitor, agreed to "all lawful use"
+- [[Sam Altman]] — OpenAI CEO, announced Pentagon deal Feb 27, backtracked Mar 3
+- [[OpenAI]] — competitor, agreed to "all lawful use" then amended contract to match Anthropic's safeguard
 - [[Google]] — competitor + Anthropic investor, agreed to "all lawful use"
 - [[Claude]] — AI model at center of dispute
 - [[Long Anthropic]] — thesis (Pentagon risk is active bear case)

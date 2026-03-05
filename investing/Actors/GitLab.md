@@ -64,6 +64,8 @@
 | FY2023 | $580M | -$424M | +37% |
 | FY2024 | $759M | -$6M | +31% |
 | FY2025E | $906M | — | +27% |
+| FY2026 | ~$948M | — | +26% |
+| FY2027E | $1.10-$1.12B | — | +15-17% (guide) |
 
 **Note:** Fiscal year ends January 31.
 
@@ -78,6 +80,35 @@
 | Q1 FY26 | $216M | +33% | -6.8% | 22% |
 | Q2 FY26 | $227M | +29% | -5.5% | 25% |
 | Q3 FY26 | $244M | +25% | -5.1% | 27% |
+| Q4 FY26 | $260.4M | +23% | — | — |
+
+---
+
+## Q4 FY2026 earnings (reported Mar 3, stock reaction Mar 4)
+
+Stock -13.5% on Mar 4. Beat on Q4 but guided down hard for FY27 — market punished the deceleration.
+
+| Metric | Q4 FY26 | Estimate | Result |
+|--------|---------|----------|--------|
+| Adj EPS | $0.30 | $0.23 | Beat |
+| Revenue | $260.4M (+23% YoY) | $252.2M | Beat |
+
+**FY2027 guidance (the problem):**
+
+| Metric | FY27 Guide | Consensus | Gap |
+|--------|-----------|-----------|-----|
+| EPS | $0.76-$0.80 | $1.03 | -22% to -26% below |
+| Revenue | $1.10-$1.12B | — | 15-17% growth |
+
+FY27 revenue growth guidance of 15-17% represents a material deceleration from 26% in FY26. Management acknowledged the shortfall directly: "We are not satisfied with our revenue growth guidance."
+
+**Key drivers of the miss:**
+- Softer US performance — only partial recovery in public sector after government reopening
+- Expects minimal revenue from [[GitLab Duo]] Agent in FY27 (early adoption cycle)
+- Analysts calling FY27 a "transition year" — multiple price target cuts followed
+- [[OpenAI]] overhang also pressuring stock as competitive threat to DevOps workflows
+
+Source: GitLab earnings release, analyst notes, Mar 3-4, 2026.
 
 ---
 

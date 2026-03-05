@@ -54,6 +54,25 @@ CEO [[Stéphane Bancel]]: Sharpened commercial execution, cost discipline. 2026 
 
 ---
 
+## Arbutus patent settlement + EMA combo vaccine (Mar 4, 2026)
+
+Stock closed at $57.86, +16.1% on the day — largest single-day move in months.
+
+Patent settlement: [[Moderna]] agreed to pay up to $2.25B to settle a patent dispute with [[Arbutus Biopharma]] over lipid nanoparticle (LNP) technology used in the COVID-19 vaccine. [[Arbutus Biopharma]] holds foundational patents on LNP delivery systems critical to mRNA therapeutics. [[Arbutus Biopharma]] stock fell -11.5% to $4.15 on the settlement — market read: the $2.25B ceiling is less than Arbutus hoped for, or the stock had priced in a larger outcome. The settlement removes a major legal overhang from [[Moderna]]'s stock.
+
+EMA positive opinion: The [[European Medicines Agency]] issued a positive opinion for [[Moderna]]'s combination flu + COVID vaccine for adults aged 50+. This advances the combo vaccine toward EU approval, validating the pipeline beyond single-pathogen products.
+
+| Event | Impact |
+|-------|--------|
+| Arbutus settlement | Up to $2.25B payment, removes legal overhang |
+| EMA combo vaccine opinion | Positive, ages 50+ |
+| MRNA stock | $57.86, +16.1% |
+| ABUS stock | $4.15, -11.5% |
+
+Source: Reuters, Mar 4, 2026.
+
+---
+
 ## Pipeline
 
 | Program | Status |
@@ -62,7 +81,7 @@ CEO [[Stéphane Bancel]]: Sharpened commercial execution, cost discipline. 2026 
 | RSV vaccine | Approved |
 | mNEXSPIKE | Commercial (3rd product) |
 | Flu vaccine | FDA Refusal-to-File (US) |
-| Flu + COVID combo | Development |
+| Flu + COVID combo | EMA positive opinion (Mar 2026, ages 50+) |
 | Cancer vaccines | Phase 2/3 |
 | Rare diseases | Early stage |
 
@@ -87,4 +106,5 @@ Bear:
 ## Related
 
 - [[Pfizer]] — COVID vaccine partner (now competitor)
+- [[Arbutus Biopharma]] — LNP patent dispute settled Mar 2026 ($2.25B)
 - [[Agentic AI]] — drug discovery applications

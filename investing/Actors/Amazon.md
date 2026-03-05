@@ -246,6 +246,25 @@ Jassy explicitly named **robotics** alongside AI, chips, and LEO satellites as d
 
 **Competitive moat:** No other retailer or logistics company operates robotics at this scale. The combination of proprietary hardware (10+ robot types), AI coordination (DeepFleet), and 300+ facility deployment creates a flywheel: more robots → more data → better AI → more efficient robots.
 
+### Robotics unit layoffs (Mar 4, 2026)
+
+Amazon confirmed layoffs across its robotics division — at least 100 white-collar jobs eliminated from the unit that designs robots and conveyances for warehouse automation. This follows the January halt of the [[Blue Jay]] robotic arm program (a multi-arm ceiling-mounted system for smaller fulfillment spaces, demonstrated Oct 2025).
+
+The robotics cuts are part of a broader corporate trimming:
+
+| Metric | Value |
+|--------|-------|
+| Robotics jobs cut (Mar 2026) | 100+ white-collar |
+| January 2026 layoffs | ~16,000 (company hinted more to come) |
+| Total corporate cuts since Oct 2025 | ~30,000 (~10% of white-collar workforce) |
+| Total Amazon workforce | 1.5M (mostly hourly fulfillment center staff) |
+
+Amazon has attributed the cuts to AI-driven efficiency gains and a broader culture revision under [[Andy Jassy]]. The robotics layoffs are notable given Jassy's explicit framing of robotics as a core investment pillar alongside AI, chips, and LEO satellites in the Q4 2025 earnings call. The tension: investing $200B in 2026 capex while cutting the teams that design internal automation systems.
+
+**Separately:** Amazon signed the "Ratepayer Protection Pledge" at the [[White House]] on Mar 4 — committing to bear the cost of new electricity generation for its data centers rather than passing costs to existing utility ratepayers. This addresses growing political backlash against hyperscaler power demand raising residential electricity bills.
+
+*Source: Reuters (Mar 4, 2026)*
+
 ---
 
 ## Partnerships

@@ -136,6 +136,30 @@ Implications:
 
 ---
 
+## Dutch semiconductor cooperation (Mar 4, 2026)
+
+Indian trade delegation visited Eindhoven — home of [[ASML]] and [[NXP]] — to pitch semiconductor cooperation under India's [[China+1]] manufacturing strategy.
+
+| Detail | Value |
+|--------|-------|
+| Projects underway | 8 semiconductor projects |
+| Flagship | $14B [[Tata Electronics]] facility in Gujarat |
+| Subsidy (central) | Up to 50% of project costs |
+| Subsidy (state) | Additional 20-25% |
+| Second subsidy program | Slated for approval March 30 — could be even larger |
+| Dutch firm interest | 50-60 firms requested meetings with Indian delegation |
+| [[ASML]] | Plans to open a support office in India |
+
+India Semiconductor Mission tech director Manish Hooda pitched the [[China+1]] angle to Dutch firms — positioning India as an alternative manufacturing base.
+
+Indians in the [[Netherlands]] tripled to 89,000 in 2024 (from 2014), with 10,000+ in Eindhoven alone — building an organic talent pipeline for semiconductor collaboration.
+
+Strategic partnership announcement expected during PM [[Narendra Modi]] visit this year.
+
+*Source: Reuters, Mar 4 2026*
+
+---
+
 ## Risks
 
 | Risk | Impact |
@@ -170,6 +194,8 @@ Companies:
 - [[Larsen & Toubro]] — infrastructure
 - [[HDFC Bank]], [[ICICI Bank]] — top banks
 - [[TCS]], [[Infosys]] — IT services
+- [[Tata Electronics]] — $14B fab in Gujarat (India Semiconductor Mission)
+- [[ASML]], [[NXP]] — Dutch semiconductor partners (Eindhoven delegation, Mar 2026)
 
 Events:
 - [[India AI Impact Summit 2026]] — first Global South AI summit (Feb 2026)
@@ -234,4 +260,4 @@ Chip access as geopolitical tool — US controls 75% of AI supercomputing cluste
 
 ---
 
-*Created 2026-01-10 · Updated 2026-02-17*
+*Created 2026-01-10 · Updated 2026-03-04*

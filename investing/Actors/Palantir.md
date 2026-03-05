@@ -176,17 +176,39 @@ Notable: upgrade comes amid [[2026 Iran conflict market impact|Iran conflict]] �
 
 ---
 
+## Maven / Anthropic exposure (Mar 4, 2026)
+
+[[Palantir]]'s Maven Smart Systems — the Pentagon's flagship AI program for intelligence analysis and weapons targeting — uses [[Anthropic]]'s [[Claude]] code in multiple prompts and workflows. Following [[Pete Hegseth|Hegseth]]'s supply-chain risk designation of [[Anthropic]] (Feb 27) and Trump's government-wide phaseout order, Palantir will need to replace Claude with another AI model and rebuild parts of its software. The ban is "effective immediately" for all contractors.
+
+| Detail | Value |
+|--------|-------|
+| Program | Maven Smart Systems |
+| AI model used | [[Claude]] ([[Anthropic]]) |
+| Maven contract value (est.) | >$1B (DoD + national security agencies) |
+| Palantir market cap | ~$350B |
+| Replacement timeline | Unclear |
+
+[[Alex Karp]] at a defense tech conference: companies that claim AI will take white-collar jobs and "screw the military" could lead to "nationalization of our technology." Could not be determined whether Maven was used in the [[Maduro capture 2026|Maduro raid]] or [[2026 Iran conflict market impact|Iran strikes]].
+
+The Maven rebuild is a material operational disruption. Claude is embedded in prompts and workflows — not a swappable API endpoint. The replacement process requires re-engineering how the system reasons, not just pointing to a different model.
+
+See [[Pentagon AI access dispute 2026]] for full context on the Anthropic ban.
+
+*Source: Reuters (Mar 4, 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
 |--------|-------|
 | Ticker | PLTR |
-| Market cap | ~$180B+ |
+| Market cap | ~$350B |
 | HQ | Denver, CO |
 | CEO | Alex Karp |
 | Founded | 2003 |
 
-*Updated 2026-03-02*
+*Updated 2026-03-04*
 
 ---
 
@@ -197,5 +219,8 @@ Notable: upgrade comes amid [[2026 Iran conflict market impact|Iran conflict]] �
 - [[Scale AI]] — peer (AI infrastructure)
 - [[a16z]] — investor (Thiel connections)
 - [[Dan Ives]] — Wedbush analyst ("Messi of AI," +523% call)
-- [[Anthropic]] — Pentagon AI partnership (~$200M contract), Claude deployed via Palantir
+- [[Anthropic]] — Pentagon AI partnership (~$200M contract), Claude deployed via Palantir. Maven Smart Systems uses Claude code — now requires rebuild after supply-chain risk designation (Mar 2026)
 - [[Maduro capture 2026]] — Claude used in operation via Palantir platform
+- [[Pentagon AI access dispute 2026]] — Anthropic designated supply-chain risk; Palantir must replace Claude in Maven
+- [[Pete Hegseth]] — Defense Secretary, issued supply-chain risk designation
+- [[Alex Karp]] — CEO, warned of potential "nationalization" if AI labs refuse military

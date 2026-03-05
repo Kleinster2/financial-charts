@@ -80,7 +80,7 @@ Largest private funding round in history (~90% strategic). Key investors: [[Amaz
 | **[[a16z]]** | — | — | Early investor |
 | **[[Sequoia Capital]]** | — | — | Multiple rounds |
 | **[[Tiger Global]]** | — | — | Growth rounds |
-| **[[NVIDIA]]** | $250M + ~$20B | — | $250M (Oct 2024) + ~$20B in Feb 2026 round |
+| **[[NVIDIA]]** | $250M + $30B | — | $250M (Oct 2024) + $30B finalized Mar 2026 (down from $100B initially announced Sept 2025) |
 | **T. Rowe Price** | — | — | Secondary purchases |
 | **Dragoneer** | — | — | Secondary purchases |
 | **[[Founders Fund]]** | — | — | Early investor |
@@ -314,6 +314,28 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Sam Altman]] revealed [[
 
 ---
 
+## NATO contract pursuit and Pentagon deal updates (Mar 4, 2026)
+
+[[OpenAI]] considering a contract to deploy on [[NATO]]'s unclassified networks (WSJ first reported). [[Sam Altman]] initially told a company meeting it was "all NATO classified networks" — later corrected to unclassified.
+
+The Pentagon deal now includes explicit language that AI services will not be used by the [[NSA]] — a further narrowing of scope after Altman's Mar 3 admission that the deal "looked opportunistic and sloppy." Altman on the Pentagon decision: "a complex, but right decision with extremely difficult brand consequences and very negative PR for us in the short term."
+
+Connie LaRossa (OpenAI national security policy) at Aspen Digital: "Our red lines were the same as Anthropic's... We are actually working to have the secure risk designation removed from Anthropic. That shouldn't be applied to a U.S. industry counterpart with such an important tool."
+
+| Detail | Value |
+|--------|-------|
+| NATO contract | Unclassified networks (not classified as Altman initially stated) |
+| NSA exclusion | Explicit language in Pentagon deal |
+| OpenAI position on Anthropic | Actively working to remove supply-chain risk designation |
+
+The LaRossa statement is significant — [[OpenAI]] publicly defending [[Anthropic]] and acknowledging shared red lines, despite being the company that moved fastest to fill the Pentagon vacuum when Anthropic was designated a supply-chain risk. See [[Pentagon AI access dispute 2026]] for full timeline.
+
+*Source: Reuters (Mar 4, 2026)*
+
+*Updated 2026-03-04*
+
+---
+
 ## Related
 
 - [[AI extensibility]] — GPT Store marketplace approach
@@ -347,3 +369,6 @@ At the [[India AI Impact Summit 2026]] (Feb 16–20), [[Sam Altman]] revealed [[
 - [[India]] — #2 market globally
 - [[AI distillation wars (2025-2026)]] — accused DeepSeek of distilling ChatGPT (Feb 12)
 - [[Model distillation]] — concept (technique, IP landscape)
+- [[NATO]] — pursuing unclassified network deployment (Mar 2026)
+- [[Pentagon AI access dispute 2026]] — agreed to Pentagon deal, then amended to match Anthropic's safeguards; defending Anthropic's designation
+- [[NSA]] — Pentagon deal explicitly excludes NSA use

@@ -153,6 +153,26 @@ Lenders balked at financing a **$4B CoreWeave data center** (CNBC, Feb 21). [[Bl
 
 ---
 
+## Perplexity partnership (Mar 4, 2026)
+
+Stock +8% on the announcement, recovering from -25% the previous week.
+
+Multi-year strategic partnership with [[Perplexity]] for AI inference workloads. CoreWeave will provide dedicated [[NVIDIA]] GB200 NVL72-powered clusters (see [[Blackwell]]), and [[Perplexity]] will power next-generation inference workloads for its Sonar and Search API ecosystem through CoreWeave infrastructure. In return, CoreWeave is deploying Perplexity Enterprise Max across its organization. Financial terms were not disclosed.
+
+**Context:** Stock had fallen ~25% the prior week on wider-than-expected quarterly loss and cautious near-term guidance. The [[Perplexity]] deal provided a signal of demand diversification beyond [[Microsoft]] (65% of revenue) — a key bear thesis vulnerability.
+
+| Detail | Value |
+|--------|-------|
+| Stock move | +8% (Mar 4) |
+| Partner | [[Perplexity]] |
+| Infrastructure | [[NVIDIA]] GB200 NVL72 clusters ([[Blackwell]]) |
+| Workload | AI inference (Sonar, Search API) |
+| Terms | Not disclosed |
+
+Source: Reuters, Mar 4, 2026.
+
+---
+
 ## The risk case
 
 CoreWeave is cited in [[AI infrastructure financing risk]] as key vulnerability:
@@ -256,4 +276,5 @@ CoreWeave wins on availability but loses on cost and scale long-term.
 - [[AI infrastructure financing]] — thesis context
 - [[AI hyperscalers]] — compete for GPU demand
 - [[Neocloud financing]] — demand orchestration pattern
+- [[Perplexity]] — multi-year inference partnership (Mar 2026)
 - [[GPU deployment bottleneck]] — shipped ≠ deployed

@@ -69,6 +69,26 @@ See [[China cybersecurity ban]] for full context.
 
 ---
 
+## Q4 FY2026 earnings (reported after close Mar 3, 2026)
+
+| Metric | Q4 FY26 | Q4 FY25 | Change |
+|--------|---------|---------|--------|
+| Revenue | $1.31B | $1.06B | +23% |
+| Subscription revenue | $1.24B | $1.01B | +23% |
+| Non-GAAP EPS | $1.12 | — | In line with consensus |
+| Non-GAAP gross margin | 79% | — | Record |
+| Subscription gross margin | 81% | — | Record |
+| Free cash flow | $376M | — | 29% of revenue (record) |
+| Ending ARR | $5.25B | — | Fastest pure-play cybersecurity to reach this |
+| Net new ARR (FY26) | $1.01B | — | First year exceeding $1B, +47% YoY |
+| Net new ARR (Q4) | $331M | — | Record quarter |
+
+FY2027 guidance: Q1 revenue $1.360-1.364B (+23-24% YoY); full year revenue $5.868-5.928B (+22-23% YoY).
+
+Record ARR, record margins, record cash flow. The July 2024 outage is fully in the rearview — customer retention held and new business accelerated. $5.25B ARR at 23% growth with 79% gross margins is elite-tier SaaS economics.
+
+---
+
 ## Investment case
 
 **Bull:**

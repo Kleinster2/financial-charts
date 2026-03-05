@@ -14,6 +14,7 @@ aliases: [OKTA]
 | Ticker | OKTA ([[Nasdaq]]) |
 | Revenue | **$2.84B** (LTM) |
 | FY26 guidance | $2.91B (+11%) |
+| FY27 guidance | ~9% revenue growth (slowest since IPO) |
 | Subscription % | **98%** |
 | FCF margin | **29%** |
 
@@ -51,7 +52,21 @@ aliases: [OKTA]
 | Q4 guidance | $748-750M |
 | Operating margin | 24-26% (non-GAAP) |
 | FCF margin | 29% |
-| Buyback | **$1B** authorized |
+| Buyback | $1B authorized |
+
+### Q4 FY2026 earnings and FY27 guidance (reported Mar 4, 2026)
+
+| Metric | Guide/Actual | Street estimate |
+|--------|-------------|-----------------|
+| Q1 FY27 revenue | $749-$753M (~9% growth) | $754.61M |
+| Q1 FY27 adj EPS | $0.84-$0.86 | $0.87 |
+| FY27 revenue growth | ~9% | — |
+
+First time projecting single-digit revenue growth since the 2017 IPO. Identity management is typically resilient in downturns but enterprise customers are delaying projects. Tighter budgets pushing customers to renew later or scale back. Software priced per employee and hiring remains muted across the enterprise customer base — a structural headwind as long as the labor market stays soft.
+
+FY27 at 9% growth would be the slowest since IPO — a step down from FY26's 11%. The deceleration raises questions about whether the AI agent identity opportunity (CEO McKinnon's "bigger than workforce + customer identity combined" claim) is translating to revenue or remains aspirational.
+
+Source: Reuters (Mar 4, 2026).
 
 ---
 
@@ -85,7 +100,9 @@ aliases: [OKTA]
 - $1B buyback signal
 
 **Bear:**
-- Growth slowing to 11%
+- Growth slowing to 9% FY27 — first single-digit since 2017 IPO
+- Enterprise customers delaying projects, renewing later, scaling back
+- Per-seat pricing model exposed to muted hiring environment
 - [[Microsoft]] Entra competition
 - Past security incidents
 - Valuation vs growth

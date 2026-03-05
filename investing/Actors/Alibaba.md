@@ -72,7 +72,7 @@ Alibaba is reinventing itself as an AI company:
 | Company | Model | Approach | MAU |
 |---------|-------|----------|-----|
 | [[ByteDance]] | [[Doubao]] | Mixed | **172M** |
-| **Alibaba** | Qwen | Open source | 100M |
+| **Alibaba** | Qwen | Open source | **203M** (Feb 2026, up from 31M Jan) |
 | [[Baidu]] | [[Ernie]] | Closed | — |
 | Tencent | [[Hunyuan]] | Mixed | — |
 
@@ -94,7 +94,9 @@ Alibaba integrating its services into Qwen app to create one-stop AI platform:
 
 **Qwen app stats:**
 - Launched November 2025
-- 100M users
+- **203M MAU** (Feb 2026) — up from 100M (Jan), 31M (Dec)
+- #3 globally behind [[ChatGPT]] and [[Doubao]]
+- Surge driven by aggressive Lunar New Year holiday campaigns
 - Goal: All-around personal assistant
 
 **"Task assistant" feature (invite-only):**
@@ -104,6 +106,32 @@ Alibaba integrating its services into Qwen app to create one-stop AI platform:
 
 **VP Wu Jia (Jan 2026):**
 > "AI is evolving from intelligence to agency. What we are launching today represents a shift from models that understand to systems that act — deeply connected to real-world services."
+
+---
+
+## Qwen executive exodus (Mar 2026)
+
+Three senior [[Qwen]] executives have departed in 2026, raising questions about leadership stability at Alibaba's most strategically important AI division:
+
+| Name | Role | Departure |
+|------|------|-----------|
+| Lin Junyang | Qwen division head | Mar 3, 2026 — posted "Bye my beloved Qwen" on X |
+| Yu Bowen | Post-training head | Mar 3, 2026 (per LatePost, same day as Lin) |
+| Hui Binyuan | Staff research scientist (coding focus) | Jan 2026 |
+
+The departures come at a contradictory moment — [[Qwen]] mobile app MAU surged from 31M in January to 203M in February 2026, making it the #3 AI app globally:
+
+| App | Feb 2026 MAU |
+|-----|-------------|
+| [[ChatGPT]] | #1 |
+| [[Doubao]] ([[ByteDance]]) | #2 |
+| **Qwen** ([[Alibaba]]) | **#3 — 203M** (up from 31M in Jan) |
+
+The MAU surge came from aggressive user acquisition campaigns during the Lunar New Year holidays. Alibaba has released 400+ open-source Qwen models since 2023, accumulating 1B+ downloads across platforms.
+
+Alibaba shares fell 4% on Mar 4 (vs [[Hong Kong]] market -2.8% on [[2026 Iran conflict market impact|Iran war selloff]]). The executive exodus adds a talent-flight discount on top of the geopolitical drag.
+
+*Source: Reuters (Mar 4, 2026)*
 
 ---
 
@@ -289,14 +317,16 @@ See [[Wearable AI]] for competitive landscape.
 | AI investment | $53B+ pledged |
 | Cloud share | \#1 China (~35%) |
 | AI model | Qwen (open source) |
-| Qwen app | **100M users** |
+| Qwen app | **203M MAU** (Feb 2026; was 31M Jan) |
+| Qwen models released | 400+ open-source since 2023 |
+| Qwen downloads | **1B+** across platforms |
 | [[Hugging Face]] downloads | **700M+** |
 | Quark app | ~150M MAU |
 | ModelScope | 16M developers |
 | CEO | Eddie Wu (since 2023) |
 | Stock YTD (2025) | **+100%+** (doubled) |
 
-*Updated 2026-01-15*
+*Updated 2026-03-04*
 
 ---
 

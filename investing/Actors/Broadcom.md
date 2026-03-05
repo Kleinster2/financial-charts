@@ -169,6 +169,32 @@ High concentration = risk if Google (Zebrafish) or [[Apple]] reduce orders.
 
 ---
 
+## Q1 FY2026 earnings (Mar 4, 2026)
+
+Revenue $19.31B (+29% YoY), beat $19.18B estimate. Adj EPS $2.05 vs $2.03 estimate. AI revenue $8.4B (+106% YoY) — driven by custom AI accelerators and networking chips.
+
+| Metric | Q1 actual | Estimate |
+|--------|-----------|----------|
+| Revenue | $19.31B (+29% YoY) | $19.18B |
+| Adj EPS | $2.05 | $2.03 |
+| AI revenue | $8.4B (+106% YoY) | — |
+| Infra software | $6.80B (~+1% YoY) | $6.88B (miss) |
+
+Q2 guidance well above Street: ~$22.0B vs $20.56B estimate. Q2 AI semiconductor revenue expected $10.7B. CEO Hock Tan: "Our AI revenue growth is accelerating." Expects to sell at least 1M chips by 2027 based on stacked design tech.
+
+Infrastructure software segment grew only ~1% to $6.80B, missing the $6.88B estimate — the [[VMware]] integration not yet delivering revenue growth.
+
+Announced new $10B share buyback program through end of year.
+
+Key customers driving AI: [[Google]] (TPU design), [[OpenAI]] (custom processors). Big Tech expected to spend $630B+ on AI infrastructure this year.
+
+Andrew Rocco ([[Zacks]]): "regardless of which software companies win the AI race, they are all investing in Broadcom's networking chips and custom accelerators."
+
+Stock +3.8% after-hours, down ~8% YTD.
+
+*Source: Reuters, Mar 4 2026*
+
+---
 
 ![[avgo-employees-chart.png]]
 *Headcount: 33,000 (2025) — down 10.8% YoY*

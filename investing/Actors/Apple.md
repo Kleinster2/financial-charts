@@ -375,6 +375,30 @@ Apple raised prices across MacBook Air and Pro lines, passing through [[Memory s
 
 Apple's scale and premium positioning give it leverage with memory suppliers — it can pass costs to consumers more easily than commodity PC OEMs. But it validates the [[Memory shortage 2025-2026]] thesis in the most visible way: the world's most valuable company raising prices because of AI's memory appetite.
 
+### MacBook Neo — $599 entry-level laptop (Mar 4, 2026)
+
+Apple unveiled **MacBook Neo**, its cheapest laptop ever, targeting the [[Chromebook]] and budget Windows PC market:
+
+| Spec | $599 model | $699 model |
+|------|-----------|-----------|
+| Chip | [[A18 Pro]] (same family as iPhone) | A18 Pro |
+| Display | 13-inch | 13-inch |
+| RAM | 8GB | 8GB |
+| Storage | 256GB | 512GB |
+| Touch ID | No | Yes |
+| Battery | 16 hours | 16 hours |
+| Ports | 2x USB-C + headphone jack | 2x USB-C + headphone jack |
+| MagSafe | No | No |
+| Education price | $499 | — |
+
+Available in blush, indigo, silver, and citrus. Body is 60% recycled aluminum by weight. Pre-orders open in 30 countries, shipping March 11.
+
+The timing is strategic: the [[Memory shortage 2025-2026|memory crunch]] is hitting Chromebook and Windows PC makers harder than Apple — rival OEMs are delaying refreshes or raising prices while Apple leverages its supply chain muscle to go lower. At $599 ($499 education), this undercuts most AI-capable laptops from [[Dell]], [[HP Inc.]], and [[Lenovo]], which are all dealing with DRAM cost spikes of 55-90% QoQ.
+
+The trade-off is clear: no MagSafe, no Touch ID on the base model, and an iPhone-derived chip rather than M-series. Apple is sacrificing margin to capture price-sensitive buyers who would otherwise default to [[Google]]'s Chromebook ecosystem or budget Windows machines.
+
+*Source: Reuters (Mar 4, 2026)*
+
 ---
 
 ## Quick stats

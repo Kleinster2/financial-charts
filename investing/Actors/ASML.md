@@ -55,6 +55,72 @@ Every leading edge chip (sub-7nm) requires ASML EUV machines. Period.
 
 **Production timeline:** CEO Fouquet expects High-NA HVM 2027-2028. 300,000+ wafers already processed at customer sites.
 
+**High-NA update (Mar 2026):** 500,000 wafers processed, ~80% uptime (target 90% by year-end). Production-ready threshold crossed.
+
+---
+
+## Beyond EUV: Advanced packaging and larger chips (Mar 2026)
+
+ASML is expanding beyond its EUV monopoly into three new vectors under new CTO **Marco Pieters** (promoted Oct 2025, replacing Martin van den Brink after ~40 years). Pieters' background is in ASML software development. Core thesis: chips are moving from flat to multi-level stacked architectures — the "chip skyscraper."
+
+> "We look, not just for the next five years, we look at the next 10, maybe 15 years." — CTO Marco Pieters
+
+**Organizational context (Jan 2026):** ASML reorganized its technology business to prioritize engineering over management roles, aligning with Fouquet's "engineers can be engineers again" push.
+
+### 1. Advanced packaging tools — TWINSCAN XT:260
+
+First product: i-line lithography scanner purpose-built for 3D chip packaging.
+
+| Spec | Value |
+|------|-------|
+| Model | **TWINSCAN XT:260** |
+| Type | i-line lithography scanner |
+| Resolution | ~400nm |
+| Overlay | Sub-40nm |
+| Throughput | **200-270 WPH** |
+| Speed advantage | **4x faster** than existing packaging lithography (likely vs [[Canon]] FPA-5520iV) |
+| First shipment | Late 2025 |
+
+Engineers are exploring additional machines for stacked chip manufacturing. [[SK Hynix]] plans revealed need for additional machines — SK Hynix is building a **$13B HBM packaging plant** targeting 2027 production.
+
+**Market opportunity:**
+
+| Metric | Value |
+|--------|-------|
+| Advanced packaging market (2025) | $42-51B |
+| Advanced packaging market (2034) | $70-90B |
+| ASML target share | 5-10% of tooling over a decade |
+
+**Competition in packaging lithography:**
+
+| Company | Position |
+|---------|----------|
+| [[Canon]] | i-line incumbent — 187 units shipped last year, 247 projected this year |
+| [[Onto Innovation]] | JetStep platform |
+| [[Applied Materials]] | Packaging equipment |
+| [[KLA]] | Inspection/metrology |
+
+### 2. Expanding reticle limit
+
+ASML plans to determine whether maximum chip size can go beyond the current stamp-sized reticle limit. The existing reticle constraint forces multi-chip packaging solutions — [[NVIDIA]], [[AMD]], and other AI chip designers are hitting this ceiling, driving demand for advanced packaging as a workaround. Removing or expanding the limit could reshape the packaging vs monolithic tradeoff.
+
+### 3. AI-powered machine software
+
+Using AI to speed up machine control software and chip inspection. Aligns with the €1.3B [[Mistral]] investment (Sep 2025) and Pieters' software background.
+
+### Financial context (2025 results)
+
+| Metric | 2025 Actual | 2026 Guidance | 2030 Target |
+|--------|-------------|---------------|-------------|
+| Revenue | **€32.7B** | €34-39B | €44-60B |
+| Gross margin | **52.8%** | 51-53% | 56-60% |
+| Net income | **€9.6B** | — | — |
+| R&D spend | €2.5B → **€4.7B** | Rising | — |
+
+R&D nearly doubling from €2.5B to €4.7B signals the scale of ambition beyond EUV — packaging tools, reticle expansion, and AI software all require significant engineering investment.
+
+*Source: Reuters exclusive, Mar 2, 2026.*
+
 ---
 
 ## Key customers
@@ -349,7 +415,7 @@ See [[Rare earth leverage]] for geopolitical context.
 **Analysts:**
 - [[Morgan Stanley]] — top European semi pick
 
-*Updated 2026-03-04*
+*Updated 2026-03-03*
 
 ---
 

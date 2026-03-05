@@ -194,6 +194,27 @@ See [[NVIDIA-Intel partnership]] for full analysis.
 
 ---
 
+## 18A foundry reversal (Mar 4, 2026)
+
+CFO David Zinsner at [[Morgan Stanley]] TMT conference: CEO Lip-Bu Tan now reconsidering 18A as a foundry node for external customers — previously relegated it to internal use only.
+
+Zinsner: "now that we've seen some real progress there, I think he's now starting to recognize that this is actually a good node to offer to external customers as well."
+
+| Detail | Value |
+|--------|-------|
+| Node | Intel 18A |
+| Prior plan | Internal products only; [[Intel Foundry Services]] to focus on 14A for external |
+| New direction | Re-opening 18A for external foundry customers |
+| Yields | Small percentage of chips meeting customer standards, but improving monthly |
+| Workforce | ~20% cut last year under Tan's restructuring |
+| Stock | +6% on the day (broader chip rally) |
+
+Tan had originally said 18A could only generate reasonable return for internal products and was focusing on 14A for external foundry customers. The yield improvement changed the calculus — if 18A can serve external customers, it accelerates [[Intel Foundry Services]] revenue timeline by one node generation.
+
+*Source: Reuters, Mar 4 2026*
+
+---
+
 ## Intel 18A launch (Jan 27, 2026)
 
 **TODAY:** 14 Core Ultra Series 3 SKUs available globally across 200+ PC designs.

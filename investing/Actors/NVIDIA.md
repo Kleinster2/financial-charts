@@ -435,6 +435,24 @@ See [[Short interest]] for interpretation framework.
 
 $2B each in [[Lumentum]] and [[Coherent]] — equity, multibillion-dollar purchase commitments, capacity rights for co-packaged optics (CPO). Extends platform control into the physical interconnect layer as AI clusters scale beyond copper limits. LITE +8%, COHR +6.5% premarket. See [[NVIDIA photonics investment March 2026]] for full deal structure, technical architecture, and analyst commentary.
 
+### Jensen Huang at [[Morgan Stanley]] TMT Conference (Mar 4)
+
+[[Jensen Huang]] confirmed NVIDIA finalized a $30B investment in [[OpenAI]] — down from the $100B deal initially announced in September 2025. The $100B deal was abandoned after the Financial Times reported in February that doubts about AI sector health and concerns about the circular arrangement (NVIDIA investing in its own customer) made the original figure untenable.
+
+Huang on the $30B: "might be the last time it has the opportunity to invest in a consequential company like this." Also described NVIDIA's $10B investment in [[Anthropic]] as likely the last of its kind. Both [[OpenAI]] and [[Anthropic]] preparing to go public this year — [[OpenAI]]'s IPO could value the company at up to $1 trillion.
+
+| Detail | Value |
+|--------|-------|
+| OpenAI investment (final) | $30B |
+| OpenAI investment (original, Sept 2025) | $100B (abandoned) |
+| Anthropic investment | $10B |
+| OpenAI IPO valuation (potential) | Up to $1T |
+| Circular concern | NVIDIA investing in its own customer |
+
+The reduction from $100B to $30B is notable context for the [[OpenAI Infrastructure Spend]] and [[NVIDIA as kingmaker]] theses — even NVIDIA is pulling back from the most aggressive AI investment postures.
+
+*Source: Reuters (Mar 4, 2026)*
+
 ---
 
 ## Recent developments (Jan 2026)
