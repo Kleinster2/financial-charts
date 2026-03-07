@@ -245,6 +245,44 @@ Denning's argument: the old model of building giant power plants to meet peak de
 
 ---
 
+## $40B bridge loan for OpenAI (Mar 2026)
+
+Seeking record dollar-denominated bridge loan to fund additional $30B investment in [[OpenAI]]'s $110B round (announced Feb 27, 2026). The round — largest private financing in history — valued OpenAI at $730B pre-money ($840B post).
+
+| Detail | Value |
+|--------|-------|
+| Loan size | Up to $40B |
+| Tenor | ~12 months (bridge) |
+| Lead underwriter | [[JPMorgan Chase]] |
+| Total underwriters | 4 banks |
+| Purpose | Fund $30B commitment to OpenAI $110B round |
+| Round participants | SoftBank $30B, [[NVIDIA]] $30B, [[Amazon]] $50B |
+| OpenAI pre-money | $730B |
+| OpenAI post-money | ~$840B |
+
+**Funding chain:** SoftBank already completed $41B into OpenAI by Dec 2025 (~11% stake). This new $30B would push total investment to ~$71B and stake to ~13%. Combined with $70B+ of AI investments since 2025, the company's balance sheet is now deeply tethered to AI adoption and a potential OpenAI IPO.
+
+Asset sales to fund: liquidated entire [[NVIDIA]] stake ($5.8B), sold [[T-Mobile]] stake ($12.7B Jun-Dec 2025), expanded [[Arm Holdings|Arm]] margin loan ($13.5B → $20B). Using Arm as collateral — not selling it.
+
+### S&P credit outlook cut (Mar 3, 2026)
+
+S&P revised SoftBank outlook to negative from stable, affirming BB+ rating:
+
+| Concern | Detail |
+|---------|--------|
+| LTV impact | +4 percentage points → ~37% (above 35% downgrade threshold) |
+| Unlisted asset share | Projected >50% (from 42% in Dec 2025) |
+| OpenAI credit quality | Rated "weakest" in SoftBank portfolio by S&P |
+| Key risk | Liquidity pressure if AI adoption slows or OpenAI IPO delays |
+
+S&P explicitly flagged that OpenAI's share of SoftBank's portfolio will rival [[Arm Holdings]] — but Arm is public and liquid, OpenAI is not. The concentration in an illiquid, speculative-grade asset is the core concern.
+
+Bloomberg Intelligence: SoftBank has relied on debt and asset sales to fund $70B+ of AI investments since 2025, linking its balance sheet to AI adoption timing and OpenAI listing prospects.
+
+*Source: Bloomberg (Mar 6, 2026); S&P Global (Mar 3, 2026)*
+
+---
+
 ## Quick stats
 
 | Metric | Value |
@@ -253,11 +291,11 @@ Denning's argument: the old model of building giant power plants to meet peak de
 | Market cap | ~$100B |
 | NAV | ~$150B+ |
 | Arm stake | ~90% (~$150B) |
-| OpenAI stake | 11% (~$34.6B invested, $19.8B gain) |
+| OpenAI stake | ~11% → 13% ($41B invested + $30B new round) |
 | Vision Fund | $150B+ AUM |
 | Stargate role | Lead investor ($100B+) |
 
-*Updated 2026-02-27*
+*Updated 2026-03-06*
 
 ---
 

@@ -29,11 +29,17 @@ Selected partners/coverage
 - Data/finance: FactSet, MSCI, Moody’s, Third Bridge (per launch reporting)
 - Platform integrations across productivity and developer ecosystems
 
+Funding
+- $110B round (Feb 27, 2026) — largest private financing in history. [[SoftBank]] $30B, [[NVIDIA]] $30B, [[Amazon]] $50B. Pre-money valuation $730B, post-money ~$840B. Amazon commitment: $15B initial + $35B conditional.
+- ~910M users (Mar 2026). Targeting $17B consumer revenue.
+
 Timeline (recent)
 - 2025‑02‑27 — GPT‑4.5 (research preview)
 - 2025‑04‑14 — 4.5 API deprecation announced (effective 2025‑07‑14)
 - 2025‑08‑07 — GPT‑5 launch; 4.5 removed for most tiers
+- 2026‑02‑27 — $110B funding round ($730B pre-money); SoftBank, NVIDIA, Amazon
 - 2026‑03‑05 — GPT‑5.4 released; agentic focus; Thinking/Pro variants
+- 2026‑03‑06 — Stargate Abilene expansion dropped (with [[Oracle]]); core 4.5 GW contract intact
 
 Sources/links
 - https://openai.com/

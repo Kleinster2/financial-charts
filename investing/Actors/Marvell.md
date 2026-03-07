@@ -105,9 +105,9 @@ CEO Matt Murphy: revenue growth expected to accelerate each quarter in FY2027, d
 
 Key drivers: custom AI silicon programs with [[Amazon|AWS]], [[Google]], [[Microsoft]]; [[XConn Technologies]] and [[Celestial AI]] acquisitions strengthening optical interconnect portfolio.
 
-Stock +14% after-hours on the beat.
+Stock +14% after-hours on the beat. Closed Mar 6 at **+22.1%** — one of the largest single-day gains in company history. Market cap crossed ~$97B. Custom AI ASIC business surged from near-zero to **$1.5B in annual revenue** in one fiscal year. Data center revenue reached 74% of Q4 total ($1.651B). Management raised FY2027 revenue guide to >$11B (+30% YoY), with FY2028 target near $15B.
 
-*Source: Marvell press release, BusinessWire, Mar 5 2026*
+*Source: Marvell press release, BusinessWire, Mar 5 2026; Benzinga, Mar 6 2026*
 
 ---
 
@@ -132,12 +132,12 @@ Bear:
 | Metric | Value |
 |--------|-------|
 | Ticker | MRVL |
-| Market cap | ~$80B |
+| Market cap | ~$97B |
 | Revenue (FY2026) | $8.195B (+42% YoY) |
 | Focus | Custom silicon, networking |
 | Strength | Optical DSPs |
 
-*Updated 2026-03-05*
+*Updated 2026-03-06*
 
 ![[mrvl-price-chart.png]]
 

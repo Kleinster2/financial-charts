@@ -229,6 +229,49 @@ The FX market is telling a different story than equities. While stocks are prici
 
 ---
 
+## Day 8 — March 6 (NFP + oil = stagflation scare)
+
+### Conflict developments (Mar 6)
+
+- **US says Iranian missile attacks down 90%** after B-2 bomber strikes on launch infrastructure (Al Jazeera)
+- Israel moving to "next phase" — 2,500 strikes with 6,000+ weapons delivered
+- Trump warns Iran "will be hit very hard" as war enters second week
+- Saudi, Qatar, Bahrain, UAE see continued drone/missile attacks
+- **Strait of Hormuz** remains effectively closed — shipping near-halt continues
+
+### February NFP: the stagflation print
+
+Nonfarm payrolls: **-92K** (vs +50K expected). Unemployment ticked to **4.4%** from 4.3%. Third time in five months the economy lost jobs. Healthcare lost 28K due to [[Kaiser Permanente]] strike (30,000+ workers in Hawaii and California). The combination of negative payrolls + oil >$90 immediately surfaced stagflation comparisons.
+
+### Market snapshot (Mar 6 closes)
+
+| Asset | Close | Day move | Notes |
+|-------|-------|----------|-------|
+| S&P 500 | — | **-1.3%** | |
+| Dow | — | **-0.9%** (intraday -945 pts) | |
+| Nasdaq | — | **-1.6%** | |
+| Russell 2000 | — | **-2.39%** | Barely above 2,500 |
+| Brent crude | ~$88 | +9%+ on week | Highest since mid-2024 |
+| WTI crude | >$90 | Surged on Hormuz + NFP | |
+| Gas prices | — | +$0.20/gal (+7%) in days | |
+
+### Major movers (Mar 6)
+
+| Ticker | Move | Catalyst |
+|--------|------|----------|
+| [[Marvell]] (MRVL) | **+22.1%** | Q4 FY2026 beat, AI ASIC $1.5B revenue |
+| [[Samsara]] (IOT) | **+17.38%** | Q4 beat, GAAP profitable, above-consensus guide |
+| [[Gap]] (GAP) | **-13.49%** | Q4 EPS miss, Athleta -10%, 800 stores closed (storms) |
+| [[Goldman Sachs]] (GS) | -3.68% | Broad selloff |
+| [[American Express]] (AXP) | -3.61% | Consumer/macro fear |
+| [[Caterpillar]] (CAT) | -2.81% | Industrial bellwether weakness |
+
+### Day 8 synthesis
+
+The NFP print reframes the conflict from a short-duration energy shock to a potential stagflation catalyst. Oil was already $85+ from Hormuz disruption; the -92K payrolls print layered demand-side weakness on top. This is the first time the equity market has sold off hard and *stayed* down — no intraday dip-buy recovery like Days 3-5. The Russell 2000 -2.39% is the tell: small caps, which are most exposed to domestic economic conditions and least hedged on energy costs, led the decline. The AI infrastructure names (Marvell +22.1%, Samsara +17.38%) were the only bright spots — idiosyncratic earnings beats strong enough to override the macro.
+
+---
+
 ## Portfolio implications
 
 | Theme | Action | Rationale |

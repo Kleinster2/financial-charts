@@ -164,6 +164,24 @@ The market isn't complacent — it's calculating. The question is whether this i
 
 ---
 
+## Oil hits $90 — Day 8 (March 6)
+
+Brent crude surged to **~$88/bbl** (intraday above $90) — highest since mid-2024. WTI above $90. Oil prices up **31% (WTI) and 24% (Brent)** for the week. The $90 breach came on the same day as the February NFP miss (-92K jobs), fusing the energy shock with a stagflation narrative.
+
+| Metric | Mar 6 level | Since conflict start |
+|--------|-------------|---------------------|
+| Brent crude | ~$88/bbl | +24% on week |
+| WTI crude | >$90/bbl | +31% on week |
+| US gas prices | +$0.20/gal | +7% in days |
+
+The Bellorin (Welligence) call from Mar 5 is proving prescient — "high 90s by end of week" now looks achievable. Saudi Arabia's largest oil refinery suspended production. Iraq's Rumaila remains shut on storage constraints. The structural buffers identified on Mar 5 are being consumed: the question is shifting from *if* oil hits $100 to *when*.
+
+Gas prices up 7% in days creates immediate consumer pain — the political dimension is now active. Trump warned Iran would be "hit very hard" as war enters second week, but hasn't signaled SPR release.
+
+*Source: NPR, Yahoo Finance, Fox Business (Mar 6, 2026)*
+
+---
+
 ## Related
 
 - [[2026 Iran conflict market impact]] — hub note

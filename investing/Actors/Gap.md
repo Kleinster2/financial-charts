@@ -1,5 +1,5 @@
 ---
-aliases: [GPS, Gap Inc, Old Navy, Banana [[Republic]], Athleta]
+aliases: [GPS, Gap Inc, Old Navy, Banana Republic, Athleta]
 ---
 #actor #fashion #retail #usa #public
 
@@ -95,6 +95,28 @@ Tariff risk is real — Gap sources heavily from [[Asia]].
 - Revenue still essentially flat (+1%)
 - Gap brand relevance — is it permanent or cyclical?
 - Banana [[Republic]] workwear demand uncertain (hybrid work)
+
+---
+
+## Q4 FY2025 earnings (reported Mar 5, stock reaction Mar 6: -13.49%)
+
+| Metric | Q4 FY2025 | Notes |
+|--------|-----------|-------|
+| Revenue | $4.2B | In line with estimates |
+| Diluted EPS | $0.45 | Missed $0.46 est |
+| Old Navy comp | +3% | Winter storms weighed |
+| Gap brand comp | +7% | Strongest brand |
+| Banana Republic comp | +4% | Solid |
+| Athleta comp | **-10%** | Worst performer by far |
+| Store closures (storms) | ~800 | Peak closures during January storms |
+
+FY2026 guidance: revenue +2-3%, adjusted EPS $2.20-2.35 (vs $2.32 consensus). The guide brackets consensus — not a disaster, but not inspiring either.
+
+The **Athleta -10% comp** is the real concern. Old Navy's +3% was held back by winter storms (800 stores closed at peak in January, trends "recovered immediately" afterward), but Athleta's decline is structural — [[Lululemon]], Alo Yoga, and [[Vuori]] continue taking share. At $1.3B revenue, Athleta is too big to ignore and too weak to carry.
+
+Stock dropped **-13.49%** on Mar 6. The one-cent EPS miss was the trigger, but the magnitude of the selloff reflects concern about Athleta and the uninspiring guide range after a strong FY24.
+
+*Source: CNBC, Fast Company (Mar 5-6, 2026)*
 
 ---
 

@@ -50,9 +50,28 @@ aliases: [Stargate, Stargate JV]
 | Power | Gigawatts of capacity |
 | Geography | Global expansion |
 
-**First site**: Under construction near Abilene, Texas.
+**First site**: Under construction near Abilene, Texas (1.2 GW campus).
 
 **Status (Jan 2026):** Per SemiAnalysis, Abilene "not going BRRR" — progressing slower than OpenAI's UAE Stargate site which uses on-site gas turbines ([[BYOP]]).
+
+### Abilene expansion collapse (Mar 6, 2026)
+
+[[Oracle]] and [[OpenAI]] abandoned plans to expand the flagship Abilene site from 1.2 GW to 2 GW. Negotiations stalled on financing and OpenAI's "frequently changing demand forecasting and shifting view of Stargate" (Bloomberg).
+
+| Detail | Value |
+|--------|-------|
+| Original Abilene plan | 1.2 GW campus |
+| Planned expansion | Up to 2 GW |
+| Developer | [[Crusoe Energy]] |
+| Outcome | Expansion scrapped; 1.2 GW continues |
+
+**[[Meta]] stepping in:** The collapsed talks created an opening for [[Meta]] to lease the planned expansion capacity from [[Crusoe Energy]]. [[NVIDIA]] put down a **$150M deposit** on the future capacity before approaching Meta about moving in — NVIDIA acting as matchmaker to ensure its GPUs get deployed regardless of which hyperscaler occupies the facility.
+
+**Core contract intact:** Despite the expansion cancellation, OpenAI has tapped Oracle to deploy **4.5 GW** of compute capacity. Oracle values this contract at **$300B over its lifetime** — still on track.
+
+The Abilene expansion collapse reveals the tension in Stargate: OpenAI's demand forecasts keep shifting as the AI lab pivots between custom silicon, NVIDIA hardware, and inference-vs-training compute ratios. The $500B headline number was always aspirational — this is the first concrete downsizing.
+
+*Source: Bloomberg (Mar 6, 2026); Data Center Dynamics (Mar 7, 2026)*
 
 ---
 
@@ -189,6 +208,7 @@ Reinforces [[Long memory]] thesis.
 | Sep 2025 | 5 new US sites announced |
 | Jan 2026 | Energy/community commitments announced |
 | Feb 2026 | HBM4 production begins (Samsung/SK Hynix) |
+| Mar 6, 2026 | Abilene expansion scrapped (1.2→2 GW); Meta/NVIDIA step in for Crusoe capacity |
 | 2026 | UAE Stargate 200MW, [[UK]] first GPUs |
 | 2026-2028 | 7GW buildout target |
 | 2029 | $500B deployment target |
@@ -242,7 +262,7 @@ Stargate forces all hyperscalers to respond.
 
 ---
 
-*Updated 2026-01-23*
+*Updated 2026-03-06*
 
 ---
 
@@ -260,3 +280,5 @@ Stargate forces all hyperscalers to respond.
 - [[Memory shortage 2025-2026]] — Demand driver
 - [[Section 232 semiconductor tariff]] — Hyperscaler exemption relevant
 - [[Argentina]] — Stargate Argentina (500MW, Patagonia)
+- [[Crusoe Energy]] — Abilene expansion developer; Meta in talks to lease capacity
+- [[Meta]] — potential Abilene expansion tenant (via Crusoe/NVIDIA)

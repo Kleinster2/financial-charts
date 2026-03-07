@@ -22,13 +22,13 @@ Connected Operations Platform for physical operations — fleet management, indu
 | Founded | 2015 |
 | HQ | San Francisco, California |
 | CEO | Sanjit Biswas |
-| FY2026 revenue guidance | $1.60B (~28% YoY) |
+| FY2026 revenue | $1.626B (+30% YoY) |
 | FY2025 revenue | $1.25B (+33% YoY) |
-| ARR (Q3 FY26) | $1.75B (+29% YoY) |
-| $100K+ ARR customers | 2,990 (Q3 FY26) |
-| $1M+ ARR customers | 164 (>20% of total ARR) |
-| GAAP profitable | First quarter in Q3 FY26 |
-| Stock price | ~$24 (Feb 2026) |
+| FY2027 revenue guide | $1.965-1.975B (+21-22%) |
+| ARR (Q4 FY26) | $1.890B (+30% YoY) |
+| $100K+ ARR customers | 2,990+ |
+| GAAP profitable | 2 consecutive quarters (Q3-Q4 FY26) |
+| Stock price | ~$28 (Mar 6, 2026 post-earnings) |
 
 ---
 
@@ -74,7 +74,28 @@ The Connected Operations Platform connects IoT sensors across fleets, equipment,
 | Dec 2021 | IPO on NYSE (IOT) |
 | Q3 FY26 (Dec 2025) | First GAAP-profitable quarter; $1.75B ARR |
 | Feb 2026 | First Super Bowl ad (LX) — Jesse Love (NASCAR champion) |
-| Mar 5, 2026 | Q4 FY26 / full-year earnings |
+| Mar 5, 2026 | Q4 FY26 / full-year earnings — beat, stock +17.38% |
+
+---
+
+## Q4 FY2026 earnings (reported Mar 5, stock +17.38% on Mar 6)
+
+| Metric | Q4 FY2026 | FY2026 |
+|--------|-----------|--------|
+| Revenue | $444.3M (+28% YoY) | $1.626B (+30% YoY) |
+| GAAP EPS | $0.04 | — |
+| Non-GAAP EPS | $0.18 (beat $0.13 est) | $0.57 |
+| Ending ARR | $1.890B (+30% YoY) | — |
+| Net new ARR | $144.8M (+33% YoY) | $432M (+21% YoY) |
+| GAAP profitable | 2nd consecutive quarter | — |
+
+FY2027 guidance: revenue $1.965-1.975B (21-22% growth), non-GAAP operating margin 19%, non-GAAP EPS $0.65-0.69. CFO had previously signaled FY2027 initial guide would exceed consensus — it did.
+
+New products: Asset Tag XS (5x smaller), updated asset tag with 50% longer battery life (6 years). Multi-product deals and large-customer transactions at record levels.
+
+Stock +17.38% on Mar 6 — the biggest post-earnings jump since the IPO run. Market rewarding the GAAP profitability inflection + above-consensus guide. At ~$28 post-earnings, still well below the ~$49 all-time high.
+
+*Source: Samsara press release (Mar 5, 2026); Benzinga, TradingView*
 
 ---
 
