@@ -79,6 +79,30 @@ The implication: in an earnings-driven market (vs multiple-expansion), index ret
 
 ---
 
+## The dispersion trade
+
+The dispersion trade is a structured way to bet on high dispersion / low correlation. Mechanically: **sell index options** (which gain value when the index moves a lot) and **buy single-stock options** on the index's constituents (which gain value when individual stocks move a lot). Hedged properly, this is a pure bet on correlation — not on the level or overall volatility of the market.
+
+**Why it pays:** Some real-money investors naturally sell single-stock options (buy-write strategies) while others naturally buy index options (crash insurance). Hedge funds step in to take the other sides, effectively betting against correlation. This has been a structural feature of markets, not just a tactical trade.
+
+**AI as a fundamental catalyst:** The two dominant market theses — "AI will eat everything" (winners replace losers, trillions redirected) or "AI is a bubble" (it all collapses) — both imply high dispersion. Either way, some stocks go up a lot and others go down a lot, but the overall index may not move much. You don't have to pick which thesis wins — you can bet on "either AI will be big or it won't" via the dispersion trade.
+
+**2026 YTD through Feb 13:** Dispersion was **the largest since at least 1994** (WSJ), signaling unusually high divergence between individual stock returns.
+
+### Iran correlation shock (Mar 2026)
+
+The 2026 Iran conflict jolted the dispersion trade. Geopolitical events spike **correlation** — everything sells off together, index options become expensive, and the trade loses money.
+
+- Implied one-month correlation jumped to **highest level since November** on Tuesday (Mar 4)
+- Single stocks and indexes both tumbled — the cancelling-out dynamic broke
+- Amy Wu Silverman (head of derivatives strategy, [[RBC]]): *"We could be at an important inflection point. One thing geopolitical events can trigger is a spike in correlation."*
+
+The tension: AI makes dispersion go up, but war makes correlations go up. It's not clear which effect wins.
+
+*Source: Bloomberg (Bernard Goyder, Mar 5 2026), WSJ, FT*
+
+---
+
 ## Historical context
 
 | Period | Dispersion level | Context |
@@ -86,7 +110,8 @@ The implication: in an earnings-driven market (vs multiple-expansion), index ret
 | **2009** | Last comparable extreme | Post-GFC recovery; massive differentiation between survivors and casualties |
 | **2020** | Elevated | COVID winners vs losers |
 | **2016-2019** | Low | Low-vol, momentum-driven market |
-| **Feb 2026** | Highest since 2009 | AI repricing + earnings-driven rotation |
+| **Feb 2026** | Highest since 2009 (Citadel); largest since 1994 (WSJ, through Feb 13) | AI repricing + earnings-driven rotation |
+| **Mar 2026** | Correlation spike | Iran conflict breaks dispersion dynamic; implied 1M correlation highest since Nov |
 
 ---
 
@@ -106,6 +131,10 @@ The implication: in an earnings-driven market (vs multiple-expansion), index ret
 - [[Goldman Sachs]] — active fund outperformance data
 - [[Barclays]] — Venu Krishna on "violent rotations"
 - [[Société Générale]] — Manish Kabra on earnings-driven market masking boom
+- [[RBC]] — Amy Wu Silverman on Iran correlation shock as inflection point
+
+### Events
+- [[2026 Iran conflict market impact]] — correlation spike threatening dispersion trade
 
 ---
 
@@ -115,5 +144,8 @@ The implication: in an earnings-driven market (vs multiple-expansion), index ret
 - Citadel Securities dispersion data (Scott Rubner)
 - Goldman Sachs active fund performance analysis
 - Bloomberg earnings data
+- Bloomberg (Bernard Goyder), "Escalating conflict jolts popular hedge fund strategy," Mar 5 2026
+- Wall Street Journal, dispersion "largest since at least 1994" through Feb 13 2026
+- Matt Levine, Bloomberg Opinion, "Be Liquid When Others Are Illiquid," Mar 5 2026
 
-*Created 2026-02-27*
+*Created 2026-02-27. Updated 2026-03-06.*

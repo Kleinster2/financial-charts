@@ -79,9 +79,13 @@ Weinstein publicly stated [[BlackRock]] is "the worst company in the S&P 500 whe
 
 ---
 
-## Blue Owl BDC tender offers (Feb 2026)
+## Illiquidity arbitrage campaign (Feb-Mar 2026)
 
-On Feb 17, 2026, Saba and [[Cox Capital Partners]] notified [[Blue Owl]] Capital Corporation II (OBDC II) of their intention to launch a cash tender offer for a portion of outstanding shares. Subsequently notified [[Blue Owl]] Technology Income Corp (OTIC) and Blue Owl Credit Income Corp (OCIC) of similar intentions.
+Starting Feb 2026, Saba and [[Cox Capital Partners]] launched a **scalable illiquidity arbitrage** — offering cash to retail investors trapped in semi-liquid non-traded funds at steep discounts to NAV.
+
+### Blue Owl BDCs (Feb 17, 2026)
+
+Notified [[Blue Owl]] Capital Corporation II (OBDC II) of intention to launch a cash tender offer for a portion of outstanding shares. Subsequently notified [[Blue Owl]] Technology Income Corp (OTIC) and Blue Owl Credit Income Corp (OCIC) of similar intentions.
 
 | Detail | Value |
 |--------|-------|
@@ -91,7 +95,23 @@ On Feb 17, 2026, Saba and [[Cox Capital Partners]] notified [[Blue Owl]] Capital
 | Trigger | [[Blue Owl OBDC II redemption gate]] — redemptions permanently ended, retail investors seeking exit |
 | OWL reaction | **+2.2% after-hours** |
 
-**Strategic significance:** Extends Saba's closed-end fund activism playbook to **non-traded BDCs** — a new frontier. Same pattern: identify vehicles where retail investors face illiquidity at a discount to NAV, offer cash exit at a discount, profit from NAV convergence. Cox Capital brings operational expertise in non-traded fund secondary markets.
+### Starwood SREIT (Mar 5, 2026)
+
+Expanded from private credit BDCs to **non-traded REITs**. Launched tender offer for [[Starwood Capital Group|Starwood]] Real Estate Income Trust (SREIT).
+
+| Detail | Value |
+|--------|-------|
+| Target | **SREIT** ($8.2B non-traded REIT) |
+| Size | **5.4%** of outstanding Class S and Class I shares |
+| Price | **28.6% discount** (Class S), **24.4% discount** (Class I) to Feb 12 NAV |
+| Partner | [[Cox Capital Partners]] |
+| Context | SREIT tightened redemption limits May 2024, slightly lifted June 2024 |
+
+### The strategy
+
+The illiquidity premium in non-traded vehicles blew out in Feb-Mar 2026. Retail investors suddenly want liquidity; the big managers can't sell it back without looking predatory. Saba steps in as the third-party liquidity provider — buying at a discount, betting the premium mean-reverts. The risk isn't that the liquidity premium widens further — it's that the underlying credit or real estate is worse than expected.
+
+Extends Saba's closed-end fund activism playbook to a new asset class. Same pattern: identify vehicles where retail investors face illiquidity at a discount to NAV, offer cash exit at a discount, profit from NAV convergence. Cox Capital brings operational expertise in non-traded fund secondary markets.
 
 ---
 
@@ -111,6 +131,7 @@ On Feb 17, 2026, Saba and [[Cox Capital Partners]] notified [[Blue Owl]] Capital
 | Aug 2023 | Attempted [[Sculptor Capital]] acquisition with [[Pershing Square]], [[Avenue Capital]] (failed) |
 | 2025 | Activist campaign against [[Baillie Gifford]] trusts |
 | Feb 2026 | Tender offers for [[Blue Owl]] BDCs (OBDC II, OTIC, OCIC) with [[Cox Capital Partners]] at 20-35% NAV discount |
+| Mar 2026 | Expanded to non-traded REITs: tender offer for [[Starwood Capital Group\|Starwood]] SREIT at 24-29% discount with Cox Capital |
 
 ---
 
@@ -146,6 +167,8 @@ On Feb 17, 2026, Saba and [[Cox Capital Partners]] notified [[Blue Owl]] Capital
 - [[Blue Owl]] — tender offer target (OBDC II, OTIC, OCIC BDCs, Feb 2026)
 - [[Cox Capital Partners]] — co-purchaser on Blue Owl tender offers
 - [[Blue Owl OBDC II redemption gate]] — catalyst for BDC tender offers
+- [[Starwood Capital Group]] — SREIT tender offer target (Mar 2026)
+- [[Private credit retail liquidity crisis 2026]] — market context for illiquidity arbitrage campaign
 
 ---
 

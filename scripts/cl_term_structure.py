@@ -135,8 +135,9 @@ def plot_term_structure(df, start_date, output_path):
 
     colors = ['#2962FF', '#E91E63', '#4CAF50', '#FF9800', '#9C27B0', '#00BCD4']
     for i, col in enumerate(df.columns):
+        latest = df[col].iloc[-1]
         ax.plot(df.index, df[col], color=colors[i % len(colors)],
-                linewidth=1.5, label=col, alpha=0.85)
+                linewidth=1.5, label=f'{col}  ${latest:.2f}', alpha=0.85)
 
     ax.set_ylabel("$/barrel", fontsize=12)
     ax.legend(fontsize=11, loc='upper left')
@@ -188,10 +189,43 @@ def plot_spread(df, start_date, output_path):
     print(f"Saved: {output_path} ({os.path.getsize(output_path):,} bytes)")
 
 
+def plot_calendar_spreads(df, start_date, output_path):
+    """Plot adjacent calendar spreads: CL1-CL2, CL2-CL3, etc."""
+    df = df[df.index >= start_date].copy()
+    n = len([c for c in df.columns if c.startswith('CL')])
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+
+    colors = ['#2962FF', '#E91E63', '#4CAF50', '#FF9800', '#9C27B0']
+    for i in range(n - 1):
+        front = f'CL{i+1}'
+        back = f'CL{i+2}'
+        spread = df[front] - df[back]
+        latest = spread.iloc[-1]
+        label = f'{front}−{back}  ${latest:+.2f}'
+        ax.plot(df.index, spread, color=colors[i % len(colors)],
+                linewidth=1.5, label=label, alpha=0.85)
+
+    ax.axhline(0, color='black', linewidth=0.8)
+    ax.set_ylabel("Spread ($/barrel)", fontsize=12)
+    ax.legend(fontsize=11, loc='best')
+    ax.grid(True, alpha=0.3)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
+    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))
+    fig.autofmt_xdate()
+
+    plt.tight_layout()
+    fig.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close(fig)
+    print(f"Saved: {output_path} ({os.path.getsize(output_path):,} bytes)")
+
+
 def main():
     parser = argparse.ArgumentParser(description="CL crude oil term structure chart")
     parser.add_argument("--start", default="2020-01-01", help="Chart start date")
     parser.add_argument("--spread", action="store_true", help="Also plot CL6-CL1 spread")
+    parser.add_argument("--calendar-spreads", action="store_true",
+                        help="Plot adjacent calendar spreads (CL1-CL2, CL2-CL3, etc.)")
     parser.add_argument("--months", type=int, default=6, help="Number of forward months")
     args = parser.parse_args()
 
@@ -210,6 +244,10 @@ def main():
     if args.spread:
         spread_path = os.path.join(OUTPUT_DIR, "cl-contango-spread.png")
         plot_spread(df, start_date, spread_path)
+
+    if args.calendar_spreads:
+        cal_path = os.path.join(OUTPUT_DIR, "cl-calendar-spreads.png")
+        plot_calendar_spreads(df, start_date, cal_path)
 
 
 if __name__ == "__main__":

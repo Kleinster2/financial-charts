@@ -20,6 +20,25 @@ Source: VandaTrack (self-directed retail investor flow in US stock market, Jan 2
 
 ---
 
+## Feb-Mar 2026: The dip-buying machine
+
+Retail investors have become the stock market's **most reliable dip-buyers**. Every selloff — AI disruption fears, Iran conflict, software meltdown — triggers a flood of retail buying that cushions the decline.
+
+| Data point | Value | Source |
+|------------|-------|--------|
+| Feb 2026 retail buying | **5th-biggest month on record** | [[Citadel Securities]] |
+| Context | One of strongest since **2021 meme-stock frenzy** | Citadel Securities |
+| Mon Mar 3 (Iran selloff) | **$2.2B** retail inflows into stocks + ETFs | [[JPMorgan Chase]] |
+| Result | Major indexes finished almost flat despite early slide | — |
+
+**The structural question:** Does the constant retail buy-the-dip bid insulate the market against volatility? If professional investors and market makers know retail will flood in on any 2-3% dip, that changes the risk calculus. Crashes may be structurally harder to sustain.
+
+**The private credit contradiction:** These same retail investors — fearless dip-buyers in the stock market — are the ones panicking and demanding redemptions from [[Private credit retail liquidity crisis 2026|private credit BDCs and non-traded REITs]]. Nerves of steel in liquid markets; flight risk in illiquid ones. The difference is the ability to see prices and act: when you can buy Apple at -3% on your phone, it feels like a bargain. When your BDC quarterly statement arrives 45 days late showing opaque marks, you just want out.
+
+*Source: WSJ (Mar 5 2026), Citadel Securities, JPMorgan Chase*
+
+---
+
 ## Why it persists
 
 1. **Commission-free trading** — [[Robinhood]] forced industry to zero commissions; no friction to re-enter

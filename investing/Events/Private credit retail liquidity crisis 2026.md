@@ -28,6 +28,7 @@ aliases: [private credit crisis 2026, BDC redemption crisis, retail private cred
 | **Mar 3, 2026** | **Blackstone BXSL** allows record **7.9% share redemptions** from flagship private credit fund |
 | **Mar 5, 2026** | **BlackRock TCP** writes down $25M Infinite Commerce loan **100 → 0 in one quarter**; second sudden wipeout (after Renovo in Nov); cuts dividend 25¢ → 17¢; 91% of valuation cuts from 2021-vintage deals |
 | **Mar 5, 2026** | Marc Rowan ([[Apollo]]) warns **shakeout coming** for private credit firms; same day Arougheti ([[Ares Management\|Ares]]) calls UBS 15% default forecast "absolutely wrong" |
+| **Mar 5, 2026** | **[[Saba Capital]] + [[Cox Capital Partners]]** launch tender offer for **[[Starwood Capital Group\|Starwood]] SREIT** shares — 5.4% of Class S and I at **24-29% discounts** to NAV. Second target after Blue Owl BDCs. Structural illiquidity arbitrage play. |
 | **Mar 31, 2026** | ⏳ **Next quarter-end** — redemption requests hit across all semi-liquid funds simultaneously |
 
 ---
@@ -43,6 +44,20 @@ Bloomberg Opinion (Mar 5, 2026): The first real problem hitting private credit i
 - Inflows to unlisted BDCs have fallen "dramatically" alongside rising redemption requests
 
 *Source: Bloomberg Opinion (Marcus Sherwood, Mar 5, 2026)*
+
+---
+
+## The illiquidity arbitrage (Saba/Cox)
+
+[[Saba Capital]] and [[Cox Capital Partners]] are running a **scalable illiquidity arbitrage** across the semi-liquid fund universe. The logic (per Matt Levine, Bloomberg Opinion, Mar 5): the illiquidity premium in non-traded BDCs and REITs **blew out** in Feb-Mar 2026. Retail investors suddenly value liquidity more than they did when they bought in. The big asset managers bought liquidity cheap when they launched these funds — now it's expensive, but they can't sell it back because opportunistically trading the illiquidity premium against your own customers is reputationally toxic.
+
+Weinstein can. The sequence:
+1. **Blue Owl BDCs** (Feb 17) — OBDC II, OTIC, OCIC at 20-35% discount to NAV
+2. **[[Starwood Capital Group|Starwood]] SREIT** (Mar 5) — $8.2B non-traded REIT, 5.4% of Class S and I shares at 24-29% discounts
+
+The pattern extends beyond private credit into non-traded REITs — any semi-liquid vehicle where retail is trapped. The risk for Saba/Cox isn't that the liquidity premium keeps widening — it's that the underlying credit or real estate is worse than they think. The premium itself should mean-revert.
+
+**Institutional counter-flow:** While retail flees, institutions are buying. [[Blackstone]] had **record institutional inflows in Q4 2025** (Paul Davies, Bloomberg Opinion). Insurers and pension funds — with predictable cash needs and genuine long-term horizons — can bear the illiquidity. The divergence between retail panic and institutional calm is the structural opening Saba/Cox are exploiting.
 
 ---
 
@@ -104,6 +119,14 @@ Retail investors are running **before defaults even spike** — non-accruals at 
 **Valuation sequence:** BlackRock held deeply distressed Razor Group loans → Razor merged with Infinite Commerce (Aug 2025) → new debt structure marked at par (100¢, Q3 2025) → written to zero (Q4 2025). The merger created a new debt structure that reset marks.
 
 **Amazon aggregator context:** The sector boomed during COVID (Thrasio, Razor, Perch, SellerX) on a thesis of consolidating Amazon marketplace sellers. Victory Park blamed poor performance on depressed demand and higher inventory costs from tariffs. Most aggregators are now in restructuring or distress.
+
+### Starwood SREIT — Saba/Cox tender offer (Mar 5, 2026)
+- **$8.2B non-traded REIT** — not private credit, but same structural problem (illiquid assets, semi-liquid wrapper, retail investors wanting out)
+- Starwood tightened redemption limits **May 2024** (higher-for-longer rates ground RE to a halt), slightly lifted June 2024
+- [[Saba Capital]] and [[Cox Capital Partners]] offering to buy **5.4% of Class S and Class I shares** at **28.6% and 24.4% discounts** to Feb 12 NAV
+- Second target after Blue Owl BDCs — confirms this is a **scalable illiquidity arbitrage strategy**, not a one-off
+
+**Significance:** Saba/Cox are treating the illiquidity premium as a **market-wide factor** — not just a private credit story. Anywhere retail investors are trapped in semi-liquid vehicles, Weinstein will offer them cash at a discount. The implicit message: "your manager won't give you your money back, but we will — for a price."
 
 ### Ares ARCC (watching)
 - **$26B+** — largest publicly traded BDC
@@ -178,6 +201,8 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 
 **Jamie Dimon (late 2025):** Private credit's *"cockroaches"* — stress in one borrower signals more hidden trouble.
 
+**Bruce Richards ([[Marathon Asset Management]] CEO, Feb-Mar 2026):** Most vocal bear — predicts 15% software default rate for two consecutive years, ~3x overall direct lending. Called software lending *"a train coming down the tracks that you could see from some distance."* Marathon carries only 1% software exposure vs 23% industry average; focuses on HALO (Hard Assets, Low Obsolescence) strategy — aircraft, engines, cranes. Criticized peers for *"rearranging the furniture"* by relabeling software exposure as hospitality or travel. Marathon being acquired by [[CVC Capital Partners]] for up to $1.2B (Q3 2026).
+
 **Marc Rowan (Apollo CEO, Mar 5):** Warned that **a shakeout is coming for private credit firms** — biggest name in the industry publicly acknowledging the reckoning.
 
 **Mike Arougheti (Ares CEO, Mar 5):** Called UBS forecast of **15% private credit default rates** "absolutely wrong" — same day as Rowan's shakeout warning. The industry can't agree on whether this is fine or existential.
@@ -234,5 +259,7 @@ Mohamed El-Erian: *"Is this a 'canary-in-the-coalmine' moment, similar to August
 - [[Apollo]] — contagion (-6%)
 - [[KKR]] — contagion (-4%)
 - [[Carlyle Group]] — contagion (-5%)
+- [[Marathon Asset Management]] — Richards: loudest software bear, 15% default prediction, HALO strategy
+- [[Starwood Capital Group]] — SREIT targeted by Saba/Cox tender offer (Mar 5, 2026)
 - [[March 2020 liquidity crisis]] — prior liquidity event (different mechanism)
 - [[PE-insurance convergence]] — structural context (retail push)

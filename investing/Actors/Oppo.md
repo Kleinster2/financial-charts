@@ -50,5 +50,7 @@ One of the largest forecast revisions — low margins can't absorb component cos
 - [[Samsung]] — better positioned (margin buffer)
 - [[Apple]] — best positioned (margin buffer)
 - [[SK Hynix]] — memory supplier (pricing power)
+- [[DeepMirror]] — investor (pre-A and A-round)
+- [[Looper Robotics]] — investee via DeepMirror
 
 *Created 2026-01-15*

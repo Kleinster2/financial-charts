@@ -1,5 +1,5 @@
 ---
-aliases: [TTD, The [[Trade]] Desk]
+aliases: [TTD, The Trade Desk]
 ---
 #actor #adtech #ctv #usa #public
 
@@ -23,12 +23,12 @@ aliases: [TTD, The [[Trade]] Desk]
 
 | Function | Description |
 |----------|-------------|
-| **DSP** | Demand-side platform |
-| **Buyers** | Ad agencies, brands |
-| **Inventory** | CTV, display, audio, mobile |
-| **Differentiator** | Independence (not walled garden) |
+| DSP | Demand-side platform |
+| Buyers | Ad agencies, brands |
+| Inventory | CTV, display, audio, mobile |
+| Differentiator | Independence (not walled garden) |
 
-**Business model:** Takes ~20% of ad spend flowing through platform.
+Business model: Takes ~20% of ad spend flowing through platform.
 
 ---
 
@@ -41,7 +41,7 @@ aliases: [TTD, The [[Trade]] Desk]
 | Partners | Roku, Disney, Netflix, Paramount, etc. |
 | Position | \#1 independent CTV buyer |
 
-**Thesis:** Every streaming ad tier needs programmatic buying → [[Trade]] Desk.
+Thesis: Every streaming ad tier needs programmatic buying → [[Trade]] Desk.
 
 ---
 
@@ -55,7 +55,7 @@ aliases: [TTD, The [[Trade]] Desk]
 | [[Paramount Global]] | Existing | Yes |
 | [[Comcast]] Peacock | Existing | Yes |
 
-**Every new ad tier = more inventory for [[Trade]] Desk.**
+Every new ad tier = more inventory for [[Trade]] Desk.
 
 ---
 
@@ -68,7 +68,7 @@ aliases: [TTD, The [[Trade]] Desk]
 | [[Meta]] | Walled garden, limited CTV |
 | Criteo | Smaller, retail focus |
 
-**Advantage:** Independence. Brands want alternative to [[Google]]/[[Meta]] duopoly.
+Advantage: Independence. Brands want alternative to [[Google]]/[[Meta]] duopoly.
 
 ---
 
@@ -81,7 +81,7 @@ aliases: [TTD, The [[Trade]] Desk]
 | Benefit | Identity across channels |
 | Strategy | Industry standard, open-source |
 
-**Goal:** Create post-cookie identity layer that [[Trade]] Desk facilitates.
+Goal: Create post-cookie identity layer that [[Trade]] Desk facilitates.
 
 ---
 
@@ -107,9 +107,29 @@ aliases: [TTD, The [[Trade]] Desk]
 
 ---
 
+## OpenAI ad partnership (Mar 5, 2026)
+
+The Information reported [[OpenAI]] held early talks with Trade Desk to sell ads on ChatGPT. OpenAI has ~910M users and is targeting $17B in consumer revenue — needs sophisticated independent ad infrastructure without building a complex ad-tech stack from scratch. Partnership would cement TTD's role as the operating system for the open internet's ad market.
+
+Discussions are preliminary — no formal agreement announced. Stock +19% on the report.
+
+CEO insider buy (Mar 2-4): Jeff Green purchased 6M shares at $23.49-$25.08, totaling $148.1M — largest insider buy in company history. Signals strong management conviction during a period when stock had declined 30%+ YTD before the news.
+
+| Metric | Detail |
+|--------|--------|
+| Source | The Information (Mar 5) |
+| OpenAI users | ~910M |
+| OpenAI revenue target | $17B consumer |
+| CEO purchase | 6M shares, $148.1M |
+| Stock reaction | +18.97% |
+
+*Sources: The Information, Benzinga, SEC Form 4 filings*
+
+---
+
 ## Investment case
 
-**Bull:**
+Bull:
 - CTV secular growth
 - Netflix/Disney ad tiers = new inventory
 - Independence vs walled gardens
@@ -117,7 +137,7 @@ aliases: [TTD, The [[Trade]] Desk]
 - High margins, strong growth
 - Founder-led
 
-**Bear:**
+Bear:
 - Valuation (~25x revenue)
 - [[Google]]/[[Amazon]] competition
 - Macro ad spending sensitivity
@@ -135,6 +155,10 @@ aliases: [TTD, The [[Trade]] Desk]
 | CTV exposure | ~45% |
 | Growth | 25%+ |
 
+*Updated 2026-03-05*
+
+![[ttd-price-chart.png]]
+
 ---
 
 ## Related
@@ -143,12 +167,14 @@ aliases: [TTD, The [[Trade]] Desk]
 - [[Netflix]] — ad tier partner
 - [[Roku]] — inventory partner
 - [[Magnite]] — sell-side complement
+- [[OpenAI]] — potential ad partnership
 - [[Media]] — sector
 
 ---
 
 ## Sources
 
-- [[[Trade]] Desk IR](https://www.thetradedesk.com/us/about-us/investor-relations)
+- [Trade Desk IR](https://www.thetradedesk.com/us/about-us/investor-relations)
+- [The Information: OpenAI/Trade Desk ad talks (Mar 5, 2026)](https://www.theinformation.com/articles/openai-held-early-talks-trade-desk-sell-ads)
 
 *Created 2026-01-16*

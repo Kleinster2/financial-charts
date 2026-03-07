@@ -31,4 +31,5 @@ Founder of Starwood Capital Group and [[Jaws Estates Capital]] family office.
 
 ## Related
 
+- [[Starwood Capital Group]] — $115B+ AUM real estate firm (founder)
 - [[Jaws Estates Capital]] — family office

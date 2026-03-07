@@ -93,6 +93,18 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 ---
 
+## Term structure
+
+![[cl-term-structure.png]]
+
+*CL1–CL6 continuous contracts. Backwardation dominated 2024 (tight physical market). Late 2025 curve flattened as supply loosened. March 2026 front-month spike with widening CL1–CL6 gap signals near-term scarcity.*
+
+![[cl-calendar-spreads.png]]
+
+*Adjacent calendar spreads (CL1−CL2, CL2−CL3, etc.). Tight ~$0.20–0.30 backwardation through 2024, collapse to zero mid-2025 (oversupply pricing), then explosive blowout in March 2026 — CL2−CL3 hit ~$5.30/bbl. Steepest backwardation in near months = classic supply shock signature.*
+
+---
+
 ## Current dynamics (2026)
 
 | Factor | Status |

@@ -712,6 +712,28 @@ Stock: +3.5% AH initially, settled ~+0.7%. 63 analysts: 60 Buy. Consensus PT $26
 
 ---
 
+## March 2026: H200 China production halted, TSMC capacity shifted to Vera Rubin
+
+FT reports (Mar 5) NVIDIA has stopped producing H200 chips for the Chinese market and reallocated [[TSMC]] manufacturing capacity to next-gen [[Rubin|Vera Rubin]] hardware.
+
+| Detail | Value |
+|--------|-------|
+| Chinese orders placed | 2M+ GPUs for 2026 |
+| Per-chip price | ~$27,000 |
+| Revenue at stake | Several billion dollars |
+| Chips already produced | ~250,000 |
+| Beijing status | Never formally approved imports |
+
+Sequence: Trump admin approved H200 sales (Jan 14) → Chinese firms ordered 2M+ units → Beijing asked companies to pause orders while officials decided terms → no units shipped → NVIDIA redirected capacity to Vera Rubin.
+
+Strategic logic: regulatory environment makes trade-off unfavorable against confirmed orders elsewhere. NVIDIA's own results demonstrated China is not a precondition for the growth story (zero China DC compute revenue in Q4 FY26 guidance, still beat). Vera Rubin already in full production at [[TSMC]] on 3nm, ~50 petaflops inference (5x Blackwell). Partner availability H2 2026 — [[AWS]], [[Google]], [[Microsoft]], [[Oracle]] among first deployers.
+
+This effectively ends the H200-for-China chapter that began with the Jan 14 approval. The 250K chips already produced may sit in inventory or find non-China buyers.
+
+*Source: Financial Times, Reuters, Mar 5 2026*
+
+---
+
 ## February 2026: India AI summit withdrawal
 
 [[Jensen Huang]] withdrew from the [[India AI Impact Summit 2026]] on Feb 14, citing "unforeseen circumstances." He had been expected to deliver a keynote at the first [[Global South]] AI summit. The absence was notable given the scale of AI investment commitments announced at the event.

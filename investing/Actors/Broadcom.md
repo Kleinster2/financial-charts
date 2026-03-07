@@ -17,7 +17,7 @@ Broadcom sits between hyperscalers and foundries:
 Hyperscaler (spec) → Broadcom (design) → TSMC (fab) → Hyperscaler (consume)
 ```
 
-They're not a hyperscaler — they're an **enabler** that provides:
+They're not a hyperscaler — they're an enabler that provides:
 - Custom AI chip design (ASICs)
 - Networking silicon for AI clusters
 - Switching and routing chips
@@ -29,12 +29,12 @@ They're not a hyperscaler — they're an **enabler** that provides:
 | Customer | Product | Scale |
 |----------|---------|-------|
 | Google | TPU design | Massive (internal + cloud) |
-| **Anthropic** | TPUv7 | **~1M units direct** |
+| Anthropic | TPUv7 | ~1M units direct |
 | Meta | Custom AI silicon | Large |
 | OpenAI | [[Titan]] chips | $10B deal |
 | Others | Various ASICs | Varies |
 
-**Anthropic deal (Jan 2026, per [[SemiAnalysis]]):**
+Anthropic deal (Jan 2026, per [[SemiAnalysis]]):
 - ~1,000,000 TPUv7 units purchased directly from Broadcom
 - Deployed in Anthropic-controlled facilities (not Google Cloud)
 - DC infrastructure from [[TeraWulf]], [[Hut 8]], [[Cipher Mining]]
@@ -47,7 +47,7 @@ They're not a hyperscaler — they're an **enabler** that provides:
 
 See [[Hyperscaler chip roadmap]] for full details.
 
-**MediaTek appearing in designs:**
+MediaTek appearing in designs:
 - Google TPUv7e, TPUv8e
 - [[Microsoft]] Maia 400
 - Bytedance APU
@@ -59,10 +59,10 @@ This isn't just Google — it's spreading.
 ## Google disintermediation (original risk)
 
 Google TPUv8 has two paths:
-- **Sunfish (TPUv8ax)**: Broadcom turnkey — full bundle, higher ASP
-- **Zebrafish (TPUv8x)**: Google sources wafers/memory directly, MediaTek for supporting chips
+- Sunfish (TPUv8ax): Broadcom turnkey — full bundle, higher ASP
+- Zebrafish (TPUv8x): Google sources wafers/memory directly, MediaTek for supporting chips
 
-**The economics:**
+The economics:
 - Broadcom charges ~55% margins on TPUs
 - This costs Google ~$15B/year — a "tax"
 - [[NVIDIA]] Blackwell in 2026 will restore GPU cost leadership
@@ -75,19 +75,19 @@ If volume shifts to Zebrafish, Broadcom loses ASP and margin. This is existentia
 
 ## Optical/Interconnect business
 
-**Silicon photonics:**
+Silicon photonics:
 - Acquiring silicon photonics technology
 - Alternative to traditional optical (InP)
 - Data center interconnects
 - Competing with [[Coherent]], [[Lumentum]]
 
-**Networking silicon:**
+Networking silicon:
 - Tomahawk switch chips (Ethernet)
 - Jericho routing chips
 - High-speed SerDes
 - Powers [[Arista Networks]] switches
 
-**AI cluster connectivity:**
+AI cluster connectivity:
 - Ethernet fabric silicon
 - Competing with InfiniBand (NVIDIA)
 - NVLink alternatives
@@ -108,9 +108,9 @@ Broadcom is both ASIC designer AND networking/optical player.
 
 ## Chip sourcing
 
-- **Foundry**: [[TSMC]] (95% of external wafers)
-- **[[Samsung]] exposure**: Low — not exploring alternatives
-- **F26 purchase commitments**: Only $106M — unusual flexibility while others fight for capacity
+- Foundry: [[TSMC]] (95% of external wafers)
+- [[Samsung]] exposure: Low — not exploring alternatives
+- F26 purchase commitments: Only $106M — unusual flexibility while others fight for capacity
 
 ---
 
@@ -127,7 +127,7 @@ Broadcom is both ASIC designer AND networking/optical player.
 - Wireless = lowest margin in non-AI
 - Rest of non-AI (networking, storage) = higher margin than XPU
 - No sharp recovery expected in F26
-- **Implication**: AI dependency deepening, legacy business structurally smaller
+- Implication: AI dependency deepening, legacy business structurally smaller
 
 ---
 
@@ -147,7 +147,7 @@ High concentration = risk if Google (Zebrafish) or [[Apple]] reduce orders.
 
 ## For theses
 
-- **[[Long Broadcom]]** — ASIC explosion thesis, $14.5B → $100B F27E
+- [[Long Broadcom]] — ASIC explosion thesis, $14.5B → $100B F27E
 - [[Long TSMC]] — Broadcom's custom chips all go to TSMC, reinforces moat
 - [[Short TSMC long Korea]] — neutral to bearish Korea; more TSMC demand, not [[Samsung]]
 
@@ -155,17 +155,17 @@ High concentration = risk if Google (Zebrafish) or [[Apple]] reduce orders.
 
 ## Recent developments (Dec 2025)
 
-**OpenAI deal (Oct 2025):**
+OpenAI deal (Oct 2025):
 - $10B commitment, 10GW capacity
 - Custom [[Titan]] chips, H2 2026 production
 - Stock +9% on announcement
 
-**Citi projections:**
+Citi projections:
 - F25: $14.5B ASIC revenue
 - F26E: $50.5B (+248%)
 - F27E: $100B (+98%)
 
-**Stock**: +50% YTD, market cap $1.5T+
+Stock: +50% YTD, market cap $1.5T+
 
 ---
 
@@ -190,9 +190,22 @@ Key customers driving AI: [[Google]] (TPU design), [[OpenAI]] (custom processors
 
 Andrew Rocco ([[Zacks]]): "regardless of which software companies win the AI race, they are all investing in Broadcom's networking chips and custom accelerators."
 
-Stock +3.8% after-hours, down ~8% YTD.
+Stock +3.8% after-hours (Mar 4), closed +4.8% on Mar 5.
 
-*Source: Reuters, Mar 4 2026*
+Earnings call customer detail (6 XPU customers confirmed):
+
+| Customer | Status | 2027 outlook |
+|----------|--------|--------------|
+| [[Google]] | Shipping (TPU) | Continued ramp |
+| [[Meta]] | Shipping (MTIA) | Alive and shipping |
+| [[OpenAI]] | Development ([[Titan]]) | First-gen XPU in volume, >1GW |
+| [[Anthropic]] | Ramping (TPUv7) | Demand >3GW |
+| Customer 5 | Undisclosed | Shipments >2x in 2027 |
+| Customer 6 | New (undisclosed) | — |
+
+CEO Hock Tan: line of sight to installed capacity approaching 10GW by 2027 and AI chip revenue exceeding $100B in 2027. Broadcom argues hyperscalers cannot replicate its custom silicon design capability — "they need us."
+
+*Sources: Reuters Mar 4, CNBC, Sherwood News, TrendForce Mar 5 2026*
 
 ---
 

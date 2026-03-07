@@ -191,9 +191,25 @@ China is central to every major semiconductor thesis:
 ## Industrial policy
 
 ### 15th Five Year Plan (2026-2030)
-- Central theme: AI
-- Three-stage rollout starting March 2026
-- 6 target areas by 2027: research, industrial, consumer, healthcare, education, digital govt
+
+Formally released at NPC (Mar 5, 2026). Significantly more protectionist and security-focused than 14th FYP. AI is no longer a "sector" but the operating system for the economy.
+
+| Dimension | Target |
+|-----------|--------|
+| R&D / GDP | >3.2% (record, aimed at "chokepoint" technologies) |
+| Core tech focus | Semiconductors, AI, robotics, biotech, quantum, 6G |
+| AI deployment | Embedded across manufacturing, healthcare, education, logistics |
+| Self-reliance | End dependence on Western supply chains in AI/semis |
+| Non-fossil energy | 25% of consumption by 2030 (from 21.7% in 2025) |
+| Climate | National low-carbon transition fund |
+
+Key framing: "seize the commanding heights of science and technological development" — "decisive breakthroughs in key core technologies." Xi Jinping's "New Productive Forces" doctrine is the organizing principle.
+
+Practical measures: robots to perform jobs in labor-shortage sectors, AI agents with minimal human guidance deployed across economy, quantum leadership, humanoid robots as strategic priority.
+
+Market read: this is the formal end of a unified global tech market. China insulating its economy from Western supply chains, particularly in AI and advanced semiconductors. Investment implication: decoupling acceleration, domestic substitution plays ([[Huawei]], [[SMIC]], [[Cambricon]]).
+
+*Source: NPC proceedings, Xinhua, Bloomberg, Mar 5 2026*
 
 ### Big Fund (National IC Fund)
 - Phase I: $20B (2014)

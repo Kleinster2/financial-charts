@@ -73,6 +73,29 @@ BYD represents the vertically integrated EV model:
 
 **Strategic shift:** Industry moving toward LFP for standard-range EVs. BYD pioneered the approach.
 
+### Blade Battery 2.0 (Mar 5, 2026)
+
+Second-generation Blade Battery launched alongside world's most powerful mass-produced supercharger.
+
+| Spec | Blade 2.0 | Gen 1 |
+|------|-----------|-------|
+| 10-70% charge | 5 minutes | — |
+| 10-97% charge | 9 minutes | — |
+| 20-97% at -20°C | 12 minutes | — |
+| 20-97% at -30°C | 12 minutes | — |
+| Energy density | +5% vs Gen 1 | Baseline |
+| Capacity retention | +2.5% vs Gen 1 | Baseline |
+| Warranty | Lifetime (cells) | — |
+| Chemistry | LFP | LFP |
+
+**Flash Charging 2.0:** Single-gun output 1,500 kW at 1,000V — 50% increase from Gen 1 (Mar 2025). T-shaped design, compact gun with waterproof protection. Stations open to non-BYD vehicles (at lower power).
+
+**Deployment:** 20,000 flash charging stations by end of 2026, including 18,000 "stations-within-a-station." 4,239 completed in first two months of 2026.
+
+For context: 1,500 kW is >3x the fastest US chargers. 400 km range in 5 minutes. This is the infrastructure moat — BYD selling the car AND the gas station.
+
+*Sources: CnEVPost, Electrek, CarNewsChina, Mar 5 2026*
+
 ---
 
 ## Vehicle lineup

@@ -25,6 +25,7 @@ aliases: [Cox Capital, CoxCP]
 | Aug 2025 | Franklin BSP Capital Corp (FBCC) | $50M | 31% |
 | Sep 2025 | FS Specialty Lending Fund (FSSL) | $41.4M | 42% |
 | Feb 2026 | [[Blue Owl]] OBDC II, OTIC, OCIC | TBD | 20-35% (with [[Saba Capital]]) |
+| Mar 2026 | [[Starwood Capital Group\|Starwood]] SREIT | 5.4% of Class S + I shares | 24-29% (with [[Saba Capital]]) |
 
 The FSSL board recommended shareholders reject Cox's offer, citing undervaluation and pending exchange-listing plans.
 
@@ -48,4 +49,6 @@ The FSSL board recommended shareholders reject Cox's offer, citing undervaluatio
 - [[Blue Owl]] — tender offer target (OBDC II, OTIC, OCIC)
 - [[Blue Owl OBDC II redemption gate]] — catalyst for Blue Owl tender offers
 - [[Business Development Company]] — target sector
+- [[Starwood Capital Group]] — SREIT tender offer target (Mar 2026)
+- [[Private credit retail liquidity crisis 2026]] — market context for illiquidity arbitrage campaign
 - [[Private credit]] — market context
