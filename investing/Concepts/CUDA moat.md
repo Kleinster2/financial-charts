@@ -56,6 +56,7 @@ Same dynamic: accumulated knowledge creates switching costs.
 - PyTorch improving non-CUDA support
 - Hyperscalers want alternatives (cost, supply)
 - Open source pressure on CUDA lock-in
+- [[Rivos]] taped out a CUDA-compatible RISC-V processor before being acquired by [[Meta]] (Sep 2025) — proves CUDA code can run on non-NVIDIA silicon
 
 **Signs of durability:**
 - Inertia — existing codebases are CUDA
@@ -85,6 +86,12 @@ Pattern: NVIDIA buying infrastructure that competitors also rely on. Each layer 
 
 ---
 
+## VC perspective: software ecosystem is the real moat
+
+[[Sriram Viswanathan]] ([[Celesta Capital]], 30+ years in semiconductors/VC, ex-[[Intel Capital]]) in a March 2026 interview: "NVIDIA has actually built a pretty powerful moat around their products... It's no longer just about semiconductors. It's about the software ecosystem. It's about their ability to go into the developer ecosystem to really have all of these frontier models and everything else in the applications and services get built on that capability." His view: hyperscalers are investing heavily in alternatives but must "very delicately balance their existing customer-supplier relationship with NVIDIA. Everybody wants to get out of that jail, but some of them are probably better positioned than others." Training remains NVIDIA-dominant for the foreseeable future; inference is where decoupling happens first.
+
+---
+
 ## Current view
 
 CUDA moat is real but not permanent. AMD has moved from "0% chance" to "non-zero chance" of challenging it. Timeline: 2-4 years to know if AMD software reaches parity.
@@ -97,5 +104,7 @@ SLURM acquisition is a defensive move — NVIDIA locking down another layer befo
 
 - [[NVIDIA]] — owner (CUDA software ecosystem)
 - [[AMD]] — challenger (ROCm, NodAI acquisition)
+- [[Rivos]] — CUDA-compatible RISC-V processor (acquired by [[Meta]])
+- [[Celesta Capital]] — VC perspective on software moat ([[Sriram Viswanathan]])
 - [[Customer lock-in via co-design]] — mechanism (same dynamic as foundry PDKs)
 - [[Process design kit]] — analogy (switching costs from accumulated knowledge)

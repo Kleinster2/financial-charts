@@ -3,7 +3,13 @@ aliases: []
 ---
 #actor #ai #semiconductor #usa #private
 
-**SambaNova** — Reconfigurable dataflow AI chips. Enterprise focus. $5B+ valuation.
+**SambaNova** — Reconfigurable dataflow AI chips. Enterprise focus. $5B+ valuation. [[Intel]] commercial partnership announced early 2026.
+
+---
+
+## Intel partnership (2026)
+
+[[Intel]] announced a substantial commercial partnership with SambaNova in early 2026. [[Lip-Bu Tan]], Intel's CEO, is simultaneously chairman of SambaNova and a co-founder of [[Celesta Capital]], which is an early investor. Intel reportedly explored acquiring SambaNova outright before settling on the commercial relationship — per [[Sriram Viswanathan]] (Celesta co-founder): "The opportunity ahead for SambaNova is quite substantial." The partnership is particularly relevant for [[Sovereign AI race|sovereign AI]] deployments, where governments want non-NVIDIA alternatives with full-stack solutions. SambaNova retains independence and optionality to build a large business both with and independent of Intel.
 
 ---
 
@@ -141,7 +147,11 @@ Not competing for hyperscaler business.
 ## Related
 
 - [[NVIDIA]] — competitor (GPU dominance)
+- [[Intel]] — commercial partner (2026); CEO [[Lip-Bu Tan]] is SambaNova chairman
+- [[Celesta Capital]] — early investor; co-founders include Lip-Bu Tan and [[Sriram Viswanathan]]
 - [[Cerebras]] — peer (alternative AI chip)
 - [[Groq]] — peer (inference chip competitor)
 - [[Tenstorrent]] — peer (AI accelerator)
+- [[Tensordyne]] — peer (inference chip, also Celesta portfolio)
+- [[Sovereign AI race]] — key market for Intel-SambaNova partnership
 

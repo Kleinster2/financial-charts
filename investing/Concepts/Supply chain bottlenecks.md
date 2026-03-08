@@ -29,6 +29,26 @@ Even if one layer loosens, others constrain. "Solving" fab capacity doesn't help
 
 ---
 
+## Constraint flow thesis
+
+[[Sriram Viswanathan]] ([[Celesta Capital]], ex-[[Intel Capital]]) articulated a sequential constraint migration model in March 2026: as each layer of AI infrastructure saturates, the bottleneck migrates downstream.
+
+**The flow: GPU → Memory → Networking → Power management → Energy**
+
+| Phase | Constraint | Investment window |
+|-------|-----------|-------------------|
+| **1. GPU** | Core compute | 2020–2024 (mostly played out at venture level) |
+| **2. Memory** | [[HBM]], DRAM | Current — [[Micron]], SK Hynix supply-constrained |
+| **3. Networking** | Interconnect, coherency | Emerging — [[Upscale AI]], [[Astera Labs]], [[Broadcom]] |
+| **4. Power management** | In-rack power delivery | Next — data center power architecture |
+| **5. Energy** | Raw generation, grid | Structural — [[Power constraints]], nuclear, BYOG |
+
+Sriram's framing: "Where is the constraint moving? From GPU to memory to networking to power management to energy — that sort of flow is likely to occur." Each transition creates a venture window before incumbents consolidate — and Celesta has portfolio companies positioned at each layer.
+
+**Watch signal:** [[Broadcom]] earnings language on networking supply constraints as indicator of Phase 3 intensifying.
+
+---
+
 ## Materials layer (emerging)
 
 InP (Indium Phosphide) substrates for optical interconnects:
@@ -49,3 +69,6 @@ InP (Indium Phosphide) substrates for optical interconnects:
 - [[TSMC]] — layer (sub-3nm capacity tight)
 - [[Gallium]] — material ([[China]] export controls)
 - [[Germanium]] — material ([[China]] export controls)
+- [[Celesta Capital]] — constraint flow thesis source ([[Sriram Viswanathan]])
+- [[Upscale AI]] — networking layer challenger
+- [[NVLink]] — networking layer incumbent
