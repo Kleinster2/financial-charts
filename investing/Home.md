@@ -165,7 +165,8 @@ High-signal concepts to track:
 
 - [[Meta/CLAUDE.md|Vault guidelines]]
 - [[Meta/Taxonomy discussion|Taxonomy discussion]]
+- [[Meta/Vault cleanup plan|Vault cleanup plan]]
 
 ---
 
-*Last updated: 2026-01-09*
+*Last updated: 2026-03-08*

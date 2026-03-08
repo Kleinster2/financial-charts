@@ -227,6 +227,27 @@ Segment charts (12 quarters):
 
 ---
 
+## Segment reporting & YouTube disclosure
+
+Alphabet reports three segments under ASC 280 (FASB segment reporting standard): **Google Services**, **Google Cloud**, and **Other Bets**. [[YouTube]] is not a separate reportable segment — it sits inside Google Services alongside Search, Android, Chrome, Play, and hardware.
+
+What Alphabet discloses voluntarily (starting Q4 2019 earnings, Feb 2020):
+- **YouTube ads revenue** — broken out as a line item within Google Services revenue (see quarterly table above)
+- **YouTube subscriptions** — disclosed within "Subscriptions, platforms, and devices" (bundled with YouTube Premium, Pixel, Google One)
+
+What Alphabet does **not** disclose:
+- YouTube operating costs, margins, or profitability
+- YouTube infrastructure/Cloud allocation
+- YouTube content acquisition costs (buried in TAC and content costs across Google Services)
+
+[[Sundar Pichai]] chose to break out YouTube ads revenue voluntarily in Feb 2020 to highlight scale (~$15B ads at the time) — YouTube was being undervalued inside the Google Services blob. No [[SEC]] mandate required it.
+
+**ASU 2023-07 implications:** The updated ASC 280 (effective FY2024) requires disclosure of "significant segment expenses regularly provided to the [[CODM]]." If Pichai reviews YouTube P&L internally — which he almost certainly does — there's a theoretical basis for the [[SEC]] to push for more granularity. But as long as YouTube isn't managed as a separate operating segment with its own CODM-level review, Alphabet can keep it bundled.
+
+Alphabet's stated rationale for not breaking out a full [[YouTube]] P&L: YouTube is deeply integrated into Google's infrastructure (shared data centers, shared ad stack, shared login/identity), making a standalone P&L "somewhat artificial." The market has wanted a full YouTube P&L for years.
+
+---
+
 ## DeepMind / Gemini
 
 Google's AI research arm:

@@ -142,6 +142,23 @@ Live TV streaming. 8M+ subscribers. $72.99/month. Largest internet-delivered liv
 | CEO | Neal Mohan | Feb 2023 |
 | Prior CEO | Susan Wojcicki | 2014-2023 (died Aug 2024) |
 
+## Financial disclosure
+
+YouTube's financials are **not separately reported** under ASC 280. [[Alphabet]] treats it as part of the **Google Services** segment alongside Search, Android, Chrome, Play, and hardware. Investors see YouTube ads revenue as a line item, but no YouTube-specific costs, margins, or operating income.
+
+| Disclosed | Not disclosed |
+|-----------|---------------|
+| YouTube ads revenue (quarterly) | Operating costs |
+| Subscriptions (bundled with Premium, Pixel, Google One) | Content acquisition costs |
+| | Infrastructure/Cloud allocation |
+| | Operating income / margins |
+
+[[Sundar Pichai]] began voluntarily disclosing YouTube ads revenue in Q4 2019 earnings (Feb 2020) — no [[SEC]] mandate required it. The rationale was that YouTube was being undervalued inside the Google Services blob (~$15B ads at the time).
+
+Alphabet's defense for not breaking out a full P&L: YouTube shares data centers, ad stack, and login/identity infrastructure with the rest of Google Services, making a standalone P&L "somewhat artificial." The **ASU 2023-07** update to ASC 280 (effective FY2024) requires disclosure of significant segment expenses regularly provided to the [[CODM]] — if the [[SEC]] pressed, Pichai's internal YouTube reviews could trigger more granular disclosure. But as long as YouTube isn't managed as a separate operating segment, Alphabet can keep it bundled.
+
+The ~$550B implied valuation and $7.8B operating income estimate in Quick Stats above are analyst estimates (Morgan Stanley SOTP), not company-reported figures.
+
 ## Investment exposure
 
 **No direct investment** — YouTube is a segment of [[Alphabet]] (GOOGL/GOOG).

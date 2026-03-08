@@ -114,8 +114,8 @@ Bear:
 
 ## Price chart
 
-![[ibit-price-chart.png]]
-*IBIT since inception (Jan 2024). Peaked at $71.82, now $38.60 — down 46% from highs as Bitcoin corrects from $100K+ levels.*
+![[ibit-vs-btc-usd-price-chart.png]]
+*IBIT (blue) vs BTC-USD (red), normalized since inception (Jan 2024). Near-perfect tracking — the slight underperformance is the 0.25% annual fee drag. Both up ~50% from launch despite the -46% drawdown from highs.*
 
 ---
 

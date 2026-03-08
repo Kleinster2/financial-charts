@@ -1,4 +1,4 @@
-			
+
 ![[es-vs-nq-vs-cl-vs-gc-futures-2025.png]]
 *ES · NQ · CL · GC futures — live via `fill_live_futures.py`*
 

@@ -146,6 +146,7 @@ Start server: `cd /c/Users/klein/financial-charts && python charting_app/app.py`
 - Verify output by checking file size (`wc -c`) before reading images — files under 1KB are errors, not PNGs
 - **Charts must live in notes** — never save to attachments without embedding in a relevant note
 - **Every chart needs a corresponding data table** — reader should see the underlying numbers, not just the visualization
+- **ETF/fund benchmark charts** — any ETF or fund with a benchmark must have a normalized comparison chart plotting the fund against its benchmark (e.g., IBIT vs BTC-USD, a tech ETF vs QQQ). Use `/api/chart/lw` with `normalize=true`. The benchmark chart replaces a solo price chart — no need for both.
 
 ### Chart Naming Convention (CRITICAL)
 

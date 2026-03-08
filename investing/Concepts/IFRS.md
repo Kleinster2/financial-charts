@@ -1,5 +1,5 @@
 ---
-aliases: [International Financial Reporting Standards, IFRS 10, IFRS consolidation, IFRS 9, IFRS 16, IFRS 17, IFRS 18]
+aliases: [International Financial Reporting Standards, IFRS 10, IFRS consolidation, IFRS 9, IFRS 8, IFRS 16, IFRS 17, IFRS 18]
 ---
 #concept #accounting
 
@@ -61,6 +61,32 @@ When consolidation is triggered, the subsidiary's entire balance sheet (all asse
 ### Raizen example
 
 [[Shell]] holds 44% of [[Raizen]]. If Shell injected enough capital to cross 50%, IFRS 10 would require Shell to consolidate [[Raizen]]'s R$76.8B gross debt ($14.3B) onto its own balance sheet. This is a key reason Shell refuses to increase its stake — the accounting consequence outweighs the strategic benefit. See [[Brazil corporate bond rout February 2026]].
+
+---
+
+## IFRS 8: Operating Segments
+
+The international equivalent of [[ASC 280]]. Uses the same [[CODM]] concept — segments are defined by what the chief operating decision maker actually reviews, not by legal structure or org charts.
+
+### Key mechanics
+
+| Feature | IFRS 8 | [[ASC 280]] |
+|---------|--------|---------|
+| Segment definition | Based on CODM review | Based on CODM review |
+| Quantitative thresholds | 10% revenue, profit/loss, or assets | Same |
+| 75% coverage rule | Reported segments must cover ≥75% of external revenue | Same |
+| Aggregation | Permitted if "similar economic characteristics" | Same |
+| CODM expense disclosure | Not required (no equivalent of ASU 2023-07) | Required from FY2024 |
+
+The standards are converged on fundamentals but diverged with ASU 2023-07: US companies must now disclose significant segment expenses provided to the CODM, while IFRS 8 has no equivalent requirement. This means US-listed companies face stricter segment cost disclosure than IFRS reporters — a rare case where US GAAP is more demanding.
+
+### Post-implementation review (2013)
+
+The [[IASB]] reviewed IFRS 8 in 2013 and found that while it increased the number of reported segments (vs the prior standard IAS 14R), companies were gaming aggregation criteria to reduce transparency. The IASB considered amendments but ultimately made no changes — the standard's weaknesses remain.
+
+### Investor implication
+
+When comparing a US-listed conglomerate to an IFRS-reporting peer, the US company will generally provide more granular segment cost data (post ASU 2023-07). For revenue and segment identification, the frameworks are functionally identical.
 
 ---
 
