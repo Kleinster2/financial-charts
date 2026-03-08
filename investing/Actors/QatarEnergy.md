@@ -31,6 +31,10 @@ The [[2026 Iran conflict market impact|Iran conflict]] triggered the most signif
 | Mar 2 | **[[Ras Laffan]] — world's largest LNG terminal — shuts down operations.** First operational shutdown in history. Plugged into the North Field, the single largest gas field on earth (shared Qatar/Iran). |
 | Mar 4 | QatarEnergy **declares force majeure on LNG shipments** (Reuters). Liquefaction plants shut down — gas must be cooled to -260°F, and the shutdown/restart cycle takes **weeks minimum**. Cannot simply flip back on. |
 
+### Operational status (Mar 8 update — MEI briefing)
+
+As of March 8, QatarEnergy is **only shipping LNG from existing storage** — not producing. Liquefaction plants remain shut. The force majeure covers all forward commitments. Restart timeline remains **weeks minimum** regardless of any ceasefire — the cooling process cannot be rushed. Meanwhile, [[Strait of Hormuz]] traffic down to ~3 tankers/day exiting (vs normal ~50), making even storage shipments near-impossible.
+
 ### Impact
 
 - [[Qatar]] supplies ~20% of global [[LNG]] trade

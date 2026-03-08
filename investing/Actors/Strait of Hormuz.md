@@ -44,11 +44,14 @@ Strategic waterway between [[Iran]] and Oman connecting the Persian Gulf to the 
 
 | Date | Strait traffic | Notes |
 |------|---------------|-------|
-| Feb 27 (pre-strike) | Normal (~100 ships/day) | — |
+| Feb 27 (pre-strike) | Normal (~50 tankers + other vessels/day) | — |
 | Feb 28 (strikes break) | Visibly thinning | Ships collecting outside |
 | Mar 1 | **-75%** | Insurance withdrawal begins |
 | Mar 2 | ~6 ships (vs ~100 normal) | Effectively closed |
 | Mar 4-7 | **Near zero** | ~700 ships idle; 86% traffic decline |
+| Mar 6 | **3 tankers exited** (vs normal ~50/day) | MEI briefing, Dr. Karen Young |
+
+Iranian tankers **ironically still getting through** — Tehran's own crude exports continue while blocking everyone else's transit.
 
 ### Impact beyond oil
 
@@ -65,7 +68,14 @@ Strategic waterway between [[Iran]] and Oman connecting the Persian Gulf to the 
 | Crude oil | ~20%+ |
 | Petrochemicals / pharma inputs | Significant (unquantified) |
 
-**No viable alternatives:** The East-West Pipeline ([[Saudi Arabia]]) can reroute some crude to the Red Sea, but limited spare capacity. Bab el-Mandeb Strait already disrupted by Houthi attacks. Cape of Good Hope adds weeks but **no alternative exists for Hormuz-dependent LNG flows**. [[Iraq]] shut down Rumaila — the world's largest oilfield — on Mar 4 after storage tanks reached critical levels: if you can't ship, you can't store, and if you can't store, you shut in production.
+**Pipeline bypass — quantified (MEI briefing, Mar 8):**
+
+| Pipeline | Capacity | Effective limit | Current use | Constraint |
+|----------|----------|-----------------|-------------|------------|
+| [[Saudi Aramco\|Saudi]] East-West (Petroline) to [[Yanbu]] | 5-7 mb/d | **~3 mb/d** | 1.9 mb/d | Yanbu port loading infrastructure |
+| [[UAE]] Habshan-[[Fujairah]] | **400k bpd** | Minimal | Near zero | Tankers reluctant after Fujairah attacks |
+
+Even maxing Yanbu adds only ~1.1 mb/d incremental — a fraction of 15+ mb/d normally transiting Hormuz. Bab el-Mandeb Strait already disrupted by Houthi attacks. Cape of Good Hope adds weeks but **no alternative exists for Hormuz-dependent LNG flows**. [[Iraq]] shut down Rumaila — the world's largest oilfield — on Mar 4 after storage tanks reached critical levels. Iraq has now shut in **>1.5 mb/d** total, [[Kuwait]] following. If Gulf shutins reach 9 mb/d = >10% of global supply offline. Wells may not restart cleanly — reservoir damage and water intrusion risk permanent production impairment.
 
 ### IEA/OPEC response
 
@@ -93,4 +103,4 @@ The most significant oil supply disruption since the 1973 Arab oil embargo. See 
 
 ---
 
-*Updated 2026-03-07*
+*Updated 2026-03-08*

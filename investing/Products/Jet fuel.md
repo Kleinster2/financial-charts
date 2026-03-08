@@ -141,6 +141,32 @@ Global SAF production: ~1 Mt in 2024, vs ~300 Mt total jet fuel consumption — 
 
 ---
 
+## Iran conflict impact (March 2026)
+
+[[Operation Epic Fury]] created the sharpest jet fuel supply disruption since the 1970s. Product markets — diesel, jet fuel — are seeing **steeper price increases than crude itself**, consistent with the refined product amplification observed in every supply shock (CNBC, Mar 3: European diesel surged 20% vs crude's 9% on a single day).
+
+### Why jet fuel is hit hardest
+
+The [[GCC]] states are major jet fuel exporters. [[Saudi Arabia]], [[Kuwait]], [[UAE]], and [[Qatar]] collectively supply a significant share of global kerosene/jet fuel, refined at Gulf refineries and shipped through the [[Strait of Hormuz]]. With Hormuz effectively closed (~3 tankers/day exiting vs normal ~50), these product flows have halted alongside crude.
+
+| Factor | Impact |
+|--------|--------|
+| Gulf product exports halted | Direct supply loss — GCC refineries can't ship |
+| Crude feedstock surge | Brent $92, Dubai/Murban >$103 — refinery input costs soaring |
+| Crack spreads widening | Already elevated ($26/bbl IATA est.) — now expanding further |
+| Route disruptions | Middle East airspace restrictions forcing longer flights → more fuel burn per flight |
+| Airport disruptions in Gulf | [[Dubai]], [[Doha]], [[Abu Dhabi]] — major hub airports impacted |
+
+### Airlines double-hit
+
+Airlines face a dual headwind: fuel cost surge + route/hub disruption. [[Emirates]], [[Qatar Airways]], and [[Etihad]] depend on Gulf hub models that route through the conflict zone. Even non-Gulf carriers face higher fuel costs — jet fuel is a global market, and the supply removal ripples worldwide.
+
+US gasoline at ~$3/gallon (same as year ago) suggests the product market tightness hasn't fully passed through to US consumers yet — but jet fuel's thinner market and fewer hedging options make it more volatile than gasoline.
+
+See [[Iran conflict energy disruption]] for the full energy market analysis and [[2026 Iran conflict market impact]] for cross-asset impact.
+
+---
+
 ## Investment implications
 
 ### For airlines

@@ -83,6 +83,23 @@ Ras Tanura had been targeted before (2019 Abqaiq-Khurais attacks temporarily kno
 
 ---
 
+## East-West pipeline bottleneck (March 2026)
+
+With the [[Strait of Hormuz]] effectively closed, the Saudi East-West pipeline (Petroline) to [[Yanbu]] on the Red Sea is the only meaningful crude bypass route. But port infrastructure is the binding constraint:
+
+| Metric | Value |
+|--------|-------|
+| Pipeline capacity | 5 mb/d (possibly 7 mb/d) |
+| Yanbu port loading capacity | **~3 mb/d** |
+| Current throughput | **1.9 mb/d** |
+| Gap vs Hormuz crude flows | ~12+ mb/d unmet |
+
+Even maximizing Yanbu loading to ~3 mb/d adds only ~1.1 mb/d of incremental flow — a fraction of the 15+ mb/d normally transiting Hormuz. The pipeline was never designed to replace Hormuz; it was emergency redundancy for Aramco's own exports. US Embassy in Riyadh warned of imminent drone/rocket attacks on Dhahran — home of Aramco HQ — adding operational risk on top of the shipping disruption.
+
+See [[Iran conflict energy disruption#Pipeline alternatives — severely bottlenecked]] for the full bypass analysis.
+
+---
+
 ## Investment case
 
 **Bull:**

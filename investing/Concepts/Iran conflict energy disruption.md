@@ -182,6 +182,79 @@ Gas prices up 7% in days creates immediate consumer pain — the political dimen
 
 ---
 
+---
+
+## Week 2 — MEI briefing assessment (March 8)
+
+Source: [[Middle East Institute]] virtual briefing, "Operation Epic Fury: What Comes Next?" — Gen. Joseph Votel (former [[CENTCOM]] commander), Dr. Karen Young ([[MEI]]/Columbia), moderated by Ken Pollack. [YouTube](https://www.youtube.com/live/YemEawWNxFo)
+
+### Strait of Hormuz — granular traffic data
+
+As of March 6, only **3 tankers exited** the [[Strait of Hormuz]] vs a normal ~50/day. [[QatarEnergy]] declared force majeure and closed [[Ras Laffan]] — now only shipping LNG from existing storage, not producing. Ironically, **Iranian tankers are still getting through** the Strait — Tehran's own crude exports continue while blocking everyone else's.
+
+Normal Hormuz throughput: ~15 mb/d crude + ~4 mb/d refined products + ~20% of global [[LNG]].
+
+### Production shutins — the well restart risk
+
+[[Iraq]] has shut in **>1.5 mb/d** of production. [[Kuwait]] following. If Gulf shutins reach **9 mb/d**, that's >10% of global oil supply offline. The operational risk: shutins are not risk-free. Wells — particularly older ones in [[Iraq]] and [[Kuwait]] — **may not restart cleanly**. Reservoir damage, water intrusion, and equipment degradation mean some production could be permanently impaired even after the conflict ends.
+
+### Pipeline alternatives — severely bottlenecked
+
+The vault's Mar 5 note correctly identified "no good alternatives." The MEI briefing quantifies why:
+
+| Pipeline | Capacity | Effective throughput | Constraint |
+|----------|----------|---------------------|------------|
+| [[Saudi Aramco\|Saudi]] East-West (Petroline) | 5 mb/d (maybe 7 mb/d) | **1.9 mb/d** currently | [[Yanbu]] port can only **load ~3 mb/d** — port infrastructure is the bottleneck, not pipe capacity |
+| [[UAE]] Habshan-Fujairah | **400k bpd** only | Minimal | Tankers reluctant to call at [[Fujairah]] after Iranian attacks on the port |
+
+The Saudi East-West pipeline is the only meaningful bypass. But even at maximum, Yanbu's loading capacity (~3 mb/d) can't compensate for 15+ mb/d of Hormuz crude flows. The UAE's Fujairah pipeline is negligible — and attack risk has made it functionally useless.
+
+### Pricing — Dubai/Murban hits triple digits
+
+| Benchmark | Level (~Mar 8) | Move since pre-strike |
+|-----------|---------------|----------------------|
+| [[Brent]] | ~$92/bbl | +33% (from ~$65 on Feb 9) |
+| Dubai/[[Murban]] | **>$103/bbl** | Triple digits — first time since 2022 |
+| VLCC tanker rates | **+~200%** | |
+| European LNG spot | Spiking | +55% TTF in 10 days |
+| US gasoline | ~$3/gallon | Same as year ago — not yet alarming |
+
+**Dubai/Murban above $103** is the critical data point. Brent at $92 understates the physical market tightness — the Middle East benchmarks that reflect actual Gulf crude pricing are already in triple digits. Product markets ([[Jet fuel|jet fuel]], diesel) seeing the **sharpest increases** of any category, consistent with the Mar 3 CNBC observation that refined products outpace crude.
+
+### Russia benefiting
+
+Two new developments in the last 48 hours:
+- **US relaxed sanctions on [[Russia]]n crude exports to [[India]]** — a tacit acknowledgment that removing Gulf barrels from the market requires backfilling from somewhere. Russia is the obvious source, and Washington is quietly enabling it
+- [[Russia]] squeezing [[Europe]] harder on gas — with [[Qatar]] offline, Europe's LNG alternatives are limited. US exporters ([[Cheniere]], [[Venture Global]]) are near capacity. Russia's leverage increases
+
+*Note: Russia also reportedly providing targeting intelligence to Iran — see geopolitics vault for the military dimension.*
+
+### US mitigation tools — limited
+
+| Tool | Status | Assessment |
+|------|--------|-----------|
+| [[SPR]] release | Not interested yet | White House hasn't signaled willingness |
+| [[DFC]] political risk insurance | $20B facility announced | Probably not big enough — ~$150B authorized through 2031, but current deployment tiny |
+| Tanker escorts | Politically tricky | Whose tankers? ~80% of Hormuz [[LNG]] goes to Asia — US taxpayer subsidizing Asian energy security is a hard political sell |
+| Insurance market | Prohibitively expensive | War-risk premiums have made Gulf transit uneconomic for most operators |
+
+The DFC (US International Development Finance Corporation) facility is an attempt to restart shipping by backstopping insurance, but $20B is inadequate for the scale of trade at risk. The tanker escort question exposes a fundamental tension: the US has strategic interest in keeping Hormuz open, but the primary beneficiaries are Asian importers.
+
+### Gulf economic model under threat
+
+Beyond energy, the conflict threatens the [[GCC]]'s post-oil economic diversification:
+- **Data centers** in [[UAE]] and [[Bahrain]] targeted by Iranian strikes — directly threatens the tech/AI hub ambitions that underpin [[Abu Dhabi]] and [[Dubai]]'s economic models
+- **Airport disruptions** are the most psychologically impactful for expat populations — 90% of [[UAE]] and [[Qatar]] populations are non-nationals. Sustained conflict risks an expat exodus that would hollow out the services economy
+- Gulf economic model depends on perception of stability and safety; that perception is now shattered
+
+### Defense supply chain — munitions burn rate (market relevant)
+
+US and Gulf allies burning through American-supplied interceptor stocks at unsustainable rates. [[UAE]], [[Saudi Arabia]], [[Bahrain]], and [[Kuwait]] all use US equipment — [[Patriot]], [[THAAD]], [[NASAMS]]. Industry meetings ongoing to accelerate resupply. This creates demand pressure on [[RTX]], [[Lockheed Martin]], [[Northrop Grumman]], and [[L3Harris]] beyond what's reflected in their already-elevated prices. The constraint is manufacturing capacity, not orders — defense primes can't ramp interceptor production fast enough.
+
+See [[Iran conflict defense repricing]] for equity-level detail.
+
+---
+
 TTF chart and full data table in [[Natural gas#European gas — TTF benchmark]].
 
 ## Brent $92.69, WTI $90.90 — Day 9 (March 7)

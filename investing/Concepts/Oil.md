@@ -109,12 +109,56 @@ aliases: [crude oil, petroleum, WTI, Brent]
 
 | Factor | Status |
 |--------|--------|
-| Price | ~$70-75 Brent |
-| Supply | Oversupplied near-term |
-| [[OPEC]]+ | Managing cuts |
+| Price | ~$70-75 Brent pre-crisis → **$92+ Brent, >$103 Dubai/Murban** (Mar 8) |
+| Supply | [[Strait of Hormuz]] effectively closed since Feb 28 — see crisis section below |
+| [[OPEC]]+ | Managing cuts; 206K bbl/day unwinding — inadequate vs disruption scale |
 | US shale | Disciplined, not flooding market |
 | [[Venezuela]] | [[Maduro capture 2026]] — potential supply increase |
-| Demand | Moderate growth |
+| Demand | Moderate growth; stagflation risk from oil shock + weak US payrolls |
+
+---
+
+## Strait of Hormuz crisis (March 2026)
+
+[[Operation Epic Fury]] — US-Israeli strikes on [[Iran]] beginning Feb 28 — triggered the most significant oil supply disruption since the 1973 Arab oil embargo. [[IRGC]] declared the [[Strait of Hormuz]] closed. As of March 8, only **3 tankers per day exiting** vs normal ~50/day (MEI briefing, Dr. Karen Young).
+
+### Scale of disruption
+
+| Metric | Normal | Crisis (Mar 8) |
+|--------|--------|----------------|
+| Hormuz crude transit | ~15 mb/d | Near zero |
+| Hormuz product transit | ~4 mb/d | Near zero |
+| Hormuz LNG share | ~20% of global | Halted — [[QatarEnergy]] force majeure |
+| Ships idle | 0 | ~700 |
+| [[Iraq]] production shut in | — | >1.5 mb/d |
+| [[Kuwait]] | — | Shutting in (following Iraq) |
+| Potential Gulf shutins | — | Up to 9 mb/d (>10% of global supply) |
+
+### Pricing impact
+
+| Benchmark | Pre-crisis (~Feb 9) | Pre-strike (Feb 27) | Mar 8 | Move |
+|-----------|---------------------|---------------------|-------|------|
+| Brent | $65 | ~$70 | **~$92** | +41% from Feb 9 |
+| WTI | — | ~$65 | **~$91** | +40%+ |
+| Dubai/Murban | — | — | **>$103** | Triple digits |
+| VLCC tanker rates | — | — | **+~200%** | |
+
+Dubai/Murban above $103 reflects physical market tightness more than Brent — the Middle East benchmarks where actual Gulf crude trades are already in triple digits. Product markets ([[Jet fuel|jet fuel]], diesel) seeing the **sharpest increases**.
+
+### Pipeline bypass — bottlenecked
+
+| Route | Capacity | Effective limit | Current use |
+|-------|----------|-----------------|-------------|
+| Saudi East-West (Petroline) to [[Yanbu]] | 5-7 mb/d pipe | **~3 mb/d** (Yanbu loading) | 1.9 mb/d |
+| UAE Habshan-[[Fujairah]] | 400k bpd | Minimal | Tankers reluctant (Fujairah attacked) |
+
+Even maxing out Yanbu loading, bypass capacity covers a fraction of the 15+ mb/d normally transiting Hormuz.
+
+### Well restart risk
+
+Shutins are not risk-free. Older wells in [[Iraq]] and [[Kuwait]] may not restart cleanly — reservoir damage, water intrusion, and equipment degradation mean some production could be permanently impaired. This is a structural supply risk that outlasts the conflict.
+
+For full market impact details, see [[2026 Iran conflict market impact]] and [[Iran conflict energy disruption]].
 
 ---
 
