@@ -1,5 +1,5 @@
 ---
-aliases: [Henry Hub, NatGas]
+aliases: [Henry Hub, NatGas, TTF, Dutch TTF]
 ---
 #concept #commodity #energy
 
@@ -126,6 +126,36 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 
 ---
 
+## European gas — TTF benchmark
+
+**Dutch TTF** (Title Transfer Facility) is the European gas benchmark, priced in EUR/MWh. Structurally higher than Henry Hub due to import dependency — Europe lacks domestic production at scale and relies on pipeline gas (Norway, formerly Russia) and LNG imports.
+
+![[ttf-price-2022.png]]
+*Dutch TTF Natural Gas futures (EUR/MWh) since 2022. The 2022 Russia-Ukraine shock sent TTF to ~€300/MWh. Post-crisis normalization to €25-50 range, with the March 2026 Iran conflict driving a +55% spike in 10 days.*
+
+| Date | TTF Close (EUR/MWh) | Context |
+|------|-------------------|---------|
+| Pre-2022 | ~€20-30 | Normal range |
+| Aug 2022 peak | ~€300+ | Russia-Ukraine shock |
+| 2023-2025 | €25-50 | Post-crisis normalization |
+| Feb 27, 2026 | ~€35 | Pre-Iran conflict |
+| Mar 3, 2026 | €54.29 | Qatar LNG shutdown spike |
+| Mar 6, 2026 | €53.38 | Sustained elevation |
+
+### TTF vs Henry Hub
+
+| Factor | Henry Hub (US) | TTF (Europe) |
+|--------|---------------|--------------|
+| Unit | $/MMBtu | EUR/MWh |
+| Typical range | $2-5 | €25-50 |
+| Supply | Domestic shale | Imports (LNG, pipeline) |
+| Geopolitical sensitivity | Low | **Very high** |
+| Iran conflict impact | Minimal | **+55% in 10 days** |
+
+The US-Europe price disconnect is structural: Henry Hub is insulated from global shocks by abundant domestic shale production. TTF is exposed to every supply disruption that touches LNG shipping or pipeline flows. This is why the [[2026 Iran conflict market impact|Iran conflict]] barely moved US gas prices while European gas surged — the [[Strait of Hormuz]] closure and [[QatarEnergy]] force majeure hit Europe's import-dependent supply chain directly.
+
+---
+
 ## vs Oil
 
 | Factor | Natural Gas | Oil |
@@ -137,7 +167,7 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 
 ---
 
-*Created 2026-01-05*
+*Created 2026-01-05. Updated 2026-03-07.*
 
 ---
 
@@ -147,3 +177,7 @@ Current weakness (Jan 2026): Warmer-than-normal forecasts pressuring prices.
 - [[Oil]] — energy complex
 - [[Power constraints]] — AI demand context
 - [[Clean energy for AI]] — gas as bridge fuel
+- [[Strait of Hormuz]] — chokepoint for LNG/gas flows
+- [[QatarEnergy]] — world's largest LNG producer
+- [[Iran conflict energy disruption]] — TTF spike context
+- [[EQT]] — largest US gas producer

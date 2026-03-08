@@ -182,18 +182,7 @@ Gas prices up 7% in days creates immediate consumer pain — the political dimen
 
 ---
 
-![[ttf-price-2022.png]]
-*Dutch TTF Natural Gas futures (EUR/MWh) since 2022. The Iran conflict spike to ~€53 is significant but contextually modest vs the Aug 2022 peak (~€300+). The velocity of the move — +55% in 10 days — is comparable to the early days of the Russia-Ukraine shock.*
-
-| Date | TTF Close (EUR/MWh) | Context |
-|------|-------------------|---------|
-| Feb 27, 2026 | ~€35 | Pre-strike baseline |
-| Mar 2 | €44.51 | Hormuz closure, European gas +23% |
-| Mar 3 | €54.29 | Qatar LNG shutdown, +54% spike (Bloomberg) |
-| Mar 4 | €48.77 | QatarEnergy force majeure; brief pullback |
-| Mar 5 | €50.73 | Sustained elevation |
-| Mar 6 | €53.38 | Highest since Feb 2025 |
-| *Aug 2022 peak* | *~€300+* | *Russia-Ukraine shock (comparison)* |
+TTF chart and full data table in [[Natural gas#European gas — TTF benchmark]].
 
 ## Brent $92.69, WTI $90.90 — Day 9 (March 7)
 
